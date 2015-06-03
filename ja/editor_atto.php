@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['autosavefailed'] = 'サーバに接続できませんでした。このページを送信した場合、あなたの変更を失うことになります。';
 $string['autosavefrequency'] = '自動保存頻度';
-$string['autosavefrequency_desc'] = 'これは自動保存間の秒数です。同じユーザが同じフォームに戻った時点で自動的にテキストがリストアされるよう、Attoはこの設定をもとにエディタのテキストを自動保存します。';
+$string['autosavefrequency_desc'] = 'これは自動保存間の秒数です。同じユーザが同じフォームに戻った時点で自動的にテキストがリストアされるようAttoはこの設定をもとにエディタのテキストを自動保存します。';
 $string['autosavesucceeded'] = '下書きが保存されました。';
 $string['editor_command_keycode'] = 'Cmd + {$a}';
 $string['editor_control_keycode'] = 'Ctrl + {$a}';

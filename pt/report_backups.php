@@ -30,4 +30,5 @@ $string['logsofbackupexecutedon'] = 'Registos de cópia de segurança executados
 $string['nobackupsfound'] = 'Não foram encontradas cópias de segurança.';
 $string['nologsfound'] = 'Não foram encontrados registos para esta cópia de segurança.';
 $string['pluginname'] = 'Relatório de cópias de segurança';
+$string['strftimetime'] = '%I:%M:%S %p';
 $string['viewlogs'] = 'Ver registos';

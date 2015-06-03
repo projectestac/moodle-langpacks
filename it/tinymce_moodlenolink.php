@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['moodlenolink:desc'] = 'Evita il link automatico';
-$string['pluginname'] = 'Evita il link automatico';
+$string['moodlenolink:desc'] = 'Evita i link automatici';
+$string['pluginname'] = 'Evita link automatici';

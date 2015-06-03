@@ -41,7 +41,7 @@ $string['all'] = 'Alle';
 $string['allmethod'] = 'Er is aan alle geselecteerde voorwaarden voldaan.';
 $string['allmethodactivity'] = 'Alle geselecteerde activiteiten zijn voltooid.';
 $string['allmethodcourseset'] = 'Alle geselecteerde cursussen zijn voltooid.';
-$string['allmethodmanual'] = 'Alle geselecteerde rollen krijgen de badge.';
+$string['allmethodmanual'] = 'Alle geselecteerde rollen kennen de badge toe.';
 $string['allmethodprofile'] = 'Alle geselecteerde profielvelden zijn aangevuld.';
 $string['allowcoursebadges'] = 'Cursus-badges inschakelen';
 $string['allowcoursebadges_desc'] = 'Toestaan om badges te maken en toe te kennen op cursusniveau.';
@@ -53,7 +53,7 @@ $string['any'] = 'Gelijk welke';
 $string['anymethod'] = 'Aan gelijk welke van de geselecteerde voorwaarden is voldaan.';
 $string['anymethodactivity'] = 'Gelijk welke van de geselecteerde activiteiten zijn voltooid.';
 $string['anymethodcourseset'] = 'Gelijk welke van de geselecteerde cursussen is voltooid.';
-$string['anymethodmanual'] = 'Gelijk welke van de geselecteerde rollen krijgt de badge.';
+$string['anymethodmanual'] = 'Gelijk welke van de geselecteerde rollen kennen de badge toe.';
 $string['anymethodprofile'] = 'Gelijk welke van de geselecteerde profielvelden is aangevuld.';
 $string['archivebadge'] = 'Zou je badge \'{$a}\' willen verwijderen maar de bestaande uitgereikte badge willen behouden?';
 $string['archiveconfirm'] = 'Verwijder en behoudt de bestaande uitgereikte badges';
@@ -143,7 +143,7 @@ $string['createbutton'] = 'Maak badge';
 $string['creatorbody'] = '<p>{$a->user} heeft aan alle criteria voor een badge voldaan en de badge is aan hem uitgereikt. Bekijk de uitgereikte badge op  {$a->link} </p>';
 $string['creatorsubject'] = '\'{$a}\' is bekroond!';
 $string['criteria_0'] = 'De badge wordt toegekend als ...';
-$string['criteria_1'] = 'Activieteiten voltooien';
+$string['criteria_1'] = 'Activiteiten voltooien';
 $string['criteria_1_help'] = 'Maakt het mogelijk een badge toe te kennen gebaseerd op het voltooien van een aantal activiteiten binnen een cursus.';
 $string['criteria_2'] = 'Manueel uitgeven door rol';
 $string['criteria_2_help'] = 'Maakt het mogelijk om manueel een badge uit te reiken door gebruikers met deze rol binnen de site of cursus.';
@@ -160,7 +160,7 @@ $string['criteriadeleted'] = 'Badge criteria verwijderen gelukt';
 $string['criteria_descr'] = 'Gebruikers krijgen deze badge als ze aan volgende criteria voltooien:';
 $string['criteria_descr_0'] = 'Gebruikers krijgen deze badge als ze <strong>{$a}</strong> van de criteria in de lijst voltooien.';
 $string['criteria_descr_1'] = '<strong>{$a}</strong> van volgende activiteiten zijn voltooid.';
-$string['criteria_descr_2'] = 'Deze badge moet uitgerijkt worden aan gebruikers met <strong>{$a}</strong> van volgende rollen:';
+$string['criteria_descr_2'] = 'Deze badge moet uitgereikt worden door gebruikers met <strong>{$a}</strong> van volgende rollen:';
 $string['criteria_descr_4'] = 'Gebruikers moeten de cursus voltooien';
 $string['criteria_descr_5'] = '<strong>{$a}</strong> van onderstaande cursussen zijn voltooid.';
 $string['criteria_descr_6'] = '<strong>{$a}</strong> van onderstaande gebruikersvelden moeten aangevuld worden:';
@@ -173,7 +173,7 @@ $string['criteria_descr_short4'] = 'Voltooi de cursus';
 $string['criteria_descr_short5'] = 'Voltooi <strong>{$a}</strong> van:';
 $string['criteria_descr_short6'] = 'Voltooi <strong>{$a}</strong> van:';
 $string['criteria_descr_single_1'] = 'Volgende activiteit moet voltooid worden:';
-$string['criteria_descr_single_2'] = 'Deze badge moet uitgereikt worden aan een gebruiker met volgende rol:';
+$string['criteria_descr_single_2'] = 'Deze badge moet uitgereikt worden door een gebruiker met volgende rol:';
 $string['criteria_descr_single_4'] = 'Gebruikers moeten deze cursus voltooien.';
 $string['criteria_descr_single_5'] = 'Volgende cursus moet voltooid worden:';
 $string['criteria_descr_single_6'] = 'Volgend gebruikersprofielveld moet aangevuld worden:';
@@ -285,7 +285,7 @@ $string['messagebody'] = '<p>Je hebt een badge "%badgename%" verdient!</p>
 <p>Meer informatie over deze badge kun je vinden op %badgelink%.</p>
 <p>Je kunt de badge beheren en downloaden vanaf de pagina {$a}.</p>';
 $string['messagesubject'] = 'Proficiat! Je hebt een badge verdient!';
-$string['method'] = 'Dit crititerium is behaald als...';
+$string['method'] = 'Dit criterium is behaald als...';
 $string['mingrade'] = 'Minimum vereist cijfer';
 $string['month'] = 'Maand(en)';
 $string['mybackpack'] = 'Mijn backpack instellingen';
@@ -305,14 +305,19 @@ $string['notacceptedrole'] = 'Je huidige rol behoort niet tot die rollen die een
 Als je wil zien wie al een badge verdient heeft, dan kan je volgende pagina bezoeken: {$a}';
 $string['notconnected'] = 'Niet verbonden';
 $string['nothingtoadd'] = 'Er zijn geen criteria beschikbaar om toe te voegen';
-$string['notification'] = 'Waarschuw ontwerper van de badge';
-$string['notification_help'] = 'Deze instelling beheert de meldingen die naar een badge-ontwerper gestuurd worden als de badge wordt uitgereikt.
+$string['notification'] = 'Waarschuw uitgever van de badge';
+$string['notification_help'] = 'Deze instelling beheert de meldingen die naar een badge-uitgever gestuurd worden als de badge wordt uitgereikt.
 
 Volgende opties zijn mogelijk:
+
 * **NOOIT** - Stuur geen meldingen
+
 * **ELKE KEER** - Stuur een bericht telkens de badge wordt uitgereikt.
+
 * **DAGELIJKS** - Stuur één keer per dag een bericht.
+
 * **WEKELIJKS** - Stuur één bericht per week.
+
 * **MAANDELIJKS** - Stuur één bericht per maand.';
 $string['notifydaily'] = 'Dagelijks';
 $string['notifyevery'] = 'Elke keer';

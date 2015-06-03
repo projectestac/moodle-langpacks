@@ -174,7 +174,7 @@ $string['enterpassword'] = 'Bitte geben Sie das Kennwort ein:';
 $string['eolstudentoutoftime'] = 'Achtung: Die verfügbare Zeit ist abgelaufen. Die letzte Frage wird nicht bewertet, wenn die Antwort nach Zeitablauf abgegeben wurde.';
 $string['eolstudentoutoftimenoanswers'] = 'Sie haben keine Fragen beantwortet. Sie erhalten daher 0 Punkte für die Lektion.';
 $string['essay'] = 'Freitext';
-$string['essayemailmessage'] = '<p>Freitext-Frage: <blockquote>{$a->question}</blockquote></p>
+$string['essayemailmessage'] = '<p>Freitextfrage: <blockquote>{$a->question}</blockquote></p>
 <p>Ihre Freitext-Antwort: <blockquote><em>{$a->response}</em></blockquote></p>
 <p>Feedback von {$a->teacher}: <blockquote><em>{$a->comment}</em></blockquote></p>
 <p>Sie haben {$a->earned} Punkte von {$a->outof} Punkten für Ihre Freitext-Antwort erhalten.</p>
@@ -207,7 +207,7 @@ $string['gotoendoflesson'] = 'Zum Lektionende gehen';
 $string['grade'] = 'Relative Bewertung';
 $string['gradebetterthan'] = 'Bewertung besser als (%)';
 $string['gradebetterthanerror'] = 'Bewertung muss besser als {$a} Prozent sein';
-$string['gradeessay'] = 'Freitext-Bewertung ({$a->notgradedcount} - nicht bewertet, {$a->notsentcount} - nicht gesendet)';
+$string['gradeessay'] = 'Freitextfragen bewerten ({$a->notgradedcount} - nicht bewertet, {$a->notsentcount} - nicht gesendet)';
 $string['gradeis'] = 'Ihre Bewertung: {$a}';
 $string['gradeoptions'] = 'Bewertung';
 $string['handlingofretakes'] = 'Bewertung bei Wiederholungen';
@@ -320,7 +320,7 @@ $string['nooneansweredcorrectly'] = 'Niemand hat richtig geantwortet.';
 $string['nooneansweredthisquestion'] = 'Niemand hat diese Frage beantwortet.';
 $string['noonecheckedthis'] = 'Niemand hat dies ausgewählt.';
 $string['nooneenteredthis'] = 'Niemand hat dies eingegeben.';
-$string['noonehasanswered'] = 'Bisher hat noch niemand Freitext-Fragen beantwortet.';
+$string['noonehasanswered'] = 'Bisher wurden keine Freitextfragen beantwortet.';
 $string['noretake'] = 'Sie können diese Lektion nicht wiederholen.';
 $string['normal'] = 'Dem Pfad der Lektion folgen';
 $string['notcompleted'] = 'Nicht beendet';

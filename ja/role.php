@@ -374,8 +374,8 @@ $string['roles_help'] = '<p>
 
 <p>
 ロールには、<strong>名称</strong>を定義してください。多言語のロールを設定したい場合、下記のような多言語シンタックスを使用することができます。</p><pre>
-  &lt;span lang="en"&gt;Teacher&lt;/span&gt;
-  &lt;span lang="es_es"&gt;Profesor&lt;/span&gt;
+  <span lang="en">Teacher</span>
+  <span lang="es_es">Profesor</span>
   </pre>
 <p>多言語シンタックスを使用する場合、あなたのMoodleの「フィルタ設定」が有効にされていることを確認してください。</p>
 
@@ -384,7 +384,7 @@ $string['roles_help'] = '<p>
 </p>
 
 <p>
-<strong>説明</strong>では、ロールに対して誰でも共通の理解ができるよう、あなたの言葉で端的にロールを説明してください。
+<strong>説明</strong>では、ロールに対して誰でも共通の理解ができるようあなたの言葉で端的にロールを説明してください。
 </p>
 
 <p>

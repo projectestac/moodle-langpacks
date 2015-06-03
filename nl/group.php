@@ -107,7 +107,7 @@ $string['groupmemberssee'] = 'Bekijk groepsleden';
 $string['groupmembersselected'] = 'Leden van de geselecteerde groep';
 $string['groupmode'] = 'Groepsmodus';
 $string['groupmodeforce'] = 'Forceer groepsmodus';
-$string['groupmodeforce_help'] = 'Als de groepsmodus geforceerd wordt, dan zal de groepsmodus van de cursus op elke activiteit toegepast worden. De instellingen van de groepsmodus in de activieteitenmodules wordt dan genegeerd.';
+$string['groupmodeforce_help'] = 'Als de groepsmodus geforceerd wordt, dan zal de groepsmodus van de cursus op elke activiteit toegepast worden. De instellingen van de groepsmodus in de activiteitenmodules wordt dan genegeerd.';
 $string['groupmode_help'] = 'Er zijn drie types van groepsmodus:
 
 *Geen groepen - er zijn geen subgroepen, iedereen is onderdeel van één grote groep<

@@ -29,7 +29,7 @@ $string['addcohort'] = 'Neue globale Gruppe';
 $string['allcohorts'] = 'Alle globalen Gruppen';
 $string['anycohort'] = 'Alle';
 $string['assign'] = 'Zuweisen';
-$string['assigncohorts'] = 'Globale Gruppen zuweisen';
+$string['assigncohorts'] = 'Mitglieder zu globaler Gruppe zuweisen';
 $string['assignto'] = 'Mitglieder der globalen Gruppe \'{$a}\'';
 $string['backtocohorts'] = 'Zurück zu globalen Gruppen';
 $string['bulkadd'] = 'Zur globalen Gruppe hinzufügen';
@@ -50,7 +50,7 @@ $string['delcohort'] = 'Globale Gruppe löschen';
 $string['delconfirm'] = 'Möchten Sie die globale Gruppe \'{$a}\' wirklich löschen?';
 $string['description'] = 'Beschreibung';
 $string['displayedrows'] = '{$a->displayed} Zeilen von {$a->total} angezeigt';
-$string['duplicateidnumber'] = 'Globale Gruppe mit dieser ID existiert bereits';
+$string['duplicateidnumber'] = 'Globale Gruppe mit dieser ID existiert bereits.';
 $string['editcohort'] = 'Globale Gruppe bearbeiten';
 $string['eventcohortcreated'] = 'Globale Gruppe angelegt';
 $string['eventcohortdeleted'] = 'Globale Gruppe gelöscht';
@@ -83,7 +83,7 @@ $string['uploadcohorts_help'] = 'Mitglieder für Globale Gruppen können über e
 * Notwendiger Feldname ist \'name\'
 * Optionale Feldnamen sind idnumber, description, descriptionformat, context, category, category_id, category_idnumber, category_path';
 $string['uploadedcohorts'] = 'Globale Gruppen hochgeladen: {$a}';
-$string['useradded'] = 'Nutzer/in zur globalen Gruppe \'{$a}\' hinzugefügt';
+$string['useradded'] = 'Nutzer/in zu globaler Gruppe \'{$a}\' hinzugefügt';
 $string['visible'] = 'Sichtbar';
 $string['visible_help'] = 'Globale Gruppen können von Nutzer/innen angezeigt werden, die das Recht \'moodle/cohort:view\' für diesen Kontext besitzen.<br/>
 Sichtbare Globale Gruppen können darüber hinaus in untergeordneten Kursen angezeigt werden.';

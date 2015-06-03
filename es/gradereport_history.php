@@ -29,6 +29,9 @@ $string['allgradeitems'] = 'Todos los ítems de calificación';
 $string['allgraders'] = 'Todas las calificaciones';
 $string['datefrom'] = 'Fecha desde';
 $string['datetime'] = 'Fecha y Hora';
+$string['dateto'] = 'Fecha hasta';
+$string['deleteditemid'] = 'Borrado item con id {$a}';
+$string['errajaxsearch'] = 'Error en la búsqueda de usuarios';
 $string['excluded'] = 'Excluir de los cálculos';
 $string['feedbacktext'] = 'Texto de retroalimentación';
 $string['finishselectingusers'] = 'Finalizar selección de usuarios';
@@ -46,6 +49,7 @@ $string['revisedonly_help'] = 'Mostrar solamente calificaciones que han sido rev
 Esto quiere decir solamente las entradas las cuales resultan en el cambio de una calificación están listadas.';
 $string['selectedusers'] = 'Usuarios Seleccionados';
 $string['selectuser'] = 'Seleccionar usuario';
+$string['selectusers'] = 'Seleccionar usuarios';
 $string['source'] = 'Fuente';
 $string['useractivityfeedback'] = '{$a} retroalimentación';
 $string['useractivitygrade'] = '{$a} calificación';

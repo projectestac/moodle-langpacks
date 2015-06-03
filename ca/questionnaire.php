@@ -89,6 +89,7 @@ $string['essaybox'] = 'Quadre d\'edició llarg';
 $string['essaybox_help'] = 'Aquesta pregunta presentarà un quadre d\'edició de text amb x columnes de text (amplada) i y línies de text (línies).
 
 Si deixeu x i y en el seu valor de 0 (o els passeu a 0), es mostrarà l\'editor HTML del Moodle amb una amplada i alçada estàndards (això si es permet en el context del curs i al perfil de l\'usuari/ària)';
+$string['feedbackerrorboundaryoutofrange'] = 'Els límits de la qualificació per a la retroacció han d\'estar entre el 0% i el 100%. El valor que heu introduït al límit {$a} està fora d\'aquests límits.';
 $string['field'] = 'Pregunta {$a}';
 $string['fieldlength'] = 'Longitud del quadre de text';
 $string['fieldlength_help'] = 'Per a les preguntes del tipus **Quadre d\'edició**, indiqueu la **Longitud del quadre d\'edició** i la **Longitud màxima del text** del text que s\'hagi de lliurar com a resposta.

@@ -487,7 +487,7 @@ $string['deletecategorycheck2'] = 'このカテゴリを削除した場合、あ
 $string['deletecategoryempty'] = 'このカテゴリは空です。';
 $string['deletecheck'] = '{$a} を削除してもよろしいですか?';
 $string['deletecheckfiles'] = '本当にこれらのファイルを削除してもよろしいですか?';
-$string['deletecheckfull'] = '本当に {$a} を完全に削除してもよろしいですか?';
+$string['deletecheckfull'] = '本当に受講登録、活動および他のユーザデータを含むユーザ {$a} を完全に削除してもよろしいですか?';
 $string['deletechecktype'] = '本当にこの {$a->type} を削除してもよろしいですか?';
 $string['deletechecktypename'] = '本当にこの {$a->type} 「 {$a->name} 」を削除してもよろしいですか?';
 $string['deletecheckwarning'] = 'あなたはこれらのファイルを削除しようとしています';
@@ -804,7 +804,7 @@ $string['format_help'] = 'コースフォーマットではコースページの
 * 単一活動フォーマット - コースページに単一の活動またはリース (小テストまたはSCORM パッケージ等) が表示されます。
 * ソーシャルフォーマット - コースページにフォーラムが表示されます。
 * トピックフォーマット - コースページはトピックセクションにより構成されます。
-* ウィークリーフォーマット- 最初の週がコース開始日時となるよう、コースページはウィークリーセクションにより構成されます。';
+* ウィークリーフォーマット- 最初の週がコース開始日時となるようコースページはウィークリーセクションにより構成されます。';
 $string['formathtml'] = 'HTMLフォーマット';
 $string['formatmarkdown'] = 'Markdownフォーマット';
 $string['formatplain'] = 'プレインテキストフォーマット';
@@ -1428,7 +1428,7 @@ $string['refreshingevents'] = 'イベントの更新';
 $string['registration'] = 'Moodle登録';
 $string['registrationcontact'] = '一般からの問い合わせ';
 $string['registrationcontactno'] = 'いいえ、サイト一覧にお問い合わせフォームを設置しないでください';
-$string['registrationcontactyes'] = 'はい、潜在的なMoodlerが問い合わせできるよう、問い合わせフォームを設置してください';
+$string['registrationcontactyes'] = 'はい、潜在的なMoodlerが問い合わせできるよう問い合わせフォームを設置してください';
 $string['registrationemail'] = 'メール通知';
 $string['registrationinfo'] = '<p>このページではあなたのMoodleサイトをmoodle.orgに登録できます。登録は無料です。登録の主な利点は発信数の少ないメーリングリストにあなたのメールアドレスが追加され、セキュリティに関する警告やMoodleの最新リリースに関する情報を受取れることです。</p>
 <p>あなたの情報はデフォルトでは公開されません。また、他の人に販売および転送されることはありません。情報を収集する唯一の理由はサポートを目的とするものであり、Moodleコミュニティの統計的全体像を構築することにあります。</p>
@@ -1685,7 +1685,7 @@ $string['specifyname'] = 'あなたは名前を指定する必要があります
 $string['standard'] = '標準';
 $string['starpending'] = '([*] = 承認審査中コース)';
 $string['startdate'] = '開講日';
-$string['startdate_help'] = 'この設定ではウィークリーフォーマットのコースにおける最初の週の開始日を設定します。また、コース活動のログを利用できる最も早い日付も決定します。';
+$string['startdate_help'] = 'この設定ではウィークリーフォーマットのコースにおける最初の週の開始日を設定します。また、コース活動のログを利用できる最も早い日付も決定します。コースがリセットされてコース開始日が変更された場合、新しい開始日に基づいてコース内すべての日付が移動されます。';
 $string['startingfrom'] = '開始日';
 $string['startsignup'] = '新しいアカウントを作成する';
 $string['state'] = '州/県';
@@ -1856,7 +1856,7 @@ $string['usercurrentsettings'] = 'マイプロファイル設定';
 $string['userdata'] = 'ユーザデータ';
 $string['userdeleted'] = 'このユーザのアカウントは削除されました。';
 $string['userdescription'] = '自己紹介';
-$string['userdescription_help'] = 'このテキストボックスには、あなた自身に関するテキストを入力することができます。入力した内容は他のユーザが閲覧できるよう、あなたのプロファイルページに表示されます。';
+$string['userdescription_help'] = 'このテキストボックスには、あなた自身に関するテキストを入力することができます。入力した内容は他のユーザが閲覧できるようあなたのプロファイルページに表示されます。';
 $string['userdetails'] = 'ユーザ詳細';
 $string['userfiles'] = 'ユーザファイル';
 $string['userlist'] = 'ユーザリスト';
@@ -1927,7 +1927,7 @@ $string['weekshow'] = '{$a} にこの週を表示する';
 $string['welcometocourse'] = '{$a} へようこそ';
 $string['welcometocoursetext'] = '{$a->coursename} へようこそ!
 
-あなたがまだプロファイルの編集が終えていない場合、私たちが受講している皆さんのことを知ることができるよう、あなたのプロファイルページを編集してください:
+あなたがまだプロファイルの編集が終えていない場合、私たちが受講している皆さんのことを知ることができるようあなたのプロファイルページを編集してください:
 
  {$a->profileurl}';
 $string['whatforlink'] = 'このリンクで何をしますか?';

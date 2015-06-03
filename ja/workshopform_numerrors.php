@@ -26,16 +26,16 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addmoredimensions'] = 'さらに {$a} 個の空白アサーションを追加する';
-$string['configgrade0'] = '主張に対するマイナス評価をあらわすために使用するデフォルトの言葉です。';
-$string['configgrade1'] = '主張に対するプラス評価をあらわすために使用するデフォルトの言葉です。';
+$string['configgrade0'] = '主張に対するマイナス評価を表すために使用するデフォルトの言葉です。';
+$string['configgrade1'] = '主張に対するプラス評価を表すために使用するデフォルトの言葉です。';
 $string['dimensioncomment'] = 'コメント';
 $string['dimensiondescription'] = '説明';
 $string['dimensiongrade'] = '評定';
 $string['dimensionnumber'] = '主張 {$a}';
 $string['dimensionweight'] = '加重';
-$string['grade0'] = 'エラーをあらわす言葉';
+$string['grade0'] = 'エラーを表す言葉';
 $string['grade0default'] = 'No';
-$string['grade1'] = '成功をあらわす言葉';
+$string['grade1'] = '成功を表す言葉';
 $string['grade1default'] = 'Yes';
 $string['grademapping'] = '評定マッピングテーブル';
 $string['maperror'] = 'エラーの加重数 <= ';

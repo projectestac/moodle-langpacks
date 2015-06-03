@@ -67,7 +67,7 @@ $string['configgetfiletimeout'] = 'Il timeout in secondi per lo scaricamento di 
 $string['configsaved'] = 'Configurazione salvata!';
 $string['configsyncfiletimeout'] = 'Il timeout in secondi per la sincronizzazione della dimensione di file esterni';
 $string['configsyncimagetimeout'] = 'Il timeout in secondi per lo scaricamento di immagini da repository esterni durante la sincronizzazione';
-$string['confirmdelete'] = 'Sei sicuro di voler eliminare il repository {$a} ?
+$string['confirmdelete'] = 'Sei sicuro di eliminare il repository {$a} ?
 Se scegli "Prosegui e scarica", i file esterni collegati saranno copiati in Moodle. Tieni presente che il processo può durare molto tempo.';
 $string['confirmdeletefile'] = 'Sei sicuro di voler eliminare questo file?';
 $string['confirmdeletefilewithhref'] = 'Sei sicuro di voler eliminare questo file? Sono presenti {$a} alias/scorciatoie che utilizzano il file. Proseguendo, gli alias saranno convertiti in copie del file.';

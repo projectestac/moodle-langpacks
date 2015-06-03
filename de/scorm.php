@@ -44,7 +44,7 @@ $string['allowtypeaicchacp_desc'] = 'Die Aktivierung ermöglicht AICC HACP die e
 $string['allowtypeexternal'] = 'Externen Pakettyp aktivieren';
 $string['allowtypeexternalaicc'] = 'Direkte AICC URL aktivieren';
 $string['allowtypeexternalaicc_desc'] = 'Ermöglicht den direkten Aufruf über eine URL auf ein einfaches AICC Paket.';
-$string['allowtypelocalsync'] = 'Download Paketyp aktivieren';
+$string['allowtypelocalsync'] = 'Download Pakettyp aktivieren';
 $string['apidebugmask'] = 'API Debug Capture Mask (simple regex on <username>:<activityname>) z.B. admin:* zeigt die Debugmitteilungen nur für den Nutzer admin';
 $string['areacontent'] = 'Inhaltsdateien';
 $string['areapackage'] = 'Paketdatei';
@@ -146,10 +146,10 @@ $string['forcejavascript'] = 'Aktivierung von JavaScript einfordern';
 $string['forcejavascript_desc'] = 'Lernpakete erfordern JavaScript zur Kommunikation zwischen dem Lernpaket und Moodle, z.B. um Bewertungen zu übergeben. Mit dieser Funktion wird der Zugriff auf ein Lernpaket lesend möglich, wenn JavaScript im Browser nicht verfügbar ist. Es werden jedoch keine Bewertungen abgespeichert. Es wird empfohlen, diese Funktion zu aktivieren.';
 $string['forcejavascriptmessage'] = 'Um dieses Objekt anzuzeigen ist JavaScript notwendig. Bitte aktivieren Sie JavaScript für Ihren Browser und versuchen Sie es nochmal.';
 $string['forcenewattempt'] = 'Neuen Versuch einfordern';
-$string['forcenewattemptdesc'] = 'Wenn aktiviert, wird jeder Zugriff auf das Lernpaket als neuer Versuch betrachtet.';
-$string['forcenewattempt_help'] = '<h2>Neuen Versuch erzwingen</h2>
+$string['forcenewattemptdesc'] = 'Diese Option blendet das Kontrollfeld \'Neuen Versuch starten\' aus und verhindert den Überprüfungsmodus. SCORM ermöglicht, im gleichen Versuch an einen beliebigen Punkt zurückzuspringen. Ein neuer Versuch ist nur möglich, wenn der vorherige Versuch als "abgeschlossen", "bestanden" oder "nicht bestanden" gesetzt ist.';
+$string['forcenewattempt_help'] = 'Diese Option blendet das Kontrollfeld \'Neuen Versuch starten\' aus und verhindert den Überprüfungsmodus.
 
-<p>Jeder neue Aufruf des Lernpakets wird als neuer Versuch betrachtet. Auch wenn der vorherige Versuch nicht abgeschlossen wurde.</p>';
+SCORM ermöglicht, im gleichen Versuch an einen beliebigen Punkt zurückzuspringen. Ein neuer Versuch ist nur möglich, wenn der vorherige Versuch als "abgeschlossen", "bestanden" oder "nicht bestanden" gesetzt ist.';
 $string['found'] = 'Manifest gefunden';
 $string['frameheight'] = 'Die Einstellung definiert die Höhe der Darstellung.';
 $string['framewidth'] = 'Die Einstellung definiert die Breite der Darstellung.';

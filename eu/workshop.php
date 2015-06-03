@@ -193,7 +193,7 @@ $string['nosubmissionfound'] = 'Ez da erabiltzaile honen bidalketarik aurkitu';
 $string['nosubmissions'] = 'Oraindik ez dago bidalketarik tailer honetan';
 $string['notassessed'] = 'Ebaluatu gabea';
 $string['nothingtoreview'] = 'Ez dago berrikusteko ezer';
-$string['notoverridden'] = 'Baliogabetu gabea';
+$string['notoverridden'] = 'Baliogabetu gabe';
 $string['noworkshops'] = 'Ez dago tailerrik ikastaro honetan';
 $string['noyoursubmission'] = 'Oraindik ez duzu lanik bidali';
 $string['nullgrade'] = '-';
@@ -249,7 +249,7 @@ $string['strategy_help'] = 'Kalifikazioa estrategiak ebaluazio formularioa eta b
 * Metatutako kalifikazioa - Iruzkinak eta kalifikazio bat ematen dira zehaztutako arlo bakoitzean
 * Iruzkinak - Iruzkinak ematen dira zehaztutako arlo bakoitzean baina ez da kalifikaziorik ematen
 * Errore-kopurua - Iruzkinak eta Bai/Ez ebaluazioa egiten da zehaztutako baieztapen bakoitzean
-* Argibideak - Mailakatze-ebaluazioa egiten da zehaztutako irizpide bakoitzean';
+* Errubrika - Mailakatze-ebaluazioa egiten da zehaztutako irizpide bakoitzean';
 $string['submission'] = 'Bidalketa';
 $string['submissionattachment'] = 'Eranskina';
 $string['submissionby'] = '{$a} -ren bidalketa';

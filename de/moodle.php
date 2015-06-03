@@ -487,7 +487,7 @@ $string['deletecategorycheck2'] = 'Wenn Sie diesen Kursbereich gelöschen, müss
 $string['deletecategoryempty'] = 'Dieser Kursbereich ist leer.';
 $string['deletecheck'] = '{$a} löschen?';
 $string['deletecheckfiles'] = 'Sind Sie wirklich sicher, dass Sie diese Dateien löschen möchten?';
-$string['deletecheckfull'] = '{$a} wird nun gelöscht. Sind Sie wirklich sicher?';
+$string['deletecheckfull'] = 'Möchten Sie wirklich das Nutzerkonto \'{$a}\' löschen, inclusive aller Einschreibungen, Aktivitäten und übrigen Daten?';
 $string['deletechecktype'] = 'Möchten Sie \'{$a->type}\' wirklich löschen?';
 $string['deletechecktypename'] = 'Möchten Sie das {$a->type}-Element \'{$a->name}\' wirklich löschen?';
 $string['deletecheckwarning'] = 'Sie sind dabei, diese Dateien zu löschen';
@@ -615,9 +615,9 @@ $string['emaildigest'] = 'E-Mail-Zusammenfassung';
 $string['emaildigestcomplete'] = 'Vollständig (tägliche E-Mail mit allen Forumsbeiträgen)';
 $string['emaildigest_help'] = 'Diese Einstellung zur Zusammenfassung von Beiträgen (Digest) wird von neuen Foren standardmäßig benutzt:
 
-* Keine Zusammenfassung - pro neuem Forumsbeitrag wird eine E-Mail versandt
-* Zusammenfassung - vollständige Beiträge - pro Tag wird eine Zusammenfassung mit den neuen Beiträgen des Forums versandt
-* Zusammenfassung - nur Themen - pro Tag wird eine E-Mail mit den Themen der neuen Beiträge des Forums versandt';
+* Einzeln - keine Zusammenfassung, d.h. pro neuem Forumsbeitrag wird eine E-Mail versandt
+* Vollständig - Zusammenfassung der vollständigen Beiträge, d.h. pro Tag wird eine Zusammenfassung mit den neuen Beiträgen des Forums versandt
+* Themen - Zusammenfassung nur Themen, d.h. pro Tag wird eine E-Mail mit den Themen der neuen Beiträge des Forums versandt';
 $string['emaildigestoff'] = 'Einzeln (alle Forumsbeiträge einzeln als E-Mail)';
 $string['emaildigestsubjects'] = 'Themen (tägliche E-Mail mit den Themen aller Forumsbeiträge)';
 $string['emaildisable'] = 'E-Mail-Adresse ist deaktiviert';
@@ -736,7 +736,7 @@ $string['eventcoursecreated'] = 'Kurs angelegt';
 $string['eventcoursedeleted'] = 'Kurs gelöscht';
 $string['eventcoursemodulecreated'] = 'Kursmodul angelegt';
 $string['eventcoursemoduledeleted'] = 'Kursmodul gelöscht';
-$string['eventcoursemoduleinstancelistviewed'] = 'Liste der Kursmolule angezeigt';
+$string['eventcoursemoduleinstancelistviewed'] = 'Liste der Kursmodule angezeigt';
 $string['eventcoursemoduleupdated'] = 'Kursmodul aktualisiert';
 $string['eventcoursemoduleviewed'] = 'Kursmodul angezeigt';
 $string['eventcourseresetended'] = 'Kursrücksetzung beendet';
@@ -1727,8 +1727,7 @@ $string['specifyname'] = 'Sie müssen einen Namen festlegen';
 $string['standard'] = 'standardmäßig';
 $string['starpending'] = '([*] = Kursantrag in Bearbeitung)';
 $string['startdate'] = 'Kursbeginn';
-$string['startdate_help'] = 'Wenn Sie im Kurs das Wochen-Format benutzen, definiert die Einstellung den ersten Tag der ersten angezeigten Woche im Kurs dar.
-Außerdem legt diese Einstellung fest, ab welchem Datum Berichte über Aktivitäten im Kurs angezeigt werden können.';
+$string['startdate_help'] = 'Wenn Sie im Kurs das Wochenformat benutzen, definiert die Einstellung den ersten Tag der ersten angezeigten Woche im Kurs dar. Die Einstellung legt auch fest, ab wann Aktivitätsberichte im Kurs erfasst werden. Wenn der Kurs zurückgesetzt und der Kursbeginn geändert wird, ändern sich auch die anderen Zeitangaben im Kurs in Abhängigkeit vom neuen Kursbeginn.';
 $string['startingfrom'] = 'Beginn von';
 $string['startsignup'] = 'Neuen Zugang anlegen?';
 $string['state'] = 'Bundesland/Kanton';

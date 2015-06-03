@@ -36,8 +36,7 @@ $string['aicchacpkeepsessiondata_desc'] = '外部AICC HACPセッションデー�
 $string['aicchacptimeout'] = 'AICC HACPタイムアウト';
 $string['aicchacptimeout_desc'] = '外部AICC HACPセッションをオープンしたままにできる最大時間 (分) です。';
 $string['aiccuserid'] = 'AICC数字ユーザID渡し';
-$string['aiccuserid_desc'] = 'Moodleに比べてAICCスタンダードのユーザ名には制限が多いため、代わりに私たちは「user->id」を渡します。この設定を無効にした場合、AICCパッケージにMoodleユーザ名を渡します。
-AICCスタンダードでは半角英数字に加えてダッシュ (-) およびアンダースコア (_) を使用することができます。ピリオド (.)、スペースおよびアットマーク (@) は許可されません。';
+$string['aiccuserid_desc'] = 'Moodleに比べてAICCスタンダードのユーザ名には制限が多く、半角英数字、ダッシュ (-) およびアンダースコア (_) のみ許可されます。ピリオド (.)、スペースおよびアットマーク (@) は許可されません。この設定を有効にした場合、ユーザ名の代わりにユーザIDナンバーがAICCパッケージに渡されます。';
 $string['aliasonly'] = 'リポジトリからimsmanifest.xml ファイルを選択する場合、あなたはこのファイルのエイリアス/ショートカットを使用する必要があります。';
 $string['allowapidebug'] = 'アクティブAPIデバッグおよびトレース (apidebugmaskでキャプチャマスクを設定する)';
 $string['allowtypeaicchacp'] = '外部AICC HACPを有効にする';
@@ -136,7 +135,7 @@ $string['exit'] = 'コースから抜ける';
 $string['exitactivity'] = '活動から抜ける';
 $string['expired'] = '申し訳ございません、この活動は {$a} に終了しているため、これ以上利用することはできません。';
 $string['external'] = '外部パッケージを更新するタイミング';
-$string['failed'] = '失敗';
+$string['failed'] = '不合格';
 $string['finishscorm'] = 'あなたがこのリソースの閲覧を終了した場合、{$a}';
 $string['finishscormlinkname'] = 'ここをクリックしてコースに戻ってください。';
 $string['firstaccess'] = '最初のアクセス';
@@ -149,8 +148,10 @@ $string['forcejavascript'] = 'ユーザにJavaスクリプトの有効化を強�
 $string['forcejavascript_desc'] = 'このオプションを有効にした場合 (推奨)、ユーザのブラウザでJavaスクリプトをサポートしていない場合にSCORMオブジェクトへのアクセスを防ぎます。無効にした場合、ユーザはSCORMを閲覧することはできますが、API接続が失敗するため、評定情報が保存されることはありません。';
 $string['forcejavascriptmessage'] = 'このオブジェクトを閲覧するにはJavaスクリプトが必要です。あなたのブラウザのJavaスクリプトを有効にして、再度お試しください。';
 $string['forcenewattempt'] = '新しい受験を強制する';
-$string['forcenewattemptdesc'] = '有効にした場合、SCORMパッケージは毎回新しい受験みなされます。';
-$string['forcenewattempt_help'] = 'このオプションを有効にした場合、SCORMパッケージへのアクセスすべてを新しい受験とします。';
+$string['forcenewattemptdesc'] = 'この設定では「新しい受験を開始する」チェックボックスを隠して、レビューモードを禁止します。SCORMは学生がいつでも同じ受験に戻ることを許可しますが、前回の受験に「完了」「合格」または「不合格」 が設定されていない場合、新しく受験することはできません。SCORMパッケージがこのように動作しない場合、学生は常に同じ受験に入ることになります。';
+$string['forcenewattempt_help'] = 'この設定では「新しい受験を開始する」チェックボックスを隠して、レビューモードを禁止します。
+
+SCORMは学生がいつでも同じ受験に戻ることを許可しますが、前回の受験に「完了」「合格」または「不合格」 が設定されていない場合、新しく受験することはできません。SCORMパッケージがこのように動作しない場合、学生は常に同じ受験に入ることになります。';
 $string['found'] = 'マニフェストファイルが見つかりました。';
 $string['frameheight'] = 'ステージフレームまたはウィンドウのデフォルトの高さです。';
 $string['framewidth'] = 'ステージフレームまたはウィンドウのデフォルトの幅です。';
@@ -397,7 +398,7 @@ $string['viewallreports'] = '{$a} 件の受験レポートを表示する';
 $string['viewalluserreports'] = '{$a} 件のユーザレポートを表示する';
 $string['whatgrade'] = '複数回受験時の評点';
 $string['whatgradedesc'] = '複数受験が許可された場合、最高、平均、最初または最後に完了した受験が評定表に記録されます。';
-$string['whatgrade_help'] = '複数回の受験を許可した場合、ここでは最高、平均、最初または最後の受験のどれを評定表に記録するか設定します。最後の受験オプションには「失敗」ステータスの受験を含みません。
+$string['whatgrade_help'] = '複数回の受験を許可した場合、ここでは最高、平均、最初または最後の受験のどれを評定表に記録するか設定します。最後の受験オプションには「不合格」ステータスの受験を含みません。
 
 複数受験の処理に関するメモ:
 

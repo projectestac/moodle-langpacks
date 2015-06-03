@@ -35,4 +35,4 @@ $string['giftrightbraceerror'] = 'Keine } gefunden';
 $string['importminerror'] = 'Fehler in der Frage - nicht genügend Antworten für diesen Fragetyp';
 $string['nohandler'] = 'Fragetyp {$a} kann nicht verwandt werden';
 $string['pluginname'] = 'Gift-Format';
-$string['pluginname_help'] = 'Das GIFT-Format erlaubt den Import und Export von unterschiedlichen Frageformen (Multiple-Choice, Wahr/Falsch, Kurzantwort, Zuordnung, Missing Word, Numerisch, Freitext) als Textdatei.';
+$string['pluginname_help'] = 'Das GIFT-Format erlaubt den Import und Export von Frageformen (Multiple-Choice, Wahr/Falsch, Kurzantwort, Zuordnung, Missing Word, Numerisch, Freitext) als Textdatei.';

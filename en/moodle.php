@@ -489,7 +489,7 @@ $string['deletecategorycheck2'] = 'If you delete this category, you need to choo
 $string['deletecategoryempty'] = 'This category is empty.';
 $string['deletecheck'] = 'Delete {$a} ?';
 $string['deletecheckfiles'] = 'Are you absolutely sure you want to delete these files?';
-$string['deletecheckfull'] = 'Are you absolutely sure you want to completely delete {$a} ?';
+$string['deletecheckfull'] = 'Are you absolutely sure you want to completely delete the user {$a}, including their enrolments, activity and other user data?';
 $string['deletechecktype'] = 'Are you sure that you want to delete this {$a->type}?';
 $string['deletechecktypename'] = 'Are you sure that you want to delete the {$a->type} "{$a->name}"?';
 $string['deletecheckwarning'] = 'You are about to delete these files';
@@ -1731,7 +1731,7 @@ $string['specifyname'] = 'You must specify a name.';
 $string['standard'] = 'Standard';
 $string['starpending'] = '([*] = course pending approval)';
 $string['startdate'] = 'Course start date';
-$string['startdate_help'] = 'This setting determines the start of the first week for a course in weekly format. It also determines the earliest date that logs of course activities are available for.';
+$string['startdate_help'] = 'This setting determines the start of the first week for a course in weekly format. It also determines the earliest date that logs of course activities are available for. If the course is reset and the course start date changed, all dates in the course will be moved in relation to the new start date.';
 $string['startingfrom'] = 'Starting from';
 $string['startsignup'] = 'Create new account';
 $string['state'] = 'State/Province';

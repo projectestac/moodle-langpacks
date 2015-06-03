@@ -26,14 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addmoredimensions'] = 'Zuriuneak {$a} irizpide gehiagotarako';
-$string['configuration'] = 'Argibideen ezarpenak';
+$string['configuration'] = 'Errubrikaren ezarpenak';
 $string['criteria'] = 'Irizpidea';
 $string['dimensiondescription'] = 'Deskribapena';
 $string['dimensionnumber'] = '{$a} irizpidea';
-$string['layout'] = 'Argibideen diseinua';
+$string['layout'] = 'Errubrikaren diseinua';
 $string['layoutgrid'] = 'Sareta';
 $string['layoutlist'] = 'Zerrenda';
 $string['levelgroup'] = 'Mailarako kalifikazioa eta definizioa';
 $string['levels'] = 'Mailak';
 $string['mustchooseone'] = 'Elementu hauetako bat aukeratu behar duzu';
-$string['pluginname'] = 'Argibideak';
+$string['pluginname'] = 'Errubrika';

@@ -93,8 +93,8 @@ $string['limitanswers_help'] = 'Aquesta opció us permet limitar el nombre de pa
 Quan s\'hagi arribat al límit ningú podrà triar aquesta opció.
 
 Si el límit està deshabilitat, qualsevol nombre de participants poden triar cadascuna de les opcions.';
-$string['members/'] = 'Omple';
-$string['members/max'] = 'Omple / Capacitat';
+$string['members/'] = 'Ocupació';
+$string['members/max'] = 'Ocupació / Capacitat';
 $string['modulename'] = 'Elecció de grup';
 $string['modulename_help'] = 'El mòdul Tria grup permet als estudiants afegir-se ells mateixos en un grup d\'un curs. El professor pot escollir quins grups podran escollir els estudiants i el màxim de membres en cada grup';
 $string['modulenameplural'] = 'Elecció de grups';

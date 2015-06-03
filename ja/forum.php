@@ -102,7 +102,7 @@ $string['configmanydiscussions'] = 'フォーラム1ページあたりに表示�
 $string['configmaxattachments'] = '投稿ごとに許可されるデフォルトの最大添付ファイル数です。';
 $string['configmaxbytes'] = 'すべてのフォーラムの添付ファイルに関するデフォルト最大サイズ (コース制限および他のローカル設定に従います)';
 $string['configoldpostdays'] = '古い投稿を既読とする日数です。';
-$string['configreplytouser'] = 'フォーラムの投稿がメール送信される場合、受信者がフォーラムを介さず個人的に返信できるよう、メールにユーザのメールアドレスを表示しますか?　「Yes」に設定した場合でも、ユーザはプロファイルページで、メールアドレスを隠すよう設定することができます。';
+$string['configreplytouser'] = 'フォーラムの投稿がメール送信される場合、受信者がフォーラムを介さず個人的に返信できるようメールにユーザのメールアドレスを表示しますか?　「Yes」に設定した場合でも、ユーザはプロファイルページで、メールアドレスを隠すよう設定することができます。';
 $string['configshortpost'] = 'この文字長以下の長さ (HTMLは含まない) は短いとみなされます (下記参照)。';
 $string['configtrackingtype'] = '未読管理のデフォルト設定';
 $string['configtrackreadposts'] = 'ユーザごとに未読管理したい場合、「Yes」を選択してください。';
@@ -131,7 +131,7 @@ $string['digestsentusers'] = 'メールダイジェストが {$a} 名のユー�
 $string['disallowsubscribe'] = 'メール購読不可';
 $string['disallowsubscribeteacher'] = 'メール購読不可 (教師を除く)';
 $string['disallowsubscription'] = '購読';
-$string['disallowsubscription_help'] = 'あなたがディスカッションを購読できないよう、このフォーラムが設定されました。';
+$string['disallowsubscription_help'] = 'あなたがディスカッションを購読できないようこのフォーラムが設定されました。';
 $string['discussion'] = 'ディスカッション';
 $string['discussionmoved'] = 'ディスカッションは 「 {$a} 」に移動されました。';
 $string['discussionmovedpost'] = 'このディスカッションは、フォーラム「 <a href="{$a->forumhref}">{$a->forumname}</a> 」の<a href="{$a->discusshref}">ここ</a>に移動されました。';
@@ -214,11 +214,11 @@ $string['everyonecannowchoose'] = 'すべてのユーザはメール購読を選
 $string['everyoneisnowsubscribed'] = 'すべてのユーザがこのフォーラムをメール購読するようになりました。';
 $string['everyoneissubscribed'] = 'すべてのユーザがこのフォーラムをメール購読します。';
 $string['existingsubscribers'] = 'メール購読ユーザ';
-$string['exportdiscussion'] = 'すべてのディスカッションをエクスポートする';
+$string['exportdiscussion'] = 'すべてのディスカッションをポートフォリオにエクスポートする';
 $string['forcedreadtracking'] = '未読管理の強制を許可する';
 $string['forcedreadtracking_desc'] = 'フォーラムの未読管理の強制を許可します。特に多くのフォーラムおよび投稿があるコースに関して、ユーザのパフォーマンスが下がることになります。無効にした場合、前に強制が設定されたフォーラムは任意として扱われます。';
 $string['forcesubscribed'] = 'このフォーラムはメール購読が強制されています。';
-$string['forcesubscribed_help'] = 'あなたがディスカッションの購読を解除できないよう、このフォーラムが設定されました。';
+$string['forcesubscribed_help'] = 'あなたがディスカッションの購読を解除できないようこのフォーラムが設定されました。';
 $string['forum'] = 'フォーラム';
 $string['forum:addinstance'] = '新しいフォーラムを追加する';
 $string['forum:addnews'] = 'ニュースを追加する';
@@ -316,7 +316,7 @@ $string['modulename_help'] = 'フォーラム活動モジュールにおいて�
 
 誰でもいつでも新しいディスカッションを開始することのできる標準的なフォーラム、それぞれの学生が厳密に1つのディスカッションのみ開始することのできるフォーラム　または他の学生の投稿を閲覧するためには学生が最初に投稿する必要のあるQ＆Ａフォーラム等、選択することのできるいくつかのフォーラムタイプがあります。教師はフォーラム投稿へのファイル添付を許可することができます。添付された画像はフォーラム投稿内に表示されます。
 
-新しい投稿に関する通知を受信するできるよう、参加者はフォーラムを購読することができます。教師は購読モードを任意、強制、自動、または停止に設定することができます。必要であれば、設定された時間内に設定された投稿数以上の記事を投稿できないよう、学生をブロックすることができます。これは個人によるディスカッションの支配を防ぐことができます。
+新しい投稿に関する通知を受信するできるよう参加者はフォーラムを購読することができます。教師は購読モードを任意、強制、自動、または停止に設定することができます。必要であれば、設定された時間内に設定された投稿数以上の記事を投稿できないよう学生をブロックすることができます。これは個人によるディスカッションの支配を防ぐことができます。
 
 フォーラム投稿は教師または学生 (ピア評価) によって評価することができます。評価は合計した後に最終評価として評定表に記録させることができます。
 
@@ -428,7 +428,7 @@ $string['replyforum'] = 'フォーラムに返信';
 $string['reply_handler'] = 'メールでフォーラムに返信する';
 $string['reply_handler_name'] = 'フォーラム投稿に返信する';
 $string['replytoforumpost'] = 'あなたはこのフォーラム投稿にメールで返信することができます。';
-$string['replytopostbyemail'] = 'このメール経由で直接返信する場合、あなたが返信する投稿の引用を含まないでください。';
+$string['replytopostbyemail'] = 'あなたはこのメールによって返信することができます。';
 $string['replytouser'] = '返信にメールアドレスを使用する';
 $string['resetdigests'] = 'すべてのユーザのフォーラムダイジェストプリファレンスを削除する';
 $string['resetforums'] = '次のフォーラムから投稿を削除する';
@@ -488,7 +488,7 @@ $string['subscriptionandtracking'] = '購読およびトラッキング';
 $string['subscriptionauto'] = '自動購読';
 $string['subscriptiondisabled'] = '購読停止';
 $string['subscriptionforced'] = '強制購読';
-$string['subscription_help'] = 'フォーラムを購読した場合、あなたが新しいフォーラム投稿の通知を受信することを意味します。通常、あなたは購読するかどうか選択することができますが、すべてのユーザが通知を受信するよう、購読が強制される場合もあります。';
+$string['subscription_help'] = 'フォーラムを購読した場合、あなたが新しいフォーラム投稿の通知を受信することを意味します。通常、あなたは購読するかどうか選択することができますが、すべてのユーザが通知を受信するよう購読が強制される場合もあります。';
 $string['subscriptionmode'] = '購読モード';
 $string['subscriptionmode_help'] = '参加者がフォーラムを購読する場合、フォーラム投稿内容のコピーをメール受信することを意味します。
 

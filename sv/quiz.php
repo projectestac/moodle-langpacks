@@ -346,7 +346,7 @@ $string['exporterror'] = 'Ett fel inträffade i samband med genomförande av exp
 $string['exportingquestions'] = 'Frågorna exporteras till en fil';
 $string['exportname'] = 'Namn på fil';
 $string['exportquestions'] = 'Exportera frågorna till en fil';
-$string['extraattemptrestrictions'] = 'Extra begränsningar i sb m försök';
+$string['extraattemptrestrictions'] = 'Ytterligare begränsningar för försök';
 $string['false'] = 'Falskt';
 $string['feedback'] = 'Återkoppling';
 $string['feedbackerrorboundaryformat'] = 'Betygsgränserna för återkoppling måste vara angivna antingen i procent eller i form av ett tal. Det värde som Du har angivit inom spannet {$a} är inte giltigt.';
@@ -801,9 +801,11 @@ $string['reviewoptionsheading_help'] = 'Dessa inställningar kontrollerar vilken
 
 **Under försöket** är inställningar som endast är relevant för visst beteende, som "interaktiv med multipla försök", som kan visa återkoppling under försöket.
 
-**Omedelbart efter försöket** är inställningar som gäller för de första två minuterna efter att eleven klickat på knappen "Skicka in allt och avsluta".
+**Direkt efter försöket** är inställningar som gäller för de första två minuterna efter att eleven klickat på knappen "Skicka in allt och avsluta".
 
-**Senare, medan testet fortfarande är öppet** är inställningar som gäller efter att testets stängningsdatum har passerat. Om testet inte har stängningsdatum kan detta tillstånd inte nås.';
+**Senare, medan testet fortfarande är öppet** är inställningar som gäller efter att testet är genomfört men innan stängningsdatum har passerat.
+
+** Efter det att testet är avslutat ** är inställningar som gäller efter att testets stängningsdatum har passerats. Om testet inte har en stängningsdatum  uppnås detta tillstånd aldrig.';
 $string['reviewoverallfeedback'] = 'Övergripande återkoppling';
 $string['reviewoverallfeedback_help'] = 'Återkopplingen som ges vid slutet av ett försök, beroende på elevens totala poäng.';
 $string['reviewresponse'] = 'Respons på granskning';

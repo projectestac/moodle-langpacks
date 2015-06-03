@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'Name der Class';
 $string['component'] = 'Komponente';
-$string['configmessageinboundhost'] = 'Die Adresse desServers von dem Moodle E-Mails abholen soll. Um einen Nicht-Standard-Port zu verwenden erfolgt die Eingabe wie folgt [server]:[port], z.B. mail.example.com:587. Wenn Sie das Feld leer lassen, wird der für den Server-Typ festgelegte Standard-Port verwandt.';
+$string['configmessageinboundhost'] = 'Die Adresse des Servers, von dem E-Mails abgeholt werden sollen. Um einen Nicht-Standard-Port zu verwenden erfolgt die Eingabe wie folgt [server]:[port], z.B. mail.example.com:587. Wenn Sie das Feld leer lassen, wird der für den Server-Typ festgelegten Standard-Port verwendet.';
 $string['defaultexpiration'] = 'Ablaufzeitraum für Standardadresse';
 $string['defaultexpiration_help'] = 'Wenn eine E-Mail-Adresse vom Prozess erzeugt wird, kann eine Gültigkeitsdauer festgelegt werden. Nach Ablauf dieses Zeitraums ist die Nutzung nicht mehr möglich. Diese Einstellung wird empfohlen.';
 $string['description'] = 'Beschreibung';

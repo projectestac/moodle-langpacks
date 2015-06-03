@@ -170,8 +170,8 @@ $string['emaildigestsubjectsshort'] = 'Objets seulement';
 $string['emaildigesttype'] = 'Options des courriels quotidiens';
 $string['emaildigesttype_help'] = 'Le type de notification que vous recevrez pour chaque forum.
 
-* Réglage par défaut – c\'est le réglage de votre profil pour ce paramètre. Si le vous modifiez dans votre profil, cette modification sera prise en compte ici également.
-* Pas de courriel quotidien – vous ne recevrez pas de courriel quotidien.
+* Réglage par défaut – c\'est le réglage de votre profil pour ce paramètre. Si  vous le modifiez dans votre profil, cette modification sera prise en compte ici également.
+* Pas de courriel quotidien – vous ne recevrez pas de courriel quotidien, mais un courriel pour chaque message de forum.
 * Messages complets – vous recevrez un courriel quotidien contenant la totalité du contenu de chaque message de forum.
 * Objets seulement – vous recevrez un courriel quotidien ne contenant que l\'objet de chaque message de forum.';
 $string['emaildigestupdated'] = 'Le réglage de courriel quotidien pour le forum « {$a->forum} » a été modifié à « {$a->maildigesttitle} ». {$a->maildigestdescription}';
@@ -404,7 +404,7 @@ $string['pruneheading'] = 'Séparer la discussion et déplacer ce message vers u
 $string['qandaforum'] = 'Forum questions/réponses';
 $string['qandanotify'] = 'Ce forum est un forum « Questions et Réponses ». Pour voir les autres réponses à ces questions, vous devez d\'abord écrire votre propre réponse';
 $string['re'] = 'Re:';
-$string['readtherest'] = 'Lire le reste la discussion';
+$string['readtherest'] = 'Lire le reste de la discussion';
 $string['replies'] = 'Réponses';
 $string['repliesmany'] = '{$a} réponses';
 $string['repliesone'] = '{$a} réponse';
@@ -413,7 +413,7 @@ $string['replyforum'] = 'Répondre au forum';
 $string['reply_handler'] = 'Ce gestionnaire permet de répondre aux messages des forums par courriel';
 $string['reply_handler_name'] = 'Réponse aux messages des forums';
 $string['replytoforumpost'] = 'Vous pouvez répondre à ce message de forum par courriel.';
-$string['replytopostbyemail'] = 'Si vous répondez par courriel, veuillez ne pas inclure une citation du message auquel vous répondez';
+$string['replytopostbyemail'] = 'Vous pouvez répondre à ce message par courriel.';
 $string['replytouser'] = 'Utiliser l\'adresse de l\'auteur';
 $string['resetdigests'] = 'Supprimer toutes les préférences des utilisateurs pour les courriels quotidiens de forum';
 $string['resetforums'] = 'Supprimer les messages du';

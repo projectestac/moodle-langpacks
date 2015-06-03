@@ -147,8 +147,10 @@ $string['forcejavascript'] = 'Forcer les utilisateurs à activer Javascript';
 $string['forcejavascript_desc'] = 'Si ce réglage est activé (recommandé), il empêche l\'accès aux objets SCORM lorsque Javascript est désactivé ou n\'est pas supporté dans le navigateur de l\'utilisateur. Si le réglage est désactivé, l\'utilisateur pourra voir le SCORM, mais les communications API échoueront et aucune information d\'évaluation ne sera enregistrée.';
 $string['forcejavascriptmessage'] = 'Javascript est requis pour voir cet élément. Veuillez activer Javascript dans votre navigateur et essayer à nouveau.';
 $string['forcenewattempt'] = 'Imposer une nouvelle tentative';
-$string['forcenewattemptdesc'] = 'Si ce réglage est activé, une nouvelle tentative sera comptée pour chaque accès au paquetage SCORM.';
-$string['forcenewattempt_help'] = 'Si ce réglage est activé, une nouvelle tentative est comptée chaque fois que le paquetage SCORM est consulté.';
+$string['forcenewattemptdesc'] = 'Si ce réglage est activé, la case à cocher « Commencer une nouvelle tentative » est cachée et empêche le mode relecture. SCORM permet à un étudiant de revenir à une tentative à n\'importe quel stade, et une nouvelle tentative n\'est possible que si la tentative précédente est marquée comme « terminée », « réussie » ou « échouée ». Si le paquetage SCORM ne fait pas ceci, l\'étudiant recommencera toujours la même tentative.';
+$string['forcenewattempt_help'] = 'Si ce réglage est activé, la case à cocher « Commencer une nouvelle tentative » est cachée et empêche le mode relecture.
+
+SCORM permet à un étudiant de revenir à une tentative à n\'importe quel stade, et une nouvelle tentative n\'est possible que si la tentative précédente est marquée comme « terminée », « réussie » ou « échouée ». Si le paquetage SCORM ne fait pas ceci, l\'étudiant recommencera toujours la même tentative.';
 $string['found'] = 'Fichier « manifest » trouvé';
 $string['frameheight'] = 'La hauteur du cadre ou de la fenêtre';
 $string['framewidth'] = 'La largeur du cadre ou de la fenêtre';

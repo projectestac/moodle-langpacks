@@ -146,8 +146,10 @@ $string['forcejavascript'] = 'Obbliga gli utenti ad abilitare JavaScript';
 $string['forcejavascript_desc'] = 'Impedisce l\'accesso ad oggetti SCORM quando il borwser dell\'utente non supporta javascript oppure non lo ha abilitato. Se l\'impostazione è disbailitata, l\'utente può vedere l\'oggetto SCORM ma la comunicazione dei dati di fruizione sarà perduta.';
 $string['forcejavascriptmessage'] = 'Per visualizzare questo oggetto è necessario JavaScript, per favore abilita JavaScript nel tuo browser e riprova';
 $string['forcenewattempt'] = 'Forza un nuovo tentativo';
-$string['forcenewattemptdesc'] = 'Ogni accesso ad un pacchetto SCORM sarò considerato come nuovo tentativo';
-$string['forcenewattempt_help'] = 'Con Forza un nuovo tentativo ogni accesso al pacchetto SCORM sarà considerato un nuovo tentativo.';
+$string['forcenewattemptdesc'] = 'Consente di nascondere la casella di spunta "Avvia nuovo tentativo" ed evita la modalità revisione. Lo SCORM consente agli studenti di tornare allo stesso tentativo in qualsiasi punto e non è possibile avviare un nuovo tentativo finché il tentativo precedente non risulta "completed", "passed" o "failed". Se il pacchetto SCORM non gestisce la cosa, lo studente rientrerà sempre nello stesso tentativo.';
+$string['forcenewattempt_help'] = 'Consente di nascondere la casella di spunta "Avvia nuovo tentativo" ed evita la modalità revisione.
+
+Lo SCORM consente agli studenti di tornare allo stesso tentativo in qualsiasi punto e non è possibile avviare un nuovo tentativo finché il tentativo precedente non risulta "completed", "passed" o "failed". Se il pacchetto SCORM non gestisce la cosa, lo studente rientrerà sempre nello stesso tentativo.';
 $string['found'] = 'Manifest trovato';
 $string['frameheight'] = 'L\'altezza del frame o della finestra';
 $string['framewidth'] = 'La larghezza del frame o della finestra';

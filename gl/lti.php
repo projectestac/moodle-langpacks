@@ -120,4 +120,5 @@ $string['lti_launch_error_tool_request'] = '<p> Para enviar unha solicitude a de
 $string['lti:requesttooladd'] = 'Enviar unha ferramenta aos administradores para a súa configuración';
 $string['lti_tool_request_added'] = 'A solicitude de configuración da ferramenta enviouse correctamente. Poida que necesite contactar cun administrador para completar a configuración da ferramenta.';
 $string['lti_tool_request_existing'] = 'Xa se entregou unha configuración para a ferramenta no dominio.';
+$string['miscellaneous'] = 'Varios';
 $string['submissions'] = 'Entregas';

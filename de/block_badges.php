@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['badges:addinstance'] = 'Block "Neue Auszeichnungen" hinzufügen';
+$string['badges:addinstance'] = 'Block \'Neue Auszeichnungen\' hinzufügen';
 $string['badges:myaddinstance'] = 'Block "Neue Auszeichnungen" zu "Meine Startseite" hinzufügen';
 $string['nothingtodisplay'] = 'Sie haben keine Auszeichnungen.';
 $string['numbadgestodisplay'] = 'Anzahl neuer Auszeichnungen';

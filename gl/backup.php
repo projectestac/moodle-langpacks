@@ -167,6 +167,7 @@ $string['includeditems'] = 'Elementos incluídos:';
 $string['includefilereferences'] = 'Referencias de ficheiro a contidos externos';
 $string['includesection'] = 'Sección {$a}';
 $string['includeuserinfo'] = 'Datos de usuario';
+$string['jumptofinalstep'] = 'Saltar ao último paso';
 $string['locked'] = 'Bloqueado';
 $string['lockedbyconfig'] = 'Este axuste foi bloqueado pola configuración predeterminada da copia de seguranza';
 $string['lockedbyhierarchy'] = 'Bloqueado polas dependencias';

@@ -47,6 +47,7 @@ $string['addnewuseroverride'] = 'ユーザオーバーライドを追加する';
 $string['addpagebreak'] = '改ページを追加する';
 $string['addpagehere'] = 'ここにページを追加する';
 $string['addquestion'] = '問題を追加する';
+$string['addquestionfrombankatend'] = '最後に問題バンクから追加する';
 $string['addquestionfrombanktopage'] = '問題バンクからページ {$a} に追加する';
 $string['addquestions'] = '問題を追加する';
 $string['addquestionstoquiz'] = '現在の小テストに問題を追加する';
@@ -55,6 +56,7 @@ $string['addrandom1'] = '<< 追加';
 $string['addrandom2'] = 'ランダム問題';
 $string['addrandomfromcategory'] = 'カテゴリからランダム問題を追加する:';
 $string['addrandomquestion'] = 'ランダム問題を追加する';
+$string['addrandomquestionatend'] = '最後にランダム問題を追加する';
 $string['addrandomquestiontopage'] = 'ランダム問題をページ {$a} に追加する';
 $string['addrandomquestiontoquiz'] = 'ランダム問題を小テスト {$a} に追加する';
 $string['addselectedquestionstoquiz'] = '選択した問題を小テストに追加する';
@@ -367,7 +369,7 @@ $string['formatnotfound'] = 'インポート/エクスポートフォーマッ�
 $string['formatnotimplemented'] = 'フォーマットが正しく実装されていません。バグレポートに投稿してください。';
 $string['formulaerror'] = '公式エラー!';
 $string['fractionsaddwrong'] = 'あなたが選択したプラス評点の合計が、100%になっていません。<br />現在の評点合計は {$a}% です。<br />戻ってこの問題を修正しますか?';
-$string['fractionsnomax'] = 'この問題で満点を取ることができるよう、<br />答えの1つは、100%でなければなりません。 <br />戻ってこの問題を修正しますか?';
+$string['fractionsnomax'] = 'この問題で満点を取ることができるよう<br />答えの1つは、100%でなければなりません。 <br />戻ってこの問題を修正しますか?';
 $string['fromfile'] = 'ファイルからインポートする:';
 $string['functiondisabledbysecuremode'] = 'この機能は現在無効にされています。';
 $string['generalfeedback'] = '全般に対するフィードバック';
@@ -564,7 +566,7 @@ $string['open'] = '未解答';
 $string['openclosedatesupdated'] = '小テスト公開日時および終了日時が更新されました。';
 $string['optional'] = 'オプション';
 $string['orderandpaging'] = '問題順およびページング';
-$string['orderandpaging_help'] = 'それぞれの問題の反対側にある番号10、20、30、 ... は問題順を意味します。問題を追加できるよう、番号は10ずつ増やされます。問題順を並べ替えるには、番号を変更した後、「問題を並べ替える」ボタンをクリックしてください。
+$string['orderandpaging_help'] = 'それぞれの問題の反対側にある番号10、20、30、 ... は問題順を意味します。問題を追加できるよう番号は10ずつ増やされます。問題順を並べ替えるには、番号を変更した後、「問題を並べ替える」ボタンをクリックしてください。
 
 特定の問題の後に改ページを追加するには、問題の横にあるチェックボックスをチェックした後、「選択した問題の後に改ページを追加する」ボタンをクリックしてください。
 

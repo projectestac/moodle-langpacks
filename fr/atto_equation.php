@@ -38,5 +38,5 @@ $string['librarygroup4_desc'] = 'Commandes TeX affichées dans l\'onglet avancé
 $string['pluginname'] = 'Éditeur d\'équations';
 $string['preview'] = 'Prévisualisation de l\'équation';
 $string['saveequation'] = 'Enregistrer équation';
-$string['settings'] = 'Réglage de l\'éditeur d\'équations';
+$string['settings'] = 'Réglages de l\'éditeur d\'équations';
 $string['update'] = 'Modifier';

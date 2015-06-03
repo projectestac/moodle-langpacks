@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allowadditionalcssclasses'] = '追加CSSクラスを許可する';
-$string['configallowadditionalcssclasses'] = '追加CSSクラスを設定できるよう、HTMLブロックインスタンスに設定オプションを追加します。';
+$string['configallowadditionalcssclasses'] = '追加CSSクラスを設定できるようHTMLブロックインスタンスに設定オプションを追加します。';
 $string['configclasses'] = '追加CSSクラス';
 $string['configclasses_help'] = 'この設定の目的はHTMLブロックの相互識別の補助によるテーマ作成の支援にあります。ここで入力されたCSSクラス (スペース区切り) はブロックのデフォルトクラスに付加されます。';
 $string['configcontent'] = 'コンテンツ';

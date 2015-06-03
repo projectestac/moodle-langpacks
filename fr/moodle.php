@@ -487,7 +487,7 @@ $string['deletecategorycheck2'] = 'Si vous supprimez cette catégorie, vous deve
 $string['deletecategoryempty'] = 'Cette catégorie est vide.';
 $string['deletecheck'] = 'Supprimer {$a} ?';
 $string['deletecheckfiles'] = 'Voulez-vous vraiment supprimer ces fichiers ?';
-$string['deletecheckfull'] = 'Voulez-vous vraiment supprimer {$a} ?';
+$string['deletecheckfull'] = 'Voulez-vous vraiment supprimer l\'utilisateur {$a}, y compris toutes ses inscriptions, toutes ses activités et les autres données associées ?';
 $string['deletechecktype'] = 'Voulez-vous vraiment supprimer ce {$a->type} ?';
 $string['deletechecktypename'] = 'Voulez-vous vraiment supprimer le {$a->type} « {$a->name} »?';
 $string['deletecheckwarning'] = 'Vous allez supprimer ces fichiers';
@@ -604,7 +604,7 @@ $string['emaildigest'] = 'Forme du courriel quotidien';
 $string['emaildigestcomplete'] = 'Complet (courriel quotidien avec l\'intégralité des messages)';
 $string['emaildigest_help'] = 'Le type de notification que les forums utiliseront par défaut pour le courriel quotidien.
 
-* Pas de courriel quotidien – vous ne recevrez pas de courriel quotidien.
+* Pas de courriel quotidien – vous ne recevrez pas de courriel quotidien, mais un courriel pour chaque message de forum.
 * Messages complets – vous recevrez un courriel quotidien contenant la totalité du contenu de chaque message de forum.
 * Objets seulement – vous recevrez un courriel quotidien ne contenant que l\'objet de chaque message de forum.
 
@@ -1656,7 +1656,7 @@ $string['specifyname'] = 'Vous devez indiquer un nom.';
 $string['standard'] = 'Standard';
 $string['starpending'] = '([*] = cours en attente d\'approbation)';
 $string['startdate'] = 'Date de début du cours';
-$string['startdate_help'] = 'Ce réglage indique le début de la première semaine d\'un cours en format hebdomadaire. Il spécifie aussi la plus ancienne date pouvant être affichée dans le journal des événements.';
+$string['startdate_help'] = 'Ce réglage indique le début de la première semaine d\'un cours en format hebdomadaire. Il détermine aussi la plus ancienne date pouvant être affichée dans le journal des événements. Si un cours est réinitialisé et que la date de début en est modifiée, toutes les dates du cours seront adaptées relativement à la nouvelle date de début.';
 $string['startingfrom'] = 'À partir de';
 $string['startsignup'] = 'Créer un compte';
 $string['state'] = 'Canton, département';
@@ -1828,7 +1828,7 @@ $string['userdata'] = 'Données utilisateurs';
 $string['userdeleted'] = 'Le compte de cet utilisateur a été supprimé';
 $string['userdescription'] = 'Description';
 $string['userdescription_help'] = 'Ce champ vous permet d\'écrire quelques mots sur vous-même. Le texte sera affiché sur votre page de profil.';
-$string['userdetails'] = 'Détails des utilisateurs';
+$string['userdetails'] = 'Informations détaillées';
 $string['userfiles'] = 'Fichiers utilisateur';
 $string['userlist'] = 'Liste des utilisateurs';
 $string['usermenu'] = 'Menu utilisateur';

@@ -36,8 +36,7 @@ $string['aicchacpkeepsessiondata_desc'] = 'Length of time in days to keep the ex
 $string['aicchacptimeout'] = 'AICC HACP timeout';
 $string['aicchacptimeout_desc'] = 'Length of time in minutes that an external AICC HACP session can remain open';
 $string['aiccuserid'] = 'AICC pass numeric user id';
-$string['aiccuserid_desc'] = 'The AICC standard for usernames is very restrictive compared with Moodle so we pass the user->id instead. If disabled this passes the moodle username to the AICC package.
-The AICC standard allows for alpha-numeric characters with the two additional characters dash(-) and the underscore(_). Periods, spaces and the @ symbol are not permitted.';
+$string['aiccuserid_desc'] = 'The AICC standard for usernames is very restrictive compared with Moodle. It allows for alpha-numeric characters, dash and underscore only. Periods, spaces and the @ symbol are not permitted. If enabled, user ID numbers are passed to the AICC package instead of usernames.';
 $string['aliasonly'] = 'When selecting an imsmanifest.xml file from a repository you must use an alias/shortcut for this file.';
 $string['allowapidebug'] = 'Activate API debug and tracing (set the capture mask with apidebugmask)';
 $string['allowtypeaicchacp'] = 'Enable external AICC HACP';
@@ -147,8 +146,10 @@ $string['forcejavascript'] = 'Force users to enable JavaScript';
 $string['forcejavascript_desc'] = 'If enabled (recommended) this prevents access to SCORM objects when JavaScript is not supported/enabled in a users browser. If disabled the user may view the SCORM but API communication will fail and no grade information will be saved.';
 $string['forcejavascriptmessage'] = 'JavaScript is required to view this object, please enable JavaScript in your browser and try again.';
 $string['forcenewattempt'] = 'Force new attempt';
-$string['forcenewattemptdesc'] = 'If enabled, each time a SCORM package is accessed will be counted as a new attempt.';
-$string['forcenewattempt_help'] = 'If enabled, each time a SCORM package is accessed will be counted as a new attempt.';
+$string['forcenewattemptdesc'] = 'This setting hides the "Start new attempt" checkbox and prevents review mode. SCORM allows a student to return to the same attempt at any point and a new attempt is not possible unless the previous attempt has been set as "completed", "passed" or "failed". If the SCORM package does not do this, the student will always re-enter the same attempt.';
+$string['forcenewattempt_help'] = 'This setting hides the "Start new attempt" checkbox and prevents review mode.
+
+SCORM allows a student to return to the same attempt at any point and a new attempt is not possible unless the previous attempt has been set as "completed", "passed" or "failed". If the SCORM package does not do this, the student will always re-enter the same attempt.';
 $string['found'] = 'Manifest found';
 $string['frameheight'] = 'The height of the stage frame or window.';
 $string['framewidth'] = 'The width of the stage frame or window.';

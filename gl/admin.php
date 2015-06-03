@@ -58,6 +58,7 @@ $string['allowthemechangeonurl'] = 'Permitir cambios de tema no URL';
 $string['allowuserblockhiding'] = 'Permitirlle aos usuarios agochar bloques';
 $string['allowuserswitchrolestheycantassign'] = 'Permitirlle aos usuarios sen permiso para asignar roles poder cambiar de rol';
 $string['allowuserthemes'] = 'Permitir temas de usuario';
+$string['alternativefullnameformat'] = 'Formato alternativo do nome completo';
 $string['antivirus'] = 'Antivirus';
 $string['appearance'] = 'Aparencia';
 $string['aspellpath'] = 'Ruta a aspell';
