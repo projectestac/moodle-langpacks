@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -225,7 +225,6 @@ $string['grade:unlock'] = '解除成绩和项目的锁定';
 $string['grade:view'] = '查看自己的成绩';
 $string['grade:viewall'] = '查看其他人的成绩';
 $string['grade:viewhidden'] = '查看成绩所有者的隐藏成绩';
-$string['hidden'] = '隐藏';
 $string['highlightedcellsshowdefault'] = '下表中被选择的权限是上面所选角色原型的缺省权限。';
 $string['highlightedcellsshowinherit'] = '下表中高亮显示的权限是继承来的权限。除了确实要修改的权限以外，都应该设为继承。';
 $string['inactiveformorethan'] = '超过{$a->timeperiod}，停止';

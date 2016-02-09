@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'glossary', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -87,6 +87,7 @@ $string['cnfshowgroup'] = 'グループ区切りを表示するかどうか指�
 $string['cnfsortkey'] = 'デフォルトの並べ替えキーを選択してください。';
 $string['cnfsortorder'] = 'デフォルトの並べ替え順を選択してください。';
 $string['cnfstudentcanpost'] = '学生のエントリ投稿をデフォルトで許可します。';
+$string['cnftabs'] = 'この用語集フォーマットに表示されるタブを選択してください。';
 $string['comment'] = 'コメント';
 $string['commentdeleted'] = 'コメントが削除されました。';
 $string['comments'] = 'コメント';
@@ -337,6 +338,7 @@ $string['usedynalink_help'] = '<p>この設定を「Yes」にすると、同一�
 <p>特定のテキストをリンクさせたくない場合 (例えばフォーラムの投稿)、テキストの前後に &lt;nolink&gt;  および &lt;/nolink&gt; タグを付加してください。</p>
 
 <p>カテゴリ名もオートリンクされますので注意してください。</p>';
+$string['visibletabs'] = '表示タブ';
 $string['waitingapproval'] = '承認待ち';
 $string['warningstudentcapost'] = '(用語集がメイン用語集ではない場合に適用)';
 $string['withauthor'] = '用語 (著者あり)';

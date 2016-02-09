@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'fr', branch 'MOODLE_30_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -120,8 +120,8 @@ $string['community:add'] = 'Utiliser le bloc Communauté pour rechercher des cou
 $string['community:download'] = 'Télécharger des cours depuis le bloc Communauté';
 $string['confirmaddadmin'] = 'Voulez-vous vraiment ajouter l\'utilisateur <strong>{$a}</strong> comme nouvel administrateur du site ?';
 $string['confirmdeladmin'] = 'Voulez-vous vraiment retirer l\'utilisateur <strong>{$a}</strong> de la liste des administrateurs du site ?';
-$string['confirmroleprevent'] = 'Voulez-vous vraiment retirer le rôle <strong>{$a->role}</strong> de la liste des rôles avec autorisation pour la capacité {$a->cap} dans le contexte {$a->context} ?';
-$string['confirmroleunprohibit'] = 'Voulez-vous vraiment retirer le rôle <strong>{$a->role}</strong> de la liste des rôles avec interdiction pour la capacité {$a->cap} dans le contexte {$a->context} ?';
+$string['confirmroleprevent'] = 'Voulez-vous vraiment retirer le rôle « <strong>{$a->role}</strong> » de la liste des rôles avec autorisation pour la capacité « {$a->cap} » dans le contexte « {$a->context} » ?';
+$string['confirmroleunprohibit'] = 'Voulez-vous vraiment retirer le rôle « <strong>{$a->role}</strong> » de la liste des rôles avec interdiction pour la capacité « {$a->cap} » dans le contexte « {$a->context} » ?';
 $string['confirmunassign'] = 'Voulez-vous vraiment retirer ce rôle à cet utilisateur ?';
 $string['confirmunassignno'] = 'Annuler';
 $string['confirmunassigntitle'] = 'Confirmer le changement de rôle';
@@ -153,6 +153,7 @@ $string['course:reset'] = 'Réinitialiser les cours';
 $string['course:reviewotherusers'] = 'Consulter les autres utilisateurs';
 $string['course:sectionvisibility'] = 'Contrôler la visibilité des sections';
 $string['course:setcurrentsection'] = 'Fixer la section actuelle';
+$string['course:tag'] = 'Modifier les tags de cours';
 $string['course:update'] = 'Modifier les réglages des cours';
 $string['course:useremail'] = 'Activer/désactiver les adresses de courriel';
 $string['course:view'] = 'Voir les cours sans y participer';
@@ -225,7 +226,6 @@ $string['grade:unlock'] = 'Déverrouiller les notes ou éléments';
 $string['grade:view'] = 'Voir ses propres notes';
 $string['grade:viewall'] = 'Voir les notes d\'autres utilisateurs';
 $string['grade:viewhidden'] = 'Voir ses propres notes cachées';
-$string['hidden'] = 'Caché';
 $string['highlightedcellsshowdefault'] = 'Les cellules en surbrillance dans le tableau ci-dessous indiquent la permission par défaut pour le modèle de rôle spécifié ci-dessus.';
 $string['highlightedcellsshowinherit'] = 'Les cellules en surbrillance dans le tableau ci-dessous indiquent s\'il y a lieu la permission qui sera héritée. À part les capacités dont vous voulez modifier les permissions, il est suggéré de laisser le tout sur Hériter.';
 $string['inactiveformorethan'] = 'inactif depuis plus de {$a->timeperiod}';
@@ -251,8 +251,8 @@ $string['manageroles'] = 'Gérer les rôles';
 $string['maybeassignedin'] = 'Types de contextes où ce rôle peut être attribué';
 $string['morethan'] = 'Plus de {$a}';
 $string['multipleroles'] = 'Plusieurs rôles';
-$string['my:configsyspages'] = 'Configurer les modèles système pour les pages Ma page';
-$string['my:manageblocks'] = 'Gérer les blocs de la page Ma page';
+$string['my:configsyspages'] = 'Configurer les modèles système pour les pages « Tableau de bord »';
+$string['my:manageblocks'] = 'Gérer les blocs des pages « Tableau de bord »';
 $string['neededroles'] = 'Rôles avec permission';
 $string['nocapabilitiesincontext'] = 'Aucune capacité dans ce contexte';
 $string['noneinthisx'] = 'Aucun dans ce {$a}';
@@ -260,7 +260,7 @@ $string['noneinthisxmatching'] = 'Aucun utilisateur correspondant à « {$a->se
 $string['norole'] = 'Aucun rôle';
 $string['noroleassignments'] = 'Aucun rôle n\'est attribué à cet utilisateur dans ce site.';
 $string['noroles'] = 'Aucun rôle';
-$string['notabletoassignroleshere'] = 'Vous ne pouvez pas attribuer de rôle ici';
+$string['notabletoassignroleshere'] = 'L\'attribution de rôles dans ce contexte n\'a pas été activée par un administrateur.';
 $string['notabletooverrideroleshere'] = 'Vous ne pouvez modifier ici aucune permission pour aucun rôle';
 $string['notes:manage'] = 'Gérer les annotations';
 $string['notes:view'] = 'Voir les annotations';
@@ -323,7 +323,7 @@ $string['restore:userinfo'] = 'Restaurer les données des utilisateurs';
 $string['restore:viewautomatedfilearea'] = 'Restaurer les cours à partir des backups automatiques';
 $string['risks'] = 'Risques';
 $string['roleallowheader'] = 'Permettre le rôle';
-$string['roleallowinfo'] = 'Sélectionner un rôle à ajouter à la liste des rôles autorisés pour la capacité {$a->cap} dans le contexte {$a->context} :';
+$string['roleallowinfo'] = 'Sélectionner un rôle à ajouter à la liste des rôles autorisés pour la capacité « {$a->cap} » dans le contexte « {$a->context} » :';
 $string['role:assign'] = 'Attribuer des rôles aux utilisateurs';
 $string['roleassignments'] = 'Attributions de rôle';
 $string['roledefinitions'] = 'Définitions des rôles';
@@ -332,7 +332,7 @@ $string['roleincontext'] = '{$a->role} dans {$a->context}';
 $string['role:manage'] = 'Créer et gérer les rôles';
 $string['role:override'] = 'Définir des dérogations pour d\'autres utilisateurs';
 $string['roleprohibitheader'] = 'Interdire le rôle';
-$string['roleprohibitinfo'] = 'Sélectionner un rôle à ajouter à la liste des rôles avec interdiction pour la capacité {$a->cap} dans le contexte {$a->context} :';
+$string['roleprohibitinfo'] = 'Sélectionner un rôle à ajouter à la liste des rôles avec interdiction pour la capacité « {$a->cap} » dans le contexte « {$a->context} » :';
 $string['rolerepreset'] = 'Utiliser un préréglage de rôle';
 $string['roleresetdefaults'] = 'Défauts';
 $string['roleresetrole'] = 'Utiliser rôle ou modèle de rôle';
@@ -359,6 +359,8 @@ $string['siteadministrators'] = 'Administrateurs du site';
 $string['site:approvecourse'] = 'Approuver la création de cours';
 $string['site:backup'] = 'Sauvegarder les cours';
 $string['site:config'] = 'Modifier la configuration du site';
+$string['site:deleteanymessage'] = 'Supprimer des messages de la plateforme';
+$string['site:deleteownmessage'] = 'Supprimer ses propres messages envoyés ou reçus';
 $string['site:doanything'] = 'Permettre de tout faire';
 $string['site:doclinks'] = 'Afficher les liens vers la documentation de Moodle';
 $string['site:forcelanguage'] = 'Passer outre la langue du cours';

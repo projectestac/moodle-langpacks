@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'enrol', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actenrolshhdr'] = '可选的选课插件';
 $string['addinstance'] = '添加方法';
+$string['addinstanceanother'] = '添加方法并创建另一个';
 $string['ajaxnext25'] = '下25个...';
 $string['ajaxoneuserfound'] = '找到1个用户';
 $string['ajaxxusersfound'] = '找到{$a}个用户';
@@ -73,6 +74,9 @@ $string['errorenrolcohort'] = '在此课程中创建群组同步选课实例出�
 $string['errorenrolcohortusers'] = '群组成员选修此课出错。';
 $string['errorthresholdlow'] = '选课通知间隔不能少于一天。';
 $string['errorwithbulkoperation'] = '批量更改选课时出错了。';
+$string['eventenrolinstancecreated'] = '创建报名实例';
+$string['eventenrolinstancedeleted'] = '删除报名实例';
+$string['eventenrolinstanceupdated'] = '更新报名实例';
 $string['eventuserenrolmentcreated'] = '用户报名课程';
 $string['eventuserenrolmentdeleted'] = '用户取消报名课程';
 $string['eventuserenrolmentupdated'] = '用户取消报名更新';
@@ -91,6 +95,7 @@ $string['extremovedsuspendnoroles'] = '禁用选课并删除角色';
 $string['extremovedunenrol'] = '撤销选课';
 $string['finishenrollingusers'] = '结束';
 $string['foundxcohorts'] = '找到 {$a} 群组';
+$string['instanceadded'] = '方法已添加';
 $string['instanceeditselfwarning'] = '警告：';
 $string['instanceeditselfwarningtext'] = '您已使用这个报名方式报名此课程，可能会对您访问课程产生影响。';
 $string['invalidenrolinstance'] = '无效的选课实例';
@@ -100,6 +105,7 @@ $string['manageinstance'] = '管理';
 $string['migratetomanual'] = '合并到手动选课';
 $string['nochange'] = '无变化';
 $string['noexistingparticipants'] = '没有任何人加入';
+$string['nogroup'] = '没有组';
 $string['noguestaccess'] = '访客不能访问此课程，请登录。';
 $string['none'] = '无';
 $string['notenrollable'] = '此课程现在不可自助选课。';

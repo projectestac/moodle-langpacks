@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'group', language 'ru', branch 'MOODLE_30_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -147,6 +147,7 @@ $string['importgroups_help'] = 'Группы могут быть импорти�
 $string['javascriptrequired'] = 'Для этой страницы необходимо включить JavaScript';
 $string['members'] = 'Участники групп';
 $string['membersofselectedgroup'] = 'Участники выбранной группы:';
+$string['mygroups'] = 'Мои группы';
 $string['namingscheme'] = 'Шаблон названия';
 $string['namingscheme_help'] = 'Символ «@» используется для создания групп с названиями, содержащими буквы. Например, по шаблону «Группа @» будет созданы группы с именами «Группа А», «Группа В», «Группа С», ...
 
@@ -166,6 +167,7 @@ $string['nousersinrole'] = 'Нет подходящих пользователе
 $string['number'] = 'Количество групп/участников';
 $string['numgroups'] = 'Количество групп';
 $string['nummembers'] = 'Участников в каждой группе';
+$string['othergroups'] = 'Другие группы';
 $string['overview'] = 'Обзор';
 $string['potentialmembers'] = 'Возможные участники: {$a}';
 $string['potentialmembs'] = 'Возможные участники';

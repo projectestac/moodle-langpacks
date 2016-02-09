@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'forum', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -103,6 +103,8 @@ $string['configmaxattachments'] = '投稿ごとに許可されるデフォルト
 $string['configmaxbytes'] = 'すべてのフォーラムの添付ファイルに関するデフォルト最大サイズ (コース制限および他のローカル設定に従います)';
 $string['configoldpostdays'] = '古い投稿を既読とする日数です。';
 $string['configreplytouser'] = 'フォーラムの投稿がメール送信される場合、受信者がフォーラムを介さず個人的に返信できるようメールにユーザのメールアドレスを表示しますか?　「Yes」に設定した場合でも、ユーザはプロファイルページで、メールアドレスを隠すよう設定することができます。';
+$string['configrssarticlesdefault'] = 'RSSフィードが有効にされた場合、デフォルト記事数 (ディスカッションまたは投稿) を設定してください。';
+$string['configrsstypedefault'] = 'RSSフィードが有効にされた場合、デフォルト活動タイプを設定してください。';
 $string['configshortpost'] = 'この文字長以下の長さ (HTMLは含まない) は短いとみなされます (下記参照)。';
 $string['configtrackingtype'] = '未読管理のデフォルト設定';
 $string['configtrackreadposts'] = 'ユーザごとに未読管理したい場合、「Yes」を選択してください。';
@@ -119,11 +121,11 @@ $string['delete'] = '削除';
 $string['deleteddiscussion'] = 'ディスカッショントピックが削除されました。';
 $string['deletedpost'] = '投稿が削除されました。';
 $string['deletedposts'] = '投稿が削除されました。';
-$string['deleteoriginalonreply'] = 'このメール経由で直接返信する場合、あなたが返信する投稿の引用を含まないでください。';
 $string['deletesure'] = 'この投稿を削除してもよろしいですか?';
 $string['deletesureplural'] = 'この投稿およびすべての返信を削除してもよろしいですか? (投稿数 {$a})';
 $string['digestmailheader'] = 'これは {$a->sitename} フォーラムの新しい投稿に関するあなたのデイリーダイジェストです。あなたのデフォルトのフォーラムメールプリファレンスを変更するには {$a->userprefs} に移動してください。';
 $string['digestmailpost'] = 'あなたのフォーラムダイジェストプリファレンスを変更する';
+$string['digestmailpostlink'] = 'あなたのフォーラムダイジェストプリファレンスを変更する: {$a}';
 $string['digestmailprefs'] = 'ユーザプロファイル';
 $string['digestmailsubject'] = '{$a}: フォーラムダイジェスト';
 $string['digestmailtime'] = '要約メールを送信する時刻';
@@ -219,6 +221,7 @@ $string['forum:allowforcesubscribe'] = '強制購読を許可する';
 $string['forumauthorhidden'] = '投稿者 (非表示)';
 $string['forumblockingalmosttoomanyposts'] = 'あなたは投稿数の限度に近づきつつあります。あなたは直近の {$a->blockperiod} に {$a->numposts} 回投稿しています。投稿数の限度は {$a->blockafter} 回です。';
 $string['forumbodyhidden'] = 'あなたはこの記事を閲覧できません。恐らく、あなたがまだディスカッションを投稿していない、最大編集時間を経過していない、ディスカッションが開始されていない、またはディスカッションの有効期限が切れています。';
+$string['forum:canposttomygroups'] = 'あなたがアクセスできるグループすべてに投稿できる';
 $string['forum:createattachment'] = '添付ファイルを作成する';
 $string['forum:deleteanypost'] = 'どの投稿でも削除する (いつでも)';
 $string['forum:deleteownpost'] = '自分の投稿を削除する (期限内)';
@@ -325,6 +328,9 @@ $string['more'] = '詳細';
 $string['movedmarker'] = '(移動済み)';
 $string['movethisdiscussionto'] = 'このディスカッションを移動する ...';
 $string['mustprovidediscussionorpost'] = 'あなたはディスカッションIDまたは投稿IDをエクスポートに提供する必要があります。';
+$string['myprofileotherdis'] = 'フォーラムディスカッション';
+$string['myprofileowndis'] = 'マイフォーラムディスカッション';
+$string['myprofileownpost'] = 'マイフォーラム投稿';
 $string['namenews'] = 'ニュースフォーラム';
 $string['namenews_help'] = '<p>ニュースフォーラムは、サイトのそれぞれのコースおよびフロントページに自動的に作成される全般的なお知らせ用のフォーラムです。1コースあたり1つのニュースフォーラムのみ設置されます。</p>
 
@@ -389,6 +395,9 @@ $string['postincontext'] = 'この投稿をコンテクスト内に表示する'
 $string['postmailinfo'] = 'これは ウェブサイト {$a} に投稿された記事のコピーです。
 
 返信を投稿するにはこのリンクをクリックしてください:';
+$string['postmailinfolink'] = 'これは {$a->coursename} に投稿されたメッセージのコピーです。
+
+返信するにはこのリンクをクリックしてください: {$a->replylink}';
 $string['postmailnow'] = '<p>この投稿はすべてのメール購読ユーザにすぐに送信されます。</p>';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = '主に分離認識の傾向がある';
@@ -398,6 +407,8 @@ $string['posts'] = '投稿';
 $string['postsmadebyuser'] = '{$a} による投稿';
 $string['postsmadebyuserincourse'] = '{$a->coursename} における {$a->fullname} による投稿';
 $string['posttoforum'] = 'フォーラムに投稿する';
+$string['posttomygroups'] = 'すべてのグループにコピーを投稿する';
+$string['posttomygroups_help'] = 'あなたがアクセスすることのできるすべてのグループに対して、このメッセージのコピーを投稿します。あなたがアクセスすることのできないグループの参加者はこの投稿を閲覧することはできません。';
 $string['postupdated'] = '投稿が更新されました。';
 $string['potentialsubscribers'] = '潜在的メール購読ユーザ';
 $string['prevdiscussiona'] = '前のディスカッション: {$a}';
@@ -417,7 +428,6 @@ $string['reply'] = '返信';
 $string['replyforum'] = 'フォーラムに返信';
 $string['reply_handler'] = 'フォーラム投稿にメールで返信します。';
 $string['reply_handler_name'] = 'フォーラム投稿に返信する';
-$string['replytoforumpost'] = 'あなたはこのフォーラム投稿にメールで返信することができます。';
 $string['replytopostbyemail'] = 'あなたはこのメールによって返信することができます。';
 $string['replytouser'] = '返信にメールアドレスを使用する';
 $string['resetdigests'] = 'すべてのユーザのフォーラムダイジェストプリファレンスを削除する';
@@ -432,6 +442,7 @@ $string['rssarticles_help'] = '<p>ここではRSSフィードに含まれる記�
 $string['rsssubscriberssdiscussions'] = 'ディスカッションのRSSフィード';
 $string['rsssubscriberssposts'] = '投稿のRSSフィード';
 $string['rsstype'] = 'この活動のRSSフィード';
+$string['rsstypedefault'] = 'RSSフィードタイプ';
 $string['rsstype_help'] = '<p>ここではフォーラムのRSSフィードを利用可にすることができます。</p>
 
 <p>RSSフィードは、2種類の中から選択することができます:</p>
@@ -470,7 +481,8 @@ $string['subscribediscussion'] = 'このディスカッションを購読する'
 $string['subscribeenrolledonly'] = '申し訳ございません、登録しているユーザのみ、フォーラム投稿通知を購読することができます。';
 $string['subscribenone'] = '全員のメール購読を解除';
 $string['subscribers'] = 'メール購読ユーザ';
-$string['subscribersto'] = '{$a} のメール購読ユーザ';
+$string['subscribersto'] = '「 {$a->name} 」の購読者';
+$string['subscriberstowithcount'] = '「 {$a->name} 」 ({$a->count}) の購読者';
 $string['subscribestart'] = 'このフォーラムの新しい投稿を私にメール通知してください';
 $string['subscribestop'] = 'このフォーラムの新しい投稿を私にメール通知しないでください';
 $string['subscription'] = 'メール購読';
@@ -493,7 +505,9 @@ $string['subscriptionmode_help'] = '参加者がフォーラムを購読する�
 $string['subscriptionoptional'] = '任意購読';
 $string['subscriptions'] = 'メール購読';
 $string['thisforumisthrottled'] = 'このフォーラムでは、期限内にあなたが投稿できる投稿数を制限しています - 現在 {$a->blockperiod} で {$a->blockafter} 回に設定されています。';
+$string['timedhidden'] = '時間制限ステータス: 学生から隠す';
 $string['timedposts'] = '時間制限投稿';
+$string['timedvisible'] = '時間制限ステータス: すべてのユーザに表示する';
 $string['timestartenderror'] = '表示終了日を表示開始日より先にすることはできません。';
 $string['trackforum'] = '投稿を未読管理する';
 $string['tracking'] = '未読管理';
@@ -519,6 +533,8 @@ $string['unsubscribealldone'] = 'すべてのフォーラムのメール購読�
 $string['unsubscribeallempty'] = '申し訳ございません、あなたがメール購読しているフォーラムはありません。すべてのフォーラム通知を無効するにはマイプロファイル設定のメッセージングにアクセスしてください。';
 $string['unsubscribed'] = 'メール購読を解除しました。';
 $string['unsubscribediscussion'] = 'このディスカッションから購読解除する';
+$string['unsubscribediscussionlink'] = 'このディスカッションから購読解除する: {$a}';
+$string['unsubscribelink'] = 'このフォーラムから購読解除する: {$a}';
 $string['unsubscribeshort'] = 'メール購読解除';
 $string['usermarksread'] = '投稿を手動で既読にする';
 $string['viewalldiscussions'] = 'すべてのディスカッションを表示する';

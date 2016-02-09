@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'completion', language 'nl', branch 'MOODLE_30_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,8 +42,8 @@ $string['completed'] = 'Voltooid';
 $string['completedunlocked'] = 'Opties voor voltooien niet geblokkeerd';
 $string['completedunlockedtext'] = 'Wanneer je wijzigingen bewaart, zal de status van voltooien voor alle gebruikers gewist worden. Als je twijfelt of je dit wel wil, bewaar dit formulier dan niet.';
 $string['completedwarning'] = 'Opties voor voltooien geblokkeerd';
-$string['completedwarningtext'] = 'Eén of meer gebruikers ({$a}) heeft deze activiteit al als voltooid gemarkeerd. Het wijzigen van de voltooiingsopties zal hun afwerkingsstatus wissen en zou hierdoor voor verwarring kunnen zorgen.
-De opties zijn geblokkeerd en je wordt aangeraden die geblokkeerd te laten.';
+$string['completedwarningtext'] = 'Deze activiteit is al als voltooid voor {$a} deelnemers. Het wijzigen van de voltooiingsopties zal hun voltooiingsstatus wissen en zou hierdoor voor verwarring kunnen zorgen.
+De opties zijn geblokkeerd en je wordt aangeraden die geblokkeerd te laten tenzij absoluut nodig.';
 $string['completion'] = 'Voltooien bijhouden';
 $string['completionactivitydefault'] = 'Gebruik activiteitsstandaard';
 $string['completion-alt-auto-enabled'] = 'Het systeem markeert dit item als voltooid - het voldoet aan de voorwaarden:  {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'forum', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -103,6 +103,8 @@ $string['configmaxattachments'] = 'Número máximo predefinido para o número de
 $string['configmaxbytes'] = 'Tamanho máximo predefinido para todos os anexos de uma mensagem do fórum (sujeito a outros limites impostos na configuração da disciplina e do servidor)';
 $string['configoldpostdays'] = 'Número de dias para uma mensagem ser considerada como lida.';
 $string['configreplytouser'] = 'Quando um tópico de fórum é enviado por e-mail, deverá conter o endereço de e-mail do autor para que os destinatários possam responder diretamente em vez de usarem o fórum? Se selecionar \'Sim\', os utilizadores poderão, a partir do seu perfil, optar por manter o seu endereço de e-mail provado.';
+$string['configrssarticlesdefault'] = 'Se as listas RSS estiverem ativas, esta configuração define o número de artigos (tanto discussões como mensagens).';
+$string['configrsstypedefault'] = 'Se as listas RSS estiverem ativas, esta configuração define o tipo de atividade padrão.';
 $string['configshortpost'] = 'Qualquer mensagem abaixo deste tamanho (número de caracteres, sem incluir HTML) será considerada curta.';
 $string['configtrackingtype'] = 'Configuração predefinida para "Assinalar mensagens".';
 $string['configtrackreadposts'] = 'Selecione \'sim\' para permitir assinalar mensagens não lidas para cada utilizador.';
@@ -119,11 +121,11 @@ $string['delete'] = 'Apagar';
 $string['deleteddiscussion'] = 'O tópico foi apagado';
 $string['deletedpost'] = 'A mensagem foi apagada';
 $string['deletedposts'] = 'Estas mensagens foram apagadas';
-$string['deleteoriginalonreply'] = 'Se responder diretamente a isto via e-mail, por favor não inclua uma cópia da citação do tópico a que está a responder.';
 $string['deletesure'] = 'Tem a certeza que deseja apagar esta mensagem?';
 $string['deletesureplural'] = 'Tem a certeza que quer apagar esta mensagem e todas as suas respostas? (número de respostas: {$a})';
 $string['digestmailheader'] = 'Este é o seu sumário diário de novas mensagens nos fóruns de {$a->sitename}. Pode alterar as suas preferências de e-mail em {$a->userprefs}.';
 $string['digestmailpost'] = 'Altere as suas preferências de Sumários de fóruns';
+$string['digestmailpostlink'] = 'Alterar tipo de sumário de fóruns: {$a}';
 $string['digestmailprefs'] = 'o seu perfil de utilizador';
 $string['digestmailsubject'] = '{$a}: sumário do fórum';
 $string['digestmailtime'] = 'Hora para enviar e-mails com sumários do fórum';
@@ -220,6 +222,7 @@ $string['forum:allowforcesubscribe'] = 'Permitir forçar a subscrição';
 $string['forumauthorhidden'] = 'Autor (oculto)';
 $string['forumblockingalmosttoomanyposts'] = 'Esta a aproximar-se do número máximo de mensagens submetidas. Enviou {$a->numposts} mensagens no período de {$a->blockperiod} e o limite é de {$a->blockafter} mensagens.';
 $string['forumbodyhidden'] = 'Não pode visualizar esta mensagem, provavelmente porque ainda não submeteu uma mensagem no tópico de discussão, o tempo máximo de edição ainda não terminou, a discussão ainda não iniciou ou já terminou.';
+$string['forum:canposttomygroups'] = 'Pode publicar para todos os grupos a que tem acesso';
 $string['forum:createattachment'] = 'Criar anexos';
 $string['forum:deleteanypost'] = 'Apagar qualquer mensagem (em qualquer altura)';
 $string['forum:deleteownpost'] = 'Apagar as suas próprias mensagens (dentro do prazo)';
@@ -327,6 +330,9 @@ $string['more'] = 'mais';
 $string['movedmarker'] = '(Movido)';
 $string['movethisdiscussionto'] = 'Mover este tópico de discussão para...';
 $string['mustprovidediscussionorpost'] = 'Precisa de fornecer o ID de discussão ou id da mensagem para exportar';
+$string['myprofileotherdis'] = 'Tópicos de discussão';
+$string['myprofileowndis'] = 'Os meus tópicos de discussão';
+$string['myprofileownpost'] = 'As minhas mensagens em fóruns';
 $string['namenews'] = 'Fórum Notícias';
 $string['namenews_help'] = 'O fórum de notícias é um fórum especial, criado automaticamente aquando da criação de uma disciplina. Uma disciplina apenas pode conter um fórum noticias e apenas os professores e administradores podem colocar tópicos nesses fóruns. O bloco "Noticias recentes" mostra os últimos tópicos adicionados.';
 $string['namesocial'] = 'Fórum social';
@@ -387,6 +393,9 @@ $string['postbyuser'] = '{$a->post} por {$a->user}';
 $string['postincontext'] = 'Ver mensagem no seu contexto';
 $string['postmailinfo'] = 'Esta é uma cópia de uma mensagem enviada para {$a}.
 Para submeter uma resposta, clique em:';
+$string['postmailinfolink'] = 'Esta é uma cópia da mensagem publicada na disciplina {$a->coursename}.
+
+Para responder à mensagem clique na seguinte ligação: {$a->replylink}';
 $string['postmailnow'] = '<p>Esta mensagem será enviada imediatamente a todos os subscritores do fórum.</p>';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Contribui principalmente para a aprendizagem INDIVIDUAL';
@@ -396,6 +405,8 @@ $string['posts'] = 'Mensagens';
 $string['postsmadebyuser'] = 'Mensagens colocadas por {$a}';
 $string['postsmadebyuserincourse'] = 'Mensagens colocadas por {$a->fullname} em {$a->coursename}';
 $string['posttoforum'] = 'Submeter tópico';
+$string['posttomygroups'] = 'Submeter uma cópia em todos os grupos';
+$string['posttomygroups_help'] = 'Submete uma cópia desta mensagem em todos os grupos a que tem acesso. Os utilizadores que pertençam a grupos a que não tem acesso não irão ver esta mensagem.';
 $string['postupdated'] = 'A sua mensagem foi atualizada';
 $string['potentialsubscribers'] = 'Potenciais subscritores';
 $string['prevdiscussiona'] = 'Tópico de discussão anterior: {$a}';
@@ -415,7 +426,6 @@ $string['reply'] = 'Responder';
 $string['replyforum'] = 'Responder para o fórum';
 $string['reply_handler'] = 'Responder a tópicos de fórum via e-mail';
 $string['reply_handler_name'] = 'Responder a tópicos de fórum';
-$string['replytoforumpost'] = 'Pode responder aos tópicos deste fórum via e-mail.';
 $string['replytopostbyemail'] = 'Pode responder a esta mensagem via e-mail.';
 $string['replytouser'] = 'Usar e-mail na resposta';
 $string['resetdigests'] = 'Eliminar todas as preferências dos utilizadores para os "Sumários de fóruns"';
@@ -428,6 +438,7 @@ $string['rssarticles_help'] = 'Esta opção permite-lhe selecionar o número de 
 $string['rsssubscriberssdiscussions'] = 'Lista RSS de tópicos de discussão';
 $string['rsssubscriberssposts'] = 'Lista RSS de tópicos de mensagens';
 $string['rsstype'] = 'Lista RSS para esta atividade';
+$string['rsstypedefault'] = 'Tipo de lista RSS';
 $string['rsstype_help'] = 'Para ativar o RSS para esta atividade, selecione ou discussões ou mensagens para serem incluídas na lista RSS.';
 $string['search'] = 'Procurar';
 $string['searchdatefrom'] = 'Mensagens posteriores a';
@@ -458,7 +469,8 @@ $string['subscribediscussion'] = 'Subscrever este tópico de discussão';
 $string['subscribeenrolledonly'] = 'Lamentamos mas apenas os utilizadores autenticados podem se inscrever para receber mensagens do fórum por e-mail.';
 $string['subscribenone'] = 'Cancelar a subscrição de todos neste fórum';
 $string['subscribers'] = 'Subscritores';
-$string['subscribersto'] = 'Subscritores de \'{$a}';
+$string['subscribersto'] = 'Subscritores de {$a->name}';
+$string['subscriberstowithcount'] = 'Subscritores de {$a->name} ({$a->count})';
 $string['subscribestart'] = 'Envie-me notificações de novos tópicos neste fórum';
 $string['subscribestop'] = 'Não quero receber notificações de novos tópicos neste fórum';
 $string['subscription'] = 'Subscrição';
@@ -479,7 +491,9 @@ Nota: Quaisquer alterações ao modo de subscrição só afetarão os utilizador
 $string['subscriptionoptional'] = 'Subscrição opcional';
 $string['subscriptions'] = 'Subscrições';
 $string['thisforumisthrottled'] = 'Este fórum possui um limite ao número de mensagens que pode submeter num determinado período de tempo. Está atualmente configurado para {$a->blockafter} mensagem(s) em {$a->blockperiod}';
+$string['timedhidden'] = 'Tempo decorrido: Oculto para os alunos';
 $string['timedposts'] = 'Mensagens com período de visualização';
+$string['timedvisible'] = 'Tempo decorrido: Visível para todos os utilizadores';
 $string['timestartenderror'] = 'A data de fim não pode ser anterior à data de inicio';
 $string['trackforum'] = 'Assinalar mensagens não lidas';
 $string['tracking'] = 'Assinalar';
@@ -505,6 +519,8 @@ $string['unsubscribealldone'] = 'Todas as suas subscrições foram canceladas, i
 $string['unsubscribeallempty'] = 'Não tem subscrição ativa em nenhum fórum. Se não desejar receber nenhum e-mail desative o seu e-mail no seu perfil.';
 $string['unsubscribed'] = 'Subscrição cancelada';
 $string['unsubscribediscussion'] = 'Cancelar a subscrição desta discussão';
+$string['unsubscribediscussionlink'] = 'Remover subscrição deste tópico de discussão: {$a}';
+$string['unsubscribelink'] = 'Remover subscrição deste fórum: {$a}';
 $string['unsubscribeshort'] = 'Cancelar subscrição';
 $string['usermarksread'] = 'Marcar manualmente as mensagens lidas';
 $string['viewalldiscussions'] = 'Ver todos os tópicos';

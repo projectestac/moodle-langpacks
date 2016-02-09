@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'wiki', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,7 @@ $string['defaultformat_help'] = 'Esta configuração determina o formato predefi
 * HTML - O editor HTML está disponível
 * Creole - Uma linguagem de markup comum de wiki para a qual existe uma pequena barra de edição.
 * Nwiki - linguagem de markup, similar ao Mediawiki utilizado no módulo Nwiki';
+$string['deleteallpages'] = 'Apagar todas as páginas da wiki';
 $string['deletecomment'] = 'A apagar comentários';
 $string['deletecommentcheck'] = 'Apagar comentário';
 $string['deletecommentcheckfull'] = 'Tem a certeza de que quer apagar o comentário?';

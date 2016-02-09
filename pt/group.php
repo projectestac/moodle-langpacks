@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'group', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -142,6 +142,7 @@ $string['importgroups_link'] = 'grupo/importar';
 $string['javascriptrequired'] = 'Esta página requer a ativação do Javascript.';
 $string['members'] = 'Membros por grupo';
 $string['membersofselectedgroup'] = 'Membros:';
+$string['mygroups'] = 'Os meus grupos';
 $string['namingscheme'] = 'Esquema de nomeação';
 $string['namingscheme_help'] = 'O símbolo de arroba (@) pode ser utilizado para criar grupos com nomes que contenham letras. Por exemplo, o Grupo @ irá gerar grupos, denominados Grupo A, Grupo B, Grupo C, ...
 
@@ -150,6 +151,7 @@ $string['newgrouping'] = 'Novo agrupamento';
 $string['newpicture'] = 'Nova imagem';
 $string['newpicture_help'] = 'Selecione uma imagem no formato JPG ou PNG. A imagem será ajustada a um quadrado e redimensionada para 100x100 pixels.';
 $string['noallocation'] = 'Sem atribuições';
+$string['nogroup'] = 'Sem grupo';
 $string['nogrouping'] = 'Sem agrupamento';
 $string['nogroups'] = 'Ainda não há grupos definidos nesta disciplina';
 $string['nogroupsassigned'] = 'Não foram atribuídos grupos';
@@ -157,10 +159,12 @@ $string['nopermissionforcreation'] = 'Não é possível criar o grupo"{$a}", por
 $string['nosmallgroups'] = 'Apagar último pequeno grupo';
 $string['notingroup'] = 'Ignorar utilizadores em grupos';
 $string['notingrouping'] = '[Não está num agrupamento]';
+$string['notingrouplist'] = '[Não pertence a nenhum grupo]';
 $string['nousersinrole'] = 'Não existem utilizadores adequados no papel selecionado';
 $string['number'] = 'Número de grupos/membros por grupo';
 $string['numgroups'] = 'Número de grupos';
 $string['nummembers'] = 'Membros por grupo';
+$string['othergroups'] = 'Outros grupos';
 $string['overview'] = 'Perspetiva global';
 $string['potentialmembers'] = 'Potenciais membros: {$a}';
 $string['potentialmembs'] = 'Potenciais membros';

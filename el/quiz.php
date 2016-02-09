@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'el', branch 'MOODLE_28_STABLE'
+ * Strings for component 'quiz', language 'el', branch 'MOODLE_30_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,8 +30,8 @@ $string['action'] = 'Ενέργεια';
 $string['activityoverview'] = 'Έχετε κουίζ που είναι μέχρι';
 $string['adaptive'] = 'Κατάσταση προσαρμογής';
 $string['add'] = 'Προσθήκη';
-$string['addaquestion'] = 'μια νέα ερώτηση';
-$string['addarandomquestion'] = 'μια τυχαία ερώτηση';
+$string['addaquestion'] = 'Προσθήκη ερώτησης ...';
+$string['addarandomquestion'] = 'Προσθήκη τυχαίας ερώτησης ...';
 $string['addarandomselectedquestion'] = 'Προσθέστε μια τυχαία επιλεγμένη ερώτηση ...';
 $string['adddescriptionlabel'] = 'Προσθήκη περιγραφής/ετικέτας';
 $string['addingquestion'] = 'Προσθήκη ερώτησης';
@@ -127,8 +127,6 @@ $string['cannotwrite'] = 'Δεν είναι δυνατή η εγγραφή στ�
 $string['caseno'] = 'Όχι, δεν υπάρχει διαφορά μεταξύ μικρών και κεφαλαίων';
 $string['casesensitive'] = 'Διάκριση μικρών/κεφαλαίων';
 $string['caseyes'] = 'Ναι, μικρά/κεφαλαία πρέπει να ταιριάζουν';
-$string['categories'] = 'Κατηγορίες';
-$string['category'] = 'Κατηγορία';
 $string['categoryadded'] = 'Προστέθηκε η κατηγορία \'{$a}\'';
 $string['categorydeleted'] = 'Διαγράφηκε η κατηγορία \'{$a}\'';
 $string['categorynoedit'] = 'Δεν έχετε δικαίωμα επεξεργασίας της κατηγορίας \'{$a}\'.';
@@ -166,7 +164,6 @@ $string['configrequiresubnet'] = 'Οι σπουδαστές μπορούν να 
 $string['configreviewoptions'] = 'Οι επιλογές αυτές ελέγχουν ποια πληροφορία θα βλεπουν οι χρήστες όταν αναθεωρούν μια προσπάθεια κουίζ ή όταν βλέπουν τις αναφορές κουίζ.';
 $string['configshowblocks'] = 'Εμφάνιση μπλοκ κατά τη διάρκεια των προσπαθειών';
 $string['configshowuserpicture'] = 'Προβολή της εικόνας χρήστη στην οθόνη κατά τη διάρκεια προσπαθειών.';
-$string['configshufflequestions'] = 'Εάν ενεργοποιήσετε αυτήν την επιλογή, τότε η σειρά των ερωτήσεων στο κουίζ θα αλλάζει τυχαία κάθε φορά που ένας σπουδαστής προσπαθεί το κουίζ.';
 $string['configshufflewithin'] = 'Εάν ενεργοποιήσετε αυτήν την επιλογή, τα τμήματα που αποτελούν τις ανεξάρτητες ερωτήσεις θα ανακατεύονται τυχαία κάθε φορά που ένας σπουδαστείς αρχίζει μια προσπάθεια στο κουίζ, δεδομένου ότι αυτή η επιλογή είναι επίσης ενεργοποιημένη στις ρυθμίσεις της ερώτησης.';
 $string['configtimelimit'] = 'Προεπιλεγμένο όριο χρόνου για κουίζ σε λεπτά. Το 0 σημαίνει πως δεν υπάρχει όριο.';
 $string['configtimelimitsec'] = 'Προεπιλεγμένο όριο χρόνου για κουίζ σε δευτερόλεπτα. Το 0 σημαίνει πως δεν υπάρχει όριο.';
@@ -298,7 +295,6 @@ $string['eventquizattemptsubmitted'] = 'Η προσπάθεια στο κουί�
 $string['everynquestions'] = 'Κάθε {$a} ερωτήσεις';
 $string['everyquestion'] = 'Κάθε ερώτηση';
 $string['everythingon'] = 'Όλα σε';
-$string['export'] = 'Εξαγωγή';
 $string['exportcategory'] = 'εξαγωγή κατηγορίας';
 $string['exporterror'] = 'Εντοπίστηκε σφάλμα κατά τη διαδικασία εξαγωγής';
 $string['exportingquestions'] = 'Οι ερωτήσεις εξάγονται σε αρχείο';
@@ -323,7 +319,6 @@ $string['finishattemptdots'] = 'Τελειώστε την προσπάθεια .
 $string['finishreview'] = 'Τερματισμός ανασκόπησης';
 $string['forceregeneration'] = 'επιβολή επαναδημιουργίας';
 $string['formatnotfound'] = 'Μορφή εισαγωγής/εξαγωγής {$a} δε βρέθηκε';
-$string['formatnotimplemented'] = 'Αυτή η μορφή δεν έχει εφαρμοστεί σωστά, παρακαλώ υποβάλετε αναφορά σφάλματος';
 $string['formulaerror'] = 'Σφάλματα!';
 $string['fractionsaddwrong'] = 'Οι θετικές βαθμολογίες που επιλέξατε δεν αθροίζονται ως το 100%
 <br />Αντίθετα, αθροίζονται στο {$a}%
@@ -377,7 +372,6 @@ $string['hidereordertool'] = 'Απόκρυψη του εργαλείου ανα�
 $string['history'] = 'Ιστορικό αποκρίσεων:';
 $string['howquestionsbehave_desc'] = 'Προεπιλεγμένη ρύθμιση για το πώς συμπεριφέρονται οι ερωτήσεις στο κουίζ.';
 $string['imagedisplay'] = 'Εικόνα πρός εμφάνιση';
-$string['import'] = 'Εισαγωγή';
 $string['importcategory'] = 'εισαγωγή κατηγορίας';
 $string['importerror'] = 'Εντοπίστηκε σφαλμα κατά τη διαδικασία εισαγωγής';
 $string['importfilearea'] = 'Εισαγωγή από αρχείο που ήδη υπάρχει σε μάθημα...';
@@ -395,8 +389,6 @@ $string['inprogress'] = 'Σε εξέλιξη';
 $string['introduction'] = 'Εισαγωγή';
 $string['invalidattemptid'] = 'Δεν υπάρχει αυτή η προσπάθεια';
 $string['invalidcategory'] = 'Το ID της κατηγορίας είναι λάθος';
-$string['invalidnumericanswer'] = 'Μία από τις απαντήσεις που δώσατε δεν είχε σωστή αριθμητική τιμή.';
-$string['invalidnumerictolerance'] = 'Ένας από τους βαθμούς ανοχής που δώσατε δεν είχε σωστή αριθμητική τιμή.';
 $string['invalidquestionid'] = 'Λανθασμένο id ερώτησης';
 $string['invalidquizid'] = 'Λανθασμένο ID κουίζ';
 $string['invalidsource'] = 'Μη έγκυρη πηγή.';
@@ -434,7 +426,6 @@ $string['modulenameplural'] = 'Κουίζ';
 $string['moveselectedonpage'] = 'Μετακίνηση επιλεγμένων ερωτήσεων στη σελίδα: {$a}';
 $string['multichoice'] = 'Πολλαπλή επιλογή';
 $string['multipleanswers'] = 'Επιλέξτε τουλάχιστον μία απάντηση.';
-$string['multiplier'] = 'Πολλαπλασιαστής';
 $string['name'] = 'Όνομα';
 $string['navmethod'] = 'Μέθοδο πλοήγησης';
 $string['navmethod_seq'] = 'Διαδοχική';
@@ -529,7 +520,7 @@ $string['overridedeleteusersure'] = 'Είστε σίγουροι ότι θέλε
 $string['overrideuser'] = 'Παράκαμψη χρήστη';
 $string['page-mod-quiz-edit'] = 'Επεξεργασία σελίδας κουίζ';
 $string['page-mod-quiz-view'] = 'Σελίδα πληροφοριών κουίζ';
-$string['pagesize'] = 'Μέγεθος σελίδας';
+$string['pagesize'] = 'Προσπάθειες που εμφανίζονται ανά σελίδα:';
 $string['parent'] = 'Γονέας';
 $string['parentcategory'] = 'Κατηγορία-γονέας';
 $string['parsingquestions'] = 'Ανάλυση ερωτήσεων από αρχείο εισαγωγής.';
@@ -560,7 +551,7 @@ $string['qti'] = 'Μορφή IMS QTI';
 $string['qtypename'] = 'τύπος, όνομα';
 $string['question'] = 'Ερώτηση';
 $string['questionbank'] = 'από τράπεζα ερωτήσεων';
-$string['questionbankmanagement'] = 'Διαχείριση τράπεζας ερωτήσεων';
+$string['questionbankmanagement'] = 'διαχείριση τράπεζας ερωτήσεων';
 $string['questionbehaviour'] = 'συμπεριφορά τράπεζας ερωτήσεων';
 $string['questioncats'] = 'Κατηγορίες Ερωτήσεων';
 $string['questiondeleted'] = 'Αυτή η ερώτηση έχει διαγραφεί. Παρακαλώ επικοινωνήστε με τον καθηγητή';
@@ -757,7 +748,6 @@ $string['shuffle'] = 'Ανακάτεμα';
 $string['shuffleanswers'] = 'Ανακάτεμα απαντήσεων';
 $string['shuffledrandomly'] = 'Τυχαίο ανακάτεμα';
 $string['shufflequestions'] = 'Ανακάτεμα ερωτήσεων';
-$string['shufflequestionsselected'] = 'Το ανακάτεμα των ερωτήσεων έχει οριστεί, συνεπώς ορισμένες ενέργειες σχετικά με τις σελίδες δεν είναι διαθέσιμες. Για να αλλάξετε την επιλογή ανακατέματος, {$a}.';
 $string['shufflewithin'] = 'Ανακάτεμα εντός των ερωτήσεων';
 $string['shufflewithin_help'] = '<p>Άν ενεργοποιήσετε αυτή την επιλογή, τότε οι τυχόν υποερωτήσεις σε κάθε ερώτηση
    θα εμφανίζονται με τυχαία σειρά σε κάθε απόπειρα του κουίζ (θα πρέπει επίσης να
@@ -827,7 +817,6 @@ $string['unfinished'] = 'ανοιχτό';
 $string['ungraded'] = 'μη-βαθμολογημένο';
 $string['unit'] = 'Μονάδα';
 $string['unknowntype'] = 'Μη υποστηριζόμενος τύπος ερώτησης στη γραμμή {$a}. Η ερώτηση θα παραληφθεί';
-$string['unusedcategorydeleted'] = 'Αυτή η κατηγορία έχει διαγραφεί γιατί, μετά τη διαγραφή του μαθήματος, οι ερωτήσεις της δεν χρησιμοποιούνται άλλο.';
 $string['updatesettings'] = 'Ανανέωση ρυθμίσεων κουίζ';
 $string['upgradesure'] = '<div style="color: red;"> συγκεκριμένα το άρθρωμα του κουίζ θα εκτελέσει εκτενή αλλαγή των πινάκων κουίζ και αυτή η ανανέωση δεν έχει ελεγχθεί ακόμα. Καλό θα ήταν να πάρετε ένα αντίγραφο ασφαλείας των  πινάκων της βάσης δεδομένων πριν προχωρήσετε.</div>';
 $string['url'] = 'Τοποθεσία URL';

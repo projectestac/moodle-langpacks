@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'it', branch 'MOODLE_28_STABLE'
+ * Strings for component 'cache', language 'it', branch 'MOODLE_30_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,8 @@ $string['area'] = 'Area';
 $string['cacheadmin'] = 'Amministrazione cache';
 $string['cacheconfig'] = 'Configurazione';
 $string['cachedef_calendar_subscriptions'] = 'Sottoscrizioni calendario';
+$string['cachedef_capabilities'] = 'Elenco capacità del sistema';
+$string['cachedef_completion'] = 'Stato di completamento attività';
 $string['cachedef_config'] = 'Impostazioni di configurazione';
 $string['cachedef_coursecat'] = 'Elenchi di categorie di corso per un utente specifico';
 $string['cachedef_coursecatrecords'] = 'Record delle categorie di corso';
@@ -44,13 +46,13 @@ $string['cachedef_coursemodinfo'] = 'Informazioni accumulate sui moduli e delle 
 $string['cachedef_databasemeta'] = 'Meta informazioni database';
 $string['cachedef_eventinvalidation'] = 'Event invalidation';
 $string['cachedef_externalbadges'] = 'Badge esterni per utente specifico';
-$string['cachedef_gradecondition'] = 'Valutazioni degli utenti per calcolo della disponibilità condizionata';
 $string['cachedef_groupdata'] = 'Informazioni sui gruppi dei corsi';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier . contenuto ripulito';
 $string['cachedef_langmenu'] = 'Elenco delle lingue disponibili';
 $string['cachedef_locking'] = 'Locking';
 $string['cachedef_navigation_expandcourse'] = 'Navigazione espandibile dei corsi';
 $string['cachedef_observers'] = 'Event observer';
+$string['cachedef_plugin_functions'] = 'Callback offerti dai plugin';
 $string['cachedef_plugin_manager'] = 'Gestore informazioni plugin';
 $string['cachedef_questiondata'] = 'Definizioni domanda';
 $string['cachedef_repositories'] = 'Dati delle istanze dei repository';
@@ -98,6 +100,8 @@ $string['invalidlock'] = 'Lock non valido';
 $string['invalidplugin'] = 'Plugin non valido';
 $string['invalidstore'] = 'E\' stato fornito un cache store non valido';
 $string['lockdefault'] = 'Default';
+$string['locking'] = 'Locking';
+$string['locking_help'] = 'Il locking evita che gli stessi dati presenti in cache siano acceduti da più processi contemporaneamente, evitando sovrascritture. Il meccanismo di locking definisce come viene acquisito e controllato il lock.';
 $string['lockingmeans'] = 'Meccanismo di locking';
 $string['lockmethod'] = 'Metodo di lock';
 $string['lockmethod_help'] = 'Il metodo utilizzato per il locking quando questo store lo richiede.';

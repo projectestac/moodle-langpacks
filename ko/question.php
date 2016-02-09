@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'ko', branch 'MOODLE_28_STABLE'
+ * Strings for component 'question', language 'ko', branch 'MOODLE_30_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -194,7 +194,6 @@ $string['fractionsnomax'] = '이 질문 채점을 제대로 하려면 답안 중
 $string['generalfeedback'] = '일반적인 피드백';
 $string['getcategoryfromfile'] = '파일로부터 범주 추출';
 $string['getcontextfromfile'] = '파일로부터 문맥 추출';
-$string['hidden'] = '감춰짐';
 $string['hintn'] = '힌트(없음)';
 $string['hintnoptions'] = '힌트 {no} 옵션';
 $string['hinttext'] = '힌트 문장';

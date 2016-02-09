@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'eu', branch 'MOODLE_28_STABLE'
+ * Strings for component 'choice', language 'eu', branch 'MOODLE_30_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -109,6 +109,7 @@ $string['responsesresultgraphheader'] = 'Erakutsi grafikoa';
 $string['responsesto'] = 'Erantzunak {$a}-(r)entzat';
 $string['results'] = 'Emaitzak';
 $string['savemychoice'] = 'Gorde nire aukera';
+$string['showpreview'] = 'Erakutsi aurrebista';
 $string['showunanswered'] = 'Erantzun gabekoen zutabea erakutsi';
 $string['skipresultgraph'] = 'Ez egin kasu emaitzen grafikoari';
 $string['spaceleft'] = 'espazio erabilgarria';

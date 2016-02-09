@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'es', branch 'MOODLE_28_STABLE'
+ * Strings for component 'question', language 'es', branch 'MOODLE_30_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -185,7 +185,6 @@ $string['generalfeedback_help'] = 'La retroalimentación general se muestra al e
 Se puede utilizar la retroalimentación general para proporcionar a los estudiantes una respuesta de ejemplo correcta, o tal vez para una liga hacia información complementaria que puedan utilizar en el caso de que no hubieran entendido bien la pregunta.';
 $string['getcategoryfromfile'] = 'Obtener categoría de archivo';
 $string['getcontextfromfile'] = 'Obtener contexto de archivo';
-$string['hidden'] = 'Oculto/a';
 $string['hintn'] = 'Pista {no}';
 $string['hintnoptions'] = 'Opciones de la pista {no}';
 $string['hinttext'] = 'Texto de la pista';

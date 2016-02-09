@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -89,7 +89,7 @@ $string['errorminpasswordlower'] = 'La contrasenya ha de contenir almenys {$a} m
 $string['errorminpasswordnonalphanum'] = 'La contrasenya ha de contenir almenys {$a} caràcter/s no alfanumèric/s.';
 $string['errorminpasswordupper'] = 'La contrasenya ha de contenir almenys {$a} majúscula/es.';
 $string['errorpasswordupdate'] = 'No s\'ha pogut canviar la contrasenya. S\'ha produït un error.';
-$string['eventuserloggedin'] = 'L\'usuari ha iniciat sessió';
+$string['eventuserloggedin'] = 'L\'usuari ha entrat';
 $string['eventuserloggedinas'] = 'L\'usuari ha iniciat sessió com un altre usuari';
 $string['eventuserloginfailed'] = 'Ha fallat l\'inici de sessió';
 $string['forcechangepassword'] = 'Imposa un canvi de contrasenya';
@@ -128,6 +128,7 @@ $string['recaptcha'] = 'reCAPTCHA';
 $string['recaptcha_help'] = 'El CAPTCHA s\'usa per evitar l\'abús dels programes automàtics. Simplement introduïu les paraules al quadre, en ordre i separades per un espai.
 
 Si no sabeu segur quines paraules són, podeu provar un altre CAPTCHA o bé un CAPTCHA sonor.';
+$string['security_question'] = 'Pregunta de seguretat';
 $string['selfregistration'] = 'Autoregistre';
 $string['selfregistration_help'] = 'Si seleccioneu un connector d\'autenticació, com ara l\'autoregistre basat en correu electrònic, llavors es permet que usuaris potencials s\'inscriguin i creïn comptes. Això fa possible que s\'enviï brossa a fòrums, blogs, etc. Per evitar aquest perill, inhabiliteu l\'autoregistre o limiteu-lo mitjançant el paràmetre <em>Dominis de correu permesos</em>.';
 $string['sha1'] = 'Resum SHA-1';

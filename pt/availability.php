@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'availability', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   availability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['addrestriction'] = 'Adicionar restrição';
 $string['and'] = 'e';
 $string['condition_group'] = 'Conjugar restrições';
 $string['condition_group_info'] = 'Adicionar conjunto de restrições conjugadas com operadores lógicos (e/ou)';
-$string['enableavailability'] = 'Ativar condições de acesso';
+$string['enableavailability'] = 'Ativar acesso restrito';
 $string['enableavailability_desc'] = 'Se ativar esta opção poderá definir em cada atividade ou secção as condições necessárias (baseadas na data, notas ou conclusão de outras atividades) para um aluno poder aceder à atividade.';
 $string['error_list_nochildren'] = 'Conjuntos de restrição devem conter pelo menos uma condição.';
 $string['hidden_all'] = 'Completamente oculta se o utilizador não reunir as condições necessárias';
@@ -62,6 +62,7 @@ $string['manageplugins'] = 'Gerir restrições';
 $string['missingplugin'] = 'Falta módulo de restrição';
 $string['or'] = 'ou';
 $string['restrictaccess'] = 'Condições de acesso';
+$string['restrictbygroup'] = 'Adicionar/ restringir acesso a grupos';
 $string['setheading'] = '{$a->number} Conjunto de {$a->count} restrição(ções)';
 $string['shown_all'] = 'Mostrar em cor acinzentada se o utilizador não reunir as condições necessárias';
 $string['shown_individual'] = 'Mostrar em cor acinzentada se o utilizador não reunir esta condição';

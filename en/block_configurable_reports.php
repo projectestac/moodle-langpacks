@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_configurable_reports', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_configurable_reports', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   block_configurable_reports
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -312,7 +312,7 @@ $string['previousstart'] = 'Previous start';
 $string['printreport'] = 'Print report';
 $string['puserfield'] = 'User field value';
 $string['puserfield_summary'] = 'User with the selected value in the selected field';
-$string['queryfailed'] = 'Query failed';
+$string['queryfailed'] = 'Query failed <code><pre>{$a}</pre></code>';
 $string['querysql'] = 'SQL Query';
 $string['remote'] = 'Run on remote db';
 $string['remotedescription'] = 'Do you want to run this query on the remote db';
@@ -351,6 +351,8 @@ $string['roleusersn'] = 'Number of users with role...';
 $string['searchtext'] = 'Search text';
 $string['semester'] = 'Semester (Hebrew)';
 $string['serieid'] = 'Serie column';
+$string['sessionlimittime'] = 'Limit between clicks (in minutes)';
+$string['sessionlimittime_help'] = 'The limit between clicks defines if two clicks are part of the same session or not';
 $string['setcourseid'] = 'Set courseid';
 $string['sharedsqlrepository'] = 'Shared sql repository';
 $string['sharedsqlrepositoryinfo'] = 'Name of GitHub account owner + slash + repository name';

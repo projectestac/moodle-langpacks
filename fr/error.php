@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'fr', branch 'MOODLE_30_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,6 +79,7 @@ $string['cannoteditcomment'] = 'Vous ne pouvez pas modifier ce commentaire, qui 
 $string['cannoteditcommentexpired'] = 'Impossible de modifier ce commentaire. Le délai est échu !';
 $string['cannoteditpostorblog'] = 'Vous ne pouvez pas écrire ou modifier de blogs';
 $string['cannoteditsiteform'] = 'Vous ne pouvez pas modifier le cours du site par l\'intermédiaire de ce formulaire';
+$string['cannotedituserpreferences'] = 'Impossible de modifier les préférences de cet utilisateur';
 $string['cannotedityourprofile'] = 'Vous ne pouvez pas modifier votre propre profil';
 $string['cannotexecduringupgrade'] = 'Ne peut pas être lancé durant la mise à jour';
 $string['cannotfindcategory'] = 'Enregistrement de la catégorie (ID {$a}) introuvable dans la base de données';
@@ -230,6 +231,7 @@ $string['errorcreatingfile'] = 'Erreur lors de la création du fichier « {$a}�
 $string['errorcreatingrole'] = 'Erreur lors de la création du rôle';
 $string['errorfetchingrssfeed'] = 'Erreur lors de la récupération du flux RSS.';
 $string['erroronline'] = 'Erreur à la ligne {$a}';
+$string['erroroutput'] = 'Erreur de sortie. La redirection automatique a été désactivée.';
 $string['errorparsingxml'] = 'Erreur d\'analyse XML : {$a->errorstring} à la ligne {$a->errorline}, caractère {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Erreur lors du traitement du fichier d\'archive';
 $string['errorreadingfile'] = 'Erreur lors de la lecture du fichier « {$a} »';

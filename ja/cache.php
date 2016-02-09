@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'cache', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,8 @@ $string['area'] = 'エリア';
 $string['cacheadmin'] = 'キャッシュ管理';
 $string['cacheconfig'] = '設定';
 $string['cachedef_calendar_subscriptions'] = 'カレンダー購読';
+$string['cachedef_capabilities'] = 'システムケイパビリティリスト';
+$string['cachedef_completion'] = '活動完了ステータス';
 $string['cachedef_config'] = 'Config設定';
 $string['cachedef_coursecat'] = '特定ユーザのコースカテゴリ一覧';
 $string['cachedef_coursecatrecords'] = 'コースカテゴリレコード';
@@ -44,13 +46,13 @@ $string['cachedef_coursemodinfo'] = 'それぞれのコースのモジュール�
 $string['cachedef_databasemeta'] = 'データベースメタ情報';
 $string['cachedef_eventinvalidation'] = 'イベント無効化';
 $string['cachedef_externalbadges'] = '特定ユーザの外部バッジ';
-$string['cachedef_gradecondition'] = '条件付利用評価のためにキャッシュされたユーザ評点';
 $string['cachedef_groupdata'] = 'コースグループ情報';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier - クリーニング済みコンテンツ';
 $string['cachedef_langmenu'] = '利用可能な言語一覧';
 $string['cachedef_locking'] = 'ロッキング';
 $string['cachedef_navigation_expandcourse'] = 'ナビゲーション拡張可能コース';
 $string['cachedef_observers'] = 'イベントオブザーバ';
+$string['cachedef_plugin_functions'] = 'プラグイン利用可能コールバック';
 $string['cachedef_plugin_manager'] = 'プラグイン情報マネージャ';
 $string['cachedef_questiondata'] = '問題定義';
 $string['cachedef_repositories'] = 'リポジトリインスタンスデータ';
@@ -98,6 +100,8 @@ $string['invalidlock'] = '無効なロック';
 $string['invalidplugin'] = '無効なプラグイン';
 $string['invalidstore'] = '無効なキャッシュストアが提供されました。';
 $string['lockdefault'] = 'デフォルト';
+$string['locking'] = 'ロッキング';
+$string['locking_help'] = 'ロッキングはデータがオーバライドされるのを防ぐためにキャッシュデータへのアクセスを1度に1プロセスのみに制限するメカニズムです。ロッキングメソッドではどのようにロックが獲得され、チェックされるか決定します。';
 $string['lockingmeans'] = 'ロッキングメカニズム';
 $string['lockmethod'] = 'ロックメソッド';
 $string['lockmethod_help'] = 'このストアが要求された場合、このメソッドはロッキングのために使用されます。';

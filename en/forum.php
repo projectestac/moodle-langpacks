@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'forum', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -103,6 +103,8 @@ $string['configmaxattachments'] = 'Default maximum number of attachments allowed
 $string['configmaxbytes'] = 'Default maximum size for all forum attachments on the site (subject to course limits and other local settings)';
 $string['configoldpostdays'] = 'Number of days old any post is considered read.';
 $string['configreplytouser'] = 'When a forum post is mailed out, should it contain the user\'s email address so that recipients can reply personally rather than via the forum? Even if set to \'Yes\' users can choose in their profile to keep their email address secret.';
+$string['configrssarticlesdefault'] = 'If RSS feeds are enabled, sets the default number of articles (either discussions or posts).';
+$string['configrsstypedefault'] = 'If RSS feeds are enabled, sets the default activity type.';
 $string['configshortpost'] = 'Any post under this length (in characters not including HTML) is considered short (see below).';
 $string['configtrackingtype'] = 'Default setting for read tracking.';
 $string['configtrackreadposts'] = 'Set to \'yes\' if you want to track read/unread for each user.';
@@ -119,11 +121,11 @@ $string['delete'] = 'Delete';
 $string['deleteddiscussion'] = 'The discussion topic has been deleted';
 $string['deletedpost'] = 'The post has been deleted';
 $string['deletedposts'] = 'Those posts have been deleted';
-$string['deleteoriginalonreply'] = 'If replying directly to this via email, please do not include a quoted copy of the post you are responding to';
 $string['deletesure'] = 'Are you sure you want to delete this post?';
 $string['deletesureplural'] = 'Are you sure you want to delete this post and all replies? ({$a} posts)';
 $string['digestmailheader'] = 'This is your daily digest of new posts from the {$a->sitename} forums. To change your default forum email preferences, go to {$a->userprefs}.';
 $string['digestmailpost'] = 'Change your forum digest preferences';
+$string['digestmailpostlink'] = 'Change your forum digest preferences: {$a}';
 $string['digestmailprefs'] = 'your user profile';
 $string['digestmailsubject'] = '{$a}: forum digest';
 $string['digestmailtime'] = 'Hour to send digest emails';
@@ -217,6 +219,7 @@ $string['forum:allowforcesubscribe'] = 'Allow force subscribe';
 $string['forumauthorhidden'] = 'Author (hidden)';
 $string['forumblockingalmosttoomanyposts'] = 'You are approaching the posting threshold. You have posted {$a->numposts} times in the last {$a->blockperiod} and the limit is {$a->blockafter} posts.';
 $string['forumbodyhidden'] = 'This post cannot be viewed by you, probably because you have not posted in the discussion, the maximum editing time hasn\'t passed yet, the discussion has not started or the discussion has expired.';
+$string['forum:canposttomygroups'] = 'Can post to all groups you have access to';
 $string['forum:createattachment'] = 'Create attachments';
 $string['forum:deleteanypost'] = 'Delete any posts (anytime)';
 $string['forum:deleteownpost'] = 'Delete own posts (within deadline)';
@@ -324,6 +327,9 @@ $string['more'] = 'more';
 $string['movedmarker'] = '(Moved)';
 $string['movethisdiscussionto'] = 'Move this discussion to ...';
 $string['mustprovidediscussionorpost'] = 'You must provide either a discussion id or post id to export';
+$string['myprofileotherdis'] = 'Forum discussions';
+$string['myprofileowndis'] = 'My forum discussions';
+$string['myprofileownpost'] = 'My forum posts';
 $string['namenews'] = 'News forum';
 $string['namenews_help'] = 'The news forum is a special forum for announcements that is automatically created when a course is created. A course can have only one news forum. Only teachers and administrators can post in the news forum. The "Latest news" block will display recent discussions from the news forum.';
 $string['namesocial'] = 'Social forum';
@@ -385,6 +391,9 @@ $string['postincontext'] = 'See this post in context';
 $string['postmailinfo'] = 'This is a copy of a message posted on the {$a} website.
 
 To reply click on this link:';
+$string['postmailinfolink'] = 'This is a copy of a message posted in {$a->coursename}.
+
+To reply click on this link: {$a->replylink}';
 $string['postmailnow'] = '<p>This post will be mailed out immediately to all forum subscribers.</p>';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Mostly separate knowing';
@@ -394,6 +403,8 @@ $string['posts'] = 'Posts';
 $string['postsmadebyuser'] = 'Posts made by {$a}';
 $string['postsmadebyuserincourse'] = 'Posts made by {$a->fullname} in {$a->coursename}';
 $string['posttoforum'] = 'Post to forum';
+$string['posttomygroups'] = 'Post a copy to all groups';
+$string['posttomygroups_help'] = 'Posts a copy of this message to all groups you have access to. Participants in groups you do not have access to will not see this post';
 $string['postupdated'] = 'Your post was updated';
 $string['potentialsubscribers'] = 'Potential subscribers';
 $string['prevdiscussiona'] = 'Previous discussion: {$a}';
@@ -413,7 +424,6 @@ $string['reply'] = 'Reply';
 $string['replyforum'] = 'Reply to forum';
 $string['reply_handler'] = 'Reply to forum posts via email';
 $string['reply_handler_name'] = 'Reply to forum posts';
-$string['replytoforumpost'] = 'You can reply to this forum post by email.';
 $string['replytopostbyemail'] = 'You can reply to this via email.';
 $string['replytouser'] = 'Use email address in reply';
 $string['resetdigests'] = 'Delete all per-user forum digest preferences';
@@ -426,6 +436,7 @@ $string['rssarticles_help'] = 'This setting specifies the number of articles (ei
 $string['rsssubscriberssdiscussions'] = 'RSS feed of discussions';
 $string['rsssubscriberssposts'] = 'RSS feed of posts';
 $string['rsstype'] = 'RSS feed for this activity';
+$string['rsstypedefault'] = 'RSS feed type';
 $string['rsstype_help'] = 'To enable the RSS feed for this activity, select either discussions or posts to be included in the feed.';
 $string['search'] = 'Search';
 $string['searchdatefrom'] = 'Posts must be newer than this';
@@ -456,7 +467,8 @@ $string['subscribediscussion'] = 'Subscribe to this discussion';
 $string['subscribeenrolledonly'] = 'Sorry, only enrolled users are allowed to subscribe to forum post notifications.';
 $string['subscribenone'] = 'Unsubscribe everyone from this forum';
 $string['subscribers'] = 'Subscribers';
-$string['subscribersto'] = 'Subscribers to \'{$a}\'';
+$string['subscribersto'] = 'Subscribers to "{$a->name}"';
+$string['subscriberstowithcount'] = 'Subscribers to "{$a->name}" ({$a->count})';
 $string['subscribestart'] = 'Send me notifications of new posts in this forum';
 $string['subscribestop'] = 'I don\'t want to be notified of new posts in this forum';
 $string['subscription'] = 'Subscription';
@@ -477,7 +489,9 @@ Note: Any subscription mode changes will only affect users who enrol in the cour
 $string['subscriptionoptional'] = 'Optional subscription';
 $string['subscriptions'] = 'Subscriptions';
 $string['thisforumisthrottled'] = 'This forum has a limit to the number of forum postings you can make in a given time period - this is currently set at {$a->blockafter} posting(s) in {$a->blockperiod}';
+$string['timedhidden'] = 'Timed status: Hidden from students';
 $string['timedposts'] = 'Timed posts';
+$string['timedvisible'] = 'Timed status: Visible to all users';
 $string['timestartenderror'] = 'Display end date cannot be earlier than the start date';
 $string['trackforum'] = 'Track unread posts';
 $string['tracking'] = 'Track';
@@ -503,6 +517,8 @@ $string['unsubscribealldone'] = 'All optional forum subscriptions were removed. 
 $string['unsubscribeallempty'] = 'You are not subscribed to any forums. To disable all notifications from this server go to Messaging in My Profile Settings.';
 $string['unsubscribed'] = 'Unsubscribed';
 $string['unsubscribediscussion'] = 'Unsubscribe from this discussion';
+$string['unsubscribediscussionlink'] = 'Unsubscribe from this discussion: {$a}';
+$string['unsubscribelink'] = 'Unsubscribe from this forum: {$a}';
 $string['unsubscribeshort'] = 'Unsubscribe';
 $string['usermarksread'] = 'Manual message read marking';
 $string['viewalldiscussions'] = 'View all discussions';

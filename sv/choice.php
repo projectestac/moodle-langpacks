@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'choice', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,21 +53,21 @@ $string['displaymode'] = 'Visningsläge';
 $string['displayvertical'] = 'Visa vertikalt';
 $string['expired'] = 'Den här aktiviteten är stängd på {$a} och den är inte längre tillgänglig.';
 $string['full'] = '(Full)';
-$string['havetologin'] = 'Du måste logga in innan Du kan skicka Ditt/Dina svar';
+$string['havetologin'] = 'Du måste logga in innan du kan skicka ditt/dina svar';
 $string['limit'] = 'Begränsning';
 $string['limitanswers'] = 'Begränsa det antal svar som är tillåtna';
-$string['limitanswers_help'] = '<p>Med den h&auml;r inst&auml;llningen kan Du begr&auml;nsa antalet deltagare som kan v&auml;lja
+$string['limitanswers_help'] = '<p>Med den här inställningen kan du begränsa antalet deltagare som kan välja
 varje specifikt alternativ.</p>
 
-<p>N&auml;r Du v&auml;l har best&auml;mt Dig f&ouml;r att aktivera begr&auml;nsningar s&aring; g&aring;r det att st&auml;lla in s&aring;dana f&ouml;r varje alternativ. N&auml;r r&auml;tt antal deltagare har valt alternativet s&aring; g&aring;r det inte l&auml;ngre att
-markera det. Om Du st&auml;ller in det till 0 s&aring; kan ingen v&auml;lja det.</p>
+<p>När du väl har bestämt dig för att aktivera begränsningar så går det att ställa in sådana för varje alternativ. När rätt antal deltagare har valt alternativet så går det inte längre att
+markera det. Om du ställer in det till 0 så kan ingen välja det.</p>
 
-<p>Om Du inte aktiverar n&aring;gra begr&auml;nsningar s&aring; kan hur m&aring;nga deltagare som helst v&auml;lja alternativet.</p>';
+<p>Om du inte aktiverar några begränsningar så kan hur många deltagare som helst välja alternativet.</p>';
 $string['modulename'] = 'Opinionsundersökning';
 $string['modulename_help'] = 'Modulen opinionsundersökning gör det möjligt för distansläraren att ställa en fråga och ange ett urval av svarsalternativ. ';
 $string['modulenameplural'] = 'Opinionsundersökningar';
 $string['moveselectedusersto'] = 'Flytta de valda användarna till...';
-$string['mustchooseone'] = 'Du måste välja ett svar innan Du kan svara. Ingenting sparades.';
+$string['mustchooseone'] = 'Du måste välja ett svar innan du kan spara. Ingenting sparades.';
 $string['noguestchoose'] = 'Gäster får tyvärr inte delta i opinionsundersökningar.';
 $string['noresultsviewable'] = 'Det går f.n. inte att visa resultaten.';
 $string['notanswered'] = 'Inte ännu besvarad';

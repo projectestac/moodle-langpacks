@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'repository', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,7 +57,7 @@ $string['close'] = 'Stäng';
 $string['commonrepositorysettings'] = 'Allmänna inställningar för arkiv';
 $string['configsaved'] = 'Konfigurationen har sparats';
 $string['confirmdelete'] = 'Är Du säker på att Du vill ta bort det här arkivet - {$a}?';
-$string['confirmdeletefile'] = 'Är Du säker på att Du vill ta bort den här filen?';
+$string['confirmdeletefile'] = 'Är Du säker på att du vill ta bort den här filen?';
 $string['confirmdeletefolder'] = 'Är du säker på att du vill ta bort den här mappen? Alla filer och undermappar kommer att raderas.';
 $string['confirmremove'] = 'Är Du säker på att Du vill ta bort det här plugin-programmet för arkiv, dess alternativ och <strong>alla dess instanser</strong> - {$a}?';
 $string['continueuninstall'] = 'Fortsätt';
@@ -91,7 +91,7 @@ $string['entername'] = 'Var snäll och skriv in namnet på katalogen';
 $string['enternewname'] = 'Var snäll och skriv in det nya namnet på
 filen ';
 $string['error'] = 'Det inträffade ett okänt fel!';
-$string['errornotyourfile'] = 'Du kan inte ta en fil som inte har lagts till av Din ';
+$string['errornotyourfile'] = 'Du kan inte ta en fil som inte har lagts till av din';
 $string['errorpostmaxsize'] = 'Den uppladdade filen kan överstiga max_post_size inställningen som tillåts enligt php.ini.';
 $string['erroruniquename'] = 'Namnet på instansen av ett arkiv bör vara unikt';
 $string['errorwhiledownload'] = 'Ett fel uppstod vid nerladdning av filen: {$a}';
@@ -111,7 +111,6 @@ $string['foldernotfound'] = 'Mapp hittades inte';
 $string['folderrecurse'] = 'Mapp kan inte flyttas till en egen undermapp';
 $string['getfile'] = 'Välj den här filen';
 $string['help'] = 'Hjälp';
-$string['hidden'] = 'Dold';
 $string['iconview'] = 'Visa som ikoner';
 $string['imagesize'] = '{$a->width} x {$a->height} px';
 $string['instance'] = 'instans';

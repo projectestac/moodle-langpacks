@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'tool_uploaduser', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['allowdeletes'] = 'Allow deletes';
 $string['allowrenames'] = 'Allow renames';
 $string['allowsuspends'] = 'Allow suspending and activating of accounts';
+$string['assignedsysrole'] = 'Assigned system role {$a}';
 $string['csvdelimiter'] = 'CSV delimiter';
 $string['defaultvalues'] = 'Default values';
 $string['deleteerrors'] = 'Delete errors';
@@ -39,6 +40,7 @@ $string['pluginname'] = 'User upload';
 $string['renameerrors'] = 'Rename errors';
 $string['requiredtemplate'] = 'Required. You may use template syntax here (%l = lastname, %f = firstname, %u = username). See help for details and examples.';
 $string['rowpreviewnum'] = 'Preview rows';
+$string['unassignedsysrole'] = 'Unassigned system role {$a}';
 $string['uploadpicture_baduserfield'] = 'The user attribute specified is not valid. Please, try again.';
 $string['uploadpicture_cannotmovezip'] = 'Cannot move zip file to temporary directory.';
 $string['uploadpicture_cannotprocessdir'] = 'Cannot process unzipped files.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'scorm', language 'fr', branch 'MOODLE_30_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,9 +54,9 @@ $string['attempt'] = 'Tentative';
 $string['attempt1'] = '1 tentative';
 $string['attempts'] = 'tentatives';
 $string['attemptsmanagement'] = 'Gestion des tentatives';
-$string['attemptstatusall'] = 'Ma page et page initiale';
+$string['attemptstatusall'] = 'Tableau de bord et page initiale';
 $string['attemptstatusentry'] = 'Page initiale seulement';
-$string['attemptstatusmy'] = 'Ma page seulement';
+$string['attemptstatusmy'] = 'Tableau de bord seulement';
 $string['attemptsx'] = '{$a} tentatives';
 $string['attr_error'] = 'Valeur incorrecte de l\'attribut ({$a->attr}) dans la balise {$a->tag}.';
 $string['autocommit'] = 'Enregistrer automatiquement';
@@ -74,6 +74,7 @@ $string['browsed'] = 'Consulté';
 $string['browsemode'] = 'Mode prévisualisation';
 $string['browserepository'] = 'Consulter le dépôt';
 $string['calculatedweight'] = 'Pondération calculée';
+$string['cannotaccess'] = 'Il n\'est pas permis de lancer ce script de cette manière';
 $string['cannotfindsco'] = 'Objet d\'apprentissage introuvable';
 $string['chooseapacket'] = 'Sélectionner ou mettre à jour un paquetage';
 $string['collapsetocwinsize'] = 'Replier la table des matières quand la taille de la fenêtre est inférieure à';
@@ -106,8 +107,8 @@ $string['display'] = 'Afficher le paquetage';
 $string['displayactivityname'] = 'Afficher le nom de l\'activité';
 $string['displayactivityname_help'] = 'Détermine si le nom de l\'activité doit être affiché au-dessus du lecteur SCORM.';
 $string['displayattemptstatus'] = 'Afficher l\'état de la tentative';
-$string['displayattemptstatusdesc'] = 'Ce réglage détermine si l\'état de la tentative doit être affiché ou non dans le bloc Ma page et/ou sur la page d\'accueil du SCORM.';
-$string['displayattemptstatus_help'] = 'Si ce réglage est activé, un résumé des tentatives de l\'utilisateur sera affichés dans le bloc vue d\'ensemble du cours sur Ma page et/ou sur la page d\'accueil du SCORM.';
+$string['displayattemptstatusdesc'] = 'Ce réglage détermine si l\'état de la tentative doit être affiché ou non dans le bloc du tableau de bord et/ou sur la page d\'accueil du SCORM.';
+$string['displayattemptstatus_help'] = 'Si ce réglage est activé, un résumé des tentatives de l\'utilisateur sera affichés dans le bloc vue d\'ensemble du cours du tableau de bord et/ou sur la page d\'accueil du SCORM.';
 $string['displaycoursestructure'] = 'Afficher la structure du cours sur la page d\'entrée';
 $string['displaycoursestructuredesc'] = 'Si ce réglage est activé, la table des matières sera affichée sur la page d\'entrée du SCORM.';
 $string['displaycoursestructure_help'] = 'Si ce réglage est activé, la table des matières sera affichée dans le résumé du SCORM.';
@@ -285,6 +286,8 @@ $string['position_error'] = 'La balise {$a->tag} ne peut pas être un descendant
 $string['preferencespage'] = 'Préférences de cette seule page';
 $string['preferencesuser'] = 'Préférences de ce rapport';
 $string['prev'] = 'Précédent';
+$string['protectpackagedownloads'] = 'Protéger le téléchargement des paquetages';
+$string['protectpackagedownloads_desc'] = 'Si ce réglage est activé, les paquetages SCORM ne peuvent être téléchargés que par les utilisateurs possédant la capacité course:manageactivities. Dans le cas contraire, les paquetages SCORM peuvent être toujours téléchargés.';
 $string['raw'] = 'Score brut';
 $string['regular'] = 'Descriptif normal';
 $string['report'] = 'Rapport';

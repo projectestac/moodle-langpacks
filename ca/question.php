@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'question', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -196,7 +196,6 @@ $string['generalfeedback_help'] = 'La retroacció general es mostra a l\'alumnat
 Podeu utilitzar la retroacció general per donar a l\'alumnat una resposta més completa o potser un enllaç amb més informació que puguin utilitzar si no entenen les preguntes.';
 $string['getcategoryfromfile'] = 'Agafa la categoria del fitxer';
 $string['getcontextfromfile'] = 'Agafa el context del fitxer';
-$string['hidden'] = 'Amagada';
 $string['hintn'] = 'Pista {no}';
 $string['hintnoptions'] = 'Opcions de la pista {no}';
 $string['hinttext'] = 'Text de la pista';

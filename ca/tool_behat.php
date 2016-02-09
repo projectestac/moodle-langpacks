@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_behat', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'tool_behat', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   tool_behat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,7 +49,6 @@ $string['theninfo'] = 'Llavors. Comprovacions per assegurar que els resultats s�
 $string['unknownexceptioninfo'] = 'Hi ha hagut un problema amb Selenium o amb el navegador. Intenteu actualitzar Selenium a la darrera versió. Error:';
 $string['viewsteps'] = 'Filtre';
 $string['wheninfo'] = 'Quan. Accions que provoquen un esdeveniment';
-$string['wrongbehatsetup'] = 'Alguna cosa funciona malament a la configuració de «behat» i algunes definicions no es poden llistar:  <b>{$a->errormsg}</b><br/><br/>Comproveu:<ul>
-<li>Que les variables $CFG->behat_dataroot, $CFG->behat_prefix i $CFG->behat_wwwroot estiguin configurades al fitxer config.php amb valors diferents als de $CFG->dataroot, $CFG->prefix i $CFG->wwwroot.</li>
-<li>Que hàgiu executat "{$a->behatinit}" des de vostre directori «arrel» de Moodle.</li>
-<li>Que les dependències estan instal·lades a vendor/ i el fitxer {$a->behatcommand} té permís d\'execució.</li></ul>';
+$string['wrongbehatsetup'] = 'Alguna cosa funciona malament amb la configuració de «behat», comproveu:
+<ul> <li>Heu executat "php admin/tool/behat/cli/init.php" des de la vostre carpeta de root al servidor moodle</li>
+<li>El fitxer .../bin/behat té permís d\'execució.</li></ul>';

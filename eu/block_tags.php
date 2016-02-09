@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tags', language 'eu', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_tags', language 'eu', branch 'MOODLE_30_STABLE'
  *
  * @package   block_tags
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,8 +59,7 @@ $string['moreshowmytags'] = 'Nire etiketak';
 $string['moreshowofficialtags'] = 'Etiketa ofizialak';
 $string['moretags'] = 'Erakutsi eta iragazi etiketa gehiago';
 $string['moretitle'] = 'Etiketa gehiago';
-$string['morewelcome'] = 'Ongi etorri \'Etiketa gehiago\' lainora.
-Etiketak erabiltzaileak kontzeptuetara sortutako estekak dira. Etiketek kategorizatzen lagunduko dizute eta zure ikastaroak, blogak edota zure profila zeure hitzekin estekatzen. Hainbat etiketa-multzo erakuts daiteke estekekin \'Erakutsi\' lerroan, eta berriz ordena daitezke \'Ordenatu\' lerroko estekekin.';
+$string['morewelcome'] = 'Ongi etorri \'Etiketa gehiago\' lainora. Etiketak erabiltzaileak kontzeptuetara sortutako estekak dira. Etiketek kategorizatzen lagunduko dizute eta zure ikastaroak, blogak edota zure profila zeure hitzekin estekatzen. Hainbat etiketa-multzo erakuts daiteke estekekin \'Erakutsi\' lerroan, eta beriz ordena daitezke \'Ordenatu\' lerroko estekekin. Laguntza gehiago hemen:';
 $string['mycoursetags'] = 'Nire ikastaro-etiketak';
 $string['mytags'] = 'Nire etiketak:';
 $string['notagsyet'] = 'Ez dago etiketarik oraindik';
@@ -72,6 +71,6 @@ $string['showcoursetagsdef'] = 'Erakutsi ikastaroko etiketa funtzioa etiketa-blo
 $string['suggestedtagthisunit'] = 'Ikastaro honetarako gomendatutako etiketak:';
 $string['tags'] = 'etiketak';
 $string['tags:addinstance'] = 'Gehitu etiketa bloke berria';
-$string['tags:myaddinstance'] = 'Gehitu etiketa bloke berria Nire hasieran';
+$string['tags:myaddinstance'] = 'Gehitu etiketa bloke berria aginte-panelean';
 $string['tagthisunit'] = 'Ikastaro honen etiketak:';
 $string['tagunits'] = 'zure gogoko ikastaroak etiketatzeko';

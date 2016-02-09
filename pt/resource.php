@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'resource', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,7 +50,7 @@ $string['displayselect_help'] = 'Esta configuração, em conjunto com o tipo de 
 
 * Incorporar. o ficheiro é incorporado e exibido na página, mantendo a barra de navegação, a descrição do ficheiro e os blocos laterais;
 
-* Forçar download: é aberta uma janela de diálogo para o utilizador abrir ou guardar o ficheiro;
+* Forçar descarga: é aberta uma janela de diálogo para o utilizador abrir ou guardar o ficheiro;
 
 * Mesma janela: apenas o ficheiro é exibido na janela do navegador;
 
@@ -66,13 +66,14 @@ $string['filenotfound'] = 'Ficheiro não encontrado';
 $string['filterfiles'] = 'Aplicar filtros ao conteúdo do ficheiro';
 $string['filterfilesexplain'] = 'Selecione quais os ficheiros a serem filtrados, tendo em conta que pode causar problemas em alguns applets Java e Flash. Certifique-se que todos os ficheiros de texto se encontram na codificação UTF-8.';
 $string['filtername'] = 'Hiperligações automáticas para nomes dos recursos';
-$string['forcedownload'] = 'Forçar download';
+$string['forcedownload'] = 'Forçar descarga';
 $string['framesize'] = 'Largura da frame';
 $string['legacyfiles'] = 'Migração de ficheiro antigo de disciplina';
 $string['legacyfilesactive'] = 'Ativo';
 $string['legacyfilesdone'] = 'Terminado';
+$string['modifieddate'] = 'Modificado {$a}';
 $string['modulename'] = 'Ficheiro';
-$string['modulename_help'] = 'O recurso Ficheiro permite que um professor insira um ficheiro como um recurso de uma disciplina. Sempre que o navegador o permitir, o ficheiro será exibido dentro da interface da disciplina, caso contrário os alunos poderão fazer o seu download. Este recurso pode incluir ficheiros de suporte, como por exemplo uma página HTML com imagens ou conteúdos em Flash.
+$string['modulename_help'] = 'O recurso Ficheiro permite que um professor insira um ficheiro como um recurso de uma disciplina. Sempre que o navegador o permitir, o ficheiro será exibido dentro da interface da disciplina, caso contrário os alunos poderão descarregar. Este recurso pode incluir ficheiros de suporte, como por exemplo uma página HTML com imagens ou conteúdos em Flash.
 
 Note que os alunos precisam de ter os programas apropriados instalados nos seus computadores para visualizarem os ficheiros.
 
@@ -97,10 +98,16 @@ $string['printintro'] = 'Mostrar descrição do recurso';
 $string['printintroexplain'] = 'Mostrar a descrição do recurso abaixo do conteúdo? Alguns modos de exibição não apresentam o nome do recurso, mesmo com esta configuração ativa.';
 $string['resource:addinstance'] = 'Adicionar um novo recurso';
 $string['resourcecontent'] = 'Ficheiros e subpastas';
+$string['resourcedetails_sizedate'] = '{$a->size} {$a->date}';
 $string['resourcedetails_sizetype'] = '{$a->size} {$a->type}';
+$string['resourcedetails_sizetypedate'] = '{$a->size} {$a->type} {$a->date}';
+$string['resourcedetails_typedate'] = '{$a->type} {$a->date}';
 $string['resource:exportresource'] = 'Exportar recurso';
 $string['resource:view'] = 'Ver recurso';
 $string['selectmainfile'] = 'Selecione o ficheiro principal clicando no ícone ao lado do nome do ficheiro.';
+$string['showdate'] = 'Exibir data de carregamento/data de modificação';
+$string['showdate_desc'] = 'Pretende exibir a data de carregamento/data de modificação na página da disciplina?';
+$string['showdate_help'] = 'Exibir a data de carregamento/data de modificação ao lado das hiperligações para os ficheiros.';
 $string['showsize'] = 'Mostrar tamanho';
 $string['showsize_desc'] = 'Mostrar tamanho do ficheiro na página principal da disciplina?';
 $string['showsize_help'] = 'Mostra o tamanho do ficheiro, como  \'3.1 MB\', junto ao link para o ficheiro.
@@ -113,3 +120,4 @@ $string['showtype_help'] = 'Mostra a extensão do ficheiro, como \'Word\', junto
 Se existirem vários ficheiros neste recurso, é exibido o tipo do ficheiro principal.
 
 Caso o tipo do ficheiro seja desconhecido para a plataforma, não será exibido.';
+$string['uploadeddate'] = 'Carregado {$a}';

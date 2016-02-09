@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_rss_client', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   block_rss_client
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,7 +48,6 @@ $string['editnewsfeeds'] = '修改新闻种子';
 $string['editrssblock'] = '编辑 RSS 标题块';
 $string['enableautodiscovery'] = '允许自动发现种子？';
 $string['enableautodiscovery_help'] = '如果打开，网页中的种子会被自动发现。例如，输入http://docs.moodle.org，那么会自动发现http://docs.moodle.org/en/index.php?title=Special:RecentChanges&feed=rss';
-$string['errorloadingfeed'] = '种子加载错误（{$a}）';
 $string['feed'] = '新闻种子';
 $string['feedadded'] = '新闻种子已添加';
 $string['feeddeleted'] = '新闻种子已删除';

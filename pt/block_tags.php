@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tags', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_tags', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   block_tags
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,6 +73,6 @@ $string['showcoursetagsdef'] = 'Mostrar a funcionalidade de associação de pala
 $string['suggestedtagthisunit'] = 'Palavra chave sugerida para esta disciplina:';
 $string['tags'] = 'palavras-chave';
 $string['tags:addinstance'] = 'Adicionar um novo bloco Palavras-chave';
-$string['tags:myaddinstance'] = 'Adicionar um novo bloco Palavras-chave à Minha página principal';
+$string['tags:myaddinstance'] = 'Adicionar um novo bloco Palavras-chave ao Painel do utilizador';
 $string['tagthisunit'] = 'Senha desta disciplina';
 $string['tagunits'] = 'para marcar as suas disciplinas favoritas';

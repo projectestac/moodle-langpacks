@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'editor', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   editor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,17 +44,17 @@ $string['cancel'] = 'Avbryt';
 $string['cellpadding'] = 'Cellpadding';
 $string['cellspacing'] = 'Cellspacing';
 $string['choosechar'] = 'Välj tecken';
-$string['chooseicon'] = 'Välj en ikon som Du vill lägga in';
+$string['chooseicon'] = 'Välj en ikon som du vill lägga in';
 $string['close'] = 'Stäng';
 $string['closeafterreplace'] = 'Stäng efter att ha ersatt';
 $string['cols'] = 'Kolumner';
-$string['configeditorplugins'] = 'Var snäll och välj de redigerare som Du vill använda och ordna enligt rekommendationen.';
+$string['configeditorplugins'] = 'Var snäll och välj de redigerare som du vill använda och ordna enligt rekommendationen.';
 $string['copy'] = 'Kopiera urvalet';
 $string['createanchor'] = 'Skapa ankare';
 $string['createfolder'] = 'Skapa en mapp';
 $string['createlink'] = 'Infoga  en webblänk';
 $string['cut'] = 'Klipp ut urvalet';
-$string['cutpastemozilla'] = 'Tyvärr så kan Du f.n. inte använda de vanliga genvägarna (tangentbordskommandona)(eller ens knappen "Klistra in") för att klistra in med den här online redigeraren. Det beror på en funktion för säkerhet som är inbyggd i vissa versioner av Mozilla och Firefox webbläsare. Det finns några kända knep som Du kan använda<br />1. Istället för Ctrl-v, kan Du använda Shift+Insert<br />2. Använd menyalternativet Redigera->Klistra in i Din webbläsare.<br />3. Ändra inställningarna i Din webbläsare genom att redigera filen user.js.<br /><br />Klicka på knappen "OK" här nedan för mer hjälp eller på "Avbryt" för att återgå till redigeraren.';
+$string['cutpastemozilla'] = 'Tyvärr så kan du f.n. inte använda de vanliga genvägarna (tangentbordskommandona)(eller ens knappen "Klistra in") för att klistra in med den här online redigeraren. Det beror på en funktion för säkerhet som är inbyggd i vissa versioner av Mozilla och Firefox webbläsare. Det finns några kända knep som du kan använda<br />1. Istället för Ctrl-v, kan du använda Shift+Insert<br />2. Använd menyalternativet Redigera->Klistra in i din webbläsare.<br />3. Ändra inställningarna i din webbläsare genom att redigera filen user.js.<br /><br />Klicka på knappen "OK" här nedan för mer hjälp eller på "Avbryt" för att återgå till redigeraren.';
 $string['delete'] = 'Ta bort';
 $string['editors'] = 'Textredigerare';
 $string['editorsettings'] = 'Administrera redigerare';
@@ -121,7 +121,7 @@ $string['popupeditor'] = 'Förstora redigeraren';
 $string['preformatted'] = 'Förformaterad';
 $string['preview'] = 'Förhandsgranska';
 $string['properties'] = 'Egenskaper';
-$string['redo'] = 'Gör om Din senaste aktivitet';
+$string['redo'] = 'Gör om din senaste aktivitet';
 $string['regularexpressions'] = 'Använd reguljära uttryck';
 $string['removelink'] = 'Ta bort länk';
 $string['rename'] = 'Byt namn';
@@ -131,7 +131,7 @@ $string['right'] = 'Höger';
 $string['righttoleft'] = 'Läs- och skrivriktning från höger till vänster';
 $string['rows'] = 'Rader';
 $string['searchandreplace'] = 'Sök och ersätt';
-$string['searchnotfound'] = 'Det gick inte att hitta det Du sökte';
+$string['searchnotfound'] = 'Det gick inte att hitta det du sökte';
 $string['selectcolor'] = 'Välj färg';
 $string['selection'] = 'Urval';
 $string['showhelp'] = 'Hjälp med att använda redigeraren';

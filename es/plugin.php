@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'es', branch 'MOODLE_28_STABLE'
+ * Strings for component 'plugin', language 'es', branch 'MOODLE_30_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,12 +38,8 @@ $string['err_response_format_version'] = 'Formato de respuesta con versión ines
 $string['err_response_http_code'] = 'No pudo obtener actualizaciones disponibles - código de respuesta HTTP inesperado.';
 $string['filterall'] = 'Mostrar todo';
 $string['filtercontribonly'] = 'Mostrar sólo los plugins externos';
-$string['filtercontribonlyactive'] = 'Mostrando sólo los plugins externos';
 $string['filterupdatesonly'] = 'Mostrar sólo las actualizables';
-$string['filterupdatesonlyactive'] = 'Mostrando únicamente actualizables';
 $string['moodleversion'] = 'Moodle {$a}';
-$string['nonehighlighted'] = 'No hay extensiones que requieran su atención en este momento';
-$string['nonehighlightedinfo'] = 'Mostrar la lista de todas las extensiones (plugins) instalados en el sitio';
 $string['noneinstalled'] = 'No se han instalado extensiones (plugins) de este tipo';
 $string['notdownloadable'] = 'No puede descargarse el paquete';
 $string['notdownloadable_help'] = 'El paquete ZIP con la actualización no se puede descargar de forma automática. Por favor, consulte la página de documentación para obtener más ayuda.';
@@ -52,10 +48,6 @@ $string['notwritable'] = 'Los archivos de plugins (extensiones) no son escribibl
 $string['notwritable_help'] = 'Ha habilitado que se realicen actualizaciones automáticas y hay una actualización disponible para este plugin. Sin embargo, los archivos del plugin no son escribibles por el servidor web, por lo que no se pudo realizar la instalación automaticamente.
 
 Esnecesario que la carpeta del plugin y todos sus contenidos sean escribibles para poder instalar automáticamente la actualización disponible.';
-$string['numdisabled'] = 'Deshabilitado: {$a}';
-$string['numextension'] = 'Plugins externos: {$a}';
-$string['numtotal'] = 'Instalado: {$a}';
-$string['numupdatable'] = 'Actualizaciones disponibles: {$a}';
 $string['otherplugin'] = '{$a->component}';
 $string['otherpluginversion'] = '{$a->component} ({$a->version})';
 $string['pluginchecknotice'] = 'Esta página muestra las extensiones (plugins) que pueden requerir su atención durante la actualización. Los elementos resaltados incluyen nuevas extensiones (plugins) que están a punto de ser instalados, los que van a ser actualizados y las extensiones  anteriores que ahora faltan. Los módulos externos (add-ons) también se destacan. Se recomienda que compruebe si hay versiones más recientes de los módulos externos disponibles y actualice  su código fuente antes de continuar con esta actualización de Moodle.';
@@ -68,10 +60,6 @@ $string['requiredby'] = 'Requerido por: {$a}';
 $string['requires'] = 'Requiere';
 $string['rootdir'] = 'Directorio';
 $string['settings'] = 'Configuración';
-$string['showall'] = 'Recargar y mostrar todas las extensiones (plugins)';
-$string['somehighlighted'] = 'Número de extensiones (plugins) que requieren atención durante esta actualización: {$a}';
-$string['somehighlightedinfo'] = 'Mostrar la lista completa de extensiones (plugins) instalados';
-$string['somehighlightedonly'] = 'Mostrar solamente extensiones (plugins) que requieren su atención';
 $string['source'] = 'Origen';
 $string['sourceext'] = 'Módulo externo';
 $string['sourcestd'] = 'Estándar';
@@ -160,6 +148,43 @@ $string['updatepluginconfirm'] = 'Confirmación de la actualización de la exten
 $string['updatepluginconfirmexternal'] = 'Parece que la versión actual de la extensión se ha obtenido a través del chequeo del sistema de gestión de código fuente ({$a}). Si instala esta actualización, ya no podrá obtener las actualizaciones de extensiones a partir del sistema de gestión de código fuente. Por favor, asegúrese antes de continuar  de que realmente quiere actualizar esta extensión.';
 $string['updatepluginconfirminfo'] = 'Usted está a punto de instalar una nueva versión del plugin (extensión) <strong>{$a->name}</strong>. Un paquete ZIP con la versión {$a->version} del plugin será descargado desde <a href="{$a->url}">{$a->url}</a> y será extraído a su instalación de Moodle, para que pueda actualizar su instalación.';
 $string['updatepluginconfirmwarning'] = 'Por favor, tenga en cuenta que Moodle no hará automáticamente una copia de seguridad de su base de datos antes de la actualización. Nosotros le recomendamos encarecidamente que haga una copia de seguridad completa (instantánea) ahora, para lidiar con el raro caso en que el nuevo código tuviese defectos que hicieran a su sitio inoperante o inclusive que corrompiera su base de datos. Proceda bajo su propio riesgo.';
+$string['validationmsg_componentmatch'] = 'Nombre completo del componente';
+$string['validationmsg_componentmismatchname'] = 'Error en el nombre del módulo externo';
+$string['validationmsg_componentmismatchname_help'] = 'Algunos paquetes ZIP, como los generados por Github, pueden contener un nombre de directorio raíz incorrecto. Es necesario corregir el nombre del directorio raíz para que coincida con el nombre oficial del módulo externo.';
+$string['validationmsg_componentmismatchname_info'] = 'El módulo externo declara que su nombr es \'{$a} pero este no coincide con el nombre del directorio raíz.';
+$string['validationmsg_componentmismatchtype'] = 'Error en el tipo de módulo externo';
+$string['validationmsg_componentmismatchtype_info'] = 'Ha seleccionado el tipo \'{$a->expected}\' pero el módulo externo declara que es de tipo \'{$a->found}\'.';
+$string['validationmsg_filenotexists'] = 'Archivo extraído no encontrado';
+$string['validationmsg_filesnumber'] = 'No se han encontrado suficientes archivos en el paquete';
+$string['validationmsg_filestatus'] = 'No es posible extraer los archivos';
+$string['validationmsg_filestatus_info'] = 'Al intentar extraer el archivo {$a->file} se obtuvo un error \'{$a->status}\'.';
+$string['validationmsg_foundlangfile'] = 'Buscar fichero de idioma';
+$string['validationmsglevel_debug'] = 'Depuración';
+$string['validationmsglevel_error'] = 'Error';
+$string['validationmsglevel_info'] = 'OK';
+$string['validationmsglevel_warning'] = 'Advertencia';
+$string['validationmsg_maturity'] = 'Nivel de madurez';
+$string['validationmsg_maturity_help'] = 'El módulo externo puede declarar su nivel de madurez. Si el desarrollador considera que el módulo es estable, el nivel de madurez declarado leerá MATURITY_STABLE. El resto de los niveles de madurez (como alfa o beta) deben ser considerados inestables y se mostrará una advertencia.';
+$string['validationmsg_missingexpectedlangenfile'] = 'Archivo de idioma Inglés perdido';
+$string['validationmsg_missingexpectedlangenfile_info'] = 'Al tipo de módulo externo proporcionado le falta el archivo de idioma inglés esperado {$a}.';
+$string['validationmsg_missinglangenfile'] = 'No se encuentra el archivo de idioma Inglés';
+$string['validationmsg_missinglangenfolder'] = 'No se encuentra el directorio de idioma Inglés';
+$string['validationmsg_missingversion'] = 'El módulo externo no declara su versión';
+$string['validationmsg_missingversionphp'] = 'Archivo version.php no encontrado';
+$string['validationmsg_multiplelangenfiles'] = 'Se han encontrado múltiples archivos de idioma Inglés';
+$string['validationmsg_onedir'] = 'Estructura del paquete ZIP no válida.';
+$string['validationmsg_onedir_help'] = 'El paquete ZIP debe contener sólo un directorio raíz que contiene el código del módulo externo. El nombre de ese directorio raíz debe coincidir con el nombre de la extensión.';
+$string['validationmsg_pathwritable'] = 'Chequeo de permisos de escritura';
+$string['validationmsg_pluginversion'] = 'Versión del módulo externo';
+$string['validationmsg_release'] = 'Versión del módulo externo';
+$string['validationmsg_requiresmoodle'] = 'Versión de Moodle requerida';
+$string['validationmsg_rootdir'] = 'Nombre del módulo externo que se debe instalar';
+$string['validationmsg_rootdir_help'] = 'El nombre del directorio raíz en el paquete ZIP indica el nombre del módulo externo que se instalará. Si el nombre no es correcto, es posible que desee cambiar el nombre del directorio raíz del paquete ZIP antes de instalar el módulo.';
+$string['validationmsg_rootdirinvalid'] = 'Nombre del módulo externo no válido';
+$string['validationmsg_rootdirinvalid_help'] = 'El nombre del directorio raíz en el paquete ZIP viola los requisitos formales de sintaxis. Algunos paquetes ZIP, como los generados por Github, pueden contener un nombre de directorio raíz incorrecto. Es necesario corregir el nombre del directorio raíz para que coincida con el nombre del módulo externo.';
+$string['validationmsg_targetexists'] = 'La ubicación de destino ya existe';
+$string['validationmsg_targetexists_help'] = 'El directorio donde se instalará el módulo externo aún no existe.';
+$string['validationmsg_unknowntype'] = 'Tipo de extensión desconocido';
 $string['version'] = 'Versión';
 $string['versiondb'] = 'Versión actual';
 $string['versiondisk'] = 'Nueva versión';

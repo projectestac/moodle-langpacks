@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tags', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_tags', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   block_tags
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,6 +75,6 @@ $string['showcoursetagsdef'] = 'Display the course tagging features in the tags 
 $string['suggestedtagthisunit'] = 'Suggested tag to this course:';
 $string['tags'] = 'tags';
 $string['tags:addinstance'] = 'Add a new tags block';
-$string['tags:myaddinstance'] = 'Add a new tags block to My home';
+$string['tags:myaddinstance'] = 'Add a new tags block to Dashboard';
 $string['tagthisunit'] = 'Tag this course:';
 $string['tagunits'] = 'to tag your favourite courses';

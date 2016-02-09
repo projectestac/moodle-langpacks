@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignment_uploadsingle', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assignment_uploadsingle', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   assignment_uploadsingle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Upload de um único ficheiro';
+$string['pluginname'] = 'Carregar um único ficheiro';

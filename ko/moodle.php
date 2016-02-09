@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'ko', branch 'MOODLE_28_STABLE'
+ * Strings for component 'moodle', language 'ko', branch 'MOODLE_30_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -188,7 +188,6 @@ $string['backupfromthissite'] = '이 사이트에 대해 백업을 했습니까?
 $string['backupgradebookhistoryhelp'] = '이를 활성화하면 성적 이력이 자동 백업에 포함될 것입니다. 단, 이 기능을 원할하게 작동시키기 위해서는 시스템 설정에서 성적 이력을 비활성(disablegradehistory)시키지 말아야 합니다.';
 $string['backupincludemoduleshelp'] = '자동 백업에 강좌 모듈, 사용자 데이터 등을 포함시킬지 여부 선택';
 $string['backupincludemoduleuserdatahelp'] = '자동 백업에 모듈의 사용자 데이터를 포함시킬지 여부 선택';
-$string['backupkeephelp'] = '백업할 때 예전 백업파일을 몇 개까지 서버에 보관할까요? (더 오래된 것은 자동으로 삭제됨)';
 $string['backuplogdetailed'] = '자세한 실행기록';
 $string['backuploglaststatus'] = '최근 실행기록';
 $string['backupmissinguserinfoperms'] = '주: 이 백업은 사용자 데이터를 포함하지 않습니다. 연습 및 상호평가 활동들은 본 백업에 포함되지 않을 것이기 때문에 본 유형의 백업으로는 이러한 모듈들을 백업하는 데 적절하지 않습니다.';
@@ -696,7 +695,7 @@ $string['emailresetconfirmationsubject'] = '{$a}: 암호 재설정 요청';
 $string['emailresetconfirmsent'] = '<b>{$a}</b>에 있는 주소로 이메일을 보냈습니다.
 <br />거기에는 이 암호 변경을 확인하고 마치기 위한 간단한 지시 사항이 포함되어 있습니다. 문제가 계속되면 사이트 관리자에게 문의하십시오.';
 $string['emailtoprivatefiles'] = '파일을 이메일의 첨부파일로 개인 파일 저장소에 보낼 수 있습니다. 간단하게 파일을 이메일에 첨부한 후에 {$a}로 보내세요.';
-$string['emailtoprivatefilesdenied'] = '관리자가 개인 파일 업로드 옵션을 비활성화 했습니다.';
+$string['emailtoprivatefilesdenied'] = '관리자가 개인 파일 업로드에 대한 옵션을 비활성화 했습니다.';
 $string['emptydragdropregion'] = '빈 영역';
 $string['enable'] = '관리모드 활성';
 $string['encryptedcode'] = '암호화된 코드';
@@ -1348,6 +1347,7 @@ $string['perpagea'] = '페이지당 : {$a}';
 $string['personal'] = '개인적인';
 $string['personalprofile'] = '개인정보';
 $string['phone'] = '전화';
+$string['phone1'] = '전화';
 $string['phone2'] = '휴대 전화';
 $string['phpinfo'] = 'PHP 정보';
 $string['pictureof'] = '{$a} 사진';
@@ -1831,7 +1831,6 @@ $string['usemessageform'] = '아니면 선택된 학생들에게 이 형식을 �
 $string['user'] = '사용자';
 $string['useractivity'] = '활동';
 $string['userconfirmed'] = '{$a} 이 확인 되었습니다.';
-$string['usercurrentsettings'] = '내 개인정보 설정';
 $string['userdata'] = '사용자 데이터';
 $string['userdeleted'] = '이 사용자 계정은 삭제되었습니다.';
 $string['userdescription'] = '설명';
@@ -1857,7 +1856,6 @@ $string['usersnew'] = '새로운 사용자';
 $string['usersnoaccesssince'] = '비활동인 사용자 보기';
 $string['userswithfiles'] = '사용자파일 포함';
 $string['useruploadtype'] = '올리는 형식: {$a}';
-$string['userviewingsettings'] = '{$a} 개인정보 설정';
 $string['userzones'] = '사용자 영역';
 $string['usetheme'] = '테마 사용';
 $string['usingexistingcourse'] = '개설된 강좌 사용하기';

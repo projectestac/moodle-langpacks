@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'tool_monitor', language 'nl', branch 'MOODLE_30_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,7 +77,6 @@ $string['monitorenabled'] = 'Gebeurtenismonitoring is ingeschakeld';
 $string['monitor:managerules'] = 'Beheer regels gebeurtenismonitor';
 $string['monitor:managetool'] = 'Gebeurtenissen monitoren inschakelen en uitschakelen';
 $string['monitor:subscribe'] = 'Inschrijven op regels voor gebeurtenissen monitoren';
-$string['nopermission'] = 'Geen rechten';
 $string['norules'] = 'Er zijn geen regels om gebeurtenissen te monitoren';
 $string['pluginname'] = 'Gebeurtenismonitor';
 $string['processevents'] = 'Gebeurtenissen verwerken';
@@ -88,6 +87,7 @@ $string['ruledeletesuccess'] = 'Regel verwijderd';
 $string['rulehelp'] = 'Regeldetails';
 $string['rulehelp_help'] = 'Deze regel luistert naar gebeurtenis  \'{$a->eventname}\' in \'{$a->eventcomponent}\', waneer die {$a->frequency} keer in {$a->minutes} minute(n) gebeurt.';
 $string['rulename'] = 'Regelnaam';
+$string['rulenopermission'] = 'Je hebt onvoldoende rechten om je in te schrijven voor een gebeurtenis.';
 $string['rulenopermissions'] = 'Je hebt het recht niet om een regel te "{$a}"';
 $string['rulescansubscribe'] = 'Regels waarop je kan inschrijven';
 $string['selectacourse'] = 'Selecteer een cursus';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_clean', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'theme_clean', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   theme_clean
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,8 +54,7 @@ $string['footnotedesc'] = 'Whatever you add to this textarea will be displayed i
 $string['invert'] = 'Invert navbar';
 $string['invertdesc'] = 'Swaps text and background for the navbar at the top of the page between black and white.';
 $string['logo'] = 'Logo';
-$string['logodesc'] = 'The logo is only displayed in the header of the front page and login page.<br />
-If the height of your logo is more than 75px add a.logo {height: 100px;} to the Custom CSS box below, amending accordingly if the height is other than 100px.';
+$string['logodesc'] = 'The logo is only displayed in the header of the front page and login page.<br /> If the height of your logo is more than 75px add div.logo {height: 100px;} to the Custom CSS box below, amending accordingly if the height is other than 100px.';
 $string['pluginname'] = 'Clean';
 $string['region-side-post'] = 'Right';
 $string['region-side-pre'] = 'Left';

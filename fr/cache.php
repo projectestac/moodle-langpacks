@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'cache', language 'fr', branch 'MOODLE_30_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,8 @@ $string['area'] = 'Zone';
 $string['cacheadmin'] = 'Administration du cache';
 $string['cacheconfig'] = 'Configuration';
 $string['cachedef_calendar_subscriptions'] = 'Abonnements de calendrier';
+$string['cachedef_capabilities'] = 'Liste des capacités système';
+$string['cachedef_completion'] = 'État de complétude d\'activité';
 $string['cachedef_config'] = 'Réglages';
 $string['cachedef_coursecat'] = 'Listes des catégories de cours pour chaque utilisateur';
 $string['cachedef_coursecatrecords'] = 'Enregistrements des catégories de cours';
@@ -44,13 +46,13 @@ $string['cachedef_coursemodinfo'] = 'Information accumulée sur les modules et s
 $string['cachedef_databasemeta'] = 'Méta-information de base de données';
 $string['cachedef_eventinvalidation'] = 'Invalidation de l\'événement';
 $string['cachedef_externalbadges'] = 'Badges externes pour un utilisateur déterminé';
-$string['cachedef_gradecondition'] = 'Notes des utilisateurs mises en cache pour l\'évaluation de la disponibilité conditionnelle';
 $string['cachedef_groupdata'] = 'Information du groupe de cours';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier - contenu nettoyé';
 $string['cachedef_langmenu'] = 'Liste des langues disponibles';
 $string['cachedef_locking'] = 'Verrouillage';
 $string['cachedef_navigation_expandcourse'] = 'Navigation des cours dépliables';
 $string['cachedef_observers'] = 'Observateurs d\'événements';
+$string['cachedef_plugin_functions'] = 'Fonctions de rappel des plugins disponibles';
 $string['cachedef_plugin_manager'] = 'Gestionnaire d\'info des plugins';
 $string['cachedef_questiondata'] = 'Définitions des questions';
 $string['cachedef_repositories'] = 'Données d\'instances des dépôts';
@@ -98,6 +100,8 @@ $string['invalidlock'] = 'Verrou non valide';
 $string['invalidplugin'] = 'Plugin non valide';
 $string['invalidstore'] = 'Entrepôt de cache non valide';
 $string['lockdefault'] = 'Défaut';
+$string['locking'] = 'Verrouillage';
+$string['locking_help'] = 'Le verrouillage est un mécanisme restreignant l\'accès à des données en cache à un seul processus à la fois, afin d\'empêcher l\'écrasement de données. La méthode de verrouillage détermine comment le verrou est mis en place et vérifié.';
 $string['lockingmeans'] = 'Mécanisme de verrouillage';
 $string['lockmethod'] = 'Méthode de verrouillage';
 $string['lockmethod_help'] = 'Cette méthode est utilisée pour le verrouillage si requis par cet entrepôt.';

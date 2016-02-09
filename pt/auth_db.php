@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_db', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth_db', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   auth_db
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,6 +52,7 @@ $string['auth_dbpasstype'] = '<p> Especifique o formato em uso do campo da senha
 $string['auth_dbpasstype_key'] = 'Formato da senha';
 $string['auth_dbreviveduser'] = 'O utilizador {$a->name} com id {$a->id} foi reativado';
 $string['auth_dbrevivedusererror'] = 'Erro ao reativar o utilizador {$a}';
+$string['auth_dbsaltedcrypt'] = 'Crypt one-way string hashing';
 $string['auth_dbsetupsql'] = 'Comando de configuração do SQL';
 $string['auth_dbsetupsqlhelp'] = 'Comando SQL especial para configuração da base de dados. É usado frequentemente para configurar a codificação da comunicação. Exemplo para MySQL e PostgreSQL: <em>SET NAMES "utf8"</em>';
 $string['auth_dbsuspenduser'] = 'O utilizador {$a->name} com id {$a->id} foi suspenso';

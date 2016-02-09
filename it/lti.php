@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'it', branch 'MOODLE_28_STABLE'
+ * Strings for component 'lti', language 'it', branch 'MOODLE_30_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['accept'] = 'Accetta';
-$string['accepted'] = 'Accettati';
+$string['accepted'] = 'Accettato';
 $string['accept_grades'] = 'Accetta valutazioni dal tool';
 $string['accept_grades_admin'] = 'Accetta valutazioni dal tool';
 $string['accept_grades_admin_help'] = 'Stabilisce se il tool provider può aggiungere, aggiornare, leggere ed eliminare le valutazioni abbinate alle istanze di questo tipo di tool.
@@ -74,7 +74,7 @@ $string['configpreferwidth'] = 'Larghezza preferita di default';
 $string['configresourceurl'] = 'Resource URL di default';
 $string['configtoolurl'] = 'URL del tool remoto di default';
 $string['configtypes'] = 'Abilita applicazioni LTI';
-$string['configured'] = 'Configurati';
+$string['configured'] = 'Configurato';
 $string['courseid'] = 'Codice identificativo del corso';
 $string['coursemisconf'] = 'Il corso è mal configurato';
 $string['course_tool_types'] = 'Tipi di tool corso';
@@ -135,7 +135,7 @@ E\' anche un modo per configurare i default ed impostare eventuali servizi addiz
 * **Configurazione personalizzata** - Per impostare una configurazione personalizzata del tool per questa specifica istanza, visualizza le Impostazioni avanzate ed inserisci consumer key e shared secret. Se non sei in possesso di conumer key e shared secret, richiedilo al tool provider esterno.
 Non tutti i tool richiedono consumer key e shared secret, nel qual caso è possibile non compilare i relativi campi.
 
-### Modifica del tipo di tool
+### Modifica dei tipi di tool
 
 Accanto al menu a discesa Tipo di tool esterno sono disponibili tre icone:
 
@@ -165,7 +165,7 @@ $string['grading'] = 'Instradamento valutazioni';
 $string['icon_url'] = 'URL dell\'icona';
 $string['icon_url_help'] = 'L\'URL dell\'icona consente di visualizzare nella home page del corso l\'icona specifica del tool al posto dell\'icona LTI default';
 $string['id'] = 'id';
-$string['invalidid'] = 'L\'ID LTI era errata';
+$string['invalidid'] = 'L\'ID LTI non era corretta';
 $string['launch_in_moodle'] = 'Lancia il tool in Moodle';
 $string['launchinpopup'] = 'Contenitore di lancio';
 $string['launch_in_popup'] = 'Lancia il tool in una finestra pop-up';
@@ -224,7 +224,7 @@ Un docente può creare una attività tool esterno oppure può utilizzare tool es
 
 I tool esterni si differenziano da una risorsa di tipo URL per diversi aspetti:
 
-* I tool esterni possono conoscere il contesto, ossia possono avere accesso alle informazioni dell\'utente che li ha lanciati, come l\'istituzione di appartenenza, il corso, il nome, eccetera.
+* I tool esterni possono conoscere il contesto, ossia  possono avere accesso alle informazioni dell\'utente che li ha lanciati, come l\'istituzione di appartenenza, il corso, il nome, eccetera.
 * I tool esterni possono leggere, aggiornare ed eliminare le valutazioni associate alla istanza dell\'attività.
 * Le configurazioni di I tool esterni creano una relazione di trust tra Moodle e il tool provider, assicurando un canale di comunicazione sicuro.';
 $string['modulenameplural'] = 'Tool Esterni';
@@ -289,7 +289,7 @@ $string['registertype'] = 'Aggiungi registrazione tool esterno';
 $string['register_warning'] = 'La pagina di registrazione sta impiegando troppo tempo per essere visualizzata. Se non dovesse comparire, verificare di aver inserto l\'URL corretto nelle impostazioni di configurazione.';
 $string['registrationname'] = 'Nome tool provider';
 $string['registrationname_help'] = 'Il nome del tool provider da registare';
-$string['registration_options'] = 'Opzioni di registrazione';
+$string['registration_options'] = 'Opzioni di registarzione';
 $string['registrationurl'] = 'URL di registrazione';
 $string['registrationurl_help'] = 'L\'URL di registrazione viene resa disponibile dal tool provider ed è la locazione dove indirizzare le richieste di iscrizione.';
 $string['reject'] = 'Rifiuta';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'wiki', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,7 +49,7 @@ $string['commentscount'] = 'Kommentarer ({$a})';
 $string['comparesel'] = 'Jämför vald/a';
 $string['comparewith'] = 'Jämför version {$a->old} med version {$a->new}';
 $string['contributions'] = 'Bidrag';
-$string['contributions_help'] = 'Lista över sidor som Du har redigerat';
+$string['contributions_help'] = 'Lista över sidor som du har redigerat';
 $string['createcomment'] = 'Skapar kommentar';
 $string['createddate'] = 'Skapad: {$a->date} av {$a->username}';
 $string['createpage'] = 'Skapa sida';
@@ -185,7 +185,7 @@ $string['removeallwikitags'] = 'Ta bort all wiki-taggar';
 $string['removepages'] = 'Ta bort sidor';
 $string['repeatedsection'] = 'Wiki fel: sektionsnamn går inte att använda flera gånger  \'{$a}\'';
 $string['restore'] = 'Återställ';
-$string['restoreconfirm'] = 'Är Du säker på att Du vill återställa version #{$a}?';
+$string['restoreconfirm'] = 'Är Du säker på att du vill återställa version #{$a}?';
 $string['restoreerror'] = 'Det gick inte att återställa version #{$a}.';
 $string['restorethis'] = 'Återställ den här versionen';
 $string['restoreversion'] = 'Återställ äldre version';

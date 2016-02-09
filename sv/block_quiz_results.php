@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_quiz_results', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_quiz_results', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   block_quiz_results
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,7 @@ $string['config_name_format'] = 'Niv&aring; av privat integritet f&ouml;r visade
 $string['config_names_anon'] = 'Anonyma resultat';
 $string['config_names_full'] = 'Visa hela namnet';
 $string['config_names_id'] = 'Vísa bara ID-nummer';
-$string['config_no_quizzes_in_course'] = 'Den h&auml;r kursen inneh&aring;ller inga aktiviteter av typen test. Du m&aring;ste l&auml;gga till &aring;tminstone ett innan Du kan anv&auml;nda det h&auml;r blocket p&aring; r&auml;tt s&auml;tt.';
+$string['config_no_quizzes_in_course'] = 'Den här kursen innehåller inga aktiviteter av typen test. Du måste lägga till åtminstone ett innan du kan använda det här blocket på rätt sätt.';
 $string['config_select_quiz'] = 'Fr&aring;n vilket test ska det h&auml;r blocket visa resultat?';
 $string['config_show_best'] = 'Hur m&aring;nga av de h&ouml;gsta betygen/omd&ouml;mena vill Du visa? (V&auml;lj \'0\' f&ouml;r att avaktivera)';
 $string['config_show_worst'] = 'Hur m&aring;nga av de l&auml;gsta betygen/omd&ouml;mena vill Du visa? (V&auml;lj \'0\' f&ouml;r att avaktivera)';

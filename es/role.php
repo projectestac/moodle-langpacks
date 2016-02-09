@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'es', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'es', branch 'MOODLE_30_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -228,7 +228,6 @@ $string['grade:unlock'] = 'Desbloquear calificaciones o elementos';
 $string['grade:view'] = 'Ver calificaciones propias';
 $string['grade:viewall'] = 'Ver calificaciones de otros usuarios';
 $string['grade:viewhidden'] = 'Ver calificaciones ocultas al usuario';
-$string['hidden'] = 'Ocultas';
 $string['highlightedcellsshowdefault'] = 'Las celdas marcadas en la siguiente tabla muestran los permisos predeterminados para cada tipo de rol, en base al \'tipo de rol heredado del nivel superior\'.';
 $string['highlightedcellsshowinherit'] = 'Las celdas marcadas en la siguiente tabla muestra el permiso (si lo hay) que se hereda. Además de los permisos que realmente desea cambiar, debe dejar todo listo para los permisos a heredar.';
 $string['inactiveformorethan'] = 'inactivo durante más de {$a->timeperiod}';

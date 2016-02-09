@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,6 +79,7 @@ $string['cannoteditcomment'] = 'あなたはこのコメントを編集できま
 $string['cannoteditcommentexpired'] = 'あなたはこれを編集できません! 編集期限が終了しています!';
 $string['cannoteditpostorblog'] = 'あなたはブログに投稿または編集できません。';
 $string['cannoteditsiteform'] = 'あなたはこのフォームを使用してサイトコースを編集できません。';
+$string['cannotedituserpreferences'] = 'このユーザのプリファレンスを編集できません。';
 $string['cannotedityourprofile'] = '申し訳ございません、あなたは自分のプロファイルを編集できません。';
 $string['cannotexecduringupgrade'] = 'アップグレード中に実行できません。';
 $string['cannotfindcategory'] = 'データベースからID「 {$a} 」でカテゴリレコードを見つけることができません。';
@@ -233,6 +234,7 @@ $string['errorcreatingfile'] = 'ファイル「 {$a} 」の作成中にエラー
 $string['errorcreatingrole'] = 'ロール作成中にエラーが発生しました。';
 $string['errorfetchingrssfeed'] = 'RSSフィード取得中にエラーが発生しました。';
 $string['erroronline'] = '{$a} 行目にエラーがあります。';
+$string['erroroutput'] = '出力エラーが発生したため、自動リダイレクトを無効にします。';
 $string['errorparsingxml'] = 'XML構文解析エラー: {$a->errorstring} / エラー箇所: {$a->errorline} 行目 / エラー文字: {$a->errorchar}';
 $string['errorprocessingarchive'] = 'アーカイブファイルの処理中にエラーが発生しました。';
 $string['errorreadingfile'] = 'ファイル「 {$a} 」の読み取り中にエラーが発生しました。';

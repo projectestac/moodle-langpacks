@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'mnet', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -132,7 +132,7 @@ $string['mnetidprovidermsg'] = 'Du bör kunna logga in hos din {$a} leverantör.
 $string['mnetidprovidernotfound'] = 'Tyvärr, men ingen ytterligare information kunde hittas.';
 $string['mnetpeers'] = '\'Peers\' jämbördiga partners';
 $string['mnetservices'] = 'Tjänster';
-$string['mnet_session_prohibited'] = 'Användare från Din hemserver har f.n. inte tillstånd att navigera vidare till {$a}.';
+$string['mnet_session_prohibited'] = 'Användare från din hemserver har f.n. inte tillstånd att navigera vidare till {$a}.';
 $string['mnetsettings'] = 'Inställningar för nätverkande instanser av Moodle';
 $string['moodle_home_help'] = 'Sökvägen till ingångssidan (hem/första) för MNet-applikationen hos fjärrvärden, t.ex. /moodle/.';
 $string['name'] = 'Namn';
@@ -230,9 +230,9 @@ $string['type'] = 'Typ';
 $string['unknown'] = 'Okänd';
 $string['unknownerror'] = 'Ett okänt fel uppstod under förhandlingarna.';
 $string['usercannotchangepassword'] = 'Du kan inte ändra Ditt lösenord här eftersom Du är en fjärranvändare.';
-$string['userchangepasswordlink'] = '<br /> Du kanske kan ändra Ditt lösenord hos Din<a href="{$a->wwwroot}/login/change_password.php">{$a->description}</a> tillhandahållare.';
-$string['usernotfullysetup'] = 'Ditt användarkonto är inte komplett. Du behöver gå<a href="{$a}"> tillbaka till Din leverantör</a> och försäkra Dig om att Din profil är komplett där. Du kanske måste logga ut och in igen för att det här ska fungera.';
-$string['usersareonline'] = 'Varning! {$a} användare från den servern är   just nu inloggade på Din webbplats.';
+$string['userchangepasswordlink'] = '<br /> Du kanske kan ändra ditt lösenord hos din<a href="{$a->wwwroot}/login/change_password.php">{$a->description}</a> tillhandahållare.';
+$string['usernotfullysetup'] = 'Ditt användarkonto är inte komplett. Du behöver gå<a href="{$a}"> tillbaka till din leverantör</a> och försäkra dig om att din profil är komplett där. Du kanske måste logga ut och in igen för att det här ska fungera.';
+$string['usersareonline'] = 'Varning! {$a} användare från den servern är just nu inloggade på din webbplats.';
 $string['validated_by'] = 'Den är validerad genom nätverket:  <code>{$a}</code>';
 $string['verifysignature-error'] = 'Verifikationen av signaturen misslyckades.  Det uppstod ett fel.';
 $string['verifysignature-invalid'] = 'Verifikationen av signaturen misslyckades. Det verkat som den här nyttolasten inte hade signerats av Dig.';

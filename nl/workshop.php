@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'workshop', language 'nl', branch 'MOODLE_30_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,7 +108,7 @@ $string['evaluation'] = 'Evaluatie van de beoordeling';
 $string['evaluationmethod'] = 'Methode voor de evaluatie van de beoordeling';
 $string['evaluationmethod_help'] = 'De beoordelingsevaluatiemethode bepaalt hoe het cijfer voor de beoordeling wordt berekend. Je kunt laten herberekenen met verschillende instellingen tenzij je tevreden bent met het resultaat.';
 $string['evaluationsettings'] = 'Instellingen voor het cijfer van de evaluatie';
-$string['eventassessableuploaded'] = 'Er is een inzending geüploaded';
+$string['eventassessableuploaded'] = 'Er is een taak geüpload.';
 $string['eventassessmentevaluated'] = 'Beoordeling geëvalueerd';
 $string['eventassessmentevaluationsreset'] = 'Beoordelingsevaluaties gereset';
 $string['eventassessmentreevaluated'] = 'Beoordelingen opnieuw geëvalueerd';
@@ -158,6 +158,8 @@ $string['gradeitemsubmission'] = '{$a->workshopname} (taak)';
 $string['gradeover'] = 'Cijfer voor taak overschrijven';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Workshop cijfer rapport';
+$string['gradetopassgrading'] = 'Beoordelingscijfer om te slagen';
+$string['gradetopasssubmission'] = 'Instuurcijfer om te slagen';
 $string['gradinggrade'] = 'Cijfer voor evaluatie';
 $string['gradinggradecalculated'] = 'Berekend cijfer voor beoordeling';
 $string['gradinggrade_help'] = 'Deze instelling bepaalt het maximumcijfer dat kan behaald worden voor de beoordeling van een taak.';
@@ -192,6 +194,7 @@ $string['nogradeyet'] = 'Nog geen cijfer';
 $string['nosubmissionfound'] = 'Nog geen inzending gevonden voor deze gebruiker';
 $string['nosubmissions'] = 'Nog geen inzendingen in deze workshop';
 $string['notassessed'] = 'Nog niet beoordeeld';
+$string['nothingfound'] = 'Niets om te tonen';
 $string['nothingtoreview'] = 'Niets om te beoordelen';
 $string['notoverridden'] = 'Niet overschreven';
 $string['noworkshops'] = 'Er zijn geen workshops in deze cursus';
@@ -266,11 +269,14 @@ Als je dit inschakeld, dan kun je best ook automatisch toewijzen inschakelen. Al
 $string['submissiongrade'] = 'Cijfer voor taak';
 $string['submissiongrade_help'] = 'Deze instelling bepaalt het maximumcijfer dat behaald kan worden voor een ingestuurde taak.';
 $string['submissiongradeof'] = 'Cijfer voor taak (op {$a}';
+$string['submissionlastmodified'] = 'Laatst gewijzigd';
 $string['submissionsettings'] = 'Taak instellingen';
+$string['submissionsreport'] = 'Workshop insturingsrapport';
 $string['submissionstart'] = 'Inzenden kan vanaf';
 $string['submissionstartdatetime'] = 'Taak afgeven open vanaf {$a->daydatetime} ({$a->distanceday})';
 $string['submissionstartevent'] = '{$a} (opent voor insturen)';
 $string['submissiontitle'] = 'Titel';
+$string['submittednotsubmitted'] = 'Ingestuurd ({$a->submitted}) / niet ingestuurd ({$a->notsubmitted})';
 $string['subplugintype_workshopallocation'] = 'Toewijzingsmethode voor taken';
 $string['subplugintype_workshopallocation_plural'] = 'Toewijzingsmethodes';
 $string['subplugintype_workshopeval'] = 'Methode voor de evaluatie van de beoordeling';

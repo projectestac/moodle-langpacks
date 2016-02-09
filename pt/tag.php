@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'tag', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,19 +25,25 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['added'] = 'Foram adicionadas as palavras-chave oficiais';
 $string['addedotag'] = '"{$a}" foi adicionada como palavra-chave oficial.';
 $string['addotags'] = 'Adicionar palavras-chave oficiais';
 $string['addtagtomyinterests'] = 'Adicionar "{$a}" aos meus interesses';
 $string['alltagpages'] = 'Todas as páginas de palavras-chave';
 $string['changename'] = 'Alterar nome da palavra-chave';
 $string['changetype'] = 'Alterar tipo da palavra-chave';
+$string['confirmdeletetag'] = 'Tem a certeza que pretende apagar esta palavra-chave?';
+$string['confirmdeletetags'] = 'Tem a certeza que pretende apagar as palavras-chave selecionadas?';
 $string['count'] = 'Número';
+$string['coursetags'] = 'Palavras-chave da disciplina';
 $string['delete'] = 'Apagar';
-$string['deleted'] = 'Apagada(s)';
+$string['deleted'] = 'Palavra(s)-chave(s) apagada(s)';
 $string['deletedcoursetags'] = 'Palavras-chave da disciplina - Apagada(s)';
+$string['deleteselected'] = 'Apagar as palavras-chave selecionadas';
 $string['description'] = 'Descrição';
+$string['editname'] = 'Editar a palavra-chave';
 $string['edittag'] = 'Editar esta palavra-chave';
-$string['entertags'] = 'Inserir palavras-chave separadas por vírgulas';
+$string['entertags'] = 'Inserir palavras-chave';
 $string['errortagfrontpage'] = 'Criar palavras-chave para a página principal do site não é permitido';
 $string['errorupdatingrecord'] = 'Ocorreu um erro ao atualizar a palavra-chave';
 $string['eventtagadded'] = 'Palavra-chave adicionada a um item';
@@ -49,6 +55,7 @@ $string['eventtagunflagged'] = 'Palavra-chave desmarcada';
 $string['eventtagupdated'] = 'Palavra-chave atualizada';
 $string['flag'] = 'Sinalizar';
 $string['flagasinappropriate'] = 'Sinalizar como inapropriada';
+$string['flagged'] = 'Palavras-chave assinaladas';
 $string['helprelatedtags'] = 'Palavras-chave relacionadas, separadas por vírgulas';
 $string['id'] = 'identificador';
 $string['manageofficialtags'] = 'Gerir palavras-chave oficiais';
@@ -56,10 +63,12 @@ $string['managetags'] = 'Gerir palavras-chave';
 $string['name'] = 'Nome da palavra-chave';
 $string['namesalreadybeeingused'] = 'Nomes de palavras-chave já utilizados';
 $string['newname'] = 'Novo nome da palavra-chave';
+$string['newnamefor'] = 'Novo nome para a palavra-chave {$a}';
 $string['noresultsfor'] = 'Não foram devolvidos resultados para "{$a}"';
-$string['officialtag'] = 'Palavra-chave oficial';
+$string['nothingtoupdate'] = 'Nenhuma atualização disponível';
+$string['officialtag'] = 'Oficial';
 $string['otags'] = 'Palavras-chave oficiais';
-$string['othertags'] = 'Outras palavras-chave (separadas por vírgulas)';
+$string['othertags'] = 'Outras palavras-chave';
 $string['owner'] = 'Proprietário';
 $string['page-tag-index'] = 'Página de palavras-chave simples';
 $string['page-tag-manage'] = 'Gerir página de palavras-chave';
@@ -79,6 +88,9 @@ $string['searchresultsfor'] = 'Procurar resultados para "{$a}"';
 $string['searchtags'] = 'Procurar palavras-chave';
 $string['seeallblogs'] = 'Ver todas as entradas de blogue com a palavra-chave "{$a}"...';
 $string['select'] = 'Selecionar';
+$string['selecttag'] = 'Selecionar a palavra-chave {$a}';
+$string['settypedefault'] = 'Remover das palavras-chave oficiais';
+$string['settypeofficial'] = 'Tornar oficial';
 $string['tag'] = 'palavra-chave';
 $string['tagdescription'] = 'Descrição da palavra-chave';
 $string['taggedwith'] = 'Com a palavra-chave "{$a}"';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'questionnaire', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -83,6 +83,7 @@ $string['closedate_help'] = 'You can specify a date to close the questionnaire h
 $string['closeson'] = 'Questionnaire closes on {$a}';
 $string['completionsubmit'] = 'Student must submit this questionnaire to complete it';
 $string['confalts'] = '- OR - <br />Confirmation page';
+$string['configmaxsections'] = 'Maximum feedback sections';
 $string['configusergraph'] = 'Display charts for "Personality Test" feedback';
 $string['configusergraphlong'] = 'Use the <a href="http://www.rgraph.net/">Rgraph</a> library to display "Personality Test" feedback charts.';
 $string['confirmdelallresp'] = 'Are you sure you want to delete ALL the responses in this questionnaire?';
@@ -101,6 +102,7 @@ $string['createcontent'] = 'Define New Content';
 $string['createcontent_help'] = 'Select one of the radio button options. \'Create new\' is the default.';
 $string['createcontent_link'] = 'mod/questionnaire/mod#Content_Options';
 $string['createnew'] = 'Create new';
+$string['crontask'] = 'Questionnaire cleanup job';
 $string['date'] = 'Date';
 $string['dateformatting'] = 'Use the day/month/year format, e.g. for March 14th, 1945:&nbsp; <strong>14/3/1945</strong>';
 $string['date_help'] = 'Use this question type if you expect the response to be a correctly formatted date.';

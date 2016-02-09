@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'glossary', language 'fr', branch 'MOODLE_30_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -81,6 +81,7 @@ $string['cnfshowgroup'] = 'Indique si une coupure entre les groupes doit être a
 $string['cnfsortkey'] = 'Définit la clef de tri par défaut';
 $string['cnfsortorder'] = 'Définit l\'ordre de tri par défaut';
 $string['cnfstudentcanpost'] = 'Définit si les étudiants peuvent par défaut proposer des articles dans un glossaire';
+$string['cnftabs'] = 'Sélectionner les onglets visibles pour ce format de glossaire';
 $string['comment'] = 'Commentaire';
 $string['commentdeleted'] = 'Le commentaire a été effacé.';
 $string['comments'] = 'Commentaires';
@@ -300,6 +301,7 @@ $string['studentcanpost'] = 'Les étudiants peuvent ajouter des articles';
 $string['totalentries'] = 'Nombre total d\'articles';
 $string['usedynalink'] = 'Activer les liens automatiques';
 $string['usedynalink_help'] = 'Si la liaison automatique des glossaires a été activée par un administrateur au niveau de la plateforme et que cette option est activée, il est possible d\'activer la liaison automatique d\'un article, lorsque son intitulé apparaît dans le reste du cours.';
+$string['visibletabs'] = 'Onglets visibles';
 $string['waitingapproval'] = 'En attente d\'approbation';
 $string['warningstudentcapost'] = '(n\'est valable que si le glossaire n\'est pas principal)';
 $string['withauthor'] = 'Concepts avec auteur';

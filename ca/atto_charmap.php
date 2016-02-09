@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_charmap', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'atto_charmap', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   atto_charmap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -230,7 +230,7 @@ $string['similarto'] = '似 (Símbol semblant a)';
 $string['singleleftpointinganglequotationmark'] = '‹ (Símbol cometa d\'angle apuntant a l\'esquerra)';
 $string['singlelow9quotationmark'] = '‚ (Símbol cometa senzilla baixeta)';
 $string['singlerightpointinganglequotationmark'] = '› (Símbol cometa d\'angle apuntant a la dreta)';
-$string['smalltilde'] = '˜ (Símbol titlla petita)';
+$string['smalltilde'] = '˜ (Símbol titlla menuda)';
 $string['softhyphen'] = '(Símbol guionet condicionat)';
 $string['squareroot'] = '√ (Símbol arrel quadrada)';
 $string['subsetof'] = '⊂ (Símbol subconjunt de)';
@@ -247,7 +247,7 @@ $string['therefore'] = '∴ (Símbol en conseqüència)';
 $string['theta'] = 'θ (Theta minúscula)';
 $string['theta_caps'] = 'Θ (Theta majúscula)';
 $string['thetasymbol'] = 'ϑ (Símbol theta)';
-$string['thinspace'] = '  (Símbol espai fi)';
+$string['thinspace'] = '  (Símbol espai menut)';
 $string['thorn'] = 'þ (Thorn minúscula)';
 $string['thorn_caps'] = 'Þ (Thorn majúscula)';
 $string['threedotleader'] = '… (Símbol punts suspensius)';

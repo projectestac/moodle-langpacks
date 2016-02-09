@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'nl', branch 'MOODLE_30_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -121,8 +121,8 @@ $string['community:add'] = 'Gebruik de community-blok om hubs en cursussen te zo
 $string['community:download'] = 'Download een cursus van de community-blok';
 $string['confirmaddadmin'] = 'Wil je echt gebruiker <strong>{$a}</strong> als nieuwe sitebeheerder toevoegen?';
 $string['confirmdeladmin'] = 'Wil je echt gebruiker <strong>{$a}</strong> verwijderen uit de lijst van sitebeheerders?';
-$string['confirmroleprevent'] = 'Wil je echt <strong>{$a->role}</strong> verwijderen van de lijst met toegelaten rollen voor mogelijkheid {$a->cap} in context {$a->context}?';
-$string['confirmroleunprohibit'] = 'Wil je echt <strong>{$a->role}</strong> verwijderen van de lijst met verboden rollen voor mogelijkheid {$a->cap} in context {$a->context}?';
+$string['confirmroleprevent'] = 'Wil je echt <strong>"{$a->role}"</strong> verwijderen van de lijst met toegelaten rollen voor mogelijkheid "{$a->cap}" in context "{$a->context}"?';
+$string['confirmroleunprohibit'] = 'Wil je echt <strong>"{$a->role}"</strong> verwijderen van de lijst met verboden rollen voor mogelijkheid "{$a->cap}" in context "{$a->context}"?';
 $string['confirmunassign'] = 'Wil je echt deze rol van deze gebruiker verwijderen?';
 $string['confirmunassignno'] = 'Annuleer';
 $string['confirmunassigntitle'] = 'Bevestig rolwijziging';
@@ -154,6 +154,7 @@ $string['course:reset'] = 'Cursus naar standaardinstellingen';
 $string['course:reviewotherusers'] = 'Beoordeel andere gebruikers';
 $string['course:sectionvisibility'] = 'Zichtbaarheid van secties beheren';
 $string['course:setcurrentsection'] = 'Huidige sectie instellen';
+$string['course:tag'] = 'Wijzig cursus-tags';
 $string['course:update'] = 'Cursusinstellingen wijzigen';
 $string['course:useremail'] = 'Inschakelen/uitschakelen e-mailadressen';
 $string['course:view'] = 'Cursussen zien zonder deel te nemen';
@@ -226,7 +227,6 @@ $string['grade:unlock'] = 'Beoordelingen of items vrijgeven';
 $string['grade:view'] = 'Eigen cijfers bekijken';
 $string['grade:viewall'] = 'Cijfers van andere gebruikers bekijken';
 $string['grade:viewhidden'] = 'Verborgen cijfer zien';
-$string['hidden'] = 'Verborgen';
 $string['highlightedcellsshowdefault'] = 'De geselecteerde rechten in onderstaande tabel zijn de standaardrechten voor het hierboven geselecteerde rolarchetype.';
 $string['highlightedcellsshowinherit'] = 'De opgelichte cellen in onderstaande tabel tonen de rechten (als die er zijn) die overgeërfd worden. Buiten de mogelijkheden waarvan je de rechten wil aanpassen, moet je alles op Overerven laten staan.';
 $string['inactiveformorethan'] = 'langer dan {$a->timeperiod} niet actief';
@@ -261,7 +261,7 @@ $string['noneinthisxmatching'] = 'Er komen geen gebruikers overeen met \'{$a->se
 $string['norole'] = 'Geen rol';
 $string['noroleassignments'] = 'Deze gebruiker heeft geen roltoewijzingen in deze site';
 $string['noroles'] = 'Geen rollen';
-$string['notabletoassignroleshere'] = 'Je kunt hier geen rollen toewijzen';
+$string['notabletoassignroleshere'] = 'Het toewijzen van rollen in deze context is niet ingeschakeld door een systeembeheerder.';
 $string['notabletooverrideroleshere'] = 'Je kunt hier geen rollen overschrijven';
 $string['notes:manage'] = 'Notities beheren';
 $string['notes:view'] = 'Notities bekijken';
@@ -346,7 +346,7 @@ $string['restore:userinfo'] = 'Gebruikersgegevens terugzetten';
 $string['restore:viewautomatedfilearea'] = 'Zet cursussen terug van automatische back-ups';
 $string['risks'] = 'Risico\'s';
 $string['roleallowheader'] = 'Rol toestaan:';
-$string['roleallowinfo'] = 'Kies een rol om toe te voegen aan de lijst met rollen met toelating in context {$a->context}, mogelijkheid {$a->cap}:';
+$string['roleallowinfo'] = 'Kies een rol om toe te voegen aan de lijst met rollen met toelating in context "{$a->context}", mogelijkheid "{$a->cap}":';
 $string['role:assign'] = 'Toewijzen van rollen aan gebruikers';
 $string['roleassignments'] = 'Roltoewijzingen';
 $string['roledefinitions'] = 'Roldefinities';
@@ -355,7 +355,7 @@ $string['roleincontext'] = '{$a->role} in {$a->context}';
 $string['role:manage'] = 'Aanmaken en beheren van rollen';
 $string['role:override'] = 'Rechten voor anderen overschrijven';
 $string['roleprohibitheader'] = 'Rol verbieden:';
-$string['roleprohibitinfo'] = 'Kies een rol om toe te voegen aan de lijst met verboden rollen in context {$a->context}, mogelijkheid {$a->cap}:';
+$string['roleprohibitinfo'] = 'Kies een rol om toe te voegen aan de lijst met verboden rollen in context "{$a->context}", mogelijkheid "{$a->cap}":';
 $string['rolerepreset'] = 'Gebruik voorinstellingen rol';
 $string['roleresetdefaults'] = 'Standaarden';
 $string['roleresetrole'] = 'Gebruik rol voor archetype';
@@ -382,6 +382,8 @@ $string['siteadministrators'] = 'Sitebeheerders';
 $string['site:approvecourse'] = 'Cursus aanmaken goedkeuren';
 $string['site:backup'] = 'Cursussen back-uppen';
 $string['site:config'] = 'Site configuratie wijzigen';
+$string['site:deleteanymessage'] = 'Verwijder berichten van de site';
+$string['site:deleteownmessage'] = 'Verwijder berichten verzonden door en aan de gebruiker';
 $string['site:doanything'] = 'Toelaten alles te doen';
 $string['site:doclinks'] = 'Links naar documentatie buiten deze site tonen';
 $string['site:forcelanguage'] = 'Cursustaal overschrijven';

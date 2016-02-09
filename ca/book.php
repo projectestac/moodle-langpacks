@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'book', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,12 +38,15 @@ $string['content'] = 'Contingut';
 $string['customtitles'] = 'Títols personalitzats';
 $string['customtitles_help'] = 'Normalment el títol del capítol es mostra automàticament a l\'índex i com a capçalera damunt del contingut.
 Si la casella de selecció dels títols està marcada, el títol del capítol NO es mostrarà com a capçalera damunt del contingut. Es pot introduir un títol diferent com a part del contingut (potser més llarg que el títol del capítol).';
+$string['deletechapter'] = 'Elimina el capítol «{$a}»';
+$string['editchapter'] = 'Edita el capítol «{$a}»';
 $string['editingchapter'] = 'S\'està editant el capítol';
 $string['errorchapter'] = 'S\'ha produït un error en llegir el capítol.';
 $string['eventchaptercreated'] = 'S\'ha creat el capítol.';
 $string['eventchapterdeleted'] = 'S\'ha suprimit el capítol.';
 $string['eventchapterupdated'] = 'S\'ha actualitzat el capítol.';
 $string['eventchapterviewed'] = 'S\'ha visualitzat el capítol.';
+$string['hidechapter'] = 'Amaga el capítol «{$a}»';
 $string['modulename'] = 'Llibre';
 $string['modulename_help'] = 'El mòdul de llibre permet al professorat crear un recurs de diverses pàgines en un format de llibre, amb capítols i subcapítols. Els llibres poden contenir fitxers multimèdia, així com text, i són útils per a mostrar llargs passatges d\'informació que es poden dividir en seccions.
 
@@ -53,8 +56,11 @@ Un llibre pot utilitzar-se
 * Com a portafolis de presentació del treball de l\'estudiantat';
 $string['modulenameplural'] = 'Llibres';
 $string['navexit'] = 'Surt del llibre';
+$string['navimages'] = 'Imatges';
 $string['navnext'] = 'Següent';
 $string['navprev'] = 'Prèvi';
+$string['navstyle'] = 'Estil de navegació';
+$string['navtext'] = 'Text';
 $string['nocontent'] = 'No s\'ha afegit encara cap contingut al llibre.';
 $string['numbering'] = 'Format dels capítols';
 $string['numbering0'] = 'Cap';
@@ -70,6 +76,7 @@ $string['numberingoptions_desc'] = 'Seleccioneu les opcions de numeració que vo
 $string['page-mod-book-x'] = 'Qualsevol pàgina del llibre';
 $string['pluginadministration'] = 'Administració del llibre';
 $string['pluginname'] = 'Llibre';
+$string['showchapter'] = 'Mostra el capítol «{$a}»';
 $string['subchapter'] = 'Subcapítol';
 $string['subchapternotice'] = '(Disponible només quan s\'ha creat el primer capítol)';
 $string['subplugintype_booktool'] = 'Eina del llibre';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'scorm', language 'de', branch 'MOODLE_30_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,8 @@ $string['aicchacpkeepsessiondata_desc'] = 'Speicherdauer in Tagen für externe A
 $string['aicchacptimeout'] = 'AICC HACP Timeout';
 $string['aicchacptimeout_desc'] = 'Länge in Minuten, die eine externe AICC HACP Session offen bleiben darf';
 $string['aiccuserid'] = 'Nutzer-ID für AICC verwenden';
-$string['aiccuserid_desc'] = 'Der AICC-Standard für Nutzernamen ist sehr restriktiv gegenüber Moodle, so dass stattdessen die Nutzer-ID übergeben wird. Wenn diese Option deaktiviert ist, werden die Moodle-Nutzernamen benutzt. Der AICC-Standard ermöglicht alphanumerische Zeichen mit den beiden Sonderzeichen Bindestrich (-) und Unterstrich (_). Punkte, Leerzeichen und das Symbol @ sind nicht erlaubt.';
+$string['aiccuserid_desc'] = 'Der AICC-Standard für Nutzernamen ist sehr restriktiv und erlaubt ausschließlich alphanumerische Zeichen und die Sonderzeichen Bindestrich und Unterstrich. Punkte, Leerzeichen und das Symbol @ sind nicht zugelassen.
+Wenn diese Option aktiviert ist, werden die Nutzer-ID-Nummern an das AICC-Lernpaket übergeben und nicht die Anmeldenamen.';
 $string['aliasonly'] = 'Wenn eine imsmanifest.xml-Datei aus einem Repository ausgewählt wird, muss für diese Datei ein Alias/Shortcut verwendet werden.';
 $string['allowapidebug'] = 'API debug und tracing aktivieren (Capture Maske mit apidebumask einrichten)';
 $string['allowtypeaicchacp'] = 'Externe AICC HACP aktivieren';
@@ -54,9 +55,9 @@ $string['attempt'] = 'Versuch';
 $string['attempt1'] = '1 Versuch';
 $string['attempts'] = 'Versuche';
 $string['attemptsmanagement'] = 'Versuchsmanagement';
-$string['attemptstatusall'] = 'Meine Startseite und Eingangsseite';
+$string['attemptstatusall'] = 'Dashboard und Anfangsseite';
 $string['attemptstatusentry'] = 'Nur Eingangsseite';
-$string['attemptstatusmy'] = 'Nur meine Startseite';
+$string['attemptstatusmy'] = 'Nur Dashboard';
 $string['attemptsx'] = '{$a} Versuche';
 $string['attr_error'] = 'Falscher Wert für das Attribut ({$a->attr}) im Tag {$a->tag}';
 $string['autocommit'] = 'Automatisch übernehmen';
@@ -74,6 +75,7 @@ $string['browsed'] = 'Durchsucht';
 $string['browsemode'] = 'Vorschaumodus';
 $string['browserepository'] = 'Repository durchsuchen';
 $string['calculatedweight'] = 'Berechnete Gewichtung';
+$string['cannotaccess'] = 'Dieses Skript kann so nicht aufgerufen werden.';
 $string['cannotfindsco'] = 'SCO konnte nicht gefunden werden';
 $string['chooseapacket'] = 'Auswählen/aktualisieren eines Pakets';
 $string['collapsetocwinsize'] = 'Inhaltsverzeichnis einklappen wenn Fenstergröße kleiner ist';
@@ -106,8 +108,8 @@ $string['display'] = 'Lernpaket anzeigen';
 $string['displayactivityname'] = 'Aktivitätsname anzeigen';
 $string['displayactivityname_help'] = 'Anzeige des Aktivitätsnamens über der Anzeige des Lernpakets';
 $string['displayattemptstatus'] = 'Status der Versuche anzeigen';
-$string['displayattemptstatusdesc'] = 'Ob eine Zusammenfassung der Versuche des Nutzers im Kursübersichtsblock auf der My-Seite und oder der Lernpaket-Startseite gezeigt werden soll.';
-$string['displayattemptstatus_help'] = 'Diese Option erlaubt die Anzeige einer Zusammenfassung der Versuche in der Kursübersicht und/oder auf der Eingangsseite des Lernpakets.';
+$string['displayattemptstatusdesc'] = 'Die Option legt fest, ob eine Zusammenfassung der Nutzerversuche in der Kursübersicht im Dashboard und/oder der Anfangsseite des Lernpakets angezeigt werden soll.';
+$string['displayattemptstatus_help'] = 'Diese Option legt fest, ob eine Zusammenfassung der Nutzerversuche in der Kursübersicht im Dashboard und/oder auf der Anfangsseite des Lernpakets angezeigt wird.';
 $string['displaycoursestructure'] = 'Kursstruktur auf Einstiegsseite anzeigen';
 $string['displaycoursestructuredesc'] = 'Wenn diese Option aktiviert ist, wir die Inhaltsstruktur auf der Einstiegsseite angezeigt.';
 $string['displaycoursestructure_help'] = 'Wenn diese Option aktiviert ist, wird die Inhaltsstruktur des Lernpakets auf der Einstiegsseite angezeigt.';
@@ -278,6 +280,8 @@ $string['position_error'] = 'Das Tag {$a-tag} kann nicht Kind (Child) des Tags {
 $string['preferencespage'] = 'Einstellungen für diese Seite';
 $string['preferencesuser'] = 'Einstellungen für diese Übersicht';
 $string['prev'] = 'Zurück';
+$string['protectpackagedownloads'] = 'Herunterladen des Lernpakets verhindern';
+$string['protectpackagedownloads_desc'] = 'Wenn diese Option aktiviert ist, können Lernpakete von jemandem mit dem Recht course:manageactivities heruntergeladen werden. Wenn die Option deaktiviert ist, kann das Lernpaket immer heruntergeladen werden (z.B. von mobilen Endgeräten).';
 $string['raw'] = 'Rohpunktwert';
 $string['regular'] = 'Reguläres Manifest';
 $string['report'] = 'Bericht';

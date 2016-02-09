@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_manual', language 'es', branch 'MOODLE_28_STABLE'
+ * Strings for component 'enrol_manual', language 'es', branch 'MOODLE_30_STABLE'
  *
  * @package   enrol_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,6 +55,7 @@ $string['manual:manage'] = 'Gestión de matriculas de usuario';
 $string['manual:unenrol'] = 'Dar de baja usuarios del curso';
 $string['manual:unenrolself'] = 'Darse de baja del curso';
 $string['messageprovider:expiry_notification'] = 'Notificaciones de expiración de matriculaciones manuales';
+$string['now'] = 'Ahora';
 $string['pluginname'] = 'Matriculacion manual';
 $string['pluginname_desc'] = 'La extensión para la matriculación manual permite que los usuarios sean  matriculados de forma manual por un usuario con los permisos adecuados, como un profesor, mediante un enlace situado en la configuración de la administración del curso. La extensión debe normalmente estar activada, ya que algunas extensions de inscripción, tales como la matrícula libre, así lo requieran.';
 $string['status'] = 'Habilita matriculación manual';

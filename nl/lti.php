@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'lti', language 'nl', branch 'MOODLE_30_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,9 +32,11 @@ $string['accept_grades_admin'] = 'Aanvaard cijfers van de tool';
 $string['accept_grades_admin_help'] = 'Specifieer of de tool provider cijfers die geassocieerd zijn met exemplaren van deze tool mag toevoegen, updaten, lezen, en verwijderen.
 
 Sommige tool providers ondersteunen de mogelijkheid om cijfers terug te rapporteren aan Moodle op basis van acties ondernomen binnen de tool, waardoor een meer integrale ervaring wordt gecreëerd.';
-$string['accept_grades_help'] = 'Specifieer of de tool provider cijfers die geassocieerd zijn met enkel deze externe instantie van de tool mag toevoegen, updaten, lezen, en verwijderen.
+$string['accept_grades_help'] = 'Specificeer of de tool provider alleen met deze externe tool cijfers mag toevoegen, updaten, lezen, en verwijderen.
 
-Sommige tool providers ondersteunen de mogelijkheid om cijfers terug te rapporteren aan Moodle op basis van acties ondernomen binnen de tool, waardoor een meer integrale ervaring wordt gecreëerd.';
+Sommige tool providers ondersteunen de mogelijkheid om cijfers terug te rapporteren aan Moodle op basis van acties ondernomen binnen de tool, waardoor een meer geintegreerde ervaring wordt verkregen.
+
+Merk op dat deze instelling overschreven kan worden in de tool-configuratie.';
 $string['action'] = 'Actie';
 $string['active'] = 'Actief';
 $string['activity'] = 'Activiteit';
@@ -80,7 +82,7 @@ $string['createdon'] = 'Gemaakt op';
 $string['curllibrarymissing'] = 'PHP Curl moet geïnstalleerd zijn om LTI te kunnen gebruiken';
 $string['custom'] = 'Eigen parameters';
 $string['custom_config'] = 'Eigen tool configuratie gebruiken';
-$string['custom_help'] = 'Aangepaste parameters zijn instellingen gebruikt door de tool provider. Een aangepaste parameter kan bijvoorbeeld worden gebruikt om een specifieke bron van de provider te tonen. Elke parameter moet op een aparte lijn ingegeven worden in volgend formaat:  "name=value"; for example, "chapter=3".
+$string['custom_help'] = 'Aangepaste parameters zijn instellingen gebruikt door de tool provider. Een aangepaste parameter kan bijvoorbeeld worden gebruikt om een specifieke bron van de provider te tonen. Elke parameter moet ingegeven worden op een aparte lijn door gebruik te maken van de formate "naam=waarde", bijvoorbeeld "chapter=3"
 
 Het is veilig om dit veld ongewijzigd te laten tenzij op vraag van de tool provider.';
 $string['custominstr'] = 'Aangepaste parameters';
@@ -326,17 +328,19 @@ $string['share_email_admin'] = 'Deel de e-mail van de starter met de tool';
 $string['share_email_admin_help'] = 'Geef op of het e-mailadres van de gebruiker die de tool start gedeeld zal worden met de tool-provider.
 De tool-provider heeft misschien het e-mailadres van de starter nodig om gebruikers met dezelfde naam te onderscheiden of om ze e-mails te sturen, gebaseerd op acties binnnen de tool.';
 $string['share_email_help'] = 'Geef op of het e-mailadres van de gebruiker die de tool start gedeeld zal worden met de tool-provider.
+
 De tool-provider heeft misschien het e-mailadres van de starter nodig om gebruikers met dezelfde naam te onderscheiden of om ze e-mails te sturen, gebaseerd op acties binnnen de tool.
 
-Merk op dat deze instelling overschreven kan worden in de tool-configuratie';
+Merk op dat deze instelling overschreven kan worden in de tool-configuratie.';
 $string['share_name'] = 'Deel de naam van de starter met de tool';
 $string['share_name_admin'] = 'Deel de naam van de starter met de tool';
 $string['share_name_admin_help'] = 'Geef op of de volledig naam van de gebruiker die de tool start moet gedeeld worden met de tool-provider.
 De tool-provider heeft misschien de naam nodig om betekenisvolle informatie te tonen binnen de tool.';
 $string['share_name_help'] = 'Geef op of de volledig naam van de gebruiker die de tool start moet gedeeld worden met de tool-provider.
+
 De tool-provider heeft misschien de naam nodig om betekenisvolle informatie te tonen binnen de tool.
 
-Merk op dat deze instelling overschreven kan worden in de tool-configuratie';
+Merk op dat deze instelling overschreven kan worden in de tool-configuratie.';
 $string['share_roster'] = 'Geef de tool toegang tot de deelnemerslijst van de cursus';
 $string['share_roster_admin'] = 'De tool heeft toegang tot de deelnemerslijst van de cursus';
 $string['share_roster_admin_help'] = 'Geef op of de tool de gebruikerslijs kan opvragen van gebruikers die aangemeld zijn in cursussen vanwaar dit tooltype wordt gestart.';

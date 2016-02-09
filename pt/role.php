@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -121,8 +121,8 @@ $string['community:add'] = 'Usar o bloco <strong>Procurar comunidades</strong> p
 $string['community:download'] = 'Descarregar uma disciplina a partir do bloco Procurar comunidades';
 $string['confirmaddadmin'] = 'Tem a certeza de que quer designar o utilizador <strong>{$a}</strong> como administrador do site?';
 $string['confirmdeladmin'] = 'Tem a certeza de que quer remover o utilizador <strong>{$a}</strong> da lista de administradores do site?';
-$string['confirmroleprevent'] = 'Tem a certeza de que quer remover <strong>{$a->role}</strong> da lista dos papéis permitidos com a capacidade {$a->cap} no contexto {$a->context}?';
-$string['confirmroleunprohibit'] = 'Tem a certeza de que quer remover <strong>{$a->role}</strong> da lista dos papéis proibidos para a capacidade {$a->cap} no contexto {$a->context}?';
+$string['confirmroleprevent'] = 'Tem a certeza que quer remover <strong>{$a->role}</strong> da lista dos papéis permitidos para a capacidade {$a->cap} no contexto {$a->context}?';
+$string['confirmroleunprohibit'] = 'Tem a certeza que quer remover <strong>{$a->role}</strong> da lista dos papéis proibidos para a capacidade {$a->cap} no contexto {$a->context}?';
 $string['confirmunassign'] = 'Tem a certeza de que quer retirar este papel a este utilizador?';
 $string['confirmunassignno'] = 'Cancelar';
 $string['confirmunassigntitle'] = 'Confirmar a mudança de papel';
@@ -154,6 +154,7 @@ $string['course:reset'] = 'Repor disciplina';
 $string['course:reviewotherusers'] = 'Rever outros utilizadores';
 $string['course:sectionvisibility'] = 'Controlar visibilidade de secções';
 $string['course:setcurrentsection'] = 'Definir secção atual';
+$string['course:tag'] = 'Alterar palavras-chave da disciplina';
 $string['course:update'] = 'Atualizar definições de disciplinas';
 $string['course:useremail'] = 'Ativar/desativar endereços de e-mail';
 $string['course:view'] = 'Ver disciplinas sem permissão para participar';
@@ -226,7 +227,6 @@ $string['grade:unlock'] = 'Bloquear notas ou itens';
 $string['grade:view'] = 'Ver as próprias notas';
 $string['grade:viewall'] = 'Ver notas de outros utilizadores';
 $string['grade:viewhidden'] = 'Ver notas ocultas para o próprio';
-$string['hidden'] = 'Oculto(a)';
 $string['highlightedcellsshowdefault'] = 'As permissões destacadas na tabela abaixo mostram as permissões predefinidas para este tipo de papel, com base no papel modelo atualmente selecionado acima.';
 $string['highlightedcellsshowinherit'] = 'As células em destaque na tabela abaixo mostram as permissões (se houver) que serão herdadas. Além das capacidades cuja permissão pretende alterar, deve deixar o resto com a permissão herdar.';
 $string['inactiveformorethan'] = 'sem atividade há mais de {$a->timeperiod}';
@@ -252,8 +252,8 @@ $string['manageroles'] = 'Gerir papéis';
 $string['maybeassignedin'] = 'Tipos de contextos em que este papel pode ser atribuído';
 $string['morethan'] = 'Mais de {$a}';
 $string['multipleroles'] = 'Papéis múltiplos';
-$string['my:configsyspages'] = 'Configure modelos do sistema para a Minha página principal';
-$string['my:manageblocks'] = 'Gerir blocos na Minha página principal';
+$string['my:configsyspages'] = 'Configurar modelos do sistema para o Painel do utilizador';
+$string['my:manageblocks'] = 'Gerir blocos do Painel do utilizador';
 $string['neededroles'] = 'Papéis com permissão';
 $string['nocapabilitiesincontext'] = 'Não há capacidades disponíveis neste contexto';
 $string['noneinthisx'] = 'Nenhum em {$a}';
@@ -362,6 +362,8 @@ $string['siteadministrators'] = 'Administradores do site';
 $string['site:approvecourse'] = 'Aprovar criação de disciplinas';
 $string['site:backup'] = 'Fazer cópias de segurança de disciplinas';
 $string['site:config'] = 'Alterar configurações do site';
+$string['site:deleteanymessage'] = 'Apagar todas as mensagens do site';
+$string['site:deleteownmessage'] = 'Apagar as mensagens enviadas pelo e para o utilizador';
 $string['site:doanything'] = 'Autorizado(a) a fazer tudo';
 $string['site:doclinks'] = 'Mostrar hiperligações para documentos localizados fora do site';
 $string['site:forcelanguage'] = 'Sobrepor idioma do curso';

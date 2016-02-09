@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'es', branch 'MOODLE_28_STABLE'
+ * Strings for component 'grades', language 'es', branch 'MOODLE_30_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -139,7 +139,6 @@ $string['calculationview'] = 'Ver cálculo';
 $string['cannotaccessgroup'] = 'Lo sentimos, no se puede acceder a las calificaciones del grupo seleccionado.';
 $string['categories'] = 'Categorías';
 $string['categoriesanditems'] = 'Categorías e ítems';
-$string['categoriesedit'] = 'Editar configuración';
 $string['category'] = 'Categoría';
 $string['categoryedit'] = 'Editar categoría';
 $string['categoryname'] = 'Nombre de la categoría';
@@ -165,6 +164,8 @@ $string['coursename'] = 'Nombre del curso';
 $string['coursescales'] = 'Escalas del curso';
 $string['coursesettings'] = 'Ajustes del curso';
 $string['coursesettingsexplanation'] = 'Los ajustes del curso determinan cómo aparece el libro de calificaciones a todos los participantes del curso.';
+$string['coursesiamtaking'] = 'Cursos que estoy tomando';
+$string['coursesiamteaching'] = 'Cursos que estoy enseñando';
 $string['coursetotal'] = 'Total del curso';
 $string['createcategory'] = 'Crear categoría';
 $string['createcategoryerror'] = 'No se ha podido crear una categoría nueva';
@@ -236,6 +237,8 @@ $string['exportonlyactive_help'] = 'Solo incluye en la exportación aquellos est
 $string['exportplugins'] = 'Conectores de exportación';
 $string['exportsettings'] = 'Exportar ajustes';
 $string['exportto'] = 'Exportar a';
+$string['externalurl'] = 'URL externa';
+$string['externalurl_desc'] = 'Si se utiliza un libro de calificaciones externo, la URL debería indicarse aquí.';
 $string['extracreditvalue'] = 'Valor de crédito extra para {$a}';
 $string['extracreditwarning'] = 'Nota: Si se adscribe un crédito extra a todos los ítems de una categoría, se eliminarán del cálculo de la calificación, por lo que no existirá una puntuación total';
 $string['feedback'] = 'Retroalimentación';
@@ -257,8 +260,7 @@ $string['forceon'] = 'Forzar: Conectar';
 $string['forelementtypes'] = 'para el {$a} seleccionado';
 $string['forstudents'] = 'Para los estudiantes';
 $string['full'] = 'Completo';
-$string['fullmode'] = 'Vista completa';
-$string['fullview'] = 'Vista completa';
+$string['fullmode'] = 'Cambiar a vista completa';
 $string['generalsettings'] = 'Ajustes generales';
 $string['grade'] = 'Calificación';
 $string['gradeadministration'] = 'Administración de calificaciones';
@@ -329,6 +331,7 @@ $string['gradeoutcomeitem'] = 'Ítem de resultado de calificación';
 $string['gradeoutcomes'] = 'Resultados';
 $string['gradeoutcomescourses'] = 'Resultados del curso';
 $string['gradepass'] = 'Calificación para aprobar';
+$string['gradepassgreaterthangrade'] = 'La calificación para pasar no puede ser mayor que la calificación máxima posible {$a}';
 $string['gradepass_help'] = '<p>Si un ítem tiene una calificación que los usuarios deben igualar o superar para aprobar
    un ítem, puede fijarla en este campo.</p>';
 $string['gradepointdefault'] = 'Calificación por defecto';
@@ -346,7 +349,7 @@ $string['gradereport'] = 'Informe de calificaciones';
 $string['graderreport'] = 'Informe del calificador';
 $string['grades'] = 'Calificaciones';
 $string['gradesforuser'] = 'Calificaciones de {$a->user}';
-$string['gradesonly'] = 'Sólo calificaciones';
+$string['gradesonly'] = 'Cambiar a sólo calificaciones';
 $string['gradessettings'] = 'Ajustes';
 $string['gradetype'] = 'Tipo de calificación';
 $string['gradetype_help'] = '<p>Especifica el tipo de calificación usado: <b>Ninguno</b> (no se permite calificar),
@@ -521,6 +524,7 @@ $string['norolesdefined'] = 'No hay roles definidos en Administración > Calific
 $string['noscales'] = 'Los resultados deben estar vinculados a una escala (de curso o global), pero no existe ninguna. ¿Desea agregar una?';
 $string['noselectedcategories'] = 'no se han seleccionado categorías';
 $string['noselecteditems'] = 'no se han seleccionado ítems.';
+$string['notenrolled'] = 'Usted no está matriculado actualmente en ningún curso.';
 $string['notteachererror'] = 'Sólo los profesores pueden usar esta opción.';
 $string['nousersloaded'] = 'No se han subido usuarios';
 $string['numberofgrades'] = 'Número de calificaciones';
@@ -679,6 +683,8 @@ $string['showhiddenitems_help'] = 'Si estan totalmente ocultos los elementos de 
 * Sólo se oculta hasta - Los elementos de calificación con "ocultar hasta" la fecha prevista se ocultan por completo hasta la fecha fijada, después de lo cual todo el elemento se muestra
 * No mostrar - Los elementos de calificación ocultos grado están completamente ocultos';
 $string['showhiddenuntilonly'] = 'Ocultos sólo hasta';
+$string['showingfullmode'] = 'Mostrando vista completa';
+$string['showinggradesonly'] = 'Mostrando solo las calificaciones';
 $string['showlettergrade'] = 'Mostrar calificaciones con letras';
 $string['showlettergrade_help'] = '¿Mostrar la columna de calificaciones con letras?';
 $string['showlocks'] = 'Mostrar bloqueos';

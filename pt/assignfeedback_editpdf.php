@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,9 +42,9 @@ $string['deleteannotation'] = 'Apagar anotação';
 $string['deletecomment'] = 'Apagar comentário';
 $string['deletefeedback'] = 'Apagar o ficheiro PDF de feedback';
 $string['downloadablefilename'] = 'feedback.pdf';
-$string['downloadfeedback'] = 'Fazer o download do ficheiro PDF de feedback';
+$string['downloadfeedback'] = 'Descarregar ficheiro PDF de feedback';
 $string['editpdf'] = 'Anotar PDF';
-$string['editpdf_help'] = 'Anotar as submissões dos alunos diretamente no navegador e produzir um PDF editado para download.';
+$string['editpdf_help'] = 'Anotar as submissões dos alunos diretamente no navegador e produzir um PDF editado descarregável.';
 $string['enabled'] = 'Anotar PDF';
 $string['enabled_help'] = 'Se ativar esta opção, o professor poderá criar ficheiros PDF anotados quando estiver a avaliar os trabalhos. Isto permite ao professor adicionar comentários, desenhos e carimbos diretamente no documento que os alunos submeteram. A anotação é feita no navegador, não sendo necessário nenhum software adicional.';
 $string['errorgenerateimage'] = 'Erro ao gerar imagem com ghostscript, informação de depuração: {$a}';

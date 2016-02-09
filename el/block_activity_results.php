@@ -16,18 +16,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_timezoneimport', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_activity_results', language 'el', branch 'MOODLE_30_STABLE'
  *
- * @package   tool_timezoneimport
+ * @package   block_activity_results
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configintrotimezones'] = '这个页面用于搜索新的关于全世界时区的信息（包括夏时制规则）并更新您的本地数据库。这些位置将会被按此次序逐一检查：{$a}。您要更新您的时区吗？';
-$string['importtimezones'] = '更新全部时区';
-$string['importtimezonescount'] = '从{$a->source}导入了{$a->count}项';
-$string['importtimezonesfailed'] = '没找到数据源！(坏消息)';
-$string['pluginname'] = '时区更新程序';
-$string['updatetimezones'] = '更新时区';
+$string['bestgrade'] = 'Ο μεγαλύτερος βαθμός:';
+$string['bestgrades'] = 'Οι {$a} μεγαλύτεροι βαθμοί:';
+$string['config_format_percentage'] = 'Ποσοστά';
+$string['worstgrade'] = 'Ο χαμηλότερος βαθμός:';
+$string['worstgrades'] = 'Οι {$a} χαμηλότεροι βαθμοί:';

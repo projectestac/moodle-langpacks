@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth_ldap', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -142,6 +142,7 @@ $string['renamingnotallowed'] = 'User renaming not allowed in LDAP';
 $string['rootdseerror'] = 'Error querying rootDSE for Active Directory';
 $string['start_tls'] = 'Use regular LDAP service (port 389) with TLS encryption';
 $string['start_tls_key'] = 'Use TLS';
+$string['synctask'] = 'LDAP users sync job';
 $string['updatepasserror'] = 'Error in user_update_password(). Error code: {$a->errno}; Error string: {$a->errstring}';
 $string['updatepasserrorexpire'] = 'Error in user_update_password() when reading password expiration time. Error code: {$a->errno}; Error string: {$a->errstring}';
 $string['updatepasserrorexpiregrace'] = 'Error in user_update_password() when modifying expirationtime and/or gracelogins. Error code: {$a->errno}; Error string: {$a->errstring}';

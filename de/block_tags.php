@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tags', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_tags', language 'de', branch 'MOODLE_30_STABLE'
  *
  * @package   block_tags
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,6 @@ $string['showcoursetagsdef'] = 'Um Teilnehmer/innen die Nutzung von Schlagwörte
 $string['suggestedtagthisunit'] = 'Vorgeschlagenes Schlagwort für diesen Kurs:';
 $string['tags'] = 'Schlagwörter';
 $string['tags:addinstance'] = 'Schlagwörter-Block hinzufügen';
-$string['tags:myaddinstance'] = 'Block \'Schlagworte\' für \'Meine Startseite\' hinzufügen';
+$string['tags:myaddinstance'] = 'Schlagwörter-Block zum Dashboard hinzufügen';
 $string['tagthisunit'] = 'Diesen Kurs mit Schlagwörtern markieren';
 $string['tagunits'] = ', um Ihre Kurse mit Schlagwörtern markieren.';

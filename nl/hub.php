@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hub', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'hub', language 'nl', branch 'MOODLE_30_STABLE'
  *
  * @package   hub
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,7 +96,7 @@ $string['errorcoursepublish'] = 'Er is een fout opgetreden tijdens het publicere
 $string['errorcoursewronglypublished'] = 'Er is een publicatiefout teruggegeven door de hub. Probeer later opnieuw.';
 $string['errorcron'] = 'Er is een fout opgetreden tijdens de registratie-update op "{$a->hubname}" ({$a->errormessage})';
 $string['errorcronnoxmlrpc'] = 'XML-RPC moet ingeschakeld zijn om de registratie te kunnen updaten.';
-$string['errorhublisting'] = 'Er is een fout opgetreden bij het ophalen van de hublijst van Moodle.org. Probeer later opnieuw. ({$a})';
+$string['errorhublisting'] = 'Er is een fout opgetreden bij het ophalen van de hublijst van Moodle Probeer later opnieuw. ({$a})';
 $string['errorlangnotrecognized'] = 'Deze taalcode kent Moodle niet. Neem contact op met {$a}';
 $string['errorregistration'] = 'Er is een fout opgetreden tijdens de registratie. Probeer later opnieuw. ({$a})';
 $string['errorunpublishcourses'] = 'Door een onverwachte fout kon de cursus niet verwijderd worden van de hub. Probeer later opnieuw (aanbevolen) of neem contact op met de beheerder van de hub.';
@@ -158,13 +158,13 @@ $string['questionsnumber'] = 'Aantal vragen ({$a})';
 $string['readvertiseon'] = 'Pas de advertentie-informatie aan op {$a}';
 $string['registeredcourses'] = 'Geregistreerde cursussen';
 $string['registeredmoodleorg'] = 'Moodle ({$a})';
-$string['registeredon'] = 'Hubs waarbij je geregistreerd bent';
+$string['registeredon'] = 'Waar je site geregistreerd is';
 $string['registeredsites'] = 'Geregistreerde sites';
-$string['registermoochtips'] = 'Om geregistreerd te kunnen worden bij Moodle.net, moet je site geregistreerd zijn bij Moodle.org.';
+$string['registermoochtips'] = 'Registreer je site bij Moodle om beveiligingswaarschuwingen te krijgen en om toegang te krijgen tot Moodle.net, ons platform om cursussen te delen.';
 $string['registersite'] = 'Registreer bij {$a}';
 $string['registerwith'] = 'Registreer bij een hub';
 $string['registrationconfirmed'] = 'Site-registratie bevestigd';
-$string['registrationconfirmedon'] = 'Je bent nu geregistreerd bij de hub {$a}. Je kunt nu cursussen publiceren op deze hub door gebruik te maken van de "Publiceer"-link in de cursus beheer menu\'s.';
+$string['registrationconfirmedon'] = 'Bedankt voor het registreren van je site. De registratie-informatie zal up-to-date gehouden worden door de geplande taak "site-registratie".';
 $string['registrationinfo'] = 'Registratie-informatie';
 $string['registrationupdated'] = 'Registratie is aangepast';
 $string['registrationupdatedfailed'] = 'Registratie-aanpassing mislukt';
@@ -264,4 +264,4 @@ $string['wrongtoken'] = 'De registratie is mislukt om een onbekende reden (netwe
 $string['wrongurlformat'] = 'Slecht URL formaat';
 $string['xmlrpcdisabledcommunity'] = 'De XML-RPC-extentie is niet ingeschakeld op de server. Je kunt geen cursussen zoeken en downloaden.';
 $string['xmlrpcdisabledpublish'] = 'De XML-RPC-extentie is niet ingeschakeld op de server. Je kunt geen cursussen publiceren of gepubliceerde cursussen beheren.';
-$string['xmlrpcdisabledregistration'] = 'De XML-RPC-extentie is niet ingeschakeld op de server. Je zult je registratie niet ongedaan kunnen maken of aanpassen zolang je dit niet inschakeld.';
+$string['xmlrpcdisabledregistration'] = 'xmlrpcdisabledregistrationDe XML-RPC-extentie is niet ingeschakeld op de server. Je zult je registratie niet ongedaan kunnen maken of aanpassen zolang je dit niet inschakelt.';

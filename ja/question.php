@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'question', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -193,7 +193,6 @@ $string['generalfeedback_help'] = '全般に対するフィードバックは問
 あなたは学生に工夫を凝らした回答を与える場として全般的なフィードバックを使用することができます。学生が問題を理解できない場合、さらなる情報のリンクを与えて利用できるようにすることもできます。';
 $string['getcategoryfromfile'] = 'ファイルからカテゴリを取得する';
 $string['getcontextfromfile'] = 'ファイルからコンテクストを取得する';
-$string['hidden'] = '非表示';
 $string['hintn'] = 'ヒント {no}';
 $string['hintnoptions'] = 'ヒント {no} オプション';
 $string['hinttext'] = 'ヒントテキスト';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tags', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_tags', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   block_tags
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,6 @@ $string['showcoursetagsdef'] = 'タグブロック内にコースタグ機能を
 $string['suggestedtagthisunit'] = 'このコースの推奨タグ:';
 $string['tags'] = 'タグ';
 $string['tags:addinstance'] = '新しいタグブロックを追加する';
-$string['tags:myaddinstance'] = '新しいタグブロックをマイホームに追加する';
+$string['tags:myaddinstance'] = '新しいタグブロックをダッシュボードに追加する';
 $string['tagthisunit'] = 'このコースにタグ付けする:';
 $string['tagunits'] = 'してください。';

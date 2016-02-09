@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'admin', language 'el', branch 'MOODLE_28_STABLE'
+ * Strings for component 'admin', language 'el', branch 'MOODLE_30_STABLE'
  *
  * @package   admin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,6 +50,7 @@ $string['allowcoursethemes'] = 'Να επιτρέπονται ξεχωριστά
 $string['allowediplist'] = 'Λίστα επιτρεπτών IP';
 $string['allowemailaddresses'] = 'Επιτρεπόμενα domain για ηλεκτρονικό ταχυδρομείο';
 $string['allowframembedding'] = 'Επέτρεψε την ενσωμάτωση πλαισίου (frame)';
+$string['allowguestmymoodle'] = 'Επιτρέψτε στους επισκέπτες να έχουν πρόσβαση στον τοίχο (Dashboard)';
 $string['allowobjectembed'] = 'Να επιτρέπονται οι ετικέτες EMBED και OBJECT';
 $string['allowthemechangeonurl'] = 'Επιτρέψτε αλλαγή θεμάτων στο URL';
 $string['allowuserblockhiding'] = 'Να μπορούν οι χρήστες να αποκρύπτουν μπλοκ';
@@ -121,17 +122,19 @@ $string['cliupgradefinished'] = 'Η αναβάθμιση της γραμμής �
 $string['cliupgradenoneed'] = 'Δεν χρειάζεται αναβάθμιση για την εγκατεστημένη έκδοση {$a}. Ευχαριστούμε που ήρθατε ούτως ή άλλως!';
 $string['cliyesnoprompt'] = 'πατώντας ν (σημαίνει ναι) αλλιώς πατώντας ο (σημαίνει όχι)';
 $string['commentsperpage'] = 'Εμφανιζόμενα σχόλια ανά σελίδα';
+$string['commonactivitysettings'] = 'Κοινές ρυθμίσεις';
 $string['commonfiltersettings'] = 'Κοινές ρυθμίσεις φίλτρων';
 $string['commonsettings'] = 'Κοινές ρυθμίσεις';
-$string['componentinstalled'] = 'Το συστατικό εγκαταστάθηκε';
+$string['componentinstalled'] = 'Το υλικό εγκαταστάθηκε';
 $string['computedfromlogs'] = 'Υπολογισμός βάσει των logs από {$a}.';
-$string['condifmodeditdefaults'] = 'Οι τιμές που ορίσατε εδώ καθορίζουν τις προεπιλεγμένες τιμές που χρησιμοποιούνται στις ρυθμίσεις δραστηριότητας όταν δημιουργείτε μια νέα δραστηριότητα. Μπορείτε επίσης να προσδιορίσετε ποιες ρυθμίσεις δραστηριότητας θεωρούνται προχωρημένες.';
+$string['condifmodeditdefaults'] = 'Οι προκαθορισμένες τιμές χρησιμοποιούνται στη φόρμα ρυθμίσεων όταν δημιουργείται μια νέα δραστηριότητα ή πηγή.';
 $string['confeditorhidebuttons'] = 'Επιλέξτε τα εικονίδια που θέλετε να αποκρύψετε από τη γραμμή εργαλείων του επεξεργαστή κειμένου';
 $string['configallcountrycodes'] = 'Αυτή είναι η λίστα χωρών που μπορούν να επιλεγούν σε διάφορα σημεία, για παράδειγμα στο προφίλ του χρήστη. Αν είναι κενό (η προεπιλογή) χρησιμοποιείται ο κατάλογος του countries.php στο τυπικό πακέτο Αγγλικής γλώσσας. Αυτός είναι ο κατάλογος από το πρότυπο ISO 3166-1. Διαφορετικά, μπορείτε να ορίσετε μια λίστα κωδικών χωρισμένων με κόμμα, για παράδειγμα "GB,FR,ES". Αν προσθέσετε νέους, μη τυποποιημένους κωδικούς εδώ, θα πρέπει να τους προσθέσετε στο countries.php σε "en" και στο γλωσσικό σας πακέτο.';
 $string['configallowassign'] = 'Να επιτρέπεται χρήστες με ρόλους στην αριστερή στήλη να αναθέτουν ρόλους σε κάθε στήλη';
 $string['configallowcategorythemes'] = 'Εάν ενεργοποιήσετε αυτήν την επιλογή τότε τα θέματα θα μπορούν να ορίζονται στο επίπεδο κατηγοριών. Αυτό θα επηρεάσει όλες τις υποκατηγορίες και μαθήματα εκτός εάν έχει οριστεί συγκεκριμένο θέμα για αυτά. WARNING: Enabling category themes may affect performance.';
 $string['configallowcoursethemes'] = 'Να επιτρέπονται ξεχωριστά θέματα για κάθε μάθημα. Το θέμα μαθήματος υπερισχύει των άλλων θεμάτων (ηλ. τάξης, χρήστη κτλ).';
 $string['configallowemailaddresses'] = 'Εάν θέλετε να περιορίσετε όλες τις καινούργιες διευθύνσεις email σε συγκεκριμένα domain, εισαγάγετέ τα εδώ χωρισμένα με κενά, π.χ. <strong>ourcollege.edu.au .gov.au</strong>. Όλα τα άλλα domain δεν θα γίνονται δεκτά.';
+$string['configallowguestmymoodle'] = 'Εαν ενεργοποιηθεί οι επισκέπτες μπορούν να έχουν πρόσβαση στο τοίχο, αλλιώς οι επισκέπτες θα μεταφέρονται στη αρχική σελίδα της ιστοσελίδας.';
 $string['configallowobjectembed'] = 'Ως προεπιλεγμένο μέτρο ασφαλείας, δεν επιτρέπεται στους κανονικούς χρήστες να ενσωματώσουν πολυμεσικά στοιχεία (όπως flash) μέσα στο κείμενο, χρησιμοποιώντας τις ετικέτες EMBED και OBJECT στην HMTL τους (αν και αυτό μπορεί να γίνει με ασφάλεια χρησιμοποιώντας το φίλτρο των mediaplugins). Αν θέλετε να επιτρέψετε αυτές τις ετικέτες ενεργοποιήστε αυτήν την επιλογή.';
 $string['configallowoverride'] = 'Να επιτρέπεται σε χρήστες με ρόλο στην αριστερή στήλη παρακάμπτουν ρόλους σε κάθε στήλη';
 $string['configallowoverride2'] = 'Επιλέξτε ποιοι ρόλοι μπορούν να παρακαμφθούν από κάθε ρόλο στην αριστερή στήλη.<br />Έχετε υπόψιν πως οι ρυθμίσεις αυτές ισχύουν μόνο για χρήστες που είτε έχουν τη δυνατότητα moodle/role:override ή τη δυνατότητα moodle/role:safeoverride ενεργοποιημένη.';
@@ -272,7 +275,6 @@ $string['configrequestedstudentname'] = 'Λέξη για το σπουδαστή
 $string['configrequestedstudentsname'] = 'Λέξη για τους σπουδαστές που χρησιμοποιείται στα μαθήματα';
 $string['configrequestedteachername'] = 'Λέξη για τον καθηγητή που χρησιμοποιείται στα μαθήματα';
 $string['configrequestedteachersname'] = 'Λέξη για τους καθηγητές που χρησιμοποιείται στα μαθήματα';
-$string['configrequiremodintro'] = 'Απενεργοποιήστε αυτή την επιλογή αν δεν θέλετε να υποχρεώσετε τους χρήστες να εισάγουν περιγραφή για κάθε δραστηριότητα.';
 $string['configrunclamavonupload'] = 'Όταν ενεργοποιηθεί, το clamAV χρησιμοποιείται για να σκανάρει όλα τα ανεβασμένα αρχεία.';
 $string['configrunclamonupload'] = 'Να εκτελείται το clamAV κατά το ανέβασμα αρχείων; Απαιτείται σωστή διαδρομή στο pathtoclam για να λειτουργήσει. (Το clamAV είναι ένα δωρεάν λογισμικό προστασίας από ιούς διαθέσιμο από: http://www.clamav.net/)';
 $string['configsectioninterface'] = 'Διεπαφή';
@@ -588,7 +590,6 @@ $string['pgcluster'] = 'Συστάδα PostgreSQL';
 $string['pgclusterdescription'] = 'Παράμετρος PostgreSQL έκδοσης/συστάδας για λειτουργίες από γραμμή εντολών. Εάν έχετε μόνο ένα postgresql στο σύστημά σας ή δεν ξέρετε τι είναι αυτό, αφήστε το κενό.';
 $string['phpfloatproblem'] = 'Εντοπισμός απροσδόκητου προβλήματος κατά τη διαχείριση PHP float αριθμών - {$a}';
 $string['pleaserefreshregistration'] = 'Ο ιστοχώρος σας έχει καταγραφεί με το moodle.org, παρακαλώ εξετάστε τη δυνατότητα ανανέωσης της καταγραφής εάν έχουν συμβεί σημαντικές αλλαγέ από την τελευταία ενημέρωση στις {$a}';
-$string['pleaseregister'] = 'Παρακαλώ εγγράψετε την σελίδα σας για να αφαιρεθεί αυτό το κουμπί';
 $string['plugin'] = 'Πρόσθετη λειτουργία';
 $string['plugins'] = 'Αρθρώματα';
 $string['pluginsoverview'] = 'Επισκόπηση πρόσθετων';

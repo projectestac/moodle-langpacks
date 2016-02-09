@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_installaddon', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'tool_installaddon', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   tool_installaddon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,12 +33,3 @@ $string['installfromziprootdir'] = '重命名根目录';
 $string['permcheckprogress'] = '检查写入权限...';
 $string['permcheckresultno'] = '插件类型目录<em>{$a->path}</em>不可写';
 $string['permcheckresultyes'] = '插件类型目录 <em>{$a->path}</em>可写';
-$string['validationmsg_componentmatch'] = '完整的组件名称';
-$string['validationmsg_componentmismatchname'] = '插件名不符合';
-$string['validationmsg_componentmismatchtype'] = '插件类型不符合';
-$string['validationmsglevel_debug'] = '调试';
-$string['validationmsglevel_warning'] = '警告';
-$string['validationmsg_missinglangenfile'] = '没有找到英语语言文件';
-$string['validationmsg_missingversionphp'] = '没有找到 version.php 文件';
-$string['validationmsg_onedir'] = 'ZIP 压缩包文件结构不正确。';
-$string['validationresult0'] = '校验失败！';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'repository', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -63,10 +63,10 @@ $string['close'] = 'Fechar';
 $string['commonrepositorysettings'] = 'Configurações comuns dos repositórios';
 $string['configallowexternallinks'] = 'A ativação desta opção permite que todos os utilizadores definam se os conteúdos multimédia externos devem ou não ser copiados para o Moodle. Se esta opção não estiver ativa, então os conteúdos são sempre copiados para o Moodle (esta é a opção recomendada por questões de segurança e integridade dos dados). Se a opção estiver ativa, então os utilizadores podem definir se há lugar a cópia ou não, sempre que adicionarem novos conteúdos.';
 $string['configcacheexpire'] = 'Intervalo de tempo (em segundos) durante o qual as listas de ficheiros serão mantidas localmente em cache quando se acede a repositórios externos ao Moodle.';
-$string['configgetfiletimeout'] = 'Tempo limite em segundos para fazer o download de um ficheiro externo para o Moodle.';
+$string['configgetfiletimeout'] = 'Tempo limite em segundos para descarregar um ficheiro externo para o Moodle.';
 $string['configsaved'] = 'Configuração gravada!';
 $string['configsyncfiletimeout'] = 'Tempo limite em segundos para sincronizar o tamanho do ficheiro externo.';
-$string['configsyncimagetimeout'] = 'Tempo limite em segundos para fazer o download de um ficheiro de imagem a partir de um repositório externo durante a sincronização';
+$string['configsyncimagetimeout'] = 'Tempo limite em segundos para descarregar um ficheiro de imagem a partir de um repositório externo durante a sincronização';
 $string['confirmdelete'] = 'Tem a certeza de que quer apagar o repositório "{$a}"? Se escolher a opção "Continuar e transferir", referências a ficheiros com conteúdo externo serão transferidas para o Moodle. Esta opção poderá demorar bastante tempo a processar.';
 $string['confirmdeletefile'] = 'Tem a certeza de que quer apagar este ficheiro?';
 $string['confirmdeletefilewithhref'] = 'Tem a certeza que deseja apagar este ficheiro? Existem {$a} ligações que usam este ficheiro como origem. Se continuar as ligações serão convertidas em cópias.';
@@ -117,7 +117,7 @@ $string['errornotyourfile'] = 'Não pode selecionar um ficheiro que não foi cri
 $string['errorpostmaxsize'] = 'O ficheiro carregado poderá exceder a diretiva post_max_size em php.ini.';
 $string['erroruniquename'] = 'O nome da instância de repositório deve ser único';
 $string['errorwhilecommunicatingwith'] = 'Ocorreu um erro durante a comunicação com o repositório \'{$a}\'.';
-$string['errorwhiledownload'] = 'Ocorreu um erro ao fazer o download do ficheiro: {$a}';
+$string['errorwhiledownload'] = 'Ocorreu um erro ao descarregar o ficheiro: {$a}';
 $string['existingrepository'] = 'Este repositório já existe';
 $string['federatedsearch'] = 'Pesquisa federada';
 $string['fileexists'] = 'O nome do ficheiro já se encontra em uso, por favor selecione um nome diferente.';
@@ -135,7 +135,6 @@ $string['folderrecurse'] = 'A pasta não pode ser movida para a sua própria sub
 $string['getfile'] = 'Escolher este ficheiro';
 $string['getfiletimeout'] = 'Obter tempo limite do ficheiro';
 $string['help'] = 'Ajuda';
-$string['hidden'] = 'Oculto(a)';
 $string['iconview'] = 'Ver na forma de ícones';
 $string['imagesize'] = '{$a->width} x {$a->height} px';
 $string['instance'] = 'instância';
@@ -163,6 +162,7 @@ $string['makefileinternal'] = 'Criar uma cópia do ficheiro';
 $string['makefilelink'] = 'Ligar diretamente ao ficheiro';
 $string['makefilereference'] = 'Criar um atalho para o ficheiro';
 $string['manage'] = 'Gerir repositórios';
+$string['manageinstances'] = 'Gerir instâncias';
 $string['manageurl'] = 'Gerir';
 $string['manageuserrepository'] = 'Gerir repositório individual';
 $string['moving'] = 'A mover';
@@ -193,7 +193,7 @@ $string['pluginerror'] = 'Erros no módulo de repositório.';
 $string['pluginname'] = 'Nome do módulo de repositório';
 $string['pluginnamehelp'] = 'Se deixar este campo vazio, então será utilizado o nome predefinido.';
 $string['popup'] = 'Clique no botão "Entrar" para iniciar sessão';
-$string['popupblockeddownload'] = 'A janela de download está bloqueada. Desbloqueie as janelas de pop-up no browser e tente novamente.';
+$string['popupblockeddownload'] = 'A janela para descarregar está bloqueada. Desbloqueie as janelas de pop-up no navegador e tente novamente.';
 $string['preview'] = 'Pré-visualização';
 $string['privatefilesof'] = '{$a} Ficheiros privados';
 $string['readonlyinstance'] = 'Não é possível alterar/apagar instâncias só de leitura';

@@ -16,18 +16,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_timezoneimport', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'ltiservice_memberships', language 'fr', branch 'MOODLE_30_STABLE'
  *
- * @package   tool_timezoneimport
+ * @package   ltiservice_memberships
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configintrotimezones'] = 'ここでは世界のタイムゾーン情報 (夏時間ルールを含む) を検索して、あなたのローカルデータベースを更新します。次のロケーションが順番にチェックされます: {$a} タイムゾーン情報を更新してもよろしいですか?';
-$string['importtimezones'] = 'タイムゾーンリストの更新';
-$string['importtimezonescount'] = '{$a->source} より {$a->count} 件のエントリがインポートされました。';
-$string['importtimezonesfailed'] = 'ソースが見つかりませんでした! (悪いお知らせです)';
-$string['pluginname'] = 'タイムゾーンアップデータ';
-$string['updatetimezones'] = 'タイムゾーンを更新する';
+$string['pluginname'] = 'Affiliations au service LTI';
+$string['servicename'] = 'Affiliations';

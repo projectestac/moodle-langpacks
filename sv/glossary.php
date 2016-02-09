@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'glossary', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,15 +32,15 @@ $string['alias'] = 'Nyckelord';
 $string['aliases'] = 'Synonymer';
 $string['aliases_help'] = '<p>Varje bidrag kan ha vara kopplat till en lista med synomymer (eller alias).</p>
 
-<p><b>Skriv in varje synonym (alias) p&aring; en ny rad</b> (inte separerad med komman).</p>
+<p><b>Skriv in varje synonym (alias) på en ny rad</b> (inte separerad med komman).</p>
 
-<p>De ord som anv&auml;nds synonymt (alias) kan anv&auml;ndas som alternativa s&auml;tt att referera till
+<p>De ord som används synonymt (alias) kan användas som alternativa sätt att referera till
 bidraget.
-   Till exempel, om Du anv&auml;nder filtret f&ouml;r automatisk l&auml;nkning av bidrag s&aring; kommer synonymerna att anv&auml;ndas (liksom bidragets egentliga ledord) n&auml;r det g&ouml;rs ett val att ord ska l&auml;nka till detta bidrag.</p>';
+   Till exempel, om du använder filtret för automatisk länkning av bidrag så kommer synonymerna att användas (liksom bidragets egentliga ledord) när det görs ett val att ord ska länka till detta bidrag.</p>';
 $string['allcategories'] = 'Alla kategorier';
 $string['allentries'] = 'ALLA';
 $string['allowcomments'] = 'Tillåt kommentarer till bidrag';
-$string['allowcomments_help'] = '<p>Du kan ange om det ska vara till&aring;tet eller inte att kommentera
+$string['allowcomments_help'] = '<p>Du kan ange om det ska vara tillåtet eller inte att kommentera
 bidrag till ord- och begreppslistan.</p>
 <p>Du kan välja om den egenskapen ska vara aktiverad eller inte.</p>
 <p>Distanslärare kan alltid lägga till kommentarer till bidrag till ord- och begreppslistor.</p>';
@@ -58,25 +58,20 @@ $string['answer'] = 'Svar';
 $string['approve'] = 'Godkänn';
 $string['areaattachment'] = 'Bilagor';
 $string['areaentry'] = 'Definitioner';
-$string['areyousuredelete'] = 'Är Du säker på att Du vill ta bort det här bidraget?';
-$string['areyousuredeletecomment'] = 'Är Du säker på att Du vill ta bort den här  kommentaren?';
-$string['areyousureexport'] = 'Är Du säker på att Du vill exportera det här bidraget till';
+$string['areyousuredelete'] = 'Är du säker på att du vill ta bort det här bidraget?';
+$string['areyousuredeletecomment'] = 'Är du säker på att du vill ta bort den här  kommentaren?';
+$string['areyousureexport'] = 'Är du säker på att du vill exportera det här bidraget till';
 $string['ascending'] = '(stigande)';
 $string['attachment'] = 'Bifogad fil';
-$string['attachment_help'] = '<p>Som alternativ kan Du bifoga EN fil fr&aring;n Din dator
+$string['attachment_help'] = '<p>Som alternativ kan du bifoga EN fil från din dator
 till varje enskilt bidrag i en ord- och begreppslista.
 Denna fil laddas upp till servern och lagras tillsammans
-med Ditt bidrag</p>
-<p>Detta &auml;r anv&auml;ndbart n&auml;r Du vill visa en bild eller ett Word-dokument t.ex.</p>
-<p>Denna fil kan vara i valfritt format men rekommendationen &auml;r &auml;nd&aring;
-att filen har ett namn med ett filtill&auml;gg p&aring; 3 tecken enligt standarden
-f&ouml;r Internet som t.ex. .doc, .jpg osv.
-Detta underl&auml;ttar f&ouml;r dem som vill ladda ner och se Dina bilagor i sina
-webbl&auml;sare.</p>
-<p>Om Du redigerar om ett bidrag och bifogar en ny fil s&aring; kommer de tidigare
-bilagorna till bidraget att ers&auml;ttas med de nya.</p>
-<p>Om Du redigerar om ett bidrag med en bilaga och l&auml;mnar detta utrymme
-tomt s&aring; kommer den ursprungliga bilagan att bli kvar.</p>';
+med ditt bidrag</p>
+<p>Detta är användbart när du vill visa en bild eller ett Word-dokument t.ex.</p>
+<p>Denna fil kan vara i valfritt format men rekommendationen är ändå att filen har ett namn med ett filtillägg på 3 tecken enligt standarden för Internet som t.ex. .doc, .jpg osv.
+Detta underlättar för dem som vill ladda ner och se dina bilagor i sina webbläsare.</p>
+<p>Om du redigerar om ett bidrag och bifogar en ny fil så kommer de tidigare bilagorna till bidraget att ersättas med de nya.</p>
+<p>Om du redigerar om ett bidrag med en bilaga och lämnar detta utrymme tomt så kommer den ursprungliga bilagan att bli kvar.</p>';
 $string['author'] = 'författare';
 $string['authorview'] = 'Sök på författare';
 $string['back'] = 'Tillbaka';
@@ -140,12 +135,12 @@ $string['deletingcomment'] = 'Tar bort kommentar';
 $string['deletingnoneemptycategory'] = 'Om Du tar bort den här kaegorin så bidragen i den inte att tas bort - istället kommer de att markeras som inte-kategoriserade.';
 $string['descending'] = '(fallande)';
 $string['destination'] = 'Mål för importerade bidrag';
-$string['destination_help'] = '<p>Du kan ange vart Du vill importera ett bidrag:</p>
+$string['destination_help'] = '<p>Du kan ange vart du vill importera ett bidrag:</p>
 <ul>
-<li><strong>Den aktuella ord- och begreppslistan:</strong> Detta kommer att l&auml;gga till de importerade bidragen till
-den f&ouml;r tillf&auml;llet &ouml;ppna ord- och begreppslistan.</li>
+<li><strong>Den aktuella ord- och begreppslistan:</strong> Detta kommer att lägga till de importerade bidragen till
+den för tillfället öppna ord- och begreppslistan.</li>
 <li><strong>Ny ord- och begreppslista:</strong> Detta kommer att skapa en ord- och begreppslista
-som baseras p&aring; den information som som finns i den markerade importfilen och de nya bidragen kommer att infogas i den.</li>
+som baseras på den information som som finns i den markerade importfilen och de nya bidragen kommer att infogas i den.</li>
 </ul>';
 $string['displayformat'] = 'Format för visning';
 $string['displayformatcontinuous'] = 'Fortlöpande men utan författare';
@@ -155,23 +150,17 @@ $string['displayformatentrylist'] = 'Lista över bidrag';
 $string['displayformatfaq'] = 'FAQ';
 $string['displayformatfullwithauthor'] = 'Komplett med författare';
 $string['displayformatfullwithoutauthor'] = 'Komplett utan författare';
-$string['displayformat_help'] = '<p>Systemet har tre inbyggda format f&ouml;r att visa bidrag.
-Du kan skapa Ditt eget format om Du vill.</p>
-<p>Standardinst&auml;llningen inneb&auml;r en ganska enkel
+$string['displayformat_help'] = '<p>Systemet har tre inbyggda format för att visa bidrag.
+Du kan skapa ditt eget format om du vill.</p>
+<p>Standardinställningen innebär en ganska enkel
 form av presentation. Det ser ut som en vanlig ordlista (ordboksartikel).</p>
-<p>Det andra visningsformatet visar bidraget i ett forumliknande format,
-utan data om f&ouml;rfattaren.</p>
-<p>Och det tredje visar ocks&aring; bidraget i i ett forumliknande format,
-men med data om f&ouml;rfattaren.</p>
+<p>Det andra visningsformatet visar bidraget i ett forumliknande format, utan data om författaren.</p>
+<p>Och det tredje visar också bidraget i i ett forumliknande format, men med data om författaren.</p>
 <hr />
-<p>Om Du vill skapa Ditt eget format s&aring; ska Du skapa en .php-fil
-och ge den ett nummer som namn. Titta efter i mod/glossary/format f&ouml;r att
-f&aring; veta vilket det n&auml;sta numret b&ouml;r vara.</p>
-<p>Skapa sedan en funktion som Du kallar
-<b>glossary_print_entry_by_format($course, $cm, $glossary,
- $entry)</b> och fyll p&aring; med all Din kreativitet.</p>
-<p>Det sista steget &auml;r att l&auml;gga in ett bidrag till varje spr&aring;kpaket
-som Du anv&auml;nder. Det kallar Du <b>displayformat[number]</b>,
+<p>Om du vill skapa ditt eget format så ska du skapa en .php-fil och ge den ett nummer som namn. Titta efter i mod/glossary/format för att få veta vilket det nästa numret bör vara.</p>
+<p>Skapa sedan en funktion som du kallar <b>glossary_print_entry_by_format($course, $cm, $glossary,
+ $entry)</b> och fyll på med all din kreativitet.</p>
+<p>Det sista steget är att lägga in ett bidrag till varje språkpaket som du använder. Det kallar du <b>displayformat[number]</b>,
 och ger det en meningsfull beskrivning.</p>';
 $string['displayformats'] = 'Format för visning';
 $string['displayformatssetup'] = 'Visa hur formaten har skapats';
@@ -213,9 +202,9 @@ $string['erredittimeexpired'] = 'Tiden för att redigera det här bidraget har g
 $string['errorparsingxml'] = 'Det uppstod fel när filen skulle parsas. Säkerställ att det är en giltig syntax för XML.';
 $string['explainaddentry'] = 'Lägg till ett nytt bidrag till den aktuella ord- och begreppslistan.<br />\'Begrepp\' och \'definition\' är obligatoriska fält.';
 $string['explainall'] = '<b>ALLA</b> kommer att visa alla bidrag på en sida';
-$string['explainalphabet'] = 'Välj den sida Du vill söka efter<p>';
-$string['explainexport'] = 'En fil har skapats.<br />Ladda ned den och spara den på ett säkert ställe. Du kan importera den när helst Du vill, i den här kursen eller i någon annan.';
-$string['explainimport'] = 'Du måste ange vilken fil som ska importeras och villkoren för processen.<p>Skicka in Din förfrågan och titta på resultaten igen.</p>';
+$string['explainalphabet'] = 'Välj den sida du vill söka efter<p>';
+$string['explainexport'] = 'En fil har skapats.<br />Ladda ned den och spara den på ett säkert ställe. Du kan importera den när helst du vill, i den här kursen eller i någon annan.';
+$string['explainimport'] = 'Du måste ange vilken fil som ska importeras och villkoren för processen.<p>Skicka in din förfrågan och titta på resultaten igen.</p>';
 $string['explainspecial'] = 'Visa alla begrepp som inte börjar med en bokstav';
 $string['exportedentry'] = 'Exporterat bidrag';
 $string['exportentries'] = 'Exportera bidrag';
@@ -224,17 +213,17 @@ $string['exportfile'] = 'Exportera bidrag till fil';
 $string['exportglossary'] = 'Exportera ord- och begreppslista';
 $string['exporttomainglossary'] = 'Exportera till den övergripande (förklarande) ord- och begreppslistan';
 $string['filetoimport'] = 'Fil att importera';
-$string['filetoimport_help'] = '<p>Markera den XML-fil p&aring; Din dator som inneh&aring;ller de bidrag som Du vill importera.</p>';
+$string['filetoimport_help'] = '<p>Markera den XML-fil på din dator som innehåller de bidrag som du vill importera.</p>';
 $string['fillfields'] = '\'Begrepp\' och definition\' är obligatoriska fält';
 $string['filtername'] = 'Länka ord- och begreppslista automatiskt';
 $string['fullmatch'] = 'Matcha hela ord bara<br /><small>när de är automatiskt länkade</small>';
-$string['fullmatch_help'] = '<p>Om Du anger att ett bidrag kan l&auml;nkas automatiskt
-fr&aring;n andra resurser, s&aring; kommer bara de ord som
-matchar detta bidrag fullst&auml;ndigt att l&auml;nkas.
-Om Du st&auml;ller in det h&auml;r alternativet allts&aring;.</p>
-<p>L&auml;gg  m&auml;rke till att det h&auml;r alternativet inte
-kr&auml;ver att bokst&auml;verna har samma storlek. Anv&auml;nd
-ist&auml;llet alternativet \'Skiftl&auml;gesk&auml;nslig\' f&ouml;r det.</p>';
+$string['fullmatch_help'] = '<p>Om du anger att ett bidrag kan länkas automatiskt
+från andra resurser, så kommer bara de ord som
+matchar detta bidrag fullständigt att länkas.
+Om du ställer in det här alternativet alltså.</p>
+<p>Lägg  märke till att det här alternativet inte
+kräver att bokstäverna har samma storlek. Använd
+istället alternativet \'Skiftlägeskänslig\' för det.</p>';
 $string['glossary:approve'] = 'Godkänn icke-godkända bidrag';
 $string['glossary:comment'] = 'Skapa kommentarer';
 $string['glossary:export'] = 'Exportera bidrag';
@@ -247,20 +236,18 @@ $string['glossary:managecomments'] = 'Administrera kommentarer';
 $string['glossary:manageentries'] = 'Administrera bidrag';
 $string['glossary:rate'] = 'Bedöm/värdera inlägg';
 $string['glossarytype'] = 'Typ av ord- och begreppslista';
-$string['glossarytype_help'] = '<p>Systemet till&aring;ter att bidrag exporteras till den &ouml;vergripande
-ord- och begreppslistan f&ouml;r kursen
-fr&aring;n vilken sekund&auml;r ord- och begreppslista som helst.</p>
-<p>F&ouml;r att g&ouml;ra detta b&ouml;r Du ange vilken ord- och begreppslista det &auml;r
-som &auml;r den &ouml;vergripande.</p>
-<p>OBS! Du kan bara ha en &ouml;vergripande ord- och begreppslista per kurs.</p>
+$string['glossarytype_help'] = '<p>Systemet tillåter att bidrag exporteras till den övergripande ord- och begreppslistan för kursen
+från vilken sekundär ord- och begreppslista som helst.</p>
+<p>För att göra detta bör du ange vilken ord- och begreppslista det är som är den övergripande.</p>
+<p>OBS! Du kan bara ha en övergripande ord- och begreppslista per kurs.</p>
 
-<p>Före Moodle 1.7, kunde bara (distans)lärare redigera den &ouml;vergripande ord- och begreppslistan f&ouml;r kursen. I Moodle
+<p>Före Moodle 1.7, kunde bara (distans)lärare redigera den övergripande ord- och begreppslistan för kursen. I Moodle
 1.7 och senare, kan du påverka detta med hjälp av att tilldela användare roller med utökade
 rättigheter.</p>';
 $string['glossary:view'] = 'Visa ord-och begreppslista';
 $string['glossary:viewallratings'] = 'Visa alla betyg/omdömen som har avgivits av individer';
 $string['glossary:viewanyrating'] = 'Visa alla betyg/omdömen som någon har fått.';
-$string['glossary:viewrating'] = 'Visa de sammanlagda bedömningar/värderingar som Du har fått';
+$string['glossary:viewrating'] = 'Visa de sammanlagda bedömningar/värderingar som du har fått';
 $string['glossary:write'] = 'Skapa nya bidrag';
 $string['guestnoedit'] = 'Gäster har inte tillstånd att redigera ord- coh begreppslistor';
 $string['importcategories'] = 'Importera kategorier';
@@ -270,15 +257,10 @@ $string['importentries'] = 'Importera bidrag';
 $string['importentriesfromxml'] = 'Importera bidrag från XML-fil';
 $string['includegroupbreaks'] = 'Ta med gruppbrytningar';
 $string['isglobal'] = 'Är det här en global ord- och begreppslista?';
-$string['isglobal_help'] = '<p>Systemet med ord- och begreppslistor l&aring;ter Dig definiera
-begrepp som skulle kunna vara tillg&auml;ngliga p&aring; hela
-webbsajten. De beskrivs som globala.</p>
-<p>Du beh&ouml;ver allts&aring; ange vilken ord- och begreppslista som ska
-vara global.</p>
-<p>Du kan ha s&aring; m&aring;nga globala ord- och begreppslistor Du vill, och
-de kan h&ouml;ra till vilken kurs som helst. Alla &ouml;vriga regler &auml;r
-giltiga &auml;ven f&ouml;r den h&auml;r typen.</p>
-<p>L&auml;gg m&auml;rke till att endast administrat&ouml;rer kan
+$string['isglobal_help'] = '<p>Systemet med ord- och begreppslistor låter dig definiera begrepp som skulle kunna vara tillgängliga på hela webbsajten. De beskrivs som globala.</p>
+<p>Du behöver alltså ange vilken ord- och begreppslista som ska vara global.</p>
+<p>Du kan ha så många globala ord- och begreppslistor du vill, och de kan höra till vilken kurs som helst. Alla övriga regler är giltiga även för den här typen.</p>
+<p>Lägg märke till att endast administratörer kan
 skapa globala ord- och begreppslistor.</p>';
 $string['letter'] = 'bokstav';
 $string['linkcategory'] = 'Länka den här kategorin automatiskt';
@@ -302,7 +284,7 @@ $string['noentries'] = 'Hittade inga bidrag i den här sektionen';
 $string['noentry'] = 'Hittade inget bidrag';
 $string['nopermissiontodelcomment'] = 'Du kan inte ta bort andra användares kommentarer!';
 $string['nopermissiontodelinglossary'] = 'Du kan inte lämna kommentarer i den här ord- och bergreppslistan!';
-$string['nopermissiontoviewresult'] = 'Du kan bara söka resultat i Dina egna bidrag';
+$string['nopermissiontoviewresult'] = 'Du kan bara söka resultat i dina egna bidrag';
 $string['notapproved'] = 'Det här bidraget till ord/begreppslistan har ännu inte godkänts.';
 $string['notcategorised'] = 'Inte indelad i kategori';
 $string['numberofentries'] = 'Antal bidrag';
@@ -407,4 +389,4 @@ $string['warningstudentcapost'] = '(Gäller bara om det inte handlar om den öve
 $string['withauthor'] = 'Begrepp med författare';
 $string['withoutauthor'] = 'Begrepp utan författare';
 $string['writtenby'] = 'Av';
-$string['youarenottheauthor'] = 'Det är inte Du som har författat den här kommentaren och därför får Du inte redigera den.';
+$string['youarenottheauthor'] = 'Det är inte du som har författat den här kommentaren och därför får du inte redigera den.';

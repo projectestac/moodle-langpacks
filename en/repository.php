@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'repository', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -135,7 +135,6 @@ $string['folderrecurse'] = 'Folder can not be moved to it\'s own subfolder';
 $string['getfile'] = 'Select this file';
 $string['getfiletimeout'] = 'Get file timeout';
 $string['help'] = 'Help';
-$string['hidden'] = 'Hidden';
 $string['iconview'] = 'View as icons';
 $string['imagesize'] = '{$a->width} x {$a->height} px';
 $string['instance'] = 'instance';
@@ -163,6 +162,7 @@ $string['makefileinternal'] = 'Make a copy of the file';
 $string['makefilelink'] = 'Link to the file directly';
 $string['makefilereference'] = 'Create an alias/shortcut to the file';
 $string['manage'] = 'Manage repositories';
+$string['manageinstances'] = 'Manage instances';
 $string['manageurl'] = 'Manage';
 $string['manageuserrepository'] = 'Manage individual repository';
 $string['moving'] = 'Moving';

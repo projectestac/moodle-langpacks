@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'es', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assign', language 'es', branch 'MOODLE_30_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -225,7 +225,7 @@ $string['invalidgradeforscale'] = 'La calificación proporcionada no era válida
 $string['lastmodifiedgrade'] = 'Última modificación (calificación)';
 $string['lastmodifiedsubmission'] = 'Última modificación (entrega)';
 $string['latesubmissions'] = 'Entrega fuera de plazo';
-$string['latesubmissionsaccepted'] = 'Solo los estudiantes a los que se les haya concedido una prórroga pueden aún presentar la tarea';
+$string['latesubmissionsaccepted'] = 'Permitdo hasta {$a}';
 $string['locksubmissionforstudent'] = 'Evita nuevas entregas del estudiante: (id={$a->id}, nombre={$a->fullname}).';
 $string['locksubmissions'] = 'Bloquear entregas';
 $string['manageassignfeedbackplugins'] = 'Gestionar extensiones de retroalimentación de tareas';
@@ -269,6 +269,8 @@ $string['noonlinesubmissions'] = 'Esta tarea no requiere que usted envíe nada d
 $string['nosavebutnext'] = 'Siguiente';
 $string['nosubmission'] = 'No se ha enviado nada en esta tarea';
 $string['nosubmissionsacceptedafter'] = 'No se aceptan entregas después de';
+$string['noteam'] = 'No perteneces a ningún grupo.';
+$string['noteamgrader'] = 'No perteneces a ningún grupo, por lo que no es posible realizar entregas.';
 $string['notgraded'] = 'Sin calificar';
 $string['notgradedyet'] = 'No calificado aún';
 $string['notifications'] = 'Avisos';
@@ -289,6 +291,8 @@ $string['page-mod-assign-x'] = 'Cualquier página del módulo tarea';
 $string['participant'] = 'Participante';
 $string['pluginadministration'] = 'Administración de tareas';
 $string['pluginname'] = 'Tarea';
+$string['preventsubmissionnotingroup'] = 'Se requiere formar parte de un grupo para realizar la entrega';
+$string['preventsubmissionnotingroup_help'] = 'Si se activa, usuarios que no sean miembros de un grupo, no podrán realizar entregas.';
 $string['preventsubmissions'] = 'Evita que los usuarios realicen más entregas en esta tarea.';
 $string['preventsubmissionsshort'] = 'Evitar cambios en la entrega';
 $string['previous'] = 'Anterior';
@@ -396,6 +400,7 @@ $string['teamsubmission_help'] = 'Si está habilitado los estudiantes se dividir
 $string['textinstructions'] = 'Instrucciones de la tarea';
 $string['timemodified'] = 'Última modificación';
 $string['timeremaining'] = 'Tiempo restante';
+$string['ungroupedusers'] = 'Si se activa la configuración "se requiere formar parte de un grupo para realizar la entrega" se evitará que los usuarios no asignados a lo sgrupos realicen entregas.';
 $string['unlimitedattempts'] = 'Ilimitado';
 $string['unlimitedattemptsallowed'] = 'Se permiten intentos ilimitados';
 $string['unlocksubmissionforstudent'] = 'Permitir entregas al usuario: (id={$a->id}, nombre={$a->fullname}).';

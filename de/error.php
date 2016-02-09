@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'de', branch 'MOODLE_30_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,6 +77,7 @@ $string['cannoteditcomment'] = 'SIe dürfen keinen fremden Kommentar bearbeiten'
 $string['cannoteditcommentexpired'] = 'Die Zeit zur Bearbeitung ist abgelaufen!';
 $string['cannoteditpostorblog'] = 'Sie dürfen keine Blogs posten oder bearbeiten.';
 $string['cannoteditsiteform'] = 'Sie können die Startseite nicht über dieses Formular bearbeiten';
+$string['cannotedituserpreferences'] = 'Die Nutzereinstellungen können nicht geändert werden.';
 $string['cannotedityourprofile'] = 'Sie können Ihr Profil nicht bearbeiten';
 $string['cannotexecduringupgrade'] = 'Bei der Aktualisierung nicht ausführbar';
 $string['cannotfindcategory'] = 'Für den Kursbereich kann kein Datensatz  mit der ID {$a} gefunden werden';
@@ -232,6 +233,7 @@ $string['errorcreatingfile'] = 'Fehler beim Erstellen der Datei "{$a}"';
 $string['errorcreatingrole'] = 'Fehler beim Anlegen der Rolle';
 $string['errorfetchingrssfeed'] = 'Fehler beim Holen eines RSS Feeds';
 $string['erroronline'] = 'Fehler in Zeile {$a}';
+$string['erroroutput'] = 'Fehleranzeige. Die automatische Weiterleitung ist deaktiviert.';
 $string['errorparsingxml'] = 'Fehler beim Parsen von XML: {$a->errorstring} in Zeile {$a->errorline}, Zeichen {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Fehler bei der Verarbeitung einer Archivdatei';
 $string['errorreadingfile'] = 'Fehler beim Lesen der Datei "{$a}"';
@@ -477,7 +479,7 @@ $string['serverconnection'] = 'Fehler beim Aufbau der Verbindung zum Server';
 $string['servicedonotexist'] = 'Service existiert nicht';
 $string['sessioncookiesdisable'] = 'Fehlerhafte Verwendung von  require_key_login() - Session Cookie sollte deaktiviert werden!';
 $string['sessiondiskfull'] = 'Die Session-Partition ist voll. Ein Login ist zur Zeit nicht möglich. Bitte benachrichtigen Sie den Server-Administrator.';
-$string['sessionerroruser'] = 'Wegen zu langer Inaktivität müssen Sie sich neu anmelden.';
+$string['sessionerroruser'] = 'Wegen längerer Inaktivität müssen Sie sich neu anmelden.';
 $string['sessionerroruser2'] = 'Ein Serverfehler ist aufgetreten. Er betrifft Ihre Login-Session. Loggen Sie sich bitte neu ein oder starten Sie Ihren Browser noch einmal.';
 $string['sessionhandlerproblem'] = 'Der Session-Handler ist falsch konfiguriert';
 $string['sessionipnomatch'] = 'Die IP-Adresse scheint sich seit Ihrem letzten Login geändert zu haben. Dieses Sicherheitsfeature schützt Sie vor dem Diebstahl Ihrer Identität durch Hacker, während Sie auf der Seite arbeiten. Normale Nutzer sollten diese Mitteilung nicht sehen - bitten Sie den Administrator um Hilfe.';

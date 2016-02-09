@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_cas', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth_cas', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   auth_cas
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,10 +31,10 @@ $string['auth_cas_auth_user_create'] = 'Skapa användare med externa metoder';
 $string['auth_cas_baseuri'] = 'Serverns URI (ingenting om det inte är en baseURI)<br />IF t.ex. CAS-servern svarar mot
 värd.domän.se/CAS/ THEN <br />cas_baseuri=CAS/';
 $string['auth_cas_baseuri_key'] = 'Bas-URI';
-$string['auth_cas_broken_password'] = 'Du kan inte fortsätta utan att ändra Ditt lösenord, men tyvärr finns det inte någon tillgänglig sida som Du kan göra det på. Var snäll och kontakta den som administrerar Moodle.';
+$string['auth_cas_broken_password'] = 'Du kan inte fortsätta utan att ändra ditt lösenord, men tyvärr finns det inte någon tillgänglig sida som du kan göra det på. Var snäll och kontakta den som administrerar Moodle.';
 $string['auth_cas_cantconnect'] = 'LDAP-delen av CAS-modulen kan inte åstadkomma en anslutning till servern:{$a}';
 $string['auth_cas_casversion'] = 'Version';
-$string['auth_cas_certificate_check'] = 'Ställ om det här om Du vill validera certifikatet för servern';
+$string['auth_cas_certificate_check'] = 'Ställ om det här om du vill validera certifikatet för servern';
 $string['auth_cas_certificate_check_key'] = 'Validering av server';
 $string['auth_cas_certificate_path'] = 'Sökväg till CA kedjefilen (PEM-format) för att validera certifikatet för servern';
 $string['auth_cas_certificate_path_empty'] = 'Om Du vill aktivera validering av certifikatet för servern så måste Du ange en sökväg för certifikatet';
@@ -46,7 +46,7 @@ $string['auth_casdescription'] = 'Den här metoden använder en CAS-server (Cent
 $string['auth_cas_enabled'] = 'Aktivera detta om Du vill använda autenticering med CAS.';
 $string['auth_cas_hostname'] = 'Värdnamn för CAS-server<br />t.ex. värd.domän.se';
 $string['auth_cas_hostname_key'] = 'Värdnamn';
-$string['auth_cas_invalidcaslogin'] = 'Din inloggning misslyckades tyvärr - Dina rättigheter kunde inte bekräftas';
+$string['auth_cas_invalidcaslogin'] = 'Din inloggning misslyckades tyvärr - dina rättigheter kunde inte bekräftas';
 $string['auth_cas_language'] = 'Valt språk';
 $string['auth_cas_language_key'] = 'Språk';
 $string['auth_cas_logincas'] = 'Tillträde via en säker uppkoppling';

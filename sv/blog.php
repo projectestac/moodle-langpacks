@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'blog', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -155,7 +155,7 @@ $string['timefetched'] = 'Tidpunkt för senaste synk';
 $string['timewithin'] = 'Visa etiketter som använts inom detta antal dagar';
 $string['updateentrywithid'] = 'Uppdaterar inlägg';
 $string['url'] = 'URL';
-$string['url_help'] = 'Skriv in URLen för RSS inflöde från Din externa blogg.';
+$string['url_help'] = 'Skriv in URLen för RSS inflöde från din externa blogg.';
 $string['useblogassociations'] = 'Aktivera kopplingar mellan bloggar';
 $string['useexternalblogs'] = 'Aktivera externa bloggar';
 $string['userblog'] = 'Användarblogg: {$a}';

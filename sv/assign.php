@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assign', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -138,9 +138,9 @@ $string['duedatereached'] = 'Stoppdatum för denna inlämningsuppgift har nu pas
 $string['duedatevalidation'] = 'Stoppdatum måste vara efter datum för tillåt inlämning från.';
 $string['editaction'] = 'Åtgärder...';
 $string['editattemptfeedback'] = 'Redigera betyg och feedback för försök nr {$a}.';
-$string['editingpreviousfeedbackwarning'] = 'Du redigerar feedback av ett tidigare försök. Detta är försök nr This is attempt {$a->attemptnumber} av totalt{$a->totalattempts}.';
+$string['editingpreviousfeedbackwarning'] = 'Du redigerar feedback av ett tidigare försök. Detta är försök nr {$a->attemptnumber} av totalt{$a->totalattempts}.';
 $string['editingstatus'] = 'Redigerar status';
-$string['editsubmission'] = 'Redigera min inskickade uppgift';
+$string['editsubmission'] = 'Redigera min inskickade uppgiftslösning';
 $string['editsubmission_help'] = 'Gör ändringar i din inlämning';
 $string['editsubmissionother'] = 'Redigera inlämning för {$a}';
 $string['enabled'] = 'Aktiverad';
@@ -201,9 +201,9 @@ $string['gradelocked'] = 'Detta betyg är låst eller skrevs över i betygsboken
 $string['gradeoutof'] = 'Betyg ur {$a}';
 $string['gradeoutofhelp'] = 'Betyg';
 $string['gradeoutofhelp_help'] = 'Ange betyget för elevens inlämnade uppgift här. Du kan använda decimaler.';
-$string['gradersubmissionupdatedhtml'] = '{$a->username} har uppdaterat sin inskickade uppgift för <i>\'{$a->assignment}\' den {$a->timeupdated}</i><br /><br />Den är <a href="{$a->url}"> tillgänglig på webbplatsen.';
+$string['gradersubmissionupdatedhtml'] = '{$a->username} har uppdaterat sin inskickade uppgiftslösning för <i>\'{$a->assignment}\' den {$a->timeupdated}</i><br /><br />Den är <a href="{$a->url}"> tillgänglig på webbplatsen.';
 $string['gradersubmissionupdatedsmall'] = '{$a->username} har uppdaterat sin inlämning för inlämningsuppgift {$a->assignment}.';
-$string['gradersubmissionupdatedtext'] = '{$a->username} har uppdaterat sina inskickade uppgifter för
+$string['gradersubmissionupdatedtext'] = '{$a->username} har uppdaterat sina inskickade uppgiftslösningar för
  \'{$a->assignment}\' den at {$a->timeupdated}
 
 Den är tillgänglig här:
@@ -380,7 +380,7 @@ $string['submissionstatus_'] = 'Ingen inlämning';
 $string['submissionstatus_draft'] = 'Utkast (ej inlämnad)';
 $string['submissionstatusheading'] = 'Status för inlämning';
 $string['submissionstatus_marked'] = 'Betygssatt';
-$string['submissionstatus_new'] = 'Ny inlämning';
+$string['submissionstatus_new'] = 'Ingen inlämning';
 $string['submissionstatus_reopened'] = 'Återöppnad';
 $string['submissionstatus_submitted'] = 'Inlämnad för betygssättning';
 $string['submissionsummary'] = '{$a->status}. Senast ändrad {$a->timemodified}';

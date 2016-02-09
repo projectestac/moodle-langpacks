@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'backup', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -119,7 +119,6 @@ $string['errorfilenamerequired'] = 'Cal que introduïu un nom de fitxer vàlid p
 $string['errorinvalidformat'] = 'Format de còpia de seguretat desconegut';
 $string['errorinvalidformatinfo'] = 'El fitxer seleccionat no és un fitxer de còpia de seguretat vàlid per a Moodle i no pot ser restaurat.';
 $string['errorminbackup20version'] = 'Aquest fitxer de còpia de seguretat s\'ha creat amb una versió de desenvolupament de Moodle ({$a->backup}). Com a mínim cal la {$a->min}. No es pot restaurar.';
-$string['errorrestorefrontpage'] = 'No es permet restaurar res sobre la pàgina principal.';
 $string['executionsuccess'] = 'El fitxer de còpia de seguretat s\'ha creat amb èxit.';
 $string['filealiasesrestorefailures'] = 'La restauració dels àlies ha fallat';
 $string['filealiasesrestorefailures_help'] = 'Els àlies són enllaços simbòlics a altres fitxers, inclosos els emmagatzemats en repositoris externs. En alguns casos, Moodle no els pot restaurar - per exemple, en restaurar la còpia de seguretat en un altre lloc web o quan el fitxer a què es fa referència no existeix.

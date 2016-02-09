@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_community', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_community', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   block_community
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,7 @@ $string['blocks'] = 'ブロック';
 $string['cannotselecttopsubject'] = 'トップ科目レベルを選択することはできません。';
 $string['comments'] = 'コメント ({$a})';
 $string['community:addinstance'] = '新しいコミュニティファインダブロックを追加する';
-$string['community:myaddinstance'] = '新しいコミュニティファインダブロックをマイホームに追加する';
+$string['community:myaddinstance'] = '新しいコミュニティファインダブロックをダッシュボードに追加する';
 $string['contentinfo'] = 'テーマ: {$a->subject} - オーディエンス: {$a->audience} - 学習レベル: {$a->educationallevel}';
 $string['continue'] = '続ける';
 $string['contributors'] = '- コントリビュータ: {$a}';

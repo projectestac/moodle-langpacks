@@ -16,18 +16,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_timezoneimport', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'ltiservice_memberships', language 'nl', branch 'MOODLE_30_STABLE'
  *
- * @package   tool_timezoneimport
+ * @package   ltiservice_memberships
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configintrotimezones'] = 'This page will search for new information about world timezones (including daylight savings time rules) and update your local database with this information.  These locations will be checked, in order: {$a} Do you wish to update your timezones now?';
-$string['importtimezones'] = 'Update complete list of timezones';
-$string['importtimezonescount'] = '{$a->count} entries imported from {$a->source}';
-$string['importtimezonesfailed'] = 'No sources found! (Bad news)';
-$string['pluginname'] = 'Timezones updater';
-$string['updatetimezones'] = 'Update timezones';
+$string['pluginname'] = 'Lidmaatschap LTI-service';
+$string['servicename'] = 'Lidmaatschap';

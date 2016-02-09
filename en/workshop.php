@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'workshop', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,6 +158,8 @@ $string['gradeitemsubmission'] = '{$a->workshopname} (submission)';
 $string['gradeover'] = 'Override grade for submission';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Workshop grades report';
+$string['gradetopassgrading'] = 'Assessment grade to pass';
+$string['gradetopasssubmission'] = 'Submission grade to pass';
 $string['gradinggrade'] = 'Grade for assessment';
 $string['gradinggradecalculated'] = 'Calculated grade for assessment';
 $string['gradinggrade_help'] = 'This setting specifies the maximum grade that may be obtained for submission assessment.';
@@ -193,6 +195,7 @@ $string['nogradeyet'] = 'No grade yet';
 $string['nosubmissionfound'] = 'No submission found for this user';
 $string['nosubmissions'] = 'No submissions yet in this workshop';
 $string['notassessed'] = 'Not assessed yet';
+$string['nothingfound'] = 'Nothing to display';
 $string['nothingtoreview'] = 'Nothing to review';
 $string['notoverridden'] = 'Not overridden';
 $string['noworkshops'] = 'There are no workshops in this course';
@@ -266,11 +269,14 @@ If you enable this feature, it is recommended to set up the scheduled allocation
 $string['submissiongrade'] = 'Grade for submission';
 $string['submissiongrade_help'] = 'This setting specifies the maximum grade that may be obtained for submitted work.';
 $string['submissiongradeof'] = 'Grade for submission (of {$a})';
+$string['submissionlastmodified'] = 'Last modified';
 $string['submissionsettings'] = 'Submission settings';
+$string['submissionsreport'] = 'Workshop submissions report';
 $string['submissionstart'] = 'Open for submissions from';
 $string['submissionstartdatetime'] = 'Open for submissions from {$a->daydatetime} ({$a->distanceday})';
 $string['submissionstartevent'] = '{$a} (opens for submissions)';
 $string['submissiontitle'] = 'Title';
+$string['submittednotsubmitted'] = 'Submitted ({$a->submitted}) / not submitted ({$a->notsubmitted})';
 $string['subplugintype_workshopallocation'] = 'Submissions allocation method';
 $string['subplugintype_workshopallocation_plural'] = 'Submissions allocation methods';
 $string['subplugintype_workshopeval'] = 'Grading evaluation method';

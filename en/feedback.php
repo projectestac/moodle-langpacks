@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'feedback', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -115,6 +115,7 @@ $string['export_to_excel'] = 'Export to Excel';
 $string['feedback:addinstance'] = 'Add a new feedback';
 $string['feedbackclose'] = 'Allow answers to';
 $string['feedback:complete'] = 'Complete a feedback';
+$string['feedbackcompleted'] = '{$a->username} completed {$a->feedbackname}';
 $string['feedback:createprivatetemplate'] = 'Create private template';
 $string['feedback:createpublictemplate'] = 'Create public template';
 $string['feedback:deletesubmissions'] = 'Delete completed submissions';

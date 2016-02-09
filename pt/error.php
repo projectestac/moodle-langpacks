@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,6 +77,7 @@ $string['cannoteditcomment'] = 'Este comentário não é seu para que o possa ed
 $string['cannoteditcommentexpired'] = 'Não pode editar isto. O tempo expirou!';
 $string['cannoteditpostorblog'] = 'Não pode postar ou editar blogues';
 $string['cannoteditsiteform'] = 'Não é possível alterar a disciplina de site por este meio';
+$string['cannotedituserpreferences'] = 'Não é possível editar as preferências deste utilizador';
 $string['cannotedityourprofile'] = 'Não pode editar o seu perfil';
 $string['cannotexecduringupgrade'] = 'Não pode ser executado durante a atualização';
 $string['cannotfindcategory'] = 'Não é possível encontrar a pasta com o ID -  {$a} na base de dados';
@@ -231,6 +232,7 @@ $string['errorcreatingfile'] = 'Erro ao criar o ficheiro "{$a}"';
 $string['errorcreatingrole'] = 'Erro ao criar papel';
 $string['errorfetchingrssfeed'] = 'Erro ao procurar por lista RSS';
 $string['erroronline'] = 'Erro na linha {$a}';
+$string['erroroutput'] = 'Erro de envio, vai desativar o redirecionamento automático.';
 $string['errorparsingxml'] = 'Erro ao analisar XML: {$a->errorstring} na linha {$a->errorline}, caráter {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Erro ao processar o ficheiro de arquivo';
 $string['errorreadingfile'] = 'Erro na leitura do ficheiro "{$a}"';

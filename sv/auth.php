@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,12 +40,12 @@ $string['auth_fieldlock'] = 'Värde för låsningen';
 $string['auth_fieldlock_expl'] = '<p><b>Värde för låsningen:</b>Om detta är aktiverat så kommer det att hindra användare och administratörer av Moodle från att redigera detta fält direkt. Använd detta fält om Du underhåller dessa data i det externa systemet för autenticering.';
 $string['auth_fieldlocks'] = 'Låsning av användarfält';
 $string['auth_fieldlocks_help'] = '<p>Du kan låsa användarnas datafält. Detta är användbart för webbplatser där administratörerna underhåller användardata manuellt genom att redigera användarposter eller genom att använda komponenten "Ladda upp användare".  Om Du låser de fält som Moodle kräver så ska Du säkerställa att Du fyller i dessa data när Du skapar användarkonton för annars kommer kontona att bli oanvändbara.</p><p>Överväg om Du ska ställa in låsningsläget till "Olåst om fältet är tomt" för att undvika detta problem.</p>';
-$string['authinstructions'] = 'Här kan Du ge instruktioner för Dina användare, så att de vet vilket användarnamn och lösenord de bör använda.  Texten Du skriver in här kommer att visas på sidan för inloggning.  Om Du lämnar detta tomt så kommer inga instruktioner att visas.';
+$string['authinstructions'] = 'Här kan du ge instruktioner för dina användare, så att de vet vilket användarnamn och lösenord de bör använda.  Texten du skriver in här kommer att visas på sidan för inloggning.  Om du lämnar detta tomt så kommer inga instruktioner att visas.';
 $string['auth_invalidnewemailkey'] = 'Fel: om du försöker bekräfta ett byte av e-postadress kan du ha gjort ett misstag när du kopierat URL adressen vi skickade till dig med e-post. Vänligen kopiera adressen igen och försök på nytt.';
 $string['auth_multiplehosts'] = 'Du kan ange flera värdar(t ex host1.com;host2.com;host3.com)';
 $string['auth_outofnewemailupdateattempts'] = 'Fel: om du försöker bekräfta ett byte av e-postadress kan du ha gjort ett misstag när du kopierat URL adressen vi skickade till dig med e-post. Vänligen kopiera adressen igen och försök på nytt.';
-$string['auth_passwordisexpired'] = 'Ditt lösenord gäller inte längre. Vill Du ändra Ditt lösenord nu?';
-$string['auth_passwordwillexpire'] = 'Ditt lösenord kommer att upphöra att gälla om {$a} dagar. Vill Du ändra Ditt lösenord nu?';
+$string['auth_passwordisexpired'] = 'Ditt lösenord gäller inte längre. Vill du ändra ditt lösenord nu?';
+$string['auth_passwordwillexpire'] = 'Ditt lösenord kommer att upphöra att gälla om {$a} dagar. Vill du ändra ditt lösenord nu?';
 $string['auth_remove_delete'] = 'Komplett internt borttagande';
 $string['auth_remove_keep'] = 'Behåll internt';
 $string['auth_remove_suspend'] = 'Stäng av internt';
@@ -73,11 +73,11 @@ som Du har valt f&ouml;r den h&auml;r webbplatsen och vilka inst&auml;llningar d
 $string['createpassword'] = 'Generera lösenord och meddela användare';
 $string['createpasswordifneeded'] = 'Skapa  ett lösenord om så behövs';
 $string['emailchangecancel'] = 'Avbryt ändring av e-postadress';
-$string['emailchangepending'] = 'Aktivera ändringen av Din e-postadress. Öppna länken som Du har fått i {$a->preference_newemail}.';
-$string['emailnowexists'] = 'Den e-postadress som Du försökte lägga till till Din profil har tilldelats någon annan efter Din ursprungliga begäran. Denna begäran har härmed avbrutits men Du kan pröva igen med en annan adress.';
+$string['emailchangepending'] = 'Aktivera ändringen av din e-postadress. Öppna länken som du har fått i {$a->preference_newemail}.';
+$string['emailnowexists'] = 'Den e-postadress som du försökte lägga till din profil har tilldelats någon annan efter din ursprungliga begäran. Denna begäran har härmed avbrutits men du kan pröva igen med en annan adress.';
 $string['emailupdate'] = 'Uppdatering av e-postadress';
 $string['emailupdatemessage'] = 'Käre/a  {$a->fullname},
-Du har begärt en ändring av Din e-postadress för Ditt användarkonto på  {$a->site}. Var snäll och öppna länken nedan i Din webbläsare för att bekräfta den här ändringen.
+Du har begärt en ändring av din e-postadress för ditt användarkonto på  {$a->site}. Var snäll och öppna länken nedan i din webbläsare för att bekräfta den här ändringen.
 
  {$a->url},';
 $string['emailupdatesuccess'] = 'Användaren <em>{$a->fullname}</em>s e-postadress har framgångsrikt uppdaterats till <em>{$a->email}</em>.';
@@ -115,7 +115,7 @@ $string['internal'] = 'Intern';
 $string['locked'] = 'Låst';
 $string['md5'] = 'MD5-kryptering';
 $string['nopasswordchange'] = 'Det går inte att ändra lösenordet';
-$string['nopasswordchangeforced'] = 'Du kan inte gå vidare utan att ändra Ditt lösenord, men det finns inte någon sida tillgänglig för att ändra det. Var snäll och kontakta Din administratör för Moodle.';
+$string['nopasswordchangeforced'] = 'Du kan inte gå vidare utan att ändra ditt lösenord, men det finns inte någon sida tillgänglig för att ändra det. Var snäll och kontakta din administratör för Moodle.';
 $string['noprofileedit'] = 'Det går inte att redigera profilen';
 $string['ntlmsso_attempting'] = 'Försöker med enkel inloggning via NTLM...';
 $string['ntlmsso_failed'] = 'Det fungerade inte med automatisk inloggning, försök med den vanliga sidan för inloggning...';

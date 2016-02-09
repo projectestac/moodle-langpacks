@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,6 +79,7 @@ $string['cannoteditcomment'] = 'This comment is not yours to edit!';
 $string['cannoteditcommentexpired'] = 'You can\'t edit this. The time has expired!';
 $string['cannoteditpostorblog'] = 'You cannot post or edit blogs';
 $string['cannoteditsiteform'] = 'You cannot edit the site course using this form';
+$string['cannotedituserpreferences'] = 'Cannot edit this user\'s preferences';
 $string['cannotedityourprofile'] = 'Sorry, you cannot edit own profile';
 $string['cannotexecduringupgrade'] = 'Cannot be executed during upgrade';
 $string['cannotfindcategory'] = 'Cannot find category record from database by ID - {$a}';
@@ -233,6 +234,7 @@ $string['errorcreatingfile'] = 'Error creating file "{$a}"';
 $string['errorcreatingrole'] = 'Error creating role';
 $string['errorfetchingrssfeed'] = 'Error fetching RSS feed.';
 $string['erroronline'] = 'Error on line {$a}';
+$string['erroroutput'] = 'Error output, so disabling automatic redirect.';
 $string['errorparsingxml'] = 'Error parsing XML: {$a->errorstring} at line {$a->errorline}, char {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Error processing archive file';
 $string['errorreadingfile'] = 'Error reading file "{$a}"';

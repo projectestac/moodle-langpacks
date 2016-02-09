@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth_ldap', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,7 +47,7 @@ $string['auth_ldap_expiration_desc'] = 'Selecione "Não" para desativar a verifi
 $string['auth_ldap_expiration_key'] = 'Expiração';
 $string['auth_ldap_expiration_warning_desc'] = 'Número de dias de antecedência com que deve ser enviado o aviso de expiração da senha.';
 $string['auth_ldap_expiration_warning_key'] = 'Aviso de expiração';
-$string['auth_ldap_expireattr_desc'] = 'Opcional: esta configuração tem prioridade sobre o atributo LDAP que armazena a data de expiração da senha';
+$string['auth_ldap_expireattr_desc'] = 'Opcional: Esta configuração sobrepõe o atributo LDAP que armazena a data de expiração da senha.';
 $string['auth_ldap_expireattr_key'] = 'Atributo de expiração';
 $string['auth_ldapextrafields'] = 'Estes campos são opcionais. É possível configurar o Moodle para que vá buscar informação aos atributos dos utilizadores no servidor LDAP.<p>Se os campos a mapear estiverem em branco, não será transferida informação do LDAP para o Moodle e serão usados os valores predefinidos no Moodle.</p><p>Em qualquer caso os utilizadores poderão alterar os seus dados de perfil depois de acederem ao Moodle.</p>';
 $string['auth_ldap_graceattr_desc'] = 'Opcional: Esta configuração tem prioridade sobre o atributo de tolerância de entrada';
@@ -138,6 +138,7 @@ $string['renamingnotallowed'] = 'Não é permitida a alteração do nome dos uti
 $string['rootdseerror'] = 'Erro ao comunicar com rootDSE para Ative Directory';
 $string['start_tls'] = 'Usar o serviço LDAP normal (porta 389) com encriptação TLS';
 $string['start_tls_key'] = 'Usar TLS';
+$string['synctask'] = 'Tarefa de sincronização dos utilizadores do LDAP';
 $string['updatepasserror'] = 'Erro na função user_update_password() com código  {$a->errno} e mensagem " {$a->errstring} "';
 $string['updatepasserrorexpire'] = 'Erro na função user_update_password() ao ler o intervalo de expiração da senha. Código do erro: {$a->errno}; Mensagem do erro: {$a->errstring}';
 $string['updatepasserrorexpiregrace'] = 'Erro na função user_update_password() ao modificar os parâmetros expirationtime e/ou gracelogins. Código do erro: {$a->errno}; Mensagem do erro: {$a->errstring}';

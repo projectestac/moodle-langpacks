@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_atto', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'editor_atto', language 'ru', branch 'MOODLE_30_STABLE'
  *
  * @package   editor_atto
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,7 @@ $string['errorpluginisusedtwice'] = 'Плагин «{$a}» повторяетс�
 $string['errorpluginnotfound'] = 'Плагин «{$a}» не может быть использован; вероятно, он не установлен.';
 $string['errortextrecovery'] = 'К сожалению, черновой вариант не удалось восстановить.';
 $string['infostatus'] = 'Информация';
-$string['pluginname'] = 'HTML-редактор Atto';
+$string['pluginname'] = 'HTML-редактор Атто';
 $string['plugin_title_shortcut'] = '{$a->title} [{$a->shortcut}]';
 $string['recover'] = 'Восстановление';
 $string['settings'] = 'Настройки панели инструментов редактора Атто';

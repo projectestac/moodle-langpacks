@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'questionnaire', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -80,8 +80,9 @@ $string['closedate'] = 'Usar Data de Fecho';
 $string['closedate_help'] = 'Aqui pode escolher uma data de fecho para o questionário. Selecione a caixa de verificação e escolha a data pretendida.
 Os participantes não podem preencher o questionário após essa data, se não for selecionada este nunca fecha.';
 $string['closeson'] = 'O questionário termina em {$a}.';
-$string['completionsubmit'] = 'Os participantes têm de submeter o questionário para o completar.';
+$string['completionsubmit'] = 'Os participantes têm de submeter o questionário para o completar';
 $string['confalts'] = '- OU - <br />Página de confirmação';
+$string['configmaxsections'] = 'Máximo de secções de feedback';
 $string['configusergraph'] = 'Mostrar gráficos no feedback de "Teste de personalidade"';
 $string['configusergraphlong'] = 'Usar a biblioteca <a href="http://www.rgraph.net/"> Rgraph </a>para mostrar gráficos no feedback de "Teste de Personalidade".';
 $string['confirmdelallresp'] = 'Tem a certeza que pretende apagar TODAS as respostas a este questionário?';
@@ -100,6 +101,7 @@ $string['createcontent'] = 'Conteúdo inicial do Questionário';
 $string['createcontent_help'] = 'Selecione um dos botões de radio. \'Criar novo\' questionário é a opção predefinida.';
 $string['createcontent_link'] = 'mod/questionnaire/mod#Content_Options';
 $string['createnew'] = 'Criar novo questionário';
+$string['crontask'] = 'Trabalho de limpeza do Questionário';
 $string['date'] = 'Data';
 $string['dateformatting'] = 'Use o formato dia/mês/ano (exemplo: 20/07/1969 para Domingo, 20 de julho de 1969)';
 $string['date_help'] = 'Insira este tipo de questão se pretende uma resposta na forma de uma data formatada corretamente.';
@@ -117,14 +119,14 @@ $string['dependquestion_help'] = 'Pode selecionar uma questão e uma opção de 
 $string['displaymethod'] = 'Método de exibição não definido para a questão.';
 $string['download'] = 'Descarregar';
 $string['downloadtextformat'] = 'Descarregar em formato texto';
-$string['downloadtextformat_help'] = 'Esta opção permite que guarde todas as respostas do questionário num ficheiro de texto (CSV). Este ficheiro poderá depois ser importado como folha do cálculo (Ex. MS Excel ou OpenOffice Calc) ou utilizado num software de estatístico para tratamento dos dados.';
+$string['downloadtextformat_help'] = 'Esta opção permite que guarde todas as respostas do questionário num ficheiro de texto (CSV). Este ficheiro poderá depois ser importado como folha de cálculo (MS Excel ou OpenOffice Calc) ou utilizado num software de estatística para tratamento dos dados.';
 $string['downloadtextformat_link'] = 'mod/questionnaire/report#Download_in_text_format';
 $string['dropdown'] = 'Caixa de listagem';
 $string['dropdown_help'] = 'Não existe grande vantagem em usar Caixas de Listagem em vez de Botões de Rádio, exceto quando as opções de resposta são uma lista grande.';
 $string['dropdown_link'] = 'mod/questionnaire/questions#Dropdown_Box';
 $string['edit'] = 'Editar';
 $string['editingquestionnaire'] = 'Editar configurações';
-$string['editquestion'] = 'A editar a questão do tipo: {$a}';
+$string['editquestion'] = 'Editar questão do tipo: {$a}';
 $string['email'] = 'E-mail';
 $string['errnewname'] = 'O nome já existe, escolha um nome diferente.';
 $string['erroropening'] = 'Ocorreu um erro ao abrir o questionário.';
@@ -314,7 +316,7 @@ $string['previous'] = 'Anterior';
 $string['previouspage'] = 'Página Anterior';
 $string['print'] = 'Imprimir esta resposta';
 $string['printblank'] = 'Imprimir em branco';
-$string['printblanktooltip'] = 'Abre uma nova janela com um questionário em branco para que possa imprimir.';
+$string['printblanktooltip'] = 'Abre uma nova janela com um questionário em branco para imprimir';
 $string['printtooltip'] = 'Abre uma nova janela com estas respostas para que possa imprimir';
 $string['private'] = 'Privado';
 $string['public'] = 'Público';
@@ -322,7 +324,7 @@ $string['publiccopy'] = 'Cópia:';
 $string['publicoriginal'] = 'Original:';
 $string['qtype'] = 'Tipo de resposta';
 $string['qtypedaily'] = 'responder diariamente';
-$string['qtype_help'] = 'Selecione se os alunos podem responder apenas uma vez, diariamente, semanalmente, mensalmente ou um número ilimitado de vezes.';
+$string['qtype_help'] = 'Selecione se os alunos podem responder apenas uma vez ou é para ser respondido diariamente, semanalmente, mensalmente ou um número ilimitado de vezes.';
 $string['qtypemonthly'] = 'responder mensalmente';
 $string['qtypeonce'] = 'responder apenas uma vez';
 $string['qtypeunlimited'] = 'responder várias vezes';
@@ -367,7 +369,7 @@ $string['realm_help'] = '* **Existem três tipos de questionários:**
  * Modelo - pode ser copiado e editado.
  * Público - pode ser partilhado em várias disciplinas.';
 $string['realm_link'] = 'mod/questionnaire/qsettings#Questionnaire_Type';
-$string['redirecturl'] = 'URL para o qual o utilizador é redirecionado depois de terminar este questionário.';
+$string['redirecturl'] = 'URL para o qual o utilizador é redirecionado depois de completar este questionário.';
 $string['remove'] = 'Apagar';
 $string['removeallquestionnaireattempts'] = 'Apagar todas as respostas ao questionário';
 $string['removenotinuse'] = 'Este questionário depende de um questionário público que foi eliminado. Por isso não pode ser utilizado e deve ser eliminado.';
@@ -385,7 +387,7 @@ $string['respondents'] = 'Utilizadores';
 $string['respondenttype'] = 'Identificação do Utilizador';
 $string['respondenttypeanonymous'] = 'Anónimo';
 $string['respondenttypefullname'] = 'Nome Completo';
-$string['respondenttype_help'] = 'Pode exibir o nome completo junto de cada resposta escolhendo a opção "Nome Completo". Para ocultar a entidade dos utilizadores escolha a opção "Anónimo".';
+$string['respondenttype_help'] = 'Pode exibir o nome completo junto de cada resposta escolhendo a opção "Nome Completo". Para ocultar a identidade dos utilizadores escolha a opção "Anónimo".';
 $string['respondenttype_link'] = 'mod/questionnaire/mod#Respondent_Type';
 $string['response'] = 'Resposta';
 $string['responsefieldlines'] = 'Tamanho da caixa';

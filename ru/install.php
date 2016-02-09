@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'install', language 'ru', branch 'MOODLE_30_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['caution'] = 'Предупреждение';
 $string['chooselanguage'] = 'Выберите язык';
 $string['chooselanguagehead'] = 'Выберите язык';
 $string['chooselanguagesub'] = 'Сейчас необходимо выбрать язык ТОЛЬКО для сообщений во время установки. Язык сайта и пользовательских интерфейсов можно будет указать далее в процессе установки.';
+$string['cliadminemail'] = 'Новый адрес электронной почты администратора';
 $string['cliadminpassword'] = 'Пароль нового администратора';
 $string['cliadminusername'] = 'Логин учетной записи администратора';
 $string['clialreadyconfigured'] = 'Файл config.php уже существует. Если Вы хотите установить Moodle на этот сайт, используйте admin/cli/install_database.php.';

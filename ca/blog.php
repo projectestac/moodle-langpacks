@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'blog', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -127,7 +127,7 @@ $string['page-blog-x'] = 'Totes les pàgines del blog';
 $string['pagesize'] = 'Nombre d\'entrades per pàgina';
 $string['permalink'] = 'Enllaç permanent';
 $string['personalblogs'] = 'Els usuaris només poden veure el seu propi blog';
-$string['preferences'] = 'Preferències';
+$string['preferences'] = 'Preferències del blog';
 $string['publishto'] = 'Publica per a';
 $string['publishtocourse'] = 'Usuaris que comparteixen un curs amb vosté';
 $string['publishtocourseassoc'] = 'Membres del curs associat';
@@ -153,6 +153,7 @@ $string['searchterm'] = 'Cerca: {$a}';
 $string['settingsupdatederror'] = 'S\'ha produït un error. El paràmetre no s\'ha pogut actualitzar.';
 $string['siteblog'] = 'Blog del lloc: {$a}';
 $string['siteblogdisable'] = 'El blog del lloc no està habilitat';
+$string['siteblogheading'] = 'Blog del lloc';
 $string['siteblogs'] = 'Tots els usuaris del lloc poden veure totes les entrades dels blogs';
 $string['tagdatelastused'] = 'Darrera utilització de l\'etiqueta';
 $string['tagparam'] = 'Etiqueta: {$a}';

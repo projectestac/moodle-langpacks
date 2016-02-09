@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'workshop', language 'fr', branch 'MOODLE_30_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,6 +158,8 @@ $string['gradeitemsubmission'] = '{$a->workshopname} (travail remis)';
 $string['gradeover'] = 'Modifier la note du travail remis';
 $string['gradereceivedfrom'] = '←';
 $string['gradesreport'] = 'Rapport d\'évaluation de l\'atelier';
+$string['gradetopassgrading'] = 'Note de l\'évaluation pour réussir';
+$string['gradetopasssubmission'] = 'Note du travail pour réussir';
 $string['gradinggrade'] = 'Note du processus d\'évaluation';
 $string['gradinggradecalculated'] = 'Note calculée pour l\'évaluation';
 $string['gradinggrade_help'] = 'Ce réglage spécifie la note maximale pouvant être obtenue pour l\'évaluation de travaux.';
@@ -192,6 +194,7 @@ $string['nogradeyet'] = 'Pas encore de note';
 $string['nosubmissionfound'] = 'Aucun travail remis par cet utilisateur';
 $string['nosubmissions'] = 'Aucun travail remis dans cet atelier';
 $string['notassessed'] = 'Pas encore évalué';
+$string['nothingfound'] = 'Rien à afficher';
 $string['nothingtoreview'] = 'Rien à évaluer';
 $string['notoverridden'] = 'Pas modifié';
 $string['noworkshops'] = 'Il n\'y a pas d\'atelier dans ce cours';
@@ -265,11 +268,14 @@ Si vous activez ce réglage, il est recommandé de configurer également la mét
 $string['submissiongrade'] = 'Note pour le travail remis';
 $string['submissiongrade_help'] = 'Ce réglage détermine la note maximale pouvant être obtenue pour le travail remis.';
 $string['submissiongradeof'] = 'Note pour le travail remis (sur {$a})';
+$string['submissionlastmodified'] = 'Dernière modification';
 $string['submissionsettings'] = 'Réglages de remise des travaux';
+$string['submissionsreport'] = 'Rapport de remise de l\'atelier';
 $string['submissionstart'] = 'Début de la remise des travaux';
 $string['submissionstartdatetime'] = 'Ouvert pour la remise des travaux dès le {$a->daydatetime} ({$a->distanceday})';
 $string['submissionstartevent'] = '{$a} (ouverture de la remise)';
 $string['submissiontitle'] = 'Titre';
+$string['submittednotsubmitted'] = 'Remis ({$a->submitted}) / non remis ({$a->notsubmitted})';
 $string['subplugintype_workshopallocation'] = 'Méthode d\'attribution des travaux';
 $string['subplugintype_workshopallocation_plural'] = 'Méthodes d\'attribution des travaux';
 $string['subplugintype_workshopeval'] = 'Méthode de notation des évaluations';

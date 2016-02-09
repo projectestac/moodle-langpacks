@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'group', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -142,6 +142,7 @@ $string['importgroups_link'] = 'group/import';
 $string['javascriptrequired'] = 'This page requires JavaScript to be enabled.';
 $string['members'] = 'Members per group';
 $string['membersofselectedgroup'] = 'Members of:';
+$string['mygroups'] = 'My groups';
 $string['namingscheme'] = 'Naming scheme';
 $string['namingscheme_help'] = 'The at symbol (@) may be used to create groups with names containing letters. For example Group @ will generate groups named Group A, Group B, Group C, ...
 
@@ -150,6 +151,7 @@ $string['newgrouping'] = 'New grouping';
 $string['newpicture'] = 'New picture';
 $string['newpicture_help'] = 'Select an image in JPG or PNG format. The image will be cropped to a square and resized to 100x100 pixels.';
 $string['noallocation'] = 'No allocation';
+$string['nogroup'] = 'No group';
 $string['nogrouping'] = 'No grouping';
 $string['nogroups'] = 'There are no groups set up in this course yet';
 $string['nogroupsassigned'] = 'No groups assigned';
@@ -157,10 +159,12 @@ $string['nopermissionforcreation'] = 'Can\'t create group "{$a}" as you don\'t h
 $string['nosmallgroups'] = 'Prevent last small group';
 $string['notingroup'] = 'Ignore users in groups';
 $string['notingrouping'] = '[Not in a grouping]';
+$string['notingrouplist'] = '[Not in a group]';
 $string['nousersinrole'] = 'There are no suitable users in the selected role';
 $string['number'] = 'Group/member count';
 $string['numgroups'] = 'Number of groups';
 $string['nummembers'] = 'Members per group';
+$string['othergroups'] = 'Other groups';
 $string['overview'] = 'Overview';
 $string['potentialmembers'] = 'Potential members: {$a}';
 $string['potentialmembs'] = 'Potential members';

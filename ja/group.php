@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'group', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -141,6 +141,7 @@ $string['importgroups_help'] = 'テキストファイル経由でグループを
 $string['javascriptrequired'] = 'このページではJavaScriptを有効にする必要があります。';
 $string['members'] = 'グループあたりのメンバー数';
 $string['membersofselectedgroup'] = 'メンバー:';
+$string['mygroups'] = 'マイグループ';
 $string['namingscheme'] = 'ネーミングスキーム';
 $string['namingscheme_help'] = 'アットマーク (@) を使用することにより、グループ名に文字を含むグループを作成することができます。例えば「グループ @」は「グループ A」「グループ B」「グループ C」のようなグループ名のグループを生成します。
 
@@ -149,6 +150,7 @@ $string['newgrouping'] = '新しいグルーピング';
 $string['newpicture'] = '新しい画像';
 $string['newpicture_help'] = 'JPGまたはPNGフォーマットの画像を選択してください。画像は正方形に切り取られた後、100x100ピクセルにリサイズされます。';
 $string['noallocation'] = '割り当てなし';
+$string['nogroup'] = 'グループなし';
 $string['nogrouping'] = 'グルーピングなし';
 $string['nogroups'] = 'このコースにはまだグループが作成されていません。';
 $string['nogroupsassigned'] = 'グループが割り当てられていません。';
@@ -156,10 +158,12 @@ $string['nopermissionforcreation'] = 'あなたには必要なパーミッショ
 $string['nosmallgroups'] = '最後の小グループを抑制する';
 $string['notingroup'] = 'グループ内のユーザを無視する';
 $string['notingrouping'] = '[グルーピング未登録]';
+$string['notingrouplist'] = '[グループ外]';
 $string['nousersinrole'] = '選択したロールに適合するユーザがいません。';
 $string['number'] = 'グループ/メンバー数';
 $string['numgroups'] = 'グループ数';
 $string['nummembers'] = 'グループあたりのメンバー数';
+$string['othergroups'] = '他のグループ';
 $string['overview'] = '概要';
 $string['potentialmembers'] = '潜在的メンバー: {$a}';
 $string['potentialmembs'] = '潜在的メンバー';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'el', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'el', branch 'MOODLE_30_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -196,7 +196,6 @@ $string['grade:unlock'] = 'Ξεκλείδωμα βαθμών';
 $string['grade:view'] = 'Προβολή των βαθμών του';
 $string['grade:viewall'] = 'Προβολή των βαθμών άλλων χρηστών';
 $string['grade:viewhidden'] = 'Προβολή των κρυφών βαθμών του';
-$string['hidden'] = 'Κρυφά';
 $string['highlightedcellsshowdefault'] = 'Τα φωτισμένα κελιά στον παρακάτω πίνακα δείχνουν την εξορισμού δυνατότητα για το ρόλο αυτό, βασισμένα στον \'Ιστορικό τύπο ρόλου\'.';
 $string['highlightedcellsshowinherit'] = 'Τα φωτισμένα κελιά στον παρακάτω πίνακα δείχνουν την δυνατότητα (αν υπάρχει) που πρόκειται να κληρονομηθεί. Αφήστε όλες τις δυνατότητες ρυθμισμένες στην Κληρονομιά εκτός από αυτές τις οποίες θέλετε να αλλάξετε.';
 $string['inactiveformorethan'] = 'ανενεργό για παραπάνω από {$a->timeperiod}';

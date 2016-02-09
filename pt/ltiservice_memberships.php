@@ -16,17 +16,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_timezoneimport', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'ltiservice_memberships', language 'pt', branch 'MOODLE_30_STABLE'
  *
- * @package   tool_timezoneimport
+ * @package   ltiservice_memberships
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configintrotimezones'] = 'Den här sidan kommer att söka efter ny information om tidszoner i världen (inklusive regler för \'daylight savings time\'). Dessa platser kommer att kontrolleras i nedanstående ordning: {$a} Den här proceduren är normalt sett mycket säker och stör inte normala installationer. Vill Du uppdatera Dina tidszoner nu?';
-$string['importtimezones'] = 'Uppdatera hela listan med tidszoner';
-$string['importtimezonescount'] = '{$a->count} inlägg importerade från {$a->source}';
-$string['importtimezonesfailed'] = 'Det gick inte att hitta några källor (Dåliga nyheter)';
-$string['updatetimezones'] = 'Uppdatera tidszoner';
+$string['pluginname'] = 'Subscrever Serviço LTI';
+$string['servicename'] = 'Subscrever';

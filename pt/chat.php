@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'chat', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,7 @@ $string['chat:exportparticipatedsession'] = 'Exportar sessão de chat em que par
 $string['chat:exportsession'] = 'Exportar qualquer sessão de chat';
 $string['chatintro'] = 'Descrição';
 $string['chatname'] = 'Nome da sala de chat';
-$string['chat:readlog'] = 'Ler gravações do chat';
+$string['chat:readlog'] = 'Ver gravações do chat';
 $string['chatreport'] = 'Sessões de chat';
 $string['chat:talk'] = 'Submeter mensagens no chat';
 $string['chattime'] = 'Próxima sessão de chat';

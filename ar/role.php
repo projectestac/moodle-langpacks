@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ar', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'ar', branch 'MOODLE_30_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -161,7 +161,6 @@ $string['grade:unlock'] = 'فتح الدرجات او العناصر';
 $string['grade:view'] = 'معاينة درجاتك الخاصة';
 $string['grade:viewall'] = 'معاينة درجات مستخدميين اخرين';
 $string['grade:viewhidden'] = 'معاينة درجاتك الخاصة المخفية';
-$string['hidden'] = 'مخفية';
 $string['inherit'] = 'موروث';
 $string['legacy:admin'] = 'دور موروث: مدير';
 $string['legacy:coursecreator'] = 'دور موروث: منشئ مقررات دراسية';

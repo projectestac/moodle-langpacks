@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'wiki', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,7 @@ $string['defaultformat_help'] = 'この設定ではWikiページの編集時に�
 * HTML - HTMLエディタを使用できます。
 * クレオール - 小さな編集ツールバーの一般的なWikiマークアップ言語を使用できます。
 * Nwiki - Nwikiモジュールで使用される、Mediawikiのようなマークアップ言語です。';
+$string['deleteallpages'] = 'すべてのWikiページを削除する';
 $string['deletecomment'] = 'コメントの削除';
 $string['deletecommentcheck'] = 'コメントを削除する';
 $string['deletecommentcheckfull'] = '本当にコメントを削除してもよろしいですか?';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'it', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth', language 'it', branch 'MOODLE_30_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actauthhdr'] = 'Plugin di autenticazione disponibili';
+$string['allowaccountssameemail'] = 'Consenti utenti con email duplicate';
+$string['allowaccountssameemail_desc'] = 'Più utenti potranno usare lo stesso indirizzo email. Tale configurazione può comportare problemi di sicurezza o di privacy, ad esempio nel caso di email relative al cambio della password.';
 $string['alternatelogin'] = 'Specificando un URL come Pagina di login sostitutiva, Moodle la utilizzerà al posto della pagina di login standard. La Pagina di login sostitutiva deve contenere un form con la "action property" impostata a <strong>\'{$a}\'</strong> e deve contenere i campi <strong>username</strong> e <strong>password</strong>.<br/> Fai attenzione a non inserire URL errati  perché ti chiuderai  fuori dal sito. <br/>
 Non compilare questo campo se preferisci utilizzare la pagina di login standard.';
 $string['alternateloginurl'] = 'URL pagina di login sostitutiva';
@@ -90,6 +92,7 @@ $string['errorminpasswordlength'] = 'La password deve essere lunga almeno {$a} c
 $string['errorminpasswordlower'] = 'La password deve contenere almeno {$a} lettere minuscole.';
 $string['errorminpasswordnonalphanum'] = 'La password deve contenere almeno {$a} caratteri non alfanumerici (punteggiatura, trattini, eccetera).';
 $string['errorminpasswordupper'] = 'La password deve contenere almeno {$a} lettere maiuscole.';
+$string['errorpasswordreused'] = 'Questa password è già stata utilizzata e non può essere riutilizzata.';
 $string['errorpasswordupdate'] = 'Si è verificato un errore durante l\'aggiornamento della password, la password non è stata modificata';
 $string['eventuserloggedin'] = 'Autenticato utente';
 $string['eventuserloggedinas'] = 'Autenticato utente come altro utente';
@@ -109,10 +112,13 @@ $string['informminpassworddigits'] = 'contenere almeno {$a} numero(i)';
 $string['informminpasswordlength'] = 'almeno {$a} caratteri';
 $string['informminpasswordlower'] = 'contenere almeno {$a} lettera(e) minuscola(e)';
 $string['informminpasswordnonalphanum'] = 'contenere almeno {$a} carattere(i)  non alfanumerico(i)';
+$string['informminpasswordreuselimit'] = 'Le password possono essere riutilizzate dopo {$a} modifiche';
 $string['informminpasswordupper'] = 'contenere almeno {$a} lettera(e) maiuscola(e)';
 $string['informpasswordpolicy'] = 'La password deve essere lunga {$a}';
 $string['instructions'] = 'Istruzioni';
 $string['internal'] = 'Interna';
+$string['limitconcurrentlogins'] = 'Limita autenticazioni contemporanee';
+$string['limitconcurrentlogins_desc'] = 'Limita il numero di sessioni browser contemporanee apribili da ciascun utente. Se un utente supera il limite, la sessione più vecchia sarà eliminata automaticamente. Da tenere presente che l\'utente può perdere eventuale lavoro non salvato. L\'impostazione non è compatibile con plugin di autenticazione con single sign on (SSO).';
 $string['locked'] = 'Bloccato';
 $string['md5'] = 'Hash MD5';
 $string['nopasswordchange'] = 'La password non può essere modificata';
@@ -130,6 +136,7 @@ $string['recaptcha'] = 'reCAPTCHA';
 $string['recaptcha_help'] = 'Il CAPTCHA è un sistema per prevenire abusi da parte di sistemi automatici. E\' sufficiente inserire le parole nel campo, con lo stesso ordine e separati da uno spazio.
 
 Se non riesci a leggere le parole, chiedi un altro CAPTCHA oppure chiedi un CAPTCHA audio.';
+$string['security_question'] = 'Domanda di sicurezza';
 $string['selfregistration'] = 'Auto creazione account';
 $string['selfregistration_help'] = 'Impostando un plugin per l\'auto creazione di account, come ad esempio il plugin per la creazione di account via email, qualsiasi visitatore del sito potrà crearsi un account. Tale funzione espone il sito al rischio che spammer possano creare account per inviare post indesiderati attraverso forum, blog od altre funzioni. Per evitare questo rischio è bene disabilitare l\' Auto creazione di account  oppure limitarla attraverso l\'impostazione <em>Domini di posta autorizzati</em> oppure ancora attivando il reCAPTCHA.';
 $string['sha1'] = 'Hash SHA-1';

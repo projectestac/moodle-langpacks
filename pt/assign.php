@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assign', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -81,7 +81,7 @@ $string['attemptheading'] = 'Tentativa {$a->attemptnumber}: {$a->submissionsumma
 $string['attempthistory'] = 'Tentativas anteriores';
 $string['attemptnumber'] = 'Número da tentativa';
 $string['attemptreopenmethod'] = 'Tentativas reabertas';
-$string['attemptreopenmethod_help'] = 'Determina como as tentativas de submissão do aluno são reabertas. As opções disponíveis são: <ul><li>Nunca - A submissão do aluno não pode ser reaberta.</li><li>Manualmente - A submissão do aluno pode ser reaberta pelo professor.</li><li>Automaticamente até obter aproveitamento - A submissão do aluno pode ser reaberta automaticamente até que obtenha a nota mínima definida na Pauta (secção \'Categorias e itens\') para este trabalho.</li></ul>';
+$string['attemptreopenmethod_help'] = 'Determina como as tentativas de submissão do aluno são reabertas. As opções disponíveis são: <ul><li>Nunca - A submissão do aluno não pode ser reaberta.</li><li>Manualmente - A submissão do aluno pode ser reaberta pelo professor.</li><li>Automaticamente até obter aproveitamento - A submissão do aluno pode ser reaberta automaticamente até que obtenha a nota mínima definida na Pauta (secção \'Configurar a Pauta\') para este trabalho.</li></ul>';
 $string['attemptreopenmethod_manual'] = 'Manualmente';
 $string['attemptreopenmethod_none'] = 'Nunca';
 $string['attemptreopenmethod_untilpass'] = 'Automaticamente até obter aproveitamento';
@@ -228,13 +228,13 @@ $string['hiddenuser'] = 'Participante';
 $string['hideshow'] = 'Mostrar/Esconder';
 $string['instructionfiles'] = 'Ficheiros de instruções';
 $string['introattachments'] = 'Ficheiros adicionais';
-$string['introattachments_help'] = 'Ficheiros adicionais para utilização no Trabalho, tal como modelos de resposta, podem ser adicionados. Os links para download dos ficheiros serão exibidos na página do Trabalho, abaixo da descrição.';
+$string['introattachments_help'] = 'Podem ser adicionados ficheiros para utilização no Trabalho, tais como modelos de resposta. Serão exibidos links para descarregar os ficheiros na página do Trabalho, abaixo da descrição.';
 $string['invalidfloatforgrade'] = 'A avaliação submetida não é perceptivel: {$a}';
 $string['invalidgradeforscale'] = 'A avaliação atríbuida não é válida para a escala em uso';
 $string['lastmodifiedgrade'] = 'Última atualização (avaliação)';
 $string['lastmodifiedsubmission'] = 'Última atualização (submissão)';
 $string['latesubmissions'] = 'Submissões com atraso';
-$string['latesubmissionsaccepted'] = 'Disponível até à Data limite para submeter trabalhos';
+$string['latesubmissionsaccepted'] = 'Disponível até {$a}';
 $string['locksubmissionforstudent'] = 'Impedir novas submissões para o aluno: (id={$a->id}, nome completo={$a->fullname}).';
 $string['locksubmissions'] = 'Bloquear trabalhos';
 $string['manageassignfeedbackplugins'] = 'Gerir módulos de feedback do trabalho';
@@ -274,6 +274,8 @@ Ao avaliar os trabalhos, os professores podem inserir comentários de feedback e
 $string['modulename_link'] = 'mod/assignment/view';
 $string['modulenameplural'] = 'Trabalhos';
 $string['moreusers'] = 'mais {$a}...';
+$string['multipleteams'] = 'Inscrito em mais do que um grupo';
+$string['multipleteamsgrader'] = 'Não pode fazer submissões deste trabalho porque está inscrito em mais do que um grupo.';
 $string['mysubmission'] = 'Meu trabalho:';
 $string['newsubmissions'] = 'Trabalhos submetidos';
 $string['noattempt'] = 'Nenhuma tentativa';
@@ -285,6 +287,8 @@ $string['noonlinesubmissions'] = 'Este trabalho não requer que submeta nada onl
 $string['nosavebutnext'] = 'Próximo';
 $string['nosubmission'] = 'Ainda não foi submetido nada neste Trabalho';
 $string['nosubmissionsacceptedafter'] = 'Não se aceitam submissões depois de';
+$string['noteam'] = 'Não está inscrito em nenhum grupo';
+$string['noteamgrader'] = 'Não pode fazer submissões deste trabalho porque não está inscrito em nenhum grupo.';
 $string['notgraded'] = 'Sem avaliação';
 $string['notgradedyet'] = 'Ainda não foi avaliado';
 $string['notifications'] = 'Notificações';
@@ -305,6 +309,8 @@ $string['page-mod-assign-x'] = 'Qualquer página do trabalho';
 $string['participant'] = 'Participante';
 $string['pluginadministration'] = 'Administração do trabalho';
 $string['pluginname'] = 'Trabalho';
+$string['preventsubmissionnotingroup'] = 'Requer grupo para submeter trabalho';
+$string['preventsubmissionnotingroup_help'] = 'Se ativar esta opção, os utilizadores que não pertencerem a um grupo ficarão impedidos de fazer submissões.';
 $string['preventsubmissions'] = 'Impedir novas submissões do aluno a este trabalho (bloquear)';
 $string['preventsubmissionsshort'] = 'Impedir novas submissões (bloquear)';
 $string['previous'] = 'Anterior';
@@ -427,6 +433,7 @@ $string['teamsubmission_help'] = 'Se ativar esta opção os alunos serão dividi
 $string['textinstructions'] = 'Instruções do trabalho';
 $string['timemodified'] = 'Última alteração';
 $string['timeremaining'] = 'Tempo restante';
+$string['ungroupedusers'] = 'A configuração \'Requer grupo para submeter trabalho\' está ativa e existem utilizadores que não pertencem a nenhum grupo, ou que se encontram inscritos em mais do que um, o que fará com que estes fiquem impossibilitados de submeter os seus trabalhos.';
 $string['unlimitedattempts'] = 'Ilimitado';
 $string['unlimitedattemptsallowed'] = 'Tentativas ilimitadas permitidas.';
 $string['unlocksubmissionforstudent'] = 'Permitir submissões ao aluno: (id={$a->id}, fullname={$a->fullname}).';
@@ -436,6 +443,7 @@ $string['updatetable'] = 'Guardar e atualizar tabela';
 $string['upgradenotimplemented'] = 'Atualização não implementada no módulo ({$a->type} {$a->subtype})';
 $string['userextensiondate'] = 'Prazo prolongado até: {$a}';
 $string['usergrade'] = 'Nota do Utilizador';
+$string['useridlistnotcached'] = 'As notas não foram guardadas. O Moodle não foi capaz de determinar para que submissão eram as notas.';
 $string['userswhoneedtosubmit'] = 'Utilizadores que têm de submeter: {$a}';
 $string['validmarkingworkflowstates'] = 'Estados válidos do processo de avaliação';
 $string['viewbatchmarkingallocation'] = 'Ver atribuição de avaliadores';

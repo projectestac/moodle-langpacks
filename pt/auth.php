@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actauthhdr'] = 'Módulos de autenticação disponíveis';
+$string['allowaccountssameemail'] = 'Permitir a existência de contas com o mesmo e-mail';
+$string['allowaccountssameemail_desc'] = 'Se ativar esta opção, o mesmo endereço de e-mail poderá ser utilizado em várias contas de utilizador. Esta ação poderá levantar alguns problemas de privacidade e de segurança em determinadas situações, como por exemplo, no envio de e-mails para alteração de password.';
 $string['alternatelogin'] = 'Se inserir um URL aqui, será utilizado como página de entrada para este site. A página deverá conter um formulário que tenha a propriedade action definida para <strong>\'{$a}\'</strong> e campos de retorno <strong>username</strong> e <strong>password</strong>.<br />Tenha cuidado para não inserir um URL incorreto porque pode bloqueá-lo a si mesmo de aceder a este site.<br /> Deixe esta definição em branco para utilizar a página de entrada própria do Moodle.';
 $string['alternateloginurl'] = 'Endereço alternativo para autenticação';
 $string['auth_changepasswordhelp'] = 'Ajuda para alterar senha';
@@ -91,6 +93,7 @@ $string['errorminpasswordlength'] = 'A senha deverá ter pelo menos {$a} caracte
 $string['errorminpasswordlower'] = 'A senha deverá ter pelo menos {$a} letra(s) minúscula(s).';
 $string['errorminpasswordnonalphanum'] = 'A senha deverá ter pelo menos {$a} caracter(es) não alfanumérico(s).';
 $string['errorminpasswordupper'] = 'A senha deverá ter pelo menos {$a} letra(s) maiúscula(s).';
+$string['errorpasswordreused'] = 'Esta senha já foi utilizada anteriormente, e não é permitida a sua reutilização';
 $string['errorpasswordupdate'] = 'Erro na atualização da senha; senha não modificada';
 $string['eventuserloggedin'] = 'Utilizador autenticou-se';
 $string['eventuserloggedinas'] = 'Utilizador entrou como outro utilizador';
@@ -110,10 +113,13 @@ $string['informminpassworddigits'] = 'pelo menos {$a} dígito(s)';
 $string['informminpasswordlength'] = 'pelo menos {$a} caracteres';
 $string['informminpasswordlower'] = 'pelo menos {$a} letra(s) minúscula(s)';
 $string['informminpasswordnonalphanum'] = 'pelo menos {$a} caracter(es) alfanumérico(s)';
+$string['informminpasswordreuselimit'] = 'As senhas podem ser reutilizadas após {$a} alterações';
 $string['informminpasswordupper'] = 'pelo menos {$a} letra(s) maiúscula(s)';
 $string['informpasswordpolicy'] = 'A senha tem que ter {$a}';
 $string['instructions'] = 'Instruções';
 $string['internal'] = 'Interno';
+$string['limitconcurrentlogins'] = 'Limitar sessões iniciadas em simultâneo';
+$string['limitconcurrentlogins_desc'] = 'Se ativar esta opção, o número de sessões iniciadas em simultâneo passará a ser restrito para cada utilizador. A sessão iniciada há mais tempo será terminada após o limite ser atingido, por favor note que os utilizadores poderão perder toda a informação ainda não guardada. Esta configuração não é compatível com módulos de autenticação single-sign-on (SSO).';
 $string['locked'] = 'Bloqueado';
 $string['md5'] = 'Criptografia MD5';
 $string['nopasswordchange'] = 'A senha não pode ser modificada.';
@@ -130,6 +136,7 @@ $string['potentialidps'] = 'Autenticar-se usando a sua conta em:';
 $string['recaptcha'] = 'reCAPTCHA';
 $string['recaptcha_help'] = 'O CAPTCHA serve para evitar ações indevidas por parte de programas automáticos. Insira as palavras na caixa, pela ordem apresentada e separadas por um espaço em branco.Se não tem a certeza das palavras, obtenha um novo CAPTCHA ou um CAPTCHA em formato áudio.';
 $string['recaptcha_link'] = 'link';
+$string['security_question'] = 'Pergunta de segurança';
 $string['selfregistration'] = 'Autorregisto';
 $string['selfregistration_help'] = 'Se estiver selecionado um módulo de autenticação como, por exemplo, o Autorregisto com confirmação por e-mail, então é possível aos utilizadores potenciais se registarem e criarem a sua conta de utilizador. Todavia isto torna também possível que spammers criem para usar os fóruns, blogues, etc. para inserir mensagens de spam (publicidade por exemplo). Para evitar estas situações, o autorregisto deve ser desativado ou limitado através da opção <em>Domínios de e-mail permitidos</em>';
 $string['sha1'] = 'tabela hash SHA-1';

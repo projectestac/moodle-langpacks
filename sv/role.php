@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -239,7 +239,6 @@ $string['grade:unlock'] = 'Lås upp betyg/omdömen eller komponenter';
 $string['grade:view'] = 'Visa egna betyg/omdömen';
 $string['grade:viewall'] = 'Visa betyg/omdömen för andra användare';
 $string['grade:viewhidden'] = 'Visa dolda getyg/omdömen för ägaren';
-$string['hidden'] = 'Dold';
 $string['inactiveformorethan'] = 'Inaktiv i mer än {$a->timeperiod}';
 $string['ingroup'] = 'i gruppen "{$a->group}"';
 $string['inherit'] = 'Ärv';
@@ -390,7 +389,7 @@ $string['question:usemine'] = 'Använd Dina egna frågor';
 $string['question:viewall'] = 'Visa alla frågor';
 $string['question:viewmine'] = 'Visa Dina egna frågor';
 $string['rating:rate'] = 'Lägg till betygssättning/omdömen till komponenterna';
-$string['rating:view'] = 'Visa den sammanlagda bedömning som Du har fått';
+$string['rating:view'] = 'Visa den sammanlagda bedömning som du har fått';
 $string['rating:viewall'] = 'Visa alla \'råa\' bedömningar som har avgivits av individer';
 $string['rating:viewany'] = 'Visa de sammanlagda bedömningar som någon har fått';
 $string['resetrole'] = 'Återställ till standardvärden';
@@ -482,7 +481,7 @@ $string['thisusersroles'] = 'Denne användares tilldelade roller';
 $string['user:changeownpassword'] = 'Ändra Ditt eget lösenord';
 $string['user:create'] = 'Skapa användare';
 $string['user:delete'] = 'Ta bort användare';
-$string['user:editownprofile'] = 'Redigera Din egen profil';
+$string['user:editownprofile'] = 'Redigera din egen profil';
 $string['user:editprofile'] = 'Redigera användarprofil';
 $string['user:loginas'] = 'Logga in som andra användare';
 $string['user:manageblocks'] = 'Hantera block i användarprofil hos andra användare';

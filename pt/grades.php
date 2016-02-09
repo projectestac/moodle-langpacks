@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'grades', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,7 +50,7 @@ $string['aggregateonlygraded_help'] = 'Uma nota vazia é uma nota em falta na pa
 Esta opção determina se as notas vazias não são incluídas nos cálculos ou se são consideradas pela nota mínima daquele item de avaliação. Por exemplo se o aluno não tem nota num trabalho cuja nota varia entre 0 e 100, então a nota considerada será 0.';
 $string['aggregateoutcomes'] = 'Incluir competências no cálculo';
 $string['aggregateoutcomes_help'] = 'Se ativar esta opção, as competências são incluídas no cálculo. Isto pode dar resultados imprevisíveis no total da categoria.';
-$string['aggregatesonly'] = 'Notas das categorias apenas';
+$string['aggregatesonly'] = 'Mudar para notas das categorias apenas';
 $string['aggregatesubcatsupgradedgrades'] = 'Nota: a configuração de agregação "Agregar incluindo subcategorias" foi removida na sequência de uma atualização do site. Uma vez que esta configuração estava a ser usada nesta disciplina, é recomendável que verifique esta alteração na pauta.';
 $string['aggregatesum'] = 'Natural';
 $string['aggregateweightedmean'] = 'Média ponderada';
@@ -117,7 +117,6 @@ $string['calculationview'] = 'Ver cálculo';
 $string['cannotaccessgroup'] = 'Lamentamos mas não pode aceder às avaliações do grupo selecionado.';
 $string['categories'] = 'Categorias';
 $string['categoriesanditems'] = 'Categorias e itens';
-$string['categoriesedit'] = 'Editar configuração';
 $string['category'] = 'Categoria';
 $string['categoryedit'] = 'Editar categoria';
 $string['categoryname'] = 'Nome da categoria';
@@ -143,6 +142,8 @@ $string['coursename'] = 'Nome da disciplina';
 $string['coursescales'] = 'Escalas da disciplina';
 $string['coursesettings'] = 'Definições da disciplina';
 $string['coursesettingsexplanation'] = 'As definições da disciplina determinam como a pauta será exibida a todos os participantes na disciplina.';
+$string['coursesiamtaking'] = 'Disciplinas em que estou inscrito';
+$string['coursesiamteaching'] = 'Disciplinas em que sou professor';
 $string['coursetotal'] = 'Total da disciplina';
 $string['createcategory'] = 'Criar categoria';
 $string['createcategoryerror'] = 'Não foi possível criar a nova categoria';
@@ -186,6 +187,7 @@ $string['enableajax_help'] = 'Ativar o AJAX na pauta simplifica e acelera as ope
 $string['enableoutcomes'] = 'Ativar competências';
 $string['enableoutcomes_help'] = 'Suporte para Competências (também designadas por objetivos, padrões ou critérios) significa que podemos avaliar algo usando uma ou mais notas qualitativas associadas a competências. Ativar as competências torna possível essa avaliação especial em todo o site.';
 $string['encoding'] = 'Codificação';
+$string['encoding_help'] = 'Selecione o tipo de codificação de caracteres utilizado para os dados. (A codificação padrão é a UTF-8.) Caso selecione por engano o tipo de codificação errado, irá aperceber-se do erro assim que for feita a pré-visualização dos dados para a importação.';
 $string['errorcalculationbroken'] = 'Provavelmente trata-se de uma referência circular ou de uma fórmula de cálculo quebrada';
 $string['errorcalculationnoequal'] = 'A fórmula tem de começar com um sinal de igual (=1+2)';
 $string['errorcalculationunknown'] = 'Fórmula inválida';
@@ -215,6 +217,8 @@ $string['exportonlyactive_help'] = 'Incluir na exportação apenas alunos cuja i
 $string['exportplugins'] = 'Módulos de exportação';
 $string['exportsettings'] = 'Definições de exportação';
 $string['exportto'] = 'Exportar para';
+$string['externalurl'] = 'URL externo';
+$string['externalurl_desc'] = 'Caso esteja a ser utilizada uma pauta externa, o URL deve ser indicado aqui.';
 $string['extracreditvalue'] = 'Valor do crédito extra {$a}';
 $string['extracreditwarning'] = 'Nota: Atribuir crédito extra a todos os itens de uma categoria fará com que estes sejam removidos do cálculo da nota total, pois assim não haverá um total de pontos';
 $string['feedback'] = 'Feedback';
@@ -236,8 +240,7 @@ $string['forceon'] = 'Forçar: ligado';
 $string['forelementtypes'] = 'para o(s) {$a} selecionado(s)';
 $string['forstudents'] = 'Para alunos';
 $string['full'] = 'Completo';
-$string['fullmode'] = 'Vista completa';
-$string['fullview'] = 'Vista completa';
+$string['fullmode'] = 'Mudar para vista completa';
 $string['generalsettings'] = 'Definições gerais';
 $string['grade'] = 'Nota';
 $string['gradeadministration'] = 'Administração da pauta';
@@ -251,6 +254,7 @@ $string['gradebookcalculationswarning'] = 'Nota: Foram encontrados alguns erros 
 A nova versão é {$a->currentversion}; neste momento está a utilizar a versão {$a->gradebookversion} da pauta. Pode ver uma lista das alterações em <a href="{$a->url}">Gradebook calculation changes</a>.';
 $string['gradebookhiddenerror'] = 'De momento, o relatório está configurado para ocultar toda a informação dos alunos.';
 $string['gradebookhistories'] = 'Histórico de notas';
+$string['gradebooksetup'] = 'Configurar a Pauta';
 $string['gradeboundary'] = 'Limite inferior do intervalo';
 $string['gradeboundary_help'] = 'Esta opção determina a percentagem mínima da nota sobre a qual é atribuída uma nota alfabética.';
 $string['gradecategories'] = 'Categorias da pauta';
@@ -300,6 +304,7 @@ $string['gradeitemsinc'] = 'Itens de avaliação a incluir';
 $string['gradeletter'] = 'Nota alfabética';
 $string['gradeletter_help'] = 'Notas alfabéticas são letras, A, B, C, ..., ou palavras como por exemplo Distinção, Mérito..., usadas para representar um intervalo de notas.';
 $string['gradeletternote'] = 'Para eliminar uma nota alfabética basta limpar qualquer uma <br /> das 3 caixas de texto da nota e clicar em Submeter.';
+$string['gradeletteroverridden'] = 'As notas alfabéticas predefinidas encontram-se ajustadas.';
 $string['gradeletters'] = 'Notas alfabéticas';
 $string['gradelocked'] = 'Nota bloqueada';
 $string['gradelong'] = '{$a->grade} / {$a->max}';
@@ -311,6 +316,7 @@ $string['gradeoutcomeitem'] = 'Avaliar competência';
 $string['gradeoutcomes'] = 'Competências';
 $string['gradeoutcomescourses'] = 'Competências da disciplina';
 $string['gradepass'] = 'Nota de aprovação';
+$string['gradepassgreaterthangrade'] = 'A nota de aprovação não pode ser superior à nota máxima {$a}';
 $string['gradepass_help'] = 'Esta opção determina a nota mínima necessária para obter aprovação na disciplina. O valor é usado nas atividades, conclusão da disciplina e pauta, onde as notas de aprovação são destacadas a verde e as de reprovação a vermelho.';
 $string['gradepointdefault'] = 'Pontuação predefinida';
 $string['gradepointdefault_help'] = 'Esta configuração determina o valor predefinido para a pontuação disponível numa atividade.';
@@ -327,7 +333,7 @@ $string['gradereport'] = 'Pauta';
 $string['graderreport'] = 'Pauta do avaliador';
 $string['grades'] = 'Notas';
 $string['gradesforuser'] = 'Notas de {$a->user}';
-$string['gradesonly'] = 'Só notas';
+$string['gradesonly'] = 'Mudar para só notas';
 $string['gradessettings'] = 'Definições de notas';
 $string['gradetype'] = 'Tipo de nota';
 $string['gradetype_help'] = 'Existem três tipos de notas:
@@ -377,6 +383,14 @@ $string['idnumbers'] = 'Números de identificação';
 $string['ignore'] = 'Ignorar';
 $string['import'] = 'Importar';
 $string['importcsv'] = 'Importar CSV';
+$string['importcsv_help'] = 'As notas podem ser importadas através de um Ficheiro CSV com o seguinte formato:
+
+* Cada linha do ficheiro contem apenas um registo
+* Cada registo é um conjunto de dados separados por vírgulas ou outro tipo de separador
+* O primeiro registo contem uma lista com os nomes do campo, definindo assim o restante formato do ficheiro
+* É necessário existir um campo para colocar dados de identificação dos utilizadores - pode ser para colocação do nome do utilizador, do número de identificação, ou do endereço de e-mail
+
+Se previamente exportar algumas notas, poderá obter um exemplo de um ficheiro com o formato correto. O ficheiro em questão deverá posteriormente ser editado, e gravado como Ficheiro CSV.';
 $string['importcustom'] = 'Importar como competências personalizadas (apenas nesta disciplina)';
 $string['importerror'] = 'Ocorreu um erro, o script não foi chamado com os parâmetros corretos.';
 $string['importfailed'] = 'A importação falhou. Nenhum dado foi importado.';
@@ -436,8 +450,11 @@ $string['lowest'] = 'Mais baixa';
 $string['lowgradeletter'] = 'Mínima';
 $string['manualitem'] = 'Item manual';
 $string['mapfrom'] = 'Mapear a partir de';
+$string['mapfrom_help'] = 'Selecione a coluna da folha de cálculo que contem os dados de identificação do utilizador, tal como o nome de utilizador, o número de identificação, ou o endereço de e-mail.';
 $string['mappings'] = 'Mapeamentos de itens de avaliação';
+$string['mappings_help'] = 'Para cada coluna de nota da folha de cálculo, indique o item de avaliação a que corresponde para que a importação seja efetuada.';
 $string['mapto'] = 'Mapear para';
+$string['mapto_help'] = 'Selecione os mesmos dados de identificação selecionados em "Campo de origem".';
 $string['max'] = 'Mais alta';
 $string['maxgrade'] = 'Nota máxima';
 $string['meanall'] = 'Todas as notas';
@@ -454,6 +471,7 @@ $string['minmaxtouse_help'] = 'Esta configuração determina se deve utilizar a 
 $string['minmaxupgradedgrades'] = 'Nota: Algumas notas foram alteradas de modo a resolver uma incoerência na pauta, causada por uma alteração das notas mínimas e máximas utilizadas para o cálculo da nota exibida. É recomendável que as alterações sejam revistas e aceites.';
 $string['minmaxupgradefixbutton'] = 'Resolver incoerências';
 $string['minmaxupgradewarning'] = 'Nota: Foi detectada uma incoerência em algumas avaliações devido a uma alteração das notas mínimas e máximas, utilizadas no cálculo da nota exibida na pauta. É recomendável que carregue no botão abaixo para resolver a incoerência, embora tal vá resultar na alteração de algumas notas.';
+$string['missingitemtypeoreid'] = 'O índice do array (itemtype ou eid) do segundo argumento da função grade_edit_tree_column_select::get_item_cell($item, $params) está em falta';
 $string['missingscale'] = 'É preciso selecionar uma escala';
 $string['mode'] = 'Moda';
 $string['modgrade'] = 'Nota';
@@ -471,6 +489,8 @@ $string['movingelement'] = 'A mover {$a}';
 $string['multfactor'] = 'Multiplicador';
 $string['multfactor_help'] = 'O multiplicador é o fator pelo qual serão multiplicadas todas as notas para esta prova, com valor máximo igual à nota máxima. Por exemplo, se o multiplicador for 2 e a nota máxima for 100, todas as notas menores que 50 serão multiplicadas por 2, e as notas  maiores ou iguais a 50 serão convertidas em 100.';
 $string['multfactorvalue'] = 'Multiplicador para {$a}';
+$string['mygrades'] = 'Hiperligação para a pauta no menu do utilizador';
+$string['mygrades_desc'] = 'Esta configuração permite ligar a uma pauta externa a partir do menu do utilizador.';
 $string['mypreferences'] = 'Minhas preferências';
 $string['myreportpreferences'] = 'Minhas preferências';
 $string['navmethod'] = 'Método de navegação';
@@ -496,10 +516,12 @@ $string['nooutcome'] = 'Nenhuma competência';
 $string['nooutcomes'] = 'As competências devem estar ligadas a competências da disciplina mas não existem competências nesta disciplina. Deseja adicionar uma?';
 $string['nopermissiontoresetweights'] = 'Sem permissão para redefinir os pesos';
 $string['nopublish'] = 'Não publicar';
+$string['noreports'] = 'Não se encontra inscrito, nem a lecionar nenhuma disciplina neste site.';
 $string['norolesdefined'] = 'Não existem papéis definidos em Administração > Notas > Configurações > Papéis avaliados';
 $string['noscales'] = 'As competências devem estar ligadas a uma escala da disciplina ou global, mas não existe nenhuma. Deseja adicionar uma?';
 $string['noselectedcategories'] = 'não foram selecionadas quaisquer categorias.';
 $string['noselecteditems'] = 'não foram selecionados quaisquer itens.';
+$string['notenrolled'] = 'Atualmente não se encontra inscrito em nenhuma disciplina.';
 $string['notteachererror'] = 'Tem que ser professor para usar esta funcionalidade';
 $string['nousersloaded'] = 'Sem utilizadores carregados';
 $string['numberofgrades'] = 'Número de notas';
@@ -602,6 +624,7 @@ $string['resetweights'] = 'Redefinir pesos de {$a->itemname}';
 $string['resetweightsshort'] = 'Redefinir pesos';
 $string['respectingcurrentdata'] = 'deixando a opção atual sem alterações';
 $string['rowpreviewnum'] = 'Número de linhas a pré-visualizar';
+$string['rowpreviewnum_help'] = 'Os dados a importar devem ser pré-visualizados e confirmados antes da importação. Esta configuração determina o número de linhas a ser exibida na pré-visualização.';
 $string['savechanges'] = 'Gravar alterações';
 $string['savepreferences'] = 'Gravar preferências';
 $string['scaleconfirmdelete'] = 'Tem certeza que deseja apagar a escala "{$a}"?';
@@ -612,6 +635,7 @@ $string['selectalloroneuser'] = 'Selecione todos ou um utilizador';
 $string['selectauser'] = 'Selecione um utilizador';
 $string['selectdestination'] = 'Selecionar destino de {$a}';
 $string['separator'] = 'Separador';
+$string['separator_help'] = 'Selecione o tipo de separador utilizado no Ficheiro CSV. (Habitualmente utiliza-se a vírgula.)';
 $string['sepcolon'] = 'Dois pontos';
 $string['sepcomma'] = 'Vírgula';
 $string['sepsemicolon'] = 'Ponto e vírgula';
@@ -652,6 +676,9 @@ $string['showhiddenitems_help'] = 'Esta opção define se os itens ocultos são 
 * Apenas ocultar até - Os itens da pauta definidos como ocultos até uma determinada data ficarão totalmente ocultos até à data definida. Após esta data, estes itens serão exibidos na sua totalidade;
 * Não exibir itens ocultos - Todos os itens ocultos são omitidos da pauta.';
 $string['showhiddenuntilonly'] = 'Apenas Ocultar até';
+$string['showingaggregatesonly'] = 'Mostrar as notas das categorias apenas';
+$string['showingfullmode'] = 'Vista completa';
+$string['showinggradesonly'] = 'Mostrar apenas as notas';
 $string['showlettergrade'] = 'Mostrar notas alfabéticas';
 $string['showlettergrade_help'] = 'Mostrar coluna com notas alfabéticas?';
 $string['showlocks'] = 'Mostrar bloqueios';
@@ -743,6 +770,7 @@ $string['usermappingerrorusernotfound'] = 'Erro de mapeamento de utilizador. Nã
 $string['userpreferences'] = 'Preferências do utilizador';
 $string['useweighted'] = 'Usar ponderações';
 $string['verbosescales'] = 'Escalas alfabéticas';
+$string['verbosescales_help'] = 'A escala alfabética utiliza palavras em vez de números. Colocar como "Sim" se pretender importar ambas as escalas, numérica e alfabética. Colocar "Não" se apenas pretender importar as escalas numéricas.';
 $string['viewbygroup'] = 'Grupo';
 $string['viewgrades'] = 'Ver notas';
 $string['weight'] = 'Peso';

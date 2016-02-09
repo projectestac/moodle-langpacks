@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'workshop', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -160,6 +160,8 @@ $string['gradeitemsubmission'] = '
 $string['gradeover'] = '提出に対する評点をオーバーライドする';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'ワークショップ評定レポート';
+$string['gradetopassgrading'] = '課題合格点';
+$string['gradetopasssubmission'] = '提出合格点';
 $string['gradinggrade'] = '評価に対する評点';
 $string['gradinggradecalculated'] = '評価に対する計算済み評点';
 $string['gradinggrade_help'] = 'この設定では提出の評価に関して取得する最大評点を指定します。';
@@ -194,6 +196,7 @@ $string['nogradeyet'] = '未評価';
 $string['nosubmissionfound'] = 'このユーザの提出はありません。';
 $string['nosubmissions'] = 'このワークショップの提出はまだありません。';
 $string['notassessed'] = '未評価';
+$string['nothingfound'] = '表示するものはありません。';
 $string['nothingtoreview'] = 'レビューするものはありません。';
 $string['notoverridden'] = '未オーバーライド';
 $string['noworkshops'] = 'このコース内にワークショップはありません。';
@@ -267,11 +270,14 @@ $string['submissionendswitch_help'] = '提出終了日時を指定した上で�
 $string['submissiongrade'] = '提出に対する評点';
 $string['submissiongrade_help'] = 'この設定では提出されたワークが取得することのできる最大評点を指定します。';
 $string['submissiongradeof'] = '提出に対する評点 (最大 {$a})';
+$string['submissionlastmodified'] = '最終更新日時';
 $string['submissionsettings'] = '提出設定';
+$string['submissionsreport'] = 'ワークショップ提出レポート';
 $string['submissionstart'] = '提出開始日時';
 $string['submissionstartdatetime'] = '提出開始日時 {$a->daydatetime} ({$a->distanceday})';
 $string['submissionstartevent'] = '{$a} (提出開始)';
 $string['submissiontitle'] = 'タイトル';
+$string['submittednotsubmitted'] = '提出 ({$a->submitted}) / 未提出 ({$a->notsubmitted})';
 $string['subplugintype_workshopallocation'] = '提出割り当て方法';
 $string['subplugintype_workshopallocation_plural'] = '提出割り当て方法';
 $string['subplugintype_workshopeval'] = '成績評価方法';

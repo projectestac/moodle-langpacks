@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'tool_monitor', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,7 +46,6 @@ $string['messagetemplate'] = 'Missatge de notificació';
 $string['moduleinstance'] = 'Instància';
 $string['monitordisabled'] = 'El monitoratge d\'esdeveniments està inhabilitat actualment.';
 $string['monitor:managetool'] = 'Habilita/inhabilita el monitoratge d\'esdeveniments';
-$string['nopermission'] = 'Sense permís';
 $string['processevents'] = 'Processa events';
 $string['rulecopysuccess'] = 'Regla duplicada correctament';
 $string['ruledeletesuccess'] = 'Regla esborrada correctament';

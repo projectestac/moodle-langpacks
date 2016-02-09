@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_cohort', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'enrol_cohort', language 'ru', branch 'MOODLE_30_STABLE'
  *
  * @package   enrol_cohort
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,8 @@ $string['addgroup'] = 'Добавить в группу';
 $string['assignrole'] = 'Назначить роль';
 $string['cohort:config'] = 'Настраивать глобальную группу';
 $string['cohort:unenrol'] = 'Отчислять приостановленных пользователей';
+$string['creategroup'] = 'Создать новую группу';
+$string['defaultgroupnametext'] = '{$a->name} глобальная группа {$a->increment}';
 $string['instanceexists'] = 'Глобальная группа уже синхронизирована с выбранной ролью';
 $string['pluginname'] = 'Синхронизация глобальной группы';
 $string['pluginname_desc'] = 'Метод записи «Глобальная группа» записывает членов глобальной группы в участники курса.';

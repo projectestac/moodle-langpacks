@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'feedback', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,10 +56,10 @@ $string['completed_feedbacks'] = 'Fullgjorda Egna enkäter';
 $string['complete_the_form'] = 'Fyll i hela formuläret';
 $string['completionsubmit'] = 'Visa som fullföljd om Egen enkät är inskickad/bekräftad/fullföljd';
 $string['configallowfullanonymous'] = 'Om det här alternativet är inställt till \'ja\' så går det att fullfölja Egen enkät utan att först logga in. Det påverkar bara förekomster av Egen enkät på ingångssidan.';
-$string['confirmdeleteentry'] = 'Är Du säker på att Du vill ta bort det här bidraget?';
-$string['confirmdeleteitem'] = 'Är Du säker på att Du vill ta bort den här komponenten?';
-$string['confirmdeletetemplate'] = 'Är Du säker på att Du vill ta bort den här mallen?';
-$string['confirmusetemplate'] = 'Är Du säker på att Du vill använda den här mallen?';
+$string['confirmdeleteentry'] = 'Är du säker på att du vill ta bort det här bidraget?';
+$string['confirmdeleteitem'] = 'Är du säker på att du vill ta bort den här komponenten?';
+$string['confirmdeletetemplate'] = 'Är du säker på att du vill ta bort den här mallen?';
+$string['confirmusetemplate'] = 'Är du säker på att du vill använda den här mallen?';
 $string['continue_the_form'] = 'Fortsätt formuläret';
 $string['count_of_nums'] = 'Räkning av tal';
 $string['courseid'] = 'kursID';

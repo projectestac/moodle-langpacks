@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'feedback', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -120,6 +120,7 @@ $string['export_to_excel'] = 'Excelにエクスポートする';
 $string['feedback:addinstance'] = '新しいフィードバックを追加する';
 $string['feedbackclose'] = 'フィードバック終了日時';
 $string['feedback:complete'] = 'フィードバックを完了する';
+$string['feedbackcompleted'] = '{$a->username} が {$a->feedbackname} を完了しました。';
 $string['feedback:createprivatetemplate'] = 'プライベートテンプレートを作成する';
 $string['feedback:createpublictemplate'] = 'パブリックテンプレートを作成する';
 $string['feedback:deletesubmissions'] = '完了した送信を削除する';

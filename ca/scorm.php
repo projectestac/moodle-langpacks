@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'scorm', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['aicchacpkeepsessiondata'] = 'Dades de sessió AICC HACP';
 $string['aicchacpkeepsessiondata_desc'] = 'Període de temps durant el qual es mantindran les dades de la sessió externa AICC HACP (un valor alt omplirà la taula amb dades antigues, però pot ser útil a l\'hora de depurar)';
 $string['aicchacptimeout'] = 'Temps d\'espera AICC HACP';
 $string['aicchacptimeout_desc'] = 'Període de temps en minuts que una sessió externa AICC HACP es mantindrà oberta';
+$string['aiccuserid_desc'] = 'L\'estàndard AICC per a noms d\'usuari és molt restrictiu si el comparem amb Moodle. Només permet caràcters alfanumèrics, guions i subratllats. No es permeten els punts, els espais ni el símbol @. Si s\'habilita, els números ID d\'usuari es passen al paquet AICC en lloc dels noms d\'usuari.';
 $string['aliasonly'] = 'Quan esteu seleccionant un fitxer imsmanifest.xml d\'un repositori us cal utilitzar un nom curt/àlies per a aquest fitxer.';
 $string['allowapidebug'] = 'Activar depuració i traçat API (ajustar la màscara de captura amb apidebugmask)';
 $string['allowtypeaicchacp'] = 'Habilitar AICC HACP extern';
@@ -105,8 +106,8 @@ $string['display'] = 'Visualitza';
 $string['displayactivityname'] = 'Mostra el nom de l\'activitat';
 $string['displayactivityname_help'] = 'Si cal mostrar o no el nom de l\'activitat al damunt del reproductor SCORM';
 $string['displayattemptstatus'] = 'Mostrar estat dels intents';
-$string['displayattemptstatusdesc'] = 'Si voleu mostrar o no les puntuacions i les qualificacions de l\'usuari al resum del curs a la Meva pàgina inicial i/o a la pàgina d\'entrada de l\'SCORM';
-$string['displayattemptstatus_help'] = 'Aquest paràmetre permet mostrar un resum dels intents de l\'usuari al bloc de resum del curs a la Meva pàgina inicial i/o a la pàgina d\'entrada de l\'SCORM.';
+$string['displayattemptstatusdesc'] = 'Si voleu mostrar o no les puntuacions i les qualificacions de l\'usuari al resum del curs a «El meu Moodle» i/o a la pàgina d\'entrada de l\'SCORM';
+$string['displayattemptstatus_help'] = 'Aquest paràmetre permet mostrar un resum dels intents de l\'usuari al bloc de resum del curs a «El meu Moodle» i/o a la pàgina d\'entrada de l\'SCORM.';
 $string['displaycoursestructure'] = 'Mostra l\'estructura del curs a la plana d\'entrada';
 $string['displaycoursestructuredesc'] = 'Aquesta preferència estableix el valor per defecte per mostrar el paràmetre mostra estructura a la plana d\'entrada';
 $string['displaycoursestructure_help'] = 'Si esta activat, la taula de continguts es mostrarà a la plana resum SCORM';
@@ -325,8 +326,8 @@ $string['scormtype_help'] = 'Aquest paràmetre determina com s\'insereix el paqu
 $string['scorm:viewreport'] = 'Veure informes';
 $string['scorm:viewscores'] = 'Veure puntuacions';
 $string['scrollbars'] = 'Permet el desplaçament de la finestra';
-$string['selectall'] = 'Selecciona-ho tot';
-$string['selectnone'] = 'Desselecciona-ho tot';
+$string['selectall'] = 'Seleccionar tot';
+$string['selectnone'] = 'Deseleccionar tot';
 $string['show'] = 'Mostrar';
 $string['sided'] = 'A un costat';
 $string['skipview'] = 'L\'estudiant omet la pàgina d\'estructura';

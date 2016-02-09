@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'it', branch 'MOODLE_28_STABLE'
+ * Strings for component 'question', language 'it', branch 'MOODLE_30_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -194,7 +194,6 @@ $string['generalfeedback_help'] = 'Il feedback generale viene visualizzato allo 
 Puoi utilizzare il feedback generale per dare agli studenti alcune informazioni relative alle conoscenze necessarie per rispondere alla domanda, oppure per fornire link utili per capire meglio la domanda.';
 $string['getcategoryfromfile'] = 'Categoria da file';
 $string['getcontextfromfile'] = 'Contesto da file';
-$string['hidden'] = 'Nascosto';
 $string['hintn'] = 'Suggerimento {no}';
 $string['hintnoptions'] = 'Opzioni suggerimento {no}';
 $string['hinttext'] = 'Testo del suggerimento';

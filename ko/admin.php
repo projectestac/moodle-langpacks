@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'admin', language 'ko', branch 'MOODLE_28_STABLE'
+ * Strings for component 'admin', language 'ko', branch 'MOODLE_30_STABLE'
  *
  * @package   admin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -126,6 +126,7 @@ $string['cliupgradefinished'] = '명령어 줄 판올림이 성공적으로 완�
 $string['cliupgradenoneed'] = '설치 버전 {$a} 에 대해  업그레이드가 필요하지 않습니다. 감사합니다!';
 $string['cliyesnoprompt'] = 'y(예를 의미) 혹은 n(아니오를 의미)을 입력';
 $string['commentsperpage'] = '페이지마다 표시될 덧글';
+$string['commonactivitysettings'] = '일반 설정';
 $string['commonfiltersettings'] = '공용 필터 설정';
 $string['commonsettings'] = '일반 설정';
 $string['componentinstalled'] = '구성요소가 설치되었음';
@@ -305,7 +306,6 @@ $string['configrequestedstudentname'] = '강좌에서 학생을 지칭하는 용
 $string['configrequestedstudentsname'] = '강좌에서 학생들을 지칭하는 용어';
 $string['configrequestedteachername'] = '강좌에서 선생님을 지칭하는 용어';
 $string['configrequestedteachersname'] = '강좌에서 선생님들을 지칭하는 용어';
-$string['configrequiremodintro'] = '매 활동에 입장할 때 활동 소개를 강제로 보게하고 싶지 않은 경우, 이 선택을 비활성할 것';
 $string['configrunclamavonupload'] = '이를 켜 놓으면, clam AV는 업로드되는 모든 파일을 검색할 것이다.';
 $string['configrunclamonupload'] = '업로드된 파일에 대해 clam AV로 바이러스 검색을 하겠는가? 이를 위해서는 clam 프로그램의 정확한 경로가 필요할 것이다.
 (clam AV는 http://www.clamav.net/로부터 공짜로 제공되는 바이러스 스캐너이다.)';
@@ -680,7 +680,7 @@ $string['multilangforceold'] = '강제로 예전의 다중언어 문법 사용: 
 $string['mustenablestats'] = '아직 통계수집을 하도록 설정하지 않았습니다.';
 $string['mycoursesperpage'] = '강좌의 수';
 $string['mydashboard'] = '시스템 기본 상황페이지';
-$string['mymoodle'] = '내 홈페이지';
+$string['mymoodle'] = '내 공부방';
 $string['mymoodleredirect'] = '내 공부방 강제 개설';
 $string['mypage'] = '내 공부방 페이지';
 $string['mypagelocked'] = '기본 페이지 잠김';
@@ -735,7 +735,6 @@ $string['pgcluster'] = 'PostgreSQL 클러스터';
 $string['pgclusterdescription'] = '명령어 라인 실행을 위한 PostgreSQL 버전/클러스터 파라메터. 만일 한개의 postgresql만이 설치되어 있다거나 잘 모를 경우에는 공백으로 남겨놓으십시요.';
 $string['phpfloatproblem'] = '예상밖의 PHP 부동소숫점 처리 문제 검출 - {$a}';
 $string['pleaserefreshregistration'] = '이 사이트는 moodle.org에 등록되어 있습니다. {$a} 에 업데이트 이후 상당한 변화가 있었다면 등록 업데이트를 고려해 보기 바랍니다.';
-$string['pleaseregister'] = '이 버튼을 제거하고 싶으면 당신의 사이트를 등록해 주세요.';
 $string['plugin'] = '플러그인';
 $string['plugins'] = '플러그인';
 $string['pluginscheck'] = '플러그인 의존성 체크';
@@ -957,7 +956,6 @@ $string['unsupported'] = '지원되지 않음';
 $string['unsuspenduser'] = '사용자 계정 활성화';
 $string['updateaccounts'] = '기존 계정 업데이트';
 $string['updateautocheck'] = '사용가능한 업데이트가 있는지 자동으로 확인';
-$string['updateautodeploy'] = '업데이트 배포 활성화';
 $string['updateavailable'] = '새로운 무들 버전이 있습니다.';
 $string['updateavailabledetailslink'] = '자세한 정보는  {$a->url}를 참고하세요.';
 $string['updateavailableforplugin'] = '사용가능한 플러그인에 대해 새로운 버전이 있습니다.';

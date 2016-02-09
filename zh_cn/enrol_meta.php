@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_meta', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'enrol_meta', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   enrol_meta
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addgroup'] = '加到小组';
 $string['linkedcourse'] = '链接课程';
 $string['meta:config'] = '配置元选课实例';
 $string['meta:selectaslinked'] = '选择做为元链接的课程';

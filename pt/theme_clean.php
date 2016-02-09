@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_clean', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'theme_clean', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   theme_clean
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,7 @@ $string['footnotedesc'] = 'Todo o conteúdo que inserir nesta área de texto ser
 $string['invert'] = 'Inverter barra de navegação';
 $string['invertdesc'] = 'Alterna o texto e fundo da barra de navegação no topo da página, entre o preto e o branco.';
 $string['logo'] = 'Logótipo';
-$string['logodesc'] = 'Adicione nesta área o logótipo personalizado que pretende que seja exibido no cabeçalho. <br /> Se a altura do logótipo for maior do que 75px, adicione a seguinte regra de CSS na caixa \'Personalizar CSS\' abaixo "a.logo {height: 100px;}" (ou qualquer outro valor em pixeis para a altura do logotipo).';
+$string['logodesc'] = 'Adicione nesta área o logótipo personalizado que pretende que seja exibido no cabeçalho. <br /> Se a altura do logótipo for maior do que 75px, adicione a seguinte regra de CSS na caixa \'Personalizar CSS\' abaixo "div.logo {height: 100px;}" (ou qualquer outro valor em pixeis para a altura do logotipo).';
 $string['pluginname'] = 'Tema Clean';
 $string['region-side-post'] = 'Direita';
 $string['region-side-pre'] = 'Esquerda';

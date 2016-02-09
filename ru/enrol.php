@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'enrol', language 'ru', branch 'MOODLE_30_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actenrolshhdr'] = 'Доступные способы записи на курс';
 $string['addinstance'] = 'Добавить способ';
+$string['addinstanceanother'] = 'Добавить метод и создать новый';
 $string['ajaxnext25'] = 'Следующие 25 ...';
 $string['ajaxoneuserfound'] = 'Найден 1 пользователь';
 $string['ajaxxusersfound'] = 'Найдено пользователей: {$a}';
@@ -92,6 +93,7 @@ $string['extremovedsuspendnoroles'] = 'Заблокировать запись �
 $string['extremovedunenrol'] = 'Исключить пользователя из курса';
 $string['finishenrollingusers'] = 'Окончание записи пользователей';
 $string['foundxcohorts'] = 'Найдено глобальных групп: {$a}';
+$string['instanceadded'] = 'Метод добавлен';
 $string['instanceeditselfwarning'] = 'Предупреждение:';
 $string['instanceeditselfwarningtext'] = 'Вы зачислены в курс при помощи этого метода зачисления, изменения могут повлиять на Ваш доступ к этому курсу.';
 $string['invalidenrolinstance'] = 'Неправильный способ записи';
@@ -101,6 +103,7 @@ $string['manageinstance'] = 'Управление';
 $string['migratetomanual'] = 'Переход к ручному зачислению';
 $string['nochange'] = 'Без изменений';
 $string['noexistingparticipants'] = 'Нет участников';
+$string['nogroup'] = 'Нет групп';
 $string['noguestaccess'] = 'Гости не имеют доступа к этому курсу; пожалуйста, войдите в систему.';
 $string['none'] = 'Никто';
 $string['notenrollable'] = 'Вы не можете записаться на этот курс';
@@ -113,6 +116,7 @@ $string['periodend'] = 'до {$a}';
 $string['periodnone'] = 'зачислены {$a}';
 $string['periodstart'] = 'с {$a}';
 $string['periodstartend'] = 'с {$a->start} до {$a->end}';
+$string['proceedtocourse'] = 'Перейти к курсу';
 $string['recovergrades'] = 'Восстанавливать старые оценки пользователя, если возможно';
 $string['rolefromcategory'] = '{$a->role} (Унаследовано от категории курса)';
 $string['rolefrommetacourse'] = '{$a->role} (Унаследовано от родительского курса)';

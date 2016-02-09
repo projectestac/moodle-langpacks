@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'it', branch 'MOODLE_28_STABLE'
+ * Strings for component 'workshop', language 'it', branch 'MOODLE_30_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -160,6 +160,8 @@ $string['gradeitemsubmission'] = '{$a->workshopname} (consegna)';
 $string['gradeover'] = 'Modifica il voto per la consegna';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Report dei voti del workshop';
+$string['gradetopassgrading'] = 'Sufficienza per la valutazione';
+$string['gradetopasssubmission'] = 'Sufficienza per la consegna';
 $string['gradinggrade'] = 'Voto per la valutazione';
 $string['gradinggradecalculated'] = 'Voto calcolato per la valutazione';
 $string['gradinggrade_help'] = 'L\'impostazione specifica il voto massimo ottenibile per la valutazione della consegna.';
@@ -195,6 +197,7 @@ $string['nogradeyet'] = 'Senza voto';
 $string['nosubmissionfound'] = 'Non sono state trovate consegne per questo utente';
 $string['nosubmissions'] = 'Non ci sono ancora consegne';
 $string['notassessed'] = 'Non valutata';
+$string['nothingfound'] = 'Non c\'è nulla da visualizzare';
 $string['nothingtoreview'] = 'Non c\'è nulla da rivedere';
 $string['notoverridden'] = 'Non modificati';
 $string['noworkshops'] = 'In questo corso non ci sono workshop';
@@ -268,11 +271,14 @@ Se abiliti questa funzione, è consigliabile utilizzare anche il metodo di distr
 $string['submissiongrade'] = 'Voto per la consegna';
 $string['submissiongrade_help'] = 'L\'impostazione specifica il voto massimo ottenibile per la consegna del lavoro.';
 $string['submissiongradeof'] = 'Voto per la consegna (su {$a})';
+$string['submissionlastmodified'] = 'Ultima modifica';
 $string['submissionsettings'] = 'Impostazioni consegna';
+$string['submissionsreport'] = 'Report delle consegne';
 $string['submissionstart'] = 'Inizio consegne da';
 $string['submissionstartdatetime'] = 'Inizio consegne da {$a->daydatetime} ({$a->distanceday})';
 $string['submissionstartevent'] = '{$a} (Inizio consegne)';
 $string['submissiontitle'] = 'Titolo';
+$string['submittednotsubmitted'] = 'Consegne effettuate ({$a->submitted}) / non effettuate ({$a->notsubmitted})';
 $string['subplugintype_workshopallocation'] = 'Metodo di distribuzione consegne';
 $string['subplugintype_workshopallocation_plural'] = 'Metodi di distribuzione consegne';
 $string['subplugintype_workshopeval'] = 'Metodo di calcolo dei voti';

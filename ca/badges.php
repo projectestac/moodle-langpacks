@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'badges', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -100,6 +100,7 @@ $string['badgeprivacysetting'] = 'Configuració de privacitat de la insígnia';
 $string['badgeprivacysetting_help'] = 'Les insígnies que guanyeu es poden mostrar a la vostra pàgina de perfil del compte. Aquests paràmetres us permeten definir automàticament la visibilitat de les noves insígnies guanyades.
 Encara podeu controlar la configuració de privacitat d\'una insígnia individual a la vostra pàgina "Les meues insígnies".';
 $string['badgeprivacysetting_str'] = 'Mostra automàticament les insígnies que guanye a la meva pàgina de perfil';
+$string['badges'] = 'Insígnies';
 $string['badgesalt'] = 'Sal per a la funció resum aplicada a l\'adreça de correu electrònic del destinatari';
 $string['badgesalt_desc'] = 'Utilitzar una funció resum (hash) permet als serveis motxilla confirmar qui ha guanyat la insígnia sense haver de revelar la seva adreça de correu electrònic. Aquest paràmetre només hauria d\'utilitzar números i lletres.
 
@@ -259,7 +260,6 @@ $string['externalbadges_help'] = 'Aquesta àrea mostra insígnies de la vostra m
 $string['externalbadgesp'] = 'Insígnies d\'altres llocs web:';
 $string['externalconnectto'] = 'Per mostrar les insígnies externes necessiteu <a href="{$a}">connectar-vos a una motxilla</a>.';
 $string['fixed'] = 'Data fixa';
-$string['hidden'] = 'Oculta';
 $string['hiddenbadge'] = 'Malauradament, el propietari de la insígnia no ha fet disponible aquesta informació.';
 $string['issuancedetails'] = 'Expiració de la insígnia';
 $string['issuedbadge'] = 'Informació de la insígnia emesa';

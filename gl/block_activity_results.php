@@ -16,18 +16,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_timezoneimport', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_activity_results', language 'gl', branch 'MOODLE_30_STABLE'
  *
- * @package   tool_timezoneimport
+ * @package   block_activity_results
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configintrotimezones'] = 'Cette page permet de mettre à jour les données des fuseaux horaires (y compris les changements dus à l\'heure d\'été) et de les intégrer à votre base de données locale. Les nouveautés éventuelles seront téléchargées depuis les emplacements suivants, dans l\'ordre : {$a} Voulez-vous mettre à jour vos fuseaux horaires maintenant ?';
-$string['importtimezones'] = 'Mise à jour des fuseaux horaires';
-$string['importtimezonescount'] = '{$a->count} entrées importées depuis {$a->source}';
-$string['importtimezonesfailed'] = 'Aucune source de données trouvée !';
-$string['pluginname'] = 'Mise à jour des fuseaux horaires';
-$string['updatetimezones'] = 'Fuseaux horaires';
+$string['bestgrade'] = 'Cualificación máis alta:';
+$string['bestgrades'] = 'As {$a} cualificacións máis altas:';
+$string['config_format_percentage'] = 'Porcentaxes';
+$string['worstgrade'] = 'Cualificación máis baixa:';
+$string['worstgrades'] = 'As {$a} cualificacións máis baixas:';

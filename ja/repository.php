@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'repository', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -135,7 +135,6 @@ $string['folderrecurse'] = 'フォルダを自分のサブフォルダに移動�
 $string['getfile'] = 'このファイルを選択する';
 $string['getfiletimeout'] = 'ファイル取得タイムアウト';
 $string['help'] = 'ヘルプ';
-$string['hidden'] = '非表示';
 $string['iconview'] = 'アイコンとして表示する';
 $string['imagesize'] = '{$a->width} x {$a->height} px';
 $string['instance'] = 'インスタンス';
@@ -163,6 +162,7 @@ $string['makefileinternal'] = 'ファイルのコピーを作成する';
 $string['makefilelink'] = 'ファイルディレクトリにリンクする';
 $string['makefilereference'] = 'ファイルのエイリアス/ショートカットを作成する';
 $string['manage'] = 'リポジトリを管理する';
+$string['manageinstances'] = 'インスタンスを管理する';
 $string['manageurl'] = '管理';
 $string['manageuserrepository'] = '個別のリポジトリを管理する';
 $string['moving'] = '移動';

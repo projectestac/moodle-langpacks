@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -225,7 +225,6 @@ $string['grade:unlock'] = 'Desblocar qualificacions o elements';
 $string['grade:view'] = 'Veure les qualificacions pròpies';
 $string['grade:viewall'] = 'Veure les qualificacions d\'altres usuaris';
 $string['grade:viewhidden'] = 'Veure qualificacions ocultes pròpies';
-$string['hidden'] = 'Ocult';
 $string['highlightedcellsshowdefault'] = 'Les cel·les ressaltades de la taula del dessota mostren els permisos per omissió per aquest tipus de rol, basat en el «tipus de rol heretat» del damunt.';
 $string['highlightedcellsshowinherit'] = 'Les cel·les ressaltades de la taula del dessota mostren els permisos (si n\'hi ha) que s\'heretaran. Hauríeu de deixar-ho tot establert a «Hereta» llevat d\'aquelles capacitats de les quals voleu alterar els permisos.';
 $string['inactiveformorethan'] = 'inactiu més de {$a->timeperiod}';
@@ -251,8 +250,8 @@ $string['manageroles'] = 'Gestiona els rols';
 $string['maybeassignedin'] = 'Tipus de context en què es pot assignar aquest rol';
 $string['morethan'] = 'Més que {$a}';
 $string['multipleroles'] = 'Rols múltiples';
-$string['my:configsyspages'] = 'Configura les plantilles del sistema per les pàgines d\'«El Meu Moodle»';
-$string['my:manageblocks'] = 'Gestionar els blocs de la pàgina El Meu Moodle';
+$string['my:configsyspages'] = 'Configura les plantilles del sistema per a les pàgines d\'«El meu Moodle»';
+$string['my:manageblocks'] = 'Gestionar els blocs de la pàgina El meu Moodle';
 $string['neededroles'] = 'Rols amb permís';
 $string['nocapabilitiesincontext'] = 'No hi ha capacitats disponibles en aquest context';
 $string['noneinthisx'] = 'Cap en aquest {$a}';

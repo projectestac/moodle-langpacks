@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'webservice', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,7 @@ $string['apiexplorer'] = 'Explorador da API';
 $string['apiexplorernotavalaible'] = 'O explorador da API ainda não está disponível.';
 $string['arguments'] = 'Argumentos';
 $string['authmethod'] = 'Método de autenticação';
+$string['callablefromajax'] = 'Disponível para pedidos de de AJAX';
 $string['cannotcreatetoken'] = 'Não tem permissões para criar o serviço token para o serviço {$a}.';
 $string['cannotgetcoursecontents'] = 'Não é possível obter os conteúdos das disciplinas';
 $string['checkusercapability'] = 'Verificar permissões do utilizador';
@@ -119,6 +120,7 @@ $string['iprestriction'] = 'Restrição de IP';
 $string['iprestriction_help'] = 'O utilizador terá que invocar o web service a partir de um dos endereços de IP da lista (separados por vírgulas).';
 $string['key'] = 'Chave';
 $string['keyshelp'] = 'As chaves são usadas para aceder à sua conta Moodle a partir de aplicações externas.';
+$string['loginrequired'] = 'Reservado aos utilizadores registados';
 $string['manageprotocols'] = 'Gerir protocolos';
 $string['managetokens'] = 'Gerir tokens';
 $string['missingcaps'] = 'Permissões em falta';
@@ -199,7 +201,7 @@ $string['updateusersettings'] = 'Atualizar';
 $string['uploadfiles'] = 'Pode carregar ficheiros';
 $string['uploadfiles_help'] = 'Se ativar esta opção, qualquer utilizador pode carregar ficheiros com as suas chaves de segurança para a sua própria área de ficheiros privados ou para uma área de temporária. Quaisquer quotas do ficheiro de utilizador se aplicam.';
 $string['userasclients'] = 'Utilizadores como clientes com token';
-$string['userasclientsdescription'] = 'Os passos seguintes mostram como configurar os web services para utilizadores como clientes. Estes passos ajudam também na configuração do método de autenticação das chaves de segurança (tokens) recomendado. Neste caso, o utilizador gerará o seu token a partir da página "Chaves de segurança", disponível nas configurações da página "O meu perfil".';
+$string['userasclientsdescription'] = 'Os passos seguintes mostram como configurar os web services para utilizadores como clientes. Estes passos ajudam também na configuração das chaves de segurança (tokens) recomendadas. Neste caso, o utilizador gerará o seu token a partir da página "Chaves de segurança", disponível nas configurações da página "O meu perfil".';
 $string['usermissingcaps'] = 'Capacidades em falta: {$a}';
 $string['usernameorid'] = 'Nome de utilizador / id de utilizador';
 $string['usernameorid_help'] = 'Insira um nome de utilizador ou id de utilizador';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'it', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assign', language 'it', branch 'MOODLE_30_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,9 +79,8 @@ $string['attempthistory'] = 'Tentativo precedente';
 $string['attemptnumber'] = 'Numero tentativo';
 $string['attemptreopenmethod'] = 'Riapertura tentativo';
 $string['attemptreopenmethod_help'] = 'Imposta la modalità di riapertura dei tentativi di consegna. Opzioni disponibili:
-<ul><li>Mai - Il tentativo di consegna non potrà essere riaperto.</li><li>Manualmente - Il tentativo di consegna
-potrà essere riaperto da un docente.</li><li>Automaticamente fino al superamento - Il tentativo di consegna
-verrà riaperto automaticamente fino al raggiungimento della sufficienza impostata per il compito nel Registro del valutatore. (Sezione Categorie ed elementi).</li></ul>';
+<ul><li>Mai - Il tentativo di consegna non potrà essere riaperto.</li><li>Manualmente - Il tentativo di consegna potrà essere riaperto da un docente.</li><li>Automaticamente fino al superamento - Il tentativo di consegna
+verrà riaperto automaticamente fino al raggiungimento della sufficienza impostata per il compito nel Registro del valutatore. (Sezione Impostazione registro valutatore).</li></ul>';
 $string['attemptreopenmethod_manual'] = 'Manualmente';
 $string['attemptreopenmethod_none'] = 'Mai';
 $string['attemptreopenmethod_untilpass'] = 'Automaticamente fino al superamento';
@@ -237,7 +236,7 @@ $string['invalidgradeforscale'] = 'La valutazione data non coincide con nessuno 
 $string['lastmodifiedgrade'] = 'Ultima modifica (valutazione)';
 $string['lastmodifiedsubmission'] = 'Ultima modifica (consegna)';
 $string['latesubmissions'] = 'Consegne in ritardo';
-$string['latesubmissionsaccepted'] = 'Consentito fino alla data limite';
+$string['latesubmissionsaccepted'] = 'Consentito fino al {$a}';
 $string['locksubmissionforstudent'] = 'Blocca le consegne dello studente (id={$a->id}, fullname={$a->fullname})';
 $string['locksubmissions'] = 'Blocca consegne';
 $string['manageassignfeedbackplugins'] = 'Gestione plugin commento compito';
@@ -250,7 +249,7 @@ $string['markingallocation_help'] = 'Consente di assegnare valutatori a singoli 
 $string['markingworkflow'] = 'Utilizza flusso di lavoro della valutazione';
 $string['markingworkflow_help'] = 'Le valutazioni seguiranno un flusso di lavoro prima di essere rilasciate agli studenti, consentendo di valutare in diversi cicli e rilasciare le valutazioni a tutti studenti in una sola volta.';
 $string['markingworkflowstate'] = 'Stato del flusso di lavoro della valutazione';
-$string['markingworkflowstate_help'] = 'I possibili stati del flusso di lavoro, in funzione dei privilegi posseduti, possono essere i seguenti:
+$string['markingworkflowstate_help'] = 'I possibili stati del flusso di lavoro, in funzione dei privilegi posseduti possono essere i seguenti:
 
 * Non valutata - la valutazione non è iniziata
 * In valutazione - la valutazione è iniziata ma non è ancora terminata
@@ -276,6 +275,8 @@ Gli studenti possono consegnare qualsiasi tipo di contenuto digitale, come ad es
 I docenti possono commentare le consegne degli studenti e caricare file a loro volta, ad esempio i compiti corretti e valutati o file audio di commento. I compiti possono essere valutati utilizzando sia voti numerici, sia metodi di valutazione avanzata tipo rubric. Le valutazioni vengono memorizzate nel registro del valutatore';
 $string['modulenameplural'] = 'Compiti';
 $string['moreusers'] = '{$a} ulteriori...';
+$string['multipleteams'] = 'Appartieni a più gruppi';
+$string['multipleteamsgrader'] = 'Appartieni a più gruppi, non puoi effettuare consegne';
 $string['mysubmission'] = 'le mie consegne:';
 $string['newsubmissions'] = 'Compiti consegnati';
 $string['noattempt'] = 'Nessun tentativo';
@@ -287,6 +288,8 @@ $string['noonlinesubmissions'] = 'Questo compito non richiede consegne online';
 $string['nosavebutnext'] = 'Successivo';
 $string['nosubmission'] = 'Non sono presenti consegne da valutare';
 $string['nosubmissionsacceptedafter'] = 'Non sono consentite consegne successive a';
+$string['noteam'] = 'Non appartieni a nessun gruppo';
+$string['noteamgrader'] = 'Non appartieni a nessun gruppo, non puoi effettuare consegne';
 $string['notgraded'] = 'Non valutata';
 $string['notgradedyet'] = 'Non ancora valutata';
 $string['notifications'] = 'Notifiche';
@@ -307,6 +310,8 @@ $string['page-mod-assign-x'] = 'Qualsiasi pagina principale del modulo compito';
 $string['participant'] = 'Partecipante';
 $string['pluginadministration'] = 'Gestione compito';
 $string['pluginname'] = 'Compito';
+$string['preventsubmissionnotingroup'] = 'Consegna di gruppo obbligatoria';
+$string['preventsubmissionnotingroup_help'] = 'Abilitando l\'impostazione, gli utenti che non fanno parte di un gruppo non potranno effettuare consegne';
 $string['preventsubmissions'] = 'Impedisce qualsiasi ulteriore modifica da parte dell\'utente della consegna effettuata';
 $string['preventsubmissionsshort'] = 'Blocca modifiche della consegna';
 $string['previous'] = 'Precedente';
@@ -347,7 +352,7 @@ $string['sendsubmissionreceipts_help'] = 'Consente di inviare agli studenti una 
 $string['setmarkerallocationforlog'] = 'Assegnazione valutatori : (id={$a->id}, nome={$a->fullname}, valutatore={$a->marker}).';
 $string['setmarkingallocation'] = 'Assegnazione valutatori';
 $string['setmarkingworkflowstate'] = 'Impostazione stato del flusso di lavoro della valutazione';
-$string['setmarkingworkflowstateforlog'] = 'Impostazione stato del flusso di lavoro della valutazione:  (id={$a->id}, nome={$a->fullname}, stato={$a->state}).';
+$string['setmarkingworkflowstateforlog'] = 'Impostazione stato del flusso di lavoro della valutazione :  (id={$a->id}, nome={$a->fullname}, stato={$a->state}).';
 $string['settings'] = 'Impostazioni compito';
 $string['showrecentsubmissions'] = 'Visualizza consegne recenti';
 $string['status'] = 'Stato';
@@ -429,6 +434,7 @@ $string['teamsubmission_help'] = 'Consente la suddivisone degli studenti in grup
 $string['textinstructions'] = 'Istruzioni del compito';
 $string['timemodified'] = 'Ultima modifica';
 $string['timeremaining'] = 'Tempo rimasto';
+$string['ungroupedusers'] = 'L\'impostazione \'Consegna di gruppo obbligatoria\' è abilitata ma alcuni utenti non fanno parte di gruppi o fanno parte di più gruppi e pertanto non potranno effettuare consegne.';
 $string['unlimitedattempts'] = 'Illimitati';
 $string['unlimitedattemptsallowed'] = 'Consentiti tentativi illimitati.';
 $string['unlocksubmissionforstudent'] = 'Sblocca consegna per lo studente (id={$a->id}, fullname={$a->fullname}).';
@@ -438,6 +444,7 @@ $string['updatetable'] = 'Salva ed aggiorna tabella';
 $string['upgradenotimplemented'] = 'L\'aggiornamento non è implementato per il plugin ({$a->type} {$a->subtype})';
 $string['userextensiondate'] = 'Proroga concessa fino a: {$a}';
 $string['usergrade'] = 'Valutazione utente';
+$string['useridlistnotcached'] = 'Le modifiche alle valutazioni NON sono state salvate poiché non è stato possibile determinare la consegna alla quale si riferivano.';
 $string['userswhoneedtosubmit'] = 'Utenti che non hanno consegnato: {$a}';
 $string['validmarkingworkflowstates'] = 'Stati validi per il flusso di lavoro della valutazione';
 $string['viewbatchmarkingallocation'] = 'Visualizza pagina assegnazione valutatori';

@@ -16,18 +16,13 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_timezoneimport', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'gradereport_singleview', language 'ar', branch 'MOODLE_30_STABLE'
  *
- * @package   tool_timezoneimport
+ * @package   gradereport_singleview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configintrotimezones'] = 'Die Einstellungen zu den Zeitzonen (inkl. aller Sommerzeitregelungen) werden aktualisiert. Die nachfolgenden Speicherorte werden in der angegebenen Reihenfolge geprüft: {$a} Möchten Sie die Zeitzonen jetzt aktualisieren?';
-$string['importtimezones'] = 'Liste der Zeitzonen aktualisieren';
-$string['importtimezonescount'] = '{$a->count} Einträge importiert von {$a->source}';
-$string['importtimezonesfailed'] = 'Keine Daten gefunden!';
-$string['pluginname'] = 'Zeitzonen aktualisieren';
-$string['updatetimezones'] = 'Zeitzonen aktualisieren';
+$string['save'] = 'احفظ';

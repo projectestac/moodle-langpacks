@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'question', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -192,7 +192,6 @@ $string['generalfeedback_help'] = '通用反馈会在答题后显示给学生。
 您可以通过通用反馈给学生标准答案，或者是他们不理解题目时可以参考的链接。';
 $string['getcategoryfromfile'] = '从文件中获得类别';
 $string['getcontextfromfile'] = '从文件中获得场景';
-$string['hidden'] = '隐藏';
 $string['hintn'] = '提示{no}';
 $string['hintnoptions'] = '提示 {no} 选项';
 $string['hinttext'] = '提示内容';

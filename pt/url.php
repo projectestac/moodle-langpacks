@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'url', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,7 +42,7 @@ $string['displayselect_help'] = 'Esta configuração, em conjunto com o tipo de 
 
 * Incorporar. o ficheiro é incorporado e exibido na página, mantendo a barra de navegação, a descrição do ficheiro e os blocos laterais;
 
-* Forçar download: é aberta uma janela de diálogo para o utilizador abrir ou guardar o ficheiro;
+* Forçar descarga: é aberta uma janela de diálogo para o utilizador abrir ou guardar o ficheiro;
 
 * Mesma janela: apenas o ficheiro é exibido na janela do navegador;
 

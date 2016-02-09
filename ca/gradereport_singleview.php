@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_singleview', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'gradereport_singleview', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   gradereport_singleview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,11 +44,12 @@ $string['gradefor'] = 'Qualificació per {$a}';
 $string['gradeitemcannotbeoverridden'] = 'Aquest element de qualificació no es pot rectificar.';
 $string['noscreens'] = 'No s\'ha pogut trobar una pantalla de vista única adient.';
 $string['notvalid'] = 'No és una pantalla de Vista única vàlida: {$a}';
-$string['override'] = 'Rectifica';
+$string['override'] = 'Excepció';
 $string['overrideall'] = 'Rectifica totes les qualificacions';
 $string['overridefor'] = 'Rectifica per {$a}';
 $string['overridenone'] = 'No rectifiquis cap qualificació';
 $string['pluginname'] = 'Vista única';
+$string['save'] = 'Desa';
 $string['savegrades'] = 'S\'estan desant les qualificacions';
 $string['savegradessuccess'] = 'S\'han establert les qualificacions de {$a} elements';
 $string['singleview:view'] = 'Mostra informe';

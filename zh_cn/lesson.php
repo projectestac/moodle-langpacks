@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'lesson', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -243,8 +243,6 @@ $string['maximumnumberofanswersbranches_help'] = '此设置决定在此教程中
 $string['maximumnumberofattempts'] = '允许试答次数';
 $string['maximumnumberofattempts_help'] = '此设置决定每个问题最多可以回答的次数。如果持续回答错误，当达到此最大值时，会显示教程的下一页。';
 $string['maximumnumberofattemptsreached'] = '您已达到最大数量的尝试-请进入下一个页面';
-$string['maxtime'] = '时间限制(分钟)';
-$string['maxtimewarning'] = '您还有 {$a} 分钟来完成任务。';
 $string['mediaclose'] = '显示关闭按钮';
 $string['mediafile'] = '弹出文件或网页';
 $string['mediafile_help'] = '如果想在教程开始时弹出一个窗口，请选择在窗口里显示的文件。每个教程页面都会有一个重新打开此弹出窗口的链接，可以在需要的时候使用。';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'it', branch 'MOODLE_28_STABLE'
+ * Strings for component 'tag', language 'it', branch 'MOODLE_30_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,19 +25,25 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['added'] = 'Tag ufficiali aggiunti';
 $string['addedotag'] = '"{$a}" è stata aggiunto come tag ufficiale.';
 $string['addotags'] = 'Aggiungi tag ufficiali';
 $string['addtagtomyinterests'] = 'Aggiungi "{$a}" ai miei interessi';
 $string['alltagpages'] = 'Qualsiasi pagina con tag';
 $string['changename'] = 'Modifica nome tag';
 $string['changetype'] = 'Modifica tipo tag';
+$string['confirmdeletetag'] = 'Sei sicuro di eliminare questo tag?';
+$string['confirmdeletetags'] = 'Sei sicuro di eliminare i tag selezionati?';
 $string['count'] = 'Numero';
+$string['coursetags'] = 'Tag del corso';
 $string['delete'] = 'Elimina';
-$string['deleted'] = 'Eliminati';
+$string['deleted'] = 'Tag eliminati';
 $string['deletedcoursetags'] = 'Eliminati - tag del corso';
+$string['deleteselected'] = 'Elimina selezionati';
 $string['description'] = 'Descrizione';
+$string['editname'] = 'Modifica nome del tag';
 $string['edittag'] = 'Modifica tag';
-$string['entertags'] = 'Inserisci i tag separati da virgole';
+$string['entertags'] = 'Inserisci i tag...';
 $string['errortagfrontpage'] = 'Il tagging non è consentito nella pagina home';
 $string['errorupdatingrecord'] = 'Si è verificato un errore durante l\' aggiornamento del record tag';
 $string['eventtagadded'] = 'Aggiunto tag ad un elemento';
@@ -49,6 +55,7 @@ $string['eventtagunflagged'] = 'Rimosso contrassegno da tag';
 $string['eventtagupdated'] = 'Aggiornato tag';
 $string['flag'] = 'Contrassegna';
 $string['flagasinappropriate'] = 'Contrassegna come non appropriato';
+$string['flagged'] = 'Tag contrassegnato';
 $string['helprelatedtags'] = 'Tag correlati separati da virgola';
 $string['id'] = 'id';
 $string['manageofficialtags'] = 'Gestione tag ufficiali';
@@ -56,10 +63,12 @@ $string['managetags'] = 'Gestione tag';
 $string['name'] = 'Nome tag';
 $string['namesalreadybeeingused'] = 'Nomi tag già usati';
 $string['newname'] = 'Nuovo nome tag';
+$string['newnamefor'] = 'Nuovo nome del tag {$a}';
 $string['noresultsfor'] = 'Nessun risultato per "{$a}"';
-$string['officialtag'] = 'Tag ufficiale';
+$string['nothingtoupdate'] = 'Nulla da aggiornare';
+$string['officialtag'] = 'Ufficiale';
 $string['otags'] = 'Tag ufficiali';
-$string['othertags'] = 'Altri tag (inserire i tag separati da virgole)';
+$string['othertags'] = 'Altri tag';
 $string['owner'] = 'Proprietario';
 $string['page-tag-index'] = 'Pagina tag singolo';
 $string['page-tag-manage'] = 'Pagina gestione tag';
@@ -69,7 +78,7 @@ $string['ptags'] = 'Tag definiti dall\'utente (separati da virgole)';
 $string['relatedblogs'] = 'Interventi blog più recenti';
 $string['relatedtags'] = 'Tag correlati';
 $string['removetagfrommyinterests'] = 'Rimuovi "{$a}" dai miei interessi';
-$string['reset'] = 'Ripristino';
+$string['reset'] = 'Ripristina flag del tag';
 $string['resetflag'] = 'Ripristino contrassegni';
 $string['responsiblewillbenotified'] = 'La persona responsabile sarà avvertita';
 $string['rssdesc'] = 'Questo feed RSS è stato generato automaticamente da Moodle e contiene tag creati dall\'utente per i corsi.';
@@ -79,6 +88,9 @@ $string['searchresultsfor'] = 'Risultati della ricerca per "{$a}"';
 $string['searchtags'] = 'Cerca tag';
 $string['seeallblogs'] = 'Visualizza tutti i blog che hanno tag "{$a}"...';
 $string['select'] = 'Seleziona';
+$string['selecttag'] = 'Seleziona tag {$a}';
+$string['settypedefault'] = 'Rimuovi dai tag ufficiali';
+$string['settypeofficial'] = 'Rendi ufficiale';
 $string['tag'] = 'Tag';
 $string['tagdescription'] = 'Descrizione tag';
 $string['taggedwith'] = 'con il tag "{$a}"';

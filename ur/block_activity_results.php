@@ -16,18 +16,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_timezoneimport', language 'it', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_activity_results', language 'ur', branch 'MOODLE_30_STABLE'
  *
- * @package   tool_timezoneimport
+ * @package   block_activity_results
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configintrotimezones'] = 'In questa pagina è possibile aggiornare l\'elenco dei fusi orari e le regole per il passaggio all\'ora legale. L\'elenco dei fusi orari aggiornati sarà preso dalle seguenti locazioni: {$a}. Desideri aggiornare adesso l\'elenco dei fusi orari?';
-$string['importtimezones'] = 'Aggiorna l\'elenco dei fusi orari';
-$string['importtimezonescount'] = '{$a->count} fusi orari aggiornati da {$a->source}';
-$string['importtimezonesfailed'] = 'Non è stata trovata nessuna sorgente! (Brutta notizia)';
-$string['pluginname'] = 'Aggiornamento fusi orari';
-$string['updatetimezones'] = 'Aggiorna fusi orari';
+$string['bestgrade'] = 'زیادہ سے زیادہ درجہ';
+$string['bestgrades'] = '{$a} سب سے زیادہ درجہ';
+$string['config_format_percentage'] = 'فیصد';
+$string['worstgrade'] = 'سب سے نچلا درجہ';
+$string['worstgrades'] = '{$a} سب سے نچلا درجہ';

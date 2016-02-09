@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assign', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -81,7 +81,7 @@ $string['attemptheading'] = 'Attempt {$a->attemptnumber}: {$a->submissionsummary
 $string['attempthistory'] = 'Previous attempts';
 $string['attemptnumber'] = 'Attempt number';
 $string['attemptreopenmethod'] = 'Attempts reopened';
-$string['attemptreopenmethod_help'] = 'Determines how student submission attempts are reopened. The available options are: <ul><li>Never - The student submission cannot be reopened.</li><li>Manually - The student submission can be reopened by a teacher.</li><li>Automatically until pass - The student submission is automatically reopened until the student achieves the grade to pass value set in the Gradebook (Categories and items section) for this assignment.</li></ul>';
+$string['attemptreopenmethod_help'] = 'Determines how student submission attempts are reopened. The available options are: <ul><li>Never - The student submission cannot be reopened.</li><li>Manually - The student submission can be reopened by a teacher.</li><li>Automatically until pass - The student submission is automatically reopened until the student achieves the grade to pass value set in the Gradebook (Gradebook setup section) for this assignment.</li></ul>';
 $string['attemptreopenmethod_manual'] = 'Manually';
 $string['attemptreopenmethod_none'] = 'Never';
 $string['attemptreopenmethod_untilpass'] = 'Automatically until pass';
@@ -240,7 +240,7 @@ $string['invalidgradeforscale'] = 'The grade supplied was not valid for the curr
 $string['lastmodifiedgrade'] = 'Last modified (grade)';
 $string['lastmodifiedsubmission'] = 'Last modified (submission)';
 $string['latesubmissions'] = 'Late submissions';
-$string['latesubmissionsaccepted'] = 'Allowed until the cut-off date';
+$string['latesubmissionsaccepted'] = 'Allowed until {$a}';
 $string['locksubmissionforstudent'] = 'Prevent any more submissions for student: (id={$a->id}, fullname={$a->fullname}).';
 $string['locksubmissions'] = 'Lock submissions';
 $string['manageassignfeedbackplugins'] = 'Manage assignment feedback plugins';
@@ -280,6 +280,8 @@ When reviewing assignments, teachers can leave feedback comments and upload file
 $string['modulename_link'] = 'mod/assignment/view';
 $string['modulenameplural'] = 'Assignments';
 $string['moreusers'] = '{$a} more...';
+$string['multipleteams'] = 'Member of more than one group';
+$string['multipleteamsgrader'] = 'Member of more than one group, so unable to make submissions.';
 $string['mysubmission'] = 'My submission:';
 $string['newsubmissions'] = 'Assignments submitted';
 $string['noattempt'] = 'No attempt';
@@ -291,6 +293,8 @@ $string['noonlinesubmissions'] = 'This assignment does not require you to submit
 $string['nosavebutnext'] = 'Next';
 $string['nosubmission'] = 'Nothing has been submitted for this assignment';
 $string['nosubmissionsacceptedafter'] = 'No submissions accepted after';
+$string['noteam'] = 'Not a member of any group';
+$string['noteamgrader'] = 'Not a member of any group, so unable to make submissions.';
 $string['notgraded'] = 'Not graded';
 $string['notgradedyet'] = 'Not graded yet';
 $string['notifications'] = 'Notifications';
@@ -311,6 +315,8 @@ $string['page-mod-assign-x'] = 'Any assignment module page';
 $string['participant'] = 'Participant';
 $string['pluginadministration'] = 'Assignment administration';
 $string['pluginname'] = 'Assignment';
+$string['preventsubmissionnotingroup'] = 'Require group to make submission';
+$string['preventsubmissionnotingroup_help'] = 'If enabled, users who are not members of a group will be unable to make submissions.';
 $string['preventsubmissions'] = 'Prevent the user from making any more submissions to this assignment.';
 $string['preventsubmissionsshort'] = 'Prevent submission changes';
 $string['previous'] = 'Previous';
@@ -436,6 +442,7 @@ $string['teamsubmission_help'] = 'If enabled students will be divided into group
 $string['textinstructions'] = 'Assignment instructions';
 $string['timemodified'] = 'Last modified';
 $string['timeremaining'] = 'Time remaining';
+$string['ungroupedusers'] = 'The setting \'Require group to make submission\' is enabled and some users are either not a member of any group, or are a member of more than one group, so are unable to make submissions.';
 $string['unlimitedattempts'] = 'Unlimited';
 $string['unlimitedattemptsallowed'] = 'Unlimited attempts allowed.';
 $string['unlocksubmissionforstudent'] = 'Allow submissions for student: (id={$a->id}, fullname={$a->fullname}).';
@@ -445,6 +452,7 @@ $string['updatetable'] = 'Save and update table';
 $string['upgradenotimplemented'] = 'Upgrade not implemented in plugin ({$a->type} {$a->subtype})';
 $string['userextensiondate'] = 'Extension granted until: {$a}';
 $string['usergrade'] = 'User grade';
+$string['useridlistnotcached'] = 'The grade changes were NOT saved, as it was not possible to determine which submission they were for.';
 $string['userswhoneedtosubmit'] = 'Users who need to submit: {$a}';
 $string['validmarkingworkflowstates'] = 'Valid marking workflow states';
 $string['viewbatchmarkingallocation'] = 'View batch set marking allocation page.';

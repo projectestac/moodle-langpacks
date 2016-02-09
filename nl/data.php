@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'data', language 'nl', branch 'MOODLE_30_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addtemplate'] = 'Item toevoegen';
 $string['advancedsearch'] = 'Geavanceerd zoeken';
 $string['allowcomments'] = 'Commentaar toevoegen toelaten';
 $string['alttext'] = 'Alternatieve tekst';
+$string['approvalstatus'] = 'Goedkeuringsstatus';
 $string['approve'] = 'Goedkeuren';
 $string['approved'] = 'Goedgekeurd';
 $string['areacontent'] = 'Velden';
@@ -152,6 +153,7 @@ $string['entrieslefttoaddtoview'] = 'je moet {$a->entrieslefttoview} items meer 
 $string['entry'] = 'Item';
 $string['entrysaved'] = 'Gegevens bewaard.';
 $string['errormustbeteacher'] = 'Je moet leraar zijn om deze pagina te kunnen gebruiken';
+$string['errormustsupplyvalue'] = 'Je moet hier een waarde geven.';
 $string['errorpresetexists'] = 'Er bestaat al een preset met de gekozen naam';
 $string['eventfieldcreated'] = 'Veld gemaakt';
 $string['eventfielddeleted'] = 'Veld verwijderd';
@@ -234,6 +236,7 @@ $string['invalidurl'] = 'De URL die je net gaf is niet geldig';
 $string['jstemplate'] = 'Javascript sjabloon';
 $string['latitude'] = 'Breedtegraad';
 $string['latlong'] = 'Breedtegraad/lengtegraad';
+$string['latlongboth'] = 'Zowel de breedtegraad als de lengtegraad zijn vereist.';
 $string['latlongdownloadallhint'] = 'Downloadlink voor alle items als KML';
 $string['latlongkmllabelling'] = 'Hoe items labelen als KML-bestanden (Google Earth)';
 $string['latlonglinkservicesdisplayed'] = 'Te tonen services';
@@ -241,6 +244,8 @@ $string['latlongotherfields'] = 'Andere velden';
 $string['list'] = 'Lijstweergave';
 $string['listtemplate'] = 'Lijstsjabloon';
 $string['longitude'] = 'Lengtegraad';
+$string['manageapproved'] = 'Bewerken van goedgekeurde items toestaan';
+$string['manageapproved_help'] = 'Indien uitgeschakeld kunnen goedgekeurde items niet meer bewerkt of verwijderd worden door degene die ze toegevoegd heeft. Deze instelling heeft geen effect, tenzij \'Goedkeuring vereist\' is ingeschakeld.';
 $string['mapexistingfield'] = 'Koppel aan {$a}';
 $string['mapnewfield'] = 'Maak een nieuw veld';
 $string['mappingwarning'] = 'All oude velden die niet naar een nieuw veld verplaatst worden, zullen verloren gaan en alle gegevens in die velden zullen verwijderd worden';
@@ -332,6 +337,7 @@ $string['requireapproval'] = 'Goedkeuring nodig';
 $string['requireapproval_help'] = '<p align="center"><strong>Goedkeuring vereist</strong></p>
 
 <p>Moeten toegevoegde items eerst door een leraar goedgekeurd worden voor ze gezien kunnen worden door leerlingen? Dit kan nuttig zijn om inhoud te modereren die misschien beledigend of ongeschikt is.</p>';
+$string['required'] = 'Vereist';
 $string['requiredentries'] = 'Vereiste items voor voltooien';
 $string['requiredentries_help'] = 'Het aantal items die een student verplicht moet invoeren vóór de activiteit als voltooid wordt beschouwd.';
 $string['requiredentriestoview'] = 'Items vereist voor bekijken';
@@ -339,6 +345,7 @@ $string['requiredentriestoview_help'] = '<p align="center"><strong>Vereist aanta
 
 <p>THet aantal items een leerling moet invoeren voor hij de andere items in deze databank mag zien.</p>
 <p>Opmerking: deze functie kan niet gebruikt worden samen met de autolink filter voor de databank, omdat het niet mogelijk is voor de databank autolink filter om te bepalen of een gebruiker het vereiste aantal items al ingestuurd heeft.</p>';
+$string['requiredfield'] = 'Vereist veld';
 $string['resetsettings'] = 'Reset filters';
 $string['resettemplate'] = 'Reset sjabloon';
 $string['resizingimages'] = 'Tumbnails van afbeeldingen herschalen';

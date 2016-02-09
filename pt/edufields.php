@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'edufields', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'edufields', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   edufields
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['field101'] = 'CiênciasNaturais e Físicas';
+$string['field101'] = 'Ciências Naturais e Física';
 $string['field10101'] = 'Ciências Matemáticas';
 $string['field1010101'] = 'Matemática';
 $string['field1010103'] = 'Estatísticas';

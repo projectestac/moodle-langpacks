@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'data', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,8 +73,8 @@ $string['commentsaved'] = 'Kommentaren har sparats';
 $string['commentsn'] = '{$a} kommentarer';
 $string['commentsoff'] = 'Kommentarsfunktionen är avaktiverad.';
 $string['configenablerssfeeds'] = 'Den här omkopplaren kommer att aktivera möjligheten att välja RSS-matningar för alla databaser. Du måste ändå aktivera matningar manuellt i inställningarna för varje enskild databas.';
-$string['confirmdeletefield'] = 'Du håller på att ta bort det här fältet, är Du säker?';
-$string['confirmdeleterecord'] = 'Är Du säker på att Du vill ta bort det här bidraget?';
+$string['confirmdeletefield'] = 'Du håller på att ta bort det här fältet, är du säker?';
+$string['confirmdeleterecord'] = 'Är Du säker på att du vill ta bort det här bidraget?';
 $string['csstemplate'] = 'CSS-mall';
 $string['csvfailed'] = 'Det går inte att läsa rådata från CSV-filen';
 $string['csvfile'] = 'CVS-fil';
@@ -119,7 +119,7 @@ $string['data:viewallratings'] = 'Visa alla \'råa\' bedömningar/värderingar s
 $string['data:viewalluserpresets'] = 'Visa förinställda från alla användare';
 $string['data:viewanyrating'] = 'Visa de sammanlagda bedömningar/värderingar som någon har fått';
 $string['data:viewentry'] = 'Visa bidrag';
-$string['data:viewrating'] = 'Visa de sammanlagda bedömningar/värderingar som Du har fått';
+$string['data:viewrating'] = 'Visa de sammanlagda bedömningar/värderingar som du har fått';
 $string['data:writeentry'] = 'Skriv bidrag';
 $string['date'] = 'Datum';
 $string['dateentered'] = 'Datum för bidrag';
@@ -128,11 +128,11 @@ $string['defaultfieldenclosure'] = '(standard är ingen)';
 $string['defaultsortfield'] = 'Standardfält för sortering';
 $string['delete'] = 'Ta bort';
 $string['deleteallentries'] = 'Ta bort alla bidrag';
-$string['deletecomment'] = 'Är Du säker på att Du vill ta bort den här kommentaren?';
+$string['deletecomment'] = 'Är du säker på att du vill ta bort den här kommentaren?';
 $string['deleted'] = 'Borttaget';
 $string['deletefield'] = 'Ta bort ett befintligt fält';
 $string['deletenotenrolled'] = 'Ta bort bidrag som kommer från användare som inte är registrerade';
-$string['deletewarning'] = 'Är Du säker på att Du vill ta bort den här förinställningen?';
+$string['deletewarning'] = 'Är du säker på att du vill ta bort den här förinställningen?';
 $string['descending'] = 'Fallande';
 $string['directorynotapreset'] = '{$a->directory} Inte en förinställning: saknade filer: {$a->missing_files}';
 $string['download'] = 'Ladda ner';
@@ -145,7 +145,7 @@ $string['emptyadd'] = 'Mallen Lägg till är tom, skapar ett standardformulär..
 $string['emptyaddform'] = 'Du fyllde inte i alla fält!';
 $string['entries'] = 'Bidrag';
 $string['entrieslefttoadd'] = 'Du måste lägga till {$a->entriesleft} fler bidrag för att fullfölja den här aktiviteten.';
-$string['entrieslefttoaddtoview'] = 'Du måste lägga till {$a->entrieslefttoview} fler bidrag innan Du kan få se de andra deltagarnas bidrag.';
+$string['entrieslefttoaddtoview'] = 'Du måste lägga till {$a->entrieslefttoview} fler bidrag innan du kan få se de andra deltagarnas bidrag.';
 $string['entry'] = 'Bidrag';
 $string['entrysaved'] = 'Ditt bidrag har sparats';
 $string['errormustbeteacher'] = 'Du måste vara lärare för att få använda den här sidan!';
@@ -161,7 +161,7 @@ Senare kan du ladda upp dem till en annan databas med hjälp av egenskapen
 Importera från Zip.</p>';
 $string['exportedtozip'] = 'Exporterade som tillfällig zip...';
 $string['exportentries'] = 'Exportera inlägg';
-$string['exportownentries'] = 'Exportera endast Dina egna bidrag?
+$string['exportownentries'] = 'Exportera endast dina egna bidrag?
 ({$a->mine}/{$a->all})';
 $string['failedpresetdelete'] = 'Fel i samband med att en förinställning skulle tas bort';
 $string['fieldadded'] = 'Det har lagts till ett fält';
@@ -232,7 +232,7 @@ $string['invalidfieldtype'] = 'Fälttypen är felaktig';
 $string['invalidid'] = 'Data-ID är felaktigt';
 $string['invalidpreset'] = '{$a} är inte en förinställning.';
 $string['invalidrecord'] = 'Felaktig post';
-$string['invalidurl'] = 'Den URL som Du just matade in är inte giltig';
+$string['invalidurl'] = 'Den URL som du just matade in är inte giltig';
 $string['jstemplate'] = 'Mall för Javascript';
 $string['latitude'] = 'Latitud';
 $string['latlong'] = 'Latitud/longitud';

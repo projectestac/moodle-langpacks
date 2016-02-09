@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'el', branch 'MOODLE_28_STABLE'
+ * Strings for component 'moodle', language 'el', branch 'MOODLE_30_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -183,7 +183,6 @@ $string['backupfromthissite'] = 'Το αντίγραφο ασφαλείας έχ
 $string['backupgradebookhistoryhelp'] = 'Εάν ενεργοποιηθεί, το ιστορικό βαθμολογίου θα συμπεριλαμβάνεται σε αυτόματα αντίγραφα ασφαλείας. Σημειώστε πως το ιστορικό βαθμών δεν πρέπει να είναι απενεργοποιημένο στις ρυθμίσεις του διακομιστή (disablegradehistory) για να ισχύσει αυτή η λειτουργία';
 $string['backupincludemoduleshelp'] = 'Να συμπεριλαμβάνονται τα αρθρώματα με τα δεδομένα των χρηστών κατά τη λήψη των αυτόματων αντιγράφων ασφαλείας';
 $string['backupincludemoduleuserdatahelp'] = 'Να συμπεριλαμβάνονται τα δεδομένα των χρηστών κατά τη λήψη των αυτόματων αντιγράφων ασφαλείας.';
-$string['backupkeephelp'] = 'Πλήθος αντιγράφων ασφαλείας για κάθε ένα μάθημα (τα παλιότερα διαγράφονται αυτόματα)';
 $string['backuplogdetailed'] = 'Λεπτομερής αναφορά εκτέλεσης';
 $string['backuploglaststatus'] = 'Τελευταία αναφορά εκτέλεσης';
 $string['backupnext'] = 'Επόμενο αντίγραφο ασφαλείας';
@@ -1263,6 +1262,7 @@ $string['perpagea'] = 'Ανά σελίδα: {$a}';
 $string['personal'] = 'Προσωπικό';
 $string['personalprofile'] = 'Προσωπικό προφίλ';
 $string['phone'] = 'Τηλέφωνο';
+$string['phone1'] = 'Τηλέφωνο';
 $string['phone2'] = 'Κινητό τηλέφωνο';
 $string['phpinfo'] = 'Πληροφορίες PHP';
 $string['pictureof'] = 'Φωτογραφία {$a}';
@@ -1765,7 +1765,6 @@ $string['usemessageform'] = 'ή χρησιμοποιήστε την παρακά
 $string['user'] = 'Χρήστης';
 $string['useractivity'] = 'Δραστηριότητα';
 $string['userconfirmed'] = 'Έγινε επιβεβαίωση του χρήστη {$a}';
-$string['usercurrentsettings'] = 'Ρυθμίσεις προφίλ';
 $string['userdata'] = 'Δεδομένα χρήστη';
 $string['userdeleted'] = 'Αυτός ο λογαριασμός χρήστη έχει διαγραφεί';
 $string['userdescription'] = 'Περιγραφή';
@@ -1791,7 +1790,6 @@ $string['usersnew'] = 'Νέοι χρήστες';
 $string['usersnoaccesssince'] = 'Καμία σύνδεση για περισσότερο από';
 $string['userswithfiles'] = 'Χρήστες με αρχεία';
 $string['useruploadtype'] = 'Τύπος μεταφόρτωσης χρήστη : {$a}';
-$string['userviewingsettings'] = 'Ρυθμίσεις προφίλ για {$a}';
 $string['userzones'] = 'Ζώνες χρηστών';
 $string['usetheme'] = 'Χρήση θέματος';
 $string['usingexistingcourse'] = 'Χρήση υπάρχοντος μαθήματος';

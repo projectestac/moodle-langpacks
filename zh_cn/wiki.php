@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'wiki', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,7 @@ $string['defaultformat_help'] = '此设置决定编辑wiki页面时使用的缺�
 * HTML - 会提供HTML编辑器
 * Creole - 一个常用的wiki标记语言，会提供一个小型编辑工具条
 * Nwiki - Mediawiki风格的标记语言，在Nwiki模块中使用';
+$string['deleteallpages'] = '删除所有wiki页面';
 $string['deletecomment'] = '删除评论中';
 $string['deletecommentcheck'] = '删除评论';
 $string['deletecommentcheckfull'] = '您确定要删除此评论吗？';

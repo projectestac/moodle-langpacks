@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assign', language 'de', branch 'MOODLE_30_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,7 +73,7 @@ $string['attemptheading'] = 'Versuch {$a->attemptnumber}: {$a->submissionsummary
 $string['attempthistory'] = 'Vorherige Lösungen';
 $string['attemptnumber'] = 'Nummer der Lösung';
 $string['attemptreopenmethod'] = 'Lösungen erneut bearbeitbar';
-$string['attemptreopenmethod_help'] = 'Die Option legt fest, wie die Abgaben der Teilnehmer/innen erneut geöffnet werden. Mögliche Optionen sind: <ul><li>Nie - Die Teilnehmerlösung kann nicht erneut geöffnet werden.</li><li>Manuell - Ein/e Trainer/in kann eine Einreichung manuell erneut öffnen.</li><li>Automatisch bis zur Bewertung - Die Lösung ist bis zum Bestehen der Aufgabe (Eintrag in Bewertungen - Kategorien und Aspekte) automatisch erneut geöffnet.</li></ul>';
+$string['attemptreopenmethod_help'] = 'Die Option legt fest, ob Teilnehmer/innen die eingereichten Lösungen erneut zum Bearbeiten öffnen dürfen. Mögliche Optionen sind: <ul><li>Nie - Die Lösung kann nicht erneut bearbeitet werden.</li><li>Manuell - Ein/e Trainer/in kann das erneute Bearbeiten zulassen.</li><li>Automatisch bis zum Bestehen - Die Lösung kann solange bearbeitet werden, bis die Voraussetzung zum Bestehen erfüllt sind (Eintrag in Bewertungen - Kategorien und Aspekte).</li></ul>';
 $string['attemptreopenmethod_manual'] = 'Manuell';
 $string['attemptreopenmethod_none'] = 'Nie';
 $string['attemptreopenmethod_untilpass'] = 'Automatisch bis zum Bestehen';
@@ -222,7 +222,7 @@ $string['invalidgradeforscale'] = 'Die eingegebene Bewertung ist bei der gewähl
 $string['lastmodifiedgrade'] = 'Zuletzt geändert (Bewertung)';
 $string['lastmodifiedsubmission'] = 'Zuletzt geändert (Abgabe)';
 $string['latesubmissions'] = 'Verspätete Abgaben';
-$string['latesubmissionsaccepted'] = 'Nur Teilnehmer/innen für die das Abgabedatum erweitert wurde, können noch Lösungen abgeben.';
+$string['latesubmissionsaccepted'] = 'Erlaubt bis {$a}';
 $string['locksubmissionforstudent'] = 'Weitere Abgaben verhindern von {$a->fullname} (id={$a->id})';
 $string['locksubmissions'] = 'Abgabe sperren';
 $string['manageassignfeedbackplugins'] = 'Überblick über Feedback';
@@ -263,6 +263,8 @@ Bewertungsmöglichkeiten:
 - Bewertung mit mehreren Kriterien.';
 $string['modulenameplural'] = 'Aufgaben';
 $string['moreusers'] = 'Weitere {$a}...';
+$string['multipleteams'] = 'Mitglied in mehreren Gruppen';
+$string['multipleteamsgrader'] = 'Mitglied in mehreren Gruppen. Die Abgabe von Aufgaben ist nicht möglich.';
 $string['mysubmission'] = 'Meine Lösung:';
 $string['newsubmissions'] = 'Aufgaben abgegeben';
 $string['noattempt'] = 'Kein Versuch';
@@ -274,6 +276,8 @@ $string['noonlinesubmissions'] = 'Diese Aufgabe benötigt keine Online-Abgabe';
 $string['nosavebutnext'] = 'Weiter';
 $string['nosubmission'] = 'Für diese Aufgabe wurde nichts abgegeben';
 $string['nosubmissionsacceptedafter'] = 'Weitere Abgaben sind nicht zugelassen nach';
+$string['noteam'] = 'Nicht Mitglied einer Gruppe';
+$string['noteamgrader'] = 'Nicht Mitglied einer Gruppe. Die Abgabe von Aufgaben ist nicht möglich.';
 $string['notgraded'] = 'Nicht bewertet';
 $string['notgradedyet'] = 'Noch nicht bewertet';
 $string['notifications'] = 'Mitteilungen';
@@ -294,6 +298,8 @@ $string['page-mod-assign-x'] = 'Jede Aufgabenseite';
 $string['participant'] = 'Teilnehmer/innen';
 $string['pluginadministration'] = 'Aufgaben-Administration';
 $string['pluginname'] = 'Aufgabe';
+$string['preventsubmissionnotingroup'] = 'Gruppe notwendig, um etwas abgeben zu können';
+$string['preventsubmissionnotingroup_help'] = 'Diese Option legt fest, dass ausschließlich Mitglieder in Gruppen etwas abgeben können.';
 $string['preventsubmissions'] = 'Verhindert die Abgabe von Lösungen für diese Aufgabe durch Teilnehmer/innen';
 $string['preventsubmissionsshort'] = 'Abgabeänderung verhindern';
 $string['previous'] = 'Zurück';
@@ -411,6 +417,7 @@ $string['teamsubmission_help'] = 'Mit der Aktivierung werden die Teilnehmer/inne
 $string['textinstructions'] = 'Aufgabenstellung';
 $string['timemodified'] = 'Zuletzt geändert';
 $string['timeremaining'] = 'Verbleibende Zeit';
+$string['ungroupedusers'] = 'Die Option \'Gruppe notwendig, um etwas abgeben zu können\' ist aktiviert. Es gibt Personen ohne Gruppe oder Personen mit mehreren Gruppen, die deshalb nichts abgeben können.';
 $string['unlimitedattempts'] = 'Unbegrenzt';
 $string['unlimitedattemptsallowed'] = 'Unbegrenzte Versuche erlaubt';
 $string['unlocksubmissionforstudent'] = 'Abgabe für Teilnehmer/in erlauben: (id={$a->id}, Name={$a->fullname})';
@@ -420,6 +427,7 @@ $string['updatetable'] = 'Sichern und Tabelle aktualisieren';
 $string['upgradenotimplemented'] = 'Upgrade nicht implementiert für Plugin ({$a->type} {$a->subtype})';
 $string['userextensiondate'] = 'Erweiterung der Abgabe möglich bis: {$a}';
 $string['usergrade'] = 'Nutzerbewertung';
+$string['useridlistnotcached'] = 'Abbruch des Speichervorgangs. Moodle konnte nicht erkennen für welchen Nutzer die Bewertung gespeichertwerden soll.';
 $string['userswhoneedtosubmit'] = 'Nutzer/innen, die noch nicht abgegeben haben: {$a}';
 $string['validmarkingworkflowstates'] = 'Gültige Stati für Bewertungsablauf';
 $string['viewbatchmarkingallocation'] = 'Stapelverarbeitung für Bewerterzuordnung anzeigen.';

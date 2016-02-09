@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,7 +75,7 @@ $string['cannoteditcomment'] = 'Denna kommentar är inte din egen och du kan int
 $string['cannoteditcommentexpired'] = 'Du kan inte redigera detta, tidgränsen har löpt ut.';
 $string['cannoteditpostorblog'] = 'Du kan inte posta eller redigera bloggar';
 $string['cannoteditsiteform'] = 'Du kan inte redigera kursen på webbplatsnivå med hjälp av det här formuläret';
-$string['cannotedityourprofile'] = 'Du kan tyvärr inte redigera Din egen profil.';
+$string['cannotedityourprofile'] = 'Du kan tyvärr inte redigera din egen profil.';
 $string['cannotexecduringupgrade'] = 'Kan inte utföras under uppgradering';
 $string['cannotfindcategory'] = 'Det går inte att hitta kategoripost från databasen genom ID - {$a}';
 $string['cannotfindcomponent'] = 'Det går inte att hitta komponent';
@@ -155,7 +155,7 @@ $string['categorynamerequired'] = 'Kategorinamn krävs';
 $string['categorytoolong'] = 'Kategorinamnet är för långt';
 $string['commentmisconf'] = 'Kommentar ID är felkonfigurerad';
 $string['componentisuptodate'] = 'Komponenten är av en aktuell version';
-$string['confirmsesskeybad'] = 'Beklagar, men det gick inte att bekräfta Din nyckel för sessionen vilket är nödvändigt för att fullfölja den här handlingen. Det här är en säkerhetsåtgärd för att förebygga att viktiga funktioner utförs på felaktiga eller illasinnade sätt i Ditt namn. Var snäll och kontrollera noga att Du verkligen vill fullfölja detta.';
+$string['confirmsesskeybad'] = 'Beklagar, men det gick inte att bekräfta din nyckel för sessionen vilket är nödvändigt för att fullfölja den här handlingen. Det här är en säkerhetsåtgärd för att förebygga att viktiga funktioner utförs på felaktiga eller illasinnade sätt i ditt namn. Var snäll och kontrollera noga att du verkligen vill fullfölja detta.';
 $string['couldnotassignrole'] = 'Ett allvarligt men odefinierat fel inträffade när en roll skulle tilldelas till Dig.';
 $string['couldnotupdatenoexistinguser'] = 'Kan inte uppdatera användaren - användaren finns inte';
 $string['countriesphpempty'] = 'Fel: Filen countries.php i språkpaketet {$a} är tom eller saknas.';
@@ -407,7 +407,7 @@ $string['notownerofkey'] = 'Du är inte ägare till denna nyckel';
 $string['nousers'] = 'Ingen sådan användare!';
 $string['onlyadmins'] = 'Det är bara administratörer som kan göra detta.';
 $string['onlyeditingteachers'] = 'Det är bara lärare som kan göra det.';
-$string['onlyeditown'] = 'Du kan bara redigera Din egen information.';
+$string['onlyeditown'] = 'Du kan bara redigera din egen information.';
 $string['orderidnotfound'] = 'Ordernummer {$a} hittades inte';
 $string['pagenotexist'] = 'Ett ovanligt fel inträffade (ett försök att nå en sida som inte finns).';
 $string['pathdoesnotstartslash'] = 'Inga giltiga argument tillhandahölls, sökvägen börjar inte med snedstreck!';
@@ -441,9 +441,9 @@ $string['serverconnection'] = 'Fel vid anslutning till servern';
 $string['servicedonotexist'] = 'Tjänsten finns inte';
 $string['sessioncookiesdisable'] = 'Felaktig användning av require_key_login() - sessions-cookies måste inaktiveras!';
 $string['sessiondiskfull'] = 'Partitionen för sessioner är full. Just nu är det inte möjligt att logga in.<br /><br />Var god notifiera administratören för servern.';
-$string['sessionerroruser'] = 'Tiden för Din session har tagit slut eller stötte på ett fel. Var snäll och logga in igen.';
-$string['sessionerroruser2'] = 'Ett fel på servernivå som påverkar Din session för inloggning har upptäckts. Var snäll och logga in igen och starta om Din webbläsare.';
-$string['sessionipnomatch'] = 'Beklagar, men Ditt IP-nummer tycks ha ändrats sedan Du först loggade in. Det här är en säkerhetsåtgärd för att förebygga att \'crackers\' stjäl Din identitet medan Du är inloggad på den här webbplatsen. Vanliga användare bör inte få se detta meddelande - var snäll och be administratören för Din webbplats om hjälp.';
+$string['sessionerroruser'] = 'Tiden för din session har tagit slut eller stötte på ett fel. Var snäll och logga in igen.';
+$string['sessionerroruser2'] = 'Ett fel på servernivå som påverkar din session för inloggning har upptäckts. Var snäll och logga in igen och starta om din webbläsare.';
+$string['sessionipnomatch'] = 'Beklagar, men ditt IP-nummer tycks ha ändrats sedan du först loggade in. Det här är en säkerhetsåtgärd för att förebygga att \'crackers\' stjäl din identitet medan du är inloggad på den här webbplatsen. Vanliga användare bör inte få se detta meddelande - var snäll och be administratören för din webbplats om hjälp.';
 $string['sessionipnomatch2'] = 'Tyvärr, ditt ip-nummer verkar att ha ändrats sedan du först loggade in. Den här säkerhetsfunktionen förhindrar crackers att stjäla din identitet medan du är inloggad på den här webbplatsen. Du kan se det här felmeddelandet ifall du använder trådlösa nätverk eller om du roamar mellan olika nätverk. Var god fråga webbplatsens administratör för mer hjälp.<br /><br />Om du vill fortsätta, var god tryck F5 för att ladda om den här sidan.';
 $string['sessionwaiterr'] = 'Timeout i väntan på sessionslås.<br />Vänta till din nuvarande förfrågan avslutats och försök igen senare.';
 $string['shortnametaken'] = 'Kortnamnet används redan för en annan kurs';

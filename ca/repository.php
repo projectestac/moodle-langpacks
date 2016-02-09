@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'repository', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -129,7 +129,6 @@ $string['folderrecurse'] = 'La carpeta no es pot moure a la seva pròpia subcarp
 $string['getfile'] = 'Seleccioneu aquest fitxer';
 $string['getfiletimeout'] = 'Temps d\'espera per a obtenir el fitxer';
 $string['help'] = 'Ajuda';
-$string['hidden'] = 'Ocult';
 $string['iconview'] = 'Mostra com a icones';
 $string['imagesize'] = '{$a->width} x {$a->height} px';
 $string['instance'] = 'instància';

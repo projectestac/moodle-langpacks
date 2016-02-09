@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filters', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'filters', language 'ru', branch 'MOODLE_30_STABLE'
  *
  * @package   filters
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,7 +69,7 @@ $string['isnotdefined'] = 'не определено';
 $string['isnotequalto'] = 'не совпадает с';
 $string['limiterfor'] = 'ограничитель поля для {$a}';
 $string['neveraccessed'] = 'Никогда не входил';
-$string['nevermodified'] = 'Никогда не был изменен';
+$string['nevermodified'] = 'Никогда не измененные';
 $string['newfilter'] = 'Новый фильтр';
 $string['nofiltersenabled'] = 'На этом сайте не включен ни один плагин фильтра.';
 $string['off'] = 'Выключен';

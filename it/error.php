@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'it', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'it', branch 'MOODLE_30_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -78,6 +78,7 @@ $string['cannoteditcomment'] = 'Non puoi modificare commenti che non sono tuoi!'
 $string['cannoteditcommentexpired'] = 'Non puoi modificarlo. Il tempo è scaduto!';
 $string['cannoteditpostorblog'] = 'Non puoi inserire o modificare interventi nei blog';
 $string['cannoteditsiteform'] = 'Non puoi modificare il corso nella pagina home usando questo form';
+$string['cannotedituserpreferences'] = 'Non è possibile modificare le preferenze di questo utente';
 $string['cannotedityourprofile'] = 'Spiacente, non sei autorizzato a modificar eil tuo profilo';
 $string['cannotexecduringupgrade'] = 'Non può essere elaborato durante l\'aggiornamento';
 $string['cannotfindcategory'] = 'Non è possibile trovare nel database il record della categoria con ID - {$a}';
@@ -232,6 +233,7 @@ $string['errorcreatingfile'] = 'Si è verificato un errore creando il file "{$a}
 $string['errorcreatingrole'] = 'Si è verificato un errore durante la creazione del ruolo';
 $string['errorfetchingrssfeed'] = 'Si è verificato un errore durante la ricezione del feed RSS.';
 $string['erroronline'] = 'Si è verificato un errore alla linea {$a}';
+$string['erroroutput'] = 'Errore in uscita, il reindirizzamento automatico è stato disabilitato.';
 $string['errorparsingxml'] = 'Errore durante il parsing dell\'XML {$a->errorstring} alla linea {$a->errorline}, carattere {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Si è verificato un errore durante l\'elaborazione del file archivio';
 $string['errorreadingfile'] = 'Si è verificato un errore leggendo il file "{$a}"';

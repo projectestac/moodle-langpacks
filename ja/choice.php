@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'choice', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,9 +32,11 @@ $string['answered'] = '投票済み';
 $string['atleastoneoption'] = 'あなたは少なくとも1つの考えられる答えを提供する必要があります。';
 $string['cannotsubmit'] = '申し訳ございません、あなたの投票送信時に問題が発生しました。再度お試しください。';
 $string['choice'] = '選択肢';
+$string['choiceactivityname'] = '投票: {$a}';
 $string['choice:addinstance'] = '新しい投票を追加する';
 $string['choice:choose'] = '投票を記録する';
 $string['choiceclose'] = '終了日時';
+$string['choicecloseson'] = '投票は {$a} に終了します。';
 $string['choice:deleteresponses'] = '投票結果を削除する';
 $string['choice:downloadresponses'] = '投票結果をダウンロードする';
 $string['choicefull'] = 'この投票は投票可能数の上限に達しているため、投票できません。';
@@ -59,6 +61,7 @@ $string['eventreportviewed'] = '投票結果が閲覧されました。';
 $string['expired'] = '申し訳ございません、この活動は {$a} に終了しているため、これ以上利用することはできません。';
 $string['full'] = '(上限到達)';
 $string['havetologin'] = 'あなたは投票する前にログインする必要があります。';
+$string['includeinactive'] = '使用停止中ユーザからの回答を含む';
 $string['limit'] = '投票制限数';
 $string['limitanswers'] = '投票可能数を制限する';
 $string['limitanswers_help'] = 'このオプションでは、あなたは参加者がそれぞれの投票選択肢を選択できる数を制限することができます。制限数に達した場合、その選択肢を選択できないようになります。
@@ -84,14 +87,15 @@ $string['noresultsviewable'] = '現在、投票結果は閲覧できません。
 $string['notanswered'] = '未投票';
 $string['notenrolledchoose'] = '申し訳ございません、登録済みユーザのみ投票を利用することができます。';
 $string['notopenyet'] = '申し訳ございません、この活動は {$a} まで利用することができません。';
-$string['numberofuser'] = '参加者数';
-$string['numberofuserinpercentage'] = '参加者数 (%)';
+$string['numberofuser'] = '投票者数';
+$string['numberofuserinpercentage'] = '投票者数 (%)';
 $string['option'] = 'オプション';
 $string['optionno'] = 'オプション {no}';
 $string['options'] = 'オプション';
 $string['page-mod-choice-x'] = 'すべての投票モジュールページ';
 $string['pluginadministration'] = '投票管理';
 $string['pluginname'] = '投票';
+$string['previewonly'] = 'これはこの活動に関する利用可能なオプションのプレビューです。あなたの投票は {$a} まで送信することができません。';
 $string['privacy'] = '投票結果のプライバシー';
 $string['publish'] = '投票結果を公開する';
 $string['publishafteranswer'] = '投票した後、学生に投票結果を表示する';
@@ -107,6 +111,8 @@ $string['responsesresultgraphheader'] = 'グラフ表示';
 $string['responsesto'] = '{$a} へ投票する';
 $string['results'] = '結果';
 $string['savemychoice'] = '私の投票を保存する';
+$string['showpreview'] = 'プレビューを表示する';
+$string['showpreview_help'] = '投票の送信が開始される前、学生が利用可能なオプションをプレビューできるようにします。';
 $string['showunanswered'] = '未投票のカラムを表示する';
 $string['skipresultgraph'] = '結果グラフをスキップする';
 $string['spaceleft'] = '件 (投票可能数)';

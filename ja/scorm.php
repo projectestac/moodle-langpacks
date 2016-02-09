@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'scorm', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,7 +45,7 @@ $string['allowtypeexternal'] = '外部パッケージタイプを有効にする
 $string['allowtypeexternalaicc'] = 'ダイレクトAICC URLを有効にする';
 $string['allowtypeexternalaicc_desc'] = 'この設定を有効にした場合、シンプルAICCパッケージのダイレクトURLが許可されます。';
 $string['allowtypelocalsync'] = 'ダウンロード済みパッケージタイプを有効にする';
-$string['apidebugmask'] = 'APIデバッグキャプチャマスク - <username>:<activityname>  でシンプルなregexを使用します。例) 「admin:.*」は管理ユーザ (admin) のみのデバッグとなります。';
+$string['apidebugmask'] = 'APIデバッグキャプチャマスク - &lt;username&gt;:&lt;activityname&gt; でシンプルなregexを使用します。例) 「admin:.*」は管理ユーザ (admin) のみのデバッグとなります。';
 $string['areacontent'] = 'コンテンツファイル';
 $string['areapackage'] = 'パッケージファイル';
 $string['asset'] = 'アセット';
@@ -54,9 +54,9 @@ $string['attempt'] = '受験';
 $string['attempt1'] = '受験 1';
 $string['attempts'] = '受験';
 $string['attemptsmanagement'] = '受験管理';
-$string['attemptstatusall'] = 'マイホームおよびエントリページ';
+$string['attemptstatusall'] = 'ダッシュボードおよびエントリページ';
 $string['attemptstatusentry'] = 'エントリページのみ';
-$string['attemptstatusmy'] = 'マイホームのみ';
+$string['attemptstatusmy'] = 'ダッシュボードのみ';
 $string['attemptsx'] = '受験 {$a}';
 $string['attr_error'] = 'タグ {$a->tag} のアトリビュート ({$a->attr}) に不適切な値が設定されています。';
 $string['autocommit'] = '自動コミット';
@@ -74,6 +74,7 @@ $string['browsed'] = '閲覧済み';
 $string['browsemode'] = 'プレビューモード';
 $string['browserepository'] = 'リポジトリの閲覧';
 $string['calculatedweight'] = '計算加重';
+$string['cannotaccess'] = 'あなたはこのスクリプトをそのようにコールすることはできません。';
 $string['cannotfindsco'] = 'SCOを見つけることができませんでした。';
 $string['chooseapacket'] = 'パッケージの選択または更新';
 $string['collapsetocwinsize'] = '次のサイズ以下の場合、TOCを折りたたむ';
@@ -106,8 +107,8 @@ $string['display'] = 'パッケージの表示';
 $string['displayactivityname'] = '活動名を表示する';
 $string['displayactivityname_help'] = 'SCORMプレイヤーの上に活動名を表示するかどうか指定します。';
 $string['displayattemptstatus'] = '受験状況を表示する';
-$string['displayattemptstatusdesc'] = 'ホームディレクトリのコース概要ブロックおよびSCORMエントリページにユーザの受験概要を表示するかどうか設定します。';
-$string['displayattemptstatus_help'] = 'このプリファレンスでは、ユーザ受験の概要をマイホーム内のコース概要ブロックまたはSCORMエントリページに表示できるようにします。';
+$string['displayattemptstatusdesc'] = 'ダッシュボードのコース概要ブロックおよびSCORMエントリページにユーザの受験概要を表示するかどうか設定します。';
+$string['displayattemptstatus_help'] = 'このプリファレンスではユーザ受験の概要をダッシュボード内のコース概要ブロックまたはSCORMエントリページに表示できるようにします。';
 $string['displaycoursestructure'] = 'エントリページにコース構造を表示する';
 $string['displaycoursestructuredesc'] = 'この設定を有効にした場合、SCORMアウトラインページに目次が表示されます。';
 $string['displaycoursestructure_help'] = 'この設定を有効にした場合、コンテンツのSCORMテーブルをSCORMアウトラインページに表示します。';
@@ -284,6 +285,8 @@ $string['position_error'] = '{$a->tag} タグは {$a->parent} タグの子タグ
 $string['preferencespage'] = 'このページ限定のプリファレンス';
 $string['preferencesuser'] = 'このレポートのプリファレンス';
 $string['prev'] = '前に戻る';
+$string['protectpackagedownloads'] = 'パッケージダウンロードを保護する';
+$string['protectpackagedownloads_desc'] = 'この設定を有効にした場合、course:manageactivitiesケイパビリティが割り当てられているユーザのみSCORMパッケージをダウンロードすることができます。この設定が無効にされた場合、SCORMパッケージを常に (モバイルまたは他の方法で) ダウンロードすることができます';
 $string['raw'] = '実評点';
 $string['regular'] = '標準マニフェストファイル';
 $string['report'] = 'レポート';

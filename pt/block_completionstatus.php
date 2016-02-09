@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completionstatus', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_completionstatus', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   block_completionstatus
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,9 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['completionprogressdetails'] = 'Detalhes do processo de conclusão';
-$string['completionstatus:addinstance'] = 'Adicionar um novo bloco Estado da conclusão da disciplina';
+$string['completionstatus:addinstance'] = 'Adicionar um novo bloco Conclusão da disciplina';
 $string['criteriagroup'] = 'Critério de grupo';
 $string['firstofsecond'] = '{$a->first} de {$a->second}';
-$string['pluginname'] = 'Estado da conclusão da disciplina';
+$string['pluginname'] = 'Conclusão da disciplina';
 $string['requirement'] = 'Requisito';
 $string['returntocourse'] = 'Voltar à disciplina';

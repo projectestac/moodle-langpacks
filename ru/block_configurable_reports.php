@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_configurable_reports', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_configurable_reports', language 'ru', branch 'MOODLE_30_STABLE'
  *
  * @package   block_configurable_reports
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -308,7 +308,6 @@ $string['previousstart'] = 'Начало отчета (дней назад)';
 $string['printreport'] = 'Печать отчета';
 $string['puserfield'] = 'Значение поля пользовательского профиля';
 $string['puserfield_summary'] = 'Пользователь с этим значением в указанном поле профиля';
-$string['queryfailed'] = 'Не удалось выполнить запрос';
 $string['querysql'] = 'SQL-запрос';
 $string['remote'] = 'Запускать во внешней БД';
 $string['remotedescription'] = 'Вы хотите выполнять этот запрос во внешней базе данных?';

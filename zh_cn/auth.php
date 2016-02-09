@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actauthhdr'] = '可用的认证插件';
+$string['allowaccountssameemail'] = '允许账户使用相同的邮箱地址';
+$string['allowaccountssameemail_desc'] = '如果启用此项，可允许超过一个账户共用一个邮箱地址。这可能会产生安全或隐私方面的问题，例如密码找回确认邮件等。';
 $string['alternatelogin'] = '如果您在此输入一个URL，它将被用于本站的登录。这个页面上应当有一个表单，表单的 action 一项应设定为<strong>“{$a}”</strong>，并且返回的字段中应当有 <strong>username</strong> 和 <strong>password</strong>。<br />小心，不要输入错误的URL，否则您可能会被锁在站点之外。<br />要使用缺省的登录页面请为此设置保留空白。';
 $string['alternateloginurl'] = '换用其它登录链接';
 $string['auth_changepasswordhelp'] = '修改密码帮助';
@@ -90,6 +92,7 @@ $string['errorminpasswordlength'] = '密码中至少要有 {$a} 个字符。';
 $string['errorminpasswordlower'] = '密码中至少要有 {$a} 个小写字母。';
 $string['errorminpasswordnonalphanum'] = '密码中至少要有 {$a} 个非字母、数字字符。';
 $string['errorminpasswordupper'] = '密码中至少要有 {$a} 个大写字母。';
+$string['errorpasswordreused'] = '此密码曾被你用过，不可再次使用。';
 $string['errorpasswordupdate'] = '更新密码错误，密码没有更新。';
 $string['eventuserloggedin'] = '用户已登录';
 $string['eventuserloggedinas'] = '使用另外一个用户名进行登录';
@@ -109,10 +112,13 @@ $string['informminpassworddigits'] = '至少{$a}个数字';
 $string['informminpasswordlength'] = '至少{$a}个字符';
 $string['informminpasswordlower'] = '至少{$a}个小写字母';
 $string['informminpasswordnonalphanum'] = '至少{$a}个特殊字符';
+$string['informminpasswordreuselimit'] = '密码能在 {$a} 次更换后再次使用';
 $string['informminpasswordupper'] = '至少{$a}个大写字母';
 $string['informpasswordpolicy'] = '密码必须包含{$a}';
 $string['instructions'] = '使用说明';
 $string['internal'] = '内部的';
+$string['limitconcurrentlogins'] = '限制同时登录';
+$string['limitconcurrentlogins_desc'] = '启用浏览器同时登录阀值，则用户登录会受到限制。到达限制值，则最早的进程会被中断，请注意用户可能会丢失未保存的信息。这个设置不适用于单点登录（SSO）认证插件。';
 $string['locked'] = '锁定';
 $string['md5'] = 'MD5 加密';
 $string['nopasswordchange'] = '密码不能被更新';
@@ -130,6 +136,7 @@ $string['recaptcha'] = 'reCAPTCHA';
 $string['recaptcha_help'] = '图片验证码用来防止网站被自动程序滥用。只需在输入框中按顺序输入这些词，用一个空格分隔。
 
 如果您不确定这些词是什么，可以尝试再获得一个图片验证码或播放声音验证码。';
+$string['security_question'] = '安全问题';
 $string['selfregistration'] = '自助注册';
 $string['selfregistration_help'] = '如果选中一个身份认证插件，比如基于email的自助注册，那么用户就可以自己注册并创建帐户。这可能导致一些人为了在讨论区、博客等发送垃圾信息而自己建立帐号。为了避免这种风险，自助注册应禁用或仅限<em>允许的email域名</em>。
 ';

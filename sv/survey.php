@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'survey', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -85,11 +85,11 @@ $string['cannotfindquestion'] = 'Det finns ingen sådan fråga';
 $string['cannotfindsurveytmpt'] = 'Det gick inte att hitta några mallar för enkäter!';
 $string['ciq1'] = 'Vid vilka tillfällen under en lektion är Du mest engagerad som lärande?';
 $string['ciq1short'] = 'Mest engagerad';
-$string['ciq2'] = 'Vid vilka tillfällen under en lektion är Du mest distraherad som lärande?';
+$string['ciq2'] = 'Vid vilka tillfällen under en lektion är du mest distraherad som lärande?';
 $string['ciq2short'] = 'Mest distraherad';
-$string['ciq3'] = 'Vilken aktivitet av alla i forumen upplevde Du som mest stödjande eller till hjälp?';
+$string['ciq3'] = 'Vilken aktivitet av alla i forumen upplevde du som mest stödjande eller till hjälp?';
 $string['ciq3short'] = 'Moment som var till god hjälp';
-$string['ciq4'] = 'Vilken aktivitet av alla i forumen upplevde Du som svårast att förstå eller mest förvirrande?';
+$string['ciq4'] = 'Vilken aktivitet av alla i forumen upplevde du som svårast att förstå eller mest förvirrande?';
 $string['ciq4short'] = 'Moment som var förvirrande';
 $string['ciq5'] = 'Vilken händelse överraskade Dig mest?';
 $string['ciq5short'] = 'Moment som var överraskande';
@@ -150,11 +150,11 @@ Det finns inga \'rätta\' eller \'felaktiga\' svar; vi är endast intresserade a
 Dina väl genomtänkta svar kommer däremot att hjälpa oss förbättra hur denna del av läromiljön (kursen) presenteras online i framtiden.
 Tack så mycket för Din medverkan.';
 $string['collesaname'] = 'Konstruktivistiskt inriktad enkät ang en nätbaserad läromiljö (faktisk)';
-$string['collesapintro'] = 'Syftet med detta frågeformulär är att hjälpa oss förstå hur mycket den här delen av distansutbildningen har underlättat (eller försvårat) Ditt lärande.
-Vi ber Dig att jämföra Dina behov och förväntningar med det som den här delen av läromiljön (kursen) faktiskt har bidragit med när det gäller Ditt lärande. Det gör Du genom att ta ställning till vart och ett av de 24 nedanstående påståendena.
-Det finns inga \'rätta\' eller \'felaktiga\' svar; vi är endast intresserade av din åsikt. Dina svar kommer att behandlas med högsta sekretess och kommer inte att påverka Dina betyg eller andra värderingar.
+$string['collesapintro'] = 'Syftet med detta frågeformulär är att hjälpa oss förstå hur mycket den här delen av distansutbildningen har underlättat (eller försvårat) ditt lärande.
+Vi ber dig att jämföra dina behov och förväntningar med det som den här delen av läromiljön (kursen) faktiskt har bidragit med när det gäller ditt lärande. Det gör du genom att ta ställning till vart och ett av de 24 nedanstående påståendena.
+Det finns inga \'rätta\' eller \'felaktiga\' svar; vi är endast intresserade av din åsikt. Dina svar kommer att behandlas med högsta sekretess och kommer inte att påverka dina betyg eller andra värderingar.
 Dina väl genomtänkta svar kommer att hjälpa oss förbättra hur denna del av läromiljön (kursen) presenteras online i framtiden.
-Tack så mycket för Din medverkan.';
+Tack så mycket för din medverkan.';
 $string['collesapname'] = 'Konstruktivistiskt inriktad enkät ang en nätbaserad läromiljö (Önskad och faktisk)';
 $string['collesm1'] = 'Relevans';
 $string['collesm1short'] = 'Relevans';
@@ -169,12 +169,12 @@ $string['collesm5short'] = 'Kamratstöd';
 $string['collesm6'] = 'Tolkning';
 $string['collesm6short'] = 'Tolkning';
 $string['collesmintro'] = 'I den här lärandemiljön fungerar det så att';
-$string['collespintro'] = 'Syftet med denna enkät är att hjälpa oss förstå vad Du uppskattar hos en webbaserad distansutbildning.
-Vart och ett av de 24 påståendena nedan efterfrågar vilka sidor av den här modulen Du tycker bäst om.
-Det finns inga \'rätta\' eller \'felaktiga\' svar; vi är endast intresserade av Din åsikt. Dina svar kommer att behandlas med högsta sekretess och kommer inte att påverka Dina betyg eller andra värderingar.
+$string['collespintro'] = 'Syftet med denna enkät är att hjälpa oss förstå vad du uppskattar hos en webbaserad distansutbildning.
+Vart och ett av de 24 påståendena nedan efterfrågar vilka sidor av den här modulen du tycker bäst om.
+Det finns inga \'rätta\' eller \'felaktiga\' svar; vi är endast intresserade av din åsikt. Dina svar kommer att behandlas med högsta sekretess och kommer inte att påverka dina betyg eller andra värderingar.
 Dina väl genomtänkta svar kommer att hjälpa oss förbättra funktionerna i denna enhet i framtiden.
 
-Tack så mycket för Din medverkan.';
+Tack så mycket för din medverkan.';
 $string['collespname'] = 'Konstruktivistiskt inriktad enkät angående en nätbaserad läromiljö (Önskad)';
 $string['customintro'] = 'Introduktion i standardformat';
 $string['deleteallanswers'] = 'Ta bort alla svar på enkäten';
@@ -203,7 +203,7 @@ $string['nobodyyet'] = 'Ingen har genomfört denna enkät';
 $string['notdone'] = 'Inte  genomförd ännu';
 $string['notes'] = 'Din privata analys och anteckningar';
 $string['notyetanswered'] = 'Ännu inte besvarad';
-$string['othercomments'] = 'Har Du några andra kommentarer?';
+$string['othercomments'] = 'Har du några andra kommentarer?';
 $string['peoplecompleted'] = '{$a} person/personer har hittills genomfört denna enkät';
 $string['pluginadministration'] = 'Administration av enkät';
 $string['pluginname'] = 'Färdig enkät';
@@ -223,7 +223,7 @@ $string['scaletimes5'] = 'Nästan aldrig, Sällan, Ibland, Ofta, Nästan alltid'
 $string['seemoredetail'] = 'Klicka här för att se fler detaljer';
 $string['selectedquestions'] = 'Utvalda frågor från en skala, alla studenter/elever/deltagare/lärande';
 $string['summary'] = 'Summering';
-$string['surveycompleted'] = 'Du har genomfört denna enkät.  Grafen nedan visar en summering av Dina resultat jämfört med ett klassgenomsnitt.';
+$string['surveycompleted'] = 'Du har genomfört denna enkät.  Grafen nedan visar en summering av dina resultat jämfört med ett klassgenomsnitt.';
 $string['survey:download'] = 'Ladda ner svar';
 $string['surveygraph'] = 'Graf över enkät';
 $string['surveyname'] = 'Enkätnamn';
@@ -231,6 +231,6 @@ $string['survey:participate'] = 'Besvara enkät';
 $string['survey:readresponses'] = 'Visa svar';
 $string['surveysaved'] = 'Enkät sparad';
 $string['surveytype'] = 'Enkättyp';
-$string['thanksforanswers'] = 'Stort tack för att Du besvarade denna enkät, {$a}';
+$string['thanksforanswers'] = 'Stort tack för att du besvarade denna enkät, {$a}';
 $string['time'] = 'Tid';
 $string['viewsurveyresponses'] = 'Se {$a} enkätsvar';

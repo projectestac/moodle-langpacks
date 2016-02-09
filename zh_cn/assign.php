@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assign', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -78,7 +78,10 @@ $string['attemptheading'] = '第{$a->attemptnumber}次作业提交 : {$a->submis
 $string['attempthistory'] = '上一个尝试';
 $string['attemptnumber'] = '作业提交次数';
 $string['attemptreopenmethod'] = '重试开启';
-$string['attemptreopenmethod_help'] = '此项设置决定学生对作业的可提交状态的重新开启情况。可选项有：<ul><li>从不开启 — 不允许学生再次提交作业。</li><li>手工开启 — 可由教师手工开启提交。</li><li>自动开启直到通过 — 在学生分数达到及格线以前，该作业一直是开启提交的。及格线可以在成绩单里面设置（类别和项）。</li></ul>';
+$string['attemptreopenmethod_help'] = '此项设置决定学生对作业的可提交状态的重新开启情况。可选项有：
+<ul><li>从不开启 — 不允许学生再次提交作业。</li>
+<li>手工开启 — 可由教师手工开启提交。</li>
+<li>自动开启直到通过 — 在学生分数达到及格线以前，该作业一直是开启提交的。及格线可以在成绩单里面设置（类别和项）。</li></ul>';
 $string['attemptreopenmethod_manual'] = '手工开启';
 $string['attemptreopenmethod_none'] = '从不开启';
 $string['attemptreopenmethod_untilpass'] = '自动开启直到通过';
@@ -232,7 +235,7 @@ $string['invalidgradeforscale'] = '所提供的分数对于当前等级不适用
 $string['lastmodifiedgrade'] = '最后修改（教师）';
 $string['lastmodifiedsubmission'] = '最后修改（学生）';
 $string['latesubmissions'] = '迟交的作业';
-$string['latesubmissionsaccepted'] = '允许迟交，直到提交截止的时间';
+$string['latesubmissionsaccepted'] = '宽限迟交直到{$a}';
 $string['locksubmissionforstudent'] = '禁止该生再提交作业：（id={$a->id}, 姓名={$a->fullname}）。';
 $string['locksubmissions'] = '锁定作业';
 $string['manageassignfeedbackplugins'] = '管理作业反馈插件';
@@ -270,6 +273,8 @@ $string['modulename_help'] = '作业活动模块允许教师布置任务，收�
 检查作业时，老师可以写反馈评语，还可以上传文件，例如加了批注的学生作业、有评语的文档或语音反馈。可以用数值或等级对作业评分，也可以用量规进行高级评分。最终评分记录在成绩单中。';
 $string['modulenameplural'] = '作业';
 $string['moreusers'] = '{$a} 更多…';
+$string['multipleteams'] = '你同时属于不同群组的成员';
+$string['multipleteamsgrader'] = '你同时属于不同群组的成员，因此无法提交作业';
 $string['mysubmission'] = '我的作业：';
 $string['newsubmissions'] = '已交的作业';
 $string['noattempt'] = '没有提交作业';
@@ -281,6 +286,8 @@ $string['noonlinesubmissions'] = '这个作业不需要您在网上提交任何�
 $string['nosavebutnext'] = '向后';
 $string['nosubmission'] = '这个作业还没有任何提交';
 $string['nosubmissionsacceptedafter'] = '提交截止时间';
+$string['noteam'] = '你不是任何一个群组的成员，请联系你的老师。';
+$string['noteamgrader'] = '你不是任何群组的成员 ，因此无法提交作业。';
 $string['notgraded'] = '未评分';
 $string['notgradedyet'] = '没有评分';
 $string['notifications'] = '通知';
@@ -301,6 +308,8 @@ $string['page-mod-assign-x'] = '任意作业模块页面';
 $string['participant'] = '参与者';
 $string['pluginadministration'] = '作业管理';
 $string['pluginname'] = '作业';
+$string['preventsubmissionnotingroup'] = '只允许小组提交';
+$string['preventsubmissionnotingroup_help'] = '如启用，则非小组成员不能提交';
 $string['preventsubmissions'] = '阻止用户继续提交该作业。';
 $string['preventsubmissionsshort'] = '禁止更改作业';
 $string['previous'] = '向前';
@@ -420,6 +429,7 @@ $string['teamsubmission_help'] = '如果启用此项，采用默认分组或者�
 $string['textinstructions'] = '作业说明';
 $string['timemodified'] = '最后修改';
 $string['timeremaining'] = '剩余时间';
+$string['ungroupedusers'] = '“需要小组合作完成的作业”的设置已经启用，某些用户未分配小组或者加入多个小组，将不能完成作业。';
 $string['unlimitedattempts'] = '不限';
 $string['unlimitedattemptsallowed'] = '允许重试无限次';
 $string['unlocksubmissionforstudent'] = '允许该生提交：（学生ID={$a->id}，姓名={$a->fullname}）。';

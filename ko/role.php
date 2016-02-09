@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ko', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'ko', branch 'MOODLE_30_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -221,7 +221,6 @@ $string['grade:unlock'] = '성적 혹은 항목 잠금해제';
 $string['grade:view'] = '내 성적 보기';
 $string['grade:viewall'] = '다른 사람 성적 보기';
 $string['grade:viewhidden'] = '숨겨진 성적 보기';
-$string['hidden'] = '비공개';
 $string['highlightedcellsshowdefault'] = '아래 표의 강조된 칸은 \'정규 역할 유형\'에 기반한 표준 권한을 보여줍니다.';
 $string['highlightedcellsshowinherit'] = '아래 표의 강조된 칸은 상속될 수 있는 권한을 보여줍니다. 실제 변경하고자 하는 권한과는 별개로, 모든 것을 상속으로 두어야 합니다.';
 $string['inactiveformorethan'] = '{$a->timeperiod} 이상 비활동';

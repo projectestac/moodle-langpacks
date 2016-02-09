@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth', language 'de', branch 'MOODLE_30_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actauthhdr'] = 'Aktive Plugins zur Authentifizierung';
+$string['allowaccountssameemail'] = 'Nutzerkonten mit gleicher E-Mail-Adresse erlauben';
+$string['allowaccountssameemail_desc'] = 'Wenn diese Option aktiviert ist, können mehrere Nutzerkonten die gleiche E-Mail-Adresse verwenden. Dies könnte Probleme hinsichtlich Sicherheit oder Privatsphäre entstehen lassen, z.B. bei der Bestätigungsnachricht zur Kennwortänderung.';
 $string['alternatelogin'] = 'Bei der Eingabe einer URL wird diese als alternative Login-Seite verwandt. Die Seite sollte ein Formular enthalten, dessen Aktionsfunktion auf <strong>\'{$a}\'</strong> gesetzt ist und außerdem Eingabefelder für den <strong>Anmeldenamen</strong> und das <strong>Kennwort</strong> zurück liefert.<br />Seien Sie sehr sorgfältig bei der Eingabe der URL, denn mit einer falschen URL schließen Sie sich vom Zugriff zur Website aus.<br />Lassen Sie das Feld leer, um die standardmäßige Anmeldeseite zu verwenden.';
 $string['alternateloginurl'] = 'URL für alternatives Login';
 $string['auth_changepasswordhelp'] = 'Hilfe zur Kennwortänderung';
@@ -89,6 +91,7 @@ $string['errorminpasswordlength'] = 'Kennwörter müssen mindestens {$a} Zeichen
 $string['errorminpasswordlower'] = 'Kennwörter müssen mindestens {$a} Kleinbuchstaben enthalten.';
 $string['errorminpasswordnonalphanum'] = 'Kennwörter müssen mindestens {$a} Sonderzeichen enthalten, z.B. :#_!§-%&*+?@.';
 $string['errorminpasswordupper'] = 'Kennwörter müssen mindestens {$a} Großbuchstaben enthalten.';
+$string['errorpasswordreused'] = 'Dieses Kennwort wurde bereits benutzt und kann nicht wiederverwendet werden.';
 $string['errorpasswordupdate'] = 'Fehler: Kennwort konnte nicht geändert werden!';
 $string['eventuserloggedin'] = 'Nutzer/in ist angemeldet';
 $string['eventuserloggedinas'] = 'Nutzer/in ist als andere Person angemeldet';
@@ -108,10 +111,13 @@ $string['informminpassworddigits'] = '{$a} Ziffer(n)';
 $string['informminpasswordlength'] = 'mindestens {$a} Zeichen';
 $string['informminpasswordlower'] = '{$a} Kleinbuchstabe(n)';
 $string['informminpasswordnonalphanum'] = '{$a} Sonderzeichen';
+$string['informminpasswordreuselimit'] = 'Kennwörter können nach {$a} Änderungen erneut benutzt werden.';
 $string['informminpasswordupper'] = '{$a} Großbuchstabe(n)';
 $string['informpasswordpolicy'] = 'Kennwortregeln: <br />{$a}';
 $string['instructions'] = 'Anleitung';
 $string['internal'] = 'Intern';
+$string['limitconcurrentlogins'] = 'Gleichzeitige Anmeldungen begrenzen';
+$string['limitconcurrentlogins_desc'] = 'Wenn diese Option aktiviert ist, wird die Anzahl der Anmeldungen für jeden Benutzer eingeschränkt. Die älteste Sitzung wird beim Erreichen der Grenze beendet, alle nicht gespeicherten Daten gehen verloren. Diese Einstellung ist nicht mit einer Authentifizierung über Single-Sign-On (SSO) kompatibel.';
 $string['locked'] = 'Gesperrt';
 $string['md5'] = 'MD5-Verschlüsselung';
 $string['nopasswordchange'] = 'Kennwort kann nicht geändert werden';
@@ -129,6 +135,7 @@ $string['recaptcha'] = 'ReCaptcha';
 $string['recaptcha_help'] = 'Das Captcha versucht Missbrauch durch automatisierte Programme zu verhindern. Tragen Sie die Wörter in das Eingabefeld ein, und zwar in der richtigen Reihenfolge und getrennt durch ein Leerzeichen.
 
 Sollten Sie nicht sicher sein, welche Wörter zu sehen sind, holen Sie sich einfach ein neues Captcha oder versuchen Sie es mit einem Audio-Captcha.';
+$string['security_question'] = 'Sicherheitsfrage';
 $string['selfregistration'] = 'Selbstregistrierung';
 $string['selfregistration_help'] = 'Wenn die Selbstregistrierung (z.B. \'E-Mail basiert\') aktiviert ist, können sich alle Personen selbst registrieren und ein Nutzerkonto anlegen. Auf diese Weise könnten aber auch Spammer ein Nutzerkonto erhalten und Einträge in Foren, Blogs oder Profilen  missbrauchen. Um dieses Risiko zu vermeiden, können Sie die Selbstregistrierung ausschalten oder auf bestimmte E-Mail-Domains (z.B. meinefirma.de) beschränken.';
 $string['sha1'] = 'SHA-1 hash';

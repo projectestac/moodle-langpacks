@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'de', branch 'MOODLE_30_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -153,6 +153,7 @@ $string['course:reset'] = 'Kurs zurücksetzen';
 $string['course:reviewotherusers'] = 'Beobachtung anderer Nutzer/innen';
 $string['course:sectionvisibility'] = 'Abschnitte anzeigen/verbergen';
 $string['course:setcurrentsection'] = 'Kursabschnitt als \'aktuell\' markieren';
+$string['course:tag'] = 'Kursschlagwörter ändern';
 $string['course:update'] = 'Kurseinstellungen aktualisieren';
 $string['course:useremail'] = 'E-Mail-Adresse ein-/ausschalten';
 $string['course:view'] = 'Kurse ohne Beteiligung ansehen';
@@ -226,7 +227,6 @@ $string['grade:unlock'] = 'Bewertungen oder Aspekte freigeben';
 $string['grade:view'] = 'Eigene Bewertungen ansehen';
 $string['grade:viewall'] = 'Fremde Bewertungen ansehen';
 $string['grade:viewhidden'] = 'Verborgene Bewertungen sehen';
-$string['hidden'] = 'Verborgen';
 $string['highlightedcellsshowdefault'] = 'Die in der folgenden Tabelle markierten Rechte sind die Standardwerte für diese Rolle. Grundlage ist die ausgewählte Basisrolle.';
 $string['highlightedcellsshowinherit'] = 'Die in der folgenden Tabelle markierten Zellen zeigen die (möglicherweise vorhandenen) vererbten Rechte. Mit Ausnahme des zu ändernden Rechts sollten alle Einstellungen unverändert auf \'vererben\' bleiben.';
 $string['inactiveformorethan'] = 'länger als {$a->timeperiod} inaktiv';
@@ -252,8 +252,8 @@ $string['manageroles'] = 'Rollen verwalten';
 $string['maybeassignedin'] = 'Kontexttypen, in denen diese Rolle möglicherweise zugewiesen ist.';
 $string['morethan'] = 'Mehr als {$a}';
 $string['multipleroles'] = 'Mehrfach-Rollen';
-$string['my:configsyspages'] = 'Vorlagen für \'Meine Startseite\' konfigurieren';
-$string['my:manageblocks'] = 'Blöcke für \'Meine Startseite\' verwalten';
+$string['my:configsyspages'] = 'Systemvorlagen für Dashboard konfigurieren';
+$string['my:manageblocks'] = 'Blöcke im Dashboard verwalten';
 $string['neededroles'] = 'Rollen mit Rechten';
 $string['nocapabilitiesincontext'] = 'In diesem Kontext sind keine Fähigkeiten verfügbar';
 $string['noneinthisx'] = 'Nichts in dieser {$a}';
@@ -333,7 +333,7 @@ $string['roleincontext'] = '{$a->role} in {$a->context}';
 $string['role:manage'] = 'Rollen erstellen und verwalten';
 $string['role:override'] = 'Rechte von anderen ändern';
 $string['roleprohibitheader'] = 'Nichterlaubte Rolle';
-$string['roleprohibitinfo'] = 'Wählen Sie eine Rolle aus, die in die Liste der nichterlaubten Rollen hinzugefügt werden soll - Kontext {$a->context}, Fähigkeit {$a->cap}:';
+$string['roleprohibitinfo'] = 'Wählen Sie eine Rolle aus, die in die Liste der nicht erlaubten Rollen hinzugefügt werden soll - Kontext {$a->context}, Fähigkeit {$a->cap}:';
 $string['rolerepreset'] = 'Grundeinstellung benutzen';
 $string['roleresetdefaults'] = 'Grundeinstellungen';
 $string['roleresetrole'] = 'Rolle oder Basisrolle benutzen';
@@ -361,6 +361,8 @@ $string['siteadministrators'] = 'Administrator/innen';
 $string['site:approvecourse'] = 'Kurserstellung genehmigen';
 $string['site:backup'] = 'Kurse sichern';
 $string['site:config'] = 'Moodle-Konfiguration anpassen';
+$string['site:deleteanymessage'] = 'Alle Mitteilungen auf der Site löschen';
+$string['site:deleteownmessage'] = 'Mitteilungen dieses Nutzers und an diesen Nutzer löschen.';
 $string['site:doanything'] = 'Darf alles machen';
 $string['site:doclinks'] = 'Links zu den MoodleDocs anzeigen';
 $string['site:forcelanguage'] = 'Kurssprache überschreiben';

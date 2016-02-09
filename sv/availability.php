@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'availability', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   availability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,7 @@ $string['manageplugins'] = 'Hantera villkor/begränsningar';
 $string['missingplugin'] = 'Plugin för villkor/begränsningar saknas';
 $string['or'] = 'eller';
 $string['restrictaccess'] = 'Begränsa tillgänglighet';
+$string['restrictbygroup'] = 'Lägg till grupp / gruppindelning åtkomstbegränsning';
 $string['setheading'] = '{$a->number} Uppsättning {$a->count} begränsning (ar)';
 $string['shown_all'] = 'Visas nedtonade om användaren inte uppfyller villkoren';
 $string['shown_individual'] = 'Visas nedtonade om användaren inte uppfyller detta villkor';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'forum', language 'de', branch 'MOODLE_30_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -103,6 +103,8 @@ $string['configmaxattachments'] = 'Voreinstellung für die Anzahl von Anhängen,
 $string['configmaxbytes'] = 'Voreinstellung für die Dateigröße von Anhängen in Foren auf dieser Website (je nach Kurs oder durch andere lokale Einstellungen weiter eingeschränkt)';
 $string['configoldpostdays'] = 'Anzahl der Tage, nach denen eine neue Nachricht automatisch als gelesen gilt.';
 $string['configreplytouser'] = 'Wenn ein Forumsbeitrag per E-Mail verschickt wird, soll er die Teilnehmeradresse enthalten, damit der Empfänger persönlich antworten kann (statt über das Forum)? Wenn Sie "Ja" auswählen, können die Teilnehmer/innen in ihrem Profil festlegen, ob die E-Mail-Adresse veröffentlicht werden soll oder nicht.';
+$string['configrssarticlesdefault'] = 'Wenn RSS Feeds aktiviert sind, wird hiermit der standardmäßige Anzahl von Artikeln (bzw. Themen oder Beiträgen) festgelegt.';
+$string['configrsstypedefault'] = 'Wenn RSS Feeds aktiviert sind, wird hiermit der Standardtyp festgelegt.';
 $string['configshortpost'] = 'Jeder Beitrag wird als kurz eingestuft, wenn er kürzer als diese Zeichenzahl ist (ohne Berücksichtigung der HTML-Codierung).';
 $string['configtrackingtype'] = 'Standardeinstellung zum Lesetracking';
 $string['configtrackreadposts'] = 'Wenn diese Option aktiviert ist, steht die Markierung gelesen/ungelesen für alle zur Verfügung.';
@@ -119,11 +121,11 @@ $string['delete'] = 'Löschen';
 $string['deleteddiscussion'] = 'Das Thema wurde gelöscht.';
 $string['deletedpost'] = 'Der Beitrag wurde gelöscht.';
 $string['deletedposts'] = 'Diese Beiträge wurden gelöscht.';
-$string['deleteoriginalonreply'] = 'Wenn Sie auf diesen Beitrag direkt als E-Mail antworten, übernehmen Sie bitte nicht den ursprünglichen Beitrag in Ihre Antwort.';
 $string['deletesure'] = 'Möchten Sie diesen Beitrag wirklich löschen?';
 $string['deletesureplural'] = 'Möchten Sie diesen Beitrag und alle Antworten wirklich löschen? ({$a} Beiträge)';
 $string['digestmailheader'] = 'Diese E-Mail enthält die tägliche Zusammenfassung neuer Forenbeiträge (Digest) von {$a->sitename}. Die Einstellungen zu den E-Mails aus Foren können Sie über {$a->userprefs} ändern.';
 $string['digestmailpost'] = 'Einstellungen zur Zusammenfassung (Digest) neuer Forenbeiträge ändern';
+$string['digestmailpostlink'] = 'Einstellungen für die Forumszusammenfassung ändern';
 $string['digestmailprefs'] = 'Ihr Profil';
 $string['digestmailsubject'] = '{$a}: Zusammenfassung des Forums';
 $string['digestmailtime'] = 'Termin für Foren- Zusammenfassungen';
@@ -217,6 +219,7 @@ $string['forum:allowforcesubscribe'] = 'Einschreibung erzwingen zulassen';
 $string['forumauthorhidden'] = 'Autor/in (verborgen)';
 $string['forumblockingalmosttoomanyposts'] = 'Sie erreichen bald die Höchstzahl der zulässigen Beiträge. Sie haben {$a->numposts} Beiträge im Zeitraum {$a->blockperiod} veröffentlicht. Die Grenze ist bei {$a->blockafter} Beiträgen erreicht.';
 $string['forumbodyhidden'] = 'Sie können diesen Beitrag nicht ansehen. Entweder haben Sie selbst in dieser Diskussion noch nichts geschrieben oder die Bearbeitungszeit für den Beitrag läuft noch. Eventuell ist die Diskussion auch noch nicht begonnen oder bereits vorbei.';
+$string['forum:canposttomygroups'] = 'Beiträge an alle Gruppen senden, zu denen eine Person Zugriff hat';
 $string['forum:createattachment'] = 'Anhänge hinzufügen';
 $string['forum:deleteanypost'] = 'Alle Beiträge löschen (jederzeit)';
 $string['forum:deleteownpost'] = 'Eigene Beiträge löschen (mit Zeitbegrenzung)';
@@ -316,6 +319,9 @@ $string['more'] = 'weiter';
 $string['movedmarker'] = '(Verschoben)';
 $string['movethisdiscussionto'] = 'Das Thema verschieben nach ...';
 $string['mustprovidediscussionorpost'] = 'Für den Export müssen Sie entweder eine Themen-ID oder eine Nachrichten-ID angeben';
+$string['myprofileotherdis'] = 'Forumsthemen';
+$string['myprofileowndis'] = 'Meine Forumsthemen';
+$string['myprofileownpost'] = 'Meine Forumsbeiträge';
 $string['namenews'] = 'Nachrichtenforum';
 $string['namenews_help'] = 'Das Nachrichtenforum ist ein spezielles Forum für Ankündigungen, welches automatisch von Moodle in jedem Kurs und auch der Startseite generiert wird. Ausschließlich Trainer/innen und Administrator/innen dürfen im Nachrichtenforum schreiben. Pro Kurs kann es nur ein Nachrichtenforum geben. Im Block "Neue Nachrichten" werden die aktuelle Beiträge angezeigt. ';
 $string['namesocial'] = 'Soziales Forum';
@@ -378,6 +384,9 @@ $string['postincontext'] = 'Diskussion im Forum zeigen';
 $string['postmailinfo'] = 'Diese Mitteilung wurde auf der Webseite \'{$a}\' eingetragen.
 
 Über diesen Link können Sie eine Antwort schreiben:';
+$string['postmailinfolink'] = 'Dies ist eine Kopie einer Nachricht aus \'{$a->coursename}\'.
+
+Um zu antworten, klicken Sie auf diesen Link: {$a->replylink}';
 $string['postmailnow'] = 'Dieser Beitrag wird direkt als E-Mail an alle Abonnent/innen des Forums versendet.';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Nutzt Wissen über einzelne Fakten';
@@ -387,6 +396,8 @@ $string['posts'] = 'Beiträge';
 $string['postsmadebyuser'] = 'Beiträge von {$a}';
 $string['postsmadebyuserincourse'] = 'Beiträge von {$a->fullname} in {$a->coursename}';
 $string['posttoforum'] = 'Beitrag absenden';
+$string['posttomygroups'] = 'Kopie an alle Gruppen senden';
+$string['posttomygroups_help'] = 'Diesen Beitrag an alle Gruppen senden, zu denen Sie Zugriff haben. Teilnehmer/innen in den übrigen Gruppen können Ihren Beitrag nicht sehen.';
 $string['postupdated'] = 'Der Beitrag wurde aktualisiert';
 $string['potentialsubscribers'] = 'Mögliche Abonnent/innen';
 $string['prevdiscussiona'] = 'Vorheriges Thema: {$a}';
@@ -406,7 +417,6 @@ $string['reply'] = 'Antworten';
 $string['replyforum'] = 'Im Forum antworten';
 $string['reply_handler'] = 'Auf Forumsbeiträge per E-Mail antworten';
 $string['reply_handler_name'] = 'Auf Forumsbeiträge antworten';
-$string['replytoforumpost'] = 'Sie können in diesem Forum per E-Mail antworten.';
 $string['replytopostbyemail'] = 'Sie können auf diesen Beitrag direkt per E-Mail antworten.';
 $string['replytouser'] = 'E-Mail-Adresse in Antwort nutzen';
 $string['resetdigests'] = 'Alle nutzerspezifischen Einstellungen für Forenzusammenfassungen löschen.';
@@ -420,6 +430,7 @@ den RSS Feed übernommen werden. Eine Zahl zwischen 5 und 20 sollte bei den meis
 $string['rsssubscriberssdiscussions'] = 'RSS Feed für Themen';
 $string['rsssubscriberssposts'] = 'RSS-Feed für Beiträge';
 $string['rsstype'] = 'RSS Feed für dieses Forum';
+$string['rsstypedefault'] = 'RSS Feed Typ';
 $string['rsstype_help'] = 'Um RSS Feeds für diese Aktivität zu aktivieren, wählen SIe entweder Themen oder Beiträge für diesen Feed aus.';
 $string['search'] = 'Suche';
 $string['searchdatefrom'] = 'Beiträge müssen neuer sein als';
@@ -450,7 +461,8 @@ $string['subscribediscussion'] = 'Thema abonnieren';
 $string['subscribeenrolledonly'] = 'Nur eingeschriebene Nutzer/innen dürfen Forenbeiträge per E-Mail abonnieren.';
 $string['subscribenone'] = 'Forum für alle Teilnehmer/innen abbestellen';
 $string['subscribers'] = 'Abonnent/innen';
-$string['subscribersto'] = 'Abonnent/innen für \'{$a}\'';
+$string['subscribersto'] = 'Abonnent/innen für \'{$a->name}\'';
+$string['subscriberstowithcount'] = 'Abonnent/innen für \'{$a->name}\' ({$a->count})';
 $string['subscribestart'] = 'Benachrichtigungen über neue Forenbeiträge per E-Mail an mich senden';
 $string['subscribestop'] = 'Keine Benachrichtigungen als E-Mail an mich senden';
 $string['subscription'] = 'Abonnement';
@@ -473,7 +485,9 @@ $string['subscriptionmode_help'] = 'Alle Abonnent/innen dieses Forums bekommen d
 $string['subscriptionoptional'] = 'Optional';
 $string['subscriptions'] = 'Abonnements';
 $string['thisforumisthrottled'] = 'Für dieses Forum ist eine Höchstzahl von Beiträgen innerhalb eines bestimmten Zeitraums festgelegt worden. Dies gilt nach {$a->blockafter} Beiträgen innerhalb von {$a->blockperiod}';
+$string['timedhidden'] = 'Zeitgesteuerter Status: Für Teilnehmer/innen verbergen';
 $string['timedposts'] = 'Zeitgesteuerte Beiträge';
+$string['timedvisible'] = 'Zeitgesteuerter Status: Für Teilnehmer/innen sichtbar';
 $string['timestartenderror'] = 'Der Endtermin kann nicht vor dem Starttermin liegen.';
 $string['trackforum'] = 'Ungelesene Beiträge markieren';
 $string['tracking'] = 'Markieren?';
@@ -499,6 +513,8 @@ $string['unsubscribealldone'] = 'Sie haben alle Abonnements abbestellt. Trotzdem
 $string['unsubscribeallempty'] = 'Sie haben kein Forum abonniert. Falls Sie gar keine E-Mails von diesem Server erhalten möchten, deaktivieren Sie Ihre E-Mail-Adresse im Nutzerprofil.';
 $string['unsubscribed'] = 'Abgemeldet';
 $string['unsubscribediscussion'] = 'Von diesem Thema abmelden';
+$string['unsubscribediscussionlink'] = 'Von diesem Thema abmelden: {$a}';
+$string['unsubscribelink'] = 'Aus diesem Forum abmelden: {$a}';
 $string['unsubscribeshort'] = 'Abmelden';
 $string['usermarksread'] = '\'Gelesen\' manuell markieren';
 $string['viewalldiscussions'] = 'Alle Themen anzeigen';

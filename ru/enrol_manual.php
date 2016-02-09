@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_manual', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'enrol_manual', language 'ru', branch 'MOODLE_30_STABLE'
  *
  * @package   enrol_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,6 +52,7 @@ $string['expirymessageenrollersubject'] = 'Уведомление об окон�
 $string['manual:config'] = 'Настраивать зачисление вручную';
 $string['manual:enrol'] = 'Записывать пользователей на курсы';
 $string['manual:manage'] = 'Управлять зачислением пользователей на курс';
+$string['manualpluginnotinstalled'] = 'Плагин «Зачисление вручную» еще не был установлен';
 $string['manual:unenrol'] = 'Отчислять пользователей из курса';
 $string['manual:unenrolself'] = 'Отчислять себя из курса';
 $string['messageprovider:expiry_notification'] = 'Уведомления об истечении срока обучения при записи вручную';

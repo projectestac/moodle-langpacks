@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'workshop', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,6 +158,8 @@ $string['gradeitemsubmission'] = '{$a->workshopname} (作业)';
 $string['gradeover'] = '覆盖作业成绩';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = '互动评价成绩报告';
+$string['gradetopassgrading'] = '通过所需的评价成绩';
+$string['gradetopasssubmission'] = '通过所需的作业成绩';
 $string['gradinggrade'] = '评价成绩';
 $string['gradinggradecalculated'] = '已计算的评价成绩';
 $string['gradinggrade_help'] = '此设置指定了作业评价可能获得的最高成绩。';
@@ -192,6 +194,7 @@ $string['nogradeyet'] = '还没有成绩';
 $string['nosubmissionfound'] = '没找到此用户的作业';
 $string['nosubmissions'] = '此互动评价还未收到作业';
 $string['notassessed'] = '还未评价';
+$string['nothingfound'] = '没有可显示的';
 $string['nothingtoreview'] = '没有可评价的';
 $string['notoverridden'] = '不能覆盖';
 $string['noworkshops'] = '这个课程中没有互动评价活动';
@@ -265,11 +268,14 @@ $string['submissionendswitch_help'] = '如果指定了提交的截止日期，�
 $string['submissiongrade'] = '作业成绩';
 $string['submissiongrade_help'] = '此设置指定了上传作业可能获得的最高成绩。';
 $string['submissiongradeof'] = '作业成绩（最高分 {$a}）';
+$string['submissionlastmodified'] = '最后修改';
 $string['submissionsettings'] = '作业设置';
+$string['submissionsreport'] = '互动评价作业提交报告';
 $string['submissionstart'] = '提交开始时间';
 $string['submissionstartdatetime'] = '上传作业开始时间 {$a->daydatetime} ({$a->distanceday})';
 $string['submissionstartevent'] = '{$a}（开始提交）';
 $string['submissiontitle'] = '题目';
+$string['submittednotsubmitted'] = '已经提交({$a->submitted}) / 尚未提交({$a->notsubmitted})';
 $string['subplugintype_workshopallocation'] = '作业分配方法';
 $string['subplugintype_workshopallocation_plural'] = '作业分配方法';
 $string['subplugintype_workshopeval'] = '成绩核定方法';

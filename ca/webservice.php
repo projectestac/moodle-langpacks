@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'webservice', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -183,7 +183,7 @@ $string['shortnametaken'] = 'Aquest nom curt s\'està utilitzant en un altre ser
 $string['simpleauthlog'] = 'Inici de sessió amb autenticació simple';
 $string['step'] = 'Pas';
 $string['supplyinfo'] = 'Més detalls';
-$string['testauserwithtestclientdescription'] = 'Simula l\'accés extern al servei mitjançant el client de prova del servei web. Abans de fer-ho, inicieu sessió com un usuari amb la capacitat moodle/webservice:createtoken i obtingueu la clau de seguretat (testimoni) a través de la Configuració del meu perfil. Podeu utilitzar aquest testimoni en el client de prova. En el client de prova, també trieu un protocol activat amb l\'autenticació de testimoni. <strong>AVÍS: Les funcions que proveu S\'EXECUTARAN, així que aneu amb compte amb el que trieu per a provar!</strong>';
+$string['testauserwithtestclientdescription'] = 'Simula l\'accés extern al servei mitjançant el client de prova del servei web. Abans de fer-ho, inicieu sessió com un usuari amb la capacitat moodle/webservice:createtoken i obtingueu la clau de seguretat (testimoni) a través de la Configuració del meu perfil. Podeu utilitzar aquest testimoni en el client de prova. En el client de prova, també trieu un protocol activat amb la autenticació de testimoni. <strong>AVÍS: Les funcions que proveu S\'EXECUTARAN, així que aneu amb compte amb el que trieu per a provar!</strong>';
 $string['testclient'] = 'Servei web client de prova';
 $string['testclientdescription'] = 'El servei web client de prova <strong>executa</strong> funcions de forma <strong>REAL</strong>. No executeu funcions que no coneixeu. <br/>* Totes les funcions servei web no estan implementades encara al client de prova. <br/>* Per provar que un usuari no pot accedir a algunes funcions, podeu provar algunes funcions de les quals no teniu permís.<br/>* Per veure millor els missatges d\'error  configureu la depuració a  <strong>{$a->mode}</strong> dins {$a->atag}<br/>* Accediu a {$a->amfatag}.';
 $string['testwithtestclient'] = 'Proveu el servei';
@@ -198,7 +198,7 @@ $string['updateusersettings'] = 'Actualitza';
 $string['uploadfiles'] = 'Es poden penjar fitxers';
 $string['uploadfiles_help'] = 'Si ho habiliteu qualsevol usuari podrà penjar fitxers amb les seves claus segures a les seves àrees privades o a la secció fitxers esborranys. És aplicable qualsevol limitació de les quotes de fitxers d\'usuari.';
 $string['userasclients'] = 'Usuaris com clients amb el testimoni';
-$string['userasclientsdescription'] = 'Els passos següents us ajudaran a aixecar el servei web Moodle per als usuaris com clients. Aquests passos també us ajudaran a aixecar el mètode d\'autenticació recomanat (claus de seguretat). En aquest cas, l\'usuari generarà el seu propi token des la seua pàgina de seguretat mitjançant els paràmetres de El meu perfil.';
+$string['userasclientsdescription'] = 'Els passos següents us ajudaran a configurar el servei web Moodle per als usuaris com a clients. Aquests passos també us ajudaran a configurar el mètode d\'autenticació recomanat (claus de seguretat). En aquest cas, l\'usuari generarà el seu propi testimoni (<em>token</em>) des la seva pàgina de seguretat mitjançant la Configuració del meu perfil.';
 $string['usermissingcaps'] = 'Capacitats perdudes: {$a}';
 $string['usernameorid'] = 'Nom d\'usuari / ID d\'usuari';
 $string['usernameorid_help'] = 'Introduïu un nom d\'usuari o un ID d\'usuari.';

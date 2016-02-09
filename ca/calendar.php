@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'calendar', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   calendar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -112,7 +112,6 @@ $string['gotocalendar'] = 'Vés al calendari';
 $string['group'] = 'Grup';
 $string['groupevent'] = 'Esdeveniment de grup';
 $string['groupevents'] = 'Esdeveniments de grup';
-$string['hidden'] = 'ocult';
 $string['hidecourseevents'] = 'Amaga els esdeveniments de curs';
 $string['hideglobalevents'] = 'Amaga els esdeveniments globals';
 $string['hidegroupsevents'] = 'Amaga els esdeveniments de grup';

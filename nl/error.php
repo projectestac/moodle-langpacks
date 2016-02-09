@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'nl', branch 'MOODLE_30_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,6 +79,7 @@ $string['cannoteditcomment'] = 'Je kunt alleen je eigen commentaren bewerken!';
 $string['cannoteditcommentexpired'] = 'Je kunt dit niet bewerken. De bewerktijd is voorbij!';
 $string['cannoteditpostorblog'] = 'Je kunt geen blogs posten of bewerken.';
 $string['cannoteditsiteform'] = 'Je kunt de startpagina niet bewerken met dit formulier';
+$string['cannotedituserpreferences'] = 'Kan de gebruikersvoorkeuren niet bewerken';
 $string['cannotedityourprofile'] = 'Je kunt je eigen profiel niet bewerken.';
 $string['cannotexecduringupgrade'] = 'Kan niet uitgevoerd worden tijdens upgrade';
 $string['cannotfindcategory'] = 'Kan geen categorierecord vinden voor databank met ID - {$a}';
@@ -233,6 +234,7 @@ $string['errorcreatingfile'] = 'Fout bij het maken van bestand "{$a}"';
 $string['errorcreatingrole'] = 'Fout bij het aanmaken van de rol';
 $string['errorfetchingrssfeed'] = 'RSS-feed ophalen mislukt';
 $string['erroronline'] = 'Fout op lijn {$a}';
+$string['erroroutput'] = 'Foute output, de automatische verwijzing wordt uitgeschakeld.';
 $string['errorparsingxml'] = 'Fout bij het verwerken van XML: {$a->errorstring} op lijn {$a->errorline}, char {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Fout bij het verwerken van het archiefbestand';
 $string['errorreadingfile'] = 'Fout bij het lezen van bestand "{$a}"';
@@ -306,7 +308,7 @@ $string['invalidcourselevel'] = 'Contextniveau niet juist';
 $string['invalidcoursemodule'] = 'Cursus module ID niet juist';
 $string['invalidcoursenameshort'] = 'Korte cursusnaam niet geldig';
 $string['invaliddata'] = 'Ingestuurde gegevens niet geldig.';
-$string['invaliddatarootpermissions'] = 'Ongeldige rechten gevonden in $CFG->dataroot map, de beheerder moet de rechten herstellen.';
+$string['invaliddatarootpermissions'] = 'Ongeldige rechten gevonden tijdens het maken van een map. Schakel foutopsporing aan om meer details te krijgen.';
 $string['invaliddevicetype'] = 'Ongeldig toesteltype';
 $string['invalidelementid'] = 'Element ID niet geldig';
 $string['invalidentry'] = 'Dit is niet geldig';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tags', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_tags', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   block_tags
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,7 +33,7 @@ $string['coursetags'] = 'Kurstaggar:';
 $string['disabledtags'] = 'Taggar är avaktiverat';
 $string['edit'] = 'redigera...';
 $string['editdeletemytag'] = 'Ta bort tagg från den här kursen:';
-$string['editmytags'] = 'Mina taggar - snabbvägar till alla Dina taggade kurser.';
+$string['editmytags'] = 'Mina taggar - snabbvägar till alla dina taggade kurser.';
 $string['editmytagsfor'] = 'Redigera mina taggar för {$a}';
 $string['editnopersonaltags'] = 'Det har inte skapats några personliga taggar ännu.';
 $string['edittags'] = 'Redigera mina taggar...';
@@ -42,7 +42,7 @@ $string['editthiscoursetags'] = 'Mina taggar för den här kursen är {$a}';
 $string['edittitle'] = 'Mina taggar';
 $string['entries'] = 'inlägg';
 $string['entry'] = 'inlägg';
-$string['jserror1'] = 'Taggar måste bestå av mer än en och färre än 50 tecken. Var snäll och modifiera Din tagg.';
+$string['jserror1'] = 'Taggar måste bestå av mer än en och färre än 50 tecken. Var snäll och modifiera din tagg.';
 $string['login'] = 'logga in';
 $string['more'] = 'mer';
 $string['moreorder'] = 'Ordning:';

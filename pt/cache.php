@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'cache', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,8 @@ $string['area'] = 'Área';
 $string['cacheadmin'] = 'Administração da cache';
 $string['cacheconfig'] = 'Configuração';
 $string['cachedef_calendar_subscriptions'] = 'Subscrições do calendário';
+$string['cachedef_capabilities'] = 'Lista de capacidades do sistema';
+$string['cachedef_completion'] = 'Estado de conclusão da atividade';
 $string['cachedef_config'] = 'Configurar definições';
 $string['cachedef_coursecat'] = 'Listas de categorias de disciplina para um utilizador em particular';
 $string['cachedef_coursecatrecords'] = 'Registos de categorias da disciplina';
@@ -44,13 +46,13 @@ $string['cachedef_coursemodinfo'] = 'Informação acumulada sobre módulos e sec
 $string['cachedef_databasemeta'] = 'Meta-informação da base de dados';
 $string['cachedef_eventinvalidation'] = 'Invalidação de evento';
 $string['cachedef_externalbadges'] = 'Medalhas externas para um utilizador em particular';
-$string['cachedef_gradecondition'] = 'Notas de utilizadores armazenadas em cache para avaliar a disponibilidade condicional';
 $string['cachedef_groupdata'] = 'Informação de grupos da disciplina';
 $string['cachedef_htmlpurifier'] = 'Purificador HTML - conteúdo limpo';
 $string['cachedef_langmenu'] = 'Lista de idiomas disponíveis';
 $string['cachedef_locking'] = 'Bloqueio';
 $string['cachedef_navigation_expandcourse'] = 'Disciplinas expansíveis no bloco Navegação';
 $string['cachedef_observers'] = 'Observadores de eventos';
+$string['cachedef_plugin_functions'] = 'Callbacks de módulos disponíveis';
 $string['cachedef_plugin_manager'] = 'Plugin de gestão de informação';
 $string['cachedef_questiondata'] = 'Definições da pergunta';
 $string['cachedef_repositories'] = 'Dados de instância de repositórios';
@@ -98,6 +100,8 @@ $string['invalidlock'] = 'Bloqueio inválido';
 $string['invalidplugin'] = 'Módulo inválido';
 $string['invalidstore'] = 'A unidade de armazenamento de cache fornecida é inválida';
 $string['lockdefault'] = 'Predefinido';
+$string['locking'] = 'Bloqueio';
+$string['locking_help'] = 'O bloqueio é um mecanismo que restringe o acesso a dados armazenados em cache a um processo de cada vez de forma a evitar que os dados sejam substituídos. Este método determina a forma como o bloqueio é obtido e verificado.';
 $string['lockingmeans'] = 'Mecanismo de bloqueio';
 $string['lockmethod'] = 'Método de bloqueio';
 $string['lockmethod_help'] = 'Este é o método utilizado quando é requerido um bloqueio para esta unidade de armazenamento';

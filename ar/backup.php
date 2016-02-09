@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'ar', branch 'MOODLE_28_STABLE'
+ * Strings for component 'backup', language 'ar', branch 'MOODLE_30_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -101,7 +101,6 @@ $string['enterasearch'] = 'ادخل للبحث';
 $string['errorfilenamemustbezip'] = 'يجب أن يكون الملف المدخل عبارة عن ملف مضغوط بإمتداد (mbz.)';
 $string['errorfilenamerequired'] = 'يجب ان تدخل اسم ملف صحيح لنسخة الاحتياط';
 $string['errorinvalidformat'] = 'تنسيق النسخ الاحتياطي غير صحيح';
-$string['errorrestorefrontpage'] = 'لا يمكن القيام بعملية الإستراجاع على الصفحة الرئيسية';
 $string['executionsuccess'] = 'تم بنجاح إنشاء ملف النسخ الاحتياطي';
 $string['filename'] = 'إسم الملف';
 $string['generalactivities'] = 'ضمن الأنشطة';

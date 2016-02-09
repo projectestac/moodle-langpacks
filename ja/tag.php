@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'tag', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,19 +25,25 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['added'] = 'オフィシャルタグが追加されました。';
 $string['addedotag'] = '「 {$a} 」がオフィシャルタグとして追加されました。';
 $string['addotags'] = 'オフィシャルタグを追加する';
 $string['addtagtomyinterests'] = '私の「興味のあること」に「 {$a} 」を追加する';
 $string['alltagpages'] = 'すべてのタグページ';
 $string['changename'] = 'タグ名を変更する';
 $string['changetype'] = 'タグタイプを変更する';
+$string['confirmdeletetag'] = '本当にこのタグを削除してもよろしいですか?';
+$string['confirmdeletetags'] = '本当に選択したタグを削除してもよろしいですか?';
 $string['count'] = 'カウント';
+$string['coursetags'] = 'コースタグ';
 $string['delete'] = '削除';
-$string['deleted'] = '削除';
+$string['deleted'] = 'タグが削除されました。';
 $string['deletedcoursetags'] = '削除 - コースタグ';
+$string['deleteselected'] = '選択したものを削除する';
 $string['description'] = '説明';
+$string['editname'] = 'タグ名を編集する';
 $string['edittag'] = 'このタグを編集する';
-$string['entertags'] = 'カンマで区切ってタグを入力してください。';
+$string['entertags'] = 'タグを入力してください ...';
 $string['errortagfrontpage'] = 'サイトメインページへのタグ付けは許可されていません。';
 $string['errorupdatingrecord'] = 'タグレコードの更新中にエラーが発生しました。';
 $string['eventtagadded'] = 'タグがアイテムに追加されました。';
@@ -49,6 +55,7 @@ $string['eventtagunflagged'] = 'タグのフラグが解除されました。';
 $string['eventtagupdated'] = 'タグが更新されました。';
 $string['flag'] = 'フラグ';
 $string['flagasinappropriate'] = '不適切としてフラグする';
+$string['flagged'] = 'タグがフラグされました。';
 $string['helprelatedtags'] = 'カンマ区切り関連タグ';
 $string['id'] = 'id';
 $string['manageofficialtags'] = 'オフィシャルタグを管理する';
@@ -56,10 +63,12 @@ $string['managetags'] = 'タグを管理する';
 $string['name'] = 'タグ名';
 $string['namesalreadybeeingused'] = 'タグ名がすでに使用されています。';
 $string['newname'] = '新しいタグ名';
+$string['newnamefor'] = 'タグ {$a} の新しい名称';
 $string['noresultsfor'] = '「 {$a} 」の検索結果なし';
-$string['officialtag'] = 'オフィシャルタグ';
+$string['nothingtoupdate'] = '更新するものはありません。';
+$string['officialtag'] = 'オフィシャル';
 $string['otags'] = 'オフィシャルタグ';
-$string['othertags'] = '他のタグ (カンマ区切りでタグを入力してください)';
+$string['othertags'] = '他のタグ';
 $string['owner'] = 'オーナー';
 $string['page-tag-index'] = '単一タグページ';
 $string['page-tag-manage'] = 'タグページを管理する';
@@ -69,7 +78,7 @@ $string['ptags'] = 'ユーザ定義タグ (カンマ区切り)';
 $string['relatedblogs'] = '最新のブログエントリ';
 $string['relatedtags'] = '関連タグ';
 $string['removetagfrommyinterests'] = '「 {$a} 」を私の「興味のあること」から削除する';
-$string['reset'] = 'リセット';
+$string['reset'] = 'タグフラグリセット';
 $string['resetflag'] = 'フラグをリセットする';
 $string['responsiblewillbenotified'] = '責任者に通知されます。';
 $string['rssdesc'] = 'RSSフィードはMoodleにより自動作成され、コースのユーザ作成タグを含みます。';
@@ -79,6 +88,9 @@ $string['searchresultsfor'] = '「 {$a} 」の検索結果';
 $string['searchtags'] = 'タグを検索する';
 $string['seeallblogs'] = '「　{$a}　」がタグ付けされたブログエントリすべてを閲覧する ...';
 $string['select'] = '選択';
+$string['selecttag'] = 'タグ {$a} を選択する';
+$string['settypedefault'] = 'オフィシャルタグから削除する';
+$string['settypeofficial'] = 'オフィシャルにする';
 $string['tag'] = 'タグ';
 $string['tagdescription'] = 'タグ説明';
 $string['taggedwith'] = '- タグ「 {$a} 」';

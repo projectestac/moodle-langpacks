@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth', language 'fr', branch 'MOODLE_30_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actauthhdr'] = 'Plugins d\'authentification disponibles';
+$string['allowaccountssameemail'] = 'Autoriser des comptes avec la même adresse de courriel';
+$string['allowaccountssameemail_desc'] = 'Si ce réglage est activé, plusieurs comptes peuvent se partager la même adresse de courriel. Dans ce cas, des problèmes de sécurité ou de protection des données peuvent survenir, par exemple avec le courriel de confirmation de changement de mot de passe.';
 $string['alternatelogin'] = 'Si vous spécifiez ici une URL, elle sera utilisée comme page de connexion pour ce site. La page doit contenir un formulaire dont la propriété « action » est <strong>{$a}</strong> et doit contenir les champs <strong>username</strong> et <strong>password</strong>.<br />Attention à donner une URL correcte, sans quoi vous risquez de ne plus pouvoir accéder au site.<br />Pour utiliser la page de connexion par défaut, laissez ce champ vide.';
 $string['alternateloginurl'] = 'URL de la page de connexion de rechange';
 $string['auth_changepasswordhelp'] = 'Aide au changement de mot de passe';
@@ -89,6 +91,7 @@ $string['errorminpasswordlength'] = 'Les mots de passe doivent comporter au moin
 $string['errorminpasswordlower'] = 'Les mots de passe doivent comporter au moins {$a} lettre(s) minuscules.';
 $string['errorminpasswordnonalphanum'] = 'Les mots de passe doivent comporter au moins {$a} caractère(s) non alphanumériques.';
 $string['errorminpasswordupper'] = 'Les mots de passe doivent comporter au moins {$a} lettre(s) majuscules.';
+$string['errorpasswordreused'] = 'Ce mot de passe a été utilisé précédemment et ne peut pas être réutilisé';
 $string['errorpasswordupdate'] = 'Erreur lors de la modification du mot de passe. Le mot de passe n\'a pas été modifié';
 $string['eventuserloggedin'] = 'Utilisateur connecté';
 $string['eventuserloggedinas'] = 'Utilisateur connecté sous le nom d\'un autre utilisateur';
@@ -108,10 +111,13 @@ $string['informminpassworddigits'] = 'au moins {$a} chiffre(s)';
 $string['informminpasswordlength'] = 'au moins {$a} caractère(s)';
 $string['informminpasswordlower'] = 'au moins {$a} minuscule(s)';
 $string['informminpasswordnonalphanum'] = 'au moins {$a} caractère(s) non-alphanumérique(s)';
+$string['informminpasswordreuselimit'] = 'Les mots de passe peuvent être réutilisés après {$a} changements';
 $string['informminpasswordupper'] = 'au moins {$a} majuscule(s)';
 $string['informpasswordpolicy'] = 'Le mot de passe doit comporter {$a}';
 $string['instructions'] = 'Instructions';
 $string['internal'] = 'Interne';
+$string['limitconcurrentlogins'] = 'Nombre limite de connexions simultanées';
+$string['limitconcurrentlogins_desc'] = 'Si ce réglage est activé, le nombre de connexions simultanées d\'un utilisateur est restreint. La session la plus ancienne est close une fois ce nombre de sessions atteint. Les utilisateurs pourraient perdre leurs contenus non enregistrés. Ce réglage n\'est pas compatible avec les plugins d\'authentification SSO (single sign-on).';
 $string['locked'] = 'Verrouillé';
 $string['md5'] = 'Hachage MD5';
 $string['nopasswordchange'] = 'Le mot de passe ne peut pas être modifié';
@@ -129,6 +135,7 @@ $string['recaptcha'] = 'reCAPTCHA';
 $string['recaptcha_help'] = 'Un CAPTCHA est un programme capable de distinguer si son utilisateur est un humain ou un ordinateur, destiné à éviter les abus de programmes automatiques pour faire du spam. Saisissez dans le champ les mots que vous lisez, dans l\'ordre et séparés par un espace.
 
 Si vous n\'êtes pas sûr des mots présentés, essayez de deviner ou suivez le lien « Obtenir un nouveau CAPTCHA » ou « Obtenir un CAPTCHA audio ».';
+$string['security_question'] = 'Question de sécurité';
 $string['selfregistration'] = 'Auto-enregistrement';
 $string['selfregistration_help'] = 'Si vous choisissez un plugin d\'authentification gérant l\'auto-enregistrement, par exemple par courriel, vous permettez aux utilisateurs potentiels de créer des comptes pour eux-mêmes. Il est par conséquent possible que des spammeurs créent des comptes dans le but d\'écrire du spam dans des messages dans les forums, des articles de blog, etc. Si vous voulez éviter ce risque, vous devez désactiver l\'auto-enregistrement ou au moins le limiter en utilisant le réglage <em> Domaines courriel autorisés</em>.';
 $string['sha1'] = 'Hachage SHA-1';

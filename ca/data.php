@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'data', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -326,6 +326,7 @@ $string['recordsnotsaved'] = 'No s\'ha desat cap entrada. Comproveu el format de
 $string['recordssaved'] = 'entrada/es';
 $string['requireapproval'] = 'Requereix aprovació?';
 $string['requireapproval_help'] = 'Si s\'habilita, caldrà que el professor aprovi les entrades abans que tothom pugui visualitzar-les.';
+$string['required'] = 'Requerit';
 $string['requiredentries'] = 'Entrades requerides per a la compleció';
 $string['requiredentries_help'] = '<p align="center"><strong>Entrades requerides</strong></p>
 
@@ -338,6 +339,7 @@ $string['requiredentriestoview_help'] = '<p align="center"><strong>Entrades requ
 <p>El nombre d\'entrades que cal que un estudiant trameti abans que pugui visualitzar entrades d\'altres estudiants.</p>
 
 Nota: Si es requereix que es trametin entrades abans de visualitzar-ne d\'altres, és recomanable inhabilitar el filtre d\'enllaços automàtics a la base de dades. Això és perquè el filtre d\'enllaços automàtics a la base de dades no pot determinar si un usuari ha tramès el nombre requerit d\'entrades.';
+$string['requiredfield'] = 'Camp requerit';
 $string['resetsettings'] = 'Reinicialitza els filtres';
 $string['resettemplate'] = 'Reinicia la plantilla';
 $string['resizingimages'] = 'S\'estan redimensionant les miniatures...';

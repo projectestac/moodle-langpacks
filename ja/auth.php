@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actauthhdr'] = '利用可能な認証プラグイン';
+$string['allowaccountssameemail'] = '同一メールのアカウントを許可する';
+$string['allowaccountssameemail_desc'] = 'この設定を有効にした場合、1つ以上のユーザアカウントが同一メールアドレスを共有することができるようになります。これにより、例えばパスワード変更確認メールのようにセキュリティまたはプライバシーに関する問題が発生する可能性があります。';
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページではaction属性に<strong>「 {$a} 」</strong>をセットして、 <strong>username</strong>フィールドおよび <strong>password</strong>フィールドをMoodleに渡してください。<br />間違ったURLを設定することで、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
 $string['alternateloginurl'] = '代替ログインURL';
 $string['auth_changepasswordhelp'] = 'パスワード変更のヘルプ';
@@ -89,6 +91,7 @@ $string['errorminpasswordlength'] = 'パスワードには少なくとも半角 
 $string['errorminpasswordlower'] = 'パスワードには少なくとも半角 {$a} 文字の小文字を使用する必要があります。';
 $string['errorminpasswordnonalphanum'] = 'パスワードには少なくとも半角 {$a} 文字の非英数字を使用する必要があります。';
 $string['errorminpasswordupper'] = 'パスワードには少なくとも半角 {$a} 文字の大文字を使用する必要があります。';
+$string['errorpasswordreused'] = 'このパスワードは過去に使用されているため、再度利用することはできません。';
 $string['errorpasswordupdate'] = 'パスワード変更中にエラーが発生しました。パスワードは変更されませんでした。';
 $string['eventuserloggedin'] = 'ユーザがログインしました。';
 $string['eventuserloggedinas'] = 'ユーザが別のユーザとしてログインしました。';
@@ -108,10 +111,13 @@ $string['informminpassworddigits'] = '少なくとも {$a} 個の数字';
 $string['informminpasswordlength'] = '少なくとも {$a} 文字';
 $string['informminpasswordlower'] = '少なくとも {$a} 文字の小文字';
 $string['informminpasswordnonalphanum'] = '少なくとも {$a} 文字の非英数字';
+$string['informminpasswordreuselimit'] = '{$a} 回の変更後、パスワードを再利用することができます。';
 $string['informminpasswordupper'] = '少なくとも {$a} 文字の大文字';
 $string['informpasswordpolicy'] = 'パスワードには {$a} を入力する必要があります。';
 $string['instructions'] = '説明';
 $string['internal'] = '内部';
+$string['limitconcurrentlogins'] = '同時ログインを制限する';
+$string['limitconcurrentlogins_desc'] = 'この設定を有効にした場合、それぞれのユーザの同時ブラウザログイン数が制限されます。制限に達した場合、最も古いセッションが切断されるため、ユーザがすべての未保存の作業を失ってしまうことに留意してください。この設定はシングルサインオン (SSO) 認証プラグインとは併用できません。';
 $string['locked'] = 'ロックする';
 $string['md5'] = 'MD5暗号化';
 $string['nopasswordchange'] = 'パスワードを変更することはできません。';
@@ -129,6 +135,7 @@ $string['recaptcha'] = 'reCAPTCHA';
 $string['recaptcha_help'] = 'CAPTCHAは自動プログラムからの不正を防ぐためにあります。テキストボックスにテキストを順番にスペースで区切って入力してください。
 
 どのような文字か分からない場合、別のCAPTCHAまたはオーディオCAPTCHAをお試しください。';
+$string['security_question'] = 'セキュリティ質問';
 $string['selfregistration'] = '自己登録';
 $string['selfregistration_help'] = '「Eメールによる自己登録」のような認証プラグインが選択された場合、潜在的なユーザに対して、自分自身での登録およびユーザアカウント作成を許可します。この場合、フォーラム投稿、ブログエントリ等でスパムを発信するスパム発信者に対して、アカウントを作成させてしまうことになります。このリスクを避けるには自己登録を無効にするか、「許可されるメールアドレスのドメイン」設定で使用できるメールアドレスを制限してください。';
 $string['sha1'] = 'SHA-1暗号化';

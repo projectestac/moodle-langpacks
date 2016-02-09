@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth_ldap', language 'de', branch 'MOODLE_30_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -143,6 +143,7 @@ $string['renamingnotallowed'] = 'Namensänderungen sind in LDAP nicht erlaubt';
 $string['rootdseerror'] = 'Fehler bei der rootDSE-Abfrage für das Active Directory';
 $string['start_tls'] = 'LDAP-Service mit TLS (über Port 389) verschlüsseln';
 $string['start_tls_key'] = 'TLS benutzen';
+$string['synctask'] = 'Synchronisierung von LDAP-Nutzerkonten';
 $string['updatepasserror'] = 'Fehler in der Funktion user_update_password().
 <br />Fehler-Code: {$a->errno}; Fehlertext: {$a->errstring}';
 $string['updatepasserrorexpire'] = 'Fehler in der Funktion user_update_password() beim Lesen der Gültigkeitsdauer des Kennwortes.

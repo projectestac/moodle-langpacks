@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_rubric', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'gradingform_rubric', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   gradingform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,7 @@ $string['confirmdeletecriterion'] = '本当にこのクライテリアを削除�
 $string['confirmdeletelevel'] = '本当にこのレベルを削除してもよろしいですか?';
 $string['criterionaddlevel'] = 'レベルを追加する';
 $string['criteriondelete'] = 'クライテリアを削除する';
+$string['criterionduplicate'] = '重複クライテリア';
 $string['criterionempty'] = 'クライテリアを編集する';
 $string['criterionmovedown'] = '下へ';
 $string['criterionmoveup'] = '上へ';

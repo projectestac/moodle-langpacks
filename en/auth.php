@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actauthhdr'] = 'Available authentication plugins';
+$string['allowaccountssameemail'] = 'Allow accounts with same email';
+$string['allowaccountssameemail_desc'] = 'If enabled, more than one user account can share the same email address. This may result in security or privacy issues, for example with the password change confirmation email.';
 $string['alternatelogin'] = 'If you enter a URL here, it will be used as the login page for this site. The page should contain a form which has the action property set to <strong>\'{$a}\'</strong> and return fields <strong>username</strong> and <strong>password</strong>.<br />Be careful not to enter an incorrect URL as you may lock yourself out of this site.<br />Leave this setting blank to use the default login page.';
 $string['alternateloginurl'] = 'Alternate login URL';
 $string['auth_changepasswordhelp'] = 'Change password help';
@@ -89,6 +91,7 @@ $string['errorminpasswordlength'] = 'Passwords must be at least {$a} characters 
 $string['errorminpasswordlower'] = 'Passwords must have at least {$a} lower case letter(s).';
 $string['errorminpasswordnonalphanum'] = 'Passwords must have at least {$a} non-alphanumeric character(s).';
 $string['errorminpasswordupper'] = 'Passwords must have at least {$a} upper case letter(s).';
+$string['errorpasswordreused'] = 'This password has been used before, and is not permitted to be reused';
 $string['errorpasswordupdate'] = 'Error updating password, password not changed';
 $string['eventuserloggedin'] = 'User has logged in';
 $string['eventuserloggedinas'] = 'User logged in as another user';
@@ -108,10 +111,13 @@ $string['informminpassworddigits'] = 'at least {$a} digit(s)';
 $string['informminpasswordlength'] = 'at least {$a} characters';
 $string['informminpasswordlower'] = 'at least {$a} lower case letter(s)';
 $string['informminpasswordnonalphanum'] = 'at least {$a} non-alphanumeric character(s)';
+$string['informminpasswordreuselimit'] = 'Passwords can be reused after {$a} changes';
 $string['informminpasswordupper'] = 'at least {$a} upper case letter(s)';
 $string['informpasswordpolicy'] = 'The password must have {$a}';
 $string['instructions'] = 'Instructions';
 $string['internal'] = 'Internal';
+$string['limitconcurrentlogins'] = 'Limit concurrent logins';
+$string['limitconcurrentlogins_desc'] = 'If enabled the number of concurrent browser logins for each user is restricted. The oldest session is terminated after reaching the limit, please note that users may lose all unsaved work. This setting is not compatible with single sign-on (SSO) authentication plugins.';
 $string['locked'] = 'Locked';
 $string['md5'] = 'MD5 hash';
 $string['nopasswordchange'] = 'Password can not be changed';
@@ -130,6 +136,7 @@ $string['recaptcha_help'] = 'The CAPTCHA is for preventing abuse from automated 
 
 If you are not sure what the words are, you can try getting another CAPTCHA or an audio CAPTCHA.';
 $string['recaptcha_link'] = 'auth/email';
+$string['security_question'] = 'Security question';
 $string['selfregistration'] = 'Self registration';
 $string['selfregistration_help'] = 'If an authentication plugin, such as email-based self-registration, is selected, then it enables potential users to register themselves and create accounts. This results in the possibility of spammers creating accounts in order to use forum posts, blog entries etc. for spam. To avoid this risk, self-registration should be disabled or limited by <em>Allowed email domains</em> setting.';
 $string['sha1'] = 'SHA-1 hash';

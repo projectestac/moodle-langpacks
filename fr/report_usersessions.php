@@ -16,18 +16,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_timezoneimport', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'report_usersessions', language 'fr', branch 'MOODLE_30_STABLE'
  *
- * @package   tool_timezoneimport
+ * @package   report_usersessions
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configintrotimezones'] = 'Esta página vai procurar por novas informações sobre fusos horários no mundo (incluindo regras de horários de verão) e atualizar a tua informação local com isto.  Esses locais serão verificados, por ordem: {$a} Esse procedimento é geralmente muito seguro e não interefere com as configurações atuais. Deseja atualizar o seu fuso horário agora?';
-$string['importtimezones'] = 'Atualizar a lista completa de fusos horários';
-$string['importtimezonescount'] = '{$a->count} entradas importadas de {$a->source}';
-$string['importtimezonesfailed'] = 'Não foram encontradas fontes!';
-$string['pluginname'] = 'Atualizador de fusos horários';
-$string['updatetimezones'] = 'Atualizar fusos horários';
+$string['mysessions'] = 'Mes sessions actives';
+$string['navigationlink'] = 'Sessions du navigateur';
+$string['pluginname'] = 'Rapport des sessions de l\'utilisateur';
+$string['thissession'] = 'Session courante';
+$string['usersessions:manageownsessions'] = 'Gérer ses propres sessions de navigation';

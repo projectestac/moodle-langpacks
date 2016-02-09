@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth_ldap', language 'ja', branch 'MOODLE_30_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -138,6 +138,7 @@ $string['renamingnotallowed'] = 'LDAPでのユーザ名変更は許可されて�
 $string['rootdseerror'] = 'Active DirectoryのrootDSEクエリにエラーが発生しました。';
 $string['start_tls'] = 'TLS暗号化による標準LDAPサービス (ポート389) を使用する';
 $string['start_tls_key'] = 'TLSを使用する';
+$string['synctask'] = 'LDAPユーザ同期ジョブ';
 $string['updatepasserror'] = 'user_update_password()にエラーが発生しました。エラーコード: {$a->errno}  エラーストリング: {$a->errstring}';
 $string['updatepasserrorexpire'] = 'パスワードの有効期限読み込み中にuser_update_password()にエラーが発生しました。エラーコード: {$a->errno}  エラーストリング: {$a->errstring}';
 $string['updatepasserrorexpiregrace'] = 'パスワード有効期限または猶予ログインの修正中にuser_update_password()にエラーが発生しました。エラーコード: {$a->errno}  エラーストリング: {$a->errstring}';

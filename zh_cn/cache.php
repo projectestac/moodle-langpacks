@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'cache', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,8 +35,10 @@ $string['area'] = '区域';
 $string['cacheadmin'] = '缓存管理';
 $string['cacheconfig'] = '配置';
 $string['cachedef_calendar_subscriptions'] = '日历订阅';
+$string['cachedef_capabilities'] = '系统功能列表';
+$string['cachedef_completion'] = '活动完成情况';
 $string['cachedef_config'] = '修改配置信息';
-$string['cachedef_coursecat'] = '特定用户的课程目录列表';
+$string['cachedef_coursecat'] = '特定用户的课程列表';
 $string['cachedef_coursecatrecords'] = '课程目录记录';
 $string['cachedef_coursecattree'] = '课程目录树';
 $string['cachedef_coursecontacts'] = '课程联系人列表';
@@ -44,13 +46,13 @@ $string['cachedef_coursemodinfo'] = '有关每一个课程章节和单元的汇�
 $string['cachedef_databasemeta'] = '数据库元信息';
 $string['cachedef_eventinvalidation'] = '事件无效';
 $string['cachedef_externalbadges'] = '给特定用户的外部徽章';
-$string['cachedef_gradecondition'] = '快取用户的分数已用来评价条件的可用性';
 $string['cachedef_groupdata'] = '课程组信息';
 $string['cachedef_htmlpurifier'] = 'HTML净化器-清除不必要的内容';
 $string['cachedef_langmenu'] = '可用的语言列表';
 $string['cachedef_locking'] = '锁定中';
 $string['cachedef_navigation_expandcourse'] = '浏览可以展开的课程清单';
 $string['cachedef_observers'] = '事件观察者';
+$string['cachedef_plugin_functions'] = '插件允许回调';
 $string['cachedef_plugin_manager'] = '插件管理员';
 $string['cachedef_questiondata'] = '试题定义';
 $string['cachedef_repositories'] = '库实例资料';
@@ -98,6 +100,8 @@ $string['invalidlock'] = '无效锁定';
 $string['invalidplugin'] = '无效插件';
 $string['invalidstore'] = '提供无效的缓存存储。';
 $string['lockdefault'] = '默认';
+$string['locking'] = '锁定中';
+$string['locking_help'] = '锁定是一种限制进程在同一时间访问缓存数据，以保证数据不会被覆盖的机制。这种锁定方法决定了锁如何被获取及检查。';
 $string['lockingmeans'] = '锁定机制';
 $string['lockmethod'] = '锁定方法';
 $string['lockmethod_help'] = '当为锁定所要求存储时，所用的方法。';

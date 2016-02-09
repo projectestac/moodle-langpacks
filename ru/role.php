@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'ru', branch 'MOODLE_30_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -226,7 +226,6 @@ $string['grade:unlock'] = 'Разблокировать оценки или эл
 $string['grade:view'] = 'Просматривать свои оценки';
 $string['grade:viewall'] = 'Просматривать оценки других пользователей';
 $string['grade:viewhidden'] = 'Просматривать скрытые от владельца оценки';
-$string['hidden'] = 'Скрыть';
 $string['highlightedcellsshowdefault'] = 'Разрешения, выделенные в таблице ниже - это значения по умолчанию для указанного выше прототипа роли.';
 $string['highlightedcellsshowinherit'] = 'Выделенные ячейки в отображаемой ниже таблице показывают разрешения (если таковые имеются), которые будут унаследованы. Помимо тех прав, разрешение для которых Вы действительно хотите изменить, везде следует оставить значение «Наследовать».';
 $string['inactiveformorethan'] = 'неактивные более чем {$a->timeperiod}';
@@ -252,8 +251,8 @@ $string['manageroles'] = 'Управление ролями';
 $string['maybeassignedin'] = 'Типы контекста, где эта роль может быть назначена';
 $string['morethan'] = 'Более {$a}';
 $string['multipleroles'] = 'Несколько ролей';
-$string['my:configsyspages'] = 'Настраивать системные шаблоны для домашней страницы';
-$string['my:manageblocks'] = 'Управлять блоками на домашней странице';
+$string['my:configsyspages'] = 'Настраивать системные шаблоны для страниц «Моя домашняя страница»';
+$string['my:manageblocks'] = 'Управлять блоками страницы «Моя домашняя страница»';
 $string['neededroles'] = 'Роли, которым дано это право';
 $string['nocapabilitiesincontext'] = 'Нет прав, доступных в этом контексте';
 $string['noneinthisx'] = 'Никого в этом контексте типа «{$a}»';

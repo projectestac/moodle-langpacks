@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'it', branch 'MOODLE_28_STABLE'
+ * Strings for component 'forum', language 'it', branch 'MOODLE_30_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -103,6 +103,8 @@ $string['configmaxattachments'] = 'Valore di default del numero massimo di alleg
 $string['configmaxbytes'] = 'Dimensione massima degli allegati per tutti i forum del sito (il valore è anche soggetto a limitazioni imposte a livello di corso e ad altre impostazioni locali)';
 $string['configoldpostdays'] = 'Numero di giorni trascorsi i quali tutti i messaggi vecchi verranno considerati come letti.';
 $string['configreplytouser'] = 'Nelle email inviate dai forum, per default compare in chiaro l\'email del mittente. In questo modo sarà possibile rispondere direttamente anche senza intervenire nel forum. Indipendentemente da questa impostazione un utente può comunque mantenere riservato il proprio indirizzo email usando l\'apposita impostazione presente nel profilo utente.';
+$string['configrssarticlesdefault'] = 'Imposta il numero di default di articoli (interventi o discussioni) quando i feed RSS sono abilitati.';
+$string['configrsstypedefault'] = 'Imposta il tipo di attività di default quando i feed RSS sono abilitati.';
 $string['configshortpost'] = 'Gli interventi al di sotto del numero di caratteri specificato (escludendo i tag HTML) saranno considerati "brevi".';
 $string['configtrackingtype'] = 'Il tipo di evidenziamento dei messaggi di default.';
 $string['configtrackreadposts'] = 'Impostare a \'Si\' se si desidera tracciare lo stato "letto/non letto" per ciascun utente.';
@@ -119,11 +121,11 @@ $string['delete'] = 'Elimina';
 $string['deleteddiscussion'] = 'L\'argomento di discussione è stato eliminato.';
 $string['deletedpost'] = 'L\'intervento è stato eliminato.';
 $string['deletedposts'] = 'Quegli interventi sono stati eliminati';
-$string['deleteoriginalonreply'] = 'Se rispondi a questo intervento via email, per favore non includere una copia citata dell\'intervento';
 $string['deletesure'] = 'Sei sicuro di voler eliminare questo intervento?';
 $string['deletesureplural'] = 'Sei sicuro di voler eliminare questo intervento e tutte le risposte collegate? ({$a} interventi)';
 $string['digestmailheader'] = 'Questa è la tua raccolta giornaliera dei nuovi interventi effettuati nei forum di {$a->sitename}. Se vuoi cambiare il default delle preferenze per l\'invio di e-mail dai forum, recati su {$a->userprefs}.';
 $string['digestmailpost'] = 'Modifica preferenze email di raccolta';
+$string['digestmailpostlink'] = 'Modifica le preferenze della raccolta giornaliera dai forum: {$a}';
 $string['digestmailprefs'] = 'Il tuo profilo utente';
 $string['digestmailsubject'] = '{$a}: raccolta giornaliera dai forum';
 $string['digestmailtime'] = 'Ora di invio email di raccolta';
@@ -217,6 +219,7 @@ $string['forum:allowforcesubscribe'] = 'Consentire sottoscrizione obbligatoria';
 $string['forumauthorhidden'] = 'Autore (nascosto)';
 $string['forumblockingalmosttoomanyposts'] = 'Stai per raggiungere il limite degli interventi permessi. Hai inviato {$a->numposts} interventi negli ultimi {$a->blockperiod} giorni. Il limite è di {$a->blockafter} interventi.';
 $string['forumbodyhidden'] = 'Non puoi visualizzare questo intervento, probabilmente perché non hai ancora effettuato interventi nella discussione, non è ancora trascorso il tempo massimo per l\'editing dei messaggi,  la discussione non è ancora cominciata oppure è terminata.';
+$string['forum:canposttomygroups'] = 'Inserire interventi in tutti i gruppi dove si ha accesso';
 $string['forum:createattachment'] = 'Creare allegati';
 $string['forum:deleteanypost'] = 'Eliminare tutti gli interventi (sempre)';
 $string['forum:deleteownpost'] = 'Eliminare i propri interventi (entro il limite temporale)';
@@ -323,6 +326,9 @@ $string['more'] = 'leggi';
 $string['movedmarker'] = 'Spostato';
 $string['movethisdiscussionto'] = 'Sposta la discussione in...';
 $string['mustprovidediscussionorpost'] = 'Per esportare un argomento di discussione devi indicare l\'id della discussione o dell\'intervento.';
+$string['myprofileotherdis'] = 'Discussioni nei forum';
+$string['myprofileowndis'] = 'Le mie discussioni sui fourm';
+$string['myprofileownpost'] = 'I miei interventi sui forum';
 $string['namenews'] = 'Forum News';
 $string['namenews_help'] = 'Il forum news è un forum speciale creato automaticamente in ogni corso Ci può essere un solo forum news per ciascun corso. Solo i docenti e gli amministratori possono creare interventi nei forum news. Il blocco \'Notizie recenti\' visualizza le discussioni più recenti dal forum news';
 $string['namesocial'] = 'Forum Relazionale';
@@ -384,6 +390,9 @@ $string['postincontext'] = 'Visualizza questo intervento nel contesto';
 $string['postmailinfo'] = 'Questa è la copia di un intervento effettuato sul sito {$a} .
 
 Per replicare clicca su questo link:';
+$string['postmailinfolink'] = 'Questa è una copia del messaggio inserito nei forum del del corso {$a->coursename}.
+
+Per rispondere, utilizza il link seguente: {$a->replylink}';
 $string['postmailnow'] = '<p>L\' intervento sarà inviato immediatamente nelle email dei sottoscrittori.</p>';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Apprendimento prevalentemente separato';
@@ -393,6 +402,8 @@ $string['posts'] = 'Interventi';
 $string['postsmadebyuser'] = 'Interventi di {$a}';
 $string['postsmadebyuserincourse'] = 'Intervento di {$a->fullname} in {$a->coursename}';
 $string['posttoforum'] = 'Invia al forum';
+$string['posttomygroups'] = 'Intervento in tutti i gruppi';
+$string['posttomygroups_help'] = 'L\'intervento sarà copiato in tutti i gruppi ai quali hai accesso. I membri dei gruppi ai quali non hai accesso non potranno visualizzare l\'intervento.';
 $string['postupdated'] = 'Il tuo intervento è stato aggiornato';
 $string['potentialsubscribers'] = 'Utenti che non hanno sottoscritto il forum';
 $string['prevdiscussiona'] = 'Discussione precedente: {$a}';
@@ -412,7 +423,6 @@ $string['reply'] = 'Rispondi';
 $string['replyforum'] = 'Replica al forum';
 $string['reply_handler'] = 'Risposte per email agli interventi nel forum';
 $string['reply_handler_name'] = 'Risposte agli interventi sui forum';
-$string['replytoforumpost'] = 'Puoi rispondere all\'intervento per email';
 $string['replytopostbyemail'] = 'Puoi rispondere all\'intervento per email';
 $string['replytouser'] = 'Usa indirizzo email nei messaggi';
 $string['resetdigests'] = 'Elimina tutte le preferenze utente per l\'email di raccolta';
@@ -425,6 +435,7 @@ $string['rssarticles_help'] = 'L\'impostazione consente di definire il numero di
 $string['rsssubscriberssdiscussions'] = 'RSS feed delle discussioni';
 $string['rsssubscriberssposts'] = 'RSS feed degli interventi';
 $string['rsstype'] = 'Feed RSS per questa attività';
+$string['rsstypedefault'] = 'Tipo di feed RSS';
 $string['rsstype_help'] = 'Per abilitare i feed RSS, devi scegliere se includere discussioni o interventi';
 $string['search'] = 'Cerca';
 $string['searchdatefrom'] = 'Gli interventi devono essere più recenti di';
@@ -455,7 +466,8 @@ $string['subscribediscussion'] = 'Sottoscrivi questa discussione';
 $string['subscribeenrolledonly'] = 'Spiacente, solo gli utenti iscritti possono sottoscrivere i forum e ricevere notifiche di nuovi interventi.';
 $string['subscribenone'] = 'Revoca tutte le sottoscrizioni di questo forum';
 $string['subscribers'] = 'Sottoscrittori';
-$string['subscribersto'] = 'Sottoscrittori del forum \'{$a}\'';
+$string['subscribersto'] = 'Sottoscrittori di "{$a->name}"';
+$string['subscriberstowithcount'] = '({$a->count}) sottoscrittori di "{$a->name}"';
 $string['subscribestart'] = 'Desidero ricevere notifiche sui nuovi interventi di questo forum';
 $string['subscribestop'] = 'Non desidero ricevere notifiche sui nuovi interventi di questo forum';
 $string['subscription'] = 'Sottoscrizione';
@@ -476,7 +488,9 @@ Nota: eventuali modifiche alla modalità di sottoscrizione influenzerà gli uten
 $string['subscriptionoptional'] = 'Facoltativa';
 $string['subscriptions'] = 'Sottoscrizioni';
 $string['thisforumisthrottled'] = 'Questo forum ha una soglia massima di interventi che è possibile effettuare in un dato intervallo di tempo - la soglia al momento è impostata a {$a->blockafter} interventi in {$a->blockperiod}';
+$string['timedhidden'] = 'Stato Intervento a tempo: non visibile agli studenti';
 $string['timedposts'] = 'Interventi a tempo';
+$string['timedvisible'] = 'Stato Intervento a tempo: visibile a tutti gli utenti';
 $string['timestartenderror'] = 'La data di fine visualizzazione non può essere precedente alla data di inizio';
 $string['trackforum'] = 'Evidenzia messaggi non letti';
 $string['tracking'] = 'Evidenzia';
@@ -502,6 +516,8 @@ $string['unsubscribealldone'] = 'Tutte le tue sottoscrizioni facoltative ai foru
 $string['unsubscribeallempty'] = 'Spiacente, non hai sottoscritto nessun forum. Nel caso tu non voglia più ricevere notifiche da questo server,  ai nella sezione Messaging del tuo profilo.';
 $string['unsubscribed'] = 'Non sottoscritto';
 $string['unsubscribediscussion'] = 'Revoca la sottoscrizione della discussione';
+$string['unsubscribediscussionlink'] = 'Revoca la sottoscrizione della discussione: {$a}';
+$string['unsubscribelink'] = 'Revoca la sottoscrizione del forum: {$a}';
 $string['unsubscribeshort'] = 'Revoca sottoscrizione';
 $string['usermarksread'] = 'Spunta manualmente gli interventi non letti';
 $string['viewalldiscussions'] = 'Visualizza tutti gli argomenti';

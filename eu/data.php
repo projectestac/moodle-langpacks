@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'eu', branch 'MOODLE_28_STABLE'
+ * Strings for component 'data', language 'eu', branch 'MOODLE_30_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -141,6 +141,7 @@ $string['entrieslefttoaddtoview'] = '{$a->entrieslefttoview} sarrera gehiago geh
 $string['entry'] = 'Sarrera';
 $string['entrysaved'] = 'Zure sarrera gorde egin da';
 $string['errormustbeteacher'] = 'Orri hau erabiltzeko irakasle izan behar duzu!';
+$string['errormustsupplyvalue'] = 'Hemen balio bat eman behar duzu.';
 $string['errorpresetexists'] = 'Dagoeneko bada elementu bat  aukeratutako izena duena';
 $string['eventfieldcreated'] = 'Eremua sortua';
 $string['eventfielddeleted'] = 'Eremua ezabatua';
@@ -278,8 +279,8 @@ $string['nameurl'] = 'URLa';
 $string['newentry'] = 'Sarrera berria';
 $string['newfield'] = 'Beste eremu bat sortu';
 $string['newfield_help'] = '<p>Pantaila honetan datu-basea osatuko duten eremuak sor ditzakezu.</p>
-<p>Eremu bakoitzak datu-mota ezberdinak onartzen ditu eta horretarako hainbat interfaz eskaintzen ditu.</p>
-<p>Eremu bakoitzak izen desberdina izan behar du. Eremuaren deskribapena hautazkoa da.</p>';
+
+<p>Eremu bakoitzak datu-mota ezberdinak onartzen ditu eta horretarako hainbat interfaz eskaintzen ditu.</p>';
 $string['noaccess'] = 'Orri honetara ez duzu sarbiderik';
 $string['nodefinedfields'] = 'Aurretiko ezarpen berriak ez du definitutako eremurik!';
 $string['nofieldcontent'] = 'Ez da eremuaren edukia aurkitu';
@@ -321,12 +322,14 @@ $string['recordsnotsaved'] = 'Ez da sarrerarik gorde. Igotako fitxategiaren form
 $string['recordssaved'] = 'sarrera(k) gordeta';
 $string['requireapproval'] = 'Onarpenik behar da';
 $string['requireapproval_help'] = '<p>Ikasleek sarrerak ikusi aurretik, irakasleak onartu behar lituzke? Aukera hau erabilgarria izan daiteke moderazioa egiteko.</p>';
+$string['required'] = 'Beharrekoa';
 $string['requiredentries'] = 'Onarpenik behar da';
 $string['requiredentries_help'] = '<p>Partaide bakoitzari bidaltzeko eskatzen zaion sarrera-kopurua. Erabiltzaileak eskatutako sarrera-kopurua bidali ez badu, hori gogorarazteko mezua agertuko zaio.</p>
 
 <p>Ez da jarduera amaitutzat emango erabiltzaileak behar duen sarrera-kopurua bidali arte.</p>';
 $string['requiredentriestoview'] = 'Ikusi aurretik behar diren sarrerak';
 $string['requiredentriestoview_help'] = 'Datu-basearen gainerako sarrerak ikusi baino lehen, partaideek bidali behar duten sarrera-kopurua zehartu behar da hemen.';
+$string['requiredfield'] = 'Beharrezko eremua';
 $string['resetsettings'] = 'Berrabiarazi iragazkiak';
 $string['resettemplate'] = 'Txantiloia berriz kargatu';
 $string['resizingimages'] = 'Irudi txikien tamaina aldatzen';

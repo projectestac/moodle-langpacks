@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth', language 'nl', branch 'MOODLE_30_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actauthhdr'] = 'Actieve authenticatieplugins';
+$string['allowaccountssameemail'] = 'Accounts met hetzelfde e-mailadres toestaan';
+$string['allowaccountssameemail_desc'] = 'Indien ingeschakeld kunnen meer dan één account hetzelfde e-mailadres hebben. Dit kan gevolgen hebben voor veiligheid en privacy, bijvoorbeeld met de bevestigingsmail voor wachtwoord wijzigen.';
 $string['alternatelogin'] = 'Als je hier een URL ingeeft, dan zal die dienen als loginpagina voor deze site. De pagina moet een formulier bevatten met de actie ingesteld op <strong>\'{$a}\'</strong> en die de velden <strong>username</strong> en <strong>password</strong> teruggeeft.<br />Let er op dat je een juiste URL ingeeft. Zoniet sluit je jezelf uit de site.<br />Laat deze instelling leeg als je de standaard loginpagina wil gebruiken.';
 $string['alternateloginurl'] = 'URL van de alternatieve loginpagina';
 $string['auth_changepasswordhelp'] = 'Hulp bij wijzigen wachtwoord';
@@ -90,6 +92,7 @@ $string['errorminpasswordlength'] = 'Wachtwoorden moeten minstens {$a} tekens la
 $string['errorminpasswordlower'] = 'Wachtwoorden moeten minstens {$a} kleine letters hebben.';
 $string['errorminpasswordnonalphanum'] = 'Wachtwoorden moeten minstens {$a} niet-alphanumerieke tekens hebben.';
 $string['errorminpasswordupper'] = 'Wachtwoorden moeten minstens {$a} hoofdletters hebben.';
+$string['errorpasswordreused'] = 'Dit wachtwoord is vroeger al eens gebruikt en mag niet opnieuw gebruikt worden.';
 $string['errorpasswordupdate'] = 'Fout tijdens het updaten van het wachtwoord, wachtwoord niet gewijzigd.';
 $string['eventuserloggedin'] = 'Gebruiker ingelogd';
 $string['eventuserloggedinas'] = 'Gebruiker ingelogd als een andere gebruiker';
@@ -109,10 +112,13 @@ $string['informminpassworddigits'] = 'minstens {$a} getal(len)';
 $string['informminpasswordlength'] = 'minstens {$a} teken(s)';
 $string['informminpasswordlower'] = 'minstens {$a} kleine letter(s)';
 $string['informminpasswordnonalphanum'] = 'minstens {$a} niet-alphanummerieke teken(s)';
+$string['informminpasswordreuselimit'] = 'Wachtwoorden mogen herbruikt worden na {$a} wijzigingen';
 $string['informminpasswordupper'] = 'minstens {$a} hoofdletter(s)';
 $string['informpasswordpolicy'] = 'Het wachtwoord moet {$a} hebben';
 $string['instructions'] = 'Instructies';
 $string['internal'] = 'Intern';
+$string['limitconcurrentlogins'] = 'Maximaal aantal gelijktijdige logins';
+$string['limitconcurrentlogins_desc'] = 'Indien ingeschakeld is het aantal gelijktijdige aanmeldingen voor elke gebruiker beperkt. De oudste sessie wordt beëindigt als het maximaal aantal bereikt wordt. Merk op dat gebruikers niet bewaard werk kunnen verliezen. Deze instelling is niet compatibel met single sign-on (SSO) plugins';
 $string['locked'] = 'Geblokkeerd';
 $string['md5'] = 'MD5-encryptie';
 $string['nopasswordchange'] = 'Wachtwoord kan niet gewijzigd worden';
@@ -136,6 +142,7 @@ $string['recaptcha_help'] = '<h2>Beschrijving</h2>
 <p>Als je niet zeker bent wat de woorden zijn, maak dan een gokje of volg de link "Geef nog een CAPTCHA". </p>
 
 <p>Visueel beperkte gebruikers kunnen de link "Geef een audio-CAPTCHA" volgen om een reeks tekens te horen die ingevuld kunnen worden in de plaats van de visuele test.</p>';
+$string['security_question'] = 'Beveiligingsvraag';
 $string['selfregistration'] = 'Zelfregistratie';
 $string['selfregistration_help'] = 'Als een authenticatieplugin, zoals e-mailgebaseerde zelfregistratie, is geselecteerd, dan kunnen potentiele gebruikers zichzelf registreren en accounts maken. Dit zorgt ervoor dat spammers accounts kunnen maken om forums en blogs te gaan gebruiken voor spam. Om dit risico te beperken zou zelfregistratie moeten uitgeschakeld worden of beperkt worden door de <em>Toegestane e-maildomeinen</em>-instelling.';
 $string['sha1'] = 'SHA1 hash';

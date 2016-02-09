@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'wiki', language 'en', branch 'MOODLE_30_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,7 @@ $string['defaultformat_help'] = 'This setting determines the default format used
 * HTML - The HTML editor is available
 * Creole - A common wiki markup language for which a small edit toolbar is available
 * Nwiki - Mediawiki-like markup language used in the contributed Nwiki module';
+$string['deleteallpages'] = 'Delete all wiki pages';
 $string['deletecomment'] = 'Deleting comment';
 $string['deletecommentcheck'] = 'Delete comment';
 $string['deletecommentcheckfull'] = 'Are you sure you want to delete the comment?';

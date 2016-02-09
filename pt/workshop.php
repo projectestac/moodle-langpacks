@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'workshop', language 'pt', branch 'MOODLE_30_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,6 +158,8 @@ $string['gradeitemsubmission'] = '{$a->workshopname} (trabalho)';
 $string['gradeover'] = 'Substituir nota do trabalho';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Relatório de notas do workshop';
+$string['gradetopassgrading'] = 'Nota de avaliação para passar';
+$string['gradetopasssubmission'] = 'Nota de submissão para passar';
 $string['gradinggrade'] = 'Nota máxima da avaliação';
 $string['gradinggradecalculated'] = 'Nota da avaliação';
 $string['gradinggrade_help'] = 'Esta configuração específica a nota máxima que se pode obter na avaliação dos trabalhos dos pares.';
@@ -193,6 +195,7 @@ $string['nogradeyet'] = 'Ainda não tem nota';
 $string['nosubmissionfound'] = 'Não foi encontrado nenhum trabalho submetidos por este utilizador';
 $string['nosubmissions'] = 'Ainda não foram submetidos trabalhos neste workshop';
 $string['notassessed'] = 'Ainda não foi avaliado';
+$string['nothingfound'] = 'Nada a exibir';
 $string['nothingtoreview'] = 'Nada para avaliar';
 $string['notoverridden'] = 'Não substituir';
 $string['noworkshops'] = 'Não existem workshops nesta disciplina';
@@ -266,11 +269,14 @@ Se ativar esta opção, é recomendável que também ative e configure o método
 $string['submissiongrade'] = 'Nota máxima do trabalho';
 $string['submissiongrade_help'] = 'Esta configuração específica a nota máxima que pode ser atribuída ao trabalho submetido';
 $string['submissiongradeof'] = 'Nota do trabalho (em {$a})';
+$string['submissionlastmodified'] = 'Última modificação';
 $string['submissionsettings'] = 'Configurações de envio';
+$string['submissionsreport'] = 'Relatório de submissões do workshop';
 $string['submissionstart'] = 'Iniciar submissões em';
 $string['submissionstartdatetime'] = 'Submissões permitidas a partir de  {$a->daydatetime} ({$a->distanceday})';
 $string['submissionstartevent'] = '{$a} (abre para submissões)';
 $string['submissiontitle'] = 'Titulo';
+$string['submittednotsubmitted'] = 'Submetido ({$a->submitted}) / não submetido ({$a->notsubmitted})';
 $string['subplugintype_workshopallocation'] = 'Método para atribuir trabalho para avaliação';
 $string['subplugintype_workshopallocation_plural'] = 'Métodos para atribuir trabalho para avaliação';
 $string['subplugintype_workshopeval'] = 'Método para atribuir nota a avaliações';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'es', branch 'MOODLE_28_STABLE'
+ * Strings for component 'quiz', language 'es', branch 'MOODLE_30_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -147,8 +147,6 @@ $string['cannotwrite'] = 'No se puede escribir al archivo exportado ({$a})';
 $string['caseno'] = 'Igual mayúsculas que minúsculas';
 $string['casesensitive'] = 'Diferencia entre mayúsculas y minúsculas';
 $string['caseyes'] = 'Mayúsculas y minúsculas deben coincidir';
-$string['categories'] = 'Categorías';
-$string['category'] = 'Categoría';
 $string['categoryadded'] = 'Se añadió la categoría \'{$a}\'';
 $string['categorydeleted'] = 'Se eliminó la categoría\'{$a}\'';
 $string['categorynoedit'] = 'You do not have editing privileges in the category \'{$a}\'.';
@@ -187,7 +185,6 @@ $string['configrequiresubnet'] = 'Los estudiantes únicamente pueden intentar re
 $string['configreviewoptions'] = 'Estas opciones controlan qué información pueden ver los usuarios cuando revisan un intento de resolver el cuestionario o cuando examinan los informes del cuestionario.';
 $string['configshowblocks'] = 'Mostrar bloques durante los intentos de responder al cuestionario.';
 $string['configshowuserpicture'] = 'Mostrar en pantalla la imagen del usuario durante los intentos.';
-$string['configshufflequestions'] = 'Si se habilita, el orden de las preguntas dentro del cuestionario se determina al azar cada vez que el estudiante hace un intento de resolver el cuestionario.';
 $string['configshufflewithin'] = 'Si habilita esta opción, las respuestas se ordenarán al azar cada vez que un estudiante intente resolver este cuestionario, en el supuesto de que la opción esté también habilitada en los ajustes de la pregunta.';
 $string['configtimelimit'] = 'Tiempo límite por defecto en minutos. 0 significa que no hay límite de tiempo.';
 $string['configtimelimitsec'] = 'Tiempo límite (en segundos) predeterminado para resolver los cuestionarios. \'0\' significa que no hay límite de tiempo.';
@@ -332,7 +329,6 @@ $string['eventquizattempttimelimitexceeded'] = 'Limite de intentos excedido';
 $string['everynquestions'] = 'Cada {$a} preguntas';
 $string['everyquestion'] = 'Cada pregunta';
 $string['everythingon'] = 'Todo activado';
-$string['export'] = 'Exportar';
 $string['exportcategory'] = 'categoría de exportación';
 $string['exporterror'] = 'Ocurrió un error durante el procesamiento de la exportación';
 $string['exportingquestions'] = 'Se están exportando las preguntas al archivo';
@@ -357,7 +353,6 @@ $string['finishattemptdots'] = 'Terminar intento...';
 $string['finishreview'] = 'Finalizar revisión';
 $string['forceregeneration'] = 'forzar regeneración';
 $string['formatnotfound'] = 'No se encuentra el formato {$a} de exportación/importación';
-$string['formatnotimplemented'] = 'Este formato no se ha implementado correctamente. Por favor, envíe un mensaje de error.';
 $string['formulaerror'] = 'Errores en la fórmula.';
 $string['fractionsaddwrong'] = 'Las calificaciones positivas otorgadas no suman 100% sino {$a}%<br />¿Desea regresar y corregir esta pregunta?';
 $string['fractionsnomax'] = 'Una de las preguntas debe ser 100% para que sea<br />posible alcanzar la calificación máxima<br />¿Desea regresar y corregir esta pregunta?';
@@ -420,7 +415,6 @@ $string['hidereordertool'] = 'Ocultar herramienta de reordenamiento';
 $string['history'] = 'Historial de respuestas';
 $string['howquestionsbehave_desc'] = 'Configuración predeterminada del comportamiento de las preguntas en un cuestionario.';
 $string['imagedisplay'] = 'Imagen a mostrar';
-$string['import'] = 'Importar';
 $string['importcategory'] = 'importar categoría';
 $string['importerror'] = 'Ha ocurrido un error durante el procesamiento de la importación';
 $string['importfilearea'] = 'Importar de un archivo que ya está en los archivos del curso...';
@@ -445,8 +439,6 @@ $string['inprogress'] = 'En curso';
 $string['introduction'] = 'Descripción';
 $string['invalidattemptid'] = 'No existe un intento con esa ID';
 $string['invalidcategory'] = 'El ID de la categoría no es válido';
-$string['invalidnumericanswer'] = 'Una de sus respuestas no es un número válido.';
-$string['invalidnumerictolerance'] = 'Una de las tolerancias introducidas no es un número válido.';
 $string['invalidoverrideid'] = 'ID de anulación no válido';
 $string['invalidquestionid'] = 'ID de pregunta no válida';
 $string['invalidquizid'] = 'ID de cuestionario no válida';
@@ -501,7 +493,6 @@ $string['modulenameplural'] = 'Cuestionarios';
 $string['moveselectedonpage'] = 'Mover las preguntas seleccionadas a la página: {$a}';
 $string['multichoice'] = 'Opción múltiple';
 $string['multipleanswers'] = 'Seleccione  al menos una respuesta.';
-$string['multiplier'] = 'Multiplicador';
 $string['mustbesubmittedby'] = 'Este intento debe ser presentado por {$a}.';
 $string['name'] = 'Nombre';
 $string['navmethod'] = 'Método de navegación';
@@ -816,6 +807,8 @@ $string['savingnewgradeforquestion'] = 'Guardando la nueva calificación en la p
 $string['savingnewmaximumgrade'] = 'Guardando la nueva calificación máxima';
 $string['score'] = 'Puntuación bruta';
 $string['scores'] = 'Puntuaciones -';
+$string['sectionheadingedit'] = 'Editar cabecera \'{$a}\'';
+$string['sectionheadingremove'] = 'Borrar cabecera \'{$a}\'';
 $string['seequestions'] = '(Vea las preguntas)';
 $string['select'] = 'Seleccionar';
 $string['selectall'] = 'Seleccionar todos';
@@ -858,8 +851,10 @@ $string['showuserpicture_help'] = '<p> Si usted habilita esta opción, el nombre
 $string['shuffle'] = 'Orden al azar';
 $string['shuffleanswers'] = 'Respuestas ordenadas al azar';
 $string['shuffledrandomly'] = 'Presentadas al azar';
-$string['shufflequestions'] = 'Ordenar las preguntas al azar';
-$string['shufflequestionsselected'] = 'Las preguntas aparecerán ordenadas al azar. Como resultado, el botón Volver a ordenar las preguntas se ha desactivado. Puede cambiar esto en {$a}.';
+$string['shufflequestions'] = 'Reordenar las preguntas al azar';
+$string['shufflequestions_help'] = 'Si activa esta opción, en cada intento del cuestionario el orden de las preguntas será aleatorio.
+
+Ello puede dificultar a los estudiantes que puedan compartirse las respuestas entre ellos, aunque también complica que los alumnos puedan identificar una pregunta para consultársela al profesorado.';
 $string['shufflewithin'] = 'Ordenar al azar las respuestas';
 $string['shufflewithin_help'] = 'Si habilita esta opción, las respuestas se ordenarán al azar cada vez que un estudiante comience a contestar el cuestionario, suponiendo que la opción también esté habilitada en los ajustes de la pregunta.
 Esta opción sólo es aplicable a preguntas que tienen elementos  múltiples, como las preguntas de elección múltiple o de emparejamiento.';
@@ -923,7 +918,6 @@ $string['unfinished'] = 'abierto';
 $string['ungraded'] = 'Sin calificar';
 $string['unit'] = 'Unidad';
 $string['unknowntype'] = 'Tipo de pregunta no permitida en la línea {$a}. La pregunta no se tendrá en cuenta';
-$string['unusedcategorydeleted'] = 'Esta categoría ha sido eliminada, ya que, después de eliminar el curso, sus preguntas no fueron utilizadas nunca más.';
 $string['updatesettings'] = 'Actualizar ajustes del cuestionario';
 $string['updatingatttemptgrades'] = 'Actualizando calificaciones de los intentos';
 $string['updatingfinalgrades'] = 'Actualizando calificaciones finales';

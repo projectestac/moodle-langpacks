@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_rss_client', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   block_rss_client
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,7 +46,6 @@ $string['editnewsfeeds'] = 'Redigera nyhetsinmatningar';
 $string['editrssblock'] = 'Redigera ett block med RSS rubriker';
 $string['enableautodiscovery'] = 'Aktivera automatisk upptäckt av flöden?';
 $string['enableautodiscovery_help'] = 'Om detta är aktiverat så kommer inflöden på webbsidor att hittas automatiskt. Om du t ex skriver in http://docs.moodle.org då kommer http://docs.moodle.org/en/index.php?title=Special:RecentChanges&feed=rss att hittas.';
-$string['errorloadingfeed'] = 'Fel i sb m laddning av det här RSS-flödet ({$a})';
 $string['feed'] = 'Inmatning';
 $string['feedadded'] = 'En nyhetsinmatning har lagts till';
 $string['feeddeleted'] = 'En nyhetsinmatning har tagits bort';
@@ -70,7 +69,7 @@ $string['rss_client:manageownfeeds'] = 'Administrera egna RSS-matningar';
 $string['seeallfeeds'] = 'Visa alla inmatningar';
 $string['sharedfeed'] = 'Gemensam inmatning';
 $string['shownumentrieslabel'] = 'Maximalt antal bidrag att visa per block.';
-$string['submitters'] = 'Vem ska behörighet att definiera nya RSS-flöden? Definierade flöden finns tillgängliga för vilken sida som helst på Din webbplats.';
+$string['submitters'] = 'Vem ska behörighet att definiera nya RSS-flöden? Definierade flöden finns tillgängliga för vilken sida som helst på din webbplats.';
 $string['submitters2'] = 'Inskickare';
 $string['timeout'] = 'Tid i minuter innan ett RSS-flöde tas bort från cachen. OBS! Den här tiden definierar minitiden innan den går ut; flödet kommer att återställas i cachen vid nästa körning av cron efter att tiden har gått ut. 30 minuter eller mer rekommenderas. ';
 $string['timeout2'] = 'Timeout';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_ldap', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'enrol_ldap', language 'fr', branch 'MOODLE_30_STABLE'
  *
  * @package   enrol_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,7 +49,7 @@ $string['course_fullname'] = 'Facultatif : champ LDAP d\'où tirer le nom compl
 $string['course_fullname_key'] = 'Nom complet';
 $string['course_fullname_updateonsync'] = 'Mise à jour du nom complet lors de la synchronisation';
 $string['course_fullname_updateonsync_key'] = 'Mise à jour du nom complet';
-$string['course_idnumber'] = 'Champ correspondant avec l\'identificateur unique LDAP, D\'habitude <em>cn</em> ou <em>uid</em>. On recommande de verrouiller cette valeur lors de l\'utilisation de la création automatique de cours.';
+$string['course_idnumber'] = 'Champ correspondant avec l\'identificateur unique LDAP. D\'habitude <em>cn</em> ou <em>uid</em>. On recommande de verrouiller cette valeur lors de l\'utilisation de la création automatique de cours.';
 $string['course_idnumber_key'] = 'Identifiant du cours';
 $string['coursenotexistskip'] = 'Le cours « {$a} » n\'existe pas et l\'auto-création des cours est désactivée, ignoré';
 $string['course_search_sub'] = 'Rechercher les affiliations à des groupes dans les sous-contextes';

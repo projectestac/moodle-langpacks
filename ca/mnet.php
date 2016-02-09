@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'mnet', language 'ca', branch 'MOODLE_30_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -165,7 +165,7 @@ $string['notinxmlrpcserver'] = 'Intent d\'accés al client remot Mnet, no durant
 $string['notmoodleapplication'] = 'ADVERTIMENT: Aquesta no es una aplicació de Moodle, de manera que alguns dels mètodes d\'inspecció no funcionin correctament.';
 $string['notPEM'] = 'Aquesta clau no té format PEM. No funcionarà.';
 $string['notpermittedtojump'] = 'No teiniu permís per iniciar una sessió remota en aquest servidor Moodle.';
-$string['notpermittedtojumpas'] = 'No podeu començar una sessió remota mentre tingueu iniciada la sessió com un altre usuari.';
+$string['notpermittedtojumpas'] = 'No podeu iniciar una sessió remota mentre esteu identificat com un altre usuari.';
 $string['notpermittedtoland'] = 'No teniu permís per iniciar una sessió remota.';
 $string['off'] = 'Apaga';
 $string['on'] = 'Engega';

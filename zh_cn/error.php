@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'zh_cn', branch 'MOODLE_30_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -76,6 +76,7 @@ $string['cannoteditcomment'] = '这条评论不是您的，不能编辑';
 $string['cannoteditcommentexpired'] = '你不能编辑它，时间截止了';
 $string['cannoteditpostorblog'] = '你不能发表或编辑博客';
 $string['cannoteditsiteform'] = '您不能用此表单编辑站点课程';
+$string['cannotedituserpreferences'] = '不能编辑此用户的偏好选项';
 $string['cannotedityourprofile'] = '对不起，您不能编辑自己的个人资料';
 $string['cannotexecduringupgrade'] = '升级途中无法执行';
 $string['cannotfindcategory'] = '无法从数据库中找到ID-{$a}的类别记录';
@@ -230,6 +231,7 @@ $string['errorcreatingfile'] = '在创建文件“{$a}”时发生错误';
 $string['errorcreatingrole'] = '创建角色发生错误';
 $string['errorfetchingrssfeed'] = '获取RSS种子时出错。';
 $string['erroronline'] = '发生错误于第 {$a} 行';
+$string['erroroutput'] = '输出出错，因此禁用自动重定向。';
 $string['errorparsingxml'] = '解析XML出现错误：{$a->errorstring}，发生在行 {$a->errorline}，字符 {$a->errorchar} ';
 $string['errorprocessingarchive'] = '处理存档文件时出错';
 $string['errorreadingfile'] = '在读取文件“{$a}”时发生错误';

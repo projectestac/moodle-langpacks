@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth', language 'ru', branch 'MOODLE_30_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -89,6 +89,7 @@ $string['errorminpasswordlength'] = 'Пароль не должен состоя
 $string['errorminpasswordlower'] = 'Пароль должен содержать не менее {$a} строчных(ой) букв(ы).';
 $string['errorminpasswordnonalphanum'] = 'Пароль должен содержать не менее {$a} не буквенно-цифровых(ого) символов(а).';
 $string['errorminpasswordupper'] = 'Пароль должен содержать не менее {$a} прописных(ой) букв(ы).';
+$string['errorpasswordreused'] = 'Этот пароль раньше уже использовался, его нельзя использовать повторно.';
 $string['errorpasswordupdate'] = 'Ошибка при обновлении пароля; пароль не изменен';
 $string['eventuserloggedin'] = 'Пользователь вошел в систему';
 $string['eventuserloggedinas'] = 'Пользователь вошел в систему от имени другого пользователя';
@@ -108,10 +109,13 @@ $string['informminpassworddigits'] = 'цифр - не менее {$a}';
 $string['informminpasswordlength'] = 'символов - не менее {$a}';
 $string['informminpasswordlower'] = 'строчных букв - не менее {$a}';
 $string['informminpasswordnonalphanum'] = 'символов, не являющихся буквами и цифрами - не менее {$a}';
+$string['informminpasswordreuselimit'] = 'Пароли могут повторно использоваться после {$a} изменений';
 $string['informminpasswordupper'] = 'прописных букв - не менее {$a}';
 $string['informpasswordpolicy'] = 'Пароль должен содержать {$a}';
 $string['instructions'] = 'Инструкции';
 $string['internal'] = 'Внутренний';
+$string['limitconcurrentlogins'] = 'Лимит одновременных входов в систему';
+$string['limitconcurrentlogins_desc'] = 'При включенном параметре число одновременных входов через браузер для каждого пользователя будет ограничено. Самая старая сессия будет прервана после достижения лимита. Пожалуйста, обратите внимание, что пользователи могут потерять всю несохраненную работу. Эта настройка не совместима с плагинами аутентификации Single Sign-On (SSO).';
 $string['locked'] = 'Заблокировано';
 $string['md5'] = 'MD5-шифрование';
 $string['nopasswordchange'] = 'Пароль изменить нельзя';
@@ -129,6 +133,7 @@ $string['recaptcha'] = 'reCAPTCHA';
 $string['recaptcha_help'] = 'CAPTCHA служит для предотвращения злоупотреблений со стороны автоматизированных программ. Просто введите слова в поле, в том же порядке и разделенные пробелом.
 
 Если Вы не можете разобрать слова, Вы можете попробовать другую CAPTCHA или аудио-CAPTCHA.';
+$string['security_question'] = 'Секретный вопрос';
 $string['selfregistration'] = 'Самостоятельная регистрация';
 $string['selfregistration_help'] = 'Если выбран такой плагин аутентификации, как самостоятельная регистрация по электронной почте, у потенциальных пользователей появляется возможность самостоятельно зарегистрироваться и создать учетную запись. Это может привести к тому, что спамеры начнут создавать учетные записи, чтобы использовать форумы, блоги и т.п. для распространения спама. Чтобы уменьшить риск, нужно отключить самостоятельную регистрацию или ограничить ее, заполнив поле <em>Разрешенные почтовые домены</em>';
 $string['sha1'] = 'SHA-1-шифрование';

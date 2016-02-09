@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'question', language 'sv', branch 'MOODLE_30_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -244,7 +244,6 @@ $string['generalfeedback_help'] = 'Generell återkoppling visas för eleven efte
 Du kan använda generell återkoppling för att ge elever ett bearbetat svar och eventuellt en länk till mer information som de kan använda om de inte förstod frågorna.';
 $string['getcategoryfromfile'] = 'Hämta kategori från fil';
 $string['getcontextfromfile'] = 'Hämta sammanhang från fil';
-$string['hidden'] = 'Dolt';
 $string['hintn'] = 'Ledtråd {no}';
 $string['hintnoptions'] = 'Alternativ för ledtråd {no}';
 $string['hinttext'] = 'Ledtrådstext';
