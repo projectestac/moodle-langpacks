@@ -45,7 +45,7 @@ $string['autogenallforms'] = 'すべてのデフォルトテンプレートを�
 $string['autolinkurl'] = 'URLにオートリンクする';
 $string['availablefromdate'] = '開始日時';
 $string['availabletags'] = '利用可能なタグ';
-$string['availabletags_help'] = 'タグはエントリが編集または閲覧されるときに、フィールドや他のアイテムと置換されるテンプレート内の入れ物です。
+$string['availabletags_help'] = 'タグはエントリが編集または閲覧されるときにフィールドや他のアイテムと置換されるテンプレート内の入れ物です。
 
 フィールドは次のようなフォーマットとなります: [fieldname]]。他のタグすべては次のようなフォーマットとなります:  ##sometag##
 
@@ -70,9 +70,9 @@ $string['commentdeleted'] = 'コメントが削除されました。';
 $string['commentempty'] = 'コメントが空です。';
 $string['comments'] = 'コメント';
 $string['commentsaved'] = 'コメントが保存されました。';
-$string['commentsn'] = 'コメント数: {$a}';
+$string['commentsn'] = '{$a} コメント';
 $string['commentsoff'] = 'コメント機能は有効にされていません。';
-$string['configenablerssfeeds'] = 'ここではすべてのデータベースに関するRSSフィードを有効にします。さらに、あなたは手動で各データベースのRSSフィード設定を有効にする必要があります。';
+$string['configenablerssfeeds'] = 'ここではすべてのデータベースに関するRSSフィードを有効にします。さらに、あなたはそれぞれの各データベースのRSSフィード設定を手動で有効にする必要があります。';
 $string['confirmdeletefield'] = 'あなたはこのフィールドを削除しようとしています。よろしいですか?';
 $string['confirmdeleterecord'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['confirmdeleterecords'] = '本当にこれらのエントリを削除してもよろしいですか?';
@@ -84,7 +84,7 @@ $string['csvimport_help'] = 'エントリは最初の行にフィールド名の
 $string['csvwithselecteddelimiter'] = '選択したデリミタによる<acronym title="カンマ区切り">CSV</acronym>テキスト:';
 $string['data:addinstance'] = '新しいデータベースを追加する';
 $string['data:approve'] = 'エントリを承認または承認済みエントリを取り消す';
-$string['data:comment'] = 'コメントを追加する';
+$string['data:comment'] = 'コメントを書く';
 $string['data:exportallentries'] = 'すべてのデータベースエントリをエクスポートする';
 $string['data:exportentry'] = 'データベースエントリをエクスポートする';
 $string['data:exportownentry'] = '自分のデータベースエントリをエクスポートする';
@@ -95,12 +95,12 @@ $string['data:managetemplates'] = 'テンプレートを管理する';
 $string['data:manageuserpresets'] = 'すべてのテンプレートプリセットを管理する';
 $string['data:rate'] = 'エントリを評価する';
 $string['data:readentry'] = 'エントリを読む';
-$string['data:viewallratings'] = '個々のユーザから与えられた実評価すべてを表示する';
+$string['data:viewallratings'] = '個別のユーザから与えられた実評価すべてを表示する';
 $string['data:viewalluserpresets'] = 'すべてのユーザのプリセットを表示する';
 $string['data:viewanyrating'] = 'すべてのユーザが受けた評価合計を表示する';
 $string['data:viewentry'] = 'エントリを表示する';
 $string['data:viewrating'] = 'あなたが受けた評価合計を表示する';
-$string['data:writeentry'] = 'エントリを追加する';
+$string['data:writeentry'] = 'エントリを書く';
 $string['date'] = '日付';
 $string['dateentered'] = '入力日時';
 $string['defaultfielddelimiter'] = '(デフォルト: カンマ)';
