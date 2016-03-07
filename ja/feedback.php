@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['add_item'] = '質問を追加する';
-$string['add_pagebreak'] = '改ページ (Page break) を追加する';
+$string['add_pagebreak'] = '改ページを追加する';
 $string['adjustment'] = '表示方向';
 $string['after_submit'] = '回答送信後';
 $string['allowfullanonymous'] = '完全な匿名を許可する';
@@ -42,7 +42,7 @@ $string['average'] = '平均';
 $string['bold'] = '太字';
 $string['cancel_moving'] = '移動をキャンセルする';
 $string['cannotmapfeedback'] = 'データベーストラブル、フィードバックをコースにマップできません。';
-$string['cannotsavetempl'] = 'テンプレートの保存は、許可されていません。';
+$string['cannotsavetempl'] = 'テンプレートの保存は許可されていません。';
 $string['cannotunmap'] = 'データベーストラブル、マップ解除できません。';
 $string['captcha'] = 'Captcha';
 $string['captchanotset'] = 'Captchaが設定されていません。';
@@ -76,13 +76,13 @@ $string['depending_help'] = '依存アイテムを使用して他のアイテム
 <br />
  <ul>
  <li>最初に他のアイテムが値を依存することになるアイテムを作成してください。</li>
-<li>次に改ページ (Page break) を追加してください。</li>
+<li>次に改ページを追加してください。</li>
 <li>そして、最初に作成したアイテムの値に依存するアイテムを追加してください。アイテム作成フォーム内の「依存アイテム」リストから依存アイテム、そして「依存値」テキストボックスに必要な値を入力してください。</li>
 </ul>
 <strong>構造は次のようになります:</strong>
 <ol>
 <li>Item Q: あなたは自動車を所有していますか? A: yes/no</li>
-<li>改ページ (Page break)</li>
+<li>改ページ</li>
 <li>Item Q: あなたの自動車の色は何色ですか?
 <br />
 (このアイテムはアイテム1の値=yesに依存します)</li>
@@ -102,16 +102,16 @@ $string['dropdownrated'] = 'ドロップダウンリスト (評定)';
 $string['dropdown_values'] = '回答';
 $string['drop_feedback'] = 'このコースから削除する';
 $string['edit_item'] = '質問を編集する';
-$string['edit_items'] = '質問を編集する ...';
+$string['edit_items'] = '質問を編集する';
 $string['email_notification'] = '送信通知を有効にする';
-$string['email_notification_help'] = 'この設定を有効にした場合、フィードバック送信に関して、教師はメール通知されます。';
+$string['email_notification_help'] = 'この設定を有効にした場合、フィードバック送信に関して教師にメール通知されます。';
 $string['emailteachermail'] = '{$a->username} がフィードバック「 {$a->feedback} 」を完了しました。
 
-あなたは下記ページで内容を閲覧できます:
+あなたはここで閲覧できます:
 
 {$a->url}';
 $string['emailteachermailhtml'] = '<p>{$a->username} がフィードバック「 {$a->feedback} 」を完了しました。</p>
-<p><a href="{$a->url}">このページ</a>で詳細を閲覧できます。</p>';
+<p>あなたは<a href="{$a->url}">ここで閲覧</a>できます。</p>';
 $string['entries_saved'] = 'あなたの回答が保存されました。ありがとうございます。';
 $string['eventresponsedeleted'] = '回答が削除されました。';
 $string['eventresponsesubmitted'] = '回答が送信されました。';
@@ -125,7 +125,7 @@ $string['feedback:createpublictemplate'] = 'パブリックテンプレートを
 $string['feedback:deletesubmissions'] = '完了した送信を削除する';
 $string['feedback:deletetemplate'] = 'テンプレートを削除する';
 $string['feedback:edititems'] = 'アイテムを編集する';
-$string['feedback_is_not_for_anonymous'] = '匿名ユーザは、フィードバックを利用できません。';
+$string['feedback_is_not_for_anonymous'] = '匿名ユーザはフィードバックを利用できません。';
 $string['feedback_is_not_open'] = 'フィードバックは利用できません。';
 $string['feedback:mapcourse'] = 'コースをグローバルフィードバックにマップする';
 $string['feedbackopen'] = 'フィードバック開始日時';
@@ -144,7 +144,7 @@ $string['import_successfully'] = '正常にインポートされました。';
 $string['info'] = '情報';
 $string['infotype'] = '情報タイプ';
 $string['insufficient_responses'] = '不十分な回答';
-$string['insufficient_responses_for_this_group'] = 'このグループの回答数は、十分ではありません。';
+$string['insufficient_responses_for_this_group'] = 'このグループの回答数は十分ではありません。';
 $string['insufficient_responses_help'] = 'このグループの回答が不足しています。
 
 フィードバックを匿名にするには最低2つの回答が必要です。';
