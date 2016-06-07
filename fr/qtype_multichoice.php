@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_multichoice', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -58,9 +58,9 @@ $string['partiallycorrectfeedback'] = 'Pour toute réponse partiellement correct
 $string['pleaseselectananswer'] = 'Veuillez sélectionner une réponse.';
 $string['pleaseselectatleastoneanswer'] = 'Veuillez sélectionner au moins une réponse.';
 $string['pluginname'] = 'Choix multiple';
-$string['pluginnameadding'] = 'Ajouter une question à choix multiples';
-$string['pluginnameediting'] = 'Modification d\'une question à choix multiples';
-$string['pluginname_help'] = 'Pour répondre à la question (qui peut inclure une image) les étudiants peuvent choisir parmi plusieurs propositions. Il existe deux types de questions à choix multiples - une réponse (QCU) ou plusieurs réponses (QCM).';
+$string['pluginnameadding'] = 'Ajouter une question à choix multiple';
+$string['pluginnameediting'] = 'Modification d\'une question à choix multiple';
+$string['pluginname_help'] = 'Pour répondre à la question (qui peut inclure une image) les étudiants peuvent choisir parmi plusieurs propositions. Il existe deux types de questions à choix multiple - une réponse (QCU) ou plusieurs réponses (QCM).';
 $string['pluginnamesummary'] = 'Permet la sélection d\'une ou plusieurs réponses dans une liste prédéfinie.';
 $string['selectmulti'] = 'Veuillez choisir au moins une réponse :';
 $string['selectone'] = 'Veuillez choisir une réponse :';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_mobile', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'local_mobile', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   local_mobile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,12 +25,20 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['allowpermissions'] = 'Grant permissions to the authenticated user role';
+$string['allowpermissionsdescription'] = 'Edit the Authenticated user role and allow the capability moodle/webservice:createtoken';
 $string['cannotcreatetoken'] = 'Automatic token generation is not available to site administrators (they must create a token manually in the site)';
+$string['checkpluginconfiguration'] = 'Check plugin configuration';
+$string['enableadditionalservice'] = 'Enable the Moodle Mobile additional features service';
+$string['enableadditionalservicedescription'] = 'This service must be enabled.';
 $string['local_mobiledescription'] = 'Plugin that extends the Mobile service features';
 $string['local_mobilesettings'] = 'Settings';
 $string['local_mobiletypeoflogin'] = 'Choose the type of login';
 $string['local_mobiletypeoflogin_key'] = 'Type of login';
+$string['local_mobileurlscheme'] = 'Use this setting to force the URL scheme for login via a browser window. In most of the cases it should be left empty.';
+$string['local_mobileurlscheme_key'] = 'URL scheme';
 $string['loginintheapp'] = 'Via the app';
 $string['logininthebrowser'] = 'Via a browser window (for SSO plugins)';
+$string['loginintheinappbrowser'] = 'Via an embedded browser (for SSO plugins)';
 $string['pluginname'] = 'Moodle Mobile additional features';
 $string['pluginnotenabledorconfigured'] = 'The Moodle Mobile local plugin must be enabled and configured in order to launch the app';

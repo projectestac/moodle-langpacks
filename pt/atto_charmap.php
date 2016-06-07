@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_charmap', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'atto_charmap', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   atto_charmap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -157,7 +157,7 @@ $string['ligatureae'] = 'Diagrama das letras minúsculas ligadas ae';
 $string['ligatureae_caps'] = 'Diagrama das letras maiúsculas ligadas AE';
 $string['ligatureoe'] = 'Diagrama das letras minúsculas ligadas oe';
 $string['ligatureoe_caps'] = 'Diagrama das letras maiúsculas ligadas OE';
-$string['logicaland'] = '';
+$string['logicaland'] = 'lógico e';
 $string['logicalor'] = 'lógico ou';
 $string['lozenge'] = 'losango';
 $string['macron'] = 'visualização avançada';

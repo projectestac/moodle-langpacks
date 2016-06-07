@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'forum', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -209,10 +209,10 @@ $string['eventpostdeleted'] = 'Сообщение удалено';
 $string['eventpostupdated'] = 'Сообщение обновлено';
 $string['eventreadtrackingdisabled'] = 'Отслеживание непрочитанных сообщений отключено';
 $string['eventreadtrackingenabled'] = 'Отслеживание непрочитанных сообщений включено';
-$string['eventsubscribersviewed'] = 'Просмотрен список подписчиков';
+$string['eventsubscribersviewed'] = 'Список подписчиков просмотрен';
 $string['eventsubscriptioncreated'] = 'Подписка создана';
 $string['eventsubscriptiondeleted'] = 'Подписка удалена';
-$string['eventuserreportviewed'] = 'Просмотрен отчета по пользователю';
+$string['eventuserreportviewed'] = 'Отчет по пользователю просмотрен';
 $string['everyonecanchoose'] = 'Каждый может подписаться на этот форум';
 $string['everyonecannowchoose'] = 'Каждый участник может выбрать, подписываться на этот форум или нет';
 $string['everyoneisnowsubscribed'] = 'На этот форум подписаны все';
@@ -435,7 +435,7 @@ $string['replyforum'] = 'Ответить в форум';
 $string['reply_handler'] = 'Ответ на сообщение форума по электронной почте';
 $string['reply_handler_name'] = 'Позволяет отвечать на сообщения в форуме по электронной почте';
 $string['replytopostbyemail'] = 'Вы можете дать ответ по электронной почте';
-$string['replytouser'] = 'Ипользовать адреса email в ответе';
+$string['replytouser'] = 'Использовать адреса электронной почты в ответе';
 $string['resetdigests'] = 'Удалить предпочтения дайджеста сообщений форума для всех пользователей';
 $string['resetforums'] = 'Удалить все сообщения из этих типов форумов';
 $string['resetforumsall'] = 'Удалить все сообщения';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_calculated', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_calculated
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -106,7 +106,7 @@ $string['nocommaallowed'] = '「,」は使用できません。例えば、0.013
 $string['nodataset'] = 'なし - これはワイルドカードではありません';
 $string['nosharedwildcard'] = 'このカテゴリに共有ワイルドカードはありません。';
 $string['notvalidnumber'] = 'ワイルドカード値が有効な数値ではありありません。';
-$string['oneanswertrueansweroutsidelimits'] = '少なくとも1つの答えが真の値の範囲外にあります。<br />「拡張要素を表示する」ボタンをクリックして「答えの許容誤差」設定を修正してください。';
+$string['oneanswertrueansweroutsidelimits'] = '少なくとも1つの答えが真の値の範囲外にあります。<br />「表示を増やす…」ボタンをクリックして「答えの許容誤差」設定を修正してください。';
 $string['param'] = '変数 {<strong>{$a}</strong>}';
 $string['partiallycorrectfeedback'] = '部分的に正しい解答すべて';
 $string['pluginname'] = '計算問題';

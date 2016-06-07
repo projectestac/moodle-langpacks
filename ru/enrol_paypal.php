@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_paypal', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'enrol_paypal', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_paypal
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['businessemail'] = 'Адрес электронной почты PayPal'
 $string['businessemail_desc'] = 'Адрес электронной почты Вашего аккаунта PayPal';
 $string['cost'] = 'Стоимость зачисления';
 $string['costerror'] = 'Стоимость зачисления не является числом';
-$string['costorkey'] = 'Выберите один из следующих методов зачисления.';
+$string['costorkey'] = 'Выберите один из следующих способов зачисления.';
 $string['currency'] = 'Валюта';
 $string['defaultrole'] = 'Назначение роли по умолчанию';
 $string['defaultrole_desc'] = 'Выберите роль, которая должна быть назначена зачисленным пользователям PayPal.';

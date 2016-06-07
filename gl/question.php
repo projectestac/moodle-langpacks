@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'gl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'question', language 'gl', branch 'MOODLE_31_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -307,8 +307,6 @@ $string['numqas'] = 'Núm. dos intentos da pregunta';
 $string['numquestions'] = 'Núm. preguntas';
 $string['numquestionsandhidden'] = '{$a->numquestions} (+{$a->numhidden} agochadas)';
 $string['options'] = 'Opcións';
-$string['orphanedquestionscategory'] = 'Preguntas gardadas das categorías eliminadas';
-$string['orphanedquestionscategoryinfo'] = 'Ocasionalmente, debido tipicamente a erros antigos de software, as preguntas poden quedar na base de datos aínda que a correspondente categoría da pregunta teña sido eliminada. Por suposto, non debería de suceder pero sucedeu no pasado neste sitio. Esta categoría creouse automaticamente e as preguntas orfas movéronse aquí de modo que poida manexalas. Nótese que calquera imaxe ou ficheiros multimedia usados por estas preguntas é probábel que se teñan perdido.';
 $string['page-question-category'] = 'Páxina da categoría de pregunta';
 $string['page-question-edit'] = 'Páxina de edición da pregunta';
 $string['page-question-export'] = 'Páxina de exportación da pregunta';

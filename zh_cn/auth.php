@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'zh_cn', branch 'MOODLE_30_STABLE'
+ * Strings for component 'auth', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,7 +57,9 @@ $string['auth_remove_keep'] = '保存';
 $string['auth_remove_suspend'] = '延迟';
 $string['auth_remove_user'] = '指定在用户帐号在外部被删除时，内部用户帐号在同步的时候允许做什么。只有延迟用户帐号在外部数据中出现时才会被自动激活。';
 $string['auth_remove_user_key'] = '移除用户';
-$string['auth_sync_script'] = 'Cron 同步脚本';
+$string['auth_sync_script'] = '用户帐户同步化';
+$string['auth_sync_suspended'] = '若启用，数据库会根据本地用户帐号的休学状况加以更新';
+$string['auth_sync_suspended_key'] = '同步本地用户休学状况';
 $string['auth_updatelocal'] = '更新本地数据';
 $string['auth_updatelocal_expl'] = '<p><b>更新本地数据:</b> 如果开启，则用户每次登录或有用户同步时字段将会被更新。设定为本地更新的字段应当被锁住。</p>';
 $string['auth_updateremote'] = '更新外部数据';
@@ -68,11 +70,11 @@ $string['auth_user_creation'] = '新的(匿名的)用户可以在外部身份认
 $string['auth_usernameexists'] = '选中的用户名已经存在。请选择一个新的。';
 $string['auto_add_remote_users'] = '自动添加远程用户';
 $string['changepassword'] = '更改密码 URL';
-$string['changepasswordhelp'] = '在这里指定一个位置，用户在忘记了用户名或密码后，可以在那里重新获得或更改。它将以一个按钮的形式显示在登录页面和用户页面。如果留空不填，就不会有按钮出现。';
+$string['changepasswordhelp'] = '在这里指定一个网址，用户在忘记了用户名或密码后，可以在这里重新获得或更改。它将以一个按钮的形式显示在登录页面和用户页面。如果留空不填，就不会有按钮出现。';
 $string['chooseauthmethod'] = '选择一个身份认证方法：';
 $string['chooseauthmethod_help'] = '此设置决定用户登录时的验证方式。只可以选择启用了的验证插件，否则用户就无法继续登录了。想禁止用户登录，请选择“不要登录”。';
 $string['createpassword'] = '生成密码并通知用户';
-$string['createpasswordifneeded'] = '如果需要则创建密码';
+$string['createpasswordifneeded'] = '如果需要则创建密码并以邮件形式发送给用户';
 $string['emailchangecancel'] = '取消 email 变更';
 $string['emailchangepending'] = '变更进行中。访问向 {$a->preference_newemail} 发送的链接。';
 $string['emailnowexists'] = '你尝试输入到个人资料里的email地址已经被分配给别人了。所以您的email地址变更请求现予取消，但您可以再次尝试使用不同的地址。';
@@ -90,7 +92,7 @@ $string['errormaxconsecutiveidentchars'] = '密码必须包含最多{$a}个连�
 $string['errorminpassworddigits'] = '密码中至少要有 {$a} 个数字。';
 $string['errorminpasswordlength'] = '密码中至少要有 {$a} 个字符。';
 $string['errorminpasswordlower'] = '密码中至少要有 {$a} 个小写字母。';
-$string['errorminpasswordnonalphanum'] = '密码中至少要有 {$a} 个非字母、数字字符。';
+$string['errorminpasswordnonalphanum'] = '密码至少要有 {$a} 位非字母、数字字符(!@#$%^&)。';
 $string['errorminpasswordupper'] = '密码中至少要有 {$a} 个大写字母。';
 $string['errorpasswordreused'] = '此密码曾被你用过，不可再次使用。';
 $string['errorpasswordupdate'] = '更新密码错误，密码没有更新。';
@@ -111,7 +113,7 @@ $string['infilefield'] = '字段必需存在于文件中';
 $string['informminpassworddigits'] = '至少{$a}个数字';
 $string['informminpasswordlength'] = '至少{$a}个字符';
 $string['informminpasswordlower'] = '至少{$a}个小写字母';
-$string['informminpasswordnonalphanum'] = '至少{$a}个特殊字符';
+$string['informminpasswordnonalphanum'] = '至少要有{$a}个特殊字符(!@#$%^&)';
 $string['informminpasswordreuselimit'] = '密码能在 {$a} 次更换后再次使用';
 $string['informminpasswordupper'] = '至少{$a}个大写字母';
 $string['informpasswordpolicy'] = '密码必须包含{$a}';

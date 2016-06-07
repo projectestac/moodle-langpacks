@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'cache', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,6 +46,7 @@ $string['cachedef_coursemodinfo'] = 'Informazioni accumulate sui moduli e delle 
 $string['cachedef_databasemeta'] = 'Meta informazioni database';
 $string['cachedef_eventinvalidation'] = 'Event invalidation';
 $string['cachedef_externalbadges'] = 'Badge esterni per utente specifico';
+$string['cachedef_grade_categories'] = 'Query sulle categorie di valutazioni';
 $string['cachedef_groupdata'] = 'Informazioni sui gruppi dei corsi';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier . contenuto ripulito';
 $string['cachedef_langmenu'] = 'Elenco delle lingue disponibili';
@@ -58,6 +59,8 @@ $string['cachedef_questiondata'] = 'Definizioni domanda';
 $string['cachedef_repositories'] = 'Dati delle istanze dei repository';
 $string['cachedef_string'] = 'Cache stringhe della lingua';
 $string['cachedef_suspended_userids'] = 'Elenco degli utenti sospesi nei corsi';
+$string['cachedef_tags'] = 'Aree e raccolte di tag';
+$string['cachedef_temp_tables'] = 'Cache delle tabelle temporanee';
 $string['cachedef_userselections'] = 'Dati utilizzati per rendere persistenti le selezioni dell\'utente in Moodle';
 $string['cachedef_yuimodules'] = 'Definizioni moduli YUI';
 $string['cachelock_file_default'] = 'File locking di default';
@@ -99,6 +102,7 @@ $string['inadequatestoreformapping'] = 'Questo store non è compatibile con i re
 $string['invalidlock'] = 'Lock non valido';
 $string['invalidplugin'] = 'Plugin non valido';
 $string['invalidstore'] = 'E\' stato fornito un cache store non valido';
+$string['localstorenotification'] = 'Questa cache può essere mappata su uno store locale in ciascun webserver';
 $string['lockdefault'] = 'Default';
 $string['locking'] = 'Locking';
 $string['locking_help'] = 'Il locking evita che gli stessi dati presenti in cache siano acceduti da più processi contemporaneamente, evitando sovrascritture. Il meccanismo di locking definisce come viene acquisito e controllato il lock.';
@@ -131,6 +135,7 @@ $string['requestcount'] = 'Test con {$a} request';
 $string['rescandefinitions'] = 'Rileggi le definizioni';
 $string['result'] = 'Risultato';
 $string['set'] = 'Imposta';
+$string['sharedstorenotification'] = 'Questa cache deve essere mappata su uno store condiviso da tutti i web server';
 $string['sharing'] = 'Condivsione';
 $string['sharing_all'] = 'Tutti.';
 $string['sharing_help'] = 'Consente di configurare la condivisione dei dati della cache, utile per un sito in cluster oppure per più siti che condividono lo stesso store. Si tratta di un\'impostazione avanzata, se non si è più che sicuri del significato dell\'impostazione, evitare di modificarla.';

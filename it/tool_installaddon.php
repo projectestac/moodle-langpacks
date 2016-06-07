@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_installaddon', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_installaddon', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_installaddon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,7 +41,7 @@ $string['installfromziprootdir'] = 'Rinomina cartella radice';
 $string['installfromziprootdir_help'] = 'Alcuni pacchetti ZIP, come ad esempio i pacchetti generati da Github, possono contenere un nome errato per la cartella radice. Se necessario, tramite questo campo è possibile rinominare la cartella radice.';
 $string['installfromzipsubmit'] = 'Installa plugin da file ZIP';
 $string['installfromziptype'] = 'Tipo plugin';
-$string['installfromziptype_help'] = '';
+$string['installfromziptype_help'] = 'l\'installer è in grado di rilevare automaticamente il tipo di plugin per quei plugin che dichiarano correttamente il proprio nome del componente. Se il rilevamento automatico dovesse fallire, è possibile selezionare il tipo di plugin a mano. Attenzione: selezionando un tipo di plugin errato l\'installazione non andrà a buon fine.';
 $string['permcheck'] = 'E\' necessario accertarsi che la cartella radice del tipo di plugin sia scrivibile dal processo web server';
 $string['permcheckerror'] = 'Si è verificato un errore durante il controllo dei permessi di scrittura';
 $string['permcheckprogress'] = 'Verifica permessi di scrittura in corso...';

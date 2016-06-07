@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'forum', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,7 +66,7 @@ $string['cannotfindfirstpost'] = 'Ezin da lehenbiziko mezua aurkitu foro honetan
 $string['cannotfindorcreateforum'] = 'Ezin da berrien foro nagusia aurkitu edo sortu gune honetan';
 $string['cannotfindparentpost'] = 'Ezin da {$a} mezuaren goragoko kategoria aurkitu';
 $string['cannotmovefromsingleforum'] = 'Ezin da eztabaida mugitu eztabaida arrunt bakarra motako foro batetik';
-$string['cannotmovenotvisible'] = 'Foroa ez dago ikusteko moduan';
+$string['cannotmovenotvisible'] = 'Foroa ez dago ikusgai';
 $string['cannotmovetonotexist'] = 'Ezin duzu foro honetara mugitu - ez du esistitzen!';
 $string['cannotmovetonotfound'] = 'Helburu-foroa ez da ikastaro honetan aurkitu.';
 $string['cannotmovetosingleforum'] = 'Ezin da eztabaida mugitu eztabaida arrunt bakarra motako foro batera';
@@ -125,6 +125,7 @@ $string['deletesure'] = 'Ziur al zaude mezu hau ezabatu nahi duzula?';
 $string['deletesureplural'] = 'Ziur al zaude mezu hau eta erantzun guztiak ezabatu nahi dituzula? ({$a} mezu)';
 $string['digestmailheader'] = '{$a->sitename} guneko foroetako azken mezuen banaketa da hau. Foroetako zure ezarpenak editatzeko zoaz hona: {$a->userprefs}';
 $string['digestmailpost'] = 'Aldatu zure foroetarako harpidetza-hobespenak';
+$string['digestmailpostlink'] = 'Aldatu zure foroetarako harpidetza-hobespenak: {$a}';
 $string['digestmailprefs'] = 'zure erabiltzaile-profila';
 $string['digestmailsubject'] = '{$a}: foroko mezuen banaketa';
 $string['digestmailtime'] = 'Laburpen-mezuak bidaltzeko ordua';
@@ -400,6 +401,9 @@ $string['postincontext'] = 'Mezu hau testuinguruan ikusi';
 $string['postmailinfo'] = 'Hau {$a} web gunean argitaratutako mezu baten kopia da.
 
 Erantzuteko, sakatu esteka honi:';
+$string['postmailinfolink'] = 'Hau {$a->coursename} ikastaroan argitaratutako mezu baten kopia da.
+
+Erantzuteko sakatu esteka honi: {$a->replylink}';
 $string['postmailnow'] = '<p>Mezu hau forora harpidetutako guztiei berehala bidaliko zaie.</p>';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Batez ere banatutako jakintza';
@@ -447,6 +451,7 @@ $string['rsstype'] = 'Jarduera honetarako RSS jarioa';
 $string['rsstypedefault'] = 'RSS jario-mota';
 $string['rsstype_help'] = 'Jarduera honetan RSS gaitzeko, aukeratu jarioan gehituko diren eztabaidak edo mezuak.';
 $string['search'] = 'Bilatu';
+$string['search:activity'] = 'Foroa - jardueraren informazioa';
 $string['searchdatefrom'] = 'Mezuak ondoko dataren ondorengoak izan behar dira';
 $string['searchdateto'] = 'Mezuak ondoko dataren aurrekoak izan behar dira';
 $string['searchforumintro'] = 'Mesedez, sar itzazu bilaketa-irizpideak ondoko eremuetako batean edo batzuetan';
@@ -475,7 +480,7 @@ $string['subscribediscussion'] = 'Harpidetu eztabaida honetara';
 $string['subscribeenrolledonly'] = 'Barkatu, matrikulatutako erabiltzaileek bakarrik egin dezakete harpidetza foroko mezuak e-postaz jasotzeko.';
 $string['subscribenone'] = 'Denen harpidetza ezabatu foro honetan';
 $string['subscribers'] = 'Harpidedunak';
-$string['subscribersto'] = '\'{$a}\'(e)ko harpidedunak';
+$string['subscribersto'] = '\'{$a->name}\'(e)ko harpidedunak';
 $string['subscriberstowithcount'] = '"{$a->name}"-(e)ko harpidedunak ({$a->count})';
 $string['subscribestart'] = 'Bidali e-postaz foro honetako mezu berriak';
 $string['subscribestop'] = 'Ez dut foro honetako mezuen jakinarazpenik jaso nahi.';
@@ -499,7 +504,9 @@ Oharra: Harpidetza-motan egindako edozein aldaketek eotrkizunean matrikulatzen d
 $string['subscriptionoptional'] = 'Harpidetza aukeran';
 $string['subscriptions'] = 'Harpidetzak';
 $string['thisforumisthrottled'] = 'Foro honek mezu-kopuru mugatua du denbora-tarte jakin batean. Une honetan honela ezarrita dago:   {$a->blockafter} mezu bidaltzea {$a->blockperiod}-(e)ko epean';
+$string['timedhidden'] = 'Programatutako egoera: Ezkutatuta ikasleei';
 $string['timedposts'] = 'Programatutako mezuak';
+$string['timedvisible'] = 'Programatutako egoera: Ikusgai erabiltzaile guztientzat';
 $string['timestartenderror'] = 'Amaiera-data ezin da izan hasiera-data baino lehenagokoa';
 $string['trackforum'] = 'Nabarmendu irakurri gabeko mezuak';
 $string['tracking'] = 'Nabarmendu';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_table', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'atto_table', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   atto_table
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,8 +29,8 @@ $string['addcolumnafter'] = 'Kolom hierna invoegen';
 $string['addrowafter'] = 'Rij hierna invoegen';
 $string['all'] = 'Rond elke cel';
 $string['allowbackgroundcolour'] = 'Achtergrondkleur toestaan';
-$string['allowborder'] = 'Randen opmaken toestaan';
-$string['allowborder_desc'] = 'Indien ingeschakeld kunnen tabel- en celranden aangepast worden.';
+$string['allowborder'] = 'Randen toestaan';
+$string['allowborder_desc'] = 'Indien ingeschakeld kunnen celranden aangepast worden. De standaardinstelling is een doorlopende zwarte lijn van 1px.';
 $string['allowwidth'] = 'Breedte toestaan';
 $string['appearance'] = 'Uiterlijk';
 $string['backgroundcolour'] = 'Achtergrondkleur';

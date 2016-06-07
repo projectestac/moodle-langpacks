@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_aiken', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qformat_aiken', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   qformat_aiken
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Format Aiken';
-$string['pluginname_help'] = 'Le format Aiken fournit une manière très simple d\'importer des questions à choix multiples à partir d\'un fichier texte.';
+$string['pluginname_help'] = 'Le format Aiken fournit une manière très simple d\'importer des questions à choix multiple à partir d\'un fichier texte.';

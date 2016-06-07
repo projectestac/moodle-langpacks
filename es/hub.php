@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hub', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'hub', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   hub
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -122,7 +122,7 @@ $string['licence'] = 'Licencia';
 $string['licence_help'] = 'Seleccione la licencia bajo la que desea distribuir su curso.';
 $string['logourl'] = 'URL del logotipo';
 $string['modulenumberaverage'] = 'Número promedio de módulos del curso ({$a})';
-$string['moodleorg'] = 'Moodle.org';
+$string['moodleorg'] = 'Moodle';
 $string['mustselectsubject'] = 'Debe eliminar una materia';
 $string['name'] = 'Nombre';
 $string['name_help'] = 'Este nombre mostrará el listado de cursos.';
@@ -161,7 +161,7 @@ $string['publishonspecifichub'] = 'Publicar en otro Hub';
 $string['questionsnumber'] = 'Número de preguntas ({$a})';
 $string['readvertiseon'] = 'Actualizar los avisos en {$a}';
 $string['registeredcourses'] = 'Cursos registrados';
-$string['registeredmoodleorg'] = 'Moodle.org ({$a})';
+$string['registeredmoodleorg'] = 'Moodle ({$a})';
 $string['registeredon'] = 'Donde está su site registrado';
 $string['registeredsites'] = 'Sitios registrados';
 $string['registermoochtips'] = 'Para estar registrado en Moodle.net, su sitio debe estar registrado en Moodle.org.';

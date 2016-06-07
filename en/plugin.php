@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'plugin', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -105,6 +105,8 @@ $string['status_upgrade'] = 'To be upgraded';
 $string['status_uptodate'] = 'Installed';
 $string['supportedmoodleversions'] = 'Supported Moodle versions';
 $string['systemname'] = 'Identifier';
+$string['type_antivirus'] = 'Antivirus plugin';
+$string['type_antivirus_plural'] = 'Antivirus plugins';
 $string['type_auth'] = 'Authentication method';
 $string['type_auth_plural'] = 'Authentication methods';
 $string['type_availability'] = 'Availability restriction';
@@ -119,6 +121,8 @@ $string['type_calendartype'] = 'Calendar type';
 $string['type_calendartype_plural'] = 'Calendar types';
 $string['type_coursereport'] = 'Course report';
 $string['type_coursereport_plural'] = 'Course reports';
+$string['type_dataformat'] = 'Data format';
+$string['type_dataformat_plural'] = 'Data formats';
 $string['type_editor'] = 'Editor';
 $string['type_editor_plural'] = 'Editors';
 $string['type_enrol'] = 'Enrolment method';
@@ -159,6 +163,8 @@ $string['type_report'] = 'Site report';
 $string['type_report_plural'] = 'Reports';
 $string['type_repository'] = 'Repository';
 $string['type_repository_plural'] = 'Repositories';
+$string['type_search'] = 'Search engine';
+$string['type_search_plural'] = 'Search engines';
 $string['type_theme'] = 'Theme';
 $string['type_theme_plural'] = 'Themes';
 $string['type_tool'] = 'Admin tool';

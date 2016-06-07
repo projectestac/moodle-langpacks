@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'webservice', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,6 @@ $string['addrequiredcapability'] = 'Assegna/togli il privilegio richiesto';
 $string['addservice'] = 'Aggiungi un servizio: {$a->name} (id: {$a->id})';
 $string['addservicefunction'] = 'Funzioni del servizio "{$a}"';
 $string['allusers'] = 'Tutti gli utenti';
-$string['amftestclient'] = 'AMF test client';
 $string['apiexplorer'] = 'API explorer';
 $string['apiexplorernotavalaible'] = 'API explorer non è ancora disponibile';
 $string['arguments'] = 'Argomenti';
@@ -189,7 +188,7 @@ $string['step'] = 'Passo';
 $string['supplyinfo'] = 'Dettagli';
 $string['testauserwithtestclientdescription'] = 'Simula l\'accesso al web service dall\'esterno  tramite il client di test. Prima di effettuare il test, autenticati con un account che ha il privilegio "moodle/webservice:createtoken" e ottieni il token dell\'utente dalle impostazioni del profilo. Potrai usare questo token nel client di test, dove sceglierai anche il protocollo abilitato. <strong>Attenzione: la funzione che testerai SARA\' REALMENTE ESEGUITA per questo utente, fai molta attenzione su cosa scegli di provare!</strong>';
 $string['testclient'] = 'Test Client web service';
-$string['testclientdescription'] = '* Il client di test web service  <strong>esegue</strong> la funzione <strong>REALMENTE</strong>. Evitare di provare funzioni che non si conoscono.<br/>* Non tutte le funzioni web service sono supportate dal client di test. <br/>* Per testare se un utente non è abilitato ad accedere a determinate funzioni, provare con le funzioni che non gli sono consentite.<br/>* Per un debugging più approfondito, impostare il debug a <strong>{$a->mode}</strong> in {$a->atag}<br/>* Accedere a {$a->amfatag}.';
+$string['testclientdescription'] = '* Il client di test web service  <strong>esegue</strong> le funzioni <strong>REALMENTE</strong>. Evitare di provare funzioni che non si conoscono.<br/>* Non tutte le funzioni web service sono supportate dal client di test. <br/>* Per testare se un utente non è abilitato ad accedere a determinate funzioni, provare con le funzioni che non gli sono consentite.<br/>* Per un debugging più approfondito, impostare il debug a <strong>{$a->mode}</strong> in {$a->atag}.';
 $string['testwithtestclient'] = 'Prova il funzionamento del servizio';
 $string['testwithtestclientdescription'] = 'Simula l\'accesso al web service dall\'esterno  tramite il client di test. Puoi utilizzare un protocollo abilitato con l\'autenticazione token.<strong>Attenzione: la funzione che testerai SARA\' REALMENTE ESEGUITA, fai molta attenzione su cosa scegli di provare!</strong>';
 $string['token'] = 'Token';
@@ -214,7 +213,7 @@ $string['validuntil'] = 'Valido fino';
 $string['validuntil_help'] = 'Dopo la data impostata l\'utente non potrà più accedere al servizio.';
 $string['webservice'] = 'Web service';
 $string['webservices'] = 'Web service';
-$string['webservicesoverview'] = 'Generalità';
+$string['webservicesoverview'] = 'Panoramica';
 $string['webservicetokens'] = 'Token Web service';
 $string['wrongusernamepassword'] = 'Username o password errato';
 $string['wsaccessuserdeleted'] = 'L\'accesso web service è stato negato, lo username è stato eliminato: {$a}';

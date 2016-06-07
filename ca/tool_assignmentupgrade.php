@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_assignmentupgrade', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_assignmentupgrade', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_assignmentupgrade
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,7 +46,7 @@ $string['notupgradedintro'] = 'Aquesta pàgina enumera les tasques creades amb u
 $string['notupgradedtitle'] = 'Tasques no actualitzades de versió';
 $string['pluginname'] = 'Ajuda en l\'actualització de versió de tasques';
 $string['select'] = 'Selecciona';
-$string['submissions'] = 'Enviaments';
+$string['submissions'] = 'Trameses';
 $string['supported'] = 'Actualitza la versió';
 $string['unknown'] = 'Desconegut';
 $string['updatetable'] = 'Taula d\'actualitzacions';

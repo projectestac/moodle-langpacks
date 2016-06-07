@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_pam', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'auth_pam', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   auth_pam
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['auth_pamdescription'] = 'Den här metoden använder PAM för att få tillgång till \'native\' användarnamn på den här servern. Du måste installera <a href="http://www.math.ohio-state.edu/~ccunning/pam_auth/" target="_blank">PHP4 PAM Authentication</a> för att kunna använda den här modulen.';
-$string['auth_passwordisexpired'] = 'Ditt lösenord gäller inte längre. Vill du ändra ditt lösenord nu?';
-$string['auth_passwordwillexpire'] = 'Ditt lösenord kommer att upphöra att gälla om {$a} dagar. Vill du ändra ditt lösenord nu?';
+$string['auth_passwordisexpired'] = 'Ditt lösenord gäller inte längre. Vill Du ändra Ditt lösenord nu?';
+$string['auth_passwordwillexpire'] = 'Ditt lösenord kommer att upphöra att gälla om {$a} dagar. Vill Du ändra Ditt lösenord nu?';
 $string['pluginname'] = 'PAM (inpluggningsbara moduler för autenticering)';

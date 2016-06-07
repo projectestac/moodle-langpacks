@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeexport_txt', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'gradeexport_txt', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   gradeexport_txt
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,5 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Fitxer de text net';
+$string['timeexported'] = 'Darrera descàrrega des d\'aquest curs';
 $string['txt:publish'] = 'Publicar qualificacions exportades en format text';
 $string['txt:view'] = 'Utilitzar qualificacions exportades en format text';

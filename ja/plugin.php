@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'plugin', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -104,6 +104,8 @@ $string['status_upgrade'] = 'アップグレード予定';
 $string['status_uptodate'] = 'インストール';
 $string['supportedmoodleversions'] = 'サポートされるMoodleバージョン';
 $string['systemname'] = '識別子';
+$string['type_antivirus'] = 'アンチウイルスプラグイン';
+$string['type_antivirus_plural'] = 'アンチウイルスプラグイン';
 $string['type_auth'] = '認証方法';
 $string['type_auth_plural'] = '認証プラグイン';
 $string['type_availability'] = '利用制限';
@@ -118,6 +120,8 @@ $string['type_calendartype'] = 'カレンダータイプ';
 $string['type_calendartype_plural'] = 'カレンダータイプ';
 $string['type_coursereport'] = 'コースレポート';
 $string['type_coursereport_plural'] = 'コースレポート';
+$string['type_dataformat'] = 'データフォーマット';
+$string['type_dataformat_plural'] = 'データフォーマット';
 $string['type_editor'] = 'エディタ';
 $string['type_editor_plural'] = 'エディタ';
 $string['type_enrol'] = '登録方法';
@@ -158,6 +162,8 @@ $string['type_report'] = 'サイトレポート';
 $string['type_report_plural'] = 'レポート';
 $string['type_repository'] = 'リポジトリ';
 $string['type_repository_plural'] = 'リポジトリ';
+$string['type_search'] = '検索エンジン';
+$string['type_search_plural'] = 'サーチエンジン';
 $string['type_theme'] = 'テーマ';
 $string['type_theme_plural'] = 'テーマ';
 $string['type_tool'] = '管理ツール';

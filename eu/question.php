@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'question', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -312,8 +312,6 @@ $string['numqas'] = 'Ez. Galderen saiakerak';
 $string['numquestions'] = 'Ez dago galderarik';
 $string['numquestionsandhidden'] = '{$a->numquestions} (+{$a->numhidden} ezkutuan)';
 $string['options'] = 'Aukerak';
-$string['orphanedquestionscategory'] = 'Ezabatutako kategorietatik gordetako galderak';
-$string['orphanedquestionscategoryinfo'] = 'Zenbaitetan, orokorrean software zaharraren arazoak direla-eta, galderak datu-basean gera daitezke nahiz eta dagokien galdera-kategoria ezabatuta egon. Jakina, honek ez luke gertatu behar, baina gertatu da garai batean gune honetan. Kategoria hau automatikoki sortu da eta galdera umezurtzak horra mugitu dira kudeatzeko aukera izan dezazun. Kontuan izan galdera horietan erabilitako edozein irudi edo media fitxategi ziurrenik galdu egingo zela.';
 $string['page-question-category'] = 'Galdera-kategoriaren orria';
 $string['page-question-edit'] = 'Galdera editatzeko orria';
 $string['page-question-export'] = 'Galdera esportatzeko orria';

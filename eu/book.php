@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'book', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,6 +67,7 @@ $string['navstyle'] = 'Nabigazio-estiloa';
 $string['navstyle_help'] = '* Irudiak - Ikonoak erabiliko dira nabigatzeko
 * Testua - Atalen izenburuak erabiliko dira nabigatzeko';
 $string['navtext'] = 'Testua';
+$string['navtoc'] = 'TOC baino ez';
 $string['nocontent'] = 'Oraindik ez da edukirik gehitu liburu honetan.';
 $string['numbering'] = 'Atalen itxura';
 $string['numbering0'] = 'Bat ere ez';
@@ -82,6 +83,8 @@ $string['numberingoptions_desc'] = 'Aukeratu liburu berriak sortzean eskura daud
 $string['page-mod-book-x'] = 'Liburua moduluaren edozein orri';
 $string['pluginadministration'] = 'Liburuaren kudeaketa';
 $string['pluginname'] = 'Liburua';
+$string['search:activity'] = 'Blokea - baliabidearen informazioa';
+$string['search:chapter'] = 'Liburua - atalak';
 $string['showchapter'] = 'Erakutsi  "{$a}" atala';
 $string['subchapter'] = 'Azpiatala';
 $string['subchapternotice'] = '(Lehen atala sortutakoan bakarrik egongo da erabilgarri)';

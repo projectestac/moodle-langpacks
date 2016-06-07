@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -204,9 +204,6 @@ $string['confirmclose'] = 'Once you submit, you will no longer be able to change
 $string['confirmremovequestion'] = 'Are you sure you want to remove this {$a} question?';
 $string['confirmremovesectionheading'] = 'Are you sure you want to remove the \'{$a}\' section heading?';
 $string['confirmserverdelete'] = 'Are you sure you want to remove the server <b>{$a}</b> from the list?';
-$string['confirmstartattemptlimit'] = 'Number of attempts allowed:  {$a}. You are about to start a new attempt.  Do you wish to proceed?';
-$string['confirmstartattempttimelimit'] = 'This quiz has a time limit and is limited to {$a} attempt(s). You are about to start a new attempt.  Do you wish to proceed?';
-$string['confirmstarttimelimit'] = 'The quiz has a time limit. Are you sure that you wish to start?';
 $string['connectionerror'] = 'Network connection lost. (Autosave failed).
 
 Make a note of any responses entered on this page in the last few minutes, then try to re-connect.
@@ -501,6 +498,8 @@ $string['multichoice'] = 'Multiple choice';
 $string['multipleanswers'] = 'Choose at least one answer.';
 $string['mustbesubmittedby'] = 'This attempt must be submitted by {$a}.';
 $string['name'] = 'Name';
+$string['navigatenext'] = 'Next page';
+$string['navigateprevious'] = 'Previous page';
 $string['navmethod'] = 'Navigation method';
 $string['navmethod_free'] = 'Free';
 $string['navmethod_help'] = 'When sequential navigation is enabled a student must progress through the quiz in order and may not return to previous pages nor skip ahead.';
@@ -809,6 +808,7 @@ $string['savingnewgradeforquestion'] = 'Saving new grade for question id {$a}.';
 $string['savingnewmaximumgrade'] = 'Saving new maximum grade.';
 $string['score'] = 'Raw score';
 $string['scores'] = 'Scores';
+$string['search:activity'] = 'Quiz - activity information';
 $string['sectionheadingedit'] = 'Edit heading \'{$a}\'';
 $string['sectionheadingremove'] = 'Remove heading \'{$a}\'';
 $string['seequestions'] = '(See questions)';

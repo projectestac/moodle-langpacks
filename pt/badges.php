@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'badges', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,7 +96,7 @@ Para adicionar uma nova imagem, procure e selecione uma imagem (nos formatos JPG
 $string['badgeprivacysetting'] = 'Configurações de privacidade da Medalha';
 $string['badgeprivacysetting_help'] = 'As Medalhas que receber podem ser exibidas na página do seu perfil. Esta configuração permite-lhe definir automaticamente a visibilidade das Medalhas recebidas recentemente.
 
-No entanto, continuará a poder controlar individualmente as configurações de privacidade das Medalhas na sua página "Minhas Medalhas".';
+Continuará a poder controlar individualmente as configurações de privacidade das Medalhas na sua página "Minhas Medalhas".';
 $string['badgeprivacysetting_str'] = 'Exibe automaticamente na página do meu perfil as Medalhas que recebi';
 $string['badges'] = 'Medalhas';
 $string['badgesalt'] = 'Salt para encriptar endereço de email dos destinatários';
@@ -215,7 +215,7 @@ $string['error:clone'] = 'Não é possível duplicar a Medalha.';
 $string['error:connectionunknownreason'] = 'A ligação não foi bem sucedida sem que nenhum motivo fosse indicado para o justificar.';
 $string['error:duplicatename'] = 'Já existe uma Medalha com o mesmo nome no sistema.';
 $string['error:externalbadgedoesntexist'] = 'Medalha não encontrada';
-$string['error:guestuseraccess'] = 'Encontra-se a usar acesso de visitante. Para ver as Medalhas tem de entrar com a sua conta de utilizador.';
+$string['error:guestuseraccess'] = 'Encontra-se a usar acesso de visitante. Para ver as Medalhas tem de autenticar-se com a sua conta de utilizador.';
 $string['error:invalidbadgeurl'] = 'Formato de URL do emissor da Medalha inválido.';
 $string['error:invalidcriteriatype'] = 'Tipo de critério inválido.';
 $string['error:invalidexpiredate'] = 'A data de expiração tem de ser futura.';
@@ -277,7 +277,7 @@ $string['managebadges'] = 'Gerir Medalhas';
 $string['message'] = 'Corpo da mensagem';
 $string['messagebody'] = '<p>Foi premiado com a Medalha "%badgename%"!</p>
 <p> Mais informações sobre esta Medalha em %badgelink%.</p>
-<p> Se não houver uma Medalha anexada a este e-mail, pode gerir e fazer o seu download a partir da página {$a}. </p>';
+<p> Se não houver uma Medalha anexada a este e-mail, pode a gerir e descarregar a partir da página {$a}. </p>';
 $string['messagesubject'] = 'Parabéns! Acabou de ganhar uma Medalha!';
 $string['method'] = 'Este critério é cumprido quando…';
 $string['mingrade'] = 'Nota mínima necessária';

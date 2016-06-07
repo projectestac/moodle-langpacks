@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'grades', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -444,10 +444,22 @@ $string['minmaxupgradewarning'] = 'Nota: in alcune valutazioni sono state rileva
 $string['missingscale'] = 'Deve essere scelta la scala';
 $string['mode'] = 'Moda';
 $string['modgrade'] = 'Voto';
+$string['modgradecantchangegradetype'] = 'Non è possibile modificare il tipo poiché esistono già valutazioni per questo elemento';
+$string['modgradecantchangegradetypemsg'] = 'Non è possibile modificare il tipo di valutazione poiché alcune valutazione sono già state rilasciate. Se desideri modificare il punteggio massimo, devi prima decidere se cambiare la scala delle valutazioni esistenti.';
+$string['modgradecantchangegradetyporscalemsg'] = 'Non è possibile modificare il tipo di valutazione e la scala poiché alcune valutazione sono già state rilasciate.';
+$string['modgradecantchangeratingmaxgrade'] = 'Non è possibile modificare il punteggio massimo quando esistono già valutazioni di attività.';
+$string['modgradecantchangescale'] = 'Non è possibile modificare la scala poiché esistono già valutazioni per questo elemento';
+$string['modgradedonotmodify'] = 'Non modificare le valutazioni esistenti';
 $string['modgradeerrorbadpoint'] = 'E\' stato inserito un voto non valido. Deve essere un intero compreso tra 1 e {$a}';
 $string['modgradeerrorbadscale'] = 'E\' stata sezionata una scala non valida. Assicurati di aver seclto una scala tra quelle disponibili sotto.';
 $string['modgrade_help'] = 'Il tipo di valutazione da usare per l\'attività. Scegliendo "scala" sarà possibile selezionare una scala dal menù a discesa "scala". Scegliendo "punteggio", sarà possibile impostare il punteggio massimo dell\'attività.';
 $string['modgrademaxgrade'] = 'Punteggio massimo';
+$string['modgraderescalegrades'] = 'Modifica la scala delle valutazioni esistenti';
+$string['modgraderescalegrades_help'] = 'Quando vengono modificati i punteggi massimi nel registro del valutatore è anche necessario decidere se dovranno essere cambiate anche le valutazioni percentuali già esistenti.
+
+Impostando a \'Si\', la valutazioni esistenti saranno cambiate affinché le percentuali rimangano le stesse.
+
+Ad esempio, modificando il punteggio massimo di un elemento da 10 a 20 con l\'impostazione a \'Si\', una valutazione di 6/10 (60%) verrà cambiata in 12/20 (60%). Con l\'impostazione a \'No\', la valutazione di 6/10 (60%) verrà cambiata in 6/20 (30%) e richiederà un aggiustamento manuale per garantire che i punteggi finali siano quelli attesi.';
 $string['modgradetype'] = 'Tipo';
 $string['modgradetypenone'] = 'Nessuno';
 $string['modgradetypepoint'] = 'Punteggio';
@@ -458,6 +470,7 @@ $string['movingelement'] = 'Spostamento {$a}';
 $string['multfactor'] = 'Moltiplicatore';
 $string['multfactor_help'] = '<p>Fattore di moltiplicazione dei voti di questo elemento. Il tetto è sempre il Voto massimo.</p>';
 $string['multfactorvalue'] = 'Moltiplicatore per {$a}';
+$string['mustchooserescaleyesorno'] = 'Devi decidere se cambiare la scala delle valutazioni esistenti oppure no.';
 $string['mygrades'] = 'Link valutazioni nel menu utente';
 $string['mygrades_desc'] = 'Consente di collegare un registro valutatore esterno nel menu utente.';
 $string['mypreferences'] = 'Preferenze';
@@ -574,6 +587,7 @@ $string['rawpct'] = '% grezza';
 $string['real'] = 'Punteggio';
 $string['realletter'] = 'Punteggio (letterale)';
 $string['realpercentage'] = 'Punteggio (percentuale)';
+$string['recalculatinggrades'] = 'Ricalcolo delle valutazioni in corso';
 $string['recovergradesdefault'] = 'Default per il recupero delle valutazioni';
 $string['recovergradesdefault_help'] = 'Recupera le valutazioni precedenti quando un utente si iscrive nuovamente in un corso';
 $string['refreshpreview'] = 'Aggiorna anteprima';

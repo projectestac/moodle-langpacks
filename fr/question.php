@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'question', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,7 +77,7 @@ $string['categorycurrent'] = 'Catégorie actuelle';
 $string['categorycurrentuse'] = 'Utiliser cette catégorie';
 $string['categorydoesnotexist'] = 'Cette catégorie n\'existe pas';
 $string['categoryinfo'] = 'Description de la catégorie';
-$string['categorymove'] = 'La catégorie « {$a->name} » contient {$a->count} questions (certaines d\'entre elles peuvent être d\'anciennes questions cachées utilisées dans des tests existants).<br />Veuillez choisir une autre catégorie dans laquelle les déplacer.';
+$string['categorymove'] = 'La catégorie « {$a->name} » contient {$a->count} questions (certaines d\'entre elles peuvent être d\'anciennes questions cachées ou des questions aléatoires encore utilisées dans des tests). Veuillez choisir une autre catégorie dans laquelle les déplacer.';
 $string['categorymoveto'] = 'Enregistrer dans la catégorie';
 $string['categorynamecantbeblank'] = 'Le nom de la catégorie ne peut pas être vide.';
 $string['changeoptions'] = 'Modifier les options';
@@ -293,8 +293,6 @@ $string['numqas'] = 'Nombre de tentatives de question';
 $string['numquestions'] = 'No. de questions';
 $string['numquestionsandhidden'] = '{$a->numquestions} (+ {$a->numhidden} cachées)';
 $string['options'] = 'Options';
-$string['orphanedquestionscategory'] = 'Questions des catégories supprimées';
-$string['orphanedquestionscategoryinfo'] = 'Parfois, en raison d\'ancien bogues, des questions peuvent subsister dans la base de données, bien que la catégorie correspondante ait été supprimée. Cela est survenu sur ce site par le passé. Cette catégorie a été créée automatiquement et les questions non supprimées y ont été placées afin que vous puissiez les traiter. Les images ou autres fichiers utilisés par ces questions ont probablement été correctement supprimés.';
 $string['page-question-category'] = 'Page de catégorie de questions';
 $string['page-question-edit'] = 'Page de modification de question';
 $string['page-question-export'] = 'Page d\'exportation de questions';
@@ -387,6 +385,7 @@ $string['submissionoutofsequencefriendlymessage'] = 'Vous avez saisi des donnée
 $string['submit'] = 'Envoyer';
 $string['submitandfinish'] = 'Envoyer et terminer';
 $string['submitted'] = 'Envoyé : {$a}';
+$string['tagarea_question'] = 'Questions';
 $string['technicalinfo'] = 'Information technique';
 $string['technicalinfo_help'] = 'Cette information technique n\'est vraisemblablement utile que pour les développeurs travaillant sur de nouveaux types de questions. Elle peut aussi être utile pour diagnostiquer certains problèmes de certaines questions.';
 $string['technicalinfomaxfraction'] = 'Fraction maximale : {$a}';
@@ -419,6 +418,6 @@ $string['whichtries'] = 'Choix des tentatives';
 $string['withselected'] = 'Avec la sélection';
 $string['wrongprefix'] = 'Le préfixe est mal formatté {$a}';
 $string['xoutofmax'] = '{$a->mark} sur {$a->max}';
-$string['yougotnright'] = 'Vous avez séléctionné correctement {$a->num}.';
+$string['yougotnright'] = 'Vous en avez sélectionné correctement {$a->num}.';
 $string['youmustselectaqtype'] = 'Vous devez choisir un type de question.';
 $string['yourfileshoulddownload'] = 'Le téléchargement de votre fichier d\'exportation va commencer. Si rien ne se passe, veuillez <a href="{$a}">cliquer ici</a>.';

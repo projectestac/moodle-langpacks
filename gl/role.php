@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'gl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'role', language 'gl', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -84,13 +84,9 @@ $string['badges:viewbadges'] = 'Ver as distincións dispoñíbeis sen telas gañ
 $string['badges:viewotherbadges'] = 'Ver as distincións públicas nos perfís doutros usuarios';
 $string['block:edit'] = 'Editar a configuración dun bloque';
 $string['block:view'] = 'Ver bloque';
-$string['blog:associatecourse'] = 'Esta capacidade é obsoleta e non fai nada.';
-$string['blog:associatemodule'] = 'Esta capacidade é obsoleta e non fai nada.';
 $string['blog:create'] = 'Crear novos artigos de blog';
 $string['blog:manageentries'] = 'Editar e xestionar artigos';
 $string['blog:manageexternal'] = 'Editar e xestionar blogs externos';
-$string['blog:manageofficialtags'] = 'Xestionar etiquetas oficiais';
-$string['blog:managepersonaltags'] = 'Xestionar etiquetas personais';
 $string['blog:search'] = 'Buscar artigos de blog';
 $string['blog:view'] = 'Ver artigos de blog';
 $string['blog:viewdrafts'] = 'Ver versións preliminares de artigos de blog';

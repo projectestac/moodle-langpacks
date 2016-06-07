@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'choice', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,7 +56,9 @@ $string['displayhorizontal'] = 'Disposição horizontal';
 $string['displaymode'] = 'Modo de exibição para as opções';
 $string['displayvertical'] = 'Disposição vertical';
 $string['eventanswercreated'] = 'Opção selecionada';
+$string['eventanswerdeleted'] = 'Resposta à Sondagem eliminada';
 $string['eventanswerupdated'] = 'Opção atualizada';
+$string['eventreportdownloaded'] = 'Relatório de respostas submetidas descarregado';
 $string['eventreportviewed'] = 'Relatório da Sondagem visualizado';
 $string['expired'] = 'Esta atividade terminou em {$a} e já não está disponível';
 $string['full'] = 'Completa';
@@ -111,6 +113,7 @@ $string['responsesresultgraphheader'] = 'Gráfico';
 $string['responsesto'] = 'Respostas para {$a}';
 $string['results'] = 'Resultados';
 $string['savemychoice'] = 'Gravar a minha resposta';
+$string['search:activity'] = 'Sondagem - informações da atividade';
 $string['showpreview'] = 'Mostrar pré-visualização';
 $string['showpreview_help'] = 'Permitir que os alunos pré-visualizem as opções disponíveis antes da Sondagem estar disponível para submissão.';
 $string['showunanswered'] = 'Mostrar coluna com quem não respondeu';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_wiris', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'filter_wiris', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   filter_wiris
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,8 @@ defined('MOODLE_INTERNAL') || die();
 $string['clearcache'] = 'Clear cache';
 $string['clearcachedesc'] = 'Clear wiris filter cache';
 $string['filtername'] = 'Math & Science by WIRIS';
+$string['filter_standalone'] = 'WIRIS filter only';
+$string['filter_standalonedesc'] = 'You will be able to display existing formulas but creation of new formulas is not available. It also removes the warning message.';
 $string['pluginname'] = 'WIRIS filter';
 $string['uninstallmode'] = 'Uninstall mode';
 $string['uninstallmodedesc'] = 'Allows WIRIS plugin to be uninstalled';

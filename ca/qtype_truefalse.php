@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_truefalse', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_truefalse', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_truefalse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,6 @@ $string['pluginname'] = 'Vertader/Fals';
 $string['pluginnameadding'] = 'S\'està afegint una pregunta de vertader/fals';
 $string['pluginnameediting'] = 'S\'està editant una pregunta de vertader/fals';
 $string['pluginname_help'] = 'En resposta a una pregunta (que pot incloure una imatge), l\'estudiant ha d\'escollir entre vertader i fals.';
-$string['pluginnamesummary'] = 'Un senzill formulari equivalent a una pregunta d\'opcions múltiples, amb únicament les opcions \'Vertader\' i \'Fals\'';
+$string['pluginnamesummary'] = 'Un senzill formulari equivalent a una pregunta d\'opció múltiple únicament amb les opcions «Vertader» i «Fals»';
 $string['selectone'] = 'Trieu-ne una:';
 $string['true'] = 'Vertader';

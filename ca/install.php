@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'install', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,10 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['admindirerror'] = 'El directori d\'administració especificat és incorrecte';
 $string['admindirname'] = 'Directori d\'administració';
-$string['admindirsetting'] = 'Alguns serveis d\'allotjament web (pocs) utilitzen un URL especial /admin p. ex. per a accedir a un tauler de control o quelcom semblant. Malauradament això entra en conflicte amb la ubicació estàndard de les pàgines d\'administració de Moodle. Podeu arreglar aquest problema canviant el nom del directori d\'administració de Moodle en la vostra instal·lació i posant el nou nom aquí. Per exemple:<br /> <br /><b>moodleadmin</b><br /> <br />
+$string['admindirsetting'] = 'Molts pocs serveis d\'allotjament web utilitzen /admin com a URL especial perquè accediu a un tauler de control o quelcom semblant. Malauradament, això entra en conflicte amb la ubicació estàndard de les pàgines d\'administració de Moodle. Podeu arreglar aquest problema canviant el nom del directori d\'administració de Moodle en la vostra instal·lació i posant-ne el nou nom aquí. Per exemple:<br /> <br /><b>moodleadmin</b><br /> <br />
 Això modificarà els enllaços d\'administració de Moodle.';
 $string['admindirsettinghead'] = 'S\'està configurant el directori d\'administració...';
-$string['admindirsettingsub'] = 'Alguns serveis d\'allotjament web (pocs) utilitzen un URL especial /admin p. ex. per a accedir a un tauler de control o quelcom semblant. Malauradament això entra en conflicte amb la ubicació estàndard de les pàgines d\'administració de Moodle. Podeu arreglar aquest problema canviant el nom del directori d\'administració de Moodle en la vostra instal·lació i posant el nou nom aquí. Per exemple:<br /> <br /><b>moodleadmin</b><br /> <br />
+$string['admindirsettingsub'] = 'Molts pocs serveis d\'allotjament web utilitzen /admin com a URL especial perquè accediu a un tauler de control o quelcom semblant. Malauradament,  això entra en conflicte amb la ubicació estàndard de les pàgines d\'administració de Moodle. Podeu arreglar aquest problema canviant el nom del directori d\'administració de Moodle en la vostra instal·lació i posant-ne el nou nom aquí. Per exemple:<br /> <br /><b>moodleadmin</b><br /> <br />
 Això modificarà els enllaços d\'administració de Moodle.';
 $string['availablelangs'] = 'Llista d\'idiomes disponibles';
 $string['caution'] = 'Alerta';
@@ -40,7 +40,7 @@ $string['chooselanguagesub'] = 'Trieu un idioma per a la instal·lació. S\'util
 $string['cliadminpassword'] = 'Nova contrasenya de l\'usuari d\'administració';
 $string['cliadminusername'] = 'Nom d\'usuari del compte d\'administració';
 $string['clialreadyconfigured'] = 'El fitxer config.php ja existeix, feu servir dmin/cli/install_database.php si voleu instal·lar aquest lloc web.';
-$string['clialreadyinstalled'] = 'El fitxer config.php ja existeix, feu servir admin/cli/upgrade.php si voleu actualitzar aquest lloc web.';
+$string['clialreadyinstalled'] = 'El fitxer de configuració config.php ja existeix. Feu servir admin/cli/upgrade.php si voleu actualitzar Moodle per a aquest lloc web.';
 $string['cliinstallfinished'] = 'La instal·lació ha finalitzat amb èxit.';
 $string['cliinstallheader'] = 'Programa d\'instal·lació de línia d\'ordres de Moodle {$a}';
 $string['climustagreelicense'] = 'En el mode no interactiu heu d\'estar d\'acord amb la llicència especificant l\'opció --d\'acord-';
@@ -77,24 +77,24 @@ $string['dbtype'] = 'Tipus';
 $string['directorysettings'] = '<p>Confirmeu les ubicacions d\'aquesta instal·lació de Moodle.</p>
 
 <p><b>Adreça web:</b>
-Especifiqueu l\'adreça web completa per a accedir a Moodle. Si el vostre lloc és accessible per mitjà de diversos URL, trieu el més natural per als estudiants. No inclogueu la barra final.</p>
+Especifiqueu l\'adreça web completa per accedir a Moodle. Si el vostre lloc web és accessible per mitjà de diversos URL, trieu el més natural per als estudiants. No inclogueu la barra final.</p>
 
 <p><b>Directori de Moodle:</b>
 Especifiqueu el camí complet del directori d\'aquesta instal·lació. Assegureu-vos que les majúscules/minúscules són correctes.</p>
 
 <p><b>Directori de dades:</b>
-Necessiteu un lloc on Moodle pugui desar els fitxers que es pengin. L\'usuari del servidor web (generalment \'nobody\' o \'apache\') ha de tenir permisos de lectura i d\'ESCRIPTURA en aquest directori, però no hauria de ser accessible directament per web.</p>';
+Necessiteu un lloc on Moodle pugui desar els fitxers que es pengin. L\'usuari del servidor web (generalment, «nobody» o «apache») ha de tenir permisos de lectura i d\'ESCRIPTURA en aquest directori, però no hauria de ser accessible directament a través de la web. L\'instal·lador intentarà crear-lo si no existeix.</p>';
 $string['directorysettingshead'] = 'Confirmeu les ubicacions d\'aquesta instal·lació de Moodle.';
 $string['directorysettingssub'] = '<b>Adreça web:</b>
-Especifiqueu l\'adreça web completa per a accedir a Moodle. Si el vostre lloc és accessible per mitjà de diversos URL, trieu el més natural per als estudiants. No inclogueu la barra final.</p>
+Especifiqueu l\'adreça web completa per accedir a Moodle. Si el vostre lloc web és accessible per mitjà de diversos URL, trieu el més natural per als estudiants. No inclogueu la barra final.</p>
 <br /><br />
 <b>Directori de Moodle:</b>
 Especifiqueu el camí complet del directori d\'aquesta instal·lació. Assegureu-vos que les majúscules/minúscules són correctes.</p>
 <br /><br />
 <b>Directori de dades:</b>
-Necessiteu un lloc on Moodle pugui desar els fitxers que es pengin. L\'usuari del servidor web (generalment \'nobody\' o \'apache\') ha de tenir permisos de lectura i d\'ESCRIPTURA en aquest directori, però no hauria de ser accessible directament via web.</p>';
+Necessiteu un lloc on Moodle pugui desar els fitxers que es pengin. L\'usuari del servidor web (generalment «nobody» o «apache») ha de tenir permisos de lectura i d\'ESCRIPTURA en aquest directori, però no hauria de ser accessible directament a través de la web. L\'instal·lador intentarà crear-lo si no existeix.</p>';
 $string['dirroot'] = 'Directori de Moodle';
-$string['dirrooterror'] = 'El paràmetre \'Directori de Moodle\' sembla incorrecte: no s\'hi ha pogut trobat cap instal·lació de Moodle. S\'ha reiniciat el valor del paràmetre.';
+$string['dirrooterror'] = 'El paràmetre «Directori de Moodle» sembla incorrecte: no s\'hi ha pogut trobat cap instal·lació de Moodle. S\'ha reiniciat el valor del paràmetre.';
 $string['download'] = 'Baixa';
 $string['downloadlanguagebutton'] = 'Baixa el paquet d\'idioma "{$a}"';
 $string['downloadlanguagehead'] = 'Baixa paquet d\'idioma';
@@ -111,9 +111,9 @@ $string['fileuploads'] = 'Càrrega de fitxers';
 $string['fileuploadserror'] = 'Hauria d\'estar habilitada';
 $string['fileuploadshelp'] = '<p>Sembla que la càrrega de fitxers està inhabilitada al vostre servidor.</p>
 
-<p>Moodle es pot instal·lar igualment, però sense aquesta capacitat no podreu penjar fitxers als cursos o imatges dels usuaris.</p>
+<p>Moodle es pot instal·lar igualment, però sense aquesta capacitat no podreu penjar fitxers del curs ni imatges noves de perfil dels usuaris.</p>
 
-<p>Per habilitar la càrrega de fitxers cal editar el fitxer php.ini principal del sistema i posar el paràmetre <b>file_uploads</b> a \'1\'.</p>';
+<p>Per habilitar la càrrega de fitxers cal editar el fitxer php.ini principal del sistema i posar el paràmetre <b>file_uploads</b> a «1».</p>';
 $string['inputdatadirectory'] = 'Directori de dades:';
 $string['inputwebadress'] = 'Adreça web:';
 $string['inputwebdirectory'] = 'Directori de Moodle';
@@ -137,18 +137,18 @@ $string['memorylimithelp'] = '<p>El límit de memòria del PHP del vostre servid
 $string['mssqlextensionisnotpresentinphp'] = 'El PHP no s\'ha configurat correctament amb l\'extensió MSSQL de manera que pugui comunicar-se amb SQL*Server. Reviseu el fitxer php.ini o recompileu PHP.';
 $string['mysqliextensionisnotpresentinphp'] = 'El PHP no ha estat configurat adequadament amb l\'extensió MySQLi de manera que pugui comunicar-se amb MySQL. Reviseu el fitxer php.ini o recompileu el PHP. L\'extensió MySQLi no està disponible per a PHP 4.';
 $string['nativemariadb'] = 'MariaDB (native/MariaDB)';
-$string['nativemariadbhelp'] = 'Ara heu de configurar la base de dades on s\'emmagatzemaran les dades de Moodle.
-La base de dades es podrà crear si l\'usuari de la base de dades té els permisos necessaris i el nom d\'usuari i la contrasenya existeixen. El prefix de les taules és opcional.
-El controlador no és compatible amb el motor MyISAM heretat.';
+$string['nativemariadbhelp'] = '<p>La majoria dels paràmetres i de les dades de Moodle s\'emmagatzemen a la base de dades, la qual s\'ha de configurar aquí.</p>
+<p>El nom, l\'usuari i la contrasenya de la base de dades són camps obligatoris; el prefix de les taules és opcional.
+<p>Si actualment la base de dades no existeix, i l\'usuari que heu especificat té permís, Moodle intentarà crear una base de dades nova amb els permisos i els paràmetres correctes.</p>
+<p> Aquest controlador no és compatible amb el motor MyISAM heretat.</p>';
 $string['nativemssql'] = 'SQL*Server FreeTDS (native/mssql)';
 $string['nativemssqlhelp'] = 'Heu de configurar la base de dades on s\'emmagatzemarà la majoria de dades de Moodle. La base de dades i un nom d\'usuari i contrasenya amb accés s\'han de crear abans. El prefix de les taules és obligatori.';
 $string['nativemysqli'] = 'Improved MySQL (native/mysqli)';
-$string['nativemysqlihelp'] = 'Heu de configurar la base de dades on s\'emmagatzemarà la majoria de dades de Moodle. La base de dades es pot crear si l\'usuari de la base de dades té els permisos necessaris. El nom d\'usuari i contrasenya ja han d\'existir. El prefix de les taules és opcional.';
+$string['nativemysqlihelp'] = '<p>La base de dades és on s\'emmagatzemen la majoria dels paràmetres i de les dades de Moodle, i s\'ha de configurar aquí.</p> <p>El nom de la base de dades, el nom d\'usuari i la contrasenya són camps obligatoris; el prefix de les taules és opcional.</p> <p>Si actualment la base de dades no existeix, i l\'usuari que heu especificat té permís, Moodle intentarà crear una base de dades nova amb els permisos i els paràmetres correctes.</p>';
 $string['nativeoci'] = 'Oracle (native/oci)';
 $string['nativeocihelp'] = 'Heu de configurar la base de dades on s\'emmagatzemarà la majoria de dades de Moodle. La base de dades i un nom d\'usuari i contrasenya amb accés s\'han de crear abans. El prefix de les taules és obligatori.';
 $string['nativepgsql'] = 'PostgreSQL (native/pgsql)';
-$string['nativepgsqlhelp'] = 'Ara cal configurar els paràmetres de la base de dades on s\'emmagatzemarà la majoria de dades de Moodle.
-La base de dades i un nom d\'usuari i contrasenya amb accés s\'han de crear abans. El prefix de les taules és obligatori.';
+$string['nativepgsqlhelp'] = '<p>La base de dades és on s\'emmagatzemen la majoria dels paràmetres i les dades de Moodle, i s\'ha de configurar aquí.</p><p>El nom de la base de dades, el nom d\'usuari i la contrasenya són camps obligatoris.</p> La base de dades ja ha d\'existir i l\'usuari n\'ha de tenir accés tant a la lectura com a l\'escriptura.';
 $string['nativesqlsrv'] = 'SQL*Server Microsoft (native/sqlsrv)';
 $string['nativesqlsrvhelp'] = 'Ara cal configurar els paràmetres de la base de dades on s\'emmagatzemarà la majoria de dades de Moodle.
 La base de dades i un nom d\'usuari i contrasenya amb accés s\'han de crear abans. El prefix de les taules és obligatori.';
@@ -161,14 +161,11 @@ $string['pathserrcreatedataroot'] = 'L\'instal·lador no pot crear el directori 
 $string['pathshead'] = 'Confirmeu els camins';
 $string['pathsrodataroot'] = 'No es pot escriure en el directori dataroot.';
 $string['pathsroparentdataroot'] = 'No es pot escriure en el directori pare ({$a->parent}). L\'instal·lador no pot crear el directori ({$a->dataroot}).';
-$string['pathssubadmindir'] = 'Alguns serveis d\'allotjament web (pocs) utilitzen un URL especial /admin p. ex. per a accedir a un tauler de control o quelcom semblant. Malauradament això entra en conflicte amb la ubicació estàndard de les pàgines d\'administració de Moodle. Podeu arreglar aquest problema canviant el nom del directori d\'administració de Moodle en la vostra instal·lació i posant el nou nom aquí. Per exemple <em>moodleadmin</em>. Això modificarà els enllaços d\'administració de Moodle.';
+$string['pathssubadmindir'] = 'Alguns serveis d\'allotjament web (pocs) utilitzen /admin com a URL especial perquè accediu a un tauler de control o quelcom semblant. Malauradament, això entra en conflicte amb la ubicació estàndard de les pàgines d\'administració de Moodle. Podeu arreglar aquest problema canviant el nom del directori d\'administració de Moodle en la vostra instal·lació i posant el nou nom aquí. Per exemple: <em>moodleadmin</em>. Això arreglarà els enllaços d\'administració de Moodle.';
 $string['pathssubdataroot'] = 'Necessiteu un espai on Moodle pugui desar els fitxers penjats. Aquest directori hauria de tenir permisos de lectura I ESCRIPTURA per a l\'usuari del servidor web (normalment \'nobody\' o \'apache\'), però no cal que sigui accessible directament via web. L\'instal·lador provarà de crear-lo si no existeix.';
 $string['pathssubdirroot'] = 'Camí complet del directori d\'instal·lació de Moodle.';
-$string['pathssubwwwroot'] = 'L\'adreça web completa on s\'accedirà a Moodle.
-No és possible accedir a Moodle en diferents adreces.
-Si el vostre lloc té múltiples adreces públiques haureu de configurar redireccions permanents per a totes excepte aquesta.
-Si el vostre lloc és accessible tant des d\'Internet com des d\'una intranet, utilitzeu aquí l\'adreça pública i configureu el DNS de manera que els usuaris de la intranet puguin utilitzar també l\'adreça pública.
-Si l\'adreça no és correcta, canvieu l\'URL en el vostre navegador per reiniciar la instal·lació amb un altre valor.';
+$string['pathssubwwwroot'] = '<p>L\'adreça web completa on s\'accedirà a Moodle; per exemple, l\'adreça que els usuaris introduiran a la barra d\'adreces del navegador per accedir a Moodle.</p> <p> No és possible accedir a Moodle utilitzant diferents adreces. Si el vostre lloc és accessible a través de diferents adreces, trieu-ne la més fàcil i configureu una redirecció permanent per a cadascuna de les altres adreces.</p> <p>
+Si el vostre lloc és accessible tant des d\'Internet com des d\'una xarxa interna (anomenada de vegades intranet), utilitzeu l\'adreça pública aquí.</p> <p>Si l\'adreça actual no és correcta, canvieu l\'URL a la barra d\'adreces del navegador i reinicieu la instal·lació.';
 $string['pathsunsecuredataroot'] = 'La ubicació del dataroot no és segura.';
 $string['pathswrongadmindir'] = 'No existeix el directori d\'administració';
 $string['pgsqlextensionisnotpresentinphp'] = 'El PHP no s\'ha configurat correctament amb l\'extensió PGSQL de manera que pugui comunicar-se amb PostgreSQL. Reviseu el fitxer php.ini o recompileu el PHP.';
@@ -177,7 +174,7 @@ $string['phpversion'] = 'Versió PHP';
 $string['phpversionhelp'] = '<p>Moodle necessita una versió de PHP 4.3.0 o 5.1.0 (les versions 5.0.x tenien uns quants problemes coneguts).</p>
 <p>A hores d\'ara esteu utilitzant la versió {$a}.</p>
 <p>Us cal actualitzar el PHP o traslladar Moodle a un ordinador amb una versió de PHP més recent.<br />(Si esteu utilitzant la versió 5.0.x, alternativament també podríeu tornar enrere a la 4.4.x)</p>';
-$string['releasenoteslink'] = 'Per a més informació sobre aquesta versió de Moodle, consulteu les notes de llançament en {$a}';
+$string['releasenoteslink'] = 'Per a més informació sobre aquesta versió de Moodle, consulteu les notes de llançament a {$a}';
 $string['safemode'] = 'Mode segur';
 $string['safemodeerror'] = 'Moodle pot tenir problemes amb el mode segur activat';
 $string['safemodehelp'] = '<p>Moodle pot tenir diversos problemes amb el mode segur activat. Probablement no podrà crear fitxers nous.</p>
@@ -194,7 +191,7 @@ $string['sqliteextensionisnotpresentinphp'] = 'El PHP no ha estat configurat cor
 $string['upgradingqtypeplugin'] = 'S\'està actualitzant el connector de tipus de preguntes';
 $string['welcomep10'] = '{$a->installername} ({$a->installerversion})';
 $string['welcomep20'] = 'Esteu veient aquesta pàgina perquè heu instal·lat amb èxit i heu executat el paquet <strong>{$a->packname} {$a->packversion}</strong>. Felicitacions.';
-$string['welcomep30'] = 'Aquesta versió de <strong>{$a->installername}</strong> inclou les aplicacions necessàries per crear un entorn en el qual funcioni <strong>Moodle</strong>:';
+$string['welcomep30'] = 'Aquesta versió de <strong>{$a->installername}</strong> inclou les aplicacions necessàries per crear un entorn en el qual funcioni <strong>Moodle</strong>, concretament:';
 $string['welcomep40'] = 'El paquet inclou també <strong>Moodle {$a->moodlerelease} ({$a->moodleversion})</strong>.';
 $string['welcomep50'] = 'L\'ús de totes les aplicacions d\'aquest paquet és governat per les seves llicències respectives. El paquet <strong>{$a->installername}</strong> complet és
 <a href="http://www.opensource.org/docs/definition_plain.html">codi font obert</a> i es distribueix

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'wiki', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -191,7 +191,7 @@ $string['orphaned'] = 'Pages orphelines';
 $string['orphaned_help'] = 'Liste des pages vers lesquelles ne pointe aucun lien.';
 $string['overridelocks'] = 'Court-circuiter les verrous';
 $string['overridinglocks'] = 'Court-circuit des verrous...';
-$string['pageexists'] = 'Cette page existe déjà. Vous êtes redirigé vers elle.';
+$string['pageexists'] = 'Cette page existe déjà.';
 $string['pageindex'] = 'Index des pages';
 $string['pageindex_help'] = 'L\'arborescence des pages de ce wiki';
 $string['pageislocked'] = 'Quelqu\'un modifie actuellement cette page. Veuillez réessayer dans quelques minutes.';
@@ -226,12 +226,15 @@ $string['return'] = 'Revenir en arrière';
 $string['save'] = 'Enregistrer';
 $string['saving'] = 'Enregistrement de la page wiki';
 $string['savingerror'] = 'Erreur lors de l\'enregistrement';
+$string['search:activity'] = 'Wiki – information sur l\'activité';
+$string['search:collaborative_page'] = 'Wiki - pages collaboratives';
 $string['searchcontent'] = 'Rechercher dans le contenu de la page';
 $string['searchresult'] = 'Résultats de recherche :';
 $string['searchterms'] = 'Rechercher les mots';
 $string['searchwikis'] = 'Rechercher dans les wikis';
 $string['special'] = 'Spécial';
 $string['tableofcontents'] = 'Table des matières';
+$string['tagarea_wiki_pages'] = 'Pages wiki';
 $string['tagsdeleted'] = 'Les tags wiki ont été supprimés';
 $string['tagtitle'] = 'Afficher le tag « {$a} »';
 $string['teacherrating'] = 'Évaluation de l\'enseignant';

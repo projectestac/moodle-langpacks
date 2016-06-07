@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_radius', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'auth_radius', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   auth_radius
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['auth_radiushost_key'] = 'ホスト';
 $string['auth_radiusnasport'] = '接続に使用するポート';
 $string['auth_radiusnasport_key'] = 'ポート';
 $string['auth_radiussecret'] = '共有鍵';
-$string['auth_radiussecret_key'] = '鍵';
+$string['auth_radiussecret_key'] = '秘密鍵';
 $string['auth_radiustype'] = 'RADIUSサーバで使用する認証スキームを選択してください。';
 $string['auth_radiustypechapmd5'] = 'CHAP MD5';
 $string['auth_radiustype_key'] = '認証';

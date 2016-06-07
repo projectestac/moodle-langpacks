@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_task', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,7 @@ $string['lastruntime'] = 'Dernière exécution';
 $string['nextruntime'] = 'Prochaine exécution';
 $string['plugindisabled'] = 'Plugin désactivé';
 $string['pluginname'] = 'Configuration des tâches programmées';
-$string['resettasktodefaults'] = 'Réinitialiser la programmation des tâches';
+$string['resettasktodefaults'] = 'Revenir à la programmation par défaut';
 $string['resettasktodefaults_help'] = 'Cette action supprimera toutes les modifications et configurera la programmation de cette tâche à ses réglages par défaut.';
 $string['scheduledtaskchangesdisabled'] = 'Des modifications à la liste des tâches programmées ont été bloquées dans la configuration de Moodle';
 $string['scheduledtasks'] = 'Tâches programmées';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'assign', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -138,7 +138,7 @@ $string['duedatereached'] = 'Stoppdatum för denna inlämningsuppgift har nu pas
 $string['duedatevalidation'] = 'Stoppdatum måste vara efter datum för tillåt inlämning från.';
 $string['editaction'] = 'Åtgärder...';
 $string['editattemptfeedback'] = 'Redigera betyg och feedback för försök nr {$a}.';
-$string['editingpreviousfeedbackwarning'] = 'Du redigerar feedback av ett tidigare försök. Detta är försök nr {$a->attemptnumber} av totalt{$a->totalattempts}.';
+$string['editingpreviousfeedbackwarning'] = 'Du redigerar feedback av ett tidigare försök. Detta är försök nr This is attempt {$a->attemptnumber} av totalt{$a->totalattempts}.';
 $string['editingstatus'] = 'Redigerar status';
 $string['editsubmission'] = 'Redigera min inskickade uppgiftslösning';
 $string['editsubmission_help'] = 'Gör ändringar i din inlämning';
@@ -224,6 +224,8 @@ $string['groupsubmissionsettings'] = 'Gruppinlämning inställningar';
 $string['hiddenuser'] = 'Deltagare';
 $string['hideshow'] = 'Döjl/Visa';
 $string['instructionfiles'] = 'Instruktionsfiler';
+$string['introattachments'] = 'Tillägsfiler';
+$string['introattachments_help'] = 'Filer som kan användas för uppgiften, t.ex. mallar kan bifogas. Filerna kommer att ligga under beskrivningen av uppgiften och kan laddas ner därifrån .';
 $string['invalidfloatforgrade'] = 'Det givna betyget kunde inte förstås: {$a}';
 $string['invalidgradeforscale'] = 'Det givna betyget var inte giltigt för den nuvarande skalan';
 $string['lastmodifiedgrade'] = 'Senast modifierat (betyg)';
@@ -267,6 +269,8 @@ Elever kan lämna in digitalt material (filer) såsom dokument från ordbehandli
 Vid granskning av inlämningsuppgifter kan lärare ge kommentarer för återkoppling samt ladda upp filer såsom rättningsmarkerade elevuppgifter, dokument med kommentarer eller talade kommentarer (ljudfiler). Inlämningsuppgifter kan betygssättas med numerisk eller anpassad skala eller med en avancerad betygsmetod såsom en rubrik. Slutgiltiga betyg lagras i betygsboken.';
 $string['modulenameplural'] = 'Uppgifter';
 $string['moreusers'] = '{$a} mer ...';
+$string['multipleteams'] = 'Medlem av mer än en grupp';
+$string['multipleteamsgrader'] = 'Medlem av mer än en grupp, kan därför inte ladda upp fil';
 $string['mysubmission'] = 'Min inlämning:';
 $string['newsubmissions'] = 'Uppgifterna är inskickade';
 $string['noattempt'] = 'Inga försök';
@@ -278,6 +282,8 @@ $string['noonlinesubmissions'] = 'Denna inlämningsuppgift kräver inte att du l
 $string['nosavebutnext'] = 'Nästa';
 $string['nosubmission'] = 'Inget har lämnats in för denna inlämningsuppgift';
 $string['nosubmissionsacceptedafter'] = 'Inga inlämningar tillåts efter';
+$string['noteam'] = 'Inte medlem i någon grupp';
+$string['noteamgrader'] = 'Inte medlem i någon grupp, kan därför inte ladda upp fil';
 $string['notgraded'] = 'Ej betygssatt';
 $string['notgradedyet'] = 'Ännu ej bedömd';
 $string['notifications'] = 'Meddelande';
@@ -298,6 +304,8 @@ $string['page-mod-assign-x'] = 'Varje sida för modulen inlämningsuppgift';
 $string['participant'] = 'Deltagare';
 $string['pluginadministration'] = 'Administration av inlämningsuppgift';
 $string['pluginname'] = 'Inlämningsuppgift';
+$string['preventsubmissionnotingroup'] = 'Kräver gruppen att lämna in';
+$string['preventsubmissionnotingroup_help'] = 'Om aktiverat , kan användare som inte är medlemmar i en grupp inte lämna in';
 $string['preventsubmissions'] = 'Förhindra användaren från att göra fler inlämningar till denna inlämningsuppgift.';
 $string['preventsubmissionsshort'] = 'Förhindra ändringar av inlämnad uppgift';
 $string['previous'] = 'Tidigare';

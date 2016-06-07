@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_outcomes', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'gradereport_outcomes', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   gradereport_outcomes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addoutcome'] = 'Gehitu helburua';
-$string['courseoutcomes'] = 'Ikastaroaren helburuak';
-$string['coursespecoutcome'] = 'Ikastaroaren helburuak';
-$string['outcomes:view'] = 'Helburuen txostena ikusi';
-$string['pluginname'] = 'Helburuen txostena';
+$string['addoutcome'] = 'Gehitu ikas-emaitza';
+$string['courseoutcomes'] = 'Ikastaroaren ikas-emaitzak';
+$string['coursespecoutcome'] = 'Ikastaroaren ikas-emaitzak';
+$string['outcomes:view'] = 'Ikusi ikas-emaitzen txostena';
+$string['pluginname'] = 'Ikas-emaitzen txostena';
 $string['usedgradeitem'] = 'Kalifikazio-elementuen kopurua';

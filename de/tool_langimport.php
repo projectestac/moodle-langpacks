@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_langimport', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_langimport', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_langimport
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,8 +45,8 @@ $string['noenglishuninstall'] = 'Das englische Sprachpaket kann nicht deinstalli
 $string['nolangupdateneeded'] = 'Alle Sprachpakete sind aktuell.';
 $string['pluginname'] = 'Sprachpakete';
 $string['purgestringcaches'] = 'Sprachcache löschen';
-$string['remotelangnotavailable'] = 'Moodle kann keine Serververbindung herstellen, um Sprachpakete automatisch zu installieren. Sie müssen die Sprachpakete manuell von <a href="http://download.moodle.org/langpack/">download.moodle.org/langpack</a> herunterladen und im Serververzeichnis \'{$a}\' speichern.';
-$string['selectlangs'] = 'Wählen Sie, welches Sprachpaket deinstalliert werden soll.';
-$string['uninstall'] = 'Ausgewählte(s) Sprachpaket(e) deinstallieren';
+$string['remotelangnotavailable'] = 'Moodle kann keine Serververbindung herstellen, um Sprachpakete automatisch zu installieren. Laden Sie die Sprachpakete manuell von <a href="https://download.moodle.org/langpack/">download.moodle.org/langpack</a> herunter und speichern Sie diese im Serververzeichnis \'{$a}\'.';
+$string['selectlangs'] = 'Wählen Sie ein Sprachpaket, das deinstalliert werden soll.';
+$string['uninstall'] = 'Ausgewähltes Sprachpaket deinstallieren';
 $string['uninstallconfirm'] = 'Möchten Sie die Sprachpakete \'{$a}\' wirklich deinstallieren?';
 $string['updatelangs'] = 'Sprachpakete aktualisieren';

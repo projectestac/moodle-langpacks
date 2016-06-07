@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'forum', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -309,6 +309,8 @@ $string['more'] = 'més';
 $string['movedmarker'] = '(traslladat)';
 $string['movethisdiscussionto'] = 'Trasllada aquest debat a...';
 $string['mustprovidediscussionorpost'] = 'Per a l\'exportació, heu de especificar o bé l\'ID del debat o l\'ID del missatge';
+$string['myprofileotherdis'] = 'Debats del fòrum';
+$string['myprofileowndis'] = 'Els meus debats del fòrum';
 $string['namenews'] = 'Fòrum d\'avisos i notícies';
 $string['namenews_help'] = 'El fòrum d\'avisos i notícies és un fòrum especial d\'anuncis que es crea automàticament amb el curs. Cada curs pot tenir només un fòrum de notícies. Els administradors i el professorat són els únics que poden escriure en aquest fòrum. El bloc «Últimes notícies» mostrarà els debats recents d\'aquest fòrum de notícies.';
 $string['namesocial'] = 'Fòrum social';
@@ -377,6 +379,8 @@ $string['posts'] = 'Missatges';
 $string['postsmadebyuser'] = 'Missatges enviats per {$a}';
 $string['postsmadebyuserincourse'] = 'Missatges de {$a->fullname} en el curs {$a->coursename}';
 $string['posttoforum'] = 'Envia al fòrum';
+$string['posttomygroups'] = 'Envia una còpia a tots els grups';
+$string['posttomygroups_help'] = 'S\'envia una còpia d\'aquest missatge a tots els grups als quals teniu accés. Els participants dels grups als quals no teniu accés no ho veuran';
 $string['postupdated'] = 'S\'ha actualitzat el vostre missatge';
 $string['potentialsubscribers'] = 'Subscriptors potencials';
 $string['processingdigest'] = 'S\'està processant el resum de correu de l\'usuari {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'blog', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,7 +44,7 @@ $string['blogaboutthis'] = 'Blogue sobre {$a->type}';
 $string['blogaboutthiscourse'] = 'Adicionar mensagem sobre esta disciplina';
 $string['blogaboutthismodule'] = 'Adicionar mensagem sobre {$a}';
 $string['blogadministration'] = 'Administração do blogue';
-$string['blogdeleteconfirm'] = 'Apagar esta mensagem do Blogue?';
+$string['blogdeleteconfirm'] = 'Apagar a mensagem \'{$a}\' do Blogue?';
 $string['blogdisable'] = 'O sistema de blogues está desativado!';
 $string['blogentries'] = 'Mensagens do blogue';
 $string['blogentriesabout'] = 'Mensagens do blogue: {$a}';
@@ -187,4 +187,4 @@ $string['viewmyentriesaboutmodule'] = 'Ver as minhas mensagens sobre {$a}';
 $string['viewsiteentries'] = 'Ver todas as mensagens';
 $string['viewuserentries'] = 'Ver todas as mensagens por {$a}';
 $string['worldblogs'] = 'Todos podem ler as mensagens configuradas para estarem acessíveis a todos';
-$string['wrongpostid'] = 'id da mensagem incorreto';
+$string['wrongpostid'] = 'ID da mensagem incorreto';

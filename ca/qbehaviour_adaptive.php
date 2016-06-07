@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_adaptive', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qbehaviour_adaptive', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   qbehaviour_adaptive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,5 +36,5 @@ $string['gradingdetailswithadjustmentpenalty'] = 'Puntuacions per a aquesta tram
 $string['gradingdetailswithadjustmenttotalpenalty'] = 'Puntuacions per a aquesta tramesa: {$a->raw} / {$a->max}. Tenint en compte els intents anteriors, això dóna <strong>{$a->cur} / {$a->max}.</strong> Aquesta tramesa té una penalització de {$a->penalty}. Penalitzacions totals fins ara: {$a->totalpenalty}.';
 $string['gradingdetailswithpenalty'] = 'Puntuacions per a aquesta tramesa: {$a->raw} / {$a->max}. Aquesta tramesa té una penalització de {$a->penalty}.';
 $string['gradingdetailswithtotalpenalty'] = 'Puntuacions per a aquesta tramesa: {$a->raw} / {$a->max}. Aquesta tramesa té una penalització de {$a->penalty}. Penalització total fins ara: {$a->totalpenalty}.';
-$string['notcomplete'] = 'Incomplet';
+$string['notcomplete'] = 'Resposta incompleta o no comprovada';
 $string['pluginname'] = 'Mode adaptatiu';

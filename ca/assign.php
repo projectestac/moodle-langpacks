@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'assign', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -283,6 +283,7 @@ $string['noonlinesubmissions'] = 'Aquesta tasca no requereix que trameteu res en
 $string['nosavebutnext'] = 'Següent';
 $string['nosubmission'] = 'No s\'ha tramès res per a aquesta tasca';
 $string['nosubmissionsacceptedafter'] = 'No s\'accepten trameses després de';
+$string['noteam'] = 'No és membre de cap grup';
 $string['notgraded'] = 'Sense qualificació';
 $string['notgradedyet'] = 'No s\'ha qualificat encara';
 $string['notifications'] = 'Notificacions';
@@ -303,6 +304,8 @@ $string['page-mod-assign-x'] = 'Pàgina de qualsevol mòdul de tasques';
 $string['participant'] = 'Participant';
 $string['pluginadministration'] = 'Administració de la tasca';
 $string['pluginname'] = 'Tasca';
+$string['preventsubmissionnotingroup'] = 'Cal formar part d\'un grup per fer una tramesa';
+$string['preventsubmissionnotingroup_help'] = 'Si s\'activa, els usuaris que no són membres d\'un grup no podran fer trameses.';
 $string['preventsubmissions'] = 'Impedeix que l\'usuari faci més trameses per a aquesta tasca.';
 $string['preventsubmissionsshort'] = 'Impedeix canvis en la tramesa';
 $string['previous'] = 'Anterior';
@@ -318,9 +321,9 @@ $string['requiresubmissionstatement'] = 'Requereix que els estudiants acceptin e
 $string['requiresubmissionstatement_help'] = 'Requereix que els estudiants acceptin el compromís de tramesa per a totes les trameses d\'aquesta tasca.';
 $string['revealidentities'] = 'Mostra les identitats dels estudiants';
 $string['revealidentitiesconfirm'] = 'Segur que voleu mostrar les identitats dels estudiants d\'aquesta tasca? Aquesta operació no es pot desfer. Una vegada s\'hagin mostrat les identitats dels estudiants, les seves puntuacions es traspassaran al llibre de qualificacions.';
-$string['reverttodraft'] = 'Reverteix la tramesa a l\'estat d\'esborrany.';
+$string['reverttodraft'] = 'Reverteix la tramesa a l\'estat d\'esborrany';
 $string['reverttodraftforstudent'] = 'Reverteix la tramesa a esborrany per a l\'estudiant: (id={$a->id}, fullname={$a->fullname}).';
-$string['reverttodraftshort'] = 'Reverteix la tramesa a esborrany.';
+$string['reverttodraftshort'] = 'Reverteix la tramesa a esborrany';
 $string['reviewed'] = 'Revisada';
 $string['saveallquickgradingchanges'] = 'Desa tots els canvis de la qualificació ràpida';
 $string['savechanges'] = 'Desa els canvis';
@@ -387,7 +390,7 @@ $string['submissionslockedshort'] = 'No es permeten canvis en la tramesa';
 $string['submissionsnotgraded'] = 'Trameses sense qualificar: {$a}';
 $string['submissionstatement'] = 'Compromís de tramesa';
 $string['submissionstatementacceptedlog'] = 'L\'usuari {$a} ha acceptat el compromís de tramesa';
-$string['submissionstatementdefault'] = 'Aquesta tasca conté únicament treball propi, excepte en aquelles parts en què he reconegut haver utilitzat la feina d\'altres persones.';
+$string['submissionstatementdefault'] = 'Aquesta tasca conté únicament treball propi, i en el cas que hagi fet servir una font externa o l\'opinió d\'un company, n\'he citat l\'autor.';
 $string['submissionstatement_help'] = 'Sentència de confirmació de la tramesa de la tasca';
 $string['submissionstatus'] = 'Estat de la tramesa';
 $string['submissionstatus_'] = 'No s\'ha tramès';
@@ -419,6 +422,7 @@ $string['teamsubmission_help'] = 'Si s\'habilita els estudiants es dividiran en 
 $string['textinstructions'] = 'Instruccions de la tasca';
 $string['timemodified'] = 'Darrera modificació';
 $string['timeremaining'] = 'Temps restant';
+$string['ungroupedusers'] = 'El paràmetre «Cal formar part d\'un grup per fer una tramesa» està activat, i alguns usuaris o no són membres de cap grup o són membres de més d\'un grup, per la qual cosa no poden fer trameses.';
 $string['unlimitedattempts'] = 'Il·limitats';
 $string['unlimitedattemptsallowed'] = 'Es permeten intents il·limitats.';
 $string['unlocksubmissionforstudent'] = 'Permet trameses per a l\'estudiant: (id={$a->id}, fullname={$a->fullname}).';

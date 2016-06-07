@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_questioninstances', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'report_questioninstances', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   report_questioninstances
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,4 +37,4 @@ $string['reportformissingqtypes'] = 'Galdera-mota ezezagunetarako txostena';
 $string['reportforqtype'] = '\'{$a}\' motako galderetarako txostena';
 $string['reportsettings'] = 'Txostenaren ezarpenak';
 $string['totalquestions'] = 'Denera';
-$string['visiblequestions'] = 'Agerian jarri';
+$string['visiblequestions'] = 'Ikusgai';

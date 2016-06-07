@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_monitor', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,9 +49,9 @@ $string['eventnotfound'] = 'Событие не найдено';
 $string['eventrulecreated'] = 'Правило создано';
 $string['eventruledeleted'] = 'Правило удалено';
 $string['eventruleupdated'] = 'Правило обновлено';
-$string['eventsubcreated'] = 'Создана подписка';
+$string['eventsubcreated'] = 'Подписка создана';
 $string['eventsubcriteriamet'] = 'Возникла ситуация, на уведомление о которой осуществлена подписка';
-$string['eventsubdeleted'] = 'Удалена подписка на уведомление о срабатывании правила';
+$string['eventsubdeleted'] = 'Подписка на уведомление о срабатывании правила удалена';
 $string['freqdesc'] = '{$a->freq} раз за {$a->mins} мин.';
 $string['frequency'] = 'Минимальное количество срабатываний';
 $string['frequency_help'] = 'Количество событий в течение определенного периода времени, необходимое для отправки сообщения с уведомлением.';

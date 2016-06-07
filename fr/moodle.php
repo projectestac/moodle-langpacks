@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'moodle', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,6 +42,7 @@ $string['activityreport'] = 'Rapport d\'activité';
 $string['activityreports'] = 'Rapports d\'activité';
 $string['activityselect'] = 'Sélectionner cette activité pour la déplacer';
 $string['activitysince'] = 'Activité depuis le {$a}';
+$string['activitytypetitle'] = '{$a->activity} - {$a->type}';
 $string['activityweighted'] = 'Activité par utilisateur';
 $string['add'] = 'Ajouter';
 $string['addactivity'] = 'Ajouter une activité...';
@@ -259,17 +260,6 @@ $string['choosereportfilter'] = 'Choisir un filtre pour le rapport';
 $string['choosetheme'] = 'Choisir un thème';
 $string['chooseuser'] = 'Choisir un utilisateur';
 $string['city'] = 'Ville';
-$string['clambroken'] = 'L\'administrateur du site a activé l\'antivirus des fichiers déposés, mais il y a un problème de configuration.<br />Votre fichier n\'a pas pu être déposé. L\'administrateur a été averti afin qu\'il puisse corriger le problème.<br />Essayez de nouveau plus tard !';
-$string['clamdeletedfile'] = 'Le fichier a été supprimé';
-$string['clamdeletedfilefailed'] = 'Le fichier n\'a pas pu être supprimé';
-$string['clamemailsubject'] = '{$a} :: Notification Clam AV';
-$string['clamfailed'] = 'Clam AV n\'a pas pu être lancé. Le message d\'erreur était {$a}. Voici la sortie du programme Clam :';
-$string['clamlost'] = 'Moodle est configuré pour lancer clam lors du dépôt de fichiers, mais le chemin pointant vers Clam AV, {$a}, n\'est pas correct.';
-$string['clamlostandactinglikevirus'] = 'En outre, Moodle est configuré de telle sorte que si clam ne peut pas être lancé, les fichiers sont traités comme des virus. Cela signifie qu\'aucun étudiant ne pourra déposer de fichier tant que ce problème n\'est pas corrigé.';
-$string['clammovedfile'] = 'Le fichier a été déplacé dans le dossier de quarantaine que vous avez spécifié. Son nouvel emplacement est {$a}';
-$string['clammovedfilebasic'] = 'Le fichier a été déplacé dans un dossier de quarantaine.';
-$string['clamquarantinedirfailed'] = 'Impossible de déplacer le fichier dans le dossier de quarantaine spécifié {$a}. Il est impératif de corriger ce problème, car sans cela les fichiers contenant des virus seront détruits.';
-$string['clamunknownerror'] = 'Une erreur inconnue est survenue avec clam.';
 $string['cleaningtempdata'] = 'Suppression des données temporaires';
 $string['clear'] = 'Effacer';
 $string['clickhelpiconformoreinfo'] = '... suite ... Cliquer sur l\'icône d\'aide pour lire la totalité de l\'article';
@@ -462,6 +452,7 @@ $string['databaseupgradeblocks'] = 'La version du logiciel des blocs est mainten
 $string['databaseupgradegroups'] = 'La version du logiciel des groupes est maintenant {$a}';
 $string['databaseupgradelocal'] = 'La version des modifications locales de la base de données est maintenant {$a}';
 $string['databaseupgrades'] = 'Mise à jour de la base de données';
+$string['dataformats'] = 'Formats de données';
 $string['date'] = 'Date';
 $string['datechanged'] = 'Date de modification';
 $string['datemostrecentfirst'] = 'Date - la plus récente en premier';
@@ -470,6 +461,10 @@ $string['day'] = 'jour';
 $string['days'] = 'jours';
 $string['decodinginternallinks'] = 'Décodage des liens internes';
 $string['default'] = 'Défaut';
+$string['defaultcompetencescale'] = 'Barème de compétence par défaut';
+$string['defaultcompetencescaledesc'] = 'Une barème à deux niveaux qui n\'indique que si un participant a démontré sa compétence ou non.';
+$string['defaultcompetencescalenotproficient'] = 'Pas encore compétent';
+$string['defaultcompetencescaleproficient'] = 'Compétent';
 $string['defaultcoursestudent'] = 'Étudiant';
 $string['defaultcoursestudentdescription'] = 'Les étudiants ont en général moins de privilèges dans un cours.';
 $string['defaultcoursestudents'] = 'Étudiants';
@@ -577,6 +572,7 @@ $string['editorresettodefaults'] = 'Rétablir les valeurs par défaut de l\'édi
 $string['editorsettings'] = 'Éditeur WYSIWYG';
 $string['editorshortcutkeys'] = 'Raccourcis clavier éditeur';
 $string['editsection'] = 'Modifier la section';
+$string['editsectionname'] = 'Modifier le nom de la section';
 $string['editsettings'] = 'Paramètres';
 $string['editsummary'] = 'Modifier le résumé';
 $string['editthisactivity'] = 'Modifier cette activité';
@@ -584,7 +580,10 @@ $string['editthiscategory'] = 'Modifier cette catégorie de cours';
 $string['edittitle'] = 'Modifier le titre';
 $string['edittitleinstructions'] = 'Esc pour annuler, Entrée pour terminer';
 $string['edituser'] = 'Comptes des utilisateurs';
-$string['edulevel'] = 'Type de participation';
+$string['edulevel'] = 'Tous les événements';
+$string['edulevel_help'] = '* Enseignement : actions effectuées par un enseignant, p. ex. modification d\'une ressource
+* Participation : actions effectuées par un étudiant, p. ex. écrire dans un forum
+* Autres : actions effectuées par un utilisateur avec un rôle différent d\'enseignant ou étudiant';
 $string['edulevelother'] = 'Autre';
 $string['edulevelparticipating'] = 'Participant';
 $string['edulevelteacher'] = 'Enseignant';
@@ -724,6 +723,7 @@ $string['eventcoursemoduleviewed'] = 'Module de cours consulté';
 $string['eventcourseresetended'] = 'Réinitialisation de cours terminée';
 $string['eventcourseresetstarted'] = 'Réinitialisation de cours commencée';
 $string['eventcourserestored'] = 'Cours restauré';
+$string['eventcoursesectiondeleted'] = 'Section de cours supprimée';
 $string['eventcoursesectionupdated'] = 'Section de cours modifiée';
 $string['eventcourseupdated'] = 'Cours modifié';
 $string['eventcourseuserreportviewed'] = 'Rapport de cours utilisateur consulté';
@@ -731,6 +731,7 @@ $string['eventcourseviewed'] = 'Cours consulté';
 $string['eventemailfailed'] = 'Envoi de courriel échoué';
 $string['eventname'] = 'Nom de l\'événement';
 $string['eventrecentactivityviewed'] = 'Activités récentes consultées';
+$string['eventsearchindexed'] = 'Données de recherche indéxées';
 $string['eventunknownlogged'] = 'Événement inconnu';
 $string['eventusercreated'] = 'Utilisateur créé';
 $string['eventuserdeleted'] = 'Utilisateur supprimé';
@@ -959,7 +960,7 @@ $string['interestslist'] = 'Liste des centres d\'intérêt';
 $string['interestslist_help'] = 'Veuillez saisir vos centres d\'intérêt. Vos centres d\'intérêt sont affichés sur votre page de profil comme des tags.';
 $string['invalidemail'] = 'Adresse de courriel incorrecte';
 $string['invalidlogin'] = 'La connexion a échoué, veuillez réessayer';
-$string['invalidusername'] = 'Le nom d\'utilisateur ne peut comporter que des lettre bas de casse, les caractères souligné (_), tiret (-), point (.) ou arobase (@).';
+$string['invalidusername'] = 'Le nom d\'utilisateur ne peut comporter que des caractères alphanumériques bas de casse (lettres et chiffres), les caractères souligné (_), tiret (-), point (.) ou arobase (@).';
 $string['invalidusernameupload'] = 'Nom d\'utilisateur non valide';
 $string['ip_address'] = 'Adresse IP';
 $string['jump'] = 'Sauter';
@@ -984,6 +985,7 @@ $string['lastyear'] = 'Année passée';
 $string['latestlanguagepack'] = 'Chercher les derniers paquetages de langue sur moodle.org';
 $string['layouttable'] = 'Tableau pour mise en page';
 $string['leavetokeep'] = 'Laisser vide pour ne pas changer le mot de passe';
+$string['legacylogginginuse'] = 'L\'écriture des historiques obsolètes est activée sur ce site. Ceci n\'est désormais plus supporté. Veuillez modifier les réglages pour enregistrer les historiques d\'une manière supportée actuellement, par exemple « standard » ou « externe ».';
 $string['legacythemeinuse'] = 'Ce site vous est affiché en mode dégradé, car votre navigateur est trop ancien,';
 $string['license'] = 'Licence';
 $string['licenses'] = 'Licences';
@@ -1010,18 +1012,7 @@ $string['loginaspasswordexplain'] = '<p>Pour utiliser cette fonction, vous devez
 $string['login_failure_logs'] = 'Historique des tentatives de connexion';
 $string['loginguest'] = 'Connexion anonyme';
 $string['loginsite'] = 'Se connecter sur le site';
-$string['loginsteps'] = '<p>Bonjour. Pour un accès complet aux cours, prenez une minute pour vous créer un compte personnel sur ce site.<br />
-Chaque cours peut également nécessiter une clef d\'inscription à usage unique dont vous n\'avez pas besoin pour l\'instant.</p>
-<p>Voici les étapes à suivre :</p>
-   <ol>
-   <li>Remplir le formulaire <a href="{$a}">nouveau compte</a>.</li>
-   <li>Un message vous sera immédiatement adressé par courriel.</li>
-   <li>Récupérer ce message et cliquer sur le lien Web qu\'il contient.</li>
-   <li>Votre inscription sera alors confirmée et vous serez connecté.</li>
-   <li>Vous pourrez ensuite choisir le cours auquel vous souhaitez vous inscrire.</li>
-   <li>Si une clef d\'inscription vous est demandée, utilisez celle que votre enseignant vous aura communiquée.</li>
-   <li>Vous aurez alors un accès au cours complet. À votre prochaine visite il vous suffira d\'entrer votre nom d\'utilisateur et mot de passe (dans le formulaire ci-contre) afin de vous connecter et d\'accéder à tous les cours auxquels vous serez inscrit.</li>
-   </ol>';
+$string['loginsteps'] = 'Pour un accès complet à ce site, veuillez créer un compte utilisateur.';
 $string['loginstepsnone'] = '<p>Bonjour !</p><p>Pour un accès complet aux cours vous devez vous créer un compte.</p><p>Pour cela, vous avez seulement besoin de choisir un nom d\'utilisateur et un mot de passe à entrer dans le formulaire de cette page.</p><p>Si ce nom d\'utilisateur est déjà utilisé, il vous sera demandé d\'en choisir un autre.</p>';
 $string['loginto'] = 'S\'inscrire à {$a}';
 $string['logout'] = 'Déconnexion';
@@ -1041,6 +1032,7 @@ $string['manageblocks'] = 'Blocs';
 $string['managecategorythis'] = 'Gérer cette catégorie';
 $string['managecourses'] = 'Gestion des cours';
 $string['managedatabase'] = 'Base de données';
+$string['managedataformats'] = 'Gérer les formats de données';
 $string['manageeditorfiles'] = 'Gérer les fichiers utilisés par l\'éditeur';
 $string['managefilters'] = 'Filtres';
 $string['managemodules'] = 'Modules';
@@ -1075,6 +1067,8 @@ $string['messageprovider:availableupdate'] = 'Notifications de mises à jour dis
 $string['messageprovider:backup'] = 'Notifications de sauvegarde';
 $string['messageprovider:badgecreatornotice'] = 'Notifications au créateur du badge';
 $string['messageprovider:badgerecipientnotice'] = 'Notifications au détenteur du badge';
+$string['messageprovider:competencyplancomment'] = 'Commentaire fait sur un plan de formation';
+$string['messageprovider:competencyusercompcomment'] = 'Commentaire fait sur une compétence';
 $string['messageprovider:courserequestapproved'] = 'Notification de demande d\'approbation de création de cours';
 $string['messageprovider:courserequested'] = 'Notification de demande de création de cours';
 $string['messageprovider:courserequestrejected'] = 'Notification de rejet de création de cours';
@@ -1169,6 +1163,7 @@ $string['myhome'] = 'Tableau de bord';
 $string['mymoodledashboard'] = 'Mon tableau de bord Moodle';
 $string['myprofile'] = 'Mon profil';
 $string['name'] = 'Nom';
+$string['namedfiletoolarge'] = 'Le fichier « {$a->filename} » est trop gros et ne peut pas être déposé.';
 $string['nameforlink'] = 'Comment voulez-vous dénommer ce lien ?';
 $string['nameforpage'] = 'Nom';
 $string['navigation'] = 'Navigation';
@@ -1179,6 +1174,7 @@ $string['never'] = 'Jamais';
 $string['neverdeletelogs'] = 'Ne jamais effacer les historiques';
 $string['new'] = 'Nouveau';
 $string['newaccount'] = 'Nouveau compte';
+$string['newactivityname'] = 'Nouveau nom pour l\'activité {$a}';
 $string['newcourse'] = 'Nouveau cours';
 $string['newpassword'] = 'Nouveau mot de passe';
 $string['newpasswordfromlost'] = '<strong>Attention !</strong> Votre <strong>Mot de passe actuel</strong> vous a été envoyé dans le <strong>deuxième</strong> des deux courriels envoyés durant le processus de récupération de mot de passe. Veuillez vous assurer que vous avez bien reçu votre mot de passe de remplacement avant de continuer sur cette page.';
@@ -1201,10 +1197,11 @@ Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site {$a->s
 {$a->signoff}';
 $string['newpicture'] = 'Nouvelle image';
 $string['newpicture_help'] = 'Pour ajouter une image, sélectionnez-en une en format JPG ou PNG, puis cliquez sur « Enregistrer mon profil ».  L\'image sera redimensionnée en un carré de 100x100 pixels.';
+$string['newsectionname'] = 'Nouveau nom pour la section {$a}';
 $string['newsitem'] = 'article';
 $string['newsitems'] = 'articles';
-$string['newsitemsnumber'] = 'Nouvelles à afficher';
-$string['newsitemsnumber_help'] = 'Ce réglage détermine le nombre d\'éléments à afficher dans le bloc des dernières nouvelles, sur la page du cours. S\'il est réglé à « 0 article », le bloc des dernières nouvelles ne sera pas affiché.';
+$string['newsitemsnumber'] = 'Annonces à afficher';
+$string['newsitemsnumber_help'] = 'Ce réglage détermine le nombre d\'éléments à afficher dans le bloc des dernières annonces, sur la page du cours. S\'il est réglé à « 0 article », le bloc des dernières annonces ne sera pas affiché.';
 $string['newuser'] = 'Nouvel utilisateur';
 $string['newusernewpasswordsubj'] = 'Nouveau compte utilisateur';
 $string['newusernewpasswordtext'] = 'Bonjour,
@@ -1232,7 +1229,7 @@ $string['no'] = 'Non';
 $string['noblockstoaddhere'] = 'Il n\'y a pas de bloc que vous puissiez ajouter à cette page.';
 $string['nobody'] = 'Personne';
 $string['nochange'] = 'Aucun changement';
-$string['nocomments'] = 'Pas de commentaire';
+$string['nocomments'] = 'Aucun commentaire';
 $string['nocourses'] = 'Aucun cours';
 $string['nocoursesfound'] = 'Aucun cours contenant les mots « {$a} » n\'a été trouvé';
 $string['nocoursesyet'] = 'Il n\'y a pas encore de cours';
@@ -1487,6 +1484,7 @@ $string['restorecoursenow'] = 'Restaurer ce cours maintenant!';
 $string['restoredaccount'] = 'Compte restauré';
 $string['restoredaccountinfo'] = 'Ce compte a été importé d\'un autre serveur et son mot de passe a été perdu. Pour définir un nouveau mot de passe par courriel, veuillez cliquer sur « Continuer »';
 $string['restorefinished'] = 'Restauration réussie';
+$string['restoremnethostidmismatch'] = 'L\'identifiant de l\'utilisateur {$a} sur le serveur MNet  ne correspond pas à l\'ID local du serveur MNet.';
 $string['restoreto'] = 'Restaurer vers';
 $string['restoretositeadding'] = 'Attention ! Vous allez restaurer des données en les ajoutant à la page d\'accueil du site !';
 $string['restoretositedeleting'] = 'Attention ! Vous allez restaurer des données sur la page d\'accueil du site, en supprimant certaines données existantes !';
@@ -1574,6 +1572,8 @@ $string['selectacourse'] = 'Sélectionner un cours';
 $string['selectacoursesite'] = 'Sélectionner un cours ou un site';
 $string['selectagroup'] = 'Sélectionner un groupe';
 $string['selectall'] = 'Tout sélectionner';
+$string['selectallusersonpage'] = 'Sélectionner tous les utilisateurs sur cette page';
+$string['selectalluserswithcount'] = 'Sélectionner les {$a} utilisateurs';
 $string['selectamodule'] = 'Veuillez choisir un module d\'activité';
 $string['selectanaction'] = 'Sélectionner une action';
 $string['selectanoptions'] = 'Sélectionner une option';
@@ -1893,25 +1893,6 @@ $string['viewmore'] = 'Voir plus';
 $string['viewprofile'] = 'Consulter le profil';
 $string['views'] = 'Affichages';
 $string['viewsolution'] = 'Afficher la solution';
-$string['virusfound'] = 'Attention ! Clam AV a détecté un virus dans un fichier déposé par {$a->user} dans le cours {$a->course}. Voici la sortie du programme clamscan :';
-$string['virusfoundlater'] = 'Le fichier que vous avez déposé le {$a->date}, dont le nom est {$a->filename} (dans le cours {$a->course}) contient un virus. Voici un résumé de ce qui est arrivé à votre fichier :
-
-{$a->action}
-
-S\'il s\'agissait d\'un devoir rendu (ou de tout autre document), vous devez le déposer à nouveau afin que l\'enseignant puisse le consulter.';
-$string['virusfoundlateradmin'] = 'Attention ! Un fichier déposé par l\'utilisateur {$a->user} le {$a->date}, dont le nom est {$a->filename} (dans le cours {$a->course}) contient un virus. Voici un résumé de ce qui est arrivé à ce fichier :
-
-{$a->action}
-
-L\'utilisateur en a été informé.';
-$string['virusfoundlateradminnolog'] = 'Attention ! Un fichier de nom {$a->filename} contient un virus. Moodle n\'a pas été capable de déterminer l\'utilisateur qui l\'avait déposé.
-
-Voici un résumé de ce qui est arrivé à ce fichier :
-
-{$a->action}';
-$string['virusfoundsubject'] = '{$a} : Virus détecté !';
-$string['virusfounduser'] = 'Le fichier que vous avez déposé, {$a->filename}, a été inspecté par un anti-virus et un virus y a été découvert ! Votre fichier n\'a donc pas été déposé.';
-$string['virusplaceholder'] = 'Un virus a été détecté dans ce fichier déposé. Il a été déplacé ou détruit, et l\'utilisateur en a été informé.';
 $string['visible'] = 'Visible';
 $string['visible_help'] = 'Cette option détermine si le cours apparaît ou non dans la liste des cours. Si le cours n\'est pas disponible, seuls les enseignants de ce cours et les administrateurs peuvent y entrer.';
 $string['visibletostudents'] = 'Visible pour les étudiants';

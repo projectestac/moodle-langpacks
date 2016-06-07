@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_standard', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'logstore_standard', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   logstore_standard
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['buffersize'] = 'Größe des Schreibpuffers';
-$string['pluginname'] = 'Standardlogdaten';
+$string['pluginname'] = 'Logdaten Standard';
 $string['pluginname_desc'] = 'Das Plugin speichert die Logdaten in der Moodle-Datenbank.';
 $string['taskcleanup'] = 'Logdaten bereinigen';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'chat', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,7 +44,7 @@ $string['chat:talk'] = 'Txatean hitz egin';
 $string['chattime'] = 'Hurrengo txat-saioaren ordua';
 $string['compact'] = 'Trinkoa';
 $string['composemessage'] = 'Idatzi mezua';
-$string['configmethod'] = 'Txataren ohiko metodoan erabiltzaileek aldiro konektatzen dute zerbitzariarekin eguneraketak egiteko. Ez du konfiguraziorik behar eta edonon funtzionatzen du baina zerbitzaria gainkarga dezake gelan erabiltzaile asko aldi berean ari badira. \'Daemon\'a erabiltzeak (bigarren mailako egikaritza-prozesu independentea)Unixerako sheell (komando-interpretaria) sarbidea eskatzen du, baina txat-giro arinago eta lorgarriagoa ematen du.';
+$string['configmethod'] = 'AJAX bidezko txat-metodoak AJAX bidezko txat-interfazea ematen du, aldiro konektatzen da zerbitzariarekin eguneraketak egiteko. Txataren ohiko metodoan erabiltzaileek aldiro konektatzen dute zerbitzariarekin eguneraketak egiteko. Ez du konfiguraziorik behar eta edonon funtzionatzen du baina zerbitzaria gainkarga dezake gelan erabiltzaile asko aldi berean ari badira. Zerbitzariko \'daemon\'a erabiltzeak Unixerako shell sarbidea eskatzen du, baina txat-giro arinago eta lorgarriagoa ematen du.';
 $string['confignormalupdatemode'] = 'HTTP 1.1ren <em>Keep-Alive</em> ezaugarria erabilita zerbitzatzen dira normalean txat-gelaren eguneraketak baina zerbitzariarentzat nahikoa gogorra da lan hau. Erabiltzaileei eguneraketak bidaltzeko metodo aurreratuagoa da <em>Stream</em> estrategia erabiltzea. <em>Stream</em> erabilita eskalamendu hobea lortzen da (chatd metodoaren antzekoa da) baina agian zure zerbitzariak ez du onartuko aukera hau.';
 $string['configoldping'] = 'Jarduerarik gabe zenbat denbora (segundutan) igarota pentsatu behar da erabiltzaileak utzi egin duela?';
 $string['configrefreshroom'] = 'Zenbat segunduro eguneratu behar da txataren orria? Balore baxuak elkarrizketa arinagoa ahalbidetuko du baina zerbitzariarentzat karga handia izan daiteke gelan lagun asko dagoenean.';
@@ -124,6 +124,7 @@ $string['repeattimes'] = 'Errepikatu/argitaratu saioen denbora';
 $string['repeatweekly'] = 'Astero ordu berean';
 $string['saidto'] = 'zera dio';
 $string['savemessages'] = 'Izan diren txat-saioak gorde';
+$string['search:activity'] = 'Txata - jardueraren informazioa';
 $string['seesession'] = 'Ikusi saio honetako txostena';
 $string['send'] = 'Bidali';
 $string['sending'] = 'Bidaltzen';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'glossary', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -274,6 +274,8 @@ $string['rssarticles_help'] = 'This setting specifies the number of glossary ent
 $string['rsssubscriberss'] = 'Display the RSS feed for \'{$a}\' concepts';
 $string['rsstype'] = 'RSS feed for this activity';
 $string['rsstype_help'] = 'To enable the RSS feed for this activity, select either concepts with author or concepts without author to be included in the feed.';
+$string['search:activity'] = 'Glossary - activity information';
+$string['search:entry'] = 'Glossary - entries';
 $string['searchindefinition'] = 'Search full text';
 $string['secondaryglossary'] = 'Secondary glossary';
 $string['showall'] = 'Show \'ALL\' link';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio_flickr', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'portfolio_flickr', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   portfolio_flickr
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,8 +30,8 @@ $string['contenttype'] = 'Eduki-motak';
 $string['err_noapikey'] = 'Ez dago API giltzarik';
 $string['err_noapikey_help'] = 'Ez dago plugin honetarako API giltzarik konfiguratuta. Flickr-en zerbitzu-orritik lor dezakezu honelako bat.';
 $string['hidefrompublicsearches'] = 'Irudi hauek bilaketa publikoetan ezkutatu?';
-$string['isfamily'] = 'Ikusgarri familiarentzat';
-$string['isfriend'] = 'Ikusgarri lagunentzat';
+$string['isfamily'] = 'Ikusgai familiarentzat';
+$string['isfriend'] = 'Ikusgai lagunentzat';
 $string['ispublic'] = 'Publikoa (edonork ikus dezake)';
 $string['moderate'] = 'Moderatu';
 $string['noauthtoken'] = 'Ezi izan da autentifikazio-token-ik berreskuratu saio honetan erabiltzeko';

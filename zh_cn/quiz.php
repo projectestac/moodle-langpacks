@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'zh_cn', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['addarandomquestion'] = '添加一道随机题';
 $string['addarandomquestion_help'] = '添加随机题后，会从类别中随机选出一道题，插入到测验中。也就是说，不同学生会得到不同的题。如果测验允许多次答题，那么每次答题都会看到不同的题。';
 $string['addarandomselectedquestion'] = '添加一个随机选择的问题...';
 $string['addasection'] = '一个新的章节标题';
-$string['adddescriptionlabel'] = '添加描述/标签';
+$string['adddescriptionlabel'] = '添加描述项目';
 $string['addingquestion'] = '添加一道试题';
 $string['addingquestions'] = '<p>页面的这一边用来管理题库。试题分门别类，以便管理。题库中的试题可用于您课程中的任何一次测验。如果您选择“发布”它们，则任何课程都可以使用这些题目。<br /><br />您在选择或创建类别后才能创建或编辑试题。您可以选择任何题目加入到另一边的测验中。</p>';
 $string['addmoreoverallfeedbacks'] = '再添加{no}个反馈域';
@@ -108,7 +108,7 @@ $string['attemptstate'] = '状态';
 $string['attemptstillinprogress'] = '仍在答题中';
 $string['attemptsunlimited'] = '不限答题次数';
 $string['autosaveperiod'] = '自动保存阶段';
-$string['autosaveperiod_desc'] = '学生在答题时，每隔几分钟，答题结果就会被自动保存。这涉及到一个平衡，保存答题结果会增加服务器的负担，但是不这样做就会造成学生丢失前面的成果。';
+$string['autosaveperiod_desc'] = '学生在答题时，每隔几分钟，答题结果就会被自动保存。这涉及到一个平衡，保存答题结果会增加服务器的负担，但是不这样做就会造成学生丢失前面的成果。间隔时间设为0时，会关闭自动保存功能。';
 $string['back'] = '返回预览试题';
 $string['backtocourse'] = '回到课程';
 $string['backtoquestionlist'] = '返回试题列表';
@@ -185,7 +185,7 @@ $string['configintro'] = '这里设置的值是您创建新测验时设置表单
 $string['configmaximumgrade'] = '测验成绩最高分的缺省值。';
 $string['confignavmethod'] = '在自由模式下，所有问题可以通过导航控件自由切换答题顺序。在顺序模式下，则必须按指定顺序答题。';
 $string['confignewpageevery'] = '在向测验添加试题时，会根据您在这里的设置决定是否自动插入分页符。';
-$string['configoutcomesadvanced'] = '';
+$string['configoutcomesadvanced'] = '若启用这选项，那这测验编辑表单上的成果，是属于高级设置。';
 $string['configpenaltyscheme'] = '在适应模式下，每次回答错误都会导致罚分。';
 $string['configpopup'] = '强制在弹出窗口中打开试卷，并尝试用 JavaScript 限制拷贝和粘贴等操作。';
 $string['configrequirepassword'] = '学生必须输入这个密码才可以尝试测验。';
@@ -201,9 +201,6 @@ $string['confirmclose'] = '一旦提交，您将不能再修改在这次答题�
 $string['confirmremovequestion'] = '要删除此{$a}题目吗？';
 $string['confirmremovesectionheading'] = '你确定要删除\'{$a}\'标题吗 ？';
 $string['confirmserverdelete'] = '确定要把服务器<b>{$a}</b>从列表删除吗？';
-$string['confirmstartattemptlimit'] = '此测验只能参加 {$a} 次。您确认要开始新一次答题吗？';
-$string['confirmstartattempttimelimit'] = '此测验有时间限制并且只能参加 {$a} 次。您确认想开始新一次答题吗？';
-$string['confirmstarttimelimit'] = '此测验有时间限制。您确认要开始吗？';
 $string['connectionerror'] = '网络连接断开（自动保存失败）。
 
 请记录下最近几分钟在本页面所键入的答题结果，然后尝试重新连接。
@@ -423,6 +420,8 @@ $string['incorrect'] = '错误';
 $string['indivresp'] = '每条的个人解答';
 $string['info'] = '信息';
 $string['infoshort'] = '信息';
+$string['initialnumfeedbacks'] = '整体反馈字段的初始数目';
+$string['initialnumfeedbacks_desc'] = '当建立一个新测验时，要提供几个空白的整体反馈框。测验一旦建立，就会生成测验中所需的反馈数量的字段数。该设置必须至少为1。';
 $string['inprogress'] = '进行中';
 $string['introduction'] = '描述';
 $string['invalidattemptid'] = '此试卷ID不存在';
@@ -445,6 +444,7 @@ $string['literal'] = '文字';
 $string['loadingquestionsfailed'] = '载入试题出错：{$a}';
 $string['makecopy'] = '另存为新题';
 $string['managetypes'] = '管理题目类型和服务器';
+$string['manualgradequestion'] = '用户{$a->user}在{$a->quiz}的人工评分试题 {$a->question}';
 $string['manualgrading'] = '分类';
 $string['mark'] = '提交';
 $string['markall'] = '提交此页';
@@ -464,13 +464,28 @@ $string['missingcorrectanswer'] = '必须指定正确答案';
 $string['missingitemtypename'] = '缺少名称';
 $string['missingquestion'] = '此题目好像不会再存在';
 $string['modulename'] = '测验';
-$string['modulename_help'] = '教师可以在测验模块中设计选择、判断、匹配等多种类型的题目。所有回答都会被自动评分。教师可以选择是否给予反馈、是否显示正确答案。';
+$string['modulename_help'] = '教师可以在测验模块中设计选择、填空、匹配、数字、判断、讨论等多种类型的题目。
+
+教师可以允许同一测验作答多次，并使用从题库随机抽题，试题顺序随机排列、选择题或匹配题选项随机排列等方式，以减少作弊的可能性。教师也可以设置测验开放日期，或每次作答的时间限制(会有倒计时)。
+
+除了讨论题外，每次作答都会自动评分，而分数会保存到成绩册上。
+
+教师可以提供三种反馈，答题时的提示（依选项而不同），做完该题后的一般反馈（都相同），以及做完测验之后的整体反馈（分成几个等级）。
+
+此测验用于：
+* 课程的正式考试
+* 每一单元的单元测验
+* 使用以往的旧题目做练习性测验
+* 提供学生表现立即反馈
+* 让学生自我评价';
 $string['modulenameplural'] = '测验';
 $string['moveselectedonpage'] = '移动已选定试题到 {$a} 页';
 $string['multichoice'] = '选择题';
 $string['multipleanswers'] = '选择至少一个答案';
 $string['mustbesubmittedby'] = '此试卷必须在 {$a} 以前提交。';
 $string['name'] = '名称';
+$string['navigatenext'] = '下一页';
+$string['navigateprevious'] = '上一页';
 $string['navmethod'] = '导航方式';
 $string['navmethod_free'] = '自由模式';
 $string['navmethod_help'] = '当启用顺序答题时，学生必须按试卷指定的顺序进行答题，既不能跳转回到前面已经作答的页面，也不能跳过某些页面去回答后面的题目。';
@@ -539,7 +554,7 @@ $string['orderandpaging_help'] = '每道题目后面的10、20、30这样的数�
 要将题目分配在几个页面，点击重新分页按钮，然后选择期望每页几道题。';
 $string['orderingquiz'] = '顺序与分页';
 $string['orderingquizx'] = '顺序和分页：{$a}';
-$string['outcomesadvanced'] = '结果是高级设置';
+$string['outcomesadvanced'] = '成果是高级设置';
 $string['outof'] = '{$a->grade}/满分{$a->maxgrade}';
 $string['outofpercent'] = '{$a->grade}/满分{$a->maxgrade} ({$a->percent}%)';
 $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';
@@ -742,12 +757,19 @@ $string['reviewimmediately'] = '刚刚答完';
 $string['reviewnever'] = '从不允许回顾';
 $string['reviewofattempt'] = '回顾第 {$a} 次答题';
 $string['reviewofpreview'] = '回顾预览';
+$string['reviewofquestion'] = '查看用户{$a->user}在{$a->quiz}的试题 {$a->question}';
 $string['reviewopen'] = '晚一些，但测验仍然开放';
 $string['reviewoptions'] = '学生可以回顾';
 $string['reviewoptionsheading'] = '回顾设置';
 $string['reviewoptionsheading_help'] = '当用户回顾试卷或看测验报告时，这些选项可以控制用户能看到什么信息。
 
-“刚刚答完”的意思是答完题目后的两分钟内。“晚一些，但测验仍然开放”的意思是答完2分钟后到测验关闭的这段时间。“测验关闭后”指的是已经过了测验关闭时间的时候。如果测验没有设定关闭时间，此状态不会生效。';
+**作答过程中**只能在某种作答方式上有效，如“直到答对法”在每次作答时都会显示反馈。
+
+**刚刚答完**的意思是答完题目后的两分钟内。
+
+**晚一些，但测验仍然开放**的意思是答完2分钟后到测验关闭的这段时间。
+
+**测验关闭后**指的是已经过了测验关闭时间的时候。如果测验没有设定关闭时间，此状态不会生效。';
 $string['reviewoverallfeedback'] = '总体反馈';
 $string['reviewoverallfeedback_help'] = '本反馈出现在试卷的最后，根据学生的的总分有不同的反馈。';
 $string['reviewresponse'] = '检查答案';
@@ -770,6 +792,7 @@ $string['savingnewgradeforquestion'] = '为题目 id {$a} 保存新成绩。';
 $string['savingnewmaximumgrade'] = '保存新最高分。';
 $string['score'] = '原始分数';
 $string['scores'] = '分数';
+$string['search:activity'] = '测验活动信息';
 $string['sectionheadingedit'] = '编辑标题\'{$a}\'';
 $string['sectionheadingremove'] = '删除标题\'{$a}\'';
 $string['seequestions'] = '（见题）';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_multichoice', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,8 +55,8 @@ $string['overallfeedback'] = 'Gesamt-Feedback';
 $string['overallincorrectfeedback'] = 'Feedback bei Auswahl aller falschen Antworten';
 $string['overallpartiallycorrectfeedback'] = 'Feedback für teilrichtige Antworten';
 $string['partiallycorrectfeedback'] = 'Für alle teilrichtigen Antworten';
-$string['pleaseselectananswer'] = 'Bitte wählen Sie eine Antwort';
-$string['pleaseselectatleastoneanswer'] = 'Bitte wählen Sie mindestens eine Antwort';
+$string['pleaseselectananswer'] = 'Bitte wählen Sie eine Antwort.';
+$string['pleaseselectatleastoneanswer'] = 'Bitte wählen Sie mindestens eine Antwort.';
 $string['pluginname'] = 'Multiple-Choice';
 $string['pluginnameadding'] = 'Multiple-Choice-Frage hinzufügen';
 $string['pluginnameediting'] = 'Multiple-Choice-Frage bearbeiten';
@@ -67,4 +67,4 @@ $string['selectone'] = 'Wählen Sie eine Antwort:';
 $string['shuffleanswers'] = 'Antworten mischen?';
 $string['shuffleanswers_help'] = 'Wenn aktiviert ist die Reihenfolge der Antworten bei jedem Versuch zufällig, sofern die Option "In Fragen zufällig mischen" aktiviert ist.';
 $string['singleanswer'] = 'Antwort wählen:';
-$string['toomanyselected'] = 'Sie haben zu viele Optionen gewählt';
+$string['toomanyselected'] = 'Sie haben zu viele Optionen gewählt.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'scorm', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -316,7 +316,7 @@ $string['report'] = 'Rapport';
 $string['reportcountallattempts'] = '{$a->nbattempts} pogingen voor {$a->nbusers} gebruikers, van {$a->nbresults} resultaten';
 $string['reportcountattempts'] = '{$a->nbresults} resultaten ({$a->nbusers} gebruikers)';
 $string['reports'] = 'Rapporten';
-$string['repositorynotsupported'] = 'Deze opslagruimte ondersteunt het rechtstreeks linken naar een imsmanifest.xml-bestand niet.';
+$string['repositorynotsupported'] = 'Enkel bestandsystemen, gebaseerd op een bestandssysteem worden ondersteund voor het rechtsreeks linken naar een imsmanifest.xml-bestand';
 $string['response'] = 'Antwoord';
 $string['result'] = 'Resultaat';
 $string['results'] = 'Resultaten';

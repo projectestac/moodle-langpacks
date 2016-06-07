@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'choice', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,7 +56,9 @@ $string['displayhorizontal'] = 'Display horizontally';
 $string['displaymode'] = 'Display mode for the options';
 $string['displayvertical'] = 'Display vertically';
 $string['eventanswercreated'] = 'Choice made';
+$string['eventanswerdeleted'] = 'Choice answer deleted';
 $string['eventanswerupdated'] = 'Choice updated';
+$string['eventreportdownloaded'] = 'Choice report downloaded';
 $string['eventreportviewed'] = 'Choice report viewed';
 $string['expired'] = 'Sorry, this activity closed on {$a} and is no longer available';
 $string['full'] = '(Full)';
@@ -112,6 +114,7 @@ $string['responsesresultgraphheader'] = 'Graph display';
 $string['responsesto'] = 'Responses to {$a}';
 $string['results'] = 'Results';
 $string['savemychoice'] = 'Save my choice';
+$string['search:activity'] = 'Choice - activity information';
 $string['showpreview'] = 'Show preview';
 $string['showpreview_help'] = 'Allow students to preview the available options before the choice is opened for submission.';
 $string['showunanswered'] = 'Show column for unanswered';

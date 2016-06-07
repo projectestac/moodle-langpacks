@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'moodle', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,6 +42,7 @@ $string['activityreport'] = 'Aktivitäten';
 $string['activityreports'] = 'Aktivitäten';
 $string['activityselect'] = 'Wählen Sie eine Aktivität aus, um sie zu verschieben';
 $string['activitysince'] = 'Aktivität seit {$a}';
+$string['activitytypetitle'] = '{$a->activity} - {$a->type}';
 $string['activityweighted'] = 'Aktivitäten pro Nutzer/in';
 $string['add'] = 'Hinzufügen';
 $string['addactivity'] = 'Aktivität anlegen...';
@@ -98,7 +99,7 @@ $string['adminhelpmanagedatabase'] = 'Direkt auf die Datenbank zugreifen (Vorsic
 $string['adminhelpmanagefilters'] = 'Textfilter und deren Einstellungen verwalten';
 $string['adminhelpmanagemodules'] = 'Installierte Aktivitätsmodule und deren Einstellungen verwalten';
 $string['adminhelpmanageroles'] = 'Rollen definieren, die an Nutzer/innen zugewiesen werden können';
-$string['adminhelpmymoodle'] = 'Blöcke für \'Meine Startseite\' festlegen';
+$string['adminhelpmymoodle'] = 'Blöcke für Dashboard festlegen';
 $string['adminhelpreports'] = 'Logdaten der Website anzeigen';
 $string['adminhelpsitefiles'] = 'Dateien veröffentlichen oder externe Datensicherungen hochladen';
 $string['adminhelpsitesettings'] = 'Aufbau der Startseite festlegen';
@@ -259,17 +260,6 @@ $string['choosereportfilter'] = 'Filter für den Bericht auswählen';
 $string['choosetheme'] = 'Design auswählen';
 $string['chooseuser'] = 'Nutzer/in auswählen';
 $string['city'] = 'Stadt/Ort';
-$string['clambroken'] = 'Die Virenprüfung für hochgeladene Dateien wurde aktiviert. Ein Fehler ist aufgetreten und die Datei konnte nicht hochgeladen werden. Die Administrator/innen wurden per E-Mail benachrichtigt.';
-$string['clamdeletedfile'] = 'Die Datei wurde gelöscht';
-$string['clamdeletedfilefailed'] = 'Die Datei konnte nicht gelöscht werden';
-$string['clamemailsubject'] = '{$a} :: ClamAV Mitteilung';
-$string['clamfailed'] = 'ClamAV wurde nicht vollständig ausgeführt. Die Fehlermeldung lautet: {$a}.';
-$string['clamlost'] = 'Moodle verwendet ClamAV zur Virenprüfung für hochgeladene Dateien, aber der Pfad für ClamAV {$a} ist ungültig.';
-$string['clamlostandactinglikevirus'] = 'Moodle wurde konfiguriert, dass Dateien nach dem Hochladen als virenverdächtig eingestuft werden, sobald Probleme bei der Ausführung von ClamAV auftreten. Weitere Dateien können nicht hochgeladen werden, solange der Fehler nicht behoben ist.';
-$string['clammovedfile'] = 'Die Datei wurde ins Quarantäne-Verzeichnis verschoben. Die neue Link lautet {$a}';
-$string['clammovedfilebasic'] = 'Die Datei wurde ins Quarantäne-Verzeichnis verschoben.';
-$string['clamquarantinedirfailed'] = 'Die Datei konnte nicht ins Quarantäne-Verzeichnis {$a} verschoben werden. Sie müssen den Fehler beheben, denn  bis auf weiteres werden alle Dateien gelöscht, die als virenverdächtig eingestuft werden.';
-$string['clamunknownerror'] = 'Ein unbekannter Fehler ist bei ClamAV aufgetreten.';
 $string['cleaningtempdata'] = 'Temporäre Dateien löschen';
 $string['clear'] = 'Löschen';
 $string['clickhelpiconformoreinfo'] = '... zum Weiterlesen auf das Hilfe-Icon klicken';
@@ -305,7 +295,7 @@ $string['cookiesenabled_help'] = 'Moodle benutzt zwei Cookies:
 
 Das wichtige Cookie heißt <b>MoodleSession</b>. Dieses Cookie muss erlaubt sein, damit Ihr Login bei den Zugriffen von Seite zu Seite erhalten bleibt. Beim Abmelden oder beim Beenden des Webbrowsers wird das Cookie automatisch gelöscht.
 
-Das andere Cookie dient der Bequemlichkeitund heißt standardmäßig <b>MoodleID</b>. Dieses Cookie speichert den Anmeldenamen im Webbrowser und bleibt auch nach dem Abmelden erhalten. Beim nächsten Login ist dann Ihr Anmeldename bereits eingetragen. Dieses Cookie können Sie verbieten, müssen dann aber bei jedem Login Ihren Anmeldenamen neu eingeben.';
+Das andere Cookie dient der Bequemlichkeit und heißt standardmäßig <b>MoodleID</b>. Dieses Cookie speichert den Anmeldenamen im Webbrowser und bleibt auch nach dem Abmelden erhalten. Beim nächsten Login ist dann Ihr Anmeldename bereits eingetragen. Dieses Cookie können Sie verbieten, müssen dann aber bei jedem Login Ihren Anmeldenamen neu eingeben.';
 $string['cookiesnotenabled'] = 'Cookies sind in Ihrem Browser leider deaktiviert';
 $string['copy'] = 'Kopieren';
 $string['copyasnoun'] = 'Kopie';
@@ -462,6 +452,7 @@ $string['databaseupgradeblocks'] = 'Blockversion ist jetzt {$a}';
 $string['databaseupgradegroups'] = 'Gruppenversion ist jetzt {$a}';
 $string['databaseupgradelocal'] = 'Version der lokalen Datenbank ist jetzt {$a}';
 $string['databaseupgrades'] = 'Datenbank wird aktualisiert';
+$string['dataformats'] = 'Datenformate';
 $string['date'] = 'Datum';
 $string['datechanged'] = 'Datum geändert';
 $string['datemostrecentfirst'] = 'Datum - neuestes zuerst';
@@ -578,6 +569,7 @@ $string['editorresettodefaults'] = 'Auf Standardwerte zurücksetzen';
 $string['editorsettings'] = 'Einstellungen für den Editor';
 $string['editorshortcutkeys'] = 'Tastaturkürzel im Editor';
 $string['editsection'] = 'Abschnitt bearbeiten';
+$string['editsectionname'] = 'Abschnittsname bearbeiten';
 $string['editsettings'] = 'Einstellungen';
 $string['editsummary'] = 'Bearbeiten';
 $string['editthisactivity'] = 'Aktivität bearbeiten';
@@ -585,7 +577,7 @@ $string['editthiscategory'] = 'Kursbereich bearbeiten';
 $string['edittitle'] = 'Titel bearbeiten';
 $string['edittitleinstructions'] = 'Abbrechen mit \'esc\', bestätigen mit \'enter\'';
 $string['edituser'] = 'Nutzerkonten bearbeiten';
-$string['edulevel'] = 'Bildungsniveau';
+$string['edulevel'] = 'Alle Ereignisse';
 $string['edulevelother'] = 'Andere';
 $string['edulevelparticipating'] = 'Teilnehmend';
 $string['edulevelteacher'] = 'Unterrichtend';
@@ -748,6 +740,7 @@ $string['eventcoursemoduleviewed'] = 'Kursmodul angezeigt';
 $string['eventcourseresetended'] = 'Kursrücksetzung beendet';
 $string['eventcourseresetstarted'] = 'Kursrücksetzung begonnen';
 $string['eventcourserestored'] = 'Kurs wiederhergestellt';
+$string['eventcoursesectiondeleted'] = 'Kursabschnitt gelöscht';
 $string['eventcoursesectionupdated'] = 'Kursabschnitt aktualisiert';
 $string['eventcourseupdated'] = 'Kurs aktualisiert';
 $string['eventcourseuserreportviewed'] = 'Nutzerübersicht für Kurs angezeigt';
@@ -755,6 +748,7 @@ $string['eventcourseviewed'] = 'Kurs angezeigt';
 $string['eventemailfailed'] = 'Fehler beim Senden der E-Mail';
 $string['eventname'] = 'Ereignisname';
 $string['eventrecentactivityviewed'] = 'Letzte Aktivität angezeigt';
+$string['eventsearchindexed'] = 'Suchdaten indiziert';
 $string['eventunknownlogged'] = 'Unbekanntes Ereignis';
 $string['eventusercreated'] = 'Nutzerkonto angelegt';
 $string['eventuserdeleted'] = 'Nutzerkonto gelöscht';
@@ -924,7 +918,7 @@ $string['hiddensectionsinvisible'] = 'Vollständig unsichtbar';
 $string['hide'] = 'Verbergen';
 $string['hideadvancedsettings'] = 'Optionale Felder verbergen';
 $string['hidepicture'] = 'Bild verbergen';
-$string['hidesection'] = 'Bereich {$a} verbergen';
+$string['hidesection'] = 'Abschnitt {$a} verbergen';
 $string['hidesettings'] = 'Einstellungen verbergen';
 $string['hideshowblocks'] = 'Blöcke sichtbar/verbergen';
 $string['highlight'] = 'Hervorheben';
@@ -982,7 +976,7 @@ $string['includenoneusers'] = 'Nicht-Nutzer/innen einbeziehen';
 $string['includeroleassignments'] = 'Rollenzuordnungen einbeziehen';
 $string['includesitefiles'] = 'In Kursen benutzte Dateien der Website einbeziehen';
 $string['includeuserfiles'] = 'Nutzerdateien einbeziehen';
-$string['increasesections'] = 'Anzahl der Abschnitte erhöhen';
+$string['increasesections'] = 'Anzahl der Abschnitte vergrößern';
 $string['info'] = 'Informationen';
 $string['institution'] = 'Institution';
 $string['instudentview'] = 'Teilnehmeransicht';
@@ -1016,6 +1010,7 @@ $string['lastyear'] = 'Letztes Jahr';
 $string['latestlanguagepack'] = 'Neuere Version des Sprachpakets suchen';
 $string['layouttable'] = 'Layout-Tabelle';
 $string['leavetokeep'] = 'Feld leer lassen, um das gegenwärtige Kennwort zu behalten';
+$string['legacylogginginuse'] = 'Für diese Website werden die Logdaten aktuell über das Plugin \'Alte Logdaten\' aufgezeichnet. Dieses Verfahren ist veraltet. Verwenden Sie stattdessen bitte \'Logdaten Standard\' oder \'Logdaten Extern\'.';
 $string['legacythemeinuse'] = 'Diese Website wird im Kompatibilitätsmodus angezeigt, weil Ihr Browser zu alt ist.';
 $string['license'] = 'Lizenz';
 $string['licenses'] = 'Lizenzen';
@@ -1080,6 +1075,7 @@ $string['manageblocks'] = 'Blöcke';
 $string['managecategorythis'] = 'Kursbereich verwalten';
 $string['managecourses'] = 'Kurse verwalten';
 $string['managedatabase'] = 'Datenbank';
+$string['managedataformats'] = 'Datenformate verwalten';
 $string['manageeditorfiles'] = 'Dateien verwalten, die vom Autor genutzt werden';
 $string['managefilters'] = 'Filter';
 $string['managemodules'] = 'Module';
@@ -1118,6 +1114,8 @@ $string['messageprovider:availableupdate'] = 'Mitteilung bei verfügbaren Aktual
 $string['messageprovider:backup'] = 'Mitteilung zur Sicherung';
 $string['messageprovider:badgecreatornotice'] = 'Nachrichten an Ersteller von Auszeichnungen';
 $string['messageprovider:badgerecipientnotice'] = 'Nachrichten an Empfänger von Auszeichnungen';
+$string['messageprovider:competencyplancomment'] = 'Lehrplankommentar posten';
+$string['messageprovider:competencyusercompcomment'] = 'Kompetenzkommentar posten';
 $string['messageprovider:courserequestapproved'] = 'Mitteilung bei genehmigter Kursbeantragung';
 $string['messageprovider:courserequested'] = 'Mitteilung bei Kursbeantragung';
 $string['messageprovider:courserequestrejected'] = 'Mitteilung bei abgelehnter Kursbeantragung';
@@ -1197,7 +1195,7 @@ $string['movefull'] = '{$a} an diese Stelle schieben';
 $string['movehere'] = 'Hierher schieben';
 $string['moveleft'] = 'Nach links schieben';
 $string['moveright'] = 'Nach rechts schieben';
-$string['movesection'] = 'Bereich {$a} verschieben';
+$string['movesection'] = 'Abschnitt {$a} verschieben';
 $string['moveselectedcategoriesto'] = 'Ausgewählte Kursbereiche schieben nach';
 $string['moveselectedcoursesto'] = 'Ausgewählte Kurse schieben nach ...';
 $string['movetoanotherfolder'] = 'In ein anderes Verzeichnis schieben';
@@ -1212,6 +1210,7 @@ $string['myhome'] = 'Dashboard';
 $string['mymoodledashboard'] = 'Mein Bereich';
 $string['myprofile'] = 'Mein Profil';
 $string['name'] = 'Name';
+$string['namedfiletoolarge'] = 'Die Datei \'{$a->filename}\' ist zu groß und kann nicht hochgeladen werden.';
 $string['nameforlink'] = 'Wie möchten Sie diesen Link nennen?';
 $string['nameforpage'] = 'Name';
 $string['navigation'] = 'Navigation';
@@ -1221,6 +1220,7 @@ $string['never'] = 'Nie';
 $string['neverdeletelogs'] = 'Logdaten nie löschen';
 $string['new'] = 'Neu';
 $string['newaccount'] = 'Neuer Zugang';
+$string['newactivityname'] = 'Neuer Name für Aktivität {$a}';
 $string['newcourse'] = 'Neuer Kurs';
 $string['newpassword'] = 'Neues Kennwort';
 $string['newpasswordfromlost'] = '<strong>Hinweis:</strong> Ihr <strong> Ersatzkennwort </strong> wurde Ihnen mit einer <strong>zweiten E-Mail</strong> zugeschickt. Sie können sich jetzt nur noch mit dem neuen Ersatzkennwort einloggen.';
@@ -1241,6 +1241,7 @@ Viel Erfolg!
 {$a->signoff}';
 $string['newpicture'] = 'Neues Foto';
 $string['newpicture_help'] = 'Um ein neues Bild hinzuzufügen, wählen Sie ein Bild im Format GIF, JPG oder PNG auf Ihrem lokalen Computer aus und drücken abschließend die Taste "Profil aktualisieren". Das Bild sollte ein quadratisches Format von 100x100 Pixel haben, andernfalls wird es von Moodle automatisch als Quadrat beschnitten und in die Zielgröße verändert.';
+$string['newsectionname'] = 'Neuer Name für Abschnitt {$a}';
 $string['newsitem'] = 'Nachricht';
 $string['newsitems'] = 'Nachrichten';
 $string['newsitemsnumber'] = 'Anzahl neuer Nachrichten';
@@ -1267,7 +1268,7 @@ Viel Erfolg!
 $string['newusers'] = 'Neue Nutzer/innen';
 $string['newwindow'] = 'Neues Fenster';
 $string['next'] = 'Weiter';
-$string['nextsection'] = 'Nächster Bereich';
+$string['nextsection'] = 'Nächster Abschnitt';
 $string['no'] = 'Nein';
 $string['noblockstoaddhere'] = 'Es gibt keine Blöcke, die Sie zu dieser Seite hinzufügen können';
 $string['nobody'] = 'Niemand';
@@ -1431,7 +1432,7 @@ $string['potentialcreators'] = 'Mögliche Kursersteller/innen';
 $string['potentialstudents'] = 'Mögliche Teilnehmer/innen';
 $string['potentialteachers'] = 'Mögliche Trainer/innen';
 $string['preferences'] = 'Einstellungen';
-$string['preferredlanguage'] = 'Bevorzugte Sprache';
+$string['preferredlanguage'] = 'Sprache wählen';
 $string['preferredtheme'] = 'Bevorzugtes Design';
 $string['preprocessingbackupfile'] = 'Vorbereitung der Sicherung';
 $string['prev'] = 'Zurück';
@@ -1440,7 +1441,7 @@ $string['previewhtml'] = 'Vorschau im HTML-Format';
 $string['previeworchoose'] = 'Vorschau oder Auswahl eines Designs';
 $string['previous'] = 'Zurück';
 $string['previouslyselectedusers'] = 'Früher gewählte Nutzer passen nicht zu \'{$a}\'';
-$string['previoussection'] = 'Vorheriger Bereich';
+$string['previoussection'] = 'Vorheriger Abschnitt';
 $string['primaryadminsetup'] = 'Account für Hauptadmin';
 $string['privatefiles'] = 'Meine Dateien';
 $string['private_files_handler'] = 'Option zum Speichern von als E-Mail-Anhang versandten Dateien im Bereich \'Meine Dateien\'';
@@ -1462,7 +1463,7 @@ $string['recentactivityreport'] = 'Alle Aktivitäten der letzten Zeit';
 $string['recipientslist'] = 'Empfängerliste';
 $string['recreatedcategory'] = 'Wiederhergestellter Kursbereich {$a}';
 $string['redirect'] = 'Weiterleiten';
-$string['reducesections'] = 'Anzahl der Abschnitte reduzieren';
+$string['reducesections'] = 'Anzahl der Abschnitte verkleinern';
 $string['refresh'] = 'Aktualisieren';
 $string['refreshingevents'] = 'Termine aktualisieren';
 $string['registration'] = 'Moodle-Registrierung';
@@ -1638,6 +1639,8 @@ $string['selectacourse'] = 'Kurs auswählen';
 $string['selectacoursesite'] = 'Kurs oder Website auswählen';
 $string['selectagroup'] = 'Gruppe auswählen';
 $string['selectall'] = 'Alle auswählen';
+$string['selectallusersonpage'] = 'Alle Nutzer/innen auf dieser Seite auswählen';
+$string['selectalluserswithcount'] = 'Alle {$a} Nutzer/innen auswählen';
 $string['selectamodule'] = 'Wählen Sie bitte ein Aktivitätsmodul aus';
 $string['selectanaction'] = 'Aktion auswählen';
 $string['selectanoptions'] = 'Option auswählen';
@@ -1668,7 +1671,7 @@ $string['settings'] = 'Einstellungen';
 $string['shortname'] = 'Kurzbezeichnung';
 $string['shortnamecollisionwarning'] = '[*] = Diese Kurzbezeichnung wird bereits für einen anderen Kurs genutzt. Bitte ändern Sie den Eintrag.';
 $string['shortnamecourse'] = 'Kurzer Kursname';
-$string['shortnamecourse_help'] = 'Der kurze Kursname wird an verschiedenen Stellen genutzt, an denen der vollständige Kursname nicht passen würde ist (z.B. in der Navigation oder in der Betreffzeile von E-Mails).';
+$string['shortnamecourse_help'] = 'Der kurze Kursname wird an verschiedenen Stellen genutzt, an denen der vollständige Kursname nicht passen würde (z.B. in der Navigation oder in der Betreffzeile von E-Mails).';
 $string['shortnametaken'] = 'Die Kurzbezeichnung wird bereits für einen anderen Kurs ({$a}) verwendet.';
 $string['shortnameuser'] = 'Nutzername (kurz)';
 $string['shortsitename'] = 'Kurzbezeichnung';
@@ -1883,8 +1886,8 @@ $string['unzippingbackup'] = 'Sicherung entpacken';
 $string['up'] = 'Aufwärts';
 $string['update'] = 'Aktualisieren';
 $string['updated'] = '{$a} aktualisiert';
-$string['updatemymoodleoff'] = 'Meine Startseite ist fertig';
-$string['updatemymoodleon'] = 'Meine Startseite bearbeiten';
+$string['updatemymoodleoff'] = 'Dashboard ist fertig';
+$string['updatemymoodleon'] = 'Dashboard bearbeiten';
 $string['updatemyprofile'] = 'Profil aktualisieren';
 $string['updatesevery'] = 'Alle {$a} Sekunden aktualisieren';
 $string['updatethis'] = '{$a} aktualisieren';
@@ -1963,21 +1966,6 @@ $string['viewmore'] = 'Mehr anzeigen';
 $string['viewprofile'] = 'Profil anzeigen';
 $string['views'] = 'Zugriffe';
 $string['viewsolution'] = 'Lösung anzeigen';
-$string['virusfound'] = 'Achtung! ClamAV hat einen Virus in der Datei von Nutzer/in {$a->user} im Kurs {$a->course} gefunden. Bericht von ClamAV:';
-$string['virusfoundlater'] = 'Die Datei mit dem Namen {$a->filename}, hochgeladen am {$a->date} im Kurs {$a->course}, kann einen Virus enthalten. Hier ist eine Information, was mit der Datei passiert ist:<br />
-{$a->action}
-
-Falls es sich um eine wichtige Datei handelt, die Ihre Trainer/innen erhalten sollte, müssen Sie die Datei evtl. erneut hochladen.';
-$string['virusfoundlateradmin'] = 'Achtung!! Die Datei mit dem Namen {$a->filename}, hochgeladen am {$a->date} im Kurs {$a->course} von {$a->user}, kann einen Virus enthalten. Hier ist eine Information, was mit der Datei passiert ist:<br />
-{$a->action}
-
-Eine Nutzernachricht wurde ebenfalls versandt.';
-$string['virusfoundlateradminnolog'] = 'Achtung!! Eine Datei mit dem Namen {$a->filename} kann einen Virus enthalten.
-Moodle konnte nicht zurückverfolgen, wer diese Datei hochgeladen hat. Hier ist eine  Information, was mit der Datei passiert ist:<br />
-{$a->action}';
-$string['virusfoundsubject'] = '{$a}: Virus gefunden!';
-$string['virusfounduser'] = 'Die von Ihnen hochgeladene Datei {$a->filename} wurde von einem Virenschutzprogramm geprüft und scheint infiziert zu sein. Das Hochladen der Datei war nicht erfolgreich.';
-$string['virusplaceholder'] = 'Die hochgeladene Datei ist virenverdächtig. Die Datei wurde verschoben oder gelöscht. Eine Nutzernachricht wurde versandt.';
 $string['visible'] = 'Sichtbar';
 $string['visible_help'] = 'Diese Option legt fest, ob der Kurs in der Kursliste verfügbar ist. Außer Trainer/innen und Admistrator/innen kann niemand den Kurs betreten.';
 $string['visibletostudents'] = 'Sichtbar für {$a}';

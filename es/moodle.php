@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'moodle', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -260,17 +260,6 @@ $string['choosereportfilter'] = 'Elegir un filtro para el informe';
 $string['choosetheme'] = 'Elegir tema gráfico';
 $string['chooseuser'] = 'Seleccionar un usuario';
 $string['city'] = 'Ciudad';
-$string['clambroken'] = 'Su administrador ha habilitado el chequeo de virus para archivos subidos, pero algo está mal configurado.<br />La subida de archivos NO ha sido posible. Se ha enviado un email a su administrador para que corrija el problema.<br />Intente subir el archivo más tarde.';
-$string['clamdeletedfile'] = 'El archivo ha sido eliminado';
-$string['clamdeletedfilefailed'] = 'El archivo no ha podido eliminarse';
-$string['clamemailsubject'] = '{$a} :: Notificación Clam AV';
-$string['clamfailed'] = 'Clam AV no se ha ejecutado. El mensaje de error de retorno es {$a}. Éste es el output de Clam:';
-$string['clamlost'] = 'Moodle está configurado para ejecutar Clam al cargar un archivo, pero la ruta para Clam AV, {$a}, no es válida.';
-$string['clamlostandactinglikevirus'] = 'Además, Moodle está configurado de modo que si Clam no funciona, los archivos son tratados como si fueran virus. Esto, en esencia, significa que ningún estudiante puede subir archivos hasta que el problema se solucione.';
-$string['clammovedfile'] = 'El archivo ha sido movido al directorio de cuarentena que usted ha especificado, y su nueva ubicación es {$a}';
-$string['clammovedfilebasic'] = 'El archivo ha sido trasladado al directorio de cuarentena.';
-$string['clamquarantinedirfailed'] = 'No se ha podido trasladar el archivo al directorio de cuarentena {$a} que usted ha especificado. Necesita corregir esto puesto que los archivos deben eliminarse si están infectados.';
-$string['clamunknownerror'] = 'Se ha producido un error desconocido con Clam.';
 $string['cleaningtempdata'] = 'Borrando archivos temporales';
 $string['clear'] = 'Limpiar';
 $string['clickhelpiconformoreinfo'] = '...continúa... Haga clic en el icono de ayuda para leer el artículo completo';
@@ -2022,21 +2011,6 @@ $string['viewmore'] = 'Ver más';
 $string['viewprofile'] = 'Ver perfil';
 $string['views'] = 'Vistas';
 $string['viewsolution'] = 'ver solución';
-$string['virusfound'] = '¡Atención, administrador! Clam AV ha encontrado un virus en el archivo subido por el usuario {$a->user} en el curso {$a->course}. Éste es el mensaje de salida de clamscan:';
-$string['virusfoundlater'] = 'Un archivo que usted subió el {$a->date} denominado {$a->filename} en el curso {$a->course} contiene un virus. He aquí un resumen de lo que ha ocurrido con el archivo:
-
-{$a->action}
-
-Si se trata de un trabajo enviado, reenvíelo para que su tutor pueda verlo.';
-$string['virusfoundlateradmin'] = '¡Atención, administrador! Un archivo subido el {$a->date} denominado {$a->filename} en el curso {$a->course} por el usuario {$a->user} contiene un virus. He aquí un resumen de lo que ha ocurrido con el archivo:
-
-{$a->action}
-
-El usuario ha sido también avisado';
-$string['virusfoundlateradminnolog'] = '¡Atención, administrador! Un archivo subido denominado {$a->filename} contiene un virus. Moodle ha sido incapaz de devolver este archivo al usuario que lo subió. He aquí un resumen de lo que ha ocurrido con el archivo: {$a->action}';
-$string['virusfoundsubject'] = '{$a}: ¡Se ha encontrado un virus!';
-$string['virusfounduser'] = 'El archivo subido, {$a->filename}, ha sido escaneado por un antivirus y está infectado. NO se ha podido subir.';
-$string['virusplaceholder'] = 'El archivo subido contenía un virus y ha sido trasladado o eliminado. Se ha comunicado al usuario.';
 $string['visible'] = 'Visible';
 $string['visible_help'] = 'Esta opción determina si el curso aparece en la lista de cursos. Excepto los profesores y administradores, los usuarios no pueden entrar al curso.';
 $string['visibletostudents'] = 'Visible a {$a}';

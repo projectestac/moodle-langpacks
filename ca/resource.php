@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'resource', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -99,7 +99,12 @@ $string['resourcecontent'] = 'Fitxers i subcarpetes';
 $string['resourcedetails_sizetype'] = '{$a->size} {$a->type}';
 $string['resource:exportresource'] = 'Exporta el recurs';
 $string['resource:view'] = 'Veure recurs';
+$string['search:activity'] = 'Fitxer';
 $string['selectmainfile'] = 'Seleccioneu el fitxer principal prement la icona a la vora del nom.';
+$string['showdate'] = 'Mostra la data de la càrrega/modificació';
+$string['showdate_help'] = 'Mostra la data de la càrrega/modificació al costat dels enllaços al fitxer.
+
+Si hi ha diversos fitxers en aquest recurs, es mostra la data del fitxer d\'inici de la càrrega/modificació.';
 $string['showsize'] = 'Mostra la mida';
 $string['showsize_desc'] = 'Mostra la mida del fitxer en la pàgina principal del curs?';
 $string['showsize_help'] = 'Mostra la mida del fitxer, p.ex. \'3,1 MB\', junt a l\'enllaç al fitxer.
@@ -112,3 +117,4 @@ $string['showtype_help'] = 'Mostra el tipus de fitxer, p.ex. \'document Word\', 
 Si hi ha diversos fitxers en aquest recurs, es mostra el tipus del primer fitxer.
 
 Si el sistema no reconeix el tipus de fitxer, no es mostrarà.';
+$string['uploadeddate'] = 'Penjat dia {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'choice', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,8 @@ $string['allowmultiple'] = 'Gaitu aukera bat baino gehiago erantzun ahal izatea'
 $string['allowupdate'] = 'Utzi kontsulta eguneratzen';
 $string['answered'] = 'Erantzunda';
 $string['atleastoneoption'] = 'Gutxienez erantzun posible bat eman behar duzu.';
-$string['choice'] = '{$a} aukera';
+$string['choice'] = 'Aukera';
+$string['choiceactivityname'] = 'Aukera: {$a}';
 $string['choice:addinstance'] = 'Gehitu beste kontsulta bat';
 $string['choice:choose'] = 'Erantzun kontsultari';
 $string['choiceclose'] = 'Noiz arte';
@@ -86,8 +87,8 @@ $string['noresultsviewable'] = 'Emaitzak ezin dira orain ikusi';
 $string['notanswered'] = 'Oraindik erantzun gabe';
 $string['notenrolledchoose'] = 'Barkatu, baina matrikulatutako erabiltzaileek baino ezin diote kontsultari erantzun.';
 $string['notopenyet'] = 'Barkatu, baina jarduera hau ez dago erabiltzeko moduan {$a} arte.';
-$string['numberofuser'] = 'Partaide-kopurua';
-$string['numberofuserinpercentage'] = 'Partaide-kopurua ehunekotan';
+$string['numberofuser'] = 'Erantzun-kopurua';
+$string['numberofuserinpercentage'] = 'Erantzunen portzentajea';
 $string['option'] = 'Aukera';
 $string['optionno'] = 'Aukera {no}';
 $string['options'] = 'Aukerak';
@@ -109,6 +110,7 @@ $string['responsesresultgraphheader'] = 'Erakutsi grafikoa';
 $string['responsesto'] = 'Erantzunak {$a}-(r)entzat';
 $string['results'] = 'Emaitzak';
 $string['savemychoice'] = 'Gorde nire aukera';
+$string['search:activity'] = 'Kontsulta - jardueraren informazioa';
 $string['showpreview'] = 'Erakutsi aurrebista';
 $string['showunanswered'] = 'Erantzun gabekoen zutabea erakutsi';
 $string['skipresultgraph'] = 'Ez egin kasu emaitzen grafikoari';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'wiki', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -127,7 +127,7 @@ $string['insertimage'] = 'Bild einfügen...';
 $string['insertimage_help'] = 'Diese Dropdown-Liste fügt ein Bild in den Wikieditor ein. Falls Sie weitere Bilder im Wiki hinzufügen möchten, nutzen Sie bitte "Dateien"';
 $string['invalidlock'] = 'Diese Seite ist bereits von jemand anderem gesperrt.';
 $string['invalidparameters'] = 'Ungültige Parameter';
-$string['invalidsection'] = 'Ungültiger Bereich';
+$string['invalidsection'] = 'Ungültiger Abschnitt';
 $string['invalidsesskey'] = 'Ungültiger Sessionkey - bitte senden Sie die Daten noch einmal!';
 $string['javascriptdisabledlocks'] = 'JavaScript ist in Ihrem Browser deaktiviert, so dass die Datensperre nicht funktioniert. Ihre  Änderungen könnten eventuell verloren gehen.';
 $string['links'] = 'Links';
@@ -185,7 +185,7 @@ $string['orphaned'] = 'Verwaiste Seiten';
 $string['orphaned_help'] = 'Liste von Seiten ohne Verlinkung von anderen Seiten';
 $string['overridelocks'] = 'Datensperren ändern';
 $string['overridinglocks'] = 'Datensperren werden geändert...';
-$string['pageexists'] = 'Diese Seite existiert bereits. Es wird dorthin weitergeleitet.';
+$string['pageexists'] = 'Diese Seite existiert bereits.';
 $string['pageindex'] = 'Seitenindex';
 $string['pageindex_help'] = 'Struktur dieses Wikis';
 $string['pageislocked'] = 'Jemand anderes bearbeitet gerade diese Seite. Versuchen Sie es in ein paar Minuten nochmal.';
@@ -220,12 +220,15 @@ $string['return'] = 'Zurück';
 $string['save'] = 'Speichern';
 $string['saving'] = 'Wikiseite wird gespeichert';
 $string['savingerror'] = 'Fehler beim Speichern';
+$string['search:activity'] = 'Wiki - Aktivitätsinformation';
+$string['search:collaborative_page'] = 'Wikiseiten - Gemeinsame Seiten';
 $string['searchcontent'] = 'Im Seiteninhalt suchen';
 $string['searchresult'] = 'Suchergebnisse:';
 $string['searchterms'] = 'Suchbegriffe';
 $string['searchwikis'] = 'Wiki durchsuchen';
 $string['special'] = 'Spezial';
 $string['tableofcontents'] = 'Inhaltsübersicht';
+$string['tagarea_wiki_pages'] = 'Wikiseiten';
 $string['tagsdeleted'] = 'Wiki-Schlagwörter wurden gelöscht';
 $string['tagtitle'] = 'Siehe Schlagwort \'{$a}\'';
 $string['teacherrating'] = 'Trainerwertung';

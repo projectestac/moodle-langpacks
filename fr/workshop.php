@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'workshop', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,10 @@ $string['allocation'] = 'Attribution des travaux';
 $string['allocationconfigured'] = 'Attribution configurée';
 $string['allocationdone'] = 'Attribution effectuée';
 $string['allocationerror'] = 'Erreur d\'attribution';
+$string['allowedfiletypesforoverallfeedback'] = 'Types de fichier autorisés pour annexe de feedback';
+$string['allowedfiletypesforoverallfeedback_help'] = 'Les types de fichier autorisés pour annexe de feedback peuvent être restreints en indiquant une liste d\'extensions de fichiers, séparées par des virgules, par exemple « png, jpg, jpeg, gif ». Si le champ est laissé vide, tous les types de fichiers sont autorisés.';
+$string['allowedfiletypesforsubmission'] = 'Types de fichier autorisés pour travail à remettre';
+$string['allowedfiletypesforsubmission_help'] = 'Les types de fichier autorisés pour travail à remettre peuvent être restreints en indiquant une liste d\'extensions de fichiers, séparées par des virgules, par exemple « png, jpg, jpeg, gif ». Si le champ est laissé vide, tous les types de fichiers sont autorisés.';
 $string['allsubmissions'] = 'Tous les travaux remis ({$a})';
 $string['alreadygraded'] = 'Déjà noté';
 $string['areaconclusion'] = 'Texte de conclusion';
@@ -96,6 +100,7 @@ $string['daystoday'] = 'aujourd\'hui';
 $string['daystomorrow'] = 'demain';
 $string['daysyesterday'] = 'hier';
 $string['deadlinesignored'] = 'Les restrictions de temps ne s\'appliquent pas à vous';
+$string['deletesubmission'] = 'Supprimer le travail remis';
 $string['editassessmentform'] = 'Préparer le formulaire d\'évaluation';
 $string['editassessmentformstrategy'] = 'Préparer le formulaire d\'évaluation ({$a})';
 $string['editingassessmentform'] = 'Modification du formulaire d\'évaluation';
@@ -103,6 +108,8 @@ $string['editingsubmission'] = 'Modification du travail remis';
 $string['editsubmission'] = 'Modifier le travail remis';
 $string['err_multiplesubmissions'] = 'Une autre version de ce travail a été enregistrée alors que vous modifiiez ce formulaire. Les remises de plusieurs travaux par utilisateur ne sont pas autorisées.';
 $string['err_removegrademappings'] = 'Impossible de supprimer les attributions de notes pas utilisées';
+$string['err_unknownfileextension'] = 'Extension de fichier inconnue : {$a}';
+$string['err_wrongfileextension'] = 'Certains fichiers ({$a->wrongfiles}) ne peuvent pas être déposés. Seuls les types de fichiers {$a->whitelist} sont autorisés.';
 $string['evaluategradeswait'] = 'Veuillez attendre que les évaluations aient été notées et que les notes soient calculées';
 $string['evaluation'] = 'Notation des évaluations';
 $string['evaluationmethod'] = 'Méthode de notation des évaluations';
@@ -116,6 +123,7 @@ $string['eventphaseswitched'] = 'Phase changée';
 $string['eventsubmissionassessed'] = 'Travail evalué';
 $string['eventsubmissionassessmentsreset'] = 'Évaluations de travail effacées';
 $string['eventsubmissioncreated'] = 'Travail créé';
+$string['eventsubmissiondeleted'] = 'Travail supprimé';
 $string['eventsubmissionreassessed'] = 'Travail ré-évalué';
 $string['eventsubmissionupdated'] = 'Travail modifié';
 $string['eventsubmissionviewed'] = 'Travail consulté';
@@ -239,6 +247,7 @@ $string['saveandclose'] = 'Enregistrer et fermer';
 $string['saveandcontinue'] = 'Enregistrer et continuer les modifications';
 $string['saveandpreview'] = 'Enregistrer et prévisualiser';
 $string['saveandshownext'] = 'Enregistrer et afficher la suite';
+$string['search:activity'] = 'Atelier – information sur l\'activité';
 $string['selfassessmentdisabled'] = 'Auto-évaluation désactivée';
 $string['showingperpage'] = 'Affichage de {$a} éléments par page';
 $string['showingperpagechange'] = 'Changer...';
@@ -257,6 +266,8 @@ $string['submission'] = 'Travail remis';
 $string['submissionattachment'] = 'Annexe';
 $string['submissionby'] = 'Travail remis par {$a}';
 $string['submissioncontent'] = 'Contenu du travail remis';
+$string['submissiondeleteconfirm'] = 'Voulez-vous vraiment supprimer le travail suivant ?';
+$string['submissiondeleteconfirmassess'] = 'Voulez-vous vraiment supprimer le travail suivant ? Cette opération supprimera aussi {$a->count} évaluations associées à ce travail, ce qui aura une influence sur les notes des évaluateurs.';
 $string['submissionend'] = 'Fin de la remise des travaux';
 $string['submissionendbeforestart'] = 'Le délai pour la remise des travaux ne peut pas être antérieur à la date d\'ouverture de ces remises';
 $string['submissionenddatetime'] = 'Délai de remise des travaux : {$a->daydatetime} ({$a->distanceday})';
@@ -317,6 +328,7 @@ $string['weightinfo'] = 'Coefficient : {$a}';
 $string['withoutsubmission'] = 'Évaluateur sans travail remis';
 $string['workshop:addinstance'] = 'Ajouter un atelier';
 $string['workshop:allocate'] = 'Attribuer les travaux remis pour évaluation';
+$string['workshop:deletesubmissions'] = 'Supprimer des travaux remis';
 $string['workshop:editdimensions'] = 'Modifier les formulaires d\'évaluation';
 $string['workshop:ignoredeadlines'] = 'Ignorer les restrictions de temps';
 $string['workshop:manageexamples'] = 'Gérer les travaux exemplaires';

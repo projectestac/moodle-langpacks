@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'portfolio', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   portfolio
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,7 +41,7 @@ $string['configure'] = 'Konfigurera';
 $string['confirmcancel'] = 'Är Du säker på att Du vill avbryta den här exporten?';
 $string['confirmexport'] = 'Var snäll och bekräfta den här exporten';
 $string['confirmsummary'] = 'Sammanfattning av Din export';
-$string['continuetoportfolio'] = 'Fortsätt till din portfolio';
+$string['continuetoportfolio'] = 'Fortsätt till Din portfolio';
 $string['deleteportfolio'] = 'Ta bort instans av portfolio';
 $string['destination'] = 'Destination';
 $string['disabled'] = 'Export av portfolio är inte aktiverade på den här webbplatsen';

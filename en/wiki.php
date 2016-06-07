@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'wiki', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -194,7 +194,7 @@ $string['orphaned'] = 'Orphaned pages';
 $string['orphaned_help'] = 'List of pages that are not linked from other page.';
 $string['overridelocks'] = 'Override locks';
 $string['overridinglocks'] = 'Overriding locks...';
-$string['pageexists'] = 'This page already exists. Redirecting to it.';
+$string['pageexists'] = 'This page already exists.';
 $string['pageindex'] = 'Page Index';
 $string['pageindex_help'] = 'This wiki\'s page tree';
 $string['pageislocked'] = 'Someone is editing this page right now. Try to edit it in a few minutes.';
@@ -229,12 +229,15 @@ $string['return'] = 'Go back';
 $string['save'] = 'Save';
 $string['saving'] = 'Saving wiki page';
 $string['savingerror'] = 'Saving error';
+$string['search:activity'] = 'Wiki - activity information';
+$string['search:collaborative_page'] = 'Wiki - collaborative pages';
 $string['searchcontent'] = 'Search in page content';
 $string['searchresult'] = 'Search results:';
 $string['searchterms'] = 'Search terms';
 $string['searchwikis'] = 'Search wikis';
 $string['special'] = 'Special';
 $string['tableofcontents'] = 'Table of contents';
+$string['tagarea_wiki_pages'] = 'Wiki pages';
 $string['tagsdeleted'] = 'Wiki tags have been deleted';
 $string['tagtitle'] = 'See the "{$a}" tag';
 $string['teacherrating'] = 'Teacher rating';

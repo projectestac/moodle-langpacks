@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'data', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -235,6 +235,8 @@ $string['latlongotherfields'] = 'Altres camps';
 $string['list'] = 'Visualitza llista';
 $string['listtemplate'] = 'Plantilla de llista';
 $string['longitude'] = 'Longitud';
+$string['manageapproved'] = 'Permet l\'edició d\'entrades aprovades';
+$string['manageapproved_help'] = 'Si es desactiva, l\'usuari que va afegir les entrades aprovades ja no podrà editar-les ni esborrar-les. Aquest paràmetre no té cap efecte, tret que estigui activat «Requereix aprovació?»';
 $string['mapexistingfield'] = 'Mapa a {$a}';
 $string['mapnewfield'] = 'Crea un camp nou';
 $string['mappingwarning'] = 'Tots els camps vells que no s\'hagin pogut mapar a camps nous es perdran i totes les dades d\'aquests camps seran suprimides.';

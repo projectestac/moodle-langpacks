@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'repository', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -114,7 +114,7 @@ $string['enternewname'] = 'Please enter the new file name';
 $string['error'] = 'An unknown error occurred!';
 $string['errordoublereference'] = 'Unable to overwrite file with a shortcut/alias because shortcuts to this file already exist.';
 $string['errornotyourfile'] = 'You cannot pick file which is not added by your';
-$string['errorpostmaxsize'] = 'The uploaded file may exceed the post_max_size directive in php.ini.';
+$string['errorpostmaxsize'] = 'The file you tried to upload is too large for the server to process.';
 $string['erroruniquename'] = 'Repository instance name should be unique';
 $string['errorwhilecommunicatingwith'] = 'Error while communicating with the repository \'{$a}\'.';
 $string['errorwhiledownload'] = 'An error occurred while downloading the file: {$a}';

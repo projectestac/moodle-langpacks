@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'feedback', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,6 +41,7 @@ $string['autonumbering_help'] = 'Aktiverar eller avaktiverar automatiska tal fö
 $string['average'] = 'Medel';
 $string['bold'] = 'Fet';
 $string['cancel_moving'] = 'Avbryt flytt';
+$string['cannotaccess'] = 'Du kan bara komma åt denna feedback från en kurs';
 $string['cannotmapfeedback'] = 'Problem med databas, det går inte att "mappa" Egen enkät till kurs';
 $string['cannotsavetempl'] = 'det är inte tillåtet att spara mallar';
 $string['cannotunmap'] = 'Problem med databasen, det går inte att gör om kartläggning';
@@ -56,10 +57,10 @@ $string['completed_feedbacks'] = 'Fullgjorda Egna enkäter';
 $string['complete_the_form'] = 'Fyll i hela formuläret';
 $string['completionsubmit'] = 'Visa som fullföljd om Egen enkät är inskickad/bekräftad/fullföljd';
 $string['configallowfullanonymous'] = 'Om det här alternativet är inställt till \'ja\' så går det att fullfölja Egen enkät utan att först logga in. Det påverkar bara förekomster av Egen enkät på ingångssidan.';
-$string['confirmdeleteentry'] = 'Är du säker på att du vill ta bort det här bidraget?';
-$string['confirmdeleteitem'] = 'Är du säker på att du vill ta bort den här komponenten?';
-$string['confirmdeletetemplate'] = 'Är du säker på att du vill ta bort den här mallen?';
-$string['confirmusetemplate'] = 'Är du säker på att du vill använda den här mallen?';
+$string['confirmdeleteentry'] = 'Är Du säker på att Du vill ta bort det här bidraget?';
+$string['confirmdeleteitem'] = 'Är Du säker på att Du vill ta bort den här komponenten?';
+$string['confirmdeletetemplate'] = 'Är Du säker på att Du vill ta bort den här mallen?';
+$string['confirmusetemplate'] = 'Är Du säker på att Du vill använda den här mallen?';
 $string['continue_the_form'] = 'Fortsätt formuläret';
 $string['count_of_nums'] = 'Räkning av tal';
 $string['courseid'] = 'kursID';
@@ -106,11 +107,14 @@ Du kan se den här:
 $string['emailteachermailhtml'] = '{$a->username} har fullgjort en Egen enkät enligt: <i>\'{$a->feedback}\'</i><br /><br />
 Du kan se den: <a href="{$a->url}">här</a>.';
 $string['entries_saved'] = 'Inläggen har sparats';
+$string['eventresponsedeleted'] = 'Svar borttagen';
+$string['eventresponsesubmitted'] = 'Svar inlämnad';
 $string['export_questions'] = 'Exportera frågor';
 $string['export_to_excel'] = 'Exportera till Excel';
 $string['feedback:addinstance'] = 'Lägg till ny enkät';
 $string['feedbackclose'] = 'Stäng Egen enkät vid denna tid';
 $string['feedback:complete'] = 'Fullfölj Egen enkät';
+$string['feedbackcompleted'] = '{$a->username} genomförde {$a->feedbackname}';
 $string['feedback:createprivatetemplate'] = 'Skapa en privat mall';
 $string['feedback:createpublictemplate'] = 'Skapa en offentlig mall';
 $string['feedback:deletesubmissions'] = 'Ta bort fullföljda inskickningar';

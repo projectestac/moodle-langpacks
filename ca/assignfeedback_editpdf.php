@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -78,7 +78,7 @@ $string['stamppicker'] = 'Selector de segells';
 $string['stamps'] = 'Segells';
 $string['stampsdesc'] = 'Els segells han de ser fitxers d\'imatges (mida recomanada: 40x40). Aquestes imatges es poden utilitzar amb l\'eina segell per anotar els PDF.';
 $string['test_doesnotexist'] = 'El camí de ghostscript apunta a un fitxer que no existeix.';
-$string['test_empty'] = 'El camí de ghostscript és buit - Ompliu el camí correcte';
+$string['test_empty'] = 'El camí de ghostscript és buit. Introduïu el camí correcte';
 $string['testgs'] = 'Prova el camí de ghostscript';
 $string['test_isdir'] = 'El camí de ghostscript apunta a una carpeta; afegiu el programa ghostscript al camí especificat.';
 $string['test_notestfile'] = 'El PDF de prova s\'ha perdut';
@@ -86,7 +86,6 @@ $string['test_notexecutable'] = 'Ghostscript apunta a un fitxer que no és execu
 $string['test_ok'] = 'El camí de ghostscript sembla que és correcte - comproveu que podeu veure el missatge a la imatge del dessota.';
 $string['tool'] = 'Eina';
 $string['toolbarbutton'] = '{$a->tool} {$a->shortcut}';
-$string['unsavedchanges'] = 'Canvis no desats';
 $string['viewfeedbackonline'] = 'Mostra el PDF comentat...';
 $string['white'] = 'Blanc';
 $string['yellow'] = 'Groc';

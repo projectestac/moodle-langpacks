@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,7 +66,7 @@ $string['markers'] = 'Markeringen';
 $string['nolabel'] = 'Geen labeltekst';
 $string['noofdrags'] = 'Nummer';
 $string['pleasedragatleastonemarker'] = 'Je antwoord is niet volledig; je moet minstens één markering op de afbeelding plaatsten.';
-$string['pluginname'] = 'Markeringen slepen en neerzetten';
+$string['pluginname'] = 'Sleep- en neerzetmarkeringen';
 $string['pluginnameadding'] = 'Sleep- en neerzetmarkeringen toevoegen';
 $string['pluginnameediting'] = 'Sleep- en neerzetmarkeringen bewerken';
 $string['pluginname_help'] = 'Sleep- en neerzetmarkeringen verwachten van de respondent dat tekstlabels gesleept worden op neerzetzones op een achtergrondafbeelding.';

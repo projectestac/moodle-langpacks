@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_html', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_html', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   block_html
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,11 +28,11 @@ defined('MOODLE_INTERNAL') || die();
 $string['allowadditionalcssclasses'] = 'Habilita classes addicionals CSS';
 $string['configallowadditionalcssclasses'] = 'Afegeix una opció de configuració per permetre a les instàncies del HTML configurar classes addicionals CSS';
 $string['configclasses'] = 'Classes addicionals CSS';
-$string['configclasses_help'] = 'El propòsit d\'aquesta configuració és ajudar amb la tematització ajudant a distingir blocs HTML d\'altres. Les classes HTML que introduïu aquí (delimitades per espais) s\'afegiran a les classes per defecte.';
+$string['configclasses_help'] = 'El propòsit d\'aquesta configuració és ajudar amb la tematització ajudant a distingir uns blocs HTML dels altres. Qualssevol classes de CSS que introduïu aquí (delimitades per espais) s\'afegiran a les classes per defecte.';
 $string['configcontent'] = 'Contingut';
 $string['configtitle'] = 'Títol del bloc';
 $string['html:addinstance'] = 'Afegir un bloc HTML nou';
-$string['html:myaddinstance'] = 'Afegir un bloc HTML nou a la pàgina «El meu Moodle»';
+$string['html:myaddinstance'] = 'Afegeix un bloc HTML nou a la pàgina del Tauler';
 $string['leaveblanktohide'] = 'deixa en blanc per amagar el títol ';
 $string['newhtmlblock'] = '(nou bloc HTML)';
 $string['pluginname'] = 'HTML';

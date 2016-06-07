@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_overview', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_course_overview', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   block_course_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,7 +51,7 @@ $string['movetofirst'] = 'Mover a disciplina {$a} para o topo';
 $string['movingcourse'] = 'Está a mover: {$a->fullname} ({$a->cancellink})';
 $string['none'] = 'Nenhum';
 $string['numtodisplay'] = 'Número de disciplinas a mostrar:';
-$string['onlyparentname'] = 'Apenas categoria principal';
+$string['onlyparentname'] = 'Apenas categoria ascendente';
 $string['otherexpanded'] = 'Outras disciplinas expandidas';
 $string['pluginname'] = 'Visão geral das disciplinas';
 $string['preservestates'] = 'Manter os estados expandidos';
@@ -61,7 +61,7 @@ $string['shortnamesufixsingular'] = '(e {$a} restante)';
 $string['showcategories'] = 'Categorias a mostrar';
 $string['showcategoriesdesc'] = 'Deverão as categorias ser exibidas abaixo de cada disciplina?';
 $string['showchildren'] = 'Mostrar dependentes';
-$string['showchildrendesc'] = 'Listar subdisciplinas abaixo do título da disciplina principal?';
+$string['showchildrendesc'] = 'Listar disciplinas filhas abaixo do título da disciplina mãe?';
 $string['showwelcomearea'] = 'Mostrar área de boas-vindas';
 $string['showwelcomeareadesc'] = 'Mostrar a área de boas-vindas acima da lista de disciplinas?';
 $string['view_edit_profile'] = '(Ver e editar o seu perfil.)';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'admin', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'admin', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   admin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -60,7 +60,6 @@ $string['allowuserswitchrolestheycantassign'] = 'Gebruikers zonder het recht om 
 $string['allowuserthemes'] = 'Gebruikersthema\'s toestaan';
 $string['alternativefullnameformat'] = 'Alternatieve format voor volledige naam';
 $string['alternativefullnameformat_desc'] = 'Hier bepaal je hoe de namen van gebruikers worden getoond aan gebruikers die de moeglijkheid viewfullnames hebben (standaard voor gebruikers die manager, leraar of leraar zonder bewerken zijn). De mogelijke plaatshouders zijn dezelfde als die gebruikt kunnen worden voor de \'Volledige naam opmaak"-instelling.';
-$string['antivirus'] = 'Anti-virus';
 $string['appearance'] = 'Uiterlijk';
 $string['aspellpath'] = 'Pad naar aspell';
 $string['authentication'] = 'Authenticatie';
@@ -117,7 +116,6 @@ $string['change'] = 'wijzig';
 $string['checkboxno'] = 'Nee';
 $string['checkboxyes'] = 'Ja';
 $string['choosefiletoedit'] = 'Kies een te bewerken bestand uit bovenstaande lijst';
-$string['clamfailureonupload'] = 'Als Clam AV faalt';
 $string['cleanup'] = 'Opschonen';
 $string['clianswerno'] = 'n';
 $string['cliansweryes'] = 'j';
@@ -165,9 +163,6 @@ $string['configautologinguests'] = 'Moeten bezoekers automatisch als gast aangem
 $string['configbloglevel'] = 'Met deze instelling kun je het niveau beperken waarop gebruikers blogs op deze site kunnen zien. Merk op dat ze een maximum zetten voor wie KIJKT, niet voor wie berichten post of de mogelijke types berichten die gepost kunnen worden. Blogs kunnen ook uitgeschakeld worden als je ze niet wil.';
 $string['configcalendarcustomexport'] = 'Aangepast datumbereik inschakelen voor het exporteren van de kalender';
 $string['configcalendarexportsalt'] = 'Deze willekeurige tekst wordt gebruikt om de beveiliging van authenticatie-tokens te verbeteren. Deze tokens worden gebruikt bij het exporteren van kalenders. Alle huidige tokens worden ongeldig als je deze tekst wijzigt.';
-$string['configclamactlikevirus'] = 'Behandel bestanden als virussen';
-$string['configclamdonothing'] = 'Behandel bestanden als OK';
-$string['configclamfailureonupload'] = 'Als je clam geconfigureerd hebt om geüploade bestanden op virussen te scannen, maar het is slecht geconfigureerd of loopt niet om één of andere reden, hoe moet Moodle zich dan gedragen? Als je kiest voor "Behandel alle bestanden als virussen", dan zullen alle bestanden naar de quarantainezone  verplaatst worden of verwijderd worden. Als je kiest voor "Behandel bestanden als OK", dan zullen de bestanden naar de bedoelde map verplaatst worden zoals normaal. In beide gevallen wordt de beheerder op de hoogte gebracht van het slecht werken van clam. Als je kiest voor "Behandel bestanden als virussen" en om één of andere reden werkt clam niet (gewoonlijk omdat je een verkeerd pad naar clam gegeven hebt), dan zullen ALLE geüploade bestanden naar de quarantainezone verplaatst worden of verwijderd worden. Wees voorzichtig met deze instelling.';
 $string['configcookiehttponly'] = 'Schakelt nieuwe PHP 5.2.0-mogelijkheid in - browsers moeten cookies alleen met echte http-requests verzenden, cookies zouden niet toegankelijk mogen zijn voor script-talen. Dit wordt niet in alle browsers ondersteund en het is mogelijk dat het nog niet compatibel is met alle huidige code. Het helpt sommige types van XSS-aanvallen te voorkomen.';
 $string['configcookiesecure'] = 'Als de server alleen https-verbindingen aanvaardt, dan is het aangeraden om het versturen van secure cookies in te schakelen. Als dit ingeschakeld is, zorg er dan voor dat de webserver geen http:// toelaat of zet een permanente redirectie op naar een https://-adres. Wanneer het <em>wwwroot</em> niet begint met https://, dan wordt deze instelling automatisch uitgeschakeld.';
 $string['configcountry'] = 'Als je hier een land invult, wordt dit land als standaard geselecteerd bij nieuwe gebruikersaccounts. Laat dit veld gewoon leeg om gebruikers te dwingen een land te kiezen.';
@@ -304,7 +299,6 @@ $string['configoverride'] = 'Gedefinieerd in config.php';
 $string['configpasswordpolicy'] = 'Deze instelling maakt dat Moodle controleert of wachtwoorden voldoen aan een wachtwoordenbeleid.Gebruik onderstaande instellingen om je beleid op te maken (de instellingen zullen genegeerd worden als je deze instelling op \'Nee\' zet).';
 $string['configpasswordresettime'] = 'Dit bepaalt hoeveel tijd gebruikers hebben om te klikken op de link in de reset wachtwoord e-mail voor die verloopt.
 30 minuten is gewoonlijk een goede waarde.';
-$string['configpathtoclam'] = 'Pad naar clam AV. Gewoonlijk iets als /usr/bin/clamscan of /usr/bin/clamdscan. Je hebt dit nodig om clam AV te laten lopen.';
 $string['configpathtodu'] = 'Pad naar du. Waarschijnlijk iets als /usr/bin/du. Als je dit invult, dan zullen pagina\'s die mapinhoud tonen veel sneller openen bij mappen met veel bestanden in.';
 $string['configperfdebug'] = 'Als je dit inschakelt wordt er informatie over de performantie getoond onderaan de pagina. Je moet hiervoor het standaard thema gebruiken.';
 $string['configprofileroles'] = 'Lijst met rollen die zichtbaar zijn op gebruikersprofielen en deelnemerspagina.';
@@ -316,7 +310,6 @@ $string['configproxypassword'] = 'Wachtwoord nodig om door een proxy op het inte
 $string['configproxyport'] = 'Als deze server een proxyserver gebruikt, zet dan hier de gebruikte poort.';
 $string['configproxytype'] = 'Type web proxy (PHP5 en cURL extentie nodig voor SOCKS5 ondersteuning).';
 $string['configproxyuser'] = 'Gebruikersnaam nodig om door een proxy op het internet te komen, leeg indien geen wachtwoord (PHP cURL extentie nodig).';
-$string['configquarantinedir'] = 'Als je wil dat clam AV besmette bestanden naar een quarantainemap verplaatst, zet het pad dan hier. Het moet beschrijfbaar zijn voor de webserver. Als je dit leeg laat of als je een map opgeeft die niet bestaat of niet beschrijfbaar is, dan zullen besmette bestanden verwijderd worden. Gebruik geen schuine streep achteraan het pad.';
 $string['configrecaptchaprivatekey'] = 'Variable, nodig om je Moodle server te laten communiceren met de recaptcha.net server. Je kunt deze voor jouw site bekomen via http://www.google.com/recaptcha';
 $string['configrecaptchapublickey'] = 'Variable, gebruikt om het reCAPTCHA-element te tonen in het inschrijvingsformulier voor e-mail zelfregistratie. Gegenereerd door http://www.google.com/recaptcha';
 $string['configrequestcategoryselection'] = 'De selectie van een categorie toestaan bij het aanvragen van een cursus.';
@@ -324,8 +317,6 @@ $string['configrequestedstudentname'] = 'Woord voor leerling, gebruikt in aangev
 $string['configrequestedstudentsname'] = 'Woord voor leerlingen, gebruikt in aangevraagde cursussen';
 $string['configrequestedteachername'] = 'Woord voor leraar, gebruikt in aangevraagde cursussen';
 $string['configrequestedteachersname'] = 'Woord voor leraren, gebruikt in aangevraagde cursussen';
-$string['configrunclamavonupload'] = 'Als je dit inschakeld zal Clam AV alle geüploade bestanden scannen op virussen.';
-$string['configrunclamonupload'] = 'Clam AV laten lopen bij het uploaden van een bestand? Je hebt dan een juist pad nodig in pathtoclam om dit te laten werken. (Clam AV is een gratis virusscanner die je kunt downloaden van http://www.clamav.net/)';
 $string['configsectioninterface'] = 'Interface';
 $string['configsectionmail'] = 'E-mail';
 $string['configsectionmaintenance'] = 'Onderhoud';
@@ -348,7 +339,7 @@ $string['configsitedefaultlicense'] = 'Standaard site licentie';
 $string['configsitedefaultlicensehelp'] = 'Standaarlicentie die gebruikt zal worden voor het tonen van inhoud op deze site.';
 $string['configsitemaxcategorydepth'] = 'Maximale categoriediepte';
 $string['configsitemaxcategorydepthhelp'] = 'Dit specificeert de maximale diepte van getoonde onderliggende categorieën of combolijsten. Diepere categorieën zullen verschijnen als links en gebruikers kunnen ze uitvergroten via AJAX.';
-$string['configslasharguments'] = '\'Slash arguments\'  (gebruik maakend van <em>PATH_INFO</em> zijn vereist om SCORM-pakketten en bronnen die uit meerdere bestanden bestaan correct te kunnen weergeven. Als je webserver dit niet ondersteunt en je kunt dit niet configureren, dan kan deze instelling uitgeschakeld worden, maar dit zal als gevolg hebben dat bepaalde zaken niet werken.<br />Merk op: het gebruik van \'slash arguments\' zal vereist zijn voor alle nieuwe Moodleversies';
+$string['configslasharguments'] = 'Bestanden (afbeeldingen, uploads en dergelijke) worden via een script aangeleverd dat gebruik maakt van \'slash arguments\'. Deze methode zorgt ervoor dat bestanden makkelijker in webbrowsers, proxyservers en dergelijke kunnen worden gecachet. Helaas staan sommige PHP-servers deze methode niet toe. Zet deze optie uit als je problemen hebt met het bekijken van geüploade bestanden.';
 $string['configsmartpix'] = 'Met deze optie ingeschakeld worden icoontjes opgehaald door een PHP-script dat eerst het huidige thema doorzoekt, dan alle bovenliggende thema\'s en dan de Moodle/pix map. Hierdoor is het niet nodig de afbeeldingsbestanden te dupliceren over de verschillende thema\'s. Het heeft wel een kleine performantiekost.';
 $string['configstartwday'] = 'Begin van de week';
 $string['configstatsfirstrun'] = 'Hiermee stel je in hoever terug in de tijd dat de logs moeten herwerkt worden tijdens de <b>eerste keer</b> dat de crontaak de statistieken probeert te verwerken. Als je wel wat verkeer hebt en je server is een shared host, dan is het waarschijnlijk geen goed idee om te ver terug te gaan. Het erg zware proces zou wel eens lang kunnen lopen. (merk op voor deze instelling: 1 maand is 28 dagen. Op de grafieken en in de rapporten is een maand een kalendermaand.)';
@@ -787,7 +778,6 @@ $string['passwordpolicy'] = 'Wachtwoordbeleid';
 $string['passwordresettime'] = 'Maximumtijd om een wachtwoordreset te valideren';
 $string['passwordreuselimit'] = 'Wachtwoord rotatielimiet';
 $string['passwordreuselimit_desc'] = 'Aantal keer dat een gebruiker zijn wachtwoord moet wijzigen voor ze eenzelfde wachtwoord opnieuw mogen gebruiken. Versleutelde versies van de oude wachtwoorden worden bewaard in de lokale databank. Deze functie kan niet compatibel zijn met externe authenticatieplugins.';
-$string['pathtoclam'] = 'Clam AV-pad';
 $string['pathtodot'] = 'Pad naar dot';
 $string['pathtodot_help'] = 'Pad naar dot. Waarschijnlijk iets als /usr/bin/dot. Om het mogelijk te maken grafische bestanden te maken van DOT-bestanden, heb je dot nodig en moet je hier opgeven waar het op je server te vinden is.';
 $string['pathtodu'] = 'Pad naar du';
@@ -892,7 +882,6 @@ $string['proxyuser'] = 'Proxy gebruikersnaam';
 $string['purgecaches'] = 'Alle caches leegmaken';
 $string['purgecachesconfirm'] = 'Moodle kan thema\'s cachen, javascript, taalstrings, gefilterde tekst, rss-feeds en veel andere stukken berekende gegevens. Het leegmaken van deze caches zal alle gegevens verwijderen van de server en zal browsers forceren om de gegevens te verversen, zodat je er zeker kan van zijn dat de meest recente waardes die je huidige code produceert, getoond worden. Er is geen gevaar verbonden aan het verwijderen van caches, maar je server kan trager lijken tot je server en de clients de nieuwe informatie berekend en gecached hebben.';
 $string['purgecachesfinished'] = 'Alle caches zijn leeggemaakt.';
-$string['quarantinedir'] = 'Quarantainemap';
 $string['question'] = 'Vragen';
 $string['questionbehaviours'] = 'Gedrag vragen';
 $string['questioncwqpfscheck'] = 'Eén of meer willekeurige vragen in een test zijn insgesteld om vragen te kiezen uit gedeelde en niet gedeelde vragencategorieën. Er is een meer gedetailleerd rapport <a href="{$a->reporturl}">hier</a> en je kunt de Moodle Docs-pagina <a href="{$a->docsurl}">hier</a> bekijken.';
@@ -908,7 +897,7 @@ $string['registermoodleorgli1'] = 'Je wordt toegevoegd aan een laag-volume maili
 $string['registermoodleorgli2'] = 'Statistieken over je site zullen aan {$a} van de wereldwijde Moodlegemeenschap toegevoegd worden.';
 $string['registerwithmoodleorg'] = 'Registreer je site';
 $string['registration'] = 'Registratie';
-$string['registration_help'] = 'Het is aan te raden om te registreren bij Moodle.org om veiligheidsmeldingen via e-mail te ontvangen en toegang te krijgen tot Moodle.net, ons platvorm om cursussen te delen.';
+$string['registration_help'] = 'Het is aan te raden om te registreren bij Moodle.org om veiligheidsmeldingen via e-mail te ontvangen, om mee te helpen aan de groei van Moodle en de <a href="http://moodle.org/stats">Moodle statistieken</a> of om cursussen te kunnen delen op <a href="http://moodle.net/">Moodle.net</a>.';
 $string['registrationwarning'] = 'Je site is nog niet geregistreerd.';
 $string['releasenoteslink'] = 'Bekijk de online <a target="_new" href="{$a}">Release Notes</a> voor informatie over deze versie van Moodle.';
 $string['rememberusername'] = 'Gebruikersnaam onthouden';
@@ -938,7 +927,6 @@ $string['riskxss'] = 'Gebruikers kunnen bestanden en teksten toevoegen die  cros
 $string['riskxssshort'] = 'XSS-risico';
 $string['roleswithexceptions'] = '{$a->roles}, met {$a->exceptions}';
 $string['rssglobaldisabled'] = 'Uitgeschakeld op serverniveau';
-$string['runclamavonupload'] = 'Gebruik clam AV voor geüploade bestanden';
 $string['save'] = 'Bewaar';
 $string['savechanges'] = 'Bewaar wijzigingen';
 $string['search'] = 'Zoek';

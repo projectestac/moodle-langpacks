@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'zh_cn', branch 'MOODLE_30_STABLE'
+ * Strings for component 'role', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -83,13 +83,9 @@ $string['badges:viewbadges'] = '查看可用奖章（不需要获得）';
 $string['badges:viewotherbadges'] = '在其他用户资料中查看公开的奖章';
 $string['block:edit'] = '编辑版块设置';
 $string['block:view'] = '查看版块';
-$string['blog:associatecourse'] = '此功能已放弃，不执行任何操作。';
-$string['blog:associatemodule'] = '此功能已放弃，不执行任何操作。';
 $string['blog:create'] = '新建博客条目';
 $string['blog:manageentries'] = '编辑和管理条目';
 $string['blog:manageexternal'] = '编辑和管理外部博客';
-$string['blog:manageofficialtags'] = '管理官方标签';
-$string['blog:managepersonaltags'] = '管理个人标签';
 $string['blog:search'] = '搜索博客';
 $string['blog:view'] = '浏览博客条目';
 $string['blog:viewdrafts'] = '查看博客草稿';
@@ -110,14 +106,20 @@ $string['checkpermissionsin'] = '检查{$a}的权限';
 $string['checksystempermissionsfor'] = '检查{$a->fullname}的系统权限';
 $string['checkuserspermissionshere'] = '检查{$a->fullname}在此{$a->contextlevel}中拥有的权限';
 $string['chooseroletoassign'] = '请选择一个要分配的角色';
-$string['cohort:assign'] = '添加/删除群组成员';
-$string['cohort:manage'] = '建立、删除和移动群组';
-$string['cohort:view'] = '查看全站群组';
+$string['cohort:assign'] = '添加/删除群成员';
+$string['cohort:manage'] = '建立、删除和移动群';
+$string['cohort:view'] = '查看全站群';
 $string['comment:delete'] = '删除评论';
 $string['comment:post'] = '发表评论';
 $string['comment:view'] = '阅读评论';
 $string['community:add'] = '使用社区版块搜索课程中心寻找课程';
 $string['community:download'] = '从社区版块下载课程';
+$string['competency:competencymanage'] = '管理能力框架';
+$string['competency:competencyview'] = '审查能力框架';
+$string['competency:coursecompetencymanage'] = '管理课程能力';
+$string['competency:coursecompetencyview'] = '查看课程能力';
+$string['competency:templatemanage'] = '管理学习计划模板';
+$string['competency:templateview'] = '查看学习计划模板列表';
 $string['confirmaddadmin'] = '您真的要让用户<strong>{$a}</strong>成为新的网站管理员吗？';
 $string['confirmdeladmin'] = '您真的要取消用户<strong>{$a}</strong>的网站管理员资格吗？';
 $string['confirmroleprevent'] = '您确定要不允许角色<strong>{$a->role}</strong>在“{$a->context}”中使用{$a->cap}权限吗？';
@@ -217,7 +219,7 @@ $string['grade:lock'] = '锁定成绩和项目';
 $string['grade:manage'] = '管理成绩项';
 $string['grade:managegradingforms'] = '管理高级评分方法';
 $string['grade:manageletters'] = '管理字母成绩';
-$string['grade:manageoutcomes'] = '管理成绩能力';
+$string['grade:manageoutcomes'] = '管理成绩成果';
 $string['grade:managesharedforms'] = '管理高级评分方法模板';
 $string['grade:override'] = '覆盖成绩';
 $string['grade:sharegradingforms'] = '将该高级评分表单作为模板共享';

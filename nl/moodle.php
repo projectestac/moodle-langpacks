@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'moodle', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -236,10 +236,10 @@ $string['categorymodifiedcancel'] = 'Categorie gewijzigd! Annuleer en probeer op
 $string['categoryname'] = 'Categorienaam';
 $string['categorysubcategoryof'] = '{$a->category} - subcategorie van {$a->parentcategory}';
 $string['categoryupdated'] = 'De categorie \'{$a}\' is aangepast';
-$string['changedpassword'] = 'Het wachtwoord is veranderd';
-$string['changepassword'] = 'Verander wachtwoord';
+$string['changedpassword'] = 'Het wachtwoord is gewijzigd';
+$string['changepassword'] = 'Wijzig wachtwoord';
 $string['changesmadereallygoaway'] = 'Je hebt dingen gewijzigd. Weet je zeker dat je van deze pagina weg wil navigeren en je wijzigingen verliezen?';
-$string['changessaved'] = 'De veranderingen zijn bewaard';
+$string['changessaved'] = 'De wijzigingen zijn bewaard';
 $string['check'] = 'Controleer';
 $string['checkall'] = 'Selecteer alles';
 $string['checkingbackup'] = 'Back-up controleren';
@@ -260,17 +260,6 @@ $string['choosereportfilter'] = 'Kies een filter voor het rapport';
 $string['choosetheme'] = 'Kies een thema';
 $string['chooseuser'] = 'Kies een gebruiker';
 $string['city'] = 'Plaats';
-$string['clambroken'] = 'Je beheerder heeft viruscontrole voor geüploade bestanden ingeschakeld, maar heeft iets fout geconfigureerd.<br />Je bestand is NIET geüpload. Er is een e-mail naar je beheerder gestuurd om hem te waarschuwen, zodat hij het kan herstellen.<br />Misschien moet je later nog eens proberen dit bestand te uploaden.';
-$string['clamdeletedfile'] = 'Dit bestand is verwijderd';
-$string['clamdeletedfilefailed'] = 'Dit bestand kon niet verwijderd worden';
-$string['clamemailsubject'] = '{$a}:: Clam AV-melding';
-$string['clamfailed'] = 'Clam AV is vastgelopen. De foutmelding was {$a}. Hier is de melding van Clam:';
-$string['clamlost'] = 'Moodle is geconfigureerd om Clam te gebruiken voor bestandsupload, maar het pad naar Clam AV, {$a}, was niet juist.';
-$string['clamlostandactinglikevirus'] = 'Moodle is zo geconfigureerd dat, wanneer Clam niet werkt, alle bestanden als virussen behandeld worden. Dit heeft natuurlijk als gevolg dat geen enkele leerling bestanden kan uploaden tot je dit hersteld hebt';
-$string['clammovedfile'] = 'Het bestand is naar je quarantainemap verplaatst. De nieuwe locatie is {$a}';
-$string['clammovedfilebasic'] = 'Het bestand is in de quarantainemap gezet';
-$string['clamquarantinedirfailed'] = 'Het bestand kon niet naar de quarantainemap, {$a}, verplaatst worden. Je moet dit herstellen want de bestanden die als besmet beschouwdworden, worden verwijderd.';
-$string['clamunknownerror'] = 'Er was een onbekende fout met clam.';
 $string['cleaningtempdata'] = 'Schoon de tijdelijke data op';
 $string['clear'] = 'Wis';
 $string['clickhelpiconformoreinfo'] = '... gaat verder ... Klik op het helpicoontje om het volledige artikel te lezen';
@@ -1520,6 +1509,7 @@ $string['restorecoursenow'] = 'Deze cursus nu terugzetten!';
 $string['restoredaccount'] = 'Teruggezette account';
 $string['restoredaccountinfo'] = 'Deze account is geïmporteerd uit een andere server en het wachtwoord ervan is verloren gegaan. Om eeen nieuw wachtwoord via e-mail in te stellen, klik op "Ga verder"';
 $string['restorefinished'] = 'Terugzetten was succesvol';
+$string['restoremnethostidmismatch'] = 'MNet host ID van gebruiker \'{$a}\' komt niet overeen met de locale MNet host ID.';
 $string['restoreto'] = 'Zet de back-up terug naar';
 $string['restoretositeadding'] = 'Waarschuwing: je gaat terugzetten naar de startpagina van de site en er gegevens aan toevoegen!';
 $string['restoretositedeleting'] = 'Waarschuwing: je gaat terugzetten naar de startpagina van de site waarbij eerst gegevens zullen verwijderd worden!';
@@ -1977,25 +1967,6 @@ $string['viewmore'] = 'Bekijk meer';
 $string['viewprofile'] = 'Bekijk profiel';
 $string['views'] = 'Bekeken pagina\'s';
 $string['viewsolution'] = 'Bekijk oplossing';
-$string['virusfound'] = 'Opgelet beheerder! Clam AV vond een virus in een bestand, geüpload door {$a->user} voor de cursus {$a->course}. Hier is de boodschap van clamscan:';
-$string['virusfoundlater'] = 'Een bestand dat geüpload werd op {$a->date} met als bestandsnaam {$a->filename} voor de cursus {$a->course} is  besmet met een virus. Hier is een samenvatting van wat er met je bestand gebeurd is:
-
-{$a->action}
-
-Als dit een taak was, dan wil je het misschien terug insturen, zodat je leraar het kan nakijken.';
-$string['virusfoundlateradmin'] = 'Opgelet beheerder! Een bestand dat geüpload werd op {$a->date} met als bestandsnaam {$a->filename} voor de cursus {$a->course} is  besmet met een virus. Hier is een samenvatting van wat er met het bestand gebeurd is:
-
-{$a->action}
-
-De gebruiker is ook gewaarschuwd.';
-$string['virusfoundlateradminnolog'] = 'Opgelet beheerder! Een bestand dat geüpload werd met bestandsnaam {$a->filename} bevat een virus. Moodle kon dit bestand niet terugsturen naar de gebruiker die het oorspronkelijk geüpload had.
-
-Hier is een samenvatting van wat er met dat bestand gebeurd is:
-
-{$a->action}';
-$string['virusfoundsubject'] = '{$a}: Virus gevonden!';
-$string['virusfounduser'] = 'Het bestand {$a->filename} dat je geüpload hebt is door een virusscanner gecontroleerd en is geïnfecteerd! Je bestandsupload is mislukt.';
-$string['virusplaceholder'] = 'Dit geüploade bestand bevat een virus en is verplaatst of verwijderd. De gebruiker is gewaarschuwd.';
 $string['visible'] = 'Zichtbaar';
 $string['visible_help'] = 'Deze instelling bepaalt wanneer een cursus verschijnt in de cursuslijst. Behalve leraren en beheerders hebben gebruikers geen toegang tot deze cursus.';
 $string['visibletostudents'] = 'Zichtbaar voor {$a}';

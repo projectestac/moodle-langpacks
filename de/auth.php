@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'auth', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,7 +56,9 @@ $string['auth_remove_keep'] = 'Nur intern zugänglich';
 $string['auth_remove_suspend'] = 'Intern sperren';
 $string['auth_remove_user'] = 'Legen Sie fest, was mit einem internen Nutzerprofil passieren soll, wenn bei einer Massensynchronisierung dieser Account im externen System entfernt wurde.  Nur gesperrte Nutzer werden automatisch reaktiviert, wenn sie in der externen Quelle wieder erscheinen.';
 $string['auth_remove_user_key'] = 'Entfernte externe Nutzer';
-$string['auth_sync_script'] = 'Cron-Synchronisierungsskript';
+$string['auth_sync_script'] = 'Synchronisierung der Nutzerkonten';
+$string['auth_sync_suspended'] = 'Die Option legt fest, dass das Ausblendemerkmal bei der Synchronisation von lokalen Nutzerkonten verwendet wird.';
+$string['auth_sync_suspended_key'] = 'Status von lokalen Nutzerkonten synchronisieren';
 $string['auth_updatelocal'] = 'Lokal aktualisieren';
 $string['auth_updatelocal_expl'] = '<p><b>Lokal aktualisieren:</b> Wenn diese Option aktiviert ist, wird das Feld jedes Mal von extern (external auth) aktualisiert, wenn der Teilnehmer sich einloggt oder eine Nutzersynchronisation erfolgt. Dateneinträge sollten gesperrt sein, wenn sie lokal aktualisiert werden.</p>';
 $string['auth_updateremote'] = 'Extern aktualisieren';
@@ -89,7 +91,7 @@ $string['errormaxconsecutiveidentchars'] = 'Kennwörter dürfen maximal {$a} auf
 $string['errorminpassworddigits'] = 'Kennwörter müssen mindestens {$a} Ziffer(n) enthalten.';
 $string['errorminpasswordlength'] = 'Kennwörter müssen mindestens {$a} Zeichen lang sein.';
 $string['errorminpasswordlower'] = 'Kennwörter müssen mindestens {$a} Kleinbuchstaben enthalten.';
-$string['errorminpasswordnonalphanum'] = 'Kennwörter müssen mindestens {$a} Sonderzeichen enthalten, z.B. :#_!§-%&*+?@.';
+$string['errorminpasswordnonalphanum'] = 'Kennwörter müssen mindestens {$a} Sonderzeichen enthalten, z.B. *, -, oder #.';
 $string['errorminpasswordupper'] = 'Kennwörter müssen mindestens {$a} Großbuchstaben enthalten.';
 $string['errorpasswordreused'] = 'Dieses Kennwort wurde bereits benutzt und kann nicht wiederverwendet werden.';
 $string['errorpasswordupdate'] = 'Fehler: Kennwort konnte nicht geändert werden!';
@@ -110,7 +112,7 @@ $string['infilefield'] = 'Erforderliches Feld in Datei';
 $string['informminpassworddigits'] = '{$a} Ziffer(n)';
 $string['informminpasswordlength'] = 'mindestens {$a} Zeichen';
 $string['informminpasswordlower'] = '{$a} Kleinbuchstabe(n)';
-$string['informminpasswordnonalphanum'] = '{$a} Sonderzeichen';
+$string['informminpasswordnonalphanum'] = '{$a} Sonderzeichen, z.B. *, -, oder #.';
 $string['informminpasswordreuselimit'] = 'Kennwörter können nach {$a} Änderungen erneut benutzt werden.';
 $string['informminpasswordupper'] = '{$a} Großbuchstabe(n)';
 $string['informpasswordpolicy'] = 'Kennwortregeln: <br />{$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'gl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'moodle', language 'gl', branch 'MOODLE_31_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -261,17 +261,6 @@ $string['choosereportfilter'] = 'Escolla un filtro para o informe';
 $string['choosetheme'] = 'Escoller temas';
 $string['chooseuser'] = 'Escoller un usuario';
 $string['city'] = 'Cidade/Vila';
-$string['clambroken'] = 'O administrador activou a comprobación de virus para os ficheiros enviados, mais algo está mal configurado.<br />NON foi posíbel enviar ficheiros. Enviouse un correo ao administrador para que corrixa o problema.<br />Tente enviar o ficheiro máis tarde.';
-$string['clamdeletedfile'] = 'O ficheiro foi eliminado';
-$string['clamdeletedfilefailed'] = 'Non foi posíbel eliminar o ficheiro';
-$string['clamemailsubject'] = '{$a} :: Notificación de Clam AV';
-$string['clamfailed'] = 'Non foi posíbel executar Clam AV. A mensaxe de erro devolvida foi {$a}. Esta é a saída de Clam:';
-$string['clamlost'] = 'Moodle está configurado para executar Clam ao recibir un ficheiro, mais a ruta para Clam AV, {$a}, non é correcta.';
-$string['clamlostandactinglikevirus'] = 'Ademais, Moodle está configurado de xeito que se Clam non funciona, os ficheiros son tratados como se fosen virus. Isto, na práctica, significa que ningún alumno pode enviar ficheiros ata que se solucione o problema.';
-$string['clammovedfile'] = 'O ficheiro foi movido ao directorio de corentena que vostede especificou, a súa nova localización é {$a}';
-$string['clammovedfilebasic'] = 'O ficheiro foi trasladado ao directorio de corentena.';
-$string['clamquarantinedirfailed'] = 'Non foi posíbel trasladar o ficheiro ao directorio de corentena {$a} que vostede especificou. É necesario corrixir isto xa que os ficheiros deben eliminarse se están infectados.';
-$string['clamunknownerror'] = 'Produciuse un erro descoñecido con Clam.';
 $string['cleaningtempdata'] = 'Lmpando ficheiros temporais';
 $string['clear'] = 'Limpar';
 $string['clickhelpiconformoreinfo'] = '...continúa... Prema na icona de axuda para ler o artigo completo';
@@ -1959,25 +1948,6 @@ $string['viewmore'] = 'Ver máis';
 $string['viewprofile'] = 'Ver perfil';
 $string['views'] = 'Vistas';
 $string['viewsolution'] = 'ver solución';
-$string['virusfound'] = 'Atención, administrador! Clam AV atopou un virus no ficheiro enviado polo usuario {$a->user} no curso {$a->course}. Esta é a saída de clamscan:';
-$string['virusfoundlater'] = 'Un ficheiro enviado por vostede o {$a->date} co nome {$a->filename} no curso {$a->course} conten un virus. A seguir un resumo do ocorrido co ficheiro:
-
-{$a->action}
-
-De tratarse dunha entrega dun traballo, volva entregalo para que o seu titor poida velo.';
-$string['virusfoundlateradmin'] = 'Atención, administrador! Un ficheiro enviado o {$a->date} co nome {$a->filename} no curso {$a->course} polo usuario {$a->user} conten un virus. A seguir un resumo do ocorrido co ficheiro:
-
-{$a->action}
-
-O usuario tamén foi avisado.';
-$string['virusfoundlateradminnolog'] = 'Atención, administrador! Un ficheiro enviado co nome {$a->filename} conten un virus. Moodole non foi quen de devolvelo ao usuario que o enviou.
-
-A seguir un resumo do ocorrido co ficheiro:
-
-{$a->action}';
-$string['virusfoundsubject'] = '{$a}: atopouse un virus!';
-$string['virusfounduser'] = 'O ficheiro que vostede ven de enviar, {$a->filename}, foi examinado por un antivirus e está infectado. NON foi posíbel completar o envío.';
-$string['virusplaceholder'] = 'O ficheiro enviado foi examinado e contén un un virus, sendo movido ou eliminado e notificóuselle ao usuario.';
 $string['visible'] = 'Visíbel';
 $string['visible_help'] = 'Esta opción determina se o curso aparece na lista de cursos. Agás os profesores e administradores, os usuarios non poden entrar no curso.';
 $string['visibletostudents'] = 'Visíbel para {$a}';

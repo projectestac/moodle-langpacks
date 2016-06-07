@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'backup', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -166,7 +166,7 @@ $string['importcurrentstage4'] = 'Confirmation et relecture';
 $string['importcurrentstage8'] = 'Effectuer l\'importation';
 $string['importfile'] = 'Importer un fichier de sauvegarde';
 $string['importgeneralduplicateadminallowed'] = 'Permettre la résolution de conflit admin';
-$string['importgeneralduplicateadminallowed_desc'] = 'Lorsqu\'il existe sur la plateforme une compte dont le nom d\'utilisateur est « admin », la restauration d\'un fichier de sauvegarde contenant un compte avec ce même nom d\'utilisateur causera un conflit. Si ce réglage est activé, le conflit sera résolu en changeant le nom d\'utilisateur en « admin_xyz ».';
+$string['importgeneralduplicateadminallowed_desc'] = 'Lorsqu\'il existe sur la plateforme un compte dont le nom d\'utilisateur est « admin », la restauration d\'un fichier de sauvegarde contenant un compte avec ce même nom d\'utilisateur causera un conflit. Si ce réglage est activé, le conflit sera résolu en changeant le nom d\'utilisateur en « admin_xyz ».';
 $string['importgeneralmaxresults'] = 'Nombre maximal de cours listés pour importation';
 $string['importgeneralmaxresults_desc'] = 'Ce réglage détermine le nombre de cours qui sont listés lors de la première étape du processus d\'importation';
 $string['importgeneralsettings'] = 'Réglages généraux d\'importation par défaut';
@@ -241,6 +241,7 @@ $string['rootsettingbadges'] = 'Inclure les badges';
 $string['rootsettingblocks'] = 'Inclure les blocs';
 $string['rootsettingcalendarevents'] = 'Inclure les événements du calendrier';
 $string['rootsettingcomments'] = 'Inclure les commentaires';
+$string['rootsettingcompetencies'] = 'Inclure les compétences';
 $string['rootsettingfilters'] = 'Inclure les filtres';
 $string['rootsettinggradehistories'] = 'Inclure les historiques des notes';
 $string['rootsettinggroups'] = 'Inclure les groupes et groupements';

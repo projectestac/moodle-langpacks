@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_community', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_community', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   block_community
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,12 +33,12 @@ $string['addedtoblock'] = 'S\'ha afegit un enllaç cap a aquest curs al bloc de 
 $string['additionalcoursedesc'] = '{$a->lang} Creat per: {$a->creatorname} - Publicat per: {$a->publishername} - Tema: {$a->subject} - Audiència: {$a->audience} - Nivell educatiu: {$a->educationallevel} - Llicència: {$a->license}';
 $string['addtocommunityblock'] = 'Desa l\'enllaç a aquest curs';
 $string['audience'] = 'Preparat per';
-$string['audience_help'] = 'Quina mena de curs cerqueu? De la mateixa manera que podeu trobar un curs destinat a estudiants, podríeu cercar una comunitat d\'educadors o administradors del Moodle.';
+$string['audience_help'] = 'Quina mena de curs cerqueu? De la mateixa manera que podeu trobar un curs destinat a estudiants, podríeu cercar una comunitat d\'educadors o administradors de Moodle.';
 $string['blocks'] = 'Blocs';
 $string['cannotselecttopsubject'] = 'No es pot establir un tema al capdamunt';
 $string['comments'] = 'Comentaris ({$a})';
 $string['community:addinstance'] = 'Afegeix un bloc nou cercador de comunitat';
-$string['community:myaddinstance'] = 'Afegeix un bloc nou cercador de comunitat a la pàgina del «meu Moodle»';
+$string['community:myaddinstance'] = 'Afegeix un bloc nou cercador de comunitat a la pàgina del Tauler';
 $string['contentinfo'] = 'Tema: {$a->subject} - Audiència: {$a->audience} - Nivell educatiu: {$a->educationallevel}';
 $string['continue'] = 'Continua';
 $string['contributors'] = 'Col·laboracions: {$a}';
@@ -60,18 +60,18 @@ $string['downloadtemplate'] = 'Crea un curs des d\'un patró';
 $string['educationallevel'] = 'Nivell educatiu';
 $string['educationallevel_help'] = 'Per a quin nivell educatiu feu la cerca? Si es tracta de comunitats d\'educadors aquest nivell descriu el nivell educatiu en què exerciten.';
 $string['enroldownload'] = 'Cerca';
-$string['enroldownload_help'] = 'Alguns dels cursos enumerats en la col·lectivitat s\'anuncien perquè la gent entri i participi en ells en el lloc web original.
+$string['enroldownload_help'] = 'Alguns dels cursos enumerats en la col·lectivitat s\'anuncien perquè la gent hi entri i hi participi en el lloc web original.
 
-D\'altres són plantilles de cursos proporcionats perquè els descarregueu i empreu en el vostre lloc Moodle.';
+D\'altres, són plantilles de cursos proporcionats perquè els descarregueu i els empreu al vostre lloc Moodle.';
 $string['enrollable'] = 'cursos als quals em puc inscriure';
 $string['enrollablecourses'] = 'Cursos que admeten inscripcions';
-$string['errorcourselisting'] = 'S\'ha produït un error mentre es recuperava la llista de cursos de la col·lectivitat escollida; si us plau, torneu-ho a intentar més tard. ({$a})';
-$string['errorhublisting'] = 'S\'ha produït un erro mentre es recuperava la llista de la col·lectivitat a Moodle.org, si us plau; torneu-ho a intentar més tard. ({$a})';
+$string['errorcourselisting'] = 'S\'ha produït un error mentre es recuperava la llista de cursos de la col·lectivitat escollida; torneu-ho a intentar més tard. ({$a})';
+$string['errorhublisting'] = 'S\'ha produït un error mentre es recuperava la llista de la col·lectivitat a Moodle.org; torneu-ho a intentar més tard. ({$a})';
 $string['fileinfo'] = 'Idioma: {$a->lang} - Llicència: {$a->license} - Darrera revisió: {$a->timeupdated}';
 $string['hideall'] = 'Amaga els hubs';
 $string['hub'] = 'col·lectivitat';
 $string['hubnottrusted'] = 'No és de confiança';
-$string['hubtrusted'] = 'Moodle.org confia en aquest hub';
+$string['hubtrusted'] = 'Moodle.org confia en aquest concentrador (<em>hub</em>)';
 $string['install'] = 'Descarrega';
 $string['keywords'] = 'Paraules clau';
 $string['keywords_help'] = 'Podeu cercar cursos que tinguin un text específic al nom, la descripció o altres camps de la base de dades.';

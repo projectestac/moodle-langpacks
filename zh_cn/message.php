@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'zh_cn', branch 'MOODLE_30_STABLE'
+ * Strings for component 'message', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,6 +44,7 @@ $string['contacts'] = '联系人';
 $string['context'] = '正文';
 $string['defaultmessageoutputs'] = '默认消息输出';
 $string['defaults'] = '默认';
+$string['deletemessage'] = '删除消息';
 $string['deletemessagesdays'] = '多少天前的消息可以被自动删除';
 $string['disableall'] = '临时禁用通知';
 $string['disableall_help'] = '临时禁用所有通知，除了被网站管理员设为“强制”的以外';

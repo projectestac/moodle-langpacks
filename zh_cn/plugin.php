@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'zh_cn', branch 'MOODLE_30_STABLE'
+ * Strings for component 'plugin', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -85,6 +85,8 @@ $string['type_calendartype'] = '日历类型';
 $string['type_calendartype_plural'] = '日历类型';
 $string['type_coursereport'] = '课程报表';
 $string['type_coursereport_plural'] = '课程报表';
+$string['type_dataformat'] = '数据格式';
+$string['type_dataformat_plural'] = '数据格式';
 $string['type_editor'] = '编辑人';
 $string['type_editor_plural'] = '编辑人';
 $string['type_enrol'] = '注册方法';

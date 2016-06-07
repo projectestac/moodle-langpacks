@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_monitor', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,7 +53,7 @@ $string['eventsubcreated'] = 'Subscrição criada';
 $string['eventsubcriteriamet'] = 'Critérios de subscrição reunidos';
 $string['eventsubdeleted'] = 'Subscrição apagada';
 $string['freqdesc'] = '{$a->freq} vez(es) em {$a->mins} minuto(s)';
-$string['frequency'] = 'Limiar de notificação';
+$string['frequency'] = 'Limite de notificação';
 $string['frequency_help'] = 'O número de eventos dentro de um determinado período de tempo necessário para uma mensagem de notificação a ser enviada.';
 $string['inminutes'] = 'em minutos';
 $string['invalidmodule'] = 'Módulo inválido';
@@ -66,8 +66,8 @@ $string['messageprovider:notification'] = 'Notificações de subscrições de re
 $string['messagetemplate'] = 'Mensagem de notificação';
 $string['messagetemplate_help'] = 'Uma mensagem de notificação é enviada aos subscritores assim que o limite de notificação tenha sido atingido. A notificação pode incluir qualquer um, ou todos, os seguintes espaços reservados:
 <br /><br />
-* Link para a localização do evento {link}<br />
-* Link para a área de monitorização {modulelink}<br />
+* Hiperligação para a localização do evento {link}<br />
+* Hiperligação para a área de monitorização {modulelink}<br />
 * Nome da regra {rulename}<br />
 * Descrição {description}<br />
 * Evento {eventname}';

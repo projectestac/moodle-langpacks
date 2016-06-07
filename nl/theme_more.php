@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_more', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'theme_more', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   theme_more
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,8 +61,8 @@ $string['invertdesc'] = 'Schakelt de tekst en achtergrond voor de navigatiebalk 
 $string['linkcolor'] = 'Linkkleur';
 $string['linkcolor_desc'] = 'De kleur van de hyperlinks.';
 $string['logo'] = 'Logo';
-$string['logodesc'] = 'Het logo wordt alleen getoond in de header van de startpagina en de login-pagina. <br>Als de hoogte van je logo meer dan 75px is, voeg dan volgende regel toe in het veld voor Aangpaste CSS <br />
-div.logo {height: 100px;} (pas dit aan als de hoogte van je logo anders is dan 100px).';
+$string['logodesc'] = 'Upload hier het logo dat je wil toevoegen aan de header. <br>Als de hoogte van je logo meer dan 75px is, voeg dan volgende regel toe in het veld voor Aangpaste CSS <br />
+div.logo {height: 100px;} -> pas dit aan aan de hoogte van je logo.';
 $string['pluginname'] = 'Clean';
 $string['region-side-post'] = 'Rechts';
 $string['region-side-pre'] = 'Links';

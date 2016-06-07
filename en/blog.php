@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'blog', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,7 +44,7 @@ $string['blogaboutthis'] = 'Blog about this {$a->type}';
 $string['blogaboutthiscourse'] = 'Add an entry about this course';
 $string['blogaboutthismodule'] = 'Add an entry about this {$a}';
 $string['blogadministration'] = 'Blog administration';
-$string['blogdeleteconfirm'] = 'Delete this blog entry?';
+$string['blogdeleteconfirm'] = 'Delete the blog entry \'{$a}\'?';
 $string['blogdisable'] = 'Blogging is disabled!';
 $string['blogentries'] = 'Blog entries';
 $string['blogentriesabout'] = 'Blog entries about {$a}';

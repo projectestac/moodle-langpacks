@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_completion', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'availability_completion', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   availability_completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['description'] = 'Teilnehmer/innen müssen andere Aktivität abschließen (oder nicht abgeschlossen haben).';
-$string['error_selectcmid'] = 'Sie müssen eine Aktivität als Abschlussbedingung ausgewählt haben.';
+$string['description'] = 'Zugriff über den Abschlussstatus einer anderen Aktivität steuern';
+$string['error_selectcmid'] = 'Sie müssen eine Aktivität für die Zugriffssteuerung auswählen.';
 $string['label_cm'] = 'Aktivität oder Material';
 $string['label_completion'] = 'Erforderlicher Abschlussstatus';
 $string['missing'] = '(Fehlende Aktivität)';

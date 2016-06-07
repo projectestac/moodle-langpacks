@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'el', branch 'MOODLE_30_STABLE'
+ * Strings for component 'role', language 'el', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -91,8 +91,6 @@ $string['block:view'] = 'Προβολή μπλοκ';
 $string['blog:create'] = 'Δημιουργία καταχωρήσεων σε ιστολόγιο';
 $string['blog:manageentries'] = 'Επεξεργασία καταχωρήσεων';
 $string['blog:manageexternal'] = 'Επεξεργασία και διαχείριση εξωτερικών ιστολογίων';
-$string['blog:manageofficialtags'] = 'Διαχείριση των επίσημων ετικετών';
-$string['blog:managepersonaltags'] = 'Διαχείριση προσωπικών ετικετών';
 $string['blog:view'] = 'Προβολή καταχωρήσεων ιστολογίου';
 $string['blog:viewdrafts'] = 'Προβολή προσχεδίου καταχωρήσεων ιστολογίου';
 $string['calendar:manageentries'] = 'Διαχείριση των καταχωρήσεων οποιουδήποτε ημερολογίου';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'completion', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -78,7 +78,7 @@ $string['completionnotenabled'] = 'L\'achèvement n\'est pas activé';
 $string['completionnotenabledforcourse'] = 'L\'achèvement n\'est pas activé pour ce cours';
 $string['completionnotenabledforsite'] = 'L\'achèvement n\'est pas activé pour ce site';
 $string['completionondate'] = 'Date';
-$string['completionondatevalue'] = 'L\'utilisateur doit resté inscrit jusqu\'au';
+$string['completionondatevalue'] = 'L\'utilisateur doit rester inscrit jusqu\'au';
 $string['completion-pass'] = 'Terminé (note pour passer atteinte)';
 $string['completionsettingslocked'] = 'Réglages d\'achèvement verrouillés';
 $string['completion-title-manual-n'] = 'Marquer comme terminé : {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'forum', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,7 +45,7 @@ $string['attachment_help'] = 'Poderá anexar um ou mais ficheiros a uma mensagem
 $string['attachmentnopost'] = 'Não pode exportar anexos sem um id da mensagem';
 $string['attachments'] = 'Anexos';
 $string['attachmentswordcount'] = 'Anexos e contagem de palavras';
-$string['blockafter'] = 'Número máximo de mensagens permitidas';
+$string['blockafter'] = 'Número limite de mensagens';
 $string['blockafter_help'] = 'Especifica o número máximo de mensagens que cada utilizador pode submeter num determinado período de tempo. Utilizadores com a capacidade mod/forum:postwithoutthrottling estão isentos destes limites.';
 $string['blockperiod'] = 'Período de tempo';
 $string['blockperioddisabled'] = 'Não bloquear';
@@ -55,7 +55,7 @@ $string['bynameondate'] = 'por {$a->name} - {$a->date}';
 $string['cannotadd'] = 'Não foi possível adicionar o tópico a este fórum';
 $string['cannotadddiscussion'] = 'Criar novos tópicos neste fórum requer adesão a grupo.';
 $string['cannotadddiscussionall'] = 'Não tem permissão para criar um novo tópico disponível para todos os participantes';
-$string['cannotaddsubscriber'] = 'Não foi possível subscrever o utilizador com o id {$a} a este fórum.';
+$string['cannotaddsubscriber'] = 'Não foi possível subscrever o utilizador com o ID {$a} a este fórum.';
 $string['cannotaddteacherforumto'] = 'Não foi possível criar o fórum de professores convertido na secção 0 da disciplina.';
 $string['cannotcreatediscussion'] = 'Não foi possível criar o novo tópico de discussão';
 $string['cannotcreateinstanceforteacher'] = 'Não foi possível criar a instância do novo módulo da disciplina para o fórum de professores';
@@ -71,7 +71,7 @@ $string['cannotmovetonotexist'] = 'Não é possível mover para esse fórum pois
 $string['cannotmovetonotfound'] = 'O Fórum de destino não foi localizado nesta disciplina.';
 $string['cannotmovetosingleforum'] = 'Não é possível mover a discussão para um fórum de um único tópico de discussão';
 $string['cannotpurgecachedrss'] = 'Não foi possível apagar a cache RSS para os fóruns original e/ou de destino - reveja as suas permissões nos fóruns';
-$string['cannotremovesubscriber'] = 'Não foi possível cancelar a subscrição do utilizador com id {$a}';
+$string['cannotremovesubscriber'] = 'Não foi possível cancelar a subscrição do utilizador com ID {$a}';
 $string['cannotreply'] = 'Não pode responder a esta mensagem';
 $string['cannotsplit'] = 'Os tópicos neste fórum não podem ser divididos';
 $string['cannotsubscribe'] = 'Necessita de estar inscrito num grupo para subscrever o fórum';
@@ -96,7 +96,7 @@ $string['configcleanreadtime'] = 'Hora do dia em que as mensagens antigas serão
 $string['configdigestmailtime'] = 'Aos utilizadores que optarem por receber resumos do fórum por e-mail será enviado um resumo por dia. Esta configuração define a hora do dia em que o e-mail será enviado (a mensagem será enviada quando correr o cron após esta hora definida).';
 $string['configdisplaymode'] = 'Modo predefinido de apresentação dos tópicos.';
 $string['configenablerssfeeds'] = 'Esta opção permite a criação de listas  RSS a partir de qualquer fórum. É ainda necessário configurar cada fórum para que sejam geradas as listas correspondentes.';
-$string['configenabletimedposts'] = 'Selecione \'Sim\' para permitir fixar períodos de visualização nas mensagens afixadas no fórum (isto está em fase experimental e ainda a ser testado)';
+$string['configenabletimedposts'] = 'Defina como \'Sim\' caso pretenda ativar a configuração de \'Período de visualização\' ao publicar um novo tópico de discussão.';
 $string['configlongpost'] = 'Qualquer mensagem acima deste tamanho (em nº de caracteres, sem incluir HTML) será considerada longa. Mensagens exibidas na página inicial do site, páginas com formato social, ou perfis de utilizadores são truncadas para um tamanho entre os valores definidos em forum_shortpost e forum_longpost.';
 $string['configmanydiscussions'] = 'Número máximo de tópicos exibidos por página no fórum';
 $string['configmaxattachments'] = 'Número máximo predefinido para o número de anexos permitidos por mensagem.';
@@ -104,10 +104,10 @@ $string['configmaxbytes'] = 'Tamanho máximo predefinido para todos os anexos de
 $string['configoldpostdays'] = 'Número de dias para uma mensagem ser considerada como lida.';
 $string['configreplytouser'] = 'Quando um tópico de fórum é enviado por e-mail, deverá conter o endereço de e-mail do autor para que os destinatários possam responder diretamente em vez de usarem o fórum? Se selecionar \'Sim\', os utilizadores poderão, a partir do seu perfil, optar por manter o seu endereço de e-mail provado.';
 $string['configrssarticlesdefault'] = 'Se as listas RSS estiverem ativas, esta configuração define o número de artigos (tanto discussões como mensagens).';
-$string['configrsstypedefault'] = 'Se as listas RSS estiverem ativas, esta configuração define o tipo de atividade padrão.';
+$string['configrsstypedefault'] = 'Se as listas RSS estiverem ativas, esta configuração define o tipo de atividade predefinida.';
 $string['configshortpost'] = 'Qualquer mensagem abaixo deste tamanho (número de caracteres, sem incluir HTML) será considerada curta.';
 $string['configtrackingtype'] = 'Configuração predefinida para "Assinalar mensagens".';
-$string['configtrackreadposts'] = 'Selecione \'sim\' para permitir assinalar mensagens não lidas para cada utilizador.';
+$string['configtrackreadposts'] = 'Selecione \'Sim\' para permitir assinalar mensagens não lidas para cada utilizador.';
 $string['configusermarksread'] = 'Se selecionar \'Sim\', o utilizador deverá marcar manualmente as mensagens como lidas. Se selecionar \'Não\', as mensagens serão marcadas como lidas após a sua visualização.';
 $string['confirmsubscribe'] = 'Tem a certeza que deseja subscrever o fórum \'{$a}\'?';
 $string['confirmsubscribediscussion'] = 'Tem a certeza de que pretende subscrever o tópico de discussão \'{$a->discussion}\' no fórum \'{$a->forum}\'?';
@@ -140,6 +140,9 @@ $string['discussionmovedpost'] = 'Este tópico foi transferido para <a href="{$a
 $string['discussionname'] = 'Designação da discussão';
 $string['discussionnownotsubscribed'] = '{$a->name} NÃO será notificado sobre os novos tópicos em \'{$a->discussion}\' de \'{$a->forum}\'';
 $string['discussionnowsubscribed'] = '{$a->name} será notificado sobre os novos tópicos em \'{$a->discussion}\' de \'{$a->forum}\'';
+$string['discussionpin'] = 'Destacar';
+$string['discussionpinned'] = 'Destacado';
+$string['discussionpinned_help'] = 'As discussões em destaque irão aparecer no topo do fórum.';
 $string['discussions'] = 'Tópicos';
 $string['discussionsstartedby'] = 'Tópicos iniciados por {$a}';
 $string['discussionsstartedbyrecent'] = 'Tópicos iniciados recentemente por {$a}';
@@ -148,6 +151,7 @@ $string['discussionsubscribestart'] = 'Envie-me notificações de novos tópicos
 $string['discussionsubscribestop'] = 'Não quero receber notificações de novos tópicos desta discussão';
 $string['discussionsubscription'] = 'Subscrição da discussão';
 $string['discussionsubscription_help'] = 'Subscrever um tópico de discussão significa que irá receber notificações dos novos tópicos publicados nessa discussão.';
+$string['discussionunpin'] = 'Remover destaque';
 $string['discussthistopic'] = 'Discutir este tópico';
 $string['displayend'] = 'Visível até';
 $string['displayend_help'] = 'Esta configuração permite esconder um tópico a partir de uma determinada data. Os administradores podem sempre visualizar estes tópicos.';
@@ -191,8 +195,10 @@ $string['eventcoursesearched'] = 'Disciplina procurada';
 $string['eventdiscussioncreated'] = 'Discussão criada';
 $string['eventdiscussiondeleted'] = 'Discussão eliminada';
 $string['eventdiscussionmoved'] = 'Discussão movida';
+$string['eventdiscussionpinned'] = 'Tópico de discussão destacado';
 $string['eventdiscussionsubscriptioncreated'] = 'Subscrição da discussão criada';
 $string['eventdiscussionsubscriptiondeleted'] = 'Subscrição da discussão apagada';
+$string['eventdiscussionunpinned'] = 'Foi removido o destaque do tópico de discussão';
 $string['eventdiscussionupdated'] = 'Discussão atualizada';
 $string['eventdiscussionviewed'] = 'Discussão visualizada';
 $string['eventpostcreated'] = 'Tópico criado';
@@ -220,7 +226,7 @@ $string['forum:addnews'] = 'Adicionar notícia';
 $string['forum:addquestion'] = 'Adicionar pergunta';
 $string['forum:allowforcesubscribe'] = 'Permitir forçar a subscrição';
 $string['forumauthorhidden'] = 'Autor (oculto)';
-$string['forumblockingalmosttoomanyposts'] = 'Esta a aproximar-se do número máximo de mensagens submetidas. Enviou {$a->numposts} mensagens no período de {$a->blockperiod} e o limite é de {$a->blockafter} mensagens.';
+$string['forumblockingalmosttoomanyposts'] = 'Esta a aproximar-se do número limite de mensagens submetidas. Enviou {$a->numposts} mensagens no período de {$a->blockperiod} e o limite é de {$a->blockafter} mensagens.';
 $string['forumbodyhidden'] = 'Não pode visualizar esta mensagem, provavelmente porque ainda não submeteu uma mensagem no tópico de discussão, o tempo máximo de edição ainda não terminou, a discussão ainda não iniciou ou já terminou.';
 $string['forum:canposttomygroups'] = 'Pode publicar para todos os grupos a que tem acesso';
 $string['forum:createattachment'] = 'Criar anexos';
@@ -234,6 +240,7 @@ $string['forumintro'] = 'Descrição';
 $string['forum:managesubscriptions'] = 'Gerir subscrições';
 $string['forum:movediscussions'] = 'Mover tópicos';
 $string['forumname'] = 'Nome do fórum';
+$string['forum:pindiscussions'] = 'Destacar tópicos de discussão';
 $string['forumposts'] = 'Mensagens no fórum';
 $string['forum:postwithoutthrottling'] = 'Isento do bloqueio por ultrapassar limite de mensagens submetidas';
 $string['forum:rate'] = 'Avaliar mensagens';
@@ -251,7 +258,7 @@ $string['forumtype_help'] = 'Existem 5 tipos de fóruns:
 * Um único tópico de discussão - Discussão com um só tópico ao qual todos podem responder (não pode ser usado com grupos separados)
 * Cada participante cria um tópico - Cada aluno pode colocar apenas um tópico de discussão ao qual todos podem responder
 * Fórum de perguntas e respostas - Os alunos devem responder primeiro à pergunta antes de poder visualizar as respostas dos colegas
-* Fórum standard em formato blogue - Fórum aberto no qual todos os participantes podem criar novos tópicos e em que cada tópico de discussão é exibido numa página com o link "Discutir este tópico".
+* Fórum standard em formato blogue - Fórum aberto no qual todos os participantes podem criar novos tópicos e em que cada tópico de discussão é exibido numa página com a hiperligação "Discutir este tópico".
 * Fórum standard para utilização geral - Fórum aberto no qual todos os participantes podem criar novos tópicos.';
 $string['forum:viewallratings'] = 'Ver as avaliações atribuídas por cada participante';
 $string['forum:viewanyrating'] = 'Ver a avaliação global de cada participante';
@@ -272,13 +279,13 @@ $string['invalidaccess'] = 'Esta página não foi acedida corretamente';
 $string['invaliddigestsetting'] = 'Foi fornecida uma configuração inválida para a opção de e-mail com sumários';
 $string['invaliddiscussionid'] = 'O ID do tópico estava incorreto ou já não existe';
 $string['invalidforcesubscribe'] = 'Modo de subscrição obrigatória inválido';
-$string['invalidforumid'] = 'O Id do fórum estava incorreto';
+$string['invalidforumid'] = 'O ID do fórum estava incorreto';
 $string['invalidparentpostid'] = 'ID da mensagem ascendente é inválido';
 $string['invalidpostid'] = 'ID da mensagem inválido - {$a}';
 $string['lastpost'] = 'Última mensagem';
 $string['learningforums'] = 'Fóruns de aprendizagem';
 $string['longpost'] = 'Mensagem longa';
-$string['mailnow'] = 'Enviar e-mail já';
+$string['mailnow'] = 'Enviar já notificação por e-mail';
 $string['manydiscussions'] = 'Tópicos por página';
 $string['markalldread'] = 'Marcar como lidas todas as mensagens deste tópico.';
 $string['markallread'] = 'Marcar como lidas todas as mensagens deste fórum.';
@@ -333,8 +340,8 @@ $string['mustprovidediscussionorpost'] = 'Precisa de fornecer o ID de discussão
 $string['myprofileotherdis'] = 'Tópicos de discussão';
 $string['myprofileowndis'] = 'Os meus tópicos de discussão';
 $string['myprofileownpost'] = 'As minhas mensagens em fóruns';
-$string['namenews'] = 'Fórum Notícias';
-$string['namenews_help'] = 'O fórum de notícias é um fórum especial, criado automaticamente aquando da criação de uma disciplina. Uma disciplina apenas pode conter um fórum noticias e apenas os professores e administradores podem colocar tópicos nesses fóruns. O bloco "Noticias recentes" mostra os últimos tópicos adicionados.';
+$string['namenews'] = 'Fórum de Notícias';
+$string['namenews_help'] = 'O Fórum de Notícias é um fórum especial, criado automaticamente aquando da criação da disciplina. Apenas pode existir um Fórum Notícias por disciplina e apenas os utilizadores com papel de professor e administrador têm permissões para publicar tópicos de discussão neste fórum. O bloco "Últimas Noticias" exibe os últimos tópicos adicionados ao Fórum Notícias.';
 $string['namesocial'] = 'Fórum social';
 $string['nameteacher'] = 'Fórum de professores';
 $string['newforumposts'] = 'Novas mensagens no fórum';
@@ -375,13 +382,14 @@ $string['numposts'] = '{$a} mensagens';
 $string['olderdiscussions'] = 'Tópicos de discussão mais antigos';
 $string['oldertopics'] = 'Tópicos mais antigos';
 $string['oldpostdays'] = 'Mensagem considerada lida após nº de dias';
-$string['overviewnumpostssince'] = '{$a} mensagens novas desde a última vez que entrou';
+$string['overviewnumpostssince'] = '{$a} mensagens novas desde a última vez que se autenticou';
 $string['overviewnumunread'] = '{$a} mensagens não lidas';
 $string['page-mod-forum-discuss'] = 'Página de discussão do fórum';
 $string['page-mod-forum-view'] = 'Página principal do fórum';
 $string['page-mod-forum-x'] = 'Qualquer página do fórum';
 $string['parent'] = 'Mostrar mensagem ascendente';
 $string['parentofthispost'] = 'Ascendente desta mensagem';
+$string['permalink'] = 'Hiperligação direta';
 $string['pluginadministration'] = 'Administração do fórum';
 $string['pluginname'] = 'Fórum';
 $string['postadded'] = '<p>A sua mensagem foi inserida com sucesso.</p><p>Tem {$a} para a editar se desejar fazer alterações.</p>';
@@ -393,9 +401,9 @@ $string['postbyuser'] = '{$a->post} por {$a->user}';
 $string['postincontext'] = 'Ver mensagem no seu contexto';
 $string['postmailinfo'] = 'Esta é uma cópia de uma mensagem enviada para {$a}.
 Para submeter uma resposta, clique em:';
-$string['postmailinfolink'] = 'Esta é uma cópia da mensagem publicada na disciplina {$a->coursename}.
+$string['postmailinfolink'] = 'Esta é uma cópia de uma mensagem publicada na disciplina {$a->coursename}.
 
-Para responder à mensagem clique na seguinte ligação: {$a->replylink}';
+Para responder à mensagem clique na seguinte hiperligação: {$a->replylink}';
 $string['postmailnow'] = '<p>Esta mensagem será enviada imediatamente a todos os subscritores do fórum.</p>';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Contribui principalmente para a aprendizagem INDIVIDUAL';
@@ -441,6 +449,7 @@ $string['rsstype'] = 'Lista RSS para esta atividade';
 $string['rsstypedefault'] = 'Tipo de lista RSS';
 $string['rsstype_help'] = 'Para ativar o RSS para esta atividade, selecione ou discussões ou mensagens para serem incluídas na lista RSS.';
 $string['search'] = 'Procurar';
+$string['search:activity'] = 'Fórum - informações da atividade';
 $string['searchdatefrom'] = 'Mensagens posteriores a';
 $string['searchdateto'] = 'Mensagens anteriores a';
 $string['searchforumintro'] = 'Por favor insira os termos da pesquisa num ou mais dos campos seguintes:';
@@ -449,6 +458,7 @@ $string['searchfullwords'] = 'Palavras devem aparecer inteiras';
 $string['searchnotwords'] = 'Palavras que não devem estar na mensagem';
 $string['searcholderposts'] = 'Procurar mensagens antigas...';
 $string['searchphrase'] = 'Frase exata que deve estar na mensagem';
+$string['search:post'] = 'Fórum - mensagens';
 $string['searchresults'] = 'Resultados da procura';
 $string['searchsubject'] = 'Palavras que devem estar no assunto';
 $string['searchuser'] = 'O autor deverá incluir este nome';
@@ -460,6 +470,7 @@ $string['shortpost'] = 'Mensagem curta';
 $string['showsubscribers'] = 'Mostrar/editar subscritores atuais';
 $string['singleforum'] = 'Um único tópico de discussão';
 $string['smallmessage'] = '{$a->user}  submeteu mensagem no  {$a->forumname}';
+$string['smallmessagedigest'] = 'O sumário do fórum contém {$a} mensagens';
 $string['startedby'] = 'Iniciado por';
 $string['subject'] = 'Assunto';
 $string['subscribe'] = 'Subscrever este fórum';
@@ -497,8 +508,8 @@ $string['timedvisible'] = 'Tempo decorrido: Visível para todos os utilizadores'
 $string['timestartenderror'] = 'A data de fim não pode ser anterior à data de inicio';
 $string['trackforum'] = 'Assinalar mensagens não lidas';
 $string['tracking'] = 'Assinalar';
-$string['trackingoff'] = 'Não';
-$string['trackingon'] = 'forçado';
+$string['trackingoff'] = 'Desativada';
+$string['trackingon'] = 'Obrigatória';
 $string['trackingoptional'] = 'Opcional';
 $string['trackingtype'] = 'Assinalar mensagens';
 $string['trackingtype_help'] = 'Se ativar esta opção, os participantes podem assinalar e marcar como lidas/não lidas os tópicos do fórum bem como nas discussões. Existem três opções:

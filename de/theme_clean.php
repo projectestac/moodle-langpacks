@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_clean', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'theme_clean', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   theme_clean
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,3 +61,8 @@ $string['logodesc'] = 'Dieses Logo wird lediglich im Kopfbereich der Startseite 
 $string['pluginname'] = 'Clean';
 $string['region-side-post'] = 'Rechts';
 $string['region-side-pre'] = 'Links';
+$string['sitelogo'] = 'Site-Logo';
+$string['sitename'] = 'Site-Bezeichnung und kleines Logo anzeigen';
+$string['sitenamedesc'] = 'Wenn ein kleines Logo vorhanden ist, wird das Logo auf jeder Seite in der Navigationsleite angezeigt. Ohne kleines Logo wird der Name der Website angezeigt.';
+$string['smalllogo'] = 'Kleines Logo';
+$string['smalllogodesc'] = 'Das kleine Logo wird in der Navigationsleiste angezeigt. Wenn ein Logo für den Kopfbereich der Startseite und der Anmeldeseite verfügbar ist, wird das kleine Logo auf diesen Seiten nicht angezeigt.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['addaquestion'] = 'una nueva pregunta';
 $string['addarandomquestion'] = 'una pregunta aleatoria';
 $string['addarandomquestion_help'] = 'Cuando se añade una pregunta al azar, se traduce en que en el cuestionario se inserta una pregunta seleccionada aleatoriamente de entre las que componen la categoría. Esto significa que los distintos alumnos tendrán probablemente una selección distinta de preguntas. Por otra parte, cuando el cuestionario permite múltiples intentos, cada uno de ellos probablemente contendrá una nueva selección de preguntas.';
 $string['addarandomselectedquestion'] = 'Agregar una pregunta seleccionada aleatoria ...';
+$string['addasection'] = 'un nuevo encabezado para la sección';
 $string['adddescriptionlabel'] = 'Agregar una descripción/etiqueta';
 $string['addingquestion'] = 'Agregando una pregunta';
 $string['addingquestions'] = 'Esta parte de la página es donde puede gestionar su base de datos de preguntas. Las preguntas se agrupan en categorías para obtener una mejor organización, pero pueden ser utilizadas por cualquier cuestionario en su curso o en otro curso si usted decide \'publicarlas\'.<br />Después seleccionar o crear una categoría podrá crear o editar preguntas. Puede seleccionar cualquiera de estas preguntas para agregarlas a su cuestionario en el otro lado de esta página.';
@@ -144,6 +145,14 @@ $string['cannotstartgradesmismatch'] = 'No se puede iniciar un intento de resolv
 $string['cannotstartmissingquestion'] = 'No se puede iniciar el intento de resolver el cuestionario. La definición del cuestionario incluye una pregunta que no existe.';
 $string['cannotstartnoquestions'] = 'No se puede iniciar un intento en este cuestionario. El cuestionario aún no se ha construido. Todavía no se han añadido las preguntas.';
 $string['cannotwrite'] = 'No se puede escribir al archivo exportado ({$a})';
+$string['canredoquestions'] = 'Habilitar la opción de rehacer en un intento';
+$string['canredoquestions_desc'] = 'Si esta opción está habilitada, cuando los estudiantes hayan terminado de realizar un intento en una pregunta concreta, verán un botón de interrogación denominado Rehacer. Este botón les permitirá realizar un intento con otra versión de la misma pregunta sin tener que enviar el intento del cuestionario completo e iniciar uno nuevo. Esta opción resulta útil principalmente para los cuestionarios de práctica.
+
+Esta configuración solo afecta a las preguntas (p. ej., las preguntas que no sean ensayos) y las actuaciones (por ejemplo, los comentarios inmediatos o los interactivos con múltiples intentos) en las que el estudiante puede finalizar la pregunta antes de que se envíe el intento.';
+$string['canredoquestions_help'] = 'Si esta opción está habilitada, cuando los estudiantes hayan terminado de realizar un intento en una pregunta concreta, verán un botón de interrogación denominado Rehacer. Este botón les permitirá realizar un intento con otra versión de la misma pregunta sin tener que enviar el intento del cuestionario completo e iniciar uno nuevo. Esta opción resulta útil principalmente para los cuestionarios de práctica.
+
+Esta configuración solo afecta a las preguntas (p. ej., las preguntas que no sean ensayos) y las actuaciones (por ejemplo, los comentarios inmediatos o los interactivos con múltiples intentos) en las que el estudiante puede finalizar la pregunta antes de que se envíe el intento.';
+$string['canredoquestionsyes'] = 'Los estudiantes pueden volver a hacer otra versión de cualquier pregunta terminada';
 $string['caseno'] = 'Igual mayúsculas que minúsculas';
 $string['casesensitive'] = 'Diferencia entre mayúsculas y minúsculas';
 $string['caseyes'] = 'Mayúsculas y minúsculas deben coincidir';
@@ -160,6 +169,8 @@ $string['comment'] = 'Comentario';
 $string['commentorgrade'] = 'Hacer comentario o evitar calificación';
 $string['comments'] = 'Comentarios';
 $string['completedon'] = 'Finalizado en';
+$string['completionattemptsexhausted'] = 'O todos los intentos disponibles completados';
+$string['completionattemptsexhausted_help'] = 'Marcar el cuestionario como completo cuando el estudiante haya agotado el máximo número de intentos.';
 $string['completionpass'] = 'Requerir calificación aprobatoria';
 $string['completionpass_help'] = 'Si está habilitada, esta actividad se considera completa cuando el estudiante recibe una calificación aprobatoria , siendo reflejada en el libro de calificaciones';
 $string['configadaptive'] = 'Si selecciona Sí en esta opción, el estudiante podrá dar múltiples respuestas a una pregunta incluso dentro del mismo intento de resolver el cuestionario.';
@@ -191,10 +202,8 @@ $string['configtimelimitsec'] = 'Tiempo límite (en segundos) predeterminado par
 $string['configurerandomquestion'] = 'Configurar pregunta';
 $string['confirmclose'] = 'Una vez que haga el envío, no podrá cambiar sus respuestas de este intento de resolver el cuestionario..';
 $string['confirmremovequestion'] = '¿Seguro que quieres eliminar esta {$a} pregunta?';
+$string['confirmremovesectionheading'] = '¿Está seguro de que desea eliminar el encabezado de la sección \'{$a}\'?';
 $string['confirmserverdelete'] = '¿Está seguro de que desea eliminar el servidor  <b>{$a}</b> de la lista?';
-$string['confirmstartattemptlimit'] = 'Se ha establecido un límite de {$a} intentos para resolver el cuestionario. Está a punto de comenzar un nuevo intento. ¿Desea continuar?';
-$string['confirmstartattempttimelimit'] = 'Este cuestionario tiene un límite de tiempo y está restringido a {$a} intentos. El acceso al cuestionario será contado como un intento. ¿Desea continuar?';
-$string['confirmstarttimelimit'] = 'El cuestionario tiene un límite de tiempo. ¿Está seguro de que desea comenzar?';
 $string['connectionerror'] = 'La conexión de red se ha perdido. (Ha fallado el guardado automático).
 
 Anote las respuestas introducidas en esta página en los últimos minutos, y trate de volver a conectarse.
@@ -408,6 +417,7 @@ $string['gradingdetailspenalty'] = 'Este envío conlleva una penalización de {$
 $string['gradingdetailszeropenalty'] = 'Usted no ha sido penalizado por este envío.';
 $string['gradingmethod'] = 'Método de calificación: {$a}';
 $string['groupoverrides'] = 'Anulaciones de grupo';
+$string['groupoverridesdeleted'] = 'Anulaciones de grupo eliminadas';
 $string['groupsnone'] = 'No hay grupos en este curso';
 $string['guestsno'] = 'Lo sentimos, los invitados no pueden ver o responder cuestionarios';
 $string['hidebreaks'] = 'Ocultar saltos de página';
@@ -641,6 +651,9 @@ $string['questionbankmanagement'] = 'Gestión del banco de preguntas';
 $string['questionbehaviour'] = 'Comportamiento de las preguntas';
 $string['questioncats'] = 'Categorías de pregunta';
 $string['questiondeleted'] = 'Esta pregunta ha sido eliminada. Por favor, contacte con su profesor';
+$string['questiondependencyfree'] = 'Sin restricciones para esta pregunta';
+$string['questiondependencyremove'] = 'No se pueden realizar intentos en la pregunta {$a->thisq} hasta que se haya completado la pregunta {$a->previousq} anterior • Haga clic para cambiar';
+$string['questiondependsonprevious'] = 'No se pueden realizar intentos en esta pregunta hasta que se haya completado la pregunta anterior.';
 $string['questioninuse'] = 'La pregunta \'{$a}\' está en uso:';
 $string['questionmissing'] = 'La pregunta de esta sesión está ausente';
 $string['questionname'] = 'Nombre de la pregunta';
@@ -708,6 +721,8 @@ $string['readytosend'] = 'Está a punto de enviar su cuestionario para que sea e
 $string['reattemptquiz'] = 'Reintentar el cuestionario';
 $string['recentlyaddedquestion'] = 'Pregunta agregada recientemente';
 $string['recurse'] = 'Incluir también preguntas de subcategorías';
+$string['redoesofthisquestion'] = 'Otras preguntas para las que se hayan realizado intentos aquí: {$a}';
+$string['redoquestion'] = 'Rehacer pregunta';
 $string['regrade'] = 'Recalificar todos los intentos';
 $string['regradecomplete'] = 'Todos los intentos han sido recalificados';
 $string['regradecount'] = 'Se han cambiado {$a->changed} de {$a->attempt} calificaciones';
@@ -716,7 +731,9 @@ $string['regradenotallowed'] = 'No dispone de permiso para recalificar este cues
 $string['regradingquestion'] = 'Recalificando "{$a}".';
 $string['regradingquiz'] = 'Recalificando el cuestionario "{$a}"';
 $string['remove'] = 'Quitar';
+$string['removeallgroupoverrides'] = 'Eliminar todas las anulaciones de grupo';
 $string['removeallquizattempts'] = 'Eliminar todos los intentos de resolver el cuestionario';
+$string['removealluseroverrides'] = 'Eliminar todas las anulaciones de usuario';
 $string['removeemptypage'] = 'Eliminar la página vacía';
 $string['removepagebreak'] = 'Retire salto de página';
 $string['removeselected'] = 'Eliminar las seleccionadas';
@@ -928,6 +945,7 @@ $string['upgradingveryoldquizattempts'] = 'Actualizando intentos de cuestionario
 $string['url'] = 'URL';
 $string['usedcategorymoved'] = 'Esta categoría ha sido trasladada al sitio porque, tras eliminar el curso, sus preguntas estaban en uso por otros cuestionarios del servidor.';
 $string['useroverrides'] = 'Anulaciones de usuario';
+$string['useroverridesdeleted'] = 'Anulaciones de usuario eliminadas';
 $string['usersnone'] = 'Ningún estudiante tiene acceso a este cuestionario';
 $string['validate'] = 'Validar';
 $string['viewallanswers'] = 'Ver {$a} cuestionarios resueltos';

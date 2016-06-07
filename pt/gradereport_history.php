@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_history', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'gradereport_history', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   gradereport_history
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['allgraders'] = 'Todos os avaliadores';
 $string['datefrom'] = 'A partir de';
 $string['datetime'] = 'Data e hora';
 $string['dateto'] = 'Até';
-$string['deleteditemid'] = 'Eliminar o item com o id {$a}';
+$string['deleteditemid'] = 'Eliminar o item com o ID {$a}';
 $string['errajaxsearch'] = 'Erro ao procurar utilizadores';
 $string['eventgradereportviewed'] = 'Relatório de histórico de notas visualizado';
 $string['excluded'] = 'Excluir dos cálculos';

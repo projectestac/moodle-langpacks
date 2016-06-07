@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'glossary', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -274,6 +274,8 @@ $string['rssarticles_help'] = 'L\'impostazione stabilisce il numero di voci da i
 $string['rsssubscriberss'] = 'Visualizza RSS per \'{$a}\' voci';
 $string['rsstype'] = 'Feed RSS per questa attività';
 $string['rsstype_help'] = 'Abilita i feed RSS per l\'attività. E\' possibile scegliere se far comparire o meno l\'autore nel feed.';
+$string['search:activity'] = 'Glossario - Informazioni sull\'attività';
+$string['search:entry'] = 'Glossario - Voci';
 $string['searchindefinition'] = 'Cerca anche nelle definizioni';
 $string['secondaryglossary'] = 'Glossario secondario';
 $string['showall'] = 'Visualizza link \'TUTTI\'';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'feedback', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['add_item'] = 'Gehitu galdera inkestara';
+$string['add_item'] = 'Gehitu galdera';
 $string['add_pagebreak'] = 'Gehitu orri-jauzia';
 $string['adjustment'] = 'Posizioa';
 $string['after_submit'] = 'Bidali ondoren';
@@ -33,7 +33,7 @@ $string['allowfullanonymous'] = 'Baimenu erabateko anonimotasuna';
 $string['analysis'] = 'Analisia';
 $string['anonymous'] = 'Anonimoa';
 $string['anonymous_edit'] = 'Gorde erabiltzaile-izenak';
-$string['anonymous_entries'] = 'Sarrera anonimoak';
+$string['anonymous_entries'] = 'Sarrera anonimoak ({$a})';
 $string['anonymous_user'] = 'Erabiltzaile ezezaguna';
 $string['append_new_items'] = 'Gehitu elementu berriak';
 $string['autonumbering'] = 'Zenbatu galdera bakoitza automatikoki';
@@ -66,6 +66,7 @@ $string['creating_templates'] = 'Gorde galdera hauek txantiloi berri gisa';
 $string['delete_entry'] = 'Ezabatu sarrera';
 $string['delete_item'] = 'Ezabatu galdera';
 $string['delete_old_items'] = 'Ezabatu elementu zaharrak';
+$string['delete_pagebreak'] = 'Ezabatu orri-jauzia';
 $string['delete_template'] = 'Ezabatu txantiloia';
 $string['delete_templates'] = 'Ezabatu txantiloia...';
 $string['depending'] = 'Mendekotasunak';
@@ -119,7 +120,7 @@ $string['importfromthisfile'] = 'Inportatu fitxategi honetatik';
 $string['import_questions'] = 'Inportatu galderak';
 $string['import_successfully'] = 'Ondo inportatu da';
 $string['info'] = 'Informazioa';
-$string['infotype'] = 'Informazioa - Mota';
+$string['infotype'] = 'Informazioa-mota';
 $string['insufficient_responses'] = 'Ez dago erantzun nahikorik';
 $string['insufficient_responses_for_this_group'] = 'Ez dago erantzun nahikorik talde honentzat';
 $string['insufficient_responses_help'] = 'Talde honetarako erantzunak gutxiegi dira.
@@ -128,6 +129,7 @@ Iruzkin anonimoak mantentzeko, gutxienez 2 erantzun izan behar dira.';
 $string['item_label'] = 'Etiketa';
 $string['item_name'] = 'Galdera';
 $string['label'] = 'Etiketa';
+$string['labelcontents'] = 'Edukiak';
 $string['line_values'] = 'Puntuazioa';
 $string['mapcourse'] = 'Ikastaro-mapa';
 $string['mapcourseinfo'] = 'Gune mailako feedback-a da hau eta feedback blokea erabiltzen duten ikastaro guztietarako dago erabilgarri. Hala ere, berau agertuko den ikastaroak mugatu ditzakezu horiek markatuta. Bilatu ikastaroa eta aukeratu feedback honetarako.';
@@ -220,6 +222,7 @@ $string['save_entries'] = 'Bidali zure erantzunak';
 $string['save_item'] = 'Gorde galdera';
 $string['saving_failed'] = 'Ezin izan da gorde';
 $string['saving_failed_because_missing_or_false_values'] = 'Ezin izan da gorde hainbat balore falta edo egokiak ez direlako';
+$string['search:activity'] = 'Inkesta - jardueraren informazioa';
 $string['search_course'] = 'Bilatu ikastaroa';
 $string['searchcourses'] = 'Bilatu ikastaroak';
 $string['searchcourses_help'] = 'Bilatu feedback honekin lotu nahi duzun kodea edo ikastaro(ar)en izena.';
@@ -243,6 +246,7 @@ $string['switch_group'] = 'Aldatu taldea';
 $string['switch_item_to_not_required'] = '"Ez ezinbesteko"ra aldatu';
 $string['switch_item_to_required'] = '"Ezinbesteko"ra aldatu';
 $string['template'] = 'Txantiloia';
+$string['template_deleted'] = 'Txantiloia ezabatau da';
 $string['templates'] = 'Txantiloiak';
 $string['template_saved'] = 'Txantiloia gorde da';
 $string['textarea'] = 'Testu luzeko erantzuna';
@@ -254,7 +258,7 @@ $string['textfield_size'] = 'Testu-lerroaren zabalera';
 $string['there_are_no_settings_for_recaptcha'] = 'Ez da captcha konfiguratu';
 $string['this_feedback_is_already_submitted'] = 'Dagoeneko egina duzu jarduera hau.';
 $string['typemissing'] = '"mota" balorea falta da';
-$string['update_item'] = 'Gorde aldaketak';
+$string['update_item'] = 'Gorde aldaketak galderan';
 $string['url_for_continue'] = 'Esteka hurrengo jarduerara';
 $string['use_one_line_for_each_value'] = '<br/>Erabil ezazu lerro bat erantzun bakoitzeko!';
 $string['use_this_template'] = 'Txantiloi hau erabili';

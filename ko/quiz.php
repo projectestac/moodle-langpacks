@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'ko', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz', language 'ko', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -175,9 +175,6 @@ $string['configtimelimitsec'] = '초 단위의 기본 응시 시간. 0은 무제
 $string['configurerandomquestion'] = '질문 구성';
 $string['confirmclose'] = '당신은 이 시도를 끝내려고 합니다. 일단 시도를 종료하면 더 이상 답을 고칠 수 없습니다.';
 $string['confirmserverdelete'] = '당신은 정말 서버 <b>{$a}</b>를 목록에서 삭제하겠습니까?';
-$string['confirmstartattemptlimit'] = '허용된 시도 수: {$a}. 퀴즈에 들어가면 1회의 기회를 쓰게 됩니다. 계속 하겠습니까?';
-$string['confirmstartattempttimelimit'] = '이 퀴즈는 시간 제한이 있으며 {$a} 회의 시도만 허용됩니다. 퀴즈에 들어가면 1회의 기회를 쓰게 됩니다. 계속 하시겠습니까?';
-$string['confirmstarttimelimit'] = '이 퀴즈는 시간 제한이 있습니다. 정말 시작하시겠습니까?';
 $string['containercategorycreated'] = '처음 만들어진 범주 안에 생성된 모든 것들은 그 범주가 사라지더라도 그 상위 범주에 모두 저장됩니다.';
 $string['continueattemptquiz'] = '지난번 시도 계속';
 $string['continuepreview'] = '미리보기 계속';

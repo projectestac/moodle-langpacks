@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_meta', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'enrol_meta', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_meta
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addgroup'] = 'Adicionar ao grupo';
 $string['coursesort'] = 'Ordenar a lista da disciplina';
-$string['coursesort_help'] = 'Esta opção determina se a lista de disciplinas que podem ser agrupadas estão ordenadas por ordem de seleção (ou seja, a ordem em Administração do Site > Disciplinas > Gerir disciplinas e categorias) ou por ordem alfabética dada a configuração do curso.';
+$string['coursesort_help'] = 'Esta opção determina se a lista de disciplinas que podem ser ligadas estão ordenadas por ordem predefinida (ou seja, a ordem definida em Administração do Site > Disciplinas > Gerir disciplinas e categorias) ou por ordem alfabética de configuração da disciplina.';
 $string['creategroup'] = 'Criar um novo grupo';
 $string['defaultgroupnametext'] = '{$a->increment} disciplina {$a->name}';
 $string['linkedcourse'] = 'Disciplina ligada';
@@ -35,8 +35,8 @@ $string['meta:config'] = 'Configurar instâncias de inscrição em meta-discipli
 $string['meta:selectaslinked'] = 'Definir disciplina como meta-disciplina ligada';
 $string['meta:unenrol'] = 'Desinscrever utilizadores suspensos';
 $string['nosyncroleids'] = 'Papéis que não são sincronizados';
-$string['nosyncroleids_desc'] = 'Por definição todas as atribuições de papéis feitas ao nível da disciplinas são sincronizadas da disciplina pai para as disciplinas filhas. Os papéis aqui indicados não serão sincronizados. Os papéis atuais serão atualizados durante a próxima execução do cron.';
+$string['nosyncroleids_desc'] = 'Por definição todas as atribuições de papéis feitas ao nível da disciplinas são sincronizadas da disciplina ascendente para as disciplinas descendentes. Os papéis aqui indicados não serão sincronizados. Os papéis atuais serão atualizados durante a próxima execução do cron.';
 $string['pluginname'] = 'Meta-disciplinas';
 $string['pluginname_desc'] = 'Este módulo de inscrição permite sincronizar inscrições e atribuições de papéis entre várias disciplinas ligadas entre si.';
 $string['syncall'] = 'Sincronizar todos os utilizadores inscritos';
-$string['syncall_desc'] = 'Se ativo, todos os utilizadores inscritos são sincronizados mesmo que não possuam nenhum papel na disciplina pai, se inativo apenas os utilizadores que possuem pelo menos um papel sincronizado serão inscritos.';
+$string['syncall_desc'] = 'Se ativo, todos os utilizadores inscritos são sincronizados mesmo que não possuam nenhum papel na disciplina ascendente, se inativo apenas os utilizadores que possuem pelo menos um papel sincronizado serão inscritos.';

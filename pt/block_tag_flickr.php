@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tag_flickr', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_tag_flickr', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   block_tag_flickr
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['date-posted-desc'] = 'Data de publicação DESC';
 $string['date-taken-asc'] = 'Data da foto ASC';
 $string['date-taken-desc'] = 'Data da foto DESC';
 $string['defaulttile'] = 'Flickr';
-$string['getfromphotoset'] = 'Obter fotos do grupo com identificador';
+$string['getfromphotoset'] = 'Obter fotos do grupo com ID';
 $string['includerelatedtags'] = 'Incluir termos relacionados na pesquisa';
 $string['interestingness-asc'] = 'Grau de interesse ASCEN.';
 $string['interestingness-desc'] = 'Grau de interesse DESCEN.';

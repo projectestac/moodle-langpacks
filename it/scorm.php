@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'scorm', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -125,6 +125,8 @@ $string['eventattemptdeleted'] = 'Eliminato tentativo';
 $string['eventinteractionsviewed'] = 'Visualizzata interazione';
 $string['eventreportviewed'] = 'Visualizzato report';
 $string['eventscolaunched'] = 'Lanciato SCO';
+$string['eventscorerawsubmitted'] = 'Inviato punteggio SCORM grezzo';
+$string['eventstatussubmitted'] = 'Inviato stato SCORM';
 $string['eventtracksviewed'] = 'Visualizzato tracciamento';
 $string['eventuserreportviewed'] = 'Visualizzato report utente';
 $string['everyday'] = 'Ogni giorno';
@@ -203,6 +205,9 @@ $string['lastattemptlock'] = 'Blocca dopo l\'ultimo tentativo';
 $string['lastattemptlockdesc'] = 'Impedisce i lancio del player SCORM dopo l\'esaurimento di tutti i tentativi disponibili.';
 $string['lastattemptlock_help'] = 'Gli studenti non potranno più lanciare il player SCORM se avranno esaurito tutti i tentativi a loro disposizione.';
 $string['location'] = 'Visualizza la barra dell\'indirizzo';
+$string['masteryoverride'] = 'Il mastery score sovrascrive lo stato';
+$string['masteryoverridedesc'] = 'Il default per l\'impostazione di sovrascrittura del mastery score';
+$string['masteryoverride_help'] = 'Abitando l\'impostazione ed in presenza di mastery score, alla chiamata di LMSFinish con l\'impostazione di un punteggio grezzo, lo stato verrà ricalcolato utilizzando il punteggio grezzo ed il mastery score. Qualsiasi stato comunicato dal pacchetto SCORM (incluso "incompleto") sarà sovrascritto.';
 $string['max'] = 'Punteggio massimo';
 $string['maximumattempts'] = 'Numero massimo di tentativi';
 $string['maximumattemptsdesc'] = 'Imposta il valore di default per il numero massimo di tentativi';
@@ -327,6 +332,7 @@ $string['scormtype_help'] = 'L\'impostazione stabilisce come sarà incluso il pa
 $string['scorm:viewreport'] = 'Visualizzare report';
 $string['scorm:viewscores'] = 'Visualizzare punteggi';
 $string['scrollbars'] = 'Consenti lo scorrimento della finestra';
+$string['search:activity'] = 'Pacchetto SCORM - informazioni sull\'attività';
 $string['selectall'] = 'Seleziona tutto';
 $string['selectnone'] = 'Deseleziona tutto';
 $string['show'] = 'Visualizza';

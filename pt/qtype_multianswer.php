@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multianswer', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_multianswer', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_multianswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,9 +30,9 @@ $string['confirmsave'] = 'Confirmar e guardar {$a}';
 $string['correctanswer'] = 'Resposta correta';
 $string['correctanswerandfeedback'] = 'Resposta correta e feedback';
 $string['decodeverifyquestiontext'] = 'Descodificar e verificar o texto da pergunta';
-$string['layout'] = 'Aparência';
+$string['layout'] = 'Estrutura';
 $string['layouthorizontal'] = 'Botões de rádio dispostos horizontalmente';
-$string['layoutselectinline'] = 'Caixa de seleção';
+$string['layoutselectinline'] = 'Lista pendentes incorporadas no texto';
 $string['layoutundefined'] = 'Aparência indefinida';
 $string['layoutvertical'] = 'Botões de rádio dispostos verticalmente';
 $string['nooptionsforsubquestion'] = 'Não foi possível obter as opções para a parte # {$a->sub} (question->id={$a->id}) da pergunta';

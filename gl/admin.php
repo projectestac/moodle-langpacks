@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'admin', language 'gl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'admin', language 'gl', branch 'MOODLE_31_STABLE'
  *
  * @package   admin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -60,7 +60,6 @@ $string['allowuserswitchrolestheycantassign'] = 'Permitirlle aos usuarios sen pe
 $string['allowuserthemes'] = 'Permitir temas de usuario';
 $string['alternativefullnameformat'] = 'Formato alternativo do nome completo';
 $string['alternativefullnameformat_desc'] = 'Define como se amosan os nomes aos usuarios que teñen activado o permiso «viewfullnames» (dispoñíbel de xeito predeterminado para usuarios cos roles de administrador, profesor ou profesor sen permisos de edición). Os marcadores que poden usarse veñen determinados polo parámetro «Formato de nome completo».';
-$string['antivirus'] = 'Antivirus';
 $string['appearance'] = 'Aparencia';
 $string['aspellpath'] = 'Ruta a aspell';
 $string['authentication'] = 'Autenticación';
@@ -117,7 +116,6 @@ $string['change'] = 'cambiar';
 $string['checkboxno'] = 'Non';
 $string['checkboxyes'] = 'Si';
 $string['choosefiletoedit'] = 'Escolla o ficheiro para editar';
-$string['clamfailureonupload'] = 'Produciuse un fallo en clam AV';
 $string['cleanup'] = 'Limpeza';
 $string['clianswerno'] = 'n';
 $string['cliansweryes'] = 's';
@@ -165,9 +163,6 @@ $string['configautologinguests'] = 'Os visitantes deben ser rexistrados automati
 $string['configbloglevel'] = 'Este axuste permite restrinxir o nivel de acceso á vista dos blogs neste sitio. Teña en conta que especifica o contexto máximo do VISOR e non do publicador ou dos tipos de mensaxes. Pode desactivar completamente, se o desexa, todos os blogs.';
 $string['configcalendarcustomexport'] = 'Activar a exportación personalizada dun intervalo de datas do calendario';
 $string['configcalendarexportsalt'] = 'Esta cadea de caracteres ao chou empregase para mellorar as chaves de seguranza (tokens) de autenticación empregadas para a exportación dos calendarios. Teña en conta que todas as chaves de seguranza actuais quedarán anuladas se modifica esta sal.';
-$string['configclamactlikevirus'] = 'Tratar ficheiros como virus';
-$string['configclamdonothing'] = 'Tratar ficheiros como bos';
-$string['configclamfailureonupload'] = 'Se configurou o clam para comprobar ficheiros transferidos, mais a configuración é incorrecta ou hai un erro de execución por calquera motivo, que debe facer? Se escolle «Tratar ficheiros como virus», estes ficheiros serán enviados para a área de corentena ou serán eliminados. Se escolle «Tratar ficheiros como bos» os ficheiros serán enviados para o directorio de destino. De calquera xeito, cando falle o clam avisarase aos administradores. Se escolle «Tratar ficheiros como virus» e por algunha razón o clam continúa fallando (porque introduciu unha ruta de acceso incorrecta), TODOS os ficheiros enviados moveranse para a área de corentena ou serán eliminados. Teña coidado á hora de escoller un destes axustes.';
 $string['configcookiehttponly'] = 'Activando a nova característica de PHP 5.2.0: instrúese aos navegadores para que envíen unha «cookie» só a petición de http verdadeiras. As cookies no deberían ser accesíbeis desde linguaxes de script. Non todos os navegadores poden executar esta opción, e podería no ser compatíbel co código actual. Isto axuda a previr algúns tipos de ataques XSS.';
 $string['configcookiesecure'] = 'Se o servidor acepta unicamente conexións https, recomendase activar o envío de cookies seguras. Se está activada a opción, asegúrese de que o servidor web non acepta http:// nin ten fixada unha redirección permanente a enderezos https://. Cando un enderezo <em>wwwroot</em> non comeza con https:// este axuste desactivase automaticamente.';
 $string['configcountry'] = 'Ao definir aquí un país, este será seleccionado como predeterminado nas novas contas de usuario. Se desexa que os usuarios escollan un país déixeo sen definir.';
@@ -298,7 +293,6 @@ $string['configopentogoogle'] = 'Se activa este axuste, Google terá permiso par
 $string['configoverride'] = 'Definido en config.php';
 $string['configpasswordpolicy'] = 'Se activa esta opción, Moodle comprobará os contrasinais do usuario coas políticas de corrección dos contrasinais. Use a configuración de embaixo para fixar esta políticas (se selecciona «Non» ignoraranse).';
 $string['configpasswordresettime'] = 'Isto especifica o tempo que ten a xente para validar unha solicitude para reiniciar un contrasinal antes de que caduque. Usualmente 30 minutos é un bo valor.';
-$string['configpathtoclam'] = 'A ruta para o antivirus clam AV. Probabelmente algo como /usr/bin/clamscan ou /usr/bin/clamdscan. Precisa disto para poder executar o antivirus clam AV.';
 $string['configpathtodu'] = 'A ruta para «du». Probabelmente algo como /usr/bin/du. Ao introducir isto as páxinas que presenten os contidos do directorio executaranse máis rápido nos directorios con moitos ficheiros.';
 $string['configperfdebug'] = 'Ao activar isto a información da realización imprimirase no rodapé do tema estándar.';
 $string['configprofileroles'] = 'Lista de roles que son visíbeis nos perfís de usuario e na páxina de participación.';
@@ -310,7 +304,6 @@ $string['configproxypassword'] = 'É necesario un contrasinal para acceder a Int
 $string['configproxyport'] = 'Se este servidor precisa utilizar o proxy, entón especifique aquí o porto do proxy.';
 $string['configproxytype'] = 'Tipo de proxy web (requírense as extensións PHP5 e cURL para admitir o SOCKS5).';
 $string['configproxyuser'] = 'É necesario un nome de usuario para acceder a Internet a través do proxy; déixeo baleiro en caso contrario (requírese da extensión PHP cURL).';
-$string['configquarantinedir'] = 'Se desexa que o antivirus clam AV mova os ficheiros infectados a un directorio de corentena, introdúzao aquí. Se o deixa en branco ou introduce un directorio sen saída ou non editábel, os ficheiros infectados serán eliminados. Non incluír a barra (/).';
 $string['configrecaptchaprivatekey'] = 'Cadea de caracteres usada para comunicarse entre o seu servidor Moodle e o servidor recaptcha. Obteña unha para este sitio visitando http://www.google.com/recaptcha';
 $string['configrecaptchapublickey'] = 'Cadea de caracteres usados para presentar o elemento reCAPTCHA no formulario de acceso. Xenerada por http://www.google.com/recaptcha';
 $string['configrequestcategoryselection'] = 'Permitir a selección dunha categoría cando se solicita un curso.';
@@ -318,8 +311,6 @@ $string['configrequestedstudentname'] = 'Palabra para utilizar o alumno nos curs
 $string['configrequestedstudentsname'] = 'Palabra para utilizaren os alumnos nos cursos solicitados.';
 $string['configrequestedteachername'] = 'Palabra para utilizar o profesor nos cursos solicitados';
 $string['configrequestedteachersname'] = 'Palabra para utilizaren os profesores nos cursos solicitados';
-$string['configrunclamavonupload'] = 'Ao activalo, empregarase o antivirus clam AV para examinar todos os ficheiros enviados.';
-$string['configrunclamonupload'] = 'Quere executar o antivirus clam AV ao enviar o ficheiro? Precisará unha ruta correcta a clam AV para esta tarefa. (o antivirus clam AV é un antivirus libre que pode obterse en http://www.clamav.net/)';
 $string['configsectioninterface'] = 'Interface';
 $string['configsectionmail'] = 'Correo';
 $string['configsectionmaintenance'] = 'Mantemento';
@@ -788,7 +779,6 @@ $string['passwordpolicy'] = 'Política de contrasinais';
 $string['passwordresettime'] = 'Tempo máximo para validar una solicitude de restabelecemento de contrasinal';
 $string['passwordreuselimit'] = 'Límite de rotación de contrasinais';
 $string['passwordreuselimit_desc'] = 'Número de veces que o usuario debe de cambar os seus contrasinais antes de que se lle permita reutilizar un contrasinal. Os «hashes» dos contrasinais usados anteriormente almacénanse nunha táboa de datos local. É probábel que esta característica non sexa compatíbel con algúns engadidos externos de autenticación.';
-$string['pathtoclam'] = 'Ruta a clam AV';
 $string['pathtodot'] = 'Ruta a dot';
 $string['pathtodot_help'] = 'Ruta ata o executábel de dot. Probabelmente algo como /usr/bin/dot. Para ser quen de xerar gráficos a partir de ficheiros DOT precisa ter instalado o executábel de dot (das utilidades Graphviz) e apuntar a el aquí. Vexa que, polo de agora, só o utilizan as características de perfilado (Desenvolvemento->Perfilado) incorporadas en Moodle.';
 $string['pathtodu'] = 'Ruta a du';
@@ -895,7 +885,6 @@ $string['proxyuser'] = 'Nome de usuario no proxy';
 $string['purgecaches'] = 'Purgar todas as cachés';
 $string['purgecachesconfirm'] = 'Moodle pode gardar en caché os temas, javascript, cadeas de idioma, texto filtrado, fontes RSS e moitos outros datos. A purga da caché eliminará os datos do servidor e forzará aos navegadores a actualizar a información, co que vostede asegurarase que os usuarios están vendo os datos actualizados producidos polo código actual. Non é perigoso facelo, aínda que o seu sitio podería parecer algo máis lento nun principio ata que o servidor e os clientes volvan a actualizar a información gardándose novamente os datos na caché.';
 $string['purgecachesfinished'] = 'Purgáronse todas as cachés.';
-$string['quarantinedir'] = 'Directorio de corentena';
 $string['question'] = 'Pregunta';
 $string['questionbehaviours'] = 'Comportamento das preguntas';
 $string['questioncwqpfscheck'] = 'Unha ou máis preguntas «ao chou» dun cuestionario dispóñense para seleccionar preguntas dunha mestura de categorías de pregunta compartidas e non compartidas. Pode ver un informe máis detallado <a href="{$a->reporturl}">aquí</a> ou consultar a páxina de Moodle Docs <a href="{$a->docsurl}">here</a>.';
@@ -941,7 +930,6 @@ $string['riskxss'] = 'Os usuarios pode engadir ficheiros e textos que permitan �
 $string['riskxssshort'] = 'Risco XSS';
 $string['roleswithexceptions'] = '{$a->roles}, con {$a->exceptions}';
 $string['rssglobaldisabled'] = 'Desactivado no nivel do servidor';
-$string['runclamavonupload'] = 'Empregar clam AV nos ficheiros enviados';
 $string['save'] = 'Gardar';
 $string['savechanges'] = 'Gardar os cambios';
 $string['search'] = 'Buscar';

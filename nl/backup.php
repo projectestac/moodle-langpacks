@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'backup', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,7 @@ $string['automatedbackupschedulehelp'] = 'Dagen van de week om automatische back
 $string['automatedbackupsinactive'] = 'Automatische back-ups zijn niet ingeschakeled door de site-beheerder.';
 $string['automatedbackupstatus'] = 'Status van geplande back-up';
 $string['automateddeletedays'] = 'Verwijder backups ouder dan';
-$string['automatedmaxkept'] = 'Maximum aantel te houden back-ups';
+$string['automatedmaxkept'] = 'Maximum aantal te houden back-ups';
 $string['automatedmaxkepthelp'] = 'Dit geeft het maximum aantal of recente automatische back-ups om bij te houden voor elke cursus. Oudere back-ups worden automatisch verwijderd.';
 $string['automatedminkept'] = 'Maximum aantal te houden back-ups';
 $string['automatedminkepthelp'] = 'Als back-ups ouder dan een bepaald aantal dage, verwijderd worden, dan kan het gebeuren dat een niet-actieve cursus zonder back-ups komt. Om dit te voorkomen kun je hier een minimaal te behouden aantal back-ups ingeven.';
@@ -164,6 +164,8 @@ $string['importcurrentstage2'] = 'Schema instellingen';
 $string['importcurrentstage4'] = 'Bevestiging en nakijken';
 $string['importcurrentstage8'] = 'Importeer';
 $string['importfile'] = 'Importeer een back-upbestand';
+$string['importgeneralduplicateadminallowed'] = 'Admin-conflict oplossen toestaan';
+$string['importgeneralduplicateadminallowed_desc'] = 'Als de site een gebruiker heeft met als gebruikersnaam \'admin\', dan kan het terugzetten van een backup-bestand waarin een account zit met gebruikersnaam \'admin\' een conflict veroorzaken. Als deze instelling ingeschakeld is, dan zal het conflict opgelost worden door de gebruikersnaam in het backup-bestand te wijzigen naar \'admin_xyz\'.';
 $string['importgeneralmaxresults'] = 'Maximaal aantal cursussen in de lijst om te importeren';
 $string['importgeneralmaxresults_desc'] = 'Dit controleert het aantal cursussen in de lijst tijdens de eerste stap van het importproces.';
 $string['importgeneralsettings'] = 'Algemene standaardwaarden bij importeren';

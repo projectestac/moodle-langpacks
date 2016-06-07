@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'message', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addcontact'] = 'Lägg till kontakt';
-$string['addsomecontacts'] = 'För att skicka ett meddelande till någon, eller lägga till en genväg till dem på den här sidan så använder du <a href="{$a}">Sök </a> här ovan.';
-$string['addsomecontactsincoming'] = 'De här meddelandena är från personer som inte finns med i din kontaktlista. För att lägga till dem till dina kontakter så ska du klicka på ikonen "Lägg till kontakt" som du hittar intill deras namn.';
+$string['addsomecontacts'] = 'För att skicka ett meddelande till någon, eller lägga till en genväg till dem på den här sidan så använder Du <a href="{$a}">Sök </a> här ovan.';
+$string['addsomecontactsincoming'] = 'De här meddelandena är från personer som inte finns med i Din kontaktlista. För att lägga till dem till Dina kontakter så ska Du klicka på ikonen "Lägg till kontakt" som Du hittar intill deras namn.';
 $string['ago'] = 'För {$a} sedan';
 $string['ajax_gui'] = 'Chatrum Ajax';
 $string['allmine'] = 'Alla meddelanden från mig till mig';
@@ -44,6 +44,9 @@ $string['contacts'] = 'Kontakter';
 $string['context'] = 'Sammanhang';
 $string['defaultmessageoutputs'] = 'Standardinställningar för meddelandeutmatning';
 $string['defaults'] = 'Standardvärden';
+$string['deletemessage'] = 'Radera meddelande';
+$string['deletemessageconfirmation'] = 'Vill du verkligen radera detta meddelande?
+Det kommer bara att raderas från din egen meddelandehistorik. Användaren som har skickat/fått meddelandet kan fortfarande se det.';
 $string['deletemessagesdays'] = 'Antal dagar innan gamla meddelanden tas bort automatiskt';
 $string['disableall'] = 'Tillfälligt inaktivera meddelanden';
 $string['disableall_help'] = 'Tillfällig inaktivering av alla meddelanden förutom de som är markerade som "tvingande" av Moodle administratören.';
@@ -54,8 +57,17 @@ $string['emailmessages'] = 'E-postmeddelanden när jag arbetar i frånkopplat l�
 $string['emailtagline'] = 'Det här e-postmeddelandet är en kopia av ett meddelande som har skickats till Dig på "{$a>sitename}". Gå till  {$a->url} för att svara.
 ';
 $string['emptysearchstring'] = 'Du måste söka efter någonting';
+$string['enabled'] = 'Aktiverat';
 $string['errorcallingprocessor'] = 'Fel i sb m anrop till den definierade processorn';
 $string['errortranslatingdefault'] = 'Fel vid översättningen av standardinställningar från plugin, använder systemets standard istället.';
+$string['errorwhilesendingmessage'] = 'Ett fel inträffade när meddelandet skulle skickas. V.g. försök igen lite senare.';
+$string['eventmessagecontactadded'] = 'En kontakt har lagts till.';
+$string['eventmessagecontactblocked'] = 'En kontakt har blockerats.';
+$string['eventmessagecontactremoved'] = 'En kontakt har tagits bort.';
+$string['eventmessagecontactunblocked'] = 'En kontakt har avblockerats.';
+$string['eventmessagedeleted'] = 'Meddelandet har raderats.';
+$string['eventmessagesent'] = 'Meddelandet har skickats.';
+$string['eventmessageviewed'] = 'Meddelandet har öppnats.';
 $string['forced'] = 'Tvingad';
 $string['formorethan'] = 'I mer än';
 $string['gotomessages'] = 'Gå till meddelanden';
@@ -65,7 +77,7 @@ $string['includeblockedusers'] = 'Ta med blockerade användare';
 $string['incomingcontacts'] = 'Inkommande kontakter ({$a})';
 $string['keywords'] = 'Nyckelord';
 $string['keywordssearchresults'] = 'Funna meddelanden: {$a}  ';
-$string['keywordssearchresultstoomany'] = 'Det fanns fler än {$a} meddelanden. Specificera din sökning noggrannare';
+$string['keywordssearchresultstoomany'] = 'Det fanns fler än {$a} meddelanden. Specificera Din sökning noggrannare ';
 $string['loggedin'] = 'Uppkopplad';
 $string['loggedindescription'] = 'När jag är inloggad';
 $string['loggedoff'] = 'Inte uppkopplad';
@@ -80,6 +92,8 @@ $string['messagehistoryfull'] = 'Alla meddelanden';
 $string['messagenavigation'] = 'Meddelande navigering:';
 $string['messageoutputs'] = 'Meddelande utmatning';
 $string['messages'] = 'Meddelanden';
+$string['messagesent'] = 'Meddelandet har skickats.';
+$string['messagetosend'] = 'Meddelande som ska skickas.';
 $string['messaging'] = 'Skickar meddelanden';
 $string['messagingblockednoncontact'] = '{$a} kommer inte kunna svara då du har blockerat meddelande från de som inte finns i din kontaktlista';
 $string['messagingdisabled'] = 'Funktionen för meddelanden är avaktiverad på den här webbplatsen, det kommer att skickas ut e-post istället.';
@@ -120,6 +134,7 @@ $string['search'] = 'Sök';
 $string['searchcombined'] = 'Sök personer och meddelanden';
 $string['searchforperson'] = 'Sök en person';
 $string['searchmessages'] = 'Sök meddelande';
+$string['sendingmessage'] = 'Skickar meddelande';
 $string['sendingvia'] = 'Skickar "{$a->provider}" via "{$a->processor}"';
 $string['sendingviawhen'] = 'Skickar "{$a->provider}" via "{$a->processor}" när {$a->state}';
 $string['sendmessage'] = 'Skicka meddelande';
@@ -127,16 +142,18 @@ $string['sendmessageto'] = 'Skicka meddelande till {$a}';
 $string['sendmessagetopopup'] = 'Skicka meddelande till {$a} - nytt fönster';
 $string['settings'] = 'Inställningar';
 $string['settingssaved'] = 'Dina inställningar har sparats';
-$string['showmessagewindow'] = 'Visa fönstret för meddelanden automatiskt när jag får nya meddelanden (du behöver se till att inställningarna i din webbläsare inte blockerar popup-fönster på den här webbplatsen)';
+$string['showmessagewindow'] = 'Visa fönstret för meddelanden automatiskt när jag får nya meddelanden (Du behöver se till att inställningarna i Din webbläsare inte blockerar popup-fönster på den här webbplatsen)';
 $string['strftimedaydatetime'] = '%A, %d %B %Y, %I:%M %p';
 $string['thisconversation'] = 'denna konversation';
 $string['timenosee'] = 'Antal minuter som jag var uppkopplad';
 $string['timesent'] = 'Tid för avsändning';
 $string['touserdoesntexist'] = 'Du kan inte skicka ett meddelande till en användar-id ({$a}) som inte existerar';
+$string['unabletomessageuser'] = 'Du får inte skicka något meddelande till denna användare.';
 $string['unblockcontact'] = 'Ta bort blockering av användare';
 $string['unreadmessages'] = '({$a}) olästa meddelanden';
 $string['unreadnewmessage'] = 'Nytt meddelande från {$a}';
 $string['unreadnewmessages'] = 'Nya meddelanden från {$a}';
 $string['userisblockingyou'] = 'Den här användaren har blockerat Dig från att skicka meddelanden till dem';
-$string['userisblockingyounoncontact'] = 'Den här användaren accepterar bara meddelanden från personer på sin kontaktlista och där finns du f.n. inte med.';
+$string['userisblockingyounoncontact'] = 'Den här användaren accepterar bara meddelanden från personer på sin kontaktlista och där finns Du f.n. inte med.';
 $string['userssearchresults'] = ' {$a} användare hittades';
+$string['viewconversation'] = 'Visa konversation';

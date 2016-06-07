@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'auth_ldap', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,7 +48,7 @@ $string['auth_ldap_expiration_desc'] = 'Seleccione No para deshabilitar comproba
 $string['auth_ldap_expiration_key'] = 'Expiración';
 $string['auth_ldap_expiration_warning_desc'] = 'Número de días antes de que aparezca la advertencia de caducidad de la contraseña.';
 $string['auth_ldap_expiration_warning_key'] = 'Advertencia de expiración';
-$string['auth_ldap_expireattr_desc'] = 'Opcional: anula el atributo ldap que almacena el tiempo de caducidad de la contraseña PasswordExpirationTime';
+$string['auth_ldap_expireattr_desc'] = 'Opcional: anula el atributo LDAP que almacena el tiempo de caducidad de la contraseña.';
 $string['auth_ldap_expireattr_key'] = 'Atributo de expiración';
 $string['auth_ldapextrafields'] = 'Estos campos son opcionales. Usted puede elegir pre-rellenar algunos campos de usuario en Moodle con información de los <strong>campos LDAP</strong> que especifique aquí. <p>Si deja estos campos en blanco, entonces no se transferirá nada desde LDAP y se usará el sistema predeterminado en Moodle.</p><p>En ambos casos, los usuarios podrán editar todos estos campos después de entrar.</p>';
 $string['auth_ldap_graceattr_desc'] = 'Opcional: Anula el atributo gracelogin';
@@ -57,7 +57,7 @@ $string['auth_ldap_gracelogins_desc'] = 'Activar el soporte de entrada libre LDA
 $string['auth_ldap_gracelogins_key'] = 'Entradas libres';
 $string['auth_ldap_groupecreators'] = 'Lista de grupos o contextos cuyos miembros están habilitados para crear grupos. Separe los grupos con \',\'. Por ejemplo: \'cn=profesores,ou=personal,o=miorg\'';
 $string['auth_ldap_groupecreators_key'] = 'Creadores de grupo';
-$string['auth_ldap_host_url'] = 'Especificar el host LDAP en forma de URL como \'ldap://ldap.myorg.com/\' o \'ldaps://ldap.myorg.com/\'';
+$string['auth_ldap_host_url'] = 'Especificar el host LDAP en forma de URL como \'ldap://ldap.myorg.com/\' o \'ldaps://ldap.myorg.com/\'. Separar múltiples servidores con  \';\' para obtener soporte de conmutación.';
 $string['auth_ldap_host_url_key'] = 'URL  del host';
 $string['auth_ldap_ldap_encoding'] = 'Especifique la codificación usada por el servidor LDAP. Muy probablemente utf-8, MS AD v2 utiliza codificación de plataforma por defecto como cp1252, cp1250, etc.';
 $string['auth_ldap_ldap_encoding_key'] = 'Codificación LDAP';
@@ -71,7 +71,7 @@ $string['auth_ldap_noconnect_all'] = 'El módulo LDAP no puede conectarse a ning
 $string['auth_ldap_noextension'] = '<em>Advertencia: El módulo LDAP de PHP no parece estar presente. Por favor asegúrese que esté instalado y activado.</em>';
 $string['auth_ldap_no_mbstring'] = 'Necesita la extensión mbstring para crear usuarios en el Directorio Activo.';
 $string['auth_ldapnotinstalled'] = 'No se puede utilizar identificación LDAP. El módulo LDAP de PHP no está instalado.';
-$string['auth_ldap_objectclass'] = 'Filtro usado para usuarios name/search. Normalmente deberá ajustarlo a algo parecido a objectClass=posixAccount. Valores por defecto para objectClass=* que devolverán todos los objetos desde LDAP.';
+$string['auth_ldap_objectclass'] = 'Opcional: Anular objectClass usado para nombrar/buscar usuarios en ldap_user_type. Normalmente no es necesario cambiar esto.';
 $string['auth_ldap_objectclass_key'] = 'Clase de objetos';
 $string['auth_ldap_opt_deref'] = 'Determina cómo se manejan los alias durante la búsqueda. Seleccione uno de los siguientes valores: "No" (LDAP_DEREF_NEVER) o "Sí" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_opt_deref_key'] = 'Dereferenciar los alias';
@@ -127,7 +127,7 @@ $string['notcalledfromserver'] = '¡No debería llamarse desde el servidor web!'
 $string['noupdatestobedone'] = 'No hay actualizaciones disponibles';
 $string['nouserentriestoremove'] = 'No hay entradas de usuario para ser eliminadas';
 $string['nouserentriestorevive'] = 'No hay entradas de usuario para ser recuperadas';
-$string['nouserstobeadded'] = 'No hay usuarios que agregar';
+$string['nouserstobeadded'] = 'No hay entradas de usuario que agregar';
 $string['ntlmsso_attempting'] = 'Intentando Single Sign On vía NTLM...';
 $string['ntlmsso_failed'] = 'Falló el acceso automático; intente con la página de acceso normal...';
 $string['ntlmsso_isdisabled'] = 'NTLM SSO está desactivado.';
@@ -141,6 +141,7 @@ $string['renamingnotallowed'] = 'El renombrado del nombre de usuario no está ha
 $string['rootdseerror'] = 'Error al consultar rootDSE para Active Directory';
 $string['start_tls'] = 'Utilice el servicio LDAP estándar (puerto 389) con cifrado TLS';
 $string['start_tls_key'] = 'Usar TLS';
+$string['synctask'] = 'Tarea de sincronización de usuarios LDAP';
 $string['updatepasserror'] = 'Error en user_update_password{}. Código de error: {$a->errno}. Cadena del error: {$a->errstring}';
 $string['updatepasserrorexpire'] = 'Error en user_update_password{} al leer el periodo de expiración de la contraseña.  Código de error: {$a->errno}. Cadena del error: {$a->errstring}';
 $string['updatepasserrorexpiregrace'] = 'Error en user_update_password{} al modificar el periodo de expiración y/o los intentos de identidicación.  Código de error: {$a->errno}. Cadena del error: {$a->errstring}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'book', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,8 +62,12 @@ $string['movechapterup'] = 'Mover capítulo "{$a}" para arriba';
 $string['navexit'] = 'Salir del libro';
 $string['navimages'] = 'Imágenes';
 $string['navnext'] = 'Siguiente';
+$string['navoptions'] = 'Opciones disponibles para links de navegación';
+$string['navoptions_desc'] = '';
 $string['navprev'] = 'Anterior';
 $string['navstyle'] = 'Diseño de navegación';
+$string['navstyle_help'] = '*Imágenes- Los iconos se utilizan para la navegación
+*Texto- Los títulos de capítulos se usan para la navegación';
 $string['navtext'] = 'Texto';
 $string['navtoc'] = 'Solo TOC';
 $string['nocontent'] = 'Aún no se ha añadido contenido a este libro.';

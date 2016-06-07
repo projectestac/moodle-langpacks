@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'webservice', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,6 @@ $string['addrequiredcapability'] = 'Назначение (отмена назн�
 $string['addservice'] = 'Добавить новую службу: {$a->name} (id: {$a->id})';
 $string['addservicefunction'] = 'Добавить функции службы «{$a}»';
 $string['allusers'] = 'Все пользователи';
-$string['amftestclient'] = 'Клиент для тестирования AMF';
 $string['apiexplorer'] = 'Проводник API';
 $string['apiexplorernotavalaible'] = 'Проводник API недоступен';
 $string['arguments'] = 'Аргументы';
@@ -92,9 +91,9 @@ $string['eventwebserviceloginfailed'] = 'Ошибка авторизации в 
 $string['eventwebserviceservicecreated'] = 'Веб-служба создана';
 $string['eventwebserviceservicedeleted'] = 'Веб-служба удалена';
 $string['eventwebserviceserviceupdated'] = 'Веб-служба обновлена';
-$string['eventwebserviceserviceuseradded'] = 'Добавлен пользователь веб-службы';
-$string['eventwebserviceserviceuserremoved'] = 'Удален пользователь веб-службы';
-$string['eventwebservicetokencreated'] = 'Создан ключ веб-службы';
+$string['eventwebserviceserviceuseradded'] = 'Пользователь веб-службы добавлен';
+$string['eventwebserviceserviceuserremoved'] = 'Пользователь веб-службы удален';
+$string['eventwebservicetokencreated'] = 'Ключ веб-службы создан';
 $string['eventwebservicetokensent'] = 'Ключ веб-службы отправлен';
 $string['execute'] = 'Выполнить';
 $string['executewarnign'] = 'ВНИМАНИЕ: Если Вы нажмете «Выполнить», то база данных будет изменена и изменения не смогут быть отменены автоматически!';

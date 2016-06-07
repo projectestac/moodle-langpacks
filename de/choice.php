@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'choice', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,7 +57,9 @@ $string['displayhorizontal'] = 'Horizontal anzeigen';
 $string['displaymode'] = 'Anzeigemodus';
 $string['displayvertical'] = 'Vertikal anzeigen';
 $string['eventanswercreated'] = 'Abstimmung durchgeführt';
+$string['eventanswerdeleted'] = 'Abstimmungsantwort gelöscht';
 $string['eventanswerupdated'] = 'Abstimmung aktualisiert';
+$string['eventreportdownloaded'] = 'Abstimmungsübersicht heruntergeladen';
 $string['eventreportviewed'] = 'Abstimmungsübersicht angezeigt';
 $string['expired'] = 'Diese Abstimmung ist seit {$a} beendet. Eine Auswahl ist nicht mehr möglich.';
 $string['full'] = '(Nicht verfügbar)';
@@ -106,6 +108,7 @@ $string['responsesresultgraphheader'] = 'Grafische Darstellung';
 $string['responsesto'] = 'Antworten zu {$a}';
 $string['results'] = 'Ergebnisse';
 $string['savemychoice'] = 'Meine Auswahl speichern';
+$string['search:activity'] = 'Abstimmung - Aktivitätsinformation';
 $string['showpreview'] = 'Vorschau anzeigen';
 $string['showpreview_help'] = 'Diese Option legt fest, ob die verfügbaren Wahlmöglichkeiten bereits vor dem Abstimmungsbeginn angezeigt werden.';
 $string['showunanswered'] = 'Teilnehmer/innen ohne Antwort anzeigen';

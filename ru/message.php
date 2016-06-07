@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'message', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,6 +44,8 @@ $string['contacts'] = 'Собеседники';
 $string['context'] = 'смотреть в контексте';
 $string['defaultmessageoutputs'] = 'Настройки значений по умолчанию для способов доставки сообщений';
 $string['defaults'] = 'Значения по умолчанию';
+$string['deletemessage'] = 'Удалить сообщение';
+$string['deletemessageconfirmation'] = 'Вы уверенны, что хотите удалить данное сообщение? Сообщение будет удалено лишь из Вашего списка сообщений и по прежнему будет доступно для просмотра собеседником.';
 $string['deletemessagesdays'] = 'Количество дней перед автоматическим удалением старых сообщений ';
 $string['disableall'] = 'Временно отключить уведомления';
 $string['disableall_help'] = 'Временно отключить все уведомления за исключением тех, которые отмечены администратором сайта как «принудительные».';
@@ -61,6 +63,7 @@ $string['eventmessagecontactadded'] = 'Добавлен собеседник';
 $string['eventmessagecontactblocked'] = 'Собеседник заблокирован';
 $string['eventmessagecontactremoved'] = 'Собеседник удален';
 $string['eventmessagecontactunblocked'] = 'Собеседник разблокирован';
+$string['eventmessagedeleted'] = 'Сообщение удалено';
 $string['eventmessagesent'] = 'Сообщение отправлено';
 $string['eventmessageviewed'] = 'Сообщение просмотрено';
 $string['forced'] = 'Установить принудительно';
@@ -143,6 +146,7 @@ $string['thisconversation'] = 'эта беседа';
 $string['timenosee'] = 'минут после моего выхода с сайта';
 $string['timesent'] = 'Время отправки';
 $string['touserdoesntexist'] = 'Вы не можете отправить сообщение несуществующему пользователю (id {$a}).';
+$string['unabletomessageuser'] = 'У Вас нет разрешения на отправку сообщения данному пользователю';
 $string['unblockcontact'] = 'Разблокировать сообщения от этого собеседника';
 $string['unreadmessages'] = 'Непрочитанных сообщений: {$a}';
 $string['unreadnewmessage'] = 'Новое сообщение от пользователя {$a}';

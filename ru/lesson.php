@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'lesson', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -192,22 +192,22 @@ $string['essays'] = 'Эссе';
 $string['essayscore'] = 'Баллы за эссе';
 $string['eventcontentpageviewed'] = 'Содержимое страницы просмотрено';
 $string['eventessayassessed'] = 'Эссе оценено';
-$string['eventessayattemptviewed'] = 'Просмотрен ответ на задание типа «Эссе»';
+$string['eventessayattemptviewed'] = 'Ответ на задание типа «Эссе» просмотрен';
 $string['eventhighscoreadded'] = 'Высшие баллы добавлены';
 $string['eventhighscoresviewed'] = 'Высшие баллы просмотрены';
 $string['eventlessonended'] = 'Лекция закончена';
 $string['eventlessonrestarted'] = 'Лекция начата заново';
 $string['eventlessonresumed'] = 'Лекция продолжена';
 $string['eventlessonstarted'] = 'Лекция начата';
-$string['eventoverridecreated'] = 'Создано переопределение лекции';
-$string['eventoverridedeleted'] = 'Удалено переопределение лекции';
-$string['eventoverrideupdated'] = 'Обновлено переопределение лекции';
+$string['eventoverridecreated'] = 'Переопределение лекции создано';
+$string['eventoverridedeleted'] = 'Переопределение лекции удалено';
+$string['eventoverrideupdated'] = 'Переопределение лекции обновлено';
 $string['eventpagecreated'] = 'Страница создана';
 $string['eventpagedeleted'] = 'Страница удалена';
 $string['eventpagemoved'] = 'Страница перемещена';
 $string['eventpageupdated'] = 'Страница обновлена';
 $string['eventquestionanswered'] = 'Дан ответ на вопрос';
-$string['eventquestionviewed'] = 'Просмотрен вопрос';
+$string['eventquestionviewed'] = 'Вопрос просмотрен';
 $string['false'] = 'Неверно';
 $string['fileformat'] = 'Формат файла';
 $string['finish'] = 'Завершить';

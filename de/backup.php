@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'backup', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -172,7 +172,7 @@ $string['includeditems'] = 'Einbezogene Elemente:';
 $string['includefilereferences'] = 'Dateiverweise zu externen Inhalten';
 $string['includesection'] = 'Abschnitt {$a}';
 $string['includeuserinfo'] = 'Nutzerdaten';
-$string['jumptofinalstep'] = 'Alle Einstellungen überspringen';
+$string['jumptofinalstep'] = 'Weitere Einstellungen überspringen';
 $string['locked'] = 'Gesperrt';
 $string['lockedbyconfig'] = 'Diese Einstellung wurde durch eine standardmäßige Sicherungseinstellung gesperrt';
 $string['lockedbyhierarchy'] = 'Gesperrt durch Abhängigkeiten';
@@ -237,6 +237,7 @@ $string['rootsettingbadges'] = 'Auszeichnungen einbeziehen';
 $string['rootsettingblocks'] = 'Blöcke einbeziehen';
 $string['rootsettingcalendarevents'] = 'Kalender einbeziehen';
 $string['rootsettingcomments'] = 'Kommentare einbeziehen';
+$string['rootsettingcompetencies'] = 'Kompetenzen einbeziehen';
 $string['rootsettingfilters'] = 'Filter einbeziehen';
 $string['rootsettinggradehistories'] = 'Bewertungsverlauf einbeziehen';
 $string['rootsettinggroups'] = 'Gruppen und Gruppierungen einbeziehen';

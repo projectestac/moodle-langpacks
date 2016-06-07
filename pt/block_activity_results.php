@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_activity_results', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_activity_results', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   block_activity_results
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,7 +39,7 @@ $string['config_name_format'] = 'Privacidade dos resultados';
 $string['config_names_anon'] = 'Resultados anónimos';
 $string['config_names_full'] = 'Exibir nomes completos';
 $string['config_names_id'] = 'Exibir apenas os números de identificação';
-$string['config_no_activities_in_course'] = 'Ainda não existem atividades neste curso.';
+$string['config_no_activities_in_course'] = 'Ainda não existem atividades nesta disciplina.';
 $string['config_select_activity'] = 'Este bloco deve exibir os resultados de que atividade?';
 $string['config_show_best'] = 'Das notas mais elevadas, quantas devem ser exibidas (0 para desativar)?';
 $string['config_show_worst'] = 'Das notas mais baixas, quantas devem ser exibidas (0 para desativar)?';
@@ -48,8 +48,8 @@ $string['config_use_groups'] = 'Exibe grupos em vez de alunos (apenas caso a ati
 $string['error_emptyactivityid'] = 'Por favor configure este bloco e selecione de que atividade ele deve exibir os resultados.';
 $string['error_emptyactivityrecord'] = 'Erro: a atividade selecionada não existe na base de dados.';
 $string['error_nogroupsexist'] = 'Erro: o bloco está configurado para exibir notas em modo de grupos, no entanto não existem grupos definidos.';
-$string['error_unsupportedgradetype'] = 'Erro: a atividade selecionada utiliza um método de classificação que não é suportado por este bloco.';
-$string['notyetgraded'] = 'Ainda não classificado';
+$string['error_unsupportedgradetype'] = 'Erro: a atividade selecionada utiliza um método de avaliação que não é suportado por este bloco.';
+$string['notyetgraded'] = 'Ainda não há avaliação';
 $string['pluginname'] = 'Resultados da atividade';
 $string['unknown'] = 'Escala desconhecida';
 $string['worstgrade'] = 'A nota mais baixa:';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'question', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,7 +42,7 @@ $string['availableq'] = 'Disponível?';
 $string['badbase'] = 'Má base antes de  **: {$a}**';
 $string['behaviour'] = 'Comportamento';
 $string['behaviourbeingused'] = 'comportamento em uso:  {$a}';
-$string['broken'] = 'É um "link quebrado", aponta para um ficheiro que não existe.';
+$string['broken'] = 'É uma "hiperligação quebrada", aponta para um ficheiro que não existe.';
 $string['byandon'] = 'por <em>{$a->user}</em> em <em>{$a->time}</em>';
 $string['cannotcopybackup'] = 'Não foi possível copiar a cópia de segurança';
 $string['cannotcreate'] = 'Não foi possível criar uma nova entrada na tabela question_attempts';
@@ -61,7 +61,7 @@ $string['cannotgetdsforquestion'] = 'Não foi possível obter a série de dados 
 $string['cannothidequestion'] = 'Não é possível ocultar a pergunta';
 $string['cannotimportformat'] = 'Desculpe mas esse formato ainda não se encontra implementado!';
 $string['cannotinsertquestion'] = 'Não foi possível adicionar a nova pergunta!';
-$string['cannotinsertquestioncatecontext'] = 'Não foi possível inserir a nova categoria {$a->cat} pois o id do contexto é inválido {$a->ctx}';
+$string['cannotinsertquestioncatecontext'] = 'Não foi possível inserir a nova categoria {$a->cat} pois o ID do contexto é inválido {$a->ctx}';
 $string['cannotloadquestion'] = 'Não foi possível carregar a pergunta';
 $string['cannotmovequestion'] = 'Não pode usar este script para mover perguntas que possuem ficheiros associados a partir de outras áreas.';
 $string['cannotopenforwriting'] = 'Não é possível abrir para editar: {$a}';
@@ -150,13 +150,13 @@ $string['errordeletingquestionsfromcategory'] = 'Erro ao apagar perguntas da cat
 $string['errorduringpost'] = 'Ocorreu um erro durante o pós-processamento!';
 $string['errorduringpre'] = 'Ocorreu um erro durante o pré-processamento!';
 $string['errorduringproc'] = 'Ocorreu um erro durante o processamento!';
-$string['errorduringregrade'] = 'Não foi possível reclassificar a pergunta {$a->qid}, levando ao estado {$a->stateid}.';
+$string['errorduringregrade'] = 'Não foi possível reavaliar a pergunta {$a->qid}, levando ao estado {$a->stateid}.';
 $string['errorfilecannotbecopied'] = 'Erro: não é possível copiar o ficheiro {$a}.';
 $string['errorfilecannotbemoved'] = 'Erro: não é possível mover o ficheiro {$a}.';
 $string['errorfileschanged'] = 'Erro: os ficheiros com hiperligações às questões de origem mudaram desde a exibição do formulário.';
 $string['erroritemappearsmorethanoncewithdifferentweight'] = 'A pergunta ({$a}) aparece mais uma vez com pesos diferentes em diferentes posições do teste. Isto não é suportado pelo relatório de estatísticas e poderá comprometer a fiabilidade das estatísticas para esta pergunta.';
 $string['errormanualgradeoutofrange'] = 'A nota {$a->grade} não se encontra entre 0 e {$a->maxgrade} para a pergunta {$a->name}. A avaliação e o feedback não foram guardados.';
-$string['errormovingquestions'] = 'Erro ao mover perguntas com os ids  {$a}.';
+$string['errormovingquestions'] = 'Erro ao mover perguntas com os ID\'s  {$a}.';
 $string['errorpostprocess'] = 'Ocorreu um erro durante o pós-processamento!';
 $string['errorpreprocess'] = 'Ocorreu um erro durante o pré-processamento!';
 $string['errorprocess'] = 'Ocorreu um erro durante o processamento!';
@@ -174,7 +174,7 @@ $string['exporterror'] = 'Ocorreram erros durante a exportação!';
 $string['exportfilename'] = 'perguntas';
 $string['exportnameformat'] = '%Y%m%d-%H%M';
 $string['exportquestions'] = 'Exportar perguntas para o ficheiro';
-$string['exportquestions_help'] = 'Esta função permite a exportação de uma categoria completa (e qualquer subcategorias) de perguntas. Por favor note que, dependendo do formato de arquivo selecionado, alguns dados  e certos tipos de perguntas podem não ser exportados.';
+$string['exportquestions_help'] = 'Esta função permite a exportação de uma categoria completa (e qualquer subcategorias) de perguntas. Por favor note que, dependendo do formato de ficheiro selecionado, alguns dados  e certos tipos de perguntas podem não ser exportados.';
 $string['exportquestions_link'] = 'pergunta/exportar';
 $string['feedback'] = 'Feedback';
 $string['filecantmovefrom'] = 'Os ficheiros das perguntas não podem ser movidos porque não tem permissões para apagar ficheiros do local para onde deseja mover as perguntas.';
@@ -192,7 +192,7 @@ $string['fractionsnomax'] = 'Uma das respostas deve ter a pontuação de 100% pa
 $string['generalfeedback'] = 'Feedback geral';
 $string['generalfeedback_help'] = 'O feedback geral é exibido ao aluno depois de ter concluído a pergunta. Ao contrário do feedback específico, que depende do tipo de pergunta e da resposta dada pelo aluno, o feedback geral exibido é igual para todos os alunos.
 
-Pode usar o feedback geral para dar ao aluno uma explicação completa da resposta e links para informação relevante para a sua compreensão.';
+Pode usar o feedback geral para dar ao aluno uma explicação completa da resposta e hiperligações para informação relevante para a sua compreensão.';
 $string['getcategoryfromfile'] = 'Obter categoria a partir de ficheiro';
 $string['getcontextfromfile'] = 'Obter contexto a partir de ficheiro';
 $string['hintn'] = 'Ajuda {no}';
@@ -213,7 +213,7 @@ $string['importfromupload'] = 'Selecione um ficheiro…';
 $string['importingquestions'] = 'A importar {$a} perguntas do ficheiro';
 $string['importparseerror'] = 'Foram encontrados erro(s) ao analisar o ficheiro de importação, não sendo possível importar nenhuma pergunta. Para importar perguntas sem erros tente novamente alterando a configuração Parar em caso de erro para Não';
 $string['importquestions'] = 'Importar perguntas a partir do ficheiro';
-$string['importquestions_help'] = 'Esta função permite importar via ficheiro de texto uma variedade de formatos de perguntas. Note que o arquivo deverá usar a codificação UTF-8.';
+$string['importquestions_help'] = 'Esta função permite importar via ficheiro de texto uma variedade de formatos de perguntas. Note que o ficheiro deverá usar a codificação UTF-8.';
 $string['importquestions_link'] = 'pergunta/importar';
 $string['importwrongfiletype'] = 'O tipo de ficheiro que selecionou ({$a->actualtype}) não corresponde ao tipo esperado neste formato de importação. ({$a->expectedtype}).';
 $string['impossiblechar'] = 'Foi detetado um carácter como parêntesis, não compatível {$a}';
@@ -224,8 +224,8 @@ $string['incorrectfeedbackdefault'] = 'A sua resposta está incorreta.';
 $string['information'] = 'Informação';
 $string['invalidanswer'] = 'Resposta incompleta';
 $string['invalidarg'] = 'Sem argumentos válidos fornecidos ou configuração do servidor incorreta';
-$string['invalidcategoryidforparent'] = 'Id da categoria ascendente inválido!';
-$string['invalidcategoryidtomove'] = 'Id da categoria inválido para mover!';
+$string['invalidcategoryidforparent'] = 'ID da categoria ascendente inválido!';
+$string['invalidcategoryidtomove'] = 'ID da categoria inválido para mover!';
 $string['invalidconfirm'] = 'Confirmação incorreta';
 $string['invalidcontextinhasanyquestions'] = 'Um contexto inválido foi passado a question_context_has_any_questions.';
 $string['invalidgrade'] = 'As notas não correspondem às opções definidas - a pergunta foi ignorada';
@@ -253,8 +253,8 @@ $string['matchgrades_help'] = 'As notas importadas devem corresponder a um dos v
 
 * Nota mais próxima, caso não esteja listada: Se a nota não corresponder a nenhuma valor da lista será alterada para o valor listado mais próximo.';
 $string['matchgradesnearest'] = 'Nota mais próxima se não estiver na lista';
-$string['missingcourseorcmid'] = 'É necessário introduzir o id da disciplina ou cmid para print_question.';
-$string['missingcourseorcmidtolink'] = 'É necessário introduzir o id da disciplina ou cmid para get_question_edit_link.';
+$string['missingcourseorcmid'] = 'É necessário introduzir o ID da disciplina ou cmid para print_question.';
+$string['missingcourseorcmidtolink'] = 'É necessário introduzir o ID da disciplina ou cmid para get_question_edit_link.';
 $string['missingimportantcode'] = 'Falta código importante no tipo de pergunta: {$a}';
 $string['missingoption'] = 'Faltam as opções da pergunta de respostas embebidas {$a}';
 $string['modified'] = 'Última atualização';
@@ -266,8 +266,8 @@ $string['moveq'] = 'Mover pergunta(s)';
 $string['moveqtoanothercontext'] = 'Mover pergunta para outro contexto.';
 $string['moveto'] = 'Mover para >>';
 $string['movingcategory'] = 'A mover categoria';
-$string['movingcategoryandfiles'] = 'Tem a certeza que quer mover a categoria {$a->name} e todas as categorias descendentes para o contexto "{$a->contexto}"?<br /> Foram encontrados {$a->urlcount} ficheiros ligados a perguntas em {$a->fromareaname}; quer copiar ou mover esses ficheiros para {$a->toareaname}?';
-$string['movingcategorynofiles'] = 'Tem a certeza que quer mover a categoria "{$a->name}" e todas as  categorias descendentes para o contexto de "{$a->contexto}"?';
+$string['movingcategoryandfiles'] = 'Tem a certeza que quer mover a categoria {$a->name} e todas as categorias filhas para o contexto "{$a->contexto}"?<br /> Foram encontrados {$a->urlcount} ficheiros ligados a perguntas em {$a->fromareaname}; quer copiar ou mover esses ficheiros para {$a->toareaname}?';
+$string['movingcategorynofiles'] = 'Tem a certeza que quer mover a categoria "{$a->name}" e todas as  categorias filhas para o contexto de "{$a->contexto}"?';
 $string['movingquestions'] = 'A mover perguntas e ficheiros';
 $string['movingquestionsandfiles'] = 'Tem a certeza que quer mover a(s) pergunta(s) {$a->questions}} para o contexto de <strong>"{$a->tocontext}"</strong>?<br /> Foram encontrados {$a->urlcount} ficheiros ligados às perguntas em {$a->fromareaname}; quer copiar ou mover esses ficheiros para {$a->toareaname}?';
 $string['movingquestionsnofiles'] = 'Tem a certeza que quer mover a(s) pergunta(s) {$a->questions}} para o contexto de <strong>"{$a->tocontext}"</strong>?<br />
@@ -295,8 +295,6 @@ $string['numqas'] = 'Nº Tentativas';
 $string['numquestions'] = 'Nº perguntas';
 $string['numquestionsandhidden'] = '{$a->numquestions} (+{$a->numhidden} oculta(s))';
 $string['options'] = 'Opções';
-$string['orphanedquestionscategory'] = 'Perguntas guardades de categorias apagadas';
-$string['orphanedquestionscategoryinfo'] = 'Ocasionalmente, em geral devido a bugs antigos do software, as perguntas podem permanecer na base de dados mesmo que a correspondente categoria tenha sido apagada. É claro que isto não deve acontecer, apenas aconteceu no passado. Esta categoria foi criada automaticamente, e as perguntas órfãs foram movidas para aqui para que as possa gerir. Note que, muito provavelmente, as imagens ou ficheiros multimédia usados nestas perguntas foram perdidos.';
 $string['page-question-category'] = 'Página da categoria de pergunta';
 $string['page-question-edit'] = 'Página de edição de pergunta';
 $string['page-question-export'] = 'Página de exportação de perguntas';
@@ -331,13 +329,13 @@ $string['questionaffected'] = 'A <a href="{$a->qurl}">pergunta "{$a->name}" ({$a
 $string['questionbank'] = 'Base de dados de perguntas';
 $string['questionbehaviouradminsetting'] = 'Configurações do comportamento das perguntas';
 $string['questionbehavioursdisabled'] = 'Comportamentos das perguntas a desativar';
-$string['questionbehavioursdisabledexplained'] = 'Insira os comportamentos que deseja que não sejam selecionáveis, separados por vírgulas';
+$string['questionbehavioursdisabledexplained'] = 'Insira os comportamentos que deseja que não surjam na lista pendente, separados por vírgulas';
 $string['questionbehavioursorder'] = 'Ordem dos comportamentos das perguntas';
-$string['questionbehavioursorderexplained'] = 'Insira uma lista de comportamentos separados por vírgulas, pela ordem que deseja que apareçam no menu de seleção';
+$string['questionbehavioursorderexplained'] = 'Insira uma lista de comportamentos separados por vírgulas, pela ordem que deseja que apareçam na lista pendente';
 $string['questioncategory'] = 'Categoria de perguntas';
 $string['questioncatsfor'] = 'Categorias de perguntas para \'{$a}';
 $string['questiondoesnotexist'] = 'Esta pergunta não existe';
-$string['questionidmismatch'] = 'Incoerência nos ids da Pergunta';
+$string['questionidmismatch'] = 'Incoerência nos ID\'s da Pergunta';
 $string['questionname'] = 'Nome da pergunta';
 $string['questionnamecopy'] = '{$a} (cópia)';
 $string['questionno'] = 'Pergunta {$a}';
@@ -417,7 +415,7 @@ $string['upgradeproblemcategoryloop'] = 'Foram detetados problemas na atualizaç
 $string['upgradeproblemcouldnotupdatecategory'] = 'Não foi possível atualizar a categoria de perguntas {$a->name} ({$a->id}).';
 $string['upgradeproblemunknowncategory'] = 'Foram detetados problemas na atualização das categorias. A categoria {$a->id} tem como categoria ascendente {$a->parent}, que não existe. A categoria ascendente foi alterada para resolver o problema.';
 $string['whethercorrect'] = 'Correta/incorreta';
-$string['whethercorrect_help'] = 'A classificação na forma de texto \'Correto\', \'Parcialmente correto\' ou \'Incorreto\', ou a cor de realce que expressa a mesma informação.';
+$string['whethercorrect_help'] = 'A avaliação na forma de texto \'Correto\', \'Parcialmente correto\' ou \'Incorreto\', ou a cor de realce que expressa essa mesma informação.';
 $string['whichtries'] = 'Que tentativas';
 $string['withselected'] = 'Com os selecionados';
 $string['wrongprefix'] = 'nameprefix {$a} formatado incorretamente';

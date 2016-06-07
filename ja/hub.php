@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hub', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'hub', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   hub
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,7 +33,7 @@ $string['advertiseonhub'] = 'このコースをハブに広告する';
 $string['advertiseonmoodleorg'] = 'このコースをmoodle.orgに広告する';
 $string['advertisepublication_help'] = '人がこのコースを探して登録できるようコミュニティハブ上にあなたのコースを広告します。';
 $string['all'] = 'すべて';
-$string['allowglobalsearch'] = 'このハブを公開して、すべてのコースのグローバルサーチを許可する';
+$string['allowglobalsearch'] = 'このハブを公開して、すべてのコースのグローバル検索を許可する';
 $string['allowpublicsearch'] = '人が参加できるようこのハブを公開する';
 $string['audience'] = 'オーディエンス';
 $string['audienceadmins'] = 'Moodle管理者';

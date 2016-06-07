@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'editor_tinymce', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -590,7 +590,7 @@ $string['media_dlg:windowlessvideo'] = 'Vidéo sans fenêtre';
 $string['media_dlg:windowsmedia'] = 'Windows Media';
 $string['media_dlg:wmode'] = 'WMode';
 $string['media_dlg:wmp_options'] = 'Option Windows Media Player';
-$string['media:edit'] = 'Éditer un média incorporé';
+$string['media:edit'] = 'Éditer un média intégré';
 $string['nonbreaking:nonbreaking_desc'] = 'Insérer une espace insécable';
 $string['pagebreak:desc'] = 'Insérer un saut de page pour l\'impression';
 $string['paste_dlg:text_linebreaks'] = 'Conserver les retours à la ligne';

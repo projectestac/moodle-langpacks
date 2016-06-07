@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'el', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz', language 'el', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -171,9 +171,6 @@ $string['configurerandomquestion'] = 'Ρύθμιση ερώτησης';
 $string['confirmclose'] = 'Πρόκειται να τερματίσετε αυτήν την προσπάθεια. Από τη στιγμή που θα τερματίσετε την προσπάθειά σας δεν θα είστε σε θέση να αλλάξετε τις απαντήσεις σας.';
 $string['confirmremovequestion'] = 'Είστε βέβαιοι ότι θέλετε να καταργήσετε αυτήν την ερώτηση {$a};';
 $string['confirmserverdelete'] = 'Είστε σίγουρος ότι θέλετε να διαγράψετε το διακομιστή <b>{$a}</b> από τη λίστα;';
-$string['confirmstartattemptlimit'] = 'Αυτό το κουίζ έχει όριο {$a} προσπαθειών. Πρόκειται να ξεκινήσετε μία νέα προσπάθεια. Επιθυμείτε να συνεχίσετε;';
-$string['confirmstartattempttimelimit'] = 'Αυτό το κουίζ έχει χρονικό όριο και όριο {$a} προσπαθειών. Πρόκειται να ξεκινήσετε μία νέα προσπάθεια. Επιθυμείτε να συνεχίσετε;';
-$string['confirmstarttimelimit'] = 'Το κουίζ έχει χρονικό όριο. Είστε σίγουρος ότι επιθυμείτε να ξεκινήσετε;';
 $string['connectionok'] = 'Η σύνδεση δικτύου έχει αποκατασταθεί. Μπορείτε να συνεχίσετε με ασφάλεια.';
 $string['containercategorycreated'] = 'Αυτή η κατηγορία έχει δημιουργηθεί για την αποθήκευση όλων των αρχικών κατηγοριών που μετακινήθηκαν στο επίπεδο δικτυακού τόπου εξαιτίας των λόγων που αναφέρονται παρακάτω.';
 $string['continueattemptquiz'] = 'Συνέχιση της τελευταίας προσπάθειας';

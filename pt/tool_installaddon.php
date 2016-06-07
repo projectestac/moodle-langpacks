@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_installaddon', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_installaddon', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_installaddon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,7 +41,7 @@ $string['installfromziprootdir'] = 'Alterar o nome da diretoria raiz';
 $string['installfromziprootdir_help'] = 'Alguns pacotes ZIP, tais como os gerados por Github, podem conter um nome de diretoria raiz incorreto. Se assim for, o nome correto pode ser introduzido aqui.';
 $string['installfromzipsubmit'] = 'Instalar módulo a partir do ficheiro ZIP';
 $string['installfromziptype'] = 'Tipo de módulo';
-$string['installfromziptype_help'] = 'No caso de plugins que declaram corretamente o seu nome, o instalador é capaz de detetar automaticamente o tipo de plugin. Se a auto-deteção falhar, escolha manualmente o tipo correto de plugin que está prestes a instalar.
+$string['installfromziptype_help'] = 'No caso de módulos que declaram corretamente o seu nome, o instalador é capaz de detetar automaticamente o tipo de módulo. Se a auto-deteção falhar, escolha manualmente o tipo correto de módulo que está prestes a instalar.
 Aviso: O procedimento de instalação pode falhar se um tipo de módulo incorreto for especificado.';
 $string['permcheck'] = 'Certifique-se de que a localização raiz do tipo de módulo permite gravação pelo processo de servidor web.';
 $string['permcheckerror'] = 'Erro durante a verificação de permissão de gravação';
@@ -56,5 +56,5 @@ $string['remoterequestinvalid'] = 'Há um pedido para instalar neste site um mó
 $string['remoterequestnoninstallable'] = 'Existe um pedido para instalar o módulo {$a->name} ({$a->component}) da versão {$a->version} da diretoria de módulo do Moodle, para este site. Contudo, a verificação de pré-requisitos da instalação do mmódulo falhou (código do motivo: {$a->reason}).';
 $string['remoterequestpermcheck'] = 'Há um pedido para instalar neste site o módulo \'{$a->name} ({$a->component})\' na versão \'{$a->version}\' a partir da diretoria de módulos do Moodle. No entanto,  <strong>{$a->typepath}</strong><strong>não permite a gravação</strong>. Precisa de dar acesso de gravação ao utilizador do servidor web para a localização, depois clique no botão \'Continuar\' para repetir a verificação.';
 $string['remoterequestpluginfoexception'] = 'Ocorreu um erro ao tentar obter informações sobre o módulo {$a->name} ({$a->component}) na versão {$a->version}. O módulo não pode ser instalado. Ative o modo de depuração para ver os detalhes do erro.';
-$string['typedetectionfailed'] = 'Não foi possível detectar o tipo de plugin. Por favor, escolha manualmente o tipo de plugin que está prestes a instalar.';
+$string['typedetectionfailed'] = 'Não foi possível detectar o tipo de módulo. Por favor, escolha manualmente o tipo de módulo que está prestes a instalar.';
 $string['typedetectionmismatch'] = 'O tipo de módulo selecionado não corresponde ao declarado pelo presente módulo: {$a}';

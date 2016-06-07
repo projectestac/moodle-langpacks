@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'group', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,6 +73,8 @@ $string['eventgroupcreated'] = 'Gruppe angelegt';
 $string['eventgroupdeleted'] = 'Gruppe gelöscht';
 $string['eventgroupingcreated'] = 'Gruppierung angelegt';
 $string['eventgroupingdeleted'] = 'Gruppierung gelöscht';
+$string['eventgroupinggroupassigned'] = 'Gruppe mit Gruppierung verbunden';
+$string['eventgroupinggroupunassigned'] = 'Gruppe von Gruppierung gelöst';
 $string['eventgroupingupdated'] = 'Gruppierung aktualisiert';
 $string['eventgroupmemberadded'] = 'Gruppenmitglied hinzugefügt';
 $string['eventgroupmemberremoved'] = 'Gruppenmitglied entfernt';
@@ -137,6 +139,8 @@ $string['importgroups_help'] = 'Gruppen können als Textdatei importiert werden,
 * Notwendiges Feld ist groupname (Gruppenname)
 * Optionale Felder sind description (Beschreibung), enrolmentkey (Gruppenschlüssel), picture (Bild), hidepicture (Bild verbergen)
 * Die Felder müssen mit den englischen Bezeichnungen angegeben sein';
+$string['includeonlyactiveenrol'] = 'Nur aktive Einschreibungen einbeziehen';
+$string['includeonlyactiveenrol_help'] = 'Diese Option legt fest, dass ausschließlich aktiv eingeschriebene Nutzer/innen in Gruppen zusammengefasst werden. Wenn die Option aktiviert ist, werden gesperrte Nutzer/innen keiner Gruppe zugeteilt.';
 $string['javascriptrequired'] = 'Diese Seite benötigt JavaScript.';
 $string['members'] = 'Mitglieder pro Gruppe';
 $string['membersofselectedgroup'] = 'Mitglieder in:';

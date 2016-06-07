@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'wiki', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -142,7 +142,7 @@ $string['navigationfrom_help'] = 'Páginas wiki enlazadas a esta página';
 $string['navigationto'] = 'Está página lleva hacia';
 $string['navigationto_help'] = 'Enlaces a otras páginas';
 $string['newpage'] = 'Nuevo';
-$string['newpagehdr'] = 'Págin nueva';
+$string['newpagehdr'] = 'Página nueva';
 $string['newpagetitle'] = 'Título nuevo de la página';
 $string['noattachments'] = '<strong>no hay archivos adjuntos </strong>';
 $string['nocomments'] = 'No hay comentarios';
@@ -248,7 +248,7 @@ $string['wikiheader'] = 'Cabecera de nivel {$a}';
 $string['wikihr'] = 'Regla horizontal';
 $string['wikiimage'] = 'Imagen';
 $string['wikiinternalurl'] = 'Enlace externo';
-$string['wikiintro'] = 'Descipción';
+$string['wikiintro'] = 'Descripción';
 $string['wikiitalictext'] = 'Texto en cursiva';
 $string['wikilockingsettings'] = 'Bloqueando y reanalizando tiempos de espera';
 $string['wiki:managecomment'] = 'Gestionar comentarios wiki';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'choice', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,13 +26,17 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addmorechoices'] = 'Lägg till fler opinionsundersökningar';
+$string['allowmultiple'] = 'Tillåt mer än ett alternativ som kan väljas';
 $string['allowupdate'] = 'Tillåt uppdatering av opinionsundersökning';
 $string['answered'] = 'Besvarade';
 $string['atleastoneoption'] = 'Du måste lämna minst ett möjligt svar';
+$string['cannotsubmit'] = 'Tyvärr fanns det ett problem att lämna ditt val . Var god försök igen.';
 $string['choice'] = 'Svarsalternativ {$a}';
+$string['choiceactivityname'] = 'Val: {$a}';
 $string['choice:addinstance'] = 'Lägg till ett nytt val';
 $string['choice:choose'] = 'Registrera en opinionsundersökning';
 $string['choiceclose'] = 'Till';
+$string['choicecloseson'] = 'Opinionsundersökning stänger {$a}';
 $string['choice:deleteresponses'] = 'Ta bort responser';
 $string['choice:downloadresponses'] = 'Ladda ner responser';
 $string['choicefull'] = 'Den här opinonsundersökningen är full och det finns inga tillgängliga platser.';
@@ -51,23 +55,28 @@ $string['description'] = 'Introduktion';
 $string['displayhorizontal'] = 'Visa horisontellt';
 $string['displaymode'] = 'Visningsläge';
 $string['displayvertical'] = 'Visa vertikalt';
+$string['eventanswercreated'] = 'Val genomförd';
+$string['eventanswerupdated'] = 'Val uppdaterad';
+$string['eventreportviewed'] = 'Opinionsundersökning rapport visades';
 $string['expired'] = 'Den här aktiviteten är stängd på {$a} och den är inte längre tillgänglig.';
 $string['full'] = '(Full)';
-$string['havetologin'] = 'Du måste logga in innan du kan skicka ditt/dina svar';
+$string['havetologin'] = 'Du måste logga in innan Du kan skicka Ditt/Dina svar';
 $string['limit'] = 'Begränsning';
 $string['limitanswers'] = 'Begränsa det antal svar som är tillåtna';
-$string['limitanswers_help'] = '<p>Med den här inställningen kan du begränsa antalet deltagare som kan välja
+$string['limitanswers_help'] = '<p>Med den h&auml;r inst&auml;llningen kan Du begr&auml;nsa antalet deltagare som kan v&auml;lja
 varje specifikt alternativ.</p>
 
-<p>När du väl har bestämt dig för att aktivera begränsningar så går det att ställa in sådana för varje alternativ. När rätt antal deltagare har valt alternativet så går det inte längre att
-markera det. Om du ställer in det till 0 så kan ingen välja det.</p>
+<p>N&auml;r Du v&auml;l har best&auml;mt Dig f&ouml;r att aktivera begr&auml;nsningar s&aring; g&aring;r det att st&auml;lla in s&aring;dana f&ouml;r varje alternativ. N&auml;r r&auml;tt antal deltagare har valt alternativet s&aring; g&aring;r det inte l&auml;ngre att
+markera det. Om Du st&auml;ller in det till 0 s&aring; kan ingen v&auml;lja det.</p>
 
-<p>Om du inte aktiverar några begränsningar så kan hur många deltagare som helst välja alternativet.</p>';
+<p>Om Du inte aktiverar n&aring;gra begr&auml;nsningar s&aring; kan hur m&aring;nga deltagare som helst v&auml;lja alternativet.</p>';
+$string['limitno'] = 'Max antal {no}';
 $string['modulename'] = 'Opinionsundersökning';
 $string['modulename_help'] = 'Modulen opinionsundersökning gör det möjligt för distansläraren att ställa en fråga och ange ett urval av svarsalternativ. ';
 $string['modulenameplural'] = 'Opinionsundersökningar';
 $string['moveselectedusersto'] = 'Flytta de valda användarna till...';
-$string['mustchooseone'] = 'Du måste välja ett svar innan du kan spara. Ingenting sparades.';
+$string['multiplenotallowederror'] = 'Flera val är inte tillåtna i denna opinionsundersökning';
+$string['mustchooseone'] = 'Du måste välja ett svar innan Du kan svara. Ingenting sparades.';
 $string['noguestchoose'] = 'Gäster får tyvärr inte delta i opinionsundersökningar.';
 $string['noresultsviewable'] = 'Det går f.n. inte att visa resultaten.';
 $string['notanswered'] = 'Inte ännu besvarad';
@@ -76,9 +85,12 @@ $string['notopenyet'] = 'Den här aktiviteten är tyvärr inte tillgänglig för
 $string['numberofuser'] = 'Antal användare';
 $string['numberofuserinpercentage'] = 'Antalet användare i procent.';
 $string['option'] = 'Alternativ';
+$string['optionno'] = 'Alternativ {no}';
+$string['options'] = 'Alternativer';
 $string['page-mod-choice-x'] = 'Varje sida för valmodulen';
 $string['pluginadministration'] = 'Administration av opinionsundersökning';
 $string['pluginname'] = 'Opinionsundersökning';
+$string['previewonly'] = 'Detta är bara en förhandsvisning av de tillgängliga alternativen för den här aktiviteten . Du kommer inte att kunna lämna in ditt val innan {$a}';
 $string['privacy'] = 'Integritet för resultat';
 $string['publish'] = 'Publicera resultaten';
 $string['publishafteranswer'] = 'Visa resultaten för studenterna/eleverna/deltagarna/de lärande efter det att de har svarat';
@@ -92,7 +104,10 @@ $string['removeresponses'] = 'Ta bort alla svar';
 $string['responses'] = 'Svar';
 $string['responsesresultgraphheader'] = 'Visa en graf';
 $string['responsesto'] = 'Svar till {$a}';
+$string['results'] = 'Resultat';
 $string['savemychoice'] = 'Spara min opinionsundersökning';
+$string['showpreview'] = 'Visa förhandsgranskning';
+$string['showpreview_help'] = 'Låt eleverna att förhandsgranska de tillgängliga alternativen innan valet öppnas för inlämning .';
 $string['showunanswered'] = 'Visa kolumn för icke besvarade';
 $string['skipresultgraph'] = 'Hoppa över diagrammet över resultat';
 $string['spaceleft'] = 'Tillgängligt utrymme';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_navigation', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_navigation', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   block_navigation
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['coursestructures'] = 'Categorias, disciplinas e estruturas da disciplin
 $string['enabledockdesc'] = 'Permitir ao utilizador mover o bloco para a consola';
 $string['everything'] = 'Tudo';
 $string['expansionlimit'] = 'Gerar navegação para o seguinte';
-$string['linkcategoriesdesc'] = 'Apresentar categorias com links';
+$string['linkcategoriesdesc'] = 'Apresentar categorias com hiperligações';
 $string['navigation:addinstance'] = 'Adicionar um novo bloco Navegação';
 $string['navigation:myaddinstance'] = 'Adicionar um novo bloco Navegação ao Painel do utilizador';
 $string['pluginname'] = 'Navegação';

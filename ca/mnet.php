@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'mnet', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -72,7 +72,7 @@ $string['eventaccesscontrolupdated'] = 'Control d\'accés actualitzat';
 $string['expired'] = 'Aquesta clau ha caducat';
 $string['expires'] = 'Vàlida fins';
 $string['expireyourkey'] = 'Suprimeix aquesta clau';
-$string['expireyourkeyexplain'] = 'Moodle fa rotar automàticament les claus cada 28 dies (per defecte), però teniu l\'opció de fer caducar <em>manualment</em> aquesta clau en qualsevol moment. Això només serà útil si creeu que aquesta clau ha estat compromesa. Es generarà automàticament un reemplaçament de manera immediata. <br /> Suprimir aquesta clau farà que sigui impossible per a altres aplicacions comunicar-se amb vós, fins que contacteu manualment amb cada administrador per donar-los la nova clau.';
+$string['expireyourkeyexplain'] = 'Moodle fa rotar automàticament les claus cada 28 dies (per defecte), però teniu l\'opció de fer caducar <em>manualment</em> aquesta clau en qualsevol moment. Això només serà útil si creieu que aquesta clau ha estat posada en perill. Es generarà automàticament un reemplaçament de manera immediata. <br /> Suprimir aquesta clau farà que sigui impossible per a altres aplicacions comunicar-se amb vós, fins que contacteu manualment amb cada administrador per donar-los la nova clau.';
 $string['exportfields'] = 'Camps a exportar';
 $string['failedaclwrite'] = 'Error en escriure al control d\'accés MNet  per a l\'usuari «{$a}».';
 $string['findlogin'] = 'Cerca el nom d\'usuari';
@@ -162,9 +162,9 @@ $string['notBASE64'] = 'Aquesta cadena no està codificada en format base64. No 
 $string['notenoughidpinfo'] = 'El vostre proveïdor d\'identitat no ens està donant la informació suficient per crear o actualitzar el vostre compte a nivell local.';
 $string['not_in_range'] = 'L\'adreça IP <code> {$a} </ code> no representa un servidor vàlid de confiança.';
 $string['notinxmlrpcserver'] = 'Intent d\'accés al client remot Mnet, no durant l\'execució del servidor XMLRPC';
-$string['notmoodleapplication'] = 'ADVERTIMENT: Aquesta no es una aplicació de Moodle, de manera que alguns dels mètodes d\'inspecció no funcionin correctament.';
+$string['notmoodleapplication'] = 'ADVERTIMENT: Aquesta no és una aplicació de Moodle, de manera que és possible que alguns dels mètodes d\'inspecció no funcionin correctament.';
 $string['notPEM'] = 'Aquesta clau no té format PEM. No funcionarà.';
-$string['notpermittedtojump'] = 'No teiniu permís per iniciar una sessió remota en aquest servidor Moodle.';
+$string['notpermittedtojump'] = 'No teniu permís per iniciar una sessió remota en aquest servidor Moodle.';
 $string['notpermittedtojumpas'] = 'No podeu iniciar una sessió remota mentre esteu identificat com un altre usuari.';
 $string['notpermittedtoland'] = 'No teniu permís per iniciar una sessió remota.';
 $string['off'] = 'Apaga';
@@ -219,7 +219,7 @@ $string['showremote'] = 'Mostra usuaris remots';
 $string['ssl_acl_allow'] = 'SSO ACL: Permet a l\'usuari {$a-> user} de {$a-> host}';
 $string['ssl_acl_deny'] = 'SSO ACL: Denega a l\'usuari {$a-> user} de {$a-> host}';
 $string['ssoaccesscontrol'] = 'Control d\'accés SSO';
-$string['ssoacldescr'] = 'Utilitzeu aquesta pàgina per atorgar/denegar l\'accés a determinats usuaris des servidor remot MNet. Això és funcional quan s\'estan oferint serveis SSO a usuaris remots. Per controlar la capacitat dels usuaris <em>locals</em> de migrar a altres servidors Moodle en xarxa (MNet), utilitzeu el sistema de permisos per atorgar-los la capacitat <em>mnetlogintoremote</em>.';
+$string['ssoacldescr'] = 'Utilitzeu aquesta pàgina per atorgar/denegar l\'accés a determinats usuaris des del servidor remot MNet. Això és funcional quan s\'estan oferint serveis SSO a usuaris remots. Per controlar la capacitat dels usuaris <em>locals</em> de migrar a altres servidors Moodle en xarxa (MNet), utilitzeu el sistema de permisos per atorgar-los la capacitat <em>mnetlogintoremote</em>.';
 $string['ssoaclneeds'] = 'Per tal que aquesta funcionalitat estigui habilitada, us cal activar el treball en xarxa, i el connector d\'autenticació per Moodle en xarxa.';
 $string['strict'] = 'Estricte';
 $string['subscribe'] = 'Subscriu';

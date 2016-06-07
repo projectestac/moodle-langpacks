@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'question', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -288,11 +288,9 @@ $string['notyetanswered'] = 'Nog niet beantwoord';
 $string['notyourpreview'] = 'Dit voorbeeld is niet voor jou bestemd';
 $string['novirtualquestiontype'] = 'Geen virtueel vraagtype voor vraagtype {$a}';
 $string['numqas'] = 'Aantal vraagpogingen';
-$string['numquestions'] = 'Geen vragen';
+$string['numquestions'] = 'Aantal vragen';
 $string['numquestionsandhidden'] = '{$a->numquestions} (+{$a->numhidden} verborgen)';
 $string['options'] = 'Opties';
-$string['orphanedquestionscategory'] = 'Vragen bewaard uit verwijderde categorieën';
-$string['orphanedquestionscategoryinfo'] = 'Af en toe, gewoonlijk te wijten aan oude softwarebugs, blijven vragen in de databank, zelfs wanneer de overeenkomstige vragencategorie al verwijderd is. Dit zou natuurlijk niet mogen gebeuren, maar het is in het verleden op deze site gebeurd. Deze categorie is automatisch gemaakt en verweesde vragen zijn naar hier verplaatst, zodat je ze terug kunt beheren. Merk op dat mediabestanden of afbeeldingen die bij de vraag horen, waarschijnlijk verloren gegaan zijn.';
 $string['page-question-category'] = 'Pagina voor vragencategorieën';
 $string['page-question-edit'] = 'Pagina voor bewerken van vragen';
 $string['page-question-export'] = 'Vraagexportpagina';

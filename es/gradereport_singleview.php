@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_singleview', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'gradereport_singleview', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   gradereport_singleview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,10 +39,10 @@ $string['exclude'] = 'Excluir';
 $string['excludeall'] = 'Excluir todas las calificaciones';
 $string['excludefor'] = 'Excluir para {$a}';
 $string['excludenone'] = 'No excluir calificaciones';
-$string['feedbackfor'] = 'Retroalimentación para {a}';
-$string['filtergrades'] = 'Mostrar calificaciones para {a}.';
-$string['gradefor'] = 'Calificación para {a}';
-$string['gradeitem'] = 'Elemento de calificación: {a}';
+$string['feedbackfor'] = 'Retroalimentación para {$a}';
+$string['filtergrades'] = 'Mostrar calificaciones para {$a}.';
+$string['gradefor'] = 'Calificación para {$a}';
+$string['gradeitem'] = 'Elemento de calificación: {$a}';
 $string['gradeitemcannotbeoverridden'] = 'Esta calificación no puede ser anulado.';
 $string['gradeuser'] = 'Usuario';
 $string['noscreens'] = 'No se pudo encontrar una pantalla de vista simple adecuada.';

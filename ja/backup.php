@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'backup', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -239,6 +239,7 @@ $string['rootsettingbadges'] = 'バッジを含む';
 $string['rootsettingblocks'] = 'ブロックを含む';
 $string['rootsettingcalendarevents'] = 'カレンダーイベントを含む';
 $string['rootsettingcomments'] = 'コメントを含む';
+$string['rootsettingcompetencies'] = 'コンピテンシーを含む';
 $string['rootsettingfilters'] = 'フィルタを含む';
 $string['rootsettinggradehistories'] = '評定履歴を含む';
 $string['rootsettinggroups'] = 'グループおよびグルーピングを含む';

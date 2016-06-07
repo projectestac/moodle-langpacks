@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'backup', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -163,6 +163,8 @@ $string['importcurrentstage2'] = 'Impostazioni schema';
 $string['importcurrentstage4'] = 'Verifica e conferma';
 $string['importcurrentstage8'] = 'Esegui importazione';
 $string['importfile'] = 'Importa un file di backup';
+$string['importgeneralduplicateadminallowed'] = 'Consenti risoluzione conflitti admin';
+$string['importgeneralduplicateadminallowed_desc'] = 'Se il sito ha già un account con username \'admin\', il ripristino di backup contenenti uername \'admin\' provocheranno conflitti. Abilitando questa impostazione il conflitto sarà risolto modificando lo username presente nel backup in \'admin_xyz\'.';
 $string['importgeneralmaxresults'] = 'Numero massimo di corsi elencati durante l\'importazione';
 $string['importgeneralmaxresults_desc'] = 'Imposta il numero massimo di corsi elencati durante il primo passo del processo di importazione';
 $string['importgeneralsettings'] = 'Default generali per l\'importazione';
@@ -237,6 +239,7 @@ $string['rootsettingbadges'] = 'Includi badge';
 $string['rootsettingblocks'] = 'Includi blocchi';
 $string['rootsettingcalendarevents'] = 'Includi eventi del calendario';
 $string['rootsettingcomments'] = 'Includi commenti';
+$string['rootsettingcompetencies'] = 'Includi competenze';
 $string['rootsettingfilters'] = 'Includi filtri';
 $string['rootsettinggradehistories'] = 'Includi storico valutazioni';
 $string['rootsettinggroups'] = 'Includi gruppi e raggruppamenti';

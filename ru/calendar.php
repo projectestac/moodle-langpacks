@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'calendar', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   calendar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -74,8 +74,8 @@ $string['errorrequiredurlorfile'] = 'URL или файл календаря дл
 $string['errorrrule'] = 'Переданный rrule выглядит некорректно';
 $string['errorrruleday'] = 'rrule содержит неверный параметр дня';
 $string['errorrrulefreq'] = 'rrule содержит неверный параметр частоты';
-$string['eventcalendareventcreated'] = 'Создано событие календаря';
-$string['eventcalendareventdeleted'] = 'Удалено событие календаря';
+$string['eventcalendareventcreated'] = 'Событие календаря создано';
+$string['eventcalendareventdeleted'] = 'Событие календаря удалено';
 $string['eventcalendareventupdated'] = 'Событие календаря обновлено';
 $string['eventdate'] = 'Дата';
 $string['eventdescription'] = 'Описание';

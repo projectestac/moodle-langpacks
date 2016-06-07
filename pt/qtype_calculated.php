@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_calculated', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_calculated
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -58,7 +58,7 @@ $string['editdatasets_help'] = 'Os conjuntos de valores das variáveis podem ser
 $string['editdatasets_link'] = 'pergunta/tipo/numericacomvariaveis';
 $string['existingcategory1'] = 'terá por base uma série numérica partilhada já existente';
 $string['existingcategory2'] = 'um ficheiro de um conjunto de ficheiros já existente que é usado noutras perguntas nesta categoria';
-$string['existingcategory3'] = 'um link de um conjunto de links já existente que é usado noutras perguntas nesta categoria';
+$string['existingcategory3'] = 'uma hiperligação de um conjunto de hiperligações já existente que é usado noutras perguntas nesta categoria';
 $string['forceregeneration'] = 'Forçar regeneração';
 $string['forceregenerationall'] = 'Forçar regeneração de todas as séries numéricas';
 $string['forceregenerationshared'] = 'Forçar regeneração apenas das séries não partilhadas';
@@ -77,10 +77,10 @@ $string['itemscount'] = 'Total de <br />itens';
 $string['itemtoadd'] = 'Conjunto a adicionar';
 $string['keptcategory1'] = 'terá por base a série numérica partilhada já existente';
 $string['keptcategory2'] = 'um ficheiro do mesmo conjunto reutilizável de ficheiros da categoria, como anteriormente';
-$string['keptcategory3'] = 'um link do mesmo conjunto reutilizável de links da categoria, como anteriormente';
+$string['keptcategory3'] = 'uma hiperligação do mesmo conjunto reutilizável de hiperligações da categoria, como anteriormente';
 $string['keptlocal1'] = 'terá por base a série numérica privada já existente';
 $string['keptlocal2'] = 'um ficheiro do mesmo conjunto privado de ficheiros da pergunta, como anteriormente';
-$string['keptlocal3'] = 'um link do mesmo conjunto privado de links da pergunta, como anteriormente';
+$string['keptlocal3'] = 'uma hiperligação do mesmo conjunto privado de hiperligações da pergunta, como anteriormente';
 $string['lengthoption'] = 'Selecione a opção de amplitude';
 $string['loguniform'] = 'Log-uniforme';
 $string['loguniformbit'] = 'dígitos, de uma distribuição loguniform';
@@ -95,14 +95,14 @@ $string['missingquestiontext'] = 'O texto da pergunta está em falta';
 $string['mustenteraformulaorstar'] = 'Tem de inserir uma fórmula ou \'*\'.';
 $string['newcategory1'] = 'terá por base uma nova série numérica partilhada';
 $string['newcategory2'] = 'um ficheiro de um novo conjunto de ficheiros que também poderá ser usado por outras perguntas nesta categoria';
-$string['newcategory3'] = 'um link de um novo conjunto de links que também poderá ser usado por outras perguntas nesta categoria';
+$string['newcategory3'] = 'uma hiperligação de um novo conjunto de hiperligações que também poderá ser usado por outras perguntas nesta categoria';
 $string['newlocal1'] = 'terá por base uma nova série numérica privada';
 $string['newlocal2'] = 'um ficheiro de um novo conjunto de ficheiros que só será usado nesta pergunta';
-$string['newlocal3'] = 'um link de um novo conjunto de links que só será usada nesta pergunta';
+$string['newlocal3'] = 'uma hiperligação de um novo conjunto de hiperligações que só será usada nesta pergunta';
 $string['newsetwildcardvalues'] = 'novo(s) conjunto(s) de valores das variáveis';
 $string['nextitemtoadd'] = 'Próximo \'Conjunto a adicionar';
 $string['nextpage'] = 'Página seguinte';
-$string['nocoherencequestionsdatyasetcategory'] = 'Para a pergunta com o id {$a->qid}, a categoria com o id {$a->qcat} não é idêntica à da variável partilhada {$a->name} da categoria com o id {$a->sharedcat}. Edite a pergunta.';
+$string['nocoherencequestionsdatyasetcategory'] = 'Para a pergunta com o ID {$a->qid}, a categoria com o id {$a->qcat} não é idêntica à da variável partilhada {$a->name} da categoria com o id {$a->sharedcat}. Edite a pergunta.';
 $string['nocommaallowed'] = 'A , não pode ser usada, use o . como em 0.013 ou 1.3e-2';
 $string['nodataset'] = 'nada - não é uma variável';
 $string['nosharedwildcard'] = 'Não existem séries numéricas partilhadas nesta categoria';

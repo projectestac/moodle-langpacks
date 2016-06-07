@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'scorm', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -110,12 +110,13 @@ $string['displaydesc'] = 'SCORM paketea leiho berri batean erakutsi ala ez.';
 $string['displaysettings'] = 'Erakutsi ezarpenak';
 $string['dnduploadscorm'] = 'Gehitu SCORM pakete bat';
 $string['domxml'] = 'DOMXML kanpoko liburutegia';
-$string['duedate'] = 'Amaiera-data';
+$string['duedate'] = 'Entregatze-data';
 $string['element'] = 'Elementua';
 $string['enter'] = 'Sartu';
 $string['entercourse'] = 'Sartu SCORM ikastarora';
 $string['errorlogs'] = 'Erroreen erregistroa';
 $string['eventattemptdeleted'] = 'Saiakera ezabatu da';
+$string['eventinteractionsviewed'] = 'Interakzioak ikusi dira';
 $string['eventreportviewed'] = 'Txostena ikusi da';
 $string['eventuserreportviewed'] = 'Erabiltzailearen txostena ikusi da';
 $string['everyday'] = 'Egunero';
@@ -310,6 +311,7 @@ Oharra: URLak zuren gunearena ez den domeinu izena badu "Jaitsitako paketea" auk
 $string['scorm:viewreport'] = 'Txostenak ikusi';
 $string['scorm:viewscores'] = 'Ikusi puntuazioak';
 $string['scrollbars'] = 'Leihoa mugitzea onartu';
+$string['search:activity'] = 'SCORM paketea - jardueraren informazioa';
 $string['selectall'] = 'Aukeratu dena';
 $string['selectnone'] = 'Ez aukeratu guztiak';
 $string['show'] = 'Erakutsi';

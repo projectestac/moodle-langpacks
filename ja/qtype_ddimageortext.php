@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_ddimageortext', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_ddimageortext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,7 @@ $string['draggableitems'] = 'ドラッグ可能アイテム';
 $string['draggableitemtype'] = 'タイプ';
 $string['draggableword'] = 'ドラッグ可能テキスト';
 $string['dropbackground'] = 'マーカーをドラッグするための背景イメージ';
-$string['dropzone'] = 'ドロップゾーン ($a)';
+$string['dropzone'] = 'ドロップゾーン {$a}';
 $string['dropzoneheader'] = 'ドロップゾーン';
 $string['formerror_disallowedtags'] = '申し訳ございません、ドラッグ可能テキストではHTMLタグが許可されていません。';
 $string['formerror_multipledraginstance'] = 'あなたはドロップゾーンの正解の選択肢としてこのイメージ {$a} を1回選択しましたが、無制限のドラッグアイテムとしてマークされていません。';
@@ -67,6 +67,6 @@ $string['shuffleimages'] = '問題の受験ごとにドラッグアイテムを�
 $string['summarisechoice'] = '{$a->no}. {$a->text}';
 $string['summarisechoiceno'] = 'アイテム {$a}';
 $string['summariseplace'] = '{$a->no}. {$a->text}';
-$string['summariseplaceno'] = 'ドロップゾーン ($a)';
+$string['summariseplaceno'] = 'ドロップゾーン {$a}';
 $string['xleft'] = '左';
 $string['ytop'] = 'トップ';

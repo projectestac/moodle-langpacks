@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_title', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'atto_title', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   atto_title
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['h3'] = 'Capçalera 1';
-$string['h4'] = 'Capçalera 2';
-$string['h5'] = 'Capçalera 3';
+$string['h3'] = 'Capçalera (gran)';
+$string['h4'] = 'Capçalera (mitjana)';
+$string['h5'] = 'Capçalera (petita)';
 $string['p'] = 'Paràgraf';
 $string['pluginname'] = 'Estils de paràgraf';
 $string['pre'] = 'Pre-formatat';

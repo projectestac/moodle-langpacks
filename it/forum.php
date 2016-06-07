@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'forum', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,7 +96,7 @@ $string['configcleanreadtime'] = 'L\'ora del giorno in cui la tabella \'lettura\
 $string['configdigestmailtime'] = 'Agli utenti che hanno scelto di ricevere gli interventi dei forum tramite raccolta, verrà inviata giornalmente un\'email contenente tutti i nuovi messaggi. L\'impostazione regola l\'ora di invio della raccolta, che sarà spedita con il cron successivo all\'ora impostata.';
 $string['configdisplaymode'] = 'La modalità di default per  visualizzare le discussioni.';
 $string['configenablerssfeeds'] = 'Questa opzione abilita l\'utilizzo dei feed RSS per tutti i forum. I singoli feed devono comunque essere attivati manualmente, nelle impostazioni di ogni forum.';
-$string['configenabletimedposts'] = 'Imposta a \'Si\' se vuoi consentire la definizione di periodi di visualizzazione quando si inserisce una nuova discussione in un forum.';
+$string['configenabletimedposts'] = 'Imposta a \'Si\' per consentire l\'impostazione del tempo di visualizzazione quando si inserisce una nuova discussione in un forum.';
 $string['configlongpost'] = 'Gli interventi che superano il numero di caratteri specificato (escludendo i tag HTML) saranno considerati "lunghi".';
 $string['configmanydiscussions'] = 'Numero massimo di discussioni visualizzabili nella stessa pagina';
 $string['configmaxattachments'] = 'Valore di default del numero massimo di allegati consentiti per ogni intervento.';
@@ -140,6 +140,9 @@ $string['discussionmovedpost'] = 'La discussione è stata spostata in <a href="{
 $string['discussionname'] = 'Nome della discussione';
 $string['discussionnownotsubscribed'] = '{$a->name} NON riceverà notifiche di nuovi interventi relativa a \'{$a->discussion}\' in \'{$a->forum}\'';
 $string['discussionnowsubscribed'] = '{$a->name} riceverà notifiche di nuovi interventi relativi a \'{$a->discussion}\' in \'{$a->forum}\'';
+$string['discussionpin'] = 'Metti in evidenza';
+$string['discussionpinned'] = 'In evidenza';
+$string['discussionpinned_help'] = 'Le discussioni in evidenza saranno visualizzate all\'inizio';
 $string['discussions'] = 'Discussioni';
 $string['discussionsstartedby'] = 'Discussione iniziata da {$a}';
 $string['discussionsstartedbyrecent'] = 'Discussione iniziata recentemente da {$a}';
@@ -148,6 +151,7 @@ $string['discussionsubscribestart'] = 'Sottoscrivo la discussione per ricevere n
 $string['discussionsubscribestop'] = 'Non sottoscrivo la discussione, non riceverò notifiche di nuovi interventi';
 $string['discussionsubscription'] = 'Sottoscrizione della discussione';
 $string['discussionsubscription_help'] = 'Sottoscrivere una discussione consente di ricevere notifiche sui nuovi interventi relativi alla discussione.';
+$string['discussionunpin'] = 'Rimuovi dall\'evidenza';
 $string['discussthistopic'] = 'Discuti questo argomento';
 $string['displayend'] = 'Fine visualizzazione';
 $string['displayend_help'] = 'L\'impostazione consente di nascondere un post dopo la data stabilita. Notare che gli amministratori potranno comunque visualizzare gli interventi.';
@@ -188,8 +192,10 @@ $string['eventcoursesearched'] = 'Effettuata ricerca nel corso';
 $string['eventdiscussioncreated'] = 'Creata discussione';
 $string['eventdiscussiondeleted'] = 'Eliminata discussione';
 $string['eventdiscussionmoved'] = 'Spostata discussione';
+$string['eventdiscussionpinned'] = 'La discussione è stata messa evidenza';
 $string['eventdiscussionsubscriptioncreated'] = 'Creata  sottoscrizione della discussione';
 $string['eventdiscussionsubscriptiondeleted'] = 'Eliminata sottoscrizione della discussione';
+$string['eventdiscussionunpinned'] = 'La discussione è stata rimossa dall\'evidenza';
 $string['eventdiscussionupdated'] = 'Aggiornata discussione';
 $string['eventdiscussionviewed'] = 'Visualizzata discussione';
 $string['eventpostcreated'] = 'Creato intervento';
@@ -231,6 +237,7 @@ $string['forumintro'] = 'Descrizione';
 $string['forum:managesubscriptions'] = 'Gestire le sottoscrizioni';
 $string['forum:movediscussions'] = 'Spostare le discussioni';
 $string['forumname'] = 'Nome del forum';
+$string['forum:pindiscussions'] = 'Mettere in evidenza discussioni';
 $string['forumposts'] = 'Interventi nei Forum';
 $string['forum:postwithoutthrottling'] = 'Intervenire nei forum senza soglia interventi';
 $string['forum:rate'] = 'Valutare gli interventi';
@@ -329,8 +336,8 @@ $string['mustprovidediscussionorpost'] = 'Per esportare un argomento di discussi
 $string['myprofileotherdis'] = 'Discussioni nei forum';
 $string['myprofileowndis'] = 'Le mie discussioni sui fourm';
 $string['myprofileownpost'] = 'I miei interventi sui forum';
-$string['namenews'] = 'Forum News';
-$string['namenews_help'] = 'Il forum news è un forum speciale creato automaticamente in ogni corso Ci può essere un solo forum news per ciascun corso. Solo i docenti e gli amministratori possono creare interventi nei forum news. Il blocco \'Notizie recenti\' visualizza le discussioni più recenti dal forum news';
+$string['namenews'] = 'Annunci';
+$string['namenews_help'] = 'Il forum Annunci è un forum speciale creato automaticamente in ogni corso. Un corso può avere un solo forum annunci. Solo i docenti e gli amministratori possono creare interventi nel forum annunci. Il blocco \'Annunci recenti\' visualizzerà le discussioni più recenti provenienti da questo forum.';
 $string['namesocial'] = 'Forum Relazionale';
 $string['nameteacher'] = 'Forum docenti';
 $string['newforumposts'] = 'Nuovi interventi nel forum';
@@ -378,6 +385,7 @@ $string['page-mod-forum-view'] = 'Pagina principale del modulo forum';
 $string['page-mod-forum-x'] = 'Qualsiasi pagina con modulo forum';
 $string['parent'] = 'Visualizza intervento genitore';
 $string['parentofthispost'] = 'Padre di questo intervento';
+$string['permalink'] = 'Permalink';
 $string['pluginadministration'] = 'Gestione Forum';
 $string['pluginname'] = 'Forum';
 $string['postadded'] = '<p>Il tuo intervento è stato aggiunto con successo.</p><p>Hai {$a} a disposizione se desideri apportare delle modifiche.</p>';
@@ -438,6 +446,7 @@ $string['rsstype'] = 'Feed RSS per questa attività';
 $string['rsstypedefault'] = 'Tipo di feed RSS';
 $string['rsstype_help'] = 'Per abilitare i feed RSS, devi scegliere se includere discussioni o interventi';
 $string['search'] = 'Cerca';
+$string['search:activity'] = 'Forum - Informazioni sull\'attività';
 $string['searchdatefrom'] = 'Gli interventi devono essere più recenti di';
 $string['searchdateto'] = 'Gli interventi devono essere più vecchi di';
 $string['searchforumintro'] = 'Si prega di inserire i termini di ricerca in uno o più dei seguenti campi:';
@@ -446,6 +455,7 @@ $string['searchfullwords'] = 'Queste parole devono apparire come parole intere';
 $string['searchnotwords'] = 'Queste parole non devono essere incluse';
 $string['searcholderposts'] = 'Cerca interventi più vecchi...';
 $string['searchphrase'] = 'Nell\'intervento deve apparire esattamente questa frase';
+$string['search:post'] = 'Forum - Interventi';
 $string['searchresults'] = 'Risultati delle ricerche';
 $string['searchsubject'] = 'Queste parole devono apparire nell\'oggetto';
 $string['searchuser'] = 'Questo nome deve corrispondere all\'autore';
@@ -457,6 +467,7 @@ $string['shortpost'] = 'Intervento breve';
 $string['showsubscribers'] = 'Visualizza e modifica le sottoscrizioni al forum';
 $string['singleforum'] = 'Forum monotematico';
 $string['smallmessage'] = '{$a->user} ha inserito un messaggio in {$a->forumname}';
+$string['smallmessagedigest'] = 'Raccolta forum con {$a} messaggi';
 $string['startedby'] = 'Iniziato da';
 $string['subject'] = 'Oggetto';
 $string['subscribe'] = 'Sottoscrivi questo forum';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'webservice', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,6 @@ $string['addrequiredcapability'] = 'Attribuer/retirer la capacité requise';
 $string['addservice'] = 'Ajouter un service : {$a->name} (id: {$a->id})';
 $string['addservicefunction'] = 'Ajouter des fonctions au service « {$a} »';
 $string['allusers'] = 'Tous les utilisateurs';
-$string['amftestclient'] = 'Client AMF test';
 $string['apiexplorer'] = 'Explorateur API';
 $string['apiexplorernotavalaible'] = 'L\'explorateur API n\'est pas encore disponible';
 $string['arguments'] = 'Paramètres';
@@ -63,7 +62,7 @@ $string['deleteaservice'] = 'Supprimer service';
 $string['deleteservice'] = 'Supprimer le service : {$a->name} (id: {$a->id})';
 $string['deleteserviceconfirm'] = 'La suppression d\'un service détruira aussi les jetons en liens avec ce service. Voulez-vous vraiment supprimer le service externe « {$a} »?';
 $string['deletetokenconfirm'] = 'Voulez-vous vraiment supprimer ce jeton web service pour <strong>{$a->user}</strong> pour le service <strong>{$a->service}</strong> ?';
-$string['disabledwarning'] = 'Tous les protocoles de services web sont désactivés. Le réglage « Activerles services web » est accessible dasn les réglages avancés.';
+$string['disabledwarning'] = 'Tous les protocoles de services web sont désactivés. Le réglage « Activer les services web » est accessible dans les réglages avancés.';
 $string['doc'] = 'Documentation';
 $string['docaccessrefused'] = 'Vous n\'êtes pas autorisé à voir la documentation pour ce jeton';
 $string['documentation'] = 'Documentation service web';
@@ -191,8 +190,7 @@ $string['testclient'] = 'Client test service web';
 $string['testclientdescription'] = '* Le client test service web <strong>lance</strong> les fonctions <strong>POUR DE VRAI</strong>. Ne testez pas les fonctions que vous ne connaissez pas.<br/>
 * Les fonctions service web existantes ne sont pas encore toutes implémentées dans le client test.<br/>
 * Afin de vérifier qu\'un utilisateur n\'accède pas à certaines fonctions, vous pouvez tester des fonctions que vous n\'avez pas autorisées.<br/>
-* Pour voir des messages d\'erreurs plus clairs, réglez le débogage <strong>{$a->mode}</strong> sur {$a->atag}<br/>
-* Accédez à {$a->amfatag}.';
+* Pour voir des messages d\'erreurs plus clairs, réglez le débogage sur <strong>{$a->mode}</strong> dans {$a->atag}.';
 $string['testwithtestclient'] = 'Tester le service';
 $string['testwithtestclientdescription'] = 'Simuler l\'accès externe au service en utilisant le client de test des web services. Dans le client test, veuillez sélectionner un protocole activé avec authentification par jeton. <strong>ATTENTION ! Les fonctions testées SERONT EXÉCUTÉES pour cet utilisateur. Soyez prudent avec ce que vous testez !</strong>';
 $string['token'] = 'Jeton';

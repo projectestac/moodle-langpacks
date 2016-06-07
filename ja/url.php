@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'url', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['clicktoopen'] = 'リソース開くには {$a}  リンクをクリッ�
 $string['configdisplayoptions'] = '利用可能にしたいオプションすべてを選択してください。既存の設定は、変更されません。複数のフィールドを選択するにはCTRLキーを押したままにしてください。';
 $string['configframesize'] = 'フレーム内にウェブページやアップロードしたファイルが表示される場合の (ナビゲーションを含む) トップフレームサイズ (ピクセル) です。';
 $string['configrolesinparams'] = 'ローカライズされたロール名を利用可能なパラメータ変数リストに含みたい場合、有効にしてください。';
-$string['configsecretphrase'] = 'このシークレットワードは、サーバにパラメータとして送信するための暗号コード値生成に使用されます。暗号コードは、current_users IPアドレスとシークレットワードを結びつけてmd5により生成されます。例) code = md5(IP.secretphrase)。これにより、転送先のリソースが、高度なセキュリティ認証を行うことができます。';
+$string['configsecretphrase'] = 'このシークレットワードはサーバにパラメータとして送信するための暗号コード値生成に使用されます。暗号コードは、current_users IPアドレスとシークレットワードを結びつけてmd5により生成されます。例) code = md5(IP.secretphrase)。これにより、転送先のリソースが、高度なセキュリティ認証を行うことができます。';
 $string['contentheader'] = 'コンテンツ';
 $string['createurl'] = 'URLを作成する';
 $string['displayoptions'] = '利用可能な表示オプション';
@@ -68,6 +68,7 @@ $string['popupwidthexplain'] = 'ポップアップウィンドウのデフォル
 $string['printintro'] = 'URL説明を表示する';
 $string['printintroexplain'] = 'コンテンツの下にURL説明を表示しますか? この設定を有効にした場合でも、いくつかの表示タイプでは説明を表示することができません。';
 $string['rolesinparams'] = 'パラメータにロール名を含む';
+$string['search:activity'] = 'URL';
 $string['serverurl'] = 'サーバURL';
 $string['url:addinstance'] = '新しいURLリソースを追加する';
 $string['url:view'] = 'URLを表示する';

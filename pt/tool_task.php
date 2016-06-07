@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_task', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['edittaskschedule'] = 'Editar agendamento de tarefa: {$a}';
 $string['faildelay'] = 'Falha da tarefa em atraso';
 $string['lastruntime'] = 'Última execução';
 $string['nextruntime'] = 'Próxima execução';
-$string['plugindisabled'] = 'Plugin desativado';
+$string['plugindisabled'] = 'Módulo desativado';
 $string['pluginname'] = 'Configuração da tarefa agendada';
 $string['resettasktodefaults'] = 'Restaurar agendamento de tarefa para as configurações predefinidas';
 $string['resettasktodefaults_help'] = 'Isto irá descartar quaisquer alterações locais e reverter o agendamento desta tarefa para as configurações predefinidas.';

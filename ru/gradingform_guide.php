@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'gradingform_guide', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -58,7 +58,7 @@ $string['err_noshortname'] = 'Название критерия не может 
 $string['err_scoreinvalid'] = 'Балл, данный критерию {$a->criterianame} не обоснован, максимальный балл: {$a->maxscore}';
 $string['err_shortnametoolong'] = 'Имя критерия должно быть менее 256 символов';
 $string['gradingof'] = '{$a} оценено';
-$string['guidemappingexplained'] = 'ПРЕДУПРЕЖДЕНИЕ: Ваш справочник оценщика содержит максимальную оценку  <b>{$a->maxscore} баллов </b>, но максимальная оценка, установленная для активного элемента - {$a->modulegrade}.
+$string['guidemappingexplained'] = 'ПРЕДУПРЕЖДЕНИЕ: Ваш справочник оценщика содержит максимальную оценку  <b>{$a->maxscore} баллов </b>, но максимальная оценка, установленная для элемента курса - {$a->modulegrade}.
 Максимальный балл, заданный в справочнике оценщика, должен соответствовать максимальной оценке модуля.<br />
 Промежуточные баллы будут соответственно преобразованы и округлены до ближайшей доступной оценки.';
 $string['guidenotcompleted'] = 'Пожалуйста, укажите обоснованную оценку для каждого критерия';

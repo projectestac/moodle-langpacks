@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   block
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,7 +45,7 @@ $string['deleteblock'] = '\'{$a}\' löschen';
 $string['deleteblockcheck'] = 'Möchten Sie den Block \'{$a}\' wirklich löschen?';
 $string['deleteblockwarning'] = '<p>Sie löschen einen Block, der an anderen Stellen angezeigt wird.</p><p>Originalblockpositionen: {$a->location}<br />Anzeige nach Seitentypen: {$a->pagetype}</p><p>Wollen Sie wirklich fortsetzen?</p>';
 $string['deletecheck'] = '\'{$a}\' löschen?';
-$string['dockblock'] = 'Block \'{$a} ins Dock';
+$string['dockblock'] = 'Block {$a} ins Dock';
 $string['hideblock'] = '\'{$a}\' verbergen';
 $string['hidedockpanel'] = 'Dock verbergen';
 $string['hidepanel'] = 'Steuerung verbergen';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'lesson', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -616,7 +616,7 @@ $string['slideshowwidth'] = 'Breedte van de diavoorstelling';
 $string['startlesson'] = 'Start de les';
 $string['studentattemptlesson'] = 'Pogingnummer {$a->attempt} van {$a->lastname}, {$a->firstname}';
 $string['studentname'] = '{$a} naam';
-$string['studentoneminwarning'] = 'Waarschuwing: je hebt nog één minuut of minder om deze les af te werken.';
+$string['studentoneminwarning'] = 'Waarschuwing: je hebt nog één minuut of minder om deze les te voltooien.';
 $string['studentresponse'] = 'Het antwoord van {$a}';
 $string['submit'] = 'Insturen';
 $string['submitname'] = 'Geef een naam';

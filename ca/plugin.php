@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'plugin', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,7 @@ $string['status_new'] = 'S\'instal·larà';
 $string['status_nodb'] = 'Cap base de dades';
 $string['status_upgrade'] = 'S\'actualitzarà';
 $string['status_uptodate'] = 'Instal·lat';
+$string['supportedmoodleversions'] = 'Versions compatibles de Moodle';
 $string['systemname'] = 'Identificador';
 $string['type_auth'] = 'Mètode d\'autenticació';
 $string['type_auth_plural'] = 'Connectors d\'autenticació';
@@ -133,7 +134,7 @@ $string['type_tool_plural'] = 'Eines d\'administració';
 $string['type_webservice'] = 'Protocol de serveis web';
 $string['type_webservice_plural'] = 'Protocols de serveis web';
 $string['uninstall'] = 'Desinstal·la';
-$string['uninstallconfirm'] = 'Esteu a punt de desinstal·lar el connector <em>{$a->name}</em>. Això suprimirà completament de la base de dades tot allò relacionat amb aquest connector, incloent-hi la seva configuració, els registres, fitxers d\'usuari gestionats pel connector etc. No hi ha cap manera de desfer els canvis i Moodle no crearà cap còpia de seguretat de recuperació. Esteu SEGUR que voleu continuar ?';
+$string['uninstallconfirm'] = 'Ara desinstal·lareu el connector <em>{$a->name}</em>. Això suprimirà completament de la base de dades tot allò relacionat amb aquest connector, inclosa la seva configuració, els registres, els fitxers d\'usuari gestionats pel connector, etc. No hi ha cap manera de desfer els canvis i Moodle no crearà cap còpia de seguretat de recuperació. CONFIRMEU que voleu continuar?';
 $string['uninstalldelete'] = 'Totes les dades associades amb el connector <em>{$a->name}</em> han estat suprimides de la base de dades. Per a impedir que el connector pugui reinstal·lar-se automàticament, heu de esborrar ara manualment en el servidor la seva carpeta <em>{$a->rootdir}</em>. Moodle no pot esborrar aquesta carpeta a causa dels permisos d\'escriptura.';
 $string['uninstalldeleteconfirm'] = 'Totes les dades associades amb el connector <em>{$a->name}</em> han estat suprimides de la base de dades. Per a impedir que el connector pugui reinstal·lar-se automàticament, cal esborrar ara en el servidor la seva capeta <em>{$a->rootdir}</em>. Voleu esborrar ara la carpeta del connector?';
 $string['uninstalldeleteconfirmexternal'] = 'Sembla que la versió actual del connector ha estat obtinguda mitjançant el sistema de gestió de codi font ({$a}). Si suprimiu la carpeta del connector, podeu perdre modificacions locals importants del codi. Assegureu-vos que voleu suprimir la carpeta del connector abans de continuar.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_spamcleaner', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_spamcleaner', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_spamcleaner
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,5 +43,5 @@ $string['spamfrommessages'] = 'Dans les messages :';
 $string['spaminvalidresult'] = 'Résultat inconnu, mais non valide';
 $string['spamkeyword'] = 'Mot-clef';
 $string['spamoperation'] = 'Opération';
-$string['spamresult'] = 'Résultat de la recherche des profils utilisateurs contenant';
+$string['spamresult'] = 'Résultat de la recherche des profils utilisateurs contenant&nbsp;';
 $string['spamsearch'] = 'Recherche de ces termes';

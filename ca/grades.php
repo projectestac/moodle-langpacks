@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'grades', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -159,7 +159,7 @@ $string['coursesiamtaking'] = 'Cursos que estic cursant';
 $string['coursesiamteaching'] = 'Cursos que estic impartint';
 $string['coursetotal'] = 'Total del curs';
 $string['createcategory'] = 'Crea una categoria';
-$string['createcategoryerror'] = 'No s\'ha pogut crear una nova categoria';
+$string['createcategoryerror'] = 'No s\'ha pogut crear una categoria nova';
 $string['creatinggradebooksettings'] = 'S\'estan creant els paràmetres del butlletí de qualificacions';
 $string['csv'] = 'CSV';
 $string['currentparentaggregation'] = 'Agregació pare actual';
@@ -200,6 +200,7 @@ $string['enableajax_help'] = 'Afegeix una capa de funcions AJAX en l\'informe de
 $string['enableoutcomes'] = 'Habilita competències';
 $string['enableoutcomes_help'] = 'El suport per a competències (objectius, estàndards, criteris...) significa que es pot avaluar coses mitjançant una o més escales vinculades a declaracions de competències. Habilitar les competències fa possible utilitzar aquest tipus de qualificació a tot el lloc.';
 $string['encoding'] = 'Codificació';
+$string['encoding_help'] = 'Selecciona la codificació de caràcters utilitzada per a les dades. (La codificació estàndard és UTF-8.) Si se selecciona la codificació incorrecta per error, això serà evident quan es previsualitzin les dades per a la importació.';
 $string['errorcalculationbroken'] = 'Probablement una referència circular o formula de càlcul errònia.';
 $string['errorcalculationnoequal'] = 'La fórmula ha de començar per un signe igual (=1+2)';
 $string['errorcalculationunknown'] = 'La fórmula no es vàlida';
@@ -261,6 +262,7 @@ $string['gradeanalysis'] = 'Anàlisi de les qualificacions';
 $string['gradebook'] = 'Butlletí de qualificacions';
 $string['gradebookhiddenerror'] = 'El butlletí de qualificacions està configurat de manera que no mostra res als estudiants.';
 $string['gradebookhistories'] = 'Històrics de qualificacions';
+$string['gradebooksetup'] = 'Configuració del llibre de qualificacions';
 $string['gradeboundary'] = 'Límit de qualificació';
 $string['gradeboundary_help'] = '<p>Percentatge per damunt del qual a una qualificació se li assigna una lletra (si s\'està utilitzant la visualització per lletres).</p>';
 $string['gradecategories'] = 'Categories de qualificació';
@@ -321,9 +323,9 @@ $string['grademin_help'] = '<p>Quan utilitzeu un tipus de qualificació per valo
 $string['gradeoutcomeitem'] = 'Qualifica element de competència';
 $string['gradeoutcomes'] = 'Competències';
 $string['gradeoutcomescourses'] = 'Competències del curs';
-$string['gradepass'] = 'Qualificació per a aprovar';
+$string['gradepass'] = 'Qualificació per aprovar';
 $string['gradepassgreaterthangrade'] = 'La qualificació d\'aprovat no pot ser superior a la nota màxima possible {$a}';
-$string['gradepass_help'] = '<p>Si voleu que un element tingui una qualificació mínima que els usuaris han d\'obtenir per a superar aquest element, podeu definir-la aquí.</p>';
+$string['gradepass_help'] = 'Aquest paràmetre determina la qualificació mínima necessària per aprovar. El valor s\'empra en la compleció d\'activitat i del curs i en el llibre de qualificacions, en el qual les qualificacions aprovades es realcen en verd i les suspeses, en vermell.';
 $string['gradepointdefault'] = 'Qualificació per defecte';
 $string['gradepointdefault_help'] = 'Aquest paràmetre determina el valor per defecte de la qualificació d\'una activitat.';
 $string['gradepointdefault_validateerror'] = 'Aquest paràmetre ha de ser un enter entre 1 i la qualificació màxima.';
@@ -385,6 +387,13 @@ $string['idnumbers'] = 'Números ID';
 $string['ignore'] = 'Ignora';
 $string['import'] = 'Importa';
 $string['importcsv'] = 'Importa CSV';
+$string['importcsv_help'] = 'Les qualificacions es poden importar mitjançant un fitxer CSV amb el format següent:
+* Cada línia del fitxer conté un registre
+*Cada registre és una sèrie de dades separades per comes o per un separador alternatiu
+* El primer registre conté una llista de noms de camp que defineixen el format de la resta del fitxer
+*Es requereix un nom de camp que contingui les dades d\'identitat de l\'usuari: el nom d\'usuari o bé el número d\'identificació o l\'adreça electrònica
+
+Es pot obtenir un fitxer del format correcte exportant primer algunes qualificacions. Aquest fitxer després es pot editar i desar com a fitxer CSV.';
 $string['importcustom'] = 'Importa com a competències personalitzades (només en aquest curs)';
 $string['importerror'] = 'S\'ha produït un error. L\'script no ha estat cridat amb els paràmetres correctes.';
 $string['importfailed'] = 'La importació ha fallat. No s\'ha importat res.';
@@ -443,8 +452,11 @@ $string['lowest'] = 'La més baixa';
 $string['lowgradeletter'] = 'Baixa';
 $string['manualitem'] = 'Element manual';
 $string['mapfrom'] = 'De';
+$string['mapfrom_help'] = 'Selecciona la columna del full de càlcul que conté les dades per identificar l\'usuari, com ara el nom d\'usuari, l\'identificador d\'usuari o l\'adreça electrònica.';
 $string['mappings'] = 'Mapatge d\'elements de qualificació';
+$string['mappings_help'] = 'Per a cada columna de qualificacions del full de càlcul, selecciona l\'element de qualificació corresponent per importar-hi les qualificacions.';
 $string['mapto'] = 'A';
+$string['mapto_help'] = 'Selecciona les mateixes dades d\'identificació que les seleccionades per a «De».';
 $string['max'] = 'La més alta';
 $string['maxgrade'] = 'Qualificació màxima';
 $string['meanall'] = 'Totes les qualificacions';
@@ -481,7 +493,7 @@ $string['mypreferences'] = 'Les meves preferències';
 $string['myreportpreferences'] = 'Les meves preferències d\'informes';
 $string['navmethod'] = 'Mètode de navegació';
 $string['neverdeletehistory'] = 'No suprimeixis mai l\'historial';
-$string['newcategory'] = 'Nova categoria';
+$string['newcategory'] = 'Categoria nova';
 $string['newitem'] = 'Nou element de qualificació';
 $string['newoutcomeitem'] = 'Nou element de competència';
 $string['no'] = 'No';
@@ -518,7 +530,7 @@ $string['others'] = 'Altres';
 $string['outcome'] = 'Competència';
 $string['outcomeassigntocourse'] = 'Assigna una altra competència a aquest curs';
 $string['outcomecategory'] = 'Crea competències en la categoria';
-$string['outcomecategorynew'] = 'Nova categoria';
+$string['outcomecategorynew'] = 'Categoria nova';
 $string['outcomeconfirmdelete'] = 'Segur que voleu suprimir la competència "{$a}"?';
 $string['outcomecreate'] = 'Afegeix una nova competència';
 $string['outcomedelete'] = 'Suprimeix la competència';
@@ -608,6 +620,7 @@ $string['resetweights'] = 'Reinicialitza els pesos de {$a->itemname}';
 $string['resetweightsshort'] = 'Reinicialitza els pesos';
 $string['respectingcurrentdata'] = 'la configuració actual no es modificarà';
 $string['rowpreviewnum'] = 'Previsualització de files';
+$string['rowpreviewnum_help'] = 'Les dades per a la importació es poden previsualitzar abans de confirmar la importació. Aquest paràmetre determina quantes files es mostren a la previsualització.';
 $string['savechanges'] = 'Desa els canvis';
 $string['savepreferences'] = 'Desa les preferències';
 $string['scaleconfirmdelete'] = 'Esteu segur que voleu eliminar l\'escala "{$a}"?';
@@ -618,6 +631,7 @@ $string['selectalloroneuser'] = 'Selecciona tots els usuaris o un usuari';
 $string['selectauser'] = 'Seleccioneu un usuari';
 $string['selectdestination'] = 'Selecciona una destinació per a {$a}';
 $string['separator'] = 'Separador';
+$string['separator_help'] = 'Selecciona el separador utilitzat en el fitxer CSV. (Habitualment és una coma.)';
 $string['sepcolon'] = 'Dos punts';
 $string['sepcomma'] = 'Coma';
 $string['sepsemicolon'] = 'Punt i coma';
@@ -671,7 +685,7 @@ $string['shownooutcomes'] = 'Oculta competències';
 $string['shownumberofgrades'] = 'Mostra el nombre de qualificacions en les mitjanes';
 $string['shownumberofgrades_help'] = 'Mostrar o no entre parèntesis, a continuació de cada mitjana, el nombre de qualificacions utilitzades per a calcular-la. P. ex. 45 (34).';
 $string['showonlyactiveenrol'] = 'Mostra sols les inscripcions actives';
-$string['showonlyactiveenrol_help'] = 'Aquest paràmetre determina si sols els usuaris inscrits són visibles al butlletí de notes. Si s\'habilita, els usuaris suspesos no es mostraran al butlletí.';
+$string['showonlyactiveenrol_help'] = 'Aquest paràmetre determina si sols els usuaris inscrits són visibles al butlletí de notes. Si s\'habilita, els usuaris amb la inscripció suspesa no es mostraran al butlletí.';
 $string['showpercentage'] = 'Mostra percentatge';
 $string['showpercentage_help'] = 'Voleu mostrar el valor en percentatge de cada element de qualificació?';
 $string['showquickfeedback'] = 'Mostra la retroacció ràpida';
@@ -750,6 +764,7 @@ $string['usermappingerrorusernotfound'] = 'Error de mapatge de l\'usuari: no s\'
 $string['userpreferences'] = 'Preferències de l\'usuari';
 $string['useweighted'] = 'Utilitza ponderació';
 $string['verbosescales'] = 'Escales detallades';
+$string['verbosescales_help'] = 'Una escala detallada utilitza paraules en lloc de nombres. S\'ha de configurar com a «Sí» si s\'han d\'importar ambdues escales: numèrica i detallada. S\'ha de configurar com a «No» si s\'han d\'importar només les escales numèriques.';
 $string['viewbygroup'] = 'Grup';
 $string['viewgrades'] = 'Mostra les qualificacions';
 $string['weight'] = 'Ponderació';

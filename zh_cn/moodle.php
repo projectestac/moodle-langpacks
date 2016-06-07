@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'zh_cn', branch 'MOODLE_30_STABLE'
+ * Strings for component 'moodle', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -260,17 +260,6 @@ $string['choosereportfilter'] = '为报表选择一个过滤器';
 $string['choosetheme'] = '选择主题风格';
 $string['chooseuser'] = '选择一个用户';
 $string['city'] = '市/县';
-$string['clambroken'] = '您的管理员激活了对上传文件的病毒检查，但有些地方配置错误了。<br />您上传文件的操作并未成功。系统已经给管理员发信通知他们修复这个错误。<br />您可以稍后重新上传这个文件。';
-$string['clamdeletedfile'] = '文件已经被删除了';
-$string['clamdeletedfilefailed'] = '无法删除文件';
-$string['clamemailsubject'] = '{$a} :: Clam AV 通知';
-$string['clamfailed'] = 'Clam AV运行失败。返回的错误信息是{$a}。下面是Clam的输出:';
-$string['clamlost'] = 'Moodle已经被配置为运行clam对上传的文件进行检查，但提供给Clam AV的路径 {$a} 是非法的。';
-$string['clamlostandactinglikevirus'] = '此外，Moodle当前被配置为，如果clam的运行失败了，系统将会以对待病毒的方式来对待所有文件。这意味着在错误被修复前，学生们不能上传任何文件。';
-$string['clammovedfile'] = '文件已经被移动到您指定的隔离目录中，新的位置是{$a}。';
-$string['clammovedfilebasic'] = '文件已经被移动到一个隔离目录中了。';
-$string['clamquarantinedirfailed'] = '无法将文件转移到隔离目录中，您应当修复这个问题，否则系统发现文件被感然后将会删除它们。';
-$string['clamunknownerror'] = 'clam发生了未知错误。';
 $string['cleaningtempdata'] = '清空临时数据';
 $string['clear'] = '清空';
 $string['clickhelpiconformoreinfo'] = '...继续...点击帮助图标阅读全文';
@@ -470,6 +459,7 @@ $string['databaseupgradeblocks'] = '现在的版块版本是{$a}';
 $string['databaseupgradegroups'] = '现在组的版本是{$a}';
 $string['databaseupgradelocal'] = '现在的本地数据库版本是{$a}';
 $string['databaseupgrades'] = '升级数据库';
+$string['dataformats'] = '数据格式';
 $string['date'] = '日期';
 $string['datechanged'] = '日期已变更';
 $string['datemostrecentfirst'] = '日期 - 近的在前';
@@ -1061,6 +1051,7 @@ $string['manageblocks'] = '版块';
 $string['managecategorythis'] = '管理这一类别';
 $string['managecourses'] = '课程管理';
 $string['managedatabase'] = '管理数据库';
+$string['managedataformats'] = '管理数据格式';
 $string['manageeditorfiles'] = '管理已被编辑使用的文件';
 $string['managefilters'] = '过滤器';
 $string['managemodules'] = '模块管理';
@@ -1620,6 +1611,8 @@ $string['selectacourse'] = '选择一门课程';
 $string['selectacoursesite'] = '选择一个课程或网站';
 $string['selectagroup'] = '选择一个小组';
 $string['selectall'] = '全选';
+$string['selectallusersonpage'] = '本页用户全选';
+$string['selectalluserswithcount'] = '选择所有{$a} 个用户';
 $string['selectamodule'] = '请选择一个活动模块';
 $string['selectanaction'] = '选择一个动作';
 $string['selectanoptions'] = '选择一个选项';
@@ -1728,7 +1721,7 @@ $string['someallowguest'] = '有些课程可能允许访客浏览';
 $string['someerrorswerefound'] = '可能有些信息缺失或有误。详细情况请看下面。';
 $string['sort'] = '排序';
 $string['sortby'] = '排序';
-$string['sortbyx'] = '按{$a}增序排序';
+$string['sortbyx'] = '按{$a}升序排序';
 $string['sortbyxreverse'] = '按{$a}降序排序';
 $string['sorting'] = '排序';
 $string['sourcerole'] = '源角色';
@@ -1903,7 +1896,7 @@ $string['uploadrenamedchars'] = '由于无效字符，文件{$a->oldname}已经�
 $string['uploadrenamedcollision'] = '由于存在同名文件，文件{$a->oldname}已经更名为{$a->newname}。';
 $string['uploadserverlimit'] = '上传文件的大小超过了服务器设定的最大尺寸。';
 $string['uploadthisfile'] = '上传这个文件';
-$string['url'] = '网址';
+$string['url'] = '网页链接';
 $string['used'] = '已使用';
 $string['usedinnplaces'] = '在{$a}处使用';
 $string['usemessageform'] = '或者使用下面输入框发消息给已选择的学生';
@@ -1931,7 +1924,7 @@ $string['userpic'] = '用户头像';
 $string['users'] = '用户';
 $string['userselectorautoselectunique'] = '如果只搜到一个符合的用户，就自动选择他';
 $string['userselectorpreserveselected'] = '保留被选择的用户，即使他们不再符合搜索条件';
-$string['userselectorsearchanywhere'] = '在用户姓名中的任意位置搜索';
+$string['userselectorsearchanywhere'] = '在显示的任意区域匹配搜索关键词';
 $string['usersnew'] = '新用户';
 $string['usersnoaccesssince'] = '未活动超过';
 $string['userswithfiles'] = '有文件的用户';
@@ -1951,25 +1944,6 @@ $string['viewmore'] = '查看更多';
 $string['viewprofile'] = '查看个人资料';
 $string['views'] = '浏览';
 $string['viewsolution'] = '查看解决方案';
-$string['virusfound'] = '管理员请注意! Clam AV发现用户{$a->user}在课程{$a->course}中上传的文件有病毒。以下是clamscan的输出:';
-$string['virusfoundlater'] = '您于{$a->date}在课程{$a->course}中上传的文件{$a->filename}有病毒。以下是关于该文件的汇总:
-
-{$a->action}
-
-如果这个文件是提交给教师的，您需要重新提交一遍。';
-$string['virusfoundlateradmin'] = '管理员请注意! 一个由用户{$a->user}于{$a->date}上传到课程{$a->course}中的文件{$a->filename}有病毒。以下是关于此文件的汇总:
-
-{$a->action}
-
-已经通知了用户。';
-$string['virusfoundlateradminnolog'] = '管理员请注意! 系统发现一个用户上传的名为{$a->filename}的文件有病毒。Moodle无法将此文件退回给上传它的用户。
-
-下面是关于此文件的汇总:
-
-{$a->action}';
-$string['virusfoundsubject'] = '{$a}: 发现病毒!';
-$string['virusfounduser'] = '您上传的文件{$a->filename}经检查已经感染病毒! 文件上传并未成功。';
-$string['virusplaceholder'] = '上传的文件有病毒。它已被转移或删除了，并且已经通知用户。';
 $string['visible'] = '是否可见';
 $string['visible_help'] = '这个设置决定课程是否出现在课程列表中。教师和管理员以外的其他用户都不能进入此课程。';
 $string['visibletostudents'] = '对{$a}可见';
@@ -2017,7 +1991,7 @@ $string['writinggradebookinfo'] = '写入成绩单信息';
 $string['writinggroupingsgroupsinfo'] = '正在写入大组-小组信息';
 $string['writinggroupingsinfo'] = '正在写入大组信息';
 $string['writinggroupsinfo'] = '写入组信息';
-$string['writingheader'] = '写入头';
+$string['writingheader'] = '写入标题';
 $string['writingloginfo'] = '写入日志信息';
 $string['writingmessagesinfo'] = '写入消息信息';
 $string['writingmoduleinfo'] = '写入模块信息';

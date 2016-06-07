@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'gl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz', language 'gl', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -203,9 +203,6 @@ $string['confirmclose'] = 'Unha vez entregue, xa non poderá mudar as súas resp
 $string['confirmremovequestion'] = 'Confirma que quere retirar esta pregunta {$a}?';
 $string['confirmremovesectionheading'] = 'Confirma que quere retirar a cabeceira de sección {$a}?';
 $string['confirmserverdelete'] = 'Confirma que quere retirar o servidor <b>{$a}</b> da lista?';
-$string['confirmstartattemptlimit'] = 'Número de intentos permitido: {$a}. Vostede está a punto de comezar un novo intento. Quere proseguir?';
-$string['confirmstartattempttimelimit'] = 'Esta proba ten un límite de tempo e un número restrinxido de intentos,  {$a}. Vostede está a punto de comezar un novo intento. Quere proseguir?';
-$string['confirmstarttimelimit'] = 'A proba ten un límite de tempo. Confirma que quere comezar?';
 $string['connectionerror'] = 'Perdeuse a conexión de rede. (Fallou o gardado automático)
 
 Anote as respostas introducidas nesta páxina nos últimos minutos, e de seguido tente volver conectar.

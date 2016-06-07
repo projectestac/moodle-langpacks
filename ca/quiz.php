@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -113,7 +113,7 @@ $string['backtocourse'] = 'Torna al curs';
 $string['backtoquestionlist'] = 'Torna a la llista de preguntes';
 $string['backtoquiz'] = 'Torna a l\'edició del qüestionari';
 $string['basicideasofquiz'] = 'Idees bàsiques sobre la preparació de qüestionaris';
-$string['bestgrade'] = 'Millor nota';
+$string['bestgrade'] = 'La millor nota';
 $string['bothattempts'] = 'Mostra els estudiants amb intents i sense intents';
 $string['browsersecurity'] = 'Seguretat del navegador';
 $string['browsersecurity_help'] = 'Si es tria «Finestra emergent amb algunes seguretats JavaScript»:
@@ -145,6 +145,10 @@ $string['cannotstartgradesmismatch'] = 'No es pot començar un intent del qüest
 $string['cannotstartmissingquestion'] = 'No es pot començar un intent d\'aquest qüestionari. La definició inclou una pregunta que no existeix.';
 $string['cannotstartnoquestions'] = 'No es pot començar un intent d\'aquest qüestionari. Encara no s\'ha configurat. No s\'hi han afegit preguntes.';
 $string['cannotwrite'] = 'No es pot escriure al fitxer d\'exportació ({$a})';
+$string['canredoquestions'] = 'Permet tornar a respondre a la pregunta dins un mateix intent';
+$string['canredoquestions_help'] = 'Si s\'habilita, aleshores, quan els alumnes han acabat de respondre a una pregunta concreta, veuen el botó Torna a respondre a la pregunta. Aquest els permet tornar a respondre a una altra versió de la mateixa pregunta, sense que hagin de trametre tot l\'intent del qüestionari i començar-ne un altre. Aquesta opció és útil sobretot per als qüestionaris de pràctiques.
+
+Aquest paràmetre només afecta les preguntes (per exemple, les que no siguin de resposta oberta) i els comportaments (per exemple: retroacció immediata, o mode interactiu amb diversos intents) en els quals sigui possible que l\'estudiant acabi de respondre a la pregunta abans de trametre l\'intent.';
 $string['caseno'] = 'No distingeix majúscules i minúscules';
 $string['casesensitive'] = 'Distingeix majúscules';
 $string['caseyes'] = 'Distingeix majúscules i minúscules';
@@ -195,9 +199,6 @@ $string['configurerandomquestion'] = 'Configura la pregunta';
 $string['confirmclose'] = 'Una vegada enviat ja no podreu canviar les respostes d\'aquest intent.';
 $string['confirmremovequestion'] = 'Esteu segur que voleu suprimir aquesta pregunta {$a}?';
 $string['confirmserverdelete'] = 'Esteu segur que voleu suprimir el servidor <b>{$a}</b> de la llista?';
-$string['confirmstartattemptlimit'] = 'Nombre d\'intents permesos: {$a}. Ara iniciareu un nou intent. Voleu continuar?';
-$string['confirmstartattempttimelimit'] = 'Aquest qüestionari té un límit de temps i està limitat a {$a} intent/s. Ara començareu un nou intent. Voleu continuar?';
-$string['confirmstarttimelimit'] = 'Aquest qüestionari té un límit de temps. Segur que voleu començar?';
 $string['connectionerror'] = 'S\'ha perdut la connexió a la xarxa. (Ha fallat l\'autodesament.)
 
 Preneu nota de les respostes introduïdes en aquesta pàgina en els últims minuts i, després, procureu tornar a connectar-vos-hi.
@@ -462,21 +463,21 @@ $string['missingcorrectanswer'] = 'S\'ha d\'especificar la resposta correcta';
 $string['missingitemtypename'] = 'Falta el nom';
 $string['missingquestion'] = 'Aquesta pregunta sembla no existir ja';
 $string['modulename'] = 'Qüestionari';
-$string['modulename_help'] = 'El mòdul de qüestionaris permet al professorat crear qüestionaris amb preguntes de diversos tipus, com ara de selecció múltiple, cert-fals, aparellaments, resposta breu i numèriques.
+$string['modulename_help'] = 'El mòdul de qüestionaris permet al professor crear qüestionaris amb preguntes de diversos tipus, com ara d\'opció múltiple, vertader/fals, aparellament, resposta breu i numèriques.
 
 El professor pot permetre múltiples intents del qüestionari, amb les preguntes barrejades o escollides a l\'atzar d\'entre un banc de preguntes. Es pot establir un límit de temps.
 
-Cada intent es puntua automàticament, amb l\'excepció de les preguntes de tipus «assaig», i la nota es registra al llibre de qualificacions.
+Cada intent es puntua automàticament, amb l\'excepció de les preguntes de tipus «resposta oberta», i la nota es registra al llibre de qualificacions.
 
 El professor pot decidir si es mostren als alumnes (i quan) comentaris, retroacció i les respostes correctes.
 
 Els qüestionaris es poden utilitzar:
 
-* Com a examens del curs.
-* Com a mini-tests després de tasques de lectura, o al final d\'un tema.
+* Com a exàmens del curs.
+* Com a minitests després de tasques de lectura, o al final d\'un tema.
 * Com a examen de repàs si s\'utilitzen preguntes de qüestionaris anteriors.
-* Per oferir retroacció immediata sobre les capacitats de l\'alumnat.
-* Per auto-avaluació.';
+* Per oferir retroacció immediata sobre les capacitats de l\'alumne.
+* Per a autoavaluació.';
 $string['modulenameplural'] = 'Qüestionaris';
 $string['moveselectedonpage'] = 'Mou les preguntes seleccionades a la pàgina: {$a}';
 $string['multichoice'] = 'Opcions múltiples';
@@ -683,6 +684,7 @@ $string['readytosend'] = 'Esteu a punt d\'enviar el qüestionari complet perquè
 $string['reattemptquiz'] = 'Reintenta el qüestionari';
 $string['recentlyaddedquestion'] = 'Aquesta pregunta ha estat afegida recentment';
 $string['recurse'] = 'Visualitza també les preguntes de les subcategories';
+$string['redoquestion'] = 'Torna a respondre a la pregunta';
 $string['regrade'] = 'Torna a calcular les qualificacions';
 $string['regradecomplete'] = 'S\'han tornat a calcular tots els intents';
 $string['regradecount'] = 'S\'han modificat {$a->changed} de {$a->attempt} qualificacions';

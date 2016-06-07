@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'survey', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -232,7 +232,7 @@ $string['preferredclass'] = 'Classe préférée';
 $string['preferredstudent'] = '{$a} préféré';
 $string['question'] = 'Question';
 $string['questions'] = 'Questions';
-$string['questionsnotanswered'] = 'Certaines questions à choix multiples n\'ont pas reçu de réponse.';
+$string['questionsnotanswered'] = 'Certaines questions à choix multiple n\'ont pas reçu de réponse.';
 $string['report'] = 'Rapport des consultations';
 $string['responsereports'] = 'Rapport des réponses';
 $string['responses'] = 'Réponses';
@@ -240,6 +240,7 @@ $string['savednotes'] = 'Vos remarques ont été enregistrées';
 $string['scaleagree5'] = 'Pas du tout d\'accord,Pas tout à fait d\'accord,Neutre,Assez d\'accord,Tout à fait d\'accord';
 $string['scales'] = 'Barèmes';
 $string['scaletimes5'] = 'Presque jamais,Rarement,Parfois,Souvent,Presque toujours';
+$string['search:activity'] = 'Consultation – information sur l\'activité';
 $string['seemoredetail'] = 'Cliquer ici pour avoir plus de détail';
 $string['selectedquestions'] = 'Questions choisies dans un barème, tous les étudiants';
 $string['summary'] = 'Résumé';

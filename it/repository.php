@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'repository', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -115,7 +115,7 @@ $string['enternewname'] = 'Per favore insersci il nuovo nome del file';
 $string['error'] = 'Si è verificato un errore sconosciuto!';
 $string['errordoublereference'] = 'Non è possibile sovrascrivere il file con un alias/scorciatoia poiché  per questo file una scorciatoia è già esistente.';
 $string['errornotyourfile'] = 'Non puoi prelevare un file che non è stato inserito da te';
-$string['errorpostmaxsize'] = 'Il file caricato potrebbe essere più grande di quanto consentito dalla direttiva post_max_size presente nel file php.ini';
+$string['errorpostmaxsize'] = 'Il file caricato potrebbe essere più grande di quanto consentito dalla configurazione del server.';
 $string['erroruniquename'] = 'Il nome della istanza di repository deve essere unico';
 $string['errorwhilecommunicatingwith'] = 'Si è verificato un errore durante la comunicazione con il repository \'{$a}\'.';
 $string['errorwhiledownload'] = 'Si è verificato un errore durante lo scaricamento del file: {$a}';

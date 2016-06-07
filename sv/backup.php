@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'backup', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -98,7 +98,7 @@ $string['configgeneraluserscompletion'] = 'Om valet aktiverats kommer spårning 
 $string['configloglifetime'] = 'Detta anger hur lång tid du vill behålla logginformation för säkerhetskopiering. Loggar som är äldre än angiven ålder raderas automatiskt. Rekommendationen är att hålla detta värde lågt eftersom logginformationen kan vara enorm.';
 $string['confirmcancel'] = 'Avbryt säkerhetskopiering';
 $string['confirmcancelno'] = 'Stanna';
-$string['confirmcancelquestion'] = 'Är du säker på att du vill avbryta? All information som du har matat in kommer att försvinna.';
+$string['confirmcancelquestion'] = 'Är Du säker på att Du vill avbryta? All information som Du har matat in kommer att försvinna.';
 $string['confirmcancelyes'] = 'Avbryt';
 $string['confirmnewcoursecontinue'] = 'Nykurs varning';
 $string['confirmnewcoursecontinuequestion'] = 'En tillfällig (dold) kurs kommer att skapas av kursåterställningsprocessen. För att avbryta återställningen klicka på Avbryt. Stäng inte webbläsaren medan återställningen pågår-';
@@ -231,6 +231,7 @@ $string['rootsettingbadges'] = 'Inkludera märken';
 $string['rootsettingblocks'] = 'Ta med block';
 $string['rootsettingcalendarevents'] = 'Inkludera kalenderhändelser';
 $string['rootsettingcomments'] = 'Ta med kommentarer';
+$string['rootsettingcompetencies'] = 'Inkludera kompetenser';
 $string['rootsettingfilters'] = 'Ta med filter';
 $string['rootsettinggradehistories'] = 'Ta med betygshistorik';
 $string['rootsettinggroups'] = 'Inkludera grupper och gruppindelningar';

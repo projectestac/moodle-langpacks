@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'portfolio', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   portfolio
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['activeportfolios'] = 'Actieve portfolio\'s';
 $string['addalltoportfolio'] = 'Exporteer alles naar portfolio';
 $string['addnewportfolio'] = 'Voeg een nieuw portfolio toe';
 $string['addtoportfolio'] = 'Exporteer naar portfolio';
-$string['alreadyalt'] = 'Aan het exporteren - klik hier om de transfer af te werken';
+$string['alreadyalt'] = 'Aan het exporteren - klik hier om de transfer te voltooien.';
 $string['alreadyexporting'] = 'Je hebt al een actieve portfolio-export in deze sessie. Voor je verder doet, moet je ofwel deze eerst voltooien, of anders annuleren. Wil je verder doen? (Nee zal annuleren)';
 $string['availableformats'] = 'Beschikbare exportformats';
 $string['callbackclassinvalid'] = 'Opgegeven antwoordklasse was niet geldig of geen deel van de portfolio_caller hierarchie';
@@ -163,8 +163,8 @@ $string['nonprimative'] = 'Een niet-primitive waarde is doorgegeven als callback
 $string['nopermissions'] = 'Je hebt niet de juiste rechten om van hieruit bestanden te exporteren';
 $string['notexportable'] = 'Het type inhoud dat je probeert te exporteren is niet exporteerbaar';
 $string['notimplemented'] = 'Je probeert een format te exporteren naar een format die nog niet geïmplementeerd is ({$a})';
-$string['notyetselected'] = 'Nog niet geselekteerd';
-$string['notyours'] = 'Je probeert een portfolio export te herstarten die niet van jouw is!';
+$string['notyetselected'] = 'Nog niet geselecteerd';
+$string['notyours'] = 'Je probeert een portfolio export te herstarten die niet van jou is!';
 $string['nouploaddirectory'] = 'Kon geen tijdelijke map maken om je gegevens in te verpakken';
 $string['off'] = 'Ingeschakeld maar verborgen';
 $string['on'] = 'Ingeschakeld en zichtbaar';

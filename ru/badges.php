@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'badges', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -241,7 +241,7 @@ $string['error:requesterror'] = 'Неудачный запрос на соеди
 $string['error:requesttimeout'] = 'Время соединения истекло до окончания выполнения запроса.';
 $string['error:save'] = 'Не удалось сохранить значок.';
 $string['error:userdeleted'] = '{$a->user} (Пользователь больше не существует на сайте {$a->site})';
-$string['eventbadgeawarded'] = 'Полученные значки';
+$string['eventbadgeawarded'] = 'Значок выдан';
 $string['evidence'] = 'Подтверждение';
 $string['existingrecipients'] = 'Существующие получатели значка';
 $string['expired'] = 'Не действительные';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'role', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -83,13 +83,9 @@ $string['badges:viewbadges'] = 'Visualitza les insígnies disponibles sense guan
 $string['badges:viewotherbadges'] = 'Visualitza les insígnies públiques en els perfils d\'altres usuaris';
 $string['block:edit'] = 'Editar els paràmetres d\'un bloc';
 $string['block:view'] = 'Visualitzar un bloc';
-$string['blog:associatecourse'] = 'Aquesta capacitat és obsoleta i no fa res.';
-$string['blog:associatemodule'] = 'Aquesta capacitat és obsoleta i no fa res.';
 $string['blog:create'] = 'Crear noves entrades del blog';
 $string['blog:manageentries'] = 'Editar i gestionar entrades';
 $string['blog:manageexternal'] = 'Editar i gestionar blogs externs';
-$string['blog:manageofficialtags'] = 'Gestionar les etiquetes oficials';
-$string['blog:managepersonaltags'] = 'Gestionar les etiquetes personals';
 $string['blog:search'] = 'Cercar entrades del blogs';
 $string['blog:view'] = 'Veure entrades del blog';
 $string['blog:viewdrafts'] = 'Veure esborranys d\'entrades del blog';
@@ -163,7 +159,7 @@ $string['course:viewhiddensections'] = 'Veure seccions ocultes';
 $string['course:viewhiddenuserfields'] = 'Veure camps d\'usuari ocults';
 $string['course:viewparticipants'] = 'Veure participants';
 $string['course:viewscales'] = 'Veure escales';
-$string['course:viewsuspendedusers'] = 'Mostra els usuaris suspesos.';
+$string['course:viewsuspendedusers'] = 'Mostra els usuaris amb la inscripció suspesa.';
 $string['course:visibility'] = 'Ocultar/mostrar cursos';
 $string['createrolebycopying'] = 'Crear un nou rol copiant {$a}';
 $string['createthisrole'] = 'Crear aquest rol';
@@ -178,10 +174,10 @@ $string['defaultx'] = 'Omissió: {$a}';
 $string['defineroles'] = 'Definició de rols';
 $string['deletecourseoverrides'] = 'Suprimeix totes les redefinicions del curs';
 $string['deletelocalroles'] = 'Suprimeix totes les assignacions de rols locals';
-$string['deleterolesure'] = '<p>Esteu segur que voleu suprimir el rol «{$a->name} ({$a->shortname})»?</p><p>Actualment aquest rol està assignat a {$a->count} usuaris.</p>';
+$string['deleterolesure'] = '<p>Confirmeu que voleu suprimir el rol «{$a->name} ({$a->shortname})»?</p><p>Actualment aquest rol està assignat a {$a->count} usuaris.</p>';
 $string['deletexrole'] = 'Esborra el rol {$a}';
 $string['duplicaterole'] = 'Duplica el rol';
-$string['duplicaterolesure'] = 'Segur que voleu duplicar el rol "{$a->name} ({$a->shortname})"?</p>';
+$string['duplicaterolesure'] = 'Confirmeu que voleu duplicar el rol «{$a->name} ({$a->shortname})»?</p>';
 $string['editingrolex'] = 'S\'està editant el rol «{$a}»';
 $string['editrole'] = 'Edita rol';
 $string['editxrole'] = 'Edita el rol {$a}';
@@ -251,7 +247,7 @@ $string['maybeassignedin'] = 'Tipus de context en què es pot assignar aquest ro
 $string['morethan'] = 'Més que {$a}';
 $string['multipleroles'] = 'Rols múltiples';
 $string['my:configsyspages'] = 'Configura les plantilles del sistema per a les pàgines d\'«El meu Moodle»';
-$string['my:manageblocks'] = 'Gestionar els blocs de la pàgina El meu Moodle';
+$string['my:manageblocks'] = 'Gestiona els blocs de la pàgina El meu Moodle';
 $string['neededroles'] = 'Rols amb permís';
 $string['nocapabilitiesincontext'] = 'No hi ha capacitats disponibles en aquest context';
 $string['noneinthisx'] = 'Cap en aquest {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'my', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   my
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,11 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addpage'] = 'Afegeix pàgina';
-$string['defaultpage'] = 'Pàgina per defecte d\'"El meu Moodle"';
+$string['defaultpage'] = 'Pàgina per defecte d\'«El meu Moodle»';
 $string['defaultprofilepage'] = 'Pàgina per defecte del perfil';
 $string['delpage'] = 'Suprimeix la pàgina';
 $string['managepages'] = 'Gestiona pàgines';
-$string['mymoodle'] = 'El meu Moodle';
+$string['mymoodle'] = 'Tauler';
 $string['nocourses'] = 'No hi ha informació de cursos per mostrar.';
 $string['noguest'] = 'La pàgina «El meu Moodle» no està disponible per a usuaris visitants';
 $string['pinblocks'] = 'Configuració de blocs fixos per a la pàgina «El meu Moodle»';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'ar', branch 'MOODLE_30_STABLE'
+ * Strings for component 'moodle', language 'ar', branch 'MOODLE_31_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -256,17 +256,6 @@ $string['choosereportfilter'] = 'اختر منقح للتقرير';
 $string['choosetheme'] = 'اختر مظهر الموقع';
 $string['chooseuser'] = 'اختر مستخدما';
 $string['city'] = 'المدينة/البلدة';
-$string['clambroken'] = 'قام مدير الموقع بتفعيل فحص الفيروسات للملفات المحمله ولكن قام أخطاء في إعداد شئ ما.<br /> تحميل ملفك لم يتم بنجاح. كما تم ارسال بريد إلكتروني لمدير الموقع لإشعاره بذلك ليتمكن من تعديل الخطاء.<br /> من الأفضل محاولة تحميل ملفك لاحقاً.';
-$string['clamdeletedfile'] = 'تم حذف لملف';
-$string['clamdeletedfilefailed'] = 'لم يتم حذف الملف';
-$string['clamemailsubject'] = '{$a}:: إشعار كلامأيفي';
-$string['clamfailed'] = 'لم يتمكن كلامأيفي من العمل. رسالة الخطاء الواردة هي {$a}.هناء الناتج من كلامأيفي.';
-$string['clamlost'] = 'لقد تم إعداد مودل لتشغيل كلام عند تحميل الملفات، ولكن المسار الذي تم تزويدة لكلامأيفي،{$a}، غير صحيحز';
-$string['clamlostandactinglikevirus'] = 'بالإضافة، تم إعداد مودل على أن يعامل جميع الملفات على انها تحتوي على الفيروسات في حالة فشل كلامأيفي من العمل. هذا يعني انه لن يتمكن أي طالب من تحميل أي ملف حتى يتم تعديل هذه المشكلة.';
-$string['clammovedfile'] = 'لقد تم نقل الملف إلى مجلد المحجر الصحي الذي حددته، الموقع الجديد هو {$a}';
-$string['clammovedfilebasic'] = 'لقد تم نقل الملف إلى مجلد المحجر الصحي.';
-$string['clamquarantinedirfailed'] = 'لم نتمكن من نقل الملف إلى مجلد المحجر الصحي المحدد،{$a}. تحتاج تصحيح هذا عندما تحذف الملفات التي ربما تكون مصابة بالفيروسات.';
-$string['clamunknownerror'] = 'يوجد خطاء غير معروف مع كلامأيفي.';
 $string['cleaningtempdata'] = 'نظف المعلومات المؤقتة';
 $string['clear'] = 'مسح';
 $string['clickhelpiconformoreinfo'] = '... يتبع ... انقر على أيقونة المساعدة لقراءة المقال كاملاً';
@@ -1678,20 +1667,6 @@ $string['viewfileinpopup'] = 'عرض الملف في قائمة منبثقة';
 $string['viewprofile'] = 'عرض الحساب';
 $string['views'] = 'معاينات';
 $string['viewsolution'] = 'معاينة الحل';
-$string['virusfound'] = 'الرجاء الأنتباه! لقد اكتشف كلامفي فيروس في الملف المحمل من قبل {$a->user} للمنهج الدراسي {$a->course}. هناء نتيجة فحص الفيروسات.';
-$string['virusfoundlater'] = 'لقدتم اكتشاف فيروس في الملف الذي قمت بتحميله والذي بمسمى {$a->filename} بتاريخ {$a->date} للمنهج الدراسي {$a->course}. هناء ملخص لما قد حصل لملفك
-{$a->action}
-لو كان هذا الملف يحتوى على عمل ترغب تسليمة، يجب عليك إعادة تحمله مع التأكد من سلمته من الفيروسات، ولذلك ليتمكن المعلم من استلامه.';
-$string['virusfoundlateradmin'] = 'الرجاء الأنتباه! لقدتم اكتشاف فيروس في الملف الذي قمت بتحميله والذي بمسمى {$a->filename} بتاريخ {$a->date} للمنهج الدراسي {$a->course} من قبل المستخدم {$a->user}. هناء ملخص لما قد حصل للملف
-{$a->action}
-لقد تم إحاطة المستخدم.';
-$string['virusfoundlateradminnolog'] = 'الرجاء الأنتباه! لقد اكتشف كلامفي فيروس في الملف {$a->filename}. لم يستطع مودل من حل مشكلة الملف المصاب بالفيروس.
-هناء ملخص لما قد حصل للملف
-
-{$a->action}';
-$string['virusfoundsubject'] = '{$a}: تم العثور على فيروس';
-$string['virusfounduser'] = 'تم اكتشاف أن الملف الذي قمت بتحميله، {$a->filename}، يحتوي على فيروس! لذا لم يتم تحميل ملفك إلى المجلد المحدد.';
-$string['virusplaceholder'] = 'تم اكتشاف فيروس في هذا الملف الذي تم رفعه لذا تم نقله أو حذفه وتمت إحاطة المستخدم بذلك.';
 $string['visible'] = 'مرئ';
 $string['visible_help'] = 'هذا الخيار يسمح لك بإخفاء مقررك الدراسي تماماً.
 لن يظهر هذا المنهج ضمن قائمة المقررات الدراسية، إلا لمعلمي المقرر الدراسينفسه و

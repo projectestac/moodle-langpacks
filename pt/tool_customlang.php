@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_customlang', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['checkin'] = 'Guardar strings no pacote linguístico';
 $string['checkout'] = 'Abrir pacote linguístico para edição';
 $string['checkoutdone'] = 'A carregar pacote linguístico';
 $string['checkoutinprogress'] = 'A inserir strings no tradutor';
-$string['confirmcheckin'] = 'Está prestes a inserir as strings modificadas no seu pacote linguistico local. Isto irá exportar as strings alteradas do tradutor para a diretoria data e o Moodle irá começar a usar essas strings. Prima o botão \'Continuar\' para proceder à alteração.';
+$string['confirmcheckin'] = 'Está prestes a inserir as strings modificadas no seu pacote linguistico local. Isto irá exportar as strings personalizadas do tradutor para a diretoria Moodle data e o Moodle irá começar a usar essas strings. Prima o botão \'Continuar\' para proceder à alteração.';
 $string['customlang:edit'] = 'Editar tradução local';
 $string['customlang:view'] = 'Ver tradução local';
 $string['filter'] = 'Filtrar strings';
@@ -45,7 +45,7 @@ $string['headinglocal'] = 'Personalização local';
 $string['headingstandard'] = 'Texto padrão';
 $string['headingstringid'] = 'String';
 $string['markinguptodate'] = 'A marcar a personalização como atualizada';
-$string['markinguptodate_help'] = 'A tradução personalizada pode ficar desatualizada, se tanto a original em Inglês ou a tradução local forem alteradas desde a costumização de uma dada string apenas no site. Reveja a tradução personalizada. Se encontrar desatualizações, clique na caixa de verificação e edite-a de outra forma.';
+$string['markinguptodate_help'] = 'A tradução personalizada pode ficar desatualizada, se tanto a original em Inglês ou a tradução local forem alteradas desde a personalização de uma dada string apenas no site. Reveja a tradução personalizada. Se encontrar desatualizações, clique na caixa de seleção e edite-a de outra forma.';
 $string['markuptodate'] = 'marcar como desatualizada';
 $string['modifiedno'] = 'Não existem strings alteradas para inserir';
 $string['modifiednum'] = 'Existem {$a} strings alteradas. Deve inseri-las no disco para as guardar permanentemente.';

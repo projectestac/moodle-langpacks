@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_templatelibrary', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_templatelibrary', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_templatelibrary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['documentation'] = 'Documentation';
 $string['example'] = 'Exemple';
 $string['noresults'] = 'Aucun résultat';
 $string['notemplateselected'] = 'Aucun gabarit choisi';
-$string['pluginname'] = 'Bibliothèque de gabarit';
+$string['pluginname'] = 'Bibliothèque de gabarits';
 $string['search'] = 'Recherche';
 $string['searchtemplates'] = 'Rechercher des gabarits';
 $string['templatehasnoexample'] = 'Ce gabarit n\'a pas d\'exemple de contexte et ne peut donc pas être rendu ici. Pour ajouter un exemple de contexte à ce gabarit, insérez dans un commentaire Mustache « Example context (json): », suivit de l\'extrait du contexte pour le gabarit, encodé en json.';

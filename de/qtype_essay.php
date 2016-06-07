@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_essay', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_essay', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_essay
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,4 +53,4 @@ $string['responseoptions'] = 'Antwortoptionen';
 $string['responserequired'] = 'Texteingabe erforderlich';
 $string['responsetemplate'] = 'Antwortvorlage';
 $string['responsetemplateheader'] = 'Antwortvorlage';
-$string['responsetemplate_help'] = 'Der hier eingegebene Text wird in Textfeld für die Antwort angehe';
+$string['responsetemplate_help'] = 'Der hier eingegebene Text wird im Antwortfeld für Teilnehmer angezeigt wenn diese/r die Frage beantworten will.';

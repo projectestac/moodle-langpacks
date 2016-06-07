@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'workshop', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -239,6 +239,7 @@ $string['saveandclose'] = 'Gorde eta itxi';
 $string['saveandcontinue'] = 'Gorde eta jarraitu editatzen';
 $string['saveandpreview'] = 'Gorde eta aurreikusi';
 $string['saveandshownext'] = 'Gorde eta erakutsi hurrengoa';
+$string['search:activity'] = 'Tailerra - jardueraren informazioa';
 $string['selfassessmentdisabled'] = 'Auto-ebaluazioa desgaituta';
 $string['showingperpage'] = '{$a} elementu erakusten orriko';
 $string['showingperpagechange'] = 'Aldatu...';

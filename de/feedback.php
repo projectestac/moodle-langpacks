@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'feedback', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['add_item'] = 'Element hinzufügen';
+$string['add_item'] = 'Frage hinzufügen';
 $string['add_pagebreak'] = 'Seitenumbruch hinzufügen';
 $string['adjustment'] = 'Ausrichtung';
 $string['after_submit'] = 'Nach der Abgabe';
@@ -33,7 +33,7 @@ $string['allowfullanonymous'] = 'Völlige Anonymität erlauben';
 $string['analysis'] = 'Auswertung';
 $string['anonymous'] = 'Anonym';
 $string['anonymous_edit'] = 'Anonym ausfüllen';
-$string['anonymous_entries'] = 'Anonyme Einträge';
+$string['anonymous_entries'] = 'Anonyme Einträge ({$a})';
 $string['anonymous_user'] = 'Anonymer Benutzer';
 $string['append_new_items'] = 'Neue Elemente anfügen';
 $string['autonumbering'] = 'Automatische Nummerierung';
@@ -41,6 +41,7 @@ $string['autonumbering_help'] = 'Diese Option aktiviert die automatische Nummeri
 $string['average'] = 'Mittelwert';
 $string['bold'] = 'Fett';
 $string['cancel_moving'] = 'Bewegen abbrechen';
+$string['cannotaccess'] = 'Sie können auf dieses Feedback nur aus einem Kurs zugreifen.';
 $string['cannotmapfeedback'] = 'Datenbank-Problem, eine Zuordnung des Feedbacks zum Kurs ist nicht möglich';
 $string['cannotsavetempl'] = 'Vorlagen speichern ist nicht gestattet';
 $string['cannotunmap'] = 'Datenbank-Problem - Aufhebung der Zuordnung ist nicht möglich';
@@ -67,6 +68,7 @@ $string['creating_templates'] = 'Vorlagen erstellen';
 $string['delete_entry'] = 'Eintrag löschen';
 $string['delete_item'] = 'Element löschen';
 $string['delete_old_items'] = 'Alte Elemente löschen';
+$string['delete_pagebreak'] = 'Seitenumbruch löschen';
 $string['delete_template'] = 'Vorlage löschen';
 $string['delete_templates'] = 'Vorlagen löschen...';
 $string['depending'] = 'Abhängige Elemente';
@@ -93,6 +95,7 @@ $string['dependitem'] = 'Abhängiges Element';
 $string['dependvalue'] = 'Abhängiger Wert';
 $string['description'] = 'Beschreibung';
 $string['do_not_analyse_empty_submits'] = 'Leere Abgaben ignorieren';
+$string['downloadresponseas'] = 'Alle Antworten herunterladen als:';
 $string['dropdown'] = 'Einzelne Antwort - Dropdown';
 $string['dropdownlist'] = 'Einzelne Antwort - Dropdown';
 $string['dropdownrated'] = 'Dropdown (skaliert)';
@@ -149,6 +152,7 @@ Um das Feedback anonym zu halten, müssen mindestens zwei Antworten abgegeben we
 $string['item_label'] = 'Bezeichnung';
 $string['item_name'] = 'Fragetext/Erläuterung';
 $string['label'] = 'Textfeld';
+$string['labelcontents'] = 'Inhalte';
 $string['line_values'] = 'Werte';
 $string['mapcourse'] = 'Kurs zuordnen';
 $string['mapcourse_help'] = 'Standardmäßig sind Feedbacks, die Sie auf Ihrer Startseite erstellt haben, auf der gesamten Website verfügbar und werden über den Block Feedback in allen Kursen auftauchen.
@@ -159,10 +163,12 @@ $string['mapcoursenone'] = 'Keinem Kurs zugeordnet. Dieses Feedback ist in allen
 $string['mapcourses'] = 'Diesem Feedback Kurse zuordnen';
 $string['mapcourses_help'] = 'Sobald Sie relevante Kurse ausgewählt haben, können Sie diese einem Feedback zuordnen. Mehrere Kurse können ausgewählt werden, indem Sie die Taste Crtl bzw. Cmd während der Mausauswahl drücken. Ein Kurs kann jederzeit wieder von einem Feedback gelöst werden.';
 $string['mappedcourses'] = 'Zugeordnete Kurse';
+$string['mappingchanged'] = 'Kursstruktur wurde geändert';
 $string['max_args_exceeded'] = 'Zu viele Argumente! Max. 6 Argumente dürfen verwendet werden.';
 $string['maximal'] = 'Maximal';
 $string['messageprovider:message'] = 'Erinnerung zum Feedback';
 $string['messageprovider:submission'] = 'Mitteilung zum Feedback';
+$string['minimal'] = 'Minimal';
 $string['mode'] = 'Modus';
 $string['modulename'] = 'Feedback';
 $string['modulename_help'] = 'Mit dem Feedback-Modul können Sie eigene Umfragen oder Evaluationsformulare anlegen, wofür Ihnen eine Reihe von Fragetypen zur Verfügung stehen.
@@ -189,13 +195,14 @@ $string['no_itemlabel'] = 'Keine Bezeichnung';
 $string['no_itemname'] = 'Keine Bezeichnung des Eintrags';
 $string['no_items_available_yet'] = 'Noch keine Elemente definiert';
 $string['non_anonymous'] = 'Nicht anonym';
-$string['non_anonymous_entries'] = 'Nicht-anonyme Einträge';
+$string['non_anonymous_entries'] = 'Nicht-anonyme Einträge ({$a})';
 $string['non_respondents_students'] = 'Teilnehmer/innen ohne Antwort';
 $string['notavailable'] = 'dieses Feedback ist nicht verfügbar.';
 $string['not_completed_yet'] = 'Noch nicht ausgefüllt';
 $string['no_templates_available_yet'] = 'Noch keine Vorlagen definiert';
 $string['not_selected'] = 'Nicht ausgewählt';
 $string['not_started'] = 'Nicht begonnen';
+$string['numberoutofrange'] = 'Zahl außerhalb des Bereichs';
 $string['numeric'] = 'Numerische Antwort';
 $string['numeric_range_from'] = 'Bereich von';
 $string['numeric_range_to'] = 'Bereich bis';
@@ -241,6 +248,7 @@ $string['save_entries'] = 'Einträge speichern';
 $string['save_item'] = 'Element speichern';
 $string['saving_failed'] = 'Fehler beim Speichern';
 $string['saving_failed_because_missing_or_false_values'] = 'Fehler beim Speichern, da notwendige Felder nicht oder falsch ausgefüllt wurden';
+$string['search:activity'] = 'Feedback - Aktivitätsinformation';
 $string['search_course'] = 'Kurs suchen';
 $string['searchcourses'] = 'Kurse suchen';
 $string['searchcourses_help'] = 'Nach Codes oder Namen von Kursen suchen, die Sie diesem Feedback zuordnen möchten';
@@ -261,9 +269,10 @@ $string['started'] = 'gestartet';
 $string['stop'] = 'Ende';
 $string['subject'] = 'Thema';
 $string['switch_group'] = 'Gruppe wechseln';
-$string['switch_item_to_not_required'] = 'Wechseln zu: Eintrag nicht erforderlich';
-$string['switch_item_to_required'] = 'Wechseln zu: Eintrag erforderlich';
+$string['switch_item_to_not_required'] = 'Als nicht notwendig setzen';
+$string['switch_item_to_required'] = 'Als notwendig setzen';
 $string['template'] = 'Vorlage';
+$string['template_deleted'] = 'Vorlage gelöscht';
 $string['templates'] = 'Vorlagen';
 $string['template_saved'] = 'Vorlage gespeichert';
 $string['textarea'] = 'Eingabebereich';
@@ -278,7 +287,7 @@ $string['typemissing'] = 'Fehlender Wert "type"';
 $string['update_item'] = 'Element aktualisieren';
 $string['url_for_continue'] = 'URL für den Knopf "Weiter"';
 $string['url_for_continue_help'] = 'Nach der Abgabe des Feedbacks wird ein Knopf "Weiter" gezeigt. Standardmäßig ist die Kursseite als Ziel eingestellt. Falls Sie auf eine andere URL verlinken möchten, so können Sie hier das Ziel dafür angeben.';
-$string['use_one_line_for_each_value'] = '<br />Benutzen Sie für jeden Wert eine neue Zeile!';
+$string['use_one_line_for_each_value'] = 'Benutzen Sie für jede Antwort eine neue Zeile!';
 $string['use_this_template'] = 'Diese Vorlage verwenden';
 $string['using_templates'] = 'Vorlagen verwenden';
 $string['vertical'] = 'untereinander';

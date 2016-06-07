@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'chat', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -65,7 +65,7 @@ $string['enterchat'] = 'Войти в чат';
 $string['entermessage'] = 'Введите свое сообщение';
 $string['errornousers'] = 'Нет ни одного пользователя!';
 $string['eventmessagesent'] = 'Отправлено сообщение';
-$string['eventsessionsviewed'] = 'Просмотрена сессия';
+$string['eventsessionsviewed'] = 'Сессии просмотрены';
 $string['explaingeneralconfig'] = 'Эти параметры используются <strong>всегда</strong>';
 $string['explainmethoddaemon'] = 'Эти параметры используются <strong>только</strong> если выбран «Режим чат-сервера»';
 $string['explainmethodnormal'] = 'Эти параметры используются <strong>только</strong> если выбран «Обычный режим»';

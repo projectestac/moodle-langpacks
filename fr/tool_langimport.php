@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_langimport', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_langimport', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_langimport
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,4 +49,4 @@ $string['remotelangnotavailable'] = 'Moodle ne peut pas se connecter au site dow
 $string['selectlangs'] = 'Sélectionnez les langues à désinstaller';
 $string['uninstall'] = 'Désinstaller le(s) paquetage(s) de langue sélectionné(s)';
 $string['uninstallconfirm'] = 'Vous êtes sur le point de supprimer totalement les paquetages de langue suivants : <strong>{$a}</strong>. Voulez-vous continuer ?';
-$string['updatelangs'] = 'Mettre à jour tous les paquetages de langue installés';
+$string['updatelangs'] = 'Mettre à jour les paquetages de langue installés';

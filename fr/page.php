@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'page', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,8 @@ $string['modulename_help'] = 'Le module page permet à l\'enseignant de créer u
 
 L\'avantage d\'utiliser une page plutôt qu\'un fichier réside dans le fait que la ressource est plus accessible, par exemple pour les utilisateurs avec des appareils mobiles, et plus facile à modifier.
 
+Pour des contenus de grande ampleur, il est recommandé d\'utiliser plutôt un livre qu\'une page.
+
 Une page peut être utilisée pour :
 
 * présenter les conditions et objectifs d\'un cours ou d\'un module de formation
@@ -59,3 +61,4 @@ $string['printheading'] = 'Afficher le nom de la page';
 $string['printheadingexplain'] = 'Afficher le nom de la page au-dessus de son contenu ?';
 $string['printintro'] = 'Afficher la description de la page';
 $string['printintroexplain'] = 'Afficher la description de la page au-dessus de son contenu ?';
+$string['search:activity'] = 'Page';

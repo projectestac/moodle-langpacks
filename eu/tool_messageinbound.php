@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_messageinbound', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,12 +34,14 @@ $string['enabled'] = 'Gaituta';
 $string['mailbox'] = 'Postontziaren izena';
 $string['mailboxconfiguration'] = 'Postontziaren ezarpenak';
 $string['mailsettings'] = 'Postaren ezarpenak';
+$string['message_handlers'] = 'Mezu-kudeatzaileak';
 $string['messageinboundgeneralconfiguration'] = 'Ezarpen orokorra';
 $string['messageinboundhostpass'] = 'Pasahitza';
 $string['messageinboundhostssl'] = 'Erabili SSL';
 $string['messageinboundhosttype'] = 'Zerbitzari-mota';
 $string['messageinboundhostuser'] = 'Erabiltzaile-izena';
 $string['name'] = 'Izena';
+$string['oneday'] = 'Egunbete';
 $string['onehour'] = 'Ordubete';
 $string['oneweek'] = 'Astebete';
 $string['oneyear'] = 'Urtebete';

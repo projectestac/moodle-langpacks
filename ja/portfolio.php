@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'portfolio', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   portfolio
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -109,7 +109,7 @@ $string['instancenotdelete'] = 'ポートフォリオの削除に失敗しまし
 $string['instancenotsaved'] = 'ポートフォリオの保存に失敗しました。';
 $string['instancesaved'] = 'ポートフォリオが正常に保存されました。';
 $string['intro'] = 'あなたが作成した課題提出、フォーラム投稿およびブログエントリのようなコンテンツをポートフォリオにエクスポートまたはダウンロードすることができます。<br />
-コンテンツをエクスポートするオプションとして一覧表示されないよう、あなたが使用したくないポートフォリオを非表示にすることができます。';
+コンテンツをエクスポートするオプションとして一覧表示されないようあなたが使用したくないポートフォリオを非表示にすることができます。';
 $string['invalidaddformat'] = '無効な追加フォーマットが「portfolio_add_button」に渡されました。({$a}) には「PORTFOLIO_ADD_XXX」の形式を使用してください。';
 $string['invalidbuttonproperty'] = 'portfolio_buttonのプロパティ ({$a}) が見つかりませんでした。';
 $string['invalidconfigproperty'] = '設定プロパティ ({$a->property} - {$a->class}) が見つかりませんでした。';

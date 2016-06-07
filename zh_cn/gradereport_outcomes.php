@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_outcomes', language 'zh_cn', branch 'MOODLE_30_STABLE'
+ * Strings for component 'gradereport_outcomes', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   gradereport_outcomes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addoutcome'] = '添加一个能力';
-$string['courseoutcomes'] = '课程能力';
-$string['coursespecoutcome'] = '课程能力';
-$string['outcomes:view'] = '查看能力报表';
+$string['addoutcome'] = '添加一个成果';
+$string['courseoutcomes'] = '课程成果';
+$string['coursespecoutcome'] = '课程成果';
+$string['outcomes:view'] = '查看成果报表';
 $string['pluginname'] = '能力报表';
 $string['usedgradeitem'] = '成绩项数目';

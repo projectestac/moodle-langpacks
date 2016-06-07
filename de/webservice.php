@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'webservice', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,6 @@ $string['addrequiredcapability'] = 'Notwendiges Recht hinzufügen / löschen';
 $string['addservice'] = 'Neuen Service hinzufügen: {$a->name} (id: {$a->id})';
 $string['addservicefunction'] = 'Funktionen zum Service \'{$a}\' hinzufügen';
 $string['allusers'] = 'Alle Nutzer/innen';
-$string['amftestclient'] = 'AMF Test-Client';
 $string['apiexplorer'] = 'API Explorer';
 $string['apiexplorernotavalaible'] = 'API Explorer bisher nicht verfügbar';
 $string['arguments'] = 'Argumente';
@@ -192,12 +191,10 @@ $string['step'] = 'Schritt';
 $string['supplyinfo'] = 'Weitere Details';
 $string['testauserwithtestclientdescription'] = 'Simulieren Sie einen externen Dienstzugriff mit dem Webservice-Testclient. Loggen Sie sich zuerst als Nutzer/in mit der Berechtigung "moodle/webservice:createtoken" ein. Suchen Sie die Option \'Sicherheitsschlüssel\' (Token) auf der Nutzerseite \'Einstellungen\'. Verwenden Sie das Token im Testclient. Wählen Sie im Testclient ein aktiviertes Protokoll mit Token-Authentifizierung. <strong>Achtung: Die getesteten Funktionen werden für dieses Nutzerkonto tatsächlich ausgeführt. Seien Sie deswegen vorsichtig mit der Auswahl Ihrer Tests.</strong>';
 $string['testclient'] = 'Webservice-Testrechner';
-$string['testclientdescription'] = '<ul>
-<li>Der Webservice Testclient <strong>führt die Funktionen des Webservices tatsächlich aus </strong>. Testen Sie keine Funktionen, die Ihnen nicht vertraut sind.</li>
-<li>Derzeit sind noch nicht alle Funktionen in den Testclient implementiert.</li>
-<li>Geben Sie auch einige Funktionen an, die nicht von Ihnen zugelassen sind, um zu prüfen, ob der Client tatsächlich nicht zugreifen kann. </li>
-<li>Um aussagekräftige Fehlermeldungen zu bekommen setzen Sie den Debugmodus auf <strong>{$a->mode}</strong> unter {$a->atag}<br/>* Zugriff für  {$a->amfatag}.</li>
-</ul>';
+$string['testclientdescription'] = '* Der Webservice-TestClient <strong>führt die Funktionen tatsächlich aus </strong>. Testen Sie keine Funktionen, die Ihnen unbekannt sind.<br />
+* Die Webservice-Funktionen sind bisher noch nicht alle in den TestClient implementiert.<br />
+* Um zu prüfen, dass ein Nutzer auf manche Funktionen nicht zugreifen kann, geben Sie auch einige Funktionen an, die Sie nicht zugelassen haben.<br />
+* Um aussagekräftigere Fehlermeldungen zu bekommen, setzen Sie den Debugmodus auf <strong>{$a->mode}</strong> unter {$a->atag}.';
 $string['testwithtestclient'] = 'Service testen';
 $string['testwithtestclientdescription'] = 'Simulation des externen Zugriffs mit dem Webservice Testclient. Verwenden Sie ein aktiviertes Protokoll mit Token-Authentifizierung. <strong>Warnung: Die Funktionen, die Sie testen, WERDEN AUSGEFÜHRT. Seien Sie also vorsichtig, mit dem, was Sie testen.</strong>';
 $string['token'] = 'Token';

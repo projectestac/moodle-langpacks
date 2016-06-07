@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'backup', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -241,6 +241,7 @@ $string['rootsettingbadges'] = 'Include badges';
 $string['rootsettingblocks'] = 'Include blocks';
 $string['rootsettingcalendarevents'] = 'Include calendar events';
 $string['rootsettingcomments'] = 'Include comments';
+$string['rootsettingcompetencies'] = 'Include competencies';
 $string['rootsettingfilters'] = 'Include filters';
 $string['rootsettinggradehistories'] = 'Include grade history';
 $string['rootsettinggroups'] = 'Include groups and groupings';

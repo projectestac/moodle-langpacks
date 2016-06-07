@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'lti', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -330,12 +330,6 @@ $string['share_roster_admin_help'] = 'Especifica de quina forma l\'eina pot acce
 $string['share_roster_help'] = 'Especifica de quina forma l\'eina pot accedir a la llista d\'usuaris inscrits  a aquest curs.
 
 Fixeu-vos que aquest paràmetre pot ser sobreescrit en la configuració de l\'eina.';
-$string['show_in_course'] = 'Mostra el tipus d\'eina quan es creïn instàncies d\'eina.';
-$string['show_in_course_help'] = 'Si ho seleccioneu, aquesta configuració d\'eina apareixerà en el desplegable "Tipus d\'eina externa" quan els professors configuren eines externes dins dels seus cursos.
-
-En molts casos, aquesta opció no cal que sigui seleccionada. Els professors poden utilitzar la configuració d\'eina basada en el llançament de URL cercant l\'eina basada en URL, la qual és el mètode preferit.
-
-El únic cas en el qual aquesta opció hauria de ser seleccionada és si la configuració de l\'eina es fa sols per una mostra. Per exemple, si tots els llançaments de l\'eina porten l\'usuari a una pàgina de prova en lloc de a un recurs especific.';
 $string['size'] = 'Mida dels parametres';
 $string['submission'] = 'Submissió';
 $string['submissions'] = 'Trameses';

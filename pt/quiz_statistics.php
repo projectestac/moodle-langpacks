@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz_statistics', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,7 +108,7 @@ $string['skewness'] = 'Skewness da distribuição da pontuação (para {$a})';
 $string['slotstructureanalysis'] = 'Análise estrutural para a questão número {$a}';
 $string['standarddeviation'] = 'Desvio Padrão (para {$a})';
 $string['standarddeviationq'] = 'Desvio Padrão';
-$string['standarderror'] = 'Erro standard (para {$a})';
+$string['standarderror'] = 'Erro padrão (para {$a})';
 $string['statistics'] = 'Estatísticas';
 $string['statistics:componentname'] = 'Relatório de Estatísticas do teste';
 $string['statisticsreport'] = 'Relatório de estatísticas';

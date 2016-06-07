@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,7 @@ $string['draggableitemheader'] = 'ドラッグ可能アイテム {$a}';
 $string['draggableitemtype'] = 'タイプ';
 $string['draggableword'] = 'ドラッグ可能テキスト';
 $string['dropbackground'] = 'マーカーをドラッグするための背景イメージ';
-$string['dropzone'] = 'ドロップゾーン ($a)';
+$string['dropzone'] = 'ドロップゾーン {$a}';
 $string['dropzoneheader'] = 'ドロップゾーン';
 $string['dropzones'] = 'ドロップゾーン';
 $string['dropzones_help'] = '座標を入力することによりドラッグゾーンを定義することができます。あなたが入力した場合、上のプレビューがすぐに更新されるため、試行錯誤しながら配置することができます。

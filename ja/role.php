@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'role', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -83,13 +83,9 @@ $string['badges:viewbadges'] = '利用可能なバッジを取得せずに表示
 $string['badges:viewotherbadges'] = '他のユーザのプロファイル内のパブリックバッジを表示する';
 $string['block:edit'] = 'ブロック設定を編集する';
 $string['block:view'] = 'ブロックを表示する';
-$string['blog:associatecourse'] = 'このケイパビリティは廃止されたため何もしません。';
-$string['blog:associatemodule'] = 'このケイパビリティは廃止されたため何もしません。';
 $string['blog:create'] = '新しいブログエントリを作成する';
 $string['blog:manageentries'] = 'エントリを編集および管理する';
 $string['blog:manageexternal'] = '外部ブログを編集および管理する';
-$string['blog:manageofficialtags'] = 'オフィシャルタグを管理する';
-$string['blog:managepersonaltags'] = 'パーソナルタグを管理する';
 $string['blog:search'] = 'ブログエントリを検索する';
 $string['blog:view'] = 'ブログエントリを表示する';
 $string['blog:viewdrafts'] = '下書きブログエントリを表示する';
@@ -118,6 +114,38 @@ $string['comment:post'] = 'コメントを投稿する';
 $string['comment:view'] = 'コメントを表示する';
 $string['community:add'] = 'ハブおよびコースの検索にコミュニティブロックを使用する';
 $string['community:download'] = 'コミュニティブロックよりコースをダウンロードする';
+$string['competency:competencygrade'] = 'コンピテンシー評定を設定する';
+$string['competency:competencymanage'] = 'コンピテンシーフレームワークを管理する';
+$string['competency:competencyview'] = 'コンピテンシーフレームワークを表示する';
+$string['competency:coursecompetencyconfigure'] = 'コースコンピテンシーを設定する';
+$string['competency:coursecompetencygradable'] = 'コンピテンシー評点を受ける';
+$string['competency:coursecompetencymanage'] = 'コースコンピテンシーを管理する';
+$string['competency:coursecompetencyview'] = 'コースコンピテンシーを表示する';
+$string['competency:evidencedelete'] = 'エビデンスを削除する';
+$string['competency:plancomment'] = '学習プランにコメントする';
+$string['competency:plancommentown'] = '自分の学習プランにコメントする';
+$string['competency:planmanage'] = '学習プランを管理する';
+$string['competency:planmanagedraft'] = '学習プラン下書きを管理する';
+$string['competency:planmanageown'] = '自分の学習プランを管理する';
+$string['competency:planmanageowndraft'] = '自分の学習プラン下書きを管理する';
+$string['competency:planrequestreview'] = '学習プランのレビューをリクエストする';
+$string['competency:planrequestreviewown'] = '自分の学習プランのレビューをリクエストする';
+$string['competency:planreview'] = '学習プランをレビューする';
+$string['competency:planview'] = 'すべての学習プランを表示する';
+$string['competency:planviewdraft'] = '学習プラン下書きを表示する';
+$string['competency:planviewown'] = '自分の学習プランを表示する';
+$string['competency:planviewowndraft'] = '自分の学習プラン下書きを表示する';
+$string['competency:templatemanage'] = '学習プランテンプレートを管理する';
+$string['competency:templateview'] = '学習プランテンプレートを表示する';
+$string['competency:usercompetencycomment'] = 'ユーザコンピテンシーにコメントする';
+$string['competency:usercompetencycommentown'] = '自分のユーザコンピテンシーにコメントする';
+$string['competency:usercompetencyrequestreview'] = 'ユーザコンピテンシーのレビューをリクエストする';
+$string['competency:usercompetencyrequestreviewown'] = '自分のユーザコンピテンシーのレビューをリクエストする';
+$string['competency:usercompetencyreview'] = 'ユーザコンピテンシーをレビューする';
+$string['competency:usercompetencyview'] = 'ユーザコンピテンシーを表示する';
+$string['competency:userevidencemanage'] = '事前学習エビデンスを管理する';
+$string['competency:userevidencemanageown'] = '自分の事前学習エビデンスを管理する';
+$string['competency:userevidenceview'] = 'ユーザの事前学習エビデンスを閲覧する';
 $string['confirmaddadmin'] = '本当にユーザ <strong>{$a}</strong> を新しいサイト管理者として追加してもよろしいですか?';
 $string['confirmdeladmin'] = '本当にユーザ <strong>{$a}</strong> をサイト管理者一覧より削除してもよろしいですか?';
 $string['confirmroleprevent'] = '本当にコンテクスト「 {$a->context} 」内ケイパビリティ「 {$a->cap} 」に許可されたロールから<strong>「 {$a->role} 」</strong>を削除してもよろしいですか?';
@@ -148,6 +176,7 @@ $string['course:managescales'] = '評価尺度を管理する';
 $string['course:markcomplete'] = 'コース完了に関してユーザに完了をマークする';
 $string['course:movesections'] = 'セクションを移動する';
 $string['course:publish'] = 'コースをハブに公開する';
+$string['course:renameroles'] = 'ロールをリネームする';
 $string['course:request'] = '新しいコースをリクエストする';
 $string['course:reset'] = 'コースをリセットする';
 $string['course:reviewotherusers'] = '他のユーザをレビューする';
@@ -320,7 +349,7 @@ $string['restore:restoretargetimport'] = 'インポートファイルからリ�
 $string['restore:rolldates'] = 'リストア時、活動設定の日付変更を許可する';
 $string['restore:uploadfile'] = 'バックアップエリアにファイルをアップロードする';
 $string['restore:userinfo'] = 'ユーザデータをリストアする';
-$string['restore:viewautomatedfilearea'] = '自動バックアップよりコースをリストアする';
+$string['restore:viewautomatedfilearea'] = '自動バックアップエリアを表示する';
 $string['risks'] = 'リスク';
 $string['roleallowheader'] = 'ロールを許可する:';
 $string['roleallowinfo'] = 'コンテクスト「 {$a->context} 」およびケイパビリティ「 {$a->cap} 」において、許可されるロールのリストに追加されるロールを選択してください:';
@@ -349,6 +378,7 @@ $string['role:switchroles'] = '別のロールに切り替える';
 $string['roletoassign'] = '割り当てるロール';
 $string['roletooverride'] = 'オーバーライドするロール';
 $string['safeoverridenotice'] = '注意: あなたはセーフケイパビリティのオーバーライドのみ許可されているため、高いリスクのケイパビリティはロックされています。';
+$string['search:query'] = 'サイト全体の検索を実行する';
 $string['selectanotheruser'] = '別のユーザを選択する';
 $string['selectauser'] = 'ユーザを選択する';
 $string['selectrole'] = 'ロールを選択する';

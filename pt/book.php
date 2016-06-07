@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'book', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -63,7 +63,7 @@ $string['movechapterup'] = 'Mover capítulo "{$a}" para cima';
 $string['navexit'] = 'Sair do livro';
 $string['navimages'] = 'Imagens';
 $string['navnext'] = 'Seguinte';
-$string['navoptions'] = 'Opções disponíveis para os links de navegação';
+$string['navoptions'] = 'Opções disponíveis para as hiperligações de navegação';
 $string['navoptions_desc'] = 'Opções para exibir a navegação nas páginas do livro';
 $string['navprev'] = 'Anterior';
 $string['navstyle'] = 'Estilo da navegação';
@@ -86,6 +86,8 @@ $string['numberingoptions_desc'] = 'Opções de formatação usadas para exibir 
 $string['page-mod-book-x'] = 'Qualquer página do Livro';
 $string['pluginadministration'] = 'Administração do Livro';
 $string['pluginname'] = 'Livro';
+$string['search:activity'] = 'Livro - informações sobre o recurso';
+$string['search:chapter'] = 'Livro - capítulos';
 $string['showchapter'] = 'Mostrar capítulo "{$a}"';
 $string['subchapter'] = 'Subcapítulo';
 $string['subchapternotice'] = '(Apenas disponível quando o primeiro capitulo está criado)';

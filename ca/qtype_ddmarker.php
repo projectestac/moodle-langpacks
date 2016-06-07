@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,7 +53,7 @@ $string['noofdrags'] = 'Número';
 $string['pluginname'] = 'Arrossegar i deixar anar marcadors';
 $string['pluginnameadding'] = 'S\'està afegint una pregunta d\'arrossegar i deixar anar marcadors';
 $string['pluginnameediting'] = 'S\'està editant una pregunta d\'arrossegar i deixar anar marcadors';
-$string['pluginnamesummary'] = 'Permet definir marcadors que s\'hauràn d\'arrossegar sobre una imatge de fons.';
+$string['pluginnamesummary'] = 'Permet definir marcadors que s\'hauran d\'arrossegar i deixar anar sobre una imatge de fons.';
 $string['previewareaheader'] = 'Previsualitza';
 $string['previewareamessage'] = 'Seleccioneu una imatge de fons, afegiu text a les etiquetes pels marcadors i definiu les zones de destí sobre la imatge de fons on s\'hauran d\'arrossegar.';
 $string['refresh'] = 'Refresca la previsualització';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_community', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_community', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   block_community
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -94,7 +94,7 @@ $string['orderbyname'] = 'Izena';
 $string['orderbynewest'] = 'Berriena';
 $string['orderbypublisher'] = 'Egilea';
 $string['orderbyratingaverage'] = 'Puntuazioa';
-$string['outcomes'] = 'Helburuak: {$a}';
+$string['outcomes'] = 'Ikas-emaitzak: {$a}';
 $string['pluginname'] = 'Komunitate-bilatzailea';
 $string['rateandcomment'] = 'Puntuatu eta iruzkindu';
 $string['rating'] = 'Puntuazioa';

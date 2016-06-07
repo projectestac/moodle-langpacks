@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_xmldb', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['actual'] = 'Atual';
 $string['aftertable'] = 'Após tabela:';
 $string['back'] = 'Voltar';
 $string['backtomainview'] = 'Voltar à página principal XMLDB';
-$string['cannotuseidfield'] = 'Não é possível inserir o campo "id". É uma coluna autonumerada';
+$string['cannotuseidfield'] = 'Não é possível inserir o campo "ID". É uma coluna autonumerada';
 $string['change'] = 'Alterar';
 $string['charincorrectlength'] = 'Tamanho incorreto para o campo de texto';
 $string['checkbigints'] = 'Verificar inteiros';

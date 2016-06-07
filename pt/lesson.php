@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'lesson', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,7 @@ $string['actionaftercorrectanswer_help'] = 'Após responder corretamente a uma p
 * Mostrar página não respondida - As páginas são exibidas de forma aleatória, sendo as perguntas não respondidas exibidas novamente';
 $string['actions'] = 'Ações';
 $string['activitylink'] = 'Hiperligação para a próxima atividade';
-$string['activitylink_help'] = 'Mostra um link no final duma lição para outra atividade da disciplina. Selecione a atividade na caixa de seleção..';
+$string['activitylink_help'] = 'Mostra uma hiperligação no final duma lição para outra atividade da disciplina. Selecione a atividade na lista pendente.';
 $string['activitylinkname'] = 'Ir para: {$a}';
 $string['activityoverview'] = 'Atenção às suas Lições! Clique aqui para mais informações.';
 $string['addabranchtable'] = 'Inserir página de conteúdo';
@@ -94,7 +94,7 @@ $string['checkedthisone'] = 'Assinalou este.';
 $string['checknavigation'] = 'Assinalar navegação';
 $string['checkquestion'] = 'Assinalar pergunta';
 $string['classstats'] = 'Estatísticas da turma';
-$string['clicktodownload'] = 'Clique no link seguinte para descarregar o ficheiro.';
+$string['clicktodownload'] = 'Clique na hiperligação seguinte para descarregar o ficheiro.';
 $string['clicktopost'] = 'Clique aqui para incluir a sua nota na lista das melhores pontuações.';
 $string['closebeforeopen'] = 'Não foi possível atualizar a lição porque definiu uma data de fecho anterior à data de abertura.';
 $string['cluster'] = 'Grupo';
@@ -111,14 +111,17 @@ $string['completiontimespent'] = 'Os alunos deverão realizar esta atividade em 
 $string['completiontimespentgroup'] = 'Requer tempo mínimo';
 $string['conditionsfordependency'] = 'Condições de dependência';
 $string['configactionaftercorrectanswer'] = 'Ação após uma resposta correta, por predefinição';
+$string['configintro'] = 'Os valores definidos aqui são os valores predefinidos utilizados nas configurações do formulário de criação de uma nova atividade Lição. As configurações especificadas como avançadas só serão mostradas quando clicar na hiperligação \'Mostrar mais...\'.';
 $string['configmaxanswers'] = 'Número máximo de respostas por página, por predefinição';
 $string['configmaxhighscores'] = 'Número de melhores notas exibidas';
 $string['configmediaclose'] = 'Exibe um botão de fechar na janela de pop-up do conteúdo de suporte';
 $string['configmediaheight'] = 'Define a altura da janela de pop-up do conteúdo de suporte';
 $string['configmediawidth'] = 'Define a largura da janela de pop-up do conteúdo de suporte';
+$string['configpassword_desc'] = 'Se é necessária uma senha para aceder à Lição.';
 $string['configslideshowbgcolor'] = 'Cor de fundo para a apresentação de slides, se ativa';
 $string['configslideshowheight'] = 'Define a altura da apresentação de slides, se ativa';
 $string['configslideshowwidth'] = 'Define a largura da apresentação de slides, se ativa';
+$string['configtimelimit_desc'] = 'Se for definido um tempo limite para a realização da lição, será mostrado no início da tentativa um aviso sobre o limite de tempo e é exibida uma contagem decrescente. Se definir esta opção como zero, não existirá tempo limite para realização da lição.';
 $string['confirmdelete'] = 'Apagar página';
 $string['confirmdeletionofthispage'] = 'Deseja apagar esta página?';
 $string['congratulations'] = 'Parabéns - chegou ao fim da lição';
@@ -130,7 +133,7 @@ $string['correctanswerscore'] = 'Pontuação da resposta correta';
 $string['correctresponse'] = 'Feedback da resposta correta';
 $string['createaquestionpage'] = 'Criar uma página de pergunta';
 $string['credit'] = 'Crédito';
-$string['customscoring'] = 'Pontuação ajustável';
+$string['customscoring'] = 'Pontuação personalizável';
 $string['customscoring_help'] = 'Se ativar esta opção, pode atribuir a cada resposta uma pontuação numérica (positivo ou negativo).';
 $string['deadline'] = 'Até';
 $string['defaultessayresponse'] = 'A sua resposta à pergunta de desenvolvimento será avaliada pelo professor.';
@@ -154,7 +157,7 @@ $string['displayinleftmenu'] = 'Exibir no menu';
 $string['displayleftif'] = 'Exibir menu apenas se a nota for superior a';
 $string['displayleftif_help'] = 'Esta opção determina se um aluno deve obter uma determinada nota para poder visualizar o menu à esquerda. Isso obriga o aluno a percorrer toda a lição na primeira tentativa e depois de obter a nota exigida, pode usar o menu à esquerda para rever a lição.';
 $string['displayleftmenu'] = 'Exibir menu';
-$string['displayleftmenu_help'] = 'Se ativar está opção, será exibido um menu que permite aos utilizadores navegar pela lista de páginas da lição.';
+$string['displayleftmenu_help'] = 'Se ativar esta opção, será exibido um menu que permite aos utilizadores navegar pela lista de páginas da Lição.';
 $string['displayofgrade'] = 'Exibição da nota (apenas para alunos)';
 $string['displayreview'] = 'Mostrar botão para voltar a responder';
 $string['displayreview_help'] = 'Se ativar esta opção, quando uma pergunta é respondida de forma incorreta, é dado a escolher ao aluno se quer responder de novo sem obter a pontuação ou continuar a lição';
@@ -292,7 +295,7 @@ $string['maximumnumberofattempts_help'] = 'Esta opção define o número máximo
 $string['maximumnumberofattemptsreached'] = 'Atingiu o número máximo de tentativas permitido - A lição vai avançar para a página seguinte';
 $string['mediaclose'] = 'Mostrar botão de fechar';
 $string['mediafile'] = 'Ficheiro de pop-up';
-$string['mediafile_help'] = 'Para incluir uma janela de pop-up no início da lição, escolha o ficheiro a exibir. Todas as páginas da lição incluirão um link para reabrir o pop-up, se necessário.';
+$string['mediafile_help'] = 'Podem ser carregados ficheiros para utilização na Lição. Será mostrada uma hiperligação \'Clique aqui para ver\' num bloco com a designação \'Conteúdo de suporte\' em cada página da Lição.';
 $string['mediafilepopup'] = 'Clique aqui para ver';
 $string['mediaheight'] = 'Altura da janela de pop-up';
 $string['mediawidth'] = 'Largura da janela de pop-up';
@@ -368,7 +371,7 @@ $string['numberofpagestoshow'] = 'Número de páginas a mostrar';
 $string['numberofpagestoshow_help'] = 'Esta opção define o número de páginas exibidas numa lição. Apenas é aplicável em lições em que as páginas são exibidas aleatoriamente (quando a opção "Ação após resposta correta" está configurada como "Mostrar página não vista" ou "Mostrar página não respondida"). Se selecionar o valor 0 todas as páginas serão exibidas.';
 $string['numberofpagesviewed'] = 'Perguntas respondidas: {$a}';
 $string['numberofpagesviewedheader'] = 'Número de questões respondidas';
-$string['numberofpagesviewednotice'] = 'Perguntas respondidas: {$a->nquestions}; (Deve responder pelo menos a: {$a->minquestions})';
+$string['numberofpagesviewednotice'] = 'Número de questões respondidas: {$a->nquestions} (Tem de responder pelo menos a {$a->minquestions} questões)';
 $string['numerical'] = 'Numérica';
 $string['ongoing'] = 'Exibir avaliação no decorrer da lição';
 $string['ongoingcustom'] = 'Tem {$a->score} ponto(s) num máximo de {$a->currenthigh}.';
@@ -458,6 +461,7 @@ $string['savepage'] = 'Guardar página';
 $string['score'] = 'Nota';
 $string['score_help'] = 'A pontuação só é usada quando a pontuação personalizada está ativada. A cada resposta poderá ser dada uma pontuação numérica (positiva ou negativa).';
 $string['scores'] = 'Notas';
+$string['search:activity'] = 'Lição - informações da atividade';
 $string['secondpluswrong'] = 'Resposta incorreta. Quer voltar a tentar?';
 $string['selectaqtype'] = 'Selecione tipo de pergunta';
 $string['shortanswer'] = 'Resposta curta';
@@ -486,13 +490,14 @@ $string['thefollowingpagesjumptothispage'] = 'As páginas seguintes seguem para 
 $string['thispage'] = 'Esta página';
 $string['timeisup'] = 'Terminou o tempo';
 $string['timelimit'] = 'Tempo limite';
-$string['timelimit_help'] = 'Se ativar esta opção, será mostrado no início da lição um aviso sobre o limite de tempo e é exibida uma contagem decrescente. As respostas dadas depois do tempo não serão classificadas.';
+$string['timelimit_help'] = 'Se ativar esta opção, será mostrado no início da lição um aviso sobre o limite de tempo e é exibida uma contagem decrescente. As respostas dadas depois do tempo não serão avaliadas.';
 $string['timelimitwarning'] = 'Tem {$a} para finalizar a lição.';
 $string['timeremaining'] = 'Tempo restante';
 $string['timespenterror'] = 'Gastou pelo menos {$a} minutos nesta lição.';
 $string['timespentminutes'] = 'Tempo despendido (minutos)';
 $string['timetaken'] = 'Tempo usado';
 $string['topscorestitle'] = '{$a} melhores notas';
+$string['totalpagesviewedheader'] = 'Número de páginas vizualizadas';
 $string['true'] = 'Verdadeiro';
 $string['truefalse'] = 'Verdadeiro/falso';
 $string['unabledtosavefile'] = 'O ficheiro que carregou não pode ser guardado';

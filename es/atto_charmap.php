@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_charmap', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'atto_charmap', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   atto_charmap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,6 +66,7 @@ $string['kappa'] = 'kappa';
 $string['kappa_caps'] = 'Kappa';
 $string['lambda'] = 'lambda';
 $string['lambda_caps'] = 'Lambda';
+$string['minutesfeet'] = 'minutos / pies';
 $string['ocircumflex'] = 'o - circunflejo';
 $string['ocircumflex_caps'] = 'O - circunflejo';
 $string['odiaeresis'] = 'o - diéresis';

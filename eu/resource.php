@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'resource', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -97,6 +97,7 @@ $string['resourcedetails_sizetypedate'] = '{$a->size} {$a->type} {$a->date}';
 $string['resourcedetails_typedate'] = '{$a->type} {$a->date}';
 $string['resource:exportresource'] = 'Esportatu baliabidea';
 $string['resource:view'] = 'Ikusi baliabidea';
+$string['search:activity'] = 'Fitxategia';
 $string['selectmainfile'] = 'Aukeratu mesedez fitxategi nagusia fitxategiaren izenaren ondoan dagoen ikonoan klik eginda.';
 $string['showdate'] = 'Erakutsi igotako/aldatutako data';
 $string['showdate_desc'] = 'Erakutsi igotako/aldatutako data ikastaroaren orrian?';

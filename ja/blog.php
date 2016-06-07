@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'blog', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,7 +44,7 @@ $string['blogaboutthis'] = 'この {$a->type} に関するブログ';
 $string['blogaboutthiscourse'] = 'このコースに関するエントリを追加する';
 $string['blogaboutthismodule'] = 'この {$a} に関するエントリを追加する';
 $string['blogadministration'] = 'ブログ管理';
-$string['blogdeleteconfirm'] = 'このブログエントリを削除してもよろしいですか?';
+$string['blogdeleteconfirm'] = 'ブログエントリ「 {$a} 」を削除してもよろしいですか?';
 $string['blogdisable'] = 'ブログは無効にされています!';
 $string['blogentries'] = 'ブログエントリ';
 $string['blogentriesabout'] = '{$a} に関するブログエントリ';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'enrol', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,7 +77,7 @@ $string['errorthresholdlow'] = 'Порог уведомления должен �
 $string['errorwithbulkoperation'] = 'При действии над несколькими пользователями произошла ошибка';
 $string['eventuserenrolmentcreated'] = 'Пользователь зачислен на курс';
 $string['eventuserenrolmentdeleted'] = 'Пользователь отчислен из курса';
-$string['eventuserenrolmentupdated'] = 'Обновлены отчисленные пользователи';
+$string['eventuserenrolmentupdated'] = 'Запись пользователя на курс обновлена';
 $string['expirynotify'] = 'Уведомлять об истечении срока обучения';
 $string['expirynotifyall'] = 'Преподавателя и учащегося';
 $string['expirynotifyenroller'] = 'Только преподавателя';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'editor_tinymce', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,7 +45,7 @@ $string['advanced:code_desc'] = 'Redigera HTML källkoden';
 $string['advanced:colorpicker_delta_height'] = '';
 $string['advanced:colorpicker_delta_width'] = '';
 $string['advanced:copy_desc'] = 'Kopiera';
-$string['advanced:custom1_desc'] = 'Skriv in din standardbeskrivning här';
+$string['advanced:custom1_desc'] = 'Skriv in Din standardbeskrivning här';
 $string['advanced:cut_desc'] = 'Klipp ut';
 $string['advanced:dd'] = 'Definitionsbeskrivning';
 $string['advanced:div'] = 'Div';
@@ -259,9 +259,9 @@ $string['advlist:upper_alpha'] = 'Övre alfa';
 $string['advlist:upper_roman'] = 'Övre roman';
 $string['autosave:restore_content'] = 'Återställ innehåll som har sparats automatiskt';
 $string['autosave:unload_msg'] = 'De förändringar som du gjort kommer att gå förlorade om du lämnar sidan.';
-$string['autosave:warning_message'] = 'Om du återställer det sparade innehållet så kommer du att förlora allt det innehåll som f n finns i redigeraren.
+$string['autosave:warning_message'] = 'Om Du återställer det sparade innehållet så kommer Du att förlora allt det innehåll som f n finns i redigeraren.
 
-Är du säker på att du vill återställa det sparade innehållet?';
+Är Du säker på att Du vill återställa det sparade innehållet?';
 $string['common:apply'] = 'Applicera';
 $string['common:browse'] = 'Bläddra';
 $string['common:cancel'] = 'Avbryt';

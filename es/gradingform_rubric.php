@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_rubric', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'gradingform_rubric', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   gradingform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,12 +32,13 @@ $string['confirmdeletecriterion'] = '¿Está seguro que quiere eliminar el crite
 $string['confirmdeletelevel'] = '¿Está seguro que quiere eliminar este nivel?';
 $string['criterionaddlevel'] = 'Añadir nivel';
 $string['criteriondelete'] = 'Eliminar criterio';
+$string['criterionduplicate'] = 'Duplicar criterio';
 $string['criterionempty'] = 'Clic para editar criterio';
 $string['criterionmovedown'] = 'Mover abajo';
 $string['criterionmoveup'] = 'Mover arriba';
 $string['definerubric'] = 'Definir rúbrica';
 $string['description'] = 'Descripción';
-$string['enableremarks'] = 'Permitir a quien califica añadir comentarios de texto para cada criterio';
+$string['enableremarks'] = 'Permitir a quien califica añadir observaciones para cada criterio';
 $string['err_mintwolevels'] = 'Cada criterio debe tener al menos dos niveles';
 $string['err_nocriteria'] = 'La rúbrica debe contener al menos un criterio';
 $string['err_nodefinition'] = 'La definición del nivel no puede estar en blanco';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'scorm', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -125,6 +125,8 @@ $string['eventattemptdeleted'] = 'Tentative supprimée';
 $string['eventinteractionsviewed'] = 'Interactions consultées';
 $string['eventreportviewed'] = 'Rapport consulté';
 $string['eventscolaunched'] = 'SCO lancé';
+$string['eventscorerawsubmitted'] = 'Score brut SCORM envoyé';
+$string['eventstatussubmitted'] = 'Statut SCORM envoyé';
 $string['eventtracksviewed'] = 'Traces consultées';
 $string['eventuserreportviewed'] = 'Rapport utilisateur consulté';
 $string['everyday'] = 'Chaque jour';
@@ -203,6 +205,9 @@ $string['lastattemptlock'] = 'Verrouiller après la tentative finale';
 $string['lastattemptlockdesc'] = 'Si ce réglage est activé, les participants ayant épuisé leur nombre de tentatives ne peuvent plus lancer le lecteur SCORM.';
 $string['lastattemptlock_help'] = 'Si ce réglage est activé, les étudiants ne peuvent plus lancer le lecteur SCORM une fois qu\'ils ont épuisé le nombre de tentatives qui leur sont allouées.';
 $string['location'] = 'Afficher la barre d\'URL';
+$string['masteryoverride'] = 'Le score de maîtrise remplace le statut';
+$string['masteryoverridedesc'] = 'Ce réglage définit si par défaut le score de maîtrise remplace le statut';
+$string['masteryoverride_help'] = 'Si ce réglage est activé et qu\'un score de maîtrise est indiqué, lorsque LMSFinish est appelé et qu\'un score brut a été donnée, le statut sera recalculé à l\'aide du score brut et du score de maîtrise, et le statut fourni par le SCORM (y compris « incomplet ») sera remplacé.';
 $string['max'] = 'Score max';
 $string['maximumattempts'] = 'Nombre de tentatives';
 $string['maximumattemptsdesc'] = 'Ce réglage détermine la valeur par défaut du nombre maximal de tentatives de l\'activité';
@@ -215,7 +220,7 @@ $string['missingparam'] = 'Un paramètre requis est manquant ou incorrect';
 $string['missing_tag'] = 'Balise {$a->tag} manquante';
 $string['mode'] = 'Mode';
 $string['modulename'] = 'Paquetage SCORM';
-$string['modulename_help'] = 'Un paquetage SCORM est constitué d\'un ensemble de fichiers assemblés suivant un standard défini pour les objets d\'apprentissages. Le module d\'activité SCORM permet de déposer des paquetages SCORM ou AICC sours la forme d\'archives ZIP et de les ajouter à un cours.
+$string['modulename_help'] = 'Un paquetage SCORM est constitué d\'un ensemble de fichiers assemblés suivant un standard défini pour les objets d\'apprentissages. Le module d\'activité SCORM permet de déposer des paquetages SCORM ou AICC sous la forme d\'archives ZIP et de les ajouter à un cours.
 
 Le contenu est en principe affiché sur plusieurs pages avec une navigation permettant de passer d\'une page à l\'autre. Il y a diverses options d\'affichage, dans une fenêtre surgissante, avec une table des matières, avec des boutons de navigation, etc. Les activités SCORM comportent en général des questions et les notes sont enregistrées dans le carnet de notes.
 
@@ -327,6 +332,7 @@ $string['scormtype_help'] = 'Ce réglage détermine comment le paquetage est inc
 $string['scorm:viewreport'] = 'Voir les rapports';
 $string['scorm:viewscores'] = 'Voir les scores';
 $string['scrollbars'] = 'Permettre le défilement de la fenêtre';
+$string['search:activity'] = 'Paquet SCORM – information sur l\'activité';
 $string['selectall'] = 'Tout sélectionner';
 $string['selectnone'] = 'Tout désélectionner';
 $string['show'] = 'Afficher';

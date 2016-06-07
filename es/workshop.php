@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'workshop', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -97,7 +97,7 @@ $string['daystomorrow'] = 'mañana';
 $string['daysyesterday'] = 'ayer';
 $string['deadlinesignored'] = 'Las restricciones de tiempo no se le aplican a usted';
 $string['editassessmentform'] = 'Editar formato de evaluación';
-$string['editassessmentformstrategy'] = 'Editar formato de evaluación (${a})';
+$string['editassessmentformstrategy'] = 'Editar formato de evaluación ({$a})';
 $string['editingassessmentform'] = 'Editando formato de evaluación';
 $string['editingsubmission'] = 'Editando lo enviado';
 $string['editsubmission'] = 'Editar lo enviado';
@@ -109,6 +109,12 @@ $string['evaluationmethod'] = 'Método de evaluación de calificaciones';
 $string['evaluationmethod_help'] = 'El método de evaluación de calificaciones determina cómo se calculan las calificaciones en las evaluaciones. Usted puede permitir el re-cálculo posterior de calificaciones según diferentes configuraciones, a menos que ya estuviera satisfecho con el resultado.';
 $string['evaluationsettings'] = 'Ajustes de la evaluación de las calificaciones';
 $string['eventassessableuploaded'] = 'Se ha realizado una entrega.';
+$string['eventassessmentevaluated'] = 'Calificación evaluada';
+$string['eventsubmissionassessed'] = 'Entrega evaluada';
+$string['eventsubmissioncreated'] = 'Entrega creada';
+$string['eventsubmissionreassessed'] = 'Entrega re-evaluada';
+$string['eventsubmissionupdated'] = 'Entrega actualizada';
+$string['eventsubmissionviewed'] = 'Entrega vista';
 $string['example'] = 'Envío de ejemplo';
 $string['exampleadd'] = 'Agregar envío de ejemplo';
 $string['exampleassess'] = 'Evaluar envío de ejemplo';
@@ -182,6 +188,7 @@ $string['nogradeyet'] = 'Aún no hay calificación';
 $string['nosubmissionfound'] = 'No se han encontrado envíos de este usuario';
 $string['nosubmissions'] = 'Aún no hay envíos en este taller';
 $string['notassessed'] = 'Aún no evaluado';
+$string['nothingfound'] = 'No hay nada que mostrar';
 $string['nothingtoreview'] = 'Nada que evaluar';
 $string['notoverridden'] = 'No anulado';
 $string['noworkshops'] = 'No hay talleres en este curso';
@@ -216,6 +223,12 @@ $string['reassess'] = 'Re-evaluar';
 $string['receivedgrades'] = 'Calificaciones recibidas';
 $string['recentassessments'] = 'Evaluaciones del Taller:';
 $string['recentsubmissions'] = 'Envíos del Taller:';
+$string['resetassessments'] = 'Borrar todas las evaluaciones';
+$string['resetassessments_help'] = 'Puede elegir eliminar solamente las evaluaciones asignadas sin afectar a las entregas. Si las entregas van a ser eliminadas, sus evaluaciones serán eliminadas de forma implícita y esta opción se ignora. Tenga en cuenta que esto también incluye evaluaciones de entregas de ejemplo.';
+$string['resetphase'] = 'Cambiar a la fase de preparación';
+$string['resetphase_help'] = 'Si está activado, todos los talleres serán puestos en la fase de preparación inicial';
+$string['resetsubmissions'] = 'Borrar todos los envíos';
+$string['resetsubmissions_help'] = 'Todos los envíos y sus evaluaciones serán borrados. Esto no afecta a los envíos de ejemplo.';
 $string['saveandclose'] = 'Guardar y cerrar';
 $string['saveandcontinue'] = 'Guardar y continuar editando';
 $string['saveandpreview'] = 'Guardar y previsualizar';
@@ -252,11 +265,14 @@ Si habilita esta característica, se recomienda que defina el método de asignac
 $string['submissiongrade'] = 'Calificación por el envío';
 $string['submissiongrade_help'] = 'Esta configuración especifica la calificación máxima que se puede obtener en los trabajos enviados.';
 $string['submissiongradeof'] = 'Calificación por el envío (de {$a})';
+$string['submissionlastmodified'] = 'Último modificado';
 $string['submissionsettings'] = 'Parámetros de los envíos';
+$string['submissionsreport'] = 'Informe de envíos del taller';
 $string['submissionstart'] = 'Abierto para envíos desde';
 $string['submissionstartdatetime'] = 'Abierto para envíos desde {$a->daydatetime} ({$a->distanceday})';
 $string['submissionstartevent'] = '{$a} (se abre para envíos)';
 $string['submissiontitle'] = 'Título';
+$string['submittednotsubmitted'] = 'Enviado ({$a->enviado}) / no enviado({$a->noenviado})';
 $string['subplugintype_workshopallocation'] = 'Método para asignación de envíos';
 $string['subplugintype_workshopallocation_plural'] = 'Métodos para asignación de envíos';
 $string['subplugintype_workshopeval'] = 'Método de calificación de la evaluación';

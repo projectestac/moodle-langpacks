@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'choice', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,7 +39,7 @@ $string['choiceclose'] = '終了日時';
 $string['choicecloseson'] = '投票は {$a} に終了します。';
 $string['choice:deleteresponses'] = '投票結果を削除する';
 $string['choice:downloadresponses'] = '投票結果をダウンロードする';
-$string['choicefull'] = 'この投票は投票可能数の上限に達しているため、投票できません。';
+$string['choicefull'] = 'この投票は投票可能回数の上限に達しているため投票できません。';
 $string['choicename'] = '投票名';
 $string['choiceopen'] = '開始日時';
 $string['choiceoptions'] = '投票オプション';
@@ -56,32 +56,34 @@ $string['displayhorizontal'] = '水平に表示する';
 $string['displaymode'] = 'オプション表示モード';
 $string['displayvertical'] = '垂直に表示する';
 $string['eventanswercreated'] = '投票が作成されました。';
+$string['eventanswerdeleted'] = '投票の回答が削除されました。';
 $string['eventanswerupdated'] = '投票が更新されました。';
-$string['eventreportviewed'] = '投票結果が閲覧されました。';
+$string['eventreportdownloaded'] = '投票レポートがダウンロードされました。';
+$string['eventreportviewed'] = '投票レポートが閲覧されました。';
 $string['expired'] = '申し訳ございません、この活動は {$a} に終了しているため、これ以上利用することはできません。';
 $string['full'] = '(上限到達)';
 $string['havetologin'] = 'あなたは投票する前にログインする必要があります。';
-$string['includeinactive'] = '使用停止中ユーザからの回答を含む';
+$string['includeinactive'] = '利用停止ユーザからの回答を含む';
 $string['limit'] = '投票制限数';
 $string['limitanswers'] = '投票可能数を制限する';
-$string['limitanswers_help'] = 'このオプションでは、あなたは参加者がそれぞれの投票選択肢を選択できる数を制限することができます。制限数に達した場合、その選択肢を選択できないようになります。
+$string['limitanswers_help'] = 'このオプションではあなたは参加者がそれぞれの投票選択肢を選択できる数を制限することができます。制限数に達した場合、その選択肢を選択できないようになります。
 
 制限が無効にされた場合、それぞれの選択肢に関して参加者何名でも投票することができます。';
 $string['limitno'] = '制限 {no}';
 $string['modulename'] = '投票';
-$string['modulename_help'] = '投票活動モジュールにおいて、教師は単一の質問を挙げること、複数の一連の回答を提供することができます。
+$string['modulename_help'] = '投票活動モジュールにおいて、教師は単一の質問をたずねること、複数の一連の回答を提供することができます。
 
-投票結果は学生が回答した後に公開、特定の日時に公開、または一切公開しないことができます。投票結果は学生の氏名と共に、または匿名で公開することができます。
+投票結果は学生が回答した後に公開、特定の日時に公開または一切公開しないことができます。投票結果は学生の氏名と共にまたは匿名で公開することができます。
 
 投票活動は下記のように使用することができます:
 
 * 1つの話題に関しての考えを刺激するためのクイックポールとして
 * 学生の理解に関するクイックテストとして
-* 例えばコースの運用に関する投票を促すように、学生の意思決定を促進するため';
+* 例えばコースの運用に関する投票を促すように学生の意思決定を促進するため';
 $string['modulenameplural'] = '投票';
 $string['moveselectedusersto'] = '選択したユーザを ...';
 $string['multiplenotallowederror'] = 'この投票では複数回答は許可されていません。';
-$string['mustchooseone'] = 'あなたは保存する前に答えを選択する必要があります。投票内容は、保存されませんでした。';
+$string['mustchooseone'] = 'あなたは保存する前に答えを選択する必要があります。投票内容は保存されませんでした。';
 $string['noguestchoose'] = '申し訳ございません、ゲストは投票することができません。';
 $string['noresultsviewable'] = '現在、投票結果は閲覧できません。';
 $string['notanswered'] = '未投票';
@@ -111,8 +113,9 @@ $string['responsesresultgraphheader'] = 'グラフ表示';
 $string['responsesto'] = '{$a} へ投票する';
 $string['results'] = '結果';
 $string['savemychoice'] = '私の投票を保存する';
+$string['search:activity'] = '投票 - 活動情報';
 $string['showpreview'] = 'プレビューを表示する';
-$string['showpreview_help'] = '投票の送信が開始される前、学生が利用可能なオプションをプレビューできるようにします。';
+$string['showpreview_help'] = '投票の送信が開始される前に学生が利用可能なオプションをプレビューできるようにします。';
 $string['showunanswered'] = '未投票のカラムを表示する';
 $string['skipresultgraph'] = '結果グラフをスキップする';
 $string['spaceleft'] = '件 (投票可能数)';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'my', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   my
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addpage'] = 'Adicionar página';
-$string['alldashboardswerereset'] = 'Todas as páginas de Painel do utilizador foram restauradas para as definições padrão.';
-$string['allprofileswerereset'] = 'Todas as páginas de Perfil foram restauradas para as definições padrão.';
+$string['alldashboardswerereset'] = 'Todas as páginas de Painel do utilizador foram restauradas para a configuração predefinida.';
+$string['allprofileswerereset'] = 'Todas as páginas de Perfil foram restauradas para a configuração predefinida.';
 $string['defaultpage'] = 'Configuração predefinida da Minha página principal';
 $string['defaultprofilepage'] = 'Página de perfil predefinida';
 $string['delpage'] = 'Apagar página';

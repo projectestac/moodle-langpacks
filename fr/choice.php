@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'choice', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,7 +56,9 @@ $string['displayhorizontal'] = 'Afficher horizontalement';
 $string['displaymode'] = 'Mode d\'affichage des options';
 $string['displayvertical'] = 'Afficher verticalement';
 $string['eventanswercreated'] = 'Choix effectué';
+$string['eventanswerdeleted'] = 'Réponse à un sondage supprimée';
 $string['eventanswerupdated'] = 'Choix modifié';
+$string['eventreportdownloaded'] = 'Rapport de sondage téléchargé';
 $string['eventreportviewed'] = 'Rapport de sondage consulté';
 $string['expired'] = 'Désolé, cette activité s\'est terminée le {$a} et n\'est plus disponible';
 $string['full'] = '(complet)';
@@ -111,6 +113,7 @@ $string['responsesresultgraphheader'] = 'Affichage graphique';
 $string['responsesto'] = 'Réponses à {$a}';
 $string['results'] = 'Résultats';
 $string['savemychoice'] = 'Enregistrer mon choix';
+$string['search:activity'] = 'Sondage – information sur l\'activité';
 $string['showpreview'] = 'Afficher la prévisualisation';
 $string['showpreview_help'] = 'Permettre aux étudiants de prévisualiser les options disponibles avant l\'ouverture de l\'enregistrement des choix du sondage.';
 $string['showunanswered'] = 'Afficher la colonne des « sans réponse »';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'resource', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,6 +96,7 @@ $string['resourcedetails_sizetypedate'] = '{$a->size} {$a->type} {$a->date}';
 $string['resourcedetails_typedate'] = '{$a->type} {$a->date}';
 $string['resource:exportresource'] = 'Material exportieren';
 $string['resource:view'] = 'Material sehen';
+$string['search:activity'] = 'Datei';
 $string['selectmainfile'] = 'Bitte wählen Sie die Datei durch einen Klick auf das Icon neben dem Dateinamen aus';
 $string['showdate'] = 'Datum anzeigen';
 $string['showdate_desc'] = 'Soll das Datum für das Hochladen bzw. die letzte Änderung der Datei auf der Kursseite angezeigt werden?';

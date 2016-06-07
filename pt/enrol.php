@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'enrol', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -83,7 +83,7 @@ $string['expirynotifyall'] = 'Responsável pela inscrição e utilizador inscrit
 $string['expirynotifyenroller'] = 'Apenas o responsável pela inscrição';
 $string['expirynotify_help'] = 'Esta configuração determina se as mensagens de notificação de fim da inscrição são ou não enviadas.';
 $string['expirynotifyhour'] = 'Hora de envio das notificações de fim da inscrição';
-$string['expirythreshold'] = 'Limiar de notificação';
+$string['expirythreshold'] = 'Limite de notificação';
 $string['expirythreshold_help'] = 'Os utilizadores devem ser notificados quanto tempo antes de expirar a inscrição?';
 $string['extremovedaction'] = 'Ação de cancelamento de inscrição externa';
 $string['extremovedaction_help'] = 'Selecione a ação a realizar quando a inscrição de um utilizador desaparece da fonte externa de inscrições. De notar que alguma informação do utilizador e respetivas configurações são apagadas quando a inscrição é cancelada.';
@@ -116,10 +116,10 @@ $string['periodend'] = 'até {$a}';
 $string['periodnone'] = '{$a} inscrito(s)';
 $string['periodstart'] = 'desde {$a}';
 $string['periodstartend'] = 'desde {$a->start} até {$a->end}';
-$string['proceedtocourse'] = 'Avance para o conteúdo da disciplina';
+$string['proceedtocourse'] = 'Avancar para o conteúdo da disciplina';
 $string['recovergrades'] = 'Recuperar, se possível as notas antigas do utilizador';
 $string['rolefromcategory'] = 'Papel "{$a->role}" herdado da categoria da disciplina';
-$string['rolefrommetacourse'] = 'Papel "{$a->role}" herdado de disciplina-pai';
+$string['rolefrommetacourse'] = 'Papel "{$a->role}" herdado de disciplina ascendente';
 $string['rolefromsystem'] = 'Papel "{$a->role}" atribuído no contexto do site';
 $string['rolefromthiscourse'] = 'Papel "{$a->role}" atribuído no contexto da disciplina';
 $string['startdatetoday'] = 'Hoje';

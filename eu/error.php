@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'error', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -287,7 +287,7 @@ $string['invalidmodule'] = 'Modulu baliogabea';
 $string['invalidmoduleid'] = 'Moduluaren ID baliogabea: {$a}';
 $string['invalidmodulename'] = 'Moduluaren izen baliogabea: {$a}';
 $string['invalidnum'] = 'Zenbakizko balore baliogabea';
-$string['invalidoutcome'] = 'Helburuaren IDa ez da zuzena';
+$string['invalidoutcome'] = 'Ikas-emaitzaren IDa ez da zuzena';
 $string['invalidpagesize'] = 'Orriaren tamaina baliogabea';
 $string['invalidpasswordpolicy'] = 'Pasahitzen politika baliogabea';
 $string['invalidpaymentmethod'] = 'Ordainketa-metodo baliogabea: {$a}';

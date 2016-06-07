@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'lesson', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -402,11 +402,12 @@ $string['reviewquestionback'] = 'Bai, berriz saiatu nahi nuke';
 $string['reviewquestioncontinue'] = 'Ez, hurrengora pasa nahi dut';
 $string['sanitycheckfailed'] = '\'Sanity Check-ek\' huts egin du: Saiakera hau ezabatu da';
 $string['save'] = 'Gorde';
-$string['savechanges'] = 'Aldaketak gorde';
+$string['savechanges'] = 'Gorde aldaketak';
 $string['savechangesandeol'] = 'Aldaketa guztiak gorde eta ikasgaiaren bukaerara joan.';
 $string['savepage'] = 'Orria gorde';
 $string['score'] = 'Puntuazioa';
 $string['scores'] = 'Puntuazioak';
+$string['search:activity'] = 'Ikasgaia - jardueraren informazioa';
 $string['secondpluswrong'] = 'Ez. Berriz saiatu nahi al duzu?';
 $string['selectaqtype'] = 'Aukera ezazu galdera-mota';
 $string['shortanswer'] = 'Erantzun laburra';

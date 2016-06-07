@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'badges', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -136,7 +136,7 @@ $string['copyof'] = 'Còpia de {$a}';
 $string['coursebadges'] = 'Insígnies';
 $string['coursebadgesdisabled'] = 'Les insígnies de curs no estan habilitades en aquest lloc.';
 $string['coursecompletion'] = 'Els usuaris han de completar aquest curs.';
-$string['create'] = 'Nova insígnia';
+$string['create'] = 'Insígnia nova';
 $string['createbutton'] = 'Crea una insígnia';
 $string['creatorbody'] = '<p> {$a->user} ha completat tots els requisits per a la insígnia i se li ha concedit. Vegeu la insígnia emesa en {$a->link} </p>';
 $string['creatorsubject'] = '«{$a}» ha estat guardonat!';
@@ -197,12 +197,12 @@ $string['defaultissuername'] = 'Nom de l\'emissor de la insígnia per defecte';
 $string['defaultissuername_desc'] = 'Nom de l\'autoritat que l\'expedeix.';
 $string['delbadge'] = 'Voleu suprimir la insígnia \'{$a}\'  i eliminar les insígnies ja emeses?';
 $string['delconfirm'] = 'Esteu segur que voleu suprimir la insígnia \'{$a}\' i eliminar les insígnies ja emeses?';
-$string['delcritconfirm'] = 'Esteu segur que voleu suprimir aquest criteri?';
+$string['delcritconfirm'] = 'Confirmeu que voleu suprimir aquest criteri?';
 $string['deletehelp'] = '<p>Suprimir completament una insígnia vol dir que tots els seus registres d\'informació i criteris s\'eliminaran de forma permanent. Els usuaris que hagin guanyat aquesta insígnia ja no hi tindran accés i no es visualitzarà en les seves pàgines de perfil. </p>
 <p>
 Nota: Els usuaris que hagin guanyat aquesta insígnia i l\'hagin promoguda a la seva motxilla externa, conservaran aquesta insígnia en la motxilla externa. No obstant això, no funcionaran els enllaços a les pàgines de criteris i evidències en aquest lloc web.
 </p>';
-$string['delparamconfirm'] = 'Esteu segur que voleu suprimir aquest paràmetre?';
+$string['delparamconfirm'] = 'Confirmeu que voleu suprimir aquest paràmetre?';
 $string['description'] = 'Descripció';
 $string['disconnect'] = 'Desconnecta';
 $string['donotaward'] = 'Actualment, aquesta insígnia no està activa, per la qual cosa no es pot concedir als usuaris. Si voleu atorgar aquesta insígnia, configureu el seu estat a actiu.';
@@ -244,6 +244,7 @@ $string['error:requesterror'] = 'La petició de connexió ha fallat (codi d\'err
 $string['error:requesttimeout'] = 'La petició de connexió ha superat el temps permès abans de poder-se completar.';
 $string['error:save'] = 'No es pot desar la insígnia.';
 $string['error:userdeleted'] = '{$a->user} (Aquest usuari ja no existeix al lloc {$a->site})';
+$string['eventbadgeawarded'] = 'Insígnia concedida';
 $string['evidence'] = 'Evidència';
 $string['existingrecipients'] = 'Destinataris de la insígnia existents';
 $string['expired'] = 'Ha caducat';
@@ -286,7 +287,7 @@ $string['month'] = 'Mes(os)';
 $string['mybackpack'] = 'Configuració de la meva motxilla';
 $string['mybadges'] = 'Les meves insígnies';
 $string['never'] = 'Mai';
-$string['newbadge'] = 'Afegeix una nova insígnia';
+$string['newbadge'] = 'Afegeix una insígnia nova';
 $string['newimage'] = 'Nova imatge';
 $string['noawards'] = 'Aquesta insígnia encara no s\'ha guanyat.';
 $string['nobackpack'] = 'No hi ha cap servei de motxilla connectat amb aquest compte.<br />';

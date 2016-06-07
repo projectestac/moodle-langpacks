@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multianswer', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_multianswer', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_multianswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,7 +49,7 @@ $string['questiondeleted'] = 'Pregunta esborrada';
 $string['questioninquiz'] = '<ul>
  <li>afegeix o esborra preguntes;</li>
  <li>canvia l\'ordre de les preguntes al text;</li>
- <li>canvia el tipus de la pregunta (numèrica, resposta breu, selecció múltiple). </li>
+ <li>canvia el tipus de la pregunta (numèrica, resposta breu, opció múltiple). </li>
 </ul>';
 $string['questionnotfound'] = 'No es pot trobar una pregunta o una seva part #{$a}';
 $string['questionsadded'] = 'Pregunta afegida';

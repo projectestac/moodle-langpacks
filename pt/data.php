@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'data', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,7 @@ $string['atmaxentry'] = 'Já introduziu o número máximo de registos permitido!
 $string['authorfirstname'] = 'Primeiro nome do autor';
 $string['authorlastname'] = 'Apelido do autor';
 $string['autogenallforms'] = 'Gerar todos os formulários predefinidos.';
-$string['autolinkurl'] = 'Criar link para o URL';
+$string['autolinkurl'] = 'Criar hiperligação para o URL';
 $string['availablefromdate'] = 'Disponível a partir de';
 $string['availabletags'] = 'Marcadores disponíveis';
 $string['availabletags_help'] = 'Os marcadores são espaços reservados no modelo que serão substituídos por dados ou outros itens quando os registos forem editados ou visualizados (ex: ícone de edição, valor de um campo, etc.).
@@ -61,7 +61,7 @@ $string['cannotadd'] = 'Não foi possível adicionar registos!';
 $string['cannotdeletepreset'] = 'Ocorreu um erro ao apagar o protótipo!';
 $string['cannotoverwritepreset'] = 'Ocorreu um erro ao criar o protótipo!';
 $string['cannotunziptopreset'] = 'Não foi possível descompactar o ficheiro para a diretoria definida.';
-$string['checkbox'] = 'Caixas de verificação';
+$string['checkbox'] = 'Caixas de seleção';
 $string['chooseexportfields'] = 'Escolha os campos que deseja exportar:';
 $string['chooseexportformat'] = 'Escolha o formato de exportação:';
 $string['chooseorupload'] = 'Selecionar ficheiro';
@@ -107,7 +107,7 @@ $string['dateentered'] = 'Data de criação';
 $string['defaultfielddelimiter'] = '(o valor predefinido é a vírgula)';
 $string['defaultfieldenclosure'] = '(não existe valor predefinido)';
 $string['defaultsortfield'] = 'Campo de ordenação predefinido';
-$string['delcheck'] = 'Caixa de verificação de exclusão em massa';
+$string['delcheck'] = 'Caixa de seleção de exclusão em massa';
 $string['delete'] = 'Apagar';
 $string['deleteallentries'] = 'Apagar todos os registos';
 $string['deletecomment'] = 'Tem a certeza de que quer apagar este comentário?';
@@ -163,7 +163,7 @@ $string['fieldheightlistview'] = 'Altura no modo de lista';
 $string['fieldheightsingleview'] = 'Altura no modo registo';
 $string['fieldids'] = 'Identificadores de campo';
 $string['fieldmappings'] = 'Mapeamentos dos campos';
-$string['fieldmappings_help'] = 'Este menu permite-lhe manter os dados da base de dados existente.Para preservar os dados de um campo, este deverá ser mapeado para um novo campo. Os campos podem ser deixados em branco, caso em que não será copiada informação. Todos os campos que não sejam mapeados para novos campos serão apagados e a sua informação perdida. Apenas podem ser mapeados campos do mesmo tipo, pelo que cada menu de seleção apresentará os tipos permitidos. Não é permitido o mapeamento de um campo para mais do que um novo campo.';
+$string['fieldmappings_help'] = 'Este menu permite-lhe manter os dados da base de dados existente. Para preservar os dados de um campo, este deverá ser mapeado para um novo campo. Os campos podem ser deixados em branco, caso em que não será copiada informação. Todos os campos que não sejam mapeados para novos campos serão apagados e a sua informação perdida. Apenas podem ser mapeados campos do mesmo tipo, pelo que cada lista pendente apresentará os tipos permitidos. Não é permitido o mapeamento de um campo para mais do que um novo campo.';
 $string['fieldname'] = 'Nome do campo';
 $string['fieldnotmatched'] = 'Os seguintes campos presentes no ficheiro não existem nesta base de dados: {$a}';
 $string['fieldoptions'] = 'Opções (uma por linha)';
@@ -177,7 +177,7 @@ $string['fileencoding'] = 'Código';
 $string['filesnotgenerated'] = 'Não foi possível gerar todos os ficheiros: {$a}';
 $string['filtername'] = 'Hiperligações automáticas à base de dados';
 $string['footer'] = 'Rodapé';
-$string['forcelinkname'] = 'Texto do link';
+$string['forcelinkname'] = 'Texto da hiperligação';
 $string['foundnorecords'] = 'Não foram encontrados registos (<a href="{$a->reseturl}">Nova pesquisa</a>)';
 $string['foundrecords'] = 'Registos encontrados: {$a->num}/{$a->max} (<a href="{$a->reseturl}">Nova pesquisa</a>)';
 $string['fromfile'] = 'Importar ficheiro ZIP';
@@ -199,10 +199,10 @@ $string['includeuserdetails'] = 'Incluir detalhes do utilizador';
 $string['insufficiententries'] = 'são necessários mais registos para ver esta base de dados';
 $string['intro'] = 'Descrição';
 $string['invalidaccess'] = 'Esta página não foi acedida corretamente';
-$string['invalidfieldid'] = 'O identificador do campo não está correto';
+$string['invalidfieldid'] = 'O ID do campo não está correto';
 $string['invalidfieldname'] = 'Deve ser indicado outro nome para este campo';
 $string['invalidfieldtype'] = 'O tipo de campo não está correto';
-$string['invalidid'] = 'O identificador da informação não está correto';
+$string['invalidid'] = 'O ID da informação não está correto';
 $string['invalidpreset'] = '<b>{$a}</b> não é um protótipo.';
 $string['invalidrecord'] = 'Registo incorreto';
 $string['invalidurl'] = 'O URL que introduziu não é válido';
@@ -210,7 +210,7 @@ $string['jstemplate'] = 'Javascript';
 $string['latitude'] = 'Latitude';
 $string['latlong'] = 'Latitude/Longitude';
 $string['latlongboth'] = 'É necessário a latitude e a longitude.';
-$string['latlongdownloadallhint'] = 'Link para descarregar todos os registos como KML';
+$string['latlongdownloadallhint'] = 'Hiperligação para descarregar todos os registos como KML';
 $string['latlongkmllabelling'] = 'Como classificar itens em ficheiros KML (Google Earth)';
 $string['latlonglinkservicesdisplayed'] = 'Mapas externos a mostrar';
 $string['latlongotherfields'] = 'Outros campos';
@@ -230,17 +230,17 @@ $string['menuchoose'] = 'Selecione...';
 $string['missingdata'] = 'Deve ser indicado um identificador de informação ou um objeto para a classe do campo';
 $string['missingfield'] = 'Erro de programação: Deve especificar um campo e/ou dados na definição da classe do campo.';
 $string['modulename'] = 'Base de dados';
-$string['modulename_help'] = 'A atividade Base de dados permite aos participantes criar, gerir e procurar informação numa base de dados. O formato e estrutura dos registos da base de dados pode ser quase ilimitado, podendo incluir imagens, ficheiros, URL, números, texto, etc.
+$string['modulename_help'] = 'A atividade Base de dados permite aos participantes criar, gerir e procurar informação num conjunto de entradas (registos). O formato e os campos que compoem os registos da base de dados são definido pelo professor, Os tipos de campos permitidos incluem caixas de seleção, listas pendentes, botões rádio, caixas de texto, URL, imagem e ficheiro.
 
 A aparência dos ecrãs de visualização, criação e edição da base de dados pode ser definidas através de modelos. As base de dados podem ser partilhadas entre disciplinas e um professor também pode importar e exportar registos da base de dados.
 
-Se a opção de hiperligação dos registos estiver ativa, é possível criar automaticamente links entre os termos inseridos e essas palavras, sempre que aparecerem noutros locais da disciplina.
+Se a opção de hiperligação dos registos estiver ativa, é possível criar automaticamente hiperligações entre os termos inseridos e essas palavras, sempre que aparecerem noutros locais da disciplina.
 
 Um professor pode permitir comentários aos registos. Estes também podem ser avaliados por professores ou alunos (avaliação pelos pares). As avaliações são ajustadas a uma única nota final que é registada no relatório de avaliação.
 
 A base de dados pode ser usada para:
 
-* Criar um repositório colaborativo de links/ livros/ referências a jornais;
+* Criar um repositório colaborativo de hiperligações/ livros/ referências a jornais;
 * Para exibir trabalhos realizados pelos alunos (como fotos, cartazes, sites, poemas, etc.) e disponibilizá-los para que os colegas possam comentar.';
 $string['modulename_link'] = 'mod/data/view';
 $string['modulenameplural'] = 'Bases de dados';
@@ -250,7 +250,7 @@ $string['movezipfailed'] = 'Não é possível mover o ficheiro ZIP';
 $string['multientry'] = 'Registo repetido';
 $string['multimenu'] = 'Menu (seleção múltipla)';
 $string['multipletags'] = 'Foram encontrados múltiplos marcadores! O modelo não foi guardado';
-$string['namecheckbox'] = 'Campo caixa de verificação';
+$string['namecheckbox'] = 'Campo caixa de seleção';
 $string['namedate'] = 'Campo data';
 $string['namefile'] = 'Campo ficheiro';
 $string['namelatlong'] = 'Campo latitude/longitude';
@@ -264,7 +264,7 @@ $string['nametextarea'] = 'Campo área de texto';
 $string['nameurl'] = 'Campo URL';
 $string['newentry'] = 'Novo registo';
 $string['newfield'] = 'Criar novo campo';
-$string['newfield_help'] = 'Um campo permite a inserção de um determinado tipo de informação nos registos de dados. Cada registo da base de dados pode ter diversos campos, de vários tipos. Ex: Um campo <b>Data</b> permite aos participantes escolher um dia, mês e ano a partir de uma lista; um campo <b>Imagem</b> permite aos participantes enviar um ficheiro de imagem; um campo <b>Menu (seleção múltipla)</b> permite aos participantes selecionar uma ou mais opções.
+$string['newfield_help'] = 'Um campo permite a inserção de um determinado tipo de informação nos registos de dados. Cada registo da base de dados pode ter diversos campos, de vários tipos. Ex: Um campo <b>Data</b> permite aos participantes escolher um dia, mês e ano a partir de uma lista pendente; um campo <b>Imagem</b> permite aos participantes enviar um ficheiro de imagem; um campo <b>Caixa seleção</b> permite aos participantes selecionar uma ou mais opções.
 
 Cada campo deve ter um nome único na estrutura do registo. A descrição do campo é opcional.';
 $string['noaccess'] = 'Não tem permissão para aceder a esta página';
@@ -314,7 +314,7 @@ $string['requiredentries_help'] = 'Número de registos que o aluno tem que subme
 $string['requiredentriestoview'] = 'Registos requeridos antes de ser permitida a visualização';
 $string['requiredentriestoview_help'] = 'Número de registos que o aluno tem que submeter antes de poder ver os registos dos outros participantes.
 
-Nota: Se for necessário submeter registos antes de poder ver a base de dados, o filtro <b>links automáticos à base de dados</b> tem que ser desativado pois este filtro não consegue determinar se um utilizador já submeteu o número de registos requerido.';
+Nota: Se for necessário submeter registos antes de poder ver a base de dados, o filtro <b>hiperligações automáticas à base de dados</b> tem que ser desativado pois este filtro não consegue determinar se um utilizador já submeteu o número de registos requerido.';
 $string['requiredfield'] = 'Campo obrigatório';
 $string['resetsettings'] = 'Reiniciar filtros';
 $string['resettemplate'] = 'Reiniciar modelo';
@@ -368,4 +368,4 @@ $string['usestandard'] = 'Usar um protótipo';
 $string['usestandard_help'] = 'Para criar a base de dados a partir de protótipo, selecione um da lista. (Se adicionou um protótipo através da função <b>Gravar como protótipo</b> pode remover o mesmo em qualquer momento).';
 $string['viewfromdate'] = 'Visível a partir de';
 $string['viewtodate'] = 'Visível até';
-$string['wrongdataid'] = 'O identificador dos dados fornecido é inválido';
+$string['wrongdataid'] = 'O ID dos dados fornecido é inválido';

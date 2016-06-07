@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'ko', branch 'MOODLE_30_STABLE'
+ * Strings for component 'moodle', language 'ko', branch 'MOODLE_31_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -258,18 +258,6 @@ $string['choosereportfilter'] = '보고서를 위한 필터 선택';
 $string['choosetheme'] = '테마 선택';
 $string['chooseuser'] = '사용자 선택';
 $string['city'] = '도시';
-$string['clambroken'] = '관리자가 업로드파일에 대해 바이러스 체크를 활성화시킨 상태입니다만 제어설정에 문제가 있습니다.<br />파일 올리기는 실패했습니다. 관리자에게 그 사항을 알리고 고칠 수 있도록 메일을 보낸 상태입니다.<br />다음에 업로드해 보십시오';
-$string['clamdeletedfile'] = '파일이 삭제 되었습니다';
-$string['clamdeletedfilefailed'] = '파일을 삭제할 수 없습니다';
-$string['clamemailsubject'] = '{$a} :: Clam AV 알림';
-$string['clamfailed'] = 'Clam AV의 실행이 되지 않았습니다. 오류 메세지는 {$a} 였습니다. 다음은 Clam가 보낸 내용입니다 :';
-$string['clamlost'] = '무들은 업로드한 파일에 대해 Clam을 실행하도록 설정되었습니다만, Clam AV, {$a} 에게 배정된 경로가 부정확합니다.';
-$string['clamlostandactinglikevirus'] = '추가로, clam 작동을 실패할 경우, 무들은 파일을 바이러스로 취급하도록 설정되었습니다. 이는 clam이 제대로 작동하기 전까지는 어느 누구도 제대로 파일을 올릴 수 없다는 것을 뜻합니다.';
-$string['clammovedfile'] = '이 파일은 지정된 격리 장소로 옮겨졌습니다. 새로운 장소는 {$a} 입니다.';
-$string['clammovedfilebasic'] = '이 파일은 격리된 디렉토리로 옮겨졌습니다.';
-$string['clamquarantinedirfailed'] = '지정된 격리 디렉토리 {$a} 로 파일을 옮길 수 없습니다.
-당신은 감염된 파일을 발견시 삭제하라는 조항으로 고쳐야 합니다.';
-$string['clamunknownerror'] = 'Clam에 확인되지 않은 오류가 있었습니다.';
 $string['cleaningtempdata'] = '임시 데이터 삭제하기';
 $string['clear'] = '정리';
 $string['clickhelpiconformoreinfo'] = '...계속...다 읽고 싶으면 도움말 아이콘을 클릭';
@@ -1871,26 +1859,6 @@ $string['viewmore'] = '더 보기';
 $string['viewprofile'] = '개인정보 보기';
 $string['views'] = '보기';
 $string['viewsolution'] = '해답 보기';
-$string['virusfound'] = '관리자 경고! 클램AV가 {$a->user} 가 {$a->course} 에 올린 자료파일에 바이러스가 있음을 발견함.
-여기 클램스캔의 사용결과가 있음:';
-$string['virusfoundlater'] = '당신이 {$a->date} 에 {$a->course} 로 올린 {$a->filename} 파일이 바이러스를 포함하고 있음이 밝혀짐. 여기 그 파일에 무슨 일이 일어났는지 요약이 있음:
-
-{$a->action}
-
-만약 이것이 제출된 과제라면, 선생님이 볼수 있도록 다시 제출해야함.';
-$string['virusfoundlateradmin'] = '관리자 경고! 사용자 {$a->user} 가 {$a->date} 에 {$a->course} 로 올린 {$a->filename} 파일이 바이러스를 포함하고 있음이 밝혀짐. 여기 그 파일에 어떤 문제가 있는지에 대한 개요가 있음:
-
-{$a->action}
-
-그 사용자에게도 통보되었음.';
-$string['virusfoundlateradminnolog'] = '관리자 경고! 파일이름 {$a->filename} 으로 올려진 자료가 바이러스를 포함하고 있음이 밝혀짐. 무들이 처음 자료를 올린 사람에 대한 조처를 취하지 못함.
-여기 이 파일에 어떤 문제가 있는지에 대한 개요가 있음:
-
-{$a->action}';
-$string['virusfoundsubject'] = '{$a}: 바이러스 발견!';
-$string['virusfounduser'] = '당신이 올린 파일, {$a->filename} 이 바이러스 검색기에의해 검사되었고 감염이 확인 되었음!
-당신의 파일 업로드는 성공적이지 못함.';
-$string['virusplaceholder'] = '올려진 자료가 바이러스를 포함하고 있음이 발견되어 옮겨졌거나 지워졌고 사용자에게 통보되었습니다.';
 $string['visible'] = '볼 수 있음';
 $string['visible_help'] = '이 설정은 강좌목록에 강좌가 나타나도록 할 것인지를 결정합니다. 선생님과 관리자를 제외하고, 일반 사용자는 강좌에 입장할 수 없습니다.';
 $string['visibletostudents'] = '{$a} 가 볼 수 있음';

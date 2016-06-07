@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -202,9 +202,6 @@ $string['confirmclose'] = 'Je gaat deze poging afsluiten. Eens afgesloten kun je
 $string['confirmremovequestion'] = 'Weet je zeker dat je deze {$a} vraag wil verwijderen?';
 $string['confirmremovesectionheading'] = 'Weet je zeker dat je de \'{$a}\' sectie-kop wil verwijderen?';
 $string['confirmserverdelete'] = 'Ben je er zeker van dat je server <b>{$a}</b> van de lijst wil schrappen?';
-$string['confirmstartattemptlimit'] = 'Deze test is beperkt tot {$a} pogingen. Je gaat nu een nieuwe poging starten Wil je verder gaan?';
-$string['confirmstartattempttimelimit'] = 'Deze test heeft een tijdslimiet en is beperkt tot {$a} pogingen. Je gaat nu een nieuwe poging starten Wil je verder gaan?';
-$string['confirmstarttimelimit'] = 'De test heeft een tijdslimiet. Wil je de test starten?';
 $string['connectionerror'] = 'Netwerkverbinding verloren (Automatisch bewaren mislukt).
 
 Neem nota van wat je op deze pagina ingetikt hebt tijdens de laatste minuten en probeer opnieuw te verbinden.
@@ -267,7 +264,7 @@ $string['dragtostart'] = 'Naar start';
 $string['duplicateresponse'] = 'De inzending werd genegeerd omdat je eerder al een gelijkaardig antwoord gaf.';
 $string['eachattemptbuildsonthelast'] = 'Elke poging bouwt voort op de vorige';
 $string['eachattemptbuildsonthelast_help'] = '<p>Als meerdere pogingen toegestaan worden en deze instelling wordt op <b>ja</b> gezet, dan zal elke nieuwe poging
-de resultaten van de vorige poging bevatten. Dit maakt het mogelijk een begonnen test later verder af te werken.</p>
+de resultaten van de vorige poging bevatten. Dit maakt het mogelijk een begonnen test later te voltooien.</p>
 
 <p>Om bij elke poging een lege test te tonen, kies je <b>Nee</b> voor deze instelling.</p>';
 $string['editcategories'] = 'Bewerk de categorieën';
@@ -473,6 +470,7 @@ $string['literal'] = 'Jokertekens';
 $string['loadingquestionsfailed'] = 'Het laden van vragen is mislukt: {$a}';
 $string['makecopy'] = 'Bewaar als nieuwe vraag';
 $string['managetypes'] = 'Beheer vraagtypes en servers';
+$string['manualgradequestion'] = 'Beoordeel vraag  {$a->question} in {$a->quiz} door {$a->user} manueel';
 $string['manualgrading'] = 'Beoordelen';
 $string['mark'] = 'Bewaren';
 $string['markall'] = 'Pagina bewaren';
@@ -803,6 +801,7 @@ $string['reviewimmediately'] = 'Onmiddellijk na de poging';
 $string['reviewnever'] = 'Sta nooit nalezen toe';
 $string['reviewofattempt'] = 'Kijk poging {$a} na';
 $string['reviewofpreview'] = 'Voorbeeld nakijken';
+$string['reviewofquestion'] = 'Herbekijk  {$a->question} in {$a->quiz} door {$a->user}';
 $string['reviewopen'] = 'Later, terwijl de test nog open is';
 $string['reviewoptions'] = 'Leerlingen mogen nakijken';
 $string['reviewoptionsheading'] = 'Opties voor herbekijken';
@@ -879,9 +878,9 @@ $string['shuffle'] = 'Willekeurige volgorde';
 $string['shuffleanswers'] = 'Mix de antwoorden';
 $string['shuffledrandomly'] = 'Willekeurige volgorde';
 $string['shufflequestions'] = 'Mix de vragen';
-$string['shufflequestions_help'] = 'Als je dit inschakeld, dat zal telkens wanneer de test geprobeerd wordt de volgorde van de vragen in deze sectie gewijzigd worden in willekeurige volgorde.
+$string['shufflequestions_help'] = 'Als je dit inschakelt, dat zal telkens wanneer de test geprobeerd wordt de volgorde van de vragen in deze sectie gewijzigd worden in willekeurige volgorde.
 
-Dit kan het moeilijker maken voor leerlingen om te spieken, maar het maakt het ook moeilijker wanneer leerlingen en bepaalde vraag met jou willen bespreken.';
+Dit kan het moeilijker maken voor leerlingen om te spieken, maar het maakt het ook moeilijker wanneer leerlingen een bepaalde vraag met jou willen bespreken.';
 $string['shufflewithin'] = 'Haal antwoordvolgorde door elkaar';
 $string['shufflewithin_help'] = '<p>Als je deze optie inschakeld, dan zullen de onderdelen waaruit elke vraag bestaat willekeurig door elkaar gehaald worden bij elke poging dat een leerling doet om de test te maken - gesteld dat deze optie ook ingesteld is bij de vragen van de test.</p>
 

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_history', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'gradereport_history', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   gradereport_history
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['datetime'] = 'Дата и время';
 $string['dateto'] = 'Дата до';
 $string['deleteditemid'] = 'Удалить элемент с id {$a}';
 $string['errajaxsearch'] = 'Ошибка при поиске пользователей';
-$string['eventgradereportviewed'] = 'Просмотрен отчет «История оценок»';
+$string['eventgradereportviewed'] = 'Отчет «История оценок» просмотрен';
 $string['excluded'] = 'Исключено из вычислений';
 $string['exportfilename'] = 'grade_history';
 $string['feedbacktext'] = 'Текст отзыва';

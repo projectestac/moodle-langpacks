@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_deferredcbm', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qbehaviour_deferredcbm', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   qbehaviour_deferredcbm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['accuracy'] = 'Precisión';
 $string['accuracyandbonus'] = 'Precisión + Bono';
 $string['assumingcertainty'] = 'No ha seleccionado un grado de certeza. Asumiendo: {$a}.';
-$string['cbmgrades_help'] = 'Con Puntuación Basado en Certeza = PBC (Certainty Based Marking = CBM) el tener todas las preguntas correctas con C=1 (baja certeza) da una puntuación de 100%. Las calificaciones pueden ser tan altas como del 300% si todas las preguntas fueran correctas y con C=3 (alta certeza). Los prejuicios (mostrar confianza en respuestas erroneas) hacen que las calificaciones bajen mucho más de lo que lo harían respuestas equivocadas que se reconozcan como de poca confianza. Esto podría inclusive llegar a calificaciones globales negativas.
+$string['cbmgrades_help'] = 'Con Puntaje Basado en Certeza = PBC (Certainty Based Marking = CBM) el tener todas las preguntas correctas con C=1 (baja certeza) da una puntuación de 100%. Las calificaciones pueden ser tan altas como del 300% si todas las preguntas fueran correctas y con C=3 (alta certeza). Los prejuicios (mostrar confianza en respuestas erroneas) hacen que las calificaciones bajen mucho más de lo que lo harían respuestas equivocadas que se reconozcan como de poca confianza. Esto podría inclusive llegar a calificaciones globales negativas.
 
 **Precisión** es el % de correctas, ignorando la certeza, pero ponderando para la puntuación máxima de cada pregunta. El poder distiguir exitosamente las respuestas más confiables de las menos confiables da una mejor calificación que si se eligira la misma certeza para cada pregunta. Esto se refleja en el **Bono PBC**. **Precisión** + **Bono PBC** es una mejor medida del conocimiento que la mera **Precisión**. Los prejuicios pueden conducir a un bono negativo; una advertencia para revisar con cuidado qué es lo que si se sabe contra lo que no se sabe.';
 $string['certainty1'] = 'No mucho (menor a 67%)';

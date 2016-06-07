@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'scorm', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -125,6 +125,8 @@ $string['eventattemptdeleted'] = '受験が削除されました。';
 $string['eventinteractionsviewed'] = 'インタラクションが閲覧されました。';
 $string['eventreportviewed'] = 'レポートが閲覧されました。';
 $string['eventscolaunched'] = 'SCOが起動されました。';
+$string['eventscorerawsubmitted'] = '送信済みSCORMの素点';
+$string['eventstatussubmitted'] = '送信済みSCORMのステータス';
 $string['eventtracksviewed'] = 'トラックが閲覧されました。';
 $string['eventuserreportviewed'] = 'ユーザレポートが閲覧されました。';
 $string['everyday'] = '毎日';
@@ -203,6 +205,9 @@ $string['lastattemptlock'] = '最終受験後、ロックする';
 $string['lastattemptlockdesc'] = 'この設定を有効にした場合、割り当てられた受験すべての終了後、学生はSCORMプレイヤーを開始できないようになります。';
 $string['lastattemptlock_help'] = 'この設定を有効にした場合、割り当てられた受験をすべて完了した後、学生はSCORMプレイヤーを起動できないようになります。';
 $string['location'] = 'ロケーションバーを表示する';
+$string['masteryoverride'] = '熟練度ステータス';
+$string['masteryoverridedesc'] = 'このプリファレンスでは熟練度オーバーライド設定のデフォルトを設定します。';
+$string['masteryoverride_help'] = 'この設定を有効にして熟練度が提供された場合、LMSFinishがコールされて素点が設定された時点で素点を使用してステータスが再計算されます。SCORM (「未完了」を含む) によって提供された熟練度およびステータスはオーバーライドされます。';
 $string['max'] = '最大評点';
 $string['maximumattempts'] = '受験回数';
 $string['maximumattemptsdesc'] = 'このプリファレンスでは、活動に対するデフォルトの最大受験回数を設定します。';
@@ -287,7 +292,7 @@ $string['preferencesuser'] = 'このレポートのプリファレンス';
 $string['prev'] = '前に戻る';
 $string['protectpackagedownloads'] = 'パッケージダウンロードを保護する';
 $string['protectpackagedownloads_desc'] = 'この設定を有効にした場合、course:manageactivitiesケイパビリティが割り当てられているユーザのみSCORMパッケージをダウンロードすることができます。この設定が無効にされた場合、SCORMパッケージを常に (モバイルまたは他の方法で) ダウンロードすることができます';
-$string['raw'] = '実評点';
+$string['raw'] = '素点';
 $string['regular'] = '標準マニフェストファイル';
 $string['report'] = 'レポート';
 $string['reportcountallattempts'] = '受験回数: {$a->nbattempts} / ユーザ数: {$a->nbusers} (該当数: {$a->nbresults})';
@@ -325,6 +330,7 @@ $string['scormtype_help'] = 'ここではパッケージがどのようにコー
 $string['scorm:viewreport'] = 'レポートを表示する';
 $string['scorm:viewscores'] = '評点を表示する';
 $string['scrollbars'] = 'ウィンドウのスクロールを許可する';
+$string['search:activity'] = 'SCORMパッケージ - 活動情報';
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
 $string['show'] = '表示';

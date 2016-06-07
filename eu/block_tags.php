@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tags', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_tags', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   block_tags
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,10 +27,12 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['add'] = 'Gehitu';
 $string['alltags'] = 'Etiketa guztiak:';
+$string['anycollection'] = 'Edozein';
+$string['anytype'] = 'Guztiak';
 $string['arrowtitle'] = 'Sakatu honi iradokizunak gehitzeko (berdez).';
 $string['configtitle'] = 'Blokearen izenburua';
-$string['coursetags'] = 'Ikastaroaren etiketak:';
-$string['defaultdisplay'] = 'Erakusteko etiketa-mota';
+$string['coursetags'] = 'Ikastaroko etiketak:';
+$string['defaultdisplay'] = 'Erakutsi etiketak';
 $string['disabledtags'] = 'Etiketak gaitu gabe daude';
 $string['edit'] = 'editatu...';
 $string['editdeletemytag'] = 'Etiketa ezabatu ikastaro honetatik:';
@@ -66,9 +68,11 @@ $string['notagsyet'] = 'Ez dago etiketarik oraindik';
 $string['please'] = 'Mesedez';
 $string['pluginname'] = 'Etiketak';
 $string['select'] = 'Aukeratu...';
-$string['showcoursetags'] = 'Erakutsi ikastaro-etiketak';
+$string['showcoursetags'] = 'Erakutsi ikastaroko etiketak';
 $string['showcoursetagsdef'] = 'Erakutsi ikastaroko etiketa funtzioa etiketa-blokean, ikasleei ikastaroak etiketatzeko aukera emanez.';
+$string['standardonly'] = 'Estandarra baino ez';
 $string['suggestedtagthisunit'] = 'Ikastaro honetarako gomendatutako etiketak:';
+$string['tagcollection'] = 'Etiketa-bilduma';
 $string['tags'] = 'etiketak';
 $string['tags:addinstance'] = 'Gehitu etiketa bloke berria';
 $string['tags:myaddinstance'] = 'Gehitu etiketa bloke berria aginte-panelean';

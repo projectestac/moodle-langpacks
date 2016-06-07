@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'role', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,13 +77,9 @@ $string['badges:manageownbadges'] = 'Ikusi eta kudeatu norberak irabazitako domi
 $string['badges:viewotherbadges'] = 'Domina publikoak ikusi beste erabiltzaileen profiletan';
 $string['block:edit'] = 'Blokearen ezarpenak editatu';
 $string['block:view'] = 'Blokea ikusi';
-$string['blog:associatecourse'] = 'Gaitasun hau zaharkituta dago eta ez du ezer egiten.';
-$string['blog:associatemodule'] = 'Gaitasun hau zaharkituta dago eta ez du ezer egiten.';
 $string['blog:create'] = 'Blog-sarrera berriak sortu';
 $string['blog:manageentries'] = 'Sarrerak editatu eta kudeatu';
 $string['blog:manageexternal'] = 'Kanpoko blogak editatu eta kudeatu';
-$string['blog:manageofficialtags'] = 'Etiketa ofizialak kudeatu';
-$string['blog:managepersonaltags'] = 'Etiketa pertsonalak kudeatu';
 $string['blog:search'] = 'Blog-sarrerak bilatu';
 $string['blog:view'] = 'Blog-sarrerak ikusi';
 $string['blog:viewdrafts'] = 'Blog-sarreren zirriborroa ikusi';
@@ -112,6 +108,11 @@ $string['comment:post'] = 'Iruzkinak egin';
 $string['comment:view'] = 'Ikusi iruzkinak';
 $string['community:add'] = 'Komunitate-blokea erabili bilguneak bilatu eta ikastaroak aurkitzeko';
 $string['community:download'] = 'Ikastaro bat komunitate-bloketik jaitsi';
+$string['competency:competencygrade'] = 'Ezarri gaitasunen puntuazioa';
+$string['competency:templatemanage'] = 'Kudeatu ikasketa-planerako txantiloiak';
+$string['competency:templateview'] = 'ikusi ikasketa-planerako txantiloiak';
+$string['competency:usercompetencyreview'] = 'Berrikusi erabiltzailearen gaitasuna';
+$string['competency:usercompetencyview'] = 'Ikusi erabiltzailearen gaitasuna';
 $string['confirmaddadmin'] = 'Benetan gehitu nahi al duzu <strong>{$a}</strong> erabiltzailea guneko kudeatzaile gisa?';
 $string['confirmdeladmin'] = 'Benetan kendu nahi al duzu <strong>{$a}</strong> erabiltzailea guneko kudeatzaileen zerrendatik?';
 $string['confirmroleprevent'] = 'Benetan kendu nahi al duzu <strong>{$a->role}</strong> {$a->context} testuinguruan {$a->cap} gaitasuna baimenduta duten rolen zerrendatik?';
@@ -203,7 +204,7 @@ $string['grade:lock'] = 'Kalifikazioak blokeatu';
 $string['grade:manage'] = 'Kalifikazio-elementuak kudeatu';
 $string['grade:managegradingforms'] = 'Kalifikatzeko metodo aurreratuak kudeatu';
 $string['grade:manageletters'] = 'Letra duten kalifikazioak kudeatu';
-$string['grade:manageoutcomes'] = 'Kalifikazioen helburuak kudeatu';
+$string['grade:manageoutcomes'] = 'Kudeatu ikas-emaitzen kalifikazioak';
 $string['grade:managesharedforms'] = 'Kalifikazio aurreraturako formulario-txantiloiak kudeatu';
 $string['grade:override'] = 'Baliogabetu kalifikazioak';
 $string['grade:sharegradingforms'] = 'Kalifikazio aurreraturako formularioa txantiloi gisa partekatu';

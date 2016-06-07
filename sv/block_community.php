@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_community', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_community', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   block_community
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,7 +33,7 @@ $string['addedtoblock'] = 'Det har lagts till en länk till den här kursen i Di
 $string['additionalcoursedesc'] = '$a->lang} Upphovsman: {$a->creatorname} - Förläggare: {$a->publishername} - Ämne: {$a->subject} - Målgrupp: {$a->audience} - Utbildningsnivå: {$a->educationallevel} - Licens: {$a->license}';
 $string['addtocommunityblock'] = 'Spara en länk till den här kursen';
 $string['audience'] = 'Utvecklad för';
-$string['audience_help'] = 'Vilken typ av kurs letar du efter? Du kan leta efter traditionella kurser för studenter/elever/deltagare/lärande eller gemenskaper för utbildare/(distans)lärare eller administratörer av Moodle.';
+$string['audience_help'] = 'Vilken typ av kurs letar Du efter? Du kan leta efter traditionella kurser för studenter/elever/deltagare/lärande eller gemenskaper för utbildare/(distans)lärare eller administratörer av Moodle. ';
 $string['blocks'] = 'Block ';
 $string['comments'] = 'Kommentarer ';
 $string['contentinfo'] = 'Ämne {$a->subject} - Målgrupp: {$a->audience} - Utbildningsnivå: {$a->educationallevel}';
@@ -49,17 +49,17 @@ $string['dorestore'] = 'Ja';
 $string['download'] = 'Ladda ner';
 $string['downloadable'] = 'kurser som jag kan ladda ner';
 $string['downloadablecourses'] = 'Kurser som går att ladda ner';
-$string['downloadconfirmed'] = 'Säkerhetskopian har sparats i dina privata filer {$a}';
+$string['downloadconfirmed'] = 'Säkerhetskopian har sparats i Dina privata filer {$a}';
 $string['downloaded'] = '...klart.';
 $string['downloadingcourse'] = 'Laddar ner kurs';
 $string['downloadingsize'] = 'Var snäll och vänta medan kursfilen laddas ner ({$a->total}Mb)...';
 $string['downloadtemplate'] = 'Skapa kurs med hjälp av en mall';
 $string['educationallevel'] = 'Utbildningsnivå';
-$string['educationallevel_help'] = 'Vilken utbildningsnivå letar du efter? Om det handlar om gemenskaper för utbildare/(distans)lärare så beskriver detta den nivå som de undervisar på.';
+$string['educationallevel_help'] = 'Vilken utbildningsnivå letar Du efter? Om det handlar om gemenskaper för utbildare/(distans)lärare så beskriver detta den nivå som de undervisar på.';
 $string['enroldownload'] = 'Hitta';
 $string['enroldownload_help'] = 'En del kurser som är listade i den valda hubben utannonseras så att folk kan delta i dem på den ursprungliga webbplatsen.
 
-Andra är mallar för kurser som du kan ladda ner och använda på din egen webbplats för Moodle';
+Andra är mallar för kurser som Du kan ladda ner och använda på Din egen webbplats för Moodle';
 $string['enrollable'] = 'kurser som jag kan registrera mig på';
 $string['enrollablecourses'] = 'Kurser som tillåter registrering';
 $string['errorcourselisting'] = 'Det inträffade ett fel när listorna för kursen skulle hämtas från den valda hubben, var snäll och försök senare, ({$a})';
@@ -95,7 +95,7 @@ $string['rateandcomment'] = 'Bedöm och kommentera';
 $string['rating'] = 'Bedömning/betygsättning';
 $string['removecommunitycourse'] = 'Ta bort gemenskapskurs';
 $string['restorecourse'] = 'Återställ kurs';
-$string['restorecourseinfo'] = 'Vill du återställa kursen?';
+$string['restorecourseinfo'] = 'Vill Du återställa kursen?';
 $string['screenshots'] = 'Skärmbilder';
 $string['search'] = 'Sök';
 $string['searchcommunitycourse'] = 'Sök efter en kurs för gemenskap/er';
@@ -105,7 +105,7 @@ $string['selecthub_help'] = 'Välj en hubb där Du vill söka efter kurser';
 $string['showall'] = 'Visa alla hubbar';
 $string['sites'] = 'Webbplatser';
 $string['subject'] = 'Ämne';
-$string['subject_help'] = 'För att begränsa din sökning efter kurser till ett specifikt ämne så kan du välja ett från den här listan';
+$string['subject_help'] = 'För att begränsa Din sökning efter kurser till ett specifikt ämne så kan Du välja ett från den här listan';
 $string['userinfo'] = 'Utvecklare: {$a->creatorname} -
 Utgivare: {$a->publishername}';
 $string['visitdemo'] = 'Besök demo';

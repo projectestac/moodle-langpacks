@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'backup', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,7 +49,7 @@ $string['backupcoursesection'] = 'Secção: {$a}';
 $string['backupcoursesections'] = 'Secções da disciplina';
 $string['backupdate'] = 'Data da realização';
 $string['backupdetails'] = 'Detalhes da cópia de segurança';
-$string['backupdetailsnonstandardinfo'] = 'O ficheiro selecionado não é um ficheiro de cópia de segurança standard Moodle. O processo de restauração vai tentar converter o ficheiro no formato padrão e, em seguida, restaurá-lo.';
+$string['backupdetailsnonstandardinfo'] = 'O ficheiro selecionado não é um ficheiro de cópia de segurança padrão do Moodle. O processo de restauração vai tentar converter o ficheiro no formato padrão e, em seguida, restaurá-lo.';
 $string['backupformat'] = 'Formato';
 $string['backupformatimscc1'] = 'IMS Common Cartridge 1.0';
 $string['backupformatimscc11'] = 'IMS Common Cartridge 1.1';
@@ -83,23 +83,23 @@ $string['choosefilefromactivitybackup_help'] = 'Quando a cópia de segurança da
 $string['choosefilefromautomatedbackup'] = 'Cópias de segurança automáticas';
 $string['choosefilefromautomatedbackup_help'] = 'Contém cópias de segurança realizadas automaticamente';
 $string['choosefilefromcoursebackup'] = 'Área das cópias de segurança';
-$string['choosefilefromcoursebackup_help'] = 'Quando a cópia de segurança das disciplinas utilizar valores pré-definidos os ficheiros serão guardados neste local';
+$string['choosefilefromcoursebackup_help'] = 'Quando a cópia de segurança das disciplinas utilizar valores predefinidos os ficheiros serão guardados neste local';
 $string['choosefilefromuserbackup'] = 'Área privada de cópias de segurança do utilizador';
 $string['choosefilefromuserbackup_help'] = 'Quando a cópia de segurança das disciplinas for feita com a opção "Tornar informação dos utilizadores anónima" selecionada os ficheiros serão guardados neste local';
 $string['configgeneralactivities'] = 'Se ativar esta opção as atividades serão incluídas nas cópias de segurança.';
 $string['configgeneralanonymize'] = 'Se ativar esta opção toda a informação dos utilizadores será tornada anónima.';
-$string['configgeneralbadges'] = 'Define a configuração predefinida para a inclusão de Medalhas numa cópia de segurança.';
+$string['configgeneralbadges'] = 'Se ativar esta opção, as medalhas serão  incluídas na cópia de segurança.';
 $string['configgeneralblocks'] = 'Se ativar esta opção os blocos serão incluídos nas cópias de segurança.';
 $string['configgeneralcomments'] = 'Se ativar esta opção os comentários serão incluídos nas cópias de segurança.';
 $string['configgeneralfilters'] = 'Se ativar esta opção os filtros serão incluídos nas cópias de segurança';
-$string['configgeneralgroups'] = 'Define a predefinição para a inclusão de grupos e agrupamentos numa cópia de segurança.';
+$string['configgeneralgroups'] = 'Se ativar esta opção, os grupos e agrupamentos serão incluídos nas cópia de segurança.';
 $string['configgeneralhistories'] = 'Se ativar esta opção o histórico dos utilizadores será incluído nas cópias de segurança.';
 $string['configgenerallogs'] = 'Se ativar esta opção os registos de atividade (logs) serão incluídos nas cópias de segurança.';
 $string['configgeneralquestionbank'] = 'Se ativar esta opção, a base de dados de perguntas será incluída nas cópias de segurança por predefinição. ATENÇÃO: desativar esta configuração irá desativar a cópia de segurança das atividades que usam a base de dados de perguntas, como p. ex. o Teste.';
 $string['configgeneralroleassignments'] = 'Se ativar esta opção as atribuições de papéis serão incluídas nas cópias de segurança.';
 $string['configgeneralusers'] = 'Se ativar esta opção a informação dos utilizadores será incluída nas cópias de segurança.';
 $string['configgeneraluserscompletion'] = 'Se ativar esta opção a informação sobre a conclusão da disciplina pelos utilizadores será incluída nas cópias de segurança.';
-$string['configloglifetime'] = 'Período de tempo em que quer manter as informações sobre as cópias de segurança. Os registos mais antigos do que o definido são automaticamente apagados. Recomenda-se manter este valor baixo, pois as informações registadas relativas às cópias podem ser enormes.';
+$string['configloglifetime'] = 'Período de tempo em que quer manter os registos de atividade das cópias de segurança. Os registos mais antigos do que o definido são automaticamente apagados. Recomenda-se manter este valor baixo, pois a quantidade de registos de atividade relativos às cópias pode ser enorme.';
 $string['confirmcancel'] = 'Cancelar cópia de segurança';
 $string['confirmcancelno'] = 'Ficar';
 $string['confirmcancelquestion'] = 'Tem a certeza de que quer cancelar?
@@ -163,6 +163,7 @@ $string['importcurrentstage2'] = 'Configuração da estrutura';
 $string['importcurrentstage4'] = 'Revisão';
 $string['importcurrentstage8'] = 'Realizar importação';
 $string['importfile'] = 'Importar um ficheiro de cópia de segurança';
+$string['importgeneralduplicateadminallowed'] = 'Permite a resolução de conflitos de administração';
 $string['importgeneralduplicateadminallowed_desc'] = 'Se o site tem uma conta com nome de utilizador \'admin\', ao tentar restaurar de um ficheiro de cópia de segurança contendo uma conta com nome de utilizador \'admin\' pode causar conflitos. Se esta configuração estiver habilitada, o conflito será resolvido alterando o nome de utilizador no ficheiro de cópia de segurança para \'admin_xyz\'.';
 $string['importgeneralmaxresults'] = 'Número máximo de disciplinas listadas para importação';
 $string['importgeneralmaxresults_desc'] = 'Isto controla o número de disciplinas que são listadas durante o primeiro passo do processo de importação';
@@ -238,6 +239,7 @@ $string['rootsettingbadges'] = 'Incluir Medalhas';
 $string['rootsettingblocks'] = 'Incluir blocos';
 $string['rootsettingcalendarevents'] = 'Incluir calendário de eventos';
 $string['rootsettingcomments'] = 'Incluir comentários';
+$string['rootsettingcompetencies'] = 'Incluir competências';
 $string['rootsettingfilters'] = 'Incluir filtros';
 $string['rootsettinggradehistories'] = 'Incluir histórico de notas';
 $string['rootsettinggroups'] = 'Incluir grupos e agrupamentos';
@@ -267,7 +269,7 @@ $string['skiphiddenhelp'] = 'Determina se as disciplinas ocultas devem ou não s
 $string['skipmodifdays'] = 'Ignorar disciplinas que não foram modificadas há';
 $string['skipmodifdayshelp'] = 'Determina se as disciplinas que não foram modificadas há um determinado número de dias são ignoradas';
 $string['skipmodifprev'] = 'Ignorar disciplinas que não foram modificadas desde a cópia de segurança anterior';
-$string['skipmodifprevhelp'] = 'Selecione se as disciplinas que não foram modificadas desde a última cópia de segurança devem ser ou não ignoradas. Isto requer logging para ser ativado.';
+$string['skipmodifprevhelp'] = 'Selecione se as disciplinas que não foram modificadas desde a última cópia de segurança devem ser ou não ignoradas. Esta ação requer o registo de ações ativado.';
 $string['storagecourseandexternal'] = 'Área de ficheiros das cópias de segurança da disciplina e pasta escolhida';
 $string['storagecourseonly'] = 'Área de ficheiros das cópias de segurança da disciplina';
 $string['storageexternalonly'] = 'Pasta escolhida para a cópias de segurança automáticas';

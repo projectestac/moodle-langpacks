@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'my', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   my
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,4 +34,4 @@ $string['mymoodle'] = 'Mitt Moodle';
 $string['nocourses'] = 'Det finns ingen kursinformation att visa.';
 $string['noguest'] = 'Sidan \'Mitt Moodle\' är inte tillgänglig för gästanvändare.';
 $string['pinblocks'] = 'Konfigurera \'fast placerade\' block för Mitt Moodle.';
-$string['pinblocksexplan'] = 'Alla inställningar för block som du konfigurerar här kommer att vara synliga (och inte-redigerbara) för varje användare av Moodle på deras \'Mitt Moodle\' skärm.';
+$string['pinblocksexplan'] = 'Alla inställningar för block som Du konfigurerar här kommer att vara synliga (och inte-redigerbara) för varje användare av Moodle på deras \'Mitt Moodle\' skärm.';

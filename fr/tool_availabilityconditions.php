@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_availabilityconditions', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_availabilityconditions', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_availabilityconditions
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['manageplugins'] = 'Gérer les restrictions';
-$string['pluginname'] = 'Gestion des conditions de disponibilité';
+$string['pluginname'] = 'Gestion des restrictions d\'accès';

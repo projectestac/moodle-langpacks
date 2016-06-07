@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'lesson', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -116,6 +116,7 @@ $string['configmaxhighscores'] = 'Numero di voti migliori da visualizzare';
 $string['configmediaclose'] = 'Visualizza il pulsante chudi nella finestra finestra popup contenente un collegamento a file multimediale';
 $string['configmediaheight'] = 'Imposta l\'altezza della finestra popup contenete un collegamento a file multimediale';
 $string['configmediawidth'] = 'Imposta la larghezza della finestra popup contenete un collegamento a file multimediale';
+$string['configpassword_desc'] = 'Password di accesso alla lezione';
 $string['configslideshowbgcolor'] = 'Se lo slideshow è abilitato, imposta il colore dello sfondo';
 $string['configslideshowheight'] = 'Se lo slideshow è abilitato, imposta l\'altezza';
 $string['configslideshowwidth'] = 'Se lo slideshow è abilitato, imposta la larghezza';
@@ -289,8 +290,8 @@ $string['maximumnumberofattempts'] = 'Numero massimo di tentativi';
 $string['maximumnumberofattempts_help'] = 'Il massimo numero di tentativi concesso per rispondere a ciascuna domanda. Rispondendo correttamente in modo ripetuto, al termine dei tentativi consentiti verrà visualizzata la pagina successiva della lezione.';
 $string['maximumnumberofattemptsreached'] = 'E\' stato raggiunto il massimo numero di tentativi - Passaggio alla pagina successiva';
 $string['mediaclose'] = 'Visualizza il pulsante chiudi';
-$string['mediafile'] = 'Pop-up file';
-$string['mediafile_help'] = 'E\' possibile includere una finestra pop-up all\'inizio della lezione. Per farlo devi specificare il file da visualizzare. Se lo desideri il link per aprire la finestra può apparire in tutte le pagine della lezione.';
+$string['mediafile'] = 'Media collegato';
+$string['mediafile_help'] = 'E\' possibile caricare un file multimediale da utilizzare nella lezione. Per visualizzare il media in tutte le pagine della lezione sarà disponibile il link \'Click per visualizzare\' all\'internod i un blocco chiamato \'Media collegato\'.';
 $string['mediafilepopup'] = 'Clicca qui per visualizzare';
 $string['mediaheight'] = 'Altezza finestra popup';
 $string['mediawidth'] = 'Larghezza finestra popup';
@@ -410,7 +411,7 @@ $string['postsuccess'] = 'Inviato con successo';
 $string['practice'] = 'Lezione di prova';
 $string['practice_help'] = 'Una lezione di prova non compare nel registro valutatore.';
 $string['preprocesserror'] = 'Si è verificato un errore durante la pre-elaborazione!';
-$string['prerequisiteisobsolete'] = 'L\'impostazione relativa lezione prerequisito sarà rimossa prossimamente. Per favore utilizzare le condizioni per l\'accesso.';
+$string['prerequisiteisobsolete'] = 'L\'impostazione della lezione prerequisito sarà rimossa in future versioni. Per favore utilizzare le condizioni per l\'accesso.';
 $string['prerequisitelesson'] = 'Lezione prerequisito';
 $string['preview'] = 'Anteprima';
 $string['previewlesson'] = 'Anteprima di {$a}';
@@ -455,6 +456,7 @@ $string['savepage'] = 'Salva pagina';
 $string['score'] = 'Punteggio';
 $string['score_help'] = 'Il punteggio è utilizzato solo se è abilitato il punteggio personalizzato. Ciascuna domanda potrà quindi avere un punteggio numerico positivo o negativo.';
 $string['scores'] = 'Punteggi';
+$string['search:activity'] = 'Lezione - Informazioni sull\'attività';
 $string['secondpluswrong'] = 'Non proprio. Vuoi riprovare?';
 $string['selectaqtype'] = 'Scegli il tipo di domanda';
 $string['shortanswer'] = 'Risposta breve';
@@ -490,6 +492,7 @@ $string['timespenterror'] = 'Ha trascorso almeno {$a} minuti nella lezione';
 $string['timespentminutes'] = 'Tempo trascorso (minuti)';
 $string['timetaken'] = 'Tempo impiegato';
 $string['topscorestitle'] = 'I {$a} voti migliori';
+$string['totalpagesviewedheader'] = 'Numero di pagine visualizzate';
 $string['true'] = 'Vero';
 $string['truefalse'] = 'Vero/Falso';
 $string['unabledtosavefile'] = 'Non è stato possibile salvare il file caricato';

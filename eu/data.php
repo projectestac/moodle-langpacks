@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'data', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addtemplate'] = 'Gehitu txantiloia';
 $string['advancedsearch'] = 'Bilaketa aurreratua';
 $string['allowcomments'] = 'Iruzkinak gehitu daitezke';
 $string['alttext'] = 'Ordezko testua';
+$string['approvalstatus'] = 'Onarpenaren egoera';
 $string['approve'] = 'Onartu';
 $string['approved'] = 'Onartuta';
 $string['areacontent'] = 'Eremuak';
@@ -51,7 +52,7 @@ $string['availabletags_help'] = '<p>Markak txantiloian dauden edukigailuak dira.
 <p>Bakarrik &quot;Marka eskuragarriak&quot; izeneko zerrendan dauden markak erabil daitezke txantiloi honetan.</p>';
 $string['availabletodate'] = 'Noiz arte eskuragarri';
 $string['blank'] = 'Hutsik';
-$string['buttons'] = 'Botoiak';
+$string['buttons'] = 'Ekintzak';
 $string['bynameondate'] = 'Egilea eta data: {$a->name} - {$a->date}';
 $string['cancel'] = 'Utzi';
 $string['cannotaccesspresentsother'] = 'Ez duzu beste erabiltzaile batzuen aurretiko ezarpenetara sartzeko baimenik';
@@ -227,6 +228,7 @@ $string['invalidurl'] = 'Sartu duzun URL-a ez da onargarria';
 $string['jstemplate'] = 'Javascript txantiloia';
 $string['latitude'] = 'Latitudea';
 $string['latlong'] = 'Latitudea/Longitudea';
+$string['latlongboth'] = 'Latitudea eta longitudea beharrekoak dira.';
 $string['latlongdownloadallhint'] = 'Sarrera guztietarako esteka KML gisa jaitsi';
 $string['latlongkmllabelling'] = 'Nola etiketatu itemak KML fitxategietan (Google Earth)';
 $string['latlonglinkservicesdisplayed'] = 'Erakutsi beharreko zerbitzuak konektatu';
@@ -234,6 +236,8 @@ $string['latlongotherfields'] = 'Bestelako eremuak';
 $string['list'] = 'Ikusi zerrenda';
 $string['listtemplate'] = 'Txantiloi-zerrenda';
 $string['longitude'] = 'Longitudea';
+$string['manageapproved'] = 'Baimendu onartutako sarreren edizioa';
+$string['manageapproved_help'] = 'Ezgaitzen bada aurrerantzean sortu zituen erabiltzaileak ezingo ditu onartutako sarrerak editatu edo ezabatu. Ezarpen honek ez dauka eraginik \'Onarpenik behar da\' egon ezean.';
 $string['mapexistingfield'] = 'Mapatu {$a}-(e)ra';
 $string['mapnewfield'] = 'Beste eremu bat sortu';
 $string['mappingwarning'] = 'Eremu berrira mapeatu gabeko eremu zahar guztiak galdu egingo dira eta ezabatu egingo dira eremu horietako datuak';

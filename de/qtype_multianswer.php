@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multianswer', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_multianswer', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_multianswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,7 @@ $string['layoutundefined'] = 'Undefiniertes Layout';
 $string['layoutvertical'] = 'Eine vertikale Spalte mit Einfach-Auswahl-Möglichkeiten';
 $string['nooptionsforsubquestion'] = 'Optionen für den Frageteil # {$a->sub} (question->id={$a->id}) konnten nicht gefunden werden';
 $string['noquestions'] = 'Die Lückentext-Frage "<strong>{$a}</strong>" enthält keine Frage.';
-$string['pleaseananswerallparts'] = 'Bitte beantworten Sie alle Teile der Frage';
+$string['pleaseananswerallparts'] = 'Bitte beantworten Sie alle Teile der Frage.';
 $string['pluginname'] = 'Lückentext-Frage';
 $string['pluginnameadding'] = 'Lückentext-Frage hinzufügen';
 $string['pluginnameediting'] = 'Lückentext-Frage bearbeiten';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'moodle', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -259,17 +259,6 @@ $string['choosereportfilter'] = 'Aukeratu txostenerako iragazkia';
 $string['choosetheme'] = 'Itxura aukeratu';
 $string['chooseuser'] = 'Aukera ezazu erabiltzaile bat';
 $string['city'] = 'Hiria/Herria';
-$string['clambroken'] = 'Zure kudeatzaileak igotako fitxategien birusen ikuskaketa indarrean jarri da, baina zerbait gaizki konfiguratuta dago.<br />Fitxategia EZIN izan da igo. Zure kudeatzaileari mezua bidali zaio arazoa zuzen dezan.<br />Saia zaitez fitxategia beranduago igotzen, mesedez.';
-$string['clamdeletedfile'] = 'Fitxategia ezabatuta';
-$string['clamdeletedfilefailed'] = 'Fitxategia ezin da ezabatu';
-$string['clamemailsubject'] = '{$a} :: Clam AV oharra';
-$string['clamfailed'] = 'Clam AV ez da egikaritu. Akatsaren mezua {$a} da. Hau da Clam-en output-a:';
-$string['clamlost'] = 'Moodle fitxategi bat kargatzean Clam egikaritzeko konfiguratuta dago, baina Clam AV bidea, {$a}, ez da egokia.';
-$string['clamlostandactinglikevirus'] = 'Gainera, Moodle-ren konfigurazioa dela eta, Clam ez badabil, fitxategiak birustzat hartzen dira. Hori dela eta, ikasleek ezin dute fitxategirik igo arazoa konpondu ezean.';
-$string['clammovedfile'] = 'Fitxategia zuk aukeratutako koarentena-direktoriora mugitu da eta orain hemen dago: {$a}';
-$string['clammovedfilebasic'] = 'Fitxategia koarentena-direktoriora mugitu da.';
-$string['clamquarantinedirfailed'] = 'Fitxategia ezin izan da mugitu zuk aukeratutako koarentena-direktoriora: {$a} . Hori zuzendu behar duzu fitxategiak infektatuta baleude ezabatu beharko lirateke eta.';
-$string['clamunknownerror'] = 'Clam-en errore ezezaguna gertatu da.';
 $string['cleaningtempdata'] = 'Behin behineko datuak (TEMP) ezabatzen';
 $string['clear'] = 'Garbitu';
 $string['clickhelpiconformoreinfo'] = '... jarraitu ...Sakatu laguntza-ikonoari artikulu osoa irakurtzeko.';
@@ -981,7 +970,7 @@ $string['institution'] = 'Erakundea';
 $string['instudentview'] = 'ikaslearen ikuspegian';
 $string['interests'] = 'Interesguneak';
 $string['interestslist'] = 'Interesgune-zerrenda';
-$string['interestslist_help'] = 'Idatzi zure intereseko gaiak komaz banatuta. Gai hauek etiketa formaz erakutsiko dira zure profil-orrian.';
+$string['interestslist_help'] = 'Idatzi zure intereseko gaiak banaka, eta gai hauek etiketa formaz erakutsiko dira zure profil-orrian.';
 $string['invalidemail'] = 'E-posta helbide baliogabea';
 $string['invalidlogin'] = 'Saio-hasiera baliogabea, saiatu berriz, mesedez';
 $string['invalidusername'] = 'Erabiltzaile-izenak karaktere alfanumerikoak, beheko gidoia (_), gidoia (-), puntua (.) eta a bildua (@) bakarrik izan ditzake.';
@@ -1108,6 +1097,7 @@ $string['messageprovider:availableupdate'] = 'Eskuragarri dauden eguneraketen ja
 $string['messageprovider:backup'] = 'Segurtasun-kopien jakinarazpenak';
 $string['messageprovider:badgecreatornotice'] = 'Domina-sortzailearen jakinarazpenak';
 $string['messageprovider:badgerecipientnotice'] = 'Domina-jasotzailearen jakinarazpenak';
+$string['messageprovider:competencyusercompcomment'] = 'Iruzkina egin da gaitasunean';
 $string['messageprovider:courserequestapproved'] = 'Ikastaroa sortzeko eskariaren onarpen-jakinarazpena';
 $string['messageprovider:courserequested'] = 'Ikastaroa sortzeko eskaria ukatzeko jakinarazpena';
 $string['messageprovider:courserequestrejected'] = 'Ikastaroa sortzeko eskaria onartu ez izanaren jakinarazpena';
@@ -1246,13 +1236,13 @@ $string['newusernewpasswordtext'] = 'Kaixo {$a->firstname},
 Kontu berria ireki zaizu \'{$a->sitename}\'-(e)n eta behin behineko pasahitza ezarri zaizu.
 
 Sartzeko informazioa hauxe duzu:
-erabiltzailea: {$a->username}
-pasahitza:{$a->newpassword}
-(aldatu egin beharko duzu pasahitza lehen aldiz sartzen zarenean)
+   erabiltzailea: {$a->username}
+   pasahitza: {$a->newpassword}
+             (aldatu egin beharko duzu pasahitza lehen aldiz sartzen zarenean)
 
 \'{$a->sitename}\' erabiltzen hasteko, sakatu {$a->link}
 
-E-posta programa gehienetan, sakatu beharreko esteka urdina agertzen da. Ez bada horrela agertzen, kopiatu helbidea eta itsasi nabigatzailearen helbide-barran.
+E-posta programa gehienetan, sakatu daitekeen esteka urdina agertzen da. Ez bada horrela agertzen, kopiatu helbidea eta itsasi nabigatzailearen helbide-barran.
 
 Jaso \'{$a->sitename}\' gunearen kudeatzailearen agur bero bat.
 
@@ -1528,6 +1518,7 @@ $string['restorecoursenow'] = 'Berreskuratu ikastaroa orain!';
 $string['restoredaccount'] = 'Berreskuratutako kontua';
 $string['restoredaccountinfo'] = 'Kontu hau beste zerbitzari batetik inportatu zen eta pasahitza galdu egin da. Pasahitz berria e-postaz ezartzeko, mesedez sakatu "Jarraitu"ri';
 $string['restorefinished'] = 'Berreskuraketa ondo egina';
+$string['restoremnethostidmismatch'] = '\'{$a}\' erabiltzailearen MNet ostalari id-a ez dator bat MNet ostalari lokararekin.';
 $string['restoreto'] = 'Berreskuratu hona:';
 $string['restoretositeadding'] = 'Kontuz: gunearen hasiera-orria berreskuratzear zaude, datuak gehituz!';
 $string['restoretositedeleting'] = 'Kontuz: gunearen hasiera-orria berreskuratzear zaude, lehenagoko informazioa ezabatuz!';
@@ -1636,6 +1627,7 @@ $string['selectperiod'] = 'Epea aukeratu';
 $string['senddetails'] = 'Nire xehetasunak e-postaz bidali';
 $string['separate'] = 'Bereizi';
 $string['separateandconnected'] = 'Jakintza-bide banatuak eta elkar lotuak';
+$string['separateandconnectedinfo'] = 'Eskalak banandutako eta konektatutako ezagutzen teorian oinarritzen dira. Teoria honek ikusi eta entzuten ditugun gauzak ebaluatu eta ikasteko bi modu deskribatzen ditu.<ul><li><strong>Ikasle bereiziek</strong> ahal bezain objektibo mantentzen dira sentimenduak eta emozioak kontuan hartu gabe. Beste batzuekin eztabaidak izatean euren ideiak defendatzea gustatzen zaie, logika erabiliz aurkariaren logikan hutsuneak bilatzeko.</li><li><strong>Konektatutako ikasleak</strong> beste jendearekiko sentsibilitate handiagoa dute. Enpatia gaitasun handiagoa dute eta entzun eta galderak egiteko joera dute "bestearen ikuspuntutik gauzak ulertzeko" gai direla sentitu arte. Besteengan topatzen duten jakinduria lortzeko esperientziak trukatzen saiatuz ikasten dute.</li></ul>';
 $string['servererror'] = 'Errorea gertatu da zerbitzariarekin komunikatzean';
 $string['serverlocaltime'] = 'Zerbitzariaren ordu lokala';
 $string['setcategorytheme'] = 'Kategoriaren itxura ezarri';
@@ -1794,6 +1786,11 @@ $string['teacheronly'] = '{$a} -tzat bakarrik';
 $string['teacherroles'] = '{$a} (r)en rolak';
 $string['teachers'] = 'Irakasleak';
 $string['textediting'] = 'Testu-editorea';
+$string['textediting_help'] = 'Atto edo TinyMCE moduko HTML editorea aukeratzen bada, testua sartzeko eremuek edukiak modu errazean gehitzeko botoiak dituen tresna-barra bat izango dute.
+
+\'Testu lauko eremua\' aukeratzen bada testua sartzeko eremuentzako formatu bat aukeratu daiteke, HTML edo Markdown adibidez.
+
+Aukeratu daitezkeen testu editoreen zerrenda gunearen kudeatzaileak zehazten du.';
 $string['texteditor'] = 'Web formulario estandarrak erabili';
 $string['textformat'] = 'Testu arrunt formatua';
 $string['thanks'] = 'Eskerrik asko';
@@ -1927,28 +1924,9 @@ $string['viewmore'] = 'Ikusi gehiago';
 $string['viewprofile'] = 'Profila ikusi';
 $string['views'] = 'Ikustaldiak';
 $string['viewsolution'] = 'soluzioa ikusi';
-$string['virusfound'] = 'Kontuz kudeatzaile! Clam AV-k {$a->user} erabiltzaileak {$a->course} ikastarora igotako fitxategian birusa aurkitu du. Hau da clamscan-en output-a:';
-$string['virusfoundlater'] = 'Zuk {$a->date} egunean {$a->course} ikastarora igotako {$a->filename} izeneko fitxategiak birusa dauka. Hona hemen fitxategiarekin gertatutakoaren laburpena:
-
-{$a->action}
-
-Bidalitako lana bada, berriz bidali zure irakasleak ikus dezan.';
-$string['virusfoundlateradmin'] = 'Kontuz kudeatzaile! {$a->date} egunean {$a->course} ikastarora {$a->filename} {$a->user} erabiltzaileak igotako fitxategi batek birusa dauka. Hona hemen fitxategiarekin gertatutakoaren laburpena:
-
-{$a->action}
-
-Erabiltzaileari ere jakinarazi egin zaio';
-$string['virusfoundlateradminnolog'] = 'Kontuz kudeatzaile! Igotako {$a->filename} izeneko fitxategiak birusa dauka. Moodle-k ezin izan dio fitxategia igorleari itzuli.
-
-Hona hemen fitxategiarekin gertatutakoaren laburpena:
-
-{$a->action}';
-$string['virusfoundsubject'] = '{$a}: Birusa aurkitu egin da!';
-$string['virusfounduser'] = 'Igotako fitxategia, {$a->filename}, antibirusak eskaneatu du eta birusa dauka. EZ da igo.';
-$string['virusplaceholder'] = 'Igotako fitxategiak birusak zituen eta ez da igo. Erabiltzaileari jakinarazi zaio.';
-$string['visible'] = 'Agerian jarri';
+$string['visible'] = 'Ikusgai';
 $string['visible_help'] = 'Ezarpen honek adierazten du ikastaroa nola agertuko den ikastaroen zerrendan. Irakasle eta kudeatzaileez aparte, erabiltzaileek ez dute baimenik ikastaroan sartzeko.';
-$string['visibletostudents'] = '{$a}-(r)entzat agerian';
+$string['visibletostudents'] = 'Ikusgai {$a}-(r)entzat';
 $string['warning'] = 'Kontuz';
 $string['warningdeleteresource'] = 'Kontuz: baliabide batek {$a}-ri egiten dio erreferentzia. Baliabidea eguneratu nahi duzu?';
 $string['webpage'] = 'Web-orria';

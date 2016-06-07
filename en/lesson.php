@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'lesson', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -111,14 +111,17 @@ $string['completiontimespent'] = 'Student must do this activity at least for';
 $string['completiontimespentgroup'] = 'Require time spent';
 $string['conditionsfordependency'] = 'Condition(s) for the dependency';
 $string['configactionaftercorrectanswer'] = 'The default action to take after a correct answer';
+$string['configintro'] = 'The values set here define the default values that are used in the settings form when creating a new lesson activity. Settings specified as advanced are only shown when the \'Show more...\' link is clicked.';
 $string['configmaxanswers'] = 'Default maximum number of answers per page';
 $string['configmaxhighscores'] = 'Number of high scores displayed';
 $string['configmediaclose'] = 'Displays a close button as part of the popup generated for a linked media file';
 $string['configmediaheight'] = 'Sets the height of the popup displayed for a linked media file';
 $string['configmediawidth'] = 'Sets the width of the popup displayed for a linked media file';
+$string['configpassword_desc'] = 'Whether a password is required in order to access the lesson.';
 $string['configslideshowbgcolor'] = 'Background colour to for the slideshow if it is enabled';
 $string['configslideshowheight'] = 'Sets the height of the slideshow if it is enabled';
 $string['configslideshowwidth'] = 'Sets the width of the slideshow if it is enabled';
+$string['configtimelimit_desc'] = 'If a time limit is set, a warning is displayed at the beginning of the lesson and there is a countdown timer. If set to zero, then there is no time limit.';
 $string['confirmdelete'] = 'Delete page';
 $string['confirmdeletionofthispage'] = 'Confirm deletion of this page';
 $string['congratulations'] = 'Congratulations - end of lesson reached';
@@ -288,8 +291,8 @@ $string['maximumnumberofattempts'] = 'Maximum number of attempts';
 $string['maximumnumberofattempts_help'] = 'This setting specifies the maximum number of attempts allowed for each question. If answered incorrectly repeatedly, when the maximum is reached, the next page of the lesson is displayed.';
 $string['maximumnumberofattemptsreached'] = 'Maximum number of attempts reached - Moving to next page';
 $string['mediaclose'] = 'Show close button';
-$string['mediafile'] = 'File pop-up';
-$string['mediafile_help'] = 'To include a pop-up window at the beginning of a lesson, choose the appropriate file to display. Every lesson page will include a link to re-open the pop-up if necessary.';
+$string['mediafile'] = 'Linked media';
+$string['mediafile_help'] = 'A media file may be uploaded for use in the lesson. A \'Click here to view\' link will then be displayed in a block called \'Linked media\' on each page of the lesson.';
 $string['mediafilepopup'] = 'Click here to view';
 $string['mediaheight'] = 'Popup window height';
 $string['mediawidth'] = 'Popup window width';
@@ -452,6 +455,7 @@ $string['savepage'] = 'Save page';
 $string['score'] = 'Score';
 $string['score_help'] = 'Score is only used when custom scoring is enabled. Each answer can then be given a numerical point value (positive or negative).';
 $string['scores'] = 'Scores';
+$string['search:activity'] = 'Lesson - activity information';
 $string['secondpluswrong'] = 'Not quite.  Would you like to try again?';
 $string['selectaqtype'] = 'Select a question type';
 $string['shortanswer'] = 'Short answer';
@@ -487,6 +491,7 @@ $string['timespenterror'] = 'Spend at least {$a} minutes in the lesson';
 $string['timespentminutes'] = 'Time spent (minutes)';
 $string['timetaken'] = 'Time taken';
 $string['topscorestitle'] = 'Top {$a} high scores';
+$string['totalpagesviewedheader'] = 'Number of pages viewed';
 $string['true'] = 'True';
 $string['truefalse'] = 'True/false';
 $string['unabledtosavefile'] = 'The file you uploaded could not be saved';

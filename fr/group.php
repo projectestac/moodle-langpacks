@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'group', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,6 +75,8 @@ $string['eventgroupcreated'] = 'Groupe créé';
 $string['eventgroupdeleted'] = 'Groupe supprimé';
 $string['eventgroupingcreated'] = 'Groupement créé';
 $string['eventgroupingdeleted'] = 'Groupement supprimé';
+$string['eventgroupinggroupassigned'] = 'Groupe attribué à un groupement';
+$string['eventgroupinggroupunassigned'] = 'Groupe retiré d\'un groupement';
 $string['eventgroupingupdated'] = 'Groupement modifié';
 $string['eventgroupmemberadded'] = 'Membre ajouté à un groupe';
 $string['eventgroupmemberremoved'] = 'Membre retiré d\'un groupe';
@@ -139,6 +141,8 @@ $string['importgroups_help'] = 'Les groupes peuvent être importés depuis un fi
 * le seul champ requis est groupname ;
 * les champs optionnels sont description, enrolmentkey, picture, hidepicture ;
 * les noms des champs ne doivent pas être traduits.';
+$string['includeonlyactiveenrol'] = 'N\'inclure que les inscription actives';
+$string['includeonlyactiveenrol_help'] = 'Si ce réglage est activé, les utilisateurs suspendus ne seront pas inclus dans les groupes.';
 $string['javascriptrequired'] = 'Cette page requiert l\'activation de Javascript.';
 $string['members'] = 'Membres par groupe';
 $string['membersofselectedgroup'] = 'Membres de :';

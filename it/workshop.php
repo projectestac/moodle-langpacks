@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'workshop', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,8 @@ $string['allocation'] = 'Distribuzione consegne';
 $string['allocationconfigured'] = 'Distribuzione configurata';
 $string['allocationdone'] = 'Distribuzione effettuata';
 $string['allocationerror'] = 'Errore durante la distribuzione';
+$string['allowedfiletypesforoverallfeedback'] = 'Tipi di file consentiti da allegare al feedback';
+$string['allowedfiletypesforsubmission'] = 'Tipi di file consentiti da allegare alla consegna';
 $string['allsubmissions'] = 'Tutte le consegne ({$a})';
 $string['alreadygraded'] = 'Ha già un voto';
 $string['areaconclusion'] = 'Contenuto della conclusione';
@@ -79,7 +81,7 @@ $string['clearaggregatedgrades'] = 'Elimina tutti i voti aggregati';
 $string['clearaggregatedgradesconfirm'] = 'Sei certo di voler eliminare i voti aggregati delle consegne e delle valutazioni?';
 $string['clearaggregatedgrades_help'] = 'I voti cumulati per le consegne e i voti per la valutazione saranno reimpostati. E\' possibile ricalcolare i voti nella Fase di valutazione.';
 $string['clearassessments'] = 'Elimina valutazioni';
-$string['clearassessmentsconfirm'] = 'Sei sicuro di volere eliminare tutte le valutazioni? Non potrai più ricavare queste informazioni, i revisori dovranno valutare nuovamente le consegne.';
+$string['clearassessmentsconfirm'] = 'Sei sicuro di eliminare tutte le valutazioni? Non potrai più ricavare queste informazioni, i revisori dovranno valutare nuovamente le consegne.';
 $string['clearassessments_help'] = 'I voti calcolati per gli invii e per le valutazioni saranno eliminati. Le impostazioni su come sono state compilate le schede di valutazione saranno conservate ma per calcolare di nuovo i voti tutti i revisori dovranno accedere alla scheda di valutazione e salvare nuovamente i voti.';
 $string['conclusion'] = 'Conclusione';
 $string['conclusion_help'] = 'La conclusione viene visualizzata ai partecipanti al termine dell\'attività.';
@@ -97,6 +99,7 @@ $string['daystoday'] = 'oggi';
 $string['daystomorrow'] = 'domani';
 $string['daysyesterday'] = 'ieri';
 $string['deadlinesignored'] = 'Le limitazioni temporali non si applicano a te.';
+$string['deletesubmission'] = 'Elimina consegna';
 $string['editassessmentform'] = 'Modifica scheda di valutazione';
 $string['editassessmentformstrategy'] = 'Modifica scheda di valutazione ({$a})';
 $string['editingassessmentform'] = 'Modifica scheda di valutazione';
@@ -104,6 +107,8 @@ $string['editingsubmission'] = 'Modifica consegne';
 $string['editsubmission'] = 'Modifica consegna';
 $string['err_multiplesubmissions'] = 'Durante la modifica di questo form è stata effettuata un\'altra consegna. Le consegne multiple non sono consentite.';
 $string['err_removegrademappings'] = 'Non è possibile rimuovere la mappatura voti non utilizzata';
+$string['err_unknownfileextension'] = 'Estensione file sconosciuta: {$a}';
+$string['err_wrongfileextension'] = 'Non è stato possibile caricare alcuni file ({$a->wrongfiles}). Possono essere caricati solamente file {$a->whitelist}.';
 $string['evaluategradeswait'] = 'Per favore attendi mentre vengono analizzate le valutazioni e calcolati i voti';
 $string['evaluation'] = 'Calcolo dei voti';
 $string['evaluationmethod'] = 'Metodo di calcolo dei voti';
@@ -117,6 +122,7 @@ $string['eventphaseswitched'] = 'Cambiata fase';
 $string['eventsubmissionassessed'] = 'Valutata consegna';
 $string['eventsubmissionassessmentsreset'] = 'Eliminate valutazioni consegna';
 $string['eventsubmissioncreated'] = 'Creata consegna';
+$string['eventsubmissiondeleted'] = 'Eliminata consegna';
 $string['eventsubmissionreassessed'] = 'Valutata di nuovo consegna';
 $string['eventsubmissionupdated'] = 'Aggiornata consegna';
 $string['eventsubmissionviewed'] = 'Visualizzata consegna';
@@ -242,6 +248,7 @@ $string['saveandclose'] = 'Salva e chiudi';
 $string['saveandcontinue'] = 'Salva e continua a modificare';
 $string['saveandpreview'] = 'Salva e anteprima';
 $string['saveandshownext'] = 'Salva e visualizza il successivo';
+$string['search:activity'] = 'Workshop - Informazioni sull\'attività';
 $string['selfassessmentdisabled'] = 'Auto valutazione disabilitata';
 $string['showingperpage'] = 'Visualizzazione di {$a} elementi per pagina';
 $string['showingperpagechange'] = 'Modifica...';
@@ -260,6 +267,8 @@ $string['submission'] = 'Consegna';
 $string['submissionattachment'] = 'Allegato';
 $string['submissionby'] = 'Consegne di {$a}';
 $string['submissioncontent'] = 'Contenuto consegna';
+$string['submissiondeleteconfirm'] = 'Sei sicuro di eliminare la consegna seguente?';
+$string['submissiondeleteconfirmassess'] = 'Sei sicuro di eliminare la consegna seguente? Verranno anche eliminate {$a->count} valutazioni associate alla consegna, cosa che potrà alterare le valutazioni dei revisori.';
 $string['submissionend'] = 'Fine consegne';
 $string['submissionendbeforestart'] = 'la data di fine consegne non può essere anteriore alla data di inizio consegne';
 $string['submissionenddatetime'] = 'Fine delle consegne: {$a->daydatetime} ({$a->distanceday})';
@@ -320,6 +329,7 @@ $string['weightinfo'] = 'Peso: {$a}';
 $string['withoutsubmission'] = 'Revisori che non hanno consegnato il proprio lavoro';
 $string['workshop:addinstance'] = 'Aggiungere workshop';
 $string['workshop:allocate'] = 'Assegnare consegne per revisione';
+$string['workshop:deletesubmissions'] = 'Eliminare consegne';
 $string['workshop:editdimensions'] = 'Modificare scheda di valutazione';
 $string['workshop:ignoredeadlines'] = 'Ignorare limitazioni temporali';
 $string['workshop:manageexamples'] = 'Gestire consegne di esempio';

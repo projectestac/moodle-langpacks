@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'workshop', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,10 @@ $string['allocation'] = '提出の割り当て';
 $string['allocationconfigured'] = '割り当てが設定されました。';
 $string['allocationdone'] = '割り当て完了';
 $string['allocationerror'] = '割り当てエラー';
+$string['allowedfiletypesforoverallfeedback'] = 'フィードバック添付で許可されたファイルタイプ';
+$string['allowedfiletypesforoverallfeedback_help'] = 'フィードバック添付で許可されたファイルタイプはカンマ区切りのファイル拡張子のリストを入力することにより制限することができます。例えば「mp4, mp3, png, jpg」のようになります。フィールドが空白の場合、すべてのファイルタイプが許可されます。';
+$string['allowedfiletypesforsubmission'] = '送信添付で許可されたファイルタイプ';
+$string['allowedfiletypesforsubmission_help'] = '送信添付で許可されたファイルタイプはカンマ区切りのファイル拡張子のリストを入力することにより制限することができます。例えば「mp4, mp3, png, jpg」のようになります。フィールドが空白の場合、すべてのファイルタイプが許可されます。';
 $string['allsubmissions'] = 'すべての提出 ({$a})';
 $string['alreadygraded'] = '評定済み';
 $string['areaconclusion'] = '結論テキスト';
@@ -96,6 +100,7 @@ $string['daystoday'] = '今日';
 $string['daystomorrow'] = '明日';
 $string['daysyesterday'] = '昨日';
 $string['deadlinesignored'] = 'あなたには時間制限は適用されません。';
+$string['deletesubmission'] = '提出を削除する';
 $string['editassessmentform'] = '評価フォームを編集する';
 $string['editassessmentformstrategy'] = '評価フォーム ({$a}) を編集する';
 $string['editingassessmentform'] = '評価フォームの編集';
@@ -103,6 +108,8 @@ $string['editingsubmission'] = '提出の編集';
 $string['editsubmission'] = '提出を編集する';
 $string['err_multiplesubmissions'] = 'このフォームを編集している間に、別バージョンの提出が保存されました。1ユーザあたりの複数提出は許可されません。';
 $string['err_removegrademappings'] = '未使用の評定マッピングを削除することはできません。';
+$string['err_unknownfileextension'] = '不明なファイル拡張子: {$a}';
+$string['err_wrongfileextension'] = 'いくつかのファイル ({$a->wrongfiles}) はアップロードすることができません。ファイルタイプ {$a->whitelist} のみ許可されます。';
 $string['evaluategradeswait'] = '評価が評定され、評点が計算されるまでお待ちください。';
 $string['evaluation'] = '成績評価';
 $string['evaluationmethod'] = '成績評価方法';
@@ -116,6 +123,7 @@ $string['eventphaseswitched'] = 'フェーズが切り替えられました。';
 $string['eventsubmissionassessed'] = '提出が評定されました。';
 $string['eventsubmissionassessmentsreset'] = '提出の評定がクリアされました。';
 $string['eventsubmissioncreated'] = '提出が作成されました。';
+$string['eventsubmissiondeleted'] = '提出が削除されました。';
 $string['eventsubmissionreassessed'] = '提出が再評定されました。';
 $string['eventsubmissionupdated'] = '提出が更新されました。';
 $string['eventsubmissionviewed'] = '提出が閲覧されました。';
@@ -241,6 +249,7 @@ $string['saveandclose'] = '保存して閉じる';
 $string['saveandcontinue'] = '保存して編集を続ける';
 $string['saveandpreview'] = '保存してプレビューする';
 $string['saveandshownext'] = '保存して次を表示する';
+$string['search:activity'] = 'ワークショップ - 活動情報';
 $string['selfassessmentdisabled'] = '自己評価は無効にされています。';
 $string['showingperpage'] = '1ページあたり {$a} アイテムの表示';
 $string['showingperpagechange'] = '変更 ...';
@@ -259,6 +268,8 @@ $string['submission'] = '提出';
 $string['submissionattachment'] = '添付';
 $string['submissionby'] = '提出 by {$a}';
 $string['submissioncontent'] = '提出コンテンツ';
+$string['submissiondeleteconfirm'] = '本当に次の提出を削除してもよろしいですか?';
+$string['submissiondeleteconfirmassess'] = '本当に次の提出を削除してもよろしいですか? これによりこの提出に関して評価者の評定に影響する {$a->count} 件の評価も削除されることに留意してください。';
 $string['submissionend'] = '提出終了日時';
 $string['submissionendbeforestart'] = '提出開始日時の前に提出終了日時を指定できません。';
 $string['submissionenddatetime'] = '提出終了日時: {$a->daydatetime} ({$a->distanceday})';
@@ -319,6 +330,7 @@ $string['weightinfo'] = '加重: {$a}';
 $string['withoutsubmission'] = '自分では提出していない評価者';
 $string['workshop:addinstance'] = '新しいワークショップを追加する';
 $string['workshop:allocate'] = '提出をレビューのために割り当てる';
+$string['workshop:deletesubmissions'] = '提出を削除する';
 $string['workshop:editdimensions'] = '評価フォームを編集する';
 $string['workshop:ignoredeadlines'] = '時間制限を無視する';
 $string['workshop:manageexamples'] = '提出例を管理する';

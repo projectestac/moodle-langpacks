@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'backup', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,11 @@ $string['automatedbackupschedule'] = 'Programación';
 $string['automatedbackupschedulehelp'] = 'Decida en qué días de la semana se realizarán las copias de seguridad automatizadas';
 $string['automatedbackupsinactive'] = 'Las copias de seguridad programadas han sido habilitadas por el administrador del sitio';
 $string['automatedbackupstatus'] = 'Estado de la Copia de Seguridad programada';
+$string['automateddeletedays'] = 'Borrar las copias de seguridad más antiguas que';
+$string['automatedmaxkept'] = 'Número máximo de copias de seguridad guardadas';
+$string['automatedmaxkepthelp'] = 'Esto especifica el número máximo de copias de seguridad automáticas recientes que guardar para cada curso. Las copias anteriores serán eliminadas automáticamente.';
+$string['automatedminkept'] = 'Número mínimo de copias de seguridad guardadas';
+$string['automatedminkepthelp'] = 'Si las copias de seguridad anteriores a un número de días especificado se eliminan, puede suceder que un curso inactivo acabe sin copias de seguridad. Para prevenir esto, se debería especificar un número mínimo de copias de seguridad guardadas.';
 $string['automatedsettings'] = 'Configuración de la copia de seguridad automática.';
 $string['automatedsetup'] = 'Copia de seguridad programada';
 $string['automatedstorage'] = 'Almacén de copias de seguridad automáticas';
@@ -157,6 +162,7 @@ $string['importcurrentstage2'] = 'Configuración del esquema';
 $string['importcurrentstage4'] = 'Confirmación y revisión';
 $string['importcurrentstage8'] = 'Realizar la importación';
 $string['importfile'] = 'Importar un archivo de copia de seguridad';
+$string['importgeneralduplicateadminallowed_desc'] = 'Si la página cuenta con un nombre de usuario \'admin\', tratar de restaurar una copia de seguridad que contenga un usuario \'admin\' puede causar conflicto. Si esta opción está habilitada, el conflicto puede resolverse cambiando el nombre de usuario en la copia de seguridad a \'admin_xyz\'.';
 $string['importgeneralmaxresults'] = 'Número máximo de cursos listados para importación';
 $string['importgeneralmaxresults_desc'] = 'Controla el número de cursos que son listados durante el primer paso del proceso de importación';
 $string['importgeneralsettings'] = 'Ajustes por defecto de importación';

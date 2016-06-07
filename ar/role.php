@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ar', branch 'MOODLE_30_STABLE'
+ * Strings for component 'role', language 'ar', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,8 +61,6 @@ $string['block:view'] = 'معاينة كتله';
 $string['blog:create'] = 'أنشاء مدخلات بولق جديدة';
 $string['blog:manageentries'] = 'تحرير وإدارة المدخلات';
 $string['blog:manageexternal'] = 'حرر وقم بإدارة مدونه خارجية';
-$string['blog:manageofficialtags'] = 'إدارة العلامات الرسمية';
-$string['blog:managepersonaltags'] = 'إدارة العلامات الشخصية';
 $string['blog:search'] = 'ابحث في مدخلات المدونة';
 $string['blog:view'] = 'معاينة مدخلات المدونة';
 $string['blog:viewdrafts'] = 'معاينة مسودة مدخلات المدونة';

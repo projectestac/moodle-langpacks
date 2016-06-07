@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_rss_client', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   block_rss_client
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,7 +69,7 @@ $string['rss_client:manageownfeeds'] = 'Administrera egna RSS-matningar';
 $string['seeallfeeds'] = 'Visa alla inmatningar';
 $string['sharedfeed'] = 'Gemensam inmatning';
 $string['shownumentrieslabel'] = 'Maximalt antal bidrag att visa per block.';
-$string['submitters'] = 'Vem ska behörighet att definiera nya RSS-flöden? Definierade flöden finns tillgängliga för vilken sida som helst på din webbplats.';
+$string['submitters'] = 'Vem ska behörighet att definiera nya RSS-flöden? Definierade flöden finns tillgängliga för vilken sida som helst på Din webbplats.';
 $string['submitters2'] = 'Inskickare';
 $string['timeout'] = 'Tid i minuter innan ett RSS-flöde tas bort från cachen. OBS! Den här tiden definierar minitiden innan den går ut; flödet kommer att återställas i cachen vid nästa körning av cron efter att tiden har gått ut. 30 minuter eller mer rekommenderas. ';
 $string['timeout2'] = 'Timeout';

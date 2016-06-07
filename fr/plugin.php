@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'plugin', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -104,10 +104,12 @@ $string['status_upgrade'] = 'À mettre à jour';
 $string['status_uptodate'] = 'Installé';
 $string['supportedmoodleversions'] = 'Versions de Moodle supportées';
 $string['systemname'] = 'Identifiant';
+$string['type_antivirus'] = 'Plugin antivirus';
+$string['type_antivirus_plural'] = 'Plugins antivirus';
 $string['type_auth'] = 'Méthode d\'authentification';
 $string['type_auth_plural'] = 'Méthodes d\'authentification';
-$string['type_availability'] = 'Restriction de disponibilité';
-$string['type_availability_plural'] = 'Restrictions de disponibilité';
+$string['type_availability'] = 'Restriction d\'accès';
+$string['type_availability_plural'] = 'Restrictions d\'accès';
 $string['type_block'] = 'Bloc';
 $string['type_block_plural'] = 'Blocs';
 $string['type_cachelock'] = 'Gestionnaire de verrou de cache';
@@ -118,6 +120,8 @@ $string['type_calendartype'] = 'Type de calendrier';
 $string['type_calendartype_plural'] = 'Types de calendriers';
 $string['type_coursereport'] = 'Rapport de cours';
 $string['type_coursereport_plural'] = 'Rapports du cours';
+$string['type_dataformat'] = 'Format de données';
+$string['type_dataformat_plural'] = 'Formats de données';
 $string['type_editor'] = 'Éditeur';
 $string['type_editor_plural'] = 'Éditeurs';
 $string['type_enrol'] = 'Méthode d\'inscription';
@@ -158,6 +162,8 @@ $string['type_report'] = 'Rapport de site';
 $string['type_report_plural'] = 'Rapports';
 $string['type_repository'] = 'Dépôt';
 $string['type_repository_plural'] = 'Dépôts';
+$string['type_search'] = 'Moteur de recherche';
+$string['type_search_plural'] = 'Moteurs de recherche';
 $string['type_theme'] = 'Thème';
 $string['type_theme_plural'] = 'Thèmes';
 $string['type_tool'] = 'Outil d\'administration';

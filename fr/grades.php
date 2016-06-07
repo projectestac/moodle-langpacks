@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'grades', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -179,7 +179,7 @@ $string['editverbose'] = 'Modifier {$a->category} {$a->itemmodule} {$a->itemname
 $string['enableajax'] = 'Activer AJAX';
 $string['enableajax_help'] = 'Ajoute des fonctionnalités AJAX au rapport de l\'évaluateur, pour simplifier et accélérer les opérations habituelles. Nécessite l\'activation de Javascript sur le navigateur de l\'utilisateur.';
 $string['enableoutcomes'] = 'Activer les objectifs';
-$string['enableoutcomes_help'] = 'L\'activation des objectifs (compétences, buts, standards ou critères) permet d\'évaluer les résultats d\'après un ou plusieurs barèmes liés à des énoncés d\'objectifs. L\'activation de ce réglage active cette option  pour tout le site.';
+$string['enableoutcomes_help'] = 'Si ce réglage est activé, les éléments d\'évaluation peuvent être évalués d\'après un ou plusieurs barèmes liés à des énoncés d\'objectifs.';
 $string['encoding'] = 'Encodage';
 $string['encoding_help'] = 'Sélectionner l\'encodage des caractères utilisé pour ces données (l\'encodage standard est UTF-8). Si un mauvais encodage est choisi par inadvertance, cela sera visible lors de la prévisualisation des données à importer.';
 $string['errorcalculationbroken'] = 'Référence circulaire ou formule de calcul incorrecte';
@@ -468,10 +468,30 @@ $string['missingitemtypeoreid'] = 'Clef de tableau (itemtype ou eid) manquante d
 $string['missingscale'] = 'Un barème doit être sélectionné';
 $string['mode'] = 'Mode';
 $string['modgrade'] = 'Note';
+$string['modgradecantchangegradetype'] = 'Il n\'est pas possible de modifier le type, car des notes existent déjà pour cet élément.';
+$string['modgradecantchangegradetypemsg'] = 'Des notes ont déjà été données, donc le type de note ne peut plus être modifié. Si vous voulez changer la note maximale, vous devez d\'abord décider si vous voulez ou non adapter en conséquence les notes existantes.';
+$string['modgradecantchangegradetyporscalemsg'] = 'Des notes ont déjà été données, donc le type de note et le barème ne peuvent plus être modifiés.';
+$string['modgradecantchangeratingmaxgrade'] = 'Il n\'est pas possible de modifier la note maximale lorsque des notes existent déjà pour une activité.';
+$string['modgradecantchangescale'] = 'Il n\'est pas possible de modifier ce barème, car des notes existent déjà avec cet élément.';
+$string['modgradecategorycantchangegradetypemsg'] = 'Certains éléments d\'évaluation associés à cette catégorie ont été modifiés manuellement et des notes ont déjà été attribuées. De ce fait, le type de note ne peut pas être modifié. Si vous voulez changer la note maximale, vous devez d\'abord décider si vous voulez adapter proportionnellement les notes existantes.';
+$string['modgradecategorycantchangegradetyporscalemsg'] = 'Certains éléments d\'évaluation associés à cette catégorie ont été modifiés manuellement et des notes ont déjà été attribuées. De ce fait, le type de note ne peut pas être modifié.';
+$string['modgradecategoryrescalegrades'] = 'Adapter proportionnellement les notes modifiées manuellement';
+$string['modgradecategoryrescalegrades_help'] = 'Lorsque l\'on modifie la note maximale d\'un élément d\'évaluation, il faut indiquer si cette modification doit être reportée sur les pourcentages également.
+
+Si ce réglage est sur « Oui », toutes les notes modifiées manuellement seront adaptées proportionnellement, afin que le pourcentage reste identique.
+
+Par exemple, si la note maximale d\'un élément est changée de 10 à 20, une note de 6/10 (= 60 %) sera adaptée à 12/20 (= 60 %). Si ce réglage est sur « Non », la note ne sera pas modifiée, et nécessitera un ajustement manuel afin que le score pour l\'élément d\'évaluation reste correct.';
+$string['modgradedonotmodify'] = 'Ne pas modifier les notes existantes';
 $string['modgradeerrorbadpoint'] = 'Note non valide. Ce doit être un nombre entier entre 1 et {$a}';
 $string['modgradeerrorbadscale'] = 'Barème non valide sélectionné. Veuillez vous assurer de choisir un barème dans la liste ci-dessous.';
 $string['modgrade_help'] = 'Sélectionnez le type de note utilisée dans cette activité. Si « Barème » est choisi, vous pourrez sélectionner un barème dans le menu déroulant. Si « Point » est choisi, vous pourrez spécifier la note maximale pour cette activité.';
-$string['modgrademaxgrade'] = 'Nombre maximum de points';
+$string['modgrademaxgrade'] = 'Note maximale';
+$string['modgraderescalegrades'] = 'Adapter les notes existantes';
+$string['modgraderescalegrades_help'] = 'Lors du changement de la note maximale d\'un élément du carnet de note, il est nécessaire d\'indiquer si la modification devra également adapter en conséquence les notes déjà existantes.
+
+Si ce réglage est activé, toutes les notes existantes seront adaptées afin que les pourcentages restent identiques.
+
+Par exemple, si le réglage est activé, en modifiant la note maximale d\'un élément de 10 à 20, une note de 6/10 (60 %) sera adaptée à 12/20 (60 %). Si le réglage est désactivé, la note restera à 6, et donc passera effectivement de 6/10 (60 %) à 6/20 (30 %), ce qui nécessitera un ajustement manuel afin d\'assurer que les scores soient corrects.';
 $string['modgradetype'] = 'Type';
 $string['modgradetypenone'] = 'Aucun';
 $string['modgradetypepoint'] = 'Point';
@@ -482,6 +502,7 @@ $string['movingelement'] = 'Déplacement de {$a}';
 $string['multfactor'] = 'Multiplicateur';
 $string['multfactor_help'] = 'Le multiplicateur est un nombre par lequel toutes les notes de cet élément d\'évaluation seront multipliées, sans toutefois dépasser la note maximale. Par exemple, si le multiplicateur est 2 et que la note maximale est 100, toutes les notes inférieures à 50 seront doublées, et les notes 50 et plus seront mises à 100.';
 $string['multfactorvalue'] = 'Multiplicateur pour {$a}';
+$string['mustchooserescaleyesorno'] = 'Veuillez décider si vous voulez ou non adapter les notes existantes.';
 $string['mygrades'] = 'Lien notes du menu utilisateur';
 $string['mygrades_desc'] = 'Ce réglage permet de spécifier dans le menu utilisateur un lien vers un carnet de notes externe.';
 $string['mypreferences'] = 'Mes préférences';
@@ -600,6 +621,7 @@ $string['rawpct'] = '% brut';
 $string['real'] = 'Brut';
 $string['realletter'] = 'Brut (lettre)';
 $string['realpercentage'] = 'Brut (pourcentage)';
+$string['recalculatinggrades'] = 'Re-calcul des notes';
 $string['recovergradesdefault'] = 'Récupérer par défaut les notes';
 $string['recovergradesdefault_help'] = 'Par défaut, récupérer les anciennes notes lors de la ré-inscription d\'un participant à un cours.';
 $string['refreshpreview'] = 'Actualiser la prévisualisation';
@@ -734,7 +756,7 @@ $string['uncategorised'] = 'Sans catégorie';
 $string['unchangedgrade'] = 'Non inchangée';
 $string['unenrolledusersinimport'] = 'Ce fichier d\'importation contenait les notes suivantes d\'utilisateurs n\'étant actuellement pas inscrits dans ce cours : {$a}';
 $string['unlimitedgrades'] = 'Notes illimitées';
-$string['unlimitedgrades_help'] = 'Par défaut, les notes sont limitées par les valeurs maximales et minimales de l\'élément d\'évaluation. L\'activation de ce réglage retire cette limite et permet de saisir directement des notes dépassant 100%. Il est recommandé de ne modifier ce réglage que durant des heures creuses, car toutes les notes seront recalculées, ce qui pourrait occasionner une charge élevée sur le serveur.';
+$string['unlimitedgrades_help'] = 'Par défaut, les notes sont limitées par les valeurs maximales et minimales de l\'élément d\'évaluation. L\'activation de ce réglage retire cette limite et permet de saisir directement dans le carnet de notes des notes dépassant 100%.';
 $string['unlock'] = 'Déverrouiller';
 $string['unlockverbose'] = 'Déverrouiller {$a->category} {$a->itemmodule} {$a->itemname}';
 $string['unused'] = 'Pas utilisée';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_activity_results', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_activity_results', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   block_activity_results
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activity_results:addinstance'] = 'Добавлять новый блок «Результаты курса»';
+$string['activity_results:addinstance'] = 'Добавлять новый блок «Оценки за элемент курса»';
 $string['bestgrade'] = 'Самая высокая оценка:';
 $string['bestgrades'] = '{$a} самых высоких оценок:';
 $string['bestgroupgrade'] = 'Группа с наивысшим средним:';
@@ -35,22 +35,22 @@ $string['config_format_absolute'] = 'Абсолютные значения';
 $string['config_format_fraction'] = 'Доли';
 $string['config_format_percentage'] = 'Проценты';
 $string['config_grade_format'] = 'Показывать оценки как';
-$string['config_name_format'] = 'Конфиденциальность результатов';
-$string['config_names_anon'] = 'Анонимные результаты';
-$string['config_names_full'] = 'Показывать полные имена';
+$string['config_name_format'] = 'Конфиденциальность оценок';
+$string['config_names_anon'] = 'Анонимные оценки';
+$string['config_names_full'] = 'Показывать полные имена пользователей';
 $string['config_names_id'] = 'Показывать только идентификаторы';
 $string['config_no_activities_in_course'] = 'В этом курсе еще нет элементов.';
-$string['config_select_activity'] = 'Результаты каких элементов должны отображаться в этом блоке?';
-$string['config_show_best'] = 'Сколько наивысших оценок должно быть показано (0 для отключения)?';
-$string['config_show_worst'] = 'Сколько самых низких оценок должно быть показано (0 для отключения)?';
-$string['configuredtoshownothing'] = 'Настройка данного блока не позволяет сейчас показывать какие-либо результаты.';
+$string['config_select_activity'] = 'Оценки за какой из элементов курса должны отображаться в этом блоке?';
+$string['config_show_best'] = 'Сколько наивысших оценок должно быть отображено (укажите 0 для отключения)?';
+$string['config_show_worst'] = 'Сколько самых низких оценок должно быть отображено (укажите 0 для отключения)?';
+$string['configuredtoshownothing'] = 'Настройки данного блока не позволяют сейчас отображать какие-либо оценки.';
 $string['config_use_groups'] = 'Показывать группы вместо студентов (если элемент поддерживает группы)?';
-$string['error_emptyactivityid'] = 'Пожалуйста, настройте этот блок - выберите, результаты каких элементов должны отображаться.';
+$string['error_emptyactivityid'] = 'Пожалуйста, настройте этот блок и укажите, оценки за какой из элементов курса должны отображаться.';
 $string['error_emptyactivityrecord'] = 'Ошибка: выбранный элемент курса не существует в базе данных.';
 $string['error_nogroupsexist'] = 'Ошибка: блок настроен показывать оценки в групповом режиме, но группы не заданы.';
 $string['error_unsupportedgradetype'] = 'Ошибка: выбранный элемент курса использует метод оценки, который не поддерживается данным блоком.';
 $string['notyetgraded'] = 'Еще не оценено';
-$string['pluginname'] = 'Результаты элементов курса';
+$string['pluginname'] = 'Оценки за элемент курса';
 $string['unknown'] = 'Неизвестная шкала';
 $string['worstgrade'] = 'Самая низкая оценка:';
 $string['worstgrades'] = '{$a} самых низких оценок:';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'cache', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,8 +53,8 @@ $string['cachedef_plugin_manager'] = 'Gestor d\'informació de connectors';
 $string['cachedef_questiondata'] = 'Definicions de qüestions';
 $string['cachedef_repositories'] = 'Dades d\'instàncies dels repositoris';
 $string['cachedef_string'] = 'Memòria cau de cadenes d\'idioma';
-$string['cachedef_suspended_userids'] = 'Llista d\'usuaris suspesos per curs';
-$string['cachedef_userselections'] = 'Dades utilitzades per a persistència de seleccions d\'usuaris a través de Moodle';
+$string['cachedef_suspended_userids'] = 'Llista d\'usuaris amb la inscripció suspesa per curs';
+$string['cachedef_userselections'] = 'Dades utilitzades per a persistència de les seleccions dels usuaris a través de Moodle';
 $string['cachedef_yuimodules'] = 'Definicions del mòdul YUI';
 $string['cachelock_file_default'] = 'Blocatge de fitxers per defecte';
 $string['cachestores'] = 'Magatzems de la memòria cau';

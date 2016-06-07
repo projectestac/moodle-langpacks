@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'admin', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'admin', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   admin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -60,7 +60,6 @@ $string['allowuserswitchrolestheycantassign'] = 'Permitir a los usuarios sin el 
 $string['allowuserthemes'] = 'Permitir estilos al usuario';
 $string['alternativefullnameformat'] = 'Formato del nombre completo alternativo';
 $string['alternativefullnameformat_desc'] = 'Define como se muestran los nombres a los usuarios que tienen activado el permiso "viewfullnames" (por defecto, disponible en usuarios con roles de gestor, profesor o profesor sin permisos de edición). Los marcadores que pueden ser usados vienen determinados por el parámetro \'Formato de nombre completo\'.';
-$string['antivirus'] = 'Antivirus';
 $string['appearance'] = 'Apariencia';
 $string['aspellpath'] = 'Ruta a aspell';
 $string['authentication'] = 'Identificación';
@@ -117,7 +116,6 @@ $string['change'] = 'cambiar';
 $string['checkboxno'] = 'No';
 $string['checkboxyes'] = 'Sí';
 $string['choosefiletoedit'] = 'Elija un archivo para editar';
-$string['clamfailureonupload'] = 'Fallo en clam AV';
 $string['cleanup'] = 'Limpieza';
 $string['clianswerno'] = 'n';
 $string['cliansweryes'] = 's';
@@ -164,9 +162,6 @@ $string['configautologinguests'] = '¿Deberá permitirse a los visitantes autom�
 $string['configbloglevel'] = 'Esta opción le permite restringir el nivel en el que pueden verse los blogs de los usuarios en este sitio. Advierta que se especifica el contexto máximo de quien los ve, pero no de quien envía mensajes ni de los tipos de mensaje enviados al blog. Los blogs pueden también deshabilitarse completamente si así lo desea.';
 $string['configcalendarcustomexport'] = 'Habilitar exportación personalizada de un rango de fechas del calendario';
 $string['configcalendarexportsalt'] = 'Esta cadena de caracteres aleatorios se utiliza para mejorar las claves de seguridad (tokens) de identificación utilizadas para la exportación de los calendarios. Tenga en cuenta que todas las claves de seguridad actuales quedarán invalidadas si modifica esta sal.';
-$string['configclamactlikevirus'] = 'Tratar archivos como virus';
-$string['configclamdonothing'] = 'Tratar archivos como buenos';
-$string['configclamfailureonupload'] = 'Si ha configurado clam para escanear archivos subidos, pero está mal configurado o no funciona por alguna razón desconocida, ¿cómo debería comportarse? Si selecciona \'Tratar archivos como virus\', tales archivos serán trasladados al área de cuarentena, o eliminados. Si selecciona \'Tratar los archivos como buenos\', los archivos serán trasladados al directorio de destino. En cualquier caso, los administradores recibirán una alerta cuando clam falle. Si selecciona \'Tratar los archivos como virus\' y por alguna razón clam no funciona (normalmente debido a que ha introducido una ruta no válida), TODOS los archivos subidos serán llevados al área de cuarentena, o eliminados. Sea cuidadoso con esta configuración.';
 $string['configcookiehttponly'] = 'Habilita la nueva característica de PHP 5.2.0: se instruye a los navegadores para que envíen una \'cookie\' sólo a petición de http reales. Las \'cookies\' no deberían ser accesibles desde lenguajes de script. No todos los navegadores pueden ejecutar esta opción, y podría no ser compatible con el código actual. Ayuda a prevenir algunos tipos de ataques XSS.';
 $string['configcookiesecure'] = 'Si el servidor únicamente acepta conexiones https, se recomienda habilitar el envío de \'cookies\' seguras. Si la opción está activada, asegúrese por favor de que el servidor web no acepta http:// ni ha fijado una redirección permanente a direcciones https:// Cuando una dirección <em>wwwroot</em> no comienza con https:// este ajuste se desactiva automáticamente.';
 $string['configcountry'] = 'Si selecciona un país, dicho país quedará como valor por defecto para nuevos usuarios o cuentas. Para forzar a los usuarios a elegir un país, deje la opción sin seleccionar.';
@@ -176,7 +171,7 @@ $string['configcourserequestnotify'] = 'Escriba el nombre de usuario a quien se 
 $string['configcourserequestnotify2'] = 'Usuarios a quienes se notificará cuando un campo es requerido. En esta lista figuran únicamente los usuarios que pueden aprobar las solicitudes de curso.';
 $string['configcoursesperpage'] = 'Introduzca el número de cursos a mostrar por página en un listado de cursos.';
 $string['configcourseswithsummarieslimit'] = 'El número máximo de cursos que se mostrarán en un listado de cursos que incluye resúmenes antes de volver de nuevo a una lista simple.';
-$string['configcronclionly'] = 'Si se activa esta opción, el script del cron sólo podrá ejecutarse desde una línea de comandos en lugar de vía web. Esto anula el ajuste de más abajo de contraseña del cron.';
+$string['configcronclionly'] = 'Ejecutar el programador de tareas cron desde un navegador web puede exponer información privilegiada a usuarios anónimos. Por ello se recomienda ejecutar cron solamente desde la línea de comandos o establecer una contraseña en cron para el acceso remoto.';
 $string['configcronremotepassword'] = 'Esto significa que el script cron.php no puede ejecutarse desde un navegador web sin suministrar la contraseña usando la siguiente formato para la URL:<pre>http://site.example.com/admin/cron.php?password=opensesame
 </pre>Si se deja vacío, no se necesita contraseña.';
 $string['configcurlcache'] = 'Tiempo de vigencia (en segundos) de la caché cURL.';
@@ -192,7 +187,7 @@ Comunidad Moodle|https://moodle.org
 Moodle.com|http://moodle.com/
 </pre>';
 $string['configcustomusermenuitems'] = 'Puede configurar los contenidos del menú de usuario (con la excepción del enlace de salir, el cual es automáticamente añadido). Cada línea se separa por carácteres | y consiste en 1) una cadena con el formato "langstringname, componentname" o como texto plano, 2) una URL, y 3) un icono bien un icono pix o como una URL. Los separadores pueden ser utilizados para añadir una línea o más carácteres # donde se desee.';
-$string['configdbsessions'] = 'Si elige esta opción, se usará la base de datos para almacenar información sobre las sesiones actuales. Esto es especialmente útil para sitios grandes u ocupados construídos sobre racimos (\'clusters\') de servidores. En la mayoría de los casos debería dejarse en blanco de modo que se use en su lugar el disco del servidor. Note que la modificación de este ajuste desconectará a todos los usuarios, incluído usted.';
+$string['configdbsessions'] = 'Si elige esta opción, se usará la base de datos para almacenar información sobre las sesiones actuales. Tenga en cuenta que la modificación de este ajuste desconectará a todos los usuarios (incluído usted). Si está utilizando MySQL por favor confirme que la opción \'max_allowed_packet\' en my.cnf (o my.ini) es de por lo menos 4M. Otros drivers de sesión pueden ser configurados directamente en config.php, lea el fichero config-dist.php para más información. Esta opción desaparece si usted especifica un driver de sesión en el fichero config.php.';
 $string['configdebug'] = 'Si activa esta opción, se incrementará el error_reporting de PHP, de modo que recibirá más advertencias. Sólo resulta útil para los desarrolladores.';
 $string['configdebugdisplay'] = 'Si activa esta opción, el informe de errores irá a la página HTML. Es práctico pero rompe XHTML, JS, \'cookies\' y cabeceras HTTP en general. Si deshabilita esta opción, se enviarán las salidas a los registros del servidor, permitiendo una mejor depuración. El parámetro de configuración de PHP <b>error_log</b>controla a qué registro va el error.';
 $string['configdebugpageinfo'] = 'Habilítelo si desea que la información de la página aparezca en el pie de página.';
@@ -294,7 +289,6 @@ $string['configopentogoogle'] = 'Si activa esta opción, se permitirá a Google 
 $string['configoverride'] = 'Definido en config.php';
 $string['configpasswordpolicy'] = 'Si se activa esta opción, Moodle contrastará las contraseñas del usuario con especificaciones de validez de contraseñas. Use los ajustes de más abajo para fijar tales especificaciones (serán pasadas por alto si selecciona \'No\').';
 $string['configpasswordresettime'] = 'Especifica de cuánto tiempo se dispone para validar una solicitud de restablecimiento de contraseña antes de que caduque. En general 30 minutos es un buen valor.';
-$string['configpathtoclam'] = 'Ruta a clam AV. Probablemente algo parecido a /usr/bin/clamscan or /usr/bin/clamdscan. Esta ruta es necesaria para que clam AV funcione.';
 $string['configpathtodu'] = 'Ruta a du (probablemente algo parecido a /usr/bin/du). Si escribe esto, las páginas que muestran el contenido del directorio se ejecutarán mucho más rápidamente cuando los directorios contengan muchos archivos.';
 $string['configperfdebug'] = 'Si activa esta opción, aparecerá la información sobre el rendimiento en el pie de página del tema estándar.';
 $string['configprofileroles'] = 'Lista de roles que son visibles en los perfiles de usuario y en la página de participación.';
@@ -306,7 +300,6 @@ $string['configproxypassword'] = 'Contraseña necesaria para acceder a internet 
 $string['configproxyport'] = 'Si este servidor necesita usar un ordenador proxy, escriba aquí el puerto del proxy.';
 $string['configproxytype'] = 'Tipo de proxy web (se requiere extensión PHP5 y cURL para apoyo SOCKS5).';
 $string['configproxyuser'] = 'Nombre de usuario necesario para acceder a internet a través del proxy; dejar vacío en caso contrario (se requiere extensión PHP cURL).';
-$string['configquarantinedir'] = 'Si desea que clam AV traslade los archivos infectados a un directorio de cuarentena, escríbalo aquí. El directorio debe tener permiso de escritura en el servidor. Si lo deja en blanco, o si escribe un directorio inexistente o sin permiso de escritura, los archivos infectados serán destruídos. No incluya la barra final.';
 $string['configrecaptchaprivatekey'] = 'Cadena de caracteres usada para comunicarse entre su servidor Moodle y el servidor recaptcha.net. Obtenga una para este sitio visitando http://recaptcha.net';
 $string['configrecaptchapublickey'] = 'Cadena de caracteres usados para mostrar el elemento reCAPTCHA en el formulario de acceso. Generada por http://recaptcha.net';
 $string['configrequestcategoryselection'] = 'Permitir la selección de una categoría cuando se solicita un curso.';
@@ -314,8 +307,6 @@ $string['configrequestedstudentname'] = 'Término utilizado para \'estudiante\' 
 $string['configrequestedstudentsname'] = 'Término utilizado para \'estudiantes\' en los cursos solicitados';
 $string['configrequestedteachername'] = 'Término utilizado para \'profesor\' en los cursos solicitados';
 $string['configrequestedteachersname'] = 'Término utilizado para \'profesores\' en los cursos solicitados';
-$string['configrunclamavonupload'] = 'Cuando se activa, clam AV se usará para escanear todos los archivos subidos.';
-$string['configrunclamonupload'] = '¿Deberá ejecutarse clam AV cuando se sube un archivo? Para que esto funcione es necesaria una ruta correcta \'pathtoclam\'. (Clam AV es un programa antivirus gratuito que se puede bajar de http://www.clamav.net/)';
 $string['configsectioninterface'] = 'Interfaz';
 $string['configsectionmail'] = 'Correo electrónico';
 $string['configsectionmaintenance'] = 'Mantenimiento';
@@ -781,7 +772,6 @@ $string['passwordpolicy'] = 'Política de contraseñas';
 $string['passwordresettime'] = 'Tiempo máximo para validar una solicitud de restablecimiento de contraseña';
 $string['passwordreuselimit'] = 'Límite de rotación de contraseñas';
 $string['passwordreuselimit_desc'] = 'Número de veces que un usuario puede cambiar su contraseña antes de que se le permita reutilizar una contraseña. Los hashes de las contraseñas utilizadas anteriormente son almacenados en una tabla de la base de datos local. Esta opción puede no ser compatible con algunos plugins de autentificación externos.';
-$string['pathtoclam'] = 'ruta a clam AV';
 $string['pathtodot'] = 'Ruta a dot';
 $string['pathtodot_help'] = 'Ruta hasta el ejecutable de dot. Probablemente algo como /usr/bin/dot. Para ser capaz de generar gráficos a partir de ficheros DOT necesita tener instalado el ejecutable de dot (de las utilidades Graphviz) y apuntar al mismo desde aquí. Note que por ahora solo lo usan las características de perfilado (Desarrollo->Perfilado) incorporadas en Moodle.';
 $string['pathtodu'] = 'Ruta a du';
@@ -822,7 +812,7 @@ $string['profiledefaultcategory'] = 'Otros campos';
 $string['profiledefaultchecked'] = 'Marcado por defecto';
 $string['profiledefaultdata'] = 'Valor por defecto';
 $string['profiledeletecategory'] = 'Eliminando una categoría';
-$string['profiledeletefield'] = 'Eliminando el campo \'{a}\'';
+$string['profiledeletefield'] = 'Eliminando el campo \'{$a}\'';
 $string['profiledescription'] = 'Descripción del campo';
 $string['profiledscript'] = 'Este script ha sido perfilado';
 $string['profiledscriptview'] = 'Ver información de perfil para este script';
@@ -886,7 +876,6 @@ $string['proxyuser'] = 'Nombre de usuario del proxy';
 $string['purgecaches'] = 'Purgar todas las cachés';
 $string['purgecachesconfirm'] = 'Moodle puede guardar en caché los temas, javascript, cadenas de idioma, texto filtrado, RSS feeds y muchos otros datos. La depuración de estos datos en el servidor forzará a los navegadores de los clientes a actualizar la información y usted se asegurará de que los usuarios están viendo la información con los cambios más recientes. No se corre ningún riesgo por hacerlo, aunque su sitio podría parecer algo más lento en un principio hasta que el servidor y los clientes vuelven a actualizar la información guardándose nuevamente los datos en la caché.';
 $string['purgecachesfinished'] = 'Todas las cachés han sido purgadas';
-$string['quarantinedir'] = 'Directorio de cuarentena';
 $string['question'] = 'Pregunta';
 $string['questionbehaviours'] = 'Comportamientos de las preguntas';
 $string['questioncwqpfscheck'] = 'Una o más preguntas \'aleatorias\' de un cuestionario se disponen para seleccionar preguntas de una mezcla de categorías de pregunta compartidas y no compartidas. Puede ver un informe más detallado <a href="{$a->reporturl}">aquí</a> o consultar la página de Moodle Docs <a href="{$a->docsurl}">here</a>.';
@@ -933,7 +922,6 @@ $string['riskxssshort'] = 'Riesgo XSS';
 $string['roleswithexceptions'] = '{$a->roles}, con {$a->exceptions}
 ';
 $string['rssglobaldisabled'] = 'Deshabilitado en el nivel servidor';
-$string['runclamavonupload'] = 'Usar clam AV en archivos subidos';
 $string['save'] = 'Guardar';
 $string['savechanges'] = 'Guardar cambios';
 $string['search'] = 'Buscar';
@@ -1019,6 +1007,7 @@ $string['taskcachecleanup'] = 'Eliminar entradas de caché expiradas';
 $string['taskcachecron'] = 'Procesamiento de cachés en segundo plano';
 $string['taskcalendarcron'] = 'Enviar notificaciones de calendario';
 $string['taskcheckforupdates'] = 'Comprobar actualizaciones';
+$string['taskcompletionregular'] = 'Calcular rellenado de datos normal';
 $string['taskcontextcleanup'] = 'Limpiar contextos';
 $string['taskcreatecontexts'] = 'Crear contextos que faltan';
 $string['taskdeletecachetext'] = 'Eliminar registros de caché antiguos';
@@ -1082,6 +1071,7 @@ $string['updateavailabledetailslink'] = 'Vea {$a->url} para más detalles';
 $string['updateavailableforplugin'] = '¡Hay nuevas versiones disponibles para algunas de sus extensiones!';
 $string['updateavailableinstall'] = 'Instalar esta actualización';
 $string['updateavailableinstallall'] = 'Instalar actualizaciones disponibles ({$a})';
+$string['updateavailableinstallallhead'] = 'Instalando actualizaciones disponibles';
 $string['updateavailable_moreinfo'] = 'Más información...';
 $string['updateavailablenot'] = 'Su Moodle está actualizado';
 $string['updateavailablerecommendation'] = 'Se recomienda encarecidamente que actualice su sitio a la última versión para obtener todas las correcciones de bugs y de seguridad recientes.';
@@ -1099,6 +1089,8 @@ $string['upgradeerror'] = 'Error desconocido de actualización {$a->plugin} a la
 ';
 $string['upgradeforumread'] = 'Se ha incorporado a Moodle 1.5 una nueva característica para rastrear mensajes enviados al foro leídos y no leídos.<br />Para hacer uso de esta funcionalidad, necesita <a href="{$a}">actualizar sus tablas</a>.';
 $string['upgradeforumreadinfo'] = 'Se ha incorporado a Moodle 1.5 una nueva funcionalidad para rastrear mensajes enviados al foro leídos y no leídos. Para hacer uso de ella, necesita actualizar sus tablas con toda la información concerniente a los mensajes existentes. Dependiendo del tamaño del sitio, esto puede llevar mucho tiempo (horas) y hacer un uso intensivo de la base de datos, de modo que es mejor llevar a cabo esta operación durante un período de tranquilidad. Sin embargo, el sitio continuará funcionando durante la actualización y los usuarios no se verán afectados. Una vez que comience este proceso, debería dejarlo terminar (i.e., mantenga abierta la ventana del navegador). En todo caso, si detiene el proceso cerrando la ventana, no se preocupe, siempre podrá recomenzar.<br /><br />¿Desea comenzar el proceso de actualización ahora?';
+$string['upgradekeyreq'] = 'Clave de actualización requerida';
+$string['upgradekeyset'] = 'Clave de actualización (dejar en blanco para no establecerla)';
 $string['upgradelogs'] = 'Para conseguir una funcionalidad total, sus registros antiguos deben ser actualizados. <a href="{$a}">Más información</a>';
 $string['upgradelogsinfo'] = 'Recientemente se han llevado a cabo algunos cambios en la forma en que se almacenan los registros. Para poder ver sus registros antiguos clasificados por actividad, esos registros se deben actualizar. Dependiendo del tamaño de su sitio este proceso puede tardar bastante tiempo (e.g., varias horas) puesto que habrá de consultar continuamente la base de datos. Una vez iniciado el proceso debe permitir que llegue a su fin (manteniendo la ventana de su navegador abierta). No se preocupe: durante este proceso su sitio funcionará correctamente para los otros usuarios.<br /><br /> ¿Desea actualizar sus registros ahora?';
 $string['upgradepluginsfirst'] = 'Se recomienda instalar primero todas las actualizaciones disponibles';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'plugin', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -93,7 +93,7 @@ $string['rootdir'] = 'Diretorio';
 $string['settings'] = 'Configurações';
 $string['source'] = 'Fonte';
 $string['sourceext'] = 'Módulo adicional';
-$string['sourcestd'] = 'Standard';
+$string['sourcestd'] = 'Padrão';
 $string['status'] = 'Estado';
 $string['status_delete'] = 'Para apagar';
 $string['status_downgrade'] = 'A versão mais recente já foi instalada!';
@@ -185,7 +185,7 @@ $string['validationmsg_componentmismatchname'] = 'Incompatibilidade de nome do m
 $string['validationmsg_componentmismatchname_help'] = 'Alguns pacotes ZIP, tais como os gerados pelo Github, podem conter um nome incorreto da diretoria raiz. É preciso corrigir o nome da diretoria raiz para que este corresponda ao nome do módulo declarado.';
 $string['validationmsg_componentmismatchname_info'] = 'O módulo declara que o seu nome é \'{$a}\', mas que este não corresponde ao nome da diretoria raiz.';
 $string['validationmsg_componentmismatchtype'] = 'Incompatibilidade de tipo do módulo';
-$string['validationmsg_componentmismatchtype_info'] = 'Selecionou o tipo \'{$a->expected}\' mas o plugin aparenta ser do tipo \'{$a->found}\'.';
+$string['validationmsg_componentmismatchtype_info'] = 'Selecionou o tipo \'{$a->expected}\' mas o módulo aparenta ser do tipo \'{$a->found}\'.';
 $string['validationmsg_filenotexists'] = 'Ficheiro extraído não encontrado';
 $string['validationmsg_filesnumber'] = 'Não foram encontrados ficheiros suficientes no pacote';
 $string['validationmsg_filestatus'] = 'Não é possível extrair todos os ficheiros';

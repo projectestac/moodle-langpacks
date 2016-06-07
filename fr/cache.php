@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'cache', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,6 +46,7 @@ $string['cachedef_coursemodinfo'] = 'Information accumulée sur les modules et s
 $string['cachedef_databasemeta'] = 'Méta-information de base de données';
 $string['cachedef_eventinvalidation'] = 'Invalidation de l\'événement';
 $string['cachedef_externalbadges'] = 'Badges externes pour un utilisateur déterminé';
+$string['cachedef_grade_categories'] = 'Requêtes des catégories de notes';
 $string['cachedef_groupdata'] = 'Information du groupe de cours';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier - contenu nettoyé';
 $string['cachedef_langmenu'] = 'Liste des langues disponibles';
@@ -58,6 +59,9 @@ $string['cachedef_questiondata'] = 'Définitions des questions';
 $string['cachedef_repositories'] = 'Données d\'instances des dépôts';
 $string['cachedef_string'] = 'Cache des chaînes de caractères traduites';
 $string['cachedef_suspended_userids'] = 'Liste des utilisateurs suspendus, par cours';
+$string['cachedef_tagindexbuilder'] = 'Résultats de recherche pour les éléments taggés';
+$string['cachedef_tags'] = 'Collections et zones de tags';
+$string['cachedef_temp_tables'] = 'Cache des tables temporaires';
 $string['cachedef_userselections'] = 'Données utilisées pour conserver les sélections utilisateurs dans Moodle';
 $string['cachedef_yuimodules'] = 'Modules YUI';
 $string['cachelock_file_default'] = 'Verrouillage de fichier par défaut';
@@ -99,6 +103,7 @@ $string['inadequatestoreformapping'] = 'Cet entrepôt ne remplit pas les conditi
 $string['invalidlock'] = 'Verrou non valide';
 $string['invalidplugin'] = 'Plugin non valide';
 $string['invalidstore'] = 'Entrepôt de cache non valide';
+$string['localstorenotification'] = 'Ce cache peut être stocké sans risque sur un dépôt local propre à chaque serveur web.';
 $string['lockdefault'] = 'Défaut';
 $string['locking'] = 'Verrouillage';
 $string['locking_help'] = 'Le verrouillage est un mécanisme restreignant l\'accès à des données en cache à un seul processus à la fois, afin d\'empêcher l\'écrasement de données. La méthode de verrouillage détermine comment le verrou est mis en place et vérifié.';
@@ -114,7 +119,7 @@ $string['lockuses'] = 'Utilise';
 $string['mappingdefault'] = '(défaut)';
 $string['mappingfinal'] = 'Entrepôt final';
 $string['mappingprimary'] = 'Entrepôt primaire';
-$string['mappings'] = 'Correspondances de l\'entrepôt';
+$string['mappings'] = 'Entrepôts correspondants';
 $string['mode'] = 'Mode';
 $string['mode_1'] = 'Application';
 $string['mode_2'] = 'Session';
@@ -131,6 +136,7 @@ $string['requestcount'] = 'Tester avec {$a} requêtes';
 $string['rescandefinitions'] = 'Relire les définitions';
 $string['result'] = 'Résultat';
 $string['set'] = 'Set';
+$string['sharedstorenotification'] = 'Ce cache doit être stocké sur un dépôt partagé par tous les serveurs web.';
 $string['sharing'] = 'Partage';
 $string['sharing_all'] = 'Tout le monde.';
 $string['sharing_help'] = 'Ce réglage vous permet de déterminer comment les données de cache peuvent être partagées si vous avez une configuration en cluster, ou si vous avez plusieurs sites mis en place avec le même entrepôt, et souhaitez partager les données. Il s\'agit d\'un paramètre avancé, merci de vous assurer que vous comprenez son but avant de le changer.';
@@ -143,7 +149,7 @@ $string['sharingselected_version'] = 'Version';
 $string['sharing_siteid'] = 'Sites avec le même identifiant.';
 $string['sharing_version'] = 'Sites utilisant la même version.';
 $string['storeconfiguration'] = 'Configuration entrepôt';
-$string['store_default_application'] = 'Entrepôt de fichiers par défaut pour les caches d\'applications';
+$string['store_default_application'] = 'Entrepôt de fichiers par défaut pour les caches d\'application';
 $string['store_default_request'] = 'Entrepôt statique par défaut pour les caches de requêtes';
 $string['store_default_session'] = 'Entrepôt de sessions par défaut pour les caches de sessions';
 $string['storename'] = 'Nom de l\'entrepôt';

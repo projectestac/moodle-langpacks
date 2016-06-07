@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'lti', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,11 +32,9 @@ $string['accept_grades_admin'] = 'Aanvaard cijfers van de tool';
 $string['accept_grades_admin_help'] = 'Specifieer of de tool provider cijfers die geassocieerd zijn met exemplaren van deze tool mag toevoegen, updaten, lezen, en verwijderen.
 
 Sommige tool providers ondersteunen de mogelijkheid om cijfers terug te rapporteren aan Moodle op basis van acties ondernomen binnen de tool, waardoor een meer integrale ervaring wordt gecreëerd.';
-$string['accept_grades_help'] = 'Specificeer of de tool provider alleen met deze externe tool cijfers mag toevoegen, updaten, lezen, en verwijderen.
+$string['accept_grades_help'] = 'Specifieer of de tool provider cijfers die geassocieerd zijn met enkel deze externe instantie van de tool mag toevoegen, updaten, lezen, en verwijderen.
 
-Sommige tool providers ondersteunen de mogelijkheid om cijfers terug te rapporteren aan Moodle op basis van acties ondernomen binnen de tool, waardoor een meer geintegreerde ervaring wordt verkregen.
-
-Merk op dat deze instelling overschreven kan worden in de tool-configuratie.';
+Sommige tool providers ondersteunen de mogelijkheid om cijfers terug te rapporteren aan Moodle op basis van acties ondernomen binnen de tool, waardoor een meer integrale ervaring wordt gecreëerd.';
 $string['action'] = 'Actie';
 $string['active'] = 'Actief';
 $string['activity'] = 'Activiteit';
@@ -328,30 +326,22 @@ $string['share_email_admin'] = 'Deel de e-mail van de starter met de tool';
 $string['share_email_admin_help'] = 'Geef op of het e-mailadres van de gebruiker die de tool start gedeeld zal worden met de tool-provider.
 De tool-provider heeft misschien het e-mailadres van de starter nodig om gebruikers met dezelfde naam te onderscheiden of om ze e-mails te sturen, gebaseerd op acties binnnen de tool.';
 $string['share_email_help'] = 'Geef op of het e-mailadres van de gebruiker die de tool start gedeeld zal worden met de tool-provider.
-
 De tool-provider heeft misschien het e-mailadres van de starter nodig om gebruikers met dezelfde naam te onderscheiden of om ze e-mails te sturen, gebaseerd op acties binnnen de tool.
 
-Merk op dat deze instelling overschreven kan worden in de tool-configuratie.';
+Merk op dat deze instelling overschreven kan worden in de tool-configuratie';
 $string['share_name'] = 'Deel de naam van de starter met de tool';
 $string['share_name_admin'] = 'Deel de naam van de starter met de tool';
 $string['share_name_admin_help'] = 'Geef op of de volledig naam van de gebruiker die de tool start moet gedeeld worden met de tool-provider.
 De tool-provider heeft misschien de naam nodig om betekenisvolle informatie te tonen binnen de tool.';
 $string['share_name_help'] = 'Geef op of de volledig naam van de gebruiker die de tool start moet gedeeld worden met de tool-provider.
-
 De tool-provider heeft misschien de naam nodig om betekenisvolle informatie te tonen binnen de tool.
 
-Merk op dat deze instelling overschreven kan worden in de tool-configuratie.';
+Merk op dat deze instelling overschreven kan worden in de tool-configuratie';
 $string['share_roster'] = 'Geef de tool toegang tot de deelnemerslijst van de cursus';
 $string['share_roster_admin'] = 'De tool heeft toegang tot de deelnemerslijst van de cursus';
 $string['share_roster_admin_help'] = 'Geef op of de tool de gebruikerslijs kan opvragen van gebruikers die aangemeld zijn in cursussen vanwaar dit tooltype wordt gestart.';
 $string['share_roster_help'] = 'Geef op of de tool de gebruikerslijst kan opvragen van gebruikers die aangemeld zijn in deze cursus.
 Merk op dat deze instelling overschreven kan worden in de tool-configuratie.';
-$string['show_in_course'] = 'Toon tool-type wanneer je een toolinstantie aanmaakt';
-$string['show_in_course_help'] = 'Indien geselecteerd zal de configuratie van deze tool getoond worden in het "Externe tool type" rolmenu wanneer leraars externe tools configureren in cursussen.
-
-In de meeste gevallen moet deze optie niet geselecteerd worden. Leraren kunnen de toolconfiguratie gebruiken, gebaseerd op de start-URL die overeenkomt met een Tool basis-URL. Dit is de aangeraden methode.
-
-De enige reden waarom deze optie zou gekozen moeten worden, is wanneer de tool gebruikt wordt voor single sign on. Bijvoorbeeld, als elke start de gebruiker alleen maar naar een landingspagina brengt in plaats van naar een specifieke bron.';
 $string['size'] = 'Parameters afmetingen';
 $string['submission'] = 'Inzending';
 $string['submissions'] = 'Inzendingen';

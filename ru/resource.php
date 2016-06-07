@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'resource', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -94,6 +94,7 @@ $string['resourcecontent'] = 'Файлы и вложенные папки';
 $string['resourcedetails_sizetype'] = '{$a->type}, {$a->size}';
 $string['resource:exportresource'] = 'Экспортировать ресурс';
 $string['resource:view'] = 'Просматривать ресурс';
+$string['search:activity'] = 'Файл';
 $string['selectmainfile'] = 'Выберите основной файл, нажав на иконку рядом с именем файла.';
 $string['showsize'] = 'Выводить размер';
 $string['showsize_desc'] = 'Отображать размер файла на странице курса?';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_mobile', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'local_mobile', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   local_mobile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,18 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['allowpermissions'] = 'Erweitern Sie die Rechte für die Rolle \'Authentifizierte/r Nutzer/in\'';
+$string['allowpermissionsdescription'] = 'Bearbeiten Sie die Rolle \'Authentifizierte/r Nutzer/in\' und erlauben Sie das Recht moodle/webservice:createtoken.';
 $string['cannotcreatetoken'] = 'Die Token für Administratoren werden nicht automatisch generiert, sondern müssen manuell auf der Website angelegt werden.';
+$string['checkpluginconfiguration'] = 'Prüfen Sie die Plugin-Einstellungen';
+$string['enableadditionalservice'] = 'Moodle Mobile - Zusatzfunktionen aktivieren';
+$string['enableadditionalservicedescription'] = 'Dieser Service muss aktiviert sein.';
 $string['local_mobiledescription'] = 'Das Plugin erweitert den mobilen Webservice.';
 $string['local_mobilesettings'] = 'Einstellungen';
 $string['local_mobiletypeoflogin'] = 'Wählen Sie die Art der Anmeldung.';
 $string['local_mobiletypeoflogin_key'] = 'Anmeldung';
+$string['local_mobileurlscheme'] = 'URL Schema zum Login über den Webbrowser';
+$string['local_mobileurlscheme_key'] = 'URL Schema';
 $string['loginintheapp'] = 'In der App';
 $string['logininthebrowser'] = 'Im Browser (für SSO)';
 $string['pluginname'] = 'Moodle Mobile - Zusatzfeatures';

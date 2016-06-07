@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'group', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,6 +75,8 @@ $string['eventgroupcreated'] = 'Group created';
 $string['eventgroupdeleted'] = 'Group deleted';
 $string['eventgroupingcreated'] = 'Grouping created';
 $string['eventgroupingdeleted'] = 'Grouping deleted';
+$string['eventgroupinggroupassigned'] = 'Group assigned to grouping';
+$string['eventgroupinggroupunassigned'] = 'Group unassigned from grouping';
 $string['eventgroupingupdated'] = 'Grouping updated';
 $string['eventgroupmemberadded'] = 'Group member added';
 $string['eventgroupmemberremoved'] = 'Group member removed';
@@ -139,6 +141,8 @@ $string['importgroups_help'] = 'Groups may be imported via text file. The format
 * Required fieldname is groupname
 * Optional fieldnames are description, enrolmentkey, picture, hidepicture';
 $string['importgroups_link'] = 'group/import';
+$string['includeonlyactiveenrol'] = 'Include only active enrolments';
+$string['includeonlyactiveenrol_help'] = 'If enabled, suspended users will not be included in groups.';
 $string['javascriptrequired'] = 'This page requires JavaScript to be enabled.';
 $string['members'] = 'Members per group';
 $string['membersofselectedgroup'] = 'Members of:';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_configurable_reports', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_configurable_reports', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   block_configurable_reports
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -65,4 +65,5 @@ $string['datatables_processing'] = 'S\'està processant...';
 $string['disabled'] = 'Inhabilitat';
 $string['download'] = 'Descarrega';
 $string['statslogins'] = 'Inicis de sessió a la plataforma';
+$string['type'] = 'Tipus d\'informes';
 $string['viewreport'] = 'Mostra l\'informe';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_grade', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'availability_grade', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   availability_grade
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['cachedef_items'] = 'Wert (Bewertung), der zur Prüfung des Zugriffskriteriums verwendet wird';
-$string['cachedef_scores'] = 'Nutzerbewertung, die zur Prüfung des Zugrifskriteriums verwendet wird.';
-$string['description'] = 'Teilnehmer/innen müssen einen festgelegten Wert erzielt haben.';
+$string['cachedef_items'] = 'Bewertungselement, das zur Prüfung des Zugriffskriteriums verwendet wird';
+$string['cachedef_scores'] = 'Nutzerbewertung, die zur Prüfung des Zugrifskriteriums verwendet wird';
+$string['description'] = 'Zugriff über eine vorgegebene Bewertung steuern';
 $string['error_backwardrange'] = 'Wenn ein Bewertungsbereich angegeben wird, muss der Mindestwert niedriger sein als der Höchstwert.';
 $string['error_invalidnumber'] = 'Der Bewertungsbereich darf sich nur innerhalb des zulässigen Wertebereichs bewegen.';
 $string['error_selectgradeid'] = 'Sie müssen eine Bewertung auswählen.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'book', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,6 +86,8 @@ $string['numberingoptions_desc'] = 'Le opzioni di numerazione da rendere disponi
 $string['page-mod-book-x'] = 'Qualsiasi pagina con modulo libro';
 $string['pluginadministration'] = 'Gestione libro';
 $string['pluginname'] = 'Libro';
+$string['search:activity'] = 'Libro - Informazioni sulla risorsa';
+$string['search:chapter'] = 'Libro - Capitoli';
 $string['showchapter'] = 'Visualizza capitolo "{$a}"';
 $string['subchapter'] = 'Paragrafo';
 $string['subchapternotice'] = '(Disponibile solo dopo la creazione del primo capitolo)';

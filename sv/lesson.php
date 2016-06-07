@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'lesson', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -188,7 +188,7 @@ $string['displayofgrade'] = 'Visning av betyg/omdöme';
 $string['displayreview'] = 'Tillhandahåll ett alternativ att försöka svara på en fråga igen';
 $string['displayreview_help'] = '<p>Det här kommer om det är aktiverat att visa en knapp efter en fråga som har besvarats felaktigt. Då kan studenten/ eleven/ deltagaren/ den lärande antingen göra ett nytt försök att besvara frågan men utan att få poäng för det eller att fortsätta. Det fungerar inte
 med essäfrågor så aktivera inte detta om Du använder sådana frågor.</p>';
-$string['displayscorewithessays'] = 'Du har uppnått {$a->score} av {$a->tempmaxgrade} för de frågor som betygssätts automatiskt.<br>Din/a {$a->essayquestions} essäfråga/or kommer att betygsättas och läggas till<br>ditt slutresultat vid ett senare tillfälle.<br><br>Ditt aktuella betyg utan essäfråga/or är {$a->score} av {$a->grade}';
+$string['displayscorewithessays'] = 'Du har uppnått {$a->score} av {$a->tempmaxgrade} för de frågor som betygssätts automatiskt.<br>Din/a {$a->essayquestions} essäfråga/or kommer att betygsättas och läggas till<br>Ditt slutresultat vid ett senare tillfälle.<br><br>Ditt aktuella betyg utan essäfråga/or är {$a->score} av {$a->grade}';
 $string['displayscorewithoutessays'] = 'Ditt resultat är {$a->score} (av {$a->grade}).';
 $string['edit'] = 'Redigera';
 $string['editingquestionpage'] = 'Redigerar frågesidan {$a} ';
@@ -387,7 +387,7 @@ $string['lesson:edit'] = 'Redigera en aktivitet av typen lektion';
 $string['lessonformating'] = 'Att formatera lektioner';
 $string['lesson:manage'] = 'Administrera en aktivitet av typen lektion';
 $string['lessonmenu'] = 'Meny för lektion';
-$string['lessonnotready'] = 'Den här lektionen är klar för användning. Var snäll och kontakta din {$a}.';
+$string['lessonnotready'] = 'Den här lektionen är klar för användning. Var snäll och kontakta Din {$a}.';
 $string['lessonnotready2'] = 'Den här lektionen är ännu inte färdig för användning';
 $string['lessonopen'] = 'Den här lektionen kommer att öppnas {$a}';
 $string['lessonopens'] = 'Lektionen öppnas';
@@ -664,7 +664,7 @@ $string['password'] = 'Lösenord';
 $string['passwordprotectedlesson'] = '{$a} är en lektion som kräver lösenord.';
 $string['pleasecheckoneanswer'] = 'Var god och markera ett svar';
 $string['pleasecheckoneormoreanswers'] = 'Var god och markera ett eller flera svar';
-$string['pleaseenteryouranswerinthebox'] = 'Var god och skriv in dina svar i textrutan';
+$string['pleaseenteryouranswerinthebox'] = 'Var god och skriv in Dina svar i textrutan';
 $string['pleasematchtheabovepairs'] = 'Var god och matcha de ovanstående paren';
 $string['pluginadministration'] = 'Administration av lektion';
 $string['pluginname'] = 'Lektion';

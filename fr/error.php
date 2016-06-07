@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'error', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -127,6 +127,7 @@ $string['cannotreadfile'] = 'Impossible de lire le fichier ({$a})';
 $string['cannotreadtmpfile'] = 'Erreur de lecture du fichier temporaire';
 $string['cannotreaduploadfile'] = 'Impossible de lire le fichier déposé';
 $string['cannotremovefrommeta'] = 'Impossible de retirer le cours sélectionné de de méta-cours !';
+$string['cannotreprocessgrades'] = 'Impossible de traiter à nouveau les notes de cette activité {$a}';
 $string['cannotresetguestpwd'] = 'Il n\'est pas possible de réinitialiser le mot de passe du compte « Visiteur anonyme »';
 $string['cannotresetmail'] = 'Erreur lors de la réinitalisation du mot de passe';
 $string['cannotresetthisrole'] = 'Impossible de réinitialiser ce rôle';
@@ -255,6 +256,7 @@ $string['forumblockingtoomanyposts'] = 'Vous avez dépassé le maximum de messag
 $string['generalexceptionmessage'] = 'Exception : {$a}';
 $string['gradecantregrade'] = 'Une erreur est survenue lors du calcul de la note : {$a}';
 $string['gradepubdisable'] = 'Publication des notes désactivée';
+$string['gradesneedregrading'] = 'Les notes du cours doivent être recalculées';
 $string['groupalready'] = 'L\'utilisateur appartient déjà au groupe {$a}';
 $string['groupexistforcourse'] = 'Le groupe « {$a} » existe déjà dans ce cours';
 $string['groupexistforcoursewithidnumber'] = '{$a->problemgroup} : le groupe « {$a->name} » d\'identifiant {$a->idnumber} existe déjà dans ce cours';
@@ -278,6 +280,7 @@ $string['idnumbertaken'] = 'Cet identifiant est déjà utilisé pour un autre co
 $string['idnumbertoolong'] = 'Numéro d\'identification trop long';
 $string['importformatnotimplement'] = 'L\'importation de ce format n\'est pas encore implémentée !';
 $string['incorrectext'] = 'Le fichier a une extension incorrecte';
+$string['inplaceeditableerror'] = 'Erreur lors de l\'appel du processus de modification';
 $string['installproblem'] = 'Il n\'est habituellement pas possible de rattraper une erreur survenue durant l\'installation. Si vous voulez tenter une nouvelle installation, vous devrez probablement créer une nouvelle base de données ou utiliser un autre préfixe de base de données.';
 $string['internalauthpassworderror'] = 'Mot de passe manquant ou règle non valide pour authentification interne';
 $string['invalidaccess'] = 'L\'accès à cette page n\'est pas correct';
@@ -300,6 +303,7 @@ $string['invalidcomponent'] = 'Nom de composant non valide';
 $string['invalidconfirmdata'] = 'Données de confirmation non valides';
 $string['invalidcontext'] = 'Contexte non valide';
 $string['invalidcourse'] = 'Cours non valide';
+$string['invalidcourseformat'] = 'Format de cours non valide';
 $string['invalidcourseid'] = 'Vous essayez d\'utiliser un identifiant de cours non valable';
 $string['invalidcourselevel'] = 'Niveau de contexte incorrect';
 $string['invalidcoursemodule'] = 'Identifiant de module de cours non valide';
@@ -347,6 +351,7 @@ $string['invalidsourcefield'] = 'Le champ source du fichier brouillon n\'est pas
 $string['invalidstatedetected'] = 'Quelque chose est allé de travers : {$a}. Normalement, ceci ne devrait jamais arriver.';
 $string['invalidurl'] = 'URL non valide';
 $string['invaliduser'] = 'Utilisateur non valide';
+$string['invaliduserdata'] = 'Données utilisateur non valides : {$a}';
 $string['invaliduserfield'] = 'Champ utilisateur non valide : {$a}';
 $string['invaliduserid'] = 'Identifiant utilisateur non valide';
 $string['invalidusername'] = 'Le nom indiqué comporte des caractères non valides';
@@ -367,6 +372,7 @@ $string['loginasnoenrol'] = 'Vous ne pouvez pas vous inscrire ou vous désinscri
 $string['loginasonecourse'] = 'Vous ne pouvez pas entrer dans ce cours.<br />Vous devez d\'abord terminer la session dans laquelle vous êtes « Connecté sous le nom » d\'un autre participant';
 $string['maxareabytes'] = 'Le fichier dépasse l\'espace disponible dans cette zone.';
 $string['maxbytes'] = 'Le fichier dépasse la taille maximale permise.';
+$string['maxbytesfile'] = 'La taille du fichier {$a->file} est trop grande. La taille maximale d\'un fichier à déposer est de {$a->size}.';
 $string['messagingdisable'] = 'La messagerie est désactivée sur ce site';
 $string['mimetexisnotexist'] = 'Votre serveur n\'est pas configurer que faire tourner mimeTeX. Veuillez télécharger le programme approprié à votre plateforme sur <a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a>, ou les sources en C du programme ici <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>, les compiler et placer le programme dans le dossier moodle/filter/tex/';
 $string['mimetexnotexecutable'] = 'Votre programme mimetex n\'est pas exécutable !';
@@ -449,6 +455,7 @@ $string['pleasereport'] = 'Merci de prendre un peu de temps pour nous faire savo
 $string['pluginrequirementsnotmet'] = 'Le plug-in « {$a->pluginname} » ({$a->pluginversion}) ne peut pas être installé. Il nécessite une version plus récente de Moodle (vous utilisez actuellement la version {$a->currentmoodle}, la version {$a->requiremoodle} est requise)';
 $string['prefixcannotbeempty'] = '<p>Erreur : le préfixe des tables de la base de données ne peut pas être vide ({$a}).</p><p>L\'administrateur du site doit corriger ce problème.</p>';
 $string['prefixtoolong'] = '<p>Erreur : le préfixe des tables de la base de données est trop long ({$a->dbfamily}).</p><p>L\'administrateur du site doit corriger ce problème. La longueur maximale pour le préfixe des tables dans {$a->dbfamily} est de {$a->maxlength} caractères.</p>';
+$string['privatefilesupload'] = 'Le dépôt de fichier directement dans la zone des fichiers personnels n\'est plus supporté. Veuillez déposer les fichiers vers la zone de brouillon, puis les déplacer avec core_user::add_user_private_files';
 $string['processingstops'] = 'Le traitement s\'arrête ici. Les enregistrements restant ont été ignorés';
 $string['protected_cc_not_supported'] = 'Les paquetages protégés ne sont pas supportés.';
 $string['querystringcannotbeempty'] = 'La chaîne de requête ne peut pas être vide.';
@@ -492,7 +499,7 @@ $string['statsdisable'] = 'Les statistiques ne sont pas activées.';
 $string['statsnodata'] = 'Aucune donnée disponible pour ce cours et cette période';
 $string['storedfilecannotcreatefile'] = 'Impossible de créer un fichier local de pool. Veuillez vérifier les autorisations du dossier de données ainsi que l\'espace disque disponible.';
 $string['storedfilecannotcreatefiledirs'] = 'Impossible de créer les dossiers de la collection locale de fichiers. Veuillez vérifier les droits d\'accès au dossier de données.';
-$string['storedfilecannotread'] = 'Impossible de lire le fichier. Soit il n\'existe pas, soit il y a un problème de droits d\'accès';
+$string['storedfilecannotread'] = 'Impossible de lire le fichier. Soit il n\'existe pas, soit il y a un problème de droits d\'accès.';
 $string['storedfilenotcreated'] = 'Impossible de créer le fichier « {$a->contextid}/{$a->component}/{$a->filearea}/{$a->itemid}{$a->filepath}{$a->filename} »';
 $string['storedfileproblem'] = 'Exception inconnue en rapport avec les fichiers locaux ({$a})';
 $string['tagdisabled'] = 'Les tags sont désactivés !';

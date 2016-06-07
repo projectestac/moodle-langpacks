@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tag_youtube', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_tag_youtube', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   block_tag_youtube
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,7 @@ $string['entertainment'] = 'Entretenimento';
 $string['filmsanimation'] = 'Filmes &amp; Animação';
 $string['gadgetsgames'] = 'Dispositivos &amp; Jogos';
 $string['howtodiy'] = 'Bricolage';
-$string['includeonlyvideosfromplaylist'] = 'Incluir apenas os vídeos da lista com identificador';
+$string['includeonlyvideosfromplaylist'] = 'Incluir apenas os vídeos da lista com ID';
 $string['music'] = 'Música';
 $string['newspolitics'] = 'Notícias &amp; Política';
 $string['numberofvideos'] = 'Número de videos';

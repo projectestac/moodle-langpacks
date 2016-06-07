@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'choice', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,7 +56,9 @@ $string['displayhorizontal'] = 'Visualizza orizzontalmente';
 $string['displaymode'] = 'Modalità  di visualizzazione';
 $string['displayvertical'] = 'Visualizza verticalmente';
 $string['eventanswercreated'] = 'Eseguita scelta';
+$string['eventanswerdeleted'] = 'Eliminata scelta';
 $string['eventanswerupdated'] = 'Aggiornata scelta';
+$string['eventreportdownloaded'] = 'Scaricato report delle scelte';
 $string['eventreportviewed'] = 'Visualizzato report scelta';
 $string['expired'] = 'Spiacente, questa attività è stata chiusa il {$a} e non è più disponibile';
 $string['full'] = '(Completo)';
@@ -111,6 +113,7 @@ $string['responsesresultgraphheader'] = 'Visualizzazione grafico';
 $string['responsesto'] = 'Scelte su {$a}';
 $string['results'] = 'Risultati';
 $string['savemychoice'] = 'Salva la mia scelta';
+$string['search:activity'] = 'Scelta - Informazioni sull\'attività';
 $string['showpreview'] = 'Visualizza anteprima';
 $string['showpreview_help'] = 'Gli studenti potranno visualizzare un\'anteprima della scelta prima della data di apertura.';
 $string['showunanswered'] = 'Visualizza colonna di chi non ha scelto';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_manual', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'enrol_manual', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,10 +29,13 @@ $string['alterstatus'] = 'Cambiar estado';
 $string['altertimeend'] = 'Cambiar tiempo final';
 $string['altertimestart'] = 'Cambiar tiempo inicial';
 $string['assignrole'] = 'Asignar rol';
+$string['browsecohorts'] = 'Buscar compañeros';
+$string['browseusers'] = 'Buscar usuarios';
 $string['confirmbulkdeleteenrolment'] = '¿Está seguro que desea eliminar estas matrículas de usuarios?';
-$string['defaultperiod'] = 'Periodo de matriculación por defecto';
+$string['defaultperiod'] = 'Duración del periodo de matriculación por defecto';
 $string['defaultperiod_desc'] = 'Periodo de tiempo por defecto en el que la matricula es válida. Si se establece a cero, la matricula durará de forma ilimitada por defecto';
 $string['defaultperiod_help'] = 'Periodo de tiempo predeterminado durante el que el la matrícula es válida, a partir del momento en que se inscribe el usuario. Si está desactivado, la duración de la inscripción será, por defecto, ilimitada.';
+$string['defaultstart'] = 'Comienzo del periodo de matriculación';
 $string['deleteselectedusers'] = 'Eliminar las matrículas de usuario seleccionadas';
 $string['editselectedusers'] = 'Editar las matrículas de usuario seleccionadas';
 $string['enrolledincourserole'] = 'Matriculado en "{$a->course}" as "{$a->role}"';
@@ -52,6 +55,7 @@ $string['expirymessageenrollersubject'] = 'Notificación de la caducidad de la m
 $string['manual:config'] = 'Configurar instancias de la matriculaciñon manual';
 $string['manual:enrol'] = 'Matricular usuarios';
 $string['manual:manage'] = 'Gestión de matriculas de usuario';
+$string['manualpluginnotinstalled'] = 'El complemento "Manual" no ha sido instalado aún';
 $string['manual:unenrol'] = 'Dar de baja usuarios del curso';
 $string['manual:unenrolself'] = 'Darse de baja del curso';
 $string['messageprovider:expiry_notification'] = 'Notificaciones de expiración de matriculaciones manuales';

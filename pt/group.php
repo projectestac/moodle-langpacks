@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'group', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,7 @@ $string['backtogroupings'] = 'Voltar a agrupamentos';
 $string['backtogroups'] = 'Voltar a grupos';
 $string['badnamingscheme'] = 'Tem de conter exatamente um carácter \'@\' ou \'#';
 $string['byfirstname'] = 'Ordenação alfabética por nome, apelido';
-$string['byidnumber'] = 'Ordenação ascendente por número de identificação';
+$string['byidnumber'] = 'Ordenação ascendente por número de ID';
 $string['bylastname'] = 'Ordenação alfabética por apelido, nome';
 $string['createautomaticgrouping'] = 'Criar agrupamento automático';
 $string['creategroup'] = 'Criar grupo';
@@ -75,6 +75,8 @@ $string['eventgroupcreated'] = 'Grupo criado';
 $string['eventgroupdeleted'] = 'Grupo apagado';
 $string['eventgroupingcreated'] = 'Agrupamento criado';
 $string['eventgroupingdeleted'] = 'Agrupamento apagado';
+$string['eventgroupinggroupassigned'] = 'Grupo adicionado ao agrupamento';
+$string['eventgroupinggroupunassigned'] = 'Grupo removido do agrupamento';
 $string['eventgroupingupdated'] = 'Agrupamento atualizado';
 $string['eventgroupmemberadded'] = 'Membro do grupo adicionado';
 $string['eventgroupmemberremoved'] = 'Membro do grupo removido';
@@ -131,14 +133,16 @@ $string['groupsvisible'] = 'Grupos visíveis';
 $string['grouptemplate'] = 'Grupo @';
 $string['hidepicture'] = 'Ocultar imagem';
 $string['importgroups'] = 'Importar grupos';
-$string['importgroups_help'] = 'Os grupos podem ser importados através de ficheiros de texto. O formato do ficheiro deve ser o seguinte:
+$string['importgroups_help'] = 'Os grupos podem ser importados a partir de um ficheiro de texto. O formato do ficheiro deve ser o seguinte:
 
 * Cada linha do ficheiro contém um registo
 * Cada registo é uma série de dados separados por vírgulas
-* O primeiro registo contém uma lista de nomes de campos que definem o formato do resto do ficheiro
-* Obrigatoriamente o nome do ficheiro é o nome do grupo.
-* os campos opcionais são a descrição, senha de inscrição, imagem, imagem oculta';
+* O primeiro registo contém uma lista de nomes dos campos que definem o formato do resto do ficheiro
+* O campo fieldname (nome do grupo) é obrigatório.
+* Os campos opcionais são description, enrolmentkey, picture, hidepicture (descrição, senha de inscrição, imagem, ocultar imagem).';
 $string['importgroups_link'] = 'grupo/importar';
+$string['includeonlyactiveenrol'] = 'Incluir apenas inscrições ativas';
+$string['includeonlyactiveenrol_help'] = 'Se ativar esta opção, os utilizadores suspensos não serão incluídos nos grupos.';
 $string['javascriptrequired'] = 'Esta página requer a ativação do Javascript.';
 $string['members'] = 'Membros por grupo';
 $string['membersofselectedgroup'] = 'Membros:';

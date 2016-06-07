@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'mnet', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -221,6 +221,11 @@ $string['showremote'] = 'Mostrar usuarios remotos';
 $string['ssl_acl_allow'] = 'SSO ACL: Permitir al usuario \'{$a->user}\' de \'{$a->host}\'';
 $string['ssl_acl_deny'] = 'SSO ACL: Denegar al usuario \'{$a->user}\' de \'{$a->host}\'';
 $string['sslverification'] = 'Verificación SSL';
+$string['sslverification_help'] = 'Esta opción permite configurar el nivel de seguridad al conectarse a pares usando HTTPS.
+
+*Ninguno: ni hay nivel de seguridad
+*Verificar solo servidor: valida el dominio del certificado SSL
+*Verificar servidor y pares (recomendado): valida el dominio y distribuidor del certificado SSL';
 $string['ssoaccesscontrol'] = 'Control de acceso SSO';
 $string['ssoacldescr'] = 'Utilice esta página para conceder/denegar acceso a determinadaos usuarios de hosts MNet remotos. Funciona cuando ofrezca servicios SSO a usuarios remotos. Para controlar los permisos <em>locales</em> de sus usuarios paranavegar por otros hosts MNet, utilice el sistema de roles para concederles el permiso <em>mnetlogintoremote</em>.';
 $string['ssoaclneeds'] = 'Para que esta funcionalidad trabaje adecuadamente, debe de tener la opción \'Networking\') activada, además de el conector (\'plugin\') de identificación MNet.';
@@ -245,6 +250,7 @@ $string['userchangepasswordlink'] = '<br /> Puede cambiar su contraseña en su  
 $string['usernotfullysetup'] = 'Su cuenta de usuario está incompleta. Necesita ir <a href="{$a}">de regreso a su proveedor</a> y asegurarse de que su perfil esté complete allí. Puede que necesite salir del sitio y volver a entrar para que tenga efecto.';
 $string['usersareonline'] = 'Advertencia: {$a} usuarios de ese servidor están actualmente en su sitio.';
 $string['validated_by'] = 'Es validado por la red:  <code>{$a}</code>';
+$string['verifyhostandpeer'] = 'Verificar servidor y pares';
 $string['verifyhostonly'] = 'Sólo verificar host';
 $string['verifysignature-error'] = 'La verificación de firma falló. Un error ha ocurrido.';
 $string['verifysignature-invalid'] = 'La verifivación de firma falló. Parece que esta carga no fue firmada por usted.';

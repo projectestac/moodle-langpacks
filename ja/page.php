@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'page', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configdisplayoptions'] = '利用可能にしたいオプションすべてを選択してください。既存の設定は、変更されません。複数のフィールドを選択するにはCTRLキーを押したままにしてください。';
+$string['configdisplayoptions'] = '利用可能にしたいオプションすべてを選択してください。既存の設定は変更されません。複数フィールドを選択するにはCTRLキーを押したままにしてください。';
 $string['content'] = 'ページコンテンツ';
 $string['contentheader'] = 'コンテンツ';
 $string['createpage'] = '新しいページリソースを作成する';
@@ -38,20 +38,20 @@ $string['legacyfilesdone'] = '終了';
 $string['modulename'] = 'ページ';
 $string['modulename_help'] = 'ページモジュールにおいて、教師はテキストエディタを使用してウェブページリソースを作成することができます。ページではテキスト、イメージ、サウンド、ビデオ、ウェブリンクおよびGoogle Mapsのような埋め込みコードを表示することができます。
 
-ファイルモジュールよりもページモジュールを使用する利点は、よりアクセス可能なことであり (例えばモバイルデバイスの利用)、更新が簡単なことです。
+ファイルモジュールではなくページモジュールを使用する利点はよりアクセス可能な点 (例えばモバイルデバイスの利用) および更新が簡単な点です。
 
-大量のコンテンツの場合、ページモジュールではなく、ブックモジュールの使用をお勧めします。
+大量のコンテンツの場合、ページではなくブックの使用をお勧めします。
 
 ページモジュールは下記のように使用することができます:
 
-* コースの利用規約を表示、またはコースシラバス概要を表示するため
+* コースの利用規約を表示またはコースシラバス概要を表示するため
 * 説明文と共にいくつかのビデオまたはサウンドファイルを埋め込むため';
 $string['modulenameplural'] = 'ページ';
 $string['optionsheader'] = '表示オプション';
 $string['page:addinstance'] = '新しいページリソースを追加する';
 $string['page-mod-page-x'] = 'すべてのページモジュールページ';
 $string['page:view'] = 'ページコンテンツを表示する';
-$string['pluginadministration'] = 'ページ管理';
+$string['pluginadministration'] = 'ページモジュール管理';
 $string['pluginname'] = 'ページ';
 $string['popupheight'] = 'ポップアップ高 (ピクセル)';
 $string['popupheightexplain'] = 'ポップアップウィンドウのデフォルト高を指定してください。';
@@ -61,3 +61,4 @@ $string['printheading'] = 'ページ名を表示する';
 $string['printheadingexplain'] = 'コンテンツの上にページ名を表示しますか?';
 $string['printintro'] = 'ページ説明を表示する';
 $string['printintroexplain'] = 'コンテンツの上にページ説明を表示しますか?';
+$string['search:activity'] = 'ページ';

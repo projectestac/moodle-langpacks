@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_image', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'atto_image', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   atto_image
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['alignment'] = '配置';
-$string['alignment_bottom'] = 'ボトム';
+$string['alignment_bottom'] = '最下部';
 $string['alignment_left'] = '左';
 $string['alignment_middle'] = '中央';
 $string['alignment_right'] = '右';
@@ -41,7 +41,7 @@ $string['height'] = '高さ';
 $string['imageproperties'] = 'イメージ属性';
 $string['pluginname'] = 'イメージ';
 $string['presentation'] = '説明は必須ではありません。';
-$string['presentationoraltrequired'] = '説明が必要ではないと設定されていない限り、イメージには説明が必要です。';
+$string['presentationoraltrequired'] = '説明が必要でないと設定されていない限り、イメージには説明が必要です。';
 $string['preview'] = 'プレビュー';
 $string['saveimage'] = 'イメージを保存する';
 $string['size'] = 'サイズ';

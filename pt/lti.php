@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'lti', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -87,9 +87,9 @@ $string['custom_help'] = 'Os parâmetros personalizados são configurações uti
 
 É seguro deixar este campo inalterado, exceto se tiver instruções do fornecedor em contrário.';
 $string['custominstr'] = 'Parâmetros personalizados';
-$string['debuglaunch'] = 'Opção de debug';
+$string['debuglaunch'] = 'Opção de depuração';
 $string['debuglaunchoff'] = 'Arranque normal';
-$string['debuglaunchon'] = 'Arranque em Debug';
+$string['debuglaunchon'] = 'Arrancar depuração';
 $string['default'] = 'Predefinido';
 $string['default_launch_container'] = 'Recipiente de arranque predefinido';
 $string['default_launch_container_help'] = 'O modo de visualização afeta forma como é exibida a ferramenta quando iniciada a partir da disciplina. Alguns modos permitem maior espaço de ecrã disponível para a ferramenta enquanto outros aparentam maior integração com o ambiente Moodle.
@@ -150,7 +150,7 @@ Também permite adicionar configurações predefinidas e serviços adicionais da
 Após a inserção da ferramenta ficam disponíveis três ações:
 
 * **Adicionar** -  Crie uma configuração para este nível na disciplina. Todas as ferramentas externas nesta disciplina podem usar esta configuração.
-* **Editar** -  Escolha um nível a partir do menu e clique neste ícone. Os pormenores da configuração da ferramenta podem ser editados.
+* **Editar** -  Escolha um nível a partir da lista pendente e clique neste ícone. Os pormenores da configuração da ferramenta podem ser editados.
 * **Apagar** - Apague o nível selecionado.';
 $string['external_tool_types'] = 'Tipos de ferramentas externas';
 $string['failedtoconnect'] = 'O Moodle não conseguiu comunicar com o sistema "{$a}"';
@@ -174,7 +174,7 @@ $string['global_tool_types'] = 'Tipos de ferramenta global';
 $string['grading'] = 'Encaminhamento de notas';
 $string['icon_url'] = 'URL do Ícone';
 $string['icon_url_help'] = 'O URL do ícone  permite que o ícone que aparece na lista de disciplinas para essa atividade seja alterado. Em vez de usar o ícone LTI predefinido, o ícone que representa este tipo de atividade pode ser especificado.';
-$string['id'] = 'id';
+$string['id'] = 'ID';
 $string['invalidid'] = 'O ID do LTI está incorreto';
 $string['launch_in_moodle'] = 'Arrancar ferramenta no moodle';
 $string['launchinpopup'] = 'Recipiente de arranque';
@@ -194,7 +194,7 @@ $string['launch_url'] = 'URL de arranque';
 $string['launch_url_help'] = 'O URL de arranque indica o endereço web da ferramenta LTI, e pode conter informações adicionais, tais como o recurso para mostrar.
 Se não sabe o que inserir no URL de arranque, por favor contacte o fornecedor de ferramenta para obter mais informações.
 
-Se tiver selecionado um tipo de ferramenta específica, pode não precisar de inserir um URL de arranque. Se o link para a ferramenta é usado apenas para iniciar
+Se tiver selecionado um tipo de ferramenta específica, pode não precisar de inserir um URL de arranque. Se a hiperligação para a ferramenta é usada apenas para iniciar
 o fornecedor da ferramenta do sistema, e não vai para nenhum recurso específico, provavelmente será o caso.';
 $string['lti'] = 'LTI';
 $string['lti:addcoursetool'] = 'Adicionar configurações específicas da Ferramenta LTI';
@@ -219,7 +219,7 @@ $string['lti:view'] = 'Arrancar atividades Ferramenta LTI';
 $string['main_admin'] = 'Ajuda geral';
 $string['main_admin_help'] = 'As ferramentas externas permitem que os utilizadores do Moodle acedam a recursos de aprendizagem alojados remotamente. Através de um protocolo especial
 de arranque, a ferramenta remota terá acesso a algumas informações gerais sobre o utilizador que iniciou a ferramento. Por exemplo,
-o nome da instituição, id da disciplina, ID do aluno e outras informações, como o nome do aluno ou o endereço de correio eletrónico.
+o nome da instituição, ID da disciplina, ID do aluno e outras informações, como o nome do aluno ou o endereço de correio eletrónico.
 
 Os tipos de ferramentas listadas nesta página são separadas em três categorias:
 
@@ -263,7 +263,7 @@ $string['no_tp_cancelled'] = 'Não há registos de ferramentas externas cancelad
 $string['no_tp_configured'] = 'Não há registos de ferramentas externas não registadas configurados.';
 $string['no_tp_pending'] = 'Não há registos pendentes de ferramentas externas.';
 $string['no_tp_rejected'] = 'Não há registos de ferramentas externas rejeitadas.';
-$string['notypes'] = 'De momento não existem ferramentas LTI configuradas no Moodle. Clique no link acima para adicionar algumas.';
+$string['notypes'] = 'De momento não existem ferramentas LTI configuradas no Moodle. Clique na hiperligação acima para adicionar algumas.';
 $string['noviewusers'] = 'Não foram encontrados utilizadores com permissões para usar esta ferramenta';
 $string['optionalsettings'] = 'Configurações opcionais';
 $string['organization'] = 'Detalhes da organização';
@@ -288,7 +288,7 @@ Ferramentas que não requerem comunicação segura de Moodle e não fornecem ser
 podem não requerer uma senha partilhada.';
 $string['password_help'] = 'Para ferramentas pré-configuradas, não é necessário inserir uma senha partilhada aqui, sendo dada no processo de configuração.
 
-Este campo deve ser preenchido se desejar criar um link para um fornecedor de ferramenta que não está já configurado.
+Este campo deve ser preenchido se desejar criar uma hiperligação para um fornecedor de ferramenta que não está já configurado.
 Se o fornecedor de ferramenta for para ser usada mais que uma vez nesta disciplina, adicionar uma configuração de disciplina à ferramenta é uma boa ideia.
 
 A senha partilhada pode ser pensada como uma senha usada para autenticar o acesso à ferramenta. Deve ser fornecido
@@ -327,7 +327,7 @@ Ferramentas que não requerem comunicação segura de Moodle e não fornecem ser
 podem não requerer uma chave.';
 $string['resourcekey_help'] = 'Para ferramentas pré-configuradas, não é necessário inserir uma chave do recurso, tal como a chave do consumidor que são dadas no processo de configuração.
 
-Este campo deve ser preenchido se desejar criar um link para um fornecedor de ferramenta que não está já configurado.
+Este campo deve ser preenchido se desejar criar uma hiperligação para um fornecedor de ferramenta que não está já configurado.
 Se o fornecedor de ferramenta for para ser usada mais que uma vez nesta disciplina, adicionar uma configuração de disciplina à ferramenta é uma boa ideia.
 
 A chave do consumidor pode ser pensado como um nome utilizado para autenticar o acesso à ferramenta.
@@ -378,15 +378,6 @@ $string['share_roster_admin_help'] = 'Define se a ferramenta pode aceder à list
 $string['share_roster_help'] = 'Define se a ferramenta pode aceder à lista de utilizadores inscritos nesta disciplina.
 
 Note que esta configuração pode ser alterada na configuração da ferramenta.';
-$string['show_in_course'] = 'Mostrar tipo de ferramenta ao criar instâncias de ferramentas';
-$string['show_in_course_help'] = 'Se selecionada, esta ferramenta de configuração irá aparecer na caixa de seleção "Tipo de "ferramenta LTI" quando os professores
-configurarem as ferramentas LTI nas suas disciplinas.
-
-Na maioria dos casos, essa opção não precisa de ser selecionada. Os professores podem utilizar esta ferramenta de configuração
-com base no URL de arranque que satisfaça o URL base da ferramenta, que é o método predefinido.
-
-O único caso em que esta opção deve ser selecionada é se a ferramenta de configuração for apenas destinado para uma única autenticação.
-Por exemplo, se todos os arranques para o provedor de ferramenta levarem o utilizador para uma página de destino, em vez de a um recurso específico.';
 $string['size'] = 'Parâmetros de tamanho';
 $string['submission'] = 'Submissão';
 $string['submissions'] = 'Submissões';
@@ -397,7 +388,7 @@ $string['subplugintype_ltiservice'] = 'Serviço LTI';
 $string['subplugintype_ltiservice_plural'] = 'Serviços LTI';
 $string['subplugintype_ltisource'] = 'Fonte LTI';
 $string['subplugintype_ltisource_plural'] = 'Fontes LTI';
-$string['toggle_debug_data'] = 'Alternar dados de debug';
+$string['toggle_debug_data'] = 'Alternar dados de depuração';
 $string['tool_config_not_found'] = 'A configuração não foi encontrada neste URL.';
 $string['toolproxy'] = 'Registos da ferramenta externa';
 $string['toolproxy_help'] = 'Os registos de ferramenta externa permitem aos administradores de sites Moodle configurar ferramentas externas a partir de um proxy de ferramenta obtido a partir de um fornecedor de ferramenta que suporte LTI 2.0. Um URL de registo fornecido pelo fornecedor de ferramenta consiste em tudo o que é requerido para iniciar o processo. As capacidades e os serviços disponibilizados pelo fornecedor de ferramenta são selecionados ao configurar um novo registo.

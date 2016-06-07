@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'forum', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -85,7 +85,7 @@ $string['clicktosubscribe'] = 'Je bent niet ingeschreven op deze discussie. Klik
 $string['clicktounsubscribe'] = 'Je bent ingeschreven op deze discussie. Klik om uit te schrijven.';
 $string['completiondiscussions'] = 'Leerling moet discussies starten:';
 $string['completiondiscussionsgroup'] = 'Discussies vereist';
-$string['completiondiscussionshelp'] = 'discussies vereist om af te werken';
+$string['completiondiscussionshelp'] = 'discussies vereist om te voltooien';
 $string['completionposts'] = 'Leerling moet discussies starten of beantwoorden:';
 $string['completionpostsgroup'] = 'Berichten vereist';
 $string['completionpostshelp'] = 'discussies of antwoorden vereist voor voltooien';
@@ -337,8 +337,8 @@ $string['mustprovidediscussionorpost'] = 'You moet ofwel een discussie ID of een
 $string['myprofileotherdis'] = 'Forumdiscussies';
 $string['myprofileowndis'] = 'Mijn forumdiscussies';
 $string['myprofileownpost'] = 'Mijn forumberichten';
-$string['namenews'] = 'Nieuwsforum';
-$string['namenews_help'] = 'Het nieuwsforum is een speciaal forum dat automatisch aangemaakt wordt in elke cursus en op de startpagina van de site. Het is een plaats voor algemene mededelingen. Je kunt er zo maar één per cursus hebben. Enkel leraren en beheerders kunnen posten in dit forum. Leerlingen kunnen er niet op antwoorden. Het "Laatste nieuws"-blok toont de recente discussies van dit speciale forum.';
+$string['namenews'] = 'Mededelingen';
+$string['namenews_help'] = 'Het forum "Mededelingen" is een speciaal forum dat automatisch aangemaakt wordt in elke cursus en op de startpagina van de site. Het is een plaats voor algemene mededelingen. Je kunt er zo maar één per cursus hebben. Enkel leraren en beheerders kunnen posten in dit forum. Leerlingen kunnen er niet op antwoorden. Het "Laatste mededelingen"-blok toont de recente mededelingen.';
 $string['namesocial'] = 'Sociaal forum';
 $string['nameteacher'] = 'Forum voor leraren';
 $string['newforumposts'] = 'Nieuwe forumberichten';
@@ -398,7 +398,7 @@ $string['postincontext'] = 'Bekijk dit bericht in zijn context';
 $string['postmailinfo'] = 'Dit is een kopie van een bericht dat op de {$a} website is toegevoegd.
 
 Klik op deze link om jouw antwoord via de website toe te voegen:';
-$string['postmailinfolink'] = 'Dit is een kopie van een bericht, gepost op {$a->coursename}.
+$string['postmailinfolink'] = 'Dit is een kopie van een bericht, gepost op de website {$a->coursename}.
 
 Klik op volgende link om te antwoorden: {$a->replylink}';
 $string['postmailnow'] = '<p>Dit bericht zal onmiddellijk verstuurd worden naar iedereen die e-mail van dit forum wil.</p>';

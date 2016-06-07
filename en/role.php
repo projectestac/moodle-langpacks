@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'role', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -84,13 +84,9 @@ $string['badges:viewbadges'] = 'View available badges without earning them';
 $string['badges:viewotherbadges'] = 'View public badges in other users\' profiles';
 $string['block:edit'] = 'Edit a block\'s settings';
 $string['block:view'] = 'View block';
-$string['blog:associatecourse'] = 'This capability is deprecated and does nothing.';
-$string['blog:associatemodule'] = 'This capability is deprecated and does nothing.';
 $string['blog:create'] = 'Create new blog entries';
 $string['blog:manageentries'] = 'Edit and manage entries';
 $string['blog:manageexternal'] = 'Edit and manage external blogs';
-$string['blog:manageofficialtags'] = 'Manage official tags';
-$string['blog:managepersonaltags'] = 'Manage personal tags';
 $string['blog:search'] = 'Search blog entries';
 $string['blog:view'] = 'View blog entries';
 $string['blog:viewdrafts'] = 'View draft blog entries';
@@ -119,6 +115,38 @@ $string['comment:post'] = 'Post comments';
 $string['comment:view'] = 'View comments';
 $string['community:add'] = 'Use the community block to search hubs and find courses';
 $string['community:download'] = 'Download a course from the community block';
+$string['competency:competencygrade'] = 'Set competency rating';
+$string['competency:competencymanage'] = 'Manage competency frameworks';
+$string['competency:competencyview'] = 'View competency frameworks';
+$string['competency:coursecompetencyconfigure'] = 'Configure course competency settings';
+$string['competency:coursecompetencygradable'] = 'Receive competency marks';
+$string['competency:coursecompetencymanage'] = 'Manage course competencies';
+$string['competency:coursecompetencyview'] = 'View course competencies';
+$string['competency:evidencedelete'] = 'Delete evidence';
+$string['competency:plancomment'] = 'Comment on a learning plan';
+$string['competency:plancommentown'] = 'Comment on own learning plan';
+$string['competency:planmanage'] = 'Manage learning plans';
+$string['competency:planmanagedraft'] = 'Manage draft learning plans';
+$string['competency:planmanageown'] = 'Manage own learning plans';
+$string['competency:planmanageowndraft'] = 'Manage own draft learning plans';
+$string['competency:planrequestreview'] = 'Request review of a learning plan';
+$string['competency:planrequestreviewown'] = 'Request review of own learning plan';
+$string['competency:planreview'] = 'Review a learning plan';
+$string['competency:planview'] = 'View all learning plans';
+$string['competency:planviewdraft'] = 'View draft learning plans';
+$string['competency:planviewown'] = 'View own learning plans';
+$string['competency:planviewowndraft'] = 'View own draft learning plans';
+$string['competency:templatemanage'] = 'Manage learning plan templates';
+$string['competency:templateview'] = 'View learning plan templates';
+$string['competency:usercompetencycomment'] = 'Comment on a user competency';
+$string['competency:usercompetencycommentown'] = 'Comment on own user competency';
+$string['competency:usercompetencyrequestreview'] = 'Request review of a user competency';
+$string['competency:usercompetencyrequestreviewown'] = 'Request review of own user competency';
+$string['competency:usercompetencyreview'] = 'Review a user competency';
+$string['competency:usercompetencyview'] = 'View a user competency';
+$string['competency:userevidencemanage'] = 'Manage evidence of prior learning';
+$string['competency:userevidencemanageown'] = 'Manage own evidence of prior learning';
+$string['competency:userevidenceview'] = 'View evidence of prior learning of a user';
 $string['confirmaddadmin'] = 'Do you really want to add user <strong>{$a}</strong> as new site administrator?';
 $string['confirmdeladmin'] = 'Do you really want to remove user <strong>{$a}</strong> from the list of site administrators?';
 $string['confirmroleprevent'] = 'Do you really want to remove <strong>"{$a->role}"</strong> from the list of allowed roles for capability "{$a->cap}" in context "{$a->context}"?';
@@ -149,6 +177,7 @@ $string['course:managescales'] = 'Manage scales';
 $string['course:markcomplete'] = 'Mark users as complete in course completion';
 $string['course:movesections'] = 'Move sections';
 $string['course:publish'] = 'Publish a course into hub';
+$string['course:renameroles'] = 'Rename roles';
 $string['course:request'] = 'Request new courses';
 $string['course:reset'] = 'Reset course';
 $string['course:reviewotherusers'] = 'Review other users';
@@ -322,7 +351,7 @@ $string['restore:restoretargetimport'] = 'Restore from files targeted as import'
 $string['restore:rolldates'] = 'Allowed to roll activity configuration dates on restore';
 $string['restore:uploadfile'] = 'Upload files to backup areas';
 $string['restore:userinfo'] = 'Restore user data';
-$string['restore:viewautomatedfilearea'] = 'Restore courses from automated backups';
+$string['restore:viewautomatedfilearea'] = 'View automated backup area';
 $string['risks'] = 'Risks';
 $string['roleallowheader'] = 'Allow role:';
 $string['roleallowinfo'] = 'Select a role to be added to the list of allowed roles in context "{$a->context}", capability "{$a->cap}":';
@@ -352,6 +381,7 @@ $string['role:switchroles'] = 'Switch to other roles';
 $string['roletoassign'] = 'Role to assign';
 $string['roletooverride'] = 'Role to override';
 $string['safeoverridenotice'] = 'Note: Capabilities with higher risks are locked because you are only allowed to override safe capabilities.';
+$string['search:query'] = 'Perform site-wide searches';
 $string['selectanotheruser'] = 'Select another user';
 $string['selectauser'] = 'Select a user';
 $string['selectrole'] = 'Select a role';

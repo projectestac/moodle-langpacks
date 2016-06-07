@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'assign', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -78,7 +78,7 @@ $string['attemptheading'] = 'Poging {$a->attemptnumber}: {$a->submissionsummary}
 $string['attempthistory'] = 'Vorige pogingen';
 $string['attemptnumber'] = 'Pogingnummer';
 $string['attemptreopenmethod'] = 'Heropende pogingen';
-$string['attemptreopenmethod_help'] = 'Bepaalt hoe de inzendingen van leerlingen heropend kunnen worden. De mogelijke opties zijn: <ul><li>Nooit - de inzending kan niet heropend worden.</li><li>Manueel - de inzending van de leerling kan door een leraar heropend worden.</li><li>Automatisch tot geslaagd - De inzending van de leerling wordt automatisch terug heropend tot de leerling een cijfer heeft dat hoog genoeg is om te slagen. Het slaagcijfer wordt in het puntenboek ingesteld voor deze opdracht (deel instellingen puntenboek).</li></ul>';
+$string['attemptreopenmethod_help'] = 'Bepaalt hoe de inzendingen van leerlingen heropend kunnen worden. De mogelijke opties zijn: <ul><li>Nooit - de inzending van de leerling kan door een leraar niet heropend worden.</li><li>Automatisch tot geslaagd - De inzending van de leerling wordt automatisch terug heropend tot de leerling een cijfer heeft dat hoog genoeg is om te slagen. Deze waarde wordt voor deze opdracht ingesteld in de cijferlijst, bij Categorieën en items.</li></ul>';
 $string['attemptreopenmethod_manual'] = 'Manueel';
 $string['attemptreopenmethod_none'] = 'Nooit';
 $string['attemptreopenmethod_untilpass'] = 'Automatisch tot geslaagd';
@@ -105,7 +105,7 @@ $string['choosegradingaction'] = 'Beoordelingsactie';
 $string['choosemarker'] = 'Kies...';
 $string['chooseoperation'] = 'Kies bewerking';
 $string['comment'] = 'Commentaar';
-$string['completionsubmit'] = 'leerling moet deze activiteit insturen om ze te voltooien';
+$string['completionsubmit'] = 'leerling moet deze actitviteit insturen om ze te voltooien';
 $string['configshowrecentsubmissions'] = 'Iedereen kan in rapporteringen over "Recente activiteit" zien dat er opdrachten zijn ingestuurd.';
 $string['confirmbatchgradingoperation'] = 'Weet je zeker dat je wil {$a->operation} voor {$a->count} leerlingen?';
 $string['confirmsubmission'] = 'Weet je zeker dat je je werk wil insturen voor beoordeling? Je zult geen wijzigingen meer kunnen aanbrengen.';

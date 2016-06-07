@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'resource', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -97,6 +97,7 @@ $string['resourcedetails_sizetypedate'] = '{$a->size} {$a->type} {$a->date}';
 $string['resourcedetails_typedate'] = '{$a->type} {$a->date}';
 $string['resource:exportresource'] = 'Exporter des ressources';
 $string['resource:view'] = 'Voir les ressources';
+$string['search:activity'] = 'Fichier';
 $string['selectmainfile'] = 'Veuillez choisir le fichier principal en cliquant sur son icône.';
 $string['showdate'] = 'Afficher la date de dépôt/de modification';
 $string['showdate_desc'] = 'Si ce réglage est activé, la date de dépôt/de modification est affichée sur la page du cours';
@@ -115,4 +116,4 @@ $string['showtype_help'] = 'Permet d\'afficher le type du fichier, par exemple �
 Si la ressource contient plusieurs fichiers, le type du premier d\'entre eux est affiché.
 
 Si le système ne reconnaît pas le type du fichier, ce dernier ne sera pas affiché.';
-$string['uploadeddate'] = 'Déposé {$a}';
+$string['uploadeddate'] = 'Déposé le {$a}';

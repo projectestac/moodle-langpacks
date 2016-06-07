@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_more', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'theme_more', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   theme_more
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,14 +30,14 @@ $string['backgroundfixed_desc'] = '背景イメージをページに固定した
 $string['backgroundimage'] = '背景イメージ';
 $string['backgroundimage_desc'] = 'サイトの背景として表示するイメージです。';
 $string['backgroundposition'] = '背景ポジション';
-$string['backgroundpositioncenterbottom'] = '中央ボトム';
+$string['backgroundpositioncenterbottom'] = '中央最下部';
 $string['backgroundpositioncentercenter'] = '中央センター';
 $string['backgroundpositioncentertop'] = '中央トップ';
 $string['backgroundposition_desc'] = '背景イメージのポジションです。';
-$string['backgroundpositionleftbottom'] = '左ボトム';
+$string['backgroundpositionleftbottom'] = '左最下部';
 $string['backgroundpositionleftcenter'] = '左センター';
 $string['backgroundpositionlefttop'] = '左トップ';
-$string['backgroundpositionrightbottom'] = '右ボトム';
+$string['backgroundpositionrightbottom'] = '右最下部';
 $string['backgroundpositionrightcenter'] = '右センター';
 $string['backgroundpositionrighttop'] = '右トップ';
 $string['backgroundrepeat'] = '背景繰り返し';
@@ -68,5 +68,10 @@ $string['region-side-post'] = '右';
 $string['region-side-pre'] = '左';
 $string['secondarybackground'] = '補助背景色';
 $string['secondarybackground_desc'] = 'ブロック等、補助コンテンツの背景色です。';
+$string['sitelogo'] = 'サイトロゴ';
+$string['sitename'] = 'スモールロゴと共にサイト名を表示する';
+$string['sitenamedesc'] = 'スモールロゴがない場合、サイト名は常にナビゲーションバーに表示されます。スモールロゴが設定された場合、サイト名と一緒またはサイト名なしに表示することができます。';
+$string['smalllogo'] = 'スモールロゴ';
+$string['smalllogodesc'] = 'ナビゲーションバーにスモールロゴが表示されます。フロントページおよびログインページのヘッダロゴがある場合、それらのページではスモールロゴは表示されません。';
 $string['textcolor'] = 'テキスト色';
 $string['textcolor_desc'] = 'テキスト色です。';

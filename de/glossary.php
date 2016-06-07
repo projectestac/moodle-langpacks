@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'glossary', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -266,7 +266,7 @@ $string['pluginadministration'] = 'Glossar-Administration';
 $string['pluginname'] = 'Glossar';
 $string['popupformat'] = 'Popup-Format';
 $string['print'] = 'Drucken';
-$string['printerfriendly'] = 'Druckerfreundliche Version';
+$string['printerfriendly'] = 'Druckfreundliche Version';
 $string['printviewnotallowed'] = 'Druckansicht ist nicht erlaubt.';
 $string['question'] = 'Frage';
 $string['rejectedentries'] = 'Abgelehnte Einträge';
@@ -278,6 +278,8 @@ $string['rssarticles_help'] = 'Diese Option legt fest, wie viele neue Glossarbeg
 $string['rsssubscriberss'] = 'RSS Feed-Anzeige für \'{$a}\' Begriffe';
 $string['rsstype'] = 'RSS Feed für dieses Glossar';
 $string['rsstype_help'] = 'Diese Option ermöglicht es, RSS Feeds für dieses Glossar zu aktivieren, wobei im Feed die Begriffe mit oder ohne Autor/in einbezogen werden können.';
+$string['search:activity'] = 'Glossar - Aktivitätsinformation';
+$string['search:entry'] = 'Glossar - Einträge';
 $string['searchindefinition'] = 'Volltext-Suche';
 $string['secondaryglossary'] = 'Glossar';
 $string['showall'] = 'Link \'Alle\' anzeigen';

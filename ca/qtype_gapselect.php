@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_gapselect', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_gapselect', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_gapselect
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,6 +39,7 @@ $string['pleaseputananswerineachbox'] = 'Si us plau, poseu una resposta a cada c
 $string['pluginname'] = 'Seleccioneu les paraules que falten';
 $string['pluginnameadding'] = 'S\'està afegint una pregunta d\'omplir forats';
 $string['pluginnameediting'] = 'S\'està editant una pregunta d\'omplir forats';
+$string['pluginnamesummary'] = 'Les paraules que falten en el text de la pregunta s\'emplenen emprant  menús desplegables.';
 $string['shuffle'] = 'Barreja';
 $string['tagsnotallowed'] = 'L\'etiqueta {$a->tag} no està permesa. (Només estan permeses {$a->allowed}.)';
 $string['tagsnotallowedatall'] = 'L\'etiqueta {$a->tag} no està permesa. (Aquí no s\'admet codi HTML.)';

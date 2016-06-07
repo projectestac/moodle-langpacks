@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_youtube', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'repository_youtube', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   repository_youtube
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,7 +33,7 @@ $string['pluginname'] = 'YouTubeビデオ';
 $string['search'] = 'ビデオを検索する';
 $string['sortby'] = '並べ替え';
 $string['sortpublished'] = '公開日時';
-$string['sortrating'] = 'レーティング';
+$string['sortrating'] = '評定';
 $string['sortrelevance'] = '関連性';
 $string['sortviewcount'] = '閲覧回数';
 $string['youtube:view'] = 'ファイルピッカのYouTubeを使用する';

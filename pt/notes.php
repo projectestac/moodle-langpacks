@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'notes', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,15 +43,15 @@ $string['eventnotedeleted'] = 'Nota apagada';
 $string['eventnotesviewed'] = 'Notas visualizadas';
 $string['eventnoteupdated'] = 'Nota atualizada';
 $string['groupaddnewnote'] = 'Adicionar anotação comum';
-$string['invalidid'] = 'Id de anotação inválido';
-$string['invaliduserid'] = 'id do utilizador inválido: {$a}';
+$string['invalidid'] = 'ID de anotação inválido';
+$string['invaliduserid'] = 'ID do utilizador inválido: {$a}';
 $string['myprofileownnotes'] = 'As minhas notas';
 $string['nocontent'] = 'O conteúdo da anotação não pode ficar vazio';
 $string['nonotes'] = 'Ainda não há anotações deste tipo';
 $string['nopermissiontodelete'] = 'Não pode excluir esta anotação';
 $string['note'] = 'Anotação';
 $string['notes'] = 'Anotações';
-$string['notesdisabled'] = 'Desculpe mas as anotações não estão disponíveis.';
+$string['notesdisabled'] = 'Desculpe mas as anotações estão desativadas.';
 $string['notesnotvisible'] = 'Não tem permissão para ver as anotações';
 $string['nouser'] = 'Tem de selecionar um utilizador';
 $string['page-notes-index'] = 'Página principal da pauta';

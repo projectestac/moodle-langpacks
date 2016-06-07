@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'ko', branch 'MOODLE_30_STABLE'
+ * Strings for component 'question', language 'ko', branch 'MOODLE_31_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -287,7 +287,6 @@ $string['numqas'] = '시도 횟수';
 $string['numquestions'] = '질문 번호';
 $string['numquestionsandhidden'] = '{$a->numquestions} (+{$a->numhidden} 비공개)';
 $string['options'] = '옵션';
-$string['orphanedquestionscategory'] = '삭제된 범주에서 저장한 질문';
 $string['page-question-category'] = '질문 범주 페이지';
 $string['page-question-edit'] = '질문 편집 페이지';
 $string['page-question-export'] = '질문 내보내기 페이지';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz_grading', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,12 +33,12 @@ $string['automaticallygraded'] = 'Avaliadas automaticamente';
 $string['backtothelistofquestions'] = 'Voltar à lista de perguntas';
 $string['bydate'] = 'Por data';
 $string['bystudentfirstname'] = 'Pelo primeiro nome do aluno';
-$string['bystudentidnumber'] = 'Por id do aluno';
+$string['bystudentidnumber'] = 'Por ID do aluno';
 $string['bystudentlastname'] = 'Pelo último nome do aluno';
 $string['cannotgradethisattempt'] = 'Não é possível avaliar esta tentativa';
 $string['cannotloadquestioninfo'] = 'Não é possível carregar as informações específicas deste tipo de pergunta';
 $string['changeoptions'] = 'Alterar opções';
-$string['essayonly'] = 'As perguntas seguintes têm de ser classificadas manualmente';
+$string['essayonly'] = 'As perguntas seguintes têm de ser avaliadas manualmente';
 $string['grade'] = 'Avaliar';
 $string['gradeall'] = 'Avaliar todas';
 $string['gradeattemptsall'] = 'Todas ({$a})';
@@ -60,7 +60,7 @@ $string['gradingquestionx'] = 'A avaliar pergunta {$a->number}: {$a->questionnam
 $string['gradingreport'] = 'Relatório da avaliação manual';
 $string['gradingungraded'] = '{$a} tentativas não avaliadas';
 $string['gradinguser'] = 'Tentativas para {$a}';
-$string['grading:viewidnumber'] = 'Ver ids dos alunos durante a avaliação';
+$string['grading:viewidnumber'] = 'Ver id\'s dos alunos durante a avaliação';
 $string['grading:viewstudentnames'] = 'Ver o nome dos alunos durante a avaliação';
 $string['hideautomaticallygraded'] = 'Ocultar perguntas que foram avaliadas automaticamente';
 $string['inprogress'] = 'Em progresso';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'workshop', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,14 @@ $string['allocation'] = 'Einreichungen zuordnen';
 $string['allocationconfigured'] = 'Zuordnung konfiguriert';
 $string['allocationdone'] = 'Zuordnung erledigt';
 $string['allocationerror'] = 'Zuordnungsfehler';
+$string['allowedfiletypesforoverallfeedback'] = 'Erlaubte Dateitypen für Feedbackanhänge';
+$string['allowedfiletypesforoverallfeedback_help'] = 'Die erlaubte Dateitypen für Feedbackanhänge können über eine kommagetrennte Liste von Dateierweiterungen eingeschränkt werden, z.B. \'png, jpg, jpeg, gif\'. Wenn die Liste leer ist, sind alle Dateitypen zugelassen.
+
+Zusätzlich unterstützte Dateierweiterungen können in der Serveradministration konfiguriert werden.';
+$string['allowedfiletypesforsubmission'] = 'Erlaubte Dateitypen für Abgabeanhänge';
+$string['allowedfiletypesforsubmission_help'] = 'Die erlaubte Dateitypen für Abgabeanhänge können über eine kommagetrennte Liste von Dateierweiterungen eingeschränkt werden, z.B. \'png, jpg, jpeg, gif\'. Wenn die Liste leer ist, sind alle Dateitypen zugelassen.
+
+Zusätzlich unterstützte Dateierweiterungen können in der Serveradministration konfiguriert werden.';
 $string['allsubmissions'] = 'Alle Einreichungen ({$a})';
 $string['alreadygraded'] = 'Bereits bewertet';
 $string['areaconclusion'] = 'Abschlusstext';
@@ -96,6 +104,7 @@ $string['daystoday'] = 'heute';
 $string['daystomorrow'] = 'morgen';
 $string['daysyesterday'] = 'gestern';
 $string['deadlinesignored'] = 'Die Zeitvorgaben treffen auf Sie nicht zu';
+$string['deletesubmission'] = 'Abgabe löschen';
 $string['editassessmentform'] = 'Beurteilungsbogen bearbeiten';
 $string['editassessmentformstrategy'] = 'Bearbeite Beurteilungsbogen ({$a})';
 $string['editingassessmentform'] = 'Beurteilungsbogen bearbeiten';
@@ -103,6 +112,8 @@ $string['editingsubmission'] = 'Einreichung bearbeiten';
 $string['editsubmission'] = 'Abgegebene Einreichung bearbeiten';
 $string['err_multiplesubmissions'] = 'Während der Bearbeitung des Formulars wurde eine neue Einreichung abgegeben. Mehrere Einreichungen je Nutzer sind jedoch nicht erlaubt.  ';
 $string['err_removegrademappings'] = 'Es ist nicht möglich die nicht verwendeten Punktetabellen zu löschen';
+$string['err_unknownfileextension'] = 'Unbekannte Dateiendung: {$a}';
+$string['err_wrongfileextension'] = 'Die Dateien ({$a->wrongfiles}) konnten nicht hochgeladen werden. Es sind nur die Dateitypen {$a->whitelist} zugelassen.';
 $string['evaluategradeswait'] = 'Bitte warten Sie bis die Beurteilungen bewertet und die Punkte berechnet sind.';
 $string['evaluation'] = 'Bewertung';
 $string['evaluationmethod'] = 'Bewertungsmethode';
@@ -116,6 +127,7 @@ $string['eventphaseswitched'] = 'Phase gewechselt';
 $string['eventsubmissionassessed'] = 'Abgabe beurteilt';
 $string['eventsubmissionassessmentsreset'] = 'Abgabebeurteilungen gelöscht';
 $string['eventsubmissioncreated'] = 'Abgabe angelegt';
+$string['eventsubmissiondeleted'] = 'Abgabe gelöscht';
 $string['eventsubmissionreassessed'] = 'Abgabe neu beurteilt';
 $string['eventsubmissionupdated'] = 'Abgabe aktualisiert';
 $string['eventsubmissionviewed'] = 'Abgabe angezeigt';
@@ -243,6 +255,7 @@ $string['saveandclose'] = 'Speichern und schließen';
 $string['saveandcontinue'] = 'Speichern und weiter bearbeiten';
 $string['saveandpreview'] = 'Speichern und Vorschau';
 $string['saveandshownext'] = 'Sichern und weiter';
+$string['search:activity'] = 'Gegenseitige Bewertung - Aktivitätsinformation';
 $string['selfassessmentdisabled'] = 'Selbstbeurteilung deaktiviert';
 $string['showingperpage'] = '{$a} Einträge pro Seite';
 $string['showingperpagechange'] = 'Ändern...';
@@ -261,6 +274,8 @@ $string['submission'] = 'Einreichung';
 $string['submissionattachment'] = 'Dateianhang';
 $string['submissionby'] = 'Eingereicht von {$a}';
 $string['submissioncontent'] = 'Einreichungsinhalt';
+$string['submissiondeleteconfirm'] = 'Möchten Sie wirklich die folgende Abgabe löschen?';
+$string['submissiondeleteconfirmassess'] = 'Möchten Sie wirklich die folgende Abgabe löschen? Beachten Sie, dass auch die {$a->count} Beurteilungen entfernt werden, die mit der Abgabe verbunden sind. Damit könnten auch die Bewertungen anderer beeinflusst werden.';
 $string['submissionend'] = 'Einreichungen bis';
 $string['submissionendbeforestart'] = 'Der Abgabetermin für Einreichungen kann nicht vor dem Beginn der Einreichung liegen';
 $string['submissionenddatetime'] = 'Einreichungen sind möglich bis {$a->daydatetime} ({$a->distanceday})';
@@ -314,8 +329,7 @@ $string['usepeerassessment_help'] = 'Mit dieser Funktion erhält der Teilnehmend
 $string['userdatecreated'] = 'eingereicht am <span>{$a}</span>';
 $string['userdatemodified'] = 'geändert am <span>{$a}</span>';
 $string['userplan'] = 'Navigator für gegenseitige Beurteilung';
-$string['userplan_help'] = 'Der Navigator für die gegenseitige Beurteilung zeigt alle Phasen und einzelne Schritte in den Phasen an. Die aktuelle Phase ist farblich gekennzeichnet und erledigte Schritte sind mit einem Haken gekennzeichnet.
-Zum Wechseln der Phase klicken Sie bitte auf den Stern rechts neben der Phasen-Überschrift.';
+$string['userplan_help'] = 'Der Navigator für die gegenseitige Beurteilung zeigt alle Phasen und einzelne Schritte in den Phasen an. Die aktuelle Phase ist farblich gekennzeichnet und erledigte Schritte sind mit einem Haken gekennzeichnet.';
 $string['useselfassessment'] = 'Selbstbeurteilung';
 $string['useselfassessment_desc'] = 'Teilnehmer/innen können ihre eigene Einreichung beurteilen';
 $string['useselfassessment_help'] = 'Mit der Funktion kann einem Nutzer auch seine eigene Einreichung zur Bewertung zugewiesen werden. Er erhält dann dafür eine Bewertung, die der externen Bewertung der Einreichung hinzuaddiert wird. ';
@@ -323,6 +337,7 @@ $string['weightinfo'] = 'Gewichtung: {$a}';
 $string['withoutsubmission'] = 'Beurteiler ohne eigene Einreichung';
 $string['workshop:addinstance'] = 'Gegenseitige Beurteilung hinzufügen';
 $string['workshop:allocate'] = 'Beurteiler/innen zuordnen';
+$string['workshop:deletesubmissions'] = 'Abgaben löschen';
 $string['workshop:editdimensions'] = 'Beurteilungsbögen bearbeiten';
 $string['workshop:ignoredeadlines'] = 'Zeitvorgaben ignorieren';
 $string['workshop:manageexamples'] = 'Beispieleinreichung organisieren';

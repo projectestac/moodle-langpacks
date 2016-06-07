@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_log', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'report_log', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   report_log
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,8 +30,8 @@ $string['eventcontext'] = 'Контекст события';
 $string['eventloggedas'] = '{$a->realusername} под именем {$a->asusername}';
 $string['eventorigin'] = 'Источник';
 $string['eventrelatedfullnameuser'] = 'Затронутый пользователь';
-$string['eventreportviewed'] = 'Просмотрен отчет «Журнал событий»';
-$string['eventuserreportviewed'] = 'Просмотрен журнал событий пользователя';
+$string['eventreportviewed'] = 'Отчет «Журнал событий» просмотрен';
+$string['eventuserreportviewed'] = 'Отчет «Журнал событий» по пользователю просмотрен';
 $string['logsformat'] = 'Формат';
 $string['log:view'] = 'Просматривать журнал событий курса';
 $string['log:viewtoday'] = 'Просматривать записи журнала событий за сегодня';

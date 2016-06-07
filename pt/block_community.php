@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_community', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_community', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   block_community
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,10 +29,10 @@ $string['activities'] = 'Atividades';
 $string['add'] = 'Adicionar';
 $string['addcommunitycourse'] = 'Adicionar disciplina';
 $string['addcourse'] = 'Procurar';
-$string['addedtoblock'] = 'O link para esta disciplina foi adicionado ao seu bloco Procurar comunidades';
+$string['addedtoblock'] = 'A hiperligação para esta disciplina foi adicionada ao seu bloco Procurar comunidades';
 $string['additionalcoursedesc'] = '{$a->lang} Criador: {$a->creatorname} - Editor: {$a->publishername} - Assunto: {$a->subject}
 - Público: {$a->audience} - Nível de ensino: {$a->educationallevel} - Licença: {$a->license}';
-$string['addtocommunityblock'] = 'Guardar o link para esta disciplina';
+$string['addtocommunityblock'] = 'Guardar a hiperligação para esta disciplina';
 $string['audience'] = 'Direcionado para';
 $string['audience_help'] = 'Que tipo de disciplina procura? Á semelhança das disciplinas tradicionais destinadas a alunos, pode também pesquisar por disciplinas para professores e administradores Moodle.';
 $string['blocks'] = 'Blocos';
@@ -50,7 +50,7 @@ $string['courses'] = 'Sisciplinas';
 $string['coverage'] = 'Palavras-chave: {$a}';
 $string['donotrestore'] = 'Não';
 $string['dorestore'] = 'Sim';
-$string['download'] = 'Download';
+$string['download'] = 'Descarregar';
 $string['downloadable'] = 'Disciplinas que posso descarregar';
 $string['downloadablecourses'] = 'Disciplinas que posso descarregar';
 $string['downloadconfirmed'] = 'A cópia de segurança foi gravada nos seus ficheiros privados {$a}';
@@ -93,7 +93,7 @@ $string['orderbyname'] = 'Nome';
 $string['orderbynewest'] = 'Mais recente';
 $string['orderbypublisher'] = 'Publicado por';
 $string['orderbyratingaverage'] = 'Avaliação';
-$string['outcomes'] = 'Resultados: {$a}';
+$string['outcomes'] = 'Resultados da aprendizagem: {$a}';
 $string['pluginname'] = 'Pesquisar comunidades';
 $string['rateandcomment'] = 'Avaliar e comentar';
 $string['rating'] = 'Avaliação';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_mnet_hosts', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_mnet_hosts', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   block_mnet_hosts
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['error_authmnetneeded'] = 'O plugin de autenticação MNet deve estar ativo para ver a lista de servidores de rede MNet';
+$string['error_authmnetneeded'] = 'O módulo de autenticação MNet deve estar ativo para ver a lista de servidores de rede MNet';
 $string['error_localusersonly'] = 'Os utilizadores remotos não podem saltar para outros servidores da rede MNet a partir deste servidor';
 $string['error_roamcapabilityneeded'] = 'Os utilizadores necessitam de permissões na capacidade de \'Navegar para um Moodle remoto\' to para ver a lista de servidores de rede MNet';
 $string['mnet_hosts:addinstance'] = 'Adicionar um novo bloco Servidores de rede';

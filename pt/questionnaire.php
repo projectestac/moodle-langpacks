@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'questionnaire', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,7 +66,7 @@ $string['chart:type'] = 'Tipo de gráfico';
 $string['chart:type_help'] = 'Selecione o tipo de gráfico que deseja usar no feedback';
 $string['chart:vprogress'] = 'Barra de progressão vertical';
 $string['checkallradiobuttons'] = 'Ao responder, tem de assinalar [<strong>{$a}</strong>] botões de radio da questão.';
-$string['checkboxes'] = 'Caixas de verificação';
+$string['checkboxes'] = 'Caixas de seleção';
 $string['checkboxes_help'] = 'Insira uma opção por linha para que o participante selecione uma ou mais opções de resposta.';
 $string['checkboxes_link'] = 'mod/questionnaire/questions#Check_Boxes';
 $string['checkbreaksadded'] = 'Nova(s) quebra(s) de página inserida(s) na(s) posição(ões):';
@@ -77,7 +77,7 @@ $string['checkstarted'] = 'Selecionar iniciado(s)';
 $string['clicktoswitch'] = '(clique para alternar)';
 $string['closed'] = 'O questionário terminou em {$a}. Obrigado.';
 $string['closedate'] = 'Usar Data de Fecho';
-$string['closedate_help'] = 'Aqui pode escolher uma data de fecho para o questionário. Selecione a caixa de verificação e escolha a data pretendida.
+$string['closedate_help'] = 'Aqui pode escolher uma data de fecho para o questionário. Selecione a caixa de seleção e escolha a data pretendida.
 Os participantes não podem preencher o questionário após essa data, se não for selecionada este nunca fecha.';
 $string['closeson'] = 'O questionário termina em {$a}.';
 $string['completionsubmit'] = 'Os participantes têm de submeter o questionário para o completar';
@@ -121,8 +121,8 @@ $string['download'] = 'Descarregar';
 $string['downloadtextformat'] = 'Descarregar em formato texto';
 $string['downloadtextformat_help'] = 'Esta opção permite que guarde todas as respostas do questionário num ficheiro de texto (CSV). Este ficheiro poderá depois ser importado como folha de cálculo (MS Excel ou OpenOffice Calc) ou utilizado num software de estatística para tratamento dos dados.';
 $string['downloadtextformat_link'] = 'mod/questionnaire/report#Download_in_text_format';
-$string['dropdown'] = 'Caixa de listagem';
-$string['dropdown_help'] = 'Não existe grande vantagem em usar Caixas de Listagem em vez de Botões de Rádio, exceto quando as opções de resposta são uma lista grande.';
+$string['dropdown'] = 'Lista pendente';
+$string['dropdown_help'] = 'Não existe grande vantagem em usar Listas pendentes em vez de Botões de Rádio, exceto quando as opções de resposta são uma lista grande.';
 $string['dropdown_link'] = 'mod/questionnaire/questions#Dropdown_Box';
 $string['edit'] = 'Editar';
 $string['editingquestionnaire'] = 'Editar configurações';
@@ -172,7 +172,7 @@ $string['feedbacknone'] = 'Sem mensagens de feedback';
 $string['feedbacknotes'] = 'Notas do feedback';
 $string['feedbacknotes_help'] = 'O texto aqui inserido será exibido no final do relatório de feedback aos utilizadores que responderem ao questionário';
 $string['feedbackoptions'] = 'Opções de feedback';
-$string['feedbackoptions_help'] = 'As opções de feedback estão disponíveis se o questionário contém um dos seguintes tipos e configurações de questões: *botões de rádio*, *caixa de listagem*, *sim/não* ou *classificação*. Estas questões devem ser definidas como de **Resposta obrigatória**, o Nome da questão **NÃO** pode estar vazio e as opções possíveis de resposta têm de conter um valor.';
+$string['feedbackoptions_help'] = 'As opções de feedback estão disponíveis se o questionário contém um dos seguintes tipos e configurações de questões: *botões de rádio*, *lista pendente*, *sim/não* ou *classificação*. Estas questões devem ser definidas como de **Resposta obrigatória**, o Nome da questão **NÃO** pode estar vazio e as opções possíveis de resposta têm de conter um valor.';
 $string['feedbackremovequestionfromsection'] = 'Esta questão faz parte da secção [{$a}] de feedback';
 $string['feedbackremovesection'] = 'Eliminar esta questão irá remover completamente a secção [{$a}] do feedback';
 $string['feedbackreport'] = 'Relatório do feedback';
@@ -213,7 +213,7 @@ $string['invalidresponse'] = 'Resposta inválida';
 $string['invalidresponserecord'] = 'Registo de resposta inválido';
 $string['invalidsurveyid'] = 'ID do questionário inválido';
 $string['kindofratescale'] = 'Tipo de escala';
-$string['kindofratescale_help'] = 'Clique com o botão direito do rato no link abaixo *Mais ajuda*.';
+$string['kindofratescale_help'] = 'Clique com o botão direito do rato na hiperligação abaixo *Mais ajuda*.';
 $string['kindofratescale_link'] = 'mod/questionnaire/questions#Type_of_rate_scale';
 $string['lastrespondent'] = 'Último a responder';
 $string['length'] = 'Comprimento';
@@ -225,7 +225,7 @@ $string['maxforcedresponses'] = 'Número máximo de respostas';
 $string['maxtextlength'] = 'Tamanho máximo do texto';
 $string['messageprovider:message'] = 'Lembrete do questionário';
 $string['minforcedresponses'] = 'Número mínimo de respostas';
-$string['minforcedresponses_help'] = 'Use estas opções para forçar os alunos a selecionarem um número **Mínimo** e **Máximo** de caixas de verificação. Para especificar um número exato de caixas a serem selecionadas, configure **Mínimo** e **Máximo** com o mesmo valor. Se apenas desejar fixar um valor máximo ou mínimo deixe o outro valor configurado com o valor **0**. Se definir os valor máximos e mínimos para mais de **0** será exibida uma mensagem de alerta para que os alunos os cumpram, sendo que tais instruções também devem ser feitas por si durante as instruções do questionários e das questões.';
+$string['minforcedresponses_help'] = 'Use estas opções para forçar os alunos a selecionarem um número **Mínimo** e **Máximo** de caixas de seleção. Para especificar um número exato de caixas a serem selecionadas, configure **Mínimo** e **Máximo** com o mesmo valor. Se apenas desejar fixar um valor máximo ou mínimo deixe o outro valor configurado com o valor **0**. Se definir os valor máximos e mínimos para mais de **0** será exibida uma mensagem de alerta para que os alunos os cumpram, sendo que tais instruções também devem ser feitas por si durante as instruções do questionários e das questões.';
 $string['misconfigured'] = 'Disciplina mal configurada';
 $string['missingname'] = 'A questão {$a} não pode ser utilizada nesta secção de feedback porque não tem nome.';
 $string['missingnameandrequired'] = 'A questão {$a} não pode ser utilizada nesta secção de feedback porque não tem nome e não é obrigatória.';
@@ -277,7 +277,7 @@ $string['numeric'] = 'Numérico';
 $string['numeric_help'] = 'Use esta questão se pretende uma resposta na forma de um número formatado corretamente.';
 $string['of'] = 'de';
 $string['opendate'] = 'Usar Data de Abertura';
-$string['opendate_help'] = 'Aqui pode escolher uma data de abertura para o questionário. Selecione a caixa de verificação e escolha a data pretendida.
+$string['opendate_help'] = 'Aqui pode escolher uma data de abertura para o questionário. Selecione a caixa de seleção e escolha a data pretendida.
 Os participantes não podem preencher o questionário antes dessa data, se não selecionar a caixa o teste abre de imediato.';
 $string['option'] = 'opção {$a}';
 $string['optionalname'] = 'Nome da Questão';
@@ -290,7 +290,14 @@ $string['order_ascending'] = 'Ordem ascendente';
 $string['order_default'] = 'Ordem predefinida';
 $string['order_descending'] = 'Ordem descendente';
 $string['orderresponses'] = 'Ordem das respostas';
-$string['orderresponses_help'] = 'Ao ver todas as respostas pode ordenar as escolhas por número de respostas (coluna da média) para os seguintes 4 tipos de questões.*Escolha única em Botões de Opção*<br/>*Escolha única numa Caixa de Listagem*<br/>*Caixas de Verificação (Escolha Múltipla)*<br/>*Questões de Classificação (incluindo escalas Likert)*.<br/>Quando entra na página de **Ver todas as respostas**, por predefinição, as questões estão dispostas na ordem em que o criador do questionário as inseriu. Pode optar por ordená-las por ordem ascendente ou descendente.';
+$string['orderresponses_help'] = 'Ao ver todas as respostas pode ordenar as escolhas por número de respostas (coluna da média) para os seguintes 4 tipos de questões.
+
+* Escolha única com Botões de Radio
+* Escolha única com Lista Pendente
+* Escolha múltipla com Caixas de seleção
+* Questões de Classificação (incluindo escalas Likert)*.
+
+Quando entra na página **Ver todas as respostas**, por predefinição, as questões estão dispostas na ordem em que o criador do questionário as inseriu. Pode optar por ordená-las por ordem ascendente ou descendente.';
 $string['orderresponses_link'] = 'mod/questionnaire/report#Order_Responses';
 $string['osgood'] = 'Tipo Osgood';
 $string['other'] = 'Outro:';
@@ -477,7 +484,7 @@ $string['usetemplate'] = 'Usar questionário modelo';
 $string['vertical'] = 'Vertical';
 $string['view'] = 'Ver';
 $string['viewallresponses'] = 'Ver todas as respostas';
-$string['viewallresponses_help'] = 'Se o questionário está configurado para o **Modo de Grupos**: *Grupos visíveis*, ou definido para *Grupos separados* e o utilizador atual tem a capacidade *moodle/site:accessallgroups* (no contexto atual), e os grupos foram definidos no curso atual, então, o utilizador tem acesso a uma lista suspensa de grupos. Essa lista suspensa permite que o utilizador possa "filtrar" as respostas ao questionário por grupos. Se a definição **Modo de Grupos**: *Grupos separados* estiver ativa, os utilizadores que não têm a capacidade *moodle/site: accessallgroups* (normalmente alunos ou professores não editores, etc.) só serão capazes de ver as respostas do grupo(s) a que pertencem.';
+$string['viewallresponses_help'] = 'Se o questionário está configurado para o **Modo de Grupos**: *Grupos visíveis*, ou definido para *Grupos separados* e o utilizador atual tem a capacidade *moodle/site:accessallgroups* (no contexto atual), e os grupos foram definidos na disciplina atual, então, o utilizador tem acesso a uma lista pendente com os grupos. Essa lista pendente permite que o utilizador possa "filtrar" as respostas ao questionário por grupos. Se a definição **Modo de Grupos**: *Grupos separados* estiver ativa, os utilizadores que não têm a capacidade *moodle/site: accessallgroups* (normalmente alunos ou professores não editores, etc.) só serão capazes de ver as respostas do grupo(s) a que pertencem.';
 $string['viewbyresponse'] = 'Lista de respostas';
 $string['viewindividualresponse'] = 'Respostas individuais';
 $string['viewindividualresponse_help'] = 'Clique no nome de cada participante no questionário para ver as respetivas respostas individuais.';

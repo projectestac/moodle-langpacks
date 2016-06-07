@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'plugin', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,10 +27,25 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actions'] = 'Acciones';
 $string['availability'] = 'Disponibilidad';
+$string['cancelinstallall'] = 'Cancelar nuevas instalaciones ({$a})';
+$string['cancelinstallhead'] = 'Cancelando instalación de plugins';
+$string['cancelinstallinfo'] = 'Los siguientes plugins no están completamente instalados aún, por lo que su instalación puede ser cancelada. Para hacer esto, la carpeta del plugin debe ser eliminada del servidor ahora. Asegúrese que esto es lo que realmente desea hacer para prevenir la pérdida accidental de datos (tales como sus propias modificaciones de código).';
+$string['cancelinstallinfodir'] = 'Carpeta a eliminar: {$a}';
+$string['cancelinstallone'] = 'Cancelar esta instalación';
+$string['cancelupgradeall'] = 'Cancelar actualizaciones ({$a})';
+$string['cancelupgradehead'] = 'Restaurando versiones anteriores de plugins';
+$string['cancelupgradeone'] = 'Cancelar esta actualización';
 $string['checkforupdates'] = 'Compruebe actualizaciones disponibles';
 $string['checkforupdateslast'] = 'Última comprobación realizada el {$a}';
+$string['dependencyavailable'] = 'Disponible';
+$string['dependencyfails'] = 'Fallido';
 $string['dependencyinstall'] = 'Instalar';
+$string['dependencyinstallhead'] = 'Instalando dependencias ausentes';
+$string['dependencyinstallmissing'] = 'Instalando dependencias ausentes ({$a})';
+$string['dependencymissing'] = 'Ausente';
+$string['dependencyunavailable'] = 'No disponible';
 $string['dependencyupload'] = 'Subir';
+$string['dependencyuploadmissing'] = 'Subir ficheros ZIP';
 $string['detectedmisplacedplugin'] = 'La extensión "{$a->component}" está instalado en la ubicación incorrecta "{$a->current}"; la ubicación prevista es "{$a->expected}"';
 $string['displayname'] = 'Nombre de la extensión';
 $string['err_response_curl'] = 'No pudo obtener actualizaciones disponibles - error cURL inesperado.';
@@ -39,18 +54,34 @@ $string['err_response_http_code'] = 'No pudo obtener actualizaciones disponibles
 $string['filterall'] = 'Mostrar todo';
 $string['filtercontribonly'] = 'Mostrar sólo los plugins externos';
 $string['filterupdatesonly'] = 'Mostrar sólo las actualizables';
+$string['misdepinfoplugin'] = 'Información de Plugin';
+$string['misdepinfoversion'] = 'Información de Versión';
+$string['misdepsavail'] = 'Dependencias';
+$string['misdepsunavail'] = 'Dependencias ausentes no disponibles';
+$string['misdepsunavaillist'] = 'No se ha encontrado la versión que cumpla los requisitos de dependencias: {$a}.';
+$string['misdepsunknownlist'] = 'No disponible en el directorio de Plugins: <strong>{$a}</strong>.';
 $string['moodleversion'] = 'Moodle {$a}';
 $string['noneinstalled'] = 'No se han instalado extensiones (plugins) de este tipo';
 $string['notdownloadable'] = 'No puede descargarse el paquete';
 $string['notdownloadable_help'] = 'El paquete ZIP con la actualización no se puede descargar de forma automática. Por favor, consulte la página de documentación para obtener más ayuda.';
 $string['notes'] = 'Notas';
 $string['notwritable'] = 'Los archivos de plugins (extensiones) no son escribibles';
-$string['notwritable_help'] = 'Ha habilitado que se realicen actualizaciones automáticas y hay una actualización disponible para este plugin. Sin embargo, los archivos del plugin no son escribibles por el servidor web, por lo que no se pudo realizar la instalación automaticamente.
-
-Esnecesario que la carpeta del plugin y todos sus contenidos sean escribibles para poder instalar automáticamente la actualización disponible.';
+$string['notwritable_help'] = 'Los ficheros de los plugins no son modificables por el servidor web. El proceso del servidor web debe tener permiso de escritura a la carpeta de plugins y de todo su contenido. También puede requerirse acceso de escritura a la carpeta raíz del tipo de plugin indicado.';
 $string['otherplugin'] = '{$a->component}';
 $string['otherpluginversion'] = '{$a->component} ({$a->version})';
-$string['pluginchecknotice'] = 'Esta página muestra las extensiones (plugins) que pueden requerir su atención durante la actualización. Los elementos resaltados incluyen nuevas extensiones (plugins) que están a punto de ser instalados, los que van a ser actualizados y las extensiones  anteriores que ahora faltan. Los módulos externos (add-ons) también se destacan. Se recomienda que compruebe si hay versiones más recientes de los módulos externos disponibles y actualice  su código fuente antes de continuar con esta actualización de Moodle.';
+$string['overviewall'] = 'Todos los plugins';
+$string['overviewext'] = 'Plugins adicionales';
+$string['overviewupdatable'] = 'Actualizaciones disponibles';
+$string['packagesdebug'] = 'Salida de depuración habilitada';
+$string['packagesdownloading'] = 'Descargando {$a}';
+$string['packagesextracting'] = 'Extrayendo {$a}';
+$string['packagesvalidating'] = 'Validando {$a}';
+$string['packagesvalidatingfailed'] = 'Instalación abortada debido a error de validación';
+$string['packagesvalidatingok'] = 'Validación correcta, la instalación puede continuar';
+$string['plugincheckall'] = 'Todos los plugins';
+$string['plugincheckattention'] = 'Plugins solicitando atención';
+$string['pluginchecknone'] = 'Ningún plugin necesita su atención ahora';
+$string['pluginchecknotice'] = 'Esta página muestra las extensiones (plugins) que pueden requerir su atención durante la actualización, tales como nuevos plugins para ser instaladados, plugins para ser actualizados, plugins ausentes, etc. Los plugins adicionales (módulos externos o add-ons) son mostrados si existe una actualización para ellos. Se recomienda que compruebe si hay disponible versiones más recientes de los módulos externos y actualice  su código fuente antes de continuar con esta actualización de Moodle.';
 $string['plugindisable'] = 'Deshabilitar';
 $string['plugindisabled'] = 'Deshabilitado';
 $string['pluginenable'] = 'Habilitar';
@@ -61,7 +92,7 @@ $string['requires'] = 'Requiere';
 $string['rootdir'] = 'Directorio';
 $string['settings'] = 'Configuración';
 $string['source'] = 'Origen';
-$string['sourceext'] = 'Módulo externo';
+$string['sourceext'] = 'Adicional';
 $string['sourcestd'] = 'Estándar';
 $string['status'] = 'Estado';
 $string['status_delete'] = 'Para borrar';
@@ -71,6 +102,7 @@ $string['status_new'] = 'Para instalarse';
 $string['status_nodb'] = 'Ninguna base de datos';
 $string['status_upgrade'] = 'Para actualizar';
 $string['status_uptodate'] = 'Instalado';
+$string['supportedmoodleversions'] = 'Versiones de Moodle soportadas';
 $string['systemname'] = 'Identificador';
 $string['type_auth'] = 'Método de identificación';
 $string['type_auth_plural'] = 'Extensiones de identificación';
@@ -136,7 +168,7 @@ $string['uninstall'] = 'Desinstalar';
 $string['uninstallconfirm'] = 'Está apunto de desinstalar la extensión <em>{$a->name}</em>.  Esto eliminará por completo de la base de datos asociada todo lo relacionado con esta extensión, incluyendo su configuración, los registros, los archivos de usuario gestionados por la extensión, etc No hay vuelta atrás y Moodle no crea por si mismo ninguna copia de seguridad de recuperación. ¿Está seguro de que desea continuar?';
 $string['uninstalldelete'] = 'Todos los datos relacionados con la extensión  <em>{$a->name}</em> han sido borrados de la base de datos. Para evitar que la extensión se vuelva a instalar automáticamente, ahora debe eliminar manualmente del servidor su carpeta <em>{$a->rootdir}</em>. Moodle no puede eliminarla automáticamente debido a los permisos de escritura.';
 $string['uninstalldeleteconfirm'] = 'Todos los datos relacionados con la extensión <em>{$a->name}</em> han sido borrados de la base de datos. Para evitar que la extensión se vuelva a instalar automáticamente, ahora debe eliminar del servidor su carpeta <em>{$a->rootdir}</em>. ¿Quieres eliminar la carpeta de la extensión ahora?';
-$string['uninstalldeleteconfirmexternal'] = 'Parece ser que la versión actual de la extensión ha sido obtenida a través de la comprobación del sistema de gestión del código fuente ({$a}t. Si elimina la carpeta de la extensión, puede perder importantes modificaciones locales del código. Por favor asegúrese de que efectivamente quiere eliminar la carpeta de la extensión antes de continuar.';
+$string['uninstalldeleteconfirmexternal'] = 'Parece ser que la versión actual de la extensión ha sido obtenida a través de un checkout de un sistema de gestión de código fuente ({$a}). Si elimina la carpeta de la extensión, puede perder importantes modificaciones locales del código. Por favor asegúrese que efectivamente quiere eliminar la carpeta de la extensión antes de continuar.';
 $string['uninstallextraconfirmblock'] = 'Hay {$a->instances} instancias de este bloque.';
 $string['uninstallextraconfirmenrol'] = 'Hay {$a->instances} instancias de este bloque.';
 $string['uninstallextraconfirmmod'] = 'Hay {$a->instances} instancias de este bloque.';
@@ -165,6 +197,8 @@ $string['validationmsglevel_info'] = 'OK';
 $string['validationmsglevel_warning'] = 'Advertencia';
 $string['validationmsg_maturity'] = 'Nivel de madurez';
 $string['validationmsg_maturity_help'] = 'El módulo externo puede declarar su nivel de madurez. Si el desarrollador considera que el módulo es estable, el nivel de madurez declarado leerá MATURITY_STABLE. El resto de los niveles de madurez (como alfa o beta) deben ser considerados inestables y se mostrará una advertencia.';
+$string['validationmsg_missingcomponent'] = 'El plugin no declara los nombres de sus componentes';
+$string['validationmsg_missingcomponent_help'] = 'Todos los plugins deben proporcionar su';
 $string['validationmsg_missingexpectedlangenfile'] = 'Archivo de idioma Inglés perdido';
 $string['validationmsg_missingexpectedlangenfile_info'] = 'Al tipo de módulo externo proporcionado le falta el archivo de idioma inglés esperado {$a}.';
 $string['validationmsg_missinglangenfile'] = 'No se encuentra el archivo de idioma Inglés';
@@ -182,9 +216,11 @@ $string['validationmsg_rootdir'] = 'Nombre del módulo externo que se debe insta
 $string['validationmsg_rootdir_help'] = 'El nombre del directorio raíz en el paquete ZIP indica el nombre del módulo externo que se instalará. Si el nombre no es correcto, es posible que desee cambiar el nombre del directorio raíz del paquete ZIP antes de instalar el módulo.';
 $string['validationmsg_rootdirinvalid'] = 'Nombre del módulo externo no válido';
 $string['validationmsg_rootdirinvalid_help'] = 'El nombre del directorio raíz en el paquete ZIP viola los requisitos formales de sintaxis. Algunos paquetes ZIP, como los generados por Github, pueden contener un nombre de directorio raíz incorrecto. Es necesario corregir el nombre del directorio raíz para que coincida con el nombre del módulo externo.';
-$string['validationmsg_targetexists'] = 'La ubicación de destino ya existe';
-$string['validationmsg_targetexists_help'] = 'El directorio donde se instalará el módulo externo aún no existe.';
+$string['validationmsg_targetexists'] = 'La ubicación de destino ya existe y será eliminada';
+$string['validationmsg_targetexists_help'] = 'El directorio del plugin ya existe y será eliminado por el contenido del paquete del plugin.';
+$string['validationmsg_targetnotdir'] = 'Localización destino ocupada por un fichero';
 $string['validationmsg_unknowntype'] = 'Tipo de extensión desconocido';
+$string['validationmsg_versionphpsyntax'] = 'Sintaxis no soportada detectada en el fichero version.php';
 $string['version'] = 'Versión';
 $string['versiondb'] = 'Versión actual';
 $string['versiondisk'] = 'Nueva versión';

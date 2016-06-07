@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -204,9 +204,6 @@ $string['confirmclose'] = 'Stai per completare questo tentativo. Una volta chius
 $string['confirmremovequestion'] = 'Sei sicuro di rimuovere la domanda {$a}?';
 $string['confirmremovesectionheading'] = 'Sei sicuro di rimuovere l\'intestazione della sezione \'{$a}\'?';
 $string['confirmserverdelete'] = 'Sei sicuro di voler rimuovere il server <b>{$a}</b> dalla lista?';
-$string['confirmstartattemptlimit'] = 'Per questo quiz sono previsti {$a} tentativi. L\'accesso al quiz sarà considerato come un tentativo. Vuoi procedere?';
-$string['confirmstartattempttimelimit'] = 'Il quiz ha un tempo massimo di svolgimento e consente un massimo di {$a} tentativi. L\'accesso al quiz sarà contato come un tentativo. Vuoi procedere?';
-$string['confirmstarttimelimit'] = 'Il Quiz ha un tempo massimo di svolgimento. Sei sicuro di voler iniziare?';
 $string['connectionerror'] = 'La connessione di rete si è interrotta (Il salvataggio automatico è fallito).
 
 Annota tutte le risposte date in questa pagina negli ultimi minuti, poi prova a riconnetterti.
@@ -491,6 +488,8 @@ $string['multichoice'] = 'Risposta multipla';
 $string['multipleanswers'] = 'Scegli almeno una risposta.';
 $string['mustbesubmittedby'] = 'Questo tentativo deve essere inviato entro {$a}.';
 $string['name'] = 'Nome';
+$string['navigatenext'] = 'Pagina successiva';
+$string['navigateprevious'] = 'Pagina precedente';
 $string['navmethod'] = 'Metodo di navigazione';
 $string['navmethod_free'] = 'Libero';
 $string['navmethod_help'] = 'Con il metodo di navigazione sequenziale lo studente dovrà procedere ordinatamente e non potrà tornare indietro o saltare in avanti.';
@@ -797,6 +796,7 @@ $string['savingnewgradeforquestion'] = 'Salvataggio della nuovo voto della doman
 $string['savingnewmaximumgrade'] = 'Salvataggio del nuovo punteggio massimo';
 $string['score'] = 'Valutazione grezza';
 $string['scores'] = 'Valutazioni';
+$string['search:activity'] = 'Quiz - Informazioni sull\'attiivtà';
 $string['sectionheadingedit'] = 'Modifica intestazione \'{$a}\'';
 $string['sectionheadingremove'] = 'Elimina intestazione \'{$a}\'';
 $string['seequestions'] = '(Visualizza domande)';

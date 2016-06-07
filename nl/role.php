@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'role', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -84,13 +84,9 @@ $string['badges:viewbadges'] = 'Beschikbare badges bekijken zonder ze te verdien
 $string['badges:viewotherbadges'] = 'Openbare badges in gebruikersprofielen kunnen zien';
 $string['block:edit'] = 'Bewerk blokinstellingen';
 $string['block:view'] = 'Blok zien';
-$string['blog:associatecourse'] = 'Deze mogelijkheid doet niets meer';
-$string['blog:associatemodule'] = 'Deze mogelijkheid doet niets meer';
 $string['blog:create'] = 'Niewe blog items maken';
 $string['blog:manageentries'] = 'Items bewerken en beheren';
 $string['blog:manageexternal'] = 'Bewerk en beheer externe blogs';
-$string['blog:manageofficialtags'] = 'Officiële tags beheren';
-$string['blog:managepersonaltags'] = 'Persoonlijke tags beheren';
 $string['blog:search'] = 'Zoek blogitems';
 $string['blog:view'] = 'Blogitems bekijken';
 $string['blog:viewdrafts'] = 'Bekijk kladwerk van blogs';
@@ -121,8 +117,8 @@ $string['community:add'] = 'Gebruik de community-blok om hubs en cursussen te zo
 $string['community:download'] = 'Download een cursus van de community-blok';
 $string['confirmaddadmin'] = 'Wil je echt gebruiker <strong>{$a}</strong> als nieuwe sitebeheerder toevoegen?';
 $string['confirmdeladmin'] = 'Wil je echt gebruiker <strong>{$a}</strong> verwijderen uit de lijst van sitebeheerders?';
-$string['confirmroleprevent'] = 'Wil je echt <strong>"{$a->role}"</strong> verwijderen van de lijst met toegelaten rollen voor mogelijkheid "{$a->cap}" in context "{$a->context}"?';
-$string['confirmroleunprohibit'] = 'Wil je echt <strong>"{$a->role}"</strong> verwijderen van de lijst met verboden rollen voor mogelijkheid "{$a->cap}" in context "{$a->context}"?';
+$string['confirmroleprevent'] = 'Wil je echt <strong>{$a->role}</strong> verwijderen van de lijst met toegelaten rollen voor mogelijkheid {$a->cap} in context {$a->context}?';
+$string['confirmroleunprohibit'] = 'Wil je echt <strong>{$a->role}</strong> verwijderen van de lijst met verboden rollen voor mogelijkheid {$a->cap} in context {$a->context}?';
 $string['confirmunassign'] = 'Wil je echt deze rol van deze gebruiker verwijderen?';
 $string['confirmunassignno'] = 'Annuleer';
 $string['confirmunassigntitle'] = 'Bevestig rolwijziging';
@@ -261,7 +257,7 @@ $string['noneinthisxmatching'] = 'Er komen geen gebruikers overeen met \'{$a->se
 $string['norole'] = 'Geen rol';
 $string['noroleassignments'] = 'Deze gebruiker heeft geen roltoewijzingen in deze site';
 $string['noroles'] = 'Geen rollen';
-$string['notabletoassignroleshere'] = 'Het toewijzen van rollen in deze context is niet ingeschakeld door een systeembeheerder.';
+$string['notabletoassignroleshere'] = 'Je kunt hier geen rollen toewijzen';
 $string['notabletooverrideroleshere'] = 'Je kunt hier geen rollen overschrijven';
 $string['notes:manage'] = 'Notities beheren';
 $string['notes:view'] = 'Notities bekijken';
@@ -346,7 +342,7 @@ $string['restore:userinfo'] = 'Gebruikersgegevens terugzetten';
 $string['restore:viewautomatedfilearea'] = 'Zet cursussen terug van automatische back-ups';
 $string['risks'] = 'Risico\'s';
 $string['roleallowheader'] = 'Rol toestaan:';
-$string['roleallowinfo'] = 'Kies een rol om toe te voegen aan de lijst met rollen met toelating in context "{$a->context}", mogelijkheid "{$a->cap}":';
+$string['roleallowinfo'] = 'Kies een rol om toe te voegen aan de lijst met rollen met toelating in context {$a->context}, mogelijkheid {$a->cap}:';
 $string['role:assign'] = 'Toewijzen van rollen aan gebruikers';
 $string['roleassignments'] = 'Roltoewijzingen';
 $string['roledefinitions'] = 'Roldefinities';
@@ -355,7 +351,7 @@ $string['roleincontext'] = '{$a->role} in {$a->context}';
 $string['role:manage'] = 'Aanmaken en beheren van rollen';
 $string['role:override'] = 'Rechten voor anderen overschrijven';
 $string['roleprohibitheader'] = 'Rol verbieden:';
-$string['roleprohibitinfo'] = 'Kies een rol om toe te voegen aan de lijst met verboden rollen in context "{$a->context}", mogelijkheid "{$a->cap}":';
+$string['roleprohibitinfo'] = 'Kies een rol om toe te voegen aan de lijst met verboden rollen in context {$a->context}, mogelijkheid {$a->cap}:';
 $string['rolerepreset'] = 'Gebruik voorinstellingen rol';
 $string['roleresetdefaults'] = 'Standaarden';
 $string['roleresetrole'] = 'Gebruik rol voor archetype';

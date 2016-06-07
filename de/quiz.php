@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -203,9 +203,6 @@ $string['confirmclose'] = 'Sobald Sie diesen Versuch beenden, können Sie Ihre A
 $string['confirmremovequestion'] = 'Möchten Sie diese Frage \'{$a}\' wirklich löschen?';
 $string['confirmremovesectionheading'] = 'Möchten Sie wirklich die Abschnittsüberschrift \'{$a}\' löschen?';
 $string['confirmserverdelete'] = 'Sind Sie sicher, dass Sie den Server <b>{$a}</b> aus der Liste löschen wollen?';
-$string['confirmstartattemptlimit'] = 'Anzahl der erlaubten Versuche: {$a}. Möchten Sie wirklich einen neuen Versuch starten?';
-$string['confirmstartattempttimelimit'] = 'Sie können bis zu {$a} Versuch(e) in diesem Test durchführen. Wenn Sie starten, haben Sie eine begrenzte Zeit für die Durchführung des Versuchs. Wollen Sie jetzt einen neuen Versuch starten?';
-$string['confirmstarttimelimit'] = 'Der Test ist zeitlich begrenzt. Wollen Sie jetzt einen Versuch starten?';
 $string['connectionerror'] = 'Sie haben die Netzwerkverbindung verloren. Das automatische Speichern konnte daher nicht ausgeführt werden.
 
 Machen Sie sich eine Notiz über alle in den letzten Minuten  eingegebenen Antworten und versuchen Sie die Vernindung wieder herzustellen.
@@ -488,6 +485,8 @@ $string['multichoice'] = 'Multiple-Choice';
 $string['multipleanswers'] = 'Wählen Sie eine oder mehrere richtige Antworten.';
 $string['mustbesubmittedby'] = 'Dieser Versuch muss abgegeben werden vor {$a}.';
 $string['name'] = 'Name';
+$string['navigatenext'] = 'Nächste Seite';
+$string['navigateprevious'] = 'Vorherige Seite';
 $string['navmethod'] = 'Navigation';
 $string['navmethod_free'] = 'Selbstgewählt';
 $string['navmethod_help'] = 'Wenn die vorgegebene Navigation aktiviert ist, müssen Teilnehmer/innen den Test in der definierten Reihenfolge abarbeiten, dürfen keine Seiten zurückgehen und keine Seiten überspringen.';
@@ -819,6 +818,7 @@ $string['savingnewgradeforquestion'] = 'Neue Bewertung für Frage-ID {$a} wird g
 $string['savingnewmaximumgrade'] = 'Neue Maximalbewertung wird gesichert';
 $string['score'] = 'Punktzahl';
 $string['scores'] = 'Punkte';
+$string['search:activity'] = 'Testaktivitäten';
 $string['sectionheadingedit'] = 'Überschrift \'{$a}\' bearbeiten';
 $string['sectionheadingremove'] = 'Überschrift \'{$a}\' löschen';
 $string['seequestions'] = '(Siehe Fragen)';

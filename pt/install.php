@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'install', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,9 +27,9 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['admindirerror'] = 'A pasta de administração especificada não está correta';
 $string['admindirname'] = 'Pasta de administração';
-$string['admindirsetting'] = 'Alguns servidores Web utilizam a pasta <strong>admin</strong> em URLs especiais de acesso a funcionalidades especiais, como é o caso de painéis de controlo. Algumas situações podem criar conflitos com a localização normal das páginas de administração do Moodle. Estes problemas podem ser resolvidos renomeando a pasta <strong>admin</strong> na instalação do Moodle e indicando aqui o novo nome a utilizar. Por exemplo:<br /><br /><b>moodleadmin</b><br /><br />Esta ação resolverá os problemas de acesso dos links para as funcionalidades de administração do Moodle.';
+$string['admindirsetting'] = 'Alguns servidores Web utilizam a pasta <strong>admin</strong> em URLs especiais de acesso a funcionalidades especiais, como é o caso de painéis de controlo. Algumas situações podem criar conflitos com a localização normal das páginas de administração do Moodle. Estes problemas podem ser resolvidos renomeando a pasta <strong>admin</strong> na instalação do Moodle e indicando aqui o novo nome a utilizar. Por exemplo:<br /><br /><b>moodleadmin</b><br /><br />Esta ação resolverá os problemas de acesso das hiperligações para as funcionalidades de administração do Moodle.';
 $string['admindirsettinghead'] = 'A configurar a pasta de administração...';
-$string['admindirsettingsub'] = 'Alguns servidores Web utilizam a pasta <strong>admin</strong> em URLs especiais de acesso a funcionalidades especiais, como é o caso de painéis de controlo. Algumas situações podem criar conflitos com a localização normal das páginas de administração do Moodle. Estes problemas podem ser resolvidos renomeando a pasta <strong>admin</strong> na instalação do Moodle e indicando aqui o novo nome a utilizar. Por exemplo:<br /><br /><b>moodleadmin</b><br /><br />Esta ação resolverá os problemas de acesso dos links para as funcionalidades de administração do Moodle.';
+$string['admindirsettingsub'] = 'Alguns servidores Web utilizam a pasta <strong>admin</strong> em URLs especiais de acesso a funcionalidades especiais, como é o caso de painéis de controlo. Algumas situações podem criar conflitos com a localização normal das páginas de administração do Moodle. Estes problemas podem ser resolvidos renomeando a pasta <strong>admin</strong> na instalação do Moodle e indicando aqui o novo nome a utilizar. Por exemplo:<br /><br /><b>moodleadmin</b><br /><br />Esta ação resolverá os problemas de acesso das hiperligações para as funcionalidades de administração do Moodle.';
 $string['availablelangs'] = 'Pacotes linguísticos disponíveis';
 $string['caution'] = 'Atenção';
 $string['chooselanguage'] = 'Selecione um idioma';
@@ -97,7 +97,7 @@ $string['inputdatadirectory'] = 'Pasta de dados:';
 $string['inputwebadress'] = 'Endereço web:';
 $string['inputwebdirectory'] = 'Pasta do Moodle:';
 $string['installation'] = 'Instalação';
-$string['langdownloaderror'] = 'Não foi possível instalar o idioma <b>{$a}</b> por falha no download. O processo de instalação continuará em Inglês.';
+$string['langdownloaderror'] = 'Não foi possível descarregar o idioma <b>{$a}</b> . O processo de instalação continuará em Inglês.';
 $string['langdownloadok'] = 'O idioma <b>{$a}</b> foi instalado com sucesso. O processo de instalação continuará neste idioma.';
 $string['memorylimit'] = 'Limite de memória';
 $string['memorylimiterror'] = 'O limite de memória definido na configuração do PHP é muito baixo... poderá originar problemas mais tarde.';
@@ -132,8 +132,8 @@ $string['paths'] = 'Caminhos';
 $string['pathserrcreatedataroot'] = 'O programa de instalação não conseguiu criar a pasta de dados <b>{$a->dataroot}</b>.';
 $string['pathshead'] = 'Confirmar caminhos';
 $string['pathsrodataroot'] = 'A pasta de dados não tem permissões de escrita.';
-$string['pathsroparentdataroot'] = 'A pasta pai <b>{$a->parent}</b> não tem permissões de escrita. O programa de instalação não conseguiu criar a pasta <b>{$a->dataroot}</b>.';
-$string['pathssubadmindir'] = 'Alguns servidores Web utilizam a pasta <strong>admin</strong> em URLs especiais de acesso a funcionalidades especiais, como é o caso de painéis de controlo. Algumas situações podem criar conflitos com a localização normal das páginas de administração do Moodle. Estes problemas podem ser resolvidos renomeando a pasta <strong>admin</strong> na instalação do Moodle e indicando aqui o novo nome a utilizar. Por exemplo:<br /><br /><b>moodleadmin</b><br /><br />Esta ação resolverá os problemas de acesso dos links para as funcionalidades de administração do Moodle.';
+$string['pathsroparentdataroot'] = 'A pasta ascendente <b>{$a->parent}</b> não tem permissões de escrita. O programa de instalação não conseguiu criar a pasta <b>{$a->dataroot}</b>.';
+$string['pathssubadmindir'] = 'Alguns servidores Web utilizam a pasta <strong>admin</strong> em URLs especiais de acesso a funcionalidades especiais, como é o caso de painéis de controlo. Algumas situações podem criar conflitos com a localização normal das páginas de administração do Moodle. Estes problemas podem ser resolvidos renomeando a pasta <strong>admin</strong> na instalação do Moodle e indicando aqui o novo nome a utilizar. Por exemplo:<br /><br /><b>moodleadmin</b><br /><br />Esta ação resolverá os problemas de acesso das hiperligações para as funcionalidades de administração do Moodle.';
 $string['pathssubdataroot'] = '<p>Uma diretoria em que o Moodle irá armazenar todo o conteúdo de ficheiros enviados pelos utilizadores.</p>
 <p>Esta diretoria deve ser legível e gravável pelo utilizador do servidor web (geralmente \'www-data\', \'nobody\', ou \'apache\').</p>
 <p>Não deve ser diretamente acessível através da web.</p>

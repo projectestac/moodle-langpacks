@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_meta', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'enrol_meta', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_meta
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['addgroup'] = 'Afegeix al grup';
 $string['linkedcourse'] = 'Enllaç al curs';
 $string['meta:config'] = 'Configura les instàncies de meta-inscripció';
 $string['meta:selectaslinked'] = 'Selecciona el curs com meta enllaçat';
-$string['meta:unenrol'] = 'Suprimeix la inscripció als usuaris suspesos';
+$string['meta:unenrol'] = 'Anul·la la inscripció dels usuaris amb la inscripció suspesa';
 $string['nosyncroleids'] = 'Rols que no estan sincronitzats';
 $string['nosyncroleids_desc'] = 'Per defecte totes les assignacions de rol de nivell de curs estan sincronitzades dels cursos pare al cursos fills. Els rols que es seleccionin aquí no s\'inclouen en el procés de sincronització. Els rols disponibles per sincronització s\'actualitzaran en la següent execució del dimoni cron.';
 $string['pluginname'] = 'Enllaç de meta curs';

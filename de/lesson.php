@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'lesson', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -303,8 +303,8 @@ $string['maximumnumberofattempts'] = 'Höchstzahl der Versuche';
 $string['maximumnumberofattempts_help'] = 'Dieser Wert legt die Zahl der maximal zulässigen Versuche für jede einzelne Frage fest. Wenn die Höchstzahl der zulässigen Versuche erreicht ist, wird automatisch die nächste Seite der Lektion angezeigt.';
 $string['maximumnumberofattemptsreached'] = 'Sie haben die Höchstzahl der Versuche erreicht - weiter zur nächsten Seite';
 $string['mediaclose'] = 'Taste \'Schließen\' anzeigen';
-$string['mediafile'] = 'Datei-Popup';
-$string['mediafile_help'] = 'Um ein Popup-Fenster für eine Mediendatei in eine Lektion einzufügen, wählen Sie die anzuzeigende Datei aus. Jede Lektionsseite enthält dann einen Link zum Öffnen des Popup-Fensters.';
+$string['mediafile'] = 'Verlinke Mediendatei';
+$string['mediafile_help'] = 'Eine Mediendatei kann für die Nutzung in der Lektion hochgeladen werden. Ein Link \'Zum Anzeigen hier klicken\' wird anschließend auf jeder Seite der Lektion angezeigt.';
 $string['mediafilepopup'] = 'Link zur Mediendatei';
 $string['mediaheight'] = 'Höhe des Popup-Fensters';
 $string['mediawidth'] = 'Breite des Popup-Fensters';
@@ -468,6 +468,7 @@ $string['savepage'] = 'Seite speichern';
 $string['score'] = 'Bewertung';
 $string['score_help'] = 'Punkte werden nur verwendet, wenn eine benutzerdefinierte Bewertung aktiviert ist. Jeder Antwort kann einen (positiver oder negativer) Zahlenwert gegeben werden.';
 $string['scores'] = 'Bewertung';
+$string['search:activity'] = 'Lektion - Aktivitätsinformation';
 $string['secondpluswrong'] = 'Nicht ganz. Wollen Sie noch einmal wiederholen?';
 $string['selectaqtype'] = 'Fragetyp auswählen';
 $string['shortanswer'] = 'Kurzantwort';
@@ -503,6 +504,7 @@ $string['timespenterror'] = 'Bearbeiten Sie diese Lektion mindestens {$a} Minute
 $string['timespentminutes'] = 'Aufgewendete Zeit (Minuten)';
 $string['timetaken'] = 'Aufgewendete Zeit';
 $string['topscorestitle'] = 'Top {$a} Bestenliste';
+$string['totalpagesviewedheader'] = 'Anzahl von angezeigten Seiten';
 $string['true'] = 'Wahr';
 $string['truefalse'] = 'Wahr/Falsch';
 $string['unabledtosavefile'] = 'Die hochgeladene Datei konnte nicht gesichert werden';

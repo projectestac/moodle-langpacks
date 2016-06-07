@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'cache', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['actions'] = 'Åtgärder';
 $string['cacheconfig'] = 'Konfiguration';
 $string['cachedef_config'] = 'Konfigurationsinställningar';
+$string['cachedef_externalbadges'] = 'Externa märken för en särskild användare';
 $string['cachedef_yuimodules'] = 'Definitioner för YUI modul';
 $string['component'] = 'Komponent';
 $string['definition'] = 'Definition';

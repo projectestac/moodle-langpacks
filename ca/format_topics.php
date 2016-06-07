@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_topics', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'format_topics', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   format_topics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['currentsection'] = 'Tema actual';
+$string['currentsection'] = 'Aquest tema';
+$string['deletesection'] = 'Suprimeix el tema';
+$string['editsection'] = 'Edita el tema';
 $string['hidefromothers'] = 'Oculta el tema';
 $string['page-course-view-topics'] = 'Qualsevol curs de la pàgina principal en format de temes';
 $string['page-course-view-topics-x'] = 'Qualsevol pàgina del curs en format de temes';
 $string['pluginname'] = 'Format per temes';
 $string['section0name'] = 'General';
-$string['sectionname'] = 'tema';
-$string['showfromothers'] = 'Mostra tema';
+$string['sectionname'] = 'Tema';
+$string['showfromothers'] = 'Mostra el tema';

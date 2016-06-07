@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_log', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'report_log', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   report_log
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,12 +30,12 @@ $string['eventcontext'] = 'Contexto do evento';
 $string['eventloggedas'] = '{$a->realusername} como {$a->asusername}';
 $string['eventorigin'] = 'Origem';
 $string['eventrelatedfullnameuser'] = 'Utilizador afetado';
-$string['eventreportviewed'] = 'Relatório de registos visualizado';
-$string['eventuserreportviewed'] = 'Relatório de registos do utilizador visualizado';
+$string['eventreportviewed'] = 'Relatório de registos de atividade visualizado';
+$string['eventuserreportviewed'] = 'Relatório de registos de atividade do utilizador visualizado';
 $string['logsformat'] = 'Formato dos registos de atividade';
-$string['log:view'] = 'Ver registos de atividade';
+$string['log:view'] = 'Ver registos de atividade da disciplina';
 $string['log:viewtoday'] = 'Ver registos de atividade de hoje';
-$string['nologreaderenabled'] = 'Nenhum leitor de registo ativado';
+$string['nologreaderenabled'] = 'Nenhum leitor de registos ativado';
 $string['page'] = 'Página {$a}';
 $string['page-report-log-index'] = 'Registos de atividade na disciplina';
 $string['page-report-log-user'] = 'Registos da atividade do utilizador na disciplina';

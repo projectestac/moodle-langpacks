@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'admin', language 'ur', branch 'MOODLE_30_STABLE'
+ * Strings for component 'admin', language 'ur', branch 'MOODLE_31_STABLE'
  *
  * @package   admin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,6 @@ $string['adminseesallevents'] = 'منتظمین سب وقوع دیکھیں';
 $string['adminseesownevents'] = 'منتظمین دوسرے استعمال کنندگان کی طرع ہے';
 $string['allowemailaddresses'] = 'برقی خط کی ڈومین کی اجازت';
 $string['allowuserblockhiding'] = 'استعمال کنندگان کو بلاک چھپانے کی اجازت';
-$string['antivirus'] = 'وائرس مخالف';
 $string['appearance'] = 'ظاہری روپ';
 $string['authentication'] = 'معتبریت';
 $string['authsettings'] = 'انتظام معتبریت';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['aftersaving...'] = 'När du väl har sparat dina inställningar så kanske du vill';
+$string['aftersaving...'] = 'När Du väl har sparat Dina inställningar så kanske Du vill';
 $string['allowunenrol'] = 'Tillåt IMS data att <strong>avregistrera</strong> lärande och distanslärare';
 $string['allowunenrol_desc'] = '<p>Enterprise data kan lägga till eller ta bort registreringar på kurser. Om du aktiverar det här alternativet då kommer Moodle att genomföra avregistreringar när detta är angivet i data.</p>
 

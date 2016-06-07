@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_templatelibrary', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_templatelibrary', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_templatelibrary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['component'] = 'コンポーネント';
 $string['coresubsystem'] = 'サブシステム ({$a})';
 $string['documentation'] = 'ドキュメンテーション';
 $string['example'] = '例';
-$string['noresults'] = '該当なし';
+$string['noresults'] = '該当データがありません。';
 $string['notemplateselected'] = 'テンプレート未選択';
 $string['pluginname'] = 'テンプレートライブラリ';
 $string['search'] = '検索';

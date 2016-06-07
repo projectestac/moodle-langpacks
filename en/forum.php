@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'forum', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,7 +96,7 @@ $string['configcleanreadtime'] = 'The hour of the day to clean old posts from th
 $string['configdigestmailtime'] = 'People who choose to have emails sent to them in digest form will be emailed the digest daily. This setting controls which time of day the daily mail will be sent (the next cron that runs after this hour will send it).';
 $string['configdisplaymode'] = 'The default display mode for discussions if one isn\'t set.';
 $string['configenablerssfeeds'] = 'This switch will enable the possibility of RSS feeds for all forums.  You will still need to turn feeds on manually in the settings for each forum.';
-$string['configenabletimedposts'] = 'Set to \'yes\' if you want to allow setting of display periods when posting a new forum discussion (Experimental as not yet fully tested)';
+$string['configenabletimedposts'] = 'Set to \'yes\' if you want to allow setting of display periods when posting a new forum discussion.';
 $string['configlongpost'] = 'Any post over this length (in characters not including HTML) is considered long. Posts displayed on the site front page, social format course pages, or user profiles are shortened to a natural break somewhere between the forum_shortpost and forum_longpost values.';
 $string['configmanydiscussions'] = 'Maximum number of discussions shown in a forum per page';
 $string['configmaxattachments'] = 'Default maximum number of attachments allowed per post.';
@@ -140,6 +140,9 @@ $string['discussionmovedpost'] = 'This discussion has been moved to <a href="{$a
 $string['discussionname'] = 'Discussion name';
 $string['discussionnownotsubscribed'] = '{$a->name} will NOT be notified of new posts in \'{$a->discussion}\' of \'{$a->forum}\'';
 $string['discussionnowsubscribed'] = '{$a->name} will be notified of new posts in \'{$a->discussion}\' of \'{$a->forum}\'';
+$string['discussionpin'] = 'Pin';
+$string['discussionpinned'] = 'Pinned';
+$string['discussionpinned_help'] = 'Pinned discussions will appear at the top of a forum.';
 $string['discussions'] = 'Discussions';
 $string['discussionsstartedby'] = 'Discussions started by {$a}';
 $string['discussionsstartedbyrecent'] = 'Discussions recently started by {$a}';
@@ -148,6 +151,7 @@ $string['discussionsubscribestart'] = 'Send me notifications of new posts in thi
 $string['discussionsubscribestop'] = 'I don\'t want to be notified of new posts in this discussion';
 $string['discussionsubscription'] = 'Discussion subscription';
 $string['discussionsubscription_help'] = 'Subscribing to a discussion means you will receive notifications of new posts to that discussion.';
+$string['discussionunpin'] = 'Unpin';
 $string['discussthistopic'] = 'Discuss this topic';
 $string['displayend'] = 'Display end';
 $string['displayend_help'] = 'This setting specifies whether a forum post should be hidden after a certain date. Note that administrators can always view forum posts.';
@@ -188,8 +192,10 @@ $string['eventcoursesearched'] = 'Course searched';
 $string['eventdiscussioncreated'] = 'Discussion created';
 $string['eventdiscussiondeleted'] = 'Discussion deleted';
 $string['eventdiscussionmoved'] = 'Discussion moved';
+$string['eventdiscussionpinned'] = 'Discussion pinned';
 $string['eventdiscussionsubscriptioncreated'] = 'Discussion subscription created';
 $string['eventdiscussionsubscriptiondeleted'] = 'Discussion subscription deleted';
+$string['eventdiscussionunpinned'] = 'Discussion unpinned';
 $string['eventdiscussionupdated'] = 'Discussion updated';
 $string['eventdiscussionviewed'] = 'Discussion viewed';
 $string['eventpostcreated'] = 'Post created';
@@ -231,6 +237,7 @@ $string['forumintro'] = 'Description';
 $string['forum:managesubscriptions'] = 'Manage subscriptions';
 $string['forum:movediscussions'] = 'Move discussions';
 $string['forumname'] = 'Forum name';
+$string['forum:pindiscussions'] = 'Pin discussions';
 $string['forumposts'] = 'Forum posts';
 $string['forum:postwithoutthrottling'] = 'Exempt from post threshold';
 $string['forum:rate'] = 'Rate posts';
@@ -275,7 +282,7 @@ $string['invalidpostid'] = 'Invalid post ID - {$a}';
 $string['lastpost'] = 'Last post';
 $string['learningforums'] = 'Learning forums';
 $string['longpost'] = 'Long post';
-$string['mailnow'] = 'Mail now';
+$string['mailnow'] = 'Send forum post notifications with no editing-time delay';
 $string['manydiscussions'] = 'Discussions per page';
 $string['markalldread'] = 'Mark all posts in this discussion read.';
 $string['markallread'] = 'Mark all posts in this forum read.';
@@ -330,8 +337,8 @@ $string['mustprovidediscussionorpost'] = 'You must provide either a discussion i
 $string['myprofileotherdis'] = 'Forum discussions';
 $string['myprofileowndis'] = 'My forum discussions';
 $string['myprofileownpost'] = 'My forum posts';
-$string['namenews'] = 'News forum';
-$string['namenews_help'] = 'The news forum is a special forum for announcements that is automatically created when a course is created. A course can have only one news forum. Only teachers and administrators can post in the news forum. The "Latest news" block will display recent discussions from the news forum.';
+$string['namenews'] = 'Announcements';
+$string['namenews_help'] = 'The course announcements forum is a special forum for announcements and is automatically created when a course is created. A course can have only one announcements forum. Only teachers and administrators can post announcements. The "Latest announcements" block will display recent announcements.';
 $string['namesocial'] = 'Social forum';
 $string['nameteacher'] = 'Teacher forum';
 $string['newforumposts'] = 'New forum posts';
@@ -379,6 +386,7 @@ $string['page-mod-forum-view'] = 'Forum module main page';
 $string['page-mod-forum-x'] = 'Any forum module page';
 $string['parent'] = 'Show parent';
 $string['parentofthispost'] = 'Parent of this post';
+$string['permalink'] = 'Permalink';
 $string['pluginadministration'] = 'Forum administration';
 $string['pluginname'] = 'Forum';
 $string['postadded'] = '<p>Your post was successfully added.</p> <p>You have {$a} to edit it if you want to make any changes.</p>';
@@ -439,6 +447,7 @@ $string['rsstype'] = 'RSS feed for this activity';
 $string['rsstypedefault'] = 'RSS feed type';
 $string['rsstype_help'] = 'To enable the RSS feed for this activity, select either discussions or posts to be included in the feed.';
 $string['search'] = 'Search';
+$string['search:activity'] = 'Forum - activity information';
 $string['searchdatefrom'] = 'Posts must be newer than this';
 $string['searchdateto'] = 'Posts must be older than this';
 $string['searchforumintro'] = 'Please enter search terms into one or more of the following fields:';
@@ -447,6 +456,7 @@ $string['searchfullwords'] = 'These words should appear as whole words';
 $string['searchnotwords'] = 'These words should NOT be included';
 $string['searcholderposts'] = 'Search older posts...';
 $string['searchphrase'] = 'This exact phrase must appear in the post';
+$string['search:post'] = 'Forum - posts';
 $string['searchresults'] = 'Search results';
 $string['searchsubject'] = 'These words should be in the subject';
 $string['searchuser'] = 'This name should match the author';
@@ -458,6 +468,7 @@ $string['shortpost'] = 'Short post';
 $string['showsubscribers'] = 'Show/edit current subscribers';
 $string['singleforum'] = 'A single simple discussion';
 $string['smallmessage'] = '{$a->user} posted in {$a->forumname}';
+$string['smallmessagedigest'] = 'Forum digest containing {$a} messages';
 $string['startedby'] = 'Started by';
 $string['subject'] = 'Subject';
 $string['subscribe'] = 'Subscribe to this forum';

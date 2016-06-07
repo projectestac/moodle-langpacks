@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_uploaduser', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['deleteerrors'] = 'Apagar erros';
 $string['encoding'] = 'Codificação';
 $string['errormnetadd'] = 'Não é possível adicionar utilizadores remotos';
 $string['errors'] = 'Erros';
+$string['invaliduserdata'] = 'Foram detetados dados inválidos para o utilizador {$a} que foram apagados automaticamente.';
 $string['nochanges'] = 'Sem alterações';
 $string['pluginname'] = 'Carregar utilizador';
 $string['renameerrors'] = 'Renomear erros';
@@ -42,14 +43,14 @@ $string['requiredtemplate'] = 'Necessário. Pode usar a sintaxe modelo aqui (%l 
 $string['rowpreviewnum'] = 'Pré-visualizar linhas';
 $string['unassignedsysrole'] = 'Retirado o papel de sistema {$a}';
 $string['uploadpicture_baduserfield'] = 'O atributo do utilizador não é válido. Por favor, tente novamente.';
-$string['uploadpicture_cannotmovezip'] = 'Não é possível mover o arquivo zip para o diretório temporário.';
-$string['uploadpicture_cannotprocessdir'] = 'Não pode processar arquivos descompactados.';
+$string['uploadpicture_cannotmovezip'] = 'Não é possível mover o ficheiro zip para o diretório temporário.';
+$string['uploadpicture_cannotprocessdir'] = 'Não pode processar ficheiro descompactados.';
 $string['uploadpicture_cannotsave'] = 'Não é possível guardar imagens para o utilizador {$a}. Verifique o ficheiro da imagem original.';
 $string['uploadpicture_cannotunzip'] = 'Não pode descompactar ficheiros de imagens.';
 $string['uploadpicture_invalidfilename'] = 'O ficheiro da imagem {$a} tem caracteres inválidos no seu nome. Ignorar.';
 $string['uploadpicture_overwrite'] = 'Substituir as imagens existentes dos utilizadores?';
 $string['uploadpictures'] = 'Carregar imagens de utilizadores';
-$string['uploadpictures_help'] = 'As imagens dos utilizadores podem ser carregadas como um arquivo zip ou um ficheiro de imagem.Os ficheiros de imagem devem ser nomeados com extensão, por exemplo, user1234.jpg para um utilizador com o nome de utilizador user1234.';
+$string['uploadpictures_help'] = 'As imagens dos utilizadores podem ser carregadas como um ficheiro zip ou um ficheiro de imagem.Os ficheiros de imagem devem ser nomeados com extensão, por exemplo, user1234.jpg para um utilizador com o nome de utilizador user1234.';
 $string['uploadpicture_userfield'] = 'Informação do utilizador que identifica a imagem:';
 $string['uploadpicture_usernotfound'] = 'Utilizador com \'{$a->userfield}\' valor de \'{$a->uservalue}\' não existe. A saltar.';
 $string['uploadpicture_userskipped'] = 'Passar utilizador {$a} (já tem imagem).';

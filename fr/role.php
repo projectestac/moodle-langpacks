@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'role', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -83,13 +83,9 @@ $string['badges:viewbadges'] = 'Voir les badges disponibles sans les avoir obten
 $string['badges:viewotherbadges'] = 'Voir les badges publics d\'autres profils utilisateur';
 $string['block:edit'] = 'Modifier les réglages d\'un bloc';
 $string['block:view'] = 'Voir les blocs';
-$string['blog:associatecourse'] = 'Cette capacité est obsolète et n\'a aucun effet';
-$string['blog:associatemodule'] = 'Cette capacité est obsolète et n\'a aucun effet';
 $string['blog:create'] = 'Créer des articles de blog';
 $string['blog:manageentries'] = 'Modifier et gérer des articles de blog';
 $string['blog:manageexternal'] = 'Modifier et gérer des blogs externes';
-$string['blog:manageofficialtags'] = 'Gérer les tags officiels';
-$string['blog:managepersonaltags'] = 'Gérer les tags personnels';
 $string['blog:search'] = 'Rechercher dans des articles de blog';
 $string['blog:view'] = 'Voir les articles de blog';
 $string['blog:viewdrafts'] = 'Voir les articles de blog en brouillon';
@@ -118,6 +114,38 @@ $string['comment:post'] = 'Écrire des commentaires';
 $string['comment:view'] = 'Consulter les commentaires';
 $string['community:add'] = 'Utiliser le bloc Communauté pour rechercher des cours dans des serveurs d\'échanges';
 $string['community:download'] = 'Télécharger des cours depuis le bloc Communauté';
+$string['competency:competencygrade'] = 'Évaluer une compétence';
+$string['competency:competencymanage'] = 'Gérer les référentiels de compétences';
+$string['competency:competencyview'] = 'Consulter les référentiels de compétences';
+$string['competency:coursecompetencyconfigure'] = 'Configurer les réglages des compétences de cours';
+$string['competency:coursecompetencygradable'] = 'Recevoir des évaluations de compétences';
+$string['competency:coursecompetencymanage'] = 'Gérer les compétences de cours';
+$string['competency:coursecompetencyview'] = 'Consulter les compétences de cours';
+$string['competency:evidencedelete'] = 'Supprimer une preuve';
+$string['competency:plancomment'] = 'Commenter un plan de formation';
+$string['competency:plancommentown'] = 'Commenter son propre plan de formation';
+$string['competency:planmanage'] = 'Gérer les plans de formation';
+$string['competency:planmanagedraft'] = 'Gérer les brouillons de plans de formation';
+$string['competency:planmanageown'] = 'Gérer ses propres plans de formations';
+$string['competency:planmanageowndraft'] = 'Gérer ses propres brouillons de plans de formation';
+$string['competency:planrequestreview'] = 'Demander la validation d\'un plan de formation';
+$string['competency:planrequestreviewown'] = 'Demander la validation d\'un des ses propres plans de formation';
+$string['competency:planreview'] = 'Valider un plan de formation';
+$string['competency:planview'] = 'Consulter tous les plans de formation';
+$string['competency:planviewdraft'] = 'Consulter les brouillons de plans de formation';
+$string['competency:planviewown'] = 'Consulter ses propres plans de formation';
+$string['competency:planviewowndraft'] = 'Consulter ses propres brouillons de plans de formation';
+$string['competency:templatemanage'] = 'Gérer les modèles de plan de formation';
+$string['competency:templateview'] = 'Consulter un modèle de plan de formation';
+$string['competency:usercompetencycomment'] = 'Commenter une compétence utilisateur';
+$string['competency:usercompetencycommentown'] = 'Commenter une de ses propres compétences utilisateur';
+$string['competency:usercompetencyrequestreview'] = 'Demander la validation d\'une compétence utilisateur';
+$string['competency:usercompetencyrequestreviewown'] = 'Demander la validation d\'une de ses propres compétences utilisateur';
+$string['competency:usercompetencyreview'] = 'Valider une compétence utilisateur';
+$string['competency:usercompetencyview'] = 'Consulter une compétence utilisateur';
+$string['competency:userevidencemanage'] = 'Gérer les preuves d\'acquis';
+$string['competency:userevidencemanageown'] = 'Gérer ses propres preuves d\'acquis';
+$string['competency:userevidenceview'] = 'Consulter les preuves d\'acquis d\'un utilisateur';
 $string['confirmaddadmin'] = 'Voulez-vous vraiment ajouter l\'utilisateur <strong>{$a}</strong> comme nouvel administrateur du site ?';
 $string['confirmdeladmin'] = 'Voulez-vous vraiment retirer l\'utilisateur <strong>{$a}</strong> de la liste des administrateurs du site ?';
 $string['confirmroleprevent'] = 'Voulez-vous vraiment retirer le rôle « <strong>{$a->role}</strong> » de la liste des rôles avec autorisation pour la capacité « {$a->cap} » dans le contexte « {$a->context} » ?';
@@ -148,6 +176,7 @@ $string['course:managescales'] = 'Gérer les barêmes';
 $string['course:markcomplete'] = 'Marquer les utilisateurs comme ayant terminé un cours';
 $string['course:movesections'] = 'Déplacer les sections';
 $string['course:publish'] = 'Publier un cours vers un serveur d\'échanges';
+$string['course:renameroles'] = 'Renommer les rôles';
 $string['course:request'] = 'Demander de nouveaux cours';
 $string['course:reset'] = 'Réinitialiser les cours';
 $string['course:reviewotherusers'] = 'Consulter les autres utilisateurs';
@@ -320,7 +349,7 @@ $string['restore:restoretargetimport'] = 'Restaurer à partir de fichiers pour i
 $string['restore:rolldates'] = 'Autoriser la modification des dates des activités lors des restaurations';
 $string['restore:uploadfile'] = 'Déposer des fichiers dans les zones de sauvegarde';
 $string['restore:userinfo'] = 'Restaurer les données des utilisateurs';
-$string['restore:viewautomatedfilearea'] = 'Restaurer les cours à partir des backups automatiques';
+$string['restore:viewautomatedfilearea'] = 'Afficher la zone des sauvegardes automatiques';
 $string['risks'] = 'Risques';
 $string['roleallowheader'] = 'Permettre le rôle';
 $string['roleallowinfo'] = 'Sélectionner un rôle à ajouter à la liste des rôles autorisés pour la capacité « {$a->cap} » dans le contexte « {$a->context} » :';
@@ -349,6 +378,7 @@ $string['role:switchroles'] = 'Prendre d\'autres rôles';
 $string['roletoassign'] = 'Rôle à attribuer';
 $string['roletooverride'] = 'Rôle pour lequel définir des dérogations';
 $string['safeoverridenotice'] = 'Remarque : les capacités comportant des risques élevés sont verrouillées, car vous n\'êtes autorisé à définir des dérogations que pour des capacités sûres.';
+$string['search:query'] = 'Effectuer des recherches globales';
 $string['selectanotheruser'] = 'Sélectionner un autre utilisateur';
 $string['selectauser'] = 'Sélectionner un utilisateur';
 $string['selectrole'] = 'Sélectionner un rôle';

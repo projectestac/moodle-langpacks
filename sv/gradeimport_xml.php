@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeimport_xml', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'gradeimport_xml', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   gradeimport_xml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,7 @@ $string['errincorrectgradeidnumber'] = 'Fel - id-numret \'{$a}\' från importfil
 $string['errincorrectidnumber'] = 'Fel - ogiltigt id-nummer';
 $string['errincorrectuseridnumber'] = 'Fel - id-numret \'{$a}\' från importfilen matchar inte någon användare.';
 $string['error'] = 'Det uppstår fel';
+$string['errorduringimport'] = 'Ett fel inträffade när vid försök av import: {$a}';
 $string['fileurl'] = 'URL till fjärrfil';
 $string['pluginname'] = 'XML-fil';
 $string['xml:publish'] = 'Publicera betyg som importerats från XML';

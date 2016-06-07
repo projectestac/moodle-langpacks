@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'auth', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,7 +57,7 @@ $string['auth_remove_keep'] = 'Mantieni interna';
 $string['auth_remove_suspend'] = 'Sospendi interna';
 $string['auth_remove_user'] = 'Specifica cosa fare con gli account di utenti interni durante la sincronizzazione in massa quando gli utenti sono stati rimossi dalla fonte esterna. Solo gli utenti sospesi sono automaticamente riattivati se riappaiono nella fonte esterna.';
 $string['auth_remove_user_key'] = 'Utente esterno rimosso';
-$string['auth_sync_script'] = 'Sincronizzazione tramite Cron';
+$string['auth_sync_script'] = 'Sincronizzazione account utenti';
 $string['auth_updatelocal'] = 'Aggiorna dati interni';
 $string['auth_updatelocal_expl'] = '<p><b>Aggiorna dati interni:</b> Se abilitato, il campo sarà  aggiornato (dall\'autenticazione esterna) tutte le volte che l\'utente accede o c\'è una sincronizzazione utente. I campi impostati per l\'aggiornamento locale devono essere bloccati.</p>';
 $string['auth_updateremote'] = 'Aggiorna dati esterni';
@@ -72,7 +72,7 @@ $string['changepasswordhelp'] = 'L\'indirizzo della pagina dove gli utenti posso
 $string['chooseauthmethod'] = 'Metodo di autenticazione';
 $string['chooseauthmethod_help'] = 'Consente la scelta del  metodo di autenticazione associato all\'utente. E\' necessario scegliere solamente plugin di autenticazione abilitati, altrimenti l\'utente non sarà in grado di autenticarsi. Per impedire l\'autenticazione, scegliere "Account disabilitato".';
 $string['createpassword'] = 'Genera la password e informa l\'utente';
-$string['createpasswordifneeded'] = 'Genera le password se necessario';
+$string['createpasswordifneeded'] = 'Genera le password se necessario e inviale per email';
 $string['emailchangecancel'] = 'Annulla cambio email';
 $string['emailchangepending'] = 'Cambio email in corso. Clicca sul link presente nel messaggio che ti è stato inviato a {$a->preference_newemail}.';
 $string['emailnowexists'] = 'L\'indirizzo email che hai cercato di assegnare al tuo profilo è stato, nel frattempo, assegnato a qualcun altro, dal momento della tua richiesta. La richiesta di modifica email è stata quindi annullata, ma puoi provare ancora con un indirizzo email differente.';
@@ -90,7 +90,7 @@ $string['errormaxconsecutiveidentchars'] = 'La password può contenere un massim
 $string['errorminpassworddigits'] = 'La password deve contenere almeno {$a} numeri.';
 $string['errorminpasswordlength'] = 'La password deve essere lunga almeno {$a} caratteri.';
 $string['errorminpasswordlower'] = 'La password deve contenere almeno {$a} lettere minuscole.';
-$string['errorminpasswordnonalphanum'] = 'La password deve contenere almeno {$a} caratteri non alfanumerici (punteggiatura, trattini, eccetera).';
+$string['errorminpasswordnonalphanum'] = 'La password deve contenere almeno {$a} caratteri non alfanumerici, ad esempio *,-, oppure #.';
 $string['errorminpasswordupper'] = 'La password deve contenere almeno {$a} lettere maiuscole.';
 $string['errorpasswordreused'] = 'Questa password è già stata utilizzata e non può essere riutilizzata.';
 $string['errorpasswordupdate'] = 'Si è verificato un errore durante l\'aggiornamento della password, la password non è stata modificata';
@@ -111,7 +111,7 @@ $string['infilefield'] = 'Il campo è presente nel file';
 $string['informminpassworddigits'] = 'contenere almeno {$a} numero(i)';
 $string['informminpasswordlength'] = 'almeno {$a} caratteri';
 $string['informminpasswordlower'] = 'contenere almeno {$a} lettera(e) minuscola(e)';
-$string['informminpasswordnonalphanum'] = 'contenere almeno {$a} carattere(i)  non alfanumerico(i)';
+$string['informminpasswordnonalphanum'] = 'contenere almeno {$a} caratteri  non alfanumerici, ad esempio *,-, oppure #.';
 $string['informminpasswordreuselimit'] = 'Le password possono essere riutilizzate dopo {$a} modifiche';
 $string['informminpasswordupper'] = 'contenere almeno {$a} lettera(e) maiuscola(e)';
 $string['informpasswordpolicy'] = 'La password deve essere lunga {$a}';

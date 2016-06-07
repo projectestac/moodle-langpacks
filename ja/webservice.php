@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'webservice', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,6 @@ $string['addrequiredcapability'] = '必須ケイパビリティを割り当て�
 $string['addservice'] = '新しいサービスを追加する: {$a->name} (id: {$a->id})';
 $string['addservicefunction'] = 'サービス「 {$a} 」に関数を追加する';
 $string['allusers'] = 'すべてのユーザ';
-$string['amftestclient'] = 'AMFテストクライアント';
 $string['apiexplorer'] = 'APIエクスプローラ';
 $string['apiexplorernotavalaible'] = 'まだAPIエクスプローラは利用できません。';
 $string['arguments'] = '引数';
@@ -190,9 +189,8 @@ $string['testauserwithtestclientdescription'] = 'ウェブサービステスト�
 $string['testclient'] = 'ウェブサービステストクライアント';
 $string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際</strong>に<strong>実行</strong> します。あなたが知らない関数をテストしないでください。<br/>
 * まだ、既存のすべてのウェブサービス関数はテストクライアントに実装されていません。<br/>
-* ユーザがいくつかの関数にアクセスできないかテストするにはあなたが許可されていなかった関数をテストしてください。<br/>
-* 明確なエラーメッセージを表示するには {$a->atag} のデバッグメッセージを <strong>{$a->mode}</strong> に設定してください。<br/>
-* {$a->amfatag} にアクセスしてください。';
+* ユーザがアクセスできない関数をテストする場合、あなたが許可していない関数をテストすることができます。<br/>
+* 明確なエラーメッセージを表示するには {$a->atag} のデバッグメッセージを　<strong>{$a->mode}</strong>　に設定してください。';
 $string['testwithtestclient'] = 'サービスをテストする';
 $string['testwithtestclientdescription'] = 'ウェブサービステストクライアントを使用してサービスへの外部アクセスをシミュレートします。有効にされたトークン認証のプロトコルを使用してください。<strong>警告: あなたのテストする関数が実行されます。関数の選択には十分注意してください!</strong>';
 $string['token'] = 'トークン';

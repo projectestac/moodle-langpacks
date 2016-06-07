@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'role', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,13 +86,9 @@ $string['badges:viewbadges'] = 'Ver insignias disponibles no ganadas';
 $string['badges:viewotherbadges'] = 'Ver insignias públicas en los perfiles de los demás usuarios';
 $string['block:edit'] = 'Editar la configuración de un bloque';
 $string['block:view'] = 'Ver bloque';
-$string['blog:associatecourse'] = 'Esta capacidad es obsoleto y no hace nada.';
-$string['blog:associatemodule'] = 'Esta capacidad es obsoleto y no hace nada.';
 $string['blog:create'] = 'Crear nuevas entradas de blog';
 $string['blog:manageentries'] = 'Editar y gestionar entradas';
 $string['blog:manageexternal'] = 'Editar y gestionar blogs externos';
-$string['blog:manageofficialtags'] = 'Gestionar marcas oficiales';
-$string['blog:managepersonaltags'] = 'Gestionar marcas personales';
 $string['blog:search'] = 'Buscar entradas de blog';
 $string['blog:view'] = 'Ver entradas de blog';
 $string['blog:viewdrafts'] = 'Ver entradas de blog en borrador ';
@@ -156,6 +152,7 @@ $string['course:reset'] = 'Reiniciar curso';
 $string['course:reviewotherusers'] = 'Revise otros usuarios';
 $string['course:sectionvisibility'] = 'Controlar visibilidad de sección';
 $string['course:setcurrentsection'] = 'Ajustar sección actual';
+$string['course:tag'] = 'Cambiar etiquetas de curso';
 $string['course:update'] = 'Actualizar ajustes de curso';
 $string['course:useremail'] = 'Habilitar/deshabilitar dirección email';
 $string['course:view'] = 'Ver cursos sin participación';
@@ -364,6 +361,8 @@ $string['siteadministrators'] = 'Administradores del sitio';
 $string['site:approvecourse'] = 'Aprobar la creación de cursos';
 $string['site:backup'] = 'Hacer copia de seguridad de los cursos';
 $string['site:config'] = 'Cambiar configuración del sitio';
+$string['site:deleteanymessage'] = 'Borrar los mensajes del sitio';
+$string['site:deleteownmessage'] = 'Borrar mensajes enviados a/por el usuario';
 $string['site:doanything'] = 'Permiso para todo';
 $string['site:doclinks'] = 'Mostrar enlaces a documentos fuera del sitio';
 $string['site:forcelanguage'] = 'Sobreescribe idioma del curso';

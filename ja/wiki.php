@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'wiki', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -137,8 +137,8 @@ $string['lockingajaxtimeout'] = 'ページロックのリフレッシュタイ�
 $string['lockingtimeout'] = 'ロックタイムアウト';
 $string['map'] = 'マップ';
 $string['mapmenu'] = 'マップメニュー';
-$string['migrationfinished'] = '移管が正常に完了しました。';
-$string['migrationfinishednowikis'] = '移管が完了しました。Wikiは移管されませんでした。';
+$string['migrationfinished'] = '移行が正常に完了しました。';
+$string['migrationfinishednowikis'] = '移行が完了しました。Wikiは移行されませんでした。';
 $string['missingpages'] = 'コンテンツなしページ';
 $string['modified'] = '修正日時';
 $string['modulename'] = 'Wiki';
@@ -191,7 +191,7 @@ $string['orphaned'] = '迷子ページ';
 $string['orphaned_help'] = '他のページからリンクされていないページを一覧表示します。';
 $string['overridelocks'] = 'ロックをオーバーライドする';
 $string['overridinglocks'] = 'ロックのオーバーライド ...';
-$string['pageexists'] = 'このページはすでに存在します。リダイレクトします。';
+$string['pageexists'] = 'このページはすでに存在します。';
 $string['pageindex'] = 'ページインデックス';
 $string['pageindex_help'] = 'このWikiページツリー';
 $string['pageislocked'] = '現在、他のユーザがこのページを編集しています。数分後に編集をお試しください。';
@@ -226,12 +226,15 @@ $string['return'] = '戻る';
 $string['save'] = '保存';
 $string['saving'] = 'Wikiページの保存';
 $string['savingerror'] = '保存エラー';
+$string['search:activity'] = 'Wiki - 活動情報';
+$string['search:collaborative_page'] = 'Wikiページ - 共同ページ';
 $string['searchcontent'] = 'ページコンテクスト内を検索する';
 $string['searchresult'] = '検索結果:';
 $string['searchterms'] = '検索語';
 $string['searchwikis'] = 'Wikiを検索する';
 $string['special'] = '特別';
 $string['tableofcontents'] = '目次';
+$string['tagarea_wiki_pages'] = 'Wikiページ';
 $string['tagsdeleted'] = 'Wikiタグが削除されました。';
 $string['tagtitle'] = '{$a} タグを表示する';
 $string['teacherrating'] = '教師の評価';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'lesson', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -111,14 +111,17 @@ $string['completiontimespent'] = 'Les étudiants doivent faire cette activité a
 $string['completiontimespentgroup'] = 'Exiger une durée minimale';
 $string['conditionsfordependency'] = 'Condition(s) de dépendance';
 $string['configactionaftercorrectanswer'] = 'L\'action à effectuer par défaut après une réponse correcte';
+$string['configintro'] = 'Les données saisies ici définissent les valeurs par défaut utilisées dans la configuration d\'une nouvelle activité Leçon. Les réglages indiqués comme avancés ne sont affichés que le lien « Afficher plus » est cliqué.';
 $string['configmaxanswers'] = 'Nombre maximal par défaut de réponses par page';
 $string['configmaxhighscores'] = 'Nombres de meilleurs résultats affichés';
 $string['configmediaclose'] = 'Afficher un bouton fermer dans la fenêtre surgissante créée pour un fichier média lié';
 $string['configmediaheight'] = 'Hauteur de la fenêtre affichée pour un fichier média lié';
 $string['configmediawidth'] = 'Largeur de la fenêtre affichée pour un fichier média lié';
+$string['configpassword_desc'] = 'Détermine si un mot de passe est requis pour accéder à la leçon.';
 $string['configslideshowbgcolor'] = 'Couleur de fond du diaporama';
 $string['configslideshowheight'] = 'Hauteur du slideshow';
 $string['configslideshowwidth'] = 'Largeur du slideshow';
+$string['configtimelimit_desc'] = 'Si une limite de temps est fixée, un avertissement est affiché au début de la leçon et un compte à rebours est affiché. Une valeur 0 signifie une durée illimitée.';
 $string['confirmdelete'] = 'Supprimer la page';
 $string['confirmdeletionofthispage'] = 'Voulez-vous vraiment supprimer cette page ?';
 $string['congratulations'] = 'Félicitations - la leçon est terminée';
@@ -289,8 +292,8 @@ $string['maximumnumberofattempts'] = 'Nombre maximal de tentatives';
 $string['maximumnumberofattempts_help'] = 'Ce réglage fixe le nombre maximal de tentatives à disposition des étudiants pour répondre à chaque question. Si une réponse incorrecte est répétée, lorsque cette valeur est atteinte, la page suivante de la leçon est affichée.';
 $string['maximumnumberofattemptsreached'] = 'Le nombre maximal de tentatives a été atteint - On passe à la page suivante';
 $string['mediaclose'] = 'Afficher un bouton fermer';
-$string['mediafile'] = 'Pop-up vers fichier';
-$string['mediafile_help'] = 'Cette option créera au début de la leçon une fenêtre surgissante contenant un fichier. En outre, un lien permettant de rouvrir cette fenêtre sera affiché sur chacune des pages de la leçon.';
+$string['mediafile'] = 'Média lié';
+$string['mediafile_help'] = 'Un fichier média peut être déposé pour utilisation dans la leçon. Dans ce cas, un bloc « Média lié » sera affiché sur chaque page de la leçon, comprenant un lien pour afficher ce fichier.';
 $string['mediafilepopup'] = 'Cliquer ici pour afficher';
 $string['mediaheight'] = 'Hauteur de la fenêtre surgissante';
 $string['mediawidth'] = 'Largeur de la fenêtre surgissante';
@@ -304,7 +307,7 @@ $string['modattemptsnoteacher'] = 'La critique par les étudiants ne fonctionne 
 $string['modulename'] = 'Leçon';
 $string['modulename_help'] = 'Le module d\'activité leçon permet à l\'enseignant de proposer des contenus et/ou des activités d\'exercice d\'une façon intéressante et flexible.
 
-Une leçon est créée par l\'enseignant et se compose de plusieurs pages qui chacune se termine normalement par une question et un choix de réponses. Les types de questions comprennent les questions à choix multiples, de correspondance et à réponse courte. Selon la réponse du participant, la leçon peut se poursuivre par la page suivante ou par une autre page.
+Une leçon est créée par l\'enseignant et se compose de plusieurs pages qui chacune se termine normalement par une question et un choix de réponses. Les types de questions comprennent les questions à choix multiple, d\'appariement et à réponse courte. Selon la réponse du participant, la leçon peut se poursuivre par la page suivante ou par une autre page.
 
 Une leçon peut si désiré être sanctionnée par une note. La note est alors enregistrée dans le carnet de notes.
 
@@ -322,7 +325,7 @@ $string['movepagenamed'] = 'Déplacer la page {$a}';
 $string['moving'] = 'Déplacement de la page : {$a}';
 $string['multianswer'] = 'Plusieurs réponses';
 $string['multianswer_help'] = 'Veuillez cocher cette option si toutes les réponses correctes dans l\'ensemble proposé doivent être indiquées.';
-$string['multichoice'] = 'Choix multiples';
+$string['multichoice'] = 'Choix multiple';
 $string['multipleanswer'] = 'Réponses multiples';
 $string['nameapproved'] = 'Nom approuvé';
 $string['namereject'] = 'Désolé, votre nom a été rejeté par le filtre.<br />Veuillez essayer un autre nom.';
@@ -456,6 +459,7 @@ $string['savepage'] = 'Enregistrer la page';
 $string['score'] = 'Score';
 $string['score_help'] = 'Le score n\'est utilisé que si l\'évaluation personnalisée est activée. Chaque réponse peut alors recevoir un nombre de points (positif ou négatif).';
 $string['scores'] = 'Scores';
+$string['search:activity'] = 'Leçon – information sur l\'activité';
 $string['secondpluswrong'] = 'Pas tout à fait. Voulez-vous essayer à nouveau ?';
 $string['selectaqtype'] = 'Sélectionner un type de question';
 $string['shortanswer'] = 'Réponse courte';
@@ -491,6 +495,7 @@ $string['timespenterror'] = 'Passer au moins {$a} minutes dans la leçon';
 $string['timespentminutes'] = 'Durée utilisée (minutes)';
 $string['timetaken'] = 'Durée utilisée';
 $string['topscorestitle'] = 'Les {$a} meilleurs résultats';
+$string['totalpagesviewedheader'] = 'Nombre de pages consultées';
 $string['true'] = 'Vrai';
 $string['truefalse'] = 'Vrai/Faux';
 $string['unabledtosavefile'] = 'Le fichier déposé n\'a pas pu être enregistré.';

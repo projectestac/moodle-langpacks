@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filters', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'filters', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   filters
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,13 +46,13 @@ $string['datelabelisafter'] = '{$a->label} é posterior a {$a->after}';
 $string['datelabelisbefore'] = '{$a->label} é anterior a {$a->before}';
 $string['datelabelisbetween'] = '{$a->label} está entre {$a->after} e {$a->before}';
 $string['defaultx'] = 'Predefinição ({$a})';
-$string['disabled'] = 'Desligado';
+$string['disabled'] = 'Desativado';
 $string['doesnotcontain'] = 'não contém';
 $string['endswith'] = 'termina em';
 $string['filterallwarning'] = 'Aplicar filtros aos cabeçalhos e ao conteúdo pode aumentar significativamente a carga no servidor. Pondere a necessidade da sua utilização. A maior ocupação é do filtro multilíngue.';
 $string['filtersettings'] = 'Configuração do filtro';
 $string['filtersettingsforin'] = 'Definições do filtro  {$a->filter} em {$a->context}';
-$string['filtersettings_help'] = 'Esta página permite-lhe ativar ou desativar os filtros numa área específica do site. Alguns filtros permitem definições locais, nesses casos, existirá um link ao lado do nome do filtro.';
+$string['filtersettings_help'] = 'Esta página permite-lhe ativar ou desativar os filtros numa área específica do site. Alguns filtros permitem definições locais, nesses casos, existirá uma hiperligação ao lado do nome do filtro.';
 $string['filtersettingsin'] = 'Definições de filtros no contexto: {$a}';
 $string['firstaccess'] = 'Primeiro acesso';
 $string['globalrolelabel'] = '{$a->label} é {$a->value}';

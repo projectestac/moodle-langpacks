@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'portfolio', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   portfolio
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,7 +48,7 @@ $string['continuetoportfolio'] = 'Continuar para portefólio';
 $string['deleteportfolio'] = 'Apagar instância de portefólio';
 $string['destination'] = 'Destino';
 $string['disabled'] = 'Lamentamos mas a exportação de portefólio não está disponível neste site';
-$string['disabledinstance'] = 'Inativo';
+$string['disabledinstance'] = 'Desativado';
 $string['displayarea'] = 'Área de exportação';
 $string['displayexpiry'] = 'A transferência expirou o tempo limite';
 $string['displayinfo'] = 'Informação de exportação';
@@ -68,7 +68,7 @@ $string['exportingcontentfrom'] = 'A exportar conteúdo de {$a}';
 $string['exportingcontentto'] = 'A exportar conteúdo para {$a}';
 $string['exportqueued'] = 'A exportação do portefólio foi adicionada à lista de transferências';
 $string['exportqueuedforced'] = 'A exportação do portefólio foi adicionada à lista de espera das transferências (o sistema externo obriga a que todas as transferências sejam colocadas na fila de espera)';
-$string['failedtopackage'] = 'Não é possível encontrar os arquivos para compactar';
+$string['failedtopackage'] = 'Não é possível encontrar os ficheiros para compactar';
 $string['failedtosendpackage'] = 'Ocorreu um erro ao enviar os seus ficheiros para o portefólio selecionado: erro original {$a}';
 $string['filedenied'] = 'O acesso a este ficheiro foi-lhe negado';
 $string['filenotfound'] = 'O ficheiro não foi encontrado';
@@ -122,19 +122,19 @@ $string['invalidinstance'] = 'Não foi possível encontrar a instância de Porte
 $string['invalidpreparepackagefile'] = 'Invocação inválida de prepare_package_file inválida. Devem estar definidos ficheiros individuais ou múltiplos';
 $string['invalidproperty'] = 'Não é possível encontrar a propriedade ({$a->property} em {$a->class})';
 $string['invalidsha1file'] = 'Invocação inválida de get_sha1_file inválida. Devem estar definidos ficheiros individuais ou múltiplos';
-$string['invalidtempid'] = 'O id exportado é inválido. Pode ter expirado.';
+$string['invalidtempid'] = 'O ID exportado é inválido. Pode ter expirado.';
 $string['invaliduserproperty'] = 'Não é possível encontrar a propriedade de conf do utilizador ({$a->property} em {$a->class})';
 $string['leap2a_emptyselection'] = 'O valor não foi selecionado';
-$string['leap2a_entryalreadyexists'] = 'Está a tentar adicionar uma entrada Leap2A com o id ({$a}) que já existe nesta lista';
+$string['leap2a_entryalreadyexists'] = 'Está a tentar adicionar uma entrada Leap2A com o ID ({$a}) que já existe nesta lista';
 $string['leap2a_feedtitle'] = 'Leap2A exportado do Moodle para {$a}';
 $string['leap2a_filecontent'] = 'Foi feita uma tentativa de converter o conteúdo de um registo Leap2A num ficheiro em vez de usar a subclasse do ficheiro';
 $string['leap2a_invalidentryfield'] = 'Foi feita a tentativa de definir um campo de registo  que não existe ({$a}) ou então não é possível fazer essa definição diretamente';
-$string['leap2a_invalidentryid'] = 'Está a tentar aceder a uma entrada mas o id não existe ({$a})';
+$string['leap2a_invalidentryid'] = 'Está a tentar aceder a uma entrada mas o ID não existe ({$a})';
 $string['leap2a_missingfield'] = 'Não foi encontrado o campo de registo Leap2A {$a} que é obrigatório';
 $string['leap2a_nonexistantlink'] = 'Um registo Leap2A ({$a->from}) tentou estabelecer uma ligação com um registo que não existe ({$a->to}) com rel {$a->rel}';
 $string['leap2a_overwritingselection'] = '> substituir o tipo original de um registo ({$a}) para seleção em make_selection';
 $string['leap2a_selflink'] = 'Um registo Leap2A ({$a->id}) tentou estabelecer uma ligação para si próprio com rel {$a->rel}';
-$string['logs'] = 'Transferência de registos';
+$string['logs'] = 'Transferência de registos de atividade';
 $string['logsummary'] = 'Transferências anteriores';
 $string['manageportfolios'] = 'Gerir portefólios';
 $string['manageyourportfolios'] = 'Gerir os seus portefólios';

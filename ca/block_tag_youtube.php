@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tag_youtube', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_tag_youtube', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   block_tag_youtube
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['anycategory'] = 'Qualsevol categoria';
+$string['apikeyinfo'] = 'Obteniu una <a href="https://developers.google.com/youtube/v3/getting-started">clau Google API</a> per al vostre lloc Moodle.';
 $string['autosvehicles'] = 'Cotxes i vehicles';
 $string['category'] = 'Categoria';
 $string['comedy'] = 'Comèdia';

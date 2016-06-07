@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'zh_cn', branch 'MOODLE_30_STABLE'
+ * Strings for component 'url', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,6 +68,7 @@ $string['popupwidthexplain'] = '指定弹出窗口的缺省宽度。';
 $string['printintro'] = '显示URL描述';
 $string['printintroexplain'] = '在内容下方显示 URL 描述？某些显示类型就算开启此选项也不会显示描述。';
 $string['rolesinparams'] = '在参数中包含角色名';
+$string['search:activity'] = 'URL';
 $string['serverurl'] = '服务器URL';
 $string['url:addinstance'] = '添加一个新的 URL 资源';
 $string['url:view'] = '查看URL';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'repository', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -114,7 +114,7 @@ $string['enternewname'] = '新しいファイル名を入力してください�
 $string['error'] = '不明なエラーが発生しました!';
 $string['errordoublereference'] = 'このファイルに対するショートカットはすでに存在しているため、ファイルをショートカット/エイリアスで上書きできません。';
 $string['errornotyourfile'] = 'あなたが追加していないファイルを取得することはできません。';
-$string['errorpostmaxsize'] = 'アップロードファイルがphp.iniのpost_max_sizeディレクティブを超える可能性があります。';
+$string['errorpostmaxsize'] = 'あなたがアップロードを試みたファイルはサーバが処理するには多き過ぎます。';
 $string['erroruniquename'] = 'リポジトリインスタンス名はユニークにしてください。';
 $string['errorwhilecommunicatingwith'] = 'リポジトリ「 {$a} 」との通信中にエラーが発生しました。';
 $string['errorwhiledownload'] = 'ファイルのダウンロード中にエラーが発生しました: {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'calendar', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   calendar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -130,7 +130,7 @@ $string['monththis'] = 'Den här månaden';
 $string['namewithsource'] = '{$a->name}({$a->source})';
 $string['never'] = 'Aldrig';
 $string['newevent'] = 'Ny händelse';
-$string['nocalendarsubscriptions'] = 'Du har inga kalenderprenumerationer.';
+$string['nocalendarsubscriptions'] = 'Du har inga kalender prenumerationer.';
 $string['notitle'] = 'ingen titel';
 $string['noupcomingevents'] = 'Det finns inga kommande händelser';
 $string['oneevent'] = '1 händelse';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'it', branch 'MOODLE_30_STABLE'
+ * Strings for component 'plugin', language 'it', branch 'MOODLE_31_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -58,6 +58,8 @@ $string['misdepinfoplugin'] = 'Informazioni plugin';
 $string['misdepinfoversion'] = 'Informazioni sulla versione';
 $string['misdepsavail'] = 'Dipendenze mancanti disponibili';
 $string['misdepsunavail'] = 'Dipendenze mancanti non disponibili';
+$string['misdepsunavaillist'] = 'Non ci sono versioni che soddisfino le dipendenze: {$a}.';
+$string['misdepsunknownlist'] = 'Non è presente nella cartella dei Plugin: <strong>{$a}</strong>.';
 $string['moodleversion'] = 'Moodle {$a}';
 $string['noneinstalled'] = 'Non ci sono plugin di questo tipo installati.';
 $string['notdownloadable'] = 'Non è possibile scaricare i pacchetti';
@@ -102,6 +104,8 @@ $string['status_upgrade'] = 'Da aggiornare';
 $string['status_uptodate'] = 'Installato';
 $string['supportedmoodleversions'] = 'Versioni di Moodle supportate';
 $string['systemname'] = 'Identificativo';
+$string['type_antivirus'] = 'Plugin antivirus';
+$string['type_antivirus_plural'] = 'Plugin antivirus';
 $string['type_auth'] = 'Metodo di autenticazione';
 $string['type_auth_plural'] = 'Plugin di autenticazione';
 $string['type_availability'] = 'Condizione per l\'accesso';
@@ -156,6 +160,8 @@ $string['type_report'] = 'Report del sito';
 $string['type_report_plural'] = 'Report';
 $string['type_repository'] = 'Repository';
 $string['type_repository_plural'] = 'Repository';
+$string['type_search'] = 'Motore di ricerca';
+$string['type_search_plural'] = 'Motori di ricerca';
 $string['type_theme'] = 'Tema';
 $string['type_theme_plural'] = 'Temi';
 $string['type_tool'] = 'Tool amministrativo';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'error', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -127,6 +127,7 @@ $string['cannotreadfile'] = 'ファイル ({$a}) を読み込めません。';
 $string['cannotreadtmpfile'] = '一時ファイルの読み込み中にエラーが発生しました。';
 $string['cannotreaduploadfile'] = 'アップロードファイルを読み込めませんでした。';
 $string['cannotremovefrommeta'] = 'このメタコースから選択したコースを削除できませんでした!';
+$string['cannotreprocessgrades'] = 'この活動 {$a} の評点を再処理できませんでした。';
 $string['cannotresetguestpwd'] = 'あなたはゲストパスワードをリセットできません。';
 $string['cannotresetmail'] = 'パスワードのリセットおよびメール送信中にエラーが発生しました。';
 $string['cannotresetthisrole'] = 'このロールをリセットできません。';
@@ -258,6 +259,7 @@ $string['forumblockingtoomanyposts'] = 'あなたはこのフォーラムに設�
 $string['generalexceptionmessage'] = '例外 - {$a}';
 $string['gradecantregrade'] = '評定計算中にエラーが発生しました: {$a}';
 $string['gradepubdisable'] = '評定の公開が無効にされています。';
+$string['gradesneedregrading'] = 'コース評定を再計算する必要があります。';
 $string['groupalready'] = 'ユーザはすでにグループ「 {$a} 」に属しています';
 $string['groupexistforcourse'] = 'グループ「 {$a} 」はすでにこのコースに登録されています。';
 $string['groupexistforcoursewithidnumber'] = '{$a->problemgroup}: IDナンバー「 {$a->idnumber} 」のグループ「 {$a->name} 」はすでにこのコースに存在します。';
@@ -281,6 +283,7 @@ $string['idnumbertaken'] = 'IDナンバーがすでに使用されています�
 $string['idnumbertoolong'] = 'IDナンバーが長すぎます。';
 $string['importformatnotimplement'] = '申し訳ございません、このフォーマットのインポートはまだ実装されていません!';
 $string['incorrectext'] = 'ファイルの拡張子が正しくありません。';
+$string['inplaceeditableerror'] = '更新プロセッサのコールにエラーが発生しました。';
 $string['installproblem'] = '通常、インストール中にエラーが発生した場合、エラーから回復することはできません。あなたがインストールを再開するには新しいデータベースを作成するか、異なるデータベース接頭辞 (prefix) を使用する必要があります。';
 $string['internalauthpassworderror'] = 'パスワードが入力されていないか、内部認証パスワードポリシーが正しくありません。';
 $string['invalidaccess'] = 'このページは正しくアクセスされていません。';
@@ -303,6 +306,7 @@ $string['invalidcomponent'] = '無効なコンポーネント名です。';
 $string['invalidconfirmdata'] = '無効な確認データです。';
 $string['invalidcontext'] = '無効なコンテクストです。';
 $string['invalidcourse'] = '無効なコースです。';
+$string['invalidcourseformat'] = '無効なコースフォーマットです。';
 $string['invalidcourseid'] = 'あなたは無効なコースIDの使用を試みています。';
 $string['invalidcourselevel'] = '無効なコンテクストレベルです。';
 $string['invalidcoursemodule'] = '無効なコースモジュールIDです。';
@@ -336,7 +340,7 @@ $string['invalidpagesize'] = '無効なページサイズです。';
 $string['invalidpasswordpolicy'] = '無効なパスワードポリシーです。';
 $string['invalidpaymentmethod'] = '無効な支払方法: {$a}';
 $string['invalidqueryparam'] = 'エラー: クエリパラメータ数が正しくありません。期待されたパラメータ数 {$a->expected} 件に対して、{$a->actual} 件が渡されています。';
-$string['invalidratingarea'] = '無効なレーティングエリアです。';
+$string['invalidratingarea'] = '無効な評定エリアです。';
 $string['invalidrecord'] = 'データベーステーブル「 {$a} 」内にデータレコードが見つかりません。';
 $string['invalidrecordunknown'] = 'データベース内にデータレコードが見つかりません。';
 $string['invalidrequest'] = '無効なリクエストです。';
@@ -350,6 +354,7 @@ $string['invalidsourcefield'] = '下書きファイルのソースフィール�
 $string['invalidstatedetected'] = '不明なエラーが発生しました: {$a}。通常、このエラーは発生しません。';
 $string['invalidurl'] = '無効なURLです。';
 $string['invaliduser'] = '無効なユーザです。';
+$string['invaliduserdata'] = '無効なユーザデータ: {$a}';
 $string['invaliduserfield'] = '無効なユーザフィールド {$a}';
 $string['invaliduserid'] = '無効なユーザIDです。';
 $string['invalidusername'] = 'ユーザ名に無効な文字が含まれています。';
@@ -370,6 +375,7 @@ $string['loginasnoenrol'] = 'コースに「... としてログイン」して�
 $string['loginasonecourse'] = 'あなたはこのコースに入ることはできません。<br />他のコースに入る前に現在の「... としてログイン」セッションを終了する必要があります。';
 $string['maxareabytes'] = 'ファイルがこのエリアの空き容量を超えています。';
 $string['maxbytes'] = 'ファイルが最大許容サイズを超えています。';
+$string['maxbytesfile'] = 'ファイル {$a->file} は大きすぎます。あなたがアップロードできる最大サイズは {$a->size} です。';
 $string['messagingdisable'] = 'このサイトではメッセージングが無効にされています。';
 $string['mimetexisnotexist'] = 'あなたのシステムはmimeTeXを実行できるよう設定されていません。あなたのPHPおよびOSプラットフォームに適した実行ファイルを<a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a>からダウンロードするか、C言語のソースを<a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>からダウンロードしてください。ダウンロードしたファイルをコンパイルした後、 あなたの「moodle/filter/tex/」ディレクトリに入れてください。';
 $string['mimetexnotexecutable'] = 'カスタムmimetexを実行できません!';
@@ -454,6 +460,7 @@ $string['prefixcannotbeempty'] = '<p>エラー: データベーステーブル�
 <p>サイト管理者はこの問題を修正する必要があります。</p>';
 $string['prefixtoolong'] = '<p>エラー: データベーステーブル接頭辞が長すぎます ({$a->dbfamily})</p>
 <p>サイト管理者はこの問題を修正する必要があります。{$a->dbfamily} のテーブル接頭辞の最大長は半角 {$a->maxlength} 文字です。</p>';
+$string['privatefilesupload'] = 'プライベートファイルエリアへのファイル直接アップロードはサポートされないようになりました。下書きエリアにアップロードした後、ファイルをcore_user::add_user_private_filesに移動してください。';
 $string['processingstops'] = '処理はここで停止します。残りのレコードは無視されました。';
 $string['protected_cc_not_supported'] = '保護カートリッジはサポートされていません。';
 $string['querystringcannotbeempty'] = 'クエリストリングは空白にできません。';

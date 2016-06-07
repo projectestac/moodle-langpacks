@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'grades', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -185,7 +185,7 @@ $string['editverbose'] = 'Edit {$a->category} {$a->itemmodule} {$a->itemname}';
 $string['enableajax'] = 'Enable AJAX';
 $string['enableajax_help'] = 'Adds a layer of AJAX functionality to the grader report, simplifying and speeding up common operations. Depends on Javascript being switched on at the user\'s browser level.';
 $string['enableoutcomes'] = 'Enable outcomes';
-$string['enableoutcomes_help'] = 'Support for Outcomes (also known as Competencies, Goals, Standards or Criteria) means that we can grade things using one or more scales that are tied to outcome statements. Enabling outcomes makes such special grading possible throughout the site.';
+$string['enableoutcomes_help'] = 'If enabled, grade items may be graded using one or more scales tied to outcome statements.';
 $string['encoding'] = 'Encoding';
 $string['encoding_help'] = 'Select the character encoding used for the data. (The standard encoding is UTF-8.) If the wrong encoding is selected by mistake, it will be noticeable when previewing the data for import.';
 $string['errorcalculationbroken'] = 'Probably circular reference or broken calculation formula';
@@ -477,10 +477,30 @@ $string['missingitemtypeoreid'] = 'Array key (itemtype or eid) missing from 2nd 
 $string['missingscale'] = 'Scale must be selected';
 $string['mode'] = 'Mode';
 $string['modgrade'] = 'Grade';
-$string['modgradeerrorbadpoint'] = 'Invalid Grade Value. This must be an integer between 1 and {$a}';
+$string['modgradecantchangegradetype'] = 'You cannot change the type, as grades already exist for this item.';
+$string['modgradecantchangegradetypemsg'] = 'Some grades have already been awarded, so the grade type cannot be changed. If you wish to change the maximum grade, you must first choose whether or not to rescale existing grades.';
+$string['modgradecantchangegradetyporscalemsg'] = 'Some grades have already been awarded, so the grade type and scale cannot be changed.';
+$string['modgradecantchangeratingmaxgrade'] = 'You cannot change the maximum grade when grades already exist for an activity with ratings.';
+$string['modgradecantchangescale'] = 'You cannot change the scale, as grades already exist for this item.';
+$string['modgradecategorycantchangegradetypemsg'] = 'This category has associated grade items which have been overridden. Therefore some grades have already been awarded, so the grade type cannot be changed. If you wish to change the maximum grade, you must first choose whether or not to rescale existing grades.';
+$string['modgradecategorycantchangegradetyporscalemsg'] = 'This category has associated grade items which have been overridden. Therefore some grades have already been awarded, so the grade type and scale cannot be changed.';
+$string['modgradecategoryrescalegrades'] = 'Rescale overridden grades';
+$string['modgradecategoryrescalegrades_help'] = 'When changing the maximum grades on a gradebook item you need to specify whether or not this will cause existing percentage grades to change as well.
+
+If this is set to \'Yes\', any existing overridden grades will be rescaled so that the percentage grade remains the same.
+
+For example, if this option is set to \'Yes\', changing the maximum grade on an item from 10 to 20 would cause a grade of 6/10 (60%) to be rescaled to 12/20 (60%). With this option set to \'No\', the grade will remain unchanged, requiring manual adjustment of the grade items to ensure correct scores.';
+$string['modgradedonotmodify'] = 'Do not modify existing grades';
+$string['modgradeerrorbadpoint'] = 'Invalid grade value. This must be an integer between 1 and {$a}';
 $string['modgradeerrorbadscale'] = 'Invalid scale selected. Please make sure you select a scale from the selections below.';
 $string['modgrade_help'] = 'Select the type of grading used for this activity. If "scale" is chosen, you can then choose the scale from the "scale" dropdown. If using "point" grading, you can then enter the maximum grade available for this activity.';
-$string['modgrademaxgrade'] = 'Maximum points';
+$string['modgrademaxgrade'] = 'Maximum grade';
+$string['modgraderescalegrades'] = 'Rescale existing grades';
+$string['modgraderescalegrades_help'] = 'When changing the maximum grades on a gradebook item you need to specify whether or not this will cause existing percentage grades to change as well.
+
+If this is set to \'Yes\', any existing grades will be rescaled so that the percentage grade remains the same.
+
+For example, if this option is set to \'Yes\', changing the maximum grade on an item from 10 to 20 would cause a grade of 6/10 (60%) to be rescaled to 12/20 (60%). With this option set to \'No\', the grade would change from 6/10 (60%) to 6/20 (30%), requiring manual adjustment of the grade items to ensure correct scores.';
 $string['modgradetype'] = 'Type';
 $string['modgradetypenone'] = 'None';
 $string['modgradetypepoint'] = 'Point';
@@ -491,6 +511,7 @@ $string['movingelement'] = 'Moving {$a}';
 $string['multfactor'] = 'Multiplicator';
 $string['multfactor_help'] = 'The multiplicator is the factor by which all grades for this grade item will be multiplied, with a maximum value of the maximum grade. For example, if the multiplicator is 2 and the maximum grade is 100, then all grades less than 50 are multiplied by 2, and all grades 50 and above are changed to 100.';
 $string['multfactorvalue'] = 'Multiplicator value for {$a}';
+$string['mustchooserescaleyesorno'] = 'You must choose whether to rescale existing grades or not.';
 $string['mygrades'] = 'User menu grades link';
 $string['mygrades_desc'] = 'This setting allows for the option of linking to an external gradebook from the user menu.';
 $string['mypreferences'] = 'My preferences';
@@ -609,6 +630,7 @@ $string['rawpct'] = 'Raw %';
 $string['real'] = 'Real';
 $string['realletter'] = 'Real (letter)';
 $string['realpercentage'] = 'Real (percentage)';
+$string['recalculatinggrades'] = 'Recalculating grades';
 $string['recovergradesdefault'] = 'Recover grades default';
 $string['recovergradesdefault_help'] = 'By default recover old grades when re-enrolling a user in a course.';
 $string['refreshpreview'] = 'Refresh preview';
@@ -745,7 +767,7 @@ $string['uncategorised'] = 'Uncategorised';
 $string['unchangedgrade'] = 'Grade unchanged';
 $string['unenrolledusersinimport'] = 'This import included the following grades for users not currently enrolled in this course: {$a}';
 $string['unlimitedgrades'] = 'Unlimited grades';
-$string['unlimitedgrades_help'] = 'By default grades are limited by the maximum and minimum values of the grade item. Enabling this setting removes this limit, and allows grades of over 100% to be entered directly in the gradebook. It is recommended that this setting is enabled at an off-peak time, as all grades will be recalculated, which may result in a high server load.';
+$string['unlimitedgrades_help'] = 'By default, grades are limited by the maximum and minimum values of the grade item. Enabling this setting removes this limit, and allows grades of over 100% to be entered directly in the gradebook.';
 $string['unlock'] = 'Unlock';
 $string['unlockverbose'] = 'Unlock {$a->category} {$a->itemmodule} {$a->itemname}';
 $string['unused'] = 'Unused';

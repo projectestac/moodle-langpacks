@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'label', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['dnduploadlabeltext'] = 'Adicionar um separador à página da disciplina
 $string['label:addinstance'] = 'Adicionar novo separador';
 $string['labeltext'] = 'Texto do separador';
 $string['modulename'] = 'Separador';
-$string['modulename_help'] = 'O recurso Separador permite inserir texto e conteúdos multimédia entre os links para os recursos e atividades que se encontram dentro das secções (tópicos ou semanas) da disciplina. Os separadores são muito versáteis e, quando utilizados de forma correta, podem ajudar a melhorar a aparência de uma disciplina.
+$string['modulename_help'] = 'O recurso Separador permite inserir texto e conteúdos multimédia entre as hiperligações para os recursos e atividades que se encontram dentro das secções (tópicos ou semanas) da disciplina. Os separadores são muito versáteis e, quando utilizados de forma correta, podem ajudar a melhorar a aparência de uma disciplina.
 
 Os separadores podem ser utilizados:
 
@@ -47,3 +47,4 @@ $string['modulename_link'] = 'mod/label/link';
 $string['modulenameplural'] = 'Separadores';
 $string['pluginadministration'] = 'Administração do Separador';
 $string['pluginname'] = 'Separador';
+$string['search:activity'] = 'Separador';

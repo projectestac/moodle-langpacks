@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'completion', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,7 +55,7 @@ $string['completion-alt-manual-n'] = 'Não concluída; Selecione para dar como c
 $string['completion-alt-manual-y'] = 'Concluída; Selecione para dar como não concluída';
 $string['completion_automatic'] = 'Dar como concluída quando se verificarem as seguintes condições';
 $string['completiondefault'] = 'Usar configuração predefinida da Verificação de conclusão';
-$string['completiondisabled'] = 'Indisponível, não mostrar nas configurações das atividades';
+$string['completiondisabled'] = 'Desativado, não mostrar nas configurações das atividades';
 $string['completionduration'] = 'Inscrição';
 $string['completionenabled'] = 'Disponível, via configurações de conclusão e das atividades';
 $string['completionexpected'] = 'Data prevista de conclusão';
@@ -156,7 +156,7 @@ $string['periodpostenrolment'] = 'Período após inscrição';
 $string['progress'] = 'Progresso do aluno';
 $string['progress-title'] = '{$a->user}, {$a->activity}: {$a->state} {$a->date}';
 $string['progresstotal'] = 'Progresso: {$a->complete} / {$a->total}';
-$string['recognitionofpriorlearning'] = 'Reconhecimento da aprendizagem prévia';
+$string['recognitionofpriorlearning'] = 'Reconhecimento de aprendizagem anterior';
 $string['remainingenroledfortime'] = 'Manter-se inscrito por um determinado período de tempo';
 $string['remainingenroleduntildate'] = 'Manter-se inscrito até uma determinada data';
 $string['reportpage'] = 'Mostrar participantes {$a->from} a {$a->to} de {$a->total}.';

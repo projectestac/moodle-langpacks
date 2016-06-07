@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_cohort', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'enrol_cohort', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_cohort
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addgroup'] = 'Afegeix al grup';
 $string['assignrole'] = 'Assigna rol';
 $string['cohort:config'] = 'Configura les instàncies de cohorts';
-$string['cohort:unenrol'] = 'Cancel·la la inscripció dels usuaris suspesos';
+$string['cohort:unenrol'] = 'Anul·la la inscripció dels usuaris amb la inscripció suspesa';
 $string['creategroup'] = 'Crea un grup nou';
 $string['defaultgroupnametext'] = '{$a->name} cohort {$a->increment}';
 $string['instanceexists'] = 'La cohort està sincronitzada amb el rol seleccionat';

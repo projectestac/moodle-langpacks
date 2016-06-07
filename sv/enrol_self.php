@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'enrol_self', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,7 +52,7 @@ Om fältet lämnas blankt kan vilken användare som helst koppla sig själv till
 $string['passwordinvalid'] = 'Felaktig kursnyckel, vänligen försök igen';
 $string['passwordinvalidhint'] = 'Den angivna kursnyckeln var felaktig, var vänlig försök igen.<br />
 (Här är ett tips - det börjar med \'{$a}\')';
-$string['pluginname'] = 'Självregistrering';
+$string['pluginname'] = 'Kursnyckel';
 $string['pluginname_desc'] = 'Med en "kursnyckel" kan användare själva koppla sig till kurssidor. Metoden måste ha lagts till den aktuella kursen, vilket görs under "Metoder för att koppla användare".';
 $string['requirepassword'] = 'Begär kursnyckel';
 $string['requirepassword_desc'] = 'Kräv kursnyckel i nya kurser och förhindra avlägsnande av kursnyckel från befintliga kurser.';
@@ -74,6 +74,7 @@ $string['unenroluser'] = 'Vill du verkligen avregistrera "{$a->user}" från kurs
 $string['welcometocourse'] = 'Välkommen till {$a}';
 $string['welcometocoursetext'] = 'Varmt välkommen till {$a->coursename}!
 
-En av de första sakerna du bör göra är att ändra din profilsida inuti kursen så att vi kan lära oss mer om dig:
+En av de första sakerna Du bör göra är att ändra Din profilsida
+inuti kursen så att vi kan lära oss mer om Dig:
 
   {$a->profileurl}';

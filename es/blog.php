@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'blog', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,7 @@ $string['courseblogdisable'] = 'Los blogs del curso están deshabilitados';
 $string['courseblogs'] = 'Los usuarios sólo pueden ver los blogs de las personas que comparten un curso';
 $string['deleteblogassociations'] = 'Eliminar asociaciones de blog';
 $string['deleteblogassociations_help'] = 'Si se selecciona esta opción, las entradas de blog quedarán desvinculadas de este curso o de las actividades o recursos del curso. Las entradas de blog no serán eliminadas.';
+$string['deleteentry'] = 'Eliminar entrada';
 $string['deleteexternalblog'] = 'Dar de baja este blog externo';
 $string['deleteotagswarn'] = '¿Está seguro de que quiere eliminar estas marcas de todos los mensajes de blog y quitarlo del sistema?';
 $string['description'] = 'Descripción';

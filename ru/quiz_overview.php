@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quiz_overview', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,7 +69,7 @@ $string['regradeselected'] = 'Переоценить выбранные попы
 $string['regradingattemptxofy'] = 'Переоценка попыток ({$a->done}/{$a->count})';
 $string['show'] = 'Показать / скачать';
 $string['showattempts'] = 'Только показать / скачать попытки';
-$string['showdetailedmarks'] = 'Отметки для каждого вопроса';
+$string['showdetailedmarks'] = 'Баллы для каждого вопроса';
 $string['showinggraded'] = 'Показывать только попытки, оцененные для каждого пользователя.';
 $string['showinggradedandungraded'] = 'Показывать оцененные и неоцененные попытки для каждого пользователя. Единственная оцененная попытка для каждого пользователя подсвечена. Для этого опроса выбран метод оценивания {$a}.';
 $string['studentingroup'] = '«{$a->coursestudent}» в группе «{$a->groupname}»';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'moodle', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,6 +42,7 @@ $string['activityreport'] = '活動レポート';
 $string['activityreports'] = '活動レポート';
 $string['activityselect'] = '他の場所に移動するため、この活動を選択する';
 $string['activitysince'] = '{$a} 以来の活動';
+$string['activitytypetitle'] = '{$a->activity} - {$a->type}';
 $string['activityweighted'] = 'ユーザごとの活動';
 $string['add'] = '追加';
 $string['addactivity'] = '活動を追加する ...';
@@ -123,7 +124,7 @@ $string['again'] = 'もう一度';
 $string['aimid'] = 'AIM ID';
 $string['ajaxuse'] = 'AJAXおよびJavaScript';
 $string['all'] = 'すべて';
-$string['allactions'] = 'すべての行動';
+$string['allactions'] = 'すべてのアクション';
 $string['allactivities'] = 'すべての活動';
 $string['allcategories'] = 'すべてのカテゴリ';
 $string['allchanges'] = 'すべての変更';
@@ -259,17 +260,6 @@ $string['choosereportfilter'] = 'レポートのフィルタを選択してく�
 $string['choosetheme'] = 'テーマの選択';
 $string['chooseuser'] = 'ユーザを選択してください。';
 $string['city'] = '都道府県';
-$string['clambroken'] = 'あなたの管理者がアップロードファイルに対するウイルスチェックを有効にしていますが、設定が正しくありません。<br />あなたのファイルは正常にアップロードされませんでした。あなたの管理者宛に対応するようメールが送信されました。<br />後ほどこのファイルのアップロードをお試しください。';
-$string['clamdeletedfile'] = 'ファイルが削除されました。';
-$string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
-$string['clamemailsubject'] = '{$a} :: ClamAV通知';
-$string['clamfailed'] = 'ClamAVの起動に失敗しました。 エラーメッセージは {$a} です。Clamからの出力結果は次のとおりです:';
-$string['clamlost'] = 'Moodleはファイルアップロード時にclamが動作するよう設定されていますが、ClamAVのパス {$a} が正しくありません。';
-$string['clamlostandactinglikevirus'] = '加えて、MoodleはClamの動作失敗時にファイルをウイルスとして扱うよう設定されています。あなたが修正するまで、原則的に学生はファイルをアップロードできないことを意味します。';
-$string['clammovedfile'] = 'あなたが指定した隔離用ディレクトリにファイルが移動されました。新しい保存場所は {$a} です。';
-$string['clammovedfilebasic'] = 'ファイルが隔離用ディレクトリに移動されました。';
-$string['clamquarantinedirfailed'] = 'あなたが指定した隔離用ディレクトリ {$a} にファイルを移動できませんでした。ファイルが感染していることが分かった場合、感染したファイルが削除されるため、そのファイルを回復してください。';
-$string['clamunknownerror'] = 'Calmに不明なエラーが発生しました。';
 $string['cleaningtempdata'] = '一時データの消去';
 $string['clear'] = 'クリア';
 $string['clickhelpiconformoreinfo'] = '... 続ける ... 詳細記事を閲覧するにはヘルプアイコンをクリックしてください。';
@@ -462,6 +452,7 @@ $string['databaseupgradeblocks'] = '現在のブロックバージョンは {$a}
 $string['databaseupgradegroups'] = '現在のグループバージョンは {$a} です。';
 $string['databaseupgradelocal'] = '現在のローカルデータベースのカスタマイズバージョンは {$a} です。';
 $string['databaseupgrades'] = 'データベースのアップグレード';
+$string['dataformats'] = 'データフォーマット';
 $string['date'] = '日付';
 $string['datechanged'] = '開講日変更';
 $string['datemostrecentfirst'] = '日付 - 新しいものを最初に';
@@ -470,6 +461,10 @@ $string['day'] = '日';
 $string['days'] = '日';
 $string['decodinginternallinks'] = '内部リンクのデコード';
 $string['default'] = 'デフォルト';
+$string['defaultcompetencescale'] = 'デフォルトコンピテンシー尺度';
+$string['defaultcompetencescaledesc'] = '誰かが熟達したことを証明することに関して、さらなる情報が存在しない二進数評価尺度です。';
+$string['defaultcompetencescalenotproficient'] = 'コンピテント未達';
+$string['defaultcompetencescaleproficient'] = 'コンピテント';
 $string['defaultcoursestudent'] = '学生';
 $string['defaultcoursestudentdescription'] = '通常、学生にはコース内でより少ない権限が割り当てられます。';
 $string['defaultcoursestudents'] = '学生';
@@ -577,6 +572,7 @@ $string['editorresettodefaults'] = 'デフォルト値にリセットする';
 $string['editorsettings'] = 'エディタ設定';
 $string['editorshortcutkeys'] = 'エディタショートカットキー';
 $string['editsection'] = 'セクションを編集する';
+$string['editsectionname'] = 'セクション名を編集する';
 $string['editsettings'] = '設定を編集する';
 $string['editsummary'] = '概要を編集する';
 $string['editthisactivity'] = 'この活動を編集する';
@@ -584,7 +580,10 @@ $string['editthiscategory'] = 'このカテゴリを編集する';
 $string['edittitle'] = 'タイトルを編集する';
 $string['edittitleinstructions'] = 'Escape=キャンセル / Enter=終了';
 $string['edituser'] = 'ユーザアカウントを編集する';
-$string['edulevel'] = '教育レベル';
+$string['edulevel'] = 'すべてのイベント';
+$string['edulevel_help'] = '* 教える - 教師により実行されるアクションです。例) リソースをアップロードする
+* 参加する - 学生により実行されるアクションです。例) フォーラムに投稿する
+* その他 - 教師および学生以外のロールのユーザにより実行されるアクションです。';
 $string['edulevelother'] = 'その他';
 $string['edulevelparticipating'] = '参加する';
 $string['edulevelteacher'] = '教える';
@@ -735,6 +734,7 @@ $string['eventcoursemoduleviewed'] = 'コースモジュールが閲覧されま
 $string['eventcourseresetended'] = 'コースリセットが終了しました。';
 $string['eventcourseresetstarted'] = 'コースリセットが開始しました。';
 $string['eventcourserestored'] = 'コースがリストアされました。';
+$string['eventcoursesectiondeleted'] = 'コースセクションが削除されました。';
 $string['eventcoursesectionupdated'] = 'コースセクションが更新されました。';
 $string['eventcourseupdated'] = 'コースが更新されました。';
 $string['eventcourseuserreportviewed'] = 'コースユーザレポートが閲覧されました。';
@@ -742,6 +742,7 @@ $string['eventcourseviewed'] = 'コースが閲覧されました。';
 $string['eventemailfailed'] = 'メール送信に失敗しました。';
 $string['eventname'] = 'イベント名';
 $string['eventrecentactivityviewed'] = '最近の活動が閲覧されました。';
+$string['eventsearchindexed'] = '検索データがインデックスされました。';
 $string['eventunknownlogged'] = '不明なイベント';
 $string['eventusercreated'] = 'ユーザが作成されました。';
 $string['eventuserdeleted'] = 'ユーザが削除されました。';
@@ -831,7 +832,7 @@ $string['frontpageformatloggedin'] = 'フロントページフォーマット (�
 $string['frontpagenews'] = 'ニュースアイテム';
 $string['frontpagesettings'] = 'フロントページ設定';
 $string['fulllistofcourses'] = 'すべてのコース';
-$string['fullname'] = '名称';
+$string['fullname'] = 'フルネーム';
 $string['fullnamecourse'] = '長いコース名';
 $string['fullnamecourse_help'] = '長いコース名はコースページ内トップおよびコース一覧に表示されます。';
 $string['fullnamedisplay'] = '{$a->lastname} {$a->firstname}';
@@ -971,7 +972,7 @@ $string['interestslist'] = '興味リスト';
 $string['interestslist_help'] = 'あなたの興味のあることを1つずつ入力してください。あなたの興味のあることはプロファイルページにタグとして表示されます。';
 $string['invalidemail'] = '無効なメールアドレスです。';
 $string['invalidlogin'] = '不正なログインです、再度ログインしてください。';
-$string['invalidusername'] = 'ユーザ名には半角英数小文字、アンダースコア (_)、ハイフン (-)、ピリオド (.) またはアットマーク (@) のみ含むことができます。';
+$string['invalidusername'] = 'ユーザ名には半角英数小文字 (文字および数字)、アンダースコア (_)、ハイフン (-)、ピリオド (.) またはアットマーク (@) のみ含むことができます。';
 $string['invalidusernameupload'] = '無効なユーザ名です。';
 $string['ip_address'] = 'IPアドレス';
 $string['jump'] = 'ジャンプ';
@@ -996,6 +997,7 @@ $string['lastyear'] = '昨年';
 $string['latestlanguagepack'] = 'moodle.orgで最新の言語パックをチェックする';
 $string['layouttable'] = 'レイアウトテーブル';
 $string['leavetokeep'] = '現在のパスワードを使用する場合、空白にしてください。';
+$string['legacylogginginuse'] = '現在、このサイトではレガシーログストアへの書き込みが有効にされています。このログストアへの書き込みは廃止される予定です。「標準」または「外部」のようなサポートされているログストアに書き込んでください。';
 $string['legacythemeinuse'] = 'あなたのブラウザが古すぎるため、このサイトは互換モードで表示されています。';
 $string['license'] = 'ライセンス';
 $string['licenses'] = 'ライセンス';
@@ -1022,27 +1024,7 @@ $string['loginaspasswordexplain'] = '<p>この機能を使用するには特別�
 $string['login_failure_logs'] = 'ログイン失敗ログ';
 $string['loginguest'] = 'ゲストとしてログインする';
 $string['loginsite'] = 'サイトにログインする';
-$string['loginsteps'] = 'こんにちは! コースにアクセスするために新しいアカウントを作成してください。アカウント作成方法は下記のとおりです。
-<ol>
-<li>アカウントの作成</li>
-<ul>
-<li type=disc><a href="{$a}">新しいアカウントを作成する</a>で<b>必要事項を入力してください</b>。</li>
-</ul>
-
-<li>アカウントの確定</li>
-<ul>
-<li type=disc>あなたが登録したメールアドレスにメールがすぐに送信されます。</li>
-<li type=disc>メールを開いて、その中の<b>リンクをクリックしてください</b>。</li>
-<li type=disc>アカウントの確定が行われ、ログイン可能になります。</li>
-</ul>
-
-<li>コースへのアクセス</li>
-<ul>
-<li type=disc>参加したい<b>コースを選択してください</b>。</li>
-<li type=disc>「登録キー」を入力する必要がある場合は、先生があなたに教えた「登録キー」を入力してください。これでコースにアクセスできるようになります。</li>
-<li type=disc>今後、登録したコースにアクセスするために必要なものは、ユーザ名とパスワードのみです。 このページの左側のユーザ名とパスワードの入力欄を利用してください。</li>
-</ul>
-</ol>';
+$string['loginsteps'] = 'このサイトにフルアクセスするため、あなたは最初にアカウントを作成する必要があります。';
 $string['loginstepsnone'] = '<p>こんにちは!</p>
 <p>コースを利用するためにはアカウントを開設する必要があります。</p>
 <p>あなたに必要なことはこのページのフォームを使用してユーザ名およびパスワードを作成するだけです!</p>
@@ -1065,6 +1047,7 @@ $string['manageblocks'] = 'ブロック';
 $string['managecategorythis'] = 'このカテゴリを管理する';
 $string['managecourses'] = 'コースを管理する';
 $string['managedatabase'] = 'データベース';
+$string['managedataformats'] = 'データフォーマットを管理する';
 $string['manageeditorfiles'] = 'エディタで使用されるファイルを管理する';
 $string['managefilters'] = 'フィルタ';
 $string['managemodules'] = 'モジュール';
@@ -1099,6 +1082,8 @@ $string['messageprovider:availableupdate'] = '利用可能な更新に関する�
 $string['messageprovider:backup'] = 'バックアップ通知';
 $string['messageprovider:badgecreatornotice'] = 'バッジ作成者通知';
 $string['messageprovider:badgerecipientnotice'] = 'バッジ取得者通知';
+$string['messageprovider:competencyplancomment'] = '学習プランに投稿されたコメント';
+$string['messageprovider:competencyusercompcomment'] = 'コンピテンシーに投稿されたコメント';
 $string['messageprovider:courserequestapproved'] = 'コース作成リクエスト承認通知';
 $string['messageprovider:courserequested'] = 'コース作成リクエスト通知';
 $string['messageprovider:courserequestrejected'] = 'コース作成リクエスト拒否通知';
@@ -1193,6 +1178,7 @@ $string['myhome'] = 'ダッシュボード';
 $string['mymoodledashboard'] = 'マイMoodleダッシュボード';
 $string['myprofile'] = 'マイプロファイル';
 $string['name'] = '名称';
+$string['namedfiletoolarge'] = 'ファイル「 {$a->filename} 」は大きすぎるためアップロードできません。';
 $string['nameforlink'] = 'このリンクを何と呼びますか?';
 $string['nameforpage'] = '名称';
 $string['navigation'] = 'ナビゲーション';
@@ -1202,6 +1188,7 @@ $string['never'] = 'なし';
 $string['neverdeletelogs'] = 'ログを削除しない';
 $string['new'] = '新規';
 $string['newaccount'] = '新しいアカウント';
+$string['newactivityname'] = '活動 {$a} の新しい名称';
 $string['newcourse'] = '新しいコース';
 $string['newpassword'] = '新しいパスワード';
 $string['newpasswordfromlost'] = '<strong>注意:</strong> 喪失パスワードリカバリ処理の一環として送信される2通のメールの<strong>2番目</strong>に、あなたの<strong>現在のパスワード</strong>が送信されます。この画面を続ける前に、あなたの新しいパスワードが記載されたメールを受信したことを確認してください。';
@@ -1224,6 +1211,7 @@ $string['newpasswordtext'] = 'こんにちは {$a->firstname} さん
 {$a->signoff}';
 $string['newpicture'] = '新しい画像';
 $string['newpicture_help'] = '新しい画像を追加するにはイメージ (JPGまたはPNGフォーマット) を閲覧および選択して「プロファイルを更新する」をクリックしてください。イメージは正方形にトリミングおよび100x100ピクセルにリサイズされます。';
+$string['newsectionname'] = 'セクション {$a} の新しい名称';
 $string['newsitem'] = 'ニュースアイテム';
 $string['newsitems'] = 'ニュースアイテム';
 $string['newsitemsnumber'] = 'ニュースアイテムの表示件数';
@@ -1601,6 +1589,8 @@ $string['selectacourse'] = 'コースを選択する';
 $string['selectacoursesite'] = 'コースまたはサイトを選択する';
 $string['selectagroup'] = 'グループを選択する';
 $string['selectall'] = 'すべてを選択する';
+$string['selectallusersonpage'] = 'このページのユーザすべてを選択する';
+$string['selectalluserswithcount'] = '{$a} ユーザすべてを選択する';
 $string['selectamodule'] = '活動モジュールを選択してください。';
 $string['selectanaction'] = '操作を選択する';
 $string['selectanoptions'] = 'オプションを選択する';
@@ -1785,7 +1775,7 @@ $string['teacheronly'] = '{$a} 専用';
 $string['teacherroles'] = '{$a} ロール';
 $string['teachers'] = '教師';
 $string['textediting'] = 'テキストエディタ';
-$string['textediting_help'] = 'AttoまたはTinyMCEのようなHTMLエディタが選択された場合、コンテンツを簡単に追加できるよう、テキスト入力エリアにはボタンを含むツールバーが配置されます。
+$string['textediting_help'] = 'AttoまたはTinyMCEのようなHTMLエディタが選択された場合、コンテンツを簡単に追加できるようテキスト入力エリアにはボタンを含むツールバーが配置されます。
 
 「プレインテキストエリア」が選択された場合、HTMLまたはマークダウンのようなフォーマットのテキスト入力エリアを選択することができます。
 
@@ -1923,25 +1913,6 @@ $string['viewmore'] = 'さらに表示する';
 $string['viewprofile'] = 'プロファイルを表示する';
 $string['views'] = '表示';
 $string['viewsolution'] = '解決方法を表示する';
-$string['virusfound'] = '管理者の方!  {$a->user} によってコース {$a->course} にアップロードされたファイルにClamAVがウイルスを発見しました。clamscanの出力結果は次のとおりです:';
-$string['virusfoundlater'] = '{$a->date} に {$a->filename} というファイル名でコース {$a->course} にあなたがアップロードしたファイルにウイルスが発見されました。以下、あなたのファイルに対して実施された処理の概要です:
-
-{$a->action}
-
-これが提出した課題の場合、あなたの教師が閲覧できるよう再度提出してください。';
-$string['virusfoundlateradmin'] = '管理者の方! {$a->date} に{$a->filename} というファイル名でコース {$a->course} へユーザ {$a->user} によってアップロードされたファイルにウイルスが発見されました。以下、ファイルに対して実施された処理の概要です:
-
-{$a->action}
-
-ユーザにもウイルスに感染している旨が通知されました。';
-$string['virusfoundlateradminnolog'] = '管理者の方! {$a->filename} というファイル名でアップロードされたファイルにウイルスが発見されました。Moodleはアップロードされたファイルのウイルスを駆除することができませんでした。
-
-以下、ファイルに対して実施された処理の概要です:
-
-{$a->action}';
-$string['virusfoundsubject'] = '{$a}: ウイルスが見つかりました!';
-$string['virusfounduser'] = 'あなたがアップロードしたファイル {$a->filename} はウイルスチェッカによりスキャンされ、ウイルスに感染していることが発見されました!　あなたのファイルは正常にアップロードされませんでした。';
-$string['virusplaceholder'] = 'このアップロードファイルにウイルスが含まれていることが検出されました。感染したファイルは移動または削除され、ユーザに感染が通知されました。';
 $string['visible'] = '可視性';
 $string['visible_help'] = 'この設定ではコース一覧にコースを表示するかどうか決定します。教師および管理者以外、ユーザはコースへ入ることを許可されません。';
 $string['visibletostudents'] = '{$a} に表示する';

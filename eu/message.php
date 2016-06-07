@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'message', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,6 +45,7 @@ $string['context'] = 'testuingurua';
 $string['defaultmessageoutputs'] = 'Lehenetsitako irteerako mezuak';
 $string['defaults'] = 'Lehenetsitakoak';
 $string['deletemessage'] = 'Ezabatu mezua';
+$string['deletemessageconfirmation'] = 'Ziur zaude mezu hau ezabatu nahi duzula? Soilik zure mezuen historiatik ezabatuko da, eta mezua bidali edo jaso duen erabiltzaileak ikusgai izaten jarraituko du.';
 $string['deletemessagesdays'] = 'Mezu zaharrak automatikoki ezabatzeko egun-kopurua';
 $string['disableall'] = 'Desgaitu jakinarazpenak aldi baterako';
 $string['disableall_help'] = 'Tarte batez desgaitu egiten ditu jakinarazpen guztiak kudeatzaileak "behartuta" gisa ezarri dituenak izan ezik.';

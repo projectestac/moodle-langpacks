@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myprofile', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_myprofile', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   block_myprofile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,13 +38,13 @@ $string['display_institution'] = 'Visualitza institució';
 $string['display_lastaccess'] = 'Visualitza el darrer accés';
 $string['display_lastip'] = 'Visualitza la darrera IP';
 $string['display_msn'] = 'Visualitza MSN';
-$string['display_phone1'] = 'Visualitza el telefon número 1';
-$string['display_phone2'] = 'Visualitza el telefon número 2';
+$string['display_phone1'] = 'Mostra el telèfon';
+$string['display_phone2'] = 'Mostra el telèfon mòbil';
 $string['display_picture'] = 'Visualitza la imatge';
 $string['display_skype'] = 'Visualitza Skype';
 $string['display_un'] = 'Visualitza el nom';
 $string['display_yahoo'] = 'Visualitza Yahoo';
 $string['myprofile:addinstance'] = 'Afegeix un bloc nou d\'usuaris que han iniciat sessió';
-$string['myprofile:myaddinstance'] = 'Afegir un bloc nou d\'usuaris connectats a la pàgina «El meu Moodle»';
+$string['myprofile:myaddinstance'] = 'Afegeix un bloc nou d\'usuaris connectats a la pàgina del Tauler';
 $string['myprofile_settings'] = 'Informació de l\'usuari visible';
 $string['pluginname'] = 'L\'usuari ha iniciat sessió';

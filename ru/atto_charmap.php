@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_charmap', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'atto_charmap', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   atto_charmap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,7 +51,7 @@ $string['atilde_caps'] = 'A с тильдой';
 $string['backwarddifference'] = 'обратная разность';
 $string['beta'] = 'бета';
 $string['beta_caps'] = 'Бета';
-$string['blackclubsuit'] = 'крести';
+$string['blackclubsuit'] = 'трефы';
 $string['blackdiamondsuit'] = 'буби';
 $string['blackheartsuit'] = 'черви';
 $string['blackspadesuit'] = 'пики';
@@ -68,7 +68,7 @@ $string['circledplus'] = 'исключающее или';
 $string['circledtimes'] = 'тензорное произведение';
 $string['circumflexaccent'] = 'циркумфлекс ударение';
 $string['containsasmember'] = 'содержит';
-$string['copyrightsign'] = 'все права защищены';
+$string['copyrightsign'] = 'знак копирайта';
 $string['currencysign'] = 'знак валюты';
 $string['dagger'] = 'крестик';
 $string['degreesign'] = 'градус';
@@ -107,10 +107,10 @@ $string['eurosign'] = 'евро';
 $string['feminineordinalindicator'] = 'женский символ';
 $string['finalsigma'] = 'сигма в конце слова';
 $string['forall'] = 'для всех';
-$string['fractiononehalf'] = 'половина';
-$string['fractiononequarter'] = 'четверть';
+$string['fractiononehalf'] = 'одна вторая';
+$string['fractiononequarter'] = 'одна четвертая';
 $string['fractionslash'] = 'дробь';
-$string['fractionthreequarters'] = 'три черверти';
+$string['fractionthreequarters'] = 'три червертых';
 $string['functionflorin'] = 'функция';
 $string['gamma'] = 'гамма';
 $string['gamma_caps'] = 'Гамма';
@@ -176,8 +176,8 @@ $string['notanelementof'] = 'не входит в (не является эле�
 $string['notasubsetof'] = 'не является подмножеством';
 $string['notequalto'] = 'не равен';
 $string['notsign'] = 'не (отрицание)';
-$string['ntilde'] = 'n  с тильдой';
-$string['ntilde_caps'] = 'N  с тильдой';
+$string['ntilde'] = 'n с тильдой';
+$string['ntilde_caps'] = 'N с тильдой';
 $string['nu'] = 'ню';
 $string['nu_caps'] = 'Ню';
 $string['oacute'] = 'о с акутом';
@@ -199,9 +199,9 @@ $string['oslash_caps'] = 'O с чертой';
 $string['otilde'] = 'o с тильдой';
 $string['otilde_caps'] = 'O с тильдой';
 $string['overline'] = 'надчеркивание';
-$string['paragraphsign'] = 'символ параграфа';
+$string['paragraphsign'] = 'знак абзаца';
 $string['partialdifferential'] = 'частная производная';
-$string['permillesign'] = 'поомилле';
+$string['permillesign'] = 'промилле';
 $string['perpendicular'] = 'перпендикуляр';
 $string['phi'] = 'фи';
 $string['phi_caps'] = 'Фи';
@@ -216,7 +216,7 @@ $string['psi'] = 'пси';
 $string['psi_caps'] = 'Пси';
 $string['quotationmark'] = 'кавычка';
 $string['realpartsymbol'] = 'реальная часть';
-$string['registeredsign'] = 'знак "зарегистрировано"';
+$string['registeredsign'] = 'знак «зарегистрировано»';
 $string['rho'] = 'ро';
 $string['rho_caps'] = 'Ро';
 $string['rightceiling'] = 'справа вверху';
@@ -230,8 +230,8 @@ $string['rightwardsarrow'] = 'стрелка вправо';
 $string['rightwardsdoublearrow'] = 'двойная стрелка вправо';
 $string['scaron'] = 's с гачеком';
 $string['scaron_caps'] = 'S с гачеком';
-$string['secondsinches'] = 'секунды/ дюймы';
-$string['sectionsign'] = 'сечение';
+$string['secondsinches'] = 'секунды / дюймы';
+$string['sectionsign'] = 'знак параграфа';
 $string['sharpsesszed'] = 'острая s';
 $string['sigma'] = 'сигма';
 $string['sigma_caps'] = 'Сигма';

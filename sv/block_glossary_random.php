@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_glossary_random', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_glossary_random', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   block_glossary_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addentry'] = 'Lägg till dina egna favoritcitat!';
+$string['addentry'] = 'L&auml;gg till Dina egna favoritcitat!';
 $string['askaddentry'] = 'Om studenter/elever/deltagare/l&auml;rande har r&auml;tt att l&auml;gga till egna inl&auml;gg i ord- och begreppslistan s&aring; kommer en l&auml;nk till ord- och begreppslistan att visas i den f&ouml;ljande texten.';
 $string['askinvisible'] = 'Om Du vill d&ouml;lja den ursprungliga ord- och begreppslistan f&ouml;r studenterna/eleverna/deltagarna/de l&auml;rande s&aring; kommer ingen l&auml;nk att visas. Den f&ouml;ljande texten visas ist&auml;llet.';
 $string['askviewglossary'] = 'Om studenterna/eleverna/deltagarna/de l&auml;rande bara har r&auml;tt att se hela inneh&aring;llet i ord- och begreppslistan  s&aring; kommer en l&auml;nk till ord- och begreppslistan att visas i den f&ouml;ljande texten.';

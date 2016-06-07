@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'forum', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,7 +96,7 @@ $string['configcleanreadtime'] = 'Ältere Beiträge werden täglich zu dieser Ze
 $string['configdigestmailtime'] = 'Diese Option legt fest, wann die tägliche Zusammenfassung neuer Forumsbeiträge (Digest) erstellt und versendet wird.';
 $string['configdisplaymode'] = 'Standardanzeige für Themen, falls nichts eingestellt wurde.';
 $string['configenablerssfeeds'] = 'Diese Option aktiviert die Einstellmöglichkeit von RSS Feeds für alle Foren. Jedes Forum muss einzeln für RSS Feeds freigegeben werden.';
-$string['configenabletimedposts'] = 'Wenn diese Option aktiviert ist, dann lässt sich ein Zeitraum für Sichtbarkeit eines Forumsbeitrags festzulegen (experimentell und noch nicht umfassend getestet).';
+$string['configenabletimedposts'] = 'Wenn diese Option aktiviert ist, dann lässt sich ein Zeitraum für Sichtbarkeit eines Forumsbeitrags festzulegen.';
 $string['configlongpost'] = 'Jeder Beitrag wird als lang eingestuft, wenn er länger als diese Zeichenzahl ist (ohne Berücksichtigung der HTML-Codierung).';
 $string['configmanydiscussions'] = 'Anzahl von Themen pro Seite';
 $string['configmaxattachments'] = 'Voreinstellung für die Anzahl von Anhängen, die pro Beitrag in einem Forum erlaubt sind';
@@ -140,6 +140,9 @@ $string['discussionmovedpost'] = 'Dieses Thema wurde verschoben nach <a href="{$
 $string['discussionname'] = 'Thema';
 $string['discussionnownotsubscribed'] = '{$a->name} wird nicht benachrichtigt über neue Beiträge zu \'{$a->name}\' in \'{$a->forum}\'.';
 $string['discussionnowsubscribed'] = '{$a->name} wird benachrichtigt über neue Beiträge zu \'{$a->name}\' in \'{$a->forum}\'.';
+$string['discussionpin'] = 'Anpinnen';
+$string['discussionpinned'] = 'Angepinnt';
+$string['discussionpinned_help'] = 'Angepinnte Themen bleiben in der Themenliste des Forums immer exponiert am Anfang stehen.';
 $string['discussions'] = 'Themen';
 $string['discussionsstartedby'] = 'Themen begonnen von {$a}';
 $string['discussionsstartedbyrecent'] = 'Themen kürzlich begonnen von {$a}';
@@ -148,6 +151,7 @@ $string['discussionsubscribestart'] = 'Ich möchte neue Beiträge zu diesem Them
 $string['discussionsubscribestop'] = 'Ich möchte keine Mitteilungen zu diesem Thema erhalten.';
 $string['discussionsubscription'] = 'Themenabonnement';
 $string['discussionsubscription_help'] = 'Wenn Sie ein Thema abonnieren, bekommen Sie Mitteilungen über neue Beiträge zu diesem Thema.';
+$string['discussionunpin'] = 'Loslösen';
 $string['discussthistopic'] = 'Thema diskutieren';
 $string['displayend'] = 'Anzeigeende';
 $string['displayend_help'] = 'Die Einstellung legt fest, ob ein Forumsbeitrag nach einem bestimmten Datum verborgen werden soll. Beachten Sie, dass Admins die Beiträge immer sehen dürfen.';
@@ -188,8 +192,10 @@ $string['eventcoursesearched'] = 'Kurs durchsucht';
 $string['eventdiscussioncreated'] = 'Thema angelegt';
 $string['eventdiscussiondeleted'] = 'Thema gelöscht';
 $string['eventdiscussionmoved'] = 'Thema verschoben';
+$string['eventdiscussionpinned'] = 'Thema angepinnt';
 $string['eventdiscussionsubscriptioncreated'] = 'Themenabonnement angelegt';
 $string['eventdiscussionsubscriptiondeleted'] = 'Themenabonnement gelöscht';
+$string['eventdiscussionunpinned'] = 'Thema losgelöst';
 $string['eventdiscussionupdated'] = 'Thema aktualisiert';
 $string['eventdiscussionviewed'] = 'Thema angezeigt';
 $string['eventpostcreated'] = 'Beitrag angelegt';
@@ -231,6 +237,7 @@ $string['forumintro'] = 'Beschreibung';
 $string['forum:managesubscriptions'] = 'Abonnent/innen verwalten';
 $string['forum:movediscussions'] = 'Themen verschieben';
 $string['forumname'] = 'Forumsname';
+$string['forum:pindiscussions'] = 'Themen anpinnen';
 $string['forumposts'] = 'Forumsbeiträge';
 $string['forum:postwithoutthrottling'] = 'Keine Sperre bei zu vielen Beiträgen';
 $string['forum:rate'] = 'Beiträge bewerten';
@@ -275,7 +282,7 @@ $string['invalidpostid'] = 'Ungültige Beitrags-ID {$a}';
 $string['lastpost'] = 'Letzter Beitrag';
 $string['learningforums'] = 'Lernforen';
 $string['longpost'] = 'Langer Beitrag';
-$string['mailnow'] = 'Sofort als E-Mail';
+$string['mailnow'] = 'Mitteilungen zum Forumsbeitrag ohne Verzögerung senden';
 $string['manydiscussions'] = 'Themen pro Seite';
 $string['markalldread'] = 'Alle Beiträge dieser Diskussion als gelesen markieren';
 $string['markallread'] = 'Alle Beiträge in diesem Forum als gelesen markieren';
@@ -322,8 +329,8 @@ $string['mustprovidediscussionorpost'] = 'Für den Export müssen Sie entweder e
 $string['myprofileotherdis'] = 'Forumsthemen';
 $string['myprofileowndis'] = 'Meine Forumsthemen';
 $string['myprofileownpost'] = 'Meine Forumsbeiträge';
-$string['namenews'] = 'Nachrichtenforum';
-$string['namenews_help'] = 'Das Nachrichtenforum ist ein spezielles Forum für Ankündigungen, welches automatisch von Moodle in jedem Kurs und auch der Startseite generiert wird. Ausschließlich Trainer/innen und Administrator/innen dürfen im Nachrichtenforum schreiben. Pro Kurs kann es nur ein Nachrichtenforum geben. Im Block "Neue Nachrichten" werden die aktuelle Beiträge angezeigt. ';
+$string['namenews'] = 'Ankündigungen';
+$string['namenews_help'] = 'Das Ankündigungsforum ist ein Forum, das automatisch von Moodle in jedem Kurs und auch der Startseite generiert wird. Ausschließlich Trainer/innen und Administrator/innen dürfen im Ankündigungsforum schreiben. Pro Kurs kann es nur ein Ankündigungsforum geben. Im Block "Neuste Ankündigungen" werden die aktuelle Beiträge angezeigt.';
 $string['namesocial'] = 'Soziales Forum';
 $string['nameteacher'] = 'Trainerforum';
 $string['newforumposts'] = 'Neue Forumsbeiträge';
@@ -372,6 +379,7 @@ $string['page-mod-forum-view'] = 'Forumshauptseite';
 $string['page-mod-forum-x'] = 'Jede Forumsseite';
 $string['parent'] = 'Ursprungsbeitrag';
 $string['parentofthispost'] = 'Ursprungsbeitrag zum Beitrag';
+$string['permalink'] = 'Dauerlink';
 $string['pluginadministration'] = 'Forum-Administration';
 $string['pluginname'] = 'Forum';
 $string['postadded'] = '<p>Ihr Beitrag wurde erfolgreich hinzugefügt. </p><p>Wenn Sie etwas ändern möchten, haben Sie {$a} Zeit dafür.</p>';
@@ -384,9 +392,9 @@ $string['postincontext'] = 'Diskussion im Forum zeigen';
 $string['postmailinfo'] = 'Diese Mitteilung wurde auf der Webseite \'{$a}\' eingetragen.
 
 Über diesen Link können Sie eine Antwort schreiben:';
-$string['postmailinfolink'] = 'Dies ist eine Kopie einer Nachricht aus \'{$a->coursename}\'.
+$string['postmailinfolink'] = 'Diese Nachricht kommt aus dem Kurs \'{$a->coursename}\'.
 
-Um zu antworten, klicken Sie auf diesen Link: {$a->replylink}';
+Antworten Sie über diesen Link: {$a->replylink}';
 $string['postmailnow'] = 'Dieser Beitrag wird direkt als E-Mail an alle Abonnent/innen des Forums versendet.';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Nutzt Wissen über einzelne Fakten';
@@ -433,6 +441,7 @@ $string['rsstype'] = 'RSS Feed für dieses Forum';
 $string['rsstypedefault'] = 'RSS Feed Typ';
 $string['rsstype_help'] = 'Um RSS Feeds für diese Aktivität zu aktivieren, wählen SIe entweder Themen oder Beiträge für diesen Feed aus.';
 $string['search'] = 'Suche';
+$string['search:activity'] = 'Forum - Aktivitätsinformation';
 $string['searchdatefrom'] = 'Beiträge müssen neuer sein als';
 $string['searchdateto'] = 'Beiträge müssen älter sein als';
 $string['searchforumintro'] = 'Tragen Sie die Suchbegriffe in einem oder mehreren Feldern ein:';
@@ -441,6 +450,7 @@ $string['searchfullwords'] = 'Vollständige Wörter suchen';
 $string['searchnotwords'] = 'Wörter sollen NICHT im Suchergebnis vorkommen';
 $string['searcholderposts'] = 'Ältere Beiträge suchen...';
 $string['searchphrase'] = 'Dieser Text muss genau so im Beitrag vorkommen';
+$string['search:post'] = 'Forum - Beiträge';
 $string['searchresults'] = 'Suchergebnisse';
 $string['searchsubject'] = 'Wörter sollen im Betreff vorkommen';
 $string['searchuser'] = 'Name des Autors/der Autorin';
@@ -452,6 +462,7 @@ $string['shortpost'] = 'Kurzer Beitrag';
 $string['showsubscribers'] = 'Abonnentenliste';
 $string['singleforum'] = 'Diskussion zu einzelnem Thema';
 $string['smallmessage'] = '{$a->user} schrieb in {$a->forumname}';
+$string['smallmessagedigest'] = 'Die Forenzusammenfassung enthält {$a} Nachrichten';
 $string['startedby'] = 'Begonnen von';
 $string['subject'] = 'Betreff';
 $string['subscribe'] = 'Ich möchte das Forum abonnieren';

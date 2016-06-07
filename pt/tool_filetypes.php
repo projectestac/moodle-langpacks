@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_filetypes', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_filetypes', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_filetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,12 +47,12 @@ $string['descriptiontype_lang'] = 'String de idioma alternativa (a partir de mim
 $string['displaydescription'] = 'Descrição';
 $string['editfiletypes'] = 'Editar um tipo de ficheiro já existente';
 $string['emptylist'] = 'Não existem tipos de ficheiros definidos.';
-$string['error_addentry'] = 'A extensão do tipo de arquivo, descrição, <i>MIME type</i> e o ícone não devem conter espaço nem ponto-e-vírgula.';
+$string['error_addentry'] = 'A extensão do tipo de ficheiro, descrição, <i>MIME type</i> e o ícone não devem conter espaço nem ponto-e-vírgula.';
 $string['error_defaulticon'] = 'Outra extensão do ficheiro com o mesmo <i>MIME type</i> já está marcada como o ícone padrão.';
 $string['error_extension'] = 'O tipo de extensão do ficheiro <strong>{$a}</strong> já existe ou é inválido. As extensões de ficheiros devem ser únicas e não podem conter caracteres especiais.';
 $string['error_notfound'] = 'O tipo de ficheiro com a extensão {$a} não pode ser encontrado.';
 $string['extension'] = 'Extensão';
-$string['extension_help'] = 'Extensão de nome do arquivo sem o ponto, por exemplo, &lsquo;mobi&rsquo;';
+$string['extension_help'] = 'Extensão de nome do ficheiro sem o ponto, por exemplo, ‘mobi’';
 $string['groups'] = 'Grupos de tipos de ficheiro';
 $string['groups_help'] = 'Lista opcional de grupos de tipos de ficheiro a que este tipo de ficheiro pertence. Estas são categorias genéricas tais como &lsquo;documento&rsquo; and &lsquo;imagem&rsquo;.';
 $string['icon'] = 'Ficheiro de ícone';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   block
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,6 @@ $string['thisspecificpage'] = 'Orri zehatz hau';
 $string['undockall'] = 'Banatu guztia';
 $string['undockblock'] = 'Banatu {$a} blokea';
 $string['undockitem'] = 'Banatu elementu hau';
-$string['visible'] = 'Ikusteko moduan';
+$string['visible'] = 'Ikusgai';
 $string['weight'] = 'Pisua';
 $string['wherethisblockappears'] = 'Non agertuko den bloke hau';

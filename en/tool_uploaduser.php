@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_uploaduser', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['deleteerrors'] = 'Delete errors';
 $string['encoding'] = 'Encoding';
 $string['errormnetadd'] = 'Can not add remote users';
 $string['errors'] = 'Errors';
+$string['invaliduserdata'] = 'Invalid data detected for user {$a} and it has been automatically cleaned.';
 $string['nochanges'] = 'No changes';
 $string['pluginname'] = 'User upload';
 $string['renameerrors'] = 'Rename errors';

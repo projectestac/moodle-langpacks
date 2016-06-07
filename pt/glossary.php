@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'glossary', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,7 +40,7 @@ $string['allowcomments_help'] = 'Se ativar esta opção, todos os participantes 
 $string['allowduplicatedentries'] = 'Permitir termos repetidos';
 $string['allowduplicatedentries_help'] = 'Se ativar esta opção, o mesmo termo pode aparecer repetido no glossário.';
 $string['allowprintview'] = 'Permitir vista de impressão';
-$string['allowprintview_help'] = 'Se ativar esta opção, estará disponível para os alunos um link para uma versão para impressão do glossário. Este link está sempre disponível para os professores.';
+$string['allowprintview_help'] = 'Se ativar esta opção, estará disponível para os alunos uma hiperligação para uma versão para impressão do glossário. Esta hiperligação está sempre disponível para os professores.';
 $string['andmorenewentries'] = 'e mais {$a} novos termos';
 $string['answer'] = 'Resposta';
 $string['approvaldisplayformat'] = 'Formato de visualização durante aprovação';
@@ -125,10 +125,10 @@ $string['displayformatfullwithauthor'] = 'Completo com autor';
 $string['displayformatfullwithoutauthor'] = 'Completo sem autor';
 $string['displayformat_help'] = 'Existem sete formatos de visualização do glossário:
 
-* Simples, estilo dicionário - Os autores não são apresentados e os anexos são mostrados como links
+* Simples, estilo dicionário - Os autores não são apresentados e os anexos são mostrados como hiperligações
 * Contínuo sem autor - Os termos são exibidos sem qualquer tipo de separação além dos ícones de edição
-* Completo com autor - O glossário é exibido no formato de fórum identificando o autor e exibindo os anexos como links
-* Completo sem autor - O glossário é exibido no formato de fórum sem identificar o autor e exibindo os anexos como links
+* Completo com autor - O glossário é exibido no formato de fórum identificando o autor e exibindo os anexos como hiperligações
+* Completo sem autor - O glossário é exibido no formato de fórum sem identificar o autor e exibindo os anexos como hiperligações
 * Enciclopédia - Idêntico ao "Completo com autor", mas os anexos tipo imagem são exibidos como imagem
 * Lista de Termos - Os termos são listados como links
 * FAQ - As palavras PERGUNTA e RESPOSTA são juntas ao termo e definição, respetivamente';
@@ -154,7 +154,7 @@ $string['entryleveldefaultsettings'] = 'Configurações predefinidas para termos
 $string['entrysaved'] = 'Este termo foi gravado';
 $string['entryupdated'] = 'Este termo foi atualizado';
 $string['entryusedynalink'] = 'Criar automaticamente hiperligações para este termo';
-$string['entryusedynalink_help'] = 'Se ativar esta opção e as hiperligações automáticas do glossário estiverem ativadas pelo administrador, sempre que o termo surgir  em qualquer conteúdo da disciplina, o mesmo terá um link para a respetiva definição no glossário.';
+$string['entryusedynalink_help'] = 'Se ativar esta opção e as hiperligações automáticas do glossário estiverem ativadas pelo administrador, sempre que o termo surgir  em qualquer conteúdo da disciplina, o mesmo terá uma hiperligação para a respetiva definição no glossário.';
 $string['errcannoteditothers'] = 'Não pode editar os termos criados por outros participantes';
 $string['errconceptalreadyexists'] = 'Este termo já existe. Este glossário não permite termos repetidos.';
 $string['errdeltimeexpired'] = 'Não é possível apagar este termo. O tempo de edição expirou!';
@@ -186,7 +186,7 @@ $string['filetoimport_help'] = 'Procure o ficheiro XML no seu computador que con
 $string['fillfields'] = 'Os campos termo e descrição são obrigatórios.';
 $string['filtername'] = 'Hiperligações automáticas aos termos do glossário';
 $string['fullmatch'] = 'Localizar apenas Palavras inteiras';
-$string['fullmatch_help'] = 'Esta configuração define se apenas são inseridas hiperligações nas palavras que correspondam por inteiro ao termo. Por exemplo, se ativar esta opção para o termo "carro", não será criado um link dentro da palavra "autocarro".';
+$string['fullmatch_help'] = 'Esta configuração define se apenas são inseridas hiperligações nas palavras que correspondam por inteiro ao termo. Por exemplo, se ativar esta opção para o termo "carro", não será criada uma hiperligação dentro da palavra "autocarro".';
 $string['glossary:addinstance'] = 'Adicionar novo glossário';
 $string['glossary:approve'] = 'Aprovar e desaprovar entradas';
 $string['glossary:comment'] = 'Criar comentários';
@@ -217,7 +217,7 @@ $string['isglobal'] = 'Este glossário é global?';
 $string['isglobal_help'] = 'Um glossário global contém termos que geram hiperligações em todo o site e não apenas da disciplina em que se encontra inserido. Apenas os administradores podem configurar um glossário como global.';
 $string['letter'] = 'letra';
 $string['linkcategory'] = 'Criar hiperligações automáticas para esta categoria.';
-$string['linkcategory_help'] = 'Se ativar esta opção e o administrador tiver ativado as hiperligações automáticas para o glossário, sempre que uma categoria for referida no conteúdo da disciplina será inserido um link para a respetiva página "Consultar por categoria" do glossário.';
+$string['linkcategory_help'] = 'Se ativar esta opção e o administrador tiver ativado as hiperligações automáticas para o glossário, sempre que uma categoria for referida no conteúdo da disciplina será inserida uma hiperligação para a respetiva página "Consultar por categoria" do glossário.';
 $string['linking'] = 'Hiperligações automáticas';
 $string['mainglossary'] = 'Glossário principal';
 $string['maxtimehaspassed'] = 'Lamentamos, mas o tempo limite para editar este comentário ({$a}) expirou.';
@@ -274,13 +274,15 @@ $string['rssarticles_help'] = 'Defina o número de termos do glossário a public
 $string['rsssubscriberss'] = 'Mostrar a lista RSS para {$a} termos';
 $string['rsstype'] = 'Lista RSS para esta atividade';
 $string['rsstype_help'] = 'Para ativar listas RSS nesta atividade, selecione termos com autor ou termos sem autor a incluir na lista RSS.';
+$string['search:activity'] = 'Glossário - informações da atividade';
+$string['search:entry'] = 'Glossário - termos';
 $string['searchindefinition'] = 'Pesquisar texto completo';
 $string['secondaryglossary'] = 'Glossário secundário';
-$string['showall'] = 'Mostrar o link TODOS';
+$string['showall'] = 'Mostrar a hiperligação TODOS';
 $string['showall_help'] = 'Se ativar esta opção, os participantes podem consultar todos os termos de uma vez.';
 $string['showalphabet'] = 'Mostrar hiperligações para o alfabeto';
 $string['showalphabet_help'] = 'Se ativar esta opção, os participantes podem consultar os termos por letra inicial.';
-$string['showspecial'] = 'Mostrar o link Especial';
+$string['showspecial'] = 'Mostrar a hiperligação Especial';
 $string['showspecial_help'] = 'Se ativar esta opção, os participantes podem pesquisar os termos iniciados por caracteres especiais como @ e #.';
 $string['sortby'] = 'Ordenar por';
 $string['sortbycreation'] = 'Por data de criação';
@@ -291,7 +293,7 @@ $string['standardview'] = 'Consultar por alfabeto';
 $string['studentcanpost'] = 'Os alunos podem adicionar termos';
 $string['totalentries'] = 'Todos os termos';
 $string['usedynalink'] = 'Criar automaticamente hiperligações para o glossário';
-$string['usedynalink_help'] = 'Se ativar esta opção e os links automáticos para o glossário estiverem ativos pelo administrador, ao adicionar um novo termo poderá ativar a opção "Criar automaticamente hiperligações para este termo" para que todas as ocorrências do termo nos conteúdos da disciplina tenham uma hiperligação para a respetiva definição no glossário.';
+$string['usedynalink_help'] = 'Se ativar esta opção e as hiperligações automáticas para o glossário estiverem ativas pelo administrador, ao adicionar um novo termo poderá ativar a opção "Criar automaticamente hiperligações para este termo" para que todas as ocorrências do termo nos conteúdos da disciplina tenham uma hiperligação para a respetiva definição no glossário.';
 $string['visibletabs'] = 'Separadores visíveis';
 $string['waitingapproval'] = 'A aguardar aprovação';
 $string['warningstudentcapost'] = '(Aplica-se apenas se o glossário não for o principal)';

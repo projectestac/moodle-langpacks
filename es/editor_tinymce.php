@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'editor_tinymce', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -711,6 +711,7 @@ $string['style_dlg:top'] = 'Arriba';
 $string['style_dlg:visibility'] = 'Visibilidad';
 $string['style_dlg:width'] = 'Ancho';
 $string['style_dlg:zindex'] = 'Z-index';
+$string['subplugintype_tinymce'] = 'Complemento';
 $string['subplugintype_tinymce_plural'] = 'Extensiones';
 $string['table:cell'] = 'Celda';
 $string['table:cell_desc'] = 'Propiedades de la celda';

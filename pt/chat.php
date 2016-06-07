@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'chat', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -124,6 +124,7 @@ $string['repeattimes'] = 'Repetir/publicar horário das sessões';
 $string['repeatweekly'] = 'Todas as semanas à mesma hora';
 $string['saidto'] = 'disse a';
 $string['savemessages'] = 'Manter gravação de sessões anteriores durante';
+$string['search:activity'] = 'Chat - informações da atividade';
 $string['seesession'] = 'Ver sessão';
 $string['send'] = 'Enviar';
 $string['sending'] = 'A enviar';
@@ -143,7 +144,7 @@ $string['userlist'] = 'Lista de utilizadores';
 $string['usingchat'] = 'A usar o chat';
 $string['usingchat_help'] = 'O módulo de chat inclui algumas caraterísticas para tornar o chat mais agradável.
 * Ícones expressivos - Qualquer ícone expressivo (emoticon) que pode usar noutras partes do Moodle pode ser usada também aqui e será substituída pela imagem correspondente. Por exemplo, :-)
-* Links - Os endereços da Web serão transformados automaticamente em links.
+* Hiperligações - Os endereços da Web serão transformados automaticamente em hiperligações.
 * Personalização - Pode começar uma linha com "/me" ou ":" para personalizar a mensagem. Por exemplo, se o seu nome for Joaquim, e escrever ":sorriu!" ou "/me sorri!", todos os outros participantes verão "Joaquim sorriu!"
 * Beeps - Pode enviar um som a os outros participantes clicando em "chamar" junto dos seus nomes. Um atalho útil para chamar todos os participantes consiste em escrever "beep all".
 * HTML - Se souber algum código HTML, poderá usá-lo no seu texto para fazer coisas como, por exemplo, inserir imagens, tocar sons, ou enviar texto com cores diferentes.';

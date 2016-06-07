@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'survey', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -239,6 +239,7 @@ $string['savednotes'] = 'Zure oharrak gorde dira';
 $string['scaleagree5'] = 'Erabat aurka,Aurka,Ez ados ez aurka,Ados,Erabat ados';
 $string['scales'] = 'Eskalak';
 $string['scaletimes5'] = 'Ia inoiz ez,Oso gutxitan,Batzuetan,Sarritan,Ia beti';
+$string['search:activity'] = 'Hausnarketa - jardueraren informazioa';
 $string['seemoredetail'] = 'Klik egin hemen xehetasun gehiago ikusteko';
 $string['selectedquestions'] = 'Eskala batetik aukeratutako galderak, ikasle guztiak';
 $string['summary'] = 'Laburpena';

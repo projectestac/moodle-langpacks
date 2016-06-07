@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'sv', branch 'MOODLE_30_STABLE'
+ * Strings for component 'question', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -343,8 +343,6 @@ $string['numqas'] = 'Inga frågeförsök';
 $string['numquestions'] = 'Inga frågor';
 $string['numquestionsandhidden'] = '{$a->numquestions} (+{$a->numhidden} hidden)';
 $string['options'] = 'Alternativ';
-$string['orphanedquestionscategory'] = 'Frågor sparade från borttagna kategorier';
-$string['orphanedquestionscategoryinfo'] = 'Ibland, oftast på grund av gamla programvarufel kan frågor finnas kvar i databasen trots att motsvarande frågekategori har tagits bort. Naturligtvis bör detta inte ske, men det har hänt tidigare på denna webbplats. Denna kategori har skapats automatiskt och frågor som saknar kategori flyttades hit så att du kan hantera dem. Observera att alla bilder eller mediafiler som används av dessa frågor har förmodligen har gått förlorade.';
 $string['page-question-category'] = 'Frågekategori sida.';
 $string['page-question-edit'] = 'Fråge redigeringssida';
 $string['page-question-export'] = 'Fråge exportsida';

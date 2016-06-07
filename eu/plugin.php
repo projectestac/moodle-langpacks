@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'eu', branch 'MOODLE_30_STABLE'
+ * Strings for component 'plugin', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,12 +27,19 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actions'] = 'Ekintzak';
 $string['availability'] = 'Eskuragarritasuna';
+$string['cancelinstallall'] = 'Utzi bertan behera instalazio berriak ({$a})';
+$string['cancelinstallhead'] = 'Plugin-instalazioa bertan behera uzten';
+$string['cancelinstallinfodir'] = 'Ezabatzeko karpeta: {$a}';
+$string['cancelinstallone'] = 'Utzi bertan behera instalazio hau';
+$string['cancelupgradeall'] = 'Utzi bertan behera eguneraketak ({$a})';
+$string['cancelupgradeone'] = 'Utzi bertan behera eguneraketa hau';
 $string['checkforupdates'] = 'Egiaztatu zein eguneraketa dagoen eskuragarri';
 $string['checkforupdateslast'] = 'Egindako azken egiaztatzea: {$a}';
 $string['dependencyavailable'] = 'Eskuragarri';
 $string['dependencyinstall'] = 'Instalatu';
 $string['dependencymissing'] = 'Falta da';
 $string['dependencyupload'] = 'Igo';
+$string['dependencyuploadmissing'] = 'Igo ZIP fitxategiak';
 $string['detectedmisplacedplugin'] = '"{$a->component}" plugina kokapen okerrean "{$a->current}" instalatu da. Hemen behar luke: "{$a->expected}"';
 $string['displayname'] = 'Pluginaren izena';
 $string['err_response_curl'] = 'Ezin izan da eguneraketarik eskuratu - espero ez zen cURL errorea.';
@@ -49,6 +56,7 @@ $string['notwritable'] = 'Pluginaren fitxategiak ezin dira idatzi';
 $string['otherplugin'] = '{$a->component}';
 $string['otherpluginversion'] = '{$a->component} ({$a->version})';
 $string['overviewall'] = 'Plugin guztiak';
+$string['overviewupdatable'] = 'Eskura dauden eguneraketak';
 $string['packagesdownloading'] = '{$a} jaisten';
 $string['plugincheckall'] = 'Plugin guztiak';
 $string['plugindisable'] = 'Desgaitu';
@@ -71,6 +79,7 @@ $string['status_new'] = 'Instalatu egingo da';
 $string['status_nodb'] = 'Ez dago datu-baserik';
 $string['status_upgrade'] = 'Eguneratu egingo da';
 $string['status_uptodate'] = 'Instalatuta';
+$string['supportedmoodleversions'] = 'Onartutako Moodle bertsioak';
 $string['systemname'] = 'Identifikatzailea';
 $string['type_auth'] = 'Autentifikazio-metodoa';
 $string['type_auth_plural'] = 'Autentifikazio-pluginak';

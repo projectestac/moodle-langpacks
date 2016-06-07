@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'scorm', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -126,6 +126,8 @@ $string['eventattemptdeleted'] = 'Versuch gelöscht';
 $string['eventinteractionsviewed'] = 'Interaktionen angezeigt';
 $string['eventreportviewed'] = 'Bericht angezeigt';
 $string['eventscolaunched'] = 'Sco gestartet';
+$string['eventscorerawsubmitted'] = 'Übermittelte Punktzahl des Lernpakets';
+$string['eventstatussubmitted'] = 'Übermittelter Status des Lernpakets';
 $string['eventtracksviewed'] = 'Tracks angezeigt';
 $string['eventuserreportviewed'] = 'Nutzerbericht angezeigt';
 $string['everyday'] = 'Jeden Tag';
@@ -202,6 +204,8 @@ $string['lastattemptlock'] = 'Nach letztem Versuch sperren';
 $string['lastattemptlockdesc'] = 'Diese Option legt fest, ob die Aktivität nach letztem Versuch für weitere Versuche gesperrt wird';
 $string['lastattemptlock_help'] = 'Diese Option legt fest, ob Teilnehmer/innen nach dem Erreichen der Anzahl zulässiger Versuche weiter auf das Lernpaket zugreifen können oder ob der Zugriff zum Lernpaket nach dem letzten zulässigen Versuch gesperrt wird. Dazu muss ein Wert für die Anzahl der Versuche angegeben sein.';
 $string['location'] = 'Adresse anzeigen';
+$string['masteryoverride'] = 'Status für die Punktzahlüberschreibung zum Bestehen';
+$string['masteryoverridedesc'] = 'Diese Einstellung legt die Vorgabe für die Punktzahl zum Bestehen fest.';
 $string['max'] = 'Höchstpunktzahl';
 $string['maximumattempts'] = 'Zahl der Versuche';
 $string['maximumattemptsdesc'] = 'Diese Einstellung legt die maximale Anzahl von Versuchen für eine Aktivität fest';
@@ -321,6 +325,7 @@ $string['scormtype_help'] = 'Diese Einstellung legt fest, wie das Lernpaket in d
 $string['scorm:viewreport'] = 'Berichte sehen';
 $string['scorm:viewscores'] = 'Bewertungen sehen';
 $string['scrollbars'] = 'Scrollfunktion im Fenster bereitstellen';
+$string['search:activity'] = 'Lernpaket - Aktivitätsinformation';
 $string['selectall'] = 'Alles auswählen';
 $string['selectnone'] = 'Alles abwählen';
 $string['show'] = 'Zeigen';

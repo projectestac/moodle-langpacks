@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_generator', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tool_generator', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_generator
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['bigfile'] = 'Große Datei {$a}';
-$string['courseexplanation'] = 'Dieses Werkzeug erzeugt Standardtestkurse mit mehreren Themenabschnitten, Aktivitäten und Dateien.
+$string['courseexplanation'] = 'Dieses Werkzeug erzeugt Standardtestkurse mit mehreren Abschnitten, Aktivitäten und Dateien.
 
 Damit wird ein standardisiertes Werkzeug zur Messung der Verlässlichkeit und Performance verschiedener Systemkomponenten geschaffen (z.B. Backup und Wiederherstellung).
 

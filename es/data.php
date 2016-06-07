@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'data', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addtemplate'] = 'Plantilla para añadir entrada';
 $string['advancedsearch'] = 'Búsqueda avanzada';
 $string['allowcomments'] = 'Permitir comentar las entradas';
 $string['alttext'] = 'Texto alternativo';
+$string['approvalstatus'] = 'Estado de aprobación';
 $string['approve'] = 'Aprobar';
 $string['approved'] = 'Aprobado';
 $string['areacontent'] = 'Campos';
@@ -135,6 +136,7 @@ $string['deletenotenrolled'] = 'Eliminar entradas de usuarios no matriculados';
 $string['deletewarning'] = '¿Está seguro de que desea eliminar estos ajustes previos?';
 $string['descending'] = 'Descendente';
 $string['directorynotapreset'] = '{$a->directory} No preset: archivos perdidos: {$a->missing_files}';
+$string['disapprove'] = 'Desaprobar';
 $string['download'] = 'Descargar';
 $string['edit'] = 'Edición';
 $string['editcomment'] = 'Editar comentario';
@@ -244,6 +246,8 @@ $string['latlongotherfields'] = 'Otros campos';
 $string['list'] = 'Ver lista';
 $string['listtemplate'] = 'Plantilla de lista';
 $string['longitude'] = 'Longitud';
+$string['manageapproved'] = 'Permitir editar las entradas aprobadas';
+$string['manageapproved_help'] = 'Si se deshabilita, las entradas aprobadas no pueden ser editadas o borradas por el usuario que las creó. Esta opción sólo tiene efecto si la opción "¿Se requiere aprobación?" está habilitada.';
 $string['mapexistingfield'] = 'Apunta a {$a}';
 $string['mapnewfield'] = 'Crear un nuevo campo';
 $string['mappingwarning'] = 'Todos los campos viejos no mapeados a un nuevo campo se perderán y todos los datos de dichos campos quedarán eliminados.';
@@ -334,7 +338,7 @@ $string['recordsnotsaved'] = 'No se ha guardado ninguna entrada. Por favor, comp
 $string['recordssaved'] = 'entradas guardadas';
 $string['requireapproval'] = 'Aprobación requerida';
 $string['requireapproval_help'] = '<p>¿Debería un profesor aprobar las entradas antes de que los estudiantes puedan verlas? Esta opción es útil para moderar el contenido que potencialmente pudiera resultar ofensivo o inadecuado.</p>';
-$string['required'] = 'Requerido';
+$string['required'] = 'Obligatorio';
 $string['requiredentries'] = 'Entradas requeridas';
 $string['requiredentries_help'] = '<p>Número de entradas que se exige enviar a cada participante.
    Los usuarios verán un mensaje recordatorio que les informa si no han enviado el número de entradas exigido.</p>

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multianswer', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_multianswer', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_multianswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,8 +41,8 @@ $string['pleaseananswerallparts'] = 'Merci de répondre à tous les éléments d
 $string['pluginname'] = 'Question Cloze';
 $string['pluginnameadding'] = 'Ajout d\'une question Cloze';
 $string['pluginnameediting'] = 'Modification d\'une question Cloze';
-$string['pluginname_help'] = 'Les questions à réponses intégrées (Cloze) sont formées d\'un texte au sein duquel dont inclues des questions à choix multiples et des questions à réponse courte.';
-$string['pluginnamesummary'] = 'Les questions de ce type sont très flexibles, mais ne peuvent être créées qu\'en tapant du texte suivant un format particulier avec des codes spécifiques qui crééent des questions à choix multiples, des questions à réponses courtes et des questions numériques intégrées.';
+$string['pluginname_help'] = 'Les questions à réponses intégrées (Cloze) sont formées d\'un texte au sein duquel dont inclues des questions à choix multiple et des questions à réponse courte.';
+$string['pluginnamesummary'] = 'Les questions de ce type sont très flexibles, mais ne peuvent être créées qu\'en tapant du texte suivant un format particulier avec des codes spécifiques qui crééent des questions à choix multiple, des questions à réponses courtes et des questions numériques intégrées.';
 $string['qtypenotrecognized'] = 'Le type de question {$a} est inconnu';
 $string['questiondefinition'] = 'Définition de question';
 $string['questiondeleted'] = 'Question supprimée';
@@ -55,7 +55,7 @@ $string['questionnotfound'] = 'Impossible de trouver la partie {$a} de la questi
 $string['questionsadded'] = 'Question ajoutée';
 $string['questionsaveasedited'] = 'La question sera enregistrée comme modifiée';
 $string['questionsless'] = '{$a} question(s) de moins que dans la question à réponses multiples enregistrée dans la base de données';
-$string['questionsmissing'] = 'La question doit comporter au moins une réponse incorporée.';
+$string['questionsmissing'] = 'La question doit comporter au moins une réponse intégrée.';
 $string['questionsmore'] = '{$a} question(s) de plus que dans la question à réponses multiples enregistrée dans la base de données';
 $string['questiontypechanged'] = 'Type de question modifié';
 $string['questiontypechangedcomment'] = 'Au moins un type de question a été modifié.<br />Avez-vous ajouté, supprimé ou déplacé une question ?<br />Veuillez vérifier.';

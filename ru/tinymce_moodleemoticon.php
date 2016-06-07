@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_moodleemoticon', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tinymce_moodleemoticon', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   tinymce_moodleemoticon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,4 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['moodleemoticon:desc'] = 'Вставить смайлик';
 $string['pluginname'] = 'Вставить смайлик';
 $string['requireemoticon'] = 'Требуется фильтр смайликов';
-$string['requireemoticon_desc'] = 'При включенном параметре кнопка смайликов видна только тогда, когда в редакторе разрешен фильтр смайликов.';
+$string['requireemoticon_desc'] = 'При включении этого параметра кнопка смайликов будет видна только тогда, когда в контексте, где используется редактор, включен фильтр смайликов.';

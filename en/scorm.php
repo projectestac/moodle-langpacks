@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'scorm', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -125,6 +125,8 @@ $string['eventattemptdeleted'] = 'Attempt deleted';
 $string['eventinteractionsviewed'] = 'Interactions viewed';
 $string['eventreportviewed'] = 'Report viewed';
 $string['eventscolaunched'] = 'Sco launched';
+$string['eventscorerawsubmitted'] = 'Submitted SCORM raw score';
+$string['eventstatussubmitted'] = 'Submitted SCORM status';
 $string['eventtracksviewed'] = 'Tracks viewed';
 $string['eventuserreportviewed'] = 'User report viewed';
 $string['everyday'] = 'Every day';
@@ -203,6 +205,9 @@ $string['lastattemptlock'] = 'Lock after final attempt';
 $string['lastattemptlockdesc'] = 'If enabled, a student is prevented from launching the SCORM player after using up all their allocated attempts.';
 $string['lastattemptlock_help'] = 'If enabled, a student is prevented from launching the SCORM player after using up all their allocated attempts.';
 $string['location'] = 'Show the location bar';
+$string['masteryoverride'] = 'Mastery score overrides status';
+$string['masteryoverridedesc'] = 'This preference sets the default for the mastery score override setting';
+$string['masteryoverride_help'] = 'If enabled and a mastery score is provided, when LMSFinish is called and a raw score has been set, status will be recalculated using the raw score and mastery score and any status provided by the SCORM (including "incomplete") will be overridden.';
 $string['max'] = 'Max score';
 $string['maximumattempts'] = 'Number of attempts';
 $string['maximumattemptsdesc'] = 'This preference sets the default maximum attempts for an activity';
@@ -328,6 +333,7 @@ $string['scormtype_help'] = 'This setting determines how the package is included
 $string['scorm:viewreport'] = 'View reports';
 $string['scorm:viewscores'] = 'View scores';
 $string['scrollbars'] = 'Allow the window to be scrolled';
+$string['search:activity'] = 'SCORM package - activity information';
 $string['selectall'] = 'Select all';
 $string['selectnone'] = 'Deselect all';
 $string['show'] = 'Show';

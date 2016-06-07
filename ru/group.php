@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'group', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -76,7 +76,7 @@ $string['eventgroupdeleted'] = 'Группа удалена';
 $string['eventgroupingcreated'] = 'Поток создан';
 $string['eventgroupingdeleted'] = 'Поток удален';
 $string['eventgroupingupdated'] = 'Поток обновлен';
-$string['eventgroupmemberadded'] = 'Добавлен член группы';
+$string['eventgroupmemberadded'] = 'Член группы добавлен';
 $string['eventgroupmemberremoved'] = 'Член группы удален';
 $string['eventgroupupdated'] = 'Группа обновлена';
 $string['existingmembers'] = 'Существующие участники: {$a}';

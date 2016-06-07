@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_mnet', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'enrol_mnet', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,5 +36,5 @@ $string['pluginname_desc'] = 'Позволяет внешним сайтам с�
 $string['remotesubscriber'] = 'Внешний сайт';
 $string['remotesubscriber_help'] = 'Выберите «Все сайты», чтобы открыть этот курс для всех серверов MNet, предлагая услугу записи на курсы для внешних пользователей. Или выберите один сайт, чтобы сделать этот курс доступным только для его пользователей.';
 $string['remotesubscribersall'] = 'Все сайты';
-$string['roleforremoteusers'] = 'Роль для их пользователей';
+$string['roleforremoteusers'] = 'Роль для внешних пользователей';
 $string['roleforremoteusers_help'] = 'Эту роль получит внешний пользователь перешедший с выбранного сайта.';

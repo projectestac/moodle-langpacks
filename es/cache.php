@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'cache', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['area'] = 'Área';
 $string['cacheadmin'] = 'Administración de caché';
 $string['cacheconfig'] = 'Configuración';
 $string['cachedef_calendar_subscriptions'] = 'Suscripciones al calendario';
+$string['cachedef_capabilities'] = 'Listado de prestaciones del sistema';
 $string['cachedef_completion'] = 'Estado de finalización de la actividad';
 $string['cachedef_config'] = 'Ajustes de configuración';
 $string['cachedef_coursecat'] = 'Listas de categorías de cursos para un usuario en particular';
@@ -51,6 +52,7 @@ $string['cachedef_langmenu'] = 'Lista de idiomas disponibles';
 $string['cachedef_locking'] = 'Bloqueando';
 $string['cachedef_navigation_expandcourse'] = 'Cursos expandibles en la navegación';
 $string['cachedef_observers'] = 'Observadores del evento';
+$string['cachedef_plugin_functions'] = 'Llamadas de retorno disponibles de Plugins';
 $string['cachedef_plugin_manager'] = 'Gestor de información del plugin';
 $string['cachedef_questiondata'] = 'Definiciones de preguntas';
 $string['cachedef_repositories'] = 'Datos de repositorios';
@@ -83,7 +85,7 @@ $string['deletestorehasmappings'] = 'Usted no puede eliminar este almacén porqu
 $string['deletestoresuccess'] = 'Se eliminó exitosamente el almacén de caché';
 $string['editdefinitionmappings'] = 'Mapeos de almacén definiciones
 {$a}';
-$string['editdefinitionsharing'] = 'Editar la definición de compartición para {a}';
+$string['editdefinitionsharing'] = 'Editar la definición de compartición para {$a}';
 $string['editmappings'] = 'Editar mapeos';
 $string['editsharing'] = 'Editar compartir';
 $string['editstore'] = 'Editar almacén';

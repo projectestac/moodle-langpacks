@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_openclosedate', language 'zh_cn', branch 'MOODLE_30_STABLE'
+ * Strings for component 'quizaccess_openclosedate', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   quizaccess_openclosedate
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['notavailable'] = '此测验现在不可用';
+$string['pluginname'] = '开放和关闭日期的测验访问规则';
 $string['quiznotavailable'] = '测验将开放于：{$a}';

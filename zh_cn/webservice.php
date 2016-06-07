@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'zh_cn', branch 'MOODLE_30_STABLE'
+ * Strings for component 'webservice', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,6 @@ $string['addrequiredcapability'] = '分配/取消必备的权限';
 $string['addservice'] = '添加新服务：{$a->name}（id：{$a->id}）';
 $string['addservicefunction'] = '向服务“{$a}”添加函数';
 $string['allusers'] = '所有用户';
-$string['amftestclient'] = 'AMF 测试客户端';
 $string['apiexplorer'] = 'API 浏览器';
 $string['apiexplorernotavalaible'] = 'API 浏览器还不可用。';
 $string['arguments'] = '参数';

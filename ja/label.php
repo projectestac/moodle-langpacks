@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'ja', branch 'MOODLE_30_STABLE'
+ * Strings for component 'label', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configdndmedia'] = 'メディアファイルがコースにドラッグ＆ドロップされた場合、ラベル作成を提案します。';
+$string['configdndmedia'] = 'メディアファイルがコースにドラッグ＆ドロップされた時にラベル作成を提案します。';
 $string['configdndresizeheight'] = 'イメージのドラッグ＆ドロップによるラベル作成時、ここで指定したピクセルよりも高さが大きい場合、リサイズします (0 = リサイズなし)。';
 $string['configdndresizewidth'] = 'イメージのドラッグ＆ドロップによるラベル作成時、ここで指定したピクセルよりも幅が大きい場合、リサイズします (0 = リサイズなし)。';
 $string['dndmedia'] = 'メディアドラッグ＆ドロップ';
@@ -36,7 +36,7 @@ $string['dnduploadlabeltext'] = 'コースページにラベルを追加する';
 $string['label:addinstance'] = '新しいラベルを追加する';
 $string['labeltext'] = 'ラベルテキスト';
 $string['modulename'] = 'ラベル';
-$string['modulename_help'] = 'ラベルモジュールでは、テキストおよびマルチメディアをコース内の活動リンク間に入れることができます。ラベルは非常に多目的であり、良く考えて使用された場合、コースアピアランスの改善に役立ちます。
+$string['modulename_help'] = 'ラベルモジュールではテキストおよびマルチメディアをコース内の活動リンク間に入れることができます。ラベルは非常に多目的であり、良く考えて使用される場合、コースアピアランスの改善に役立ちます。
 
 ラベルは下記のように使用することができます:
 
@@ -46,3 +46,4 @@ $string['modulename_help'] = 'ラベルモジュールでは、テキストお�
 $string['modulenameplural'] = 'ラベル';
 $string['pluginadministration'] = 'ラベル管理';
 $string['pluginname'] = 'ラベル';
+$string['search:activity'] = 'ラベル';

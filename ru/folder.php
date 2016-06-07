@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'ru', branch 'MOODLE_30_STABLE'
+ * Strings for component 'folder', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   folder
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,5 +50,6 @@ $string['page-mod-folder-view'] = 'Главная страница модуля 
 $string['page-mod-folder-x'] = 'Любая страница модуля «Папка»';
 $string['pluginadministration'] = 'Управление папкой';
 $string['pluginname'] = 'Папка';
+$string['search:activity'] = 'Папка';
 $string['showexpanded'] = 'Вложенные папки отображать развернутыми';
 $string['showexpanded_help'] = 'При включенном параметре по умолчанию вложенные папки будут отображаться  развернутыми. В противном случае вложенные папки будут отображаться свернутыми.';

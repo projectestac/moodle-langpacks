@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_grouping', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'availability_grouping', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   availability_grouping
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['description'] = 'Nur für Teilnehmer/innen einer Gruppe in einer ausgewählten Gruppierung zulassen.';
+$string['description'] = 'Zugriff für Mitglieder einer Gruppe in einer ausgewählten Gruppierung erlauben';
 $string['error_selectgrouping'] = 'Sie müssen eine Gruppierung auswählen.';
 $string['missing'] = '(Fehlende Gruppierung)';
 $string['pluginname'] = 'Voraussetzung: Gruppierung';
-$string['requires_grouping'] = 'Sie gehören zur Gruppierung <strong>{$a}</strong>.';
-$string['requires_notgrouping'] = 'Sie gehören nicht zur Gruppierung <strong>{$a}</strong>.';
+$string['requires_grouping'] = 'Sie gehören zu einer Gruppe in <strong>{$a}</strong>.';
+$string['requires_notgrouping'] = 'Sie gehören nicht zu einer Gruppe in <strong>{$a}</strong>.';
 $string['title'] = 'Gruppierung';

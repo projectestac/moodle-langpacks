@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_numerical', language 'ca', branch 'MOODLE_30_STABLE'
+ * Strings for component 'qtype_numerical', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_numerical
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -76,7 +76,7 @@ $string['studentunitanswer'] = 'Les unitats s\'introdueixen usant';
 $string['tolerancetype'] = 'Tipus de tolerància';
 $string['unit'] = 'Unitat';
 $string['unitappliedpenalty'] = 'Aquests valors inclouen una penalització de {$a} per tenir malament la unitat.';
-$string['unitchoice'] = 'una selecció múltiple';
+$string['unitchoice'] = 'una selecció d\'opció múltiple';
 $string['unitedit'] = 'Edita la unitat';
 $string['unitgraded'] = 'Cal introduir la unitat, i aquesta es qualificarà.';
 $string['unithandling'] = 'Tractament de les unitats';

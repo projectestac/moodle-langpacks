@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'resource', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,13 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['clicktodownload'] = 'Clique no link {$a} para descarregar o ficheiro.';
-$string['clicktoopen2'] = 'Clique no link {$a} para ver o ficheiro.';
+$string['clicktodownload'] = 'Clique na hiperligação {$a} para descarregar o ficheiro.';
+$string['clicktoopen2'] = 'Clique na hiperligação {$a} para ver o ficheiro.';
 $string['configdisplayoptions'] = 'Selecione todas as opções que devem estar disponíveis, as definições existentes não serão alteradas. Prima a tecla CTRL para selecionar múltiplas opções.';
 $string['configframesize'] = 'Quando uma página web ou um ficheiro são visualizados numa frame, este valor corresponde à altura (em pixeis) da frame superior (que contém a navegação).';
 $string['configparametersettings'] = 'Esta opção define o valor predefinido que é introduzido no painel de configuração de parâmetros quando adiciona um novo recurso. Depois da primeira vez, este valor é substituído pelas preferências individuais do utilizador.';
 $string['configpopup'] = 'Quando se adiciona um recurso que pode ser apresentado numa nova janela, deve ser essa a opção predefinida?';
-$string['configpopupdirectories'] = 'Devem as janelas de pop-up apresentar links para as pastas por predefinição?';
+$string['configpopupdirectories'] = 'Devem as janelas de pop-up apresentar hiperligações para as pastas por predefinição?';
 $string['configpopupheight'] = 'Qual deve ser a altura predefinida para as janelas de pop-up?';
 $string['configpopuplocation'] = 'Devem as janelas de pop-up apresentar, por predefinição, a barra de endereço?';
 $string['configpopupmenubar'] = 'Devem as janelas de pop-up apresentar, por predefinição, a barra de menus?';
@@ -104,18 +104,19 @@ $string['resourcedetails_sizetypedate'] = '{$a->size} {$a->type} {$a->date}';
 $string['resourcedetails_typedate'] = '{$a->type} {$a->date}';
 $string['resource:exportresource'] = 'Exportar recurso';
 $string['resource:view'] = 'Ver recurso';
+$string['search:activity'] = 'Ficheiro';
 $string['selectmainfile'] = 'Selecione o ficheiro principal clicando no ícone ao lado do nome do ficheiro.';
 $string['showdate'] = 'Exibir data de carregamento/data de modificação';
 $string['showdate_desc'] = 'Pretende exibir a data de carregamento/data de modificação na página da disciplina?';
 $string['showdate_help'] = 'Exibir a data de carregamento/data de modificação ao lado das hiperligações para os ficheiros.';
 $string['showsize'] = 'Mostrar tamanho';
 $string['showsize_desc'] = 'Mostrar tamanho do ficheiro na página principal da disciplina?';
-$string['showsize_help'] = 'Mostra o tamanho do ficheiro, como  \'3.1 MB\', junto ao link para o ficheiro.
+$string['showsize_help'] = 'Mostra o tamanho do ficheiro, como  \'3.1 MB\', junto à hiperligação para o ficheiro.
 
-Se existerem mais que um ficheiro no recurso, é exibido o tamanho total dos ficheiros.';
+Se existirem mais que um ficheiro no recurso, é exibido o tamanho total dos ficheiros.';
 $string['showtype'] = 'Mostrar tipo';
 $string['showtype_desc'] = 'Mostrar o tipo do ficheiro (ex. \'Word\') na página principal da disciplina?';
-$string['showtype_help'] = 'Mostra a extensão do ficheiro, como \'Word\', junto ao link para o ficheiro.
+$string['showtype_help'] = 'Mostra a extensão do ficheiro, como \'Word\', junto à hiperligação para o ficheiro.
 
 Se existirem vários ficheiros neste recurso, é exibido o tipo do ficheiro principal.
 

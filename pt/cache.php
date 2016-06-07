@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'pt', branch 'MOODLE_30_STABLE'
+ * Strings for component 'cache', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,6 +46,7 @@ $string['cachedef_coursemodinfo'] = 'Informação acumulada sobre módulos e sec
 $string['cachedef_databasemeta'] = 'Meta-informação da base de dados';
 $string['cachedef_eventinvalidation'] = 'Invalidação de evento';
 $string['cachedef_externalbadges'] = 'Medalhas externas para um utilizador em particular';
+$string['cachedef_grade_categories'] = 'Consultas às categorias de avaliação';
 $string['cachedef_groupdata'] = 'Informação de grupos da disciplina';
 $string['cachedef_htmlpurifier'] = 'Purificador HTML - conteúdo limpo';
 $string['cachedef_langmenu'] = 'Lista de idiomas disponíveis';
@@ -53,11 +54,14 @@ $string['cachedef_locking'] = 'Bloqueio';
 $string['cachedef_navigation_expandcourse'] = 'Disciplinas expansíveis no bloco Navegação';
 $string['cachedef_observers'] = 'Observadores de eventos';
 $string['cachedef_plugin_functions'] = 'Callbacks de módulos disponíveis';
-$string['cachedef_plugin_manager'] = 'Plugin de gestão de informação';
+$string['cachedef_plugin_manager'] = 'Gestor de informação dos módulos';
 $string['cachedef_questiondata'] = 'Definições da pergunta';
 $string['cachedef_repositories'] = 'Dados de instância de repositórios';
 $string['cachedef_string'] = 'Cache do pacote linguístico';
-$string['cachedef_suspended_userids'] = 'Lista de utilizadores suspensos por curso';
+$string['cachedef_suspended_userids'] = 'Lista de utilizadores suspensos por disciplina';
+$string['cachedef_tagindexbuilder'] = 'Resultados da pesquisa de itens marcados com palavras-chave';
+$string['cachedef_tags'] = 'Coleções de palavras-chave e áreas';
+$string['cachedef_temp_tables'] = 'Cache de tabelas temporárias';
 $string['cachedef_userselections'] = 'Dados usados para fazer prevalecer as seleções do utilizador em todo o Moodle';
 $string['cachedef_yuimodules'] = 'Definições do Módulo YUI';
 $string['cachelock_file_default'] = 'Bloqueio de ficheiro predefinido';
@@ -99,6 +103,7 @@ $string['inadequatestoreformapping'] = 'Esta unidade de armazenamento não cumpr
 $string['invalidlock'] = 'Bloqueio inválido';
 $string['invalidplugin'] = 'Módulo inválido';
 $string['invalidstore'] = 'A unidade de armazenamento de cache fornecida é inválida';
+$string['localstorenotification'] = 'Esta cache pode ser mapeada de forma segura a um armazenamento local em cada servidor web';
 $string['lockdefault'] = 'Predefinido';
 $string['locking'] = 'Bloqueio';
 $string['locking_help'] = 'O bloqueio é um mecanismo que restringe o acesso a dados armazenados em cache a um processo de cada vez de forma a evitar que os dados sejam substituídos. Este método determina a forma como o bloqueio é obtido e verificado.';
@@ -131,6 +136,7 @@ $string['requestcount'] = 'Testar com {$a} pedidos';
 $string['rescandefinitions'] = 'Reexaminar definições';
 $string['result'] = 'Resultado';
 $string['set'] = 'Configurar';
+$string['sharedstorenotification'] = 'Esta cache deve ser mapeada a um armazenamento partilhado entre todos os servidores web';
 $string['sharing'] = 'Partilha';
 $string['sharing_all'] = 'Todos.';
 $string['sharing_help'] = 'Isto permite-lhe determinar como os dados da cache podem ser partilhados se tiver uma instalação em cluster, ou se tiver múltiplos sites configurados com a mesma unidade de armazenamento e quiser partilhar os dados. Esta é uma configuração avançada, por favor assegure-se que compreende a sua finalidade antes de a alterar.';

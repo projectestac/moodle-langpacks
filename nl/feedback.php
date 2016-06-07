@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'feedback', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,6 +41,7 @@ $string['autonumbering_help'] = 'Automatisch nummeren van vragen inschakelen of 
 $string['average'] = 'Gemiddelde';
 $string['bold'] = 'Vet';
 $string['cancel_moving'] = 'Annuleer verplaatsen';
+$string['cannotaccess'] = 'Je hebt alleen toegang tot deze feedback vanuit een cursus';
 $string['cannotmapfeedback'] = 'Databankprobleem, kan feedback niet aan cursus koppelen';
 $string['cannotsavetempl'] = 'bewaren van sjablonen is niet toegelaten';
 $string['cannotunmap'] = 'Databankprobleem: unmap niet mogelijk';

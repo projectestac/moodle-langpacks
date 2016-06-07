@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'de', branch 'MOODLE_30_STABLE'
+ * Strings for component 'grades', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -500,10 +500,18 @@ $string['missingitemtypeoreid'] = 'Der Array-Schlüssel (itemtype oder eid) des 
 $string['missingscale'] = 'Skala auswählen';
 $string['mode'] = 'Modus';
 $string['modgrade'] = 'Bewertung';
-$string['modgradeerrorbadpoint'] = 'Ungültiger Bewertungswert. Es muß ein ganzzahliger Wert zwischen 1 und {$a} sein.';
+$string['modgradecantchangegradetype'] = 'Sie können den Typ nicht verändern, wenn bereits Bewertungen für dieses Element existieren.';
+$string['modgradecantchangegradetypemsg'] = 'Einige Bewertungen wurden bereits vergeben, so dass der Bewertungstyp nicht mehr verändert werden kann. Wenn Sie den Maximalwert ändern möchten, müssen Sie zuerst auswählen, ob vorhandene Bewertungen neu vergeben werden sollen oder nicht.';
+$string['modgradecantchangegradetyporscalemsg'] = 'Einige Bewertungen wurden bereits vergeben, so dass Bewertungstyp und -skala nicht mehr verändert werden können.';
+$string['modgradecantchangeratingmaxgrade'] = 'Sie können den Maximalwert nicht verändern, wenn bereits Bewertungen für dieses Element existieren.';
+$string['modgradecantchangescale'] = 'Sie können die Skalierung nicht verändern, wenn bereits Bewertungen für dieses Element existieren.';
+$string['modgradecategoryrescalegrades'] = 'Überschriebene Bewertungen neu skalieren';
+$string['modgradedonotmodify'] = 'Existierende Bewertungen nicht ändern';
+$string['modgradeerrorbadpoint'] = 'Ungültiger Bewertungswert. Es muss ein ganzzahliger Wert zwischen 1 und {$a} sein.';
 $string['modgradeerrorbadscale'] = 'Falsche Skala ausgewählt. Bite wählen Sie eine der vorhandenen Skalen aus.';
 $string['modgrade_help'] = 'Wählen Sie die Art der Bewertung für diese Aktivität aus. Wenn Sie z.B. Skala auswählen, steht ein DropDown-Feld mit einer Skala zur Auswahl zur Verfügung. Wenn Sie Punkt-Bewertung auswählen, so können Sie die Höchstpunktzahl für diese Aktivität auswählen.';
 $string['modgrademaxgrade'] = 'Maximalpunkte';
+$string['modgraderescalegrades'] = 'Existierender Bewertungen neuskalieren';
 $string['modgradetype'] = 'Typ';
 $string['modgradetypenone'] = 'Kein';
 $string['modgradetypepoint'] = 'Punkt';
@@ -515,6 +523,7 @@ $string['multfactor'] = 'Multiplikator';
 $string['multfactor_help'] = '<h2>Multiplikator</h2>
 <p>Faktor mit dem jeder Wert dieser Benotung multipliziert wird. Damit können die Ergebnisse unterschiedlich gewichtet werden.</p>';
 $string['multfactorvalue'] = 'Multiplikator für {$a}';
+$string['mustchooserescaleyesorno'] = 'Sie müssen auswählen, ob vorhandene Bewertungen neu vergeben werden sollen oder nicht.';
 $string['mygrades'] = 'Meine Bewertungen';
 $string['mygrades_desc'] = 'Die Einstellung fügt den Link zu einer externen Bewertungsverwaltung zum  Nutzermenu hinzu.';
 $string['mypreferences'] = 'Meine Einstellungen';
@@ -636,6 +645,7 @@ $string['rawpct'] = 'Rohwert %';
 $string['real'] = 'Punkte';
 $string['realletter'] = 'Punkte (Noten)';
 $string['realpercentage'] = 'Punkte (Prozent)';
+$string['recalculatinggrades'] = 'Bewertungen neu berechnen...';
 $string['recovergradesdefault'] = 'Bewertungen wiederherstellen';
 $string['recovergradesdefault_help'] = 'Standardmäßig werden alte Bewertungen wiederhergestellt, wenn Nutzer/innen erneut in einen Kurs eingeschrieben werden.';
 $string['refreshpreview'] = 'Vorschau aktualisieren';
@@ -665,7 +675,7 @@ $string['selectauser'] = 'Nutzer/in wählen';
 $string['selectdestination'] = 'Ziel für {$a} auswählen';
 $string['separator'] = 'Trennzeichen';
 $string['separator_help'] = 'Wählen Sie den Trenner für die CSV-Datei aus (standardmäßig Semikolon).';
-$string['sepcolon'] = 'Doppelpunkt';
+$string['sepcolon'] = 'Komma';
 $string['sepcomma'] = 'Komma';
 $string['sepsemicolon'] = 'Semikolon';
 $string['septab'] = 'Tab';
@@ -771,7 +781,7 @@ $string['uncategorised'] = 'Nicht kategorisiert';
 $string['unchangedgrade'] = 'Unveränderte Bewertungen';
 $string['unenrolledusersinimport'] = 'Beim Import werden Bewertungen der folgenden Teilnehmer/innen importiert, die zur Zeit nicht im Kurs registriert sind: {$a}';
 $string['unlimitedgrades'] = 'Offene Bewertung';
-$string['unlimitedgrades_help'] = 'Standardmäßig sind Bewertungen durch Minimal- und Maximalwert einer Bewertungsstufe definiert. Falls diese Einstellung aktiviert wird, entfällt die Einschränkung und erlaubt das direkte Eintragen von Bewertungen über 100%. Es wird empfohlen, diese Einstellung nicht während der Spitzenzeiten aktiviert, weil dann alle Bewertungen neu berechnet werden und dies zu einer starken Serverlast führen kann.';
+$string['unlimitedgrades_help'] = 'Standardmäßig sind Bewertungen durch Minimal- und Maximalwert einer Bewertungsstufe definiert. Falls diese Option aktiviert ist, entfällt die Einschränkung und erlaubt auch das direkte Eintragen von Bewertungen über 100%.';
 $string['unlock'] = 'Freigeben';
 $string['unlockverbose'] = '{$a->category} {$a->itemmodule} {$a->itemname} entsperren';
 $string['unused'] = 'Unbenutzt';

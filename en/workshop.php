@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'en', branch 'MOODLE_30_STABLE'
+ * Strings for component 'workshop', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,12 @@ $string['allocation'] = 'Submission allocation';
 $string['allocationconfigured'] = 'Allocation configured';
 $string['allocationdone'] = 'Allocation done';
 $string['allocationerror'] = 'Allocation error';
+$string['allowedfiletypesforoverallfeedback'] = 'Feedback attachment allowed file types';
+$string['allowedfiletypesforoverallfeedback_help'] = 'Feedback attachment allowed file types can be restricted by entering a comma-separated list of file extensions, for example \'mp4, mp3, png, jpg\'. If the field is left empty, then all file types are allowed.';
+$string['allowedfiletypesforoverallfeedback_link'] = 'admin/tool/filetypes/index';
+$string['allowedfiletypesforsubmission'] = 'Submission attachment allowed file types';
+$string['allowedfiletypesforsubmission_help'] = 'Submission attachment allowed file types can be restricted by entering a comma-separated list of file extensions, for example \'mp4, mp3, png, jpg\'. If the field is left empty, then all file types are allowed.';
+$string['allowedfiletypesforsubmission_link'] = 'admin/tool/filetypes/index';
 $string['allsubmissions'] = 'All submissions ({$a})';
 $string['alreadygraded'] = 'Already graded';
 $string['areaconclusion'] = 'Conclusion text';
@@ -96,6 +102,7 @@ $string['daystoday'] = 'today';
 $string['daystomorrow'] = 'tomorrow';
 $string['daysyesterday'] = 'yesterday';
 $string['deadlinesignored'] = 'Time restrictions do not apply to you';
+$string['deletesubmission'] = 'Delete submission';
 $string['editassessmentform'] = 'Edit assessment form';
 $string['editassessmentformstrategy'] = 'Edit assessment form ({$a})';
 $string['editingassessmentform'] = 'Editing assessment form';
@@ -103,6 +110,8 @@ $string['editingsubmission'] = 'Editing submission';
 $string['editsubmission'] = 'Edit submission';
 $string['err_multiplesubmissions'] = 'While editing this form, another version of the submission has been saved. Multiple submissions per user are not allowed.';
 $string['err_removegrademappings'] = 'Unable to remove the unused grade mappings';
+$string['err_unknownfileextension'] = 'Unknown file extension: {$a}';
+$string['err_wrongfileextension'] = 'Some files ({$a->wrongfiles}) cannot be uploaded. Only file types {$a->whitelist} are allowed.';
 $string['evaluategradeswait'] = 'Please wait until the assessments are evaluated and the grades are calculated';
 $string['evaluation'] = 'Grading evaluation';
 $string['evaluationmethod'] = 'Grading evaluation method';
@@ -116,6 +125,7 @@ $string['eventphaseswitched'] = 'Phase switched';
 $string['eventsubmissionassessed'] = 'Submission assessed';
 $string['eventsubmissionassessmentsreset'] = 'Submission assessments cleared';
 $string['eventsubmissioncreated'] = 'Submission created';
+$string['eventsubmissiondeleted'] = 'Submission deleted';
 $string['eventsubmissionreassessed'] = 'Submission re-assessed';
 $string['eventsubmissionupdated'] = 'Submission updated';
 $string['eventsubmissionviewed'] = 'Submission viewed';
@@ -240,6 +250,7 @@ $string['saveandclose'] = 'Save and close';
 $string['saveandcontinue'] = 'Save and continue editing';
 $string['saveandpreview'] = 'Save and preview';
 $string['saveandshownext'] = 'Save and show next';
+$string['search:activity'] = 'Workshop - activity information';
 $string['selfassessmentdisabled'] = 'Self-assessment disabled';
 $string['showingperpage'] = 'Showing {$a} items per page';
 $string['showingperpagechange'] = 'Change ...';
@@ -258,6 +269,8 @@ $string['submission'] = 'Submission';
 $string['submissionattachment'] = 'Attachment';
 $string['submissionby'] = 'Submission by {$a}';
 $string['submissioncontent'] = 'Submission content';
+$string['submissiondeleteconfirm'] = 'Are you sure you want to delete the following submission?';
+$string['submissiondeleteconfirmassess'] = 'Are you sure you want to delete the following submission? Note this will also delete {$a->count} assessments associated with this submission, which may affect the reviewers\' grades.';
 $string['submissionend'] = 'Submissions deadline';
 $string['submissionendbeforestart'] = 'Submissions deadline can not be specified before the open for submissions date';
 $string['submissionenddatetime'] = 'Submissions deadline: {$a->daydatetime} ({$a->distanceday})';
@@ -318,6 +331,7 @@ $string['weightinfo'] = 'Weight: {$a}';
 $string['withoutsubmission'] = 'Reviewer without own submission';
 $string['workshop:addinstance'] = 'Add a new workshop';
 $string['workshop:allocate'] = 'Allocate submissions for review';
+$string['workshop:deletesubmissions'] = 'Delete submissions';
 $string['workshop:editdimensions'] = 'Edit assessment forms';
 $string['workshop:ignoredeadlines'] = 'Ignore time restrictions';
 $string['workshop:manageexamples'] = 'Manage example submissions';

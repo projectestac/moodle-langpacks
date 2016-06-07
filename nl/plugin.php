@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'plugin', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,7 +66,9 @@ $string['notdownloadable'] = 'Kan pakket niet downloaden';
 $string['notdownloadable_help'] = 'ZIP-pakket met de update kan niet automatisch gedownload worden. Bekijk de documentatiepagina voor meer hulp.';
 $string['notes'] = 'Notities';
 $string['notwritable'] = 'Pluginbestanden niet beschrijfbaar';
-$string['notwritable_help'] = 'De plugin-bestanden zijn niet beschrijfbaar door de webserver. Het webserver-proces moet schrijfrechten hebben op de plugin-map en alle inhoud ervan. Schrijfrechten op de root-map van de plugin kan ook vereist zijn.';
+$string['notwritable_help'] = 'Je hebt het automatisch updates installeren ingeschakeld en er is een update beschikbaar voor deze plugin. De pluginbestanden zijn echter niet beschrijfbaar door de webserver, zodat de update nu niet geïnstalleerd kan worden.
+
+Maak de plugin-map en alle inhoud beschrijfbaar om de update automatisch te kunnen installeren.';
 $string['otherplugin'] = '{$a->component}';
 $string['otherpluginversion'] = '{$a->component} ({$a->version})';
 $string['overviewall'] = 'Alle plugins';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'nl', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tag', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,7 @@ $string['deleteselected'] = 'Verwijder geselecteerde';
 $string['description'] = 'Beschrijving';
 $string['editname'] = 'Bewerk tag-naam';
 $string['edittag'] = 'Bewerk deze tag';
-$string['entertags'] = 'Geef tags ...';
+$string['entertags'] = 'Geef tags in, gescheiden door komma\'s';
 $string['errortagfrontpage'] = 'Het taggen van de startpagina van de site is niet toegelaten';
 $string['errorupdatingrecord'] = 'Fout bij het aanpassen van de tag';
 $string['eventtagadded'] = 'Tag aan een item toegevoegd';
@@ -68,7 +68,7 @@ $string['noresultsfor'] = 'Geen resultaten voor "{$a}"';
 $string['nothingtoupdate'] = 'Niets aan te passen';
 $string['officialtag'] = 'Officiële tag';
 $string['otags'] = 'Officiële tags';
-$string['othertags'] = 'Andere tags';
+$string['othertags'] = 'Andere tags (geef de tags in, gescheiden door komma\'s)';
 $string['owner'] = 'Eigenaar';
 $string['page-tag-index'] = 'Eén tag-pagina';
 $string['page-tag-manage'] = 'Beheer tag-pagina';
@@ -78,7 +78,7 @@ $string['ptags'] = 'Doot gebruiker gedefiniëerde tags (door komma\'s gescheiden
 $string['relatedblogs'] = 'Meest recente blogs';
 $string['relatedtags'] = 'Gerelateerde tags';
 $string['removetagfrommyinterests'] = 'Verwijder "{$a}" uit mijn interesselijst';
-$string['reset'] = 'Herstel tag markering';
+$string['reset'] = 'Herstel';
 $string['resetflag'] = 'Herstel markering';
 $string['responsiblewillbenotified'] = 'De verantwoordelijke zal een melding krijgen';
 $string['rssdesc'] = 'Deze RSS-feed is automatisch gegenereerd door Moodle en bevat door de gebruiker gegenereerde tags voor cursussen.';

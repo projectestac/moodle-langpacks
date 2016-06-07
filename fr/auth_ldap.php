@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'fr', branch 'MOODLE_30_STABLE'
+ * Strings for component 'auth_ldap', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,7 +56,7 @@ $string['auth_ldap_gracelogins_desc'] = 'Activer le support du gracelogin LDAP. 
 $string['auth_ldap_gracelogins_key'] = 'Support gracelogin';
 $string['auth_ldap_groupecreators'] = 'Liste des groupes ou contextes dont les membres sont autorisés à créer des groupes. Les groupes (en général, de la forme « cn=teachers,ou=staff,o=myorg ») sont séparés par des points-virgules (;)';
 $string['auth_ldap_groupecreators_key'] = 'Gestionnaires de groupes';
-$string['auth_ldap_host_url'] = 'Indiquer le serveur LDAP sous forme d\'URL comme ceci :<br />« ldap://ldap.organisation.fr/ »<br />ou :<br />« ldaps://ldap.organisation.fr/ ». Si vous utilisez plusieurs serveurs LDAP par sécurité, séparez leurs adresses avec des points-virgules (;).';
+$string['auth_ldap_host_url'] = 'Indiquer le serveur LDAP sous forme d\'URL comme « ldap://ldap.organisation.fr/ » ou « ldaps://ldap.organisation.fr/ ». Si vous utilisez plusieurs serveurs LDAP redondants, séparez leurs adresses avec des points-virgules (;).';
 $string['auth_ldap_host_url_key'] = 'URL du serveur';
 $string['auth_ldap_ldap_encoding'] = 'Indiquer l\'encodage utilisé par le serveur LDAP. Très probablement utf-8. Microsoft AD v2 utilise l\'encodage par défaut de la plateforme, par exemple cp1252, cp1250, etc.';
 $string['auth_ldap_ldap_encoding_key'] = 'Encodage LDAP';
@@ -82,6 +82,8 @@ $string['auth_ldap_preventpassindb_key'] = 'Ne pas mettre les mots de passe en c
 $string['auth_ldap_search_sub'] = 'Rechercher les utilisateurs dans les sous-contextes.';
 $string['auth_ldap_search_sub_key'] = 'Recherche sous-contextes';
 $string['auth_ldap_server_settings'] = 'Configuration du serveur LDAP';
+$string['auth_ldap_suspended_attribute'] = 'Facultatif : lorsque cet attribut est fourni, il sera utilisé pour activer/suspendre le compte utilisateur local créé.';
+$string['auth_ldap_suspended_attribute_key'] = 'Attribut de suspension';
 $string['auth_ldap_unsupportedusertype'] = 'La fonction auth: ldap user_create() ne supporte pas le type d\'utilisateur sélectionné « {$a} »';
 $string['auth_ldap_update_userinfo'] = 'Mettre à jour les données des utilisateurs (prénom, nom, adresse, etc.) de Moodle depuis l\'annuaire LDAP. Lire « /auth/ldap/attr_mappings.php » pour avoir des informations sur la correspondance.';
 $string['auth_ldap_user_attribute'] = 'L\'attribut utilisé pour nommer et rechercher les utilisateurs. Habituellement « cn ».';
