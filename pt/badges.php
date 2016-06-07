@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'badges', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,8 +96,9 @@ Para adicionar uma nova imagem, procure e selecione uma imagem (nos formatos JPG
 $string['badgeprivacysetting'] = 'Configurações de privacidade da Medalha';
 $string['badgeprivacysetting_help'] = 'As Medalhas que receber podem ser exibidas na página do seu perfil. Esta configuração permite-lhe definir automaticamente a visibilidade das Medalhas recebidas recentemente.
 
-No entanto, continuará a poder controlar individualmente as configurações de privacidade das Medalhas na sua página "Minhas Medalhas".';
+Continuará a poder controlar individualmente as configurações de privacidade das Medalhas na sua página "Minhas Medalhas".';
 $string['badgeprivacysetting_str'] = 'Exibe automaticamente na página do meu perfil as Medalhas que recebi';
+$string['badges'] = 'Medalhas';
 $string['badgesalt'] = 'Salt para encriptar endereço de email dos destinatários';
 $string['badgesalt_desc'] = 'Usar uma encriptação permite aos serviços de Backpack confirmar o utilizador que recebeu a Medalha sem ter de expor o seu endereço de email. Esta configuração deverá usar icluir números e letras.';
 $string['badgesdisabled'] = 'As Medalhas não estão ativas neste site.';
@@ -209,6 +210,7 @@ $string['error:backpackproblem'] = 'Ocorreu um problema ao ligar ao seu forneced
 $string['error:badjson'] = 'A tentativa de ligação devolveu informação inválida.';
 $string['error:cannotact'] = 'Não é possível ativar a Medalha.';
 $string['error:cannotawardbadge'] = 'Não é possível atribuir a Medalha a um utilizador.';
+$string['error:cannotdeletecriterion'] = 'Este critério não pode ser eliminado.';
 $string['error:clone'] = 'Não é possível duplicar a Medalha.';
 $string['error:connectionunknownreason'] = 'A ligação não foi bem sucedida sem que nenhum motivo fosse indicado para o justificar.';
 $string['error:duplicatename'] = 'Já existe uma Medalha com o mesmo nome no sistema.';
@@ -236,6 +238,7 @@ $string['error:requesterror'] = 'O pedido de ligação falhou (código de erro {
 $string['error:requesttimeout'] = 'O pedido de ligação expirou antes de ser concluído.';
 $string['error:save'] = 'Não é possível guardar a Medalha.';
 $string['error:userdeleted'] = '{$a->user} (Este utilizador já não existe em {$a->site})';
+$string['eventbadgeawarded'] = 'Medalha atribuída';
 $string['evidence'] = 'Evidência';
 $string['existingrecipients'] = 'Atuais destinatários da Medalha';
 $string['expired'] = 'Expirada';
@@ -252,7 +255,6 @@ $string['externalbadges_help'] = 'Esta área exibe as Medalhas da sua Backpack e
 $string['externalbadgesp'] = 'Medalhas de outros sites:';
 $string['externalconnectto'] = 'Para exibir Medalhas externas tem de <a href="{$a}">ligar a uma Backpack</a>.';
 $string['fixed'] = 'Data fixa';
-$string['hidden'] = 'Oculta(s)';
 $string['hiddenbadge'] = 'Lamentamos, mas o proprietário da Medalha não disponibiliza esta informação.';
 $string['issuancedetails'] = 'Data de validade da Medalha';
 $string['issuedbadge'] = 'Informação da Medalha emitida';
@@ -273,7 +275,9 @@ $string['makeprivate'] = 'Tornar privadas';
 $string['makepublic'] = 'Tornar públicas';
 $string['managebadges'] = 'Gerir Medalhas';
 $string['message'] = 'Corpo da mensagem';
-$string['messagebody'] = '<p> Foi premiado com a Medalha "%badgename%"!</p> <p> Mais informações sobre esta Medalha em %badgelink%.</p> <p> Se não houver uma Medalha anexada a este e-mail, pode gerir e fazer o seu download a partir da página {$a}. </p>';
+$string['messagebody'] = '<p>Foi premiado com a Medalha "%badgename%"!</p>
+<p> Mais informações sobre esta Medalha em %badgelink%.</p>
+<p> Se não houver uma Medalha anexada a este e-mail, pode a gerir e descarregar a partir da página {$a}. </p>';
 $string['messagesubject'] = 'Parabéns! Acabou de ganhar uma Medalha!';
 $string['method'] = 'Este critério é cumprido quando…';
 $string['mingrade'] = 'Nota mínima necessária';
@@ -320,6 +324,7 @@ $string['personaconnection_help'] = 'O Persona é um sistema que permite que voc
 
 Para mais informações sobre o Persona visite <a href="https://login.persona.org/about">https://login.persona.org/about</a> .';
 $string['potentialrecipients'] = 'Potenciais destinatários da Medalha';
+$string['preferences'] = 'Preferências das Medalhas';
 $string['recipientdetails'] = 'Detalhes do destinatário';
 $string['recipientidentificationproblem'] = 'Não é possível encontrar um destinatário para esta Medalha entre os utilizadores existentes.';
 $string['recipients'] = 'Destinatários da Medalha';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'questionnaire', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -88,6 +88,8 @@ $string['erroropening'] = '打开问卷时发生错误。';
 $string['errortable'] = '系统表错误';
 $string['essaybox'] = '多行文本框';
 $string['feedbacknextsection'] = '下一节 {$a}';
+$string['feedbacksectionheadingtext'] = '标题';
+$string['feedbacksectionlabel'] = '标签';
 $string['field'] = '问题{$a}';
 $string['fieldlength'] = '输入框的长度';
 $string['fieldlength_help'] = '对于**文本框**问题类型，应设置**输入框长度**和**最大文本长度**。

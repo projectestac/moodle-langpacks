@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'forum', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -103,6 +103,8 @@ $string['configmaxattachments'] = 'Standaard maximale aantal bijlagen per berich
 $string['configmaxbytes'] = 'Standaard maximale grootte voor alle forumbijlagen op deze site (afhankelijk van vaklimieten en andere lokale instellingen)';
 $string['configoldpostdays'] = 'Aantal dagen waarna elk bericht als gelezen moet beschouwd worden.';
 $string['configreplytouser'] = 'Wil je dat de e-mail van een bericht op het forum het e-mailadres van de verstuurder bevat, zodat de ontvangers eventueel ook persoonlijk kunnen antwoorden, eerder dan via het forum? Zelfs als je hier \'Ja\' instelt, kunnen gebruikers ervoor kiezen hun e-mailadres privé te houden via hun profielpagina';
+$string['configrssarticlesdefault'] = 'Indien RSS-feeds zijn ingeschakeld, dan stelt deze instelling het aantal artikels in (discussies of berichten)';
+$string['configrsstypedefault'] = 'Indien RSS-feeds zijn ingeschakeld, dan stelt deze instelling de standaard activiteit in.';
 $string['configshortpost'] = 'Elk bericht dat korter is dan deze waarde (HTML-code niet inbegrepen) wordt als kort beschouwd.';
 $string['configtrackingtype'] = 'Standaardinstelling voor het opvolgen van lezen.';
 $string['configtrackreadposts'] = 'Zet op \'ja\' als je gelezen/ongelezen wil bijhouden voor elke gebruiker.';
@@ -119,11 +121,11 @@ $string['delete'] = 'Verwijder';
 $string['deleteddiscussion'] = 'De discussie is verwijderd';
 $string['deletedpost'] = 'Het bericht  is verwijderd';
 $string['deletedposts'] = 'Deze berichten werden verwijderd';
-$string['deleteoriginalonreply'] = 'Als je via e-mail antwoordt op dit bericht, verwijder dan de kopie van het bericht waarop je antwoordt.';
 $string['deletesure'] = 'Weet je zeker dat je dit bericht wilt verwijderen?';
 $string['deletesureplural'] = 'Weet je zeker dat je dit bericht en alle antwoorden erop wil verwijderen? ({$a} berichten)';
 $string['digestmailheader'] = 'Dit is je dagelijkse samenvattende e-mail met de nieuwe berichten van de forums van {$a->sitename}. Als je jouw voorkeurinstellingen voor de e-maildienst van de forums wil wijzigen, ga dan naar {$a->userprefs}.';
 $string['digestmailpost'] = 'Wijzig je voorkeuren voor de samenvattende e-mail van forums';
+$string['digestmailpostlink'] = 'Wijzig je instellingen voor forumsamenvattingen: {$a}';
 $string['digestmailprefs'] = 'Jouw gebruikersprofiel';
 $string['digestmailsubject'] = 'Dagelijkse forumsamenvatting van {$a}';
 $string['digestmailtime'] = 'Uur om e-mail met verzamelde berichten te versturen';
@@ -212,7 +214,7 @@ $string['everyonecannowchoose'] = 'Iedereen kan er voor kiezen om e-mail van dit
 $string['everyoneisnowsubscribed'] = 'Iedereen ontvangt nu e-mail van dit forum';
 $string['everyoneissubscribed'] = 'Iedereen ontvangt e-mail van dit forum';
 $string['existingsubscribers'] = 'Krijgen al e-mail van dit forum';
-$string['exportdiscussion'] = 'Exporteer hele discussie';
+$string['exportdiscussion'] = 'Exporteer hele discussie naar portfolio';
 $string['forcedreadtracking'] = 'Sta \'verplicht forum volgen\' toe';
 $string['forcedreadtracking_desc'] = 'Maakt het mogelijk om forums in te stellen op verplicht lezen opvolgen. Dat zal resulteren in verminderde performantie voor sommige gebruikers, vooral dan in cursussen met veel forums en veel berichten. Wanneer je dit uitschakeld, zal elk forum dat voorheen op verplicht stond als optioneel behandeld worden.';
 $string['forcesubscribed'] = 'Iedereen krijgt verplicht e-mail van dit forum';
@@ -225,6 +227,7 @@ $string['forum:allowforcesubscribe'] = 'Inschrijven op forum verplichten toestaa
 $string['forumauthorhidden'] = 'Auteur (verborgen)';
 $string['forumblockingalmosttoomanyposts'] = 'Je nadert de berichtenlimiet. Je hebt {$a->numposts} berichten in de afgelopen {$a->blockperiod} gepost en de limiet is {$a->blockafter} berichten.';
 $string['forumbodyhidden'] = 'Je kunt dit bericht niet bekijken. Mogelijke oorzaken: je hebt zelf nog niets gepost in deze discussie, de maximale tijd tussen twee bewerkingen is nog niet verstreken, de discussie is nog niet gestart of de discussie is afgelopen.';
+$string['forum:canposttomygroups'] = 'Kan aan alle groepen een bericht sturen waar je toegang toe hebt.';
 $string['forum:createattachment'] = 'Bijlage toevoegen';
 $string['forum:deleteanypost'] = 'Gelijk welk bericht verwijderen (altijd)';
 $string['forum:deleteownpost'] = 'Eigen berichten verwijderen (binnen bepaalde tijd)';
@@ -331,8 +334,11 @@ $string['more'] = 'meer';
 $string['movedmarker'] = '(Verplaatst)';
 $string['movethisdiscussionto'] = 'Verplaats deze discussie naar ...';
 $string['mustprovidediscussionorpost'] = 'You moet ofwel een discussie ID of een bericht ID geven om te exporteren';
-$string['namenews'] = 'Nieuwsforum';
-$string['namenews_help'] = 'Het nieuwsforum is een speciaal forum dat automatisch aangemaakt wordt in elke cursus en op de startpagina van de site. Het is een plaats voor algemene mededelingen. Je kunt er zo maar één per cursus hebben. Enkel leraren en beheerders kunnen posten in dit forum. Leerlingen kunnen er niet op antwoorden. Het "Laatste nieuws"-blok toont de recente discussies van dit speciale forum.';
+$string['myprofileotherdis'] = 'Forumdiscussies';
+$string['myprofileowndis'] = 'Mijn forumdiscussies';
+$string['myprofileownpost'] = 'Mijn forumberichten';
+$string['namenews'] = 'Mededelingen';
+$string['namenews_help'] = 'Het forum "Mededelingen" is een speciaal forum dat automatisch aangemaakt wordt in elke cursus en op de startpagina van de site. Het is een plaats voor algemene mededelingen. Je kunt er zo maar één per cursus hebben. Enkel leraren en beheerders kunnen posten in dit forum. Leerlingen kunnen er niet op antwoorden. Het "Laatste mededelingen"-blok toont de recente mededelingen.';
 $string['namesocial'] = 'Sociaal forum';
 $string['nameteacher'] = 'Forum voor leraren';
 $string['newforumposts'] = 'Nieuwe forumberichten';
@@ -392,6 +398,9 @@ $string['postincontext'] = 'Bekijk dit bericht in zijn context';
 $string['postmailinfo'] = 'Dit is een kopie van een bericht dat op de {$a} website is toegevoegd.
 
 Klik op deze link om jouw antwoord via de website toe te voegen:';
+$string['postmailinfolink'] = 'Dit is een kopie van een bericht, gepost op de website {$a->coursename}.
+
+Klik op volgende link om te antwoorden: {$a->replylink}';
 $string['postmailnow'] = '<p>Dit bericht zal onmiddellijk verstuurd worden naar iedereen die e-mail van dit forum wil.</p>';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Vooral Separate Knowing';
@@ -401,6 +410,8 @@ $string['posts'] = 'Berichten';
 $string['postsmadebyuser'] = 'Berichten gepost door {$a}';
 $string['postsmadebyuserincourse'] = 'Berichten gepost door {$a->fullname} in {$a->coursename}';
 $string['posttoforum'] = 'Plaats op het forum';
+$string['posttomygroups'] = 'Stuur een kopie naar alle groepen';
+$string['posttomygroups_help'] = 'Stuurt een kopie van dit bericht naar alle groepen waar je toegang toe hebt. Deelnemers in groepen waar je geen toegang toe hebt, zullen dit bericht niet zien.';
 $string['postupdated'] = 'Je bericht is bijgewerkt';
 $string['potentialsubscribers'] = 'Deelnemers van de cursus die nog geen e-mail van dit forum krijgen';
 $string['prevdiscussiona'] = 'Vorige discussie: {$a}';
@@ -420,8 +431,7 @@ $string['reply'] = 'Antwoord';
 $string['replyforum'] = 'Antwoord op het forum';
 $string['reply_handler'] = 'Beantwoord berichten via e-mail';
 $string['reply_handler_name'] = 'Beantwoord forumberichten';
-$string['replytoforumpost'] = 'Je kunt op dit forumbericht antwoorden via e-mail.';
-$string['replytopostbyemail'] = 'Als je via e-mail antwoordt op dit bericht, verwijder dan de kopie van het bericht waarop je antwoordt.';
+$string['replytopostbyemail'] = 'Je kan dit via e-mail beantwoorden.';
 $string['replytouser'] = 'Gebruik e-mailadres in antwoord';
 $string['resetdigests'] = 'Verwijder alle gebruikersindividuele verzamel e-mail voorkeuren';
 $string['resetforums'] = 'Verwijder berichten van';
@@ -435,6 +445,7 @@ $string['rssarticles_help'] = '<p>Met deze instelling kun je kiezen hoeveel arti
 $string['rsssubscriberssdiscussions'] = 'RSS-feed van discussies';
 $string['rsssubscriberssposts'] = 'RSS-feed van berichten';
 $string['rsstype'] = 'RSS-feed voor deze activiteit';
+$string['rsstypedefault'] = 'RSS feed type';
 $string['rsstype_help'] = '<p>Met deze optie kun je een RSS-feed maken van dit forum.</p>
 <p>Je kunt kiezen tussen twee forumtypes:</p>
 <ul>
@@ -470,7 +481,8 @@ $string['subscribediscussion'] = 'Meldingen krijgen van deze discussie';
 $string['subscribeenrolledonly'] = 'Enkel aangemelde gebruikers mogen inschrijven op een forum om meldingen over nieuwe forumberichten te ontvangen';
 $string['subscribenone'] = 'Laat niemand van deze cursus e-mail van dit forum ontvangen';
 $string['subscribers'] = 'Krijgen e-mail';
-$string['subscribersto'] = 'Krijgen e-mail van \'{$a}\'';
+$string['subscribersto'] = 'Krijgen e-mail van "{$a->name}"';
+$string['subscriberstowithcount'] = 'Krijgen e-mail van "{$a->name}" ({$a->count})';
 $string['subscribestart'] = 'Stuur me een melding wanneer iemand een bericht op dit forum plaatst';
 $string['subscribestop'] = 'Ik wil geen meldingen van inzendingen op dit forum ontvangen';
 $string['subscription'] = 'E-mail krijgen';
@@ -493,7 +505,9 @@ Merk op: wijzigingen van deze instellingen zijn enkel van toepassing op gebruike
 $string['subscriptionoptional'] = 'Optioneel inschrijven';
 $string['subscriptions'] = 'Deze deelnemers krijgen e-mail';
 $string['thisforumisthrottled'] = 'Dit forum heeft een limiet op het aantal berichten dat je kan posten in een bepaalde periode - deze is nu ingesteld op {$a->blockafter} bericht(en) in {$a->blockperiod}';
+$string['timedhidden'] = 'Getimede status: verborgen voor leerlingen';
 $string['timedposts'] = 'Getimed bericht';
+$string['timedvisible'] = 'Getimede status: Zichtbaar voor alle gebruikers';
 $string['timestartenderror'] = 'De datum van het einde kan niet voor de startdatum zijn.';
 $string['trackforum'] = 'Volg ongelezen berichten op';
 $string['tracking'] = 'Volgen';
@@ -521,6 +535,8 @@ $string['unsubscribealldone'] = 'Alle optionele foruminschrijvingen zijn verwijd
 $string['unsubscribeallempty'] = 'Je krijgt van geen enkel forum meldingen. Als je van deze site geen enkel bericht wil ontvangen, ga dan naar Berichten in Mijn profielinstellingen.';
 $string['unsubscribed'] = 'Je zult geen mail meer ontvangen';
 $string['unsubscribediscussion'] = 'Uitschrijven uit deze discussie';
+$string['unsubscribediscussionlink'] = 'Schrijf je uit van volgende discussie: {$a}';
+$string['unsubscribelink'] = 'Schrijf je uit van volgend forum: {$a}';
 $string['unsubscribeshort'] = 'Ik wil geen mail meer';
 $string['usermarksread'] = 'Manueel bericht als gelezen aanduiden';
 $string['viewalldiscussions'] = 'Bekijk alle discussies';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'ar', branch 'MOODLE_28_STABLE'
+ * Strings for component 'lesson', language 'ar', branch 'MOODLE_31_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -153,8 +153,6 @@ $string['maxgrade'] = 'الدرجة القصوى';
 $string['maxhighscores'] = 'عدد أعلى درجات معروض';
 $string['maximumnumberofanswersbranches'] = 'الحد الأقصى لعدد الاجابات / التفريعات';
 $string['maximumnumberofattempts'] = 'الحد الأقصى لعدد المحاولات';
-$string['maxtime'] = 'الوقت المحدد (دقائق)';
-$string['maxtimewarning'] = 'تبقى لديك {$a} دقيقة لإنهاء الدرس';
 $string['mediaclose'] = 'أظهار أزرار الأغلاق';
 $string['mediafilepopup'] = 'أنقر هنا لتعايين';
 $string['mediaheight'] = 'ارتفاع نافذه:';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'scorm', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['aicchacpkeepsessiondata_desc'] = 'De tijdsduur in dagen dat de externe 
 $string['aicchacptimeout'] = 'AICC HACP timeout';
 $string['aicchacptimeout_desc'] = 'De tijdsduur in minuten dat een externe AICC HACP sessie open kan blijven.';
 $string['aiccuserid'] = 'AICC pass numeriek gebruikers id';
-$string['aiccuserid_desc'] = 'De AICC-standaard voor gebruikersnamen is erg beperkend in vergelijking met Moodle, dus geven we de user->id in de plaats. Indien uitgeschakeld geeft dit de Moodle gebruikersnaam aan het AICC-pakket. De AICC-standaard staat alfanumerieke tekens toe, het liggend streepje (-) en de underscore (_). Punten, spaties en het @-symbool zijn niet toegestaan.';
+$string['aiccuserid_desc'] = 'De AICC-standaard voor gebruikersnamen is erg beperkend in vergelijking met Moodle. De AICC-standaard staat alfanumerieke tekens toe, het liggend streepje (-) en de underscore (_). Punten, spaties en het @-symbool zijn niet toegestaan. Indien ingeschakeld geeft Moodle gebruikerID\'s aan het AICC-pakket in plaats van gebruikersnamen.';
 $string['aliasonly'] = 'Wanneer je een imsmanifest.xml bestand van een opslagruimte selecteert, moet je een alias/snelkoppeling voor dit bestand gebruiken';
 $string['allowapidebug'] = 'Activeer API debug en tracing (zet het capture mask met apidebugmask)';
 $string['allowtypeaicchacp'] = 'Schakel extern AICC HACP in';
@@ -78,6 +78,7 @@ $string['browsed'] = 'Voorgeproefd';
 $string['browsemode'] = 'Probeermodus';
 $string['browserepository'] = 'Blader door de opslagruimte';
 $string['calculatedweight'] = 'Berekende weging';
+$string['cannotaccess'] = 'Je kunt dit script niet op deze manier oproepen';
 $string['cannotfindsco'] = 'Kon SCO niet vinden';
 $string['chooseapacket'] = 'Kies of update een SCORM/AICC-pakket';
 $string['collapsetocwinsize'] = 'Inhoudsopgave dichtklappen wanneer het venster kleiner wordt dan';
@@ -150,8 +151,10 @@ $string['forcejavascript'] = 'Verplicht gebruikers om JavaScript in te schakelen
 $string['forcejavascript_desc'] = 'Indien ingeschakeld (aanbevolen) verhindert dit toegang tot SCORM-objecten wanneer JavaScript niet is ondersteund/ingeschakeld in de browser van een gebruiker.  Indien uitgeschakeld, dan kan de gebruiker de SCORM bekijken, maar de API-communicatie zal niet werken en er zal geen cijferinformatie bewaard worden.';
 $string['forcejavascriptmessage'] = 'JavaScript is vereist om dit object te kunnen bekijken. Schakel JavaScript in in je browser en probeer opnieuw.';
 $string['forcenewattempt'] = 'Verplicht nieuwe poging';
-$string['forcenewattemptdesc'] = 'Indien ingeschakeld zal elke toegang tot het SCORM-pakket als een nieuwe poging geteld worden.';
-$string['forcenewattempt_help'] = 'Indien ingeschakeld zal het opnieuw bezoeken van dit SCORM-pakket beschouwd worden als een nieuwe poging/';
+$string['forcenewattemptdesc'] = 'Dit verbergt het selectievakje "Start een nieuwe poging" en verhindert de bekijken-modus. SCORM laat leerlingen terugkomen naar eenzelfde punt in een poging en een nieuwe poging is niet mogelijk tenzij de vorige poging als "voltooid", "geslaagd" of "mislukt" gemarkeerd is. Als het SCORM-pakket dit niet doet, dan zal de leerling altijd dezelfde poging opnieuw openen.';
+$string['forcenewattempt_help'] = 'Dit verbergt het selectievakje "Start een nieuwe poging" en verhindert de bekijken-modus.
+
+SCORM laat leerlingen terugkomen naar eenzelfde punt in een poging en een nieuwe poging is niet mogelijk tenzij de vorige poging als "voltooid", "geslaagd" of "mislukt" gemarkeerd is. Als het SCORM-pakket dit niet doet, dan zal de leerling altijd dezelfde poging opnieuw openen.';
 $string['found'] = 'Manifest gevonden';
 $string['frameheight'] = 'Met deze instelling kies je de hoogte van het frame of venster.';
 $string['framewidth'] = 'Deze voorkeurinstelling is de standaardbreedte van het frame of venster.';
@@ -250,7 +253,7 @@ $string['noattemptsmade'] = 'Aantal pogingen die je gedaan hebt';
 $string['no_attributes'] = 'Tag {$a->tag} moet attributen hebben';
 $string['no_children'] = 'Tag {$a->tag} moet children hebben';
 $string['nolimit'] = 'Onbeperkt aantal pogingen';
-$string['nomanifest'] = 'Fout bestandspakket - imsmanifest.xml of AICC-structuur ontbreekt.';
+$string['nomanifest'] = 'Fout bestandspakket - ontbrekend imsmanifest.xml of AICC-structuur';
 $string['noprerequisites'] = 'Sorry, maar je hebt nog niet genoeg voltooid om toegang te krijgen tot dit leerobject';
 $string['noreports'] = 'Er is geen rapport om te tonen';
 $string['normal'] = 'Activiteit starten';
@@ -305,6 +308,8 @@ $string['position_error'] = 'De {$a->tag} kan geen child zijn van {$a->parent} t
 $string['preferencespage'] = 'Voorkeuren enkel voor deze pagina';
 $string['preferencesuser'] = 'Voorkeuren voor dit rapport';
 $string['prev'] = 'Vorige';
+$string['protectpackagedownloads'] = 'Bescherm pakketdownloads';
+$string['protectpackagedownloads_desc'] = 'Indien ingeschakeld zullen SCORM-pakketten enkel gedownload kunnen worden als de gebruiker de course:manageactivities mogelijkheid heeft. Indien uitgeschakeld kunnen SCORM-pakketten aldijd gedownload worden (mobiel of op andere manieren).';
 $string['raw'] = 'Ruwe score';
 $string['regular'] = 'Normaal manifest';
 $string['report'] = 'Rapport';
@@ -334,11 +339,12 @@ $string['scormresponsedeleted'] = 'Verwijderde gebruikerspoging';
 $string['scorm:savetrack'] = 'Bewaar spoor';
 $string['scorm:skipview'] = 'Overzicht overslaan';
 $string['scormtype'] = 'Type';
-$string['scormtype_help'] = 'Deze instelling bepaalt hoe het pakket wordt opgenomen in de cursus. Er zijn vier opties:
+$string['scormtype_help'] = 'Deze instelling bepaalt hoe het pakket wordt opgenomen in de cursus. Er zijn vijf opties:
 
 * Upload van pakket - Staat toe om een SCORM pakket te kiezen via de file picker
 * Extern SCORM manifest - Staat toe om een imsmanifest.xml URL te specifiëren. Nota: Indien de URL een andere domeinnaam heeft dan jouw site, dan is \'Download van pakket\' een betere optie, want anders worden de beoordelingscijfers niet bewaard.
 * Download van pakket - Staat toe om een pakket URL te specifiëren. Dit pakket zal worden unzipped, lokaal bewaard, en bijgewerkt wanneer het externe SCORN pakket wordt bijgewerkt.
+* Lokale IMS content opslagruimte - Staat toe om een pakket te selecteren vanuit een IMS opslagruimte
 * Externe AICC URL - Deze URL is de lancerings URL voor één enkele AICC activiteit. Een pseudo pakket zal hierrond worden opgetrokken.';
 $string['scorm:viewreport'] = 'Bekijk rapporten';
 $string['scorm:viewscores'] = 'Bekijk resultaten';

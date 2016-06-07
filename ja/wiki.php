@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'wiki', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,7 @@ $string['defaultformat_help'] = 'この設定ではWikiページの編集時に�
 * HTML - HTMLエディタを使用できます。
 * クレオール - 小さな編集ツールバーの一般的なWikiマークアップ言語を使用できます。
 * Nwiki - Nwikiモジュールで使用される、Mediawikiのようなマークアップ言語です。';
+$string['deleteallpages'] = 'すべてのWikiページを削除する';
 $string['deletecomment'] = 'コメントの削除';
 $string['deletecommentcheck'] = 'コメントを削除する';
 $string['deletecommentcheckfull'] = '本当にコメントを削除してもよろしいですか?';
@@ -190,7 +191,7 @@ $string['orphaned'] = '迷子ページ';
 $string['orphaned_help'] = '他のページからリンクされていないページを一覧表示します。';
 $string['overridelocks'] = 'ロックをオーバーライドする';
 $string['overridinglocks'] = 'ロックのオーバーライド ...';
-$string['pageexists'] = 'このページはすでに存在します。リダイレクトします。';
+$string['pageexists'] = 'このページはすでに存在します。';
 $string['pageindex'] = 'ページインデックス';
 $string['pageindex_help'] = 'このWikiページツリー';
 $string['pageislocked'] = '現在、他のユーザがこのページを編集しています。数分後に編集をお試しください。';
@@ -225,12 +226,15 @@ $string['return'] = '戻る';
 $string['save'] = '保存';
 $string['saving'] = 'Wikiページの保存';
 $string['savingerror'] = '保存エラー';
+$string['search:activity'] = 'Wiki - 活動情報';
+$string['search:collaborative_page'] = 'Wikiページ - 共同ページ';
 $string['searchcontent'] = 'ページコンテクスト内を検索する';
 $string['searchresult'] = '検索結果:';
 $string['searchterms'] = '検索語';
 $string['searchwikis'] = 'Wikiを検索する';
 $string['special'] = '特別';
 $string['tableofcontents'] = '目次';
+$string['tagarea_wiki_pages'] = 'Wikiページ';
 $string['tagsdeleted'] = 'Wikiタグが削除されました。';
 $string['tagtitle'] = '{$a} タグを表示する';
 $string['teacherrating'] = '教師の評価';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'ar', branch 'MOODLE_28_STABLE'
+ * Strings for component 'quiz', language 'ar', branch 'MOODLE_31_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,8 +86,6 @@ $string['cannotwrite'] = 'تعذرت الكتابة على ملف التصدير
 $string['caseno'] = 'لا، حالة الأحرف غير مهمة';
 $string['casesensitive'] = 'مطابقة حالة الأحرف';
 $string['caseyes'] = 'نعم، لابد من مطابقة حالة الأحرف';
-$string['categories'] = 'فئات';
-$string['category'] = 'تصنيف';
 $string['categoryadded'] = 'لقم تم إضافة التصنيف {$a}';
 $string['categorydeleted'] = 'لقم تم حذف  التصنيف {$a}';
 $string['categorynoedit'] = 'لا تملك صلاحية التحرير في هذه الفئة \'{$a}\'.';
@@ -150,7 +148,6 @@ $string['essay'] = 'مقالة';
 $string['essayquestions'] = 'أسئلة مقالية';
 $string['everyquestion'] = 'كل سؤال';
 $string['everythingon'] = 'كل شئ في';
-$string['export'] = 'تصدير';
 $string['exportname'] = 'اسم الملف';
 $string['exportquestions'] = 'صدر الأسئله إلى ملف';
 $string['false'] = 'خاطىء';
@@ -177,7 +174,6 @@ $string['grademethod'] = 'أسلوب التقييم';
 $string['gradingmethod'] = 'طريقة التقييم: {$a}';
 $string['guestsno'] = 'معذرة! يتعذر على الضيوف أداء الامتحانات أو رؤيتها';
 $string['imagedisplay'] = 'الصورة المراد عرضها';
-$string['import'] = 'استيراد';
 $string['importcategory'] = 'استيراد تصنيف';
 $string['importquestions'] = 'استيراد الاسئلة من ملف';
 $string['incorrect'] = 'خطاء';
@@ -225,7 +221,6 @@ $string['modulename_help'] = 'يمكن نشاط الاختبار المدرس م
 $string['modulenameplural'] = 'امتحانات';
 $string['multichoice'] = 'خيارات متعددة';
 $string['multipleanswers'] = 'اختر اجابة واحدة على الأقل';
-$string['multiplier'] = 'متعدد';
 $string['name'] = 'اسم';
 $string['newattemptfail'] = 'خطاء  -  لا يمكن البدئ في محاولة جديد لهذا الامتحان';
 $string['noanswers'] = 'لم يتم اختيار إجابات!';

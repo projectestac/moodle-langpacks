@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_password', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'quizaccess_password', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   quizaccess_password
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['passworderror'] = '密码不正确';
+$string['pluginname'] = '使用密码的测验的访问规则';
+$string['quizpassword'] = '测验密码';
 $string['requirepasswordmessage'] = '知道密码才能试答此测验';

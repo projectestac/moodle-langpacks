@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'data', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addtemplate'] = '追加用テンプレート';
 $string['advancedsearch'] = '検索オプション';
 $string['allowcomments'] = 'エントリへのコメントを許可する';
 $string['alttext'] = '代替テキスト';
+$string['approvalstatus'] = '承認ステータス';
 $string['approve'] = '承認';
 $string['approved'] = '承認日時';
 $string['areacontent'] = 'フィールド';
@@ -131,6 +132,7 @@ $string['entrieslefttoaddtoview'] = '他の参加者のエントリを閲覧す�
 $string['entry'] = 'エントリ';
 $string['entrysaved'] = 'あなたのエントリが保存されました。';
 $string['errormustbeteacher'] = 'このページを使用するにはあなたは教師である必要があります!';
+$string['errormustsupplyvalue'] = 'あなたはここで値を提供する必要があります。';
 $string['errorpresetexists'] = '選択された名称のプリセットはすでに存在します。';
 $string['eventfieldcreated'] = 'フィールドが作成されました。';
 $string['eventfielddeleted'] = 'フィールドが削除されました。';
@@ -209,6 +211,7 @@ $string['invalidurl'] = 'あなたが入力したURLは正しくありません�
 $string['jstemplate'] = 'JavaScriptテンプレート';
 $string['latitude'] = '経度';
 $string['latlong'] = '緯度/経度';
+$string['latlongboth'] = '緯度および経度の両方とも必須です。';
 $string['latlongdownloadallhint'] = 'すべてのエントリのリンクをKMLとしてダウンロードする';
 $string['latlongkmllabelling'] = 'KMLファイル (Google Earth) でのラベルのつけ方';
 $string['latlonglinkservicesdisplayed'] = '表示するLink-outサービス';
@@ -216,6 +219,8 @@ $string['latlongotherfields'] = '他のフィールド';
 $string['list'] = '一覧表示';
 $string['listtemplate'] = '一覧表示用テンプレート';
 $string['longitude'] = '経度';
+$string['manageapproved'] = '承認済みエントリの編集を許可する';
+$string['manageapproved_help'] = 'この設定を無効にした場合、認証済みエントリは追加したオーナーにより編集および削除することはできません。この設定は「承認必要」が有効にされない限り影響を及ぼしません。';
 $string['mapexistingfield'] = '{$a} にマップする';
 $string['mapnewfield'] = '新しいフィールドを作成する';
 $string['mappingwarning'] = '新しいフィールドにマップされない古いフィールドは喪失します。古いフィールドのすべてのデータは削除されます。';
@@ -304,12 +309,14 @@ $string['recordsnotsaved'] = 'エントリは保存されませんでした。�
 $string['recordssaved'] = 'エントリが保存されました。';
 $string['requireapproval'] = '要承認';
 $string['requireapproval_help'] = 'この設定を有効にした場合、学生が閲覧できる前に教師からエントリの承認を受ける必要があります。';
+$string['required'] = '必須';
 $string['requiredentries'] = '完了のための必須エントリ数';
 $string['requiredentries_help'] = '活動が完了したとみなされるまでに学生が送信する必要のあるエントリ数です。';
 $string['requiredentriestoview'] = '閲覧前に必要な入力エントリ数';
 $string['requiredentriestoview_help'] = 'このデータベースエントリの閲覧が許可されるまでに参加者が登録する必要のある入力エントリ数です。
 
 注意: 閲覧前にエントリが必要な場合、データベースオートリンクフィルタを無効にしてください。データベースオートリンクフィルタではユーザにより必要な入力エントリ数が送信されたかどうか判定することができません。';
+$string['requiredfield'] = '必須フィールド';
 $string['resetsettings'] = 'フィルタをリセットする';
 $string['resettemplate'] = 'テンプレートをリセットする';
 $string['resizingimages'] = 'イメージサムネイルのリサイズ...';

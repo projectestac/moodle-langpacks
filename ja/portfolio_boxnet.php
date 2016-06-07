@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio_boxnet', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'portfolio_boxnet', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   portfolio_boxnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,9 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['apiv1migration_message_content'] = '最新のMoodle 2.6へのアップグレードの一環として、Boxポートフォリオプラグインは無効にされています。再度有効にするにはドキュメンテーション ( {$a->docsurl} ) に記載されているとおり、あなたは再設定する必要があります。';
-$string['apiv1migration_message_small'] = 'Box APIv1移行ドキュメンテーションで説明されている設定が必要なため、このプラグインは無効にされています。';
-$string['apiv1migration_message_subject'] = 'Boxポートフォリオプラグインに関する重要情報';
 $string['clientid'] = 'クライアントID';
 $string['clientsecret'] = 'クライアント秘密鍵';
 $string['existingfolder'] = 'ファイルを保存する既存のフォルダ';

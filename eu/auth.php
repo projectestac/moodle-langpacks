@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'eu', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -130,6 +130,7 @@ $string['recaptcha'] = 'reCAPTCHA';
 $string['recaptcha_help'] = 'CAPTCHA programa automaten gehiegikeria ekideteko da. Besterik gabe, idatzi hitzak kutxatxeoan, ordenean eta tarte bat utzita.
 
 Ez bazaude ziur zein hitz diren, beste CAPTCHA bat eska dezkaezu edo audio CAPTCHA bat.';
+$string['security_question'] = 'Segurtasun-galdera';
 $string['selfregistration'] = 'Auto-erregistroa';
 $string['selfregistration_help'] = 'Autentifikazio-plugin bat, e-posta bidezko auto-erregistroa adibidez, aukeratzen bada aukera ematen die ustezko erabiltzaileei beren buruak erregistratu eta kontuak sortzeko. Horrela, spam sortzaileek kontuak sor ditzakete eta foroetako mezuak, blog sarrerak, e.a. spamerako erabili. Arrisku horri aurre egiteko, auto-erregistroa desgaitu edo mugatu egin behar da <em> Gaitutako e-posta domeinuak </em> ezarpena erabilita.';
 $string['sha1'] = 'SHA-1 hash';

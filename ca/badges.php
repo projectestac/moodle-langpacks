@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'badges', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -100,6 +100,7 @@ $string['badgeprivacysetting'] = 'Configuració de privacitat de la insígnia';
 $string['badgeprivacysetting_help'] = 'Les insígnies que guanyeu es poden mostrar a la vostra pàgina de perfil del compte. Aquests paràmetres us permeten definir automàticament la visibilitat de les noves insígnies guanyades.
 Encara podeu controlar la configuració de privacitat d\'una insígnia individual a la vostra pàgina "Les meues insígnies".';
 $string['badgeprivacysetting_str'] = 'Mostra automàticament les insígnies que guanye a la meva pàgina de perfil';
+$string['badges'] = 'Insígnies';
 $string['badgesalt'] = 'Sal per a la funció resum aplicada a l\'adreça de correu electrònic del destinatari';
 $string['badgesalt_desc'] = 'Utilitzar una funció resum (hash) permet als serveis motxilla confirmar qui ha guanyat la insígnia sense haver de revelar la seva adreça de correu electrònic. Aquest paràmetre només hauria d\'utilitzar números i lletres.
 
@@ -135,7 +136,7 @@ $string['copyof'] = 'Còpia de {$a}';
 $string['coursebadges'] = 'Insígnies';
 $string['coursebadgesdisabled'] = 'Les insígnies de curs no estan habilitades en aquest lloc.';
 $string['coursecompletion'] = 'Els usuaris han de completar aquest curs.';
-$string['create'] = 'Nova insígnia';
+$string['create'] = 'Insígnia nova';
 $string['createbutton'] = 'Crea una insígnia';
 $string['creatorbody'] = '<p> {$a->user} ha completat tots els requisits per a la insígnia i se li ha concedit. Vegeu la insígnia emesa en {$a->link} </p>';
 $string['creatorsubject'] = '«{$a}» ha estat guardonat!';
@@ -243,6 +244,7 @@ $string['error:requesterror'] = 'La petició de connexió ha fallat (codi d\'err
 $string['error:requesttimeout'] = 'La petició de connexió ha superat el temps permès abans de poder-se completar.';
 $string['error:save'] = 'No es pot desar la insígnia.';
 $string['error:userdeleted'] = '{$a->user} (Aquest usuari ja no existeix al lloc {$a->site})';
+$string['eventbadgeawarded'] = 'Insígnia concedida';
 $string['evidence'] = 'Evidència';
 $string['existingrecipients'] = 'Destinataris de la insígnia existents';
 $string['expired'] = 'Ha caducat';
@@ -259,7 +261,6 @@ $string['externalbadges_help'] = 'Aquesta àrea mostra insígnies de la vostra m
 $string['externalbadgesp'] = 'Insígnies d\'altres llocs web:';
 $string['externalconnectto'] = 'Per mostrar les insígnies externes necessiteu <a href="{$a}">connectar-vos a una motxilla</a>.';
 $string['fixed'] = 'Data fixa';
-$string['hidden'] = 'Oculta';
 $string['hiddenbadge'] = 'Malauradament, el propietari de la insígnia no ha fet disponible aquesta informació.';
 $string['issuancedetails'] = 'Expiració de la insígnia';
 $string['issuedbadge'] = 'Informació de la insígnia emesa';
@@ -286,7 +287,7 @@ $string['month'] = 'Mes(os)';
 $string['mybackpack'] = 'Configuració de la meva motxilla';
 $string['mybadges'] = 'Les meves insígnies';
 $string['never'] = 'Mai';
-$string['newbadge'] = 'Afegeix una nova insígnia';
+$string['newbadge'] = 'Afegeix una insígnia nova';
 $string['newimage'] = 'Nova imatge';
 $string['noawards'] = 'Aquesta insígnia encara no s\'ha guanyat.';
 $string['nobackpack'] = 'No hi ha cap servei de motxilla connectat amb aquest compte.<br />';

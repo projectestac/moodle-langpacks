@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_clean', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'theme_clean', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   theme_clean
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,8 +34,8 @@ $string['footnotedesc'] = 'Wat je in deze tekstzone toevoegd, zal onderaan elke 
 $string['invert'] = 'Navigatiebalk inverteren';
 $string['invertdesc'] = 'Schakelt de tekst en achtergrond voor de navigatiebalk bovenaan de pagina tussen zwart en wit';
 $string['logo'] = 'Logo';
-$string['logodesc'] = 'Het logo wordt getoond in de header.<br />Als de hoogte meer dan 75px is, voeg dan bijvoorbeeld volgende regel toe in het veld voor Aangpaste CSS  hier onder, als de hoogte van je logo 100px is:<br />
-a.logo {height: 100px;}';
+$string['logodesc'] = 'Upload hier het logo dat je wil toevoegen aan de header. <br>Als de hoogte van je logo meer dan 75px is, voeg dan volgende regel toe in het veld voor Aangpaste CSS <br />
+div.logo {height: 100px;} -> pas dit aan aan de hoogte van je logo.';
 $string['pluginname'] = 'Clean';
 $string['region-side-post'] = 'Rechts';
 $string['region-side-pre'] = 'Links';

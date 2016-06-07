@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'journal', language 'eu', branch 'MOODLE_28_STABLE'
+ * Strings for component 'journal', language 'eu', branch 'MOODLE_30_STABLE'
  *
  * @package   journal
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,6 +66,7 @@ $string['pluginadministration'] = 'Egunkariaren kudeaketa';
 $string['pluginname'] = 'Egunkaria';
 $string['rate'] = 'Kalifikazioa';
 $string['removeentries'] = 'Ezabatu sarrera guztiak';
+$string['removemessages'] = 'Ezabatu egunkari-sarrera guztiak';
 $string['saveallfeedback'] = 'Gorde nire feedback guztiak';
 $string['showoverview'] = 'Erakutsi egunkarien ikuspegi orokorra Nire Moodle-n';
 $string['showrecentactivity'] = 'Erakutsi duela gutxiko aktibitatea';

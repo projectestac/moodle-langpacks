@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'auth_ldap', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,7 +71,7 @@ $string['auth_ldap_noconnect_all'] = 'LDAP-module kan met geen enkele server ver
 $string['auth_ldap_noextension'] = 'Waarschuwing: De PHP LDAP module is blijkbaar niet geïnstalleerd. Zorg er voor dat ze geïnstalleerd en ingeschakeld is.';
 $string['auth_ldap_no_mbstring'] = 'Je hebt de mbstring-extentie nodig in Active Directory om gebruikers te kunnen aanmaken.';
 $string['auth_ldapnotinstalled'] = 'Kan de LDAP-authenticatie niet gebruiken. De PHP LDAP module is niet geïnstalleerd';
-$string['auth_ldap_objectclass'] = 'De filter om namen/gebruiker te zoeken. Gewoonlijk zet je dit op iets als objectClass=posixAccount. Staat standaard op objectclass=*, wat alle objecten van LDAP geeft.';
+$string['auth_ldap_objectclass'] = 'Optioneel: Overschrijft objectClass, gebruikt om gebruikers te noemen/zoeken op ldap_user_type. Gewoonlijk moet je dit niet wijzigen.';
 $string['auth_ldap_objectclass_key'] = 'Object klasse';
 $string['auth_ldap_opt_deref'] = 'Bepaalt hoe aliassen tijdens het zoeken behandeld worden. Kies één van volgende waarden: "Nee" (LDAP_DEREF_NEVER) of "Ja" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_opt_deref_key'] = 'Bepaalt hoe aliassen tijdens het zoeken behandeld worden. Kies één van volgende waarden: "Nee" (LDAP_DEREF_NEVER) of "Ja" (LDAP_DEREF_ALWAYS)
@@ -141,6 +141,7 @@ $string['renamingnotallowed'] = 'Hernoemen van gebruiker niet toegelaten in LDAP
 $string['rootdseerror'] = 'Fout bij het bevragen van de rootDSE voor Active Directory';
 $string['start_tls'] = 'Gebruik de gewone LDAP-service (poort 389) met TLS-encryptie.';
 $string['start_tls_key'] = 'Gebruik TLS';
+$string['synctask'] = 'LDAP-gebruikers sync job';
 $string['updatepasserror'] = 'Fout in user_update_password(). Foutcode {$a->errno}; Foutstring: {$a->errstring}';
 $string['updatepasserrorexpire'] = 'Fout in user_update_password() bij het lezen van de verlooptijd voor het wachtwoord. Foutcode: {$a->errno}; Foutstring: {$a->errstring}';
 $string['updatepasserrorexpiregrace'] = 'Fout in user_update_password() bij het wijzigen van de verlooptijd en/of gracelogins.  Foutcode: {$a->errno}; Foutstring: {$a->errstring}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'forum', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -110,7 +110,7 @@ $string['configusermarksread'] = 'Om \'Ja\' så måste användare manuellt marke
 $string['confirmsubscribe'] = 'Vill Du verkligen prenumerera på forumet \'{$a}\'?';
 $string['confirmsubscribediscussion'] = 'Vill du verkligen prenumerera på diskussionen \'{$a->discussion}\' i forumet \'{$a->forum}\' ?';
 $string['confirmunsubscribe'] = 'Vill Du verkligen avbryta prenumerationen på forumet \'{$a}\'?';
-$string['confirmunsubscribediscussion'] = 'Vill du verkligen avbeställa din prenumeration på  \'{$a->diskussion}\' i forum \'{$a->forum}\'?';
+$string['confirmunsubscribediscussion'] = 'Vill du verkligen avbeställa din prenumeration på \'{$a->diskussion}\' i forum \'{$a->forum}\'?';
 $string['couldnotadd'] = 'Det gick inte att lägga till Ditt inlägg på grund av okänt fel.';
 $string['couldnotdeletereplies'] = 'Tyvärr, det kan inte tas bort eftersom folk redan har svarat på det.';
 $string['couldnotupdate'] = 'Det gick inte att uppdatera Ditt inlägg på grund av okänt fel.';
@@ -490,6 +490,8 @@ $string['unsubscribealldone'] = 'Alla Dina prenumerationer på forum har tagits 
 $string['unsubscribeallempty'] = 'Du är tyvärr inte registrerad som prenumerant på några forum. Om Du inte vill ha några fler e-postmeddelanden från den här server, var då snäll och gå till Din profil och avaktivera e-postadressen där.';
 $string['unsubscribed'] = 'Avbeställd';
 $string['unsubscribediscussion'] = 'Avbeställ prenumerationen från denna diskussion.';
+$string['unsubscribediscussionlink'] = 'Avbeställ prenumerationen från denna diskussion: {$a}';
+$string['unsubscribelink'] = 'Avbeställ prenumerationen från denna diskussion: {$a}';
 $string['unsubscribeshort'] = 'Avregistrera prenumeration';
 $string['usermarksread'] = 'Uppmärkning  för läsning av manuellt meddelande';
 $string['viewalldiscussions'] = 'Visa alla diskussioner';

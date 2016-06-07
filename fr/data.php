@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'data', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addtemplate'] = 'Modèle nouvelle fiche';
 $string['advancedsearch'] = 'Recherche avancée';
 $string['allowcomments'] = 'Autoriser les commentaires';
 $string['alttext'] = 'Texte alternatif';
+$string['approvalstatus'] = 'Statut d\'approbation';
 $string['approve'] = 'Approuver';
 $string['approved'] = 'Approuvé';
 $string['areacontent'] = 'Champs';
@@ -131,6 +132,7 @@ $string['entrieslefttoaddtoview'] = 'Vous devez ajouter encore {$a->entriesleftt
 $string['entry'] = 'Fiche';
 $string['entrysaved'] = 'Votre fiche a été enregistrée';
 $string['errormustbeteacher'] = 'Vous devez être enseignant pour afficher cette page !';
+$string['errormustsupplyvalue'] = 'Veuillez renseigner une valeur.';
 $string['errorpresetexists'] = 'Un préréglage de ce nom existe déjà';
 $string['eventfieldcreated'] = 'Champ créé';
 $string['eventfielddeleted'] = 'Champ supprimé';
@@ -208,6 +210,7 @@ $string['invalidurl'] = 'L\'URL que vous venez de saisir n\'est pas valide';
 $string['jstemplate'] = 'Modèle Javascript';
 $string['latitude'] = 'Latitude';
 $string['latlong'] = 'Latitude/longitude';
+$string['latlongboth'] = 'La latitude et la longitude sont requises.';
 $string['latlongdownloadallhint'] = 'Lien pour télécharger tous les éléments comme KML';
 $string['latlongkmllabelling'] = 'Comment étiqueter des éléments dans les fichiers KML (Google Earth)';
 $string['latlonglinkservicesdisplayed'] = 'Services liés à afficher';
@@ -215,6 +218,8 @@ $string['latlongotherfields'] = 'Autres champs';
 $string['list'] = 'Affichage liste';
 $string['listtemplate'] = 'Modèle liste';
 $string['longitude'] = 'Longitude';
+$string['manageapproved'] = 'Permettre la modification des fiches approuvées';
+$string['manageapproved_help'] = 'Si ce réglage est désactivé, les fiches approuvées ne peuvent plus être modifiées, ni supprimées par l\'utilisateur qui les a ajoutée. Ce réglage n\'a d\'effet que si l\'approbation des fiches est exigée.';
 $string['mapexistingfield'] = 'Faire correspondre à {$a}';
 $string['mapnewfield'] = 'Créer un nouveau champ';
 $string['mappingwarning'] = 'Les anciens champs qui ne sont pas mis en correspondance avec un nouveau champ seront perdus, ainsi que toutes les données qu\'ils contiennent.';
@@ -303,12 +308,14 @@ $string['recordsnotsaved'] = 'Aucune fiche n\'a été importée. Veuillez vérif
 $string['recordssaved'] = 'fiches importées';
 $string['requireapproval'] = 'Approbation requise';
 $string['requireapproval_help'] = 'Si vous désirez que les fiches soient approuvées par un enseignant avant de pouvoir être vues par les autres participants, activez cette option.';
+$string['required'] = 'Requis';
 $string['requiredentries'] = 'Fiches requises pour achèvement';
 $string['requiredentries_help'] = 'Le nombre de fiches qu\'un participant a l\'obligation de créer dans cette activité pour qu\'elle soit considérée comme terminée.';
 $string['requiredentriestoview'] = 'Fiches requises avant consultation';
 $string['requiredentriestoview_help'] = 'Ce réglage indique le nombre de fiches qu\'un participant doit créer avant de pouvoir consulter les fiches d\'autres participants.
 
 Remarque ! Cette fonctionnalité ne peut pas être utilisée en même temps que le filtre des liens automatiques des articles de base de données, car ce filtre est incapable de déterminer si un utilisateur a proposé le nombre requis d\'articles.';
+$string['requiredfield'] = 'Champ requis';
 $string['resetsettings'] = 'Réinitialiser les filtres';
 $string['resettemplate'] = 'Réinitialiser le modèle';
 $string['resizingimages'] = 'Génération des vignettes...';

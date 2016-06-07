@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'message', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,8 +42,10 @@ $string['blocknoncontacts'] = 'Impedeix que m\'enviïn missatges els usuaris que
 $string['contactlistempty'] = 'La vostra llista de contactes és buida';
 $string['contacts'] = 'Contactes';
 $string['context'] = 'context';
-$string['defaultmessageoutputs'] = 'Sortides de missatges per defecte';
+$string['defaultmessageoutputs'] = 'Sortides de missatge per defecte';
 $string['defaults'] = 'Per defecte';
+$string['deletemessage'] = 'Esborra el missatge';
+$string['deletemessageconfirmation'] = 'Confirmeu que voleu esborrar aquest missatge? Només s\'esborrarà del vostre historial de missatgeria, i encara serà visible per a l\'usuari que va enviar o va rebre el missatge.';
 $string['deletemessagesdays'] = 'Nombre de dies abans que els missatges vells se suprimeixin automàticament';
 $string['disableall'] = 'Inhabilita les notificacions temporalment';
 $string['disableall_help'] = 'Inhabilita totes les notificacions temporalment excepte aquelles imposades per l\'administració del lloc.';
@@ -73,7 +75,7 @@ $string['keywords'] = 'Paraules clau';
 $string['keywordssearchresults'] = 'Missatges trobats: {$a}';
 $string['keywordssearchresultstoomany'] = 'S\'han trobat més de  {$a} missatges. Afineu la vostra cerca.';
 $string['loggedin'] = 'En línia';
-$string['loggedindescription'] = 'Quan he iniciat sessió';
+$string['loggedindescription'] = 'Quan estic connectat';
 $string['loggedoff'] = 'Fora de línia';
 $string['loggedoffdescription'] = 'Quan estic fora de línia';
 $string['mailsent'] = 'El vostre missatge s\'ha enviat per correu electrònic.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'workshop', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,6 +158,8 @@ $string['gradeitemsubmission'] = '{$a->workshopname} (tramesa)';
 $string['gradeover'] = 'Rectifica la qualificació de la tramesa';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Informe de qualificacions del taller';
+$string['gradetopassgrading'] = 'Qualificació de la tasca d\'avaluació per aprovar';
+$string['gradetopasssubmission'] = 'Qualificació de la tramesa per aprovar';
 $string['gradinggrade'] = 'Qualificació de la tasca d\'avaluació';
 $string['gradinggradecalculated'] = 'Qualificació calculada per l\'avaluació';
 $string['gradinggrade_help'] = 'Aquest paràmetre especifica la qualificació màxima que es pot obtenir per la feina d\'avaluació de trameses.';

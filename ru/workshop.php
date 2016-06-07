@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'workshop', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,6 +158,8 @@ $string['gradeitemsubmission'] = '{$a->workshopname} (работа)';
 $string['gradeover'] = 'Переопределить оценку за работу';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Отчет об оценках семинара';
+$string['gradetopassgrading'] = 'Проходной балл за оценивание';
+$string['gradetopasssubmission'] = 'Проходной балл за отправленный ответ';
 $string['gradinggrade'] = 'Оценка за оценивание';
 $string['gradinggradecalculated'] = 'Вычисленная оценка за оценивание';
 $string['gradinggrade_help'] = 'Этот параметр определяет максимальную оценку, которая может быть получена за оценивание работы.';

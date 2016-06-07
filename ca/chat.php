@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'chat', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,7 +108,7 @@ $string['normalkeepalive'] = 'Keep-Alive';
 $string['normalstream'] = 'Corrent de dades';
 $string['noscheduledsession'] = 'No hi ha cap sessió programada';
 $string['notallowenter'] = 'No teniu permesa l\'entrada a la sala de xat.';
-$string['notlogged'] = 'No heu iniciat sessió';
+$string['notlogged'] = 'No heu entrat';
 $string['oldping'] = 'Temps límit de desconnexió';
 $string['page-mod-chat-x'] = 'Qualsevol pàgina del mòdul de xat';
 $string['pastchats'] = 'Sessions de xat anteriors';

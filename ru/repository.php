@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'repository', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -135,7 +135,6 @@ $string['folderrecurse'] = 'Папка не может быть перемеще
 $string['getfile'] = 'Выбрать этот файл';
 $string['getfiletimeout'] = 'Тайм-аут получения файла';
 $string['help'] = 'Помощь';
-$string['hidden'] = 'Скрыть';
 $string['iconview'] = 'В виде значков';
 $string['imagesize'] = '{$a->width} x {$a->height} пикс.';
 $string['instance'] = 'экземпляр';
@@ -163,6 +162,7 @@ $string['makefileinternal'] = 'Сделать копию файла';
 $string['makefilelink'] = 'Ссылка непосредственно на файл';
 $string['makefilereference'] = 'Создать псевдоним/ярлык для файла';
 $string['manage'] = 'Управление хранилищами файлов';
+$string['manageinstances'] = 'Управление экземплярами';
 $string['manageurl'] = 'Управление';
 $string['manageuserrepository'] = 'Управление индивидуальным хранилищем файлов';
 $string['moving'] = 'Перенос';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -83,13 +83,9 @@ $string['badges:viewbadges'] = 'Visualitza les insígnies disponibles sense guan
 $string['badges:viewotherbadges'] = 'Visualitza les insígnies públiques en els perfils d\'altres usuaris';
 $string['block:edit'] = 'Editar els paràmetres d\'un bloc';
 $string['block:view'] = 'Visualitzar un bloc';
-$string['blog:associatecourse'] = 'Aquesta capacitat és obsoleta i no fa res.';
-$string['blog:associatemodule'] = 'Aquesta capacitat és obsoleta i no fa res.';
 $string['blog:create'] = 'Crear noves entrades del blog';
 $string['blog:manageentries'] = 'Editar i gestionar entrades';
 $string['blog:manageexternal'] = 'Editar i gestionar blogs externs';
-$string['blog:manageofficialtags'] = 'Gestionar les etiquetes oficials';
-$string['blog:managepersonaltags'] = 'Gestionar les etiquetes personals';
 $string['blog:search'] = 'Cercar entrades del blogs';
 $string['blog:view'] = 'Veure entrades del blog';
 $string['blog:viewdrafts'] = 'Veure esborranys d\'entrades del blog';
@@ -225,7 +221,6 @@ $string['grade:unlock'] = 'Desblocar qualificacions o elements';
 $string['grade:view'] = 'Veure les qualificacions pròpies';
 $string['grade:viewall'] = 'Veure les qualificacions d\'altres usuaris';
 $string['grade:viewhidden'] = 'Veure qualificacions ocultes pròpies';
-$string['hidden'] = 'Ocult';
 $string['highlightedcellsshowdefault'] = 'Les cel·les ressaltades de la taula del dessota mostren els permisos per omissió per aquest tipus de rol, basat en el «tipus de rol heretat» del damunt.';
 $string['highlightedcellsshowinherit'] = 'Les cel·les ressaltades de la taula del dessota mostren els permisos (si n\'hi ha) que s\'heretaran. Hauríeu de deixar-ho tot establert a «Hereta» llevat d\'aquelles capacitats de les quals voleu alterar els permisos.';
 $string['inactiveformorethan'] = 'inactiu més de {$a->timeperiod}';
@@ -251,8 +246,8 @@ $string['manageroles'] = 'Gestiona els rols';
 $string['maybeassignedin'] = 'Tipus de context en què es pot assignar aquest rol';
 $string['morethan'] = 'Més que {$a}';
 $string['multipleroles'] = 'Rols múltiples';
-$string['my:configsyspages'] = 'Configura les plantilles del sistema per les pàgines d\'«El Meu Moodle»';
-$string['my:manageblocks'] = 'Gestionar els blocs de la pàgina El Meu Moodle';
+$string['my:configsyspages'] = 'Configura les plantilles del sistema per a les pàgines d\'«El meu Moodle»';
+$string['my:manageblocks'] = 'Gestiona els blocs de la pàgina El meu Moodle';
 $string['neededroles'] = 'Rols amb permís';
 $string['nocapabilitiesincontext'] = 'No hi ha capacitats disponibles en aquest context';
 $string['noneinthisx'] = 'Cap en aquest {$a}';

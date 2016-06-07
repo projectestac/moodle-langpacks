@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'eu', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,13 +77,9 @@ $string['badges:manageownbadges'] = 'Ikusi eta kudeatu norberak irabazitako domi
 $string['badges:viewotherbadges'] = 'Domina publikoak ikusi beste erabiltzaileen profiletan';
 $string['block:edit'] = 'Blokearen ezarpenak editatu';
 $string['block:view'] = 'Blokea ikusi';
-$string['blog:associatecourse'] = 'Gaitasun hau zaharkituta dago eta ez du ezer egiten.';
-$string['blog:associatemodule'] = 'Gaitasun hau zaharkituta dago eta ez du ezer egiten.';
 $string['blog:create'] = 'Blog-sarrera berriak sortu';
 $string['blog:manageentries'] = 'Sarrerak editatu eta kudeatu';
 $string['blog:manageexternal'] = 'Kanpoko blogak editatu eta kudeatu';
-$string['blog:manageofficialtags'] = 'Etiketa ofizialak kudeatu';
-$string['blog:managepersonaltags'] = 'Etiketa pertsonalak kudeatu';
 $string['blog:search'] = 'Blog-sarrerak bilatu';
 $string['blog:view'] = 'Blog-sarrerak ikusi';
 $string['blog:viewdrafts'] = 'Blog-sarreren zirriborroa ikusi';
@@ -112,6 +108,11 @@ $string['comment:post'] = 'Iruzkinak egin';
 $string['comment:view'] = 'Ikusi iruzkinak';
 $string['community:add'] = 'Komunitate-blokea erabili bilguneak bilatu eta ikastaroak aurkitzeko';
 $string['community:download'] = 'Ikastaro bat komunitate-bloketik jaitsi';
+$string['competency:competencygrade'] = 'Ezarri gaitasunen puntuazioa';
+$string['competency:templatemanage'] = 'Kudeatu ikasketa-planerako txantiloiak';
+$string['competency:templateview'] = 'ikusi ikasketa-planerako txantiloiak';
+$string['competency:usercompetencyreview'] = 'Berrikusi erabiltzailearen gaitasuna';
+$string['competency:usercompetencyview'] = 'Ikusi erabiltzailearen gaitasuna';
 $string['confirmaddadmin'] = 'Benetan gehitu nahi al duzu <strong>{$a}</strong> erabiltzailea guneko kudeatzaile gisa?';
 $string['confirmdeladmin'] = 'Benetan kendu nahi al duzu <strong>{$a}</strong> erabiltzailea guneko kudeatzaileen zerrendatik?';
 $string['confirmroleprevent'] = 'Benetan kendu nahi al duzu <strong>{$a->role}</strong> {$a->context} testuinguruan {$a->cap} gaitasuna baimenduta duten rolen zerrendatik?';
@@ -144,6 +145,7 @@ $string['course:reset'] = 'Ikastaroa berrabiarazi';
 $string['course:reviewotherusers'] = 'Berrikusi beste erabiltzaile batzuk';
 $string['course:sectionvisibility'] = 'Atalaren ikusgarritasuna kontrolatu';
 $string['course:setcurrentsection'] = 'Oraingo atala zehaztu';
+$string['course:tag'] = 'Aldatu ikastaroaren etiketak';
 $string['course:update'] = 'Ikastaroaren ezaugarriak eguneratu';
 $string['course:useremail'] = 'E-posta helbidea gaitu/ezgaitu';
 $string['course:view'] = 'Partaidetzarik ez duten ikastaroak ikusi';
@@ -210,7 +212,6 @@ $string['grade:unlock'] = 'Kalifikazioak edo elementuak desblokeatu';
 $string['grade:view'] = 'Norberaren kalifikazioak ikusi';
 $string['grade:viewall'] = 'Beste erabiltzaile batzuen kalifikazioak ikusi';
 $string['grade:viewhidden'] = 'Ezkutuko kalifikazioak ikusi';
-$string['hidden'] = 'Ezkutuan';
 $string['inactiveformorethan'] = '{$a->timeperiod} baino gehiagoz parte hartu gabe';
 $string['ingroup'] = 'talde honetan: "{$a->group}"';
 $string['inherit'] = 'Heredatutakoa';
@@ -233,8 +234,8 @@ $string['manageroles'] = 'Rolak kudeatu';
 $string['maybeassignedin'] = 'Rol hau eslei daitekeen testuinguru-motak';
 $string['morethan'] = '{$a} baino gehiago';
 $string['multipleroles'] = 'Hainbat rol';
-$string['my:configsyspages'] = 'Sistemaren txantiloiak konfiguratu Nire Moodle orrietarako';
-$string['my:manageblocks'] = 'Nire Moodle orriaren blokeak kudeatu';
+$string['my:configsyspages'] = 'Sistemaren txantiloiak konfiguratu aginte-panelerako';
+$string['my:manageblocks'] = 'Kudeatu aginte-panelaren blokeak';
 $string['neededroles'] = 'Baimena duten rolak';
 $string['nocapabilitiesincontext'] = 'Ez duzu horretarako baimenik testuinguru honetan';
 $string['noneinthisx'] = 'Bat ere ez {$a} honetan';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'wiki', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,7 @@ $string['defaultformat_help'] = 'Deze instelling  bepaalt de standaard opmaak di
 *HTML - Gebruik de HTML-editor
 *Creole - Een veel gebruikte wiki opmaaktaal waarvoor een kleine werkbalk beschikbaar is
 *Nwiki - Mediawiki-achtige opmaaktaal die in de Nwiki module gebruikt wordt.';
+$string['deleteallpages'] = 'Verwijder alle wiki-pagina\'s';
 $string['deletecomment'] = 'Verwijder opmerking';
 $string['deletecommentcheck'] = 'Verwijder opmerking';
 $string['deletecommentcheckfull'] = 'Weet je zeker dat je deze opmerking wil verwijderen?';

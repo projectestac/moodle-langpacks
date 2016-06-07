@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_category', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'enrol_category', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_category
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['category:synchronised'] = '角色分配与选课同步';
 $string['pluginname'] = '类别选课';
-$string['pluginname_desc'] = '类别选课插件是旧版本使用的基于角色分配的课程分类级的选课解决方案。建议使用群组同步插件代替它。';
+$string['pluginname_desc'] = '类别选课插件是旧版本使用的基于角色分配的课程分类级的选课解决方案。建议使用群同步插件代替它。';

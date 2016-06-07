@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,8 +30,6 @@ $string['alttext'] = 'Альтернативный текст';
 $string['answer'] = 'Ответ';
 $string['bgimage'] = 'Фоновое изображение';
 $string['clearwrongparts'] = 'Перенести неправильно установленные маркеры назад, в исходные позиции по умолчанию под изображением';
-$string['confirmimagetargetconversion'] = 'Вы собираетесь преобразовать приведенные выше вопросы Image Target в вопрос «Перетаскивание маркеров».';
-$string['convertingimagetargetquestion'] = 'Преобразован вопрос «{$a->name}»';
 $string['coords'] = 'Координаты';
 $string['correctansweris'] = 'Верный ответ: {$a}';
 $string['draggableimage'] = 'Перетаскиваемое изображение';
@@ -61,23 +59,12 @@ $string['formerror_shapeoutsideboundsofbgimage'] = 'Заданная Вами ф
 $string['formerror_toomanysemicolons'] = 'Вы указали слишком много запятых в качестве разделяющих элементов координат. Ваши координаты для {$a->shape} должны быть представлены как - {$a->coordsstring}';
 $string['formerror_unrecognisedwidthheightpart'] = 'Не удалось определить ширину и высоту, заданные Вами. Ваши координаты для {$a->shape} должны быть представлены как - {$a->coordsstring}';
 $string['formerror_unrecognisedxypart'] = 'Не удалось определить координаты x и y, указанные Вами. Ваши координаты для {$a->shape} должны быть представлены как - {$a->coordsstring}';
-$string['imagetargetconverter'] = 'Преобразовать вопросы Image Target в вопрос «Перетаскивание маркеров»';
 $string['infinite'] = 'Использовать неоднократно';
-$string['listitemconfirmcategory'] = 'Собираетесь преобразовать все вопросы Image Target в категории «{$a->name}» (количество вопросов Image Target в категории:  {$a->qcount})';
-$string['listitemconfirmcontext'] = 'Собираетесь преобразовать все вопросы Image Target в контексте «{$a->name}» (количество вопросов Image Target в категории:  {$a->qcount})';
-$string['listitemconfirmquestion'] = 'Собираетесь преобразовать вопрос «{$a->name}»';
-$string['listitemlistallcategory'] = 'Выбрать все вопросы Image Target в категории «{$a->name}» (количество вопросов Image Target в категории:  {$a->qcount})';
-$string['listitemlistallcontext'] = 'Выбрать все вопросы Image Target в контексте «{$a->name}» (количество вопросов Image Target в категории:  {$a->qcount})';
-$string['listitemlistallquestion'] = 'Выбрать вопрос «{$a->name}»';
-$string['listitemprocessingcategory'] = 'Преобразуем все вопросы Image Target в категории «{$a->name}» (количество вопросов Image Target в категории:  {$a->qcount})';
-$string['listitemprocessingcontext'] = 'Преобразуем все вопросы Image Target в контексте «{$a->name}» (количество вопросов Image Target в категории:  {$a->qcount})';
-$string['listitemprocessingquestion'] = 'Преобразован вопрос «{$a->name}»';
 $string['marker'] = 'Маркер';
 $string['marker_n'] = 'Маркер {no}';
 $string['markers'] = 'Маркеры';
 $string['nolabel'] = 'Нет текстовой метки';
 $string['noofdrags'] = 'Число';
-$string['noquestionsfound'] = 'Не найдены вопросы для преобразования.';
 $string['pleasedragatleastonemarker'] = 'Ваш ответ не полный -  на изображении нужно разместить не менее 1-го маркера.';
 $string['pluginname'] = 'Перетаскивание маркеров';
 $string['pluginnameadding'] = 'Добавить «Перетаскивание маркеров»';

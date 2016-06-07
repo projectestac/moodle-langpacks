@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'tag', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,17 +25,23 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['added'] = 'Officiële tag(s) toegevoegd';
 $string['addedotag'] = '"{$a}" is toegevoegd als officiële tag';
 $string['addotags'] = 'Voeg officiële tag toe';
 $string['addtagtomyinterests'] = 'Voeg "{$a}" toe aan mijn interesses';
 $string['alltagpages'] = 'Alle tag-pagina\'s';
 $string['changename'] = 'Wijzig naam';
 $string['changetype'] = 'Wijzig tag-type';
+$string['confirmdeletetag'] = 'Weet je zeker dat je deze tag wil verwijderen?';
+$string['confirmdeletetags'] = 'Weet je zeker dat je deze geselecteerde tags wil verwijderen?';
 $string['count'] = 'Aantal';
+$string['coursetags'] = 'Cursus-tags';
 $string['delete'] = 'Verwijder';
-$string['deleted'] = 'Verwijderd';
+$string['deleted'] = 'Tag(s) verwijderd';
 $string['deletedcoursetags'] = 'Verwijderd - cursus-tags';
+$string['deleteselected'] = 'Verwijder geselecteerde';
 $string['description'] = 'Beschrijving';
+$string['editname'] = 'Bewerk tag-naam';
 $string['edittag'] = 'Bewerk deze tag';
 $string['entertags'] = 'Geef tags in, gescheiden door komma\'s';
 $string['errortagfrontpage'] = 'Het taggen van de startpagina van de site is niet toegelaten';
@@ -49,6 +55,7 @@ $string['eventtagunflagged'] = 'Tag markering verwijderd';
 $string['eventtagupdated'] = 'Tag aangepast';
 $string['flag'] = 'Markeer';
 $string['flagasinappropriate'] = 'Markeer als niet geschikt';
+$string['flagged'] = 'Tag gemarkeerd';
 $string['helprelatedtags'] = 'Komma gescheiden gerelateerde tags';
 $string['id'] = 'id';
 $string['manageofficialtags'] = 'Beheer officiële tags';
@@ -56,7 +63,9 @@ $string['managetags'] = 'Beheer tags';
 $string['name'] = 'Tag naam';
 $string['namesalreadybeeingused'] = 'Tag-naam is al in gebruik';
 $string['newname'] = 'Nieuwe tag naam';
+$string['newnamefor'] = 'Nieuwe naam voor tag {$a}';
 $string['noresultsfor'] = 'Geen resultaten voor "{$a}"';
+$string['nothingtoupdate'] = 'Niets aan te passen';
 $string['officialtag'] = 'Officiële tag';
 $string['otags'] = 'Officiële tags';
 $string['othertags'] = 'Andere tags (geef de tags in, gescheiden door komma\'s)';
@@ -79,6 +88,9 @@ $string['searchresultsfor'] = 'Zoekresultaten voor "{$a}"';
 $string['searchtags'] = 'Zoek tags';
 $string['seeallblogs'] = 'Bekijk alle blogs met tag "{$a}"...';
 $string['select'] = 'Selecteer';
+$string['selecttag'] = 'Selecteer tag {$a}';
+$string['settypedefault'] = 'Verwijder van officiële tags';
+$string['settypeofficial'] = 'Maak officiëel';
 $string['tag'] = 'Tag';
 $string['tagdescription'] = 'Tag beschrijving';
 $string['taggedwith'] = 'getagged met "{$a}"';

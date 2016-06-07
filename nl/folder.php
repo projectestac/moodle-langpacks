@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'folder', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   folder
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,5 +49,6 @@ $string['page-mod-folder-view'] = 'Hoofdpagina mappenmodule';
 $string['page-mod-folder-x'] = 'Elke mappenmodule pagina';
 $string['pluginadministration'] = 'Mappenbeheer';
 $string['pluginname'] = 'Map';
+$string['search:activity'] = 'Map';
 $string['showexpanded'] = 'Toon onderliggende mappen uitgeklapt';
 $string['showexpanded_help'] = 'Indien ingeschakeld worden de onderliggende mappen standaard uitgeklapt getoond. Anders worden onderliggende mappen dichtgeplooid getoond.';

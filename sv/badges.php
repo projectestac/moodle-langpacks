@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'sv', branch 'MOODLE_28_STABLE'
+ * Strings for component 'badges', language 'sv', branch 'MOODLE_31_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,6 +55,7 @@ $string['anymethodactivity'] = 'Någon av de valda aktiviteterna är slutförd';
 $string['anymethodcourseset'] = 'Någon av de valda kurserna är slutförd';
 $string['anymethodmanual'] = 'Någon av de valda rollerna tilldelar märket';
 $string['anymethodprofile'] = 'Något av de valda profilfälten är ifyllt';
+$string['archivebadge'] = 'Vill du ta bort märket \'{$a}\', men behålla existerande umärkningar?';
 $string['attachment'] = 'Bifoga märke med meddelande';
 $string['attachment_help'] = 'Om ikryssad så kommer ett utfärdat märke bifogas med mottagarens epost för nedladdning';
 $string['award'] = 'Tilldela märke';
@@ -99,6 +100,7 @@ $string['badgeprivacysetting_help'] = 'Märken som du tar kan visas på din kont
 
 Du kan fortfarande göra individuella sekretessinställningar för märken på din "Mina märken"-sida.';
 $string['badgeprivacysetting_str'] = 'Visa automatiskt märken jag tagit på min profilsida';
+$string['badges'] = 'Märken';
 $string['badgesalt'] = 'Salt för att hasha mottagarens epost-adress';
 $string['badgesalt_desc'] = 'Användningen av en hash ger ryggsäcks-tjänster möjligheten att bekräfta den som tagit ett märke utan att exponera dennes epost-adress. Den här inställningen ska bara använda siffror och bokstäver.';
 $string['badgesdisabled'] = 'Märken är inte aktiverade på den här webbplatsen.';
@@ -202,6 +204,7 @@ $string['error:cannotact'] = 'Kan inte aktivera märket.';
 $string['error:cannotawardbadge'] = 'Kan inte tilldela märke till en användare.';
 $string['error:clone'] = 'Kan inte klona märket.';
 $string['error:duplicatename'] = 'Ett märke med det namnet finns redan i systemet.';
+$string['error:externalbadgedoesntexist'] = 'Märke ej hittat';
 $string['error:invalidbadgeurl'] = 'Ogiltigt URL-format för utfärdare av märke';
 $string['error:invalidcriteriatype'] = 'Ogiltig kriterietyp.';
 $string['error:invalidexpiredate'] = 'Förfallodatum måste vara i framtiden.';
@@ -220,6 +223,7 @@ $string['error:nosuchuser'] = 'Användaren med den här e-postadressen har inget
 $string['error:notifycoursedate'] = 'Varning: Märken associerade med kursen och slutförande av aktiviteter kommer inte att utfärdas förrän kursens startdatum.';
 $string['error:parameter'] = 'Varning: Minst en parameter måste väljas för att garantera ett korrekt arbetsflöde för utfärdande av märken.';
 $string['error:save'] = 'Kan inte spara märket.';
+$string['eventbadgeawarded'] = 'Märke belönat till';
 $string['evidence'] = 'Bevis';
 $string['existingrecipients'] = 'Existerande mottagare av märke';
 $string['expired'] = 'Förfallen';
@@ -236,7 +240,6 @@ $string['externalbadges_help'] = 'Den här arean visar märken från din externa
 $string['externalbadgesp'] = 'Märken från andra webbplatser:';
 $string['externalconnectto'] = 'För att visa externa märken så behöver du <a href="{$a}">ansluta till en ryggsäck</a>.';
 $string['fixed'] = 'Fast datum';
-$string['hidden'] = 'Dold';
 $string['hiddenbadge'] = 'Tyvärr, ägaren av märket har inte gjort den här informationen tillgänglig.';
 $string['issuancedetails'] = 'Förfallande av märke';
 $string['issuedbadge'] = 'Information för utfärdat märke';

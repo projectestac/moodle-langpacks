@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'data', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -131,6 +131,7 @@ $string['entrieslefttoaddtoview'] = '在查看其他参与者的条目前，您�
 $string['entry'] = '条目';
 $string['entrysaved'] = '您的条目已保存';
 $string['errormustbeteacher'] = '只有教师能使用此页';
+$string['errormustsupplyvalue'] = '这儿你必须提供一个值。';
 $string['errorpresetexists'] = '选择的名字已经被使用';
 $string['example'] = '数据库模块样例';
 $string['excel'] = 'Excel';

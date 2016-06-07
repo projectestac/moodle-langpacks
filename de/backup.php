@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'backup', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,11 @@ $string['automatedbackupschedule'] = 'Planung';
 $string['automatedbackupschedulehelp'] = 'Wählen Sie, an welchen Wochentagen die automatischen Sicherungen durchgeführt werden sollen.';
 $string['automatedbackupsinactive'] = 'Automatische Sicherungen wurden vom Administrator nicht eingerichtet.';
 $string['automatedbackupstatus'] = 'Geplanter Sicherungsstatus';
+$string['automateddeletedays'] = 'Sicherungen löschen wenn älter als';
+$string['automatedmaxkept'] = 'Maximale Anzahl von aufgehobenen Sicherungen';
+$string['automatedmaxkepthelp'] = 'Diese Option legt die maximale Anzahl von automatisch erstellten Sicherungen fest, die in jedem Kurs abgelegt werden. Ältere Sicherungen werden automatisch gelöscht.';
+$string['automatedminkept'] = 'Minimale Anzahl von aufgehobenen Sicherungen';
+$string['automatedminkepthelp'] = 'Diese Option legt die minimale Anzahl von automatisch erstellten Sicherungen fest, die in jedem Kurs abgelegt werden. Dies verhindert, dass z.B. in einem inaktiven Kurs die letzte Sicherung gelöscht wird.';
 $string['automatedsettings'] = 'Geplante Sicherungen';
 $string['automatedsetup'] = 'Automatische Sicherungen';
 $string['automatedstorage'] = 'Speicherplatz für automatisierte Sicherungen';
@@ -87,6 +92,7 @@ $string['configgeneralbadges'] = 'Diese Option legt fest, ob Auszeichnungen stan
 $string['configgeneralblocks'] = 'Standard für die Einbeziehung von Blöcken in eine Sicherung';
 $string['configgeneralcomments'] = 'Standard für die Einbeziehung von Kommentaren in eine Sicherung';
 $string['configgeneralfilters'] = 'Standard für die Einbeziehung von Filtern in eine Sicherung';
+$string['configgeneralgroups'] = 'Diese Option legt die Standardeinstellung für Gruppen und Gruppierungen in Kurssicherungen fest.';
 $string['configgeneralhistories'] = 'Standard für die Einbeziehung von Nutzerverläufen in eine Sicherung';
 $string['configgenerallogs'] = 'Standard für die Einbeziehung von Logdaten in eine Sicherung';
 $string['configgeneralquestionbank'] = 'Falls diese Option aktiv ist, wird die Fragensammlung standardmäßig in Kurssicherungen einbezogen. Wenn die Option deaktiviert wird, können Aktivitäten nicht gesichert werden, die auf die Fragensammlung zugreifen, z.B. Tests.';
@@ -117,7 +123,7 @@ $string['errorfilenamerequired'] = 'Sie müssen einen gültigen Dateinamen für 
 $string['errorinvalidformat'] = 'Unbekanntes Sicherungsformat';
 $string['errorinvalidformatinfo'] = 'Die ausgewählte Datei ist keine gültige Moodlesicherung und kann nicht zur Wiederherstellung verwendet werden';
 $string['errorminbackup20version'] = 'Diese Sicherungsdatei wurde mit einer Entwicklungsversion des Moodle-Backups ({$a->backup}) erstellt. Für die Wiederherstellung ist mindestens {$a->min} notwendig.';
-$string['errorrestorefrontpage'] = 'Die Wiederherstellung über die Startseite ist nicht erlaubt';
+$string['errorrestorefrontpagebackup'] = 'Sicherungen einer Startseite können nur auf der Startseite wiederhergestellt werden.';
 $string['executionsuccess'] = 'Ihre Sicherung wurde erfolgreich abgeschlossen.';
 $string['filealiasesrestorefailures'] = 'Fehler bei der Alias-Wiederherstellung';
 $string['filealiasesrestorefailures_help'] = 'Aliases sind symbolische Links zu anderen Dateien, auch Dateien in externen Repositories. In einigen Fällen kann Moodle diese Aliases nicht wiederherstellen, z.B. wenn eine Sicherung in einem anderen System wiederhergestellt wird oder die verlinkte Datei nicht existiert.';
@@ -134,6 +140,7 @@ $string['generalblocks'] = 'Blöcke einbeziehen';
 $string['generalcomments'] = 'Kommentare einbeziehen';
 $string['generalfilters'] = 'Filter einbeziehen';
 $string['generalgradehistories'] = 'Verlauf einbeziehen';
+$string['generalgroups'] = 'Gruppen und Gruppierungen einbeziehen';
 $string['generalhistories'] = 'Verlauf einbeziehen';
 $string['generallogs'] = 'Logdaten einbeziehen';
 $string['generalquestionbank'] = 'Fragensammlung einbeziehen';
@@ -154,6 +161,8 @@ $string['importcurrentstage2'] = 'Schema-Einstellungen';
 $string['importcurrentstage4'] = 'Bestätigung und Prüfung';
 $string['importcurrentstage8'] = 'Import durchführen';
 $string['importfile'] = 'Sicherungsdatei importieren';
+$string['importgeneralduplicateadminallowed'] = 'Zulassen, dass Administratoren den Konflikt lösen';
+$string['importgeneralduplicateadminallowed_desc'] = 'Wenn es auf dem System einen Nutzeraccount mit dem Anmeldenamen \'admin\' gibt, kann es beim Wiederherstellen einer Sicherung einen Konflikt geben, sofern darin ebenfalls ein solcher Nutzer vorhanden ist.  Mit dieser Einstellung kann der Konflikt gelöst werden. Es wird dann eine neuer Nutzername \'admin_xyz\' erzeugt.';
 $string['importgeneralmaxresults'] = 'Max. Anzahl von Kursen für den Import';
 $string['importgeneralmaxresults_desc'] = 'Diese Option legt fest, wie viele Kurse im ersten Schritt des Importprozesses maximal angezeigt werden.';
 $string['importgeneralsettings'] = 'Standardwerte für den Import';
@@ -228,8 +237,10 @@ $string['rootsettingbadges'] = 'Auszeichnungen einbeziehen';
 $string['rootsettingblocks'] = 'Blöcke einbeziehen';
 $string['rootsettingcalendarevents'] = 'Kalender einbeziehen';
 $string['rootsettingcomments'] = 'Kommentare einbeziehen';
+$string['rootsettingcompetencies'] = 'Kompetenzen einbeziehen';
 $string['rootsettingfilters'] = 'Filter einbeziehen';
 $string['rootsettinggradehistories'] = 'Bewertungsverlauf einbeziehen';
+$string['rootsettinggroups'] = 'Gruppen und Gruppierungen einbeziehen';
 $string['rootsettingimscc1'] = 'Als IMS Common Cartridge 1.0 konvertieren';
 $string['rootsettingimscc11'] = 'Als IMS Common Cartridge 1.1 konvertieren';
 $string['rootsettinglogs'] = 'Kurslogdaten  einbeziehen';
@@ -250,6 +261,7 @@ $string['setting_keep_groups_and_groupings'] = 'Aktuelle Gruppen und Gruppierung
 $string['setting_keep_roles_and_enrolments'] = 'Aktuelle Rollen und Einschreibungen behalten';
 $string['setting_overwriteconf'] = 'Kurseinstellungen überschreiben';
 $string['showtypes'] = 'Typ-Optionen anzeigen';
+$string['sitecourseformatwarning'] = 'Sicherungen einer Startseite können nur auf der Startseite wiederhergestellt werden.';
 $string['skiphidden'] = 'Verborgene Kurse überspringen';
 $string['skiphiddenhelp'] = 'Wählen Sie, ob verborgene Kurse gesichert werden sollen oder nicht.';
 $string['skipmodifdays'] = 'Unveränderte Kurse überspringen';

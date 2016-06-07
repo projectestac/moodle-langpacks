@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'cache', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,8 @@ $string['area'] = 'Zone';
 $string['cacheadmin'] = 'Cache-beheer';
 $string['cacheconfig'] = 'Configuratie';
 $string['cachedef_calendar_subscriptions'] = 'Kalenderinschrijvingen';
+$string['cachedef_capabilities'] = 'Lijst systeemmogelijkheden';
+$string['cachedef_completion'] = 'Status van activiteitsvoltooiing';
 $string['cachedef_config'] = 'Configuratie-instellingen';
 $string['cachedef_coursecat'] = 'Cursuscategorielijst voor een bepaalde gebruiker';
 $string['cachedef_coursecatrecords'] = 'Cursuscategorie-records';
@@ -44,13 +46,13 @@ $string['cachedef_coursemodinfo'] = 'Geaccumuleerde informatie over modules en s
 $string['cachedef_databasemeta'] = 'Meta-informatie databank';
 $string['cachedef_eventinvalidation'] = 'Gebeurtenis ongeldig maken';
 $string['cachedef_externalbadges'] = 'Externe badges voor een bepaalde gebruiker';
-$string['cachedef_gradecondition'] = 'Cijfers worden gecached om conditionele activiteit te controleren.';
 $string['cachedef_groupdata'] = 'Curus groepsinformatie';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier - opgeschoonde inhoud';
 $string['cachedef_langmenu'] = 'Lijst van beschikbare talen';
 $string['cachedef_locking'] = 'Blokkeren';
 $string['cachedef_navigation_expandcourse'] = 'Navigatie uitklapbare cursussen';
 $string['cachedef_observers'] = 'Actie wachters';
+$string['cachedef_plugin_functions'] = 'Plugins beschikbare callbacks';
 $string['cachedef_plugin_manager'] = 'Plugin infobeheerder';
 $string['cachedef_questiondata'] = 'Vraagdefinities';
 $string['cachedef_repositories'] = 'Opslagruimtegegevens';
@@ -98,6 +100,8 @@ $string['invalidlock'] = 'Ongeldige blokkering';
 $string['invalidplugin'] = 'Ongeldige plugin';
 $string['invalidstore'] = 'Ongeldige cache opslag gegeven';
 $string['lockdefault'] = 'Standaard';
+$string['locking'] = 'Blokkeren';
+$string['locking_help'] = 'Locking is een mechanisme dat de toegang tot gegevens in cache beperkt tot één proces tegelijk om te voorkomen dat de gegevens overschreven worden. De methode van locking bepaalt hoe de lock bekomen en gecontroleerd wordt.';
 $string['lockingmeans'] = 'Blokkeringsmechanisme';
 $string['lockmethod'] = 'Blokkeermethode';
 $string['lockmethod_help'] = 'Dit is de blokkermethode die gebruikt wordt als dit vereist wordt door deze opslag.';

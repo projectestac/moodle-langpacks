@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'my', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   my
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['delpage'] = 'Удалить страницу';
 $string['managepages'] = 'Управлять страницами';
 $string['mymoodle'] = 'Моя домашняя страница';
 $string['nocourses'] = 'Нет информации для отображения.';
-$string['noguest'] = 'Домашняя страница недоступна для гостей';
+$string['noguest'] = 'Страница «Моя домашняя страница» недоступна для гостей';
 $string['pinblocks'] = 'Настроить расположение блоков';
 $string['pinblocksexplan'] = 'Любая настройка блока, установленная здесь будет видима (и не редактируема) для любого пользователя системы на его странице «Мой Moodle»';
 $string['reseterror'] = 'При сбросе настроек страницы произошла ошибка';

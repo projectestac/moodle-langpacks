@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'tool_monitor', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,7 +79,6 @@ $string['monitorenabled'] = 'La surveillance d\'événements est actuellement ac
 $string['monitor:managerules'] = 'Gérer les règles de surveillance d\'événements';
 $string['monitor:managetool'] = 'Activer/désactiver la surveillance d\'événements';
 $string['monitor:subscribe'] = 'S\'abonner à des règles de surveillance d\'événements';
-$string['nopermission'] = 'Pas de permission';
 $string['norules'] = 'Il n\'y a pas de règle de surveillance d\'événement.';
 $string['pluginname'] = 'Surveillance d\'événements';
 $string['processevents'] = 'Traiter les événements';
@@ -90,6 +89,7 @@ $string['ruledeletesuccess'] = 'Règle supprimée';
 $string['rulehelp'] = 'Infos détaillées de la règle';
 $string['rulehelp_help'] = 'Cette règle surveille si l\'événement « {$a->eventname} » dans « {$a->moduleinstance} » est déclenché {$a->frequency} fois durant un intervalle de {$a->minutes} minute(s).';
 $string['rulename'] = 'Nom de la règle';
+$string['rulenopermission'] = 'Vous n\'avez pas la permission de vous abonner à des événements.';
 $string['rulenopermissions'] = 'Vous n\'avez pas la permission pour {$a} une règle.';
 $string['rulescansubscribe'] = 'Règles auxquelles vous pouvez vous abonner';
 $string['selectacourse'] = 'Sélectionnez un cours';

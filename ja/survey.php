@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'survey', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -240,6 +240,7 @@ $string['savednotes'] = 'メモが保存されました。';
 $string['scaleagree5'] = '全く賛成できない,多少賛成できない,どちらでもない,多少賛成できる,強く賛成できる';
 $string['scales'] = '評価尺度';
 $string['scaletimes5'] = 'ほとんどない,まれに,時々,頻繁に,ほとんどいつも';
+$string['search:activity'] = '調査 - 活動情報';
 $string['seemoredetail'] = '詳細を見るためにはここをクリックしてください。';
 $string['selectedquestions'] = '評価尺度から選ばれた質問、すべての学生';
 $string['summary'] = '概要';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'message', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addcontact'] = 'Adicionar contacto';
 $string['addsomecontacts'] = 'Para enviar uma mensagem a alguém, ou para acrescentar à sua lista de contactos, entre na secção <a href="{$a}">Procurar</a> na barra superior.';
-$string['addsomecontactsincoming'] = 'Estas mensagens são de pessoas que não estão na sua lista de contactos. Para os adicionar aos seus contactos, clique no icon "Adicionar Contacto" ao pé do nome deles.';
+$string['addsomecontactsincoming'] = 'Mensagens de utilizadores que não estão na sua lista de contactos. Para os adicionar aos seus contactos, clique em "Adicionar Contacto" junto do nome do utilizador.';
 $string['ago'] = '{$a} atrás';
 $string['ajax_gui'] = 'sala de chat Ajax';
 $string['allmine'] = 'Todas as mensagens, minhas ou para mim';
@@ -44,6 +44,8 @@ $string['contacts'] = 'Contactos';
 $string['context'] = 'contexto';
 $string['defaultmessageoutputs'] = 'Predefinições de envio de mensagens';
 $string['defaults'] = 'Predefinições';
+$string['deletemessage'] = 'Apagar mensagem';
+$string['deletemessageconfirmation'] = 'Tem a certeza que deseja apagar esta mensagem? A mesma será apagada apenas do seu histórico de mensagens, continuando visível para o utilizador que a enviou ou que recebeu a mensagem.';
 $string['deletemessagesdays'] = 'Número de dias antes que as mensagens velhas sejam apagadas automaticamente';
 $string['disableall'] = 'Desativar temporáriamente todas as notificações';
 $string['disableall_help'] = 'Desativa temporariamente todas as notificações excepto as que forem marcadas pelo administrador';
@@ -56,10 +58,12 @@ $string['emptysearchstring'] = 'Tem que procurar por alguma coisa';
 $string['enabled'] = 'Ativado';
 $string['errorcallingprocessor'] = 'Erro ao chamar método de envio definido';
 $string['errortranslatingdefault'] = 'Ocorreu um erro na tradução dada pelo módulo, irá usar as configurações predefinidas do site.';
+$string['errorwhilesendingmessage'] = 'Ocorreu um erro ao enviar a mensagem, por favor tente novamente mais tarde.';
 $string['eventmessagecontactadded'] = 'Contato de mensagem adicionado';
 $string['eventmessagecontactblocked'] = 'Contato de mensagem bloqueado';
 $string['eventmessagecontactremoved'] = 'Contato de mensagem removido';
 $string['eventmessagecontactunblocked'] = 'Contato de mensagem desbloqueado';
+$string['eventmessagedeleted'] = 'Mensagem apagada';
 $string['eventmessagesent'] = 'Mensagem enviada';
 $string['eventmessageviewed'] = 'Mensagem visualizada';
 $string['forced'] = 'Forçado';
@@ -68,7 +72,7 @@ $string['gotomessages'] = 'Ver mensagens';
 $string['guestnoeditmessage'] = 'Os utilizadores convidados não podem alterar as definições das mensagens';
 $string['guestnoeditmessageother'] = 'Os utilizadores convidados não podem alterar as definições das mensagens de outro utilizador';
 $string['includeblockedusers'] = 'Incluir utilizadores bloqueados';
-$string['incomingcontacts'] = 'Contactos a entrar ({$a})';
+$string['incomingcontacts'] = 'Contactos a adicionar ({$a})';
 $string['keywords'] = 'Palavra(s)';
 $string['keywordssearchresults'] = 'Mensagens encontradas: {$a} ';
 $string['keywordssearchresultstoomany'] = 'Foram encontradas mais de  {$a} mensagens. Refine a sua pesquisa.';
@@ -83,9 +87,11 @@ $string['maxmessages'] = 'Número máximo de mensagens a mostrar no histórico d
 $string['message'] = 'Mensagem';
 $string['messagehistory'] = 'Histórico de mensagens';
 $string['messagehistoryfull'] = 'Todas as mensagens';
-$string['messagenavigation'] = 'Navegação de mensagens:';
+$string['messagenavigation'] = 'Navegação nas mensagens:';
 $string['messageoutputs'] = 'Métodos de envio de mensagens';
 $string['messages'] = 'Mensagens';
+$string['messagesent'] = 'Mensagem enviada';
+$string['messagetosend'] = 'Mensagem por enviar';
 $string['messaging'] = 'Notificações';
 $string['messagingblockednoncontact'] = '{$a} não poderá responder porque bloqueou os utilizadores que não são seus contactos';
 $string['messagingdisabled'] = 'O sistema de mensagens encontra-se desativado neste site, em alternativa, serão enviados e-mails.';
@@ -126,6 +132,7 @@ $string['search'] = 'Procurar';
 $string['searchcombined'] = 'Procurar pessoas e mensagens';
 $string['searchforperson'] = 'Procurar uma pessoa';
 $string['searchmessages'] = 'Procurar mensagens';
+$string['sendingmessage'] = 'A enviar mensagem';
 $string['sendingvia'] = 'A enviar "{$a->provider}" via "{$a->processor}"';
 $string['sendingviawhen'] = 'A enviar "{$a->provider}" via "{$a->processor}" em {$a->state}';
 $string['sendmessage'] = 'Enviar mensagem';
@@ -139,10 +146,12 @@ $string['thisconversation'] = 'esta conversa';
 $string['timenosee'] = 'Última vez que fui visto online (em minutos)';
 $string['timesent'] = 'Hora de envio';
 $string['touserdoesntexist'] = 'Não pode enviar uma mensagem ao utilizador com id ({$a}) que não existe';
+$string['unabletomessageuser'] = 'Não possui permissões para enviar uma mensagem a este utilizador';
 $string['unblockcontact'] = 'Desbloquear contacto';
-$string['unreadmessages'] = 'Mensagens não lidas: {$a}';
+$string['unreadmessages'] = 'Mensagens não lidas: ({$a})';
 $string['unreadnewmessage'] = 'Nova mensagem de {$a}';
 $string['unreadnewmessages'] = 'Mensagens novas: ({$a})';
 $string['userisblockingyou'] = 'Este utilizador bloqueou-te para não enviares mensagens para ele';
 $string['userisblockingyounoncontact'] = '{$a} só aceita mensagens de pessoas que estejam na sua lista de contactos.';
 $string['userssearchresults'] = 'Utilizadores encontrados: {$a}';
+$string['viewconversation'] = 'Ver conversa';

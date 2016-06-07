@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,6 +77,7 @@ $string['cannoteditcomment'] = 'SIe dürfen keinen fremden Kommentar bearbeiten'
 $string['cannoteditcommentexpired'] = 'Die Zeit zur Bearbeitung ist abgelaufen!';
 $string['cannoteditpostorblog'] = 'Sie dürfen keine Blogs posten oder bearbeiten.';
 $string['cannoteditsiteform'] = 'Sie können die Startseite nicht über dieses Formular bearbeiten';
+$string['cannotedituserpreferences'] = 'Die Nutzereinstellungen können nicht geändert werden.';
 $string['cannotedityourprofile'] = 'Sie können Ihr Profil nicht bearbeiten';
 $string['cannotexecduringupgrade'] = 'Bei der Aktualisierung nicht ausführbar';
 $string['cannotfindcategory'] = 'Für den Kursbereich kann kein Datensatz  mit der ID {$a} gefunden werden';
@@ -124,6 +125,7 @@ $string['cannotreadfile'] = 'Die Datei \'{$a}\' kann nicht gelesen werden';
 $string['cannotreadtmpfile'] = 'Fehler beim Lesen von temporären Daten';
 $string['cannotreaduploadfile'] = 'Die hochgeladene Datei konnte nicht gelesen werden';
 $string['cannotremovefrommeta'] = 'Sie können den ausgewählten Kurs nicht aus diesem Metakurs entfernen!';
+$string['cannotreprocessgrades'] = 'Die Bewertungen für die Aktivität {$a} konnten nicht neu berechnet werden.';
 $string['cannotresetguestpwd'] = 'Sie dürfen das Kennwort für Gäste nicht ändern';
 $string['cannotresetmail'] = 'Fehler beim Setzen und Senden des Kennwortes';
 $string['cannotresetthisrole'] = 'Diese Rolle kann nicht zurückgesetzt werden';
@@ -232,6 +234,7 @@ $string['errorcreatingfile'] = 'Fehler beim Erstellen der Datei "{$a}"';
 $string['errorcreatingrole'] = 'Fehler beim Anlegen der Rolle';
 $string['errorfetchingrssfeed'] = 'Fehler beim Holen eines RSS Feeds';
 $string['erroronline'] = 'Fehler in Zeile {$a}';
+$string['erroroutput'] = 'Fehleranzeige. Die automatische Weiterleitung ist deaktiviert.';
 $string['errorparsingxml'] = 'Fehler beim Parsen von XML: {$a->errorstring} in Zeile {$a->errorline}, Zeichen {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Fehler bei der Verarbeitung einer Archivdatei';
 $string['errorreadingfile'] = 'Fehler beim Lesen der Datei "{$a}"';
@@ -255,6 +258,7 @@ $string['forumblockingtoomanyposts'] = 'Sie haben die Höchstzahl der zulässige
 $string['generalexceptionmessage'] = 'Fehler: {$a}';
 $string['gradecantregrade'] = 'Fehler bei der Bewertungsberechnung: {$a}';
 $string['gradepubdisable'] = 'Das Veröffentlichen von Bewertungen ist deaktiviert';
+$string['gradesneedregrading'] = 'Die Kursbewertungen müssen neu berechnet werden.';
 $string['groupalready'] = 'Nutzer/in gehört bereits zur Gruppe {$a}';
 $string['groupexistforcourse'] = 'Die Gruppe \'{$a}\' existiert bereits in diesem Kurs.';
 $string['groupexistforcoursewithidnumber'] = '{$a->problemgroup}: Die Gruppe \'{$a->name}\' mit der ID \'{$a->idnumber}\' existiert bereits in diesem Kurs.';
@@ -278,6 +282,7 @@ $string['idnumbertaken'] = 'ID-Nummer wird bereits genutzt';
 $string['idnumbertoolong'] = 'ID ist zu lang';
 $string['importformatnotimplement'] = 'Entschuldigung, der Import dieses Formats wird zur Zeit nicht unterstützt!';
 $string['incorrectext'] = 'Die Datei hat eine inkorrekte Dateierweiterung.';
+$string['inplaceeditableerror'] = 'Fehler beim Aufruf der Aktualisierung';
 $string['installproblem'] = 'Eine Wiederherstellug ist meist nicht mögllich wenn während der Installation Fehler aufgetreten sind. Erstellen Sie eine neue Datenbank oder wählen Sie einen anderen Tabellenpräfix und veruschen Sie eine neue Installation.';
 $string['internalauthpassworderror'] = 'Fehlendes Kennwort oder ungültige Kennwortregeln zur internen Authentifizierung';
 $string['invalidaccess'] = 'Auf diese Seite wurde nicht richtig zugegriffen';
@@ -300,6 +305,7 @@ $string['invalidcomponent'] = 'Ungültiger Komponentenname';
 $string['invalidconfirmdata'] = 'Ungültige Bestätigungsdaten';
 $string['invalidcontext'] = 'Ungültiger Kontext';
 $string['invalidcourse'] = 'Ungültiger Kurs';
+$string['invalidcourseformat'] = 'Ungültiges Kursfromat';
 $string['invalidcourseid'] = 'Sie versuchen, eine ungültige Kurs-ID zu benutzen.';
 $string['invalidcourselevel'] = 'Falsche Kontext-Stufe';
 $string['invalidcoursemodule'] = 'Ungültige Kursmodul-ID';
@@ -347,6 +353,7 @@ $string['invalidsourcefield'] = 'Der Eintrag im Feld für die Datei (draft file)
 $string['invalidstatedetected'] = 'Eigentlich hätte hier kein Fehler passieren dürfen: {$a}';
 $string['invalidurl'] = 'Ungültige URL';
 $string['invaliduser'] = 'Ungültige Nutzer/in';
+$string['invaliduserdata'] = 'Ungültige Nutzerdaten: {$a}';
 $string['invaliduserfield'] = 'Ungültiges Nutzerfeld: {$a}';
 $string['invaliduserid'] = 'Ungültige Nutzer-ID';
 $string['invalidusername'] = 'Der Anmeldename enthält ungültige Zeichen';
@@ -367,6 +374,7 @@ $string['loginasnoenrol'] = 'Das "Einschreiben" oder "Abmelden" für einem Kurs 
 $string['loginasonecourse'] = 'Sie können sich in diesen Kurs nicht eintragen.<br /> Beenden Sie zuerst die Funktion "Login als", um sich dann in den anderen Kurs einzutragen.';
 $string['maxareabytes'] = 'Diese Datei ist zu groß';
 $string['maxbytes'] = 'Diese Datei ist größer als die Maximalgröße';
+$string['maxbytesfile'] = 'Die Datei {$a->file} ist zu groß. Die maximale Größe zum Hochladen ist {$a->size}.';
 $string['messagingdisable'] = 'Die Mitteilungen sind für diese Website deaktiviert.';
 $string['mimetexisnotexist'] = 'Ihr System ist nicht richtig konfiguriert, um mimeTeX ausführen zu können. Sie müssen das geeignete Programm für Ihr Betriebssystem unter der Adresse <a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a> herunterladen. Alternativ können Sie sich auch den C-Quellcode unter <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a> herunterladen, kompilieren und dann das ausführbare Programm in das Verzeichnis moodle/filter/tex/ legen.';
 $string['mimetexnotexecutable'] = 'Das spezifische Programm mimetex ist nicht ausführbar!';
@@ -492,7 +500,7 @@ $string['statsdisable'] = 'Statistik ist nicht aktiviert.';
 $string['statsnodata'] = 'Für die Kombination aus Kurs und Zeitraum liegen keine Daten vor.';
 $string['storedfilecannotcreatefile'] = 'Die Datei im lokalen Dateiverzeichnis konnte nicht angelegt werden. Überprüfen Sie die Rechte für moodledata und den verfügbaren Speicherplatz.';
 $string['storedfilecannotcreatefiledirs'] = 'Beim Anlegen von lokalen Basisverzeichnissen gab es Probleme. Bitte prüfen Sie die Dateirechte im Verzeichnis dataroot.';
-$string['storedfilecannotread'] = 'Datei kann nicht gelesen werden, weil es nicht existiert oder es Rechteprobleme gibt';
+$string['storedfilecannotread'] = 'Die Datei kann nicht gelesen werden. Eventuell existiert sie nicht oder es gibt ein Rechteproblem.';
 $string['storedfilenotcreated'] = 'Datei kann nicht angelegt werden \'{$a->contextid}/{$a->component}/{$a->filearea}/{$a->itemid}{$a->filepath}{$a->filename}\'';
 $string['storedfileproblem'] = 'Unbekannter Fehler mit lokalen Dateien ({$a})';
 $string['tagdisabled'] = 'Schlagwörter sind deaktiviert!';

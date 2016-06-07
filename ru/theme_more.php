@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_more', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'theme_more', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   theme_more
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,8 +62,7 @@ $string['invertdesc'] = 'Обмен цвета текста и фона межд
 $string['linkcolor'] = 'Цвет ссылок';
 $string['linkcolor_desc'] = 'Задает цвет ссылок.';
 $string['logo'] = 'Логотип';
-$string['logodesc'] = 'Загрузите сюда свой логотип, если хотите добавить его в заголовок.<br>
-Если высота Вашего логотипа более 75px, то добавьте ниже в окне «Пользовательские CSS» следующее правило: <br> a.logo {height: 100px;} или любую высоту логотипа в пикселях.';
+$string['logodesc'] = 'Логотип отображается только в верхнем колонтитуле главной страницы и страницы входа в систему.<br /> Если высота Вашего логотипа более 75 пикселей, то ниже в поле «Пользовательские CSS» добавьте правило div.logo {height: 100px;}, заменив значение, если высота отличается от 100 пикселей.';
 $string['pluginname'] = 'More';
 $string['region-side-post'] = 'Справа';
 $string['region-side-pre'] = 'Слева';

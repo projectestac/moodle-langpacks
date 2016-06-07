@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assign', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['addsubmission'] = 'Ajouter un travail';
 $string['allocatedmarker'] = 'Évaluateur attribué';
 $string['allocatedmarker_help'] = 'L\'évaluateur attribué pour ce travail';
 $string['allowsubmissions'] = 'Autoriser l\'utilisateur à ajouter ou modifier ses travaux pour ce devoir.';
-$string['allowsubmissionsanddescriptionfromdatesummary'] = 'Les détails du devoir et le formulaire de remise de document seront disponible dès le <strong>{$a}</strong>';
+$string['allowsubmissionsanddescriptionfromdatesummary'] = 'Les détails du devoir et le formulaire de remise de document seront disponibles dès le <strong>{$a}</strong>';
 $string['allowsubmissionsfromdate'] = 'Autoriser la remise dès le';
 $string['allowsubmissionsfromdate_help'] = 'Si ce réglage est activé, les participants ne pourront pas remettre de document avant cette date. Dans le cas contraire, ils pourront immédiatement remettre des documents.';
 $string['allowsubmissionsfromdatesummary'] = 'Ce devoir acceptera la remise de documents dès le <strong>{$a}</strong>';
@@ -80,7 +80,7 @@ $string['attemptreopenmethod_help'] = 'Détermine comment les travaux remis par 
 <ul>
 <li>Jamais - Le travail de l\'étudiant ne peut pas être rouvert.</li>
 <li>Manuellement - Le travail de l\'étudiant peut être rouvert par un enseignant.</li>
-<li>Automatiquement jusqu\'à réussite - Le travail est rouvert automatiquement jusqu\'à ce que l\'étudiant atteigne la note nécessaire pour réussir le devoir ; cette note est indiquée dans le carnet de note (section Catégories et éléments).</li>
+<li>Automatiquement jusqu\'à réussite - Le travail est rouvert automatiquement jusqu\'à ce que l\'étudiant atteigne la note nécessaire pour réussir le devoir ; cette note est indiquée dans le carnet de note (section Configuration du carnet de notes).</li>
 </ul>';
 $string['attemptreopenmethod_manual'] = 'Manuellement';
 $string['attemptreopenmethod_none'] = 'Jamais';
@@ -89,6 +89,7 @@ $string['attemptsettings'] = 'Réglages de tentative';
 $string['availability'] = 'Disponibilité';
 $string['backtoassignment'] = 'Retour au devoir';
 $string['batchoperationconfirmaddattempt'] = 'Autoriser une autre tentative pour les travaux remis sélectionnés';
+$string['batchoperationconfirmdownloadselected'] = 'Télécharger les travaux remis sélectionnés ?';
 $string['batchoperationconfirmgrantextension'] = 'Octroyer une prolongation pour tous les travaux sélectionnés&nbsp;?';
 $string['batchoperationconfirmlock'] = 'Verrouiller tous les travaux sélectionnés&nbsp;?';
 $string['batchoperationconfirmreverttodraft'] = 'Remettre tous les travaux sélectionnés dans l\'état brouillon&nbsp;?';
@@ -102,8 +103,11 @@ $string['batchoperationunlock'] = 'déverrouiller les travaux remis';
 $string['batchsetallocatedmarker'] = 'Évaluateur attribué pour {$a} utilisateurs sélectionnés.';
 $string['batchsetmarkingworkflowstateforusers'] = 'Statut d\'évaluation défini pour {$a} utilisateurs sélectionnés.';
 $string['blindmarking'] = 'Évaluation à l\'aveugle';
+$string['blindmarkingenabledwarning'] = 'L\'évaluation à l\'aveugle est activée pour cette activité.';
 $string['blindmarking_help'] = 'L\'évaluation à l\'aveugle cache aux évaluateurs l\'identité des étudiants. Les réglages de l\'évaluation à l\'aveugle seront verrouillés dès qu\'un travail aura été remis ou une note donnée pour ce devoir.';
+$string['changefilters'] = 'Modifier les filtres';
 $string['changegradewarning'] = 'Ce devoir comporte des travaux évalués. La modification de la note ne déclenchera pas automatiquement le calcul des notes existantes. Pour modifier la note, vous devez ré-évaluer tous les travaux remis.';
+$string['changeuser'] = 'Modifier l\'utilisateur';
 $string['choosegradingaction'] = 'Action d\'évaluation';
 $string['choosemarker'] = 'Sélectionner...';
 $string['chooseoperation'] = 'Choisir une opération';
@@ -122,6 +126,7 @@ $string['currentattempt'] = 'Ceci est la tentative {$a}.';
 $string['currentattemptof'] = 'Ceci est la tentative {$a->attemptnumber} ({$a->maxattempts} tentatives autorisées).';
 $string['currentgrade'] = 'Note actuelle dans le carnet de notes';
 $string['cutoffdate'] = 'Date limite';
+$string['cutoffdatecolon'] = 'Date limite : {$a}';
 $string['cutoffdatefromdatevalidation'] = 'La date limite doit être ultérieure à la date après laquelle la remise des devoirs est permise.';
 $string['cutoffdate_help'] = 'Si cette date est indiquée, le devoir n\'autorisera aucune remise de travail après ce délai, sauf octroi d\'une prolongation.';
 $string['cutoffdatevalidation'] = 'La date limite ne peut pas être antérieure au délai de remise.';
@@ -131,7 +136,9 @@ $string['defaultteam'] = 'Groupe par défaut';
 $string['deleteallsubmissions'] = 'Supprimer tous les travaux remis';
 $string['description'] = 'Description';
 $string['downloadall'] = 'Télécharger tous les travaux remis';
+$string['downloadselectedsubmissions'] = 'Télécharger les travaux remis sélectionnés';
 $string['duedate'] = 'Date de remise';
+$string['duedatecolon'] = 'Date de remise : {$a}';
 $string['duedate_help'] = 'Cette date est celle du délai de remise du devoir. La remise des devoirs sera autorisée après cette date, mais les devoirs remis après cette date seront marqués en retard. Pour empêcher la remise de travaux après une certaine date, veuillez indiquer une date limite de remise.';
 $string['duedateno'] = 'Pas de date de remise';
 $string['duedatereached'] = 'La date de remise de ce devoir est passée';
@@ -196,6 +203,7 @@ $string['filtersubmitted'] = 'Devoir rendu';
 $string['gradeabovemaximum'] = 'La note doit être inférieure ou égale à {$a}.';
 $string['gradebelowzero'] = 'La note doit être supérieure ou égale à zéro.';
 $string['gradecanbechanged'] = 'La note peut être modifiée';
+$string['gradechangessaveddetail'] = 'Les modifications à la note et au feedback ont été enregistrées';
 $string['graded'] = 'Noté';
 $string['gradedby'] = 'Évalué par';
 $string['gradedon'] = 'Évalué le';
@@ -232,7 +240,8 @@ $string['invalidgradeforscale'] = 'La note fournie n\'est pas valide dans le bar
 $string['lastmodifiedgrade'] = 'Dernière modification (note)';
 $string['lastmodifiedsubmission'] = 'Dernière modification (travail remis)';
 $string['latesubmissions'] = 'Devoirs en retard';
-$string['latesubmissionsaccepted'] = 'Permis jusqu\'à la date de prolongation';
+$string['latesubmissionsaccepted'] = 'Permis jusqu\'au {$a}';
+$string['loading'] = 'Chargement...';
 $string['locksubmissionforstudent'] = 'Empêcher la remise d\'autres travaux par l\'étudiant&nbsp;: (id={$a->id}, fullname={$a->fullname}).';
 $string['locksubmissions'] = 'Verrouiller la remise des travaux';
 $string['manageassignfeedbackplugins'] = 'Gérer les plugins de feedback des devoirs';
@@ -262,6 +271,8 @@ $string['markingworkflowstatereleased'] = 'Publié';
 $string['maxattempts'] = 'Nombre maximal de tentatives';
 $string['maxattempts_help'] = 'Le nombre maximal de tentatives de remise pouvant être effectuées par un étudiant. Une fois ce nombre atteint, le travail remis ne pourra plus être rouvert.';
 $string['maxgrade'] = 'Note maximale';
+$string['maxperpage'] = 'Nombre de devoirs par page';
+$string['maxperpage_help'] = 'Le nombre maximum de devoirs qu\'un évaluateur peut voir dans la page d\'évaluation des devoirs. Pratique pour éviter des lenteurs d\'affichage dans les cours où il y a de très nombreux participants.';
 $string['messageprovider:assign_notification'] = 'Notifications de devoirs';
 $string['modulename'] = 'Devoir';
 $string['modulename_help'] = 'Le module d\'activité devoir permet à un enseignant de communiquer aux participants des tâches, de récolter des travaux et de leur fournir feedbacks et notes.
@@ -271,10 +282,13 @@ Les étudiants peuvent remettre des travaux sous forme numérique (fichiers), pa
 Lors de l\'évaluation des devoirs, les enseignants peuvent donner aux étudiants des feedbacks, leur envoyer des fichiers : travaux annotés, documents avec commentaires ou feedbacks audio. Les devoirs peuvent être évalués au moyen d\'une note numérique, d\'un barème spécifique ou d\'une méthode avancée comme une grille d\'évaluation. Les notes définitives sont enregistrées dans le carnet de notes.';
 $string['modulenameplural'] = 'Devoirs';
 $string['moreusers'] = '{$a} de plus...';
+$string['multipleteams'] = 'Membre de plusieurs groupes';
+$string['multipleteamsgrader'] = 'Membre de plusieurs groupes ; impossible donc de remettre un travail.';
 $string['mysubmission'] = 'Mon travail&nbsp;:';
 $string['newsubmissions'] = 'Devoirs rendus';
 $string['noattempt'] = 'Aucune tentative';
 $string['nofiles'] = 'Aucun fichier.';
+$string['nofilters'] = 'Aucun filtre';
 $string['nograde'] = 'Aucune note.';
 $string['nolatesubmissions'] = 'Aucun devoir en retard accepté';
 $string['nomoresubmissionsaccepted'] = 'Permis uniquement pour les participants ayant obtenu une prolongation';
@@ -282,10 +296,13 @@ $string['noonlinesubmissions'] = 'Ce devoir ne requiert pas de fichier à remett
 $string['nosavebutnext'] = 'Suivant';
 $string['nosubmission'] = 'Rien n\'a été déposé pour ce devoir';
 $string['nosubmissionsacceptedafter'] = 'Aucun devoir accepté après';
+$string['noteam'] = 'Membre d\'aucun groupe';
+$string['noteamgrader'] = 'Membre d\'aucun groupe ; impossible donc de remettre un travail.';
 $string['notgraded'] = 'Pas évalué';
 $string['notgradedyet'] = 'Pas encore évalué';
 $string['notifications'] = 'Notifications';
 $string['notsubmittedyet'] = 'Pas encore rendu';
+$string['nousers'] = 'Aucun utilisateur';
 $string['nousersselected'] = 'Aucun utilisateur sélectionné';
 $string['numberofdraftsubmissions'] = 'Brouillons';
 $string['numberofparticipants'] = 'Participants';
@@ -299,9 +316,12 @@ $string['outof'] = '{$a->current} de {$a->total}';
 $string['overdue'] = '<span class="flagged-tag">Le devoir est en retard de {$a}</span>';
 $string['page-mod-assign-view'] = 'Page principale du module devoir';
 $string['page-mod-assign-x'] = 'Toute page du module devoir';
+$string['paramtimeremaining'] = '{$a} restants';
 $string['participant'] = 'Participant';
 $string['pluginadministration'] = 'Administration du devoir';
 $string['pluginname'] = 'Devoir';
+$string['preventsubmissionnotingroup'] = 'Requiert un groupe pour remettre un devoir';
+$string['preventsubmissionnotingroup_help'] = 'Si ce réglage est activé, les utilisateurs qui ne sont pas membres d\'un groupe ne pourront pas remettre de devoir.';
 $string['preventsubmissions'] = 'Empêcher l\'utilisateur de déposer ou de modifier des travaux pour ce devoir.';
 $string['preventsubmissionsshort'] = 'Empêcher l\'ajout et la modification de travaux';
 $string['previous'] = 'Précédent';
@@ -322,10 +342,13 @@ $string['reverttodraftforstudent'] = 'Remettre à l\'état de brouillon le trava
 $string['reverttodraftshort'] = 'Remettre le travail à l\'état de brouillon';
 $string['reviewed'] = 'Relu';
 $string['saveallquickgradingchanges'] = 'Enregistrer toutes les évaluations rapides';
+$string['saveandcontinue'] = 'Enregistrer et continuer';
 $string['savechanges'] = 'Enregistrer';
 $string['savegradingresult'] = 'Note';
 $string['savenext'] = 'Enregistrer et afficher la suite';
+$string['savingchanges'] = 'Enregistrement des modifications...';
 $string['scale'] = 'Barème';
+$string['search:activity'] = 'Devoir – information sur l\'activité';
 $string['selectedusers'] = 'Utilisateurs sélectionnés';
 $string['selectlink'] = 'Sélectionner...';
 $string['selectuser'] = 'Sélectionner {$a}';
@@ -413,6 +436,7 @@ $string['subplugintype_assignfeedback'] = 'Plugin de feedback';
 $string['subplugintype_assignfeedback_plural'] = 'Plugins de feedback';
 $string['subplugintype_assignsubmission'] = 'Plugin de remise';
 $string['subplugintype_assignsubmission_plural'] = 'Plugins de remise';
+$string['teamname'] = 'Équipe : {$a}';
 $string['teamsubmission'] = 'Les étudiants remettent leur travail en groupe';
 $string['teamsubmissiongroupingid'] = 'Groupement pour les groupes d\'étudiants';
 $string['teamsubmissiongroupingid_help'] = 'Les groupes de ce groupement seront utilisés pour former les groupes d\'étudiants de ce devoir. Si non renseigné, le jeu de groupes par défaut sera utilisé.';
@@ -420,17 +444,25 @@ $string['teamsubmission_help'] = 'Si ce réglage est activé, les étudiants ser
 $string['textinstructions'] = 'Instructions pour le devoir';
 $string['timemodified'] = 'Dernière modification';
 $string['timeremaining'] = 'Temps restant';
+$string['timeremainingcolon'] = 'Temps restant : {$a}';
+$string['togglezoom'] = 'Zoom avant/arrière de la région';
+$string['ungroupedusers'] = 'Le réglage « Requiert un groupe pour remettre un devoir » est activé et certains utilisateurs ne sont membres d\'aucun groupe ou membres de plusieurs groupes. Cette situation les empêchera de remettre un travail.';
 $string['unlimitedattempts'] = 'Illimité';
 $string['unlimitedattemptsallowed'] = 'Nombre illimité de tentatives autorisées.';
+$string['unlimitedpages'] = 'Illimité';
 $string['unlocksubmissionforstudent'] = 'Permettre la remise de travaux pour l\'étudiant&nbsp;: (id={$a->id}, fullname={$a->fullname}).';
 $string['unlocksubmissions'] = 'Déverrouiller les remises';
+$string['unsavedchanges'] = 'Modifications non enregistrées';
+$string['unsavedchangesquestion'] = 'Des modifications aux notes ou au feedback ne sont pas enregistrées. Voulez-vous les enregistrer et continuer ?';
 $string['updategrade'] = 'Modifier la note';
 $string['updatetable'] = 'Enregistrer et modifier le tableau';
 $string['upgradenotimplemented'] = 'La mise à jour n\'est pas implémentée dans le plugin ({$a->type} {$a->subtype})';
 $string['userextensiondate'] = 'Prolongation accordée jusqu\'au&nbsp;: {$a}';
 $string['usergrade'] = 'Note utilisateur';
+$string['useridlistnotcached'] = 'Les modifications aux notes n\'ont pas été enregistrées : il n\'a pas été possible de déterminer à quel travail elles avaient été attribuées.';
 $string['userswhoneedtosubmit'] = 'Utilisateurs devant valider l\'envoi du devoir : {$a}';
 $string['validmarkingworkflowstates'] = 'Statuts d\'évaluation valides';
+$string['viewadifferentattempt'] = 'Consulter une autre travail';
 $string['viewbatchmarkingallocation'] = 'Afficher la page d\'attribution des évaluateurs.';
 $string['viewbatchsetmarkingworkflowstate'] = 'Afficher la page de définition des statuts d\'évaluation.';
 $string['viewfeedback'] = 'Afficher le feedback';
@@ -438,7 +470,7 @@ $string['viewfeedbackforuser'] = 'Afficher le feedback de l\'utilisateur {$a}';
 $string['viewfull'] = 'Afficher la vue complète';
 $string['viewfullgradingpage'] = 'Ouvrir la page d\'évaluation complète pour donner des feedbacks';
 $string['viewgradebook'] = 'Afficher le carnet de note';
-$string['viewgrading'] = 'Consulter/évaluer tous les travaux remis';
+$string['viewgrading'] = 'Consulter tous les travaux remis';
 $string['viewgradingformforstudent'] = 'Afficher la page d\'évaluation de l\'étudiant&nbsp;: (id={$a->id}, fullname={$a->fullname}).';
 $string['viewownsubmissionform'] = 'Afficher sa propre page de remise de travaux.';
 $string['viewownsubmissionstatus'] = 'Afficher sa propre page de l\'état des travaux remis.';
@@ -448,3 +480,4 @@ $string['viewsubmissionforuser'] = 'Afficher le travail remis de l\'étudiant {$
 $string['viewsubmissiongradingtable'] = 'Afficher le tableau des notes du devoir';
 $string['viewsummary'] = 'Afficher la vue résumée';
 $string['workflowfilter'] = 'Filtre de flux';
+$string['xofy'] = '{$a->x} sur {$a->y}';

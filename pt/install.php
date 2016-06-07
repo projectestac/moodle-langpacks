@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'install', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['caution'] = 'Atenção';
 $string['chooselanguage'] = 'Selecione um idioma';
 $string['chooselanguagehead'] = 'Selecione um idioma';
 $string['chooselanguagesub'] = 'Selecione o idioma a utilizar durante a instalação. Poderá depois selecionar um outro idioma para o site e para os utilizadores.';
+$string['cliadminemail'] = 'Novo endereço de e-mail do utilizador administrador';
 $string['cliadminpassword'] = 'Nova senha do administrador';
 $string['cliadminusername'] = 'Nome de utilizador do administrador';
 $string['clialreadyconfigured'] = 'O ficheiro config.php já existe, use admin/cli/install_database.php para instalar o Moodle para este site.';
@@ -42,6 +43,7 @@ $string['clialreadyinstalled'] = 'O ficheiro config.php já existe, use admin/cl
 $string['cliinstallfinished'] = 'A instalação foi concluída com sucesso.';
 $string['cliinstallheader'] = 'Programa para instalação do Moodle <b>{$a}</b> através da linha de comandos';
 $string['climustagreelicense'] = 'No modo não interativo terá que aceitar a licença proposta indicando a opção <b>--agree-license</b>';
+$string['cliskipdatabase'] = 'A ignorar a instalação da base de dados.';
 $string['clitablesexist'] = 'A instalação através da linha de comandos não pode continuar porque a base de dados já contém as tabelas a criar.';
 $string['compatibilitysettings'] = 'A verificar a configuração do PHP...';
 $string['compatibilitysettingshead'] = 'A verificar a configuração do PHP...';
@@ -130,7 +132,7 @@ $string['paths'] = 'Caminhos';
 $string['pathserrcreatedataroot'] = 'O programa de instalação não conseguiu criar a pasta de dados <b>{$a->dataroot}</b>.';
 $string['pathshead'] = 'Confirmar caminhos';
 $string['pathsrodataroot'] = 'A pasta de dados não tem permissões de escrita.';
-$string['pathsroparentdataroot'] = 'A pasta pai <b>{$a->parent}</b> não tem permissões de escrita. O programa de instalação não conseguiu criar a pasta <b>{$a->dataroot}</b>.';
+$string['pathsroparentdataroot'] = 'A pasta ascendente <b>{$a->parent}</b> não tem permissões de escrita. O programa de instalação não conseguiu criar a pasta <b>{$a->dataroot}</b>.';
 $string['pathssubadmindir'] = 'Alguns servidores Web utilizam a pasta <strong>admin</strong> em URLs especiais de acesso a funcionalidades especiais, como é o caso de painéis de controlo. Algumas situações podem criar conflitos com a localização normal das páginas de administração do Moodle. Estes problemas podem ser resolvidos renomeando a pasta <strong>admin</strong> na instalação do Moodle e indicando aqui o novo nome a utilizar. Por exemplo:<br /><br /><b>moodleadmin</b><br /><br />Esta ação resolverá os problemas de acesso das hiperligações para as funcionalidades de administração do Moodle.';
 $string['pathssubdataroot'] = '<p>Uma diretoria em que o Moodle irá armazenar todo o conteúdo de ficheiros enviados pelos utilizadores.</p>
 <p>Esta diretoria deve ser legível e gravável pelo utilizador do servidor web (geralmente \'www-data\', \'nobody\', ou \'apache\').</p>

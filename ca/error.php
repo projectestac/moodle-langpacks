@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['alreadyloggedin'] = 'Ja heu iniciat sessió com a {$a}; heu de finalitzar la sessió abans d\'identificar-vos com un altre usuari.';
+$string['alreadyloggedin'] = 'Ja esteu registrat com {$a}, heu de tancar la sessió abans d\'identificar-vos com a un altre usuari.';
 $string['authnotexisting'] = 'No existeix el connector d\'autorització.';
 $string['backupcontainexternal'] = 'Aquest fitxer de còpia de seguretat conté hostes en xarxa de Moodle externs que no han estat configurats localment.';
 $string['backuptablefail'] = 'No s\'han pogut configurar correctament les taules de la còpia de seguretat.';
@@ -78,6 +78,7 @@ $string['cannoteditcomment'] = 'No podeu editar aquest5 comentari perquè no és
 $string['cannoteditcommentexpired'] = 'No ho podeu editar. S\'ha acabat el temps.';
 $string['cannoteditpostorblog'] = 'No podeu enviar o editar entrades de blog.';
 $string['cannoteditsiteform'] = 'No podeu editar el curs del lloc amb aquest formulari.';
+$string['cannotedituserpreferences'] = 'No és possible editar les preferències d\'aquest usuari';
 $string['cannotedityourprofile'] = 'No podeu editar el vostre propi perfil';
 $string['cannotexecduringupgrade'] = 'No es pot executar mentre s\'està actualitzant.';
 $string['cannotfindcategory'] = 'No s\'ha pogut trobar a la base de dades el registre de la categoria amb ID - {$a}';
@@ -230,6 +231,7 @@ $string['errorcreatingfile'] = 'S\'ha produït un error en crear el fitxer "{$a}
 $string['errorcreatingrole'] = 'S\'ha produït un error en crear el rol.';
 $string['errorfetchingrssfeed'] = 'S\'ha produït un error en recollir el RSS.';
 $string['erroronline'] = 'S\'ha produït un error a la línia {$a}';
+$string['erroroutput'] = 'La redirecció automàtica s\'ha inhabilitat a causa dels missatges d\'error.';
 $string['errorparsingxml'] = 'S\'ha produït un error en analitzar l\'XML: {$a->errorstring} a la línia {$a->errorline}, caràcter {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Error mentre es processava el fitxer de l\'arxiu';
 $string['errorreadingfile'] = 'S\'ha produït un error en llegir el fitxer "{$a}"';
@@ -390,7 +392,7 @@ $string['movecategoryownparent'] = 'No podeu fer la categoria \'{$a}\' pare d\'e
 $string['movecategoryparentconflict'] = 'No podeu convertir la categoria \'{$a}\' en una subcategoria d\'una de les seves subcategories pròpies.';
 $string['multiplerecordsfound'] = 'S\'han trobat diferents registres, però se n\'esperava un de sol.';
 $string['multiplerestorenotallow'] = 'No està permesa l\'execució de diferents restauracions.';
-$string['mustbeloggedin'] = 'Heu d\'iniciar sessió per poder-ho fer';
+$string['mustbeloggedin'] = 'Heu d\'estar registrat per poder fer això';
 $string['mustbeteacher'] = 'Cal ser professor/a per veure aquesta pàgina';
 $string['myisamproblem'] = 'Les taules de la base de dades estan utilitzant el motor MyISAM. Es recomana utilitzar un motor de compilació ACID amb suport total a les transaccions, com ara InnoDB.';
 $string['needcopy'] = 'Cal que primer copieu alguna cosa.';
@@ -477,7 +479,7 @@ $string['sessionerroruser'] = 'Heu excedit el termini de la vostra sessió o s\'
 $string['sessionerroruser2'] = 'S\'ha detectat un error del servidor que afecta la vostra sessió. Heu d\'iniciar de nou la sessió o reiniciar el vostre navegador.';
 $string['sessionhandlerproblem'] = 'El gestor de sessions està mal configurat';
 $string['sessionipnomatch'] = 'Sembla que el vostre número IP ha canviat des que heu iniciat sessió. Aquesta característica de seguretat impedeix que un pirata (<i>cracker</i>) suplanti la vostra identitat després que hàgiu iniciat sessió a Moodle. Els usuaris normals no haurien de veure aquest missatge: demaneu ajuda a l\'administrador del lloc.';
-$string['sessionipnomatch2'] = 'Sembla que la vostra adreça IP ha canviat des del moment en què heu iniciat sessió per primer cop. Aquesta funció de seguretat impedeix el robatori de la vostra identitat mentre teniu iniciada la sessió en aquest lloc. Podeu veure aquest error si utilitzeu xarxes sense fils o si esteu en itinerància (<em>roaming</em>) entre xarxes diferents. Demaneu més ajuda a l\'administrador del lloc.  <br /> <br /> Si voleu continuar, premeu la tecla F5 per refrescar aquesta pàgina.';
+$string['sessionipnomatch2'] = 'Sembla que la vostra adreça IP  ha canviat des del moment en què us heu registrat per primer cop. Aquesta funció de seguretat impedeix el robatori de la vostra identitat mentre esteu connectats a aquest lloc. Podeu veure aquest error si utilitzeu xarxes sense fils o si esteu en <em>roaming</em> entre xarxes diferents. Pregunteu a l\'administrador del lloc per obtenir més ajuda. <br /> <br /> Si voleu continuar premeu la tecla F5 per refrescar aquesta pàgina.';
 $string['sessionwaiterr'] = 'S\'ha excedit el temps mentre s\'esperava a tancar la sessió.<br />Espereu que acabi la sol·licitud en curs i torneu-ho a provar més tard.';
 $string['shortnametaken'] = 'El nom curt ja està essent utilitzat per a un altre curs  ({$a})';
 $string['socksnotsupported'] = 'L\'intermediari SOCKS5 no funciona en PHP4';

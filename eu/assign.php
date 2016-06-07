@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'eu', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assign', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -87,6 +87,7 @@ $string['attemptsettings'] = 'Saiakeren ezarpenak';
 $string['availability'] = 'Eskuragarritasuna';
 $string['backtoassignment'] = 'Itzuli zereginera';
 $string['batchoperationconfirmaddattempt'] = 'Aukeratutako bidalketen kasuan saiakera gehiagorik onartu?';
+$string['batchoperationconfirmdownloadselected'] = 'Jaitsi nahi dituzu aukeratutako bidalketak?';
 $string['batchoperationconfirmgrantextension'] = 'Epea luzatu aukeratutako bidalketa guztietan?';
 $string['batchoperationconfirmlock'] = 'Blokeatu aukeratutako bidalketa guztiak?';
 $string['batchoperationconfirmreverttodraft'] = 'Bidalketak zirriborro egoerara itzuli?';
@@ -101,7 +102,9 @@ $string['batchsetallocatedmarker'] = 'Aukeratutako {$a} erabiltzaileri kalifikat
 $string['batchsetmarkingworkflowstateforusers'] = 'Aukeratutako {$a} erabiltzaileri lan-fluxu egoera esleitu zaie.';
 $string['blindmarking'] = 'Kalifikazio itsua';
 $string['blindmarking_help'] = 'Kalifikazio itsuak ikasleen identitatea ezkutatzen die kalifikatzaileei. Kalifikazio itsuaren ezarpenak blokeatuko dira bidalketa edo kalifikazio bat eginez gero.';
+$string['changefilters'] = 'Aldatu iragazkiak';
 $string['changegradewarning'] = 'Zeregin honetan kalifikatutako bidalketak daude eta kalifikazioa aldatuz gero, orain arte egindako kalifikazioak ez dira birkalkulatuko automatikoki. Bidalketa guztiak birkalifikatu beharko dituzu kalifikazioa aldatu nahi baduzu.';
+$string['changeuser'] = 'Aldatu erabiltzail';
 $string['choosegradingaction'] = 'Kalifikazio-ekintza';
 $string['choosemarker'] = 'Aukeratu...';
 $string['chooseoperation'] = 'Aukeratu eragiketa';
@@ -129,7 +132,9 @@ $string['defaultteam'] = 'Berezko taldea';
 $string['deleteallsubmissions'] = 'Ezabatu bidalketa guztiak';
 $string['description'] = 'Deskribapena';
 $string['downloadall'] = 'Jaitsi bidalketa guztiak';
+$string['downloadselectedsubmissions'] = 'Jaitsi aukeratutako bidalketak';
 $string['duedate'] = 'Entregatze-data';
+$string['duedatecolon'] = 'Entregatze-data: {$a}';
 $string['duedate_help'] = 'Hau zereginaren entregatze-epea da. Bidalketak onartuko dira data hau baino beranduago, baina bidalketa atzeratuen seinalea jarriko zaio. Ezarri zereginaren itxiera-data bidalketak saihesteko.';
 $string['duedateno'] = 'Entregatze-datarik ez';
 $string['duedatereached'] = 'Zeregin hau bidaltzeko epea amaitu da';
@@ -233,7 +238,8 @@ $string['invalidgradeforscale'] = 'Kalifikazioak ez du balio oraingo eskalarako'
 $string['lastmodifiedgrade'] = 'Azken aldaketa (kalifikazioa)';
 $string['lastmodifiedsubmission'] = 'Azken aldaketa (bidalketa)';
 $string['latesubmissions'] = 'Epez kanpoko bidalketak';
-$string['latesubmissionsaccepted'] = 'Baimenduta itxiera-datara arte';
+$string['latesubmissionsaccepted'] = 'Noiz arte baimendua: {$a}';
+$string['loading'] = 'Igotzen...';
 $string['locksubmissionforstudent'] = 'Ez utzi bidalketa berririk ikasle hauentzat: (id={$a->id}, izen osoa={$a->fullname}).';
 $string['locksubmissions'] = 'Blokeatu bidalketak';
 $string['manageassignfeedbackplugins'] = 'Kudeatu zereginaren feedback-pluginak';
@@ -274,21 +280,25 @@ Irakasleek, zereginak orrazterakoan, feedbackak eta iruzkinak jar ditzakete, fit
 Zereginak kalifikatzeko erabil daitezke zenbakiak, eskalak edo errubrikak bezalako mekanismo aurreratuak. Azken kalifikazioak kalifikazio-liburuan gordetzen dira.';
 $string['modulenameplural'] = 'Zereginak';
 $string['moreusers'] = '{$a} gehiago...';
+$string['multipleteams'] = 'Talde bateko baino gehiagoko partaidea';
 $string['mysubmission'] = 'Nire bidalketa:';
 $string['newsubmissions'] = 'Zereginak bidalita';
 $string['noattempt'] = 'Saiakerarik ez';
 $string['nofiles'] = 'Fitxategirik ez.';
+$string['nofilters'] = 'Ez dago iragazkirk';
 $string['nograde'] = 'Kalifikaziorik ez.';
 $string['nolatesubmissions'] = 'Ez onartu epez kanpoko bidalketarik';
-$string['nomoresubmissionsaccepted'] = 'Gaituta soilik luzapena baimendu zaien ikasleentzat';
+$string['nomoresubmissionsaccepted'] = 'Ez da onartzen bidalketa gehiago';
 $string['noonlinesubmissions'] = 'Zeregin honek ez du ezer on-line aurkezteko eskatzen';
 $string['nosavebutnext'] = 'Hurrengoa';
 $string['nosubmission'] = 'Ez dago bildalketarik zeregin honetan';
 $string['nosubmissionsacceptedafter'] = 'Ez da ondoren bidalketa gehiago onartzen';
+$string['noteam'] = 'Ez zara inongo taldetako kide';
 $string['notgraded'] = 'Kalifikatu gabea';
 $string['notgradedyet'] = 'Oraindik notarik jarri gabe';
 $string['notifications'] = 'Jakinarazpenak';
 $string['notsubmittedyet'] = 'Oraindik bidali gabe';
+$string['nousers'] = 'Ez dago erabiltzailerik';
 $string['nousersselected'] = 'Ez da erabiltzailerik aukeratu';
 $string['numberofdraftsubmissions'] = 'Zirriborroak';
 $string['numberofparticipants'] = 'Partaideak';
@@ -305,6 +315,8 @@ $string['page-mod-assign-x'] = 'Zereginaren edozein orri';
 $string['participant'] = 'Partaidea';
 $string['pluginadministration'] = 'Zereginaren kudeaketa';
 $string['pluginname'] = 'Zeregina';
+$string['preventsubmissionnotingroup'] = 'Taldeko kidea izatea behartu';
+$string['preventsubmissionnotingroup_help'] = 'Gaituz gero, inongo taldeko kideak ez diren partaideek ezingo dute bidalketarik egin.';
 $string['preventsubmissions'] = 'Ez utzi erabiltzaileari bidalketa berriak egiten zeregin honetan.';
 $string['preventsubmissionsshort'] = 'Debekatu bidalketan aldaketak egitea';
 $string['previous'] = 'Aurrekoa';
@@ -325,10 +337,13 @@ $string['reverttodraftforstudent'] = 'Itzuli ikasle honen bidalketa zirriborro-e
 $string['reverttodraftshort'] = 'Itzuli bidalketa zirriborrora';
 $string['reviewed'] = 'Berrikusia';
 $string['saveallquickgradingchanges'] = 'Gorde kalifikazio azkar guztietako aldaketak';
+$string['saveandcontinue'] = 'Gorde eta jarraitu';
 $string['savechanges'] = 'Gorde aldaketak';
 $string['savegradingresult'] = 'Kalifikazioa';
 $string['savenext'] = 'Gorde eta erakutsi hurrengoa';
+$string['savingchanges'] = 'Aldaketak gordetzen...';
 $string['scale'] = 'Eskala';
+$string['search:activity'] = 'Zeregina - jardueraren informazioa';
 $string['selectedusers'] = 'Aukeratutako erabiltzaileak';
 $string['selectlink'] = 'Aukeratu...';
 $string['selectuser'] = 'Aukeratu {$a}';
@@ -419,6 +434,7 @@ $string['subplugintype_assignfeedback'] = 'Feedback plugina';
 $string['subplugintype_assignfeedback_plural'] = 'Feedback pluginak';
 $string['subplugintype_assignsubmission'] = 'Bidalketa-plugina';
 $string['subplugintype_assignsubmission_plural'] = 'Bidalketa-pluginak';
+$string['teamname'] = 'Taldea: {$a}';
 $string['teamsubmission'] = 'Ikasleek taldeka bidaliko dute';
 $string['teamsubmissiongroupingid'] = 'Ikasle-taldeen taldekatzea';
 $string['teamsubmissiongroupingid_help'] = 'Zereginak taldekatze hau erabiliko du ikasle-taldeak aurkitzeko. Gaitzen ez bada, lehenetsitako taldekatzea erabiliko da.';
@@ -426,10 +442,12 @@ $string['teamsubmission_help'] = 'Aukera hau gaitzen bada, ikasleak banatuko dir
 $string['textinstructions'] = 'Zereginerako argibideak';
 $string['timemodified'] = 'Azken aldaketa';
 $string['timeremaining'] = 'Geratzen den denbora';
+$string['ungroupedusers'] = '\'Taldeko kidea izatea behartu\' ezarpena gaituta dago eta erabiltzaile batzuk ez dira inongo taldeko kide, eta honek erabiltzaile horiek bidalketak egitea ekidingo du.';
 $string['unlimitedattempts'] = 'Mugarik gabea';
 $string['unlimitedattemptsallowed'] = 'Mugarik gabeko saiakera-kopurua onartzen da.';
 $string['unlocksubmissionforstudent'] = 'Onartu bidalketak ikasle honi: (id={$a->id}, izen osoa={$a->fullname}).';
 $string['unlocksubmissions'] = 'Desblokeatu bidalketak';
+$string['unsavedchanges'] = 'Gorde gabeko aldaketak';
 $string['updategrade'] = 'Eguneratu kalifikazioa';
 $string['updatetable'] = 'Gorde eta eguneratu taula';
 $string['upgradenotimplemented'] = 'Ez da garatu bertsio-berritzea ({$a->type} {$a->subtype}) pluginarentzat';
@@ -444,7 +462,7 @@ $string['viewfeedbackforuser'] = 'Ikusi erabiltzaile honentzako feedbacka: {$a}'
 $string['viewfull'] = 'Ikusi guztia';
 $string['viewfullgradingpage'] = 'Joan kalifikazio guztien orrira feedbacka emateko';
 $string['viewgradebook'] = 'Ikusi kalifikazio-liburua';
-$string['viewgrading'] = 'Ikusi/Kalifikatu bidalketa guztiak';
+$string['viewgrading'] = 'Ikusi bidalketa guztiak';
 $string['viewgradingformforstudent'] = 'Ikusi ikasle honen kalifikazio-orria: (id={$a->id}, izen osoa={$a->fullname}).';
 $string['viewownsubmissionform'] = 'Ikusi norberaren zereginen bidalketa-orria.';
 $string['viewownsubmissionstatus'] = 'Ikusi norberaren zereginen bidalketa-orria.';

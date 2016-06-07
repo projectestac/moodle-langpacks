@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_numattempts', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'quizaccess_numattempts', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   quizaccess_numattempts
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['attemptsallowedn'] = '允许试答次数：{$a}';
+$string['pluginname'] = '允许多次答题的测验的作答次数规则';

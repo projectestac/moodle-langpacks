@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'availability', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   availability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,14 +54,15 @@ $string['listheader_sign_pos'] = 'muss';
 $string['listheader_single'] = 'folgende Bedingung erfüllen';
 $string['list_or'] = 'Mindestens eine Bedingung:';
 $string['list_or_hidden'] = 'Mindestens eine Bedingung (anderweitig verborgen):';
-$string['list_root_and'] = 'Verfügbar, wenn:';
-$string['list_root_and_hidden'] = 'Verfügbar (verborgen), wenn:';
-$string['list_root_or'] = 'Verfügbar, wenn mindestens eine Bedingung:';
-$string['list_root_or_hidden'] = 'Verfügbar (verborgen), wenn mindestens eine Bedingung:';
+$string['list_root_and'] = 'Verborgen,  wenn:';
+$string['list_root_and_hidden'] = 'Verfügbar, wenn:';
+$string['list_root_or'] = 'Verfügbar, wenn mindestens eine Bedingung erfüllt ist:';
+$string['list_root_or_hidden'] = 'Verfügbar, wenn mindestens eine Bedingung erfüllt ist:';
 $string['manageplugins'] = 'Voraussetzungen verwalten';
 $string['missingplugin'] = 'Fehlendes Plugin';
 $string['or'] = 'oder';
 $string['restrictaccess'] = 'Voraussetzungen';
+$string['restrictbygroup'] = 'Voraussetzung für Gruppe/Gruppierung hinzufügen';
 $string['setheading'] = '{$a->number} Liste von {$a->count} Voraussetzung(en)';
 $string['shown_all'] = 'Grau angezeigt, wenn die Bedingungen nicht erfüllt sind';
 $string['shown_individual'] = 'Grau angezeigt, wenn diese Bedingung nicht erfüllt ist';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'role', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -84,13 +84,9 @@ $string['badges:viewbadges'] = 'Beschikbare badges bekijken zonder ze te verdien
 $string['badges:viewotherbadges'] = 'Openbare badges in gebruikersprofielen kunnen zien';
 $string['block:edit'] = 'Bewerk blokinstellingen';
 $string['block:view'] = 'Blok zien';
-$string['blog:associatecourse'] = 'Deze mogelijkheid doet niets meer';
-$string['blog:associatemodule'] = 'Deze mogelijkheid doet niets meer';
 $string['blog:create'] = 'Niewe blog items maken';
 $string['blog:manageentries'] = 'Items bewerken en beheren';
 $string['blog:manageexternal'] = 'Bewerk en beheer externe blogs';
-$string['blog:manageofficialtags'] = 'Officiële tags beheren';
-$string['blog:managepersonaltags'] = 'Persoonlijke tags beheren';
 $string['blog:search'] = 'Zoek blogitems';
 $string['blog:view'] = 'Blogitems bekijken';
 $string['blog:viewdrafts'] = 'Bekijk kladwerk van blogs';
@@ -154,6 +150,7 @@ $string['course:reset'] = 'Cursus naar standaardinstellingen';
 $string['course:reviewotherusers'] = 'Beoordeel andere gebruikers';
 $string['course:sectionvisibility'] = 'Zichtbaarheid van secties beheren';
 $string['course:setcurrentsection'] = 'Huidige sectie instellen';
+$string['course:tag'] = 'Wijzig cursus-tags';
 $string['course:update'] = 'Cursusinstellingen wijzigen';
 $string['course:useremail'] = 'Inschakelen/uitschakelen e-mailadressen';
 $string['course:view'] = 'Cursussen zien zonder deel te nemen';
@@ -226,7 +223,6 @@ $string['grade:unlock'] = 'Beoordelingen of items vrijgeven';
 $string['grade:view'] = 'Eigen cijfers bekijken';
 $string['grade:viewall'] = 'Cijfers van andere gebruikers bekijken';
 $string['grade:viewhidden'] = 'Verborgen cijfer zien';
-$string['hidden'] = 'Verborgen';
 $string['highlightedcellsshowdefault'] = 'De geselecteerde rechten in onderstaande tabel zijn de standaardrechten voor het hierboven geselecteerde rolarchetype.';
 $string['highlightedcellsshowinherit'] = 'De opgelichte cellen in onderstaande tabel tonen de rechten (als die er zijn) die overgeërfd worden. Buiten de mogelijkheden waarvan je de rechten wil aanpassen, moet je alles op Overerven laten staan.';
 $string['inactiveformorethan'] = 'langer dan {$a->timeperiod} niet actief';
@@ -382,6 +378,8 @@ $string['siteadministrators'] = 'Sitebeheerders';
 $string['site:approvecourse'] = 'Cursus aanmaken goedkeuren';
 $string['site:backup'] = 'Cursussen back-uppen';
 $string['site:config'] = 'Site configuratie wijzigen';
+$string['site:deleteanymessage'] = 'Verwijder berichten van de site';
+$string['site:deleteownmessage'] = 'Verwijder berichten verzonden door en aan de gebruiker';
 $string['site:doanything'] = 'Toelaten alles te doen';
 $string['site:doclinks'] = 'Links naar documentatie buiten deze site tonen';
 $string['site:forcelanguage'] = 'Cursustaal overschrijven';

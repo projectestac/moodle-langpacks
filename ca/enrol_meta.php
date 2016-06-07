@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_meta', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'enrol_meta', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_meta
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addgroup'] = 'Afegeix al grup';
 $string['linkedcourse'] = 'Enllaç al curs';
 $string['meta:config'] = 'Configura les instàncies de meta-inscripció';
 $string['meta:selectaslinked'] = 'Selecciona el curs com meta enllaçat';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_progress', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_progress', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   block_progress
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -110,8 +110,8 @@ $string['journal'] = 'Journal';
 $string['lastonline'] = 'Zuletzt online';
 $string['lesson'] = 'Lektion';
 $string['lti'] = 'Externes Werkzeug';
-$string['marked'] = 'markiert';
-$string['mouse_over_prompt'] = 'Mauszeiger über Block bewegen für Info.';
+$string['marked'] = 'bewertet';
+$string['mouse_over_prompt'] = 'Für Informationen, mit der Maus darüber fahren oder antippen.';
 $string['no_blocks'] = 'Für Ihre Kurse sind keine Fortschrittsbalken-Blöcke eingerichtet.';
 $string['no_events_config_message'] = 'Keine Aktivitäten oder Materialien, deren Fortschritt überwacht werden könnte. Fügen Sie  Aktivitäten oder Materialien hinzu und konfigurieren anschließend diesen Block.';
 $string['no_events_message'] = 'Die Aktivitäten oder Materialien werden nicht überwacht. Konfigurieren Sie diesen Block.';
@@ -163,7 +163,7 @@ $string['what_actions_can_be_monitored_help'] = '<p>Es sind mehrere Aktionen fü
 <p>Zum Beispiel gibt es bei der Aufgaben-Aktivität folgende mögliche Aktionen:
     <ul>
         <li>eingereicht,</li>
-        <li>markiert,</li>
+        <li>bewertet,</li>
         <li>bestanden (siehe dazu den Hinweis zum \'Bestehen\' weiter unten),</li>
         <li>bestanden durch die Abgabefrist (siehe dazu den Hinweis zum \'Bestehen\' weiter unten) und</li>
         <li>Aktivitätsabschluss (wenn dies im Kurs eingeschaltet und für die Aktivität aktiviert).</li>

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'repository', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -135,7 +135,6 @@ $string['folderrecurse'] = 'Map kan niet verplaatst worden naar zijn eigen subma
 $string['getfile'] = 'Selecteer dit bestand';
 $string['getfiletimeout'] = 'Geef de bestandstimout';
 $string['help'] = 'Help';
-$string['hidden'] = 'Verborgen';
 $string['iconview'] = 'Bekijk als icoontjes';
 $string['imagesize'] = '{$a->width} x {$a->height} px';
 $string['instance'] = 'verwijzing';
@@ -163,6 +162,7 @@ $string['makefileinternal'] = 'Maak een kopie van het bestand';
 $string['makefilelink'] = 'Link rechtstreeks naar het bestand';
 $string['makefilereference'] = 'Maak een alias/koppeling naar het bestand';
 $string['manage'] = 'Beheer opslagruimten';
+$string['manageinstances'] = 'Beheer instanties';
 $string['manageurl'] = 'Beheer';
 $string['manageuserrepository'] = 'Beheer individuele opslagruimten';
 $string['moving'] = 'Verplaatsen';

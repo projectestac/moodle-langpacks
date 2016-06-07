@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'scorm', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['aicchacpkeepsessiondata_desc'] = 'Período de tempo em dias para manter
 $string['aicchacptimeout'] = 'Tempo limite AICC HACP';
 $string['aicchacptimeout_desc'] = 'Período de tempo em minutos que uma sessão externa AICC HACP pode permanecer aberta';
 $string['aiccuserid'] = 'passar ID numérico do utilizador ao AICC';
+$string['aiccuserid_desc'] = 'A norma AICC para nomes de utilizador é bastante restritiva em comparação com o Moodle, e permitem apenas caracteres alfa-numéricos, hifen e sublinhado. Os pontos, espaços e o símbolo @ não são permitidos. Se ativar esta opção, serão passados os números de ID dos utilizadores para o pacote AICC, e não os seus nomes de utilizadores.';
 $string['aliasonly'] = 'Ao selecionar um ficheiro \'imsmanifest.xml\' de um repositório, deverá usar um alias/atalho para este ficheiro.';
 $string['allowapidebug'] = 'Ativar depuração e rastreio da API (configure a máscara de captura com apidebugmask)';
 $string['allowtypeaicchacp'] = 'Permitir AICC HACP externo';
@@ -53,9 +54,9 @@ $string['attempt'] = 'Tentativa';
 $string['attempt1'] = '1 tentativa';
 $string['attempts'] = 'Tentativas';
 $string['attemptsmanagement'] = 'Gestão das tentativas';
-$string['attemptstatusall'] = 'Minha página inicial e de entrada';
+$string['attemptstatusall'] = 'Painel do utilizador e página de entrada';
 $string['attemptstatusentry'] = 'Apenas página de entrada';
-$string['attemptstatusmy'] = 'Apenas página inicial';
+$string['attemptstatusmy'] = 'Apenas Painel do utilizador';
 $string['attemptsx'] = '{$a} tentativas';
 $string['attr_error'] = 'Valor errado para o atributo ({$a->attr}) na tag {$a->tag}';
 $string['autocommit'] = 'Guardar automaticamente';
@@ -73,6 +74,7 @@ $string['browsed'] = 'Consultado';
 $string['browsemode'] = 'Modo de pré-visualização';
 $string['browserepository'] = 'Pesquisar repositório';
 $string['calculatedweight'] = 'Peso calculado';
+$string['cannotaccess'] = 'Não pode chamar este script dessa forma';
 $string['cannotfindsco'] = 'Não foi possível encontrar o SCO';
 $string['chooseapacket'] = 'Selecionar ou atualizar um pacote de conteúdos';
 $string['collapsetocwinsize'] = 'Contrair Tabela de Conteúdos quando o tamanho da janela é inferior a';
@@ -105,8 +107,8 @@ $string['display'] = 'Exibir pacote de conteúdos';
 $string['displayactivityname'] = 'Exibir nome da atividade';
 $string['displayactivityname_help'] = 'Esta opção define se o nome da atividade é ou não exibida acima do player do SCORM.';
 $string['displayattemptstatus'] = 'Exibir estado da tentativa';
-$string['displayattemptstatusdesc'] = 'Esta opção define se um resumo das tentativas do utilizador é exibido na Visão geral das disciplinas na Minha página principal e/ou na página de entrada do Pacote SCORM.';
-$string['displayattemptstatus_help'] = 'Esta preferência disponibiliza um resumo das tentativas do utilizador exibido no bloco Visão geral das disciplinas na Minha página inicial e/ou de entrada do SCORM';
+$string['displayattemptstatusdesc'] = 'Esta opção define se um resumo das tentativas do utilizador é exibido na Visão geral das disciplinas no Painel do utilizador e/ou na página de entrada do Pacote SCORM.';
+$string['displayattemptstatus_help'] = 'Esta opçãop define se um resumo das tentativas do utilizador é exibido no bloco Visão geral das disciplinas no Painel do utilizador e/ou na página de entrada do SCORM';
 $string['displaycoursestructure'] = 'Exibir estrutura do conteúdo na página de entrada';
 $string['displaycoursestructuredesc'] = 'Se ativar esta opção, a tabela de conteúdos é exibida na página de estrutura do Pacote SCORM.';
 $string['displaycoursestructure_help'] = 'Se ativar esta opção, a tabela de conteúdos é exibida na página de entrada do SCORM';
@@ -287,6 +289,8 @@ $string['position_error'] = 'A tag {$a->tag} não pode ser descendente da tag {$
 $string['preferencespage'] = 'Preferências apenas para esta página';
 $string['preferencesuser'] = 'Preferências para este relatório';
 $string['prev'] = 'Anterior';
+$string['protectpackagedownloads'] = 'Impedir que os pacotes SCORM sejam descarregados';
+$string['protectpackagedownloads_desc'] = 'Se ativar esta configuração, os pacotes SCORM poderão apenas ser descarregados por utilizadores que possuam a permissão "Gerir atividades" na disciplina. Se a desativar, os pacotes SCORM poderão ser sempre descarregados (através de dispositivos móveis ou de outros dispositivos).';
 $string['raw'] = 'Nota bruta';
 $string['regular'] = 'Manifesto regular';
 $string['report'] = 'Relatório';

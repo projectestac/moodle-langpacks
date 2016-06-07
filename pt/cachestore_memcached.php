@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_memcached', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'cachestore_memcached', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   cachestore_memcached
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,6 +45,12 @@ $string['hash_help'] = 'Especifica o algoritmo de hash usado para as chaves de i
 $string['hash_hsieh'] = 'Hsieh';
 $string['hash_md5'] = 'MD5';
 $string['hash_murmur'] = 'Murmurar';
+$string['isshared'] = 'Cache partilhada';
+$string['isshared_help'] = 'O seu servidor da memcache também está a ser utilizado por outras aplicações?
+
+Se a cache é partilhada por outras aplicações, então cada chave será excluída individualmente para garantir que apenas são eliminados os dados pertencentes a essa aplicação (o que deixará os dados da cache da aplicação externa inalterados). Isto pode provocar uma diminuição de desempenho quando limpar a cache, dependendo da configuração do seu servidor.
+
+Se estiver a utilizar uma cache dedicada para esta aplicação, então a cache pode ser eliminada seguramente sem qualquer risco de destruição de dados de cache de outra aplicação. Isto deve resultar num aumento de desempenho quando limpar a cache.';
 $string['pluginname'] = 'Memcached';
 $string['prefix'] = 'Chave de prefixo';
 $string['prefix_help'] = 'Isto pode ser usado para criar um "domínio" para as suas chaves de itens que lhe permite criar vários armazenamentos da memcached numa única instalação memcached. Não pode ter mais do que 16 caracteres, a fim de garantir que não se deparará com questões fundamentais de comprimento inesperadas.';
@@ -54,7 +60,9 @@ $string['serialiser_json'] = 'O serializador JSON.';
 $string['serialiser_php'] = 'O serializador predefinido de PHP.';
 $string['servers'] = 'Servidores';
 $string['serversclusterinvalid'] = 'É necessário precisamente um servidor quando o clustering está ativado.';
-$string['servers_help'] = 'Isto define os servidores que devem ser utilizados por este adaptador de memcached. Os servidores devem ser definidos um por linha e constituídos por um endereço de servidor e, opcionalmente, uma porta e peso. Se nenhuma porta for fornecida será utilizada a porta predefinida (11211).
+$string['servers_help'] = 'Esta configuração define os servidores que devem ser utilizados por este adaptador memcache.
+Os servidores devem ser indicados um por linha e consiste no endereço do servidor e, opcionalmente, uma porta e importância.
+Caso nenhuma porta seja indicada, será utilizada a porta padrão (11211).
 
 Por exemplo:
 <pre>
@@ -63,7 +71,7 @@ ipaddress:port
 servername:port:weight
 </pre>
 
-Se *Ativar servidores em cluster* for ativado abaixo, deve haver apenas um servidor listado aqui. Isto normalmente seria um nome que sempre resolve para a máquina local, como 127.0.0.1 ou localhost.';
+Se ativar a configuração *Ativar servidores em cluster*, apenas poderá estar listado um servidor. Normalmente é o nome da máquina local, como por exemplo 127.0.0.1 ou localhost.';
 $string['sessionhandlerconflict'] = 'Aviso: uma instância de memcache ({$a}) foi configurada para usar o mesmo servidor de memcache que as sessões. Apagar o conteúdo de todas as caches fará com que também sejam apagadas as sessões.';
 $string['setservers'] = 'Definir servidores';
 $string['setservers_help'] = 'Esta é a lista de servidores que serão atualizados quando os dados são modificados na cache. Geralmente o nome completo de cada servidor na pool.
@@ -78,6 +86,8 @@ Por exemplo: <pre> server.url.com ipaddress: port </pre>';
 $string['testservers'] = 'Servidores de teste';
 $string['testservers_desc'] = 'Uma ou mais strings de ligação para servidores memchache para serem testadas. Se um servidor de teste tiver sido especificado, o desempenho de memcache pode ser testado usando a página de desempenho de cache no bloco de administração.
 Por exemplo: 127.0.0.1:11211';
+$string['upgrade200recommended'] = 'Recomenda-se que atualize a extensão PHP Memcached para a versão 2.0.0 ou superior.
+A versão da extensão PHP Memcached em uso não fornece a funcionalidade que o Moodle utiliza para garantir uma cache de modo seguro. Até atualizar, recomendamos que não configure quaisquer outras aplicações para utilizar os mesmos servidores de Memcache tal como o Moodle está configurado para usar.';
 $string['usecompression'] = 'Usar compressão';
 $string['usecompression_help'] = 'Ativa ou desativa a carga de compressão. Quando ativado, os valores de itens superiores a um determinado limite (atualmente 100 bytes) será compactado durante o armazenamento e descompactados durante a recuperação de forma transparente.';
 $string['useserialiser'] = 'Usar serializador';

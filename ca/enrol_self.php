@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'enrol_self', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,12 +30,14 @@ $string['cohortnonmemberinfo'] = 'Només el membres de la cohort \'{$a}\' poden 
 $string['cohortonly'] = 'Només membres de la cohort';
 $string['cohortonly_help'] = 'L\'autoinscripció pot estar restringida als membres de la cohort especificada. Fixeu-vos que canviar aquest paràmetre no té cap efecte sobre les inscripcions que ja existeixen.';
 $string['customwelcomemessage'] = 'Missatge de benvinguda personalitzat';
-$string['customwelcomemessage_help'] = 'Podeu afegir un missatge personalitzat de benvinguda en text pla o en autoformat de Moodle, incloent-hi etiquetes HTML i etiquetes en múltiples llegües.
+$string['customwelcomemessage_help'] = 'Podeu afegir un missatge personalitzat de benvinguda en text net o en format automàtic de Moodle, incloses les etiquetes HTML i les etiquetes en múltiples llengües.
 
-Els següents marcadors de posició poden ser inclosos en el missatge:
+Els marcadors de posició següents poden ser inclosos en el missatge:
 
-* Nom del Curs {$a->coursename}
-* Enllaç a la pàgina de perfil de l\'usuari {$a->profileurl}';
+* Nom del curs {$a->coursename}
+* Enllaç a la pàgina de perfil de l\'usuari {$a->profileurl}
+*Adreça electrònica de l\'usuari {$a->email}
+*Nom complet de l\'usuari {$a->fullname}';
 $string['defaultrole'] = 'Assignació de rol per defecte';
 $string['defaultrole_desc'] = 'Trieu el rol que serà assignat als usuaris durant el procés d\'inscripció';
 $string['enrolenddate'] = 'Data final';

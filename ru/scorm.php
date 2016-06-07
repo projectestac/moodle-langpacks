@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'scorm', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['aicchacpkeepsessiondata_desc'] = 'Продолжительность в
 $string['aicchacptimeout'] = 'Тайм-аут AICC HACP';
 $string['aicchacptimeout_desc'] = 'Период времени в минутах, когда сессия внешнего AICC HACP может оставаться открытой';
 $string['aiccuserid'] = 'Передавать в AICC числовой ID пользователя';
-$string['aiccuserid_desc'] = 'Стандарт AICC для имен пользователей очень жесткий по сравнению с Moodle и допускает только цифры, буквы, дефис и подчеркивание. Точки, пробелы и символ @ не допускаются. Если параметр включен, в пакет AICC передаются идентификационные номера пользователей вместо логинов.';
+$string['aiccuserid_desc'] = 'Стандарт AICC для имен пользователей очень жесткий по сравнению с Moodle и допускает только цифры, буквы, дефис и подчеркивание. Точки, пробелы и символ @ не допускаются. Если параметр включен, в пакет AICC передаются числовые ID пользователей вместо их имен.';
 $string['aliasonly'] = 'При выборе из репозитория файла imsmanifest.xml необходимо использовать псевдоним(алиас)/ярлык этого файла.';
 $string['allowapidebug'] = 'Активировать отладку и трассировку API  (устанавливается захват маски с apidebugmask)';
 $string['allowtypeaicchacp'] = 'Включить внешний AICC HACP';
@@ -54,9 +54,9 @@ $string['attempt'] = 'Попытка';
 $string['attempt1'] = '1 попытка';
 $string['attempts'] = 'Попытки';
 $string['attemptsmanagement'] = 'Управление попытками';
-$string['attemptstatusall'] = 'На домашней странице и на странице предпросмотра SCORM';
+$string['attemptstatusall'] = '«Моя домашняя страница» и страница предпросмотра SCORM';
 $string['attemptstatusentry'] = 'Только на странице предпросмотра SCORM';
-$string['attemptstatusmy'] = 'Только на домашней странице';
+$string['attemptstatusmy'] = 'Только «Моя домашняя страница»';
 $string['attemptsx'] = '{$a} попыток';
 $string['attr_error'] = 'Плохое значение атрибута ({$a->attr}) в теге {$a->tag}.';
 $string['autocommit'] = 'Автоматическое завершение попытки';
@@ -107,8 +107,8 @@ $string['display'] = 'Отображать контент';
 $string['displayactivityname'] = 'Отображать название элемента курса.';
 $string['displayactivityname_help'] = 'Отображать или нет имя элемента курса над плеером SCORM.';
 $string['displayattemptstatus'] = 'Отображать состояние попытки';
-$string['displayattemptstatusdesc'] = 'Итог попыток пользователя будет показан в блоке «Сводка по курсам» на домашней странице и/или на странице SCORM.';
-$string['displayattemptstatus_help'] = 'При включенном параметре итог попыток пользователя будет показан в блоке «Сводка по курсам» на домашней странице и/или на странице SCORM.';
+$string['displayattemptstatusdesc'] = 'Показывать итог попыток пользователя в блоке «Сводка по курсам» на домашней странице и/или на странице SCORM.';
+$string['displayattemptstatus_help'] = 'Эта настройка позволяет показывать итог попыток пользователя в блоке «Сводка по курсам» на домашней странице и/или на странице SCORM.';
 $string['displaycoursestructure'] = 'Отображать структуру курса на главной странице';
 $string['displaycoursestructuredesc'] = 'При включенном параметре на странице SCORM  отображается оглавление.';
 $string['displaycoursestructure_help'] = 'При включенном параметре оглавление отображается на странице структуры SCORM.';

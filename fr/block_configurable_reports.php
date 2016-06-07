@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_configurable_reports', language 'fr', branch 'MOODLE_28_STABLE'
+ * Strings for component 'block_configurable_reports', language 'fr', branch 'MOODLE_31_STABLE'
  *
  * @package   block_configurable_reports
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -312,7 +312,7 @@ $string['previousstart'] = 'Date de début précédente';
 $string['printreport'] = 'Imprimer le rapport';
 $string['puserfield'] = 'Valeur du champ Utilisateur';
 $string['puserfield_summary'] = 'Utilisateur avec la valeur sélectionnée dans le champ sélectionné';
-$string['queryfailed'] = 'Échec de la requête';
+$string['queryfailed'] = 'Échec de la requête <code><pre>{$a}</pre></code>';
 $string['querysql'] = 'Requête SQL';
 $string['remote'] = 'Exécution sur une base de données à distance';
 $string['remotedescription'] = 'Voulez-vous lancer la recherche dans la base de données à distance';
@@ -351,6 +351,8 @@ $string['roleusersn'] = 'Nombre d\'utilisateurs avec le rôle...';
 $string['searchtext'] = 'Chercher le texte';
 $string['semester'] = 'Semestre (Hébreu)';
 $string['serieid'] = 'Colonne de la série';
+$string['sessionlimittime'] = 'Limite entre les clics (en minutes)';
+$string['sessionlimittime_help'] = 'La limite entre les clics détermine si 2 clics font partie de la même session ou non';
 $string['setcourseid'] = 'Définir l\'ID du cours';
 $string['sharedsqlrepository'] = 'Dépôt SQL partagé';
 $string['sharedsqlrepositoryinfo'] = 'Nom du compte GitHub + "/" + nom du dépôt';
@@ -414,6 +416,7 @@ $string['value_fields'] = 'Champs de valeur';
 $string['value_fields_help'] = 'Les champs qui devraient être représentés dans le graphique. Ctrl + clic (Cmd + clic sur Mac) pour les sélections multiples. Si vous sélectionnez le champ étiquette ou un champ avec des valeurs non numériques, il sera ignoré';
 $string['viewreport'] = 'Afficher le rapport';
 $string['width'] = 'Longueur';
+$string['xandynotequal'] = 'Les axes X et Y doivent être différents';
 $string['xaxis'] = 'Axe des x';
 $string['yaxis'] = 'Axe des y';
 $string['yearhebrew'] = 'Année (Hébreu)';

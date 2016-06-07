@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_weeks', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'format_weeks', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   format_weeks
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['currentsection'] = 'Текущая неделя';
+$string['deletesection'] = 'Удалить неделю';
+$string['editsection'] = 'Редактировать неделю';
 $string['hidefromothers'] = 'Скрыть неделю';
 $string['page-course-view-weeks'] = 'Главная страница курса в формате Календарь';
 $string['page-course-view-weeks-x'] = 'Любой страница курса в недельном формате';

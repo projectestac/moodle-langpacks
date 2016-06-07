@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,7 +86,6 @@ $string['test_notexecutable'] = 'Het Gostscript-pad verwijst naar een bestand da
 $string['test_ok'] = 'Het Ghostscript-pad lijkt in orde - controleer of je de boodschap in onderstaand bericht kunt zien.';
 $string['tool'] = 'Gereedschap';
 $string['toolbarbutton'] = '{$a->tool} {$a->shortcut}';
-$string['unsavedchanges'] = 'Onbewaarde wijzigingen';
 $string['viewfeedbackonline'] = 'Bekijk een geannoteerde pdf...';
 $string['white'] = 'Wit';
 $string['yellow'] = 'Geel';

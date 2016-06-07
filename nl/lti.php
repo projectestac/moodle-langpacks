@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'lti', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -80,7 +80,7 @@ $string['createdon'] = 'Gemaakt op';
 $string['curllibrarymissing'] = 'PHP Curl moet geïnstalleerd zijn om LTI te kunnen gebruiken';
 $string['custom'] = 'Eigen parameters';
 $string['custom_config'] = 'Eigen tool configuratie gebruiken';
-$string['custom_help'] = 'Aangepaste parameters zijn instellingen gebruikt door de tool provider. Een aangepaste parameter kan bijvoorbeeld worden gebruikt om een specifieke bron van de provider te tonen. Elke parameter moet op een aparte lijn ingegeven worden in volgend formaat:  "name=value"; for example, "chapter=3".
+$string['custom_help'] = 'Aangepaste parameters zijn instellingen gebruikt door de tool provider. Een aangepaste parameter kan bijvoorbeeld worden gebruikt om een specifieke bron van de provider te tonen. Elke parameter moet ingegeven worden op een aparte lijn door gebruik te maken van de formate "naam=waarde", bijvoorbeeld "chapter=3"
 
 Het is veilig om dit veld ongewijzigd te laten tenzij op vraag van de tool provider.';
 $string['custominstr'] = 'Aangepaste parameters';
@@ -342,12 +342,6 @@ $string['share_roster_admin'] = 'De tool heeft toegang tot de deelnemerslijst va
 $string['share_roster_admin_help'] = 'Geef op of de tool de gebruikerslijs kan opvragen van gebruikers die aangemeld zijn in cursussen vanwaar dit tooltype wordt gestart.';
 $string['share_roster_help'] = 'Geef op of de tool de gebruikerslijst kan opvragen van gebruikers die aangemeld zijn in deze cursus.
 Merk op dat deze instelling overschreven kan worden in de tool-configuratie.';
-$string['show_in_course'] = 'Toon tool-type wanneer je een toolinstantie aanmaakt';
-$string['show_in_course_help'] = 'Indien geselecteerd zal de configuratie van deze tool getoond worden in het "Externe tool type" rolmenu wanneer leraars externe tools configureren in cursussen.
-
-In de meeste gevallen moet deze optie niet geselecteerd worden. Leraren kunnen de toolconfiguratie gebruiken, gebaseerd op de start-URL die overeenkomt met een Tool basis-URL. Dit is de aangeraden methode.
-
-De enige reden waarom deze optie zou gekozen moeten worden, is wanneer de tool gebruikt wordt voor single sign on. Bijvoorbeeld, als elke start de gebruiker alleen maar naar een landingspagina brengt in plaats van naar een specifieke bron.';
 $string['size'] = 'Parameters afmetingen';
 $string['submission'] = 'Inzending';
 $string['submissions'] = 'Inzendingen';

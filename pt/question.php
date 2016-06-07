@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'question', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -150,7 +150,7 @@ $string['errordeletingquestionsfromcategory'] = 'Erro ao apagar perguntas da cat
 $string['errorduringpost'] = 'Ocorreu um erro durante o pós-processamento!';
 $string['errorduringpre'] = 'Ocorreu um erro durante o pré-processamento!';
 $string['errorduringproc'] = 'Ocorreu um erro durante o processamento!';
-$string['errorduringregrade'] = 'Não foi possível reclassificar a pergunta {$a->qid}, levando ao estado {$a->stateid}.';
+$string['errorduringregrade'] = 'Não foi possível reavaliar a pergunta {$a->qid}, levando ao estado {$a->stateid}.';
 $string['errorfilecannotbecopied'] = 'Erro: não é possível copiar o ficheiro {$a}.';
 $string['errorfilecannotbemoved'] = 'Erro: não é possível mover o ficheiro {$a}.';
 $string['errorfileschanged'] = 'Erro: os ficheiros com hiperligações às questões de origem mudaram desde a exibição do formulário.';
@@ -195,7 +195,6 @@ $string['generalfeedback_help'] = 'O feedback geral é exibido ao aluno depois d
 Pode usar o feedback geral para dar ao aluno uma explicação completa da resposta e hiperligações para informação relevante para a sua compreensão.';
 $string['getcategoryfromfile'] = 'Obter categoria a partir de ficheiro';
 $string['getcontextfromfile'] = 'Obter contexto a partir de ficheiro';
-$string['hidden'] = 'Oculto';
 $string['hintn'] = 'Ajuda {no}';
 $string['hintnoptions'] = 'Opções da dica {no}';
 $string['hinttext'] = 'Texto de ajuda';
@@ -235,7 +234,7 @@ $string['invalidwizardpage'] = 'Incorreto ou nenhuma página do assistente foi e
 $string['lastmodifiedby'] = 'Última modificação por';
 $string['lasttry'] = 'Última tentativa';
 $string['linkedfiledoesntexist'] = 'O ficheiro, convertido em hiperligação {$a}, não existe.';
-$string['makechildof'] = 'Tornar categoria descendente de \'{$a}';
+$string['makechildof'] = 'Tornar subcategoria de \'{$a}';
 $string['makecopy'] = 'Gravar como nova pergunta';
 $string['maketoplevelitem'] = 'Tornar categoria de topo';
 $string['manualgradeinvalidformat'] = 'Esse número não é válido.';
@@ -296,8 +295,6 @@ $string['numqas'] = 'Nº Tentativas';
 $string['numquestions'] = 'Nº perguntas';
 $string['numquestionsandhidden'] = '{$a->numquestions} (+{$a->numhidden} oculta(s))';
 $string['options'] = 'Opções';
-$string['orphanedquestionscategory'] = 'Perguntas guardades de categorias apagadas';
-$string['orphanedquestionscategoryinfo'] = 'Ocasionalmente, em geral devido a bugs antigos do software, as perguntas podem permanecer na base de dados mesmo que a correspondente categoria tenha sido apagada. É claro que isto não deve acontecer, apenas aconteceu no passado. Esta categoria foi criada automaticamente, e as perguntas órfãs foram movidas para aqui para que as possa gerir. Note que, muito provavelmente, as imagens ou ficheiros multimédia usados nestas perguntas foram perdidos.';
 $string['page-question-category'] = 'Página da categoria de pergunta';
 $string['page-question-edit'] = 'Página de edição de pergunta';
 $string['page-question-export'] = 'Página de exportação de perguntas';
@@ -418,7 +415,7 @@ $string['upgradeproblemcategoryloop'] = 'Foram detetados problemas na atualizaç
 $string['upgradeproblemcouldnotupdatecategory'] = 'Não foi possível atualizar a categoria de perguntas {$a->name} ({$a->id}).';
 $string['upgradeproblemunknowncategory'] = 'Foram detetados problemas na atualização das categorias. A categoria {$a->id} tem como categoria ascendente {$a->parent}, que não existe. A categoria ascendente foi alterada para resolver o problema.';
 $string['whethercorrect'] = 'Correta/incorreta';
-$string['whethercorrect_help'] = 'A classificação na forma de texto \'Correto\', \'Parcialmente correto\' ou \'Incorreto\', ou a cor de realce que expressa a mesma informação.';
+$string['whethercorrect_help'] = 'A avaliação na forma de texto \'Correto\', \'Parcialmente correto\' ou \'Incorreto\', ou a cor de realce que expressa essa mesma informação.';
 $string['whichtries'] = 'Que tentativas';
 $string['withselected'] = 'Com os selecionados';
 $string['wrongprefix'] = 'nameprefix {$a} formatado incorretamente';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'backup', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,11 @@ $string['automatedbackupschedule'] = 'Agendamento';
 $string['automatedbackupschedulehelp'] = 'Escolha os dias da semana em que serão feitas as cópias de segurança automáticas.';
 $string['automatedbackupsinactive'] = 'As cópias de segurança automáticas não foram ativadas pelo administrador do site';
 $string['automatedbackupstatus'] = 'Estado das cópias de segurança automáticas';
+$string['automateddeletedays'] = 'Apagar as cópias de segurança com mais de';
+$string['automatedmaxkept'] = 'Número máximo de cópias de segurança guardadas';
+$string['automatedmaxkepthelp'] = 'Isto especifica o número máximo de cópias de segurança automáticas recentes para ser mantido para cada disciplina. As cópias de segurança mais antigas serão apagadas automaticamente.';
+$string['automatedminkept'] = 'Número mínimo de cópias de segurança guardadas';
+$string['automatedminkepthelp'] = 'Caso as cópias de segurança com mais do que um determinado período de tempo sejam apagadas, poderão ocorrer casos de disciplinas que se encontram inativas ficarem sem cópias de segurança. Para prevenir isto, deverá definir qual o número mínimo de cópias de segurança a manter.';
 $string['automatedsettings'] = 'Configurações das cópias de segurança automáticas';
 $string['automatedsetup'] = 'Configuração das cópias de segurança automáticas';
 $string['automatedstorage'] = 'Armazenamento das cópias de segurança automáticas';
@@ -87,6 +92,7 @@ $string['configgeneralbadges'] = 'Se ativar esta opção, as medalhas serão  in
 $string['configgeneralblocks'] = 'Se ativar esta opção os blocos serão incluídos nas cópias de segurança.';
 $string['configgeneralcomments'] = 'Se ativar esta opção os comentários serão incluídos nas cópias de segurança.';
 $string['configgeneralfilters'] = 'Se ativar esta opção os filtros serão incluídos nas cópias de segurança';
+$string['configgeneralgroups'] = 'Se ativar esta opção, os grupos e agrupamentos serão incluídos nas cópia de segurança.';
 $string['configgeneralhistories'] = 'Se ativar esta opção o histórico dos utilizadores será incluído nas cópias de segurança.';
 $string['configgenerallogs'] = 'Se ativar esta opção os registos de atividade (logs) serão incluídos nas cópias de segurança.';
 $string['configgeneralquestionbank'] = 'Se ativar esta opção, a base de dados de perguntas será incluída nas cópias de segurança por predefinição. ATENÇÃO: desativar esta configuração irá desativar a cópia de segurança das atividades que usam a base de dados de perguntas, como p. ex. o Teste.';
@@ -118,7 +124,7 @@ $string['errorfilenamerequired'] = 'Tem que inserir um nome de ficheiro válido 
 $string['errorinvalidformat'] = 'O formato da cópia de segurança é desconhecido.';
 $string['errorinvalidformatinfo'] = 'O ficheiro selecionado não é um ficheiro de cópia de segurança Moodle válido e não pode ser restaurado.';
 $string['errorminbackup20version'] = 'Esta cópia de segurança foi criada com uma versão de desenvolvimento do Moodle ({$a->backup}). A versão mínima necessária é {$a->min}. O restauro não pode continuar.';
-$string['errorrestorefrontpage'] = 'O restauro sobre a página inicial não é permitido.';
+$string['errorrestorefrontpagebackup'] = 'Apenas pode restaurar cópias de segurança a partir da página principal';
 $string['executionsuccess'] = 'O ficheiro da cópia de segurança foi criado com sucesso.';
 $string['filealiasesrestorefailures'] = 'Não conseguiu restaurar os atalhos';
 $string['filealiasesrestorefailures_help'] = 'Atalhos são ligações a outros ficheiros, incluindo os que se encontram em repositórios externos. Em alguns casos, o Moodle não consegue restaurá-los, por exemplo quando faz o restauro a partir de outro site ou quando os ficheiros ligados não existem.';
@@ -136,6 +142,7 @@ $string['generalblocks'] = 'Incluir blocos';
 $string['generalcomments'] = 'Incluir comentários';
 $string['generalfilters'] = 'Incluir filtros';
 $string['generalgradehistories'] = 'Incluir históricos';
+$string['generalgroups'] = 'Incluir grupos e agrupamentos';
 $string['generalhistories'] = 'Incluir históricos';
 $string['generallogs'] = 'Incluir registos de atividade';
 $string['generalquestionbank'] = 'Incluir base de dados de perguntas';
@@ -156,6 +163,8 @@ $string['importcurrentstage2'] = 'Configuração da estrutura';
 $string['importcurrentstage4'] = 'Revisão';
 $string['importcurrentstage8'] = 'Realizar importação';
 $string['importfile'] = 'Importar um ficheiro de cópia de segurança';
+$string['importgeneralduplicateadminallowed'] = 'Permite a resolução de conflitos de administração';
+$string['importgeneralduplicateadminallowed_desc'] = 'Se o site tem uma conta com nome de utilizador \'admin\', ao tentar restaurar de um ficheiro de cópia de segurança contendo uma conta com nome de utilizador \'admin\' pode causar conflitos. Se esta configuração estiver habilitada, o conflito será resolvido alterando o nome de utilizador no ficheiro de cópia de segurança para \'admin_xyz\'.';
 $string['importgeneralmaxresults'] = 'Número máximo de disciplinas listadas para importação';
 $string['importgeneralmaxresults_desc'] = 'Isto controla o número de disciplinas que são listadas durante o primeiro passo do processo de importação';
 $string['importgeneralsettings'] = 'Configurações predefinidas de importação';
@@ -230,8 +239,10 @@ $string['rootsettingbadges'] = 'Incluir Medalhas';
 $string['rootsettingblocks'] = 'Incluir blocos';
 $string['rootsettingcalendarevents'] = 'Incluir calendário de eventos';
 $string['rootsettingcomments'] = 'Incluir comentários';
+$string['rootsettingcompetencies'] = 'Incluir competências';
 $string['rootsettingfilters'] = 'Incluir filtros';
 $string['rootsettinggradehistories'] = 'Incluir histórico de notas';
+$string['rootsettinggroups'] = 'Incluir grupos e agrupamentos';
 $string['rootsettingimscc1'] = 'Converter para IMS Common Cartridge 1.0';
 $string['rootsettingimscc11'] = 'Converter para Common Cartridge 1.1';
 $string['rootsettinglogs'] = 'Incluir relatórios de atividade da disciplina';
@@ -252,6 +263,7 @@ $string['setting_keep_groups_and_groupings'] = 'Manter os grupos e agrupamentos 
 $string['setting_keep_roles_and_enrolments'] = 'Manter inscrições atuais';
 $string['setting_overwriteconf'] = 'Substituir configuração da disciplina';
 $string['showtypes'] = 'Mostrar opções de tipo';
+$string['sitecourseformatwarning'] = 'Isto é uma cópia de segurança da página principal, note que estas cópias apenas podem ser restauradas a partir da mesma';
 $string['skiphidden'] = 'Ignorar disciplinas ocultas';
 $string['skiphiddenhelp'] = 'Determina se as disciplinas ocultas devem ou não ser ignoradas';
 $string['skipmodifdays'] = 'Ignorar disciplinas que não foram modificadas há';

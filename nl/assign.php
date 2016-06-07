@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assign', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -233,7 +233,7 @@ $string['invalidgradeforscale'] = 'De gegeven beoordeling was niet geldig in de 
 $string['lastmodifiedgrade'] = 'Laatst gewijzigd (beoordeling)';
 $string['lastmodifiedsubmission'] = 'Laatst gewijzigd (inzending)';
 $string['latesubmissions'] = 'Te late inzendingen';
-$string['latesubmissionsaccepted'] = 'Toegestaan tot einddatum';
+$string['latesubmissionsaccepted'] = 'Toegestaan tot {$a}';
 $string['locksubmissionforstudent'] = 'Verhinder het insturen voor leerling (id={$a->id}, naam={$a->fullname}).';
 $string['locksubmissions'] = 'Blokkeer insturen';
 $string['manageassignfeedbackplugins'] = 'Beheer opdracht feedback plugins';
@@ -272,6 +272,8 @@ Leerlingen kunnen gelijk welke digitale inhoud (bestanden), zoals documenten gem
 Bij het beoordelen van opdrachten, kunnen leraren feedback geven en bestanden uploaden, zoals beoordeelde bestanden van leerlingen, documenten met opmerkingen of audiobestanden met gesproken tekst. Opdrachten kunnen beoordeeld worden met een numerieke of aangepaste schaal of met geavanceerde beoordelingsmethodes zoals een rubric. Het totaalcijfer wordt opgenomen in de cijferlijst.';
 $string['modulenameplural'] = 'Opdrachten';
 $string['moreusers'] = '{$a} meer...';
+$string['multipleteams'] = 'Lid van meer dan één groep';
+$string['multipleteamsgrader'] = 'Lid van meer dan één groep, dus kan geen inzendingen doen.';
 $string['mysubmission'] = 'Status van jouw opdracht:';
 $string['newsubmissions'] = 'Ingestuurde opdrachten';
 $string['noattempt'] = 'Geen poging';
@@ -283,6 +285,8 @@ $string['noonlinesubmissions'] = 'Voor deze opdracht moet je niets online instur
 $string['nosavebutnext'] = 'Volgende';
 $string['nosubmission'] = 'Er is nog niets ingestuurd voor deze opdracht';
 $string['nosubmissionsacceptedafter'] = 'Er worden geen opdrachten meer aanvaard na';
+$string['noteam'] = 'Lid van geen enkele groep';
+$string['noteamgrader'] = 'Lid van geen enkele groep, dus kan geen inzendingen doen.';
 $string['notgraded'] = 'Niet beoordeeld';
 $string['notgradedyet'] = 'Nog niet beoordeeld';
 $string['notifications'] = 'Meldingen';
@@ -303,6 +307,8 @@ $string['page-mod-assign-x'] = 'Elke opdracht module pagina';
 $string['participant'] = 'Deelnemer';
 $string['pluginadministration'] = 'Opdrachtbeheer';
 $string['pluginname'] = 'Opdracht';
+$string['preventsubmissionnotingroup'] = 'Groeplidmaatschap vereist om een inzending te maken';
+$string['preventsubmissionnotingroup_help'] = 'Indien ingeschakeld zullen enkel gebruikers die lid zijn van een groep een inzending kunnen maken.';
 $string['preventsubmissions'] = 'Verhinder de gebruiker om meer in te sturen voor deze opdracht.';
 $string['preventsubmissionsshort'] = 'Verhinder het wijzigen van ingestuurde opdrachten';
 $string['previous'] = 'Vorige';
@@ -423,6 +429,7 @@ $string['teamsubmission_help'] = 'Indien ingeschakeld zullen de leerlingen in gr
 $string['textinstructions'] = 'Opdracht instructies';
 $string['timemodified'] = 'Laatst gewijzigd';
 $string['timeremaining'] = 'Resterende tijd';
+$string['ungroupedusers'] = 'De insteling "Groeplidmaatschap vereist om een inzending te maken" is ingeschakeld en sommige gebruikers zijn niet toegewezen aan een groep of zijn lid van meerdere groepen. Dit zal het hen onmogelijk maken om hun opdracht in te sturen.';
 $string['unlimitedattempts'] = 'Onbeperkt';
 $string['unlimitedattemptsallowed'] = 'Onbeperkt aantal pogingen toegestaan.';
 $string['unlocksubmissionforstudent'] = 'Insturen toestaan voor leerling:  (id={$a->id}, fullname={$a->fullname}).';
@@ -432,6 +439,7 @@ $string['updatetable'] = 'Bewaar en vernieuw tabel';
 $string['upgradenotimplemented'] = 'Upgrade nog niet geïmplementeerd in plugin ({$a->type} {$a->subtype})';
 $string['userextensiondate'] = 'Extra tijd gegeven tot: {$a}';
 $string['usergrade'] = 'Gebruikerscijfer';
+$string['useridlistnotcached'] = 'Bewaren onderbroken. Moodle kan niet bepalen voor welke gebruiker het cijfer moet bewaard worden.';
 $string['userswhoneedtosubmit'] = 'Leerlingen die nog moeten insturen: {$a}';
 $string['validmarkingworkflowstates'] = 'Geldige beoordlings-worflow statussen';
 $string['viewbatchmarkingallocation'] = 'Bekijk pagina voor batch set beoordelingstoewijzing';

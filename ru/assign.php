@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'assign', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -235,7 +235,7 @@ $string['invalidgradeforscale'] = 'Установленная оценка не 
 $string['lastmodifiedgrade'] = 'Последнее изменение (оценка)';
 $string['lastmodifiedsubmission'] = 'Последнее изменение (ответ)';
 $string['latesubmissions'] = 'Поступившие представления';
-$string['latesubmissionsaccepted'] = 'Только студент(ы), которым разрешено продление, могут продолжать отвечать на задание.';
+$string['latesubmissionsaccepted'] = 'Разрешено до {$a}';
 $string['locksubmissionforstudent'] = 'Предотвратить представление ответов студентами: (id={$a->id}, полное имя={$a->fullname}).';
 $string['locksubmissions'] = 'Заблокировать ответы';
 $string['manageassignfeedbackplugins'] = 'Управление модулями отзыва плагина «Задание»';
@@ -285,6 +285,7 @@ $string['noonlinesubmissions'] = 'Ответ на задание должен б
 $string['nosavebutnext'] = 'Далее';
 $string['nosubmission'] = 'Ничего не было представлено';
 $string['nosubmissionsacceptedafter'] = 'Не принимать ответы после';
+$string['noteam'] = 'Вас нет ни в одной из групп. Пожалуйста, свяжитесь с преподавателем.';
 $string['notgraded'] = 'Не оценено';
 $string['notgradedyet'] = 'Пока не оценен';
 $string['notifications'] = 'Уведомления';
@@ -305,6 +306,8 @@ $string['page-mod-assign-x'] = 'Любая страница модуля «За�
 $string['participant'] = 'Участник';
 $string['pluginadministration'] = 'Управление заданием';
 $string['pluginname'] = 'Задание';
+$string['preventsubmissionnotingroup'] = 'Нужно быть в группе для отправки ответа';
+$string['preventsubmissionnotingroup_help'] = 'При включенном параметре пользователи, не являющиеся членами групп, не смогут отправлять ответы.';
 $string['preventsubmissions'] = 'Запретить пользователю повторно отвечать на это задание.';
 $string['preventsubmissionsshort'] = 'Запретить изменять ответ';
 $string['previous'] = 'Назад';
@@ -426,6 +429,7 @@ $string['teamsubmission_help'] = 'Если «Да», то студенты бу�
 $string['textinstructions'] = 'Инструкция к заданию';
 $string['timemodified'] = 'Последнее изменение';
 $string['timeremaining'] = 'Оставшееся время';
+$string['ungroupedusers'] = 'Включен параметр «Нужно быть в группе для отправки ответа» и некоторые пользователи не являются членами групп — эти пользователи не смогут отправить ответы на задание.';
 $string['unlimitedattempts'] = 'Неограничено';
 $string['unlimitedattemptsallowed'] = 'Разрешено неограниченное количество попыток';
 $string['unlocksubmissionforstudent'] = 'Разрешить представить ответы студентам: (ID = {$a->id}, ФИО = {$a->fullname}).';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'de', branch 'MOODLE_28_STABLE'
+ * Strings for component 'data', language 'de', branch 'MOODLE_31_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addtemplate'] = 'Vorlage für neue Einträge';
 $string['advancedsearch'] = 'Erweiterte Suche';
 $string['allowcomments'] = 'Kommentare';
 $string['alttext'] = 'Alternativer Text';
+$string['approvalstatus'] = 'Prüfstatus';
 $string['approve'] = 'Zulassen';
 $string['approved'] = 'Bestätigt';
 $string['areacontent'] = 'Felder';
@@ -77,7 +78,7 @@ $string['configenablerssfeeds'] = 'Mit dieser Funktion aktivieren Sie RSS-Feeds 
 $string['confirmdeletefield'] = 'Möchten Sie dieses Feld wirklich in der Datenbank löschen?';
 $string['confirmdeleterecord'] = 'Möchten Sie diesen Datensatz wirklich in der Datenbank löschen?';
 $string['confirmdeleterecords'] = 'Möchten Sie diese EInträge wirklich löschen?';
-$string['csstemplate'] = 'CSS-Anpassungen';
+$string['csstemplate'] = 'CSS für Vorlagen';
 $string['csvfailed'] = 'Die Daten aus der CSV-Datei konnten nicht gelesen werden.';
 $string['csvfile'] = 'CSV-Datei';
 $string['csvimport'] = 'CSV-Dateiimport';
@@ -132,6 +133,7 @@ $string['entrieslefttoaddtoview'] = 'Sie müssen {$a->entrieslefttoview} (weiter
 $string['entry'] = 'Eintrag';
 $string['entrysaved'] = 'Ihr Eintrag wurde gesichert';
 $string['errormustbeteacher'] = 'Diese Seite dürfen nur Trainer/innen benutzen!';
+$string['errormustsupplyvalue'] = 'Sie müssen hier einen Wert eintragen.';
 $string['errorpresetexists'] = 'Es gibt bereits eine Vorlage mit dem gewählten Namen';
 $string['eventfieldcreated'] = 'Feld angelegt';
 $string['eventfielddeleted'] = 'Feld gelöscht';
@@ -210,6 +212,7 @@ $string['invalidurl'] = 'Die eingegebene URL ist nicht gültig.';
 $string['jstemplate'] = 'JavaScript für Vorlagen';
 $string['latitude'] = 'Breitengrad';
 $string['latlong'] = 'Geografische Breite und Länge';
+$string['latlongboth'] = 'Längen- und Breitengrad müssen eingetragen werden.';
 $string['latlongdownloadallhint'] = 'Download aller Einträge als KML';
 $string['latlongkmllabelling'] = 'Wie sollen Ziele in KML-Dateien bezeichnet werden? (Google Earth)';
 $string['latlonglinkservicesdisplayed'] = 'Links zum Anzeigen geografischer Daten';
@@ -217,6 +220,8 @@ $string['latlongotherfields'] = 'Andere Felder';
 $string['list'] = 'Listenansicht';
 $string['listtemplate'] = 'Vorlage für Liste';
 $string['longitude'] = 'Längengrad';
+$string['manageapproved'] = 'Änderung von freigegebenen Einträgen erlauben';
+$string['manageapproved_help'] = 'Diese Option legt fest, ob freigegebene Einträge durch deren Autor/in geändert oder gelöscht werden dürfen. Die Einstellung ist nur wirksam, wenn eine Freigabe von Einträgen notwendig ist.';
 $string['mapexistingfield'] = 'Verknüpfen mit {$a}';
 $string['mapnewfield'] = 'Neues Feld anlegen';
 $string['mappingwarning'] = 'Alle alten Felder, die keinem neuen Feld zugeordnet wurden, werden zusammen mit allen Daten aus diesen Feldern gelöscht.';
@@ -298,12 +303,14 @@ $string['recordsnotsaved'] = 'Kein Datensatz wurde gespeichert. Prüfen Sie bitt
 $string['recordssaved'] = 'Datensätze gespeichert';
 $string['requireapproval'] = 'Freigabe erforderlich?';
 $string['requireapproval_help'] = 'Wenn diese Option aktiviert ist, müssen die Einträge von Trainer/innen erst bestätigt werden, bevor sie für alle anderen angezeigt werden?';
+$string['required'] = 'Notwendig';
 $string['requiredentries'] = 'Erforderliche Einträge';
 $string['requiredentries_help'] = 'Die erforderliche Zahl der Einträge gibt die Zahl der eigenen Einträge an, die Teilnehmer/innen speichern müssen, bevor die Aktivität als vollständig bearbeitet gewertet wird.';
 $string['requiredentriestoview'] = 'Erforderliche Einträge vor der Ansicht aller Daten';
 $string['requiredentriestoview_help'] = 'Die erforderliche Zahl der Einträge gibt die Zahl der eigenen Einträge an, die Teilnehmer/innen liefern müssen, bevor sie Einträge anderer Teilnehmer/innen einsehen dürfen.
 
 Hinweis: Falls Einträge vor der Ansicht notwendig sind, sollte die Autoverlinkung für die Datenbank deaktiviert sein. Die Autoverlinkung kann nämlich nicht entscheiden, ob jemand die erforderliche Anzahl von Einträgen bereits geliefert hat.';
+$string['requiredfield'] = 'Pflichtfeld';
 $string['resetsettings'] = 'Filter zurücksetzen';
 $string['resettemplate'] = 'Vorlage zurücksetzen';
 $string['resizingimages'] = 'Vorschaubilder anpassen...';

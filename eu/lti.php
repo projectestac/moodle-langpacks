@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'eu', branch 'MOODLE_28_STABLE'
+ * Strings for component 'lti', language 'eu', branch 'MOODLE_31_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -185,6 +185,7 @@ $string['resourcekey_admin'] = 'Kontsumitzaile-gakoa';
 $string['resourceurl'] = 'Baliabidearen URLa';
 $string['return_to_course'] = 'Sakatu <a href="{$a->link}" target="_top">here</a>  ikastarora itzultzeko.';
 $string['saveallfeedback'] = 'Gorde nire feedback guztiak';
+$string['search:activity'] = 'Kanpoko tresna - jardueraren informazioa';
 $string['secure_launch_url'] = 'Hasierako URL segurua';
 $string['send'] = 'Bidali';
 $string['services'] = 'Zerbitzuak';

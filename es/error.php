@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'es', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'es', branch 'MOODLE_31_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,6 +77,7 @@ $string['cannoteditcomment'] = 'Este comentario no es suyo: no lo puede editar';
 $string['cannoteditcommentexpired'] = 'Usted no puede editar esto. El tiempo ha expirado!';
 $string['cannoteditpostorblog'] = 'Usted no puede publicar o editar los blogs';
 $string['cannoteditsiteform'] = 'Usted no puede modificar el curso del sitio usando esta forma';
+$string['cannotedituserpreferences'] = 'No se pueden editar las preferencias de este usuario';
 $string['cannotedityourprofile'] = 'Lo sentimos, no puede editar su perfil propio';
 $string['cannotexecduringupgrade'] = 'No se puede ejecutar durante la actualización';
 $string['cannotfindcategory'] = 'No puedo encontrar el registro de la categoría de la base de datos con ID - {$a}';
@@ -177,7 +178,7 @@ $string['couldnotassignrole'] = 'Al intentar asignarle un rol, ha ocurrido un er
 $string['couldnotupdatenoexistinguser'] = 'No se puede actualizar el usuario - el usuario no existe';
 $string['countriesphpempty'] = 'Error: El archivo countries.php en el paquete de idioma {$a} está vacío o no existe.';
 $string['coursedoesnotbelongtocategory'] = 'El curso no pertenece a esta categoría';
-$string['courseformatnotfound'] = 'El formato del curso \'{a}\' no existe o no se reconoce';
+$string['courseformatnotfound'] = 'El formato del curso \'{$a}\' no existe o no se reconoce';
 $string['coursegroupunknown'] = 'No se ha especificado el curso correspondiente al grupo {$a}';
 $string['courseidnotfound'] = 'El Id del curso no existe';
 $string['courseidnumbertaken'] = 'El número ID ya se está usando en otro curso ({$a})';
@@ -233,6 +234,7 @@ $string['errorcreatingfile'] = 'Error al crear el archivo  "{$a}"';
 $string['errorcreatingrole'] = 'Error al crear el rol';
 $string['errorfetchingrssfeed'] = 'Error al obtener el canal RSS.';
 $string['erroronline'] = 'Error en la línea {$a}';
+$string['erroroutput'] = 'Error de salida, deshabilite la redirección automática.';
 $string['errorparsingxml'] = 'Error al analizar XML: {$a->errorstring} en la línea {$a->errorline}, carácter {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Error procesando archivo histórico';
 $string['errorreadingfile'] = 'Error al leer el archivo  "{$a}"';
@@ -266,7 +268,7 @@ $string['groupnotaddederror'] = 'No se ha agregado el grupo "{$a}".';
 $string['groupnotaddedtogroupingerror'] = 'El grupo "{$a->groupname}" no se ha añadido a la agrupación "{$a->groupingname}"';
 $string['groupunknown'] = 'El grupo {$a} no está asociado al curso especificado';
 $string['groupusernotmember'] = 'El usuario no es miembro de este grupo';
-$string['guestcantaccessprofiles'] = 'Los invitados no pueden acceder a los perfiles de los uaurios. Acceda al sistema con un usuario para continuar.';
+$string['guestcantaccessprofiles'] = 'Los invitados no pueden acceder a los perfiles de los usuarios. Acceda al sistema con un usuario para continuar.';
 $string['guestnocomment'] = 'A los invitados no se les permite publicar comentarios!';
 $string['guestnoeditprofile'] = 'Los usuarios invitados no pueden editar su perfil';
 $string['guestnoeditprofileother'] = 'No se puede editar el perfil de los usuarios invitados';

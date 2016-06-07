@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'el', branch 'MOODLE_28_STABLE'
+ * Strings for component 'enrol_self', language 'el', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['longtimenosee'] = 'Εγγραφή ανενεργή μετά από';
 $string['longtimenosee_help'] = 'Αν οι χρήστες δεν έχουν πρόσβαση σε ένα μάθημα για μεγάλο χρονικό διάστημα, τότε απεγγράφονται αυτόματα. Αυτή η παράμετρος καθορίζει την προθεσμία αυτή.';
 $string['maxenrolled'] = 'Μέγιστος αριθμός εγγεγραμμένων χρηστών';
 $string['maxenrolled_help'] = 'Καθορίζει τον μέγιστο αριθμό χρηστών που μπορούν να αυτό-εγγραφούν. Το 0 σημαίνει ότι δεν υπάρχει όριο.';
+$string['password'] = 'Κλειδί εγγραφής';
 $string['passwordinvalidhint'] = 'Αυτό το κλειδί εγγραφής ήταν λάθος, παρακαλώ δοκιμάστε ξανά';
 $string['pluginname'] = 'Αυτό-εγγραφή';
 $string['pluginname_desc'] = 'Η πρόσθετη λειτουργία της αυτό-εγγραφής επιτρέπει στους χρήστες να επιλέξουν σε ποιά μαθήματα επιθυμούν να συμμετέχουν. Τα μαθήματα μπορεί να προστατεύονατι από ένα κλειδί εγγραφής. Εσωτερικά η εγγραφή γίνεται μέσω της πρόσθετης λειτουργίας χειροκίνητης εγγραφής, η οποία πρέπει να ενεργοποιηθεί στο ίδιο μάθημα.';

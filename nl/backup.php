@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'nl', branch 'MOODLE_28_STABLE'
+ * Strings for component 'backup', language 'nl', branch 'MOODLE_31_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,11 @@ $string['automatedbackupschedule'] = 'Planning';
 $string['automatedbackupschedulehelp'] = 'Dagen van de week om automatische back-ups uit te voeren';
 $string['automatedbackupsinactive'] = 'Automatische back-ups zijn niet ingeschakeled door de site-beheerder.';
 $string['automatedbackupstatus'] = 'Status van geplande back-up';
+$string['automateddeletedays'] = 'Verwijder backups ouder dan';
+$string['automatedmaxkept'] = 'Maximum aantal te houden back-ups';
+$string['automatedmaxkepthelp'] = 'Dit geeft het maximum aantal of recente automatische back-ups om bij te houden voor elke cursus. Oudere back-ups worden automatisch verwijderd.';
+$string['automatedminkept'] = 'Maximum aantal te houden back-ups';
+$string['automatedminkepthelp'] = 'Als back-ups ouder dan een bepaald aantal dage, verwijderd worden, dan kan het gebeuren dat een niet-actieve cursus zonder back-ups komt. Om dit te voorkomen kun je hier een minimaal te behouden aantal back-ups ingeven.';
 $string['automatedsettings'] = 'Instellingen geplande back-up';
 $string['automatedsetup'] = 'Instellingen automatische back-up';
 $string['automatedstorage'] = 'Opslag automatische back-up';
@@ -87,6 +92,7 @@ $string['configgeneralbadges'] = 'Stelt de standaard in om badges op te nemen in
 $string['configgeneralblocks'] = 'Stelt de standaardinstelling  in voor het opnemen van blokken in een back-up';
 $string['configgeneralcomments'] = 'Stelt de standaardinstelling  in voor het opnemen van commentaren in een back-up';
 $string['configgeneralfilters'] = 'Stelt de standaardinstelling  in voor het opnemen van filters in een back-up';
+$string['configgeneralgroups'] = 'Stelt de standaard in om groepen en groeperingen mee op te nemen in een back-up.';
 $string['configgeneralhistories'] = 'Stelt de standaardinstelling  in voor het opnemen van de gebruikersgeschiedenis in een back-up';
 $string['configgenerallogs'] = 'Indien ingeschakeld zullen logs standaard in alle back-ups opgenomen worden';
 $string['configgeneralquestionbank'] = 'Indien ingeschakeld zal de vragenbank standaard in de backups zitten.
@@ -118,7 +124,7 @@ $string['errorfilenamerequired'] = 'Je moet een geldige bestandsnaam opgeven voo
 $string['errorinvalidformat'] = 'Onbekend back-upformaat';
 $string['errorinvalidformatinfo'] = 'Het gekozen bestand is geen geldig Moodle back-upbestand en kan niet teruggezet worden.';
 $string['errorminbackup20version'] = 'Dit back-upbestand is gemaakt met een ontwikkelversie van Moodle-back-up ({$a->backup}). De minimale vereiste is {$a->min}. Kan niet teruggezet worden.';
-$string['errorrestorefrontpage'] = 'Terugzetten over de startpagina is niet toegestaan.';
+$string['errorrestorefrontpagebackup'] = 'Je kunt back-ups van de startpagina enkel op de startpagina terugzetten';
 $string['executionsuccess'] = 'Je back-upbestand is klaar.';
 $string['filealiasesrestorefailures'] = 'Aliases terugzetten mislukt';
 $string['filealiasesrestorefailures_help'] = 'Aliases zijn symbolische links naar andere bestanden,  ook deze naar externe opslagruimten. In sommige gevallen kan Moodle ze niet terugzetten - bijvoorbeeld als een back-up van een andere site wordt teruggezet en het bestand waarnaar gerefereerd wordt niet bestaat.
@@ -137,6 +143,7 @@ $string['generalblocks'] = 'Blokken mee opnemen';
 $string['generalcomments'] = 'Commentaren mee opnemen';
 $string['generalfilters'] = 'Filters mee opnemen';
 $string['generalgradehistories'] = 'Geschiedenis toevoegen';
+$string['generalgroups'] = 'Groepen en groeperingen mee opnemen';
 $string['generalhistories'] = 'Geschiedenis mee opnemen';
 $string['generallogs'] = 'Logs mee opnemen';
 $string['generalquestionbank'] = 'Vragenbank ook backuppen';
@@ -157,6 +164,8 @@ $string['importcurrentstage2'] = 'Schema instellingen';
 $string['importcurrentstage4'] = 'Bevestiging en nakijken';
 $string['importcurrentstage8'] = 'Importeer';
 $string['importfile'] = 'Importeer een back-upbestand';
+$string['importgeneralduplicateadminallowed'] = 'Admin-conflict oplossen toestaan';
+$string['importgeneralduplicateadminallowed_desc'] = 'Als de site een gebruiker heeft met als gebruikersnaam \'admin\', dan kan het terugzetten van een backup-bestand waarin een account zit met gebruikersnaam \'admin\' een conflict veroorzaken. Als deze instelling ingeschakeld is, dan zal het conflict opgelost worden door de gebruikersnaam in het backup-bestand te wijzigen naar \'admin_xyz\'.';
 $string['importgeneralmaxresults'] = 'Maximaal aantal cursussen in de lijst om te importeren';
 $string['importgeneralmaxresults_desc'] = 'Dit controleert het aantal cursussen in de lijst tijdens de eerste stap van het importproces.';
 $string['importgeneralsettings'] = 'Algemene standaardwaarden bij importeren';
@@ -233,6 +242,7 @@ $string['rootsettingcalendarevents'] = 'Kalendergebeurtenissen mee opnemen';
 $string['rootsettingcomments'] = 'Commentaar invoegen';
 $string['rootsettingfilters'] = 'Filters invoegen';
 $string['rootsettinggradehistories'] = 'Cijfergeschiedenis invoegen';
+$string['rootsettinggroups'] = 'Groepen en groeperingen mee opnemen';
 $string['rootsettingimscc1'] = 'Converteer naar IMS Common Cartridge 1.0';
 $string['rootsettingimscc11'] = 'Converteer naar IMS Common Cartridge 1.1';
 $string['rootsettinglogs'] = 'Cursuslogs invoegen';
@@ -253,6 +263,7 @@ $string['setting_keep_groups_and_groupings'] = 'Huidige groepen en groeperingen 
 $string['setting_keep_roles_and_enrolments'] = 'Huidige rollen en aanmeldingen behouden';
 $string['setting_overwriteconf'] = 'Overschrijf cursusconfiguratie';
 $string['showtypes'] = 'Toon type-opties';
+$string['sitecourseformatwarning'] = 'Dit is een back-up voor de startpagina. Merk op dat die enkel op de startpagina kan teruggezet worden.';
 $string['skiphidden'] = 'Sla verborgen cursussen over';
 $string['skiphiddenhelp'] = 'Kies om verborgen cursussen al dan niet over te slaan bij een back-up';
 $string['skipmodifdays'] = 'Sla cursussen over die niet gewijzigd zijn sinds';

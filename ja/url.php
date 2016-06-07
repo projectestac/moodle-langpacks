@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'url', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,6 +68,7 @@ $string['popupwidthexplain'] = 'ポップアップウィンドウのデフォル
 $string['printintro'] = 'URL説明を表示する';
 $string['printintroexplain'] = 'コンテンツの下にURL説明を表示しますか? この設定を有効にした場合でも、いくつかの表示タイプでは説明を表示することができません。';
 $string['rolesinparams'] = 'パラメータにロール名を含む';
+$string['search:activity'] = 'URL';
 $string['serverurl'] = 'サーバURL';
 $string['url:addinstance'] = '新しいURLリソースを追加する';
 $string['url:view'] = 'URLを表示する';

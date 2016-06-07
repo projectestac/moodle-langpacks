@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'en', branch 'MOODLE_28_STABLE'
+ * Strings for component 'survey', language 'en', branch 'MOODLE_31_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -241,6 +241,7 @@ $string['savednotes'] = 'Your notes were saved';
 $string['scaleagree5'] = 'Strongly disagree,Somewhat disagree,Neither agree nor disagree,Somewhat agree,Strongly agree';
 $string['scales'] = 'Scales';
 $string['scaletimes5'] = 'Almost never,Seldom,Sometimes,Often,Almost always';
+$string['search:activity'] = 'Survey - activity information';
 $string['seemoredetail'] = 'Click here to see more detail';
 $string['selectedquestions'] = 'Selected questions from a scale, all students';
 $string['summary'] = 'Summary';

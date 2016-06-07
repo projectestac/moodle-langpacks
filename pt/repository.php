@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'repository', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,7 +51,7 @@ $string['back'] = '&laquo; Voltar';
 $string['backtodraftfiles'] = '&laquo; Voltar para gestor de rascunhos';
 $string['cachecleared'] = 'Os ficheiros em cache foram apagados';
 $string['cacheexpire'] = 'Expiração da cache';
-$string['cannotaccessparentwin'] = 'Se a página pai usar HTTPS, então não é possível aceder ao objeto window.opener, o que faz com que não seja possível atualizar o repositório automaticamente. Contudo, a sessão de utilizador está registada, pelo que se voltar ao explorador de ficheiros e selecionar o módulo novamente, a funcionalidade já deverá estar funcional.';
+$string['cannotaccessparentwin'] = 'Se a página ascendente usar HTTPS, então não é possível aceder ao objeto window.opener, o que faz com que não seja possível atualizar o repositório automaticamente. Contudo, a sessão de utilizador está registada, pelo que se voltar ao explorador de ficheiros e selecionar o módulo novamente, a funcionalidade já deverá estar funcional.';
 $string['cannotdelete'] = 'Não é possível apagar este ficheiro';
 $string['cannotdownload'] = 'Não é possível descarregar este ficheiro';
 $string['cannotdownloaddir'] = 'Não é possível descarregar esta pasta';
@@ -135,7 +135,6 @@ $string['folderrecurse'] = 'A pasta não pode ser movida para a sua própria sub
 $string['getfile'] = 'Escolher este ficheiro';
 $string['getfiletimeout'] = 'Obter tempo limite do ficheiro';
 $string['help'] = 'Ajuda';
-$string['hidden'] = 'Oculto(a)';
 $string['iconview'] = 'Ver na forma de ícones';
 $string['imagesize'] = '{$a->width} x {$a->height} px';
 $string['instance'] = 'instância';
@@ -163,6 +162,7 @@ $string['makefileinternal'] = 'Criar uma cópia do ficheiro';
 $string['makefilelink'] = 'Ligar diretamente ao ficheiro';
 $string['makefilereference'] = 'Criar um atalho para o ficheiro';
 $string['manage'] = 'Gerir repositórios';
+$string['manageinstances'] = 'Gerir instâncias';
 $string['manageurl'] = 'Gerir';
 $string['manageuserrepository'] = 'Gerir repositório individual';
 $string['moving'] = 'A mover';

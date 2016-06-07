@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'ru', branch 'MOODLE_28_STABLE'
+ * Strings for component 'blog', language 'ru', branch 'MOODLE_31_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -111,6 +111,7 @@ $string['invalidgroupid'] = 'Недопустимый ID группы';
 $string['invalidurl'] = 'Этот адрес недоступен';
 $string['linktooriginalentry'] = 'Ссылка на оригинальную запись блога';
 $string['maxexternalblogsperuser'] = 'Максимальное количество внешних блогов пользователя';
+$string['myprofileuserblogs'] = 'Показать все записи блога';
 $string['name'] = 'Название';
 $string['name_help'] = 'Введите описательное название своего внешнего блога. (Если название не указано, то будет использоваться заглавие Вашего внешнего блога).';
 $string['noentriesyet'] = 'Нет отображаемых записей';
@@ -127,7 +128,7 @@ $string['page-blog-x'] = 'Все страницы блога';
 $string['pagesize'] = 'Количество записей блога на странице';
 $string['permalink'] = 'Постоянная ссылка';
 $string['personalblogs'] = 'Каждому пользователю доступен только его собственный блог';
-$string['preferences'] = 'Настройки';
+$string['preferences'] = 'Настройки блога';
 $string['publishto'] = 'Опубликовать';
 $string['publishtocourse'] = 'Участники моего курса';
 $string['publishtocourseassoc'] = 'Участники связанного курса';
@@ -151,6 +152,7 @@ $string['searchterm'] = 'Поиск: {$a}';
 $string['settingsupdatederror'] = 'Произошла ошибка, не удалось обновить настройки блога';
 $string['siteblog'] = 'блог сайта {$a}';
 $string['siteblogdisable'] = 'Блоги сайта отключены';
+$string['siteblogheading'] = 'Блог сайта';
 $string['siteblogs'] = 'Все пользователи сайта могут просматривать записи во всех блогах';
 $string['tagdatelastused'] = 'Тег «дата» в последний раз использовался';
 $string['tagparam'] = 'Тег: {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'page', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -60,3 +60,4 @@ $string['printheading'] = 'Exibir nome da página';
 $string['printheadingexplain'] = 'Exibir nome da página acima do conteúdo?';
 $string['printintro'] = 'Mostrar descrição da Página';
 $string['printintroexplain'] = 'Mostrar descrição da Página por cima do conteúdo?';
+$string['search:activity'] = 'Página';

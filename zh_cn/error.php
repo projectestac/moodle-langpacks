@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'zh_cn', branch 'MOODLE_28_STABLE'
+ * Strings for component 'error', language 'zh_cn', branch 'MOODLE_31_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -76,6 +76,7 @@ $string['cannoteditcomment'] = '这条评论不是您的，不能编辑';
 $string['cannoteditcommentexpired'] = '你不能编辑它，时间截止了';
 $string['cannoteditpostorblog'] = '你不能发表或编辑博客';
 $string['cannoteditsiteform'] = '您不能用此表单编辑站点课程';
+$string['cannotedituserpreferences'] = '不能编辑此用户的偏好选项';
 $string['cannotedityourprofile'] = '对不起，您不能编辑自己的个人资料';
 $string['cannotexecduringupgrade'] = '升级途中无法执行';
 $string['cannotfindcategory'] = '无法从数据库中找到ID-{$a}的类别记录';
@@ -230,6 +231,7 @@ $string['errorcreatingfile'] = '在创建文件“{$a}”时发生错误';
 $string['errorcreatingrole'] = '创建角色发生错误';
 $string['errorfetchingrssfeed'] = '获取RSS种子时出错。';
 $string['erroronline'] = '发生错误于第 {$a} 行';
+$string['erroroutput'] = '输出出错，因此禁用自动重定向。';
 $string['errorparsingxml'] = '解析XML出现错误：{$a->errorstring}，发生在行 {$a->errorline}，字符 {$a->errorchar} ';
 $string['errorprocessingarchive'] = '处理存档文件时出错';
 $string['errorreadingfile'] = '在读取文件“{$a}”时发生错误';
@@ -324,7 +326,7 @@ $string['invalidmoduleid'] = '无效模块ID：{$a}';
 $string['invalidmodulename'] = '无效模块名称：{$a}';
 $string['invalidnum'] = '无效的数值';
 $string['invalidnumkey'] = '$conditions数组不应包含数值索引，请修改代码！';
-$string['invalidoutcome'] = '错误的能力id';
+$string['invalidoutcome'] = '错误的成果id';
 $string['invalidpagesize'] = '无效的页面大小';
 $string['invalidpasswordpolicy'] = '无效的密码策略';
 $string['invalidpaymentmethod'] = '无效的支付方式：{$a}';
@@ -382,6 +384,11 @@ $string['moduledoesnotexist'] = '此模块不存在';
 $string['moduleinstancedoesnotexist'] = '此模块的实例不存在';
 $string['modulemissingcode'] = '模块 {$a} 缺少了执行此功能的代码';
 $string['movecatcontentstoroot'] = '不允许移动类别内容到根目录，您必须移动此内容到一个已经存在的类别里！';
+$string['movecategorynotpossible'] = '不能将类别{$a}移到选定的类别';
+$string['movecategoryownparent'] = '不能将类别{$a}又当作它的上层类别';
+$string['movecategoryparentconflict'] = '不能将类别{$a}又当作它的下层类别';
+$string['mssqlrcsmodemissing'] = '这个数据库不是使用预期的 READ_COMMITTED_SNAPSHOT 模式，它可能导致错误的结果。
+请启用它，才能正确运行，你可以在<a href="https://docs.moodle.org/en/Installing_MSSQL_for_PHP">Installing MSSQL for PHP</a>找到更多信息。';
 $string['multiplerecordsfound'] = '获得多条纪录，只有一条是想要的。';
 $string['multiplerestorenotallow'] = '不允许执行多个恢复！';
 $string['mustbeloggedin'] = '您必须登录后才能执行此项操作';
@@ -443,8 +450,10 @@ $string['prefixcannotbeempty'] = '<p>错误：数据库表前缀不能为空({$a
 <p>网站管理员必须修复此问题。</p>';
 $string['prefixtoolong'] = '<p>错误：数据库表前缀过长({$a->dbfamily})</p>
 <p>网站管理员必须修复此问题。{$a->dbfamily}中表前缀的最大长度为{$a->maxlenght}个字符。</p>';
+$string['privatefilesupload'] = '已经不再支持上传到用户私人文件区。请上传到草稿区，然后把这个文件移动到core_user::add_user_private_files';
 $string['processingstops'] = '处理到此结束。剩余记录将被忽略。';
 $string['protected_cc_not_supported'] = '不支持受保护的CC格式。';
+$string['querystringcannotbeempty'] = '查询字符串不可空白';
 $string['redirecterrordetected'] = '检测到不支持的重定向，脚本执行终止';
 $string['refoundto'] = '不能退款给{$a}';
 $string['refoundtoorigi'] = '向原账户退款：{$a}';
@@ -481,6 +490,7 @@ $string['sslonlyaccess'] = '因为安全原因，只允许https连接，抱歉�
 $string['statscatchupmode'] = '统计表通常在查看模式，至今运行了 {$a->daysdone} 天，{$a->dayspending} 天要核对。稍后请再次检查。';
 $string['statsdisable'] = '统计功能尚未启用。';
 $string['statsnodata'] = '对于该课程和时间段的组合没有可用数据';
+$string['storedfilecannotcreatefile'] = '无法建立本地文件目录，请检查dataroot的权限及可用硬盘空间';
 $string['storedfilecannotcreatefiledirs'] = '无法建立本地文件池目录，请检查dataroot的权限。';
 $string['storedfilecannotread'] = '不能读取文件，可能是文件不存在或是文件权限问题。';
 $string['storedfilenotcreated'] = '不能创建文件"{$a->contextid}/{$a->component}/{$a->filearea}/{$a->itemid}{$a->filepath}{$a->filename}"';
@@ -506,6 +516,7 @@ $string['unknowncourse'] = '未知的课程命名为：“{$a}”';
 $string['unknowncourseidnumber'] = '未知的课程ID：“{$a}”';
 $string['unknowncourserequest'] = '未知的课程请求';
 $string['unknowncoursesection'] = '课程“{$a}”里出现未知的课程小节';
+$string['unknownevent'] = '不明事件';
 $string['unknownfiletype'] = '错误：未知的过滤器类型';
 $string['unknowngroup'] = '未知组“{$a}”';
 $string['unknownhelp'] = '未知的帮助主题 {$a}';

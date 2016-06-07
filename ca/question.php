@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'question', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -64,7 +64,7 @@ $string['cannotgetdsforquestion'] = 'No s\'ha pogut obtenir el conjunt de dades 
 $string['cannothidequestion'] = 'No s\'ha pogut ocultar la pregunta';
 $string['cannotimportformat'] = 'La importació d\'aquest format encara no s\'ha implementat';
 $string['cannotinsertquestion'] = 'No s\'ha pogut inserir una pregunta!';
-$string['cannotinsertquestioncatecontext'] = 'No s\'ha pogut inserir la nova categoria de pregunta {$a->cat} per un identificador de context erroni {$a->ctx}';
+$string['cannotinsertquestioncatecontext'] = 'No s\'ha pogut inserir la categoria de pregunta nova {$a->cat} per un identificador de context erroni {$a->ctx}';
 $string['cannotloadquestion'] = 'No s\'ha pogut carregar una pregunta';
 $string['cannotmovequestion'] = 'No podeu utilitzar aquest script per moure preguntes que tenen associats fitxers procedents d\'àrees diverses.';
 $string['cannotopenforwriting'] = 'No es pot obrir per escriure-hi: {$a}';
@@ -110,8 +110,8 @@ $string['createdby'] = 'Creada per ';
 $string['createdmodifiedheader'] = 'Creació / darrera modificació';
 $string['createnewquestion'] = 'Crea una nova pregunta...';
 $string['cwrqpfs'] = 'Preguntes aleatòries que seleccionen preguntes de subcategories';
-$string['cwrqpfsinfo'] = '<p>Durant l\'actualització a Moodle 1.9 se separaran les categories de preguntes en diferents contextos. Caldrà canviar l\'estat de publicació d\'algunes preguntes i categories de preguntes del vostre lloc. Això és necessari en casos com el vostre, quan hi ha preguntes "aleatòries" en un qüestionari definides de manera que trien preguntes de subcategories i alguna d\'aquestes subcategories té un estat de publicació diferent de l\'estat de la categoria mare on està creada la pregunta aleatòria.</p>
-<p>Es canviarà l\'estat de publicació de les categories següents, d\'on treuen preguntes les preguntes "aleatòries" de categories mare, a l\'estat de publicació de la categoria que conté la pregunta aleatòria. Les preguntes afectades continuaran funcionant en tots els qüestionaris existents.</p>';
+$string['cwrqpfsinfo'] = '<p>Durant l\'actualització a Moodle 1.9 se separaran les categories de preguntes en diferents contextos. Caldrà canviar l\'estat de publicació d\'algunes preguntes i categories de preguntes del vostre lloc. Això és necessari en casos com el vostre, quan hi ha preguntes «aleatòries» en un qüestionari definides de manera que trien preguntes de subcategories i alguna d\'aquestes subcategories té un estat de publicació diferent de l\'estat de la categoria mare on està creada la pregunta aleatòria.</p>
+<p>Es canviarà l\'estat de publicació de les categories següents, d\'on treuen preguntes les preguntes «aleatòries» de categories mare, a l\'estat de publicació de la categoria que conté la pregunta aleatòria. Les preguntes afectades continuaran funcionant en tots els qüestionaris existents.</p>';
 $string['cwrqpfsnoprob'] = 'El vostre lloc no conté categories afectades pel problema de les "preguntes aleatòries que seleccionen preguntes de subcategories".';
 $string['decimalplacesingrades'] = 'Decimals en graus';
 $string['defaultfor'] = 'Categoria per defecte en {$a}';
@@ -196,7 +196,6 @@ $string['generalfeedback_help'] = 'La retroacció general es mostra a l\'alumnat
 Podeu utilitzar la retroacció general per donar a l\'alumnat una resposta més completa o potser un enllaç amb més informació que puguin utilitzar si no entenen les preguntes.';
 $string['getcategoryfromfile'] = 'Agafa la categoria del fitxer';
 $string['getcontextfromfile'] = 'Agafa el context del fitxer';
-$string['hidden'] = 'Amagada';
 $string['hintn'] = 'Pista {no}';
 $string['hintnoptions'] = 'Opcions de la pista {no}';
 $string['hinttext'] = 'Text de la pista';
@@ -298,8 +297,6 @@ $string['numqas'] = 'No hi ha intents de la pregunta';
 $string['numquestions'] = 'Cap pregunta';
 $string['numquestionsandhidden'] = '{$a->numquestions} (+{$a->numhidden} ocultes)';
 $string['options'] = 'Opcions';
-$string['orphanedquestionscategory'] = 'S\'han desat les preguntes de les categories suprimides.';
-$string['orphanedquestionscategoryinfo'] = 'Ocasionalment, de vegades a causa d\'antics errors del programari, les preguntes poden romandre en la base de dades encara que la categoria de preguntes corresponent s\'hagi suprimit. Per descomptat que això no hauria de passar, però ha passat anteriorment en aquest lloc. Aquesta categoria s\'ha creat automàticament  i les preguntes que havien quedat òrfenes s\'hi han traslladat perquè les pugueu gestionar. Recordeu que les imatges o fitxers multimèdia utilitzats per aquestes preguntes probablement s\'han perdut.';
 $string['page-question-category'] = 'Pàgina de categories de preguntes';
 $string['page-question-edit'] = 'Pàgina d\'edició de preguntes';
 $string['page-question-export'] = 'Pàgina d\'exportació de preguntes';

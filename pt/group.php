@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'group', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,6 +75,8 @@ $string['eventgroupcreated'] = 'Grupo criado';
 $string['eventgroupdeleted'] = 'Grupo apagado';
 $string['eventgroupingcreated'] = 'Agrupamento criado';
 $string['eventgroupingdeleted'] = 'Agrupamento apagado';
+$string['eventgroupinggroupassigned'] = 'Grupo adicionado ao agrupamento';
+$string['eventgroupinggroupunassigned'] = 'Grupo removido do agrupamento';
 $string['eventgroupingupdated'] = 'Agrupamento atualizado';
 $string['eventgroupmemberadded'] = 'Membro do grupo adicionado';
 $string['eventgroupmemberremoved'] = 'Membro do grupo removido';
@@ -131,17 +133,20 @@ $string['groupsvisible'] = 'Grupos visíveis';
 $string['grouptemplate'] = 'Grupo @';
 $string['hidepicture'] = 'Ocultar imagem';
 $string['importgroups'] = 'Importar grupos';
-$string['importgroups_help'] = 'Os grupos podem ser importados através de ficheiros de texto. O formato do ficheiro deve ser o seguinte:
+$string['importgroups_help'] = 'Os grupos podem ser importados a partir de um ficheiro de texto. O formato do ficheiro deve ser o seguinte:
 
 * Cada linha do ficheiro contém um registo
 * Cada registo é uma série de dados separados por vírgulas
-* O primeiro registo contém uma lista de nomes de campos que definem o formato do resto do ficheiro
-* Obrigatoriamente o nome do ficheiro é o nome do grupo.
-* os campos opcionais são a descrição, senha de inscrição, imagem, imagem oculta';
+* O primeiro registo contém uma lista de nomes dos campos que definem o formato do resto do ficheiro
+* O campo fieldname (nome do grupo) é obrigatório.
+* Os campos opcionais são description, enrolmentkey, picture, hidepicture (descrição, senha de inscrição, imagem, ocultar imagem).';
 $string['importgroups_link'] = 'grupo/importar';
+$string['includeonlyactiveenrol'] = 'Incluir apenas inscrições ativas';
+$string['includeonlyactiveenrol_help'] = 'Se ativar esta opção, os utilizadores suspensos não serão incluídos nos grupos.';
 $string['javascriptrequired'] = 'Esta página requer a ativação do Javascript.';
 $string['members'] = 'Membros por grupo';
 $string['membersofselectedgroup'] = 'Membros:';
+$string['mygroups'] = 'Os meus grupos';
 $string['namingscheme'] = 'Esquema de nomeação';
 $string['namingscheme_help'] = 'O símbolo de arroba (@) pode ser utilizado para criar grupos com nomes que contenham letras. Por exemplo, o Grupo @ irá gerar grupos, denominados Grupo A, Grupo B, Grupo C, ...
 
@@ -150,6 +155,7 @@ $string['newgrouping'] = 'Novo agrupamento';
 $string['newpicture'] = 'Nova imagem';
 $string['newpicture_help'] = 'Selecione uma imagem no formato JPG ou PNG. A imagem será ajustada a um quadrado e redimensionada para 100x100 pixels.';
 $string['noallocation'] = 'Sem atribuições';
+$string['nogroup'] = 'Sem grupo';
 $string['nogrouping'] = 'Sem agrupamento';
 $string['nogroups'] = 'Ainda não há grupos definidos nesta disciplina';
 $string['nogroupsassigned'] = 'Não foram atribuídos grupos';
@@ -157,10 +163,12 @@ $string['nopermissionforcreation'] = 'Não é possível criar o grupo"{$a}", por
 $string['nosmallgroups'] = 'Apagar último pequeno grupo';
 $string['notingroup'] = 'Ignorar utilizadores em grupos';
 $string['notingrouping'] = '[Não está num agrupamento]';
+$string['notingrouplist'] = '[Não pertence a nenhum grupo]';
 $string['nousersinrole'] = 'Não existem utilizadores adequados no papel selecionado';
 $string['number'] = 'Número de grupos/membros por grupo';
 $string['numgroups'] = 'Número de grupos';
 $string['nummembers'] = 'Membros por grupo';
+$string['othergroups'] = 'Outros grupos';
 $string['overview'] = 'Perspetiva global';
 $string['potentialmembers'] = 'Potenciais membros: {$a}';
 $string['potentialmembs'] = 'Potenciais membros';

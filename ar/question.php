@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'ar', branch 'MOODLE_28_STABLE'
+ * Strings for component 'question', language 'ar', branch 'MOODLE_31_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,7 +108,6 @@ $string['filesareasite'] = 'منطقة ملفات الموقع';
 $string['generalfeedback'] = 'إفادة عامه';
 $string['getcategoryfromfile'] = 'احصل على الفئه من ملف';
 $string['getcontextfromfile'] = 'الحصول على السياق من ملف';
-$string['hidden'] = 'مخفي/غير ظاهر';
 $string['hintn'] = 'تلميح';
 $string['hinttext'] = 'نص التلميح';
 $string['import'] = 'استيراد';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'pt', branch 'MOODLE_28_STABLE'
+ * Strings for component 'lti', language 'pt', branch 'MOODLE_31_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -378,15 +378,6 @@ $string['share_roster_admin_help'] = 'Define se a ferramenta pode aceder à list
 $string['share_roster_help'] = 'Define se a ferramenta pode aceder à lista de utilizadores inscritos nesta disciplina.
 
 Note que esta configuração pode ser alterada na configuração da ferramenta.';
-$string['show_in_course'] = 'Mostrar tipo de ferramenta ao criar instâncias de ferramentas';
-$string['show_in_course_help'] = 'Se selecionada, esta ferramenta de configuração irá aparecer na lista pendente "Tipo de "ferramenta LTI" quando os professores
-configurarem as ferramentas LTI nas suas disciplinas.
-
-Na maioria dos casos, essa opção não precisa de ser selecionada. Os professores podem utilizar esta ferramenta de configuração
-com base no URL de arranque que satisfaça o URL base da ferramenta, que é o método predefinido.
-
-O único caso em que esta opção deve ser selecionada é se a ferramenta de configuração for apenas destinado para uma única autenticação.
-Por exemplo, se todos os arranques para o provedor de ferramenta levarem o utilizador para uma página de destino, em vez de a um recurso específico.';
 $string['size'] = 'Parâmetros de tamanho';
 $string['submission'] = 'Submissão';
 $string['submissions'] = 'Submissões';

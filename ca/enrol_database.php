@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'ca', branch 'MOODLE_28_STABLE'
+ * Strings for component 'enrol_database', language 'ca', branch 'MOODLE_31_STABLE'
  *
  * @package   enrol_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,7 +42,7 @@ $string['dbuser'] = 'Usuari de la base de dades';
 $string['debugdb'] = 'Depura ADOdb';
 $string['debugdb_desc'] = 'Depura la connexió ADOdb a la base de dades externa —utilitzeu-ho quan obtingueu una pàgina buida durant l\'inici de sessió a Moodle. No és adequat per a servidors en producció!';
 $string['defaultcategory'] = 'Categoria a nou curs per defecte';
-$string['defaultcategory_desc'] = 'La categoria per defecte per cursos auto creats, s\'utilitza quan no s\'especifiqui l\'identificació de la nova categoria o no es trobi.';
+$string['defaultcategory_desc'] = 'La categoria per defecte per cursos auto creats, s\'utilitza quan no s\'especifiqui la identificació de la categoria nova o no es trobi.';
 $string['defaultrole'] = 'Rol per defecte';
 $string['defaultrole_desc'] = 'El rol que s\'assignarà per defecte si n\'especifica cap rol en la taula externa.';
 $string['ignorehiddencourses'] = 'Ignora cursos ocults';

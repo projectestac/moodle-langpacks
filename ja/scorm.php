@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'ja', branch 'MOODLE_28_STABLE'
+ * Strings for component 'scorm', language 'ja', branch 'MOODLE_31_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,9 +54,9 @@ $string['attempt'] = '受験';
 $string['attempt1'] = '受験 1';
 $string['attempts'] = '受験';
 $string['attemptsmanagement'] = '受験管理';
-$string['attemptstatusall'] = 'マイホームおよびエントリページ';
+$string['attemptstatusall'] = 'ダッシュボードおよびエントリページ';
 $string['attemptstatusentry'] = 'エントリページのみ';
-$string['attemptstatusmy'] = 'マイホームのみ';
+$string['attemptstatusmy'] = 'ダッシュボードのみ';
 $string['attemptsx'] = '受験 {$a}';
 $string['attr_error'] = 'タグ {$a->tag} のアトリビュート ({$a->attr}) に不適切な値が設定されています。';
 $string['autocommit'] = '自動コミット';
@@ -74,6 +74,7 @@ $string['browsed'] = '閲覧済み';
 $string['browsemode'] = 'プレビューモード';
 $string['browserepository'] = 'リポジトリの閲覧';
 $string['calculatedweight'] = '計算加重';
+$string['cannotaccess'] = 'あなたはこのスクリプトをそのようにコールすることはできません。';
 $string['cannotfindsco'] = 'SCOを見つけることができませんでした。';
 $string['chooseapacket'] = 'パッケージの選択または更新';
 $string['collapsetocwinsize'] = '次のサイズ以下の場合、TOCを折りたたむ';
@@ -106,8 +107,8 @@ $string['display'] = 'パッケージの表示';
 $string['displayactivityname'] = '活動名を表示する';
 $string['displayactivityname_help'] = 'SCORMプレイヤーの上に活動名を表示するかどうか指定します。';
 $string['displayattemptstatus'] = '受験状況を表示する';
-$string['displayattemptstatusdesc'] = 'ホームディレクトリのコース概要ブロックおよびSCORMエントリページにユーザの受験概要を表示するかどうか設定します。';
-$string['displayattemptstatus_help'] = 'このプリファレンスでは、ユーザ受験の概要をマイホーム内のコース概要ブロックまたはSCORMエントリページに表示できるようにします。';
+$string['displayattemptstatusdesc'] = 'ダッシュボードのコース概要ブロックおよびSCORMエントリページにユーザの受験概要を表示するかどうか設定します。';
+$string['displayattemptstatus_help'] = 'このプリファレンスではユーザ受験の概要をダッシュボード内のコース概要ブロックまたはSCORMエントリページに表示できるようにします。';
 $string['displaycoursestructure'] = 'エントリページにコース構造を表示する';
 $string['displaycoursestructuredesc'] = 'この設定を有効にした場合、SCORMアウトラインページに目次が表示されます。';
 $string['displaycoursestructure_help'] = 'この設定を有効にした場合、コンテンツのSCORMテーブルをSCORMアウトラインページに表示します。';
@@ -124,6 +125,8 @@ $string['eventattemptdeleted'] = '受験が削除されました。';
 $string['eventinteractionsviewed'] = 'インタラクションが閲覧されました。';
 $string['eventreportviewed'] = 'レポートが閲覧されました。';
 $string['eventscolaunched'] = 'SCOが起動されました。';
+$string['eventscorerawsubmitted'] = '送信済みSCORMの素点';
+$string['eventstatussubmitted'] = '送信済みSCORMのステータス';
 $string['eventtracksviewed'] = 'トラックが閲覧されました。';
 $string['eventuserreportviewed'] = 'ユーザレポートが閲覧されました。';
 $string['everyday'] = '毎日';
@@ -202,6 +205,9 @@ $string['lastattemptlock'] = '最終受験後、ロックする';
 $string['lastattemptlockdesc'] = 'この設定を有効にした場合、割り当てられた受験すべての終了後、学生はSCORMプレイヤーを開始できないようになります。';
 $string['lastattemptlock_help'] = 'この設定を有効にした場合、割り当てられた受験をすべて完了した後、学生はSCORMプレイヤーを起動できないようになります。';
 $string['location'] = 'ロケーションバーを表示する';
+$string['masteryoverride'] = '熟練度ステータス';
+$string['masteryoverridedesc'] = 'このプリファレンスでは熟練度オーバーライド設定のデフォルトを設定します。';
+$string['masteryoverride_help'] = 'この設定を有効にして熟練度が提供された場合、LMSFinishがコールされて素点が設定された時点で素点を使用してステータスが再計算されます。SCORM (「未完了」を含む) によって提供された熟練度およびステータスはオーバーライドされます。';
 $string['max'] = '最大評点';
 $string['maximumattempts'] = '受験回数';
 $string['maximumattemptsdesc'] = 'このプリファレンスでは、活動に対するデフォルトの最大受験回数を設定します。';
@@ -284,6 +290,8 @@ $string['position_error'] = '{$a->tag} タグは {$a->parent} タグの子タグ
 $string['preferencespage'] = 'このページ限定のプリファレンス';
 $string['preferencesuser'] = 'このレポートのプリファレンス';
 $string['prev'] = '前に戻る';
+$string['protectpackagedownloads'] = 'パッケージダウンロードを保護する';
+$string['protectpackagedownloads_desc'] = 'この設定を有効にした場合、course:manageactivitiesケイパビリティが割り当てられているユーザのみSCORMパッケージをダウンロードすることができます。この設定が無効にされた場合、SCORMパッケージを常に (モバイルまたは他の方法で) ダウンロードすることができます';
 $string['raw'] = '素点';
 $string['regular'] = '標準マニフェストファイル';
 $string['report'] = 'レポート';
@@ -322,6 +330,7 @@ $string['scormtype_help'] = 'ここではパッケージがどのようにコー
 $string['scorm:viewreport'] = 'レポートを表示する';
 $string['scorm:viewscores'] = '評点を表示する';
 $string['scrollbars'] = 'ウィンドウのスクロールを許可する';
+$string['search:activity'] = 'SCORMパッケージ - 活動情報';
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
 $string['show'] = '表示';
