@@ -403,6 +403,7 @@ $string['submissionoutofsequencefriendlymessage'] = 'Datuetara orden normaletik 
 $string['submit'] = 'Bidali';
 $string['submitandfinish'] = 'Bidali eta amaitu';
 $string['submitted'] = 'Bidali: {$a}';
+$string['tagarea_question'] = 'Galderak';
 $string['technicalinfo'] = 'Informazio teknikoa';
 $string['technicalinfo_help'] = 'Informazio tekniko hau ziur aski galdera-motetan lan egiten ari diren garatzaileentzat izan daiteke baliagarria. Lagungarria izan daiteke ere galderekin dauden arazoen diagnosia egitean.';
 $string['technicalinfomaxfraction'] = 'Gehieneko zatikia: {$a}';

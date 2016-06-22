@@ -42,6 +42,7 @@ $string['activityreport'] = 'Activiteitenrapport';
 $string['activityreports'] = 'Activiteitenrapporten';
 $string['activityselect'] = 'Selecteer deze activiteit om ze te verplaatsen';
 $string['activitysince'] = 'Activiteit sinds {$a}';
+$string['activitytypetitle'] = '{$a->activity} - {$a->type}';
 $string['activityweighted'] = 'Activiteit per gebruiker';
 $string['add'] = 'Voeg toe';
 $string['addactivity'] = 'Activiteit toevoegen';
@@ -457,6 +458,7 @@ $string['databaseupgradeblocks'] = 'De versie van de blokken is nu {$a}';
 $string['databaseupgradegroups'] = 'Versie groepen is nu {$a}';
 $string['databaseupgradelocal'] = 'Versie van de locale databankaanpassingen is nu {$a}';
 $string['databaseupgrades'] = 'Opwaarderen van de database';
+$string['dataformats'] = 'Dataformaten';
 $string['date'] = 'Datum';
 $string['datechanged'] = 'Datum gewijzigd';
 $string['datemostrecentfirst'] = 'Datum - nieuwste eerst';
@@ -572,6 +574,7 @@ $string['editorresettodefaults'] = 'Terug naar standaardinstellingen';
 $string['editorsettings'] = 'Instellingen editor';
 $string['editorshortcutkeys'] = 'Snelkoppelingen editor';
 $string['editsection'] = 'Bewerk sectie';
+$string['editsectionname'] = 'Bewerk sectienaam';
 $string['editsettings'] = 'Bewerk instellingen';
 $string['editsummary'] = 'Wijzig beschrijving';
 $string['editthisactivity'] = 'Wijzig deze activiteit';
@@ -579,7 +582,7 @@ $string['editthiscategory'] = 'Bewerk deze categorie';
 $string['edittitle'] = 'Bewerk titel';
 $string['edittitleinstructions'] = 'Escape om te annuleren, Enter wanneer je klaar bent';
 $string['edituser'] = 'Wijzig gebruikersaccounts';
-$string['edulevel'] = 'Educatieniveau';
+$string['edulevel'] = 'Alle gebeurtenissen';
 $string['edulevelother'] = 'Andere';
 $string['edulevelparticipating'] = 'Deelname';
 $string['edulevelteacher'] = 'Les geven';
@@ -728,6 +731,7 @@ $string['eventcoursemoduleviewed'] = 'Cursusmodule bekeken';
 $string['eventcourseresetended'] = 'Cursus reset afgelopen';
 $string['eventcourseresetstarted'] = 'Cursus reset gestart';
 $string['eventcourserestored'] = 'Cursus teruggezet';
+$string['eventcoursesectiondeleted'] = 'Cursussectie verwijderd';
 $string['eventcoursesectionupdated'] = 'Cursussectie aangepast';
 $string['eventcourseupdated'] = 'Cursus aangepast';
 $string['eventcourseuserreportviewed'] = 'Gebruikersrapport bekeken';
@@ -735,6 +739,7 @@ $string['eventcourseviewed'] = 'Cursus bekeken';
 $string['eventemailfailed'] = 'Email versturen mislukt';
 $string['eventname'] = 'Gebeurtenisnaam';
 $string['eventrecentactivityviewed'] = 'Recente activiteiten bekeken';
+$string['eventsearchindexed'] = 'Zoekgegevens geïndexeerd';
 $string['eventunknownlogged'] = 'Onbekende gebeurtenis';
 $string['eventusercreated'] = 'Gebruikersaccount aangemaakt';
 $string['eventuserdeleted'] = 'Gebruikersaccount verwijderd';
@@ -968,7 +973,7 @@ $string['interestslist'] = 'Lijst met interesses';
 $string['interestslist_help'] = 'Geef je interesses in, één voor één. Deze zullen op je profielpagina verschijnen als tags.';
 $string['invalidemail'] = 'Ongeldig e-mailadres';
 $string['invalidlogin'] = 'Ongeldige login, probeer nog eens';
-$string['invalidusername'] = 'De gebruikersnaam mag alleen kleine alphanumerieke tekens, liggend streepje (-), underscore (_), punt(.) of het at-symbool (@).';
+$string['invalidusername'] = 'De gebruikersnaam mag alleen kleine alphanumerieke tekens (letters en cijfers), liggend streepje (-), underscore (_), punt(.) of het at-symbool (@) bevatten.';
 $string['invalidusernameupload'] = 'Ongeldige gebruikersnaam';
 $string['ip_address'] = 'IP-adres';
 $string['jump'] = 'Spring';
@@ -993,6 +998,7 @@ $string['lastyear'] = 'Vorig jaar';
 $string['latestlanguagepack'] = 'Haal het meest recente taalpakket van moodle.org';
 $string['layouttable'] = 'Opmaaktabel';
 $string['leavetokeep'] = 'Laat leeg om je huidige wachtwoord te behouden';
+$string['legacylogginginuse'] = 'Deze site schrijft momenteel zijn logs weg naar de oude log-opslagruimte. Logs op die plaats bewaren wordt afgeschaft. Gebruik een ondersteunde opslagruimte zoals "standaard" of "extern".';
 $string['legacythemeinuse'] = 'Je ziet de site in compatibiliteitsmodus omdat je browser te oud is.';
 $string['license'] = 'Licentie';
 $string['licenses'] = 'Licenties';
@@ -1019,17 +1025,7 @@ $string['loginaspasswordexplain'] = '<p>Je moet het speciale "loginas" wachtwoor
 $string['login_failure_logs'] = 'Logs mislukte aanmelding';
 $string['loginguest'] = 'Inloggen als gast';
 $string['loginsite'] = 'Op de site inloggen';
-$string['loginsteps'] = 'Hallo! Om volledige toegang tot de cursussen te krijgen moet je even de tijd nemen om een nieuwe account voor jezelf aan te maken op deze website.
-Elke cursus kan ook een eenmalige "Cursussleutel" hebben die je pas later nodig hebt. Hier zijn de stappen die je moet volgen:
-<ol>
-<li>Vul het formulier <a href="{$a}">Nieuwe account</a> in.</li>
-<li>Er wordt meteen een e-mail verstuurd naar je e-mailadres.</li>
-<li>Lees de e-mail en klik op de link die erin staat.</li>
-<li>Je account wordt bevestigd en je bent dan ingelogd.</li>
-<li>Kies nu de cursus die je wil volgen.</li>
-<li>Als je wordt gevraagd om een "Cursussleutel", gebruik dan de sleutel die je van je leraar gekregen hebt. Dit zorgt ervoor dat je lid wordt van de cursus.</li>
-<li>Je hebt nu toegang tot de hele cursus. Vanaf nu hoef je alleen nog maar je gebruikersnaam en wachtwoord in het formulier op deze pagina in te vullen om in te loggen en toegang te krijgen tot de cursussen waarvan je lid bent.</li>
-</ol>';
+$string['loginsteps'] = 'Om volledig toegang te krijgen moet je eerst een account maken.';
 $string['loginstepsnone'] = 'Hallo!<p>Om volledige toegang te krijgen tot de verschillende cursussen moet je een account voor jezelf aanmaken.</p>
 <p>Het enige wat je hoeft te doen is een gebruikersnaam en wachtwoord bedenken en deze gebruiken in het formulier op deze pagina!
 </p>
@@ -1052,6 +1048,7 @@ $string['manageblocks'] = 'Blokken';
 $string['managecategorythis'] = 'Beheer deze categorie';
 $string['managecourses'] = 'Beheer cursussen';
 $string['managedatabase'] = 'Beheer de database';
+$string['managedataformats'] = 'Beheer gegevensformaten';
 $string['manageeditorfiles'] = 'Beheer bestanden gebruikt door de editor';
 $string['managefilters'] = 'Filters';
 $string['managemodules'] = 'Modules';
@@ -1087,6 +1084,8 @@ $string['messageprovider:availableupdate'] = 'Beschikbare update meldingen';
 $string['messageprovider:backup'] = 'Back-upmeldingen';
 $string['messageprovider:badgecreatornotice'] = 'Meldingen voor wie badges maakt';
 $string['messageprovider:badgerecipientnotice'] = 'Meldingen voor wie badges ontvangt';
+$string['messageprovider:competencyplancomment'] = 'Opmerking bij een leerplan gepost';
+$string['messageprovider:competencyusercompcomment'] = 'Opmerking bij een competentie gepost';
 $string['messageprovider:courserequestapproved'] = 'Melding voor goedkeuring nieuwe cursus';
 $string['messageprovider:courserequested'] = 'Melding voor aanvraag nieuwe cursus';
 $string['messageprovider:courserequestrejected'] = 'Melding voor weigering nieuwe cursus';
@@ -1181,6 +1180,7 @@ $string['myhome'] = 'Mijn startpagina';
 $string['mymoodledashboard'] = 'Mijn Moodle dashboard';
 $string['myprofile'] = 'Mijn profiel';
 $string['name'] = 'Naam';
+$string['namedfiletoolarge'] = 'Het bestand \'{$a->filename}\' is te groot en kan niet geüpload worden';
 $string['nameforlink'] = 'Hoe wil je deze link noemen';
 $string['nameforpage'] = 'Naam';
 $string['navigation'] = 'Navigatie';

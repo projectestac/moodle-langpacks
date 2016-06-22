@@ -493,6 +493,8 @@ $string['multichoice'] = 'Escolha múltipla';
 $string['multipleanswers'] = 'Escolha pelo menos uma resposta';
 $string['mustbesubmittedby'] = 'Esta tentativa deve ser submetida por {$a}.';
 $string['name'] = 'Nome';
+$string['navigatenext'] = 'Página seguinte';
+$string['navigateprevious'] = 'Página anterior';
 $string['navmethod'] = 'Método de navegação';
 $string['navmethod_free'] = 'Livre';
 $string['navmethod_help'] = 'Quando a navegação sequencial está ativa o aluno segue pelo teste, sem possibilidade de retornar às páginas anteriores, nem saltar nenhuma.';
@@ -771,13 +773,13 @@ $string['reviewoptions'] = 'Os alunos podem rever o teste';
 $string['reviewoptionsheading'] = 'Informação exibida na revisão do teste';
 $string['reviewoptionsheading_help'] = 'Estas opções definem a informação que os alunos podem ver ao rever uma tentativa ou ao consultar os relatórios do teste.
 
-**Durante a tentativa** é relevante apenas para alguns tipos de comportamentos de perguntas, como o \'interativo com múltiplas tentativas\', que podem exibir feedback durante a tentativa.
+**Durante a tentativa** é relevante apenas para alguns tipos de comportamentos de perguntas, como o \'interativo com múltiplas tentativas\', que pode exibir feedback durante a tentativa.
 
-**Imediatamente a seguir à tentativa** aplicável ao período de dois minutos após o aluno submeter a realização do teste e, como tal, ao relatório de revisão do teste que surge imediatamente a seguir.
+**Imediatamente a seguir à tentativa** aplicável ao período de dois minutos após o aluno submeter a tentativa de realização do teste e, como tal, ao relatório de revisão do teste que surge imediatamente a seguir.
 
-**Mais tarde, enquanto o teste estiver aberto** aplicável desde o período anterior até à data de fecho do teste.
+**Mais tarde, com o teste ainda aberto** aplicável desde o período anterior até à data de fecho do teste.
 
-**Depois do teste fechar** aplicável após a data de fecho do teste. Se o teste não tiver uma data de fecho definida, este estado nunca é aplicado.';
+**Após o teste fechar** aplicável após a data de fecho do teste. Se o teste não tiver uma data de fecho definida, este estado nunca é aplicado.';
 $string['reviewoverallfeedback'] = 'Feedback global';
 $string['reviewoverallfeedback_help'] = 'Feedback global dado ao aluno no final da tentativa em função da nota total obtida.';
 $string['reviewresponse'] = 'Rever respostas';
@@ -800,6 +802,7 @@ $string['savingnewgradeforquestion'] = 'A guardar nova nota para a pergunta ID {
 $string['savingnewmaximumgrade'] = 'A guardar nova nota máxima.';
 $string['score'] = 'Nota bruta';
 $string['scores'] = 'Avaliações';
+$string['search:activity'] = 'Teste - Informações da atividade';
 $string['sectionheadingedit'] = 'Editar título \'{$a}\'';
 $string['sectionheadingremove'] = 'Eliminar secção \'{$a}\'';
 $string['seequestions'] = '(Ver perguntas)';

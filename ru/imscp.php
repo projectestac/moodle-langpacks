@@ -45,4 +45,5 @@ $string['packagefile'] = 'Файл пакета';
 $string['page-mod-imscp-x'] = 'Любой страница модуля «Пакет содержимого IMS»';
 $string['pluginadministration'] = 'Управление IMSCP';
 $string['pluginname'] = 'Пакет IMS содержимого';
+$string['search:activity'] = 'Пакет IMS содержимого — информация о ресурсе';
 $string['toc'] = 'Оглавление';

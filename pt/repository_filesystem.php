@@ -40,3 +40,4 @@ $string['pluginname_help'] = 'Criar um repositório a partir da pasta local do s
 $string['relativefiles'] = 'Permitir ficheiros relativos';
 $string['relativefiles_desc'] = 'Isto permite que todos os ficheiros do repositório estejam acessíveis a partir de hiperligações relativas.';
 $string['root'] = 'Raiz';
+$string['searchresults'] = 'Resultados da pesquisa';

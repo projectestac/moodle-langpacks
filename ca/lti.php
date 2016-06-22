@@ -44,7 +44,7 @@ $string['addserver'] = 'Afegeix un servidor confiable nou';
 $string['addtype'] = 'Afegeix la configuració externa de l\'eina';
 $string['allow'] = 'Permet';
 $string['allowinstructorcustom'] = 'Permet als professors afegir paràmetres personalitats';
-$string['allowsetting'] = 'Permet a l\'eina emmagatzemar 8K de paràmetres en Moodle';
+$string['allowsetting'] = 'Permet a l\'eina emmagatzemar 8K de paràmetres a Moodle';
 $string['always'] = 'Sempre';
 $string['automatic'] = 'Automàtic, basada en al llançament de URL';
 $string['baseurl'] = 'URL base';
@@ -68,6 +68,7 @@ $string['configpreferwidth'] = 'Amplada preferida per defecte';
 $string['configresourceurl'] = 'URL per defecte';
 $string['configtoolurl'] = 'URL de l\'eina remota per defecte';
 $string['configtypes'] = 'Habilita aplicacions LTI';
+$string['configured'] = 'Configurat';
 $string['courseid'] = 'Nombre d\'ID de curs';
 $string['coursemisconf'] = 'El curs està desconfigurat';
 $string['course_tool_types'] = 'Tipus d\'eines al curs';
@@ -338,6 +339,17 @@ $string['subplugintype_ltisource'] = 'Font LTI';
 $string['subplugintype_ltisource_plural'] = 'Fonts LTI';
 $string['toggle_debug_data'] = 'Commuta dades de depuració';
 $string['tool_config_not_found'] = 'La configuració de l\'eina no s\'ha trobat per aquesta URL';
+$string['toolproxy_help'] = 'Els registres d\'eines externes permeten que els administradors de Moodle configurin eines externes a partir d\'una eina de servidor intermediari obtinguda a partir d\'un proveïdor de l\'eina que admeti LTI 2.0. Tot el que cal per iniciar el procés és un URL de registre proporcionat pel proveïdor de l\'eina. Les capacitats i serveis que s\'ofereixen al proveïdor de l\'eina se seleccionen quan es configura un nou registre.
+
+Els registres d\'eines enumerats en aquesta pàgina es divideixen en quatre categories:
+
+***Configurat** — Aquests registres d\'eines s\'han configurat, però el procés de registre encara no ha començat.
+***Pendent**
+— El procés de registre per a aquests registres d\'eines ha començat, però no ha acabat. Obre i desa els paràmetres per tornar a la categoria «Configurat».
+***Acceptat**
+— Aquests registres d\'eines s\'han aprovat; els recursos especificats al servidor intermediari de l\'eina apareixeran a la pàgina externa de tipus d\'eines amb un estat inicial de «Pendent».
+***Rebutjat**
+— Aquests registres d\'eines són els que es van rebutjar durant el procés de registre. Obre i desa els paràmetres per tornar a la categoria «Configurat», de manera que es pugui reiniciar el procés de registre.';
 $string['tool_settings'] = 'Configuració de l\'eina';
 $string['toolsetup'] = 'Configuració de l\'eina externa';
 $string['toolurl'] = 'URL base de l\'eina';

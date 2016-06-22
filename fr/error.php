@@ -235,6 +235,7 @@ $string['erroronline'] = 'Erreur à la ligne {$a}';
 $string['erroroutput'] = 'Erreur de sortie. La redirection automatique a été désactivée.';
 $string['errorparsingxml'] = 'Erreur d\'analyse XML : {$a->errorstring} à la ligne {$a->errorline}, caractère {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Erreur lors du traitement du fichier d\'archive';
+$string['error_question_answers_missing_in_db'] = 'Impossible de trouver une réponse correspondant à « {$a->answer} » dans la table question_answers database de la base de données. Cette erreur est survenue lors de la restauration de la question d\'identifiant {$a->filequestionid} dans le fichier de sauvegarde, qui a été mis en correspondance avec la question existante d\'identifiant {$a->dbquestionid} dans la base de données.';
 $string['errorreadingfile'] = 'Erreur lors de la lecture du fichier « {$a} »';
 $string['errorsavingrequest'] = 'Erreur lors de l\'enregistrement de votre demande';
 $string['errorsettinguserpref'] = 'Erreur lors de l\'enregistrement de la préférence utilisateur';

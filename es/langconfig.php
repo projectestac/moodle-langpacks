@@ -54,5 +54,5 @@ $string['strftimetime'] = '%H:%M';
 $string['thisdirection'] = 'ltr';
 $string['thisdirectionvertical'] = 'btt';
 $string['thislanguage'] = 'Español - Internacional';
-$string['thislanguageint'] = 'Spanish (International)';
+$string['thislanguageint'] = 'Spanish (international)';
 $string['thousandssep'] = '.';

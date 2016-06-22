@@ -32,5 +32,5 @@ $string['location'] = 'موقع الملف';
 $string['mailadmins'] = 'احط المدير عبر البريد الإلكتروني';
 $string['mailusers'] = 'احط المستخدم عبر البريد الإلكتروني';
 $string['miscsettings'] = 'متنوعات';
-$string['processphoto'] = 'اضف بيانات صورة المستحدم للمحة الشخصية';
+$string['processphoto'] = 'أضف بيانات صورة المستخدم للملف الشخصي';
 $string['usersettings'] = 'خيارات بيانات المستخدم';

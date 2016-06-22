@@ -239,6 +239,7 @@ $string['savednotes'] = 'As suas anotações foram gravadas';
 $string['scaleagree5'] = 'Discordo plenamente,Discordo,Não concordo nem discordo,Concordo,Concordo plenamente';
 $string['scales'] = 'Escalas';
 $string['scaletimes5'] = 'Quase nunca, Raramente, Às vezes, Frequentemente, Quase sempre';
+$string['search:activity'] = 'Inquérito predefinido - informações da atividade';
 $string['seemoredetail'] = 'Clique aqui para ver mais detalhes';
 $string['selectedquestions'] = 'Perguntas selecionadas numa escala, todos os alunos';
 $string['summary'] = 'Sumário';

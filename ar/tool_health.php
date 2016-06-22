@@ -28,6 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['healthnoproblemsfound'] = 'لم نجد أية مشكلة صحية!';
 $string['healthproblemsdetected'] = 'تم العثور على مشاكل';
 $string['healthproblemsolution'] = 'حل المشاكل';
-$string['healthreturntomain'] = 'أستمر';
+$string['healthreturntomain'] = 'إستمر';
 $string['healthsolution'] = 'حل';
 $string['pluginname'] = 'المركز الصحي';

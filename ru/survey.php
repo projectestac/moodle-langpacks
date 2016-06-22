@@ -222,6 +222,7 @@ $string['savednotes'] = 'Ваши заметки сохранены';
 $string['scaleagree5'] = 'Абсолютно нет, Немного не согласен, Не знаю, В чем-то согласен, Абсолютно согласен';
 $string['scales'] = 'Шкалы';
 $string['scaletimes5'] = 'Почти никогда, Редко, Иногда, Часто, Почти всегда';
+$string['search:activity'] = 'Анкета — информация об элементе курса';
 $string['seemoredetail'] = 'Детали…';
 $string['selectedquestions'] = 'Выбранные вопросы в масштабе, Все студенты';
 $string['summary'] = 'Вывод';

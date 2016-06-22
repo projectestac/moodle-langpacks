@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['notavailable'] = 'عذرا! هذا الامتحان غير متاح';
-$string['quiznotavailable'] = 'الامتحان لن يكون متاحا حتى: {$a}';
+$string['notavailable'] = 'عذرا! هذا الاختبار غير متاح';
+$string['quiznotavailable'] = 'الاختبار لن يكون متاحا حتى: {$a}';

@@ -333,6 +333,7 @@ $string['savesettings'] = '設定を保存する';
 $string['savesuccess'] = '正常に保存されました。あなたのプリセットはサイト全体で利用できます。';
 $string['savetemplate'] = 'テンプレートを保存する';
 $string['search'] = '検索';
+$string['search:activity'] = 'データベース - 活動情報';
 $string['selectedrequired'] = '選択したすべてを含む';
 $string['showall'] = 'すべてのエントリを表示する';
 $string['single'] = '個別表示';

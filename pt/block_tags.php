@@ -79,6 +79,7 @@ $string['suggestedtagthisunit'] = 'Palavra chave sugerida para esta disciplina:'
 $string['tagcollection'] = 'Coleção de palavras-chave';
 $string['tagcollection_help'] = 'Selecione a coleção de palavras-chave que pretende utilizar. Se escolher "Todas", serão exibidas as palavras-chave de todas as coleções, exceto as marcadas com *';
 $string['taggeditemscontext'] = 'Contexto dos Itens com a palavra-chave';
+$string['taggeditemscontext_help'] = 'Pode limitar a nuvem de palavras-chave para as que estão presentes na categoria da disciplina, disciplina ou módulo atuais';
 $string['tags'] = 'palavras-chave';
 $string['tags:addinstance'] = 'Adicionar um novo bloco Palavras-chave';
 $string['tags:myaddinstance'] = 'Adicionar um novo bloco Palavras-chave ao Painel do utilizador';

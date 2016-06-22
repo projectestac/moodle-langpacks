@@ -45,4 +45,5 @@ $string['presentationoraltrequired'] = 'Les imatges han de tenir una descripció
 $string['preview'] = 'Previsualització';
 $string['saveimage'] = 'Desa imatge';
 $string['size'] = 'Mida';
+$string['uploading'] = 'S\'està pujant, espereu...';
 $string['width'] = 'Amplada';

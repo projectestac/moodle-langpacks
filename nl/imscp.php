@@ -45,4 +45,5 @@ $string['packagefile'] = 'Pakketbestand';
 $string['page-mod-imscp-x'] = 'Gelijk welke IMS inhoudspakket pagina';
 $string['pluginadministration'] = 'IMSCP beheer';
 $string['pluginname'] = 'IMS inhoudspakket';
+$string['search:activity'] = 'IMS content package - broninformatie';
 $string['toc'] = 'Inhoud';

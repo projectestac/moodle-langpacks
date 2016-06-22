@@ -55,6 +55,7 @@ $string['journalname'] = 'Egunkariaren izena';
 $string['journalquestion'] = 'Egunkariaren galdera';
 $string['mailsubject'] = 'Egunkariaren feedbacka';
 $string['modulename'] = 'Egunkaria';
+$string['modulename_help'] = 'Egunkariari esker irakasleak ikasleengandik gai jakin bati buruzko feedbacka lor dezake.';
 $string['modulenameplural'] = 'Egunkariak';
 $string['needsregrade'] = 'Sarrera aldatu da feedbacka gorde zen azken alditik.';
 $string['newjournalentries'] = 'Egunkari-sarrera berriak';

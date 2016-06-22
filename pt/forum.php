@@ -272,7 +272,7 @@ $string['generalforums'] = 'Fóruns gerais';
 $string['hiddenforumpost'] = 'Tópico do fórum oculto';
 $string['inforum'] = 'em {$a}';
 $string['introblog'] = 'As mensagens neste fórum foram copiadas automaticamente de blogues de utilizadores desta disciplina e já não se encontram disponíveis';
-$string['intronews'] = 'Notícias gerais e avisos';
+$string['intronews'] = 'Notícias gerais e anúncios';
 $string['introsocial'] = 'Um fórum aberto para conversar sobre qualquer assunto';
 $string['introteacher'] = 'Um fórum reservado aos professores';
 $string['invalidaccess'] = 'Esta página não foi acedida corretamente';
@@ -324,7 +324,7 @@ As mensagens podem ser avaliadas por professores ou alunos (avaliação pelos pa
 Os fóruns podem ser utilizados com várias finalidades, tais como:
 
 * Espaço introdutório para possibilitar que os alunos se conheçam;
-* Local para divulgar informação relativa à disciplina (usando o fórum notícias, que tem subscrição obrigatória);
+* Local para divulgar informação relativa à disciplina (usando o fórum de anúncios, que tem subscrição obrigatória);
 * Um meio de ajuda, onde professores e alunos podem dar conselhos;
 * Um método informal de partilha de documentos entre alunos;
 * Para continuar a discussão de um assunto iniciado presencialmente na sala de aula;
@@ -340,8 +340,8 @@ $string['mustprovidediscussionorpost'] = 'Precisa de fornecer o ID de discussão
 $string['myprofileotherdis'] = 'Tópicos de discussão';
 $string['myprofileowndis'] = 'Os meus tópicos de discussão';
 $string['myprofileownpost'] = 'As minhas mensagens em fóruns';
-$string['namenews'] = 'Fórum de Notícias';
-$string['namenews_help'] = 'O Fórum de Notícias é um fórum especial, criado automaticamente aquando da criação da disciplina. Apenas pode existir um Fórum Notícias por disciplina e apenas os utilizadores com papel de professor e administrador têm permissões para publicar tópicos de discussão neste fórum. O bloco "Últimas Noticias" exibe os últimos tópicos adicionados ao Fórum Notícias.';
+$string['namenews'] = 'Anúncios';
+$string['namenews_help'] = 'O Fórum de Anúncios da disciplina é um fórum especial, criado automaticamente aquando da criação da disciplina. Apenas pode existir um Fórum de Anúncios por disciplina e apenas os utilizadores com papel de professor e administrador têm permissões para publicar tópicos de discussão neste fórum. O bloco "Últimos Anúncios" exibe os últimos tópicos adicionados ao Fórum de Anúncios.';
 $string['namesocial'] = 'Fórum social';
 $string['nameteacher'] = 'Fórum de professores';
 $string['newforumposts'] = 'Novas mensagens no fórum';

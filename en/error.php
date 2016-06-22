@@ -238,6 +238,7 @@ $string['erroronline'] = 'Error on line {$a}';
 $string['erroroutput'] = 'Error output, so disabling automatic redirect.';
 $string['errorparsingxml'] = 'Error parsing XML: {$a->errorstring} at line {$a->errorline}, char {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Error processing archive file';
+$string['error_question_answers_missing_in_db'] = 'Failed to find an answer matching "{$a->answer}" in the question_answers database table. This occurred while restoring the question with id {$a->filequestionid} in the backup file, which has been matched to the existing question with id {$a->dbquestionid} in the database.';
 $string['errorreadingfile'] = 'Error reading file "{$a}"';
 $string['errorsavingrequest'] = 'An error occurred when trying to save your request.';
 $string['errorsettinguserpref'] = 'Error setting user preference';

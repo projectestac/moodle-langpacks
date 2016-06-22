@@ -75,6 +75,8 @@ $string['eventgroupcreated'] = 'Groep gemaakt';
 $string['eventgroupdeleted'] = 'Groep verwijderd';
 $string['eventgroupingcreated'] = 'Groepering gemaakt';
 $string['eventgroupingdeleted'] = 'Groepering verwijderd';
+$string['eventgroupinggroupassigned'] = 'Groep toegewezen aan groepering';
+$string['eventgroupinggroupunassigned'] = 'Groepstoewijzing aan groepering verwijderd';
 $string['eventgroupingupdated'] = 'Groepering aangepast';
 $string['eventgroupmemberadded'] = 'Groepslid toegevoegd';
 $string['eventgroupmemberremoved'] = 'Groepslid verwijderd';
@@ -139,6 +141,8 @@ $string['importgroups_help'] = 'Groepen kunnen geïimporteerd worden via een tek
 * De eerste record bevat een lijst met veldnamen die de opmaak bepalen van de rest van het bestand
 * De vereiste veldnaam is groupname
 * Optionele velnamen zijn description, enrolmentkey, picture, hidepicture';
+$string['includeonlyactiveenrol'] = 'Enkel actieve aanmeldingen meenemen';
+$string['includeonlyactiveenrol_help'] = 'Indien ingeschakeld zullen geschorste gebruikers niet mee opgenomen worden in groepen.';
 $string['javascriptrequired'] = 'Voor deze pagina moet Javascript ingeschakeld zijn';
 $string['members'] = 'Leden per groep';
 $string['membersofselectedgroup'] = 'Leden van de geselecteerde groep';
