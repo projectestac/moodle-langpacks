@@ -861,6 +861,7 @@ $string['themesettings'] = 'Itxuraren ezarpenak';
 $string['therewereerrors'] = 'Zure datuetan erroreak daude';
 $string['thirdpartylibrary'] = 'Liburutegia';
 $string['thirdpartylibrarylocation'] = 'Kokapena';
+$string['thirdpartylibs'] = 'Bitartekoen liburutegiak';
 $string['timezone'] = 'Berezko ordutegi-eremua';
 $string['timezoneforced'] = 'Aukera hau gunearen administratzaileak behartu egin du';
 $string['timezoneinvalid'] = 'Ordutegi-eremu baliogabea "{$a}"';

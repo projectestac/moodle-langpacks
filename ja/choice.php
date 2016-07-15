@@ -50,6 +50,7 @@ $string['choice:readresponses'] = '投票結果を表示する';
 $string['choicesaved'] = 'あなたの投票が保存されました。';
 $string['choicetext'] = '説明文';
 $string['chooseaction'] = '操作を選択する ...';
+$string['closebeforeopen'] = 'あなたは開始日時の前に終了日時を指定しました。';
 $string['completionsubmit'] = 'ユーザが選択した場合、完了として表示する';
 $string['description'] = '説明';
 $string['displayhorizontal'] = '水平に表示する';

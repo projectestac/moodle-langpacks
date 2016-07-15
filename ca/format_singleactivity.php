@@ -33,4 +33,8 @@ $string['erroractivitytype'] = 'El tipus d\'activitat no està definit en els pa
 $string['orphaned'] = 'Òrfena';
 $string['orphanedwarning'] = 'Els usuaris no podran arribar a aquestes activitats.';
 $string['pluginname'] = 'Format d\'activitat única';
+<<<<<<< HEAD
+=======
+$string['sectionname'] = '';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['warningchangeformat'] = 'Quan canvieu el format del curs actual a «activitat única» comproveu que heu suprimit totes les activitats extra del curs incloent els «Avisos i noticies». Fixeu-vos que l\'estructura de les seccions pot haver-se modificat.';

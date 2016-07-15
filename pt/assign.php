@@ -351,7 +351,11 @@ $string['savegradingresult'] = 'Nota';
 $string['savenext'] = 'Guardar e mostrar próximo';
 $string['savingchanges'] = 'A gravar alterações...';
 $string['scale'] = 'Escala';
+<<<<<<< HEAD
 $string['search:activity'] = 'Trabalho - Informações da atividade';
+=======
+$string['search:activity'] = 'Trabalho - informações da atividade';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['selectedusers'] = 'Utilizadores selecionados';
 $string['selectlink'] = 'Selecionar…';
 $string['selectuser'] = 'Selecione {$a}';

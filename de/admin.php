@@ -52,7 +52,7 @@ $string['allowcoursethemes'] = 'Designwechsel im Kurs erlauben';
 $string['allowediplist'] = 'Zugelassene IP-Adressen';
 $string['allowemailaddresses'] = 'E-Mail-Domains vorgeben';
 $string['allowframembedding'] = 'Frame-Einbettung erlauben';
-$string['allowframembedding_help'] = 'Diese Funktion ermöglicht das Einbetten dieser Site als Frame von anderen Sites. Das Einschalten dieses Features wird aus Sicherheitsgründen nicht empfohlen.';
+$string['allowframembedding_help'] = 'Diese Option ermöglicht das Einbetten dieser Website als Frame in einem fremden System. Das Einschalten dieser Option wird nur bei der Verwendung des Einschreibe-Plugins \'Veröffentlichen als LTI-Tool\' empfohlen. Ansonsten sollte die Option aus Sicherheitsgründen deaktiviert sein.';
 $string['allowguestmymoodle'] = 'Dashboard für Gäste erlauben';
 $string['allowobjectembed'] = 'object/embed erlauben';
 $string['allowthemechangeonurl'] = 'Designwechsel über URL erlauben';
@@ -183,11 +183,11 @@ $string['configcronremotepassword'] = 'Dies bedeutet, dass das Script cron.php n
 http://www.beispiel.de/admin/cron.php?password=geheim
 </pre>Falls das Feld leer bleibt, wird kein Kennwort benötigt.';
 $string['configcurlcache'] = 'Speicherzeit für cURL Cache (in Sekunden)';
-$string['configcustommenuitems'] = 'Sie können ein eigenes Menü anlegen, das auf allen Seiten angezeigt wird.
+$string['configcustommenuitems'] = 'Das eigene Menü wird auf allen Seiten in der Kopfzeile angezeigt.
 
-Jeder Menüpunkt wird in eine eigene Zeile geschrieben. Jede Zeile besteht aus dem angezeigten Text, einer URL (optional), einem Tooltipp (optional) und einer Sprachzuordnung (optional, Menüpunkt wird nur mit der angegebenen Sprache gezeigt). Die Trennung erfolgt jeweils durch einen senkrechten Strich (|). Eine Struktur mit Untermenüs wird über Bindestriche (-) geregelt, Trennlinien werden mit Rautenzeichen (#) angelegt.
-Für die Sprachzuordnung geben Sie nach einem dritten senkrechten Strich das Kürzel der Sprache an (oder eine kommagetrennte Liste). Ein solcher Menüeintrag wird nur angezeigt, wenn der Nutzer genau diese Sprache benutzt.
-Beispiel:
+Jeder Menüpunkt steht in einer eigenen Zeile. Jede Zeile besteht aus dem gezeigten Text, einer URL (optional), einem Tooltipp (optional) und einer Sprachzuordnung (optional, falls ein Menüpunkt nur mit bestimmten Sprachen sichtbar sein soll).
+
+Die Trennung erfolgt jeweils durch einen senkrechten Strich (|). Eine Struktur mit Untermenüs wird über Bindestriche (-) geregelt, Trennlinien werden mit dem Rautenzeichen (#) angelegt.
 <pre>
 Moodle Community|http://moodle.org
 -Moodle Support|http://moodle.org/support
@@ -287,7 +287,7 @@ $string['configmaxeditingtime'] = 'Hiermit bestimmen Sie die Zeitdauer, in der B
 $string['configmaxevents'] = 'Ereignisse in der Vorausschau';
 $string['configmaxusersperpage'] = 'Maximale Anzahl von Personen, die bei der Nutzerauswahl in Kursen, Gruppen oder Webservices angezeigt werden';
 $string['configmessaging'] = 'Diese Option aktiviert das Mitteilungssystem systemweit, d.h. für alle Kurse und für alle Nutzer/innen.';
-$string['configmessagingallowemailoverride'] = 'Den Nutzern erlauben sich Nachrichten an andere Mail-Adressen senden zu lassen als im Profil hinterlegt wurde.';
+$string['configmessagingallowemailoverride'] = 'Nutzer/innen erlauben, sich Nachrichten an andere E-Mail-Adressen senden zu lassen als im Profil angegeben.';
 $string['configmessagingdeletereadnotificationsdelay'] = 'Gelesene Mitteilungen können gelöscht werden, um Platz zu sparen. Diese Einstellung legt die Zeitdauer fest, nach der eine Mitteilung gelöscht wird.';
 $string['configmessaginghidereadnotifications'] = 'Gelesene Mitteilungen über Ereignisse (z.B. neue Forumsbeiträge) verbergen';
 $string['configminpassworddigits'] = 'Kennwörter müssen mindestens die angegebene Zahl von Ziffern enthalten.';
@@ -1065,7 +1065,7 @@ $string['taskdeleteincompleteusers'] = 'Unvollständige Nutzerprofile löschen';
 $string['taskdeleteunconfirmedusers'] = 'Unbestätigte Nutzerprofile löschen';
 $string['taskeventscron'] = 'Hintergrundprozess für Ereignisse';
 $string['taskfiletrashcleanup'] = 'Dateien endgültig löschen';
-$string['taskglobalsearchindex'] = 'Globale Suche indizieren ...';
+$string['taskglobalsearchindex'] = 'Indizierung für die globale Suche';
 $string['taskglobalsearchoptimize'] = 'Index für Globale Suche optimieren';
 $string['taskgradecron'] = 'Hintergrundprozess für Bewertungen';
 $string['tasklegacycron'] = 'Cron-Verarbeitung für Plugins';

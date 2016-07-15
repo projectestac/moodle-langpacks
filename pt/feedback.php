@@ -52,6 +52,7 @@ $string['checkbox'] = 'Escolha múltipla - são permitidas múltiplas respostas 
 $string['check_values'] = 'Respostas possíveis';
 $string['choosefile'] = 'Selecionar ficheiro';
 $string['chosen_feedback_response'] = 'resposta do inquérito escolhida';
+$string['closebeforeopen'] = 'Especificou uma data de fim anterior à data de início.';
 $string['completed'] = 'concluído';
 $string['completed_feedbacks'] = 'Respostas submetidas';
 $string['complete_the_form'] = 'Responder às questões...';

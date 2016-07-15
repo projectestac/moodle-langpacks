@@ -495,6 +495,10 @@ $string['modgradeerrorbadpoint'] = 'Ongeldige cijferwaarde. Dit moet een geheel 
 $string['modgradeerrorbadscale'] = 'Ongeldige schaal geselecteerd. Kies een schaal uit onderstaande selectie.';
 $string['modgrade_help'] = 'Selecteer het type sortering dat wordt gebruikt voor deze activiteit. Als &quot;schaal&quot; wordt gekozen, kun je vervolgens kiezen voor de schaal van de &quot;schaal&quot;-dropdown. Bij gebruik van &quot;punt&quot;-indeling, kun je vervolgens het maximale cijfer beschikbaar voor deze activiteit.';
 $string['modgrademaxgrade'] = 'Maximumcijfer';
+<<<<<<< HEAD
+=======
+$string['modgraderescalegrades'] = 'Herschaal bestaande cijfers';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['modgradetype'] = 'Type';
 $string['modgradetypenone'] = 'Geen';
 $string['modgradetypepoint'] = 'Punt';

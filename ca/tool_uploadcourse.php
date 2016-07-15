@@ -31,6 +31,7 @@ $string['allowrenames'] = 'Permet canvis de nom';
 $string['allowrenames_help'] = 'Si el camp de reanomenament s\'accepta o no.';
 $string['allowresets'] = 'Permet reinicis';
 $string['allowresets_help'] = 'Si el camp de reinici s\'accepta o no.';
+$string['cachedef_helper'] = 'Memòria cau de l\'assistent';
 $string['cannotdeletecoursenotexist'] = 'No es pot eliminar un curs que no existeix';
 $string['cannotgenerateshortnameupdatemode'] = 'No es pot generar el nom curt quan les actualitzacions estan permeses';
 $string['cannotreadbackupfile'] = 'No es pot llegir el fitxer de còpia de seguretat';

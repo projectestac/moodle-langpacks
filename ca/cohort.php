@@ -74,6 +74,13 @@ $string['selectfromcohort'] = 'Selecciona membres de la cohort';
 $string['systemcohorts'] = 'Cohorts de sistema';
 $string['unknowncohort'] = 'Cohort desconeguda ({$a})!';
 $string['uploadcohorts'] = 'Carrega cohorts';
+$string['uploadcohorts_help'] = 'Les cohorts poden actualitzar-se mitjançant fitxers de text. El format del fitxer ha de ser com segueix:
+
+* Cada línia conté un registre.
+* Cada registre és una sèrie de dades separades per comes (o altres delimitadors).
+* El primer registre conté una llista de noms de camp que defineixen el format de la resta del fitxer.
+* Cal posar nom al nom del camp.
+* Alguns noms de camp opcionals són:  idnumber, description, descriptionformat, visible, context, category, category_id, category_idnumber, category_path';
 $string['uploadedcohorts'] = 'S\'han carregat {$a} cohorts';
 $string['useradded'] = 'Usuari afegit a la cohort «{$a}»';
 $string['visible'] = 'Visible';

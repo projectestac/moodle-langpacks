@@ -37,6 +37,7 @@ $string['locale'] = 'ca_ES.UTF-8';
 $string['localewin'] = 'Catalan_Spain.1252';
 $string['localewincharset'] = 'WINDOWS-1252';
 $string['oldcharset'] = 'ISO-8859-1';
+$string['parentlanguage'] = '';
 $string['strftimedate'] = '%d %B %Y';
 $string['strftimedatefullshort'] = '%d/%m/%y';
 $string['strftimedateshort'] = '%d %B';

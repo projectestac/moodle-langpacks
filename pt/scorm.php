@@ -337,7 +337,11 @@ $string['scormtype_help'] = 'Esta configuração define como o Pacote SCORM ser�
 $string['scorm:viewreport'] = 'Ver relatórios';
 $string['scorm:viewscores'] = 'Ver notas';
 $string['scrollbars'] = 'Permitir deslocamentos dentro da janela';
+<<<<<<< HEAD
 $string['search:activity'] = 'Pacote SCORM - Informações da atividade';
+=======
+$string['search:activity'] = 'Pacote SCORM - informações da atividade';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['selectall'] = 'Selecionar todos';
 $string['selectnone'] = 'Desselecionar todos';
 $string['show'] = 'Mostrar';

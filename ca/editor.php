@@ -38,7 +38,11 @@ $string['anchors'] = 'Àncores';
 $string['baseline'] = 'Línia base';
 $string['bold'] = 'Negreta';
 $string['borderthickness'] = 'Gruix del contorn';
+<<<<<<< HEAD
 $string['bottom'] = 'Baix';
+=======
+$string['bottom'] = 'Part inferior';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['browse'] = 'Navega';
 $string['cancel'] = 'Cancel·la';
 $string['cellpadding'] = 'Cellpadding';
@@ -143,7 +147,11 @@ $string['superscript'] = 'Superíndex';
 $string['textindicator'] = 'Estil actual';
 $string['textmode'] = 'Esteu en MODE TEXT. Utilitzeu el botó [<>] per tornar al MODE WYSIWYG.';
 $string['texttop'] = 'Texttop';
+<<<<<<< HEAD
 $string['top'] = 'Dalt';
+=======
+$string['top'] = 'Part superior';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['type'] = 'Tipus';
 $string['underline'] = 'Subratllat';
 $string['undo'] = 'Desfés la darrera acció';

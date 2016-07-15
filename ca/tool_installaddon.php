@@ -36,14 +36,19 @@ $string['installfromzip'] = 'Instal·la un complement des d\'un fitxer ZIP';
 $string['installfromzipfile'] = 'Paquet ZIP';
 $string['installfromzipfile_help'] = 'El paquet ZIP del connector ha de contenir un directori anomenat amb el nom del connector. El fitxer ZIP s\'extraurà en la localització adequada per al tipus de connector. Si el paquet ha estat baixat des del directori de connectors de Moodle tindrà aquesta estructura.';
 $string['installfromzip_help'] = 'Una alternativa per instal·lar complements directament des del directori de complements de Moodle és carregar un paquet ZIP del complement. L\'estructura ZIP ha de tenir la mateixa estructura que el paquet baixat des del directori de connectors de Moodle.';
+<<<<<<< HEAD
+=======
+$string['installfromzipinvalid'] = 'El paquet ZIP del complement ha de tindre sols un directori anomenat amb el nom del complement. El fitxer proporcionat no és vàlid com a paquet ZIP de complement.';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['installfromziprootdir'] = 'Canvia el nom del directori arrel';
-$string['installfromziprootdir_help'] = 'Alguns paquets ZIP, com els generats per GitHub poden contindre un nom incorrecte per al directori arrel. Si passa això podreu entrar el nom correcte aquí.';
+$string['installfromziprootdir_help'] = 'Alguns paquets ZIP, com els generats per GitHub, poden contenir un nom incorrecte per al directori arrel. Si passa això, podeu introduir el nom correcte aquí.';
 $string['installfromzipsubmit'] = 'Instal·la un complement des d\'un fitxer ZIP';
 $string['installfromziptype'] = 'Tipus de connector';
 $string['installfromziptype_help'] = 'Escolliu el tipus correcte de connector que aneu a instal·lar. Avís: El procediment d\'instal·lació pot anar molt malament si especifiqueu un tipus incorrecte de connector.';
 $string['permcheck'] = 'Comproveu que el directori arrel del tipus de connector té permisos d\'escriptura per al procés del servidor web.';
 $string['permcheckerror'] = 'Error mentre s\'estaven comprovant els permisos d\'escriptura';
 $string['permcheckprogress'] = 'S\'està comprovant el permís d\'escriptura...';
+$string['permcheckrepeat'] = 'Comprova de nou';
 $string['permcheckresultno'] = 'No es pot escriure en la ubicació del connector <em>{$a->path}</em>';
 $string['permcheckresultyes'] = 'Sí es pot escriure en la ubicació del connector <em>{$a->path}</em>';
 $string['pluginname'] = 'Instal·lador del complement';
@@ -53,3 +58,5 @@ $string['remoterequestinvalid'] = 'Hi ha una petició per instal·lar un complem
 $string['remoterequestnoninstallable'] = 'Hi ha una petició per instal·lar el complement {$a->name} ({$a->component}) amb versió {$a->version} des del directori de connectors de Moodle en aquest lloc. De totes maneres, la preverificació de la instal·lació del complement ha fallat (codi de raó: {$a->reason}).';
 $string['remoterequestpermcheck'] = 'Hi ha una petició per instal·lar el complement {$a->name} ({$a->component}) amb versió {$a->version} des del directori de connectors de Moodle en aquest lloc. Tanmateix, la ubicació del connector <strong>{$a->typepath}</strong> no té <strong>permís d\'escriptura</strong>. Us cal donar permís d\'escriptura a l\'usuari del servidor web per a la ubicació del connector, després premeu el botó continua per reprendre la comprovació.';
 $string['remoterequestpluginfoexception'] = 'Vaja vaja, ha succeït un error quan es provava d\'obtindre informació sobre el complement {$a->name} ({$a->component})  amb versió  {$a->version}. El complement no es pot instal·lar. Activeu el mode depuració per mirar els detalls de l\'error.';
+$string['typedetectionfailed'] = 'No es pot detectar el tipus de complement. Trieu de forma manual el tipus de complement.';
+$string['typedetectionmismatch'] = 'El tipus de complement seleccionat no concorda amb el declarat pel complement: {$a}';

@@ -320,7 +320,7 @@ $string['numawards'] = 'Esta Medalha foi emitida a <a href="{$a->link}">{$a->cou
 $string['numawardstat'] = 'Esta Medalha foi emitida a {$a} utilizador(es).';
 $string['overallcrit'] = 'dos critérios selecionados são cumpridos.';
 $string['personaconnection'] = 'Identifique-se com o seu email';
-$string['personaconnection_help'] = 'O Persona é um sistema que permite que você seja identificado em toda a web, usando um endereço de e-mail. A Backpack "Open Badges" usa o Persona como um sistema de autenticação e, por isso, você precisa de uma conta Persona para se ligar a uma Backpack.
+$string['personaconnection_help'] = 'O Persona é um sistema que permite que seja identificado em toda a web, usando um endereço de e-mail. A Backpack "Open Badges" usa o Persona como um sistema de autenticação e, por isso, precisa de uma conta Persona para se ligar a uma Backpack.
 
 Para mais informações sobre o Persona visite <a href="https://login.persona.org/about">https://login.persona.org/about</a> .';
 $string['potentialrecipients'] = 'Potenciais destinatários da Medalha';

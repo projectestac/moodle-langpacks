@@ -32,7 +32,11 @@ $string['addcohortstosync'] = 'Adicionar grupos globais para sincronizar';
 $string['addcompetency'] = 'Adicionar competência';
 $string['addcoursecompetencies'] = 'Adicionar competências à disciplina';
 $string['addcrossreferencedcompetency'] = 'Adicionar competência referenciada';
+<<<<<<< HEAD
 $string['addingcompetencywillresetparentrule'] = 'Adicionar uma nova competência irá remover as regras definidas em \'{$a}\'. Tem a certeza de que deseja continuar?';
+=======
+$string['addingcompetencywillresetparentrule'] = 'Se adicionar uma nova competência irá remover a regra estabelecida em \'{$a}\'. Tem a certeza que pretende continuar?';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['addnewcompetency'] = 'Adicionar nova competência';
 $string['addnewcompetencyframework'] = 'Adicionar novo quadro de competências';
 $string['addnewplan'] = 'Adicionar novo plano de aprendizagem';

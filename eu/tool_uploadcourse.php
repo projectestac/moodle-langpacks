@@ -53,6 +53,7 @@ $string['id'] = 'ID';
 $string['importoptions'] = 'Inportatzeko aukerak';
 $string['invalidencoding'] = 'Kodifikazioa ez da baliagarria';
 $string['nochanges'] = 'Aldaketarik ez';
+$string['pluginname'] = 'Igo ikastaroa';
 $string['preview'] = 'Aurreikusi';
 $string['result'] = 'Emaitza';
 $string['rowpreviewnum'] = 'Aurreikusi errenkadak';

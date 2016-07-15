@@ -802,7 +802,11 @@ $string['savingnewgradeforquestion'] = 'A guardar nova nota para a pergunta ID {
 $string['savingnewmaximumgrade'] = 'A guardar nova nota máxima.';
 $string['score'] = 'Nota bruta';
 $string['scores'] = 'Avaliações';
+<<<<<<< HEAD
 $string['search:activity'] = 'Teste - Informações da atividade';
+=======
+$string['search:activity'] = 'Teste - informações da atividade';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['sectionheadingedit'] = 'Editar título \'{$a}\'';
 $string['sectionheadingremove'] = 'Eliminar secção \'{$a}\'';
 $string['seequestions'] = '(Ver perguntas)';

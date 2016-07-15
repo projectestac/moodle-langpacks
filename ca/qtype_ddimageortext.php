@@ -58,6 +58,7 @@ $string['pleasedraganimagetoeachdropregion'] = 'La vostra resposta no està comp
 $string['pluginname'] = 'Arrossegueu i deixeu anar sobre una imatge';
 $string['pluginnameadding'] = 'S\'està afegint una pregunta d\'arrossegar sobre una imatge.';
 $string['pluginnameediting'] = 'S\'està editant una pregunta d\'arrossegar sobre una imatge';
+$string['pluginname_help'] = 'Les preguntes d\'arrossegar i deixar anar sobre imatges demanen que qui respon arrossegui imatges o etiquetes de text i les deixi anar dins de zones de col·locació definides sobre una imatge de fons. Els elements arrossegables es poden agrupar de forma que tots els elements d\'un grup concret tinguin el mateix color que les zones on es deixin anar. Els elements arrossegables marcats com il·limitats es poden deixar anar en més d\'una zona.';
 $string['pluginnamesummary'] = 'Permet arrossegar i deixar anar imatges o textos dins d\'una imatge.';
 $string['previewareaheader'] = 'Previsualitza';
 $string['previewareamessage'] = 'Seleccioneu una imatge de fons, especificant els elements arrossegables i les zones de la imatge on s\'han d\'ubicar.';

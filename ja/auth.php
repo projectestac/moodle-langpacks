@@ -157,3 +157,5 @@ $string['update_onlogin'] = '毎回ログイン時';
 $string['update_onupdate'] = '更新時';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() は選択された次のusertypeをサポートしていません: {$a}';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() は選択されたusertypeをサポートしていません。';
+$string['username'] = 'ユーザ名';
+$string['username_help'] = 'いくつかの認証プラグインではあなたがユーザ名を変更できないことに留意してください。';

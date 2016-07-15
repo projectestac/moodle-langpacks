@@ -25,4 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['actlogshdr'] = 'Magatzems de registres disponibles';
+$string['configlogplugins'] = 'Habiliteu tots els complements requerits i ordeneu-los en l\'ordre apropiat.';
+$string['logging'] = 'Identificació';
+$string['managelogging'] = 'Gestiona els magatzems de registres';
 $string['pluginname'] = 'Gestor del magatzem de registres';
+$string['reportssupported'] = 'Informes suportats';
+$string['subplugintype_logstore'] = 'Magatzem del registre';
+$string['subplugintype_logstore_plural'] = 'Magatzems de registres';

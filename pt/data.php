@@ -52,6 +52,7 @@ Os marcadores para os campos são definidos no formato <b>[[nomedocampo]]</b>. T
 
 Apenas os marcadores que estão na lista <b>Marcadores disponíveis</b> podem ser usados no modelo atual.';
 $string['availabletodate'] = 'Disponível até';
+$string['availabletodatevalidation'] = '"Disponível até" não pode ser anterior a "Disponível a partir de".';
 $string['blank'] = 'Vazio';
 $string['buttons'] = 'Botões';
 $string['bynameondate'] = 'por  {$a->name} - {$a->date}';
@@ -332,6 +333,7 @@ $string['savesettings'] = 'Gravar configurações';
 $string['savesuccess'] = 'Gravado com sucesso. Este protótipo será disponibilizado em todo o site.';
 $string['savetemplate'] = 'Gravar modelo';
 $string['search'] = 'Pesquisar';
+$string['search:activity'] = 'Base de dados - informações da atividade';
 $string['selectedrequired'] = 'Todos os selecionados são obrigatórios';
 $string['showall'] = 'Mostrar todos os registos';
 $string['single'] = 'Ver registo';
@@ -368,4 +370,5 @@ $string['usestandard'] = 'Usar um protótipo';
 $string['usestandard_help'] = 'Para criar a base de dados a partir de protótipo, selecione um da lista. (Se adicionou um protótipo através da função <b>Gravar como protótipo</b> pode remover o mesmo em qualquer momento).';
 $string['viewfromdate'] = 'Visível a partir de';
 $string['viewtodate'] = 'Visível até';
+$string['viewtodatevalidation'] = '"Apenas de leitura até" não pode ser anterior a "Apenas de leitura a partir de".';
 $string['wrongdataid'] = 'O ID dos dados fornecido é inválido';

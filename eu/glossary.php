@@ -276,6 +276,7 @@ $string['rsssubscriberss'] = 'Erakutsi RSS jarioa \'{$a}\' kontzeptuetarako';
 $string['rsstype'] = 'Jarduera honetarako RSS jarioa';
 $string['rsstype_help'] = 'Jarduera honetan RSS jarioak gaitzeko, aukeratu kontzeptuak egilea eta guzti edo egilerik gabe, jarioan gaineratzeko.';
 $string['search:activity'] = 'Glosategia - jardueraren informazioa';
+$string['search:entry'] = 'Glosategia - sarrerak';
 $string['searchindefinition'] = 'Bilatu testu osoan';
 $string['secondaryglossary'] = 'Bigarren mailako glosategia';
 $string['showall'] = 'Erakutsi "GUZTIAK" esteka';

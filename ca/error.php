@@ -234,6 +234,7 @@ $string['erroronline'] = 'S\'ha produït un error a la línia {$a}';
 $string['erroroutput'] = 'La redirecció automàtica s\'ha inhabilitat a causa dels missatges d\'error.';
 $string['errorparsingxml'] = 'S\'ha produït un error en analitzar l\'XML: {$a->errorstring} a la línia {$a->errorline}, caràcter {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Error mentre es processava el fitxer de l\'arxiu';
+$string['error_question_answers_missing_in_db'] = 'No s\'ha pogut trobar una resposta concordant amb "{$a->answer}" a la taula preguntes_respostes de la de base de dades. Això ha ocorregut mentre es restaurava la pregunta amb id  {$a->filequestionid} del fitxer de copia de seguretat, que ha coincidit amb la pregunta amb id  {$a->dbquestionid} existent a la base de dades.';
 $string['errorreadingfile'] = 'S\'ha produït un error en llegir el fitxer "{$a}"';
 $string['errorsavingrequest'] = 'S\'ha produït un error quan s\'intentava desar la vostra sol·licitud.';
 $string['errorsettinguserpref'] = 'S\'ha produït un error en establir les preferències de l\'usuari';
@@ -390,6 +391,7 @@ $string['movecatcontentstoroot'] = 'No es permet moure el contingut de la catego
 $string['movecategorynotpossible'] = 'No podeu moure la categoria \'{$a}\' dins de la categoria seleccionada.';
 $string['movecategoryownparent'] = 'No podeu fer la categoria \'{$a}\' pare d\'ella mateixa.';
 $string['movecategoryparentconflict'] = 'No podeu convertir la categoria \'{$a}\' en una subcategoria d\'una de les seves subcategories pròpies.';
+$string['mssqlrcsmodemissing'] = 'La base de dades no està usant el mode  «READ_COMMITTED_SNAPSHOT» el qual pot donar resultats dolents, especialment en escenaris d\'alta concurrència. Habiliteu-lo per tenir un comportament correcte. Per trobar més informació mireu la documentació <a href="https://docs.moodle.org/en/Installing_MSSQL_for_PHP">Instal·lant MSSQL per a PHP</a>.';
 $string['multiplerecordsfound'] = 'S\'han trobat diferents registres, però se n\'esperava un de sol.';
 $string['multiplerestorenotallow'] = 'No està permesa l\'execució de diferents restauracions.';
 $string['mustbeloggedin'] = 'Heu d\'estar registrat per poder fer això';

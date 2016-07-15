@@ -52,6 +52,7 @@ $string['checkbox'] = 'Multiple choice - multiple answers allowed (check boxes)'
 $string['check_values'] = 'Possible responses';
 $string['choosefile'] = 'Choose a file';
 $string['chosen_feedback_response'] = 'chosen feedback response';
+$string['closebeforeopen'] = 'You have specified an end date before the start date.';
 $string['completed'] = 'completed';
 $string['completed_feedbacks'] = 'Submitted answers';
 $string['complete_the_form'] = 'Answer the questions...';

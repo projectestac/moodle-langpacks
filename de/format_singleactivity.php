@@ -34,4 +34,4 @@ $string['orphaned'] = 'Verwaist';
 $string['orphanedwarning'] = 'Diese Aktivitäten sind für Nutzer/innen nicht erreichbar!';
 $string['pluginname'] = 'Einzelaktivität';
 $string['sectionname'] = ' ';
-$string['warningchangeformat'] = 'Wenn Sie das vorhandene Kursformat in das Format \'Einzelaktivität\' ändern, müssen Sie vorher alle anderen Aktivitäten aus dem Kurs entfernen, auch die \'Neusten Ankündigungen\'. Beachten Sie, dass die Abschnittsstruktur sich ändern könnte.';
+$string['warningchangeformat'] = 'Wenn Sie das Kursformat in \'Einzelaktivität\' ändern, müssen Sie vorher alle anderen Aktivitäten aus dem Kurs entfernen, auch das Forum \'Ankündigungen\'. Beachten Sie, dass sich die Abschnittsstruktur ändern könnte.';

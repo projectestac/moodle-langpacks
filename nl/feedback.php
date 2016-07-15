@@ -281,7 +281,11 @@ $string['this_feedback_is_already_submitted'] = 'Je hebt dit feedbackformulier i
 $string['typemissing'] = 'ontbrekende waarde "type"';
 $string['update_item'] = 'Bewaar de wijzigingen';
 $string['url_for_continue'] = 'Link naar volgende activiteit';
+<<<<<<< HEAD
 $string['url_for_continue_help'] = 'Nadat eeen feedback is ingestuurd wordt standaard de cursuspagina getoond. Je kunt hier een andere doel-URL opgeven voor deze ga verder knop';
+=======
+$string['url_for_continue_help'] = 'Nadat een feedback is ingestuurd wordt standaard de cursuspagina getoond. Je kunt hier een andere doel-URL opgeven voor deze ga verder knop.';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['use_one_line_for_each_value'] = 'Gebruik één regel per antwoord!';
 $string['use_this_template'] = 'Gebruik dit sjabloon';
 $string['using_templates'] = 'Gebruik een sjabloon';

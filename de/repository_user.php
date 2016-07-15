@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configplugin'] = 'Einstellungen für \'Eigene Dateien\'';
+$string['configplugin'] = 'Einstellungen für \'Meine Dateien\'';
 $string['emptyfilelist'] = 'Es gibt keine Dateien anzuzeigen';
-$string['pluginname'] = 'Eigene Dateien';
+$string['pluginname'] = 'Meine Dateien';
 $string['pluginname_help'] = 'Dateien im privaten Benutzerbereich';
-$string['user:view'] = 'Eigene Dateien anzeigen';
+$string['user:view'] = 'Meine Dateien anzeigen';

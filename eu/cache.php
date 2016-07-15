@@ -90,3 +90,4 @@ $string['storeready'] = 'Prest';
 $string['storerequiresattention'] = 'Zure arreta behar du.';
 $string['stores'] = 'Biltegiak';
 $string['supports'] = 'Euskarriak';
+$string['testperformance'] = 'Probatu errendimendua';

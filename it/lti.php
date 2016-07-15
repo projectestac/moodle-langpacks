@@ -154,6 +154,10 @@ Accanto al menu a discesa Tipo di tool esterno sono disponibili tre icone:
 $string['external_tool_types'] = 'Tool preconfigurati';
 $string['failedtoconnect'] = 'Moodle non è riuscito a comunicare con il sistema "{$a}"';
 $string['failedtocreatetooltype'] = 'Non è stato possibile creare un nuovo tool. Controlla l\'URL prima di riprovare.';
+<<<<<<< HEAD
+=======
+$string['failedtodeletetoolproxy'] = 'Non è stato possibile eliminare la registrazione del tool. Per provare ad eliminarla manualmente,  visita l\'URL "Gestione registrazione tool esterni".';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['filter_basiclti_configlink'] = 'Configura i tuoi siti preferiti e le relative password';
 $string['filter_basiclti_password'] = 'La password è obbligatoria';
 $string['filterconfig'] = 'Gestione LTI';

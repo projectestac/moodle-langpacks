@@ -78,6 +78,10 @@ $string['invalidgrade'] = 'Puntuazio baliogabea';
 $string['invalidplan'] = 'Ikasketa-plana baliogabea';
 $string['invalidtaxonomy'] = 'Taxonomia baliogabea: {$a}';
 $string['invalidurl'] = 'URLa ez da baliagarria. Ziurta ezazu honela hasten dela: \'http://\' edo \'https://\'.';
+<<<<<<< HEAD
+=======
+$string['planstatusactive'] = 'Aktiboa';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['planstatuscomplete'] = 'Osatu';
 $string['planstatusdraft'] = 'Zirriborroa';
 $string['planstatusinreview'] = 'Berrikusten';

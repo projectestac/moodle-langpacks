@@ -77,6 +77,7 @@ $string['calculatedweight'] = 'Calculated weight';
 $string['cannotaccess'] = 'You cannot call this script in that way';
 $string['cannotfindsco'] = 'Could not find SCO';
 $string['chooseapacket'] = 'Choose or update a package';
+$string['closebeforeopen'] = 'You have specified a close date before the open date.';
 $string['collapsetocwinsize'] = 'Collapse TOC when window size below';
 $string['collapsetocwinsizedesc'] = 'This setting lets you specify the window size below which the TOC should automatically collapse.';
 $string['compatibilitysettings'] = 'Compatibility settings';

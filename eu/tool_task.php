@@ -30,6 +30,11 @@ $string['component'] = 'Osagaia';
 $string['corecomponent'] = 'Sistema';
 $string['default'] = 'Berezkoa';
 $string['disabled'] = 'Desgaituta';
+<<<<<<< HEAD
+=======
+$string['pluginname'] = 'Programatutako zereginen ezarpenak';
+$string['scheduledtasks'] = 'Programatutako zereginak';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['taskdisabled'] = 'Ataza desgaituta';
 $string['taskscheduleday'] = 'Eguna';
 $string['taskscheduledayofweek'] = 'Asteko eguna';

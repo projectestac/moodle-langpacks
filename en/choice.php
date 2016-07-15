@@ -50,6 +50,7 @@ $string['choice:readresponses'] = 'View responses';
 $string['choicesaved'] = 'Your choice has been saved';
 $string['choicetext'] = 'Choice text';
 $string['chooseaction'] = 'Choose an action ...';
+$string['closebeforeopen'] = 'You have specified a close date before the open date.';
 $string['completionsubmit'] = 'Show as complete when user makes a choice';
 $string['description'] = 'Description';
 $string['displayhorizontal'] = 'Display horizontally';

@@ -52,6 +52,6 @@ $string['modifiednum'] = '{$a} aldatutako kate daude. Egiaztatu egin behar dituz
 $string['nostringsfound'] = 'Ez da katerik aurkitu. Mesedez, aldatu iragazkiaren ezarpenak.';
 $string['placeholder'] = 'Leku-markak';
 $string['placeholderwarning'] = 'Kateak leku-marka du';
-$string['pluginname'] = 'Hizkuntzaren pertsonalizazioa';
+$string['pluginname'] = 'Hizkuntzen pertsonalizazioa';
 $string['savecheckin'] = 'Gorde aldaketak hizkuntza-paketean';
 $string['savecontinue'] = 'Aplikatu aldaketak eta jarraitu editatzen';

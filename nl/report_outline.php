@@ -29,6 +29,7 @@ $string['eventactivityreportviewed'] = 'Activiteitenrapport bekeken';
 $string['eventoutlinereportviewed'] = 'Overzichtsrapport bekeken';
 $string['neverseen'] = 'Nooit gezien';
 $string['nologreaderenabled'] = 'Er is geen loglezer ingeschakeld';
+$string['numviews'] = '{$a->numviews} door {$a->distinctusers} gebruikers';
 $string['outline:view'] = 'Bekijk cursusactiviteitenrapport';
 $string['page-report-outline-index'] = 'Cursus overzicht rapport';
 $string['page-report-outline-user'] = 'Gebruiker cursus overzicht rapport';

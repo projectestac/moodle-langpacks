@@ -45,6 +45,7 @@ $string['eventnoteupdated'] = 'S\'ha actualitzat l\'anotació';
 $string['groupaddnewnote'] = 'Afegeix una anotació per a tothom';
 $string['invalidid'] = 'Identificació d\'anotació especificada invàlida';
 $string['invaliduserid'] = 'Identificació d\'usuari invàlida: {$a}';
+$string['myprofileownnotes'] = 'Les meves anotacions';
 $string['nocontent'] = 'El contingut de l\'anotació no pot estar buit';
 $string['nonotes'] = 'Encara no hi ha anotacions d\'aquest tipus';
 $string['nopermissiontodelete'] = 'Podeu esborrar aquesta anotació';

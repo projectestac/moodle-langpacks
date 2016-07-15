@@ -36,6 +36,7 @@ $string['configairnotifierappname'] = 'Aplikazio-izenaren identifikatzailea Airn
 $string['configairnotifierport'] = 'Airnotifier-en zerbitzariarekin konektatzeko erabili behar den ataka.';
 $string['deletecheckdevicename'] = 'Ezabatu zure gailua: {$a->name}';
 $string['nopermissiontomanagedevices'] = 'Ez duzu baimenik gailuak kudeatzeko.';
+$string['pluginname'] = 'Gailu mugikorrentzako jakinarazpenak';
 $string['requestaccesskey'] = 'Eskatu sarbide-giltza';
 $string['showhide'] = 'Gaitu/desgaitu gailua';
 $string['unknowndevice'] = 'Gailu ezezaguna';

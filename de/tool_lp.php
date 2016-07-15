@@ -52,6 +52,11 @@ $string['category'] = 'Kursbereich';
 $string['chooserating'] = 'Wertung auswählen...';
 $string['cohortssyncedtotemplate'] = 'Globale Gruppen wurden zur Lernplanvorlage synchronisiert';
 $string['competenciesforframework'] = 'Kompetenzen für {$a}';
+<<<<<<< HEAD
+=======
+$string['competenciesmostoftennotproficient'] = 'Meist ungeübte Kompetenzen in abgeschlossenen Lernplänen';
+$string['competenciesmostoftennotproficientincourse'] = 'Meist ungeübte Kompetenzen in diesem Kurs';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['competencycannotbedeleted'] = 'Die Kompetenz \'{$a}\' kann nicht gelöscht werden.';
 $string['competencycreated'] = 'Kompetenz angelegt';
 $string['competencycrossreferencedcompetencies'] = '{$a} querverwiesene Kompetenzen';
@@ -69,6 +74,10 @@ $string['competencypicker'] = 'Kompetenzenauswahl';
 $string['competencyrule'] = 'Kompetenzregel';
 $string['competencyupdated'] = 'Kompetenz aktualisiert';
 $string['completeplan'] = 'Diesen Lernplan abschließen';
+<<<<<<< HEAD
+=======
+$string['completeplanconfirm'] = 'Möchten Sie den Lernplan \'{$a}\' wirklich abschließen? Beim Abschließen eines Lernplans werden die Kompetenzen aller Teilnehmer/innen erfasst und der Lernplan kann nur noch angesehen werden.';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['configurecoursecompetencysettings'] = 'Kurskompetenzen konfigurieren';
 $string['configurescale'] = 'Skalen konfigurieren';
 $string['coursecompetencies'] = 'Kurskompetenzen';
@@ -138,9 +147,18 @@ $string['nfiles'] = '{$a} Datei(en)';
 $string['noactivities'] = 'Keine Aktivitäten';
 $string['nocompetencies'] = 'Für diesen Kompetenzrahmen wurden keine Kompetenzen angelegt.';
 $string['nocompetenciesincourse'] = 'Für diesen Kurs sind keine Kompetenzen verlinkt.';
+<<<<<<< HEAD
 $string['nocompetenciesintemplate'] = 'Für diese Lernplanvorlage sind keine Kompetenzen verlinkt.';
 $string['nocompetencyframeworks'] = 'Bisher sind keine Kompetenzrahmen angelegt.';
 $string['nocompetencyselected'] = 'Keine Kompetenzen ausgewählt';
+=======
+$string['nocompetenciesinevidence'] = 'Zu diesem Nachweis wurden keine Kompetenzen verlinkt.';
+$string['nocompetenciesinlearningplan'] = 'Zu diesem Lernplan wurden keine Kompetenzen verlinkt.';
+$string['nocompetenciesintemplate'] = 'Für diese Lernplanvorlage sind keine Kompetenzen verlinkt.';
+$string['nocompetencyframeworks'] = 'Bisher sind keine Kompetenzrahmen angelegt.';
+$string['nocompetencyselected'] = 'Keine Kompetenzen ausgewählt';
+$string['nocrossreferencedcompetencies'] = 'Keine anderen Kompetenzen wurden zu dieser Kompetenz referiert.';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['noevidence'] = 'Keine Belege';
 $string['nofiles'] = 'Keine Dateien';
 $string['nolinkedcourses'] = 'Zu dieser Kompetenz sind keine Kurse verlinkt.';
@@ -162,6 +180,10 @@ $string['plancreated'] = 'Lernplan angelegt';
 $string['plandescription'] = 'Beschreibung';
 $string['planname'] = 'Name';
 $string['plantemplate'] = 'Lernplanvorlage auswählen';
+<<<<<<< HEAD
+=======
+$string['plantemplate_help'] = 'Ein Lernplan, der mit einer Vorlage erstellt wurde, enthält eine Liste von Kompetenzen, die zur Vorlage passen. Updates der Vorlage werden auch in den entsprechenden Lernplänen gemacht.';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['planunapprove'] = 'Auf Entwurf zurücksetzen';
 $string['planupdated'] = 'Lernplan aktualisiert';
 $string['pluginname'] = 'Lernpläne';
@@ -173,6 +195,10 @@ $string['rate'] = 'Wertung';
 $string['ratecomment'] = 'Hinweise zum Beleg';
 $string['rating'] = 'Wertung';
 $string['reopenplan'] = 'Diesen Lernplan neu öffnen';
+<<<<<<< HEAD
+=======
+$string['reopenplanconfirm'] = 'Möchten Sie den Lernplan \'{$a}\' wirklich wieder starten? Wenn der Lernplan wieder aktiv wird, dann werden die bisher erfassten Kompetenzen der Teilnehmer wieder  gelöscht.';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['requestreview'] = 'Überprüfung anfordern';
 $string['reviewstatus'] = 'Überprüfungsstatus';
 $string['savechanges'] = 'Änderungen speichern';
@@ -266,3 +292,7 @@ $string['viewdetails'] = 'Details anzeigen';
 $string['visible'] = 'Sichtbar';
 $string['visible_help'] = 'Ein Kompetenzrahmen kann verborgen werden, indem er angelegt oder auf eine neue Version aktualisiert wird.';
 $string['when'] = 'Wenn';
+<<<<<<< HEAD
+=======
+$string['xcompetenciesproficientoutofyincourse'] = 'Du bist in {$a->x} von {$a->y} Kompetenzen geübt';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15

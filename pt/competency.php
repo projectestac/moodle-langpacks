@@ -31,11 +31,19 @@ $string['competenciesarenotenabled'] = 'As competências não estão ativadas.';
 $string['competenciessettings'] = 'Configurações das competências';
 $string['completeplanstask'] = 'Concluir planos de aprendizagem que passaram a data limite';
 $string['coursecompetencyoutcome_complete'] = 'Concluir a competência';
+<<<<<<< HEAD
 $string['coursecompetencyoutcome_evidence'] = 'Anexar evidência';
 $string['coursecompetencyoutcome_none'] = 'Sem ações';
 $string['coursecompetencyoutcome_recommend'] = 'Enviar para revisão';
 $string['coursemodulecompetencyoutcome_complete'] = 'Concluir a competência';
 $string['coursemodulecompetencyoutcome_evidence'] = 'Anexar evidência';
+=======
+$string['coursecompetencyoutcome_evidence'] = 'Anexar comprovativo de aprendizagem';
+$string['coursecompetencyoutcome_none'] = 'Sem ações';
+$string['coursecompetencyoutcome_recommend'] = 'Enviar para revisão';
+$string['coursemodulecompetencyoutcome_complete'] = 'Concluir a competência';
+$string['coursemodulecompetencyoutcome_evidence'] = 'Anexar comprovativo de aprendizagem';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['coursemodulecompetencyoutcome_none'] = 'Sem ações';
 $string['coursemodulecompetencyoutcome_recommend'] = 'Enviar para revisão';
 $string['deletecompetencyratings'] = 'Eliminar avaliações da competência';

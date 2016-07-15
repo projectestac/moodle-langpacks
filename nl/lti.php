@@ -66,6 +66,7 @@ $string['cannot_delete'] = 'Je mag deze tool configuratie niet verwijderen.';
 $string['cannot_edit'] = 'Je mag deze toolconfiguratie niet bewerken.';
 $string['capabilities'] = 'Mogelijkheden';
 $string['capabilities_help'] = 'Kies de mogelijkheden die je wil aanbieden aan de tool provider. Er kan meer dan één mogelijkheid geselecteerd worden.';
+$string['capabilitiesrequired'] = 'Deze tool vereist toegang tot de volgende gegevens om te activeren:';
 $string['click_to_continue'] = '<a href="{$a->link}" target="_top">Klik om verder te gaan</a>';
 $string['comment'] = 'Opmerking';
 $string['configpassword'] = 'Standaard externe tool wachtwoord';
@@ -76,8 +77,14 @@ $string['configresourceurl'] = 'Standaard bron URL';
 $string['configtoolurl'] = 'Standaard externe tool URL';
 $string['configtypes'] = 'LTI applicaties inschakelen';
 $string['configured'] = 'Geconfigureerd';
+<<<<<<< HEAD
+=======
+$string['confirmtoolactivation'] = 'Bent je er zeker van dat je deze tool wilt activeren?';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['courseactivitiesorresources'] = 'Cursusactiviteiten en bronnen';
 $string['courseid'] = 'Cursus ID nummer';
+$string['courseinformation'] = 'Cursusinformatie';
+$string['courselink'] = 'Ga naar cursus';
 $string['coursemisconf'] = 'Cursus is slecht geconfigureerd';
 $string['course_tool_types'] = 'Cursus tooltypes';
 $string['createdon'] = 'Gemaakt op';
@@ -359,6 +366,10 @@ $string['show_in_course_activity_chooser'] = 'Toon in activiteitskiezer als voor
 $string['show_in_course_lti1'] = 'Toon tijdens het maken van activiteiten';
 $string['show_in_course_lti2'] = 'Toon tijdens het maken van activiteiten';
 $string['show_in_course_lti2_help'] = 'Deze tool kan getoond worden in de activiteitenkiezer zodat een leraar die kan kiezen om aan een cursus toe te voegen in een rolmenu voor voorgeconfigureerde tools.';
+<<<<<<< HEAD
+=======
+$string['show_in_course_no'] = 'Niet weergeven, alleen gebruiken overeenkomstige start-URL wordt ingegeven';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['show_in_course_preconfigured'] = 'Toon als voorgeconfigureerde tool wanneer een externe tool toegevoegd wordt.';
 $string['size'] = 'Parameters afmetingen';
 $string['submission'] = 'Inzending';

@@ -155,3 +155,5 @@ $string['update_onlogin'] = 'En cada inici de sessió';
 $string['update_onupdate'] = 'En actualitzar';
 $string['user_activatenotsupportusertype'] = 'auth: l\'user_activate() de l\'ldap no suporta el tipus d\'usuari seleccionat: {$a}';
 $string['user_disablenotsupportusertype'] = 'auth: l\'user_disable() de l\'ldap no admet el tipus d\'usuari seleccionat (...encara)';
+$string['username'] = 'Nom d\'usuari';
+$string['username_help'] = 'Recordeu que alguns connectors d\'autenticació no us permetran canviar el nom d\'usuari.';

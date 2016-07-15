@@ -34,7 +34,15 @@ $string['coursestartdate_help'] = 'Kurse mit einem Startdatum vor dem eingegeben
 $string['disallowedcourses'] = 'Nicht zugelassene Kurse';
 $string['errors'] = 'Fehler';
 $string['excludethese'] = 'Diese ausschließen';
+<<<<<<< HEAD
 $string['findingcoursecompetencies'] = 'Kurskompetenzen suchen';
+=======
+$string['explanation'] = 'Diese Anwendung kann benutzt werden, um einen Kompetenzrahmen zu einer neueren Version zu aktualisieren. Es sucht in Kursen und Aktivitäten nach Kompetenzen , die im alten Kompetenzrahmen aufgelistet waren, und stellt die Links auf den neuen Rahmen um.
+Es wird nicht empfohlen, die alte Liste von Kompetenzen direkt zu bearbeiten, weil das auch alle Kompetenzen verändern würde, die schon in den Lernplänen der Teilnehmer vergeben wurden.
+Üblicherweise wird die neue Version des Kompetenzrahmens importiert, der alte Kompetenzrahmen unsichtbar geschaltet und dann wird diese Anwendung zur Migration der neuen Kurse zu dem neuen Kompetenzen verwendet.';
+$string['findingcoursecompetencies'] = 'Kurskompetenzen suchen';
+$string['findingmodulecompetencies'] = 'Aktivitäts- und Ressourcenaktivitäten suchen';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['frameworks'] = 'Kompetenzrahmen';
 $string['limittothese'] = 'Begrenzen auf';
 $string['lpmigrate:frameworksmigrate'] = 'Kompetenzrahmen migrieren';
@@ -45,6 +53,10 @@ $string['migrateto'] = 'Migrieren nach';
 $string['migratingcourses'] = 'Kurse migrieren';
 $string['missingmappings'] = 'Fehlende Zuordnungen';
 $string['performmigration'] = 'Migration ausführen';
+<<<<<<< HEAD
+=======
+$string['pluginname'] = 'Kompetenzen-Migrationstool';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['results'] = 'Ergebnisse';
 $string['startdatefrom'] = 'Startdatum ab';
 $string['unmappedin'] = 'Keine Zuordnung in {$a}';

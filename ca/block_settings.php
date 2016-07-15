@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['enabledock'] = 'Permet que l\'usuari minimitzi aquest bloc';
-$string['pluginname'] = 'Configuració';
-$string['settings:addinstance'] = 'Afegeix un nou bloc de configuració';
+$string['pluginname'] = 'Administració';
+$string['settings:addinstance'] = 'Afegeix un nou bloc d\'administració';
 $string['settings:myaddinstance'] = 'Afegir un bloc nou de configuració a la pàgina del Tauler';

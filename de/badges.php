@@ -326,7 +326,9 @@ $string['numawards'] = 'Diese Auszeichnung wurde an <a href="{$a->link}">{$a->co
 $string['numawardstat'] = 'Diese Auszeichnung wurde an {$a} Nutzer/innen verliehen.';
 $string['overallcrit'] = 'gewählten Kriterien erfüllt sind.';
 $string['personaconnection'] = 'Melden Sie sich mit Ihrer E-Mail-Adresse an';
-$string['personaconnection_help'] = 'Persona ist ein System, um Nutzeraccounts über verschiedene Anwendungen im Netz hinweg zu verwalten. Dazu wird eine E-Mail-Adresse von Ihnen verwandt. Open Badges Backpack verwendet  Persona zum Login. Um sich mit Backpack zu verbinden wird ein Persona-Account benötigt.';
+$string['personaconnection_help'] = 'Persona ist ein System, um Personen über Websitegrenzen hinaus mit Hilfe deren E-Mail-Adresse zu identifizieren. Open Badges Backpack verwendet Persona zum Login. Um sich mit Backpack zu verbinden müssen Sie einen Persona-Account anlegen.
+
+Weitere Information: <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Mögliche Empfänger/innen';
 $string['preferences'] = 'Einstellungen für Auszeichnungen';
 $string['recipientdetails'] = 'Empfängerdetails';

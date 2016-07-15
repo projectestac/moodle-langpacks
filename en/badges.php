@@ -327,7 +327,7 @@ $string['numawards'] = 'This badge has been issued to <a href="{$a->link}">{$a->
 $string['numawardstat'] = 'This badge has been issued {$a} user(s).';
 $string['overallcrit'] = 'of the selected criteria are complete.';
 $string['personaconnection'] = 'Sign in with your email';
-$string['personaconnection_help'] = 'Persona is a system for identifying yourself across the web, using an email address that you own. The Open Badges backpack uses Persona as a login system, so to be able to connect to a backpack you with need a Persona account.
+$string['personaconnection_help'] = 'Persona is a system for identifying yourself across the web, using an email address that you own. The Open Badges backpack uses Persona as a login system, so to be able to connect to a backpack you will need a Persona account.
 
 For more information about Persona visit <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Potential badge recipients';

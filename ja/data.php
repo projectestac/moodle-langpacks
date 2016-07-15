@@ -52,6 +52,7 @@ $string['availabletags_help'] = 'タグはエントリが編集または閲覧�
 
 現在のテンプレートでは「利用可能なタグ」一覧にあるタグのみ使用することができます。';
 $string['availabletodate'] = '終了日時';
+$string['availabletodatevalidation'] = '終了日時を開始日時の前にすることはできません。';
 $string['blank'] = 'ブランク';
 $string['buttons'] = '操作';
 $string['bynameondate'] = '{$a->date} - {$a->name} の投稿';
@@ -367,6 +368,7 @@ $string['url'] = 'URL';
 $string['usedate'] = '検索に含む';
 $string['usestandard'] = 'プリセットを使用する';
 $string['usestandard_help'] = 'サイト全体でプリセットを使用できるようにするにはリストよりプリセットを選択してください (あなたが「プリセットとして保存する」を使用してライブラリに保存したプリセットは削除することもできます)。';
-$string['viewfromdate'] = '閲覧開始';
-$string['viewtodate'] = '閲覧終了';
+$string['viewfromdate'] = '閲覧開始日時';
+$string['viewtodate'] = '閲覧終了日時';
+$string['viewtodatevalidation'] = '閲覧終了日時を閲覧開始日時の前にすることはできません。';
 $string['wrongdataid'] = '無効なデータIDが提供されました。';

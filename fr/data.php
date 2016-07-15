@@ -52,6 +52,7 @@ Les champs ont le format [[nom_de_champ]]. Toutes les autres balises sont format
 
 Seules les balises dans la liste des « Balises disponibles » peuvent être utilisées dans le modèle actuel.';
 $string['availabletodate'] = 'Disponible jusqu\'au';
+$string['availabletodatevalidation'] = 'La date de fin de disponibilité ne peut pas être antérieure à la date de début de disponibilité.';
 $string['blank'] = 'Vide';
 $string['buttons'] = 'Actions';
 $string['bynameondate'] = 'par {$a->name}, le {$a->date}';
@@ -332,6 +333,7 @@ $string['savesettings'] = 'Enregistrer les réglages';
 $string['savesuccess'] = 'Enregistrement réussi. Votre préréglage est maintenant disponible sur tout le site.';
 $string['savetemplate'] = 'Enregistrer modèle';
 $string['search'] = 'Recherche';
+$string['search:activity'] = 'Base de données – information sur l\'activité';
 $string['selectedrequired'] = 'Toute la sélection requise';
 $string['showall'] = 'Afficher toutes les fiches';
 $string['single'] = 'Affichage fiche';

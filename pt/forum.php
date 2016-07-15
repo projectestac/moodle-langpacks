@@ -315,7 +315,7 @@ $string['modethreaded'] = 'Mostrar respostas em lista contraída';
 $string['modulename'] = 'Fórum';
 $string['modulename_help'] = 'A atividade Fórum permite aos participantes ter discussões em modo assíncrono.
 
-Existem vários tipos de fórum, como o fórum standard onde qualquer participante pode começar uma nova discussão, o fórum onde cada aluno pode colocar apenas um tópico de discussão ou o fórum de pergunta-resposta no qual os alunos devem primeiro responder a um tópico (pergunta) para conseguirem ver as respostas dos colegas. O professor pode optar por permitir que sejam anexados ficheiros às mensagens, cujo conteúdo, quando são imagens, é exibido na própria mensagem.
+Existem vários tipos de fórum, como o fórum standard onde qualquer participante pode começar uma nova discussão, o fórum onde cada aluno pode colocar apenas um tópico de discussão ou o fórum de perguntas e respostas no qual os alunos devem primeiro responder a um tópico (pergunta) para conseguirem ver as respostas dos colegas. O professor pode optar por permitir que sejam anexados ficheiros às mensagens, cujo conteúdo, quando são imagens, é exibido na própria mensagem.
 
 Os participantes podem subscrever um fórum de forma a receber notificações sempre que são submetidas novas mensagens no mesmo. O professor pode configurar a subscrição para o modo opcional, obrigatória ou opcional (ativa ao inicio) ou desativá-la. Se necessário, os alunos podem ser impedidos de inserir mais do que um determinado número de mensagens num determinado período de tempo, no sentido de impedir que alguns alunos dominem as discussões.
 
@@ -423,8 +423,8 @@ $string['processingpost'] = 'A processar a mensagem {$a}';
 $string['prune'] = 'Separar';
 $string['prunedpost'] = 'Foi criado um novo tópico, a partir desta mensagem';
 $string['pruneheading'] = 'Separar esta mensagem e as suas respostas para um novo tópico deste fórum';
-$string['qandaforum'] = 'Fórum de pergunta-resposta';
-$string['qandanotify'] = 'Este é um fórum de pergunta-resposta. Para poder ver as respostas às questões, deverá enviar primeiro a sua própria resposta.';
+$string['qandaforum'] = 'Fórum de perguntas e respostas';
+$string['qandanotify'] = 'Este é um fórum de perguntas e respostas. Para poder ver as respostas às questões, deverá enviar primeiro a sua própria resposta.';
 $string['re'] = 'Re:';
 $string['readtherest'] = 'Ler o resto deste tópico';
 $string['replies'] = 'Respostas';

@@ -164,3 +164,5 @@ $string['update_onlogin'] = 'Bij elke aanmelding';
 $string['update_onupdate'] = 'Bij het updaten';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() ondersteunt het geselecteerde gebruikerstype niet: {$a}';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() ondersteunt het geselecteerde gebruikerstype (nog) niet';
+$string['username'] = 'Gebruikersnaam';
+$string['username_help'] = 'Houd er rekening mee dat sommige authenticatieplugins het niet zullen toestaan om de gebruikersnaam te wijzigen.';

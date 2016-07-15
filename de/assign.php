@@ -120,7 +120,11 @@ $string['currentgrade'] = 'Aktuelle Bewertung';
 $string['cutoffdate'] = 'Letzte Abgabemöglichkeit';
 $string['cutoffdatecolon'] = 'Letzte Abgabemöglichkeit: {$a}';
 $string['cutoffdatefromdatevalidation'] = 'Die letzte Abgabemöglichkeit muss nach dem Abgabebeginn liegen.';
+<<<<<<< HEAD
 $string['cutoffdate_help'] = 'Diese Funktion sperrt die Abgabe von Lösungen ab diesem Termin, sofern das Abgabeende nicht verlängert wird.';
+=======
+$string['cutoffdate_help'] = 'Diese Funktion sperrt die Abgabe von Lösungen ab diesem Termin, sofern keine individuellen Verlängerungen zugelassen wurden.';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['cutoffdatevalidation'] = 'Die letzte Abgabemöglichkeit kann nicht vor dem Fälligkeitsdatum liegen.';
 $string['defaultsettings'] = 'Standardmäßige Voreinstellungen';
 $string['defaultsettings_help'] = 'Diese Einstellungen legen Vorgaben für alle neuen Aufgaben fest.';
@@ -131,7 +135,11 @@ $string['downloadall'] = 'Alle Abgaben herunterladen';
 $string['downloadselectedsubmissions'] = 'Ausgewählte Abgaben herunterladen';
 $string['duedate'] = 'Fälligkeitsdatum';
 $string['duedatecolon'] = 'Fälligkeitsdatum: {$a}';
+<<<<<<< HEAD
 $string['duedate_help'] = 'Zum Fälligkeitsdatum wird die Aufgabe fällig. Wenn spätere Abgaben erlaubt sind, wird jede nach diesem Datum eingereichte Abgabe als verspätet markiert. Um eine Abgabe nach einem bestimmten Verspätungsdatum zu verhindern, kann eine \'Letzte Abgabemöglichkeit\' gesetzt werden.';
+=======
+$string['duedate_help'] = 'Zum Abgabeende wird die Aufgabe fällig. Spätere Abgaben sind weiterhin erlaubt, nachdem das Abgabeende überschritten ist, werden dann aber als verspätet markiert. Um eine Abgabe nach einem bestimmten Verspätungsdatum zu verhindern, kann ein verlängertes Abgabedatum gesetzt werden.';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['duedateno'] = 'Kein Fälligkeitsdatum';
 $string['duedatereached'] = 'Das Fälligkeitsdatum für diese Aufgabe ist vorbei.';
 $string['duedatevalidation'] = 'Das Fälligkeitsdatum muss später als der Abgabebeginn sein.';

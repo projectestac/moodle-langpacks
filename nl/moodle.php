@@ -467,6 +467,10 @@ $string['day'] = 'dag';
 $string['days'] = 'dagen';
 $string['decodinginternallinks'] = 'Interne links decoderen';
 $string['default'] = 'Standaard';
+$string['defaultcompetencescale'] = 'Standaard competentie schaal';
+$string['defaultcompetencescaledesc'] = 'Een binaire beoordelingsschaal die verder geen  informatie verstrekt dan de vraag of iemand die vaardigheid heeft bewezen of niet.';
+$string['defaultcompetencescalenotproficient'] = 'Nog niet competent';
+$string['defaultcompetencescaleproficient'] = 'Competent';
 $string['defaultcoursestudent'] = 'Leerling';
 $string['defaultcoursestudentdescription'] = 'Leerlingen hebben gewoonlijk minder rechten in een cursus';
 $string['defaultcoursestudents'] = 'Leerlingen';
@@ -583,6 +587,12 @@ $string['edittitle'] = 'Bewerk titel';
 $string['edittitleinstructions'] = 'Escape om te annuleren, Enter wanneer je klaar bent';
 $string['edituser'] = 'Wijzig gebruikersaccounts';
 $string['edulevel'] = 'Alle gebeurtenissen';
+<<<<<<< HEAD
+=======
+$string['edulevel_help'] = '* Lesgeven - acties die worden uitgevoerd door een leraar, bijvoorbeeld bijwerken van een bron
+* Deelnemen - acties die worden uitgevoerd door een leerling, bijv. posten in een forum
+* Andere - acties die worden uitgevoerd door een gebruiker met een andere dan leraar of leerling rol';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['edulevelother'] = 'Andere';
 $string['edulevelparticipating'] = 'Deelname';
 $string['edulevelteacher'] = 'Les geven';
@@ -1190,6 +1200,7 @@ $string['never'] = 'Nooit';
 $string['neverdeletelogs'] = 'Verwijder de logs nooit';
 $string['new'] = 'Nieuw';
 $string['newaccount'] = 'Nieuwe account';
+$string['newactivityname'] = 'Nieuwe naam voor de activiteit {$a}';
 $string['newcourse'] = 'Nieuwe cursus';
 $string['newpassword'] = 'Nieuw wachtwoord';
 $string['newpasswordfromlost'] = '<strong>OPMERKING:</strong> Je <strong>huidige wachtwoord</strong> zal je toegestuurd worden in de <strong>tweede</strong> van de twee e-mails die je toegestuurd worden voor het terugkrijgen van je wachtwoord. Zorg er voor dat je je nieuwe wachtwoord gekregen hebt voor je verder gaat met dit scherm.';
@@ -1215,6 +1226,7 @@ Veel succes en met vriendelijke groet,
 {$a->signoff}';
 $string['newpicture'] = 'Nieuwe foto';
 $string['newpicture_help'] = 'Om een nieuwe afbeelding toe te voegen, blader en selecteer je een afbeelding (in JPG- of PNG-formaat), klik dan op "Profiel bijwerken". De afbeelding zal verkleind worden tot een vierkant en herschaald worden naar 100x100 pixels.';
+$string['newsectionname'] = 'Nieuwe naam voor deze sectie {$a}';
 $string['newsitem'] = 'Nieuwsitem';
 $string['newsitems'] = 'Nieuwsitems';
 $string['newsitemsnumber'] = 'Weer te geven nieuwsitems';
@@ -1616,6 +1628,8 @@ $string['selectacourse'] = 'Selecteer een cursus';
 $string['selectacoursesite'] = 'Selecteer een cursus of site';
 $string['selectagroup'] = 'Selecteer een groep';
 $string['selectall'] = 'Selecteer alles';
+$string['selectallusersonpage'] = 'Selecteer alle gebruikers op deze pagina';
+$string['selectalluserswithcount'] = 'Selecteer alle {$a} gebruikers';
 $string['selectamodule'] = 'Kies een activiteitenmodule';
 $string['selectanaction'] = 'Selecteer een actie';
 $string['selectanoptions'] = 'Selecteer een optie';

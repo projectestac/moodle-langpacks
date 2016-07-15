@@ -381,6 +381,7 @@ $string['submissionoutofsequencefriendlymessage'] = 'Je hebt gegevens ingevoerd 
 $string['submit'] = 'Afgeven';
 $string['submitandfinish'] = 'Afgeven en beëindigen';
 $string['submitted'] = 'Afgeven: {$a}';
+$string['tagarea_question'] = 'Vragen';
 $string['technicalinfo'] = 'Technische documentatie';
 $string['technicalinfo_help'] = 'Deze technische informatie is waarschijnlijk enkel nuttig voor ontwikkelaars die aan nieuwe vraagtypes werken. Ze kan ook nuttig zijn om een diagnose te meken bij het oplossen van problemen met vragen.';
 $string['technicalinfomaxfraction'] = 'Maximale fractie: {$a}';

@@ -69,6 +69,8 @@ $string['backup:backuptargetimport'] = 'Inportatzeko segurtasun-kopia egin';
 $string['backup:configure'] = 'Segurtasun-kopiaren aukerak konfiguratu';
 $string['backup:downloadfile'] = 'Fitxategiak segurtasun-kopien eremutik jaitsi';
 $string['backup:userinfo'] = 'Erabiltzaile-datuen segurtasun-kopia';
+$string['badges:configuredetails'] = 'Dominaren xehetasunak konfiguratu/editatu';
+$string['badges:configuremessages'] = 'Dominaren mezuak konfiguratu';
 $string['badges:createbadge'] = 'Dominak sortu/bikoiztu';
 $string['badges:deletebadge'] = 'Dominak ezabatu';
 $string['badges:earnbadge'] = 'Irabazi domina';
@@ -111,6 +113,11 @@ $string['community:download'] = 'Ikastaro bat komunitate-bloketik jaitsi';
 $string['competency:competencygrade'] = 'Ezarri gaitasunen puntuazioa';
 $string['competency:competencymanage'] = 'Kudeatu gaitasun-markoak';
 $string['competency:competencyview'] = 'Ikusi gaitasun-markoak';
+<<<<<<< HEAD
+=======
+$string['competency:coursecompetencymanage'] = 'Kudeatu ikastaroko gaitasunak';
+$string['competency:coursecompetencyview'] = 'Kudeatu ikastaroko gaitasunak';
+>>>>>>> b990e61... Updated langpacks on 2016.07.15
 $string['competency:evidencedelete'] = 'Ezabatu ebidentzia';
 $string['competency:planmanage'] = 'Kudeatu ikasketa-planak';
 $string['competency:templatemanage'] = 'Kudeatu ikasketa-planerako txantiloiak';

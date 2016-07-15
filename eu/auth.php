@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actauthhdr'] = 'Eskura dauden autentifikazio-pluginak';
+$string['allowaccountssameemail'] = 'Baimendu e-posta bera duten kontuak';
 $string['alternatelogin'] = 'Hemen URL bat sartuz gero, gune honetarako sarbide gisa erabiliko da. Orriak formularioa eduki beharko luke, ekintza <strong>\'{$a}\'</strong> ezaugarrian ezarrita duena eta eremu hauek itzultzen dituena: <strong>erabiltzaile-izena</strong> eta <strong>pasahitza</strong>.<br />URL desegokia ez sartzen saia zaitez, hori egiteak gunetik kanpo utziko baitzaitu.<br />Lehenetsitako sarbidea erabiltzeko zuriz utzi, mesedez.';
 $string['alternateloginurl'] = 'Aukerazko sarbiderako URLa';
 $string['auth_changepasswordhelp'] = 'Pasahitza aldatzeko laguntza';
@@ -71,7 +72,7 @@ $string['chooseauthmethod_help'] = '<p align="center"><b>Autentifikazio-metodoa 
 
 <p>Aldaketa okerren bat egiten baduzu, erabiltzailea ezingo da zerbitzarira sartu; kontua erabat ezabatzea ere gerta daiteke. Beraz, aukera hau zer egiten ari zaren ondo badakizu bakarrik erabili.</p>';
 $string['createpassword'] = 'Sortu pasahitza eta jakinarazi erabiltzaileari';
-$string['createpasswordifneeded'] = 'Pasahitza sortu eta postaz bidali, beharrezkoa bada.';
+$string['createpasswordifneeded'] = 'Pasahitza sortu eta postaz bidali, beharrezkoa bada';
 $string['emailchangecancel'] = 'Utzi e-postaren aldaketa';
 $string['emailchangepending'] = 'Egin gabeko aldaketa. Ireki bidalitako esteka hemen {$a->preference_newemail}.';
 $string['emailnowexists'] = 'Zure profilari ezarri nahi diozun e-posta helbidea beste erabiltzaile bat ezarri zaio zuk eskari egin zenuenetik. E-posta helbidea aldatzeko eskaera bertan behera geratu da, beraz; baina, nahi izanez gero beste e-posta helbide batekin egin dezakezu eskaera berria.';
@@ -89,8 +90,9 @@ $string['errormaxconsecutiveidentchars'] = 'Pasahitzak gehienez {$a} karaktere b
 $string['errorminpassworddigits'] = 'Pasahitzak gutxienez {$a} zenbaki izan behar ditu.';
 $string['errorminpasswordlength'] = 'Pasahitzak gutxienez {$a} karaktere izan behar ditu.';
 $string['errorminpasswordlower'] = 'Pasahitzak gutxienez {$a} letra xehe izan behar ditu.';
-$string['errorminpasswordnonalphanum'] = 'Pasahitzak gutxienez {$a} karaktere ez alfa-numeriko izan behar ditu.';
+$string['errorminpasswordnonalphanum'] = 'Pasahitzak gutxienez {$a} karaktere ez alfa-numeriko izan behar ditu, adibidez, *, -, edo #.';
 $string['errorminpasswordupper'] = 'Pasahitzak gutxienez {$a} letra larri izan behar ditu.';
+$string['errorpasswordreused'] = 'Pasahitz hau lehenago erabili da eta ez dago baimenduta berriz erabiltzea';
 $string['errorpasswordupdate'] = 'Errorea pasahitza eguneratzean, pasahitza ez da aldatu';
 $string['eventuserloggedin'] = 'Erabiltzailea hemen sartu da:';
 $string['eventuserloggedinas'] = 'Erabiltzailea beste erabiltzaile bat bezala sartu da';
@@ -108,7 +110,7 @@ $string['infilefield'] = 'Fitxategiko eremu beharrezkoa';
 $string['informminpassworddigits'] = 'gutxienez {$a} digitu';
 $string['informminpasswordlength'] = 'gutxienez {$a} karaktere';
 $string['informminpasswordlower'] = 'gutxienez {$a} letra xehe';
-$string['informminpasswordnonalphanum'] = 'gutxienez {$a} karaktere ez alfa-numeriko';
+$string['informminpasswordnonalphanum'] = 'gutxienez {$a} karaktere ez alfa-numeriko, adibidez, *, -, edo #';
 $string['informminpasswordupper'] = 'gutxienez {$a} letra larri';
 $string['informpasswordpolicy'] = 'Pasahitzak {$a} izan behar du';
 $string['instructions'] = 'Argibideak';
@@ -147,3 +149,4 @@ $string['update_onlogin'] = 'Sarrera bakoitzean';
 $string['update_onupdate'] = 'Eguneratzean';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate()-k ez du onartzen aukeratutako erabiltzaile-mota: {$a}';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable()-k ez du onartzen aukeratutako erabiltzaile-mota (..oraingoz)';
+$string['username'] = 'Erabiltzaile-izena';

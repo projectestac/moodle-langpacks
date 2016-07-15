@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['numberdiscussions'] = 'Nombre de debats';
+$string['numberdiscussions_help'] = 'Aquest paràmetre especifica quants debats s\'han de mostrar.';
 $string['pluginname'] = 'Format social';
 $string['sectionname'] = 'secció';
