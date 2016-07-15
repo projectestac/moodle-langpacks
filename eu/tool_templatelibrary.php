@@ -32,6 +32,7 @@ $string['documentation'] = 'Dokumentazioa';
 $string['example'] = 'Adibidea';
 $string['noresults'] = 'Ez dago emaitzarik';
 $string['notemplateselected'] = 'Ez da txantiloirik aukeratu';
+$string['pluginname'] = 'Txantiloi liburutegia';
 $string['search'] = 'Bilatu';
 $string['searchtemplates'] = 'Bilatu txantiloiak';
 $string['templates'] = 'Txantiloiak';

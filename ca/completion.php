@@ -165,6 +165,7 @@ $string['restoringcompletiondata'] = 'Escrivint les dades de compleció';
 $string['roleaggregation'] = 'La condició requereix que';
 $string['roleaggregation_all'] = 'TOTS els rols seleccionats per a marcar quan la condició es compleix';
 $string['roleaggregation_any'] = 'QUALSEVOL rol seleccionat per a marcar quan la condició es compleix';
+$string['roleidnotfound'] = 'No s\'ha trobat el rol amb ID {$a}';
 $string['saved'] = 'Desat';
 $string['seedetails'] = 'Visualitza detalls';
 $string['self'] = 'Auto';

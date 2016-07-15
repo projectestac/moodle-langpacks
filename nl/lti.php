@@ -36,15 +36,18 @@ $string['accept_grades_help'] = 'Specifieer of de tool provider cijfers die geas
 
 Sommige tool providers ondersteunen de mogelijkheid om cijfers terug te rapporteren aan Moodle op basis van acties ondernomen binnen de tool, waardoor een meer integrale ervaring wordt gecreëerd.';
 $string['action'] = 'Actie';
+$string['activate'] = 'Activeer';
+$string['activatetoadddescription'] = 'Je moet deze tool activeren voor je een beschrijving kan toevoegen.';
 $string['active'] = 'Actief';
 $string['activity'] = 'Activiteit';
 $string['addnewapp'] = 'Schakel de externe applicatie in';
 $string['addserver'] = 'Voeg een vertrouwde server toe';
-$string['addtype'] = 'Voeg externe tool configuratie toe';
+$string['addtype'] = 'Voeg voorgeconfigureerde tool toe';
 $string['allow'] = 'Sta toe';
 $string['allowinstructorcustom'] = 'Sta leraren toe om eigen parameters toe te voegen';
 $string['allowsetting'] = 'Sta de tool toe om 8K aan instellingen in Moodle te bewaren';
 $string['always'] = 'Altijd';
+$string['autoaddtype'] = 'Tool toevoegen';
 $string['automatic'] = 'Automatisch, gebaseerd op de Launch URL';
 $string['baseurl'] = 'Basis URL/tool registratienaam';
 $string['basiclti'] = 'LTI';
@@ -63,6 +66,7 @@ $string['cannot_delete'] = 'Je mag deze tool configuratie niet verwijderen.';
 $string['cannot_edit'] = 'Je mag deze toolconfiguratie niet bewerken.';
 $string['capabilities'] = 'Mogelijkheden';
 $string['capabilities_help'] = 'Kies de mogelijkheden die je wil aanbieden aan de tool provider. Er kan meer dan één mogelijkheid geselecteerd worden.';
+$string['capabilitiesrequired'] = 'Deze tool vereist toegang tot de volgende gegevens om te activeren:';
 $string['click_to_continue'] = '<a href="{$a->link}" target="_top">Klik om verder te gaan</a>';
 $string['comment'] = 'Opmerking';
 $string['configpassword'] = 'Standaard externe tool wachtwoord';
@@ -73,7 +77,11 @@ $string['configresourceurl'] = 'Standaard bron URL';
 $string['configtoolurl'] = 'Standaard externe tool URL';
 $string['configtypes'] = 'LTI applicaties inschakelen';
 $string['configured'] = 'Geconfigureerd';
+$string['confirmtoolactivation'] = 'Bent je er zeker van dat je deze tool wilt activeren?';
+$string['courseactivitiesorresources'] = 'Cursusactiviteiten en bronnen';
 $string['courseid'] = 'Cursus ID nummer';
+$string['courseinformation'] = 'Cursusinformatie';
+$string['courselink'] = 'Ga naar cursus';
 $string['coursemisconf'] = 'Cursus is slecht geconfigureerd';
 $string['course_tool_types'] = 'Cursus tooltypes';
 $string['createdon'] = 'Gemaakt op';
@@ -116,15 +124,17 @@ $string['donot'] = 'Verstuur dit niet';
 $string['donotaccept'] = 'Aanvaard dit niet';
 $string['donotallow'] = 'Sta dit niet toe';
 $string['duplicateregurl'] = 'De registratie-URL is al in gebruik';
-$string['edittype'] = 'Bewerk de externe tool configuratie';
+$string['editdescription'] = 'Klik hier om deze tool een beschijving te geven';
+$string['edittype'] = 'Bewerk voorgeconfigureerde tool';
 $string['embed'] = 'Embed';
 $string['embed_no_blocks'] = 'Embed, zonder blokken';
 $string['enableemailnotification'] = 'Verstuur e-mails met meldingen';
 $string['enableemailnotification_help'] = 'Indien ingeschakeld, zullen de studenten een e-mailmelding ontvangen wanneer hun tool opdrachten beoordeeld werden.';
+$string['errorbadurl'] = 'URL is geen geldige tool URL of cartridge';
 $string['errormisconfig'] = 'Fout geconfigureerde tool. Vraag uw Moodle beheerder om de configuratie van de tool te wijzigen.';
 $string['existing_window'] = 'Bestaand venster';
 $string['extensions'] = 'LTI extensie services';
-$string['external_tool_type'] = 'Externe tool type';
+$string['external_tool_type'] = 'Voorgeconfigureerde tool';
 $string['external_tool_type_help'] = 'De configuratie van een tool heeft als hoofddoel het opzetten van een veilig communicatiekanaal tussen Moodle en de tool provider. Het biedt ook de mogelijkheid tot het instellen van standaardconfiguraties of van aanvullende services die door de tool worden geleverd.
 
 * **Automatisch, gebaseerd op de URL van lancering** - Dit is in bijna alle gevallen de meest aangewezen instelling. Moodle zal de meest geschikte tool configuratie selecteren, gebaseerd op de URL van lancering. Tools die geconfigureerd werden zowel door een administrator als binnen deze cursus zullen worden gebruikt. Wanneer de URL van lancering gespecifieerd is, zal Moodle feedback geven of het deze herkent ja of nee. Indien Moodle de URL van lancering niet herkent, zul je de details van de tool configuratie manueel moeten invoeren.
@@ -140,8 +150,10 @@ Er zijn drie icoontjes beschikbaar in de externe tool type dropdown lijst:
 * **Toevoegen** - Maak een tool configuratie aan op cursus niveau. Alle externe toolexemplaren in deze cursus kunnen de tool configuratie gebruiken.
 * **Bewerken** - Selecteer een tool type op cursus niveau in de dropdown, en klik dan op dit icoontje. De details van de tool configuratie kunnen worden bewerkt.
 * **Verwijderen** - Verwijder het geselecteerde tool type op cursus niveau.';
-$string['external_tool_types'] = 'Externe tool types';
+$string['external_tool_types'] = 'Voorgeconfigureerde tools';
 $string['failedtoconnect'] = 'Moodle was niet in staat om te communiceren met het "{$a}" systeem';
+$string['failedtocreatetooltype'] = 'Nieuwe tool maken mislukt. Controleer de url en probeer opnieuw';
+$string['failedtodeletetoolproxy'] = 'Toolregistratie verwijderen mislukt. Bezoek de "Beheer externe toolregistraties" en verwijder het manueel.';
 $string['filter_basiclti_configlink'] = 'Configureer je favoriete sites en hun wachtwoorden';
 $string['filter_basiclti_password'] = 'Wachtwoord is verplicht';
 $string['filterconfig'] = 'LTI administratie';
@@ -158,7 +170,7 @@ Bijkomend zullen ook alle web service verzoeken van de tool provider gebruik mak
 
 Indien je voor deze optie kiest, ga dan eerst na of de Moodle site en de tool provider SSL ondersteunen.';
 $string['generaltool'] = 'Algemene tool';
-$string['global_tool_types'] = 'Tool types op server niveau';
+$string['global_tool_types'] = 'Globale voorgeconfigureerde tools';
 $string['grading'] = 'Cijferlijst routing';
 $string['icon_url'] = 'URL icoontje';
 $string['icon_url_help'] = 'Deze icoon-URL maakt het mogelijk om het icoontje dat deze activiteit aanduidt in de cursuslijst te wijzigen. In plaats van gebruik te maken van het standaard LTI icoon, kan een icoontje worden gespecifieerd dat het type activiteit aanduidt.';
@@ -175,14 +187,15 @@ $string['launchinpopup_help'] = 'De container voor lancering beïnvloedt de wijz
 * **Nieuw venster** - De tool opent in een nieuw venster, waar het alle beschikbare ruimte inneemt.
 Afhankelijk van de browser zal het openen in een nieuwe tab of in een pop-up venster. Het is mogelijk dat de browser het openen van een nieuw venster verhindert.';
 $string['launchoptions'] = 'Opties voor lancering';
-$string['launch_url'] = 'URL voor lancering';
+$string['launch_url'] = 'Start/cartridge URL';
 $string['launch_url_help'] = 'De URL van lancering geeft het webadres aan van de externe tool, en kan ook bijkomende informatie bevatten, zoals de te tonen bron. Als je niet zeker bent welke URL van lancering je moet invoeren, contacteer dan de tool provider voor meer informatie.
 
 Indien je een specifiek tool type hebt gekozen, kan het onnodig zijn om een URL van lancering in te geven. Dit is meestal het geval wanneer de tool link enkel wordt gebruikt voor lancering in het systeem van de tool provider, en niet gaat naar een specifieke bron.';
+$string['leaveblank'] = 'Laat leeg als je ze niet nodig hebt';
 $string['lti'] = 'LTI';
 $string['lti:addcoursetool'] = 'Voeg cursusspecifieke tool-configuraties toe';
 $string['lti:addinstance'] = 'Voeg nieuwe externe tool-activiteiten toe';
-$string['lti_administration'] = 'LTI administratie';
+$string['lti_administration'] = 'Bewerk voorgeconfigureerde tool';
 $string['lti_errormsg'] = 'De tool zond de volgende foutmelding terug: "{$a}"';
 $string['lti:grade'] = 'Bekijk cijfers die door de externe tool gegeven zijn';
 $string['lti_launch_error'] = 'Er is een fout opgetreden bij het starten van de externe tool:';
@@ -209,8 +222,10 @@ Indien een consumentensleutel en gedeeld geheim worden ingevoerd, ontstaat er ee
 * **In behandeling** - Deze tool providers werden aangebracht via een package invoer, maar werden nog niet geconfigureerd door de beheerder.
 Leraars kunnen toch gebruik maken van de tools van deze providers indien ze in het bezit zijn van een consumentensleuten en gedeeld geheim, of indien deze niet worden vereist.
 * **Afgekeurd** - Deze zijn gevlagd als tool providers die de beheerder niet wenst beschikbaar te maken voor de volledige Moodle instantie. Leraars kunnen toch gebruik maken van de tools van deze providers indien ze in het bezit zijn van een consumentensleuten en gedeeld geheim, of indien deze niet worden vereist.';
+$string['manage_external_tools'] = 'Beheer tools';
 $string['manage_tool_proxies'] = 'Beheer externet tool registraties';
-$string['manage_tools'] = 'Beheer externe tool types';
+$string['manage_tools'] = 'Beheer voorgeconfigureerde tools';
+$string['manuallyaddtype'] = 'Je kunt ook <a href="{$a}">een tool manueel configureren</a>.';
 $string['miscellaneous'] = 'Divers';
 $string['misconfiguredtools'] = 'Er werden fout geconfigureerde tool-exemplaren aangetroffen';
 $string['missingparameterserror'] = 'Deze pagina is fout geconfigureerd: "{$a}"';
@@ -235,6 +250,7 @@ $string['no_lti_configured'] = 'Er zijn geen actieve externe tools geconfigureer
 $string['no_lti_pending'] = 'Er zijn geen externe tools in behandeling.';
 $string['no_lti_rejected'] = 'Er zijn geen externe tools verworpen.';
 $string['noltis'] = 'Er zijn geen LTI-exemplaren.';
+$string['no_lti_tools'] = 'Er zijn geen externe tools geconfigureerd.';
 $string['noprofileservice'] = 'Profielservice niet gevonden';
 $string['noservers'] = 'Er werden geen servers aangetroffen.';
 $string['no_tp_accepted'] = 'Er zijn geen aanvaarde externe tool registraties.';
@@ -271,8 +287,8 @@ Het gedeeld geheim kan beschouwd worden als een paswoord dat de toegang tot de t
 
 Voor tools die geen beveiligde communicatie met Moodle vereisen en die geen bijkomende diensten verstrekken (zoals rapportering van cijfers) heb je vermoedelijk geen gedeeld geheim nodig.';
 $string['pending'] = 'In behandeling';
-$string['pluginadministration'] = 'LTI-beheer';
-$string['pluginname'] = 'LTI';
+$string['pluginadministration'] = 'Externe toolbeheer';
+$string['pluginname'] = 'Externe tool';
 $string['preferheight'] = 'Voorkeurhoogte';
 $string['preferwidget'] = 'Verkies lancering van widget';
 $string['preferwidth'] = 'Voorkeurbreedte';
@@ -311,6 +327,7 @@ Voor tools die geen beveiligde communicatie met Moodle vereisen en die geen bijk
 $string['resourceurl'] = 'Bron-URL';
 $string['return_to_course'] = 'Klik op <a href="{$a->link}" target="_top">hier</a> om terug naar de cursus te keren.';
 $string['saveallfeedback'] = 'Bewaar al mijn feedback';
+$string['search:activity'] = 'Externe tool - activiteitsinformatie';
 $string['secure_icon_url'] = 'URL voor beveiligd icoontje';
 $string['secure_icon_url_help'] = 'Zoals het icoonURL, maar gebruikt als de gebruiker veilg Moodle bezoekt via SSL. Hoofdbedoeling hiervan is om te verhinderen dat de browser de gebruiker waarschuwt dat de onderliggende pagina via SSL opgevraagd is, maar een onbeveiligde afbeelding opvraagt.';
 $string['secure_launch_url'] = 'URL voor beveiligde lancering';
@@ -342,6 +359,12 @@ $string['share_roster_admin'] = 'De tool heeft toegang tot de deelnemerslijst va
 $string['share_roster_admin_help'] = 'Geef op of de tool de gebruikerslijs kan opvragen van gebruikers die aangemeld zijn in cursussen vanwaar dit tooltype wordt gestart.';
 $string['share_roster_help'] = 'Geef op of de tool de gebruikerslijst kan opvragen van gebruikers die aangemeld zijn in deze cursus.
 Merk op dat deze instelling overschreven kan worden in de tool-configuratie.';
+$string['show_in_course_activity_chooser'] = 'Toon in activiteitskiezer als voorgeconfigureerde tool';
+$string['show_in_course_lti1'] = 'Toon tijdens het maken van activiteiten';
+$string['show_in_course_lti2'] = 'Toon tijdens het maken van activiteiten';
+$string['show_in_course_lti2_help'] = 'Deze tool kan getoond worden in de activiteitenkiezer zodat een leraar die kan kiezen om aan een cursus toe te voegen in een rolmenu voor voorgeconfigureerde tools.';
+$string['show_in_course_no'] = 'Niet weergeven, alleen gebruiken overeenkomstige start-URL wordt ingegeven';
+$string['show_in_course_preconfigured'] = 'Toon als voorgeconfigureerde tool wanneer een externe tool toegevoegd wordt.';
 $string['size'] = 'Parameters afmetingen';
 $string['submission'] = 'Inzending';
 $string['submissions'] = 'Inzendingen';
@@ -352,8 +375,14 @@ $string['subplugintype_ltiservice'] = 'LTI dienst';
 $string['subplugintype_ltiservice_plural'] = 'LTI diensten';
 $string['subplugintype_ltisource'] = 'LTI bron';
 $string['subplugintype_ltisource_plural'] = 'LTI bronnen';
+$string['successfullycreatedtooltype'] = 'Nieuwe tool met succes aangemaakt!';
 $string['toggle_debug_data'] = 'Debug-data aan-/uitschakelen';
 $string['tool_config_not_found'] = 'Tool-configuratie niet gevonden voor deze URL';
+$string['tooldescription'] = 'Toolbeschrijving';
+$string['tooldescription_help'] = 'De beschrijving van de tool zal aan leraren getoond worden in de activiteitenlijst.
+Die zou moeten beschrijven waarvoor de tool dient, wat het doet en alle andere bijkomende informatie die een leraar zou kunnen nodig hebben.';
+$string['toolisbeingused'] = 'Deze tool is {$a} keer gebruikt';
+$string['toolisnotbeingused'] = 'Deze tool is nog niet gebruikt';
 $string['toolproxy'] = 'Externe tool registraties';
 $string['toolproxy_help'] = 'Met Externe Tool-registraties kunnen Moodle site-beheerders externe tools configureren van een tool proxy die je krijgt van een provider die LTI 2.0 ondersteunt. Een registratie-URL die je van de tool-provider krijgt is het het enige wat je nodig hebt om het proces te starten. De mogelijkheden en diensten die aan de tool-provider aangeboden worden, worden geselecteerd tijdens het configureren van een nieuwe registratie.
 
@@ -367,7 +396,12 @@ $string['toolproxyregistration'] = 'Externe tool registratie';
 $string['toolregistration'] = 'Externe tool registratie';
 $string['tool_settings'] = 'Tool instellingen';
 $string['toolsetup'] = 'Configuratie externe tool';
-$string['toolurl'] = 'Tool basis URL';
+$string['tooltypeadded'] = 'Voorgeconfigureerde tool toegevoegd';
+$string['tooltypedeleted'] = 'Voorgeconfigureerde tool verwijderd';
+$string['tooltypenotdeleted'] = 'Kon voorgeconfigureerde tool niet verwijderen';
+$string['tooltypes'] = 'Tools';
+$string['tooltypeupdated'] = 'Voorgeconfigureerde tool aangepast';
+$string['toolurl'] = 'Tool basis URL/cartridge URL';
 $string['toolurl_help'] = 'De basis-URL van de tool wordt gebruikt om de juiste tool start URL\'s te koppelen aan de juiste tool configuratie. Het voorvoegsel http(s) in de URL is optioneel.
 
 Bijkomend wordt de basis URL gebruikt als start URL als er geen start URL is opgegeven in de configuratie van de externe tool.
@@ -391,10 +425,17 @@ Een basis-URL als  *quiz.tool.com* zou met het volgende overeenkomen:
 * quiz.tool.com/take.php?id=10
 
 Als er twee verschillende tool-configuraties voor hetzelfde domein zijn, dan zal de best passende gebruikt worden.';
+$string['toolurlplaceholder'] = 'Tool URL...';
 $string['typename'] = 'Tool-naam';
 $string['typename_help'] = 'De tool-naam wordt gebruikt om de tool-provider te identificeren binnen Moodle. De gegeven naam zal zichtbaar zijn voor leraren wanneer ze externe tool toevoegen aan cursussen.';
 $string['types'] = 'Types';
+$string['unabletocreatetooltype'] = 'Kon tool niet maken';
+$string['unabletofindtooltype'] = 'Kon tool niet vinden voor {$a->id}';
+$string['unknownstate'] = 'Onbekende status';
 $string['update'] = 'Update';
+$string['useraccountinformation'] = 'Informatie gebruikersaccount';
+$string['userpersonalinformation'] = 'Persoonlijke gebruikersinformatie';
+$string['using_tool_cartridge'] = 'Tool cartridge gebruiken';
 $string['using_tool_configuration'] = 'Tool configuratie gebruiken:';
 $string['validurl'] = 'Een geldige URL moet beginnen met http(s):';
 $string['viewsubmissions'] = 'Bekijk inzendingen en beoordelingsscherm';

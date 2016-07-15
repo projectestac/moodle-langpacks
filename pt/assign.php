@@ -255,7 +255,7 @@ $string['markingallocation'] = 'Usar atribuição de avaliador';
 $string['markingallocation_help'] = 'Se ativar esta opção, os avaliadores podem ser atribuídos a determinados alunos - requer ativação do processo de avaliação.';
 $string['markingworkflow'] = 'Usar processo de avaliação';
 $string['markingworkflow_help'] = 'Se ativar esta opção, as notas irão passar por diversos estados do  processo de avaliação antes de serem lançadas para os alunos. Isto permite efetuar várias rondas de avaliação e permite que as notas sejam lançadas para todos os alunos ao mesmo tempo.';
-$string['markingworkflowstate'] = 'Estado do  processo de avaliação';
+$string['markingworkflowstate'] = 'Estado do processo de avaliação';
 $string['markingworkflowstate_help'] = 'Os estados do processo de avaliação poderão incluir as seguintes opções (dependendo das suas permissões de utilizador):
 
 - Não avaliado: o avaliador ainda não iniciou a avaliação;
@@ -351,7 +351,7 @@ $string['savegradingresult'] = 'Nota';
 $string['savenext'] = 'Guardar e mostrar próximo';
 $string['savingchanges'] = 'A gravar alterações...';
 $string['scale'] = 'Escala';
-$string['search:activity'] = 'Trabalho - Informações sobre a atividade';
+$string['search:activity'] = 'Trabalho - informações da atividade';
 $string['selectedusers'] = 'Utilizadores selecionados';
 $string['selectlink'] = 'Selecionar…';
 $string['selectuser'] = 'Selecione {$a}';
@@ -367,8 +367,8 @@ $string['sendsubmissionreceipts'] = 'Notificar submissão do trabalho ao aluno';
 $string['sendsubmissionreceipts_help'] = 'Se ativo os alunos receberão notificações de submissão do trabalho. Receberão uma notificação sempre que submeterem um trabalho.';
 $string['setmarkerallocationforlog'] = 'Definir atribuição de avaliador: (id={$a->id}, nome completo={$a->fullname}, avaliador={$a->marker}).';
 $string['setmarkingallocation'] = 'Definir avaliador atribuído';
-$string['setmarkingworkflowstate'] = 'Definir estado do  processo de avaliação';
-$string['setmarkingworkflowstateforlog'] = 'Definir estado do  processo de avaliação: (id={$a->id}, nome completo={$a->fullname}, estado={$a->state}).';
+$string['setmarkingworkflowstate'] = 'Definir estado do processo de avaliação';
+$string['setmarkingworkflowstateforlog'] = 'Definir estado do processo de avaliação: (id={$a->id}, nome completo={$a->fullname}, estado={$a->state}).';
 $string['settings'] = 'Configurações do trabalho';
 $string['showrecentsubmissions'] = 'Mostrar submissões recentes';
 $string['status'] = 'Estado';

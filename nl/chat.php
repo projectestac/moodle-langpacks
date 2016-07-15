@@ -124,6 +124,7 @@ $string['repeattimes'] = 'Herhaal/publiceer  chatsessiemomenten';
 $string['repeatweekly'] = 'Elke week om dezelfde tijd';
 $string['saidto'] = 'zei tegen';
 $string['savemessages'] = 'Bewaar voorbije chatsessies';
+$string['search:activity'] = 'Chat - activiteitsinformatie';
 $string['seesession'] = 'Bekijk deze sessie';
 $string['send'] = 'Stuur';
 $string['sending'] = 'Versturen';

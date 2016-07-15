@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['attemptsallowedn'] = 'المحاولات المسموح بها: {$a}';
-$string['pluginname'] = 'قاعدة عدد محاولات الوصول للامتحان';
+$string['pluginname'] = 'قاعدة عدد محاولات الوصول للاختبار';

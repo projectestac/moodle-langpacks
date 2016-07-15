@@ -272,7 +272,7 @@ $string['generalforums'] = 'Fóruns gerais';
 $string['hiddenforumpost'] = 'Tópico do fórum oculto';
 $string['inforum'] = 'em {$a}';
 $string['introblog'] = 'As mensagens neste fórum foram copiadas automaticamente de blogues de utilizadores desta disciplina e já não se encontram disponíveis';
-$string['intronews'] = 'Notícias gerais e avisos';
+$string['intronews'] = 'Notícias gerais e anúncios';
 $string['introsocial'] = 'Um fórum aberto para conversar sobre qualquer assunto';
 $string['introteacher'] = 'Um fórum reservado aos professores';
 $string['invalidaccess'] = 'Esta página não foi acedida corretamente';
@@ -315,7 +315,7 @@ $string['modethreaded'] = 'Mostrar respostas em lista contraída';
 $string['modulename'] = 'Fórum';
 $string['modulename_help'] = 'A atividade Fórum permite aos participantes ter discussões em modo assíncrono.
 
-Existem vários tipos de fórum, como o fórum standard onde qualquer participante pode começar uma nova discussão, o fórum onde cada aluno pode colocar apenas um tópico de discussão ou o fórum de pergunta-resposta no qual os alunos devem primeiro responder a um tópico (pergunta) para conseguirem ver as respostas dos colegas. O professor pode optar por permitir que sejam anexados ficheiros às mensagens, cujo conteúdo, quando são imagens, é exibido na própria mensagem.
+Existem vários tipos de fórum, como o fórum standard onde qualquer participante pode começar uma nova discussão, o fórum onde cada aluno pode colocar apenas um tópico de discussão ou o fórum de perguntas e respostas no qual os alunos devem primeiro responder a um tópico (pergunta) para conseguirem ver as respostas dos colegas. O professor pode optar por permitir que sejam anexados ficheiros às mensagens, cujo conteúdo, quando são imagens, é exibido na própria mensagem.
 
 Os participantes podem subscrever um fórum de forma a receber notificações sempre que são submetidas novas mensagens no mesmo. O professor pode configurar a subscrição para o modo opcional, obrigatória ou opcional (ativa ao inicio) ou desativá-la. Se necessário, os alunos podem ser impedidos de inserir mais do que um determinado número de mensagens num determinado período de tempo, no sentido de impedir que alguns alunos dominem as discussões.
 
@@ -324,7 +324,7 @@ As mensagens podem ser avaliadas por professores ou alunos (avaliação pelos pa
 Os fóruns podem ser utilizados com várias finalidades, tais como:
 
 * Espaço introdutório para possibilitar que os alunos se conheçam;
-* Local para divulgar informação relativa à disciplina (usando o fórum notícias, que tem subscrição obrigatória);
+* Local para divulgar informação relativa à disciplina (usando o fórum de anúncios, que tem subscrição obrigatória);
 * Um meio de ajuda, onde professores e alunos podem dar conselhos;
 * Um método informal de partilha de documentos entre alunos;
 * Para continuar a discussão de um assunto iniciado presencialmente na sala de aula;
@@ -340,8 +340,8 @@ $string['mustprovidediscussionorpost'] = 'Precisa de fornecer o ID de discussão
 $string['myprofileotherdis'] = 'Tópicos de discussão';
 $string['myprofileowndis'] = 'Os meus tópicos de discussão';
 $string['myprofileownpost'] = 'As minhas mensagens em fóruns';
-$string['namenews'] = 'Fórum de Notícias';
-$string['namenews_help'] = 'O Fórum de Notícias é um fórum especial, criado automaticamente aquando da criação da disciplina. Apenas pode existir um Fórum Notícias por disciplina e apenas os utilizadores com papel de professor e administrador têm permissões para publicar tópicos de discussão neste fórum. O bloco "Últimas Noticias" exibe os últimos tópicos adicionados ao Fórum Notícias.';
+$string['namenews'] = 'Anúncios';
+$string['namenews_help'] = 'O Fórum de Anúncios da disciplina é um fórum especial, criado automaticamente aquando da criação da disciplina. Apenas pode existir um Fórum de Anúncios por disciplina e apenas os utilizadores com papel de professor e administrador têm permissões para publicar tópicos de discussão neste fórum. O bloco "Últimos Anúncios" exibe os últimos tópicos adicionados ao Fórum de Anúncios.';
 $string['namesocial'] = 'Fórum social';
 $string['nameteacher'] = 'Fórum de professores';
 $string['newforumposts'] = 'Novas mensagens no fórum';
@@ -423,8 +423,8 @@ $string['processingpost'] = 'A processar a mensagem {$a}';
 $string['prune'] = 'Separar';
 $string['prunedpost'] = 'Foi criado um novo tópico, a partir desta mensagem';
 $string['pruneheading'] = 'Separar esta mensagem e as suas respostas para um novo tópico deste fórum';
-$string['qandaforum'] = 'Fórum de pergunta-resposta';
-$string['qandanotify'] = 'Este é um fórum de pergunta-resposta. Para poder ver as respostas às questões, deverá enviar primeiro a sua própria resposta.';
+$string['qandaforum'] = 'Fórum de perguntas e respostas';
+$string['qandanotify'] = 'Este é um fórum de perguntas e respostas. Para poder ver as respostas às questões, deverá enviar primeiro a sua própria resposta.';
 $string['re'] = 'Re:';
 $string['readtherest'] = 'Ler o resto deste tópico';
 $string['replies'] = 'Respostas';

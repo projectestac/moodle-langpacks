@@ -50,6 +50,7 @@ $string['choice:readresponses'] = 'Antworten anzeigen';
 $string['choicesaved'] = 'Ihre Auswahl wurde gespeichert';
 $string['choicetext'] = 'Abstimmungstext';
 $string['chooseaction'] = 'Aktion auswählen...';
+$string['closebeforeopen'] = 'Das Enddatum kann nicht vor dem Startdatum liegen.';
 $string['completionsubmit'] = 'Als abgeschlossen anzeigen, wenn die Abstimmung durchgeführt wurde
  ';
 $string['description'] = 'Beschreibung';

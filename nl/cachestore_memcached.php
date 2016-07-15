@@ -45,6 +45,7 @@ $string['hash_help'] = 'Bepaalt het versleutelalgoritme dat gebruikt wordt voor 
 $string['hash_hsieh'] = 'Hsieh';
 $string['hash_md5'] = 'MD5';
 $string['hash_murmur'] = 'Murmur';
+$string['isshared'] = 'Gedeelde cache';
 $string['pluginname'] = 'Memcached';
 $string['prefix'] = 'Prefix sleutel';
 $string['prefix_help'] = 'Dit kan gebruikt worden om een "domein" voor je itemsleutels te zetten, waardoor je meerdere memcached opslagruimten op één enkele memcached installatie kan maken. Dit kan niet langer dan 16 tekens zijn om te verzekeren dat sleutellengtes geen problemen gaan veroorzaken.';

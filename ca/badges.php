@@ -101,7 +101,7 @@ $string['badgeprivacysetting_help'] = 'Les insígnies que guanyeu es poden mostr
 Encara podeu controlar la configuració de privacitat d\'una insígnia individual a la vostra pàgina "Les meues insígnies".';
 $string['badgeprivacysetting_str'] = 'Mostra automàticament les insígnies que guanye a la meva pàgina de perfil';
 $string['badges'] = 'Insígnies';
-$string['badgesalt'] = 'Sal per a la funció resum aplicada a l\'adreça de correu electrònic del destinatari';
+$string['badgesalt'] = 'Sal per a la funció resum que s\'aplica a l\'adreça de correu electrònic del destinatari';
 $string['badgesalt_desc'] = 'Utilitzar una funció resum (hash) permet als serveis motxilla confirmar qui ha guanyat la insígnia sense haver de revelar la seva adreça de correu electrònic. Aquest paràmetre només hauria d\'utilitzar números i lletres.
 
 Nota: Per tal de poder verificar els receptors, eviteu de canviar aquest paràmetre una vegada hàgiu començat a repartir insígnies.';
@@ -216,11 +216,12 @@ $string['error:backpackproblem'] = 'Hi ha hagut un problema en connectar amb el 
 $string['error:badjson'] = 'L\'intent de connexió ha retornat dades invàlides.';
 $string['error:cannotact'] = 'No es pot activar la insígnia.';
 $string['error:cannotawardbadge'] = 'No es pot concedir la insígnia a un usuari.';
+$string['error:cannotdeletecriterion'] = 'Aquest criteri no es pot eliminar.';
 $string['error:clone'] = 'No es pot duplicar la insígnia.';
 $string['error:connectionunknownreason'] = 'La connexió no ha prosperat, però no s\'ha donat cap raó.';
 $string['error:duplicatename'] = 'Ja existeix al sistema una insígnia amb el mateix nom.';
 $string['error:externalbadgedoesntexist'] = 'No s\'ha trobat la insígnia';
-$string['error:guestuseraccess'] = 'Esteu utilitzant l\'accés de visitants. Per veure les insígnies cal que entreu amb el vostre compte d\'usuari/ària.';
+$string['error:guestuseraccess'] = 'Esteu utilitzant l\'accés de visitants. Per veure les insígnies cal que entreu amb el vostre compte d\'usuari.';
 $string['error:invalidbadgeurl'] = 'El format d\'URL de l\'emissor de la insígnia no és vàlid.';
 $string['error:invalidcriteriatype'] = 'Tipus de criteri invàlid.';
 $string['error:invalidexpiredate'] = 'La data de caducitat ha d\'estar en el futur.';
@@ -279,7 +280,9 @@ $string['makeprivate'] = 'Fes privada';
 $string['makepublic'] = 'Fes pública';
 $string['managebadges'] = 'Gestiona insígnies';
 $string['message'] = 'Cos del missatge';
-$string['messagebody'] = '<p> Heu guanyat una insígnia "%badgename%"! </p><p> Podeu trobar més informació sobre aquesta insígnia en %badgelink%. </p><p> Si no hi ha una insígnia adjunta a aquest correu electrònic, podeu gestionar-la i descarregar-la des de la pàgina {$a}. </p>';
+$string['messagebody'] = '<p>Heu guanyat una insígnia "%badgename%"! </p>
+<p>Podeu trobar més informació sobre aquesta insígnia a la pàgina %badgelink%. /p>
+<p>Podeu gestionar i descarregar la insígnia des de la vostra pàgina {$a}.</p>';
 $string['messagesubject'] = 'Enhorabona! Heu guanyat una insígnia!';
 $string['method'] = 'Aquest criteri es completa quan...';
 $string['mingrade'] = 'Qualificació mínima requerida';
@@ -320,6 +323,7 @@ $string['personaconnection_help'] = 'Persona és un sistema per identificar-vos 
 
 Per a més informació sobre Persona, visiteu <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Receptors potencials de la insígnia';
+$string['preferences'] = 'Preferències de les insígnies';
 $string['recipientdetails'] = 'Detalls del receptor';
 $string['recipientidentificationproblem'] = 'No s\'ha trobat cap receptor d\'aquesta insígnia entre els usuaris existents.';
 $string['recipients'] = 'Receptors de la insígnia';
@@ -327,7 +331,13 @@ $string['recipientvalidationproblem'] = 'L\'usuari actual no pot ser verificat c
 $string['relative'] = 'Data relativa';
 $string['requiredcourse'] = 'Heu d\'afegir almenys un curs al criteri de configuració del curs';
 $string['reviewbadge'] = 'Canvis en l\'accés a la insígnia';
-$string['reviewconfirm'] = '<p> Aquesta acció realitzarà una comprovació de si qualsevol dels usuaris ja ha completat tots els requisits per a la \'{$a}\' insígnia? </p><p> Voleu continuar? </p>';
+$string['reviewconfirm'] = '<p> Això farà la vostra insígnia visible per als usuaris i els permet començar a guanyar-la. </p>
+
+<p> És possible que alguns usuaris ja compleixin amb els criteris d\'aquesta insígnia i l\'obtinguin immediatament després que s\'activi. </p>
+
+<p> Una vegada que una insígnia ha estat aconseguida serà <strong> bloquejada </strong> - Certs ajustos incloent els criteris i les opcions de caducitat ja no podran ser canviats </p>
+
+<p> Esteu segur que voleu habilitar l\'accés a la insígnia «{$a}»? </p>';
 $string['save'] = 'Desa';
 $string['searchname'] = 'Cerca per nom';
 $string['selectaward'] = 'Seleccioneu el rol que voleu utilitzar per concedir aquesta insígnia:';

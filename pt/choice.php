@@ -50,6 +50,7 @@ $string['choice:readresponses'] = 'Ver respostas';
 $string['choicesaved'] = 'A sua resposta foi guardada';
 $string['choicetext'] = 'Questão da sondagem';
 $string['chooseaction'] = 'Selecione uma ação...';
+$string['closebeforeopen'] = 'Especificou uma data de fecho anterior à data de abertura.';
 $string['completionsubmit'] = 'Mostrar como concluída após o aluno submeter a sua resposta';
 $string['description'] = 'Descrição';
 $string['displayhorizontal'] = 'Disposição horizontal';

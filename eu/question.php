@@ -110,7 +110,7 @@ $string['cwrqpfs'] = 'Ausazko galderak, azpikategorietako galderak aukeratuta';
 $string['cwrqpfsinfo'] = '<p> Moodle 1.9ra eguneratu bitartean, galdera-kategoriak hainbat testuingurutan banatuko ditugu. Zure guneko hainbat kategoria eta galderek aldatu egingo dute truke egoera. Hau egitea beharrezkoa da partekatutako eta ez partekatutako kategoria nahasketa batetik aukeratzen direnean galdera bat edo gehiago (gune honetan gertatzen den bezala). Hau gertatzen da ausazko galdera bat azpikategorietatik aukeratzeko ezartzen denean eta azpikategoria bat edo gehiagok ausazko galdera sortuko den jatorrizko kategoriak ez bezalako truke egoera dutenean.</p>
 <p>Ondorengo kategoriek, zeinetatik aukeratzen dituzten goragoko kategoriek ausazko galderak, Moodle 1.9rako eguneraketan aldatu egingo dute beren truke-egoera ausazko galdera duen kategoriaren egoera berera. Ondoren agertzen diren kategoriek aldatuta izango dute truke egoera. Eragina izan duten galderek funtzionatu egingo dute dauden galdetegi guztietan ahalik eta galdetegi horiek ezabatu arte.</p>';
 $string['cwrqpfsnoprob'] = 'Ez dago zure gunean \'Ausazko galderak azpikategorietatik aukeratuta\' aukeraren eraginpeko kategoriarik.';
-$string['decimalplacesingrades'] = 'Hamartarrak kalifikazioetan';
+$string['decimalplacesingrades'] = 'Hamartar-kopurua kalifikazioetan';
 $string['defaultfor'] = '{$a}-ren berezko balioa';
 $string['defaultinfofor'] = '\'{$a}\' testuinguruan partekatutako galderetarako berezko kategoria.';
 $string['defaultmark'] = 'Lehenetsitako puntuazioa';
@@ -403,6 +403,7 @@ $string['submissionoutofsequencefriendlymessage'] = 'Datuetara orden normaletik 
 $string['submit'] = 'Bidali';
 $string['submitandfinish'] = 'Bidali eta amaitu';
 $string['submitted'] = 'Bidali: {$a}';
+$string['tagarea_question'] = 'Galderak';
 $string['technicalinfo'] = 'Informazio teknikoa';
 $string['technicalinfo_help'] = 'Informazio tekniko hau ziur aski galdera-motetan lan egiten ari diren garatzaileentzat izan daiteke baliagarria. Lagungarria izan daiteke ere galderekin dauden arazoen diagnosia egitean.';
 $string['technicalinfomaxfraction'] = 'Gehieneko zatikia: {$a}';

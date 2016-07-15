@@ -52,6 +52,7 @@ $string['checkbox'] = '多肢選択 - 複数回答 (チェックボックス)';
 $string['check_values'] = '考えられる回答';
 $string['choosefile'] = 'ファイルを選択する';
 $string['chosen_feedback_response'] = '選択されたフィードバックの回答';
+$string['closebeforeopen'] = 'あなたは開始日時の前に終了日時を指定しました。';
 $string['completed'] = '完了';
 $string['completed_feedbacks'] = '送信済み回答';
 $string['complete_the_form'] = '質問に回答する ...';

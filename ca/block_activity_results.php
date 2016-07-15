@@ -29,6 +29,7 @@ $string['activity_results:addinstance'] = 'Afegeix un bloc nou de resultats de l
 $string['bestgrade'] = 'La nota més alta:';
 $string['bestgrades'] = 'Les {$a} notes més altes:';
 $string['bestgroupgrade'] = 'El grup amb la mitjana més alta:';
+$string['bestgroupgrades'] = 'Els {$a} grups amb la mitjana més alta:';
 $string['config_decimalplaces'] = 'Nombre de decimals que es mostraran';
 $string['config_format_absolute'] = 'Nombres absoluts';
 $string['config_format_fraction'] = 'Fraccions';

@@ -198,7 +198,7 @@ $string['editverbose'] = 'Edita {$a->category} {$a->itemmodule} {$a->itemname}';
 $string['enableajax'] = 'Habilita AJAX';
 $string['enableajax_help'] = 'Afegeix una capa de funcions AJAX en l\'informe de qualificacions, cosa que simplifica i agilita les operacions més habituals. Requereix que el JavaScript estigui activat en el navegador de l\'usuari.';
 $string['enableoutcomes'] = 'Habilita competències';
-$string['enableoutcomes_help'] = 'El suport per a competències (objectius, estàndards, criteris...) significa que es pot avaluar coses mitjançant una o més escales vinculades a declaracions de competències. Habilitar les competències fa possible utilitzar aquest tipus de qualificació a tot el lloc.';
+$string['enableoutcomes_help'] = 'Si s\'habilita, els ítems avaluables es podran puntuar utilitzant una o més escales vinculades a declaracions de competències.';
 $string['encoding'] = 'Codificació';
 $string['encoding_help'] = 'Selecciona la codificació de caràcters utilitzada per a les dades. (La codificació estàndard és UTF-8.) Si se selecciona la codificació incorrecta per error, això serà evident quan es previsualitzin les dades per a la importació.';
 $string['errorcalculationbroken'] = 'Probablement una referència circular o formula de càlcul errònia.';
@@ -260,6 +260,11 @@ $string['gradeadministration'] = 'Administració de les qualificacions';
 $string['gradealreadyupdated'] = 'Hi ha {$a} qualificacions que no s\'han importat perquè les qualificacions del fitxer són anteriors a les que figuren al butlletí de qualificacions. Per importar-les de totes totes utilitzeu l\'opció de forçar la importació.';
 $string['gradeanalysis'] = 'Anàlisi de les qualificacions';
 $string['gradebook'] = 'Butlletí de qualificacions';
+$string['gradebookcalculationsfixbutton'] = 'Accepta els canvis a les qualificacions i esmena els errors de càlcul';
+$string['gradebookcalculationsuptodate'] = 'Els càlculs al quadern de qualificacions estan actualitzats. Necessiteu carregar de nou aquesta pàgina per veure els canvis.';
+$string['gradebookcalculationswarning'] = 'Nota: S\'han detectat errors en el càlcul de les qualificacions que apareixen al quadern de qualificacions. Si el curs no ha començat o està en progrés, es recomana que esmeneu els errors prement el botó de sota, encara que això farà que canvïin algunes qualificacions. Si el vostre curs ja ha acabat i les qualificacions s\'han enviat, és probable que no vulgueu arreglar aquest problema.
+
+La versió més recent és {$a-> currentversion}; esteu usant la versió del quadern de qualificacions {$a-> gradebookversion}. Podeu veure una llista de canvis a <a href="{$a->url}">Canvis en el càlcul de les qualificacions</a>.';
 $string['gradebookhiddenerror'] = 'El butlletí de qualificacions està configurat de manera que no mostra res als estudiants.';
 $string['gradebookhistories'] = 'Històrics de qualificacions';
 $string['gradebooksetup'] = 'Configuració del llibre de qualificacions';
@@ -386,12 +391,13 @@ $string['identifier'] = 'Identifica usuari per';
 $string['idnumbers'] = 'Números ID';
 $string['ignore'] = 'Ignora';
 $string['import'] = 'Importa';
-$string['importcsv'] = 'Importa CSV';
+$string['importcsv'] = 'Importació CSV';
 $string['importcsv_help'] = 'Les qualificacions es poden importar mitjançant un fitxer CSV amb el format següent:
-* Cada línia del fitxer conté un registre
-*Cada registre és una sèrie de dades separades per comes o per un separador alternatiu
-* El primer registre conté una llista de noms de camp que defineixen el format de la resta del fitxer
-*Es requereix un nom de camp que contingui les dades d\'identitat de l\'usuari: el nom d\'usuari o bé el número d\'identificació o l\'adreça electrònica
+
+<p>* Cada línia del fitxer conté un registre</p>
+<p>* Cada registre és una sèrie de dades separades per comes o per un separador alternatiu</p>
+<p>* El primer registre conté una llista de noms de camp que defineixen el format de la resta del fitxer</p>
+<p>* Es requereix un nom de camp que contingui les dades d\'identitat de l\'usuari: el nom d\'usuari o bé el número d\'identificació o l\'adreça electrònica</p>
 
 Es pot obtenir un fitxer del format correcte exportant primer algunes qualificacions. Aquest fitxer després es pot editar i desar com a fitxer CSV.';
 $string['importcustom'] = 'Importa com a competències personalitzades (només en aquest curs)';
@@ -412,7 +418,7 @@ $string['importskippednomanagescale'] = 'No teniu permís per a afegir una nova 
 $string['importskippedoutcome'] = 'Ja existeix una competència amb nom curt "{$a}" en aquest context. La que contenia el fitxer importat s\'ha omès.';
 $string['importstandard'] = 'Importa com a competències estàndard';
 $string['importsuccess'] = 'La importació ha tingut èxit';
-$string['importxml'] = 'Importa XML';
+$string['importxml'] = 'Importació XML';
 $string['includescalesinaggregation'] = 'Inclou escales en l\'agregació';
 $string['includescalesinaggregation_help'] = 'Podeu determinar si les escales s\'inclouran o no com a nombres en totes les qualificacions agregades de tots els butlletins de qualificació de tots els cursos.';
 $string['incorrectcourseid'] = 'El ID del curs és incorrecte';
@@ -470,10 +476,14 @@ $string['minimum_show_help'] = 'La qualificació mínima s\'utilitza en els càl
 $string['minmaxtouse'] = 'Qualificacions mínima i màxima emprades per al càlcul';
 $string['minmaxtouse_desc'] = 'Aquest paràmetre determina si, quan es calcula la qualificació que es mostra al llibre de qualificacions, s\'han d\'emprar les qualificacions mínima i màxima inicials de quan es van donar les qualificacions o les qualificacions mínima i màxima especificades als paràmetres de l\'element de qualificació. Es recomana que aquest paràmetre es modifiqui en un període de poca activitat, perquè totes les qualificacions es tornaran a calcular, la qual cosa pot provocar una sobrecàrrega del servidor.';
 $string['minmaxtouse_help'] = 'Aquest paràmetre determina si, quan es calcula la qualificació que es mostra al llibre de qualificacions, s\'han d\'emprar les qualificacions mínima i màxima inicials de quan es van donar les qualificacions o les qualificacions mínima i màxima especificades als paràmetres de l\'element de qualificació.';
+$string['minmaxupgradedgrades'] = 'Nota: Algunes qualificacions han canviat tractant de resoldre una inconsistència al quadern de qualificacions causat per un canvi a les qualificacions mínimes i màximes usades en el càlcul de la qualificació mostrada. Es recomana que reviseu i accepteu els canvis.';
+$string['minmaxupgradefixbutton'] = 'Resol les inconsistències';
+$string['minmaxupgradewarning'] = 'Nota: S\'ha detectat una inconsistència en algunes qualificacions a causa d\'un canvi en la qualificació mínima i màxima usades en el càlcul de la qualificació mostrada al quadern de qualificacions. Es recomana que resolgueu la inconsistència prement el botó de sota, encara que això modificarà algunes qualificacions.';
+$string['missingitemtypeoreid'] = 'Falta la clau de la matriu (itemtype o eid) al segon paràmetre de grade_edit_tree_column_select::get_item_cell($item, $params)';
 $string['missingscale'] = 'Heu de seleccionar una escala';
 $string['mode'] = 'Moda';
 $string['modgrade'] = 'Qualificació';
-$string['modgradeerrorbadpoint'] = 'El valor de qualificació no és vàlid. Hauria de ser un enter entre 0 i {$a}';
+$string['modgradeerrorbadpoint'] = 'El valor de qualificació no és vàlid. Hauria de ser un enter entre 1 i {$a}';
 $string['modgradeerrorbadscale'] = 'L\'escala seleccionada no és vàlida. Assegureu-vos de seleccionar una escala de les que es mostren més avall.';
 $string['modgrade_help'] = 'Seleccioneu el tipus de qualificació que s\'utilitzarà en aquesta activitat. Si trieu "escala", podreu triar una escala en el menú desplegable. Si utilitzeu la qualificació per "puntuació" podreu introduir el valor màxim de la qualificació per a aquesta activitat.';
 $string['modgrademaxgrade'] = 'Puntuació màxima';
@@ -738,12 +748,13 @@ $string['uncategorised'] = 'Sense categoria';
 $string['unchangedgrade'] = 'Qualificació no modificada';
 $string['unenrolledusersinimport'] = 'Aquesta importació incloïa les qualificacions següents d\'usuaris a hores d\'ara no inscrits en aquest curs: {$a}';
 $string['unlimitedgrades'] = 'Qualficacions il·limitades';
-$string['unlimitedgrades_help'] = 'Per defecte les qualificacions estan limitades pels valors màxim i mínim dels elements de qualificació. Si habiliteu aquesta opció eliminareu aquest límit, i podreu introduir  directament al butlletí de qualificacions qualificacions superiors al 100%. Es recomana que aquesta opció s\'activi en un horari de poca activitat, perquè es tornaran a calcular totes les qualificacions, acció que pot provocar una sobrecàrrega del servidor.';
+$string['unlimitedgrades_help'] = 'Per defecte, les qualificacions estan limitades pels valors màxim i mínim dels elements de qualificació. Si habiliteu aquesta opció, eliminareu aquest límit, i podreu introduir  directament al butlletí de qualificacions qualificacions superiors al 100%. Es recomana que aquesta opció s\'activi en un horari de poca activitat, perquè es tornaran a calcular totes les qualificacions, la qual acció pot provocar una sobrecàrrega del servidor.';
 $string['unlock'] = 'Desbloca';
 $string['unlockverbose'] = 'Desbloca {$a->category} {$a->itemmodule} {$a->itemname}';
 $string['unused'] = 'No utilitzat';
 $string['updatedgradesonly'] = 'Exporta només les qualificacions noves o actualitzades';
 $string['upgradedgradeshidemessage'] = 'OK';
+$string['upgradedminmaxrevertmessage'] = 'Desfés els canvis';
 $string['uploadgrades'] = 'Carrega qualificacions';
 $string['useadvanced'] = 'Utilitza les característiques avançades';
 $string['usedcourses'] = 'Cursos utilitzats';

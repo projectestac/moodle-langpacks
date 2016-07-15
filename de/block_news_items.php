@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['news_items:addinstance'] = 'Block \'Neueste Ankündigungen\' hinzufügen';
-$string['news_items:myaddinstance'] = 'Block \'Neueste Ankündigungen\' zum Dashboard hinzufügen';
-$string['pluginname'] = 'Neue Ankündigungen';
+$string['news_items:addinstance'] = 'Block \'Aktuelle Ankündigungen\' hinzufügen';
+$string['news_items:myaddinstance'] = 'Block \'Aktuelle Ankündigungen\' zum Dashboard hinzufügen';
+$string['pluginname'] = 'Aktuelle Ankündigungen';

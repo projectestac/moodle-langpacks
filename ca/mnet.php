@@ -170,7 +170,7 @@ $string['notpermittedtoland'] = 'No teniu permís per iniciar una sessió remota
 $string['off'] = 'Apaga';
 $string['on'] = 'Engega';
 $string['options'] = 'Opcions';
-$string['peerprofilefielddesc'] = 'Aquí es pot reemplaçar la configuració global per cada camp del perfil per enviar o importar quan es crei un nou usuari.';
+$string['peerprofilefielddesc'] = 'Aquí es pot reemplaçar la configuració global per cada camp del perfil per enviar o importar quan es creï un usuari nou.';
 $string['permittedtransports'] = 'Transports permesos.';
 $string['phperror'] = 'Un error intern de PHP impedeix que la vostra petició sigui complerta.';
 $string['position'] = 'Posició';
@@ -195,7 +195,8 @@ $string['registerhostson'] = 'Registrar tots els servidor és actualment <b>habi
 $string['remotecourses'] = 'Cursos remots';
 $string['remotehost'] = 'Servidor remot';
 $string['remotehosts'] = 'Servidors remots';
-$string['remoteuserinfo'] = 'Usuari remot {$a->remotetype}  - perfil obstés de <a href="{$a->remoteurl}">{$a->remotename}</a>';
+$string['remoteuser'] = 'Usuari remot {$a->remotetype}';
+$string['remoteuserinfo'] = 'Perfil obtingut de <a href="{$a->remoteurl}">{$a->remotename}</a>';
 $string['requiresopenssl'] = 'Us cal l\'extensió OpenSSL per treballar amb la xarxa.';
 $string['restore'] = 'Restaura';
 $string['returnvalue'] = 'Valor de retorn';
@@ -218,6 +219,12 @@ $string['showlocal'] = 'Mostra usuaris locals';
 $string['showremote'] = 'Mostra usuaris remots';
 $string['ssl_acl_allow'] = 'SSO ACL: Permet a l\'usuari {$a-> user} de {$a-> host}';
 $string['ssl_acl_deny'] = 'SSO ACL: Denega a l\'usuari {$a-> user} de {$a-> host}';
+$string['sslverification'] = 'Verificació SSL';
+$string['sslverification_help'] = 'Aquesta opció us permet configurar el nivell de seguretat quan us connecteu a un igual usant HTTPS.
+
+* Cap: cap nivell de seguretat
+* Verifica sols el servidor: valida el domini del certificat SSL
+* Verifica l\'igual i el servidor (recomanat): valida el domini i l\'emissor del certificat SSL';
 $string['ssoaccesscontrol'] = 'Control d\'accés SSO';
 $string['ssoacldescr'] = 'Utilitzeu aquesta pàgina per atorgar/denegar l\'accés a determinats usuaris des del servidor remot MNet. Això és funcional quan s\'estan oferint serveis SSO a usuaris remots. Per controlar la capacitat dels usuaris <em>locals</em> de migrar a altres servidors Moodle en xarxa (MNet), utilitzeu el sistema de permisos per atorgar-los la capacitat <em>mnetlogintoremote</em>.';
 $string['ssoaclneeds'] = 'Per tal que aquesta funcionalitat estigui habilitada, us cal activar el treball en xarxa, i el connector d\'autenticació per Moodle en xarxa.';
@@ -242,6 +249,8 @@ $string['userchangepasswordlink'] = '<br /> Podeu habilitar el canvi de la contr
 $string['usernotfullysetup'] = 'El vostre compte d\'usuari està incomplet. Us cal tornar <a href="{$a}">al vostre subministrador</a> i comprovar que el vostre perfil s\'ha completat allí. Pot ser us calgui sortir i tornar a entrar per assegurar-vos que els canvis tenen efecte.';
 $string['usersareonline'] = 'AVÍS: {$a} usuaris d\'aquest servidor han entrat al vostre lloc.';
 $string['validated_by'] = 'Això està validat per la xarxa: <code>{$a}</code>';
+$string['verifyhostandpeer'] = 'Verifica el servidor i l\'igual';
+$string['verifyhostonly'] = 'Verifica sols el servidor';
 $string['verifysignature-error'] = 'La verificació de la signatura a fallat. Ha succeït un error.';
 $string['verifysignature-invalid'] = 'La verificació de la signatura a fallat. Sembla que aquest bloc d\'informació no va ser signat per vostè.';
 $string['version'] = 'Versió';

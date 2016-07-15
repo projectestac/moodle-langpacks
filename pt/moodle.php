@@ -42,6 +42,7 @@ $string['activityreport'] = 'Relatório de atividade';
 $string['activityreports'] = 'Relatórios de atividade';
 $string['activityselect'] = 'Selecione esta atividade para ser movida para outro local';
 $string['activitysince'] = 'Atividade desde {$a}';
+$string['activitytypetitle'] = '{$a->activity} - {$a->type}';
 $string['activityweighted'] = 'Atividade por utilizador';
 $string['add'] = 'Adicionar';
 $string['addactivity'] = 'Adicionar uma atividade';
@@ -117,7 +118,7 @@ $string['administratorsandteachers'] = 'Administradores e professores';
 $string['advanced'] = 'Avançado';
 $string['advancedfilter'] = 'Filtro avançado';
 $string['advancedsettings'] = 'Configurações avançadas';
-$string['afterresource'] = 'A seguir ao recurso "{$a}"';
+$string['afterresource'] = 'A seguir ao recurso: "{$a}"';
 $string['aftersection'] = 'A seguir à secção "{$a}"';
 $string['again'] = 'novamente';
 $string['aimid'] = 'ID do AIM';
@@ -452,6 +453,7 @@ $string['databaseupgradeblocks'] = 'A versão dos blocos é agora {$a}';
 $string['databaseupgradegroups'] = 'A versão dos grupos é agora {$a}';
 $string['databaseupgradelocal'] = 'A versão de personalização da base de dados local é agora {$a}';
 $string['databaseupgrades'] = 'A atualizar a base de dados';
+$string['dataformats'] = 'Formatos de dados';
 $string['date'] = 'Data';
 $string['datechanged'] = 'Data de alteração';
 $string['datemostrecentfirst'] = 'Data - mais recente(s) primeiro';
@@ -461,6 +463,9 @@ $string['days'] = 'dias';
 $string['decodinginternallinks'] = 'A descodificar apontadores internos';
 $string['default'] = 'Predefinido';
 $string['defaultcompetencescale'] = 'Escala de competência predefinida';
+$string['defaultcompetencescaledesc'] = 'Uma escala de avaliação binária que apenas fornece informação acerca da demonstração, ou não, de proeficiência.';
+$string['defaultcompetencescalenotproficient'] = 'Ainda não adquiriu a competência';
+$string['defaultcompetencescaleproficient'] = 'Adquiriu a competência';
 $string['defaultcoursestudent'] = 'Aluno';
 $string['defaultcoursestudentdescription'] = 'Os alunos geralmente têm menos privilégios dentro de uma disciplina.';
 $string['defaultcoursestudents'] = 'Alunos';
@@ -568,6 +573,7 @@ $string['editorresettodefaults'] = 'Repor os valores predefinidos';
 $string['editorsettings'] = 'Configurações do Editor';
 $string['editorshortcutkeys'] = 'Teclas de Atalho do Editor';
 $string['editsection'] = 'Editar secção';
+$string['editsectionname'] = 'Editar nome da secção';
 $string['editsettings'] = 'Editar configurações';
 $string['editsummary'] = 'Editar sumário';
 $string['editthisactivity'] = 'Editar esta atividade';
@@ -575,7 +581,10 @@ $string['editthiscategory'] = 'Editar esta categoria';
 $string['edittitle'] = 'Editar nome';
 $string['edittitleinstructions'] = 'Escape para cancelar, Enter quando terminar';
 $string['edituser'] = 'Editar contas de utilizadores';
-$string['edulevel'] = 'Nível de acesso';
+$string['edulevel'] = 'Todos os eventos';
+$string['edulevel_help'] = '* Ensino - ações realizadas por um professor, por exemplo, atualizar um recurso
+* Participação - ações realizadas por um aluno, por exemplo, publicar uma mensagem num fórum
+* Outra - ações realizadas por um utilizador com um papel que não seja professor ou aluno';
 $string['edulevelother'] = 'Outro';
 $string['edulevelparticipating'] = 'Participar';
 $string['edulevelteacher'] = 'Ensinar';
@@ -730,6 +739,7 @@ $string['eventcoursemoduleviewed'] = 'Módulo de disciplina visualizado';
 $string['eventcourseresetended'] = 'Reinicialização da disciplina concluída';
 $string['eventcourseresetstarted'] = 'Reinicialização da disciplina iniciada';
 $string['eventcourserestored'] = 'Disciplina restaurada';
+$string['eventcoursesectiondeleted'] = 'Secção da disciplina eliminada';
 $string['eventcoursesectionupdated'] = 'Secção de disciplina atualizada';
 $string['eventcourseupdated'] = 'Disciplina atualizada';
 $string['eventcourseuserreportviewed'] = 'Relatório de utilizador da disciplina visualizado';
@@ -737,6 +747,7 @@ $string['eventcourseviewed'] = 'Disciplina visualizada';
 $string['eventemailfailed'] = 'Falha ao enviar email';
 $string['eventname'] = 'Nome do evento';
 $string['eventrecentactivityviewed'] = 'Atividade recente visualizada';
+$string['eventsearchindexed'] = 'Pesquisa de dados indexados';
 $string['eventunknownlogged'] = 'Evento desconhecido';
 $string['eventusercreated'] = 'Utilizador criado';
 $string['eventuserdeleted'] = 'Utilizador apagado';
@@ -968,7 +979,7 @@ $string['institution'] = 'Instituição';
 $string['instudentview'] = 'em modo de visão do aluno';
 $string['interests'] = 'Interesses';
 $string['interestslist'] = 'Lista de interesses';
-$string['interestslist_help'] = 'Insira os seus interesses separados por vírgulas. Serão mostrados na página do seu perfil como tags.';
+$string['interestslist_help'] = 'Insira os seus interesses, um por um, e que serão mostrados na página do seu perfil como palavras-chave.';
 $string['invalidemail'] = 'Endereço de correio não válido';
 $string['invalidlogin'] = 'Nome de utilizador não válido, por favor tente novamente';
 $string['invalidusername'] = 'O nome de utilizador apenas pode conter caracteres alfanuméricos em minúsculas (letras e números), underscore (_), hífen (-), ponto final (.) ou o símbolo arroba (@).';
@@ -996,6 +1007,7 @@ $string['lastyear'] = 'Ano passado';
 $string['latestlanguagepack'] = 'Verificar o pacote linguístico mais recente em moodle.org';
 $string['layouttable'] = 'Tabela de esquema';
 $string['leavetokeep'] = 'Deixe em branco se quiser manter a senha atual';
+$string['legacylogginginuse'] = 'Atualmente o site está a utilizar o sistema de registos de retrocompatibilidade. A utilização deste sistema é obsoleto. Deve utilizar um sistema de registo suportado como por exemplo "Registo de atividade padrão" ou "Base de dados externa para registos de atividade".';
 $string['legacythemeinuse'] = 'Este site está a ser mostrado em modo de compatibilidade pois o seu o navegador está numa versão muito antiga.';
 $string['license'] = 'Licença';
 $string['licenses'] = 'Licenças';
@@ -1022,18 +1034,7 @@ $string['loginaspasswordexplain'] = '<p>Para poder utilizar esta opção terá q
 $string['login_failure_logs'] = 'Relatórios de tentativas de autenticação sem sucesso';
 $string['loginguest'] = 'Entrar como visitante';
 $string['loginsite'] = 'Entrar no site';
-$string['loginsteps'] = '</a> <p>Para ter acesso completo às disciplinas precisa dedicar um minuto a criar uma nova conta de utilizador.</p>
-<p>Cada disciplina pode também ter uma "senha de inscrição", fornecida pelo professor.</p>
-<p>Siga as instruções:</p>
-<ol>
-<li>Preencha o formulário de <a href="{$a}">Nova Conta</a>  com os seus dados.</li>
-<li>Será enviada imediatamente uma mensagem para o seu e-mail.</li>
-<li>Leia a mensagem e visite a hiperligação fornecida para confirmar o registo.</li>
-<li>A sua conta será confirmada e será autenticado no site.</li>
-<li>A seguir poderá selecionar a disciplina na qual se quer inscrever.</li>
-<li>Se for solicitada uma "senha de inscrição", terá que usara a senha indicada pelo seu professor. Esta ação o inscreverá na disciplina.</li>
-<li>Passará assim a ter acesso completo à disciplina. A partir de agora só precisará de introduzir o seu nome de utilizador e senha (no formulário nesta página) para se autenticar e aceder a qualquer curso em que está inscrito.</li>
-</ol>';
+$string['loginsteps'] = 'Para ter acesso completo a este site, primeiro precisa de criar uma nova conta de utilizador.';
 $string['loginstepsnone'] = '<p>Viva!</p>
 <p>Para ter acesso total às disciplinas, vai ter que criar a sua própria conta de utilizador.</p>
 <p>Só precisa de escolher um nome de utilizador e senha, e usá-los no formulário nesta página!</p>
@@ -1042,12 +1043,12 @@ $string['loginto'] = 'Entrar em {$a}';
 $string['logout'] = 'Sair';
 $string['logoutconfirm'] = 'Tem a certeza que quer sair?';
 $string['logs'] = 'Registos de atividade';
-$string['logtoomanycourses'] = '[ <a href="{$a->url}">more</a> ]';
-$string['logtoomanyusers'] = '[ <a href="{$a->url}">more</a> ]';
+$string['logtoomanycourses'] = '[ <a href="{$a->url}">mais</a> ]';
+$string['logtoomanyusers'] = '[ <a href="{$a->url}">mais</a> ]';
 $string['lookback'] = 'Desde há';
 $string['mailadmins'] = 'Informe os administradores';
 $string['mailstudents'] = 'Informar os alunos';
-$string['mailteachers'] = 'Informe os professores';
+$string['mailteachers'] = 'Informar os professores';
 $string['maincoursepage'] = 'Página principal da disciplina';
 $string['makeafolder'] = 'Criar pasta';
 $string['makeeditable'] = 'Se mudar as permissões de \'{$a}\' para que o servidor de http (por exemplo Apache) possa modificá-lo, este ficheiro poderá ser editado diretamente nesta página';
@@ -1056,10 +1057,11 @@ $string['manageblocks'] = 'Blocos';
 $string['managecategorythis'] = 'Gerir esta categoria';
 $string['managecourses'] = 'Gerir disciplinas';
 $string['managedatabase'] = 'Gestão da base de dados';
+$string['managedataformats'] = 'Gerir formatos de dados';
 $string['manageeditorfiles'] = 'Gerir ficheiros usados pelo editor';
 $string['managefilters'] = 'Filtros';
 $string['managemodules'] = 'Módulos';
-$string['manageroles'] = 'papéis e permissões';
+$string['manageroles'] = 'Papéis e permissões';
 $string['markedthistopic'] = 'Este tópico está marcado como o tópico atual';
 $string['markthistopic'] = 'Marque este tópico como o tópico atual';
 $string['matchingsearchandrole'] = 'Corresponder \'{$a->search}\' e {$a->role}';
@@ -1078,7 +1080,7 @@ $string['maxnumberweeks_desc'] = 'Número máximo disponível na lista pendente 
 $string['maxnumcoursesincombo'] = 'Procurar <a href="{$a->link}">{$a->numberofcourses} disciplinas</a>.';
 $string['maxsize'] = 'Tamanho máximo:{$a}';
 $string['maxsizeandareasize'] = 'Tamanho máximo para novos ficheiros: {$a->size}, overall limit: {$a->areasize}';
-$string['maxsizeandattachments'] = 'Tamanho máximo para novos ficheiros: {$a->size}, máximo de anexos: {$a->attachments}';
+$string['maxsizeandattachments'] = 'Tamanho máximo para novos ficheiros: {$a->size}, número máximo de anexos: {$a->attachments}';
 $string['maxsizeandattachmentsandareasize'] = 'Tamanho máximo para novos ficheiros: {$a->size}, número máximo de anexos: {$a->attachments}, limite global: {$a->areasize}';
 $string['memberincourse'] = 'Participantes na disciplina';
 $string['messagebody'] = 'Conteúdo da mensagem';
@@ -1090,6 +1092,8 @@ $string['messageprovider:availableupdate'] = 'Notificação de atualizações di
 $string['messageprovider:backup'] = 'Notificações da cópia de segurança';
 $string['messageprovider:badgecreatornotice'] = 'Notificações do emissor da Medalha';
 $string['messageprovider:badgerecipientnotice'] = 'Notificações do destinatário da Medalha';
+$string['messageprovider:competencyplancomment'] = 'Comentário publicado num plano de aprendizagem';
+$string['messageprovider:competencyusercompcomment'] = 'Comentário publicado numa competência';
 $string['messageprovider:courserequestapproved'] = 'Notificação da aprovação do pedido de disciplina';
 $string['messageprovider:courserequested'] = 'Notificação do pedido de disciplina';
 $string['messageprovider:courserequestrejected'] = 'Notificação de rejeição do pedido de disciplina';
@@ -1142,7 +1146,7 @@ $string['month'] = 'Mês';
 $string['months'] = 'Meses';
 $string['moodledocs'] = 'Documentação';
 $string['moodledocslink'] = 'Documentação Moodle para esta página';
-$string['moodlelogo'] = 'Logotipo Moodle';
+$string['moodlelogo'] = 'Logótipo Moodle';
 $string['moodlerelease'] = 'Versão Moodle';
 $string['moodleversion'] = 'Versão do Moodle';
 $string['more'] = 'mais';
@@ -1153,7 +1157,7 @@ $string['moreprofileinfoneeded'] = 'Conte-nos mais coisas sobre si';
 $string['mostrecently'] = 'mais recentemente';
 $string['move'] = 'Mover';
 $string['movecategoriessuccess'] = 'Foram movidas com sucesso {$a->count} categorias para a categoria \'{$a->to}\'';
-$string['movecategoriestotopsuccess'] = 'Foram movidas com sucesso {$a->count} categorias para o nível superior';
+$string['movecategoriestotopsuccess'] = 'Foram movidas com sucesso {$a->count} categorias para o nível de topo';
 $string['movecategorycontentto'] = 'Mover para';
 $string['movecategorysuccess'] = 'Foi movida com sucesso a categoria \'{$a->moved}\' para a categoria \'{$a->to}\'';
 $string['movecategoryto'] = 'Mover categoria para:';
@@ -1184,6 +1188,7 @@ $string['myhome'] = 'Painel do utilizador';
 $string['mymoodledashboard'] = 'Meu Painel do utilizador Moodle';
 $string['myprofile'] = 'Meu perfil';
 $string['name'] = 'Designação';
+$string['namedfiletoolarge'] = 'O ficheiro \'{$a->filename}\' é muito grande e não pode ser carregado';
 $string['nameforlink'] = 'Que nome deseja dar a esta hiperligação?';
 $string['nameforpage'] = 'Nome';
 $string['navigation'] = 'Navegação';
@@ -1194,17 +1199,18 @@ $string['never'] = 'Nunca';
 $string['neverdeletelogs'] = 'Nunca apague os registos de atividade';
 $string['new'] = 'Novo';
 $string['newaccount'] = 'Nova conta';
+$string['newactivityname'] = 'Novo nome para a atividade {$a}';
 $string['newcourse'] = 'Nova disciplina';
 $string['newpassword'] = 'Nova senha';
 $string['newpasswordfromlost'] = '<strong>ATENÇÃO:</strong> A sua <strong>senha atual</strong> deverá ter sido enviada para si na <strong>segunda</strong> de duas mensagens que lhe foram enviadas como parte do processo de recuperação de senha. Verifique que já recebeu a mensagem com a senha de substituição antes de continuar com esta página.';
 $string['newpassword_help'] = 'Insira uma nova senha ou deixe em branco para manter a atual.';
 $string['newpasswordtext'] = 'Viva {$a->firstname},
-Tal como foi pedido, a senha da sua conta em  \'{$a->sitename}\' foi substituída por uma nova senha provisória.
+Tal como foi pedido, a senha da sua conta em \'{$a->sitename}\' foi substituída por uma nova senha provisória.
 
 A informação atual da sua conta de utilizador é:
 
   Nome de utilizador: {$a->username}
-  senha: {$a->newpassword}
+  Senha: {$a->newpassword}
 
 Por favor visite a página que se segue, para modificar a senha provisória:
    {$a->link}
@@ -1221,9 +1227,10 @@ Administrador do servidor \'{$a->sitename}\'
 (esta mensagem foi gerada automaticamente)';
 $string['newpicture'] = 'Nova imagem';
 $string['newpicture_help'] = 'Para adicionar uma nova imagem, procure e selecione uma imagem (em formato JPG ou PNG) e clique em "Atualizar perfil". A imagem será recortada na forma de um quadrado e redimensionada para 100x100 pixels.';
+$string['newsectionname'] = 'Novo nome para a secção {$a}';
 $string['newsitem'] = 'notícia';
 $string['newsitems'] = 'notícias';
-$string['newsitemsnumber'] = 'Notícias a mostrar';
+$string['newsitemsnumber'] = 'Anúncios a mostrar';
 $string['newsitemsnumber_help'] = 'Esta configuração determina quantas notícias mais recentes aparecem no bloco de últimas notícias na página da disciplina. Se for definido o valor "0" (zero), então o bloco "Últimas notícias" não será mostrado.';
 $string['newuser'] = 'Novo utilizador';
 $string['newusernewpasswordsubj'] = 'Nova conta de utilizador';
@@ -1605,6 +1612,8 @@ $string['selectacourse'] = 'Selecione uma disciplina';
 $string['selectacoursesite'] = 'Selecione uma disciplina ou site';
 $string['selectagroup'] = 'Selecione um grupo';
 $string['selectall'] = 'Selecionar todos';
+$string['selectallusersonpage'] = 'Selecionar todos os utilizadores nesta página';
+$string['selectalluserswithcount'] = 'Selecionar todos os {$a} utilizadores';
 $string['selectamodule'] = 'Por favor selecione um módulo de atividade';
 $string['selectanaction'] = 'Selecione uma ação';
 $string['selectanoptions'] = 'Selecione uma opção';
@@ -1647,7 +1656,7 @@ $string['showblockcourse'] = 'Mostrar a lista das disciplinas que contêm bloco'
 $string['showcategory'] = 'Mostrar {$a}';
 $string['showcomments'] = 'Mostrar/Ocultar comentários';
 $string['showcommentsnonjs'] = 'Mostrar comentários';
-$string['showdescription'] = 'Mostrar descrição na página da disciplina.';
+$string['showdescription'] = 'Mostrar descrição na página da disciplina';
 $string['showdescription_help'] = 'Se ativar esta opção, a descrição acima será exibida na página da disciplina logo abaixo da hiperligação para a atividade ou recurso.';
 $string['showgrades'] = 'Mostrar pauta aos alunos';
 $string['showgrades_help'] = 'Muitas das atividades permitem que seja atribuída avaliação. Esta configuração determina se o aluno pode ver uma lista das suas notas na disciplina através de uma hiperligação disponível no bloco administração.';
@@ -1818,7 +1827,7 @@ $string['topicoutline'] = 'Lista de tópicos';
 $string['topicshow'] = 'Mostre este tópico a {$a}';
 $string['toplevelcategory'] = 'Categoria de nível superior';
 $string['total'] = 'Total';
-$string['totopofsection'] = 'Para o topo da secção "{$a}"';
+$string['totopofsection'] = 'Para o topo da secção: "{$a}"';
 $string['trackforums'] = 'Monitorização de fóruns';
 $string['trackforumsno'] = 'Não: não assinalar mensagens não lidas';
 $string['trackforumsyes'] = 'Sim: assinalar mensagens não lidas';
@@ -1867,7 +1876,7 @@ $string['uploadnotallowed'] = 'Não é permitido anexar ficheiros';
 $string['uploadnotempdir'] = 'Não existe pasta temporária';
 $string['uploadoldfilesdeleted'] = 'O(s) ficheiro(s) antigo(s) na sua área de ficheiros enviados foi apagado';
 $string['uploadpartialfile'] = 'Foi recebida apenas uma parte do ficheiro';
-$string['uploadproblem'] = 'Ocorreu m problema desconhecido no envio do ficheiro \'{$a}\' (talvez fosse demasiado grande?)';
+$string['uploadproblem'] = 'Ocorreu um problema desconhecido ao carregar o ficheiro \'{$a}\' (verifique se excedeu o tamanho permitido)';
 $string['uploadrenamedchars'] = 'O ficheiro foi renomeado de {$a->oldname} para {$a->newname} para substituir caracteres não válidos.';
 $string['uploadrenamedcollision'] = 'O ficheiro foi renomeado de  {$a->oldname} para {$a->newname} devido a um conflito no nome.';
 $string['uploadserverlimit'] = 'O ficheiro enviado excedeu o limite de tamanho máximo imposto pelo servidor';

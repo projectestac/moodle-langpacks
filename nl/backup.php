@@ -240,6 +240,7 @@ $string['rootsettingbadges'] = 'Badges mee opnemen';
 $string['rootsettingblocks'] = 'Blokken invoegen';
 $string['rootsettingcalendarevents'] = 'Kalendergebeurtenissen mee opnemen';
 $string['rootsettingcomments'] = 'Commentaar invoegen';
+$string['rootsettingcompetencies'] = 'Competenties mee opnemen';
 $string['rootsettingfilters'] = 'Filters invoegen';
 $string['rootsettinggradehistories'] = 'Cijfergeschiedenis invoegen';
 $string['rootsettinggroups'] = 'Groepen en groeperingen mee opnemen';

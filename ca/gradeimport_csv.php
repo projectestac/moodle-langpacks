@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['csv:view'] = 'Importar qualificacions d\'un fitxer CSV';
+$string['csv:view'] = 'Importa qualificacions des d\'un fitxer CSV';
 $string['pluginname'] = 'Fitxer CSV';

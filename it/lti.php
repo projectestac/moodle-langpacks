@@ -153,6 +153,8 @@ Accanto al menu a discesa Tipo di tool esterno sono disponibili tre icone:
 * **Elimina** - Elimina una configurazione di tool a livello di corso';
 $string['external_tool_types'] = 'Tool preconfigurati';
 $string['failedtoconnect'] = 'Moodle non è riuscito a comunicare con il sistema "{$a}"';
+$string['failedtocreatetooltype'] = 'Non è stato possibile creare un nuovo tool. Controlla l\'URL prima di riprovare.';
+$string['failedtodeletetoolproxy'] = 'Non è stato possibile eliminare la registrazione del tool. Per provare ad eliminarla manualmente,  visita l\'URL "Gestione registrazione tool esterni".';
 $string['filter_basiclti_configlink'] = 'Configura i tuoi siti preferiti e le relative password';
 $string['filter_basiclti_password'] = 'La password è obbligatoria';
 $string['filterconfig'] = 'Gestione LTI';
@@ -364,6 +366,15 @@ $string['share_roster_admin_help'] = 'E\' possibile consentire al tool di conosc
 $string['share_roster_help'] = 'E\' possibile consentire al tool di conoscere l\'elenco degli iscritti al corso.
 
 Da notare che questa impostazione può essere modificata dalla configurazione del tool.';
+$string['show_in_course_activity_chooser'] = 'Visualizza nel selettore attività come tool preconfigurato';
+$string['show_in_course_lti1'] = 'Visualizza quando si creano attività';
+$string['show_in_course_lti1_help'] = 'Questo tool può essere visualizzato nel selettore attività consentendo ai docenti di aggiungerlo ai corsi oppure può essere visualizzato nel menù a discesa dei tool preconfigurati quando si aggiunge un tool al corso.
+
+In alternativa la configurazione del tool può non essere visualizzata ma utilizzata solo se viene inserita il corretto URL di lancio quando si aggiunge un tool esterno al corso.';
+$string['show_in_course_lti2'] = 'Visualizza quando si creano attività';
+$string['show_in_course_lti2_help'] = 'Questo tool può essere visualizzato nel selettore attività consentendo ai docenti di aggiungerlo ai corsi oppure può essere visualizzato nel menù a discesa dei tool preconfigurati quando si aggiunge un tool al corso.';
+$string['show_in_course_no'] = 'Non visualizzare, utilizza solo per gli URL di lancio corretti';
+$string['show_in_course_preconfigured'] = 'Visualizza come tool preconfigurato quando si aggiunge un tool esterno';
 $string['size'] = 'Dimensione parametri';
 $string['submission'] = 'Invii';
 $string['submissions'] = 'Invii';
@@ -378,6 +389,9 @@ $string['successfullycreatedtooltype'] = 'Il tool è stato creato correttamente.
 $string['toggle_debug_data'] = 'Dati di debug on/off';
 $string['tool_config_not_found'] = 'Per questa URL non è stata trovata nessuna configurazione del tool.';
 $string['tooldescription'] = 'Descrizione del tool';
+$string['tooldescription_help'] = 'La descrizione del tool sarà visualizzata ai docenti nell\'elenco delle attività.
+
+E\' utile per descrivere il tool e le sue funzionalità, assieme ad altre informazioni utili al docente.';
 $string['toolisbeingused'] = 'Questo tool è stato utilizzato {$a} volte';
 $string['toolisnotbeingused'] = 'Questo tool non è stato utilizzato';
 $string['toolproxy'] = 'Registrazioni tool esterno';

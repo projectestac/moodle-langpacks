@@ -39,6 +39,7 @@ $string['backhistory'] = 'Torna a l\'historial';
 $string['backoldversion'] = 'Torna a la versió antiga';
 $string['backpage'] = 'Torna a la pàgina';
 $string['backtomapmenu'] = 'Torna a l\'índex del menú';
+$string['cannotcomparenewerversion'] = 'Una versió de pàgina sols es pot comparar amb un versió més antiga.';
 $string['cannoteditpage'] = 'No podeu editar aquesta pàgina.';
 $string['cannotmanagefiles'] = 'No teniu permís per gestionar els fitxers wiki';
 $string['cannotviewfiles'] = 'No teniu permís per veure els fitxers wiki';
@@ -61,6 +62,7 @@ $string['defaultformat_help'] = 'Aquest paràmetre determina el format per defec
 * HTML - L\'editor HTML està disponible.
 * Creole - Un llenguatge d\'etiquetes wiki per al qual hi ha disponible una barra editora.
 * Nwiki - Mediawiki- semblant a una llenguatge d\'etiquetes utilitzat al mòdul Nwiki';
+$string['deleteallpages'] = 'Suprimeix totes les pàgines wiki';
 $string['deletecomment'] = 'S\'està suprimint el comentari';
 $string['deletecommentcheck'] = 'Suprimeix el comentari';
 $string['deletecommentcheckfull'] = 'Esteu segurs de voler suprimir el comentari ?';
@@ -113,6 +115,9 @@ $string['history'] = 'Historial';
 $string['history_help'] = 'L\'historial enllaça amb les versions prèvies de la pàgina.';
 $string['html'] = 'HTML';
 $string['incorrectdeleteversions'] = 'Les versions de la pàgina per suprimir són incorrectes.';
+$string['incorrectpageid'] = 'L\'ID de la pàgina no és correcte.';
+$string['incorrectsubwikiid'] = 'L\'ID del subwiki no és correcte.';
+$string['incorrectwikiid'] = 'L\'ID del wiki no és correcte.';
 $string['individualpagedoesnotexist'] = 'Aquesta pàgina wiki no existeix';
 $string['insertcomment'] = 'Insereix comentari';
 $string['insertimage'] = 'Insereix una imatge...';
@@ -183,7 +188,7 @@ $string['orphaned'] = 'Pàgines orfes';
 $string['orphaned_help'] = 'Llista de pàgines que no  hi són enllaçades amb altres pàgines.';
 $string['overridelocks'] = 'Sobreescriu els bloquejos';
 $string['overridinglocks'] = 'S\'estan sobreescrivint els bloquejos...';
-$string['pageexists'] = 'Aquesta pàgina ja existeix. Redirigint cap a ella.';
+$string['pageexists'] = 'Aquesta pàgina ja existeix.';
 $string['pageindex'] = 'Índex de pàgines';
 $string['pageindex_help'] = 'L\'arbre de la pàgina wiki';
 $string['pageislocked'] = 'Algú està editant la pàgina ara. Proveu a editar-la alguns minuts més tard.';

@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['eventreportviewed'] = 'S\'ha mostrat l\'informe d\'estadístiques';
 $string['eventuserreportviewed'] = 'S\'ha mostrat l\'informe d\'estadístiques de l\'usuari';
+$string['nocapability'] = 'No es pot accedir a l\'informe d\'estadístiques dels usuaris';
 $string['page-report-stats-index'] = 'Informe d\'estadístiques del curs';
 $string['page-report-stats-user'] = 'Informe d\'estadístiques d\'usuari';
 $string['page-report-stats-x'] = 'Qualsevol informe d\'estadístiques';

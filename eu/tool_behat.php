@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['infoheading'] = 'Informazioa';
+$string['pluginname'] = 'Onarpen probak';
 $string['stepsdefinitionscomponent'] = 'Eremua';
 $string['stepsdefinitionsfilters'] = 'Aldien definizioak';
 $string['stepsdefinitionstype'] = 'Mota';

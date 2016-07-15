@@ -37,3 +37,4 @@ $string['pluginname'] = 'Fitxategi-sistema';
 $string['pluginname_help'] = 'Direktorio lokaletik biltegia sortu ';
 $string['relativefiles'] = 'Baimendu fitxategi erlatiboak';
 $string['root'] = 'Root-a';
+$string['searchresults'] = 'Bilaketaren emaitzak';

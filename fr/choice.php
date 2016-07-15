@@ -50,6 +50,7 @@ $string['choice:readresponses'] = 'Consulter les réponses';
 $string['choicesaved'] = 'Votre choix a été enregistré';
 $string['choicetext'] = 'Texte de la question';
 $string['chooseaction'] = 'Choisir une action...';
+$string['closebeforeopen'] = 'La date de fermeture indiquée est antérieure à la date d\'ouverture.';
 $string['completionsubmit'] = 'Afficher comme terminé quand l\'utilisateur a rempli le sondage';
 $string['description'] = 'Description';
 $string['displayhorizontal'] = 'Afficher horizontalement';

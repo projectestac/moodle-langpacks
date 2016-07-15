@@ -299,12 +299,7 @@ $string['emailconfirmsmall'] = '「 {$a->quizname} 」へのあなたの解答�
 $string['emailconfirmsubject'] = '送信確認: {$a->quizname}';
 $string['emailnotifybody'] = '{$a->username} さん
 
-以下のユーザが小テストを完了しました。
-
-ユーザ名: {$a->studentname}
-小テスト名: {$a->quizname}
-URL: {$a->quizurl}
-コース名: {$a->coursename}
+{$a->studentname} がコース「 {$a->coursename} 」の「 {$a->quizname} 」 ({$a->quizurl}) を完了しました。
 
 あなたはこの受験を {$a->quizreviewurl} でレビューすることができます。';
 $string['emailnotifysmall'] = '{$a->studentname} が {$a->quizname} を完了しました。詳細は {$a->quizreviewurl} をご覧ください。';
@@ -903,33 +898,33 @@ $string['totalmarksx'] = '合計評点: {$a}';
 $string['totalquestionsinrandomqcategory'] = 'カテゴリ内に合計 {$a} 問の問題があります。';
 $string['true'] = '○';
 $string['truefalse'] = '○/×問題';
-$string['type'] = '問題タイプ';
+$string['type'] = 'タイプ';
 $string['unfinished'] = '未了';
 $string['ungraded'] = '未評定';
 $string['unit'] = '単位';
 $string['unknowntype'] = '{$a} 行目の問題タイプはサポートされていません。問題は無視されます。';
-$string['updatesettings'] = '問題設定の更新';
+$string['updatesettings'] = '問題設定を更新する';
 $string['updatingatttemptgrades'] = '受験評点の更新';
 $string['updatingfinalgrades'] = '最終評点の更新';
 $string['updatingthegradebook'] = '評定表の更新';
-$string['upgradesure'] = '小テストモジュールは広範囲におよぶ小テストデータベーステーブルの変更を行うことがあります。また、このアップグレードに関する十分なテストは行われていません。アップグレード処理の前に必ずデータベースのバックアップを行ってください。';
+$string['upgradesure'] = '小テストモジュールは広範囲におよぶ小テストデータベーステーブルを変更することがあります。また、このアップグレードに関する十分なテストは実施されていません。処理の前に必ずあなたのデータベーステーブルをバックアップしてください。';
 $string['upgradingquizattempts'] = '小テスト受験のアップグレード: 小テスト {$a->done}/{$a->outof} (小テストID {$a->info})';
 $string['upgradingveryoldquizattempts'] = '非常に古い小テスト受験のアップグレード: {$a->done}/{$a->outof}';
 $string['url'] = 'URL';
-$string['usedcategorymoved'] = 'このカテゴリは公開され、他のコースで使用されているため、維持したままサイトレベルに移動されました。';
+$string['usedcategorymoved'] = 'このカテゴリは公開されて他のコースで使用されているため、維持したままサイトレベルに移動されました。';
 $string['useroverrides'] = 'ユーザオーバーライド';
 $string['useroverridesdeleted'] = 'ユーザオーバーライドが削除されました。';
 $string['usersnone'] = 'この小テストにアクセスできる学生はいません。';
 $string['validate'] = '確認';
-$string['viewallanswers'] = '{$a} 件の受験結果を表示する';
+$string['viewallanswers'] = '{$a} 件の小テスト受験を表示する';
 $string['viewallreports'] = '{$a} 件の受験レポートを表示する';
 $string['viewed'] = '閲覧済み';
-$string['warningmissingtype'] = '<b>この問題タイプは、あなたのMoodleにまだインストールされていません。<br />あなたのMoodle管理者に連絡してください。</b>';
+$string['warningmissingtype'] = '<b>この問題タイプはあなたのMoodleにまだインストールされていません。<br />あなたのMoodle管理者に連絡してください。</b>';
 $string['wheregrade'] = '私の評点は?';
 $string['wildcard'] = 'ワイルドカード';
 $string['windowclosing'] = 'このウィンドウは間もなく閉じられます。';
 $string['withsummary'] = '(統計概要を含む)';
 $string['wronguse'] = 'あなたはこのページをそのように使うことはできません。';
 $string['xhtml'] = 'XHTML';
-$string['youneedtoenrol'] = 'この小テストを受験する前に、あなたがこのコースに登録している必要があります。';
+$string['youneedtoenrol'] = 'この小テストを受験する前にあなたはこのコースに登録している必要があります。';
 $string['yourfinalgradeis'] = 'あなたの小テスト最終評点は {$a} です。';

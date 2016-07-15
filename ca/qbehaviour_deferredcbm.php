@@ -70,3 +70,4 @@ $string['pluginname'] = 'Retroacció diferida amb QBC (CBM)';
 $string['slightlyoverconfident'] = 'una mica massa confiat';
 $string['slightlyunderconfident'] = 'un poc baix de confiança';
 $string['underconfident'] = 'molt poca confiança';
+$string['weightx'] = 'Pes {$a}';

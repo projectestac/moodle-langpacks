@@ -46,18 +46,18 @@ $string['autogenallforms'] = 'Alle Basisvorlagen anlegen';
 $string['autolinkurl'] = 'URL automatisch verlinken';
 $string['availablefromdate'] = 'Verfügbar ab';
 $string['availabletags'] = 'Verfügbare Elemente';
-$string['availabletags_help'] = 'Elemente sind Platzhalter in einer Vorlage, die durch Textfelder oder Knöpfe (z.B. das Icon zum Bearbeiten) ersetzt werden, sobald Einträge in die Datenbank vorgenommen oder vorhandene Einträge anzeigt werden.
+$string['availabletags_help'] = 'Die Elemente sind Platzhalter in einer Vorlage, die durch Daten oder Icons (z.B. das Icon zum Bearbeiten) ersetzt werden, sobald Einträge in der Datenbank aufgelistet werden.
 
-Nutzerdefinierte Felder haben das Format [[feldname]]. Alle anderen Elemente (Tags) haben das Format ##tag##.
+Nutzerdefinierte Felder haben das Format [[feldname]]. Alle anderen Elemente haben das Format ##tag##.
 
-Nur die Elemente, die in der Liste "Verfügbare Elemente" aufgeführt sind, können in der Vorlage verwendet werden.
-';
+Nur die Elemente, die unter \'Verfügbare Elemente\' aufgeführt sind, können in der Vorlage verwendet werden.';
 $string['availabletodate'] = 'Verfügbar bis';
+$string['availabletodatevalidation'] = 'Das Datum \'Verfügbar bis\' kann nicht vor dem Datum \'Verfügbar ab\' liegen.';
 $string['blank'] = 'Leer';
 $string['buttons'] = 'Aktionen';
 $string['bynameondate'] = 'von {$a->name} - {$a->date}';
 $string['cancel'] = 'Abbrechen';
-$string['cannotaccesspresentsother'] = 'Sie können nicht auf Vorlagen anderer Nutzer zugreifen';
+$string['cannotaccesspresentsother'] = 'Sie können nicht auf Vorlagen anderer Nutzer/innen zugreifen.';
 $string['cannotadd'] = 'Kann keine Einträge hinzufügen!';
 $string['cannotdeletepreset'] = 'Fehler beim Löschen der Vorlage';
 $string['cannotoverwritepreset'] = 'Fehler beim Überschreiben der Vorgabe';
@@ -85,7 +85,7 @@ $string['csvimport'] = 'CSV-Dateiimport';
 $string['csvimport_help'] = 'Daten können über eine CSV-Datei importiert werden, wobei die erste Zeile eine Liste von Feldnamen enthalten muss, gefolgt von den Daten mit jeweils einem Datensatz pro Zeile.';
 $string['csvwithselecteddelimiter'] = '<acronym title="Komma getrennte Werte">CSV</acronym> mit diesem Trennzeichen:';
 $string['data:addinstance'] = 'Datenbank hinzufügen';
-$string['data:approve'] = 'Einträge freigeben oder nicht freigegeben';
+$string['data:approve'] = 'Einträge freigeben oder sperren';
 $string['data:comment'] = 'Kommentare schreiben';
 $string['data:exportallentries'] = 'Alle Datenbankeinträge exportieren';
 $string['data:exportentry'] = 'Datenbankeintrag exportieren';
@@ -97,11 +97,11 @@ $string['data:managetemplates'] = 'Vorlagen verwalten';
 $string['data:manageuserpresets'] = 'Vorlagensätze verwalten';
 $string['data:rate'] = 'Einträge bewerten';
 $string['data:readentry'] = 'Einträge lesen';
-$string['data:viewallratings'] = 'Alle Einzelwertungen sehen';
-$string['data:viewalluserpresets'] = 'Alle Vorlagensätze sehen';
-$string['data:viewanyrating'] = 'Alle Gesamtwertungen sehen';
-$string['data:viewentry'] = 'Einträge sehen';
-$string['data:viewrating'] = 'Eigene Gesamtwertung sehen';
+$string['data:viewallratings'] = 'Alle Einzelwertungen anzeigen';
+$string['data:viewalluserpresets'] = 'Alle Vorlagensätze anzeigen';
+$string['data:viewanyrating'] = 'Alle Gesamtwertungen anzeigen';
+$string['data:viewentry'] = 'Einträge anzeigen';
+$string['data:viewrating'] = 'Eigene Gesamtwertung anzeigen';
 $string['data:writeentry'] = 'Einträge schreiben';
 $string['date'] = 'Datum';
 $string['dateentered'] = 'Daten eingetragen';
@@ -327,6 +327,7 @@ $string['savesettings'] = 'Einstellungen speichern';
 $string['savesuccess'] = 'Erfolgreich gespeichert. Ihr Vorlagensatz wird ab sofort überall in diesem Moodle nutzbar sein.';
 $string['savetemplate'] = 'Vorlage speichern';
 $string['search'] = 'Suche';
+$string['search:activity'] = 'Datenbank - Aktivitätsinformation';
 $string['selectedrequired'] = 'Gesamte Auswahl ist erforderlich';
 $string['showall'] = 'Alle Einträge anzeigen';
 $string['single'] = 'Einzelansicht';
@@ -362,4 +363,5 @@ $string['usestandard'] = 'Vorlagensatz benutzen';
 $string['usestandard_help'] = 'Um einen auf der gesamten Website verfügbaren Vorlagensatz zu benutzen, wählen Sie ihn aus der Liste aus. Wenn Sie selbst einen Vorlagensatz zur Liste hinzugefügt haben, können Sie ihn hier auch wieder löschen.';
 $string['viewfromdate'] = 'Bearbeiten sperren ab';
 $string['viewtodate'] = 'Bearbeiten sperren bis';
+$string['viewtodatevalidation'] = 'Das Datum \'Bearbeiten sperren bis\' kann nicht vor dem Datum \'Bearbeiten sperren ab\' liegen.';
 $string['wrongdataid'] = 'Falsche Daten-ID bereitgestellt';

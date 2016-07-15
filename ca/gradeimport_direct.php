@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['direct:view'] = 'Importa qualificacions des de CSV';
+$string['direct:view'] = 'Importa qualificacions des d\'un fitxer CSV';
 $string['pluginname'] = 'Enganxa des d\'un full de càlcul';
+$string['userdata'] = 'Ajuda en la còpia de dades dins d\'aquest formulari.';
+$string['userdata_help'] = 'Les qualificacions poden copiar-se i enganxar-se des d\'un full de càlcul al quadern de qualificacions. El full de càlcul ha de tenir una columna que contingui dades d\'identificació de l\'usuari, ja sigui el nom d\'usuari o l\'ID o el correu electrònic. Cada columna per importar ha de tenir una capçalera de columna.';

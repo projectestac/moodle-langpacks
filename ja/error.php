@@ -238,6 +238,7 @@ $string['erroronline'] = '{$a} 行目にエラーがあります。';
 $string['erroroutput'] = '出力エラーが発生したため、自動リダイレクトを無効にします。';
 $string['errorparsingxml'] = 'XML構文解析エラー: {$a->errorstring} / エラー箇所: {$a->errorline} 行目 / エラー文字: {$a->errorchar}';
 $string['errorprocessingarchive'] = 'アーカイブファイルの処理中にエラーが発生しました。';
+$string['error_question_answers_missing_in_db'] = 'question_answers databaseテーブルから「 {$a->answer} 」に合致する答えを見つけることができませんでした。これはバックアップファイルからデータベース内の既存のID  {$a->dbquestionid} の問題に合致するID {$a->filequestionid} の問題のリストア中に発生しました。';
 $string['errorreadingfile'] = 'ファイル「 {$a} 」の読み取り中にエラーが発生しました。';
 $string['errorsavingrequest'] = 'あなたのリクエストを保存中にエラーが発生しました。';
 $string['errorsettinguserpref'] = 'ユーザプリファレンス設定中にエラーが発生しました。';

@@ -40,3 +40,4 @@ $string['pluginname_help'] = 'Maak een opslagruimte van een lokale map';
 $string['relativefiles'] = 'Relatieve bestanden toestaan';
 $string['relativefiles_desc'] = 'Hiermee worden alle bestanden in de opslagruimte toegankelijk via relatieve links.';
 $string['root'] = 'Root';
+$string['searchresults'] = 'Zoekresultaten';

@@ -70,6 +70,7 @@ $string['framesize'] = 'Altura del marc';
 $string['legacyfiles'] = 'Migració d\'un fitxer de curs antic';
 $string['legacyfilesactive'] = 'Actiu';
 $string['legacyfilesdone'] = 'Finalitzat';
+$string['modifieddate'] = 'Modificat {$a}';
 $string['modulename'] = 'Fitxer';
 $string['modulename_help'] = 'El mòdul de fitxer permet a un professor proporcionar un fitxer com un recurs del curs. Sempre que sigui possible, es mostrarà el fitxer en la interfície de curs; en cas contrari, a l\'estudiantat se li presentarà l\'opció de baixar-lo. El fitxer pot incloure altres fitxers de suport, per exemple una pàgina HTML pot incloure imatges o objectes Flash.
 
@@ -96,12 +97,16 @@ $string['printintro'] = 'Mostra la descripció del recurs';
 $string['printintroexplain'] = 'Voleu mostrar la descripció del recurs per sota del contingut? Algunes pàgines no mostren la descripció malgrat estigui activat.';
 $string['resource:addinstance'] = 'Afegeix un recurs nou';
 $string['resourcecontent'] = 'Fitxers i subcarpetes';
+$string['resourcedetails_sizedate'] = '{$a->size} {$a->date}';
 $string['resourcedetails_sizetype'] = '{$a->size} {$a->type}';
+$string['resourcedetails_sizetypedate'] = '{$a->size} {$a->type} {$a->date}';
+$string['resourcedetails_typedate'] = '{$a->type} {$a->date}';
 $string['resource:exportresource'] = 'Exporta el recurs';
 $string['resource:view'] = 'Veure recurs';
 $string['search:activity'] = 'Fitxer';
 $string['selectmainfile'] = 'Seleccioneu el fitxer principal prement la icona a la vora del nom.';
 $string['showdate'] = 'Mostra la data de la càrrega/modificació';
+$string['showdate_desc'] = 'Voleu mostrar la data de càrrega / de modificació a la pàgina del curs?';
 $string['showdate_help'] = 'Mostra la data de la càrrega/modificació al costat dels enllaços al fitxer.
 
 Si hi ha diversos fitxers en aquest recurs, es mostra la data del fitxer d\'inici de la càrrega/modificació.';

@@ -229,6 +229,7 @@ $string['selectedquestions'] = 'Preguntes seleccionades d’una escala, tots els
 $string['summary'] = 'Resum';
 $string['survey:addinstance'] = 'Afegeix una enquesta nova';
 $string['surveycompleted'] = 'Heu completat l’enquesta. La gràfica següent resumeix els teus resultats comparats amb la mitjana de la classe.';
+$string['surveycompletednograph'] = 'Heu completat aquesta enquesta.';
 $string['survey:download'] = 'Baixar respostes';
 $string['surveygraph'] = 'Gràfica de l\'enquesta';
 $string['surveyname'] = 'Nom de l’enquesta';

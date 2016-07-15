@@ -203,8 +203,8 @@ $string['eventdiscussionviewed'] = 'ディスカッションが閲覧されま�
 $string['eventpostcreated'] = '投稿が作成されました。';
 $string['eventpostdeleted'] = '投稿が削除されました。';
 $string['eventpostupdated'] = '投稿が更新されました。';
-$string['eventreadtrackingdisabled'] = '購読トラッキングが無効にされました。';
-$string['eventreadtrackingenabled'] = '購読トラッキングが有効にされました。';
+$string['eventreadtrackingdisabled'] = '未読管理が無効にされました。';
+$string['eventreadtrackingenabled'] = '未読管理が有効にされました。';
 $string['eventsubscribersviewed'] = '購読者が閲覧されました。';
 $string['eventsubscriptioncreated'] = '購読が作成されました。';
 $string['eventsubscriptiondeleted'] = '購読が削除されました。';
@@ -485,7 +485,7 @@ $string['subscriberstowithcount'] = '「 {$a->name} 」 ({$a->count}) の購読�
 $string['subscribestart'] = 'このフォーラムの新しい投稿を私にメール通知してください';
 $string['subscribestop'] = 'このフォーラムの新しい投稿を私にメール通知しないでください';
 $string['subscription'] = 'メール購読';
-$string['subscriptionandtracking'] = '購読およびトラッキング';
+$string['subscriptionandtracking'] = '購読および未読管理';
 $string['subscriptionauto'] = '自動購読';
 $string['subscriptiondisabled'] = '購読停止';
 $string['subscriptionforced'] = '強制購読';
@@ -514,11 +514,11 @@ $string['trackingoff'] = 'Off';
 $string['trackingon'] = '強制';
 $string['trackingoptional'] = '任意';
 $string['trackingtype'] = '未読管理';
-$string['trackingtype_help'] = 'この設定を有効にした場合、参加者はフォーラムおよびディスカッションの投稿の既読および未読を管理することができます。設定には以下3つのオプションがあります:
+$string['trackingtype_help'] = '未読管理により新しい投稿がハイライトされることで参加者はまだ閲覧していない投稿を簡単に確認することができます。
 
-* 任意: 参加者は管理ブロック内のリンクで未読管理を有効または無効にすることができます。
-* 強制: ユーザ設定にかかわらず、常に未読管理します。管理設定により利用できます。
-* Off: 未読管理しません。';
+「任意」に設定された場合、参加者は管理ブロック内のリンクにより未読管理を有効または無効にすることができます (ユーザは自分のフォーラムプリファレンスでフォーラム未読管理を有効にする必要があります)。
+
+サイト管理者が「未読管理の強制を許可する」を有効にした場合、さらなるオプション「強制」を使用することができます。これはユーザのフォーラムプリファレンスに限らず、常に未読管理が有効にされることを意味します。';
 $string['unread'] = '未読';
 $string['unreadposts'] = '未読の投稿';
 $string['unreadpostsnumber'] = '未読件数 {$a}';

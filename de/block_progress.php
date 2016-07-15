@@ -113,6 +113,7 @@ $string['lti'] = 'Externes Werkzeug';
 $string['marked'] = 'bewertet';
 $string['mouse_over_prompt'] = 'Für Informationen, mit der Maus darüber fahren oder antippen.';
 $string['no_blocks'] = 'Für Ihre Kurse sind keine Fortschrittsbalken-Blöcke eingerichtet.';
+$string['no_courses'] = 'Hier werden Fortschrittsbalken von Kursen, in denen Sie eingeschrieben sind, angezeigt. Sie sind aber in keinen Kurs eingeschrieben.';
 $string['no_events_config_message'] = 'Keine Aktivitäten oder Materialien, deren Fortschritt überwacht werden könnte. Fügen Sie  Aktivitäten oder Materialien hinzu und konfigurieren anschließend diesen Block.';
 $string['no_events_message'] = 'Die Aktivitäten oder Materialien werden nicht überwacht. Konfigurieren Sie diesen Block.';
 $string['notAttempted_colour'] = '#C71C22';

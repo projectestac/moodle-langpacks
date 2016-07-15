@@ -57,7 +57,9 @@ $string['auth_remove_suspend'] = 'Blokkeer interne gegevens';
 $string['auth_remove_user'] = 'Geef op wat er moet gebeuren met interne gebruikersaccounts gedurende een volledige synchronisatie wanneer de gebruiker verwijderd was van de externe bron.
 Enkel geblokkeerde gebruikers worden automatisch terug geactiveerd wanneer ze terug in de externe bron verschijnen.';
 $string['auth_remove_user_key'] = 'Externe gebruiker verwijderd';
-$string['auth_sync_script'] = 'Cron synchronisatirscript';
+$string['auth_sync_script'] = 'Synchronistatie van  gebruikersaccounts';
+$string['auth_sync_suspended'] = 'Indien ingeschakeld zal het attribuut voor geschorste gebruikersaccounts gebruikt worden om de status van de lokale gebruikersaccount aan te passen.';
+$string['auth_sync_suspended_key'] = 'Synchroniseer schorsingsstatus van lokale gebruikersaccounts';
 $string['auth_updatelocal'] = 'Update lokale gegevens';
 $string['auth_updatelocal_expl'] = '<p><b>Update lokale gegevens:</b>Als je dit inschakelt, dan zal het veld (van de externe authenticatie) automatisch geüpdatet worden telkens de gebruiker zich aanmeldt of wanneer er een gebruikerssynchronisatie gebeurt. Velden die lokaal worden geüpdatet moeten geblokkeerd worden.</p>';
 $string['auth_updateremote'] = 'Update externe gegevens';
@@ -162,3 +164,5 @@ $string['update_onlogin'] = 'Bij elke aanmelding';
 $string['update_onupdate'] = 'Bij het updaten';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() ondersteunt het geselecteerde gebruikerstype niet: {$a}';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() ondersteunt het geselecteerde gebruikerstype (nog) niet';
+$string['username'] = 'Gebruikersnaam';
+$string['username_help'] = 'Houd er rekening mee dat sommige authenticatieplugins het niet zullen toestaan om de gebruikersnaam te wijzigen.';

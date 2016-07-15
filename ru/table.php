@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['downloadas'] = 'Скачать табличные данные как {$a->formatsmenu} {$a->downloadbutton}';
+$string['downloadas'] = 'Скачать табличные данные как';
 $string['downloadcsv'] = 'CSV-файл (разделитель - запятая)';
 $string['downloadexcel'] = 'Таблица Excel';
 $string['downloadods'] = 'Таблица OpenDocument';

@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['doimport'] = 'Importa';
 $string['errornochapters'] = 'No s\'han trobat capítols en el fitxer seleccionat';
-$string['import'] = 'Importa';
+$string['import'] = 'Importa un capítol';
 $string['importhtml:import'] = 'Importa capítols';
 $string['importing'] = 'S\'està important';
 $string['importingchapters'] = 'S\'estan important capítols al llibre';

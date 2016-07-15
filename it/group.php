@@ -143,7 +143,7 @@ $string['importgroups_help'] = 'E\' possibile importare gruppi attraverso un fil
 * il campo groupname è obbligatorio
 * i campi description, enrolmentkey, picture, hidepicture sono facoltativi.';
 $string['includeonlyactiveenrol'] = 'Includi solo iscrizioni attive';
-$string['includeonlyactiveenrol_help'] = 'Consente di includere nei gruppi solamente gli utenti con l\'iscrizione attiva, escludendo gli utenti sospesi.';
+$string['includeonlyactiveenrol_help'] = 'Consente di escludere dai gruppi gli utenti sospesi.';
 $string['javascriptrequired'] = 'Questa pagina richiede Javascript abilitato';
 $string['members'] = 'Membri per gruppo';
 $string['membersofselectedgroup'] = 'Membri di:';

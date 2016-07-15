@@ -236,6 +236,7 @@ $string['erroronline'] = 'Erro na linha {$a}';
 $string['erroroutput'] = 'Erro de envio, vai desativar o redirecionamento automático.';
 $string['errorparsingxml'] = 'Erro ao analisar XML: {$a->errorstring} na linha {$a->errorline}, caráter {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Erro ao processar o ficheiro de arquivo';
+$string['error_question_answers_missing_in_db'] = 'Não foi possível encontrar uma resposta correspondente a "{$a->answer}" na tabela question_answers da base de dados. Ocorreu ao restaurar a questão com o id {$a->filequestionid} do ficheiro de cópia de segurança, que correspondia à questão existente com o id {$a->dbquestionid} na base de dados .';
 $string['errorreadingfile'] = 'Erro na leitura do ficheiro "{$a}"';
 $string['errorsavingrequest'] = 'Ocorreu um erro ao salvar o seu pedido.';
 $string['errorsettinguserpref'] = 'Ocorreu um erro de configuração das preferências de utilizador';

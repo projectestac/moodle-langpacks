@@ -33,6 +33,8 @@ Kontuan izan, bestalde, kasu honetan ezin dela erabiltzaileen ekintzarik erregis
 $string['displayinline'] = 'Erakutsi ikastaroaren orrian';
 $string['displaypage'] = 'Apareteko orri batean';
 $string['dnduploadmakefolder'] = 'Deskonprimatu fixtategiak eta sortu karpeta';
+$string['downloadfolder'] = 'Jaitsi karpeta';
+$string['eventallfilesdownloaded'] = 'Jaitsitako karpetaren zip fitxategia';
 $string['eventfolderupdated'] = 'Karpeta eguneratu da';
 $string['folder:addinstance'] = 'Gehitu beste karpeta bat';
 $string['foldercontent'] = 'Fitxategiak eta azpikarpetak';

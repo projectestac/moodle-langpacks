@@ -51,9 +51,9 @@ $string['confirmcheckdefaults'] = 'Aquesta funció cercarà valors per defecte i
 Una vegada generades, podeu copiar les sentències i executar-les de forma segura amb la vostra interfície SQL favorita (no oblideu fer abans una còpia de seguretat de les dades).<br /><br />
 És molt recomanable estar utilitzant la darrera actualització disponible (versions +) de la vostra versió de Moodle (1.8, 1.9, 2.x...) abans d\'executar la cerca de valors per defecte inconsistents.<br /><br />
 Aquesta funció no realitza cap canvi en la base de dades (sols hi llegeix), així que pot executar-se de forma segura en tot moment.';
-$string['confirmcheckforeignkeys'] = 'Aquesta funció cercarà violacions potencials de les claus foranes definides en el fitxer install.xml. (Moodle no genera actualment restriccions de claus foranes en la base de dades, raó per la qual cosa pot haver-hi dades invàlides.)<br /><br />
+$string['confirmcheckforeignkeys'] = 'Aquesta funció cercarà violacions potencials de les claus foranes definides al fitxer install.xml. (Moodle no genera actualment restriccions de claus foranes a la base de dades, raó per la qual pot haver-hi dades no vàlides.)<br /><br />
 És molt recomanable estar utilitzant la darrera actualització disponible (versions +) de la vostra versió de Moodle (1.8, 1.9, 2.x...) abans d\'executar la cerca d\'índexs desapareguts.<br /><br />
-Aquesta funció no realitza cap canvi en la base de dades (sols hi llegeix), així que pot executar-se de forma segura en tot moment.';
+Aquesta funció no realitza cap canvi a la base de dades (sols hi llegeix), així que pot executar-se de forma segura en tot moment.';
 $string['confirmcheckindexes'] = 'Aquesta funció cercarà índexs potencialment desapareguts en el vostre servidor Moodle. Generarà automàticament (però sense executar-les) les sentències SQL necessàries per a mantenir-ho tot actualitzat.<br /><br />
 Una vegada generades, podeu copiar les sentències i executar-les de forma segura amb la vostra interfície SQL favorita (no oblideu fer abans una còpia de seguretat de les dades).<br /><br />
 És molt recomanable estar utilitzant la darrera actualització disponible (versions +) de la vostra versió de Moodle (1.8, 1.9, 2.x...) abans d\'executar la cerca d\'índexs desapareguts.<br /><br />
@@ -108,6 +108,8 @@ $string['fieldsusedinindex'] = 'Aquest camp s\'utilitza com a índex';
 $string['fieldsusedinkey'] = 'Aquest camp s\'utilitza com a clau.';
 $string['filemodifiedoutfromeditor'] = 'Avís: el fitxer s\'ha modificat localment mentre s\'utilitzava l\'editor XMLDB. Si el deseu, se sobreescriuran els canvis locals.';
 $string['filenotwriteable'] = 'Fitxer sense permís d\'escriptura';
+$string['fkunknownfield'] = 'La clau forana {$a->keyname} en la taula {$a->tablename} apunta a un camp {$a->reffield} que no existeix a la taula referenciada {$a->reftable}.';
+$string['fkunknowntable'] = 'La clau forana {$a->keyname} en la taula {$a->tablename} apunta a una taula {$a->reftable} que no existeix.';
 $string['fkviolationdetails'] = 'La clau forana {$a->keyname} en la taula {$a->tablename} és violada en  {$a->numviolations} de {$a->numrows} files.';
 $string['float2numbernote'] = 'Avís: tot i que els camps "float" són 100% compatibles amb XMLDB, es recomana migrar a camps "number".';
 $string['floatincorrectdecimals'] = 'Nombre incorrecte de decimals per a camp float';
@@ -172,6 +174,8 @@ $string['selecttable'] = 'Selecciona taula:';
 $string['table'] = 'Taula:';
 $string['tablenameempty'] = 'El nom de taula no pot estar buit';
 $string['tables'] = 'Taules';
+$string['unknownfield'] = 'Està referenciant un camp desconegut';
+$string['unknowntable'] = 'Està referenciant una taula desconeguda';
 $string['unload'] = 'Descarrega';
 $string['up'] = 'Amunt';
 $string['view'] = 'Mostra';

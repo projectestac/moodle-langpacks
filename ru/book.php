@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addafter'] = 'Добавить главу';
 $string['book:addinstance'] = 'Добавлять новую книгу';
 $string['book:edit'] = 'Редактировать главы книги';
-$string['book:read'] = 'Читать книгу';
+$string['book:read'] = 'Просматривать книгу';
 $string['book:viewhiddenchapters'] = 'Просматривать скрытые главы книги';
 $string['chapters'] = 'Главы';
 $string['chaptertitle'] = 'Название главы';
@@ -88,6 +88,8 @@ $string['numberingoptions_desc'] = 'Выберите параметры нуме
 $string['page-mod-book-x'] = 'Страница любого модуля Книга';
 $string['pluginadministration'] = 'Управление книгой';
 $string['pluginname'] = 'Книга';
+$string['search:activity'] = 'Книга — информация о ресурсе';
+$string['search:chapter'] = 'Книга — главы';
 $string['showchapter'] = 'Показать главу «{$a}»';
 $string['subchapter'] = 'Подраздел';
 $string['subchapternotice'] = '(Создана только одна первая глава)';

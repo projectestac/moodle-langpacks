@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['eventreportviewed'] = 'Отчет «Статистика» просмотрен';
 $string['eventuserreportviewed'] = 'Отчет «Статистика» для участника курса просмотрен';
+$string['nocapability'] = 'Невозможно получить доступ к отчету о статистике пользователя';
 $string['page-report-stats-index'] = 'Отчет «Статистика» для курса';
 $string['page-report-stats-user'] = 'Отчет «Статистика» для участника курса';
 $string['page-report-stats-x'] = 'Любой отчет «Статистика»';

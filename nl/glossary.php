@@ -303,6 +303,8 @@ $string['rsstype_help'] = '<p>Met deze optie kun je een RSS-feed maken van deze 
 <li><B>Met auteur:</b>Met deze instelling zal in de gegenereerde feeds de naam van de auteur bij elk artikel staan.</li>
 <li><B>Zonder auteur:</b> Met deze instelling de naam van de auteur niet zal in de gegenereerde feeds staan.</li>
 </ul>';
+$string['search:activity'] = 'Woordenlijst - activiteitsinformatie';
+$string['search:entry'] = 'Woordenlijst - items';
 $string['searchindefinition'] = 'Zoek ook in definities';
 $string['secondaryglossary'] = 'Secundaire woordenlijst';
 $string['showall'] = 'Toon de link \'Alles\'';

@@ -29,6 +29,7 @@ $string['eventactivityreportviewed'] = 'Relatório de atividade visualizado';
 $string['eventoutlinereportviewed'] = 'Relatório geral visualizado';
 $string['neverseen'] = 'Nunca visto';
 $string['nologreaderenabled'] = 'Nenhum leitor de registos ativado';
+$string['numviews'] = '{$a->numviews} por {$a->distinctusers} utilizadores';
 $string['outline:view'] = 'Ver relatório de atividades';
 $string['page-report-outline-index'] = 'Relatório geral da disciplina';
 $string['page-report-outline-user'] = 'Relatório geral da disciplina do utilizador';
