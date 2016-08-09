@@ -98,5 +98,6 @@ $string['subdeletesuccess'] = 'Subscrição removida com sucesso';
 $string['subhelp'] = 'Detalhes da subscrição';
 $string['subhelp_help'] = 'Esta subscrição deteta quando o evento \'{$a->eventname}\' foi desencadeado em \'{$a->moduleinstance}\' {$a->frequency}  vez(es) em {$a->minutes} minuto(s).';
 $string['subscribeto'] = 'Subscrever a regra "{$a}"';
+$string['taskchecksubscriptions'] = 'Ativar/desativar regras inválidas de subscrições';
 $string['taskcleanevents'] = 'Remove todos os eventos desnecessários do monitor de eventos';
 $string['unsubscribe'] = 'Cancelar subscrição';

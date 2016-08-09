@@ -200,6 +200,7 @@ $string['downloadinfo'] = 'Il vous est possible de télécharger l\'ensemble des
 $string['downloadresults'] = 'Télécharger les résultats';
 $string['downloadtext'] = 'Télécharger les données dans un format texte';
 $string['editingasurvey'] = 'Modification d\'une consultation';
+$string['errorunabletosavenotes'] = 'Une erreur est survenue lors de l\'enregistrement de vos annotations.';
 $string['eventreportdownloaded'] = 'Rapport de consultation téléchargé';
 $string['eventreportviewed'] = 'Rapport de consultation consulté';
 $string['eventresponsesubmitted'] = 'Réponse à la consultation envoyée';

@@ -81,8 +81,8 @@ $string['cannotupdatepost'] = 'No podeu actualitzar aquest missatge';
 $string['cannotviewpostyet'] = 'Encara no podeu llegir les preguntes d\'altres estudiants en aquest debat perquè no hi heu enviat cap missatge';
 $string['cannotviewusersposts'] = 'No hi ha missatges d\'aquest usuari a la vostra disposició';
 $string['cleanreadtime'] = 'Hora per a marcar els missatges vells com a llegits';
-$string['clicktosubscribe'] = 'No esteu subscrit/a a aquest debat. Cliqueu per a subscriure-us-hi.';
-$string['clicktounsubscribe'] = 'Esteu subscrit/a a aquest debat. Cliqueu per cancel·lar la subscripció.';
+$string['clicktosubscribe'] = 'No us heu subscrit a aquest debat. Cliqueu per a subscriure-us-hi.';
+$string['clicktounsubscribe'] = 'Us heu subscrit a aquest debat. Cliqueu per cancel·lar la subscripció.';
 $string['completiondiscussions'] = 'L\'estudiant ha d\'obrir debats:';
 $string['completiondiscussionsgroup'] = 'Requereix obrir debats';
 $string['completiondiscussionshelp'] = 'S\'han de tancar els debats';
@@ -97,18 +97,18 @@ $string['configdigestmailtime'] = 'Les persones que triïn rebre el correu elect
 $string['configdisplaymode'] = 'El mode de visualització per defecte dels debats si no se n\'especifica un.';
 $string['configenablerssfeeds'] = 'Aquest commutador habilitarà la possibilitat de tenir agregats RSS en tots els fòrums. Tot i això, haureu d\'activar els agregats en els paràmetres de cada fòrum.';
 $string['configenabletimedposts'] = 'Establiu-ho a «Si» per tal de permetre definir períodes de visualització en crear un nou debat en un fòrum.';
-$string['configlongpost'] = 'Qualsevol missatge per damunt d\'aquesta mida (exclòs l\'HTML) es considera massa llarg.';
+$string['configlongpost'] = 'Qualsevol missatge per damunt d\'aquesta mida (exclòs l\'HTML) es considera massa llarg. Els missatges que es mostren a la pàgina principal del lloc, a les pàgines d\'un curs amb format social o als perfils d\'usuari s\'escurcen fins a un tall natural en algun punt entre els valors forum_shortpost i forum_longpost.';
 $string['configmanydiscussions'] = 'Nombre màxim de debats per pàgina';
-$string['configmaxattachments'] = 'El nombre màxim per defecte d\'adjunts admesos per cada missatge.';
-$string['configmaxbytes'] = 'Mida màxima per defecte per a tots els fitxers adjuntats als fòrums d\'aquest lloc (subjecte als límits de cada curs i altres paràmetres locals)';
+$string['configmaxattachments'] = 'El nombre màxim per defecte de fitxers adjunts admesos per cada missatge.';
+$string['configmaxbytes'] = 'Mida màxima per defecte per a tots els fitxers adjuntats als fòrums d\'aquest lloc (subjecta als límits de cada curs i a altres paràmetres locals)';
 $string['configoldpostdays'] = 'Nombre de dies que han de passar per a donar per llegit un missatge.';
 $string['configreplytouser'] = 'Quan s\'envia per correu un missatge d\'un fòrum, ha de portar l\'adreça de l\'usuari com a remitent de manera que els destinataris puguin contestar-li privadament per correu? Encara que s\'especifiqui així, els usuaris poden triar en el seu perfil de mantenir oculta l\'adreça de correu.';
 $string['configrssarticlesdefault'] = 'Si el canal de continguts RSS està habilitat, configura el nombre d\'articles per defecte (ja siguin debats o missatges).';
 $string['configrsstypedefault'] = 'Si el canal de continguts RSS està habilitat, configura el tipus d\'activitat per defecte.';
 $string['configshortpost'] = 'Qualsevol missatge per sota d\'aquesta mida (exclòs l\'HTML) es considera massa breu.';
 $string['configtrackingtype'] = 'Configuració per defecte per al seguiment de la lectura.';
-$string['configtrackreadposts'] = 'Poseu \'sí\' per fer el seguiment dels missatges llegits/no llegits per cada usuari.';
-$string['configusermarksread'] = '\'Sí\' vol dir que l\'usuari ha de marcar el missatge com a llegit. \'No\' vol dir que en llegir un missatge es marca automàticament com a llegit.';
+$string['configtrackreadposts'] = 'Poseu «sí» per fer el seguiment dels missatges llegits/no llegits per cada usuari.';
+$string['configusermarksread'] = '«Sí» vol dir que l\'usuari ha de marcar el missatge com a llegit. «No» vol dir que en llegir un missatge es marca automàticament com a llegit.';
 $string['confirmsubscribe'] = 'Segur que voleu subscriure-us al fòrum «{$a}»?';
 $string['confirmsubscribediscussion'] = 'De veritat voleu subscriure-us al debat «{$a->discussion}» al fòrum «{$a->forum}»?';
 $string['confirmunsubscribe'] = 'Segur que voleu cancel·lar la vostra subscripció al fòrum «{$a}»?';
@@ -133,9 +133,9 @@ $string['digestsentusers'] = 'S\'han enviat amb èxit els resums de correu de: {
 $string['disallowsubscribe'] = 'No es permeten subscripcions';
 $string['disallowsubscribeteacher'] = 'No es permeten subscripcions (excepte al professorat)';
 $string['disallowsubscription'] = 'Subscripció';
-$string['disallowsubscription_help'] = 'La configuració del fòrum no permet subscriure-us a les discussions.';
+$string['disallowsubscription_help'] = 'Aquest fòrum s\'ha configurat de manera que no us podeu subscriure als debats.';
 $string['discussion'] = 'Debat';
-$string['discussionmoved'] = 'Aquest debat s\'ha traslladat a \'{$a}\'.';
+$string['discussionmoved'] = 'Aquest debat s\'ha traslladat a «{$a}».';
 $string['discussionmovedpost'] = 'Aquest debat s\'ha traslladat <a href="{$a->discusshref}">aquí</a> dins del fòrum <a href="{$a->forumhref}">{$a->forumname}</a>';
 $string['discussionname'] = 'Títol del debat';
 $string['discussionnownotsubscribed'] = '{$a->name} NO rebrà més notificacions de missatges al «{$a->discussion}» del «{$a->forum}»';
@@ -149,8 +149,8 @@ $string['discussionsstartedbyrecent'] = 'Debats iniciats recentment per {$a}';
 $string['discussionsstartedbyuserincourse'] = 'Debats iniciats per {$a->fullname} en el curs {$a->coursename}';
 $string['discussionsubscribestart'] = 'Envieu-me notificacions de missatges nous en aquest debat';
 $string['discussionsubscribestop'] = 'No vull rebre més notificacions de missatges nous en aquest debat';
-$string['discussionsubscription'] = 'Subcripció a les discussions';
-$string['discussionsubscription_help'] = 'Subscriure\'s a una discussió significa que rebreu notificacions quan s\'afegeixin nous missatges a aquella discussió.';
+$string['discussionsubscription'] = 'Subscripció als debats';
+$string['discussionsubscription_help'] = 'Subscriure\'s a un debat significa que rebreu notificacions quan s\'afegeixin nous missatges a aquell debat.';
 $string['discussionunpin'] = 'Desfixa';
 $string['discussthistopic'] = 'Debateu aquest tema';
 $string['displayend'] = 'Fi de la visualització';
@@ -176,18 +176,18 @@ $string['emaildigestsubjectsshort'] = 'Sols assumptes';
 $string['emaildigesttype'] = 'Opcions de resum del correu electrònic';
 $string['emaildigesttype_help'] = 'El tipus de notificacions que rebreu de cada fòrum.
 
-* Per defecte - mantindrà els paràmetres de resum trobats al vostre perfil. Si actualitzeu els vostre perfil el canvi es reflectirà també aquí.
-* Sense resum - missatges complets - rebreu un correu electrònic per cada missatge del fòrum.
-* Resum - missatges complets - rebreu un correu de resum al dia que contindrà els missatges complets del fòrum.
-* Resum - sols assumptes - rebreu un correu de resum al dia que contindrà només els assumptes del missatges del fòrum.';
+* Per defecte: mantindrà els paràmetres de resum trobats al vostre perfil. Si actualitzeu els vostre perfil, el canvi es reflectirà també aquí.
+* Sense resum, missatges complets: rebreu un correu electrònic per cada missatge del fòrum.
+* Resum, missatges complets: rebreu un correu de resum al dia que contindrà els missatges complets del fòrum.
+* Resum, sols assumptes: rebreu un correu de resum al dia que contindrà només els assumptes dels missatges del fòrum.';
 $string['emaildigestupdated'] = 'L\'opció de resum del correu electrònic ha estat canviada a  «{$a->maildigesttitle}» per al fòrum «{$a->forum}». {$a->maildigestdescription}';
 $string['emaildigestupdated_default'] = 'La configuració del vostre perfil per defecte de «{$a->maildigesttitle}» s\'ha usat al fòrum  «{$a->forum}». {$a->maildigestdescription}.';
 $string['emptymessage'] = 'El vostre missatge presentava algun problema. Potser l\'havíeu deixat en blanc, o el fitxer adjunt era massa gran. Els canvis NO s\'han desat.';
 $string['erroremptymessage'] = 'El missatge no pot estar buit';
 $string['erroremptysubject'] = 'La casella «Assumpte» no pot estar buida';
-$string['errorenrolmentrequired'] = 'Heu d\'estar inscrit/a en aquest curs per a poder accedir al contingut';
+$string['errorenrolmentrequired'] = 'Us heu d\'haver inscrit en aquest curs per a poder accedir a aquest contingut';
 $string['errorwhiledelete'] = 'S\'ha produït un error en esborrar el registre.';
-$string['eventassessableuploaded'] = 'Algun contingut ha estat publicat.';
+$string['eventassessableuploaded'] = 'S\'han publicat alguns continguts.';
 $string['eventcoursesearched'] = 'Curs cercat';
 $string['eventdiscussioncreated'] = 'S\'ha creat el debat';
 $string['eventdiscussiondeleted'] = 'S\'ha suprimit el debat';
@@ -214,17 +214,17 @@ $string['everyoneissubscribed'] = 'Tothom està subscrit a aquest fòrum';
 $string['existingsubscribers'] = 'Subscriptors actuals';
 $string['exportdiscussion'] = 'Exporta el debat sencer';
 $string['forcedreadtracking'] = 'Habilita el seguiment de lectura forçat';
-$string['forcedreadtracking_desc'] = 'Si habiliteu configurar els fòrums per seguir la lectura forçada, disminuireu el rendiment per a alguns usuaris, sobre tot en cursos amb molts fòrums i missatges. Si no ho habiliteu, qualsevol fòrum configurat prèviament com a forçat es tractarà com opcional.';
+$string['forcedreadtracking_desc'] = 'Si habiliteu configurar els fòrums per seguir la lectura forçada, disminuireu el rendiment per a alguns usuaris, sobretot en cursos amb molts fòrums i missatges. Si no ho habiliteu, qualsevol fòrum configurat prèviament com a forçat es tractarà com a opcional.';
 $string['forcesubscribed'] = 'Aquest fòrum subscriu obligatòriament a tothom';
 $string['forcesubscribed_help'] = 'El fòrum ha estat configurat de forma que no podeu cancel·lar la subscripció als debats.';
 $string['forum'] = 'Fòrum';
 $string['forum:addinstance'] = 'Afegeix un fòrum nou';
-$string['forum:addnews'] = 'Afegir notícies';
+$string['forum:addnews'] = 'Afegeix notícies';
 $string['forum:addquestion'] = 'Afegeix una pregunta';
-$string['forum:allowforcesubscribe'] = 'Permetre imposar la subscripció';
+$string['forum:allowforcesubscribe'] = 'Permet imposar la subscripció';
 $string['forumauthorhidden'] = 'Autor (ocult)';
 $string['forumblockingalmosttoomanyposts'] = 'Us esteu apropant al llindar de missatges. Heu enviat {$a->numposts} missatges en {$a->blockperiod} i el límit són {$a->blockafter} missatges.';
-$string['forumbodyhidden'] = 'No podeu veure aquest missatge, probablement perquè encara no heu enviat un missatge en aquest debat, encara no ha conclòs el temps màxim d\'edició, el debat encara no ha començat o ja ha acabat.';
+$string['forumbodyhidden'] = 'No podeu veure aquest missatge, probablement perquè: encara no heu enviat un missatge en aquest debat, encara no ha conclòs el temps màxim d\'edició, el debat encara no ha començat o el debat ja ha acabat.';
 $string['forum:canposttomygroups'] = 'Podeu enviar missatges a tots els grups als quals teniu accés';
 $string['forum:createattachment'] = 'Crear adjuncions';
 $string['forum:deleteanypost'] = 'Suprimir qualsevol missatge (sempre)';

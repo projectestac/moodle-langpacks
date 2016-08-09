@@ -33,7 +33,7 @@ $string['addedtoblock'] = 'あなたのコミュニティファインダブロ�
 $string['additionalcoursedesc'] = '{$a->lang} 作成者: {$a->creatorname} - 公開者: {$a->publishername} - テーマ: {$a->subject} - オーディエンス: {$a->audience} - 教育レベル: {$a->educationallevel} - ライセンス: {$a->license}';
 $string['addtocommunityblock'] = 'このコースへのリンクを保存する';
 $string['audience'] = '対象';
-$string['audience_help'] = 'どのようなコースを探していますか? あなたは従来の学生用コースと同様に教育者コミュニティまたはMoodle管理者用コースを探すこともできます。';
+$string['audience_help'] = 'どのようなコースを探していますか? あなたは従来の学生用コースと同様に教育者コミュニティまたはMoodle管理者コースを探すこともできます。';
 $string['blocks'] = 'ブロック';
 $string['cannotselecttopsubject'] = 'トップ科目レベルを選択することはできません。';
 $string['comments'] = 'コメント ({$a})';
@@ -58,7 +58,7 @@ $string['downloadingcourse'] = 'コースのダウンロード';
 $string['downloadingsize'] = 'お待ちください、コースファイルダウンロード中です ({$a->total}Mb) ...';
 $string['downloadtemplate'] = 'テンプレートからコースを作成する';
 $string['educationallevel'] = '教育レベル';
-$string['educationallevel_help'] = 'あなたはどのような教育レベルを探していますか? 教育コミュニティに関して、このレベルでは教えるレベルを指します。';
+$string['educationallevel_help'] = 'あなたはどのような教育レベルを探していますか? 教育コミュニティに関して、このレベルは教えるレベルを指します。';
 $string['enroldownload'] = '探す';
 $string['enroldownload_help'] = '選択されたハブ内に一覧表示されたいくつかのコースではユーザがオリジナルサイトにアクセスして参加することができます。
 

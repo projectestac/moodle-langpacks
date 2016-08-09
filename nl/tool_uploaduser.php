@@ -35,6 +35,7 @@ $string['deleteerrors'] = 'Verwijder fouten';
 $string['encoding'] = 'Codering';
 $string['errormnetadd'] = 'Kan externe gebruikers niet toevoegen';
 $string['errors'] = 'Fouten';
+$string['invaliduserdata'] = 'Ongeldige gegevens ontdekt voor gebruiker {$a} en automatisch opgeschoond.';
 $string['nochanges'] = 'Geen wijzigingen';
 $string['pluginname'] = 'Gebruiker upload';
 $string['renameerrors'] = 'Fouten in hernoemen';

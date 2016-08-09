@@ -200,6 +200,7 @@ $string['downloadinfo'] = 'あなたはExcel、SPSS等で分析するために�
 $string['downloadresults'] = 'ダウンロード結果';
 $string['downloadtext'] = 'テキストフォーマットでダウンロードする';
 $string['editingasurvey'] = '調査を編集する';
+$string['errorunabletosavenotes'] = 'あなたのノートの保存中にエラーが発生しました。';
 $string['eventreportdownloaded'] = '調査レポートがダウンロードされました。';
 $string['eventreportviewed'] = '調査レポートが閲覧されました。';
 $string['eventresponsesubmitted'] = '調査回答が送信されました。';

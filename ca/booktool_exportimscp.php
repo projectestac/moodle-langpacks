@@ -27,6 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['eventbookexported'] = 'Llibre exportat';
 $string['exportimscp:export'] = 'Exporta el llibre com a paquet de contingut IMS';
-$string['generateimscp'] = 'Genera paquet de contingut IMS';
-$string['nochapters'] = 'No es pot exportar a IMS, no s\'han trobat capítols.';
+$string['generateimscp'] = 'Genera un PC IMS';
+$string['nochapters'] = 'No es pot exportar a un PC IMS, no s\'han trobat capítols de llibre.';
 $string['pluginname'] = 'Exporta el llibre com a paquet de contingut IMS';

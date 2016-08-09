@@ -29,6 +29,6 @@ $string['configplugin'] = 'URL容器类型配置';
 $string['download'] = '下载';
 $string['pluginname'] = 'URL 下载器';
 $string['rename'] = '名称';
-$string['url'] = 'URL';
+$string['url'] = '网页地址';
 $string['url:view'] = '在文件选择器中使用URL下载器';
 $string['validname'] = '您必须提供一个有效的文件名';

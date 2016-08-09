@@ -52,6 +52,7 @@ $string['availabletags_help'] = '<p align="center"><strong>Beschikbare tags</str
 <p>Knoppen maak je met volgende opmaak: ##eenknop##</p>
 <p>Enkel de tags die je terugvindt in de "Beschikbare tags" lijst kunnen voor het huidige sjabloon gebruikt worden.</p>';
 $string['availabletodate'] = 'Beschikbaar tot';
+$string['availabletodatevalidation'] = 'De \'beschikbaar tot\'-datum kan niet voor de \'beschikbaar vanaf\'-datum liggen.';
 $string['blank'] = 'Leeg';
 $string['buttons'] = 'Acties';
 $string['bynameondate'] = 'door {$a->name} - {$a->date}';
@@ -363,6 +364,7 @@ $string['savesettings'] = 'Bewaar instellingen';
 $string['savesuccess'] = 'Bewaren gelukt. Je sjabloonset zal nu voor de hele site beschikbaar zijn.';
 $string['savetemplate'] = 'Bewaar sjabloon';
 $string['search'] = 'Zoek';
+$string['search:activity'] = 'Informatie databank-activiteit';
 $string['selectedrequired'] = 'Alle geselecteerde vereist';
 $string['showall'] = 'Toon alles';
 $string['single'] = 'Itemweergave';
@@ -400,4 +402,5 @@ $string['usestandard_help'] = '<p align="center"><strong>Gebruik sjabloonsets</s
 <p> Als de sjabloonset aan de bibliotheek is toegevoegd met de funcitie \'Bewaar als sjabloonset\', dan kun je die hier verwijderen.</p>';
 $string['viewfromdate'] = 'Alleen lezen vanaf';
 $string['viewtodate'] = 'Alleen lezen tot';
+$string['viewtodatevalidation'] = 'De \'Enkel lezen tot\'-datum kan niet voor de \'Enkel lezen vanaf\'-datum liggen.';
 $string['wrongdataid'] = 'Verkeerd data-ID opgegeven';

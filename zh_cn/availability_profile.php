@@ -48,5 +48,6 @@ $string['requires_isequalto'] = '你的<strong>{$a->field}</strong>是 <strong>{
 $string['requires_isnotempty'] = '你的<strong>{$a->field}</strong> 不是空的';
 $string['requires_notendswith'] = '你的<strong>{$a->field}</strong> 不是结束于 <strong>{$a->value}</strong>';
 $string['requires_notisequalto'] = '你的 <strong>{$a->field}</strong> 不是 <strong>{$a->value}</strong>';
+$string['requires_notstartswith'] = '你的 <strong>{$a->field}</strong> 不是以 <strong>{$a->value}</strong> 开始';
 $string['requires_startswith'] = '你的<strong>{$a->field}</strong> 开始于 <strong>{$a->value}</strong>';
 $string['title'] = '个人资料';

@@ -45,7 +45,7 @@ $string['auth_fieldlocks_help'] = '<p>您可以锁定指定的用户数据字段
 <p>如果想要避免这个问题，可以考虑将锁定模式设定为“如果空则不锁定”。</p>';
 $string['authinstructions'] = '此处留空，登录页面会显示缺省的登录说明。如果想自定义登录说明，就在此输入。';
 $string['auth_invalidnewemailkey'] = '错误：URL 不正确，请完整拷贝后重试。';
-$string['authloginviaemail'] = '允许无效的电子邮件地址';
+$string['authloginviaemail'] = '允许使用电子邮件登录';
 $string['authloginviaemail_desc'] = '允许用户使用用户名和电子邮件地址（如果唯一）进行网站登录。';
 $string['auth_multiplehosts'] = '可以指定多个主机名或地址（如 host1.com;host2.com;host3.com 或 xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx）';
 $string['auth_notconfigured'] = '认证方法{$a}尚未配置。';
@@ -159,3 +159,5 @@ $string['update_onlogin'] = '每次登录时';
 $string['update_onupdate'] = '更新时';
 $string['user_activatenotsupportusertype'] = '认证：ldap的user_activate()不支持所选的用户类型：{$a}';
 $string['user_disablenotsupportusertype'] = '认证：ldap的user_disable()不支持所选的用户类型（至少现在还不支持）';
+$string['username'] = '用户名';
+$string['username_help'] = '请注意，这些认证插件不允许你更改用户名称';

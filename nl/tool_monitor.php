@@ -98,5 +98,6 @@ $string['subdeletesuccess'] = 'Uitsgeschreven';
 $string['subhelp'] = 'Inschrijvingsdetails';
 $string['subhelp_help'] = 'De inschrijving luistert naar gebeurtenis  \'{$a->eventname}\', wanneer die in \'{$a->moduleinstance}\' {$a->frequency} keer in {$a->minutes} minuten gebeurt.';
 $string['subscribeto'] = 'Inschrijven voor regel "{$a}"';
+$string['taskchecksubscriptions'] = 'Activeer/deactiveer ongeldige rolinschrijvingen';
 $string['taskcleanevents'] = 'Verwijdert onnodige gebeurtenismonitors';
 $string['unsubscribe'] = 'Uitschrijven';

@@ -117,7 +117,7 @@ Der Gruppenmodus auf Kursebene ist der Standardmodus für alle Aktivitäten im K
 $string['groupmy'] = 'Meine Gruppe';
 $string['groupname'] = 'Gruppenname';
 $string['groupnameexists'] = 'Der Gruppenname \'{$a}\' existiert in diesem Kurs bereits.';
-$string['groupnotamember'] = 'Sie sind nicht Mitglied dieser Gruppe.';
+$string['groupnotamember'] = 'Sie sind kein Mitglied dieser Gruppe.';
 $string['groups'] = 'Gruppen';
 $string['groupscount'] = 'Gruppen ({$a})';
 $string['groupsettingsheader'] = 'Gruppen';

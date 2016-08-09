@@ -329,7 +329,9 @@ $string['numawards'] = 'Deze badge is uitgereikt aan <a href="{$a->link}">{$a->c
 $string['numawardstat'] = 'Deze badge is uitgereikt aan {$a} gebruiker(s)';
 $string['overallcrit'] = 'van de geselecteerde criteria zijn voltooid.';
 $string['personaconnection'] = 'Meldt je aan met je e-mailadres';
-$string['personaconnection_help'] = 'Persona is een systeem waarmee je je kunt identificeren op het internet, waarbij je gebruikt maakt van je eigen e-mailadres. Open Badges backpack gebruikt Persona als aanmeldingssysteem. Om daarmee te kunnen verbinden, heb je dus een Persona-account nodig.';
+$string['personaconnection_help'] = 'Persona is een systeem waarmee je je kunt identificeren op het internet, waarbij je gebruikt maakt van je eigen e-mailadres.  Open Badges backpack gebruikt Persona als aanmeldingssysteem. Om daarmee te kunnen verbinden, heb je dus een Persona-account nodig.
+
+Voor meer informatie over Persona, bezoek <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Mogelijke badge-ontvangers';
 $string['preferences'] = 'Badge voorkeuren';
 $string['recipientdetails'] = 'Details ontvanger';

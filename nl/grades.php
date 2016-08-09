@@ -487,15 +487,29 @@ $string['missingscale'] = 'Je moet een schaal selecteren';
 $string['mode'] = 'Modus';
 $string['modgrade'] = 'Cijfer';
 $string['modgradecantchangegradetype'] = 'Je kunt het type niet wijzigen omdat er al cijfers voor dit item bestaan.';
+$string['modgradecantchangegradetypemsg'] = 'Sommige cijfers zijn al toegekend, dus het beoordelingstype kan neit meer gewijzigd worden. Als je het maximumcijfer wil wijzigen, moet je eerste kiezen of je al dan niet de bestaande cijfers wil herschalen.';
+$string['modgradecantchangegradetyporscalemsg'] = 'Sommige cijfers zijn al toegekend, dus je kan het beoordelingstype en de schaal niet meer wijzigen.';
 $string['modgradecantchangeratingmaxgrade'] = 'Je kunt het maximumcijfer niet wijzigen wanneer er al cijfers voor de activiteit gegeven zijn.';
 $string['modgradecantchangescale'] = 'Je kunt de schaal niet wijzigen omdat er al cijfers bestaan voor dit item.';
+$string['modgradecategorycantchangegradetypemsg'] = 'In deze categorie zitten cijfers die overschreven zijn. Daarom zijn sommige cijfers al toegekend en kan het cijfertype niet meer gewijzigd worden. Als je het maximumcijfer wil wijzigen, met je eerst kieen of je al dan niet de bestaande cijfers wil herschalen.';
+$string['modgradecategorycantchangegradetyporscalemsg'] = 'In deze categorie zitten cijfers die overschreven zijn. Daarom zijn sommige cijfers al toegekend en kan het cijfertype niet meer gewijzigd worden.';
 $string['modgradecategoryrescalegrades'] = 'Herschaal overschreven cijfers';
+$string['modgradecategoryrescalegrades_help'] = 'Wanneer je de maximumcijfers van een item in het puntenboek wijzigt, moet je specificeren of dit al dan niet bestaande percentages moet wijzigen.
+
+Als deze optie op \'ja\' gezet wordt, dan zullen alle overschreven cijfers herschaald worden zodat het procentuele cijfer gelijk blijft.
+
+Bijvoorbeeld, als deze optie op \'ja\' gezet is, dan zal het wijzigen van het maximumcijfer voor een item van 10 naar 20 er voor zorgen dat een item van 6/10 (60%) herschaald wordt naar 12/20 (60%). Met deze optie op \'nee\' zal het cijfer ongewijzigd blijven, waarbij manueel aanpassen van de cijfers nodig is om juiste scores te verzekeren.';
 $string['modgradedonotmodify'] = 'Wijzig bestaande cijfers niet';
 $string['modgradeerrorbadpoint'] = 'Ongeldige cijferwaarde. Dit moet een geheel getal zijn tussen 1 en {$a}';
 $string['modgradeerrorbadscale'] = 'Ongeldige schaal geselecteerd. Kies een schaal uit onderstaande selectie.';
 $string['modgrade_help'] = 'Selecteer het type sortering dat wordt gebruikt voor deze activiteit. Als &quot;schaal&quot; wordt gekozen, kun je vervolgens kiezen voor de schaal van de &quot;schaal&quot;-dropdown. Bij gebruik van &quot;punt&quot;-indeling, kun je vervolgens het maximale cijfer beschikbaar voor deze activiteit.';
 $string['modgrademaxgrade'] = 'Maximumcijfer';
 $string['modgraderescalegrades'] = 'Herschaal bestaande cijfers';
+$string['modgraderescalegrades_help'] = 'Wanneer je de maximumcijfers van een item in het puntenboek wijzigt, moet je specificeren of dit al dan niet bestaande percentages moet wijzigen.
+
+Als deze optie op \'ja\' gezet wordt, dan zullen alle bestaande cijfers herschaald worden zodat het procentuele cijfer gelijk blijft.
+
+Bijvoorbeeld, als deze optie op \'ja\' gezet is, dan zal het wijzigen van het maximumcijfer voor een item van 10 naar 20 er voor zorgen dat een item van 6/10 (60%) herschaald wordt naar 12/20 (60%). Met deze optie op \'nee\' zou het cijfer wijzigen van 6/10 (60%) naar 6/20 (30%), waarbij manueel aanpassen van de cijfers nodig is om juiste scores te verzekeren.';
 $string['modgradetype'] = 'Type';
 $string['modgradetypenone'] = 'Geen';
 $string['modgradetypepoint'] = 'Punt';
@@ -756,7 +770,7 @@ $string['uncategorised'] = 'Zonder categorie';
 $string['unchangedgrade'] = 'Beoordeling ongewijzigd';
 $string['unenrolledusersinimport'] = 'In deze import zaten cijfers voor gebruikers die niet in de cursus aangemeld zijn: {$a}';
 $string['unlimitedgrades'] = 'Onbeperkte cijfers';
-$string['unlimitedgrades_help'] = 'Standaard worden cijfers beperkt door de minimum- en de maximumwaarden van het beoordelingsitem. Door deze instelling in te schakelen verwijder je deze limiet en laat je toe om cijfers boven de 100% in de cijferlijst te zetten. Aangeraden wordt om deze instelling te wijzigen bij een lage belasting omdat alle cijfers herberekend zullen worden wat een hoge serverbelasting kan veroorzaken.';
+$string['unlimitedgrades_help'] = 'Standaard worden cijfers beperkt door de minimum- en de maximumwaarden van het beoordelingsitem. Door deze instelling in te schakelen verwijder je deze limiet en laat je toe om cijfers boven de 100% in de cijferlijst te zetten.';
 $string['unlock'] = 'deblokkeer';
 $string['unlockverbose'] = '{$a->category} {$a->itemmodule} {$a->itemname} vrijgeven';
 $string['unused'] = 'Ongebruikt';

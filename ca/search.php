@@ -52,6 +52,7 @@ $string['emptydatabaseerror'] = 'No existeix la taula de la base de dades, o no 
 $string['enteryoursearchquery'] = 'Introduïu la vostra cerca';
 $string['errors'] = 'Errors';
 $string['filesinindexdirectory'] = 'Fitxers en el directori índex';
+$string['globalsearch'] = 'Cerca global';
 $string['globalsearchdisabled'] = 'No s\'ha habilitat la cerca global';
 $string['invalidindexerror'] = 'El directori índex és buit o no conté un índex vàlid.';
 $string['ittook'] = 'Ha costat';

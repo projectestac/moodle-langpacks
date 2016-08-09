@@ -100,6 +100,7 @@ $string['periodend'] = 'tills';
 $string['periodnone'] = 'registrerad {$a}';
 $string['periodstart'] = 'från {$a}';
 $string['periodstartend'] = 'från {$a->start} till {$a->end}';
+$string['proceedtocourse'] = 'Gå till kursen';
 $string['recovergrades'] = 'Återställ användarens betyg om möjligt';
 $string['rolefromcategory'] = '{$a->role} (Ärvd från kurskategori)';
 $string['rolefrommetacourse'] = '{$a->role} (Ärvd från föräldrakurs)';

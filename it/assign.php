@@ -129,6 +129,7 @@ $string['cutoffdatecolon'] = 'Data limite: {$a}';
 $string['cutoffdatefromdatevalidation'] = 'La data limite deve essere successiva alla data di inizio consegne';
 $string['cutoffdate_help'] = 'Le consegne oltre la data limite saranno impedite, a meno che non si conceda una proroga.';
 $string['cutoffdatevalidation'] = 'La data limite non può essere antecedente alla data di fine consegne.';
+$string['defaultlayout'] = 'Ripristina impaginazione di default';
 $string['defaultsettings'] = 'Impostazioni compito di default';
 $string['defaultsettings_help'] = 'Queste impostazioni definiscono i default per tutte le nuove istanze di compito';
 $string['defaultteam'] = 'Gruppo di default';

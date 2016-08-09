@@ -44,7 +44,7 @@ $string['blogaboutthis'] = '关于此{$a->type}的博客';
 $string['blogaboutthiscourse'] = '发篇关于此课程的博客';
 $string['blogaboutthismodule'] = '写篇关于此{$a}的博客';
 $string['blogadministration'] = '博客管理';
-$string['blogdeleteconfirm'] = '删除这篇博客？';
+$string['blogdeleteconfirm'] = '删除这篇博客\'{$a}\'吗？';
 $string['blogdisable'] = '博客被禁用！';
 $string['blogentries'] = '博客文章';
 $string['blogentriesabout'] = '关于{$a}的博客';
@@ -142,9 +142,9 @@ $string['publishto_help'] = '有三个选择：
 * 自己（草稿）——只有您和管理员能查看此博客
 * 网站里的所有人——所有在此网站注册的人都能阅读此博客
 * 世界上的任何人——任何人，包括访客，都能阅读此博客';
-$string['publishtonoone'] = '您自己(草稿)';
-$string['publishtosite'] = '任意注册用户';
-$string['publishtoworld'] = '任何人';
+$string['publishtonoone'] = '自己(草稿)';
+$string['publishtosite'] = '网站里的所有人';
+$string['publishtoworld'] = '世界上的任何人';
 $string['readfirst'] = '请先读这个';
 $string['relatedblogentries'] = '相关博客';
 $string['retrievedfrom'] = '取自';

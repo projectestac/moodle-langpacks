@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['competenciestoreview'] = 'Na te kijken competenteis';
-$string['lp:addinstance'] = 'Voeg een nieuw leerplanblok toe';
-$string['lp:myaddinstance'] = 'Voeg een nieuw leerplanblok toe aan de startpagina van de gebruikers';
-$string['lp:view'] = 'Bekijk leerplanblok';
+$string['competenciestoreview'] = 'Na te kijken competenties';
+$string['lp:addinstance'] = 'Voeg een nieuw studieplanblok toe';
+$string['lp:myaddinstance'] = 'Voeg een nieuw studieplanblok toe aan de startpagina van de gebruikers';
+$string['lp:view'] = 'Bekijk studieplanblok';
 $string['planstoreview'] = 'Na te kijken plannen';
-$string['pluginname'] = 'Leerplannen';
+$string['pluginname'] = 'Studieplannen';
 $string['viewmore'] = 'Bekijk meer...';
 $string['viewotherplans'] = 'Bekijk andere plannen...';

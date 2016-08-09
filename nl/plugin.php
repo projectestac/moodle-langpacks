@@ -66,9 +66,7 @@ $string['notdownloadable'] = 'Kan pakket niet downloaden';
 $string['notdownloadable_help'] = 'ZIP-pakket met de update kan niet automatisch gedownload worden. Bekijk de documentatiepagina voor meer hulp.';
 $string['notes'] = 'Notities';
 $string['notwritable'] = 'Pluginbestanden niet beschrijfbaar';
-$string['notwritable_help'] = 'Je hebt het automatisch updates installeren ingeschakeld en er is een update beschikbaar voor deze plugin. De pluginbestanden zijn echter niet beschrijfbaar door de webserver, zodat de update nu niet geïnstalleerd kan worden.
-
-Maak de plugin-map en alle inhoud beschrijfbaar om de update automatisch te kunnen installeren.';
+$string['notwritable_help'] = 'De pluginbestanden zijn niet beschrijfbaar door de webserver. De webserver moet schrijftoegang hebben op de plugin-map en inhoud. Schrijftoegang tot de root-map van de plugin is ook vereist.';
 $string['otherplugin'] = '{$a->component}';
 $string['otherpluginversion'] = '{$a->component} ({$a->version})';
 $string['overviewall'] = 'Alle plugins';

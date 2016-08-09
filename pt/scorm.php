@@ -77,6 +77,7 @@ $string['calculatedweight'] = 'Peso calculado';
 $string['cannotaccess'] = 'Não pode chamar este script dessa forma';
 $string['cannotfindsco'] = 'Não foi possível encontrar o SCO';
 $string['chooseapacket'] = 'Selecionar ou atualizar um pacote de conteúdos';
+$string['closebeforeopen'] = 'Especificou uma data de fim anterior à data de início.';
 $string['collapsetocwinsize'] = 'Contrair Tabela de Conteúdos quando o tamanho da janela é inferior a';
 $string['collapsetocwinsizedesc'] = 'Esta configuração permite especificar o tamanho da janela, abaixo da qual a Tabela de Conteúdos deverá contrair automaticamente.';
 $string['compatibilitysettings'] = 'Configurações de compatibilidade';

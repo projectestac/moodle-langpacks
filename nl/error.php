@@ -238,6 +238,7 @@ $string['erroronline'] = 'Fout op lijn {$a}';
 $string['erroroutput'] = 'Foute output, de automatische verwijzing wordt uitgeschakeld.';
 $string['errorparsingxml'] = 'Fout bij het verwerken van XML: {$a->errorstring} op lijn {$a->errorline}, char {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Fout bij het verwerken van het archiefbestand';
+$string['error_question_answers_missing_in_db'] = 'Kon geen antwoord vinden dat overeenkomt met "{$a->answer}" in de question_answers database tabel. Dit gebeurde tijdens het terugzetten van de vraag met ID $a->filequestionid} in het back-upbestand, dat overeenkomt met de bestaande vraag met id {$a->dbquestionid} in de databank.';
 $string['errorreadingfile'] = 'Fout bij het lezen van bestand "{$a}"';
 $string['errorsavingrequest'] = 'Er is een fout opgetreden bij het bewaren van je vraag';
 $string['errorsettinguserpref'] = 'Fout bij het instellen van gebruikersvoorkeuren';
@@ -283,6 +284,7 @@ $string['idnumbertaken'] = 'Dit ID-nummer is al in gebruik';
 $string['idnumbertoolong'] = 'ID nummer is te lang';
 $string['importformatnotimplement'] = 'Het importeren van dit bestandsforaat is nog niet geïmplementeerd.';
 $string['incorrectext'] = 'Bestand heeft een verkeerde extentie';
+$string['inplaceeditableerror'] = 'Fout bij het updaten van de processor';
 $string['installproblem'] = 'Het is gewoonlijk niet mogelijk om fouten te herstellend die tijdens een installatie opgetreden zijn. Je kunt best een nieuwe database maken of een ander tabelprefix gebruiken als je de installatie opnieuw wil proberen.';
 $string['internalauthpassworderror'] = 'Ontbrekend wachtwoord of ongeldig wachtwoordbeleid voor interne authenticatie';
 $string['invalidaccess'] = 'Deze pagina is niet correct opgevraagd';
@@ -459,6 +461,7 @@ $string['prefixcannotbeempty'] = '<p>Fout: databank tabel prefix kan niet leeg z
 <p>De site-beheerder moet dit probleem oplossen.</p>';
 $string['prefixtoolong'] = '<p>Fout: databank tabel prefix is te lang ({$a->dbfamily})</p>
 <p>De site-beheerder moet dit probleem oplossen. De maximale lengte voor de tabelprefix in {$a->dbfamily} is {$a->maxlength} tekens.</p>';
+$string['privatefilesupload'] = 'Rechtstreeks uploaden naar privé-bestanden van een gebruiker wordt niet meer ondersteund. Upload naar een ontwerp-zone en verplaats de bestanden dan met core_user::add_user_private_files';
 $string['processingstops'] = 'Verwerking stopt hier. De overgebleven records worden genegeerd';
 $string['protected_cc_not_supported'] = 'Protected cartridge niet ondersteund.';
 $string['querystringcannotbeempty'] = 'De query string kan niet leeg zijn.';

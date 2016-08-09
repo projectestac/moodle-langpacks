@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addoutcome'] = 'Voeg een competentie toe';
-$string['courseoutcomes'] = 'Cursuscompetenties';
-$string['coursespecoutcome'] = 'Cursuscompetenties';
-$string['eventgradereportviewed'] = 'Cijfer competenties rapport bekeken';
-$string['outcomes:view'] = 'Competentierapport bekijken';
-$string['pluginname'] = 'Competentierapport';
+$string['addoutcome'] = 'Voeg een resultaat toe';
+$string['courseoutcomes'] = 'Cursusresultaten';
+$string['coursespecoutcome'] = 'Cursusresultaten';
+$string['eventgradereportviewed'] = 'Cijferresulatenrapport bekeken';
+$string['outcomes:view'] = 'Bekijk resultatenrapport';
+$string['pluginname'] = 'Resultatenrapport';
 $string['usedgradeitem'] = 'Aantal te beoordelen onderdelen';

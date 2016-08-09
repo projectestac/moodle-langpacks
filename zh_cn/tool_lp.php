@@ -61,3 +61,4 @@ $string['templateupdated'] = '学习计划模板已更新';
 $string['unlinkcompetencytemplate'] = '取消链接到该学习计划模板的能力{$a}？';
 $string['unlinkplantemplate'] = '取消链接到学习计划模板';
 $string['uponcoursemodulecompletion'] = '活动完成后：';
+$string['userevidenceurl'] = '网页地址';

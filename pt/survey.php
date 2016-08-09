@@ -200,6 +200,7 @@ $string['downloadinfo'] = 'Pode descarregar os dados deste inquérito num format
 $string['downloadresults'] = 'Descarregar resultados';
 $string['downloadtext'] = 'Descarregar dados num ficheiro de texto';
 $string['editingasurvey'] = 'A editar o inquérito';
+$string['errorunabletosavenotes'] = 'Ocorreu um erro ao guardar as observações.';
 $string['eventreportdownloaded'] = 'Relatório do inquérito descarregado';
 $string['eventreportviewed'] = 'Relatório do inquérito visualizado';
 $string['eventresponsesubmitted'] = 'Resposta ao inquérito submetida';

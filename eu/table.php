@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['downloadas'] = 'Jaitsi honela datu-taula: {$a->formatsmenu} {$a->downloadbutton}';
+$string['downloadas'] = 'Jaitsi honela datu-taula';
 $string['downloadcsv'] = 'Komek banatutako baloreak dituen testu-fitxategia';
 $string['downloadexcel'] = 'Excel kalkulu-orria';
 $string['downloadods'] = 'OpenDocument kalkulu-orria';

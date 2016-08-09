@@ -350,6 +350,7 @@ $string['role:switchroles'] = '切换到其他角色';
 $string['roletoassign'] = '被分配的角色';
 $string['roletooverride'] = '被替换的角色';
 $string['safeoverridenotice'] = '警告：因您只能修改安全的权限，高危权限已被锁定。';
+$string['search:query'] = '进行全网站的搜索';
 $string['selectanotheruser'] = '选择另一个用户';
 $string['selectauser'] = '选择一个用户';
 $string['selectrole'] = '选择角色';

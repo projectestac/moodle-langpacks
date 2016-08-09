@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['enabledock'] = '允许用户停靠此版块';
-$string['pluginname'] = '设置';
+$string['pluginname'] = '系统管理';
 $string['settings:addinstance'] = '新增管理版块';
-$string['settings:myaddinstance'] = '在我的首页新增管理版块';
+$string['settings:myaddinstance'] = '在控制面板新增一个管理版块';

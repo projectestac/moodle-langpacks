@@ -29,6 +29,7 @@ $string['allowpermissions'] = 'Grant permissions to the authenticated user role'
 $string['allowpermissionsdescription'] = 'Edit the Authenticated user role and allow the capability moodle/webservice:createtoken';
 $string['cannotcreatetoken'] = 'Automatic token generation is not available to site administrators (they must create a token manually in the site)';
 $string['checkpluginconfiguration'] = 'Check plugin configuration';
+$string['clickheretolaunchtheapp'] = 'Please, click here if the app does not open automatically';
 $string['enableadditionalservice'] = 'Enable the Moodle Mobile additional features service';
 $string['enableadditionalservicedescription'] = 'This service must be enabled.';
 $string['local_mobiledescription'] = 'Plugin that extends the Mobile service features';

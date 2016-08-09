@@ -237,6 +237,7 @@ $string['rootsettingbadges'] = 'Incluir insignias';
 $string['rootsettingblocks'] = 'Incluir bloques';
 $string['rootsettingcalendarevents'] = 'Incluir eventos del calendario';
 $string['rootsettingcomments'] = 'Incluir comentarios';
+$string['rootsettingcompetencies'] = 'Incluir competencias';
 $string['rootsettingfilters'] = 'Incluir filtros';
 $string['rootsettinggradehistories'] = 'Incluir historial de calificaciones';
 $string['rootsettinggroups'] = 'Incluir grupos y agrupamientos';

@@ -69,6 +69,7 @@ $string['navstyle'] = '导航样式';
 $string['navstyle_help'] = '*图像导航——以图标作为导航
 *文字导航——章节标题作为导航';
 $string['navtext'] = '文字导航';
+$string['navtoc'] = '只有目录';
 $string['nocontent'] = '该图书尚未被添加任何内容。';
 $string['numbering'] = '章节格式';
 $string['numbering0'] = '无';
@@ -79,11 +80,13 @@ $string['numbering_help'] = '* 无 - 章节标题都完全不做格式化
 * 编号 - 章节都是编号的（1，1.1，1.2，2，……）
 * 项目符号 - 小节在目录中是缩进的并且带有项目符号
 * 缩进 - 小节在目录中是缩进的';
-$string['numberingoptions'] = '可用的编号选项';
+$string['numberingoptions'] = '可用的章节格式选项';
 $string['numberingoptions_desc'] = '选择在创建图书时可用的编号选项。';
 $string['page-mod-book-x'] = '任意图书模块页';
 $string['pluginadministration'] = '图书管理';
 $string['pluginname'] = '图书';
+$string['search:activity'] = '图书 - 资源信息';
+$string['search:chapter'] = '图书 - 章节';
 $string['showchapter'] = '显示章节“{$a}”';
 $string['subchapter'] = '子章节';
 $string['subchapternotice'] = '（只用第一章建立后才可用）';

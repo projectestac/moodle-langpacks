@@ -93,7 +93,7 @@ $string['configgradedecimals'] = 'Número de casas decimais a exibir nas avalia�
 $string['configgradinggrade'] = 'Nota máxima para a avaliação, por predefinição';
 $string['configmaxbytes'] = 'Tamanho máximo dos ficheiros submetidos em todos os workshops do site, por predefinição (sujeito aos limites da disciplina e outras configurações locais)';
 $string['configstrategy'] = 'Tipo de grelha de avaliação, por predefinição';
-$string['createsubmission'] = 'Comece a preparar a sua submissão';
+$string['createsubmission'] = 'Submeter';
 $string['daysago'] = 'há {$a} dias';
 $string['daysleft'] = 'restam {$a} dias';
 $string['daystoday'] = 'hoje';
@@ -261,7 +261,7 @@ $string['strategy_help'] = 'O tipo de grelha de avaliação determina a configur
 
 * Nota quantitativa - O avaliador atribui uma nota quantitativa a cada critério de avaliação definido, sendo possível juntar um comentário com justificação.
 * Escolha múltipla - O avaliador seleciona a opção que melhor traduz a sua avaliação para cada critério de avaliação definido.
-* Escolha dupla - O avaliador seleciona uma entre duas opções (Sim/Não, em geral) relativas à avaliação de um determinado aspeto, sendo possível juntar um comentário com justificação.
+* Número de erros - O avaliador seleciona uma entre duas opções (Sim/Não, em geral) e junta um comentário relativos a um conjunto de proposições que o trabalho deve respeitar.
 * Comentários - O avaliador comenta qualitativamente cada aspeto a avaliar previsto, sem que tal se traduza numa nota.';
 $string['submission'] = 'Trabalho';
 $string['submissionattachment'] = 'Anexo';
@@ -321,6 +321,8 @@ $string['usepeerassessment_help'] = 'Se ativar esta opção, são atribuídos a 
 $string['userdatecreated'] = 'Enviado em <span>{$a}</span>';
 $string['userdatemodified'] = 'Modificado em <span>{$a}</span>';
 $string['userplan'] = 'Planificação do workshop';
+$string['userplanaccessibilitytitle'] = 'Cronograma de workshop com {$a} fases';
+$string['userplancurrentphase'] = 'Fase atual';
 $string['userplan_help'] = 'A planificação do workshop mostra todas as fases da atividade e a lista de tarefas para cada fase. A fase atual é assinalada e a conclusão de cada tarefa é indicada com um visto.';
 $string['useselfassessment'] = 'Permitir autoavaliação';
 $string['useselfassessment_desc'] = 'Os alunos podem avaliar o seu próprio trabalho';
@@ -333,7 +335,7 @@ $string['workshop:deletesubmissions'] = 'Apagar submissões';
 $string['workshop:editdimensions'] = 'Editar grelhas de avaliação';
 $string['workshop:ignoredeadlines'] = 'Ignorar restrições de prazo';
 $string['workshop:manageexamples'] = 'Gerir trabalhos exemplo';
-$string['workshopname'] = 'Nome do workshop';
+$string['workshopname'] = 'Designação';
 $string['workshop:overridegrades'] = 'Substituir nota calculada';
 $string['workshop:peerassess'] = 'Avaliação entre pares';
 $string['workshop:publishsubmissions'] = 'Publicar trabalhos';

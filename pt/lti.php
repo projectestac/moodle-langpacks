@@ -362,10 +362,9 @@ $string['secure_icon_url'] = 'URL do Ícone seguro';
 $string['secure_icon_url_help'] = 'Similar ao URL do ícone, mas usado se o utilizador aceder ao Moodle de forma segura através de SSL. O principal objetivo para este campo é para evitar
 o navegador avisando o utilizador que a página subjacente foi acessada através de SSL, mas pedindo para mostrar uma imagem insegura.';
 $string['secure_launch_url'] = 'URL de arranque seguro';
-$string['secure_launch_url_help'] = 'Similar ao URL de arranque, mas usado caso seja necessária uma segurança elevada. O Moodle irá usar o URL de arranque seguro invés do URL de arranque se o Moodle for acedido partir de  SSL, ou se as configurações da ferramenta
-estão definidas para sempre iniciar usando SSL.
+$string['secure_launch_url_help'] = 'Similar ao URL de arranque, mas usado caso seja necessária uma segurança elevada. O Moodle irá usar o URL de arranque seguro invés do URL de arranque se o Moodle for acedido partir de  SSL, ou se as configurações da ferramenta estão definidas para iniciar sempre usando SSL.
 
-O URL de arranque também pode ser definido para um endereço https que forçe a entrada através de SSL, e este campo pode ser deixado em branco.';
+O URL de arranque também pode ser definido para um endereço https que force a entrada através de SSL, e este campo pode ser deixado em branco.';
 $string['send'] = 'Enviar';
 $string['services'] = 'Serviços';
 $string['services_help'] = 'Selecione os serviços que pretende disponibilizar ao fornecedor de ferramenta. Podem ser selecionados mais do que um serviço.';
@@ -396,14 +395,12 @@ $string['share_roster_help'] = 'Define se a ferramenta pode aceder à lista de u
 
 Note que esta configuração pode ser alterada na configuração da ferramenta.';
 $string['show_in_course_activity_chooser'] = 'Mostrar no seletor de atividade e também como ferramenta pré-configurada';
-$string['show_in_course_lti1'] = 'Mostrar quando adiciona atividades';
-$string['show_in_course_lti1_help'] = 'Esta ferramenta pode ser mostrada ao professor quando seleciona uma atividade a adicionar a uma disciplina. Também pode ser mostrada no menu pendente de ferramenta pré-configurada quando adicionar uma ferramenta externa a uma disciplina.
-
-Em alternativa, a configuração da ferramenta pode não aparecer nos formulários, mas ser apenas usada se o URL de arranque correto é inserido quando adicionar uma ferramenta externa a uma disciplina.';
-$string['show_in_course_lti2'] = 'Mostrar quando adiciona atividades';
+$string['show_in_course_lti1'] = 'O uso da configuração de ferramentas';
+$string['show_in_course_lti1_help'] = 'Esta ferramenta pode ser mostrada ao professor quando seleciona uma atividade a adicionar a uma disciplina. Também pode ser mostrada no menu pendente de ferramenta pré-configurada quando adicionar uma ferramenta externa a uma disciplina. Em alternativa, a configuração da ferramenta é apenas usada se o URL de arranque correto é inserido quando adicionar uma ferramenta externa a uma disciplina.';
+$string['show_in_course_lti2'] = 'O uso da configuração de ferramentas';
 $string['show_in_course_lti2_help'] = 'Esta ferramenta pode ser mostrada ao professor quando seleciona uma atividade ou recurso a adicionar a uma disciplina ou no menu pendente de ferramenta pré-configurada ao adicionar uma ferramenta externa a uma disciplina.';
-$string['show_in_course_no'] = 'Não mostrar, usar apenas para iniciar o URL correspondente';
-$string['show_in_course_preconfigured'] = 'Mostrar como ferramenta pré-configurada quando adicionar uma Ferramenta externa';
+$string['show_in_course_no'] = 'Não mostrar, usar apenas quando um URL de arranque correspondente é inserido';
+$string['show_in_course_preconfigured'] = 'Mostrar como ferramenta pré-configurada quando adicionar uma ferramenta externa';
 $string['size'] = 'Parâmetros de tamanho';
 $string['submission'] = 'Submissão';
 $string['submissions'] = 'Submissões';
@@ -479,6 +476,6 @@ $string['update'] = 'Atualizar';
 $string['useraccountinformation'] = 'Informação da conta de utilizador';
 $string['userpersonalinformation'] = 'Informação pessoal do utilizador';
 $string['using_tool_cartridge'] = 'Usar ferramenta cartridge';
-$string['using_tool_configuration'] = 'A usar configurações da ferramenta';
+$string['using_tool_configuration'] = 'A usar configurações da ferramenta:&nbsp;';
 $string['validurl'] = 'Um URL válido deve começar com  http(s)://';
 $string['viewsubmissions'] = 'Ver submissões e relatório de avaliação';

@@ -367,4 +367,5 @@ $string['usestandard'] = 'Utiliser un préréglage';
 $string['usestandard_help'] = 'Pour utiliser un préréglage disponible dans tout le site en tant que modèle de base de données, choisissez-le dans la liste (si vous avez ajouté un préréglage en utilisant la fonctionnalité « Enregistrer en tant que préréglage », vous pouvez aussi le supprimer).';
 $string['viewfromdate'] = 'En lecture seule dès le';
 $string['viewtodate'] = 'En lecture seule jusqu\'au';
+$string['viewtodatevalidation'] = 'La date de fin de mise en lecture seule ne peut pas être antérieure à la date de début de mise en lecture seule.';
 $string['wrongdataid'] = 'L\'identifiant de données fourni est incorrect';

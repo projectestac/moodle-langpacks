@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['downloadas'] = 'Download tabelgegevens als {$a->formatsmenu} {$a->downloadbutton}';
+$string['downloadas'] = 'Download tabelgegevens als';
 $string['downloadcsv'] = 'Tekstbestand met kommagescheiden waarden';
 $string['downloadexcel'] = 'Excel rekenblad';
 $string['downloadods'] = 'OpenDocument rekenblad';

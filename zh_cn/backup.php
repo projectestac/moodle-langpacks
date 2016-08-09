@@ -241,6 +241,7 @@ $string['rootsettingbadges'] = '包含奖章';
 $string['rootsettingblocks'] = '包括版块';
 $string['rootsettingcalendarevents'] = '包括日历事件';
 $string['rootsettingcomments'] = '包括评论';
+$string['rootsettingcompetencies'] = '包含能力';
 $string['rootsettingfilters'] = '包括过滤器';
 $string['rootsettinggradehistories'] = '包括成绩历史';
 $string['rootsettinggroups'] = '包含小组和大组';

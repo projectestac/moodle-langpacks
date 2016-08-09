@@ -46,4 +46,4 @@ $string['pf_description'] = '允许用户推送 Moodle 内容到此主机<br />�
 $string['pf_name'] = '云存储服务';
 $string['pluginname'] = 'Mahara ePortfolio';
 $string['senddisallowed'] = '您现在不能向 Mahara 传送文件';
-$string['url'] = 'URL';
+$string['url'] = '网页地址';

@@ -45,4 +45,5 @@ $string['presentationoraltrequired'] = '图片必须要有一个描述，除非�
 $string['preview'] = '预览';
 $string['saveimage'] = '保存图片';
 $string['size'] = '大小';
+$string['uploading'] = '上传中，请稍候……';
 $string['width'] = '宽度';

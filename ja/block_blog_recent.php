@@ -29,4 +29,4 @@ $string['blog_recent:addinstance'] = '新しい最近のブログエントリブ
 $string['norecentblogentries'] = '最近のエントリはありません。';
 $string['numentriestodisplay'] = '表示する最近のエントリ数';
 $string['pluginname'] = '最近のブログエントリ';
-$string['recentinterval'] = '「最近」とみなされる時間間隔';
+$string['recentinterval'] = '「最近」とみなされる時間';

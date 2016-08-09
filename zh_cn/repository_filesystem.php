@@ -37,3 +37,4 @@ $string['nosubdir'] = '您必须在<b>{$a}</b>目录下建立至少一个文件�
 $string['path'] = '选择一个子目录';
 $string['pluginname'] = '文件系统';
 $string['pluginname_help'] = '把本地目录当作容器';
+$string['searchresults'] = '搜索结果';

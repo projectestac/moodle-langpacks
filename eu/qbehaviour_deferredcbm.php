@@ -49,7 +49,7 @@ Ziurtasun maila                 | C=1 (Zalantzan) | C=2 (Nahiko ziur) | C=3 (Oso
 ------------------------------- | --------------- | ----------------- | ----------------
 Erantzun egokiaren kalifikazioa |        1        |          2        |        3
 Erantzun okerraren kalifikazioa |        0        |         -2        |       -6
-Zuzen izatearen probabilitatea  |      <67%       |       67-80%      |      >80%';
+Zuzen izatearen probabilitatea  |      <%67       |       %67-80      |      >%80';
 $string['certaintyshort1'] = 'C=1';
 $string['certaintyshort-1'] = 'Idearik ez';
 $string['certaintyshort2'] = 'C=2';

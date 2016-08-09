@@ -100,5 +100,6 @@ $string['subdeletesuccess'] = 'Abonnement résilié';
 $string['subhelp'] = 'Infos détaillées de l\'abonnement';
 $string['subhelp_help'] = 'Cet abonnement surveille si l\'événement « {$a->eventname} »  dans « {$a->moduleinstance} » est déclenché {$a->frequency} fois durant un intervalle de {$a->minutes} minute(s).';
 $string['subscribeto'] = 'S\'inscrire à la règle « {$a} »';
+$string['taskchecksubscriptions'] = 'Activer/désactiver l\'abonnement aux règles non valides';
 $string['taskcleanevents'] = 'Suppression des événements surveillés superflus';
 $string['unsubscribe'] = 'Se désabonner';

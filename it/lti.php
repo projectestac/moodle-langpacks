@@ -187,7 +187,7 @@ $string['launchinpopup_help'] = 'Il contenitore di lancio influenza la visualizz
 * **Incorpora, senza blocchi** - Il tool viene visualizzato all\'interno della finestra di Moodle già esistente, ma con i soli controlli di navigazione sulla parte superiore della pagina.
 * **Nuova finestra** - Il tool viene aperto in una nuova finestra che occuperà tutto lo spazio disponibile. In funzione del tipo di browser, la nuova finestra può essere una finestra popup oppure un tab di una finestra già esistente. E\' possibile che il browser impedisca l\'apertura di nuove finestre.';
 $string['launchoptions'] = 'Opzioni di lancio';
-$string['launch_url'] = 'URL di lancio';
+$string['launch_url'] = 'URL di lancio/cartridge';
 $string['launch_url_help'] = 'L\'URL di lancio specifica l\'indirizzo web del tool esterno e può contenere informazioni aggiuntive come la risorsa da visualizzare.
 Se non sei certo su cosa inserire per l\'URL di lancio, verifica le informazioni con il tool provider.
 
@@ -371,9 +371,9 @@ $string['show_in_course_lti1'] = 'Visualizza quando si creano attività';
 $string['show_in_course_lti1_help'] = 'Questo tool può essere visualizzato nel selettore attività consentendo ai docenti di aggiungerlo ai corsi oppure può essere visualizzato nel menù a discesa dei tool preconfigurati quando si aggiunge un tool al corso.
 
 In alternativa la configurazione del tool può non essere visualizzata ma utilizzata solo se viene inserita il corretto URL di lancio quando si aggiunge un tool esterno al corso.';
-$string['show_in_course_lti2'] = 'Visualizza quando si creano attività';
+$string['show_in_course_lti2'] = 'Utilizzo della configurazione del tool';
 $string['show_in_course_lti2_help'] = 'Questo tool può essere visualizzato nel selettore attività consentendo ai docenti di aggiungerlo ai corsi oppure può essere visualizzato nel menù a discesa dei tool preconfigurati quando si aggiunge un tool al corso.';
-$string['show_in_course_no'] = 'Non visualizzare, utilizza solo per gli URL di lancio corretti';
+$string['show_in_course_no'] = 'Non visualizzare; da utilizzare solo se viene inserita un URL di lancio corretta';
 $string['show_in_course_preconfigured'] = 'Visualizza come tool preconfigurato quando si aggiunge un tool esterno';
 $string['size'] = 'Dimensione parametri';
 $string['submission'] = 'Invii';
@@ -412,7 +412,7 @@ $string['tooltypedeleted'] = 'Il tool preconfigurato è stato eliminato';
 $string['tooltypenotdeleted'] = 'Non è stato possibile eliminare il tool preconfigurato';
 $string['tooltypes'] = 'Tool';
 $string['tooltypeupdated'] = 'Il tool preconfigurato è stato aggiornato';
-$string['toolurl'] = 'Base URL del tool';
+$string['toolurl'] = 'Base URL/cartridge del tool';
 $string['toolurl_help'] = 'L\'URL base del tool viene utilizzata per far corrispondere  l\'URL di lancio del tool con la relativa configurazione. Il prefisso http(s) sull\'URL è opzionale.
 
 Inoltre, l\'URL base viene utilizzata come URL di lancio se non è stata definita una URL di lancio nell\'stanza del tool esterno.

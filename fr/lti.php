@@ -361,14 +361,12 @@ $string['share_roster_help'] = 'Spécifie si cet outil peut accéder à la liste
 
 Ce réglage peut être court-circuité dans la configuration de l\'outil.';
 $string['show_in_course_activity_chooser'] = 'Afficher dans le sélecteur d\'activité et comme outil préconfiguré';
-$string['show_in_course_lti1'] = 'Afficher lors de la création d\'activités';
-$string['show_in_course_lti1_help'] = 'Cet outil peut être affiché dans le sélecteur des activités qu\'un enseignant peut choisir d\'ajouter à un cours. Il peut aussi être affiché dans le menu déroulant des outils préconfigurés lors de l\'ajout d\'un outil externe à un cours.
-
-Il est aussi possible de ne pas afficher cet outil dans les formulaires, mais de ne l\'utiliser que si l\'URL de lancement correcte est saisie lors de l\'ajout d\'un outil externe au cours.';
-$string['show_in_course_lti2'] = 'Afficher lors de la création d\'activités';
+$string['show_in_course_lti1'] = 'Utilisation de la configuration de l\'outil';
+$string['show_in_course_lti1_help'] = 'Cet outil peut être affiché dans la fenêtre permettant à un enseignant d\'ajouter des activités à un cours. Il peut aussi être affiché dans le menu déroulant des outils préconfigurés lors de l\'ajout d\'un outil externe à un cours. Il est aussi possible de ne permettre l\'ajout à un cours de l\'outil externe que si son URL de lancement exacte est saisie.';
+$string['show_in_course_lti2'] = 'Utilisation de la configuration de l\'outil';
 $string['show_in_course_lti2_help'] = 'Cet outil peut être affiché dans le sélecteur des activités qu\'un enseignant peut choisir d\'ajouter à un cours, ainsi que dans le menu déroulant des outils préconfigurés lors de l\'ajout d\'un outil externe à un cours.';
-$string['show_in_course_no'] = 'Ne pas afficher. N\'utiliser que pour la correspondance avec un lancement par URL.';
-$string['show_in_course_preconfigured'] = 'Afficher comme outil préconfiguré lors de l\'ajout d\'un outil externe.';
+$string['show_in_course_no'] = 'Ne pas afficher. N\'utiliser que lorsqu\'une URL de lancement correspondante est saisie';
+$string['show_in_course_preconfigured'] = 'Afficher comme outil préconfiguré lors de l\'ajout comme outil externe.';
 $string['size'] = 'Paramètres de taille';
 $string['submission'] = 'Remise';
 $string['submissions'] = 'Remises';

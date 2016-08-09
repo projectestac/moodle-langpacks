@@ -327,7 +327,7 @@ $string['numawards'] = 'Badge rilasciato a <a href="{$a->link}">{$a->count}</a> 
 $string['numawardstat'] = 'Badge rilasciato a {$a} utenti.';
 $string['overallcrit'] = 'Metodo di aggregazione dei requisiti';
 $string['personaconnection'] = 'Autenticati con la tua email';
-$string['personaconnection_help'] = 'Persona è un sistema per identificarti nel web tramite un tuo indirizzo di email. Il backpack Open Badge utilizza Persona per l\'autenticazione, pertanto per connetterti ad un backpack devi avere un account Persona.
+$string['personaconnection_help'] = 'Persona è un sistema per identificarti nel web tramite un tuo indirizzo email. Il backpack Open Badge utilizza Persona per l\'autenticazione, pertanto per connetterti ad un backpack devi avere un account Persona.
 
 Per maggiori informazioni su Persona: <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Destinatari potenziali badge';

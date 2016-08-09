@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configplugin'] = '维基媒体容器类型配置';
-$string['keyword'] = '全文';
+$string['keyword'] = '搜索';
 $string['pluginname'] = '维基媒体';
 $string['wikimedia:view'] = '查看维基媒体容器';

@@ -37,4 +37,4 @@ $string['levelgroup'] = 'Nota e opção de resposta';
 $string['levels'] = 'Opções de resposta';
 $string['mustbeunique'] = 'O nível das notas deve ser único em cada critério';
 $string['mustchooseone'] = 'Tem de selecionar um dos itens';
-$string['pluginname'] = 'Grelha Qualitativa';
+$string['pluginname'] = 'Escolha múltipla';

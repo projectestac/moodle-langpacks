@@ -50,6 +50,7 @@ $string['choice:readresponses'] = 'Bekijk antwoorden';
 $string['choicesaved'] = 'Je keuze is bewaard';
 $string['choicetext'] = 'Keuzetekst';
 $string['chooseaction'] = 'Kies een actie...';
+$string['closebeforeopen'] = 'Je hebt een afsluitdatum opgegeven die vroeger ligt dan de openingsdatum.';
 $string['completionsubmit'] = 'Toon als voltooid wanneer de gebruiker een keuze maakt';
 $string['description'] = 'Inleidende tekst';
 $string['displayhorizontal'] = 'Toon horizontaal';

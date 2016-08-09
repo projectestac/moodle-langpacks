@@ -77,6 +77,7 @@ $string['calculatedweight'] = 'Pondération calculée';
 $string['cannotaccess'] = 'Il n\'est pas permis de lancer ce script de cette manière';
 $string['cannotfindsco'] = 'Objet d\'apprentissage introuvable';
 $string['chooseapacket'] = 'Sélectionner ou mettre à jour un paquetage';
+$string['closebeforeopen'] = 'La date de fermeture indiquée est antérieure à la date d\'ouverture.';
 $string['collapsetocwinsize'] = 'Replier la table des matières quand la taille de la fenêtre est inférieure à';
 $string['collapsetocwinsizedesc'] = 'Ce réglage vous permet de spécifier la taille de fenêtre en dessous de laquelle la table des matières sera automatiquement repliée.';
 $string['compatibilitysettings'] = 'Réglages de compatibilité';

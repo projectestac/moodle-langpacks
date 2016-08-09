@@ -526,13 +526,10 @@ $string['trackingoff'] = 'Uit';
 $string['trackingon'] = 'Verplicht';
 $string['trackingoptional'] = 'Optioneel';
 $string['trackingtype'] = 'Lezen van dit forum opvolgen';
-$string['trackingtype_help'] = 'Als \'Volgen forum\' is ingeschakeld, dan zien gebruikers welke berichten ze gelezen hebben en welke berichten niet.
+$string['trackingtype_help'] = 'Als \'Lezen van dit forum opvolgen\' is ingeschakeld, dan zien gebruikers welke berichten ze gelezen hebben en welke berichten niet door het markeren van nieuwe berichten.
 
-Er zijn drie keuzemogelijkheden voor deze instelling:
-
-* Optioneel - deelnemers kunnen volgen inschakelen of uitschakelen voor dit forum zoals ze zelf willen
-* Verplicht - volgen is altijd ingeschakeld
-* Uit - volgen is altijd uitgeschakeld';
+Indien ingesteld op optioneel, dan kunnen deelnemers kiezen of ze het aan of uitschakelen via een link in het beheer blok. (Gebruikers moeten ook forum volgen inschakelen in hun forum voorkeuren.)
+Indien \'Verplicht opvolgen\' is ingeschakeld in site beheer, dan is er nog een volgende mogelijkheid beschikbaar: verplicht. Dit betekend dat opvolgen altijd ingeschakeld is, ongeacht de forumvoorkeuren van de gebruikers.';
 $string['unread'] = 'Niet gelezen';
 $string['unreadposts'] = 'Niet gelezen berichten';
 $string['unreadpostsnumber'] = '{$a} ongelezen berichten';

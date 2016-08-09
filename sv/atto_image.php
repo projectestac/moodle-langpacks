@@ -25,5 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['browserepositories'] = 'Bläddra genom arkiv...';
+$string['enteralt'] = 'Beskriv bilden för någon som inte kan se den.';
+$string['enterurl'] = 'Ange URL';
+$string['presentation'] = 'Beskrivning behövs ej';
 $string['saveimage'] = 'Spara bilden';
 $string['size'] = 'Storlek';

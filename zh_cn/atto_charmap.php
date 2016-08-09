@@ -27,5 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['aacute'] = 'a-尖锐';
 $string['aacute_caps'] = 'A-尖锐';
+$string['angle'] = '角度';
+$string['approximatelyequalto'] = '约等于';
 $string['trademarksign'] = '贸易标识符(TM)';
 $string['upwardsarrow'] = '向上的箭头';
