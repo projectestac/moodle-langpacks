@@ -52,7 +52,7 @@ $string['auth_remove_keep'] = 'Keep internal';
 $string['auth_remove_suspend'] = 'Suspend internal';
 $string['auth_remove_user'] = 'Specify what to do with internal user account during mass synchronization when user was removed from external source. Only suspended users are automatically revived if they reappear in ext source.';
 $string['auth_remove_user_key'] = 'Removed ext user';
-$string['auth_sync_script'] = 'Cron synchronization script';
+$string['auth_sync_script'] = 'Συγχρονισμός λογαριασμού χρήστη';
 $string['auth_updatelocal'] = 'Τοπική ενημέρωση';
 $string['auth_updatelocal_expl'] = '<p><b>Τοπική ενημέρωση:</b> Εάν ενεργοποιηθεί, το πεδίο θα ενημερώνεται (από εξωτερική πιστοποίηση) κάθε φορά που ο χρήστης εισέρχεται ή γίνεται συγχρονισμός χρηστών. Τα πεδία που ορίστηκαν να ενημερώνονται αυτόματα πρέπει να είναι κλειδωμένα.</p>';
 $string['auth_updateremote'] = 'Ενημέρωσε εξωτερικά';
@@ -72,8 +72,8 @@ $string['chooseauthmethod_help'] = '<p align="center"><b>Αλλαγή μεθόδ
 <p>Οι αλλαγές να γίνονται με προσοχή.</p>';
 $string['createpassword'] = 'Δημιουργήστε κωδικό πρόσβασης και ενημερώστε τον χρήστη';
 $string['createpasswordifneeded'] = 'Δημιουργία κωδικού πρόσβασης αν χρειαστεί';
-$string['emailchangecancel'] = 'Cancel email change';
-$string['emailchangepending'] = 'Change pending. Open the link sent to you at {$a->preference_newemail}.';
+$string['emailchangecancel'] = 'Ακύρωσε την αλλαγή του email';
+$string['emailchangepending'] = 'Η αλλαγή δεν έχει γίνει ακόμη. Άνοιξε τον σύνδεσμο που έχει σταλεί στο email {$a->preference_newemail}.';
 $string['emailnowexists'] = 'The email address you tried to assign to your profile has been assigned to someone else since your original request. Your request for change of email address is hereby cancelled, but you may try again with a different address.';
 $string['emailupdate'] = 'Ανανέωση διεύθυνσης ηλεκτρονικού ταχυδρομείου';
 $string['emailupdatemessage'] = 'Αγαπητέ χρήστη {$a->fullname},
@@ -83,9 +83,9 @@ $string['emailupdatemessage'] = 'Αγαπητέ χρήστη {$a->fullname},
 
 {$a->url}';
 $string['emailupdatesuccess'] = 'Email address of user <em>{$a->fullname}</em> was successfully updated to <em>{$a->email}</em>.';
-$string['emailupdatetitle'] = 'Confirmation of email update at {$a->site}';
+$string['emailupdatetitle'] = 'Επιβεβαίωση αλλαγής της email διεύθυνσης στο  {$a->site}';
 $string['enterthenumbersyouhear'] = 'Enter the numbers you hear';
-$string['enterthewordsabove'] = 'Enter the words above';
+$string['enterthewordsabove'] = 'Εισάγετε τις παραπάνω λέξεις';
 $string['errormaxconsecutiveidentchars'] = 'Passwords must have at most {$a} consecutive identical characters.';
 $string['errorminpassworddigits'] = 'Passwords must have at least {$a} digit(s).';
 $string['errorminpasswordlength'] = 'Passwords must be at least {$a} characters long.';
@@ -138,6 +138,7 @@ $string['recaptcha_help'] = '<h2>Περιγραφή</h2>
 <p>Εάν δεν είστε σίγουροι ποιες είναι οι λέξεις τότε είτε εισαγάγετε την καλύτερή σας εικασία ή ακολουθήστε το σύνδεσμο "Φέρε άλλο CAPTCHA". </p>
 
 <p>Άτομα με προβλήματα όρασης μπορούν να ακολουθήσουν το σύνδεσμο "Φέρε ένα ηχητικό CAPTCHA" ώστε να ακούσουν ένα σετ από ψηφία που μπορούν να εισαχθούν αντί της οπτικής πρόκλησης.</p>';
+$string['security_question'] = 'Ερώτηση ασφαλείας';
 $string['selfregistration'] = 'Self registration';
 $string['selfregistration_help'] = 'If an authentication plugin, such as email-based self-registration, is selected, then it enables potential users to register themselves and create accounts. This results in the possibility of spammers creating accounts in order to use forum posts, blog entries etc. for spam. To avoid this risk, self-registration should be disabled or limited by <em>Allowed email domains</em> setting.';
 $string['sha1'] = 'SHA-1 hash';
@@ -155,3 +156,4 @@ $string['update_onlogin'] = 'Σε κάθε είσοδο';
 $string['update_onupdate'] = 'Στην ανανέωση';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() does not support selected usertype: {$a}';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() does not support selected usertype (..yet)';
+$string['username'] = 'Όνομα χρήστη';

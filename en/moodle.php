@@ -74,6 +74,7 @@ $string['addresource'] = 'Add a resource...';
 $string['addresourceoractivity'] = 'Add an activity or resource';
 $string['addresourcetosection'] = 'Add a resource to section \'{$a}\'';
 $string['address'] = 'Address';
+$string['addressedto'] = 'To';
 $string['addstudent'] = 'Add student';
 $string['addsubcategory'] = 'Add a subcategory';
 $string['addteacher'] = 'Add teacher';

@@ -74,6 +74,7 @@ $string['addresource'] = 'Bron toevoegen';
 $string['addresourceoractivity'] = 'Activiteit of bron toevoegen';
 $string['addresourcetosection'] = 'Voeg een bron toe aan sectie \'{$a}\'';
 $string['address'] = 'Adres';
+$string['addressedto'] = 'Tot';
 $string['addstudent'] = 'Voeg een leerling toe';
 $string['addsubcategory'] = 'Voeg subcategorie toe';
 $string['addteacher'] = 'Voeg een leraar toe';
@@ -743,6 +744,9 @@ $string['eventcoursesectionupdated'] = 'Cursussectie aangepast';
 $string['eventcourseupdated'] = 'Cursus aangepast';
 $string['eventcourseuserreportviewed'] = 'Gebruikersrapport bekeken';
 $string['eventcourseviewed'] = 'Cursus bekeken';
+$string['eventdashboardreset'] = 'Mijn startpagina op standaardinstellingen';
+$string['eventdashboardsreset'] = 'Mijn startpagina op standaardinstellingen';
+$string['eventdashboardviewed'] = 'Mijn startpagina bekeken';
 $string['eventemailfailed'] = 'Email versturen mislukt';
 $string['eventname'] = 'Gebeurtenisnaam';
 $string['eventrecentactivityviewed'] = 'Recente activiteiten bekeken';
@@ -1232,7 +1236,7 @@ $string['newsitemsnumber_help'] = '<p>In het "week-" en het "onderwerp"-format v
 <p>Als je dit instelt op 0, dan verschijnt het "Laatste nieuws" niet.</p>';
 $string['newuser'] = 'Nieuwe gebruiker';
 $string['newusernewpasswordsubj'] = 'Nieuwe account';
-$string['newusernewpasswordtext'] = 'Hallo {$a->username},
+$string['newusernewpasswordtext'] = 'Hallo {$a->firstname},
 
 Er is voor jou een nieuwe account gemaakt op \'{$a->sitename}\' en je hebt daarvoor een nieuw, tijdelijk wachtwoord gekregen.
 

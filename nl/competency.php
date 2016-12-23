@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['allchildrenarecomplete'] = 'Alle onderliggende volledig';
+$string['allchildrenarecomplete'] = 'Alle onderliggende zijn volledig';
 $string['competencies'] = 'Competenties';
-$string['competenciesarenotenabled'] = 'Competenties zijn niet ingeschakeld.';
-$string['competenciessettings'] = 'Competenties instellingen';
+$string['competenciesarenotenabled'] = 'Competenties zijn niet ingesteld.';
+$string['competenciessettings'] = 'Competentie-instellingen';
 $string['completeplanstask'] = 'Voltooi leerplannen met einddatum';
 $string['coursecompetencyoutcome_complete'] = 'Voltooi competentie';
 $string['coursecompetencyoutcome_evidence'] = 'Bewijs toevoegen';

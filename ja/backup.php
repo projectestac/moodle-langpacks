@@ -117,6 +117,7 @@ $string['currentstage4'] = '確認およびレビュー';
 $string['currentstage8'] = 'バックアップを実行する';
 $string['enterasearch'] = 'キーワードを入力する';
 $string['error_block_for_module_not_found'] = 'コースモジュール (id: {$a->mid}) において、迷子のブロックインスタンス (id: {$a->bid}) が見つかりました。このブロックはバックアップされません。';
+$string['errorcopyingbackupfile'] = 'リストア前の一時フォルダへのバックアップファイルのコピーに失敗しました。';
 $string['error_course_module_not_found'] = '迷子のコースモジュール (id: {$a}) が見つかりました。このモジュールはバックアップされません。';
 $string['errorfilenamemustbezip'] = 'あなたが入力するファイル名は.mbz拡張子を持つZIPファイルである必要があります。';
 $string['errorfilenamerequired'] = 'あなたはこのバックアップに関して、有効なファイル名を入力する必要があります。';

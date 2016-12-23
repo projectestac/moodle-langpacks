@@ -474,7 +474,7 @@ $string['emoticons_desc'] = 'Dit formulier bepaalt de emoticons (of smileys) die
 * Tekst (vereist) - Deze tekst zal vervangen worden door de afbeelding van het emoticon. Deze tekst moet minstens twee tekens lang zijn.
 * Afbeeldingsnaam (vereist) - De bestandsnaam van het emoticon zonder de extentie, relatief ten opzichte van de component pix map.
 * Afbeeldingscomponent (vereist) - De component die het icoon levert.
-* Alternatieve tekst (optionneel) - Identificatiestring en component van de alternatieve tekst voor het emoticon;';
+* Alternatieve tekst (optioneel) - Identificatiestring en component van de alternatieve tekst voor het emoticon;';
 $string['emoticonsreset'] = 'Zet de instellingen voor emoticons terug op standaardinstellingen';
 $string['emoticontext'] = 'Tekst';
 $string['emptysettingvalue'] = 'Leeg';
@@ -629,6 +629,7 @@ $string['legacyfilesaddallowed'] = 'Cursusbestanden toevoegen volgens verouderd 
 $string['legacyfilesaddallowed_help'] = 'Toestaan om nog nieuwe cursusbestanden en mappen toe te voegen als een cursus nog bestanden gebruikt volgens het oude systeem.';
 $string['legacyfilesinnewcourses'] = 'Standaard cursusbestanden in nieuwe cursussen';
 $string['legacyfilesinnewcourses_help'] = 'Standaard zijn de verouderde cursusbestanden alleen beschikbaar in geüpgrade cursussen. Merk op dat sommige functies zoals back-up/terugzetten van afzonderlijke activiteiten niet compatibel zijn met deze instelling.';
+$string['libcurlwarning'] = 'Er werd geconstateerd dat libcurl geen CURLOPT_PROTOCOL ondersteuning heeft. Een up-to-date libcurl installatie wordt aanbevolen om veiligheidsredenen.';
 $string['licensesettings'] = 'Licentieinstellingen';
 $string['linkadmincategories'] = 'Link beheercategorieën';
 $string['linkadmincategories_help'] = 'Indien ingeschakeld zullen beheerinstellingscategorieën als links getoond worden in de navigatie en zullen die je naar de beheercategorieënpagina\'s brengen.';
@@ -1086,6 +1087,7 @@ $string['unsupported'] = 'Niet ondersteund';
 $string['unsupporteddbstorageengine'] = 'De database storage engine wordt niet meer ondersteund.';
 $string['unsupporteddbtablerowformat'] = 'Je databanktabellen gebruiken Antilope als bestandsformaat. Je wordt aangeraden om ze te converteren naar Barracuda bestandsformaat. Je vindt documentatie op <a href="https://docs.moodle.org/en/cli">Administration via command line</a> met details over een tool om InnoDB-tabellen om te zetten naar Barracuda.';
 $string['unsupportedphpversion7'] = 'PHP versie 7 is niet ondersteund.';
+$string['unsupportedphpversion71'] = 'PHP-versie 7.1 wordt niet ondersteund';
 $string['unsuspenduser'] = 'Activeer gebruikersaccount';
 $string['updateaccounts'] = 'Update bestaande accounts';
 $string['updateautocheck'] = 'Automatisch controleren op beschikbare updates';
