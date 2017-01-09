@@ -283,7 +283,7 @@ $string['numeric_help'] = 'Use esta questão se pretende uma resposta na forma d
 $string['of'] = 'de';
 $string['opendate'] = 'Usar Data de Abertura';
 $string['opendate_help'] = 'Aqui pode escolher uma data de abertura para o questionário. Selecione a caixa de seleção e escolha a data pretendida.
-Os participantes não podem preencher o questionário antes dessa data, se não selecionar a caixa o teste abre de imediato.';
+Os participantes não podem preencher o questionário antes dessa data e se não selecionar a caixa, o teste abre de imediato.';
 $string['option'] = 'opção {$a}';
 $string['optionalname'] = 'Nome da Questão';
 $string['optionalname_help'] = 'O nome da questão apenas é usado quando exporta as questões para o formato CSV/Excel.

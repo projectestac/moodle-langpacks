@@ -332,7 +332,7 @@ $string['coursecreatorsdescription'] = 'Os criadores de disciplinas podem criar 
 $string['coursedeleted'] = 'A disciplina {$a} foi apagada';
 $string['coursedetails'] = 'Detalhes da disciplina';
 $string['coursedisplay'] = 'Visualização';
-$string['coursedisplay_help'] = 'Esta opção determina se toda a disciplina é exibida numa página única ou se é dividida em várias páginas.';
+$string['coursedisplay_help'] = 'Esta opção determina se toda a disciplina é exibida numa única página ou se é dividida em várias páginas.';
 $string['coursedisplay_multi'] = 'Mostrar uma secção por página';
 $string['coursedisplay_single'] = 'Mostrar todas as secções na mesma página';
 $string['courseextendednamedisplay'] = '{$a->shortname} {$a->fullname}';
@@ -652,9 +652,9 @@ $string['emailpasswordchangeinfodisabled'] = 'Caro(a) {$a->firstname},
 
 Foi pedida uma nova senha para a sua conta em \'{$a->sitename}\'.
 
-Infelizmente, a sua conta neste site está desativada e não pode ser reposta.
+Infelizmente, a sua conta neste site está desativada e por isto, não pode ser reposta.
 
-Por favor, contacte o administrador do site:
+Por favor, contacte o administrador do site
 {$a->admin}';
 $string['emailpasswordchangeinfofail'] = 'Olá {$a->firstname},
 
@@ -662,7 +662,7 @@ Foi pedida uma nova senha para a sua conta em \'{$a->sitename}\'.
 
 Infelizmente as senhas não podem ser redefinidas neste site.
 
-Por favor, contacte o administrador do site,
+Por favor, contacte o administrador do site
 {$a->admin}';
 $string['emailpasswordchangeinfosubject'] = '{$a}: Informação para alteração de senha';
 $string['emailpasswordconfirmation'] = 'Viva {$a->firstname},
@@ -812,9 +812,9 @@ $string['forgotten'] = 'Esqueceu-se do seu nome de utilizador ou da senha?';
 $string['forgottenduplicate'] = 'O endereço de e-mail é partilhado por várias contas. Introduza antes o nome de utilizador';
 $string['forgotteninvalidurl'] = 'URL para recuperação de senhas esquecidas';
 $string['format'] = 'Formato';
-$string['format_help'] = 'O formato da disciplina determina o layout da página principal:
+$string['format_help'] = 'O formato determina a estrutura da página principal da disciplina:
 
-* Formato Atividade Única - Para exibir uma única atividade ou recurso (como um Teste ou um pacote SCORM) na página da disciplina;
+* Formato Atividade Única - Para mostrar uma única atividade ou recurso (como um Teste ou um pacote SCORM) na página da disciplina;
 
 * Formato Social - É mostrado um fórum na página principal da disciplina;
 
@@ -1226,7 +1226,7 @@ $string['newsectionname'] = 'Novo nome para a secção {$a}';
 $string['newsitem'] = 'notícia';
 $string['newsitems'] = 'notícias';
 $string['newsitemsnumber'] = 'Anúncios a mostrar';
-$string['newsitemsnumber_help'] = 'Esta configuração determina quantas notícias mais recentes aparecem no bloco de últimas notícias na página da disciplina. Se for definido o valor "0" (zero), então o bloco "Últimas notícias" não será mostrado.';
+$string['newsitemsnumber_help'] = 'Esta configuração determina quantas notícias mais recentes aparecem no bloco de últimos anúncios na página da disciplina. Se for definido o valor "0" (zero), o bloco "Últimos anúncios" não será mostrado.';
 $string['newuser'] = 'Novo utilizador';
 $string['newusernewpasswordsubj'] = 'Nova conta de utilizador';
 $string['newusernewpasswordtext'] = 'Olá {$a->firstname},

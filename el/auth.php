@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actauthhdr'] = 'Active authentication plugins';
+$string['allowaccountssameemail'] = 'Επιτρέπονται λογαριασμοί με την ίδια ηλεκτρονική διεύθυνση.';
+$string['allowaccountssameemail_desc'] = 'Αν ενεργοποιηθεί, τότε πολλοί χρήστες θα έχουν την ίδια ηλεκτρονική διεύθυνση. Αυτό μπορεί να οδηγήσει σε προβλήματα ασφάλεια ή ιδιωτικότητας, όπως για παράδειγμα, σε περίπτωση αλλαγής του κωδικού πρόσβασης.';
 $string['alternatelogin'] = 'Όποια διεύθυνση πληκτρολογήσετε θα χρησιμοποιηθεί σαν σελίδα σύνδεσης. Η σελίδα αυτή, θα πρέπει να έχει μία φόρμα με την ιδιότητα <strong>\'{$a}\'</strong> και τα πεδία <strong>username</strong>, <strong>password</strong>.';
 $string['alternateloginurl'] = 'Εναλλακτική σελίδα σύνδεσης';
 $string['auth_changepasswordhelp'] = 'Βοήθεια αλλαγήςκωδικού';
@@ -92,6 +94,7 @@ $string['errorminpasswordlength'] = 'Passwords must be at least {$a} characters 
 $string['errorminpasswordlower'] = 'Passwords must have at least {$a} lower case letter(s).';
 $string['errorminpasswordnonalphanum'] = 'Passwords must have at least {$a} non-alphanumeric character(s).';
 $string['errorminpasswordupper'] = 'Passwords must have at least {$a} upper case letter(s).';
+$string['errorpasswordreused'] = 'Αυτός ο κωδικός πρόσβασης έχει χρησιμοποιηθεί στο παρελθόν και δεν επιτρέπεται η επαναχρησιμοποίηση του.';
 $string['errorpasswordupdate'] = 'Error updating password, password not changed';
 $string['eventuserloggedin'] = 'Ο χρήστης έχει συνδεθεί';
 $string['eventuserloggedinas'] = 'Ο χρήστης έχει συνδεθεί ως άλλος χρήστης';
@@ -111,6 +114,7 @@ $string['informminpassworddigits'] = 'τουλάχιστον {$a} ψηφίο (-�
 $string['informminpasswordlength'] = 'τουλάχιστον {$a} χαρακτήρες';
 $string['informminpasswordlower'] = 'τουλάχιστον {$a} πεζό (ά) γράμμα (τα)';
 $string['informminpasswordnonalphanum'] = 'τουλάχιστον {$a} μη αλφαριθμητικό (ούς) χαρακτήρα (ες)';
+$string['informminpasswordreuselimit'] = 'Οι κωδικοί μπορεί να ξαναχρησιμοποιηθούν μετά από {$a} αλλαγές';
 $string['informminpasswordupper'] = 'τουλάχιστον {$a} κεφαλαίο (α) γράμμα (τα)';
 $string['informpasswordpolicy'] = 'Ο κωδικός πρόσβασης πρέπει να έχει {$a}';
 $string['instructions'] = 'Οδηγίες';

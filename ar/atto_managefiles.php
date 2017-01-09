@@ -16,15 +16,16 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_news_items', language 'ar', branch 'MOODLE_31_STABLE'
+ * Strings for component 'atto_managefiles', language 'ar', branch 'MOODLE_31_STABLE'
  *
- * @package   block_news_items
+ * @package   atto_managefiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['news_items:addinstance'] = 'إضافة كتلة آخر الأخبار جديدة';
-$string['news_items:myaddinstance'] = 'إضافة كتلة آخر الأخبار جديدة إلى الصفحة الشخصية';
-$string['pluginname'] = 'آخر الأخبار';
+$string['filemanager'] = 'مدير الملفات';
+$string['managefiles'] = 'إدارة الملفات';
+$string['pluginname'] = 'مدير الملفات';
+$string['unusedfilesheader'] = 'الملفات غير المستخدمة';

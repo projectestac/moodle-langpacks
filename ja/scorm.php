@@ -326,7 +326,7 @@ $string['scormtype_help'] = 'ここではパッケージがどのようにコー
 
 * アップロード済みパッケージ - SCORMパッケージをファイルピッカで選択できるようにします。
 * 外部SCORMマニフェスト - imsmanifest.xmlのURLを指定できるようにします。注意: URLがあなたのサイトと異なるドメインの場合、評定が保存されないため、「ダウンロード済みパッケージ」を選択することをお勧めします。
-* ダウンロード済みパッケージ - パッケージのURLを指定できるようにします。パッケージは解凍され、ローカルに保存されます。また、外部SCORMパッケージが更新された場合、ローカルに保存されたパッケージも更新されます。
+* ダウンロード済みパッケージ - パッケージのURLを指定できるようにします。パッケージは展開され、ローカルに保存されます。また、外部SCORMパッケージが更新された場合、ローカルに保存されたパッケージも更新されます。
 * 外部AICC URL - このURLは単一のAICC活動起動用URLです。この周りに擬似パッケージが構築されます。';
 $string['scorm:viewreport'] = 'レポートを表示する';
 $string['scorm:viewscores'] = '評点を表示する';
@@ -382,7 +382,7 @@ $string['tracksuspenddata_help'] = '学習者のセッション間において�
 $string['tracktime'] = '時間';
 $string['tracktime_help'] = '受験開始時間';
 $string['tracktype'] = 'タイプ';
-$string['tracktype_help'] = '例えば、「投票」または「記述問題」のような問題タイプです。';
+$string['tracktype_help'] = '例えば「投票」または「記述問題」のような問題タイプです。';
 $string['trackweight'] = '加重';
 $string['trackweight_help'] = '評点計算時に問題に割り当てられる加重です。';
 $string['type'] = 'タイプ';
@@ -391,7 +391,7 @@ $string['typeexternal'] = '外部SCORMマニフェスト';
 $string['typelocal'] = 'アップロード済みパッケージ';
 $string['typelocalsync'] = 'ダウンロード済みパッケージ';
 $string['undercontent'] = 'コンテンツの下';
-$string['unziperror'] = 'パッケージの解凍処理中にエラーが発生しました。';
+$string['unziperror'] = 'パッケージの展開処理中にエラーが発生しました。';
 $string['updatefreq'] = '自動更新頻度';
 $string['updatefreqdesc'] = 'このプリファレンスでは活動に対するデフォルトの自動更新頻度を設定します。';
 $string['updatefreq_error'] = 'パッケージファイルが外部に置かれている場合のみ、自動更新頻度を設定することができます。';

@@ -625,7 +625,7 @@ $string['emaildigest_help'] = 'Dit zijn de instellingen voor het versturen van e
 * Samenvattende mail - volledige berichten - je zult één samenvattende mail per dag ontvangen waarin de volledige inhoud van elk forumbericht van die dag zit;
 Samenvattende mail - enkel onderwerpen je zult één samenvattende mail per dag ontvangen waarin alleen de onderwerpen van elk forumbericht zal zitten.
 
-Als je wil kun jJe kunt andere instellingen voor elk forum gebruiken.';
+Als je wil kun je kunt andere instellingen voor elk forum gebruiken.';
 $string['emaildigestoff'] = 'Geen samenvatting (voor elk forumbericht een e-mail)';
 $string['emaildigestsubjects'] = 'Onderwerpen (dagelijkse e-mail met alleen de onderwerpen van de berichten)';
 $string['emaildisable'] = 'Dit e-mailadres is uitgeschakeld';
@@ -837,7 +837,7 @@ $string['frontpagedescriptionhelp'] = 'Deze beschrijving van de site kan getoond
 $string['frontpageenrolledcourselist'] = 'Aangemelde cursussen';
 $string['frontpageformat'] = 'Format startpagina';
 $string['frontpageformatloggedin'] = 'Startpaginaopmaak wanneer aangemeld';
-$string['frontpagenews'] = 'Toon nieuwsberichten';
+$string['frontpagenews'] = 'Toon mededelingen';
 $string['frontpagesettings'] = 'Instellingen startpagina';
 $string['fulllistofcourses'] = 'Alle cursussen';
 $string['fullname'] = 'Volledige naam';
@@ -1036,7 +1036,7 @@ $string['loginaspasswordexplain'] = '<p>Je moet het speciale "loginas" wachtwoor
 $string['login_failure_logs'] = 'Logs mislukte aanmelding';
 $string['loginguest'] = 'Inloggen als gast';
 $string['loginsite'] = 'Op de site inloggen';
-$string['loginsteps'] = 'Om volledig toegang te krijgen moet je eerst een account maken.';
+$string['loginsteps'] = 'Om volledige toegang tot deze site te verkrijgen, moet je eerst een account maken.';
 $string['loginstepsnone'] = 'Hallo!<p>Om volledige toegang te krijgen tot de verschillende cursussen moet je een account voor jezelf aanmaken.</p>
 <p>Het enige wat je hoeft te doen is een gebruikersnaam en wachtwoord bedenken en deze gebruiken in het formulier op deze pagina!
 </p>
@@ -1188,7 +1188,7 @@ $string['mycourses'] = 'Mijn cursussen';
 $string['myfiles'] = 'Mijn privébestanden';
 $string['myfilesmanage'] = 'Beheer mijn privébestanden';
 $string['myhome'] = 'Mijn startpagina';
-$string['mymoodledashboard'] = 'Mijn Moodle dashboard';
+$string['mymoodledashboard'] = 'Mijn Moodle startpagina';
 $string['myprofile'] = 'Mijn profiel';
 $string['name'] = 'Naam';
 $string['namedfiletoolarge'] = 'Het bestand \'{$a->filename}\' is te groot en kan niet geüpload worden';
@@ -1520,7 +1520,7 @@ $string['restorecannotcreateuser'] = 'Het terugzetten van de back-up vereist het
 $string['restorecannotoverrideperms'] = 'Het proces dat de back-up terugzet moet rollen overschrijven en jij hebt daar niet het recht toe';
 $string['restorecoursenow'] = 'Deze cursus nu terugzetten!';
 $string['restoredaccount'] = 'Teruggezette account';
-$string['restoredaccountinfo'] = 'Deze account is geïmporteerd uit een andere server en het wachtwoord ervan is verloren gegaan. Om eeen nieuw wachtwoord via e-mail in te stellen, klik op "Ga verder"';
+$string['restoredaccountinfo'] = 'Deze account is geïmporteerd uit een andere server en het wachtwoord ervan is verloren gegaan. Om een nieuw wachtwoord via e-mail in te stellen, klik op "Ga verder"';
 $string['restorefinished'] = 'Terugzetten was succesvol';
 $string['restoremnethostidmismatch'] = 'MNet host ID van gebruiker \'{$a}\' komt niet overeen met de locale MNet host ID.';
 $string['restoreto'] = 'Zet de back-up terug naar';
@@ -1637,7 +1637,7 @@ $string['selectanoptions'] = 'Selecteer een optie';
 $string['selectaregion'] = 'Kies een plaats';
 $string['selectcategorysort'] = 'Welke categorieën je wil sorteren?';
 $string['selectcategorysortby'] = 'Selecteer hoe je categorieën wil sorteren';
-$string['selectcoursesortby'] = 'Selecteer hoe je curussen wil sorteren';
+$string['selectcoursesortby'] = 'Selecteer hoe je cursussen wil sorteren';
 $string['selectdefault'] = 'Kies standaard';
 $string['selectedcategories'] = 'Geselecteerde categorieën';
 $string['selectedfile'] = 'Kies een bestand';

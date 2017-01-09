@@ -809,11 +809,11 @@ $string['reviewofquestion'] = 'Herbekijk  {$a->question} in {$a->quiz} door {$a-
 $string['reviewopen'] = 'Later, terwijl de test nog open is';
 $string['reviewoptions'] = 'Leerlingen mogen nakijken';
 $string['reviewoptionsheading'] = 'Opties voor herbekijken';
-$string['reviewoptionsheading_help'] = 'Met deze optie controleer je welke informatie gebruikers kunnen zien waneer zij een test nalezen of wanneer ze naar de testrapporten kijken.
+$string['reviewoptionsheading_help'] = 'Met deze optie controleer je welke informatie gebruikers kunnen zien wanneer zij een test nalezen of wanneer ze naar de testrapporten kijken.
 
 ** Tijdens de poging** zijn instellingen slechts relevant voor sommige scenario\'s, zoals \'interactief met meerdere pogingen\', die feedback kunnen tonen tijdens de poging.
 
-**Onmiddellijk na een poging** betekent binnen de twee minuten nadat de gebruiker de test beeindigd heeft door op \'Bewaar alles en beeindig test\' te klikken.
+**Onmiddellijk na een poging** betekent binnen de twee minuten nadat de gebruiker de test beëindigd heeft door op \'Bewaar alles en beëindig test\' te klikken.
 
 **Later, terwijl de test nog open is** betekent na die twee minuten en voor de test sluit.
 
