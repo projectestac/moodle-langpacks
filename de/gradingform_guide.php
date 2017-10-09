@@ -46,6 +46,7 @@ $string['criterionempty'] = 'Kriterium bearbeiten';
 $string['criterionmovedown'] = 'Nach unten bewegen';
 $string['criterionmoveup'] = 'Nach oben bewegen';
 $string['criterionname'] = 'Kriteriumsname';
+$string['criterionremark'] = 'Bemerkung für Kriterium: {$a}';
 $string['definemarkingguide'] = 'Bewertungs-Richtlinie festlegen';
 $string['description'] = 'Beschreibung';
 $string['descriptionmarkers'] = 'Beschreibung für Bewerter/innen';

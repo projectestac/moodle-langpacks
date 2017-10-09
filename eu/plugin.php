@@ -69,6 +69,7 @@ $string['packagesextracting'] = '{$a} erauzten';
 $string['plugincheckall'] = 'Plugin guztiak';
 $string['plugincheckattention'] = 'Pluginek zure arreta eskatzen dute';
 $string['pluginchecknone'] = 'Orain pluginek ez dute zure arreta eskatzen';
+$string['pluginchecknotice'] = 'Orri honek eguneraketa egin bitartean zure arreta eska dezaketen gehigarriak erakusten ditu, hala nola instalatuko diren gehigarriak, eguneratuko direnak, falta direnak... Egunera daitezkeen gehigarriak ere erakusten dira. Gehigarrien eguneraketak eskuragarri dauden konprobatzea gomendatzen da, eta halakorik egotekotan iturri-kodea eguneratzea gomendatzen da Moodle eguneratzen jarraitu aurretik.';
 $string['plugindisable'] = 'Desgaitu';
 $string['plugindisabled'] = 'Desgaituta';
 $string['pluginenable'] = 'Gaitu';

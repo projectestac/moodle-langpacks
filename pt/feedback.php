@@ -65,7 +65,7 @@ $string['confirmdeleteentry'] = 'Tem a certeza que pretende apagar esta resposta
 $string['confirmdeleteitem'] = 'Tem a certeza que pretende apagar este item?';
 $string['confirmdeletetemplate'] = 'Tem a certeza que pretende apagar este modelo?';
 $string['confirmusetemplate'] = 'Tem a certeza que pretende aplicar este modelo?';
-$string['continue_the_form'] = 'Continuar o inquérito';
+$string['continue_the_form'] = 'Continuar a responder às perguntas...';
 $string['count_of_nums'] = 'Contagem de números';
 $string['courseid'] = 'ID da disciplina';
 $string['creating_templates'] = 'Gravar estas questões como um novo modelo';
@@ -79,20 +79,20 @@ $string['depending'] = 'Dependências';
 $string['depending_help'] = 'Esta opção permite que uma questão  só seja exibida se tiver sido dada uma determinada resposta a uma questão prévia.<br />
 <strong>Siga os passos seguintes para criar uma dependência:</strong><br />
 <ol>
-<li>Crie uma pergunta que condicionará a exibição de outras perguntas.</li>
-<li>Adicione uma quebra de página (as questões dependentes não podem ocupar a mesma página).</li>
-<li>Adicione as perguntas cuja exibição depende da resposta à pergunta anterior.<br />
-<li>Selecione a pergunta na lista "Dependência de" e indique o valor necessário na caixa de texto "Resposta requerida".</li>
+    <li>Crie uma pergunta que condicionará a exibição de outras perguntas.</li>
+    <li>Adicione uma quebra de página (as questões dependentes não podem ocupar a mesma página).</li>
+    <li>Adicione as perguntas cuja exibição depende da resposta à pergunta anterior.<br />
+    <li>Selecione a pergunta na lista "Dependência de" e indique o valor necessário na caixa de texto "Resposta requerida".</li>
 </ol>
 <strong>Por exemplo:</strong>
 <ol>
-<li>Questão: Tem um carro? R: sim/não</li>
-<li>Quebra de página</li>
-<li>Questão: De que cor é o seu carro?<br />
-(esta questão depende da resposta à primeira questão ser "sim")</li>
-<li>Questão: Porque não tem um carro?<br />
-(esta questão depende da resposta à primeira questão ser "não")</li>
-<li> ... outros itens</li>
+    <li>Questão: Tem um carro? R: sim/não</li>
+    <li>Quebra de página</li>
+    <li>Questão: De que cor é o seu carro?<br />
+        (esta questão depende da resposta à primeira questão ser "sim")</li>
+    <li>Questão: Porque não tem um carro?<br />
+        (esta questão depende da resposta à primeira questão ser "não")</li>
+    <li> ... outros itens</li>
 </ol>';
 $string['dependitem'] = 'Dependência de';
 $string['dependvalue'] = 'Resposta requerida';
@@ -170,7 +170,7 @@ $string['minimal'] = 'mínimo';
 $string['mode'] = 'Modo';
 $string['modulename'] = 'Inquérito';
 $string['modulename_help'] = 'O módulo <b>Inquérito</b> permite a criação de inquéritos configuráveis.';
-$string['modulenameplural'] = 'Inquérito';
+$string['modulenameplural'] = 'Inquéritos';
 $string['movedown_item'] = 'Mover esta questão para baixo';
 $string['move_here'] = 'Mover para aqui';
 $string['move_item'] = 'Mover esta questão';

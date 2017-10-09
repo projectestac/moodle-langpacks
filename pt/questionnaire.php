@@ -80,7 +80,7 @@ $string['closedate'] = 'Usar Data de Fecho';
 $string['closedate_help'] = 'Aqui pode escolher uma data de fecho para o questionário. Selecione a caixa de seleção e escolha a data pretendida.
 Os participantes não podem preencher o questionário após essa data, se não for selecionada este nunca fecha.';
 $string['closeson'] = 'O questionário termina em {$a}.';
-$string['completionsubmit'] = 'Os participantes têm de submeter o questionário para o completar';
+$string['completionsubmit'] = 'Os participantes têm de submeter o questionário para o concluir';
 $string['confalts'] = '- OU - <br />Página de confirmação';
 $string['configmaxsections'] = 'Máximo de secções de feedback';
 $string['configusergraph'] = 'Mostrar gráficos no feedback de "Teste de personalidade"';
@@ -93,7 +93,7 @@ $string['confirmdelquestionresps'] = 'Isso também apagará {$a} resposta(s) já
 $string['confirmdelresp'] = 'Tem a certeza que pretende apagar a resposta de {$a}?';
 $string['confpage'] = 'Titulo';
 $string['confpagedesc'] = 'Titulo (a negrito) e texto da mensagem que é mostrado na página de \'Confirmação\'; página exibida após o participante completar o questionário. (Se definir um URL, este tem precedência em relação ao texto de confirmação).';
-$string['confpage_help'] = 'Titulo (a negrito) e texto da mensagem que é mostrado na página de \'Confirmação\' após o participante responder/completar o questionário. (Se definir um URL, este tem precedência em relação ao texto de confirmação).
+$string['confpage_help'] = 'Titulo (a negrito) e texto da mensagem que é mostrado na página de \'Confirmação\' após o participante responder/concluir o questionário. (Se definir um URL, este tem precedência em relação ao texto de confirmação).
 Se deixar este campo em branco, será exibida uma mensagem predefinida (**Obrigado por ter respondido ao questionário**).';
 $string['contentoptions'] = 'Opções do questionário';
 $string['couldnotcreatenewsurvey'] = 'Não foi possível criar um novo questionário!';

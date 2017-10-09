@@ -195,6 +195,7 @@ $string['unknown'] = 'Ezezaguna';
 $string['unknownerror'] = 'Errore ezezaguna gertatu da negoziazioan zehar.';
 $string['usercannotchangepassword'] = 'Ezin duzu pasahitza hemen aldatu urrutiko erabiltzailea baitzara.';
 $string['usersareonline'] = 'Abisua: zerbitzari honetako {$a} erabiltzaile une honetan zure gunean daude.';
+$string['verifyhostonly'] = 'Egiaztatu ostalaria bakarrik';
 $string['verifysignature-error'] = 'Kale egin du sinadura egiaztatzean. Errorea gertatu da.';
 $string['verifysignature-invalid'] = 'Kale egin du sinadura egiaztatzean. Badirudi ez duzula zeuk sinatu.';
 $string['version'] = 'Bertsioa';

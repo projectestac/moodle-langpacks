@@ -311,7 +311,7 @@ $string['counteditems'] = '{$a->count} {$a->items}';
 $string['country'] = 'País';
 $string['course'] = 'Disciplina';
 $string['courseadministration'] = 'Administração da disciplina';
-$string['courseapprovedemail'] = 'A disciplina que pediu, {$a->name}, foi aprovada e já foi registado como professor dessa disciplina. Para aceder à sua nova disciplina, clique em {$a->url}';
+$string['courseapprovedemail'] = 'A disciplina que pediu, {$a->name}, foi aprovada e já foi registado como professor {$a->teacher}. Para aceder à sua nova disciplina, clique em {$a->url}';
 $string['courseapprovedemail2'] = 'A disciplina que pediu, {$a->name}, foi aprovada. Para aceder à sua nova disciplina, clique em {$a->url}';
 $string['courseapprovedfailed'] = 'Não foi possível gravar a disciplina como aprovada!';
 $string['courseapprovedsubject'] = 'A sua disciplina foi aprovada';
@@ -584,7 +584,7 @@ $string['editsummary'] = 'Editar sumário';
 $string['editthisactivity'] = 'Editar esta atividade';
 $string['editthiscategory'] = 'Editar esta categoria';
 $string['edittitle'] = 'Editar nome';
-$string['edittitleinstructions'] = 'Escape para cancelar, Enter quando terminar';
+$string['edittitleinstructions'] = 'Esc para cancelar, Enter quando terminar';
 $string['edituser'] = 'Editar contas de utilizadores';
 $string['edulevel'] = 'Todos os eventos';
 $string['edulevel_help'] = '* Ensino - ações realizadas por um professor, por exemplo, atualizar um recurso
@@ -680,13 +680,13 @@ Se necessitar de ajuda, contacte o administrador do site,
 {$a->admin}';
 $string['emailpasswordconfirmationsubject'] = '{$a}:  Confirmação de alteração da senha';
 $string['emailpasswordconfirmmaybesent'] = '<p>Se indicou um nome de utilizador ou endereço de e-mail correto, deverá receber um e-mail.</p>
-<p>Este e-mail contém as instruções para confirmar e completar o processo de alteração de senha. Se continuar a ter dificuldades, por favor contacte o administrador do site.</p>';
+<p>Este e-mail contém as instruções para confirmar e concluir o processo de alteração de senha. Se continuar a ter dificuldades, por favor contacte o administrador do site.</p>';
 $string['emailpasswordconfirmnoemail'] = '<p>A conta de utilizador que especificou não possui um endereço de e-mail gravado.</p>
 <p>Por favor, contacte o administrador do site.</p>';
 $string['emailpasswordconfirmnotsent'] = '<p>O detalhe de utilizador que forneceu não identifica nenhuma conta de utilizador existente.</p>
 <p>Por favor, verifique a informação que introduziu e tente novamente. Se continuar a ter dificuldade, por favor contacte o administrador do site.</p>';
 $string['emailpasswordconfirmsent'] = 'Foi enviada uma mensagem para o seu endereço <b>{$a}</b>.
-<br />Esta contém instruções para confirmar e completar a alteração da senha.
+<br />Esta contém instruções para confirmar e concluir a alteração da senha.
 Se continuar a ter dificuldades, contacte o administrador do servidor.';
 $string['emailpasswordsent'] = 'Obrigado por confirmar a alteração da sua senha.
 A sua nova senha foi enviada por correio para <br /><b>{$a->email}</b>.<br />
@@ -701,7 +701,7 @@ Se este pedido de reposição de senha não foi feito por si, ignore esta mensag
 
 Se precisar de ajuda, por favor contacte o administrador do site, {$a->admin}.';
 $string['emailresetconfirmationsubject'] = '{$a}: Pedido de reposição de senha';
-$string['emailresetconfirmsent'] = 'Foi enviado um e-mail para o seu endereço em <b>{$a}</b>.<br />Este contém instruções para confirmar e completar a alteração da sua senha. Se precisar de ajuda, por favor contacte o administrador do site, {$a->admin}.';
+$string['emailresetconfirmsent'] = 'Foi enviado um e-mail para o seu endereço em <b>{$a}</b>.<br />Este contém instruções para confirmar e concluir a alteração da sua senha. Se precisar de ajuda, por favor contacte o administrador do site, {$a->admin}.';
 $string['emailtoprivatefiles'] = 'Também pode enviar ficheiros como anexos de e-mail diretamente para a sua área de ficheiros privados. Basta anexar os seus ficheiros a um email e enviá-lo para {$a}.';
 $string['emailtoprivatefilesdenied'] = 'O administrador desativou a possibilidade de carregar ficheiros privados.';
 $string['emailvia'] = '{$a->name} (via {$a->siteshortname})';
@@ -1104,7 +1104,7 @@ $string['messagedselectedusersfailed'] = 'Ocorreu um erro no envio da mensagem p
 $string['messageprovider:availableupdate'] = 'Notificação de atualizações disponíveis';
 $string['messageprovider:backup'] = 'Notificações da cópia de segurança';
 $string['messageprovider:badgecreatornotice'] = 'Notificações do emissor da Medalha';
-$string['messageprovider:badgerecipientnotice'] = 'Notificações do destinatário da Medalha';
+$string['messageprovider:badgerecipientnotice'] = 'Notificações ao condecorado com a Medalha';
 $string['messageprovider:competencyplancomment'] = 'Comentário publicado num plano de aprendizagem';
 $string['messageprovider:competencyusercompcomment'] = 'Comentário publicado numa competência';
 $string['messageprovider:courserequestapproved'] = 'Notificação da aprovação do pedido de disciplina';
@@ -1541,7 +1541,7 @@ $string['restoreuserconflict'] = 'Tentar restaurar o utilizador \'{$a}\' do fich
 $string['restoreuserinfofailed'] = 'O processo de restauração parou porque não possui permissão para restaurar dados dos utilizadores.';
 $string['restoreusersprecheck'] = 'A verificar os dados dos utilizadores';
 $string['restoreusersprecheckerror'] = 'Foram encontrados problemas ao verificar os dados dos utilizadores';
-$string['restricted'] = 'Restritos';
+$string['restricted'] = 'Acesso restrito';
 $string['returningtosite'] = 'Voltar para este site?';
 $string['returntooriginaluser'] = 'Voltar para {$a}';
 $string['revert'] = 'Reverter';
@@ -1643,7 +1643,7 @@ $string['selectperiod'] = 'Selecione período';
 $string['senddetails'] = 'Envie os meus dados por correio';
 $string['separate'] = 'Separar';
 $string['separateandconnected'] = 'Modos de aprendizagem isolado e conexo';
-$string['separateandconnectedinfo'] = 'A escala baseia-se na teoria de aprendizagem isolado e conexo. Esta teoria descreve duas maneiras diferentes que podemos avaliar e aprender sobre as coisas que vemos e ouvimos. <ul> <li> <strong>Aprendizagem isolada</ strong> tão objectiva quanto possível, evitando sentimentos e emoções. Numa discussão com outras pessoas, gostam de defender as suas próprias ideias, usando a lógica de encontrar lacunas nas ideias dos adversários. </li><li><strong>Conexo</strong> são mais sensíveis a outras pessoas. Criam facilmente empatia e preferem ouvir e questionar até que sentem que se podem conectar e "compreender as coisas sob outro ponto de vista". Eles aprendem através da partilha das experiências que levaram ao conhecimento que encontramos em outras pessoas.</li></ul>';
+$string['separateandconnectedinfo'] = 'A escala baseia-se na teoria de aprendizagem isolado e conexo. Esta teoria descreve duas maneiras diferentes que podemos avaliar e aprender sobre as coisas que vemos e ouvimos. <ul> <li> <strong>Aprendizagem isolada</strong> tão objectiva quanto possível, evitando sentimentos e emoções. Numa discussão com outras pessoas, gostam de defender as suas próprias ideias, usando a lógica de encontrar lacunas nas ideias dos adversários. </li><li><strong>Conexo</strong> são mais sensíveis a outras pessoas. Criam facilmente empatia e preferem ouvir e questionar até que sentem que se podem conectar e "compreender as coisas sob outro ponto de vista". Eles aprendem através da partilha das experiências que levaram ao conhecimento que encontramos em outras pessoas.</li></ul>';
 $string['servererror'] = 'Ocorreu um erro ao comunicar com o servidor';
 $string['serverlocaltime'] = 'Hora local do servidor';
 $string['setcategorytheme'] = 'Definir tema da categoria';
@@ -1685,6 +1685,7 @@ $string['showreports_help'] = 'São disponibilizados relatórios de atividade pa
 $string['showsettings'] = 'Mostrar configuração';
 $string['showtheselogs'] = 'Mostrar estatísticas de acesso';
 $string['showthishelpinlanguage'] = 'Mostrar esta ajuda no idioma: {$a}';
+$string['sidepanel'] = 'Painel lateral';
 $string['signoutofotherservices'] = 'Sair em qualquer lugar';
 $string['signoutofotherservices_help'] = 'Se ativar esta opção, a conta será fechada em todos os dispositivos e sistemas que usam serviços Web, tal como a aplicação para dispositivos móveis.';
 $string['since'] = 'Desde';

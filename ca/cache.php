@@ -41,6 +41,7 @@ $string['cachedef_config'] = 'Paràmetres de configuració';
 $string['cachedef_coursecat'] = 'Llistat de categories del curs per a l\'usuari particular';
 $string['cachedef_coursecatrecords'] = 'Registres de les categories del curs';
 $string['cachedef_coursecattree'] = 'Arbre de les categories del curs';
+$string['cachedef_coursecompletion'] = 'Estat de compleció del curs';
 $string['cachedef_coursecontacts'] = 'Llista de contactes del curs';
 $string['cachedef_coursemodinfo'] = 'Informació acumulada sobre mòduls i seccions per a cada curs';
 $string['cachedef_databasemeta'] = 'Metainformació de la base de dades';

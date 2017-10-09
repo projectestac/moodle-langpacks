@@ -1720,6 +1720,7 @@ $string['showreports_help'] = '<p align="center"><b>活动报表</b></p>
 $string['showsettings'] = '显示设置';
 $string['showtheselogs'] = '显示这些日志';
 $string['showthishelpinlanguage'] = '显示本帮助的{$a}版本';
+$string['sidepanel'] = '停靠面板';
 $string['signoutofotherservices'] = '全部退出';
 $string['signoutofotherservices_help'] = '如果勾选，该帐户将会退出使用网络服务的所有设备和系统，例如移动应用。';
 $string['since'] = '开始时间';

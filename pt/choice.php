@@ -86,7 +86,7 @@ A Sondagem pode ser utilizada:
 * Como uma pergunta rápida para estimular o pensamento sobre um tópico, testando assim rapidamente a compreensão dos alunos;
 * Para facilitar a tomada de decisões, por exemplo, permitindo que os alunos votem em algo.';
 $string['modulename_link'] = 'mod/choice/view';
-$string['modulenameplural'] = 'Opções de resposta';
+$string['modulenameplural'] = 'Sondagens';
 $string['moveselectedusersto'] = 'Mover os utilizadores selecionados para...';
 $string['multiplenotallowederror'] = 'Múltiplas respostas não são permitidas nesta sondagem';
 $string['mustchooseone'] = 'Deve selecionar uma opção de resposta antes de gravar.';

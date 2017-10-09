@@ -120,7 +120,7 @@ $string['delay3_help'] = 'Esta configuração especifica o intervalo de tempo en
 **Não continuar automaticamente**
 : o controlo não voltará ao Moodle após terminar o teste. O aluno poderá navegar para fora da página do teste.
 
-As notas obtidas no teste são reportadas sempre ao Moodle após o aluno sair ou completar o teste, independentemente desta configuração.';
+As notas obtidas no teste são reportadas sempre ao Moodle após o aluno sair ou concluir o teste, independentemente desta configuração.';
 $string['delay3specific'] = 'Usar tempo específico (em segundos)';
 $string['delay3summary'] = 'Tempo de intervalo no final do teste';
 $string['delay3template'] = 'Usar configurações do ficheiro de origem/modelo';
@@ -228,7 +228,7 @@ $string['exit_feedback_help'] = 'Estas opções ativam ou desativam a exibição
 : **= 0%**: Está tudo bem?
 
 **Exibir nota da tentativa**
-: se ativo, a nota da tentativa completa será exibida na página de saída.
+: se ativo, a nota da tentativa que acabou de ser concluída será exibida na página de saída.
 
 **Unit grade**
 : if checked the HotPot grade will be displayed on the exit page.

@@ -145,6 +145,7 @@ $string['deleteallsubmissions'] = 'Esborra totes les trameses';
 $string['description'] = 'Descripció';
 $string['downloadall'] = 'Descarrega totes les trameses';
 $string['downloadasfolders'] = 'Descarrega les trameses en carpetes';
+$string['downloadasfolders_help'] = 'Si la tramesa de la tasca conté més d\'un únic fitxer, les trameses poden descarregar-se en carpetes. Cada tramesa es posa en una carpeta separada, amb l\'estructura de carpeta mantinguda per a cada subcarpeta, i els fitxers no canvien de nom.';
 $string['downloadselectedsubmissions'] = 'Baixa les trameses seleccionades';
 $string['duedate'] = 'Data de venciment';
 $string['duedatecolon'] = 'Data de venciment: {$a}';

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['bigfile'] = 'Fitxategi handia: {$a}';
-$string['coursesize_0'] = 'XS (~10KB; ~1 segundutan sortua)';
+$string['coursesize_0'] = 'XS (~10KB; ~ segundu batean sortua)';
 $string['coursesize_1'] = 'S (~10MB; ~30 segundutan sortua)';
 $string['coursesize_2'] = 'M (~100MB; ~2 minututan sortua)';
 $string['coursesize_3'] = 'L (~1GB; ~30 minututan sortua)';

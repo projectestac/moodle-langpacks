@@ -191,4 +191,5 @@ $string['viewmyentriesaboutmodule'] = 'Ikusi nire sarrerak {$a} honi buruz';
 $string['viewsiteentries'] = 'Sarrera guztiak ikusi';
 $string['viewuserentries'] = '{$a}-ren sarrera guztiak ikusi';
 $string['worldblogs'] = 'Edozeinek ikus ditzake mundu osoarentzat argitaratutako sarrerak';
+$string['wrongexternalid'] = 'Kanpoko blog ID baliogabea';
 $string['wrongpostid'] = 'Blog-mezuaren ID okerra';

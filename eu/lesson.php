@@ -151,6 +151,7 @@ $string['didnotanswerquestion'] = 'Galdera honi ez diozu erantzunik eman.';
 $string['didnotreceivecredit'] = 'Ez duzu krediturik jaso';
 $string['disabled'] = 'Desgaituta';
 $string['displaydefaultfeedback'] = 'Erabili berezko atzeraelikadura';
+$string['displaydefaultfeedback_help'] = 'Gaituz gero, galdera baten erantzuna aurkitzen ez bada "Hauxe da erantzun zuzena" edo "Hauxe da erantzun okerra" berezko erantzuna erakutsiko da.';
 $string['displayhighscores'] = 'Erakutsi puntuazio onenak';
 $string['displayinleftmenu'] = 'Menuan erakutsi?';
 $string['displayleftif'] = 'Gutxieneko puntuazioa menua erakusteko';

@@ -840,7 +840,7 @@ $string['format_help'] = 'El formato del curso determina el diseño de la págin
 
 * Formato semanal - la página del curso está organizado en secciones semanales, con la primera semana a partir de la fecha de inicio del curso';
 $string['formathtml'] = 'Formato HTML';
-$string['formatmarkdown'] = 'Formado Markdown';
+$string['formatmarkdown'] = 'Formato Markdown';
 $string['formatplain'] = 'Formato de texto plano';
 $string['formattext'] = 'Formato automático';
 $string['formattexttype'] = 'Formato';
@@ -1184,7 +1184,7 @@ $string['movecategoriestotopsuccess'] = 'Movidas con éxito al nivel principal {
 $string['movecategorycontentto'] = 'Mover a';
 $string['movecategorysuccess'] = 'Se ha movido con éxito la categoría \'{$a->moved}\' dentro de la categoría \'{$a->to}\'';
 $string['movecategoryto'] = 'Mover categoría a:';
-$string['movecategorytotopsuccess'] = 'Movidas con éxito al nivel principal {$a->count} categorías';
+$string['movecategorytotopsuccess'] = 'Movidas con éxito al nivel principal \'{$a->moved}\' categorías';
 $string['movecontent'] = 'Mover {$a}';
 $string['movecontentstoanothercategory'] = 'Mover el contenido a otra categoría';
 $string['movecoursemodule'] = 'Mover el recurso';
@@ -1772,6 +1772,7 @@ $string['showreports_help'] = '<p>Los informes de actividades están disponibles
 $string['showsettings'] = 'Mostrar ajustes';
 $string['showtheselogs'] = 'Mostrar estos registros';
 $string['showthishelpinlanguage'] = 'Mostrar esta ayuda en el idioma: \'{$a}\'';
+$string['sidepanel'] = 'Panel lateral';
 $string['signoutofotherservices'] = 'Salir de todos los lugares';
 $string['signoutofotherservices_help'] = 'Si se ha identificado, la cuenta se cerrará de todos los dispositivos y sistemas que utilizan servicios web, como la aplicación para dispositivos móviles.';
 $string['since'] = 'Desde';

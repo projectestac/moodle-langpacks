@@ -57,7 +57,7 @@ $string['auth_ldap_gracelogins_desc'] = 'Gaitu LDAP graziazko sarreren euskarria
 $string['auth_ldap_gracelogins_key'] = 'Graziazko sarrerak';
 $string['auth_ldap_groupecreators'] = 'Taldeak sortzeko baimena duten kideak dauden talde edo testuinguru-zerrenda. Taldeak \',\'-z banatu. Adibidez, honelako zerbait: \'cn=irakasleak,ou=administrazioa,o=nireerakundea\'';
 $string['auth_ldap_groupecreators_key'] = 'Talde sortzaileak';
-$string['auth_ldap_host_url'] = 'LDAP ostatua URL bidez zehaztu, adibidez \'ldap://ldap.zerbitzaria.com/\' edo \'ldaps://ldap.zerbitzaria.com/\'. Banandu zerbitzariak \';\' erabiliz hutsegiteen aurkako babaesa gehitzeko.';
+$string['auth_ldap_host_url'] = 'LDAP ostatua URL bidez zehaztu, adibidez \'ldap://ldap.zerbitzaria.com/\' edo \'ldaps://ldap.zerbitzaria.com/\'. Banandu zerbitzariak \';\' erabiliz hutsegiteen aurkako babesa gehitzeko.';
 $string['auth_ldap_host_url_key'] = 'Ostalariaren URLa';
 $string['auth_ldap_ldap_encoding'] = 'Zehaztu LDAP zerbitzariak erabilitako kodifikazioa. Ziurrenik utf-8, MS AD v2-k berez erabiltzen du plataformako kodifikazioa. Adibidez: cp1252, cp1250, e.a.';
 $string['auth_ldap_ldap_encoding_key'] = 'LDAP kodifikazioa';

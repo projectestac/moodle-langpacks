@@ -270,6 +270,7 @@ $string['nomaximum'] = 'Χωρίς μέγιστο';
 $string['norecords'] = 'Δεν υπάρχουν καταχωρήσεις στη βάση δεδομένων';
 $string['nosingletemplate'] = 'Το ατομικό πρότυπο δεν έχει οριστεί ακόμα';
 $string['notinjectivemap'] = 'Δεν είναι injective map';
+$string['notopenyet'] = 'Συγνώμη, αυτή η δραστηριότητα δεν είναι διαθέσιμη μέχρι {$a}';
 $string['number'] = 'Αριθμός';
 $string['numberrssarticles'] = 'RSS Άρθρα';
 $string['numnotapproved'] = 'Εκκρεμεί';

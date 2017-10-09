@@ -54,6 +54,7 @@ $string['leveldefinition'] = 'Definizione livello {$a}';
 $string['leveldelete'] = 'Elimina livello {$a}';
 $string['levelempty'] = 'Click per modificare il livello';
 $string['levelsgroup'] = 'Gruppo di livelli';
+$string['lockzeropoints'] = 'Calcola la valutazione basandosi sul rubric con un punteggio minimo di 0';
 $string['name'] = 'Nome';
 $string['needregrademessage'] = 'La definizione del rubric è stata cambiata dopo la valutazione di questo studente. Lo studente non potrà visualizzare questo rubric finché non controllerai il rubric e aggiornerai la valutazione';
 $string['pluginname'] = 'Rubric';

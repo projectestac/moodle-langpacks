@@ -105,6 +105,7 @@ $string['manageuserrepository'] = 'Διαχείριση μεμονωμένου �
 $string['noenter'] = 'Δεν εισήχθη τίποτα';
 $string['nofilesattached'] = 'Δεν υπάρχουν επισυναπτόμενα αρχεία';
 $string['nofilesavailable'] = 'Δεν υπάρχουν διαθέσιμα αρχεία';
+$string['nomorefiles'] = 'Δεν επιτρέπονται άλλα συνημμένα';
 $string['nopermissiontoaccess'] = 'Χωρίς δικαίωμα πρόσβασης σε αυτό το χώρο αποθήκευσης';
 $string['noresult'] = 'Χωρίς αποτέλεσμα αναζήτησης';
 $string['notyourinstances'] = 'Δεν μπορείτε να δείτε/επεξεργαστείτε στιγμιότυπα χώρου αναζήτησης ενός άλλου χρήστη';

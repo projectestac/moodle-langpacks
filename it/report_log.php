@@ -37,6 +37,7 @@ $string['eventuserreportviewed'] = 'Visualizzato report log utente';
 $string['logsformat'] = 'Formato log';
 $string['log:view'] = 'Visualizzare i log del corso';
 $string['log:viewtoday'] = 'Visualizzare i log di oggi';
+$string['nocapability'] = 'Non è possibile accedere al report log dell\'utente';
 $string['nologreaderenabled'] = 'Nessun log reader abilitato';
 $string['origin'] = 'Fonte';
 $string['page'] = 'Pagina {$a}';

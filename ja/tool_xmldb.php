@@ -145,7 +145,7 @@ $string['keys'] = 'キー';
 $string['listreservedwords'] = '予約語一覧<br />(<a href="http://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB_reserved_words</a> を更新するため使用されます。)';
 $string['load'] = 'ロード';
 $string['main_view'] = 'メインビュー';
-$string['masterprimaryuniqueordernomatch'] = 'あなたの外部キーのフィールドは、参照テーブルのユニークキーと同じ順番で記述する必要があります。';
+$string['masterprimaryuniqueordernomatch'] = 'あなたの外部キーのフィールドは参照テーブルのユニークキーと同じ順番で記述する必要があります。';
 $string['missing'] = '不明';
 $string['missingindexes'] = 'インデックスが見つかりません。';
 $string['mustselectonefield'] = 'フィールドに関連した処理を見るには、フィールドを選択してください!';

@@ -61,7 +61,7 @@ $string['assessmentendbeforestart'] = '評価開始日時の前に評価終了�
 $string['assessmentenddatetime'] = '評価期限: {$a->daydatetime} ({$a->distanceday})';
 $string['assessmentendevent'] = '{$a} (評価期限)';
 $string['assessmentform'] = '評価フォーム';
-$string['assessmentofsubmission'] = '<a href="{$a->submissionurl}">{$a->submissiontitle}</a>　の <a href="{$a->assessmenturl}">評価</a> ';
+$string['assessmentofsubmission'] = '<a href="{$a->submissionurl}">{$a->submissiontitle}</a> の <a href="{$a->assessmenturl}">評価</a>';
 $string['assessmentreference'] = '参考評価';
 $string['assessmentreferenceconflict'] = 'あなたが参考評価のために提出した提出例を評価することはできません。';
 $string['assessmentreferenceneeded'] = '参考評価を提供するため、あなたはこの提出例を評価する必要があります。提出を評価するには「続ける」ボタンをクリックしてください。';
@@ -97,7 +97,7 @@ $string['configstrategy'] = 'ワークショップのデフォルト評価方法
 $string['createsubmission'] = 'あなたの送信準備を開始する';
 $string['daysago'] = '{$a} 日前';
 $string['daysleft'] = '残り {$a} 日';
-$string['daystoday'] = '今日';
+$string['daystoday'] = '本日';
 $string['daystomorrow'] = '明日';
 $string['daysyesterday'] = '昨日';
 $string['deadlinesignored'] = 'あなたには時間制限は適用されません。';
@@ -284,6 +284,8 @@ $string['submissiongrade'] = '提出に対する評点';
 $string['submissiongrade_help'] = 'この設定では提出されたワークが取得することのできる最大評点を指定します。';
 $string['submissiongradeof'] = '提出に対する評点 (最大 {$a})';
 $string['submissionlastmodified'] = '最終更新日時';
+$string['submissionrequiredcontent'] = 'あなたはテキストを入力するかファイルを追加する必要があります。';
+$string['submissionrequiredfile'] = 'あなたはファイルを追加するかテキストを入力する必要があります。';
 $string['submissionsettings'] = '提出設定';
 $string['submissionsreport'] = 'ワークショップ提出レポート';
 $string['submissionstart'] = '提出開始日時';

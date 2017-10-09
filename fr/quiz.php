@@ -503,6 +503,7 @@ $string['newattemptfail'] = 'Erreur ! Impossible de commencer une tentative de 
 $string['newpage'] = 'Nouvelle page';
 $string['newpageevery'] = 'Commencer automatiquement une nouvelle page';
 $string['newpage_help'] = 'Pour les tests longs, il peut être utile de répartir le test sur plusieurs pages, en définissant un nombre de questions par page. Lorsque vous ajouterez des questions au test, les boutons de changement de page seront automatiquement introduits, selon le paramètre indiqué ici. Par ailleurs, vous pourrez également déplacer manuellement ce changement de page, en modifiant la page.';
+$string['newsectionheading'] = 'Nouveau titre';
 $string['noanswers'] = 'Aucune réponse n\'a été sélectionnée !';
 $string['noattempts'] = 'Aucune tentative n\'a été réalisée sur ce test';
 $string['noattemptsfound'] = 'Aucune tentative trouvée.';

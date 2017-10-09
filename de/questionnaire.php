@@ -292,7 +292,15 @@ $string['order_ascending'] = 'Aufsteigend';
 $string['order_default'] = 'Standardreihenfolge';
 $string['order_descending'] = 'Absteigend';
 $string['orderresponses'] = 'Antworten sortieren';
-$string['orderresponses_help'] = 'Bei der Anzeige Alle Antworten können Sie die Auswahl nach der Anzahl der Anworten (die anordnen';
+$string['orderresponses_help'] = 'Wenn Sie alle Antworten anzeigen, können Sie die Auswahl nach Anzahl der Antworten (die Spalte \'Durchschnitt\') für die folgenden 4 Arten von Fragen auswählen:
+
+* Einzelauswahl-Optionsfeld
+* Einzelauswahl Dropdown-Liste
+* Mehrfachauswahl (Kontrollkästchen)
+* Wertungsfragen (einschließlich Likert Skalen).
+
+Wenn Sie auf der Seite \'Alle Antworten\' ankommen, werden standardmäßig alle Antworten in der Reihenfolge geordnet, in der der Fragebogen-Ersteller die Frage-Auswahl eingegeben hat.
+Sie können sie in auf- oder absteigender Reihenfolge ordnen.';
 $string['osgood'] = 'Semantisches Differential';
 $string['other'] = 'Andere:';
 $string['otherempty'] = 'Wenn Sie dies ankreuzen, müssen Sie etwas ins Textfeld eingeben.';
@@ -370,7 +378,7 @@ $string['realm_help'] = '**Es gibt 3 Typen von Befragungen**
 $string['redirecturl'] = 'URL, zu welcher ein Nutzer nach Abschluss der Befragung weiter geleitet wird.';
 $string['remove'] = 'Löschen';
 $string['removeallquestionnaireattempts'] = 'Alle Abgaben der Befragung löschen';
-$string['required'] = 'Anwort ist erforderlich';
+$string['required'] = 'Antwort ist erforderlich';
 $string['required_help'] = 'Wenn Sie **Ja** wählen, ist eine Antwort auf diese Frage obligatorisch, d.h. der Nutzer wird die Befragung nicht abgeben können, bis diese Frage beantwortet ist.';
 $string['requiredparameter'] = 'Ein notwendiger Parameter fehlt.';
 $string['reset'] = 'Zurücksetzen';

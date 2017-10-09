@@ -67,6 +67,7 @@ $string['monitor:subscribe'] = 'Harpidetu  ekitaldi-kontrolerako arauetara';
 $string['norules'] = 'Ez dago ekitaldi-kontrolerako araurik';
 $string['pluginname'] = 'Ekitaldi-monitorea';
 $string['ruleareyousure'] = 'Ziur al zaude "{$a}" araua ezabatu nahi duzula?';
+$string['ruleareyousureextra'] = '{$a} harpidedun daude ezabatuko den arau honetara harpidetuta daudenak.';
 $string['rulecopysuccess'] = 'Araua ondo bikoiztu da';
 $string['ruledeletesuccess'] = 'Araua ondo ezabatu da';
 $string['rulehelp'] = 'Arauaren xehetasunak';

@@ -126,7 +126,7 @@ $string['clitypevalue'] = 'Sartu balorea';
 $string['clitypevaluedefault'] = 'sartu balorea, sakatu Enter-i berezko balorea erabiltzeko ({$a})';
 $string['cliunknowoption'] = 'Aukera ezezagunak:{$a}
 Mesedez, erabili --laguntza aukera.';
-$string['cliupgradefinished'] = 'Lerro komandoa egoki eguneratu da.';
+$string['cliupgradefinished'] = 'Komando-lerroa ondo eguneratu da.';
 $string['cliupgradenoneed'] = 'Ez da eguneraketarik behar instalatutako  {$a} bertsiorako.';
 $string['cliyesnoprompt'] = 'idatzi b (bai esateko) edo e (ez esateko)';
 $string['commentsperpage'] = 'Orriko erakutsiko diren iruzkinak';
@@ -169,7 +169,7 @@ $string['configcourserequestnotify'] = 'Erabiltzailearen erabiltzaile-izena ikas
 $string['configcourserequestnotify2'] = 'Ikastaro-eskaria egiten denean jakinarazpena jasoko duten erabiltzaileak. Ikastaro-eskariak onar ditzaketen erabiltzaileak bakarrik agertuko dira zerrenda honetan.';
 $string['configcoursesperpage'] = 'Idatzi ikastaro-zerrenda batean orriko zenbat ikastaro erakutsi behar den.';
 $string['configcourseswithsummarieslimit'] = 'Ikastaro-zerrendan erakutsiko den gehieneko ikastaro-kopurua, laburpena edukita, zerrenda sinplera itzuli aurretik.';
-$string['configcronclionly'] = 'Cron-a web nabigatzaile baten bitartez egikaritzeak informazio pribilegiatua erabiltzaile ezezagunei ikusgai jartzea suposatu lezake. Horregatik cron-a komando-lerro batetik baino ez egikaritzea gomendatzen da edo bestela cron-aren pasahitza zehaztea urruneko sarbideetarako.';
+$string['configcronclionly'] = 'Cron-a web-nabigatzaile baten bitartez egikaritzeak informazio pribilegiatua erabiltzaile ezezagunei ikusgai jartzea suposa lezake. Horregatik cron-a komando-lerro batetik baino ez egikaritzea gomendatzen da edo bestela cron-aren pasahitza zehaztea urruneko sarbideetarako.';
 $string['configcronremotepassword'] = 'Honek esan nahi du cron.php script-a ezin dela web nabigatzaile batetik egikaritu pasahitza eman gabe, ondokoa bezalako URL motako formularioa erabiliz: <pre>http://site.example.com/admin/cron.php?password=opensesame
 </pre>. Hutsik utziz gero, ez da pasahitzik behar.';
 $string['configcurlcache'] = 'cURL cachearen biziraupena, segundutan.';
@@ -233,7 +233,7 @@ $string['configfrontpageloggedin'] = 'Aukeratutako elementuak gunearen hasiera-o
 $string['configfullnamedisplay'] = 'Aukera honek izenak osorik erakustean nola ikusiko diren definitzen du. Berezko balioak, "language", erakutsi beharrekoa hizkuntza pakete bakoitzaren "fullnamedisplay" katearen menpe uzten du. Hizkuntza batzuek izenak erakusteko arau ezberdinak dituzte.
 
 Hizkuntza bakarra erabiltzen duten gune gehienek lehenetsitako balorea mantentzea aholkatzen da: ("Izena + Deitura"), baina deitura ezkutatzea erabaki dezakezu. Erabili daitezken gakoak hauek dira: firstname, lastname, firstnamephonetic, lastnamephonetic, middlename, and alternatename.';
-$string['configgeoipfile'] = 'GeoLite2 City fitxategi bitarraren kokapena. Fitxategi hau ez dator Moodle-ren pakete estandarrean eta aparte lortu behar da hemen: <a href="http://www.maxmind.com/">MaxMind</a>. Bertsio komertziala nahiz doakoa dituzu eskura. Jaitsi hemendik <a href="http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz" >http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz</a> eta atera zure zerbitzariaren "{$a}" direktorioan.';
+$string['configgeoipfile'] = 'GeoLite2 City fitxategi bitarraren kokapena. Fitxategi hau ez dator Moodle-ren pakete estandarrean eta aparte lortu behar da hemen: <a href="http://www.maxmind.com/">MaxMind</a>. Bertsio komertziala nahiz doakoa dituzu eskura. Jaitsi hemendik <a href="http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz" >http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz</a> eta atera zure zerbitzariaren "{$a}" karpetan.';
 $string['configgetremoteaddrconf'] = 'Zure zerbitzaria \'reverse proxy\' baten atzean badago aukera hau erabil dezakezu urrutiko IP helbidea duten zein HTTP goibururekin fida daitekeen zehazteko. Goiburuak ordenean irakurriko dira eta eskura dagoen lehenengoa erabiliko da.';
 $string['configgradebookroles'] = 'Ezarpen honek kalifikazio-liburuan nor agertuko den kontrolatzen utziko dizu. Erabiltzaileek hauetako rolen bat izan behar dute gutxienez ikastaro batean ikastaro horretako kalifikazio-liburuan agertzeko.';
 $string['configgradeexport'] = 'Aukeratu kalifikazio-liburua esportatzeko zein formatu izango den kalifikazioak esportatzeko metodo nagusia. Aukeratutako lokailuek eremu bat (\'esporatutako azkenak\') erabiliko dute kalifikazio bakoitzerako. Adibidez, honen ondorioz esportatutako erregistroak "berriak" edo "eguneratuta" gisa identifikatuko dira. Hau nola egin ez badakizu, ez markatu ezer.';
@@ -271,7 +271,7 @@ $string['configmodchooserdefault'] = 'Jarduera-hautatzailea berez agertu behar l
 $string['configmycoursesperpage'] = 'Erabiltzaile baten ikastaroen zerrendan erakutsiko den gehienezko ikastaro kopurua.';
 $string['configmymoodleredirect'] = 'Aukera honek kudeatzaileak ez direnak sartzean /my-ra eta /my daukan guneko goi mailako gunearen nabigaziora joatera behartzen ditu';
 $string['configmypagelocked'] = 'Ezarpen honek babestu egiten du berezko orria kudeatzaile ez den inork edita ez dezan';
-$string['confignavcourselimit'] = 'Erabiltzaileari erakutsiko zaion ikastaro-kopurua identifikatu gabe dagoenean edo inongo ikastarotan matrikulatuta ez dagoenean.';
+$string['confignavcourselimit'] = 'Erabiltzaileari erakutsiko zaion ikastaro-kopurua nabigazioan.';
 $string['confignavshowallcourses'] = 'Ezarpen honek ikastaroetan matrikulatutako erabiltzaileei Ikastaroak (ikastaro guztien zerrenda) esteka nabigazio-barran azalduko zaien zehazten du, Nire Ikastaroak (matrikulatutako ikastaroen zerrenda) estekaz gain.';
 $string['confignavshowcategories'] = 'Ikastaro-kategoriak nabigazio-barran eta nabigazio-blokeetan erakutsi. Ikaslea matrikulatuta dagoen ikastaroetan ez du eraginik, eta horrela \'Nire ikastaroak\' zerrendan agertuko dira kategoriarik gabe.';
 $string['confignoreplyaddress'] = 'Batzuetan e-postak erabiltzaileak bidaltzen ditu (ad., foro bateko mezuak). E-posta helbidea "Norena" gisa azalduko da hartzaileek zuzenean erantzuteko posibilitatea ez duten kasuetan (ad., erabiltzaileak bere helbidea ezkutatu nahi duenean).';
@@ -292,8 +292,8 @@ $string['configproxypassword'] = 'Internetera proxy bidez sartzeko behar den pas
 $string['configproxyport'] = 'Zerbitzari honek proxy-ordenagailua behar badu, idatzi hemen proxyaren portua.';
 $string['configproxytype'] = 'Web proxy mota (PHP5 eta cURL luzapena behar dira SOCKS5 euskarrirako)';
 $string['configproxyuser'] = 'Internetera proxy-ren bidez sartzeko behar den erabiltzaile-izena; bestela, zuri utzi (PHP cURL luzapena behar da).';
-$string['configrecaptchaprivatekey'] = 'Zure Moodle zerbitzariaren eta recaptcha zerbitzariaren arteko komunikazioa ezartzeko erabilitako karaktere-multzoa (gako pribatua). ReCAPTCHA gakoak <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a> helbidetik eskuratu daitezke';
-$string['configrecaptchapublickey'] = 'Izena emateko formularioan reCAPTCHA elementua erakusteko karaktere-multzoa (gako publikoa). ReCAPTCHA gakoak <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a> helbidetik eskuratu daitezke.';
+$string['configrecaptchaprivatekey'] = 'Zure Moodle zerbitzariaren eta recaptcha zerbitzariaren arteko komunikazioa ezartzeko erabilitako karaktere-multzoa (gako pribatua). ReCAPTCHA gakoak <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a> helbidetik eskura daitezke';
+$string['configrecaptchapublickey'] = 'Izena emateko formularioan reCAPTCHA elementua erakusteko karaktere-multzoa (gako publikoa). ReCAPTCHA gakoak <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a> helbidetik eskura daitezke.';
 $string['configrequestcategoryselection'] = 'Utzi kategoria aukeratzen ikastaro-eskaria egiten denean.';
 $string['configrequestedstudentname'] = 'Eskatutako ikastaroetan \'ikaslea\' izendatzeko erabilitako hitza';
 $string['configrequestedstudentsname'] = 'Eskatutako ikastaroetan  \'ikasleak\' izendatzeko erabilitako hitza';
@@ -361,7 +361,7 @@ $string['cookiesecure'] = 'Cookie seguruak baino ez';
 $string['country'] = 'Lehenetsitako herrialdea';
 $string['coursecontact'] = 'Ikastaro-kudeatzaileak';
 $string['coursecontact_desc'] = 'Honek aukera ematen dizu ikastaroaren deskribapenean nor agertuko den kontrolatzeko. erabiltzaileek gutxienez hauetako rolen bat izan behar dute ikastaroan beronen deskribapenean agertzeko.';
-$string['courselistshortnames'] = 'Erakutsi ikastaroen izen laburrak';
+$string['courselistshortnames'] = 'Erakutsi ikastaroen izen luzeak';
 $string['coursemgmt'] = 'Kudeatu Ikastaroak eta kategoriak';
 $string['courseoverview'] = 'Ikastaroaren ikuspegi orokorra';
 $string['courserequestnotify'] = 'Ikastaro-eskariaren jakinarazpena';
@@ -374,7 +374,7 @@ $string['courseswithsummarieslimit'] = 'Laburpen mugatuak dituzten ikastaroak';
 $string['creatornewroleid'] = 'Sortzaileen rola ikastaro berrietan';
 $string['creatornewroleid_help'] = 'Erabiltzaileak dagoeneko ikastaro berria kudeatzeko baimenik ez badu, erabiltzailea automatikoki matrikulatuko da rol hori erabiliz.';
 $string['cron'] = 'Cron-a';
-$string['cronclionly'] = 'Komando bidezko bakarrik exekutatuko da krona';
+$string['cronclionly'] = 'Cron-a komando-lerro bidez exekutatuko da bakarrik';
 $string['cronerrorclionly'] = 'Barkatu, baina orri honetarako sarbidea kudeatzaileak desgaitu du';
 $string['cronerrorpassword'] = 'Barkatu, ez duzu baliozko pasahitza idatzi orri honetara sartzeko';
 $string['cronremotepassword'] = 'Urrutiko sarbiderako cron-pasahitza';
@@ -544,7 +544,7 @@ $string['helpweekenddays'] = 'Asteko zenbat egun \'asteburutzat\' hartu eta best
 $string['hiddenuserfields'] = 'Erabiltzailearen eremuak ezkutatu';
 $string['hidefromall'] = 'Erabiltzaile guztiei ezkutatu';
 $string['hidefromnone'] = 'Ez ezkutatu inori';
-$string['hidefromstudents'] = 'Ikasleei ezkutatu';
+$string['hidefromstudents'] = 'Ezkutatu ikasleei';
 $string['htmleditor'] = 'HTML editorea';
 $string['htmleditorsettings'] = 'HTML editorearen ezarpenak';
 $string['htmlsettings'] = 'HTML ezarpenak';
@@ -987,7 +987,10 @@ $string['userquota'] = 'Erabiltzailearen kuota';
 $string['users'] = 'Erabiltzaileak';
 $string['usesitenameforsitepages'] = 'Erabili gunearen izena guneko orrietarako';
 $string['usetags'] = 'Etiketen funtzionalitatea gaitu';
+$string['validateemptylineerror'] = 'Lerro hutsak ez dira baliagarriak';
 $string['validateerror'] = 'Balore hau ez zen onargarria';
+$string['validateerrorlist'] = 'Sarrera hauek ez dira baliagarriak: {$a}';
+$string['validateiperror'] = 'IP helbide hauek ez dira baliagarriak: {$a}';
 $string['warningcurrentsetting'] = 'Orain balorea ez da baliozkoa: {$a}';
 $string['webproxy'] = 'Web proxya';
 $string['webproxyinfo'] = 'Ondoko aukerak bete zure Moodle zerbitzariak zuzenean interneterako sarbidea ez badu. Beharrezkoa da ingunearen datuak, hizkuntza-paketeak, RSS jarioak... jaitsi ahal izateko. <br /><em>Oso gomendagarria da PHP cURL luzapena.</em>\'*;';

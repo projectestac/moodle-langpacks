@@ -329,14 +329,14 @@ $string['never'] = 'なし';
 $string['newbadge'] = '新しいバッジを追加する';
 $string['newimage'] = '新しいイメージ';
 $string['noawards'] = 'このバッジはまだ取得されていません。';
-$string['nobackpack'] = 'このアカウントに接続しているバックパックサービスはありません。<br/>';
+$string['nobackpack'] = 'このアカウントに接続しているバックパックサービスはありません。<b r/>';
 $string['nobackpackbadges'] = 'あなたが選択したコレクション内にバッジはありません。<a href="mybackpack.php">さらにコレクションを追加してください</a>。';
 $string['nobackpackcollections'] = 'バッジコレクションは選択されていません。<a href="mybackpack.php">コレクションを追加してください</a>。';
 $string['nobadges'] = '利用できるバッジはありません。';
 $string['nocriteria'] = 'このバッジのクライテリアはまだ設定されていません。';
 $string['noexpiry'] = 'このバッジには有効期限がありません。';
 $string['noparamstoadd'] = 'このバッジ必要条件に追加できる追加パラメータはありません。';
-$string['notacceptedrole'] = 'あなたの現在のロール割り当てはこのバッジを手動で授与することのできるロールではありません。<br/> すでにこのバッジを取得しているユーザを閲覧するには {$a} ページにアクセスしてください。';
+$string['notacceptedrole'] = 'あなたの現在のロール割り当てはこのバッジを手動で授与することのできるロールではありません。<br /> すでにこのバッジを取得しているユーザを閲覧するには {$a} ページにアクセスしてください。';
 $string['notconnected'] = '未接続';
 $string['nothingtoadd'] = '追加できるクライテリアはありません。';
 $string['notification'] = 'バッジ作成者に通知する';
@@ -373,9 +373,9 @@ $string['recipientvalidationproblem'] = 'このバッジの取得者として、
 $string['relative'] = '相対期限';
 $string['requiredcourse'] = '少なくとも1コースをコースセットクライテリアに追加する必要があります。';
 $string['reviewbadge'] = 'バッジアクセスの変更';
-$string['reviewconfirm'] = '<p>あなたのバッジをユーザに表示して、取得できるようにします。</p>
+$string['reviewconfirm'] = '<p>あなたのバッジをユーザに表示して取得できるようにします。</p>
 
-<p>あなたがバッジを有効にした直後、このバッジのクライテリアをすでに満たしているユーザに対して、このバッジを発行することができます。</p>
+<p>あなたがバッジを有効にした直後、このバッジのクライテリアをすでに満たしているユーザにこのバッジを発行することができます。</p>
 
 <p>バッジが発行された場合、<strong>ロックされます</strong> - クライテリアおよび有効期限設定を含む特定の設定は変更できないようになります。</p>
 

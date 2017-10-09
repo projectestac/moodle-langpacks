@@ -54,6 +54,7 @@ $string['moveblockafter'] = 'Mou el bloc després del bloc {$a}';
 $string['moveblockbefore'] = 'Mou el bloc abans del del bloc {$a}';
 $string['moveblockinregion'] = 'Mou el bloc a la regió {$a}';
 $string['movingthisblockcancel'] = 'S\'està movent aquest bloc ({$a})';
+$string['myblocks'] = 'Els meus blocs';
 $string['onthispage'] = 'En aquesta pàgina';
 $string['pagetypes'] = 'Tipus de pàgina';
 $string['pagetypewarning'] = 'El tipus de pàgina especificat prèviament ja no es pot seleccionar. Trieu a sota el tipus de pàgina més adequat.';

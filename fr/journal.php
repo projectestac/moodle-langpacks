@@ -35,6 +35,7 @@ $string['editingends'] = 'La période d\'édition se termine';
 $string['entries'] = 'Entrées';
 $string['entry'] = 'Entrée';
 $string['evententriesviewed'] = 'Entrées du journal visualisées';
+$string['evententrycreated'] = 'Entrée du journal créée';
 $string['evententryupdated'] = 'Entrée de journal modifiée';
 $string['eventfeedbackupdated'] = 'Feedback du journal modifié';
 $string['eventjournalcreated'] = 'Journal créé';

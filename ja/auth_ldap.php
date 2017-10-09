@@ -108,7 +108,7 @@ $string['auth_ntlmsso_maybeinvalidformat'] = 'REMOTE_USERヘッダからユー�
 $string['auth_ntlmsso_missing_username'] = 'あなたはリモートユーザ名フォーマットに少なくとも「%username%」を指定する必要があります。';
 $string['auth_ntlmsso_remoteuserformat'] = '「認証タイプ」に「NTLM」を選択した場合、あなたはここでリモートユーザ名フォーマットを指定することができます。空白にした場合、デフォルトのDOMAIN\\usernameフォーマットが使用されます。あなたはドメイン名の表示場所に関して、任意で<b>%domain%</b>プレースホルダを使用することができます。 また、必須の<b>%username%</b>プレースホルダはユーザ名が表示される場所を指定します。<br /><br />広く使われているフォーマットは次のとおりです:<tt>%domain%\\%username%</tt> (MS Windowsデフォルト)、<tt>%domain%/%username%</tt>、<tt>%domain%+%username%</tt>、<tt>%username%</tt> (ドメインの部分がない場合)';
 $string['auth_ntlmsso_remoteuserformat_key'] = 'リモートユーザ名フォーマット';
-$string['auth_ntlmsso_subnet'] = '設定した場合、このサブネットの中のクライアントのみSSOを試みます。フォーマット: xxx.xxx.xxx.xxx/ビットマスク　複数のサブネットは「,」 (カンマ) で区切ってください。';
+$string['auth_ntlmsso_subnet'] = '設定した場合、このサブネットの中のクライアントのみSSOを試みます。フォーマット: xxx.xxx.xxx.xxx/ビットマスク 複数のサブネットは「,」 (カンマ) で区切ってください。';
 $string['auth_ntlmsso_subnet_key'] = 'サブネット';
 $string['auth_ntlmsso_type'] = 'ユーザを認証するためサーバで設定された認証メソッドです (分からない場合、NTLMを選択してください)。';
 $string['auth_ntlmsso_type_key'] = '認証タイプ';
@@ -144,7 +144,7 @@ $string['synctask'] = 'LDAPユーザ同期ジョブ';
 $string['updatepasserror'] = 'user_update_password()にエラーが発生しました。エラーコード: {$a->errno}  エラーストリング: {$a->errstring}';
 $string['updatepasserrorexpire'] = 'パスワードの有効期限読み込み中にuser_update_password()にエラーが発生しました。エラーコード: {$a->errno}  エラーストリング: {$a->errstring}';
 $string['updatepasserrorexpiregrace'] = 'パスワード有効期限または猶予ログインの修正中にuser_update_password()にエラーが発生しました。エラーコード: {$a->errno}  エラーストリング: {$a->errstring}';
-$string['updateremfail'] = 'LDAPレコードの更新中にエラーが発生しました。エラーコード: {$a->errno}; エラーストリング: {$a->errstring}<br/>キー ({$a->key}) - 古いMoodle値: {$a->ouvalue}  新しい値: {$a->nuvalue}';
+$string['updateremfail'] = 'LDAPレコードの更新中にエラーが発生しました。エラーコード: {$a->errno}; エラーストリング: {$a->errstring}<br />キー ({$a->key}) - 古いMoodle値: {$a->ouvalue}  新しい値: {$a->nuvalue}';
 $string['updateremfailamb'] = 'LDAPのあいまいなフィールド {$a->key} の更新に失敗しました。古いMoodle値: {$a->ouvalue}  新しい値: {$a->nuvalue}';
 $string['updateusernotfound'] = '外部更新中にユーザを見つけることができませんでした。詳細は次のとおりです: 検索ベース: {$a->userdn}  検索フィルタ: (objectClass=*)  検索属性: {$a->attribs}';
 $string['useracctctrlerror'] = '{$a} のuserAccountControl取得中にエラーが発生しました。';

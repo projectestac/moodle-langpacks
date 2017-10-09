@@ -59,16 +59,16 @@ $string['check_frontpagerole_error'] = 'Rolle für die Startseite \'{$a}\' ist f
 $string['check_frontpagerole_name'] = 'Rolle für die Startseite';
 $string['check_frontpagerole_notset'] = 'Keine Rolle für die Startseite angelegt.';
 $string['check_frontpagerole_ok'] = 'Die Rolle für die Startseite ist in Ordnung.';
-$string['check_google_details'] = '<p>Die Einstellung \'Offen für Google\' erlaubt es Google und anderen Suchmaschinen, mit der Gastberechtigung alle offenen Kurse zu durchsuchen. Es ist nicht sinnvoll, diese Funktion zu aktivieren, wenn der Gastzugang deaktiviert ist.</p>';
-$string['check_google_error'] = 'Der Zugriff für Suchmaschinen ist aktiviert, wobei der Gastzugang aber deaktiviert ist.';
-$string['check_google_info'] = 'Suchmaschinen könnten auf Ihre Kursinhalte als Gäste zugreifen.';
+$string['check_google_details'] = '<p>Die Einstellung \'Offen für Google\' erlaubt es Google und anderen Suchmaschinen, alle für Gäste ohne Gastschlüssel offenen Kurse zu durchsuchen. Es ist nicht sinnvoll, diese Funktion zu aktivieren, wenn der Gastzugang deaktiviert ist.</p>';
+$string['check_google_error'] = 'Der Zugriff für Suchmaschinen ist aktiviert, wobei aber der Gastzugang deaktiviert ist.';
+$string['check_google_info'] = 'Suchmaschinen können auf Kursinhalte als Gäste zugreifen.';
 $string['check_google_name'] = 'Offen für Google';
 $string['check_google_ok'] = 'Gastzugang für Suchmaschinen nicht aktiv.';
-$string['check_guestrole_details'] = '<p>Die Gastrolle wird für Gäste, nichteingeloggte Nutzer und den zeitweisen Gastzugang zu Kursen verwendet. Bitte achten Sie darauf, keine unsicheren Berechtigungen für diese Rolle zuzulassen.<p>
-</p>Der einzige unterstützte Legacytyp für die Gastrolle ist <em>Gast</em>.</p>';
-$string['check_guestrole_error'] = 'Die Rollendefinition der Gastrolle "{$a}" ist fehlerhaft!';
+$string['check_guestrole_details'] = '<p>Die Gastrolle wird für Gäste, nichteingeloggte Nutzer/innen und den temporären Gastzugang zu Kursen verwendet. Achten Sie unbedingt darauf, keine unsicheren Berechtigungen für diese Rolle zuzulassen.<p>
+</p>Der unterstützte Legacytyp für die Gastrolle ist <em>Gast</em>.</p>';
+$string['check_guestrole_error'] = 'Die Definition der Gastrolle "{$a}" ist fehlerhaft!';
 $string['check_guestrole_name'] = 'Gastrolle';
-$string['check_guestrole_notset'] = 'Die Gastrolle ist nicht gesetzt.';
+$string['check_guestrole_notset'] = 'Die Gastrolle ist nicht eingestellt..';
 $string['check_guestrole_ok'] = 'Die Definition der Gastrolle ist in Ordnung.';
 $string['check_mediafilterswf_details'] = '<p>Die automatische Einbindung von Flash-Dateien im Format .swf ist sehr gefährlich. Jeder registrierte Nutzer könnte damit eine XSS-Attacke gegen den Server auslösen. Bitte deaktivieren Sie diese Funktion unbedingt auf produktiven Servern.</p>';
 $string['check_mediafilterswf_error'] = 'Der Flash-Mediafilter (.swf) ist aktiviert - dies ist für die meisten Webserver sehr gefährlich.';

@@ -299,7 +299,7 @@ $string['configmodchooserdefault'] = 'Il selettore attività sarà presentato ag
 $string['configmycoursesperpage'] = 'Numero massimo di corsi presenti nell\'elenco dei corsi ai quali si è iscritti.';
 $string['configmymoodleredirect'] = 'L\'impostazione reindirizza gli utenti non amministratori a /my dopo il login, sostituendo anche la navigazione verso la home page con /my';
 $string['configmypagelocked'] = 'L\'impostazione impedisce la modifica della pagina di default da parte di utenti che non abbiamo il ruolo di amministratori';
-$string['confignavcourselimit'] = 'Limita il numero di corsi visibili agli utenti quando non sono autenticati o non iscritti in nessun corso.';
+$string['confignavcourselimit'] = 'Limita il numero di corsi visibili agli utenti nella navigazione.';
 $string['confignavshowallcourses'] = 'L\'impostazione stabilisce se gli utenti iscritti ad almeno un corso possano visualizzare la voce Corsi (elenco di tutti corsi)  nel blocco Navigazione. Tale voce sarà visualizzata in aggiunta alla voce I miei corsi (elenco dei corsi ai quali l\'utente è iscritto).';
 $string['confignavshowcategories'] = 'Visualizza le categorie di corso nelle briciole e nel blocco Navigazione. Le categorie non saranno visualizzate nei corsi dove l\'utente è iscritto, che saranno elencati nel link I miei corsi.';
 $string['confignoreplyaddress'] = 'In genere le email vengono spedite a nome di un utente (ad esempio, gli interventi nei forum). L\'indirizzo di email No-reply verrà  utilizzato come mittente del messaggio nei casi in cui il destinatario non può rispondere direttamente al mittente (ad esempio quando un utente decide di non visualizzare il proprio indirizzo email).';
@@ -951,6 +951,7 @@ $string['registerwithmoodleorg'] = 'Registra il tuo sito';
 $string['registration'] = 'Registrazione';
 $string['registration_help'] = 'Si consiglia di registrare il sito per ricevere avvisi di sicurezza ed accedere a Moodle.net, la nostra piattaforma di condivisione di corsi.';
 $string['registrationwarning'] = 'Il tuo sito non è ancora registrato.';
+$string['registrationwarningcontactadmin'] = 'Il sito non è registrato. Per favore avverti l\'amministartore.';
 $string['releasenoteslink'] = 'Per informazioni su questa versione di Moodle, si prega di consultare le <a target="_blank" href="{$a}">Note di rilascio</a> in linea';
 $string['rememberusername'] = 'Ricorda username';
 $string['rememberusername_desc'] = 'Memorizza un cookie permanente con lo username usato per il login. Tenere presente che i cookie permanenti possono rappresentare un problema di privacy se utilizzati in assenza di consenso.';

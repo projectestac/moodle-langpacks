@@ -55,15 +55,15 @@ $string['expiredaction'] = '登録期限切れ処理';
 $string['expiredaction_help'] = 'ユーザの登録期限が切れた場合に実行される処理を選択してください。コース登録解除時、コースからユーザデータおよび設定が削除されることに留意してください。';
 $string['expirymessageenrolledbody'] = '{$a->user} さん
 
-これはコース「 {$a->course} 」において、あなたの登録が {$a->timeend} に有効期限切れになることの通知です。
+これはコース「 {$a->course} 」のあなたの登録が {$a->timeend} に有効期限切れとなる通知です。
 
-詳細は {$a->enroller} にご連絡ください。';
+詳細は {$a->enroller} をご連絡ください。';
 $string['expirymessageenrolledsubject'] = '自己登録期限切れ通知';
 $string['expirymessageenrollerbody'] = '下記のユーザに関してコース「 {$a->course} 」の自己登録は次の {$a->threshold} で有効期限切れとなります:
 
 {$a->users}
 
-登録期間を延期するには {$a->extendurl}　にアクセスしてください。';
+登録期間を延期するには {$a->extendurl} にアクセスしてください。';
 $string['expirymessageenrollersubject'] = '自己登録期限切れ通知';
 $string['groupkey'] = 'グループ登録キーを使用する';
 $string['groupkey_desc'] = 'デフォルトでグループ登録キーを使用します。';

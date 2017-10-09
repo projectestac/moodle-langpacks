@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['default'] = 'Ενεργοποιημένο από προεπιλογή';
+$string['offlinegradingworksheet'] = 'Βαθμοί';
+$string['processgrades'] = 'Εισαγωγή βαθμών';

@@ -136,7 +136,7 @@ $string['mnetidprovidermsg'] = 'Deverá poder autenticar-se no seu fornecedor {$
 $string['mnetidprovidernotfound'] = 'Não foi possível encontrar mais informação.';
 $string['mnetpeers'] = 'Pares';
 $string['mnetservices'] = 'Serviços';
-$string['mnet_session_prohibited'] = 'Utilizadores do seu servidor doméstico não têm permissão para navegar para $a.';
+$string['mnet_session_prohibited'] = 'Utilizadores do seu servidor doméstico não têm permissão para navegar para {$a}.';
 $string['mnetsettings'] = 'Definições da rede Moodle';
 $string['moodle_home_help'] = 'O caminho para a página principal do Moodle no servidor externo. Exemplo: /moodle/';
 $string['name'] = 'Nome';
@@ -160,7 +160,7 @@ $string['nosuchservice'] = 'O serviço RPC não está a correr neste servidor.';
 $string['nosuchtransport'] = 'Não existe nenhum transporte com esse ID.';
 $string['notBASE64'] = 'Esta string não está com formato de codificação Base64. Não pode ser uma chave válida.';
 $string['notenoughidpinfo'] = 'O seu fornecedor de identidade não está a fornecer informação suficiente para que seja possível criar a sua conta localmente.';
-$string['not_in_range'] = 'O endereço de IP &nbsp;<code>$a</code>&nbsp; não representa um servidor válido de confiança.';
+$string['not_in_range'] = 'O endereço de IP &nbsp;<code>{$a}</code>&nbsp; não representa um servidor válido de confiança.';
 $string['notinxmlrpcserver'] = 'Tentar aceder ao cliente externo da Rede Moodle, mas não durante a execução XMLRPC do servidor';
 $string['notmoodleapplication'] = 'AVISO: Esta não é uma aplicação Moodle, pelo que alguns métodos de inspeção podem não funcionar corretamente.';
 $string['notPEM'] = 'Esta chave não pode ser utilizada porque não está em formato PEM.';
@@ -244,7 +244,7 @@ $string['trustedhostsexplain'] = '<p> O mecanismo de servidores de confiança pe
 Esta opção está disponível para que scripts controlem o comportamento de Moodle e pode ser muito perigoso ativá-la. Se tem dúvidas, mantenha-a desativada.</p>
 Esta opção<strong> não</strong> é necessária para o funcionamento da rede Moodle.</p>
 <p>Para a ativar, introduza uma lista de endereços ou redes IP, uma em cada linha.
-Alguns exemplos: :</p>localhost: :<br />127.0.0.1<br /> localhost (com um bloco de rede)):<br />127.0.0.1/32<br />
+Alguns exemplos: :</p>localhost: :<br />127.0.0.1<br /> localhost (com um bloco de rede):<br />127.0.0.1/32<br />
 Só o servidor com endereço IP 192.168.0.7:<br />192.168.0.7/32<br />
 Qualquer servidor com um endereço de IP entre 192.168.0.1 e 192.168.0.255:<br />192.168.0.0/24<br />
 Qualquer servidor: <br />192.168.0.0/0<br />

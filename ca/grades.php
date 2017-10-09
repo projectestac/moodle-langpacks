@@ -346,6 +346,7 @@ $string['gradereport'] = 'Informe de qualificacions';
 $string['graderreport'] = 'Informe del qualificador';
 $string['grades'] = 'Qualificacions';
 $string['gradesforuser'] = 'Qualificacions de {$a->user}';
+$string['gradesmoduledeletionpendingwarning'] = 'Atenció: S\'està suprimint una activitat. Algunes qualificacions s\'esborraran.';
 $string['gradesonly'] = 'Canvia a la vista de «Només qualificacions»';
 $string['gradessettings'] = 'Paràmetres de qualificacions';
 $string['gradetype'] = 'Tipus de qualificació';

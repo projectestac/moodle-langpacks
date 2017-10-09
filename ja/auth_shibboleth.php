@@ -55,6 +55,6 @@ $string['auth_shib_only_description'] = 'Shibboleth認証を強制する場合�
 $string['auth_shib_username_description'] = 'Moodleユーザ名として使用されるShibbolethウェブサーバ環境のユーザ名';
 $string['pluginname'] = 'Shibboleth';
 $string['shib_invalid_account_error'] = 'あなたは正常にShibboleth認証できたようですが、あなたの有効なユーザ名がMoodleにはありません。あなたのアカウントは存在しないか、利用停止にされている可能性があります。';
-$string['shib_no_attributes_error'] = 'あなたはShibbolethによりユーザ認証したようですが、Moodleはユーザ属性を受信していません。Moodleが稼動しているサービスプロバイダに対して必要な属性 ({$a}) をアイデンティティプロバイダが発行しているか確認またはこのサーバの管理者に連絡してください。';
+$string['shib_no_attributes_error'] = 'あなたはShibbolethによりユーザ認証したようですが、Moodleはユーザ属性を受信していません。Moodleが稼動しているサービスプロバイダに対して必要な属性 ({$a}) をアイデンティティプロバイダが発行しているか確認またはこのサーバの管理者にご連絡ください。';
 $string['shib_not_all_attributes_error'] = 'あなたの場合、存在していないShibboleth属性をMoodleが必要としているようです。属性は次のとおりです: {$a}<br />このサーバの管理者またはアイデンティティプロバイダにご連絡ください。';
-$string['shib_not_set_up_error'] = 'Shibboleth環境変数がこのページに存在していないため、Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関するさらなる情報は<a href="README.txt">README</a>を参照またはこのMoodleをインストールした管理者に連絡してください。';
+$string['shib_not_set_up_error'] = 'Shibboleth環境変数がこのページに存在していないため、Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関するさらなる情報は<a href="README.txt">README</a>を参照またはこのMoodleをインストールした管理者にご連絡ください。';

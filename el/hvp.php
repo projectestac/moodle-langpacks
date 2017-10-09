@@ -26,7 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['cancellabel'] = 'Ακύρωση';
+$string['download'] = 'Λήψη';
 $string['filenotimage'] = 'Το αρχείο δεν είναι εικόνα.';
 $string['librarylisttitle'] = 'Τίτλος';
+$string['pd'] = 'Δημόσιος Τομέας';
 $string['search'] = 'Αναζήτηση';
+$string['showless'] = 'Εμφάνιση λιγότερων';
+$string['showmore'] = 'Εμφάνιση περισσότερων';
 $string['title'] = 'Τίτλος';

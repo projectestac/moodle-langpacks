@@ -85,7 +85,7 @@ $string['configusergraphlong'] = 'Usa <a href="http://www.rgraph.net/">Rgraph</a
 $string['confirmdelallresp'] = 'Sei sicuro di eliminare TUTTE le risposte del questionario?';
 $string['confirmdelchildren'] = 'Eliminando questa domanda, verranno eliminate anche le domande "figlie":';
 $string['confirmdelgroupresp'] = 'Sei sicuro di eliminare TUTTE le risposte del gruppo {$a}?';
-$string['confirmdelquestion'] = 'Sei sicuro di voler eliminiare la domanda alla posizione {$a}?';
+$string['confirmdelquestion'] = 'Sei sicuro di voler eliminare la domanda alla posizione {$a}?';
 $string['confirmdelquestionresps'] = 'Verranno anche eliminate le {$a} risposte già date.';
 $string['confirmdelresp'] = 'Sei sicuro di eliminare le risposte di  {$a} ?';
 $string['confpage'] = 'Pagina di conferma';

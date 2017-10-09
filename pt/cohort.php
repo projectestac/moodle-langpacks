@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addcohort'] = 'Adicionar novo grupo global';
+$string['addcohort'] = 'Adicionar novo Grupo global';
 $string['allcohorts'] = 'Todos os Grupos globais';
 $string['anycohort'] = 'Qualquer';
 $string['assign'] = 'Atribuir membros';

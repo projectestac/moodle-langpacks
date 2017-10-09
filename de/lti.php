@@ -77,6 +77,7 @@ $string['configtoolurl'] = 'Standardmäßige Remote Tool URL';
 $string['configtypes'] = 'LTI Anwendungen aktivieren';
 $string['configured'] = 'Konfiguriert';
 $string['confirmtoolactivation'] = 'Möchten Sie dieses Tool wirklich aktivieren?';
+$string['contentitem'] = 'Content-Item Mitteilung';
 $string['contentitem_help'] = 'Bei Aktivierung wird die Option \'Select content\' verfügbar sein, wenn ein externes Tool hinzugefügt wird';
 $string['courseactivitiesorresources'] = 'Kursaktivitäten oder -materialien';
 $string['courseid'] = 'Kurs ID-Nummer';
@@ -129,6 +130,7 @@ $string['errorbadurl'] = 'Die URL ist keine gültige URL für ein Tool oder ein 
 $string['errorincorrectconsumerkey'] = 'Der Consumer Key ist falsch.';
 $string['errorinvaliddata'] = 'Ungültige Daten: {$a}';
 $string['errorinvalidmediatype'] = 'Ungültiger Medientyp: {$a}';
+$string['errorinvalidresponseformat'] = 'Ungültiges Content-Item Response Format.';
 $string['errormisconfig'] = 'Das Tool wurde falsch konfiguriert. Ihr Administrator/in kann Ihnen weiter helfen.';
 $string['errortooltypenotfound'] = 'LTI Tool-Typ nicht gefunden';
 $string['existing_window'] = 'Vorhandenes Fenster';
@@ -340,7 +342,9 @@ $string['share_roster_help'] = 'Diese Option legt fest, ob das Tool auf die Teil
 
 Diese Einstellung kann in der Tool-Konfiguration überschrieben werden.';
 $string['show_in_course_activity_chooser'] = 'In Aktivitätsauswahl als vorkonfiguriertes Tool anzeigen.';
-$string['show_in_course_lti1_help'] = 'Dieses Tool kann für Trainer in der Aktivitätsauswahl angezeigt werden, um es einem Kurs hinzuzufügen. Es kann ebenfalls im vorkonfigurierten Tool-Menü angezeigt werden, wenn ein externes Tool einem Kurs hinzugefügt wird. Außerdem kann die Tool-Konfiguration so eingestellt werden, dass sie beim Hinzufügen eines externen Tools zu einem Kurs nur dann verwendet wird, wenn die exakte Tool-URL angegeben wird.';
+$string['show_in_course_lti1'] = 'Verwendung der Toolkonfiguration';
+$string['show_in_course_lti1_help'] = 'Dieses Tool kann für Trainer/innen in der Aktivitätsauswahl angezeigt werden, um es einem Kurs hinzuzufügen. Es kann ebenfalls im vorkonfigurierten Tool-Menü angezeigt werden, wenn ein externes Tool einem Kurs hinzugefügt wird. Außerdem kann die Tool-Konfiguration so eingestellt werden, dass sie beim Hinzufügen eines externen Tools zu einem Kurs nur dann verwendet wird, wenn die exakte Tool-URL angegeben wird.';
+$string['show_in_course_lti2'] = 'Verwendung der Toolkonfiguration';
 $string['show_in_course_lti2_help'] = 'Dieses Tool kann in der Aktivitätsauswahl für einen Lehrer angezeigt werden, um es einem Kurs hinzuzufügen, oder im vorkonfigurierten Auswahlmenü, wenn ein externes Tool zu einem Kurs hinzugefügt wird.';
 $string['show_in_course_no'] = 'Nicht anzeigen; nur benutzen, wenn eine passende Start URL eingetragen ist';
 $string['show_in_course_preconfigured'] = 'Als vorkonfiguriertes Tool anzeigen, wenn ein externes Tool hinzugefügt wird';
@@ -369,7 +373,7 @@ $string['toolproxy_help'] = 'Administratoren können hier externe Tools registri
 
 Die registrierten Tools  werden in vier Kategorien angezeigt:
 
-* **Konfiguriert** - Das Tool wurde angelegt, aber noch nicht fertig konfiguriert.
+* **Konfiguriert** - Das Tool wurde angelegt, der Registrierungsprozess wurde jedoch noch nicht begonnen.
 * **Wartend** - Der Registrierungsprozess wurde begonnen, jedoch noch nicht abgeschlossen. Verschieben Sie die Einstellungen zurück zu \'konfiguriert\' und speichern Sie sie erneut.
 * **Akzeptiert** - Die Tool-Einstellungen wurden bestätigt. Die Ressourcen erscheinen unter Wartend.
 * **Zurückgewiesen** - Die Registrierung wurde vom Anbieter abgewiesen. Prüfen Sie die Einstellungen und verschieben Sie sie zurück in die Kategorie \'Konfiguriert\', damit der Prozess erneut starten kann.';
@@ -419,6 +423,7 @@ $string['unknownstate'] = 'Unbekannter Status';
 $string['update'] = 'Update';
 $string['useraccountinformation'] = 'Angaben zum Nutzerkonto';
 $string['userpersonalinformation'] = 'Persönliche Angaben';
+$string['using_tool_cartridge'] = 'Tool Cartridge verwenden';
 $string['using_tool_configuration'] = 'Tool-Konfiguration verwenden:';
 $string['validurl'] = 'Eine gültige URL muss mit http(s):// beginnen';
 $string['viewsubmissions'] = 'Leistungen und Bewertungsbildschirm anzeigen';

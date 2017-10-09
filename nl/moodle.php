@@ -1736,6 +1736,7 @@ veroorzaken. Voor grote klassen en langlopende cursussen kan het beter zijn om d
 $string['showsettings'] = 'Toon instellingen';
 $string['showtheselogs'] = 'Toon deze logs';
 $string['showthishelpinlanguage'] = 'Toon dit helpbestand in het {$a}';
+$string['sidepanel'] = 'Zijpaneel';
 $string['signoutofotherservices'] = 'Overal uitloggen';
 $string['signoutofotherservices_help'] = 'Het account zal, indien aangevinkt, op alle apparaten en uit alle systemen die web services gebruiken, zoals de mobiele app, worden uitgelogd.';
 $string['since'] = 'Sinds';

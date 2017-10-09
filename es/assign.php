@@ -106,7 +106,7 @@ $string['batchoperationunlock'] = 'desbloquear entregas';
 $string['batchsetallocatedmarker'] = 'Establecer marcador asignado para {$a} usuario(s) seleccionado(s)';
 $string['batchsetmarkingworkflowstateforusers'] = 'Establecer estado del workflow de marcas para {$a} usuario(s) seleccionado(s)';
 $string['blindmarking'] = 'Ocultar identidad';
-$string['blindmarking_help'] = 'Ocultar la identidad de los estudiantes en la tabla de calificaciones. Una vez configurado e iniciada la calificación, esta opción se bloqueará y no podrá ser cambiada.';
+$string['blindmarking_help'] = 'La evaluación ciega oculta la identidad del estudiante al instructor o docente que los califica. Registrar una tarea (estudiante) o calificación (instructor) bloquea esta función con relación a esa tarea.';
 $string['changefilters'] = 'Cambiar filtros';
 $string['changegradewarning'] = 'Esta tarea tiene envíos calificados y si se cambia la calificación no se recalcularán automáticamente las calificaciones de los envíos existentes. Debe volver a calificar todos los envíos previos, si quiere cambiar la calificación';
 $string['changeuser'] = 'Cambiar usuario';
@@ -242,6 +242,7 @@ $string['gradingstudent'] = 'Calificando estudiante';
 $string['gradingsummary'] = 'Sumario de calificaciones';
 $string['grantextension'] = 'Ampliar plazo';
 $string['grantextensionforusers'] = 'Ampliar plazo para {$a} estudiantes';
+$string['groupoverrides'] = 'Excepciones de grupo';
 $string['groupsnone'] = 'No hay grupos en este curso';
 $string['groupsubmissionsettings'] = 'Configuración de entrega por grupo';
 $string['hiddenuser'] = 'Participante';
@@ -265,11 +266,18 @@ $string['marker'] = 'Marcador';
 $string['markerfilter'] = 'Filtor de marcadores';
 $string['markerfilternomarker'] = 'Sin marcador';
 $string['markingallocation'] = 'Usar asignación de marcas';
-$string['markingallocation_help'] = 'Si está habilitado, permite que los marcadores sean asignados a alumnos individuales - requiere que el worflow de marcadores esté habilitado';
+$string['markingallocation_help'] = 'Cuando se habilita en conjunto con workflow, permite que las calificaciones sean asignadas a alumnos individualmente.';
 $string['markingworkflow'] = 'Usar workflow de marcas';
-$string['markingworkflow_help'] = 'Si se habilita, las marcas pasan por una serie de etapas en un workflow (flujo de trabajo) antes de ser entregadas a los estudiantes. Esto permite que en las sucesivas rondas de marcado, todas las marcas se entreguen a todos los alumnos al mismo tiempo.';
+$string['markingworkflow_help'] = 'Cuando se habilita, las calificaciones pasan por una serie de etapas antes de ser entregadas a los estudiantes. Esto facilita múltiples rondas de calificación y permite la publicación simultánea de calificaciones a todos los estudiantes.';
 $string['markingworkflowstate'] = 'Estado del workflow de marcas';
-$string['markingworkflowstate_help'] = 'La lista de estados del workflow (flujo de trabajo) que puede elegir se controla según sus permisos en esta tarea. La lista completa de estados válidos es: <br><ul><li>IMarcando - El envío se está marcando en este momento</li></ul>...';
+$string['markingworkflowstate_help'] = 'La lista de estados del flujo de trabajo puede incluir (dependiendo de sus permisos):
+
+- Sin iniciar - el instructor/docente no ha comenzado
+- En proceso - el instructor/docente no ha completado el proceso
+- Completado - el instructor/docente ha completado el proceso, pero esta sujeto a revisión o correcciones
+- Revisión - el instructor/docente está con el profesor responsable revisando la calidad
+- Listo - el profesor responsable está satisfecho con la calificación, pero no publica la calificación a los estudiantes
+- Publicada - los estudiantes tienen acceso a su calificación/retroalimentación';
 $string['markingworkflowstateinmarking'] = 'Marcando';
 $string['markingworkflowstateinreview'] = 'En revisión';
 $string['markingworkflowstatenotmarked'] = 'No marcada';
@@ -481,6 +489,7 @@ $string['upgradenotimplemented'] = 'Actualización no implementada en la extensi
 $string['userextensiondate'] = 'Plazo ampliado hasta: {$a}';
 $string['usergrade'] = 'Calificación de usuario';
 $string['useridlistnotcached'] = 'Los cambios de nota NO fueron guardados, pues no fue posible determinar a qué tarea pertenecían.';
+$string['useroverrides'] = 'Excepciones de usuario';
 $string['usersnone'] = 'Ningún estudiante tiene acceso a esta tarea.';
 $string['userswhoneedtosubmit'] = 'Componentes del equipo pendientes de entrega: {$a}';
 $string['validmarkingworkflowstates'] = 'Estados válidos del proceso de evaluación';

@@ -363,7 +363,7 @@ $string['search:activity'] = 'Ferramenta externa - informações da atividade';
 $string['secure_icon_url'] = 'URL do Ícone seguro';
 $string['secure_icon_url_help'] = 'Similar ao URL do ícone, mas usado se o utilizador aceder ao Moodle de forma segura através de SSL. O principal objetivo para este campo é para evitar
 o navegador avisando o utilizador que a página subjacente foi acessada através de SSL, mas pedindo para mostrar uma imagem insegura.';
-$string['secure_launch_url'] = 'URL de arranque seguro';
+$string['secure_launch_url'] = 'URL da ferramenta segura';
 $string['secure_launch_url_help'] = 'Similar ao URL de arranque, mas usado caso seja necessária uma segurança elevada. O Moodle irá usar o URL de arranque seguro invés do URL de arranque se o Moodle for acedido partir de SSL, ou se as configurações da ferramenta estão definidas para iniciar sempre com SSL.
 
 O URL de arranque também pode ser definido para um endereço https que force a entrada através de SSL, e este campo pode ser deixado em branco.';
