@@ -28,6 +28,10 @@ defined('MOODLE_INTERNAL') || die();
 $string['above'] = 'Encima';
 $string['actions'] = 'Acciones';
 $string['appliesto'] = 'Se aplica a';
+$string['backdrop'] = 'Mostrar con sombreado';
+$string['backdrop_help'] = 'Puede usar un sombreado para resaltar la parte de la página a la que está apuntando.
+
+ Nota: Los sombreados no son compatibles con algunas partes de la página, como por ejemplo la Barra de Navegación.';
 $string['below'] = 'Debajo';
 $string['block'] = 'Bloque';
 $string['block_named'] = 'Bloque llamado \'{$a}\'';
@@ -39,9 +43,15 @@ $string['confirmtourremovalquestion'] = '¿Está seguro de querer quitar este to
 $string['confirmtourremovaltitle'] = 'Confirmar eliminación de tour';
 $string['content'] = 'Contenido';
 $string['content_heading'] = 'Contenido';
+$string['content_help'] = 'El contenido que describe el  paso puede añadirse como texto simple, rodeado por marcas (tags) multi-idioma (para usarse con el filtro de contenido multi-idioma) si se requiere.
+
+Alternativamente, puede usar una ID de una cadena-de-caracteres del idioma en el formato identificador,componente (sin paréntesis ni espacio después de la coma).';
 $string['cssselector'] = 'Selector CSS';
 $string['defaultvalue'] = 'Por defecto ({$a})';
 $string['delay'] = 'Retardo antes de mostrar el paso';
+$string['delay_help'] = 'Opcionalmente puede elegir añadir un retraso antes de se muestre un paso.
+
+El retraso es en milisegundos.';
 $string['description'] = 'Descripción';
 $string['done'] = 'Hecho';
 $string['editstep'] = 'Editando "{$a}"';
@@ -71,6 +81,8 @@ $string['newtour'] = 'Crear nuevo tour';
 $string['next'] = 'Siguiente';
 $string['options_heading'] = 'Opciones';
 $string['orphan'] = 'Mostrar si el objetivo no se encuentra';
+$string['orphan_help'] = 'Mostrar el paso si no pudo encontrarse el destino en la página.';
+$string['pathmatch'] = 'Aplicar a la coincidencia de URL';
 $string['pathmatch_help'] = 'Los tours serán mostrados en cualquier página cuya URL coincida con este valor.
 
 Puede usar el caracter  % como un comodín para significar cualquier cosa. Algunos valores de ejemplo incluyen:
@@ -82,22 +94,42 @@ Puede usar el caracter  % como un comodín para significar cualquier cosa. Algun
 
 Si quisiera mostrar un tour en la Página inicial del Sitio (hogar/portada), Usted puede usar el valor: "FRONTPAGE".';
 $string['pausetour'] = 'Pausa';
+$string['placement'] = 'Posicionamiento';
+$string['placement_help'] = 'Un paso puede colocarse, ya sea arriba, debajo, a la izquierda del, o a la derecha del destino. Se recomienda arriba de o debajo de, porque éstos se ajustan mejor para visualizarse en dispositivos móviles.
+
+Si el paso no cupiera en una página particular en el sitio especificado, será colocado automáticamente en otra parte.';
 $string['pluginname'] = 'Tours para usuarios';
 $string['reflex'] = 'Proceder al hacer click';
+$string['reflex_help'] = 'Proceder al siguiente paso cuando se hace click sobre el destino.';
 $string['resettouronpage'] = 'Reiniciar tour para usuario en esta página';
 $string['resumetour'] = 'Continuar';
 $string['right'] = 'Derecha';
 $string['select_block'] = 'Selecciona un bloque';
 $string['selector_defaulttitle'] = 'Introduce un título descriptivo';
 $string['selectordisplayname'] = 'Un selector CSS conteniendo \'{$a}\'';
+$string['selecttype'] = 'Seleccionar tipo de paso';
 $string['sharedtourslink'] = 'Repositorio de tours';
 $string['skip'] = 'Omitir';
 $string['target'] = 'Objetivo';
 $string['target_block'] = 'Bloquear';
+$string['target_heading'] = 'Destino del paso';
 $string['target_selector'] = 'Selector';
 $string['target_selector_targetvalue'] = 'Selectores CSS';
+$string['target_selector_targetvalue_help'] = 'Se puede usar un Selector CSS para dirigirse a casi cualquier elemento de la página. El selector apropiado puede encontrarse fácilmente usando las herramientas para desarrolladores de su navegador de Internet.';
+$string['targettype'] = 'Tipo de destino';
+$string['targettype_help'] = 'Cada paso está asociado con una parte de la página - el destino. Los tipos de  destinos son:.
+
+* Bloque - para mostrar un paso junto a un bloque especificado
+* Selector CSS - para definir con precisión el área destino usando CSS
+* Mostrar a la mitad de la página - para un paso que no necesita estar asociado con una parte especifica de la página';
 $string['target_unattached'] = 'Mostrar en medio de la página';
 $string['title'] = 'Título';
+$string['title_help'] = 'El título de un paso puede añadirse como texto simple, rodeado por marcas multi-idioma (para usarse con el filtro de contenido multi-idioma) si se necesita.
+
+Alternativamente, puede ingresarse una ID de cadena-de-caracteres del idioma en el formato de identificador,componente (sin paréntesis ni espacio después de la coma).';
+$string['tour1_content_addingblocks'] = 'De hecho, piense cuidadosamente si incluir algun bloque en sus páginas. Los bloques no se muestran en la App de Moodle Mobile, por lo que, de forma general, es mucho mejor asegurarse de que el sitio funciona bien sin bloques.';
+$string['tour1_content_blockregion'] = 'Todavía hay una región de bloque aquí. Nosotros recomendamos quitar los bloques de Navegación y Administración completamente, porque toda la funcionalidad está en otra parte en el tema Boost (Impulso).';
+$string['tour1_content_customisation'] = 'Para personalizar  la apariencia de su sitio y de la Portada, use el menú de configuraciones en la esquina de este encabezado. Intente activar la edición ahora mismo.';
 $string['tour1_content_end'] = 'Este ha sido un tour para usuario, una característica nueva de Moodle 3.2. No volverá a mostrarse a menos de que lo reinicie usando el enlace en el pie de página. ¡Cómo administrador también puede crear sus propios tours como éste!';
 $string['tour1_content_navigation'] = 'La navegación principal es ahora a través de este bloque de navegación. La actualización de los contenidos depende de dónde se encuentre en el sitio. Utilice el botón en la parte superior para ocultarlo o mostrarlo.';
 $string['tour1_title_addingblocks'] = 'Añadiendo bloques';
@@ -106,15 +138,19 @@ $string['tour1_title_customisation'] = 'Personalización';
 $string['tour1_title_end'] = 'Fin del tour';
 $string['tour1_title_navigation'] = 'Navegación';
 $string['tour1_title_welcome'] = 'Bienvenida';
+$string['tour2_content_addblock'] = 'Si habilita el modo de edición, puede añadir bloques desde el cajón de navegación. Sin embargo, piense cuidadosamente acerca de incluir algun bloque en sus páginas. Los bloques no se muestran en la App de Moodle Mobile, por lo que para una mejor experiencia para el usuario, sería mucho mejor que se asegure de que su curso funciona bien sin bloques.';
+$string['tour2_content_addingblocks'] = 'Puede añadir bloques a esta página usando este botón. Sin embargo, piense cuidadosamente si incluir algun bloque en sus páginas. Los bloques no se muestran en la App de Moodle Mobile, por lo que para una mejor experiencia para el usuario, sería mucho mejor que se asegure de que su curso funciona bien sin bloques.';
 $string['tour2_content_customisation'] = 'Para cambiar cualquier configuración de curso, utilice el menú de configuración de la esquina de este encabezado. También encontrará un menú de configuración similar en la página principal de todas las actividades. Prueba a cambiar la edición en este momento.';
 $string['tour2_content_end'] = 'Este ha sido un tour para usuario, una característica nueva de Moodle 3.2. No volverá a mostrarse a menos de que lo reinicie usando el enlace en el pie de página. El administrador del sitio también puede crear otros tours.';
 $string['tour2_content_navigation'] = 'La navegación es ahora a través de este bloque de navegación. Utilice el botón en la parte superior para ocultarlo o mostrarlo. Verá que hay enlaces para secciones de su curso.';
+$string['tour2_content_opendrawer'] = 'Intentar abrir el cajón de navegación ahora.';
 $string['tour2_content_participants'] = 'Ver los participantes aquí. Aquí además es donde podrás añadir o quitar estudiantes.';
 $string['tour2_title_addblock'] = 'Añadir un bloque';
 $string['tour2_title_addingblocks'] = 'Añadiendo bloques';
 $string['tour2_title_customisation'] = 'Personalización';
 $string['tour2_title_end'] = 'Fin del tour';
 $string['tour2_title_navigation'] = 'Navegación';
+$string['tour2_title_opendrawer'] = 'Abrir el cajón de navegación';
 $string['tour2_title_participants'] = 'Participantes del curso';
 $string['tour2_title_welcome'] = 'Bienvenida';
 $string['tourconfig'] = 'Archivo de configuración de tour a importar';

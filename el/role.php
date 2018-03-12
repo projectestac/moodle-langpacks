@@ -177,6 +177,7 @@ $string['errorexistsroleshortname'] = 'Υπάρχει ήδη ένας ρόλος
 $string['existingadmins'] = 'Υπάρχοντες διαχειριστές ιστοσελίδας';
 $string['existingusers'] = '{$a} υπάρχοντες χρήστες';
 $string['explanation'] = 'Επεξήγηση';
+$string['export'] = 'Εξαγωγή';
 $string['extusers'] = 'Υπάρχοντες χρήστες';
 $string['extusersmatching'] = 'Υπάρχοντες χρήστες που ταιριάζουν στο \'{$a}\'';
 $string['frontpageuser'] = 'Αυθεντικοποίηση χρήστη στην πρώτη σελίδα';

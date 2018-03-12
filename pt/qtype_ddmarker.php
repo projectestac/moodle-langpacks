@@ -45,7 +45,7 @@ $string['dropzones_help'] = 'As áreas para largar são definidas através da in
 
 * Círculo: centro_X, centro_Y; raio<br>por exemplo: <code>80, 100; 50</code>
 * Polígono: x1, y1; x2, y2; ...; xn, yn<br>por exemplo: <code>20, 60; 100, 60; 20, 100</code>
-* Rectângulo: esquerda, topo, largura, altura<br>por exemplo: <code>20, 60; 80, 40</code>';
+* Rectângulo: topo_esquerda_x, topo_esquerda_y; largura, altura<br>por exemplo: <code>20, 60; 80, 40</code>';
 $string['followingarewrong'] = 'Os seguintes marcadores foram arrastados para uma área errada: {$a}.';
 $string['followingarewrongandhighlighted'] = 'Os seguintes marcadores foram arrastados incorretamente: {$a}.<br />Os marcadores destacados foram colocados nas áreas de destino corretas.<br /> Clique no marcador para visualizar a área correta em destaque.';
 $string['formerror_nobgimage'] = 'É necessário selecionar uma imagem para utilizar como fundo, para a área de arrastar e largar.';

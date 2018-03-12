@@ -46,6 +46,7 @@ $string['eventrulecreated'] = 'Araua sortu da';
 $string['eventruledeleted'] = 'Araua ezabatu da';
 $string['eventruleupdated'] = 'Araua eguneratu da';
 $string['eventsubcreated'] = 'Harpidetza sortu da';
+$string['eventsubcriteriamet'] = 'Harpidetzarako irizpìdea bete da';
 $string['eventsubdeleted'] = 'Harpidetza ezabatu da';
 $string['freqdesc'] = '{$a->freq} aldi in {$a->mins} minututan';
 $string['frequency'] = 'Jakinarazpenen ataria';

@@ -90,7 +90,7 @@ $string['clicktoflag'] = 'Marcar esta pergunta para referência futura';
 $string['clicktounflag'] = 'Desmarcar esta pergunta';
 $string['clickunflag'] = 'Remover marcação';
 $string['closepreview'] = 'Fechar pré-visualização';
-$string['combinedfeedback'] = 'Feedback Combinado';
+$string['combinedfeedback'] = 'Feedback combinado';
 $string['comment'] = 'Comentário';
 $string['commented'] = 'Comentado: {$a}';
 $string['commentormark'] = 'Comentar e/ou alterar avaliação';
@@ -173,7 +173,7 @@ Alguns formatos de importação, como o GIFT e Moodle XML, permitem guardar a ca
 $string['exporterror'] = 'Ocorreram erros durante a exportação!';
 $string['exportfilename'] = 'perguntas';
 $string['exportnameformat'] = '%Y%m%d-%H%M';
-$string['exportquestions'] = 'Exportar perguntas para o ficheiro';
+$string['exportquestions'] = 'Exportar perguntas para ficheiro';
 $string['exportquestions_help'] = 'Esta função permite a exportação de uma categoria completa (e qualquer subcategorias) de perguntas. Por favor note que, dependendo do formato de ficheiro selecionado, alguns dados  e certos tipos de perguntas podem não ser exportados.';
 $string['exportquestions_link'] = 'pergunta/exportar';
 $string['feedback'] = 'Feedback';

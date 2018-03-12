@@ -232,6 +232,7 @@ $string['eventquestionanswered'] = 'Vraag beantwoord';
 $string['eventquestionviewed'] = 'Vraag bekeken';
 $string['false'] = 'Onwaar';
 $string['fileformat'] = 'Bestandsformaat';
+$string['finalwrong'] = 'Niet echt.';
 $string['finish'] = 'Einde';
 $string['firstanswershould'] = 'Het eerste antwoord moet naar de "juist"-pagina verwijzen';
 $string['firstwrong'] = 'Je antwoord is fout.  Wil je de vraag opnieuw proberen te beantwoorden? Als je het antwoord weet, zul je er geen punten meer mee verdienen.';

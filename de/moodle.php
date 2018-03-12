@@ -335,7 +335,7 @@ $string['coursedisplay_help'] = 'Diese Option legt fest, ob der Kurs auf einer S
 $string['coursedisplay_multi'] = 'Nur ein Abschnitt pro Seite';
 $string['coursedisplay_single'] = 'Alle Abschnitte auf einer Seite';
 $string['courseduration'] = 'Kursdauer';
-$string['courseduration_desc'] = 'Die Kursdauer wird zur Berechnung des standardmäßigen Kursendes benutzt. Das Kursende wird für Berichte und die Kursanzeige auf dem Dashboard genutzt. Nutzer/innen können auch nach Kursende dem Kurs betreten.';
+$string['courseduration_desc'] = 'Die Kursdauer wird zur Berechnung des standardmäßigen Kursendes benutzt. Das Kursende wird für Berichte und die Kursanzeige auf dem Dashboard genutzt. Der Eintrag kann auch für individuelle Berichte genutzt werden. Nutzer/innen können auch nach Kursende dem Kurs betreten.';
 $string['courseextendednamedisplay'] = '{$a->shortname} {$a->fullname}';
 $string['coursefiles'] = 'Alte Kursdateien';
 $string['coursefilesedit'] = 'Kursdateien bearbeiten';
@@ -354,7 +354,7 @@ $string['coursehelpmaximumupload'] = 'Diese Option legt die maximale Dateigröß
 $string['coursehelpnewsitemsnumber'] = 'Die Anzahl legt fest, wie viele Beiträge im Block \'Letzte Ankündigungen\' auf der Kursseite angezeigt werden. Mit der Anzahl 0 wird das Ankündigungen-Forum nicht angelegt und der Block \'Letzte Ankündigungen\' nicht angezeigt.';
 $string['coursehelpnumberweeks'] = 'Anzahl der Kursabschnitte (gilt nur für bestimmte Kursformate)';
 $string['coursehelpshowgrades'] = 'Die Anzeige der Bewertungen erlauben. Diese Einstellung verhindert nicht, dass Bewertungen während der Ausführung von Aktivitäten angezeigt werden.';
-$string['coursehidden'] = 'Der Kurs steht aktuell für Teilnehmer/innen nicht zur Verfügung.';
+$string['coursehidden'] = 'Der Kurs steht für Teilnehmer/innen aktuell nicht zur Verfügung.';
 $string['courseinfo'] = 'Kursinformation';
 $string['courselegacyfiles'] = 'Alte Kursdateien';
 $string['courselegacyfiles_help'] = 'Der Bereich \'Kursdateien\' liefert eine Abwärtskompatibilität zu Moodle 1.9 (und älter). Alle Dateien in diesem Bereich sind im Kurs verfügbar. Es gibt keinen Weg um herauszufinden, ob welche Dateien überhaupt in Moodle benutzt werden.
@@ -614,7 +614,9 @@ Falls die Anmeldung nicht von Ihnen stammt, können Sie diese E-Mail ignorieren.
 Bei Problemen wenden Sie sich bitte an den Administrator der Website.
 
 Viel Erfolg!
-{$a->admin}';
+{$a->admin}
+
+Ihr E-Learning-Team';
 $string['emailconfirmationsubject'] = '{$a}: Zugangsbestätigung';
 $string['emailconfirmsent'] = '<p>Um sicherzugehen, dass sich niemand unberechtigt über die von Ihnen angegebene E-Mail anmeldet, wird eine automatische Benachrichtigung an diese Adresse <b>{$a}</b> gesendet. Je nach Netzlast trifft sie sofort oder auch etwas später bei Ihnen ein.</p>
 <p>Die Benachrichtigung enthält eine Anleitung, wie Sie Ihre Registrierung bestätigen.
@@ -640,6 +642,7 @@ $string['emailenable'] = 'E-Mail-Adresse ist aktiviert';
 $string['emailenableclick'] = 'Klicken Sie hier, um den E-Mail-Versand an diese Adresse zu reaktivieren.';
 $string['emailexists'] = 'Diese E-Mail-Adresse ist bereits registriert.';
 $string['emailexistshintlink'] = 'Anmeldename oder Kennwort vergessen?';
+$string['emailexistssignuphint'] = 'Haben Sie möglicherweise in der Vergangenheit bereits einen Account erstellt? {$a}';
 $string['emailformat'] = 'E-Mail-Format';
 $string['emailmustbereal'] = 'Wichtig: Geben Sie eine gültige E-Mail-Adresse an. Sie erhalten per E-Mail eine Bestätigung Ihrer Anmeldung.';
 $string['emailnotallowed'] = 'E-Mail-Adressen aus den folgenden Domains sind nicht erlaubt: {$a}';
@@ -665,14 +668,18 @@ jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'{$a->
 
 Leider ist Ihr Zugang zu dieser Website deaktiviert und kann nicht automatisch zurückgesetzt werden. Wenden Sie sich bitte an die Administrator/innen der Website.
 
-{$a->admin}';
+{$a->admin}
+
+Ihr E-Learning-Team';
 $string['emailpasswordchangeinfofail'] = 'Guten Tag {$a->firstname} {$a->lastname},
 
 jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'{$a->sitename}\' angefordert.
 
 Leider kann das Kennwort auf diesem Weg nicht geändert werden. Wenden Sie sich bitte an die Administrator/innen der Website.
 
-{$a->admin}';
+{$a->admin}
+
+Ihr E-Learning-Team';
 $string['emailpasswordchangeinfosubject'] = '{$a}: Kennwortinformation ändern';
 $string['emailpasswordconfirmation'] = 'Guten Tag {$a->firstname} {$a->lastname},
 
@@ -689,7 +696,9 @@ Sollten Sie die Kennwortanforderung nicht selber ausgelöst haben, hat vermutlic
 Bei Problemen wenden Sie sich bitte an die Administrator/innen der Website.
 
 Viel Erfolg!
-{$a->admin}';
+{$a->admin}
+
+Ihr E-Learning-Team';
 $string['emailpasswordconfirmationsubject'] = '{$a}: Kennwort-Änderung bestätigen';
 $string['emailpasswordconfirmmaybesent'] = '<p>Wenn Sie Ihren Anmeldenamen bzw. Ihre E-Mail-Adresse richtig angegeben haben, wird eine automatische E-Mail an Sie gesendet.</p><p>Die Mitteilung enthält eine Anleitung, wie Sie das Zurücksetzen des Kennwortes abschließen.</p>';
 $string['emailpasswordconfirmnoemail'] = 'Das von Ihnen angegebene Nutzerkonto hat keine eingetragene E-Mail-Adresse. Wenden Sie sich bitte an den Administrator.';
@@ -713,7 +722,9 @@ Bei Problemen wenden Sie sich bitte an die Administrator/innen der Website.
 
 Viel Erfolg!
 
-{$a->admin}';
+{$a->admin}
+
+Ihr E-Learning-Team';
 $string['emailresetconfirmationsubject'] = '{$a}: Anforderung für neues Kennwort';
 $string['emailresetconfirmsent'] = 'Eine E-Mail wurde an Ihre Adresse bei <b>{$a}</b> gesendet. <br />Sie enthält eine einfache Anleitung, wie Sie weiter vorgehen müssen, um das Kennwort zu ändern. Wenn Sie Schwierigkeiten haben, wenden Sie sich bitte an den Administrator.';
 $string['emailtoprivatefiles'] = 'Sie können Dateien auch als E-Mail-Anhänge in den Bereich \'Meine Dateien\' senden. Fügen Sie die Dateien einfach an eine E-Mail an {$a} hinzu.';
@@ -1440,7 +1451,7 @@ $string['pluginsetup'] = 'Lege Plugin-Tabellen an';
 $string['policyaccept'] = 'Ich verstehe den Text und stimme ihm zu';
 $string['policyagree'] = 'Lesen Sie diese Zustimmungserklärung sorgfältig. Sie müssen erst zustimmen, um diese Website weiter nutzen zu können. Stimmen Sie zu?';
 $string['policyagreement'] = 'Zustimmungserklärung';
-$string['policyagreementclick'] = 'Link zur Zustimmungserklärung';
+$string['policyagreementclick'] = 'URL zur Zustimmungserklärung';
 $string['popup'] = 'Popup';
 $string['popupwindow'] = 'Datei in neuem Fenster öffnen';
 $string['popupwindowname'] = 'Popup-Fenster';
@@ -1702,7 +1713,7 @@ $string['showallcourses'] = 'Alle Kurse anzeigen';
 $string['showallusers'] = 'Alle Nutzer/innen anzeigen';
 $string['showblockcourse'] = 'Liste der Kurse anzeigen, in denen dieser Block genutzt wird';
 $string['showcategory'] = '{$a} anzeigen';
-$string['showchartdata'] = 'Grafikdaten verbergen';
+$string['showchartdata'] = 'Grafikdaten anzeigen';
 $string['showcomments'] = 'Kommentare sichtbar/verbergen';
 $string['showcommentsnonjs'] = 'Kommentare anzeigen';
 $string['showdescription'] = 'Beschreibung im Kurs zeigen';
@@ -1913,7 +1924,7 @@ $string['up'] = 'Aufwärts';
 $string['update'] = 'Aktualisieren';
 $string['updated'] = '{$a} aktualisiert';
 $string['updatemymoodleoff'] = 'Dashboard ist fertig';
-$string['updatemymoodleon'] = 'Dashboard bearbeiten';
+$string['updatemymoodleon'] = 'Diese Seite bearbeiten';
 $string['updatemyprofile'] = 'Profil aktualisieren';
 $string['updatesevery'] = 'Alle {$a} Sekunden aktualisieren';
 $string['updatethis'] = '{$a} aktualisieren';
@@ -1999,7 +2010,7 @@ $string['warning'] = 'Warnung';
 $string['warningdeleteresource'] = 'Hinweis: Auf {$a} wird in einem Arbeitsmaterial Bezug genommen. Wollen Sie das Arbeitsmaterial aktualisieren?';
 $string['webpage'] = 'Webseite';
 $string['week'] = 'Woche';
-$string['weekhide'] = 'Diese Woche vor {$a} verbergen';
+$string['weekhide'] = 'Diese Woche verbergen für {$a}';
 $string['weeklyoutline'] = 'Themen für jede Woche';
 $string['weeks'] = 'Wochen';
 $string['weekshow'] = 'Diese Woche für {$a} anzeigen';

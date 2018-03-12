@@ -398,7 +398,7 @@ $string['overviewnumpostssince'] = '{$a} mensagens novas desde a última vez que
 $string['overviewnumunread'] = '{$a} mensagens não lidas';
 $string['page-mod-forum-discuss'] = 'Página de discussão do fórum';
 $string['page-mod-forum-view'] = 'Página principal do fórum';
-$string['page-mod-forum-x'] = 'Qualquer página do fórum';
+$string['page-mod-forum-x'] = 'Qualquer página da atividade fórum';
 $string['parent'] = 'Mostrar mensagem ascendente';
 $string['parentofthispost'] = 'Ascendente desta mensagem';
 $string['permalink'] = 'Hiperligação direta';
@@ -504,14 +504,12 @@ $string['subscriptiondisabled'] = 'Subscrição desativada';
 $string['subscriptionforced'] = 'Subscrição obrigatória';
 $string['subscription_help'] = 'Subscrever um fórum significa que receberá notificações por e-mail dos novos tópicos publicados no fórum. Normalmente, pode optar por subscrever, ou não, um fórum. No entanto, em alguns fóruns a subscrição é obrigatória para que todos recebam as notificações.';
 $string['subscriptionmode'] = 'Modo de subscrição';
-$string['subscriptionmode_help'] = 'Quando um participante se encontra com a subscrição ativa num fórum, significa que irá receber notificações dos tópicos desse fórum. Existem 4 opções de subscrição:
+$string['subscriptionmode_help'] = 'Quando um participante tem a subscrição ativa num fórum, significa que irá receber notificações dos tópicos desse fórum. Existem 4 opções de subscrição:
 
 * Subscrição opcional - Os participantes podem escolher se desejam ativar a subscrição;
 * Subscrição obrigatória - Todos ficam com a subscrição ativa e não podem cancelar;
-* Subscrição automática (ativa no início)- Todos estão com a subscrição ativa no início mas podem cancelá-la a qualquer momento;
-* Subscrição desativada - Não é permitido subscrever o fórum.
-
-Nota: Quaisquer alterações ao modo de subscrição só afetarão os utilizadores que se inscreverem futuramente na disciplina, e não os utilizadores existentes.';
+* Subscrição opcional (ativa no início) - Todos estão com a subscrição ativa no início mas podem cancelá-la a qualquer momento;
+* Subscrição desativada - Não é permitido subscrever o fórum.';
 $string['subscriptionoptional'] = 'Subscrição opcional';
 $string['subscriptions'] = 'Subscrições';
 $string['thisforumisthrottled'] = 'Este fórum possui um limite ao número de mensagens que pode submeter num determinado período de tempo. Está atualmente configurado para {$a->blockafter} mensagem(s) em {$a->blockperiod}';

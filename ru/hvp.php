@@ -26,7 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['action'] = 'Действие';
-$string['addedandupdatelibraries'] = 'Добавлено новых библиотек H5P: {$a->%new}, обновлено старых: {$a->%old}.';
 $string['addednewlibraries'] = 'Добавлены новые библиотеки H5P ({$a->%new}).';
 $string['addlibraries'] = 'Добавить библиотеки';
 $string['ajaxfailed'] = 'Не удалось загрузить данные.';
@@ -109,7 +108,6 @@ $string['hubisdisableduploadlibraries'] = 'H5P Hub отключен, пока э
 $string['hubsettingsheader'] = 'Типы контента';
 $string['hvp:addinstance'] = 'Добавлять новый элемент H5P';
 $string['hvp:getcachedassets'] = 'Получать кэшированные контент-ресурсы';
-$string['hvp:getcontent'] = 'Получать/посмотреть в курсе файл контента H5P';
 $string['hvp:getexport'] = 'Получать экспортированный файл H5P из курса';
 $string['hvp:installrecommendedh5plibraries'] = 'Устанавливать рекомендованные библиотеки H5P';
 $string['hvp:restrictlibraries'] = 'Ограничивать библиотеку H5P';

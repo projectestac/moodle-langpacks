@@ -280,6 +280,7 @@ $string['eventbadgedeleted'] = 'S\'ha suprimit la insígnia';
 $string['eventbadgedisabled'] = 'S\'ha inhabilitat la insígnia';
 $string['eventbadgeduplicated'] = 'S\'ha duplicat la insígnia';
 $string['eventbadgeenabled'] = 'S\'ha habilitat la insígnia';
+$string['eventbadgelistingviewed'] = 'S\'ha mostrat el llistat d\'insígnies';
 $string['eventbadgerevoked'] = 'S\'ha revocat la insígnia';
 $string['eventbadgeupdated'] = 'S\'ha actualitzat la insígnia';
 $string['eventbadgeviewed'] = 'S\'ha visualitzat la insígnia';

@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['autoactivedescription'] = 'Wählen Sie, ob eine automatische Sicherung durchgeführt werden soll. Falls Sie "Manuell" auswählen, sind automatische Sicherungen nur noch über das CLI-Script "automated backups" möglich. Dieses CLI-Script kann manuell oder über einen Cronjob gestartet werden.';
+$string['autoactivedescription'] = 'Wählen Sie, ob eine automatische Sicherung durchgeführt werden soll. Falls Sie die Option \'Manuell\' auswählen, sind automatische Sicherungen nur noch über das CLI-Script \'automated backups\' möglich. Dieses CLI-Script kann manuell in der Befehlszeile oder über einen Cronjob gestartet werden.';
 $string['autoactivedisabled'] = 'Deaktiviert';
 $string['autoactiveenabled'] = 'Aktiviert';
 $string['autoactivemanual'] = 'Manuell';

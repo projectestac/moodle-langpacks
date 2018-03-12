@@ -56,9 +56,25 @@ $string['assign:manageallocations'] = 'Bewerter/innen verwalten, die dieser Abga
 $string['assign:managegrades'] = 'Bewertungen überprüfen und veröffentlichen';
 $string['assign:manageoverrides'] = 'Verfügbarkeitsänderungen für Aufgaben verwalten';
 $string['assignmentisdue'] = 'Das Abgabeende ist vorbei';
-$string['assignmentmail'] = '{$a->grader} hat Ihnen ein Feedback zur Ihrer Aufgabenlösung für  \'{$a->assignment}\' bereitgestellt. Mit dem folgenden Link können Sie direkt darauf zugreifen: {$a->url}';
-$string['assignmentmailhtml'] = '<p>{$a->grader} hat Ihnen ein Feedback zur Ihrer Aufgabenlösung für \'<i>{$a->assignment}</i>\' bereitgestellt.</p> <p>Mit dem folgenden Link können Sie direkt darauf zugreifen: <a href="{$a->url}">Link zu Ihrer Lösung und zum Feedback</a>.</p>';
-$string['assignmentmailsmall'] = '{$a->grader} hat Ihnen ein Feedback zur Ihrer Aufgabenlösung für  \'{$a->assignment}\' bereitgestellt. Mit dem folgenden Link können Sie direkt darauf zugreifen: {$a->url}';
+$string['assignmentmail'] = 'Guten Tag,
+
+{$a->grader} hat Ihnen ein Feedback zur Ihrer Aufgabenlösung für  \'{$a->assignment}\' bereitgestellt.
+
+Mit dem folgenden Link können Sie direkt darauf zugreifen:
+
+{$a->url}
+
+Ihr E-Learning-Team';
+$string['assignmentmailhtml'] = 'Guten Tag,
+
+<p>{$a->grader} hat Ihnen ein Feedback zur Ihrer Aufgabenlösung für \'<i>{$a->assignment}</i>\' bereitgestellt.</p> <p>Mit dem folgenden Link können Sie direkt darauf zugreifen: <a href="{$a->url}">Link zu Ihrer Lösung und zum Feedback</a>.</p>
+
+Ihr E-Learning-Team';
+$string['assignmentmailsmall'] = 'Guten Tag,
+
+{$a->grader} hat Ihnen ein Feedback zur Ihrer Aufgabenlösung für  \'{$a->assignment}\' bereitgestellt. Mit dem folgenden Link können Sie direkt darauf zugreifen: {$a->url}
+
+Ihr E-Learning-Team';
 $string['assignmentname'] = 'Name der Aufgabe';
 $string['assignmentplugins'] = 'Aufgabentypen';
 $string['assignmentsperpage'] = 'Aufgaben pro Seite';
@@ -308,7 +324,7 @@ $string['nofiles'] = 'Keine Dateien.';
 $string['nofilters'] = 'Keine Filter';
 $string['nograde'] = 'Keine Bewertung.';
 $string['nolatesubmissions'] = 'Spätere Abgaben sind nicht zugelassen.';
-$string['nomoresubmissionsaccepted'] = 'Weitere Abgaben sind nur zugelassen wenn der Abgabezeitraum verlängert wurde.';
+$string['nomoresubmissionsaccepted'] = 'Weitere Abgaben sind nur zugelassen, wenn der Abgabezeitraum verlängert wurde.';
 $string['none'] = 'Kein';
 $string['noonlinesubmissions'] = 'Diese Aufgabe benötigt keine Online-Abgabe';
 $string['noopen'] = 'Kein Startdatum';

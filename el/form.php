@@ -55,6 +55,7 @@ $string['noselection'] = 'Καμία επιλογή';
 $string['novalueclicktoset'] = 'Πατήστε για να εισάγετε κείμενο';
 $string['optional'] = 'Προαιρετικό';
 $string['othersettings'] = 'Άλλες ρυθμίσεις';
+$string['passwordunmaskedithint'] = 'Επεξεργασία κωδικού πρόσβασης';
 $string['passwordunmaskrevealhint'] = 'Αποκάλυψη';
 $string['requiredelement'] = 'Απαιτούμενο πεδίο.';
 $string['revealpassword'] = 'Αποκάλυψη';

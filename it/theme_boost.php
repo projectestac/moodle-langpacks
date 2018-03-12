@@ -26,10 +26,16 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['advancedsettings'] = 'Impostazioni avanzate';
+$string['choosereadme'] = 'Boost è un teme moderno e fortemente personalizzabile. E\' possibile usarlo come tema del sito oppure come tema padre di altri temi che usano Bootstrap 4.';
 $string['configtitle'] = 'Boost';
+$string['currentinparentheses'] = '(zttuale)';
 $string['generalsettings'] = 'Impostazioni generali';
 $string['pluginname'] = 'Boost';
 $string['preset'] = 'Preimpostazioni tema';
+$string['preset_desc'] = 'Seleziona una preimpostazione per cambiare il look globale del tema';
+$string['presetfiles'] = 'File addizionali di preimpostazione del tema';
+$string['presetfiles_desc'] = 'I file di preimpostazione possono modificare fortemente il tema. Per informazioni sulla creazione e sulla condivisioni di file: <a href=https://docs.moodle.org/dev/Boost_Presets>Boost presets</a>
+Per scaricare preimpostazioni: <a href=http://moodle.net/boost>Presets repository</a>';
 $string['rawscss'] = 'SCSS grezzo';
 $string['rawscss_desc'] = 'Utilizzare il campo per impostare un SCSS o CSS che sarò inserito alla fine fine del foglio di stile';
 $string['rawscsspre'] = 'SCSS grezzo iniziale';

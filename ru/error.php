@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activityisscheduledfordeletion'] = 'Процесс удаления активного элемента...';
+$string['activityisscheduledfordeletion'] = 'Процесс удаления элемента курса...';
 $string['alreadyloggedin'] = 'Вы уже вошли в систему под именем «{$a}». Вам нужно выйти из системы чтобы войти от имени другого пользователя.';
 $string['authnotexisting'] = 'Плагин авторизации отсутствует';
 $string['backupcontainexternal'] = 'Этот файл резервной копии содержит внешние узлы Moodle Network, которые не настроены локально';
@@ -218,7 +218,7 @@ $string['dmlwriteexception'] = 'Ошибка записи в базу данны
 $string['downgradedcore'] = 'ОШИБКА! Используемый программный код БОЛЕЕ СТАРЫЙ, чем версия, в которой была создана эта база данных!';
 $string['downloadedfilecheckfailed'] = 'Ошибка проверки загруженного файла';
 $string['duplicatefieldname'] = 'Обнаружено повторяющееся имя поля «{$a}»';
-$string['duplicatenosupport'] = 'Активный элемент «{$a->modname}» не может быть продублирован, так как модуль {$a->modtype} не поддерживает резервное копирование и восстановление.';
+$string['duplicatenosupport'] = 'Элемент курса «{$a->modname}» не может быть продублирован, так как модуль {$a->modtype} не поддерживает резервное копирование и восстановление.';
 $string['duplicateparaminsql'] = 'ОШИБКА: в запросе есть параметры с дублирующимся именами';
 $string['duplicaterolename'] = 'Роль с таким названием уже существует!';
 $string['duplicateroleshortname'] = 'Роль с таким кратким названием уже существует';

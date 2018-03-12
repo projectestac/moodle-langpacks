@@ -133,7 +133,7 @@ $string['clitypevaluedefault'] = 'Wert eingeben oder Standardwert benutzen ({$a}
 $string['cliunknowoption'] = 'Nicht erkannte Optionen:
   {$a}
 Hilfe wird über die Option --help angezeigt.';
-$string['cliupgradefinished'] = 'Die Aktualisierung wurde erfolgreich beendet';
+$string['cliupgradefinished'] = 'Die Aktualisierung wurde erfolgreich beendet.';
 $string['cliupgradenoneed'] = 'Für die installierte Version {$a} ist kein Upgrade notwendig. Danke für den Versuch!';
 $string['cliyesnoprompt'] = 'y (yes=ja) oder n (no=nein) eingeben';
 $string['commentsperpage'] = 'Angezeigte Kommentare pro Seite';
@@ -154,8 +154,8 @@ $string['configallowattachments'] = 'Diese Option legt fest, ob E-Mail-Mitteilun
 $string['configallowblockstodock'] = 'Diese Option legt fest, ob Nutzer/innen die Blöcke in ein spezielles Dock ablegen können, wobei nicht alle Designs diese Möglichkeit unterstützen.';
 $string['configallowcategorythemes'] = 'Wenn Sie diese Option aktivieren, können Designs auf Kategorieebene gesetzt werden. Dies wirkt sich gleichzeitig auf alle Unterkategorien und Kurse aus, falls diese nicht wiederum eigene Designs verwenden. ACHTUNG: Kategorie-Designs können zu einer Reduzierung der Arbeitsgeschwindigkeit führen!!';
 $string['configallowcoursethemes'] = 'Mit der Aktivierung erlauben Sie die Auswahl kursspezifischer Designs. Ein Kursdesign hat Vorrang vor allen anderen Designfestlegungen (Website, Kursbereich, Nutzer, Session).';
-$string['configallowedemaildomains'] = 'Liste  der E-Mail-Domains, die bei ausgehenden E-Mails als Absender (From:) angezeigt werden dürfen. Der Standardwert \'Empty\' setzt die NoReply-Adresse für alle ausgehenden E-Mails als Absender. Die Verwendung von Wildcards wie z.B. *.example.com ist zulässig und lässt alle Mail-Addressen mit beliebigen Subdomains von example.com, nicht jedoch example.com selber zu. Dazu ist ein separater Eintrag erforderlich.';
-$string['configallowemailaddresses'] = 'Wenn Sie die Eingabe bestimmter E-Mail-Domains bei der Neueingabe verbindlich vorgeben möchten, tragen Sie hier bitte eine leerzeichengetrennte Liste der zulässigen Domains ein, z.B. <strong>unserefirma.de</strong>. Alle übrigen Domains werden zurückgewiesen. Um Subdomains zu erlauben, fügen Sie die Domain mit einem führenden Punkt \'.\' hinzu.';
+$string['configallowedemaildomains'] = 'Liste der E-Mail-Domains, die bei ausgehenden E-Mails als Absender (From:) angezeigt werden dürfen. Der Standardwert \'Empty\' setzt die NoReply-Adresse für alle ausgehenden E-Mails als Absender. Die Verwendung von Wildcards wie z.B. *.example.com ist zulässig und lässt alle Mail-Addressen mit beliebigen Subdomains von example.com, nicht jedoch example.com selber zu. Dazu ist ein separater Eintrag erforderlich.';
+$string['configallowemailaddresses'] = 'Wenn Sie die Eingabe bestimmter E-Mail-Domains bei der Neueingabe verbindlich vorgeben möchten, tragen Sie hier bitte eine leerzeichengetrennte Liste der zulässigen Domains ein, z.B. <strong>unserefirma.de</strong>. Alle übrigen Domains werden zurückgewiesen. Um Subdomains zu erlauben, fügen Sie die Domain mit einem führenden Punkt \'.\' hinzu. Um Root-Domains und zugleich Subdomains zuzulassen, tragen Sie beide, eine davon mit dem führenden Punkt ein.';
 $string['configallowguestmymoodle'] = 'Diese Option erlaubt Gästen den Zugriff auf das Dashboard. Andernfalls werden Gäste auf die Startseite geleitet.';
 $string['configallowobjectembed'] = 'Aus Sicherheitsgründen dürfen normale Nutzer/innen keine Multmedia-Objekte über die HTML-Tags &lt;embed&gt; und &lt;object&gt; in den HTML-Code einbinden. Multimedia-Objekte sind alternativ auch über den Mediafilter nutzbar, ohne dabei Sicherheitsprobleme zu verursachen. Wenn Sie die HTML-Tags für alle erlauben möchten, aktivieren Sie diese Option.';
 $string['configallowoverride'] = 'Die linksseitig genannten Rolleninhaber dürfen alle nach rechts markierten Rollen ändern';
@@ -183,7 +183,7 @@ $string['configcourserequestnotify'] = 'Anmeldename der Person, die bei einer Ku
 $string['configcourserequestnotify2'] = 'Nutzer/innen, die benachrichtigt werden sollen, wenn ein Kurs angefordert wird. Es werden nur Nutzer/innen gelistet, die eine Kursanfrage annehmen dürfen.';
 $string['configcoursesperpage'] = 'Geben Sie die Kursanzahl an, die pro Seite in einer Kursliste gezeigt werden soll.';
 $string['configcourseswithsummarieslimit'] = 'Diese Option legt fest, wie viele Kurse mit Beschreibung in einer Kursübersicht maximal angezeigt werden. Bei einer größeren Kursanzahl wird eine andere Darstellung gewählt.';
-$string['configcronclionly'] = 'Die Ausführung von cron.php im Webbrowser könnte vertrauliche Informationen anzeigen. Deswegen wird empfohlen, cron.php ausschließlich über die Kommandozeile auszuführen oder im Webbrowser zusätzlich ein Cron-Kennwort zu verlangen.';
+$string['configcronclionly'] = 'Die Ausführung von Cron im Webbrowser könnte vertrauliche Informationen anzeigen. Sie sollten deswegen Cron ausschließlich über die Befehlszeile erlauben oder im Webbrowser zusätzlich ein Cron-Kennwort zu verlangen.';
 $string['configcronremotepassword'] = 'Dies bedeutet, dass das Script cron.php nicht im Webbrowser aufgerufen werden kann, ohne das Kennwort folgendermaßen an die URL anzuhängen: <pre>
 http://www.beispiel.de/admin/cron.php?password=geheim
 </pre>Falls das Feld leer bleibt, wird kein Kennwort benötigt.';
@@ -413,7 +413,11 @@ $string['courselistshortnames_desc'] = 'In der Kursliste werden sowohl die kurze
 $string['coursemgmt'] = 'Kurse und Kursbereiche verwalten';
 $string['courseoverview'] = 'Kursbeschreibung';
 $string['courserequestnotify'] = 'Mitteilung zur Kursanfrage';
-$string['courserequestnotifyemail'] = 'Nutzer {$a->user} hat einen neuen Kurs unter {$a->link} angefordert';
+$string['courserequestnotifyemail'] = 'Guten Tag,
+
+der Nutzer {$a->user} hat einen neuen Kurs unter {$a->link} angefordert.
+
+Ihr E-Learning-Team';
 $string['courserequests'] = 'Kursanfragen';
 $string['courserequestspending'] = 'Offene Kursanfragen';
 $string['courses'] = 'Kurse';
@@ -422,7 +426,7 @@ $string['courseswithsummarieslimit'] = 'Maximale Kursanzahl mit Beschreibung';
 $string['creatornewroleid'] = 'Rolle für Kursersteller/in in neuen Kursen';
 $string['creatornewroleid_help'] = 'Falls ein/e Nutzer/in nicht bereits das Recht besitzt, den neuen Kurs zu verwalten, wird die Person mit dieser Rolle automatisch in den Kurs eingeschrieben.';
 $string['cron'] = 'Cron';
-$string['cronclionly'] = 'cron nur über die Kommandozeile starten';
+$string['cronclionly'] = 'Cron nur über die Befehlszeile ausführen';
 $string['cronerrorclionly'] = 'Der Internetzugriff für diese Seite wurde deaktiviert.';
 $string['cronerrorpassword'] = 'Sie haben kein gültiges Kennwort angegeben.';
 $string['cron_help'] = 'Der Cronjob gewährleistet, dass alle Moodle-Module ihre ausstehenden Aufgaben regelmäßig ausführen, z.B. arbeitet der Versand der E-Mails aus Moodle-Foren über diesen Mechanismus. Das Script sollte möglichst jede  Minute ausgeführt werden.';
@@ -488,6 +492,7 @@ $string['devicedetectregex_desc'] = '<p>Standardmäßig werden von Moodle folgen
 $string['devicedetectregexexpression'] = 'Regulärer Ausdruck';
 $string['devicedetectregexvalue'] = 'Rückgabewert';
 $string['devicetype'] = 'Gerätetyp';
+$string['devlibdirpresent'] = 'Verzeichnisse mit Entwickler-Bibliotheknen wie <em>vendor </em> oder <em>node_modules</em> sollten nicht öffentlich aufrufbar sein. Siehe auch <a href="{$a->moreinfourl}">Sicherheitsberichte</a> für weitere Informationen.';
 $string['disableuserimages'] = 'Nutzerbilder deaktivieren';
 $string['displayerrorswarning'] = 'Die Aktivierung der PHP-Einstellung <em>display_errors</em> wird für produktive Websites nicht empfohlen, weil einige der Fehlermeldungen sensible Informationen über Ihre Serverkonfiguration preisgeben könnten.';
 $string['displayloginfailures'] = 'Login-Fehler anzeigen';
@@ -534,7 +539,7 @@ $string['enablecourserequests'] = 'Kursanfragen erlauben';
 $string['enabled'] = 'Aktiviert';
 $string['enabledevicedetection'] = 'Geräteerkennung';
 $string['enableglobalsearch'] = 'Globale Suche aktivieren';
-$string['enableglobalsearch_desc'] = 'Diese Option aktiviert eine regelmäßige automatische Indizierung und Synchronisierung.';
+$string['enableglobalsearch_desc'] = 'Diese Option aktiviert einen regelmäßigen Task zur Indizierung und Synchronisierung.';
 $string['enablegravatar'] = 'Gravatar aktivieren';
 $string['enablegravatar_help'] = 'Wenn diese Option aktiviert ist, versucht Moodle ein Profilbild von Gravatar anzuzeigen, falls Nutzer/innen kein eigenes Profilbild hochgeladen haben.';
 $string['enablemobilewebservice'] = 'Webservice für mobile Endgeräte aktivieren';
@@ -648,7 +653,7 @@ $string['includemoduleuserdata'] = 'Nutzerdaten aus Modulen einbeziehen';
 $string['incompatibleblocks'] = 'Inkompatible Blöcke';
 $string['incompleteunicodesupport'] = 'Die aktuelle Konfiguration von MySQL oder MariaDB verwendet \'utf8\'. Dieser Zeichensatz unterstützt keine vier Byte-Zeichen, wie sie z.B für einige Emoji notwendig sind. Der Versuch, diese Zeichen zu verwenden, führt zu einem Fehler beim Aktualisieren eines Datensatzes, und alle Informationen, die an die Datenbank gesendet werden, gehen verloren. Es wird empfohlen, die Einstellungen auf \'utf8mb4\' zu ändern. Weitere Informationen finden Sie in der Dokumentation.';
 $string['indexdata'] = 'Indizierungsdaten';
-$string['indexinginfo'] = 'Zur Indizierung der Website wird die automatische Ausführung des Scripts \'Indizierung der globalen Suche\' über Cron empfohlen.';
+$string['indexinginfo'] = 'Zur Indizierung der Website wird der regelmäßige Task \'Global Search Indexing\' empfohlen.';
 $string['installhijacked'] = 'Die Installation muss von der ursprünglichen IP-Adresse aus abgeschlossen werden.';
 $string['installsessionerror'] = 'Die PHP Sessions können nicht initialisiert werden. Bitte prüfen Sie, ob Ihr Browser Cookies akzeptiert.';
 $string['intlrecommended'] = 'Die PHP-Extension Intl gewährleistet die Internationalisierung, etwa eine lokalisierte Sortierung';
@@ -692,11 +697,15 @@ $string['locationsettings'] = 'Einstellungen';
 $string['locked'] = 'Gesperrt';
 $string['lockoutduration'] = 'Kontosperrdauer';
 $string['lockoutduration_desc'] = 'Die Kontosperrung wird automatisch nach dieser Zeit aufgehoben.';
-$string['lockoutemailbody'] = 'Ihr Konto mit dem Anmeldenamen {$a->username} wurde nach mehreren ungültigen Login-Versuchen auf dem Server \'{$a->sitename}\' gesperrt.
+$string['lockoutemailbody'] = 'Guten Tag,
 
-Um das Konto sofort zu entsperren, gehen Sie auf folgende Adresse {$a->link}. In den meisten Fällen sollte dies als klickbarer  Link angezeigt werden. Sollte ein Klick nicht funktionieren, kopieren Sie die Adresse in das Adressfeld Ihres Webbrowsers.
+Ihr Konto mit dem Anmeldenamen {$a->username} wurde nach mehreren ungültigen Login-Versuchen auf dem Server \'{$a->sitename}\' gesperrt.
 
-Um Hilfe zu bekommen, wenden Sie sich an {$a->admin}';
+Um das Konto sofort zu entsperren, gehen Sie auf folgende Adresse {$a->link}. In den meisten Fällen sollte dies als klickbarer Link angezeigt werden. Sollte ein Klick nicht funktionieren, kopieren Sie die Adresse in das Adressfeld Ihres Webbrowsers.
+
+Um Hilfe zu bekommen, wenden Sie sich an {$a->admin}.
+
+Ihr E-Learning-Team';
 $string['lockoutemailsubject'] = 'Ihr Konto auf \'{$a}\' wurde gesperrt';
 $string['lockouterrorunlock'] = 'Ungültige Daten zur Kontofreigabe';
 $string['lockoutthreshold'] = 'Schwelle zur Kontosperrung';
@@ -801,7 +810,7 @@ $string['navshowcategories'] = 'Kursbereiche anzeigen';
 $string['navshowfrontpagemods'] = 'Aktivitäten der Startseite in Navigation anzeigen';
 $string['navshowfrontpagemods_help'] = 'Wenn diese Option aktiviert ist, werden alle Aktivitäten der Startseite in der Navigation angezeigt.';
 $string['navshowfullcoursenames'] = 'Vollständige Kursnamen anzeigen';
-$string['navshowfullcoursenames_help'] = 'Wenn diese Option aktiviert ist, werden in der Navigation die vollständigen Kursnamen angezeigt, andernfalls nur die Kurznamen.';
+$string['navshowfullcoursenames_help'] = 'Wenn diese Option aktiviert ist, werden in der Navigation die vollständigen Kursnamen angezeigt, andernfalls nur die kurzen Kursnamen.';
 $string['navshowmycoursecategories'] = 'Meine Kursbereiche anzeigen';
 $string['navshowmycoursecategories_help'] = 'Wenn diese Option aktiviert ist, werden Kurse auf dem Dashboard in Kategorien angezeigt.';
 $string['navsortmycoursessort'] = 'Meine Kurse anordnen';
@@ -864,10 +873,10 @@ $string['pcreunicodewarning'] = 'Die PHP-Extension PCRE sollte installiert und k
 $string['perfdebug'] = 'Performance';
 $string['performance'] = 'Performance';
 $string['pgcluster'] = 'PostgreSQL Cluster';
-$string['pgclusterdescription'] = 'PostgreSQL Versions-/Cluster-Parameter für Kommandozeilenoperationen. Wenn Sie nur eine PostgreSQL auf Ihrem System verwenden oder sich nicht sicher sind, lassen Sie das Feld leer.';
+$string['pgclusterdescription'] = 'PostgreSQL Versions-/Cluster-Parameter für Befehlszeilenoperationen. Wenn Sie nur eine PostgreSQL auf Ihrem System verwenden oder sich nicht sicher sind, lassen Sie das Feld leer.';
 $string['phpfloatproblem'] = 'Unerwartetes Problem bei der Behandlung von PHP-Dezimalzahlen (float) aufgetreten - {$a}';
 $string['pleaserefreshregistration'] = 'Ihre Website ist registriert. Die Registrierung wurde zuletzt am {$a} aktualisiert. <br />Über die automatische Website-Registierung werden Ihre Daten regelmäßig aktualisiert. Sie können die Registrierung aber auch jederzeit manuell aktualisieren.';
-$string['pleaserefreshregistrationunknown'] = 'Ihre Website ist registriert, aber das Registrierungsdatum ist nicht bekannt. Bitte aktualisieren Sie Ihre Registrierung manuell oder stellen Sie sicher, dass die automatische Registrierung als geplanter Vorgang aktiviert ist.';
+$string['pleaserefreshregistrationunknown'] = 'Ihre Website ist registriert, aber das Registrierungsdatum ist unbekannt. Aktualisieren Sie deswegen Ihre Registrierung manuell oder aktivieren Sie die automatische Website-Registierung.';
 $string['plugin'] = 'Plugin';
 $string['plugins'] = 'Plugins';
 $string['pluginscheck'] = 'Plugin Abhängigkeitprüfung';
@@ -1146,7 +1155,7 @@ $string['taskstatscron'] = 'Hintergrundverarbeitung für Statistiken';
 $string['tasktagcron'] = 'Hintergrundverarbeitung für Schlagwörter';
 $string['tasktempfilecleanup'] = 'Veraltete temporäre Dateien löschen';
 $string['tempdatafoldercleanup'] = 'Temporäre Dateien löschen, wenn älter als';
-$string['testsiteupgradewarning'] = '';
+$string['testsiteupgradewarning'] = 'Sie verwenden derzeit die Testseite {$a}. Um ein korrektes Upgrade durchzuführen, verwenden SIe die Befehlszeile.';
 $string['themedesignermode'] = 'Modus zur Designbearbeitung';
 $string['themedesignermodewarning'] = 'Theme Designer Modus ist aktiviert. Dies sollte auf Produktionsseiten nicht aktiviert sein, da es die Arbeitsleistung signifikant reduzieren kann.';
 $string['themelist'] = 'Designliste';
@@ -1178,25 +1187,26 @@ $string['unlockaccount'] = 'Konto freigeben';
 $string['unoconvwarning'] = 'Die bei Ihnen installierte Version von \'unoconv\' wird nicht unterstützt. Moodle braucht für die Aufgabenbewertung mindestens die Version 0.7.';
 $string['unsettheme'] = 'Design abwählen';
 $string['unsupported'] = 'Kein Support';
-$string['unsupporteddbfileformat'] = 'Ihre Datenbank enthält Tabellen mit Antelope-Format. Eine vollständige Unterstützung von \'utf-8\' in MySQL und MariaDB benötigt das Barracuda-Dateiformat. Konvertieren Sie die Tabellen in das Barracuda-Dateiformat. Weitere Informationen zu einem Tool zum Konvertieren von InnoDB-Tabellen in Barracuda finden Sie in der Dokumentation <a href="https://docs.moodle.org/de/cli"> Administration über die Befehlszeile </a>.';
+$string['unsupporteddbfileformat'] = 'Die Datenbank enthält Tabellen mit Format \'Antelope\'. Diese Tabellen sollten unbedingt ins Format \'Barracuda\' konvertiert werden, damit eine vollständige Unterstützung von \'utf-8\' in MySQL und MariaDB möglich ist. Informationen zum Konvertieren finden Sie unter <a href="https://docs.moodle.org/de/cli"> Administration über die Befehlszeile </a>.';
 $string['unsupporteddbfilepertable'] = 'Zur vollständigen Unterstützung von UTF-8 benötigen sowohl MySQL als auch MariaDB die Änderung der MySQL-Einstellung \'innodb_file_per_table\' auf \'ON\'. Weitere Informationen finden Sie in der Dokumentation.';
 $string['unsupporteddblargeprefix'] = 'Zur vollständigen Unterstützung von UTF-8 benötigen sowohl MySQL als auch MariaDB die Änderung der MySQL-Einstellung \'innodb_large_prefix\' auf \'ON\'. Weitere Informationen finden Sie in der Dokumentation.';
 $string['unsupporteddbstorageengine'] = 'Die benutzte Datenbank-Engine wird nicht weiter unterstützt.';
-$string['unsupporteddbtablerowformat'] = 'Die Datenbank enthält Tabellen im Format \'Antelope\'. Diese Tabellen sollten unbedingt ins Format \'Barracuda\' konvertiert werden. Infos zur Konvertierung von InnoDB-Tabellen: <a href="https://docs.moodle.org/en/cli">Administration via command line</a>.';
+$string['unsupporteddbtablerowformat'] = 'Die Datenbank enthält Tabellen mit Format \'Antelope\'. Diese Tabellen sollten unbedingt ins Format \'Barracuda\' konvertiert werden. Informationen zum Konvertieren finden Sie unter <a href="https://docs.moodle.org/de/cli"> Administration über die Befehlszeile </a>.';
 $string['unsupportedphpversion7'] = 'PHP 7 wird nicht unterstützt.';
 $string['unsupportedphpversion71'] = 'PHP 7.1 wird nicht unterstützt.';
+$string['unsupportedphpversion72'] = 'Die PHP Version 7.2 wird nicht unterstützt.';
 $string['unsuspenduser'] = 'Nutzerkonto aktivieren';
 $string['updateaccounts'] = 'Update bestehender Accounts';
 $string['updateautocheck'] = 'Aktualisierungen prüfen';
 $string['updateautocheck_desc'] = 'Wenn diese Option aktiviert ist, wird für Ihrer Website automatisch geprüft, ob für Moodle oder ein zusätzliches Plugin aktuellere Versionen verfügbar sind. Falls eine Aktualisierung vorhanden ist, werden die Administratoren benachrichtigt.';
 $string['updateavailable'] = 'Eine neuere Moodle-Version ist verfügbar!';
 $string['updateavailabledetailslink'] = 'Weitere Details: {$a->url}';
-$string['updateavailableforplugin'] = 'Aktualisierung für Plugins verfügbar!';
+$string['updateavailableforplugin'] = 'Für einige Plugins sind aktualisierte Versionen verfügbar.';
 $string['updateavailableinstall'] = 'Aktualisierung ausführen';
 $string['updateavailableinstallall'] = 'Verfügbare Aktualisierungen ausführen ({$a})';
 $string['updateavailableinstallallhead'] = 'Verfügbare Aktualisierungen werden installiert.';
-$string['updateavailable_moreinfo'] = 'Weitere Informationen';
-$string['updateavailablenot'] = 'Dieses Moodle ist aktuell.';
+$string['updateavailable_moreinfo'] = 'Weitere Infos';
+$string['updateavailablenot'] = 'Die installierte Moodle-Version ist aktuell.';
 $string['updateavailablerecommendation'] = 'Nur wenn die Software der Website auf die letzte Version aktualisiert wird, enthält sie alle Sicherheits- und Fehlerkorrekturen.';
 $string['updateavailable_release'] = 'Moodle {$a}';
 $string['updateavailable_version'] = 'Version {$a}';
@@ -1205,7 +1215,7 @@ $string['updateminmaturity'] = 'Entwicklungsstand prüfen';
 $string['updateminmaturity_desc'] = 'Auf Aktualisierungen wird hingewiesen, sobald der verfügbare Code den ausgewählten Entwicklungsstand erreicht. Wenn Plugins Ihren Entwicklungsstand nicht dokumentieren, werden Aktualisierungen von Plugins unabhängig von dieser Einstellung trotzdem aufgeführt.';
 $string['updatenotificationfooter'] = 'Ihre Website \'{$a->siteurl}\' sucht automatisch nach verfügbaren Aktualisierungen und versendet entsprechende Mitteilungen an den Administrator. Die automatische Suche können Sie bei Bedarf deaktivieren. Den Versand der Mitteilungen können Sie im Bereich \'Meine Einstellungen\' anpassen.';
 $string['updatenotifications'] = 'Mitteilungen zu Aktualisierungen';
-$string['updatenotificationsubject'] = 'Aktualisierungen für Moodle sind verfügbar: ({$a->siteurl})';
+$string['updatenotificationsubject'] = 'Aktualisierungen für Moodle sind verfügbar: {$a->siteurl}';
 $string['updatenotifybuilds'] = 'Neue Builds prüfen';
 $string['updatenotifybuilds_desc'] = 'Diese Option legt fest, ob neuere \'Builds\' der aktuell installierten Version angezeigt werden sollen. Builds sind kontinuierliche Verbesserungen, die regelmäßig jede Woche veröffentlicht werden. Wenn diese Option deaktiviert ist, wird ein verfügbares Update nur gemeldet, wenn eine höhere Version veröffentlicht wurde. Die Prüfung der Plugins ist von dieser Einstellung nicht betroffen.';
 $string['upgradeerror'] = 'Unbekannter Fehler beim Upgrade von {$a->plugin} zu Version {$a->version}. Fortsetzung unmöglich.';
@@ -1240,8 +1250,8 @@ $string['upgradestart'] = 'Aktualisierung der Datenbank starten';
 $string['upgradesure'] = '<p>Die installierten Moodle-Dateien wurden verändert. Ihr Moodle wird automatisch auf die Version <strong>{$a}</strong> aktualisiert. Nach der Aktualisierung können Sie nicht zu einer früheren Version zurückkehren. Beachten Sie bitte, dass der Prozess lange dauern könnte!</p>
 <p>Sind Sie sicher, dass Sie die Aktualisierung ausführen wollen?</p>';
 $string['upgradetimedout'] = 'Die Aktualisierung wurde wegen Zeitüberschreitung abgebrochen. Bitte starten Sie den Vorgang noch einmal.';
-$string['upgradingdata'] = 'Daten werden aktualisiert...';
-$string['upgradinglogs'] = 'Logdaten werden aktualisiert...';
+$string['upgradingdata'] = 'Daten werden aktualisiert.';
+$string['upgradinglogs'] = 'Logdaten werden aktualisiert.';
 $string['upgradingversion'] = 'Aktualisierung auf neue Version';
 $string['upwards'] = 'aufwärts';
 $string['useblogassociations'] = 'Blogverbund erlauben';

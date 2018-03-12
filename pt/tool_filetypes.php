@@ -60,7 +60,7 @@ $string['icon_help'] = 'Nome do ficheiro de ícone.
 
 A lista de ícones é retirada do diretório /pix/f da sua instalação Moodle. Pode adicionar ícones personalizados a esta pasta caso seja necessário.';
 $string['mimetype'] = '<i>MIME type</i>';
-$string['mimetype_help'] = '<i>MIME type</i> associado a este tipo de ficheiro, por exemplo, ‘application/x-mobipocket-ebook’';
+$string['mimetype_help'] = 'Tipo de MIME associado a este tipo de ficheiro, por exemplo, ‘application/x-mobipocket-ebook’';
 $string['pluginname'] = 'Tipos de ficheiro';
 $string['revert'] = 'Restaurar {$a} para as predefinições Moodle';
 $string['revert_confirmation'] = 'Tem a certeza que pretende restaurar <strong>.{$a}</strong> para as predefinições Moodle, descartando todas as alterações?';

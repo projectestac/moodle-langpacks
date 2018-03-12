@@ -26,7 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['action'] = 'Acció';
-$string['addedandupdatelibraries'] = 'S\'han afegit {$a->%new} biblioteques H5P noves i se n\'han actualitzat {$a->%old} d\'antigues.';
 $string['addednewlibraries'] = 'S\'han afegit {$a->%new} biblioteques H5P noves.';
 $string['addlibraries'] = 'Afegeix biblioteques';
 $string['ajaxfailed'] = 'Ha fallat la lectura de dades.';
@@ -110,7 +109,6 @@ $string['hubisdisableduploadlibraries'] = 'El servei «H5P Hub» s\'ha desactiva
 $string['hubsettingsheader'] = 'Tipus de contingut';
 $string['hvp:addinstance'] = 'Afegeix activitats H5P noves';
 $string['hvp:getcachedassets'] = 'Aconsegueix actius H5P desats a la memòria cau';
-$string['hvp:getcontent'] = 'Aconsegueix/visualitza els continguts d\'un fitxer H5P del curs';
 $string['hvp:getexport'] = 'Aconsegueix el fitxer d\'exportació dels H5P del curs';
 $string['hvp:installrecommendedh5plibraries'] = 'Instal·la les biblioteques H5P recomanades';
 $string['hvp:restrictlibraries'] = 'Restringeix una biblioteca H5P';

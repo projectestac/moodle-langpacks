@@ -82,6 +82,7 @@ $string['filename'] = 'Όνομα αρχείου';
 $string['filenotnull'] = 'Πρέπει να επιλέξετε ένα αρχείο για ανέβασμα.';
 $string['filepicker'] = 'Επιλογέας αρχείου';
 $string['filesaved'] = 'Το αρχείο αποθηκεύτηκε';
+$string['foldernotfound'] = 'Αδυναμία εύρεσης φακέλου';
 $string['getfile'] = 'Επιλογή αυτού του αρχείου';
 $string['iconview'] = 'Εμφάνιση ως εικονίδια';
 $string['instance'] = 'στιγμιότυπο';

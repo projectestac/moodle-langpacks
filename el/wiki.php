@@ -66,6 +66,7 @@ $string['save'] = 'Αποθήκευση';
 $string['searchresult'] = 'Αποτελέσματα αναζήτησης:';
 $string['updatedpages'] = 'Ανανεωμένες σελίδες';
 $string['updatedwikipages'] = 'Ανανεωμένες σελίδες Wiki';
+$string['uploadactions'] = 'Ενέργειες';
 $string['uploadfiletitle'] = 'Συνημμένα';
 $string['uploadname'] = 'Όνομα αρχείου';
 $string['version'] = 'Έκδοση';

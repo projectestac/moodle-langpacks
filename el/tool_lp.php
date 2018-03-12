@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['actions'] = 'Ενέργειες';
 $string['activities'] = 'Δραστηριότητες';
 $string['addcohorts'] = 'Προσθήκη ομάδας χρηστών';
 $string['addcohortstosync'] = 'Προσθήκη ομάδων χρηστών για συγχρονισμό';

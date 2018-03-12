@@ -41,7 +41,7 @@ $string['cliadminemail'] = '新しい管理ユーザメールアドレス';
 $string['cliadminpassword'] = '新しい管理者パスワード';
 $string['cliadminusername'] = '管理者アカウントユーザ名';
 $string['clialreadyconfigured'] = '設定ファイルconfig.phpはすでに登録されています。このサイトをインストールする場合、admin/cli/install_database.phpを使用してください。';
-$string['clialreadyinstalled'] = '設定ファイルconfig.phpは、すでに登録されています。このサイトをアップグレードする場合、admin/cli/upgrade.phpを使用してください。';
+$string['clialreadyinstalled'] = '設定ファイルconfig.phpはすでに登録されています。このサイトをアップグレードする場合、admin/cli/upgrade.phpを使用してください。';
 $string['cliinstallfinished'] = 'インストールが正常に完了しました。';
 $string['cliinstallheader'] = 'Moodle {$a} コマンドラインインストールプログラム';
 $string['climustagreelicense'] = '非インタラクティブモードにおいて、あなたは「--agree-license」オプションを指定してライセンスに同意する必要があります。';
@@ -133,7 +133,7 @@ $string['memorylimithelp'] = '<p>現在、サーバのPHPメモリ制限が {$a}
 <ol>
 <li>あなたがリコンパイル可能な場合、PHPを<i>--enable-memory-limit</i>オプションでコンパイルしてください。これにより、Moodle自身がメモリ制限を設定することが可能になります。</li>
 <li>あなたがphp.iniファイルにアクセスできる場合、<b>memory_limit</b>設定を40Mのように変更することができます。php.iniファイルにアクセスできない場合、管理者に変更を依頼してください。</li>
-<li>いくつかのPHPサーバでは、下記の行を含む.htaccessファイルをMoodleディレクトリに作成することができます:
+<li>いくつかのPHPサーバでは下記の行を含む.htaccessファイルをMoodleディレクトリに作成することができます:
 <blockquote><div>php_value memory_limit 40M</div></blockquote>
 <p>しかし、この設定が<b>すべての</b>PHPページの動作を妨げる場合もあります。ページ閲覧中にエラーが表示される場合、.htaccessファイルを削除してください。</p></li>
 </ol>';
@@ -203,7 +203,7 @@ $string['sessionautostart'] = 'セッション自動スタート';
 $string['sessionautostarterror'] = 'これは無効にしてください。';
 $string['sessionautostarthelp'] = '<p>Moodleはセッションサポートを必要とします。また、セッションサポートなしでは動作しません。</p>
 
-<p>セッションは、php.iniファイルで有効にすることができます ... session.auto_startパラメータを探してください。</p>';
+<p>セッションはphp.iniファイルで有効にすることができます ... session.auto_startパラメータを探してください。</p>';
 $string['sqliteextensionisnotpresentinphp'] = 'PHPのSQLite拡張モジュールが適切に設定されていません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['upgradingqtypeplugin'] = '問題/タイププラグインのアップグレード';
 $string['welcomep10'] = '{$a->installername} ({$a->installerversion})';

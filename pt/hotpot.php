@@ -44,7 +44,7 @@ Se o ficheiro de origem é uma **pasta**, todos os testes na pasta são adiciona
 
 Se o ficheiro de origem é um **ficheiro de unidade**, como um ficheiro Hot Potatoes ou index.html, os testes do ficheiro serão adicionados à disciplina como uma cadeia de cadeia de testes com configurações idênticas.';
 $string['allowpaste'] = 'Permitir colar';
-$string['allowpaste_help'] = 'Se essa configuração estiver ativa, os alunos terão permissão para copiar, colar e arrastar texto para caixas de texto.';
+$string['allowpaste_help'] = 'Se esta configuração estiver ativa, os alunos terão permissão para copiar, colar e arrastar texto para caixas de texto.';
 $string['allowreview'] = 'Permitir revisão';
 $string['allowreview_help'] = 'Se ativar esta opção, os alunos podem rever as suas tentativas de resposta após o teste fechar';
 $string['analysisreport'] = 'Análise de item';
@@ -508,7 +508,7 @@ $string['timelimit_help'] = 'Esta configuração especifica a duração máxima 
 : o tempo limite será extraído do ficheiro de origem ou dos ficheiros modelos para este formato de saída
 
 **Usar tempo definido**
-: O limite de tempo especificado na página de configurações HotPot será utilizado como o limite de tempo para uma tentativa de responder ao teste. Essa configuração substitui os definidos no ficheiro de origem, de configuração ou ficheiros modelo para esse formato de saída.
+: O limite de tempo especificado na página de configurações HotPot será utilizado como o limite de tempo para uma tentativa de responder ao teste. Esta configuração substitui os definidos no ficheiro de origem, de configuração ou ficheiros modelo para esse formato de saída.
 
 **Desativar**
 : Não é configurado limite de tempo para as tentativas neste teste.

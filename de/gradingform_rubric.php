@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addcriterion'] = 'Kriterium hinzufügen';
 $string['alwaysshowdefinition'] = 'Nutzer/innen eine Vorschau auf die Rubrik erlauben (andernfalls wird die Rubrik erst nach der Bewertung sichtbar)';
 $string['backtoediting'] = 'Zurück zum Bearbeiten';
-$string['confirmdeletecriterion'] = 'Wollen Sie dieses Kriterium wirklich löchen?';
+$string['confirmdeletecriterion'] = 'Wollen Sie dieses Kriterium wirklich löschen?';
 $string['confirmdeletelevel'] = 'Möchten Sie dieses Level wirklich löschen?';
 $string['criterion'] = 'Kriterium {$a}';
 $string['criterionaddlevel'] = 'Level hinzufügen';

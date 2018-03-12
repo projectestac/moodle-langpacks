@@ -84,7 +84,9 @@ Sie möchten die E-Mail-Adresse für Ihr Nutzerkonto auf {$a->site} ändern. Bit
 
 Wenn Sie Fragen haben, kontaktieren Sie den Support: {$a->supportemail}
 
-{$a->url}';
+{$a->url}
+
+Ihr E-Learning-Team';
 $string['emailupdatesuccess'] = 'Die E-Mail-Adresse von <em>{$a->fullname}</em> wurde erfolgreich aktualisiert: <em>{$a->email}</em>.';
 $string['emailupdatetitle'] = 'Bestätigung der E-Mail-Änderung bei {$a->site}';
 $string['enterthenumbersyouhear'] = 'Geben Sie die gehörten Zahlen ein';
@@ -149,7 +151,7 @@ $string['stdchangepassword_expl'] = 'Stellen Sie \'Ja\' ein, wenn das externe Au
 $string['stdchangepassword_explldap'] = 'Warnung: LDAP sollte unbedingt SSL-verschlüsselt sein (ldaps://), wenn der LDAP-Server extern betrieben wird.';
 $string['suspended'] = 'Gesperrtes Nutzerkonto';
 $string['suspended_help'] = 'Gesperrte Nutzer/innen können sich nicht einloggen und auch keine Webservices benutzen. Alle ausgehenden Mitteilungen werden gelöscht.';
-$string['testsettings'] = 'Testeinstellungen';
+$string['testsettings'] = 'Einstellungen prüfen';
 $string['testsettingsheading'] = 'Authentifizierungseinstellungen prüfen - {$a}';
 $string['unlocked'] = 'Bearbeitbar';
 $string['unlockedifempty'] = 'Bearbeitbar (wenn leer)';

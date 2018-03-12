@@ -325,7 +325,7 @@ $string['services_help'] = 'Wählen Sie die Services, die an den Tool-Anbieter �
 $string['setupoptions'] = 'Setup-Optionen';
 $string['share_email'] = 'E-Mail des Anwenders an Tool übergeben';
 $string['share_email_admin'] = 'E-Mail des Anwenders an Tool übergeben';
-$string['share_email_admin_help'] = 'Legen Sie fest, ob die E-Mailadresse des Nutzers übergeben werden soll. Dies kan notwendig sein,um bestimmte Informationen im Tool anzuzeigen oder aufgrund von Aktivitäten im externen Tool E-Mails zu versenden.';
+$string['share_email_admin_help'] = 'Legen Sie fest, ob die E-Mail Adresse des Nutzers übergeben werden soll. Dies kann notwendig sein, um bestimmte Informationen im Tool anzuzeigen, oder aufgrund von Aktivitäten im externen Tool E-Mails zu versenden.';
 $string['share_email_help'] = 'Diese Option legt fest, ob die Nutzer-E-Mail-Adresse an den Tool-Provider übergeben wird, wenn die Tool-Instanz verwendet wird. Nutzer/innen können so bei einem wiederholten Zugriff wiedererkannt werden und personalisierte Informationen per E-Mails erhalten.
 
 Diese Einstellung kann in der Tool-Konfiguration überschrieben werden.';

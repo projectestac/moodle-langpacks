@@ -86,6 +86,7 @@ $string['nocontacts'] = 'Nessun contatto';
 $string['noframesjs'] = 'Versione accessibile';
 $string['nomessages'] = 'Nessun messaggio';
 $string['nomessagesfound'] = 'Non è stato trovato nessun messaggio';
+$string['noncontacts'] = 'Non tra i contatti';
 $string['nonotifications'] = 'Non hai notifiche';
 $string['noreply'] = 'Non rispondere a questo messaggio';
 $string['nosearchresults'] = 'La tua ricerca non ha prodotto risultati';

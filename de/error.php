@@ -452,6 +452,8 @@ $string['notlocalisederrormessage'] = '{$a}';
 $string['notmemberofgroup'] = 'Sie sind nicht Mitglied dieser Gruppe im Kurs.';
 $string['notownerofkey'] = 'Sie sind nicht der Eigentümer dieses Schlüssels';
 $string['nousers'] = 'Kein Nutzer vorhanden!';
+$string['oauth1accesstoken'] = 'OAuth 1.0 Fehler: Wir haben das Zugriffstoken nicht erhalten.';
+$string['oauth1requesttoken'] = 'OAuth 1.0 Fehler: Wir haben das Anforderungs-Token nicht erhalten - der Dienstanbieter kann vorübergehend nicht verfügbar sein.';
 $string['onlyadmins'] = 'Diese Funktion können nur Administratoren/innen ausführen';
 $string['onlyeditingteachers'] = 'Diese Funktion können nur Trainer/innen mit Bearbeitungsrecht ausführen';
 $string['onlyeditown'] = 'Sie können nur eigene Informationen bearbeiten.';
@@ -497,7 +499,7 @@ $string['sessionerroruser2'] = 'Ein Serverfehler ist aufgetreten. Er betrifft Ih
 $string['sessionhandlerproblem'] = 'Der Session-Handler ist falsch konfiguriert';
 $string['sessionipnomatch'] = 'Die IP-Adresse scheint sich seit Ihrem letzten Login geändert zu haben. Dieses Sicherheitsfeature schützt Sie vor dem Diebstahl Ihrer Identität durch Hacker, während Sie auf der Seite arbeiten. Normale Nutzer sollten diese Mitteilung nicht sehen - bitten Sie den Administrator um Hilfe.';
 $string['sessionipnomatch2'] = '<p>Ihre IP-Adresse hat sich geändert, seit Sie sich eingeloggt haben. Diese Sicherheitsoption schützt davor, dass Ihre Identität gestohlen werden kann, während Sie eingeloggt sind. Sie könnten diese Fehlermeldung auch erhalten, wenn Sie ein Funknetzwerk benutzen oder zwischen unterschiedlichen Netzwerken pendeln (roaming). Bitte fragen Sie für weitere Hilfe den Administrator Ihrer Website. </p><p>Falls Sie weitermachen möchten, aktualisieren Sie bitte die Seite (F5-Taste).</p>';
-$string['sessionwaiterr'] = 'Zeitüberschreitung beim Warten auf Sessionschließung.<br />Warten Sie bis die laufenden Anfragen abgeschlossen sind und versuchen Sie es noch einmal.';
+$string['sessionwaiterr'] = 'Zeitüberschreitung beim Warten auf exklusiven Session-Zugriff.<br />Bitte warten Sie, bis Ihre laufenden Anfragen abgeschlossen sind, und versuchen Sie es anschließend noch einmal.';
 $string['shortnametaken'] = 'Kurzbezeichnung wird für anderen Kurs genutzt  ({$a})';
 $string['sitepolicynotagreed'] = 'Zustimmungserklärung nicht bestätigt. <a href="{$a}">Klicken Sie hier, um die Zustimmungserklärung zu öffnen</a>.';
 $string['socksnotsupported'] = 'SOCKS5 Proxy wird in PHP4 nicht unterstützt';

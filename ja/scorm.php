@@ -233,8 +233,8 @@ SCORM活動は下記のように使用することができます:
 * 評価ツールとして';
 $string['modulenameplural'] = 'SCORMパッケージ';
 $string['nav'] = 'ナビゲーションを表示する';
-$string['navdesc'] = 'ここではナビゲーションボタンを表示/非表示およびポジションを設定します。';
-$string['nav_help'] = 'この設定ではナビゲーションボタンの表示・非表示およびポジションを指定します。
+$string['navdesc'] = 'ここではナビゲーションボタンの表示/非表示およびポジションを設定します。';
+$string['nav_help'] = 'ここではナビゲーションボタンの表示/非表示およびポジションを設定します。
 
 以下3つのオプションがあります:
 
@@ -244,10 +244,10 @@ $string['nav_help'] = 'この設定ではナビゲーションボタンの表示
 $string['navigation'] = 'ナビゲーション';
 $string['navpositionleft'] = '左からのナビゲーションボタンのポジション (ピクセル) です。';
 $string['navpositiontop'] = 'トップからのナビゲーションボタンのポジション (ピクセル) です。';
-$string['networkdropped'] = 'SCORMプレイヤはあなたのインターネット接続が信頼できないまたは中断されていることを検出しました。このSCORM活動を続ける場合、あなたの進捗が保存されない場合があります。<br />今すぐこの活動を終了して、あなたが信頼できるインターネット接続を利用できるようになった後に戻ってください。';
+$string['networkdropped'] = 'SCORMプレイヤはあなたのインターネット接続が信頼できないまたは中断されていることを検出しました。このSCORM活動を続ける場合、あなたの進捗が保存されない場合があります。<br />今すぐこの活動を終了してあなたが信頼できるインターネット接続を利用できるようになった後に戻ってください。';
 $string['newattempt'] = '新しい受験を開始する';
 $string['next'] = '続ける';
-$string['noactivity'] = '報告内容はありません。';
+$string['noactivity'] = '報告はありません。';
 $string['noattemptsallowed'] = '許可された受験回数';
 $string['noattemptsmade'] = 'あなたの受験回数';
 $string['no_attributes'] = 'タグ {$a->tag} には属性を割り当てる必要があります。';
@@ -257,7 +257,7 @@ $string['nomanifest'] = 'ファイルパッケージが正しくありません 
 $string['noprerequisites'] = '申し訳ございません、あなたはこの活動にアクセスするための十分な必要条件に達していません。';
 $string['noreports'] = '表示するレポートはありません。';
 $string['normal'] = 'ノーマル';
-$string['noscriptnoscorm'] = 'あなたのブラウザがJavaScriptをサポートしていないか、JavaScriptサポートが無効にされています。このSCORMパッケージが実行されないか、データが正常に保存されません。';
+$string['noscriptnoscorm'] = 'あなたのブラウザがJavaScriptをサポートしていないかJavaScriptサポートが無効にされています。このSCORMパッケージが実行されないかデータが正常に保存されません。';
 $string['notattempted'] = '未受験';
 $string['not_corr_type'] = 'タグ {$a->tag} のタイプが合致しません。';
 $string['notopenyet'] = '申し訳ございません、この活動は {$a} まで利用することができません。';
@@ -266,7 +266,7 @@ $string['optallstudents'] = 'すべてのユーザ';
 $string['optattemptsonly'] = '受験済みユーザのみ';
 $string['options'] = 'オプション (ブラウザにより動作しない場合もあります)';
 $string['optionsadv'] = 'オプション (高度)';
-$string['optionsadv_desc'] = 'このオプションを有効にした場合、高さおよび幅が高度なオプションに表示されます。';
+$string['optionsadv_desc'] = 'このオプションを有効にした場合、高さおよび幅が高度な設定に表示されます。';
 $string['optnoattemptsonly'] = '未受験のユーザのみ';
 $string['organization'] = '組織';
 $string['organizations'] = '組織';
@@ -277,7 +277,7 @@ $string['packagefile'] = 'パッケージファイルが指定されていませ
 $string['packagehdr'] = 'パッケージ';
 $string['package_help'] = 'パッケージはSCORM/AICCコース定義ファイルを含むZIP (またはpif) ファイルです。';
 $string['packageurl'] = 'URL';
-$string['packageurl_help'] = 'この設定ではファイルピッカよりファイルを選択するのではなく、SCORMパッケージを指定するためのURLを有効にします。';
+$string['packageurl_help'] = 'この設定ではファイルピッカよりファイルを選択するのではなくSCORMパッケージを指定するためのURLを有効にします。';
 $string['page-mod-scorm-x'] = 'すべてのSCORMモジュールページ';
 $string['pagesize'] = 'ページサイズ';
 $string['passed'] = '合格';
@@ -285,10 +285,10 @@ $string['php5'] = 'PHP 5 (DOMXMLネイティブライブラリ)';
 $string['pluginadministration'] = 'SCORMパッケージ管理';
 $string['pluginname'] = 'SCORMパッケージ';
 $string['popup'] = '新しいウィンドウ';
-$string['popuplaunched'] = 'SCORMパッケージはポップアップウィンドウに起動します。あなたがこのリソースの閲覧を終了した場合、ここをクリックしてコースページに戻ってください。';
+$string['popuplaunched'] = 'SCORMパッケージはポップアップウィンドウに起動しました。あなたがこのリソースの閲覧を終了した場合、ここをクリックしてコースページに戻ってください。';
 $string['popupmenu'] = 'ドロップダウンメニュー';
 $string['popupopen'] = 'パッケージを新しいウィンドウで開く';
-$string['popupsblocked'] = 'ポップアップウィンドウがブロックされたため、SCORMモジュールの実行を停止します。再度開始する前、あなたのブラウザ設定を確認してください。';
+$string['popupsblocked'] = 'ポップアップウィンドウがブロックされたためSCORMモジュールの実行を停止します。再度開始する前にあなたのブラウザ設定を確認してください。';
 $string['position_error'] = '{$a->tag} タグを {$a->parent} タグの子タグにすることはできません。';
 $string['preferencespage'] = 'このページ限定のプリファレンス';
 $string['preferencesuser'] = 'このレポートのプリファレンス';
@@ -311,7 +311,7 @@ $string['rightanswer'] = '正解';
 $string['scoes'] = '学習オブジェクト';
 $string['score'] = '評点';
 $string['scorm12standard'] = 'SCORM 1.2標準モードを有効にする';
-$string['scorm12standarddesc'] = 'この設定を無効にすることにより、MoodleはSCORM 1.2仕様で許可されている以上のデータを保存できるようになります。あなたのSCORMパッケージがユーザに大量のテキスト入力を許可している場合、または大量のデータをsuspend_dataフィールドに保存する場合、この設定を無効にしてください。';
+$string['scorm12standarddesc'] = 'この設定を無効にすることによりMoodleはSCORM 1.2仕様で許可されている以上のデータを保存できるようになります。あなたのSCORMパッケージがユーザに大量のテキスト入力を許可している場合、または大量のデータをsuspend_dataフィールドに保存する場合、この設定を無効にしてください。';
 $string['scorm:addinstance'] = '新しいSCORMパッケージを追加する';
 $string['scormclose'] = '終了日時';
 $string['scormcourse'] = '学習コース';
@@ -327,8 +327,8 @@ $string['scormtype'] = 'タイプ';
 $string['scormtype_help'] = 'ここではパッケージがどのようにコースに含まれるか設定します。以下4つのオプションがあります:
 
 * アップロード済みパッケージ - SCORMパッケージをファイルピッカで選択できるようにします。
-* 外部SCORMマニフェスト - imsmanifest.xmlのURLを指定できるようにします。注意: URLがあなたのサイトと異なるドメインの場合、評定が保存されないため、「ダウンロード済みパッケージ」を選択することをお勧めします。
-* ダウンロード済みパッケージ - パッケージのURLを指定できるようにします。パッケージは展開され、ローカルに保存されます。また、外部SCORMパッケージが更新された場合、ローカルに保存されたパッケージも更新されます。
+* 外部SCORMマニフェスト - imsmanifest.xmlのURLを指定できるようにします。注意: URLがあなたのサイトと異なるドメインの場合、評定が保存されないため「ダウンロード済みパッケージ」を選択することをお勧めします。
+* ダウンロード済みパッケージ - パッケージのURLを指定できるようにします。パッケージが展開されてローカルに保存されます。外部SCORMパッケージが更新された場合、ローカルに保存されたパッケージも更新されます。
 * 外部AICC URL - このURLは単一のAICC活動起動用URLです。この周りに擬似パッケージが構築されます。';
 $string['scorm:viewreport'] = 'レポートを表示する';
 $string['scorm:viewscores'] = '評点を表示する';
@@ -338,12 +338,12 @@ $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
 $string['show'] = '表示';
 $string['sided'] = 'サイド';
-$string['skipview'] = '学生によるコンテンツ構造ページスキップ';
+$string['skipview'] = '学生によるコンテンツ構造ページのスキップ';
 $string['skipviewdesc'] = 'このプリファレンスではページに対するコンテンツ構造のスキップタイミングに関するデフォルトを設定します。';
 $string['skipview_help'] = 'この設定ではコンテンツ構造ページをスキップ (非表示) するかどうか指定します。パッケージが学習オブジェクトのみ含む場合、コンテンツ構造ページは常にスキップされます。';
 $string['slashargs'] = '警告: このサイトではスラッシュ引数が無効にされています。期待されたとおりにオブジェクトが動作しない場合があります!';
 $string['stagesize'] = 'ステージサイズ';
-$string['stagesize_help'] = 'これら2つの設定では学習オブジェクトフレーム/ウィンドウの高さおよび幅を定義します。';
+$string['stagesize_help'] = 'これら2つの設定では学習オブジェクトのフレーム/ウィンドウの高さおよび幅を定義します。';
 $string['started'] = '開始日時';
 $string['status'] = 'ステータス';
 $string['statusbar'] = 'ステータスバーを表示する';
@@ -363,24 +363,24 @@ $string['totaltime'] = '時間';
 $string['trackcorrectcount'] = '正解数';
 $string['trackcorrectcount_help'] = '問題の正解数';
 $string['trackid'] = 'ID';
-$string['trackid_help'] = 'この問題に関して、あなたのSCORMパッケージに設定されたIDです。SCORM仕様では完全な問題テキストの提供は許可されていません。';
+$string['trackid_help'] = 'これはこの問題に関してあなたのSCORMパッケージに設定されたIDです。SCORM仕様では完全な問題テキストの提供は許可されていません。';
 $string['trackingloose'] = '警告: このパッケージのトラッキングデータは消滅します!';
 $string['tracklatency'] = '待ち時間';
 $string['tracklatency_help'] = 'インタクラクション間の経過時間は学習者のレスポンスおよび初回レスポンス時間に利用できます。';
 $string['trackpattern'] = 'パターン';
-$string['trackpattern_help'] = 'この問題に対する正しい解答です。学習者のレスポンスは表示されません。';
+$string['trackpattern_help'] = 'この問題の正しい解答です。学習者のレスポンスは表示されません。';
 $string['trackresponse'] = 'レスポンス';
 $string['trackresponse_help'] = 'この問題に対する学習者のレスポンスです。';
 $string['trackresult'] = '結果';
 $string['trackresult_help'] = '学習者が正解を入力した場合に表示します。';
 $string['trackscoremax'] = '最大評点';
-$string['trackscoremax_help'] = '素点の範囲の最大値';
+$string['trackscoremax_help'] = '素点に割り当てることのできる最大値';
 $string['trackscoremin'] = '最小評点';
-$string['trackscoremin_help'] = '素点の範囲の最小値';
+$string['trackscoremin_help'] = '素点に割り当てることのできる最小値';
 $string['trackscoreraw'] = '素点';
 $string['trackscoreraw_help'] = '学習者のパフォーマンスを反映する値です。最大値および最小値の範囲に制限されます。';
 $string['tracksuspenddata'] = '保留データ';
-$string['tracksuspenddata_help'] = '学習者のセッション間において、データを保存および検索するためのスペースを提供します。';
+$string['tracksuspenddata_help'] = '学習者のセッション間においてデータを保存および検索するためのスペースを提供します。';
 $string['tracktime'] = '時間';
 $string['tracktime_help'] = '受験開始時間';
 $string['tracktype'] = 'タイプ';
@@ -396,13 +396,13 @@ $string['undercontent'] = 'コンテンツの下';
 $string['unziperror'] = 'パッケージの展開処理中にエラーが発生しました。';
 $string['updatefreq'] = '自動更新頻度';
 $string['updatefreqdesc'] = 'このプリファレンスでは活動に対するデフォルトの自動更新頻度を設定します。';
-$string['updatefreq_error'] = 'パッケージファイルが外部に置かれている場合のみ、自動更新頻度を設定することができます。';
+$string['updatefreq_error'] = 'パッケージファイルが外部に置かれている場合のみ自動更新頻度を設定することができます。';
 $string['updatefreq_help'] = 'これにより外部パッケージを自動的にダウンロードおよび更新することができます。';
 $string['validateascorm'] = 'パッケージを確認する';
 $string['validation'] = '妥当性確認結果';
 $string['validationtype'] = 'このプリファレンスではSCORMマニフェストファイルを確認するDOMXMLライブラリを設定します。あなたが分からない場合、このままにしてください。';
 $string['value'] = '値';
-$string['versionwarning'] = 'マニフェストファイルのバージョンが1.3より古いため、{$a->tag} タグに警告があります。';
+$string['versionwarning'] = 'マニフェストファイルのバージョンが1.3より古いため {$a->tag} タグに警告があります。';
 $string['viewallreports'] = '{$a} 件の受験レポートを表示する';
 $string['viewalluserreports'] = '{$a} 件のユーザレポートを表示する';
 $string['whatgrade'] = '複数回受験時の評点';
@@ -412,7 +412,7 @@ $string['whatgrade_help'] = '複数回の受験を許可した場合、ここで
 複数受験の処理に関するメモ:
 
 * 新しい受験を開始するオプションはコース構造ページ内の「Enter」ボタンの上にチェックボックスとして提供されます。あなたが2回以上の受験を許可したい場合、このページにユーザがアクセスできることを確認してください。
-* 他とは異なり、SCORMパッケージは新しい受験に関して洗練されています。学習者が既存の受験に再度入った場合、SCORMコンテンツに上書きを禁止する内部ロジックがないとしても、また受験が「完了」または「合格」にされていたとしても、上書きすることができます。
+* 他とは異なりSCORMパッケージは新しい受験に関して洗練されています。学習者が既存の受験に再度入った場合、SCORMコンテンツに上書きを禁止する内部ロジックがないとしても、また受験が「完了」または「合格」にされていたとしても、上書きすることができます。
 * 「完了を強制する」「新しい受験を強制する」「最終受験後、ロックする」設定もさらに複数の受験の管理を提供します。';
 $string['width'] = '幅';
 $string['window'] = 'ウィンドウ';

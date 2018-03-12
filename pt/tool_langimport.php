@@ -48,5 +48,5 @@ $string['purgestringcaches'] = 'Limpar caches das strings';
 $string['remotelangnotavailable'] = 'O Moodle não consegue ligar a download.moodle.org e, por isso, não é possível fazer a instalação automática do pacote linguístico. Descarregue o ficheiro ZIP a partir de <a href="https://download.moodle.org/langpack/">download.moodle.org/langpack</a> copie-o para a diretoria {$a} e descompacte-o manualmente.';
 $string['selectlangs'] = 'Selecione os pacotes linguísticos a desinstalar';
 $string['uninstall'] = 'Desinstalar o(s) pacote(s) linguístico(s) selecionado(s)';
-$string['uninstallconfirm'] = 'Está prestes a desinstalar completamente o(s) pacote(s) linguístico(s) {$a}, tem a certeza?';
+$string['uninstallconfirm'] = 'Está prestes a desinstalar completamente o(s) pacote(s) linguístico(s): {$a}. Tem a certeza?';
 $string['updatelangs'] = 'Atualizar todos os pacotes linguísticos instalados';

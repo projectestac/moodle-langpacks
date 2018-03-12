@@ -25,10 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['actions'] = 'Ενέργειες';
 $string['enabled'] = 'Ενεργοποιημένο';
 $string['title'] = 'Τίτλος';
 $string['tour1_title_customisation'] = 'Προσαρμογή';
 $string['tour1_title_welcome'] = 'Καλώς ήρθατε';
 $string['tour2_title_addblock'] = 'Προσθήκη μπλοκ';
 $string['tour2_title_customisation'] = 'Προσαρμογή';
+$string['tour2_title_participants'] = 'Συμμετέχοντες μαθήματος';
 $string['tour2_title_welcome'] = 'Καλώς ήρθατε';

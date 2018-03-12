@@ -29,6 +29,7 @@ $string['addtodock'] = 'Minimitza a la barra lateral';
 $string['anypagematchingtheabove'] = 'Qualsevol pàgina que concordi amb l\'anterior';
 $string['appearsinsubcontexts'] = 'Apareix en subcontextos';
 $string['assignrolesinblock'] = 'Assigna rols al bloc {$a}';
+$string['blocksdrawertoggle'] = 'Amaga/mostra el calaix de blocs';
 $string['blocksettings'] = 'Paràmetres de bloc';
 $string['bracketfirst'] = '{$a} (primera)';
 $string['bracketlast'] = '{$a} (darrera)';

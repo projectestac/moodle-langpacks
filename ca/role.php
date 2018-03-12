@@ -395,6 +395,7 @@ $string['site:doanything'] = 'Tot permès';
 $string['site:doclinks'] = 'Mostrar enllaços a documents fora del lloc';
 $string['site:forcelanguage'] = 'Canviar l\'idioma del curs';
 $string['site:import'] = 'Importar altres cursos en un curs';
+$string['site:manageallmessaging'] = 'Afegeix, elimina, bloqueja i desbloqueja contactes per a qualsevol usuari';
 $string['site:manageblocks'] = 'Gestionar blocs en una pàgina';
 $string['site:mnetloginfromremote'] = 'Inicia la sessió des d\'una aplicació remota via MNet';
 $string['site:mnetlogintoremote'] = 'Derivar a una aplicació remota via MNet';

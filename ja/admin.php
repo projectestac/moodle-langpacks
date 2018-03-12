@@ -68,7 +68,7 @@ $string['appearance'] = 'アピアランス';
 $string['aspellpath'] = 'aspellのパス';
 $string['authentication'] = '認証';
 $string['authpreventaccountcreation'] = 'ユーザ認証時のアカウント作成を抑制する';
-$string['authpreventaccountcreation_help'] = 'ユーザ認証時、まだユーザアカウントが存在しない場合は自動的に作成されます。LDAPのような外部データベースを認証に使用して、あなたが存在するアカウントにのみサイトアクセスを制限したい場合、このオプションを有効にしてください。新しいアカウントは手動で作成するか、ユーザアップロード機能を使用して作成する必要があります。この設定はMNet認証には適用されないことに留意してください。';
+$string['authpreventaccountcreation_help'] = 'ユーザ認証時、まだユーザアカウントが存在しない場合は自動的に作成されます。LDAPのような外部データベースを認証に使用して、あなたが存在するアカウントにのみサイトアクセスを制限したい場合、このオプションを有効にしてください。新しいアカウントは手動で作成するかユーザアップロード機能を使用して作成する必要があります。この設定はMNet認証には適用されないことに留意してください。';
 $string['authsettings'] = '認証管理';
 $string['autolang'] = '言語の自動認識';
 $string['autologinguests'] = 'ゲストの自動ログイン';
@@ -144,16 +144,16 @@ $string['computedfromlogs'] = '{$a} 以降のログより計算しています�
 $string['condifmodeditdefaults'] = 'デフォルト値は新しい活動またはリソースの作成時に設定フォームで使用されます。';
 $string['confeditorhidebuttons'] = 'HTMLエディタ内で隠すボタンを選択してください。';
 $string['configallcountrycodes'] = '例えばユーザプロファイルのように、これは多くの場所で選択することのできる国リストです。空白にした場合 (デフォルト)、標準英語言語パックのcountries.php内リストが使用されます。このリストはISO 3166-1から作成されています。そうでない場合、例えば「JA,GB,FR,ES」 のように、カンマ区切りのコードのリストを記述することができます。あなたが新しい非標準コードをここに入力した場合、「en」内のcontries.phpおよびあなたの言語パックに追加する必要があります。';
-$string['configallowassign'] = 'あなたは左側に表示されているロールのユーザにいくつかのカラムのロールを他のユーザに割り当てることができるようにします。';
+$string['configallowassign'] = 'あなたは左側のロールを持つ人が他の人にカラムのロールを割り当てることを許可できます。';
 $string['configallowattachments'] = 'この設定を有効にした場合、サイトから送信されるメールにバッジ等を添付することができるようになります。';
 $string['configallowblockstodock'] = 'この設定を有効にした場合、そして選択されたテーマによりサポートされている場合、ユーザはブロックを特別ドックに移動することができます。';
 $string['configallowcategorythemes'] = 'この設定を有効にした場合、カテゴリに独自のテーマを設定することができます。独自テーマが設定されていない限り、これはすべての子カテゴリおよびコースに影響を及ぼします。警告: カテゴリテーマを有効にした場合、パフォーマンスに影響を及ぼします。';
 $string['configallowcoursethemes'] = 'この設定を有効にした場合、コースに独自テーマを設定することができます。コーステーマは他のすべてのテーマ (サイト、ユーザまたはセッションテーマ) をオーバーライドします。';
 $string['configallowedemaildomains'] = '送信メールの「From」セクションで公開を許可するメールドメインの一覧です。デフォルトの「空」では送信メールすべてにno-replyアドレスを使用します。ワイルドカードの使用は許可されます。例えば「*.example.com」では「example.com」のすべてのサブドメインからメール送信を許可しますが、「example.com」自体からは許可しません。この場合、別々のエントリを必要とします。';
-$string['configallowemailaddresses'] = '新しいメールアドレスすべてを特定のドメインにのみ制限したい場合、ここにスペースで区切って入力してください。他のドメインはすべて拒否されます。サブドメインを許可するには先頭に「.」を付けたドメインを入力してください。例 <strong>ourcollege.edu.au .gov.au</strong>';
+$string['configallowemailaddresses'] = '新しいメールアドレスすべてを特定のドメインのみに制限したい場合、ここにスペースで区切って入力してください。他のドメインはすべて拒否されます。サブドメインを許可する場合、先頭に「.」を付けたドメインを入力してください。サブドメインと一緒にルートドメインも許可する場合、先頭に「.」を付けたドメイン、先頭に「.」を付けないドメインの2つを入力してください。例) .ourcollege.edu.au ourcollege.edu.au';
 $string['configallowguestmymoodle'] = 'この設定を有効にした場合、ゲストがダッシュボードにアクセスできるようになります。そうでない場合、ゲストはサイトフロントページにリダイレクトされます。';
 $string['configallowobjectembed'] = 'デフォルトのセキュリティ対策として、通常のユーザはマルチメディア (Flash等) をEMBEDおよびOBJECTタグでHTML内に埋め込むことは許可されていません (メディアプラグインフィルタを使用して安全に埋め込むことは可能です)。これらのタグの使用を許可したい場合、このオプションを有効にしてください。';
-$string['configallowoverride'] = 'あなたは左側に表示されているロールのユーザにいくつかのカラムのロールをオーバーライドできるようにすることができます。';
+$string['configallowoverride'] = 'あなたは左側のロールを持つ人が他の人にカラムのロールをオーバーライドすることを許可できます。';
 $string['configallowoverride2'] = '左側カラム内のロールでオーバライドできるロールを選択してください。<br />これらの設定はケイパビリティ「moodle/role:override」または「moodle/role:safeoverride」を持つユーザにのみ適用されることに留意してください。';
 $string['configallowswitch'] = 'ユーザが持つロールをベースに、どのロールにスイッチできるか選択してください。このテーブルのエントリに加えてロールをスイッチできるようにするにはユーザが「moodle/role:switchroles」ケイパビリティを持つ必要があります。<br />「moodle/course:vie」wケイパビリティを持ち、「moodle/site:doanything」ケイパビリティを持たないロールにのみスイッチすることができるため、このテーブルのいくつかのカラムは無効にされていることに留意してください。';
 $string['configallowthemechangeonurl'] = 'この設定を有効にした場合、MoodleのURLに下記いずれかを追加することにより、テーマを変更することができます。
@@ -169,7 +169,7 @@ $string['configallusersaresitestudents'] = 'サイトフロントページにあ
 $string['configauthenticationplugins'] = 'あなたが使用したい認証プラグインを選択して、フェイルスルーの順に並べ替えてください。';
 $string['configautolang'] = 'ブラウザの設定からデフォルト言語を認識します。この設定を有効にしない場合、サイトデフォルトが使用されます。';
 $string['configautologinguests'] = '利用者がコースにゲストアクセスした場合、自動的にゲストとしてログインさせますか?';
-$string['configbloglevel'] = 'ここではどのユーザブログをこのサイトで閲覧できるか、アクセスレベルを制限することができます。ここで設定するのは閲覧者に関する最大コンテクストであり、投稿者またはブログ記事のタイプではないことに注意してください。不要な場合、ブログを完全に無効にすることもできます。';
+$string['configbloglevel'] = 'ここではどのユーザブログをこのサイトで閲覧できるかアクセスレベルを制限することができます。ここで設定するのは閲覧者に関する最大コンテクストであり投稿者またはブログ記事のタイプではないことに注意してください。不要な場合、ブログを完全に無効にすることもできます。';
 $string['configcalendarcustomexport'] = 'カレンダーのカスタム日付幅エクスポートを有効にする';
 $string['configcalendarexportsalt'] = 'このランダムテキストはカレンダーのエクスポート時に使用される認証トークンのセキュリティを改善するため使用されます。あなたがこのハッシュsaltを変更した場合、現在のトークンすべてが無効にされることに留意してください。';
 $string['configcookiehttponly'] = 'PHP 5.2.0の新しい機能を有効にする - ブラウザは実httpからのリクエスに対してのみクッキーを送信するよう指示されるため、スクリプト言語からクッキーにアクセスできないようになります。この機能はすべてのブラウザでサポートされているわけではありません。また、現在のコードと完全な互換性はありません。いくつかのタイプのXSSアタックを防ぐためには有用です。';
@@ -218,7 +218,7 @@ $string['configdisableuserimages'] = 'ユーザがユーザプロファイルイ
 $string['configdisplayloginfailures'] = 'ここで選択したユーザに前回のログイン失敗情報を表示します。';
 $string['configdndallowtextandlinks'] = 'この設定を有効にした場合、コースへのテキスト、リンクおよびファイルのドラッグ＆ドロップを有効にします。Firefoxへのテキストのドラッグ、または異なるブラウザ間でのテキストのドラッグは信頼性に欠けます。結果として、データがアップロードされない、または文字化けしたテキストがアップロードされる可能性があることに留意してください。';
 $string['configdoclang'] = 'この言語がドキュメンテーションページのリンクに使用されます。';
-$string['configdocroot'] = 'それぞれのページのフッタに表示される「このページのMoodle Docs」に関して、文脈固有のMoodle Docsのパスを定義してください。このフィールドが空白のままにされた場合、リンクは表示されません。';
+$string['configdocroot'] = 'それぞれのページのフッタに表示される「このページのMoodle Docs」に関して文脈固有のMoodle Docsのパスを定義してください。このフィールドが空白のままにされた場合、リンクは表示されません。';
 $string['configdoctonewwindow'] = 'この設定を有効にした場合、新しいウィンドウにMoodle Docsの内容が表示されます。';
 $string['configeditordictionary'] = 'この値はAspellがユーザ言語の辞書を持っていない場合に使用されます。';
 $string['configeditorfontlist'] = 'エディタのドロップダウンリストに表示されるフォントを選択してください。';
@@ -234,7 +234,7 @@ $string['configenablemobilewebservice'] = '公式Moodle appまたは他のappが
 $string['configenablerssfeeds'] = 'このオプションを有効にした場合、ブログ、フォーラム、データベース活動および用語集を含むサイト全体の様々な機能によってRSSフィードが生成されます。特定のモジュールでRSSフィードを有効にする必要があることに留意してください。';
 $string['configenablerssfeedsdisabled'] = 'サイトすべてにおいてRSSフィードが無効にされているため、利用できません。管理設定内の詳細設定でRSSフィードを利用可にすることができます。';
 $string['configenablerssfeedsdisabled2'] = 'RSSフィードはサーバレベルで無効にされています。あなたは最初に「サーバ > RSS」でRSSを有効にする必要があります。';
-$string['configenablesafebrowserintegration'] = 'この設定を有効にした場合、小テスト設定の「ブラウザセキュリティ」フィールドに「Safe Exam Browserの使用を必要とする」を追加します。詳細は、http://www.safeexambrowser.org/ をご覧ください。';
+$string['configenablesafebrowserintegration'] = 'この設定を有効にした場合、小テスト設定の「ブラウザセキュリティ」フィールドに「Safe Exam Browserの使用を必要とする」を追加します。詳細はhttp://www.safeexambrowser.org/をご覧ください。';
 $string['configenablestats'] = 'この設定を有効にした場合、Moodleのcronジョブがログを処理して統計情報を集めます。あなたのサイトのトラフィックにより時間を要する場合があります。このオプションを有効にした場合、あなたのそれぞれのコースまたはサイト全体に関して興味深いグラフおよび統計データを閲覧することができます。';
 $string['configenabletrusttext'] = 'デフォルトではMoodleは常にユーザによりアップロードされたセキュリティ上のリスクのある悪意を持ったスクリプト、メディア等をテキストを完全にクリーニングします。コンテンツ信頼システムでは特定のユーザによるコンテンツに対して、干渉しない拡張機能を適用することができます。このシステムを動作させるには最初にこの設定を有効にした後、個別のMoodleロールにコンテンツ信頼パーミッションを与える必要があります。このようなユーザにより作成またはアップロードされたテキストには信頼されている旨のマークが付けられ、表示前にクリーニングされることはありません。';
 $string['configenablewebservices'] = 'ウェブサービスでは他のシステムがこのMoodleにログインして操作できるようにします。セキュリティのため、あなたが本当に使用したい場合以外、この機能を無効にしてください。';
@@ -260,7 +260,7 @@ $string['configfullnamedisplay'] = 'ここでは氏名がどのように表示�
 firstname, lastname, firstnamephonetic, lastnamephonetic, middlename, alternatename';
 $string['configgeoipfile'] = 'GeoLite2 City バイナリデータファイルのロケーションです。このファイルはMoodleディストリビューションの一部ではなく、<a href="http://www.maxmind.com/">MaxMind</a>から個別に取得する必要があります。あなたは商用バージョンを購入、または無料バージョンを使用することができます。無料バージョンの場合、<a href="http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz" >http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz</a>からダウンロードした後、あなたのサーバの「 {$a} 」ディレクトリに展開してください。';
 $string['configgetremoteaddrconf'] = 'リバースプロキシの背後にサーバを設置している場合、あなたはリモートIPアドレスを含んだ信頼できるHTTPヘッダを指定することができます。ヘッダは順番に読まれ最初の有効なヘッダが使用されます。';
-$string['configgradebookroles'] = 'ここでは誰が評定表に表示されるか設定することができます。ユーザがコース評定表で表示されるためには、これらの中から少なくとも１つのロールを割り当ててください。';
+$string['configgradebookroles'] = 'ここでは誰が評定表に表示されるか設定することができます。ユーザがコース評定表で表示されるためにはこれらの中から少なくとも１つのロールを割り当ててください。';
 $string['configgradeexport'] = 'どの評定表エクスポートフォーマットをあなたの主要な評定表エクスポート方法にするか選択してください。選択されたフォーマットのプラグインが設定され、すべての評定の「最新エクスポート」フィールドに使用されます。例えばエクスポートされたレコードは「新規」または「更新」レコードとして認識されます。この設定に関して自信を持てない場合、すべてをチェックしないままにしてください。';
 $string['confighiddenuserfields'] = 'あなたがコース教師/管理者以外のユーザに隠したいユーザ情報フィールドを選択してください。この設定により、ユーザのプライバシーを強化することができます。複数フィールドを選択するにはCTRLキーを押したままにしてください。';
 $string['configidnumber'] = 'このオプションでは次の内容を設定します。(a)ユーザがユーザIDの入力を求められない、(b)ユーザがユーザIDを空白にすることができる、(c)ユーザはユーザIDの入力を求められ、空白にできない。ユーザIDが入力された場合、ユーザのプロファイルに表示されます。';
@@ -312,7 +312,7 @@ $string['configpathtodu'] = 'duのパスを指定してください。恐らく�
 $string['configperfdebug'] = 'この設定を有効にした場合、パフォーマンス情報がスタンダードテーマのフッタに表示されます。';
 $string['configprofileroles'] = 'ユーザプロファイルおよび参加者ページで閲覧可能なロールの一覧です。';
 $string['configprofilesforenrolledusersonly'] = 'スパム送信者による乱用を避けるため、コースに登録されていないユーザに関するプロファイルの自己紹介欄が非表示にされます。プロファイルの自己紹介欄にコンテンツを追加するには新しいユーザは少なくとも1つのコースに登録する必要があります。';
-$string['configprotectusernames'] = 'デフォルトでは、forget_password.phpはユーザ名またはメールアドレスを推測できるヒントを表示しません。';
+$string['configprotectusernames'] = 'デフォルトではforget_password.phpはユーザ名またはメールアドレスを推測できるヒントを表示しません。';
 $string['configproxybypass'] = 'プロキシをバイパスするホスト名 (一部) またはIPアドレスのカンマ区切り一覧です (例 192.168., .mydomain.com)。';
 $string['configproxyhost'] = '<b>サーバ</b>のインターネットアクセスにプロキシ (例 ファイアーウォール) が必要な場合、プロキシのホスト名を入力してください。必要でない場合、空白にしてください。';
 $string['configproxypassword'] = 'プロキシ経由でインターネットにアクセスする必要がある場合、パスワードを入力してください。必要でない場合、空白にしてください (PHP cURL拡張モジュールが必要です)。';
@@ -340,7 +340,7 @@ $string['configsecureforms'] = 'フォームデータを受け入れる場合、
 $string['configsessioncookie'] = 'ここではMoodleセッションで使用されるクッキーの名称をカスタマイズします。2つ以上のMoodleが同じウェブサイトで稼動している場合、クッキーが混乱するのを防ぐためだけに、この設定を任意でお使いください。';
 $string['configsessioncookiedomain'] = 'ここではMoodleクッキーが利用できるドメインを変更します。これは別のサブドメインのウェブアプリケーションとMoodleセッションを共有する必要のある、特別なMoodle (例 認証または登録プラグイン) に有用です。<strong>警告: この設定をデフォルト (空) のままにすることを強くお勧めします - 正しくない値を設定することで、すべてのユーザがサイトにログインできなくなります。</strong>';
 $string['configsessioncookiepath'] = 'ブラウザが送信するMoodleクッキーの場所を変更したい場合、ここでウェブサイトのサブディレクトリを指定することができます。変更しない場合、デフォルトの「/」を使用してください。';
-$string['configsessiontimeout'] = 'このサイトにログインして長時間何もしない (ページを読み込まない) 場合、ユーザを自動的にログアウト (セッション終了) させます。この変数には、ログアウトさせるまでの時間を設定します。';
+$string['configsessiontimeout'] = 'このサイトにログインして長時間何もしない (ページを読み込まない) 場合、ユーザを自動的にログアウト (セッション終了) させます。この変数にはログアウトさせるまでの時間を設定します。';
 $string['configshowcommentscount'] = 'コメント総数を表示します。コメントリンクの表示時にさらに1つのクエリ実行による負荷がかかります。';
 $string['configshowicalsource'] = 'iCalイベントのソース情報を表示する';
 $string['configshowsiteparticipantslist'] = 'サイトすべての学生および教師がサイト参加者リストに表示されます。誰がこのサイト参加者リストを閲覧することができますか?';
@@ -390,7 +390,7 @@ $string['cookiehttponly'] = 'HTTPクッキーのみ';
 $string['cookiesecure'] = 'セキュアクッキーのみ';
 $string['country'] = 'デフォルトの国';
 $string['coursecontact'] = 'コース連絡先';
-$string['coursecontact_desc'] = 'ここでは誰がコース説明に表示されるか設定することができます。ユーザがコース説明に表示されるためには、これらの中から少なくとも１つのコースロールを割り当てる必要があります。';
+$string['coursecontact_desc'] = 'ここでは誰がコース説明に表示されるか設定することができます。ユーザがコース説明に表示されるためにはこれらの中から少なくとも１つのコースロールを割り当てる必要があります。';
 $string['courselistshortnames'] = '拡張コース名をを表示する';
 $string['courselistshortnames_desc'] = 'この設定を有効にした場合、コース一覧においてコースフルネームに加えてコース省略名が表示されます。必要であれば、言語カスタマイゼーション機能を使用して「courseextendednamedisplay」言語ストリングを編集することで、拡張コース名をカスタマイズすることができます。';
 $string['coursemgmt'] = 'コースおよびカテゴリを管理する';
@@ -599,10 +599,10 @@ $string['groupenrolmentkeypolicy_desc'] = 'この設定を有効にすること�
 $string['guestroleid'] = 'ゲストのロール';
 $string['guestroleid_help'] = 'このロールは自動的にゲストユーザに割り当てられます。また、パスワードなしで受講できるコースにゲスト登録プラグイン経由で入ったユーザに対しても一時的に割り当てられます。';
 $string['helpadminseesall'] = '管理者はカレンダーイベントすべてを閲覧または自分自身のイベントとすることができますか?';
-$string['helpcalendarcustomexport'] = 'カレンダーエクスポートに関して、カスタム日付幅エクスポートを有効にします。この設定を動作させるには、カレンダーエクスポートを有効にする必要があります。';
+$string['helpcalendarcustomexport'] = 'カレンダーエクスポートに関して、カスタム日付幅エクスポートを有効にします。この設定を動作させるにはカレンダーエクスポートを有効にする必要があります。';
 $string['helpexportlookahead'] = 'カスタムエクスポートオプションによるエクスポート中、イベントに関して、カレンダーは将来の日数を何日考慮しますか?';
 $string['helpexportlookback'] = 'カスタムエクスポートオプションによるエクスポート中、イベントに関して、カレンダーは過去の日数を何日考慮しますか?';
-$string['helpforcetimezone'] = 'あなたはユーザに独自のタイムゾーンを選択させることができます。または、すべてのユーザに対してタイムゾーンを強制します。';
+$string['helpforcetimezone'] = 'あなたはユーザに独自のタイムゾーンを選択させることができます。またはすべてのユーザに対してタイムゾーンを強制します。';
 $string['helpshowicalsource'] = 'この設定を有効にした場合、iCalインポートイベントのiCal購読名およびリンクが表示されます。';
 $string['helpsitemaintenance'] = 'アップグレードやその他の作業時に使用します。';
 $string['helpstartofweek'] = '何曜日をカレンダーの週の始めとしますか?';
@@ -624,8 +624,8 @@ $string['ignore'] = '無視';
 $string['includemoduleuserdata'] = 'モジュールユーザデータを含む';
 $string['incompatibleblocks'] = '互換性がないブロック';
 $string['incompleteunicodesupport'] = '現在のMySQLまたはMariaDBの設定では「utf8」を使用しています。この文字セットは絵文字を含む4バイト文字をサポートしていません。これらの文字を使用した場合、結果としてレコードのアップデート時にエラーが発生してデータベースに送信されるデータが失われてしまいます。あなたの設定を「utf8mb4」に変更することをお考えください。詳細はドキュメンテーションをご覧ください。';
-$string['indexdata'] = 'データをインデックスする';
-$string['indexinginfo'] = 'あなたのサイトコンテンツをインデックス化するための推奨方法は「グローバルサーチインデックス」スケジュールタスクを使用することです。';
+$string['indexdata'] = 'データをインデックス化する';
+$string['indexinginfo'] = 'あなたのサイトコンテンツをインデックス化するための推奨方法は「グローバル検索インデックス化」スケジュールタスクを使用することです。';
 $string['installhijacked'] = '申し訳ございません、インストールはオリジナルのIPアドレスから完了する必要があります。';
 $string['installsessionerror'] = 'PHPセッションを初期化できません、あなたのブラウザがクッキーを受け付けるかどうか確認してください。';
 $string['intlrecommended'] = 'intl拡張モジュールの使用はロケールに関するソート等の国際化サポートを改善します。';
@@ -675,7 +675,7 @@ $string['lockoutemailbody'] = 'サーバ「 {$a->sitename} 」内のあなたの
 
 {$a->link}
 
-ほとんどのメールプログラムでは、あなたがクリックできる青いリンクとして表示されているはずです。クリックできない場合、あなたのウェブブラウザウィンドウのアドレス欄にアドレスをコピー＆ペーストしてください。
+ほとんどのメールプログラムではあなたがクリックできる青いリンクとして表示されているはずです。クリックできない場合、あなたのウェブブラウザウィンドウのアドレス欄にアドレスをコピー＆ペーストしてください。
 
 分からない場合、サイト管理者 ( {$a->admin}) にご連絡ください。';
 $string['lockoutemailsubject'] = '{$a} のあなたのアカウントはロックアウトされました。';
@@ -755,7 +755,7 @@ $string['misc'] = 'その他';
 $string['mnetrestore_extusers'] = '<strong>注意:</strong> このバックアップファイルは処理中にリストアされるMoodleネットワークユーザアカウントを含んでいます。';
 $string['mnetrestore_extusers_admin'] = '<strong>注意:</strong> このバックアップファイルは他のMoodleで作成され、Moodleネットワークユーザアカウントを含んでるようです。リストア処理ではすべての作成済みユーザにMoodleネットワークホストでのマッチングを試みます。合致しないユーザは (mnet認証の代わりに) 自動的に内部認証へ切り替えられます。あなたはこの処理に関する情報をリストアログで閲覧することができます。';
 $string['mnetrestore_extusers_mismatch'] = '<strong>注意:</strong> このバックアップファイルは他のMoodleで作成され、リストアできないMoodleネットワークユーザアカウントを含んでいます。この処理はサポートされていません。バックアップファイルがこのMoodleでバックアップされたこと、または必要なすべてのMoodleネットワークホストが設定されていることをあなたが保証できる場合のみ、リストアを試みてください。';
-$string['mnetrestore_extusers_noadmin'] = '<strong>注意:</strong> このバックアップファイルは他のMoodleで作成され、Moodleネットワークユーザアカウントを含んでいます。あなたはこのタイプのリストア処理の実行を許可されていません。サイト管理者に連絡するか、代わりにこのコースをユーザ情報なし (モジュール、ファイル ...) でリストアしてください。';
+$string['mnetrestore_extusers_noadmin'] = '<strong>注意:</strong> このバックアップファイルは他のMoodleで作成されMoodleネットワークユーザアカウントを含んでいます。あなたはこのタイプのリストア処理の実行を許可されていません。サイト管理者に連絡するか代わりにこのコースをユーザ情報なし (モジュール、ファイル ...) でリストアしてください。';
 $string['mnetrestore_extusers_switchuserauth'] = 'リモートMoodleネットワークユーザ {$a->username} ({$a->mnethosturl}) がローカル {$a->auth} 認証済みユーザに切り替えられました。';
 $string['mobile'] = 'モバイル';
 $string['modchooserdefault'] = '活動チューザデフォルト';
@@ -820,7 +820,7 @@ $string['order3'] = '3番目';
 $string['order4'] = '4番目';
 $string['outgoingmailconfig'] = '送信メール設定';
 $string['passwordchangelogout'] = 'パスワード変更後、ログアウトする';
-$string['passwordchangelogout_desc'] = 'この設定を有効にした場合、新しいパスワードの設定を除いて、パスワード変更後にすべてのブラウザセッションが終了されます (この設定はバルクユーザアップロードのパスワード変更には影響しません)。';
+$string['passwordchangelogout_desc'] = 'この設定を有効にした場合、新しいパスワードの設定を除いてパスワード変更後にすべてのブラウザセッションが終了されます (この設定はバルクユーザアップロードのパスワード変更には影響しません)。';
 $string['passwordchangetokendeletion'] = 'パスワード変更後、ウェブサービスアクセストークンを削除する';
 $string['passwordchangetokendeletion_desc'] = 'この設定を有効にした場合、パスワード変更後、すべてのユーザウェブサービスアクセストークンが削除されます。';
 $string['passwordpolicy'] = 'パスワードポリシー';
@@ -834,10 +834,10 @@ $string['pathtogs'] = 'Ghostscriptのパス';
 $string['pathtogs_help'] = 'ほとんどのLinuxインストールの場合、ここは「/usr/bin/gs」のままにしてください。Windowsでは「c:\\gs\\bin\\gswin32c.exe」のようになります (パスの間にスペースがないことを確認してください - 必要であれば、ファイル「gswin32c.exe」および「gsdll32.dll」をパス内にスペースを入れずに新しいフォルダにコピーしてください)。';
 $string['pathtopgdump'] = 'pg_dumpのパス';
 $string['pathtopgdumpdesc'] = 'あなたのシステムに2つ以上のpg_dumpが存在する場合 (例 1つ以上のバージョンのpostgresqlがインストールされている場合) のみ入力する必要があります。';
-$string['pathtopgdumpinvalid'] = 'pg_dumpのパスが正しくありません - パスが間違っているか、実行可能ではありません。';
+$string['pathtopgdumpinvalid'] = 'pg_dumpのパスが正しくありません - パスが間違っているか実行可能ではありません。';
 $string['pathtopsql'] = 'psqlのパス';
 $string['pathtopsqldesc'] = 'あなたのシステムに2つ以上のpsqlが存在する場合 (例 1つ以上のバージョンのpostgresqlがインストールされている場合) のみ入力する必要があります。';
-$string['pathtopsqlinvalid'] = 'psqlのパスが正しくありません - パスが間違っているか、実行可能ではありません。';
+$string['pathtopsqlinvalid'] = 'psqlのパスが正しくありません - パスが間違っているか実行可能ではありません。';
 $string['pathtounoconv'] = 'unoconvドキュメントコンバータのパス';
 $string['pathtounoconv_help'] = 'unoconvドキュメントコンバータのパスです。これはLibreOfficeによってサポートされるドキュメントフォーマット間を変換することのできる実行可能ファイルです。これは任意ですが設定した場合、Moodleはドキュメントフォーマット間を自動変換するために使用します。これは課題アノテーションPDF機能に関して幅広い入力ファイルをサポートするために使用されます。';
 $string['pcreunicodewarning'] = 'ユニコード文字への互換性のため、PCRE PHP拡張モジュールの使用を強くお勧めします。';
@@ -847,7 +847,7 @@ $string['pgcluster'] = 'PostgreSQLクラスタ';
 $string['pgclusterdescription'] = 'コマンドライン処理のためのPostgreSQLバージョン/クラスタパラメータです。あなたのシステムに1つのPostgreSQLのみある場合、またはこの設定が分からない場合、空白にしてください。';
 $string['phpfloatproblem'] = 'PHP浮動数の処理に予期しない問題が発見されました - {$a}';
 $string['pleaserefreshregistration'] = 'あなたのサイトが登録されました。登録は {$a} に更新されました。あなたの登録を「サイト登録」スケジュールタスクが最新状態に更新します。いつでもあなたの登録を手動更新することもできます。';
-$string['pleaserefreshregistrationunknown'] = 'あなたのサイトは登録されましたが、日付が不明です。あなたの登録を「登録を更新する」ボタンを使用して更新するか、あなたの登録を自動更新するよう「サイト登録」スケジュールタスクが有効にされているか確認してください。';
+$string['pleaserefreshregistrationunknown'] = 'あなたのサイトは登録されましたが、日付が不明です。あなたの登録を「登録を更新する」ボタンを使用して更新するかあなたの登録を自動更新するよう「サイト登録」スケジュールタスクが有効にされているか確認してください。';
 $string['plugin'] = 'プラグイン';
 $string['plugins'] = 'プラグイン';
 $string['pluginscheck'] = 'プラグイン依存関係チェック';
@@ -1011,7 +1011,7 @@ $string['selecttheme'] = '{$a} デバイスのテーマを選択する';
 $string['server'] = 'サーバ';
 $string['serverchecks'] = 'サーバチェック';
 $string['serverlimit'] = 'サーバリミット';
-$string['sessionautostartwarning'] = '<p>深刻な設定エラーが検出されました。サーバ管理者に通知してください。</p><p>Moodleを適切に動作させるためには、PHPの設定変更を必要とします。</p><p><code>session.auto_start</code>を<code>off</code>にしてください。</p><p>この設定は<code>php.ini</code>、 Apache/IIS設定またはサーバの<code>.htaccess</code>ファイルを使用して管理することができます。</p>';
+$string['sessionautostartwarning'] = '<p>深刻な設定エラーが検出されました。サーバ管理者に通知してください。</p><p>Moodleを適切に動作させるためにはPHPの設定変更を必要とします。</p><p><code>session.auto_start</code>を<code>off</code>にしてください。</p><p>この設定は<code>php.ini</code>、 Apache/IIS設定またはサーバの<code>.htaccess</code>ファイルを使用して管理することができます。</p>';
 $string['sessioncookie'] = 'クッキー接頭辞';
 $string['sessioncookiedomain'] = 'クッキードメイン';
 $string['sessioncookiepath'] = 'クッキーパス';
@@ -1101,7 +1101,7 @@ $string['taskdeleteincompleteusers'] = '不完全なユーザを削除する';
 $string['taskdeleteunconfirmedusers'] = '確認未了のユーザを削除する';
 $string['taskeventscron'] = 'イベントのバックグラウンド処理';
 $string['taskfiletrashcleanup'] = 'ゴミ箱のファイルを削除する';
-$string['taskglobalsearchindex'] = 'グローバル検索インデックス化処理';
+$string['taskglobalsearchindex'] = 'グローバル検索インデックス化';
 $string['taskglobalsearchoptimize'] = 'グローバル検索インデックス最適化';
 $string['taskgradecron'] = '評定表のバックグラウンド処理';
 $string['tasklegacycron'] = 'プラグインのレガシーcron処理';
@@ -1157,6 +1157,7 @@ $string['unsupporteddbstorageengine'] = '使用されているデータベース
 $string['unsupporteddbtablerowformat'] = 'あなたのデータベースはファイルフォーマットとしてAntelopeを使用しています。Barracudaファイルフォーマットへのテーブルコンバートをお勧めします。InnoDBテーブルのBarracudaへのコンバートツールに関して、詳細は<a href="https://docs.moodle.org/en/cli">コマンドラインによる管理</a>をご覧ください。';
 $string['unsupportedphpversion7'] = 'PHPバージョン7はサポートされていません。';
 $string['unsupportedphpversion71'] = 'PHPバージョン7.1はサポートされません。';
+$string['unsupportedphpversion72'] = 'PHPバージョン7.2はサポートされていません。';
 $string['unsuspenduser'] = 'ユーザアカウントを有効にする';
 $string['updateaccounts'] = '既存のアカウントを更新する';
 $string['updateautocheck'] = '利用可能な更新を自動チェックする';
@@ -1185,7 +1186,7 @@ $string['upgradeforumread'] = 'Moodle1.5にはフォーラムの既読/未読記
 $string['upgradeforumreadinfo'] = 'Moodle1.5ではフォーラムの既読/未読記事を追跡するための新しい機能が追加されました。この機能を有効にするには投稿内容の未読管理を含むテーブルをアップデートする必要があります。あなたのサイトのサイズにより、この作業には長時間かかる場合があります。また、データベースに非常に負荷がかかる可能性がありますので、閑散期のアップデート作業をお勧めします。このアップデート期間中も、あなたのサイトは動作し続け、ユーザは影響を受けません。この処理を開始した場合、 (ブラウザを開いたままにして) 処理を終わらせてください。ウィンドウを閉じて処理を終わらせてしまった場合でも心配しないでください。アップデート処理を再開することができます。<br /><br />本当に今からアップデート処理を始めてもよろしいですか?';
 $string['upgradekeyreq'] = 'アップグレードキー必須';
 $string['upgradekeyset'] = 'アップグレードキー (設定しない場合、空白にしてください)';
-$string['upgradelogs'] = '正常に動作させるためには、古いログのアップグレードが必要です。<a href="{$a}">詳細はこちら</a>';
+$string['upgradelogs'] = '正常に動作させるためには古いログのアップグレードが必要です。<a href="{$a}">詳細はこちら</a>';
 $string['upgradelogsinfo'] = 'ログの保存方法に変更点があります。あなた活動ベースの古いログを閲覧できるようにするには古いログをアップグレードする必要があります。サイトによってはアップグレード作業に長時間(例 数時間) を要し、規模が大きなサイトではデータベースに負荷がかかります。処理を開始した場合は終了するまでそのまま (ブラウザを開いたまま) にしてください。心配する必要はありません - ログが更新された後、あなたのサイトは正常に動作します。<br /><br />本当にログをアップグレードしてもよろしいですか?';
 $string['upgradepluginsfirst'] = '最初に利用可能な更新のインストールをお勧めします。';
 $string['upgradepluginsinfo'] = 'プラグインの更新';
@@ -1193,9 +1194,9 @@ $string['upgradepluginsinfo_help'] = 'あなたのプラグインに関して、
 $string['upgradesettings'] = '新しい設定';
 $string['upgradesettingsintro'] = '以下に表示されている設定はあなたの直近のMoodleアップグレードで追加されました。必要に応じて変更内容をデフォルトに設定した後、このページ下部にある「変更を保存する」ボタンをクリックしてください。';
 $string['upgradestalefiles'] = '混合したMoodleバージョンが検出されたため、アップグレードを続けることができません。';
-$string['upgradestalefilesinfo'] = 'Moodleディレクトリ内に少なくとも過去2つのメジャーバージョンのMoodle PHPスクリプトが検出されたため、Moodleアップデート処理は中断されました。
+$string['upgradestalefilesinfo'] = 'Moodleディレクトリ内に少なくとも過去2つのメジャーバージョンのMoodle PHPスクリプトが検出されたためMoodleアップデート処理は中断されました。
 
-後で重大な問題が発生する可能性があるため、あなたはMoodleディレクトリ内に単一バージョンのMoodleファイルのみ含まれていることを確認する必要があります。
+後で重大な問題が発生する可能性があるためあなたはMoodleディレクトリ内に単一バージョンのMoodleファイルのみ含まれていることを確認する必要があります。
 
 下記の方法であなたのMoodleディレクトリから不要なファイルを取り除くことをお勧めします:
 
@@ -1203,13 +1204,13 @@ $string['upgradestalefilesinfo'] = 'Moodleディレクトリ内に少なくと�
 * ダウンロードまたはMoodle Gitリポジトリから取得した標準Moodleパッケージのみを含む新しいMoodleディレクトリを作成してください。
 * オリジナルのconfig.phpおよびすべての非標準プラグインを「moodle_old」ディレクトリから新しいMoodleディレクトリにコピーしてください。
 
-Moodleディレクトリから不要なファイルを取り除いた後、Moodleアップデート処理を再開するため、このページをリフレッシュしてください。
+Moodleディレクトリから不要なファイルを取り除いた後、Moodleアップデート処理を再開するためこのページをリフレッシュしてください。
 
 しばしばこの警告は前のバージョンのMoodle上に標準パッケージを展開したことにより発生します。マイナーアップグレードでは問題ありませんが、メジャーアップグレードの場合は決してお勧めできることではありません。
 
-また、この警告はGITリポジトリからの不完全なチェックアウトまたはアップデート処理により発生することがあります。この場合、処理が完了するまで待つか、適切なクリーンアップコマンドを実行した後、処理を再試行してくだｓだい。
+また、この警告はGITリポジトリからの不完全なチェックアウトまたはアップデート処理により発生することがあります。この場合、処理が完了するまで待つか適切なクリーンアップコマンドを実行した後、処理を再試行してくだｓだい。
 
-さらなる詳細情報は、「<a href="{$a}">{$a}</a>」のアップグレードドキュメンテーションでご覧いただけます。';
+さらなる詳細情報は「<a href="{$a}">{$a}</a>」のアップグレードドキュメンテーションでご覧いただけます。';
 $string['upgradestart'] = 'Moodleデータベースを更新する';
 $string['upgradesure'] = '<p>あなたのMoodleファイルが更新されました。自動的にMoodleを下記バージョンにアップグレードしようとしています: </p>
 <p><strong>{$a}</strong></p>

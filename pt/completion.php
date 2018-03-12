@@ -69,7 +69,7 @@ $string['completionicons_help'] = 'Um visto junto ao nome de uma atividade serve
 
 Se for exibida uma caixa com o limite tracejado, o visto aparecerá automaticamente quando a atividade for concluída de acordo com as condições definidas pelo professor.
 
-Se for exibida uma caixa com o limite sólido, significa que pode clicar sobre ela para colocar o visto, indicando assim que completou a atividade (se mudar de ideias e clicar novamente o visto é removido). O visto é opcional e consiste apenas numa forma de assinalar o seu progresso ao longo da disciplina.';
+Se for exibida uma caixa com o limite sólido, significa que pode clicar sobre ela para colocar o visto, indicando assim que completou a atividade (se mudar de ideias e clicar novamente o visto é removido).';
 $string['completion_link'] = 'atividade/conclusão';
 $string['completion_manual'] = 'Os alunos podem assinalar a atividade como concluída';
 $string['completionmenuitem'] = 'Conclusão';
@@ -140,8 +140,8 @@ $string['manualcompletionbynote'] = 'Nota: a capacidade \'moodle/course:markcomp
 $string['manualselfcompletion'] = 'Conclusão manual pelo próprio';
 $string['manualselfcompletionnote'] = 'Nota: O bloco Autoconclusão deverá ser adicionado à disciplina se a autoconclusão manual estiver ativada.';
 $string['markcomplete'] = 'Dar como concluído';
-$string['markedcompleteby'] = 'Dado como concluído por {$a}';
-$string['markingyourselfcomplete'] = 'A dar como concluído';
+$string['markedcompleteby'] = 'Conclusão assinalada por {$a}';
+$string['markingyourselfcomplete'] = 'Assinalar como concluído';
 $string['moredetails'] = 'Mais informações';
 $string['nocriteriaset'] = 'Não foram definidos critérios para esta disciplina';
 $string['notcompleted'] = 'Por concluir';
@@ -179,7 +179,7 @@ $string['unlockcompletiondelete'] = 'Desbloquear opções de conclusão e apagar
 $string['usealternateselector'] = 'Usar o selecionador alternativo de disciplinas';
 $string['usernotenroled'] = 'O utilizador não está inscrito nesta disciplina';
 $string['viewcoursereport'] = 'Ver relatório da disciplina';
-$string['viewingactivity'] = 'A ver {$a}';
+$string['viewingactivity'] = 'Visualizar {$a}';
 $string['writingcompletiondata'] = 'A registar dados da conclusão';
 $string['xdays'] = '{$a} dias';
 $string['yourprogress'] = 'O seu progresso';

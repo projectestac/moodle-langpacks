@@ -292,7 +292,9 @@ vielen Dank für die Abgabe Ihrer Antworten zu \'{$a->quizname}\' im Kurs \'{$a-
 
 Diese E-Mail bestätigt, dass Ihre Abgabe sicher angekommen ist.
 
-Sie können auf den Test zugreifen unter {$a->quizurl}.';
+Sie können auf den Test zugreifen unter {$a->quizurl}.
+
+Ihr E-Learning-Team';
 $string['emailconfirmsmall'] = 'Danke für die Übermittlung Ihrer Antworten auf \'{$a->quizname}\'';
 $string['emailconfirmsubject'] = 'Bestätigung der Testlösungen für {$a->quizname}';
 $string['emailnotifybody'] = 'Guten Tag {$a->username},
@@ -302,14 +304,18 @@ $string['emailnotifybody'] = 'Guten Tag {$a->username},
 \'{$a->quizname}\' ({$a->quizurl})
 im Kurs \'{$a->coursename}\' beendet.
 
-Sie können diesen Versuch unter {$a->quizreviewurl} ansehen.';
+Sie können diesen Versuch unter {$a->quizreviewurl} ansehen.
+
+Ihr E-Learning-Team';
 $string['emailnotifysmall'] = '{$a->studentname} hat {$a->quizname} abgeschlossen. Siehe {$a->quizreviewurl}';
 $string['emailnotifysubject'] = '{$a->studentname} hat den Test {$a->quizname} beendet';
 $string['emailoverduebody'] = 'Guten Tag {$a->studentname},
 
 Sie haben denTest {$a->quizname} im Kurs {$a->coursename} begonnen. Der Testversuch wurde von Ihnen jedoch bisher nicht abgeschlossen. Dies sollten Sie bis zu diesem Termin nachholen: [{$a->attemptduedate}.
 
-Um den Testversuch jetzt abzuschließen, gehen Sie auf {$a->attemptsumaryurl} und klicken Sie den \'Abgeben\'-Button. Sie müssen dies vor dem {$a->attemptgracend} tun. Andernfalls wird der Versuch nicht gewertet.';
+Um den Testversuch jetzt abzuschließen, gehen Sie auf {$a->attemptsumaryurl} und klicken Sie den \'Abgeben\'-Button. Sie müssen dies vor dem {$a->attemptgracend} tun. Andernfalls wird der Versuch nicht gewertet.
+
+Ihr E-Learning-Team';
 $string['emailoverduesmall'] = 'Sie haben den Testversuch in {$a->quizname} nicht abgeschlossen. Gehen Sie bitte vor dem {$a->attemptgraceend} zu {$a->attemptsummaryurl} wenn Sie den Versuch noch abschließen möchten.';
 $string['emailoverduesubject'] = 'Testversuch nun überfällig für {$a->quizname}';
 $string['empty'] = 'Leer';
@@ -427,7 +433,7 @@ $string['importingquestions'] = 'Import von {$a} Fragen aus Datei';
 $string['importmax10error'] = 'In der Frage ist ein Fehler aufgetreten. Sie dürfen höchstens zehn Antworten formulieren.';
 $string['importmaxerror'] = 'Fehler in der Frage: zu viele Antworten.';
 $string['importquestions'] = 'Frage aus einer Datei importieren';
-$string['inactiveoverridehelp'] = '* Teilnehmer/in hat nicht die richtige Gruppenzugehörigkeit, um den Test auszuführen.';
+$string['inactiveoverridehelp'] = '* Teilnehmer/in hat nicht die richtige Gruppenzugehörigkeit oder Rolle, um den Test auszuführen.';
 $string['incorrect'] = 'Falsch';
 $string['indivresp'] = 'Antworten der einzelnen Personen zu jeder Frage';
 $string['info'] = 'Info';
@@ -456,7 +462,7 @@ $string['literal'] = 'Schreibweise';
 $string['loadingquestionsfailed'] = 'Das Laden der Fragen ist gescheitert: {$a}';
 $string['makecopy'] = 'Als neue Frage abspeichern';
 $string['managetypes'] = 'Fragetypen und Server verwalten';
-$string['manualgradequestion'] = 'Manulle Bewertung der Frage {$a->question} in {$a->quiz} für {$a->user}';
+$string['manualgradequestion'] = 'Manuelle Bewertung der Frage {$a->question} in {$a->quiz} für {$a->user}';
 $string['manualgrading'] = 'Bewertung';
 $string['mark'] = 'Abschicken';
 $string['markall'] = 'Seite bewerten lassen';
@@ -796,9 +802,9 @@ $string['reviewoptionsheading_help'] = 'Mit diesen Optionen legen Sie fest, welc
 
 **Direkt nach dem Versuch** bedeutet, dass ein Feedback innerhalb von zwei Minuten gezeigt wird, nachdem Test abgeschickt und beendet wurde.
 
-**Später, während der Test noch offen ist** zeigt das Feedback, solange der Bearbeitungszeitraum läuft.
+**Später, während der Test noch geöffnet ist** zeigt das Feedback, solange der Bearbeitungszeitraum läuft.
 
-**Nach Beendigung des Tests** meint das Feedback nach Ende des Bearbeitungszeitraums. Wenn kein solcher Termin definiert ist, ist diese Einstellung nicht sinnvoll.';
+**Wenn der Test abgeschlossen ist** meint das Feedback nach Ende des Bearbeitungszeitraums. Wenn kein solcher Termin definiert ist, ist diese Einstellung nicht sinnvoll.';
 $string['reviewoverallfeedback'] = 'Gesamtfeedback';
 $string['reviewoverallfeedback_help'] = 'Das Feedback wird am Ende des Versuchs gegeben und ist abhängig vom Gesamtergebnis.';
 $string['reviewresponse'] = 'Antwort erneut anzeigen';

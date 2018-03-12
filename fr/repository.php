@@ -165,6 +165,7 @@ $string['manage'] = 'Gérer les dépôts';
 $string['manageinstances'] = 'Gérer les instances';
 $string['manageurl'] = 'Gestion';
 $string['manageuserrepository'] = 'Gérer le dépôt personnel';
+$string['missingsourcekey'] = 'La clef source est manquante. Cette clef doit être fournie pour récupérer le fichier.';
 $string['moving'] = 'Déplacement';
 $string['name'] = 'Nom';
 $string['newfolder'] = 'Nouveau dossier';

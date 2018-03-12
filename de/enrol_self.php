@@ -57,13 +57,19 @@ $string['expirymessageenrolledbody'] = 'Guten Tag {$a->user},
 
 Sie sind derzeit im Kurs \'{$a->course}\' eingeschrieben. Die Teilnahmedauer lauft am {$a->timeend} ab. Danach ist ein Zugriff auf den Kurs nicht mehr möglich.
 
-Wenn Sie Fragen haben, wenden Sie sich bitte an {$a->enroller}.';
+Wenn Sie Fragen haben, wenden Sie sich bitte an {$a->enroller}.
+
+Ihr E-Learning-Team';
 $string['expirymessageenrolledsubject'] = 'In Kürze endet Ihr Kurs';
-$string['expirymessageenrollerbody'] = 'Die Selbsteinschreibung im Kurs \'{$a->course}\' wird innerhalb der nächsten {$a->threshold} für folgende Nutzer/innen ablaufen:
+$string['expirymessageenrollerbody'] = 'Guten Tag,
+
+im Kurs \'{$a->course}\' läuft für folgende Nutzer/in/nen innerhalb der nächsten  {$a->threshold}  die Einschreibung ab:
 
 {$a->users}
 
-Die Einschreibung kann über folgenden Link verlängert werden: {$a->extendurl}';
+Sie können auf der folgenden Seite die Einschreibedauer verlängern: {$a->extendurl}
+
+Ihr E-Learning Team';
 $string['expirymessageenrollersubject'] = 'In Kürze endet Ihr Kurs';
 $string['groupkey'] = 'Einschreibeschlüssel für Gruppen';
 $string['groupkey_desc'] = 'Standardmäßig einen Einschreibeschlüssel für Gruppen benutzen';

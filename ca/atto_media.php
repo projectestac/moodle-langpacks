@@ -63,6 +63,7 @@ $string['languagesinstalled'] = 'Idiomes instal·lats';
 $string['link'] = 'Enllaç';
 $string['loop'] = 'Bucle';
 $string['metadata'] = 'Metadades';
+$string['metadata_help'] = 'El rastre de les metadades, per utilitzar des d\'un script, només s\'utilitzarà si el reproductor admet metadades.';
 $string['metadatasourcelabel'] = 'URL de les metadades de la pista';
 $string['mute'] = 'Silenciat';
 $string['pluginname'] = 'Fitxers multimèdia';

@@ -235,6 +235,7 @@ $string['eventquestionanswered'] = '問題が解答されました。';
 $string['eventquestionviewed'] = '問題が閲覧されました。';
 $string['false'] = '×';
 $string['fileformat'] = 'ファイルフォーマット';
+$string['finalwrong'] = '完全ではありません。';
 $string['finish'] = '終了';
 $string['firstanswershould'] = '最初の答えは「正しい」ページにジャンプしてください。';
 $string['firstwrong'] = 'あなたの解答は正しくありません。問題を再度受験しますか?  (今から問題に正しく解答した場合、あなたの最終評点には加算されません)';

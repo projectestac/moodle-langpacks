@@ -102,7 +102,9 @@ unter Verwendung Ihrer E-Mail-Adresse wurde von \'{$a->sitename}\' eine neue Ver
 
 In den meisten E-Mail-Programmen sollte dieser Link blau und anklickbar sein. Falls das nicht funktioniert, kopieren Sie die Adresse vollständig und fügen Sie sie in die Adresszeile Ihres Webbrowsers ein.
 
-Wenn Sie Hilfe benötigen, wenden Sie sich an den Administrator der Website, {$a->admin}';
+Wenn Sie Hilfe benötigen, wenden Sie sich an den Administrator der Website, {$a->admin}
+
+Ihr E-Learning-Team';
 $string['backpackemailverifyemailsubject'] = '{$a}: E-Mail-Bestätigung für OpenBadges-Backpack';
 $string['backpackemailverifypending'] = 'Eine Bestätigungsmitteilung wurde an <strong>{$a}</strong> versendet. Klicken Sie auf den Bestätigungslink in der E-Mail, um die Backpack-Verbindung zu aktivieren.';
 $string['backpackemailverifysuccess'] = 'Danke für die Bestätigung Ihrer E-Mail-Adresse. Sie sind jetzt mit Ihrem Backpack verbunden.';
@@ -246,7 +248,7 @@ $string['error:guestuseraccess'] = 'Sie sind derzeit als Gast angemeldet. Um Aus
 $string['error:invalidbadgeurl'] = 'Unzulässige URL für Auszeichnungsverleiher';
 $string['error:invalidcriteriatype'] = 'Falscher Kriteriumstyp';
 $string['error:invalidexpiredate'] = 'Das Ablaufdatum muss in der Zukunft liegen.';
-$string['error:invalidexpireperiod'] = 'Der Ablaufzeitraum kann nicht negativ oder gleich Null sein';
+$string['error:invalidexpireperiod'] = 'Der Ablaufdauer kann nicht negativ oder gleich Null sein';
 $string['error:noactivities'] = 'In diesem Kurs wurde für keine Aktivität ein Aktivitätsabschluss konfiguriert.';
 $string['error:noassertion'] = 'Eine Bestätigung wurde nicht geliefert. Eventuell haben Sie die Dialog abgebrochen, bevor das Login abgeschlossen war.';
 $string['error:nocourses'] = 'Die Abschlussverfolgung ist für keinen Kurs Ihrer Moodle-Site aktiviert. Deshalb kann kein Kurs zur Auswahl angezeigt werden. Sie können die Abschlussverfolgung in den Kurseinstellungen aktivieren.';
@@ -373,7 +375,7 @@ $string['recipientvalidationproblem'] = 'Nutzer/in kann nicht als Empfänger/in 
 $string['relative'] = 'Relative Zeit';
 $string['requiredcourse'] = 'Sie müssen mindestens einen Kurs für dieses Kriterium auswählen.';
 $string['reviewbadge'] = 'Auszeichnungskriterien geändert';
-$string['reviewconfirm'] = '<p> Hiermit machen Sie Ihre Auszeichnung für Nutzer/innen sichtbar und ermöglichen Ihnen diese zu erwerben.</p>
+$string['reviewconfirm'] = '<p>Hiermit machen Sie Ihre Auszeichnung für Nutzer/innen sichtbar und ermöglichen Ihnen diese zu erwerben.</p>
 
 <p>Es ist möglich, dass Nutzer/innen bereits früher die Kriterien für die Auszeichnung erfüllt haben. Ihnen wird die Auszeichnung nun umgehend zugeweisen.</p>
 

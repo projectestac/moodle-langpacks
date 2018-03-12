@@ -40,6 +40,7 @@ $string['log:viewtoday'] = 'Visualizzare i log di oggi';
 $string['nocapability'] = 'Non è possibile accedere al report log dell\'utente';
 $string['nologreaderenabled'] = 'Nessun log reader abilitato';
 $string['origin'] = 'Fonte';
+$string['other'] = 'Altro';
 $string['page'] = 'Pagina {$a}';
 $string['page-report-log-index'] = 'Log del corso';
 $string['page-report-log-user'] = 'Log utente';

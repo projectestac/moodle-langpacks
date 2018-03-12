@@ -116,4 +116,4 @@ $string['statisticsreportgraph'] = 'Statistik für Fragepositionen';
 $string['statistics:view'] = 'Ansehen des Statistik-Reports';
 $string['statsfor'] = 'Statistik (für {$a})';
 $string['variant'] = 'Variante';
-$string['whichtries'] = 'Antworten anaylsieren für';
+$string['whichtries'] = 'Antworten analysieren für';
