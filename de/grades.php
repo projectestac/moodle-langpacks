@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'de', branch 'MOODLE_32_STABLE'
+ * Strings for component 'grades', language 'de', branch 'MOODLE_34_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -138,7 +138,6 @@ $string['calculationsaved'] = 'Berechnung gespeichert';
 $string['calculationview'] = 'Berechnung ansehen';
 $string['cannotaccessgroup'] = 'Bei der gewählten Gruppe kann nicht auf die Bewertung zugegriffen werden.';
 $string['categories'] = 'Kategorien';
-$string['categoriesanditems'] = 'Kategorien und Einträge';
 $string['category'] = 'Kategorie';
 $string['categoryedit'] = 'Kategorie bearbeiten';
 $string['categoryname'] = 'Name der Kategorie';
@@ -634,6 +633,44 @@ $string['prefletters'] = 'Notenstufen und -grenzen';
 $string['prefrows'] = 'Spezielle Zeilen';
 $string['prefshow'] = 'Schalter zeigen/verbergen';
 $string['previewrows'] = 'Zeilenvorschau';
+$string['privacy:metadata:categorieshistory'] = 'Aufzeichnung früherer Versionen von Bewertungskategorien';
+$string['privacy:metadata:grade_import_newitem'] = 'Temporäre Tabelle zur Speicherung neuer grade_item Namen des Bewertungsmports';
+$string['privacy:metadata:grade_import_newitem:importcode'] = 'Einzigartiger Batch-Code zur Identifikation eines Batchimports';
+$string['privacy:metadata:grade_import_newitem:importer'] = 'Nutzer, der Daten importiert';
+$string['privacy:metadata:grade_import_newitem:itemname'] = 'Neuer Bewertungsitemname';
+$string['privacy:metadata:grade_import_values'] = 'Temporäre Tabelle zum Import von Bewertungen';
+$string['privacy:metadata:grade_import_values:feedback'] = 'Bewertungsfeedback';
+$string['privacy:metadata:grade_import_values:finalgrade'] = 'Rohwert der Bewertung';
+$string['privacy:metadata:grade_import_values:importcode'] = 'Einzigartiger Batch-Code zur Identifikation eines Batchimports';
+$string['privacy:metadata:grade_import_values:importer'] = 'Nutzer, der Daten importiert';
+$string['privacy:metadata:grade_import_values:importonlyfeedback'] = 'Kennzeichen wenn nur Feedback importiert wurde';
+$string['privacy:metadata:grade_import_values:userid'] = 'Nutzer, dessen Bewertung importiert wurde';
+$string['privacy:metadata:grades'] = 'Aufzeichnung von Bewertungen';
+$string['privacy:metadata:grades:aggregationstatus'] = 'Aggregationsstatus';
+$string['privacy:metadata:grades:aggregationweight'] = 'Gewichtung in Aggregationen';
+$string['privacy:metadata:grades:feedback'] = 'Feedback';
+$string['privacy:metadata:grades:finalgrade'] = 'Bewertung';
+$string['privacy:metadata:gradeshistory'] = 'Aufzeichnung früherer Bewertungen';
+$string['privacy:metadata:grades:information'] = 'Einige zusätzliche Informationen';
+$string['privacy:metadata:grades:timemodified'] = 'Zeitpunkt der letzten Änderung der Bewertung';
+$string['privacy:metadata:grades:userid'] = 'ID des bewerteten Nutzers';
+$string['privacy:metadata:grades:usermodified'] = 'ID des Nutzers, der Datensatz zuletzt bearbeitet hat';
+$string['privacy:metadata:history:loggeduser'] = 'ID des Nutzers, der eingeloggt war als Versionierung erfolgte';
+$string['privacy:metadata:history:timemodified'] = 'Zeitpunkt der Versionierung';
+$string['privacy:metadata:itemshistory'] = 'Aufzeichnung früherer Versionen des Bewertungsitems';
+$string['privacy:metadata:outcomes'] = 'Aufzeichnung der Lernziele';
+$string['privacy:metadata:outcomeshistory'] = 'Eine Aufzeichnung früherer Versionen des Lernziels';
+$string['privacy:metadata:outcomes:timemodified'] = 'Zeitpunkt an dem Datensatz verändert wurde';
+$string['privacy:metadata:outcomes:usermodified'] = 'Nutzer der den Datensatz zuletzt verändert hat';
+$string['privacy:metadata:scale'] = 'Aufzeichnung von Skalen';
+$string['privacy:metadata:scalehistory'] = 'Aufzeichnung früherer Versionen von Skalen';
+$string['privacy:metadata:scale:timemodified'] = 'Zeitpunkt zu dem  der Datensatz zuletzt verändert wurde';
+$string['privacy:metadata:scale:userid'] = 'Nutzer, der Datensatz zuletzt bearbeitet hat';
+$string['privacy:path:relatedtome'] = 'Mit zugeordnet';
+$string['privacy:request:historyactiondelete'] = 'Löschen';
+$string['privacy:request:historyactioninsert'] = 'Einfügen';
+$string['privacy:request:historyactionupdate'] = 'Update';
+$string['privacy:request:unknowndeletedgradeitem'] = 'Unbekannt (Bewertungsitem wurde gelöscht)';
 $string['profilereport'] = 'Bericht zum Nutzerprofil';
 $string['profilereport_help'] = 'Der Bewertungsbericht wird auf der Seite des Nutzerprofils angezeigt.';
 $string['publishing'] = 'Veröffentlichen';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'plugin', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,7 @@ $string['status_missing'] = 'Λείπει από το δίσκο';
 $string['status_nodb'] = 'Δεν υπάρχει βάση δεδομένων';
 $string['systemname'] = 'Αναγνωριστικό';
 $string['type_auth'] = 'Μέθοδος αυθεντικοποίησης';
-$string['type_auth_plural'] = 'Μέθοδοι αυθεντικοποίησης';
+$string['type_auth_plural'] = 'Υπομονάδες πιστοποίησης';
 $string['type_block'] = 'Μπλοκ';
 $string['type_block_plural'] = 'Blocks';
 $string['type_coursereport_plural'] = 'Αναφορές μαθήματος';
@@ -62,7 +62,7 @@ $string['type_local_plural'] = 'Τοπικά πρόσθετα';
 $string['type_mnetservice_plural'] = 'Mnet υπηρεσίες';
 $string['type_mod'] = 'Τμήμα δραστηριότητας';
 $string['type_mod_plural'] = 'Αρθρώματα δραστηριοτήτων';
-$string['type_plagiarism_plural'] = 'Πρόσθετα πρόληψης λογοκλοπής';
+$string['type_plagiarism_plural'] = 'Πρόσθετα λογοκλοπής';
 $string['type_portfolio'] = 'Χαρτοφυλάκιο';
 $string['type_portfolio_plural'] = 'Χαρτοφυλάκια';
 $string['type_profilefield_plural'] = 'Τύποι πεδίων προφίλ';
@@ -70,7 +70,7 @@ $string['type_qbehaviour_plural'] = 'Συμπεριφορά ερωτήσεων';
 $string['type_qformat_plural'] = 'Μορφές εισαγωγής/εξαγωγής ερωτήσεων';
 $string['type_qtype'] = 'Τύπος ερώτησης';
 $string['type_qtype_plural'] = 'Τύποι ερωτήσεων';
-$string['type_report_plural'] = 'Αναφορές ιστοχώρου';
+$string['type_report_plural'] = 'Αναφορές ιστοτόπου';
 $string['type_repository'] = 'Χώρος αποθήκευσης';
 $string['type_repository_plural'] = 'Χώροι αποθήκευσης';
 $string['type_search'] = 'Μηχανή αναζήτησης';
@@ -80,7 +80,7 @@ $string['type_theme_plural'] = 'Θέματα';
 $string['type_webservice_plural'] = 'Πρωτόκολλα webservice';
 $string['uninstall'] = 'Απεγκατάσταση';
 $string['updateavailable_moreinfo'] = 'Περισσότερες πληροφορίες...';
-$string['validationmsg_componentmatch'] = 'Πλήρες όνομα συστατικού';
+$string['validationmsg_componentmatch'] = 'Πλήρες όνομα στοιχείου λογισμικού';
 $string['validationmsg_filenotexists'] = 'Αδυναμία εύρεσης εξαγόμενου αρχείου';
 $string['validationmsg_missingversionphp'] = 'Αδυναμία εύρεσης αρχείου version.php';
 $string['version'] = 'Έκδοση';

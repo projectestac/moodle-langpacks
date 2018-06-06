@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -826,6 +826,7 @@ $string['select'] = 'Selecciona';
 $string['selectall'] = 'Selecciona tot';
 $string['selectcategory'] = 'Selecciona una categoria';
 $string['selectedattempts'] = 'Intents seleccionats';
+$string['selectmultipleitems'] = 'Seleccioneu diversos elements';
 $string['selectnone'] = 'Desselecciona tot';
 $string['selectquestiontype'] = '-- Selecciona un tipus de pregunta --';
 $string['serveradded'] = 'S\'ha afegit el servidor';

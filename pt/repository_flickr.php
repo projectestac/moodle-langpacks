@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_flickr', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_flickr', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_flickr
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,11 @@ $string['notitle'] = 'Sem título';
 $string['nullphotolist'] = 'Não existem fotografias nesta conta';
 $string['pluginname'] = 'Flickr';
 $string['pluginname_help'] = 'Repositório em flickr.com';
+$string['privacy:metadata:repository_flickr'] = 'O módulo repositório Flickr não armazena dados pessoais, mais transmite dados do utilizador do
+Moodle para o sistema remoto.';
+$string['privacy:metadata:repository_flickr:preference:repository_flickr_access_token'] = 'Preferência de token OAuth do repositório Flickr';
+$string['privacy:metadata:repository_flickr:preference:repository_flickr_access_token_secret'] = 'Preferência OAuth secreta do repositório Flickr; isto está excluído de dados de privacidade exportados.';
+$string['privacy:metadata:repository_flickr:text'] = 'Pesquisa de texto do utilizador no repositório Flickr';
 $string['remember'] = 'Manter sessão';
 $string['secret'] = 'Senha';
 $string['username'] = 'E-mail da conta Flickr';

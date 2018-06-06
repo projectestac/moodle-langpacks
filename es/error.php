@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'error', language 'es', branch 'MOODLE_34_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -562,6 +562,7 @@ $string['usernotaddederror'] = 'No se agregó el usuario - error desconocido';
 $string['usernotaddedregistered'] = 'No se agregó el usuario - ya está registrado';
 $string['usernotavailable'] = 'Usted no puede acceder a los detalles de este usuario';
 $string['usernotdeletedadmin'] = 'Usuario no eliminado - no se pueden eliminar las cuentas de los administradores';
+$string['usernotdeleteddeleted'] = 'Ese usuario ya ha sido borrado.';
 $string['usernotdeletederror'] = 'Usuario no eliminado: error';
 $string['usernotdeletedmissing'] = 'Usuario no eliminado: no se encontró el nombre de usuario.';
 $string['usernotdeletedoff'] = 'Usuario no eliminado: eliminación no permitida.';

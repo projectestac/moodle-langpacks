@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -156,8 +156,10 @@ $string['linkexternal'] = 'Hiperligação externa';
 $string['listview'] = 'Ver na forma de lista';
 $string['loading'] = 'A carregar...';
 $string['login'] = 'Autentique-se na sua conta';
+$string['logintoaccount'] = 'Autentique-se na sua conta {$a}';
 $string['logout'] = 'Sair';
 $string['lostsource'] = 'Erro. A origem não existe {$a}.';
+$string['makefilecontrolledlink'] = 'Criar um hiperligação de acesso controlado ao ficheiro';
 $string['makefileinternal'] = 'Criar uma cópia do ficheiro';
 $string['makefilelink'] = 'Ligar diretamente ao ficheiro';
 $string['makefilereference'] = 'Criar um atalho para o ficheiro';
@@ -195,6 +197,15 @@ $string['pluginnamehelp'] = 'Se deixar este campo vazio, será utilizado o nome 
 $string['popup'] = 'Clique no botão "Autenticar" para iniciar sessão';
 $string['popupblockeddownload'] = 'A janela para descarregar está bloqueada. Desbloqueie as janelas de pop-up no navegador e tente novamente.';
 $string['preview'] = 'Pré-visualização';
+$string['privacy:metadata:repository'] = 'A componente repositório armazena tipos de repositórios no subsistema principal.';
+$string['privacy:metadata:repository_instances'] = 'A componente do módulo repositório armazena dados de instâncias do repositório do utilizador no subsistema principal.';
+$string['privacy:metadata:repository_instances:name'] = 'O nome customizado da instância de repositório';
+$string['privacy:metadata:repository_instances:password'] = 'A senha opcional configurada para a instância de repositório.';
+$string['privacy:metadata:repository_instances:timecreated'] = 'A data/hora de criação da instância de repositório.';
+$string['privacy:metadata:repository_instances:timemodified'] = 'A data e hora de modificação da instância de repositório.';
+$string['privacy:metadata:repository_instances:typeid'] = 'O ID do tipo de instância de repositório.';
+$string['privacy:metadata:repository_instances:userid'] = 'O ID do utilizador a quem pertence a instância do repositório.';
+$string['privacy:metadata:repository_instances:username'] = 'O nome de utilizador opcional configurado para a instância do repositório.';
 $string['privatefilesof'] = '{$a} Ficheiros privados';
 $string['readonlyinstance'] = 'Não é possível alterar/apagar instâncias só de leitura';
 $string['referencesexist'] = 'Existem {$a} atalhos de ficheiros que usam este ficheiro como origem';
@@ -224,7 +235,7 @@ $string['settings'] = 'Configurações';
 $string['setupdefaultplugins'] = 'A configurar módulos de repositório predefinidos';
 $string['siteinstances'] = 'Instâncias de repositórios do site';
 $string['size'] = 'Tamanho:';
-$string['sourcekeymismatch'] = 'O URL da origem não corresponde à origem.';
+$string['sourcekeymismatch'] = 'O URL da origem não corresponde à senha de origem.';
 $string['submit'] = 'Enviar';
 $string['sync'] = 'Sincronizar';
 $string['syncfiletimeout'] = 'Tempo limite de sincronização de ficheiros';
@@ -236,6 +247,7 @@ $string['typenotvisible'] = 'O tipo não está visível';
 $string['undisclosedreference'] = '(Reservado)';
 $string['undisclosedsource'] = '(Não divulgado)';
 $string['unknownoriginal'] = 'Desconhecido';
+$string['unknownsource'] = 'Origem desconhecida';
 $string['unzipped'] = 'A descompactação foi concluída com sucesso';
 $string['upload'] = 'Enviar este ficheiro';
 $string['uploading'] = 'A enviar...';

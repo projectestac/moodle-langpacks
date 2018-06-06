@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'grades', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -116,7 +116,6 @@ $string['calculationsaved'] = 'Cálculo gravado';
 $string['calculationview'] = 'Ver cálculo';
 $string['cannotaccessgroup'] = 'Lamentamos mas não pode aceder às avaliações do grupo selecionado.';
 $string['categories'] = 'Categorias';
-$string['categoriesanditems'] = 'Categorias e itens';
 $string['category'] = 'Categoria';
 $string['categoryedit'] = 'Editar categoria';
 $string['categoryname'] = 'Nome da categoria';
@@ -609,6 +608,44 @@ $string['prefletters'] = 'Notas alfabéticas e limites de intervalos';
 $string['prefrows'] = 'Linhas especiais';
 $string['prefshow'] = 'Opções mostrar/ocultar';
 $string['previewrows'] = 'Pré-visualizar linhas';
+$string['privacy:metadata:categorieshistory'] = 'O registo de versões anteriores de categorias de pauta';
+$string['privacy:metadata:grade_import_newitem'] = 'Tabela temporária para armazenar novos nomes de grade_item da importação de avaliação';
+$string['privacy:metadata:grade_import_newitem:importcode'] = 'Um código de operação exclusivo para identificar uma operação de importações';
+$string['privacy:metadata:grade_import_newitem:importer'] = 'O utilizador a importar os dados';
+$string['privacy:metadata:grade_import_newitem:itemname'] = 'Nome do novo item de avaliação';
+$string['privacy:metadata:grade_import_values'] = 'Tabela temporária para importar avaliações';
+$string['privacy:metadata:grade_import_values:feedback'] = 'Feedback de avaliação';
+$string['privacy:metadata:grade_import_values:finalgrade'] = 'Valor da nota bruta';
+$string['privacy:metadata:grade_import_values:importcode'] = 'Um código de operação exclusivo para identificar uma operação de importações';
+$string['privacy:metadata:grade_import_values:importer'] = 'O utilizador a importar os dados';
+$string['privacy:metadata:grade_import_values:importonlyfeedback'] = 'Marcar se apenas o feedback foi importado';
+$string['privacy:metadata:grade_import_values:userid'] = 'Utilizador cuja avaliação foi importada';
+$string['privacy:metadata:grades'] = 'Registo das avaliações';
+$string['privacy:metadata:grades:aggregationstatus'] = 'O estado de agregação';
+$string['privacy:metadata:grades:aggregationweight'] = 'O peso na agregação';
+$string['privacy:metadata:grades:feedback'] = 'O feedback';
+$string['privacy:metadata:grades:finalgrade'] = 'A avaliação';
+$string['privacy:metadata:gradeshistory'] = 'O registo de avaliações anteriores';
+$string['privacy:metadata:grades:information'] = 'Alguma informação adicional';
+$string['privacy:metadata:grades:timemodified'] = 'Hora em que a avaliação foi modificada pela última vez';
+$string['privacy:metadata:grades:userid'] = 'O ID de utilizador desta avaliação';
+$string['privacy:metadata:grades:usermodified'] = 'O ID do utilizador que modificou o registo pela última vez';
+$string['privacy:metadata:history:loggeduser'] = 'O ID do utilizador que estava autenticado quando a versão ocorreu';
+$string['privacy:metadata:history:timemodified'] = 'Hora a que a versão ocorreu';
+$string['privacy:metadata:itemshistory'] = 'O registo de versões de avaliação anteriores';
+$string['privacy:metadata:outcomes'] = 'O registo de resultados de aprendizagem';
+$string['privacy:metadata:outcomeshistory'] = 'O registo de versões de resultados de aprendizagem anteriores';
+$string['privacy:metadata:outcomes:timemodified'] = 'Hora a que o resultado de aprendizagem foi modificado';
+$string['privacy:metadata:outcomes:usermodified'] = 'O utilizador que modificou o registo pela última vez';
+$string['privacy:metadata:scale'] = 'O registo de escalas';
+$string['privacy:metadata:scalehistory'] = 'Um registo de versões de escalas anteriores';
+$string['privacy:metadata:scale:timemodified'] = 'Hora a que o registo foi modificado pela última vez';
+$string['privacy:metadata:scale:userid'] = 'O ID do utilizador que modificou o registo pela última vez';
+$string['privacy:path:relatedtome'] = 'Relacionado comigo';
+$string['privacy:request:historyactiondelete'] = 'Apagar';
+$string['privacy:request:historyactioninsert'] = 'Inserir';
+$string['privacy:request:historyactionupdate'] = 'Atualizar';
+$string['privacy:request:unknowndeletedgradeitem'] = 'Desconhecido (O item de avaliação foi apagado)';
 $string['profilereport'] = 'Relatório de perfil de utilizador';
 $string['profilereport_help'] = 'Relatório de avaliação exibido na página de perfil do utilizador.';
 $string['publishing'] = 'Publicar';

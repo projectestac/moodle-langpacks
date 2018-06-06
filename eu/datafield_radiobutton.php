@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_radiobutton', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'datafield_radiobutton', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   datafield_radiobutton
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Aukera bakarreko botoia';
 $string['pluginname'] = 'Aukera bakarreko botoia';
+$string['privacy:metadata'] = 'Aukera bakarreko botoia eremu-osagaiak ez du datu pertsonalik biltzen, datu-base moduluan zehaztutako taulak erabiltzen ditu.';

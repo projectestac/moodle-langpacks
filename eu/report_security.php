@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_security', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,6 +79,8 @@ $string['check_noauth_details'] = '<p><em>Autentifikatu gabe</em> plugina ez dag
 $string['check_noauth_error'] = '\'Autentifikatu gabe\' plugina ezin da erabili lanean dauden guneetan.';
 $string['check_noauth_name'] = 'Autentifikatu gabe';
 $string['check_noauth_ok'] = '\'Autentifikatu gabe\' plugina desgaituta dago.';
+$string['check_nodemodules_details'] = '<p><em>{$a->path}</em> karpetak Node.js moduluak eta euren menpekotasunak ditu, normalean NPM bitartez instalatuta. Modulu hauek Moodle-ko garapen lokalerako beharrezkoak izan daitezke, esaterako grunt framework-a erabiltzeko. Ez dira behar lanean dagoen Moodle gune batean, eta potentzialki urruneko erasotzaileei kodea erakusteko arriskua dago.</p>
+<p>Karpeta hori ezabatzea irmoki gomendatzen da gunea URL publiko baten bitartez eskuragarri badago, edo gutxienez zure web-zerbitzariaren konfigurazioan bertara web bidezko sarbidea ukatzea.</p>';
 $string['check_nodemodules_info'] = 'node_modules karpetak ez luke gune publikoetan egon behar.';
 $string['check_nodemodules_name'] = 'Node.js moduluen karpeta';
 $string['check_openprofiles_details'] = 'Spam-bidaltzaileek erabiltzaile-profil irekiak baliatu ditzakete. Gomendatzen da <code>Behartu erabiltzaileak identifikatzera profilak ikusi ahal izateko</code> edo code>Behartu erabiltzaileak identifikatzera</code> gaituta egotea.';
@@ -90,6 +92,10 @@ Hala ere, ez zehaztu baldintza zorrotzegiak, horrek erabiltzaileek pasahitza ez 
 $string['check_passwordpolicy_error'] = 'Pasahitzen politika ez da ezarri.';
 $string['check_passwordpolicy_name'] = 'Pasahitzen politika';
 $string['check_passwordpolicy_ok'] = 'Pasahitzen politika gaituta dago.';
+$string['check_preventexecpath_details'] = '<p>Exekutagarrietarako bideak kudeatzailearen interfaz grafikoaren bidez zehaztea baimentzea baimenetan gora egiteko bektore bat da.</p>';
+$string['check_preventexecpath_name'] = 'Exekutagarrietarako bideak';
+$string['check_preventexecpath_ok'] = 'Exekutagarrietarako bideak config.php fitxategian baino ezin dira konfiguratu.';
+$string['check_preventexecpath_warning'] = 'Exekutagarrietarako bideak kudeatzailearen interfaz grafikoan konfiguratu daitezke.';
 $string['check_riskadmin_detailsok'] = '<p>Mesedez, egiaztatu ezazu sistemako kudeatzaileen ondoko zerrenda hau:</p>{$a}';
 $string['check_riskadmin_detailswarning'] = '<p>Mesedez, egiazta ezazu sistemako kudeatzaileen zerrenda hau:</p>{$a->admins}
 <p>Gomendagarria da kudeatzaile-rola sistemaren testuinguruan baino ez esleitzea. Ondoko erabiltzaileek (onartzen ez den) kudeatzaile-rola esleituta dute beste testuinguru batzuetan:</p>{$a->unsupported}';
@@ -118,6 +124,8 @@ $string['check_unsecuredataroot_error'] = 'Zure <code>{$a}</code> dataroot karpe
 $string['check_unsecuredataroot_name'] = 'dataroot ez da segurua';
 $string['check_unsecuredataroot_ok'] = 'Dataroot karpetak ez du web bidez eskuragarri egon behar.';
 $string['check_unsecuredataroot_warning'] = 'Zure <code>{$a}</code> dataroot karpeta okerreko kokagunean dago eta web bidez eskuragarri egon daiteke.';
+$string['check_vendordir_details'] = '<p><em>{$a->path}</em> karpetak bitartekoen liburutegiak eta euren menpekotasunak ditu, normalean PHP composer bitartez instalatutakoak. Liburutegi hauek Moodle-ko garapen lokalerako beharrezkoak izan daitezke, esaterako PHPUnit framework-a instalatzeko. Ez dira behar lanean dagoen Moodle gune batean, eta potentzialki urruneko erasotzaileei kodea erakusteko arriskua dago.</p>
+<p>Karpeta hori ezabatzea irmoki gomendatzen da gunea URL publiko baten bitartez eskuragarri badago, edo gutxienez zure web-zerbitzariaren konfigurazioan bertara web bidezko sarbidea ukatzea.</p>';
 $string['check_vendordir_info'] = 'vendor karpetak ez luke gune publikoetan egon behar.';
 $string['check_vendordir_name'] = 'vendor karpeta';
 $string['check_webcron_details'] = '<p>Cron-a web-nabigatzaile baten bitartez exekutatzeak informazio pribilegiatua erabiltzaile ezezagunei ikusgai jartzea suposatu lezake. Cron-a komando-lerro batetik baino ez exekutatzea edo bestela cron-aren urruneko sarbideetarako pasahitza zehaztea gomendatzen da</p>';
@@ -129,6 +137,7 @@ $string['description'] = 'Deskribapena';
 $string['details'] = 'Xehetasunak';
 $string['issue'] = 'Arazoa';
 $string['pluginname'] = 'Segurtasunaren ikuspegi orokorra';
+$string['privacy:metadata'] = 'Segurtasunaren ikuspegi orokorra pluginak ez du datu pertsonalik biltzen.';
 $string['security:view'] = 'Segurtasun-txostena ikusi';
 $string['status'] = 'Egoera';
 $string['statuscritical'] = 'Larria';

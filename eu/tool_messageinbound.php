@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_messageinbound', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -98,6 +98,12 @@ $string['onehour'] = 'Ordubete';
 $string['oneweek'] = 'Astebete';
 $string['oneyear'] = 'Urtebete';
 $string['pluginname'] = 'Sarrera-mezuen ezarpenak';
+$string['privacy:metadata:coreuserkey'] = 'Jasotako e-posta egiaztatzeko erabiltzaile-gakoak';
+$string['privacy:metadata:messagelist'] = 'Balidazioak huts egin duen eta egiaztatze gehiago behar duten mezuen identifikatzaileen zerrenda';
+$string['privacy:metadata:messagelist:address'] = 'e-posta bidali zeneko helbidea.';
+$string['privacy:metadata:messagelist:messageid'] = 'Mezuaren IDa';
+$string['privacy:metadata:messagelist:timecreated'] = 'Erregistroa egin zeneko unea';
+$string['privacy:metadata:messagelist:userid'] = 'Mezua onartu behar duen erabiltzailearen IDa';
 $string['replysubjectprefix'] = 'Er:';
 $string['requirevalidation'] = 'Balioztatu Igorlearen helbidea';
 $string['ssl'] = 'SSL (Detektatu automatikoki SSL bertsioa)';

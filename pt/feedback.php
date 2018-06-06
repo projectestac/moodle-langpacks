@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'feedback', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,13 +35,14 @@ $string['anonymous'] = 'Anónimo';
 $string['anonymous_edit'] = 'Guardar nomes dos utilizadores';
 $string['anonymous_entries'] = 'Respostas anónimas ({$a})';
 $string['anonymous_user'] = 'Utilizador anónimo';
+$string['answerquestions'] = 'Responder às perguntas';
 $string['append_new_items'] = 'Acrescentar novos itens';
 $string['autonumbering'] = 'Numerar as perguntas automaticamente';
 $string['autonumbering_help'] = 'Ativa ou desativa a numeração automática das questões';
 $string['average'] = 'Média';
 $string['bold'] = 'Negrito';
-$string['calendarend'] = 'O Inquérito fecha a {$a}';
-$string['calendarstart'] = 'O Inquérito abre a {$a}';
+$string['calendarend'] = 'Fecha a {$a}';
+$string['calendarstart'] = 'Abre a {$a}';
 $string['cancel_moving'] = 'Cancelar mover';
 $string['cannotaccess'] = 'Apenas pode aceder a este Inquérito a partir de uma disciplina';
 $string['cannotmapfeedback'] = 'Ocorreu um problema na base de dados e não foi possível associar o inquérito à disciplina';
@@ -144,6 +145,10 @@ $string['horizontal'] = 'horizontal';
 $string['importfromthisfile'] = 'Importar deste ficheiro';
 $string['import_questions'] = 'Importar questões';
 $string['import_successfully'] = 'A importação foi concluída com sucesso';
+$string['indicator:cognitivedepth'] = 'Compreensão do Inquérito';
+$string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno na atividade Inquérito.';
+$string['indicator:socialbreadth'] = 'Socialização do Inquérito';
+$string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno na atividade Inquérito.';
 $string['info'] = 'Informação de sistema';
 $string['infotype'] = 'Tipo de informação';
 $string['insufficient_responses'] = 'respostas insuficientes';
@@ -204,6 +209,7 @@ $string['of'] = 'de';
 $string['oldvaluespreserved'] = 'Todas as questões antigas e os seus valores serão preservadas';
 $string['oldvalueswillbedeleted'] = 'As questões atuais e as respostas de todos os utilizadores serão apagadas.';
 $string['only_one_captcha_allowed'] = 'Apenas é permitido inserir um CAPTCHA em cada inquérito';
+$string['openafterclose'] = 'A data de início indicada é posterior à data de fim';
 $string['overview'] = 'Visão global';
 $string['page'] = 'Página';
 $string['page_after_submit'] = 'Mensagem de conclusão';
@@ -219,6 +225,14 @@ $string['position'] = 'Posição';
 $string['preview'] = 'Pré-visualização';
 $string['preview_help'] = 'No modo de pré-visualização é possível alterar a ordem das questões.';
 $string['previous_page'] = 'Página anterior';
+$string['privacy:metadata:completed'] = 'Registo das submissões ao Inquérito';
+$string['privacy:metadata:completed:anonymousresponse'] = 'Se a submissão deve ser anónima.';
+$string['privacy:metadata:completed:timemodified'] = 'A hora em que a submissão foi modificado pelo última vez.';
+$string['privacy:metadata:completedtmp'] = 'O registo de submissões que estão ainda em progresso.';
+$string['privacy:metadata:completed:userid'] = 'O ID do utilizador que completou a atividade inquérito.';
+$string['privacy:metadata:value'] = 'O registo da resposta a uma questão.';
+$string['privacy:metadata:valuetmp'] = 'O registo da resposta à questão numa submissão em progresso.';
+$string['privacy:metadata:value:value'] = 'A resposta escolhida.';
 $string['public'] = 'Público';
 $string['question'] = 'Questão';
 $string['questionandsubmission'] = 'Configurações da questão e da submissão';

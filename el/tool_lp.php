@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lp', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,15 +29,15 @@ $string['actions'] = 'Ενέργειες';
 $string['activities'] = 'Δραστηριότητες';
 $string['addcohorts'] = 'Προσθήκη ομάδας χρηστών';
 $string['addcohortstosync'] = 'Προσθήκη ομάδων χρηστών για συγχρονισμό';
-$string['addcompetency'] = 'Προσθήκη δεξιότητας';
-$string['addcoursecompetencies'] = 'Προσθήκη δεξιοτήτων στο μάθημα';
+$string['addcompetency'] = 'Προσθήκη προσόντος';
+$string['addcoursecompetencies'] = 'Προσθήκη προσόντων στο μάθημα';
 $string['addcrossreferencedcompetency'] = 'Προσθήκη διασταυρωμένου προσόντος';
 $string['addingcompetencywillresetparentrule'] = 'Η προσθήκη νέου προσόντος θα διαγράψει τον κανόνα που ορίστηκε στο \'{$a}\'. Θέλετε σίγουρα να συνεχίσετε;';
-$string['addnewcompetency'] = 'Προσθήκη νέας δεξιότητας';
-$string['addnewcompetencyframework'] = 'Προσθήκη νέου πλαισίου δεξιοτήτων';
+$string['addnewcompetency'] = 'Προσθήκη νέου προσόντος';
+$string['addnewcompetencyframework'] = 'Προσθήκη νέου πλαισίου προσόντων';
 $string['addnewplan'] = 'Προσθήκη νέου εκπαιδευτικού πλάνου';
 $string['addnewtemplate'] = 'Προσθήκη νέου προτύπου εκπαιδευτικού πλάνου';
-$string['addtemplatecompetencies'] = 'Προσθήκη δεξιοτήτων στο πρότυπο εκπαιδευτικού πλάνου';
+$string['addtemplatecompetencies'] = 'Προσθήκη προσόντων στο πρότυπο εκπαιδευτικού πλάνου';
 $string['assigncohorts'] = 'Ανάθεση ομάδων χρηστών';
 $string['cannotaddrules'] = 'Αυτό το προσόν δεν μπορεί να ρυθμιστεί.';
 $string['category'] = 'Κατηγορία';
@@ -46,7 +46,7 @@ $string['competenciesforframework'] = 'Προσόντα για {$a}';
 $string['competenciesmostoftennotproficient'] = 'Προσόντα συνηθέστερα όχι άριστα σε ολοκληρωμένα μαθησιακά πλάνα';
 $string['competenciesmostoftennotproficientincourse'] = 'Προσόντα συνηθέστερα όχι άριστα σε αυτό το μάθημα';
 $string['competencycannotbedeleted'] = 'Το προσόν \'{$a}\' δεν μπορεί να διαγραφεί';
-$string['competencycreated'] = 'Το προόν δημιουργήθηκε';
+$string['competencycreated'] = 'Το προσόν δημιουργήθηκε';
 $string['competencycrossreferencedcompetencies'] = '\'{$a}\' διασταυρωμένα προσόντα';
 $string['competencyframework'] = 'Πλαίσιο προσόντων';
 $string['competencyframeworkcreated'] = 'Το πλαίσιο προσόντων δημιουργήθηκε.';
@@ -118,7 +118,7 @@ $string['sendallcompetenciestoreview'] = 'Στείλτε όλα τα εξετα�
 $string['sendcompetenciestoreview'] = 'Στείλετε τα προσόντα για επανεξέταση';
 $string['stopsyncingcohort'] = 'Τερματισμός συγχρονισμού ομάδας χρηστών';
 $string['taxonomy_add_behaviour'] = 'Προσθήκη συμπεριφοράς';
-$string['taxonomy_add_competency'] = 'Προσθήκη δεξιότητας';
+$string['taxonomy_add_competency'] = 'Προσθήκη προσόντος';
 $string['taxonomy_add_concept'] = 'Προσθήκη έννοιας';
 $string['taxonomy_add_domain'] = 'Προσθήκη τομέα';
 $string['taxonomy_add_indicator'] = 'Προσθήκη δείκτη';

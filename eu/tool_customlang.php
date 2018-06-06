@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_customlang', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,6 +55,7 @@ $string['placeholder_help'] = 'Leku-markak `{$a}` edo `{$a->something}` moduko s
 
 Garrantzitsua da leku-marka jatorrizko katean dagoen modu zehatzean kopiatzea. Ez ezazu euskaratu edo aldatu bere norabidea.';
 $string['placeholderwarning'] = 'kateak leku-marka du';
-$string['pluginname'] = 'Hizkuntzaren pertsonalizazioa';
+$string['pluginname'] = 'Hizkuntzen pertsonalizazioa';
+$string['privacy:metadata'] = 'Hizkuntzen pertsonalizazioa pluginak ez du datu pertsonalik biltzen.';
 $string['savecheckin'] = 'Gorde aldaketak hizkuntza-paketean';
 $string['savecontinue'] = 'Aplikatu aldaketak eta jarraitu editatzen';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_replace', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_replace', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_replace
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['notimplemented'] = 'Sentitzen dugu, funtzionalitate hau ez dago zure da
 $string['notsupported'] = 'Script hau esperimentaltzat hartu beharko litzateke. Aldaketekin ezin da atzera egin, eta beraz, segurtasun-kopia oso bat egin beharko litzateke scripta exekutatu baino lehen!';
 $string['pageheader'] = 'Bilatu eta ordeztu testua datu-base osoan zehar';
 $string['pluginname'] = 'Bilatu eta ordezkatu datu-basean';
+$string['privacy:metadata'] = 'Bilatu eta ordezkatu datu-basean pluginak ez du datu pertsonalik biltzen.';
 $string['replacewith'] = 'Ordezkatu kate honekin';
 $string['replacewithhelp'] = 'normalean zerbitzari berriaren URLa';
 $string['searchwholedb'] = 'Bilatu datu-base osoan zehar honen bila:';

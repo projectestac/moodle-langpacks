@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotpot', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'hotpot', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   hotpot
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,7 +42,7 @@ $string['feedbackmoodleforum'] = 'Ομάδα συζήτησης Moodle';
 $string['feedbackmoodlemessaging'] = 'Μηνύματα Moodle';
 $string['feedbacknone'] = 'Κανένα';
 $string['feedbackwebpage'] = 'Ιστοσελίδα';
-$string['forceplugins'] = 'Επιβολή των υπομονάδων λογισμικού για πολυμέσα';
+$string['forceplugins'] = 'Επιβολή προσθέτων πολυμέσων';
 $string['giveup'] = 'Εγκαταλείψτε';
 $string['hints'] = 'Υποδείξεις';
 $string['hotpot:attempt'] = 'Δοκιμάστε ένα κουίζ';

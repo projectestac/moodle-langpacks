@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_messageinbound', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'Nom de la classe';
 $string['component'] = 'Composant';
-$string['configmessageinboundhost'] = 'L\'adresse du serveur sur lequel Moodle devra vérifier les courriels. Pour indiquer un port non standard, veuillez utiliser la syntaxe [serveur]:[port], par exemple mail.exemple.fr:587. Si ce champ est laissé vide, Moodle utilisera le port par défaut pour le type de serveur de mail indiqué.';
+$string['configmessageinboundhost'] = 'L\'adresse du serveur sur lequel Moodle devra vérifier les courriels. Pour indiquer un port non standard, utiliser la syntaxe [serveur]:[port], par exemple mail.exemple.fr:587. Si un port n\'est pas indiqué, le port par défaut pour le type de serveur de courriel sera utilisé.';
 $string['defaultexpiration'] = 'Échéance de l\'adresse par défaut';
 $string['defaultexpiration_help'] = 'Une durée d\'échéance peut être associée à l\'adresse de courriel générée par le gestionnaire, permettant que cette adresse ne puisse plus être utilisée une fois cette durée échue. Il est recommandé de fournir une telle échéance.';
 $string['description'] = 'Description';
@@ -99,6 +99,12 @@ $string['onehour'] = 'Une heure';
 $string['oneweek'] = 'Une semaine';
 $string['oneyear'] = 'Une année';
 $string['pluginname'] = 'Configuration';
+$string['privacy:metadata:coreuserkey'] = 'Clefs de l\'utilisateur pour valider le courriel reçu';
+$string['privacy:metadata:messagelist'] = 'Une liste des identifiants de message dont la validation a échoué et qui requiert une autorisation supplémentaire';
+$string['privacy:metadata:messagelist:address'] = 'L\'adresse à laquelle le courriel a été envoyé';
+$string['privacy:metadata:messagelist:messageid'] = 'L\'identifiant du message';
+$string['privacy:metadata:messagelist:timecreated'] = 'La date et l\'heure de l\'enregistrement';
+$string['privacy:metadata:messagelist:userid'] = 'L\'identifiant de l\'utilisateur devant approuver le message';
 $string['replysubjectprefix'] = 'Re:';
 $string['requirevalidation'] = 'Valider l\'adresse d\'expédition';
 $string['ssl'] = 'SSL (détection automatique de la version)';

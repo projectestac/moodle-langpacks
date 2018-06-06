@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'de', branch 'MOODLE_32_STABLE'
+ * Strings for component 'hvp', language 'de', branch 'MOODLE_34_STABLE'
  *
  * @package   hvp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -115,9 +115,9 @@ $string['hubisdisabled'] = 'Der Hub ist deaktiviert. Sie können ihn in den H5P-
 $string['hubisdisableduploadlibraries'] = 'Der H5P Hub wurde deaktiviert, bis dieses Problem behoben werden kann. Sie können immer noch Bibliotheken über die Seite "H5P-Bibliotheken" hochladen.';
 $string['hubsettingsheader'] = 'Inhaltstypen';
 $string['hvp:addinstance'] = 'Neue H5P-Aktivität hinzufügen';
-$string['hvp:getcachedassets'] = 'H5P-Inhalte aus dem Cache holen';
-$string['hvp:getembedcode'] = 'H5P-Code zum Einbetten anzeigen (wenn Anzeige über Berechtigungen geregelt wird)';
-$string['hvp:getexport'] = 'H5P-Inhalt im Kurs als Datei exportieren';
+$string['hvp:getcachedassets'] = 'Notwendig zum Anzeigen von H5P-Aktivitäten';
+$string['hvp:getembedcode'] = 'H5P-Code zum Einbetten anzeigen, wenn die Berechtigung freigegeben ist';
+$string['hvp:getexport'] = 'H5P-Datei herunterladen, wenn die Berechtigung freigegeben ist';
 $string['hvp:installrecommendedh5plibraries'] = 'Empfohlene H5P-Bibliotheken installieren';
 $string['hvp:manage'] = 'Vorhandene H5P-Aktivititäten bearbeiten.';
 $string['hvp:restrictlibraries'] = 'H5P-Bibliothek beschränken';
@@ -128,7 +128,7 @@ $string['hvp:userestrictedlibraries'] = 'Beschränkte H5P-Bibliotheken verwenden
 $string['hvp:view'] = 'H5P-Aktivitäten anzeigen und verwenden';
 $string['hvp:viewallresults'] = 'Alle Ergebnisse für abgeschlossene H5P-Aktivitäten anzeigen';
 $string['hvp:viewresults'] = 'Eigene Ergebnisse für abgeschlossene H5P-Aktivitäten anzeigen';
-$string['installdenied'] = 'Sie haben keine Berechtigung, Inhaltstypen zu installieren. Wenden Sie sich an den Administrator.';
+$string['installdenied'] = 'Sie haben keine Berechtigung, H5P-Inhaltstypen zu installieren. Wenden Sie sich an den Administrator.';
 $string['installedlibraries'] = 'Installierte Bibliotheken';
 $string['intro'] = 'Beschreibung';
 $string['invalidaudioformat'] = 'Ungültiges Audioformate. Nur mp3 und wav sind erlaubt.';

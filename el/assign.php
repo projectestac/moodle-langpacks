@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assign', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -74,14 +74,14 @@ $string['attemptreopenmethod_manual'] = 'Χειροκίνητα';
 $string['attemptreopenmethod_none'] = 'Ποτέ';
 $string['attemptsettings'] = 'Ρυθμίσεις προσπάθειας';
 $string['availability'] = 'Διαθεσιμότητα';
-$string['backtoassignment'] = 'Επιστροφή στην εργασία';
+$string['backtoassignment'] = 'Πίσω στην εργασία';
 $string['batchoperationconfirmaddattempt'] = 'Να επιτραπεί νέα προσπάθεια για τις επιλεγμένες υποβολές;';
 $string['batchoperationconfirmdownloadselected'] = 'Λήψη επιλεγμένων υποβολών;';
 $string['batchoperationconfirmlock'] = 'Κλείδωμα όλων των επιλεγμένων καταχωρίσεων;';
 $string['batchoperationconfirmunlock'] = 'Ξεκλείδωμα όλων των επιλεγμένων καταχωρίσεων;';
 $string['batchoperationlock'] = 'κλείδωμα καταχωρίσεων';
 $string['batchoperationsdescription'] = 'Με τα επιλεγμένα...';
-$string['batchoperationunlock'] = 'ξεκλείδωμα υποβολών';
+$string['batchoperationunlock'] = 'ξεκλείδωμα καταχωρίσεων';
 $string['changeuser'] = 'Αλλαγή χρήστη';
 $string['choosegradingaction'] = 'Βαθμολόγηση';
 $string['choosemarker'] = 'Επέλεξε....';
@@ -102,7 +102,7 @@ $string['defaultteam'] = 'Προεπιλεγμένη ομάδα';
 $string['deleteallsubmissions'] = 'Διαγραφή όλων των καταχωρίσεων';
 $string['description'] = 'Περιγραφή';
 $string['disabled'] = 'Ανενεργό';
-$string['downloadall'] = 'Κατέβασμα όλων των καταχωρίσεων';
+$string['downloadall'] = 'Λήψη όλων των καταχωρίσεων';
 $string['downloadasfolders'] = 'Λήψη υποβολών σε φακέλους';
 $string['downloadasfolders_help'] = 'Αν η υποβολή της εργασίας αποτελείται από παραπάνω από ένα αρχείο, τότε η λήψη των υποβολών μπορεί να γίνει σε φακέλους. Κάθε υποβολή τοποθετείται σε ξεχωριστό φάκελο, ενώ διατηρείται η δομή των υποφακέλων (αν υπάρχουν) και η ονομασία των αρχείων (δεν μετονομάζονται).';
 $string['downloadselectedsubmissions'] = 'Λήψη επιλεγμένων υποβολών';
@@ -112,13 +112,14 @@ $string['duedateno'] = 'Χωρίς καταληκτική ημερομηνία';
 $string['duplicateoverride'] = 'Παράκαμψη διπλότυπων';
 $string['editaction'] = 'Ενέργειες...';
 $string['editingstatus'] = 'Επεξεργασία κατάστασης';
+$string['editonline'] = 'Επεξεργασία online';
 $string['editoverride'] = 'Παράκαμψη επεξεργασίας';
-$string['editsubmission'] = 'Επεξεργασία υποβολής';
+$string['editsubmission'] = 'Τροποποίηση της υποβολής μου';
 $string['editsubmission_help'] = 'Τροποποίηση της καταχώρισης σας';
-$string['editsubmissionother'] = 'Επεξεργασία υποβολής για {$a}';
-$string['enabled'] = 'Ενεργοποιημένο';
-$string['errornosubmissions'] = 'Δεν υπάρχουν καταχωρίσεις για κατέβασμα';
-$string['eventallsubmissionsdownloaded'] = 'Όλες οι καταχωρίσεις κατεβαίνουν.';
+$string['editsubmissionother'] = 'Επεξεργασία καταχώρισης για {$a}';
+$string['enabled'] = 'Ενεργοποίηση';
+$string['errornosubmissions'] = 'Δεν υπάρχουν καταχωρίσεις για λήψη';
+$string['eventallsubmissionsdownloaded'] = 'Γίνεται λήψη όλων των καταχωρίσεων.';
 $string['eventassessablesubmitted'] = 'Έχει γίνει υποβολή εργασίας.';
 $string['eventextensiongranted'] = 'Έχει χορηγηθεί παράταση.';
 $string['eventidentitiesrevealed'] = 'Οι ταυτότητες έχουν αποκαλυφθεί.';
@@ -129,7 +130,7 @@ $string['eventsubmissioncreated'] = 'Η υποβολή δημιουργήθηκ�
 $string['eventsubmissiongraded'] = 'Η υποβολή έχει βαθμολογηθεί.';
 $string['eventsubmissionstatusupdated'] = 'Η κατάσταση της υποβολής έχει ενημερωθεί.';
 $string['eventsubmissionupdated'] = 'Η υποβολή ενημερώθηκε.';
-$string['feedback'] = 'Ανατροφοδότηση';
+$string['feedback'] = 'Επανατροφοδότηση';
 $string['feedbackavailablesmall'] = 'Ο/Η {$a->username} έχει δώσει πληροφορίες/σχόλιο για την εργασία {$a->assignment}';
 $string['feedbackplugin'] = 'Πρόσθετο ανατροφοδότησης';
 $string['feedbackpluginforgradebook'] = 'Πρόσθετο ανατροφοδότησης που προωθεί σχόλια στο βαθμολόγιο';
@@ -138,6 +139,7 @@ $string['feedbackplugins'] = 'Πρόσθετα ανατροφοδότησης';
 $string['feedbacktypes'] = 'Τύποι ανατροφοδότησης';
 $string['filesubmissions'] = 'Υποβολές αρχείων';
 $string['filter'] = 'Φίλτρο';
+$string['filtergrantedextension'] = 'Χορηγήθηκε παράταση';
 $string['filternone'] = 'Κανένα φίλτρο';
 $string['filternotsubmitted'] = 'Δεν υποβλήθηκαν';
 $string['filterrequiregrading'] = 'Χρειάζεται βαθμολόγηση';
@@ -158,6 +160,9 @@ $string['gradersubmissionupdatedtext'] = 'Ο/Η φοιτητής/τρια {$a->u
 $string['gradeuser'] = 'Βαθμολόγησε {$a}';
 $string['grading'] = 'Βαθμολόγηση';
 $string['gradingchangessaved'] = 'Οι αλλαγές στη βαθμολογία αποθηκεύτηκαν';
+$string['gradingduedate'] = 'Υπενθύμιση βαθμολόγησης μέχρι';
+$string['gradingdueduedatevalidation'] = 'Η ημερομηνία "βαθμολόγηση μέχρι" δεν μπορεί να είναι προγενέστερη από την καταληκτική ημερομηνία.';
+$string['gradingduefromdatevalidation'] = 'Η ημερομηνία "βαθμολόγηση μέχρι" δεν μπορεί να είναι προγενέστερη από την ημερομηνία "έναρξη υποβολών".';
 $string['gradingmethodpreview'] = 'Κριτήρια βαθμολόγησης';
 $string['gradingoptions'] = 'Επιλογές';
 $string['gradingstatus'] = 'Κατάσταση Βαθμολόγησης';

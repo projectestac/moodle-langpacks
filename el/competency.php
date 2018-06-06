@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'competency', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,7 +62,7 @@ $string['evidence_manualoverrideincourse'] = 'Η εκτίμηση του προ�
 $string['evidence_manualoverrideinplan'] = 'Η εκτίμηση του προσόντος έγινε μη αυτόματα στο μαθησιακό πλάνο \'{$a}\'.';
 $string['planstatusinreview'] = 'Επανεξέταση';
 $string['pushcourseratingstouserplans_desc'] = 'Προεπιλεγμένη τιμή για τη ρύθμιση μαθήματος κατά την ενημέρωση προσωπικών μαθησιακών πλάνων όταν εκτιμώνται προσόντα μαθήματος.';
-$string['syncplanscohorts'] = 'Συγχρονισμός πλάνων από ομάδες χρηστών προτύπου εκπαιδευτικού πλάνου';
+$string['syncplanscohorts'] = 'Συγχρονισμός πλάνων μέσω προτύπων πλάνου συνόλων χρηστών';
 $string['taxonomy_competency'] = 'Προσόν';
 $string['taxonomy_domain'] = 'Τομέας';
 $string['usercommentedonacompetency'] = 'Ο/Η {$a->fullname} σχολίασε για το προσόν "{$a->competency}": {$a->comment} Δες: {$a->url}';

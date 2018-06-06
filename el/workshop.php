@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshop', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,9 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['aggregation'] = 'Συνάθροιση βαθμών';
 $string['allocation'] = 'Κατανομή υποβολής';
 $string['allowedfiletypesforoverallfeedback'] = 'Επιτρεπόμενοι τύποι αρχείων συνημμένου ανατροφοδότησης';
-$string['allowedfiletypesforoverallfeedback_help'] = 'Οι επιτρεπόμενοι τύποι αρχείων συνημμένου ανατροφοδότησης μπορούν να περιοριστούν εισάγοντας μια λίστα με επεκτάσεις αρχείων που χωρίζονται με κόμματα, για παράδειγμα \'mp4, mp3, png, jpg\'. Αν το πεδίο είναι κενό, τότε επιτρέπονται όλοι οι τύποι αρχείων.';
 $string['allowedfiletypesforsubmission'] = 'Επιτρεπόμενοι τύποι αρχείων συνημμένου υποβολής';
-$string['allowedfiletypesforsubmission_help'] = 'Οι επιτρεπόμενοι τύποι αρχείων συνημμένου υποβολής μπορούν να περιοριστούν εισάγοντας μια λίστα με επεκτάσεις αρχείων που χωρίζονται με κόμματα, για παράδειγμα \'mp4, mp3, png, jpg\'. Αν το πεδίο είναι κενό, τότε επιτρέπονται όλοι οι τύποι αρχείων.';
 $string['areainstructauthors'] = 'Οδηγίες για την υποβολή';
 $string['areainstructreviewers'] = 'Οδηγίες για την αξιολόγηση';
 $string['areaoverallfeedbackattachment'] = 'Συνημμένα συνολικής ανατροφοδότησης';

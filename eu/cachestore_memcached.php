@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_memcached', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cachestore_memcached', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   cachestore_memcached
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,6 +55,8 @@ $string['pluginname'] = 'Memcached';
 $string['prefix'] = 'Aurrizki-gakoa';
 $string['prefix_help'] = 'Aukera hau zure elementuen gakoentzako "domeinu" bat sortzeko erabili daiteke, eta horrela memecached instalazio bakarrean memcached biltegi anitz sortzeko aukera izango duzu. Ezin da 16 karaktere baino luzeagoa izan gako-luzera arazoak gertatzen ez direla bermatzeko.';
 $string['prefixinvalid'] = 'Aurrizki baliogabea. Bakarrik erabil ditzakezu ondokoak: a-z A-Z 0-9-_.';
+$string['privacy:metadata:memcached'] = 'Memcached cache-biltegi pluginak datuak laburki gordetzen ditu bere cache-funtzioaren baitan. Datu hauek Memcached zerbitzari batean gordetzen dira, eta bertan datuak erregularki ezabatzen dira.';
+$string['privacy:metadata:memcached:data'] = 'Cachean gordetako era askotako datuak';
 $string['serialiser_igbinary'] = 'igbinary serializatzailea.';
 $string['serialiser_json'] = 'JSON serializatzailea.';
 $string['serialiser_php'] = 'Berezko PHP serializatzailea.';

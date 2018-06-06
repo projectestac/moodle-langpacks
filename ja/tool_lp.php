@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lp', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -179,6 +179,7 @@ $string['planupdated'] = '学習プランが更新されました。';
 $string['pluginname'] = '学習プラン';
 $string['points'] = '評点';
 $string['pointsgivenfor'] = '「 {$a} 」の評点';
+$string['privacy:metadata'] = '学習プランプラグインはどのような個人データも保存しません。';
 $string['proficient'] = '熟達';
 $string['progress'] = '進捗';
 $string['rate'] = '評定';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_database', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'logstore_database', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   logstore_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['buffersize'] = 'Μέγεθος προσωρινής μνήμης';
+$string['buffersize'] = 'Μέγεθος ενδιάμεσης μνήμης';
 $string['buffersize_help'] = 'Αριθμός καταγραφών ανά δέσμη εισαγωγής στη βάση δεδομένων, για βελτίωση της απόδοσης.';
 $string['conectexception'] = 'Αδυναμία σύνδεσης με την βάση δεδομένων';
 $string['create'] = 'Δημιουργία';
@@ -37,7 +37,7 @@ $string['databaseschema'] = 'Σχήμα βάσης δεδομένων';
 $string['databasesettings'] = 'Ρυθμίσεις βάσης δεδομένων';
 $string['databasesettings_help'] = 'Λεπτομέρειες σύνδεσης για την εξωτερική βάση δεδομένων καταγραφών: {$a}';
 $string['databasetable'] = 'Πίνακας βάσης δεδομένων';
-$string['databasetable_help'] = 'Το όνομα του πίνακα όπου θα αποθηκευτούν τα αρχεία καταγραφής. Αυτός ο πίνακας πρέπει να έχει δομή ίδια με αυτή που χρησιμοποιείται από το logstore_standard (mdl_logstore_standard_log).';
+$string['databasetable_help'] = 'Το όνομα του πίνακα όπου θα αποθηκευτούν οι καταγραφές. Αυτός ο πίνακας πρέπει να έχει δομή ίδια με αυτή που χρησιμοποιείται από το logstore_standard (mdl_logstore_standard_log).';
 $string['filters'] = 'Φίλτρα καταγραφών';
 $string['filters_help'] = 'Ενεργοποιήστε φίλτρα που εξαιρούν μερικές ενέργειες από την καταγραφή';
 $string['includeactions'] = 'Περίλαβε ενέργειες αυτών των τύπων';

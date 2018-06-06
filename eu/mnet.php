@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'mnet', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -147,7 +147,7 @@ $string['noaclentries'] = 'Ez dago sarrerarik SSO sarbidearen kontrol-zerrendan'
 $string['noaddressforhost'] = 'Sentitzen dugu, baina ({$a}) ostalariaren izena ezin izan da ebatzi.';
 $string['nocurl'] = 'PHP cURL liburutegia ez dago instalatuta';
 $string['nolocaluser'] = 'Ez da erregistro lokalik existitzen urrutiko erabiltzailearentzat, eta ezin izan da sortu ostalari honek ez duelako erabiltzaileen sorrera automatikoa baimentzen. Mesedez jarri harremanetan zure kudeatzailearekin!';
-$string['nomodifyacl'] = 'Ez duzu MNet sarbiderako kontrol-zerrenda aldatzeko baimenik.';
+$string['nomodifyacl'] = 'Ez duzu MNET sarbiderako kontrol-zerrenda aldatzeko baimenik.';
 $string['nonmatchingcert'] = 'Ziurtagiriaren subjektua: <br /><em>{$a->subject}</em><br /> ez dator bat datorren ostalariarekin:<br /><em>{$a->host}</em>.';
 $string['nopubkey'] = 'Arazo bat egon da gako publikoa eskuratzean.<br />Baliteke ostalariak MNet ez onartzea edo gakoa baliogabea izatea.';
 $string['nosite'] = 'Ezin izan da ikastarorik aurkitu gunearen mailan';
@@ -174,6 +174,7 @@ $string['permittedtransports'] = 'Baimendutako garraioak';
 $string['phperror'] = 'PHP barruko errore batek zure eskaera ondo egitea saihestu du.';
 $string['position'] = 'Kokalekua';
 $string['postrequired'] = 'delete funtzioak POST eskaera bat behar du.';
+$string['privacy:metadata'] = 'Moodle sarea pluginak ez du datu pertsonalik biltzen.';
 $string['profileexportfields'] = 'Bidaltzeko eremuak';
 $string['profilefielddesc'] = 'Hemen MNet bitartez erabiltzaile-kontu berriak sortzean edo eguneratzean bidaliko diren profil-eremuen zerrenda konfigura dezakezu. Hau MNet kide bakoitzarentzat ere baliogabe dezakezu. Kontuan izan eremu hauek beti bidaltzen direla eta ez direla aukerazkoak: {$a}';
 $string['profilefields'] = 'Profil-eremuak';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_community', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_community', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   block_community
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,6 +96,12 @@ $string['orderbypublisher'] = 'Egilea';
 $string['orderbyratingaverage'] = 'Puntuazioa';
 $string['outcomes'] = 'Ikas-emaitzak: {$a}';
 $string['pluginname'] = 'Komunitate-bilatzailea';
+$string['privacy:metadata:block_community'] = 'Komunitate-bilatzailea blokeak partekatutako komunitateetan erabiltzailea matrikulatu daitekeen ikastaroen estekak gordetzen ditu.';
+$string['privacy:metadata:block_community:coursedescription'] = 'Estekatutako komunitate-ikastaroaren deskribapena.';
+$string['privacy:metadata:block_community:coursename'] = 'Estekatutako komunitateko ikastaroaren izena.';
+$string['privacy:metadata:block_community:courseurl'] = 'Estekatutako komunitateko ikastaroaren URLa.';
+$string['privacy:metadata:block_community:imageurl'] = 'Estekatutako komunitateko ikastaroaren irudiaren URLa.';
+$string['privacy:metadata:block_community:userid'] = 'Estekatutako komunitateko ikastaroaren sortzailearen IDa.';
 $string['rateandcomment'] = 'Puntuatu eta iruzkindu';
 $string['rating'] = 'Puntuazioa';
 $string['removecommunitycourse'] = 'Ezabatu komunitate-ikastaroa';

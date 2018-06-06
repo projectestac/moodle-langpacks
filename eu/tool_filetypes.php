@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_filetypes', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_filetypes', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_filetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,7 @@ Ikonoen zerrenda Moodle-ko instalazio barruko  /pix/f karpetatik hartzen da. Beh
 $string['mimetype'] = 'MIME mota';
 $string['mimetype_help'] = 'Fitxategi-mota honekin lotutako MIME mota, \'application/x-mobipocket-ebook\' adibidez';
 $string['pluginname'] = 'Fitxategi-motak';
+$string['privacy:metadata'] = 'Fitxategi-motak pluginak ez du datu pertsonalik biltzen.';
 $string['revert'] = 'Berrezarri {$a} Moodle-ko berezko balioetara';
 $string['revert_confirmation'] = 'Ziur zaude <strong>.{$a}</strong> Moodle-ko berezko balioetara berrezarri nahi duzula, zure aldaketak baztertuta?';
 $string['revertfiletype'] = 'Berrezarri fitxategi-mota';

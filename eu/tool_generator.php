@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_generator', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_generator', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_generator
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,6 +61,7 @@ $string['maketestcourse'] = 'Sortu probetarako ikastaroa';
 $string['maketestplan'] = 'Sortu JMeter proba-plana';
 $string['notenoughusers'] = 'Aukeratutako ikastaroak ez dauka nahikoa erabiltzailerik';
 $string['pluginname'] = 'Ausazko ikastaro-sortzailea';
+$string['privacy:metadata'] = 'Garapenerako datu-sortzailea pluginak ez du datu pertsonalik biltzen.';
 $string['progress_checkaccounts'] = '({$a}) erabiltzaile-kontuak egiaztatzen';
 $string['progress_coursecompleted'] = 'Ikastaroa osatu da ({$a}s)';
 $string['progress_createaccounts'] = 'Erabiltzaile-kontuak sortzen ({$a->from}-(e)tik {$a->to})-(e)ra';

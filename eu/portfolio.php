@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'portfolio', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   portfolio
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -169,6 +169,23 @@ $string['plugincouldnotpackage'] = 'Zure datuak esportatzeko paketea sortzeak hu
 $string['pluginismisconfigured'] = 'Portfolioaren instantzia gaizki konfiguratuta dago, albo batera uzten. Errorea ondokoa da:  {$a}';
 $string['portfolio'] = 'Portfolioa';
 $string['portfolios'] = 'Portfolioak';
+$string['privacy:metadata'] = 'Portfolioaren azpisistemak kanal gisa funtzionatzen du, pluginetako eskaerak portfolio-pluginetara bideratuz.';
+$string['privacy:metadata:instance'] = 'Portfolioaren identifikatzailea.';
+$string['privacy:metadata:instancesummary'] = 'Hemen erabiltzaileak erabiltzen dituen portfolioen instantzia eta hobespenak gordetzen dira.';
+$string['privacy:metadata:name'] = 'Hobespenaren izena.';
+$string['privacy:metadata:portfolio_log'] = 'Portfolio-transferentzien erregistroa (beranduagoko bikoiztutakoen egiaztatzeetarako erabilia)';
+$string['privacy:metadata:portfolio_log:caller_class'] = 'Transferentzia sortzeko erabilitako klasearen izena';
+$string['privacy:metadata:portfolio_log:caller_component'] = 'Esportatzeaz arduratzen den osagaiaren izena';
+$string['privacy:metadata:portfolio_log:time'] = 'Transferentziaren unea (ilaratutako transferentzien kasuan hau transferentzia exekutatu zeneko unea da, eta ez erabiltzaileak programatu zuenekoa)';
+$string['privacy:metadata:portfolio_log:userid'] = 'Edukia esportatu zuen erabiltzailea';
+$string['privacy:metadata:portfolio_tempdata'] = 'Portfolio-esportazioen datuak behin behinean gordetzen ditu, cron-ak egun bat igarotzean garbitzen duena';
+$string['privacy:metadata:portfolio_tempdata:data'] = 'Esportatu datuak';
+$string['privacy:metadata:portfolio_tempdata:expirytime'] = 'Erregistro hau iraungituko den unea';
+$string['privacy:metadata:portfolio_tempdata:instance'] = 'Erabiltzen ari den portfolio-plugin instantzia';
+$string['privacy:metadata:portfolio_tempdata:userid'] = 'Esportazioa egin zuen erabiltzailea';
+$string['privacy:metadata:userid'] = 'Erabiltzailearen identifikatzailea.';
+$string['privacy:metadata:value'] = 'Hobespenaren balioa.';
+$string['privacy:path'] = 'Portfolio-instantziak';
 $string['queuesummary'] = 'Une honetan ilaran dauden transferentziak';
 $string['returntowhereyouwere'] = 'Itzuli aurreko tokira';
 $string['save'] = 'Gorde';

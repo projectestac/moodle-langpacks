@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,6 +68,7 @@ $string['nestedcategories'] = 'ネストカテゴリを許可する';
 $string['nestedcategories_desc'] = 'この設定を有効にした場合、IMS Enterpriseはネストカテゴリを作成します。';
 $string['pluginname'] = 'IMSエンタープライズファイル';
 $string['pluginname_desc'] = 'このメソッドではあなたが指定した場所にある特別にフォーマットされたテキストファイルを繰り返しチェックおよび処理します。IMSエンタープライズ仕様に基づき、ファイルにはperson、groupおよびmembershipをXML要素に含む必要があります。';
+$string['privacy:metadata'] = 'IMSエンタープライズファイル登録プラグインはどのような個人データも保存しません。';
 $string['processphoto'] = 'ユーザ写真データをプロファイルに追加する';
 $string['processphotowarning'] = '警告: イメージ処理はサーバに深刻な負荷を与えます。多くの学生の処理が予想される場合、このオプションを有効にしないことをお勧めします。';
 $string['restricttarget'] = '次のターゲットが指定されている場合のみ処理する';

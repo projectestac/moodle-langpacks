@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_manual', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_manual', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,8 +33,8 @@ $string['expiredaction_help'] = 'Επιλέξτε την ενέργεια που
 $string['manual:config'] = 'Παραμετροποίηση περιπτώσεων χειροκίνητης εγγραφής';
 $string['manual:enrol'] = 'Εγγραφή χρηστών';
 $string['manual:manage'] = 'Διαχείρηση εγγραφών χρηστών';
-$string['manual:unenrol'] = 'Ακύρωση εγγραφής χρηστών στο μάθημα';
-$string['manual:unenrolself'] = 'Ακύρωση εγγραφής στο μάθημα';
+$string['manual:unenrol'] = 'Απεγγραφή χρηστών από το μάθημα';
+$string['manual:unenrolself'] = 'Απεγγραφή του ιδίου από το μάθημα';
 $string['pluginname'] = 'Χειροκίνητες εγγραφές';
 $string['pluginname_desc'] = 'Το πρόσθετο χειροκίνητης εγγραφής επιτρέπει στους χρήστες να εγγράφονται αυτόματα μέσω ενός συνδέσμου στις ρυθμίσεις διαχείρισης του μαθήματος, από ένα χρήστη με τα κατάλληλα δικαιώματα όπως ένας δάσκαλος. Το πρόσθετο θα πρέπει κανονικά να είναι ενεργοποιημένο, εφόσον ορισμένες άλλες πρόσθετες λειτουργίες, όπως η αυτοεγγραφή, το απαιτούν.';
 $string['status'] = 'Ενεργοποίηση χειροκίνητων εγγραφών';

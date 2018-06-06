@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'badges', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -364,6 +364,34 @@ $string['personaconnection_help'] = 'Persona est un système permettant de vous 
 Pour plus de détails sur Persona, visitez <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Détenteurs potentiels du badge';
 $string['preferences'] = 'Préférences des badges';
+$string['privacy:metadata:backpack'] = 'Une liste des sacs à badges de l\'utilisateur';
+$string['privacy:metadata:backpack:backpackuid'] = 'L\'identifiant unique du sac à badges';
+$string['privacy:metadata:backpack:backpackurl'] = 'L\'URL du sac à badges';
+$string['privacy:metadata:backpack:email'] = 'L\'adresse de courriel associé au sac à badges';
+$string['privacy:metadata:backpack:userid'] = 'L\'identifiant de l\'utilisateur à qui appartient le sac à badges';
+$string['privacy:metadata:badge'] = 'Une collection de badges';
+$string['privacy:metadata:badge:timecreated'] = 'La date et l\'heure à laquelle le badge a été créé';
+$string['privacy:metadata:badge:timemodified'] = 'La date et l\'heure à laquelle le badge a été modifié pour la dernière fois';
+$string['privacy:metadata:badge:usercreated'] = 'L\'identifiant de l\'utilisateur qui a créé le badge';
+$string['privacy:metadata:badge:usermodified'] = 'L\'identifiant de l\'utilisateur qui a modifié le badge';
+$string['privacy:metadata:criteriamet'] = 'Une collection de critères qui ont été remplis';
+$string['privacy:metadata:criteriamet:datemet'] = 'La date et l\'heure à laquelle les critères ont été remplis';
+$string['privacy:metadata:criteriamet:userid'] = 'L\'identifiant de l\'utilisateur qui a rempli les critères';
+$string['privacy:metadata:external:backpacks'] = 'Informations partagées lorsque les utilisateurs envoient leurs badges vers un sac à badges externe';
+$string['privacy:metadata:external:backpacks:badge'] = 'Le nom du badge';
+$string['privacy:metadata:external:backpacks:description'] = 'La description du badge';
+$string['privacy:metadata:external:backpacks:image'] = 'L\'image du badge';
+$string['privacy:metadata:external:backpacks:issuer'] = 'Des informations sur l\'émetteur du badge';
+$string['privacy:metadata:external:backpacks:url'] = 'L\'URL Moodle à laquelle les informations du badge mis peuvent être consultées';
+$string['privacy:metadata:issued'] = 'Une liste des badges décernés';
+$string['privacy:metadata:issued:dateexpire'] = 'La date et l\'heure à laquelle le badge échoit';
+$string['privacy:metadata:issued:dateissued'] = 'La date et l\'heure à laquelle le badge a été décerné';
+$string['privacy:metadata:issued:userid'] = 'L\'identifiant de l\'utilisateur à qui a été décerné un badge';
+$string['privacy:metadata:manualaward'] = 'Uen liste des badges décernés manuellement';
+$string['privacy:metadata:manualaward:datemet'] = 'La date et l\'heure à laquelle l\'utilisateur a reçu le badge';
+$string['privacy:metadata:manualaward:issuerid'] = 'L\'identifiant de l\'utilisateur qui décerne le badge';
+$string['privacy:metadata:manualaward:issuerrole'] = 'Le rôle de l\'utilisateur qui décerne le badge';
+$string['privacy:metadata:manualaward:recipientid'] = 'L\'identifiant de l\'utilisateur à qui a été décerné manuellement un badge';
 $string['recipientdetails'] = 'Infos détenteur';
 $string['recipientidentificationproblem'] = 'Impossible de trouver parmi les utilisateurs un détenteur de ce badge.';
 $string['recipients'] = 'Détenteurs du badge';

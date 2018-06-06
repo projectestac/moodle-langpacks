@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_uploadcourse', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_uploadcourse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -101,6 +101,7 @@ $string['mode_help'] = 'ここであなたはコースを作成するのか、�
 $string['nochanges'] = '変更なし';
 $string['pluginname'] = 'コースアップロード';
 $string['preview'] = 'プレビュー';
+$string['privacy:metadata'] = 'コースアップロードプラグインはどのような個人データも保存しません。';
 $string['reset'] = 'アップロード後、コースをリセットする';
 $string['reset_help'] = '作成/アップロード後、コースをリセットするかどうか指定します。';
 $string['restoreafterimport'] = 'インポート後にリストアする';

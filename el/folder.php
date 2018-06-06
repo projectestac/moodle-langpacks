@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'folder', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   folder
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['contentheader'] = 'Περιεχόμενο';
-$string['downloadfolder'] = 'Φάκελλος ληφθέντων';
+$string['downloadfolder'] = 'Φάκελος λήψεων';
 $string['folder:addinstance'] = 'Προσθήκη νέου φακέλου';
 $string['folder:managefiles'] = 'Διαχείρηση αρχείων στην ενότητα φάκελος (folder module)';
 $string['folder:view'] = 'Εμφάνιση περιεχομένου φακέλου';

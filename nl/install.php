@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'install', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,7 +158,6 @@ $string['nativepgsqlhelp'] = '<p>De databank is waar de meeste Moodle-instelling
 $string['nativesqlsrv'] = 'SQL*Server Microsoft (native/sqlsrv)';
 $string['nativesqlsrvhelp'] = 'Nu moet je de databank waar de meeste gegevens van Moodle bewaard worden gaan configureren. Deze databank moet al gemaakt zijn en je moet een gebruikersnaam en wachtwoord hebben om er toegang toe te krijgen. Een tabelprefix is verplicht.';
 $string['nativesqlsrvnodriver'] = 'Microsoft Drivers voor SQL Server voor PHP zijn niet geïnstalleerd of niet goed geconfigureerd.';
-$string['nativesqlsrvnonwindows'] = 'Microsoft Drivers voor SQL Server voor PHP bestaan alleen voor het Windows OS';
 $string['ociextensionisnotpresentinphp'] = 'PHP is niet juist geconfigureerd met de OCI8-extentie en kan niet communiceren met Oracle. Controleer je php.ini-bestand of hercompileer PHP.';
 $string['pass'] = 'OK';
 $string['paths'] = 'Paden';
@@ -181,9 +180,9 @@ $string['pathswrongadmindir'] = 'De adminmap bestaat niet';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHP is niet juist geïnstalleerd met de PGSQL-extentie en kan niet communiceren met PostgreSQL. Controleer je php.ini-bestand of hercompileer PHP.';
 $string['phpextension'] = '{$a} PHP-extentie';
 $string['phpversion'] = 'PHP-versie';
-$string['phpversionhelp'] = '<p>Moodle vereist minstens PHP-versie 5.6.5 of 7.1 (7.0.x kent enige beperkingen).</p>
-<p>De huidige versie op je server is {$a}.</p>
-<p>Je moet PHP upgraden of verhuizen naar een host met een nieuwere versie van PHP.</p>';
+$string['phpversionhelp'] = '<p>Moodle heeft minstens PHP-versie 5.6.5 of 7.1 nodig (7.0.x heeft een aantal beperkingen).</p>
+<p>De huidige versie op je server is {$a}</p>
+<p>Je moet PHP upgraden of verhuizen naar een host met een nieuwere versie van PHP.<br />';
 $string['releasenoteslink'] = 'Informatie over deze Moodleversie kun je vinden in de Release Notes op {$a}';
 $string['safemode'] = 'Safe Mode';
 $string['safemodeerror'] = 'Moodle kan bestanden niet juist behandelen met safe mode ingeschakeld';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'chat', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,10 @@ $string['explainmethoddaemon'] = 'Egokitzapen hauek chat_method -en "Daemon txat
 $string['explainmethodnormal'] = 'Egokitzapen hauek chat_method -en "Metodo arrunta" aukeratu baduzu <strong>bakarrik</strong> daude indarrean';
 $string['generalconfig'] = 'Ezarpen orokorrak';
 $string['idle'] = 'Abian jarri gabe';
+$string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa txatetan';
+$string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Txat motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
+$string['indicator:socialbreadth'] = 'Gaitasun soziala txatetan';
+$string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Txat motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['inputarea'] = 'Input gunea';
 $string['invalidid'] = 'Ezin da aurkitu txat-gela hori!';
 $string['list_all_sessions'] = 'Saio guztien zerrenda.';
@@ -116,6 +120,20 @@ $string['page-mod-chat-x'] = 'Txat moduluaren edozein orri';
 $string['pastchats'] = 'Izandako txat-saioak';
 $string['pluginadministration'] = 'Txat-kudeaketa';
 $string['pluginname'] = 'Txat-gela';
+$string['privacy:metadata:chat_messages_current'] = 'Oraingo txat-saioa. Datu hauek behin behinekoak dira eta ezabatuak izaten dira txat-saioa ezabatzen denean.';
+$string['privacy:metadata:chat_users'] = 'Txat-gela bakoitzean dauden erabiltzaileen erregistroa gordetzen du';
+$string['privacy:metadata:chat_users:firstping'] = 'Txat-gelarako lehen sarbidearen unea';
+$string['privacy:metadata:chat_users:ip'] = 'Erabiltzailearen IPa';
+$string['privacy:metadata:chat_users:lang'] = 'Erabiltzailearen hizkuntza';
+$string['privacy:metadata:chat_users:lastmessageping'] = 'Txat-gelako azken mezuare unea';
+$string['privacy:metadata:chat_users:lastping'] = 'Txat-gelarako azken sarbidearen unea';
+$string['privacy:metadata:chat_users:userid'] = 'Erabiltzailearen IDa';
+$string['privacy:metadata:chat_users:version'] = 'Erabiltzailea txatera sartu zen modua (sockets/basic/ajax/header_js)';
+$string['privacy:metadata:messages'] = 'Txat-saioan zehar mezuak grabatu eta bidali dira.';
+$string['privacy:metadata:messages:issystem'] = 'Ea mezua sistemak sortu ote duen.';
+$string['privacy:metadata:messages:message'] = 'Mezua';
+$string['privacy:metadata:messages:timestamp'] = 'Mezua bidali deneko denbora.';
+$string['privacy:metadata:messages:userid'] = 'Mezua idatzi duen egilearen erabiltzaile IDa';
 $string['refreshroom'] = 'Gela freskatu';
 $string['refreshuserlist'] = 'Erabiltzaileen zerrenda freskatu';
 $string['removemessages'] = 'Mezu guztiak ezabatu';

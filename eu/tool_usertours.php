@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_usertours', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,12 @@ $string['event_tour_ended'] = 'Ibilaldia amaitu da';
 $string['event_tour_reset'] = 'Berrabiarazi ibilaldia';
 $string['event_tour_started'] = 'Ibilaldia hasi da';
 $string['exporttour'] = 'Esportatu ibilaldia';
+$string['filter_category'] = 'Kategoria';
+$string['filter_category_help'] = 'Erakutsi ibilaldia aukeratutako kategorian dagoen ikastaro batekin lotuta dagoen orri batean.';
+$string['filter_course'] = 'Ikastaroak';
+$string['filter_courseformat'] = 'Ikastaro-formatua';
+$string['filter_courseformat_help'] = 'Erakutsi ibilaldia aukeratutako ikastaro-formatua erabiltzen duen ikastaro batekin lotuta dagoen orri batean.';
+$string['filter_course_help'] = 'Erakutsi ibilaldia aukeratutako ikastaroarekin lotuta dagoen orri batean.';
 $string['filter_header'] = 'Ibilaldiaren iragazkiak';
 $string['filter_help'] = 'Aukeratu ibilaldia erakusteko bete beharreko baldintzak. Iragazki guztiak bete behar dira ibilaldi bat erabiltzaile bati erakusteko.';
 $string['filter_role'] = 'Rola';
@@ -100,6 +106,10 @@ $string['placement_help'] = 'Urrats bakoitza jomugaren gainean, azpian, ezkerrea
 
 Urratsa orri zehatz batean ezin bada zehaztutako kokapenean erakutsi, automatikoki beste nonbait erakutsiko da.';
 $string['pluginname'] = 'Erabiltzaile-ibilaldiak';
+$string['privacy:metadata:preference:completed'] = 'Erabiltzaile batek azkenengo aldiz erabiltzaile-ibilaldia osatu zueneko data.';
+$string['privacy:metadata:preference:requested'] = 'Erabiltzaile batek azkenengo aldiz erabiltzaile-ibilaldia eskuz eskatu zueneko data.';
+$string['privacy:request:preference:completed'] = '"{$a->name}" erabiltzaile-ibilaldia azkenengoz osatutzat eman zenuen {$a->time}';
+$string['privacy:request:preference:requested'] = '"{$a->name}" erabiltzaile-ibilaldia azkenengoz eskatu zenuen {$a->time}';
 $string['reflex'] = 'Jarraitu klik egitean';
 $string['reflex_help'] = 'Jarraitu hurrengo urratsera jomugan klik egiten denean.';
 $string['resettouronpage'] = 'Berrabiarazi orri honetako erabiltzaile-ibilaldia';
@@ -131,8 +141,9 @@ Bestela, hizkuntza-kate baten IDa sar daiteke identifikatzaile,osagaia formatuan
 $string['tour1_content_addingblocks'] = 'Izan ere, ondo hausnartu zure orrietan ezein bloke gehitzea nahi duzun. Blokeak ez dira Moodle Mobile app-an erakusten, eta beraz orokorrean hobe da ziurtatzea zure gunea blokerik erakutsi gabe ondo funtzionatzen duela.';
 $string['tour1_content_blockregion'] = 'Hemen oraindik blokeentzako eremu bat dago. Nabigazio eta Kudeaketa blokeak erabat kentzea gomendatzen dugu, Boost itxuran funtzionalitate guztia beste nonbait ere badago-eta.';
 $string['tour1_content_customisation'] = 'Zure gunearen eta hasiera-orriaren itxura pertsonalizatzeko, erabili goiburu honetako ertzeko menua. Saiatu oraintxe bertan edizioa aktibatzen.';
+$string['tour1_content_end'] = 'Hau da erabiltzaile-ibilbidearen amaiera. Ez zaizu berriz ere erakutsiko, zuk orri-oinean dagoen esteka erabilita berrabiarazten ez baduzu. Kudeatzailea zaren aldetik, hau bezalako ibilbideak sor ditzakezu.';
 $string['tour1_content_navigation'] = 'Nabigazio gehiena orain nabigazio-kutxa honen bitartez egiten da. Bertako edukiak zauden testuinguruaren arabera aldatzen dira. Erabili goiko aldeko botoia ezkutatzeko edo erakusteko.';
-$string['tour1_content_welcome'] = 'Ongi etorri Moodle 3.2rako prestatutako Boost itxurara! Lehenago Moodle erabili baduzu, litekeena da gauza batzuk oso ezberdin aurkitzea.';
+$string['tour1_content_welcome'] = 'Ongi etorri Boost itxurara! Lehenago Moodle erabili baduzu, litekeena da gauza batzuk oso ezberdin aurkitzea.';
 $string['tour1_title_addingblocks'] = 'Blokeak gehitzen';
 $string['tour1_title_blockregion'] = 'Bloke-eremua';
 $string['tour1_title_customisation'] = 'Pertsonalizazioa';
@@ -142,10 +153,11 @@ $string['tour1_title_welcome'] = 'Ongi etorri';
 $string['tour2_content_addblock'] = 'Edizioa aktibatzen baduzu nabigazio-kutxatik blokeak gehi ditzakezu. Halere, ondo hausnartu zure orrietan ezein bloke gehitzea nahi duzun. Blokeak ez dira Moodle Mobile app-an erakusten, eta beraz orokorrean hobe da ziurtatzea zure gunea blokerik erakutsi gabe ondo funtzionatzen duela.';
 $string['tour2_content_addingblocks'] = 'Botoi hau erabiliz orri honetara blokeak gehitu ditzakezu. Halere, ondo hausnartu zure orrietan ezein bloke gehitzea nahi duzun. Blokeak ez dira Moodle Mobile app-an erakusten, eta beraz orokorrean hobe da ziurtatzea zure gunea blokerik erakutsi gabe ondo funtzionatzen duela.';
 $string['tour2_content_customisation'] = 'Ikastaroko ezarpenak aldatzeko, erabil ezazu goiburuaren ertzean dagoen ezarpen-menua. Antzeko ezarpen-menua aurkituko duzu jarduera bakoitzaren hasiera-orrian ere. Saiatu zaitez aktibatzen orain.';
+$string['tour2_content_end'] = 'Hau da erabiltzaile-ibilbidearen amaiera. Ez zaizu berriz ere erakutsiko, zuk orri-oinean dagoen esteka erabilita berrabiarazten ez baduzu. Guneko kudeatzaileak ibilbide gehiago sor ditzake, behar izanez gero.';
 $string['tour2_content_navigation'] = 'Nabigazio gehiena orain nabigazio-kutxa honen bitartez egiten da. Erabili goiko aldeko botoia ezkutatzeko edo erakusteko. Zure ikastaroko ataletarako estekak ere bertan direla ikusiko duzu.';
 $string['tour2_content_opendrawer'] = 'Saiatu orain nabigazio-kutxa irekitzen.';
 $string['tour2_content_participants'] = 'Ikusi partaideak hemen. Bertan ikasleak gehitu edo kentzeko modua ere izango duzu.';
-$string['tour2_content_welcome'] = 'Ongi etorri Moodle 3.2rako prestatutako Boost itxurara! Lehenago Moodle erabili baduzu, litekeena da gauza batzuk oso ezberdin aurkitzea ikastaroaren hasiera-orrian.';
+$string['tour2_content_welcome'] = 'Ongi etorri Boost itxurara! Zure gunea lehenagoko bertsio batetik eguneratu bada, litekeena da gauza batzuk oso ezberdin aurkitzea ikastaroaren hasiera-orrian.';
 $string['tour2_title_addblock'] = 'Gehitu blokea';
 $string['tour2_title_addingblocks'] = 'Blokeak gehitzen';
 $string['tour2_title_customisation'] = 'Pertsonalizazioa';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'question', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -323,6 +323,29 @@ $string['permissionmove'] = 'Mover esta pergunta';
 $string['permissionsaveasnew'] = 'Guardar como nova pergunta';
 $string['permissionto'] = 'Tem permissão para:';
 $string['previewquestion'] = 'Pré-visualizar a pergunta: {$a}';
+$string['privacy:metadata:database:question'] = 'Detalhes sobre uma expressão específica.';
+$string['privacy:metadata:database:question_attempts'] = 'Informação sobre tentativas de uma questão específica.';
+$string['privacy:metadata:database:question_attempts:flagged'] = 'Uma indicação de que o utilizador marcou esta questão durante uma tentativa.';
+$string['privacy:metadata:database:question_attempts:responsesummary'] = 'Resumo da resposta à questão.';
+$string['privacy:metadata:database:question_attempt_step_data'] = 'Etapas da tentativa podem ter informação adicional sobre aquela etapa específica. Os dados são armazenados na tabela step_data.';
+$string['privacy:metadata:database:question_attempt_step_data:name'] = 'O nome dos dados do item.';
+$string['privacy:metadata:database:question_attempt_step_data:value'] = 'O valor dos dados do item.';
+$string['privacy:metadata:database:question_attempt_steps'] = 'Cada tentativa tem um número de etapas a indicar diferentes fases, desde o início ao marcar como concluído. Esta tabela armazena a informação sobre cada uma desses etapas.';
+$string['privacy:metadata:database:question_attempt_steps:fraction'] = 'A avaliação atribuída a esta tentativa configurado para um valor fora de 1.';
+$string['privacy:metadata:database:question_attempt_steps:state'] = 'O estado da tentativa no final da transição.';
+$string['privacy:metadata:database:question_attempt_steps:timecreated'] = 'A data e hora em que a transição começou.';
+$string['privacy:metadata:database:question_attempt_steps:userid'] = 'O utilizador que realizou a transição.';
+$string['privacy:metadata:database:question_attempts:timemodified'] = 'A hora em que a tentativa foi atualizada.';
+$string['privacy:metadata:database:question:createdby'] = 'A pessoa que criou a questão.';
+$string['privacy:metadata:database:question:generalfeedback'] = 'O feedback geral para esta questão.';
+$string['privacy:metadata:database:question:modifiedby'] = 'A pessoa que atualizou a pergunta pela última vez.';
+$string['privacy:metadata:database:question:name'] = 'O nome da pergunta';
+$string['privacy:metadata:database:question:questiontext'] = 'O texto da pergunta';
+$string['privacy:metadata:database:question:timecreated'] = 'A data e hora de quando esta questão foi criada';
+$string['privacy:metadata:database:question:timemodified'] = 'A data e hora que quando este teste foi atualizado.';
+$string['privacy:metadata:link:qbehaviour'] = 'O subsistema Pergunta utiliza o módulo Pomportamento das perguntas.';
+$string['privacy:metadata:link:qformat'] = 'O subsistema Pergunta utiliza lo módulo Formato da questão com a finalidade de importar e exportar perguntas em formatos diferentes.';
+$string['privacy:metadata:link:qtype'] = 'O subsistema Pergunta interage com o módulo Tipo de pergunta, que contém os diferentes tipos de pergunta.';
 $string['published'] = 'partilhada';
 $string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = 'A <a href="{$a->qurl}">pergunta "{$a->name}" ({$a->qtype})</a> encontra-se nesta categoria, mas também está a ser usada no <a href="{$a->qurl}">teste "{$a->quizname}"</a> em outra disciplina "{$a->coursename}".';
@@ -381,6 +404,7 @@ $string['specificfeedback_help'] = 'Feedback correspondente à resposta que o al
 $string['started'] = 'Iniciado';
 $string['state'] = 'Estado';
 $string['step'] = 'Passo';
+$string['steps'] = 'Passos';
 $string['stoponerror'] = 'Parar se ocorrer um erro';
 $string['stoponerror_help'] = 'Esta configuração determina se o processo de importação é interrompido quando um erro é detetado parando assim a importação, ou se as perguntas com erros são ignoradas sendo apenas importadas as válidas.';
 $string['submissionoutofsequence'] = 'Acesso fora da sequência. Por favor, não clique no botão Retroceder enquanto trabalha nas perguntas do teste.';

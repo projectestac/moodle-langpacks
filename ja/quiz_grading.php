@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_grading', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,7 @@ $string['nothingfound'] = '表示するものはありません。';
 $string['options'] = 'オプション';
 $string['orderattempts'] = '受験順';
 $string['pluginname'] = '手動評定';
+$string['privacy:metadata'] = '小テスト手動評定プラグインはどのような個人データも保存しません。データ自体を保存せずにデータを保存するユーザインターフェースを提供します。';
 $string['qno'] = 'Q #';
 $string['questionname'] = '問題名';
 $string['questionsperpage'] = '1ページあたりの問題数';

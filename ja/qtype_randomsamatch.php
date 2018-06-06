@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_randomsamatch', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_randomsamatch', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_randomsamatch
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['pluginnameadding'] = 'ランダム記述組み合わせ問題の追加'
 $string['pluginnameediting'] = 'ランダム記述組み合わせ問題の編集';
 $string['pluginname_help'] = '学生の視点からこれは組み合わせ問題のように見えます。異なる点は組み合わせのための名称または記述 (問題) 一覧が現在のカテゴリ内の記述問題からランダムに取得されることです。カテゴリ内に十分な未使用の記述問題が必要です。そうでない場合、エラーメッセージが表示されます。';
 $string['pluginnamesummary'] = '組み合わせ問題に似ていますが特定のカテゴリ内の記述問題からランダムに作成されます。';
+$string['privacy:metadata'] = 'ランダム記述問題タイププラグインはどのような個人データも保存しません。';
 $string['randomsamatch'] = 'ランダム記述組み合わせ';
 $string['randomsamatchintro'] = '以下それぞれの問題に関してメニューから合致する答えを選択してください。';
 $string['randomsamatchnumber'] = '選択する問題数';

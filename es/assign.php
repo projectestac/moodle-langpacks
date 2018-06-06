@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assign', language 'es', branch 'MOODLE_34_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,6 +108,8 @@ $string['batchsetmarkingworkflowstateforusers'] = 'Establecer estado del workflo
 $string['blindmarking'] = 'Ocultar identidad';
 $string['blindmarkingenabledwarning'] = 'En esta actividad está activada la ocultación de identidad al calificar.';
 $string['blindmarking_help'] = 'La ocultación de identidad al calificar oculta a los evaluadores la identidad de los estudiantes. En el momento en que exista alguna entrega o calificación en la tarea, esta opción se bloqueará y no podrá ser cambiada.';
+$string['calendardue'] = '{$a} pendiente de entrega';
+$string['calendargradingdue'] = '{$a} pendiente de revisión';
 $string['changefilters'] = 'Cambiar filtros';
 $string['changegradewarning'] = 'Esta tarea tiene envíos calificados y si se cambia la calificación no se recalcularán automáticamente las calificaciones de los envíos existentes. Debe volver a calificar todos los envíos previos, si quiere cambiar la calificación';
 $string['changeuser'] = 'Cambiar usuario';
@@ -122,6 +124,7 @@ $string['completionsubmit'] = 'El estudiante debe entregar esta actividad para c
 $string['configshowrecentsubmissions'] = 'Todos pueden ver las notificaciones de las entregas en los informes de actividad reciente.';
 $string['confirmbatchgradingoperation'] = '¿Está seguro que quiere {$a->operation} a  {$a->count} estudiantes?';
 $string['confirmsubmission'] = '¿Está seguro que quiere enviar su trabajo para que sea evaluado? Una vez enviado ya no podrá realizar modificaciones.';
+$string['confirmsubmissionheading'] = 'Confirmar envío';
 $string['conversionexception'] = 'No se pudo convertir tarea. La excepción fue: {$a}';
 $string['couldnotconvertgrade'] = 'No se pudo convertir calificación de tarea del usuario {$a}.';
 $string['couldnotconvertsubmission'] = 'No se pudo convertir la calificación de la entrega a la tarea del usuario {$a}.';
@@ -158,6 +161,7 @@ $string['editaction'] = 'Acciones...';
 $string['editattemptfeedback'] = 'Edite la calificación y la retroalimentación para el intento número {$a}.';
 $string['editingpreviousfeedbackwarning'] = 'Está editando la realimentación para un intento anterior. Este es el intento {$a->attemptnumber} de {$a->totalattempts}.';
 $string['editingstatus'] = 'Edición de estado';
+$string['editonline'] = 'Editar online';
 $string['editoverride'] = 'Editar excepción';
 $string['editsubmission'] = 'Editar entrega';
 $string['editsubmission_help'] = 'Realizar cambios en la entrega';
@@ -238,6 +242,8 @@ $string['gradestudent'] = 'Calificación del estudiante: (id={$a->id}, fnombre c
 $string['gradeuser'] = 'Calificar {$a}';
 $string['grading'] = 'Calificando';
 $string['gradingchangessaved'] = 'Los cambios en la calificación se han guardado';
+$string['gradingduedate'] = 'Recordarme calificar en';
+$string['gradingduedate_help'] = 'Fecha prevista en que todas las tareas quedarán entregadas. Se utilizará como fecha de revisión de tareas en el tablero de profesores.';
 $string['gradingmethodpreview'] = 'Criterio de calificación';
 $string['gradingoptions'] = 'Opciones';
 $string['gradingstatus'] = 'Estado de la calificación';
@@ -251,6 +257,10 @@ $string['groupsubmissionsettings'] = 'Configuración de entrega por grupo';
 $string['hiddenuser'] = 'Participante';
 $string['hideshow'] = 'Ocultar/Mostrar';
 $string['inactiveoverridehelp'] = '* El estudiante no tiene el grupo o rol correcto para realizar la tarea';
+$string['indicator:cognitivedepth'] = 'Tarea cognitiva';
+$string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad de Tarea.';
+$string['indicator:socialbreadth'] = 'Tarea social';
+$string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad de Tarea.';
 $string['instructionfiles'] = 'Archivos de instrucciones';
 $string['introattachments'] = 'Archivos adicionales';
 $string['introattachments_help'] = 'Pueden añadirse archivos adicionales para ser utilizados en la tarea, por ejemplo, como plantilla de respuesta. Los enlaces para descargar estos archivos se muestran debajo de la descripción de la tarea.';
@@ -305,6 +315,7 @@ Durante el proceso de revisión los profesores pueden dejar comentarios y subir 
 $string['modulenameplural'] = 'Tareas';
 $string['moreusers'] = '{$a} más...';
 $string['multipleteams'] = 'Miembro de más de un grupo.';
+$string['multipleteams_desc'] = 'Esta tarea requiere entrega por grupos. Usted es miembro de más de un grupo. Para poder realizar entregas debe ser miembro solamente de un grupo. Por favor, contacte con su profesor para que modifique su pertenencia a grupos.';
 $string['multipleteamsgrader'] = 'Miembro de más de un grupo, por lo que no puede añadir entregas.';
 $string['mysubmission'] = 'Mi entrega:';
 $string['newsubmissions'] = 'Tareas enviadas';
@@ -323,6 +334,7 @@ $string['nosavebutnext'] = 'Siguiente';
 $string['nosubmission'] = 'No se ha enviado nada en esta tarea';
 $string['nosubmissionsacceptedafter'] = 'No se aceptan entregas después de';
 $string['noteam'] = 'No perteneces a ningún grupo.';
+$string['noteam_desc'] = 'Esta tarea requiere entrega por grupos. Usted no es miempro de ningún grupo, así que no puede realizar entregas. Por favor, contacte con su profesor para que le agregue a un grupo.';
 $string['noteamgrader'] = 'No perteneces a ningún grupo, por lo que no es posible realizar entregas.';
 $string['notgraded'] = 'Sin calificar';
 $string['notgradedyet'] = 'No calificado aún';
@@ -359,6 +371,11 @@ $string['preventsubmissionnotingroup_help'] = 'Si se activa, usuarios que no sea
 $string['preventsubmissions'] = 'Evita que los usuarios realicen más entregas en esta tarea.';
 $string['preventsubmissionsshort'] = 'Evitar cambios en la entrega';
 $string['previous'] = 'Anterior';
+$string['privacy:attemptpath'] = 'intento {$a}';
+$string['privacy:gradepath'] = 'calificación';
+$string['privacy:metadata:userid'] = 'Identificador para el usuario.';
+$string['privacy:studentpath'] = 'studentsubmissions';
+$string['privacy:submissionpath'] = 'envío';
 $string['quickgrading'] = 'Calificación rápida';
 $string['quickgradingchangessaved'] = 'Se guardaron los cambios de las calificaciones';
 $string['quickgrading_help'] = 'Calificación rápida le permite asignar calificaciones (y resultados) directamente en la tabla de entregas. Calificación rápida no es compatible con la calificación avanzada y no se recomienda cuando hay múltiples marcadores.';

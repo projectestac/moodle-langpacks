@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'book', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,7 +39,10 @@ $string['nocontent'] = 'Δεν έχει ακόμη προστεθεί περιε
 $string['numbering0'] = 'Κανένα';
 $string['pluginadministration'] = 'Διαχείριση βιβλίου';
 $string['pluginname'] = 'Βιβλίο';
+$string['removeallbooktags'] = 'Διαγραφή όλων των εττικετών βιβλίου';
 $string['search:activity'] = 'Βιβλίο - πληροφορίες πόρου';
 $string['search:chapter'] = 'Βιβλίο - κεφάλαια';
 $string['subplugintype_booktool'] = 'Εργαλείο βιβλίου';
 $string['subplugintype_booktool_plural'] = 'Εργαλεία βιβλίου';
+$string['tagarea_book_chapters'] = 'Κεφάλαια βιβλίου';
+$string['tagsdeleted'] = 'Οι εττικέτες βιβλίου διαγράφηκαν';

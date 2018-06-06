@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,6 +68,7 @@ $string['nestedcategories'] = 'Baimendu habiaratutako kategoriak';
 $string['nestedcategories_desc'] = 'Gaituz gero IMS Enterprise-k habiaratutako kategoriak sortuko ditu';
 $string['pluginname'] = 'IMS Enterprise fitxategia';
 $string['pluginname_desc'] = 'Metodo honek modu errepikakorrean zehaztutako kokapenean dagoen formatu bereziko testu-fitxategia bilatu eta prozesatu egingo du. Fitxategiak IMS Enterprise ezarpenak jarraitu eta person, group, eta membership XML elementuak izan behar ditu.';
+$string['privacy:metadata'] = 'IMS Enterprise fitxategia matrikulazio-pluginak ez du datu pertsonalik biltzen.';
 $string['processphoto'] = 'Profilari erabiltzailearen argazkia gaineratu';
 $string['processphotowarning'] = 'Kontuz: Irudiak prozesatzeak zerbitzariari lan karga nabarmen gaineratuko dio seguruenik. Aukera hau ez aktibatzeko gomendatzen da ikasle-kopuru altua prozesatzeko asmoa badago.';
 $string['restricttarget'] = 'Ondorengo helburua zehaztu bada bakarrik prozesatu datuak.';

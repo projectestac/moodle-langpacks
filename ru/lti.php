@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'lti', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,7 +46,6 @@ $string['addnewapp'] = 'Разрешить внешнее приложение';
 $string['addserver'] = 'Добавить новый доверенный сервер';
 $string['addtype'] = 'Добавить предварительно настроенный инструмент';
 $string['allow'] = 'Разрешить';
-$string['allowinstructorcustom'] = 'Разрешить инструкторам добавлять свои параметры';
 $string['allowsetting'] = 'Разрешить приложению хранить в Moodle настройки - 8К';
 $string['always'] = 'Всегда';
 $string['autoaddtype'] = 'Добавить инструмент';
@@ -178,6 +177,7 @@ $string['grading'] = 'Передача оценок';
 $string['icon_url'] = 'URL-адрес значка';
 $string['icon_url_help'] = 'Этот параметр определяет значок, который используется для этого элемента курса в перечне элементов курса. Вместо используемого по умолчанию значка внешнего приложения можно задать значок, который более точно определяет тип элемента курса.';
 $string['id'] = 'Идентификатор';
+$string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с элементом  LTI.';
 $string['invalidid'] = 'Некорректный ID LTI';
 $string['launch_in_moodle'] = 'Запускать приложение в Moodle';
 $string['launchinpopup'] = 'Контейнер запуска';

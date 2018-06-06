@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'question', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -338,6 +338,29 @@ $string['permissionmove'] = 'Mugitu galdera hau';
 $string['permissionsaveasnew'] = 'Gorde hau galdera berri gisa';
 $string['permissionto'] = 'Honetarako baimena duzu:';
 $string['previewquestion'] = 'Aurreikusi galdera: {$a}';
+$string['privacy:metadata:database:question'] = 'Galdera zehatz baten inguruko xehetasunak';
+$string['privacy:metadata:database:question_attempts'] = 'Galdera zehatz baten saiakeraren inguruko informazioa.';
+$string['privacy:metadata:database:question_attempts:flagged'] = 'Erabiltzaileak saiakeraren baitan erabiltzaileak galdera hau markatu izanaren adierazlea.';
+$string['privacy:metadata:database:question_attempts:responsesummary'] = 'Galderaren erantzunaren laburpena.';
+$string['privacy:metadata:database:question_attempt_step_data'] = 'Galderen saiakera-pauso bakoitzak pauso horrekin lotutako datu gehigarriak izan ditzake. Datu horiek step_data taulan gordetzen dira.';
+$string['privacy:metadata:database:question_attempt_step_data:name'] = 'Datu-elementuaren izena.';
+$string['privacy:metadata:database:question_attempt_step_data:value'] = 'Datu-elementuaren balioa.';
+$string['privacy:metadata:database:question_attempt_steps'] = 'Galderen saiakera bakoitzak pauso kopuru bat dauka hasieratik osatu eta kalifikatu arteko faseak adierazteko. Taula honek pauso horietako bakoitzaren informazioa gordetzen du.';
+$string['privacy:metadata:database:question_attempt_steps:fraction'] = 'Galdera honetako saiakerak eskuratutako kalifikazioa, gehienez 1 balioa izateko eskalatua.';
+$string['privacy:metadata:database:question_attempt_steps:state'] = 'Galdera honen saiakera-pausoaren egoera pauso-trantsizioaren amaieran.';
+$string['privacy:metadata:database:question_attempt_steps:timecreated'] = 'Pauso-trantsizio hau hasi zeneko unea.';
+$string['privacy:metadata:database:question_attempt_steps:userid'] = 'Pauso-trantsizioa egin zuen erabiltzailea';
+$string['privacy:metadata:database:question_attempts:timemodified'] = 'Galdera-saiakera eguneratu zeneko unea.';
+$string['privacy:metadata:database:question:createdby'] = 'Galdera sortu zuen erabiltzailea.';
+$string['privacy:metadata:database:question:generalfeedback'] = 'Galdera honen feedback orokorra.';
+$string['privacy:metadata:database:question:modifiedby'] = 'Galdera azkenengoz eguneratu zuen erabiltzailea.';
+$string['privacy:metadata:database:question:name'] = 'Galderaren izena.';
+$string['privacy:metadata:database:question:questiontext'] = 'Galderaren testua.';
+$string['privacy:metadata:database:question:timecreated'] = 'Galdera hau sortu zeneko unea.';
+$string['privacy:metadata:database:question:timemodified'] = 'Galdera hau eguneratu zeneko unea.';
+$string['privacy:metadata:link:qbehaviour'] = 'Galderen sistemak galdera-jokaera plugin-motaren erabilera egiten du.';
+$string['privacy:metadata:link:qformat'] = 'Galderen sistemak galdera-formatua plugin-motaren erabilera egiten du galderak formatu ezberdinetan inportatu eta esportatzeko.';
+$string['privacy:metadata:link:qtype'] = 'Galderen sistemak galdera-mota plugin-motarekin aritzen da, eta bertan galdera-mota ezberdinak daude.';
 $string['published'] = 'partekatuta';
 $string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = '<a href="{$a->qurl}">Ondoko galdera "{$a->name}" ({$a->qtype})</a> kategoria honetan dago baina <a href="{$a->qurl}">galdetegi honetan ere erabilita dago "{$a->quizname}"</a> beste ikastaro batean: "{$a->coursename}".';
@@ -396,6 +419,7 @@ $string['specificfeedback_help'] = 'Ikasleek emandako erantzunen araberako feedb
 $string['started'] = 'Hasita';
 $string['state'] = 'Egoera';
 $string['step'] = 'Urratsa';
+$string['steps'] = 'Pausoak';
 $string['stoponerror'] = 'Gelditu errorea gertatzen bada';
 $string['stoponerror_help'] = 'Ezarpen honek errore bat aurkitzean inportatze-prozesua geratuko den zehazten du, eta ondorioz ez da galderarik inportatuko, edo erroreak dituzten galderak ezikusi eta baliozko galderak inportatuko diren.';
 $string['submissionoutofsequence'] = 'Ordenetik kanpoko sarrera. Mesedez ez egin klik atzera botoian galdetegiarekin lanean ari zarenean.';
