@@ -344,6 +344,7 @@ $string['coursedisplay_help'] = 'يحدد هذا الخيار فيما إذا ك
 $string['coursedisplay_multi'] = 'اعرض قسماً واحداً في الصفحة';
 $string['coursedisplay_single'] = 'اعرض كافة الأقسام في صفحة واحدة';
 $string['courseduration'] = 'مدة الزمنية المقرر';
+$string['courseduration_desc'] = 'تستخدم المدة الزمنية للمساق لحساب التاريخ الافتراضي لانتهاء المساق. تاريخ انتهاء المساق يستخدم لتقرير إذا كان يجب عرض المساق ضمن قائمه مساقات الطالب. كذلك يمكن استخدامه في تقارير خاصة. يستطيع المستخدم الوصول إلى المساق حتى بعد تاريخ انتهاء المساق.';
 $string['courseextendednamedisplay'] = '{$a->shortname} {$a->fullname}';
 $string['coursefiles'] = 'ملفات مقرر سالف';
 $string['coursefilesedit'] = 'تحرير ملفات المقرر الدراسي';

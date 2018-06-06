@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['notavailable'] = 'Συγνώμη, αυτό το κουίζ δεν είναι διαθέσιμο';
+$string['pluginname'] = 'Κανόνας πρόσβασης για ημερομηνία έναρξης και λήξης';
 $string['quiznotavailable'] = 'Το κουίζ δε θα είναι διαθέσιμο μέχρι: {$a}';

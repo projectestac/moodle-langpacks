@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['advancedsettings'] = 'Impostazioni avanzate';
-$string['choosereadme'] = 'Boost è un teme moderno e fortemente personalizzabile. E\' possibile usarlo come tema del sito oppure come tema padre di altri temi che usano Bootstrap 4.';
+$string['choosereadme'] = 'Boost è un tema moderno e fortemente personalizzabile. E\' possibile usarlo come tema del sito oppure come tema padre di altri temi che usano Bootstrap 4.';
 $string['configtitle'] = 'Boost';
 $string['currentinparentheses'] = '(zttuale)';
 $string['generalsettings'] = 'Impostazioni generali';

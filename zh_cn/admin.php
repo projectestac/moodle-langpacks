@@ -1151,6 +1151,7 @@ $string['unsupporteddbstorageengine'] = '正在使用的数据库存储引擎已
 $string['unsupporteddbtablerowformat'] = '你的数据库含有使用Antelope文件格式的表。建议将这些表转换成Barracuda格式。查看文档 <a href="https://docs.moodle.org/en/cli">命令行管理</a> 获得转换InnoDB表到Barracuda的工具详情。';
 $string['unsupportedphpversion7'] = '不支持 PHP 7';
 $string['unsupportedphpversion71'] = '不支持PHP 7.1。';
+$string['unsupportedphpversion72'] = '不支持PHP版本7.2。';
 $string['unsuspenduser'] = '激活用户账号';
 $string['updateaccounts'] = '更新已有帐户';
 $string['updateautocheck'] = '自动检查可用更新';

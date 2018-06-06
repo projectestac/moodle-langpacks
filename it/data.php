@@ -241,7 +241,7 @@ $string['modulename_help'] = 'Il modulo attività database consente ai partecipa
 
 L\'impaginazione delle informazioni per le viste singola, ad elenco e modifica, possono essere impostate attraverso modelli. Le attività Database possono essere condivise tra corsi diversi tramite le preimpostazioni ed è anche possibile esportare ed importare record.
 
-Nel caso in cui il filtro Link automatici al database sia attivo, verrà creato un link tutte le volte che il contenuto di un campo comparirà nei testi del corso.
+Nel caso in cui il filtro "Collegamento automatico ai campi del database" sia attivo, verrà creato un link tutte le volte che il contenuto di un campo comparirà nei testi del corso.
 
 Un docente può consentire i commenti e la valutazione dei record, anche da parte degli stessi studenti (valutazione tra pari). Le valutazioni possono essere aggregate e la valutazione finale sarà memorizzata nel registro del valutatore.
 

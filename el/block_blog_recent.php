@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['blog_recent:addinstance'] = 'Προσθήκη ενός νέου μπλοκ: πρόσφατες αναρτήσεις (ιστολογίου)';
 $string['pluginname'] = 'Τελευταίες καταχωρήσεις ιστολογίου';

@@ -86,7 +86,7 @@ $string['sourcedidfallback_desc'] = 'IMSデータでは<sourcedid>フィール�
 
 いくつかの学生情報が<userid>フィールドに出力されない場合、この設定を有効にして<sourcedid>をMoodleのユーザIDに使用してください。そうでない場合、この設定を無効のままにしてください。';
 $string['truncatecoursecodes'] = 'この長さにコースコードを切り詰める';
-$string['truncatecoursecodes_desc'] = 'ここでは処理する前に、コースコードを指定した長さに切り詰めることができます。コースコードを切り詰めたい場合、このボックスに文字長を入力してください。そうでない場合、このボックスを<strong>空白</strong>のままにすることによりコースコードは切り詰められません。';
+$string['truncatecoursecodes_desc'] = 'ここでは処理する前にコースコードを指定した長さに切り詰めることができます。コースコードを切り詰めたい場合、このボックスに文字長を入力してください。そうでない場合、このボックスを空白のままにすることによりコースコードは切り詰められません。';
 $string['updatecourses'] = 'コースを更新する';
 $string['updatecourses_desc'] = 'この設定を有効にした場合、IMS Enterprise登録プラグインは長いコース名およびコース省略名を更新することができます (「recstatus」フラグに「2」が設定された場合、更新を意味します)。';
 $string['updateusers'] = 'IMSデータで指定された場合、ユーザアカウントを更新する';

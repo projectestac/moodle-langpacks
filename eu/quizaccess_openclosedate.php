@@ -26,5 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['notavailable'] = 'Galdetegi hau ez dago eskuragarri une honetan';
-$string['pluginname'] = 'Zabaldu eta itxi sartzeko dataren araua';
+$string['pluginname'] = 'Zabalera eta itxiera-data sarbide-araua';
 $string['quiznotavailable'] = 'Galdetegia eskura noiztik aurrera: {$a}';

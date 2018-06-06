@@ -108,6 +108,7 @@ $string['forgottenpasswordurl'] = 'パスワード喪失URL';
 $string['getanaudiocaptcha'] = 'CAPTCHAオーディオを取得する';
 $string['getanimagecaptcha'] = 'CAPTCHAイメージを取得する';
 $string['getanothercaptcha'] = '別のCAPTCHAを取得する';
+$string['getrecaptchaapi'] = 'reCAPTCHAを使用するにはあなたは<a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>でAPIキーを取得する必要があります。';
 $string['guestloginbutton'] = 'ゲストログインボタン';
 $string['incorrectpleasetryagain'] = '正しくありません、再度お試しください。';
 $string['infilefield'] = 'ファイルのパスワードフィールドを使用する';
@@ -136,9 +137,9 @@ $string['pluginnotenabled'] = '認証プラグイン「 {$a} 」が有効にさ�
 $string['pluginnotinstalled'] = '認証プラグイン「 {$a} 」がインストールされていません。';
 $string['potentialidps'] = 'あなたのアカウントを使用してログインします:';
 $string['recaptcha'] = 'reCAPTCHA';
-$string['recaptcha_help'] = 'CAPTCHAは自動プログラムからの不正を防ぐためにあります。テキストボックスにテキストを順番にスペースで区切って入力してください。
+$string['recaptcha_help'] = 'CAPTCHAは自動プログラムからの不正を防ぐためにあります。あなたが人であることを確認するためインストラクションに従ってください。これはチェックボックスであったり、あなたが入力する必要のある文字が画像に表示されていたり、選択するための一連のイメージだったりします。
 
-どのような文字か分からない場合、別のCAPTCHAまたはオーディオCAPTCHAをお試しください。';
+画像が分からない場合、あなたは別のCAPTCHAまたはオーディオCAPTCHAを試すことができます。';
 $string['security_question'] = 'セキュリティ質問';
 $string['selfregistration'] = '自己登録';
 $string['selfregistration_help'] = '「Eメールによる自己登録」のような認証プラグインが選択された場合、潜在的なユーザに自分自身での登録およびユーザアカウント作成を許可します。この場合、フォーラム投稿、ブログエントリ等でスパムを発信するスパム発信者に対して、アカウントを作成させてしまうことになります。このリスクを避けるには自己登録を無効にするか「許可されるメールアドレスのドメイン」設定で使用できるメールアドレスを制限してください。';

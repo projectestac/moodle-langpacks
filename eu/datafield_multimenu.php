@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Aukera anitzeko menua';
-$string['pluginname'] = 'Menu anitza';
+$string['pluginname'] = 'Aukera anitzeko menua';

@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['error_multiplehost'] = 'Ostalari honetan MNet matrikulazio-gehigarriaren instantziaren bat dago jada. Instantzia bakoitzerako ostalari bakarra edota instantzia bakarrerako \'Ostalari guztiak\' baimentzen dira soilik.';
+$string['error_multiplehost'] = 'Ostalari honetan MNet matrikulazio-pluginaren instantziaren bat dago jada. Instantzia bakoitzerako ostalari bakarra edota instantzia bakarrerako \'Ostalari guztiak\' baimentzen dira soilik.';
 $string['instancename'] = 'Matrikulaziorako metodoaren izena';
 $string['instancename_help'] = 'MNet matrikulazio-metodoaren instantzia honen izena aldatu dezakezu. Eremu hau hutsik uzten baduzu instantziaren berezko izena erabiliko da, urruneko ostalariaren izena eta erabiltzaileei esleitutako rola erabiliz.';
 $string['mnet:config'] = 'Konfiguratu MNet matrikulazio-instantziak';

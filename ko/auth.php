@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actauthhdr'] = '활성화된 인증 플러그인';
+$string['allowaccountssameemail'] = '동일한 이메일 계정 허용';
 $string['allowaccountssameemail_desc'] = '한명 이상의 사용자가 이메일을 공유하게 됩니다. 이로 인해 보안 문제나 개인 정보의 침해가 있을 수 있습니다. (예를 들어, 이메일을 통해 암호를 변경할 수 있음)';
 $string['alternatelogin'] = '로그인 페이지로 사용할 URL을 입력. <strong>\'{$a}\'</strong> 처럼 실행문을 가진 형태여야 하고 <strong>사용자ID</strong>와  <strong>비밀번호</strong>를 리턴할 수 있는 필드를 포함하여야 한다.
 <br />정확한 URL을 입력하도록 주의하지 않으면 이 사이트에 갇혀 버릴 수도 있다.<br />
@@ -48,6 +49,7 @@ $string['auth_invalidnewemailkey'] = '오류: 메일 주소 변경 확인을 시
 $string['authloginviaemail'] = '이메일로 로그인 허용';
 $string['authloginviaemail_desc'] = '사이트 로그인에 사용자이름과 이메일 주소를 사용하는 것을 허용';
 $string['auth_multiplehosts'] = '다수의 호스트들은 host1.com;host2.com;host3.com 식이나 IP의 경우 xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx 형태로 쓸 수 있다.';
+$string['auth_notconfigured'] = '인증 방법{$a}이(가)구성되지 않았습니다.';
 $string['auth_outofnewemailupdateattempts'] = '허용된 이메일 주소 변경의 업데이트 시도 횟수를 넘겼습니다. 요청이 기각되었습니다.';
 $string['auth_passwordisexpired'] = '당신의 비밀번호가 만료되었습니다. 지금 비밀번호를 바꾸시겠습니까?';
 $string['auth_passwordwillexpire'] = '당신의 비밀번호가 {$a} 일 후에 만료됩니다. 지금 비밀번호를 바꾸시겠습니까?';
@@ -57,6 +59,8 @@ $string['auth_remove_suspend'] = '내부적으로 유보';
 $string['auth_remove_user'] = '외부 자원으로부터 사용자가 제거될 때 동기화 과정에서 어떻게 처리할지를 지정. 유보된 사용자만이 외부 자원에 다시 등장할 때 자동적으로 되살릴 수 있다.';
 $string['auth_remove_user_key'] = '제거된 외부 사용자';
 $string['auth_sync_script'] = 'cron 동기화 스크립트';
+$string['auth_sync_suspended'] = '사용 설정되면 일시 중지 된 속성을 사용하여 로컬 사용자 계정의 일시 중지 상태를 업데이트합니다.';
+$string['auth_sync_suspended_key'] = '로컬 사용자 일시 중지 상태 동기화';
 $string['auth_updatelocal'] = '내부 데이터의 개정';
 $string['auth_updatelocal_expl'] = '<p><b> 내부 데이터의 업데이트 :</b> 만약 이를 켜 놓으면, 각 필드는 (외부 인증처로부터) 로그인할 때 마다 혹은 사용자가 동기화가 있을 때 업데이트 될 것입니다. 내부적으로 업데이트하도록 설정한 필드는 반드시 잠겨 있어야 합니다.';
 $string['auth_updateremote'] = '외부데이터의 업데이트';
@@ -96,6 +100,7 @@ $string['errorminpasswordlength'] = '암호길이는 최소 {$a} 문자 이상�
 $string['errorminpasswordlower'] = '암호에는 최소 {$a} 개의 소문자가 포함되야 합니다.';
 $string['errorminpasswordnonalphanum'] = '암호에는 최소 {$a} 개의 특수문자가 포함되야 합니다.';
 $string['errorminpasswordupper'] = '암호에는 최소 {$a} 개의 대문자가 포함되야 합니다.';
+$string['errorpasswordreused'] = '이 암호는 이전에 사용되었으며 재사용할 수 없습니다.';
 $string['errorpasswordupdate'] = '비밀번호 업데이트 오류. 비밀번호가 변경되지 않았습니다.';
 $string['eventuserloggedin'] = '사용자가 로그인 하였습니다.';
 $string['eventuserloggedinas'] = '사용자가 다른 사용자로 로그인하였습니다.';
@@ -108,6 +113,7 @@ $string['forgottenpasswordurl'] = '암호 재발급 URL';
 $string['getanaudiocaptcha'] = '소리 CAPTCHA';
 $string['getanimagecaptcha'] = '그림 CAPTCHA';
 $string['getanothercaptcha'] = '다른 CAPTCHA 얻기';
+$string['getrecaptchaapi'] = 'reCAPTCHA를 사용하려면 <a href=\'https://www.google.com/recaptcha/admin\'> https://www.google.com/recaptcha/admin</a>에서 API 키를 받아야합니다.';
 $string['guestloginbutton'] = '손님 접속 버튼';
 $string['incorrectpleasetryagain'] = '틀렸습니다. 다시 해 보세요.';
 $string['infilefield'] = '파일에 필요한 항목';
@@ -115,10 +121,12 @@ $string['informminpassworddigits'] = '최소 숫자 {$a} 개';
 $string['informminpasswordlength'] = '최소 문자 {$a} 개';
 $string['informminpasswordlower'] = '최소 소문자 {$a} 개';
 $string['informminpasswordnonalphanum'] = '최소 특수문자 {$a} 개';
+$string['informminpasswordreuselimit'] = '{$a}변경 후 비밀번호 재사용 가능';
 $string['informminpasswordupper'] = '최소 대문자 {$a} 개';
 $string['informpasswordpolicy'] = '암호는 {$a} 를 충족시켜야 합니다.';
 $string['instructions'] = '안내문';
 $string['internal'] = '내부';
+$string['limitconcurrentlogins'] = '동시 로그인 제한';
 $string['limitconcurrentlogins_desc'] = '사용자가 여러 브라우져에서 동시에 접근하는 것을 제한합니다. 한계에 도달한 이후, 오래된 세션부터 종료됩니다. 이때 저장하지 않은 정보는 모두 사라집니다. 이 설정은 Single Sign On(SSO) 인증 플러그인과 호환되지 않습니다.';
 $string['locked'] = '잠금';
 $string['md5'] = 'MD5 인증';
@@ -143,6 +151,7 @@ $string['recaptcha_help'] = '<h2>설명</h2>
 <p>만일 단어가 확실하다고 느끼지 않으시면, 가장 그럴듯한 것을 쓰던지 아니면 "또 다른 캡차 보기"를 누르시기 바랍니다. </p>
 
 <p>시력에 문제가 있으신 분들은 시각적인 도전대신, 숫자의 집합을 듣기위해 "캡차 소리 듣기"를 이용하여 입력할 수도 있습니다.</p>';
+$string['security_question'] = '보안 질문';
 $string['selfregistration'] = '자체 등록';
 $string['selfregistration_help'] = '이메일 기잔 자체 인증과 같은 인증 플러그인이 선택되면 잠재적인 사용자들이 자신을 등록하고 계정을 만들 수 있게 합니다. 이 경우 스팸을 보내는 사람들이 계정을 만들어 포럼 게시글이나 블로그 게시글을 스팸 목적으로 사용할 수 있습니다. 이러한 위험을 피하기 위해서는 자체 등록을 비활성화하거나 <em>허용된 이메일 도메인</em> 설정으로 자체등록을 제한해야 합니다.';
 $string['sha1'] = 'SHA-1 해쉬';
@@ -162,3 +171,5 @@ $string['update_onlogin'] = '모든 접속';
 $string['update_onupdate'] = '업데이트 중';
 $string['user_activatenotsupportusertype'] = '인증:  ldap user_activate()는 {$a} 사용자 형식을 지원하지 않음';
 $string['user_disablenotsupportusertype'] = '인증:  ldap user_activate()는 아직까지 선택된 사용자 형식을 지원하지 않음';
+$string['username'] = '사용자 이름';
+$string['username_help'] = '일부 인증 플러그인을 사용하면 사용자 이름을 변경할 수 없습니다.';

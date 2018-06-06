@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Testua';
-$string['pluginname'] = 'Testu-sarrera';
+$string['pluginname'] = 'Testua';

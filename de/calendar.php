@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addevent'] = 'Termine hinzufügen';
-$string['advancedoptions'] = 'Weiterte Optionen';
+$string['advancedoptions'] = 'Erweiterte Optionen';
 $string['allday'] = 'ganztägig';
 $string['annually'] = 'Jährlich';
 $string['calendar'] = 'Kalender';
@@ -102,7 +102,7 @@ $string['eventnone'] = 'Keine Termine vorhanden';
 $string['eventrepeat'] = 'Wiederholungen';
 $string['eventsall'] = 'Alle Termine';
 $string['eventsdeleted'] = 'Termine gelöscht';
-$string['eventsfor'] = '{$a} Termine';
+$string['eventsfor'] = 'Termine am {$a}';
 $string['eventsimported'] = 'Termine importiert: {$a}';
 $string['eventskey'] = 'Termine';
 $string['eventspersonal'] = 'Meine persönlichen Termine';
@@ -144,7 +144,7 @@ $string['importcalendarfrom'] = 'Import von';
 $string['importcalendarheading'] = 'Kalender importieren';
 $string['importfromfile'] = 'Kalenderdatei (.ics)';
 $string['importfrominstructions'] = 'Geben Sie die URL zu einem externen Kalender an oder laden Sie eine Datei hoch.';
-$string['importfromurl'] = 'Kalender URL';
+$string['importfromurl'] = 'Kalender-URL';
 $string['invalidtimedurationminutes'] = 'Die angegebene Dauer in Minuten ist ungültig. Geben Sie eine Zahl größer als 0 ein oder wählen Sie \'Ohne Zeitangabe\'.';
 $string['invalidtimedurationuntil'] = 'Der angegebene Wert für Datum und Zeit von \'Dauer bis\' liegt vor der Startzeit des Termins. Korrigieren Sie diese Einstellung.';
 $string['iwanttoexport'] = 'Export';

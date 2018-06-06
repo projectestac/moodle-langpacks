@@ -45,5 +45,5 @@ $string['packagefile'] = 'Fitxer del paquet';
 $string['page-mod-imscp-x'] = 'Qualsevol pàgina del modul paquet de contingut IMS';
 $string['pluginadministration'] = 'Gestió IMSCP';
 $string['pluginname'] = 'Paquet de contingut IMS';
-$string['search:activity'] = 'Paquet de contingut IMS - informació del recurs';
+$string['search:activity'] = 'Paquet de contingut IMS: informació del recurs';
 $string['toc'] = 'Índex';

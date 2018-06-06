@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allattempts'] = 'すべての受験を表示する';
-$string['allattemptscontributetograde'] = 'すべての受験はユーザの最終評点に提供されます。';
+$string['allattemptscontributetograde'] = 'すべての受験はユーザの最終評点に寄与します。';
 $string['allstudents'] = 'すべての {$a} を表示する';
 $string['attemptsonly'] = '受験した {$a} のみ表示する';
 $string['attemptsprepage'] = '1ページあたりの受験数';
@@ -34,7 +34,7 @@ $string['deleteselected'] = '選択した受験を削除する';
 $string['done'] = '完了';
 $string['err_failedtodeleteregrades'] = '計算済み受験評点の削除に失敗しました。';
 $string['err_failedtorecalculateattemptgrades'] = '受験評点の再計算に失敗しました。';
-$string['highlightinggraded'] = '最終評点に提供される受験はハイライトされています。';
+$string['highlightinggraded'] = '最終評点に寄与するユーザ受験はハイライトされています。';
 $string['needed'] = '必要';
 $string['noattemptsonly'] = '未受験の {$a} のみ表示/ダウンロードする';
 $string['noattemptstoregrade'] = '再評定する受験はありません。';
@@ -70,7 +70,7 @@ $string['regradingattemptxofy'] = '受験の再評定 ({$a->done}/{$a->count})';
 $string['show'] = '表示 / ダウンロード';
 $string['showattempts'] = '表示のみ / 受験のダウンロード';
 $string['showdetailedmarks'] = 'それぞれの問題の評点';
-$string['showinggraded'] = '各ユーザの評定済みおよび未評定の受験を表示しています。';
-$string['showinggradedandungraded'] = '各ユーザの評定済みおよび未評定の受験を表示しています。評定済みの受験はハイライトされています。この小テストの評定方法は {$a} です。';
+$string['showinggraded'] = 'それぞれのユーザの評定済みおよび未評定の受験を表示しています。';
+$string['showinggradedandungraded'] = 'それぞれのユーザの評定済みおよび未評定の受験を表示しています。評定済みの受験はハイライトされています。この小テストの評定方法は {$a} です。';
 $string['studentingroup'] = 'グループ「 {$a->groupname} 」の「 {$a->coursestudent} 」';
 $string['studentingrouplong'] = 'このグループの「 {$a->coursestudent} 」';

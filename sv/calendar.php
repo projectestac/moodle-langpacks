@@ -53,6 +53,7 @@ $string['daywithnoevents'] = 'Det finns inga händelser för den här dagen';
 $string['default'] = 'Aktuell';
 $string['deleteevent'] = 'Ta bort händelse';
 $string['deleteevents'] = 'Ta bort händelser';
+$string['detailedmonthviewfor'] = 'Detaljerad månadsvy för:';
 $string['detailedmonthviewtitle'] = 'Detaljerad vy över månad {$a}';
 $string['durationminutes'] = 'Varaktighet i minuter';
 $string['durationnone'] = 'Utan varaktighet';

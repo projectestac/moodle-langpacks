@@ -133,7 +133,7 @@ $string['cannotresetthisrole'] = 'Diese Rolle kann nicht zurückgesetzt werden.'
 $string['cannotrestore'] = 'Die Wiederherstellung wurde wegen eines Fehlers nicht abgeschlossen!';
 $string['cannotrestoreadminorcreator'] = 'Sie müssen Kursersteller/in oder Administrator/in sein, um die Daten in einen neuen Kurs wiederherzustellen!';
 $string['cannotrestoreadminoredit'] = 'Sie müssen Trainer/in oder Administrator/in sein, um die Daten im ausgewählten Kurs wiederherzustellen!';
-$string['cannotsaveagreement'] = 'Die Zustimmung konnte nicht gespeichert werden.';
+$string['cannotsaveagreement'] = 'Die Bestätigung konnte nicht gespeichert werden.';
 $string['cannotsaveblock'] = 'Fehler beim Speichern der Block-Einstellungen';
 $string['cannotsavecomment'] = 'Der Kommentar wurde nicht gespeichert.';
 $string['cannotsavedata'] = 'Die Daten wurden nicht gespeichert.';
@@ -501,7 +501,7 @@ $string['sessionipnomatch'] = 'Die IP-Adresse scheint sich seit Ihrem letzten Lo
 $string['sessionipnomatch2'] = '<p>Ihre IP-Adresse hat sich geändert, seit Sie sich eingeloggt haben. Diese Sicherheitsoption schützt davor, dass Ihre Identität gestohlen werden kann, während Sie eingeloggt sind. Sie könnten diese Fehlermeldung auch erhalten, wenn Sie ein Funknetzwerk benutzen oder zwischen unterschiedlichen Netzwerken pendeln (roaming). Bitte fragen Sie für weitere Hilfe den Administrator Ihrer Website. </p><p>Falls Sie weitermachen möchten, aktualisieren Sie bitte die Seite (F5-Taste).</p>';
 $string['sessionwaiterr'] = 'Zeitüberschreitung beim Warten auf exklusiven Session-Zugriff.<br />Bitte warten Sie, bis Ihre laufenden Anfragen abgeschlossen sind, und versuchen Sie es anschließend noch einmal.';
 $string['shortnametaken'] = 'Kurzbezeichnung wird für anderen Kurs genutzt  ({$a})';
-$string['sitepolicynotagreed'] = 'Zustimmungserklärung nicht bestätigt. <a href="{$a}">Klicken Sie hier, um die Zustimmungserklärung zu öffnen</a>.';
+$string['sitepolicynotagreed'] = 'Datenschutzinformation nicht bestätigt. <a href="{$a}">Klicken Sie hier, um die Datenschutzinformation zu öffnen</a>.';
 $string['socksnotsupported'] = 'SOCKS5 Proxy wird in PHP4 nicht unterstützt';
 $string['spellcheckernotconf'] = 'Rechtschreibhilfe ist nicht eingerichtet';
 $string['sslonlyaccess'] = 'Aus Sicherheitsgründen sind ausschließlich Verbindungen über HTTPS erlaubt.';

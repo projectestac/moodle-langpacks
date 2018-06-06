@@ -169,7 +169,7 @@ $string['configcalendarexportsalt'] = 'Este texto aleatório é utilizado para a
 $string['configcookiehttponly'] = 'Ativa a nova funcionalidade da versão 5.2.0 do PHP: os navegadores só podem enviar cookies com pedidos HTTP reais e as cookies não devem ser acessíveis pelas linguagens de script. Esta funcionalidade não é suportada por todos os navegadores e poderá não ser totalmente compatível com o código atual. Ajuda a evitar alguns tipos de ataques XSS.';
 $string['configcookiesecure'] = 'Se o servidor apenas usa ligações HTTPS, recomenda-se a utilização de cookies seguros. Ao ativar, verifique que o servidor não está a aceitar pedidos http:// ou configure o redireccionamento permanente para endereços https:// e de preferência envie cabeçalhos HSTS. Quando o endereço <em>wwwroot</em> não começa por https:// esta configuração é ignorada.';
 $string['configcountry'] = 'Se selecionar um país, este será predefinido na criação de novas contas de utilizador. Para forçar os utilizadores a selecionar o país, deixe este campo vazio.';
-$string['configcourseoverviewfilesext'] = 'Lista separada por vírgulas das extensões permitidas para os ficheiros de resumo da disciplina.';
+$string['configcourseoverviewfilesext'] = 'Lista das extensões, separadas por vírgulas, permitidas para os ficheiros de resumo da disciplina.';
 $string['configcourseoverviewfileslimit'] = 'Número máximo de ficheiros que podem ser anexados ao resumo da disciplina.';
 $string['configcourserequestnotify'] = 'Escreva o nome de utilizador do utilizador que deve ser notificado quando uma nova disciplina for pedida.';
 $string['configcourserequestnotify2'] = 'Utilizadores que são notificados aquando de um pedido de disciplina. Apenas aparecem nesta lista os utilizadores que podem aprovar a criação de disciplinas.';
@@ -308,8 +308,8 @@ $string['configproxypassword'] = 'Senha necessária para aceder à Internet atra
 $string['configproxyport'] = 'Se este servidor precisar de usar um proxy, escreva aqui a porta do proxy.';
 $string['configproxytype'] = 'Tipo de web proxy (é necessário o PHP5 e a extensão cURL para suportar SOCKS5)';
 $string['configproxyuser'] = 'Nome de utilizador necessário para aceder à Internet através do proxy, se necessário, ou vazio se não necessário (é necessária a extensão cURL do PHP)';
-$string['configrecaptchaprivatekey'] = 'Conjunto de caracteres (Chave privada) utilizado na comunicação entre o servidor Moodle e o servidor recaptcha. As chaves reCAPTCHA podem ser obtidas em <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a>.';
-$string['configrecaptchapublickey'] = 'Conjunto de caracteres (Chave pública) utilizado para exibir o elemento reCAPTCHA no formulário de registo. As chaves reCAPTCHA podem ser obtidas em <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a>.';
+$string['configrecaptchaprivatekey'] = 'Sequência de caracteres (Chave privada) utilizada na comunicação entre o servidor Moodle e o servidor recaptcha. As chaves reCAPTCHA podem ser obtidas em <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a>.';
+$string['configrecaptchapublickey'] = 'Sequência de caracteres (Chave pública) utilizada para exibir o elemento reCAPTCHA no formulário de registo. As chaves reCAPTCHA podem ser obtidas em <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a>.';
 $string['configrequestcategoryselection'] = 'Permitir a seleção de uma categoria ao solicitar uma disciplina.';
 $string['configrequestedstudentname'] = 'Designação do Aluno, a usar nas disciplinas pedidas';
 $string['configrequestedstudentsname'] = 'Designação dos Alunos, a usar nas disciplinas pedidas';
@@ -524,7 +524,7 @@ $string['environmentsettingok'] = 'foi detetada uma configuração recomendada';
 $string['environmentshouldfixsetting'] = 'A configuração do PHP deve ser alterada.';
 $string['environmentxmlerror'] = 'Erros ao ler dados do ambiente ({$a->error_code})';
 $string['errordeletingconfig'] = 'Ocorreu um erro ao apagar os registos de configuração do módulo  \'{$a}\' .';
-$string['errorsetting'] = 'Não foi possível gravar configurações:';
+$string['errorsetting'] = 'Não foi possível guardar as configurações:';
 $string['errorwithsettings'] = 'Algumas configurações não foram modificadas devido a um erro:';
 $string['eventshandlersinuse'] = 'Os seguintes módulos no seu sistema utilizam manipuladores obsoletos da API Events 1: \'{$a}\'. Por favor, atualize-os para utilizar API Events 2. Consulte a página https://docs.moodle.org/dev/Event_2#Event_dispatching_and_observers.';
 $string['everyonewhocan'] = 'Todos com permissão \'{$a}\'';
@@ -964,8 +964,8 @@ $string['riskxss'] = 'Os utilizadores poderiam adicionar ficheiros e textos que 
 $string['riskxssshort'] = 'Risco XSS';
 $string['roleswithexceptions'] = '{$a->roles} com {$a->exceptions}';
 $string['rssglobaldisabled'] = 'Desativado ao nível do servidor';
-$string['save'] = 'Gravar';
-$string['savechanges'] = 'Gravar alterações';
+$string['save'] = 'Guardar';
+$string['savechanges'] = 'Guardar alterações';
 $string['scssinvalid'] = 'O código SCSS não é válido, falha: {$a}';
 $string['search'] = 'Pesquisar';
 $string['searchalldeleted'] = 'Todos os conteúdos indexados foram apagados';
@@ -1146,7 +1146,7 @@ $string['updateaccounts'] = 'Atualizar contas existentes';
 $string['updateautocheck'] = 'Verificar atualizações automaticamente';
 $string['updateautocheck_desc'] = 'Se ativar esta opção, o seu Moodle irá automaticamente procurar por atualizações para o código Moodle e para os módulos instalados. Se existirem   atualizações disponíveis, será enviada uma notificação ao administrador do site.';
 $string['updateavailable'] = 'Está disponível uma versão mais recente do Moodle!';
-$string['updateavailabledetailslink'] = 'Ver {$a->url} para obter mais detalhes';
+$string['updateavailabledetailslink'] = 'Visite {$a->url} para mais detalhes';
 $string['updateavailableforplugin'] = 'Está disponível uma versão mais recente de alguns módulos instalados!';
 $string['updateavailableinstall'] = 'Instalar agora esta atualização';
 $string['updateavailableinstallall'] = 'Instalar as atualizações disponíveis ({$a})';
@@ -1176,7 +1176,7 @@ $string['upgradepluginsinfo'] = 'A atualizar módulos';
 $string['upgradepluginsinfo_help'] = 'Existem atualizações disponíveis para alguns dos seus módulos. Deve instalá-las todas antes de atualizar a base de dados do Moodle. Se o seu site não suportar o desdobramento automático de atualizações, terá de descarregar as novas versões dos módulos e instalá-las manualmente.';
 $string['upgradepluginsinfo_link'] = 'admin/upgradepluginsinfo';
 $string['upgradesettings'] = 'Novas configurações';
-$string['upgradesettingsintro'] = 'As configurações seguintes foram adicionadas durante a atualização do Moodle. Modifique as que achar necessárias e quando terminar clique no botão "Gravar alterações" no fim da página.';
+$string['upgradesettingsintro'] = 'As configurações mostradas abaixo foram adicionadas durante a atualização do Moodle. Modifique as que achar necessário e quando terminar clique no botão "Guardar alterações" no fim da página.';
 $string['upgradestalefiles'] = 'Foram detetados ficheiros de instalação inválidos, a atualização não pode continuar';
 $string['upgradestalefilesinfo'] = 'O processo de atualização do Moodle foi interrompido porque os scripts de PHP de, pelo menos, duas versões anteriores do Moodle foram detetados na diretoria do Moodle.
 

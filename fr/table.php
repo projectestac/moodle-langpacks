@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['downloadas'] = 'Télécharger les données sous le nom';
+$string['downloadas'] = 'Télécharger les données au format';
 $string['downloadcsv'] = 'Fichier texte avec séparateur virgule (CSV)';
 $string['downloadexcel'] = 'Feuille de calcul Excel';
 $string['downloadods'] = 'Feuille de calcul OpenDocument';

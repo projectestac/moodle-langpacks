@@ -30,5 +30,7 @@ $string['application/pdf'] = 'Έγγραφο Acrobat Reader PDF';
 $string['application/vnd.ms-excel'] = 'Έγγραφο Λογιστικού Φύλλου Excel';
 $string['application/vnd.ms-powerpoint'] = 'Έγγραφο Παρουσίασης Powerpoint';
 $string['document/unknown'] = 'Αρχείο';
+$string['group:html_audio'] = 'Αρχεία ήχου με εγγενή υποστήριξη από τους περιηγητές';
+$string['group:html_video'] = 'Αρχεία βίντεο με εγγενή υποστήριξη από τους περιηγητές';
 $string['text/plain'] = 'Αρχείο Κειμένου';
 $string['text/rtf'] = 'Αρχείο Εμπλουτισμένου Κειμένου RTF';

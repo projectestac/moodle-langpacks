@@ -52,7 +52,7 @@ $string['auth_ldap_expireattr_key'] = '有効期限切れ属性';
 $string['auth_ldapextrafields'] = 'これらのフィールドは任意です。<b>LDAPフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することもできます。<p>空白の場合、LDAPよりデータは転送されず、代わりにMoodleのデフォルト値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後、すべてのフィールドを編集することができます。</p>';
 $string['auth_ldap_graceattr_desc'] = '任意: 猶予ログイン属性をオーバーライドします。';
 $string['auth_ldap_gracelogin_key'] = '猶予ログイン属性';
-$string['auth_ldap_gracelogins_desc'] = 'LDAPの猶予ログインサポートを有効にします。パスワードの有効期限が切れた後、猶予ログインカウントがゼロになるまでログインすることができます。この設定を「Yes」にすることで、パスワードが期限切れになった場合、猶予ログインメッセージが表示されます。';
+$string['auth_ldap_gracelogins_desc'] = 'LDAPの猶予ログインサポートを有効にします。パスワードの有効期限が切れた後、猶予ログインカウントがゼロになるまでログインすることができます。この設定を「Yes」にすることで、パスワードの有効期限が切れた場合、猶予ログインメッセージが表示されます。';
 $string['auth_ldap_gracelogins_key'] = '猶予ログイン';
 $string['auth_ldap_groupecreators'] = 'メンバーがグループの作成を許可されているグループまたはコンテクストの一覧です。複数のグループは「;」で区切ってください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
 $string['auth_ldap_groupecreators_key'] = 'グループ作成者';

@@ -222,7 +222,7 @@ $string['filternone'] = 'Kein Filter';
 $string['filternotsubmitted'] = 'Nicht abgegeben';
 $string['filterrequiregrading'] = 'Bewertung notwendig';
 $string['filtersubmitted'] = 'Abgegeben';
-$string['fixrescalednullgrades'] = 'Die Aufgabe enthält fehlerhafte Bewertungen. Sie können die <a href="{$a-> link} ">Bewertungen automatisch beheben</a>. Die Kurssummen könnten dabei beeinflusst werden.';
+$string['fixrescalednullgrades'] = 'Die Aufgabe enthält fehlerhafte Bewertungen. Sie können die <a href="{$a->link} ">Bewertungen automatisch beheben</a>. Die Kurssummen könnten dabei beeinflusst werden.';
 $string['fixrescalednullgradesconfirm'] = 'Möchten Sie die fehlerhaften Bewertungen automatisch beheben lassen? Alle betroffenen Bewertungen werden entfernt. Die Kurssummen könnten beeinflusst werden.';
 $string['fixrescalednullgradesdone'] = 'Bewertungen korrigiert';
 $string['gradeabovemaximum'] = 'Bewertung muss kleiner oder gleich {$a} sein.';

@@ -27,11 +27,22 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['database'] = 'Datu-basea';
 $string['database_help'] = 'Erabiliko den datu-basearen izena';
+$string['extendedmode'] = 'Erabili gako luzatuak';
+$string['extendedmode_help'] = 'Gaituz gero gako-multzo osoak erabiliko dira pluginarekin lan egitean. Hau oraindik ez da plugin barruan erabiltzen baina MondoDB pluginean eskuz bilatu eta ikertzea baimenduko dizu hala egin nahi izanez gero. Aukera hau gaitzeak gainkarga txiki bat suposatu lezake, beraz soilik behar denean gaitu ezazu.';
 $string['password'] = 'Pasahitza';
 $string['password_help'] = 'Erabiltzailearen pasahitza konexiorako erabilitako bera da.';
+$string['pleaseupgrademongo'] = 'PHPko Mongo luzapenaren bertsio zahar bat erabiltzen ari zara (1.3 baino txikiagoa). Etorkizunean Mongo luzapen zaharren sostengua kenduko da. Mesedez hausnartu eguneratzea egitean.';
 $string['pluginname'] = 'MongoDB';
+$string['replicaset'] = 'Erreplika-multzoa';
+$string['replicaset_help'] = 'Konektatu beharreko erreplika-multozaren izena. Balio hau emanez gero nagusia zehazteko hazietako ismaster datu-baseko komandoa erabiliko da, eta beraz kontrolatzaileak zerrendatu gabeko zerbitzari batera konektatuta amaitu lezake.';
 $string['server'] = 'Zerbitzaria';
+$string['server_help'] = 'Ezarpen hau erabili nahi duzun zerbitzariko konexiorako karaktere-katea da. Zerbitzari anitz zehaztu daiteke komaz banatutako zerrenda bat erabilita.';
 $string['testserver'] = 'Proba-zerbitzaria';
+$string['testserver_desc'] = 'Probetarako zerbitzari batekin konexioa probatzeko karaktere-katea. Probetarako zerbitzari bat zehaztu bada MondoDB-en errendimendua kudeaketa blokeko Cache atalaren Probatu errendimendua orria erabiliz proba daiteke.
+Adibidez: mongodb://127.0.0.1:27017';
 $string['username'] = 'Erabiltzaile-izena';
+$string['username_help'] = 'Konexioa egitean erabiliko den erabiltzaile-izena.';
 $string['usesafe'] = 'Erabili segurua';
+$string['usesafe_help'] = 'Gaituz gero insert, get eta remove eragiketak egin bitartean usesafe aukera erabiliko da. Erreplika-multzoa zehaztu baduzu aukera hau beharrezkoa izango da edonola ere.';
 $string['usesafevalue'] = 'Erabili balore segurua';
+$string['usesafevalue_help'] = 'Erabili segururako (use safe) balio zehatz bat ematea aukeratu dezakezu. Honek eragiketak osatutzat emateko hauek osatuta izan behar duten zerbitzari-kopurua zehaztuko du.';

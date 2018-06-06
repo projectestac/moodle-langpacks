@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['passworderror'] = 'パスワードが正しくありません。';
+$string['passworderror'] = '入力されたパスワードが正しくありません。';
 $string['pluginname'] = 'パスワード - 小テストアクセスルール';
 $string['quizpassword'] = '小テストパスワード';
 $string['requirepasswordmessage'] = 'この小テストを受験するためはパスワードを入力する必要があります。';

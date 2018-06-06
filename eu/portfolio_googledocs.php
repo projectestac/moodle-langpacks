@@ -27,7 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['clientid'] = 'Bezeroaren IDa';
 $string['noauthtoken'] = 'Ez da autentifikazio tokenik jaso Google-tik. Mesedez, ziurtatu baimena duzula Moodle-n zure Google kontura sartzeko';
+$string['nooauthcredentials'] = 'OAuth kredentzialak behar dira.';
+$string['nooauthcredentials_help'] = 'Google Drive portfolio-plugina erabiltzeko portfolio-ezarpenetan OAuth kredentzialak konfiguratu behar dituzu.';
 $string['nosessiontoken'] = 'Saioko tokenik ez dago google-ra esportatzea debekatuz';
+$string['oauthinfo'] = '<p>Plugin hau erabiltzeko, zure gunea Google-n erregistratu behar duzu <a href="{$a->docsurl}">Google OAuth 2.0 setup</a> dokumentazioan azaltzen den eran.</p><p>Erregistro-prozesuaren une batean, hurrengo URLa  \'Authorized Redirect URIs\' gisa sartu beharko duzu:</p><p>{$a->callbackurl}</p><p>Behin erregistroa eginda, bezero IDa eta sekretua emango zaizu Google Drive eta Picasa gehigarriak konfiguratu ahal izateko.</p>';
 $string['pluginname'] = 'Google Drive';
 $string['secret'] = 'Sekretua';
 $string['sendfailed'] = '{$a} fitxategiak kale egin du Google-ra bidaltzean';

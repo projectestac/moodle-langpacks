@@ -399,8 +399,10 @@ Os tipos de formatos disponíveis dependem do tipo de ficheiro de origem. Alguns
 
 A configuração "Mais adequado" irá exibir o tipo de formato mais adequado ao navegador do aluno.';
 $string['outputformat_hp_6_jcloze_html'] = 'JCloze HP6 html: Standard';
+$string['outputformat_hp_6_jcloze_html_dropdown'] = 'Lista pendente desde html';
 $string['outputformat_hp_6_jcloze_html_findit_a'] = 'FindIt (a) a partir de html';
 $string['outputformat_hp_6_jcloze_html_findit_b'] = 'FindIt (b) a partir de html';
+$string['outputformat_hp_6_jcloze_html_jgloss'] = 'JGloss desde html';
 $string['outputformat_hp_6_jcloze_xml_anctscan'] = 'JCloze from HP6 xml: ANCT-Scan';
 $string['outputformat_hp_6_jcloze_xml_dropdown'] = 'Lista pendente de HP6 JCloze xml';
 $string['outputformat_hp_6_jcloze_xml_findit_a'] = 'JCloze from HP6 xml: Rottmeier FindIt (a)';

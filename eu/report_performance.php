@@ -25,14 +25,29 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['check_backup'] = 'Automatizatutako segurtasun-kopia';
+$string['check_backup'] = 'Segurtasun-kopia automatizatua';
+$string['check_backup_comment_disable'] = 'Errendimendua kaltetua izan daiteke segutasun-kopia egin bitartean. Gaituz gero, segurtasun-kopiak trafiko gehieneko denbora-tarteetatik kanpo programatu behar lirateke.';
+$string['check_backup_comment_enable'] = 'Errendimendua kaltetua izan daiteke segutasun-kopia egin bitartean. Segurtasun-kopiak trafiko gehieneko denbora-tarteetatik kanpo programatu behar lirateke.';
+$string['check_backup_details'] = 'Segurtasun-kopia automatizatuak gaituz gero, zerbitzarian ikastaro guztien fitxategiak sortuko dira zuk zehaztutako orduan. <p>Prozesuak dirauen bitartean, zerbitzariko baliabide gehiago kontsumituko dira eta horrek eragina izan dezake errendimenduan.</p>';
+$string['check_cachejs_comment_disable'] = 'Gaituz gero, orriak kargatzeko errendimendua hobetzen da';
 $string['check_cachejs_comment_enable'] = 'Desgaituz gero, orria astiro karga daiteke.';
+$string['check_cachejs_details'] = 'Javascript fitxategien cacheak eta konpresioak orri-kargaren errendimendua asko hobetzen du. Lanean ari diren guneetan irmoki gomendatzen da.';
+$string['check_debugmsg_comment_developer'] = 'GARATZAILEA ez den beste edozein aukera ezarriz gero, errendimendua pixka bat hobe daiteke.';
+$string['check_debugmsg_comment_nodeveloper'] = 'GARATZAILEA moduan ezarriz gero, errendimendua pixka bat kaltetua izan daiteke.';
+$string['check_debugmsg_details'] = 'Nekez izango da abantailarik Garatzaile modua ezartzean, garatzailea ez bazara behintzat, kasu horretan ordea irmoki gomendatzen da-eta.<p>Behin errore-mezua eskuratuta, kopiatu eta beste nonbaiten itsatsi ondoren, IRMOKI GOMENDATZEN DA \'BAT ERE EZ\' arazketa-modua zehaztea.</p>Garatzailea moduak hackerrei pistak ematen dizkie eta gainera zure gunearen errendimenduan eragina izan dezake.';
+$string['check_enablestats_comment_disable'] = 'Errendimendua kaltetua izan daiteke estatistiken prozesamenduagatik. Gaituz gero, estatistiken ezarpenak kontu handiz konfiguratu behar lirateke.';
+$string['check_enablestats_comment_enable'] = 'Errendimendua kaltetua izan daiteke estatistiken prozesamenduagatik. Estatistiken ezarpenak kontu handiz konfiguratu behar lirateke.';
+$string['check_enablestats_details'] = 'Aukera hau gaituz gero cron-aren bidez erregistroak prozesatuko dira eta hainbat estatistika bilduko dira. Zure gunearen trafikoaren arabera, honek denbora bat eraman dezake.<p>Prozesu honek iraun bitartean zerbitzariaren baliabide gehiago beharko dira eta horrek errendimendua kaltetu dezake.</p>';
+$string['check_themedesignermode_comment_disable'] = 'Gaituz gero, irudiak eta estilo-orriak ez dira cacheatuko, eta ondorioz errendimendua modu nabarmenean kaltetuko da.';
+$string['check_themedesignermode_comment_enable'] = 'Desgaituz gero, irudiak eta estilo-orriak cacheatuko dira, eta ondorioz errendimendua modu nabarmenean hobetuko da.';
+$string['check_themedesignermode_details'] = 'Honek maiz Moodle guneak mantsotzen ditu.<p>Batez beste gutxienez CPU denbora bikoitza beharko da Moodle gune bat exekutatzeak itxura-diseinatzaile modua gaituta dagoenean.</p>';
 $string['comments'] = 'Iruzkinak';
 $string['disabled'] = 'Desgaituta';
 $string['edit'] = 'Editatu';
 $string['enabled'] = 'Gaituta';
 $string['issue'] = 'Arazoa';
 $string['morehelp'] = 'laguntza gehiago';
+$string['performancereportdesc'] = 'Txosten honek {$a} gunearen errendimenduan eragina izan dezaketen arazoak zerrendatzen ditu';
 $string['performance:view'] = 'Ikusi errendimenduaren txostena';
 $string['pluginname'] = 'Errendimenduaren laburpena';
-$string['value'] = 'Balorea';
+$string['value'] = 'Balioa';

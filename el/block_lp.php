@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['competenciestoreview'] = 'Προσόντα για αναθεώρηση';
 $string['lp:addinstance'] = 'Προσθήκη νέου μπλοκ εκπαιδευτικά πλάνα';
 $string['lp:myaddinstance'] = 'Προσθήκη νέου μπλοκ εκπαιδευτικά πλάνα στη σελίδα Η αρχική μου';

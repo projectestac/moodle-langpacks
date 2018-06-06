@@ -63,13 +63,13 @@ $string['allowusermailcharset'] = 'E-Mail-Zeichensatz wählbar';
 $string['allowuserswitchrolestheycantassign'] = 'Rollenwechsel für Nutzer/innen erlauben, die kein Recht zur Rollenzuweisung besitzen';
 $string['allowuserthemes'] = 'Designwechsel für Nutzer/innen erlauben';
 $string['alternativefullnameformat'] = 'Vollständiger Name - Alternative';
-$string['alternativefullnameformat_desc'] = 'Legen Sie hier fest wie Namen für Nutzer angezeigt werden, die über die Berechtigung  \'viewfullname\' verfügen. Dies sind normalerweise: Manager, Trainer und Trainer ohne Bearbeitungsrecht. Es können die gleichen Platzhalter verwendet werden wie für die Einstellungen des \'Vollständigen Namens\'.';
+$string['alternativefullnameformat_desc'] = 'Legen Sie hier fest, wie Namen für Nutzer/innen angezeigt werden, die über die Berechtigung  \'viewfullname\' verfügen. Dies sind normalerweise: Manager/innen, Trainer/innen sowie Trainer/innen ohne Bearbeitungsrecht. Es können die gleichen Platzhalter verwendet werden wie für die Einstellungen zum \'Vollständigen Namen\'.';
 $string['always'] = 'Immer';
 $string['appearance'] = 'Darstellung';
 $string['aspellpath'] = 'Pfad zu <i>aspell</i>';
 $string['authentication'] = 'Authentifizierung';
 $string['authpreventaccountcreation'] = 'Accounterstellung während Authentifizierung verhindern';
-$string['authpreventaccountcreation_help'] = 'Wenn sich ein Benutzer authentifiziert, wird auf der Site automatisch ein Account angelegt, wenn dieser noch nicht existiert. Diese Option sollte aktiviert werden wenn eine externe Datenbank wie z.B. LDAP zur Authentifizierung genutzt wird und sich nur bereits existierende Nutzer authentifizieren sollen. Neue Accounts müssen dann von Hand oder cvs Nutzerupload angelegt werden. Hinweis: diese Einstellung gilt nicht für die MNet-Authentifizierung.';
+$string['authpreventaccountcreation_help'] = 'Wenn sich ein Nutzer authentifiziert, wird auf der Website automatisch ein Nutzerkonto angelegt, wenn dieses noch nicht existiert. Diese Option sollte aktiviert werden, wenn eine externe Datenbank wie z.B. LDAP zur Authentifizierung genutzt wird und sich nur bereits existierende Nutzer authentifizieren sollen. Neue Nutzerkonten müssen dann von Hand oder Nutzerupload per cvs angelegt werden. Hinweis: diese Einstellung gilt nicht für die MNet-Authentifizierung.';
 $string['authsettings'] = 'Übersicht';
 $string['autolang'] = 'Sprache erkennen';
 $string['autologinguests'] = 'Auto-Login für Gäste';
@@ -148,8 +148,8 @@ $string['configallcountrycodes'] = 'Diese Länderliste wird an unterschiedlichen
 Falls das Feld leer bleibt, wird standardmäßig die gesamte Liste aus der Datei countries.php im englischen Sprachpaket benutzt.
 Dies ist die Liste gemäß ISO 3166-1.
 Über eine kommagetrennte Liste können Sie die Auswahlmöglichkeiten einschränken, z.B. \'GB,FR,ES\'.
-Falls Sie weitere, nicht standardmäßige Codes, ergänzen möchten, so müssen Sie diese Codes in der Datei countries.php in Ihrem Sprachpaket hinzufügen.';
-$string['configallowassign'] = 'Die linksseitig genannten Rolleninhaber dürfen alle rechts in den Spalten markierten Rollen an andere Nutzer/innen zuweisen';
+Falls Sie weitere, nicht standardmäßige Codes ergänzen möchten, so müssen Sie diese Codes in der Datei countries.php in Ihrem Sprachpaket hinzufügen.';
+$string['configallowassign'] = 'Die linksseitig genannten Rolleninhaber dürfen alle rechts in den Spalten markierten Rollen an andere Nutzer/innen zuweisen.';
 $string['configallowattachments'] = 'Diese Option legt fest, ob E-Mail-Mitteilungen auch mit Anhängen versandt werden (z.B. mit Auszeichnungen).';
 $string['configallowblockstodock'] = 'Diese Option legt fest, ob Nutzer/innen die Blöcke in ein spezielles Dock ablegen können, wobei nicht alle Designs diese Möglichkeit unterstützen.';
 $string['configallowcategorythemes'] = 'Wenn Sie diese Option aktivieren, können Designs auf Kategorieebene gesetzt werden. Dies wirkt sich gleichzeitig auf alle Unterkategorien und Kurse aus, falls diese nicht wiederum eigene Designs verwenden. ACHTUNG: Kategorie-Designs können zu einer Reduzierung der Arbeitsgeschwindigkeit führen!!';
@@ -160,7 +160,7 @@ $string['configallowguestmymoodle'] = 'Diese Option erlaubt Gästen den Zugriff 
 $string['configallowobjectembed'] = 'Aus Sicherheitsgründen dürfen normale Nutzer/innen keine Multmedia-Objekte über die HTML-Tags &lt;embed&gt; und &lt;object&gt; in den HTML-Code einbinden. Multimedia-Objekte sind alternativ auch über den Mediafilter nutzbar, ohne dabei Sicherheitsprobleme zu verursachen. Wenn Sie die HTML-Tags für alle erlauben möchten, aktivieren Sie diese Option.';
 $string['configallowoverride'] = 'Die linksseitig genannten Rolleninhaber dürfen alle nach rechts markierten Rollen ändern';
 $string['configallowoverride2'] = 'Wählen Sie, welche Rollen durch eine Rolle aus der linken Spalte verändert werden dürfen. <br />Beachten Sie dabei, dass diese Einstellungen ausschließlich für Nutzer/innen gelten, für die die Rechte moodle/role:override oder moodle/role:safeoverride gesetzt sind.';
-$string['configallowswitch'] = 'Legen Sie fest, in welche anderen Rollen ein Nutzer von der aktuellen Rollen aus wechseln kann. Zusätzlich zu dieser Einstellung ist die Berechtigung moodle/role:switchroles für die aktuelle Rolle erforderlich. <br />Anmerkung: Der Wechsel in eine Rolle kann nur erfolgen, wenn diese die Berechtigung moodle/course:view besitzen und nicht die Berechtigung moodle/site:doanything. Einige Spalten sind daher u.U. deaktiviert.';
+$string['configallowswitch'] = 'Legen Sie fest, in welche anderen Rollen eine Person von ihrer aktuellen Rolle aus wechseln kann. Zusätzlich zu dieser Einstellung ist die Berechtigung moodle/role:switchroles für die aktuelle Rolle erforderlich. <br />Anmerkung: Der Wechsel in eine Rolle kann nur erfolgen, wenn diese die Berechtigung moodle/course:view besitzen und nicht die Berechtigung moodle/site:doanything. Einige Spalten sind daher u.U. deaktiviert.';
 $string['configallowthemechangeonurl'] = 'Wenn diese Option aktiv ist, kann das Design jeder Seite über den URL-Zusatz \'theme={themename}\' geändert werden, z.B. als  moodledomain.de/?theme=afterburner oder als moodledomain.de/course/view.php?id=2&theme=afterburner';
 $string['configallowuserblockhiding'] = 'Möchten Sie das Minimieren von Blöcken zulassen? Die Blöcke werden dabei bis auf die Kopfzeile reduziert. Jede Person beeinflusst ausschließlich ihre eigene Nutzeransicht.';
 $string['configallowusermailcharset'] = 'Diese Option legt fest, ob Nutzer/innen den E-Mail-Zeichensatz in ihren persönlichen Einstellungen selber festlegen können.';
@@ -747,7 +747,7 @@ $string['maturity200'] = 'Stable Version';
 $string['maturity50'] = 'Alpha';
 $string['maturityallowunstable'] = 'Hinweis: dieses Script kann mit der Option --allow-unstable ausgeführt werden';
 $string['maturitycoreinfo'] = 'Diese Website arbeitet mit einer Entwicklerversion: \'{$a}\'';
-$string['maturitycorewarning'] = 'Die Moodle-Version, mit der Sie gerade installieren oder aktualisieren möchten, ist markiert als \'{$a}\' und nicht für einen produktiven Einsatz vorgesehen. Für einen produktive Einsatz sollten Sie unbedingt eine Moodle-Version aus einem STABLE-Zweig verwenden.';
+$string['maturitycorewarning'] = 'Das Moodle, das Sie gerade installieren oder aktualisieren möchten, ist als \'{$a}\' markiert und noch nicht für den produktiven Einsatz vorgesehen. Verwenden Sie für einen produktiven Einsatz unbedingt ein Moodle aus einem STABLE-Zweig.';
 $string['maxbytes'] = 'Maximale Dateigröße';
 $string['maxconsecutiveidentchars'] = 'Aufeinander folgende identische Zeichen';
 $string['maxeditingtime'] = 'Maximale Zeit zur Beitragsbearbeitung';
@@ -989,7 +989,7 @@ $string['registrationwarning'] = 'Diese Website ist noch nicht registriert.';
 $string['registrationwarningcontactadmin'] = 'Diese Website ist noch nicht registriert. Bitte benachrichtigen Sie den Administrator.';
 $string['releasenoteslink'] = 'Weitere Informationen über diese Version finden Sie online: <a target="_blank" href="{$a}">Versionsinformation</a>';
 $string['rememberusername'] = 'Anmeldenamen merken';
-$string['rememberusername_desc'] = 'Aktivieren Sie diese Option, wenn Sie für das Login den Anmeldenamen in einem Cookie speichern möchten. Cookies könnten als Datenschutzrisiko betrachtet werden, wenn man sie ohne Einwilligung verwendet.';
+$string['rememberusername_desc'] = 'Aktivieren Sie diese Option, wenn Sie für das Login den Anmeldenamen in einem Cookie speichern möchten. Cookies könnten als Datenschutzrisiko betrachtet werden, wenn man sie ohne Information verwendet.';
 $string['reportsmanage'] = 'Berichte verwalten';
 $string['requestcategoryselection'] = 'Kategorieauswahl aktivieren';
 $string['requiredentrieschanged'] = '<strong>WICHTIG - UNBEDINGT LESEN<br />Die Warnung wird ausschließlich bei dieser Aktualisierung gezeigt!</strong><br />
@@ -1072,10 +1072,10 @@ $string['sitemaintenanceoncli'] = 'Ihr System ist derzeit im CLI-Wartungsmodus. 
 $string['sitemaintenancewarning'] = 'Die Website ist momentan im Wartungsmodus. Die Anmeldung ist ausschließlich für Administrator/innen möglich. <br /><a href="maintenance.php"> Wartungsmodus beenden </a>.';
 $string['sitemaintenancewarning2'] = 'Die Website ist momentan im Wartungsmodus. Die Anmeldung ist ausschließlich für Administrator/innen möglich. <br /><a href="{$a}"> Wartungsmodus beenden </a>.';
 $string['sitepolicies'] = 'Website-Rechte';
-$string['sitepolicy'] = 'URL zur Zustimmungserklärung';
-$string['sitepolicyguest'] = 'URL zur Zustimmungserklärung für Gäste';
-$string['sitepolicyguest_help'] = 'Wenn Sie eine Zustimmungserklärung verwenden, die alle Gäste vor der Nutzung der Website akzeptieren müssen, können Sie hier die URL angeben. Diese Einstellung kann jede öffentliche URL enthalten. Probleme könnte es mit der Option \'Anmeldung notwendig\' geben, weil nicht angemeldete Personen keinen Zugriff auf Dateien der Website haben.';
-$string['sitepolicy_help'] = 'Wenn Sie eine Zustimmungserklärung verwenden, die alle Personen vor der Nutzung der Website akzeptieren müssen, können Sie hier die URL angeben. Diese Einstellung kann jede öffentliche URL enthalten.';
+$string['sitepolicy'] = 'URL zur Datenschutzinformation';
+$string['sitepolicyguest'] = 'URL zur Datenschutzinformation für Gäste';
+$string['sitepolicyguest_help'] = 'Wenn Sie eine Einwilligungserklärung verwenden, die alle Gäste vor der Nutzung der Website akzeptieren müssen, können Sie hier die URL angeben. Diese Einstellung kann jede öffentliche URL enthalten. Probleme könnte es mit der Option \'Anmeldung notwendig\' geben, weil nicht angemeldete Personen keinen Zugriff auf Dateien der Website haben.';
+$string['sitepolicy_help'] = 'Wenn Sie eine Einwilligungungserklärung verwenden, die alle Personen vor der Nutzung der Website akzeptieren müssen, können Sie hier die URL angeben. Diese Einstellung kann jede öffentliche URL enthalten.';
 $string['sitesectionhelp'] = 'Mit dieser Option wird ein Textabschnitt auf der Startseite angezeigt.';
 $string['slasharguments'] = 'Slash-Parameter benutzen';
 $string['slashargumentswarning'] = 'Es wird empfohlen, die Verwendung von Schrägstrich-Argumenten zu aktivieren. Zukünftig wird dies erforderlich sein. Weitere Einzelheiten finden Sie in der Dokumentation <a href="https://docs.moodle.org/en/admin/environment/slasharguments">Schrägstrich-Argumente</a> .';
@@ -1199,15 +1199,15 @@ $string['unsuspenduser'] = 'Nutzerkonto aktivieren';
 $string['updateaccounts'] = 'Update bestehender Accounts';
 $string['updateautocheck'] = 'Aktualisierungen prüfen';
 $string['updateautocheck_desc'] = 'Wenn diese Option aktiviert ist, wird für Ihrer Website automatisch geprüft, ob für Moodle oder ein zusätzliches Plugin aktuellere Versionen verfügbar sind. Falls eine Aktualisierung vorhanden ist, werden die Administratoren benachrichtigt.';
-$string['updateavailable'] = 'Eine neuere Moodle-Version ist verfügbar!';
+$string['updateavailable'] = 'Ein neueres Moodle ist verfügbar!';
 $string['updateavailabledetailslink'] = 'Weitere Details: {$a->url}';
-$string['updateavailableforplugin'] = 'Für einige Plugins sind aktualisierte Versionen verfügbar.';
+$string['updateavailableforplugin'] = 'Für einige Plugins sind Aktualisierungen verfügbar.';
 $string['updateavailableinstall'] = 'Aktualisierung ausführen';
 $string['updateavailableinstallall'] = 'Verfügbare Aktualisierungen ausführen ({$a})';
 $string['updateavailableinstallallhead'] = 'Verfügbare Aktualisierungen werden installiert.';
 $string['updateavailable_moreinfo'] = 'Weitere Infos';
-$string['updateavailablenot'] = 'Die installierte Moodle-Version ist aktuell.';
-$string['updateavailablerecommendation'] = 'Nur wenn die Software der Website auf die letzte Version aktualisiert wird, enthält sie alle Sicherheits- und Fehlerkorrekturen.';
+$string['updateavailablenot'] = 'Das installierte Moodle ist aktuell.';
+$string['updateavailablerecommendation'] = 'Um alle aktuellen Sicherheits- und Fehlerkorrekturen zu erhalten, sollten Sie die Software der Website aktualisieren.';
 $string['updateavailable_release'] = 'Moodle {$a}';
 $string['updateavailable_version'] = 'Version {$a}';
 $string['updatecomponent'] = 'Komponente aktualisieren';
@@ -1230,7 +1230,7 @@ $string['upgradepluginsinfo'] = 'Plugins aktualisieren';
 $string['upgradepluginsinfo_help'] = 'Für die installierten Plugins sind Aktualisierungen verfügbar! Die Aktualisierungen müssen manuell herunterladen und installiert werden. Erst dann sollten Sie die Aktualisierung der Datenbank starten.';
 $string['upgradesettings'] = 'Neue Einstellungen';
 $string['upgradesettingsintro'] = 'Die folgenden Optionen wurden bei der letzten Aktualisierung hinzugefügt. Ändern Sie (falls nötig) die standardmäßigen Vorgaben und sichern Sie die Einstellungen.';
-$string['upgradestalefiles'] = 'Das Moodleverzeichnis enthält noch alte Dateien. Das Upgrade kann nicht fortgesetzt werden.';
+$string['upgradestalefiles'] = 'Das Verzeichnis enthält noch Dateien von einem älteren Moodle. Das Upgrade kann nicht fortgesetzt werden.';
 $string['upgradestalefilesinfo'] = 'Die Aktualisierung wurde angehalten, weil PHP-Skripte aus unterschiedlichen Moodle-Versionen gefunden wurden. Dies könnte zu erheblichen Problemen im Betrieb führen.
 
 Für eine saubere Installation wird folgendes Vorgehen empfohlen:

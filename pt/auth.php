@@ -109,6 +109,7 @@ $string['forgottenpasswordurl'] = 'URL para recuperação de senha';
 $string['getanaudiocaptcha'] = 'Versão áudio do CAPTCHA';
 $string['getanimagecaptcha'] = 'Versão gráfica do CAPTCHA';
 $string['getanothercaptcha'] = 'Gerar outro CAPTCHA';
+$string['getrecaptchaapi'] = 'Para usar o reCAPTCHA, tem de obter uma chave de API desde <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Botão de entrada como visitante';
 $string['incorrectpleasetryagain'] = 'Incorreto. Por favor, tente novamente.';
 $string['infilefield'] = 'Campo necessário no ficheiro';
@@ -137,7 +138,9 @@ $string['pluginnotenabled'] = 'O módulo de autenticação \'{$a}\' não está a
 $string['pluginnotinstalled'] = 'O módulo de autenticação \'{$a}\' não está instalado.';
 $string['potentialidps'] = 'Autenticar-se usando a sua conta em:';
 $string['recaptcha'] = 'reCAPTCHA';
-$string['recaptcha_help'] = 'O CAPTCHA serve para evitar ações indevidas por parte de programas automáticos. Insira as palavras na caixa, pela ordem apresentada e separadas por um espaço em branco.Se não tem a certeza das palavras, obtenha um novo CAPTCHA ou um CAPTCHA em formato áudio.';
+$string['recaptcha_help'] = 'O CAPTCHA serve para evitar ações indevidas por parte de programas automáticos. Siga as instruções para verificar se é uma pessoa.Pode ser uma caixa para verificar, carateres apresentados numa imagem que deve inserir ou um conjunto de imagens para selecionar.
+
+Se não tiver certeza de quais são as imagens, tente obter outro CAPTCHA ou um CAPTCHA de áudio.';
 $string['recaptcha_link'] = 'link';
 $string['security_question'] = 'Pergunta de segurança';
 $string['selfregistration'] = 'Autorregisto';

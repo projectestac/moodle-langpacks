@@ -94,7 +94,7 @@ $string['errormaxconsecutiveidentchars'] = 'Wachtwoorden mogen maximaal {$a} ope
 $string['errorminpassworddigits'] = 'Wachtwoorden moeten minstens {$a} cijfers hebben.';
 $string['errorminpasswordlength'] = 'Wachtwoorden moeten minstens {$a} tekens lang zijn.';
 $string['errorminpasswordlower'] = 'Wachtwoorden moeten minstens {$a} kleine letters hebben.';
-$string['errorminpasswordnonalphanum'] = 'Wachtwoorden moeten minstens {$a} niet-alphanumerieke tekens hebben, zoals  *, -, of #.';
+$string['errorminpasswordnonalphanum'] = 'Wachtwoorden moeten minstens {$a} niet-alfanumerieke tekens hebben, zoals  *, -, of #.';
 $string['errorminpasswordupper'] = 'Wachtwoorden moeten minstens {$a} hoofdletters hebben.';
 $string['errorpasswordreused'] = 'Dit wachtwoord is vroeger al eens gebruikt en mag niet opnieuw gebruikt worden.';
 $string['errorpasswordupdate'] = 'Fout tijdens het updaten van het wachtwoord, wachtwoord niet gewijzigd.';
@@ -109,16 +109,17 @@ $string['forgottenpasswordurl'] = 'URL voor vergeten wachtwoorden';
 $string['getanaudiocaptcha'] = 'Vraag een audio CAPTCHA';
 $string['getanimagecaptcha'] = 'Vraag een afbeelding CAPTCHA';
 $string['getanothercaptcha'] = 'Vraag een andere CAPTCHA';
+$string['getrecaptchaapi'] = 'Als u reCAPTCHA wilt gebruiken, moet u een API-sleutel ophalen van <a href=\'https://www.google.com/recaptcha/admin\'> https://www.google.com/recaptcha/admin </a>';
 $string['guestloginbutton'] = 'Knop om in te loggen als gast';
 $string['incorrectpleasetryagain'] = 'Fout. Probeer opnieuw';
 $string['infilefield'] = 'Veld vereist in bestand';
 $string['informminpassworddigits'] = 'minstens {$a} getal(len)';
 $string['informminpasswordlength'] = 'minstens {$a} teken(s)';
 $string['informminpasswordlower'] = 'minstens {$a} kleine letter(s)';
-$string['informminpasswordnonalphanum'] = 'minstens {$a} niet-alphanummerieke teken(s) zoals   *, -, of #';
+$string['informminpasswordnonalphanum'] = 'minstens {$a} niet-alfhanumerieke teken(s) zoals   *, -, of #';
 $string['informminpasswordreuselimit'] = 'Wachtwoorden mogen herbruikt worden na {$a} wijzigingen';
 $string['informminpasswordupper'] = 'minstens {$a} hoofdletter(s)';
-$string['informpasswordpolicy'] = 'Het wachtwoord moet {$a} hebben';
+$string['informpasswordpolicy'] = 'Het wachtwoord moet {$a} hebben.';
 $string['instructions'] = 'Instructies';
 $string['internal'] = 'Intern';
 $string['limitconcurrentlogins'] = 'Maximaal aantal gelijktijdige logins';
@@ -137,15 +138,9 @@ $string['pluginnotenabled'] = 'Authenticatieplugin \'{$a}\' is niet ingeschakeld
 $string['pluginnotinstalled'] = 'Authenticatieplugin \'{$a}\' is niet geïnstalleerd';
 $string['potentialidps'] = 'Login met je account op:';
 $string['recaptcha'] = 'reCAPTCHA';
-$string['recaptcha_help'] = '<h2>Beschrijving</h2>
-<p>Een CAPTCHA is een computer dat het onderscheid kan maken tussen een computer en een mens. CAPTCHAs worden door veel websites gebruikt om misbruik van  "bots," of geautomatiseerde programma\'s voor het genereren van spam te voorkomen. Een computerprogramma kan vervormde tekst niet zo goed lezen als een mens dat kan. Daarom kunnen die bots niet navigeren over sites die beschermd zijn door  CAPTCHAs.</p>
+$string['recaptcha_help'] = 'Een CAPTCHA dient om te verhinderen dat geautomatiseerde systemen misbruik maken. Volg de instructies die gaan controleren of je een mens bent. Dit kan een box zijn waarin je een vinkje moet zetten, tekens in een afbeelding die je moet herkennen of een reeks afbeeldingen die je moet kiezen.
 
-<h2>Instructies</h2>
-<p>Vul de woorden in die je ziet in de box, in de juiste volgorde en gescheiden door een spatie. Deze procedure helpt het voorkomen van misbruik van deze site door geautomatiseerde programma\'s.</p>
-
-<p>Als je niet zeker bent wat de woorden zijn, maak dan een gokje of volg de link "Geef nog een CAPTCHA". </p>
-
-<p>Visueel beperkte gebruikers kunnen de link "Geef een audio-CAPTCHA" volgen om een reeks tekens te horen die ingevuld kunnen worden in de plaats van de visuele test.</p>';
+Als je niet zeker bent wat de afbeeldingen zijn, vraag dan een nieuwe CAPTCHA of een audio-CAPTCHA';
 $string['security_question'] = 'Beveiligingsvraag';
 $string['selfregistration'] = 'Zelfregistratie';
 $string['selfregistration_help'] = 'Als een authenticatieplugin, zoals e-mailgebaseerde zelfregistratie, is geselecteerd, dan kunnen potentiele gebruikers zichzelf registreren en accounts maken. Dit zorgt ervoor dat spammers accounts kunnen maken om forums en blogs te gaan gebruiken voor spam. Om dit risico te beperken zou zelfregistratie moeten uitgeschakeld worden of beperkt worden door de <em>Toegestane e-maildomeinen</em>-instelling.';

@@ -104,6 +104,7 @@ $string['settingssaved'] = 'Οι ρυθμίσεις σας έχουν αποθη
 $string['strftimedaydatetime'] = '%A, %d %B %Y, %I:%M %p';
 $string['timenosee'] = 'Λεπτά από την τελευταία φορά που ήμουν συνδεδεμένος/η';
 $string['timesent'] = 'Χρόνος αποστολής';
+$string['togglemessagemenu'] = 'Εναλλαγή εμφάνισης/απόκρυψης του μενού μηνυμάτων';
 $string['togglenotificationmenu'] = 'Μενού εναλλαγής ειδοποιήσεων';
 $string['unblockcontact'] = 'Ξεμπλόκαρε την επαφή';
 $string['unreadnewmessage'] = 'Νέο μήνυμα από {$a}';

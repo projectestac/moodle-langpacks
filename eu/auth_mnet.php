@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['auth_mnet_auto_add_remote_users'] = 'Bai aukeratuta, berez sortzen da erabiltzaile lokalaren erregistroa urrutiko erabiltzailea lehen aldiz sartzen denean.';
-$string['auth_mnetdescription'] = 'Zure Moodle Sarearen ezarpenetan definitutako web-konfidantzaren arabera autentifikatuko dira erabiltzaileak.';
+$string['auth_mnetdescription'] = 'Zure Moodle Sarearen ezarpenetan definitutako web-konfiantzaren arabera autentifikatuko dira erabiltzaileak.';
 $string['auth_mnet_roamin'] = 'Ostalari honetako erabiltzaileak zure gunean ibil daitezke';
 $string['auth_mnet_roamout'] = 'Zure erabiltzaileak ostalari honetan ibil daitezke';
 $string['auth_mnet_rpc_negotiation_timeout'] = 'XMLRCP-ren bidez autentifikatzeko gehienezko denbora segundutan.';

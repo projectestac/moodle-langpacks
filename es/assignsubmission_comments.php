@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['blindmarkingname'] = 'Participante {$a}';
 $string['default'] = 'Habilitado por defecto';
 $string['default_help'] = 'Si se activa la opción, este método de retroalimentación estará habilitado por omisión para todas las tareas nuevas.';
 $string['enabled'] = 'Comentarios de la entrega';

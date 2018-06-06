@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['contentheader'] = 'Περιεχόμενο';
+$string['downloadfolder'] = 'Φάκελλος ληφθέντων';
 $string['folder:addinstance'] = 'Προσθήκη νέου φακέλου';
 $string['folder:managefiles'] = 'Διαχείρηση αρχείων στην ενότητα φάκελος (folder module)';
 $string['folder:view'] = 'Εμφάνιση περιεχομένου φακέλου';
@@ -33,4 +34,5 @@ $string['modulename'] = 'Φάκελος';
 $string['modulenameplural'] = 'Φάκελοι';
 $string['pluginname'] = 'Φάκελος';
 $string['search:activity'] = 'Φάκελος';
+$string['showdownloadfolder'] = 'Εμφάνιση πλήκτρου φακέλου λήψεων';
 $string['showexpanded_help'] = 'Αν οριστεί σε \'ναι\', οι υποφακέλοι εμφανίζονται ανεπτυγμένοι από προεπιλογή. Διαφορετικά εμφανίζονται συμπτυγμένοι.';

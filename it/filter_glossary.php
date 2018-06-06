@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filtername'] = 'Link automatici al glossario';
+$string['filtername'] = 'Collegamento automatico alle voci di glossario';

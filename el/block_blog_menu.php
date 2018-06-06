@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['blog_menu:addinstance'] = 'Προσθήκη ενός νέου μπλοκ: μενού ιστολογίου';
 $string['pluginname'] = 'Μενού ιστολογίων';

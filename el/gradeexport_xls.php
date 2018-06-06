@@ -26,5 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Φύλλο εργασίας Excel';
+$string['timeexported'] = 'Τελευταία λήψη από αυτό το μάθημα';
 $string['xls:publish'] = 'Δημοσίευση εξαγωγής βαθμών σε XLS';
 $string['xls:view'] = 'Χρήση εξαγωγής βαθμών σε Excel';

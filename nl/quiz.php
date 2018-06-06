@@ -49,8 +49,8 @@ $string['addnewuseroverride'] = 'Voeg overschrijving gebruiker toe';
 $string['addpagebreak'] = 'Voeg een paginascheiding in';
 $string['addpagehere'] = 'Voeg hier een pagina toe';
 $string['addquestion'] = 'Voeg vraag toe';
-$string['addquestionfrombankatend'] = 'Voeg aan het einde toe uit de vragenbank';
-$string['addquestionfrombanktopage'] = 'Voeg toe aan pagina {$a} uit de vragenbank';
+$string['addquestionfrombankatend'] = 'Voeg aan het einde toe uit de vragenpool';
+$string['addquestionfrombanktopage'] = 'Voeg toe aan pagina {$a} uit de vragenpool';
 $string['addquestions'] = 'Voeg vragen toe';
 $string['addquestionstoquiz'] = 'Voeg vragen aan de huidige test toe';
 $string['addrandom'] = 'Voeg {$a} willekeurige vragen toe';
@@ -231,7 +231,7 @@ $string['createmultiple'] = 'Maak meer vragen';
 $string['createnewquestion'] = 'Maak nieuwe vraag';
 $string['createquestionandadd'] = 'Maak een nieuwe vraag en voeg ze toe aan de test.';
 $string['custom'] = 'Aangepast formaat';
-$string['dataitemneed'] = 'Je moet minstens één set gegevens ingeven om een geldige vraag te bekomen';
+$string['dataitemneed'] = 'Je moet minstens één set gegevens ingeven om een geldige vraag te verkrijgen';
 $string['datasetdefinitions'] = 'Herbruikbare datasetdefinities voor categorie {$a}';
 $string['datasetnumber'] = 'Aantal';
 $string['daysavailable'] = 'Dagen beschikbaar';
@@ -275,7 +275,7 @@ $string['editingquiz'] = 'Bewerk test';
 $string['editingquiz_help'] = 'Bij het maken van een test zijn de belangrijkste concepten:
 
 * De test, met vragen op één of meerdere pagina\'s
-* De vragenbank, die kopieën bewaart van alle vragen, georganiseerd in categorieën
+* De vragenpool, die kopieën bewaart van alle vragen, georganiseerd in categorieën
 * Willekeurige vragen - Een leerling krijgt verschillende vragen telkens wanneer ze de test doen en verschillende leerlingen kunnen ook verschillende vragen krijgen';
 $string['editingquizx'] = 'Test bewerken: {$a}';
 $string['editmaxmark'] = 'Bewerk maximumcijfer';
@@ -494,7 +494,7 @@ $string['missingquestion'] = 'Deze test bestaat niet meer';
 $string['modulename'] = 'Test';
 $string['modulename_help'] = 'Met de testmodule kan de leraar een set testen ontwerpen die bestaan uit meerkeuze, waar/onwaar, koppel en andere vragentypes.
 
-De leraar kan er voor kiezen om een test meerdere keren te laten proberen, met de vragen door elkaar geschud of willekeurig gekozen uit een vragenbank. Er kan een tijdslimiet ingesteld worden.
+De leraar kan er voor kiezen om een test meerdere keren te laten proberen, met de vragen door elkaar geschud of willekeurig gekozen uit een vragenpool. Er kan een tijdslimiet ingesteld worden.
 
 Elke poging wordt automatisch beoordeeld, met uitzondering van de open vragen, en het cijfer wordt in de cijferlijst opgenomen.
 
@@ -643,8 +643,8 @@ $string['qname'] = 'naam';
 $string['qti'] = 'IMS QTI-opmaak';
 $string['qtypename'] = 'type, naam';
 $string['question'] = 'Vraag';
-$string['questionbank'] = 'uit vragenbank';
-$string['questionbankmanagement'] = 'Vragenbank beheer';
+$string['questionbank'] = 'uit vragenpool';
+$string['questionbankmanagement'] = 'Vragenpool beheer';
 $string['questionbehaviour'] = 'Vraaggedrag';
 $string['questioncats'] = 'Vraagcategorieën';
 $string['questiondeleted'] = 'Deze vraag is verwijderd. Neem contact op met je leraar';
@@ -812,9 +812,9 @@ $string['reviewoptions'] = 'Leerlingen mogen nakijken';
 $string['reviewoptionsheading'] = 'Opties voor herbekijken';
 $string['reviewoptionsheading_help'] = 'Met deze optie controleer je welke informatie gebruikers kunnen zien wanneer zij een test nalezen of wanneer ze naar de testrapporten kijken.
 
-** Tijdens de poging** zijn instellingen slechts relevant voor sommige scenario\'s, zoals \'interactief met meerdere pogingen\', die feedback kunnen tonen tijdens de poging.
+**Tijdens de poging** zijn instellingen slechts relevant voor sommige scenario\'s, zoals \'interactief met meerdere pogingen\', die feedback kunnen tonen tijdens de poging.
 
-**Onmiddellijk na een poging** betekent binnen de twee minuten nadat de gebruiker de test beëindigd heeft door op \'Bewaar alles en beëindig test\' te klikken.
+**Onmiddellijk na een poging** betekent binnen de twee minuten nadat de gebruiker de test beëindigd heeft door op \'Bewaar alles en beëindig test te klikken.
 
 **Later, terwijl de test nog open is** betekent na die twee minuten en voor de test sluit.
 

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['buffersize'] = 'Buffer-aren tamaina';
-$string['buffersize_help'] = 'Batch eragiketa batean sartutako erregistro-sarrera kopurua, errendimendua hobetzen dutenak.';
+$string['buffersize_help'] = 'Eragiketa-sorta batean sartutako erregistroen sarrera-kopurua, errendimendua hobetzen dutenak.';
 $string['conectexception'] = 'Ezin da datu-basera konektatu.';
 $string['create'] = 'Sortu';
 $string['databasecollation'] = 'Datu-basearen ordenatze-irizpidea (collation)';
@@ -46,7 +46,7 @@ $string['logguests'] = 'Erregistratu bisitarien ekintzak';
 $string['other'] = 'Bestelako bat';
 $string['participating'] = 'Partaidetza';
 $string['pluginname'] = 'Kanpoko datu-basearen log-a';
-$string['pluginname_desc'] = 'Ekitaldiak kanpoko datu-base baten taulan gordetzen dituen agerraldi-erregistro gehigarri bat.';
+$string['pluginname_desc'] = 'Ekitaldiak kanpoko datu-base baten taulan gordetzen dituen agerraldi-erregistro plugin bat.';
 $string['read'] = 'Irakurri';
 $string['tablenotfound'] = 'Zehaztutako taula ez da aurkitu';
 $string['teaching'] = 'Irakaskuntza';

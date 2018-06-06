@@ -38,3 +38,4 @@ $string['pluginnameadding'] = 'Adding a multiple choice - math & science questio
 $string['pluginnameediting'] = 'Editing a multiple choice - math & science question by WIRIS';
 $string['pluginname_help'] = 'Like the standard Multiple choice, but you can deliver different question text and choices by inserting random numbers, formulas or plots. The feedback can also use the random values.';
 $string['pluginnamesummary'] = 'Like the standard Multiple choice, but you can deliver different question text and choices by inserting random numbers, formulas or plots. The feedback can also use the random values.';
+$string['privacy:null_reason'] = 'Wiris Quizzes Multi Choice question type does not effect or store any data itself.';

@@ -38,3 +38,4 @@ $string['pluginnameadding'] = 'Adding a Embedded answers (Cloze) - math & scienc
 $string['pluginnameediting'] = 'Editing a Embedded answers (Cloze) - math & science question by WIRIS';
 $string['pluginname_help'] = 'Like the standard Embedded answers (Cloze) question, but you can deliver different question text by inserting random numbers, formulas or plots. The feedback can also use the random values.';
 $string['pluginnamesummary'] = 'Like the standard Embedded answers (Cloze) question, but you can deliver different question text by inserting random numbers, formulas or plots. The feedback can also use the random values.';
+$string['privacy:null_reason'] = 'Wiris Quizzes Cloze question type does not effect or store any data itself.';

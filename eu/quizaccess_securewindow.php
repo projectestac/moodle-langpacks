@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'JavaScript segurtasunaren arabera sartzeko araua';
+$string['pluginname'] = 'JavaScript segurtasunaren araberako sarbide-araua';
 $string['popupwithjavascriptsupport'] = 'JavaScript segurtasuna duen pantaila osoko popup-a';

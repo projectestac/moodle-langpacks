@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filtername'] = 'Auto link ai nomi delle attività';
+$string['filtername'] = 'Collegamento automatico ai nomi delle attività';

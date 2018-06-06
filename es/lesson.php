@@ -312,7 +312,7 @@ Este valor se puede cambiar en cualquier momento ya que sólo afecta a lo que el
 $string['maximumnumberofattempts'] = 'Número máximo de intentos';
 $string['maximumnumberofattempts_help'] = 'Este ajuste especifica el número máximo de intentos permitidos para cada pregunta. Si se responde incorrectamente en repetidas ocasiones, al alcanzar este valor máximo, se muestra la siguiente página de la lección.';
 $string['maximumnumberofattemptsreached'] = 'Se ha alcanzado el número máximo de intentos. Traslado a la página siguiente';
-$string['mediaclose'] = 'Mostrar botón de cierre:';
+$string['mediaclose'] = 'Mostrar botón de cierre';
 $string['mediafile'] = 'Archivo en ventana emergente';
 $string['mediafile_help'] = '<p>Esta opción crea una ventana emergente al comienzo de la lección a un archivo (e.g., mp3) o página web. Asimismo, en cada página de la lección aparecerá un enlace que abre de nuevo la ventana emergente si fuera necesario.</p>
 

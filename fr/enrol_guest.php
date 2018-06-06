@@ -42,5 +42,5 @@ $string['showhint_desc'] = 'Afficher la première lettre du mot de passe d\'acc�
 $string['status'] = 'Permettre l\'accès anonyme';
 $string['status_desc'] = 'Permettre par défaut l\'accès anonyme temporaire';
 $string['status_help'] = 'Ce réglage détermine si un utilisateur peut accéder au cours anonymement, sans nécessiter d\'inscription.';
-$string['usepasswordpolicy'] = 'Utiliser les règles de mots de passe';
-$string['usepasswordpolicy_desc'] = 'Utiliser pour les mots de passe d\'accès anonyme les règles de mots de passe standard.';
+$string['usepasswordpolicy'] = 'Utiliser la politique de mots de passe';
+$string['usepasswordpolicy_desc'] = 'Utiliser la politique de mots de passe standard pour les mots de passe d\'accès anonyme.';

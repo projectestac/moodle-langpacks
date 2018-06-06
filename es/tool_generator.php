@@ -44,6 +44,7 @@ $string['error_nonexistingcourse'] = 'El curso especificado no existe';
 $string['error_nopageinstances'] = 'El curso seleccionado no contiene instancias de página';
 $string['error_notdebugging'] = 'No disponible en este servidor porque la depuración no está configurada a DESARROLLADOR';
 $string['fullname'] = 'Curso de test: {$a->size}';
+$string['maketestcourse'] = 'Hacer curso de prueba';
 $string['notenoughusers'] = 'El curso seleccionado no tiene suficientes usuarios';
 $string['pluginname'] = 'Generador de cursos aleatorio';
 $string['progress_checkaccounts'] = 'Comprobando cuentas de usuario ({$a})';

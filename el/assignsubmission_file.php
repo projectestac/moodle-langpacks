@@ -33,6 +33,7 @@ $string['default'] = 'Ενεργοποιημένο από προεπιλογή';
 $string['enabled'] = 'Υποβολές αρχείων';
 $string['eventassessableuploaded'] = 'Ένα αρχείο έχει φορτωθεί.';
 $string['file'] = 'Υποβολές αρχείων';
+$string['filesofthesetypes'] = 'Τύποι αρχείων που μπορούν να προστεθούν στην υποβολή:';
 $string['maxbytes'] = 'Μέγιστο μέγεθος αρχείου';
 $string['maxfiles'] = 'Μέγιστο αριθμό αρχείων ανά υποβολή';
 $string['maxfilessubmission'] = 'Μέγιστος αριθμός αρχείων που έχουν αποσταλεί';

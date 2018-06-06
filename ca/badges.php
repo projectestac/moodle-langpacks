@@ -316,7 +316,7 @@ $string['localbadgesp'] = 'Insígnies de {$a}:';
 $string['localconnectto'] = 'Per compartir aquestes insígnies fora d\'aquest lloc web cal <a href="{$a}">connectar-se a una motxilla</a> .';
 $string['makeprivate'] = 'Fes privada';
 $string['makepublic'] = 'Fes pública';
-$string['managebadges'] = 'Gestiona insígnies';
+$string['managebadges'] = 'Gestiona les insígnies';
 $string['message'] = 'Cos del missatge';
 $string['messagebody'] = '<p>Heu guanyat una insígnia "%badgename%"! </p>
 <p>Podeu trobar més informació sobre aquesta insígnia a la pàgina %badgelink%. /p>

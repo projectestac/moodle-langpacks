@@ -381,7 +381,7 @@ $string['maxareabytes'] = 'Het bestand is groter dan de beschikbare plaats.';
 $string['maxbytes'] = 'Het bestand is groter dan de maximaal toegestane grootte.';
 $string['maxbytesfile'] = 'Het bestand {$a->file} is te groot. De maximale grootte die je kunt uploaden is {$a->size}.';
 $string['messagingdisable'] = 'Berichten zijn uitgeschakeld op deze site';
-$string['mimetexisnotexist'] = 'Je systeem is niet geconfigureerd om mimeTeX te gebruiken. Je moet het noodzakelijke uitvoerbaar bestand downloaden voor jouw PHP_OS platform van <a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a>, of de C bronbestanden bekomen van  <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>, ze compileren en het uitvoerbaar bestand in je moodle/filter/tex/ map zetten.';
+$string['mimetexisnotexist'] = 'Je systeem is niet geconfigureerd om mimeTeX te gebruiken. Je moet het noodzakelijke uitvoerbaar bestand downloaden voor jouw PHP_OS platform van <a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a>, of de C bronbestanden verkrijgen van  <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>, ze compileren en het uitvoerbaar bestand in je moodle/filter/tex/ map zetten.';
 $string['mimetexnotexecutable'] = 'Aangepast mimetex bestand is niet uitvoerbaar!';
 $string['missingfield'] = 'Veld "{$a}" ontbreekt';
 $string['missingkeyinsql'] = 'FOUT: ontbrekende param "{$a}" in query';

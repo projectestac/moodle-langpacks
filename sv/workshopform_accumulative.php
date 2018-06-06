@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['dimensionmaxgrade'] = 'Högsta möjliga betyg / Skala att använda';
 $string['pluginname'] = 'Ackumulerande betygssättning';

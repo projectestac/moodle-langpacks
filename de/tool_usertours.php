@@ -102,7 +102,7 @@ Wenn der Schritt nicht auf eine bestimmte Seite an der angegebenen Stelle passt,
 $string['pluginname'] = 'Geführte Touren';
 $string['reflex'] = 'Bei Klick ausführen';
 $string['reflex_help'] = 'Der nächste Schritt wird ausgeführt, wenn auf das Ziel geklickt wird.';
-$string['resettouronpage'] = 'Tour für diese Seite zurücksetzen';
+$string['resettouronpage'] = 'Tour erneut starten';
 $string['resumetour'] = 'Fortsetzen';
 $string['right'] = 'Rechts';
 $string['select_block'] = 'Wählen Sie einen Block aus';

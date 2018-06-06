@@ -25,10 +25,30 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['add'] = 'Añadir';
+$string['addsubtitlestrack'] = 'Añadir pista de subtítulo';
+$string['addtrack'] = 'Añadir pista';
+$string['advancedsettings'] = 'Opciones avanzadas';
+$string['autoplay'] = 'Reproducir automáticamente';
 $string['browserepositories'] = 'Examinar repositorios...';
+$string['chapters'] = 'Capítulos';
+$string['controls'] = 'Mostrar controles';
 $string['createmedia'] = 'Insertar multimedia';
+$string['default'] = 'Defecto';
+$string['descriptions'] = 'Descripciones';
+$string['displayoptions'] = 'Opciones de visualización';
 $string['entername'] = 'Insertar nombre';
 $string['enterurl'] = 'Insertar URL';
 $string['height'] = 'Altura';
+$string['kind'] = 'Tipo';
+$string['label'] = 'Etiqueta';
+$string['languagesavailable'] = 'Idiomas disponibles';
+$string['languagesinstalled'] = 'Idiomas instalados';
+$string['link'] = 'Enlace';
+$string['metadata'] = 'Metadato';
+$string['mute'] = 'Silenciado';
 $string['pluginname'] = 'Multimedia';
+$string['size'] = 'Tamaño';
+$string['srclang'] = 'Idioma';
+$string['subtitles'] = 'Subtítulos';
 $string['width'] = 'Ancho';

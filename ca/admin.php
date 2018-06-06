@@ -67,9 +67,9 @@ $string['always'] = 'Sempre';
 $string['appearance'] = 'Aparença';
 $string['aspellpath'] = 'Camí d\'aspell';
 $string['authentication'] = 'Autenticació';
-$string['authpreventaccountcreation'] = 'Evita la creació de nous comptes durant el procediment d\'autenticació';
-$string['authpreventaccountcreation_help'] = 'Quan un usuari s\'autentica, es crea automàticament un compte si encara no existeix. Si s\'utilitza una base de dades externa, com el LDAP, però voleu restringir l\'accés al lloc només pels usuaris que disposen d\'un compte, aleshores heu d\'activar aquesta opció.
-Els nous comptes s\'hauran de crear manualment o bé mitjançant la càrrega d\'usuaris. Tingueu en compte que aquest ajust no s\'aplica a l\'autenticació MNet.';
+$string['authpreventaccountcreation'] = 'Evita la creació de comptes nous durant el procediment d\'autenticació';
+$string['authpreventaccountcreation_help'] = 'Quan un usuari s\'autentica, es crea automàticament un compte si encara no existeix. Si s\'utilitza una base de dades externa, com el LDAP, però voleu restringir l\'accés al lloc només per als usuaris que disposen d\'un compte, aleshores heu d\'activar aquesta opció.
+Els comptes nous s\'hauran de crear manualment o bé mitjançant la càrrega d\'usuaris. Tingueu en compte que aquest ajust no s\'aplica a l\'autenticació MNet.';
 $string['authsettings'] = 'Gestió de l\'autenticació';
 $string['autolang'] = 'Detecció automàtica d\'idioma';
 $string['autologinguests'] = 'Inici de sessió automàtic dels visitants';
@@ -86,9 +86,9 @@ $string['blockediplist'] = 'Llista d\'adreces IP blocades';
 $string['blockinstances'] = 'Instàncies';
 $string['blockmultiple'] = 'Múltiple';
 $string['blockprotect'] = 'Protegeix instàncies';
-$string['blockprotect_help'] = 'Si bloquegeu un tipus particular de bloc ningú no podrà afegir-ne o esborrar-ne instàncies. (Podeu, naturalment, desbloquejar-lo de nou si us cal editar instàncies.)
+$string['blockprotect_help'] = 'Si bloquegeu un tipus particular de bloc ningú no podrà afegir-hi instàncies o esborrar-n\'hi. (Podeu, naturalment, desbloquejar-lo de nou si us cal editar instàncies.)
 
-Això es fa amb l\'objectiu de protegir blocs com ara els de configuració i de navegació que serien molt difícils de recuperar si s\'esborren per accident.';
+Això es fa amb l\'objectiu de protegir blocs, com ara els de configuració i de navegació, que serien molt difícils de recuperar si s\'esborren per accident.';
 $string['blocksettings'] = 'Gestió de blocs';
 $string['blockunprotect'] = 'Desprotegeix';
 $string['bloglevel'] = 'Visibilitat dels blogs';
@@ -144,7 +144,7 @@ $string['componentinstalled'] = 'S\'ha instal·lat el component';
 $string['computedfromlogs'] = 'Comprovats els registres des de {$a}.';
 $string['condifmodeditdefaults'] = 'Els valors per defecte s\'utilitzaran en el formulari de paràmetres quan creeu una nova activitat o recurs.';
 $string['confeditorhidebuttons'] = 'Seleccioneu els botons que voleu ocultar en l\'editor HTML.';
-$string['configallcountrycodes'] = 'Aquesta és la llista de països que es pot seleccionar en alguns punts, per exemple en un perfil d\'usuari. Si es deixa en blanc (per defecte) s\'utilitza la llista del fitxer <i>countries.php</i> que hi ha al paquet d\'idioma anglès estàndard. Aquesta llista és la que hi ha a l\'ISO 3166-1.<br />
+$string['configallcountrycodes'] = 'Aquesta és la llista de països que es pot seleccionar en alguns punts; per exemple, en un perfil d\'usuari. Si es deixa en blanc (per defecte) s\'utilitza la llista del fitxer <i>countries.php</i> que hi ha al paquet d\'idioma anglès estàndard. Aquesta llista és la que hi ha a l\'ISO 3166-1.<br />
 Podeu escriure una llista de codis separats amb comes, per exemple \'CT, FR_ES\'. Si n\'hi afegiu de nous, que no són estàndards, els haureu d\'afegir a la llista <i>countries.php</i> del vostre paquet d\'idioma i al paquet \'en\' (és el cas de l\'exemple CT, que no està inclòs a les llistes de països).';
 $string['configallowassign'] = 'Permet a la gent que té els rols de l\'esquerra assignar a altra gent alguns dels rols de les columnes';
 $string['configallowattachments'] = 'Si s\'habilita, els correus electrònics enviats des del lloc podran dur adjunts com ara insígnies.';
@@ -1182,7 +1182,7 @@ $string['updateavailable_version'] = 'Versió {$a}';
 $string['updatecomponent'] = 'Actualitza el component';
 $string['updateminmaturity'] = 'Maduresa del codi requerida';
 $string['updateminmaturity_desc'] = 'Notifica les actualitzacions disponibles només si el codi disponible té el nivell de maduresa seleccionat com a mínim. Les actualitzacions per als connectors que no declaren el seu nivell de maduresa de codi es comuniquen sempre sense tenir en compte aquest paràmetre.';
-$string['updatenotificationfooter'] = 'El vostre lloc Moodle {$a->siteurl} està configurat per a comprovar automàticament si hi ha actualitzacions disponibles. Rebeu aquest missatge com a administrador del lloc. Podeu desactivar la comprovació automàtica d\'actualitzacions disponibles a l\'apartat d\'Administració del lloc, del bloc de Configuració. Podeu personalitzar el lliurament d\'aquest missatge des de la vostra pàgina de preferències.';
+$string['updatenotificationfooter'] = 'El vostre lloc Moodle {$a->siteurl} està configurat per comprovar automàticament si hi ha actualitzacions disponibles. Rebeu aquest missatge com a administrador del lloc. Podeu desactivar la comprovació automàtica d\'actualitzacions disponibles a l\'apartat d\'Administració del lloc, del bloc de Configuració. Podeu personalitzar el lliurament d\'aquest missatge des de la vostra pàgina de preferències.';
 $string['updatenotifications'] = 'Notificacions d\'actualització';
 $string['updatenotificationsubject'] = 'Hi ha actualitzacions de Moodle disponibles ({$a->siteurl})';
 $string['updatenotifybuilds'] = 'Notifica\'m l\'aparició de noves compilacions';

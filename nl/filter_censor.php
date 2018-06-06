@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['badwords'] = 'shit,fucked,fucker,fuck,dickhead,dick,cockhead,cock,cunt,asshole,arsehole,prick,bitch,jism,whore,slut,wanker,wank,bastard,dildo,masturbate,orgasm,penis,nigger,pussy,vagina';
-$string['filtername'] = 'Woordsensuur';
+$string['badwords'] = 'Klootzak,Lul,Eikel,Sukkel,Idioot,Mongool,Homo,Flikker,Hoer,Bitch,Slet,Trut,Doos,Kutwijf,Idioot,Mongool,Sukkel';
+$string['filtername'] = 'Woordcensuur';

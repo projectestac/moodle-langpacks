@@ -26,5 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Απλό αρχείο κειμένου';
+$string['timeexported'] = 'Τελευταία λήψη από αυτό το μάθημα';
 $string['txt:publish'] = 'Δημοσίευση εξαγωγής βαθμών σε TXT';
 $string['txt:view'] = 'Χρήση εξαγωγής βαθμών σε κείμενο';

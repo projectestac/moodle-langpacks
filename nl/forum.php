@@ -335,7 +335,7 @@ Er zijn verschillende forumtypes om uit te kiezen, zoals standaard forum, waarbi
 
 Deelnemers kunnen zich inschrijven op een forum, zodat ze meldingen krijgen van nieuwe forumberichten. Een leraar kan die inschrijvingsmodus op optioneel, verplicht of automatich zetten of het inschrijven volledig blokkeren. Indien nodig kunnen leerlingen geblokkeerd worden als ze meer dan een bepaald aantal berichten posten per tijdsperiode; dit kan verhinderen dat sommigen de discussie domineren.
 
-Forumberichten kunnen beoordeeld worden door leraars of door leerlingen (peer-evaluatie). De beoordelingen kunnen samengeteld worden om een eindbeoordeling voor het forum te bekomen, die dan in de cijferlijst opgenomen wordt.
+Forumberichten kunnen beoordeeld worden door leraars of door leerlingen (peer-evaluatie). De beoordelingen kunnen samengeteld worden om een eindbeoordeling voor het forum te verkrijgen, die dan in de cijferlijst opgenomen wordt.
 
 Forums kunnen voor veel zaken gebruikt worden, zoals
 

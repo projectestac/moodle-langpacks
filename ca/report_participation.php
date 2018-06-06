@@ -29,5 +29,5 @@ $string['eventreportviewed'] = 'S\'ha mostrat l\'informe de participació';
 $string['nologreaderenabled'] = 'No hi ha habilitat cap lector de registres';
 $string['page-report-participation-index'] = 'Informe de participació al curs';
 $string['page-report-participation-x'] = 'Qualsevol informe de participació';
-$string['participation:view'] = 'Veure informe de participació al curs';
+$string['participation:view'] = 'Visualitza l\'informe de participació al curs';
 $string['pluginname'] = 'Participació al curs';

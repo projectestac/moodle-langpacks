@@ -25,6 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['canntenrol'] = 'التسجيل معطل أو غير نشط';
+$string['canntenrolearly'] = 'لا يمكنك التسجيل حتى الآن يبدأ التسجيل في {$a}.';
+$string['canntenrollate'] = 'لا يمكنك التسجيل بعد الآن ، حيث انتهى التسجيل في {$a}.';
+$string['cohortnonmemberinfo'] = 'فقط أعضاء الفوج \'{$a}\' يمكنهم تسجيل أنفسهم.';
+$string['cohortonly'] = 'فقط أعضاء الفوج';
+$string['customwelcomemessage'] = 'رسالة ترحيب مخصصة';
+$string['defaultrole'] = 'تحديد الدور الأساسي';
 $string['enrolenddate'] = 'تاريخ الانتهاء';
 $string['enrolenddaterror'] = 'لا يمكن أن يكون تاريخ الانتهاء للتسجيل قبل تاريخ بداية المقرر الدراسي';
 $string['enrolme'] = 'سجلني';

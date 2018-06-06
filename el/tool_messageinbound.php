@@ -29,3 +29,6 @@ $string['component'] = 'Συστατικό';
 $string['edit'] = 'Επεξεργασία';
 $string['enabled'] = 'Ενεργοποιημένο';
 $string['messageinboundhostpass'] = 'Κωδικός πρόσβασης';
+$string['messageprocessingsuccess'] = '{$a->plain}
+
+Εάν δεν επιθυμείτε να λαμβάνετε αυτές τις ειδοποιήσεις στο μέλλον, μπορείτε να επεξεργαστείτε τις ρυθμίσεις προσωπικών μηνυμάτων, ανοίγοντας τη διεύθυνση {$a->messagepreferencesurl} στον περιηγητή σας.';

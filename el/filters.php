@@ -66,6 +66,7 @@ $string['isnotequalto'] = 'δεν είναι ίσο με';
 $string['neveraccessed'] = 'Δεν εισήλθε ποτέ';
 $string['nevermodified'] = 'Δεν έγινε ποτέ τροποποίηση';
 $string['newfilter'] = 'Νέο φίλτρο';
+$string['nofiltersenabled'] = 'Δεν έχει ενεργοποιηθεί κανένα πρόσθετο φίλτρου στον ιστότοπο αυτό.';
 $string['off'] = 'Απενεργοποιημένο';
 $string['offbutavailable'] = 'Απενεργοποιημένο, αλλά διαθέσιμο';
 $string['on'] = 'Ενεργοποιημένο';

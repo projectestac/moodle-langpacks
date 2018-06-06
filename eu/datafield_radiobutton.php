@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Aukera bakarreko botoia';
-$string['pluginname'] = 'Irrati-botoia';
+$string['pluginname'] = 'Aukera bakarreko botoia';

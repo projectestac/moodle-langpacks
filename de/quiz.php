@@ -380,7 +380,7 @@ $string['fractionsnomax'] = 'Eine dieser Antworten sollte 100% sein, damit
 $string['fromfile'] = 'aus der Datei:';
 $string['functiondisabledbysecuremode'] = 'Diese Funktion ist aktuell deaktiviert';
 $string['generalfeedback'] = 'Allgemeines Feedback';
-$string['generalfeedback_help'] = 'Das Fragen-Feedback besteht aus dem Text, den die Teilnehmer/innen nach dem Versuch sehen, eine Frage zu beantworten. Anders als das Feedback, das vom Fragetyp und der Nutzerantwort abhängt, wird der Text des allgemeinen Fragen-Feedbacks allen Teilnehmern/innen gezeigt';
+$string['generalfeedback_help'] = 'Das allgemeine Feedback besteht aus dem Text, den die Teilnehmer/innen nach dem Versuch sehen, eine Frage zu beantworten. Anders als das Feedback, das vom Fragetyp und der Nutzerantwort abhängt, wird der Text des allgemeinen Fragen-Feedbacks allen Teilnehmer/innen gezeigt';
 $string['graceperiod'] = 'Nachfrist für Abgabe';
 $string['graceperiod_desc'] = 'Wenn für den Zeitablauf gewählt wurde \'Nachfrist zur Abgabe, aber keine Änderungen an den Antworten\' wird die voreingestellte Zeitdauer in Sekunden festgelegt.';
 $string['graceperiod_help'] = 'Wenn für den Zeitablauf gewählt wurde \'Nachfrist zur Abgabe, aber keine Änderungen an den Antworten\' wird die Zeitdauer in Sekunden festgelegt.';
@@ -568,10 +568,10 @@ $string['outcomesadvanced'] = 'Lernziele als erweiterte Einstellungen';
 $string['outof'] = '{$a->grade} von {$a->maxgrade}';
 $string['outofpercent'] = '{$a->grade} von {$a->maxgrade} ({$a->percent}%)';
 $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';
-$string['overallfeedback'] = 'Gesamt-Feedback';
-$string['overallfeedback_help'] = '<h2>Gesamt-Feedback </h2>
+$string['overallfeedback'] = 'Gesamtfeedback';
+$string['overallfeedback_help'] = '<h2>Gesamtfeedback </h2>
 
-<p>Das Gesamt-Feedback wird am Ende eines Testdurchlaufs angezeigt. Der Text kann je nach Testergebnis unterschiedlich lauten.</p>
+<p>Das Gesamtfeedback wird am Ende eines Testdurchlaufs angezeigt. Der Text kann je nach Testergebnis unterschiedlich lauten.</p>
 
 <p>Ein Beispiel: Tragen Sie ein: "Gut gemacht" im ersten Feedback-Feld, 40%
 im ersten Bewertungsgrenzfeld, und  "Bitte wiederhole den Inhalt dieser Woche noch einmal"

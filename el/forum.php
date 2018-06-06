@@ -336,6 +336,7 @@ $string['overviewnumpostssince'] = '{$a} δημοσιεύσεις από την 
 $string['overviewnumunread'] = 'σύνολο μη αναγνωσμένων';
 $string['parent'] = 'Εμφάνιση γονέα';
 $string['parentofthispost'] = 'Γονέας αυτού του μηνύματος';
+$string['permalink'] = 'Μόνιμος σύνδεσμος';
 $string['pluginadministration'] = 'Διαχείρηση ομάδων συζητήσεων';
 $string['pluginname'] = 'Ομάδα Συζητήσεων';
 $string['postadded'] = '<p>Το μήνυμά σας προστέθηκε επιτυχώς.</p> <p> Έχετε {$a} να το επεξεργαστείτε αν θέλετε να κάνετε αλλαγές.</p>';

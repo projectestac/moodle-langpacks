@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Latitude/Longitude eremua';
-$string['pluginname'] = 'Lat/long';
+$string['pluginname'] = 'Latitude/Longitudea';

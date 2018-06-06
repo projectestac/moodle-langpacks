@@ -45,12 +45,9 @@ $string['aggregatemin'] = 'Niedrigste Bewertung';
 $string['aggregatemode'] = 'Modus (Modalwert) aller Bewertungen';
 $string['aggregatenotonlygraded'] = 'Leere Bewertungen einbeziehen';
 $string['aggregateonlygraded'] = 'Leere Bewertungen ausnehmen';
-$string['aggregateonlygraded_help'] = '<h2>Berechne nur nicht-leere Felder</h2>
-<p>Nicht vorhandene Bewertungen (z.B. weil der Test nicht vom Teilnehmer bearbeitet wurde) können mit dem niedrigsten Bewertungswert (z.B. 0 Punkte) verarbeitet werden oder bei der Ermittlung der Gesamtnote ignoriert werden.</p>';
+$string['aggregateonlygraded_help'] = 'Nicht vorhandene Bewertungen (z.B. weil der Test nicht vom Teilnehmer bearbeitet wurde) können mit dem niedrigsten Bewertungswert (z.B. 0 Punkte) verarbeitet werden oder bei der Ermittlung der Gesamtnote ignoriert werden.';
 $string['aggregateoutcomes'] = 'Lernziele in die Gesamtergebnisse einbeziehen';
-$string['aggregateoutcomes_help'] = '<h2>Lernziele beim Gesamtergebnis berücksichtigen oder nicht</h2>
-<p>Die Berücksichtigung der Lernziele bei der Ermittlung des Gesamtergebnisses kann zu Verzerrungen führen, die nicht erwünscht sind. Sie haben daher die Möglichkeit, diese einzubeziehen oder zu ignorieren.
-</p>';
+$string['aggregateoutcomes_help'] = 'Die Berücksichtigung der Lernziele bei der Ermittlung des Gesamtergebnisses kann zu Verzerrungen führen, die nicht erwünscht sind. Sie haben daher die Möglichkeit, diese einzubeziehen oder zu ignorieren.';
 $string['aggregatesonly'] = 'Zu den Gesamtwerten wechseln';
 $string['aggregatesubcatsupgradedgrades'] = 'Hinweis: Die Einstellung  \'Aggregation mit Unterkategorien\' wurde beim Upgrade entfernt. Da diese Einstellung in diesem Kurs verwendet wurde, sollten Sie sich die Veränderungen bei den Bewertungen genauer ansehen.';
 $string['aggregatesum'] = 'Natürlich';
@@ -121,12 +118,9 @@ $string['autosort'] = 'Auto-Sortierung';
 $string['availableidnumbers'] = 'Verfügbare ID-Nummern';
 $string['average'] = 'Durchschnitt';
 $string['averagesdecimalpoints'] = 'Nachkommastellen in den Spaltendurchschnitten';
-$string['averagesdecimalpoints_help'] = '<h2>Dezimalziffern bei der Anzeige der Durchschnittswerte</h2>
-<p>Legt die Zahl der angezeigten Dezimalziffern des errechneten Durchschnittswerts in der Tabelle fest.  Wenn \'vererbt\' ausgewählt wird, wird die  Festlegung für die Spaltenwerte übernommen.
-</p>';
+$string['averagesdecimalpoints_help'] = 'Legt die Zahl der angezeigten Dezimalziffern des errechneten Durchschnittswerts in der Tabelle fest.  Wenn \'vererbt\' ausgewählt wird, wird die  Festlegung für die Spaltenwerte übernommen.';
 $string['averagesdisplaytype'] = 'Spaltendurchschnittsanzeige';
-$string['averagesdisplaytype_help'] = '<h2>Anzeige der Spalte Durchschnitt</h2>
-<p>Legt die Anzeige des Durchschnitts in jeder Spalte fest.  Wenn \'Vererben\' gewählt wird, wird der Wert in allen Spalten verwandt.</p>';
+$string['averagesdisplaytype_help'] = 'Legt die Anzeige des Durchschnitts in jeder Spalte fest.  Wenn \'Vererben\' gewählt wird, wird der Wert in allen Spalten verwandt.';
 $string['backupwithoutgradebook'] = 'Die Sicherung enthält keine Bewertungskonfiguration';
 $string['badgrade'] = 'Ungültige Bewertung';
 $string['badlyformattedscale'] = 'Bitte tragen Sie eine kommagetrennte Liste von Werten ein (mindestens zwei Werte)';
@@ -180,8 +174,7 @@ $string['csv'] = 'CSV';
 $string['currentparentaggregation'] = 'Aktuelle übergeordnete Gesamtsumme';
 $string['curveto'] = 'Ändern auf';
 $string['decimalpoints'] = 'Dezimalstellen';
-$string['decimalpoints_help'] = '<h2>Dezimalzeichen</h2>
-<p>Legt die Zahl der angezeigten Dezimalzeichen einer Bewertung fest. Die Einstellung wirkt sich nicht auf die Genauigkeit der Berechnungen aus. Bei Berechnungen wird eine Genauigkeit von bis zu fünf Dezimalziffern mit beachtet.</p>';
+$string['decimalpoints_help'] = 'Legt die Zahl der angezeigten Dezimalzeichen einer Bewertung fest. Die Einstellung wirkt sich nicht auf die Genauigkeit der Berechnungen aus. Bei Berechnungen wird eine Genauigkeit von bis zu fünf Dezimalziffern mit beachtet.';
 $string['default'] = 'Standard';
 $string['defaultprev'] = 'Voreinstellung ({$a})';
 $string['deletecategory'] = 'Kategorie löschen';
@@ -296,8 +289,7 @@ $string['gradecategoryonmodform_help'] = 'Die Einstellung legt fest in welcher K
 $string['gradecategorysettings'] = 'Bewertungskategorie-Einstellungen';
 $string['gradedisplay'] = 'Bewertungsanzeige';
 $string['gradedisplaytype'] = 'Bewertungsanzeige-Typ';
-$string['gradedisplaytype_help'] = '<h2>Anzeigetyp für Bewertungen</h2>
-<p>Bewertungen können als reale Bewertungen, Prozentwerte (relativ zum höchsten/ niedrigsten Wert), oder als Buchstaben (A,B,C,..) angezeigt werden.</p>';
+$string['gradedisplaytype_help'] = 'Bewertungen können als reale Bewertungen, Prozentwerte (relativ zum höchsten/ niedrigsten Wert), oder als Buchstaben (A,B,C,..) angezeigt werden.';
 $string['gradedon'] = '{$a} bewertet';
 $string['gradeexport'] = 'Bewertungsexport';
 $string['gradeexportcolumntype'] = '{$a->name} ({$a->extra})';
@@ -648,17 +640,14 @@ $string['publishing'] = 'Veröffentlichen';
 $string['publishingoptions'] = 'Optionen für die Veröffentlichung von Bewertungen';
 $string['quickfeedback'] = 'Schnelles Feedback';
 $string['quickgrading'] = 'Schnelle Bewertung';
-$string['quickgrading_help'] = '<h2>Schnelle Bewertung</h2>
-<p>Die Schnelle Bewertung ergänzt ein Eingabefeld in jeder Zelle der Bewertungstabelle. Damit können  mehrere Bewertungen auf einer Seite schnell eingegeben werden. Mit einem Klick auf den Aktualisierungsbutton werden alle Bewertungen auf einmal abgespeichert. </p>';
+$string['quickgrading_help'] = 'Die Schnelle Bewertung ergänzt ein Eingabefeld in jeder Zelle der Bewertungstabelle. Damit können  mehrere Bewertungen auf einer Seite schnell eingegeben werden. Mit einem Klick auf den Aktualisierungsbutton werden alle Bewertungen auf einmal abgespeichert.';
 $string['range'] = 'Bereich';
 $string['rangedecimals'] = 'Dezimalstellen für Spannbreite';
 $string['rangedecimals_help'] = 'Zahl der Dezimalstellen, um die Spannbreite der Ergebnisse anzuanzeigen ';
 $string['rangesdecimalpoints'] = 'Nachkommastellen in Bereichen';
-$string['rangesdecimalpoints_help'] = '<h2>Dezimalwerte  anzeigen im Bewertungsbereich</h2>
-<p>Festlegung der Zahl der Dezimalziffern für jeden Bewertungsbereich. Die Einstellung kann für jede einzelne Bewertungsspalte überschrieben werden.</p>';
+$string['rangesdecimalpoints_help'] = 'Festlegung der Zahl der Dezimalziffern für jeden Bewertungsbereich. Die Einstellung kann für jede einzelne Bewertungsspalte überschrieben werden.';
 $string['rangesdisplaytype'] = 'Bereichsanzeige';
-$string['rangesdisplaytype_help'] = '<h2>Anzeige des Bewertungsbereichs</h2>
-<p>Festlegung wie der Bewertungsbereich angezeigt wird. Wenn \'Vererben\' ausgewählt wurde, wird der Anzeigetyp in jeder Spalte verwendet.</p>';
+$string['rangesdisplaytype_help'] = 'Festlegung wie der Bewertungsbereich angezeigt wird. Wenn \'Vererben\' ausgewählt wurde, wird der Anzeigetyp in jeder Spalte verwendet.';
 $string['rank'] = 'Rang';
 $string['rawpct'] = 'Rohwert %';
 $string['real'] = 'Punkte';

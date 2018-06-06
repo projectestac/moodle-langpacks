@@ -114,7 +114,7 @@ $string['decimalplacesingrades'] = 'Dezimalstellen bei der Bewertung';
 $string['defaultfor'] = 'Standard für {$a}';
 $string['defaultinfofor'] = 'Standardkategorie für Fragen, die im Kontext \'{$a}\' freigegeben sind.';
 $string['defaultmark'] = 'Erreichbare Punkte';
-$string['defaultmarkmustbepositive'] = 'Die Standardbewertung muß ein positiver Wert sein.';
+$string['defaultmarkmustbepositive'] = 'Die Standardbewertung muss ein positiver Wert sein.';
 $string['deletecoursecategorywithquestions'] = 'In dieser Kurskategorie sind Fragen in der Testfragendatenbank hinterlegt. Wenn Sie nun fortfahren, werden diese gelöscht. Über die Testfragenverwaltung können diese  von Ihnen verschoben werden.';
 $string['deletequestioncheck'] = 'Sind Sie absolut sicher, die Sie \'{$a}\' löschen möchten?';
 $string['deletequestionscheck'] = 'Möchten Sie die folgenden Fragen wirklich löschen? <br /> <br />{$a}';
@@ -198,9 +198,9 @@ $string['flagthisquestion'] = 'Diese Frage markieren';
 $string['formquestionnotinids'] = 'Die angefragte Frage ist nicht in questionids vermerkt.';
 $string['fractionsnomax'] = 'Eine der Antworten sollte mit 100% bewertet werden, um für die Beantwortung der Frage die volle Punktzahl bekommen zu können.';
 $string['generalfeedback'] = 'Allgemeines Feedback';
-$string['generalfeedback_help'] = 'Gesamtfeedback wird nach der Beantwortung der Fragen angezeigt, u.z. unabhängig von den gegebenen Antworten. Andere Feedbacks sind abhängig von der \'Richtigkeit\' der Antworten.
+$string['generalfeedback_help'] = 'Das allgemeine Feedback wird nach der Beantwortung der Fragen angezeigt, und zwar unabhängig von den gegebenen Antworten. Andere Feedbacks sind abhängig von der \'Richtigkeit\' der Antworten.
 
-Gesamtfeedback kann eingesetzt werden, um Hinweise zu geben. Links könnten zu weiteren Informationen führen, falls die Frage nicht verstanden wurde.';
+Allgemeines Feedback kann eingesetzt werden, um Hinweise zu geben. Links könnten zu weiteren Informationen führen, falls die Frage nicht verstanden wurde.';
 $string['getcategoryfromfile'] = 'Kategorie aus Datei holen';
 $string['getcontextfromfile'] = 'Kontext aus Datei holen';
 $string['hintn'] = 'Hinweis {no}';
@@ -455,7 +455,7 @@ $string['tagarea_question'] = 'Fragen';
 $string['technicalinfo'] = 'Technische Information';
 $string['technicalinfo_help'] = 'Diese technische Information wendet sich ausschließlich an Entwickler von neuen Fragetypen. Sie kann auch für die Diagnose von Problemen mit Fragen verwendet werden.';
 $string['technicalinfomaxfraction'] = 'Größter Anteil: {$a}';
-$string['technicalinfominfraction'] = 'Kleinste Einheit: {$a}';
+$string['technicalinfominfraction'] = 'Kleinster Teilwert: {$a}';
 $string['technicalinfoquestionsummary'] = 'Fragetext: {$a}';
 $string['technicalinforesponsesummary'] = 'Antwortzusammenfassung: {$a}';
 $string['technicalinforightsummary'] = 'Text für die richtige Antwort: {$a}';

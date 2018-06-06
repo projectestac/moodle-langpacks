@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['anygroup'] = '(Οποιαδήποτε Ομάδα Συμμετεχόντων Μαθήματος)';
+$string['description'] = 'Επιτρέψτε μόνο σε μαθητές που ανήκουν σε συγκεκριμένη Ομάδα Συμμετεχόντων Μαθήματος ή σε οποιαδήποτε Ομάδα Συμμετεχόντων.';
 $string['requires_anygroup'] = 'Ανήκεις σε οποιοδήποτε group';
 $string['requires_group'] = 'Ανήκεις στο <strong>{$a}</strong>';

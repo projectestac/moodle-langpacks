@@ -186,6 +186,7 @@ $string['noworkshops'] = 'Det finns inga Workshops i den här kursen';
 $string['noyoursubmission'] = 'Du har inte skickat in Ditt arbete ännu';
 $string['nullgrade'] = '-';
 $string['overallfeedbackmaxbytes'] = 'Maximal filstorlek';
+$string['overallfeedbackmode_1'] = 'Tillgänglig och valbar';
 $string['page-mod-workshop-x'] = 'Vilken sida som helst i workshopmodulen';
 $string['participant'] = 'Deltagare';
 $string['participantrevierof'] = 'Deltagaren är utvärderare av ';

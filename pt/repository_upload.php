@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['configplugin'] = 'Configurar repositório "Enviar Ficheiro"';
 $string['pluginname'] = 'Enviar Ficheiro';
 $string['pluginname_help'] = 'Enviar um ficheiro para o Moodle';
-$string['upload_error_cant_write'] = 'Erro ao gravar ficheiro no servidor.';
+$string['upload_error_cant_write'] = 'Erro ao guardar ficheiro no servidor.';
 $string['upload_error_extension'] = 'Uma extensão PHP interrompeu o envio do ficheiro.';
 $string['upload_error_form_size'] = 'O tamanho do ficheiro enviado ultrapassa o valor definido no parâmetro MAX_FILE_SIZE que foi especificado no código HTML do formulário.';
 $string['upload_error_ini_size'] = 'O tamanho do ficheiro enviado ultrapassa o valor definido no parâmetro upload_max_filesize que foi especificado na configuração do PHP (ficheiro php.ini).';

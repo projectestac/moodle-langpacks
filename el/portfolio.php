@@ -121,6 +121,7 @@ $string['moderatefilesizethresholddesc'] = 'Αρχεία με μέγεθος μ�
 $string['mustsetcallbackoptions'] = 'Πρέπει να ρυθμίσετε τις επιλογές callback είτε στον κατασκευαστή κλάσης portfolio_add_button ή χρησιμοποιώντας την μέθοδο set_callback_options';
 $string['noavailableplugins'] = 'Λυπόμαστε αλλά δεν υπάρχουν διαθέσιμα χαρτοφυλάκια για να εξάγετε';
 $string['nocallbackclass'] = 'Δεν ήταν δυνατόν να βρεθεί η κλάση callback προς χρήση ({$a})';
+$string['nocallbackcomponent'] = 'Δεν βρέθηκε το στοιχείο λογισμικού που καθορίστηκε {$a}.';
 $string['nocallbackfile'] = 'Κάτι στο άρθρωμα από το οποίο προσπαθείτε να εξάγετε είναι χαλασμένο - δεν ήταν δυνατόν να βρεθεί ένα απαραίτητο αρχείο ({$a})';
 $string['noclassbeforeformats'] = 'Πρέπει να ρυθμίσετε την κλάση callback πριν την calling set_formats στο portfolio_button';
 $string['nocommonformats'] = 'Δεν υπάρχουν κοινές μορφές μεταξύ των διαθέσιμων στιγμιοτύπων υπομονάδων λογισμικού χαρτοφυλακίου και της καλούσας τοποθεσίας {$a}';

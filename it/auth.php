@@ -109,6 +109,7 @@ $string['forgottenpasswordurl'] = 'URL pagina recupero password';
 $string['getanaudiocaptcha'] = 'Chiedi un audio CAPTCHA';
 $string['getanimagecaptcha'] = 'Chiedi un\'immagine CAPTCHA';
 $string['getanothercaptcha'] = 'Chiedi un altro CAPTCHA';
+$string['getrecaptchaapi'] = 'Per utilizzare reCAPTCHA devi prima ottenere una chiave API su <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Pulsante login ospite';
 $string['incorrectpleasetryagain'] = 'Sbagliato. Prova ancora.';
 $string['infilefield'] = 'Il campo è presente nel file';
@@ -137,9 +138,9 @@ $string['pluginnotenabled'] = 'Il plugin \'{$a}\' per l\'autenticazione non è a
 $string['pluginnotinstalled'] = 'Il plugin \'{$a}\' per l\'autenticazione non è installato.';
 $string['potentialidps'] = 'Autenticati su:';
 $string['recaptcha'] = 'reCAPTCHA';
-$string['recaptcha_help'] = 'Il CAPTCHA è un sistema per prevenire abusi da parte di sistemi automatici. E\' sufficiente inserire le parole nel campo, con lo stesso ordine e separati da uno spazio.
+$string['recaptcha_help'] = 'Il CAPTCHA è un sistema per prevenire abusi da parte di sistemi automatici. per verificare che sei un persona reale, segui le istruzioni. Possono essere essere visualizzati una casella di spunta, immagini con parole da inserire, oppure una serie di immagini sa selezionare.
 
-Se non riesci a leggere le parole, chiedi un altro CAPTCHA oppure chiedi un CAPTCHA audio.';
+Se non è chiaro cosa contengano le immagini, chiedi un altro CAPTCHA oppure chiedi un CAPTCHA audio.';
 $string['security_question'] = 'Domanda di sicurezza';
 $string['selfregistration'] = 'Auto creazione account';
 $string['selfregistration_help'] = 'Impostando un plugin per l\'auto creazione di account, come ad esempio il plugin per la creazione di account via email, qualsiasi visitatore del sito potrà crearsi un account. Tale funzione espone il sito al rischio che spammer possano creare account per inviare post indesiderati attraverso forum, blog od altre funzioni. Per evitare questo rischio è bene disabilitare l\' Auto creazione di account  oppure limitarla attraverso l\'impostazione <em>Domini di posta autorizzati</em> oppure ancora attivando il reCAPTCHA.';

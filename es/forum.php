@@ -296,6 +296,7 @@ $string['mailnow'] = 'Enviar notificaciones del tema sin tiempo de espera para e
 $string['manydiscussions'] = 'Debates por página';
 $string['markalldread'] = 'Marcar como leídos todos los mensajes de este debate.';
 $string['markallread'] = 'Marcar como leídos todos los mensajes de este foro.';
+$string['markasreadonnotification'] = 'Cuando se envía la notificación de un mensaje del foro';
 $string['markasreadonnotificationno'] = 'No marcar el hilo como leído';
 $string['markasreadonnotificationyes'] = 'Marcar el hilo como leído';
 $string['markread'] = 'Marcar como leído';

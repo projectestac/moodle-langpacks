@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Siakera anitzeko interaktiboa (kreditua aurreko saiakerengatik)';
+$string['pluginname'] = 'Saiakera anitzeko interaktiboa (kreditua aurreko saiakerengatik)';

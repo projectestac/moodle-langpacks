@@ -40,7 +40,7 @@ $string['invaliduserdata'] = 'Foram detetados dados inválidos para o utilizador
 $string['nochanges'] = 'Sem alterações';
 $string['pluginname'] = 'Carregar utilizador';
 $string['renameerrors'] = 'Renomear erros';
-$string['requiredtemplate'] = 'Necessário. Pode usar a sintaxe modelo aqui (%l = lastname, %f = firstname, %u = username). Consulte a ajuda para mais detalhes e exemplos.';
+$string['requiredtemplate'] = 'Obrigatório. Pode usar a sintaxe modelo (%l = lastname, %f = firstname, %u = username). Consulte a ajuda para mais detalhes e exemplos.';
 $string['rowpreviewnum'] = 'Número de linhas a pré-visualizar';
 $string['unassignedsysrole'] = 'Retirado o papel de sistema {$a}';
 $string['uploadpicture_baduserfield'] = 'O atributo do utilizador não é válido. Por favor, tente novamente.';

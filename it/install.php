@@ -94,7 +94,7 @@ Specifica l\'indirizzo web per raggiungere la tua installazione Moodle. Se l\'in
 <b>Cartella dati:</b> E\' la cartella dove Moodle inserirà i file caricati dagli utenti. Il web server (in genere \'nobody\' o \'apache\') DEVE avere i permessi di lettura e di scrittura su questa cartella. In aggiunta, la cartella dei dati non deve essere direttamente accessibile via web. L\'installer cercherà di creare questo folder se non esiste,';
 $string['dirroot'] = 'Cartella di Moodle';
 $string['dirrooterror'] = 'L\'impostazione \'Cartella di Moodle\' sembra essere errata - non è possibile trovare l\'installazione di Moodle nel percorso specificato. Il valore riportato sotto  è stato resettato.';
-$string['download'] = 'Download';
+$string['download'] = 'Scarica';
 $string['downloadlanguagebutton'] = 'Scarica il language pack "{$a}";';
 $string['downloadlanguagehead'] = 'Scarica language pack';
 $string['downloadlanguagenotneeded'] = 'È possibile continuare l\'installazione utilizzando il language pack "{$a}" di default.';

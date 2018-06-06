@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activityoverview'] = 'Laster duzu txata';
+$string['activityoverview'] = 'Laster txat-saioak dituzu';
 $string['ajax'] = 'Ajax erabiltzen duen bertsioa';
 $string['autoscroll'] = 'Korritze automatikoa';
 $string['beep'] = 'Abisua';
@@ -50,7 +50,7 @@ $string['confignormalupdatemode'] = 'HTTP 1.1ren <em>Keep-Alive</em> ezaugarria 
 $string['configoldping'] = 'Jarduerarik gabe zenbat denbora (segundutan) igarota pentsatu behar da erabiltzaileak utzi egin duela?';
 $string['configrefreshroom'] = 'Zenbat segunduro eguneratu behar da txataren orria? Balore baxuak elkarrizketa arinagoa ahalbidetuko du baina zerbitzariarentzat karga handia izan daiteke gelan lagun asko dagoenean.';
 $string['configrefreshuserlist'] = 'Zenbat segunduro eguneratu behar da txatean dauden erabiltzaileen zerrenda?';
-$string['configserverhost'] = 'Zerbitzariaren \'daemnon\'a (egikaritza prozesu independentea) dagoen ordenagailuaren \'Hostame\'a (etxekoaren izena)';
+$string['configserverhost'] = 'Zerbitzariaren \'daemon\'a (egikaritza prozesu independentea) dagoen ordenagailuaren \'Hostame\'a (etxekoaren izena)';
 $string['configserverip'] = '\'hostame\'aren (etxekoaren izena) baliokidea den IP zenbakizko helbidea';
 $string['configservermax'] = 'Gehinenezko erabiltzaile kopurua';
 $string['configserverport'] = 'Zerbitzariaren \'daemon\'ak erabiltzen duen portua';

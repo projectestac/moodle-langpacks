@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['configtimetosee'] = 'Numero di minuti di inattività trascorsi i quali un utente non sarà più considerato online.';
 $string['online_users:addinstance'] = 'Aggiungere blocco Utenti online';
-$string['online_users:myaddinstance'] = 'Aggiungere blocco Utenti onlinenella Dashboard';
+$string['online_users:myaddinstance'] = 'Aggiungere blocco Utenti online nella Dashboard';
 $string['online_users:viewlist'] = 'Visualizzare elenco degli utenti online';
 $string['periodnminutes'] = 'ultimi {$a} minuti';
 $string['pluginname'] = 'Utenti online';

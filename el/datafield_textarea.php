@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Πεδίο χώρου κειμένου';
+$string['pluginname'] = 'Περιοχή κειμένου';

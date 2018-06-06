@@ -59,14 +59,14 @@ $string['uploadpicture_usernotfound'] = '\'{$a->uservalue}\'-n \'{$a->userfield}
 $string['uploadpicture_userskipped'] = '{$a} erabiltzailea alde batera utzi da (dagoeneko badu irudia).';
 $string['uploadpicture_userupdated'] = '{$a} erabiltzailearen irudia eguneratu da.';
 $string['uploadusers'] = 'Igo erabiltzaileak';
-$string['uploadusers_help'] = 'Erabiltzaileak testu-fitxategi bidez egunera (eta aukeran ikastaroetan matrikulatu) daitezke. Fitxategiak ezaugarri hauek izan behar ditu:
+$string['uploadusers_help'] = 'Erabiltzaileak testu-fitxategi bidez egunera (eta aukeran ikastaroetan matrikulatu) daitezke. Fitxategiak hurrengo formatua izan behar du:
 
-*Fitxategiko lerri bakoitzak erregistro bat du
-*Erregistro bakoitza komaz (edo bestelako bereizleak) banatutako datu-multzo bat da
-*Fitxategiko lehen erregistroak fitxategiaren formatua definitzen duten eremuen zerrenda du.
-*Derrigorrezko eremuen izenak:erabiltzaile-izena, pasahitza, abizena, izena, e-posta.';
-$string['uploaduserspreview'] = 'Aurreikusi erabiltzaileen igoera';
-$string['uploadusersresult'] = 'Igo erabiltzaileen emaitzak';
+* Fitxategiko errenkada bakoitzak erregistro bat du
+* Erregistro bakoitza komaz (edo bestelako bereizleak) banatutako datu-multzo bat da
+* Fitxategiko lehen erregistroak fitxategiaren formatua definitzen duten eremuen zerrenda du.
+* Derrigorrezko eremuen izenak: \'username\' (erabiltzaile-izena), \'password\' (pasahitza), \'firstname\' (izena), \'lastname\' (abizena) eta \'email\' (e-posta helbidea)';
+$string['uploaduserspreview'] = 'Igotako erabiltzaileen aurrebista';
+$string['uploadusersresult'] = 'Igotako erabiltzaileen emaitzak';
 $string['uploaduser:uploaduserpictures'] = 'Igo erabiltzailearen irudiak';
 $string['useraccountupdated'] = 'Erabiltzailea eguneratu da';
 $string['useraccountuptodate'] = 'Eguneratutako erabiltzailea';

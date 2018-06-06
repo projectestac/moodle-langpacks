@@ -44,14 +44,17 @@ $string['headingcomponent'] = 'Osagaia';
 $string['headinglocal'] = 'Lokalaren pertsonalizazioa';
 $string['headingstandard'] = 'Testu estandarra';
 $string['headingstringid'] = 'Katea';
-$string['markinguptodate'] = 'Markatu pertsonalizazioa eguneratu gisa';
-$string['markinguptodate_help'] = 'Pertsonalizatutako itzulpena zaharkitua gera daiteke katea zure gunean pertsonalizatu zenetik jatorrizko Ingeles edo itzulpen ofiziala aldatu bada. Berrikusi pertsonalizatutako itzulpena. Eguneratuta irizten badiozu, markatu laukitxoa. Bestela, editatu.';
+$string['markinguptodate'] = 'Pertsonalizazioa eguneratu gisa markatzen';
+$string['markinguptodate_help'] = 'Pertsonalizatutako itzulpena zaharkitua gera daiteke katea zure gunean pertsonalizatu zenetik jatorrizko Ingelesezko edo itzulpen ofiziala aldatu bada. Berrikusi pertsonalizatutako itzulpena. Eguneratuta irizten badiozu, markatu laukitxoa. Bestela, edita ezazu.';
 $string['markuptodate'] = 'markatu eguneratu gisa';
 $string['modifiedno'] = 'Ez dago aldatutako katerik gordetzeko.';
 $string['modifiednum'] = '{$a} aldatutako kate daude. Aldaketa horiek zure hizkuntza-paketean gorde nahi dituzu?';
 $string['nostringsfound'] = 'Ez da katerik aurkitu. Mesedez, aldatu iragazkiaren ezarpenak.';
 $string['placeholder'] = 'Leku-markak';
-$string['placeholderwarning'] = 'Kateak leku-marka du';
+$string['placeholder_help'] = 'Leku-markak `{$a}` edo `{$a->something}` moduko sententzia bereziak dira. Katea erakusten denean balio batekin ordezkatzen dira.
+
+Garrantzitsua da leku-marka jatorrizko katean dagoen modu zehatzean kopiatzea. Ez ezazu euskaratu edo aldatu bere norabidea.';
+$string['placeholderwarning'] = 'kateak leku-marka du';
 $string['pluginname'] = 'Hizkuntzaren pertsonalizazioa';
 $string['savecheckin'] = 'Gorde aldaketak hizkuntza-paketean';
 $string['savecontinue'] = 'Aplikatu aldaketak eta jarraitu editatzen';

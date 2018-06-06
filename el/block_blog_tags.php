@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['blog_tags:addinstance'] = 'Προσθήκη ενός νέου μπλοκ: ετικέτες ιστολογίου';
 $string['pluginname'] = 'Ετικέτες ιστολογίων';

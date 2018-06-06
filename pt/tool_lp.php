@@ -191,7 +191,7 @@ $string['reopenplanconfirm'] = 'Pretende reabrir o plano de aprendizagem \'{$a}\
 $string['requestreview'] = 'Pedido de revisão';
 $string['reviewer'] = 'Avaliador';
 $string['reviewstatus'] = 'Estado da revisão';
-$string['savechanges'] = 'Gravar alterações';
+$string['savechanges'] = 'Guardar alterações';
 $string['scale'] = 'Escala';
 $string['scale_help'] = 'Uma escala determina como é medida a proficiência numa competência. Depois de selecionar uma escala esta necessita de ser configurada.
 

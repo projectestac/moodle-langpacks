@@ -48,7 +48,7 @@ $string['displayselect_help'] = 'L\'impostazione, assieme al tipo di file e alle
 
 * Automatica - La modalità di visualizzazione migliore viene scelta automaticamente
 * Incorpora - Il file viene visualizzato all\'interno della pagina sotto la barra di navigazione assieme alla descrizione e ai blocchi
-* Forza download - Viene visualizzata un finestra di dialogo per scaricare il file
+* Forza scaricamento - Viene visualizzata un finestra di dialogo per scaricare il file
 * Apri - Il file viene visualizzato da solo nella finestra browser
 * Popup - Il file viene visualizzato in un nuova finestra browser priva di menu e barra dell\'indirizzo
 * Frame - Il file viene visualizzato all\'interno di un frame sotto la barra di navigazione
@@ -59,7 +59,7 @@ $string['filenotfound'] = 'Spiacente, il file non è stato trovato';
 $string['filterfiles'] = 'Applica filtri sul contenuto del file';
 $string['filterfilesexplain'] = 'Imposta il tipo di filtri da applicare sui file. Tenere presente che il filtraggio potrebbe generare problemi con alcune applet Flash e Java. Accertati anche che i file siano codificati in UTF-8.';
 $string['filtername'] = 'Auto link ai Nomi delle risorse';
-$string['forcedownload'] = 'Forza download';
+$string['forcedownload'] = 'Forza scaricamento';
 $string['framesize'] = 'Altezza frame';
 $string['legacyfiles'] = 'Migrazione dei file di corsi precedenti';
 $string['legacyfilesactive'] = 'Attivo';

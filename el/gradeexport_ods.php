@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['ods:publish'] = 'Δημοσίευση εξαγωγής βαθμών σε ODS';
 $string['ods:view'] = 'Χρήση εξαγωγής βαθμών σε OpenDocument';
 $string['pluginname'] = 'Φύλλο εργασίας OpenDocument';
+$string['timeexported'] = 'Τελευταία λήψη από αυτό το μάθημα';

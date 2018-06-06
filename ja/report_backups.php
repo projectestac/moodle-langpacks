@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['backupofcourselogs'] = '{$a} のバックアップログ';
-$string['logsofbackupexecutedon'] = '{$a} に実行されたバックアップログ';
+$string['logsofbackupexecutedon'] = '{$a} に実行されたバックアップのログ';
 $string['nobackupsfound'] = 'バックアップは見つかりませんでした。';
 $string['nologsfound'] = 'このバックアップにログは見つかりませんでした。';
 $string['pluginname'] = 'バックアップレポート';

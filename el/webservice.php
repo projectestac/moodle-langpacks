@@ -41,6 +41,7 @@ $string['iprestriction'] = 'Περιορισμοί IP';
 $string['key'] = 'Κλειδί';
 $string['manageprotocols'] = 'Διαχείριση πρωτοκόλλων';
 $string['managetokens'] = 'Διαχείριση οντοτήτων (tokens)';
+$string['missingversionfile'] = 'Σφάλμα στον κώδικα: το αρχείο version.php λείπει από το στοιχείο λογισμικού {$a}';
 $string['notoken'] = 'Η λίστα οντοτήτων (tokens) είναι άδεια.';
 $string['operation'] = 'Λειτουργία';
 $string['protocol'] = 'Πρωτόκολλο';

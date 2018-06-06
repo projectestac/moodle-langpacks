@@ -85,7 +85,7 @@ $string['unitmandatory'] = 'Obligatori';
 $string['unitmandatory_help'] = '* La resposta serà qualificada utilitzant la resposta escrita.
 
 * Es penalitzarà si el camp està buit.';
-$string['unitnotselected'] = 'Cal que seleccioneu una resposta';
+$string['unitnotselected'] = 'Cal que seleccioneu una unitat.';
 $string['unitonerequired'] = 'Cal que introduïu almenys una unitat';
 $string['unitoptional'] = 'Pregunta opcional';
 $string['unitoptional_help'] = '* Si el camp no està buit, la resposta es qualificarà utilitzant aquesta resposta.

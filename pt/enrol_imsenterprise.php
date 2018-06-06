@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['aftersaving...'] = 'Depois de gravar as suas configurações poderá querer';
+$string['aftersaving...'] = 'Depois de guardar as suas configurações poderá querer';
 $string['allowunenrol'] = 'Permitir que os dados IMS <strong>removam inscrições</strong> de alunos e professores';
 $string['allowunenrol_desc'] = 'Se ativar esta configuração as inscrições nas disciplinas serão removidas quando isso for especificado nos dados Enterprise.';
 $string['basicsettings'] = 'Configurações básicas';

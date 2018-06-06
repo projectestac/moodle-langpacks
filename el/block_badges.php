@@ -27,3 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['badges:addinstance'] = 'Προσθήκη νέου μπλοκ Τα τελευταία βραβεία μου';
 $string['badges:myaddinstance'] = 'Προσθήκη νέου μπλοκ Τα τελευταία βραβεία μου στη σελίδα Η αρχική μου';
+$string['nothingtodisplay'] = 'Δεν έχετε κανένα βραβείο προς εμφάνιση';
+$string['numbadgestodisplay'] = 'Αριθμός πρόσφατων βραβείων προς εμφάνιση';
+$string['pluginname'] = 'Πρόσφατα βραβεία';

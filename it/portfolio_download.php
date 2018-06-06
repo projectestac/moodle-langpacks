@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['downloadfile'] = 'Scarica il tuo file di esportazione nel portfolio';
 $string['downloading'] = 'Scaricamento in corso...';
-$string['pluginname'] = 'File download';
+$string['pluginname'] = 'Scaricamento file';

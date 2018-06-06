@@ -29,4 +29,4 @@ $string['configplugin'] = 'Configuration Merlot.org';
 $string['licensekey'] = 'Clef de licence';
 $string['merlot:view'] = 'Consulter un dépôt Merlot';
 $string['pluginname'] = 'Merlot.org';
-$string['pluginname_help'] = 'Merlot.org';
+$string['pluginname_help'] = 'Dépôt sur Merlot.org';

@@ -29,3 +29,4 @@ $string['mysessions'] = 'Nire saio aktiboak';
 $string['navigationlink'] = 'Arakatu saioak';
 $string['pluginname'] = 'Erabiltzaile-saioen txostena';
 $string['thissession'] = 'Oraingo saioa';
+$string['usersessions:manageownsessions'] = 'Kudeatu norberaren saioak nabigatzailean';

@@ -467,7 +467,7 @@ $string['rsstype_help'] = '<p>Aquesta opció us permet habilitar l\'RSS en aques
 <li><b>Missatges:</b> l\'RSS inclourà cada missatge nou que s\'enviï al fòrum.</li>
 </ul>';
 $string['search'] = 'Cerca';
-$string['search:activity'] = 'Fòrum - informació d\'activitat';
+$string['search:activity'] = 'Fòrum: informació de l\'activitat';
 $string['searchdatefrom'] = 'Missatges posteriors a aquesta data';
 $string['searchdateto'] = 'Missatges anteriors a aquesta data';
 $string['searchforumintro'] = 'Introduïu els termes de la cerca en els camps següents:';
@@ -547,7 +547,7 @@ $string['unsubscribeall'] = 'Cancel·la la meva subscripció a tots els fòrums'
 $string['unsubscribeallconfirm'] = 'Us heu subscrit a {$a->forums} fòrums i a {$a->discussions} debats. Segur que voleu cancel·lar la vostra subscripció a tots els fòrums i debats, i inhabilitar la subscripció automàtica?';
 $string['unsubscribeallconfirmdiscussions'] = 'Us heu subscrit a {$a->discussions} debats. Segur que voleu cancel·lar la vostra subscripció a tots els debats i inhabilitar-hi la subscripció automàtica?';
 $string['unsubscribeallconfirmforums'] = 'Us heu subscrit a {$a->forums} fòrums. Segur que voleu cancel·lar la vostra subscripció a tots els fòrums i inhabilitar-hi la subscripció automàtica?';
-$string['unsubscribealldone'] = 'S\'han cancel·lat totes les vostres subscripcions a fòrums, però encara rebreu notificacions dels fòrums que imposin la subscripció. Per a gestionar les notificacions del fòrum aneu a la Missatgeria de la Configuració del meu perfil, al bloc Configuració.';
+$string['unsubscribealldone'] = 'S\'han cancel·lat totes les vostres subscripcions a fòrums, però encara rebreu notificacions dels fòrums que imposin la subscripció. Per gestionar les notificacions del fòrum, aneu a la Missatgeria de la Configuració del meu perfil, al bloc Configuració.';
 $string['unsubscribeallempty'] = 'No us heu subscrit a cap fòrum.
 Per desactivar totes les notificacions del servidor, aneu a la Missatgeria de la Configuració del meu perfil, al bloc Configuració.';
 $string['unsubscribed'] = 'La vostra subscripció ha estat cancel·lada';

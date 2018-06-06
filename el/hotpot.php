@@ -27,13 +27,16 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['abandoned'] = 'Εγκαταλελειμμένο';
 $string['addquizchain'] = 'Προσθήκη αλυσίδας κουίζ';
+$string['allowreview_help'] = 'Αν ενεργοποιηθεί, οι μαθητές θα μπορούν να ξαναβλέπουν τις προσπάθειές τους, ακόμη και μετά το κλείσιμο του κουίζ.';
 $string['average'] = 'Μέσος όρος';
 $string['checks'] = 'Έλεγχοι';
 $string['clickreporting'] = 'Ενεργοποίησε αναφορά κλικ';
 $string['clues'] = 'Ίχνη';
 $string['completed'] = 'Ολοκληρωμένο';
 $string['correct'] = 'Σωστά';
+$string['delay3summary'] = 'Χρονική καθυστέρηση στο τέλος του κουίζ';
 $string['duration'] = 'Διάρκεια';
+$string['feedbackdiscuss'] = 'Συζητήστε αυτό το κουίζ σε ένα φόρουμ';
 $string['feedbackformmail'] = 'Φόρμα ανάδρασης';
 $string['feedbackmoodleforum'] = 'Ομάδα συζήτησης Moodle';
 $string['feedbackmoodlemessaging'] = 'Μηνύματα Moodle';
@@ -59,6 +62,7 @@ $string['outputformat_best'] = 'καλύτερο';
 $string['penalties'] = 'Ποινές';
 $string['pluginname'] = 'Το Hot Potatoes Κουίζ';
 $string['questionshort'] = 'Ε-{$a}';
+$string['quizzes'] = 'Κουίζ';
 $string['score'] = 'Βαθμός';
 $string['sourcefilenotfound'] = 'Αδυναμία εύρεσης πηγαίου αρχείου (ή είναι κενό): {$a}';
 $string['stopbutton_help'] = 'Αν αυτή η ρύθμιση είναι ενεργοποιημένη, στο κουίζ θα προστεθεί ένα κουμπί διακοπής.

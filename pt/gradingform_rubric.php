@@ -66,7 +66,7 @@ $string['regradeoption0'] = 'Não marcar para reavaliação';
 $string['regradeoption1'] = 'Marcar para reavaliação';
 $string['restoredfromdraft'] = 'NOTA: A última tentativa de avaliar esta pessoa não foi guardada de forma adequada pelo que os rascunhos das notas foram restaurados. Se desejar cancelar estas alterações prima o botão \'Cancelar\' abaixo.';
 $string['rubric'] = 'Grelha qualitativa';
-$string['rubricmapping'] = 'Regras de coversão dos pontos';
+$string['rubricmapping'] = 'Regras de conversão dos pontos';
 $string['rubricmappingexplained'] = 'A nota miníma para esta grelha é de <b>{$a->minscore} pontos</b> e será convertida para a nota mínima disponível neste trabalho (que é zero, a menos que seja usada uma escala). A nota máxima <b>{$a->maxscore} pontos</b> será convertida para a nota máxima. Notas intermediárias serão convertidas, respetivamente, e arredondadas para a nota disponível.
 
 Se uma escala for usada para avaliação, a pontuação será arredondada e convertida para os elementos da escala como se fossem inteiros consecutivos.

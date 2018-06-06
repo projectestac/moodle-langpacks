@@ -227,7 +227,7 @@ $string['modulename_help'] = 'Il modulo di attività Glossario consente  ai part
 
 Un docente può consentire di allegare file alle definizioni delle voci. I file allegati di tipo immagine vengono visualizzati assieme alla definizione.  E\' possibile cercare voci oppure ordinarle alfabeticamente per categoria, data o autore. Per default le voci e le definizioni inserite sono considerati approvate, tuttavia,  prima di rendere la voce visibile a tutti i partecipanti. è anche possibile impostare l\'approvazione da parte di un docente
 
-Tramite l\'attivazione del filtro \'Link automatici al glossario\' le voci potranno essere collegate automaticamente quando la voce compare nei testi del corso.
+Tramite l\'attivazione del filtro \'Collegamento automatico alle voci di glossario\' le voci potranno essere collegate automaticamente quando la voce compare nei testi del corso.
 
 Un docente può anche consentire l\'inserimento di commenti alle voci. Le voci possono essere valutate sia dal docente sia dagli studenti (valutazione tra pari). I punteggi ottenuti vengono aggregati e memorizzati nel registro del valutatore.
 

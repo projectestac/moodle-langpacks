@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['configplugin'] = 'Configuration WebDav';
 $string['http'] = 'HTTP';
 $string['https'] = 'HTTPS';
-$string['pluginname'] = 'Dépôt WebDAV';
+$string['pluginname'] = 'WebDAV';
 $string['webdav'] = 'WebDAV';
 $string['webdavbasicauth'] = 'Authentification WebDAV basique';
 $string['webdavdigestauth'] = 'Authentification WebDAV digest';

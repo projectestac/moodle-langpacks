@@ -347,11 +347,11 @@ $string['exportquestions'] = 'Galderak fitxategi batera esportatu';
 $string['extraattemptrestrictions'] = 'Aparteko murrizketak saiakeretarako';
 $string['false'] = 'Gezurra';
 $string['feedback'] = 'Feedbacka';
-$string['feedbackerrorboundaryformat'] = 'Atzera-elikaduraren muga-kalifikazioa ehunekoa edo zenbakia izan behar du. {$a} mugan sartu den balorea ezin da onartu.';
-$string['feedbackerrorboundaryoutofrange'] = 'Atzera-elikaduraren muga-kalifikazioak %0 eta %100en artean egon behar du. {$a} mugan sartu den muga ez dago horien artean.';
-$string['feedbackerrorjunkinboundary'] = 'Atzera-elikaduraren muga-kalifikazioen atalak hutsunerik gabe bete behar dituzu.';
+$string['feedbackerrorboundaryformat'] = 'Atzera-elikaduraren kalifikazio-muga ehunekoa edo zenbakia izan behar du. {$a} mugan sartu den balorea ezin da onartu.';
+$string['feedbackerrorboundaryoutofrange'] = 'Atzera-elikaduraren kalifikazio-mugak %0 eta %100en artean egon behar du. {$a} mugan sartu den muga ez dago horien artean.';
+$string['feedbackerrorjunkinboundary'] = 'Atzera-elikaduraren kalifikazio-mugan atalak hutsunerik gabe bete behar dituzu.';
 $string['feedbackerrorjunkinfeedback'] = 'Atzera-elikadura atalak hutsunerik gabe bete behar dituzu.';
-$string['feedbackerrororder'] = 'Feedback-aren muga-kalifikazioek ordenatuta joan behar dute, altuenetik hasita. {$a} mugan sartutako balorea ez dago ordenan.';
+$string['feedbackerrororder'] = 'Feedback-aren kalifikazio-mugek ordenatuta joan behar dute, altuenetik hasita. {$a} mugan sartutako balorea ez dago ordenan.';
 $string['file'] = 'Fitxategia';
 $string['fileformat'] = 'Fitxategiaren formatua';
 $string['fillcorrect'] = 'Erantzun zuzena eman';
@@ -368,19 +368,9 @@ $string['fractionsaddwrong'] = 'Aukeratu dituzun gradu positiboak gehituta ez da
 $string['fractionsnomax'] = 'Erantzunetako batek %100 izan beharko luke, horrela<br/>erantzun honentzat gehienezko nota lortzea posible izan dadin.<br/>Atzera bueltatu nahi duzu arazoa konpontzeko?';
 $string['fromfile'] = 'fitxategi honetatik:';
 $string['functiondisabledbysecuremode'] = 'Funtzionalitate hau une honetan desgaituta dago';
-$string['generalfeedback'] = 'Feedback orokorra';
-$string['generalfeedback_help'] = '<p>Galderen feedback orokorra galderari erantzun ondoren ikasleei
-erakutsiko zaien testua da. Galdera-mota eta ikaslearen erantzunaren
-araberako feedback-ean ez bezala, feedback orokorrean testu bera
-erakutsiko zaie ikasle guztiei.</p>
-
-<p>Ikasleei feedback orokorra noiz erakutsiko zaien kontrola dezakezu
-"Berrikusteko aukera:"ko laukitxoan erabilita galdetegia editatzeko
-formularioan.</p>
-
-<p>Aztertzen ari zaren gaiari buruzko aurrezagutzak emateko erabil
-dezakezu feedback orokorra. Edo informazio gehiago lortzeko estekaren bat
-eskaintzeko, galderak ulertzen ez badituzte.</p>';
+$string['generalfeedback'] = 'Galderaren feedback orokorra';
+$string['generalfeedback_help'] = 'Galderaren feedback orokorra galderari erantzun ondoren ikasleei erakutsiko zaien testua da. Galdera-mota eta ikaslearen erantzunaren araberako feedback-ean ez bezala, galderaren feedback orokorrean ikasle guztiei testu bera
+erakusten zaie.';
 $string['graceperiod'] = 'Bidalketaren graziazko epea';
 $string['graceperiod_desc'] = 'Epea iraungitzen denean egin beharrekoa  \'Bidalketa berrietarako graziazko epea eman baina ez onartu aldaketarik emandako erantzunetan\' aukeran ezarrita badago, hau da emandako aparteko denborarako balio lehenetsia.';
 $string['graceperiod_help'] = 'Epea iraungitzen denean egin beharrekoa  \'Bidalketa berrietarako graziazko epea eman baina ez onartu aldaketarik emandako erantzunetan\' aukeran ezarrita badago, hau da emandako aparteko denbora.';
@@ -510,7 +500,7 @@ $string['navmethod_free'] = 'Librea';
 $string['navmethod_help'] = 'Nabigazio sekuentziala gaituta dagoenean ikasleek galdetegiaren ordena jarraitu behar dute, eta ezingo dute aurreko orrira itzuli edo hurrengora joan.';
 $string['navmethod_seq'] = 'Sekuentziala';
 $string['navnojswarning'] = 'Kontuz: esteka horrek ez ditu gordeko zure erantzunak. Erabili hurrengoa botoia orriaren beheko aldean.';
-$string['neverallononepage'] = 'Inoiz ez, orri guztiak orri batean.';
+$string['neverallononepage'] = 'Inoiz ez, galdera guztiak orri batean.';
 $string['newattemptfail'] = 'Errorea: ezin izan da beste saiakera bat hasi galdetegian';
 $string['newpage'] = 'Orri berria';
 $string['newpageevery'] = 'Orri berria automatikoki hasi';
@@ -579,28 +569,8 @@ $string['outcomesadvanced'] = 'Ikas-emaitzak ezarpen aurreratuak dira';
 $string['outof'] = '{$a->grade} eta gehienez {$a->maxgrade}';
 $string['outofpercent'] = '{$a->grade} eta gehienez {$a->maxgrade} (%{$a->percent})';
 $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';
-$string['overallfeedback'] = 'Feedback orokorra';
-$string['overallfeedback_help'] = '<p>Feedback orokorra galdetegiaren saiakera bat osatu
-ondoren ikasleari erakutsiko zaion testua da. Erakutsitako testua
-ikasleak lortutako kalifikazioaren araberakoa izan daiteke.</p>
-
-<p>Adibidez, hau sartzen baduzu:</p>
-
-<p>Muga-kalifikazioa: 100%<br />
-Feedback-a: Oso ondo<br />
-Muga-kalifikazioa: 40%<br />
-Feedback-a: Asteburu honetan birpasatu egin beharko duzu<br />
-...<br />
-Muga-kalifikazioa: 0%</p>
-
-<p>%100 eta %40 arteko kalifikazioa lortzen duen ikasleak "Oso ondo"
-mezua ikusiko du, eta %39,99 eta %0 arteko kalifikazioa lortzen duenak,
-berriz, beste mezua ikusiko du. Horrela, muga-kalifikazioek kalifikazio-mailak
-ezartzen dituzte, eta bakoitzaren feedback-katea dagokion mailako puntuazioetarako
-erakutsiko da.</p>
-
-<p>Muga-kalifikazioak ehunekotan ezar daitezke, "% 31.41%" adibidez, edo
-zenbaki batekin, "7" adibidez. Zure galdetegiak 10ekoa bada, 7ko muga-kalifikazioak 10etik 7 edo gehiago esan nahi du.</p>';
+$string['overallfeedback'] = 'Galdetegiaren feedbacka orokorra';
+$string['overallfeedback_help'] = 'Galdetegiaren feedbacka orokorra galdetegiaren saiakera bat osatu ondoren ikasleari erakutsiko zaion testua da. Kalifikazio-muga gehiago zehaztuta (zenbakia edo ehunekoa adieraziz), erakutsitako testua ikasleak lortutako kalifikazioaren araberakoa izan daiteke.';
 $string['overdue'] = 'Atzeratuta';
 $string['overduehandling'] = 'Epea iraungitzen denean';
 $string['overduehandlingautoabandon'] = 'Saiakerak denbora agortu aurretik bidali behar dira; bestela, ez dira aintzat hartuko';
@@ -832,7 +802,7 @@ $string['reviewoptionsheading_help'] = 'Aukera hauek kontrolatzen dute ikasleek 
 **Beranduago, galdetegia irekita dagoen bitartean** aukerak aurrekoaren ondoren aplikatzen da, galdetegiaren itxiera-data heldu arte.
 
 **Galdetegia itxi ondoren** aukera galdetegiaren itxiera-data igaro ondoren aplikatzen da. Galdetegiak ez badu itxiera-datarik egoera honetara ez da inoiz heltzen.';
-$string['reviewoverallfeedback'] = 'Feedback orokorra';
+$string['reviewoverallfeedback'] = 'Galdetegiaren feedbacka orokorra';
 $string['reviewoverallfeedback_help'] = 'Saiakeraren amaieran emandako feedbacka, ikasleak denera jasotako kalifikazio orokorraren araberakoa.';
 $string['reviewresponse'] = 'Ebazpena berrikusi';
 $string['reviewresponsetoq'] = 'Ebazpena berrikusi ({$a} galdera)';

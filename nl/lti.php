@@ -233,7 +233,7 @@ Indien een verbruikersssleutel en gedeeld geheim worden ingevoerd, ontstaat er e
 Leraren kunnen toch gebruik maken van de tools van deze providers indien ze in het bezit zijn van een verbruikerssleutel en gedeeld geheim, of indien deze niet worden vereist.
 * **Afgekeurd** - Deze zijn gevlagd als tool providers die de beheerder niet wenst beschikbaar te maken voor de volledige Moodle instantie. Leraren kunnen toch gebruik maken van de tools van deze providers indien ze in het bezit zijn van een verbruikerssleutel en gedeeld geheim, of indien deze niet worden vereist.';
 $string['manage_external_tools'] = 'Beheer tools';
-$string['manage_tool_proxies'] = 'Beheer externet tool registraties';
+$string['manage_tool_proxies'] = 'Beheer externe tool registraties';
 $string['manage_tools'] = 'Beheer voorgeconfigureerde tools';
 $string['manuallyaddtype'] = 'Je kunt ook <a href="{$a}">een tool manueel configureren</a>.';
 $string['miscellaneous'] = 'Divers';
@@ -322,7 +322,7 @@ $string['resourcekey'] = 'Consumentensleutel';
 $string['resourcekey_admin'] = 'Consumentensleutel';
 $string['resourcekey_admin_help'] = 'De consumentensleutel kan beschouwd worden als een gebruikersnaam die de toegang tot een tool authenticeert. Een tool provider kan deze gebruiken om de Moodle site van waaruit de gebruikers de tool lanceren, uniek te identificeren.
 
-De consumentensleutel moet door de tool provider worden verstrekt. De methode om een consumentensleutel te bekomen verschilt naargelang de tool provider. Het kan een automatisch proces zijn, of het kan een dialoog met de tool provider vereisen.
+De consumentensleutel moet door de tool provider worden verstrekt. De methode om een consumentensleutel te verkrijgen, verschilt naargelang de tool provider. Het kan een automatisch proces zijn, of het kan een dialoog met de tool provider vereisen.
 
 Voor tools die geen beveiligde communicatie met Moodle vereisen en die geen bijkomende diensten verstrekken (zoals rapportering van cijfers) heb je waarschijnlijk geen consumentensleutel nodig.';
 $string['resourcekey_help'] = 'Voor vooraf geconfigureerde tools is het niet nodig om hier een consumentensleutel in te voeren, want deze zal al zijn voorzien als onderdeel van het configuratie proces.
@@ -331,7 +331,7 @@ Dit veld moet worden ingevuld indien een link wordt gemaakt met een tool provide
 
 De consumentensleutel kan beschouwd worden als een gebruikersnaam die de toegang tot een tool authenticeert. Een tool provider kan deze gebruiken om de Moodle site van waaruit de gebruikers de tool lanceren, uniek te identificeren.
 
-De consumentensleutel moet door de tool provider worden verstrekt. De methode om een consumentensleutel te bekomen verschilt naargelang de tool provider. Het kan een automatisch proces zijn, of het kan een dialoog met de tool provider vereisen.
+De consumentensleutel moet door de tool provider worden verstrekt. De methode om een consumentensleutel te verkrijgen, verschilt naargelang de tool provider. Het kan een automatisch proces zijn, of het kan een dialoog met de tool provider vereisen.
 
 Voor tools die geen beveiligde communicatie met Moodle vereisen en die geen bijkomende diensten verstrekken (zoals rapportering van cijfers) heb je waarschijnlijk geen consumentensleutel nodig.';
 $string['resourceurl'] = 'Bron-URL';

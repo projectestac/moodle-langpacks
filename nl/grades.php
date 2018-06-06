@@ -403,7 +403,7 @@ $string['importcsv_help'] = 'Cijfers kunnen als volgt via een CSV-bestand geïmp
 * de eerste record bevat een lijst met veldnamen die de opmaak van de rest van het bestand definiëren
 * een veldnaam die de gebruikersidentiteit bevat is vereist - ofwel username, ID number of email address
 
-Je kunt een bestand bekomen met de juiste opmaak door eerst wat cijfers te exporteren. Dat bestand kan dan bewerkt en bewaard worden als CSV-bestand.';
+Je kunt een bestand verkrijgen met de juiste opmaak door eerst wat cijfers te exporteren. Dat bestand kan dan bewerkt en bewaard worden als CSV-bestand.';
 $string['importcustom'] = 'Importeer als aangepaste resultaten (enkel deze cursus)';
 $string['importerror'] = 'Er is een fout opgetreden. Dit script is niet aangeroepen met de juiste parameters.';
 $string['importfailed'] = 'Importeren mislukt. Er zijn geen gegevens geïmporteerd.';

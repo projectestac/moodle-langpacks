@@ -35,7 +35,7 @@ $string['legacyheading'] = 'Heredatutako erreproduzitzaileak';
 $string['legacyheading_desc'] = 'Erreproduzitzaile hauek ez dira sarritan erabiltzen internet-en eta oro, har nabigatzailean instalatuta egoten ez diren pluginak behar dituzte.';
 $string['managemediaplayers'] = 'Kudeatu erreproduzitzaileak';
 $string['mediaformats'] = 'Eskura dauden erreproduzitzaileak';
-$string['mediaformats_desc'] = 'Erreproduzitzaileak gaituta daudenean, multimedia fitxategiak txerta daitezke multimedia gehigarriak erabilita (gaituta egonez gero) edo fitxategi edo URLak erabilita. Gaituta ez badaude, formatu hauek ez dira txertatuko eta erabiltzaileak jaits ditzake edo estekak jarraitu.
+$string['mediaformats_desc'] = 'Erreproduzitzaileak gaituta daudenean, multimedia fitxategiak txerta daitezke multimedia pluginak erabilita (gaituta egonez gero) edo fitxategi edo URLak erabilita. Gaituta ez badaude, formatu hauek ez dira txertatuko eta erabiltzaileak jaits ditzake edo estekak jarraitu.
 
 Bi erreproduzitzaileek formatu bera onartzen dutenean, biak gaituta gailu arteko bateragarritasuna handitzen dugu, sakeleko telefonoetan esaterako. Bateragarritasuna handitzeko posible da ere audio edo bideo klip berarentzat formatu ezberdinetako fitxategiak eskaintzea.';
 $string['mediasettings'] = 'Enbotatu media';

@@ -139,15 +139,15 @@ $string['mysqliextensionisnotpresentinphp'] = 'PHP is niet goed geconfigureerd m
 $string['nativemariadb'] = 'MariaDB (native/mariadb)';
 $string['nativemariadbhelp'] = '<p>De databank is waar de meeste Moodle-instellingen en gegevens bewaard worden. Die moet hier geconfigureerd worden. </p>
 <p>De databanknaam, gebruikersnaam en wachtwoord zijn vereiste velden. het tabelprefix is optioneel.</p>
-<p>De databanknaam mag enkel alphanumerieke tekens, dollar ($) en underscore (_) bevatten. </p>
+<p>De databanknaam mag enkel bestaan uit alfanumerieke tekens, dollar ($) en underscore (_).
 <p>Als de databank nog niet bestaat, maar de opgegeven gebruiker heeft de juiste rechten, dan zal Moodle proberen een nieuwe databank te maken met je juiste rechten en instellingen.</p>
 <p>Deze driver is niet compatibel met de verouderde MyISAM engine.</p>';
 $string['nativemssql'] = 'SQL*Server FreeTDS (native/mssql)';
 $string['nativemssqlhelp'] = 'Nu moet je de databank waar de meeste gegevens van Moodle bewaard worden gaan configureren. Deze databank moet al gemaakt zijn en je moet een gebruikersnaam en wachtwoord hebben om er toegang toe te krijgen. Een tabelprefix is verplicht.';
 $string['nativemysqli'] = 'Improved MySQL (native/mysqli)';
-$string['nativemysqlihelp'] = '<p>De databank is waar de meeste Moodle-instellingen en gegevens bewaard worden. Die moet hier geconfigureerd worden. </p>
+$string['nativemysqlihelp'] = '<p>De databank is waar de meeste Moodle-instellingen en gegevens bewaard worden. Die moet geconfigureerd worden. </p>
 <p>De databanknaam, gebruikersnaam en wachtwoord zijn vereiste velden. het tabelprefix is optioneel.</p>
-<p>De databanknaam mag enkel alphanumerieke tekens, dollar ($) en underscore (_) bevatten. </p>
+<p>De databanknaam mag enkel bestaan uit alfanumerieke tekens, dollar ($) en underscore (_).
 <p>Als de databank nog niet bestaat, maar de opgegeven gebruiker heeft de juiste rechten, dan zal Moodle proberen een nieuwe databank te maken met je juiste rechten en instellingen.</p>';
 $string['nativeoci'] = 'Oracle(native/oci)';
 $string['nativeocihelp'] = 'Nu moet je de databank waar de meeste gegevens van Moodle bewaard worden gaan configureren. Deze databank moet al gemaakt zijn en je moet een gebruikersnaam en wachtwoord hebben om er toegang toe te krijgen. Een tabelprefix is verplicht.';

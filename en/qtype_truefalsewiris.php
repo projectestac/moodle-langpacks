@@ -32,6 +32,7 @@ $string['pluginnameadding'] = 'Adding a true/false - math & science question by 
 $string['pluginnameediting'] = 'Editing a true/false - math & science question by WIRIS';
 $string['pluginname_help'] = 'Like the standard True/False, but you can deliver different question text by inserting random numbers, formulas or plots. You can dynamically define whether the correct answer is true or false. The feedback can also use the random values.';
 $string['pluginnamesummary'] = 'Like the standard True/False, but you can deliver different question text by inserting random numbers, formulas or plots. You can dynamically define whether the correct answer is true or false. The feedback can also use the random values.';
+$string['privacy:null_reason'] = 'Wiris Quizzes True/False question type does not effect or store any data itself.';
 $string['truefalsewiris'] = 'True/False - science';
 $string['truefalsewiris_algorithm'] = 'Algorithm';
 $string['truefalsewiris_correct_answer_variable'] = 'Correct answer variable';

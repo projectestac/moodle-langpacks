@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'IP helbidearen bidez sartzeko araua';
+$string['pluginname'] = 'IP helbidearen bidezko sarbide-araua';
 $string['subnetwrong'] = 'Galdetegi hau helbide jakin batzuetatik bakarrik egin daiteke, eta ordenagailu hau ez dago baimenduen zerrendan.';

@@ -27,5 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Plugin WIRIS para Atto';
 $string['wiris_cas_title'] = 'cas WIRIS';
-$string['wiris_chem_editor_title'] = 'Editor de química';
-$string['wiris_editor_title'] = 'Editor WIRIS';
+$string['wiris_chem_editor_title'] = 'Insertar una fórmula química - ChemType';
+$string['wiris_editor_title'] = 'Insertar una ecuación matemática - MathType';

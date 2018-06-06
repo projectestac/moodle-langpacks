@@ -92,6 +92,7 @@ $string['noguestaccess'] = 'Οι επισκέπτες δεν έχουν πρόσ
 $string['none'] = 'Κανένας';
 $string['notenrollable'] = 'Δεν μπορείτε να εγγραφείτε σε αυτό το μάθημα προς το παρόν';
 $string['notenrolledusers'] = 'Άλλοι χρήστες';
+$string['otheruserdesc'] = 'Οι παρακάτω χρήστες δεν είναι εγγεγραμένοι στο μάθημα αλλά έχουν ρόλους, κληρονομημένους ή από ανάθεση σε αυτό.';
 $string['participationactive'] = 'Ενεργός';
 $string['participationstatus'] = 'Κατάσταση';
 $string['participationsuspended'] = 'Ανεστάλη';

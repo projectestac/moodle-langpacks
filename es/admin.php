@@ -943,6 +943,7 @@ $string['registerwithmoodleorg'] = 'Registre su sitio';
 $string['registration'] = 'Registro';
 $string['registration_help'] = 'Para poder recibir alertas de seguridad y tener acceso a Moodle.net, se recomienda que registre su sitio.';
 $string['registrationwarning'] = 'Su sitio aún no está registrado.';
+$string['registrationwarningcontactadmin'] = 'Su sitio no está registrado aún. Por favor, consulte con su administrador.';
 $string['releasenoteslink'] = 'Si desea información sobre esta versión de Moodle, por favor vea <a target="_blank" href="{$a}">Release Notes</a>';
 $string['rememberusername'] = 'Recordar nombre de usuario';
 $string['rememberusername_desc'] = 'Activar si desea almacenar las cookies permanentes con nombres de usuario durante el inicio de sesión. Las cookies permanentes se deben tratar como un asunto de privacidad si se utilizan sin consentimiento.';
@@ -1099,7 +1100,7 @@ $string['taskgradecron'] = 'Procesamiento en segundo plano del libro de califica
 $string['tasklegacycron'] = 'Procesamiento heredado de extensiones';
 $string['taskmessagingcleanup'] = 'Procesamiento en segundo plano de la mensajería';
 $string['taskpasswordresetcleanup'] = 'Limpiar intentos de restablecimiento de contraseña';
-$string['taskplagiarismcron'] = 'Procesamiento en segundo plano de los extensiones de plagio';
+$string['taskplagiarismcron'] = 'Procesamiento en segundo plano para cron heredado en las extensiones de plagio';
 $string['taskportfoliocron'] = 'Procesamiento en segundo plano de los extensiones de portfolio';
 $string['taskquestioncron'] = 'Procesamiento en segundo plano del motor de preguntas';
 $string['taskregistrationcron'] = 'Registro en el Sitio';
@@ -1149,6 +1150,7 @@ $string['unsupporteddbstorageengine'] = 'El motor de almacenamiento de base de d
 $string['unsupporteddbtablerowformat'] = 'Su base de datos tiene tablas utilizando el formato de fichero Antelope. Se le recomienda convertir las tablas al formato de fichero Barracuda. Revise la documentación <a href="https://docs.moodle.org/29/en/Administration_via_command_line">Administración mediante línea de comandos</a> para detalles de la herramienta para convertir tablas InnoDB a Barracuda.';
 $string['unsupportedphpversion7'] = 'La versión 7 de PHP no está soportada.';
 $string['unsupportedphpversion71'] = 'PHP versión 7.1 no es compatible.';
+$string['unsupportedphpversion72'] = 'Versión 7.2 de PHP no soportada.';
 $string['unsuspenduser'] = 'Activar cuenta de usuario';
 $string['updateaccounts'] = 'Actualizar cuentas existentes';
 $string['updateautocheck'] = 'Compruebe automáticamente las actualizaciones disponibles';

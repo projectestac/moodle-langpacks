@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Eskaera estatikoen cachea';
+$string['pluginname'] = 'Eskaeren cache estatikoa';

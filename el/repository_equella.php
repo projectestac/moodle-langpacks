@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['equella:view'] = 'Εμφάνιση αποθετηρίου EQUELLA';
 $string['group'] = 'Ρυθμίσεις ρόλων {$a}';
+$string['pluginname'] = 'Αποθετήριο EQUELLA';
 $string['restrictionitemsonly'] = 'Σύνοψη αντικειμένων μόνο';

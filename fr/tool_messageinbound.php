@@ -70,7 +70,7 @@ $string['messageinboundhostssl_desc'] = 'Certains serveurs de courriel offrent u
 $string['messageinboundhosttype'] = 'Type de serveur';
 $string['messageinboundhostuser'] = 'Nom d\'utilisateur';
 $string['messageinboundhostuser_desc'] = 'Nom d\'utilisateur fourni par votre fournisseur de service afin de vous connecter à votre compte de courriel.';
-$string['messageinboundmailboxconfiguration_desc'] = 'Lorsque les messages sont envoyés, l\'adresse d\'expédition est composée dans le format « adresse+données@example.fr ». Afin de générer de manière fiable ces adresses, veuillez indiquer la partie que vous utilisez normalement avant le signe @ et de manière séparée le domaine que vous utilisez après le @. Par exemple, le nom de la boîte dans l\'exemple ci-dessus est « adresse » et le domaine est « exemple.fr ». Veuillez utiliser un compte de courriel dédié pour cette fonction.';
+$string['messageinboundmailboxconfiguration_desc'] = 'Lorsque les messages sont envoyés, l\'adresse d\'expédition est composée dans le format « adresse+données@exemple.fr ». Afin de générer de manière fiable ces adresses, veuillez indiquer la partie que vous utilisez normalement avant le signe @ et de manière séparée le domaine que vous utilisez après le @. Par exemple, le nom de la boîte dans l\'exemple ci-dessus est « adresse » et le domaine est « exemple.fr ». Veuillez utiliser un compte de courriel dédié pour cette fonction.';
 $string['messageprocessingerror'] = 'Vous avez récemment envoyé un courriel « {$a->subject} », qui n\'a malheureusement pas pu être traité.
 
 Les détails de l\'erreur sont indiqués ci-dessous.

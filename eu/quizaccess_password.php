@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['passworderror'] = 'Sartutako pasahitza ez da zuzena';
-$string['pluginname'] = 'Pasahitzaren bidez sartzeko araua';
+$string['pluginname'] = 'Pasahitzaren bidezko sarbide-araua';
 $string['quizpassword'] = 'Galdetegiaren pasahitza';
 $string['requirepasswordmessage'] = 'Galdetegi hau egiten saiatzeko galdetegiko pasahitza jakin behar duzu';

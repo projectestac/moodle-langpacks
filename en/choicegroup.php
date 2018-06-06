@@ -123,6 +123,7 @@ $string['pleasesetonegroup'] = 'Please create at least one group in this course.
 $string['pluginadministration'] = 'Choice administration';
 $string['pluginname'] = 'Group choice';
 $string['privacy'] = 'Privacy of results';
+$string['privacy:metadata'] = 'The Group Choice plugin does not store any personal data. All user data is stored by the group component of Moodle core (core_group).';
 $string['publish'] = 'Publish results';
 $string['publishafteranswer'] = 'Show results to students after they answer';
 $string['publishafterclose'] = 'Show results to students only after the choice is closed';

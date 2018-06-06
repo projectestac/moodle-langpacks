@@ -39,6 +39,7 @@ $string['choiceno'] = 'Val {$a}';
 $string['choices'] = 'Tillgängliga val';
 $string['clozeaid'] = 'Mata in det saknade ordet';
 $string['correctansweris'] = 'Rätta svaret är:{$a}';
+$string['correctanswersare'] = 'Det rätta svaren är: {$a}';
 $string['correctfeedback'] = 'För vilket korrekt svar som helst';
 $string['errfractionsaddwrong'] = 'De positiva betygen Du har valt adderar inte till 100%.<br />Istället adderar de till {$a}%.';
 $string['errfractionsnomax'] = 'Ett av svaren borde bli 100% så att det blir möjligt att få ett komplett betyg/omdöme för den här frågan.';

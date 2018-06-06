@@ -60,7 +60,7 @@ $string['completionduration'] = 'Inscrição';
 $string['completionenabled'] = 'Disponível, via configurações de conclusão e das atividades';
 $string['completionexpected'] = 'Data prevista de conclusão';
 $string['completionexpected_help'] = 'Esta configuração define a data em que se espera que a atividade esteja concluída. A data não é apresentada aos alunos, apenas é visível no relatório de conclusão da atividade.';
-$string['completion-fail'] = 'Completo (não atingiu a nota de passagem)';
+$string['completion-fail'] = 'Concluído (não atingiu a nota de aprovação)';
 $string['completion_help'] = 'Se ativar esta opção, a conclusão da atividade será controlada, manualmente ou automaticamente, com base em determinadas condições. Podem ser definidas várias condições, se necessário. Neste caso, a atividade apenas será dada como concluída quando TODAS as condições se verificarem.
 
 As atividades concluídas serão assinaladas na página da disciplina com um visto junto do nome da atividade .';
@@ -80,7 +80,7 @@ $string['completionnotenabledforcourse'] = 'A conclusão não está ativa para e
 $string['completionnotenabledforsite'] = 'A conclusão não está ativa para este site';
 $string['completionondate'] = 'Data';
 $string['completionondatevalue'] = 'O utilizador tem de se manter inscrito até';
-$string['completion-pass'] = 'Concluído (atingiu a nota de passagem)';
+$string['completion-pass'] = 'Concluído (atingiu a nota de aprovação)';
 $string['completionsettingslocked'] = 'Configurações de conclusão bloqueadas';
 $string['completion-title-manual-n'] = 'Assinalar como concluída: {$a}';
 $string['completion-title-manual-y'] = 'Dar como não concluída: {$a}';

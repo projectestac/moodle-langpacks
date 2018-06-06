@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['downloadas'] = 'Download tabella dati come';
+$string['downloadas'] = 'Scarica tabella dati come';
 $string['downloadcsv'] = 'file testo Comma separated';
 $string['downloadexcel'] = 'Foglio elettronico Excel';
 $string['downloadods'] = 'Foglio elettronico OpenDocument';
-$string['downloadoptions'] = 'Scegli le opzioni di download';
+$string['downloadoptions'] = 'Scegli le opzioni di scaricamento';
 $string['downloadtsv'] = 'File testo con valori separati da tab';
 $string['downloadxhtml'] = 'Documento XHTML senza paginazione';

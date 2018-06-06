@@ -96,7 +96,7 @@ $string['batchoperationconfirmdownloadselected'] = 'Télécharger les travaux re
 $string['batchoperationconfirmgrantextension'] = 'Octroyer une prolongation pour tous les travaux sélectionnés&nbsp;?';
 $string['batchoperationconfirmlock'] = 'Verrouiller tous les travaux sélectionnés&nbsp;?';
 $string['batchoperationconfirmreverttodraft'] = 'Remettre tous les travaux sélectionnés dans l\'état brouillon&nbsp;?';
-$string['batchoperationconfirmsetmarkingallocation'] = 'Définir l\'attribution de l\'évaluation pour tous les devoirs remis sélectionnés&nbsp;?';
+$string['batchoperationconfirmsetmarkingallocation'] = 'Définir l\'attribution de l\'évaluation pour tous les devoirs remis sélectionnés ?';
 $string['batchoperationconfirmsetmarkingworkflowstate'] = 'Définir le statut de l\'évaluation pour tous les devoirs remis sélectionnés ?';
 $string['batchoperationconfirmunlock'] = 'Déverrouiller tous les travaux sélectionnés&nbsp;?';
 $string['batchoperationlock'] = 'verrouiller les travaux remis';
@@ -272,7 +272,7 @@ $string['manageassignfeedbackplugins'] = 'Gérer les plugins de feedback des dev
 $string['manageassignsubmissionplugins'] = 'Gérer les plugins de remise de travaux des devoirs';
 $string['marker'] = 'Évaluateur';
 $string['markerfilter'] = 'Filtre d\'évaluateurs';
-$string['markerfilternomarker'] = 'Pas de marqueur';
+$string['markerfilternomarker'] = 'Pas d\'évaluateur';
 $string['markingallocation'] = 'Utiliser l\'attribution d\'évaluateurs';
 $string['markingallocation_help'] = 'Si ce réglage est activé en même temps que les flux d\'évaluation, les évaluateurs peuvent être attribués à des participants.';
 $string['markingworkflow'] = 'Utiliser les flux d\'évaluation';
@@ -403,7 +403,7 @@ $string['sendstudentnotificationsdefault_help'] = 'Définit la valeur par défau
 $string['sendstudentnotifications_help'] = 'Si ce réglage est activé, les étudiants reçoivent un message lors de la modification d\'une note ou d\'un feedback.';
 $string['sendsubmissionreceipts'] = 'Envoyer aux étudiants un accusé de réception';
 $string['sendsubmissionreceipts_help'] = 'Ce réglage permet d\'activer les accusés de réception pour les étudiants. Les étudiants recevront une notification chaque fois qu\'ils remettent un travail pour un devoir.';
-$string['setmarkerallocationforlog'] = 'Définition de l\'évaluateur&nbsp;: (id={$a->id}, nom={$a->fullname}, évaluateur={$a->marker}).';
+$string['setmarkerallocationforlog'] = 'Définition de l\'évaluateur : (id={$a->id}, nom={$a->fullname}, évaluateur={$a->marker}).';
 $string['setmarkingallocation'] = 'Définir l\'évaluateur attribué';
 $string['setmarkingworkflowstate'] = 'Définir le statut du flux d\'évaluation';
 $string['setmarkingworkflowstateforlog'] = 'Définition du statut du flux d\'évaluation : ( id={$a->id}, nom={$a->fullname}, état={$a->state}).';

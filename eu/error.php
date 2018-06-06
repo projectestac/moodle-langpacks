@@ -502,7 +502,7 @@ $string['sessionipnomatch2'] = '<p>Sentitzen dugu, baina sartu zarenetik zure IP
 <p>Jarraitu nahi baduzu mesedez sakatu F5 tekla orri hau freskatzeko.</p>';
 $string['sessionwaiterr'] = 'Saioaren blokeoaren zai egoteko denbora amaitu da.<br />Itxaron zure oraingo eskaera bukatu arte eta berriz saiatu zaitez.';
 $string['shortnametaken'] = 'Izan laburra dagoeneko beste ikastaro batean erabili da ({$a})';
-$string['sitepolicynotagreed'] = 'Ez duzu gunearen politika onartu: <a href="{$a}">Egin klik hemen gunearen politika irekitzeko.</a>';
+$string['sitepolicynotagreed'] = 'Ez duzu guneko politika onartu: <a href="{$a}">Egin klik hemen guneko politika irekitzeko.</a>';
 $string['socksnotsupported'] = 'SOCKS5 proxya ez da onartzen PHP4-n';
 $string['spellcheckernotconf'] = 'Zuzentzaile ortografikoa ez dago konfiguratuta';
 $string['sslonlyaccess'] = 'Segurtasun-arrazoiak direla-eta, https konexioak bakarrik daude baimenduta, sentitzen dugu.';

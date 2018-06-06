@@ -46,6 +46,9 @@ $string['cannotcallscript'] = 'Δεν μπορείτε να καλέστε αυ�
 $string['cannotcallusgetselecteduser'] = 'Δεν μπορείτε να καλέστε το user_selector::get_selected_user εάν η επιλογή multiselect είναι true.';
 $string['cannotcreatebackupdir'] = 'Αδυναμία δημιουργίας φακέλου backupdata.  Ο διαχειριστής του ιστοχώρου πρέπει να ρυθμίσει τα δικαιώματα';
 $string['cannotcreatecategory'] = 'Η κατηγορία δεν εισήχθη';
+$string['cannotcreatedboninstall'] = '<p>Αδυναμία δημιουργίας βάσης δεδομένων.</p>
+<p>Η βάση δεδομένων που προσδιορίστηκε δεν υπάρχει και ο χρήστης που δόθηκε δεν έχει δικαίωμα να δημιουργήσει την βάση δεδομένων.</p>
+<p>Ο διαχειριστής του ιστοτόπου πρέπει να επαληθεύσει την ρύθμιση της βάσης δεδομένων.</p>';
 $string['cannotcreategroup'] = 'Σφάλμα κατά τη δημιουργία νέας ομάδας';
 $string['cannotcreatelangbase'] = 'Σφάλμα: Αποτυχία δημιουργίας φακέλου κύριας γλώσσας';
 $string['cannotcreatelangdir'] = 'Δε δημιουργήθηκε φάκελος γλώσσας.';

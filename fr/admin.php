@@ -299,7 +299,7 @@ $string['confignotifyloginthreshold'] = 'Lorsque les notifications des tentative
 $string['confignotloggedinroleid'] = 'Les utilisateurs non connectés dans le site seront traités comme si ce rôle leur était accordé au niveau du contexte du site. Le rôle « Visiteur anonyme » est presque toujours ce dont vous aurez besoin ; il se peut toutefois que vous vouliez créer des rôles plus ou moins restrictifs. Les actions telles qu\'écrire des messages dans les forums requièrent toujours une véritable connexion.';
 $string['configopentogoogle'] = 'Si vous activez cette option, Google pourra entrer dans votre site en tant qu\'utilisateur anonyme. En outre, les internautes arrivant sur votre site depuis une recherche Google seront automatiquement connectés en tant qu\'utilisateur anonyme. Cependant, cela ne permet un accès transparent qu\'aux cours déjà ouverts aux visiteurs anonymes.';
 $string['configoverride'] = 'Défini dans config.php';
-$string['configpasswordpolicy'] = 'Après activation de ce réglage, Moodle vérifiera la qualité des mots de passe (longueur, types des caractères, etc.). Utilisez les réglages ci-dessous pour fixer les critères minimaux des mots de passe (ils seront ignorés si ce réglage est désactivé).';
+$string['configpasswordpolicy'] = 'Si ce réglage est activé, Moodle vérifie si les mots de passe sont conformes à une politique définie. Utilisez les réglages ci-dessous pour définir votre politique de mots de passe (ils seront ignorés si ce réglage est désactivé).';
 $string['configpasswordresettime'] = 'Ce réglage spécifie le temps à disposition des utilisateurs pour valider une demande de réinitialisation de mot de passe avant son échéance.
 Une durée de 30 minutes est adéquate.';
 $string['configpathtodu'] = 'Chemin d\'accès du programme « du » (disk usage). En général quelque chose comme « /usr/bin/du ». Si vous spécifiez ce chemin, les pages affichant le contenu de dossiers contenant beaucoup de fichiers se chargeront beaucoup plus vite.';
@@ -586,8 +586,8 @@ $string['gradebookroles'] = 'Rôles évalués';
 $string['gradeexport'] = 'Modules principaux d\'exportation des notes';
 $string['gravatardefaulturl'] = 'URL de l\'image Gravatar par défaut';
 $string['gravatardefaulturl_help'] = 'Gravatar a besoin d\'une image à afficher par défaut s\'il n\'arrive pas à trouver d\'image pour un utilisateur donné. Veuillez indiquer une URL complète. Si vous laissez vide ce réglage, Moodle tentera d\'utiliser une image la plus adéquate possible selon la page consultée. Gravatar permet d\'utiliser divers codes pouvant être utilisés pour <a href="https://en.gravatar.com/site/implement/images/#default-image">générer des images par défaut</a>.';
-$string['groupenrolmentkeypolicy'] = 'Règles pour les clefs d\'inscription aux groupes';
-$string['groupenrolmentkeypolicy_desc'] = 'L\'activation de ce réglage permet d\'imposer aux clefs d\'inscription aux groupes les règles définies pour les mots de passe.';
+$string['groupenrolmentkeypolicy'] = 'Politique des clefs d\'inscription aux groupes';
+$string['groupenrolmentkeypolicy_desc'] = 'Si ce réglage est activé, Moodle vérifie si les clefs d\'inscription aux groupes sont conformes à la politique de mots de passe.';
 $string['guestroleid'] = 'Rôle du compte « Visiteur anonyme »';
 $string['guestroleid_help'] = 'Ce rôle est automatiquement attribué au compte Utilisateur anonyme. Il est également attribué temporairement aux utilisateurs qui entrent dans un cours via le plugin d\'inscription des utilisateurs anonymes.';
 $string['helpadminseesall'] = 'Les administrateurs voient-ils tous les événements du calendrier ou seulement leurs propres événements ?';
@@ -815,7 +815,7 @@ $string['passwordchangelogout'] = 'Déconnexion après changement de mot de pass
 $string['passwordchangelogout_desc'] = 'Si ce réglage est activé, lorsqu\'un mot de passe est modifié, toutes les sessions de navigateurs sont terminées, à l\'exception de celle dans laquelle le nouveau mot de passe est spécifié (ce réglage ne concerne pas le changement de mots de passe par le dépôt d\'utilisateurs en lots).';
 $string['passwordchangetokendeletion'] = 'Supprimer les jetons d\'accès aux services web après un changement de mot de passe';
 $string['passwordchangetokendeletion_desc'] = 'Si ce réglage est activé, lorsqu\'un mot de passe est modifié, tous les jetons de services web de l\'utilisateur sont supprimés.';
-$string['passwordpolicy'] = 'Règles pour les mots de passe';
+$string['passwordpolicy'] = 'Politique de mots de passe';
 $string['passwordresettime'] = 'Durée maximale pour valider la demande de réinitialisation du mot de passe';
 $string['passwordreuselimit'] = 'Limite de rotation des mots de passe';
 $string['passwordreuselimit_desc'] = 'Le nombre de fois qu\'un utilisateur doit changer son mot de passe avant de pouvoir réutiliser un mot de passe. Les hachages des mots de passe utilisés sont stockés dans la base de données. Cette fonctionnalité peut ne pas être compatible avec certains plugins d\'authentification externe.';
@@ -1027,8 +1027,8 @@ $string['sitemaintenanceoncli'] = 'Votre site est actuellement en mode de mainte
 $string['sitemaintenancewarning'] = 'Votre site est actuellement en mode de maintenance (seuls les administrateurs peuvent s\'y connecter). Pour revenir à un fonctionnement normal du site, veuillez <a href="maintenance.php">désactiver le mode de maintenance</a>.';
 $string['sitemaintenancewarning2'] = 'Votre site est actuellement en mode de maintenance (seuls les administrateurs peuvent s\'y connecter). Pour revenir à un fonctionnement normal du site, veuillez <a href="{$a}">désactiver le mode de maintenance</a>.';
 $string['sitepolicies'] = 'Règles site';
-$string['sitepolicy'] = 'URL du règlement de site';
-$string['sitepolicyguest'] = 'URL du règlement de site pour visiteurs anonymes';
+$string['sitepolicy'] = 'URL de la politique du site';
+$string['sitepolicyguest'] = 'URL de la politique du site pour visiteurs anonymes';
 $string['sitepolicyguest_help'] = 'Si vous voulez imposer aux visiteurs anonymes la lecture et l\'acceptation d\'un règlement avant d\'utiliser ce site, veuillez indiquer ici l\'URL de ce règlement. Dans le cas contraire, laissez le champ vide. N\'importe quelle URL publique peut être spécifiée. Vous pouvez empêcher l\'accès des visiteurs anonymes à votre site à l\'aide du réglage « Imposer la connexion ».';
 $string['sitepolicy_help'] = 'Si vous voulez imposer à vos utilisateurs enregistrés la lecture et l\'acceptation d\'un règlement avant d\'utiliser ce site, veuillez indiquer ici l\'URL de ce règlement. Dans le cas contraire, laissez le champ vide. N\'importe quelle URL publique peut être spécifiée.';
 $string['sitesectionhelp'] = 'Si cette option est activée, une section sera affichée sur la page d\'accueil du site.';
@@ -1146,7 +1146,7 @@ $string['unsupporteddbfileformat'] = 'Certaines tables de votre base de données
 $string['unsupporteddbfilepertable'] = 'Pour un support complet de l\'encodage UTF-8, tant MySQL que MariaDB nécessitent d\'activer le paramètre « innodb_file_per_table ». Veuillez consulter la documentation pour plus de détails.';
 $string['unsupporteddblargeprefix'] = 'Pour un support complet de l\'encodage UTF-8, tant MySQL que MariaDB nécessitent d\'activer le paramètre « innodb_large_prefix ». Veuillez consulter la documentation pour plus de détails.';
 $string['unsupporteddbstorageengine'] = 'Le moteur de base de données utilisé n\'est plus supporté.';
-$string['unsupporteddbtablerowformat'] = 'Votre base de données comporte des tables qui utilisent le format de fichier Antelope. Il vous est vivement recommandé de convertir les tables au format de fichier Barracuda. Veuillez consulter la <a href="https://docs.moodle.org/2x/fr/Administration_en_ligne_de_commande">documentation sur l\'Administration en ligne de commande</a> pour des informations détaillées sur l\'<a href="https://docs.moodle.org/2x/fr/Administration_en_ligne_de_commande#Conversion_des_tables_InnoDB_au_format_Barracuda">outil de conversion des tables InnoDB en format Barracuda</a>.';
+$string['unsupporteddbtablerowformat'] = 'Votre base de données comporte des tables qui utilisent le format de fichier Antelope. Il vous est vivement recommandé de convertir les tables au format de fichier Barracuda. Veuillez consulter la <a href="https://docs.moodle.org/fr/Administration_en_ligne_de_commande">documentation sur l\'Administration en ligne de commande</a> pour des informations détaillées sur l\'<a href="https://docs.moodle.org/fr/Administration_en_ligne_de_commande#Conversion_des_tables_InnoDB_au_format_Barracuda">outil de conversion des tables InnoDB en format Barracuda</a>.';
 $string['unsupportedphpversion7'] = 'La version 7 de PHP n\'est pas supportée.';
 $string['unsupportedphpversion71'] = 'La version 7.1 de PHP n\'est pas supportée.';
 $string['unsupportedphpversion72'] = 'La version 7.2 de PHP n\'est pas supportée.';
@@ -1221,7 +1221,7 @@ $string['userbulkdownload'] = 'Exporter les utilisateurs sous le nom';
 $string['userdefaultpreferences'] = 'Préférences utilisateur par défaut';
 $string['userimagesdisabled'] = 'Les images des profils utilisateur sont désactivés';
 $string['userlist'] = 'Liste des utilisateurs';
-$string['userpolicies'] = 'Règles utilisateurs';
+$string['userpolicies'] = 'Politiques utilisateurs';
 $string['userpreference'] = 'Préférence utilisateur';
 $string['userquota'] = 'Quota utilisateur';
 $string['users'] = 'Utilisateurs';

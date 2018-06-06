@@ -286,7 +286,7 @@ $string['importformatnotimplement'] = 'L\'importation de ce format n\'est pas en
 $string['incorrectext'] = 'Le fichier a une extension incorrecte';
 $string['inplaceeditableerror'] = 'Erreur lors de l\'appel du processus de modification';
 $string['installproblem'] = 'Il n\'est habituellement pas possible de rattraper une erreur survenue durant l\'installation. Si vous voulez tenter une nouvelle installation, vous devrez probablement créer une nouvelle base de données ou utiliser un autre préfixe de base de données.';
-$string['internalauthpassworderror'] = 'Mot de passe manquant ou règle non valide pour authentification interne';
+$string['internalauthpassworderror'] = 'Mot de passe manquant ou politique de mots de passe non valide pour authentification interne';
 $string['invalidaccess'] = 'L\'accès à cette page n\'est pas correct';
 $string['invalidaccessparameter'] = 'Paramètre d\'accès non valide';
 $string['invalidaction'] = 'Paramètre d\'action non valide';
@@ -338,7 +338,7 @@ $string['invalidnum'] = 'Valeur numérique non valide';
 $string['invalidnumkey'] = 'Le tableau $conditions ne doit pas contenir de clef numérique. Veuillez corriger le code !';
 $string['invalidoutcome'] = 'Identifiant d\'objectif incorrect';
 $string['invalidpagesize'] = 'Taille de page non valide';
-$string['invalidpasswordpolicy'] = 'Règles de mot de passe non valide';
+$string['invalidpasswordpolicy'] = 'Politique de mots de passe non valide';
 $string['invalidpaymentmethod'] = 'Méthode de paiement non valide : {$a}';
 $string['invalidqueryparam'] = 'Erreur : nombre de paramètres incorrect dans la requête. {$a->expected} paramètres attendus, actuellement {$a->actual} paramètres.';
 $string['invalidratingarea'] = 'Zone d\'évaluation non valide';
@@ -499,7 +499,7 @@ $string['sessionipnomatch2'] = '<p>Votre adresse IP semble avoir changé depuis 
 <p>Si vous voulez continuer, veuillez actualiser l\'affichage de cette page.</p>';
 $string['sessionwaiterr'] = 'Durée dépassée au cours de l\'attente pour un verrouillage de session.<br />Veuillez attendre que vos requêtes actuelles se terminent et essayer plus tard.';
 $string['shortnametaken'] = 'Ce nom abrégé est déjà utilisé pour un autre cours ({$a})';
-$string['sitepolicynotagreed'] = 'Règlement du site pas approuvé : <a href="{$a}">veuillez cliquer ici pour ouvrir le règlement du site</a>.';
+$string['sitepolicynotagreed'] = 'Politique du site pas acceptée : <a href="{$a}">veuillez cliquer ici pour accéder à la politique du site</a>.';
 $string['socksnotsupported'] = 'Le proxy SOCKS5 n\'est pas supporté en PHP4';
 $string['spellcheckernotconf'] = 'Le correcteur orthographique n\'est pas configuré';
 $string['sslonlyaccess'] = 'Pour des raisons de sécurité, seules les connexions sécurisées https sont autorisées.';

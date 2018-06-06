@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['notavailable'] = '申し訳ございません、この小テストはまだ利用できません。';
+$string['notavailable'] = '現在、この小テストは利用できません。';
 $string['pluginname'] = '開始および終了日 - 小テストアクセスルール';
 $string['quiznotavailable'] = '小テストは {$a} まで利用できません。';

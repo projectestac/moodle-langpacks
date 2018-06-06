@@ -118,6 +118,7 @@ $string['pleasesetonegroup'] = 'Mindestens eine Gruppe in diesem Kurs anlegen';
 $string['pluginadministration'] = 'Wahladministration';
 $string['pluginname'] = 'Gruppenwahl';
 $string['privacy'] = 'Anonymität';
+$string['privacy:metadata'] = 'Das Gruppenwahl Plugin speichert keine personenbezogenen Daten. Alle Nutzerdaten sind im Gruppen-Subsystem von Moodle gespeichert (core_group).';
 $string['publish'] = 'Ergebnisse veröffentlichen';
 $string['publishafteranswer'] = 'Nach der eigenen Stimmabgabe';
 $string['publishafterclose'] = 'Ergebnisse erst anzeigen, nachdem die Wahl beendet ist';

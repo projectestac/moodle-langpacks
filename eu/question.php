@@ -194,10 +194,10 @@ $string['flagged'] = 'Markatuta';
 $string['flagthisquestion'] = 'Markatu galdera hau';
 $string['formquestionnotinids'] = 'Galdera hau questionids-en ez dagoen formularioan dago';
 $string['fractionsnomax'] = 'Erantzunetako batek %100 izan behar du galdera honetako gehienezko puntuazioa lortu ahal izateko.';
-$string['generalfeedback'] = 'Feedback orokorra';
-$string['generalfeedback_help'] = 'Feedback orokorra galdera erantzun ondoren erakusten zaio ikasleari. Feedback zehatzak ez bezala, galdera-mota eta ikasleak emandako erantzunaren araberakoa dena, feedback orokorra berdina da ikasle guztientzat.
+$string['generalfeedback'] = 'Galderaren feedback orokorra';
+$string['generalfeedback_help'] = 'Galderaren feedback orokorra galdera erantzun ondoren erakusten zaio ikasleari. Feedback zehatzak ez bezala, galdera-mota eta ikasleak emandako erantzunaren araberakoa dena, feedback orokorra berdina da ikasle guztientzat.
 
-Feedback orokorra erantzun egokia erakusteko eta azaltzeko erabil dezakezu, eta agian informazio gehiago erakusten duen estekaren bat gehi dezakezu galdera ulertu ez duenarentzat.';
+Galderaren feedback orokorra erantzun egokia erakusteko eta azaltzeko erabil dezakezu, eta agian informazio gehiago erakusten duen estekaren bat gehi dezakezu galdera ulertu ez duenarentzat.';
 $string['getcategoryfromfile'] = 'Lortu kategoria fitxategitik';
 $string['getcontextfromfile'] = 'Lortu testuingurua fitxategitik';
 $string['hintn'] = '{no}. Pista';

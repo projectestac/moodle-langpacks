@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filtername'] = 'Link automatici al database';
+$string['filtername'] = 'Collegamento automatico ai campi del database';

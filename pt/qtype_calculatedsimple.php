@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['atleastonewildcard'] = 'Deve existir pelo menos uma variável <strong>{x..}</strong> nas fórmulas das respostas';
-$string['converttocalculated'] = 'Gravar como nova pergunta numérica com variáveis normal';
+$string['converttocalculated'] = 'Guardar como nova pergunta numérica normal com variáveis';
 $string['findwildcards'] = 'Encontrar as variáveis {x..} nas fórmulas das respostas';
 $string['generatenewitemsset'] = 'Gerar';
 $string['newsetwildcardvalues'] = 'novo(s) conjunto(s) de valore(s) das variáveis';

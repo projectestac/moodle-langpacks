@@ -671,7 +671,7 @@ $string['emailpasswordchangeinfofail'] = 'Hola, {$a->firstname}.
 Alguien (probablemente tu) ha pedido una nueva contraseña para tu cuenta en \'{$a->sitename}\'.
 
 Desafortunadamente las contraseñas no pueden cambiarse en este sitio. Por favor, ponte en contacto con el administrador del sitio {$a->admin}.';
-$string['emailpasswordchangeinfosubject'] = '{$a}: Cambiar información sobre la contraseña';
+$string['emailpasswordchangeinfosubject'] = '{$a}: Información sobre cambiar la contraseña';
 $string['emailpasswordconfirmation'] = 'Hola, {$a->firstname}.
 
 Recibimos la solicitud de nueva contraseña para su cuenta

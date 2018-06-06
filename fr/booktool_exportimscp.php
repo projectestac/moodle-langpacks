@@ -29,4 +29,4 @@ $string['eventbookexported'] = 'Livre exporté';
 $string['exportimscp:export'] = 'Exporter le livre sous forme de paquetage de contenu IMS';
 $string['generateimscp'] = 'Générer IMS CP';
 $string['nochapters'] = 'Pas de chapitre de livre trouvé. Impossible d\'exporter vers IMS CP.';
-$string['pluginname'] = 'Export de livre IMS CP';
+$string['pluginname'] = 'Exportation de livre IMS CP';

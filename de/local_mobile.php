@@ -29,7 +29,7 @@ $string['allowpermissions'] = 'Rolle \'Authentifizierte/r Nutzer/in\' erweitern'
 $string['allowpermissionsdescription'] = 'Bearbeiten Sie die Rolle \'Authentifizierte/r Nutzer/in\' und erlauben Sie zusätzlich das Recht moodle/webservice:createtoken.';
 $string['cannotcreatetoken'] = 'Die Token für Administratoren werden nicht automatisch generiert, sondern müssen manuell auf der Website angelegt werden.';
 $string['checkpluginconfiguration'] = 'Einstellungen für \'Moodle Mobile - Zusatzfeatures\' prüfen';
-$string['clickheretolaunchtheapp'] = 'Klicken Sie hier, wenn die App sich nicht automatisch öffnet.';
+$string['clickheretolaunchtheapp'] = 'Tippen Sie hier, wenn sich die mobile App nicht automatisch öffnet.';
 $string['customlangstrings'] = 'Angepasste Texte';
 $string['customlangstrings_desc'] = 'Die Texte, die in der App angezeigt werden, können hier angepasst werden. Geben Sie jede angepasste Textfolge in einer neuen Zeile ein, u.z im folgenden Format: Text-ID, angepasster Text und Sprachcode, jeweils getrennt durch Pipe-Zeichen.
 

@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['availablecourseson'] = 'Eskura dauden ikastaroak hemen: {$a}';
 $string['availablecoursesonnone'] = '<a href="{$a->hosturl}">{$a->hostname}</a> urrutiko ostalariak ez die gure erabiltzaileei ikastarorik eskaintzen.';
 $string['clientname'] = 'Urrutiko matrikulazio-bezeroa';
-$string['clientname_help'] = 'Erreminta honek zure erabiltzaile lokalak \'MNet urrutiko matrikulazioak\' gehigarriaren bidez baimendutako urruneko ostalarietan matrikulatu eta desmatrikulatzea ahalbidetzen dizu.';
+$string['clientname_help'] = 'Erreminta honek zure erabiltzaile lokalak \'MNet urrutiko matrikulazioak\' pluginaren bidez baimendutako urruneko ostalarietan matrikulatu eta desmatrikulatzea ahalbidetzen dizu.';
 $string['editenrolments'] = 'Editatu matrikulazioak';
 $string['hostappname'] = 'Aplikazioa';
 $string['hostname'] = 'Ostalariaren izena';

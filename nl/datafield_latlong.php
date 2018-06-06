@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Breedtegraad/lengtegraad-veld';
-$string['pluginname'] = 'Coördintaat';
+$string['pluginname'] = 'Coördinaat';

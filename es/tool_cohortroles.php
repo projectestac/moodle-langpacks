@@ -26,4 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['assign'] = 'Tarea';
+$string['managecohortroles'] = 'Asignar roles de usuario a cohorte';
 $string['selectrole'] = 'Seleccionar rol';
+$string['selectusers'] = 'Seleccionar usuarios para asignar rol';

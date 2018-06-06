@@ -105,6 +105,7 @@ $string['check_unsecuredataroot_error'] = 'Ο αρχικός κατάλογος 
 $string['check_unsecuredataroot_name'] = 'Μη ασφαλής αρχικός κατάλογος δεδομένων (dataroot)';
 $string['check_unsecuredataroot_ok'] = 'Ο αρχικός κατάλογος των δεδομένων (dataroot) δεν πρέπει να είναι προσβάσιμος μέσω του ιστού.';
 $string['check_unsecuredataroot_warning'] = 'Ο αρχικός κατάλογος των δεδομένων (dataroot) <code>{$a}</code> είναι σε λάθος τοποθεσία και είναι πιθανώς εκτεθιμένος μέσω πρόσβασης ιστού.';
+$string['check_webcron_details'] = '<p>Η εκτέλεση της cron από περιηγητή μπορεί να εκθέσει ευαίσθητη πληροφορία σε ανώνυμους χρήστες. Προτείνεται η εκτέλεση της cron μόνο μέσω γραμμής εντολών ή μέσω κωδικού πρόσβασης της cron για απομακρυσμένη πρόσβαση.</p>';
 $string['configuration'] = 'Ρύθμιση';
 $string['description'] = 'Περιγραφή';
 $string['details'] = 'Λεπτομέρειες';

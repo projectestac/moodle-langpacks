@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['access_key'] = 'Sarbide-giltza';
 $string['configplugin'] = 'Amazon S3-ren ezarpenak';
-$string['endpoint'] = 'Amazon S3 endpoint';
+$string['endpoint'] = 'Amazon S3  amaiera-puntua';
 $string['needaccesskey'] = 'Sarbide-gitza lortu behar da';
 $string['pluginname'] = 'Amazon S3';
 $string['s3:view'] = 'Ikusi Amazon S3 biltegia';

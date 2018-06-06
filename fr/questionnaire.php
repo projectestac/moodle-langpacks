@@ -89,7 +89,7 @@ $string['configusergraphlong'] = 'Utiliser la bibliothèque <a href="http://www.
 $string['confirmdelallresp'] = 'Voulez-vous vraiment supprimer TOUTES les réponses à ce questionnaire&nbsp;?';
 $string['confirmdelchildren'] = 'Si vous supprimez cette question, ses questions "enfants" suivantes seront également supprimées :';
 $string['confirmdelgroupresp'] = 'Voulez-vous vraiment supprimer toutes les réponses de {$a} ?';
-$string['confirmdelquestion'] = 'Êtes-vous certain de vouloir supprimer la question en position {$a} ?';
+$string['confirmdelquestion'] = 'Voulez-vous vraiment supprimer la question en position {$a} ?';
 $string['confirmdelquestionresps'] = 'Cette action supprimera également la ou les {$a} réponse(s) déjà donnée(s) à cette question.';
 $string['confirmdelresp'] = 'Voulez-vous vraiment supprimer les réponses de {$a}&nbsp;?';
 $string['confpage'] = 'Titre';

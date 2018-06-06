@@ -28,6 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['fallbackaudio'] = 'Audioaren esteka';
 $string['fallbackvideo'] = 'Bideoaren esteka';
 $string['filtername'] = 'Multimedia-pluginak';
-$string['linktomedia'] = 'Multimedia gehigarrien iragazkiak testuak multimedia batera doazen estekak bilatu eta baliabidea erreproduzi dezakeen multimedia erreproduzitzailearen ordezkatzen ditu. <video> eta <audio> etiketak ere bideo eta audio erreproduzitzaileekin ordezkatzen ditu.
+$string['linktomedia'] = 'Multimedia-pluginen iragazkiak testuak multimedia batera doazen estekak bilatu eta baliabidea erreproduzi dezakeen multimedia erreproduzitzailearen ordezkatzen ditu. <video> eta <audio> etiketak ere bideo eta audio erreproduzitzaileekin ordezkatzen ditu.
 
 <a href="{$a}">Kudeatu erreproduzitzaileak</a>';

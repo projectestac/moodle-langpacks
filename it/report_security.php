@@ -107,7 +107,7 @@ $string['check_riskbackup_editrole'] = '<a href="{$a->url}">{$a->name}</a>';
 $string['check_riskbackup_name'] = 'Backup di dati utente';
 $string['check_riskbackup_ok'] = 'Non ci sono ruoli con il privilegio di eseguire backup di dati utente';
 $string['check_riskbackup_unassign'] = '<a href="{$a->url}">{$a->fullname} ({$a->email}) in {$a->contextname}</a>';
-$string['check_riskbackup_warning'] = 'Sono stati individuati {$a->rolecount} ruoli,{$a->overridecount} modifiche ai ruoli e {$a->usercount} utenti con il privilegio di eseguire backup di dati utente';
+$string['check_riskbackup_warning'] = 'Sono stati individuati {$a->rolecount} ruoli, {$a->overridecount} modifiche ai ruoli e {$a->usercount} utenti con il privilegio di eseguire backup di dati utente';
 $string['check_riskxss_details'] = '<p>RISK_XSS indica privilegi che devono essere dati solamente ad utenti affidabili.</p>
 <p>Per favore verificate la seguente lista di utenti e accertatevi che tutti gli utenti elencati meritano la vostra fiducia:<br/>{$a}</p>';
 $string['check_riskxss_name'] = 'Utenti affidabili per XSS';

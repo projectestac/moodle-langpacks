@@ -106,6 +106,7 @@ $string['forgottenpasswordurl'] = 'URL contraseña olvidada';
 $string['getanaudiocaptcha'] = 'Obtener un CAPTCHA de audio';
 $string['getanimagecaptcha'] = 'Obtener un CAPTCHA de imagen';
 $string['getanothercaptcha'] = 'Obtener otro CAPTCHA';
+$string['getrecaptchaapi'] = 'Para usar reCAPTCHA necesita obtener una clave API de <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Botón de entrada para invitados';
 $string['incorrectpleasetryagain'] = 'Incorrecto. Por favor, inténtelo de nuevo.';
 $string['infilefield'] = 'Campo requerido en el archivo';

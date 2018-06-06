@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['clicktomarkusercomplete'] = 'クリックしてユーザ完了をマークする';
-$string['completiondate'] = '完了データ';
+$string['completiondate'] = '完了日時';
 $string['completion:view'] = 'コース完了レポートを表示する';
 $string['eventreportviewed'] = '完了レポートが閲覧されました。';
 $string['eventuserreportviewed'] = '完了ユーザレポートが閲覧されました。';
