@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'pix', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'pix', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   pix
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,9 +35,9 @@ $string['cool'] = 'cool';
 $string['dead'] = 'tot';
 $string['egg'] = 'egg';
 $string['evil'] = 'Teufel';
-$string['heart'] = 'heart';
+$string['heart'] = 'Herz';
 $string['kiss'] = 'Kuss';
-$string['martin'] = 'martin';
+$string['martin'] = 'Martin';
 $string['mixed'] = 'gemischt';
 $string['sad'] = 'traurig';
 $string['shy'] = 'schüchtern';

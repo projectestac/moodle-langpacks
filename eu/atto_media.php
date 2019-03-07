@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_media', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'atto_media', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   atto_media
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,7 +47,7 @@ $string['chapters_help'] = 'Atalen izenburuak gehitu daitezke media baliabideen 
 $string['chapterssourcelabel'] = 'Atalen pistaren URLa';
 $string['controls'] = 'Erakutsi kontrolak';
 $string['createmedia'] = 'Txertatu media';
-$string['default'] = 'Berezkoa';
+$string['default'] = 'Lehenetsitakoa';
 $string['descriptions'] = 'Deskribapenak';
 $string['descriptions_help'] = 'Audio deskribapenak gehitu daitezke audioarekin bakarrik nabari ez diren zehaztasun bisualen narrazioa emateko.';
 $string['descriptionssourcelabel'] = 'Deskribapenaren pistaren URLa';
@@ -68,7 +68,6 @@ $string['metadatasourcelabel'] = 'Metadatuen pistaren URLa';
 $string['mute'] = 'Mutututa';
 $string['pluginname'] = 'Media';
 $string['poster'] = 'Irudi txikiaren URLa';
-$string['privacy:metadata'] = 'atto_media pluginak ez du datu pertsonalik biltzen.';
 $string['remove'] = 'Ezabatu';
 $string['size'] = 'Tamaina';
 $string['srclang'] = 'Hizkuntza';
@@ -77,7 +76,7 @@ $string['subtitles_help'] = 'Azpitituluak erabili daitezke elkarrizketeran trans
 $string['subtitlessourcelabel'] = 'Azpitituluen pistaren URLa';
 $string['track'] = 'Pistaren URLa';
 $string['tracks'] = 'Azpitituluak eta epigrafeak';
-$string['tracks_help'] = 'Azpitituluak, epigrafeak, atalak eta deskribapenak WebVTT fitxategi-formatuaren bidez gehitu daitezke (Web Video Text Tracks). Pisten etiketak zabaltzen den aukeren menuan erakutsiko dira. Pista mota bakoitzarentzat, berezkoa bezala aukeratutakoa bideoaren hasieran aukeratuta egongo da.';
+$string['tracks_help'] = 'Azpitituluak, epigrafeak, atalak eta deskribapenak WebVTT fitxategi-formatuaren bidez gehitu daitezke (Web Video Text Tracks). Pisten etiketak zabaltzen den aukeren menuan erakutsiko dira. Pista mota bakoitzarentzat, lehenetsitakoa bezala aukeratutakoa bideoaren hasieran aukeratuta egongo da.';
 $string['video'] = 'Bideoa';
 $string['videoheight'] = 'Bideoaren altuera';
 $string['videosourcelabel'] = 'Bideo-iturburuaren URLa';

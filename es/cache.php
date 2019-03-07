@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'cache', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,10 +38,10 @@ $string['cachedef_calendar_subscriptions'] = 'Suscripciones al calendario';
 $string['cachedef_capabilities'] = 'Listado de prestaciones del sistema';
 $string['cachedef_completion'] = 'Estado de finalización de la actividad';
 $string['cachedef_config'] = 'Ajustes de configuración';
-$string['cachedef_contextwithinsights'] = 'Contexto con intuiciones (predicciones)';
 $string['cachedef_coursecat'] = 'Listas de categorías de cursos para un usuario en particular';
 $string['cachedef_coursecatrecords'] = 'Registros de categorías de cursos';
 $string['cachedef_coursecattree'] = 'Árbol de categorías de cursos';
+$string['cachedef_coursecompletion'] = 'Estado de finalización del curso';
 $string['cachedef_coursecontacts'] = 'Lista de contactos del curso';
 $string['cachedef_coursemodinfo'] = 'Información acumulada sobre los módulos y secciones para cada curso';
 $string['cachedef_databasemeta'] = 'Meta Información de Base de Datos';
@@ -52,10 +52,12 @@ $string['cachedef_groupdata'] = 'Información de grupos del curso';
 $string['cachedef_htmlpurifier'] = 'Depurador de HTML - Limpieza de contenido';
 $string['cachedef_langmenu'] = 'Lista de idiomas disponibles';
 $string['cachedef_locking'] = 'Bloqueando';
+$string['cachedef_message_processors_enabled'] = 'Estado habilitado de procesadores de mensaje';
 $string['cachedef_navigation_expandcourse'] = 'Cursos expandibles en la navegación';
 $string['cachedef_observers'] = 'Observadores del evento';
 $string['cachedef_plugin_functions'] = 'Llamadas de retorno disponibles de Plugins';
 $string['cachedef_plugin_manager'] = 'Gestor de información del plugin';
+$string['cachedef_postprocessedcss'] = 'CSS post procesado';
 $string['cachedef_questiondata'] = 'Definiciones de preguntas';
 $string['cachedef_repositories'] = 'Datos de repositorios';
 $string['cachedef_string'] = 'Caché de cadenas de idioma';
@@ -105,6 +107,7 @@ $string['inadequatestoreformapping'] = 'Esta tienda no cumple con los requerimie
 $string['invalidlock'] = 'Bloqueo no válido';
 $string['invalidplugin'] = 'Extensión no válida';
 $string['invalidstore'] = 'Almacén de caché proporcionado inválido';
+$string['localstorenotification'] = 'Esta caché puede ser mapeada con seguridad al almacenamiento local para cada servidor web';
 $string['lockdefault'] = 'Por defecto';
 $string['locking'] = 'Bloqueando';
 $string['locking_help'] = 'El bloqueo es un mecanismo que restringe el acceso a datos en caché a un proceso a la vez, previene que los datos se
@@ -135,6 +138,7 @@ $string['requestcount'] = 'Probar con {$a} solicitudes';
 $string['rescandefinitions'] = 'Volver a revisar definiciones';
 $string['result'] = 'Resultado';
 $string['set'] = 'Configurar';
+$string['sharedstorenotification'] = 'Esta caché puede ser mapeada al almacenamiento compartido por todos los servidores web';
 $string['sharing'] = 'Compartiendo';
 $string['sharing_all'] = 'Todo el mundo.';
 $string['sharing_help'] = 'Este ajuste le permite determinar cómo los datos de la caché se pueden compartir si tiene una configuración en clúster, o si tiene varios sitios configurados para el mismo almacén y desea compartir los datos. Esta es una opción avanzada, por favor asegúrese de que entiende su propósito antes de cambiarla.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'nl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'search', language 'nl', branch 'MOODLE_32_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,12 +54,11 @@ $string['documentsinindex'] = 'Documenten in index';
 $string['duration'] = 'Tijdsduur';
 $string['emptydatabaseerror'] = 'Databanktabel ontbreekt of bevat geen index records.';
 $string['enginenotfound'] = 'Zoekmachine {$a} niet gevonden';
-$string['enginenotinstalled'] = '{$a} niet geïnstalleerd.';
+$string['enginenotinstalled'] = '{$a} is niet geïnstalleerd.';
 $string['enginenotselected'] = 'U heeft geen zoekmachine gekozen.';
 $string['engineserverstatus'] = 'De zoekmachine is niet beschikbaar. Neem contact op met je beheerder.';
 $string['enteryoursearchquery'] = 'Geef je zoekopdracht';
 $string['errorareanotavailable'] = 'Zoekzone {$a} is niet beschikbaar.';
-$string['error_indexing'] = 'Er is een fout opgetreden bij het indexeren';
 $string['errors'] = 'Fouten';
 $string['filesinindexdirectory'] = 'Bestanden in indexmap';
 $string['filterheader'] = 'Filter';
@@ -72,7 +71,7 @@ $string['invalidindexerror'] = 'Indexmap bevat een ongeldige index of is leeg.';
 $string['ittook'] = 'Het duurde';
 $string['matchingfile'] = 'Overeenkomst van bestand <span class="filename">{$a}</span';
 $string['matchingfiles'] = 'Overeenkomst van bestanden:';
-$string['next'] = 'VolgendeAdm';
+$string['next'] = 'Volgende';
 $string['noindexmessage'] = 'Beheer: zo\'n index bestaat niet.';
 $string['noresults'] = 'Geen resultaat';
 $string['normalsearch'] = 'Normaal zoeken';

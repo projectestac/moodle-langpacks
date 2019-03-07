@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_langimport', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_langimport', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_langimport
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,25 +25,28 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['downloadnotavailable'] = 'Δεν είναι εφικτή η σύνδεση με το διακομιστή λήψης. Δεν είναι εφικτή η αυτόματη εγκατάσταση ή ενημέρωση των πακέτων γλωσσών. Παρακαλούμε κάντε λήψη των κατάλληλων συμπιεσμένων αρχείων από το <a href="{$a->src}">{$a->src}</a> και αποσυμπιέστε τα χειροκίνητα στον κατάλογο δεδομένων <code>{$a->dest}</code>';
-$string['install'] = 'Eγκατάσταση του επιλεγμένου γλωσσικού πακέτου';
-$string['installedlangs'] = 'Εγκατεστημένα γλωσσικά πακέτα';
+$string['install'] = 'Eγκατάσταση επιλεγμένου πακέτου γλώσσας';
+$string['installedlangs'] = 'Εγκατεστημένα πακέτα γλωσσών';
 $string['langimport'] = 'Εισαγωγή γλωσσικού πακέτου';
-$string['langimportdisabled'] = 'Η δυνατότητα εισαγωγής γλωσσικού πακέτου έχει απενεργοποιηθεί. Πρέπει να ανανεώσετε τα γλωσσικά πακέτα σας χειροκίνητα σε επίπεδο συστήματος.';
-$string['langpackinstalled'] = 'Το γλωσσικό πακέτο {$a} εγκαταστάθηκε με επιτυχία';
+$string['langimportdisabled'] = 'Η δυνατότητα εισαγωγής γλώσσας έχει απενεργοποιηθεί. Πρέπει να ενημερώσετε τα πακέτα γλωσσών σας χειροκίνητα σε επίπεδο αρχείων συστήματος. Μην ξεχάσετε να εκκαθαρίσετε τις προσωρινές μνήμες αλφαριθμητικών αφού το κάνετε.';
+$string['langpackinstalled'] = 'Το πακέτο γλώσσας \'{$a}\' εγκαταστάθηκε επιτυχώς';
 $string['langpackinstalledevent'] = 'Το πακέτο γλώσσας εγκαταστάθηκε';
-$string['langpacknotremoved'] = 'Προέκυψε σφάλμα; Το πακέτο γλώσσας \'{$ a}\' δεν έχει απεγκατασταθεί πλήρως. Παρακαλούμε ελέγξτε τα δικαιώματα αρχείων.';
-$string['langpackremoved'] = 'Πραγματοποιήθηκε η απεγκατάσταση του γλωσσικού πακέτου';
+$string['langpacknotremoved'] = 'Προέκυψε σφάλμα! Το πακέτο γλώσσας \'{$a}\' δεν έχει απεγκατασταθεί πλήρως. Παρακαλούμε ελέγξτε τα δικαιώματα αρχείων.';
+$string['langpackremoved'] = 'Το πακέτο γλώσσας \'{$a}\' απεγκαταστάθηκε';
 $string['langpackremovedevent'] = 'Το πακέτο γλώσσας απεγκαταστάθηκε';
 $string['langpackupdated'] = 'Το πακέτο γλώσσας \'{$a}\' ενημερώθηκε επιτυχώς';
 $string['langpackupdatedevent'] = 'Το πακέτο γλώσσας ενημερώθηκε';
-$string['langpackupdateskipped'] = 'Παράλειψη ανανέωσης γλωσσικού πακέτου {$a}';
+$string['langpackupdateskipped'] = 'Παράλειψη ενημέρωσης πακέτου γλώσσας \'{$a}\'';
 $string['langpackuptodate'] = 'Το πακέτο γλώσσας \'{$a}\' είναι ενημερωμένο';
-$string['langupdatecomplete'] = 'Η αναβάθμιση του γλωσσικού πακέτου ολοκληρώθηκε';
+$string['langupdatecomplete'] = 'Η ενημέρωση του πακέτου γλώσσας ολοκληρώθηκε';
+$string['missingcfglangotherroot'] = 'Λείπει η τιμή $CFG->langotherroot στις ρυθμίσεις';
 $string['missinglangparent'] = 'Απούσα γλώσσα-γονέας <em>{$a->parent}</em> του <em>{$a->lang}</em>.';
 $string['noenglishuninstall'] = 'Δεν είναι εφικτή η απεγκατάσταση του πακέτου Αγγλικής γλώσσας.';
-$string['nolangupdateneeded'] = 'Όλα τα γλωσσικά σας πακέτα είναι ενημερωμένα, δεν απαιτείται ενημέρωση.';
-$string['pluginname'] = 'Γλωσσικά πακέτα';
-$string['uninstall'] = 'Απεγκατάσταση';
-$string['uninstallconfirm'] = 'Είστε απόλυτα βέβαιος ότι θέλετε να απεγκαταστήσετε την {$a} γλώσσα?';
-$string['updatelangs'] = 'Αναβάθμιση όλων των γλωσσικών πακέτων';
+$string['nolangupdateneeded'] = 'Όλα τα πακέτα γλωσσών είναι ενημερωμένα, δεν απαιτείται ενημέρωση.';
+$string['pluginname'] = 'Πακέτα γλωσσών';
+$string['purgestringcaches'] = 'Εκκαθάριση κρυφών μνημών συμβολοσειρών';
+$string['remotelangnotavailable'] = 'Επειδή το Moodle δεν μπορεί να συνδεθεί στο download.moodle.org, δεν είναι δυνατό τα γλωσσικά πακέτα να εγκατασταθούν αυτόματα. Κάντε λήψη των κατάλληλων αρχείων ZIP από το <a href="https://download.moodle.org/langpack/">download.moodle.org/langpack</a>, αντιγράψτε τα στον κατάλογο {$a} και αποσυμπιέστε τα χειροκίνητα.';
+$string['selectlangs'] = 'Επιλογή γλωσσών για απεγκατάσταση';
+$string['uninstall'] = 'Απεγκατάσταση επιλεγμένων πακέτων γλωσσών';
+$string['uninstallconfirm'] = 'Πρόκειται να απεγκαταστήσετε πλήρως αυτά τα πακέτα γλωσσών: <strong>{$a}</strong>. Είστε σίγουροι;';
+$string['updatelangs'] = 'Ενημέρωση όλων των εγκατεστημένων πακέτων γλωσσών';

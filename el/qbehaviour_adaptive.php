@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_adaptive', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qbehaviour_adaptive', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   qbehaviour_adaptive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['disregardedwithoutpenalty'] = 'Η υποβολή ήταν άκυρη και έχει αγνοηθεί χωρίς ποινή.';
+$string['gradingdetails'] = 'Βαθμοί για αυτήν την υποβολή: {$a->raw}/{$a->max}.';
+$string['gradingdetailsadjustment'] = 'Με βάση προηγούμενες προσπάθειες, αυτό δίνει <strong>{$a->cur}/{$a->max}</strong>.';
+$string['gradingdetailspenalty'] = 'Αυτή η υποβολή επέφερε ποινή {$a}.';
+$string['gradingdetailspenaltytotal'] = 'Συνολικές ποινές μέχρι στιγμής: {$a}.';
+$string['gradingdetailswithadjustment'] = 'Βαθμοί για αυτήν την υποβολή: {$a->raw}/{$a->max}. Με βάση τις προηγούμενες προσπάθειες, αυτό δίνει <strong>{$a->cur}/{$a->max}</strong>.';
+$string['gradingdetailswithadjustmentpenalty'] = 'Βαθμοί για αυτήν την υποβολή: {$a->raw}/{$a->max}. Με βάση τις προηγούμενες προσπάθειες, αυτό δίνει <strong>{$a->cur}/{$a->max}</strong>. Η υποβολή αυτή επέφερε ποινή {$a->penalty}';
+$string['gradingdetailswithadjustmenttotalpenalty'] = 'Βαθμοί για αυτήν την υποβολή: {$a->raw}/{$a->max}. Με βάση τις προηγούμενες προσπάθειες, αυτό δίνει <strong>{$a->cur}/{$a->max}</strong>. Η υποβολή αυτή επέφερε ποινή {$a->penalty}. Συνολικές ποινές μέχρι στιγμής: {$a->totalpenalty}.';
+$string['gradingdetailswithpenalty'] = 'Βαθμοί για αυτήν την υποβολή: {$a->raw}/{$a->max}. Η υποβολή αυτή επέβαλε πρόστιμο ύψους {$a->penalty}.';
+$string['gradingdetailswithtotalpenalty'] = 'Βαθμοί για αυτήν την υποβολή: {$a->raw}/{$a->max}. Η υποβολή αυτή επέβαλε πρόστιμο ύψους {$a->penalty}. Συνολικές ποινές μέχρι στιγμής: {$a->totalpenalty}.';
+$string['notcomplete'] = 'Μη πλήρης';
 $string['pluginname'] = 'Προσαρμοστική κατάσταση';

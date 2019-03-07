@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_grade', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'availability_grade', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   availability_grade
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,22 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['cachedef_items'] = 'Βαθμολογούμενα αντικείμενα αποθηκευμένα σε κρυφή μνήμη για αξιολόγηση της υπό όρους διαθεσιμότητας';
+$string['cachedef_items'] = 'Στοιχεία βαθμού σε κρυφή μνήμη για αξιολόγηση της υπό όρους διαθεσιμότητας';
 $string['cachedef_scores'] = 'Βαθμοί χρηστών αποθηκευμένοι σε κρυφή μνήμη για αξιολόγηση της υπό όρους διαθεσιμότητας';
+$string['description'] = 'Απαιτήστε από τους μαθητές να πετύχουν έναν καθορισμένο βαθμό.';
+$string['error_backwardrange'] = 'Οταν καθορίζεται διάστημα (εύρος) βαθμών, το ελάχιστο όριο πρέπει να είναι χαμηλότερο από το μέγιστο.';
+$string['error_invalidnumber'] = 'Τα διαστήματα βαθμών πρέπει να καθορίζονται με έγκυρα ποσοστά.';
+$string['error_selectgradeid'] = 'Πρέπει να επιλέξετε ένα στοιχείο βαθμού για την συνθήκη βαθμολογίας.';
+$string['label_max'] = 'Μέγιστο ποσοστό βαθμού (αποκλειομένου)';
+$string['label_min'] = 'Ελάχιστο ποσοστό (συμπεριλαμβανομένου)';
+$string['missing'] = '(Λείπει δραστηριότητα)';
+$string['option_max'] = 'πρέπει να είναι <';
+$string['option_min'] = 'πρέπει να είναι ≥';
+$string['pluginname'] = 'Περιορισμός με βάση τους βαθμούς';
+$string['requires_any'] = 'Έχετε βαθμό στο <strong>{$a}</strong>';
+$string['requires_max'] = 'Παίρνετε ένα κατάλληλο σκορ στο <strong>{$a}</strong>';
+$string['requires_min'] = 'Επιτυγχάνετε το απαιτούμενο σκορ στο <strong>{$a}</strong>';
+$string['requires_notany'] = 'Δεν έχετε βαθμό στο <strong>{$a}</strong>';
+$string['requires_notgeneral'] = 'Δεν παίρνετε ένα συγκεκριμένο σκορ στο <strong>{$a}</strong>';
+$string['requires_range'] = 'Παίρνετε ένα συγκεκριμένο σκορ στο <strong>{$a}</strong>';
+$string['title'] = 'Βαθμός';

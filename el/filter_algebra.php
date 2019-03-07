@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_algebra', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'filter_algebra', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   filter_algebra
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['algebraicexpression'] = 'Αλγεβρική παράσταση';
 $string['filtername'] = 'Σημειογραφία άλγεβρας';

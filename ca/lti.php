@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'lti', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,6 +46,7 @@ $string['addnewapp'] = 'Habilita l\'aplicació externa';
 $string['addserver'] = 'Afegeix un servidor fiable nou';
 $string['addtype'] = 'Afegeix la configuració externa de l\'eina';
 $string['allow'] = 'Permet';
+$string['allowinstructorcustom'] = 'Permet als professors afegir paràmetres personalitzats';
 $string['allowsetting'] = 'Permet a l\'eina emmagatzemar 8K de paràmetres a Moodle';
 $string['always'] = 'Sempre';
 $string['autoaddtype'] = 'Afegeix eina';
@@ -163,7 +164,7 @@ Es mostraran tres icones després del menú desplegable de Tipus d\'eina externa
 * **Suprimeix** — Suprimeix el tipus d\'eina del nivell del curs.';
 $string['external_tool_types'] = 'Tipus d\'eines externes';
 $string['failedtoconnect'] = 'Moodle no pot comunicar-se amb el sistema «{$a}»';
-$string['failedtocreatetooltype'] = 'No s\'ha pogut crear la nova eina. Comproveu l\'URL i proveu-ho de nou.';
+$string['failedtocreatetooltype'] = 'No s\'ha pogut crear la nova eina. Comproveu l\'URL i torneu a provar-ho.';
 $string['failedtodeletetoolproxy'] = 'No s\'ha pogut suprimir el registre de l\'eina. Cal que visiteu «Gestiona el registre d\'eines externes» i ho esborreu de forma manual.';
 $string['filter_basiclti_configlink'] = 'Configureu els vostres llocs favorits i les contrasenyes.';
 $string['filter_basiclti_password'] = 'La contrasenya és obligatòria';

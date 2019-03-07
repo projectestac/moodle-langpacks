@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_installaddon', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_installaddon', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_installaddon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,7 +50,6 @@ $string['permcheckrepeat'] = 'Verifique novamente';
 $string['permcheckresultno'] = 'A localização do tipo de módulo <em>{$a->path}</em> não permite escrita';
 $string['permcheckresultyes'] = 'A localização do tipo de módulo <em>{$a->path}</em> permite escrita';
 $string['pluginname'] = 'Instalação de módulo';
-$string['privacy:metadata'] = 'O módulo Instalar módulo não armazena dados pessoais.';
 $string['remoterequestalreadyinstalled'] = 'Há um pedido para instalar neste site o módulo \'{$a->name}\' ({$a->component}), versão \'{$a->version}\', a partir da diretoria de módulos do Moodle. No entanto, este módulo <strong>já está instalado</strong> no site.';
 $string['remoterequestconfirm'] = 'Há um pedido para instalar neste site o módulo <strong>\'{$a->name}\'</strong> ({$a->component}), versão \'{$a->version}\', a partir da diretoria de módulos do Moodle. Se continuar, o pacote ZIP do módulo será descarregado para validação. Para já, nada será instalado.';
 $string['remoterequestinvalid'] = 'Há um pedido para instalar neste site um módulo a partir da diretoria de módulos do Moodle. Infelizmente, o pedido não é válido e, por isso, o módulo não pode ser instalado.';

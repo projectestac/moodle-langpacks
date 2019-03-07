@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_multichoice', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,7 +57,7 @@ $string['overallincorrectfeedback'] = 'Retroacció per a qualsevol resposta err�
 $string['overallpartiallycorrectfeedback'] = 'Retroacció per a qualsevol resposta parcialment correcta';
 $string['partiallycorrectfeedback'] = 'Per a qualsevol resposta parcialment correcta';
 $string['pleaseselectananswer'] = 'Trieu una resposta.';
-$string['pleaseselectatleastoneanswer'] = 'Si us plau, seleccioneu almenys una resposta.';
+$string['pleaseselectatleastoneanswer'] = 'Seleccioneu almenys una resposta.';
 $string['pluginname'] = 'Opció múltiple';
 $string['pluginnameadding'] = 'S\'està afegint una pregunta d\'opcions múltiples';
 $string['pluginnameediting'] = 'S\'està editant una pregunta d\'opcions múltiples';

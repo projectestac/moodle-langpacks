@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'sv', branch 'MOODLE_34_STABLE'
+ * Strings for component 'message', language 'sv', branch 'MOODLE_32_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,11 +26,13 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addcontact'] = 'Lägg till kontakt';
+$string['addtoyourcontacts'] = 'Lägg till dina kontakter';
 $string['ago'] = 'För {$a} sedan';
 $string['allusers'] = 'Alla meddelanden från alla användare';
 $string['backupmessageshelp'] = 'Om detta är altiverat så kommer snabbmeddelanden att tas med i automatiska säkerhetskopieringar för hela webbplatsen.';
 $string['blockcontact'] = 'Blockera kontakt';
 $string['blocknoncontacts'] = 'Blockera alla nya meddelanden från personer som inte finns med på min kontaktlista.';
+$string['canceledit'] = 'Avbryt redigering av meddelanden';
 $string['contactblocked'] = 'Kontakt blockerad';
 $string['contacts'] = 'Kontakter';
 $string['context'] = 'Sammanhang';
@@ -44,8 +46,7 @@ $string['disabled'] = 'Funktionen meddelanden är avaktiverad på den här webbp
 $string['disallowed'] = 'Otillåten';
 $string['discussion'] = 'Diskussion';
 $string['editmessages'] = 'Redigera meddelanden';
-$string['emailtagline'] = 'Det här e-postmeddelandet är en kopia av ett meddelande som har skickats till Dig på "{$a>sitename}". Gå till  {$a->url} för att svara.
-';
+$string['emailtagline'] = 'Det här e-postmeddelandet är en kopia av ett meddelande som har skickats till Dig på "{$a->sitename}". Gå till  {$a->url} för att svara.';
 $string['emptysearchstring'] = 'Du måste söka efter någonting';
 $string['enabled'] = 'Aktiverat';
 $string['errorcallingprocessor'] = 'Fel i sb m anrop till den definierade processorn';
@@ -62,6 +63,7 @@ $string['formorethan'] = 'I mer än';
 $string['guestnoeditmessage'] = 'Gästanvändare kan inte redigera alternativen för meddelanden';
 $string['guestnoeditmessageother'] = 'Gästanvändare kan inte redigera andra alternativ för meddelanden';
 $string['hidemessagewindow'] = 'Dölj meddelandefönstret';
+$string['hidenotificationwindow'] = 'Dölj notifieringsfönstret';
 $string['keywords'] = 'Nyckelord';
 $string['loggedin'] = 'Uppkopplad';
 $string['loggedindescription'] = 'När jag är inloggad';
@@ -88,9 +90,13 @@ $string['noncontacts'] = 'Icke-kontakter';
 $string['nonotifications'] = 'Du har inga notiser';
 $string['noreply'] = 'Svara inte på detta meddelande';
 $string['nosearchresults'] = 'Din sökning gav inga träffar';
+$string['notificationimage'] = 'Bild för notiser';
 $string['notificationpreferences'] = 'Välj inställningar för notiser';
 $string['notifications'] = 'Notiser';
+$string['notificationwindow'] = 'Notifieringsfönster';
+$string['off'] = 'Av';
 $string['offline'] = 'Frånkopplat läge';
+$string['on'] = 'På';
 $string['online'] = 'Uppkopplad';
 $string['onlymycourses'] = 'Endast i mina kurser';
 $string['outputdisabled'] = 'Utmatning inaktiverat';
@@ -103,6 +109,8 @@ $string['pagerefreshes'] = 'Den här sidan uppdateras automatiskt var {$a} sekun
 $string['permitted'] = 'Tillåten';
 $string['recent'] = 'Nyligen';
 $string['removecontact'] = 'Ta bort kontakt';
+$string['removecoursefilter'] = 'Ta bort filter för kursen {$a}';
+$string['removefromyourcontacts'] = 'Ta bort från dina kontakter';
 $string['savemysettings'] = 'Spara mina inställningar';
 $string['search'] = 'Sök';
 $string['searchcombined'] = 'Sök personer och meddelanden';

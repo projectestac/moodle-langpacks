@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_grade', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'availability_grade', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   availability_grade
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,4 +43,4 @@ $string['requires_min'] = '你在<strong>{$a}</strong>的分数达到要求';
 $string['requires_notany'] = '你没有在<strong>{$a}</strong>获得分数';
 $string['requires_notgeneral'] = '你在<strong>{$a}</strong>得到的分数未达到要求';
 $string['requires_range'] = '你在<strong>{$a}</strong>获得最高分';
-$string['title'] = '成绩';
+$string['title'] = '评分';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_guest', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_guest', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_guest
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['guest:config'] = 'Configura instàncies d\'accés dels visitants';
 $string['password'] = 'Contrasenya';
 $string['password_help'] = 'Una contrasenya permet l\'accés de visitant al curs restringit només a qui conegui la contrasenya. Als visitants se\'ls demana proporcionar la contrasenya cada vegada que accedeixen al curs.';
 $string['passwordinvalid'] = 'Contrasenya d\'accés incorrecta, torneu a provar-ho';
-$string['passwordinvalidhint'] = 'Aquesta contrasenya d\'accés és incorrecta, torneu a provar-ho<br /> (Una pista: comença per \'{$a}\'.)';
+$string['passwordinvalidhint'] = 'Aquesta contrasenya d\'accés és incorrecta, torneu a provar-ho<br /> (Una pista: comença per «{$a}».)';
 $string['pluginname'] = 'Accés de visitant';
 $string['pluginname_desc'] = 'El connector d\'accés de visitant només concedeix accés temporal als cursos, realment no inscriu els usuaris.';
 $string['requirepassword'] = 'Requereix una contrasenya d\'accés de visitant';

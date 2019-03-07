@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_comments', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignfeedback_comments', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   assignfeedback_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,12 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['commentinline'] = 'Commenti tra le righe';
-$string['commentinlinedefault'] = 'Commenti tra le righe per default';
-$string['commentinlinedefault_help'] = 'La funzionalità commenti tra le righe sarà abilitata per default in tutti i nuovi compiti.';
+$string['commentinlinedefault'] = 'Commenti tra le righe di default';
+$string['commentinlinedefault_help'] = 'La funzionalità commenti tra le righe sarà abilitata di default in tutti i nuovi compiti.';
 $string['commentinline_help'] = 'Durante la valutazione il testo della consegna sarà copiato nel campo del commento, rendendo più semplice commentare tra le righe o modificare il testo originale (anche usando un colore diverso).';
-$string['default'] = 'Abilitato per default';
-$string['default_help'] = 'Questo metodo di commento sarà abilitato per default per le nuove istanze di compito.';
+$string['default'] = 'Abilitato di default';
+$string['default_help'] = 'Questo metodo di commento sarà abilitato di default per le nuove istanze di compito.';
 $string['enabled'] = 'Commenti';
 $string['enabled_help'] = 'Il valutatore potrà abbinare commenti alle consegne.';
 $string['pluginname'] = 'Commenti';
-$string['privacy:metadata:assignmentid'] = 'Identificativo del compito';

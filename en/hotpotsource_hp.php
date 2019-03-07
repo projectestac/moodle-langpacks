@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotpotsource_hp', language 'en', branch 'MOODLE_34_STABLE'
+ * Strings for component 'hotpotsource_hp', language 'en', branch 'MOODLE_32_STABLE'
  *
  * @package   hotpotsource_hp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Hot Potatoes source files';
+$string['privacy:metadata'] = 'The hot Potatoes source files module does not store any personal data.';

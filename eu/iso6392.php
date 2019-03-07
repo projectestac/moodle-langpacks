@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'iso6392', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'iso6392', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   iso6392
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -296,13 +296,11 @@ $string['man'] = 'Mandingo hizkuntza';
 $string['map'] = 'Austronesiar hizkuntzak';
 $string['mar'] = 'Marathiera';
 $string['mas'] = 'Masai';
-$string['mdf'] = '	
-Moksha';
+$string['mdf'] = 'Moksha';
 $string['mdr'] = 'Mandar hizkuntza';
 $string['men'] = 'Mende hizkuntza';
 $string['mga'] = 'Irlandera, erdialdekoa (900-1200)';
-$string['mic'] = '	
-Mi\'kmaq; Micmac hizkuntza';
+$string['mic'] = 'Mi\'kmaq; Micmac hizkuntza';
 $string['min'] = 'Minangkabau hizkuntza';
 $string['mis'] = 'Koderik gabeko hizkuntzak';
 $string['mkd'] = 'Mazedoniera';
@@ -322,7 +320,7 @@ $string['mun'] = 'Munda hizkuntzak';
 $string['mus'] = 'Creek';
 $string['mwl'] = 'Mirandera';
 $string['mwr'] = 'Marwariera';
-$string['mya'] = 'Birmaniera ';
+$string['mya'] = 'Birmaniera';
 $string['myn'] = 'Mayan hizkuntzak';
 $string['myv'] = 'Erzya';
 $string['nah'] = 'Nahuatl hizkuntzak';

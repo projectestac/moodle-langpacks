@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'my', language 'ru', branch 'MOODLE_32_STABLE'
  *
  * @package   my
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['addpage'] = 'Добавить страницу';
 $string['alldashboardswerereset'] = 'Все настройки страниц «Личный кабинет» были сброшены к значениям по умолчанию.';
 $string['allprofileswerereset'] = 'Все страницы профилей были сброшены к настройкам по умолчанию.';
 $string['defaultpage'] = 'Страница «Мой Moodle» по умолчанию';
-$string['defaultprofilepage'] = 'Страница профиля по-умолчанию';
+$string['defaultprofilepage'] = 'Страница профиля по умолчанию';
 $string['delpage'] = 'Удалить страницу';
 $string['managepages'] = 'Управлять страницами';
 $string['mymoodle'] = 'Личный кабинет';

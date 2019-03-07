@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'chat', language 'fr', branch 'MOODLE_32_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,12 +33,12 @@ $string['bubble'] = 'Bulle';
 $string['cantlogin'] = 'Connexion au salon de chat impossible !';
 $string['chat:addinstance'] = 'Ajouter un chat';
 $string['chat:chat'] = 'Accéder à un salon de chat';
-$string['chat:deletelog'] = 'Supprimer les historiques des chats';
+$string['chat:deletelog'] = 'Supprimer les journaux des chats';
 $string['chat:exportparticipatedsession'] = 'Exporter les sessions de chat auxquelles vous avez participé';
 $string['chat:exportsession'] = 'Exporter toutes les sessions de chat';
 $string['chatintro'] = 'Description';
 $string['chatname'] = 'Nom de ce salon';
-$string['chat:readlog'] = 'Consulter les historiques des chats';
+$string['chat:readlog'] = 'Consulter les journaux des chats';
 $string['chatreport'] = 'Sessions de chat';
 $string['chat:talk'] = 'Participer à un chat';
 $string['chattime'] = 'Prochaine session';
@@ -70,10 +70,6 @@ $string['explainmethoddaemon'] = 'Ces réglages sont effectifs <strong>uniquemen
 $string['explainmethodnormal'] = 'Ces réglages sont effectifs <strong>uniquement</strong> si vous avez choisi la méthode de chat « Méthode normale »';
 $string['generalconfig'] = 'Configuration générale';
 $string['idle'] = 'En attente';
-$string['indicator:cognitivedepth'] = 'Chat : aspect cognitif';
-$string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une activité Chat.';
-$string['indicator:socialbreadth'] = 'Chat : aspect social';
-$string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Chat.';
 $string['inputarea'] = 'Zone de saisie';
 $string['invalidid'] = 'Salon de chat introuvable !';
 $string['list_all_sessions'] = 'Lister toutes les sessions.';
@@ -107,7 +103,7 @@ $string['nochat'] = 'Aucun chat trouvé';
 $string['no_complete_sessions_found'] = 'Aucune session complète trouvée.';
 $string['noguests'] = 'Ce salon n\'est pas ouvert aux visiteurs anonymes';
 $string['nomessages'] = 'Pas encore de messages';
-$string['nopermissiontoseethechatlog'] = 'Vous n\'avez pas l\'autorisation de consulter les historiques de chat.';
+$string['nopermissiontoseethechatlog'] = 'Vous n\'avez pas l\'autorisation de consulter les journaux de chat.';
 $string['normalkeepalive'] = 'Keep-Alive';
 $string['normalstream'] = 'Flux';
 $string['noscheduledsession'] = 'Aucune session agendée';
@@ -118,20 +114,6 @@ $string['page-mod-chat-x'] = 'Toute page du module chat';
 $string['pastchats'] = 'Sessions de chat antérieures';
 $string['pluginadministration'] = 'Administration du chat';
 $string['pluginname'] = 'Chat';
-$string['privacy:metadata:chat_messages_current'] = 'Session de chat en cours. Ces données sont temporaires et supprimées lorsque la session de chat est terminée';
-$string['privacy:metadata:chat_users'] = 'Conserve la trace des utilisateurs inscrits dans chaque salon de chat';
-$string['privacy:metadata:chat_users:firstping'] = 'Date et heure du premier accès au salon de chat';
-$string['privacy:metadata:chat_users:ip'] = 'Adresse IP de l\'utilisateur';
-$string['privacy:metadata:chat_users:lang'] = 'Langue de l\'utilisateur';
-$string['privacy:metadata:chat_users:lastmessageping'] = 'Date et heure du dernier message dans ce salon de chat';
-$string['privacy:metadata:chat_users:lastping'] = 'Date et heure du dernier accès au salon de chat';
-$string['privacy:metadata:chat_users:userid'] = 'Identifiant de l\'utilisateur';
-$string['privacy:metadata:chat_users:version'] = 'Comment l\'utilisateur a accédé au chat (sockets/basic/ajax/header_js)';
-$string['privacy:metadata:messages'] = 'Un enregistrement des messages envoyés durant une session de chat';
-$string['privacy:metadata:messages:issystem'] = 'Si le message est un message généré par le système';
-$string['privacy:metadata:messages:message'] = 'Le message';
-$string['privacy:metadata:messages:timestamp'] = 'La date et l\'heure de l\'envoi du message.';
-$string['privacy:metadata:messages:userid'] = 'L\'identifiant utilisateur de l\'auteur du message';
 $string['refreshroom'] = 'Actualisation salon';
 $string['refreshuserlist'] = 'Actualisation liste utilisateurs';
 $string['removemessages'] = 'Supprimer tous les messages';
@@ -153,7 +135,7 @@ $string['sessions'] = 'Sessions de chat';
 $string['sessionstart'] = 'La prochaine session de chat commencera le {$a->date}, (dans {$a->fromnow})';
 $string['strftimemessage'] = '%H:%M';
 $string['studentseereports'] = 'Tout le monde peut consulter les sessions précédentes';
-$string['studentseereports_help'] = 'Si ce réglage est désactivé, seuls les utilisateurs avec la capacité mod/chat:readlog pourront consulter les historiques de chat';
+$string['studentseereports_help'] = 'Si ce réglage est désactivé, seuls les utilisateurs avec la capacité mod/chat:readlog pourront consulter les journaux de chat';
 $string['talk'] = 'Parler';
 $string['updatemethod'] = 'Méthode d\'actualisation';
 $string['updaterate'] = 'Modifier la vitesse :';

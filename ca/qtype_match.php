@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_match', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_match', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   qtype_match
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['nomatchinganswer'] = 'Heu d\'especificar una resposta per a la pregunta
 $string['nomatchinganswerforq'] = 'Heu d\'especificar una resposta per a aquesta pregunta.';
 $string['notenoughqsandas'] = 'Heu de proporcionar almenys {$a->q} preguntes i {$a->a} respostes.';
 $string['notenoughquestions'] = 'Heu de proporcionar almenys {$a} parells de preguntes i respostes';
-$string['pleaseananswerallparts'] = 'Si us plau, responeu totes les parts de la pregunta.';
+$string['pleaseananswerallparts'] = 'Responeu totes les parts de la pregunta.';
 $string['pluginname'] = 'Aparellament';
 $string['pluginnameadding'] = 'S\'està afegint una pregunta d\'aparellament.';
 $string['pluginnameediting'] = 'S\'està editant una pregunta d\'aparellament.';

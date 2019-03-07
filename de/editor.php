@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'editor', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   editor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,7 +48,7 @@ $string['chooseicon'] = 'Icon auswählen';
 $string['close'] = 'Schließen';
 $string['closeafterreplace'] = 'Nach dem Ersetzen schließen';
 $string['cols'] = 'Spalten';
-$string['configeditorplugins'] = 'Wählen Sie Editor-Plugins, die Sie benutzen möchten, und ordnen Sie sie in der empfohlenen Reihenfolge.';
+$string['configeditorplugins'] = 'Wählen Sie die Texteditoren, die auf der Website benutzt werden sollen. Sie können eine Reihenfolge festlegen. Der Texteditor an erster Stelle ist der Standardeditor.';
 $string['copy'] = 'Auswahl kopieren';
 $string['createanchor'] = 'Anker erstellen';
 $string['createfolder'] = 'Verzeichnis erstellen';
@@ -120,8 +120,6 @@ $string['pleaseenteralt'] = 'Tragen Sie einen alternativen Text ein';
 $string['popupeditor'] = 'Editor vergrößern';
 $string['preformatted'] = 'Vorformatiert';
 $string['preview'] = 'Vorschau';
-$string['privacy:metadata:preference:htmleditor'] = 'Bevorzugter Texteditor';
-$string['privacy:preference:htmleditor'] = 'Ihr bevorzugter Texteditor zum Schreiben von HTML-Text ist {$a}';
 $string['properties'] = 'Eigenschaften';
 $string['redo'] = 'Zurück zur letzten Aktion';
 $string['regularexpressions'] = 'Reguläre Ausdrücke verwenden';

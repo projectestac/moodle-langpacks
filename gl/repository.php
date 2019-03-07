@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -165,6 +165,7 @@ $string['manage'] = 'Xestionar repositorios';
 $string['manageinstances'] = 'Xestionar as instancias';
 $string['manageurl'] = 'Xestionar';
 $string['manageuserrepository'] = 'Xestionar repositorio individual';
+$string['missingsourcekey'] = 'Falta a chave de orixe. Esta chave tamén debe ser fornecida para recuperar o ficheiro.';
 $string['moving'] = 'Movendo';
 $string['name'] = 'Nome';
 $string['newfolder'] = 'Novo cartafol';

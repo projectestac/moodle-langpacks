@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_community', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_community', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   block_community
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,7 +56,7 @@ $string['downloadconfirmed'] = 'Segurtasun-kopia zure fitxategi pribatuetan {$a}
 $string['downloaded'] = '... amaituta.';
 $string['downloadingcourse'] = 'Ikastaroa jaisten';
 $string['downloadingsize'] = 'Itxaron, mesedez! Ikastaroaren fitxategia jaisten ari da ({$a->total}Mb)...';
-$string['downloadtemplate'] = 'Ikastaroa sortu txantiloi batetik abiatuta';
+$string['downloadtemplate'] = 'Sortu ikastaroa txantiloi batetik abiatuta';
 $string['educationallevel'] = 'Hezkuntza-maila';
 $string['educationallevel_help'] = 'Zein hezkuntza-maila bilatzen ari zara? Hezitzaileen komunitateen kasuan, maila honek zein mailatan irakasten duten adierazten du.';
 $string['enroldownload'] = 'Bilatu';
@@ -67,7 +67,7 @@ $string['enrollable'] = 'matrikulatzen uzten didaten ikastaroak';
 $string['enrollablecourses'] = 'Matrikulatzeko ikastaroak';
 $string['errorcourselisting'] = 'Errorea gertatu da aukeratutako bilgunetik ikastaro-zerrenda berreskuratzean. Mesedez, saiatu beranduago. ({$a})';
 $string['errorhublisting'] = 'Errorea gertatu da Moodle.org-tik bilgune-zerrenda berreskuratzean. Mesedez, saiatu beranduago. ({$a})';
-$string['fileinfo'] = 'Hizkuntza: {$a->lang} - Lizentzia: {$a->license} - Eguneratze-ordua: {$a->timeupdated}';
+$string['fileinfo'] = 'Hizkuntza: {$a->lang} - Lizentzia: {$a->license} - Eguneratze-unea: {$a->timeupdated}';
 $string['hideall'] = 'Ezkutatu bilguneak';
 $string['hub'] = 'bilgunea';
 $string['hubnottrusted'] = 'Ez da konfiantzazkoa';
@@ -87,21 +87,15 @@ $string['nocomments'] = 'Ez dago iruzkinik';
 $string['nocourse'] = 'Ez da ikastarorik aurkitu';
 $string['noratings'] = 'Puntuaziorik ez';
 $string['operation'] = 'Eragiketa';
-$string['orderby'] = 'Zeren arabera ordenatu';
+$string['orderby'] = 'Ordenatze-irizpidea';
 $string['orderbyeldest'] = 'Zaharrena';
 $string['orderby_help'] = 'Bilaketaren emaitzak erakusteko ordena.';
 $string['orderbyname'] = 'Izena';
 $string['orderbynewest'] = 'Berriena';
 $string['orderbypublisher'] = 'Egilea';
 $string['orderbyratingaverage'] = 'Puntuazioa';
-$string['outcomes'] = 'Ikas-emaitzak: {$a}';
+$string['outcomes'] = 'Ikaste-emaitzak: {$a}';
 $string['pluginname'] = 'Komunitate-bilatzailea';
-$string['privacy:metadata:block_community'] = 'Komunitate-bilatzailea blokeak partekatutako komunitateetan erabiltzailea matrikulatu daitekeen ikastaroen estekak gordetzen ditu.';
-$string['privacy:metadata:block_community:coursedescription'] = 'Estekatutako komunitate-ikastaroaren deskribapena.';
-$string['privacy:metadata:block_community:coursename'] = 'Estekatutako komunitateko ikastaroaren izena.';
-$string['privacy:metadata:block_community:courseurl'] = 'Estekatutako komunitateko ikastaroaren URLa.';
-$string['privacy:metadata:block_community:imageurl'] = 'Estekatutako komunitateko ikastaroaren irudiaren URLa.';
-$string['privacy:metadata:block_community:userid'] = 'Estekatutako komunitateko ikastaroaren sortzailearen IDa.';
 $string['rateandcomment'] = 'Puntuatu eta iruzkindu';
 $string['rating'] = 'Puntuazioa';
 $string['removecommunitycourse'] = 'Ezabatu komunitate-ikastaroa';
@@ -112,11 +106,11 @@ $string['search'] = 'Bilatu';
 $string['searchcommunitycourse'] = 'Bilatu komunitate-ikastaroa';
 $string['searchcourse'] = 'Bilatu komunitate-ikastaroa';
 $string['selecthub'] = 'Aukeratu bilgunea';
-$string['selecthub_help'] = 'Aukeratu ikastaroak bilatzeko bilgunea ';
+$string['selecthub_help'] = 'Aukeratu ikastaroak bilatzeko bilgunea.';
 $string['showall'] = 'Erakutsi bilgune guztiak';
 $string['sites'] = 'Guneak';
 $string['subject'] = 'Gaia';
-$string['subject_help'] = 'Ikastaro-bilaketa gai jakin batera mugatzeko, aukera ezazu bat zerrenda honetatik.';
+$string['subject_help'] = 'Ikastaro-bilaketa gai jakin batera mugatzeko, hautatu bat zerrenda honetatik.';
 $string['userinfo'] = 'Sortzailea: {$a->creatorname} - Editorea: {$a->publishername}';
 $string['visitdemo'] = 'Bisitatu demoa';
 $string['visitsite'] = 'Bisitatu gunea';

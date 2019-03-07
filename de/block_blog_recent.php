@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_recent', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_blog_recent', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   block_blog_recent
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,9 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['blog_recent:addinstance'] = 'Block \'Aktuelle Blogeinträge\' hinzufügen';
+$string['blog_recent:addinstance'] = 'Neuen Block \'Aktuelle Blogeinträge\' hinzufügen';
 $string['norecentblogentries'] = 'Keine aktuellen Einträge';
 $string['numentriestodisplay'] = 'Anzahl der Einträge';
 $string['pluginname'] = 'Aktuelle Blogeinträge';
-$string['privacy:metadata'] = 'Der Block \'Aktuelle Blogbeiträge\' zeigt nur Daten an, die an anderen Orten gespeichert sind.';
 $string['recentinterval'] = 'Zeitintervall für "aktuell"';

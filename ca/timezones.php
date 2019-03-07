@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'timezones', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'timezones', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   timezones
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -113,7 +113,7 @@ $string['america/chihuahua'] = 'Amèrica / Chihuahua';
 $string['america/costa_rica'] = 'Amèrica / Costa Rica';
 $string['america/cuiaba'] = 'Amèrica / Cuiaba';
 $string['america/curacao'] = 'Amèrica / Curaçao';
-$string['america/danmarkshavn'] = 'Amèrica / Danmarkshavn';
+$string['america/danmarkshavn'] = 'Amèrica/Danmarkshavn';
 $string['america/dawson'] = 'Amèrica / Dawson';
 $string['america/dawson_creek'] = 'Amèrica / Dawson Creek';
 $string['america/denver'] = 'Amèrica / Denver';

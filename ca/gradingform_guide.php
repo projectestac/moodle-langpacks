@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradingform_guide', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,7 +73,7 @@ $string['hidestudentdesc'] = 'Oculta les descripcions de criteri de l\'estudiant
 $string['insertcomment'] = 'Insereix un comentari usat freqüentment';
 $string['maxscore'] = 'Qualificació màxima';
 $string['name'] = 'Nom';
-$string['needregrademessage'] = 'La definició de la guia de qualificació es va canviar després que aquest estudiant fou qualificat. L\'estudiant no pot veure aquesta guia de qualificació fins que la reviseu i actualitzeu la qualificació.';
+$string['needregrademessage'] = 'La definició de la guia de qualificació es va canviar després que aquest estudiant hagi estat qualificat. L\'estudiant no pot veure aquesta guia de qualificació fins que la reviseu i actualitzeu la qualificació.';
 $string['pluginname'] = 'Guia de qualificació';
 $string['previewmarkingguide'] = 'Previsualitza la guia de qualificació';
 $string['regrademessage1'] = 'Ara desareu els canvis en una guia de qualificació que ja s\'ha emprat per a qualificar. Indiqueu si les qualificacions existents han de ser revisades. Si ho establiu, la guia de qualificació s\'ocultarà als estudiants fins que els seus elements es tornin a qualificar.';
@@ -86,5 +86,5 @@ $string['saveguide'] = 'Desa la guia de qualificació i fes-la efectiva';
 $string['saveguidedraft'] = 'Desa com a esborrany';
 $string['score'] = 'puntuació';
 $string['showmarkerdesc'] = 'Mostra les descripcions de criteri de qui qualifica';
-$string['showmarkspercriterionstudents'] = 'Mostra les puntuacions per criteri a l\'estudiantat';
+$string['showmarkspercriterionstudents'] = 'Mostra les puntuacions per criteri als estudiants';
 $string['showstudentdesc'] = 'Mostra les descripcions de criteri de l\'estudiant';

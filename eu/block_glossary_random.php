@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_glossary_random', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_glossary_random', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   block_glossary_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['askinvisible'] = 'Glosategia ikasleei ezkutatu nahi badiezu, ez da este
 $string['askviewglossary'] = 'Ikasleei soilik glosategiaren eduki osoa ikusteko baimena ematen bazaie, testu hau duen glosategirako esteka erakutsiko da.';
 $string['glossary_random:addinstance'] = 'Gehitu glosategiko ausazko sarrera bloke berria';
 $string['glossary_random:myaddinstance'] = 'Gehitu glosategiko ausazko sarrera bloke berria aginte-panelean';
-$string['intro'] = 'Ziurta ezazu ikastaro honetan gutxienez sarrera bat duen glosategia dagoela. Gero ezarpenak aldatu ahal izango dituzu.';
+$string['intro'] = 'Ziurtatu ezazu ikastaro honetan gutxienez sarrera bat duen glosategia dagoela. Gero ezarpenak aldatu ahal izango dituzu.';
 $string['invisible'] = '(jarraituko du)';
 $string['lastmodified'] = 'Aldatutako azken sarrera';
 $string['nextalpha'] = 'Ordena alfabetikoa';
@@ -40,11 +40,10 @@ $string['noentriesyet'] = 'Aukeratutako glosategian oraindik ez dago sarrerarik.
 $string['notyetconfigured'] = 'Mesedez, konfigura ezazu bloke hau edizio-ikurra erabiliz.';
 $string['notyetglossary'] = 'Aukeratzeko gutxienez glosategi bat behar duzu.';
 $string['pluginname'] = 'Glosategiko ausazko sarrera';
-$string['privacy:metadata'] = 'Glosategiko ausazko sarrera blokeak bakarrik erakusten ditu beste kokapen batzuetan bildutako datuak.';
 $string['random'] = 'Ausazko sarrera';
 $string['refresh'] = 'Sarrera berri bat aukeratzeko egun-kopurua';
 $string['select_glossary'] = 'Glosategi honetako sarrerak hartu';
-$string['showconcept'] = 'Sarrera bakoitzeko kontzeptua (goialdea) erakutsi';
+$string['showconcept'] = 'Erakutsi sarrera bakoitzeko kontzeptua (goialdea)';
 $string['title'] = 'Izenburua';
 $string['type'] = 'Sarrera berria nola aukeratzen den';
 $string['viewglossary'] = 'Ikusi sarrera guztiak';

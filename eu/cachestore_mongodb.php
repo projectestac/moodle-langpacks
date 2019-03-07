@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_mongodb', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'cachestore_mongodb', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   cachestore_mongodb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,8 +33,6 @@ $string['password'] = 'Pasahitza';
 $string['password_help'] = 'Erabiltzailearen pasahitza konexiorako erabilitako bera da.';
 $string['pleaseupgrademongo'] = 'PHPko Mongo luzapenaren bertsio zahar bat erabiltzen ari zara (1.3 baino txikiagoa). Etorkizunean Mongo luzapen zaharren sostengua kenduko da. Mesedez hausnartu eguneratzea egitean.';
 $string['pluginname'] = 'MongoDB';
-$string['privacy:metadata:mongodb'] = 'MongoDB cache-biltegi pluginak datuak laburki gordetzen ditu bere cache-funtzioaren baitan. Datu hauek MongoDB zerbitzari batean gordetzen dira, eta bertan datuak erregularki ezabatzen dira.';
-$string['privacy:metadata:mongodb:data'] = 'Cachean gordetako era askotako datuak';
 $string['replicaset'] = 'Erreplika-multzoa';
 $string['replicaset_help'] = 'Konektatu beharreko erreplika-multozaren izena. Balio hau emanez gero nagusia zehazteko hazietako ismaster datu-baseko komandoa erabiliko da, eta beraz kontrolatzaileak zerrendatu gabeko zerbitzari batera konektatuta amaitu lezake.';
 $string['server'] = 'Zerbitzaria';
@@ -46,5 +44,5 @@ $string['username'] = 'Erabiltzaile-izena';
 $string['username_help'] = 'Konexioa egitean erabiliko den erabiltzaile-izena.';
 $string['usesafe'] = 'Erabili segurua';
 $string['usesafe_help'] = 'Gaituz gero insert, get eta remove eragiketak egin bitartean usesafe aukera erabiliko da. Erreplika-multzoa zehaztu baduzu aukera hau beharrezkoa izango da edonola ere.';
-$string['usesafevalue'] = 'Erabili balore segurua';
-$string['usesafevalue_help'] = 'Erabili segururako (use safe) balio zehatz bat ematea aukeratu dezakezu. Honek eragiketak osatutzat emateko hauek osatuta izan behar duten zerbitzari-kopurua zehaztuko du.';
+$string['usesafevalue'] = 'Erabili balio segurua';
+$string['usesafevalue_help'] = 'Erabili segururako (use safe) balio zehatz bat ematea aukeratu dezakezu. Honek zehaztuko du eragiketak osatutzat emateko hauek osatuta izan behar duten zerbitzari-kopurua.';

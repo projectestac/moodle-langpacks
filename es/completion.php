@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'completion', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,11 +56,10 @@ $string['completion-alt-manual-y'] = 'Finalizado; {$a} seleccione para marcar co
 $string['completion_automatic'] = 'Mostrar la actividad como completada cuando se cumplan las condiciones';
 $string['completiondefault'] = 'Seguimiento de finalización por defecto';
 $string['completiondisabled'] = 'Desactivado, no se muestra en los ajustes de la actividad';
-$string['completionduration'] = 'Matriculaciçon';
+$string['completionduration'] = 'Matriculación';
 $string['completionenabled'] = 'Activado, control por medio de los ajustes de finalización y de actividad';
 $string['completionexpected'] = 'Se espera finalizar en';
-$string['completionexpectedfor'] = '{$a->instancename} debería ser completado';
-$string['completionexpected_help'] = 'Esta opción especifica la fecha en que se espera que la actividad esté finalizada.';
+$string['completionexpected_help'] = 'Esta opción especifica la fecha en que se espera que la actividad esté finalizada. La fecha no se muestra a los estudiantes y aparece únicamente en el informe de progreso.';
 $string['completion-fail'] = 'Finalizado (no ha alcanzado la calificación de aprobado)';
 $string['completion_help'] = 'Si se activa esta opción, se rastrea el grado de finalización de cualquier actividad, bien manual, bien automáticamente, basándose en determinadas condiciones. Si se desea, se pueden fijar múltiples condiciones. Si se hace así, la actividad únicamente se considerará completa si se cumplen TODAS las condiciones.
 

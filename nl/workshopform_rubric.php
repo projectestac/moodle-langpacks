@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_rubric', language 'nl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshopform_rubric', language 'nl', branch 'MOODLE_32_STABLE'
  *
  * @package   workshopform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,11 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addmoredimensions'] = 'Lege plaatsen voor {$a} meer criteria';
-$string['configuration'] = 'Rubriekconfiguratie';
+$string['configuration'] = 'Configuratie van de rubric';
 $string['criteria'] = 'Criteria';
 $string['dimensiondescription'] = 'Beschrijving';
 $string['dimensionnumber'] = 'Criterium {$a}';
-$string['layout'] = 'Rubriek layout';
+$string['layout'] = 'Layout van de rubric';
 $string['layoutgrid'] = 'Tabel';
 $string['layoutlist'] = 'Lijst';
 $string['levelgroup'] = 'Niveau cijfer en definitie';
@@ -38,4 +38,4 @@ $string['levels'] = 'Niveaus';
 $string['mustbeunique'] = 'De cijferniveau\'s moeten uniek zijn binnen een criterion.';
 $string['mustchooseone'] = 'Je moet één van deze items selecteren';
 $string['mustdefinelevel'] = 'Er is minstens één niveau vereist';
-$string['pluginname'] = 'Rubriek';
+$string['pluginname'] = 'Rubric';

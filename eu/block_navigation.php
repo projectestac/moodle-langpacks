@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_navigation', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_navigation', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   block_navigation
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,14 +28,13 @@ defined('MOODLE_INTERNAL') || die();
 $string['courseactivities'] = 'Kategoriak, ikastaroak eta ikastaroko jarduerak';
 $string['courses'] = 'Kategoriak eta ikastaroak';
 $string['coursestructures'] = 'Kategoriak, ikastaroak eta ikastaroen egiturak';
-$string['enabledockdesc'] = 'Utzi erabiltzaileari blokea ertzera eramaten';
+$string['enabledockdesc'] = 'Baimendu erabiltzaileari blokea ertzera eramaten';
 $string['everything'] = 'Guztia';
 $string['expansionlimit'] = 'Nabigazioa sortu hurrengorako';
 $string['linkcategoriesdesc'] = 'Kategoriak esteka gisa erakutsi';
 $string['navigation:addinstance'] = 'Gehitu nabigazioa bloke berria';
 $string['navigation:myaddinstance'] = 'Gehitu nabigazioa bloke berria aginte-panelean';
 $string['pluginname'] = 'Nabigazioa';
-$string['privacy:metadata'] = 'Nabigazioa blokeak bakarrik erakusten ditu beste kokapen batzuetan bildutako datuak.';
 $string['trimlength'] = 'Zenbat karaktere kendu';
 $string['trimmode'] = 'Era laburtua';
 $string['trimmodecenter'] = 'Karaktereak erditik kendu';

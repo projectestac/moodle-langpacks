@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_truefalse', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_truefalse', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   qtype_truefalse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,13 +26,16 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['correctanswer'] = 'Σωστή απάντηση';
+$string['correctanswerfalse'] = 'Η σωστή απάντηση είναι «Λάθος».';
+$string['correctanswertrue'] = 'Η σωστή απάντηση είναι «Σωστό».';
 $string['false'] = 'Λάθος';
 $string['feedbackfalse'] = 'Σχόλια για την απάντηση \'Λάθος\'.';
-$string['feedbacktrue'] = 'Σχόλια για την απάντηση \'Σωστό\'.';
-$string['pleaseselectananswer'] = 'Παρακαλώ επιλέξτε μία απάντηση.';
+$string['feedbacktrue'] = 'Ανατροφοδότηση για την απάντηση «Σωστό».';
+$string['pleaseselectananswer'] = 'Παρακαλούμε επιλέξτε μία απάντηση.';
 $string['pluginname'] = 'Σωστό/Λάθος';
 $string['pluginnameadding'] = 'Προσθήκη μιας ερώτησης τύπου Σωστό/Λάθος';
 $string['pluginnameediting'] = 'Τροποποίηση μιας ερώτησης τύπου Σωστό/Λάθος';
-$string['pluginnamesummary'] = 'Μια απλή φόρμα για ερώτηση πολλαπλής επιλογής με μόλις δύο επιλογές \'Σωστό\' και \'Λάθος\'.';
+$string['pluginname_help'] = 'Σε απάντηση σε μια ερώτηση (που μπορεί να περιλαμβάνει εικόνα) ο αποκρινόμενος επιλέγει ανάμεσα σε σωστό ή λάθος.';
+$string['pluginnamesummary'] = 'Μια απλή μορφή ερώτησης πολλαπλής επιλογής με τις δύο μόνο επιλογές «Σωστό» και «Λάθος».';
 $string['selectone'] = 'Επιλέξτε ένα:';
 $string['true'] = 'Σωστό';

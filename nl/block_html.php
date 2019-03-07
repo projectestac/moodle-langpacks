@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_html', language 'nl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_html', language 'nl', branch 'MOODLE_32_STABLE'
  *
  * @package   block_html
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,5 +36,3 @@ $string['html:myaddinstance'] = 'Voeg een nieuw HTML-blok toe aan Mijn startpagi
 $string['leaveblanktohide'] = 'laat leeg om de titel te verbergen';
 $string['newhtmlblock'] = '(nieuw HTML-blok)';
 $string['pluginname'] = 'HTML';
-$string['privacy:metadata:block'] = 'Het HTML-blok slaat alle gegevens op in het blok-subsysteem.';
-$string['search:content'] = 'Inhoud HTML-blok';

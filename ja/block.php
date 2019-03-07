@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   block
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['bracketfirst'] = '{$a} (最初)';
 $string['bracketlast'] = '{$a} (最後)';
 $string['configureblock'] = '{$a} ブロックを設定する';
 $string['contexts'] = 'ページコンテクスト';
-$string['contexts_help'] = 'コンテクストはオリジナルブロックのロケーション内でこのブロックを表示することのできる、さらに特定のページのタイプです。オリジナルブロックのロケーションおよび現在のロケーションに応じて、あなたには異なるオプションがあります。例えばコースにブロックを追加して (すべてのサブページに表示されるようにした後) フォーラム内に移動します。再度ブロック設定を編集してフォーラムページ内でのみ表示されるよう制限することで、あなたはコース内のフォーラムページのみでブロックを表示するよう制限することができます。';
+$string['contexts_help'] = 'コンテクストはオリジナルブロックのロケーション内でこのブロックを表示できる、さらに特定のページのタイプです。オリジナルブロックのロケーションおよび現在のロケーションに応じて、あなたには異なるオプションがあります。例えばコースにブロックを追加して (すべてのサブページに表示されるようにした後) フォーラム内に移動します。再度ブロック設定を編集してフォーラムページ内でのみ表示されるよう制限することで、あなたはコース内のフォーラムページのみでブロックを表示するよう制限することができます。';
 $string['createdat'] = 'オリジナルブロックロケーション';
 $string['createdat_help'] = 'ブロックが作成されるオリジナルロケーションです。ブロック設定によりオリジナルロケーション内の他のロケーション (コンテクスト) にブロックを表示することができます。例えばコースページに作成されたブロックはそのコースの活動内に表示させることもできます。フロントページに作成されたブロックはサイト全体を通して表示させることができます。';
 $string['defaultregion'] = 'デフォルトの場所';
@@ -59,10 +59,6 @@ $string['myblocks'] = 'マイブロック';
 $string['onthispage'] = 'このページ';
 $string['pagetypes'] = 'ページタイプ';
 $string['pagetypewarning'] = '前回選択したページタイプを選択できないようになりました。下記より最も適切なページタイプを選択してください。';
-$string['privacy:metadata:userpref:dockedinstance'] = 'ユーザがブロックをドックした時のレコードです。';
-$string['privacy:metadata:userpref:hiddenblock'] = 'ユーザがブロックを折り畳み/非表示にした時のレコードです。';
-$string['privacy:request:blockisdocked'] = 'ブロックがドックされているかどうか示します。';
-$string['privacy:request:blockishidden'] = 'ブロックが折り畳み/非表示にされているかどうか示します。';
 $string['region'] = '場所';
 $string['restrictpagetypes'] = 'ページタイプに表示する';
 $string['showblock'] = '{$a} ブロックを表示する';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_rubric', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshopform_rubric', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   workshopform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,12 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configuration'] = '';
+$string['addmoredimensions'] = 'Κενά για {$a} ακόμη κριτήρια';
+$string['configuration'] = 'Ρυθμίσεις ρουμπρίκας (Κλίμακας Διαβαθμισμένων Κριτηρίων, rubric)';
 $string['criteria'] = 'Kριτήρια';
 $string['dimensiondescription'] = 'Περιγραφή';
-$string['layout'] = '';
+$string['dimensionnumber'] = 'Κριτήριο {$a}';
+$string['layout'] = 'Διάταξη ρουμπρίκας (Κλίμακας Διαβαθμισμένων Κριτηρίων, rubric)';
 $string['layoutgrid'] = 'Πλέγμα';
 $string['layoutlist'] = 'Λίστα';
+$string['levelgroup'] = 'Βαθμός και ορισμός επιπέδου';
 $string['levels'] = 'Επίπεδα';
+$string['mustbeunique'] = 'Οι βαθμοί επιπέδου πρέπει να είναι μοναδικοί σε ένα κριτήριο';
 $string['mustchooseone'] = 'Θα πρέπει να επιλέξετε ένα από αυτά τα στοιχεία';
-$string['pluginname'] = 'Ρουμπρίκες αξιολόγησης';
+$string['mustdefinelevel'] = 'Απαιτείται τουλάχιστον ένα επίπεδο';
+$string['pluginname'] = 'Ρουμπρίκα';

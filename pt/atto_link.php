@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_link', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'atto_link', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   atto_link
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,10 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['browserepositories'] = 'Procurar repositórios...';
+$string['browserepositories'] = 'Procurar nos repositórios...';
 $string['createlink'] = 'Criar hiperligação';
 $string['enterurl'] = 'Digitar URL';
 $string['openinnewwindow'] = 'Abrir numa nova janela';
 $string['pluginname'] = 'Hiperligação';
-$string['privacy:metadata'] = 'O módulo atto_link não armazena nenhum dado pessoal.';
 $string['unlink'] = 'Remover hiperligação';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'message', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,7 +41,7 @@ $string['defaults'] = 'Por defecto';
 $string['deleteallconfirm'] = '¿Está seguro de que desea eliminar toda la conversación?';
 $string['deleteallmessages'] = 'Eliminar todos los mensajes';
 $string['deleteselectedmessages'] = 'Eliminar mensajes seleccionados';
-$string['disableall'] = 'Desactivar temporalmente las notificaciones';
+$string['disableall'] = 'Desactivar las notificaciones';
 $string['disabled'] = 'La mensajería está deshabilitada en este sitio';
 $string['disallowed'] = 'No permitido';
 $string['discussion'] = 'Discusión';

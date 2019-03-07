@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_coursefiles', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_coursefiles', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_coursefiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configplugin'] = 'コースファイルリポジトリ設定';
+$string['configplugin'] = 'レガシーコースファイルリポジトリ設定';
 $string['coursefiles:view'] = 'コースファイルリポジトリプラグインを使用する';
 $string['emptyfilelist'] = '表示するファイルはありません。';
 $string['notitle'] = 'タイトルなし';
-$string['pluginname'] = 'コースファイル';
-$string['pluginname_help'] = 'コースファイル';
-$string['privacy:metadata'] = 'レガシーコースファイルリポジトリプラグインはどのような個人データも保存または転送しません。';
+$string['pluginname'] = 'レガシーコースファイル';
+$string['pluginname_help'] = 'レガシーコースファイル';
 $string['remember'] = '次回から入力を省略する';

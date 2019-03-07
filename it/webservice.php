@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'webservice', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -134,7 +134,6 @@ $string['norequiredcapability'] = 'Nessun privilegio richiesto';
 $string['notoken'] = 'L\'elenco dei token è vuoto';
 $string['onesystemcontrolling'] = 'Consentire ad un sistema esterno di controllare Moodle';
 $string['onesystemcontrollingdescription'] = 'I passi che seguono chiariscono le impostazioni necessarie per consentire il controllo di Moodle da parte di un sistema esterno. I passi suggeriscono anche come impostare il metodo di autenticazione basato su token (chiave di sicurezza).';
-$string['onlyseecreatedtokens'] = 'E\' possibile eliminare qualsiasi token ma puoi visualizzare solo i token che hai creato.';
 $string['operation'] = 'Operazione';
 $string['optional'] = 'Opzionale';
 $string['passwordisexpired'] = 'La password è scaduta';
@@ -182,7 +181,7 @@ $string['serviceuserssettings'] = 'Cambia le impostazioni per l\'utente autorizz
 $string['shortnametaken'] = 'Il nome breve è già usato da un altro servizio ({$a})';
 $string['simpleauthlog'] = 'Login con autenticazione semplice';
 $string['step'] = 'Passo';
-$string['supplyinfo'] = 'Dettagli';
+$string['supplyinfo'] = 'Ulteriori informazioni';
 $string['testauserwithtestclientdescription'] = 'Simula l\'accesso al web service dall\'esterno  tramite il client di test. Prima di effettuare il test, autenticati con un account che ha il privilegio "moodle/webservice:createtoken" e ottieni il token dell\'utente dalle impostazioni del profilo. Potrai usare questo token nel client di test, dove sceglierai anche il protocollo abilitato. <strong>Attenzione: la funzione che testerai SARA\' REALMENTE ESEGUITA per questo utente, fai molta attenzione su cosa scegli di provare!</strong>';
 $string['testclient'] = 'Test Client web service';
 $string['testclientdescription'] = '* Il client di test web service  <strong>esegue</strong> le funzioni <strong>REALMENTE</strong>. Evitare di provare funzioni che non si conoscono.<br/>* Non tutte le funzioni web service sono supportate dal client di test. <br/>* Per testare se un utente non è abilitato ad accedere a determinate funzioni, provare con le funzioni che non gli sono consentite.<br/>* Per un debugging più approfondito, impostare il debug a <strong>{$a->mode}</strong> in {$a->atag}.';
@@ -203,7 +202,7 @@ $string['usermissingcaps'] = 'Privilegi mancanti: {$a}.';
 $string['usernameorid'] = 'Username / User id';
 $string['usernameorid_help'] = 'Inserisci un username o un user id';
 $string['usernameoridnousererror'] = 'Non sono stati trovati utenti con questo username/user id.';
-$string['usernameoridoccurenceerror'] = 'Sono stati trovati più di un utente con questo username. Per favore inserisci l\'user id.';
+$string['usernameoridoccurenceerror'] = 'Sono stati trovati più utenti con lo stesso username. Per favore inserisci l\'ID dell\'utente.';
 $string['usernotallowed'] = 'L\'utente non è autorizzato ad usare questo servizio. Puoi autorizzarlo nella pagina {$a} di amministrazione degli utenti autorizzati';
 $string['userservices'] = 'Servizi utente: {$a}';
 $string['usersettingssaved'] = 'Le impostazioni utente sono state salvate';

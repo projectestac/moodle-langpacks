@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'chat', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,6 +42,7 @@ $string['chat:readlog'] = 'Ler os rexistros da conversa';
 $string['chatreport'] = 'Sesións de conversa';
 $string['chat:talk'] = 'Falar nunha conversa';
 $string['chattime'] = 'Próxima cita';
+$string['chat:view'] = 'Ver a actividade de conversa';
 $string['compact'] = 'Compacto';
 $string['composemessage'] = 'Redactar unha mensaxe';
 $string['configmethod'] = 'O método de conversa ajax fornece unha interface baseada en ajax, contacta regularmente co servidor para actualización. O método normal de conversa implica que os clientes contactan regularmente para as actualizacións. Non require configuración e funciona en calquera sitio pero pode producir unha longa carga no servidor con moitos participantes.  Usar un servizo de servidor require acceso ao shell en Unix, mais resulta ser un entorno de conversa rapidamente escalábel.';

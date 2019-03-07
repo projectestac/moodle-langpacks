@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_random', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshopallocation_random', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   workshopallocation_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,7 +44,6 @@ $string['numofselfallocatedsubmissions'] = 'Automatisiere Zuordnung von {$a} Ein
 $string['numperauthor'] = 'pro Einreichung';
 $string['numperreviewer'] = 'pro Beurteiler/in';
 $string['pluginname'] = 'Zufällige Zuordnung';
-$string['privacy:metadata'] = 'Das Plugin für zufällige Zuordnungen speichert keine persönlichen Daten. Die aktuellen Daten darüber, wer wem zugewiesen wird, um Lösungen zu bewerten, werden in der Aktivität \'gegenseitige Beurteilung\' gespeichert und bilden die Grundlage für die Aufgabendetails.';
 $string['randomallocationdone'] = 'Zufällige Zuordnung abgeschlossen';
 $string['removecurrentallocations'] = 'Aktuelle Zuordnung zurücksetzen';
 $string['resultnomorepeers'] = 'Keine weiteren Beurteilungen verfügbar';

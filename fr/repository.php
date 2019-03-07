@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository', language 'fr', branch 'MOODLE_32_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -156,10 +156,8 @@ $string['linkexternal'] = 'Lien externe';
 $string['listview'] = 'Afficher en liste';
 $string['loading'] = 'Chargement...';
 $string['login'] = 'Se connecter à votre compte';
-$string['logintoaccount'] = 'Connexion à votre compte {$a}';
 $string['logout'] = 'Déconnexion';
 $string['lostsource'] = 'Erreur. La source est manquante. {$a}';
-$string['makefilecontrolledlink'] = 'Créer un lien à accès contrôlé pour le fichier';
 $string['makefileinternal'] = 'Faire une copie du fichier';
 $string['makefilelink'] = 'Lier directement le fichier';
 $string['makefilereference'] = 'Créer un alias du fichier';
@@ -238,7 +236,6 @@ $string['typenotvisible'] = 'Type non visible';
 $string['undisclosedreference'] = '(non publié)';
 $string['undisclosedsource'] = '(Non communiqué)';
 $string['unknownoriginal'] = 'Inconnu';
-$string['unknownsource'] = 'Source inconnue';
 $string['unzipped'] = 'Décompressé correctement';
 $string['upload'] = 'Déposer ce fichier';
 $string['uploading'] = 'En cours de dépôt...';

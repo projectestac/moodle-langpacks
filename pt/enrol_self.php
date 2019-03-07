@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_self', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,7 +57,7 @@ $string['expirymessageenrolledbody'] = 'Caro(a) {$a->user},
 
 Esta é uma notificação de que a sua inscrição na disciplina \'{$a->course}\' expira em {$a->timeend}.
 
-Se precisar de ajuda, por favor contacte {$a->enroller}.';
+Se precisar de ajuda, por favor, contacte {$a->enroller}.';
 $string['expirymessageenrolledsubject'] = 'Notificação de expiração da autoinscrição';
 $string['expirymessageenrollerbody'] = 'A autoinscrição na disciplina \'{$a->course}\' irá expirar nos próximos {$a->threshold} para os seguintes utilizadores:
 
@@ -91,7 +91,6 @@ $string['passwordinvalid'] = 'A senha de inscrição que indicou não é a corre
 $string['passwordinvalidhint'] = 'A senha de inscrição que indicou não é a correta. Por favor, tente novamente. Sugestão: A primeira letra é "{$a}"';
 $string['pluginname'] = 'Autoinscrição';
 $string['pluginname_desc'] = 'Este módulo permite aos utilizadores decidir em que disciplinas se pretendem inscrever. As disciplinas podem ser protegidas por uma senha de inscrição. Internamente a inscrição é feita através do módulo de inscrições manuais, pelo que este módulo tem que estar igualmente ativo na disciplina.';
-$string['privacy:metadata'] = 'O módulo Autoinscrição não armazena quaisquer dados pessoais.';
 $string['requirepassword'] = 'Pedir senha de inscrição';
 $string['requirepassword_desc'] = 'Esta configuração faz com que as novas disciplinas criadas peçam sempre senha de inscrição e evita que as disciplinas que já existem possam deixar de pedir a senha.';
 $string['role'] = 'Atribuir papel';
@@ -101,7 +100,7 @@ $string['self:manage'] = 'Gerir utilizadores inscritos';
 $string['self:unenrol'] = 'Remover inscrições de alunos desta disciplina';
 $string['self:unenrolself'] = 'Remover a sua inscrição desta disciplina';
 $string['sendcoursewelcomemessage'] = 'Enviar mensagem de boas-vindas';
-$string['sendcoursewelcomemessage_help'] = 'Se esta configuração estiver ativa os utilizadores que se inscreverem na disciplina receberão um e-mail com uma mensagem de boas-vindas. Se for enviado do contato da disciplina (por predefinição o professor) e mais do que um utilizador tiver este papel, o e-mail será enviado pelo primeiro utilizador a que foi atribuído o papel.';
+$string['sendcoursewelcomemessage_help'] = 'Se esta configuração estiver ativa os utilizadores que se inscreverem na disciplina receberão um e-mail com uma mensagem de boas-vindas. Se for enviado do contacto da disciplina (por predefinição o professor) e mais do que um utilizador tiver este papel, o e-mail será enviado pelo primeiro utilizador a que foi atribuído o papel.';
 $string['showhint'] = 'Mostrar sugestão';
 $string['showhint_desc'] = 'Se esta configuração estiver ativa será mostrada aos utilizadores a primeira letra da senha de inscrição.';
 $string['status'] = 'Permitir inscrições existentes';

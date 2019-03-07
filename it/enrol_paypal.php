@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_paypal', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_paypal', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_paypal
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,10 +56,10 @@ $string['paypalaccepted'] = 'Pagamenti Paypal accettati';
 $string['paypal:config'] = 'Configurare istanze plugin di iscrizione PayPal';
 $string['paypal:manage'] = 'Gestire utenti iscritti';
 $string['paypal:unenrol'] = 'Disiscrivere utenti dal corso';
-$string['paypal:unenrolself'] = 'Disiscriviersi dal corso';
+$string['paypal:unenrolself'] = 'Disiscriversi dal corso';
 $string['pluginname'] = 'PayPal';
 $string['pluginname_desc'] = 'Il plugin di iscrizione PayPal consente impostare iscrizioni a pagamento. Se il costo di iscrizione è pari a zero, non sarà necessario pagare per iscriversi. E\' anche possibile impostare un costo a livello di sito che sarà usato come default per i corsi, nei quali sarà comunque possibile impostare costi differenti.';
 $string['sendpaymentbutton'] = 'Invia pagamento tramite Paypal';
 $string['status'] = 'Consenti iscrizioni PayPal';
-$string['status_desc'] = 'Gli utenti potranno iscriversi ai corsi usando per default PayPal.';
+$string['status_desc'] = 'Gli utenti potranno iscriversi ai corsi usando di default PayPal.';
 $string['unenrolselfconfirm'] = 'Sei sicuro di disiscriverti dal corso "{$a}"?';

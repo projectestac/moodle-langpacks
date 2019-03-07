@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'theme_boost', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   theme_boost
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['backgroundimage'] = 'Imagen del fondo';
-$string['backgroundimage_desc'] = 'La imagen que se muestra como un fondo del sitio. La imagen del fondo que suba aquí sustituirá a la imagen del fondo en sus archivos de configuración por defecto del tema.';
+$string['choosereadme'] = 'Boost (Impulso) es un tema moderno altamente configurable. Este tema está diseñado para usarse directamente, o como un tema paterno al crear temas nuevos usando Bootstrap 4.';

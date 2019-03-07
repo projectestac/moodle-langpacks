@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_comments', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignfeedback_comments', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   assignfeedback_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['commentinline'] = 'Σχολιασμός στις ίδιες γραμμές';
+$string['commentinlinedefault'] = 'Σχολιασμός στις ίδιες γραμμές από προεπιλογή';
+$string['commentinlinedefault_help'] = 'Εάν οριστεί, αυτή τη λειτουργία σχολιασμού στις ίδιες γραμμές θα ενεργοποιηθεί από προεπιλογή για όλες τις νέες αναθέσεις εργασιών.';
+$string['commentinline_help'] = 'Αν ενεργοποιηθεί, το κείμενο υποβολής θα αντιγραφεί στο πεδίο σχολίου της ανατροφοδότησης κατά τη βαθμολόγηση, κάνοντας ευκολότερο τον σχολιασμό μέσα στις ίδιες γραμμές (χρησιμοποιώντας διαφορετικό χρώμα, ίσως) ή την επεξεργασία του αρχικού κειμένου.';
 $string['default'] = 'Ενεργοποιημένο από προεπιλογή';
-$string['default_help'] = 'Αν ενεργοποιηθεί, αυτή η μέθοδος ανατροφοδότησης θα ενεργοποιηθεί ως προεπιλογή για όλες τις νέες αναθέσεις εργασιών.';
+$string['default_help'] = 'Αν ενεργοποιηθεί, αυτή η μέθοδος ανατροφοδότησης θα οριστεί ως προεπιλογή για όλες τις νέες αναθέσεις εργασιών.';
 $string['enabled'] = 'Σχόλια ανατροφοδότησης';
 $string['enabled_help'] = 'Αν ενεργοποιηθεί, ο βαθμολογητής μπορεί να αφήσει σχόλια ανατροφοδότησης για κάθε υποβολή.';
 $string['pluginname'] = 'Σχόλια ανατροφοδότησης';

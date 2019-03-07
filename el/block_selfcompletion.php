@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_selfcompletion', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_selfcompletion', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   block_selfcompletion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Αυτό-ολοκλήρωση';
+$string['alreadyselfcompleted'] = 'Έχετε ήδη σημειώσει τον εαυτό σας ως ολοκληρωμένο σε αυτό το μάθημα';
+$string['completecourse'] = 'Ολοκληρωμένο μάθημα';
+$string['pluginname'] = 'Αυτο-ολοκλήρωση';
+$string['selfcompletion:addinstance'] = 'Προσθήκη ενός νέου μπλοκ αυτο-ολοκλήρωσης';
+$string['selfcompletionnotenabled'] = 'Τα κριτήρια αυτο-ολοκλήρωσης δεν έχουν ενεργοποιηθεί για αυτό το μάθημα';

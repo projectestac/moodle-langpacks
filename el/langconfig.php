@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'langconfig', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'langconfig', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   langconfig
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,15 +25,19 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['alphabet'] = 'Α,Β,Γ,Δ,Ε,Ζ,Η,Θ,Ι,Κ,Λ,Μ,Ν,Ξ,Ο,Π,Ρ,Σ,Τ,Υ,Φ,Χ,Ψ,Ω';
+$string['alphabet'] = 'Α,Β,Γ,Δ,Ε,Ζ,Η,Θ,Ι,Κ,Λ,Μ,Ν,Ξ,Ο,Π,Ρ,Σ,Τ,Υ,Φ,Χ,Ψ,Ω,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,0,1,2,3,4,5,6,7,8,9';
 $string['backupnameformat'] = '%Y%m%d-%H%M';
 $string['decsep'] = ',';
-$string['firstdayofweek'] = '0';
+$string['firstdayofweek'] = '1';
+$string['iso6391'] = 'en';
+$string['iso6392'] = 'eng';
+$string['labelsep'] = ':';
 $string['listsep'] = ';';
 $string['locale'] = 'el_GR.UTF-8';
 $string['localewin'] = 'Greek_Greece.1253';
 $string['localewincharset'] = 'WINDOWS-1253';
 $string['oldcharset'] = 'WINDOWS-1253';
+$string['parentlanguage'] = '';
 $string['strftimedate'] = '%d %B %Y';
 $string['strftimedatefullshort'] = '%d/%m/%y';
 $string['strftimedateshort'] = '%d %B';
@@ -48,6 +52,7 @@ $string['strftimerecent'] = '%d %b, %H:%M';
 $string['strftimerecentfull'] = '%a, %d %b %Y, %I:%M %p';
 $string['strftimetime'] = '%I:%M %p';
 $string['thisdirection'] = 'ltr';
+$string['thisdirectionvertical'] = 'btt';
 $string['thislanguage'] = 'Ελληνικά';
 $string['thislanguageint'] = 'Greek';
 $string['thousandssep'] = '.';

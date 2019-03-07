@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_numerrors', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshopform_numerrors', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   workshopform_numerrors
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,14 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addmoredimensions'] = 'Zuriuneak {$a} baieztapen  gehiagotarako';
-$string['configgrade0'] = 'Baieztapen baten ebaluazio negatiboa deskribatzeko berezko hitza';
-$string['configgrade1'] = 'Baieztapen baten ebaluazio positiboa deskribatzeko berezko hitza';
+$string['addmoredimensions'] = 'Zuriuneak {$a} baieztapen gehiagotarako';
+$string['configgrade0'] = 'Baieztapen baten ebaluazio negatiboa deskribatzeko lehenetsitako hitza';
+$string['configgrade1'] = 'Baieztapen baten ebaluazio positiboa deskribatzeko lehenetsitako hitza';
 $string['dimensioncomment'] = 'Iruzkina';
-$string['dimensioncommentfor'] = 'Iruzkina {$a}-(e)rako';
+$string['dimensioncommentfor'] = 'Iruzkina {$a}rentzat';
 $string['dimensiondescription'] = 'Deskribapena';
 $string['dimensiongrade'] = 'Kalifikazioa';
-$string['dimensionnumber'] = '{$a} baieztapena';
+$string['dimensionnumber'] = '{$a}. baieztapena';
 $string['dimensionweight'] = 'Pisua';
 $string['grade0'] = 'Errorea izendatzeko hitza';
 $string['grade0default'] = 'Ez';
@@ -43,5 +43,3 @@ $string['maperror'] = 'Garrantzia duten errore kopurua berdina edo txikiagoa da'
 $string['mapgrade'] = 'Bidalketaren kalifikazioa';
 $string['percents'] = '% {$a}';
 $string['pluginname'] = 'Errore-kopurua';
-$string['privacy:export:metadata:map'] = 'Garrantzia duten errore kopurua {$a->nonegative}-(e)ra heltzen bada kalifikazioaren ehunekoa {$a->grade} da.';
-$string['privacy:metadata'] = 'Errore-kopurua';

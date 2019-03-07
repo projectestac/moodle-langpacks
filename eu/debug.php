@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'debug', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['cannotsetuptable'] = '{$a} taulak EZIN izan dira sortu!';
 $string['codingerror'] = 'Kode-errore bat antzeman da, programatzaile batek konpondu behar du: {$a}';
 $string['configmoodle'] = 'Moodle ez da oraindik konfiguratu. Lehenik config.php editatu behar duzu.';
 $string['erroroccur'] = 'Errorea gertatu da prozesu honetan zehar';
-$string['invalidarraysize'] = 'Array-en tamaina baliogabea {$a}-(e)ko parametroetan';
+$string['invalidarraysize'] = 'Array-en tamaina ezegokia {$a}-(e)ko parametroetan';
 $string['invalideventdata'] = 'Ekitaldi-datu baliogabeak bidali dira: {$a}';
 $string['invalidparameter'] = 'Parametroaren balio ezegokia antzeman da';
 $string['invalidresponse'] = 'Erantzunaren balio ezegokia antzeman da';

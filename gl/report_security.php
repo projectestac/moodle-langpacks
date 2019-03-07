@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_security', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,6 +79,8 @@ $string['check_noauth_details'] = '<p>O engadido <em>Sen autenticación</em> non
 $string['check_noauth_error'] = 'Non é posíbel utilizar o engadido «Sen autenticación» en sitios en produción.';
 $string['check_noauth_name'] = 'Sen autenticación';
 $string['check_noauth_ok'] = 'O engadido «Sen autenticación» está desactivado.';
+$string['check_nodemodules_info'] = 'O directorio node_modules non debería estar presente en sitios públicos.';
+$string['check_nodemodules_name'] = 'Directorio de módulos Node.js';
 $string['check_openprofiles_details'] = '<p>Os perfís abertos pode ser obxecto de abuso por emisores de lixo. Recoméndase que tanto <code>Forzar os usuarios a iniciar sesión para o perfil</code> como <code>Forzar os usuarios para iniciar sesión</code> estean activados.</p>';
 $string['check_openprofiles_error'] = 'Calquera pode ver os perfís de usuario sen iniciar sesión.';
 $string['check_openprofiles_name'] = 'Perfís de usuario abertos';
@@ -115,6 +117,8 @@ $string['check_unsecuredataroot_error'] = 'O seu cartafol dataroot <code>{$a}</c
 $string['check_unsecuredataroot_name'] = 'Dataroot inseguro';
 $string['check_unsecuredataroot_ok'] = 'O cartafol dataroot non debe ser accesíbel vía web.';
 $string['check_unsecuredataroot_warning'] = 'O seu cartafol dataroot <code>{$a}</code> está nunha localización inadecuada e pode estar exposto como web.';
+$string['check_vendordir_info'] = 'O directorio do vendedor non debería estar presente en sitios públicos.';
+$string['check_vendordir_name'] = 'Directorio do vendedor';
 $string['check_webcron_details'] = '<p>Executar o cron por web pode expoñer información privilexiada a usuarios anónimos. Recomendase usar o cron soamente mediante a interface por liña de ordes (CLI) ou configurar un contrasinal para do cron para o acceso remoto.</p>';
 $string['check_webcron_name'] = 'Cron por web';
 $string['check_webcron_ok'] = 'Os usuarios anónimos non poden acceder a cron.';

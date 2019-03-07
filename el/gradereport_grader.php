@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_grader', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradereport_grader', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   gradereport_grader
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,9 +26,16 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['ajaxchoosescale'] = 'Επιλέξτε';
+$string['ajaxclicktoclose'] = 'Κάντε κλικ σε αυτό το κουτάκι για να το καταργήσετε';
 $string['ajaxerror'] = 'Σφάλμα';
 $string['ajaxfailedupdate'] = 'Δεν είναι εφικτή η ενημέρωση [1] από [2]';
+$string['ajaxfieldchanged'] = 'Το πεδίο που επεξεργάζεστε αυτήν τη στιγμή έχει αλλάξει. Θέλετε να χρησιμοποιήσετε την ενημερωμένη τιμή;';
+$string['eventgradereportviewed'] = 'Η αναφορά βαθμολογητή εμφανίστηκε';
 $string['grader:manage'] = 'Διαχείριση της αναφοράς βαθμολογητή';
 $string['grader:view'] = 'Εμφάνιση της αναφοράς βαθμολογητή';
+$string['overriddengrade'] = 'Βαθμός που παρακάμφθηκε';
 $string['pluginname'] = 'Αναφορά βαθμολογητή';
 $string['preferences'] = 'Προτιμήσεις αναφοράς βαθμολογητή';
+$string['summarygrader'] = 'Ένας πίνακας με τα ονόματα των μαθητών στην πρώτη στήλη, με αξιολογούμενες δραστηριότητες ομαδοποιημένες κατά μάθημα και κατηγορία στην κορυφή.';
+$string['useractivityfeedback'] = '{$a} ανατροφοδότηση';
+$string['useractivitygrade'] = '{$a} βαθμός';

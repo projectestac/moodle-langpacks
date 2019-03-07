@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_ipaddress', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quizaccess_ipaddress', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   quizaccess_ipaddress
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,5 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'IP helbidearen bidezko sarbide-araua';
-$string['privacy:metadata'] = 'IP helbidearen bidezko galdetegietarako sarbide-araua pluginak ez du datu pertsonalik biltzen.';
 $string['subnetwrong'] = 'Galdetegi hau helbide jakin batzuetatik bakarrik egin daiteke, eta ordenagailu hau ez dago baimenduen zerrendan.';

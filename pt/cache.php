@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'cache', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,12 +34,10 @@ $string['addstoresuccess'] = 'Adicionada com sucesso uma nova unidade de armazen
 $string['area'] = 'Área';
 $string['cacheadmin'] = 'Administração da cache';
 $string['cacheconfig'] = 'Configuração';
-$string['cachedef_calendar_categories'] = 'Categorias de calendário de disciplina que um utilizador pode aceder';
 $string['cachedef_calendar_subscriptions'] = 'Subscrições do calendário';
-$string['cachedef_capabilities'] = 'Lista de capacidades do sistema';
+$string['cachedef_capabilities'] = 'Lista de permissões do sistema';
 $string['cachedef_completion'] = 'Estado de conclusão da atividade';
 $string['cachedef_config'] = 'Configurar definições';
-$string['cachedef_contextwithinsights'] = 'Contexto com percepções';
 $string['cachedef_coursecat'] = 'Listas de categorias de disciplina para um utilizador em particular';
 $string['cachedef_coursecatrecords'] = 'Registos de categorias da disciplina';
 $string['cachedef_coursecattree'] = 'Árvore de categorias de disciplina';
@@ -49,7 +47,6 @@ $string['cachedef_coursemodinfo'] = 'Informação acumulada sobre módulos e sec
 $string['cachedef_databasemeta'] = 'Meta-informação da base de dados';
 $string['cachedef_eventinvalidation'] = 'Invalidação de evento';
 $string['cachedef_externalbadges'] = 'Medalhas externas para um utilizador em particular';
-$string['cachedef_fontawesomeiconmapping'] = 'Mapeamento de ícones para o tipo de letra awesome';
 $string['cachedef_grade_categories'] = 'Consultas às categorias de avaliação';
 $string['cachedef_groupdata'] = 'Informação de grupos da disciplina';
 $string['cachedef_htmlpurifier'] = 'Purificador HTML - conteúdo limpo';
@@ -62,16 +59,13 @@ $string['cachedef_observers'] = 'Observadores de eventos';
 $string['cachedef_plugin_functions'] = 'Callbacks de módulos disponíveis';
 $string['cachedef_plugin_manager'] = 'Gestor de informação dos módulos';
 $string['cachedef_postprocessedcss'] = 'CSS processado da mensagem';
-$string['cachedef_presignup'] = 'Dados de pré-inscrição para determinado utilizador ainda não registado';
 $string['cachedef_questiondata'] = 'Definições da pergunta';
 $string['cachedef_repositories'] = 'Dados de instância de repositórios';
-$string['cachedef_roledefs'] = 'Definições de papeis';
 $string['cachedef_string'] = 'Cache do pacote linguístico';
 $string['cachedef_suspended_userids'] = 'Lista de utilizadores suspensos por disciplina';
 $string['cachedef_tagindexbuilder'] = 'Resultados da pesquisa de itens marcados com palavras-chave';
 $string['cachedef_tags'] = 'Coleções de palavras-chave e áreas';
 $string['cachedef_temp_tables'] = 'Cache de tabelas temporárias';
-$string['cachedef_user_group_groupings'] = 'Grupos e agrupamentos do utilizador por disciplina';
 $string['cachedef_userselections'] = 'Dados usados para fazer prevalecer as seleções do utilizador em todo o Moodle';
 $string['cachedef_yuimodules'] = 'Definições do Módulo YUI';
 $string['cachelock_file_default'] = 'Bloqueio de ficheiro predefinido';
@@ -94,7 +88,7 @@ $string['deletelockconfirmation'] = 'Tem a certeza de que pretende eliminar o bl
 $string['deletelockhasuses'] = 'Não pode eliminar esta instância de bloqueio porque a mesma está a ser usada por uma ou mais unidades de armazenamento.';
 $string['deletelocksuccess'] = 'O bloqueio foi eliminado com sucesso.';
 $string['deletestore'] = 'Eliminar unidade de armazenamento';
-$string['deletestoreconfirmation'] = 'Tem a certeza que pretende eliminar a unidade de armazenamento "{$a}"?';
+$string['deletestoreconfirmation'] = 'Tem a certeza de que pretende eliminar a unidade de armazenamento "{$a}"?';
 $string['deletestorehasmappings'] = 'Não pode eliminar esta unidade de armazenamento pois contém mapeamentos. Por favor, elimine todos os mapeamentos antes de eliminar a unidade de armazenamento';
 $string['deletestoresuccess'] = 'A unidade de armazenamento de cache foi eliminada com sucesso';
 $string['editdefinitionmappings'] = 'Definição {$a} do mapeamento da unidade de armazenamento';
@@ -136,7 +130,6 @@ $string['nativelocking'] = 'Este módulo gere o seu próprio bloqueio.';
 $string['none'] = 'Nenhum';
 $string['plugin'] = 'Módulo';
 $string['pluginsummaries'] = 'Cache de unidades de armazenamento instaladas';
-$string['privacy:metadata:cachestore'] = 'O subsistema Cache armazena dados temporários em nome de outras partes do Moodle.';
 $string['purge'] = 'Apagar';
 $string['purgedefinitionsuccess'] = 'A definição requerida foi eliminada com sucesso.';
 $string['purgestoresuccess'] = 'A unidade de armazenamento requerida foi apagada com sucesso.';
@@ -147,7 +140,7 @@ $string['set'] = 'Configurar';
 $string['sharedstorenotification'] = 'Esta cache deve ser mapeada a um armazenamento partilhado entre todos os servidores web';
 $string['sharing'] = 'Partilha';
 $string['sharing_all'] = 'Todos.';
-$string['sharing_help'] = 'Isto permite-lhe determinar como os dados da cache podem ser partilhados se tiver uma instalação em cluster, ou se tiver múltiplos sites configurados com a mesma unidade de armazenamento e quiser partilhar os dados. Esta é uma configuração avançada, por favor assegure-se que compreende a sua finalidade antes de a alterar.';
+$string['sharing_help'] = 'Isto permite-lhe determinar como os dados da cache podem ser partilhados se tiver uma instalação em cluster, ou se tiver múltiplos sites configurados com a mesma unidade de armazenamento e quiser partilhar os dados. Esta é uma configuração avançada, por favor, assegure-se que compreende a sua finalidade antes de a alterar.';
 $string['sharing_input'] = 'Chave personalizada (inserida abaixo)';
 $string['sharingrequired'] = 'Deve selecionar pelo menos uma opção de partilha.';
 $string['sharingselected_all'] = 'Todos.';

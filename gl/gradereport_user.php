@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_user', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradereport_user', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   gradereport_user
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventgradereportviewed'] = 'Visto o informe de cualificacións do usuario';
+$string['myself'] = 'Eu mesmo';
+$string['otheruser'] = 'Usuario';
 $string['pluginname'] = 'Informe do usuario';
+$string['tablesummary'] = 'A táboa está organizada como unha lista de elementos cualificados, incluíndo categorías de elementos cualificados. Cando os elementos estean nunha categoría, serán indicados como tales.';
 $string['user:view'] = 'Ver o seu propio informe de cualificación';
+$string['viewas'] = 'Ver informe como';

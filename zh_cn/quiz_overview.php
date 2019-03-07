@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz_overview', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,7 +69,7 @@ $string['regradeselected'] = '重新评分所选的试卷';
 $string['regradingattemptxofy'] = '重新计分({$a->done}/{$a->count})';
 $string['show'] = '显示/下载';
 $string['showattempts'] = '只显示/下载试卷';
-$string['showdetailedmarks'] = '每题都有显示/下载标记';
+$string['showdetailedmarks'] = '每个问题的分数';
 $string['showinggraded'] = '仅显示每个用户的成绩';
 $string['showinggradedandungraded'] = '显示所有用户已评分或未评分的试卷。已评分的试卷会被突出显示。本测验的评分方法是{$a}。';
 $string['studentingroup'] = '组“{$a->groupname}”中的“{$a->coursestudent}”';

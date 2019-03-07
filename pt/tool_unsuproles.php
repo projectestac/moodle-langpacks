@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_unsuproles', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_unsuproles', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_unsuproles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,9 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['confirmdelete'] = 'Tem a certeza que pretende apagar todas as inscrições para o papel "{$a->role}" no contexto "{$a->level}"?';
+$string['confirmdelete'] = 'Tem a certeza de que pretende apagar todas as inscrições para o papel "{$a->role}" no contexto "{$a->level}"?';
 $string['contextlevel'] = 'Nível do contexto';
 $string['count'] = 'Número';
 $string['noprolbems'] = 'Não foram encontradas atribuições de papéis não suportadas.';
 $string['pluginname'] = 'Atribuições de papéis não suportadas';
-$string['privacy:metadata'] = 'O módulo Atribuições de papéis não suportados não armazena dados pessoais.';

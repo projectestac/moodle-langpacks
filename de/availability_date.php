@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_date', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'availability_date', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   availability_date
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['ajaxerror'] = 'Fehler bei der Verbindung zum Server, um die Zeiten zu konvertieren.';
-$string['description'] = 'Zugriff über ein festgelegtes Datum und die Uhrzeit steuern';
+$string['description'] = 'Zugriff über ein Datum und die Uhrzeit steuern';
 $string['direction_before'] = 'Datum';
 $string['direction_from'] = 'ab';
 $string['direction_label'] = 'Richtung';
@@ -36,7 +36,6 @@ $string['full_from_date'] = 'Zeit genau oder nach <strong>{$a}</strong>';
 $string['full_until'] = 'Zeit vor <strong>{$a}</strong>';
 $string['full_until_date'] = 'Zeit vor Ende <strong>{$a}</strong>';
 $string['pluginname'] = 'Voraussetzung: Datum';
-$string['privacy:metadata'] = 'Das Plugin \'Voraussetzung Datum\' speichert keine personenbezogenen Daten.';
 $string['short_from'] = 'Verfügbar ab <strong>{$a}</strong>';
 $string['short_from_date'] = 'Verfügbar ab <strong>{$a}</strong>';
 $string['short_until'] = 'Verfügbar bis <strong>{$a}</strong>';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_accumulative', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshopform_accumulative', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   workshopform_accumulative
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,17 +25,29 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['absent'] = 'Απών';
+$string['addmoredimensions'] = 'Κενά πεδία για {$a} περισσότερες πτυχές';
 $string['correct'] = 'Σωστό';
 $string['dimensioncomment'] = 'Σχόλιο';
 $string['dimensioncommentfor'] = 'Σχόλιο για {$a}';
 $string['dimensiondescription'] = 'Περιγραφή';
 $string['dimensiongrade'] = 'Βαθμός';
 $string['dimensiongradefor'] = 'Βαθμός για {$a}';
-$string['dimensionmaxgrade'] = 'Ο καλύτερός δυνατός βαθμός / Κλίμακα για χρήση';
-$string['dimensionweight'] = 'Βάρος';
+$string['dimensionmaxgrade'] = 'Ο καλύτερος δυνατός βαθμός / Χρησιμοποιούμενη κλίμακα';
+$string['dimensionnumber'] = 'Πτυχή {$a}';
+$string['dimensionweight'] = 'Συντελεστής βαρύτητας';
 $string['excellent'] = 'Άριστα';
 $string['good'] = 'Καλά';
 $string['incorrect'] = 'Λάθος';
+$string['mustchoosegrade'] = 'Πρέπει να επιλέξετε ένα βαθμό για αυτήν την πτυχή';
 $string['pluginname'] = 'Αθροιστική βαθμολόγηση';
 $string['poor'] = 'Φτωχό';
+$string['present'] = 'Παρών';
+$string['scalename0'] = 'Ναι/Όχι (2 βαθμοί)';
+$string['scalename1'] = 'Παρών/Απών (2 βαθμοί)';
+$string['scalename2'] = 'Σωστό/Λάθος (2 βαθμοί)';
+$string['scalename3'] = 'Καλώς/Κακώς (3 βαθμοί)';
+$string['scalename4'] = 'Εξαιρετικά/Πολύ άσχημα (4 βαθμοί)';
+$string['scalename5'] = 'Εξαιρετικά/Πολύ άσχημα (5 βαθμοί)';
+$string['scalename6'] = 'Εξαιρετικά/Πολύ άσχημα (7 βαθμοί)';
 $string['verypoor'] = 'Πολύ φτωχό';

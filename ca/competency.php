@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'competency', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,7 +44,7 @@ $string['enablecompetencies'] = 'Habilita les competències';
 $string['enablecompetencies_desc'] = 'Les competències permeten als usuaris ser avaluats d\'acord amb els plans d\'aprenentatge.';
 $string['errorcannotchangeapastduedate'] = 'La data de venciment ha passat; no es pot modificar.';
 $string['errorcannotsetduedateinthepast'] = 'No es pot establir una data de venciment en el passat.';
-$string['errorcannotsetduedatetoosoon'] = 'La data de venciment és massa propera.';
+$string['errorcannotsetduedatetoosoon'] = 'La data de venciment és molt aviat.';
 $string['errorcompetencyrule'] = 'La regla de competència «{$a}» és desconeguda';
 $string['errorcoursecompetencyrule'] = 'La regla de competència «{$a}» del curs és desconeguda';
 $string['errorinvalidcourse'] = 'El curs no és vàlid.';
@@ -109,7 +109,7 @@ $string['invalidpersistenterror'] = 'Error: {$a}';
 $string['invalidplan'] = 'El pla d\'aprenentatge no és vàlid.';
 $string['invalidtaxonomy'] = 'Taxonomia invàlida: {$a}';
 $string['invalidurl'] = 'L\'URL no és vàlid. Assegureu-vos que comença per \'http://\' o \'https://\'.';
-$string['planstatusactive'] = 'Activa';
+$string['planstatusactive'] = 'Actiu';
 $string['planstatuscomplete'] = 'Completat';
 $string['planstatusdraft'] = 'Esborrany';
 $string['planstatusinreview'] = 'En revisió';

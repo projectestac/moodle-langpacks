@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_filetypes', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_filetypes', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_filetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,7 @@ $string['deletea'] = 'Elimina {$a}';
 $string['delete_confirmation'] = 'Sei sicuro di rimuovere <strong>.{$a}</strong>?';
 $string['deletefiletypes'] = 'Elimina un tipo di file';
 $string['description'] = 'Descrizione personalizzata';
-$string['description_help'] = 'Una descrizione breve del tipo di file, ad esempio ‘Kindle ebook’. Se il sito supporta più lingue ed utilizza il filtro multilingua, è possibile inserire nel campo dei tag multi lingua per ottenere la descrizione in diverse lingue.';
+$string['description_help'] = 'Una descrizione breve del tipo di file, ad esempio ‘Kindle ebook’. Se il sito supporta più lingue ed utilizza il filtro multilingua, è possibile inserire nel campo dei tag multilingua per ottenere la descrizione in diverse lingue.';
 $string['descriptiontype'] = 'Descrizione del tipo';
 $string['descriptiontype_custom'] = 'Descrizione personalizzata da inserire nel campo sottostante';
 $string['descriptiontype_default'] = 'Default (tipo MIME o la stringa di lingua corrispondente, se disponibile)';
@@ -62,7 +62,6 @@ L\'elenco delle icone è tratto dalla cartella /pix/f, presente nella installazi
 $string['mimetype'] = 'Tipo MIME';
 $string['mimetype_help'] = 'Il MIME associato al tipo di file, ad esempio \'application/x-mobipocket-ebook\'';
 $string['pluginname'] = 'Tipi di file';
-$string['privacy:metadata'] = 'Il plugin "Tipi di file" non memorizza dati personali.';
 $string['revert'] = 'Ripristina {$a} ai default di Moodle';
 $string['revert_confirmation'] = 'Sei sicuro di ripristinare <strong>.{$a}</strong> al default di Moodle, perdendo le modifiche effettuate?';
 $string['revertfiletype'] = 'Ripristina un tipo di file';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'blog', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -110,7 +110,7 @@ $string['filtertags_help'] = 'この機能により、あなたが使用した�
 $string['groupblog'] = 'グループブログ: {$a}';
 $string['groupblogdisable'] = 'グループブログは有効にされていません。';
 $string['groupblogentries'] = '{$a->coursename} のグループ {$a->groupname} に関連付けられているブログエントリ';
-$string['groupblogs'] = 'ユーザはグループを共有しているユーザのブログのみ閲覧することができる';
+$string['groupblogs'] = 'ユーザはグループを共有しているユーザのブログのみ閲覧できる';
 $string['incorrectblogfilter'] = '正しくないブログフィルタタイプが指定されました。';
 $string['intro'] = 'このRSSフィードは1つまたはそれ以上のブログから自動生成されました。';
 $string['invalidgroupid'] = '無効なグループID';
@@ -135,29 +135,6 @@ $string['pagesize'] = '1ページあたりのブログエントリ数';
 $string['permalink'] = 'パーマリンク';
 $string['personalblogs'] = 'ユーザは自分のブログのみ閲覧できる';
 $string['preferences'] = 'ブログプリファレンス';
-$string['privacy:metadata:core_comments'] = 'ブログエントリに関連するコメントです。';
-$string['privacy:metadata:core_files'] = 'ブログエントリに添付されたファイルです。';
-$string['privacy:metadata:core_tag'] = 'ブログエントリに関連するタグです。';
-$string['privacy:metadata:external'] = '外部RSSフィードへのリンクです。';
-$string['privacy:metadata:external:description'] = 'フィードの説明です。';
-$string['privacy:metadata:external:filtertags'] = 'エントリをフィルタするタグのリストです。';
-$string['privacy:metadata:external:name'] = 'フィード名です。';
-$string['privacy:metadata:external:timefetched'] = 'フィードの最終取得日時です。';
-$string['privacy:metadata:external:timemodified'] = '関連の最終更新日時です。';
-$string['privacy:metadata:external:url'] = 'フィードのURLです。';
-$string['privacy:metadata:external:userid'] = '外部ブログエントリを追加したユーザのIDです。';
-$string['privacy:metadata:post'] = 'ブログエントリに関連する情報です。';
-$string['privacy:metadata:post:content'] = '外部ブログエントリのコンテンツです。';
-$string['privacy:metadata:post:created'] = 'エントリの作成日時です。';
-$string['privacy:metadata:post:lastmodified'] = 'エントリの最終更新日時です。';
-$string['privacy:metadata:post:publishstate'] = 'エントリを他の人に表示するかどうか指定します。';
-$string['privacy:metadata:post:subject'] = 'ブログエントリのタイトルです。';
-$string['privacy:metadata:post:summary'] = 'ブログエントリです。';
-$string['privacy:metadata:post:uniquehash'] = '外部エントリのユニークIDです。通常、URLです。';
-$string['privacy:metadata:post:userid'] = 'ブログエントリを追加したユーザのIDです。';
-$string['privacy:metadata:post:usermodified'] = '最後にエントリを修正したユーザです。';
-$string['privacy:path:blogassociations'] = '関連ブログ記事です。';
-$string['privacy:unknown'] = '不明';
 $string['publishto'] = '公開先:';
 $string['publishtocourse'] = 'あなたとコースを共有しているユーザ';
 $string['publishtocourseassoc'] = '関連コースのメンバー';

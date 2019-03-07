@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,18 +31,18 @@ $string['addinstanceanother'] = 'Engadir método e crear outro';
 $string['ajaxnext25'] = 'Seguintes 25...';
 $string['ajaxoneuserfound'] = 'Atopouse 1 usuario';
 $string['ajaxxusersfound'] = 'Atopáronse {$a} usuarios';
-$string['assignnotpermitted'] = 'Non tes permiso ou non podes asignar roles neste curso.';
+$string['assignnotpermitted'] = 'Non ten permiso ou non pode asignar roles neste curso.';
 $string['bulkuseroperation'] = 'Operación masiva de usuario';
 $string['configenrolplugins'] = 'Seleccione todos os complementos requiridos e arránxeos na orde apropiada.';
 $string['custominstancename'] = 'Nome personalizado da instancia';
 $string['defaultenrol'] = 'Engadir instancia aos novos cursos';
 $string['defaultenrol_desc'] = 'É posíbel engadir este complemento a todos os novos cursos de modo predeterminado.';
-$string['deleteinstanceconfirm'] = 'Está a piques de eliminar o método de matriculación «{$a->name}». Todos os {$a->users} usuarios matriculados actualmente usando este método serán desmatriculados (dados de baixa) e eliminaranse todos os datos relacionados co curso, como as cualificacións, pertenza de grupos ou subscripcións ao foro dos usuarios.
+$string['deleteinstanceconfirm'] = 'Está a piques de eliminar o método de matriculación «{$a->name}». Todos os {$a->users} usuarios matriculados actualmente usando este método serán desmatriculados (dados de baixa) e eliminaranse todos os datos relacionados co curso, como as cualificacións, pertenza de grupos ou subscricións ao foro dos usuarios.
 
 Confirma que quere continuar?';
-$string['deleteinstanceconfirmself'] = 'Está absolutamente seguro de querer eliminar a instancia «{$a->name}» que lle da acceso a este curso? É probábel que xa non poida acceder a este curso se continúa.';
+$string['deleteinstanceconfirmself'] = 'Confirma definitivamente que quere eliminar a instancia «{$a->name}» que lle da acceso a este curso? É probábel que xa non poida acceder a este curso se continúa.';
 $string['deleteinstancenousersconfirm'] = 'Está a piques de eliminar o método de matriculación «{$a->name}». Confirma que quere continuar?';
-$string['disableinstanceconfirmself'] = 'Está absolutamente seguro de querer desactivar a instancia «{$a->name}» que lle da acceso a este curso? É probábel que xa non poida acceder a este curso se continúa.';
+$string['disableinstanceconfirmself'] = 'Confirma definitivamente que quere desactivar a instancia «{$a->name}» que lle da acceso a este curso? É probábel que xa non poida acceder a este curso se continúa.';
 $string['durationdays'] = '{$a} días';
 $string['editenrolment'] = 'Editar a matriculación';
 $string['enrol'] = 'Matricularse';
@@ -63,7 +63,7 @@ $string['enrolnotpermitted'] = 'Non ten permiso ou non se lle permite matricular
 $string['enrolperiod'] = 'Duración da matriculación';
 $string['enroltimecreated'] = 'Creada a matriculación';
 $string['enroltimeend'] = 'A matriculación finaliza';
-$string['enroltimestart'] = 'A matriculación comeza';
+$string['enroltimestart'] = 'Comeza a matriculación';
 $string['enrolusage'] = 'Instancias / matriculacións';
 $string['enrolusers'] = 'Matricular usuarios';
 $string['enrolxusers'] = 'Matricular {$a} usuarios';
@@ -124,6 +124,9 @@ $string['rolefromcategory'] = '{$a->role} (Herdado da categoría do curso)';
 $string['rolefrommetacourse'] = '{$a->role} (Herdado do curso pai)';
 $string['rolefromsystem'] = '{$a->role} (Asignado a un nivel de sitio)';
 $string['rolefromthiscourse'] = '{$a->role} (Asignado neste curso)';
+$string['sendfromcoursecontact'] = 'Do contacto do curso';
+$string['sendfromkeyholder'] = 'Do chaveiro';
+$string['sendfromnoreply'] = 'Do enderezo sen resposta';
 $string['startdatetoday'] = 'Hoxe';
 $string['synced'] = 'Sincronizado';
 $string['testsettings'] = 'Proba das configuracións';

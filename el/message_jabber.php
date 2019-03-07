@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_jabber', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'message_jabber', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   message_jabber
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,15 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configjabberhost'] = 'Ο εξυπηρετητής για να συνδεθεί για να στέλνει ειδοποιήσεις μηνυμάτων jabber.';
+$string['configjabberhost'] = 'Ο εξυπηρετητής στον οποίο πρέπει να συνδεθείτε για να αποστείλετε ειδοποιήσεις μηνυμάτων jabber';
 $string['configjabberpassword'] = 'Ο κωδικός πρόσβασης που θα χρησιμοποιηθεί κατά τη σύνδεση στον εξυπηρετητή Jabber';
 $string['configjabberport'] = 'Η πύλη που θα χρησιμοποιηθεί κατά τη σύνδεση στον εξυπηρετητή Jabber';
-$string['configjabberserver'] = 'ID του XMPP host (μπορεί να μείνει άδειο αν είναι το ίδιο με το Jabber host)';
+$string['configjabberserver'] = 'Το αναγνωριστικό του κεντρικού Η/Υ που εκτελεί το XMPP (μπορεί να μείνει κενό αν είναι το ίδιο με τον υπολογιστή του Jabber)';
 $string['configjabberusername'] = 'Το όνομα χρήστη που θα χρησιμοποιηθεί κατά τη σύνδεση στον εξυπηρετητή Jabber';
-$string['jabberhost'] = 'Jabber host';
+$string['jabberhost'] = 'Όνομα υπολογιστή δικτύου που φιλοξενεί τον εξυπηρετητή Jabber';
+$string['jabberid'] = 'Αναγνωριστικό Jabber';
 $string['jabberpassword'] = 'Κωδικός πρόσβασης στο Jabber';
-$string['jabberport'] = 'Πύλη στο Jabber';
+$string['jabberport'] = 'Θύρα του Jabber';
 $string['jabberserver'] = 'Εξυπηρετητής Jabber';
 $string['jabberusername'] = 'Όνομα χρήστη στο Jabber';
-$string['notconfigured'] = 'Ο Jabber διακομιστής δεν έχει ρυθμιστεί και έτσι τα Jabber μηνύματα δεν μπορούν να σταλθούν';
-$string['pluginname'] = 'Jabber μήνυμα';
+$string['notconfigured'] = 'Ο εξυπηρετητής Jabber δεν έχει ρυθμιστεί κι έτσι τα μηνύματα Jabber δεν μπορούν να σταλούν';
+$string['pluginname'] = 'Jabber (μήνυμα)';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_task', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['asap'] = 'ASAP';
-$string['backtoscheduledtasks'] = 'Zurück zu den geplanten Vorgängen';
 $string['blocking'] = 'Blockierend';
 $string['component'] = 'Komponente';
 $string['corecomponent'] = 'Kern';
@@ -34,18 +33,13 @@ $string['default'] = 'Standard';
 $string['disabled'] = 'Deaktiviert';
 $string['disabled_help'] = 'Deaktivierte geplante Vorgänge werden vom Cronjob nicht ausgeführt, können aber manuell über die Kommandozeile gestartet werden.';
 $string['edittaskschedule'] = 'Geplanten Vorgang bearbeiten: {$a}';
-$string['enablerunnow'] = '\'Sofort ausführen\' von geplanten Vorgängen erlauben';
-$string['enablerunnow_desc'] = 'Diese Option ermöglicht es Administratoren, einen einzelnen geplanten Vorgang sofort auszuführen, ohne auf den planmäßigen Termin zu warten. Ein solcher Vorgang läuft auf dem Webserver, so dass diese Option deaktiviert sein könnte, um Leistungseinbrüche zu vermeiden.';
 $string['faildelay'] = 'Fehlerverzögerung';
 $string['lastruntime'] = 'Letzte Ausführung';
 $string['nextruntime'] = 'Nächste Ausführung';
 $string['plugindisabled'] = 'Plugin deaktiviert';
 $string['pluginname'] = 'Einstellungen für geplante Vorgänge';
-$string['privacy:metadata'] = 'Das Plugin zur Konfiguration geplanter Vorgänge speichert keine personenbezogenen Daten.';
 $string['resettasktodefaults'] = 'Zeitplan dieses Vorgangs auf Standardwerte zurücksetzen';
 $string['resettasktodefaults_help'] = 'Damit werden alle lokalen Änderungen rückgängig gemacht und die Originaleinstellungen für den Vorgang wieder hergestellt.';
-$string['runnow'] = 'Sofort ausführen';
-$string['runnow_confirm'] = 'Möchten Sie den Vorgang \'{$a}\' wirklich sofort ausführen? Der Vorgang läuft auf dem Webserver und könnte eventuell lange dauern, um fertig zu werden.';
 $string['scheduledtaskchangesdisabled'] = 'Änderungen in der Liste der geplanten Vorgänge sind nicht erlaubt.';
 $string['scheduledtasks'] = 'Geplante Vorgänge';
 $string['taskdisabled'] = 'Vorgang deaktiviert';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dbtransfer', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_dbtransfer', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_dbtransfer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,17 +27,16 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['clidriverlist'] = 'Módulos de base de dados disponíveis para migração';
 $string['cliheading'] = 'Migração da base de dados - assegures-se que ninguém está a aceder ao servidor durante a migração';
-$string['climigrationnotice'] = 'Migração de base de dados em curso, espere por favor que a migração termine, o administrador atualize as configurações e apague o ficheiro $CFG->dataroot/climaintenance.html';
+$string['climigrationnotice'] = 'Migração de base de dados em curso. Por favor, espere que a migração termine, o administrador atualize as configurações e apague o ficheiro $CFG->dataroot/climaintenance.html';
 $string['convertinglogdisplay'] = 'A converter as ações do';
 $string['dbexport'] = 'Exportação da base de dados';
 $string['dbtransfer'] = 'Migração da base de dados';
 $string['enablemaintenance'] = 'Ativar modo de manutenção';
-$string['enablemaintenance_help'] = 'Esta opção ativa o modo de manutenção durante e depois da migração da base de dados, impedindo o acesso dos utilizadores até a migração estar completa. Por favor note que o administrador tem que apagar manualmente o ficheiro $CFG->dataroot/climaintenance.html depois de atualizar as configurações em \'config.php\' para o funcionamento voltar ao normal';
+$string['enablemaintenance_help'] = 'Esta opção ativa o modo de manutenção durante e depois da migração da base de dados, impedindo o acesso dos utilizadores até a migração estar completa. Por favor, note que o administrador tem que apagar manualmente o ficheiro $CFG->dataroot/climaintenance.html depois de atualizar as configurações em \'config.php\' para o funcionamento voltar ao normal';
 $string['exportdata'] = 'Exportar dados';
 $string['notargetconectexception'] = 'Não é possível ligar à base de dados.';
 $string['options'] = 'Opções';
 $string['pluginname'] = 'Transferir da base de dados';
-$string['privacy:metadata'] = 'O módulo Transferência da base de dados não armazena dados pessoais.';
 $string['targetdatabase'] = 'Base de dados alvo';
 $string['targetdatabasenotempty'] = 'A base de dados alvo não pode conter nenhuma tabela com o prefixo definido';
 $string['transferdata'] = 'Transferir dados';

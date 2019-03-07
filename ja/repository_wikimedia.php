@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_wikimedia', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_wikimedia', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_wikimedia
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,9 +29,5 @@ $string['configplugin'] = 'Wikimediaリポジトリタイプ設定';
 $string['keyword'] = '検索';
 $string['maxheight'] = '最大イメージ高 (px)';
 $string['maxwidth'] = '最大イメージ幅 (px)';
-$string['pluginname'] = 'Wikiメディア';
-$string['privacy:metadata:repository_wikimedia'] = 'Wikimediaリポジトリプラグインはユーザプリファレンスを保存します。また、ユーザデータをMoodleからリモートシステムに転送します。';
-$string['privacy:metadata:repository_wikimedia:preference:maxheight'] = 'Wikimediaリポジトリの最大高設定ユーザプリファレンスです。';
-$string['privacy:metadata:repository_wikimedia:preference:maxwidth'] = 'Wikimediaリポジトリの最大幅設定ユーザプリファレンスです。';
-$string['privacy:metadata:repository_wikimedia:search_text'] = 'Wikimediaリポジトリユーザ検索テキストクエリです。';
+$string['pluginname'] = 'Wikimedia';
 $string['wikimedia:view'] = 'Wikiメディアリポジトリを表示する';

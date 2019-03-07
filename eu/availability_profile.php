@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_profile', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'availability_profile', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   availability_profile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['conditiontitle'] = 'Erabiltzaile-profilaren eremua';
 $string['description'] = 'Sarbidea baimendu ikasleen profilaren eremuen arabera';
 $string['error_selectfield'] = 'Aukeratu behar duzu erabiltzaile-profilaren eremu bat.';
-$string['error_setvalue'] = 'Balore bat idatzi behar duzu.';
+$string['error_setvalue'] = 'Balio bat idatzi behar duzu.';
 $string['label_operator'] = 'Konparaketa metodoa';
 $string['label_value'] = 'Konparaketarako balioa';
 $string['missing'] = '(Eremua falta da: {$a})';
@@ -40,7 +40,6 @@ $string['op_isequalto'] = 'honen berdina';
 $string['op_isnotempty'] = 'ez dago hutsik';
 $string['op_startswith'] = 'honela hasten da';
 $string['pluginname'] = 'Profilaren araberako baldintza';
-$string['privacy:metadata'] = 'Profilaren araberako baldintza pluginak ez du datu pertsonalik biltzen.';
 $string['requires_contains'] = 'Zure <strong>{$a->field}</strong>-(a)k <strong>{$a->value}</strong> dauka';
 $string['requires_doesnotcontain'] = 'Zure <strong>{$a->field}</strong>-(a)k ez dauka <strong>{$a->value}</strong>';
 $string['requires_endswith'] = 'Zure <strong>{$a->field}</strong> <strong>{$a->value}</strong>-(r)ekin bukatzen da';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_loglive', language 'nl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_loglive', language 'nl', branch 'MOODLE_32_STABLE'
  *
  * @package   report_loglive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,5 @@ $string['loglive:view'] = 'Bekijk live logs';
 $string['nologreaderenabled'] = 'Geen loglezer ingeschakeld';
 $string['pause'] = 'Pauzeer live logs';
 $string['pluginname'] = 'Live logs';
-$string['privacy:metadata'] = 'De live logs-plugin bewaart geen persoonlijke gegevens.';
 $string['resume'] = 'Herstart life logs';
 $string['selectlogreader'] = 'Selecteer loglezer';

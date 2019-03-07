@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_equella', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_equella', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_equella
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,9 +32,8 @@ $string['equellaoptions'] = 'EQUELLAren aukerak';
 $string['equellaurl'] = 'EQUELLAren URLa';
 $string['equella:view'] = 'Ikusi EQUELLA biltegia';
 $string['group'] = '{$a} rolaren ezarpenak';
-$string['groupdefault'] = 'Berezkoa';
+$string['groupdefault'] = 'Lehenetsitakoa';
 $string['pluginname'] = 'EQUELLA biltegia';
-$string['privacy:metadata'] = 'EQUELLA biltegi-pluginak ez du datu pertsonalik biltzen, baina erabitlzaile-datuak Moodle-tik urruneko sistemara bidaltzen ditu.';
 $string['restrictionattachmentsonly'] = 'Erantsitako baliabidea bakarrik';
 $string['restrictionitemsonly'] = 'Elementuen laburpena bakarrik';
 $string['restrictionnone'] = 'Mugarik ez';
@@ -45,6 +44,6 @@ $string['sharedid'] = 'Partekatutako sekretuaren IDa';
 $string['sharedidtitle'] = 'Partekatutako sekretuaren IDa';
 $string['sharedsecrets'] = 'Partekatutako sekretua';
 $string['sharedsecretsheading'] = 'Partekatutako sekretuaren ezarpenak';
-$string['sharedsecretshelp'] = '<p>Azpian single sign-on erabiltzaileentzako erabiliko den partekatutako EQUELLA giltza ezarri dezakezu. Partekatutako giltza ezberdinak zehaztu ditzakezu erabilera orokorrerako (irakurri) eta roletan oinarritutako partekatutako giltz bana <em>idatziko</em> duen rol bakoitzarentzat. Partekatutako giltzaren IDa rol batentzat zehaztu gabe badagoberezko partekatutako giltza erabiliko da.</p>
+$string['sharedsecretshelp'] = '<p>Azpian single sign-on erabiltzaileentzako erabiliko den partekatutako EQUELLA giltza ezarri dezakezu. Partekatutako giltza ezberdinak zehaztu ditzakezu erabilera orokorrerako (irakurri) eta roletan oinarritutako partekatutako giltza bana <em>idatziko</em> duen rol bakoitzarentzat. Partekatutako giltzaren IDa rol batentzat zehaztu gabe badago modu lehenetsian partekatutako giltza erabiliko da.</p>
 <p>Partekatutako giltzak eta giltzen ID guztiak EQUELLA barruan ere konfiguratu behar dira, eta partekatutako giltzen modulua gaitu behar da. Ezarpen hau EQUELLA Administration Console barruan dagoen User Management > Partekatutako giltzak atalean dago.</p>';
 $string['sharedsecrettitle'] = 'Partekatutako sekretua';

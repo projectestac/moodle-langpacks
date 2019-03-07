@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cohort', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'cohort', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   cohort
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,10 +71,6 @@ $string['nocomponent'] = 'Criado manualmente';
 $string['potusers'] = 'Utilizadores potenciais';
 $string['potusersmatching'] = 'Utilizadores potenciais para correspondência';
 $string['preview'] = 'Pré-visualização';
-$string['privacy:metadata:cohort_members'] = 'Informação sobre o grupo de utilizadores';
-$string['privacy:metadata:cohort_members:cohortid'] = 'O ID do grupo';
-$string['privacy:metadata:cohort_members:timeadded'] = 'O tempo exato de indicação de quando o utilizador foi adicionado ao grupo';
-$string['privacy:metadata:cohort_members:userid'] = 'O ID do utilizador associado ao grupo';
 $string['removeuserwarning'] = 'Remover utilizadores dos Grupos globais significa desinscrevê-los de várias disciplinas, o que faz com que estes percam as suas configurações, notas, grupos e outras informações nessas disciplinas.';
 $string['search'] = 'Procurar';
 $string['searchcohort'] = 'Procurar Grupos globais';
@@ -92,4 +88,4 @@ $string['uploadcohorts_help'] = 'Os grupos globais podem ser carregados através
 $string['uploadedcohorts'] = 'Carregar {$a} Grupos globais';
 $string['useradded'] = 'Adicionar utilizador ao grupo global "{$a}"';
 $string['visible'] = 'Visível';
-$string['visible_help'] = 'Qualquer grupo global pode ser visualizado por utilizadores com a capacidade \'moodle/cohort:view\' no contexto do grupo global. Os grupos globais visíveis também podem ser visualizados pelos utilizadores nas disciplinas subjacentes.';
+$string['visible_help'] = 'Qualquer grupo global pode ser visualizado por utilizadores com a permissão \'moodle/cohort:view\' no contexto do grupo global. Os grupos globais visíveis também podem ser visualizados pelos utilizadores nas disciplinas subjacentes.';

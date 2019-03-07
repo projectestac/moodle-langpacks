@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'forum', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,14 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityoverview'] = 'Mezu berriak daude foroan';
-$string['addanewdiscussion'] = 'Mezua idatzi';
-$string['addanewquestion'] = 'Galdera gehitu';
-$string['addanewtopic'] = 'Gaia gehitu';
+$string['addanewdiscussion'] = 'Gehitu eztabaidagai berria';
+$string['addanewquestion'] = 'Gehitu galdera berria';
+$string['addanewtopic'] = 'Gehitu gai berria';
 $string['advancedsearch'] = 'Bilaketa aurreratua';
 $string['allforums'] = 'Foro guztiak';
 $string['allowdiscussions'] = '{$a} batek foro honetan idatz dezake?';
 $string['allowsallsubscribe'] = 'Foro honetan bakoitzak erabakitzen du harpidetu ala ez';
-$string['allowsdiscussions'] = 'Foro honek partaide bakoitzari eztabaidagai bat hasten uzten dio.';
+$string['allowsdiscussions'] = 'Foro honek partaide bakoitzari eztabaidagai bat hasteko aukera ematen dio.';
 $string['allsubscribe'] = 'Foro guztietara harpidetu';
 $string['allunsubscribe'] = 'Foro guztietako harpidetza kendu';
 $string['alreadyfirstpost'] = 'Dagoeneko hau da eztabaidako lehen mezua.';
@@ -54,7 +54,7 @@ $string['blogforum'] = 'Blog-formatuan azaltzen den foro estandarra';
 $string['bynameondate'] = '{$a->name} - {$a->date}';
 $string['cannotadd'] = 'Ezin da eztabaidarik gehitu foro honetan';
 $string['cannotadddiscussion'] = 'Foro honetan eztabaidak gehitzeko talde bateko kide izan behar da';
-$string['cannotadddiscussionall'] = 'Ez duzu baimenik partaide guztientzako eztabaida-gai berririk gehitzeko.';
+$string['cannotadddiscussionall'] = 'Ez duzu baimenik partaide guztientzako eztabaidagai berriak gehitzeko.';
 $string['cannotaddsubscriber'] = 'Ezin da {$a} id-a duen harpideduna gehitu foro honetan!';
 $string['cannotaddteacherforumto'] = 'Ezin izan da irakasleen foroa jarri ikastaroaren 0 gaian';
 $string['cannotcreatediscussion'] = 'Ezin da eztabaida sortu';
@@ -80,19 +80,16 @@ $string['cannotunsubscribe'] = 'Ezin duzu foro honetatik harpidetza kendu';
 $string['cannotupdatepost'] = 'Ezin duzu mezu hau eguneratu';
 $string['cannotviewpostyet'] = 'Eztabaida honetan ezin dituzu beste ikasleen galderak irakurri ez baituzu oraindik mezurik bidali';
 $string['cannotviewusersposts'] = 'Ez dago ikus dezakezun erabiltzaile honen mezurik.';
-$string['cleanreadtime'] = 'Mezu zaharrak irakurritzat emateko ordua';
-$string['clicktosubscribe'] = 'Ez zaude eztabaida honetara harpidetuta. Klik egin harpidetzeko.';
-$string['clicktounsubscribe'] = 'Eztabaida honetara harpidetuta zaude. Klik egin harpidetza kentzeko.';
+$string['cleanreadtime'] = 'Mezu zaharrak irakurritzat markatzeko ordua';
+$string['clicktosubscribe'] = 'Ez zaude eztabaida honetara harpidetuta. Egin klik harpidetzeko.';
+$string['clicktounsubscribe'] = 'Eztabaida honetara harpidetuta zaude. Egin klik harpidetza kentzeko.';
 $string['completiondiscussions'] = 'Ikasleak eztabaida sortu behar du:';
-$string['completiondiscussionsdesc'] = 'Erabiltzaileak gutxienez {$a} elkarrizketa sortu behar ditu';
 $string['completiondiscussionsgroup'] = 'Eztabaidak behar dira';
 $string['completiondiscussionshelp'] = 'osatzeko eztabaidak behar dira';
 $string['completionposts'] = 'Ikasleak eztabaidak edo erantzunak bidali  behar ditu:';
-$string['completionpostsdesc'] = 'Erabiltzaileak gutxienez {$a} elkarrizketa edo erantzun idatzi behar ditu';
 $string['completionpostsgroup'] = 'Mezuak behar ditu';
 $string['completionpostshelp'] = 'Osatzeko eztabaidak edo erantzunak behar ditu';
 $string['completionreplies'] = 'Ikasleak eman beharreko erantzunak:';
-$string['completionrepliesdesc'] = 'Erabiltzaileak gutxienez {$a} erantzun idatzi behar ditu';
 $string['completionrepliesgroup'] = 'Erantzunak behar dira';
 $string['completionreplieshelp'] = 'osatzeko erantzunak behar dira';
 $string['configcleanreadtime'] = 'Irakurketa-taulako mezu zaharrak garbitzeko ordua';
@@ -102,16 +99,15 @@ $string['configenablerssfeeds'] = 'Honek RSS jarioetarako aukera gaitzen du foro
 $string['configenabletimedposts'] = 'Aukeratu \'bai\' foroan beste eztabaida bat erakusteko denbora tarteen ezarpenak egiten uzteko.';
 $string['configlongpost'] = 'Luzera hau gainditzen duen mezua (HTML kodea albo batera utzirik) luzeegitzat jotzen da. Gunearen hasiera-orrian, foro-formatua duten ikastaroetako orrietan edo erabiltzaile-profiletan erakutsitako mezuak laburtuko dira forum_shortpost eta forum_longpost arteko tamaina natural bateraino. Luzera hau gainditzen duen mezua (HTML kodea albo batera utzirik) luzeegitzat jotzen da.';
 $string['configmanydiscussions'] = 'Orrialde bakoitzean gehienez zenbat mezu edo eztabaida erakutsi behar diren';
-$string['configmaxattachments'] = 'Berezko gehienezko eranskin kopurua mezuko.';
+$string['configmaxattachments'] = 'Lehenetsitako gehienezko eranskin kopurua mezuko.';
 $string['configmaxbytes'] = 'Gune honetan foroetako mezuen eranskinek izan dezaketen gehienezko tamaina, besterik adierazi ezean (zerbitzariaren ezarpenen eta ikastaroaren mugen baitan)';
 $string['configoldpostdays'] = 'Mezuak zenbat egunetatik aurrera hartuko diren irakurritzat';
 $string['configreplytouser'] = 'Foroko mezu bat posta elektronikoz bidaltzen bada, erabiltzailearen helbidea izan behar al du jasotzen dutenek foroan erantzun beharrean zuzenean erantzun ala izateko? Nahiz eta \'bai\' aukeratu, erabiltzaileek beren profilean erabaki dezakete posta helbidea sekretupean mantentzea.';
-$string['configrssarticlesdefault'] = 'RSS jarioak gaituta egonez gero, ezarri berezko artikulu kopurua (eztabaidak edota mezuak).';
-$string['configrsstypedefault'] = 'RSS jarioak gaituta egonez gero, berezko jarduera mota ezartzen du.';
+$string['configrssarticlesdefault'] = 'RSS jarioak gaituta egonez gero, ezarri lehenetsitako artikulu kopurua (eztabaidak edota mezuak).';
+$string['configrsstypedefault'] = 'RSS jarioak gaituta egonez gero, lehenetsitako jarduera mota ezartzen du.';
 $string['configshortpost'] = 'Luzera honetara iristen ez den edozein mezu (HTML kodea barne hartu gabe) laburtzat hartuko da.';
-$string['configsubscriptiontype'] = 'Harpidetza-motaren berezko ezarpena';
-$string['configtrackingtype'] = 'Berezko ezarpena irakurri gabekoak nabarmentzeko.';
-$string['configtrackreadposts'] = 'Aukeratu \'bai\' erabiltzaile bakoitzarentzat irakurria/irakurri gabea arakatzeko.';
+$string['configtrackingtype'] = 'Lehenetsitako ezarpena irakurri gabekoak nabarmentzeko.';
+$string['configtrackreadposts'] = 'Aukeratu \'bai\' erabiltzaile bakoitzarentzat irakurria/irakurri gabea jarraitzeko.';
 $string['configusermarksread'] = '\'Bai\' aukeratuta eskuz markatu behar du erabiltzaileak mezua irakurria dela. \'Ez\' aukeratuta mezua ikusitakoan irakurria dela markatuko da.';
 $string['confirmsubscribe'] = 'Ziur al zaude \'{$a}\' forora harpidetu nahi duzula?';
 $string['confirmsubscribediscussion'] = 'Ziur al zaude \'{$a->forum}\' foroko \'{$a->discussion}\' eztabaidara harpidetu nahi duzula?';
@@ -122,7 +118,7 @@ $string['couldnotdeletereplies'] = 'Sentitzen dugu, hori ezin da ezabatu norbait
 $string['couldnotupdate'] = 'Ezin izan da zure mezua eguneratu; errore bat gertatu da nonbait.';
 $string['crontask'] = 'Foroko mailing eta mantenu lanak';
 $string['delete'] = 'Ezabatu';
-$string['deleteddiscussion'] = 'Mezua ezabatu da';
+$string['deleteddiscussion'] = 'Eztabaidagaia ezabatu da';
 $string['deletedpost'] = 'Mezua ezabatu da';
 $string['deletedposts'] = 'Mezuak ezabatuta';
 $string['deletesure'] = 'Ziur al zaude mezu hau ezabatu nahi duzula?';
@@ -159,7 +155,7 @@ $string['discussionsubscribestop'] = 'Ez dut eztabaida honetako mezu berrien jak
 $string['discussionsubscription'] = 'Eztabaidaren harpidetza';
 $string['discussionsubscription_help'] = 'Eztabaida batera harpidetzean bertako mezu berrien jakinarazpenak jaso nahi dituzula adierazten duzu.';
 $string['discussionunpin'] = 'Kendu finkatzea';
-$string['discussthistopic'] = 'Gai hau eztabaidatu';
+$string['discussthistopic'] = 'Eztabaidatu gai hau';
 $string['displayend'] = 'Amaiera erakutsi';
 $string['displayend_help'] = 'Ezapen honek  foroko mezuak data jakin batetik aurrera erakutsi behar diren ala ez zehazten du. Kontuan hartu  kudeatzaileek ikusiko dituztela.';
 $string['displaymode'] = 'Erakusteko modua';
@@ -181,19 +177,19 @@ $string['emaildigest_0'] = 'E-posta bat jasoko duzu foroko mezu bakoitzeko.';
 $string['emaildigest_1'] = 'Egun bakoitzean foro bakoitzeko mezuen eduki guztiak dituen laburpen mezu bat jasoko duzu.';
 $string['emaildigest_2'] = 'Egun bakoitzean foro bakoitzeko mezuen izenburuak dituen laburpen mezu bat jasoko duzu.';
 $string['emaildigestcompleteshort'] = 'Mezu osoak';
-$string['emaildigestdefault'] = 'Berezkoa ({$a})';
+$string['emaildigestdefault'] = 'Lehenetsitakoa ({$a})';
 $string['emaildigestoffshort'] = 'Laburpenik ez';
 $string['emaildigestsubjectsshort'] = 'Gaiak bakarrik';
 $string['emaildigesttype'] = 'E-posta banatzeko aukerak';
 $string['emaildigesttype_help'] = 'Foro bakoitzetik jasoko duzun jakinarazpen mota.
 
-* Berezkoa - erabiltzailearen profilean ezarritakoa jarraitzen du. Zure profila eguneratzen baduzu, aldaketa hori hemen ere islatuko da;
+* Lehenetsitakoa - erabiltzailearen profilean ezarritakoa jarraitzen du. Zure profila eguneratzen baduzu, aldaketa hori hemen ere islatuko da;
 * Laburpenik ez - foroko mezu bakoitzeko e-posta bana jasoko duzu;
 * Laburpena - osoa - egun bakoitzean foro bakoitzeko mezuen eduki guztiak dituen laburpen mezu bat jasoko duzu;
 * Laburpena - izenburua bakarrik - egun bakoitzean foro bakoitzeko mezuen izenburuak dituen laburpen mezu bat jasoko duzu.';
 $string['emaildigestupdated'] = '\'{$a->forum}\' foroko laburpen aukerak \'{$a->maildigesttitle}\'-(e)ra aldatu dira. {$a->maildigestdescription}';
 $string['emaildigestupdated_default'] = 'Zure profileko \'{$a->maildigesttitle}\' aukera erabili da \'{$a->forum}\' foroan. {$a->maildigestdescription}.';
-$string['emptymessage'] = 'Zerbait oker dabil zure mezuarekin.  Agian zurian utzi duzu, edo eranskina handiegia da.  Zure aldaketak EZ dira gorde.';
+$string['emptymessage'] = 'Zerbait oker dabil zure mezuarekin. Agian hutsik utzi duzu, edo eranskina handiegia da.  Zure aldaketak EZ dira gorde.';
 $string['erroremptymessage'] = 'Mezua ezin da hutsik egon';
 $string['erroremptysubject'] = 'Mezuaren gaia ezin da hutsik egon';
 $string['errorenrolmentrequired'] = 'Ikastaro honetan matrikulatuta egon behar duzu eduki hau ikusteko.';
@@ -223,68 +219,62 @@ $string['everyonecannowchoose'] = 'Orain bakoitzak aukeratzen du harpidetu ala e
 $string['everyoneisnowsubscribed'] = 'Orain denak daude foro honetan harpidetuta';
 $string['everyoneissubscribed'] = 'Denak daude foro honetara harpidetuta';
 $string['existingsubscribers'] = 'harpidedun daude';
-$string['exportdiscussion'] = 'Eztabaida osoa portfoliora esportatu';
+$string['exportdiscussion'] = 'Esportatu eztabaida osoa portfoliora';
 $string['forcedreadtracking'] = 'Baimendu Irakurri gabekoak nabarmentzea behartzea';
 $string['forcedreadtracking_desc'] = 'Foroak irakurri gabekoak behartzeko konfiguratu da. Honek erabiltzaile batzuen errendimendua jaits dezake, bereziki foro eta mezu askoko ikastaroetan. Desgaituz gero, aurretik Behartu ezarpena zuten foroak Aukeran gisa tratatuak izango dira.';
 $string['forcesubscribed'] = 'Foro honek denak behartzen ditu harpidetzera';
 $string['forcesubscribed_help'] = 'Foro hau eztabaidetatik baja ematea ez baimentzeko konfiguratu da.';
 $string['forum'] = 'Foroa';
-$string['forum:addinstance'] = 'Gehitu beste foro bat';
+$string['forum:addinstance'] = 'Gehitu foro berria';
 $string['forum:addnews'] = 'Gehitu albisteak';
 $string['forum:addquestion'] = 'Gehitu galdera';
 $string['forum:allowforcesubscribe'] = 'Baimendu behartutako harpidetza';
 $string['forumauthorhidden'] = 'Egilea (ezkutuan)';
 $string['forumblockingalmosttoomanyposts'] = 'Gehienezko mezu-kopurutik hurbil zaude. {$a->numposts} bidali dituzu azken {$a->blockperiod} eta gehienez {$a->blockafter} bidal daitezke.';
-$string['forumbodydeleted'] = 'Foro-elkarrizketa honetako edukiak ezabatuak izan dira eta ez daude eskuragarri.';
 $string['forumbodyhidden'] = 'Zuk ezin duzu mezu hau ikusi, ziurrenik ez duzulako eztabaida honetara mezurik bidali, editatzeko gehienezko epea agortu delako, eztabaida hasi ez delako edo eztabaida bukatu delako.';
 $string['forum:canoverridediscussionlock'] = 'Erantzun blokeatutako eztabaidetan';
 $string['forum:canposttomygroups'] = 'Sarbidea duzun talde guztietan idatzi dezakezu';
-$string['forum:createattachment'] = 'Erantsitako fitxategiak sortu';
-$string['forum:deleteanypost'] = 'Edozein mezu ezabatu (edonoiz)';
-$string['forum:deleteownpost'] = 'Norberaren mezuak ezabatu (data baino lehen)';
-$string['forum:editanypost'] = 'Edozein mezu editatu';
-$string['forum:exportdiscussion'] = 'Eztabaida osorik esportatu';
-$string['forum:exportownpost'] = 'Norberaren mezua esportatu ';
-$string['forum:exportpost'] = 'Mezua esportatu';
+$string['forum:createattachment'] = 'Sortu erantsitako fitxategiak';
+$string['forum:deleteanypost'] = 'Ezabatu edozein mezu (edonoiz)';
+$string['forum:deleteownpost'] = 'Ezabatu norberaren mezuak  (data baino lehen)';
+$string['forum:editanypost'] = 'Editatu edozein mezu';
+$string['forum:exportdiscussion'] = 'Esportatu eztabaida osoa';
+$string['forum:exportownpost'] = 'Esportatu norberaren mezua';
+$string['forum:exportpost'] = 'Esportatu mezua';
 $string['forumintro'] = 'Fororako sarrera';
-$string['forum:managesubscriptions'] = 'Kudeatu harpidedunak';
-$string['forum:movediscussions'] = 'Eztabaidak mugitu';
+$string['forum:managesubscriptions'] = 'Harpidetzak kudeatu';
+$string['forum:movediscussions'] = 'Mugitu eztabaidak';
 $string['forumname'] = 'Foroaren izena';
 $string['forum:pindiscussions'] = 'Finkatu eztabaidak';
 $string['forumposts'] = 'Foroetako mezuak';
 $string['forum:postwithoutthrottling'] = 'Blokeoa eragiteko mezu-kopururik gabe';
-$string['forum:rate'] = 'Mezuak kalifikatu';
+$string['forum:rate'] = 'Kalifikatu mezuak';
 $string['forum:replynews'] = 'Berrien foroari erantzun';
-$string['forum:replypost'] = 'Mezuei erantzun';
+$string['forum:replypost'] = 'Erantzun mezuei';
 $string['forums'] = 'Foroak';
 $string['forum:splitdiscussions'] = 'Bereizi eztabaidak';
 $string['forum:startdiscussion'] = 'Beste eztabaida bat hasi';
-$string['forumsubjectdeleted'] = 'Foro-elkarrizketa hau ezabatua izan da.';
 $string['forumsubjecthidden'] = 'Gaia (ezkutuan)';
-$string['forumtracked'] = 'Irakurri gabeko mezuak arakatzen ari dira';
-$string['forumtrackednot'] = 'Irakurri gabeko mezuak ez dira arakatzen ari';
+$string['forumtracked'] = 'Irakurri gabeko mezuen jarraipena egiten ari da';
+$string['forumtrackednot'] = 'Ez da irakurri gabeko mezuen jarraipena egiten ari';
 $string['forumtype'] = 'Foro-mota';
 $string['forumtype_help'] = '5 foro-mota daude:
 
-* Eztabaida arrunt bakarra - Gai bakarrari buruzko ideia-trukea da eta edozeinek erantzun dezake (ez du funtzionatzen banatutako taldeekin).
-* Pertsona bakoitzak eztabaida bat bidaltzen du - Pertsona bakoitzak zehazki eztabaida gai berri bat bidal dezake eta guztiek erantzun dezakete.
+* Eztabaida arrunt bakarra - Eztabaidagai bakarra dago eta bertan edozeinek erantzun dezake (ez du funtzionatzen banatutako taldeekin).
+* Pertsona bakoitzak eztabaida bat bidaltzen du - Pertsona bakoitzak zehazki eztabaida gai berri bat bidali dezake eta guztiek erantzun dezakete.
 * Galdera eta Erantzuna motako foroa - Ikasleek euren mezua bidali behar dute beste ikasleen mezuak ikusi ahal izateko.
-* Blog formatuan erakutsitako erabilera arrunteko foroa - Edozeinek edonoiz eztabaida berriari ekin ahal dion foro irekia. Eztabaida-gaiak "Gai hau eztabaidatu" estekarekin agertuko dira orrian
-* Erabilera orokorreko foro arrunta - Foro irekia da, eta bertan edonork has dezake gai berri bat edozein unetan.';
-$string['forum:viewallratings'] = 'Erabiltzaileek emandako kalifikazio guztiak ikusi';
-$string['forum:viewanyrating'] = 'Besteren batek denera jasotako kalifikazioak ikusi';
-$string['forum:viewdiscussion'] = 'Eztabaidak ikusi';
-$string['forum:viewhiddentimedposts'] = 'Programatutako ezkutuko mezuak ikusi';
-$string['forum:viewqandawithoutposting'] = 'G eta E mezuak ikusi beti';
-$string['forum:viewrating'] = 'Denera jasotako kalifikazioak ikusi';
-$string['forum:viewsubscribers'] = 'Harpidedunak ikusi';
+* Blog formatuan erakutsitako erabilera arrunteko foroa - Edozeinek edonoiz eztabaidagai berriak sortu ditzakeen foro irekia. Eztabaidagaiak "Eztabaidatu gai hau" estekarekin agertuko dira orrian
+* Erabilera orokorreko foro arrunta - Foro irekia da, eta bertan edozeinek edonoiz eztabaidagai berriak sortu ditzake';
+$string['forum:viewallratings'] = 'Ikusi erabiltzaileek emandako kalifikazio guztiak';
+$string['forum:viewanyrating'] = 'Ikusi besteren batek denera jasotako kalifikazioak';
+$string['forum:viewdiscussion'] = 'Ikusi eztabaidak';
+$string['forum:viewhiddentimedposts'] = 'Ikusi programatutako mezu ezkutuak';
+$string['forum:viewqandawithoutposting'] = 'Ikusi beti G eta E mezuak';
+$string['forum:viewrating'] = 'Ikusi denera jasotako kalifikazioak';
+$string['forum:viewsubscribers'] = 'Ikusi harpidedunak';
 $string['generalforum'] = 'Erabilera orokorrerako foro arrunta';
 $string['generalforums'] = 'Foro orokorrak';
 $string['hiddenforumpost'] = 'Ezkutatutako foro-mezua';
-$string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa foroetan';
-$string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Foroa motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
-$string['indicator:socialbreadth'] = 'Gaitasun soziala foroetan';
-$string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Foroa motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['inforum'] = 'Non: {$a}';
 $string['introblog'] = 'Foro honetako mezuak automatikoki ekarri dira erabiltzaileen blogetatik blog sarrera hauek dagoeneko ez daudelako eskuragarri';
 $string['intronews'] = 'Berri orokorrak eta iragarpenak';
@@ -302,20 +292,18 @@ $string['learningforums'] = 'Ikasteko foroak';
 $string['lockdiscussionafter'] = 'Blokeatu eztabaidak jardunik gabeko epe baten ondoren';
 $string['lockdiscussionafter_help'] = 'Eztabaidak automatikoki blokeatu daitezke azken erantzunetik denbora-tarte bat igaro ondoren.
 
-Blokeatutako eztabaidetan erantzuteko baimena duten erabiltzaileek eztabaidak desblokeatu ditzakete bertan erantzunez.';
+Blokeatutako eztabaidetan erantzuteko gaitasuna duten erabiltzaileek eztabaidak desblokeatu ditzakete bertan erantzunez.';
 $string['longpost'] = 'Mezu luzea';
 $string['mailnow'] = 'Bidali foroko mezuen jakinarazpenak editatzeko atzerapen tarterik gabe';
-$string['managesubscriptionsoff'] = 'Amaitu harpidetzen kudeaketa';
-$string['managesubscriptionson'] = 'Kudeatu harpidedunak';
 $string['manydiscussions'] = 'Eztabaidak orriko';
-$string['markalldread'] = 'Hartu eztabaida honetako mezu guztiak irakurritzat';
-$string['markallread'] = 'Hartu foro honetako mezu guztiak irakurritzat';
+$string['markalldread'] = 'Markatu eztabaida honetako mezu guztiak irakurritzat';
+$string['markallread'] = 'Markatu foro honetako mezu guztiak irakurritzat';
 $string['markasreadonnotification'] = 'Foroko mezuen jakinarazpenak bidaltzean';
-$string['markasreadonnotification_help'] = 'Foroko mezu batez jakinarazten zaizunean, foroko jarraipenerako mezu hori irakurritzat eman nahi duzun aukera dezakezu.';
-$string['markasreadonnotificationno'] = 'Ez eman mezua irakurritzat';
-$string['markasreadonnotificationyes'] = 'Eman mezua irakurritzat';
-$string['markread'] = 'Irakurritzat eman';
-$string['markreadbutton'] = 'Irakurritzat<br/>eman';
+$string['markasreadonnotification_help'] = 'Foroko mezu batez jakinarazten zaizunean, foroko jarraipenerako mezu hori irakurritzat markatu nahi duzun aukera dezakezu.';
+$string['markasreadonnotificationno'] = 'Ez markatu mezua irakurritzat';
+$string['markasreadonnotificationyes'] = 'Markatu mezua irakurritzat';
+$string['markread'] = 'Markatu irakurritzat';
+$string['markreadbutton'] = 'Markatu<br/>irakurritzat';
 $string['markunread'] = 'Irakurri gabetzat eman';
 $string['markunreadbutton'] = 'Irakurri gabetzat<br/>eman';
 $string['maxattachments'] = 'Gehienezko eranskin-kopurua';
@@ -344,7 +332,7 @@ Badira zenbait foro-mota aukeran, hala nola foro estandarra (non edonork edozein
 
 Ikasle eta irakasleak foroetako mezuen jakinarazpenak jasotzeko harpidetu daitezke. Irakasleek harpidetza aukeran, behartua edo automatikoa ezar dezakete, baita harpidetza guztiz desgaitu ere. Nahi izanez gero, ikasleek denbora epe zehatzetan idatz dezaketen mezu kopurua blokea daiteke; modu honetan gizabanakoak eztabaidetan nagusitzea saihestu daiteke.
 
-Irakasleek foroetako mezuak kalifika ditzakete, baita ikasleek ere (berdinen ebaluazioa). Ebaluazioak pila daitezke behin-betiko ebaluazioa lortzeko, eta azken hau izango da kalifikatzailean gordeko dena.
+Irakasleek foroetako mezuak kalifika ditzakete, baita ikasleek ere (parekoen arteko ebaluazioa). Ebaluazioak batu daitezke behin-betiko ebaluazioa lortzeko, eta azken hau izango da kalifikatzailean gordeko dena.
 
 Foroak erabilera anitzak izan ditzake, hala nola
 
@@ -365,13 +353,13 @@ $string['myprofileotherdis'] = 'Foro-eztabaidak';
 $string['myprofileowndis'] = 'Nire foro-eztabaidak';
 $string['myprofileownpost'] = 'Nire foroetako mezuak';
 $string['namenews'] = 'Berrien foroa';
-$string['namenews_help'] = 'Berrien foroa jakinarazpenetarako foro berezia da eta berez sortzen da ikastaro bat sortzen denean. Ikastaro batek berrien foro bakarra izan ahal du. Soilik irakasleek eta kudeatzaileek idatzi ditzakete berriak. "Azken berriak" blokeak foro berezi honetako azken eztabaidak erakusten ditu.';
+$string['namenews_help'] = 'Berrien foroa jakinarazpenetarako foro berezia da eta automatikoki sortzen da ikastaro bat sortzen denean. Ikastaro batek berrien foro bakarra izan ahal du. Soilik irakasleek eta kudeatzaileek idatzi ditzakete berriak. "Azken berriak" blokeak foro berezi honetako azken eztabaidak erakusten ditu.';
 $string['namesocial'] = 'Foro irekia';
 $string['nameteacher'] = 'Irakasleen foroa';
 $string['newforumposts'] = 'Mezu berriak';
 $string['nextdiscussiona'] = 'Hurrengo eztabaida: {$a}';
 $string['noattachments'] = 'Mezu honek ez du eranskinik';
-$string['nodiscussions'] = 'Oraindik ez dago mezurik foro honetan';
+$string['nodiscussions'] = 'Oraindik ez dago eztabaidagairik foro honetan';
 $string['nodiscussionsstartedby'] = '{$a} erabiltzaileak ez du eztabaidarik hasi';
 $string['nodiscussionsstartedbyyou'] = 'Zeuk oraindik ez duzu eztabaidarik hasi';
 $string['noguestpost'] = 'Sentitzen dugu, bisitariek ezin dute mezurik bidali.';
@@ -413,14 +401,14 @@ $string['page-mod-forum-view'] = 'Foroaren orri nagusia';
 $string['page-mod-forum-x'] = 'Foroaren edozein orri';
 $string['parent'] = 'Erakutsi abiapuntua';
 $string['parentofthispost'] = 'Mezu honen abiapuntua';
-$string['permalink'] = 'Lotura iraunkorra';
+$string['permalink'] = 'Esteka iraunkorra';
 $string['pluginadministration'] = 'Foroaren kudeaketa';
 $string['pluginname'] = 'Foroa';
 $string['postadded'] = '<p>Zure bidalketa ondo gehitu da.</p> <p>Aldaketaren bat egin nahi baduzu {$a} dituzu berau editatzeko.</p>';
 $string['postaddedsuccess'] = 'Zure mezua ondo gehitu da.';
 $string['postaddedtimeleft'] = 'Aldaketaren bat egin nahi baduzu, {$a} dituzu mezu hau editatzeko.';
-$string['postbymailsuccess'] = 'Zorionak, idatzi duzun eta ondoko gaia "{$a->subject}" duen mezua ondo bidali da. Mezua hurrengo helbidean ikusi dezakezu {$a->discussionurl}.';
-$string['postbymailsuccess_html'] = 'Zorionak, idatzi duzun eta ondoko gaia "{$a->subject}" <a href="{$a->discussionurl}">duen mezua</a> ondo bidali da.';
+$string['postbymailsuccess'] = 'Zorionak, idatzi duzun eta "{$a->subject}" gaia duen mezua ondo bidali da. Mezua hurrengo helbidean ikusi dezakezu {$a->discussionurl}.';
+$string['postbymailsuccess_html'] = 'Zorionak, idatzi duzun eta "{$a->subject}" gaia <a href="{$a->discussionurl}">duen mezua</a> ondo bidali da.';
 $string['postbyuser'] = '{$a->user}-(r)en {$a->post}';
 $string['postincontext'] = 'Mezu hau testuinguruan ikusi';
 $string['postmailinfo'] = 'Hau {$a} web gunean argitaratutako mezu baten kopia da.
@@ -428,7 +416,7 @@ $string['postmailinfo'] = 'Hau {$a} web gunean argitaratutako mezu baten kopia d
 Erantzuteko, sakatu esteka honi:';
 $string['postmailinfolink'] = 'Hau {$a->coursename} ikastaroan argitaratutako mezu baten kopia da.
 
-Erantzuteko sakatu esteka honi: {$a->replylink}';
+Erantzuteko egin klik esteka honetan: {$a->replylink}';
 $string['postmailnow'] = '<p>Mezu hau forora harpidetutako guztiei berehala bidaliko zaie.</p>';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Batez ere banatutako jakintza';
@@ -437,76 +425,21 @@ $string['postrating3'] = 'Batez ere lotutako jakintza';
 $string['posts'] = 'Mezuak';
 $string['postsmadebyuser'] = 'Mezuen egilea: {$a}';
 $string['postsmadebyuserincourse'] = 'Mezuen egilea {$a->fullname} da ondoko ikastaroan: {$a->coursename}';
-$string['posttoforum'] = 'Mezua forora bidali';
+$string['posttoforum'] = 'Bidali mezua forora';
 $string['posttomygroups'] = 'Idatzi kopia bat talde guztietan';
 $string['posttomygroups_help'] = 'Sarbidea duzun talde guztietan mezu honen kopia bat idazten du. Sarbiderik ez duzun taldeetako partaideek ez dute zure mezua ikusiko.';
 $string['postupdated'] = 'Zure mezua eguneratu da';
 $string['potentialsubscribers'] = 'Balizko harpidedunak';
 $string['prevdiscussiona'] = 'Aurreko harpidetza: {$a}';
-$string['privacy:digesttypenone'] = 'Ez dugu foro honetako hobetsitako bidalka-moten inguruko daturik biltzen.';
-$string['privacy:digesttypepreference'] = 'Foroetako bidalketak jasotzeko hurrengo bidalketa-mota hau aukeratu duzu: "{$a->type}".';
-$string['privacy:discussionsubscriptionpreference'] = 'Foro honetako hurrengo elkarrizketa-harpidetzen hobespen hau aukeratu duzu: "{$a->preference}"';
-$string['privacy:metadata:core_rating'] = 'Foroak kalifikazioen sistema erabiltzen du mezuen kalifikazioa egiteko.';
-$string['privacy:metadata:core_tag'] = 'Foroak etiketen sistema erabiltzen du mezuen etiketatzea egiteko.';
-$string['privacy:metadata:forum_digests'] = 'Foro bakoitzeko bidalketaren inguruko informazioa.';
-$string['privacy:metadata:forum_digests:forum'] = 'Harpidetutako foroa.';
-$string['privacy:metadata:forum_digests:maildigest'] = 'Bidalketen hobespena.';
-$string['privacy:metadata:forum_digests:userid'] = 'Bidalketa-hobespena duen erabiltzailearen IDa.';
-$string['privacy:metadata:forum_discussions'] = 'Erabiltzaile batek sortutako foroetako elkarrizketa bakoitzaren inguruko informazioa.';
-$string['privacy:metadata:forum_discussions:name'] = 'Elkarrizketaren izena, egileak aukeratu duen eran.';
-$string['privacy:metadata:forum_discussions:timemodified'] = 'Elkarrizketa azkenengoz aldatu zeneko unea.';
-$string['privacy:metadata:forum_discussion_subs'] = 'Foro-elkarrizketa bakoitzeko harpidetzen inguruko informazioa.';
-$string['privacy:metadata:forum_discussion_subs:discussionid'] = 'Harpidetutako elkarrizketaren IDa.';
-$string['privacy:metadata:forum_discussion_subs:preference'] = 'Harpidetzaren hasiera-unea.';
-$string['privacy:metadata:forum_discussion_subs:userid'] = 'Elkarrizketa-harpidetza duen erabiltzailearen IDa.';
-$string['privacy:metadata:forum_discussions:userid'] = 'Elkarrizketa sortu zuen erabiltzailearen IDa.';
-$string['privacy:metadata:forum_discussions:usermodified'] = 'Elkarrizketa moduren batean azkenengoz aldatu zuen erabiltzailearen IDa.';
-$string['privacy:metadata:forum_posts'] = 'Foro bakoitzeko bidalketa-hobespenen inguruko informazioa.';
-$string['privacy:metadata:forum_posts:created'] = 'Mezua sortu zeneko unea.';
-$string['privacy:metadata:forum_posts:discussion'] = 'Mezua dagoen elkarrizketa.';
-$string['privacy:metadata:forum_posts:message'] = 'Foro-mezuaren mezua.';
-$string['privacy:metadata:forum_posts:modified'] = 'Mezua azkenengoz aldatu zeneko unea.';
-$string['privacy:metadata:forum_posts:parent'] = 'Mezuak erantzun duen jatorrizko mezua.';
-$string['privacy:metadata:forum_posts:subject'] = 'Foro-mezuaren gaia.';
-$string['privacy:metadata:forum_posts:totalscore'] = 'Foro-mezuaren mezua.';
-$string['privacy:metadata:forum_posts:userid'] = 'Foro-mezuaren egilearen erabiltzaile-IDa.';
-$string['privacy:metadata:forum_queue'] = 'Laburpenaren bidalketan bidaliko diren mezuen behin behineko biltegia';
-$string['privacy:metadata:forum_queue:discussionid'] = 'Foro-elkarrizketaren IDa';
-$string['privacy:metadata:forum_queue:postid'] = 'Foru-mezuaren IDa';
-$string['privacy:metadata:forum_queue:timemodified'] = 'Jatorrizko mezuaren aldaketa-unea.';
-$string['privacy:metadata:forum_queue:userid'] = 'Mezuaren jakinarazpena jaso behar duen erabiltzailea';
-$string['privacy:metadata:forum_read'] = 'Erabiltzaileak irakurri dituen mezuen inguruko informazioa.';
-$string['privacy:metadata:forum_read:discussionid'] = 'Mezua dagoen elkarrizketa.';
-$string['privacy:metadata:forum_read:firstread'] = 'Mezua lehen aldiz irakurri zeneko unea.';
-$string['privacy:metadata:forum_read:lastread'] = 'Mezua azkenengoz irakurri zeneko unea.';
-$string['privacy:metadata:forum_read:postid'] = 'Irakurritako mezua.';
-$string['privacy:metadata:forum_read:userid'] = 'Erregistro honi dagokion erabiltzailearen IDa.';
-$string['privacy:metadata:forum_subscriptions'] = 'Erabiltzailearen foro-harpidetzen inguruko informazioa.';
-$string['privacy:metadata:forum_subscriptions:forum'] = 'Harpidetutako foroa.';
-$string['privacy:metadata:forum_subscriptions:userid'] = 'Foro-harpidetza honi dagokion erabiltzailearen IDa.';
-$string['privacy:metadata:forum_track_prefs'] = 'Erabiltzaileak jarraitzea erabaki duen foroetako mezuen inguruko informazioa.';
-$string['privacy:metadata:forum_track_prefs:forumid'] = 'Irakurri gabekoak nabarmentzea gaituta duen foroa.';
-$string['privacy:metadata:forum_track_prefs:userid'] = 'Foro honetako jarraipen-hobespenari dagokion erabiltzailearen IDa.';
-$string['privacy:metadata:preference:autosubscribe'] = 'Mezuei erantzutean elkarrizketara harpidetzea edo ez.';
-$string['privacy:metadata:preference:maildigest'] = 'Gune mailako e-posta bidalketaren hobespena.';
-$string['privacy:metadata:preference:markasreadonnotification'] = 'Jakinarazpenak jasotzean foroetako mezuak irakurritzat markatzea edo ez.';
-$string['privacy:metadata:preference:trackforums'] = 'Irakurri gabekoak nabarmentzea gaitzea edo ez.';
-$string['privacy:postwasread'] = 'Mezu hau lehen aldiz {$a->firstread}-(e)an eta azkenengoz {$a->lastread}-(e)an irakurri zen';
-$string['privacy:readtrackingdisabled'] = 'Foro honen barruan irakurritako mezuak ez jarraitzea aukeratu duzu.';
-$string['privacy:request:delete:discussion:name'] = 'Ezabatu egilearen eskaera dagoenean';
-$string['privacy:request:delete:post:message'] = 'Mezu honen edukia ezabatua izan da egilearen eskaeraren ondorioz.';
-$string['privacy:request:delete:post:subject'] = 'Ezabatu egilearen eskaera dagoenean';
-$string['privacy:subscribedtoforum'] = 'Foro honetara harpidetuta zaude.';
 $string['processingdigest'] = 'Mezuen banaketa bidaltzen ondorengo erabiltzailearentzat: {$a}';
-$string['processingpost'] = '{$a} mezuaren bidalketa ari da';
+$string['processingpost'] = '{$a} mezua prozesatzen ari da';
 $string['prune'] = 'Bereizi';
 $string['prunedpost'] = 'Eztabaida berria sortu da mezu hau erabiliz';
 $string['pruneheading'] = 'Bereizi eztabaida eta mugitu mezu hau eztabaida berri batera';
 $string['qandaforum'] = 'G eta E foroa';
 $string['qandanotify'] = 'Foro hau galdera-erantzun motakoa da. Beste erantzun batzuk ikasi ahal izateko, lehenik zeure erantzuna bidali behar duzu';
 $string['re'] = 'Er:';
-$string['readtherest'] = 'Gai osoa irakurri';
-$string['removeallforumtags'] = 'Ezabatu foroaren etiketa guztiak';
+$string['readtherest'] = 'Irakurri gai osoa';
 $string['replies'] = 'Erantzunak';
 $string['repliesmany'] = '{$a} erantzun orain arte';
 $string['repliesone'] = 'erantzun {$a} orain arte';
@@ -515,12 +448,12 @@ $string['replyforum'] = 'Erantzuna forora bidali';
 $string['reply_handler'] = 'Erantzun e-postaz foroetako mezuei';
 $string['reply_handler_name'] = 'Erantzun foroko mezuei';
 $string['replytopostbyemail'] = 'Mezu honi e-postaz erantzun diezaiokezu.';
-$string['replytouser'] = 'Erantzuteko e-posta helbidea erabili';
+$string['replytouser'] = 'Erabili e-posta helbidea erantzunean';
 $string['resetdigests'] = 'Ezabatu erabiltzailekako foroetako mezuak e-postaz jasotzeko hobespenak';
 $string['resetforums'] = 'Ezabatu mezuak hemendik:';
-$string['resetforumsall'] = 'Mezu guztiak ezabatu';
-$string['resetsubscriptions'] = 'Foro guztietako harpidetzak ezabatu';
-$string['resettrackprefs'] = 'Foro guztietako nabarmentzerako hobespenak ezabatu';
+$string['resetforumsall'] = 'Ezabatu mezu guztiak';
+$string['resetsubscriptions'] = 'Ezabatu foroetako harpidetza guztiak';
+$string['resettrackprefs'] = 'Ezabatu foroetako nabarmentzerako hobespen guztiak';
 $string['rssarticles'] = 'Azken RSS artikulu-kopurua';
 $string['rssarticles_help'] = '<p>Aukera honekin RSS jarioetan agertuko den artikulu-kopurua aukera
 dezakezu.</p>
@@ -543,10 +476,9 @@ $string['searchphrase'] = 'Mezuan esaldi hau osorik agertu behar litzateke';
 $string['search:post'] = 'Foroa - mezuak';
 $string['searchresults'] = 'Bilaketaren emaitzak';
 $string['searchsubject'] = 'Hitz hauek izenburuan agertu behar lirateke';
-$string['searchtags'] = 'hurrengo etiketa dauka:';
 $string['searchuser'] = 'Izen hau egilearena izan behar litzateke';
 $string['searchuserid'] = 'Egilearen ID-a Moodle-n';
-$string['searchwhichforums'] = 'Zein forotan bilatu behar den aukeratu';
+$string['searchwhichforums'] = 'Aukeratu zein forotan bilatu behar den';
 $string['searchwords'] = 'Hitz hauek mezuaren edozein lekutan ager daitezke';
 $string['seeallposts'] = 'Erabiltzaile honen mezu guztiak ikusi';
 $string['shortpost'] = 'Mezu laburra';
@@ -563,6 +495,7 @@ $string['subscribediscussion'] = 'Harpidetu eztabaida honetara';
 $string['subscribeenrolledonly'] = 'Sentitzen dugu, matrikulatutako erabiltzaileek bakarrik egin dezakete harpidetza foroko mezuak e-postaz jasotzeko.';
 $string['subscribenone'] = 'Denen harpidetza ezabatu foro honetan';
 $string['subscribers'] = 'Harpidedunak';
+$string['subscribersto'] = '\'{$a->name}\'(e)ko harpidedunak';
 $string['subscriberstowithcount'] = '"{$a->name}"-(e)ko harpidedunak ({$a->count})';
 $string['subscribestart'] = 'Bidali e-postaz foro honetako mezu berriak';
 $string['subscribestop'] = 'Ez dut foro honetako mezuen jakinarazpenik jaso nahi.';
@@ -573,30 +506,32 @@ $string['subscriptiondisabled'] = 'Harpidetza desgaituta';
 $string['subscriptionforced'] = 'Harpidetza behartua';
 $string['subscription_help'] = 'Foro batera harpidetzen bazara, foro horretara bidaltzen diren mezuen jakinarazpena jasoko duzu. Oro har, aukera dezakezu foro batera harpidetu ala ez. Hala ere, irakasle batek foro jakin batera harpidetzera behartzeko modua du, eta orduan partaide guztiek mezuen jakinarazpenak jasoko dituzte.';
 $string['subscriptionmode'] = 'Harpidetza-mota';
-$string['subscriptionmode_help'] = 'Partaide bat foro bateko harpideduna denean foro horretako mezuetako jakinarazpenak jasoko ditu. 4 harpidetza-mota daude:
+$string['subscriptionmode_help'] = 'Foroan harpidetzen direnek bidalitako mezuen kopia bana jasoko dute e-postaz.
+
+4 harpidetza-mota daude:
 
 * Aukerako harpidetza - partaideek aukeran dute harpidetu ala ez
-* Harpidetza behartua - guztiak egongo dira beti harpidetuta eta ezingo dute harpidetza kendu
-* Harpidetza automatikoa - hasieran guztiak daude harpidetuta baina edonork edozein unetan harpidetza kendu dezake
-* Harpidetza desgaituta - harpidetza ez dago baimenduta';
+* Harpidertzera behartu - guztiak egongo dira beti harpidetuta eta ezingo dute hori aldatu
+* Harpidetza automatikoa - hasieran guztiak daude harpidetuta baina gero aukeran izango dute horrela segitzea ala ez
+* Harpidetza desgaituta - harpidetza ez dago baimenduta
+
+Oharra: Harpidetza-motan egindako edozein aldaketek eotrkizunean matrikulatzen diren erabiltzaileengan bakarrik izango du eragina, ez ordea jada matrikulaturik daudenengan.';
 $string['subscriptionoptional'] = 'Harpidetza aukeran';
 $string['subscriptions'] = 'Harpidetzak';
-$string['tagarea_forum_posts'] = 'Foroko mezuak';
-$string['tagsdeleted'] = 'Foroko etiketak ezabatu dira';
 $string['thisforumisthrottled'] = 'Foro honek mezu-kopuru mugatua du denbora-tarte jakin batean. Une honetan honela ezarrita dago:   {$a->blockafter} mezu bidaltzea {$a->blockperiod}-(e)ko epean';
 $string['timedhidden'] = 'Programatutako egoera: Ezkutatuta ikasleei';
 $string['timedposts'] = 'Programatutako mezuak';
 $string['timedvisible'] = 'Programatutako egoera: Ikusgai erabiltzaile guztientzat';
 $string['timestartenderror'] = 'Amaiera-data ezin da izan hasiera-data baino lehenagokoa';
 $string['trackforum'] = 'Nabarmendu irakurri gabeko mezuak';
-$string['tracking'] = 'Nabarmendu';
-$string['trackingoff'] = 'Ezgaituta';
+$string['tracking'] = 'Nabarmentzea';
+$string['trackingoff'] = 'Desgaituta';
 $string['trackingon'] = 'Behartuta';
 $string['trackingoptional'] = 'Aukeran';
-$string['trackingtype'] = 'Irakurri gabekoak nabarmendu';
+$string['trackingtype'] = 'Irakurri gabekoen nabarmentzea';
 $string['trackingtype_help'] = 'Irakurketaren jarraipenaren bitartez partaideek irakurri gabeko mezuak konprobatu egin ditzakete mezu berriak nabarmenduz.
 
-Aukeran utziz gero partaideek kudeaketa blokean nabarmentzea ala ez aukeratu dezakete. (Foroen jarraipena erabiltzailearen profilean ere gaituta egon behar du.)
+Aukeran utziz gero partaideek kudeaketa blokean nabarmentzea ala ez aukeratu dezakete. (Foroen nabarmentzea erabiltzailearen profilean ere gaituta egon behar du.)
 
 Gunearen kudeaketan "Baimendu Irakurri gabekoak nabarmentzea behartzea" gaituta badago, beste aukera bat agertuko da - behartuta. Aukera honek jarraipena beti gaituta egotea ahalbidetzen du, erabiltzailearen hobespenak edozein izanda ere.';
 $string['trackreadposts_header'] = 'Foroko jarraipena';

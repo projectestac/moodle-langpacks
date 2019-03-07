@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'grades', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,7 +61,7 @@ $string['aggregationcoefextrasum'] = 'Credito extra';
 $string['aggregationcoefextrasumabbr'] = '+';
 $string['aggregationcoefextrasum_help'] = 'Selezionando "Credito extra", il punteggio massimo dell\'elemento di valutazione non sarà sommato al punteggio massimo della categoria, rendendo possibile il raggiungimento del punteggio massimo della categoria (o il voto privo di limiti se la funzione è stata abilitata dall\'amministratore) senza aver ottenuto il punteggio massimo in tutti gli elementi di valutazione.';
 $string['aggregationcoefextraweight'] = 'Peso credito extra';
-$string['aggregationcoefextraweight_help'] = 'Se il credito extra è una valore maggiore di zero, la valutazione fungerà da credito extra durante l\'aggregazione. Il numero rappresenta il fattore per il quale sarà moltiplicata la valutazione prima die essere aggiunta al totale utilizzato per il calcolo della media.';
+$string['aggregationcoefextraweight_help'] = 'Se il credito extra è un valore maggiore di zero, la valutazione fungerà da credito extra durante l\'aggregazione. Il numero rappresenta il fattore per il quale sarà moltiplicata la valutazione prima di essere aggiunta al totale utilizzato per il calcolo della media.';
 $string['aggregationcoefweight'] = 'Peso dell\'elemento';
 $string['aggregationcoefweight_help'] = '<p>Peso applicato ai voti durante l\'aggregazione.</p>';
 $string['aggregation_help'] = 'L\'aggregazione determina la modalità di calcolo della valutazione complessiva per una data categoria.
@@ -106,6 +106,7 @@ $string['calculationsaved'] = 'Calcolo salvato';
 $string['calculationview'] = 'Visualizza calcolo';
 $string['cannotaccessgroup'] = 'Spiacente, non è possibile accedere ai voti del gruppo selezionato.';
 $string['categories'] = 'Categorie';
+$string['categoriesanditems'] = 'Categorie ed elementi';
 $string['category'] = 'Categoria';
 $string['categoryedit'] = 'Modifica categoria';
 $string['categoryname'] = 'Nome categoria';
@@ -447,7 +448,7 @@ $string['meanselection_help'] = 'E\' possibile scegliere come calcolare le medie
 $string['median'] = 'Mediana';
 $string['min'] = 'Minimo';
 $string['minimum_show'] = 'Visualizza voto minimo';
-$string['minimum_show_help'] = 'Il voto minimo viene usato nel calcolo delle valutazione e dei pesi. Se non visualizzato, come voto minimo per default sarà pari a zero e non potrà essere modificato.';
+$string['minimum_show_help'] = 'Il voto minimo viene usato nel calcolo delle valutazione e dei pesi. Se non visualizzato, come voto minimo di default sarà pari a zero e non potrà essere modificato.';
 $string['minmaxtouse'] = 'Valutazione minima e massima utilizzata per i calcoli';
 $string['minmaxtouse_desc'] = 'Per il calcolo della valutazione visualizzata nel registro del valutatore, è possibile scegliere di utilizzare la valutazione minima e massima iniziale oppure la valutazione minima e massima specificata nelle impostazioni dell\'elemento di valutazione. Si raccomanda di modificare questa impostazioni durante momenti di basso carico poiché il ricalcolo delle valutazioni può comportare un carico elevato sul server.';
 $string['minmaxtouse_help'] = 'Per il calcolo della valutazione visualizzata nel registro del valutatore, è possibile scegliere di utilizzare la valutazione minima e massima iniziale oppure la valutazione minima e massima specificata nelle impostazioni dell\'elemento di valutazione';
@@ -655,7 +656,7 @@ $string['showactivityicons_help'] = 'Visualizza, oltre al nome, anche l\'icona r
 $string['showallhidden'] = 'Visualizza voti nascosti';
 $string['showallstudents'] = 'Visualizza tutti gli studenti';
 $string['showanalysisicon'] = 'Visualizza icona Analisi delle valutazioni';
-$string['showanalysisicon_desc'] = 'Visualizza per default l\'icona Analisi delle valutazioni. Se il modulo di attività lo supporta, l\'icona Analisi delle valutazioni sarà un link ad una pagina con il dettaglio sulla valutazione e come è stata raggiunta.';
+$string['showanalysisicon_desc'] = 'Visualizza di default l\'icona Analisi delle valutazioni. Se il modulo di attività lo supporta, l\'icona Analisi delle valutazioni sarà un link ad una pagina con il dettaglio sulla valutazione e come è stata raggiunta.';
 $string['showanalysisicon_help'] = 'Se il modulo di attività lo supporta, l\'icona Analisi delle valutazioni sarà un link ad una pagina con il dettaglio sulla valutazione e come è stata raggiunta.';
 $string['showaverage'] = 'Visualizza media';
 $string['showaverage_help'] = 'Se visualizzare o meno la colonna della media. Da notare che gli studenti potrebbero essere in grado di ricavare i voti degli altri studenti se le medie sono calcolate da una campione di pochi valori. Per motivi di performance le medie dipendenti da voti nascoste sono approssimate.';
@@ -745,7 +746,7 @@ $string['uncategorised'] = 'Senza categoria';
 $string['unchangedgrade'] = 'Valutazione non modificata';
 $string['unenrolledusersinimport'] = 'Questa importazione includeva le seguenti valutazioni per utenti attualmente non iscritti in questo corso: {$a}';
 $string['unlimitedgrades'] = 'Voti privi di limiti';
-$string['unlimitedgrades_help'] = 'Per default i voti sono limitati dal valore massimo e minino dell\'elemento di valutazione. Abilitando questa impostazione sarà possibile rimuovere questi limiti ed usare voti superiori al 100% da inserire direttamente nel registro del valutatore.';
+$string['unlimitedgrades_help'] = 'Di default i voti sono limitati dal valore massimo e minino dell\'elemento di valutazione. Abilitando questa impostazione sarà possibile rimuovere questi limiti ed usare voti superiori al 100% da inserire direttamente nel registro del valutatore.';
 $string['unlock'] = 'Sblocca';
 $string['unlockverbose'] = 'Sblocca {$a->category} {$a->itemmodule} {$a->itemname';
 $string['unused'] = 'Non usato';

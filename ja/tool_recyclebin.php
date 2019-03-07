@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_recyclebin', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_recyclebin', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_recyclebin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['categorybinexpiry_desc'] = 'どのくらいの期間、ごみ箱に削�
 $string['coursebinenable'] = 'コースごみ箱を有効にする';
 $string['coursebinexpiry'] = 'アイテム保存期間';
 $string['coursebinexpiry_desc'] = 'どのくらいの期間、ごみ箱に削除済みアイテムを保持しますか?';
-$string['datedeleted'] = '日付が削除されました。';
+$string['datedeleted'] = '削除日時';
 $string['deleteall'] = 'すべてを削除する';
 $string['deleteallconfirm'] = '本当にすべてのアイテムをごみ箱から削除してもよろしいですか?';
 $string['deleteconfirm'] = '本当に選択したアイテムをごみ箱から削除してもよろしいですか?';
@@ -51,7 +51,6 @@ $string['invalidcontext'] = '無効なコンテンツが提供されました。
 $string['noitemsinbin'] = 'ごみ箱にアイテムはありません。';
 $string['notenabled'] = '申し訳ございません、ごみ箱は管理者によって無効にされています。';
 $string['pluginname'] = 'ごみ箱';
-$string['privacy:metadata'] = 'ごみ箱プラグインはどのような個人データも保存しません。';
 $string['recyclebin:deleteitems'] = 'ごみ箱アイテムを削除する';
 $string['recyclebin:restoreitems'] = 'ごみ箱アイテムをリストアする';
 $string['recyclebin:viewitems'] = 'ごみ箱アイテムを表示する';

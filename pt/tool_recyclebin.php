@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_recyclebin', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_recyclebin', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_recyclebin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,8 +38,8 @@ $string['coursebinexpiry'] = 'Tempo de vida do item';
 $string['coursebinexpiry_desc'] = 'Por quanto tempo deverá um item apagado permanecer na reciclagem?';
 $string['datedeleted'] = 'Data apagada';
 $string['deleteall'] = 'Esvaziar reciclagem';
-$string['deleteallconfirm'] = 'Tem a certeza que pretende apagar todos os itens da reciclagem?';
-$string['deleteconfirm'] = 'Tem a certeza que pretende apagar o item selecionado da reciclagem?';
+$string['deleteallconfirm'] = 'Tem a certeza de que pretende apagar todos os itens da reciclagem?';
+$string['deleteconfirm'] = 'Tem a certeza de que pretende apagar o item selecionado da reciclagem?';
 $string['deleteexpirywarning'] = 'Os conteúdos serão permanentemente apagados após {$a}.';
 $string['eventitemcreated'] = 'Item criado';
 $string['eventitemcreated_desc'] = 'Item criado com o ID {$a->objectid}.';
@@ -51,7 +51,6 @@ $string['invalidcontext'] = 'Contexto fornecido inválido.';
 $string['noitemsinbin'] = 'A reciclagem está vazia.';
 $string['notenabled'] = 'Desculpe, mas a funcionalidade reciclagem foi desativada pelo administrador.';
 $string['pluginname'] = 'Reciclagem';
-$string['privacy:metadata'] = 'O módulo Reciclagem não armazena dados pessoais.';
 $string['recyclebin:deleteitems'] = 'Apagar itens da reciclagem';
 $string['recyclebin:restoreitems'] = 'Restaurar itens da reciclagem';
 $string['recyclebin:viewitems'] = 'Ver itens da reciclagem';

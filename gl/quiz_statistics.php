@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz_statistics', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -84,6 +84,7 @@ $string['negcovar_help'] = 'A cualificación da pregunta para este conxunto de i
 A nosa ecuación para a ponderación efectiva da pregunta non pode calcularse neste caso. Os cálculos para a ponderación efectiva da pregunta para as outras preguntas desta proba son a ponderación efectiva da pregunta se as preguntas resaltadas cunha covarianza negativa teñen unha cualificación máxima de cero.
 
 Se edita unha proba e ponlle a esta(s) pregunta(s) con covarianza negativa unha cualificación máxima de cero, entón  a ponderación efectiva destas preguntas será cero e a ponderación efectiva real da pregunta será como se calcule agora.';
+$string['nogradedattempts'] = 'Non se realizaron intentos nesta proba, ou todos os intentos teñen preguntas que precisan a cualificación manual.';
 $string['nostudentsingroup'] = 'Aínda non hai alumnos neste grupo';
 $string['optiongrade'] = 'Crédito parcial';
 $string['partofquestion'] = 'Parte da pregunta';

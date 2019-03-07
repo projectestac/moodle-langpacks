@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tag_youtube', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_tag_youtube', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   block_tag_youtube
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,15 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['anycategory'] = 'Οποιαδήποτε Κατηγορία';
+$string['anycategory'] = 'Οποιαδήποτε κατηγορία';
+$string['apierror'] = 'Το κλειδί YouTube API δεν έχει οριστεί. Επικοινωνήστε με το διαχειριστή σας.';
+$string['apikey'] = 'Κλειδί API';
+$string['apikeyinfo'] = 'Αποκτήστε ένα <a href="https://developers.google.com/youtube/v3/getting-started"> κλειδί για το Google API </a> για τον ιστότοπό σας Moodle.';
 $string['autosvehicles'] = 'Αυτοκίνητα και Οχήματα';
 $string['category'] = 'Κατηγορία';
 $string['comedy'] = 'Κωμικό';
 $string['configtitle'] = 'Τίτλος';
+$string['education'] = 'Εκπαίδευση';
 $string['entertainment'] = 'Διασκέδαση';
 $string['filmsanimation'] = 'Ταινίες και Κινούμενα Σχέδια';
 $string['gadgetsgames'] = 'Τεχνολογία και Παιχνίδια';
@@ -40,6 +44,9 @@ $string['newspolitics'] = 'Νέα και Πολιτική';
 $string['numberofvideos'] = 'Αριθμός βίντεο';
 $string['peopleblogs'] = 'Άνθρωποι και Ιστολόγια';
 $string['petsanimals'] = 'Κατοικίδια και Ζώα';
-$string['pluginname'] = 'Youtube';
+$string['pluginname'] = 'YouTube';
+$string['requesterror'] = 'Δεν μπόρεσαν να ανακτηθούν δεδομένα από τον εξυπηρετητή. Επικοινωνήστε με τον διαχειριστή σας αν το πρόβλημα επιμείνει.';
+$string['scienceandtech'] = 'Επιστήμη & Τεχνολογία';
 $string['sports'] = 'Σπορ και Αθλήματα';
+$string['tag_youtube:addinstance'] = 'Προσθέστε ένα νέο μπλοκ YouTube';
 $string['travel'] = 'Ταξίδια';

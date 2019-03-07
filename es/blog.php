@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'blog', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -193,4 +193,5 @@ $string['viewmyentriesaboutmodule'] = 'Ver mis entradas en este asunto {$a}';
 $string['viewsiteentries'] = 'Ver todas las entradas';
 $string['viewuserentries'] = 'Ver todas las entradas por {$a}';
 $string['worldblogs'] = 'Cualquiera puede ver las entradas definidas como accesibles a todos';
+$string['wrongexternalid'] = 'ID de blog externo incorrecto';
 $string['wrongpostid'] = 'ID de mensaje de blog erróneo';

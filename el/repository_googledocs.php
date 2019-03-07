@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_googledocs', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_googledocs', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_googledocs
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Κείμενα Google';
+$string['clientid'] = 'Αναγνωριστικό πελάτη';
+$string['configplugin'] = 'Ρύθμιση πρόσθετου Google Docs';
+$string['googledocs:view'] = 'Εμφάνιση του αποθετηρίου Google Drive';
+$string['oauthinfo'] = '<p> Για να χρησιμοποιήσετε αυτό το πρόσθετο, πρέπει να καταχωρήσετε τον ιστότοπό σας στο Google, όπως περιγράφεται στην τεκμηρίωση για την<a href="{$a-> docsurl} "> εγκατάσταση του Google OAuth 2.0 </a>. </ p> <p > Ως μέρος της διαδικασίας καταχώρησης, θα πρέπει να δώσετε την ακόλουθη διεύθυνση URL ως \'Authorized Redirect URIs\' (εξουσιοδοτημένες ανακατευθύνσεις URI): </ p> <p> {$ a-> callbackurl} </ p> <p> Μόλις καταχωρηθείτε, σας παρέχεται ένα αναγνωριστικό πελάτη και ένα μυστικό που μπορεί να χρησιμοποιηθεί για τη διαμόρφωση όλων των πρόσθετων Google Drive και Picasa. </ p>
+<p>Παρακαλούμε σημειώστε επίσης ότι θα πρέπει ακόμα να ενεργοποιήσετε στην υπηρεσία \'Drive API\'.</p>';
+$string['pluginname'] = 'Google Drive';
+$string['secret'] = 'Μυστικό';
+$string['servicenotenabled'] = 'Η πρόσβαση δεν έχει ρυθμιστεί. Βεβαιωθείτε ότι είναι ενεργοποιημένη η υπηρεσία «Drive API».';

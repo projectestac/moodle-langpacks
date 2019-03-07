@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_shibboleth', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth_shibboleth', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   auth_shibboleth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,11 +42,10 @@ $string['auth_shib_convert_data_warning'] = 'Il file non esiste o non è leggibi
 $string['auth_shib_idp_list'] = 'Identity provider';
 $string['auth_shib_idp_list_description'] = 'Inserite un elenco di Identity Provider entityID tra cui l\'utente potrà scegliere nella pagina di login.<br />Su ogni riga dovrà essere presente una coppia separata da virgole composta da entityID dell\'IdP (verifica il medatadata file di Shibboleth) e dal Nome dell\'IdP (il nome comparirà nel menù a discesa).<br />E\' possibile aggiungere un terzo parametro opzionale dove specificare la posizione del session initiator di Shibboleth utile nel caso in cui l\'installazione di Moodle faccia parte di una multi fedrazione.';
 $string['auth_shib_instructions'] = 'Utilizzare <a href="{$a}">Shibboleth login</a> per avere accesso tramite Shibboleth, se la vostra istituzione lo supporta<br />Altrimenti, utilizzare il modulo di login standard visualizzato.';
-$string['auth_shib_instructions_help'] = 'Qui dovreste fornire istruzioni su Shibbolet per i vostri utenti. Verranno visualizzate nella pagina di login nella sezione delle istruzioni.
-Dovrebbe includere un collegamento a "<b>{$a}</b>"  in modo che gli utenti Shibboleth possano effettuare facilmente il login.';
-$string['auth_shib_instructions_key'] = 'Istruzioni per il login';
+$string['auth_shib_instructions_help'] = 'E\' posisbile fornire  agli utenti istruzioni riguardanti Shibboleth, che verranno visualizzate nella pagina di login nella sezione delle istruzioni.
+E\' opportuno includere un collegamento a "<b>{$a}</b>"  in modo che gli utenti Shibboleth possano autenticarsi con maggiore facilità.';
 $string['auth_shib_integrated_wayf'] = 'Servizio Moodle WAYF';
-$string['auth_shib_integrated_wayf_description'] = 'E\' possibile consentire a Moodle di usare i propri servizi WAYF al posto di quelli configurati per Shibboleth. In questo caso Moodle visualizzerà un menù a discesa dove l\'utente potrà scegliere il proprio Identity Provider.';
+$string['auth_shib_integrated_wayf_description'] = 'E\' possibile consentire a Moodle di usare i propri servizi WAYF al posto di quelli configurati per Shibboleth. In questo caso Moodle visualizzerà un menù a discesa dove l\'utente potrà scegliere la pagina di login.';
 $string['auth_shib_logout_return_url'] = 'Logout return URL alternativa';
 $string['auth_shib_logout_return_url_description'] = 'Inserite l\'URL dove gli utenti Shibboleth saranno indirizzati dopo il logout.<br />Se l\'URL non viene inserita, allora gli utenti saranno indirizzati alla URL dove Moodle indirizza gli utenti.';
 $string['auth_shib_logout_url'] = 'Shibboleth Service Provider logout handler URL';
@@ -56,7 +55,6 @@ $string['auth_shib_only'] = 'Solo Shibboleth';
 $string['auth_shib_only_description'] = 'Selezionate questa opzione se desiderate forzare l\'autenticazione Shibboleth.';
 $string['auth_shib_username_description'] = 'Nome';
 $string['pluginname'] = 'Shibboleth';
-$string['privacy:metadata'] = 'Il plugin di autenticazione "Shibboleth" non memorizza dati personali.';
 $string['shib_invalid_account_error'] = 'Sembra che tu sia autenticato tramite Shibboleth ma Moodle non ha account validi corrispondenti al tuo username. Il tuo account potrebbe non esistere o essere stato sospeso.';
 $string['shib_no_attributes_error'] = 'Sembra che Shibboleth debba essere autenticati ma Moodle non ha ricevuto gli attributi dell\'utente. Per favore controlla che l\' Identity Provider rilasci gli attributi necessari ({$a}) al Service Provider dove funziona Moodle o informa il webmaster di questo server.';
 $string['shib_not_all_attributes_error'] = 'Moodle richiede alcuni attributi Shibboleth che nel tuo caso, non sono presenti. Gli attributi sono: {$a}<br />Per favore controlla il webmaster di questo server o dell\'Identity Provider.';

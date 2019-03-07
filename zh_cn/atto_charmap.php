@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_charmap', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'atto_charmap', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   atto_charmap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,19 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['aacute'] = 'a-尖锐';
 $string['aacute_caps'] = 'A-尖锐';
+$string['acircumflex'] = 'a - 抑扬符';
+$string['acircumflex_caps'] = 'A - 抑扬符';
+$string['acuteaccent'] = '锐音符';
+$string['adiaeresis'] = 'a - 分音符';
+$string['adiaeresis_caps'] = 'A - 分音符';
+$string['agrave'] = 'a - 重音符';
+$string['agrave_caps'] = 'A - 重音符';
+$string['alefsymbol'] = 'alef 符号';
+$string['almostequalto'] = '几乎等于';
+$string['alpha'] = '阿尔法';
+$string['alpha_caps'] = '阿尔法';
+$string['amacron'] = 'a - 平调符';
+$string['amacron_caps'] = 'A - 平调符';
 $string['angle'] = '角度';
 $string['approximatelyequalto'] = '约等于';
 $string['insertcharacter'] = '插入字符';

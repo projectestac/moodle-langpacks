@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'ar', branch 'MOODLE_34_STABLE'
+ * Strings for component 'calendar', language 'ar', branch 'MOODLE_32_STABLE'
  *
  * @package   calendar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -83,6 +83,7 @@ $string['eventsfor'] = '{$a} احداث';
 $string['eventskey'] = 'الأحداث الرئيسية';
 $string['eventsrelatedtocourses'] = 'الأحدات المتعلقة بمنهج دراسي';
 $string['eventstarttime'] = 'وقت البداء';
+$string['eventstoexport'] = 'أحداث للتصدير';
 $string['eventtime'] = 'وقت';
 $string['eventview'] = 'تفاصيل الأحداث';
 $string['expired'] = 'انتهى';
@@ -101,11 +102,15 @@ $string['gotocalendar'] = 'إذهب إلى التقويم';
 $string['group'] = 'مجموعة';
 $string['groupevent'] = 'حدث مجموعة';
 $string['groupevents'] = 'أحداث مجموعة';
+$string['hidecourseevents'] = 'إخفاء أحداث مقرر دراسي';
 $string['hideglobalevents'] = 'إخفاء الأحداث العامة';
+$string['hidegroupsevents'] = 'إخفاء أحداث المجموعة';
+$string['hideuserevents'] = 'إخفاء أحداث المستخدم';
 $string['ical'] = 'التقويم الإلكتروني';
 $string['invalidtimedurationminutes'] = 'المدة بالدقائق التي أدخلتها غير صالحة الرجاء أدخل المدة بالدقائق أكبر من الصفر أو اختر لا مدة';
 $string['invalidtimedurationuntil'] = 'الوقت والتاريخ اللذان اخترتهما للمدة "حتى" هي قبل وقت بدء الحدث. رجاءً صحح هذا قبل الإكمال.';
 $string['iwanttoexport'] = 'تصدير';
+$string['managesubscriptions'] = 'إدارة الاشتراكات';
 $string['manyevents'] = '{$a} أحداث';
 $string['mon'] = 'الاثنين';
 $string['monday'] = 'يوم الاثنين';
@@ -147,6 +152,7 @@ $string['thu'] = 'الخميس';
 $string['thursday'] = 'يوم الخميس';
 $string['timeformat_12'] = '12 ساعة (ص/م)';
 $string['timeformat_24'] = '24 ساعة';
+$string['timeperiod'] = 'فترة زمنية';
 $string['today'] = 'اليوم';
 $string['tomorrow'] = 'غداً';
 $string['tt_deleteevent'] = 'احذف حدث';

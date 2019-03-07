@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'error', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,11 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityisscheduledfordeletion'] = 'Eliminazione dell\'attività in corso...';
-$string['agedigitalconsentmapinvalidage'] = '"{$a}" non è un valore valido per l\'età.';
-$string['agedigitalconsentmapinvalidcomma'] = '"{$a}" ha una virgola di separazione in più o in meno.';
-$string['agedigitalconsentmapinvalidcountry'] = '"{$a}" non è un valore valido per la nazione.';
-$string['agedigitalconsentmapinvaliddefault'] = 'Manca il valore di default (*).';
-$string['agelocationverificationdisabled'] = 'La verifica dell\'età e della della nazione è disabilitata';
 $string['alreadyloggedin'] = 'Sei già autenticato come {$a}, per autenticarti con un altro account devi effettuare il logout.';
 $string['authnotexisting'] = 'Il plugin di autenticazione non esiste';
 $string['backupcontainexternal'] = 'Questo file di backup contiene host Moodle Network che non sono definiti in questo sito';
@@ -64,7 +59,7 @@ $string['cannotcreateorfindstructs'] = 'Si è verificato un errore durante la ri
 $string['cannotcreatepopupwin'] = 'Elemento non definito - Non è possibile creare la finestra popup';
 $string['cannotcreatesitedir'] = 'Non è possibile creare la cartella del sito. L\'amministratore del sito deve sistemare i permessi dei file.';
 $string['cannotcreatetempdir'] = 'Non è possibile creare la cartella temp';
-$string['cannotcreateuploaddir'] = 'Non è possibile creare la cartella di upload. L\'amministratore del sito deve sistemare i permessi dei file.';
+$string['cannotcreateuploaddir'] = 'Non è possibile creare la cartella di caricamento. L\'amministratore del sito deve sistemare i permessi dei file.';
 $string['cannotcustomisefiltersblockuser'] = 'Non è possibile personalizzare i filtri nei contesti dell\'utente o dei blocchi.';
 $string['cannotdeletebackupids'] = 'Non è stato possibile eliminare le id dei backup precedenti';
 $string['cannotdeletecategorycourse'] = 'Non è stato possibile eliminare il corso \'{$a}\'';
@@ -160,13 +155,13 @@ $string['cannotunassigncap'] = 'Non è possibile rimuovere il privilegio depreca
 $string['cannotunassignrolefrom'] = 'Non è possibile togliere a questo utente il ruolo id: {$a}';
 $string['cannotunzipfile'] = 'Non è possibile decomprimere il file.';
 $string['cannotupdatemod'] = 'Non è stato possibile aggiornare {$a}';
-$string['cannotupdatepasswordonextauth'] = 'Non è stato possibile aggiornare la password della autenticazione esterna: {$a}. Controllate il log per maggiori informazioni.';
+$string['cannotupdatepasswordonextauth'] = 'Non è stato possibile aggiornare la password dell\'autenticazione esterna: {$a}. Controllare i log per maggiori informazioni.';
 $string['cannotupdateprofile'] = 'Si è verificato un errore durante l\'aggiornamento del record utente';
 $string['cannotupdaterecord'] = 'Non è stato possibile aggiornare il record ID {$a}';
 $string['cannotupdaterss'] = 'Non è possibile aggiornare gli RSS';
 $string['cannotupdatesubcourse'] = 'Non è stato possibile aggiornare il corso figlio!';
 $string['cannotupdateusermsgpref'] = 'Non è possibile aggiornare le preferenze di messaging dell\'utente';
-$string['cannotupdateuseronexauth'] = 'Non è stato possibile aggiornare i dati utente nella autenticazione esterna: {$a}. Controllate il log per maggiori informazioni.';
+$string['cannotupdateuseronexauth'] = 'Non è stato possibile aggiornare i dati utente dell\'autenticazione esterna: {$a}. Controllare i log per maggiori informazioni.';
 $string['cannotuploadfile'] = 'Si è verificato un errore durante l\'elaborazione del file caricato';
 $string['cannotuseadmin'] = 'Devi avere il ruolo di amministratore per usare questa pagina';
 $string['cannotuseadminadminorteacher'] = 'Devi avere il ruolo di docente o di amministratore per usare questa pagina';
@@ -185,13 +180,12 @@ $string['confirmationnotenabled'] = 'La conferma di account non è abilitata';
 $string['confirmsesskeybad'] = 'Spiacente, ma la tua chiave di sessione non può essere confermata per completare questa operazione. Questa caratteristica di sicurezza previene l\'esecuzione accidentale o maligna di funzioni importanti effettuate a tuo nome. Assicurati di voler eseguire realmente questa funzione.';
 $string['couldnotassignrole'] = 'Si è verificato un problema non specificato ma serio mentre si tentava di assegnarvi un ruolo';
 $string['couldnotupdatenoexistinguser'] = 'Non è possibile aggiornare l\'utente: l\'utente non esiste';
-$string['couldnotverifyagedigitalconsent'] = 'Si è verificato un errore durante la verifica dell\'età del consenso digitale.<br />Per favore contatta l\'amministratore del sito.';
 $string['countriesphpempty'] = 'Errore: nel language pack {$a} il file countries.php è vuoto o mancante';
 $string['coursedoesnotbelongtocategory'] = 'Il corso non appartiene a questa categoria';
 $string['courseformatnotfound'] = 'Il formato di corso \'{$a}\'  non esiste oppure non viene riconoscituo';
 $string['coursegroupunknown'] = 'Il corso corrisponde a un gruppo {$a} non specificato';
 $string['courseidnotfound'] = 'La id del corso non esiste';
-$string['courseidnumbertaken'] = 'Il codice identificativo è già usato dal un altro corso ({$a})';
+$string['courseidnumbertaken'] = 'Il codice identificativo è già usato da un altro corso ({$a})';
 $string['coursemisconf'] = 'Il corso è mal configurato';
 $string['courserequestdisabled'] = 'Spiacente, i corsi a richiesta sono stati disabilitati dall\'amministratore';
 $string['csvcolumnduplicates'] = 'Sono state individuate colonne duplicate';
@@ -294,7 +288,7 @@ $string['importformatnotimplement'] = 'Spiacente, l\'importazione con questo for
 $string['incorrectext'] = 'Il file ha una estensione errata';
 $string['inplaceeditableerror'] = 'Si è verificato un errore durante la chiamata al gestore dall\'aggiornamento';
 $string['installproblem'] = 'Di solito non è possibile proseguire a valle di errori verificatisi durante l\'installazione, per riprovare ad installare potrebbe essere necessario creare un nuovo database oppure utilizzare un prefisso diverso per le tabelle.';
-$string['internalauthpassworderror'] = 'L\'autenticazione interna manca della password o le regole password non sono valide.';
+$string['internalauthpassworderror'] = 'L\'autenticazione interna non ha la password o le regole password non sono valide.';
 $string['invalidaccess'] = 'Questa pagina non è stata acceduta correttamente';
 $string['invalidaccessparameter'] = 'Parametro di accesso non valido';
 $string['invalidaction'] = 'Parametro di azione non valido';
@@ -346,7 +340,7 @@ $string['invalidnum'] = 'Valore numerico non valido';
 $string['invalidnumkey'] = 'L\'array $condition non può contenere chiavi numeriche, per favore correggete il codice!';
 $string['invalidoutcome'] = 'Id obiettivo errata';
 $string['invalidpagesize'] = 'Dimensione pagina non valida';
-$string['invalidpasswordpolicy'] = 'Regole password non valide';
+$string['invalidpasswordpolicy'] = 'Le regole password non sono valide';
 $string['invalidpaymentmethod'] = 'Metodo di pagamento non valido: {$a}';
 $string['invalidqueryparam'] = 'ERRORE: numero errato di parametri della query. Parametri attesi {$a->expected}, parametri ricevuti {$a->actual}.';
 $string['invalidratingarea'] = 'Area di valutazione non valida';
@@ -357,7 +351,7 @@ $string['invalidrole'] = 'Ruolo non valido';
 $string['invalidroleid'] = 'ID Ruolo non valido';
 $string['invalidscaleid'] = 'Id scala non valido';
 $string['invalidsection'] = 'Il record del modulo del corso contiene una sezione non valida';
-$string['invalidsesskey'] = 'La sessione è probabilmente andata in time out. Per favore autenticati nuovamente.';
+$string['invalidsesskey'] = 'E\' stata inviata una sesskey non corretta, il form non è stato accettato!';
 $string['invalidshortname'] = 'Titolo abbreviato del corso non valido';
 $string['invalidsourcefield'] = 'Il campo del file bozza sorgente non è valido';
 $string['invalidstatedetected'] = 'Qualcosa non è andato a buon fine: {$a}. Di norma questo non dovrebbe mai verificarsi.';
@@ -406,7 +400,7 @@ $string['modulemissingcode'] = 'Nel modulo {$a} manca il codice necessario per e
 $string['movecatcontentstoroot'] = 'Non è consentito spostare il contenuto di una categoria al livello radice. Devi spostarlo in una categoria già esistente.';
 $string['movecategorynotpossible'] = 'Non è possibile spostare la categoria \'{$a}\' nella categoria selezionata.';
 $string['movecategoryownparent'] = 'Non è possibile rendere la categoria \'{$a}\' genitore di se stessa.';
-$string['movecategoryparentconflict'] = 'Non è possibile rendere la categoria \'{$a}\' sotto categoria di se stessa.';
+$string['movecategoryparentconflict'] = 'Non è possibile rendere la categoria \'{$a}\' sottocategoria di se stessa.';
 $string['mssqlrcsmodemissing'] = 'Il database non utilizza la modalità READ_COMMITTED_SNAPSHOT, cosa che può portare a risultati errati specialmente in presenza di elevato utilizzo simultaneo. Per favore abilita la modalità. Per maggiori informazioni: <a href="https://docs.moodle.org/en/Installing_MSSQL_for_PHP#Configuration">Installing MSSQL for PHP</a>.';
 $string['multiplerecordsfound'] = 'Sono stati trovati molti record: se ne sarebbe dovuto trovare uno solo.';
 $string['multiplerestorenotallow'] = 'Non sono consentiti processi di ripristino multipli!';
@@ -556,7 +550,7 @@ $string['unknownuserselector'] = 'Selettore utenti sconosciuto';
 $string['unknoworder'] = 'Ordinamento sconosciuto';
 $string['unknowparamtype'] = 'Parametro di tipo sconosciuto: {$a}';
 $string['unknowquestiontype'] = 'Tipo di domanda non supportato: {$a}';
-$string['unknowuploadaction'] = 'Errore: azione di upload sconosciuta ({$a})';
+$string['unknowuploadaction'] = 'Errore: azione di caricamento sconosciuta ({$a})';
 $string['unspecifycourseid'] = 'E\' necessario specificare l\'id del corso, il titolo abbreviato oppure il codice identificativo';
 $string['unsupportedevent'] = 'Tipo di evento non supportato';
 $string['unsupportedstate'] = 'Stato di completamento non supportato';
@@ -574,7 +568,6 @@ $string['usernotaddederror'] = 'Errore - L\'utente "{$a}" non è stato aggiunto'
 $string['usernotaddedregistered'] = 'L\'utente non è stato aggiunto - utente già  registrato';
 $string['usernotavailable'] = 'Non puoi visualizzare i dettagli di questo utente.';
 $string['usernotdeletedadmin'] = 'L\'utente non è stato eliminato - non è possibile eliminare l\'account dell\'amministratore';
-$string['usernotdeleteddeleted'] = 'L\'utente è già stato eliminato.';
 $string['usernotdeletederror'] = 'Errore - L\'utente non è stato eliminato';
 $string['usernotdeletedmissing'] = 'Errore - L\'utente non è stato eliminato, non è stato possibile trovare lo username';
 $string['usernotdeletedoff'] = 'L\'utente non è stato eliminato. L\'eliminazione non è consentita';
@@ -589,7 +582,6 @@ $string['usernotupdatederror'] = 'Utente non aggiornato - errore.';
 $string['usernotupdatednotexists'] = 'Utente non aggiornato - non esiste.';
 $string['userquotalimit'] = 'Hai raggiunto il limite della tua quota di file';
 $string['userselectortoomany'] = 'user_selector ha ottenuto più di un utente, anche se multiselect è false';
-$string['verifyagedigitalconsentnotpossible'] = 'Al momento la verifica dell’età del consenso digitale non è possibile.';
 $string['wrongcall'] = 'Questo script è stato chiamato in modo errato';
 $string['wrongcontextid'] = 'l\'ID del contesto è errato (non è possibile trovarla)';
 $string['wrongdestpath'] = 'Percorso di destinazione errato';

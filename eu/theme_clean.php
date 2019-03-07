@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_clean', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'theme_clean', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   theme_clean
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['choosereadme'] = '<div class="clearfix">
 <div class="well">
 <h2>Clean</h2>
-<p><img class=img-polaroid src="clean/pix/screenshot.jpg" /></p>
+<p><img class="img-polaroid" src="clean/pix/screenshot.jpg" /></p>
 </div>
 <div class="well">
 <h3>Honi buruz</h3>
@@ -56,7 +56,6 @@ $string['invertdesc'] = 'Orriaren goikaldeko nabigazio-barraren testua eta atzek
 $string['logo'] = 'Logoa';
 $string['logodesc'] = 'Logoa soilik hasiera-orriaren eta sarbide-orriaren goikaldean erakusten da.<br /> Zure logoaren altuera 75px baino gehiagokoa bada gehitu div.logo {height: 100px;} behekaldeko CSS pertsonalizatuaren eremuan, altuera 100px ez den kasuak konpontzeko. Hemen logo bat gehitzen ez bada, Itxura > Logoak atalekoa erabiliko da.';
 $string['pluginname'] = 'Clean';
-$string['privacy:metadata'] = 'Clean itxurak ez du datu pertsonalik biltzen.';
 $string['region-side-post'] = 'Eskuina';
 $string['region-side-pre'] = 'Ezkerra';
 $string['sitelogo'] = 'Gunearen logoa';

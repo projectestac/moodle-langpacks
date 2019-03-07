@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_uploadcourse', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_uploadcourse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -101,8 +101,7 @@ $string['mode_help'] = 'Consente di impostare la modalità di caricamento dei co
 $string['nochanges'] = 'Nessuna modifica';
 $string['pluginname'] = 'Caricamento corso';
 $string['preview'] = 'Anteprima';
-$string['privacy:metadata'] = 'Il plugin "Caricamento corsi" non memorizza dati personali.';
-$string['reset'] = 'Reset corso dopo upload';
+$string['reset'] = 'Reset corso dopo il caricamento';
 $string['reset_help'] = 'Consente di accettare il campo reset dopo la creazione o l\'aggiornamento del corso.';
 $string['restoreafterimport'] = 'Ripristino dopo importazione';
 $string['result'] = 'Risultato';
@@ -110,7 +109,7 @@ $string['rowpreviewnum'] = 'Righe di anteprima';
 $string['rowpreviewnum_help'] = 'Il numero di righe del file CSV da visualizzare in anteprima nella prossima pagina. Utile per limitare la dimensione della pagina stessa.';
 $string['shortnametemplate'] = 'Modello per generazione titolo abbreviato';
 $string['shortnametemplate_help'] = 'Il titolo abbreviato del corso da visualizzare nella navigazione. E\' possibile usare una sintassi (%f = titolo, %i = codice identificativo) oppure inserire un valore iniziale da incremente';
-$string['templatefile'] = 'Ripristina da questo file dopo l\'upload';
+$string['templatefile'] = 'Ripristina da questo file dopo il caricamento';
 $string['templatefile_help'] = 'Selezionare un file da utilizzare come modello per la creazione di corsi.';
 $string['unknownimportmode'] = 'Modalità di importazione sconosciuta';
 $string['updatemissing'] = 'Inserimento degli elementi mancanti dal file CSV e dai default';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'competency', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -104,6 +104,7 @@ $string['evidence_manualoverrideincourse'] = '能力评分已手动在课程 \'{
 $string['evidence_manualoverrideinplan'] = '能力评分已手动在学习计划 \'{$a}\'中设置';
 $string['invalidevidencedesc'] = '无效的证据描述';
 $string['invalidgrade'] = '无效评分';
+$string['invalidpersistenterror'] = '错误: {$a}';
 $string['invalidplan'] = '无效的学习计划';
 $string['invalidtaxonomy'] = '无效的分类：{$a}';
 $string['invalidurl'] = 'URL无效，请确保以"http://"或“https://”开头';
@@ -127,6 +128,13 @@ $string['taxonomy_practice'] = '练习';
 $string['taxonomy_proficiency'] = '熟练';
 $string['taxonomy_skill'] = '技能';
 $string['taxonomy_value'] = '值';
+$string['usercommentedonacompetency'] = '{$a->fullname} 对能力进行了评估 "{$a->competency}":
+{$a->comment}
+参阅: {$a->url}';
+$string['usercommentedonacompetencyhtml'] = '<p>{$a->fullname} 对能力进行了评价
+"{$a->competency}":</p>
+<div>{$a->comment}</div>
+<p>参阅: <a href="{$a->url}">{$a->urlname}</a>.</p>';
 $string['usercompetencystatus_idle'] = '闲置';
 $string['usercompetencystatus_inreview'] = '审查中';
 $string['usercompetencystatus_waitingforreview'] = '等待审查';

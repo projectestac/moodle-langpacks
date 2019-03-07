@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'search', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -65,7 +65,7 @@ $string['index'] = 'Índex';
 $string['invalidindexerror'] = 'El directori índex és buit o no conté un índex vàlid.';
 $string['ittook'] = 'Ha costat';
 $string['next'] = 'Següent';
-$string['noindexmessage'] = 'Administradors: sembla que no existeix l\'índex de cerca. Si us plau';
+$string['noindexmessage'] = 'Administradors: sembla que no existeix l\'índex de cerca.';
 $string['noresults'] = 'No hi ha cap resultat';
 $string['normalsearch'] = 'Cerca normal';
 $string['notitle'] = 'Sense títol';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_completion', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'availability_completion', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   availability_completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,12 +35,11 @@ $string['option_complete'] = 'deve estar concluído(a)';
 $string['option_fail'] = 'deve estar concluído(a) com nota de reprovação';
 $string['option_incomplete'] = 'não deve estar concluído(a)';
 $string['option_pass'] = 'deve estar concluído(a) com nota de aprovação';
-$string['pluginname'] = 'Restrição por conclusão de atividade';
-$string['privacy:metadata'] = 'O módulo Restrição por conclusão da atividade não armazena dados pessoais.';
+$string['pluginname'] = 'Condição de acesso com base em conclusão de atividade';
 $string['requires_complete'] = 'A atividade <strong>{$a}</strong> está concluída.';
-$string['requires_complete_fail'] = 'A atividade <strong>{$a}</strong> foi concluída sem nota de aprovação';
-$string['requires_complete_pass'] = 'A atividade <strong>{$a}</strong> foi concluída com nota de aprovação';
-$string['requires_incomplete'] = 'A atividade <strong>{$a}</strong> não foi concluída';
-$string['requires_not_complete_fail'] = 'A atividade <strong>{$a}</strong> não foi concluída e não tem nota de aprovação';
-$string['requires_not_complete_pass'] = 'A atividade <strong>{$a}</strong> não foi concluída e tem nota de aprovação';
+$string['requires_complete_fail'] = 'A atividade <strong>{$a}</strong> está concluída sem nota de aprovação';
+$string['requires_complete_pass'] = 'A atividade <strong>{$a}</strong> está concluída com nota de aprovação';
+$string['requires_incomplete'] = 'A atividade <strong>{$a}</strong> não está concluída';
+$string['requires_not_complete_fail'] = 'A atividade <strong>{$a}</strong> não está concluída e não tem nota de aprovação';
+$string['requires_not_complete_pass'] = 'A atividade <strong>{$a}</strong> não está concluída e tem nota de aprovação';
 $string['title'] = 'Concluir atividade';

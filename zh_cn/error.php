@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'error', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['activityisscheduledfordeletion'] = '正在删除活动中...';
 $string['alreadyloggedin'] = '您已经以{$a}的身份登录。如果想登录为另一个用户，您必须先退出。';
 $string['authnotexisting'] = '认证插件不存在';
 $string['backupcontainexternal'] = '此备份文件保护未在本地配置的Moodle网络主机';
@@ -176,6 +177,7 @@ $string['categorynamerequired'] = '分类名称是必须的';
 $string['categorytoolong'] = '类别名称太长';
 $string['commentmisconf'] = '评论ID配置错误';
 $string['componentisuptodate'] = '组件已经是最新的了';
+$string['confirmationnotenabled'] = '本站未启用用户确认';
 $string['confirmsesskeybad'] = '很抱歉，您的会话密钥不能确保您完成当前的动作。这个安全功能防止了人们无意或恶意的以您的身份运行重要功能。请确定您真的想要执行这个功能。';
 $string['couldnotassignrole'] = '当试图给您分配角色时，发生了一个严重但未说明原因的错误';
 $string['couldnotupdatenoexistinguser'] = '无法更新用户——该用户不存在';
@@ -227,6 +229,7 @@ $string['duplicaterolename'] = '同名角色已经存在！';
 $string['duplicateroleshortname'] = '使用这个简称的角色已经存在！';
 $string['duplicateusername'] = '重复用户名 - 跳过记录';
 $string['emailfail'] = '邮件发送失败';
+$string['enddatebeforestartdate'] = '课程结束日期必须晚于开始日期';
 $string['error'] = '发生了错误';
 $string['errorcleaningdirectory'] = '在清空目录“{$a}”时发生错误';
 $string['errorcopyingfiles'] = '在复制文件时发生错误';
@@ -395,7 +398,7 @@ $string['moduledisable'] = '模块({$a})对于该课程已经失效';
 $string['moduledoesnotexist'] = '此模块不存在';
 $string['moduleinstancedoesnotexist'] = '此模块的实例不存在';
 $string['modulemissingcode'] = '模块 {$a} 缺少了执行此功能的代码';
-$string['movecatcontentstoroot'] = '不允许移动类别内容到根目录，您必须移动此内容到一个已经存在的类别里！';
+$string['movecatcontentstoroot'] = '不允许将分类内容移动到根目录。您必须将内容移动到现有分类！';
 $string['movecategorynotpossible'] = '不能将类别{$a}移到选定的类别';
 $string['movecategoryownparent'] = '不能将类别{$a}又当作它的上层类别';
 $string['movecategoryparentconflict'] = '不能将类别{$a}又当作它的下层类别';
@@ -443,6 +446,7 @@ $string['nopermissiontoviewletergrade'] = '没有查看分数段的权限';
 $string['nopermissiontoviewpage'] = '您不允许浏览这个页面';
 $string['nosite'] = '找不到一个最高级别课程！';
 $string['nositeid'] = '无站点ID';
+$string['nostartdatenoenddate'] = '只有设置了课程开始日期，才能设置结束日期。';
 $string['nostatstodisplay'] = '很抱歉，没有可显示的数据';
 $string['notallowedtoupdateprefremotely'] = '你不可以远程更新用户的设置';
 $string['notavailable'] = '现在它已经不存在了';
@@ -450,6 +454,8 @@ $string['notlocalisederrormessage'] = '{$a}';
 $string['notmemberofgroup'] = '您不是此课程组中的一员';
 $string['notownerofkey'] = '您不是该密钥的所有者';
 $string['nousers'] = '没有此用户！';
+$string['oauth1accesstoken'] = 'OAuth 1.0 错误: 我们未能获得访问码。';
+$string['oauth1requesttoken'] = 'OAuth 1.0 错误: 我们未能获得访问码 - 服务提供商可能暂时不在线。';
 $string['onlyadmins'] = '只有管理员才能使用此功能';
 $string['onlyeditingteachers'] = '只有拥有修改权的教师才能使用此功能';
 $string['onlyeditown'] = '您只能修改您自己的信息';
@@ -469,6 +475,7 @@ $string['querystringcannotbeempty'] = '查询字符串不可空白';
 $string['redirecterrordetected'] = '检测到不支持的重定向，脚本执行终止';
 $string['refoundto'] = '不能退款给{$a}';
 $string['refoundtoorigi'] = '向原账户退款：{$a}';
+$string['registrationdisabled'] = '本站已禁用注册功能';
 $string['remotedownloaderror'] = '<p>下载组件至服务器失败，请校验代理设置，推荐安装 PHP cURL 扩展。</p> <p>您必须手动下载下载<a href="{$a->url}">{$a->url}</a> ，拷贝至服务器上的“{$a->dest}”并解压至此。</p>';
 $string['remotedownloadnotallowed'] = '不允许为您的服务器下载组件(allow_url_fopen 被禁用)。<br /><br />您应该 <a href="{$a->url}">{$a->url}</a> 先手动的把它复制到“{$a->dest}” 您的服务器上然后解压。';
 $string['reportnotavailable'] = '该类型报告只对站点课程有效';
@@ -496,6 +503,7 @@ $string['sessionipnomatch'] = '很抱歉，但您的 IP 地址已经和您第一
 $string['sessionipnomatch2'] = '<p>抱歉，您此次登录的IP与上次不同。此安全功能防止他人在您已登录时窃取您的个人信息。如果您使用无线网络或者您在不同的网络中漫游，您可能看见此错误。请咨询站点管理员寻求更多帮助。</p> <p>如果您想继续，请按F5刷新此页面。</p>';
 $string['sessionwaiterr'] = '等待会话锁超时。<br />请在当前请求结束后再尝试。';
 $string['shortnametaken'] = '课程简称已经被另一个课程({$a})使用';
+$string['sitepolicynotagreed'] = '未同意网站条款:<a href="{$a}"> 点击此处打开网站条款</a>';
 $string['socksnotsupported'] = 'PHP4 不支持 SOCKS5 代理';
 $string['spellcheckernotconf'] = '拼写检查未配置';
 $string['sslonlyaccess'] = '因为安全原因，只允许https连接，抱歉。';
@@ -505,6 +513,7 @@ $string['statsnodata'] = '对于该课程和时间段的组合没有可用数据
 $string['storedfilecannotcreatefile'] = '无法建立本地文件目录，请检查dataroot的权限及可用硬盘空间';
 $string['storedfilecannotcreatefiledirs'] = '无法建立本地文件池目录，请检查dataroot的权限。';
 $string['storedfilecannotread'] = '不能读取文件，可能是文件不存在或是文件权限问题。';
+$string['storedfilecannotreadfile'] = '无法读取文件 \'{$a}\'。文件不存在或权限问题。';
 $string['storedfilenotcreated'] = '不能创建文件"{$a->contextid}/{$a->component}/{$a->filearea}/{$a->itemid}{$a->filepath}{$a->filename}"';
 $string['storedfileproblem'] = '本地文件({$a})发生未知异常';
 $string['tagdisabled'] = '标签被禁用！';

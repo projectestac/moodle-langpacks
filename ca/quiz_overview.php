@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz_overview', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,7 +69,7 @@ $string['regradeselected'] = 'Torna a qualificar els intents seleccionats';
 $string['regradingattemptxofy'] = 'Requalificant l\'intent ({$a->done}/{$a->count})';
 $string['show'] = 'Mostra / baixa';
 $string['showattempts'] = 'Mostra / baixa només els intents';
-$string['showdetailedmarks'] = 'Mostra / baixa les puntuacions de cada pregunta';
+$string['showdetailedmarks'] = 'Puntuacions per a cada pregunta';
 $string['showinggraded'] = 'S\'està mostrant només l\'intent qualificat de cada usuari';
 $string['showinggradedandungraded'] = 'S\'estan mostrant els intents qualificats i no qualificats de cada usuari. L\'intent qualificat de cada usuari es mostra ressaltat. El mètode de qualificació d\'aquest qüestionari és: {$a}.';
 $string['studentingroup'] = '«{$a->coursestudent}» del grup «{$a->groupname}»';

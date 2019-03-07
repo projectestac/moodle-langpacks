@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'plagiarism', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   plagiarism
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,8 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['availableplugins'] = 'Eskura dauden pluginak';
 $string['configenableplagiarism'] = 'Honek aukera ematen dio kudeatzaileari plagio-pluginak  konfiguratzeko (instalatuta badaude)';
 $string['configplagiarismplugins'] = 'Mesedez, aukeratu konfiguratu nahi duzun plagio-plugina';
-$string['enableplagiarism'] = 'Plagio-pluginak gaitu';
+$string['enableplagiarism'] = 'Gaitu plagio-pluginak';
 $string['manageplagiarism'] = 'Kudeatu plagio-pluginak';
 $string['nopluginsinstalled'] = 'Plagio-pluginak ez daude instalatuta';
 $string['plagiarism'] = 'Plagioa';
-$string['privacy:metadata:plagiarism'] = 'Plagioaren azpisistemak kanal gisa funtzionatzen du, pluginetako eskaerak plagio-pluginetara bideratuz.';

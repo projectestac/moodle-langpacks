@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'label', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,25 +31,20 @@ $string['configdndresizewidth'] = 'Creando un\'etichetta con un\'immagine carica
 $string['dndmedia'] = 'Trascina e rilascia di file multimediali';
 $string['dndresizeheight'] = 'Ridimensionamento altezza per trascina e rilascia';
 $string['dndresizewidth'] = 'Ridimensionamento larghezza per trascina e rilascia';
-$string['dnduploadlabel'] = 'Inserisci media nella home page del corso';
-$string['dnduploadlabeltext'] = 'Aggiungi un\'etichetta alla home page del corso';
-$string['indicator:cognitivedepth'] = 'Etichetta cognitvo';
-$string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente con risorse \'etichetta\'.';
-$string['indicator:socialbreadth'] = 'Etichetta sociale';
-$string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente con risorse \'etichetta\'.';
+$string['dnduploadlabel'] = 'Inserisci media nella pagina home del corso';
+$string['dnduploadlabeltext'] = 'Aggiungi un\'etichetta alla pagina home del corso';
 $string['label:addinstance'] = 'Aggiungere etichette';
 $string['labeltext'] = 'Testo visualizzato dall\'etichetta';
 $string['label:view'] = 'Visualizzare etichetta';
 $string['modulename'] = 'Etichetta';
-$string['modulename_help'] = 'Il modulo etichetta consente di inserire immagini e testo nella home page del corso, assieme ai link ad attività e risorse. Le etichette sono molto versatili e possono aiutano a rendere gradevole l\'aspetto del corso.
+$string['modulename_help'] = 'Il modulo etichetta consente di inserire immagini e testo nella pagina home del corso, assieme ai link ad attività e risorse. Le etichette sono molto versatili e possono aiutano a rendere gradevole l\'aspetto del corso.
 
 E\' possibile usare le etichette per:
 
 * Dividere elenchi di attività con sottotitoli o immagini
-* Visualizzare video e suoni direttamente nella home page del corso
+* Visualizzare video e suoni direttamente nella pagina home del corso
 * Aggiungere brevi descrizioni delle sezioni del corso';
 $string['modulenameplural'] = 'Etichette';
 $string['pluginadministration'] = 'Gestione etichetta';
 $string['pluginname'] = 'Etichetta';
-$string['privacy:metadata'] = 'Il plugin mod_label non memorizza dati personali.';
 $string['search:activity'] = 'Etichetta';

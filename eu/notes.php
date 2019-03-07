@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'notes', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,22 +25,19 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addbulknote'] = 'Gehitu ohar berria {$a} pertsonari';
-$string['addbulknotedone'] = 'Oharra {$a} pertsonari gehitu zaie';
-$string['addbulknotedonesingle'] = 'Oharra pertsona bati gehitu zaio';
-$string['addbulknotesingle'] = 'Gehitu ohar berria pertsona bati';
-$string['addnewnote'] = 'Gehitu beste ohar bat';
+$string['addnewnote'] = 'Gehitu ohar berria';
 $string['addnewnoteselect'] = 'Aukeratu ikasleak beraiei buruzko oharrak idazteko';
 $string['bynameondate'] = '{$a->name} -k - {$a->date}';
+$string['cannotdeletepost'] = 'Errorea gertatu da mezua ezabatzean';
 $string['configenablenotes'] = 'Gaitu erabiltzaile bakoitzari buruzko oharrak biltzea';
 $string['content'] = 'Edukia';
 $string['course'] = 'Ikastaroa';
 $string['coursenotes'] = 'Ikastaroaren oharrak';
 $string['created'] = 'sortua';
-$string['deleteconfirm'] = 'Ohar hau ezabatu?';
-$string['deletenotes'] = 'Ohar guztiak ezabatu';
+$string['deleteconfirm'] = 'Ezabatu ohar hau?';
+$string['deletenotes'] = 'Ezabatu ohar guztiak';
 $string['editnote'] = 'Editatu oharra';
-$string['enablenotes'] = 'Oharrak gaitu';
+$string['enablenotes'] = 'Gaitu oharrak';
 $string['eventnotecreated'] = 'Oharra sortu da';
 $string['eventnotedeleted'] = 'Oharra ezabatu da';
 $string['eventnotesviewed'] = 'Oharra ikusi da';
@@ -61,20 +58,13 @@ $string['page-notes-index'] = 'Oharren orri nagusia';
 $string['page-notes-x'] = 'Oharren edozein orri';
 $string['personal'] = 'pertsonala';
 $string['personalnotes'] = 'Norberaren oharrak';
-$string['privacy:metadata:core_notes'] = 'Oharrak osagaiak sistemako erabiltzaileen oharrak gordetzen ditu.';
-$string['privacy:metadata:core_notes:content'] = 'Oharraren edukia.';
-$string['privacy:metadata:core_notes:courseid'] = 'Oharrarekin lotutako ikastaroaren IDa.';
-$string['privacy:metadata:core_notes:created'] = 'Oharra sortu zeneko unea.';
-$string['privacy:metadata:core_notes:lastmodified'] = 'Oharra azkenengoz aldatu zeneko unea.';
-$string['privacy:metadata:core_notes:publishstate'] = 'Oharraren publikatze-egoera.';
-$string['privacy:metadata:core_notes:userid'] = 'Oharrarekin lotutako erabiltzailearen IDa.';
 $string['publishstate'] = 'Testuingurua';
-$string['publishstate_help'] = 'Oharren testuinguruak egunerokotasunean oharra zeinek ikus dezakeen zehazten du. Erabiltzaileek jakin beharko lukete ohar guztiak, baita pertsonalak ere, jakinaraziak izan daitezkela bertako jurisdikzioko legearen arabera.
+$string['publishstate_help'] = 'Oharren estatusak zeinek ikus ditzakeen zehazten du:
 
-* Pertsonala - Oharra zuk baino ezin duzu ikusi
-* Ikastaroa - Oharra ikastaroko irakasleek ikus dezakete
-* Gunea - Oharra guneko ikastaro guztietako irakasleek ikus dezakete';
-$string['selectnotestate'] = 'Aukera ezazu oharraren egoera';
+* Pertsonalak - Ohar hauek zeuk baino ezin dituzu ikusi
+* Ikastaroa - Ohar hauek ikastaroko irakasleek ikus ditzakete
+* Gunea - Ohar hauek guneko ikastaro guztietako irakasleek ikus ditzakete';
+$string['selectnotestate'] = 'Aukeratu oharraren egoera';
 $string['site'] = 'gunea';
 $string['sitenotes'] = 'Guneko oharrak';
 $string['unknown'] = 'ezezaguna';

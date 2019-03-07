@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'group', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,14 +51,13 @@ $string['defaultgroupingname'] = 'Agrupamento';
 $string['defaultgroupname'] = 'Grupo';
 $string['deleteallgroupings'] = 'Apagar todos os agrupamentos';
 $string['deleteallgroups'] = 'Apagar todos os grupos';
-$string['deletegroupconfirm'] = 'Tem a certeza que pretende remover o Grupo \'{$a}\'?';
+$string['deletegroupconfirm'] = 'Tem a certeza de que pretende apagar o grupo \'{$a}\'?';
 $string['deletegrouping'] = 'Apagar agrupamento';
 $string['deletegroupingconfirm'] = 'Tem a certeza de que pretende apagar o agrupamento \'{$a}\'? (Os grupos contidos no agrupamento não são apagados)';
 $string['deletegroupsconfirm'] = 'Tem a certeza de que pretende excluir os seguintes grupos?';
-$string['deleteselectedgroup'] = 'Apagar o grupo selecionado';
+$string['deleteselectedgroup'] = 'Apagar grupo(s) selecionado(s)';
 $string['editgroupingsettings'] = 'Editar definições do agrupamento';
 $string['editgroupsettings'] = 'Editar definições do grupo';
-$string['editusersgroupsa'] = 'Editar grupos de "{$a}"';
 $string['enrolmentkey'] = 'Senha de inscrição';
 $string['enrolmentkeyalreadyinuse'] = 'Esta chave de inscrição já está a ser usada por outro grupo.';
 $string['enrolmentkey_help'] = 'Uma senha de inscrição permite que o acesso à disciplina seja limitado apenas para aqueles que conhecem a senha. Se especificar a senha de inscrição de um grupo, essa senha não permitirá apenas o acesso do utilizador à disciplina, mas também a sua inscrição automática como membro do grupo.
@@ -112,11 +111,11 @@ $string['groupmodeforce'] = 'Forçar modo de grupo';
 $string['groupmodeforce_help'] = 'Se esta configuração tiver o valor "Sim", então o modo de grupo é forçado ao nível da disciplina e o modo de grupo definido no âmbito das atividades será ignorado.';
 $string['groupmode_help'] = 'A definição do modo de grupo pode ser uma das três seguintes:
 
-* Sem grupos
+* Sem grupos - não existem grupos, todos são parte de uma comunidade.
 * Grupos separados - cada grupo pode ver apenas o seu próprio grupo, estando os restantes grupos invisíveis.
 * Grupos visíveis - cada grupo trabalha apenas dentro do seu próprio grupo, mas pode ver os outros grupos.
 
-O modo de grupo definido ao nível da disciplina será o modo aplicado automaticamente a todas as atividades nessa disciplina. Contudo, cada atividade poderá também ter a sua própria definição de modo de grupo. No entanto, se o modo de grupo for forçado ao nível da disciplina, o modo de grupo definido no âmbito das atividades será ignorado.';
+O modo de grupo definido ao nível da disciplina será o modo aplicado automaticamente a todas as atividades nessa disciplina. Contudo, cada atividade  poderá também ter a sua própria definição de modo de grupo. No entanto, se o modo de grupo for forçado ao nível da disciplina, então o modo de grupo definido no âmbito das atividades será ignorado.';
 $string['groupmy'] = 'Meu grupo';
 $string['groupname'] = 'Nome do grupo';
 $string['groupnameexists'] = 'O nome de grupo \'{$a}\' já existe nesta disciplina, escolha outro.';
@@ -144,7 +143,7 @@ $string['importgroups_help'] = 'Os grupos podem ser importados a partir de um fi
 $string['importgroups_link'] = 'grupo/importar';
 $string['includeonlyactiveenrol'] = 'Incluir apenas inscrições ativas';
 $string['includeonlyactiveenrol_help'] = 'Se ativar esta opção, os utilizadores suspensos não serão incluídos nos grupos.';
-$string['javascriptrequired'] = 'Esta página requer a ativação do Javascript.';
+$string['javascriptrequired'] = 'Esta página requer a ativação do JavaScript.';
 $string['members'] = 'Membros por grupo';
 $string['membersofselectedgroup'] = 'Membros:';
 $string['mygroups'] = 'Os meus grupos';
@@ -174,10 +173,6 @@ $string['overview'] = 'Perspetiva global';
 $string['potentialmembers'] = 'Potenciais membros: {$a}';
 $string['potentialmembs'] = 'Potenciais membros';
 $string['printerfriendly'] = 'Exibir versão para imprimir';
-$string['privacy:metadata:groups'] = 'O registo da associação ao grupo.';
-$string['privacy:metadata:groups:groupid'] = 'O ID do grupo';
-$string['privacy:metadata:groups:timeadded'] = 'A hora exata a indicar quando é que o utilizador foi adicionado ao grupo';
-$string['privacy:metadata:groups:userid'] = 'O ID do utilizador que está associado ao grupo';
 $string['random'] = 'Aleatoriamente';
 $string['removefromgroup'] = 'Retirar utilizador do grupo {$a}';
 $string['removefromgroupconfirm'] = 'Tem a certeza de que pretende remover o utilizador "{$a->user}" do grupo "{$a->group}"?';

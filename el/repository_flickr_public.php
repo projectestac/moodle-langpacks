@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_flickr_public', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_flickr_public', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_flickr_public
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,21 +25,33 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['all'] = 'Όλα';
 $string['apikey'] = 'Κλειδί API';
 $string['backtosearch'] = 'Επιστροφή στην οθόνη αναζήτησης';
+$string['by'] = 'Άδεια με Αναφορά Δημιουργού';
+$string['by-nc'] = 'Άδεια με Αναφορά Δημιουργού-Μη Εμπορική Χρήση';
+$string['by-nc-nd'] = 'Άδεια με Αναφορά Δημιουργού-Μη Εμπορική Χρήση-Όχι Παράγωγα Έργα';
+$string['by-nc-sa'] = 'Άδεια με Αναφορά Δημιουργού-Μη Εμπορική Χρήση-Παρόμοια Διανομή';
+$string['by-nd'] = 'Άδεια με Αναφορά Δημιουργού-Όχι Παράγωγα Έργα';
+$string['by-sa'] = 'Άδεια με Αναφορά Δημιουργού-Παρόμοια Διανομή';
 $string['callbackurl'] = 'Τοποθεσία Callback';
-$string['configplugin'] = 'Ρυθμιση Flickr για το κοινό';
-$string['emailaddress'] = 'Δι/νση Ηλεκτρονικού Ταχυδρομείου';
+$string['commercialuse'] = 'Θέλω να χρησιμοποιήσω τις εικόνες εμπορικά';
+$string['configplugin'] = 'Δημόσιες ρυθμίσεις Flickr';
+$string['creativecommonscommercial'] = 'Μόνο (με άδεια) Creative Commons εμπορική (Αναφορά Δημιουργού)';
+$string['emailaddress'] = 'Διεύθυνση ηλεκτρονικού ταχυδρομείου';
 $string['flickr_public:view'] = 'Χρήση του repository Flickr public στο σύστημα επιλογής αρχείων (file picker)';
 $string['fulltext'] = 'Πλήρες κέιμενο';
 $string['information'] = '<div>Λάβετε ένα <a href="http://www.flickr.com/services/api/keys/">Κλειδί API για το Flickr</a> για τον Moodle ιστότοπό σας.</div>';
-$string['invalidemail'] = 'Μη έγκυρη δι/νση ηλεκτρονικού ταχυδρομείου για το flickr';
+$string['invalidemail'] = 'Μη έγκυρος λογαριασμός ηλεκτρονικού ταχυδρομείου για το flickr';
+$string['license'] = 'Άδεια';
+$string['modification'] = 'Θέλω να είμαι σε θέση να τροποποιήσω τις εικόνες';
 $string['notitle'] = 'Χωρίς Τίτλο';
 $string['nullphotolist'] = 'Δεν υπάρχουν φωτογραφίες σε αυτό το λογαριασμό';
 $string['pluginname'] = 'Flickr για το κοινό';
 $string['pluginname_help'] = 'Χώρος Αποθήκευσης στο flickr.com';
 $string['remember'] = 'Να με θυμάσαι';
-$string['secret'] = 'Συνθηματικό';
+$string['secret'] = 'Συνθηματικό (Secret)';
+$string['sharealike'] = 'Ναι, εφόσον όλοι χρησιμοποιούν παρόμοια διανομή';
 $string['tag'] = 'Ετικέτα';
 $string['username'] = 'Δι/νση Ηλεκτρονικού Ταχυδρομείου του λογαριασμού στο Flickr';
 $string['watermark'] = 'Προσθήκη υδατογραφήματος στις φωτογραφίες';

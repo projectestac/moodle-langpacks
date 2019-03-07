@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'feedback', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,14 +35,13 @@ $string['anonymous'] = 'Anonym';
 $string['anonymous_edit'] = 'Anonym ausfüllen';
 $string['anonymous_entries'] = 'Anonyme Einträge ({$a})';
 $string['anonymous_user'] = 'Anonyme Person';
-$string['answerquestions'] = 'Frage beantworten';
 $string['append_new_items'] = 'Neue Elemente anfügen';
 $string['autonumbering'] = 'Automatische Nummerierung';
 $string['autonumbering_help'] = 'Diese Option aktiviert die automatische Nummerierung aller Fragen.';
 $string['average'] = 'Mittelwert';
 $string['bold'] = 'Fett';
-$string['calendarend'] = '{$a} endet';
-$string['calendarstart'] = '{$a} beginnt';
+$string['calendarend'] = 'Feedback {$a} endet';
+$string['calendarstart'] = 'Feedback {$a} beginnt';
 $string['cancel_moving'] = 'Bewegen abbrechen';
 $string['cannotaccess'] = 'Sie können auf dieses Feedback nur aus einem Kurs zugreifen.';
 $string['cannotmapfeedback'] = 'Datenbank-Problem, eine Zuordnung des Feedbacks zum Kurs ist nicht möglich';
@@ -122,7 +121,7 @@ $string['eventresponsedeleted'] = 'Antwort gelöscht';
 $string['eventresponsesubmitted'] = 'Antwort abgegeben';
 $string['export_questions'] = 'Fragen exportieren';
 $string['export_to_excel'] = 'Nach Excel exportieren';
-$string['feedback:addinstance'] = 'Feedback hinzufügen';
+$string['feedback:addinstance'] = 'Neues Feedback hinzufügen';
 $string['feedbackclose'] = 'Antworten erlauben bis';
 $string['feedback:complete'] = 'Ausfüllen eines Feedbacks';
 $string['feedbackcompleted'] = '{$a->username} hat {$a->feedbackname} abgeschlossen.';
@@ -147,10 +146,6 @@ $string['horizontal'] = 'nebeneinander';
 $string['importfromthisfile'] = 'Von ausgewählter Datei importieren';
 $string['import_questions'] = 'Fragen importieren';
 $string['import_successfully'] = 'Erfolgreich importiert';
-$string['indicator:cognitivedepth'] = 'Feedback kognitiv';
-$string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die ein/e Teilnehmer/in in einer Feedback-Aktivität erreicht hat.';
-$string['indicator:socialbreadth'] = 'Feedback sozial';
-$string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die ein/e Teilnehmer/in in einer Feedback-Aktivität erreicht hat.';
 $string['info'] = 'Information';
 $string['infotype'] = 'Information';
 $string['insufficient_responses'] = 'Unzulängliche Antworten';
@@ -173,7 +168,7 @@ $string['mappedcourses'] = 'Zugeordnete Kurse';
 $string['mappingchanged'] = 'Kursstruktur wurde geändert';
 $string['max_args_exceeded'] = 'Zu viele Argumente! Max. 6 Argumente dürfen verwendet werden.';
 $string['maximal'] = 'Maximal';
-$string['messageprovider:message'] = 'Erinnerung zum Feedback';
+$string['messageprovider:message'] = 'Erinnerung zu Feedback';
 $string['messageprovider:submission'] = 'Mitteilung bei Feedback';
 $string['minimal'] = 'Minimal';
 $string['mode'] = 'Modus';
@@ -219,7 +214,6 @@ $string['of'] = 'von';
 $string['oldvaluespreserved'] = 'Alle alten Fragen und eingegebenen Werte werden aufbewahrt';
 $string['oldvalueswillbedeleted'] = 'Die aktuellen Fragen und alle Antworten werden gelöscht.';
 $string['only_one_captcha_allowed'] = 'Im Feedback ist nur ein Captcha erlaubt';
-$string['openafterclose'] = 'Sie haben ein Startdatum angelegt, das nach dem Enddatum liegt.';
 $string['overview'] = 'Überblick';
 $string['page'] = 'Seite';
 $string['page_after_submit'] = 'Abschlussmitteilung';
@@ -235,14 +229,6 @@ $string['position'] = 'Position';
 $string['preview'] = 'Vorschau';
 $string['preview_help'] = 'In der Vorschau können Sie die Reihenfolge der Fragen ändern.';
 $string['previous_page'] = 'Vorherige Seite';
-$string['privacy:metadata:completed'] = 'Datensatz über beantwortete Feedback-Fragebögen';
-$string['privacy:metadata:completed:anonymousresponse'] = 'Hier wird festgelegt, ob die Abgabe anonymisiert stattfinden soll.';
-$string['privacy:metadata:completed:timemodified'] = 'Zeitpunkt der letzten Bearbeitung der Abgabe.';
-$string['privacy:metadata:completedtmp'] = 'Datensatz über Beantwortungen im Feedback, die noch nicht abgeschlossen sind';
-$string['privacy:metadata:completed:userid'] = 'ID des Nutzers, der die Feedback Aktivität abgeschlossen hat.';
-$string['privacy:metadata:value'] = 'Datensatz mit Antworten auf Fragen';
-$string['privacy:metadata:valuetmp'] = 'Datensatz mit Antworten auf Fragen wenn Feedback noch nicht abgeschlossen';
-$string['privacy:metadata:value:value'] = 'Gewählte Antwort';
 $string['public'] = 'öffentlich';
 $string['question'] = 'Frage';
 $string['questionandsubmission'] = 'Einstellungen für Fragen und Einträge';
@@ -267,7 +253,7 @@ $string['save_entries'] = 'Einträge speichern';
 $string['save_item'] = 'Element speichern';
 $string['saving_failed'] = 'Fehler beim Speichern';
 $string['saving_failed_because_missing_or_false_values'] = 'Fehler beim Speichern, da notwendige Felder nicht oder falsch ausgefüllt wurden';
-$string['search:activity'] = 'Feedback - Aktivitätsinformation';
+$string['search:activity'] = 'Feedback - Beschreibung';
 $string['search_course'] = 'Kurs suchen';
 $string['searchcourses'] = 'Kurse suchen';
 $string['searchcourses_help'] = 'Nach Codes oder Namen von Kursen suchen, die Sie diesem Feedback zuordnen möchten';

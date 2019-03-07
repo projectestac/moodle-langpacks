@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_clean', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'theme_clean', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   theme_clean
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,11 +32,10 @@ $string['customcssdesc'] = 'I CSS personalizzati saranno inclusi in tutte le pag
 $string['footnote'] = 'Piè di pagina';
 $string['footnotedesc'] = 'Il contenuto del piè di pagina sarà visualizzato su tutte le pagine.';
 $string['invert'] = 'Inverti barra di navigazione';
-$string['invertdesc'] = 'Cambia tra bianco e nero lo sfondo ed il testo della barra di navigazione presente nella sommità della pagina.';
+$string['invertdesc'] = 'Cambia tra bianco e nero lo sfondo ed il testo della barra di navigazione presente nella parte superiore della pagina.';
 $string['logo'] = 'Logo';
 $string['logodesc'] = 'Il logo verrà visualizzato solamente nell\'intestazione della pagina home e della pagina di autenticazione.<br />Se l\'altezza del logo è superiore ai 75 pixel, aggiungere la seguente regola nell\'impostazione CSS personalizzato: div.logo {height: 100px;} sostituendo a 100 l\'effettiva altezza del logo. Se non si aggiunge un logo, sarà utilizzato il logo impostato in Aspetto > Logo.';
 $string['pluginname'] = 'Clean';
-$string['privacy:metadata'] = 'Il tema Clean non memorizza dati personali.';
 $string['region-side-post'] = 'Destra';
 $string['region-side-pre'] = 'Sinistra';
 $string['sitelogo'] = 'Logo del sito';

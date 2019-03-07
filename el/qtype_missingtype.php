@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_missingtype', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_missingtype', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   qtype_missingtype
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['answerno'] = 'Απάντηση {$a}';
+$string['cannotchangeamissingqtype'] = 'Δεν μπορείτε να κάνετε αλλαγές σε ερώτηση ενός άγνωστου τύπου.';
+$string['deletedquestion'] = 'Ερώτηση που λείπει';
+$string['deletedquestiontext'] = 'Αυτή η ερώτηση λείπει. Δεν είναι δυνατό να εμφανιστεί τίποτα.';
+$string['missing'] = 'Ερώτηση ενός τύπου που δεν έχει εγκατασταθεί σε αυτό το σύστημα';
+$string['missingqtypewarning'] = 'Αυτή η ερώτηση είναι ενός τύπου που δεν έχει εγκατασταθεί σε αυτό το σύστημα. Δεν θα μπορείτε να κάνετε τίποτα με αυτήν την ερώτηση.';
 $string['pluginname'] = 'Άγνωστος τύπος';
-$string['pluginnameediting'] = 'Τροποποίηση μιας ερώτησης άγνωστου τύπου';
+$string['pluginnameadding'] = 'Προσθήκη ερώτησης ενός τύπου που που δεν έχει εγκατασταθεί σε αυτό το σύστημα';
+$string['pluginnameediting'] = 'Επεξεργασία μιας ερώτησης ενός τύπου που δεν έχει εγκατασταθεί σε αυτό το σύστημα';
 $string['warningmissingtype'] = '<b>Αυτή η ερώτηση είναι ενός τύπου ο οποίος δεν έχει εγκατασταθεί στο Moodle σας ακόμα.<br />Παρακαλούμε ειδοποιήστε τον διαχειριστή του Moodle σας.</b>';

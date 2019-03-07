@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'page', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,15 +32,11 @@ $string['createpage'] = 'Criar um novo recurso do tipo Página';
 $string['displayoptions'] = 'Opções de visualização disponíveis';
 $string['displayselect'] = 'Exibir em';
 $string['displayselectexplain'] = 'Escolha a forma de exibição.';
-$string['indicator:cognitivedepth'] = 'Compreensão da Página';
-$string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno no recursos Página.';
-$string['indicator:socialbreadth'] = 'Socialização da Página';
-$string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno no recurso Página.';
 $string['legacyfiles'] = 'Migração de ficheiro de disciplina antiga';
 $string['legacyfilesactive'] = 'Ativo';
 $string['legacyfilesdone'] = 'Terminado';
 $string['modulename'] = 'Página';
-$string['modulename_help'] = 'O recurso Página permite criar uma página web usando o editor html. A página pode exibir texto, imagens, som, video, hiperligações e código html incorporado, como o Google Maps.
+$string['modulename_help'] = 'O recurso Página permite criar uma página web usando o editor html. A página pode exibir texto, imagens, som, vídeo, hiperligações e código html incorporado, como o Google Maps.
 
 As vantagens de utilizar o recurso página em vez do recurso ficheiro é que a Página pode ser mais fácil de aceder (por exemplo, para utilizadores que acedem a partir de dispostivos móveis) e mais fácil de atualizar.
 
@@ -64,5 +60,4 @@ $string['printheading'] = 'Mostrar nome da página';
 $string['printheadingexplain'] = 'Exibir nome da página acima do conteúdo?';
 $string['printintro'] = 'Mostrar descrição da página';
 $string['printintroexplain'] = 'Mostrar descrição da página por cima do conteúdo?';
-$string['privacy:metadata'] = 'O módulo mod_page não armazena qualquer dado pessoal.';
 $string['search:activity'] = 'Página';

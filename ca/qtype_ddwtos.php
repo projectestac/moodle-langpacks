@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddwtos', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_ddwtos', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   qtype_ddwtos
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['answer'] = 'Resposta';
 $string['blank'] = 'en blanc';
 $string['correctansweris'] = 'La resposta correcta és: {$a}';
 $string['infinite'] = 'Il·limitat';
-$string['pleaseputananswerineachbox'] = 'Si us plau, poseu una resposta a cada caixa.';
+$string['pleaseputananswerineachbox'] = 'Poseu una resposta a cada caixa.';
 $string['pluginname'] = 'Arrossegar i deixar anar dins d\'un text';
 $string['pluginnameadding'] = 'S\'està afegint una pregunta d\'arrossegar i deixar anar';
 $string['pluginnameediting'] = 'S\'està editant una pregunta d\'arrossegar i deixar anar';

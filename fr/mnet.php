@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'mnet', language 'fr', branch 'MOODLE_32_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -120,7 +120,7 @@ $string['last_transport_help'] = 'Le transport utilisé lors de votre dernière 
 $string['leavedefault'] = 'Utiliser plutôt les réglages par défaut';
 $string['listservices'] = 'Lister les services';
 $string['loginlinkmnetuser'] = '<br />Si vous êtes un utilisateur MNet distant et pouvez <a href="{$a}">confirmer ici votre adresse de courriel</a>, vous pouvez être redirigé vers votre page de connexion.<br />';
-$string['logs'] = 'Historiques';
+$string['logs'] = 'Journaux';
 $string['managemnetpeers'] = 'Gérer les pairs';
 $string['method'] = 'Méthode';
 $string['methodhelp'] = 'Aide pour la méthode {$a}';
@@ -174,7 +174,6 @@ $string['permittedtransports'] = 'Transports autorisés';
 $string['phperror'] = 'Une erreur PHP interne a empêché l\'aboutissement de votre requête.';
 $string['position'] = 'Position';
 $string['postrequired'] = 'La fonction de suppression requiert une requête POST.';
-$string['privacy:metadata'] = 'Le plugin MNet n\'enregistre aucune donnée personnelle.';
 $string['profileexportfields'] = 'Champs à envoyer';
 $string['profilefielddesc'] = 'Vous pouvez configurer ici la liste des champs de profil envoyés et reçus par MNet lors de la création ou de la modification de comptes utilisateurs. Vous pouvez également modifier ceci individuellement pour chaque pair MNet. Les champs suivants sont toujours envoyés et ne sont pas optionnels : {$a}';
 $string['profilefields'] = 'Champ du profil';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_health', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_health', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_health
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['healthnoproblemsfound'] = 'Δε βρέθηκε πρόβλημα υγείας!';
-$string['healthproblemsdetected'] = 'Ανιχνεύθηκαν Προβλήματα Υγείας!';
-$string['healthproblemsolution'] = 'Λύση Προβλήματος Υγείας';
+$string['healthproblemsdetected'] = 'Ανιχνεύθηκαν προβλήματα υγείας!';
+$string['healthproblemsolution'] = 'Λύση προβλήματος υγείας';
 $string['healthreturntomain'] = 'Συνέχεια';
 $string['healthsolution'] = 'Λύση';
-$string['pluginname'] = 'Κέντρο Υγείας';
+$string['pluginname'] = 'Κέντρο υγείας';

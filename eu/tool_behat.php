@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_behat', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_behat', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_behat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,7 +41,6 @@ $string['newstepsinfo'] = 'Irakurri {$a} urratsen definizio berriak gehitzeko mo
 $string['newtestsinfo'] = 'Irakurri {$a} proba berriak idazteko moduaren inguruko informazioa izateko';
 $string['nostepsdefinitions'] = 'Ez dago iragazki hauek betetzen dituen urratsen definiziorik';
 $string['pluginname'] = 'Onarpen probak';
-$string['privacy:metadata'] = 'Onarpen probak pluginak ez du datu pertsonalik biltzen.';
 $string['stepsdefinitionscomponent'] = 'Eremua';
 $string['stepsdefinitionscontains'] = 'Barne ditu';
 $string['stepsdefinitionsfilters'] = 'Urratsen definizioak';

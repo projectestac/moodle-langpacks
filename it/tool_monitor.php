@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_monitor', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -98,6 +98,6 @@ $string['subdeletesuccess'] = 'La sottoscrizione è stata eliminata correttament
 $string['subhelp'] = 'Dettagli della sottoscrizione';
 $string['subhelp_help'] = 'Questa sottoscrizione controlla che l\'evento  \'{$a->eventname}\' si verifichi in \'{$a->moduleinstance}\' per {$a->frequency} volte  in {$a->minutes} minuti.';
 $string['subscribeto'] = 'Sottoscrivi la regola "{$a}"';
-$string['taskchecksubscriptions'] = 'Abilita/disabilita sottoscrizioni regole non valide';
+$string['taskchecksubscriptions'] = 'Abilitazione/disabilitazione sottoscrizioni di regole non valide';
 $string['taskcleanevents'] = 'Pulizia eventi del monitoraggio eventi';
 $string['unsubscribe'] = 'Revoca sottoscrizione';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_profile', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'availability_profile', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   availability_profile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['conditiontitle'] = 'Campo de perfil de utilizador';
-$string['description'] = 'Controlo de acesso baseado em campos de perfil do aluno.';
+$string['description'] = 'Condição de acesso com base em campos de perfil do aluno.';
 $string['error_selectfield'] = 'Tem de selecionar um campo de perfil.';
 $string['error_setvalue'] = 'Tem de digitar um valor.';
 $string['label_operator'] = 'Método de comparação';
@@ -39,8 +39,7 @@ $string['op_isempty'] = 'está vazio';
 $string['op_isequalto'] = 'igual a';
 $string['op_isnotempty'] = 'não está vazio';
 $string['op_startswith'] = 'começa com';
-$string['pluginname'] = 'Restrição por perfil';
-$string['privacy:metadata'] = 'O módulo Restrição por perfil não armazena dados pessoais.';
+$string['pluginname'] = 'Condição de acesso com base no perfil';
 $string['requires_contains'] = 'O campo <strong>{$a->field}</strong> contém <strong>{$a->value}</strong>';
 $string['requires_doesnotcontain'] = 'O campo <strong>{$a->field}</strong> não contém <strong>{$a->value}</strong>';
 $string['requires_endswith'] = 'O campo <strong>{$a->field}</strong> termina com <strong>{$a->value}</strong>';

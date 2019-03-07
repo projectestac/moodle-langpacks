@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_charmap', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'atto_charmap', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   atto_charmap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['adiaeresis_caps'] = 'A - dieresiduna';
 $string['agrave'] = 'a - grabea';
 $string['agrave_caps'] = 'A - grabea';
 $string['alefsymbol'] = 'alef simboloa';
-$string['almostequalto'] = '';
+$string['almostequalto'] = 'ia ia honen berdina';
 $string['alpha'] = 'alpha';
 $string['alpha_caps'] = 'Alpha';
 $string['amacron'] = 'a - goi-marra';
@@ -45,7 +45,7 @@ $string['angle'] = 'angelua';
 $string['approximatelyequalto'] = 'gutxi gora behera honen berdina';
 $string['aringabove'] = 'a - goi uztaia';
 $string['aringabove_caps'] = 'A - goi uztaia';
-$string['asteriskoperator'] = 'asteriskoa eragiketarako';
+$string['asteriskoperator'] = 'izartxoa eragiketarako';
 $string['atilde'] = 'a - tildeduna';
 $string['atilde_caps'] = 'A - tildeduna';
 $string['backwarddifference'] = 'atzekoz aurrerako ezberdintasuna';
@@ -211,11 +211,10 @@ $string['pisymbol'] = 'pi ikurra';
 $string['pluginname'] = 'Txertatu karakterea';
 $string['plusminussign'] = 'gehi-ken ikurra';
 $string['poundsign'] = 'libera ikurra';
-$string['privacy:metadata'] = 'atto_charmap pluginak ez du datu pertsonalik biltzen.';
 $string['proportionalto'] = 'honekiko proportzionala';
 $string['psi'] = 'psi';
 $string['psi_caps'] = 'Psi';
-$string['quotationmark'] = 'hankaz gorako kakotxak';
+$string['quotationmark'] = 'kakotxa';
 $string['realpartsymbol'] = 'zati errealaren ikurra';
 $string['registeredsign'] = 'erregistratuta ikurra';
 $string['rho'] = 'rho';

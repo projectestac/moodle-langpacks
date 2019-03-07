@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_url', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_url', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configplugin'] = 'Ρύθμιση τύπου χώρου αποθήκευσης URL';
-$string['download'] = 'Μεταφόρτωση';
+$string['configplugin'] = 'Ρυθμίσεις τύπου αποθετηρίου διευθύνσεων URL';
+$string['download'] = 'Λήψη';
+$string['pluginname'] = 'Λήψη (εικόνων) από διεύθυνση URL';
 $string['rename'] = 'Όνομα';
-$string['url:view'] = 'Χρήση του URL downloader στο σύστημα επιλογής αρχείων (file picker)';
+$string['url'] = 'Διεύθυνση URL';
+$string['url:view'] = 'Χρήση του «Λήψη (εικόνων) από διεύθυνση URL» στον επιλογέα αρχείων';
+$string['validfiletype'] = 'Πρέπει να δώσετε μια διεύθυνση URL ενός αρχείο εικόνας ή μιας σελίδας που περιέχει εικόνες.';
+$string['validname'] = 'Πρέπει να δώσετε ένα έγκυρο όνομα αρχείου';

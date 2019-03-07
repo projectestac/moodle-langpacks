@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'calendar', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   calendar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -64,12 +64,25 @@ $string['erroraddingevent'] = '添加事件失败';
 $string['errorbadsubscription'] = '未发现日历订阅。';
 $string['errorbeforecoursestart'] = '不能在课程开始前设置事件';
 $string['errorcannotimport'] = '你不可以在这个时间设置一个日历订阅。';
+$string['errorhasuntilandcount'] = '"直至" 或是"计数"均可以出现在复现规则中，但"直至" 和"计数"不能出现在同一条复现规则里。';
+$string['errorinvalidbydaysuffix'] = '"每天"规则中一星期各天的有效值为周一、周二、周三、周四、周五、周六、周日';
+$string['errorinvalidbyhour'] = '"小时"规则的有效值为0到23。';
+$string['errorinvalidbyminute'] = '"分钟"规则的有效值为0到59。';
+$string['errorinvalidbymonth'] = '"月份"规则的有效值为1到12。';
+$string['errorinvalidbymonthday'] = '"日期"规则的有效值为1到31或-31到-1。';
+$string['errorinvalidbysecond'] = '"秒"规则的有效值为0到59。';
+$string['errorinvalidbysetpos'] = '"位置"规则有有效值为1到366或-366到-1。';
+$string['errorinvalidbyweekno'] = '"周数"规划的有效值为1到53或-53到-1。';
+$string['errorinvalidbyyearday'] = '"年天"规则有有效值为1到366或-366到-1。';
 $string['errorinvaliddate'] = '无效日期';
 $string['errorinvalidicalurl'] = '给出的iCal网址无效。';
+$string['errorinvalidinterval'] = '"间隔"规则的有效值应为正整数。';
 $string['errorinvalidminutes'] = '持续的分钟数应当是 1 至 999 之间的整数。';
 $string['errorinvalidrepeats'] = '事件的数目应当是 1 至 99 之间的整数。';
+$string['errormustbeusedwithotherbyrule'] = '"位置"规则必须仅与另一个BYxxx规则联合使用。';
 $string['errornodescription'] = '必须填写说明';
 $string['errornoeventname'] = '必须填写名称';
+$string['errornonyearlyfreqwithbyweekno'] = '"周数"规则仅对年度规则有效。';
 $string['errorrequiredurlorfile'] = '导入日历的时候，需要一个URL或者文件';
 $string['errorrrule'] = 'rrule规则似乎错误了。';
 $string['errorrruleday'] = '这个rrule的日参数有误';
@@ -91,8 +104,14 @@ $string['eventsdeleted'] = '事件已删除';
 $string['eventsfor'] = '{$a} 事件';
 $string['eventsimported'] = '事件导入：{$a}';
 $string['eventskey'] = '事件关键字';
+$string['eventspersonal'] = '我的个人事件';
 $string['eventsrelatedtocourses'] = '与课程相关事件';
+$string['eventsrelatedtogroups'] = '与小组相关的事件';
 $string['eventstarttime'] = '开始时间';
+$string['eventstoexport'] = '需要导出的事件';
+$string['eventsubscriptioncreated'] = '已创建日历订阅';
+$string['eventsubscriptiondeleted'] = '已删除日历订阅';
+$string['eventsubscriptionupdated'] = '已更新日历订阅';
 $string['eventsupdated'] = '事件更新：{$a}';
 $string['eventtime'] = '时间';
 $string['eventview'] = '事件详情';
@@ -115,8 +134,8 @@ $string['groupevent'] = '组事件';
 $string['groupevents'] = '组事件';
 $string['hidecourseevents'] = '隐藏课程事件';
 $string['hideglobalevents'] = '隐藏全局事件';
-$string['hidegroupsevents'] = '隐藏组时间';
-$string['hideuserevents'] = '隐藏用户时间';
+$string['hidegroupsevents'] = '隐藏小组事件';
+$string['hideuserevents'] = '隐藏用户事件';
 $string['hourly'] = '每小时';
 $string['ical'] = '日历';
 $string['importcalendar'] = '导入日历';
@@ -187,6 +206,7 @@ $string['thu'] = '周四';
 $string['thursday'] = '星期四';
 $string['timeformat_12'] = '12 小时(上午/下午)';
 $string['timeformat_24'] = '24 小时';
+$string['timeperiod'] = '时间段';
 $string['today'] = '今天';
 $string['tomorrow'] = '明天';
 $string['tt_deleteevent'] = '删除事件';

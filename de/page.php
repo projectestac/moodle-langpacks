@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'page', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,10 +32,6 @@ $string['createpage'] = 'Neue Textseite anlegen';
 $string['displayoptions'] = 'Mögliche Anzeigeoptionen';
 $string['displayselect'] = 'Anzeigen';
 $string['displayselectexplain'] = 'Anzeigeart auswählen';
-$string['indicator:cognitivedepth'] = 'Textseite kognitiv';
-$string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die ein/e Teilnehmer/in bei einer Textseite erreicht hat.';
-$string['indicator:socialbreadth'] = 'Textseite sozial';
-$string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die ein/e Teilnehmer/in bei einer Textseite erreicht hat.';
 $string['legacyfiles'] = 'Migration einer alten Kursdatei';
 $string['legacyfilesactive'] = 'Aktiv';
 $string['legacyfilesdone'] = 'Beendet';
@@ -47,7 +43,7 @@ Die Textseite ist einfacher zu bearbeiten als eine hochgeladene Datei. Bei der N
 Alternative: Umfangreiche Inhalte können mit dem Modul \'Buch\' auf mehreren Seiten verteilt und gegliedert werden.';
 $string['modulenameplural'] = 'Textseiten';
 $string['optionsheader'] = 'Optionen';
-$string['page:addinstance'] = 'Textseite hinzufügen';
+$string['page:addinstance'] = 'Neue Textseite hinzufügen';
 $string['page-mod-page-x'] = 'Jede Textseite';
 $string['page:view'] = 'Seiteninhalt sehen';
 $string['pluginadministration'] = 'Textseite-Administration';
@@ -57,8 +53,7 @@ $string['popupheightexplain'] = 'Standardhöhe von Popup-Fenstern festlegen';
 $string['popupwidth'] = 'Breite des Popups (Pixel)';
 $string['popupwidthexplain'] = 'Standardbreite von Popup-Fenstern festlegen';
 $string['printheading'] = 'Seitenname anzeigen';
-$string['printheadingexplain'] = 'Name der Seite über dem Inhalt anzeigen';
-$string['printintro'] = 'Beschreibung über dem Seiteninhalt anzeigen';
+$string['printheadingexplain'] = 'Name der Seite oberhalb des Inhalts anzeigen';
+$string['printintro'] = 'Beschreibung oberhalb des Seiteninhalts anzeigen';
 $string['printintroexplain'] = 'Soll die einleitende Beschreibung über dem Seiteninhalt angezeigt werden?';
-$string['privacy:metadata'] = 'Das Plugin Textseite speichert keine personenbezogenen Daten.';
 $string['search:activity'] = 'Textseite';

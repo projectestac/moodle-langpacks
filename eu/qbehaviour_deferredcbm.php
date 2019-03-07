@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_deferredcbm', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qbehaviour_deferredcbm', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   qbehaviour_deferredcbm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,7 +47,7 @@ $string['certainty_help'] = 'Ziurtasunean oinarritutako kalifikazioak zure erant
 
 Ziurtasun maila                 | C=1 (Zalantzan) | C=2 (Nahiko ziur) | C=3 (Oso ziur)
 ------------------------------- | --------------- | ----------------- | ----------------
-Erantzun egokiaren kalifikazioa |        1        |          2        |        3
+Erantzun zuzenaren kalifikazioa |        1        |          2        |        3
 Erantzun okerraren kalifikazioa |        0        |         -2        |       -6
 Zuzen izatearen probabilitatea  |      <%67       |       %67-80      |      >%80';
 $string['certaintyshort1'] = 'C=1';
@@ -63,7 +63,6 @@ $string['judgementsummary'] = 'Erantzunak: {$a->responses}. Zehaztasuna: {$a->fr
 $string['noquestions'] = 'Erantzunik ez';
 $string['overconfident'] = 'zure buruaz ziurregi';
 $string['pluginname'] = 'Beranduagoko feedbacka CBMrekin';
-$string['privacy:metadata'] = 'Beranduagoko feedbacka CBMrekin galdera-jokaera pluginak ez du datu pertsonalik biltzen.';
 $string['slightlyoverconfident'] = 'zure buruaz apur bat ziurregi';
 $string['slightlyunderconfident'] = 'zure buruaz ez oso ziur';
 $string['underconfident'] = 'zure buruaz oso ziurtasun gutxirekin';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_glossary_random', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_glossary_random', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   block_glossary_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,8 +29,8 @@ $string['addentry'] = 'Neuen Eintrag hinzufügen';
 $string['askaddentry'] = 'Wenn Teilnehmer/innen selbst Einträge zum Glossar hinzufügen dürfen, wird ein Link mit folgendem Text angezeigt.';
 $string['askinvisible'] = 'Wenn Teilnehmer/innen das Glossar weder sehen noch Einträge hinzufügen dürfen, wird folgender Text (ohne Link) angezeigt.';
 $string['askviewglossary'] = 'Wenn Teilnehmer/innen das Glossar sehen können, aber keine Einträge hinzufügen dürfen, wird ein Link mit folgendem Text angezeigt.';
-$string['glossary_random:addinstance'] = 'Block \'Glossareintrag\' hinzufügen';
-$string['glossary_random:myaddinstance'] = 'Block \'Glossareintrag\' zum Dashboard hinzufügen';
+$string['glossary_random:addinstance'] = 'Neuen Block \'Glossareintrag\' hinzufügen';
+$string['glossary_random:myaddinstance'] = 'Neuen Block \'Glossareintrag\' zum Dashboard hinzufügen';
 $string['intro'] = 'Legen Sie zuerst mindestens ein Glossar mit mindestens einem Eintrag in diesem Kurs an. Danach können Sie die folgenden Einstellungen bearbeiten.';
 $string['invisible'] = '(Fortsetzung folgt)';
 $string['lastmodified'] = 'Zuletzt geänderter Eintrag';
@@ -40,7 +40,6 @@ $string['noentriesyet'] = 'Im ausgewählten Glossar gibt es keine Einträge.';
 $string['notyetconfigured'] = 'Legen Sie ein Glossar im Kurs an und bearbeiten Sie dann die Einstellungen für diesen Block.';
 $string['notyetglossary'] = 'Sie müssen mindestens ein Glossar auswählen.';
 $string['pluginname'] = 'Glossareintrag';
-$string['privacy:metadata'] = 'Der Block \'Zufälliger Glossareintrag\' zeigt nur Daten an, die an anderen Orten gespeichert sind.';
 $string['random'] = 'Zufallseintrag';
 $string['refresh'] = 'Dauer (in Tagen) bis der Eintrag gewechselt wird';
 $string['select_glossary'] = 'Dieses Glossar nutzen';

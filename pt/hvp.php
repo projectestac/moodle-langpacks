@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'hvp', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   hvp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,8 @@ $string['addedandupdatedsp'] = 'Adicionada {$a->%new} nova biblioteca H5P e atua
 $string['addedandupdatedss'] = 'Adicionada {$a->%new} nova biblioteca H5P e atualizada {$a->%old} biblioteca antiga.';
 $string['addednewlibraries'] = 'Adicionadas {$a->%new} novas bibliotecas H5P.';
 $string['addednewlibrary'] = 'Adicionada {$a->%new} nova biblioteca H5P.';
+$string['additionalinfo'] = 'Informação adicional';
+$string['additionallicenseinfo'] = 'Informações adicionais sobre a licença';
 $string['addlibraries'] = 'Adicionar bibliotecas';
 $string['ajaxfailed'] = 'Falha ao carregar dados.';
 $string['attribution'] = 'Atribuição 4.0';
@@ -41,15 +43,32 @@ $string['attributionncsa'] = 'Atribuição-NãoComercial-CompartilhaIgual 4.0';
 $string['attributionnd'] = 'Atribuição-SemDerivações 4.0';
 $string['attributionsa'] = 'Atribuição-CompartilhaIgual 4.0';
 $string['author'] = 'Autor';
+$string['authorcomments'] = 'Comentários do autor';
+$string['authorcommentsdescription'] = 'Comentários direcionados ao editor do conteúdo (este texto não será publicado como parte da informação sobre direitos de autor)';
+$string['authorname'] = 'Nome do autor';
+$string['authorrole'] = 'Papel do autor';
 $string['by'] = 'por';
 $string['cancellabel'] = 'Cancelar';
+$string['ccattribution'] = 'Atribuição (CC BY)';
+$string['ccattributionnc'] = 'Atribuição-NãoComercial (CC BY-NC)';
+$string['ccattributionncnd'] = 'Atribuição-NãoComercial-SemDerivações (CC BY-NC-ND)';
+$string['ccattributionncsa'] = 'Atribuição-NãoComercial-CompartilhaIgual (CC BY-NC-SA)';
+$string['ccattributionnd'] = 'Atribuição-SemDerivações (CC BY-ND)';
+$string['ccattributionsa'] = 'Atribuição-CompartilhaIgual (CC BY-SA)';
+$string['ccpdd'] = 'Dedicação de Domínio Público (CC0)';
+$string['ccpdm'] = 'Marca de Domínio Público (PDM)';
+$string['changedby'] = 'Alterado por';
+$string['changedescription'] = 'Descrição da alteração';
+$string['changelog'] = 'Relatório de alterações';
+$string['changeplaceholder'] = 'Foto recortada, texto modificado, etc.';
 $string['close'] = 'Fechar';
-$string['confirmdialogbody'] = 'Por favor, confirme que deseja prosseguir. Esta ação é irreversível.';
+$string['confirmdialogbody'] = 'Por favor, confirme que pretende prosseguir. Esta ação é irreversível.';
 $string['confirmdialogheader'] = 'Confirmar ação';
 $string['confirmlabel'] = 'Confirmar';
 $string['contentchanged'] = 'Este conteúdo foi alterado desde que o usou pela última vez.';
 $string['contentstatefrequency'] = 'Frequência de gravação do estado do conteúdo';
 $string['contentstatefrequency_help'] = 'Em segundos, com que frequência deseja que seja salvo automaticamente o progresso do usuário. Aumente este número se tiver problemas com muitas solicitações AJAX';
+$string['contenttype'] = 'Tipo de conteúdo';
 $string['contenttypecacheheader'] = 'Cache do tipo de conteúdo';
 $string['copyright'] = 'Direitos de utilização';
 $string['copyrightinfo'] = 'Informações sobre direitos autorais';
@@ -58,16 +77,18 @@ $string['copyrighttitle'] = 'Visualizar informações sobre os direitos autorais
 $string['couldnotcopy'] = 'Não foi possível copiar o ficheiro.';
 $string['couldnotsave'] = 'Não foi possível guardar o ficheiro.';
 $string['create'] = 'Criar';
+$string['creativecommons'] = 'Creative Commons';
 $string['ctcachebuttonlabel'] = 'Atualizar o cache do tipo de conteúdo';
-$string['ctcacheconnectionfailed'] = 'Não foi possível comunicar com o H5P Hub. Por favor, tente mais tarde.';
+$string['ctcacheconnectionfailed'] = 'Não foi possível comunicar com o H5P Hub. Por favor, tente novamente mais tarde.';
 $string['ctcachedescription'] = 'Ao assegurar que a cache do tipo de conteúdo encontra-se atualizada permite que possa visualizar, descarregar e usar as bibliotecas mais recentes. Isto é diferente da atualização das próprias bibliotecas.';
 $string['ctcachelastupdatelabel'] = 'Última atualização';
 $string['ctcacheneverupdated'] = 'Nunca';
-$string['ctcachenolibraries'] = 'Não foi recebido conteúdo do H5P Hub. Por favor, tente mais tarde.';
+$string['ctcachenolibraries'] = 'Não foi recebido qualquer conteúdo do H5P Hub. Por favor, tente novamente mais tarde.';
 $string['ctcachesuccess'] = 'Cache da biblioteca foi atualizada com sucesso.';
 $string['ctcachetaskname'] = 'Cache do tipo de conteúdo atualizada';
 $string['currentpage'] = 'Página $current de $total';
 $string['dataviewreportlabel'] = 'Visualize as respostas';
+$string['date'] = 'Data';
 $string['disablefileextensioncheck'] = 'Desativar a verificação da extensão do ficheiro';
 $string['disablefileextensioncheckwarning'] = 'Atenção! Desativar a verificação de extensão de ficheiro pode ter implicações de segurança, uma vez que permite o upload de ficheiros PHP. O que , por sua vez, pode possibilitar a execução de código malicioso no seu site. Por favor, verifique se sabe exatamente o que está carregando.';
 $string['disablefullscreen'] = 'Desativar o modo ecrã completo';
@@ -128,10 +149,10 @@ $string['hvp:userestrictedlibraries'] = 'Usar tipos restritos de conteúdos H5P'
 $string['hvp:view'] = 'Visualizar e interagir com as atividades H5P';
 $string['hvp:viewallresults'] = 'Visualizar todos os resultados das atividades H5P concluídas';
 $string['hvp:viewresults'] = 'Visualizar os próprios resultados das atividades H5P concluídas';
-$string['installdenied'] = 'Não tem permissão para instalar tipos de conteúdos. Contate o administrador do site.';
+$string['installdenied'] = 'Não tem permissão para instalar tipos de conteúdos. Contacte o administrador do site.';
 $string['installedlibraries'] = 'Bibliotecas instaladas';
 $string['intro'] = 'Introdução';
-$string['invalidaudioformat'] = 'Formato de ficheiro audio inválido. Use mp3 ou wav.';
+$string['invalidaudioformat'] = 'Formato de ficheiro áudio inválido. Use mp3 ou wav.';
 $string['invalidcontentfolder'] = 'Pasta de conteúdo inválida';
 $string['invalidcontenttype'] = 'O tipo de conteúdo selecionado é inválido.';
 $string['invalidfieldtype'] = 'Tipo de campo inválido.';
@@ -175,6 +196,8 @@ $string['licenseCC20'] = 'Atribuição 2.0 Genérica';
 $string['licenseCC25'] = 'Atribuição 2.5 Genérica';
 $string['licenseCC30'] = 'Atribuição 3.0 Não Adaptada';
 $string['licenseCC40'] = 'Atribuição 4.0 Internacional';
+$string['licensee'] = 'Licenciados';
+$string['licenseextras'] = 'Licença suplementar';
 $string['licenseGPL'] = 'Licença Pública Geral';
 $string['licenseV1'] = 'Versão 1';
 $string['licenseV2'] = 'Versão 2';
@@ -197,15 +220,16 @@ $string['missinglibraryjson'] = 'Não foi possível encontrar o ficheiro library
 $string['missinglibraryproperty'] = 'A propriedade {$a->%property} necessária não foi encontrada em {$a->%library}';
 $string['missingmbstring'] = 'A extensão PHP mbstring  não está carregada. H5P precisa dessa extensão para funcionar corretamente';
 $string['missingparameters'] = 'Ausência de parâmetros';
-$string['missinguploadpermissions'] = 'Note-se que as bibliotecas podem existir no ficheiro enviado, mas não tem permissão para fazer upload de novas bibliotecas. Entre em contato com o administrador do site.';
+$string['missinguploadpermissions'] = 'Note que as bibliotecas podem existir no ficheiro enviado, mas não tem permissão para fazer efetuar o carregamento de novas bibliotecas. Entre em contacto com o administrador do site.';
 $string['modulename'] = 'Conteúdo interativo';
-$string['modulename_help'] = 'O módulo de atividade H5P permite que criar conteúdo interativo, como vídeos interativos, conjuntos de perguntas, perguntas de arrastar e soltar, perguntas múltiplas, apresentações e muito mais.
+$string['modulename_help'] = 'O módulo de atividade H5P permite criar conteúdos interativos, como sejam  vídeos interativos, conjuntos de perguntas, perguntas de arrastar e soltar, perguntas múltiplas, apresentações e muito mais.
 
-Além de ser uma ferramenta de criação de conteúdo rico, o H5P permite importar e exportar arquivos H5P para reutilização efetiva e compartilhamento de conteúdo.
+Além de ser uma ferramenta de criação de conteúdo rico, o H5P permite importar e exportar ficheiros H5P, permitindo assim uma reutilização efetiva e compartilha de conteúdos.
 
-As interações e pontuações do utilizador são rastreadas usando o xAPI e estão disponíveis no Moodle Gradebook.
+As interações e avaliações do utilizador são rastreadas usando o xAPI e estão disponíveis no Moodle Gradebook.
+É de ressalvar que, atualmente, é possível que utilizadores com conhecimentos de programação trapaceiem nas interações do H5P e obtenham a pontuação máxima sem conhecer as respostas corretas. Os H5Ps não devem ser usados para exames ou similares.
 
-Pode adicionar conteúdo H5P interativo criando conteúdo usando a ferramenta de autoria incorporada ou carregando arquivos H5P encontrados em outros sites habilitados para H5P.';
+Pode adicionar conteúdo interativo usando a ferramenta de autoria incorporada ou carregando ficheiros H5P encontrados noutros sítios habilitados para H5P.';
 $string['modulenameplural'] = 'Conteúdo interativi';
 $string['nextpage'] = 'Próxima página';
 $string['noanswersubmitted'] = 'Este utilizador ainda não enviou uma resposta para este H5P';
@@ -240,6 +264,7 @@ $string['noziparchive'] = 'A sua versão do PHP não suporta ZipArchive.';
 $string['oldphpversion'] = 'Sua versão do PHP está desatualizada. H5P requer a versão 5.2 para funcionar corretamente. Recomenda-se a versão 5.6 ou posterior.';
 $string['onlyupdate'] = 'Atualizar somente bibliotecas existentes';
 $string['options'] = 'Opções';
+$string['originator'] = 'Originador';
 $string['pd'] = 'Domínio Público';
 $string['pddl'] = 'Dedicação ao Domínio Público e Licença';
 $string['pdm'] = 'Marca de Domínio Público';
@@ -280,6 +305,7 @@ $string['privacy:metadata:hvp_xapi_results:parent_id'] = 'O ID do ascendente do 
 $string['privacy:metadata:hvp_xapi_results:raw_score'] = 'Pontuação obtida no evento.';
 $string['privacy:metadata:hvp_xapi_results:response'] = 'Resposta enviada pelo utilizador.';
 $string['privacy:metadata:hvp_xapi_results:user_id'] = 'Id do utilizador que executou a ação.';
+$string['question'] = 'Questão';
 $string['removeoldlogentries'] = 'Remover as entradas de log H5P antigas';
 $string['removetmpfiles'] = 'Remover ficheiros temporários H5P antigos';
 $string['reportingquestionsremaininglabel'] = 'perguntas por avaliar';
@@ -300,7 +326,7 @@ $string['settings'] = 'Configurações H5P';
 $string['showadvanced'] = 'Mostrar avançado';
 $string['showless'] = 'Mostrar menos';
 $string['showmore'] = 'Mostrar mais';
-$string['sitecouldnotberegistered'] = 'O site não pode ser registado com o hub. Por favor, contate o administrador do site.';
+$string['sitecouldnotberegistered'] = 'Não foi possível registar o site com o hub. Por favor, contacte o administrador do site.';
 $string['sitekey'] = 'Chave do site';
 $string['sitekeydescription'] = 'A chave do site é secreta que e identifica exclusivamente este site com o Hub.';
 $string['sitekeyregistered'] = 'Recebeu uma chave exclusiva que o identifica com o Hub quando recebe novas atualizações. A chave está disponível para visualização na página "Configurações H5P".';
@@ -349,3 +375,5 @@ $string['welcomeheader'] = 'Bem-vindo(a) ao mundo do H5P!';
 $string['wrongversion'] = 'A versão da biblioteca H5P {$ a ->% machineName} usada neste conteúdo não é válida. O conteúdo contém {$ a ->% contentLibrary}, mas deveria ser {$ a ->% semanticsLibrary}.';
 $string['year'] = 'Ano';
 $string['years'] = 'Anos';
+$string['yearsfrom'] = 'Anos (de)';
+$string['yearsto'] = 'Anos (para)';

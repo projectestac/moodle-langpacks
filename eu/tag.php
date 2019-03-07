@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tag', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,18 +25,19 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['added'] = 'Etiketa estandarra(k) gehitu d(ir)a';
+$string['added'] = 'Etiketa ofiziala(k) gehitu d(ir)a';
+$string['addedotag'] = '"{$a}" etiketa ofizial gisa gehitu da';
 $string['addotags'] = 'Gehitu etiketa estandarrak';
 $string['addtagcoll'] = 'Gehitu etiketa-bilduma';
-$string['addtagtomyinterests'] = '"{$a}" nire interesekoetara gehitu';
+$string['addtagtomyinterests'] = 'Gehitu "{$a}" nire interesekoetara';
 $string['alltagpages'] = 'Etiketa-orri guztiak';
-$string['backtoallitems'] = 'Itzuli "$a" gisa etiketutako elementu guztietara';
+$string['backtoallitems'] = 'Itzuli "{$a}" gisa etiketatutako elementu guztietara';
 $string['changename'] = 'Aldatu etiketa-izena';
-$string['changeshowstandard'] = 'Aldatu {$a} eremuan erakutsitako berezko etiketak';
+$string['changeshowstandard'] = 'Aldatu {$a} eremuan erakutsitako lehenetsitako etiketak';
 $string['changessaved'] = 'Aldaketak gorde dira';
 $string['changetagcoll'] = 'Aldatu {$a} eremuko etiketa-bilduma';
 $string['changetype'] = 'Aldatu etiketa-mota';
-$string['collnameexplained'] = 'Utzi eremua hutsik berezko balioa erabiltzeko: {$a}';
+$string['collnameexplained'] = 'Utzi eremua hutsik lehenetsitako balioa erabiltzeko: {$a}';
 $string['combined'] = 'Etiketak konbinatu dira';
 $string['combineselected'] = 'Konbinazioa aukeratu da';
 $string['component'] = 'Osagaia';
@@ -44,7 +45,7 @@ $string['confirmdeletetag'] = 'Ziur al zaude etiketa hau ezabatu nahi duzula?';
 $string['confirmdeletetags'] = 'Ziur al zaude aukeratutako etiketak ezabatu nahi dituzula?';
 $string['count'] = 'Zenbatu';
 $string['coursetags'] = 'Ikastaroko etiketak';
-$string['defautltagcoll'] = 'Berezko bilduma';
+$string['defautltagcoll'] = 'Lehenetsitako bilduma';
 $string['delete'] = 'Ezabatu';
 $string['deleted'] = 'Etiketa(k) ezabatu d(ir)a';
 $string['deletedcoursetags'] = 'Ezabatuta - Ikastaro-etiketak';
@@ -89,6 +90,7 @@ $string['name'] = 'Etiketaren izena';
 $string['namesalreadybeeingused'] = 'Etiketa-izenak dagoeneko erabilia izaten ari dira';
 $string['nameuseddocombine'] = 'Etiketa-izena dagoeneko erabilia izaten ari da. Etiketa horiek konbinatu nahi dituzu?';
 $string['newcollnamefor'] = 'izen berria {$a} etiketa-bildumarako';
+$string['newname'] = 'Izen berria';
 $string['newnamefor'] = '{$a} etiketarako izen berria';
 $string['nextpage'] = 'Gehiago';
 $string['noresultsfor'] = 'Ez dago emaitzarik "{$a}"-(e)rako';
@@ -103,20 +105,7 @@ $string['page-tag-manage'] = 'Kudeatu etiketa-orria';
 $string['page-tag-search'] = 'Etiketa-bilaketarako orria';
 $string['page-tag-x'] = 'Etiketa-orri guztiak';
 $string['prevpage'] = 'Atzera';
-$string['privacy:metadata:tag'] = 'Etiketa bakoitzaren xehetasunak euren deskribapenarekin eta erlazionatutako beste informazioarekin batera gordetzen dira.';
-$string['privacy:metadata:tag:description'] = 'Etiketaren deskribapena';
-$string['privacy:metadata:tag:flag'] = 'Etiketa bat ezegoki gisa markatua izan den edo ez';
-$string['privacy:metadata:taginstance'] = 'Etiketa bakoitza eta erabilia izan den leku bakoitzaren arteko esteka.';
-$string['privacy:metadata:taginstance:ordering'] = 'Etiketa honen ordena erlatiboa.';
-$string['privacy:metadata:taginstance:tagid'] = 'Etiketarako esteka';
-$string['privacy:metadata:taginstance:timecreated'] = 'Etiketa hau helbururako estekatua izan zeneko unea.';
-$string['privacy:metadata:taginstance:timemodified'] = 'Etiketa hau helbururako aldatua izan zeneko unea.';
-$string['privacy:metadata:taginstance:tiuserid'] = 'Erabiltzaileek partekatutako edukia banaka etiketatu dezaketenean, etiketa-instantziaren jabea gordetzen da.';
-$string['privacy:metadata:tag:name'] = 'Etiketaren izena - hau izenaren normalizatutako bertsioa da.';
-$string['privacy:metadata:tag:rawname'] = 'Etiketaren izena - hau da erakutsiko den izena.';
-$string['privacy:metadata:tag:timemodified'] = 'Etiketa azkenengo aldiz aldatua izan zeneko unea.';
-$string['privacy:metadata:tag:userid'] = 'Etiketa lehen aldiz sortu zuen erabiltzailea.';
-$string['ptags'] = 'Erabiltzaileek definitutako etiketak (komaz bereizita)';
+$string['ptags'] = 'Erabiltzaileek definitutako etiketak (komaz banatuta)';
 $string['relatedblogs'] = 'Azken aldiko blog-sarrerak';
 $string['relatedtags'] = 'Harremana duten etiketak';
 $string['removetagfrommyinterests'] = 'Ezabatu "{$a}" nire interesekoetatik';
@@ -135,7 +124,7 @@ $string['seeallblogs'] = 'Ikusi etiketa hau duten blog-sarrera guztiak: "{$a}"';
 $string['select'] = 'Aukeratu';
 $string['selectcoll'] = 'Aukeratu etiketa-bilduma';
 $string['selectmaintag'] = 'Aukeratu konbinatu ondoren erabiliko den etiketa';
-$string['selectmultipletags'] = 'Mesedez, aukera ezazu etiketa bat baino gehiago';
+$string['selectmultipletags'] = 'Mesedez, aukeratu etiketa bat baino gehiago';
 $string['selecttag'] = 'Aukeratu {$a} etiketa';
 $string['settypedefault'] = 'Ezabatu etiketa estandarretatik';
 $string['settypeofficial'] = 'Egin ofizial';
@@ -165,8 +154,13 @@ $string['taggedwith'] = '"{$a}" etiketa dutenak';
 $string['tags'] = 'Etiketak';
 $string['tagsaredisabled'] = 'Etiketak desgaituta daude';
 $string['tagtype'] = 'Etiketa-mota';
+$string['tagtype_default'] = 'Berezko balorea';
+$string['tagtype_official'] = 'Ofiziala';
 $string['thingstaggedwith'] = '"{$a->name}" {$a->count} aldiz erabili da';
 $string['thingtaggedwith'] = '"{$a->name}" behin erabili da';
+$string['thistaghasnodesc'] = 'Etiketa honek ez du deskribapenik une honetan';
 $string['timemodified'] = 'Aldatuta';
 $string['typechanged'] = 'Etiketa-mota aldatuta';
+$string['updated'] = 'Eguneratuta';
 $string['updatetag'] = 'Eguneratu';
+$string['withselectedtags'] = 'Aukeratutako etiketekin...';

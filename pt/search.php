@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'search', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,10 +56,9 @@ $string['emptydatabaseerror'] = 'A tabela da base de dados não existe ou não c
 $string['enginenotfound'] = 'Motor de busca {$a} não encontrado.';
 $string['enginenotinstalled'] = 'Motor de busca {$a} não está instalado.';
 $string['enginenotselected'] = 'Não selecionou nenhum motor de busca.';
-$string['engineserverstatus'] = 'O motor de busca não está disponível. Por favor contacte o administrador.';
+$string['engineserverstatus'] = 'O motor de busca não está disponível. Por favor, contacte o administrador.';
 $string['enteryoursearchquery'] = 'Introduza os termos da pesquisa';
 $string['errorareanotavailable'] = 'A área de pesquisa {$a} não está disponível.';
-$string['error_indexing'] = 'Ocorreu um erro durante a indexação';
 $string['errors'] = 'Erros';
 $string['filesinindexdirectory'] = 'Ficheiros na pasta de índice';
 $string['filterheader'] = 'Filtro';
@@ -73,13 +72,12 @@ $string['ittook'] = 'Levou';
 $string['matchingfile'] = 'Verificado a partir do ficheiro <span class="filename">{$a}</span>';
 $string['matchingfiles'] = 'Verificado a partir dos ficheiros:';
 $string['next'] = 'Seguinte';
-$string['noindexmessage'] = 'Administração: Não parece existir um índice de pesquisa. Por favor';
+$string['noindexmessage'] = 'Administração: Parece não existir um índice de pesquisa. Por favor, ';
 $string['noresults'] = 'Sem resultados';
 $string['normalsearch'] = 'Pesquisa normal';
 $string['notitle'] = 'Sem título';
 $string['openedon'] = 'aberto em';
 $string['optimize'] = 'Otimizar';
-$string['privacy:metadata'] = 'O subsistema de pesquisa não armazena dados pessoais';
 $string['queryerror'] = 'A pesquisa que indicou não pôde ser analisada pelo motor de busca: {$a}';
 $string['resultsreturnedfor'] = 'resultados devolvidos para';
 $string['runindexer'] = 'Executar indexante (real)';
@@ -106,7 +104,7 @@ $string['tofetchtheseresults'] = 'para obter estes resultados';
 $string['totalsize'] = 'Tamanho total';
 $string['totime'] = 'Modificado antes';
 $string['type'] = 'Tipo';
-$string['uncompleteindexingerror'] = 'A indexação não foi concluída com sucesso; por favor, comece de novo.';
+$string['uncompleteindexingerror'] = 'A indexação não foi concluída com sucesso. Por favor, comece de novo.';
 $string['versiontoolow'] = 'A pesquisa global requer o PHP 5.0.0 ou posterior';
 $string['viewresultincontext'] = 'Visualizar este resultado no contexto';
 $string['wordsintitle'] = 'Palavras no título';

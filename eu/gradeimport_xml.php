@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeimport_xml', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradeimport_xml', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   gradeimport_xml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,15 +29,14 @@ $string['errbadxmlformat'] = 'Errorea: okerreko XML formatua';
 $string['errduplicategradeidnumber'] = 'Errorea: ikastaroan \'{$a}\' ID zenbakia duten bi kalifikazio-elementu daude. Ezinezkoa da hori.';
 $string['errduplicateidnumber'] = 'Errorea: ID zenbakia bikoiztuta';
 $string['errincorrectgradeidnumber'] = 'Errorea: inportatutako fitxategiko \'{$a}\' ID zenbakia ez dago inongo kalifikazio-elementutan.';
-$string['errincorrectidnumber'] = 'Errorea: okerreko ID zenbakia';
+$string['errincorrectidnumber'] = 'Errorea: ID zenbaki ezegokia';
 $string['errincorrectuseridnumber'] = 'Errorea: inportatutako fitxategiko \'{$a}\' ID zenbakia ez dago inongo erabiltzailetan.';
 $string['error'] = 'Erroreak gertatzen ari dira';
 $string['errorduringimport'] = 'Errorea gertatu da inportatzean: {$a}';
-$string['fileurl'] = 'Urrutiko fitxategiaren URL-a';
+$string['fileurl'] = 'Urrutiko fitxategiaren URLa';
 $string['fileurl_help'] = 'Urrutiko fitxategiaren URL eremua kanpoko zerbitzari batetik datuak eskuratzeko erabiltzen da, ikasleen informazio sistematik adibidez.';
 $string['importxml'] = 'Inportatu XML fitxategia';
 $string['importxml_help'] = 'Kalifikazioak erabiltzaile ID zenbakiak eta jardueren ID zenbakiak dituen XML fitxategi batetik inporta daitezke. Formatu egokia eskuratzeko, lehenik esporta itzazu kalifikazio batzuk XML fitxategira eta ikusi fitxategiaren edukia.';
 $string['pluginname'] = 'XML fitxategia';
-$string['privacy:metadata'] = 'Kalifikazioak XML fitxategitik inportatzeko pluginak ez du datu pertsonalik biltzen.';
 $string['xml:publish'] = 'XML kalifikazioen inportazioa argitaratu';
 $string['xml:view'] = 'Kalifikazioak XML fitxategitik inportatu';

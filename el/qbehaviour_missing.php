@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_missing', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qbehaviour_missing', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   qbehaviour_missing
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Έλλειψη συμπεριφοράς';
+$string['questionusedunknownmodel'] = 'Αυτή η ερώτηση επιχειρήθηκε με μια συμπεριφορά που δεν είναι διαθέσιμη προς το παρόν. Η ερώτηση εμφανίζεται όσο το δυνατόν περισσότερο, αλλά ορισμένα τμήματα μπορεί να λείπουν ή να είναι λανθασμένα.';

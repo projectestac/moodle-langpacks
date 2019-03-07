@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'message', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,6 +86,7 @@ $string['nocontacts'] = 'No teniu cap contacte';
 $string['noframesjs'] = 'Utilitza una versió més accessible';
 $string['nomessages'] = 'No teniu missatges pendents';
 $string['nomessagesfound'] = 'No s\'han trobat missatges';
+$string['noncontacts'] = 'No contactes';
 $string['nonotifications'] = 'No teniu cap notificació';
 $string['noreply'] = 'No contesteu aquest missatge';
 $string['nosearchresults'] = 'La cerca no ha obtingut resultats';
@@ -149,3 +150,4 @@ $string['viewmessageswith'] = 'Visualitza missatges amb {$a}';
 $string['viewnotificationresource'] = 'Vés a: {$a}';
 $string['viewunreadmessageswith'] = 'Mostra els missatges sense llegir amb {$a}';
 $string['writeamessage'] = 'Escriu un missatge...';
+$string['you'] = 'Vós:';

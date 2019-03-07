@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,7 +39,7 @@ $string['auth_common_settings'] = 'Configuración común';
 $string['auth_data_mapping'] = 'Asignación de datos';
 $string['authenticationoptions'] = 'Opcións de autenticación';
 $string['auth_fieldlock'] = 'Bloquear o valor';
-$string['auth_fieldlock_expl'] = '<p><b>Bloquear o valor:</b> Se se activa, os usuarios e administradores de Moodle non poderán editar directamente o campo. Empregue esta opción se manten estes datos nun sistema de autenticación externo. </p>';
+$string['auth_fieldlock_expl'] = '<p><b>Bloquear o valor:</b> Se se activa, os usuarios e administradores de Moodle non poderán editar directamente o campo. Empregue esta opción se mantén estes datos nun sistema de autenticación externo. </p>';
 $string['auth_fieldlocks'] = 'Bloquear os campos de usuario';
 $string['auth_fieldlocks_help'] = '<p>Vostede pode bloquear os campos de datos dos usuarios, isto é útil en sitios onde eses datos son mantidos por administradores de forma manual, editando os rexistros dos usuarios ou enviándoos mediante a utilidade «Enviar usuarios». Se vostede bloquea campos requiridos por Moodle, asegúrese de que fornece eses datos ao crear as contas dos usuarios; doutro modo as contas non serán utilizábeis.</p><p>Considere fixar este axuste de bloqueo en «Desbloqueado se está baleiro», para evitar este problema.</p>';
 $string['authinstructions'] = 'Deixe isto en branco para que as instrucións de acceso predeterminadas sexan presentadas na páxina de acceso. Se desexa fornecer instrucións de acceso personalizadas, escríbaas aquí.';
@@ -59,10 +59,10 @@ $string['auth_remove_user_key'] = 'O usuario externo foi retirado';
 $string['auth_sync_script'] = 'Script de sincronización de cron';
 $string['auth_sync_suspended'] = 'Cando se activa, o atributo suspendido usarase para actualizar o estado de suspensión da conta do usuario local.';
 $string['auth_sync_suspended_key'] = 'Sincronizar o estado de suspensión do usuario local';
-$string['auth_updatelocal'] = 'Actualización local (de datos)';
-$string['auth_updatelocal_expl'] = '<p><b>Actualización local (de datos):</b> Se está activado, o campo debe ser actualizado (con autenticación externa) cada vez que o usuario accede ou se produce unha sincronización de usuarios. Os campos a actualizar localmente deberían ser bloqueados.</p>';
-$string['auth_updateremote'] = 'Actualización externa (de datos)';
-$string['auth_updateremote_expl'] = '<p><b>Actualización externa (de datos):</b> Se está activada, cando se actualice o rexistro do usuario actualizarase a autenticación externa. Os campos deberían estar desbloqueados para poder editalos.</p>';
+$string['auth_updatelocal'] = 'Actualización local';
+$string['auth_updatelocal_expl'] = '<p><b>Actualización local:</b> Se está activado, o campo debe ser actualizado (con autenticación externa) cada vez que o usuario accede ou se produce unha sincronización de usuarios. Os campos a actualizar localmente deberían ser bloqueados.</p>';
+$string['auth_updateremote'] = 'Actualización externa';
+$string['auth_updateremote_expl'] = '<p><b>Actualización externa:</b> Se está activada, cando se actualice o rexistro do usuario actualizarase a autenticación externa. Os campos deberían estar desbloqueados para poder editalos.</p>';
 $string['auth_updateremote_ldap'] = '<p><b>Nota:</b> a actualización de datos LDAP externos require que vostede estabeleza os valores «binddn» e «bindpw» a un usuario con privilexios de edición de todos os rexistros de usuario. Polo momento, isto non preserva os atributos multi-valor, e eliminará os valores extra durante a actualización. </p>';
 $string['auth_user_create'] = 'Activar a creación de usuarios';
 $string['auth_user_creation'] = 'Os novos usuarios (anónimos) poden crear contas de usuario sobre a orixe externa de autenticación e confirmar mediante correo. Se activa isto, lémbrese de configurar as opcións do módulo específico para a creación de usuario.';
@@ -94,7 +94,7 @@ $string['errorminpasswordlower'] = 'Os contrasinais deben ter polo menos {$a} le
 $string['errorminpasswordnonalphanum'] = 'Os contrasinais deben ter polo menos {$a} caracteres non alfanuméricos.';
 $string['errorminpasswordupper'] = 'Os contrasinais deben ter polo menos {$a} letra(s) maiúscula(s).';
 $string['errorpasswordreused'] = 'Xa usou este contrasinal con anterioridade polo que non se permite o seu uso';
-$string['errorpasswordupdate'] = 'Produciuse un erro ao actualizar o contrasnal. O contrasinal non cambiou';
+$string['errorpasswordupdate'] = 'Produciuse un erro ao actualizar o contrasinal. O contrasinal non cambiou';
 $string['eventuserloggedin'] = 'O usuario accedeu';
 $string['eventuserloggedinas'] = 'O usuario accedeu como outro usuario';
 $string['eventuserloginfailed'] = 'Erro no acceso do usuario';
@@ -106,6 +106,7 @@ $string['forgottenpasswordurl'] = 'URL de contrasinal esquecido';
 $string['getanaudiocaptcha'] = 'Obter un CAPTCHA de son';
 $string['getanimagecaptcha'] = 'Obter un CAPTCHA de imaxe';
 $string['getanothercaptcha'] = 'Obter outro CAPTCHA';
+$string['getrecaptchaapi'] = 'Para usar reCAPTCHA necesita obter unha chave API de <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Botón de acceso para convidados';
 $string['incorrectpleasetryagain'] = 'Incorrecto. Ténteo de novo.';
 $string['infilefield'] = 'Campo requirido no ficheiro';
@@ -118,8 +119,8 @@ $string['informminpasswordupper'] = 'cando menos {$a} letra(s) maiúscula(s)';
 $string['informpasswordpolicy'] = 'O contrasinal debería ter {$a}';
 $string['instructions'] = 'Instrucións';
 $string['internal'] = 'Interno';
-$string['limitconcurrentlogins'] = 'Limitar os accesos concurrentes';
-$string['limitconcurrentlogins_desc'] = 'Se se activa, limitarase o número de accesos concurrentes desde o navegador de cada usuario. A sesión máis vella elimínase ao chegar ao límite, así que teña en conta que os usuarios poden perder traballo que non teñan gardado. Esta opción non é compatible cos engadidos de acceso único (SSO).';
+$string['limitconcurrentlogins'] = 'Limitar os accesos concorrentes';
+$string['limitconcurrentlogins_desc'] = 'Se se activa, limitarase o número de accesos concorrentes desde o navegador de cada usuario. A sesión máis vella elimínase ao chegar ao límite, así que teña en conta que os usuarios poden perder traballo que non teñan gardado. Esta opción non é compatible cos engadidos de acceso único (SSO).';
 $string['locked'] = 'Bloqueado';
 $string['md5'] = 'Cifrado (hash) MD5';
 $string['nopasswordchange'] = 'Non é posíbel cambiar o contrasinal';
@@ -130,9 +131,9 @@ $string['ntlmsso_failed'] = 'Non foi posíbel acceder automaticamente, tenteo na
 $string['ntlmsso_isdisabled'] = 'NTLM SSO está desactivado';
 $string['passwordhandling'] = 'Xestión do campo do contrasinal';
 $string['plaintext'] = 'Texto simple';
-$string['pluginnotenabled'] = 'o engadido de autenticación «{$a}» non está activado.';
-$string['pluginnotinstalled'] = 'o engadido de autenticación «{$a}» non está instalado.';
-$string['potentialidps'] = 'Acceda empregando a súa conte en:';
+$string['pluginnotenabled'] = 'O engadido de autenticación «{$a}» non está activado.';
+$string['pluginnotinstalled'] = 'O engadido de autenticación «{$a}» non está instalado.';
+$string['potentialidps'] = 'Acceda empregando a súa conta en:';
 $string['recaptcha'] = 'reCAPTCHA';
 $string['recaptcha_help'] = 'O CAPTCHA empregase para impedir abusos de programas automáticos. Simplemente escriba as palabras na caixa, en orde e separadas por un espazo.
 

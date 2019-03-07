@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tag', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['added'] = 'Engadida(s) etiqueta(s) estándar';
-$string['addotags'] = 'Engadir etiquetas oficiais';
+$string['addedotag'] = 'Engadiuse «{$a}» como unha etiqueta oficial.';
+$string['addotags'] = 'Engadir etiquetas estándar';
 $string['addtagcoll'] = 'Engadir colección de etiquetas';
 $string['addtagtomyinterests'] = 'Engadir «{$a}» como do meu interese';
 $string['alltagpages'] = 'Todas as páxinas etiquetadas';
@@ -46,7 +47,7 @@ $string['count'] = 'Cantidade';
 $string['coursetags'] = 'Etiquetas do curso';
 $string['defautltagcoll'] = 'Colección predeterminada';
 $string['delete'] = 'Eliminar';
-$string['deleted'] = 'Eliminada';
+$string['deleted'] = 'Etiqueta(s) eliminada(s)';
 $string['deletedcoursetags'] = 'Eliminadas - etiquetas do curso';
 $string['deleteselected'] = 'Eliminar o seleccionado';
 $string['description'] = 'Descrición';
@@ -89,6 +90,7 @@ $string['name'] = 'Nome da etiqueta';
 $string['namesalreadybeeingused'] = 'Estes nomes de etiqueta xa están empregados';
 $string['nameuseddocombine'] = 'Este nome de etiqueta xa foi usado, quere combinar estas etiquetas?';
 $string['newcollnamefor'] = 'Nome novo para a colección de etiquetas {$a}';
+$string['newname'] = 'Novo nome da etiqueta';
 $string['newnamefor'] = 'Novo nome para a etiqueta {$a}';
 $string['nextpage'] = 'Máis';
 $string['noresultsfor'] = 'Ningún resultado para «{$a}»';
@@ -152,8 +154,13 @@ $string['taggedwith'] = 'etiquetado con «{$a}»';
 $string['tags'] = 'Etiquetas';
 $string['tagsaredisabled'] = 'As etiquetas están desactivadas';
 $string['tagtype'] = 'Tipo de etiqueta';
+$string['tagtype_default'] = 'Predeterminado';
+$string['tagtype_official'] = 'Oficial';
 $string['thingstaggedwith'] = '«{$a->name}» empregouse {$a->count} veces';
 $string['thingtaggedwith'] = '«{$a->name}« empregouse unha vez';
+$string['thistaghasnodesc'] = 'Esta etiqueta actualmente non ten descrición.';
 $string['timemodified'] = 'Modificado';
 $string['typechanged'] = 'Cambiouse o tipo da etiqueta';
+$string['updated'] = 'Actualizada';
 $string['updatetag'] = 'Actualizar';
+$string['withselectedtags'] = 'Coas etiquetas seleccionadas...';

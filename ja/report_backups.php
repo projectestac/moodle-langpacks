@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_backups', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_backups', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   report_backups
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,5 @@ $string['logsofbackupexecutedon'] = '{$a} に実行されたバックアップ�
 $string['nobackupsfound'] = 'バックアップは見つかりませんでした。';
 $string['nologsfound'] = 'このバックアップにログは見つかりませんでした。';
 $string['pluginname'] = 'バックアップレポート';
-$string['privacy:metadata'] = 'バックアップレポートプラグインはどのような個人データも保存しません。';
 $string['strftimetime'] = '%H:%M:%S';
 $string['viewlogs'] = 'ログを表示する';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completion_progress', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_completion_progress', language 'fr', branch 'MOODLE_32_STABLE'
  *
  * @package   block_completion_progress
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -81,6 +81,7 @@ $string['no_visible_activities_message'] = 'Aucune des activités surveillées n
 $string['now_indicator'] = 'MAINTENANT';
 $string['overview'] = 'Vue d\'ensemble des étudiants';
 $string['pluginname'] = 'Progression';
+$string['privacy:metadata'] = 'Le bloc progression affiche seulement des données d\'achèvement existantes.';
 $string['progress'] = 'Progression';
 $string['progressbar'] = 'Progression';
 $string['shortname'] = 'Nom abrégé du cours';

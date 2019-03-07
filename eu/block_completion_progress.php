@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completion_progress', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_completion_progress', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   block_completion_progress
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -93,6 +93,7 @@ $string['no_visible_activities_message'] = 'Une honetan ez dago ikusgai jarraitu
 $string['now_indicator'] = 'ORAIN';
 $string['overview'] = 'Ikasleen ikuspegi orokorra';
 $string['pluginname'] = 'Osaketaren Jarraipena';
+$string['privacy:metadata'] = 'Osaketaren Jarraipena blokeak existitzen diren osaketa-datuak erakutsi baino ez du egiten.';
 $string['progress'] = 'Aurrerapena';
 $string['progressbar'] = 'Osaketaren Jarraipena';
 $string['shortname'] = 'Ikastaroaren izen laburra';

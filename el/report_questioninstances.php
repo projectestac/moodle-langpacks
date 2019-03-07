@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_questioninstances', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_questioninstances', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   report_questioninstances
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['editquestionshere'] = 'Επεξεργασία ερωτήσεων σε αυτό το πλαίσιο';
+$string['eventreportviewed'] = 'Η αναφορά προβλήθηκε';
 $string['getreport'] = 'Λήψη της αναφοράς';
 $string['hiddenquestions'] = 'Απόκρυψη';
 $string['intro'] = 'Αυτή η αναφορά εμφανίζει όλα τα πλαίσια στο σύστημα όπου υπάρχουν ερωτήσεις ενός συγκεκριμένου τύπου.';
@@ -36,4 +37,4 @@ $string['reportformissingqtypes'] = 'Αναφορά για ερωτήσεις ά
 $string['reportforqtype'] = 'Αναφορά για ερώτηση τύπου \'{$a}\'';
 $string['reportsettings'] = 'Ρυθμίσεις αναφοράς';
 $string['totalquestions'] = 'Σύνολο';
-$string['visiblequestions'] = 'Εμφάνιση';
+$string['visiblequestions'] = 'Ορατή';

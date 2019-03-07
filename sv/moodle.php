@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'sv', branch 'MOODLE_34_STABLE'
+ * Strings for component 'moodle', language 'sv', branch 'MOODLE_32_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,7 +73,6 @@ $string['addresource'] = 'Lägg till en resurs...';
 $string['addresourceoractivity'] = 'Lägg till en aktivitet eller resurs';
 $string['addresourcetosection'] = 'Lägg till en resurs i avsnitt \'{$a}\'';
 $string['address'] = 'Adress';
-$string['addsections'] = 'Lägg till sektioner';
 $string['addstudent'] = 'Lägg till en ny student/elev/deltagare/lärande';
 $string['addsubcategory'] = 'Lägg till en underkategori';
 $string['addteacher'] = 'Lägg till distanslärare/handledare/coach';
@@ -199,7 +198,7 @@ $string['backupnonisowarning'] = 'Varning: Den här säkerhetskopian kommer frå
 $string['backupnotyetrun'] = 'Avvaktar automatisk backup';
 $string['backuporiginalname'] = 'Namn på säkerhetskopian';
 $string['backuproleassignments'] = 'Säkerhetskopiera rolltilldelningarna för dessa roller';
-$string['backupsavetohelp'] = 'Hela sökvägen till katalogen där du vill spara de säkerhetskopierade filerna <br /> Om du vill spara dem i standardkatalogen så behöver du inte fylla i något här.';
+$string['backupsavetohelp'] = 'Hela sökvägen till katalogen där Du vill spara de säkerhetskopierade filerna <br /> Om Du vill spara dem i standardkatalogen så behöver Du inte fylla i något här.';
 $string['backupsitefileshelp'] = 'Om detta är aktiverat så kommer de filer på webbplatsen som används i kurser att  tas med vid automatisk säkerhetskopiering.';
 $string['backuptakealook'] = 'Var snäll och kontrollera Din loggar för säkerhetskopiering i: {$a}';
 $string['backupuserfileshelp'] = 'Välj om Du vill ta med användarfiler (avatarer eller bilder ur profilen) i den automatiska säkerhetskopieringen.';
@@ -354,6 +353,7 @@ $string['coursedisplay'] = 'Kurslayout';
 $string['coursedisplay_help'] = 'Den här inställningen avgör huruvida kursen visas på en stor sida eller fördelad över över ett antal sidor. Inställningen har ingen effekt på visa kursformat såsom SCORM formatet.';
 $string['coursedisplay_multi'] = 'Visa en sektion per sida';
 $string['coursedisplay_single'] = 'Visa alla sektioner på en stor sida.';
+$string['courseduration_desc'] = 'Kursens varaktighet används för att räkna ut det standardmässiga slutdatumet för kursen. Kursens slutdatum avgör om en kurs visas i en användares kurslista eller ej. Det kan även användas för att anpassa rapporter. Användare kan komma in i kursen även när slutdatumet har passerats.';
 $string['courseextendednamedisplay'] = '{$a->shortname} {$a->fullname}';
 $string['coursefiles'] = 'Ärvda kursfiler';
 $string['coursefilesedit'] = 'Redigera ärvda kursfiler';
@@ -504,7 +504,7 @@ $string['deletecategorycheck2'] = 'Om du tar bort denna kategori måste du välj
 $string['deletecategoryempty'] = 'Den här kategorin är tom.';
 $string['deletecheck'] = 'Ta bort {$a} ?';
 $string['deletecheckfiles'] = 'Är Du säker på att Du vill ta bort de här filerna?';
-$string['deletecheckfull'] = 'Är Du säker på att du vill ta bort hela {$a} inkl. kurstillhörigheter, aktivitet och annan användardata?';
+$string['deletecheckfull'] = 'Är Du säker på att Du vill ta bort hela {$a} ?';
 $string['deletechecktype'] = 'Är du säker på att du vill ta bort denna {$a->type}?';
 $string['deletechecktypename'] = 'Är du säker på att du vill ta bort {$a->type} "{$a->name}"?';
 $string['deletecheckwarning'] = 'Du håller på att ta bort dessa filer.';
@@ -516,7 +516,6 @@ $string['deleted'] = 'Borttaget';
 $string['deletedactivity'] = 'Tog bort {$a}';
 $string['deletedcourse'] = '{$a} har tagits bort helt';
 $string['deletednot'] = 'Kunde inte ta bort {$a} !';
-$string['deletepicture'] = 'Ta bort';
 $string['deletesection'] = 'Radera sektion';
 $string['deleteselected'] = 'Ta bort det som är markerat';
 $string['deleteselectedkey'] = 'Ta bort den valda nyckeln';
@@ -671,43 +670,45 @@ $string['emailnotallowed'] = 'E-postadresser i de här domänerna är inte till�
 $string['emailnotfound'] = 'Det gick inte att hitta e-postadressen i databasen.';
 $string['emailonlyallowed'] = 'Det här e-postmeddelandet är inte ett av dem som är tillåtna ({$a}).';
 $string['emailpasswordchangeinfo'] = 'Hej {$a->firstname},
-Någon (troligen du) har bett om ett nytt lösenord för ditt konto hos
+Någon (troligen Du) har efterfrågat ett nytt lösenord för Ditt konto hos
 \'{$a->sitename}\'.
 
-För att byta lösenordet gå till följande adress:
+För att byta lösenordet, vara snäll och gå till följande adress:
 
 {$a->link}
 
 I de flesta e-postprogram kommer den att visas som
-en blå länk som du bara behöver klicka på.
+en blå länk som Du bara behöver klicka på.
 
-Om det inte fungerar, kan du kopiera in adressen i adressfönstret på din webbläsare, klicka sedan på Gå eller tryck på
+Om det inte fungerar, kan Du klippa ut adressen och klistra in den i adressfönstret på Din
+webbläsare, klicka sedan på Gå eller tryck på
 radmatningen (Enter).
 
-Om du behöver hjälp så är du välkommen att
+Om Du behöver hjälp så är Du välkommen att
 kontakta den som är ansvarig för webbplatsen,
 {$a->admin}';
 $string['emailpasswordchangeinfodisabled'] = 'Hej {$a->firstname},
-Någon (troligen du) har bett om ett nytt lösenord för ditt konto hos:
+Någon (troligen Du) har efterfrågat
+ett nytt lösenord för Ditt konto hos:
 
 \'{$a->sitename}\'.
 
-Tyvärr har ditt konto på den här webbplatsen avaktiverats och det
+Tyvärr har Ditt konto på den här webbplatsen avaktiverats och det
 går inte att återställa det.
 
-Var god kontakta administratören
+Var snäll och kontakta administratören
 för webbplatsen:
 {$a->admin}';
 $string['emailpasswordchangeinfofail'] = 'Hej {$a->firstname},
-Någon (troligen du) har bett om
-ett nytt lösenord för ditt konto hos:
+Någon (troligen Du) har efterfrågat
+ett nytt lösenord för Ditt konto hos:
 
 \'{$a->sitename}\'.
 
 Det går tyvärr inte att återställa
 lösenord på den här webbplatsen.
 
-Var god kontakta administratören
+Var snäll och kontakta administratören
 för webbplatsen:
 {$a->admin}';
 $string['emailpasswordchangeinfosubject'] = '{$a}: information om byte av lösenord';
@@ -778,6 +779,7 @@ $string['emailtoprivatefilesdenied'] = 'Administratören har tagit bort möjligh
 $string['emptydragdropregion'] = 'tom region';
 $string['enable'] = 'Aktivera';
 $string['encryptedcode'] = 'Krypterad kod';
+$string['enddate'] = 'Kursens slutdatum';
 $string['english'] = 'Engelska';
 $string['enrolmentmethods'] = 'Inskrivningsmetoder';
 $string['entercourse'] = 'Klicka för att nå denna kurs';
@@ -1280,16 +1282,11 @@ $string['missingusername'] = 'Användarnamn saknas';
 $string['modchooserdisable'] = 'Aktivitetsväljare av';
 $string['modchooserenable'] = 'Aktivitetsväljare på';
 $string['moddoesnotsupporttype'] = 'Aktiviteten {$a->modname} stöder inte uppladdning av filer av typen {$a->type}';
-$string['modhide'] = 'Dölj';
 $string['modified'] = 'Modifierad';
-$string['modshow'] = 'Visa';
 $string['moduleintro'] = 'Beskrivning';
 $string['modulesetup'] = 'Sätter upp modultabeller...';
 $string['modulesuccess'] = '{$a} tabeller har satts upp korrekt.';
 $string['modulesused'] = 'Använda moduler';
-$string['modvisible'] = 'Tillgänglighet';
-$string['modvisiblehiddensection'] = 'Tillgänglighet';
-$string['modvisiblewithstealth'] = 'Tillgänglighet';
 $string['month'] = 'Månad';
 $string['months'] = 'Månader';
 $string['moodledocs'] = 'Extern dokumentation av Moodle.';
@@ -1465,7 +1462,6 @@ $string['nocoursesyet'] = 'Inga kurser i denna kategori';
 $string['nodstpresets'] = 'Administratören har inte aktiverat stöd för sommartid "Daylights Saving Time".';
 $string['nofilesselected'] = 'Inga filer har valts för att återställas.';
 $string['nofilesyet'] = 'Inga filer har laddats upp till Din kurs ännu.';
-$string['nofiltersapplied'] = 'Inga aktiva filter';
 $string['nograde'] = 'Inget betyg';
 $string['nohelpforactivityorresource'] = 'Det finns för närvarande ingen hjälp för denna resurs eller aktivitet';
 $string['noimagesyet'] = 'Inga bilder har laddats upp till Din kurs ännu.';
@@ -1559,7 +1555,6 @@ $string['parentcategory'] = 'Föräldrakategori';
 $string['parentcoursenotfound'] = 'Det gick inte att hitta någon \'föräldra\'-kurs.';
 $string['parentfolder'] = '\'Föräldra\'-katalog';
 $string['participants'] = 'Deltagare';
-$string['participantscount'] = 'Antal deltagare: {$a}';
 $string['participantslist'] = 'Deltagarlistan';
 $string['participationratio'] = 'Omfattning av deltagande';
 $string['participationreport'] = 'Rapport om deltagande';
@@ -1608,7 +1603,7 @@ $string['plugincheck'] = 'Kontroll av plugins';
 $string['plugindeletefiles'] = 'Alla data som är associerade med plugin \'{$a->name}\' har tagits bort från databasen. För att förhindra att plugin-et  installeras på nytt, bör du ta bort nu den här katalogen från servern: {$a->directory}';
 $string['pluginsetup'] = 'Installerar tabeller för plugins';
 $string['policyaccept'] = 'Jag förstår och accepterar';
-$string['policyagree'] = 'Du måste acceptera denna policy för få fortsätta att använda denna webbplats. Accepterar du denna policy?';
+$string['policyagree'] = 'Du måste acceptera denna policy för få fortsätta att använda denna webbplats. Accepterar Du denna policy?';
 $string['policyagreement'] = 'Avtal angående webbplatsens policy.';
 $string['policyagreementclick'] = 'Klicka här för att läsa avtalet angående webbplatsens policy.';
 $string['popup'] = 'popup';
@@ -2123,7 +2118,7 @@ $string['unzippingbackup'] = 'Packar upp säkerhetskopia...';
 $string['up'] = 'Upp';
 $string['update'] = 'Uppdatera';
 $string['updated'] = 'Uppdaterat {$a}';
-$string['updatemymoodleoff'] = 'Sluta anpassa den här sidan';
+$string['updatemymoodleoff'] = 'Sluta att anpassa den här sidan';
 $string['updatemymoodleon'] = 'Anpassa den här sidan';
 $string['updatemyprofile'] = 'Uppdatera profil';
 $string['updatesevery'] = 'Uppdatering varje {$a} sekund';
@@ -2168,7 +2163,6 @@ $string['userdescription'] = 'Beskrivning';
 $string['userdescription_help'] = 'I denna ruta kan du skriva text om dig själv som sedan kommer att visas på din profilsida synlig för andra.';
 $string['userdetails'] = 'Detaljer om användare';
 $string['userfiles'] = 'Användarfiler';
-$string['userfilterplaceholder'] = 'Ange sökord eller välj filter';
 $string['userlist'] = 'Lista över användare';
 $string['usermenu'] = 'Användarmeny';
 $string['username'] = 'Användarnamn';

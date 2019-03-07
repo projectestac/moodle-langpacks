@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'competency', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['allchildrenarecomplete'] = 'Tutte le figlie sono state raggiunte';
 $string['competencies'] = 'Competenze';
 $string['competenciesarenotenabled'] = 'Le competenze non sono abilitate.';
 $string['competenciessettings'] = 'Impostazioni competenze';
-$string['completeplanstask'] = 'Completa i piani formativi in scadenza';
+$string['completeplanstask'] = 'Completamento piani formativi in scadenza';
 $string['coursecompetencyoutcome_complete'] = 'Raggiungi la competenza';
 $string['coursecompetencyoutcome_evidence'] = 'Allega attestazione';
 $string['coursecompetencyoutcome_none'] = 'Non eseguire azioni';
@@ -116,7 +116,7 @@ $string['planstatusinreview'] = 'In revisione';
 $string['planstatuswaitingforreview'] = 'In attesa di revisione';
 $string['pointsrequiredaremet'] = 'Il punteggio richiesto è stato raggiunto';
 $string['pushcourseratingstouserplans'] = 'Aggiorna i piani formativi individuali con le valutazioni del corso';
-$string['pushcourseratingstouserplans_desc'] = 'Per default le impostazioni del corso prevedono l\'aggiornamento dei piani formativi individuali quando vengono valutate le competenze.';
+$string['pushcourseratingstouserplans_desc'] = 'Di default le impostazioni del corso prevedono l\'aggiornamento dei piani formativi individuali quando vengono valutate le competenze.';
 $string['syncplanscohorts'] = 'Sincronizza i piani dai modelli dei piani formativi dei gruppi globali';
 $string['taxonomy_behaviour'] = 'Comportamento';
 $string['taxonomy_competency'] = 'Competenza';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_generator', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_generator', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_generator
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,7 +45,7 @@ $string['coursewithoutusers'] = 'Ausgewählter Kurs hat keine Nutzer/innen';
 $string['createcourse'] = 'Kurs anlegen';
 $string['createtestplan'] = 'Testplan erstellen';
 $string['creating'] = 'Kurs wird angelegt';
-$string['done'] = 'erledigt ({$a})';
+$string['done'] = 'erledigt ({$a}s)';
 $string['downloadtestplan'] = 'Testplan herunterladen';
 $string['downloadusersfile'] = 'Nutzerliste herunterladen';
 $string['error_nocourses'] = 'Es gibt keine Kurse zum Erstellen des Testplans.';
@@ -61,10 +61,9 @@ $string['maketestcourse'] = 'Testkurs erstellen';
 $string['maketestplan'] = 'JMeterTestplan erstellen';
 $string['notenoughusers'] = 'Der ausgewählte Kurs hat zu wenig Nutzerinnen.';
 $string['pluginname'] = 'Datengenerator zur Entwicklung';
-$string['privacy:metadata'] = 'Das Plugin \'Entwicklungsdaten-Generator\' speichert keine personenbezogenen Daten.';
 $string['progress_checkaccounts'] = 'Nutzeraccounts prüfen ({$a})';
-$string['progress_coursecompleted'] = 'Abgeschlossene Kurse ({$a}s)';
-$string['progress_createaccounts'] = 'Nutzeraccounts erstellen {$a->from} - {$a->to})';
+$string['progress_coursecompleted'] = 'Kurs abgeschlossen ({$a}s)';
+$string['progress_createaccounts'] = 'Nutzerkonten erstellen ({$a->from} - {$a->to})';
 $string['progress_createassignments'] = 'Zuweisungen werden angelegt: {$a}';
 $string['progress_createbigfiles'] = 'Grosse Dateien erzeugen ({$a})';
 $string['progress_createcourse'] = 'Kurse erzeugen ({$a})';

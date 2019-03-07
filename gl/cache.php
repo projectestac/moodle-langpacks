@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'cache', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,6 +41,7 @@ $string['cachedef_config'] = 'Axustes de configuración';
 $string['cachedef_coursecat'] = 'Listas de categorías de cursos para un usuario en particular';
 $string['cachedef_coursecatrecords'] = 'Rexistros de categorías de cursos';
 $string['cachedef_coursecattree'] = 'Árbore de categorías de cursos';
+$string['cachedef_coursecompletion'] = 'Estado do completado do curso';
 $string['cachedef_coursecontacts'] = 'Lista de contactos do curso';
 $string['cachedef_coursemodinfo'] = 'Información acumulada sobre os módulos e seccións para cada curso';
 $string['cachedef_databasemeta'] = 'Meta Información da base de datos';
@@ -51,10 +52,13 @@ $string['cachedef_groupdata'] = 'Información de grupo de curso';
 $string['cachedef_htmlpurifier'] = 'Purificador de HTML - contido limpado';
 $string['cachedef_langmenu'] = 'Lista de idiomas dispoñíbeis';
 $string['cachedef_locking'] = 'Bloqueo';
-$string['cachedef_navigation_expandcourse'] = 'Cursos expansibles en la navegación';
+$string['cachedef_message_processors_enabled'] = 'Estado activado dos procesadores de mensaxes';
+$string['cachedef_message_time_last_message_between_users'] = 'Momento de creación para a mensaxe máis recente entre os usuarios';
+$string['cachedef_navigation_expandcourse'] = 'Cursos expansibles na navegación';
 $string['cachedef_observers'] = 'Observadores do evento';
 $string['cachedef_plugin_functions'] = 'Chamadas de retorno de engadidos dispoñíbeis';
 $string['cachedef_plugin_manager'] = 'Xestor de información de engadido';
+$string['cachedef_postprocessedcss'] = 'CSS postprocesado';
 $string['cachedef_questiondata'] = 'Definicións de preguntas';
 $string['cachedef_repositories'] = 'Datos de instancias de repositorios';
 $string['cachedef_string'] = 'Caché de cadeas de idioma';
@@ -80,11 +84,11 @@ $string['definition'] = 'Definición';
 $string['definitionsummaries'] = 'Definicións de caché coñecidas';
 $string['delete'] = 'Eliminar';
 $string['deletelock'] = 'Eliminar o bloqueo';
-$string['deletelockconfirmation'] = 'Confirma que quere eliminar o bloque {$a}?';
+$string['deletelockconfirmation'] = 'Confirma que quere eliminar o bloqueo {$a}?';
 $string['deletelockhasuses'] = 'Non pode eliminar esta instancia de bloqueo de caché porque está a ser utilizada por un ou máis almacéns.';
 $string['deletelocksuccess'] = 'Eliminouse satisfactoriamente o bloqueo.';
 $string['deletestore'] = 'Eliminar o almacén';
-$string['deletestoreconfirmation'] = 'Confirma que quere eliminar o almacén {$a}?';
+$string['deletestoreconfirmation'] = 'Confirma que quere eliminar o almacén «{$a}»?';
 $string['deletestorehasmappings'] = 'Non pode eliminar este almacén porque ten asignacións. Elimine todas as asignacións antes de eliminar o almacén.';
 $string['deletestoresuccess'] = 'Eliminouse satisfactoriamente o bloqueo do almacén da caché.';
 $string['editdefinitionmappings'] = 'Asignación de almacén de definicións {$a}';

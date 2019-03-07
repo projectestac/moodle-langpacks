@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_user', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_user', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_user
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configplugin'] = 'Ρύθμιση για τον χώρο αποθήκευσης προσωπικών αρχείων χρήστη';
+$string['configplugin'] = 'Ρυθμίσεις για το αποθετήριο προσωπικών αρχείων χρήστη';
+$string['emptyfilelist'] = 'Δεν υπάρχουν αρχεία για εμφάνιση';
 $string['pluginname'] = 'Προσωπικά αρχεία';
+$string['pluginname_help'] = 'Αρχεία σε ιδιωτική περιοχή χρηστών';
 $string['user:view'] = 'Προβολή προσωπικών αρχείων χρήστη';

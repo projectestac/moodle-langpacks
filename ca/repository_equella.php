@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_equella', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_equella', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_equella
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,6 +44,6 @@ $string['sharedid'] = 'ID secreta compartida';
 $string['sharedidtitle'] = 'ID secreta compartida';
 $string['sharedsecrets'] = 'Contrasenya secreta compartida';
 $string['sharedsecretsheading'] = 'Configuració de la contrasenya secreta compartida';
-$string['sharedsecretshelp'] = '<p> A continuació podeu configurar la contrasenya secreta EQUELLA compartida amb usuaris d\'una sola signatura. Podeu configurar diferents contrasenyes secretes compartides per a ús general (lectura), i una funció especialitzada d\'una contrasenya secreta compartida basada per a cada rol <em>d\'escriptura</em> al vostre lloc Moodle.
-Si un ID secret compartit no està configurat per a un rol, llavors, s\'utilitzen el valor per omissió de l\'ID secret compartit i de la contrasenya secreta compartida. </p><p> Cal que tots els ID secrets compartits i totes les contrasenyes secretes compartides es configurin dins d\'EQUELLA i el mòdul de secret compartit habilitat. Aquesta configuració es troba a la consola d\'administració EQUELLA sota «Gestió d\'usuaris» > «Contrasenyes secretes compartides». </p>';
+$string['sharedsecretshelp'] = '<p> A continuació, podeu configurar la contrasenya secreta EQUELLA compartida amb usuaris d\'una sola signatura. Podeu configurar diferents contrasenyes secretes compartides per a ús general (lectura), i una funció especialitzada d\'una contrasenya secreta compartida basada per a cada rol <em>d\'escriptura</em> al vostre lloc Moodle.
+Si un ID secret compartit no està configurat per a un rol, llavors, s\'utilitzen el valor per defecte de l\'ID secret compartit i de la contrasenya secreta compartida. </p><p> Cal que tots els ID secrets compartits i totes les contrasenyes secretes compartides es configurin dins d\'EQUELLA i el mòdul de secret compartit habilitat. Aquesta configuració es troba a la consola d\'administració EQUELLA sota «Gestió d\'usuaris» > «Contrasenyes secretes compartides». </p>';
 $string['sharedsecrettitle'] = 'Contrasenya secreta compartida';

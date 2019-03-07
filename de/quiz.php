@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -90,9 +90,6 @@ $string['attemptclosed'] = 'Der Versuch wurde bisher noch nicht geschlossen.';
 $string['attemptduration'] = 'Verbrauchte Zeit';
 $string['attemptedon'] = 'Versucht am';
 $string['attempterror'] = 'Sie dürfen diesen Test aktuell nicht versuchen: {$a}';
-$string['attempterrorcontentchange'] = 'Die Testvorschau steht nicht mehr zur Verfügung. (Wenn ein Test editiert wird, werden alle laufenden Vorschaufenster gelöscht.)';
-$string['attempterrorcontentchangeforuser'] = 'Dieser Testversuch existiert nicht mehr.';
-$string['attempterrorinvalid'] = 'Ungültige ID eines Testversuchs';
 $string['attemptfirst'] = 'Erster Versuch';
 $string['attemptincomplete'] = 'Dieser Versuch von {$a} ist noch nicht vollständig abgeschlossen.';
 $string['attemptlast'] = 'Letzter Versuch';
@@ -172,10 +169,8 @@ $string['commentorgrade'] = 'Kommentieren oder Bewertung überarbeiten';
 $string['comments'] = 'Kommentare';
 $string['completedon'] = 'Beendet am';
 $string['completionattemptsexhausted'] = 'Oder alle verfügbaren Versuche abgeschlossen sind';
-$string['completionattemptsexhausteddesc'] = 'Vollständig, wenn alle möglichen Versuche erschöpft sind';
 $string['completionattemptsexhausted_help'] = 'Der Test wird als abgeschlossen markiert, wenn Teilnehmer/innen die maximale Anzahl von Versuchen erreichen.';
 $string['completionpass'] = 'Bewertung für Bestehen notwendig';
-$string['completionpassdesc'] = 'Teilnehmer/in muss eine passende Bewertung erreichen, um diese Aktivität abzuschließen';
 $string['completionpass_help'] = 'Diese Option legt fest, dass diese Aktivität als abgeschlossen gilt, wenn Teilnehmer/innen eine Bewertung erhalten haben.';
 $string['configadaptive'] = 'Wenn die Option \'Ja\' gewählt ist, besteht für die Teilnehmer/innen die Möglichkeit, während eines Testversuches mehrere Antworten auf eine Frage zu geben.';
 $string['configattemptsallowed'] = 'Beschränkung der Anzahl an Antwortversuchen  während des Tests.';
@@ -304,7 +299,9 @@ $string['emailconfirmsmall'] = 'Danke für die Übermittlung Ihrer Antworten auf
 $string['emailconfirmsubject'] = 'Bestätigung der Testlösungen für {$a->quizname}';
 $string['emailnotifybody'] = 'Guten Tag {$a->username},
 
-{$a->studentname} hat den Test \'{$a->quizname}\' ({$a->quizurl})
+{$a->studentname} hat den Test
+
+\'{$a->quizname}\' ({$a->quizurl})
 im Kurs \'{$a->coursename}\' beendet.
 
 Sie können diesen Versuch unter {$a->quizreviewurl} ansehen.
@@ -314,9 +311,9 @@ $string['emailnotifysmall'] = '{$a->studentname} hat {$a->quizname} abgeschlosse
 $string['emailnotifysubject'] = '{$a->studentname} hat den Test {$a->quizname} beendet';
 $string['emailoverduebody'] = 'Guten Tag {$a->studentname},
 
-Sie haben den Test \'{$a->quizname}\' im Kurs {$a->coursename} begonnen. Der Testversuch wurde von Ihnen jedoch bisher nicht abgeschlossen. Dies sollten Sie bis zu diesem Termin nachholen: {$a->attemptduedate}.
+Sie haben denTest {$a->quizname} im Kurs {$a->coursename} begonnen. Der Testversuch wurde von Ihnen jedoch bisher nicht abgeschlossen. Dies sollten Sie bis zu diesem Termin nachholen: [{$a->attemptduedate}.
 
-Um den Testversuch jetzt abzuschließen, gehen Sie auf {$a->attemptsumaryurl} und klicken Sie die Taste \'Abgeben\'. Wenn Sie dies nicht vor dem {$a->attemptgracend} tun, wird der Versuch nicht gewertet.
+Um den Testversuch jetzt abzuschließen, gehen Sie auf {$a->attemptsumaryurl} und klicken Sie den \'Abgeben\'-Button. Sie müssen dies vor dem {$a->attemptgracend} tun. Andernfalls wird der Versuch nicht gewertet.
 
 Ihr E-Learning-Team';
 $string['emailoverduesmall'] = 'Sie haben den Testversuch in {$a->quizname} nicht abgeschlossen. Gehen Sie bitte vor dem {$a->attemptgraceend} zu {$a->attemptsummaryurl} wenn Sie den Versuch noch abschließen möchten.';
@@ -438,10 +435,6 @@ $string['importmaxerror'] = 'Fehler in der Frage: zu viele Antworten.';
 $string['importquestions'] = 'Frage aus einer Datei importieren';
 $string['inactiveoverridehelp'] = '* Teilnehmer/in hat nicht die richtige Gruppenzugehörigkeit oder Rolle, um den Test auszuführen.';
 $string['incorrect'] = 'Falsch';
-$string['indicator:cognitivedepth'] = 'Test kognitiv';
-$string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die ein/e Teilnehmer/in in einer Testaktivität erreicht hat.';
-$string['indicator:socialbreadth'] = 'Test sozial';
-$string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die ein/e Teilnehmer/in in einer Testaktivität erreicht hat.';
 $string['indivresp'] = 'Antworten der einzelnen Personen zu jeder Frage';
 $string['info'] = 'Info';
 $string['infoshort'] = 'i';
@@ -480,7 +473,7 @@ $string['matchanswer'] = 'Zugeordnete Antwort';
 $string['matchanswerno'] = 'Zutreffende Antworten {$a}';
 $string['max'] = 'Max';
 $string['maxmark'] = 'Höchstmarke';
-$string['messageprovider:attempt_overdue'] = 'Warnung, wenn die Zeitgrenze zur Testabgabe erreicht wird';
+$string['messageprovider:attempt_overdue'] = 'Erinnerung zur Fälligkeit von Testabgaben';
 $string['messageprovider:confirmation'] = 'Bestätigung einer eigenen Testabgabe';
 $string['messageprovider:submission'] = 'Mitteilung bei Testabgaben';
 $string['min'] = 'Min';
@@ -561,7 +554,6 @@ $string['onlyteachersexport'] = 'Nur Trainer/innen können Fragen exportieren';
 $string['onlyteachersimport'] = 'Nur Trainer/innen mit Bearbeitungsrecht können Fragen importieren';
 $string['onthispage'] = 'Diese Seite';
 $string['open'] = 'Nicht beantwortet';
-$string['openafterclose'] = 'Der Test konnte nicht aktualisiert werden. Sie haben ein Startdatum nach dem Enddatum angegeben.';
 $string['openclosedatesupdated'] = 'Start- und Schlusstermin des Tests wurden aktualisiert';
 $string['optional'] = 'optional';
 $string['orderandpaging'] = 'Reihenfolge und Seitenumbrüche';
@@ -646,31 +638,6 @@ $string['previewquestion'] = 'Vorschau der Frage';
 $string['previewquiz'] = 'Vorschau {$a}';
 $string['previewquiznow'] = 'Vorschau ansehen';
 $string['previous'] = 'Letzter Zustand';
-$string['privacy:metadata:core_question'] = 'Die Testaktivität speichert die Nutzung von Testfragen im core_question-Subsystem';
-$string['privacy:metadata:quiz'] = 'Die Testaktivität verwendet den Testbericht';
-$string['privacy:metadata:quizaccess'] = 'Die Testaktivität verwendet Testzugriffsregeln';
-$string['privacy:metadata:quiz_attempts'] = 'Details zu jedem Versuch des Tests';
-$string['privacy:metadata:quiz_attempts:attempt'] = 'Versuchsnummer';
-$string['privacy:metadata:quiz_attempts:currentpage'] = 'Seite, die Nutzer gerade bearbeitet';
-$string['privacy:metadata:quiz_attempts:preview'] = 'Ob eine Vorschau des Tests genutzt wird';
-$string['privacy:metadata:quiz_attempts:state'] = 'Derzeitiger Status des Versuchs';
-$string['privacy:metadata:quiz_attempts:sumgrades'] = 'Summe der Bewertungen im Versuch';
-$string['privacy:metadata:quiz_attempts:timecheckstate'] = 'Zeitpunkt zu dem der Status geprüft wurde.';
-$string['privacy:metadata:quiz_attempts:timefinish'] = 'Zeitpunkt zu dem Versuch beendet wurde';
-$string['privacy:metadata:quiz_attempts:timemodified'] = 'Zeitpunkt zu dem Versuch aktualisiert wurde';
-$string['privacy:metadata:quiz_attempts:timemodifiedoffline'] = 'Zeitpunkt zu dem Versuch aktualisiert wurde bei Offline Versuch';
-$string['privacy:metadata:quiz_attempts:timestart'] = 'Zeitpunkt zu dem Versuch gestartet wurde';
-$string['privacy:metadata:quiz_grades'] = 'Details zur Gesamtbewertung des Tests';
-$string['privacy:metadata:quiz_grades:grade'] = 'Gesamtbewertung des Tests';
-$string['privacy:metadata:quiz_grades:quiz'] = 'Test, der bewertet wurde';
-$string['privacy:metadata:quiz_grades:timemodified'] = 'Zeitpunkt an dem Bewertung geändert wurde';
-$string['privacy:metadata:quiz_grades:userid'] = 'Nutzer, der bewertet wurde';
-$string['privacy:metadata:quiz_overrides'] = 'Details zu Überschreibungen des Tests';
-$string['privacy:metadata:quiz_overrides:quiz'] = 'Test mit überschriebenen Informationen';
-$string['privacy:metadata:quiz_overrides:timeclose'] = 'Neues Enddatum für Test';
-$string['privacy:metadata:quiz_overrides:timelimit'] = 'Neue Zeitbegrenzung für Test';
-$string['privacy:metadata:quiz_overrides:timeopen'] = 'Neuer Starttermin für Test';
-$string['privacy:metadata:quiz_overrides:userid'] = 'Nutzer, der überschrieben wurde';
 $string['publish'] = 'Veröffentlichen';
 $string['publishedit'] = 'Um Fragen in dieser Kategorie zu bearbeiten, müssen Sie über die erforderlichen Rechte verfügen.';
 $string['qbrief'] = 'F {$a}';
@@ -705,7 +672,7 @@ $string['questiontext'] = 'Fragetext';
 $string['questiontextisempty'] = '[Leerer Fragetext]';
 $string['questiontype'] = 'Fragetyp {$a}';
 $string['questiontypesetupoptions'] = 'Setup-Optionen für Fragetypen';
-$string['quiz:addinstance'] = 'Test hinzufügen';
+$string['quiz:addinstance'] = 'Neuen Test hinzufügen';
 $string['quiz:attempt'] = 'Tests ausprobieren';
 $string['quizavailable'] = 'Der Test ist verfügbar bis {$a}';
 $string['quizclose'] = 'Testschließung';
@@ -716,8 +683,6 @@ $string['quiz:deleteattempts'] = 'Testversuche löschen';
 $string['quiz:emailconfirmsubmission'] = 'Bei Abgaben eine E-Mail-Bestätigung versenden';
 $string['quiz:emailnotifysubmission'] = 'Mitteilung senden, wenn ein Testversuch abgegeben wird.';
 $string['quiz:emailwarnoverdue'] = 'Mitteilung senden, wenn ein Testversuch fällig wird und abgegeben werden muss.';
-$string['quizeventcloses'] = '{$a} endet';
-$string['quizeventopens'] = '{$a} beginnt';
 $string['quiz:grade'] = 'Tests manuell bewerten';
 $string['quiz:ignoretimelimits'] = 'Zeitgrenzen für Tests ignorieren';
 $string['quizisclosed'] = 'Dieser Test wurde bereits beendet';
@@ -831,15 +796,15 @@ $string['reviewofquestion'] = 'Prüfung der Frage {$a->question} in {$a->quiz} f
 $string['reviewopen'] = 'Später, während der Test noch geöffnet ist';
 $string['reviewoptions'] = 'Was sollen die Teilnehmer/innen zu welchem Zeitpunkt sehen';
 $string['reviewoptionsheading'] = 'Berichtsoptionen';
-$string['reviewoptionsheading_help'] = 'Mit diesen Optionen legen Sie fest, welche Informationen angezeigt werden, wenn Teilnehmer/innen einen Versuch wiederholen oder sich den Ergebnisbericht anschauen.
+$string['reviewoptionsheading_help'] = 'Mit diesen Optionen legen Sie fest, welche Informationen angezeigt werden, wenn Teilnehmer/innen einen Versuch erneut ansehen oder sich den Ergebnisbericht anschauen.
 
-**Während des Versuchs** steuert ein Feedback im direkten Zusammenhang mit der aktuell bearbeiteten Frage, also \'Interaktiv mit mehreren Versuchen\'.
+**Während des Versuchs** – Einstellungen sind nur mit gewissen Frageverhalten wie \'Mehrfachbeantwortung\' relevant, und steuern zum Beispiel das Feedback im direkten Zusammenhang mit der aktuell bearbeiteten Frage.
 
-**Direkt nach dem Versuch** bedeutet, dass ein Feedback innerhalb von zwei Minuten gezeigt wird, nachdem Test abgeschickt und beendet wurde.
+**Direkt nach dem Versuch** steuert, was während zwei Minuten, nachdem Test abgeschickt und beendet wurde, angezeigt wird.
 
-**Später, während der Test noch geöffnet ist** zeigt das Feedback, solange der Bearbeitungszeitraum läuft.
+**Später, während der Test noch geöffnet ist** steuert was danach, und vor dem Zeitpunkt der Testschließung angezeigt wird.
 
-**Wenn der Test abgeschlossen ist** meint das Feedback nach Ende des Bearbeitungszeitraums. Wenn kein solcher Termin definiert ist, ist diese Einstellung nicht sinnvoll.';
+**Wenn der Test abgeschlossen ist** – Einstellungen treten nach dem Zeitpunkt der Testschließung in Kraft. Wenn kein Termin für die Testschließung definiert ist, kommt diese Einstellung nie zur Anwendung.';
 $string['reviewoverallfeedback'] = 'Gesamtfeedback';
 $string['reviewoverallfeedback_help'] = 'Das Feedback wird am Ende des Versuchs gegeben und ist abhängig vom Gesamtergebnis.';
 $string['reviewresponse'] = 'Antwort erneut anzeigen';
@@ -862,7 +827,7 @@ $string['savingnewgradeforquestion'] = 'Neue Bewertung für Frage-ID {$a} wird g
 $string['savingnewmaximumgrade'] = 'Neue Maximalbewertung wird gesichert';
 $string['score'] = 'Punktzahl';
 $string['scores'] = 'Punkte';
-$string['search:activity'] = 'Test - Aktivitätsinformation';
+$string['search:activity'] = 'Test - Beschreibung';
 $string['sectionheadingedit'] = 'Überschrift \'{$a}\' bearbeiten';
 $string['sectionheadingremove'] = 'Überschrift \'{$a}\' löschen';
 $string['seequestions'] = '(Siehe Fragen)';
@@ -870,8 +835,6 @@ $string['select'] = 'Auswählen';
 $string['selectall'] = 'Alle auswählen';
 $string['selectcategory'] = 'Wählen Sie eine Kategorie';
 $string['selectedattempts'] = 'Ausgewählte Versuche ...';
-$string['selectmultipleitems'] = 'Mehrere Elemente auswählen';
-$string['selectmultipletoolbar'] = '"Mehrere auswählen"-Werkzeuge';
 $string['selectnone'] = 'Alle abwählen';
 $string['selectquestiontype'] = '-- Wählen Sie einen Fragen-Typ --';
 $string['serveradded'] = 'Server hinzugefügt';

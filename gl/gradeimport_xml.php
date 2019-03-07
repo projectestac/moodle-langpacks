@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeimport_xml', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradeimport_xml', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   gradeimport_xml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,12 @@ $string['errincorrectgradeidnumber'] = 'Erro - o número ID «{$a}» no ficheiro
 $string['errincorrectidnumber'] = 'Erro - número ID incorrecto';
 $string['errincorrectuseridnumber'] = 'Erro - o número ID «{$a}» no ficheiro de importación non coincide con ningún usuario.';
 $string['error'] = 'Produciuse un erro';
+$string['errorduringimport'] = 'Produciuse un erro ao tentar importar: {$a}';
 $string['fileurl'] = 'URL remoto do ficheiro';
+$string['fileurl_help'] = 'O campo URL remoto é para obter datos dun servidor remoto, como un sistema de información do alumno.';
+$string['importxml'] = 'Importar XML';
+$string['importxml_help'] = 'As cualificacións poden ser importadas a través dun ficheiro XML que conteña números de ID de usuario e números de ID de actividade. Para obter o formato correcto, primeiro exporte algunhas cualificacións a un ficheiro XML e despois vexa o ficheiro.';
+$string['importxml_link'] = 'grade/import/xml/index';
 $string['pluginname'] = 'Ficheiro XML';
 $string['xml:publish'] = 'Publicar as cualificacións importadas desde XML';
 $string['xml:view'] = 'Importar cualificacións desde XML';

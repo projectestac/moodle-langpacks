@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['bulkuseroperation'] = 'Erabiltzaile-eragiketa masiboak';
 $string['configenrolplugins'] = 'Mesedez, aukeratu beharrezko plugin guztiak eta zerrendatu ordena egokian.';
 $string['custominstancename'] = 'Pertsonalizatu instantziaren izena';
 $string['defaultenrol'] = 'Gehitu instantzia ikastaro berrietarako';
-$string['defaultenrol_desc'] = 'Plugin hau ikastaro berri guztiei gehi dakieke berez.';
+$string['defaultenrol_desc'] = 'Plugin hau modu lehenetsian ikastaro berri guztiei gehi dakieke.';
 $string['deleteinstanceconfirm'] = '"{$a->name}" matrikulatzeko-metodoa ezabatzekotan zaude. Metodo hori erabilita dagoeneko matrikulatutako {$a->users} guztiak desmatrikulatuko dira eta erabiltzaileen kalifikazioak, taldeetako partaidetza eta foroetako harpidetzak bezalako ikastaroko datu guztiak ezabatuko dira.
 
 Ziur al zaude aurrera egin nahi duzula?';
@@ -45,19 +45,16 @@ $string['deleteinstancenousersconfirm'] = '"{$a->name}" matrikulatzeko-metodoa e
 $string['disableinstanceconfirmself'] = 'Ziur al zaude "{$a->name}"  ikastarora sartzeko modua ematen dizun instantzia desgaitu nahi duzula? Aurrera egiten baduzu, litekeena da gero ikastaro honetara ezinezkoa izatea  sartzea.';
 $string['durationdays'] = '{$a} egun';
 $string['editenrolment'] = 'Editatu matrikulazioa';
-$string['edituserenrolment'] = 'Editatu {$a}-(r)en matrikulazioa';
 $string['enrol'] = 'Matrikulatu';
 $string['enrolcandidates'] = 'Ez dago erabiltzailerik matrikulatuta';
 $string['enrolcandidatesmatching'] = 'Bat datoz matrikulatu gabeko erabiltzaileak';
 $string['enrolcohort'] = 'Matrikulatu kohortea';
-$string['enrolcohortusers'] = 'Matrikulatu erabiltzaileak ';
-$string['enroldetails'] = 'Matrikulazioaren xehetasunak';
+$string['enrolcohortusers'] = 'Matrikulatu erabiltzaileak';
 $string['enrollednewusers'] = 'Egoki matrikulatu dira {$a} erabiltzaile berri';
 $string['enrolledusers'] = 'Matrikulatutako erabiltzaileak';
 $string['enrolledusersmatching'] = 'Bat datoz matrikulatutako erabiltzaileak';
 $string['enrolme'] = 'Ikastaro honetan matrikulatu nahi dut';
 $string['enrolmentinstances'] = 'Matrikulazio-metodoak';
-$string['enrolmentmethod'] = 'Matrikulazio-metodoa';
 $string['enrolmentnew'] = '{$a} ikastaroan matrikula berria';
 $string['enrolmentnewuser'] = '{$a->user} (e)k "{$a->course}" ikastaroan matrikulatu da';
 $string['enrolmentoptions'] = 'Matrikulazio-aukerak';
@@ -66,7 +63,6 @@ $string['enrolnotpermitted'] = 'Ez duzu baimenik inor ikastaro honetan matrikula
 $string['enrolperiod'] = 'Matrikularen iraupena';
 $string['enroltimecreated'] = 'Matrikula sortu da';
 $string['enroltimeend'] = 'Matrikulazio-amaiera';
-$string['enroltimeendinvalid'] = 'Matrikulazioaren amaiera-data hasiera data baino beranduagokoa izan behar da';
 $string['enroltimestart'] = 'Matrikulazio-hasiera';
 $string['enrolusage'] = 'Instantziak / matrikulazioak';
 $string['enrolusers'] = 'Matrikulatu erabiltzaileak';
@@ -96,14 +92,13 @@ $string['extremovedaction_help'] = 'Aukeratu ekintza bat kanpoko matrikulazioa e
 $string['extremovedkeep'] = 'Mantendu erabiltzailea matrikulatuta';
 $string['extremovedsuspend'] = 'Desgaitu ikastaro-matrikulazioa';
 $string['extremovedsuspendnoroles'] = 'Desgaitu ikastaro-matrikulazioa eta kendu rolak';
-$string['extremovedunenrol'] = 'Erabiltzailea ikastarotik desmatrikulatu ';
+$string['extremovedunenrol'] = 'Desmatrikulatu erabiltzailea ikastarotik';
 $string['finishenrollingusers'] = 'Amaitu erabiltzaileak matrikulatzen';
 $string['foundxcohorts'] = 'Aurkitutako {$a} kohorte';
 $string['instanceadded'] = 'Metodoa gehitu da';
 $string['instanceeditselfwarning'] = 'Kontuz:';
 $string['instanceeditselfwarningtext'] = 'Matrikulazio-metodo hau erabilita zaude matrikulatuta ikastaro honetan eta aldaketek eragotzi egin dezakete ikastarorako sarbidea.';
 $string['invalidenrolinstance'] = 'Matrikulazio-instantziak ez du balio';
-$string['invalidrequest'] = 'Eskari baliogabea';
 $string['invalidrole'] = 'Rolak ez du balio';
 $string['manageenrols'] = 'Kudeatu matrikulazio-pluginak';
 $string['manageinstance'] = 'Kudeatu';
@@ -117,23 +112,12 @@ $string['notenrollable'] = 'Ezin duzu zeure burua matrikulatu ikastaro honetan.'
 $string['notenrolledusers'] = 'Beste erabiltzaile batzuk';
 $string['otheruserdesc'] = 'Ondorengo erabilzaileak ez daude matrikulatuta ikastaro honetan baina rolak dituzte, heredatutakoak edo esleitutakoak, bertan.';
 $string['participationactive'] = 'Aktiboa';
-$string['participationnotcurrent'] = 'Ez-aktiboa';
 $string['participationstatus'] = 'Egoera';
 $string['participationsuspended'] = 'Bertan behera utzia';
 $string['periodend'] = 'noiz arte {$a}';
 $string['periodnone'] = '{$a} matrikulatuta';
 $string['periodstart'] = 'noiztik {$a}';
 $string['periodstartend'] = '{$a->start} -tik  {$a->end} arte';
-$string['privacy:metadata:user_enrolments'] = 'Matrikulak';
-$string['privacy:metadata:user_enrolments:enrolid'] = 'Matrikulazio-pluginaren instantzia.';
-$string['privacy:metadata:user_enrolments:modifierid'] = 'Erabiltzailearen matrikula azkenik aldatu zuen erabiltzailearen IDa.';
-$string['privacy:metadata:user_enrolments:status'] = 'Erabiltzailearen matrikulazio-egoera ikastaroan.';
-$string['privacy:metadata:user_enrolments:tableexplanation'] = 'Matrikulazio-kudeatzaileak matrikulatutako erabiltzaileak hemen gordetzen ditu.';
-$string['privacy:metadata:user_enrolments:timecreated'] = 'Erabiltzailearen matrikula sortu zeneko data/ordua.';
-$string['privacy:metadata:user_enrolments:timeend'] = 'Erabiltzailearen matrikula amaitu zeneko data/ordua.';
-$string['privacy:metadata:user_enrolments:timemodified'] = 'Erabiltzailearen matrikula aldatu zeneko data/ordua.';
-$string['privacy:metadata:user_enrolments:timestart'] = 'Erabiltzailearen matrikula hasi zeneko data/ordua.';
-$string['privacy:metadata:user_enrolments:userid'] = 'Erabiltzailearen IDa.';
 $string['proceedtocourse'] = 'Jarraitu ikastaro-edukiarekin';
 $string['recovergrades'] = 'Berreskuratu erabiltzailearen lehengo kalfikazioak, posible bada';
 $string['rolefromcategory'] = '{$a->role} (Ikastaro-kategoriatik heredatutakoa)';
@@ -145,19 +129,18 @@ $string['sendfromkeyholder'] = 'Giltzainak bidalita';
 $string['sendfromnoreply'] = 'Ez-erantzun helbidetik bidalita';
 $string['startdatetoday'] = 'Gaur';
 $string['synced'] = 'Sinkronizatua';
-$string['testsettings'] = 'Testaren ezarpenak';
-$string['testsettingsheading'] = 'Matrikulazio-testaren ezarpenak - {$a}';
+$string['testsettings'] = 'Probatu ezarpenak';
+$string['testsettingsheading'] = 'Matrikulazio-ezarpenen proba - {$a}';
 $string['totalenrolledusers'] = '{$a} matrikulatutako erabiltzaile';
 $string['totalotherusers'] = 'beste {$a} erabiltzaile';
 $string['unassignnotpermitted'] = 'Ez duzu baimenik rolak kentzeko ikastaro honetan';
 $string['unenrol'] = 'Desmatrikulatu';
-$string['unenrolconfirm'] = 'Benetan desmatrikulatu nahi al duzu  ("{$a->enrolinstancename}" matrikulazio-metodoa erabiliz matrikulatuta dagoen) "{$a->user}" erabiltzailea "{$a->course}" ikastarotik?';
+$string['unenrolconfirm'] = 'Benetan desmatrikulatu nahi al duzu "{$a->user}"  "{$a->course}" ikastarotik?';
 $string['unenrolme'] = '{$a} ikastarotik desmatrikulatu nahi dut';
 $string['unenrolnotpermitted'] = 'Ez duzu baimenik erabiltzaile hau ikastaro honetatik desmatrikulatzeko, edo ez dago gaituta.';
-$string['unenrolroleusers'] = 'Erabiltzaileak desmatrikulatu';
+$string['unenrolroleusers'] = 'Desmatrikulatu erabiltzaileak';
 $string['uninstallmigrating'] = '"{$a}" matrikulak migratzen';
 $string['unknowajaxaction'] = 'Eskatutako ekintza ezezaguna da';
 $string['unlimitedduration'] = 'Mugarik gabea.';
-$string['userremovedfromselectiona'] = '"{$a}" erabiltzailea aukeraketatik kendu da.';
 $string['usersearch'] = 'Bilatu';
 $string['withselectedusers'] = 'Aukeratutako erabiltzaileekin';

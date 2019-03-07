@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'resource', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,7 +53,7 @@ $string['displayselect_help'] = 'L\'impostazione, assieme al tipo di file e alle
 * Popup - Il file viene visualizzato in un nuova finestra browser priva di menu e barra dell\'indirizzo
 * Frame - Il file viene visualizzato all\'interno di un frame sotto la barra di navigazione
 * Nuova finestra - Il file viene visualizzato in una nuova finestra browser completa di menu e barra dell\'indirizzo.';
-$string['dnduploadresource'] = 'Crea un risorsa file';
+$string['dnduploadresource'] = 'Crea una risorsa file';
 $string['encryptedcode'] = 'Codice criptato';
 $string['filenotfound'] = 'Spiacente, il file non è stato trovato';
 $string['filterfiles'] = 'Applica filtri sul contenuto del file';
@@ -61,10 +61,6 @@ $string['filterfilesexplain'] = 'Imposta il tipo di filtri da applicare sui file
 $string['filtername'] = 'Auto link ai Nomi delle risorse';
 $string['forcedownload'] = 'Forza scaricamento';
 $string['framesize'] = 'Altezza frame';
-$string['indicator:cognitivedepth'] = 'File cognitivo';
-$string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente con risorse \'file\'.';
-$string['indicator:socialbreadth'] = 'File sociale';
-$string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente con risorse \'file\'.';
 $string['legacyfiles'] = 'Migrazione dei file di corsi precedenti';
 $string['legacyfilesactive'] = 'Attivo';
 $string['legacyfilesdone'] = 'Completato';
@@ -93,7 +89,6 @@ $string['popupwidth'] = 'Larghezza popup (in pixel)';
 $string['popupwidthexplain'] = 'Larghezza di default per le finestre popup.';
 $string['printintro'] = 'Visualizza la descrizione della risorsa';
 $string['printintroexplain'] = 'Consente di visualizzare la descrizione della risorsa sotto il contenuto. Tenere presente che alcuni tipi di visualizzazione potrebbero non rispettare questa impostazione.';
-$string['privacy:metadata'] = 'Il plugin mod_resource non memorizza dati personali.';
 $string['resource:addinstance'] = 'Aggiungere risorse';
 $string['resourcecontent'] = 'File e sotto cartelle';
 $string['resourcedetails_sizedate'] = '{$a->size} {$a->date}';

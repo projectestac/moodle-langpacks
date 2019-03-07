@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_nologin', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth_nologin', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   auth_nologin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['auth_nologindescription'] = 'Auxiliary plugin that prevents user to login into system and also discards any mail sent to the user. Can be used to <em>suspend</em> user accounts.';
-$string['pluginname'] = 'No login';
+$string['auth_nologindescription'] = 'Βοηθητικό πρόσθετο που εμποδίζει τον χρήστη να συνδεθεί στο σύστημα και επίσης απορρίπτει κάθε μήνυμα που αποστέλλεται στον χρήστη. Μπορεί να χρησιμοποιηθεί για λογαριασμούς χρηστών <em>σε αναστολή</em>.';
+$string['pluginname'] = 'Χωρίς σύνδεση';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_loglive', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_loglive', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   report_loglive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,5 @@ $string['loglive:view'] = 'ライブログを表示する';
 $string['nologreaderenabled'] = '有効にされているログリーダはありません。';
 $string['pause'] = 'ライブアップデートを一時停止する';
 $string['pluginname'] = 'ライブログ';
-$string['privacy:metadata'] = 'ライブログプラグインはどのような個人データも保存しません。';
 $string['resume'] = 'ライブアップデートを再開する';
 $string['selectlogreader'] = 'ログリーダを選択する';

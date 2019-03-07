@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,45 +25,54 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addtoquicklist'] = 'Προσθήκη στη γρήγορη λίστα';
 $string['annotationcolour'] = 'Χρώμα σχολιασμού';
 $string['black'] = 'Μαύρο';
 $string['blue'] = 'Μπλέ';
-$string['cannotopenpdf'] = 'Δεν μπορεί να ανοιχτεί το PDF. Το αρχείο μπορεί να είναι κατεστραμμένο ή μη υποστηριζόμενο τύπος αρχείου.';
+$string['cannotopenpdf'] = 'Δεν μπορεί να ανοιχτεί το PDF. Το αρχείο μπορεί να είναι κατεστραμμένο ή σε μη υποστηριζόμενο μορφότυπο.';
 $string['clear'] = 'Καθαρισμός';
 $string['colourpicker'] = 'Επιλογέας χρώματος';
 $string['command'] = 'Εντολή:';
 $string['comment'] = 'Σχόλια';
 $string['commentcolour'] = 'Χρώμα σχολίου';
-$string['couldnotsavepage'] = 'Δεν μπόρεσε να αποθηκευτεί η σελίδα {$a}';
+$string['commentcontextmenu'] = 'Το σχετικό μενού του σχολίου';
+$string['couldnotsavepage'] = 'Δεν ήταν δυνατή η αποθήκευση της σελίδας {$a}';
 $string['currentstamp'] = 'Στάμπα';
 $string['deleteannotation'] = 'Διαγραφή σχολιασμού';
 $string['deletecomment'] = 'Διαγραφή σχολίου';
 $string['deletefeedback'] = 'Διαγραφή PDF ανατροφοδότησης';
+$string['downloadablefilename'] = 'ανατροφοδότηση.pdf';
 $string['downloadfeedback'] = 'Λήψη PDF ανατροφοδότησης';
-$string['draftchangessaved'] = 'Οι προσωρινοί σχολιασμοί αποθηκεύτηκαν';
-$string['drag'] = 'Σύρε';
-$string['editpdf'] = 'Επισημειώσεις πάνω στο PDF';
-$string['editpdf_help'] = 'Προσθήκη επισημειώσεων πάνω από τις υποβολές των μαθητών κατευθείαν στον περιηγητή και παραγωγή ενός επεξεργασμένου PDF προς λήψη.';
-$string['enabled'] = 'Επισημειώσεις πάνω στο PDF';
-$string['enabled_help'] = 'Αν ενεργοποιηθεί, ο δάσκαλος μπορεί να δημιουργήσει PDF αρχεία με επισημειώσεις όταν βαθμολογεί τις εργασίες. Αυτό επιτρέπει στον δάσκαλο να προσθέτει σχολιασμό, σχήματα και σφραγίδες ακριβώς πάνω στην εργασία των μαθητών. Οι επισημειώσεις γίνονται στον περιηγητή και δεν απαιτείται επιπλέον λογισμικό.';
-$string['expcolcomments'] = 'Ανάπτυξη / σύμπυξη όλων των σχολίων';
+$string['draftchangessaved'] = 'Το προσχέδιο σχολιασμών αποθηκεύτηκε';
+$string['drag'] = 'Μεταφορά (Σύρε)';
+$string['editpdf'] = 'Σχολιασμός PDF';
+$string['editpdf_help'] = 'Σχολιασμός των υποβολών των μαθητών απευθείας στον περιηγητή και δημιουργία ενός επεξεργασμένου PDF που μπορείτε να κατεβάσετε.';
+$string['enabled'] = 'Σχολιασμός PDF';
+$string['enabled_help'] = 'Αν ενεργοποιηθεί, ο διδάσκων μπορεί να δημιουργήσει σχολιασμένα PDF αρχεία όταν βαθμολογεί τις εργασίες. Αυτό επιτρέπει στον διδάσκοντα να προσθέτει σχόλια, σχήματα και σφραγίδες στην εργασία των μαθητών. Ο σχολιασμός γίνεται στον περιηγητή και δεν απαιτείται επιπλέον λογισμικό.';
+$string['errorgenerateimage'] = 'Σφάλμα δημιουργίας εικόνας με ghostscript, πληροφορίες εντοπισμού σφαλμάτων: {$a}';
+$string['errorpdfpage'] = 'Παρουσιάστηκε σφάλμα κατά την παραγωγή αυτής της σελίδας.';
 $string['filter'] = 'Φίλτραρε τα σχόλια....';
 $string['generatefeedback'] = 'Δημιουργία PDF ανατροφοδότησης';
 $string['generatingpdf'] = 'Δημιουργία του PDF';
 $string['gotopage'] = 'Πήγαινε στην σελίδα';
 $string['green'] = 'Πράσινο';
-$string['jsrequired'] = 'Απαιτείται ενεργοποίηση της JavaScript για την επισημείωση των PDF. Παρακαλούμε ενεργοποιήστε την JavaScript στον περιηγητή σας για να χρησιμοποιήσετε αυτό το χαρακτηριστικό/δυνατότητα.';
+$string['gsimage'] = 'Εικόνα δοκιμής Ghostscript';
+$string['highlight'] = 'Φωτοεπισήμανση';
+$string['jsrequired'] = 'Για τα σχολιασμένα PDF απαιτείται JavaScript. Παρακαλούμε ενεργοποιήστε την JavaScript στον περιηγητή για να χρησιμοποιήσετε αυτή τη δυνατότητα.';
 $string['launcheditor'] = 'Έναρξη επεξεργαστή PDF...';
 $string['line'] = 'Γραμμή';
 $string['loadingeditor'] = 'Ο επεξεργαστής PDF φορτώνεται';
 $string['navigatenext'] = 'Επόμενη σελίδα';
 $string['navigateprevious'] = 'Προηγούμενη σελίδα';
+$string['output'] = 'Έξοδος:';
+$string['oval'] = 'Οβάλ';
 $string['pagenumber'] = 'Σελίδα {$a}';
 $string['pagexofy'] = 'Σελίδα {$a->page} από {$a->total}';
-$string['pathtogspathdesc'] = 'Παρακαλούμε προσέξτε ότι η επισημείωση των PDF απαιτεί τη διαδρομή μέχρι το ghostscript ορισμένη στο {$a}.';
+$string['pathtogspathdesc'] = 'Παρακαλούμε έχετε υπόψη ότι για τα σχολιασμένα PDF απαιτείται η διαδρομή του ghostscript να προστεθεί στο {$a}.';
+$string['pathtounoconvpathdesc'] = 'Παρακαλούμε, λάβετε υπόψη ότι οι  επισημειώσεις PDF απαιτούν να οριστεί η διαδρομή προς τον UnoConv (μετατροπέας εγγράφων) στο {$a}.';
 $string['pen'] = 'Στυλός';
-$string['pluginname'] = 'Επισημειώσεις πάνω στο PDF';
-$string['preparesubmissionsforannotation'] = 'Προετοιμασία υποβολής για σχολιασμό';
+$string['pluginname'] = 'Σχολιασμός PDF';
+$string['preparesubmissionsforannotation'] = 'Προετοιμασία υποβολών για σχολιασμό';
 $string['rectangle'] = 'Παραλληλόγραμμο';
 $string['red'] = 'Κόκκινο';
 $string['result'] = 'Αποτέλεσμα:';
@@ -72,9 +81,24 @@ $string['select'] = 'Επέλεξε';
 $string['stamp'] = 'Στάμπα';
 $string['stamppicker'] = 'Επιλογέας στάμπας';
 $string['stamps'] = 'Στάμπες';
-$string['stampsdesc'] = 'Οι σφραγίδες πρέπει να είναι αρχεία εικόνας (προτεινόμενο μέγεθος: 40x40). Αυτές οι εικόνες μπορούν να χρησιμοποιηθούν';
+$string['stampsdesc'] = 'Οι σφραγίδες πρέπει να είναι αρχεία εικόνας (προτεινόμενο μέγεθος: 40x40). Αυτές οι εικόνες μπορούν να χρησιμοποιηθούν με το εργαλείο σφραγίδας για το σχολιασμό του PDF.';
+$string['test_doesnotexist'] = 'Η διαδρομή (το πλήρες όνομα) του ghostscript οδηγεί σε ένα ανύπαρκτο αρχείο';
+$string['test_empty'] = 'Η διαδρομή του ghostscript είναι κενή - παρακαλούμε δώστε τη σωστή διαδρομή';
+$string['testgs'] = 'Δοκιμή διαδρομής ghostscript';
+$string['test_isdir'] = 'Η διαδρομή (το πλήρες όνομα) του ghostscript οδηγεί σε ένα φάκελο. Παρακαλούμε περιλάβετε και το αρχείο του προγράμματος ghostscript στη διαδρομή που καθορίζετε.';
 $string['test_notestfile'] = 'Το δοκιμαστικό PDF λείπει';
+$string['test_notexecutable'] = 'Το ghostscript δείχνει σε ένα αρχείο που δεν είναι εκτελέσιμο';
+$string['test_ok'] = 'Η διαδρομή του ghostscript φαίνεται να είναι ΟΚ - παρακαλούμε ελέγξτε αν μπορείτε να δείτε το μήνυμα στην παρακάτω εικόνα';
+$string['test_unoconv'] = 'Δοκιμή διαδρομής (πλήρες όνομα αρχείου) του UnoConv';
+$string['test_unoconvdoesnotexist'] = 'Η διαδρομή (πλήρες όνομα αρχείου) του UnoConv δεν δείχνει προς το εκτελέσιμο πρόγραμμα του unoconv. Παρακαλούμε, ελέγξτε τις ρυθμίσεις της διαδρομής σας.';
+$string['test_unoconvdownload'] = 'Λήψη του αρχείου δοκιμής μετατροπής pdf.';
+$string['test_unoconvisdir'] = 'Η διαδρομή (το πλήρες όνομα) του unoconv καταλήγει σε ένα φάκελο. Παρακαλούμε να συμπεριλάβετε και το αρχείο του προγράμματος unoconv στη διαδρομή που καθορίζετε.';
+$string['test_unoconvnotestfile'] = 'Το έγγραφο δοκιμής που πρόκειται να μετατραπεί σε PDF λείπει';
+$string['test_unoconvnotexecutable'] = 'Η διαδρομή (το πλήρες όνομα) του unoconv οδηγεί σε ένα αρχείο που δεν είναι εκτελέσιμο';
+$string['test_unoconvok'] = 'Η διαδρομή (το πλήρες όνομα) του unoconv φαίνεται να είναι ρυθμισμένη σωστά.';
+$string['test_unoconvversionnotsupported'] = 'Η έκδοση του unoconv που έχετε εγκαταστήσει δεν υποστηρίζεται. Η λειτουργία βαθμολόγησης του Moodle απαιτεί έκδοση 0.7 ή νεότερη.';
 $string['tool'] = 'Εργαλείο';
-$string['viewfeedbackonline'] = 'Προβολή επισημειωμένου PDF...';
+$string['toolbarbutton'] = '{$a->tool} {$a->shortcut}';
+$string['viewfeedbackonline'] = 'Προβολή σχολιασμένου PDF...';
 $string['white'] = 'Άσπρο';
 $string['yellow'] = 'Κίτρινο';

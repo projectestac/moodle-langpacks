@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'search', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,9 +33,9 @@ $string['author'] = 'Egilea';
 $string['authorname'] = 'Egilearen izena';
 $string['back'] = 'Atzera';
 $string['beadmin'] = 'Kudeatzailea izan behar duzu orri hau erabiltzeko';
-$string['checkdb'] = 'Konprobatu datu-basea';
-$string['checkdbadvice'] = 'Konprobatu datu-basea arazoak ikusteko';
-$string['checkdir'] = 'Konprobatu dir-a';
+$string['checkdb'] = 'Egiaztatu datu-basea';
+$string['checkdbadvice'] = 'Egiaztatu datu-basea arazorik dagoen ikusteko';
+$string['checkdir'] = 'Egiaztatu karpeta';
 $string['checkdiradvice'] = 'Ziurtatu datu-direktorioa badela eta bertan idaz daitekeela';
 $string['commenton'] = 'Iruzkina noiz:';
 $string['createanindex'] = 'sortu indizea';
@@ -59,7 +59,6 @@ $string['enginenotselected'] = 'Ez duzu bilatzailerik aukeratu.';
 $string['engineserverstatus'] = 'Bilatzailea ez dago eskuragarri. Jar zaitez harremanetan kudeatzailearekin.';
 $string['enteryoursearchquery'] = 'Idatzi zure bilaketa';
 $string['errorareanotavailable'] = '{$a} bilaketa-eremua ez dago oraindik eskuragarri.';
-$string['error_indexing'] = 'Errorea gertatu da indexatzean';
 $string['errors'] = 'Erroreak';
 $string['filesinindexdirectory'] = 'Fitxategiak aurkibide-direktorioan';
 $string['filterheader'] = 'Iragazkia';
@@ -79,7 +78,6 @@ $string['normalsearch'] = 'Bilaketa normala';
 $string['notitle'] = 'Izenbururik ez';
 $string['openedon'] = 'irekia noiz:';
 $string['optimize'] = 'Optimizatu';
-$string['privacy:metadata'] = 'Bilaketa-sistemak ez du datu pertsonalik biltzen.';
 $string['queryerror'] = 'Bilaketa-motoreak ezin izan du zure bilaketa aztertu: {$a}';
 $string['resultsreturnedfor'] = 'lortutako emaitzak honetarako:';
 $string['runindexer'] = 'Abiarazi indexatzailea (erreala)';
@@ -106,7 +104,7 @@ $string['tofetchtheseresults'] = 'Emaitza hauek lortzeko:';
 $string['totalsize'] = 'Tamaina osoa';
 $string['totime'] = 'Data honen aurretik eguneratuta:';
 $string['type'] = 'Mota';
-$string['uncompleteindexingerror'] = 'Indexatzea ez da osorik egoki egin; mesedez, abiarazi berriz.';
+$string['uncompleteindexingerror'] = 'Indexatzea ez da osorik modu egokian egin; mesedez, abiarazi berriz.';
 $string['versiontoolow'] = 'Sentitzen dugu, bilaketa orokorrak PHP 5.0.0 edo aurreragokoa behar du';
 $string['viewresultincontext'] = 'Ikusi emaitza hau bere testuinguruan';
 $string['wordsintitle'] = 'Hitzak izenburuan';

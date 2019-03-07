@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tag_youtube', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_tag_youtube', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   block_tag_youtube
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,14 +38,13 @@ $string['entertainment'] = 'Denbora-pasa';
 $string['filmsanimation'] = 'Filmak &amp; animazioa';
 $string['gadgetsgames'] = 'Trikimailuak &amp; jokoak';
 $string['howtodiy'] = 'Nola egin&amp; DIY';
-$string['includeonlyvideosfromplaylist'] = 'zerrendako bideoak bakarrak sartu ID-arekin';
+$string['includeonlyvideosfromplaylist'] = 'Sartu soilik ID-a duten zerrendako bideoak';
 $string['music'] = 'Musika';
 $string['newspolitics'] = 'Albisteak &amp; Politika';
 $string['numberofvideos'] = 'Bideo-kopurua';
 $string['peopleblogs'] = 'Jendea &amp; blogak';
 $string['petsanimals'] = 'Animaliak';
 $string['pluginname'] = 'YouTube';
-$string['privacy:metadata'] = 'Youtube blokeak bakarrik erakusten ditu beste kokapen batzuetan bildutako datuak.';
 $string['requesterror'] = 'Ezin izan da zerbitzaritik daturik eskuratu. Jarri harremanetan zure kudeatzailearekin arazoa errepikatzen bada.';
 $string['scienceandtech'] = 'Zientzia &amp; Teknika';
 $string['sports'] = 'Kirolak';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeexport_txt', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradeexport_txt', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   gradeexport_txt
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventgradeexported'] = 'Cualificación exportada a TXT';
 $string['pluginname'] = 'Ficheiros de texto simple';
+$string['timeexported'] = 'Último descargado desde este curso';
 $string['txt:publish'] = 'Publicar a exportación de cualificacións TXT';
 $string['txt:view'] = 'Empregar a exportación de cualificacións a texto';

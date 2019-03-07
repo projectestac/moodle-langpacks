@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'nl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'data', language 'nl', branch 'MOODLE_32_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,8 +56,8 @@ $string['availabletodatevalidation'] = 'De \'beschikbaar tot\'-datum kan niet vo
 $string['blank'] = 'Leeg';
 $string['buttons'] = 'Acties';
 $string['bynameondate'] = 'door {$a->name} - {$a->date}';
-$string['calendarend'] = '{$a} sluit';
-$string['calendarstart'] = '{$a} opent';
+$string['calendarend'] = 'Databank {$a} sluit';
+$string['calendarstart'] = 'Databank {$a} opent';
 $string['cancel'] = 'Annuleer';
 $string['cannotaccesspresentsother'] = 'Je mag de sjablonen van andere gebruikers niet gebruiken';
 $string['cannotadd'] = 'Kan geen items toevoegen!';
@@ -76,9 +76,6 @@ $string['comments'] = 'Commentaren';
 $string['commentsaved'] = 'Notitie bewaard';
 $string['commentsn'] = '{$a} notitie(s)';
 $string['commentsoff'] = 'De commentaarfunctie is niet ingeschakeld.';
-$string['completionentries'] = 'Items invoeren vereist';
-$string['completionentriescount'] = 'Aantal items';
-$string['completionentriesdesc'] = 'Minimaal aantal ingevoerde items vereist: {$a}';
 $string['configenablerssfeeds'] = 'Met deze knop kun je RSS-feeds toelaten voor alle databanken. Je zult nog wel manueel de RSS-feeds moeten inschakelen voor elke databank.';
 $string['confirmdeletefield'] = 'Je gaat dit veld verwijderen. Ben je zeker?';
 $string['confirmdeleterecord'] = 'Je gaat deze record verwijderen. Ben je zeker?';
@@ -222,20 +219,15 @@ $string['header'] = 'Koptekst';
 $string['headeraddtemplate'] = 'Definieer de interface voor het bewerken van items';
 $string['headerasearchtemplate'] = 'Definieert de interface voor geavanceerd zoeken';
 $string['headercsstemplate'] = 'Definieer locale CSS-stijlen voor de andere sjablonen';
-$string['headerjstemplate'] = 'Definieerd eigen Javascript voor de andere sjablonen';
+$string['headerjstemplate'] = 'Definieert eigen Javascript voor de andere sjablonen';
 $string['headerlisttemplate'] = 'Definieer de interface voor het bladeren door meerdere items';
 $string['headerrsstemplate'] = 'Definieer hoe items verschijnen in RSS-feeds';
 $string['headersingletemplate'] = 'Definieer de interface voor het bladeren per item';
 $string['importentries'] = 'Importeer items';
 $string['importsuccess'] = 'De sjabloonset is met succes toegepast';
 $string['includeapproval'] = 'Goedkeuringsstatus mee opnemen';
-$string['includetags'] = 'Inclusief tags';
 $string['includetime'] = 'Tijd toegevoegd/gewijzigd mee opnemen';
 $string['includeuserdetails'] = 'Gebruikersdetails mee opnemen';
-$string['indicator:cognitivedepth'] = 'Databank cognitief';
-$string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Databank activiteit.';
-$string['indicator:socialbreadth'] = 'Databank sociaal';
-$string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Databank activiteit.';
 $string['insufficiententries'] = 'meer items nodig om deze databank te kunnen bekijken';
 $string['intro'] = 'Beschrijving';
 $string['invalidaccess'] = 'Deze pagina is niet correct opgevraagd';
@@ -268,7 +260,7 @@ $string['maxsize'] = 'Maximale grootte';
 $string['menu'] = 'Menu';
 $string['menuchoose'] = 'Kies...';
 $string['missingdata'] = 'Data ID of object moet opgegeven worden aan field class';
-$string['missingfield'] = 'Programmatiefout: je moet een veld en of gegevens specifiëren wanneer je een field class definieerd.';
+$string['missingfield'] = 'Programmatiefout: je moet een veld en of gegevens specifiëren wanneer je een field class definieert.';
 $string['modulename'] = 'Databank';
 $string['modulename_help'] = 'De databank activiteitsmodule maakt het voor deelnemers mogelijk om gegevensbank te maken, te onderhouden en te doorzoeken. De opmaak en structuur ervan wordt bepaald door de leraar door het maken van een aantal velden. Deze velden kunnen keuzevakjes, selectierondjes, rolmenu\'s, tekst zone\'s, URL\'s, afbeeldingen en een geüploaded bestand zijn.
 
@@ -340,52 +332,30 @@ $string['pluginname'] = 'Databank';
 $string['portfolionotfile'] = 'Exporteer naar een portfolio, niet naar een bestand (enkel CSV en Leap2A)';
 $string['presetinfo'] = 'Bewaren als sjabloonset zal dit sjabloon publiceren. Andere gebruikers kunnen dit dan gebruiken in hun databanken.';
 $string['presets'] = 'Sjabloonsets';
-$string['privacy:metadata:commentpurpose'] = 'Opmerkingen op databankgegevens.';
-$string['privacy:metadata:data_content'] = 'Stelt één antwoord voor in één veld van de databank activiteitsmodule';
-$string['privacy:metadata:data_content:content'] = 'Inhoud';
-$string['privacy:metadata:data_content:content1'] = 'Bijkomende inhoud 1';
-$string['privacy:metadata:data_content:content2'] = 'Bijkomende inhoud 2';
-$string['privacy:metadata:data_content:content3'] = 'Bijkomende inhoud 3';
-$string['privacy:metadata:data_content:content4'] = 'Bijkomende inhoud 4';
-$string['privacy:metadata:data_content:fieldid'] = 'VelddefinitieID';
-$string['privacy:metadata:datafieldnpluginsummary'] = 'Velden voor de databank activiteitsmodule';
-$string['privacy:metadata:data_records'] = 'Representeert gegevens in de databank activiteitsmodule';
-$string['privacy:metadata:data_records:approved'] = 'Goedkeuringsstatus';
-$string['privacy:metadata:data_records:groupid'] = 'Groep';
-$string['privacy:metadata:data_records:timecreated'] = 'Tijdstip waarop het gegeven gemaakt is';
-$string['privacy:metadata:data_records:timemodified'] = 'Tijdstip waarop het gegeven laatst gewijzigd is';
-$string['privacy:metadata:data_records:userid'] = 'Gebruiker die het gegeven gemaakt heeft';
-$string['privacy:metadata:filepurpose'] = 'Bestand als bijlage bij het databankgegeven';
-$string['privacy:metadata:ratingpurpose'] = 'Beoordelingen om datbankgegevens';
-$string['privacy:metadata:tagpurpose'] = 'Tags op databankgegevens';
 $string['radiobutton'] = 'Keuzeknoppen';
 $string['recordapproved'] = 'Item goedgekeurd';
 $string['recorddeleted'] = 'Record verwijderd';
 $string['recorddisapproved'] = 'Item verworpen';
 $string['recordsnotsaved'] = 'Er werd geen record bewaard. Controleer de opmaak van het geüploade bestand.';
 $string['recordssaved'] = 'record(s) bewaard';
-$string['removealldatatags'] = 'Verwijder alle database-tags';
 $string['requireapproval'] = 'Goedkeuring nodig';
 $string['requireapproval_help'] = '<p align="center"><strong>Goedkeuring vereist</strong></p>
 
 <p>Moeten toegevoegde items eerst door een leraar goedgekeurd worden voor ze gezien kunnen worden door leerlingen? Dit kan nuttig zijn om inhoud te modereren die misschien beledigend of ongeschikt is.</p>';
 $string['required'] = 'Vereist';
-$string['requiredentries'] = 'Vereiste items voor voltooien (oud)';
-$string['requiredentries_help'] = 'Indien ingesteld wordt er een bericht getoond met het aantal items die een student verplicht moet invoeren vóór de activiteit als voltooid wordt beschouwd. Merk op dat deze instelling niet verbonden is met activiteitsvoltooiing.
-
-Voor items die vereist zijn voor activiteitsvoltooiing moet je de nieuwe instelling \'Vereiste items\' gebruiken. Om deze instelling volledig te verwijderen moet je ze om \'geen\' zetten en de wijzigingen bewaren. Gebruik de vereiste items velden in de sectie activiteitsvoltooiing .';
+$string['requiredentries'] = 'Vereiste items voor voltooien';
+$string['requiredentries_help'] = 'Het aantal items die een student verplicht moet invoeren vóór de activiteit als voltooid wordt beschouwd.';
 $string['requiredentriestoview'] = 'Items vereist voor bekijken';
 $string['requiredentriestoview_help'] = '<p align="center"><strong>Vereist aantal items voor bekijken</strong></p>
 
 <p>THet aantal items een leerling moet invoeren voor hij de andere items in deze databank mag zien.</p>
 <p>Opmerking: deze functie kan niet gebruikt worden samen met de autolink filter voor de databank, omdat het niet mogelijk is voor de databank autolink filter om te bepalen of een gebruiker het vereiste aantal items al ingestuurd heeft.</p>';
-$string['requiredentrieswarning'] = 'Deze instelling is vervangen door de activiteitsvoltooiingsinstelling "Vereiste items"';
 $string['requiredfield'] = 'Vereist veld';
 $string['resetsettings'] = 'Reset filters';
 $string['resettemplate'] = 'Reset sjabloon';
 $string['resizingimages'] = 'Tumbnails van afbeeldingen herschalen';
 $string['rows'] = 'rijen';
-$string['rssglobaldisabled'] = 'Uitgeschakeld. Controleer de configuratievariablen van de site';
+$string['rssglobaldisabled'] = 'Uitgeschakeld. Controleer de configuratievariabelen van de site';
 $string['rsstemplate'] = 'RSS';
 $string['rsstitletemplate'] = 'RSS titelsjabloon';
 $string['save'] = 'Bewaar';
@@ -408,9 +378,6 @@ $string['subplugintype_datafield'] = 'Databank veldtype';
 $string['subplugintype_datafield_plural'] = 'Databank veldtypes';
 $string['subplugintype_datapreset'] = 'Voorinstelling';
 $string['subplugintype_datapreset_plural'] = 'Sjabloonsets';
-$string['tagarea_data_records'] = 'Data records';
-$string['tags'] = 'Tags';
-$string['tagsdeleted'] = 'Database-tags zijn verwijderd';
 $string['teachersandstudents'] = '{$a->teachers} en {$a->students}';
 $string['templates'] = 'Sjablonen';
 $string['templatesaved'] = 'Sjabloon bewaard';

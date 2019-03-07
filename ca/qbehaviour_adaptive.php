@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_adaptive', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qbehaviour_adaptive', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   qbehaviour_adaptive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['disregardedwithoutpenalty'] = 'La tramesa no és vàlida i s\'ha descartat sense penalitzacions.';
-$string['gradingdetails'] = 'Puntuacions d\'aquest lliurament: {$a->raw} / {$a->max}.';
+$string['gradingdetails'] = 'Puntuacions per a aquesta tramesa: {$a->raw} / {$a->max}.';
 $string['gradingdetailsadjustment'] = 'Tenint en compte els intents previs, la puntuació és <strong>{$a->cur}/{$a->max}</strong>.';
 $string['gradingdetailspenalty'] = 'Aquest lliurament ha acumulat una penalització de {$a}.';
 $string['gradingdetailspenaltytotal'] = 'Total de la penalització fins ara: {$a}';

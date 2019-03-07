@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_availabilityconditions', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_availabilityconditions', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_availabilityconditions
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['manageplugins'] = 'Gerir restrições';
-$string['pluginname'] = 'Gestão da condição de disponibilidade.';
-$string['privacy:metadata'] = 'O módulo Gestão da condição de disponibilidade não armazena dados pessoais.';
+$string['manageplugins'] = 'Gerir condições de acesso';
+$string['pluginname'] = 'Gestão de condições de acesso';

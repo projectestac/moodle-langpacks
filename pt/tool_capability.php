@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_capability', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_capability', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_capability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,16 +25,15 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['capabilitylabel'] = 'Capacidade:';
-$string['capabilityreport'] = 'Lista das capacidades';
+$string['capabilitylabel'] = 'Permissão:';
+$string['capabilityreport'] = 'Lista das permissões';
 $string['changeoverrides'] = 'Alterar permissões neste contexto';
 $string['changeroles'] = 'Alterar definições dos papéis';
 $string['eventreportviewed'] = 'Relatório visualizado';
 $string['forroles'] = 'Para os papéis {$a}';
 $string['getreport'] = 'Visão global';
-$string['intro'] = 'Este relatório mostra, para uma capacidade específica, que permissões estão definidas para esta capacidade em cada papel (ou uma seleção de papéis), e todos os lugares do site em que esta capacidade está redefinida.';
-$string['pluginname'] = 'Análise de capacidades';
-$string['privacy:metadata'] = 'O módulo Lista das capacidades não armazena dados pessoais.';
-$string['reportforcapability'] = 'Relatório da capacidade \'{$a}';
+$string['intro'] = 'Este relatório mostra, para uma permissão específica, que permissões estão definidas para esta permissão em cada papel (ou uma seleção de papéis), e todos os lugares do site em que esta permissão está redefinida.';
+$string['pluginname'] = 'Análise de permissões';
+$string['reportforcapability'] = 'Relatório da permissão \'{$a}';
 $string['reportsettings'] = 'Configurações do relatório';
 $string['roleslabel'] = 'Papéis:';

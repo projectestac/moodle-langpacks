@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'blog', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addnewentry'] = 'Gehitu sarrera berria';
 $string['addnewexternalblog'] = 'Erregistratu kanpoko blog bat';
-$string['assocdescription'] = 'Ikastaro edota jarduera-modulu bati buruz ari bazara idazten, aukera ezazu hemen.';
+$string['assocdescription'] = 'Ikastaro edota jarduera-modulu bati buruz idazten ari bazara, aukera ezazu hemen.';
 $string['associated'] = '{$a}-ri lotua';
 $string['associatewithcourse'] = '{$a->coursename} ikastaroari buruzko blog-a.';
 $string['associatewithmodule'] = '{$a->modtype}: {$a->modname} -ri buruzko bloga';
@@ -80,7 +80,7 @@ $string['donothaveblog'] = 'Zuk ez duzu blogik, sentitzen dugu.';
 $string['editentry'] = 'Editatu blog-sarrera';
 $string['editexternalblog'] = 'Editatu kanpoko blog hau';
 $string['emptybody'] = 'Blog-sarreraren gorputza ezin da hutsik egon';
-$string['emptyrssfeed'] = 'Sartu duzun URL-ak ez du eramanten RSS jario egoki batera';
+$string['emptyrssfeed'] = 'Sartu duzun URLak ez du eramanten RSS jario egoki batera';
 $string['emptytitle'] = 'Blog-sarreraren izenburua ezin da hutsik egon';
 $string['emptyurl'] = 'Benetako RSS jario baterako URL zehaztu behar duzu';
 $string['entrybody'] = 'Blog-sarreraren gorputza';
@@ -111,13 +111,13 @@ $string['groupblog'] = 'Talde-bloga: {$a}';
 $string['groupblogdisable'] = 'Talde-bloga ez dago gaituta';
 $string['groupblogentries'] = '{$a->coursename}-rekin {$a->groupname} taldeak lotutako blog-sarrerak';
 $string['groupblogs'] = 'Erabiltzaileek beren talde bereko pertsonen blogak baino ezin dituzte ikusi';
-$string['incorrectblogfilter'] = 'Zehaztutako blog-iragazkia ez da zuzena';
+$string['incorrectblogfilter'] = 'Zehaztutako blog-iragazki mota ezegokia da';
 $string['intro'] = 'RSS jario hau automatikoki sortu da blog batetik edo batzuetatik';
 $string['invalidgroupid'] = 'Taldearen ID-a ez da egokia';
 $string['invalidurl'] = 'Ezin da aurkitu URL hau';
 $string['linktooriginalentry'] = 'Jatorrizko blog-sarrerarako esteka';
-$string['maxexternalblogsperuser'] = 'Gehinezko kanpoko blog-kopurua erabiltzaileko ';
-$string['myprofileuserblogs'] = 'Ikus blog-sarrera guztiak';
+$string['maxexternalblogsperuser'] = 'Gehienezko kanpoko blog-kopurua erabiltzaileko';
+$string['myprofileuserblogs'] = 'Ikusi blog-sarrera guztiak';
 $string['name'] = 'Izena';
 $string['name_help'] = 'Idtzi zure kanpoko blog-erako izen adierazgarria. (Ez badiozu izenik ematen, zure kanpoko blog-aren izenburua erabiliko da).';
 $string['noentriesyet'] = 'Sarrerak ez daude ikusgai hemen';
@@ -132,32 +132,9 @@ $string['page-blog-edit'] = 'Bloga editatzeko orriak';
 $string['page-blog-index'] = 'Blog-zerrenden orriak';
 $string['page-blog-x'] = 'Blog-orri guztiak';
 $string['pagesize'] = 'Blog-sarrerak orriko';
-$string['permalink'] = 'Lotura iraunkorra';
+$string['permalink'] = 'Esteka iraunkorra';
 $string['personalblogs'] = 'Erabiltzaileek beren blogak baino ezin dituzte ikusi';
 $string['preferences'] = 'Blogaren hobespenak';
-$string['privacy:metadata:core_comments'] = 'Blog-sarrerekin lotutako iruzkinak';
-$string['privacy:metadata:core_files'] = '';
-$string['privacy:metadata:core_tag'] = 'Blog-sarrerekin lotutako etiketak';
-$string['privacy:metadata:external'] = 'Kanpoko RSS jarioaren esteka';
-$string['privacy:metadata:external:description'] = 'Jarioaren deskribapena';
-$string['privacy:metadata:external:filtertags'] = 'Sarrerak iragazteko etiketen zerrenda';
-$string['privacy:metadata:external:name'] = 'Jarioaren izena';
-$string['privacy:metadata:external:timefetched'] = 'Jarioa azkenengoz eskuratu zeneko data.';
-$string['privacy:metadata:external:timemodified'] = 'Lotura azkenengoz aldatu zeneko data';
-$string['privacy:metadata:external:url'] = 'Jarioaren URLa';
-$string['privacy:metadata:external:userid'] = 'Erabiltzailearen IDa';
-$string['privacy:metadata:post'] = 'Blog-sarrerekin lotutako informazioa';
-$string['privacy:metadata:post:content'] = 'Kanpoko sarreraren edukia';
-$string['privacy:metadata:post:created'] = 'Sarrera sortu zeneko data';
-$string['privacy:metadata:post:lastmodified'] = 'Sarrera azkenengoz aldatu zeneko data';
-$string['privacy:metadata:post:publishstate'] = 'Sarrera besteentzat ikusgai dagoen edo ez';
-$string['privacy:metadata:post:subject'] = 'Blog-sarreraren izenburua.';
-$string['privacy:metadata:post:summary'] = 'Blog-sarrera.';
-$string['privacy:metadata:post:uniquehash'] = 'Kanpoko-sarrera bateko identifikatzaile-bakarra, normalean URL bat.';
-$string['privacy:metadata:post:userid'] = 'Erabiltzailearen IDa';
-$string['privacy:metadata:post:usermodified'] = 'Sarrera azkenengoz aldatu zuen erabiltzailea';
-$string['privacy:path:blogassociations'] = 'Lotutako blog-sarrerak';
-$string['privacy:unknown'] = 'Ezezaguna';
 $string['publishto'] = 'Norentzat argitaratu';
 $string['publishtocourse'] = 'Zurekin ikastaroa konpartitzen duten erabiltzaileak';
 $string['publishtocourseassoc'] = 'Lotutako ikastaroko kideak';
@@ -187,13 +164,13 @@ $string['tagparam'] = 'Etiketa: {$a}';
 $string['tags'] = 'Etiketak';
 $string['tagsort'] = 'Zeren arabera ordenatu etiketak';
 $string['tagtext'] = 'Etiketaren testua';
-$string['timefetched'] = 'Azken sinkronizazioaren denbora';
+$string['timefetched'] = 'Azken sinkronizazioaren unea';
 $string['timewithin'] = 'Egun hauetan erabilitako etiketak erakutsi';
 $string['updateentrywithid'] = 'Sarrera eguneratzen';
 $string['url'] = 'RSS jarioaren URLa';
-$string['url_help'] = 'Idatzi zure kanpoko blog-aren RSS jarioaren URL-a.';
-$string['useblogassociations'] = 'Blog-loturak gaitu';
-$string['useexternalblogs'] = 'Kanpoko blogak gaitu';
+$string['url_help'] = 'Idatzi zure kanpoko blog-aren RSS jarioaren URLa.';
+$string['useblogassociations'] = 'Gaitu blog-loturak';
+$string['useexternalblogs'] = 'Gaitu kanpoko blogak';
 $string['userblog'] = 'Erabiltzailearen bloga: {$a}';
 $string['userblogentries'] = '{$a}-ren blog-sarrerak';
 $string['valid'] = 'Egokia';
@@ -211,8 +188,8 @@ $string['viewmodentries'] = 'Modulu-sarrerak';
 $string['viewmyentries'] = 'Nire sarrerak';
 $string['viewmyentriesaboutcourse'] = 'Ikusi nire sarrerak ikastaro honi buruz';
 $string['viewmyentriesaboutmodule'] = 'Ikusi nire sarrerak {$a} honi buruz';
-$string['viewsiteentries'] = 'Sarrera guztiak ikusi';
-$string['viewuserentries'] = '{$a}-ren sarrera guztiak ikusi';
+$string['viewsiteentries'] = 'Ikusi sarrera guztiak';
+$string['viewuserentries'] = 'Ikusi {$a}-ren sarrera guztiak';
 $string['worldblogs'] = 'Edozeinek ikus ditzake mundu osoarentzat argitaratutako sarrerak';
-$string['wrongexternalid'] = 'Kanpoko blogaren ID baliogabea';
+$string['wrongexternalid'] = 'Kanpoko blog ID baliogabea';
 $string['wrongpostid'] = 'Blog-mezuaren ID okerra';

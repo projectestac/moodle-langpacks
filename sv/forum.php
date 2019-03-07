@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'sv', branch 'MOODLE_34_STABLE'
+ * Strings for component 'forum', language 'sv', branch 'MOODLE_32_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -84,15 +84,12 @@ $string['cleanreadtime'] = 'Markera gamla inlägg som lästa timme';
 $string['clicktosubscribe'] = 'Du prenumererar inte på denna diskussion. Klicka för att prenumerera';
 $string['clicktounsubscribe'] = 'Du prenumererar på denna diskussion. Klicka för att avbeställa prenumerationen.';
 $string['completiondiscussions'] = 'Studenten/eleven/deltagaren/den lärande måste skapa diskussioner:';
-$string['completiondiscussionsdesc'] = 'Deltagaren måste starta minst {$a} diskussion(er)';
 $string['completiondiscussionsgroup'] = 'Kräv diskussioner';
 $string['completiondiscussionshelp'] = 'kräver diskussionsämnen för att Du ska kunna fullfölja';
 $string['completionposts'] = 'Studenten/eleven/deltagaren/den lärande måste starta diskussioner eller svara:';
-$string['completionpostsdesc'] = 'Deltagaren måste lägga in minst {$a} diskussion(er) eller svar';
 $string['completionpostsgroup'] = 'Kräv inlägg';
 $string['completionpostshelp'] = 'kräver diskussionsämnen eller svar för att Du ska kunna fullfölja';
 $string['completionreplies'] = 'Studenten/eleven/deltagaren/den lärande måste göra inlägg som svar:';
-$string['completionrepliesdesc'] = 'Deltagaren måste lägga in minst {$a} svar';
 $string['completionrepliesgroup'] = 'Kräv svar';
 $string['completionreplieshelp'] = 'kräver svar för att Du ska kunna fullfölja';
 $string['configcleanreadtime'] = 'Tidpunkten under dagen då gamla inlägg ska rensas från \'läs\'-tabellen.';
@@ -294,8 +291,6 @@ $string['lockdiscussionafter_help'] = 'En diskussion kan ställas in så att den
 Användare med behörighet att svara på låsta diskussioner kan låsa upp den igen genom att lägga in ett svar.';
 $string['longpost'] = 'Långt inlägg';
 $string['mailnow'] = 'Skicka e-post nu';
-$string['managesubscriptionsoff'] = 'Sluta hantera prenumerationer';
-$string['managesubscriptionson'] = 'Hantera prenumerationer';
 $string['manydiscussions'] = 'Diskussionsämnen per sida';
 $string['markalldread'] = 'Markera alla inlägg i detta diskussionsämne som lästa';
 $string['markallread'] = 'Markera alla inlägg i detta forum som lästa';
@@ -405,6 +400,8 @@ $string['pluginname'] = 'Forum';
 $string['postadded'] = 'Ditt inlägg har lagts till.<p>Du har {$a} för att redigera det om Du vill göra ändringar.';
 $string['postaddedsuccess'] = 'Ditt bidrag har lagts till framgångsrikt';
 $string['postaddedtimeleft'] = 'Du har {$a} att redigera om du vill göra ändringar.';
+$string['postbymailsuccess'] = 'Ditt inlägg med ämnet "{$a->subject}" har publicerats. Du kan se det här {$a->discussionurl}.';
+$string['postbymailsuccess_html'] = 'Ditt <a href="{$a->discussionurl}">inlägg</a> med ämnet "{$a->subject}" har publicerats.';
 $string['postbyuser'] = '{$a->post} av {$a->user}';
 $string['postincontext'] = 'Se detta inlägg i sitt sammanhang';
 $string['postmailinfo'] = 'Detta är en kopia på ett meddelande inlagt på {$a} webbplats.
@@ -434,7 +431,6 @@ $string['qandaforum'] = 'Forum för frågor och svar';
 $string['qandanotify'] = 'Det här är ett forum för frågor och svar. För att Du ska få se andras svar på de här frågorna så måste Du först skicka in Ditt eget svar.';
 $string['re'] = 'Svar:';
 $string['readtherest'] = 'Läs fortsättningen på detta ämne';
-$string['removeallforumtags'] = 'Ta bort alla forumstaggar';
 $string['replies'] = 'Svar:';
 $string['repliesmany'] = '{$a} svar så långt';
 $string['repliesone'] = '{$a} svar så långt';
@@ -477,7 +473,6 @@ $string['searchphrase'] = 'Exakt den här frasen måste vara med i inlägget';
 $string['search:post'] = 'Forum - inlägg';
 $string['searchresults'] = 'Sökresultat';
 $string['searchsubject'] = 'De här orden bör vara med i ämnet';
-$string['searchtags'] = 'är taggad med';
 $string['searchuser'] = 'Det här namnet bör matcha författarens namn';
 $string['searchuserid'] = 'Författarens Moodle-ID';
 $string['searchwhichforums'] = 'Välj vilket/vilka forum Du vill söka i';
@@ -487,6 +482,7 @@ $string['shortpost'] = 'Kort inlägg';
 $string['showsubscribers'] = 'Visa prenumeranter';
 $string['singleforum'] = 'Ett enkelt enskilt diskussionsämne';
 $string['smallmessage'] = '{$a->user} gjorde inlägg i {$a->forumname}';
+$string['smallmessagedigest'] = 'Sammanfattningen från forum innehåller {$a} meddelanden';
 $string['startedby'] = 'Påbörjad av:';
 $string['subject'] = 'Ämne';
 $string['subscribe'] = 'Prenumerera på detta forum';
@@ -496,6 +492,7 @@ $string['subscribediscussion'] = 'Prenumerera på denna diskussion';
 $string['subscribeenrolledonly'] = 'Det är tyvärr bara registrerade användare som har rätt att prenumerera på foruminlägg med hjälp av e-post.';
 $string['subscribenone'] = 'Avregistrera alla som prenumeranter på detta forum';
 $string['subscribers'] = 'Prenumeranter';
+$string['subscribersto'] = 'Prenumerera till \'{$a}\'';
 $string['subscriberstowithcount'] = 'Prenumeranter på "{$a->name}" ({$a->count})';
 $string['subscribestart'] = 'Skicka e-postkopior av inlägg i detta forum till mig';
 $string['subscribestop'] = 'Skicka INTE e-postkopior av inlägg i detta forum  till mig';
@@ -525,8 +522,6 @@ $string['subscriptionmode_help'] = 'En prenumeration innebär att man får kopio
 OBS: Om läraren ändrar prenumerationsinställningarna så gäller de nya för framtida elever. Användare som redan finns i kursen behåller sina inställningar.';
 $string['subscriptionoptional'] = 'Alternativ prenumeration';
 $string['subscriptions'] = 'Prenumerationer';
-$string['tagarea_forum_posts'] = 'Foruminlägg';
-$string['tagsdeleted'] = 'Forumtaggar har tagits bort';
 $string['thisforumisthrottled'] = 'Det här forumet tillåter bara ett visst antal inlägg som Du kan göra inom en viss tidsperiod. Detta är f n inställt till {$a->blockafter} inlägg under {$a->blockperiod}';
 $string['timedposts'] = 'Tidsbegränsade inlägg';
 $string['timestartenderror'] = 'Slutdatumet kan inte vara tidigare än startdatumet';

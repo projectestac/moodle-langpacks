@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository', language 'ru', branch 'MOODLE_32_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -155,8 +155,7 @@ $string['license'] = 'Лицензия:';
 $string['linkexternal'] = 'Внешняя ссылка';
 $string['listview'] = 'В виде списка';
 $string['loading'] = 'Загрузка...';
-$string['login'] = 'Вход';
-$string['logintoaccount'] = 'Войдите в свою учетную запись {$a}';
+$string['login'] = 'Войдите в вашу учетную запись';
 $string['logout'] = 'Выход';
 $string['lostsource'] = 'Ошибка. Отсутствует источник. {$a}';
 $string['makefileinternal'] = 'Сделать копию файла';
@@ -166,6 +165,7 @@ $string['manage'] = 'Управление хранилищами файлов';
 $string['manageinstances'] = 'Управление экземплярами';
 $string['manageurl'] = 'Управление';
 $string['manageuserrepository'] = 'Управление индивидуальным хранилищем файлов';
+$string['missingsourcekey'] = 'Ключ источника отсутствует. Этот ключ также должен быть представлен для получения файла.';
 $string['moving'] = 'Перенос';
 $string['name'] = 'Название:';
 $string['newfolder'] = 'Новая папка';
@@ -235,7 +235,6 @@ $string['typenotvisible'] = 'Тип не виден';
 $string['undisclosedreference'] = '(Неизвестная)';
 $string['undisclosedsource'] = '(Неизвестный)';
 $string['unknownoriginal'] = 'Неизвестный';
-$string['unknownsource'] = 'Неизвестный источник';
 $string['unzipped'] = 'Распаковка прошла успешно';
 $string['upload'] = 'Загрузить этот файл';
 $string['uploading'] = 'Идет загрузка файла на сервер...';

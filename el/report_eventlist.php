@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_eventlist', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_eventlist', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   report_eventlist
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,37 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['abstractclass'] = 'Αφηρημένη κλάση';
+$string['action'] = 'Ενέργεια';
+$string['affectedtable'] = 'Επηρεασμένος πίνακας';
+$string['all'] = 'Όλες';
+$string['clear'] = 'Καθμμισ';
 $string['component'] = 'Στοιχείο λογισμικού';
+$string['create'] = 'δημιουργία';
+$string['crud'] = 'Τύπος ερωτήματος βάσης δεδομένων';
+$string['delete'] = 'διαγραφή';
+$string['details'] = 'Λεπτομέρειες';
+$string['dname'] = 'Όνομα';
+$string['edulevel'] = 'Βαθμίδα/φορέας εκπαίδευσης';
+$string['errorinvaliddirectory'] = 'Ο κατάλογος γεγονότων δεν υπάρχει ή δεν είναι έγκυρος.';
+$string['errorinvalidevent'] = 'Το γεγονός που παρέχεται δεν είναι ένα έγκυρο γεγονός.';
+$string['eventcode'] = 'Κωδικός γεγονότος';
+$string['eventexplanation'] = 'Επεξήγηση του γεγονότος';
+$string['eventname'] = 'Όνομα γεγονότος';
+$string['filter'] = 'Φίλτρο';
+$string['legacyevent'] = 'Γεγονός παλαιού τύπου';
+$string['name'] = 'Όνομα';
+$string['objecttable'] = 'Πίνακας αντικειμένων';
+$string['other'] = 'Άλλο';
+$string['othereventparameters'] = 'Άλλες παράμετροι γεγονότων';
+$string['otherinformation'] = 'Άλλες πληροφορίες:';
+$string['parentevent'] = 'Γονικό γεγονότος';
+$string['participating'] = 'Συμμετέχοντας';
+$string['pluginname'] = 'Λίστα γεγονότων';
+$string['read'] = 'ανάγνωση';
+$string['relatedobservers'] = 'Πρόσθετα που παρακολουθούν αυτό το γεγονός';
+$string['since'] = 'Αφότου';
+$string['teaching'] = 'Διδασκαλία';
+$string['typedeclaration'] = 'Άλλες παράμετροι γεγονότων';
+$string['update'] = 'ενημέρωση';
+$string['yes'] = 'ναι';

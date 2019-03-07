@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   block
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['addtodock'] = '移到停靠栏';
 $string['anypagematchingtheabove'] = '任何符合上面条件的页面';
 $string['appearsinsubcontexts'] = '出现在子上下文';
 $string['assignrolesinblock'] = '在 {$a} 版块中分配角色';
+$string['blocksdrawertoggle'] = '隐藏/显示版块抽屉';
 $string['blocksettings'] = '版块设置';
 $string['bracketfirst'] = '{$a}（最高）';
 $string['bracketlast'] = '{$a}（最低）';
@@ -54,6 +55,7 @@ $string['moveblockafter'] = '移动版块到 {$a} 版块之后';
 $string['moveblockbefore'] = '移动版块到 {$a} 版块之前';
 $string['moveblockinregion'] = '移动版块到 {$a} 区域';
 $string['movingthisblockcancel'] = '正在移动版块（{$a}）';
+$string['myblocks'] = '我的版块';
 $string['onthispage'] = '在本页';
 $string['pagetypes'] = '网页类型';
 $string['pagetypewarning'] = '之前指定的页面类型不再可以选择。请在下面选择最恰当的页面类型。';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_lp', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['addcohortstosync'] = 'Adicionar Grupos globais para sincronizar';
 $string['addcompetency'] = 'Adicionar competência';
 $string['addcoursecompetencies'] = 'Adicionar competências à disciplina';
 $string['addcrossreferencedcompetency'] = 'Adicionar competência referenciada';
-$string['addingcompetencywillresetparentrule'] = 'Se adicionar uma nova competência irá remover a regra estabelecida em \'{$a}\'. Tem a certeza que pretende continuar?';
+$string['addingcompetencywillresetparentrule'] = 'Se adicionar uma nova competência irá remover a regra estabelecida em \'{$a}\'. Tem a certeza de que pretende continuar?';
 $string['addnewcompetency'] = 'Adicionar nova competência';
 $string['addnewcompetencyframework'] = 'Adicionar novo quadro de competências';
 $string['addnewplan'] = 'Adicionar novo plano de aprendizagem';
@@ -137,8 +137,8 @@ $string['move'] = 'Mover';
 $string['movecompetency'] = 'Mover a competência';
 $string['movecompetencyafter'] = 'Mover a competência para depois de \'{$a}\'';
 $string['movecompetencyframework'] = 'Mover o quadro de competências';
-$string['movecompetencytochildofselfwillresetrules'] = 'Mover a competência vai remover as regras definidas para esta, bem como a localização e o conjunto de regras definidas para as suas competências ascendentes. Tem a certeza que a quer mover?';
-$string['movecompetencywillresetrules'] = 'Mover a competência irá remover a localização e o conjunto de regras definidas para as suas competências ascendentes. Tem a certeza que a quer mover?';
+$string['movecompetencytochildofselfwillresetrules'] = 'Mover a competência vai remover as regras definidas para esta, bem como a localização e o conjunto de regras definidas para as suas competências ascendentes. Tem a certeza de que pretende mover?';
+$string['movecompetencywillresetrules'] = 'Mover a competência irá remover a localização e o conjunto de regras definidas para as suas competências ascendentes. Tem a certeza de que pretende mover?';
 $string['moveframeworkafter'] = 'Mover o quadro de competência depois de \'{$a}\'';
 $string['movetonewparent'] = 'Mover';
 $string['myplans'] = 'Os meus planos de aprendizagem';
@@ -179,7 +179,6 @@ $string['planupdated'] = 'Plano de aprendizagem atualizado';
 $string['pluginname'] = 'Planos de aprendizagem';
 $string['points'] = 'Pontos';
 $string['pointsgivenfor'] = 'Pontos para \'{$a}\'';
-$string['privacy:metadata'] = 'O módulo Planos de aprendizagem não armazena dados pessoais.';
 $string['proficient'] = 'Proficiente';
 $string['progress'] = 'Progresso';
 $string['rate'] = 'Avaliar';

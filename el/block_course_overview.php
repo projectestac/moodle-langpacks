@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_overview', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_course_overview', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   block_course_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,8 +32,16 @@ $string['configotherexpanded'] = 'Αν ενεργοποιηθεί, τα μαθή
 $string['configpreservestates'] = 'Αν είναι ενεργοποιημένη, οι καταστάσεις σύμπτυξη / ανάπτυξη που ορίζονται από το χρήστη αποθηκεύονται και χρησιμοποιούνται σε κάθε φόρτωση.';
 $string['course_overview:addinstance'] = 'Προσθήκη νέου μπλοκ επισκόπηση μαθημάτων';
 $string['course_overview:myaddinstance'] = 'Προσθήκη νέου μπλοκ επισκόπηση μαθημάτων στη σελίδα Η αρχική μου';
+$string['defaultmaxcourses'] = 'Προεπιλεγμένος μέγιστος αριθμός μαθημάτων';
+$string['defaultmaxcoursesdesc'] = 'Μέγιστος αριθμός μαθημάτων που θα εμφανίζονται στο μπλοκ επισκόπηση μαθημάτων, 0 θα εμφανίζονται όλα τα μαθήματα';
 $string['expandall'] = 'Ανάπτυξη όλων των λιστών μαθήματος';
+$string['forcedefaultmaxcourses'] = 'Επιβολή μέγιστου αριθμού μαθημάτων';
+$string['forcedefaultmaxcoursesdesc'] = 'Αν ρυθμιστεί τότε ο χρήστης δεν θα μπορεί να αλλάξετε τις προσωπικές του/της ρυθμίσεις';
 $string['fullpath'] = 'Όλες οι κατηγορίες και υπο-κατηγορίες';
+$string['hiddencoursecount'] = 'Έχετε {$a} κρυφό μάθημα';
+$string['hiddencoursecountplural'] = 'Έχετε {$a} κρυφά μαθήματα';
+$string['hiddencoursecountwithshowall'] = 'Έχετε {$a->coursecount} κρυφό μάθημα ({$a->showalllink})';
+$string['hiddencoursecountwithshowallplural'] = 'Έχετε {$a->coursecount} κρυφά μαθήματα ({$a->showalllink})';
 $string['message'] = 'μήνυμα';
 $string['messages'] = 'μηνύματα';
 $string['moveafterhere'] = 'Μετακίνηση του μαθήματος {$a->movingcoursename} μετά από το  {$a->currentcoursename}';
@@ -45,14 +53,17 @@ $string['none'] = 'Κανένα';
 $string['numtodisplay'] = 'Αριθμός μαθημάτων προς εμφάνιση:';
 $string['onlyparentname'] = 'Μόνο γονική κατηγορία';
 $string['otherexpanded'] = 'Ανάπτυξη άλλων μαθημάτων';
-$string['pluginname'] = 'Επισκόπηση μαθημάτων (παλαιότερη έκδοση)';
+$string['pluginname'] = 'Επισκόπηση μαθημάτων';
 $string['preservestates'] = 'Διατήρηση καταστάσεων ανεπτυγμένων';
 $string['shortnameprefix'] = 'Περιλαμβάνει {$a}';
 $string['shortnamesufixprural'] = '(και {$a} άλλα)';
 $string['shortnamesufixsingular'] = '(και {$a} άλλο)';
 $string['showcategories'] = 'Κατηγορίες προς εμφάνιση';
 $string['showcategoriesdesc'] = 'Οι κατηγορίες μαθημάτων θα εμφανίζονται κάτω από κάθε μάθημα;';
-$string['title'] = 'Επισκόπηση μαθημάτων';
+$string['showchildren'] = 'Εμφάνιση θυγατρικών';
+$string['showchildrendesc'] = 'Τα θυγατρικά μαθήματα θα εμφανίζονται κάτω από τον τίτλο του βασικού μαθήματος;';
+$string['showwelcomearea'] = 'Εμφάνιση περιοχής καλωσορίσματος';
+$string['showwelcomeareadesc'] = 'Εμφάνιση περιοχής καλωσορίσματος';
 $string['view_edit_profile'] = '(Προβολή και επεξεργασία του προφίλ σας.)';
 $string['welcome'] = 'Καλώς ήρθατε {$a}';
 $string['youhavemessages'] = 'Έχετε {$a} αδιάβαστα';

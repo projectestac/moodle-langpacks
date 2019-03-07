@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'rating', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'rating', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   rating
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['aggregateavg'] = 'Puntuazioen batez bestekoa';
 $string['aggregatecount'] = 'Puntuazio-kontaketa';
-$string['aggregatemax'] = 'Gehieneko puntuazioa';
+$string['aggregatemax'] = 'Gehienezko puntuazioa';
 $string['aggregatemin'] = 'Gutxieneko puntuazioa';
 $string['aggregatenone'] = 'Puntuaziorik ez';
 $string['aggregatesum'] = 'Puntuazioen batuketa';
@@ -41,19 +41,14 @@ $string['aggregatetype_help'] = 'Agregazio-motak definitzen du nola batuko diren
 * Batuketa - Puntuazio guztiak batuko dira. Kontuan zian guztirakoak ezin duela jarduerarako gehienezko kalifikazioa baino altuagoa.
 
 "Ez kalifikatu" aukeratzen bada, jarduera ez da kalifikazio-liburuan agertuko.';
-$string['allowratings'] = 'Gaitu elementuak puntuatu ahal izateko?';
+$string['allowratings'] = 'Baimendu elementuak puntuatu ahal izatea?';
 $string['allratingsforitem'] = 'Bidalitako puntuazio guztiak';
-$string['capabilitychecknotavailable'] = 'Egiaztatzeko gaitasuna ez dago eskura jarduera gorde arte';
+$string['capabilitychecknotavailable'] = 'Gaitasunen egiaztatzea ez dago eskura jarduera gorde arte';
 $string['couldnotdeleteratings'] = 'Sentitzen dugu, ezin da ezabatu zeren norbaitek kalifikatu baitu';
 $string['norate'] = 'Elementuak sailkatzea ez dago gaituta!';
 $string['noratings'] = 'Ez da puntuaziorik bidali';
-$string['noviewanyrate'] = 'Zeure elementuen emaitzak bakarrik ikus ditzakezu';
+$string['noviewanyrate'] = 'Zeure mezuen emaitzak bakarrik ikus ditzakezu';
 $string['noviewrate'] = 'Ez duzu elementuen puntuazioa ikusteko gaitasunik';
-$string['privacy:metadata:rating'] = 'Erabiltzaileak emandako puntuazioa puntuatutako elementuaren loturarekin batera gordetzen da.';
-$string['privacy:metadata:rating:rating'] = 'Erabiltzaileak emandako puntuazio numerikoa.';
-$string['privacy:metadata:rating:timecreated'] = 'Puntuazioa lehenengoz egin zeneko unea.';
-$string['privacy:metadata:rating:timemodified'] = 'Puntuazioa azkenengoz eguneratu zeneko unea.';
-$string['privacy:metadata:rating:userid'] = 'Puntuazioa egin zuen erabiltzailea.';
 $string['rate'] = 'Puntuatu';
 $string['ratepermissiondenied'] = 'Ez duzu elementu hau puntuatzeko baimenik';
 $string['rating'] = 'Puntuazioa';
@@ -61,5 +56,5 @@ $string['ratinginvalid'] = 'Puntuazioak ez du balio';
 $string['ratings'] = 'Puntuazioak';
 $string['ratingtime'] = 'Mugatu puntuazioak tarte honetako elementuetara';
 $string['rolewarning'] = 'Puntuatzeko baimena duten rolak';
-$string['rolewarning_help'] = 'Kalifikazioak bidaltzeko, beharrezkoa da \'moodle/rating:rate\' baimena, bai eta moduluari buruzko edozein baimen espezifiko ere. Ondoko rolak dituzten erabiltzaileek kalifikazioak emateko modua izan behar dute. Rol-zerrenda alda daiteke kudeaketa blokean dagoen baimenetarako estekaren bidez.';
+$string['rolewarning_help'] = 'Kalifikazioak bidaltzeko, beharrezkoa da \'moodle/rating:rate\' gaitasuna, bai eta moduluari buruzko edozein gaitasun espezifiko ere. Ondoko rolak dituzten erabiltzaileek kalifikazioak emateko modua izan behar dute. Rol-zerrenda alda daiteke kudeaketa blokean dagoen gaitasunetarako estekaren bidez.';
 $string['scaleselectionrequired'] = 'Puntuazioen agregazio-motak aukeratzean eskala edo gehienezko puntuazioak ere aukeratu behar dituzu.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'editor', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   editor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -120,8 +120,6 @@ $string['pleaseenteralt'] = 'Introduza um texto alternativo';
 $string['popupeditor'] = 'Ampliar o editor';
 $string['preformatted'] = 'pré-formatado';
 $string['preview'] = 'Pré-visualização';
-$string['privacy:metadata:preference:htmleditor'] = 'Preferência do editor de texto';
-$string['privacy:preference:htmleditor'] = 'Editor preferido para escrever texto HTML: {$a}';
 $string['properties'] = 'Propriedades';
 $string['redo'] = 'Refazer a ação anulada';
 $string['regularexpressions'] = 'Usar expressões regulares';
@@ -141,7 +139,7 @@ $string['size'] = 'Tamanho';
 $string['spacing'] = 'espaçamento';
 $string['strikethrough'] = 'Rasurado';
 $string['subscript'] = 'Subíndice';
-$string['superscript'] = 'Superíndice';
+$string['superscript'] = 'Sobrescrito';
 $string['textindicator'] = 'Estilo atual';
 $string['textmode'] = 'Encontra-se em MODO TEXTO. Use o botão [<>] para voltar ao MODO WYSIWIG.';
 $string['texttop'] = 'Topo do Texto';

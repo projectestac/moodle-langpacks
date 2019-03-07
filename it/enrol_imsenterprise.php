@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,7 +46,7 @@ $string['createnewusers_desc'] = 'I dati di iscrizione IMS Enterprise definiscon
 Gli utenti vengono cercati prima tramite il codice identificativo poi in base allo username. Le password non vengono importate, pertanto si suggerisce di affiancare l\'iscrizione con un plugin di autenticazione.';
 $string['cronfrequency'] = 'Frequenza di attivazione';
 $string['deleteusers'] = 'Elimina gli account se è specificato nei dati IMS';
-$string['deleteusers_desc'] = 'L\'impostazione consente l\'eliminazione di account utente se specificato nel file IMS (recstatus deve essere impostato a 3, che significa eliminazione di un account). Per default l\'account non viene fisicamente eliminato dalla tabella degli utenti di Moodle ma solo contrassegnato come eliminato.';
+$string['deleteusers_desc'] = 'L\'impostazione consente l\'eliminazione di account utente se specificato nel file IMS ("recstatus" deve essere impostato a 3, che significa eliminazione di un account). Di default l\'account non viene fisicamente eliminato dalla tabella degli utenti di Moodle ma solo contrassegnato come eliminato.';
 $string['doitnow'] = 'elaborare adesso il file IMS Enterprise';
 $string['emptyattribute'] = 'Lascia vuoto';
 $string['filelockedmail'] = 'Il processo cron non riesce ad eliminare il file ({$a}) usato per le iscrizioni IMS Enterprise. L\'errore in genre indica che i permessi non sono corretti. Controllare e impostare correttamente i permessi per consentire a Moodle di eliminare il file, che altrimenti verrà elaborato ripetutamente.';
@@ -68,7 +68,6 @@ $string['nestedcategories'] = 'Consenti categorie nidificate';
 $string['nestedcategories_desc'] = 'IMS Enterprise creerà categorie nidificate';
 $string['pluginname'] = 'File IMS Enterprise';
 $string['pluginname_desc'] = 'Il plugin di iscrizione IMS Enterprise controlla ripetutamente la presenza di un file di testo in un dato percorso. Il file deve seguire le specifiche IMS Enterprise e contenere gli elementi XML relativi a persone, gruppi e appartenenza. ';
-$string['privacy:metadata'] = 'Il plugin di iscrizione "File IMS Enterprise" non memorizza dati personali.';
 $string['processphoto'] = 'Aggiungi una foto al profilo';
 $string['processphotowarning'] = 'ATTENZIONE: lavorare un\'immagine potrebbe aggravare il lavoro del server. Si raccomanda di NON attivare questa opzione se è previsto un elevato numero di utenti.';
 $string['restricttarget'] = 'Elabora i dati solo se destinati al sistema specificato';

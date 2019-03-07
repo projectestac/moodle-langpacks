@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'grades', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -116,6 +116,7 @@ $string['calculationsaved'] = 'Cálculo gardado';
 $string['calculationview'] = 'Ver o cálculo';
 $string['cannotaccessgroup'] = 'Non é posíbel acceder ás cualificacións do grupo seleccionado.';
 $string['categories'] = 'Categorías';
+$string['categoriesanditems'] = 'Categorías e elementos';
 $string['category'] = 'Categoría';
 $string['categoryedit'] = 'Editar categoría';
 $string['categoryname'] = 'Nome da categoría';
@@ -330,6 +331,8 @@ $string['gradereport'] = 'Informe de cualificación';
 $string['graderreport'] = 'Informe do cualificador';
 $string['grades'] = 'Cualificacións';
 $string['gradesforuser'] = 'Cualificacións de {$a->user}';
+$string['gradesmoduledeletionpendingwarning'] = 'Aviso: eliminación de actividade en curso. Algunhas notas están a piques de eliminarse.';
+$string['gradesmoduledeletionprefix'] = '[Eliminación en curso]';
 $string['gradesonly'] = 'Só cualificacións';
 $string['gradessettings'] = 'Configuración da cualificación';
 $string['gradetype'] = 'Tipo de cualificación';
@@ -753,8 +756,8 @@ $string['topcategory'] = 'Supercategoría';
 $string['total'] = 'Total';
 $string['totalweight100'] = 'A ponderación total é igual a 100';
 $string['totalweightnot100'] = 'A ponderación total non é igual a 100';
-$string['turnfeedbackoff'] = 'Activar os comentarios';
-$string['turnfeedbackon'] = 'Desactivar os comentarios';
+$string['turnfeedbackoff'] = 'Desactivar os comentarios';
+$string['turnfeedbackon'] = 'Activar os comentarios';
 $string['typenone'] = 'Ningún';
 $string['typescale'] = 'Escala';
 $string['typescale_help'] = 'Este axuste determina a escala empregada cando se usa «Escala» como «Tipo de cualificación». A escala para unha cualificación baseada na actividade estabelecese na páxina de configuración da actividade.';

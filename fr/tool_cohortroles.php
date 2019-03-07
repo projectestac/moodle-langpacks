@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_cohortroles', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_cohortroles', language 'fr', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_cohortroles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,19 +25,19 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['acohortroleassignmentssaved'] = '{$a} attributions de rôle de cohorte ont été enregistrés.';
+$string['acohortroleassignmentssaved'] = '{$a} attributions de rôle par cohorte ont été enregistrés.';
 $string['assign'] = 'Attribuer';
 $string['assignroletocohort'] = 'Attribuer des rôles utilisateur-contexte à tous les membres de la cohorte';
 $string['backgroundsync'] = 'Remarque : les nouveaux rôles attribués aux cohortes n\'auront pas d\'effet immédiatement. Les modifications d\'attributions de rôles seront effectuées au moyen d\'une tâche programmée.';
-$string['cohortroleassignmentnotremoved'] = 'L\'attribution de rôle de cohorte n\'a pas été retirée.';
-$string['cohortroleassignmentremoved'] = 'L\'attribution de rôle de cohorte a été retirée.';
-$string['cohortroles'] = 'Rôle des cohortes';
-$string['existingcohortroles'] = 'Attributions de rôle de cohorte existantes';
+$string['cohortroleassignmentnotremoved'] = 'L\'attribution de rôle par cohorte n\'a pas été retirée.';
+$string['cohortroleassignmentremoved'] = 'L\'attribution de rôle par cohorte a été retirée.';
+$string['cohortroles'] = 'Rôle par cohortes';
+$string['existingcohortroles'] = 'Attributions de rôle par cohorte existantes';
 $string['managecohortroles'] = 'Attribuer des rôles à une cohorte';
 $string['noassignableroles'] = 'Actuellement, il n\'existe pas de rôle pouvant être attribué dans le contexte utilisateur. <a href="../../roles/manage.php">Gérer les rôles</a>';
-$string['nocohortroleassignmentssaved'] = 'Aucune attribution de rôle de cohorte n\'a été enregistrée.';
-$string['onecohortroleassignmentsaved'] = 'Une attribution de rôle de cohorte a été enregistrée.';
-$string['pluginname'] = 'Gestion des rôles de cohorte';
+$string['nocohortroleassignmentssaved'] = 'Aucune attribution de rôle par cohorte n\'a été enregistrée.';
+$string['onecohortroleassignmentsaved'] = 'Une attribution de rôle par cohorte a été enregistrée.';
+$string['pluginname'] = 'Gestion des rôles par cohorte';
 $string['removecohortroleassignment'] = 'Retirer l\'attribution de rôle de cohorte';
 $string['removecohortroleassignmentconfirm'] = 'Voulez-vous vraiment retirer cette attribution de rôle de cohorte ? Ce rôle sera retiré pour cet utilisateur dans tous les autres contextes utilisateur.';
 $string['selectcohorts'] = 'Choisir des cohortes';

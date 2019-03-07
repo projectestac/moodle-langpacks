@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshop', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -176,10 +176,6 @@ $string['gradinggradeover'] = '覆盖评价成绩';
 $string['gradingsettings'] = '成绩设置';
 $string['groupnoallowed'] = '您未被允许访问该互动评价中的任何一组';
 $string['iamsure'] = '是的，我确定';
-$string['indicator:cognitivedepth'] = '互动评价活动认知深度';
-$string['indicator:cognitivedepth_help'] = '这个指标是基于学生在 互动评价活动中所达到的认知深度。';
-$string['indicator:socialbreadth'] = '互动评价活动认社会广度';
-$string['indicator:socialbreadth_help'] = '这个指标是基于学生在 互动评价活动中所达到的社会广度。';
 $string['info'] = '信息';
 $string['instructauthors'] = '作业说明';
 $string['instructreviewers'] = '如何评价';
@@ -305,6 +301,7 @@ $string['switchphase30auto'] = '在 {$a->daydatetime} ({$a->distanceday}) 之后
 $string['switchphase30info'] = '您将切换此互动评价到<strong>评价阶段</strong>。在这个阶段，评价人可以评价已分配给他们的作业（在评价访问控制日期内，如果已经设置）。';
 $string['switchphase40info'] = '您将切换此互动评价到<strong>评分核定阶段</strong>。 在这个阶段，用户无法修改他们的作业和评价。教师可以使用评分核定工具计算最终成绩，并给评价人反馈。';
 $string['switchphase50info'] = '您将要关闭此互动评价。这会使计算过的成绩显示在成绩单上。学生们可以查看他们的作业和对作业的评价。';
+$string['switchphasenext'] = '进入下一阶段';
 $string['taskassesspeers'] = '评价同学的作业';
 $string['taskassesspeersdetails'] = '总数：{$a->total}<br />待评：{$a->todo}';
 $string['taskassessself'] = '自我评价';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_manual', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_manual', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,24 +25,21 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['advanced'] = 'Aurreratua';
 $string['alterstatus'] = 'Aldatu egoera';
 $string['altertimeend'] = 'Aldatu amaiera-unea';
 $string['altertimestart'] = 'Aldatu hasiera-unea';
 $string['assignrole'] = 'Esleitu rola';
-$string['assignroles'] = 'Esleitu rolak';
 $string['browsecohorts'] = 'Arakatu kohorteak';
 $string['browseusers'] = 'Arakatu erabiltzaileak';
 $string['confirmbulkdeleteenrolment'] = 'Ziur al zaude erabiltzaile hauen matrikula ezabatu nahi duzula?';
-$string['defaultperiod'] = 'Berezko matrikulazio-aldia';
-$string['defaultperiod_desc'] = 'Matrikulazioaren berezko iraupena. Zerora ezarriz gero, matrikulazioa berez mugarik gabekoa izango da.';
-$string['defaultperiod_help'] = 'Matrikulazioaren berezko iraupena, erabiltzailea matrikulatu deneko unetik hasita. Desgaituz gero, matrikulazioa berez mugarik gabekoa izango da.';
-$string['defaultstart'] = 'Matrikulazioaren berezko hasiera';
+$string['defaultperiod'] = 'Lehenetsitako matrikulazio-aldia';
+$string['defaultperiod_desc'] = 'Matrikulazioaren lehenetsitako iraupena. Zero ezarriz gero, matrikulazioa modu lehenetsian mugarik gabekoa izango da.';
+$string['defaultperiod_help'] = 'Matrikulazioaren lehenetsitako iraupena, erabiltzailea matrikulatu deneko unetik hasita. Desgaituz gero, matrikulazioa modu lehenetsian mugarik gabekoa izango da.';
+$string['defaultstart'] = 'Matrikulazioaren lehenetsitako hasiera';
 $string['deleteselectedusers'] = 'Ezabatu aukeratutako erabiltzaileen matrikulak';
 $string['editselectedusers'] = 'Editatu aukeratutako erabiltzaileen matrikulak';
 $string['enrolledincourserole'] = '"{$a->course}" ikastaroan "{$a->role}" rola ezarrita';
-$string['enrolusers'] = 'Matrikulatu erabiltzaileak ';
-$string['enroluserscohorts'] = 'Matrikulatu aukeratutako erabiltzaile eta kohorteak';
+$string['enrolusers'] = 'Matrikulatu erabiltzaileak';
 $string['expiredaction'] = 'Matrikulazioaren iraungitze-ekintza';
 $string['expiredaction_help'] = 'Aukeratu matrikulazioa iraungitzean exekutatuko den ekintza. Mesedez kontuan izan hainbat erabiltzaile-datu eta ezarpen ezabatuak izango direla ikastarotik desmatrikulatzean.';
 $string['expirymessageenrolledbody'] = 'Kaixo {$a->user},
@@ -58,19 +55,15 @@ $string['expirymessageenrollerbody'] = '\'{$a->course}\' ikastaroko matrikulazio
 Euren matrikulazioa luzatzeko, sartu hemen {$a->extendurl}';
 $string['expirymessageenrollersubject'] = 'Matrikulazio-amaieraren jakinarazpena';
 $string['manual:config'] = 'Konfiguratu eskuzko matrikulaziorako instantziak';
-$string['manual:enrol'] = 'Matrikulatu erabiltzaileak ';
-$string['manual:manage'] = 'Erabiltzaileen matrikulak kudeatu';
+$string['manual:enrol'] = 'Matrikulatu erabiltzaileak';
+$string['manual:manage'] = 'Kudeatu erabiltzaileen matrikulak';
 $string['manualpluginnotinstalled'] = '"Manual" plugina ez da oraindik instalatu';
 $string['manual:unenrol'] = 'Desmatrikulatu erabiltzaileak ikastarotik';
-$string['manual:unenrolself'] = 'Norbera ikastararotik desmatrikulatu';
+$string['manual:unenrolself'] = 'Desmatrikulatu norbera ikastararotik';
 $string['messageprovider:expiry_notification'] = 'Eskuzko matrikulazio-amaieraren jakinarazpenak';
 $string['now'] = 'Orain';
 $string['pluginname'] = 'Eskuzko matrikulazioa';
 $string['pluginname_desc'] = 'Eskuzko matrikulazio pluginak erabiltzaileak eskuz matrikulatzea ahalbidetzen dio baimenak dituen erabiltzaile bati (irakaslea adibidez) ikastaroaren kudeaketa ezarpenetako esteka baten bitartez. Gehigarria normalean gaituta egon beharko litzateke, kontuan izanda beste matrikulazio-gehigarri batzuk (matrikulazio automatikoa adibidez) horren beharra dutela.';
-$string['privacy:metadata'] = 'Eskuzko matrikulazio-pluginak ez du datu pertsonalik biltzen.';
-$string['selectcohorts'] = 'Aukeratu kohorteak';
-$string['selection'] = 'Aukeraketa';
-$string['selectusers'] = 'Aukeratu erabiltzaileak';
 $string['status'] = 'Gaitu eskuzko matrikulazioa';
 $string['status_desc'] = 'Baimendu ikastarorako sarbidea barruan matrikulatutako erabiltzaileei. Hau gaituta mantendu beharko litzateke kasu gehienetan.';
 $string['statusdisabled'] = 'Desgaituta';

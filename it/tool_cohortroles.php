@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_cohortroles', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_cohortroles', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_cohortroles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,7 @@ $string['managecohortroles'] = 'Assegna ruoli ai membri del gruppo globale';
 $string['noassignableroles'] = 'Non sono presenti ruoli assegnabili nel contesto dell\'utente. <a href="../../roles/manage.php">Gestione ruoli</a>';
 $string['nocohortroleassignmentssaved'] = 'Non sono state salvate assegnazioni di ruolo del gruppo globale.';
 $string['onecohortroleassignmentsaved'] = 'E\' stata salvata una assegnazione di ruolo del gruppo globale.';
-$string['pluginname'] = 'Gestione ruoli dei gruppi globhali';
+$string['pluginname'] = 'Gestione ruoli dei gruppi globali';
 $string['removecohortroleassignment'] = 'Rimuovi ruoli ai membri del gruppo globale';
 $string['removecohortroleassignmentconfirm'] = 'Sei sicuro di eliminare questo ruolo dal gruppo globale? Per questo utente il ruolo sarà eliminato in tutti i contesti utente.';
 $string['selectcohorts'] = 'Seleziona gruppo globale';

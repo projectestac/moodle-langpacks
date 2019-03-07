@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_glossary_random', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_glossary_random', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   block_glossary_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,14 +37,14 @@ $string['lastmodified'] = 'Darrera entrada modificada';
 $string['nextalpha'] = 'Ordre alfabètic';
 $string['nextone'] = 'Següent entrada';
 $string['noentriesyet'] = 'No hi ha entrades al glossari escollit.';
-$string['notyetconfigured'] = 'Si us plau configura aquest bloc utilitzant la icona d\'edició.';
+$string['notyetconfigured'] = 'Configureu aquest bloc utilitzant la icona d\'edició.';
 $string['notyetglossary'] = 'Necessiteu tenir almenys un glossari per triar.';
 $string['pluginname'] = 'Entrada aleatòria de glossari';
 $string['random'] = 'Entrada aleatòria';
-$string['refresh'] = 'Dies a passar abans de seleccionar una nova entrada';
+$string['refresh'] = 'Dies que han de passar abans de seleccionar una entrada nova';
 $string['select_glossary'] = 'Agafa les entrades d\'aquest glossari';
 $string['showconcept'] = 'Mostra el concepte (capçalera) per cada entrada';
 $string['title'] = 'Títol ';
-$string['type'] = 'Com se selecciona una nova entrada';
+$string['type'] = 'Com se selecciona una entrada nova';
 $string['viewglossary'] = 'Mostra totes les entrades';
 $string['whichfooter'] = 'Podeu mostrar els enllaços a les accions del glossari associat a aquest bloc. El bloc sols mostrarà enllaços a les accions que estiguin habilitades per a aquest glossari.';

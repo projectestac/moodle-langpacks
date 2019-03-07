@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'form', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'form', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   form
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,13 +35,12 @@ $string['err_email'] = 'Aquí debe escribir un enderezo correcto de correo.';
 $string['err_lettersonly'] = 'Aquí so debe escribir letras.';
 $string['err_maxfiles'] = 'Aquí non debe anexar máis de {$a} ficheiros.';
 $string['err_maxlength'] = 'Aquí non debe escribir máis de {$a->format} caracteres.';
-$string['err_minlength'] = 'Aquí non debe escribir polo menos {$a->format} caracteres.';
+$string['err_minlength'] = 'Aquí debe escribir polo menos {$a->format} caracteres.';
 $string['err_nonzero'] = 'Aquí debe escribir un número que non comece con 0.';
 $string['err_nopunctuation'] = 'Aquí non debe escribir ningún signo de puntuación.';
 $string['err_numeric'] = 'Aquí debe escribir un número.';
 $string['err_rangelength'] = 'Aquí debe escribir entre {$a->format[0]} e {$a->format[1]} caracteres.';
 $string['err_required'] = 'Aquí debe fornecer un valor.';
-$string['err_wrongfileextension'] = 'Algúns ficheios ({$a->wrongfiles}) non poden ser enviados. Só se admiten os tipos de ficheiro {$a->whitelist}.';
 $string['general'] = 'Xeral';
 $string['hideadvanced'] = 'Agochar avanzadas';
 $string['hour'] = 'Hora';
@@ -49,13 +48,17 @@ $string['minute'] = 'Minuto';
 $string['miscellaneoussettings'] = 'Configuracións diversas';
 $string['modstandardels'] = 'Configuración común do módulo';
 $string['month'] = 'Mes';
-$string['mustbeoverriden'] = 'O método abstracto form_definition() na clase {$a} debe ser substituído, arranxe o código.';
+$string['mustbeoverriden'] = 'O método abstracto form_definition() na clase {$a} debe ser anulado, arranxe o código.';
 $string['nomethodforaddinghelpbutton'] = 'Non existe un método para engadir un botón de axuda ao elemento do formulario {$a->name} (class {$a->classname})';
 $string['nonexistentformelements'] = 'Tentando engadir botóns de axuda a elementos de formulario inexistentes: {$a}';
 $string['noselection'] = 'Non hai selección';
 $string['nosuggestions'] = 'Sen suxestións';
+$string['novalue'] = 'Non se introduciu nada';
+$string['novalueclicktoset'] = 'Prema para inserir texto';
 $string['optional'] = 'Opcional';
 $string['othersettings'] = 'Outras configuracións';
+$string['passwordunmaskedithint'] = 'Editar o contrasinal';
+$string['passwordunmaskinstructions'] = 'Prema Intro para gardar os cambios';
 $string['passwordunmaskrevealhint'] = 'Revelar';
 $string['requiredelement'] = 'Campo obrigatorio';
 $string['revealpassword'] = 'Revelar';

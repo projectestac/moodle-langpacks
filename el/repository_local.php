@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_local', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_local', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_local
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,10 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configplugin'] = 'Ρύθμιση για τον τοπικό χώρο αποθήκευσης αρχείων';
+$string['configplugin'] = 'Ρυθμίσεις αποθετηρίου τοπικών αρχείων στον εξυπηρετητή';
+$string['currentusefiles'] = 'Τρέχοντα χρησιμοποιούμενα αρχεία';
 $string['emptyfilelist'] = 'Δεν υπάρχουν αρχεία για εμφάνιση';
-$string['local:view'] = 'Εμφάνιση του repository διακομιστή';
+$string['local:view'] = 'Εμφάνιση του αποθετηρίου του εξυπηρετητή';
 $string['notitle'] = 'Χωρίς τίτλο';
 $string['pluginname'] = 'Τοπικά αρχεία';
-$string['pluginname_help'] = 'Χώρος αποθήκευσης στον τοπικό εξυπηρετητή Moodle';
+$string['pluginname_help'] = 'Αρχεία ανεβασμένα προηγουμένως στον εξυπηρετητή του Moodle';
 $string['remember'] = 'Να με θυμάσαι';

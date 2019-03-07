@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'search', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,7 +59,6 @@ $string['enginenotselected'] = 'あなたはサーチエンジンを選択して
 $string['engineserverstatus'] = '検索エンジンを利用できません。あなたの管理者にご連絡ください。';
 $string['enteryoursearchquery'] = 'あなたの検索クエリを入力してください。';
 $string['errorareanotavailable'] = '{$a} 検索エリアは利用できません。';
-$string['error_indexing'] = 'インデックス化中にエラーが発生しました。';
 $string['errors'] = 'エラー';
 $string['filesinindexdirectory'] = 'インデックスディレクトリのファイル';
 $string['filterheader'] = 'フィルタ';
@@ -79,7 +78,6 @@ $string['normalsearch'] = '標準検索';
 $string['notitle'] = 'タイトルなし';
 $string['openedon'] = '開始日時';
 $string['optimize'] = '最適化';
-$string['privacy:metadata'] = '検索サブシステムはどのような個人データも保存しません。';
 $string['queryerror'] = 'あなたが提供したクエリは検索エンジンによって構文解析することができませんでした: {$a}';
 $string['resultsreturnedfor'] = '件が見つかりました - 検索キーワード:';
 $string['runindexer'] = 'インデックサ (実) を実行する';

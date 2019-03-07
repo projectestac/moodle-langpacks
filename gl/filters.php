@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filters', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'filters', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   filters
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,7 +71,7 @@ $string['limiterfor'] = 'limitador de campo {$a}';
 $string['neveraccessed'] = 'Non accedeu nunca';
 $string['nevermodified'] = 'Nunca foi modificado';
 $string['newfilter'] = 'Filtro novo';
-$string['nofiltersenabled'] = 'Non se han activaron conectores de filtros neste sitio.';
+$string['nofiltersenabled'] = 'Non se activaron conectores de filtros neste sitio.';
 $string['off'] = 'Desactivado';
 $string['offbutavailable'] = 'Desactivado, mais dispoñíbel';
 $string['on'] = 'Activado';

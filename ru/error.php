@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'error', language 'ru', branch 'MOODLE_32_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -347,7 +347,7 @@ $string['invalidrole'] = 'Некорректная роль';
 $string['invalidroleid'] = 'Неверный идентификатор роли';
 $string['invalidscaleid'] = 'Неверный идентификатор шкалы';
 $string['invalidsection'] = 'Запись модуля курса содержит неверный раздел';
-$string['invalidsesskey'] = 'Ваш сеанс, по-видимому, истек. Пожалуйста, войдите снова.';
+$string['invalidsesskey'] = 'Отправлен неверный ключ сеанса (sesskey), форма не принята!';
 $string['invalidshortname'] = 'Это некорректное краткое название курса';
 $string['invalidsourcefield'] = 'Неверное поле источника файлов проекта';
 $string['invalidstatedetected'] = 'Что-то пошло не так: {$a}.
@@ -449,6 +449,8 @@ $string['notlocalisederrormessage'] = '{$a}';
 $string['notmemberofgroup'] = 'Вы не являетесь участником этой группы';
 $string['notownerofkey'] = 'Вы не являетесь владельцем этого ключа';
 $string['nousers'] = 'Нет такого пользователя!';
+$string['oauth1accesstoken'] = 'Ошибка OAuth 1.0: Мы не получили токен доступа.';
+$string['oauth1requesttoken'] = 'Ошибка OAuth 1.0: Мы не получили токен запроса - возможно, провайдер службы  временно не доступен.';
 $string['onlyadmins'] = 'Это могут делать только администраторы';
 $string['onlyeditingteachers'] = 'Это могут делать только редактирующие преподаватели';
 $string['onlyeditown'] = 'Вы можете редактировать только свою собственную информацию';
@@ -505,6 +507,7 @@ $string['statsnodata'] = 'Нет данных, соответствующих с
 $string['storedfilecannotcreatefile'] = 'Невозможно создать файл локального пула файлов, пожалуйста, проверьте разрешения в DataRoot и наличие свободного места на диске.';
 $string['storedfilecannotcreatefiledirs'] = 'Невозможно создать каталоги локальной файловой области, проверьте разрешения в каталоге dataroot.';
 $string['storedfilecannotread'] = 'Не удалось прочитать файл. Файл не существует или неверно настроены права доступа.';
+$string['storedfilecannotreadfile'] = 'Не удалось прочитать файл «{$a}». Файл либо не существует, либо есть проблема с разрешениями на доступ к нему.';
 $string['storedfilenotcreated'] = 'Не удалось создать файл «{$a->contextid}/{$a->component}/{$a->filearea}/{$a->itemid}{$a->filepath}{$a->filename}»';
 $string['storedfileproblem'] = 'Неизвестное исключение, связанное с локальными файлами ({$a})';
 $string['tagdisabled'] = 'Теги запрещены!';
@@ -559,7 +562,6 @@ $string['usernotaddederror'] = 'Пользователь не добавлен -
 $string['usernotaddedregistered'] = 'Пользователь не добавлен - он уже зарегистрирован';
 $string['usernotavailable'] = 'Информация о данном пользователе Вам не доступна.';
 $string['usernotdeletedadmin'] = 'Пользователь не удален - нельзя удалять учетные записи администраторов';
-$string['usernotdeleteddeleted'] = 'Этот пользователь уже удален.';
 $string['usernotdeletederror'] = 'Ошибка - пользователь не удален';
 $string['usernotdeletedmissing'] = 'Пользователь не удален - не удается найти имя пользователя';
 $string['usernotdeletedoff'] = 'Пользователь не удален - удаление не разрешено';

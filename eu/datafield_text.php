@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_text', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'datafield_text', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   datafield_text
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,4 +27,3 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Testua';
 $string['pluginname'] = 'Testua';
-$string['privacy:metadata'] = 'Testua eremu-osagaiak ez du datu pertsonalik biltzen, datu-base moduluan zehaztutako taulak erabiltzen ditu.';

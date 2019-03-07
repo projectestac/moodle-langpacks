@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'group', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -104,7 +104,7 @@ $string['groupingsonly'] = 'Només agrupaments';
 $string['groupmember'] = 'Membre del grup';
 $string['groupmemberdesc'] = 'Rol estàndard per a membres d\'un grup';
 $string['groupmembers'] = 'Membres del grup';
-$string['groupmemberssee'] = 'Visualitza membres del grup';
+$string['groupmemberssee'] = 'Visualitza els membres del grup';
 $string['groupmembersselected'] = 'Membres del grup seleccionat';
 $string['groupmode'] = 'Mode de grups';
 $string['groupmodeforce'] = 'Imposa el mode de grup';

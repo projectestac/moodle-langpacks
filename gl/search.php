@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'search', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['allcourses'] = 'Todos os cursos';
 $string['author'] = 'Autor';
 $string['authorname'] = 'Nome do autor';
 $string['back'] = 'Atrás';
-$string['beadmin'] = 'Necesita ser un usuario administrador para usar esta páxina';
+$string['beadmin'] = 'Necesita ser un usuario administrador para usar esta páxina.';
 $string['checkdb'] = 'Comprobar a base de datos';
 $string['checkdbadvice'] = 'Comprobe a base de datos por se houber algún problema.';
 $string['checkdir'] = 'Comprobar o directorio';
@@ -52,8 +52,10 @@ $string['documentsfor'] = 'Documentos para';
 $string['documentsindatabase'] = 'Documentos na base de datos';
 $string['documentsinindex'] = 'Documentos no índice';
 $string['duration'] = 'Duración';
-$string['emptydatabaseerror'] = 'Non está presente a táboa da base de datos ou non conten rexistros do índice.';
+$string['emptydatabaseerror'] = 'Non está presente a táboa da base de datos ou non contén rexistros do índice.';
 $string['enginenotfound'] = 'Non se atopou o motor {$a}.';
+$string['enginenotinstalled'] = 'O motor {$a} non está instalado.';
+$string['enginenotselected'] = 'Non ten seleccionando ningún motor de busca.';
 $string['engineserverstatus'] = 'Non está dispoñíbel o motor de buscas. Póñase en contacto co administrador.';
 $string['enteryoursearchquery'] = 'Escriba a súa consulta de busca';
 $string['errorareanotavailable'] = 'A área de buscas {$a} non está dispoñíbel.';
@@ -65,7 +67,7 @@ $string['globalsearch'] = 'Busca global';
 $string['globalsearchdisabled'] = 'Non está activada a busca global.';
 $string['incourse'] = 'en curso {$a}';
 $string['index'] = 'Índice';
-$string['invalidindexerror'] = 'O índice do directorio, ou conten un índice incorrecto, ou non contén nada.';
+$string['invalidindexerror'] = 'O índice do directorio, ou contén un índice incorrecto, ou non contén nada.';
 $string['ittook'] = 'Levoulle';
 $string['matchingfile'] = 'Emparellando desde o ficheiro <span class="filename">{$a}</span>';
 $string['matchingfiles'] = 'Emparellando desde os ficheiros:';
@@ -84,9 +86,12 @@ $string['score'] = 'Puntuación';
 $string['search'] = 'Buscar';
 $string['searcharea'] = 'Área de buscas';
 $string['searching'] = 'Buscando en ...';
+$string['search:message_received'] = 'Mensaxes - recibidas';
+$string['search:message_sent'] = 'Mensaxes - enviadas';
 $string['search:mycourse'] = 'Os meus cursos';
 $string['searchnotpermitted'] = 'Non está autorizado para facer unha busca';
 $string['searchsetupdescription'] = 'Os pasos seguintes axudaranlle a configurar a busca global en Moodle.';
+$string['search:user'] = 'Usuarios';
 $string['seconds'] = 'segundos';
 $string['solutions'] = 'Solucións';
 $string['statistics'] = 'Estatísticas';

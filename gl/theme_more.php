@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_more', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'theme_more', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   theme_more
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,7 @@ $string['invertdesc'] = 'Alterna entre branco e negro o texto e o fondo da barra
 $string['linkcolor'] = 'Cor da ligazón';
 $string['linkcolor_desc'] = 'A cor das ligazóns';
 $string['logo'] = 'Logotipo';
+$string['logodesc'] = 'O logotipo só se amosa na cabeceira da páxina de portada e da páxina de acceso ao sitio.<br /> Se a altura do seu logotipo for maior de 75 píxeles, engada «div.logo {height: 100px;}» na caixa de texto de CSS personalizado inferior, arranxándoa axeitadamente se a altura for diferente de 100 píxeles. Se non se engade un logotipo aquí, empregarase o logotipo indicado en Aparencia > Logotipos.';
 $string['pluginname'] = 'Máis';
 $string['region-side-post'] = 'Dereita';
 $string['region-side-pre'] = 'Esquerda';
@@ -71,5 +72,6 @@ $string['sitelogo'] = 'Logotipo do sitio';
 $string['sitename'] = 'Presentar o nome do sitio xunto cun logotipo pequeno';
 $string['sitenamedesc'] = 'Se non hai un logotipo pequeno, o nome do sitio amosase sempre na barra de navegación. Se estabelece un logotipo pequeno, pode amosarse xunto con ou sen o nome do sitio.';
 $string['smalllogo'] = 'Logotipo pequeno';
+$string['smalllogodesc'] = 'O logotipo pequeno aparece na barra de navegación. Se hai un logotipo de cabeceira para a páxina de portada e a páxina de acceso, o logotipo pequeno non se amosará nestas páxinas. Se non se engade un logotipo aquí, empregarase o logotipo compacto indicado en Aparencia > Logotipos.';
 $string['textcolor'] = 'Cor do texto';
 $string['textcolor_desc'] = 'A cor do texto.';

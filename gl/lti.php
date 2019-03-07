@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'lti', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,6 +46,7 @@ $string['addnewapp'] = 'Activar o aplicativo externo';
 $string['addserver'] = 'Engadir un novo servidor de confianza';
 $string['addtype'] = 'Engadir unha configuración da ferramenta externa';
 $string['allow'] = 'Permitir';
+$string['allowinstructorcustom'] = 'Permitirlles aos profesores engadir parámetros personalizados';
 $string['allowsetting'] = 'Permitirlle á ferramenta gardar 8K de configuración dentro de Moodle.';
 $string['always'] = 'Sempre';
 $string['autoaddtype'] = 'Engadir ferramenta';
@@ -57,6 +58,7 @@ $string['basiclti_base_string'] = 'Cadea base de LTI OAuth';
 $string['basiclti_endpoint'] = 'Punto de remate de LTI Launch';
 $string['basicltifieldset'] = 'Campo personalizado de exemplo';
 $string['basiclti_in_new_window'] = 'A súa actividade abriuse nunha nova xanela';
+$string['basiclti_in_new_window_open'] = 'Abrir nunha nova xanela';
 $string['basicltiintro'] = 'Descrición da actividade';
 $string['basicltiname'] = 'Nome da actividade';
 $string['basiclti_parameters'] = 'Parámetros de LTI Launch';
@@ -79,6 +81,8 @@ $string['configtoolurl'] = 'URL da ferramenta remota personalizada';
 $string['configtypes'] = 'Activar os aplicativos LTI';
 $string['configured'] = 'Configirado';
 $string['confirmtoolactivation'] = 'Confirma que quere activar esta ferramenta?';
+$string['contentitem'] = 'Contido-Mensaxe do elemento';
+$string['contentitem_help'] = 'Se está marcada, a opción «Seleccionar contido» estará dispoñíbel ao engadir unha ferramenta externa.';
 $string['courseactivitiesorresources'] = 'Actividades ou recursos do curso';
 $string['courseid'] = 'Número id do curso';
 $string['courseinformation'] = 'Información sobre o curso';
@@ -130,8 +134,14 @@ $string['embed_no_blocks'] = 'Incorporado, sen bloques';
 $string['enableemailnotification'] = 'Enviar correos de notificación';
 $string['enableemailnotification_help'] = 'De estar activado, os alumnos recibirán unha notificación por correo cando a súa ferramenta de envíos reciba cualificación.';
 $string['enterkeyandsecret'] = 'Escriba a súa chave de consumidor e o secreto compartido';
+$string['enterkeyandsecret_help'] = 'Se recibiu unha chave de consumidor e/ou un segredo compartido, introdúzao aquí';
 $string['errorbadurl'] = 'O URL non é un URL correcto de ferramenta ou cartucho.';
+$string['errorincorrectconsumerkey'] = 'A chave de consumidor é incorrecta.';
+$string['errorinvaliddata'] = 'Datos incorrectos: {$a}';
+$string['errorinvalidmediatype'] = 'Tipo de medio incorrecto: {$a}';
+$string['errorinvalidresponseformat'] = 'Contido non válido-Formato de resposta do elemento.';
 $string['errormisconfig'] = 'Ferramenta desconfigurada. Pregúntelle ao seu administrador para arranxar a configuración da ferramenta.';
+$string['errortooltypenotfound'] = 'Non se atopou o tipo de ferramenta LTI.';
 $string['existing_window'] = 'Xanela existente';
 $string['extensions'] = 'Servizos de extensión LTI';
 $string['external_tool_type'] = 'Tipo de ferramenta externa';
@@ -364,6 +374,7 @@ $string['secure_launch_url'] = 'URL de inicio seguro';
 $string['secure_launch_url_help'] = 'Similar a URL de inicio mais usase en troques deste cando se require alta seguridade. Moodle usará o URL de inicio seguro en troques do URL de inicio cando se accede ao sitio Moodle mediante SSL, ou se a configuración da ferramenta está definida para que inicie sempre mediante SSL.
 
 O URL de inicio tamén pode configurarse cara un enderezo https para forzar a que se inicie mediante SSL, co que este campo pode deixarse en branco.';
+$string['selectcontent'] = 'Seleccionar contido';
 $string['send'] = 'Enviar';
 $string['services'] = 'Servizos';
 $string['services_help'] = 'Seleccione aqueles servizos que Vostede quere ofrecerlle ao provedor da ferramenta.  Pode seleccionarse máis dun servizo.';
@@ -412,6 +423,7 @@ $string['subplugintype_ltiservice_plural'] = 'Servizos LTI';
 $string['subplugintype_ltisource'] = 'Orixe LTI';
 $string['subplugintype_ltisource_plural'] = 'Orixes LTI';
 $string['successfullycreatedtooltype'] = 'A nova ferramenta creouse satisfactoriamente!';
+$string['successfullyfetchedtoolconfigurationfromcontent'] = 'Obtívose satisfactoriamente a configuración da ferramenta dende o contido seleccionado.';
 $string['toggle_debug_data'] = 'Activar/Desactivar os datos de depuración';
 $string['tool_config_not_found'] = 'Neste URL non se atopou a configuración da ferramenta.';
 $string['tooldescription'] = 'Descrición da ferramenta';

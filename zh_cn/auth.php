@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,7 +39,7 @@ $string['auth_common_settings'] = '公用设置';
 $string['auth_data_mapping'] = '数据映射';
 $string['authenticationoptions'] = '身份认证选项';
 $string['auth_fieldlock'] = '锁定值';
-$string['auth_fieldlock_expl'] = '<p><b>锁定值：</b> 如果开启，Moodle 用户和管理员将不能直接修改字段的值。如果您正在维护外部数据库的数据，请选择此项。';
+$string['auth_fieldlock_expl'] = '<p><b>锁定值：</b> 如果开启，Moodle 用户和管理员将不能直接修改字段的值。如果您正在维护外部数据库的数据，请选择此项。</p>';
 $string['auth_fieldlocks'] = '锁定用户字段';
 $string['auth_fieldlocks_help'] = '<p>您可以锁定指定的用户数据字段。对于用户数据由管理员人工维护，或者是通过“上传用户”上传的站点而言，这个功能是很有用的。如果您锁定了 Moodle 必需的字段，那么请您确信在创建用户帐户时已经提供了其内容，否则这个账号将无法使用。</p>
 <p>如果想要避免这个问题，可以考虑将锁定模式设定为“如果空则不锁定”。</p>';
@@ -50,18 +50,18 @@ $string['authloginviaemail_desc'] = '允许用户使用用户名和电子邮件�
 $string['auth_multiplehosts'] = '可以指定多个主机名或地址（如 host1.com;host2.com;host3.com 或 xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx）';
 $string['auth_notconfigured'] = '认证方法{$a}尚未配置。';
 $string['auth_outofnewemailupdateattempts'] = '更改Email地址的许可次数已到，您的请求被取消。';
-$string['auth_passwordisexpired'] = '您的密码已经过期，要现在修改么?';
+$string['auth_passwordisexpired'] = '您的密码已经过期。请现在修改。';
 $string['auth_passwordwillexpire'] = '您的密码将在{$a}天后过期，现在要修改么?';
 $string['auth_remove_delete'] = '完全删除';
 $string['auth_remove_keep'] = '保存';
 $string['auth_remove_suspend'] = '延迟';
 $string['auth_remove_user'] = '指定在用户帐号在外部被删除时，内部用户帐号在同步的时候允许做什么。只有延迟用户帐号在外部数据中出现时才会被自动激活。';
 $string['auth_remove_user_key'] = '移除用户';
-$string['auth_sync_script'] = '用户帐户同步化';
+$string['auth_sync_script'] = '用户帐户同步';
 $string['auth_sync_suspended'] = '若启用，数据库会根据本地用户帐号的休学状况加以更新';
 $string['auth_sync_suspended_key'] = '同步本地用户休学状况';
 $string['auth_updatelocal'] = '更新本地数据';
-$string['auth_updatelocal_expl'] = '<p><b>更新本地数据:</b> 如果开启，则用户每次登录或有用户同步时字段将会被更新。设定为本地更新的字段应当被锁住。</p>';
+$string['auth_updatelocal_expl'] = '<p><b>更新本地数据:</b> 如果开启，则用户每次登录或有用户同步时字段将会被更新（数据来自外部认证）。设定为本地更新的字段应当被锁住。</p>';
 $string['auth_updateremote'] = '更新外部数据';
 $string['auth_updateremote_expl'] = '<p><b>更新外部数据:</b> 如果开启，则外部认证系统中的用户记录将被更新。要修改这个选项需首先解锁字段。</p>';
 $string['auth_updateremote_ldap'] = '<p><b>注意:</b> 更新外部LDAP数据需要您设定的binddn和binddw是有权限修改所有用户记录的用户。它目前不能保持多值属性的值，会在更新时删除其它的值。</p>';
@@ -79,10 +79,10 @@ $string['emailchangecancel'] = '取消 email 变更';
 $string['emailchangepending'] = '变更进行中。访问向 {$a->preference_newemail} 发送的链接。';
 $string['emailnowexists'] = '你尝试输入到个人资料里的email地址已经被分配给别人了。所以您的email地址变更请求现予取消，但您可以再次尝试使用不同的地址。';
 $string['emailupdate'] = 'Email地址更新';
-$string['emailupdatemessage'] = '{$a->fullname}，您好
+$string['emailupdatemessage'] = '亲爱的{$a->fullname}您好,
+您提出了修改您在{$a->site}网站账号的电子邮箱地址。请访问以下链接以确认此更改。
 
-您请求更改在{$a->site}上注册的email地址。请在浏览器中访问下面的链接来确认。
-
+如果您有任何问题，请联系技术支持:{$a->supportemail}
 {$a->url}';
 $string['emailupdatesuccess'] = '用户 <em>{$a->fullname}</em> 的email地址已成功更新为 <em>{$a->email}</em>。';
 $string['emailupdatetitle'] = '{$a->site}的email更新确认';
@@ -107,6 +107,7 @@ $string['forgottenpasswordurl'] = '忘记的密码 URL';
 $string['getanaudiocaptcha'] = '获取音频 CAPTCHA 验证';
 $string['getanimagecaptcha'] = '获取图像 CAPTCHA 验证';
 $string['getanothercaptcha'] = '获取另一个 CAPTCHA';
+$string['getrecaptchaapi'] = '要使用reCAPTCHA图片验证码，您必须从以下网址获得编程接口注册码<a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = '访客登录按钮';
 $string['incorrectpleasetryagain'] = '错误，请重试';
 $string['infilefield'] = '字段必需存在于文件中';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'booktool_importhtml', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'booktool_importhtml', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   booktool_importhtml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['doimport'] = 'Εισαγωγή';
+$string['errornochapters'] = 'Δεν είναι δυνατή η εύρεση κεφαλαίων στο επιλεγμένο αρχείο';
 $string['import'] = 'Εισαγωγή κεφαλαίου';
 $string['importhtml:import'] = 'Εισαγωγή κεφαλαίων';
+$string['importing'] = 'Εισαγωγή...';
+$string['importingchapters'] = 'Εισαγωγή κεφαλαίων στο βιβλίο...';
+$string['pluginname'] = 'Εισαγωγή κεφαλαίων βιβλίου';
+$string['relinking'] = 'Επανασύνδεση';
+$string['type'] = 'Τύπος';
+$string['typeonefile'] = 'Ένα αρχείο HTML με επικεφαλίδες ως κεφάλαια';
+$string['typezipdirs'] = 'Κάθε φάκελος αντιπροσωπεύει ένα κεφάλαιο';
+$string['typezipfiles'] = 'Κάθε αρχείο HTML αντιπροσωπεύει ένα κεφάλαιο';
+$string['ziparchive'] = 'Αρχείο zip';
+$string['ziparchive_help'] = 'Επιλέξτε ένα συμπιεσμένο zip αρχείο που περιέχει HTML αρχεία και προαιρετικά αρχεία πολυμέσων και φακέλους. Για να ανεβάσετε υποκεφάλαια, προσθέστε "_sub" στο τέλος των ονομάτων των HTML αρχείων ή φακέλων.';

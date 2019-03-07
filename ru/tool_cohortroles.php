@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_cohortroles', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_cohortroles', language 'ru', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_cohortroles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,7 +33,7 @@ $string['cohortroleassignmentnotremoved'] = 'Назначение роли гл�
 $string['cohortroleassignmentremoved'] = 'Назначение роли глобальной группе было удалено.';
 $string['cohortroles'] = 'Роли глобальных групп';
 $string['existingcohortroles'] = 'Существующие назначения ролей глобальным группам';
-$string['managecohortroles'] = 'Назначить роли пользователей глобальной группе';
+$string['managecohortroles'] = 'Назначить роли пользователям глобальной группы';
 $string['noassignableroles'] = 'Сейчас нет ролей, которые могут быть назначены в этом контексте пользователя. <a href="../../roles/manage.php">Управление ролями</a>';
 $string['nocohortroleassignmentssaved'] = 'Никаких назначений ролей глобальным группам не было сохранено.';
 $string['onecohortroleassignmentsaved'] = 'Одно назначение роли глобальной группе было сохранено.';

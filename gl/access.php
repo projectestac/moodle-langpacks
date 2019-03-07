@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'access', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'access', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   access
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,14 +32,15 @@ $string['accessstatement'] = 'Declaración de accesibilidade';
 $string['activitynext'] = 'Seguinte actividade';
 $string['activityprev'] = 'Actividade anterior';
 $string['breadcrumb'] = 'Ronsel';
-$string['hideblocka'] = 'Agochar o bloque {$a}';
+$string['hideblocka'] = 'Agachar o bloque {$a}';
+$string['monthnext'] = 'Mes seguinte';
 $string['monthprev'] = 'Mes anterior';
 $string['showblocka'] = 'Amosar o bloque {$a}';
 $string['sitemap'] = 'Mapa do sitio';
 $string['skipa'] = 'Omitir {$a}';
 $string['skipblock'] = 'Omitir o bloque';
-$string['skipnavigation'] = 'Ir a navegación';
-$string['skipto'] = 'Ir a {$a}';
+$string['skipnavigation'] = 'Omitir a navegación';
+$string['skipto'] = 'Ir á {$a}';
 $string['tocontent'] = 'Ir ao contido principal';
 $string['tonavigation'] = 'Ir á navegación';
 $string['youarehere'] = 'Vostede está aquí';

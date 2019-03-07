@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_uploaduser', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,8 @@ $string['deleteerrors'] = 'Suprimeix errors';
 $string['encoding'] = 'Codificació';
 $string['errormnetadd'] = 'No es poden afegir usuaris remots';
 $string['errors'] = 'Errors';
+$string['invalidupdatetype'] = 'No es pot triar aquesta opció amb el tipus de càrrega seleccionat.';
+$string['invaliduserdata'] = 'S\'han detectat dades invàlides per a l\'usuari {$a} i s\'han netejat automàticament.';
 $string['nochanges'] = 'Sense canvis';
 $string['pluginname'] = 'Càrrega d\'usuari';
 $string['renameerrors'] = 'S\'han produït errors en els canvis de nom';

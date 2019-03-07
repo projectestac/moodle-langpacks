@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'feedback', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,6 @@ $string['anonymous'] = 'Les respostes seran anònimes';
 $string['anonymous_edit'] = 'Enregistrament dels noms d\'usuari';
 $string['anonymous_entries'] = 'Entrades anònimes ({$a})';
 $string['anonymous_user'] = 'Usuari anònim';
-$string['answerquestions'] = 'Respon les preguntes';
 $string['append_new_items'] = 'Afegeix elements nous';
 $string['autonumbering'] = 'Numeració automàtica de les preguntes';
 $string['autonumbering_help'] = 'Habilita o inhabilita la numeració automàtica per a cada pregunta';
@@ -104,7 +103,7 @@ $string['drop_feedback'] = 'Suprimeix d\'aquest curs';
 $string['edit_item'] = 'Edita la pregunta';
 $string['edit_items'] = 'Edita les preguntes';
 $string['email_notification'] = 'Habilita la notificació de les trameses';
-$string['email_notification_help'] = 'Si s\'habilita aquesta opció, el professorat rebrà notificació de les trameses de retroaccions';
+$string['email_notification_help'] = 'Si s\'habilita aquesta opció, els professors rebran una notificació de les trameses de retroaccions.';
 $string['emailteachermail'] = '{$a->username} ha completat l\'activitat de retroacció: \'{$a->feedback}\'
 
 Podeu veure-la aquí:
@@ -167,16 +166,16 @@ $string['messageprovider:submission'] = 'Notificacions de la retroacció';
 $string['minimal'] = 'mínim';
 $string['mode'] = 'Mode';
 $string['modulename'] = 'Retroacció';
-$string['modulename_help'] = 'El mòdul d\'activitat de retroacció permet al professorat crear una enquesta personalitzada per a recollir la retroacció dels participants utilitzant diversos tipus de preguntes que inclouen opcions múltiples, de sí/no o d\'introducció de text.
+$string['modulename_help'] = 'El mòdul d\'activitat de retroacció permet al professor crear una enquesta personalitzada per recollir la retroacció dels participants utilitzant diversos tipus de preguntes que inclouen opcions múltiples, de sí/no o d\'introducció de text.
 
-Les respostes de la retroacció poden ser anònimes, si es vol, i els resultats es poden mostrar a tots els participants o es poden restringir només al professorat. Qualsevol activitat de retroacció en la pàgina principal del lloc podran completar-la també els usuaris no autenticats.
+Les respostes de la retroacció poden ser anònimes, si es vol, i els resultats es poden mostrar a tots els participants o es poden restringir només als professors. Qualsevol activitat de retroacció a la pàgina principal del lloc també pot ser completada pels usuaris no autenticats.
 
 Les activitats de retroacció es poden utilitzar:
 
-* Per a valoracions del curs i ajudar a millorar el contingut per a posteriors participants.
-* Per a permetre als participants inscriure\'s a mòduls del curs, esdeveniments, etc.
+* Per a valoracions del curs i per ajudar a millorar el contingut per a posteriors participants.
+* Per permetre als participants inscriure\'s a mòduls del curs, esdeveniments, etc.
 * Per a enquestes a visitants sobre opcions de cursos, polítiques de la institució educativa, etc.
-* Per a enquestes contra l\'assetjament escolar on l\'estudiantat pugui informar sobre incidències de manera anònima.';
+* Per a enquestes contra l\'assetjament escolar on els estudiants puguin informar sobre incidències de manera anònima.';
 $string['modulenameplural'] = 'Retroacció';
 $string['movedown_item'] = 'Mou aquesta pregunta avall';
 $string['move_here'] = 'Mou aquí';

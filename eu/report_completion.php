@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_completion', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_completion', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   report_completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['clicktomarkusercomplete'] = 'Sakatu hemen erabiltzailea osatutzat markatzeko';
+$string['clicktomarkusercomplete'] = 'Egin klik hemen erabiltzailea osatutzat markatzeko';
 $string['completiondate'] = 'Osaketa-data';
-$string['completion:view'] = 'Ikastaro-osaketaren txostena ikusi';
+$string['completion:view'] = 'Ikusi ikastaro-osaketaren txostena';
 $string['eventreportviewed'] = 'Osaketa-txostena ikusi da';
 $string['eventuserreportviewed'] = 'Erabiltzailearen osaketa-txostena ikusi da';
 $string['id'] = 'IDa';
@@ -37,4 +37,3 @@ $string['page-report-completion-index'] = 'Ikastaro-osaketaren txostena';
 $string['page-report-completion-user'] = 'Erabiltzailearen ikastaro-osaketaren txostena';
 $string['page-report-completion-x'] = 'Edozein osaketa-txosten';
 $string['pluginname'] = 'Ikastaro-osaketa';
-$string['privacy:metadata'] = 'Ikastaro-osaketa txostenak soilik beste kokapenetan gordetako datuak erakusten ditu.';

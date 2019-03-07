@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_media', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'atto_media', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   atto_media
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['addchapterstrack'] = 'Afegeix un capítol a la pista';
 $string['adddescriptionstrack'] = 'Afegeix una descripció a la pista';
 $string['addmetadatatrack'] = 'Afegeix metadades a la pista';
 $string['addsource'] = 'Afegeix un recurs alternatiu';
-$string['addsource_help'] = 'Es recomana proporcionar una eina multimèdia alternativa, donat que els navegadors mòbils i d\'escriptori varien en els formats que admeten.';
+$string['addsource_help'] = 'Es recomana proporcionar una eina multimèdia alternativa, ja que els navegadors mòbils i d\'escriptori varien en els formats que admeten.';
 $string['addsubtitlestrack'] = 'Afegeix un subtítol a la pista';
 $string['addtrack'] = 'Afegeix una pista';
 $string['advancedsettings'] = 'Paràmetres avançats';
@@ -43,13 +43,13 @@ $string['captions'] = 'Llegendes';
 $string['captions_help'] = 'Les llegendes es poden utilitzar per a descriure qualsevol cosa que ocorri a la pista, inclosos sons no verbals com ara el so d\'un telèfon.';
 $string['captionssourcelabel'] = 'URL de la llegenda de la pista';
 $string['chapters'] = 'Capítols';
-$string['chapters_help'] = 'Es poden proporcionar títols de capítols per a navegar a través del recurs multimèdia.';
+$string['chapters_help'] = 'Es poden proporcionar títols de capítols per navegar a través del recurs multimèdia.';
 $string['chapterssourcelabel'] = 'URL del capítol de la pista';
 $string['controls'] = 'Mostra els controls';
 $string['createmedia'] = 'Insereix un fitxer multimèdia';
 $string['default'] = 'Per defecte';
 $string['descriptions'] = 'Descripcions';
-$string['descriptions_help'] = 'Es poden proporcionar descripcions en àudio per a narrar les explicacions de detalls visuals no aparents en l\'àudio tot sol.';
+$string['descriptions_help'] = 'Es poden proporcionar descripcions en àudio per narrar les explicacions de detalls visuals no aparents en l\'àudio tot sol.';
 $string['descriptionssourcelabel'] = 'URL de la descripció de la pista';
 $string['displayoptions'] = 'Mostra les opcions';
 $string['entername'] = 'Introdueix el nom';
@@ -72,7 +72,7 @@ $string['remove'] = 'Elimina';
 $string['size'] = 'Mida';
 $string['srclang'] = 'Idioma';
 $string['subtitles'] = 'Subtítols';
-$string['subtitles_help'] = 'Es poden proporcionar subtítols per a transcriure o traduir el diàleg.';
+$string['subtitles_help'] = 'Es poden proporcionar subtítols per transcriure el diàleg o traduir-lo.';
 $string['subtitlessourcelabel'] = 'URL dels subtítols de la pista';
 $string['track'] = 'URL de la pista';
 $string['tracks'] = 'Subtítols i llegendes';

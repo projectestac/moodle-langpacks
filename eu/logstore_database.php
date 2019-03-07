@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_database', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'logstore_database', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   logstore_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,24 +39,14 @@ $string['databasesettings_help'] = 'Kanpo-erregistroko datu-baserako konexioaren
 $string['databasetable'] = 'Datu-basearen taula';
 $string['databasetable_help'] = 'Erregistroak gordeko diren taularen izena. Taula honek logstore_standard-ek erabiltzen duen taularen (mdl_logstore_standard_log) egitura identikoa izan behar du.';
 $string['filters'] = 'Iragazi agerraldiak';
-$string['filters_help'] = 'Iragazkiak gaitu ekintza batzuk erregistratu gabe uzteko.';
-$string['includeactions'] = 'Gehitu mota honetako ekintzak';
-$string['includelevels'] = 'Gehitu hezkuntza-maila hauetako ekintzak';
+$string['filters_help'] = 'Gaitu ekintza batzuk erregistratu gabe utziko dituzten iragazkiak.';
+$string['includeactions'] = 'Sartu mota honetako ekintzak';
+$string['includelevels'] = 'Sartu hezkuntza-maila hauetako ekintzak';
 $string['logguests'] = 'Erregistratu bisitarien ekintzak';
 $string['other'] = 'Bestelako bat';
 $string['participating'] = 'Partaidetza';
 $string['pluginname'] = 'Kanpoko datu-basearen log-a';
 $string['pluginname_desc'] = 'Ekitaldiak kanpoko datu-base baten taulan gordetzen dituen agerraldi-erregistro plugin bat.';
-$string['privacy:metadata:log'] = 'Igarotako ekitaldien bilduma';
-$string['privacy:metadata:log:anonymous'] = 'Ekitaldia anonimo gisa markatua izan den edo ez';
-$string['privacy:metadata:log:eventname'] = 'Ekitaldiaren izena';
-$string['privacy:metadata:log:ip'] = 'Ekitaldiaren unean erabilitako IP helbidea';
-$string['privacy:metadata:log:origin'] = 'Ekitaldiaren jatorria';
-$string['privacy:metadata:log:other'] = 'Ekitaldiaren inguruko informazio gehigarria';
-$string['privacy:metadata:log:realuserid'] = 'Ekitaldiaren atzean dagoen benetako erabiltzailearen IDa, beste erabiltzaile baten izenean dabilenean.';
-$string['privacy:metadata:log:relateduserid'] = 'Ekitaldiarekin lotutako erabiltzailearen IDa';
-$string['privacy:metadata:log:timecreated'] = 'Ekitaldia gertatu zeneko unea';
-$string['privacy:metadata:log:userid'] = 'Ekitaldia abiarazi zuen erabiltzailearen IDa';
 $string['read'] = 'Irakurri';
 $string['tablenotfound'] = 'Zehaztutako taula ez da aurkitu';
 $string['teaching'] = 'Irakaskuntza';

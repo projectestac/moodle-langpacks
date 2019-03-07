@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'nl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'editor_tinymce', language 'nl', branch 'MOODLE_32_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,7 +66,7 @@ $string['advanced_dlg:anchor_invalid'] = 'Geef een geldige ankernaam';
 $string['advanced_dlg:anchor_name'] = 'Ankernaam';
 $string['advanced_dlg:anchor_title'] = 'Anker invoegen/bewerken';
 $string['advanced_dlg:charmap_title'] = 'Symbool selecteren';
-$string['advanced_dlg:charmap_usage'] = 'Gebruiik links- en rechtspijltjes om te navigeren.';
+$string['advanced_dlg:charmap_usage'] = 'Gebruik links- en rechtspijltjes om te navigeren.';
 $string['advanced_dlg:code_title'] = 'HTML bron bewerken';
 $string['advanced_dlg:code_wordwrap'] = 'Automatische terugloop';
 $string['advanced_dlg:colorpicker_color'] = 'Kleur:';
@@ -603,7 +603,6 @@ $string['paste:selectall_desc'] = 'Alles selecteren';
 $string['pluginname'] = 'TinyMCE HTML-editor';
 $string['preview:preview_desc'] = 'Voorbeeld';
 $string['print:print_desc'] = 'Afdrukken';
-$string['privacy:metadata'] = 'De editor_tinymce bewaart geen persoonlijke gegevens.';
 $string['save:cancel_desc'] = 'Alle wijzigingen annuleren';
 $string['save:save_desc'] = 'Opslaan';
 $string['searchreplace:delta_height'] = '';

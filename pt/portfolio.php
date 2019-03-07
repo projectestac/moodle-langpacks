@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'portfolio', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   portfolio
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['activeportfolios'] = 'Portefólio disponíveis';
 $string['addalltoportfolio'] = 'Exportar todos para portefólio';
 $string['addnewportfolio'] = 'Adicionar novo portefólio';
 $string['addtoportfolio'] = 'Exportar para portefólio';
-$string['alreadyalt'] = 'Já foi exportado - por favor clique aqui para resolver esta transferência';
+$string['alreadyalt'] = 'Já foi exportado - por favor, clique aqui para resolver esta transferência';
 $string['alreadyexporting'] = 'Já possui uma exportação de portefólio ativa nesta sessão. Antes de prosseguir, deve concluir esta exportação ou cancelá-la. Pretende continuar? (selecionar esta opção não irá cancelar a exportação)';
 $string['availableformats'] = 'Formatos de exportação';
 $string['callbackclassinvalid'] = 'A classe de callback que indicou não é válida ou não faz parte da hierarquia do porfolio_caller';
@@ -41,7 +41,7 @@ $string['commonsettingsdesc'] = '<p>Considerar se uma transferência demora um i
 $string['configexport'] = 'Configurar dados exportados';
 $string['configplugin'] = 'Configurar módulo portefólio';
 $string['configure'] = 'Configurar';
-$string['confirmcancel'] = 'Tem a certeza que pretende cancelar esta exportação?';
+$string['confirmcancel'] = 'Tem a certeza de que pretende cancelar esta exportação?';
 $string['confirmexport'] = 'Por favor, confirme a exportação';
 $string['confirmsummary'] = 'Resumo da exportação';
 $string['continuetoportfolio'] = 'Continuar para portefólio';
@@ -77,7 +77,7 @@ $string['format_document'] = 'Documento';
 $string['format_file'] = 'Ficheiro';
 $string['format_image'] = 'Imagem';
 $string['format_leap2a'] = 'Formato de portefólio Leap2A';
-$string['format_mbkp'] = 'Formato cópia de segurança moodle';
+$string['format_mbkp'] = 'Formato da cópia de segurança Moodle';
 $string['format_pdf'] = 'PDF';
 $string['format_plainhtml'] = 'HTML';
 $string['format_presentation'] = 'Apresentação';
@@ -151,10 +151,10 @@ $string['nocallbackclass'] = 'A classe "{$a}" não foi encontrada';
 $string['nocallbackcomponent'] = 'Não foi possível encontrar a componente especificada {$a}.';
 $string['nocallbackfile'] = 'Algo está danificado no módulo a partir do qual está a tentar exportar - não foi possível encontrar o ficheiro de portefólio solicitado';
 $string['noclassbeforeformats'] = 'Antes de invocar o método set_formats() da classe portfolio_button deve definir a classe de callback';
-$string['nocommonformats'] = 'Não existem formatos comuns entre os módulos de portefólio disponíveis e a localização de invocação  {$a->location} (esta permite os seguintes formatos {$a->formats})';
+$string['nocommonformats'] = 'Não existem formatos comuns entre os módulos de portefólio disponíveis e a localização invocada {$a->location} (esta permite os seguintes formatos {$a->formats})';
 $string['noinstanceyet'] = 'Nada selecionado';
 $string['nologs'] = 'Não existem registos para mostrar!';
-$string['nomultipleexports'] = 'Lamentamos mas o destino do portefólio ({$a->plugin}) não permite exportações em simultâneo. Por favor <a href="{$a->link}">termine a exportação a decorrer primeiro</a> e tente novamente';
+$string['nomultipleexports'] = 'Lamentamos mas o destino do portefólio ({$a->plugin}) não permite exportações em simultâneo. Por favor, <a href="{$a->link}">termine a exportação a decorrer</a> e tente novamente';
 $string['nonprimative'] = 'Foi passado um valor não primitivo como argumento de callback à classe portfolio_add_button. Não é possível continuar. A chave usada foi {$a->key} com o valor {$a->value}';
 $string['nopermissions'] = 'Lamentamos mas não possui permissão para exportar ficheiros desta área';
 $string['notexportable'] = 'Lamentamos mas o tipo de conteúdo que está a tentar exportar não é compatível';
@@ -169,23 +169,6 @@ $string['plugincouldnotpackage'] = 'Erro ao compactar os seus dados para exporta
 $string['pluginismisconfigured'] = 'Ignorado - o módulo Portefólio está mal configurado. Mensagem de erro: {$a}';
 $string['portfolio'] = 'Portefólio';
 $string['portfolios'] = 'Portefólios';
-$string['privacy:metadata'] = 'O subsistema portefólio funciona como um canal, transmite pedidos dos módulos a vários módulos de portefólio.';
-$string['privacy:metadata:instance'] = 'Identificador do portfolio.';
-$string['privacy:metadata:instancesummary'] = 'Isto armazena instâncias e preferências do portefólio para o portefólio que o utilizador está a usar.';
-$string['privacy:metadata:name'] = 'Nome da preferência.';
-$string['privacy:metadata:portfolio_log'] = 'Log da transferências de portefólio (utilizado para verificar duplicação mais tarde)';
-$string['privacy:metadata:portfolio_log:caller_class'] = 'Nome da classe utilizada para cirar a transferência';
-$string['privacy:metadata:portfolio_log:caller_component'] = 'Nome da componente responsável pela exportação';
-$string['privacy:metadata:portfolio_log:time'] = 'Hora da transferência (No caso de transferências em espera, este é o tempo em que a transferência foi executada, não quando o utilizador a iniciou)';
-$string['privacy:metadata:portfolio_log:userid'] = 'Utilizador que exportou o conteúdo';
-$string['privacy:metadata:portfolio_tempdata'] = 'Armazena dados temporários para a exportação do portefólio, limpo pelo cron após um dia';
-$string['privacy:metadata:portfolio_tempdata:data'] = 'Exportar dados';
-$string['privacy:metadata:portfolio_tempdata:expirytime'] = 'Hora em que este registo irá expirar';
-$string['privacy:metadata:portfolio_tempdata:instance'] = 'Instância do módulo portefólio a ser usado';
-$string['privacy:metadata:portfolio_tempdata:userid'] = 'Utilizador a executar exportação';
-$string['privacy:metadata:userid'] = 'Identificador do utilizador.';
-$string['privacy:metadata:value'] = 'Valor da preferência';
-$string['privacy:path'] = 'Instâncias do portefólio';
 $string['queuesummary'] = 'Transferências em lista de espera';
 $string['returntowhereyouwere'] = 'Voltar para onde estava anteriormente';
 $string['save'] = 'Guardar';

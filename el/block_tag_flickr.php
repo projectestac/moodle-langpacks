@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tag_flickr', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_tag_flickr', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   block_tag_flickr
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,11 +31,12 @@ $string['date-posted-desc'] = 'Ημερομηνία ανάρτησης (νεότ
 $string['date-taken-asc'] = 'Ημερομηνία λήψης (παλιότερα πρώτα)';
 $string['date-taken-desc'] = 'Ημερομηνία λήψης (νεότερα πρώτα)';
 $string['defaulttile'] = 'Flickr';
-$string['getfromphotoset'] = 'Λήψη φωτογραφιών από το σετ με id';
-$string['includerelatedtags'] = 'Περίληψη σχετικών ετικετών';
+$string['getfromphotoset'] = 'Λήψη φωτογραφιών από το σετ φωτογραφιών, με αναγνωριστικό';
+$string['includerelatedtags'] = 'Συμπερίληψη σχετικών ετικετών στο ερώτημα';
 $string['interestingness-asc'] = 'Βαθμός ενδιαφέροντος (μικρότερο προς μεγαλύτερο)';
 $string['interestingness-desc'] = 'Βαθμός ενδιαφέροντος (μεγαλύτερο προς μικρότερο)';
 $string['numberofphotos'] = 'Αριθμός φωτογραφιών';
 $string['pluginname'] = 'Flickr';
 $string['relevance'] = 'Σχετικότητα';
 $string['sortby'] = 'Ταξινόμηση κατά';
+$string['tag_flickr:addinstance'] = 'Προσθήκη ένος νέου μπλοκ flickr';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_database', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'logstore_database', language 'fr', branch 'MOODLE_32_STABLE'
  *
  * @package   logstore_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['buffersize'] = 'Taille du tampon';
-$string['buffersize_help'] = 'Le nombre d\'entrées de l\'historique insérées au cours d\'une opération de base de données (ce qui améliore la performance).';
+$string['buffersize_help'] = 'Le nombre d\'entrées de journal insérées au cours d\'une même opération de base de données (ce qui améliore la performance).';
 $string['conectexception'] = 'Connexion impossible à la base de données';
 $string['create'] = 'Créer';
 $string['databasecollation'] = 'Collation de base de données';
@@ -35,28 +35,18 @@ $string['databasehandlesoptions_help'] = 'Indique si la base de données distant
 $string['databasepersist'] = 'Connexions persistantes à la base de données';
 $string['databaseschema'] = 'Schéma de base de données';
 $string['databasesettings'] = 'Réglages de base de données';
-$string['databasesettings_help'] = 'Configuration de la connexion pour la base de données externe de l\'historique : {$a}';
+$string['databasesettings_help'] = 'Configuration de la connexion pour la base de données du journal externe : {$a}';
 $string['databasetable'] = 'Table de base de données';
-$string['databasetable_help'] = 'Nom de la table dans laquelle les historiques seront stockés. Cette table doit avoir une structure identique à celle utilisée par la table logstore_standard (mdl_logstore_standard_log).';
-$string['filters'] = 'Filtrer les historiques';
-$string['filters_help'] = 'Activer des filtres qui empêchent certaines actions d\'être consignées dans les historiques.';
+$string['databasetable_help'] = 'Nom de la table dans laquelle les journaux seront stockés. Cette table doit avoir une structure identique à celle utilisée par la table logstore_standard (mdl_logstore_standard_log).';
+$string['filters'] = 'Filtrer les journaux';
+$string['filters_help'] = 'Activer des filtres qui empêchent certaines actions d\'être consignées dans les journaux.';
 $string['includeactions'] = 'Inclure les actions de ces types';
 $string['includelevels'] = 'Inclure les interactions de ces types';
 $string['logguests'] = 'Enregistrer les actions des utilisateurs anonymes';
 $string['other'] = 'Autre';
 $string['participating'] = 'Participation';
-$string['pluginname'] = 'Historique dans base de données externe';
-$string['pluginname_desc'] = 'Un plugin permettant l\'enregistrement des historiques dans une table d\'une base de données externes.';
-$string['privacy:metadata:log'] = 'Une collection des événements passés';
-$string['privacy:metadata:log:anonymous'] = 'Si l\'événement a été marqué comme anonyme';
-$string['privacy:metadata:log:eventname'] = 'Le nom de l\'événement';
-$string['privacy:metadata:log:ip'] = 'L\'adresse IP utilisée au moment de l\'événement';
-$string['privacy:metadata:log:origin'] = 'L\'origine de l\'événement';
-$string['privacy:metadata:log:other'] = 'Informations supplémentaires sur l\'événement';
-$string['privacy:metadata:log:realuserid'] = 'L\'identifiant de l\'utilisateur réel de l\'événement, lorsqu\'un utilisateur est masqué.';
-$string['privacy:metadata:log:relateduserid'] = 'L\'identifiant d\'un utilisateur en lien avec cet événement';
-$string['privacy:metadata:log:timecreated'] = 'La date et l\'heure de la survenue de l\'événement';
-$string['privacy:metadata:log:userid'] = 'L\'identifiant de l\'utilisateur qui a déclenché cet événement';
+$string['pluginname'] = 'Journal dans base de données externe';
+$string['pluginname_desc'] = 'Un plugin permettant l\'enregistrement des journaux dans une table d\'une base de données externes.';
 $string['read'] = 'Lire';
 $string['tablenotfound'] = 'La table indiquée n\'a pas été trouvée';
 $string['teaching'] = 'Enseignement';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_tex', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'filter_tex', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   filter_tex
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,5 +32,8 @@ $string['latexpreamble'] = 'Preámbulo LaTeX';
 $string['latexsettings'] = 'Configuración do procesador de LaTeX';
 $string['pathconvert'] = 'Ruta ao binario <i>convert</i>';
 $string['pathdvips'] = 'Ruta ao binario <i>dvips</i>';
+$string['pathdvisvgm'] = 'Ruta ao binario <i>dvisvgm</i>';
 $string['pathlatex'] = 'Ruta ao binario <i>latex</i>';
+$string['pathmimetex'] = 'Ruta ao binario <i>mimetex</i>';
+$string['pathmimetexdesc'] = 'Moodle empregará o seu propio binario mimetex a non ser que se especifique outra ruta válida.';
 $string['source'] = 'Código fonte TeX';

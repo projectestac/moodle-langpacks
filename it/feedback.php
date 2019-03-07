@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'feedback', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,14 +35,13 @@ $string['anonymous'] = 'Anonimo';
 $string['anonymous_edit'] = 'Privacy';
 $string['anonymous_entries'] = 'Compilazioni anonime ({$a})';
 $string['anonymous_user'] = 'Utente anonimo';
-$string['answerquestions'] = 'Rispondi alla domanda';
 $string['append_new_items'] = 'Aggiungi nuove domande';
 $string['autonumbering'] = 'Numera le domande automaticamente';
 $string['autonumbering_help'] = 'Abilita o disabilita la numerazione automatica delle domande';
 $string['average'] = 'Media';
 $string['bold'] = 'Grassetto';
-$string['calendarend'] = '{$a} chiude';
-$string['calendarstart'] = '{$a} apre';
+$string['calendarend'] = 'Il feedback {$a} chiude';
+$string['calendarstart'] = 'Il feedback {$a} apre';
 $string['cancel_moving'] = 'Annulla lo spostamento';
 $string['cannotaccess'] = 'Puoi accedere al feedback solamente da un corso.';
 $string['cannotmapfeedback'] = 'Si è verificato un problema nel database, non è stato possibile associare il feedback al corso';
@@ -61,7 +60,7 @@ $string['completed_feedbacks'] = 'Risposte inviate';
 $string['completedon'] = 'Completato il {$a}';
 $string['complete_the_form'] = 'Compila il questionario';
 $string['completionsubmit'] = 'Completato all\'atto della consegna del feedback';
-$string['configallowfullanonymous'] = 'L\'impostazione consente di completare un feedback senza  autenticarsi. E\' valida solo per feedback nella home page.';
+$string['configallowfullanonymous'] = 'L\'impostazione consente di completare un feedback senza  autenticarsi. E\' valida solo per feedback presenti nella pagina home.';
 $string['confirmdeleteentry'] = 'Confermi l\'eliminazione di questo elemento?';
 $string['confirmdeleteitem'] = 'Confermi l\'eliminazione di questa domanda?';
 $string['confirmdeletetemplate'] = 'Confermi l\'eliminazione di questo modello?';
@@ -138,10 +137,6 @@ $string['horizontal'] = 'orizzontale';
 $string['importfromthisfile'] = 'Importa da questo file';
 $string['import_questions'] = 'Importa domande';
 $string['import_successfully'] = 'Importazione completata';
-$string['indicator:cognitivedepth'] = 'Feedback cognitivo';
-$string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività \'feedback\'.';
-$string['indicator:socialbreadth'] = 'Feedback sociale';
-$string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività \'feedback\'.';
 $string['info'] = 'Informazione';
 $string['infotype'] = 'Tipo di informazione';
 $string['insufficient_responses'] = 'risposte insufficienti';
@@ -153,7 +148,7 @@ $string['label'] = 'Etichetta';
 $string['labelcontents'] = 'Contenuto';
 $string['line_values'] = 'Valutazione';
 $string['mapcourse'] = 'Associa feedback ai corsi';
-$string['mapcourse_help'] = 'Per default i feedback creati nella home page del sito sono disponibili in tutti i corsi tramite il blocco feedback. Se desideri evitarlo, puoi rendere il blocco feedback permanente oppure puoi associare il feedback solo a determinati corsi.';
+$string['mapcourse_help'] = 'Di default i feedback creati nella pagina home del sito sono disponibili in tutti i corsi tramite il blocco feedback. Se desideri evitarlo, è possibile rendere permanente il blocco feedback oppure puoi associare il feedback solo a determinati corsi.';
 $string['mapcourseinfo'] = 'Questo è un feedback globale,  usando il blocco feedback sarà disponibile in tutti i corsi . E\'  comunque possibile limitare i corsi in cui apparirà il feedback associandoli. Cerca i corsi e associali a questo feedback.';
 $string['mapcoursenone'] = 'Nessun corso associato. Il feedback è disponibile per tutti i corsi.';
 $string['mapcourses'] = 'Associa feedback ai corsi';
@@ -169,7 +164,7 @@ $string['mode'] = 'Modalità';
 $string['modulename'] = 'Feedback';
 $string['modulename_help'] = 'Il modulo di attività feedback consente al docente di creare sondaggi personalizzati utili per raccogliere i feedback dai partecipanti. E\' possibile usare vari tipi di domande, come ad esempio domande a scelta multipla, sì/no, a risposta libera, eccetera.
 
-Se lo si desidera è possibile rendere anonime le risposte, così come è possibile visualizzare o meno agli studenti i risultati del sondaggio. Le attività feedback presenti sulla home page del sito possono essere configurate per essere compilate anche da utenti non autenticati.
+Se lo si desidera è possibile rendere anonime le risposte, così come è possibile visualizzare o meno agli studenti i risultati del sondaggio. Le attività feedback presenti sulla pagina home del sito possono essere configurate per essere compilate anche da utenti non autenticati.
 
 E\' possibile usare il feedback per:
 
@@ -211,7 +206,6 @@ $string['of'] = 'di';
 $string['oldvaluespreserved'] = 'Tutte le vecchie domande e i valori assegnati saranno conservati';
 $string['oldvalueswillbedeleted'] = 'Le domande e tutte le risposte degli utenti saranno eliminate';
 $string['only_one_captcha_allowed'] = 'E\' possibile inserire un solo captcha per ciascun feedback.';
-$string['openafterclose'] = 'Hai specificato una data di apertura successiva alla data di chiusura';
 $string['overview'] = 'Panoramica';
 $string['page'] = 'Pagina';
 $string['page_after_submit'] = 'Messaggio da visualizzare dopo la compilazione';
@@ -290,7 +284,7 @@ $string['this_feedback_is_already_submitted'] = 'Hai già completato questa atti
 $string['typemissing'] = 'il "tipo" è mancante';
 $string['update_item'] = 'Salva modifiche';
 $string['url_for_continue'] = 'Link ad attività successiva';
-$string['url_for_continue_help'] = 'Per default al termine della compilazione del feedback il pulsante Continua rimanda alla home page del corso. E\' possibile impostare link ad una attività successiva.';
+$string['url_for_continue_help'] = 'Di default al termine della compilazione del feedback il pulsante Continua rimanda alla pagina home del corso. E\' possibile impostare link ad una attività successiva.';
 $string['use_one_line_for_each_value'] = 'E\' necessario utilizzare una riga per ciascun valore';
 $string['use_this_template'] = 'Usa questo modello';
 $string['using_templates'] = 'Usa un modello';

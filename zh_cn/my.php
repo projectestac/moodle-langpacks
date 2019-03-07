@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'my', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   my
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addpage'] = '添加页面';
+$string['alldashboardswerereset'] = '所有仪表板页面都已重置为默认值。';
 $string['allprofileswerereset'] = '所有个人资料页面都被重置为默认值。';
 $string['defaultpage'] = '缺省我的Moodle页面';
 $string['defaultprofilepage'] = '缺省个人资料页';

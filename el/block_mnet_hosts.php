@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_mnet_hosts', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_mnet_hosts', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   block_mnet_hosts
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Διακομιστές Δικτύου';
-$string['server'] = 'Διακομιστής';
+$string['error_authmnetneeded'] = 'Το πρόσθετο αυθεντικοποίησης MNet πρέπει να είναι ενεργοποιημένο για να δείτε τη λίστα των εξυπηρετητών δικτύου MNet';
+$string['error_localusersonly'] = 'Οι απομακρυσμένοι χρήστες δεν μπορούν να μεταβούν σε άλλους εξυπηρετητές δικτύου MNet από αυτόν τον Η/Υ.';
+$string['error_roamcapabilityneeded'] = 'Οι χρήστες χρειάζονται την δυνατότητα «Σύνδεση σε απομακρυσμένη εγκατάσταση εφαρμογής (Moodle) μέσω MNet» για να δουν την λίστα των εξυπηρετητών δικτύου MNet.';
+$string['mnet_hosts:addinstance'] = 'Προσθήκη ενός νέου μπλοκ εξυπηρετητών δικτύου';
+$string['mnet_hosts:myaddinstance'] = 'Προσθήκη ενός νέου μπλοκ εξυπηρετητών δικτύου στο Ταμπλό';
+$string['pluginname'] = 'Εξυπηρετητές δικτύου';
+$string['server'] = 'Εξυπηρετητής';

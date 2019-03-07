@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopeval_best', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshopeval_best', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   workshopeval_best
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['comparison'] = 'Σύγκριση αξιολογήσεων';
+$string['comparison_help'] = 'Αυτή η ρύθμιση καθορίζει πόσο αυστηρή θα είναι η σύγκριση των αξιολογήσεων. Όσο αυστηρότερη είναι η σύγκριση, τόσο πιο όμοιες πρέπει να είναι οι αξιολογήσεις για να επιτευχθεί υψηλός βαθμός.';
 $string['comparisonlevel1'] = 'πολύ αυστηρή';
 $string['comparisonlevel3'] = 'αυστηρή';
 $string['comparisonlevel5'] = 'δίκαιη';

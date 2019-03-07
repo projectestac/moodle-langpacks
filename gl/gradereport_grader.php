@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_grader', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradereport_grader', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   gradereport_grader
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,9 +30,12 @@ $string['ajaxclicktoclose'] = 'Escolla esta caixa para retirala';
 $string['ajaxerror'] = 'Erro';
 $string['ajaxfailedupdate'] = 'Non foi posíbel actualizar [1] cara [2]';
 $string['ajaxfieldchanged'] = 'O campo que está a editar actualmente cambiou. Quere usar o valor actualizado?';
+$string['eventgradereportviewed'] = 'Visto o informe do cualificador';
 $string['grader:manage'] = 'Administrar o informe do cualificador';
 $string['grader:view'] = 'Ver o informe do cualificador';
+$string['overriddengrade'] = 'Anular a cualificación';
 $string['pluginname'] = 'Informe do cualificador';
 $string['preferences'] = 'Preferencias de informe de cualificación';
+$string['summarygrader'] = 'Unha táboa cos nomes dos alumnos na primeira columna, con actividades avaliables agrupadas por curso e categoría no alto.';
 $string['useractivityfeedback'] = 'comentario {$a}';
 $string['useractivitygrade'] = 'Cualificación de {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshop', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -178,10 +178,6 @@ $string['gradinggradeover'] = 'Pasar por alto calificación de la evaluación';
 $string['gradingsettings'] = 'Ajustes de calificación';
 $string['groupnoallowed'] = 'No se le permite acceder a ningún grupo en este taller';
 $string['iamsure'] = 'Sí, estoy seguro';
-$string['indicator:cognitivedepth'] = 'Taller cognitivo';
-$string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad de Taller.';
-$string['indicator:socialbreadth'] = 'Taller social';
-$string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad de Taller.';
 $string['info'] = 'Info';
 $string['instructauthors'] = 'Instrucciones para el envío';
 $string['instructreviewers'] = 'Instrucciones para la evaluación';
@@ -289,6 +285,8 @@ $string['submissiongrade'] = 'Calificación por el envío';
 $string['submissiongrade_help'] = 'Esta configuración especifica la calificación máxima que se puede obtener en los trabajos enviados.';
 $string['submissiongradeof'] = 'Calificación por el envío (de {$a})';
 $string['submissionlastmodified'] = 'Último modificado';
+$string['submissionrequiredcontent'] = 'Debe introducir algún texto o añadir un archivo.';
+$string['submissionrequiredfile'] = 'Debe añadir un archivo o introducir algún texto.';
 $string['submissionsettings'] = 'Parámetros de los envíos';
 $string['submissionsreport'] = 'Informe de envíos del taller';
 $string['submissionstart'] = 'Abierto para envíos desde';
@@ -351,7 +349,7 @@ $string['workshop:exportsubmissions'] = 'Exportar envíos';
 $string['workshop:ignoredeadlines'] = 'Ignorar restricciones de tiempo';
 $string['workshop:manageexamples'] = 'Administrar los envíos de ejemplo';
 $string['workshopname'] = 'Nombre del taller';
-$string['workshop:overridegrades'] = 'Sobreescribir calificaciones calculadas';
+$string['workshop:overridegrades'] = 'Sobrescribir calificaciones calculadas';
 $string['workshop:peerassess'] = 'Evaluar por pares';
 $string['workshop:publishsubmissions'] = 'Publicar envíos';
 $string['workshop:submit'] = 'Enviar';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignment', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignment', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   assignment
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,15 +26,21 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['assignment:addinstance'] = 'Προσθήκη νέας εργασίας';
-$string['assignmentdisabled'] = 'Η δραστηριότητα παλαιότερης έκδοσης "Εργασία 2.2" έχει απενεργοποιηθεί.';
-$string['assignment:exportownsubmission'] = 'Εξαγωγή ιδίας υποβολής';
+$string['assignmentdisabled'] = 'Η παλαιού τύπου δραστηριότητα «Εργασία 2.2» είναι απενεργοποιημένη.';
+$string['assignment:exportownsubmission'] = 'Εξαγωγή της δικής σας υποβολής';
 $string['assignment:exportsubmission'] = 'Εξαγωγή υποβολής';
 $string['assignment:grade'] = 'Βαθμός εργασίας';
-$string['assignmentneedsupgrade'] = 'Η δραστηριοτήτα παλαιότερης έκδοσης "Εργασία 2.2" έχει απενεργοποιηθεί. Παρακαλώ ζητήστε από τον διαχειριστή του ιστοτόπου να εκτελέσει το εργαλείο αναβάθμισης της εργασίας για όλες τις αναθέσεις παλαιότερης έκδοσης σε αυτόν τον ιστότοπο.';
+$string['assignmentneedsupgrade'] = 'Η παλαιού τύπου δραστηριοτήτα «Εργασία 2.2» έχει απενεργοποιηθεί. Παρακαλούμε ζητήστε από τον διαχειριστή του ιστοτόπου να εκτελέσει το εργαλείο αναβάθμισης αναθέσεων  για όλες τις αναθέσεις παλαιού τύπου σε αυτόν τον ιστότοπο.';
 $string['assignment:submit'] = 'Υποβολή εργασίας';
 $string['assignment:view'] = 'Προβολή εργασίας';
-$string['modulename'] = 'Εργασία (2.2)';
-$string['modulename_help'] = '<p><img alt="" src="<?php echo $CFG->wwwroot?>/mod/assignment/icon.gif" />&nbsp;<b>Εργασίες</b></p>
-<div class="indent">Οι εργασίες δίνουν τη δυνατότητα στον καθηγητή να ζητήσει από τους μαθητές ένα παραδοτέο βάσει του οποίου θα βαθμολογηθούν. Το παραδοτέο μπορεί να είναι οποιασδήποτε μορφής (κείμενο, εικόνα, άλλο αρχείο) και αποθηκεύεται στο διακομιστή του Moodle.</div>';
-$string['modulenameplural'] = 'Εργασίες';
-$string['pluginname'] = 'Εργασία (2.2)';
+$string['messageprovider:assignment_updates'] = 'Ειδοποιήσεις ανάθεσης (έκδοσης 2.2 & μετά)';
+$string['modulename'] = 'Εργασία 2.2 (Απενεργοποιημένη)';
+$string['modulename_help'] = 'Άρθρωμα δραστηριότητας παλαιού τύπου που έχει αφαιρεθεί από το Moodle.';
+$string['modulenameplural'] = 'Εργασία 2.2 (Απενεργοποιημένη)';
+$string['page-mod-assignment-submissions'] = 'Σελίδα υποβολής αρθρώματος ανάθεσης εργασίας';
+$string['page-mod-assignment-view'] = 'Κύρια σελίδα αρθρώματος ανάθεσης';
+$string['page-mod-assignment-x'] = 'Οποιαδήποτε σελίδα αρθρώματος ανάθεσης';
+$string['pluginadministration'] = 'Διαχείριση ανάθεσης (εργασίας) 2.2 (Απενεργοποιημένο)';
+$string['pluginname'] = 'Ανάθεση (εργασίας) 2.2 (Απενεργοποιημένο)';
+$string['upgradenotification'] = 'Αυτή η δραστηριότητα βασίζεται σε ένα παλαιότερο άρθρωμα ανάθεσης.';
+$string['viewassignmentupgradetool'] = 'Προβολή του εργαλείου αναβάθμισης ανάθεσης εργασίας';

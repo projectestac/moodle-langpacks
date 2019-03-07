@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'timezones', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'timezones', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   timezones
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -241,7 +241,7 @@ $string['asia/irkutsk'] = 'Ασία/Irkutsk';
 $string['asia/jayapura'] = 'Ασία/Jayapura';
 $string['asia/jerusalem'] = 'Ασία/Jerusalem';
 $string['asia/kabul'] = 'Ασία/Kabul';
-$string['asia/kamchatka'] = 'Ασία/Kamchatka';
+$string['asia/kamchatka'] = 'Ασία/Καμτσάτκα';
 $string['asia/karachi'] = 'Ασία/Karachi';
 $string['asia/kashgar'] = 'Ασία/Kashgar';
 $string['asia/katmandu'] = 'Ασία/Katmandu';
@@ -359,7 +359,7 @@ $string['indian/mayotte'] = 'Ινδικός/Mayotte';
 $string['indian/reunion'] = 'Ινδικός/Reunion';
 $string['pacific/apia'] = 'Ειρηνικός/Apia';
 $string['pacific/auckland'] = 'Ειρηνικός/Auckland';
-$string['pacific/chatham'] = 'Ειρηνικός/Chatham';
+$string['pacific/chatham'] = 'Ειρηνικός/Κλάθαμ';
 $string['pacific/easter'] = 'Ειρηνικός/Easter';
 $string['pacific/efate'] = 'Ειρηνικός/Efate';
 $string['pacific/enderbury'] = 'Ειρηνικός/Enderbury';

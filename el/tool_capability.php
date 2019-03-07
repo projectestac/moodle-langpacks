@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_capability', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_capability', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_capability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,14 +25,15 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['capabilitylabel'] = 'Ικανότητα:';
-$string['capabilityreport'] = 'Αναφορά ικανότητας';
-$string['changeoverrides'] = 'Η αλλαγή υπερισχύει σε αυτό το πλαίσιο';
+$string['capabilitylabel'] = 'Δυνατότητα:';
+$string['capabilityreport'] = 'Επισκόπηση δυνατότητας';
+$string['changeoverrides'] = 'Αλλάξτε τις παρακάμψεις σε αυτό το πλαίσιο';
 $string['changeroles'] = 'Αλλαγή ορισμού ρόλων';
+$string['eventreportviewed'] = 'Η αναφορά προβλήθηκε';
 $string['forroles'] = 'Για τους ρόλους {$a}';
-$string['getreport'] = 'Λήψη της αναφοράς';
-$string['intro'] = 'Αυτή η αναφορά δείχνει, για μια συγκεκριμένη ικανότητα, τι δικαίωμα έχει αυτή η ικανότητα στον ορισμό κάθε ρόλου (ή ενός συνόλου ρόλων), και που σε όλο τον ιστότοπο αυτή η ικανότητα υπερισχύεται από κάτι άλλο.';
-$string['pluginname'] = 'Αναφορά ικανότητας';
-$string['reportforcapability'] = 'Αναφορά για την ικανότητα \'{$a}\'';
+$string['getreport'] = 'Πάρτε την επισκόπηση';
+$string['intro'] = 'Αυτή η αναφορά δείχνει, για μια συγκεκριμένη δυνατότητα, τι δικαίωμα έχει αυτή η δυνατότητα στον ορισμό κάθε ρόλου (ή ενός συνόλου ρόλων), και που σε όλο τον ιστότοπο αυτή η δυνατότητα παρακάμπτεται.';
+$string['pluginname'] = 'Επισκόπηση δυνατοτήτων';
+$string['reportforcapability'] = 'Αναφορά για την δυνατότητα «{$a}»';
 $string['reportsettings'] = 'Ρυθμίσεις αναφοράς';
 $string['roleslabel'] = 'Ρόλοι:';

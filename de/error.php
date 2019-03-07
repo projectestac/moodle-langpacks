@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'error', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,11 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityisscheduledfordeletion'] = 'Aktivitätslöschung ...';
-$string['agedigitalconsentmapinvalidage'] = '\'{$a}\' ist kein gültiger Wert für das Alter.';
-$string['agedigitalconsentmapinvalidcomma'] = '\'{$a}\' hat mehr oder weniger als ein Kommatrennzeichen.';
-$string['agedigitalconsentmapinvalidcountry'] = '\'{$a}\' ist kein gültiger Wert für ein Land.';
-$string['agedigitalconsentmapinvaliddefault'] = 'Es fehlt ein standardmäßiger (*) Wert.';
-$string['agelocationverificationdisabled'] = 'Die Überprüfung von Alter und Aufenthaltsort ist deaktiviert.';
 $string['alreadyloggedin'] = 'Sie sind bereits als {$a} angemeldet. Sie müssen sich abmelden, bevor Sie sich mit anderen Daten wieder anmelden.';
 $string['authnotexisting'] = 'Das Plugin zur Authorisierung existiert nicht.';
 $string['backupcontainexternal'] = 'Diese Sicherungsdatei enthält externe Netzwerkverbindungen (MNET), die lokal nicht konfiguriert sind.';
@@ -174,9 +169,9 @@ $string['cannotusepage2'] = 'Sie dürfen diese Seite nicht verwenden.';
 $string['cannotviewprofile'] = 'Sie können dieses Nutzerprofil nicht ansehen';
 $string['cannotviewreport'] = 'Sie können diesen Bericht nicht ansehen';
 $string['cannotwritefile'] = 'In die Datei \'{$a}\' kann nicht geschieben werden';
-$string['categoryerror'] = 'Bereichsfehler';
-$string['categoryidnumbertaken'] = 'Die ID-Nummer wird bereits für eine andere Kategorie verwandt';
-$string['categorynamerequired'] = 'Die Kategoriebezeichnung wird benötigt';
+$string['categoryerror'] = 'Kursbereichsfehler';
+$string['categoryidnumbertaken'] = 'Die ID-Nummer wird bereits für einen anderen Kursbereich verwendet.';
+$string['categorynamerequired'] = 'Die Bezeichnung des Kursbereichs ist notwendig.';
 $string['categorytoolong'] = 'Kursbereichsname ist zu lang';
 $string['commentmisconf'] = 'Kommentar-ID ist falsch konfiguriert';
 $string['componentisuptodate'] = 'Die Komponente ist aktuell.';
@@ -184,9 +179,8 @@ $string['confirmationnotenabled'] = 'Nutzer-Bestätigung ist auf dieser Seite ni
 $string['confirmsesskeybad'] = 'Der \'session key\' für diese Aktion konnte nicht bestätigt werden. Dieses Sicherheitsfeature schützt Sie vor der nicht beabsichtigten Ausführung wichtiger Funktionen oder der Ausführung von Aktionen durch Dritte in Ihrem Namen. Bitte loggen Sie sich nun ggfs. neu ein.';
 $string['couldnotassignrole'] = 'Ein schwerer, nicht näher bezeichneter Fehler ist aufgetreten, während Sie sich eine Rolle zuweisen wollten.';
 $string['couldnotupdatenoexistinguser'] = 'Nutzer konnte nicht aktualisiert werden - Nutzer existiert nicht';
-$string['couldnotverifyagedigitalconsent'] = 'Beim Versuch, das Alters zu überprüfen, ist ein Fehler aufgetreten. <br />Wenden Sie sich an den Administrator.';
 $string['countriesphpempty'] = 'Fehler: Die Datei countries.php im Sprachpaket \'{$a}\' ist leer oder fehlt.';
-$string['coursedoesnotbelongtocategory'] = 'Der Kurs gehört nicht zu diesem Bereich';
+$string['coursedoesnotbelongtocategory'] = 'Der Kurs gehört nicht zu diesem Kursbereich.';
 $string['courseformatnotfound'] = 'Das Kursformat \'{$a}\' existiert nicht oder wird nicht erkannt.';
 $string['coursegroupunknown'] = 'Es wurde kein Kurs für die Gruppe {$a} festgelegt';
 $string['courseidnotfound'] = 'Kurs-ID existiert nicht';
@@ -357,7 +351,7 @@ $string['invalidrole'] = 'Ungültige Rolle';
 $string['invalidroleid'] = 'Ungültige Rollen-ID';
 $string['invalidscaleid'] = 'Falsche Skalen-ID';
 $string['invalidsection'] = 'Der Datensatz des Kursmoduls enthält ungültigen Abschnitt.';
-$string['invalidsesskey'] = 'Ihre Sitzung ist höchstwahrscheinlich abgelaufen. Bitte melden Sie sich erneut an.';
+$string['invalidsesskey'] = 'Falsche sesskey übergeben, Formular nicht akzeptiert!';
 $string['invalidshortname'] = 'Die Kurzbezeichnung für den Kurs ist ungültig';
 $string['invalidsourcefield'] = 'Der Eintrag im Feld für die Datei (draft file) ist ungültig.';
 $string['invalidstatedetected'] = 'Eigentlich hätte hier kein Fehler passieren dürfen: {$a}';
@@ -403,7 +397,7 @@ $string['moduledisable'] = 'Das Modul "{$a}" wurde für diesen speziellen Kurs d
 $string['moduledoesnotexist'] = 'Dieses Modul gibt es nicht';
 $string['moduleinstancedoesnotexist'] = 'Die Instanz dieses  Moduls gibt es nicht';
 $string['modulemissingcode'] = 'Im Modul {$a} fehlt der Code, um diese Funktion auszuführen.';
-$string['movecatcontentstoroot'] = 'Das Verschieben des Bereichsinhalts in den Root-Bereich ist nicht zulässig. Der Inhalt muss in eine bestehende Kategorie verschoben werden.';
+$string['movecatcontentstoroot'] = 'Das Verschieben des Bereichsinhalts in den Root-Bereich ist nicht zulässig. Der Inhalt muss in einen bestehenden Kursbereich verschoben werden.';
 $string['movecategorynotpossible'] = 'Sie können den Kursbereich \'{$a}\' nicht in den ausgewählten Kursbereich verschieben.';
 $string['movecategoryownparent'] = 'Sie können den Kursbereich \'{$a}\' nicht zu einem Unterbereich von sich selber machen..';
 $string['movecategoryparentconflict'] = 'Sie können den Kursbereich \'{$a}\' nicht zu einem Unterbereich innerhalb seiner eigenen Unterbereiche machen.';
@@ -414,7 +408,7 @@ $string['mustbeloggedin'] = 'Sie müssen sich anmelden, um dies zu tun.';
 $string['mustbeteacher'] = 'Diese Seite können Sie nur als Trainer/in ansehen.';
 $string['myisamproblem'] = 'Die Datenbank nutzt die Database Engine MyISAM. Es wird empfohlen, stattdessen eine ACID-konforme Engine mit vollständigem Transactionsupport zu verwenden, z.B. InnoDB.';
 $string['needcopy'] = 'Sie müssen zuerst etwas kopieren';
-$string['needcoursecategroyid'] = 'Die Kurs ID oder Kategorie muss definiert werden.';
+$string['needcoursecategroyid'] = 'Die Kurs ID oder der Kursbereich muss definiert werden.';
 $string['needphpext'] = 'Sie müssen {$a} -Unterstützung in Ihrer PHP-Installation hinzufügen';
 $string['noadmins'] = 'Keine Adminstratoren!';
 $string['noblocks'] = 'Keine Blöcke gefunden!';
@@ -422,7 +416,7 @@ $string['nocapabilitytousethisservice'] = 'Nutzer/in besitzt nicht die notwendig
 $string['nocategorydelete'] = 'Kursbereich "{$a}" kann nicht gelöscht werden!';
 $string['nocontext'] = 'Dieser Kurs hat keine gültigen Zusammenhänge.';
 $string['nodata'] = 'Keine Daten';
-$string['noexistingcategory'] = 'Keine Kategorie vorhanden';
+$string['noexistingcategory'] = 'Kein Kursbereich vorhanden';
 $string['nofile'] = 'Datei nicht spezifiziert';
 $string['nofiltersenabled'] = 'Keine Filter aktiviert';
 $string['nofolder'] = 'Gesuchtes Verzeichnis existiert nicht';
@@ -500,7 +494,7 @@ $string['serverconnection'] = 'Fehler beim Verbinden zum Server';
 $string['servicedonotexist'] = 'Service existiert nicht';
 $string['sessioncookiesdisable'] = 'Fehlerhafte Verwendung von  require_key_login() - Session Cookie sollte deaktiviert werden!';
 $string['sessiondiskfull'] = 'Die Session-Partition ist voll. Ein Login ist zur Zeit nicht möglich. Bitte benachrichtigen Sie den Server-Administrator.';
-$string['sessionerroruser'] = 'Wegen längerer Inaktivität müssen Sie sich neu anmelden.';
+$string['sessionerroruser'] = 'Ihre Session ist ungültig. Sie müssen sich neu anmelden.';
 $string['sessionerroruser2'] = 'Ein Serverfehler ist aufgetreten. Er betrifft Ihre Login-Session. Loggen Sie sich bitte neu ein oder starten Sie Ihren Browser noch einmal.';
 $string['sessionhandlerproblem'] = 'Der Session-Handler ist falsch konfiguriert';
 $string['sessionipnomatch'] = 'Die IP-Adresse scheint sich seit Ihrem letzten Login geändert zu haben. Dieses Sicherheitsfeature schützt Sie vor dem Diebstahl Ihrer Identität durch Hacker, während Sie auf der Seite arbeiten. Normale Nutzer sollten diese Mitteilung nicht sehen - bitten Sie den Administrator um Hilfe.';
@@ -572,7 +566,6 @@ $string['usernotaddederror'] = 'Nutzer wurde nicht hinzugefügt - Fehler';
 $string['usernotaddedregistered'] = 'Nutzer wurde nicht hinzugefügt - er/sie war bereits registriert.';
 $string['usernotavailable'] = 'Sie können die Details für diese/n Nutzer/in nicht einsehen.';
 $string['usernotdeletedadmin'] = 'Nutzerkonto nicht gelöscht - Administratorkonten können nicht gelöscht werden';
-$string['usernotdeleteddeleted'] = 'Dieses Nutzerkonto ist bereits gelöscht.';
 $string['usernotdeletederror'] = 'Nutzer/in wurde nicht gelöscht - unbekannter Fehler';
 $string['usernotdeletedmissing'] = 'Nutzer/in wurde nicht gelöscht - Anmeldename wurde nicht gefunden';
 $string['usernotdeletedoff'] = 'Nutzer/in nicht gelöscht - Löschen ist nicht erlaubt';
@@ -587,7 +580,6 @@ $string['usernotupdatederror'] = 'Nutzer/in nicht aktualisiert - unbekannter Feh
 $string['usernotupdatednotexists'] = 'Nutzer/in nicht aktualisiert - der Account existiert nicht.';
 $string['userquotalimit'] = 'Sie haben die Obergrenze für Ihren Datenquota erreicht.';
 $string['userselectortoomany'] = 'Die Auswahl user_selector erhielt mehr als eine/n ausgewählten Nutzer/in, obwohl die Mehrfachauswahl (multiselect) deaktiviert ist.';
-$string['verifyagedigitalconsentnotpossible'] = 'Die Überprüfung des Alters ist derzeit nicht möglich.';
 $string['wrongcall'] = 'Das Skript wurde falsch aufgerufen';
 $string['wrongcontextid'] = 'Kontext-ID war falsch (konnte nicht gefunden werden)';
 $string['wrongdestpath'] = 'Falscher Pfad';
@@ -599,4 +591,4 @@ $string['wscouldnotcreateecoursenopermission'] = 'WS - Kurs nicht erstellt - feh
 $string['wwwrootmismatch'] = 'Ein falscher Zugriff wurde festgestellt. Entschuldigung, aber auf diesen Server sollte ausschließlich über die Adresse "{$a}" zugegriffen werden. Bitte benachrichtigen Sie den Administrator Ihres Servers.';
 $string['wwwrootslash'] = 'In der Datei config.php wurde eine falsche Einstellung für $CFG->wwwroot festgestellt. Es darf kein abschließender Slash \'/\' gesetzt sein.<br />Bitte benachrichtigen Sie den Administrator Ihres Servers.';
 $string['xmldberror'] = 'XMLDB-Fehler!';
-$string['youcannotdeletecategory'] = 'Sie können die Kategorie "{$a}" nicht löschen, da Sie deren Inhalt weder löschen noch verschieben können.';
+$string['youcannotdeletecategory'] = 'Sie können den Kursbereich "{$a}" nicht löschen, da Sie seinen Inhalt weder löschen noch verschieben können.';

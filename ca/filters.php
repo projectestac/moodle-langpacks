@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filters', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'filters', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   filters
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,7 +49,7 @@ $string['defaultx'] = 'Per defecte ({$a})';
 $string['disabled'] = 'Desactivat';
 $string['doesnotcontain'] = 'no conté';
 $string['endswith'] = 'acaba en';
-$string['filterallwarning'] = 'Aplicar els filtres tant a les capçaleres com al contingut pot incrementar la càrrega del servidor. Si us plau empreu el paràmetre «Aplicar a» amb moderació. L\'ús principal és conjuntament amb el filtre «multilang».';
+$string['filterallwarning'] = 'Aplicar els filtres tant a les capçaleres com al contingut pot incrementar la càrrega del servidor. Empreu el paràmetre «Aplicar a» amb moderació. L\'ús principal és conjuntament amb el filtre «multilang».';
 $string['filtersettings'] = 'Paràmetres del filtre';
 $string['filtersettingsforin'] = 'Configuració del filtre {$a->filter} a {$a->context}';
 $string['filtersettings_help'] = 'Aquesta pàgina us permet activar o desactivar els filtres en una part específica del lloc.

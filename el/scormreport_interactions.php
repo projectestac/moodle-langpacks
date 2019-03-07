@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scormreport_interactions', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'scormreport_interactions', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   scormreport_interactions
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['questionx'] = 'Ερώτηση {$a}';
 $string['responsex'] = 'Απάντηση {$a}';
 $string['resultx'] = 'Αποτέλεσμα {$a}';
 $string['rightanswerx'] = 'Σωστή απάντηση {$a}';
-$string['summaryofquestiontext'] = 'Σύνοψη ερωτήσεων';
-$string['summaryofresponse'] = 'Σύνοψη απαντήσεων';
-$string['summaryofresult'] = 'Σύνοψη αποτελεσμάτων';
-$string['summaryofrightanswer'] = 'Σύνοψη σωστών απαντήσεων';
+$string['summaryofquestiontext'] = 'Περίληψη ερωτήσεων';
+$string['summaryofresponse'] = 'Περίληψη απαντήσεων';
+$string['summaryofresult'] = 'Περίληψη αποτελεσμάτων';
+$string['summaryofrightanswer'] = 'Περίληψη σωστών απαντήσεων';

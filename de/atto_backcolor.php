@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_backcolor', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'atto_backcolor', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   atto_backcolor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,3 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Hintergrundfarbe';
-$string['privacy:metadata'] = 'Das Plugin atto_backcolor speichert keine personenbezogenen Daten.';

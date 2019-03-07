@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_collapse', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'atto_collapse', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   atto_collapse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,9 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Erakutsi/ezkutatu aurreratuen botoiak';
-$string['privacy:metadata'] = 'atto_collapse pluginak ez du datu pertsonalik biltzen.';
 $string['settings'] = 'Tolestu tresna-barraren ezarpenak';
 $string['showfewer'] = 'Erakutsi botoi gutxiago';
 $string['showgroups'] = 'Erakutsi lehenengo (n) taldeak tolestutakoan.';
-$string['showgroups_desc'] = 'Tresna-barra tolestutakoan (hala dago berez) talde kopuru hau erakutsiko da bakarrik.';
+$string['showgroups_desc'] = 'Tresna-barra tolestutakoan (hala dago hasieran) talde kopuru hau erakutsiko da bakarrik.';
 $string['showmore'] = 'Erakutsi botoi gehiago';

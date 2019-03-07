@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_guest', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_guest', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_guest
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,20 +28,19 @@ defined('MOODLE_INTERNAL') || die();
 $string['allowguests'] = 'Ikastaro honetan bisitariak sar daitezke';
 $string['guestaccess_withoutpassword'] = 'Bisitarien sarbidea';
 $string['guestaccess_withpassword'] = 'Bisitarien sarbidea';
-$string['guest:config'] = 'Bisitarien sarbiderako instantziak konfiguratu';
+$string['guest:config'] = 'Konfiguratu bisitarien sarbiderako instantziak';
 $string['password'] = 'Pasahitza';
 $string['password_help'] = 'Pasahitz honen bidez, ikastaroan gonbidatu gisa sartzeko pasahitza ezagutu beharko da. Gonbidatuek pasahitza eman beharko dute ikastaroan sartzen diren bakoitzean.';
 $string['passwordinvalid'] = 'Sartzeko pasahitza ez da zuzena, mesedez saiatu berriz';
 $string['passwordinvalidhint'] = 'Sartzeko pasahitza ez da zuzena, mesedez saiatu berriz <br /> (Pista bat - honela hasten da \'{$a}\')';
 $string['pluginname'] = 'Bisitarien sarbidea';
 $string['pluginname_desc'] = 'Bisitarien sarbide pluginak ikastaroetara aldi baterako sarbidea ematen du, ez ditu erabiltzaileak matrikulatuko.';
-$string['privacy:metadata'] = 'Bisitarien sarbidea matrikulazio-pluginak ez du datu pertsonalik biltzen.';
 $string['requirepassword'] = 'Eskatu gonbidatuei sarbide-pasahitza';
 $string['requirepassword_desc'] = 'Ikastaro berrietan sarbide-pasahitza eskatu eta oraingo ikastaroetatik pasahitza kentzea debekatu.';
 $string['showhint'] = 'Erakutsi argibidea';
-$string['showhint_desc'] = 'Bisitarien sarbide-pasahitzaren lehenbiziko letra erakutsi';
-$string['status'] = 'Bisitarien sarbidea baimendu';
-$string['status_desc'] = 'Baimendu aldi baterako bisitarien sarbidea berezko balore gisa.';
+$string['showhint_desc'] = 'Erakutsi bisitarien sarbide-pasahitzaren lehenbiziko letra';
+$string['status'] = 'Baimendu bisitarien sarbidea';
+$string['status_desc'] = 'Baimendu aldi baterako bisitarien sarbidea lehenetsitako balio gisa.';
 $string['status_help'] = 'Ezarpen honek zehazten du erabiltzaileak ikastarora gonbidatu gisa sartu ahal izango diren, matrikulatuta egon gabe.';
 $string['usepasswordpolicy'] = 'Erabili pasahitzen politika';
 $string['usepasswordpolicy_desc'] = 'Gonbidatuen pasahitzei ohiko pasahitzen politika aplikatu.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'book', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addafter'] = 'Afegeix un nou capítol';
+$string['addafter'] = 'Afegeix un capítol nou';
 $string['book:addinstance'] = 'Afegeix un llibre nou';
 $string['book:edit'] = 'Edita els capítols';
 $string['book:read'] = 'Mostra el llibre';
@@ -87,7 +87,6 @@ $string['numberingoptions_desc'] = 'Seleccioneu les opcions de numeració que vo
 $string['page-mod-book-x'] = 'Qualsevol pàgina del llibre';
 $string['pluginadministration'] = 'Administració del llibre';
 $string['pluginname'] = 'Llibre';
-$string['removeallbooktags'] = 'Suprimeix totes les etiquetes del llibre';
 $string['search:activity'] = 'Llibre: informació del recurs';
 $string['search:chapter'] = 'Llibre - Capítols';
 $string['showchapter'] = 'Mostra el capítol «{$a}»';
@@ -95,7 +94,5 @@ $string['subchapter'] = 'Subcapítol';
 $string['subchapternotice'] = '(Disponible només quan s\'ha creat el primer capítol)';
 $string['subplugintype_booktool'] = 'Eina del llibre';
 $string['subplugintype_booktool_plural'] = 'Eines del llibre';
-$string['tagarea_book_chapters'] = 'Capítols del llibre';
-$string['tagsdeleted'] = 'Les etiquetes del llibre s\'han suprimit';
 $string['toc'] = 'Índex';
 $string['top'] = 'amunt';

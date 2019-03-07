@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'webservice', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -195,7 +195,7 @@ $string['unknownoptionkey'] = 'Clave de opción desconocida ({$a})';
 $string['unnamedstringparam'] = 'Un parámetro de tipo cadena está sin nombre.';
 $string['updateusersettings'] = 'Actualizar';
 $string['uploadfiles'] = 'Puede subir ficheros';
-$string['uploadfiles_help'] = 'Si se activa, cualquier usuario puede subir ficheros con sus claves de seguridad a su propia zona de ficheros privados o a la zona de borradores. Las cuotas de ficheros se aplican a los usuarios.';
+$string['uploadfiles_help'] = 'Si se activa, cualquier usuario puede subir archivos con sus claves de seguridad a su propia zona de archivos privados o a la zona de borradores. Las cuotas de archivos se aplican a los usuarios.';
 $string['userasclients'] = 'Usuarios como clientes con ficha';
 $string['userasclientsdescription'] = 'Los siguientes pasos pueden ayudarle a configurar el servicio web Moodle para usuarios como clientes. Estos pasos también le ayudarán a configurar el método de autenticación basado en la ficha (token) recomendada (claves de seguridad) . En este caso, el usuario generará su ficha (token) a partir de la página de claves de seguridad via la configuración de Mi perfil.';
 $string['usermissingcaps'] = 'Permisos ausentes: {$a}';

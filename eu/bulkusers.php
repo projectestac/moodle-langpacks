@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'bulkusers', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'bulkusers', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   bulkusers
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,7 @@ $string['removeall'] = 'Ezabatu guztiak';
 $string['removesel'] = 'Ezabatu aukeratutakotik';
 $string['selected'] = 'Aukeratutakoa(k)';
 $string['selectedlist'] = 'Aukeratutako erabiltzaile-zerrenda...';
-$string['selectedlist_help'] = 'Aukeratutako erabiltzaileen zerrendara/tik gehitu edo kendu daitezke erabiltzaileak berauen izenaren gainean sakatuta eta ondoren dagokion botoiari sakatuta. Hainbat erabiltzaile aukera daitezke aldi berean Apple eddo Ctrl tekla sakatuta duzula horien izenen gainean sakatuta.';
+$string['selectedlist_help'] = 'Aukeratutako erabiltzaileen zerrendara/tik gehitu edo kendu daitezke erabiltzaileak berauen izenaren gainean klik eginda eta ondoren dagokion botoian klik eginda. Hainbat erabiltzaile aukera daitezke aldi berean Apple edo Ctrl tekla sakatuta duzula horien izenen gainean sakatuta.';
 $string['users'] = 'Erabiltzaileak';
 $string['usersfound'] = '{$a} erabiltzaile aurkituta';
 $string['users_help'] = 'Aktibo dauden iragazkiak betetzen dituzten erabiltzaile guztiak zerrendatzen dira balizko erabiltzaileen zerrendan. Iragazkirik ezarri ezean, guenko erabiltzaile guztiak zerrendatuko dira.';

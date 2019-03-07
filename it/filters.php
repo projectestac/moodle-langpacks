@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filters', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'filters', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   filters
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,7 +49,7 @@ $string['defaultx'] = 'Default ({$a})';
 $string['disabled'] = 'Disabilitato';
 $string['doesnotcontain'] = 'non contiene';
 $string['endswith'] = 'termina con';
-$string['filterallwarning'] = 'Applicare filtri alle intestazioni oltre che al contenuto potrebbe aumentare notevolmente il carico sul server. Si raccomanda di utilizzare l\'impostazione "Applica a" con moderazione, il suo uso principale è relativo al filtro multi-lingua.';
+$string['filterallwarning'] = 'Applicare filtri alle intestazioni oltre che al contenuto potrebbe aumentare notevolmente il carico sul server. Si raccomanda di utilizzare l\'impostazione "Applica a" con moderazione, il suo uso principale è relativo al filtro multilingua.';
 $string['filtersettings'] = 'Impostazioni filtro';
 $string['filtersettingsforin'] = 'Impostazione di {$a->filter} in {$a->context}';
 $string['filtersettings_help'] = 'In questa pagina è possibile attivare o disattivare i filtri per specifiche parti del sito.
@@ -75,7 +75,6 @@ $string['nofiltersenabled'] = 'In questo sito non sono stati abilitati plugin fi
 $string['off'] = 'Off';
 $string['offbutavailable'] = 'Off, disponibile';
 $string['on'] = 'On';
-$string['privacy:reason'] = 'Il sottosistema "Filtri" non memorizza dati personali.';
 $string['profilefilterfield'] = 'Nome campo personalizzato';
 $string['profilefilterlimiter'] = 'Operatore campo personalizzato';
 $string['profilelabel'] = '{$a->label}: {$a->profile} {$a->operator} {$a->value}';

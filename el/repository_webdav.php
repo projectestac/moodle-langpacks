@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_webdav', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_webdav', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_webdav
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,9 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['configplugin'] = 'Ρυθμίσεις WebDAV';
+$string['http'] = 'HTTP';
+$string['https'] = 'HTTPS';
 $string['pluginname'] = 'Χώρος Αποθήκευσης WebDAV';
-$string['webdav_password'] = 'Συνθηματικό εξυπηρετητή WebDAV';
+$string['webdav'] = 'WebDAV';
+$string['webdavbasicauth'] = 'Βασική αυθεντικοποίηση WebDAV';
+$string['webdavdigestauth'] = 'Συνοπτική αυθεντικοποίηση WebDAV';
+$string['webdav_password'] = 'Κωδικός πρόσβασης εξυπηρετητή WebDAV';
+$string['webdav_path'] = 'Διαδρομή του WebDAV';
 $string['webdav_port'] = 'Θύρα εξυπηρετητή WebDAV';
 $string['webdav_server'] = 'Εξυπηρετητής WebDAV';
+$string['webdav_type'] = 'Τύπος WebDAV';
 $string['webdav_user'] = 'Χρήστης εξυπηρετητή WebDAV';
 $string['webdav:view'] = 'Εμφάνιση του repository WebDav';

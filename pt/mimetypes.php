@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mimetypes', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'mimetypes', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   mimetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,11 +50,11 @@ $string['application/x-javascript'] = 'Código fonte JavaScript';
 $string['application/x-mspublisher'] = 'Documento do Publisher';
 $string['application/x-shockwave-flash'] = 'Animação Flash';
 $string['archive'] = 'Arquivo ({$a->EXT})';
-$string['audio'] = 'Ficheiro Audio ({$a->EXT})';
+$string['audio'] = 'Ficheiro Áudio ({$a->EXT})';
 $string['default'] = '{$a->mimetype}';
 $string['document/unknown'] = 'Ficheiro';
 $string['group:archive'] = 'Ficheiros de arquivo';
-$string['group:audio'] = 'Ficheiros Audio';
+$string['group:audio'] = 'Ficheiros Áudio';
 $string['group:document'] = 'Ficheiros de documento';
 $string['group:html_audio'] = 'Ficheiros de áudio suportados de modo nativo pelos navegadores';
 $string['group:html_track'] = 'Ficheiros de faixa HTML';
@@ -63,8 +63,8 @@ $string['group:image'] = 'Ficheiros de imagem';
 $string['group:presentation'] = 'Ficheiros de Apresentação';
 $string['group:sourcecode'] = 'Código fonte';
 $string['group:spreadsheet'] = 'Ficheiros de Folha de Cálculo';
-$string['group:video'] = 'Ficheiros de video';
-$string['group:web_audio'] = 'Ficheiros de Audio usados na web';
+$string['group:video'] = 'Ficheiros de vídeo';
+$string['group:web_audio'] = 'Ficheiros de Áudio usados na web';
 $string['group:web_file'] = 'Ficheiros Web';
 $string['group:web_image'] = 'Ficheiros de imagem usados na web';
 $string['group:web_video'] = 'Ficheiros de vídeo usados na web';

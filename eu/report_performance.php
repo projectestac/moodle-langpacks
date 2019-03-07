@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_performance', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_performance', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   report_performance
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['check_backup'] = 'Segurtasun-kopia automatizatua';
-$string['check_backup_comment_disable'] = 'Errendimendua kaltetua izan daiteke segutasun-kopia egin bitartean. Gaituz gero, segurtasun-kopiak trafiko gehieneko denbora-tarteetatik kanpo programatu behar lirateke.';
-$string['check_backup_comment_enable'] = 'Errendimendua kaltetua izan daiteke segutasun-kopia egin bitartean. Segurtasun-kopiak trafiko gehieneko denbora-tarteetatik kanpo programatu behar lirateke.';
+$string['check_backup_comment_disable'] = 'Errendimendua kaltetua izan daiteke segurtasun-kopia egin bitartean. Gaituz gero, segurtasun-kopiak trafiko gehienezko denbora-tarteetatik kanpo programatu behar lirateke.';
+$string['check_backup_comment_enable'] = 'Errendimendua kaltetua izan daiteke segutasun-kopia egin bitartean. Segurtasun-kopiak trafiko gehienezko denbora-tarteetatik kanpo programatu behar lirateke.';
 $string['check_backup_details'] = 'Segurtasun-kopia automatizatuak gaituz gero, zerbitzarian ikastaro guztien fitxategiak sortuko dira zuk zehaztutako orduan. <p>Prozesuak dirauen bitartean, zerbitzariko baliabide gehiago kontsumituko dira eta horrek eragina izan dezake errendimenduan.</p>';
 $string['check_cachejs_comment_disable'] = 'Gaituz gero, orriak kargatzeko errendimendua hobetzen da';
 $string['check_cachejs_comment_enable'] = 'Desgaituz gero, orria astiro karga daiteke.';
@@ -50,5 +50,4 @@ $string['morehelp'] = 'laguntza gehiago';
 $string['performancereportdesc'] = 'Txosten honek {$a} gunearen errendimenduan eragina izan dezaketen arazoak zerrendatzen ditu';
 $string['performance:view'] = 'Ikusi errendimenduaren txostena';
 $string['pluginname'] = 'Errendimenduaren laburpena';
-$string['privacy:metadata'] = 'Errendimenduaren laburpena pluginak ez du datu pertsonalik biltzen.';
 $string['value'] = 'Balioa';

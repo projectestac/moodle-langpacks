@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_mobile', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'local_mobile', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   local_mobile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['allowpermissions'] = 'Eman baimenak autentifikatutako erabiltzaile-rolari';
+$string['allowpermissionsdescription'] = 'Editatu Autentifikatutako erabiltzaile-rola eta baimendu moodle/webservice:createtoken gaitasuna';
+$string['cannotcreatetoken'] = 'Tokenen sorrera automatikoa ez dago eskuragarri guneko kudeatzaileentzat (guneko token bat eskuz sortu behar dute)';
+$string['checkpluginconfiguration'] = 'Egiaztatu pluginaren konfigurazioa';
+$string['clickheretolaunchtheapp'] = 'Mesedez, klik egin hemen app-a ez bada automatikoki irekitzen.';
+$string['enableadditionalservice'] = 'Gaitu Moodle Mobile ezaugarri gehigarrien zerbitzua';
+$string['enableadditionalservicedescription'] = 'Zerbitzu hau gaituta egon behar da.';
+$string['local_mobiledescription'] = 'Mobile zerbitzuaren ezaugarriak hedatzen dituen plugina';
 $string['local_mobilesettings'] = 'Ezarpenak';
+$string['pluginname'] = 'Moodle Mobile ezaugarri gehigarriak';
+$string['pluginnotenabledorconfigured'] = 'Moodle Mobile plugin lokala gaituta eta konfiguratuta egon behar da app-a irekitzeko';

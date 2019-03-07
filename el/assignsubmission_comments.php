@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_comments', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignsubmission_comments', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   assignsubmission_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,5 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['blindmarkingname'] = 'Συμμετέχοντας {$a}';
 $string['blindmarkingviewfullname'] = 'Συμμετέχοντας {$a->participantnumber} ({$a->participantfullname})';
 $string['default'] = 'Ενεργοποιημένο από προεπιλογή';
-$string['enabled'] = 'Υποβολή σχολίων';
-$string['pluginname'] = 'Υποβολή σχολίων';
+$string['default_help'] = 'Αν οριστεί, αυτή η μέθοδος υποβολής θα ενεργοποιηθεί από προεπιλογή για όλες τις νέες αναθέσεις.';
+$string['enabled'] = 'Σχόλια υποβολής';
+$string['enabled_help'] = 'Αν ενεργοποιηθεί, οι μαθητές θα μπορούν να αφήνουν σχόλια στις ίδιες τους τις υποβολές εργασιών. Αυτό μπορεί να χρησιμοποιηθεί για να επιτρέπει στους μαθητές να εφιστούν την προσοχή των βαθμολογητών σχετικά με το ποιό είναι το κύριο/αρχικό/κεντρικό αρχείο σε περίπτωση διασυνδεδεμένων αρχείων, για παράδειγμα.';
+$string['pluginname'] = 'Σχόλια υποβολής';

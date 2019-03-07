@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'lti', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,6 +47,7 @@ $string['addnewapp'] = 'Habilitar aplicación externa';
 $string['addserver'] = 'Añadir un nuevo servidor de confianza';
 $string['addtype'] = 'Añadir configuración de la herramienta externa';
 $string['allow'] = 'Permitir';
+$string['allowinstructorcustom'] = 'Permitir a los instructores añadir parámetros personalizados';
 $string['allowsetting'] = 'Permitir que la herramienta almacene 8 K de ajustes en Moodle';
 $string['always'] = 'Siempre';
 $string['autoaddtype'] = 'Añadir herramienta';
@@ -181,10 +182,6 @@ $string['grading'] = 'Rutas de calificación';
 $string['icon_url'] = 'URL de icono';
 $string['icon_url_help'] = 'La URL de icono permite modificar el icono que se muestra en la lista de cursos para esta actividad. En vez del icono LTI se puede especificar un icono adecuado al tipo de actividad.';
 $string['id'] = 'id';
-$string['indicator:cognitivedepth'] = 'LTI cognitiva';
-$string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad LTI.';
-$string['indicator:socialbreadth'] = 'LTI social';
-$string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad LTI.';
 $string['invalidid'] = 'ID de LTI incorrecta';
 $string['launch_in_moodle'] = 'Iniciar la herramienta en Moodle';
 $string['launchinpopup'] = 'Iniciar el contenedor';
@@ -300,7 +297,7 @@ $string['resource'] = 'Recurso';
 $string['resourcekey'] = 'Clave de cliente';
 $string['resourcekey_admin'] = 'Clave de cliente';
 $string['resourceurl'] = 'URL del recurso';
-$string['return_to_course'] = 'Clic <a href="{$a->link}" target="_top">aquí</a> para volver al curso.';
+$string['return_to_course'] = 'Haz clic <a href="{$a->link}" target="_top">aquí</a> para volver al curso.';
 $string['saveallfeedback'] = 'Guardar toda mi retroalimentación';
 $string['search:activity'] = 'Herramienta externa - información de actividad';
 $string['selectcontent'] = 'Seleccionar contenido';
@@ -337,20 +334,20 @@ $string['toolproxyregistration'] = 'Registro de herramienta externa';
 $string['toolregistration'] = 'Registro de herramienta externa';
 $string['tool_settings'] = 'Ajustes de la herramienta';
 $string['toolsetup'] = 'Registro de herramienta externa';
-$string['tooltypeadded'] = 'Se ha añadido la herramienta preconfigurada';
-$string['tooltypedeleted'] = 'Se ha borrado la herramienta preconfigurada';
-$string['tooltypenotdeleted'] = 'No se ha podido borrar la herramienta preconfigurada';
+$string['tooltypeadded'] = 'Añadida herramienta preconfigurada';
+$string['tooltypedeleted'] = 'Herramienta preconfigurada borrada';
+$string['tooltypenotdeleted'] = 'No se puede borrar la herramienta preconfigurada';
 $string['tooltypes'] = 'Herramientas';
-$string['tooltypeupdated'] = 'Se ha actualizado la herramienta preoconfigurada';
+$string['tooltypeupdated'] = 'Herramienta preconfigurada actualizada';
 $string['toolurl'] = 'URL de la herramienta';
 $string['toolurlplaceholder'] = 'URL de la herramienta...';
 $string['typename'] = 'Nombre de la herramienta';
 $string['types'] = 'Tipos';
-$string['unabletocreatetooltype'] = 'No se ha podido crear la herramienta';
-$string['unabletofindtooltype'] = 'No se ha podido encontrar la herramienta {$a->id}';
+$string['unabletocreatetooltype'] = 'No se puede crear la herramienta';
+$string['unabletofindtooltype'] = 'No se puede encontrar la herramienta {$a->id}';
 $string['unknownstate'] = 'Estado desconocido';
 $string['update'] = 'Actualización';
-$string['useraccountinformation'] = 'Información de la cuenta del usuario';
+$string['useraccountinformation'] = 'Información de la cuenta de usuario';
 $string['userpersonalinformation'] = 'Información personal del usuario';
 $string['using_tool_cartridge'] = 'Usando herramienta cartridge';
 $string['using_tool_configuration'] = 'Usar configuración de herramienta:';

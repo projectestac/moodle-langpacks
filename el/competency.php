@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'competency', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,18 +25,34 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['allchildrenarecomplete'] = 'Όλα τα παιδιά είναι πλήρη';
 $string['competencies'] = 'Προσόντα';
 $string['competenciesarenotenabled'] = 'Τα προσόντα δεν έχουν ενεργοποιηθεί.';
 $string['competenciessettings'] = 'Ρυθμίσεις προσόντων';
+$string['completeplanstask'] = 'Ολοκληρωμένα σχέδια μάθησης που οφείλονται';
 $string['coursecompetencyoutcome_complete'] = 'Ολοκλήρωση του προσόντος';
+$string['coursecompetencyoutcome_evidence'] = 'Επισυνάψτε αποδεικτικό';
+$string['coursecompetencyoutcome_none'] = 'Να μην γίνει τίποτα άλλο';
+$string['coursecompetencyoutcome_recommend'] = 'Αποστολή προς εξέταση';
 $string['coursemodulecompetencyoutcome_complete'] = 'Ολοκλήρωση του προσόντος';
-$string['deletecompetencyratings'] = 'Διαγραφή εκτίμησης προσόντος';
+$string['coursemodulecompetencyoutcome_evidence'] = 'Επισυνάψτε αποδεικτικό';
+$string['coursemodulecompetencyoutcome_none'] = 'Να μην γίνει τίποτα άλλο';
+$string['coursemodulecompetencyoutcome_recommend'] = 'Αποστολή προς εξέταση';
+$string['deletecompetencyratings'] = 'Διαγραφή εκτιμήσεων προσόντος';
+$string['duplicateditemname'] = '{$a} (αντίγραφο)';
 $string['enablecompetencies'] = 'Ενεργοποίηση προσόντων';
-$string['enablecompetencies_desc'] = 'Τα προσόντα επιτρέπουν στους χρήστες να αξιολογούνται σύμφωνα με μαθησιακά πλάνα.';
+$string['enablecompetencies_desc'] = 'Τα προσόντα επιτρέπουν στους χρήστες να αξιολογούνται σύμφωνα με σχέδια μάθησης.';
+$string['errorcannotchangeapastduedate'] = 'H καταληκτική ημερομηνία έχει περάσει· δεν μπορεί να αλλάξει.';
+$string['errorcannotsetduedateinthepast'] = 'H καταληκτική ημερομηνία δεν μπορεί να οριστεί στο παρελθόν.';
+$string['errorcannotsetduedatetoosoon'] = 'H καταληκτική ημερομηνία είναι πάρα πολύ σύντομα.';
 $string['errorcompetencyrule'] = 'Ο κανόνας προσόντος μαθήματος \'{$a}\' δεν βρέθηκε';
 $string['errorcoursecompetencyrule'] = 'Ο κανόνας προσόντος μαθήματος \'{$a}\' δεν βρέθηκε';
-$string['errornocompetency'] = '{$a} Το προσόν δεν βρέθηκε';
-$string['errorusercomptencystatus'] = 'Η κατάσταση προσόντος χρήστη \'{$a}\' δεν βρέθηκε';
+$string['errorinvalidcourse'] = 'Μη έγκυρο μάθημα.';
+$string['errornocompetency'] = 'Το προσόν «{$a}» δεν βρέθηκε';
+$string['errorplanstatus'] = 'Άγνωστη κατάσταση σχεδίων μάθησης «{$a}»';
+$string['errorscalealreadyused'] = 'Η κλίμακα δεν μπορεί να τροποποιηθεί, καθώς είναι ήδη σε χρήση.';
+$string['errorscaleconfiguration'] = 'Η κλίμακα χρειάζεται να ρυθμιστεί επιλέγοντας προεπιλεγμένα και προχωρημένα στοιχεία.';
+$string['errorusercomptencystatus'] = 'Η κατάσταση προσόντος χρήστη «{$a}» δεν βρέθηκε';
 $string['eventcompetencycreated'] = 'Το προσόν δημιουργήθηκε.';
 $string['eventcompetencydeleted'] = 'Το προσόν διαγράφηκε.';
 $string['eventcompetencyframeworkcreated'] = 'Το πλαίσιο προσόντων δημιουργήθηκε.';
@@ -45,36 +61,91 @@ $string['eventcompetencyframeworkupdated'] = 'Το πλαίσιο προσόντ
 $string['eventcompetencyframeworkviewed'] = 'Το πλαίσιο προσόντων εμφανίστηκε.';
 $string['eventcompetencyupdated'] = 'Το προσόν ενημερώθηκε.';
 $string['eventcompetencyviewed'] = 'Το προσόν εμφανίστηκε.';
+$string['eventevidencecreated'] = 'Το αποδεικτικό δημιουργήθηκε.';
+$string['eventplanapproved'] = 'Το σχέδιο μάθησης εγκρίθηκε.';
+$string['eventplancompleted'] = 'Το σχέδιο μάθησης ολοκληρώθηκε.';
+$string['eventplancreated'] = 'Το σχέδιο μάθησης δημιουργήθηκε.';
+$string['eventplandeleted'] = 'Το σχέδιο μάθησης διαγράφηκε.';
+$string['eventplanreopened'] = 'Το σχέδιο μάθησης ξανα-άνοιξε.';
+$string['eventplanreviewrequestcancelled'] = 'Το αίτημα εξέτασης του σχεδίου μάθησης ακυρώθηκε.';
+$string['eventplanreviewrequested'] = 'Έγινε αίτημα εξέτασης του σχεδίου μάθησης.';
+$string['eventplanreviewstarted'] = 'Η εξέταση του σχεδίου μάθησης ξεκίνησε.';
+$string['eventplanreviewstopped'] = 'Η εξέταση του σχεδίου μάθησης σταμάτησε.';
+$string['eventplanunapproved'] = 'Ανακλήθηκε η έγκριση του σχεδίου μάθησης.';
+$string['eventplanunlinked'] = 'Το σχέδιο μάθησης αποσυνδέθηκε.';
+$string['eventplanupdated'] = 'Το σχέδιο μάθησης ενημερώθηκε.';
+$string['eventplanviewed'] = 'Το σχέδιο μάθησης εμφανίστηκε.';
+$string['eventtemplatecreated'] = 'Το πρότυπο σχεδίου μάθησης δημιουργήθηκε.';
+$string['eventtemplatedeleted'] = 'Το πρότυπο σχεδίου μάθησης διαγράφηκε.';
+$string['eventtemplateupdated'] = 'Το πρότυπο σχεδίου μάθησης ενημερώθηκε.';
+$string['eventtemplateviewed'] = 'Το πρότυπο σχεδίου μάθησης εμφανίστηκε.';
 $string['eventusercompetencyplanviewed'] = 'Το πλάνο προσόντων χρήστη εμφανίστηκε.';
 $string['eventusercompetencyrated'] = 'Το προσόν του χρήστη εκτιμήθηκε.';
 $string['eventusercompetencyratedincourse'] = 'Το προσόν του χρήστη εκτιμήθηκε στο μάθημα.';
-$string['eventusercompetencyratedinplan'] = 'Το προσόν του χρήστη εκτιμήθηκε σε ένα μαθησιακό πλάνο.';
+$string['eventusercompetencyratedinplan'] = 'Το προσόν του χρήστη εκτιμήθηκε σε ένα σχέδιο μάθησης.';
 $string['eventusercompetencyreviewrequestcancelled'] = 'Ακυρώθηκε το αίτημα χρήστη για επανεξέταση προσόντος.';
 $string['eventusercompetencyreviewrequested'] = 'Έγινε αίτημα για επανεξέταση προσόντος χρήση.';
 $string['eventusercompetencyreviewstarted'] = 'Ξεκίνησε η επανεξέταση προσόντος χρήστη.';
 $string['eventusercompetencyreviewstopped'] = 'Σταμάτησε η επανεξέταση προσόντος χρήστη.';
 $string['eventusercompetencyviewed'] = 'Εμφανίστηκε το προσόν χρήστη.';
 $string['eventusercompetencyviewedincourse'] = 'Το προσόν χρήστη εμφανίστηκε σε ένα μάθημα.';
-$string['eventusercompetencyviewedinplan'] = 'Το προσόν χρήστη εμφανίστηκε σε ένα μαθησιακό πλάνο.';
+$string['eventusercompetencyviewedinplan'] = 'Το προσόν χρήστη εμφανίστηκε σε ένα σχέδιο μάθησης.';
+$string['eventuserevidencecreated'] = 'Το αποδεικτικό προηγούμενης μάθησης δημιουργήθηκε.';
+$string['eventuserevidencedeleted'] = 'Το αποδεικτικό προηγούμενης μάθησης διαγράφηκε.';
+$string['eventuserevidenceupdated'] = 'Το αποδεικτικό προηγούμενης μάθησης ενημερώθηκε.';
 $string['evidence_competencyrule'] = 'Ο κανόνας του προσόντος ικανοποιήθηκε.';
+$string['evidence_coursecompleted'] = 'Το μάθημα «{$a}» ολοκληρώθηκε.';
+$string['evidence_coursemodulecompleted'] = 'Η δραστηριότητα «{$a}» ολοκληρώθηκε.';
+$string['evidence_courserestored'] = 'Η εκτίμηση επαναφέρθηκε μαζί με το μάθημα \'{$a}\'.';
+$string['evidence_evidenceofpriorlearninglinked'] = 'Το αποδεικτικό προηγούμενης μάθησης \'{$a}\' συνδέθηκε.';
+$string['evidence_evidenceofpriorlearningunlinked'] = 'Το αποδεικτικό προηγούμενης μάθησης \'{$a}\' αποσυνδέθηκε.';
 $string['evidence_manualoverride'] = 'Η εκτίμηση του προσόντος έγινε μη αυτόματα.';
 $string['evidence_manualoverrideincourse'] = 'Η εκτίμηση του προσόντος έγινε μη αυτόματα στο μάθημα \'{$a}\'.';
-$string['evidence_manualoverrideinplan'] = 'Η εκτίμηση του προσόντος έγινε μη αυτόματα στο μαθησιακό πλάνο \'{$a}\'.';
-$string['planstatusinreview'] = 'Επανεξέταση';
-$string['pushcourseratingstouserplans_desc'] = 'Προεπιλεγμένη τιμή για τη ρύθμιση μαθήματος κατά την ενημέρωση προσωπικών μαθησιακών πλάνων όταν εκτιμώνται προσόντα μαθήματος.';
-$string['syncplanscohorts'] = 'Συγχρονισμός πλάνων μέσω προτύπων πλάνου συνόλων χρηστών';
+$string['evidence_manualoverrideinplan'] = 'Η εκτίμηση του προσόντος έγινε μη αυτόματα στο σχέδιο μάθησης \'{$a}\'.';
+$string['invalidevidencedesc'] = 'Περιγραφή άκυρου αποδεικτικού';
+$string['invalidgrade'] = 'Μη έγκυρη εκτίμηση';
+$string['invalidpersistent'] = 'Μη έγκυρο μοντέλο (persistent)';
+$string['invalidpersistenterror'] = 'Σφάλμα: {$a}';
+$string['invalidplan'] = 'Άκυρο σχέδιο μάθησης';
+$string['invalidtaxonomy'] = 'Μη έγκυρη ταξινομία: {$a}';
+$string['invalidurl'] = 'Η διεύθυνση URL δεν είναι έγκυρη. Βεβαιωθείτε ότι ξεκινά με \'http://\' or \'https://\'.';
+$string['planstatusactive'] = 'Ενεργό';
+$string['planstatuscomplete'] = 'Πλήρες';
+$string['planstatusdraft'] = 'Προσχέδιο';
+$string['planstatusinreview'] = 'Εξετάζεται';
+$string['planstatuswaitingforreview'] = 'Αναμονή για εξέταση';
+$string['pointsrequiredaremet'] = 'Οι απαιτούμενοι πόντοι επιτεύχθηκαν';
+$string['pushcourseratingstouserplans'] = 'Προώθηση εκτιμήσεων μαθήματος σε ατομικά σχέδια μάθησης';
+$string['pushcourseratingstouserplans_desc'] = 'Προεπιλεγμένη τιμή για τη ρύθμιση μαθήματος κατά την ενημέρωση προσωπικών σχεδίων μάθησης όταν εκτιμώνται προσόντα μαθήματος.';
+$string['syncplanscohorts'] = 'Συγχρονισμός σχεδίων μέσω προτύπων σχεδίων μάθησης συνόλων χρηστών';
+$string['taxonomy_behaviour'] = 'Συμπεριφορά';
 $string['taxonomy_competency'] = 'Προσόν';
+$string['taxonomy_concept'] = 'Έννοια';
 $string['taxonomy_domain'] = 'Τομέας';
-$string['usercommentedonacompetency'] = 'Ο/Η {$a->fullname} σχολίασε για το προσόν "{$a->competency}": {$a->comment} Δες: {$a->url}';
-$string['usercommentedonacompetencyhtml'] = '<p>Ο/Η {$a->fullname} σχολίασε για το προσόν "{$a->competency}":</p> <div>{$a->comment}</div> <p>Δες: <a href="{$a->url}">{$a->urlname}</a>.</p>';
-$string['usercommentedonacompetencysmall'] = 'Ο/Η {$a->fullname} έκανε σχόλιο για το προσόν "{$a->competency}".';
-$string['usercommentedonacompetencysubject'] = 'Ο/Η {$a} έκανε σχόλιο για κάποιο προσόν';
-$string['usercommentedonaplan'] = 'Ο/Η {$a->fullname} σχολίασε για το μαθησιακό πλάνο "{$a->plan}":
+$string['taxonomy_indicator'] = 'Δείκτης';
+$string['taxonomy_level'] = 'Επίπεδο';
+$string['taxonomy_outcome'] = 'Μαθ. Αποτέλεσμα';
+$string['taxonomy_practice'] = 'Πρακτική';
+$string['taxonomy_proficiency'] = 'Επάρκεια';
+$string['taxonomy_skill'] = 'Δεξιότητα';
+$string['taxonomy_value'] = 'Τιμή';
+$string['usercommentedonacompetency'] = 'Ο/Η {$a->fullname} έκανε ένα σχόλιο για τη δεξιότητα «{$a->competency}»:
 
 {$a->comment}
 
-Δες: {$a->url}';
-$string['usercommentedonaplanhtml'] = '<p>Ο/Η {$a->fullname} σχολίασε για το μαθησιακό πλάνο "{$a->plan}":</p>
+Δείτε: {$a->url}';
+$string['usercommentedonacompetencyhtml'] = '<p>Ο/Η {$a->fullname} έκανε ένα σχόλιο για το προσόν «{$a->competency}»:</p>
 <div>{$a->comment}</div>
-<p>Δες: <a href="{$a->url}">{$a->urlname}</a>.</p>';
-$string['usercompetencystatus_inreview'] = 'Επανεξέταση';
+<p>Δείτε: <a href="{$a->url}">{$a->urlname}</a>.</p>';
+$string['usercommentedonacompetencysmall'] = 'Ο/Η {$a->fullname} έκανε ένα σχόλιο για το προσόν «{$a->competency}».';
+$string['usercommentedonacompetencysubject'] = 'Ο/Η {$a} έκανε ένα σχόλιο για κάποιο προσόν.';
+$string['usercommentedonaplan'] = 'Ο/Η {$a->fullname} σχολίασε για το σχέδιο μάθησης "{$a->plan}":<br /> {$a->comment}<br />
+Δείτε: {$a->url}';
+$string['usercommentedonaplanhtml'] = '<p>Ο/Η {$a->fullname} σχολίασε για το σχέδιο μάθησης "{$a->plan}":</p> <div>{$a->comment}</div>
+<p>Δείτε: <a href="{$a->url}">{$a->urlname}</a>.</p>';
+$string['usercommentedonaplansmall'] = 'Ο/Η {$a->fullname} σχολίασε για το σχέδιο μάθησης "{$a->plan}".';
+$string['usercommentedonaplansubject'] = 'Ο/Η {$a} σχολίασε για ένα σχέδιο μάθησης.';
+$string['usercompetencystatus_idle'] = 'Σε αδράνεια';
+$string['usercompetencystatus_inreview'] = 'Εξετάζεται';
+$string['usercompetencystatus_waitingforreview'] = 'Σε αναμονή για εξέταση';
+$string['userplans'] = 'Σχέδια μάθησης';

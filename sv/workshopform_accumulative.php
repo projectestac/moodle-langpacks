@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_accumulative', language 'sv', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshopform_accumulative', language 'sv', branch 'MOODLE_32_STABLE'
  *
  * @package   workshopform_accumulative
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['dimensioncommentfor'] = 'Kommentar till {$a}';
+$string['dimensiongradefor'] = 'Betyg för {$a}';
 $string['dimensionmaxgrade'] = 'Högsta möjliga betyg / Skala att använda';
+$string['dimensionweight'] = 'Viktning';
 $string['pluginname'] = 'Ackumulerande betygssättning';

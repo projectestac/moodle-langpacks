@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_customlang', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,7 +33,7 @@ $string['confirmcheckin'] = 'Está prestes a inserir strings modificadas no seu 
 $string['customlang:edit'] = 'Editar tradução local';
 $string['customlang:view'] = 'Ver tradução local';
 $string['filter'] = 'Filtrar strings';
-$string['filtercomponent'] = 'Mostrar as strings desses componentes';
+$string['filtercomponent'] = 'Mostrar strings destes componentes';
 $string['filtercustomized'] = 'Apenas customizado';
 $string['filtermodified'] = 'Apenas modificado';
 $string['filteronlyhelps'] = 'Apenas ajuda';
@@ -56,6 +56,5 @@ $string['placeholder_help'] = 'Espaços reservados (placeholders) são códigos 
 Como tal, é importante copiá-los exatamente como estão na string original. Não os traduza, nem altere a sua orientação da direita para a esquerda.';
 $string['placeholderwarning'] = 'strings com expressões especiais';
 $string['pluginname'] = 'Personalização do idioma';
-$string['privacy:metadata'] = 'O módulo Personalização do idioma não armazena dados pessoais.';
 $string['savecheckin'] = 'Guardar alterações ao pacote linguístico';
 $string['savecontinue'] = 'Guardar e continuar a editar';

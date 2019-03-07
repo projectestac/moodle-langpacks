@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_overview', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_course_overview', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   block_course_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,17 +26,22 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityoverview'] = 'Zain dituzu hainbat {$a}';
-$string['addfavourite'] = 'gehitu gogokoa';
 $string['alwaysshowall'] = 'Erakutsi beti guztiak';
 $string['collapseall'] = 'Tolestu ikastaro-zerrenda guztiak';
-$string['configotherexpanded'] = 'Gaituz gero, beste ikastaro batzuk berez zabalduko dira, erabiltzailearen hobespenetan baliogabetzen ez bada behintzat.';
+$string['configotherexpanded'] = 'Gaituz gero, beste ikastaro batzuk modu lehenetsian zabalduko dira, erabiltzailearen hobespenetan baliogabetzen ez bada behintzat.';
 $string['configpreservestates'] = 'Gaituz gero, erabiltzaileak ezarritako tolestu/zabaldu egoerak kargatze bakoitzean gorde eta erabiltzen dira.';
 $string['course_overview:addinstance'] = 'Gehitu ikastaroaren ikuspegi orokorra blokea';
 $string['course_overview:myaddinstance'] = 'Gehitu ikastaroaren ikuspegi orokorra bloke berria aginte-panelean';
+$string['defaultmaxcourses'] = 'Berezko gehinenezko ikastaroak';
+$string['defaultmaxcoursesdesc'] = 'Ikastaroen ikuspegi orokorra blokean gehienez erakutsiko den ikastaro-kopurua. 0 ipiniz gero, ikastaro guztiak erakutsiko dira.';
 $string['expandall'] = 'Zabaldu ikastaro-zerrenda guztiak';
-$string['favourites'] = 'Gogokoak';
+$string['forcedefaultmaxcourses'] = 'behartu gehienezko ikastaroak';
+$string['forcedefaultmaxcoursesdesc'] = 'Gaituz gero, erabiltzaileak ezin izango ditu bere ezarpenak aldatu.';
 $string['fullpath'] = 'Kategoria eta azpikategoria guztika';
-$string['help'] = 'Laguntza';
+$string['hiddencoursecount'] = '{$a} ikastaro dituzu ezkutuan';
+$string['hiddencoursecountplural'] = '{$a} ikastaro dituzu ezkutuan';
+$string['hiddencoursecountwithshowall'] = '{$a->coursecount} ikastaro dituzu ezkutuan ({$a->showalllink})';
+$string['hiddencoursecountwithshowallplural'] = '{$a->coursecount} ikastaro dituzu ezkutuan  ({$a->showalllink})';
 $string['message'] = 'mezua';
 $string['messages'] = 'mezuak';
 $string['moveafterhere'] = 'Mugitu {$a->movingcoursename} ikastaroa  {$a->currentcoursename} ikastaroaren atzeko aldera';
@@ -44,24 +49,21 @@ $string['movecourse'] = 'Mugitu ikastaroa: {$a}';
 $string['movecoursehere'] = 'Mugitu ikastaroa hona';
 $string['movetofirst'] = 'Mugitu {$a} ikastaroa gora';
 $string['movingcourse'] = 'Mugitzen ari zara: {$a->fullname} ({$a->cancellink})';
-$string['nocourses'] = 'Ez dago erakusteko ikastarorik';
 $string['none'] = 'Bat ere ez';
 $string['numtodisplay'] = 'Erakusteko ikastaro-kopurua:';
 $string['onlyparentname'] = 'Goragoko kategoria baino ez';
 $string['otherexpanded'] = 'Zabaldutako beste ikastaro batzuk';
-$string['pluginname'] = 'Ikastaroaren ikuspegi orokorra (zaharkitua)';
+$string['pluginname'] = 'Ikastaroaren ikuspegi orokorra';
 $string['preservestates'] = 'Mantendu zabaldutakoak';
-$string['removefavourite'] = 'Ezabatu gogokoa';
-$string['reorderfullname'] = 'Ikastaroaren izen osoa';
-$string['reorderid'] = 'Ikastaroaren IDa';
-$string['reordershortname'] = 'Ikastaroaren izen laburrra';
 $string['shortnameprefix'] = '{$a} barne';
 $string['shortnamesufixprural'] = '(eta beste {$a})';
 $string['shortnamesufixsingular'] = '(eta beste {$a})';
 $string['showcategories'] = 'Erakusteko kategoriak';
 $string['showcategoriesdesc'] = 'Ikastaro bakoitzaren azpian  ikastaro-kategoria guztiak erakutsiko dira?';
-$string['title'] = 'Ikuspegi orokorra';
-$string['unfavourite'] = 'Ezabatu gogokoa';
+$string['showchildren'] = 'Erakutsi beheragokoak';
+$string['showchildrendesc'] = 'Ikastaro nagusiaren izenburuaren azpian beheragoko ikastaroak zerrendatu behar dira?';
+$string['showwelcomearea'] = 'Erakutsi ongietorri eremua';
+$string['showwelcomeareadesc'] = 'Erakutsi ongietorri eremua ikastaroen zerrenda gainean?';
 $string['view_edit_profile'] = '(Ikusi eta editatu zure profila.)';
 $string['welcome'] = 'Ongi etorri {$a}';
 $string['youhavemessages'] = '{$a} irakurri gabe d(it)uzu';

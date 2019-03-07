@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'cache', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,8 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actions'] = 'Accions';
 $string['addinstance'] = 'Afegeix instància';
-$string['addlocksuccess'] = 'S\'ha afegit amb èxit una nova instància de bloqueig.';
-$string['addnewlockinstance'] = 'Afegeix una nova instància de bloqueig';
+$string['addlocksuccess'] = 'S\'ha afegit amb èxit una instància de bloqueig nova.';
+$string['addnewlockinstance'] = 'Afegeix una instància de bloqueig nova';
 $string['addstore'] = 'Afegeix magatzem {$a}';
 $string['addstoresuccess'] = 'S\'ha afegit amb èxit el nou magatzem {$a}';
 $string['area'] = 'Àrea';
@@ -38,8 +38,7 @@ $string['cachedef_calendar_subscriptions'] = 'Subscripcions al calendari';
 $string['cachedef_capabilities'] = 'Llista de capacitats del sistema';
 $string['cachedef_completion'] = 'Estat de compleció de la tasca';
 $string['cachedef_config'] = 'Paràmetres de configuració';
-$string['cachedef_contextwithinsights'] = 'Context amb prediccions';
-$string['cachedef_coursecat'] = 'Llistat de categories del curs per a l\'usuari particular';
+$string['cachedef_coursecat'] = 'Llista de categories del curs per a l\'usuari particular';
 $string['cachedef_coursecatrecords'] = 'Registres de les categories del curs';
 $string['cachedef_coursecattree'] = 'Arbre de les categories del curs';
 $string['cachedef_coursecompletion'] = 'Estat de compleció del curs';
@@ -48,7 +47,6 @@ $string['cachedef_coursemodinfo'] = 'Informació acumulada sobre mòduls i secci
 $string['cachedef_databasemeta'] = 'Metainformació de la base de dades';
 $string['cachedef_eventinvalidation'] = 'Invalidació d\'esdeveniment';
 $string['cachedef_externalbadges'] = 'Insígnies externes per a un usuari particular';
-$string['cachedef_fontawesomeiconmapping'] = 'Mapatge d\'icones per a font awesome';
 $string['cachedef_grade_categories'] = 'Qualifica les consultes de categoria';
 $string['cachedef_groupdata'] = 'Informació del grup del curs';
 $string['cachedef_htmlpurifier'] = 'Purificador HTML - contingut netejat';
@@ -68,7 +66,6 @@ $string['cachedef_suspended_userids'] = 'Llista d\'usuaris amb la inscripció su
 $string['cachedef_tagindexbuilder'] = 'Resultats de la cerca pels ítems etiquetats';
 $string['cachedef_tags'] = 'Col·leccions i zones d\'etiquetes';
 $string['cachedef_temp_tables'] = 'Memòria cau de taules temporals';
-$string['cachedef_user_group_groupings'] = 'Agrupaments i grups d\'usuaris per curs';
 $string['cachedef_userselections'] = 'Dades utilitzades per a persistència de les seleccions dels usuaris a través de Moodle';
 $string['cachedef_yuimodules'] = 'Definicions del mòdul YUI';
 $string['cachelock_file_default'] = 'Blocatge de fitxers per defecte';
@@ -109,14 +106,14 @@ $string['getmiss'] = 'Fracàs';
 $string['inadequatestoreformapping'] = 'Aquest magatzem no compleix els requeriments per a totes les definicions conegudes. Les definicions per a les quals és inadequat aquest magatzem rebran el magatzem original per defecte en lloc del magatzem seleccionat.';
 $string['invalidlock'] = 'Bloqueig no vàlid';
 $string['invalidplugin'] = 'Connector invàlid';
-$string['invalidstore'] = 'Heu proporcionat un magatzem invàlid per a la memòria cau';
+$string['invalidstore'] = 'Heu proporcionat un magatzem no vàlid per a la memòria cau';
 $string['localstorenotification'] = 'Aquest cau es pot mapar tranquil·lament a una botiga local a cada servidor web';
 $string['lockdefault'] = 'Per defecte';
 $string['locking'] = 'Blocatge';
 $string['locking_help'] = 'El bloqueig és un mecanisme que restringeix l\'accés a les dades emmagatzemades en memòria cau per un procés per evitar que les dades siguin sobreescrites. El mètode de bloqueig determina com s\'adquireix el bloqueig i es comprova.';
 $string['lockname'] = 'Nom';
 $string['locknamedesc'] = 'El nom ha de ser únic i sols pot tindre els caràcters: a-zA-Z_';
-$string['locknamenotunique'] = 'El nom que heu seleccionat no és únic. Si us plau seleccioneu un nom únic.';
+$string['locknamenotunique'] = 'El nom que heu seleccionat no és únic. Seleccioneu un nom únic.';
 $string['locksummary'] = 'Resum de les instàncies de blocatge de la memòria cau';
 $string['locktype'] = 'Tipus';
 $string['lockuses'] = 'Usos';
@@ -143,7 +140,7 @@ $string['set'] = 'Defineix';
 $string['sharedstorenotification'] = 'Aquest cau s\'ha de mapar a una botiga compartida per tots els servidors web';
 $string['sharing'] = 'S\'està compartint';
 $string['sharing_all'] = 'Tothom.';
-$string['sharing_help'] = 'Això us permet determinar com les dades de la memòria cau es poden compartir si teniu una configuració en clúster, o si teniu múltiples llocs configurats amb el mateix magatzem i voleu compartir les dades. Aquesta és una opció avançada; si us plau assegureu-vos que enteneu el seu propòsit abans de canviar-la.';
+$string['sharing_help'] = 'Això us permet determinar la manera com les dades de la memòria cau es poden compartir si teniu una configuració en clúster, o si teniu múltiples llocs configurats amb el mateix magatzem i voleu compartir les dades. Aquesta és una opció avançada; assegureu-vos que enteneu el seu propòsit abans de canviar-la.';
 $string['sharing_input'] = 'Clau personalitzada (introduïda a continuació)';
 $string['sharingrequired'] = 'Cal que seleccioneu almenys una opció de compartició.';
 $string['sharingselected_all'] = 'Tothom';
@@ -164,7 +161,7 @@ $string['storenotready'] = 'El magatzem no està a punt';
 $string['storeperformance'] = 'Informes de rendiment del magatzem de memòria cau. {$a} sol·licituds úniques per operació.';
 $string['storeready'] = 'Llest';
 $string['storerequiresattention'] = 'Requereix la vostra atenció.';
-$string['storerequiresattention_help'] = 'Aquesta instància de magatzem no està llesta per a utilitzar-se, però té mapatges. Arreglar aquest problema millorarà el rendiment del sistema. Si us plau, comproveu que el backend del magatzem està llest per a utilitzar-lo i que els requisits de PHP es compleixen.';
+$string['storerequiresattention_help'] = 'Aquesta instància de magatzem no està llesta per utilitzar-se, però té mapatges. Arreglar aquest problema millorarà el rendiment del sistema. Comproveu que el <em>backend</em> del magatzem està llest per utilitzar-lo i que els requisits de PHP es compleixen.';
 $string['storeresults_application'] = 'Emmagatzema les sol·licituds quan s\'utilitza com a memòria cau d\'aplicació.';
 $string['storeresults_request'] = 'Emmagatzema les sol·licituds quan s\'utilitza com a memòria cau de sol·licituds.';
 $string['storeresults_session'] = 'Emmagatzema les sol·licituds quan s\'utilitza com a memòria cau de sessions.';

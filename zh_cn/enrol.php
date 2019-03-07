@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -124,6 +124,9 @@ $string['rolefromcategory'] = '{$a->role}（继承自课程分类）';
 $string['rolefrommetacourse'] = '{$a->role}（继承自父课程）';
 $string['rolefromsystem'] = '{$a->role}（网站级的分配）';
 $string['rolefromthiscourse'] = '{$a->role}（课程内的分配）';
+$string['sendfromcoursecontact'] = '自课程联系人';
+$string['sendfromkeyholder'] = '自注册码保管人';
+$string['sendfromnoreply'] = '自勿回复地址';
 $string['startdatetoday'] = '今天';
 $string['synced'] = '已同步';
 $string['testsettings'] = '测试设置';

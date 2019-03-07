@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'book', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addafter'] = 'Gehitu beste atal bat';
-$string['book:addinstance'] = 'Gehitu beste liburu bat';
+$string['book:addinstance'] = 'Gehitu liburu berria';
 $string['book:edit'] = 'Editatu liburuaren atalak';
 $string['book:read'] = 'Ikusi liburua';
 $string['book:viewhiddenchapters'] = 'Ikusi liburuaren ezkutuko atalak';
@@ -50,10 +50,6 @@ $string['eventchapterdeleted'] = 'Atala ezabatu da';
 $string['eventchapterupdated'] = 'Atala eguneratu da';
 $string['eventchapterviewed'] = 'Atala ikusi da';
 $string['hidechapter'] = 'Ezkutatu "{$a}" atala';
-$string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa liburuetan';
-$string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Liburua motako baliabideetan lortutako sakonera kognitiboan oinarrituta dago.';
-$string['indicator:socialbreadth'] = 'Gaitasun soziala liburuetan';
-$string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Liburua motako baliabideetan lortutako zabalera sozialean oinarrituta dago.';
 $string['modulename'] = 'Liburua';
 $string['modulename_help'] = 'Liburua moduluak aukera ematen dio irakasleari liburu formatuko hainbat orritako baliabidea sortzeko, atal eta azpiatalduna. Liburuak media fitxategiak izan ditzake eta baita testua ere eta erabilgarria da ataletan bana daitezkeen informazio-pasarte luzeak erakusteko.
 
@@ -93,8 +89,6 @@ $string['numberingoptions_desc'] = 'Aukeratu liburu berriak sortzean eskura daud
 $string['page-mod-book-x'] = 'Liburua moduluaren edozein orri';
 $string['pluginadministration'] = 'Liburuaren kudeaketa';
 $string['pluginname'] = 'Liburua';
-$string['privacy:metadata'] = 'Liburua jarduera-moduluak ez du datu pertsonalik biltzen.';
-$string['removeallbooktags'] = 'Ezabatu liburu guztien etiketak';
 $string['search:activity'] = 'Blokea - baliabidearen informazioa';
 $string['search:chapter'] = 'Liburua - atalak';
 $string['showchapter'] = 'Erakutsi  "{$a}" atala';
@@ -102,7 +96,5 @@ $string['subchapter'] = 'Azpiatala';
 $string['subchapternotice'] = '(Lehen atala sortutakoan bakarrik egongo da erabilgarri)';
 $string['subplugintype_booktool'] = 'Libururako tresna';
 $string['subplugintype_booktool_plural'] = 'Libururako tresnak';
-$string['tagarea_book_chapters'] = 'Liburu-atalak';
-$string['tagsdeleted'] = 'Liburu-etiketak ezabatu dira';
 $string['toc'] = 'Eduki-taula';
 $string['top'] = 'gora';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completion_progress', language 'en', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_completion_progress', language 'en', branch 'MOODLE_32_STABLE'
  *
  * @package   block_completion_progress
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -81,6 +81,7 @@ $string['no_visible_activities_message'] = 'None of the monitored activities are
 $string['now_indicator'] = 'NOW';
 $string['overview'] = 'Overview of students';
 $string['pluginname'] = 'Completion Progress';
+$string['privacy:metadata'] = 'The Completion Progress block only displays existing completion data.';
 $string['progress'] = 'Progress';
 $string['progressbar'] = 'Completion Progress';
 $string['shortname'] = 'Short course name';

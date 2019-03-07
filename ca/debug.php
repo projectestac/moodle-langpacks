@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'debug', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,7 +48,7 @@ $string['noblocks'] = 'No hi ha blocs instal·lats!';
 $string['nocate'] = 'No hi ha categories!';
 $string['nomodules'] = 'No hi ha mòduls!';
 $string['nopageclass'] = 'S\'ha importat {$a} però no s\'han trobat classes de pàgines';
-$string['noreports'] = 'Cap informe accessible';
+$string['noreports'] = 'No hi ha cap informe accessible';
 $string['notables'] = 'Cap taula';
 $string['phpvaroff'] = 'La variable de servidor PHP \'{$a->name}\' hauria d\'estar desactivada - {$a->link}';
 $string['phpvaron'] = 'La variable de servidor PHP \'{$a->name}\' no s\'ha activat {$a->link}';

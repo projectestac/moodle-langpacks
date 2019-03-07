@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_boxnet', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_boxnet', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_boxnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,13 +27,18 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['apikey'] = 'Κλειδί API';
 $string['boxnet:view'] = 'Εμφάνιση του αποθετηρίου box.net';
-$string['configplugin'] = 'Ρύθμιση Box.net';
+$string['cannotcreatereference'] = 'Δεν είναι δυνατή η δημιουργία αναφοράς. Δεν υπάρχουν αρκετά δικαιώματα για την κοινή χρήση του αρχείου στο Box.';
+$string['clientid'] = 'Αναγνωριστικό πελάτη';
+$string['clientsecret'] = 'Μυστικό πελάτη';
+$string['configplugin'] = 'Ρυθμίσεις Box.net';
+$string['filesourceinfo'] = 'Box ({$a->fullname}): {$a->filename}';
 $string['information'] = 'Λάβετε ένα αναγνωριστικό πελάτη και μυστικό κωδικό από την<a href="https://app.box.com/developers/services">σελίδα ανάπτυξης του Box</a> για τον Moodle ιστότοπό σας.';
-$string['invalidpassword'] = 'Μή έγκυρο συνθηματικό';
+$string['invalidpassword'] = 'Μη έγκυρος κωδικός πρόσβασης';
 $string['nullfilelist'] = 'Δεν υπάρχουν αρχεία σε αυτό το αποθετήριο';
-$string['password'] = 'Συνθηματικό';
-$string['pluginname'] = 'Box.net';
-$string['pluginname_help'] = 'Χώρος αποθήκευσης στο Box.net';
-$string['saved'] = 'Τα δεδομένα του Box.net αποθηκεύτηκαν';
+$string['password'] = 'Κωδικός πρόσβασης';
+$string['pluginname'] = 'Διαδικτυακή αποθήκευση Box.net';
+$string['pluginname_help'] = 'Χώρος αποθήκευσης στο Box';
+$string['saved'] = 'Τα δεδομένα του Box αποθηκεύτηκαν';
 $string['shareurl'] = 'Διαμοιρασμός της τοποθεσίας';
-$string['username'] = 'Όνομα χρήστη για το Box.net';
+$string['username'] = 'Όνομα χρήστη για το Box';
+$string['warninghttps'] = 'Το Box απαιτεί από τον ιστότοπό σας να χρησιμοποιεί το HTTPS για να λειτουργήσει ο αποθετήριο.';

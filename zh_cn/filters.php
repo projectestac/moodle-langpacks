@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filters', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'filters', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   filters
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,9 +37,11 @@ $string['categoryrole'] = '类别角色';
 $string['contains'] = '包含';
 $string['content'] = '内容';
 $string['contentandheadings'] = '内容和标题';
+$string['coursecategory'] = '课程分类';
 $string['courserole'] = '课程角色';
 $string['courserolelabel'] = '课程类别：{$a->categoryname} 课程名称：{$a->coursename} 角色名：{$a->rolename} 名字：{$a->label}';
 $string['courserolelabelerror'] = '{$a->label} 错误，课程：{$a->coursename} 不存在';
+$string['coursevalue'] = '课程值';
 $string['datelabelisafter'] = '{$a->label} 晚于 {$a->after}';
 $string['datelabelisbefore'] = '{$a->label} 早于 {$a->before}';
 $string['datelabelisbetween'] = '{$a->label} 在 {$a->after} 和 {$a->before} 之间';
@@ -58,13 +60,14 @@ $string['firstaccess'] = '第一次访问';
 $string['globalrolelabel'] = '{$a->label}是： {$a->value}';
 $string['isactive'] = '激活？';
 $string['isafter'] = '开始时间';
-$string['isanyvalue'] = '为任何值';
+$string['isanyvalue'] = '任意值';
 $string['isbefore'] = '结束时间';
 $string['isdefined'] = '已定义';
 $string['isempty'] = '为空';
 $string['isequalto'] = '等于';
 $string['isnotdefined'] = '未定义';
 $string['isnotequalto'] = '不等于';
+$string['limiterfor'] = '{$a}字段限制';
 $string['neveraccessed'] = '从未访问';
 $string['nevermodified'] = '从未修改';
 $string['newfilter'] = '新过滤器';
@@ -73,6 +76,7 @@ $string['off'] = '关闭';
 $string['offbutavailable'] = '关闭，但是可以使用';
 $string['on'] = '打开';
 $string['profilefilterfield'] = '简介字段名';
+$string['profilefilterlimiter'] = '简介字段操作符';
 $string['profilelabel'] = '{$a->label}: {$a->profile} {$a->operator} {$a->value}';
 $string['profilelabelnovalue'] = '{$a->label}: {$a->profile} {$a->operator}';
 $string['removeall'] = '移除所有过滤器';
@@ -82,3 +86,4 @@ $string['startswith'] = '以...开始';
 $string['tablenosave'] = '表中的更改将自动保存';
 $string['textlabel'] = '{$a->label} {$a->operator} {$a->value}';
 $string['textlabelnovalue'] = '{$a->label} {$a->operator}';
+$string['valuefor'] = '{$a}值';

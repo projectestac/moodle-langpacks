@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'mnet', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -72,7 +72,7 @@ $string['eventaccesscontrolupdated'] = 'Aggiornato controllo d\'acecsso';
 $string['expired'] = 'Questa chiave è scaduta il';
 $string['expires'] = 'Valido fino al';
 $string['expireyourkey'] = 'Elimina questa chiave';
-$string['expireyourkeyexplain'] = 'Moodle per default ruota automaticamente le chiavi ogni 28 giorni, tuttavia puoi far scadere la chiave attuale <em>manualmente</em> in qualunque momento. Può essere utile se si ritiene che la chiave sia stata compromessa. Una nuova chiave sarà immediatamente creata.<br/>Eliminare la chiave attuale impedirà a tutti gli altri Moodle di comunicare con te, finché non contatterai ogni amministratore e gli fornirai la nuova chiave.';
+$string['expireyourkeyexplain'] = 'Moodle di default ruota automaticamente le chiavi ogni 28 giorni, tuttavia puoi far scadere la chiave attuale <em>manualmente</em> in qualunque momento. Può essere utile se si ritiene che la chiave sia stata compromessa. Una nuova chiave sarà immediatamente creata.<br/>Eliminare la chiave attuale impedirà a tutti gli altri Moodle di comunicare con te, finché non contatterai ogni amministratore e gli fornirai la nuova chiave.';
 $string['exportfields'] = 'Campi da esporatre';
 $string['failedaclwrite'] = 'Scrittura della access control list MNet per l\'utente \'{$a} non riuscita.';
 $string['findlogin'] = 'Individua login';
@@ -138,7 +138,7 @@ $string['mnetpeers'] = 'Nodi';
 $string['mnetservices'] = 'Servizi';
 $string['mnet_session_prohibited'] = 'Agli utenti del tuo server non è al momento consentito l\'accesso ad {$a}.';
 $string['mnetsettings'] = 'Impostazioni MNet';
-$string['moodle_home_help'] = 'Il percorso alla homepage dell\'applicazione MNet sul host remoto, per es. /moodle/';
+$string['moodle_home_help'] = 'Il percorso alla pagina home dell\'applicazione MNet sul host remoto, per es. /moodle/';
 $string['name'] = 'Nome';
 $string['net'] = 'Networking';
 $string['networksettings'] = 'Importazioni networking';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completion_progress', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_completion_progress', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   block_completion_progress
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['completed_colour_title'] = 'Cor dos elementos concluídos';
 $string['completion_not_enabled'] = 'A verificação da conclusão não está ativa neste site.';
 $string['completion_not_enabled_course'] = 'A verificação da conclusão não está ativa nesta disciplina.';
 $string['completion_progress:addinstance'] = 'Adicionar um novo bloco Barra de Progresso';
-$string['completion_progress:myaddinstance'] = 'Adicionar um bloco Barra de Progresso à Minha página principal';
+$string['completion_progress:myaddinstance'] = 'Adicionar um bloco Barra de Progresso ao Painel de utilizador à minha Página principal';
 $string['completion_progress:overview'] = 'Ver resumo da disciplina na Barra de Progresso para todos os alunos';
 $string['completion_progress:showbar'] = 'Mostrar a barra no bloco Barra de Progresso';
 $string['config_activitiesincluded'] = 'Atividades incluídas';

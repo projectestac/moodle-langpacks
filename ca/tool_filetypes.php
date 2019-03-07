@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_filetypes', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_filetypes', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_filetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,8 +62,8 @@ La llista d\'icones s\'agafa del directori /pix/f dins la vostra instal·lació 
 $string['mimetype'] = 'Tipus MIME';
 $string['mimetype_help'] = 'Tipus MIME associat amb aquest tipus de fitxer; per exemple, «application/x-mobipocket-ebook»';
 $string['pluginname'] = 'Tipus de fitxers';
-$string['revert'] = 'Recupera els valors per defecte del Moodle de {$a}';
-$string['revert_confirmation'] = 'Confirmeu que voleu recuperar els valors per defecte del Moodle de <strong>.{$a}</strong>, i descartar els vostres canvis?';
+$string['revert'] = 'Recupera els valors per defecte de Moodle de {$a}';
+$string['revert_confirmation'] = 'Confirmeu que voleu recuperar els valors per defecte de Moodle de <strong>.{$a}</strong>, i descartar els vostres canvis?';
 $string['revertfiletype'] = 'Restaura un tipus de fitxer';
 $string['source'] = 'Tipus';
 $string['source_custom'] = 'Personalitzat';

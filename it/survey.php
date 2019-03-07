@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'survey', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -209,10 +209,6 @@ $string['guestsnotallowed'] = 'Solo gli utenti iscritti possono compilare i sond
 $string['howlong'] = 'Quanto tempo hai impiegato a completare questo sondaggio?';
 $string['howlongoptions'] = 'meno di 1 min,1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,più di 10 min';
 $string['ifoundthat'] = 'Realmente';
-$string['indicator:cognitivedepth'] = 'Sondaggio cognitivo';
-$string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività \'sondaggio\'.';
-$string['indicator:socialbreadth'] = 'Sondaggio sociale';
-$string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività \'sondaggio\'.';
 $string['introtext'] = 'Testo di introduzione';
 $string['invalidsurveyid'] = 'ID Sondaggio errata';
 $string['invalidtmptid'] = 'ID template errata';

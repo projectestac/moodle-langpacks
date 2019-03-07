@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_cohortroles', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_cohortroles', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_cohortroles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['acohortroleassignmentssaved'] = 'Αποθηκεύτηκαν {$a} αναθέσεις ρόλου σε σύνολο χρηστών';
+$string['assign'] = 'Ανάθεση';
 $string['assignroletocohort'] = 'Ανάθεση ρόλων στο πλαίσιο χρήστη σε όλα τα μέλη ενός συνόλου χρηστών';
 $string['backgroundsync'] = 'Σημείωση: Οι νέες αναθέσεις ρόλου σε αυτό το σύνολο χρηστών δεν θα τεθούν σε ισχύ αμέσως. Οι αλλαγές ανάθεσης ρόλου θα γίνουν από μια προγραμματισμένη εργασία.';
 $string['cohortroleassignmentnotremoved'] = 'Η ανάθεση ρόλου σε σύνολο χρηστών δεν αφαιρέθηκε.';
@@ -40,4 +41,7 @@ $string['pluginname'] = 'Διαχείριση ρόλων ομάδας χρηστ
 $string['removecohortroleassignment'] = 'Αφαίρεση ανάθεσης ρόλου στην ομάδα χρηστών';
 $string['removecohortroleassignmentconfirm'] = 'Είστε βέβαιοι ότι θέλετε να αφαιρέσετε αυτήν την ανάθεση ρόλου στην ομάδα χρηστών; Ο ρόλος αυτός θα αφαιρεθεί για τον χρήστη σε όλες τις άλλες περιπτώσεις χρήστη.';
 $string['selectcohorts'] = 'Επιλογή ομάδων χρηστών';
+$string['selectrole'] = 'Επιλογή ρόλου';
+$string['selectusers'] = 'Επιλέξτε χρήστες για ανάθεση ρόλου';
 $string['taskname'] = 'Συγχρονισμός αναθέσων ρόλου στην ομάδα χρηστών';
+$string['thisuserroles'] = 'Ρόλοι που ανατέθηκαν σε σχέση με αυτόν τον χρήστη';

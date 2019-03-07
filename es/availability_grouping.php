@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_grouping', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'availability_grouping', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   availability_grouping
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['description'] = 'Permitir sólo a estudiantes que pertenezcan a un grupo asociado a un agrupamiento.';
-$string['error_selectgrouping'] = 'Debe seleccionar una agrupamiento.';
-$string['missing'] = '(Agrupamiento perdido)';
+$string['error_selectgrouping'] = 'Debe seleccionar un agrupamiento.';
+$string['missing'] = '(Agrupamiento faltante)';
 $string['pluginname'] = 'Restricción por agrupamiento';
 $string['requires_grouping'] = 'se pertenezca al agrupamiento <strong>{$a}</strong>';
 $string['requires_notgrouping'] = 'No pertenece a un grupo en <strong>{$a}</strong>';

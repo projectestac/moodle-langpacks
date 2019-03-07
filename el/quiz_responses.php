@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_responses', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz_responses', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   quiz_responses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,17 +26,24 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['cannotloadoptions'] = 'Δεν ήταν δυνατόν να φορτωθούν οι επιλογές των ερωτήσεων';
-$string['pagesize'] = 'Προσπάθειες ανα σελίδα:';
+$string['include'] = 'Συμπερίληψη...';
+$string['mustselectcols'] = 'Πρέπει να συμπεριλάβετε κάτι.';
+$string['pagesize'] = 'Μέγεθος σελίδας';
 $string['pluginname'] = 'Απαντήσεις';
-$string['reportresponses'] = 'Αναλυτικές απαντήσεις';
-$string['responses'] = 'Αναλυτικές απαντήσεις';
-$string['responsesdownload'] = 'Μεταφόρτωση απαντήσεων';
+$string['questiontext'] = 'κείμενο ερώτησης';
+$string['reportresponses'] = 'Αποκρίσεις';
+$string['response'] = 'απόκριση';
+$string['responses'] = 'Αποκρίσεις';
+$string['responsesdownload'] = 'Λήψη απαντήσεων';
 $string['responsesfilename'] = 'απαντήσεις';
 $string['responsesoptions'] = 'Επιλογές απαντήσεων';
 $string['responsesreport'] = 'Αναφορά απαντήσεων';
-$string['responsestitle'] = 'Αναλυτικές απαντήσεις';
+$string['responsestitle'] = 'Αποκρίσεις';
+$string['responsex'] = 'Απόκριση {$a}';
+$string['rightanswer'] = 'σωστή απάντηση';
 $string['rightanswerx'] = 'Σωστή απάντηση {$a}';
 $string['showattempts'] = 'Μόνο εμφάνιση / λήψη προσπαθειών';
-$string['summaryofquestiontext'] = 'Σύνοψη ερώτησης';
-$string['summaryofresponse'] = 'Σύνοψη απάντησης που δόθηκε';
-$string['summaryofrightanswer'] = 'Σύνοψη σωστής απάντησης';
+$string['showthe'] = 'Εμφάνιση του';
+$string['summaryofquestiontext'] = 'Περίληψη της ερώτησης';
+$string['summaryofresponse'] = 'Περίληψη της απάντησης που δόθηκε';
+$string['summaryofrightanswer'] = 'Περίληψη της σωστής απάντησης';

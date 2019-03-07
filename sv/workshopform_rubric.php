@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_rubric', language 'sv', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshopform_rubric', language 'sv', branch 'MOODLE_32_STABLE'
  *
  * @package   workshopform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,5 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configuration'] = 'Inställningar för rubrik';
+$string['criteria'] = 'Kriterier';
 $string['layout'] = 'Upplägg för rubrik';
+$string['layoutlist'] = 'Lista';
+$string['mustbeunique'] = 'Betygen måste vara entydiga inom ett kriterium';
 $string['pluginname'] = 'Rubrik';

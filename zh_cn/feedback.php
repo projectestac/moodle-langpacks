@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'feedback', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -130,17 +130,13 @@ $string['feedback:view'] = '查看反馈活动';
 $string['feedback:viewanalysepage'] = '提交后查看分析页面';
 $string['feedback:viewreports'] = '查看报告';
 $string['file'] = '文件';
-$string['filter_by_course'] = '按课程过滤';
+$string['filter_by_course'] = '按课程筛选';
 $string['handling_error'] = '反馈模块动作处理出错';
 $string['hide_no_select_option'] = '不显示“未选择”选项';
 $string['horizontal'] = '水平';
 $string['importfromthisfile'] = '从此文件导入';
 $string['import_questions'] = '导入问题';
 $string['import_successfully'] = '导入成功';
-$string['indicator:cognitivedepth'] = '反馈活动认知深度';
-$string['indicator:cognitivedepth_help'] = '这个指标是基于学生在反馈活动中所达到的认知深度。';
-$string['indicator:socialbreadth'] = '反馈活动社会宽度';
-$string['indicator:socialbreadth_help'] = '这个指标是基于学生在反馈活动中所达到的社会宽度。';
 $string['info'] = '信息';
 $string['infotype'] = '信息类型';
 $string['insufficient_responses'] = '问卷数不够';

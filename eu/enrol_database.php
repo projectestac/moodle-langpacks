@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_database', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['database:config'] = 'Konfiguratu datu-base bidezko matrikulazio instant
 $string['database:unenrol'] = 'Desmatrikulatu kontua etenda duten erabiltzaileak';
 $string['dbencoding'] = 'Datu-basearen kodifikazioa';
 $string['dbhost'] = 'Datu-basearen ostalaria';
-$string['dbhost_desc'] = 'Idatzi datu-basearen zerbitzariaren IPa edo izena. Erabili sistemako DSN izen bat ODBC erabiliz gero. Erabili PDO DSN bat PDO erabiliz gero.';
+$string['dbhost_desc'] = 'Idatzi datu-basearen zerbitzariaren IPa edo izena. Erabili sistemako DSN sarrera bat ODBC erabiliz gero.';
 $string['dbname'] = 'Datu-basearen izena';
 $string['dbname_desc'] = 'Utzi hutsik datu-base ostalarian DSN izena erabiliz gero.';
 $string['dbpass'] = 'Datu-basearen pasahitza';
@@ -42,10 +42,10 @@ $string['dbtype_desc'] = 'ADOdb datu-basearen kontrolatzailearen izena, kanpoko 
 $string['dbuser'] = 'Datu-basearen erabiltzailea';
 $string['debugdb'] = 'Araztu ADOdb';
 $string['debugdb_desc'] = 'Araztu ADOdb konexioa kanpoko datu-basera - erabili orri hutsa jasotzen baduzu saioa hastean. Ez erabili lanean ari diren guneetan!';
-$string['defaultcategory'] = 'Ikastaro berrien berezko kategoria';
-$string['defaultcategory_desc'] = 'Berezko kategoria automatikoi sortutako ikastaroentzako. Kategoria IDa zehazten edo aurkitzen ez denean erabiliko da.';
-$string['defaultrole'] = 'Berezko rola';
-$string['defaultrole_desc'] = 'Berez esleituko den rola, kanpoko datu-basean rolik zehazten ez denean.';
+$string['defaultcategory'] = 'Ikastaro berrientzako lehenetsitako kategoria';
+$string['defaultcategory_desc'] = 'Lehenetsitako kategoria automatikoi sortutako ikastaroentzako. Kategoria IDa zehazten edo aurkitzen ez denean erabiliko da.';
+$string['defaultrole'] = 'Lehenetsitako rola';
+$string['defaultrole_desc'] = 'Modu lehenetsian esleituko den rola, kanpoko datu-basean rolik zehazten ez denean.';
 $string['ignorehiddencourses'] = 'Baztertu ezkutuko ikastaroak';
 $string['ignorehiddencourses_desc'] = 'Gaituz gero erabiltzaileak ez dira ikastaroetan matrikulatuko ikastaroak ikasleentzako ezkutuan badaude.';
 $string['localcategoryfield'] = 'Lokaleko kategoriaren eremua';
@@ -60,7 +60,6 @@ $string['newcoursetable'] = 'Urrutiko ikastaro berrien taula';
 $string['newcoursetable_desc'] = 'Zehaztu automatikoki sortu beharreko ikastaroen zerrenda duen taularen izena. Hutsik utziz gero ez da ikastarorik sortuko.';
 $string['pluginname'] = 'Kanpoko datu-basea';
 $string['pluginname_desc'] = 'Kanpoko datu-base bat erabili dezakezu (ia edozein motatakoa) zure matrikulazioak kudeatzeko. Suposatu egiten da zure kanpoko datu-baseak gutxienez ikastaroaren IDa duen eremua eta erabiltzailearen IDa duen eremua dituela. Eremu hauek datu-base lokaleko ikastaro eta erabiltzaileen tauletan zuk aukeratutako eremuekin konparatuko dira.';
-$string['privacy:metadata'] = 'Kanpoko datu-basea matrikulazio-pluginak ez du datu pertsonalik biltzen.';
 $string['remotecoursefield'] = 'Urrutiko ikastaroen eremua';
 $string['remotecoursefield_desc'] = 'Ikastaroen taulan sarrerak parekatzeko erabiltzen den eremuaren izena urrutiko taulan.';
 $string['remoteenroltable'] = 'Urrutiko erabiltzaileen matrikulaziorako taula';

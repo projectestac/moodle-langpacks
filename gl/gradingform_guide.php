@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradingform_guide', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,7 @@ $string['backtoediting'] = 'Volver á edición';
 $string['clicktocopy'] = 'Prema para copiar este texto no comentario do criterio';
 $string['clicktoedit'] = 'Prema para editar';
 $string['clicktoeditname'] = 'Prema para editar o nome do criterio';
+$string['comment'] = 'Comentario';
 $string['comments'] = 'Comentarios empregados con frecuencia';
 $string['commentsdelete'] = 'Eliminar comentario';
 $string['commentsempty'] = 'Prema para editar o comentario';
@@ -44,10 +45,13 @@ $string['criteriondelete'] = 'Eliminar criterio';
 $string['criterionempty'] = 'Prema para editar o criterio';
 $string['criterionmovedown'] = 'Baixar';
 $string['criterionmoveup'] = 'Subir';
+$string['criterionname'] = 'Nome do criterio';
+$string['criterionremark'] = 'Comentario de criterio {$a}';
 $string['definemarkingguide'] = 'Definir a guía de corrección';
 $string['description'] = 'Descrición';
 $string['descriptionmarkers'] = 'Descrición para correctores';
 $string['descriptionstudents'] = 'Descrición para alumnos';
+$string['err_maxscoreisnegative'] = 'A puntuación máxima non é válida, non se permiten valores negativos';
 $string['err_maxscorenotnumeric'] = 'A puntuación máxima do criterio ten que ser numérica';
 $string['err_nocomment'] = 'O comentario non pode estar baleiro';
 $string['err_nodescription'] = 'A descrición do alumno non pode estar baleira';
@@ -55,7 +59,10 @@ $string['err_nodescriptionmarkers'] = 'A descrición do corrector non pode estar
 $string['err_nomaxscore'] = 'A puntuación máxima do criterio non pode estar baleira';
 $string['err_noshortname'] = 'O nome do criterio non pode estar baleiro';
 $string['err_scoreinvalid'] = 'A puntuación dada a {$a->criterianame} non é correcta, a puntuación máxima é: {$a->maxscore}';
+$string['err_scoreisnegative'] = 'A puntuación dada a «{$a->criterianame}» non é válida, non se permiten valores negativos';
+$string['err_shortnametoolong'] = 'O nome do criterio debe ter menos de 256 caracteres';
 $string['gradingof'] = 'Cualificando {$a}';
+$string['guide'] = 'Guía de corrección';
 $string['guidemappingexplained'] = 'AVISO: A súa guía de corrección ten unha cualificación máxima de <b>{$a->maxscore} puntos</b>, mais cualificación máxima estabelecida é de {$a->modulegrade}. A puntuación máxima estabelecida na guía de corrección será modificada a cualificación máxima no módulo.<br />
      As puntuacións intermedias converteranse respectivamente e redondearanse a cualificación máis próxima dispoñíbel.';
 $string['guidenotcompleted'] = 'Forneza unha cualificación correcta para cada criterio';
@@ -63,6 +70,7 @@ $string['guideoptions'] = 'Opcións da guía de correccións';
 $string['guidestatus'] = 'Estado actual da guía de correccións';
 $string['hidemarkerdesc'] = 'Agochar as descricións dos criterios do corrector';
 $string['hidestudentdesc'] = 'Agochar as descricións dos criterios para os alumnos';
+$string['insertcomment'] = 'Inserir comentarios empregados con frecuencia';
 $string['maxscore'] = 'Corrección máxima';
 $string['name'] = 'Nome';
 $string['needregrademessage'] = 'A definición da guía de corrección foi cambiada despois de que este alumno fose cualificado. O alumno non pode ver esta guía de corrección ata que vostede comprobe a guía de corrección e actualice a cualificación.';

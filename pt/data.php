@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'data', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,8 +56,8 @@ $string['availabletodatevalidation'] = '"Disponível até" não pode ser anterio
 $string['blank'] = 'Vazio';
 $string['buttons'] = 'Botões';
 $string['bynameondate'] = 'por  {$a->name} - {$a->date}';
-$string['calendarend'] = 'Fecha a {$a}';
-$string['calendarstart'] = 'Abre a {$a}';
+$string['calendarend'] = 'Base de dados fecha a {$a}';
+$string['calendarstart'] = 'Base de dados abre a {$a}';
 $string['cancel'] = 'Cancelar';
 $string['cannotaccesspresentsother'] = 'Não tem permissão para aceder a protótipos de outros utilizadores';
 $string['cannotadd'] = 'Não foi possível adicionar registos!';
@@ -76,9 +76,6 @@ $string['comments'] = 'Comentários';
 $string['commentsaved'] = 'O comentário foi gravado';
 $string['commentsn'] = '{$a} comentário(s)';
 $string['commentsoff'] = 'A opção de comentários não está ativa';
-$string['completionentries'] = 'Requer registos';
-$string['completionentriescount'] = 'Número de Registos';
-$string['completionentriesdesc'] = 'Número mínimo de registos requeridos: {$a}';
 $string['configenablerssfeeds'] = 'A ativação desta configuração permite a geração de listas RSS em todas as bases de dados, ao nível do site. Para utilizar esta funcionalidade numa base de dados específica deve ainda ativar a mesma na respectiva página de configuração.';
 $string['confirmdeletefield'] = 'Tem a certeza de que pretende apagar este campo?';
 $string['confirmdeleterecord'] = 'Tem a certeza de que pretende apagar este registo?';
@@ -133,10 +130,10 @@ $string['editordisable'] = 'Desativar editor';
 $string['editorenable'] = 'Ativar editor';
 $string['emptyadd'] = 'O modelo <b>Adicionar</b> está vazio, a gerar o formulário predefinido';
 $string['emptyaddform'] = 'Não preencheu nenhum campo!';
-$string['enabletemplateeditorcheck'] = 'Tem a certeza que quer ativar o editor? Isto pode resultar numa alteração de conteúdo quando o modelo for gravado.';
+$string['enabletemplateeditorcheck'] = 'Tem a certeza de que pretende ativar o editor? Esta ação pode resultar numa alteração de conteúdo quando o modelo for gravado.';
 $string['entries'] = 'Registos';
 $string['entrieslefttoadd'] = 'Tem que adicionar mais {$a->entriesleft} registo(s) para concluir esta atividade';
-$string['entrieslefttoaddtoview'] = 'Tem que adicionar mais {$a->entrieslefttoview} registos para conseguir visualizar as entradas dos outros participantes.';
+$string['entrieslefttoaddtoview'] = 'Tem que adicionar mais {$a->entrieslefttoview} registo(s) para conseguir visualizar as entradas dos outros participantes.';
 $string['entry'] = 'Registo';
 $string['entrysaved'] = 'O seu registo foi gravado';
 $string['errormustbeteacher'] = 'Apenas os professores podem usar esta página!';
@@ -202,13 +199,8 @@ $string['headersingletemplate'] = 'Define a aparência da página de registos in
 $string['importentries'] = 'Importar registos';
 $string['importsuccess'] = 'O protótipo foi aplicado com sucesso.';
 $string['includeapproval'] = 'Incluir estado de aprovação';
-$string['includetags'] = 'Incluir palavaras-chave';
 $string['includetime'] = 'Incluir data de criação/modificação';
 $string['includeuserdetails'] = 'Incluir detalhes do utilizador';
-$string['indicator:cognitivedepth'] = 'Compreensão da Base de dados';
-$string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno na atividade Base de dados.';
-$string['indicator:socialbreadth'] = 'Socialização da Base de dados';
-$string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno na atividade Base de dados.';
 $string['insufficiententries'] = 'são necessários mais registos para ver esta base de dados';
 $string['intro'] = 'Descrição';
 $string['invalidaccess'] = 'Esta página não foi acedida corretamente';
@@ -219,7 +211,7 @@ $string['invalidid'] = 'O ID da informação não está correto';
 $string['invalidpreset'] = '<b>{$a}</b> não é um protótipo.';
 $string['invalidrecord'] = 'Registo incorreto';
 $string['invalidurl'] = 'O URL que introduziu não é válido';
-$string['jstemplate'] = 'Javascript';
+$string['jstemplate'] = 'JavaScript';
 $string['latitude'] = 'Latitude';
 $string['latlong'] = 'Latitude/Longitude';
 $string['latlongboth'] = 'É necessário a latitude e a longitude.';
@@ -243,17 +235,17 @@ $string['menuchoose'] = 'Selecione...';
 $string['missingdata'] = 'Deve ser indicado um identificador de informação ou um objeto para a classe do campo';
 $string['missingfield'] = 'Erro de programação: Deve especificar um campo e/ou dados na definição da classe do campo.';
 $string['modulename'] = 'Base de dados';
-$string['modulename_help'] = 'A atividade Base de dados permite aos participantes criar, gerir e procurar informação num conjunto de entradas (registos). O formato e os campos que compoem os registos da base de dados são definido pelo professor, Os tipos de campos permitidos incluem caixas de seleção, listas pendentes, botões rádio, caixas de texto, URL, imagem e ficheiro.
+$string['modulename_help'] = 'A atividade Base de dados permite aos participantes criar, gerir e procurar informação num conjunto de entradas (registos). O tipo, o número e o formato dos campos que compõem a base de dados são definido pelo professor. Os tipos de campos permitidos incluem caixas de seleção, listas pendentes, botões de rádio, caixas de texto, URL, imagem e ficheiro.
 
-A aparência dos ecrãs de visualização, criação e edição da base de dados pode ser definidas através de modelos. As base de dados podem ser partilhadas entre disciplinas e um professor também pode importar e exportar registos da base de dados.
+A estrutura de visualização da informação quando cria, edita ou lista os registos da base de dados pode ser definida através de modelos de base de dados. As base de dados podem ser partilhadas entre disciplinas e o professor também pode importar e exportar registos da base de dados.
 
-Se a opção de hiperligação dos registos estiver ativa, é possível criar automaticamente hiperligações entre os termos inseridos e essas palavras, sempre que aparecerem noutros locais da disciplina.
+Se a opção de hiperligação dos registos estiver ativa, é possível criar automaticamente hiperligações entre os termos inseridos e essas palavras, sempre que apareçam noutros locais da disciplina.
 
-Um professor pode permitir comentários aos registos. Estes também podem ser avaliados por professores ou alunos (avaliação pelos pares). As avaliações são ajustadas a uma única nota final que é registada no relatório de avaliação.
+Um professor pode permitir comentários aos registos. Estes também podem ser avaliados por professores ou alunos (avaliação pelos pares). As avaliações são agrupadas numa única nota final que é registada na pauta.
 
 A base de dados pode ser usada para:
 
-* Criar um repositório colaborativo de hiperligações/ livros/ referências a jornais;
+* Criar um repositório colaborativo de hiperligações/livros/referências a jornais;
 * Para exibir trabalhos realizados pelos alunos (como fotos, cartazes, sites, poemas, etc.) e disponibilizá-los para que os colegas possam comentar.';
 $string['modulename_link'] = 'mod/data/view';
 $string['modulenameplural'] = 'Bases de dados';
@@ -313,44 +305,21 @@ $string['pluginname'] = 'Base de dados';
 $string['portfolionotfile'] = 'Exportar para portefólio em vez de ficheiro (apenas CSV e Leap2a)';
 $string['presetinfo'] = 'A gravação como protótipo permite a outros utilizadores usar o mesmo nas suas bases de dados.';
 $string['presets'] = 'Protótipos';
-$string['privacy:metadata:commentpurpose'] = 'Comentários aos registos da Base de dados';
-$string['privacy:metadata:data_content'] = 'Representa uma resposta a um campo na atividade Base de dados';
-$string['privacy:metadata:data_content:content'] = 'Conteúdo';
-$string['privacy:metadata:data_content:content1'] = 'Conteúdo adicional 1';
-$string['privacy:metadata:data_content:content2'] = 'Conteúdo adicional 2';
-$string['privacy:metadata:data_content:content3'] = 'Conteúdo adicional 3';
-$string['privacy:metadata:data_content:content4'] = 'Conteúdo adicional 4';
-$string['privacy:metadata:data_content:fieldid'] = 'ID da definição do campo';
-$string['privacy:metadata:datafieldnpluginsummary'] = 'Campos para a atividade Base de dados';
-$string['privacy:metadata:data_records'] = 'Representa registos na atividade Base de dados';
-$string['privacy:metadata:data_records:approved'] = 'Estado da aprovação';
-$string['privacy:metadata:data_records:groupid'] = 'Grupo';
-$string['privacy:metadata:data_records:timecreated'] = 'Data/hora da criação do registo';
-$string['privacy:metadata:data_records:timemodified'] = 'Data/hora da última modificação';
-$string['privacy:metadata:data_records:userid'] = 'Utilizador que criou o registo';
-$string['privacy:metadata:filepurpose'] = 'Ficheiro anexado ao registo da Base de dados';
-$string['privacy:metadata:ratingpurpose'] = 'Classificações nos registos da Base de dados';
-$string['privacy:metadata:tagpurpose'] = 'Palavras-chave no registo da base de dados';
 $string['radiobutton'] = 'Botões de rádio';
 $string['recordapproved'] = 'Registo aprovado';
 $string['recorddeleted'] = 'Registo apagado';
 $string['recorddisapproved'] = 'Entrada não aprovada';
 $string['recordsnotsaved'] = 'Não foram gravados registos. Verifique o formato do ficheiro enviado.';
 $string['recordssaved'] = 'os registos foram gravados';
-$string['removealldatatags'] = 'Apagar todas as tags da base de dados';
 $string['requireapproval'] = 'Requer aprovação';
 $string['requireapproval_help'] = 'Se ativar esta opção os registos necessitam de aprovação do professor antes de ficarem visíveis para todos os utilizadores.';
 $string['required'] = 'Obrigatório';
-$string['requiredentries'] = 'Registos requeridos para conclusão (antigo)';
-$string['requiredentries_help'] = 'Se ativar esta opção, uma mensagem será mostrada para informar o número de registos necessários para a conclusão. Tenha em atenção que esta configuração não está ligada à conclusão da atividade.
-
-Para os registos necessários para a conclusão da atividade, na nova configuração de conclusão da atividade, deve ser usada \'Requer registos\'. Para remover completamente esta definição, defina como Nenhum e, em seguida, guarde as alterações.
-Use em vez de registos necessários na secção de conclusão da atividade.';
+$string['requiredentries'] = 'Registos requeridos para conclusão';
+$string['requiredentries_help'] = 'Número de registos que o aluno tem que submeter antes que a atividade seja considerada completa.';
 $string['requiredentriestoview'] = 'Registos requeridos antes de ser permitida a visualização';
 $string['requiredentriestoview_help'] = 'Número de registos que o aluno tem que submeter antes de poder ver os registos dos outros participantes.
 
 Nota: Se for necessário submeter registos antes de poder ver a base de dados, o filtro <b>hiperligações automáticas à base de dados</b> tem que ser desativado pois este filtro não consegue determinar se um utilizador já submeteu o número de registos requerido.';
-$string['requiredentrieswarning'] = 'Esta configuração foi substituída por uma configuração de conclusão da atividade "Requer registos"';
 $string['requiredfield'] = 'Campo obrigatório';
 $string['resetsettings'] = 'Reiniciar filtros';
 $string['resettemplate'] = 'Reiniciar modelo';
@@ -378,9 +347,6 @@ $string['subplugintype_datafield'] = 'Tipo de campo da Base de Dados';
 $string['subplugintype_datafield_plural'] = 'Tipos de campos da Base de Dados';
 $string['subplugintype_datapreset'] = 'Protótipo';
 $string['subplugintype_datapreset_plural'] = 'Protótipos';
-$string['tagarea_data_records'] = 'Registos de dados';
-$string['tags'] = 'Palavras-chave';
-$string['tagsdeleted'] = 'Todas as tags da base de dados foram apagadas';
 $string['teachersandstudents'] = '{$a->teachers} e {$a->students}';
 $string['templates'] = 'Modelos';
 $string['templatesaved'] = 'O modelo foi gravado';

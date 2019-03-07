@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_file', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignfeedback_file', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   assignfeedback_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,10 +29,10 @@ $string['batchoperationconfirmuploadfiles'] = 'Caricare uno o più file di feedb
 $string['batchuploadfiles'] = 'Carica file di commento per più utenti';
 $string['batchuploadfilesforusers'] = 'Invia file di commento a {$a} utenti selezionati';
 $string['configmaxbytes'] = 'Dimensione massima file';
-$string['confirmuploadzip'] = 'Conferma upload zip';
+$string['confirmuploadzip'] = 'Conferma caricamento zip';
 $string['countfiles'] = '{$a} file';
-$string['default'] = 'Abilitato per default';
-$string['default_help'] = 'Questo metodo di commento sarà abilitato per default per le nuove istanze di compito.';
+$string['default'] = 'Abilitato di default';
+$string['default_help'] = 'Questo metodo di commento sarà abilitato di default per le nuove istanze di compito.';
 $string['enabled'] = 'File di commento';
 $string['enabled_help'] = 'Consente al docente di caricare file con i propri commenti durante la valutazione dei compiti. Tali file possono essere i compiti degli studenti valutati, documenti, o file audio con il commento parlato.';
 $string['feedbackfileadded'] = 'Nuovo file di commento "{$a->filename}" per lo studente "{$a->student}"';
@@ -43,7 +43,7 @@ $string['file'] = 'File di commento';
 $string['filesadded'] = 'File di commento inseriti: {$a}';
 $string['filesupdated'] = 'File di commento aggiornati: {$a}';
 $string['importfeedbackfiles'] = 'Importa file di commento';
-$string['maxbytes'] = 'Dimensione massima del file';
+$string['maxbytes'] = 'Dimensione massima file';
 $string['maxfiles'] = 'Numero massimo di file caricabili';
 $string['maximumsize'] = 'Dimensione massima file';
 $string['moreusers'] = '{$a} successivi...';

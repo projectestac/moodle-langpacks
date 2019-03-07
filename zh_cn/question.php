@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'question', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -223,7 +223,7 @@ $string['incorrect'] = '不正确';
 $string['incorrectfeedback'] = '给任意错误答案';
 $string['incorrectfeedbackdefault'] = '你的回答不正确';
 $string['information'] = '说明';
-$string['invalidanswer'] = '答案不完成';
+$string['invalidanswer'] = '答案不完整';
 $string['invalidarg'] = '没有有效的参数，或服务器配置不正确';
 $string['invalidcategoryidforparent'] = '父类别 id 无效！';
 $string['invalidcategoryidtomove'] = '要移动的类别id无效！';

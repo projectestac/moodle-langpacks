@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['bulkuseroperation'] = 'Operazioni in massa sugli utenti';
 $string['configenrolplugins'] = 'Per favore seleziona i plugin necessari e mettili in sequenza di utilizzo.';
 $string['custominstancename'] = 'Nome personalizzato istanza';
 $string['defaultenrol'] = 'Aggiungi istanza nei nuovi corsi';
-$string['defaultenrol_desc'] = 'E\' possibile aggiungere per default questo plugin in tutti i nuovi corsi.';
+$string['defaultenrol_desc'] = 'E\' possibile aggiungere di default questo plugin in tutti i nuovi corsi.';
 $string['deleteinstanceconfirm'] = 'Stai per rimuovere il metodo si iscrizione "{$a->name}". Tutti i {$a->users} utenti iscritti con questo metodo saranno disiscritti e i loro dati nel corso, come valutazioni, appartenenza a gruppi, sottoscrizione di forum, eccetera, verranno eliminati.
 
 Sei sicuro ?';
@@ -45,19 +45,16 @@ $string['deleteinstancenousersconfirm'] = 'Stai per rimuovere il metodo di iscri
 $string['disableinstanceconfirmself'] = 'Sei certo di eliminare l\'istanza "{$a->name}" che ti consente di accedere a questo corso? Se continui, è possibile che tu non riesca più ad accedere al corso.';
 $string['durationdays'] = '{$a} giorni';
 $string['editenrolment'] = 'Modifica iscrizione';
-$string['edituserenrolment'] = 'Modifica iscrizione di {$a}';
 $string['enrol'] = 'Iscrivi';
 $string['enrolcandidates'] = 'Utenti non iscritti';
 $string['enrolcandidatesmatching'] = 'Corrispondenza con utenti non iscritti';
 $string['enrolcohort'] = 'Iscrivi gruppo globale';
 $string['enrolcohortusers'] = 'Iscrivi utenti';
-$string['enroldetails'] = 'Dettagli iscrizione';
 $string['enrollednewusers'] = 'Sono stati iscritti correttamente {$a} nuovi utenti';
 $string['enrolledusers'] = 'Iscrizioni';
 $string['enrolledusersmatching'] = 'Corrispondenza con utenti iscritti';
 $string['enrolme'] = 'Iscrivimi in questo corso';
 $string['enrolmentinstances'] = 'Metodi di iscrizione';
-$string['enrolmentmethod'] = 'Metodo di iscrizione';
 $string['enrolmentnew'] = 'Nuova iscrizione a {$a}';
 $string['enrolmentnewuser'] = '{$a->user} si è iscritto al corso "{$a->course}"';
 $string['enrolmentoptions'] = 'Opzioni di iscrizione';
@@ -66,7 +63,6 @@ $string['enrolnotpermitted'] = 'Non hai i privilegi o non sei autorizzato ad isc
 $string['enrolperiod'] = 'Durata iscrizione';
 $string['enroltimecreated'] = 'Iscrizione creata';
 $string['enroltimeend'] = 'L\'iscrizione termina';
-$string['enroltimeendinvalid'] = 'La data di fine iscrizione deve essere successiva alla data di inizio';
 $string['enroltimestart'] = 'L\'iscrizione inizia';
 $string['enrolusage'] = 'Istanze / iscrizioni';
 $string['enrolusers'] = 'Iscrivi utenti';
@@ -104,7 +100,6 @@ $string['instanceadded'] = 'Metodo aggiunto';
 $string['instanceeditselfwarning'] = 'Attenzione:';
 $string['instanceeditselfwarningtext'] = 'Sei iscritto al corso tramite questo metodo di iscrizione, eventuali modifiche possono avere impatti sul tuo accesso al corso.';
 $string['invalidenrolinstance'] = 'L\'istanza dell\'iscrizione non è valida';
-$string['invalidrequest'] = 'Richiesta non valida';
 $string['invalidrole'] = 'Ruolo non valido';
 $string['manageenrols'] = 'Gestione iscrizione';
 $string['manageinstance'] = 'Gestisci';
@@ -141,13 +136,12 @@ $string['totalenrolledusers'] = '{$a} utenti iscritti';
 $string['totalotherusers'] = '{$a} altri utenti';
 $string['unassignnotpermitted'] = 'Non hai i privilegi per togliere ruoli da questo corso';
 $string['unenrol'] = 'Disiscrivi';
-$string['unenrolconfirm'] = 'Sei certo di disiscrivere l\'utente "{$a->user}"  (gia iscritto tramite "{$a->enrolinstancename}") dal corso "{$a->course}"?';
+$string['unenrolconfirm'] = 'Sei certo di disiscrivere l\'utente "{$a->user}" dal corso "{$a->course}"?';
 $string['unenrolme'] = 'Disiscrivimi da {$a}';
 $string['unenrolnotpermitted'] = 'Non hai i privilegi o non sei autorizzato ad disiscrivere persone dal corso.';
 $string['unenrolroleusers'] = 'Disiscrivi utenti';
 $string['uninstallmigrating'] = 'Migrazione di "{$a}" iscrizioni';
 $string['unknowajaxaction'] = 'E\' stata richiesta un\'azione sconosciuta';
 $string['unlimitedduration'] = 'Illimitato';
-$string['userremovedfromselectiona'] = 'L’utente “{$a}” è stato deselezionato.';
 $string['usersearch'] = 'Cerca';
 $string['withselectedusers'] = 'Con gli utenti selezionati';

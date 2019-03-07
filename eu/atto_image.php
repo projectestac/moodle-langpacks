@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_image', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'atto_image', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   atto_image
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,9 +32,9 @@ $string['alignment_middle'] = 'Erdira';
 $string['alignment_right'] = 'Eskuinera';
 $string['alignment_top'] = 'Gora';
 $string['browserepositories'] = 'Arakatu biltegiak...';
-$string['constrain'] = 'Tamaina berez';
+$string['constrain'] = 'Tamaina automatikoa';
 $string['createimage'] = 'Txertatu irudia';
-$string['customstyle'] = 'Egokitu estiloa';
+$string['customstyle'] = 'Pertsonalizatu estiloa';
 $string['enteralt'] = 'Deskribatu irudi hau ikusi ezin dezakeen batentzat';
 $string['enterurl'] = 'Idatzi URLa';
 $string['height'] = 'Altuera';
@@ -43,7 +43,6 @@ $string['pluginname'] = 'Irudia';
 $string['presentation'] = 'Deskribapena ez da beharrezkoa';
 $string['presentationoraltrequired'] = 'Irudiek deskribapena behar dute, besterik adierazi ezean';
 $string['preview'] = 'Aurreikusi';
-$string['privacy:metadata'] = 'atto_image pluginak ez du datu pertsonalik biltzen.';
 $string['saveimage'] = 'Gorde irudia';
 $string['size'] = 'Tamaina';
 $string['uploading'] = 'Igotzen, itxaron mesedez...';

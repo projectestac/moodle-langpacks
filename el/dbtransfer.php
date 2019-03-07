@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'dbtransfer', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'dbtransfer', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   dbtransfer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['differenttableexception'] = 'Η δομή του πίνακα {$a} δε�
 $string['done'] = 'Έγινε';
 $string['exportschemaexception'] = 'Η δομή της τρέχουσας βάσης δεν ταιριάζει με όλα τα αρχεία install.xml. <br /> {$a}';
 $string['importschemaexception'] = 'Η δομή της τρέχουσας βάσης δεν ταιριάζει με όλα τα αρχεία install.xml. <br /> {$a}';
-$string['importversionmismatchexception'] = 'Η τρέχουσα έκδοση {$a->currentver} δεν ταιριάζει με την εξηχθείσα έκδοση {$a->schemaver}.';
+$string['importversionmismatchexception'] = 'Η τρέχουσα έκδοση {$a->currentver} δεν ταιριάζει με την εξαχθείσα έκδοση {$a->schemaver}.';
 $string['malformedxmlexception'] = 'Βρέθηκε κακοσχηματισμένο XML, είναι αδύνατη η συνέχεια.';
+$string['tablex'] = 'Πίνακας {$a}:';
 $string['unknowntableexception'] = 'Άγνωστος πίνακας {$a} βρέθηκε στο εξαγμένο αρχείο.';

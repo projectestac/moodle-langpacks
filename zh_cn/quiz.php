@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -419,10 +419,6 @@ $string['importmaxerror'] = '在试题题中有错误，试题的答案太多了
 $string['importquestions'] = '从文件导入试题';
 $string['inactiveoverridehelp'] = '* 学生不属于正确的组或角色，不能试此答测验';
 $string['incorrect'] = '错误';
-$string['indicator:cognitivedepth'] = '测验活动认知深度';
-$string['indicator:cognitivedepth_help'] = '这个指标是基于学生在 测验活动中所达到的认知深度。';
-$string['indicator:socialbreadth'] = '测验活动社会宽度';
-$string['indicator:socialbreadth_help'] = '这个指标是基于学生在测验活动中所达到的社会宽度。';
 $string['indivresp'] = '每条的个人解答';
 $string['info'] = '信息';
 $string['infoshort'] = '信息';
@@ -454,7 +450,7 @@ $string['manualgradequestion'] = '用户{$a->user}在{$a->quiz}的人工评分�
 $string['manualgrading'] = '分类';
 $string['mark'] = '提交';
 $string['markall'] = '提交此页';
-$string['marks'] = '分数';
+$string['marks'] = '测验得分';
 $string['marks_help'] = '指每一道试题的得分和整个测验成绩';
 $string['match'] = '匹配题';
 $string['matchanswer'] = '匹配答案';
@@ -806,7 +802,6 @@ $string['select'] = '选择';
 $string['selectall'] = '全部选择';
 $string['selectcategory'] = '选择类别';
 $string['selectedattempts'] = '选择的试卷…';
-$string['selectmultipleitems'] = '选择多个项';
 $string['selectnone'] = '全部不选';
 $string['selectquestiontype'] = '选择问题类型';
 $string['serveradded'] = '已添加服务器';

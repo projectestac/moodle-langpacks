@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'nl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz_statistics', language 'nl', branch 'MOODLE_32_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,7 +86,7 @@ Onze vergelijking voor effectieve vraagweging kan in dit geval niet berekend wor
 Als je een test bewerkt en de vragen met een negatieve covariantie een maximumcijfer 0 geeft, dat zal de weging van deze vraag 0 zijn en zal de echte weging van deze vraag 0 zijn en zullen de echte effectieve wegingen van de andere vragen berekend worden.';
 $string['nogradedattempts'] = 'Er zijn nog geen pogingen gemaakt voor deze test, of alle pogingen hebben vragen die manueel beoordeeld moeten worden.';
 $string['nostudentsingroup'] = 'Er zijn nog geen leerlingen in deze groep';
-$string['optiongrade'] = 'Gedeeltelijk krediet';
+$string['optiongrade'] = 'Gedeeltelijke puntscore';
 $string['partofquestion'] = 'Deel van vraag';
 $string['pluginname'] = 'Statistieken';
 $string['position'] = 'Plaats';
@@ -95,7 +95,7 @@ $string['questioninformation'] = 'Vraaginformatie';
 $string['questionname'] = 'Vraagnaam';
 $string['questionnumber'] = 'V#';
 $string['questionstatistics'] = 'Vraagstatistieken';
-$string['questionstatsfilename'] = 'vraagstatiestieken';
+$string['questionstatsfilename'] = 'vraagstatistieken';
 $string['questiontype'] = 'Vraagtype';
 $string['quizinformation'] = 'Testinformatie';
 $string['quizname'] = 'Testnaam';

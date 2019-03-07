@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotpotreport_analysis', language 'en', branch 'MOODLE_34_STABLE'
+ * Strings for component 'hotpotreport_analysis', language 'en', branch 'MOODLE_32_STABLE'
  *
  * @package   hotpotreport_analysis
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Statistical analysis report';
+$string['privacy:metadata'] = 'The statistical analysis report module does not store any personal data.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_menu', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_blog_menu', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   block_blog_menu
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['blog_menu:addinstance'] = 'Block \'Blogmenü\' hinzufügen';
+$string['blog_menu:addinstance'] = 'Neuen Block \'Blogmenü\' hinzufügen';
 $string['pluginname'] = 'Blogmenü';
-$string['privacy:metadata'] = 'Der Block Blogmenü zeigt nur Daten an, die an anderen Orten gespeichert sind.';

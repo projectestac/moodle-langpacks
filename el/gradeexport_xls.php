@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeexport_xls', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradeexport_xls', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   gradeexport_xls
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Φύλο εργασίας Excel';
+$string['eventgradeexported'] = 'Η εξαγωγή βαθμών σε XLS έγινε';
+$string['pluginname'] = 'Φύλλο εργασίας Excel';
 $string['timeexported'] = 'Τελευταία λήψη από αυτό το μάθημα';
 $string['xls:publish'] = 'Δημοσίευση εξαγωγής βαθμών σε XLS';
 $string['xls:view'] = 'Χρήση εξαγωγής βαθμών σε Excel';

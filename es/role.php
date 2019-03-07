@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'role', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,13 +31,12 @@ $string['advancedoverride'] = 'Anular rol avanzado';
 $string['allow'] = 'Permitir';
 $string['allowassign'] = 'Permitir asignar roles';
 $string['allowed'] = 'Permitido';
-$string['allowoverride'] = 'Permitir sobreescribir roles';
+$string['allowoverride'] = 'Permitir sobrescribir roles';
 $string['allowroletoassign'] = 'Permitir a los usuarios con el rol {$a->fromrole} asignar el rol {$a->targetrole}';
 $string['allowroletooverride'] = 'Permitir a los usuarios con el rol {$a->fromrole} anular el rol {$a->targetrole}';
 $string['allowroletoswitch'] = 'Permitir a los usuarios con el rol {$a->fromrole} cambiar al rol {$a->targetrole}';
 $string['allowswitch'] = 'Permitir cambios de rol';
 $string['allsiteusers'] = 'Todos los usuarios del sitio';
-$string['analytics:listinsights'] = 'Listar intuiciones (predicciones)';
 $string['archetype'] = 'Arquetipo de rol';
 $string['archetypecoursecreator'] = 'ARQUETIPO: Creador de cursos';
 $string['archetypeeditingteacher'] = 'ARQUETIPO: Profesor con permiso de edición';
@@ -140,7 +139,6 @@ $string['course:create'] = 'Crear cursos';
 $string['course:delete'] = 'Eliminar cursos';
 $string['course:enrolconfig'] = 'Configurar ejemplos de matriculación en cursos';
 $string['course:enrolreview'] = 'Revisar matriculaciones del curso';
-$string['course:ignoreavailabilityrestrictions'] = 'Ignorar restricciones de acceso';
 $string['course:ignorefilesizelimits'] = 'Usar archivos mayores a las restricciones por tamaño';
 $string['course:isincompletionreports'] = 'Mostrarse en reportes de finalización';
 $string['course:manageactivities'] = 'Gestionar actividades';
@@ -193,7 +191,6 @@ $string['errorbadrolename'] = 'Nombre de rol incorrecto';
 $string['errorbadroleshortname'] = 'Nombre corto de rol incorrecto';
 $string['errorexistsrolename'] = 'El nombre de este rol ya existe';
 $string['errorexistsroleshortname'] = 'El nombre de este rol ya existe';
-$string['errorroleshortnametoolong'] = 'El nombre corto no puede exceder de 100 caracteres';
 $string['eventroleallowassignupdated'] = 'Permitir asignación de roles';
 $string['eventroleallowoverrideupdated'] = 'Permitir sobreescritura de roles';
 $string['eventroleallowswitchupdated'] = 'Permitir cambio de rol';
@@ -259,7 +256,7 @@ $string['my:configsyspages'] = 'Configurar plantillas del sistema para las pági
 $string['my:manageblocks'] = 'Gestionar bloques de la página Área personal';
 $string['neededroles'] = 'Roles con permiso';
 $string['nocapabilitiesincontext'] = 'Permisos no disponibles en este contexto';
-$string['noneinthisx'] = 'Nombre en este {$a}';
+$string['noneinthisx'] = 'Ninguno en este {$a}';
 $string['noneinthisxmatching'] = 'No hay usuarios coincidentes con \'{$a->search}\' en este {$a->contexttype}';
 $string['norole'] = 'Ningún rol';
 $string['noroleassignments'] = 'Este usuario no tiene ninguna tarea de rol en ningún lugar de este sitio';
@@ -370,7 +367,7 @@ $string['site:deleteanymessage'] = 'Borrar los mensajes del sitio';
 $string['site:deleteownmessage'] = 'Borrar mensajes enviados a/por el usuario';
 $string['site:doanything'] = 'Permiso para todo';
 $string['site:doclinks'] = 'Mostrar enlaces a documentos fuera del sitio';
-$string['site:forcelanguage'] = 'Sobreescribe idioma del curso';
+$string['site:forcelanguage'] = 'Sobrescribe idioma del curso';
 $string['site:import'] = 'Importar otros cursos a un curso';
 $string['site:manageblocks'] = 'Gestionar bloques en una página';
 $string['site:mnetloginfromremote'] = 'Acceso desde una aplicación remota vía MNet';
@@ -384,6 +381,7 @@ $string['site:viewfullnames'] = 'Ver siempre nombres completos de los usuarios';
 $string['site:viewparticipants'] = 'Ver a los participantes';
 $string['site:viewreports'] = 'Ver informes';
 $string['site:viewuseridentity'] = 'Ver la identidad completa del usuario en las listas';
+$string['tag:create'] = 'Crear nuevas marcas';
 $string['tag:edit'] = 'Editar marcas existentes';
 $string['tag:editblocks'] = 'Editar bloques en páginas de marcas';
 $string['tag:flag'] = 'Señalar marcas (tags) como inapropiadas';

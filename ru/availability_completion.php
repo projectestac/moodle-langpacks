@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_completion', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'availability_completion', language 'ru', branch 'MOODLE_32_STABLE'
  *
  * @package   availability_completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['description'] = 'Требовать от студентов завершения (или не завершения) другого элемента курса.';
 $string['error_selectcmid'] = 'Вы должны указать элемент курса с состоянием завершения.';
+$string['error_selectcmidpassfail'] = 'Вы должны выбрать элемент с заданным условием завершения «Требуется оценка».';
 $string['label_cm'] = 'Элемент курса или ресурс';
 $string['label_completion'] = 'Требуется состояние завершения';
 $string['missing'] = '(элемент курса отсутствует)';

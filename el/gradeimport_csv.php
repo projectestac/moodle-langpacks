@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeimport_csv', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradeimport_csv', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   gradeimport_csv
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['csv:view'] = 'Εισαγωγή βαθμών από αρχείο CSV';
-$string['pluginname'] = 'Αρχείο CSV';
+$string['pluginname'] = 'Αρχείο CSV (μορφότυπος τιμών διαχωρισμένων με κόμμα)';

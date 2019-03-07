@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'calendar', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   calendar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -60,16 +60,29 @@ $string['durationminutes'] = 'Duración en minutos';
 $string['durationnone'] = 'Sen duración';
 $string['durationuntil'] = 'Ata';
 $string['editevent'] = 'Editando a actividade';
-$string['erroraddingevent'] = 'Produciuse un fallo ao engadir a actividade';
+$string['erroraddingevent'] = 'Produciuse un fallo ao engadir o evento';
 $string['errorbadsubscription'] = 'Non se atopou a subscrición ao calendario.';
 $string['errorbeforecoursestart'] = 'Non é posíbel fixar unha actividade antes da data de comezo do curso';
 $string['errorcannotimport'] = 'Non é posíbel estabelecer unha subscrición ao calendario neste momento.';
+$string['errorhasuntilandcount'] = 'Sexa UNTIL (ata) ou COUNT (número) poden aparecer nunha regra de recorrencia, mais UNTIL e COUNT xuntos NON DEBEN concorrer na mesma regra de recorrencia.';
+$string['errorinvalidbydaysuffix'] = 'Os valores válidos para a parte do día da semana da regra BYDAY son MO, TU, WE, TH, FR, SA e SU';
+$string['errorinvalidbyhour'] = 'Os valores válidos para a regra BYHOUR son 0 a 23.';
+$string['errorinvalidbyminute'] = 'Os valores válidos para a regra BYMINUTE son 0 a 59.';
+$string['errorinvalidbymonth'] = 'Os valores válidos para a regra BYMONTH son 1 a 12.';
+$string['errorinvalidbymonthday'] = 'Os valores válidos para a regra BYMONTHDAY son 1 a 31 ou -31 a -1.';
+$string['errorinvalidbysecond'] = 'Os valores válidos para a regra BYSECOND son 0 a 59.';
+$string['errorinvalidbysetpos'] = 'Os valores válidos para a regra BYSETPOS son 1 a 366 ou -366 a -1.';
+$string['errorinvalidbyweekno'] = 'Os valores válidos para a regra BYWEEKNO son 1 a 53 ou -53 a -1.';
+$string['errorinvalidbyyearday'] = 'Os valores válidos para a regra BYYEARDAY son 1 a 366 ou -366 a -1.';
 $string['errorinvaliddate'] = 'Data incorrecta';
 $string['errorinvalidicalurl'] = 'O URL iCal dado é incorrecto.';
+$string['errorinvalidinterval'] = 'O valor para a regra INTERVAL debe ser un número enteiro positivo.';
 $string['errorinvalidminutes'] = 'Especifique a duración en minutos cun número entre 1 e 999.';
 $string['errorinvalidrepeats'] = 'Especifique o número de actividades cun número entre 1 e 99.';
+$string['errormustbeusedwithotherbyrule'] = 'A regra BYSETPOS soamente debe ser usada xunto con outra parte da regra BYxxx.';
 $string['errornodescription'] = 'Requírese unha descrición';
 $string['errornoeventname'] = 'Requírese un nome';
+$string['errornonyearlyfreqwithbyweekno'] = 'A regra BYWEEKNO soamente é válida para regras YEARLY.';
 $string['errorrequiredurlorfile'] = 'Para importar un calendario requírese ou un URL ou un ficheiro.';
 $string['errorrrule'] = 'A rrule pasada semella incorrecta';
 $string['errorrruleday'] = 'A rrule ten un parámetro de día incorrecto';
@@ -91,8 +104,14 @@ $string['eventsdeleted'] = 'Actividades eliminadas';
 $string['eventsfor'] = '{$a} actividades';
 $string['eventsimported'] = 'Actividades importadas: {$a}';
 $string['eventskey'] = 'Clave de actividades';
+$string['eventspersonal'] = 'Os meus eventos persoais';
 $string['eventsrelatedtocourses'] = 'Actividades referidas aos cursos';
+$string['eventsrelatedtogroups'] = 'Eventos referidos aos grupos';
 $string['eventstarttime'] = 'Hora de comezo';
+$string['eventstoexport'] = 'Eventos a exportar';
+$string['eventsubscriptioncreated'] = 'Creouse a subscrición ao calendario';
+$string['eventsubscriptiondeleted'] = 'Eliminouse a subscrición ao calendario';
+$string['eventsubscriptionupdated'] = 'Actualizouse a subscrición ao calendario';
 $string['eventsupdated'] = 'Actividades actualizadas: {$a}';
 $string['eventtime'] = 'Hora';
 $string['eventview'] = 'Detalles da actividade';
@@ -187,6 +206,7 @@ $string['thu'] = 'xov';
 $string['thursday'] = 'xoves';
 $string['timeformat_12'] = '12 horas (am/pm)';
 $string['timeformat_24'] = '24 horas';
+$string['timeperiod'] = 'Período de tempo';
 $string['today'] = 'Hoxe';
 $string['tomorrow'] = 'Mañá';
 $string['tt_deleteevent'] = 'Eliminar actividade';
@@ -217,4 +237,4 @@ $string['weekly'] = 'Semanal';
 $string['weeknext'] = 'Semana próxima';
 $string['weekthis'] = 'Esta semana';
 $string['yesterday'] = 'Onte';
-$string['youcandeleteallrepeats'] = 'Esta actividade é parte dunha serie de actividades repetidas. Pode eliminar só esta actividade ou todas as {$a} actividades da serie dunha vez.';
+$string['youcandeleteallrepeats'] = 'Este evento é parte dunha serie de eventos repetidos. Pode eliminar só este evento ou todos os {$a} eventos da serie dunha vez.';

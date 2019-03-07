@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -446,10 +446,6 @@ Hay demasiadas respuestas.';
 $string['importquestions'] = 'Importar preguntas de un archivo';
 $string['inactiveoverridehelp'] = '* El estudiante no tiene el rol o el grupo correctos para intentar resolver el cuestionario';
 $string['incorrect'] = 'Incorrecta';
-$string['indicator:cognitivedepth'] = 'Cuestionario cognitivo';
-$string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad Cuestionario.';
-$string['indicator:socialbreadth'] = 'Cuestionario social';
-$string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad Cuestionario.';
 $string['indivresp'] = 'Respuestas de los individuos a cada ítem';
 $string['info'] = 'Información';
 $string['infoshort'] = 'i';
@@ -846,7 +842,6 @@ $string['select'] = 'Seleccionar';
 $string['selectall'] = 'Seleccionar todos';
 $string['selectcategory'] = 'Seleccionar categoría';
 $string['selectedattempts'] = 'Intentos seleccionados...';
-$string['selectmultipleitems'] = 'Seleccionar varios elementos';
 $string['selectnone'] = 'Omitir todos';
 $string['selectquestiontype'] = '-- Seleccionar tipo de pregunta --';
 $string['serveradded'] = 'Servidor añadido';

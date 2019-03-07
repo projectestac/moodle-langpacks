@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'label', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['dnduploadlabel'] = 'Engadir unha imaxe á páxina do curso';
 $string['dnduploadlabeltext'] = 'Engadir unha etiqueta á páxina do curso';
 $string['label:addinstance'] = 'Engadir unha nova etiqueta';
 $string['labeltext'] = 'Texto da etiqueta';
+$string['label:view'] = 'Ver a etiqueta';
 $string['modulename'] = 'Etiqueta';
 $string['modulename_help'] = 'O módulo etiqueta permite inserir texto e multimedia nunha páxina de curso xunto con ligazóns a outros recursos e actividades. As etiquetas son moi versátiles e poden axudar a mellorar a aparencia dun curso se se empregan intelixentemente.
 

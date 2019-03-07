@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'questionnaire', language 'fr', branch 'MOODLE_32_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,7 +39,9 @@ $string['all'] = 'Tout';
 $string['alreadyfilled'] = 'Vous avez déjà répondu à ce questionnaire {$a}. Merci.';
 $string['andaveragevalues'] = 'et moyenne des valeurs';
 $string['anonymous'] = 'Anonyme';
+$string['answer'] = 'Réponse';
 $string['answerquestions'] = 'Répondre aux questions';
+$string['answers'] = 'Réponses';
 $string['attempted'] = 'Vous avez répondu à ce questionnaire.';
 $string['attemptstillinprogress'] = 'En cours. Enregistré le :';
 $string['autonumbering'] = 'Numérotation automatique';

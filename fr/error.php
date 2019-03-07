@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'error', language 'fr', branch 'MOODLE_32_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,11 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityisscheduledfordeletion'] = 'Suppression d\'activité en cours...';
-$string['agedigitalconsentmapinvalidage'] = '« {$a} » n\'est pas une valeur valide pour l\'âge.';
-$string['agedigitalconsentmapinvalidcomma'] = '« {$a} » comporte plus ou moins d\'une virgule comme séparateur.';
-$string['agedigitalconsentmapinvalidcountry'] = '« {$a} » n\'est pas une valeur valide de code de pays.';
-$string['agedigitalconsentmapinvaliddefault'] = 'La valeur par défaut (*) n\'est pas mentionnée.';
-$string['agelocationverificationdisabled'] = 'Vérification de l\'âge et du lieu désactivée';
 $string['alreadyloggedin'] = 'Vous êtes déjà authentifié sous le nom {$a}. Veuillez vous déconnecter avant de vous connecter sous un autre nom.';
 $string['authnotexisting'] = 'Le plugin d\'autorisation n\'existe pas';
 $string['backupcontainexternal'] = 'Ce fichier de sauvegarde comporte des hôtes externes Réseau Moodle qui ne sont pas configurés localement';
@@ -161,13 +156,13 @@ $string['cannotunassigncap'] = 'Impossible de retirer l\'attribution de la capac
 $string['cannotunassignrolefrom'] = 'Impossible de retirer l\'attribution du rôle d\'identifiant {$a} pour cet utilisateur';
 $string['cannotunzipfile'] = 'Décompression du fichier ZIP impossible';
 $string['cannotupdatemod'] = 'Impossible de modifier {$a}';
-$string['cannotupdatepasswordonextauth'] = 'Échec de la modification du mot de passe dans la source d\'authentification externe : {$a}. Consultez les historiques du serveur pour plus de détails';
+$string['cannotupdatepasswordonextauth'] = 'Échec de la modification du mot de passe dans la source d\'authentification externe : {$a}. Consultez les journaux du serveur pour plus de détails';
 $string['cannotupdateprofile'] = 'Erreur lors de la modification de l\'enregistrement de l\'utilisateur';
 $string['cannotupdaterecord'] = 'Impossible de modifier l\'enregistrement d\'identifiant {$a}';
 $string['cannotupdaterss'] = 'Impossible de modifier le flux RSS';
 $string['cannotupdatesubcourse'] = 'Impossible de modifier un cours descendant !';
 $string['cannotupdateusermsgpref'] = 'Échec de la modification des réglages de messagerie de l\'utilisateur';
-$string['cannotupdateuseronexauth'] = 'Échec de la modification des données de l\'utilisateur dans la source d\'authentification externe : {$a}. Consultez les historiques du serveur pour plus de détails';
+$string['cannotupdateuseronexauth'] = 'Échec de la modification des données de l\'utilisateur dans la source d\'authentification externe : {$a}. Consultez les journaux du serveur pour plus de détails';
 $string['cannotuploadfile'] = 'Erreur de traitement du fichier déposé';
 $string['cannotuseadmin'] = 'Vous devez être administrateur pour utiliser cette page';
 $string['cannotuseadminadminorteacher'] = 'Vous devez être enseignant ou administrateur pour utiliser cette page';
@@ -186,7 +181,6 @@ $string['confirmationnotenabled'] = 'La confirmation utilisateur n\'est pas acti
 $string['confirmsesskeybad'] = 'Désolé, votre identifiant de session n\'a pas pu être confirmé pour exécuter cette action. Cette sécurité vous protège contre l\'exécution accidentelle ou malfaisante en votre nom de fonctions essentielles. Veuillez vérifier que vous avez vraiment voulu effectuer cette action';
 $string['couldnotassignrole'] = 'Une erreur inconnue, mais sérieuse, est survenue lors de l\'attribution d\'un rôle à vous-même';
 $string['couldnotupdatenoexistinguser'] = 'Impossible de modifier l\'utilisateur, qui n\'existe pas';
-$string['couldnotverifyagedigitalconsent'] = 'Une erreur est survenue lors de la vérification de l\'âge de majorité numérique.<br />Veuillez contacter l\'administrateur de la plateforme.';
 $string['countriesphpempty'] = 'Erreur : le fichier countries.php du paquetage de langue {$a} est vide ou manquant.';
 $string['coursedoesnotbelongtocategory'] = 'Le cours n\'est pas dans cette catégorie';
 $string['courseformatnotfound'] = 'Le format de cours « {$a} » n\'existe pas ou n\'est pas reconnu';
@@ -355,7 +349,7 @@ $string['invalidrole'] = 'Rôle non valide';
 $string['invalidroleid'] = 'Identifiant de rôle incorrect';
 $string['invalidscaleid'] = 'Identifiant de barème incorrect';
 $string['invalidsection'] = 'L\'enregistrement du module de cours contient une section non valide';
-$string['invalidsesskey'] = 'Votre session est vraisemblablement échue. Veuillez vous reconnecter.';
+$string['invalidsesskey'] = 'Clef de session incorrecte. Le formulaire n\'est pas accepté !';
 $string['invalidshortname'] = 'Le nom abrégé du cours n\'est pas valide';
 $string['invalidsourcefield'] = 'Le champ source du fichier brouillon n\'est pas valide';
 $string['invalidstatedetected'] = 'Quelque chose est allé de travers : {$a}. Normalement, ceci ne devrait jamais arriver.';
@@ -377,7 +371,7 @@ $string['listnochildren'] = 'Aucun descendant trouvé pour cet élément';
 $string['listnoitem'] = 'Élément non trouvé';
 $string['listnopeers'] = 'Aucun élément de même niveau trouvé';
 $string['listupdatefail'] = 'L\'opération sur la base de données a échoué lors de la modification de la liste hiérarchique';
-$string['logfilenotavailable'] = 'Historiques non disponibles';
+$string['logfilenotavailable'] = 'Journaux non disponibles';
 $string['loginasnoenrol'] = 'Vous ne pouvez pas vous inscrire ou vous désinscrire d\'un cours lorsque vous êtes « Connecté sous le nom » d\'un autre participant';
 $string['loginasonecourse'] = 'Vous ne pouvez pas entrer dans ce cours.<br />Vous devez d\'abord terminer la session dans laquelle vous êtes « Connecté sous le nom » d\'un autre participant';
 $string['maxareabytes'] = 'Le fichier dépasse l\'espace disponible dans cette zone.';
@@ -570,7 +564,6 @@ $string['usernotaddederror'] = 'Utilisateur pas ajouté : erreur inconnue';
 $string['usernotaddedregistered'] = 'Utilisateur pas ajouté : déjà enregistré';
 $string['usernotavailable'] = 'Vous n\'avez pas l\'autorisation de consulter les coordonnées de cet utilisateur';
 $string['usernotdeletedadmin'] = 'Utilisateur non supprimé. Impossible de supprimer les comptes administrateurs';
-$string['usernotdeleteddeleted'] = 'Cet utilisateur a déjà été supprimé.';
 $string['usernotdeletederror'] = 'L\'utilisateur n\'a pas été supprimé : erreur inconnue';
 $string['usernotdeletedmissing'] = 'L\'utilisateur n\'a pas été supprimé : le nom d\'utilisateur n\'a pas été trouvé';
 $string['usernotdeletedoff'] = 'L\'utilisateur n\'a pas été supprimé : la suppression n\'est pas autorisée';
@@ -585,7 +578,6 @@ $string['usernotupdatederror'] = 'Utilisateur pas mis à jour : erreur inconnue
 $string['usernotupdatednotexists'] = 'Utilisateur pas mis à jour : le compte n\'existe pas';
 $string['userquotalimit'] = 'Vous avez atteint votre quota de fichiers.';
 $string['userselectortoomany'] = 'Le script user_selector a reçu plus d\'un utilisateur sélectionné, alors que multiselect est FAUX.';
-$string['verifyagedigitalconsentnotpossible'] = 'La vérification de l\'âge de majorité numérique n\'est actuellement pas possible.';
 $string['wrongcall'] = 'L\'appel de ce script n\'est pas correct';
 $string['wrongcontextid'] = 'Identifiant du contexte incorrect (impossible de le trouver)';
 $string['wrongdestpath'] = 'Chemin de destination incorrect';

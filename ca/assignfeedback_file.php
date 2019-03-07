@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_file', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignfeedback_file', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   assignfeedback_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,7 @@ $string['countfiles'] = '{$a} fitxers';
 $string['default'] = 'Habilitat per defecte';
 $string['default_help'] = 'Si està actiu, aquest mètode de retroacció s\'habilitarà per defecte per a totes les tasques noves.';
 $string['enabled'] = 'Retroacció amb fitxer';
-$string['enabled_help'] = 'Si està habilitat, el professorat podrà carregar els fitxers amb la retroacció de cada tasca quan les qualifiqui. Aquests fitxers poden ser documents amb comentaris o retroaccions d\'àudio parlat, però no tenen per què limitar-se a qualificar les trameses de l\'estudiantat.';
+$string['enabled_help'] = 'Si està habilitat, el professor podrà carregar els fitxers amb la retroacció de cada tasca quan les qualifiqui. Aquests fitxers poden ser documents amb comentaris o retroaccions d\'àudio parlat, però no tenen per què limitar-se a qualificar les trameses de l\'estudiant.';
 $string['feedbackfileadded'] = 'Nou fitxer de retroacció "{$a->filename}" per a l\'estudiant "{$a->student}"';
 $string['feedbackfileupdated'] = 'Fitxer de retroacció modificat "{$a->filename}" per a l\'estudiant "{$a->student}"';
 $string['feedbackzip'] = 'Fitxer zip amb fitxers de retroacció';

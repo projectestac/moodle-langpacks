@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_overview', language 'sv', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_course_overview', language 'sv', branch 'MOODLE_32_STABLE'
  *
  * @package   block_course_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,13 @@ $string['alwaysshowall'] = 'Alltid Visa alla';
 $string['collapseall'] = 'Dölj alla kurslistor';
 $string['course_overview:addinstance'] = 'Lägg till nytt block Kursöversikt';
 $string['course_overview:myaddinstance'] = 'Lägg till Kursöversikt till mitt Moodle';
+$string['defaultmaxcourses'] = 'Default maximala kurser';
+$string['defaultmaxcoursesdesc'] = 'Maximala kurser som ska visas i kursöversikts blocket. Inställningen "0" visar alla kurser';
 $string['expandall'] = 'Expandera alla kurslistor';
+$string['hiddencoursecount'] = 'Du har {$a} dold kurs';
+$string['hiddencoursecountplural'] = 'Du har {$a} en dolda kurser';
+$string['hiddencoursecountwithshowall'] = 'Du har {$a->coursecount} dold kurs ({$a->showalllink})';
+$string['hiddencoursecountwithshowallplural'] = 'Du har {$a->coursecount} dolda kurser ({$a->showalllink})';
 $string['message'] = 'Meddelande';
 $string['messages'] = 'Meddelanden';
 $string['moveafterhere'] = 'Flytta {$a->movingcoursename} kurser efter {$a->currentcoursename}';
@@ -39,11 +45,14 @@ $string['movecoursehere'] = 'Flytta kurs hit';
 $string['movetofirst'] = 'Flytta{$a} kurs överst';
 $string['movingcourse'] = 'Du flyttar: {$a->fullname} ({$a->cancellink})';
 $string['numtodisplay'] = 'Antal kurser som ska visas:';
-$string['pluginname'] = 'Kursöversikt (ärvt)';
+$string['pluginname'] = 'Översikt över kurs';
 $string['shortnameprefix'] = 'Inkluderar {$a}';
 $string['shortnamesufixprural'] = '(Och {$a} andra)';
 $string['shortnamesufixsingular'] = '(Och {$a} andra)';
-$string['title'] = 'Kursöversikt';
+$string['showchildren'] = 'Visa underliggande kurser';
+$string['showchildrendesc'] = 'Ska underliggande kurser listas under huvudkursens titel?';
+$string['showwelcomearea'] = 'Visa välkomstområde';
+$string['showwelcomeareadesc'] = 'Visa välkomstområdet ovanför kurslistan?';
 $string['view_edit_profile'] = '(Visa och redigera din profil.)';
 $string['welcome'] = 'Välkommen {$a}';
 $string['youhavemessages'] = 'Du har {$a} olästa';

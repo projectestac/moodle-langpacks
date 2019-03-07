@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'scorm', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -84,6 +84,8 @@ $string['compatibilitysettings'] = 'De estar activada, os obxectos de aprendizax
 $string['completed'] = 'Completado';
 $string['completionscorerequired'] = 'Requirir puntuación mínima';
 $string['completionscorerequired_help'] = 'Activando este axuste, requirirase que o usuario teña polo menos a puntuación mínima rexistrada para que se marque a actividade SCORM como finalizada, así como calquera outro requirimento de Finalización de actividade.';
+$string['completionstatusallscos'] = 'Require que todos os scos devolvan o estado de completado';
+$string['completionstatusallscos_help'] = 'Algúns paquetes SCORM conteñen varios compoñentes ou «scos» - cando isto está activado, todos os scos dentro do paquete deben devolver o lesson_status relevante para que esta actividade se marque como completada.';
 $string['completionstatus_completed'] = 'Completado';
 $string['completionstatus_passed'] = 'Aprobado';
 $string['completionstatusrequired'] = 'Requirir o estado';
@@ -417,3 +419,4 @@ Notas sobre a manipulación de varios intentos:
 * A configuración «Forzar o remate», «Forzar un novo intento» e «Bloqueo tras intento final» tamén facilitar aínda máis a xestión de varios intentos.';
 $string['width'] = 'Largura';
 $string['window'] = 'Xanela';
+$string['youmustselectastatus'] = 'Debe seleccionar un estado a requirir';

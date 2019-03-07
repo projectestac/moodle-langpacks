@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_webservice', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth_webservice', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   auth_webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Web services αυθεντικοποίηση';
+$string['auth_webservicedescription'] = 'Αυτή η μέθοδος αυθεντικοποίησης πρέπει να χρησιμοποιείται για λογαριασμούς αποκλειστικά για χρήση από πελάτες υπηρεσιών ιστού.';
+$string['pluginname'] = 'Αυθεντικοποίηση υπηρεσιών ιστού';

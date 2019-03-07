@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_news_items', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_news_items', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   block_news_items
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['news_items:addinstance'] = '新增一个最近新闻版块';
 $string['news_items:myaddinstance'] = '在个人主页新增一个最近新闻版块';
-$string['pluginname'] = '最近新闻';
+$string['pluginname'] = '最新通告';

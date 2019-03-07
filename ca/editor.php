@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'editor', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   editor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -106,7 +106,7 @@ $string['multi'] = 'Multillengua';
 $string['mustenterurl'] = 'Heu d\'introduir l\'URL';
 $string['nolink'] = 'Impedir enllaços automàtics';
 $string['normal'] = 'Normal';
-$string['notimage'] = 'El fitxer seleccionat no és una imatge. Si us plau trieu-ne un altre.';
+$string['notimage'] = 'El fitxer seleccionat no és una imatge. Trieu-ne un altre.';
 $string['notset'] = 'No definit';
 $string['ok'] = 'D\'acord';
 $string['options'] = 'Opcions';

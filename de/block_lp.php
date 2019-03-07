@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_lp', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_lp', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   block_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,13 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['competenciestoreview'] = 'Kompetenzen zur Überprüfung';
-$string['lp:addinstance'] = 'Block \'Lernplan\' hinzufügen';
-$string['lp:myaddinstance'] = 'Block \'Lernplan\' zum Dashboard hinzufügen';
+$string['lp:addinstance'] = 'Neuen Block \'Lernpläne\' hinzufügen';
+$string['lp:myaddinstance'] = 'Neuen Block \'Lernpläne\' zum Dashboard hinzufügen';
 $string['lp:view'] = 'Block \'Lernplan\' anzeigen';
 $string['myplans'] = 'Meine Lernpläne';
 $string['noactiveplans'] = 'Im Moment sind keine aktiven Lernpläne verfügbar.';
 $string['planstoreview'] = 'Pläne zur Prüfung';
 $string['pluginname'] = 'Lernpläne';
-$string['privacy:metadata'] = 'Der Block Lernpläne zeigt nur Daten an, die an anderen Orten gespeichert sind.';
 $string['viewmore'] = 'Mehr anzeigen...';
 $string['viewotherplans'] = 'Weitere Pläne anzeigen...';

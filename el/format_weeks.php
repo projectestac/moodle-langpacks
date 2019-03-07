@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_weeks', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'format_weeks', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   format_weeks
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,10 @@ $string['deletesection'] = 'Διαγραφή εβδομάδας';
 $string['editsection'] = 'Επεξεργασία εβδομάδας';
 $string['editsectionname'] = 'Επεξεργασία ονόματος εβδομάδας';
 $string['hidefromothers'] = 'Απόκρυψη εβδομάδας';
-$string['pluginname'] = 'Εβδομαδιαία μορφή';
+$string['newsectionname'] = 'Νέο όνομα για την εβδομάδα {$a}';
+$string['page-course-view-weeks'] = 'Κάθε κύρια σελίδα μαθημάτων σε μορφή εβδομάδων';
+$string['page-course-view-weeks-x'] = 'Κάθε σελίδα μαθημάτων σε μορφή εβδομάδων';
+$string['pluginname'] = 'Εβδομαδιαίος μορφότυπος μαθήματος';
 $string['section0name'] = 'Γενικά';
-$string['sectionname'] = 'εβδομάδα';
+$string['sectionname'] = 'Εβδομάδα';
+$string['showfromothers'] = 'Εμφάνιση εβδομάδας';

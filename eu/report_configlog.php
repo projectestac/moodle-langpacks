@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_configlog', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_configlog', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   report_configlog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,10 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configlog'] = 'Aldaketak ezarpenetan';
-$string['oldvalue'] = 'Jatorrizko balorea';
+$string['oldvalue'] = 'Jatorrizko balioa';
 $string['plugin'] = 'Plugina';
 $string['pluginname'] = 'Konfigurazio-aldaketak';
-$string['privacy:metadata'] = 'Konfigurazio-aldaketak pluginak ez du datu pertsonalik biltzen.';
 $string['setting'] = 'Ezarpenak';
 $string['timemodified'] = 'Data';
-$string['value'] = 'Balore berria';
+$string['value'] = 'Balio berria';

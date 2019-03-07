@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -397,6 +397,7 @@ $string['grademethod_help'] = 'Cando se permiten as tentativas múltiples, os se
 * Último intento (ignóranse todos os demais intentos)';
 $string['gradesdeleted'] = 'Elimináronse as cualificacións da proba';
 $string['gradesofar'] = '{$a->method}: {$a->mygrade} / {$a->quizgrade}.';
+$string['gradetopassmustbeset'] = 'A cualificación de aprobado non pode ser cero, xa que esta proba ten o método de finalización estabelecido para requirir a cualificación de aprobación. Configure un valor non cero.';
 $string['gradingdetails'] = 'Marcas para esta entrega: {$a->raw}/{$a->max}.';
 $string['gradingdetailsadjustment'] = 'Con penalizacións anteriores isto dá <strong>{$a->cur}/{$a->max}</strong>.';
 $string['gradingdetailspenalty'] = 'Esta entrega recibiu unha penalización de {$a}.';
@@ -509,6 +510,7 @@ $string['newattemptfail'] = 'Erro: Podería non comezar un novo intento na proba
 $string['newpage'] = 'Nova páxina';
 $string['newpageevery'] = 'Comezar automaticamente unha nova páxina';
 $string['newpage_help'] = 'Para probas máis longas ten sentido dividir a proba en varias páxinas limitando o número de preguntas por páxina. Ao engadir preguntas á proba, inseriranse quebras de páxina automaticamente conforme esta configuración. No entanto, as quebras de páxina poden moverse manualmente despois na edición da páxina.';
+$string['newsectionheading'] = 'Nova cabeceira';
 $string['noanswers'] = 'Non se seleccionou ningunha resposta!';
 $string['noattempts'] = 'Non se fixeron intentos nesta proba';
 $string['noattemptsfound'] = 'Non se atoparaon intentos.';

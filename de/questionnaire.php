@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'questionnaire', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,8 +39,6 @@ $string['alreadyfilled'] = 'Sie haben diese Befragung bereits ausgefüllt. {$a}'
 $string['andaveragevalues'] = 'und durchschnittliche Werte';
 $string['anonymous'] = 'Anonym';
 $string['answer'] = 'Antwort';
-$string['answergiven'] = 'Diese Antwort gegeben';
-$string['answernotgiven'] = 'Diese Antwort nicht gegeben';
 $string['answerquestions'] = 'Beantworten Sie die Fragen ...';
 $string['answers'] = 'Antworten';
 $string['attempted'] = 'Der Fragebogen wurde abgegeben.';
@@ -76,14 +74,13 @@ $string['checkbreaksok'] = 'Alle erforderlichen Seitenumbrüche sind vorhanden!'
 $string['checkbreaksremoved'] = '{$a} zusätzliche(n) Seitenumbruch/Seitenumbrüche entfernt.';
 $string['checknotstarted'] = 'Auswahl nicht gestartet';
 $string['checkstarted'] = 'Auswahl gestartet';
-$string['clicktoswitch'] = '(klicken um zu Wechseln)';
+$string['clicktoswitch'] = '(klicken, um zu wechseln)';
 $string['closed'] = 'Die Befragung wurde am {$a} beendet. Danke.';
 $string['closedate'] = 'Enddatum verwenden';
 $string['closedate_help'] = 'Sie können hier ein Abgabedatum für den Fragebogen bestimmen. Markieren Sie das Feld und wählen Sie Datum und Uhrzeit aus.
 Teilnehmer werden den Fragebogen nach diesem Zeitpunkt nicht mehr ausfüllen können. Wenn hier keine Angabe gemacht wird, wird der Fragebogen nie geschlossen.';
 $string['closeson'] = 'Befragung schließt am {$a}';
 $string['completionsubmit'] = 'Teilnehmer müssen den Frageboten einreichen um ihn zu beenden';
-$string['condition'] = 'Bedingung';
 $string['confalts'] = '---oder--- <br />Bestätigungsseite';
 $string['configmaxsections'] = 'Maximale Feedback-Stufen';
 $string['configusergraph'] = 'Zeigen Sie die Grafiken für das "Personality Test"-Feedback';
@@ -116,14 +113,12 @@ $string['deletedisabled'] = 'Diese Objekt kann nicht gelöscht werden';
 $string['deletedresp'] = 'Antwort löschen';
 $string['deleteresp'] = 'Diese Antwort löschen';
 $string['deletingresp'] = 'Antort wird gelöscht';
-$string['dependencies'] = 'Abhängigkeiten';
 $string['dependquestion'] = 'Übergeordnete Frage';
 $string['dependquestion_help'] = 'Sie können eine übergeordnete Frage und eine Auswahlmöglichkeit für die Frage wählen. Eine untergeordnete Frage wird Nutzer/innen nur dargestellt wenn die übergeordnete Frage und die Wahlmöglichkeit vorher ausgewählt wurden.';
-$string['directwarnings'] = 'Direkte Abhängigkeiten zu dieser Frage werden entfernt. Dies wird betreffen:';
 $string['displaymethod'] = 'Anzeigemethode für Frage nicht definiert';
 $string['download'] = 'Herunterladen';
 $string['downloadtextformat'] = 'Im Text-Format herunterladen';
-$string['downloadtextformat_help'] = 'Diese Funktion ermöglicht es Ihnen alle Antworten eines Fragebogend in einer Textdatei (DSV) zu speichern. Diese Datei kann in ein Tabellenkalkulationsprogramm importiert oder von einer Statistik-Software weiter verarbeitet werden.';
+$string['downloadtextformat_help'] = 'Diese Funktion ermöglicht es Ihnen, alle Antworten eines Fragebogens in einer Textdatei (CSV) zu speichern. Diese Datei kann dann in ein Tabellenkalkulationsprogramm importiert oder von einer Statistik-Software weiter verarbeitet werden.';
 $string['dropdown'] = 'Dropdown-Feld';
 $string['dropdown_help'] = 'Es gibt keinen eindeutigen Vorteil eine Dropdown-Box Radio-Buttons vorzuziehen außer um Platz zu sparen und die Länge der Liste zu reduzieren.';
 $string['edit'] = 'Bearbeiten';
@@ -134,9 +129,9 @@ $string['errnewname'] = 'Sorry. Dieser Name wird bereits genutzt. Wählen Sie ei
 $string['erroropening'] = 'Fehler beim Öffnen der Befragung.';
 $string['errortable'] = 'Fehler. Befragungstabelle beschädigt.';
 $string['essaybox'] = 'Freitextfeld';
-$string['essaybox_help'] = 'Diese Frage wird ein Textbox mit x Spalten (oder der entsprechenden Breite) und y Reihen (Anzahl der Textzeilen) anzeigen.
+$string['essaybox_help'] = 'Diese Frage wird eine Textbox mit x Spalten (oder der entsprechenden Breite) und y Zeilen (Anzahl der Textzeilen) anzeigen.
 
-Wenn Sie beides auf dem Standardwert 0 belassen (oder es auf 0 setzen) wird der Moodle Html-Editor mit Standardhöhe und -breite  angezeigt (Werte aus dem Kurs- oder Nutzerprofil).';
+Wenn Sie beides auf dem Standardwert 0 belassen (oder es auf 0 setzen), wird der Texteditor mit Standardhöhe und -breite angezeigt (Werte aus dem Kurs- oder Nutzerprofil).';
 $string['event_all_responses_deleted'] = 'Alle Antworten gelöscht';
 $string['event_all_responses_saved_as_text'] = 'Alle Antworten als Text gespeichert';
 $string['event_all_responses_viewed'] = 'Bericht aller Antworten angezeigt';
@@ -212,7 +207,6 @@ $string['includechoicetext'] = 'Auswahltext einbeziehen';
 $string['incorrectcourseid'] = 'Falsche Kurs-ID';
 $string['incorrectmodule'] = 'Falsche Kursmodul-ID';
 $string['incorrectquestionnaire'] = 'Falsche Befragung';
-$string['indirectwarnings'] = 'Diese Liste zeigt die indirekt abhängigen Fragen und die verbleibenden Abhängigkeiten für direkt abhängige Fragen:';
 $string['invalidresponse'] = 'Falsche Antwort angegeben';
 $string['invalidresponserecord'] = 'Falscher Antwortdatensatz angegeben';
 $string['invalidsurveyid'] = 'Falsche Befragungs-ID';
@@ -222,15 +216,14 @@ $string['lastrespondent'] = 'Letze Abgabe';
 $string['length'] = 'Länge';
 $string['managequestions'] = 'Fragen bearbeiten';
 $string['managequestions_help'] = 'In der "Fragen bearbeiten"-Sektion der "Frage hinzufügen"-Seite können Sie mehre Aktionen an den Fragebogen-Fragen vornehmen.';
-$string['mandatory'] = 'Verpflichtend - Alle diese Abhängigkeiten müssen erfüllt sein.';
 $string['maxdigitsallowed'] = 'Max. erlaubte Ziffern';
 $string['maxdigitsallowed_help'] = 'Durch die Verwendung von Max. erlaubte Ziffern und Anzahl der Nachkomastellen können Sie die Länge und Anzahl der geforderten Nachkommastellen bestimmen.';
 $string['maxforcedresponses'] = 'Max. geforderte Antworten';
 $string['maxforcedresponses_help'] = 'Verwenden Sie diese Parameter um den Befragten zu zwingen, mindestens **Min.** und höchstens **Max.** Häkchen zu setzen. Um eine bestimmte Anzahl von Häkchen zu erzwingen, setzen Sie in **Min.** und **Max.** den gleichen Wert ein. Wenn nur Minimum oder Maximum gewünscht wird, lassen Sie das andere Feld auf seinem Standardwert **0**. Wenn Sie **Min.** oder **Max.** auf einen anderen Wert als den Standard **0** setzen, wird eine Warnmeldung angezeigt, wenn der Befragte nicht mit Ihren Anforderungen übereinstimmt. Selbstverständlich sollten Sie dem Befragten alle Anforderungen entweder in den allgemeinen Angaben zu Ihrer Befragung oder im Text der betreffenden Fragen eindeutig erläutern.';
 $string['maxtextlength'] = 'Max. Textlänge';
 $string['maxtextlength_help'] = 'Für die Textbox-Frage geben Sie die Länge des Feldes und die maximal eingebbaren Zeichen an. Voreingestellt sind eingebbare 25 Zeichen bei einer Anzeigelänge von 20.';
-$string['messageprovider:message'] = 'Fragebogen Reminder';
-$string['messageprovider:notification'] = 'Befragungsabgabe';
+$string['messageprovider:message'] = 'Erinnerung zu Befragung';
+$string['messageprovider:notification'] = 'Mitteilung zur Befragungsabgabe';
 $string['minforcedresponses'] = 'Min. geforderte Antworten';
 $string['minforcedresponses_help'] = 'Diese Optionen erlauben es, vom Teilnehmer ein Minimum von **Min.** bzw. Maximum von **Max.** an angekreuzten Kästchen zu fordern.
 Um eine genaue Anzahl einzufordern, sind **Min.** und **Max.** auf den selben Wert zu setzen.
@@ -268,8 +261,8 @@ $string['noresponsedata'] = 'Keine Antworten zu dieser Frage';
 $string['noresponses'] = 'Keine Antworten';
 $string['normal'] = 'Normal';
 $string['notanumber'] = '<strong>{$a}</strong> ist kein mögliches Zahlenformat.';
-$string['notapplicable'] = 'entfällt';
-$string['notapplicablecolumn'] = 'Spalte entf.';
+$string['notapplicable'] = 'nicht zutreffend';
+$string['notapplicablecolumn'] = 'Spalte "nicht zutreffend"';
 $string['notavail'] = 'Die Befragung steht nicht länger zur Verfügung. Die Befragung kann gelöscht werden.';
 $string['noteligible'] = 'Sie können an dieser Befragung nicht teilnehmen.';
 $string['notemplatesurveys'] = 'Keine Befragungs-Templates';
@@ -280,7 +273,6 @@ $string['notifications_help'] = 'Rollen, die bei einer Abgabe benachrichtigt wer
 $string['notificationsimple'] = 'Nur Benachrichtigung';
 $string['notopen'] = 'Diese Befragung steht ab {$a} zur Verfügung.';
 $string['notrequired'] = 'Antwort ist nicht erforderlich';
-$string['notset'] = 'nicht gewählt';
 $string['not_started'] = 'nicht gestartet';
 $string['nousersselected'] = 'Keine Teilnehmer/innen ausgewählt';
 $string['num'] = 'Nr.';
@@ -299,7 +291,6 @@ $string['opendate'] = 'Startdatum verwenden';
 $string['opendate_help'] = 'Hier können Sie ein Anfangszeitpunkt für den Fragebogen festlegen. Markieren Sie das Feld und wählen Sie die gewünschte Datum und Uhrzeit.
 Teilnhemer können vor dem angegebenen Zeitpunkt den Fragebogen nicht ausfüllen. Ohne Angabe steht der Fragebogen sofort zur Verfügung.';
 $string['option'] = 'Option {$a}';
-$string['optional'] = 'Optional - Mindestens eine dieser Abhängigkeiten muss erfüllt sein.';
 $string['optionalname'] = 'Name der Frage';
 $string['optionalname_help'] = 'Der Fragetitel wird nur benutzt, wenn Sie die Antworten in das CSV/Excel-Format exportieren. Wenn Sie diese Funktion nicht verwenden, müssen Sie sich über die Fragetitel keine Gedanken machen. Wenn Sie einen regelmäßigen Export der Daten ins CSV-Format Planen, haben Sie die Wahl von zwei';
 $string['or'] = '---oder---';
@@ -326,7 +317,6 @@ $string['overviewnumrespvw1'] = 'Antwort';
 $string['owner'] = 'Ersteller';
 $string['page'] = 'Seite';
 $string['pageof'] = 'Seite {$a->page} von {$a->totpages}';
-$string['parent'] = 'Vorläufer';
 $string['participant'] = 'Teilnehmer/in';
 $string['pleasecomplete'] = 'Bitte Auswahl vervollständigen';
 $string['pluginadministration'] = 'Befragungsadministration';
@@ -376,10 +366,10 @@ $string['questionnaire:submissionnotification'] = 'Für jede Abgabe Benachrichti
 $string['questionnaire:submit'] = 'Befragung abschliessen und abgeben';
 $string['questionnaire:view'] = 'Befragung sehen';
 $string['questionnaire:viewsingleresponse'] = 'Alle persönlichen Antworten sehen';
-$string['questionnum'] = 'Frage-Nr.';
+$string['questionnum'] = 'Frage # ';
 $string['questions'] = 'Fragen';
 $string['questionsinsection'] = 'Fragen in diesem Abschnitt:';
-$string['questiontypes'] = 'Fragentypen';
+$string['questiontypes'] = 'Fragetypen';
 $string['questiontypes_help'] = 'Beachten Sie die Moodle-Dokumentation';
 $string['radiobuttons'] = 'Radio Buttons';
 $string['radiobuttons_help'] = 'Bei diesem Fragetyp, muss eine von mehreren Antwortvorgaben gewählt werden.';
@@ -447,7 +437,6 @@ $string['sendemail_help'] = 'Sendet eine Kopie jeder Einsendung an die angegeben
 Für kein zusätzliches Mail-Backup lassen Sie dieses Feld leer.';
 $string['send_message'] = 'Ausgewählten Teilnehmer/innen eine Nachricht senden';
 $string['send_message_to'] = 'Nachricht senden an:';
-$string['set'] = 'gewählt';
 $string['settings'] = 'Einstellungen';
 $string['settingssaved'] = 'Einstellungen gesichert';
 $string['show_nonrespondents'] = 'Nicht-Teilnehmende';
@@ -493,7 +482,7 @@ Standardmässig ist dies der Name der Befragung, Sie können dies aber editieren
 $string['today'] = 'heute';
 $string['total'] = 'Gesamt';
 $string['type'] = 'Typ';
-$string['undefinedquestiontype'] = 'Undefinierte Fragetyp';
+$string['undefinedquestiontype'] = 'Undefinierter Fragetyp';
 $string['unknown'] = 'Unbekannt';
 $string['unknownaction'] = 'Unbekannte Befragungsaktion angegeben...';
 $string['url'] = 'URL';
@@ -511,7 +500,7 @@ $string['viewindividualresponse_help'] = 'Klicken Sie auf die Namen der Antworte
 $string['viewresponses'] = 'Alle Antworten: ({$a})';
 $string['viewyourresponses'] = 'Ihre Antworten: zeige  {$a}';
 $string['warning'] = 'Warnung: Fehler aufgetreten';
-$string['wronganswers'] = 'Es ist etwas fehlerhaft bei Ihren Antworten (siehe unten)';
+$string['wronganswers'] = 'Mit den Antworten stimmt etwas nicht. (siehe unten)';
 $string['wrongdateformat'] = 'Das eingegebene Datum <strong>{$a}</strong> entspricht nicht dem vorgegebenen Format.';
 $string['wrongdaterange'] = 'Fehler: die Jahreszahl muss zwischen 1902 und 2037 liegen.';
 $string['wrongformat'] = 'Es ist etwas fehlerhaft bei Ihrer Antwort zu der Frage:  ';

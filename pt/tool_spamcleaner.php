@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_spamcleaner', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_spamcleaner', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_spamcleaner
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,15 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Limpeza de spam';
-$string['privacy:metadata'] = 'O módulo Limpeza de spam não armazena dados pessoais.';
 $string['spamauto'] = 'Detetar padrões comuns de spam';
 $string['spamcannotdelete'] = 'Não pode apagar este utilizador';
 $string['spamcannotfinduser'] = 'Não existem utilizadores que correspondam à sua pesquisa';
 $string['spamcleanerintro'] = '<p>Este script permite que procure contas de utilizadores com base em certos textos e as elimine por se tratarem de contas criadas por spammers.  Pode pesquisar por múltiplas palavras-chave utilizando virgulas para separá-las (ex: casino, porn).</p>
-<p>Para mais informações, consulte a documentação disponível em <a href="http://docs.moodle.org/en/Reducing_spam_in_Moodle">Reducing spam in Moodle</a>.</p>';
+<p>Para mais informações, consulte a documentação disponível em <a href="http://docs.moodle.org/en/Reducing_spam_in_Moodle">Reduzir o spam no Moodle</a>.</p>';
 $string['spamdeleteall'] = 'Apagar todas as contas';
-$string['spamdeleteallconfirm'] = 'Tem a certeza que pretende apagar todas estas contas de utilizador?  Esta operação é irreversível.';
-$string['spamdeleteconfirm'] = 'Tem a certeza que pretende apagar esta entrada?  Esta operação é irreversível.';
+$string['spamdeleteallconfirm'] = 'Tem a certeza de que pretende apagar todas estas contas de utilizador?  Esta operação é irreversível.';
+$string['spamdeleteconfirm'] = 'Tem a certeza de que pretende apagar esta entrada?  Esta operação é irreversível.';
 $string['spamdesc'] = 'Descrição';
 $string['spameg'] = 'ex:  casino, porn, xxx';
 $string['spamfromblog'] = 'Da mensagem do blogue:';

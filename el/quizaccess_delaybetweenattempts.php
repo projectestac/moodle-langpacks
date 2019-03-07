@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_delaybetweenattempts', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quizaccess_delaybetweenattempts', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   quizaccess_delaybetweenattempts
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['pluginname'] = 'Κανόνας πρόσβασης κουίζ: καθυστέρηση μεταξύ προσπαθειών';
 $string['youcannotwait'] = 'Αυτό το κουίζ κλείνει πριν σας επιτραπεί να αρχίσετε άλλη προσπάθεια.';
 $string['youmustwait'] = 'Πρέπει να περιμένετε πριν ξαναπροσπαθήσετε το κουίζ. Θα σας επιτραπεί να ξεκινήσετε νέα προσπάθεια μετά από {$a}.';

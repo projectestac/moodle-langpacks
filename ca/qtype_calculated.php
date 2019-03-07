@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_calculated', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   qtype_calculated
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -102,7 +102,7 @@ $string['newlocal3'] = 'un enllaç d\'un conjunt d\'enllaços que només s\'util
 $string['newsetwildcardvalues'] = 'nou(s) conjunt(s) de valors de comodí(ns)';
 $string['nextitemtoadd'] = '\'Element per afegir\' següent';
 $string['nextpage'] = 'Pàgina següent';
-$string['nocoherencequestionsdatyasetcategory'] = 'A la pregunta amb ID {$a->qid}, l\'ID de la categoria ({$a-qcat}) no coincideix amb l\'ID de la categoria del comodí compartit ({$a->sharedcat}). Si us plau, editeu la pregunta.';
+$string['nocoherencequestionsdatyasetcategory'] = 'A la pregunta amb ID {$a->qid}, l\'ID de la categoria ({$a-qcat}) no coincideix amb l\'ID de la categoria del comodí compartit ({$a->sharedcat}). Editeu la pregunta.';
 $string['nocommaallowed'] = 'No podeu emprar la (,). Useu el (.) com en 0.013 o 1.3e-2';
 $string['nodataset'] = 'res - no és un comodí';
 $string['nosharedwildcard'] = 'No hi ha comodins compartits en aquesta categoria';

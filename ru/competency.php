@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'competency', language 'ru', branch 'MOODLE_32_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,21 +30,21 @@ $string['competencies'] = 'Компетенции';
 $string['competenciesarenotenabled'] = 'Компетенции не включены.';
 $string['competenciessettings'] = 'Настройки компетенций';
 $string['completeplanstask'] = 'Выполнить учебные планы, по которым подошел срок';
-$string['coursecompetencyoutcome_complete'] = 'Соответствие компетенции.';
+$string['coursecompetencyoutcome_complete'] = 'Выполнить компетенцию';
 $string['coursecompetencyoutcome_evidence'] = 'Прикрепить доказательство';
 $string['coursecompetencyoutcome_none'] = 'Ничего не делать';
-$string['coursecompetencyoutcome_recommend'] = 'Отправить на проверку.';
-$string['coursemodulecompetencyoutcome_complete'] = 'Компетенция выполнена';
+$string['coursecompetencyoutcome_recommend'] = 'Отправить на проверку';
+$string['coursemodulecompetencyoutcome_complete'] = 'Выполнить компетенцию';
 $string['coursemodulecompetencyoutcome_evidence'] = 'Прикрепить доказательство';
 $string['coursemodulecompetencyoutcome_none'] = 'Ничего не делать';
 $string['coursemodulecompetencyoutcome_recommend'] = 'Отправить на пересмотр';
 $string['deletecompetencyratings'] = 'Удалить рейтинги компетенций';
 $string['duplicateditemname'] = '{$a} (копия)';
 $string['enablecompetencies'] = 'Включить компетенции';
-$string['enablecompetencies_desc'] = 'Компетенции позволяют оценивать пользователей в соответствии с учебными планами.';
+$string['enablecompetencies_desc'] = 'Компетентности позволяют оценивать пользователей на соответствие требованиям учебных планов.';
 $string['errorcannotchangeapastduedate'] = 'Срок выполнения прошел; он не может быть изменен.';
 $string['errorcannotsetduedateinthepast'] = 'Срок выполнения не может быть задан в прошлом.';
-$string['errorcannotsetduedatetoosoon'] = 'Срок выполнения слишком рано.';
+$string['errorcannotsetduedatetoosoon'] = 'Срок выполнения наступит слишком быстро.';
 $string['errorcompetencyrule'] = 'Неизвестное правило компетенции курса «{$a}»';
 $string['errorcoursecompetencyrule'] = 'Неизвестное правило компетенции курса «{$a}»';
 $string['errorinvalidcourse'] = 'Некорректный курс.';
@@ -115,8 +115,8 @@ $string['planstatusdraft'] = 'Черновик';
 $string['planstatusinreview'] = 'Проверяется';
 $string['planstatuswaitingforreview'] = 'Ожидание отзыва';
 $string['pointsrequiredaremet'] = 'Набраны необходимые баллы';
-$string['pushcourseratingstouserplans'] = 'Распространять рейтинги курсов на индивидуальные учебные планы';
-$string['pushcourseratingstouserplans_desc'] = 'Значение по умолчанию для настройки курса при обновлении индивидуальных учебных планов после задания рейтингов компетенции курса.';
+$string['pushcourseratingstouserplans'] = 'Передавать оценки курсов в индивидуальные учебные планы';
+$string['pushcourseratingstouserplans_desc'] = 'Значение по умолчанию для настройки курса при обновлении индивидуальных учебных планов если оценены компетентности курса.';
 $string['syncplanscohorts'] = 'Синхронизировать планы из глобальных групп шаблонов учебных планов';
 $string['taxonomy_behaviour'] = 'Поведение';
 $string['taxonomy_competency'] = 'Компетенция';

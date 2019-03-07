@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'role', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addinganewrole'] = 'S\'està afegint un nou rol';
-$string['addrole'] = 'Afegeix un nou rol';
+$string['addrole'] = 'Afegeix un rol nou';
 $string['advancedoverride'] = 'Redefinició avançada de rols';
 $string['allow'] = 'Permet';
 $string['allowassign'] = 'Permís per assignar rols';
@@ -37,13 +37,12 @@ $string['allowroletooverride'] = 'Permet que els usuaris amb rol {$a->fromrole} 
 $string['allowroletoswitch'] = 'Permet que els usuaris amb rol {$a->fromrole} commutin al rol {$a->targetrole}';
 $string['allowswitch'] = 'Permís per commutar rols';
 $string['allsiteusers'] = 'Tots els usuaris del lloc';
-$string['analytics:listinsights'] = 'Enumera les prediccions';
 $string['archetype'] = 'Arquetipus del rol';
 $string['archetypecoursecreator'] = 'ARQUETIPUS: Creador de cursos';
 $string['archetypeeditingteacher'] = 'ARQUETIPUS: Professor (editor)';
 $string['archetypefrontpage'] = 'ARQUETIPUS: Usuari autenticat a la primera pàgina';
 $string['archetypeguest'] = 'ARQUETIPUS: Convidat';
-$string['archetype_help'] = 'L\'arquetipus de rol determina els permisos quan un rol es reinicia als valors per omissió. També determina qualsevol nou permís per al rol quan s\'actualitza el lloc.';
+$string['archetype_help'] = 'L\'arquetipus de rol determina els permisos quan un rol es reinicia als valors per defecte. També determina qualsevol permís nou per al rol quan s\'actualitza el lloc.';
 $string['archetypemanager'] = 'ARQUETIPUS: Gestor';
 $string['archetypestudent'] = 'ARQUETIPUS: Estudiant';
 $string['archetypeteacher'] = 'ARQUETIPUS: Professor (no-editor)';
@@ -107,7 +106,7 @@ $string['checkpermissions'] = 'Comprova els permisos';
 $string['checkpermissionsin'] = 'Comprova els permisos en aquest context: {$a}';
 $string['checksystempermissionsfor'] = 'Comprova els permisos de {$a->fullname}';
 $string['checkuserspermissionshere'] = 'Comprova els permisos que {$a->fullname} té en aquest {$a->contextlevel}';
-$string['chooseroletoassign'] = 'Si us plau, escolliu un rol per assignar';
+$string['chooseroletoassign'] = 'Escolliu un rol per assignar';
 $string['cohort:assign'] = 'Afegir i eliminar membres de la cohort';
 $string['cohort:manage'] = 'Crear, esborrar i moure cohorts';
 $string['cohort:view'] = 'Mostrar les cohorts globals al lloc';
@@ -158,17 +157,16 @@ $string['confirmunassigntitle'] = 'Confirma el canvi de rol';
 $string['confirmunassignyes'] = 'Esborra';
 $string['context'] = 'Context';
 $string['course:activityvisibility'] = 'Ocultar/mostrar activitats';
-$string['course:bulkmessaging'] = 'Enviar un missatge a moltes persones';
+$string['course:bulkmessaging'] = 'Envia un missatge a moltes persones';
 $string['course:changecategory'] = 'Canviar la categoria del curs';
 $string['course:changefullname'] = 'Canviar el nom complet del curs';
 $string['course:changeidnumber'] = 'Canviar el número ID del curs';
 $string['course:changeshortname'] = 'Canviar el nom curt del curs';
-$string['course:changesummary'] = 'Canviar el resum del curs';
+$string['course:changesummary'] = 'Canvia el resum del curs';
 $string['course:create'] = 'Crear cursos';
 $string['course:delete'] = 'Suprimir cursos';
 $string['course:enrolconfig'] = 'Configurar les instàncies d\'inscripció als cursos';
 $string['course:enrolreview'] = 'Revisar les inscripcions als cursos';
-$string['course:ignoreavailabilityrestrictions'] = 'Ignora les restriccions de disponibilitat';
 $string['course:ignorefilesizelimits'] = 'Utilitzar fitxers més grans que les restriccions de mida de fitxer';
 $string['course:isincompletionreports'] = 'Mostrar en els informes de compleció';
 $string['course:manageactivities'] = 'Gestionar activitats';
@@ -178,7 +176,6 @@ $string['course:managegroups'] = 'Gestionar grups';
 $string['course:managescales'] = 'Gestionar escales';
 $string['course:markcomplete'] = 'Marca usuaris com a completats en la compleció del curs';
 $string['course:movesections'] = 'Moure seccions';
-$string['course:overridecompletion'] = 'Canvia l\'estat de compleció de l\'activitat';
 $string['course:publish'] = 'Publicar un curs a la col·lectivitat';
 $string['course:renameroles'] = 'Canvia el nom dels rols';
 $string['course:request'] = 'Demanar nous cursos';
@@ -259,7 +256,7 @@ $string['grade:unlock'] = 'Desblocar qualificacions o elements';
 $string['grade:view'] = 'Veure les qualificacions pròpies';
 $string['grade:viewall'] = 'Veure les qualificacions d\'altres usuaris';
 $string['grade:viewhidden'] = 'Veure qualificacions ocultes pròpies';
-$string['highlightedcellsshowdefault'] = 'Les cel·les ressaltades de la taula del dessota mostren els permisos per omissió per aquest tipus de rol, basat en el «tipus de rol heretat» del damunt.';
+$string['highlightedcellsshowdefault'] = 'Les cel·les ressaltades de la taula del dessota mostren els permisos per defecte per a aquest tipus de rol, basat en el «tipus de rol heretat» del damunt.';
 $string['highlightedcellsshowinherit'] = 'Les cel·les ressaltades de la taula del dessota mostren els permisos (si n\'hi ha) que s\'heretaran. Hauríeu de deixar-ho tot establert a «Hereta» llevat d\'aquelles capacitats de les quals voleu alterar els permisos.';
 $string['inactiveformorethan'] = 'inactiu més de {$a->timeperiod}';
 $string['ingroup'] = 'en el grup «{$a->group}»';
@@ -302,7 +299,7 @@ $string['overrideanotherrole'] = 'Redefineix un altre rol';
 $string['overridecontext'] = 'Redefineix el context';
 $string['overridepermissions'] = 'Redefineix els permisos';
 $string['overridepermissionsforrole'] = 'Redefineix els permisos del rol «{$a->role}» a {$a->context}';
-$string['overridepermissions_help'] = 'La redefinició de permisos possibilita habilitar o deshabilitar capacitats concretes en contextos específics.';
+$string['overridepermissions_help'] = 'La redefinició de permisos possibilita habilitar o inhabilitar capacitats concretes en contextos específics.';
 $string['overridepermissionsin'] = 'Defineix excepcions als permisos en {$a}';
 $string['overrideroles'] = 'Redefineix els rols';
 $string['overriderolesin'] = 'Defineix excepcions als rols en {$a}';
@@ -411,6 +408,7 @@ $string['site:viewfullnames'] = 'Veure sempre els noms complets dels usuaris';
 $string['site:viewparticipants'] = 'Veure els participants';
 $string['site:viewreports'] = 'Veure informes';
 $string['site:viewuseridentity'] = 'Veure la identitat completa de l\'usuari en les llistes';
+$string['tag:create'] = 'Crear noves etiquetes';
 $string['tag:edit'] = 'Editar etiquetes existents';
 $string['tag:editblocks'] = 'Editar blocs en pàgines d\'etiquetes';
 $string['tag:flag'] = 'Marcar etiquetes com a inadequades';
@@ -432,7 +430,7 @@ $string['user:loginas'] = 'Inicia la sessió com un altre usuari';
 $string['user:manageblocks'] = 'Gestionar els blocs del perfil d\'usuari d\'altres usuaris';
 $string['user:manageownblocks'] = 'Gestionar els blocs del propi perfil públic d\'usuari';
 $string['user:manageownfiles'] = 'Gestionar els fitxers de les àrees privades pròpies';
-$string['user:managesyspages'] = 'Configurar la disposició per omissió de la pàgina per als perfils públics d\'usuari';
+$string['user:managesyspages'] = 'Configura la disposició per defecte de la pàgina per als perfils públics d\'usuari';
 $string['user:readuserblogs'] = 'Veure els blogs dels usuaris';
 $string['user:readuserposts'] = 'Veure tots els missatges als fòrums dels usuaris';
 $string['usersfrom'] = 'Usuaris de {$a}';

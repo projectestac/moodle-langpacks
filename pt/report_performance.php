@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_performance', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_performance', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   report_performance
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['check_backup_comment_enable'] = 'O desempenho pode ser afetado durante 
 $string['check_backup_details'] = '<p>Ativar a realização de cópias de segurança automáticas irá criar automaticamente no servidor, e à hora que especificou, arquivos de todas as disciplinas. <p<Durante este processo, serão consumidos mais recursos e isto poderá afetar o desempenho.<p/>';
 $string['check_cachejs_comment_disable'] = 'Se ativar esta opção, o desempenho do carregamento das páginas será melhorado.';
 $string['check_cachejs_comment_enable'] = 'Se desativar esta opção, o carregamento das páginas poderá ser mais lento.';
-$string['check_cachejs_details'] = 'A caching e compressão de Javascript melhora muito o desempenho do carregamento da página. É altamente recomendável para sites de produção.';
+$string['check_cachejs_details'] = 'A caching e compressão de JavaScript melhora muito o desempenho do carregamento da página. É altamente recomendável para sites de produção.';
 $string['check_debugmsg_comment_developer'] = 'Se for definido para outro, que não Programador, o desempenho pode ser melhorado ligeiramente.';
 $string['check_debugmsg_comment_nodeveloper'] = 'Se for definido para PROGRAMADOR, o desempenho pode ser ligeiramente afetado.';
 $string['check_debugmsg_details'] = 'Raramente existem vantagens em ativar o nível de \'PROGRAMADOR\', a menos que seja um programador. Depois de ter verificado a mensagem de erro é ALTAMENTE RECOMENDADO alterar novamente as mensagens de erro para \'Nada\'. As mensagens de erro podem dar pistas da configuração do seu site a um pirata informático e podem afetar o desempenho.';
@@ -50,5 +50,4 @@ $string['morehelp'] = 'mais ajuda';
 $string['performancereportdesc'] = 'Este relatório exibe uma listagem de problemas que podem afetar o desempenho do site {$a}';
 $string['performance:view'] = 'Ver relatório de desempenho';
 $string['pluginname'] = 'Visão geral do desempenho';
-$string['privacy:metadata'] = 'O módulo Visão geral do desempenho não armazena dados pessoais.';
 $string['value'] = 'Valor';

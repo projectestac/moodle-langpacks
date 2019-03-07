@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cohort', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'cohort', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   cohort
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addcohort'] = '新建群';
-$string['allcohorts'] = '所有群';
+$string['addcohort'] = '新建群组';
+$string['allcohorts'] = '所有群组';
 $string['anycohort'] = '任意';
 $string['assign'] = '分配';
 $string['assigncohorts'] = '分配群成员';
@@ -35,8 +35,8 @@ $string['backtocohorts'] = '回到群';
 $string['bulkadd'] = '添加到群';
 $string['bulknocohort'] = '没有可用的群';
 $string['categorynotfound'] = '分类 <b>{$a}</b>未找到，或者你没有在这里创建群的权限。将使用默认值。';
-$string['cohort'] = '群';
-$string['cohorts'] = '群';
+$string['cohort'] = '群组';
+$string['cohorts'] = '群组';
 $string['cohortsin'] = '{$a}：可用群';
 $string['component'] = '来源';
 $string['contextnotfound'] = '情况 <b>{$a}</b>未找到，或者你没有在这里创建群的权限。将使用默认值。';
@@ -51,11 +51,11 @@ $string['delconfirm'] = '您真的要删除群“{$a}”吗？';
 $string['description'] = '描述';
 $string['displayedrows'] = '{$a->displayed}行显示超过了{$a->total}。';
 $string['duplicateidnumber'] = '已有使用相同ID的群存在';
-$string['editcohort'] = '编辑群';
-$string['editcohortidnumber'] = '编辑群ID';
+$string['editcohort'] = '编辑群组';
+$string['editcohortidnumber'] = '编辑群组ID';
 $string['editcohortname'] = '编辑群名称';
-$string['eventcohortcreated'] = '群已创建';
-$string['eventcohortdeleted'] = '群已删除';
+$string['eventcohortcreated'] = '群组已创建';
+$string['eventcohortdeleted'] = '群组已删除';
 $string['eventcohortmemberadded'] = '用户添加到群';
 $string['eventcohortmemberremoved'] = '用户从群中移除';
 $string['eventcohortupdated'] = '群更新';

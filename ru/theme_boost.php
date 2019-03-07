@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'theme_boost', language 'ru', branch 'MOODLE_32_STABLE'
  *
  * @package   theme_boost
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['pluginname'] = 'Boost';
 $string['preset'] = 'Предустановка темы';
 $string['preset_desc'] = 'Выберите предустановку, чтобы в целом изменить внешний вид темы.';
 $string['presetfiles'] = 'Дополнительные файлы предустановки темы';
-$string['presetfiles_desc'] = 'Файлы с предустановками (шаблоны) могут использоваться для существенного изменения внешнего вида темы. См. <a href=https://docs.moodle.org/dev/Boost_Presets> Шаблоны темы Boost</a> для получения информации о создании и распространении собственных файлов с шаблонами и см. <a href = http: //moodle.net / Boost> Репозиторий шаблонов </a> для шаблонов, представленных другими пользователями.';
+$string['presetfiles_desc'] = 'Файлы с предустановками (шаблоны) могут использоваться для существенного изменения внешнего вида темы. См. <a href=https://docs.moodle.org/dev/Boost_Presets> Шаблоны темы Boost</a> для получения информации о создании и распространении собственных файлов с шаблонами и см. <a href=http://moodle.net/boost> Репозиторий шаблонов </a> для шаблонов, представленных другими пользователями.';
 $string['rawscss'] = 'Завершающий SCSS';
 $string['rawscss_desc'] = 'Используйте это поле для предоставления кода SCSS или CSS, который будет введен в конце таблицы стилей.';
 $string['rawscsspre'] = 'Исходный SCSS';

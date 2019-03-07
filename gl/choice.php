@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'choice', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,7 +52,9 @@ non necesita as seis opcións. As opcións non cubertas non aparecerán no cuest
 $string['choice:readresponses'] = 'Ler respostas';
 $string['choicesaved'] = 'Gardouse a súa escolla';
 $string['choicetext'] = 'Texto escollido';
+$string['choice:view'] = 'Ver a actividade de elección';
 $string['chooseaction'] = 'Escoller unha acción ...';
+$string['chooseoption'] = 'Escolla: {$a}';
 $string['closebeforeopen'] = 'Especificou unha data de peche anterior á da apertura.';
 $string['completionsubmit'] = 'Amosar como completo cando o usuario fai unha escolla';
 $string['description'] = 'Descrición';
@@ -61,6 +63,7 @@ $string['displaymode'] = 'Mostrar Modo';
 $string['displayvertical'] = 'Mostrar verticalmente';
 $string['eventanswercreated'] = 'Escolla feita';
 $string['eventanswerdeleted'] = 'Opción de resposta eliminada';
+$string['eventanswersubmitted'] = 'Escolla feita';
 $string['eventanswerupdated'] = 'Escolla actualizada';
 $string['eventreportdownloaded'] = 'Informe de escolla descargado';
 $string['eventreportviewed'] = 'Informe de escolla visto';

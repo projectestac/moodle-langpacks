@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'langconfig', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'langconfig', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   langconfig
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,12 +31,13 @@ $string['decsep'] = ',';
 $string['firstdayofweek'] = '1';
 $string['iso6391'] = 'en';
 $string['iso6392'] = 'eng';
-$string['labelsep'] = ' :';
+$string['labelsep'] = ':';
 $string['listsep'] = ';';
 $string['locale'] = 'eu_ES.UTF-8';
 $string['localewin'] = 'Basque';
 $string['localewincharset'] = 'WINDOWS-1252';
 $string['oldcharset'] = 'ISO-8859-1';
+$string['parentlanguage'] = '';
 $string['strftimedate'] = '%Y(e)ko %Bk %d';
 $string['strftimedatefullshort'] = '%y/%m/%d';
 $string['strftimedateshort'] = '%Bk %d';
@@ -50,8 +51,6 @@ $string['strftimemonthyear'] = '%Y(e)ko %B';
 $string['strftimerecent'] = '%bk %d, %H:%M(e)an';
 $string['strftimerecentfull'] = '%a, %Y(e)ko %bren %d(e)an, %H:%M(e)an';
 $string['strftimetime'] = '%H:%M %p';
-$string['strftimetime12'] = '%I:%M %p';
-$string['strftimetime24'] = '%H:%M';
 $string['thisdirection'] = 'ltr';
 $string['thisdirectionvertical'] = 'btt';
 $string['thislanguage'] = 'Euskara';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'data', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -97,6 +97,7 @@ $string['data:managetemplates'] = 'Xestionar modelos';
 $string['data:manageuserpresets'] = 'Xestionar todas as predefinicións do modelo';
 $string['data:rate'] = 'Ponderar entradas';
 $string['data:readentry'] = 'Ler entradas';
+$string['data:view'] = 'Ver a actividade da base de datos';
 $string['data:viewallratings'] = 'Ver todas as puntuacións en bruto dadas por individuos';
 $string['data:viewalluserpresets'] = 'Ver as predefinicións de todos os usuarios';
 $string['data:viewanyrating'] = 'Ver as puntuacións totais que reciba calquera';
@@ -127,6 +128,7 @@ $string['editordisable'] = 'Desactivar o editor';
 $string['editorenable'] = 'Activar o editor';
 $string['emptyadd'] = 'O modelo Engadir está baleiro, xeración dun formulario predeterminado...';
 $string['emptyaddform'] = 'Non cubriu ningún campo!';
+$string['enabletemplateeditorcheck'] = 'Confirma que quere activar o editor? Isto pode provocar que o contido se altere cando o modelo estea gardado.';
 $string['entries'] = 'Entradas';
 $string['entrieslefttoadd'] = 'Debe de engadir {$a->entriesleft} máis entrada/entradas para completar esta actividade';
 $string['entrieslefttoaddtoview'] = 'Debe de engadir {$a->entrieslefttoview} máis entrada/entradas antes de poder ver as entradas doutros participantes.';
@@ -335,6 +337,7 @@ $string['savesuccess'] = 'Gardouse correctamente. O seu predefinido estará agor
 $string['savetemplate'] = 'Gardar modelo';
 $string['search'] = 'Buscar';
 $string['search:activity'] = 'Base de datos - información de actividade';
+$string['search:entry'] = 'Base de datos - entradas';
 $string['selectedrequired'] = 'Requiridos todos os seleccionados';
 $string['showall'] = 'Amosar todas as entradas';
 $string['single'] = 'Ver única';
@@ -343,7 +346,6 @@ $string['subplugintype_datafield'] = 'Tipo de campo de base de datos';
 $string['subplugintype_datafield_plural'] = 'Tipos de campo de base de datos';
 $string['subplugintype_datapreset'] = 'Predefinición';
 $string['subplugintype_datapreset_plural'] = 'Predefinicións';
-$string['tags'] = 'Etiquetas';
 $string['teachersandstudents'] = '{$a->teachers} e {$a->students}';
 $string['templates'] = 'Modelos';
 $string['templatesaved'] = 'Modelo gardado';

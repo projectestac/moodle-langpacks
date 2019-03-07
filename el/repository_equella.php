@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_equella', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_equella', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_equella
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,25 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['breadcrumb'] = 'EQUELLA';
+$string['configplugin'] = 'Ρυθμίσεις αποθετηρίου EQUELLA';
+$string['equellaaction'] = 'Ενέργεια EQUELLA';
+$string['equellaoptions'] = 'Ρυθμίσεις EQUELLA';
+$string['equellaurl'] = 'Διεύθυνση URL EQUELLA';
 $string['equella:view'] = 'Εμφάνιση αποθετηρίου EQUELLA';
 $string['group'] = 'Ρυθμίσεις ρόλων {$a}';
+$string['groupdefault'] = 'Προεπιλογή';
 $string['pluginname'] = 'Αποθετήριο EQUELLA';
-$string['restrictionitemsonly'] = 'Σύνοψη αντικειμένων μόνο';
+$string['restrictionattachmentsonly'] = 'Μόνο συνδεδεμένος πόρος';
+$string['restrictionitemsonly'] = 'Περίληψη αντικειμένων μόνο';
+$string['restrictionnone'] = 'Χωρίς περιορισμό';
+$string['search'] = 'Αναζήτηση EQUELLA';
+$string['selectrestriction'] = 'Περιορισμός επιλογής';
+$string['selectrestriction.desc'] = 'Επιλέξτε αν οι επεξεργαστές μαθήματος θα πρέπει να έχουν τη δυνατότητα να επιλέξουν μόνο μια περίληψη στοιχείων, έναν συνημμένο πόρο ή και τα δύο';
+$string['sharedid'] = 'Αναγνωριστικό κοινόχρηστου μυστικού';
+$string['sharedidtitle'] = 'Αναγνωριστικό κοινόχρηστου μυστικού';
+$string['sharedsecrets'] = 'Κοινόχρηστο μυστικό';
+$string['sharedsecretsheading'] = 'Ρυθμίσεις κοινόχρηστου μυστικού';
+$string['sharedsecretshelp'] = '<p>Παρακάτω μπορείτε να ορίσετε ένα κοινόχρηστο απόρρητο μυστικό του EQUELLA για χρήστες με μία και μόνον ενιαία αυθεντικοποίηση. Μπορείτε να ρυθμίσετε διαφορετικά κοινόχρηστα μυστικά για γενική χρήση (ανάγνωσης) και ένα εξειδικευμένο με βάση τους ρόλους κοινόχρηστο μυστικό για κάθε ρόλο <em>εγγραφής</ em> στον ιστότοπό σας Moodle. Εάν ένα αναγνωριστικό κοινόχρηστου μυστικού δεν έχει ρυθμιστεί για ένα ρόλο, τότε χρησιμοποιείται το προεπιλεγμένο αναγνωριστικό κοινόχρηστου μυστικού και κοινόχρηστο μυστικό.</ p>
+<p> Όλα τα αναγνωριστικά κοινόχρηστου μυστικού και κοινόχρηστα μυστικά πρέπει επίσης να ρυθμιστούν στο EQUELLA και να ενεργοποιηθεί το άρθρωμα κοινόχρηστου μυστικού. Αυτές οι ρυθμίσεις βρίσκονται στην κονσόλα διαχείρισης EQUELLA κάτω από τη Διαχείριση χρηστών> Κοινόχρηστα μυστικά.</ P>';
+$string['sharedsecrettitle'] = 'Κοινόχρηστο μυστικό';

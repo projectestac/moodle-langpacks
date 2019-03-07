@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_uploaduser', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,11 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allowdeletes'] = 'Baimendu ezabatzea';
-$string['allowrenames'] = 'Izena aldatzea baimendu';
+$string['allowrenames'] = 'Baimendu izena aldatzea';
 $string['allowsuspends'] = 'Baimendu kontuak eten eta aktibatzea';
 $string['assignedsysrole'] = 'Sistemako {$a} rola esleitu zaio';
 $string['csvdelimiter'] = 'CSV bereizlea';
-$string['defaultvalues'] = 'Berezko baloreak';
+$string['defaultvalues'] = 'Lehenetsitako balioak';
 $string['deleteerrors'] = 'Ezabatu erroreak';
 $string['encoding'] = 'Kodifikazioa';
 $string['errormnetadd'] = 'Ezin da urrutiko erabiltzailerik gehitu';
@@ -39,7 +39,6 @@ $string['invalidupdatetype'] = 'Igoera-mota honetan ezin da aukera hau aukeratu.
 $string['invaliduserdata'] = '{$a} erabiltzailearen datu baliogabea antzeman da eta automatikoki garbitu da.';
 $string['nochanges'] = 'Aldaketarik ez';
 $string['pluginname'] = 'Igo erabiltzailea';
-$string['privacy:metadata'] = 'Igo erabiltzailea pluginak ez du datu pertsonalik biltzen.';
 $string['renameerrors'] = 'Erroreak berrizendatu';
 $string['requiredtemplate'] = 'Beharrezkoa. Hemen txantiloi-sintaxia erabil dezakezu (%l = abizena, %f = izena, %u = erabiltzaile-izena). Begiratu laguntzari zehaztasun gehiagorako eta adibideak ikusteko.';
 $string['rowpreviewnum'] = 'Aurreikusi errenkadak';
@@ -56,7 +55,7 @@ $string['uploadpictures_help'] = '<p>Erabiltzailearen irudiak zip fitxategia edo
 <p>Onartutako irudi-motak gif, jpg, eta png dira.</p>
 <p>Irudi-fitxategien izenetan ez ditu letra larriak eta xeheak bereizten .</p>';
 $string['uploadpicture_userfield'] = 'Irudiak lotzean erabilitako erabiltzailearen atributua:';
-$string['uploadpicture_usernotfound'] = '\'{$a->uservalue}\'-n \'{$a->userfield}\' balorea duen erabiltzailea ez dago. Alde batera utzi da.';
+$string['uploadpicture_usernotfound'] = '\'{$a->uservalue}\'-n \'{$a->userfield}\' balioa duen erabiltzailea ez dago. Alde batera utzi da.';
 $string['uploadpicture_userskipped'] = '{$a} erabiltzailea alde batera utzi da (dagoeneko badu irudia).';
 $string['uploadpicture_userupdated'] = '{$a} erabiltzailearen irudia eguneratu da.';
 $string['uploadusers'] = 'Igo erabiltzaileak';
@@ -79,26 +78,26 @@ $string['usersrenamed'] = 'Erabiltzaileen izenak aldatu dira';
 $string['usersskipped'] = 'Albo batera utzitako erabiltzaileak';
 $string['usersupdated'] = 'Erabiltzaileak eguneratu dira';
 $string['usersweakpassword'] = 'Pasahitz ahula duten erabiltzaileak';
-$string['uubulk'] = 'Aukera ezazu eragiketa masiboetarako';
+$string['uubulk'] = 'Aukeratu eragiketa masiboetarako';
 $string['uubulkall'] = 'Erabiltzaile guztiak';
 $string['uubulknew'] = 'Erabiltzaile berriak';
-$string['uubulkupdated'] = 'Igotako erabiltzaileak';
+$string['uubulkupdated'] = 'Eguneratutako erabiltzaileak';
 $string['uucsvline'] = 'CSV lerroa';
 $string['uulegacy1role'] = '(Jatorrizko Ikaslea) N=1 mota';
 $string['uulegacy2role'] = '(Jatorrizko Irakaslea) N=2 mota';
 $string['uulegacy3role'] = '(Jatorrizko edizio-baimenik gabeko Irakaslea) N=3 mota';
 $string['uunoemailduplicates'] = 'Saihestu e-posta helbideak bikoiztea';
 $string['uuoptype'] = 'Igotze-mota';
-$string['uuoptype_addinc'] = 'Guztia gehitu, eta erabiltzaile-izenari kontagailua gehitu beharrezko balitz.';
-$string['uuoptype_addnew'] = 'Berriak bakarrik gehitu, lehendik dauden erabiltzaileak albo batera utzita';
-$string['uuoptype_addupdate'] = 'Berriak gehitu eta lehendik dauden erabiltzaileak eguneratu';
-$string['uuoptype_update'] = 'Lehendik dauden erabiltzaileak bakarrik eguneratu';
+$string['uuoptype_addinc'] = 'Gehitu guztia, eta gehitu kontagailua erabiltzaile-izenari beharrezko balitz.';
+$string['uuoptype_addnew'] = 'Gehitu berriak soilik, lehendik dauden erabiltzaileak albo batera utzita';
+$string['uuoptype_addupdate'] = 'Gehitu berriak eta eguneratu lehendik dauden erabiltzaileak';
+$string['uuoptype_update'] = 'Eguneratu soilik lehendik dauden erabiltzaileak';
 $string['uupasswordcron'] = 'cron bidez sortutakoa';
 $string['uupasswordnew'] = 'Erabiltzaile berriaren pasahitza';
 $string['uupasswordold'] = 'Lehendik dagoen erabiltzailearen pasahitza';
 $string['uustandardusernames'] = 'Estandarizatu erabiltzaile-izenak';
-$string['uuupdateall'] = 'Gainidatzi fitxategiaren edukiarekin eta berezko baloreekin';
+$string['uuupdateall'] = 'Gainidatzi fitxategiaren edukiarekin eta lehenetsitako balioekin';
 $string['uuupdatefromfile'] = 'Gainidatzi fitxategiaren edukiarekin';
-$string['uuupdatemissing'] = 'Fitxategian falta diren datuak eta berezkoak bete';
+$string['uuupdatemissing'] = 'Bete fitxategian falta diren datuak eta lehenetsitako balioak';
 $string['uuupdatetype'] = 'Lehendik dagoen erabiltzailearen xehetasunak';
 $string['uuusernametemplate'] = 'Erabiltzaile-izenetarako txantiloia';

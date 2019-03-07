@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_singleview', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradereport_singleview', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   gradereport_singleview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,39 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['all_grades'] = 'Todas as cualificacións';
+$string['assessmentname'] = 'Elemento de cualificación';
+$string['blanks'] = 'Cualificacións baleiras';
+$string['bulkappliesto'] = 'Para';
+$string['bulkfor'] = 'Cualificacións para {$a->user}';
+$string['bulkinsertvalue'] = 'Inserir valor';
+$string['bulklegend'] = 'Inserción masiva';
+$string['bulkperform'] = 'Realizar inserción masiva';
+$string['entrypage'] = 'Cualificar usuario ou elemento';
+$string['eventgradereportviewed'] = 'Visto o informe de vista individual de cualificación.';
+$string['exclude'] = 'Excluír';
+$string['excludeall'] = 'Excluír todas as cualificacións';
+$string['excludefor'] = 'Excluír para {$a}';
+$string['excludenone'] = 'Non excluír cualificacións';
+$string['feedbackfor'] = 'Comentario para {$a}';
+$string['filtergrades'] = 'Amosar cualificacións para {$a}.';
+$string['gradefor'] = 'Cualificación para {$a}';
+$string['gradeitem'] = 'Elemento de cualificación: {$a}';
+$string['gradeitemcannotbeoverridden'] = 'Esta cualificación non pode ser anulada.';
+$string['gradeuser'] = 'Cualificar usuario: {$a}';
+$string['noscreens'] = 'Non foi posíbel atopar unha pantalla de vista individual axeitada.';
+$string['notvalid'] = 'Non é unha pantalla de vista individual válida: {$a}';
 $string['override'] = 'Sobrescribir';
+$string['overrideall'] = 'Anular todas as cualificacións';
+$string['overridefor'] = 'Anular para {$a}';
+$string['overridenone'] = 'Non anular ningunha cualificación';
+$string['pluginname'] = 'Vista individual';
 $string['save'] = 'Gardar';
+$string['savegrades'] = 'Gardando as cualificacións';
+$string['savegradessuccess'] = 'As cualificacións fixáronse para {$a} elementos';
+$string['selectgrade'] = 'Seleccionar elemento de cualificación...';
+$string['selectuser'] = 'Seleccionar usuario...';
+$string['singleview:view'] = 'Ver informe';
+$string['summarygrade'] = 'Unha táboa de usuarios, con columnas para intervalo, cualificación, comentarios e se quere substituír ou excluír unha nota determinada.';
+$string['summaryuser'] = 'Unha táboa de elementos de cualificación, con columnas para a categoría de cualificación,intervalo, cualificación, comentarios e se quere substituír ou excluír unha nota determinada.';
+$string['userselect'] = 'Seleccionar actividade';

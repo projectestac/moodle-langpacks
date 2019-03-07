@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dbtransfer', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_dbtransfer', language 'fr', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_dbtransfer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['clidriverlist'] = 'Pilotes de base de données disponibles pour la migration';
 $string['cliheading'] = 'Migration de la base de données. Assurez-vous que personne n\'accède au serveur durant la migration !';
 $string['climigrationnotice'] = 'Migration de la base de données en cours. Veuillez attendre la fin de la migration et la mise à jour de la configuration et la suppression du fichier $CFG->dataroot/climaintenance.html par l\'administrateur du serveur.';
-$string['convertinglogdisplay'] = 'Conversion des historiques d\'affichage d\'actions';
+$string['convertinglogdisplay'] = 'Conversion des journaux d\'affichage d\'actions';
 $string['dbexport'] = 'Exportation de base de données';
 $string['dbtransfer'] = 'Migration de base de données';
 $string['enablemaintenance'] = 'Activer le mode de maintenance';
@@ -37,7 +37,6 @@ $string['exportdata'] = 'Exporter les données';
 $string['notargetconectexception'] = 'Impossible de se connecter à la base de données cible.';
 $string['options'] = 'Options';
 $string['pluginname'] = 'Exportation base de données';
-$string['privacy:metadata'] = 'Le plugin Exportation base de données n\'enregistre aucune donnée personnelle.';
 $string['targetdatabase'] = 'Base de données cible';
 $string['targetdatabasenotempty'] = 'La base de données cible ne doit contenir aucune table avec le préfixe indiqué !';
 $string['transferdata'] = 'Transférer les données';

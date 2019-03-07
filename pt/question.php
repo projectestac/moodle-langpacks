@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'question', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['action'] = 'Ação';
 $string['addanotherhint'] = 'Adicionar outra ajuda';
 $string['addcategory'] = 'Adicionar categoria';
-$string['addmorechoiceblanks'] = 'Adicionar mais {no} campos de opções de resposta';
+$string['addmorechoiceblanks'] = 'Adicionar mais {no} opções de resposta';
 $string['adminreport'] = 'Relatório de possíveis problemas na sua base de dados de perguntas.';
 $string['advancedsearchoptions'] = 'Opções de pesquisa';
 $string['alltries'] = 'Todas as tentativas';
@@ -104,7 +104,7 @@ $string['correctfeedback'] = 'Para qualquer resposta correta';
 $string['correctfeedbackdefault'] = 'A sua resposta está correta.';
 $string['created'] = 'Criado';
 $string['createdby'] = 'Criado por';
-$string['createdmodifiedheader'] = 'Criado / Atualizado pela última vez';
+$string['createdmodifiedheader'] = 'Criada / Atualizada pela última vez';
 $string['createnewquestion'] = 'Criar uma nova pergunta…';
 $string['cwrqpfs'] = 'Perguntas aleatórias, a partir de subcategorias.';
 $string['cwrqpfsinfo'] = '<p>Durante a atualização para o Moodle 1.9, vamos separar as categorias das perguntas em diferentes contextos. O estado de partilha de algumas categorias de perguntas e suas perguntas terá de ser alterado. Isso será necessário nos casos em que uma ou mais perguntas \'aleatórias\' num teste se encontrem em diferentes  categorias partilhadas e não partilhadas (que é o caso neste site). Isso acontece quando uma pergunta aleatória é configurada para selecionar perguntas de subcategorias e algumas dessas subcategorias têm uma configuração de partilha diferente da configuração da categoria ascendente onde a pergunta aleatória foi criada.</p>
@@ -118,7 +118,7 @@ $string['defaultmarkmustbepositive'] = 'A nota predefinida deve ser positiva.';
 $string['deletecoursecategorywithquestions'] = 'Existem perguntas na base de dados de perguntas associadas a esta categoria da disciplina. Se continuar, elas serão apagadas. Poderá primeiro movê-las para outras categorias usando a base de dados de perguntas.';
 $string['deletequestioncheck'] = 'Tem a certeza absoluta que pretende apagar \'{$a}\'?';
 $string['deletequestionscheck'] = '<p>Tem a certeza absoluta de que pretende apagar as seguintes perguntas?<br /><br />{$a}</p>';
-$string['deletingbehaviour'] = 'A apagar o comportamento de pergunta {$a}';
+$string['deletingbehaviour'] = 'A apagar o comportamento das perguntas {$a}';
 $string['deletingqtype'] = 'A apagar o tipo de pergunta {$a}';
 $string['didnotmatchanyanswer'] = '[Não corresponde nenhuma resposta]';
 $string['disabled'] = 'Desativado';
@@ -174,7 +174,7 @@ $string['exporterror'] = 'Ocorreram erros durante a exportação!';
 $string['exportfilename'] = 'perguntas';
 $string['exportnameformat'] = '%Y%m%d-%H%M';
 $string['exportquestions'] = 'Exportar perguntas para ficheiro';
-$string['exportquestions_help'] = 'Esta função permite a exportação de uma categoria completa (e qualquer subcategorias) de perguntas. Por favor note que, dependendo do formato de ficheiro selecionado, alguns dados  e certos tipos de perguntas podem não ser exportados.';
+$string['exportquestions_help'] = 'Esta função permite a exportação de uma categoria completa (e qualquer subcategorias) de perguntas. Por favor, note que, dependendo do formato de ficheiro selecionado, alguns dados  e certos tipos de perguntas podem não ser exportados.';
 $string['exportquestions_link'] = 'pergunta/exportar';
 $string['feedback'] = 'Feedback';
 $string['filecantmovefrom'] = 'Os ficheiros das perguntas não podem ser movidos porque não tem permissões para apagar ficheiros do local para onde deseja mover as perguntas.';
@@ -183,7 +183,7 @@ $string['fileformat'] = 'Formato do ficheiro';
 $string['filesareacourse'] = 'área de ficheiros da disciplina';
 $string['filesareasite'] = 'área de ficheiros do site';
 $string['filestomove'] = 'Mover / copiar ficheiros para {$a}?';
-$string['fillincorrect'] = 'Preencha as respostas corretas';
+$string['fillincorrect'] = 'Preencher as respostas corretas';
 $string['firsttry'] = 'Primeiro tentativa';
 $string['flagged'] = 'Marcadas';
 $string['flagthisquestion'] = 'Marcar esta pergunta';
@@ -266,11 +266,11 @@ $string['moveq'] = 'Mover pergunta(s)';
 $string['moveqtoanothercontext'] = 'Mover pergunta para outro contexto.';
 $string['moveto'] = 'Mover para >>';
 $string['movingcategory'] = 'A mover categoria';
-$string['movingcategoryandfiles'] = 'Tem a certeza que pretende mover a categoria {$a->name} e todas as categorias filhas para o contexto "{$a->contextto}"?<br /> Foram encontrados {$a->urlcount} ficheiros ligados a perguntas em {$a->fromareaname}; quer copiar ou mover esses ficheiros para {$a->toareaname}?';
-$string['movingcategorynofiles'] = 'Tem a certeza que pretende mover a categoria "{$a->name}" e todas as  categorias filhas para o contexto de "{$a->contextto}"?';
+$string['movingcategoryandfiles'] = 'Tem a certeza de que pretende mover a categoria {$a->name} e todas as categorias filhas para o contexto "{$a->contextto}"?<br /> Foram encontrados {$a->urlcount} ficheiros ligados a perguntas em {$a->fromareaname}; quer copiar ou mover esses ficheiros para {$a->toareaname}?';
+$string['movingcategorynofiles'] = 'Tem a certeza de que pretende mover a categoria "{$a->name}" e todas as  categorias filhas para o contexto de "{$a->contextto}"?';
 $string['movingquestions'] = 'A mover perguntas e ficheiros';
-$string['movingquestionsandfiles'] = 'Tem a certeza que pretende mover a(s) pergunta(s) {$a->questions}} para o contexto de <strong>"{$a->tocontext}"</strong>?<br /> Foram encontrados {$a->urlcount} ficheiros ligados às perguntas em {$a->fromareaname}; quer copiar ou mover esses ficheiros para {$a->toareaname}?';
-$string['movingquestionsnofiles'] = 'Tem a certeza que pretende mover a(s) pergunta(s) {$a->questions}} para o contexto de <strong>"{$a->tocontext}"</strong>?<br />
+$string['movingquestionsandfiles'] = 'Tem a certeza de que pretende mover a(s) pergunta(s) {$a->questions}} para o contexto de <strong>"{$a->tocontext}"</strong>?<br /> Foram encontrados {$a->urlcount} ficheiros ligados às perguntas em {$a->fromareaname}; quer copiar ou mover esses ficheiros para {$a->toareaname}?';
+$string['movingquestionsnofiles'] = 'Tem a certeza de que pretende mover a(s) pergunta(s) {$a->questions}} para o contexto de <strong>"{$a->tocontext}"</strong>?<br />
 <strong>Não há</strong> ficheiros ligados nessa(s) pergunta(s) em {$a->fromareaname}.';
 $string['needtochoosecat'] = 'Tem de escolher uma categoria para mover esta pergunta ou carregue em \'cancelar\'.';
 $string['nocate'] = 'Não existe a categoria {$a}!';
@@ -304,8 +304,8 @@ $string['parent'] = 'Ascendente';
 $string['parentcategory'] = 'Categoria ascendente';
 $string['parentcategory_help'] = 'A categoria ascendente é aquela em que a nova categoria será incluída como subcategoria. "Topo" significa que esta categoria não será subcategoria de nenhuma outra. Os contextos da categoria são mostrados a negrito. Deverá existir pelo menos uma categoria em cada contexto.';
 $string['parentcategory_link'] = 'pergunta/categoria';
-$string['parenthesisinproperclose'] = 'Os parênteses antes de ** não estão devidamente fechados em {$a}**';
-$string['parenthesisinproperstart'] = 'Os parênteses antes de ** não estão devidamente abertos em {$a}**';
+$string['parenthesisinproperclose'] = 'Os parêntesis antes de ** não estão devidamente fechados em {$a}**';
+$string['parenthesisinproperstart'] = 'Os parêntesis antes de ** não estão devidamente abertos em {$a}**';
 $string['parsingquestions'] = 'A ler perguntas do ficheiro importado.';
 $string['partiallycorrect'] = 'Parcialmente correto';
 $string['partiallycorrectfeedback'] = 'Para qualquer resposta parcialmente correta';
@@ -315,7 +315,7 @@ $string['penaltyfactor_help'] = 'Este campo determina a fração da nota obtida 
 
 O fator de penalização poderá ser um número entre 0 e 1. Um fator de penalização de 1 quer dizer que o estudante deverá responder corretamente na primeira tentativa para receber qualquer cotação. Um fator de penalização de 0 implica que o estudante pode tentar quantas vezes quiser e ainda obter a cotação máxima.';
 $string['penaltyforeachincorrecttry'] = 'Fator de penalização';
-$string['penaltyforeachincorrecttry_help'] = 'Esta opção configura qual a penalização por cada resposta errada quando o teste se encontra definido no Modo Interativo com múltiplas tentativas ou "Modo Adaptável" e o aluno pode responder várias vezes até obter a resposta correta à pergunta.
+$string['penaltyforeachincorrecttry_help'] = 'Esta opção configura qual a penalização por cada resposta errada quando o teste está definido no modo \'Interativo com múltiplas tentativas\' ou \'Modo adaptável\' e o aluno pode responder várias vezes até obter a resposta correta à pergunta.
 
 A penalização é uma proporção da nota da pergunta, logo, se a pergunta vale 3 pontos, e o fator de penalização é de 0.3333333, então o aluno tem a nota 3 se acertar à primeira, 2 se acertar à segunda e 1 se apenas acertar à terceira.';
 $string['permissionedit'] = 'Editar esta pergunta';
@@ -323,29 +323,6 @@ $string['permissionmove'] = 'Mover esta pergunta';
 $string['permissionsaveasnew'] = 'Guardar como nova pergunta';
 $string['permissionto'] = 'Tem permissão para:';
 $string['previewquestion'] = 'Pré-visualizar a pergunta: {$a}';
-$string['privacy:metadata:database:question'] = 'Detalhes sobre uma expressão específica.';
-$string['privacy:metadata:database:question_attempts'] = 'Informação sobre tentativas de uma questão específica.';
-$string['privacy:metadata:database:question_attempts:flagged'] = 'Uma indicação de que o utilizador marcou esta questão durante uma tentativa.';
-$string['privacy:metadata:database:question_attempts:responsesummary'] = 'Resumo da resposta à questão.';
-$string['privacy:metadata:database:question_attempt_step_data'] = 'Etapas da tentativa podem ter informação adicional sobre aquela etapa específica. Os dados são armazenados na tabela step_data.';
-$string['privacy:metadata:database:question_attempt_step_data:name'] = 'O nome dos dados do item.';
-$string['privacy:metadata:database:question_attempt_step_data:value'] = 'O valor dos dados do item.';
-$string['privacy:metadata:database:question_attempt_steps'] = 'Cada tentativa tem um número de etapas a indicar diferentes fases, desde o início ao marcar como concluído. Esta tabela armazena a informação sobre cada uma desses etapas.';
-$string['privacy:metadata:database:question_attempt_steps:fraction'] = 'A avaliação atribuída a esta tentativa configurado para um valor fora de 1.';
-$string['privacy:metadata:database:question_attempt_steps:state'] = 'O estado da tentativa no final da transição.';
-$string['privacy:metadata:database:question_attempt_steps:timecreated'] = 'A data e hora em que a transição começou.';
-$string['privacy:metadata:database:question_attempt_steps:userid'] = 'O utilizador que realizou a transição.';
-$string['privacy:metadata:database:question_attempts:timemodified'] = 'A hora em que a tentativa foi atualizada.';
-$string['privacy:metadata:database:question:createdby'] = 'A pessoa que criou a questão.';
-$string['privacy:metadata:database:question:generalfeedback'] = 'O feedback geral para esta questão.';
-$string['privacy:metadata:database:question:modifiedby'] = 'A pessoa que atualizou a pergunta pela última vez.';
-$string['privacy:metadata:database:question:name'] = 'O nome da pergunta';
-$string['privacy:metadata:database:question:questiontext'] = 'O texto da pergunta';
-$string['privacy:metadata:database:question:timecreated'] = 'A data e hora de quando esta questão foi criada';
-$string['privacy:metadata:database:question:timemodified'] = 'A data e hora que quando este teste foi atualizado.';
-$string['privacy:metadata:link:qbehaviour'] = 'O subsistema Pergunta utiliza o módulo Pomportamento das perguntas.';
-$string['privacy:metadata:link:qformat'] = 'O subsistema Pergunta utiliza lo módulo Formato da questão com a finalidade de importar e exportar perguntas em formatos diferentes.';
-$string['privacy:metadata:link:qtype'] = 'O subsistema Pergunta interage com o módulo Tipo de pergunta, que contém os diferentes tipos de pergunta.';
 $string['published'] = 'partilhada';
 $string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = 'A <a href="{$a->qurl}">pergunta "{$a->name}" ({$a->qtype})</a> encontra-se nesta categoria, mas também está a ser usada no <a href="{$a->qurl}">teste "{$a->quizname}"</a> em outra disciplina "{$a->coursename}".';
@@ -404,11 +381,10 @@ $string['specificfeedback_help'] = 'Feedback correspondente à resposta que o al
 $string['started'] = 'Iniciado';
 $string['state'] = 'Estado';
 $string['step'] = 'Passo';
-$string['steps'] = 'Passos';
 $string['stoponerror'] = 'Parar se ocorrer um erro';
 $string['stoponerror_help'] = 'Esta configuração determina se o processo de importação é interrompido quando um erro é detetado parando assim a importação, ou se as perguntas com erros são ignoradas sendo apenas importadas as válidas.';
 $string['submissionoutofsequence'] = 'Acesso fora da sequência. Por favor, não clique no botão Retroceder enquanto trabalha nas perguntas do teste.';
-$string['submissionoutofsequencefriendlymessage'] = 'Inseriu dados fora da sequência. Isto pode acontecer se usar os botões de Avançar e Retroceder do seu navegador; por favor não os use durante o teste. Também pode acontecer se clicar em algo enquanto uma página está a carregar. Clique em <strong>Continuar</strong>.';
+$string['submissionoutofsequencefriendlymessage'] = 'Inseriu dados fora da sequência. Este erro pode ocorrer se usar os botões de Avançar e Retroceder do seu navegador. Por favor, não os utilize durante o Teste. Também pode suceder se clicar em algo enquanto uma página está a carregar. Clique em <strong>Continuar</strong>.';
 $string['submit'] = 'Submeter';
 $string['submitandfinish'] = 'Submeter e finalizar';
 $string['submitted'] = 'Submetido: {$a}';
@@ -424,7 +400,7 @@ $string['technicalinfostate'] = 'Estado da pergunta: {$a}';
 $string['technicalinfovariant'] = 'Variante da pergunta: {$a}';
 $string['tofilecategory'] = 'Guardar categoria em ficheiro';
 $string['tofilecontext'] = 'Guardar contexto em ficheiro';
-$string['uninstallbehaviour'] = 'Desinstalar este comportamento da pergunta.';
+$string['uninstallbehaviour'] = 'Desinstalar este comportamento das perguntas.';
 $string['uninstallqtype'] = 'Desinstalar este tipo de pergunta.';
 $string['unknown'] = 'Desconhecido(a)';
 $string['unknownbehaviour'] = 'Comportamento desconhecido: {$a}.';
@@ -447,4 +423,4 @@ $string['wrongprefix'] = 'nameprefix {$a} formatado incorretamente';
 $string['xoutofmax'] = '{$a->mark} em {$a->max}';
 $string['yougotnright'] = 'Selecionou corretamente {$a->num}.';
 $string['youmustselectaqtype'] = 'Tem de selecionar um tipo de pergunta';
-$string['yourfileshoulddownload'] = 'O seu ficheiro deve iniciar a exportação brevemente. Se não acontecer dentro de segundos, por favor <a href="{$a}">clique aqui</a>.';
+$string['yourfileshoulddownload'] = 'O seu ficheiro deve iniciar a exportação brevemente. Se não acontecer dentro de segundos, por favor, <a href="{$a}">clique aqui</a>.';

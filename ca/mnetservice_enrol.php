@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnetservice_enrol', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'mnetservice_enrol', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   mnetservice_enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,7 @@ $string['hostappname'] = 'Aplicació';
 $string['hostname'] = 'Nom del servidor';
 $string['hosturl'] = 'URL del servidor remot';
 $string['nopublishers'] = 'No hi ha disponibles parells iguals al servidor remot';
-$string['noroamingusers'] = 'Als usuaris els cal tenir la capacitat «{$a}» al context de sistema per poder inscriure\'s a cursos remots, tanmateix actualment no hi ha usuaris amb aquesta capacitat. Premeu el botó continua per assignar la capacitat requerida a un o més rols del vostre lloc.';
+$string['noroamingusers'] = 'Cal que els usuaris tinguin la capacitat «{$a}» en el context de sistema per poder inscriure\'s a cursos remots; tanmateix, actualment no hi ha cap usuari amb aquesta capacitat. Feu clic al botó de continuar per assignar la capacitat requerida a un o més rols del vostre lloc.';
 $string['otherenrolledusers'] = 'Altres usuaris inscrits';
 $string['pluginname'] = 'Servei d\'inscripció remota';
 $string['refetch'] = 'Torna a recollir l\'estat actualitzat dels servidors remots';

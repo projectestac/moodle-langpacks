@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_navigation', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_navigation', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   block_navigation
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,18 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['enabledockdesc'] = 'Να επιτρέπεται ο χρήστης να προσθέσει αυτό το μπλοκ';
+$string['courseactivities'] = 'Κατηγορίες, μαθήματα και Δραστηριότητες μαθήματος';
+$string['courses'] = 'Κατηγορίες και μαθήματα';
+$string['coursestructures'] = 'Κατηγορίες, μαθήματα και δομές μαθήματος';
+$string['enabledockdesc'] = 'Να επιτρέπεται ο χρήστης να ελαχιστοποιήσει πλευρικά αυτό το μπλοκ';
+$string['everything'] = 'Όλα';
+$string['expansionlimit'] = 'Δημιουργία πλοήγησης για τα ακόλουθα';
+$string['linkcategoriesdesc'] = 'Εμφάνιση κατηγοριών ως συνδέσμων';
 $string['navigation:addinstance'] = 'Προσθήκη νέου μπλοκ πλοήγηση';
-$string['navigation:myaddinstance'] = 'Προσθήκη νέου μπλοκ πλοήγηση στη σελίδα Η αρχική μου';
+$string['navigation:myaddinstance'] = 'Προσθήκη νέου μπλοκ πλοήγηση στο Ταμπλό';
 $string['pluginname'] = 'Πλοήγηση';
+$string['trimlength'] = 'Πόσοι χαρακτήρες πρέπει να μείνουν μετά την περικοπή';
+$string['trimmode'] = 'Κατάσταση λειτουργίας περικοπής';
+$string['trimmodecenter'] = 'Περικοπή χαρακτήρων από το κέντρο';
+$string['trimmodeleft'] = 'Περικοπή χαρακτήρων από τα αριστερά';
+$string['trimmoderight'] = 'Περικοπή χαρακτήρων από τα δεξιά';

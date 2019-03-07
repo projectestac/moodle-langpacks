@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism', language 'sv', branch 'MOODLE_34_STABLE'
+ * Strings for component 'plagiarism', language 'sv', branch 'MOODLE_32_STABLE'
  *
  * @package   plagiarism
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,5 +29,6 @@ $string['availableplugins'] = 'Tillgängliga plugin-program';
 $string['configenableplagiarism'] = 'Det här kommer att tillåta administratörer att konfigurera plugin-program mot fusk (om de är installerade)';
 $string['configplagiarismplugins'] = 'Var snäll och välj det plugin-program mot fusk som Du vill konfigurera';
 $string['enableplagiarism'] = 'Aktivera plugin-program mot fusk';
+$string['manageplagiarism'] = 'Administrera plugins för plagiatkontroll';
 $string['nopluginsinstalled'] = 'Det finns inga installerade plugin-program mot fusk.';
 $string['plagiarism'] = 'Åtgärder för att förhindra fusk';

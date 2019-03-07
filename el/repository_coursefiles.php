@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_coursefiles', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_coursefiles', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_coursefiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Aρχεία μαθήματος παλαιότερων εκδόσεων';
-$string['pluginname_help'] = 'Aρχεία μαθήματος παλαιότερων εκδόσεων';
+$string['configplugin'] = 'Ρυθμίσεις αποθετηρίου μαθημάτων παλαιού τύπου';
+$string['coursefiles:view'] = 'Χρήση του πρόσθετου αποθετηρίου αρχείων μαθήματος';
+$string['emptyfilelist'] = 'Δεν υπάρχουν αρχεία για εμφάνιση';
+$string['notitle'] = 'χωρίς τίτλο';
+$string['pluginname'] = 'Αρχεία μαθήματος παλαιού τύπου';
+$string['pluginname_help'] = 'Αρχεία μαθήματος παλαιού τύπου';
+$string['remember'] = 'Θυμήσου με';

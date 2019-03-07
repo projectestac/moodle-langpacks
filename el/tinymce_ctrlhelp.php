@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_ctrlhelp', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tinymce_ctrlhelp', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   tinymce_ctrlhelp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['ctrlhelp:desc'] = 'CTRL + Right Click για περισσότερες επιλογές';
+$string['pluginname'] = 'Βοηθός CTRL+δεξί κλικ';

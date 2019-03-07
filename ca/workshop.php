@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshop', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['allocationerror'] = 'Error en l\'assignació';
 $string['allowedfiletypesforoverallfeedback'] = 'Tipus de fitxer permesos a les adjuncions de la retroacció';
 $string['allowedfiletypesforoverallfeedback_help'] = 'Es poden restringir els tipus de fitxer permesos a les adjuncions de la retroacció introduint una llista d\'extensions de fitxer separada per comes; per exemple, «mp4, mp3, png, jpg». Si es deixa el camp en blanc, aleshores s\'hi permetran tots els tipus de fitxer.';
 $string['allowedfiletypesforsubmission'] = 'Tipus de fitxers permesos com a adjuncions a la tramesa';
+$string['allowedfiletypesforsubmission_help'] = 'Els tipus de fitxers permesos com a adjuncions a la tramesa es poden restringuir escrivint una llista separada per comes d’extensions de fitxers; per exemple: «mp4, mp3, png, jpg». Si es deixa el camp buit, aleshores es permeten tots els tipus de fitxers.';
 $string['allsubmissions'] = 'Totes les trameses ({$a})';
 $string['alreadygraded'] = 'Ja qualificat';
 $string['areaconclusion'] = 'Text d\'acabament';
@@ -83,15 +84,15 @@ $string['clearaggregatedgradesconfirm'] = 'Segur que voleu esborrar les qualific
 $string['clearaggregatedgrades_help'] = 'S\'esborraran les qualificacions agregades de les trameses i les avaluacions. Podeu calcular de nou aquestes qualificacions a la fase de qualificació de les avaluacions.';
 $string['clearassessments'] = 'Esborra les avaluacions';
 $string['clearassessmentsconfirm'] = 'Segur que voleu esborrar totes les qualificacions de les avaluacions? No podreu reconstruir aquesta informació vós mateix, sinó que els revisors hauran de tornar a avaluar les trameses assignades.';
-$string['clearassessments_help'] = 'Les qualificacions calculades de les trameses i avaluacions es reiniciaran. Encara es conservarà la informació sobre com s\'han omplert els formularis d\'avaluació, però tots els revisors hauran d\'obrir el formulari d\'avaluació i tornar-lo a desar per tal de fer que es tornin a calcular les qualificacions.';
+$string['clearassessments_help'] = 'Les qualificacions calculades de les trameses i avaluacions es reiniciaran. Encara es conservarà la informació sobre la manera com s\'han omplert els formularis d\'avaluació, però tots els revisors hauran d\'obrir el formulari d\'avaluació i tornar-lo a desar per tal de fer que es tornin a calcular les qualificacions.';
 $string['conclusion'] = 'Conclusió';
 $string['conclusion_help'] = 'El text d\'acabament es mostra als participants al final de l\'activitat.';
-$string['configexamplesmode'] = 'Mode d\'avaluació d\'exemples establert per omissió en els tallers.';
-$string['configgrade'] = 'Qualificació màxima per omissió de les trameses en els tallers.';
+$string['configexamplesmode'] = 'Mode d\'avaluació d\'exemples establert per defecte en els tallers.';
+$string['configgrade'] = 'Qualificació màxima per defecte de les trameses en els tallers.';
 $string['configgradedecimals'] = 'Nombre de dígits que cal mostrar després del separador decimal quan es mostrin les qualificacions.';
-$string['configgradinggrade'] = 'Qualificació màxima per omissió de les avaluacions en els tallers.';
+$string['configgradinggrade'] = 'Qualificació màxima per defecte de les avaluacions en els tallers.';
 $string['configmaxbytes'] = 'Mida de fitxer de la tramesa màxima per defecte a tots els tallers del lloc (subjecta als límits establerts per al curs i a altres paràmetres locals)';
-$string['configstrategy'] = 'Estratègia de qualificació per omissió en els tallers.';
+$string['configstrategy'] = 'Estratègia de qualificació per defecte en els tallers.';
 $string['createsubmission'] = 'Comenceu a editar la vostra tramesa';
 $string['daysago'] = 'Fa {$a} dies';
 $string['daysleft'] = 'Queden {$a} dies';
@@ -109,7 +110,7 @@ $string['err_multiplesubmissions'] = 'Mentre s\'estava editant aquest formulari,
 $string['err_removegrademappings'] = 'No s\'han pogut esborrar els mapatges de qualificacions no utilitzats';
 $string['err_unknownfileextension'] = 'Extensió de fitxer desconeguda: {$a}';
 $string['err_wrongfileextension'] = 'Alguns fitxers ({$a->wrongfiles}) no s\'han pogut enviar. Només les extensions del tipus {$a->whitelist} estan permeses.';
-$string['evaluategradeswait'] = 'Si us plau, espereu mentre s\'avaluen les avaluacions i es calculen les qualificacions.';
+$string['evaluategradeswait'] = 'Espereu mentre s\'avaluen les avaluacions i es calculen les qualificacions.';
 $string['evaluation'] = 'Càlcul de les qualificacions';
 $string['evaluationmethod'] = 'Mètode de càlcul de les qualificacions';
 $string['evaluationmethod_help'] = 'El mètode de càlcul de les qualificacions determina com es calcula la qualificació de l\'avaluació. Podeu tornar a calcular les qualificacions diverses vegades amb diferents configuracions fins que estigueu satisfets amb el resultat.';
@@ -276,6 +277,7 @@ $string['submissiongrade'] = 'Qualificació de la tramesa';
 $string['submissiongrade_help'] = 'Aquest paràmetre especifica la qualificació màxima que es pot obtenir per la feina tramesa.';
 $string['submissiongradeof'] = 'Qualificació de la tramesa (de {$a})';
 $string['submissionlastmodified'] = 'Darrera modificada';
+$string['submissionrequiredcontent'] = 'Cal que escriviu text o afegiu un fitxer.';
 $string['submissionsettings'] = 'Paràmetres de la tramesa';
 $string['submissionsreport'] = 'Informe de les tasques del taller';
 $string['submissionstart'] = 'Inici de les trameses des de';
@@ -291,18 +293,12 @@ $string['subplugintype_workshopform'] = 'Estratègia de qualificació';
 $string['subplugintype_workshopform_plural'] = 'Estratègies de qualificació';
 $string['switchingphase'] = 'S\'està canviant de fase';
 $string['switchphase'] = 'Canvia de fase';
-$string['switchphase10'] = 'Canvia a la fase de configuració';
 $string['switchphase10info'] = 'Ara canviareu el taller a la <strong>Fase de configuració</strong>. En aquesta fase, els usuaris no poden modificar les seves trameses ni avaluacions. El professorat pot utilitzar aquesta fase per canviar els paràmetres del taller, modificar l\'estratègia de qualificació o retocar els formularis d\'avaluació.';
-$string['switchphase20'] = 'Canvia a la fase de tramesa';
 $string['switchphase20info'] = 'Ara canviareu el taller a la <strong>Fase de tramesa</strong>. Els estudiants poden trametre la seva feina durant aquesta fase (entre les dates d\'inici i final de tramesa, si estan establertes). Els professors poden assignar trameses per tal que siguin revisades per companys.';
-$string['switchphase30'] = 'Canvia a la fase d\'avaluació';
 $string['switchphase30auto'] = 'El taller canviarà automàticament a la fase d\'avaluació després de {$a->daydatetime} ({$a->distanceday})';
 $string['switchphase30info'] = 'Ara canviareu el taller a la <strong>Fase d\'avaluació</strong>. En aquesta fase, els revisors poden avaluar les trameses que els han estat assignades (entre les dates d\'inici i final d\'avaluació, si estan establertes).';
-$string['switchphase40'] = 'Canvia a la fase d\'avaluació de les qualificacions';
 $string['switchphase40info'] = 'Ara canviareu el taller a la <strong>Fase d\'avaluació de les qualificacions</strong>. En aquesta fase, els usuaris no poden modificar les seves trameses ni les seves avaluacions. Els professors poden usar les eines d\'avaluació de qualificacions per a calcular les qualificacions finals i oferir retroacció als revisors.';
-$string['switchphase50'] = 'Tanca el taller';
 $string['switchphase50info'] = 'Ara tancareu el taller. Això farà que les qualificacions calculades apareguin al llibre de qualificacions. Els estudiants podran veure les seves trameses i l\'avaluació d\'aquestes.';
-$string['switchphaseauto'] = 'L\'acció de canviar s\'ha programat';
 $string['switchphasenext'] = 'Canvia a la fase següent';
 $string['taskassesspeers'] = 'Avalueu els companys';
 $string['taskassesspeersdetails'] = 'total: {$a->total}<br />pendents: {$a->todo}';
@@ -313,7 +309,7 @@ $string['taskinstructreviewers'] = 'Especifiqueu les instruccions per a l\'avalu
 $string['taskintro'] = 'Establiu la descripció del taller';
 $string['tasksubmit'] = 'Trameteu la vostra feina';
 $string['toolbox'] = 'Eines del taller';
-$string['undersetup'] = 'El taller s\'està configurant. Si us plau, espereu fins que es canviï a la fase següent.';
+$string['undersetup'] = 'El taller s\'està configurant. Espereu fins que es canviï a la fase següent.';
 $string['useexamples'] = 'Usa exemples';
 $string['useexamples_desc'] = 'Les trameses d\'exemple serveixen per practicar l\'avaluació';
 $string['useexamples_help'] = 'Si s\'habilita, els usuaris poden provar d\'avaluar una o més trameses d\'exemple i comparar la seva avaluació amb una avaluació de referència. La qualificació obtinguda no computa per a la qualificació de l\'avaluació.';
@@ -329,7 +325,6 @@ $string['userplan_help'] = 'El planificador del taller mostra totes les fases de
 $string['useselfassessment'] = 'Usa l\'autoavaluació';
 $string['useselfassessment_desc'] = 'Els estudiants poden avaluar les seves pròpies trameses';
 $string['useselfassessment_help'] = 'Si s\'habilita, a un usuari se li podrà assignar la seva pròpia tramesa per tal d\'avaluar-la, i rebrà una qualificació per aquesta avaluació a més de la qualificació de la seva pròpia tramesa.';
-$string['viewworkshopsummary'] = 'Mostra un resum del taller';
 $string['weightinfo'] = 'Pes: {$a}';
 $string['withoutsubmission'] = 'Revisor sense tramesa pròpia';
 $string['workshop:addinstance'] = 'Afegeix un taller nou';

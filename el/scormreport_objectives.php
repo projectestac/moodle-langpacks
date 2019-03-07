@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scormreport_objectives', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'scormreport_objectives', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   scormreport_objectives
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['objectivescore'] = 'Εμφάνιση βαθμολογίας στόχο';
+$string['objectivescore'] = 'Εμφάνιση αντικειμενικού στόχου σκορ';
 $string['objectivex'] = 'Στόχος {$a}';
 $string['pluginname'] = 'Αναφορά στόχων';
-$string['score'] = 'βαθμολογία';
+$string['score'] = 'σκορ';
 $string['status'] = 'κατάσταση';

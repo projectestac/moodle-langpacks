@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'availability', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   availability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,16 +31,16 @@ $string['and'] = 'eta';
 $string['condition_group'] = 'Baldintza-sorta';
 $string['condition_group_info'] = 'Gehitu habiaratutako baldintza-multzoa logika konplexua aplikatzeko.';
 $string['enableavailability'] = 'Gaitu baldintzatutako eskuragarritasuna';
-$string['enableavailability_desc'] = 'Gaituta, baldintzak (data, kalifikazioa edo osatuta) ezarri ahal izango dituzu jarduera eskuragarri dagoen ala ez kontrolatzeko.';
+$string['enableavailability_desc'] = 'Gaituta, baldintzak (data, kalifikazioa edo osatua egotea) ezarri ahal izango dituzu jarduera eskuragarri dagoen ala ez kontrolatzeko.';
 $string['error_list_nochildren'] = 'Baldintza-sortek gutxienez baldintza bat izan behar dute.';
 $string['hidden_all'] = 'Guztiz ezkutatuta erabiltzaileak baldintzak betetzen ez baditu';
 $string['hidden_individual'] = 'Guztiz ezkutatuta erabiltzaileak baldintza hau betetzen ez badu';
 $string['hidden_marker'] = '(bestela ezkutuan)';
-$string['hide_verb'] = 'Klik egin ezkutatzeko';
+$string['hide_verb'] = 'Egin klik guztiz ezkutatzeko';
 $string['invalid'] = 'Konfiguratu mesedez';
 $string['itemheading'] = '{$a->number} {$a->type} motako baldintza';
 $string['item_unknowntype'] = 'Baldintzak hauek dagoeneko eskuragarri ez dagoen plugin bat erabiltzen dute (baldintza hori ezabatzeko arazorik ez badago, ezabatu behean)';
-$string['label_multi'] = 'Beharreko baldintzak';
+$string['label_multi'] = 'Beharrezko baldintzak';
 $string['label_sign'] = 'Baldintza-mota';
 $string['list_and'] = 'Hauek guztiak:';
 $string['list_and_hidden'] = 'Hauek guztiak (bestela ezkutuan):';
@@ -61,11 +61,10 @@ $string['list_root_or_hidden'] = 'Ez eskuragarri (bestela ezkutuan) hurrengoetak
 $string['manageplugins'] = 'Kudeatu baldintzak';
 $string['missingplugin'] = 'Baldintza-plugina falta da';
 $string['or'] = 'edo';
-$string['privacy:metadata'] = 'Eskuragarritasun-baldintzen azpisistemak ez du datu pertsonalik biltzen.';
 $string['restrictaccess'] = 'Mugatu eskuragarritasuna';
 $string['restrictbygroup'] = 'Gehitu talde/taldekatze eskuragarritasun-baldintza';
 $string['setheading'] = '{$a->number} {$a->count} sortako baldintza(k)';
-$string['shown_all'] = 'Grisean erakutsi erabiltzaileak baldintzak betetzen ez baditu';
-$string['shown_individual'] = 'Grisean erakutsi erabiltzaileak baldintza hau betetzen ez badu';
-$string['show_verb'] = 'Klik egin erakusteko';
+$string['shown_all'] = 'Grisean erakusten da erabiltzaileak baldintzak betetzen ez baditu';
+$string['shown_individual'] = 'Grisean erakusten da erabiltzaileak baldintza hau betetzen ez badu';
+$string['show_verb'] = 'Egin klik grisean erakusteko';
 $string['unknowncondition'] = 'Baldintza ezezaguna (ezabatutako baldintza plugina)';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'questionnaire', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -60,7 +60,7 @@ $string['cannotviewpublicresponses'] = 'あなたは、この公開アンケー�
 $string['chart:bipolar'] = 'バイポーラバー';
 $string['chart:hbar'] = '水平バー';
 $string['chart:radar'] = 'レーダー';
-$string['chart:rose'] = 'ローズ';
+$string['chart:rose'] = '鶏頭図';
 $string['chart:type'] = 'グラフの種類';
 $string['chart:type_help'] = 'このフィードバックに使用するグラフの種類を選択してください';
 $string['chart:vprogress'] = '垂直プログレスバー';
@@ -236,7 +236,7 @@ $string['navigate_help'] = '「はい・いいえ」形式やラジオボタン�
 $string['next'] = '次へ';
 $string['nextpage'] = '次のページ';
 $string['nlines'] = '{$a} 行';
-$string['noanswer'] = '回答がありません。';
+$string['noanswer'] = '未回答';
 $string['noattempts'] = 'このアンケートはまだ実行されていません。';
 $string['nodata'] = 'データがありません。';
 $string['noduplicates'] = '重複選択なし';

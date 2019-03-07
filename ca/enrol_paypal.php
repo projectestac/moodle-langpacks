@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_paypal', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_paypal', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_paypal
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,7 @@ $string['enrolperiod_help'] = 'Període de temps durant el qual la inscripció �
 $string['enrolstartdate'] = 'Data d\'inici';
 $string['enrolstartdate_help'] = 'Si està habilitat, els usuaris poden inscriure\'s des d\'aquesta data.';
 $string['expiredaction'] = 'Acció de venciment de la inscripció';
-$string['expiredaction_help'] = 'Seleccioneu l\'acció que es durà a terme quan venci la inscripció de l\'usuari. Si us plau, teniu en compte que alguns paràmetres i dades d\'usuari es purguen del curs durant la cancel·lació de la inscripció.';
+$string['expiredaction_help'] = 'Seleccioneu l\'acció que es durà a terme quan venci la inscripció de l\'usuari. Teniu en compte que alguns paràmetres i dades d\'usuari es purguen del curs durant la cancel·lació de la inscripció.';
 $string['mailadmins'] = 'Notifica a l\'administrador';
 $string['mailstudents'] = 'Notifica als estudiants';
 $string['mailteachers'] = 'Notifica als professors';

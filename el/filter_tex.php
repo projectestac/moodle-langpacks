@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_tex', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'filter_tex', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   filter_tex
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configconvertformat'] = 'Αν <i>latex</i>, <i>dvips</i> και <i>convert</i> είναι ενεργοποιημένα, οι εικόνες που δημιουργούνται χρησιμοποιούν την συγκεκριμένη μορφή. Αν δεν είναι, το mimeTeX θα χρησιμοποιηθεί και θα δημιουργηθούν εικόνες GIF.';
-$string['convertformat'] = 'Μορφή εξόδου <i>convert</i>';
+$string['configconvertformat'] = 'Αν τα <i>latex</i> και <i>dvips</i> είναι παρόντα, επιπλέον των <i>convert</i> ή <i>dvisvgm</i>, επιλέξτε τον τύπο εικόνας που προτιμάτε (το <i>convert</i> παράγει GIF ή PNG, το <i>dvisvgm</i> παράγει SVG).
+
+Διαφορετικά, θα χρησιμοποιηθεί το <i>mimeTeX</i> για δημιουργία εικόνων GIF.';
+$string['convertformat'] = 'Μορφότυπος εικόνας εξόδου';
 $string['filtername'] = 'Σημειογραφία TeX';
 $string['latexpreamble'] = 'Πρόλογος LaTex';
 $string['latexsettings'] = 'Ρυθμίσεις LaTex';
-$string['pathconvert'] = 'Διαδρομή για το <i>convert</i> binary';
-$string['pathdvips'] = 'Διαδρομή για το <i>dvips</i> binary';
-$string['pathlatex'] = 'Διαδρομή για το <i>latex</i> binary';
+$string['pathconvert'] = 'Διαδρομή για το <i>convert</i> εκτελέσιμο αρχείο';
+$string['pathdvips'] = 'Διαδρομή για το <i>dvips</i> εκτελέσιμο αρχείο';
+$string['pathdvisvgm'] = 'Διαδρομή για το <i>dvisvgm</i> εκτελέσιμο αρχείο';
+$string['pathlatex'] = 'Διαδρομή για το <i>latex</i> εκτελέσιμο αρχείο';
+$string['pathmimetex'] = 'Διαδρομή για το <i>mimetex</i> εκτελέσιμο αρχείο';
+$string['pathmimetexdesc'] = 'Το Moodle θα χρησιμοποιήσει το δικό του εκτελέσιμο αρχείο mimetex εκτός αν οριστεί άλλο πλήρες όνομα αρχείου (διαδρομή).';
+$string['source'] = 'Προέλευση/πηγή TeX';

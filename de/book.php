@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'book', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addafter'] = 'Kapitel hinzufügen';
-$string['book:addinstance'] = 'Buch hinzufügen';
+$string['book:addinstance'] = 'Neues Buch hinzufügen';
 $string['book:edit'] = 'Kapitel bearbeiten';
 $string['book:read'] = 'Buch anzeigen';
 $string['book:viewhiddenchapters'] = 'Verborgene Kapitel sehen';
@@ -50,10 +50,6 @@ $string['eventchapterdeleted'] = 'Kapitel gelöscht';
 $string['eventchapterupdated'] = 'Kapitel aktualisiert';
 $string['eventchapterviewed'] = 'Kapitel angezeigt';
 $string['hidechapter'] = 'Kapitel "{$a}" verbergen';
-$string['indicator:cognitivedepth'] = 'Buch kognitiv';
-$string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die ein/e Teilnehmer/in bei einem Buch erreicht hat.';
-$string['indicator:socialbreadth'] = 'Buch sozial';
-$string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die ein/e Teilnehmer/in bei einem Buch erreicht hat.';
 $string['modulename'] = 'Buch';
 $string['modulename_help'] = 'Statt endlos durch lange Texte am Bildschirm zu scrollen, teilen Sie Ihre Lerninhalte auf kurze Seiten innerhalb des Buchs auf.
 
@@ -90,16 +86,12 @@ $string['numberingoptions_desc'] = 'Wählen Sie die Kapitelgliederungen aus, die
 $string['page-mod-book-x'] = 'Jede Seite des Moduls \'Buch\'';
 $string['pluginadministration'] = 'Buch-Administration';
 $string['pluginname'] = 'Buch';
-$string['privacy:metadata'] = 'Das Buch-Modul-Plugin speichert keine persönlichen Daten.';
-$string['removeallbooktags'] = 'Alle Buchschlagwörter entfernen';
-$string['search:activity'] = 'Buch - Materialinformation';
+$string['search:activity'] = 'Buch - Beschreibung';
 $string['search:chapter'] = 'Buch - Kapitel';
 $string['showchapter'] = 'Kapitel "{$a}" anzeigen';
 $string['subchapter'] = 'Unterkapitel';
 $string['subchapternotice'] = '(Nur verfügbar, sobald das erste Kapitel angelegt ist)';
 $string['subplugintype_booktool'] = 'Buchaktivität';
 $string['subplugintype_booktool_plural'] = 'Buchaktivität';
-$string['tagarea_book_chapters'] = 'Buchkapitel';
-$string['tagsdeleted'] = 'Die Buchschlagwörter wurden entfernt.';
 $string['toc'] = 'Inhaltsverzeichnis';
 $string['top'] = 'Anfang';

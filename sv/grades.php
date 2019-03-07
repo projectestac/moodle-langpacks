@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'sv', branch 'MOODLE_34_STABLE'
+ * Strings for component 'grades', language 'sv', branch 'MOODLE_32_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -148,6 +148,7 @@ $string['calculationsaved'] = 'Beräkningen har sparats';
 $string['calculationview'] = 'Visa beräkning';
 $string['cannotaccessgroup'] = 'Det går tyvärr inte att få tillgång till betyg/omdömen för den valda gruppen.';
 $string['categories'] = 'Kategorier';
+$string['categoriesanditems'] = 'Kategorier och komponenter';
 $string['category'] = 'Kategori';
 $string['categoryedit'] = 'Redigera kategori';
 $string['categoryname'] = 'Namn på kategori';
@@ -421,6 +422,7 @@ $string['min'] = 'Lägsta';
 $string['missingscale'] = 'Du måste välja en skala';
 $string['mode'] = 'Läge';
 $string['modgrade'] = 'Betyg';
+$string['modgrade_help'] = 'Välj bedömningssättet som du vill använda för denna aktivitet. Om du markerar "skala" kan du välja en skala från en rullgardinsmeny. Om du markerar "poäng" kan du ange ett högsta möjliga betyg för denna aktivitet.';
 $string['modgrademaxgrade'] = 'Maximum poäng';
 $string['modgradetype'] = 'Typ';
 $string['modgradetypenone'] = 'Ingen';

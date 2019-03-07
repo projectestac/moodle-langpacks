@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cohort', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'cohort', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   cohort
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addcohort'] = 'Engadir un novo círculo';
-$string['allcohorts'] = 'Todos os circulos';
+$string['allcohorts'] = 'Todos os círculos';
 $string['anycohort'] = 'Calquera';
 $string['assign'] = 'Asignar';
 $string['assigncohorts'] = 'Asignar membros ao círculo';
@@ -88,5 +88,5 @@ $string['uploadcohorts_help'] = 'Pode enviarse círculos mediante ficheiros de t
 $string['uploadedcohorts'] = 'Enviados {$a} círculos';
 $string['useradded'] = 'Usuario «{$a}» engadido ao círculo';
 $string['visible'] = 'Visíbel';
-$string['visible_help'] = 'Calquera círculo pode ser visto polos usuarios que teñan o permiso «moodle/cohort:view» no contexto de círculo. <br/>
+$string['visible_help'] = 'Calquera círculo pode ser visto polos usuarios que teñan a funcionalidade «moodle/cohort:view» no contexto de círculo. <br/>
 Os círculos visíbeis poden ser vistos polos usuarios nos cursos subxacentes.';

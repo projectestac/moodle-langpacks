@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'wiki', language 'ru', branch 'MOODLE_32_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -121,7 +121,6 @@ $string['incorrectdeleteversions'] = 'Неверные версии страни
 $string['incorrectpageid'] = 'Некорректный ID страницы.';
 $string['incorrectsubwikiid'] = 'Некорректный ID подраздела вики.';
 $string['incorrectwikiid'] = 'Некорректный ID вики.';
-$string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с элементом Вики.';
 $string['individualpagedoesnotexist'] = 'Нет отдельной страницы Вики';
 $string['insertcomment'] = 'Вставить комментарий';
 $string['insertimage'] = 'Вставить изображение...';
@@ -129,7 +128,7 @@ $string['insertimage_help'] = 'При редактировании Вики мо
 $string['invalidlock'] = 'Эта страница заблокирована другим пользователем.';
 $string['invalidparameters'] = 'Передан недопустимые параметры.';
 $string['invalidsection'] = 'Некорректный раздел.';
-$string['invalidsesskey'] = 'Ваш сеанс, скорее всего, истек. Войдите снова и отправьте данные.';
+$string['invalidsesskey'] = 'Недопустимый ключ сеанса. Пожалуйста, отправьте данные заново.';
 $string['javascriptdisabledlocks'] = 'В Вашем браузере отключен Javascript и блокировки не работают. Ваши изменения могут быть не сохранены.';
 $string['links'] = 'Ссылки';
 $string['listall'] = 'Показать все';
@@ -235,6 +234,7 @@ $string['special'] = 'Специальное';
 $string['tableofcontents'] = 'Оглавление';
 $string['tagarea_wiki_pages'] = 'Страницы вики';
 $string['tagsdeleted'] = 'Теги удалены';
+$string['tagtitle'] = 'Смотреть тег «{$a}»';
 $string['teacherrating'] = 'Рейтинг преподавателя';
 $string['timesrating'] = 'Эта страница была оценена {$a->c} раз в среднем на {$a->s}';
 $string['updatedpages'] = 'Обновленные страницы';

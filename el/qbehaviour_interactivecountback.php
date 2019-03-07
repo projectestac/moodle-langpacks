@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_interactivecountback', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qbehaviour_interactivecountback', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   qbehaviour_interactivecountback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Διαδραστικά με πολλαπλές προσπάθειες (βαθμοί για τις αρχικές προσπάθειες)';
+$string['pluginname'] = 'Συμπεριφορά ερώτησης διαδραστικής με πολλαπλές προσπάθειες (βαθμοί για τις αρχικές προσπάθειες)';

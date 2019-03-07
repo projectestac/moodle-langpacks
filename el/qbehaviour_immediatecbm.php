@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_immediatecbm', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qbehaviour_immediatecbm', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   qbehaviour_immediatecbm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Άμεση ανάδραση με CBM';
+$string['pleaseselectacertainty'] = 'Επιλέξτε μια βεβαιότητα.';
+$string['pluginname'] = 'Άμεση ανατροφοδότηση με CBM (Certainty-based marking: βαθμολόγηση με βάση την βεβαιότητα)';

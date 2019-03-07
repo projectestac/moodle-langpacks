@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'imscp', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'imscp', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   imscp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,12 +29,8 @@ $string['areabackup'] = 'Pakete-biltegia';
 $string['areacontent'] = 'Edukia';
 $string['contentheader'] = 'Edukia';
 $string['deploymenterror'] = 'Errorea eduki-paketea egitean!';
-$string['imscp:addinstance'] = 'Gehitu beste IMS eduki-pakete bat';
+$string['imscp:addinstance'] = 'Gehitu IMS eduki-pakete berria';
 $string['imscp:view'] = 'Ikusi IMS edukia';
-$string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa IMS eduki-paketeetan';
-$string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak IMS motako eduki-paketea baliabideetan lortutako sakonera kognitiboan oinarrituta dago.';
-$string['indicator:socialbreadth'] = 'Gaitasun soziala IMS eduki-paketeetan';
-$string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak IMS motako eduki-paketea baliabideetan lortutako zabalera sozialean oinarrituta dago.';
 $string['keepold'] = 'Paketeak gorde';
 $string['keepoldexplain'] = 'Zenbat pakete gorde  behar dira?';
 $string['modulename'] = 'IMS eduki-paketea';
@@ -49,6 +45,5 @@ $string['packagefile'] = 'Paketearen fitxategia';
 $string['page-mod-imscp-x'] = 'IMS eduki-paketearen edozein orri';
 $string['pluginadministration'] = 'IMSCP kudeaketa';
 $string['pluginname'] = 'IMS eduki-paketea';
-$string['privacy:metadata'] = 'IMS eduki-paketea pluginak ez du datu pertsonalik biltzen.';
 $string['search:activity'] = 'IMS eduki-paketea - baliabidearen informazioa';
 $string['toc'] = 'TOC';

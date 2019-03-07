@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'sv', branch 'MOODLE_34_STABLE'
+ * Strings for component 'error', language 'sv', branch 'MOODLE_32_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,7 +62,7 @@ $string['cannotdeletebackupids'] = 'Kunde inte raderas tidigare backuppers id.';
 $string['cannotdeletecategorycourse'] = 'Det gick inte att ta bort kursen {$a}.';
 $string['cannotdeletecategoryquestions'] = 'Det gick inte att ta bort frågor från kategorin {$a}.';
 $string['cannotdeletecourse'] = 'Du har inte tillstånd att ta bort den här kursen. ';
-$string['cannotdeletecustomfield'] = 'Fel i sb m borttagande av anpassad fältdata';
+$string['cannotdeletecustomfield'] = 'Fel i sb m borttagande av standardiserade fältdata';
 $string['cannotdeletedir'] = 'Kan inte ta bort ({$a})';
 $string['cannotdeletefile'] = 'Det går inte att ta bort den här filen';
 $string['cannotdeleterole'] = 'It cannot be deleted, because {$a}';
@@ -203,6 +203,7 @@ $string['duplicaterolename'] = 'Det finns redan en roll med detta namn!';
 $string['duplicateroleshortname'] = 'Det finns redan en roll med detta korta namn!';
 $string['duplicateusername'] = 'Dubblerat användarnamn - hoppar över posten';
 $string['emailfail'] = 'Misslyckades att skicka e-post';
+$string['enddatebeforestartdate'] = 'Kursens slutdatum måste vara senare än startdatumet.';
 $string['error'] = 'Det uppstod ett fel';
 $string['errorcleaningdirectory'] = 'Fel i samband med rensning av katalogen "{$a}"';
 $string['errorcopyingfiles'] = 'Fel i samband med kopiering av filer';
@@ -400,6 +401,7 @@ $string['nopermissiontoviewgrades'] = 'Det går inte att visa betyg.';
 $string['nopermissiontoviewletergrade'] = 'Tillåtelse att visa bokstavsbetyg saknas';
 $string['nosite'] = 'Kan inte hitta en toppnivå-kurs!';
 $string['nositeid'] = 'Ingen plats-ID';
+$string['nostartdatenoenddate'] = 'Det behövs ett startdatum för kursen innan du kan sätta ett slutdatum.';
 $string['nostatstodisplay'] = 'Tyvärr, det finns inga tillgängliga data att visa';
 $string['notallowedtoupdateprefremotely'] = 'Du är inte tillåten att uppdatera den här användarinställningen på distans';
 $string['notavailable'] = 'Detta är inte tillgängligt f.n.';

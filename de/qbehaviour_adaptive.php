@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_adaptive', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qbehaviour_adaptive', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   qbehaviour_adaptive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['disregardedwithoutpenalty'] = 'Die Einreichung ist ungültig und wurde ohne Bewertung verworfen.';
-$string['gradingdetails'] = 'Zensur für diese Einreichung: {$a->raw}/{$a->max}.';
+$string['gradingdetails'] = 'Bewertung für diese Einreichung: {$a->raw}/{$a->max}.';
 $string['gradingdetailsadjustment'] = 'Zusammen mit früheren Versuchen ergibt dies <strong>{$a->cur}/{$a->max}</strong>.';
 $string['gradingdetailspenalty'] = 'Für diese Beantwortung erhielten Sie einen Punktabzug in Höhe von {$a}.';
 $string['gradingdetailspenaltytotal'] = 'Gesamtabzüge bisher: {$a}';
@@ -37,4 +37,3 @@ $string['gradingdetailswithpenalty'] = 'Bewertung für diese Einreichung: {$a->r
 $string['gradingdetailswithtotalpenalty'] = 'Bewertung für diese Einreichung: {$a->raw}/{$a->max}. Diese Einreichung berücksichtigt einen Abzug von {$a->penalty}. Gesamtabzug bisher: {$a->totalpenalty}.';
 $string['notcomplete'] = 'Unvollständig';
 $string['pluginname'] = 'Mehrfachbeantwortung (mit Abzügen)';
-$string['privacy:metadata'] = 'Der Adaptive Modus des Frageverhalten-Plugins speichert keine persönlichen Daten.';

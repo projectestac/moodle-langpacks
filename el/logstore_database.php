@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_database', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'logstore_database', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   logstore_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,8 @@ $string['databasetable'] = 'Πίνακας βάσης δεδομένων';
 $string['databasetable_help'] = 'Το όνομα του πίνακα όπου θα αποθηκευτούν οι καταγραφές. Αυτός ο πίνακας πρέπει να έχει δομή ίδια με αυτή που χρησιμοποιείται από το logstore_standard (mdl_logstore_standard_log).';
 $string['filters'] = 'Φίλτρα καταγραφών';
 $string['filters_help'] = 'Ενεργοποιήστε φίλτρα που εξαιρούν μερικές ενέργειες από την καταγραφή';
-$string['includeactions'] = 'Περίλαβε ενέργειες αυτών των τύπων';
-$string['includelevels'] = 'Περίλαβε ενέργειες με αυτά τα εκπαιδευτικά επίπεδα';
+$string['includeactions'] = 'Να συμπεριληφθούν ενέργειες αυτών των τύπων';
+$string['includelevels'] = 'Να συμπεριληφθούν ενέργειες με αυτά τα εκπαιδευτικά επίπεδα';
 $string['logguests'] = 'Κατάγραψε ενέργειες επισκεπτών';
 $string['other'] = 'Άλλα';
 $string['participating'] = 'Συμμετέχοντες';

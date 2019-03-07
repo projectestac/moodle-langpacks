@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_singleview', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradereport_singleview', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   gradereport_singleview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['assessmentname'] = 'Kalifikazio-elementua';
 $string['blanks'] = 'Hutsik dauden kalifikazioak';
 $string['bulkappliesto'] = 'Hauentzat:';
 $string['bulkfor'] = '{$a}-(r)rentzako kalifikazioak';
-$string['bulkinsertvalue'] = 'Txertatu balorea';
+$string['bulkinsertvalue'] = 'Sartu balioa';
 $string['bulklegend'] = 'Sartu masiboki';
 $string['bulkperform'] = 'Exekutatu sarrera masiboa';
 $string['entrypage'] = 'Kalifikatu erabiltzailea edo elementua';
@@ -45,7 +45,6 @@ $string['gradefor'] = 'Kalifikatu hauek: {$a}';
 $string['gradeitem'] = 'Kalifikazio-elementua: {$a}';
 $string['gradeitemcannotbeoverridden'] = 'Kalifikazio-elementu hau ezin da baliogabetu.';
 $string['gradeuser'] = 'Kalifikatu erabiltzailea: {$a}';
-$string['itemsperpage'] = 'Elementuak orriko';
 $string['noscreens'] = 'Ez da aurkitu ikuspegi sinpleko pantaila egokirik.';
 $string['notvalid'] = 'Ez da Ikuspegi sinpleko pantaila baliagarria: {$a}';
 $string['override'] = 'Baliogabetu';
@@ -53,13 +52,12 @@ $string['overrideall'] = 'Baliogabetu kalifikazio guztiak';
 $string['overridefor'] = 'Salbuespena ondokoarentzat: {$a}';
 $string['overridenone'] = 'Ez baliogabetu kalifikaziorik';
 $string['pluginname'] = 'Ikuspegi sinplea';
-$string['privacy:metadata'] = 'Kalifikazio-elementua txostenak soilik beste kokapenetan gordetako datuak erakusten ditu.';
 $string['save'] = 'Gorde';
 $string['savegrades'] = 'Kalifikazioak gordetzen';
 $string['savegradessuccess'] = 'Kalifikazioak ezarri dira {$a} elementuentzat';
 $string['selectgrade'] = 'Aukeratu kalifikazio-elementua...';
 $string['selectuser'] = 'Aukeratu erabiltzailea...';
 $string['singleview:view'] = 'Ikusi txostena';
-$string['summarygrade'] = 'Erabiltzaileen taula bat hurrengo zutabeekin: ibiltartea, kalifikazioa, feedback-a eta kalifikazioren bat baliogabetu edo kanpoan utzi behar den zehazteko.';
-$string['summaryuser'] = 'Kalifikazio-elementuen taula bat hurrengo zutabeekin: kalifikazio-kategoria, ibiltartea, kalifikazioa, feedback-a eta kalifikazioren bat baliogabetu edo kanpoan utzi behar den zehazteko.';
+$string['summarygrade'] = 'Erabiltzaileen taula bat hurrengo zutabeekin: ibiltartea, kalifikazioa, feedbacka eta kalifikazioren bat baliogabetu edo kanpoan utzi behar den zehazteko.';
+$string['summaryuser'] = 'Kalifikazio-elementuen taula bat hurrengo zutabeekin: kalifikazio-kategoria, ibiltartea, kalifikazioa, feedbacka eta kalifikazioren bat baliogabetu edo kanpoan utzi behar den zehazteko.';
 $string['userselect'] = 'Aukeratu jarduera';

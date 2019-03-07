@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'en', branch 'MOODLE_34_STABLE'
+ * Strings for component 'hvp', language 'en', branch 'MOODLE_32_STABLE'
  *
  * @package   hvp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,8 @@ $string['addedandupdatedsp'] = 'Added {$a->%new} new H5P library and updated {$a
 $string['addedandupdatedss'] = 'Added {$a->%new} new H5P library and updated {$a->%old} old one.';
 $string['addednewlibraries'] = 'Added {$a->%new} new H5P libraries.';
 $string['addednewlibrary'] = 'Added {$a->%new} new H5P library.';
+$string['additionalinfo'] = 'Additional Information';
+$string['additionallicenseinfo'] = 'Any additional information about the license';
 $string['addlibraries'] = 'Add libraries';
 $string['ajaxfailed'] = 'Failed to load data.';
 $string['attribution'] = 'Attribution 4.0';
@@ -41,8 +43,24 @@ $string['attributionncsa'] = 'Attribution-NonCommercial-ShareAlike 4.0';
 $string['attributionnd'] = 'Attribution-NoDerivs 4.0';
 $string['attributionsa'] = 'Attribution-ShareAlike 4.0';
 $string['author'] = 'Author';
+$string['authorcomments'] = 'Author comments';
+$string['authorcommentsdescription'] = 'Comments for the editor of the content (This text will not be published as a part of copyright info)';
+$string['authorname'] = 'Author\'s name';
+$string['authorrole'] = 'Author\'s role';
 $string['by'] = 'by';
 $string['cancellabel'] = 'Cancel';
+$string['ccattribution'] = 'Attribution (CC BY)';
+$string['ccattributionnc'] = 'Attribution-NonCommercial (CC BY-NC)';
+$string['ccattributionncnd'] = 'Attribution-NonCommercial-NoDerivs (CC BY-NC-ND)';
+$string['ccattributionncsa'] = 'Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)';
+$string['ccattributionnd'] = 'Attribution-NoDerivs (CC BY-ND)';
+$string['ccattributionsa'] = 'Attribution-ShareAlike (CC BY-SA)';
+$string['ccpdd'] = 'Public Domain Dedication (CC0)';
+$string['ccpdm'] = 'Public Domain Mark (PDM)';
+$string['changedby'] = 'Changed by';
+$string['changedescription'] = 'Description of change';
+$string['changelog'] = 'Changelog';
+$string['changeplaceholder'] = 'Photo cropped, text changed, etc.';
 $string['close'] = 'Close';
 $string['confirmdialogbody'] = 'Please confirm that you wish to proceed. This action is not reversible.';
 $string['confirmdialogheader'] = 'Confirm action';
@@ -50,6 +68,7 @@ $string['confirmlabel'] = 'Confirm';
 $string['contentchanged'] = 'This content has changed since you last used it.';
 $string['contentstatefrequency'] = 'Save content state frequency';
 $string['contentstatefrequency_help'] = 'In seconds, how often do you wish the user to auto save their progress. Increase this number if you\'re having issues with many ajax requests';
+$string['contenttype'] = 'Content Type';
 $string['contenttypecacheheader'] = 'Content Type Cache';
 $string['copyright'] = 'Rights of use';
 $string['copyrightinfo'] = 'Copyright information';
@@ -58,6 +77,7 @@ $string['copyrighttitle'] = 'View copyright information for this content.';
 $string['couldnotcopy'] = 'Could not copy file.';
 $string['couldnotsave'] = 'Could not save file.';
 $string['create'] = 'Create';
+$string['creativecommons'] = 'Creative Commons';
 $string['ctcachebuttonlabel'] = 'Update content type cache';
 $string['ctcacheconnectionfailed'] = 'Couldn\'t communicate with the H5P Hub. Please try again later.';
 $string['ctcachedescription'] = 'Making sure the content type cache is up to date will ensure that you can view, download and use the latest libraries. This is different from updating the libraries themselves.';
@@ -68,6 +88,7 @@ $string['ctcachesuccess'] = 'Library cache was successfully updated!';
 $string['ctcachetaskname'] = 'Update content type cache';
 $string['currentpage'] = 'Page $current of $total';
 $string['dataviewreportlabel'] = 'View Answers';
+$string['date'] = 'Date';
 $string['disablefileextensioncheck'] = 'Disable file extension check';
 $string['disablefileextensioncheckwarning'] = 'Warning! Disabling the file extension check may have security implications as it allows for uploading of php files. That in turn could make it possible for attackers to execute malicious code on your site. Please make sure you know exactly what you\'re uploading.';
 $string['disablefullscreen'] = 'Disable fullscreen';
@@ -175,6 +196,8 @@ $string['licenseCC20'] = '2.0 Generic';
 $string['licenseCC25'] = '2.5 Generic';
 $string['licenseCC30'] = '3.0 Unported';
 $string['licenseCC40'] = '4.0 International';
+$string['licensee'] = 'Licensee';
+$string['licenseextras'] = 'License Extras';
 $string['licenseGPL'] = 'General Public License';
 $string['licenseV1'] = 'Version 1';
 $string['licenseV2'] = 'Version 2';
@@ -203,7 +226,7 @@ $string['modulename_help'] = 'The H5P activity module enables you to create inte
 
 In addition to being an authoring tool for rich content, H5P enables you to import and export H5P files for effective reuse and sharing of content.
 
-User interactions and scores are tracked using xAPI and are available through the Moodle Gradebook.
+User interactions and scores are tracked using xAPI and are available through the Moodle Gradebook. Note that it is currently possible for people with programming skills to cheat in H5P interactions and obtain the full score without knowing the correct answers. H5Ps must not be used for exams or similar.
 
 You add interactive H5P content by creating content using the built-in authoring tool or uploading H5P files found on other H5P enabled sites.';
 $string['modulename_link'] = 'https://h5p.org/moodle-more-help';
@@ -241,6 +264,7 @@ $string['noziparchive'] = 'Your PHP version does not support ZipArchive.';
 $string['oldphpversion'] = 'Your PHP version is outdated. H5P requires version 5.2 to function properly. Version 5.6 or later is recommended.';
 $string['onlyupdate'] = 'Only update existing libraries';
 $string['options'] = 'Options';
+$string['originator'] = 'Originator';
 $string['pd'] = 'Public Domain';
 $string['pddl'] = 'Public Domain Dedication and Licence';
 $string['pdm'] = 'Public Domain Mark';
@@ -281,6 +305,7 @@ $string['privacy:metadata:hvp_xapi_results:parent_id'] = 'The ID of the parent o
 $string['privacy:metadata:hvp_xapi_results:raw_score'] = 'Achieved score for the event.';
 $string['privacy:metadata:hvp_xapi_results:response'] = 'The response the user sent in.';
 $string['privacy:metadata:hvp_xapi_results:user_id'] = 'The ID of the user that performed the action.';
+$string['question'] = 'Question';
 $string['removeoldlogentries'] = 'Remove old H5P log entries';
 $string['removetmpfiles'] = 'Remove old H5P temporary files';
 $string['reportingquestionsremaininglabel'] = 'questions remaining to grade';
@@ -350,3 +375,5 @@ $string['welcomeheader'] = 'Welcome to the world of H5P!';
 $string['wrongversion'] = 'The version of the H5P library {$a->%machineName} used in this content is not valid. Content contains {$a->%contentLibrary}, but it should be {$a->%semanticsLibrary}.';
 $string['year'] = 'Year';
 $string['years'] = 'Year(s)';
+$string['yearsfrom'] = 'Years (from)';
+$string['yearsto'] = 'Years (to)';

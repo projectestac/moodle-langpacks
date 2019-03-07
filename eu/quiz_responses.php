@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_responses', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz_responses', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   quiz_responses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,28 +29,21 @@ $string['cannotloadoptions'] = 'Ezin dira galdera-aukeraj kargatu';
 $string['include'] = 'Sartu';
 $string['mustselectcols'] = 'Zerbait sartu behar duzu.';
 $string['pagesize'] = 'Orriaren tamaina';
-$string['pluginname'] = 'Ebazpenak';
-$string['privacy:preference:qtext'] = 'Galderen testuaren zutabeak erakustea edo ez.';
-$string['privacy:preference:resp'] = 'Ikasleen erantzunen zutabeak erakustea edo ez.';
-$string['privacy:preference:right'] = 'Erantzun zuzenaren zutabeak erakustea edo ez.';
-$string['privacy:preference:which_tries'] = 'Zein ahalegineko erantzunak erakutsi';
-$string['privacy:preference:which_tries:all'] = 'Erabiltzaile baten saiakera bateko galdera batean egindako ahalegin guztiak.';
-$string['privacy:preference:which_tries:first'] = 'Erabiltzaile baten saiakera bateko galdera batean egindako lehen ahalegina.';
-$string['privacy:preference:which_tries:last'] = 'Erabiltzaile baten saiakera bateko galdera batean egindako azken ahalegina.';
+$string['pluginname'] = 'Erantzunak';
 $string['questiontext'] = 'galderaren testua';
-$string['reportresponses'] = 'Ebazpenak';
-$string['response'] = 'ebazpena';
-$string['responses'] = 'Ebazpenak';
-$string['responsesdownload'] = 'Jaitsi ebazpenak';
-$string['responsesfilename'] = 'ebazpenak';
-$string['responsesoptions'] = 'Ebazpenen aukerak';
-$string['responsesreport'] = 'Ebazpenen txostena';
-$string['responsestitle'] = 'Ebazpenak';
-$string['responsex'] = '{$a} ebazpena';
+$string['reportresponses'] = 'Erantzunak';
+$string['response'] = 'erantzuna';
+$string['responses'] = 'Erantzunak';
+$string['responsesdownload'] = 'Jaitsi erantzunak';
+$string['responsesfilename'] = 'erantzunak';
+$string['responsesoptions'] = 'Erantzunen aukerak';
+$string['responsesreport'] = 'Erantzunen txostena';
+$string['responsestitle'] = 'Erantzunak';
+$string['responsex'] = '{$a} erantzuna';
 $string['rightanswer'] = 'erantzun zuzena';
 $string['rightanswerx'] = 'Erantzun zuzena {$a}';
 $string['showattempts'] = 'Erakutsi / jeitsi bakarrik saiakerak';
 $string['showthe'] = 'Erakutsi';
 $string['summaryofquestiontext'] = 'Galderaren laburpena';
-$string['summaryofresponse'] = 'Ebazpenen laburpena';
+$string['summaryofresponse'] = 'Erantzunen laburpena';
 $string['summaryofrightanswer'] = 'Ebazpen zuzenen laburpena';

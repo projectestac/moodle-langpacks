@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_ldap', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_ldap', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -65,8 +65,8 @@ $string['course_summary_updateonsync'] = 'Actualitza el resum durant l\'execuci�
 $string['course_summary_updateonsync_key'] = 'Actualitza el resum';
 $string['courseupdated'] = 'S\'ha actualitzat amb èxit el curs amb número ID \'{$a->idnumber}\'';
 $string['courseupdateskipped'] = 'No cal actualitzar el curs amb número ID \'{$a->idnumber}\'. S\'ha omès.';
-$string['createcourseextid'] = 'CREA l\'usuari inscrit en un curs que no existeix \'{$a->courseextid}\'';
-$string['createnotcourseextid'] = 'Usuari inscrit en un curs que no existeix \'{$a->courseextid}\'';
+$string['createcourseextid'] = 'CREA l\'usuari inscrit en un curs que no existeix «{$a->courseextid}»';
+$string['createnotcourseextid'] = 'Usuari inscrit en un curs que no existeix «{$a->courseextid}»';
 $string['creatingcourse'] = 'S\'està creant el curs \'{$a}\'...';
 $string['duplicateshortname'] = 'Error en la creació del curs. Nom curt duplicat. S\'ometrà el curs amb número ID \'{$a->idnumber}\'...';
 $string['editlock'] = 'Bloca valor';
@@ -102,7 +102,7 @@ $string['objectclass_key'] = 'Classe objecte';
 $string['ok'] = 'D\'acord!';
 $string['opt_deref'] = 'Si el membre del grup conté noms distingits, especifiqueu com s\'utilitzen els àlies  durant la cerca. Seleccioneu un dels següents valors: \'No\' (LDAP_DEREF_NEVER) o \'Sí\' (LDAP_DEREF_ALWAYS)';
 $string['opt_deref_key'] = 'Àlies referits';
-$string['phpldap_noextension'] = '<em>El modul LDAP de PHP sembla que no estigui instal·lat. Si us plau comproveu que és instal·lat si voleu utilitzar el connector d\'inscripció.</em>';
+$string['phpldap_noextension'] = '<em>El modul LDAP de PHP sembla que no estigui instal·lat. Comproveu que està instal·lat, si voleu utilitzar el connector d\'inscripció.</em>';
 $string['pluginname'] = 'Inscripcions LDAP';
 $string['pluginname_desc'] = '<p>Podeu utilitzar un servidor LDAP per controlar les inscripcions. S\'assumeix que el vostre arbre LDAP conté grups que es corresponen als cursos i que cada grup/curs tindrà entrades membres corresponents als estudiants.</p>
 <p>S\'assumeix que els cursos estan definits com a grups en el LDAP i que cada grup té múltiples camps de membre (<em>member</em> o <em>memberUid</em>) que contenen una identificació única de l\'usuari.</p>
@@ -117,7 +117,6 @@ $string['role_mapping_key'] = 'Fes el mapatge de rols de LDAP';
 $string['roles'] = 'Mapatge de rols';
 $string['server_settings'] = 'Configuració del servidor LDAP';
 $string['synccourserole'] = '== S\'està sincronitzant el curs \'{$a->idnumber}\' per al rol \'{$a->role_shortname}\'';
-$string['syncenrolmentstask'] = 'Tasca de sincronització d\'inscripcions';
 $string['template'] = 'Opcional: els cursos creats automàticament poden copiar els seus paràmetres d\'un curs plantilla.';
 $string['template_key'] = 'Plantilla';
 $string['unassignrole'] = 'S\'està suprimint l\'assignació del rol \'{$a->role_shortname}\' a l\'usuari \'{$a->user_username}\' del curs  \'{$a->course_shortname}\' (id {$a->course_id})';

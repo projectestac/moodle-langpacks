@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'ar', branch 'MOODLE_34_STABLE'
+ * Strings for component 'plugin', language 'ar', branch 'MOODLE_32_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,7 +54,6 @@ $string['err_response_http_code'] = 'يتعذر جلب بيانات التحدي
 $string['filterall'] = 'إظهار الكل';
 $string['filtercontribonly'] = 'أظهار  المكونات الإضافية فقط';
 $string['filterupdatesonly'] = 'إظهار القابل للتحديث فقط';
-$string['isenabled'] = 'مفعّل؟';
 $string['misdepinfoplugin'] = 'معلومات المكون الإضافي';
 $string['misdepinfoversion'] = 'معلومات الإصدار';
 $string['misdepsavail'] = 'التبعيات المفقودة المتاحة';
@@ -103,7 +102,6 @@ $string['status_new'] = 'سيتم تثبيته';
 $string['status_nodb'] = 'لا يوجد قاعدة بيانات';
 $string['status_upgrade'] = 'سيتم ترقيته';
 $string['status_uptodate'] = 'مركب';
-$string['supportedconversions'] = 'تحويلات المستندات المدعومة';
 $string['supportedmoodleversions'] = 'إصدارات Moodle المدعومة';
 $string['systemname'] = 'محدث';
 $string['type_antivirus'] = 'مكون أضافي لمكافحة الفيروسات';
@@ -128,9 +126,6 @@ $string['type_editor'] = 'محرر';
 $string['type_editor_plural'] = 'محررات';
 $string['type_enrol'] = 'اسلوب إنضمام';
 $string['type_enrol_plural'] = 'اساليب إنضمام';
-$string['type_fileconverter'] = 'محول المستندات';
-$string['type_fileconvertermanage'] = 'إدارة محولات المستندات';
-$string['type_fileconverter_plural'] = 'محولات المستندات';
 $string['type_filter'] = 'فلتر';
 $string['type_filter_plural'] = 'مرشحات النص';
 $string['type_format'] = 'تنسيق مقرر دراسي';
@@ -149,8 +144,6 @@ $string['type_media'] = 'مشغل وسائط';
 $string['type_media_plural'] = 'مشغلات وسائط';
 $string['type_message'] = 'نتاج المراسلة';
 $string['type_message_plural'] = 'مخرجات المراسلة';
-$string['type_mlbackend'] = 'خلفية تعلم الآلة';
-$string['type_mlbackend_plural'] = 'خلفيات تعلم الآلة';
 $string['type_mnetservice'] = 'خدمة MNet';
 $string['type_mnetservice_plural'] = 'خدمات MNet';
 $string['type_mod'] = 'وحدة نشاط';

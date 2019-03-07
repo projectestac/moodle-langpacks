@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'webservice', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -134,7 +134,6 @@ $string['norequiredcapability'] = 'No cal cap capacitat';
 $string['notoken'] = 'La llista de tokens està buida.';
 $string['onesystemcontrolling'] = 'Permet que un sistema extern controli Moodle';
 $string['onesystemcontrollingdescription'] = 'Els passos següents us ajudaran a configurar els serveis web de Moodle per permetre que un sistema extern interactuï amb Moodle. Això inclou configurar un mètode d\'identificació per testimoni (amb clau de seguretat).';
-$string['onlyseecreatedtokens'] = 'Qualsevol testimoni (<em>token<em>) pot ser esborrat, encara que només podeu visualitzar els testimonis que heu creat.';
 $string['operation'] = 'Operació';
 $string['optional'] = 'Opcional';
 $string['passwordisexpired'] = 'La contrasenya ha caducat.';
@@ -165,7 +164,7 @@ $string['securitykey'] = 'Clau de seguretat (token)';
 $string['securitykeys'] = 'Claus de seguretat';
 $string['selectauthorisedusers'] = 'Selecciona usuaris autoritzats';
 $string['selectedcapability'] = 'Seleccionat';
-$string['selectedcapabilitydoesntexit'] = 'El conjunt actual de capacitats requerides ({$a})  no existeix més. Si us plau canvieu-lo i deseu els canvis.';
+$string['selectedcapabilitydoesntexit'] = 'El conjunt actual de capacitats requerides ({$a}) ja no existeix. Canvieu-lo i deseu els canvis.';
 $string['selectservice'] = 'Selecciona un servei';
 $string['selectspecificuser'] = 'Selecciona un usuari específic';
 $string['selectspecificuserdescription'] = 'Afegeix l\'usuari de serveis web com un usuari autoritzat';

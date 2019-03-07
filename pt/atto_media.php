@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_media', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'atto_media', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   atto_media
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,14 +31,14 @@ $string['addchapterstrack'] = 'Adicionar faixa de capítulo';
 $string['adddescriptionstrack'] = 'Adicionar faixa de descrição';
 $string['addmetadatatrack'] = 'Adicionar faixa de metadados';
 $string['addsource'] = 'Adicionar origem alternativa';
-$string['addsource_help'] = 'Recomenda-se que seja fornecida uma fonte de mídia alternativa, uma vez que os navegadores dos computadores de mesa e de telemóvel variam relativamente aos tipos de formato de ficheiros que suportam.';
+$string['addsource_help'] = 'Recomenda-se que seja fornecida uma fonte de media alternativa, uma vez que os navegadores dos computadores de secretária e dos dispositivos móveis variam relativamente aos tipos de formato de ficheiros suportados.';
 $string['addsubtitlestrack'] = 'Adicionar faixa de legendas';
 $string['addtrack'] = 'Adicionar faixa';
 $string['advancedsettings'] = 'Configurações avançadas';
-$string['audio'] = 'Audio';
-$string['audiosourcelabel'] = 'URL da fonte de audio';
+$string['audio'] = 'Áudio';
+$string['audiosourcelabel'] = 'URL da fonte de áudio';
 $string['autoplay'] = 'Reproduzir automaticamente';
-$string['browserepositories'] = 'Procurar repositórios...';
+$string['browserepositories'] = 'Procurar nos repositórios...';
 $string['captions'] = 'Balões';
 $string['captions_help'] = 'Os balões podem ser utilizados para descrever tudo o que está a acontecer na faixa, incluindo sons não verbais tal como o toque de um telefone.';
 $string['captionssourcelabel'] = 'URL da faixa de balões';
@@ -49,7 +49,7 @@ $string['controls'] = 'Mostrar botões de controlo';
 $string['createmedia'] = 'Inserir media';
 $string['default'] = 'Predefinição';
 $string['descriptions'] = 'Descrições';
-$string['descriptions_help'] = 'Descrições em audio podem ser usadas para fornecer uma narração que explica os detalhes visuais não aparentes apenas pelo audio.';
+$string['descriptions_help'] = 'Descrições em áudio podem ser usadas para fornecer uma narração que explica os detalhes visuais não aparentes apenas pelo áudio.';
 $string['descriptionssourcelabel'] = 'URL da faixa de descrição';
 $string['displayoptions'] = 'Opções de visualização';
 $string['entername'] = 'Digitar nome';
@@ -68,7 +68,6 @@ $string['metadatasourcelabel'] = 'URL da faixa de metadados';
 $string['mute'] = 'Sem som';
 $string['pluginname'] = 'Media';
 $string['poster'] = 'URL da miniatura';
-$string['privacy:metadata'] = 'O módulo atto_media não armazena nenhum dado pessoal.';
 $string['remove'] = 'Remover';
 $string['size'] = 'Tamanho';
 $string['srclang'] = 'Idioma';

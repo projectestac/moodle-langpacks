@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_html', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_html', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   block_html
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,10 +31,8 @@ $string['configclasses'] = 'Zusätzliche CSS-Klassen';
 $string['configclasses_help'] = 'Zweck dieser Option ist, mehrere Textblöcke durch eigene CSS-Festlegungen unterscheidbar zu machen. Alle hier eingegebenen CSS-Klassen (Leerzeichen getrennt) werden den standardmäßigen Klassen hinzugefügt.';
 $string['configcontent'] = 'Inhalt';
 $string['configtitle'] = 'Blocktitel';
-$string['html:addinstance'] = 'Textblock hinzufügen';
-$string['html:myaddinstance'] = 'Textblock zum Dashboard hinzufügen';
+$string['html:addinstance'] = 'Neuen Textblock hinzufügen';
+$string['html:myaddinstance'] = 'Neuen Textblock zum Dashboard hinzufügen';
 $string['leaveblanktohide'] = 'Ohne Titel bei leerem Feld';
 $string['newhtmlblock'] = '(Textblock)';
 $string['pluginname'] = 'Textblock';
-$string['privacy:metadata:block'] = 'Der Textblock speichert alle seine Daten im Block-Subsystem von Moodle.';
-$string['search:content'] = 'Inhalt des Textblocks';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_blog_tags', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   block_blog_tags
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,4 +27,3 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['blog_tags:addinstance'] = 'Προσθήκη ενός νέου μπλοκ: ετικέτες ιστολογίου';
 $string['pluginname'] = 'Ετικέτες ιστολογίου';
-$string['privacy:metadata'] = 'Το μπλοκ ετικέτες ιστολογίου εμφανίζει μόνο δεδομένα αποθηκευμένα σε άλλες τοποθεσίες.';

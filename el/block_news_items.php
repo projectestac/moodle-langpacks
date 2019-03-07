@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_news_items', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_news_items', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   block_news_items
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,5 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['news_items:addinstance'] = 'Προσθήκη νέου μπλοκ τελευταίες ανακοινώσεις';
-$string['news_items:myaddinstance'] = 'Προσθήκη νέου μπλοκ τελευταίες ανακοινώσεις στη σελίδα Η αρχική μου';
-$string['pluginname'] = 'Τελευταία νέα';
+$string['news_items:myaddinstance'] = 'Προσθήκη νέου μπλοκ τελευταίες ανακοινώσεις στο Ταμπλό';
+$string['pluginname'] = 'Τελευταίες ανακοινώσεις';

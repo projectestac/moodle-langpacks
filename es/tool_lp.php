@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_lp', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -222,6 +222,7 @@ $string['templatecompetencies'] = 'Plantilla de competencias del plan de aprendi
 $string['templatename'] = 'Nombre';
 $string['templates'] = 'Plantillas de planes de aprendizaje';
 $string['uponcoursecompletion'] = 'Al terminar el curso:';
+$string['uponcoursemodulecompletion'] = 'Al finalizar la actividad:';
 $string['userevidence'] = 'Evidencia de aprendizajes previos';
 $string['userevidencecreated'] = 'Se creó la evidencia de aprendizajes previos';
 $string['userevidencename'] = 'Nombre';

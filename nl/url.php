@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'nl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'url', language 'nl', branch 'MOODLE_32_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['chooseavariable'] = 'Kies een variable';
 $string['clicktoopen'] = 'Klik op {$a} om de bron te openen';
 $string['configdisplayoptions'] = 'Selecteer alle opties die beschikbaar zouden kunnen zijn, bestaande instellingen worden niet aangepast. Hou de CTRL-toets ingedrukt om meerdere velden te kunnen selecteren.';
 $string['configframesize'] = 'Wanneer een webpagina of een geupload bestand getoond wordt in een frame, dan is deze waarde de hoogte (in pixels) van het top frame (waar de navigatie inzit).';
-$string['configrolesinparams'] = 'Inschakelen als je gelocaliseerde rolnamen in de lijst met beschikbare parametervariablen wil.';
+$string['configrolesinparams'] = 'Inschakelen als je gelocaliseerde rolnamen in de lijst met beschikbare parametervariabelen wil.';
 $string['configsecretphrase'] = 'De geheime zin wordt gebruikt om geëncrypteerde code te maken die naar sommige servers gestuurd kan worden als een parameter. De geëncrypteerde code wordt gemaakt door een md5-waarde van het IP-adres van de gebruiker te concateneren met jouw geheime zin. vb code is md5(IP.geheimezin). Merk op dat dit is niet betrouwbaar omdat IP-adressen kunnen wijzigen in dikwijls gedeeld worden door meerdere computers.';
 $string['contentheader'] = 'Inhoud';
 $string['createurl'] = 'Maak een URL';
@@ -46,10 +46,6 @@ $string['displayselect_help'] = 'Deze instelling, samen met het bestandstype van
 * Nieuw venster - De URL wordt weergegeven in een nieuw browservenster met menu\'s en een adresbalk';
 $string['externalurl'] = 'Externe URL';
 $string['framesize'] = 'Frame hoogte';
-$string['indicator:cognitivedepth'] = 'URL cognitief';
-$string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een URL bron.';
-$string['indicator:socialbreadth'] = 'URL sociaal';
-$string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een URL bron.';
 $string['invalidstoredurl'] = 'Kan deze bron niet tonen, URL is niet geldig.';
 $string['invalidurl'] = 'Externe URL is niet geldig';
 $string['modulename'] = 'URL';
@@ -61,8 +57,8 @@ Merk op dat URL\'s aan elke andere activiteit kan toegevoegd worden via de tekst
 $string['modulenameplural'] = 'URL\'s';
 $string['page-mod-url-x'] = 'Elke URL module-pagina';
 $string['parameterinfo'] = '&amp;parameter=variable';
-$string['parametersheader'] = 'URL variablen';
-$string['parametersheader_help'] = 'Sommige interne Moodlevariablen kunnen automatisch aan de URL toegevoegd worden. Geef jouw naam voor de parameter in elk tekstvak en selecteer de overeenkomende variable.';
+$string['parametersheader'] = 'URL variabelen';
+$string['parametersheader_help'] = 'Sommige interne Moodle-variabelen kunnen automatisch aan de URL toegevoegd worden. Geef jouw naam voor de parameter in elk tekstvak en selecteer de overeenkomende variabele.';
 $string['pluginadministration'] = 'Beheer URL-module';
 $string['pluginname'] = 'URL';
 $string['popupheight'] = 'Hoogte pop-upvenster (in pixels)';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_customlang', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,12 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['checkin'] = 'Gorde kateak hizkuntza-paketean';
-$string['checkout'] = 'ireki hizkuntza-paketea editatzeko';
+$string['checkout'] = 'Ireki hizkuntza-paketea editatzeko';
 $string['checkoutdone'] = 'Hizkuntza-paketea eguneratu da';
 $string['checkoutinprogress'] = 'Hizkuntza-paketea eguneratzen';
 $string['confirmcheckin'] = 'Aldatutako kateak zure hizkuntza-pakete lokalean gordetzekotan zara. Honela pertsonalizatutako kateak itzultzailearengandik datuen karpetara esportatuko dira eta Moodle aldatutako kateak erabiltzen hasiko da. Sakatu \'Jarraitu\' botoiari egiaztatzeko.';
-$string['customlang:edit'] = 'Itzulpen lokala editatu ';
-$string['customlang:view'] = 'Itzulpen lokala ikusi';
+$string['customlang:edit'] = 'Editatu itzulpen lokala';
+$string['customlang:view'] = 'Ikusi itzulpen lokala';
 $string['filter'] = 'Iragazi kateak';
 $string['filtercomponent'] = 'Erakutsi osagai hauek dituzten kateak';
 $string['filtercustomized'] = 'Pertsonalizatuak bakarrik';
@@ -55,7 +55,6 @@ $string['placeholder_help'] = 'Leku-markak `{$a}` edo `{$a->something}` moduko s
 
 Garrantzitsua da leku-marka jatorrizko katean dagoen modu zehatzean kopiatzea. Ez ezazu euskaratu edo aldatu bere norabidea.';
 $string['placeholderwarning'] = 'kateak leku-marka du';
-$string['pluginname'] = 'Hizkuntzen pertsonalizazioa';
-$string['privacy:metadata'] = 'Hizkuntzen pertsonalizazioa pluginak ez du datu pertsonalik biltzen.';
+$string['pluginname'] = 'Hizkuntzaren pertsonalizazioa';
 $string['savecheckin'] = 'Gorde aldaketak hizkuntza-paketean';
 $string['savecontinue'] = 'Aplikatu aldaketak eta jarraitu editatzen';

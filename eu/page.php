@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'page', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,17 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configdisplayoptions'] = 'Aukera itzazu eskura egon behar duten aukera guztiak; dagoeneko diren baloreak ez dira aldatuko. Eremu bat baino gehiago aukeratzeko, eutsi CTRL teklari sakatuta.';
+$string['configdisplayoptions'] = 'Aukera itzazu eskura egon behar duten aukera guztiak; dagoeneko diren balioak ez dira aldatuko. Eremu bat baino gehiago aukeratzeko, eutsi CTRL teklari sakatuta.';
 $string['content'] = 'Orriaren edukia';
 $string['contentheader'] = 'Edukia';
 $string['createpage'] = 'Sortu beste orri bat';
 $string['displayoptions'] = 'Eskura dauden erakusteko aukerak';
 $string['displayselect'] = 'Erakutsi';
 $string['displayselectexplain'] = 'Aukeratu pantaila-mota';
-$string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa orrietan';
-$string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Orria motako baliabideetan lortutako sakonera kognitiboan oinarrituta dago.';
-$string['indicator:socialbreadth'] = 'Gaitasun soziala orrietan';
-$string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Orria motako baliabideetan lortutako zabalera sozialean oinarrituta dago.';
 $string['legacyfiles'] = 'Ikastaro zaharren fitxategi-migrazioa';
 $string['legacyfilesactive'] = 'Aktiboa';
 $string['legacyfilesdone'] = 'Amaituta';
@@ -52,18 +48,17 @@ Orri bat erabil daiteke
 * Azalpen batekin batera hainbat bideo edo audio txertatzeko';
 $string['modulenameplural'] = 'Orriak';
 $string['optionsheader'] = 'Erakusteko aukerak';
-$string['page:addinstance'] = 'Gehitu beste orri bat';
+$string['page:addinstance'] = 'Gehitu orri berria';
 $string['page-mod-page-x'] = 'Orria moduluaren edozein orri';
 $string['page:view'] = 'Ikusi orriaren edukia';
 $string['pluginadministration'] = 'Orriaren kudeaketa';
 $string['pluginname'] = 'Orria';
 $string['popupheight'] = 'Popup-aren altuera (pixeletan)';
-$string['popupheightexplain'] = 'Zehaztu zabaltzen den leihoaren berezko altuera.';
+$string['popupheightexplain'] = 'Zehaztu zabaltzen den leihoaren lehenetsitako altuera.';
 $string['popupwidth'] = 'Popup-aren zabalera (pixeletan)';
-$string['popupwidthexplain'] = 'Zehaztu zabaltzen den leihoaren berezko zabalera.';
+$string['popupwidthexplain'] = 'Zehaztu zabaltzen den leihoaren lehenetsitako zabalera.';
 $string['printheading'] = 'Erakutsi orriaren izena';
 $string['printheadingexplain'] = 'Orriaren izena edukiaren gainean erakutsi?';
 $string['printintro'] = 'Erakutsi orriaren deskribapena';
 $string['printintroexplain'] = 'Orriaren deskribapena edukiaren gainean erakutsi?';
-$string['privacy:metadata'] = 'mod_page pluginak ez du datu pertsonalik biltzen.';
 $string['search:activity'] = 'Orria';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_log', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_log', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   report_log
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['allsources'] = 'Iturburu guztiak';
 $string['cli'] = 'CLI';
 $string['eventcomponent'] = 'Osagaia';
 $string['eventcontext'] = 'Testuingurua';
-$string['eventloggedas'] = '{$a->realusername} $a->asusername} gisa';
+$string['eventloggedas'] = '{$a->realusername} {$a->asusername} gisa';
 $string['eventorigin'] = 'Jatorria';
 $string['eventrelatedfullnameuser'] = 'Inplikatutako erabiltzailea';
 $string['eventreportviewed'] = 'Agerraldi-txostena ikusi da';
@@ -46,7 +46,6 @@ $string['page-report-log-index'] = 'Ikastaroko agerraldien txostena';
 $string['page-report-log-user'] = 'Erabiltzailearen ikastaroko agerraldien txostena';
 $string['page-report-log-x'] = 'Edozein agerraldi-txosten';
 $string['pluginname'] = 'Agerraldiak';
-$string['privacy:metadata'] = 'Agerraldiak pluginak ez du datu pertsonalik biltzen.';
 $string['restore'] = 'Berreskuratu';
 $string['selectlogreader'] = 'Aukeratu agerraldi-irakurlea';
 $string['web'] = 'Web';

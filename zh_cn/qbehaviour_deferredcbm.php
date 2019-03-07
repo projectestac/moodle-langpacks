@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_deferredcbm', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qbehaviour_deferredcbm', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   qbehaviour_deferredcbm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,6 +42,7 @@ $string['certainty2'] = '还算确定（超过67%）';
 $string['certainty3'] = '非常确定（高于80%）';
 $string['forentirequiz'] = '就整个测验({$a} 试题)的結果';
 $string['howcertainareyou'] = '确定度{$a->help}: {$a->choices}';
+$string['judgementok'] = '确定';
 $string['judgementsummary'] = '回应:{$a->responses}。 正确度:  {$a->fraction}。 (最佳范围为 {$a->idealrangelow} 到 {$a->idealrangehigh})。 当你使用这一确定度时，你是  {$a->judgement}。';
 $string['noquestions'] = '没有回应';
 $string['pluginname'] = '延迟反馈（支持CBM）';

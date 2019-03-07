@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'sv', branch 'MOODLE_34_STABLE'
+ * Strings for component 'editor_tinymce', language 'sv', branch 'MOODLE_32_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -582,6 +582,7 @@ $string['style_dlg:clip'] = 'Beskärning';
 $string['style_dlg:color'] = 'Färg';
 $string['style_dlg:height'] = 'Höjd';
 $string['style_dlg:left'] = 'Vänster';
+$string['style_dlg:list'] = 'Lista';
 $string['style_dlg:list_tab'] = 'Listor';
 $string['style_dlg:list_type'] = 'Listtyp';
 $string['style_dlg:margin'] = 'Marginal';

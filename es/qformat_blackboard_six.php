@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_blackboard_six', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qformat_blackboard_six', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   qformat_blackboard_six
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['defaultname'] = 'Pregunta importada {$a}';
 $string['errormanifest'] = 'Error mientras se parseaba el documento manifest de IMS.';
+$string['filenothandled'] = 'Este archivo contiene referencia a un material de archivo {$a} que actualmente no es manejado por la importación';
 $string['imagenotfound'] = 'La imagen con la ruta {$a} no se ha encontrado en la importación.';
 $string['importedcategory'] = 'Categoría importada {$a}';
 $string['importnotext'] = 'Pregunta no encontrada en el archivo XML';

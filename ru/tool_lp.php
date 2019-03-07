@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_lp', language 'ru', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -176,7 +176,7 @@ $string['plantemplate'] = 'Выбрать шаблон учебного план
 $string['plantemplate_help'] = 'Созданный из шаблона учебный план будет содержать список компетенций, соответствующий шаблону. Обновления шаблона будут отражаться на любом плане, созданном из этого шаблона.';
 $string['planunapprove'] = 'Вернуть к черновику';
 $string['planupdated'] = 'Учебный план обновлен';
-$string['pluginname'] = 'Учебный планы';
+$string['pluginname'] = 'Учебные планы';
 $string['points'] = 'Баллы';
 $string['pointsgivenfor'] = 'Оценка в баллах для «{$a}»';
 $string['proficient'] = 'Освоено';

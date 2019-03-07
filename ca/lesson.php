@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'lesson', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,11 +29,11 @@ $string['accesscontrol'] = 'Control d\'accés';
 $string['actionaftercorrectanswer'] = 'Acció després d\'una resposta correcta';
 $string['actionaftercorrectanswer_help'] = 'Després de respondre correctament una pregunta, hi ha 3 opcions per a  la pàgina següent:
 
-* Normal - Segueix el camí de la lliçó.
-* Mostra una pàgina no vista - Les pàgines es mostren en un ordre aleatori sense mostrar la mateixa pàgina  dues vegades.
-* Mostra una pàgina sense contestar - Les pàgines es mostren aleatòriament i es tornen a mostrar les pàgines que contenen preguntes encara no respostes.';
+* Normal: segueix el camí de la lliçó.
+* Mostra una pàgina no vista. Les pàgines es mostren en un ordre aleatori sense mostrar la mateixa pàgina dues vegades.
+* Mostra una pàgina no contestada. Les pàgines es mostren aleatòriament, i es tornen a mostrar les pàgines que contenen preguntes no contestades encara.';
 $string['actions'] = 'Accions';
-$string['activitylink'] = 'Enllaça a la següent activitat';
+$string['activitylink'] = 'Enllaça a l\'activitat següent';
 $string['activitylink_help'] = 'Per tal que aparegui al final de la lliçó un enllaç a una altra activitat del curs, seleccioneu-la entre les que apareixen al menú desplegable.';
 $string['activitylinkname'] = 'Vés a {$a}';
 $string['activityoverview'] = 'Teniu lliçons pendents.';
@@ -61,8 +61,6 @@ $string['addnumerical'] = 'Crea una pàgina de pregunta numèrica';
 $string['addpage'] = 'Afegeix una pàgina';
 $string['addshortanswer'] = 'Crea una pàgina de pregunta de resposta curta';
 $string['addtruefalse'] = 'Crea una pàgina de pregunta Vertader/Fals';
-$string['allowofflineattempts'] = 'Permet que la lliçó es pugui intentar fora de línia a través de l\'aplicació mòbil';
-$string['allowofflineattempts_help'] = 'Si s\'habilita, un usuari de l\'aplicació mòbil pot descarregar-se la lliçó i fer intents fora de línia. També es descarregaran totes les possibles respostes i les solucions correctes. Nota: Una lliçó no es pot respondre fora de línia si té fixat un temps límit.';
 $string['anchortitle'] = 'Inici del contingut principal';
 $string['and'] = 'I';
 $string['answer'] = 'Resposta';
@@ -104,6 +102,7 @@ $string['checknavigation'] = 'Comprova la navegació';
 $string['checkquestion'] = 'Comprova la pregunta';
 $string['classstats'] = 'Estadística de classe';
 $string['clicktodownload'] = 'Feu clic en aquest enllaç per baixar el fitxer.';
+$string['clicktopost'] = 'Feu clic per enviar la vostra qualificació a la llista de puntuacions màximes.';
 $string['closebeforeopen'] = 'No s\'ha pogut actualitzar la lliçó: Heu especificat una data de tancament anterior a la d\'obertura.';
 $string['cluster'] = 'Clúster';
 $string['clusterjump'] = 'Pregunta no vista en un clúster';
@@ -116,12 +115,12 @@ $string['completethefollowingconditions'] = 'Heu de completar la condició o con
 $string['completionendreached'] = 'Requereix arribar al final';
 $string['completionendreached_desc'] = 'L\'estudiant ha d\'arribar al final de la lliçó per considerar completada l\'activitat';
 $string['completiontimespent'] = 'L\'estudiant ha de fer aquesta activitat durant, com a mínim,';
-$string['completiontimespentdesc'] = 'L\'estudiant ha de fer aquesta activitat un mínim de {$a}';
 $string['completiontimespentgroup'] = 'Requereix dedicar-hi un temps';
 $string['conditionsfordependency'] = 'Condició o condicions de dependència';
 $string['configactionaftercorrectanswer'] = 'Acció a realitzar per defecte després d\'una resposta correcta';
 $string['configintro'] = 'Els valors establerts aquí defineixen els valors per defecte que s\'utilitzaran en el formulari de configuració quan es crei una nova activitat de lliçó. Els paràmetres especificats com a avançats només es mostren en clicar l\'enllaç «Mostra\'n més...»';
 $string['configmaxanswers'] = 'Nombre màxim per defecte de respostes per pàgina';
+$string['configmaxhighscores'] = 'Nombre de puntuacions màximes que es mostren';
 $string['configmediaclose'] = 'Mostra un botó "Tanca" a la finestra emergent generada per un fitxer multimèdia enllaçat';
 $string['configmediaheight'] = 'Estableix l\'altura de la finestra emergent generada per un fitxer multimèdia enllaçat';
 $string['configmediawidth'] = 'Estableix l\'amplada de la finestra emergent generada per un fitxer multimèdia enllaçat';
@@ -160,6 +159,7 @@ $string['didnotreceivecredit'] = 'No heu rebut crèdit';
 $string['disabled'] = 'Inhabilitat';
 $string['displaydefaultfeedback'] = 'Usa la retroacció per defecte';
 $string['displaydefaultfeedback_help'] = 'Si s\'activa, quan no es trobi la resposta a una pregunta en particular, es mostrarà la resposta per defecte "Aquesta és la resposta correcta" o "Aquesta és la resposta equivocada" .';
+$string['displayhighscores'] = 'Mostra les puntuacions més altes';
 $string['displayinleftmenu'] = 'Voleu mostrar-ho al menú?';
 $string['displayleftif'] = 'Qualificació mínima per mostrar el menú';
 $string['displayleftif_help'] = 'Aquest paràmetre determina si un estudiant ha d\'obtenir una determinada puntuació abans de veure el menú de la lliçó. Això obligarà l\'estudiant a passar per tota la lliçó en el seu primer intent. Un cop hagi aconseguit la puntuació necessària ja podrà utilitzar el menú per revisar-la.';
@@ -201,12 +201,13 @@ $string['endofcluster'] = 'Final de clúster';
 $string['endofclustertitle'] = 'Final de clúster';
 $string['endoflesson'] = 'Final de la lliçó';
 $string['enteredthis'] = 'ha escrit això.';
+$string['entername'] = 'Escriviu un àlies a la llista de puntuacions màximes';
 $string['enterpassword'] = 'Escriviu la contrasenya:';
 $string['eolstudentoutoftime'] = 'Heu esgotat el vostre temps per completar aquesta lliçó. És possible que la darrera resposta no s\'hagi comptat si l\'heu donada després que s\'hagi acabat el temps.';
 $string['eolstudentoutoftimenoanswers'] = 'No heu respost cap pregunta. La vostra puntuació d\'auqesta lliçó és de 0.';
 $string['essay'] = 'Pregunta de resposta oberta';
 $string['essayemailmessage2'] = '<p>Informació de la pregunta de resposta oberta:{$a->question}</p>
-<p>La vostra resposta:<em>{$a->response}/em></p><p>Comentaris del professorat:<em>{$a->comment}</em></p>
+<p>La vostra resposta:<em>{$a->response}/em></p><p>Comentaris del professor:<em>{$a->comment}</em></p>
 <p>Heu aconseguit {$a->earned} d\'un màxim de {$a->outof} per aquesta pregunta de resposta oberta.</p><p>La vostra qualificació de la lliçó és ara de {$a->newgrade}%.</p>';
 $string['essayemailsubject'] = 'Qualificació disponible per una pregunta de lliçó';
 $string['essayresponses'] = 'Respostes de tipus «resposta oberta»';
@@ -215,6 +216,8 @@ $string['essayscore'] = 'Puntuació de la pregunta de resposta oberta';
 $string['eventcontentpageviewed'] = 'Visualitzat el contingut d\'una pàgina';
 $string['eventessayassessed'] = 'S\'ha avaluat la pregunta de resposta oberta';
 $string['eventessayattemptviewed'] = 'S\'ha mostrat l\'intent de resposta oberta';
+$string['eventhighscoreadded'] = 'S\'ha afegit la puntuació màxima';
+$string['eventhighscoresviewed'] = 'S\'han mostrat les puntuacions màximes';
 $string['eventlessonended'] = 'S\'ha acabat la lliçó';
 $string['eventlessonrestarted'] = 'Lliçó recomençada';
 $string['eventlessonresumed'] = 'Lliçó continuada';
@@ -245,7 +248,6 @@ $string['gotoendoflesson'] = 'Vés al final de la lliçó';
 $string['grade'] = 'Qualifica';
 $string['gradebetterthan'] = 'Qualificació major de (%)';
 $string['gradebetterthanerror'] = 'Heu d\'obtenir una qualificació major del {$a} per cent';
-$string['graded'] = 'Qualificada';
 $string['gradeessay'] = 'Qualifica les preguntes de resposta oberta';
 $string['gradeis'] = 'La qualificació és {$a}';
 $string['gradeoptions'] = 'Opcions de qualificació';
@@ -257,15 +259,12 @@ $string['handlingofretakes_help'] = 'Quan a l\'estudiantat se li permet repetir 
 $string['havenotgradedyet'] = 'Encara no qualificat.';
 $string['here'] = 'aquí';
 $string['highscore'] = 'Puntuació més alta';
+$string['highscores'] = 'Puntuacions més altes.';
 $string['hightime'] = 'Temps màxim';
 $string['importcount'] = 'S\'estan important {$a} preguntes';
 $string['importquestions'] = 'Importa preguntes';
 $string['importquestions_help'] = 'Aquesta característica permet la importació de diferents formats de pregunta mitjançant un fitxer de text.';
 $string['inactiveoverridehelp'] = '* L\'estudiant no pertany al grup/rol correcte per veure o intentar la lliçó';
-$string['indicator:cognitivedepth'] = 'Llíçó cognitiva';
-$string['indicator:cognitivedepth_help'] = 'Aquest indicador es basa en l\'aprofundiment cognitiu assolit per l\'estudiant en una activitat de lliçó.';
-$string['indicator:socialbreadth'] = 'Lliçó social';
-$string['indicator:socialbreadth_help'] = 'Aquest indicador es basa en l\'amplitud social assolida per l\'estudiant en una activitat de lliçó.';
 $string['insertedpage'] = 'S\'ha inserit la pàgina';
 $string['invalidfile'] = 'Fitxer no vàlid';
 $string['invalidid'] = 'No s\'ha passat un ID de lliçó o de mòdul del curs';
@@ -284,8 +283,6 @@ $string['lessonclosed'] = 'La lliçó es va tancar el {$a}.';
 $string['lessoncloses'] = 'Es tanca la lliçó';
 $string['lessoncloseson'] = 'La lliçó es tanca el {$a}';
 $string['lesson:edit'] = 'Edició d\'activitats de tipus lliçó';
-$string['lessoneventcloses'] = '{$a} es tanca el';
-$string['lessoneventopens'] = '{$a} s\'obre el';
 $string['lessonformating'] = 'Formatatge de la lliçó.';
 $string['lesson:grade'] = 'Qualifica les preguntes de resposta oberta de la lliçó';
 $string['lesson:manage'] = 'Gestió d\'activitats de tipus lliçó';
@@ -301,7 +298,7 @@ $string['lessonstats'] = 'Estadístiques de la lliçó';
 $string['lesson:view'] = 'Mostra l\'activitat de la lliçó';
 $string['lesson:viewreports'] = 'Mostra els informes de la lliçó';
 $string['linkedmedia'] = 'Fitxer enllaçat';
-$string['loginfail'] = 'Ha fallat l\'inici de sessió, torneu-ho a provar...';
+$string['loginfail'] = 'Ha fallat l\'inici de sessió, torneu a provar-ho...';
 $string['lowscore'] = 'Puntuació més baixa';
 $string['lowtime'] = 'Temps més baix';
 $string['manualgrading'] = 'Qualifica les preguntes de resposta oberta';
@@ -310,6 +307,7 @@ $string['matching'] = 'Emparellament';
 $string['matchingpair'] = 'Parella de {$a}';
 $string['maxgrade'] = 'Qualificació màxima';
 $string['maxgrade_help'] = '<p>Aquest valor determina la qualificació màxima que es pot obtenir en la lliçó. L\'escala és de 0 a 100%. Aquest valor es pot modificar en qualsevol moment. Qualsevol canvi té un efecte immediat en la pàgina de qualificacions i en les qualificacions que es mostrin a l\'estudiantat en les diverses llistes. Si la qualificació s\'estableix a 0, la lliçó no apareixerà en cap de les pàgines de qualificació. </p>';
+$string['maxhighscores'] = 'Nombre de puntuacions màximes mostrades';
 $string['maximumnumberofanswersbranches'] = 'Nombre màxim de respostes';
 $string['maximumnumberofanswersbranches_help'] = 'Aquest paràmetre especifica el nombre màxim de respostes que es poden utilitzar en la lliçó. Si només hi ha preguntes de tipus vertader/fals, es pot ajustar a 2. La configuració es pot canviar en qualsevol moment, ja que només afecta allò que veu el professor, no les dades.';
 $string['maximumnumberofattempts'] = 'Nombre màxim d\'intents';
@@ -329,15 +327,15 @@ $string['modattempts'] = 'Permet a l\'estudiant la revisió';
 $string['modattempts_help'] = 'Si s\'activa, els estudiants poden navegar per la lliçó de nou i des del principi.';
 $string['modattemptsnoteacher'] = 'No podeu fer la revisió dels estudiants.';
 $string['modulename'] = 'Lliçó';
-$string['modulename_help'] = 'El mòdul de lliçó permet al professorat oferir matèria i/o activitats pràctiques de maneres diverses i flexibles. Un professor pot utilitzar la lliçó per crear un conjunt lineal de pàgines de continguts o activitats pedagògiques que ofereixin diverses opcions o camins a l\'estudiant. En qualsevol cas, els professors poden incrementar la motivació de l\'estudiant i assegurar la comprensió del material a base d\'incloure preguntes de diversos tipus, com ara d\'aparellament, de resposta múltiple o de resposta oberta. En funció de la resposta escollida per l\'estudiant i de com el professor hagi configurat la lliçó, els estudiants poden passar a la pàgina següent, retrocedir a la pàgina anterior o bé ser redirigits a un itinerari completament diferent.
+$string['modulename_help'] = 'El mòdul de lliçó permet al professor oferir matèria i/o activitats pràctiques de maneres diverses i flexibles. Un professor pot utilitzar la lliçó per crear un conjunt lineal de pàgines de continguts o activitats pedagògiques que ofereixin diverses opcions o camins a l\'estudiant. En qualsevol cas, els professors poden incrementar la motivació de l\'estudiant i assegurar la comprensió del material a base d\'incloure preguntes de diversos tipus, com ara d\'aparellament, de resposta múltiple o de resposta oberta. En funció de la resposta escollida per l\'estudiant i de com el professor hagi configurat la lliçó, els estudiants poden passar a la pàgina següent, retrocedir a la pàgina anterior o bé ser redirigits a un itinerari completament diferent.
 
 Una lliçó pot ser avaluada, i la puntuació obtinguda registrada al full de qualificacions.
 
-Les lliçons es poden emprar per:
+Les lliçons es poden emprar:
 
-* L\'auto-aprenentatge de matèria nova
-* Per exercicis d\'escenaris o simulacions/presa de decisions
-* Per al repàs diferenciat, amb diferents conjunts de preguntes de repàs que es mostraran en funció de les respostes inicials de l\'estudiant.';
+* Per a l\'autoaprenentatge de matèria nova
+* Per a exercicis d\'escenaris o simulacions / presa de decisions
+* Per al repàs diferenciat, amb diferents conjunts de preguntes de repàs que es mostraran en funció de les respostes inicials de l\'estudiant';
 $string['modulenameplural'] = 'Lliçons';
 $string['move'] = 'Mou la pàgina';
 $string['movedpage'] = 'S\'ha mogut la pàgina';
@@ -352,7 +350,7 @@ $string['nameapproved'] = 'Nom autoritzat';
 $string['namereject'] = 'El nom que heu escrit ha estat rebutjat.<br>Trieu-ne un altre.';
 $string['new'] = 'Nou';
 $string['nextpage'] = 'Pàgina següent';
-$string['noanswer'] = 'Una o més preguntes no tenen resposta. Si us plau, torneu enrere i responeu-les.';
+$string['noanswer'] = 'Una o més preguntes no tenen resposta. Torneu enrere i responeu-les.';
 $string['noattemptrecordsfound'] = 'No s\'ha trobat cap registre d\'intents: no hi ha qualificació.';
 $string['nobranchtablefound'] = 'No s\'ha trobat cap pàgina de contingut';
 $string['noclose'] = 'No hi ha data de tancament';
@@ -380,19 +378,18 @@ $string['notdefined'] = 'No està definit';
 $string['notenoughsubquestions'] = 'No heu definit prou subpreguntes!<br />
 Voleu tornar enrere i arreglar aquesta pregunta?';
 $string['notenoughtimespent'] = 'Heu acabat la lliçó en {$a->timespent}, que és menys que el temps requerit de {$a->timerequired}. Potser haureu d\'intentar de nou la lliçó.';
-$string['notgraded'] = 'Sense qualificació';
+$string['nothighscore'] = 'No heu aconseguit la {$a} posició a la llista de puntuacions màximes.';
 $string['notitle'] = 'Sense títol';
 $string['notyetcompleted'] = 'La lliçó s\'ha començat, però no s\'ha completat.';
 $string['numberofcorrectanswers'] = 'Nombre de respostes correctes: {$a}';
 $string['numberofcorrectanswersheader'] = 'Nombre de respostes correctes';
 $string['numberofcorrectmatches'] = 'Nombre d\'aparellaments correctes';
 $string['numberofpagestoshow'] = 'Nombre de pàgines per mostrar';
-$string['numberofpagestoshow_help'] = 'Aquest paràmetre especifica el nombre de pàgines que es mostren en una lliçó. Només és aplicable per a les lliçons on les pàgines es mostren en ordre aleatori (quan «Acció després d\'una resposta correcta» té seleccionada l\'opció «Mostra una pàgina no vista» o «Mostra una pàgina no contestada»). Si es posa a zero, llavors es mostren totes les pàgines.';
+$string['numberofpagestoshow_help'] = 'Aquest paràmetre especifica el nombre de pàgines que es mostren en una lliçó. Només és aplicable a les lliçons on les pàgines es mostren per ordre aleatori (quan «Acció després d\'una resposta correcta» té seleccionada l\'opció «Mostra una pàgina no vista» o «Mostra una pàgina no contestada»). Si es posa a zero, llavors es mostren totes les pàgines.';
 $string['numberofpagesviewed'] = 'Nombre de preguntes contestades: {$a}';
 $string['numberofpagesviewedheader'] = 'Nombre de preguntes contestades';
 $string['numberofpagesviewednotice'] = 'Nombre de preguntes contestades: {$a->nquestions}; (n\'hauríeu de contestar com a mínim {$a->minquestions})';
 $string['numerical'] = 'Numèrica';
-$string['offlinedatamessage'] = 'Heu treballat en aquest intent des d\'un dispositiu mòbil. Les dades s\'han desat al servidor fa {$a}. Comproveu que no tingueu feina sense desar.';
 $string['ongoing'] = 'Mostra la puntuació acumulada';
 $string['ongoingcustom'] = 'Fins ara heu aconseguit {$a->score} punts de {$a->currenthigh}.';
 $string['ongoing_help'] = 'Si està activat, cada pàgina mostrarà els punts que l\'estudiant ha obtingut del total possible fins ara.';
@@ -424,10 +421,10 @@ $string['pages'] = 'Pàgines';
 $string['pagetitle'] = 'Títol de la pàgina';
 $string['password'] = 'Contrasenya';
 $string['passwordprotectedlesson'] = '{$a} és una lliçó protegida per contrasenya.';
-$string['pleasecheckoneanswer'] = 'Si us plau, marqueu una resposta';
-$string['pleasecheckoneormoreanswers'] = 'Si us plau, marqueu una o més respostes';
+$string['pleasecheckoneanswer'] = 'Marqueu una resposta';
+$string['pleasecheckoneormoreanswers'] = 'Marqueu una o més respostes';
 $string['pleaseenteryouranswerinthebox'] = 'Introduïu la vostra resposta al quadre.';
-$string['pleasematchtheabovepairs'] = 'Si us plau, relacioneu les parelles de dalt';
+$string['pleasematchtheabovepairs'] = 'Relacioneu les parelles de dalt';
 $string['pluginadministration'] = 'Administració de la lliçó';
 $string['pluginname'] = 'Lliçó';
 $string['pointsearned'] = 'Punts aconseguits';
@@ -443,7 +440,7 @@ $string['previewlesson'] = 'Previsualitza {$a}';
 $string['previewpagenamed'] = 'Previsualitza la pàgina: {$a}';
 $string['previouspage'] = 'Pàgina anterior';
 $string['processerror'] = 'S\'ha produït un error durant el processament';
-$string['progressbar'] = 'Barra de progrés.';
+$string['progressbar'] = 'Barra de progrés';
 $string['progressbar_help'] = 'Si està activada, es mostra una barra a la part inferior de les pàgines de la lliçó que indica el percentatge aproximat de la seva compleció.';
 $string['progressbarteacherwarning'] = 'La barra de progrés no es visualitza per a {$a}';
 $string['progressbarteacherwarning2'] = 'No veureu la barra de progrés, ja que teniu permís per modificar aquesta lliçó';
@@ -470,7 +467,7 @@ $string['returntocourse'] = 'Torna al curs';
 $string['reverttodefaults'] = 'Retorna als paràmetres per defecte de la lliçó';
 $string['review'] = 'Revisa';
 $string['reviewlesson'] = 'Revisa la lliçó';
-$string['reviewquestionback'] = 'Sí, vull tornar-ho a provar';
+$string['reviewquestionback'] = 'Sí, vull tornar a provar-ho';
 $string['reviewquestioncontinue'] = 'No, vull anar a la pregunta següent';
 $string['sanitycheckfailed'] = 'La comprovació ha fallat: S\'ha suprimit aquest intent.';
 $string['save'] = 'Desa';
@@ -482,24 +479,22 @@ $string['score'] = 'Puntuació';
 $string['score_help'] = 'La puntuació sols s\'usa quan s\'ha habilitat la puntuació personalitzada. Cada pregunta pot tenir un valor numèric (positiu o negatiu).';
 $string['scores'] = 'Puntuacions';
 $string['search:activity'] = 'Lliçó: informació de l\'activitat';
-$string['secondpluswrong'] = 'Incorrecte de nou. Voleu tornar-ho a provar?';
+$string['secondpluswrong'] = 'Incorrecte de nou. Voleu tornar a provar-ho?';
 $string['selectaqtype'] = 'Seleccioneu un tipus de pregunta';
-$string['sent'] = 'Enviat';
 $string['shortanswer'] = 'Resposta breu';
 $string['showanunansweredpage'] = 'Mostra una pàgina no contestada';
 $string['showanunseenpage'] = 'Mostra una pàgina no vista';
 $string['singleanswer'] = 'Resposta única';
 $string['skip'] = 'Omet la navegació';
-$string['slideshow'] = 'Diapositives.';
+$string['slideshow'] = 'Diapositives';
 $string['slideshowbgcolor'] = 'Color de fons de les diapositives.';
 $string['slideshowheight'] = 'Alçada de la diapositiva.';
-$string['slideshow_help'] = 'Si està activat, la lliçó es veurà com una presentació de diapositives, amb una amplada i alçada fixes.';
+$string['slideshow_help'] = 'Si està activat, la lliçó es veurà com una presentació de diapositives, amb una amplària i una alçària fixes.';
 $string['slideshowwidth'] = 'Amplada de la diapositiva.';
 $string['startlesson'] = 'Comença la lliçó';
 $string['studentattemptlesson'] = 'Intent número {$a->attempt} de {$a->firstname} {$a->lastname},';
 $string['studentname'] = 'Nom {$a}';
 $string['studentoneminwarning'] = 'Avís: us queda un minut o menys per acabar la lliçó.';
-$string['studentoutoftimeforreview'] = 'Atenció: heu esgotat el temps de revisió de la lliçó';
 $string['studentresponse'] = 'Resposta de {$a}';
 $string['submit'] = 'Envia';
 $string['submitname'] = 'Envia el nom';
@@ -511,13 +506,14 @@ $string['thatsthewronganswer'] = 'Aquesta resposta és errònia';
 $string['thefollowingpagesjumptothispage'] = 'Les pàgines següents salten a aquesta pàgina';
 $string['thispage'] = 'Aquesta pàgina';
 $string['timeisup'] = 'S\'ha acabat el temps';
-$string['timelimit'] = 'Temps límit';
+$string['timelimit'] = 'Límit de temps';
 $string['timelimit_help'] = 'Si s\'habilita, es mostrarà un avís al principi de la lliçó sobre el temps disponible, i també es mostrarà un compte enrere. Les respostes fetes després del límit no es comptabilitzaran.';
 $string['timelimitwarning'] = 'Teniu {$a} per acabar la lliçó.';
 $string['timeremaining'] = 'Temps restant';
 $string['timespenterror'] = 'Heu de dedicar almenys {$a} minuts en la lliçó';
 $string['timespentminutes'] = 'Temps dedicat (minuts).';
 $string['timetaken'] = 'Temps dedicat';
+$string['topscorestitle'] = 'Les {$a} puntuacions màximes de la lliçó';
 $string['totalpagesviewedheader'] = 'Nombre de pàgines vistes';
 $string['true'] = 'Vertader';
 $string['truefalse'] = 'Vertader/Fals';
@@ -536,6 +532,7 @@ $string['useroverrides'] = 'Excepcions d\'usuari';
 $string['useroverridesdeleted'] = 'S\'han esborrat les excepcions d\'usuari';
 $string['usersnone'] = 'Cap estudiant no té accés a la lliçó.';
 $string['viewgrades'] = 'Mostra les qualificacions';
+$string['viewhighscores'] = 'Mostra la llista de puntuacions més altes.';
 $string['viewreports'] = 'Visualitza {$a->attempts} intents completats';
 $string['viewreports2'] = 'Mostra {$a} intents completats';
 $string['warning'] = 'Avís';
@@ -546,6 +543,7 @@ $string['wronganswerscore'] = 'Puntuació de resposta errònia';
 $string['wrongresponse'] = 'Resposta errònia';
 $string['xattempts'] = '{$a} intents';
 $string['youhaveseen'] = 'Ja heu vist més d\'una pàgina d\'aquesta lliçó.<br /> Voleu començar a la darrera pàgina que vau veure?';
+$string['youmadehighscore'] = 'Heu aconseguit la posició {$a} en la llista de puntuacions màximes.';
 $string['youranswer'] = 'La vostra resposta';
 $string['yourcurrentgradeis'] = 'La vostra qualificació actual és {$a}';
 $string['yourcurrentgradeisoutof'] = 'La vostra qualificació actual és {$a->grade} sobre {$a->total}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_section_links', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_section_links', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   block_section_links
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,11 +26,16 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['incby1'] = 'Αύξηση κατά';
+$string['incby1_help'] = 'Αυτή είναι η τιμή κατά την οποία αυξάνεται το τμήμα κάθε φορά που εμφανίζεται ένας σύνδεσμος τμήματος ξεκινώντας από το 1.';
 $string['incby2'] = 'Εναλλακτική αύξηση κατά';
+$string['incby2_help'] = 'Αυτή είναι η τιμή κατά την οποία αυξάνεται το τμήμα κάθε φορά που εμφανίζεται ένας σύνδεσμος τμήματος ξεκινώντας από το 1.';
 $string['jumptocurrenttopic'] = 'Μεταπήδηση στο τρέχον τμήμα';
 $string['jumptocurrentweek'] = 'Μεταπήδηση στην τρέχουσα εβδομάδα';
 $string['numsections1'] = 'Αριθμός τμημάτων';
+$string['numsections1_help'] = 'Μόλις ο αριθμός των τμημάτων του μαθήματος φτάσει σε αυτόν τον αριθμό τότε χρησιμοποιείται η προσαύξηση κατά τιμή.';
 $string['numsections2'] = 'Εναλλακτικός αριθμός τμημάτων';
-$string['pluginname'] = 'Σύνδεσμοι ενοτήτων';
+$string['numsections2_help'] = 'Μόλις ο αριθμός των τμημάτων του μαθήματος φτάσει σε αυτόν τον αριθμό, τότε χρησιμοποιείται η εναλλακτική προσαύξηση κατά τιμή.';
+$string['pluginname'] = 'Σύνδεσμοι τμημάτων';
+$string['section_links:addinstance'] = 'Προσθέστε ένα νέο μπλοκ συνδέσμων τμήματος';
 $string['topics'] = 'Τμήματα';
 $string['weeks'] = 'Εβδομάδες';

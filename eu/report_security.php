@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_security', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,12 +34,12 @@ $string['check_cookiesecure_details'] = '<p>HTTPS komunikazioak gaitzen badituzu
 $string['check_cookiesecure_error'] = 'Mesedez, gaitu cookie seguruak';
 $string['check_cookiesecure_name'] = 'Cookie seguruak';
 $string['check_cookiesecure_ok'] = 'Cookie seguruak gaituta.';
-$string['check_defaultuserrole_details'] = '<p>Saioa hasten duten erabiltzaile guztiei berezko erabiltzaile-rola esleitzen zaie. Mesedez ziurtatu rol honi ez zaizkiola arriskutsuak izan daitezkeen gaitasunak esleitzen.</p>
-<p>Berezko erabiltzaile rolarentzat onartzen den modu zaharkitu bakarra <em>Autentifikatutako erabiltzailea</em> da. Ikastaroak ikusteko gaitasuna ez litzateke gaitu beharko.</p>';
-$string['check_defaultuserrole_error'] = '"{$a}" izeneko berezko erabiltzaile-rola gaizki definituta dago!';
-$string['check_defaultuserrole_name'] = 'Berezko rola erabiltzaile guztientzat';
-$string['check_defaultuserrole_notset'] = 'Berezko rola ez da ezarri.';
-$string['check_defaultuserrole_ok'] = 'Erabiltzaile guztientzako berezko rolaren definizioa ONDO dago.';
+$string['check_defaultuserrole_details'] = '<p>Saioa hasten duten erabiltzaile guztiei lehenetsitako erabiltzaile-rola esleitzen zaie. Mesedez ziurtatu rol honi ez zaizkiola arriskutsuak izan daitezkeen gaitasunak esleitzen.</p>
+<p>Lehenetsitako erabiltzaile rolarentzat onartzen den modu zaharkitu bakarra <em>Autentifikatutako erabiltzailea</em> da. Ikastaroak ikusteko gaitasuna ez litzateke gaitu beharko.</p>';
+$string['check_defaultuserrole_error'] = '"{$a}" izeneko lehenetsitako erabiltzaile-rola modu ezegokian definituta dago!';
+$string['check_defaultuserrole_name'] = 'Lehenetsitako rola erabiltzaile guztientzat';
+$string['check_defaultuserrole_notset'] = 'Lehenetsitako rola ez da ezarri.';
+$string['check_defaultuserrole_ok'] = 'Erabiltzaile guztientzako lehenetsitako rolaren definizioa ONDO dago.';
 $string['check_displayerrors_details'] = '<p>Ez da gomendatzen <code>display_errors</code> izeneko PHP ezarpena gaitzea lanean dauden guneetan errore-mezuek zerbitzariari buruzko informazioa garrantzitsua ezagutzera eman dezaketelako.</p>';
 $string['check_displayerrors_error'] = 'Erroreak erakusteko PHP ezarpena gaituta dago. Desgaituta egotea gomendatzen da.';
 $string['check_displayerrors_name'] = 'PHP erroreak erakustea';
@@ -54,9 +54,9 @@ $string['check_embed_details'] = '<p>Objektuak mugarik gabe enbotatzeko aukera o
 $string['check_embed_error'] = 'Objektuak mugarik gabe enbotatzeko aukera gaituta dago - hau oso arriskutsua izan daiteke zerbitzari gehienetan.';
 $string['check_embed_name'] = 'Baimendu EMBED eta OBJECT';
 $string['check_embed_ok'] = 'Objektuak mugarik gabe enbotatzea ez dago baimenduta.';
-$string['check_frontpagerole_details'] = '<p>Hasiera-orriko berezko rola erregistratutako erabiltzaile guztiei hasiera-orriko jardueretan esleitzen zaie. Ziurtatu rol honi ez zaizkiola arriskutsuak izan daitezkeen gaitasunak esleitzen.</p>
+$string['check_frontpagerole_details'] = '<p>Hasiera-orriko lehenetsitako rola erregistratutako erabiltzaile guztiei hasiera-orriko jardueretan esleitzen zaie. Ziurtatu rol honi ez zaizkiola arriskutsuak izan daitezkeen gaitasunak esleitzen.</p>
 <p>Helburu honetarako rol berezi bat sortzea eta zaharkitutako rol-mota ez erabiltzea gomendatzen da.</p>';
-$string['check_frontpagerole_error'] = 'Gaizki definitutako hasiera-orriko "{$a}" rola antzeman da!';
+$string['check_frontpagerole_error'] = 'Modu ezegokian definitutako hasiera-orriko "{$a}" rola antzeman da!';
 $string['check_frontpagerole_name'] = 'Hasiera-orriko rola';
 $string['check_frontpagerole_notset'] = 'Hasiera-orriko rola ez da ezarri.';
 $string['check_frontpagerole_ok'] = 'Hasiera-orriko rolaren definizioa ONDO dago.';
@@ -67,7 +67,7 @@ $string['check_google_name'] = 'Zabaldu Google-ri';
 $string['check_google_ok'] = 'Bilaketa-motoreen sarbidea ez dago gaituta.';
 $string['check_guestrole_details'] = '<p>Bisitari-rola bisitariekin erabiltzen da, saio hasi gabeko erabiltzaileak eta behin-behineko ikastaroetako gonbidatu-sarbidea. Ziurtatu ezazu rol honi ez zaizkiola arriskutsuak izan daitezkeen gaitasunak esleitzen.</p>
 <p></p>';
-$string['check_guestrole_error'] = '"{$a}" bisitari-rola ez dago zuzen definituta!';
+$string['check_guestrole_error'] = '"{$a}" bisitari-rola ez dago modu egokian definituta!';
 $string['check_guestrole_name'] = 'Bisitari-rola';
 $string['check_guestrole_notset'] = 'Bisitari-rola ez da ezarri.';
 $string['check_guestrole_ok'] = 'Bisitari-rolaren definizioa ONDO dago.';
@@ -79,11 +79,9 @@ $string['check_noauth_details'] = '<p><em>Autentifikatu gabe</em> plugina ez dag
 $string['check_noauth_error'] = '\'Autentifikatu gabe\' plugina ezin da erabili lanean dauden guneetan.';
 $string['check_noauth_name'] = 'Autentifikatu gabe';
 $string['check_noauth_ok'] = '\'Autentifikatu gabe\' plugina desgaituta dago.';
-$string['check_nodemodules_details'] = '<p><em>{$a->path}</em> karpetak Node.js moduluak eta euren menpekotasunak ditu, normalean NPM bitartez instalatuta. Modulu hauek Moodle-ko garapen lokalerako beharrezkoak izan daitezke, esaterako grunt framework-a erabiltzeko. Ez dira behar lanean dagoen Moodle gune batean, eta potentzialki urruneko erasotzaileei kodea erakusteko arriskua dago.</p>
-<p>Karpeta hori ezabatzea irmoki gomendatzen da gunea URL publiko baten bitartez eskuragarri badago, edo gutxienez zure web-zerbitzariaren konfigurazioan bertara web bidezko sarbidea ukatzea.</p>';
 $string['check_nodemodules_info'] = 'node_modules karpetak ez luke gune publikoetan egon behar.';
 $string['check_nodemodules_name'] = 'Node.js moduluen karpeta';
-$string['check_openprofiles_details'] = 'Spam-bidaltzaileek erabiltzaile-profil irekiak baliatu ditzakete. Gomendatzen da <code>Behartu erabiltzaileak identifikatzera profilak ikusi ahal izateko</code> edo code>Behartu erabiltzaileak identifikatzera</code> gaituta egotea.';
+$string['check_openprofiles_details'] = 'Spam-bidaltzaileek erabiltzaile-profil irekiak baliatu ditzakete. Gomendatzen da <code>Behartu erabiltzaileak identifikatzera profilak ikusi ahal izateko</code> edo <code>Behartu erabiltzaileak identifikatzera</code> gaituta egotea.';
 $string['check_openprofiles_error'] = 'Edozeinek erabiltzaileen profilak ikus ditzake saioa hasi gabe ere.';
 $string['check_openprofiles_name'] = 'Erabiltzaile-profil irekiak';
 $string['check_openprofiles_ok'] = 'Erabiltzaileen profilak ikusi ahal izateko, beharrezkoa da saioa hastea.';
@@ -92,10 +90,6 @@ Hala ere, ez zehaztu baldintza zorrotzegiak, horrek erabiltzaileek pasahitza ez 
 $string['check_passwordpolicy_error'] = 'Pasahitzen politika ez da ezarri.';
 $string['check_passwordpolicy_name'] = 'Pasahitzen politika';
 $string['check_passwordpolicy_ok'] = 'Pasahitzen politika gaituta dago.';
-$string['check_preventexecpath_details'] = '<p>Exekutagarrietarako bideak kudeatzailearen interfaz grafikoaren bidez zehaztea baimentzea baimenetan gora egiteko bektore bat da.</p>';
-$string['check_preventexecpath_name'] = 'Exekutagarrietarako bideak';
-$string['check_preventexecpath_ok'] = 'Exekutagarrietarako bideak config.php fitxategian baino ezin dira konfiguratu.';
-$string['check_preventexecpath_warning'] = 'Exekutagarrietarako bideak kudeatzailearen interfaz grafikoan konfiguratu daitezke.';
 $string['check_riskadmin_detailsok'] = '<p>Mesedez, egiaztatu ezazu sistemako kudeatzaileen ondoko zerrenda hau:</p>{$a}';
 $string['check_riskadmin_detailswarning'] = '<p>Mesedez, egiazta ezazu sistemako kudeatzaileen zerrenda hau:</p>{$a->admins}
 <p>Gomendagarria da kudeatzaile-rola sistemaren testuinguruan baino ez esleitzea. Ondoko erabiltzaileek (onartzen ez den) kudeatzaile-rola esleituta dute beste testuinguru batzuetan:</p>{$a->unsupported}';
@@ -103,7 +97,7 @@ $string['check_riskadmin_name'] = 'Kudeatzaileak';
 $string['check_riskadmin_ok'] = 'Guneko {$a} kudeatzaile aurkitu dira.';
 $string['check_riskadmin_unassign'] = '<a href="{$a->url}">{$a->fullname} ({$a->email}) berrikusi rol-esleipena</a>';
 $string['check_riskadmin_warning'] = 'Guneko {$a->admincount} kudeatzaile eta onartzen ez diren {$a->unsupcount} kudeatzaile-rol esleipen aurkitu dira.';
-$string['check_riskbackup_detailsok'] = 'Ezein rolek ez du esplizituki erabiltzaile-datuen segurtasun-kopia baimentzen. Halere, kontuan izan "doanything" baimena duten kudeatzaileek hori egiteko aukera izango dutela.';
+$string['check_riskbackup_detailsok'] = 'Ezein rolek ez du esplizituki erabiltzaile-datuen segurtasun-kopia baimentzen. Halere, kontuan izan "doanything" gaitasuna duten kudeatzaileek hori egiteko aukera izango dutela.';
 $string['check_riskbackup_details_overriddenroles'] = '<p>Aktibo dauden baliogabetze hauek erabiltzaileei segurtasun-kopietan erabiltzaile-datuak gehitzeko aukera ematen diete. Mesedez ziurtatu ezazu baimen hau beharrezkoa dela.</p> {$a}';
 $string['check_riskbackup_details_systemroles'] = '<p>Sistemako hurrengo rol hauek erabiltzaileei segurtasun-kopietan erabiltzaile-datuak gehitzeko aukera ematen diete. Mesedez ziurtatu ezazu baimen hau beharrezkoa dela.</p> {$a}';
 $string['check_riskbackup_details_users'] = '<p>Goiko roletako edo baliogabetze-lokalak direla eta, une honetan hurrengo erabiltzaileek segurtasun-kopietan euren ikastaroetan matrikulatutako edozein erabiltzaileren erabiltzaile-datuak gehitzeko baimena dute. Ziurtatu ezazu (a) konfiantzazkoak direla eta (b) pasahitz sendoekin babestuta daudela:</p> {$a}';
@@ -124,8 +118,6 @@ $string['check_unsecuredataroot_error'] = 'Zure <code>{$a}</code> dataroot karpe
 $string['check_unsecuredataroot_name'] = 'dataroot ez da segurua';
 $string['check_unsecuredataroot_ok'] = 'Dataroot karpetak ez du web bidez eskuragarri egon behar.';
 $string['check_unsecuredataroot_warning'] = 'Zure <code>{$a}</code> dataroot karpeta okerreko kokagunean dago eta web bidez eskuragarri egon daiteke.';
-$string['check_vendordir_details'] = '<p><em>{$a->path}</em> karpetak bitartekoen liburutegiak eta euren menpekotasunak ditu, normalean PHP composer bitartez instalatutakoak. Liburutegi hauek Moodle-ko garapen lokalerako beharrezkoak izan daitezke, esaterako PHPUnit framework-a instalatzeko. Ez dira behar lanean dagoen Moodle gune batean, eta potentzialki urruneko erasotzaileei kodea erakusteko arriskua dago.</p>
-<p>Karpeta hori ezabatzea irmoki gomendatzen da gunea URL publiko baten bitartez eskuragarri badago, edo gutxienez zure web-zerbitzariaren konfigurazioan bertara web bidezko sarbidea ukatzea.</p>';
 $string['check_vendordir_info'] = 'vendor karpetak ez luke gune publikoetan egon behar.';
 $string['check_vendordir_name'] = 'vendor karpeta';
 $string['check_webcron_details'] = '<p>Cron-a web-nabigatzaile baten bitartez exekutatzeak informazio pribilegiatua erabiltzaile ezezagunei ikusgai jartzea suposatu lezake. Cron-a komando-lerro batetik baino ez exekutatzea edo bestela cron-aren urruneko sarbideetarako pasahitza zehaztea gomendatzen da</p>';
@@ -137,8 +129,7 @@ $string['description'] = 'Deskribapena';
 $string['details'] = 'Xehetasunak';
 $string['issue'] = 'Arazoa';
 $string['pluginname'] = 'Segurtasunaren ikuspegi orokorra';
-$string['privacy:metadata'] = 'Segurtasunaren ikuspegi orokorra pluginak ez du datu pertsonalik biltzen.';
-$string['security:view'] = 'Segurtasun-txostena ikusi';
+$string['security:view'] = 'Ikusi segurtasun-txostena';
 $string['status'] = 'Egoera';
 $string['statuscritical'] = 'Larria';
 $string['statusinfo'] = 'Informazioa';

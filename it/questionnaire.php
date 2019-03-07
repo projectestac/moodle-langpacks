@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'questionnaire', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,14 +33,12 @@ $string['addnewquestion'] = 'Nuova domanda di tipo: {$a}.';
 $string['addquestions'] = 'Aggiungi domande';
 $string['addselqtype'] = 'Aggiungi una domanda del tipo selezionato';
 $string['alignment'] = 'Allineamento';
-$string['alignment_help'] = 'Per default, i pulsanti radio sono allineati verticalmente. Se le indicazioni nella lista "Risposte" sono relativamente corte (o numerose) si può scegliere di mostrarle orizzontalmente. <br /><strong>Nota:</strong><br />La correttezza della visualizzazione orizzontale non è garantita su tutti i browsers. Si prega di effettuare delle verifiche personali.';
+$string['alignment_help'] = 'Di default, i pulsanti radio sono allineati verticalmente. Se le indicazioni nella lista "Risposte" sono relativamente corte (o numerose) si può scegliere di mostrarle orizzontalmente. <br /><strong>Nota:</strong><br />La correttezza della visualizzazione orizzontale non è garantita su tutti i browsers. Si prega di effettuare delle verifiche personali.';
 $string['all'] = 'Tutto';
 $string['alreadyfilled'] = 'Il questionario è già stato compilato. Grazie.';
 $string['andaveragevalues'] = 'e valori medi';
 $string['anonymous'] = 'Anonimo';
 $string['answer'] = 'Risposta';
-$string['answergiven'] = 'Risposta data';
-$string['answernotgiven'] = 'Risposta non data';
 $string['answerquestions'] = 'Rispondi alle domande...';
 $string['answers'] = 'Risposte';
 $string['attempted'] = 'Il questionario è stato inviato.';
@@ -82,7 +80,6 @@ $string['closedate'] = 'Usa data di chiusura';
 $string['closedate_help'] = 'Qui è possibile specificare una data di chiusura del questionario. Selezionare la Casella di spunta e indicare la data e l\'ora che si desiderano. Trascorsa la data indicata, gli utenti non potranno più compilare il questionario. Se la casella di spunta non è selezionata, il questionario non verrà mai chiuso.';
 $string['closeson'] = 'Il questionario chiude il {$a}';
 $string['completionsubmit'] = 'Gli studenti devono inviare il questionario per completarlo';
-$string['condition'] = 'Condizione';
 $string['confalts'] = 'oppure<br />Pagina di conferma';
 $string['configmaxsections'] = 'Massimo numero di sezioni di feedback';
 $string['configusergraph'] = 'Visualizza i grafici per il feedback del "Test della personalità"';
@@ -92,12 +89,12 @@ $string['confirmdelchildren'] = 'Eliminando questa domanda, verranno eliminate a
 $string['confirmdelgroupresp'] = 'Sei sicuro di eliminare TUTTE le risposte del gruppo {$a}?';
 $string['confirmdelquestion'] = 'Sei sicuro di voler eliminare la domanda alla posizione {$a}?';
 $string['confirmdelquestionresps'] = 'Verranno anche eliminate le {$a} risposte già date.';
-$string['confirmdelresp'] = 'Sei sicuro di eliminare le risposte di  {$a} ?';
+$string['confirmdelresp'] = 'Sei sicuro di eliminare le risposte di {$a} ?';
 $string['confpage'] = 'Pagina di conferma';
 $string['confpagedesc'] = 'Intestazione (in grassetto) e corpo del testo per la Pagina di Conferma; viene visualizzata dopo che l\'utente ha inviato il questionario. (La URL, se inserita, ha la precedenza sulla conferma testuale)';
 $string['confpage_help'] = 'La <strong>pagina di conferma</strong> verrà visualizzata all\'utente a valle dell\'invio del questionario. Consta di una intestazione (in grassetto) e di un messaggio.<br />
 <strong>Nota:</strong><br /> Un\'eventuale pagina web specifica nel campo URL di questa scheda ha la precedenza su questa opzione. Qualora non si specifichi un URL e neppure si definiscano le opzioni intestazione e messaggio, all\'invio del questionario da parte dell\'utente verrà mostrato il messaggio di default: "Grazie per aver compilato il questionario."';
-$string['contentoptions'] = 'Generale';
+$string['contentoptions'] = 'Opzioni per il contenuto';
 $string['couldnotcreatenewsurvey'] = 'Impossibile creare un nuovo questionario!';
 $string['couldnotdelresp'] = 'Non è stato possibile eliminare la risposta';
 $string['createcontent'] = 'Definisce nuovo contenuto';
@@ -120,11 +117,9 @@ $string['deletedisabled'] = 'L\'elemento non può essere eliminato';
 $string['deletedresp'] = 'Risposte eliminate';
 $string['deleteresp'] = 'Elimina questa risposta';
 $string['deletingresp'] = 'Eliminazione delle risposte';
-$string['dependencies'] = 'Dipendenze';
 $string['dependquestion'] = 'Domanda genitore';
 $string['dependquestion_help'] = 'E\' possibile selezionare una domanda genitore e un\'opzione di scelta per questa domanda. Allo studente verrà visualizzata una domanda figlia"
                  in basse alla scelta operata nella domanda genitore.';
-$string['directwarnings'] = 'Le dipendenze dirette di questa domanda verranno rimosse. Questo influenzerà:';
 $string['displaymethod'] = 'Il metodo di visualizzazione delle domande non è definito.';
 $string['download'] = 'Download';
 $string['downloadtextformat'] = 'Download in formato testo';
@@ -151,6 +146,7 @@ $string['event_previewed'] = 'Visualizzata anteprima del questionario';
 $string['event_question_created'] = 'Creato questionario';
 $string['event_question_deleted'] = 'Eliminato questionario';
 $string['event_response_deleted'] = 'Eliminata risposta individuale';
+$string['event_resumed'] = 'Tentativo ripreso';
 $string['event_saved'] = 'Salvate risposte';
 $string['event_submitted'] = 'Inviate risposte';
 $string['feedback'] = 'Feedback';
@@ -217,7 +213,6 @@ $string['includechoicetext'] = 'Includi anche i testi delle risposte';
 $string['incorrectcourseid'] = 'ID del corso non corretto';
 $string['incorrectmodule'] = 'ID del modulo non corretto';
 $string['incorrectquestionnaire'] = 'Il questionario non è corretto';
-$string['indirectwarnings'] = 'Lìelenco mostra le domande dipendenti indirette e le dipendenze rimanenti per le domande dipendenti dirette:';
 $string['invalidresponse'] = 'La risposta specificata non è valida.';
 $string['invalidresponserecord'] = 'Il record specificato per la risposta non è corretto.';
 $string['invalidsurveyid'] = 'ID del questionario non corretto';
@@ -227,7 +222,6 @@ $string['lastrespondent'] = 'Ultimo utente che ha risposto';
 $string['length'] = 'Lunghezza';
 $string['managequestions'] = 'Gestisci domande';
 $string['managequestions_help'] = 'Nella sezione Gestisci domande della pagina Modifica domande, puoi effettuare varie operazioni sulle domande del Questionario';
-$string['mandatory'] = 'Obbligatorio - Tutte queste dipendenze devono essere soddisfatte.';
 $string['maxdigitsallowed'] = 'Numero massimo di cifre consentite';
 $string['maxdigitsallowed_help'] = 'Impostando i parametri del numero massimo di cifre consentite e delle cifre decimali, è possibile specificare la lunghezza e il numero dei decimali.';
 $string['maxforcedresponses'] = 'Numero massimo di scelte';
@@ -282,7 +276,6 @@ $string['notifications_help'] = 'Invia una notifica della consegna del questiona
 $string['notificationsimple'] = 'Solo notifica';
 $string['notopen'] = 'Il questionario sarà disponibile a partire dal {$a}';
 $string['notrequired'] = 'Risposta non obbligatoria';
-$string['notset'] = 'non impostato';
 $string['not_started'] = 'non iniziato';
 $string['nousersselected'] = 'Nessun utente selezionato';
 $string['num'] = '#';
@@ -298,7 +291,6 @@ $string['of'] = 'di';
 $string['opendate'] = 'Usa data di apertura';
 $string['opendate_help'] = 'E\' possibile specificare una data di apertura del questionario. Selezionare la casella di spunta ed indicare la data e l\'ora che si desiderano. Prima della data indicata, gli utenti non potranno compilare il questionario. In mancanza di questa indicazione, il questionario sarà immediatamente disponibile.';
 $string['option'] = 'opzione {$a}';
-$string['optional'] = 'Opzionale - Almeno una di queste dipendenze deve essere soddisfatta.';
 $string['optionalname'] = 'Nome <em>(opzionale)</em>';
 $string['optionalname_help'] = 'Il nome di una domanda è un identificativo mnemonico utile per il docente che gestisce il questionario.
 Ciò nonostante, assegnare un nome ad una domanda non è assolutamente necessario. Quest\'ultimo, infatti, viene usato soltanto come intestazione delle colonne dei documenti di esportazione delle risposte ai questionari nel formato CSV ed Excel. Se non si intendono esportare tali dati, non c\'è alcuna necessità di assegnare dei nomi alle domande. Se, per contro, si prevede di esportare sistematicamente le risposte acquisite nei questionari, si hanno due possibilità d\'uso del nome della domanda.';
@@ -326,7 +318,6 @@ $string['overviewnumrespvw1'] = 'risposta';
 $string['owner'] = 'Proprietario';
 $string['page'] = 'Pagina';
 $string['pageof'] = 'Pagina {$a->page} di {$a->totpages}';
-$string['parent'] = 'Domanda genitore';
 $string['participant'] = 'Partecipanti';
 $string['pleasecomplete'] = 'Per favore completa questa scelta.';
 $string['pluginadministration'] = 'Amministrazione del Questionario';
@@ -483,7 +474,6 @@ $string['sendemail_help'] = 'Ad ogni invio di un questionario da parte di un qua
 Si possono inserire più indirizzi di posta elettronica separati da una virgola.';
 $string['send_message'] = 'Invia un messaggio agli utenti selezionati';
 $string['send_message_to'] = 'Invia messaggio a:';
-$string['set'] = 'imposta';
 $string['settings'] = 'Impostazioni';
 $string['settingssaved'] = 'Impostazioni salvate';
 $string['show_nonrespondents'] = 'Mostra gli utenti che non hanno risposto';
@@ -492,6 +482,7 @@ $string['strfdate'] = '%d/%m/%Y';
 $string['strfdateformatcsv'] = 'd/m/Y H:i:s';
 $string['subject'] = 'Argomento';
 $string['submissionnotificationhtmlanon'] = 'Nuovo <a href="{$a->submissionurl}">invio</a> per il questionario "{$a->name}"';
+$string['submissionnotificationhtmluser'] = '<a href="{$a->profileurl}">{$a->username}</a> ha effettuato un nuovo <a href="{$a->submissionurl}">invio</a> del questionario "{$a->name}" del corso "{$a->coursename}".';
 $string['submissionnotificationsubject'] = 'Nuovo invio del questionario';
 $string['submissionnotificationtextanon'] = 'Nuovo <a href="{$a->submissionurl}">invio</a> per il questionario "{$a->name}"';
 $string['submissionnotificationtextuser'] = '{$a->username} ({$a->profileurl}) ha effettuato un nuovo invio ({$a->submissionurl}) del questionario "{$a->name}" nel corso "{$a->coursename}".';
@@ -522,7 +513,7 @@ $string['thismonth'] = 'questo mese';
 $string['thisresponse'] = 'Questa risposta';
 $string['thisweek'] = 'questa settimana';
 $string['title'] = 'Titolo';
-$string['title_help'] = 'Il titolo del questionario appare nell\'intestazione di ogni pagina del questionario stesso. Per default il titolo corrisponde al nome del questionario ma, ovviamente, è possibile modificarlo sulla base delle proprie necessità.';
+$string['title_help'] = 'Il titolo del questionario appare nell\'intestazione di ogni pagina del questionario stesso. Di default il titolo corrisponde al nome del questionario ma, ovviamente, è possibile modificarlo sulla base delle proprie necessità.';
 $string['today'] = 'oggi';
 $string['total'] = 'Totale';
 $string['type'] = 'Tipo';

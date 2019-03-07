@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_multichoice', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,6 +39,7 @@ $string['choiceno'] = '选项 {$a}';
 $string['choices'] = '可选项';
 $string['clozeaid'] = '键入缺少的词';
 $string['correctansweris'] = '正确答案是：{$a}';
+$string['correctanswersare'] = '正确答案是：{$a}';
 $string['correctfeedback'] = '给任意正确答案';
 $string['errfractionsaddwrong'] = '您选择的正数成绩之和未达到100%<br />它们加起来是{$a}%';
 $string['errfractionsnomax'] = '要有一个选项的分数是100%，这样才可能<br />在这道题中得到满分。';

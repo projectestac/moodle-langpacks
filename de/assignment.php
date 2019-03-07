@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignment', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignment', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   assignment
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['assignment:addinstance'] = 'Aufgabe hinzufügen';
+$string['assignment:addinstance'] = 'Neue Aufgabe hinzufügen';
 $string['assignmentdisabled'] = 'Die alte Aktivität "Aufgabe 2.2" ist deaktiviert.';
 $string['assignment:exportownsubmission'] = 'Eigene Abgabe exportieren';
 $string['assignment:exportsubmission'] = 'Abgabe exportieren';
@@ -42,23 +42,5 @@ $string['page-mod-assignment-view'] = 'Aufgabenhauptseite';
 $string['page-mod-assignment-x'] = 'Jede Aufgabenseite';
 $string['pluginadministration'] = 'Aufgabe 2.2 (deaktiviert) Administration';
 $string['pluginname'] = 'Aufgabe 2.2 (deaktiviert)';
-$string['privacy:markedsubmissionspath'] = 'Markierte Lösungen';
-$string['privacy:metadata:assignmentfilter'] = 'Filtervoreinstellung für Aufgabenlösungen';
-$string['privacy:metadata:assignmentmailinfo'] = 'Voreinstellung für E-Mailinformation bei Aufgabenlösungen';
-$string['privacy:metadata:assignmentperpage'] = 'Voreinstellung für Zahl der Lösungen je Seite';
-$string['privacy:metadata:assignmentquickgrade'] = 'Voreinstellungen für die Schnellbewertung von Lösungen';
-$string['privacy:metadata:assignment_submissions'] = 'Zuordnung von Lösungen zu Aufgaben';
-$string['privacy:metadata:assignment_submissions:data1'] = 'Zuordung von Onlinetexten zu Lösungen';
-$string['privacy:metadata:assignment_submissions:data2'] = 'Der getrackte Status der Aufgabenabgabe';
-$string['privacy:metadata:assignment_submissions:grade'] = 'Bewertungswert für Lösung';
-$string['privacy:metadata:assignment_submissions:mailed'] = 'E-Mailtext der Nachricht zum Status für Lösung';
-$string['privacy:metadata:assignment_submissions:numfiles'] = 'Höchstzahl der Dateien für Lösung';
-$string['privacy:metadata:assignment_submissions:submissioncomment'] = 'Kommentar zur abgegebenen Lösung';
-$string['privacy:metadata:assignment_submissions:teacher'] = 'ID des Trainers, der Lösung bewertet';
-$string['privacy:metadata:assignment_submissions:timecreated'] = 'Datum/Zeit der Lösungserstellung';
-$string['privacy:metadata:assignment_submissions:timemarked'] = 'Datum/Zeit der Bewertung der Lösung';
-$string['privacy:metadata:assignment_submissions:timemodified'] = 'Änderungszeitpunkt der Lösung';
-$string['privacy:metadata:assignment_submissions:userid'] = 'Nutzer-ID für Lösung';
-$string['privacy:submissionpath'] = 'Lösung';
 $string['upgradenotification'] = 'Diese Aktivität basiert auf einem älteren Aufgabenmodul.';
 $string['viewassignmentupgradetool'] = 'Aufgaben-Upgrade anzeigen';

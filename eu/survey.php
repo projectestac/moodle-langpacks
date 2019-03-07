@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'survey', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,8 +96,8 @@ $string['ciq5'] = 'Zerk harritu zaitu gehien?';
 $string['ciq5short'] = 'Une harrigarriena.';
 $string['ciqintro'] = 'Ikastaroko azken gertaerak gogoan dituzula, erantzun ondorengo galderei?';
 $string['ciqname'] = 'Gertaera larriak';
-$string['clicktocontinue'] = 'Klik egin hemen jarraitzeko';
-$string['clicktocontinuecheck'] = 'Klik egin hemen aztertu eta jarraitzeko';
+$string['clicktocontinue'] = 'Egin klik hemen jarraitzeko';
+$string['clicktocontinuecheck'] = 'Egin klik hemen aztertu eta jarraitzeko';
 $string['colles1'] = 'Nire ikaste-jarduna interesatzen zaizkidan gaietara bideratuta dago.';
 $string['colles10'] = 'Beste ikasleei bere ideiak azaltzeko eskatzen diet.';
 $string['colles10short'] = 'Azalpenak eskatzen ditut.';
@@ -191,7 +191,7 @@ Eskerrik asko.';
 $string['collespname'] = 'COLLES (Nahia)';
 $string['completionsubmit'] = 'Ikasleak jarduera honetara bidalketa egin behar du osatutzat emateko.';
 $string['customintro'] = 'Deskribapena';
-$string['deleteallanswers'] = 'Hausnarketaren erantzun guztiak ezabatu';
+$string['deleteallanswers'] = 'Ezabatu hausnarketen erantzun guztiak';
 $string['deleteanalysis'] = 'Ezabatu erantzunen analisiak';
 $string['done'] = 'Eginda';
 $string['download'] = 'Jaitsi';
@@ -208,12 +208,8 @@ $string['guestsnotallowed'] = 'Soilik matrikulatutako erabiltzaileak bidali ditz
 $string['howlong'] = 'Zenbat denbora behar izan duzu inkesta hau betetzeko?';
 $string['howlongoptions'] = '<1 min, 1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,>10 min';
 $string['ifoundthat'] = 'Hau aurkitu dut';
-$string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa hausnarketetan';
-$string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Hausnarketa motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
-$string['indicator:socialbreadth'] = 'Gaitasun soziala hausnarketetan';
-$string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Hausnarketa motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['introtext'] = 'Sarrera-testua';
-$string['invalidsurveyid'] = 'HAusnarketaren IDa ez zen zuzena';
+$string['invalidsurveyid'] = 'Hausnarketaren IDa ez zen egokia';
 $string['invalidtmptid'] = 'Txantiloiaren IDa ez da baliozkoa';
 $string['ipreferthat'] = 'Nahiago dut';
 $string['modulename'] = 'Hausnarketa';
@@ -235,15 +231,6 @@ $string['pluginname'] = 'Hausnarketa';
 $string['preferred'] = 'Lehenetsia';
 $string['preferredclass'] = 'Lehenetsitako klasea';
 $string['preferredstudent'] = '{$a} lehenetsia';
-$string['privacy:metadata:analysis'] = 'Banakako erantzunen analisiaren erregistro bat';
-$string['privacy:metadata:analysis:notes'] = 'Banakako erantzunekin batera gordetako oharrak.';
-$string['privacy:metadata:analysis:userid'] = 'Erantzuna zein erabiltzailerena den';
-$string['privacy:metadata:answers'] = 'Hausnarketei emandako erantzunen bilduma bat.';
-$string['privacy:metadata:answers:answer1'] = 'Galderaren erantzuna gordetzeko eremua.';
-$string['privacy:metadata:answers:answer2'] = 'Galderaren erantzuna gordetzeko eremua gehigarria.';
-$string['privacy:metadata:answers:question'] = 'Galdera';
-$string['privacy:metadata:answers:time'] = 'Erantzuna eman zeneko unea.';
-$string['privacy:metadata:answers:userid'] = 'Erantzuna eman zuen erabiltzailea.';
 $string['question'] = 'Galdera';
 $string['questions'] = 'Galderak';
 $string['questionsnotanswered'] = 'Aukera anitzeko galderaren batek ez du erantzunik.';
@@ -255,17 +242,17 @@ $string['scaleagree5'] = 'Erabat aurka,Aurka,Ez ados ez aurka,Ados,Erabat ados';
 $string['scales'] = 'Eskalak';
 $string['scaletimes5'] = 'Ia inoiz ez,Oso gutxitan,Batzuetan,Sarritan,Ia beti';
 $string['search:activity'] = 'Hausnarketa - jardueraren informazioa';
-$string['seemoredetail'] = 'Klik egin hemen xehetasun gehiago ikusteko';
+$string['seemoredetail'] = 'Egin klik hemen xehetasun gehiago ikusteko';
 $string['selectedquestions'] = 'Eskala batetik aukeratutako galderak, ikasle guztiak';
 $string['summary'] = 'Laburpena';
-$string['survey:addinstance'] = 'Gehitu beste hausnarketa bat';
+$string['survey:addinstance'] = 'Gehitu hausnarketa berria';
 $string['surveycompleted'] = 'Hausnarketa hau bukatu duzu. Beheko grafikoak zure erantzunen eta klasearen erantzunen batez bestekoen arteko konparaketa da.';
 $string['surveycompletednograph'] = 'Bete duzu hausnarketa hau';
 $string['survey:download'] = 'Erantzunak jaitsi';
 $string['surveygraph'] = 'Hausnarketaren grafikoa';
 $string['surveyname'] = 'Hausnarketaren izena';
 $string['survey:participate'] = 'Hausnarketari erantzun';
-$string['survey:readresponses'] = 'Erantzunak ikusi';
+$string['survey:readresponses'] = 'Ikusi erantzunak';
 $string['surveysaved'] = 'Hausnarketa gordeta';
 $string['surveytype'] = 'Hausnarketa mota';
 $string['surveytype_help'] = '3 inkesta mota daude eskuragarri:

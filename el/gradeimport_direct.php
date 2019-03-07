@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeimport_direct', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradeimport_direct', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   gradeimport_direct
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['direct:view'] = 'Εισαγωγή βαθμών από CSV';
 $string['pluginname'] = 'Επικόλληση από Φύλλο εργασίας';
+$string['userdata'] = 'Βοήθεια στην αντιγραφή δεδομένων σε αυτή τη φόρμα.';
+$string['userdata_help'] = 'Οι βαθμοί μπορούν να αντιγραφούν και να επικολληθούν από ένα λογιστικό φύλλο στο βαθμολόγιο. Το λογιστικό φύλλο θα πρέπει να περιέχει μια στήλη που να περιέχει δεδομένα ταυτότητας χρήστη - είτε όνομα χρήστη, είτε αναγνωριστικό αριθμό, είτε διεύθυνση ηλεκτρονικού ταχυδρομείου. Κάθε στήλη για εισαγωγή θα πρέπει να έχει μια κεφαλίδα στήλης.';

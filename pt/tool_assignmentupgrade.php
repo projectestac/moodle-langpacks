@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_assignmentupgrade', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_assignmentupgrade', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_assignmentupgrade
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,7 @@ $string['batchupgrade'] = 'Atualizar vários trabalhos';
 $string['confirmbatchupgrade'] = 'Confirmar a atualização em massa de vários trabalhos';
 $string['conversioncomplete'] = 'Trabalho convertido';
 $string['conversionfailed'] = 'A conversão do trabalho não ocorreu com sucesso. O registo da atualização foi: <br />{$a}';
-$string['listnotupgraded'] = 'Listar trabalhos que ainda não tenham sido atualizados';
+$string['listnotupgraded'] = 'Listar trabalhos que ainda não foram atualizados';
 $string['listnotupgraded_desc'] = 'Pode atualizar trabalhos individuais a partir daqui';
 $string['noassignmentsselected'] = 'Sem trabalhos selecionados';
 $string['noassignmentstoupgrade'] = 'Não existem trabalhos para atualizar';
@@ -45,7 +45,6 @@ $string['notsupported'] = '';
 $string['notupgradedintro'] = 'Esta página lista os trabalhos criados numa versão mais antiga do Moodle e que não foram atualizados para o novo módulo de atividade Trabalho do Moodle 2.3. Nem todos os trabalhos podem ser atualizados - se eles foram criados com um subtipo personalizado, então esse subtipo precisa de ser atualizado para o novo formato de atribuição do módulo para completar a atualização.';
 $string['notupgradedtitle'] = 'Trabalhos não atualizados';
 $string['pluginname'] = 'Ajudante de atualização de trabalhos';
-$string['privacy:metadata:preference:perpage'] = 'Os registos de atualização de trabalhos por preferência de página configurada para o utilizador.';
 $string['select'] = 'Selecionar';
 $string['submissions'] = 'Trabalhos';
 $string['supported'] = 'Atualizar';

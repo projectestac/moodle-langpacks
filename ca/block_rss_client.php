@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_rss_client', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   block_rss_client
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,7 +54,7 @@ $string['feeddeleted'] = 'S\'ha suprimit un canal d\'informació';
 $string['feeds'] = 'Canals d\'informació de notícies';
 $string['feedsaddedit'] = 'Afegeix/edita canals';
 $string['feedsconfigurenewinstance'] = 'Feu clic aquí per configurar la visualització d\'RSS en aquest bloc.';
-$string['feedsconfigurenewinstance2'] = 'Feu clic en la icona d\'edició per configurar aquest bloc per visualitzar canals RSS.';
+$string['feedsconfigurenewinstance2'] = 'Feu clic a la icona d\'edició per configurar aquest bloc per visualitzar canals RSS.';
 $string['feedupdated'] = 'S\'ha actualitzat un canal d\'informació';
 $string['feedurl'] = 'URL del canal';
 $string['findmorefeeds'] = 'Cerca més canals RSS';

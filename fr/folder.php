@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'folder', language 'fr', branch 'MOODLE_32_STABLE'
  *
  * @package   folder
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['bynameondate'] = 'par {$a->name} – {$a->date}';
 $string['contentheader'] = 'Contenu';
 $string['display'] = 'Afficher le contenu du dossier';
 $string['display_help'] = 'Si vous choisissez d\'afficher le contenu du dossier sur la page de cours, il n\'y aura pas de lien vers une page séparée.
-La description ne sera affichée que si l\'option « Afficher la description sur la page du cours » es cochée.<br />En outre, la consultation par les participants ne pourra pas être enregistrée dans l\'historique.';
+La description ne sera affichée que si l\'option « Afficher la description sur la page du cours » es cochée.<br />En outre, la consultation par les participants ne pourra pas être enregistrée dans le journal.';
 $string['displayinline'] = 'Sur la page du cours';
 $string['displaypage'] = 'Sur une page séparée';
 $string['dnduploadmakefolder'] = 'Décompresser les fichiers et créer un dossier';
@@ -40,10 +40,6 @@ $string['folder:addinstance'] = 'Ajouter un dossier';
 $string['foldercontent'] = 'fichiers et sous-dossiers';
 $string['folder:managefiles'] = 'Gérer les fichiers dans le module dossier';
 $string['folder:view'] = 'Accéder au contenu des dossiers';
-$string['indicator:cognitivedepth'] = 'Dossier : aspect cognitif';
-$string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une ressource Dossier.';
-$string['indicator:socialbreadth'] = 'Dossier : aspect social';
-$string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une ressource Dossier.';
 $string['maxsizetodownload'] = 'Taille maximale des dossiers à télécharger (Mo)';
 $string['maxsizetodownload_help'] = 'La taille maximale d\'un dossier pouvant être téléchargé sous forme d\'une archive ZIP. Si 0 est indiqué, la taille du dossier est illimitée.';
 $string['modulename'] = 'Dossier';
@@ -60,7 +56,6 @@ $string['page-mod-folder-view'] = 'Page principale du module dossier';
 $string['page-mod-folder-x'] = 'Toute page du module dossier';
 $string['pluginadministration'] = 'Gestion des dossiers';
 $string['pluginname'] = 'Dossier';
-$string['privacy:metadata'] = 'Le plugin mod_folder n\'enregistre aucune donnée personnelle.';
 $string['search:activity'] = 'Dossier';
 $string['showdownloadfolder'] = 'Afficher le bouton de téléchargement de dossier';
 $string['showdownloadfolder_help'] = 'Si ce réglage est activé, un bouton sera affiché permettant de télécharger une archive ZIP contenant tous les fichiers d\'un dossier.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_social_activities', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_social_activities', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   block_social_activities
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Κοινωνικές Δραστηριότητες';
+$string['pluginname'] = 'Κοινωνικές δραστηριότητες';
+$string['social_activities:addinstance'] = 'Προσθήκη ενός μπλοκ «Κοινωνικές δραστηριότητες»';

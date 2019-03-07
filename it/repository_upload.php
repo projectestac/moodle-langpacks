@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_upload', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_upload', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_upload
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,4 +36,4 @@ $string['upload_error_invalid_file'] = 'Il file \'{$a}\' è vuoto oppure è una 
 $string['upload_error_no_file'] = 'Nessun file è stato caricato.';
 $string['upload_error_no_tmp_dir'] = 'Manca una cartella temporanea per il PHP';
 $string['upload_error_partial'] = 'Il file è stato caricato solo in parte.';
-$string['upload:view'] = 'Usare Upload file nel file picker';
+$string['upload:view'] = 'Usare File upload nel file picker';

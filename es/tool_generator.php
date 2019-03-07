@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_generator', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_generator', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_generator
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['coursesize_5'] = 'XXL (~20GB; creado en ~4 horas)';
 $string['coursewithoutusers'] = 'El curso seleccionado no tiene usuarios';
 $string['createcourse'] = 'Crear curso';
 $string['creating'] = 'Creando curso';
-$string['done'] = 'hecho ({$a}s)';
+$string['done'] = 'finalizado  ({$a}s)';
 $string['downloadusersfile'] = 'Descargar fichero de usuarios';
 $string['error_noforumdiscussions'] = 'El curso seleccionado no contiene foros de discusión';
 $string['error_noforuminstances'] = 'El curso seleccionado no contiene instancias de foros';

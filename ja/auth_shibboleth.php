@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_shibboleth', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth_shibboleth', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   auth_shibboleth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['auth_shib_auth_method'] = '認証方法名';
-$string['auth_shib_auth_method_description'] = 'Shibboleth認証方法に関して、あなたのユーザに知られている名称を入力してください。あなたのシボレスフェデレーションの名称を使用することもできます 例) <tt>SWITCHaai Login</tt>または<tt>InCommon Login</tt>または同様の名称。';
+$string['auth_shib_auth_method_description'] = 'あなたのユーザになじみのあるShibboleth認証方法の名称を提供してください。あなたのシボレスフェデレーションの名称を使用することもできます 例) <tt>SWITCHaai Login</tt>または<tt>InCommon Login</tt>または同様の名称。';
 $string['auth_shibbolethdescription'] = 'この方法を使用することにより、<a href="http://shibboleth.internet2.edu/">Shibboleth</a>を使用してユーザが作成および認証されます。<br />あなたが使用しているMoodleにShibbolethを設定するには<a href="../auth/shibboleth/README.txt">README</a>をご覧ください。';
 $string['auth_shibboleth_errormsg'] = 'あなたがメンバーになっている組織を選択してください!';
 $string['auth_shibboleth_login'] = 'Shibbolethログイン';
@@ -43,7 +43,6 @@ $string['auth_shib_idp_list'] = 'アイデンティティプロバイダ';
 $string['auth_shib_idp_list_description'] = 'ログインページでユーザが選択できるようアイデンティティプロバイダのエンティティIDリストを入力してください。<br />それぞれの行ではアイデンティティプロバイダのエンティティIDにカンマ区切りのタプル (tuple) を追加してください (詳細はShibbolethメタデータファイルをご覧ください)。アイデンティティプロバイダ名がドロップダウンリストに表示されます。<br />あなたのMoodleが複数フェデレーション設定の一部にある場合、任意の第3パラメータとしてShibbolethセッションイニシエータのロケーションを追加することができます。';
 $string['auth_shib_instructions'] = 'あなたの機関がShibbolethをサポートしている場合、Shibboleth経由のアクセスには<a href="{$a}">Shibbolethログイン</a>を使用してください。 <br />Shibbolethをサポートしていない場合、ここに表示される通常ログインを使用してください。';
 $string['auth_shib_instructions_help'] = 'Shibbolethに関してあなたのユーザに提示する説明文です。 これはログインページの説明セクションに表示されます。Shibbolethユーザが簡単にログインできるよう「<b>{$a}</b>」へのリンクを含んでください。';
-$string['auth_shib_instructions_key'] = 'ログインインストラクション';
 $string['auth_shib_integrated_wayf'] = 'Moodle WAYFサービス';
 $string['auth_shib_integrated_wayf_description'] = 'この設定を有効にした場合、Shibbolethで設定されたWAYFサービスを使用するのではなく、Moodleは独自のWAYFサービスを使用します。この代替ログインページのため、Moodleはユーザがアイデンティティプロバイダを選択できるドロップダウンリストを表示します。';
 $string['auth_shib_logout_return_url'] = '代替ログアウト戻りURL';
@@ -55,7 +54,6 @@ $string['auth_shib_only'] = 'Shibbolethのみ';
 $string['auth_shib_only_description'] = 'Shibboleth認証を強制する場合、このオプションをチェックしてください。';
 $string['auth_shib_username_description'] = 'Moodleユーザ名として使用されるShibbolethウェブサーバ環境のユーザ名';
 $string['pluginname'] = 'Shibboleth';
-$string['privacy:metadata'] = 'Shibboleth認証プラグインはどのような個人データも保存しません。';
 $string['shib_invalid_account_error'] = 'あなたは正常にShibboleth認証できたようですがあなたの有効なユーザ名がMoodleにはありません。あなたのアカウントは存在しないか利用停止にされている可能性があります。';
 $string['shib_no_attributes_error'] = 'あなたはShibbolethによりユーザ認証したようですが、Moodleはユーザ属性を受信していません。Moodleが稼動しているサービスプロバイダに対して必要な属性 ({$a}) をアイデンティティプロバイダが発行しているか確認またはこのサーバの管理者にご連絡ください。';
 $string['shib_not_all_attributes_error'] = 'あなたの場合、存在していないShibboleth属性をMoodleが必要としているようです。属性は次のとおりです: {$a}<br />このサーバの管理者またはアイデンティティプロバイダにご連絡ください。';

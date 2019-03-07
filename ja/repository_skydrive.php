@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_skydrive', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_skydrive', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_skydrive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,16 +27,14 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['cachedef_foldername'] = 'フォルダ名キャッシュ';
 $string['clientid'] = 'クライアントID';
-$string['configplugin'] = 'Microsoft OneDriveを設定する (レガシー)';
-$string['deprecatedwarning'] = '警告: このリポジトリプラグインに使用されているAPIはMicrosoftにより廃止されました。そのため、結果として動作しなくなります。新しい「Microsoft OneDrive」リポジトリに移行してください。';
+$string['configplugin'] = 'Microsoft OneDriveを設定する';
 $string['oauthinfo'] = '<p>このプラグインを使用するためにはあなたのサイトを<a href="https://account.live.com/developers/applications">Microsoft</a>に登録する必要があります。</p>
 
-<p>登録処理の一環としてあなたは「リダイレクトドメイン」として次のURLを入力する必要があります:</p>
+<p>登録処理の一環としてあなたは「リダイレクトドメイン」に次のURLを入力する必要があります:</p>
 
 <p>{$a->callbackurl}</p>
 
-<p>登録した場合、あなたにはここで入力できるクライアントIDおよび秘密鍵が提供されます。</p>';
-$string['pluginname'] = 'Microsoft OneDrive (レガシー)';
-$string['privacy:metadata'] = 'Microsoft OneDrive (レガシー) リポジトリプラグインはどのような個人データも保存しません。しかし、ユーザデータをMoodleからリモートシステムに転送します。';
+<p>登録完了後、あなたにはここで入力できるクライアントIDおよび秘密鍵が提供されます。</p>';
+$string['pluginname'] = 'Microsoft OneDrive';
 $string['secret'] = '秘密鍵';
-$string['skydrive:view'] = 'OneDriveを表示する (レガシー)';
+$string['skydrive:view'] = 'OneDriveを表示する';

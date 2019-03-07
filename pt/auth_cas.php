@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_cas', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth_cas', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   auth_cas
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['accesNOCAS'] = 'outros utilizadores';
 $string['auth_cas_auth_user_create'] = 'Criar utilizadores externamente';
 $string['auth_cas_baseuri'] = 'URL do servidor (vazio se não houver baseUri)<br />Por exemplo, se o servidor CAS responder a servidor.dominio.pt/CAS/ então<br />cas_baseuri = CAS/';
 $string['auth_cas_baseuri_key'] = 'URI base';
-$string['auth_cas_broken_password'] = 'Não pode prosseguir sem modificar a sua senha. No entanto não existe nenhuma página disponível para o fazer. Contacte por favor o Administrador do Moodle.';
+$string['auth_cas_broken_password'] = 'Não pode prosseguir sem modificar a sua senha. No entanto não existe nenhuma página disponível para o fazer. Por favor, contacte o Administrador do Moodle.';
 $string['auth_cas_cantconnect'] = 'A parte LDAP do módulo CAS não consegue ligar ao servidor: {$a}';
 $string['auth_cas_casversion'] = 'Versão do protocolo CAS';
 $string['auth_cas_certificate_check'] = 'Definir como "Sim" se se pretender validar o certificado do servidor.';
@@ -76,5 +76,4 @@ $string['auth_cas_version'] = 'Versão do protocolo CAS a usar';
 $string['CASform'] = 'Escolha do método de autenticação';
 $string['noldapserver'] = 'Não existem servidores LDAP configurados para CAS! A sincronização está desativa..';
 $string['pluginname'] = 'Servidor CAS (SSO)';
-$string['privacy:metadata'] = 'O módulo de autenticação Servidor CAS (SSO) não armazena nenhum dado pessoal.';
 $string['synctask'] = 'Tarefa de sincronização dos utilizadores de CAS';

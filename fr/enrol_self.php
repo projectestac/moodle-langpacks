@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_self', language 'fr', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -91,7 +91,6 @@ $string['passwordinvalid'] = 'Clef d\'inscription incorrecte. Veuillez réessaye
 $string['passwordinvalidhint'] = 'Cette clef d\'inscription est incorrecte, veuillez réessayer<br />(La clef commence par « {$a} ».)';
 $string['pluginname'] = 'Auto-inscription';
 $string['pluginname_desc'] = 'Le plugin d\'auto-inscription permet aux utilisateurs de choisir les cours qu\'ils veulent suivre. Les cours peuvent être protégés par une clef d\'inscription. À l\'interne, l\'inscription est effectuée au moyen du plugin Inscription manuelles, qui doit être activé pour le même cours.';
-$string['privacy:metadata'] = 'Le plugin Auto-inscription n\'enregistre aucune donnée personnelle.';
 $string['requirepassword'] = 'Exiger la clef d\'inscription';
 $string['requirepassword_desc'] = 'Exiger la clef d\'inscription dans les nouveaux cours et empêcher la suppression de la clef d\'inscription des cours existants.';
 $string['role'] = 'Rôle attribué par défaut';

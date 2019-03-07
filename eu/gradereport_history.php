@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_history', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradereport_history', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   gradereport_history
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,7 @@ $string['deleteditemid'] = 'Ezabatu {$a} id duen elementua';
 $string['errajaxsearch'] = 'Errorea erabiltzaileak bilatzean';
 $string['eventgradereportviewed'] = 'Kalifikazio-historiaren txostena ikusi da';
 $string['excluded'] = 'Utzi kanpoan kalkuluetatik';
-$string['exportfilename'] = 'grade_history';
+$string['exportfilename'] = 'kalifikazio_historia';
 $string['feedbacktext'] = 'Feedbackaren testua';
 $string['finishselectingusers'] = 'Amaitu erabiltzaileen aukeraketa';
 $string['foundnusers'] = '{$a} erabiltzaile aurkitu dira';
@@ -42,13 +42,12 @@ $string['foundoneuser'] = 'Erabiltzaile bat aurkitu da';
 $string['gradenew'] = 'Kalifikazioa berrikusi da';
 $string['gradeold'] = 'Jatorrizko kalifikazioa';
 $string['grader'] = 'Kalifikatzailea';
-$string['historyperpage'] = 'Historia-sarrerak orriko';
-$string['historyperpage_help'] = 'Ezarpen honek zehazten du zenbat historia-sarrera erakutsiko diren orriko historia-txostenean.';
+$string['historyperpage'] = 'Historia-sarrera kopurua orriko';
+$string['historyperpage_help'] = 'Ezarpen honek historia-txostenean orri bakoitzean erakutsiko den historia-sarrera kopurua zehazten du .';
 $string['history:view'] = 'Ikusi kalifikazio-historia';
 $string['loadmoreusers'] = 'Igo erabiltzaile gehiago...';
 $string['pluginname'] = 'Kalifikazio-historia';
 $string['preferences'] = 'Kalifikazio-historiaren hobespenak';
-$string['privacy:metadata'] = 'Kalifikazio-historia txostenak soilik beste kokapenetan gordetako datuak erakusten ditu.';
 $string['revisedonly'] = 'Berrikusitako kalifikazioak bakarrik';
 $string['revisedonly_help'] = 'Erakutsi soilik berrikusi diren kalifikazioak.
 

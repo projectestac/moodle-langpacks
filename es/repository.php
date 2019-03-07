@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository', language 'es', branch 'MOODLE_32_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -188,8 +188,8 @@ $string['on'] = 'Activado y visible';
 $string['openpicker'] = 'Seleccione un archivo...';
 $string['operation'] = 'Operación';
 $string['original'] = 'Original';
-$string['overwrite'] = 'Sobreescribir';
-$string['overwriteall'] = 'Sobre-escribir todo';
+$string['overwrite'] = 'Sobrescribir';
+$string['overwriteall'] = 'Sobrescribir todo';
 $string['path'] = 'Ruta';
 $string['plugin'] = 'Plugins de repositorio';
 $string['pluginerror'] = 'Errores en el plugin del repositorio';

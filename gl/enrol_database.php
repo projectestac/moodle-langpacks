@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_database', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['database:config'] = 'Configurar as instancias de matriculación da base de datos';
 $string['database:unenrol'] = 'Desmatricular os usuarios suspensos';
 $string['dbencoding'] = 'Codificación da base de datos';
 $string['dbhost'] = 'Equipo da base de datos';
@@ -63,6 +64,8 @@ $string['remotecoursefield'] = 'Campo do curso remoto';
 $string['remotecoursefield_desc'] = 'O nome do campo na táboa remota que estamos a usar para casar entradas na táboa do curso.';
 $string['remoteenroltable'] = 'Táboa de matrícula de usuarios remota';
 $string['remoteenroltable_desc'] = 'Especifique o nome da táboa que contén a lista de matrícula de usuarios. De estar baleira, significa que non se sincroniza a matrícula de usuarios.';
+$string['remoteotheruserfield'] = 'Campo de outro usuario remoto';
+$string['remoteotheruserfield_desc'] = 'O nome do campo na táboa remota que se está a usar para sinalar as asignacións de rol «doutro usuario».';
 $string['remoterolefield'] = 'Campo de rol remoto';
 $string['remoterolefield_desc'] = 'O nome do campo na táboa remota que se está a usar para casar entradas na táboa de roles.';
 $string['remoteuserfield'] = 'Campo de usuario remoto';

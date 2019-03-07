@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'forum', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -84,15 +84,12 @@ $string['cleanreadtime'] = 'Ora per spuntare come letti i messaggi vecchi';
 $string['clicktosubscribe'] = 'Non hai sottoscritto questa discussione, Click per sottoscriverla.';
 $string['clicktounsubscribe'] = 'Hai sottoscritto la discussione. Click per revocare la sottoscrizione.';
 $string['completiondiscussions'] = 'L\'utente deve iniziare il seguente numero di discussioni:';
-$string['completiondiscussionsdesc'] = 'Lo studente deve avviare almeno il seguente numero di discussioni: {$a}';
 $string['completiondiscussionsgroup'] = 'Numero minimo discussioni';
 $string['completiondiscussionshelp'] = 'è necessario un numero minimo di discussioni';
 $string['completionposts'] = 'L\'utente deve effettuare il seguente numero di discussioni o di interventi:';
-$string['completionpostsdesc'] = 'L\'utente deve effettuare almeno {$a} discussioni o interventi';
 $string['completionpostsgroup'] = 'Numero minimo interventi';
 $string['completionpostshelp'] = 'è necessario un numero minimo di discussioni o di interventi';
 $string['completionreplies'] = 'L\'utente deve inviare il seguente numero di risposte:';
-$string['completionrepliesdesc'] = 'L\'utente deve effettuare almeno {$a} interventi';
 $string['completionrepliesgroup'] = 'Numero minimo risposte';
 $string['completionreplieshelp'] = 'è necessario un numero minimo di interventi';
 $string['configcleanreadtime'] = 'L\'ora del giorno in cui la tabella \'lettura\' vien ripulita dai messaggi vecchi.';
@@ -105,11 +102,10 @@ $string['configmanydiscussions'] = 'Numero massimo di discussioni visualizzabili
 $string['configmaxattachments'] = 'Valore di default del numero massimo di allegati consentiti per ogni intervento.';
 $string['configmaxbytes'] = 'Dimensione massima degli allegati per tutti i forum del sito (il valore è anche soggetto a limitazioni imposte a livello di corso e ad altre impostazioni locali)';
 $string['configoldpostdays'] = 'Numero di giorni trascorsi i quali tutti i messaggi vecchi verranno considerati come letti.';
-$string['configreplytouser'] = 'Nelle email inviate dai forum, per default compare in chiaro l\'email del mittente. In questo modo sarà possibile rispondere direttamente anche senza intervenire nel forum. Indipendentemente da questa impostazione un utente può comunque mantenere riservato il proprio indirizzo email usando l\'apposita impostazione presente nel profilo utente.';
+$string['configreplytouser'] = 'Nelle email inviate dai forum, di default compare in chiaro l\'email del mittente. In questo modo sarà possibile rispondere direttamente anche senza intervenire nel forum. Indipendentemente da questa impostazione un utente può comunque mantenere riservato il proprio indirizzo email usando l\'apposita impostazione presente nel profilo utente.';
 $string['configrssarticlesdefault'] = 'Imposta il numero di default di articoli (interventi o discussioni) quando i feed RSS sono abilitati.';
 $string['configrsstypedefault'] = 'Imposta il tipo di attività di default quando i feed RSS sono abilitati.';
 $string['configshortpost'] = 'Gli interventi al di sotto del numero di caratteri specificato (escludendo i tag HTML) saranno considerati "brevi".';
-$string['configsubscriptiontype'] = 'Impostazioni di default della sottoscrizione';
 $string['configtrackingtype'] = 'Il tipo di evidenziamento dei messaggi di default.';
 $string['configtrackreadposts'] = 'Impostare a \'Si\' se si desidera tracciare lo stato "letto/non letto" per ciascun utente.';
 $string['configusermarksread'] = 'Con "Si", l\'utente deve spuntare manualmente un intervento come "letto". Con "No", l\'intervento viene automaticamente considerato "letto" all\'atto della visualizzazione.';
@@ -120,7 +116,7 @@ $string['confirmunsubscribediscussion'] = 'Sei sicuro di revocare la sottoscrizi
 $string['couldnotadd'] = 'Non è possibile aggiungere l\'intervento a causa di un errore sconosciuto.';
 $string['couldnotdeletereplies'] = 'Spiacente, l\'intervento non può essere eliminato in quanto altri utenti hanno già risposto ad esso.';
 $string['couldnotupdate'] = 'Non è possibile aggiornare l\'intervento a causa di un errore sconosciuto.';
-$string['crontask'] = 'Mail dai forum e operazioni di manutenzione';
+$string['crontask'] = 'Invio mail dai forum e operazioni di manutenzione';
 $string['delete'] = 'Elimina';
 $string['deleteddiscussion'] = 'L\'argomento di discussione è stato eliminato.';
 $string['deletedpost'] = 'L\'intervento è stato eliminato.';
@@ -242,7 +238,7 @@ $string['forum:exportdiscussion'] = 'Esportare intera discussione';
 $string['forum:exportownpost'] = 'Esportare propri interventi';
 $string['forum:exportpost'] = 'Esportare intervento';
 $string['forumintro'] = 'Descrizione';
-$string['forum:managesubscriptions'] = 'Gestire sottoscrittori';
+$string['forum:managesubscriptions'] = 'Gestire le sottoscrizioni';
 $string['forum:movediscussions'] = 'Spostare le discussioni';
 $string['forumname'] = 'Nome del forum';
 $string['forum:pindiscussions'] = 'Mettere in evidenza discussioni';
@@ -260,10 +256,10 @@ $string['forumtrackednot'] = 'Gli interventi non letti non sono tracciati';
 $string['forumtype'] = 'Tipo di forum';
 $string['forumtype_help'] = 'Sono disponibili 5 tipi di forum:
 
-* Forum monotematico - Forum costituito da un solo argomento di discussione, tutti i partecipanti possono intervenire
-* Ciascuno avvia una sola discussione - Ogni partecipante può avviare un\'unica discussione su un argomento e gli altri partecipanti possono intervenire.
-* Domande e Risposte* - Il forum Domande e Risposte obbliga i partecipanti ad intervenire prima di poter visualizzare gli interventi degli altri.
-* Forum standard visualizzato in stile blog - Un forum aperto dove chiunque può avviare discussioni e visualizzato con link "Discuti questo argomento"
+* Forum monotematico - Forum costituito da un solo argomento di discussione, tutti i partecipanti possono intervenire.
+* Ciascun utente avvia una sola discussione - Ogni partecipante può avviare un\'unica discussione su un argomento e gli altri partecipanti possono intervenire.
+* Domande e Risposte - Il forum Domande e Risposte obbliga i partecipanti ad intervenire prima di poter visualizzare gli interventi degli altri.
+* Forum standard visualizzato in stile blog - Un forum aperto dove chiunque può avviare discussioni in qualsiasi momento e nel quale gli argomenti di discussione sono visualizzati su una pagina con link "Discuti questo argomento".
 * Forum standard per uso generale - Forum aperto dove tutti i partecipanti in qualsiasi momento possono avviare discussioni';
 $string['forum:viewallratings'] = 'Visualizzare voti grezzi dati da ciascuno';
 $string['forum:viewanyrating'] = 'Visualizzare voti totali ricevuti da ciascuno';
@@ -275,10 +271,6 @@ $string['forum:viewsubscribers'] = 'Visualizzare i sottoscrittori';
 $string['generalforum'] = 'Forum standard per uso generale';
 $string['generalforums'] = 'Forum per uso generale';
 $string['hiddenforumpost'] = 'Intervento nascosto';
-$string['indicator:cognitivedepth'] = 'Forum cognitivo';
-$string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività \'forum\'.';
-$string['indicator:socialbreadth'] = 'Forum sociale';
-$string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività \'forum\'.';
 $string['inforum'] = 'in {$a}';
 $string['introblog'] = 'I post di questo forum sono stati copiati automaticamente dai blog degli utenti iscritti al corso poiché tali interventi blog non sono più disponibili';
 $string['intronews'] = 'Annunci e news di carattere generale';
@@ -299,8 +291,6 @@ $string['lockdiscussionafter_help'] = 'Le discussioni possono essere bloccate au
 Gli utenti con il privilegio di intervenire in discussioni bloccate potranno sbloccare la discussione semplicemente inviando una risposta.';
 $string['longpost'] = 'Intervento lungo';
 $string['mailnow'] = 'Invia l\'intervento immediatamente senza attendere il tempo per la modifica.';
-$string['managesubscriptionsoff'] = 'Termina gestione sottoscrizioni';
-$string['managesubscriptionson'] = 'Gestione sottoscrittori';
 $string['manydiscussions'] = 'Discussioni per pagina';
 $string['markalldread'] = 'Segna come letti tutti gli interventi in questa discussione.';
 $string['markallread'] = 'Segna come letti tutti gli interventi in questo forum.';
@@ -320,7 +310,7 @@ $string['maxtimehaspassed'] = 'Spiacente, il tempo massimo concesso per modifica
 $string['message'] = 'Messaggio';
 $string['messageinboundattachmentdisallowed'] = 'Non è stato possibile inserire la tua risposta nel forum poiché hai allegato un file ma il forum non consente gli allegati.';
 $string['messageinboundfilecountexceeded'] = 'Non è stato possibile inserire la tua risposta nel forum poiché hai allegato più file di quanti ne consenta il forum ({$a->forum->maxattachments}).';
-$string['messageinboundfilesizeexceeded'] = 'Non è stato possibile inserire la tua risposta nel forum poiché la dimensione totale degli allegati ({$a->filesize}) è superiore alla dimensione massima consentita nell forum ({$a->maxbytes}).';
+$string['messageinboundfilesizeexceeded'] = 'Non è stato possibile inserire la risposta nel forum poiché la dimensione totale degli allegati ({$a->filesize}) è superiore alla dimensione massima consentita nel forum ({$a->maxbytes}).';
 $string['messageinboundforumhidden'] = 'Non è stato possibile inserire la tua risposta nel forum poiché il forum non è al momento disponibile.';
 $string['messageinboundnopostforum'] = 'Non è stato possibile inserire la tua risposta nel forum poiché non sei autorizzato ad intervenire nel forum {$a->forum->name}.';
 $string['messageinboundthresholdhit'] = 'Non è stato possibile inserire la tua risposta nel forum poiché hai superato la soglia massima interventi impostata nel forum.';
@@ -446,7 +436,6 @@ $string['qandaforum'] = 'Forum Domande e Risposte';
 $string['qandanotify'] = 'Questo è un forum Domande e Risposte. Per poter vedere le risposte date dagli altri partecipanti  devi prima rispondere a tua volta..';
 $string['re'] = 'Re:';
 $string['readtherest'] = 'Leggi il resto dell\'argomento';
-$string['removeallforumtags'] = 'Rimuovi tutti i tag del forum';
 $string['replies'] = 'Repliche';
 $string['repliesmany'] = '{$a} risposte finora';
 $string['repliesone'] = '{$a} risposta finora';
@@ -481,7 +470,6 @@ $string['searchphrase'] = 'Nell\'intervento deve apparire esattamente questa fra
 $string['search:post'] = 'Forum - Interventi';
 $string['searchresults'] = 'Risultati delle ricerche';
 $string['searchsubject'] = 'Queste parole devono apparire nell\'oggetto';
-$string['searchtags'] = 'E\' taggato con';
 $string['searchuser'] = 'Questo nome deve corrispondere all\'autore';
 $string['searchuserid'] = 'Il Moodle ID dell\'autore';
 $string['searchwhichforums'] = 'Scegliere in quali forum cercare';
@@ -501,6 +489,7 @@ $string['subscribediscussion'] = 'Sottoscrivi questa discussione';
 $string['subscribeenrolledonly'] = 'Spiacente, solo gli utenti iscritti possono sottoscrivere i forum e ricevere notifiche di nuovi interventi.';
 $string['subscribenone'] = 'Revoca tutte le sottoscrizioni di questo forum';
 $string['subscribers'] = 'Sottoscrittori';
+$string['subscribersto'] = 'Sottoscrittori di "{$a->name}"';
 $string['subscriberstowithcount'] = '({$a->count}) sottoscrittori di "{$a->name}"';
 $string['subscribestart'] = 'Desidero ricevere notifiche sui nuovi interventi di questo forum';
 $string['subscribestop'] = 'Non desidero ricevere notifiche sui nuovi interventi di questo forum';
@@ -519,8 +508,6 @@ $string['subscriptionmode_help'] = 'La sottoscrizione di un forum consente di ri
 * Disabilitata - Non è possibile sottoscrivere il forum';
 $string['subscriptionoptional'] = 'Facoltativa';
 $string['subscriptions'] = 'Sottoscrizioni';
-$string['tagarea_forum_posts'] = 'Interventi forum';
-$string['tagsdeleted'] = 'I tag del forum sono stati eliminati';
 $string['thisforumisthrottled'] = 'Questo forum ha una soglia massima di interventi che è possibile effettuare in un dato intervallo di tempo - la soglia al momento è impostata a {$a->blockafter} interventi in {$a->blockperiod}';
 $string['timedhidden'] = 'Stato Intervento a tempo: non visibile agli studenti';
 $string['timedposts'] = 'Interventi a tempo';

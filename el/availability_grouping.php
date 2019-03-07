@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_grouping', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'availability_grouping', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   availability_grouping
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['requires_grouping'] = 'Ανήκεις σε ένα γκρουπ σε <strong>{$a}</strong>';
+$string['description'] = 'Επιτρέψτε μόνο σε μαθητές που ανήκουν σε μια ομάδα μέσα σε μια καθορισμένη ομαδοποίηση.';
+$string['error_selectgrouping'] = 'Πρέπει να επιλέξετε μια ομαδοποίηση.';
+$string['missing'] = '(Λείπει ομαδοποίηση)';
+$string['pluginname'] = 'Περιορισμός με βάση την ομαδοποίηση';
+$string['requires_grouping'] = 'Ανήκεις σε ένα γκρουπ στην ομαδοποίηση <strong>{$a}</strong>';
+$string['requires_notgrouping'] = 'Δεν ανήκεις σε ένα γκρουπ στην ομαδοποίηση <strong>{$a}</strong>';
+$string['title'] = 'Ομαδοποίηση';

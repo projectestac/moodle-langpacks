@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio_download', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'portfolio_download', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   portfolio_download
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['downloadfile'] = 'Μεταφόρτωση του αρχείου εξαγωγής του χαρτοφυλακίου σας';
-$string['downloading'] = 'Μεταφορτώνεται ...';
-$string['pluginname'] = 'Μεταφόρτωση αρχείου';
+$string['downloadfile'] = 'Λήψη του αρχείου εξαγωγής του χαρτοφυλακίου σας';
+$string['downloading'] = 'Λήψη...';
+$string['pluginname'] = 'Λήψη αρχείου';

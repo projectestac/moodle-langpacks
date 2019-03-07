@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completionstatus', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_completionstatus', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   block_completionstatus
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['completionprogressdetails'] = 'Λεπτομέρειες προόδου ολοκλήρωσης';
+$string['completionstatus:addinstance'] = 'Προσθήκη ενός νέου μπλοκ κατάστασης ολοκλήρωσης μαθήματος';
+$string['criteriagroup'] = 'Ομάδα κριτηρίων';
+$string['firstofsecond'] = '{$a->first} από {$a->second}';
 $string['pluginname'] = 'Κατάσταση ολοκλήρωσης μαθήματος';
+$string['requirement'] = 'Απαίτηση';
+$string['returntocourse'] = 'Επιστροφή στο μάθημα';

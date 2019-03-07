@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'plugin', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,17 +49,16 @@ $string['dependencyuploadmissing'] = 'Càrrega dels fitxers ZIP';
 $string['detectedmisplacedplugin'] = 'El connector  "{$a->component}" està instal·lat en la localització incorrecta "{$a->current}", quan s\'esperava que estigués aquí "{$a->expected}"';
 $string['displayname'] = 'Nom del connector';
 $string['err_response_curl'] = 'No s\'han pogut obtenir dades d\'actualitzacions disponibles. S\'ha produït un error inesperat de cURL.';
-$string['err_response_format_version'] = 'Versió inesperada del format de resposta. Si us plau, intenteu tornar a comprovar si hi ha actualitzacions disponibles.';
+$string['err_response_format_version'] = 'Versió inesperada del format de resposta. Intenteu tornar a comprovar si hi ha actualitzacions disponibles.';
 $string['err_response_http_code'] = 'No s\'han pogut obtenir les dades d\'actualitzacions disponibles. Codi de resposta HTTP inesperat.';
 $string['filterall'] = 'Mostra tot';
 $string['filtercontribonly'] = 'Mostra només els connectors addicionals';
 $string['filterupdatesonly'] = 'Mostra només actualitzables';
-$string['isenabled'] = 'S\'ha habilitat?';
 $string['misdepinfoplugin'] = 'Informació del connector';
 $string['misdepinfoversion'] = 'Informació de la versió';
 $string['misdepsavail'] = 'Dependències perdudes disponibles';
 $string['misdepsunavail'] = 'No estan disponibles les dependències perdudes';
-$string['misdepsunavaillist'] = 'No s\'ha trobat cap versió per complir amb els requisits de les dependències: {$a}.';
+$string['misdepsunavaillist'] = 'No s\'ha trobat cap versió per complir els requisits de les dependències: {$a}.';
 $string['misdepsunknownlist'] = 'No és al directori dels connectors: <strong>{$a}</strong>.';
 $string['moodleversion'] = 'Moodle {$a}';
 $string['noneinstalled'] = 'No hi ha connectors d\'aquest tipus instal·lats';
@@ -105,7 +104,6 @@ $string['status_new'] = 'S\'instal·larà';
 $string['status_nodb'] = 'Cap base de dades';
 $string['status_upgrade'] = 'S\'actualitzarà';
 $string['status_uptodate'] = 'Instal·lat';
-$string['supportedconversions'] = 'Conversions de documents admeses';
 $string['supportedmoodleversions'] = 'Versions compatibles de Moodle';
 $string['systemname'] = 'Identificador';
 $string['type_antivirus'] = 'Connector antivirus';
@@ -130,9 +128,6 @@ $string['type_editor'] = 'Editor';
 $string['type_editor_plural'] = 'Editors';
 $string['type_enrol'] = 'Mètode d\'inscripció';
 $string['type_enrol_plural'] = 'Mètodes d\'inscripció';
-$string['type_fileconverter'] = 'Conversor de document';
-$string['type_fileconvertermanage'] = 'Gestiona els conversors de documents';
-$string['type_fileconverter_plural'] = 'Conversors de documents';
 $string['type_filter'] = 'Filtre';
 $string['type_filter_plural'] = 'Filtres de text';
 $string['type_format'] = 'Format de curs';
@@ -192,7 +187,7 @@ $string['updateavailable'] = 'Hi ha una nova versió disponible {$a}!';
 $string['updateavailable_moreinfo'] = 'Més informació...';
 $string['updateavailable_release'] = 'Llançament {$a}';
 $string['updatepluginconfirm'] = 'Confirmació de l\'actualització del connector';
-$string['updatepluginconfirmexternal'] = 'Sembla que la versió actual del connector s\'ha obtingut a través del sistema de gestió de codi font ({$a}). Si instal·leu aquesta actualització, ja no podreu obtenir les actualitzacions del connector des del sistema de gestió de codi font. Si us plau assegureu-vos completament que voleu actualitzar el connector abans de continuar.';
+$string['updatepluginconfirmexternal'] = 'Sembla que la versió actual del connector s\'ha obtingut a través del sistema de gestió de codi font ({$a}). Si instal·leu aquesta actualització, ja no podreu obtenir les actualitzacions del connector des del sistema de gestió de codi font. Assegureu-vos completament que voleu actualitzar el connector abans de continuar.';
 $string['updatepluginconfirminfo'] = 'Ara instal·lareu una nova versió del connector <strong>{$a->name}</strong>. Podeu baixar un paquet zip amb la versió {$a->version} del connector a l\'adreça <a href="{$a->url}">{$a->url}</a> i descomprimir-lo a la vostra instal·lació de Moodle per a efectuar-ne l\'actualització.';
 $string['updatepluginconfirmwarning'] = 'Teniu en compte que Moodle no farà automàticament una còpia de seguretat de la base de dades abans de l\'actualització. Es recomana que feu una còpia de seguretat completa ara, per fer front al risc que eventualment el nou codi tingui errors que impedeixin que el lloc funcioni, o fins i tot que es corrompi la base de dades. Continueu sota la vostra responsabilitat.';
 $string['validationmsg_componentmatch'] = 'Nom complet del component';

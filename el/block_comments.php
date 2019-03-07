@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_comments', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_comments', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   block_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,5 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['comments:addinstance'] = 'Προσθήκη νέου μπλοκ σχόλια';
-$string['comments:myaddinstance'] = 'Προσθήκη νέου μπλοκ σχόλια στη σελίδα Η αρχική μου';
+$string['comments:myaddinstance'] = 'Προσθήκη νέου μπλοκ «Σχόλια» στο Ταμπλό';
 $string['pluginname'] = 'Σχόλια';

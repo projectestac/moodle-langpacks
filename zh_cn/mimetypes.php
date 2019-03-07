@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mimetypes', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'mimetypes', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   mimetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,6 +47,7 @@ $string['group:video'] = '视频文件';
 $string['group:web_audio'] = '网络上使用的音频文件';
 $string['group:web_video'] = '网络上使用的视频文件';
 $string['image'] = '图片（{$a->MIMETYPE2}）';
+$string['text/csv'] = '逗号(英文)分隔的值';
 $string['text/html'] = 'HTML 文档';
 $string['text/plain'] = '文本文件';
 $string['text/rtf'] = 'RTF 文档';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_title', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'atto_title', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   atto_title
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,5 +31,4 @@ $string['h5'] = 'Cabeçalho (pequeno)';
 $string['p'] = 'Parágrafo';
 $string['pluginname'] = 'Estilos de parágrafo';
 $string['pre'] = 'Pré-formatado';
-$string['privacy:metadata'] = 'O módulo atto_title não armazena nenhum dado pessoal.';
 $string['title'] = 'Estilos de parágrafo';

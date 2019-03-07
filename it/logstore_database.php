@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_database', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'logstore_database', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   logstore_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['buffersize'] = 'Dimensione buffer';
 $string['buffersize_help'] = 'Per ottimizzare le prestazioni, è possibile impostare il numero di linee di log da inserire in batch con una singola transazione.';
-$string['conectexception'] = 'Non è possibile connettersi al dataabse';
+$string['conectexception'] = 'Non è possibile connettersi al database';
 $string['create'] = 'Crea';
 $string['databasecollation'] = 'Collation database';
 $string['databasehandlesoptions'] = 'Opzioni handle database';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_ipaddress', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quizaccess_ipaddress', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   quizaccess_ipaddress
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['pluginname'] = 'Κανόνας πρόσβασης κουίζ: διεύθυνση IP';
 $string['subnetwrong'] = 'Αυτό το κουίζ είναι προσπελάσιμο μόνο από συγκεκριμένες τοποθεσίες και αυτός ο υπολογιστής δε συμπεριλαμβάνεται στη λίστα επιτρεπομένων.';

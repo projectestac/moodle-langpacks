@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'folder', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   folder
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,16 +43,12 @@ $string['folder:addinstance'] = 'Adicionar nova pasta';
 $string['foldercontent'] = 'Ficheiros e subpastas';
 $string['folder:managefiles'] = 'Gerir ficheiros no recurso pasta';
 $string['folder:view'] = 'Ver conteúdo da pasta';
-$string['indicator:cognitivedepth'] = 'Compreensão da Pasta';
-$string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno no recurso Pasta.';
-$string['indicator:socialbreadth'] = 'Socialização da Pasta';
-$string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno no recurso Pasta.';
 $string['maxsizetodownload'] = 'Tamanho máximo da pasta a descarregar (MB)';
 $string['maxsizetodownload_help'] = 'O tamanho máximo da pasta que pode ser descarregada como um ficheiro ZIP. Se definir como zero, o tamanho da pasta é ilimitado.';
 $string['modulename'] = 'Pasta';
-$string['modulename_help'] = 'O recurso Pasta permite que o professor disponibilize uma série de ficheiros apenas numa hiperligação, evitando assim o excesso de ficheiros na página principal da disciplina. Pode criar uma pasta e carregar ficheiro a ficheiro ou carregar um único zip com vários ficheiros e extrair os mesmos dentro da pasta.
+$string['modulename_help'] = 'O recurso Pasta permite que o professor disponibilize vários ficheiros apenas com uma hiperligação, evitando assim o excesso de ficheiros na página principal da disciplina. Pode criar uma pasta e carregar ficheiro a ficheiro ou carregar um único zip com vários ficheiros e extrair os mesmos dentro da pasta.
 
-A pasta pode ser utilizada para:
+A Pasta pode ser utilizada para:
 
 * disponibilizar uma série de ficheiros num tópico, por exemplo bibliografia necessária para o exame em formato pdf
 * partilhar ficheiros entre os professores da disciplina (numa pasta oculta à qual os alunos não têm acesso)';
@@ -64,7 +60,6 @@ $string['page-mod-folder-view'] = 'Página principal do recurso pasta';
 $string['page-mod-folder-x'] = 'Qualquer pasta';
 $string['pluginadministration'] = 'Administração da Pasta';
 $string['pluginname'] = 'Pasta';
-$string['privacy:metadata'] = 'O módulo mod_folder não armazena qualquer dado pessoal.';
 $string['search:activity'] = 'Pasta';
 $string['showdownloadfolder'] = 'Mostrar o botão para descarregar pasta';
 $string['showdownloadfolder_help'] = 'Se definir como \'Sim\', será mostrado um botão que permite que o conteúdo da pasta possa ser descarregado como um ficheiro ZIP.';

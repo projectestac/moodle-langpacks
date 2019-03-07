@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'data', language 'ca', branch 'MOODLE_32_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,7 +59,7 @@ $string['bynameondate'] = 'per {$a->name} - {$a->date}';
 $string['cancel'] = 'Cancel·la';
 $string['cannotaccesspresentsother'] = 'No us està permès d\'accedir als valors predefinits d\'altres usuaris';
 $string['cannotadd'] = 'No es poden afegir entrades!';
-$string['cannotdeletepreset'] = 'Error en esborrar un valor predifinit!';
+$string['cannotdeletepreset'] = 'Error en esborrar un valor predefinit!';
 $string['cannotoverwritepreset'] = 'Hi ha hagut un error en sobreescriure els valors predefinits';
 $string['cannotunziptopreset'] = 'No es pot descomprimir el directori predefinit';
 $string['checkbox'] = 'Casella de selecció';
@@ -74,8 +74,6 @@ $string['comments'] = 'Comentaris';
 $string['commentsaved'] = 'S\'ha desat el comentari';
 $string['commentsn'] = '{$a} comentari(s)';
 $string['commentsoff'] = 'No està habilitada la funció de comentaris';
-$string['completionentries'] = 'Requereix entrades';
-$string['completionentriescount'] = 'Nombre d\'entrades';
 $string['configenablerssfeeds'] = 'Aquest commutador habilita la possibilitat de canals RSS de les bases de dades. Però cal activar manualment els canals en els paràmetres de cada base de dades.';
 $string['confirmdeletefield'] = 'Segur que voleu suprimir aquest camp?';
 $string['confirmdeleterecord'] = 'Segur que voleu suprimir aquesta entrada?';
@@ -242,7 +240,7 @@ $string['list'] = 'Visualitza llista';
 $string['listtemplate'] = 'Plantilla de llista';
 $string['longitude'] = 'Longitud';
 $string['manageapproved'] = 'Permet l\'edició d\'entrades aprovades';
-$string['manageapproved_help'] = 'Si es desactiva, l\'usuari que va afegir les entrades aprovades ja no podrà editar-les ni esborrar-les. Aquest paràmetre no té cap efecte, tret que estigui activat «Requereix aprovació?»';
+$string['manageapproved_help'] = 'Si es desactiva, l\'usuari que va afegir les entrades aprovades ja no podrà editar-les ni esborrar-les. Aquest paràmetre no té cap efecte, tret que estigui activat «Requereix aprovació».';
 $string['mapexistingfield'] = 'Mapa a {$a}';
 $string['mapnewfield'] = 'Crea un camp nou';
 $string['mappingwarning'] = 'Tots els camps vells que no s\'hagin pogut mapar a camps nous es perdran i totes les dades d\'aquests camps seran suprimides.';
@@ -256,17 +254,17 @@ $string['menuchoose'] = 'Trieu...';
 $string['missingdata'] = 'Cal que afegiu dades id o objecte al camp';
 $string['missingfield'] = 'Error de programació: heu d\'especicar un camp i/o dades en definir la classe de camp';
 $string['modulename'] = 'Base de dades';
-$string['modulename_help'] = 'El mòdul d\'activitat de base de dades permet als participants crear, mantenir i cercar una col·lecció d\'entrades (p.ex., registres). L\'estructura de les entrades les defineix el professorat com un nombre de camps. Els tipus de camps inclouen caselles de selecció, botons d\'opció, menús desplegables, àrees de text, URL, imatges i fitxers carregats.
+$string['modulename_help'] = 'El mòdul d\'activitat de base de dades permet als participants crear, mantenir i cercar una col·lecció d\'entrades (p. ex., registres). El professors defineix l\'estructura de les entrades com un nombre de camps. Els tipus de camps inclouen caselles de selecció, botons d\'opció, menús desplegables, àrees de text, URL, imatges i fitxers carregats.
 
-La disposició visual de la informació quan es llisten, visualitzen o editen entrades de la base de dades pot controlar-se mitjançant plantilles. Les activitats de base de dades poden compartir-se entre cursos com a predefinides i un docent també pot importar i exportar les entrades de la base de dades.
+La disposició visual de la informació quan es s\'enumeren, es visualitzen o s\'editen entrades de la base de dades pot controlar-se mitjançant plantilles. Les activitats de base de dades poden compartir-se entre cursos com a predefinides i un docent també pot importar i exportar les entrades de la base de dades.
 
-Si el filtre d\'autoenllaç de la base de dades està activat, qualsevol entrada s\'enllaçarà automàticament quan les paraules o frases apareguin en el curs.
+Si el filtre d\'enllaços automàtics de la base de dades està activat, qualsevol entrada s\'enllaçarà automàticament quan les paraules o frases apareguin dins el curs.
 
-El professorat pot permetre comentaris per a les entrades. Les entrades també es poden valorar pel professorat o l\'estudiantat (avaluació d\'iguals). Les valoracions poden agregar-se per a formar una qualificació final que es registre en el butlletí de qualificacions.
+El professor pot permetre comentaris per a les entrades. Les entrades també poden ser valorades pels professors o els estudiants (avaluació entre iguals). Les valoracions poden agregar-se per formar una qualificació final que es registri al butlletí de qualificacions.
 
-Les activitats de base de dades tenen moltes aplicacions, com ara
+Les activitats de base de dades tenen moltes aplicacions, com ara:
 * Una col·lecció col·laborativa d\'enllaços web, llibres, ressenyes de llibres, referències de revistes, etc.
-* Per visualitzar fotos, pòsters, llocs web o poemes creats per l\'estudiantat i per a la revisió d\'iguals';
+* Per visualitzar fotos, pòsters, llocs web o poemes creats pels estudiants i per a la revisió entre iguals';
 $string['modulenameplural'] = 'Bases de dades';
 $string['more'] = 'Més';
 $string['moreurl'] = 'Més (URL)';
@@ -336,17 +334,17 @@ $string['requireapproval'] = 'Requereix aprovació';
 $string['requireapproval_help'] = 'Si s\'habilita, caldrà que el professor aprovi les entrades abans que tothom pugui visualitzar-les.';
 $string['required'] = 'Requerit';
 $string['requiredentries'] = 'Entrades requerides per a la compleció';
-$string['requiredentries_help'] = 'Si s\'estableix, es mostra un missatge que indica la quantitat d\'entrades necessàries per finalitzar l\'activitat. Tingueu en compte que aquest paràmetre no està connectat a la compleció de l\'activitat.
+$string['requiredentries_help'] = '<p align="center"><strong>Entrades requerides</strong></p>
 
-Si calen algunes entrades per a la compleció d\'activitats, s\'hauria d\'utilitzar el nou paràmetre de compleció d\'activitat «Requereix entrades». Per tal d\'eliminar completament aquest paràmetre, configureu-lo com a «cap», i després deseu els canvis.
-Si us plau, utilitzeu els camps Entrades requerides a la secció de compleció d\'activitats en lloc d\'això.';
+<p>El nombre d\'entrades que cal que trameti cada participant. Als usuaris que no hagin tramès aquest nombre d\'entrades se\'ls mostrarà un recordatori quan visualitzin la base de dades.</p>
+
+<p>A més a més, no es considerarà que hagin completat aquesta activitat fins que no hagin tramès el nombre d\'entrades requerit.</p>';
 $string['requiredentriestoview'] = 'Entrades requerides per visualitzar';
 $string['requiredentriestoview_help'] = '<p align="center"><strong>Entrades requerides per visualitzar</strong></p>
 
 <p>El nombre d\'entrades que cal que un estudiant trameti abans que pugui visualitzar entrades d\'altres estudiants.</p>
 
 Nota: Si es requereix que es trametin entrades abans de visualitzar-ne d\'altres, és recomanable inhabilitar el filtre d\'enllaços automàtics a la base de dades. Això és perquè el filtre d\'enllaços automàtics a la base de dades no pot determinar si un usuari ha tramès el nombre requerit d\'entrades.';
-$string['requiredentrieswarning'] = 'Aquest paràmetre s\'ha substituït pel paràmetre «Requereix entrades» a la compleció d\'activitat.';
 $string['requiredfield'] = 'Camp requerit';
 $string['resetsettings'] = 'Reinicialitza els filtres';
 $string['resettemplate'] = 'Reinicia la plantilla';
@@ -359,7 +357,7 @@ $string['save'] = 'Desa';
 $string['saveandadd'] = 'Desa i afegeix-ne un altre';
 $string['saveandview'] = 'Desa i visualitza';
 $string['saveaspreset'] = 'Desa com a predefinit';
-$string['saveaspreset_help'] = 'La funció Desa com a predefinit publica les plantilles i els camps com un predifinit que d\'altres usuaris poden fer servir. (En qualsevol moment el podeu esborrar de la llista de predefinits.)';
+$string['saveaspreset_help'] = 'La funció <em>Desa com a predefinit</em> publica les plantilles i els camps com a predefinits que altres usuaris poden fer servir. (En qualsevol moment el podeu esborrar de la llista de predefinits.)';
 $string['savesettings'] = 'Desa els paràmetres';
 $string['savesuccess'] = 'S\'ha desat amb èxit. El vostre predefinit estarà disponible per a tot el lloc.';
 $string['savetemplate'] = 'Desa la plantilla';
@@ -373,7 +371,6 @@ $string['subplugintype_datafield'] = 'Tipus de camp de la base de dades';
 $string['subplugintype_datafield_plural'] = 'Els tipus de camp de la base de dades';
 $string['subplugintype_datapreset'] = 'Predefinit';
 $string['subplugintype_datapreset_plural'] = 'Predefinits';
-$string['tags'] = 'Etiquetes';
 $string['teachersandstudents'] = '{$a->teachers} i {$a->students}';
 $string['templates'] = 'Plantilles';
 $string['templatesaved'] = 'S\'ha desat la plantilla';
@@ -399,7 +396,7 @@ El tancament és un caràcter que envolta cada camp en cada registre. Normalment
 $string['url'] = 'URL';
 $string['usedate'] = 'Inclou en la cerca.';
 $string['usestandard'] = 'Utilitza un predefinit';
-$string['usestandard_help'] = 'Per utilitzar un predefinit disponible arreu del lloc, seleccioneu-lo de la llista. (Si heu afegit un predefinit a la llista utilitzant la funció Desa com a predefinit, aleshores teniu l\'opció d\'esborrar-lo).';
+$string['usestandard_help'] = 'Per utilitzar un predefinit disponible arreu del lloc, seleccioneu-lo de la llista. (Si heu afegit un element predefinit a la llista utilitzant la funció <em>Desa com a predefinit</em>, aleshores teniu l\'opció d\'esborrar-lo.)';
 $string['viewfromdate'] = 'Només lectura des de';
 $string['viewtodate'] = 'Només lectura fins';
 $string['viewtodatevalidation'] = 'La data de «només lectura fins a» no pot ser anterior a la data de «només lectura des de».';

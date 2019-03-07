@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz_overview', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,8 +32,8 @@ $string['attemptsonly'] = 'Saiakerak dituen {$a} baino ez erakutsi';
 $string['attemptsprepage'] = 'Orriko erakutsitako saiakerak';
 $string['deleteselected'] = 'Ezabatu aukeratutako saiakerak';
 $string['done'] = 'Egina';
-$string['err_failedtodeleteregrades'] = 'Kale egin du kalkulatutako saiakeren kalifikazioak ezabatzean';
-$string['err_failedtorecalculateattemptgrades'] = 'Kale egin du saiakeren kalifikazioak berriz kalkulatzean';
+$string['err_failedtodeleteregrades'] = 'Kalkulatutako saiakeren kalifikazioak ezabatzeak huts egin du';
+$string['err_failedtorecalculateattemptgrades'] = 'Saiakeren kalifikazioak berriz kalkulatzeak huts egin du';
 $string['highlightinggraded'] = 'Erabiltzailearen azken kalifikaziorako erabiliko den saiakera nabarmenduta dago.';
 $string['needed'] = 'Derrigorrezkoa';
 $string['noattemptsonly'] = 'Saiakerarik ez duen {$a} baino ez erakutsi / jaitsi';
@@ -56,9 +56,6 @@ $string['pluginname'] = 'Kalifikazioak';
 $string['preferencespage'] = 'Zure hobespenak orri honetarako';
 $string['preferencessave'] = 'Erakutsi txostena';
 $string['preferencesuser'] = 'Zure hobespenak txosten honetarako';
-$string['privacy:metadata:preference:quiz_overview_slotmarks'] = 'Galdera-tarte bakoitzarekin batera kalifikazioak erakustea edo ez.';
-$string['privacy:preference:slotmarks:no'] = 'Kalifikazioak ez dira galdera-tarte bakoitzarekin batera erakusten.';
-$string['privacy:preference:slotmarks:yes'] = 'Kalifikazioak galdera-tarte bakoitzarekin batera erakusten dira.';
 $string['regrade'] = 'Berriz kalifikatu';
 $string['regradeall'] = 'Berriz kalifikatu guztia';
 $string['regradealldry'] = 'Berriz kalifikatu osorik proba moduan';

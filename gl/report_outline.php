@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_outline', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'report_outline', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   report_outline
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['eventactivityreportviewed'] = 'Informes de actividade vistos';
 $string['eventoutlinereportviewed'] = 'Informes de esquema vistos';
 $string['neverseen'] = 'Nunca visto';
+$string['nocapability'] = 'Non é posíbel acceder ao informe do esquema do usuario';
 $string['nologreaderenabled'] = 'Non hai un lector de rexistros activado';
 $string['numviews'] = '{$a->numviews} por {$a->distinctusers} usuarios';
 $string['outline:view'] = 'Ver o informe de actividade';

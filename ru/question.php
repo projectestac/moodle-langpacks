@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'question', language 'ru', branch 'MOODLE_32_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -80,7 +80,7 @@ $string['categorycurrent'] = 'Текущая категория';
 $string['categorycurrentuse'] = 'Использовать эту категорию';
 $string['categorydoesnotexist'] = 'Эта категория не существует';
 $string['categoryinfo'] = 'Информация о категории';
-$string['categorymove'] = 'В категории «{$a->name}» содержатся  вопросы - ({$a->count}). Некоторые из них могут быть старыми, скрытыми вопросами или Случайными вопросами, которые все еще используются в некоторых существующих тестах. Пожалуйста, выберите другую категорию, в которую следует их переместить.';
+$string['categorymove'] = 'В категории «{$a->name}» содержатся  вопросы — ({$a->count}) (некоторые из них могут быть скрытыми вопросами или случайными вопросами, которые все еще используются в тесте). Пожалуйста, выберите другую категорию, в которую следует их переместить.';
 $string['categorymoveto'] = 'Сохранить в категории';
 $string['categorynamecantbeblank'] = 'Имя категории не должно быть пустым';
 $string['changeoptions'] = 'Изменить параметры';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'license', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'license', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   license
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,5 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allrightsreserved'] = 'Με επιφύλαξη παντός δικαιώματος';
-$string['public'] = 'Δημόσια διεύθυνση διαδικτύου';
+$string['cc'] = 'Creative Commons';
+$string['cc-nc'] = 'Creative Commons - Μη Εμπορική Χρήση';
+$string['cc-nc-nd'] = 'Creative Commons - Μη Εμπορική Χρήση - Όχι Παράγωγα Έργα';
+$string['cc-nc-sa'] = 'Creative Commons - Μη Εμπορική Χρήση - Παρόμοια Διανομή';
+$string['cc-nd'] = 'Creative Commons - Όχι Παράγωγα Έργα';
+$string['cc-sa'] = 'Creative Commons - Παρόμοια Διανομή';
+$string['public'] = 'Κοινό Κτήμα (Public domain)';
 $string['unknown'] = 'Άλλο';

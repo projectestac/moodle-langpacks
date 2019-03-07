@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'message', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,7 +68,7 @@ $string['keywords'] = 'Parole chiave';
 $string['loggedin'] = 'Online';
 $string['loggedindescription'] = 'Quando sono collegato';
 $string['loggedin_help'] = 'Configura la modalità preferita di ricezione notifiche quando sei autenticato';
-$string['loggedoff'] = 'Non online';
+$string['loggedoff'] = 'Offline';
 $string['loggedoffdescription'] = 'Quando non sono collegato';
 $string['loggedoff_help'] = 'Configura la modalità preferita di ricezione notifiche quando non sei autenticato';
 $string['managemessageoutputs'] = 'Gestione instradamento messaggi';
@@ -109,7 +109,7 @@ $string['pagerefreshes'] = 'Questa pagina si aggiorna ogni  {$a} secondi';
 $string['permitted'] = 'Consentito';
 $string['processorsettings'] = 'Impostazioni gestore';
 $string['recent'] = 'Recenti';
-$string['removecontact'] = 'Cancella contatti';
+$string['removecontact'] = 'Elimina contatto';
 $string['removecoursefilter'] = 'Elimina filtro nel corso {$a}';
 $string['removefromyourcontacts'] = 'Elimina dai contatti';
 $string['requiresconfiguration'] = 'Richiede configurazione';
@@ -121,12 +121,8 @@ $string['searchforuserorcourse'] = 'Cerca un utente o un corso';
 $string['searchmessages'] = 'Cerca un messaggio';
 $string['seeall'] = 'Visualizza tutto';
 $string['selectmessagestodelete'] = 'Seleziona i messaggi da eliminare';
-$string['selectnotificationtoview'] = 'Seleziona dalla lista di notifiche a lato per visualizzare maggiori dettagli';
+$string['selectnotificationtoview'] = 'Selezionare dalla lista di notifiche a lato per visualizzare maggiori informazioni';
 $string['send'] = 'Invia';
-$string['sendbulkmessage'] = 'Invia messaggio a {$a} persone';
-$string['sendbulkmessagesent'] = 'Messaggio inviato a {$a} persone';
-$string['sendbulkmessagesentsingle'] = 'Messaggio inviato a 1 persona';
-$string['sendbulkmessagesingle'] = 'Invia messaggio a 1 persona';
 $string['sendingvia'] = 'Invio di {$a->provider}" tramite "{$a->processor}"';
 $string['sendingviawhen'] = 'Invio di {$a->provider}" tramite "{$a->processor}" in presenza di {$a->state}';
 $string['sendmessage'] = 'Invia messaggio';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_pdw', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tinymce_pdw', language 'de', branch 'MOODLE_32_STABLE'
  *
  * @package   tinymce_pdw
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,4 +27,3 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pdw:desc'] = 'Toolbar umschalten';
 $string['pluginname'] = 'Toolbar umschalten';
-$string['privacy:metadata'] = 'Das TinyMCE-Plugin \'Toolbar\' speichert keine persönlichen Daten.';

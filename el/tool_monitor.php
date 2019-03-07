@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_monitor', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,12 +26,78 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addrule'] = 'Προσθήκη νέου κανόνα';
+$string['allevents'] = 'Όλα τα γεγονότα';
+$string['allmodules'] = 'Όλα τα στιγμιότυπα';
+$string['area'] = 'Περιοχή';
+$string['areatomonitor'] = 'Περιοχή προς παρακολούθηση';
+$string['cachedef_eventsubscriptions'] = 'Εδώ αποθηκεύεται ο κατάλογος των εγγραφών γεγονότων για μεμονωμένα μαθήματα';
+$string['contactadmin'] = 'Επικοινωνήστε με τον διαχειριστή σας για να το ενεργοποιήσετε.';
+$string['core'] = 'Πυρήνας';
+$string['currentsubscriptions'] = 'Οι τρέχουσες εγγραφές σας';
+$string['defaultmessagetemplate'] = 'Όνομα κανόνα: {rulename}<br />Περιγραφή: {description}<br />Όνομα γεγονότος: {eventname}';
+$string['deleterule'] = 'Διαγραφή κανόνα';
+$string['deletesubscription'] = 'Διαγραφή εγγραφής';
+$string['description'] = 'Περιγραφή:';
+$string['disablefieldswarning'] = 'Σε ορισμένα πεδία δεν μπορεί να γίνει επεξεργασία, καθώς αυτός ο κανόνας έχει ήδη εγγραφές.';
+$string['duplicaterule'] = 'Δημιουργία αντιγράφου κανόνα';
+$string['editrule'] = 'Επεξεργασία κανόνα';
+$string['enablehelp'] = 'Ενεργοποίηση/απενεργοποίηση παρακολούθησης γεγονότων';
+$string['enablehelp_help'] = 'Η παρακολούθηση γεγονότων πρέπει να είναι ενεργοποιημένη για να μπορέσετε να δημιουργήσετε και να εγγραφείτε σε κανόνες. Σημειώστε ότι η ενεργοποίηση της παρακολούθησης γεγονότων ενδέχεται να επηρεάσει την απόδοση του ιστοτόπου σας.';
+$string['errorincorrectevent'] = 'Επιλέξτε ένα γεγονός που σχετίζεται με το επιλεγμένο πρόσθετο';
+$string['event'] = 'Γεγονός';
 $string['eventnotfound'] = 'Αδυναμία εύρεσης γεγονότος';
+$string['eventrulecreated'] = 'Ο κανόνας δημιουργήθηκε';
+$string['eventruledeleted'] = 'Ο κανόνας διαγράφηκε';
+$string['eventruleupdated'] = 'Ο κανόνας ενημερώθηκε';
+$string['eventsubcreated'] = 'Η εγγραφή δημιουργήθηκε';
+$string['eventsubcriteriamet'] = 'Τα κριτήρια εγγραφής πληρούνται';
+$string['eventsubdeleted'] = 'Η εγγραφή διαγράφηκε';
+$string['freqdesc'] = '{$a->freq} φορές(-ά) σε {$a->mins} λεπτά(-ό)';
+$string['frequency'] = 'Όριο για ειδοποιήσεις';
+$string['frequency_help'] = 'Ο αριθμός των γεγονότων εντός συγκεκριμένης χρονικής περιόδου που απαιτείται για την αποστολή ενός μηνύματος ειδοποίησης.';
+$string['inminutes'] = 'σε λεπτά';
+$string['invalidmodule'] = 'Μη έγκυρο άρθρωμα';
+$string['manage'] = 'Διαχείριση';
+$string['managerules'] = 'Κανόνες παρακολούθησης γεγονότων';
+$string['manageruleslink'] = 'Μπορείς να διαχειριστείς κανόνες μέσω της σελίδας {$a}.';
+$string['managesubscriptions'] = 'Παρακολούθηση γεγονότων';
+$string['managesubscriptionslink'] = 'Μπορείς να εγγραφείς σε κανόνες μέσω της σελίδας {$a}.';
+$string['messageprovider:notification'] = 'Ειδοποιήσεις για εγγραφές κανόνων';
 $string['messagetemplate'] = 'Μήνυμα ειδοποίησης';
-$string['messagetemplate_help'] = 'Ένα ενημερωτικό μήνυμα αποστέλλεται  στους συνδρομητές όταν συμπληρωθεί το κατώφλι (ελάχιστο όριο) ενημερώσεως. Μπορεί να περιλαμβάνει οποιοδήποτε ή όλα τα ακόλουθα προσδιοριστικά κράτησης θέσης: <br /><br />
-* Σύνδεσμος προς την τοποθεσία του γεγονότος {link}<br />
-* Σύνδεσμος προς την παρακολουθούμενη περιοχή {modulelink}<br />
-* Όνομα κανόνα {rulename}<br />
-* Περιγραφή {description}<br />
+$string['messagetemplate_help'] = 'Ένα μήνυμα ειδοποίησης αποστέλλεται στους εγγεγραμμένους όταν συμπληρωθεί το όριο ενημερώσεως. Μπορεί να περιλαμβάνει οποιοδήποτε ή όλα τα ακόλουθα δεσμευτικά θέσης:
+
+* Σύνδεσμος προς την τοποθεσία του γεγονότος {link}
+* Σύνδεσμος προς την παρακολουθούμενη περιοχή {modulelink}
+* Όνομα κανόνα {rulename}
+* Περιγραφή {description}
 * Γεγονός {eventname}';
+$string['moduleinstance'] = 'Στιγμιότυπο';
+$string['monitordisabled'] = 'Η παρακολούθηση γεγονότων είναι αυτή τη στιγμή απενεργοποιημένη.';
+$string['monitorenabled'] = 'Η παρακολούθηση γεγονότων είναι αυτή τη στιγμή ενεργοποιημένη.';
+$string['monitor:managerules'] = 'Διαχείριση κανόνων παρακολούθησης γεγονότων';
+$string['monitor:managetool'] = 'Ενεργοποίηση/απενεργοποίηση παρακολούθησης γεγονότων';
+$string['monitor:subscribe'] = 'Εγγραφή σε κανόνες παρακολούθησης γεγονότων';
+$string['norules'] = 'Δεν υπάρχουν καθόλου κανόνες παρακολούθησης γεγονότων';
+$string['pluginname'] = 'Παρακολούθηση γεγονότων';
+$string['processevents'] = 'Επεξεργασία γεγονότων';
+$string['ruleareyousure'] = 'Είστε βέβαιοι ότι θέλετε να διαγράψετε τον κανόνα «{$a}»;';
+$string['ruleareyousureextra'] = 'Υπάρχουν {$a} εγγραφές σε αυτόν τον κανόνα, οι οποίες επίσης θα διαγραφούν.';
+$string['rulecopysuccess'] = 'Ο κανόνας αντιγράφηκε με επιτυχία';
+$string['ruledeletesuccess'] = 'Ο κανόνας διαγράφηκε με επιτυχία';
+$string['rulehelp'] = 'Λεπτομέρειες κανόνα';
+$string['rulehelp_help'] = 'Αυτός ο κανόνας παρακολουθεί πότε το γεγονός «{$a->eventname}» στο  «{$a->eventcomponent}» έχει ενεργοποιηθεί {$a->frequency} φορές(ά) σε {$a->minutes} λεπτά(ό).';
+$string['rulename'] = 'Όνομα κανόνα';
+$string['rulenopermission'] = 'Δεν έχετε δικαίωμα να εγγραφείτε σε κανένα γεγονός.';
+$string['rulenopermissions'] = 'Δεν έχετε δικαιώματα για «{$a} ενός κανόνα»';
+$string['rulescansubscribe'] = 'Κανόνες στους οποίους μπορείς να εγγραφείς';
 $string['selectacourse'] = 'Επιλογή ενός μαθήματος';
+$string['selectcourse'] = 'Επισκεφθείτε αυτήν την αναφορά σε επίπεδο μαθήματος για να πάρετε μια λίστα με πιθανά αρθρώματα';
+$string['subareyousure'] = 'Είστε βέβαιοι ότι θέλετε να διαγράψετε την εγγραφή στον κανόνα «{$a}»;';
+$string['subcreatesuccess'] = 'Η εγγραφή δημιουργήθηκε με επιτυχία';
+$string['subdeletesuccess'] = 'Η εγγραφή διαγράφηκε με επιτυχία';
+$string['subhelp'] = 'Στοιχεία εγγραφής';
+$string['subhelp_help'] = 'Αυτή η συνδρομή παρακολουθεί πότε το γεγονός «{$a->eventname}» έχει ενεργοποιηθεί στο \'{$a->moduleinstance}\' {$a->frequency} φορές(ά) σε {$a->minutes} λεπτά(ό).';
+$string['subscribeto'] = 'Εγγραφείτε στον κανόνα «{$a}»';
+$string['taskchecksubscriptions'] = 'Ενεργοποίηση/απενεργοποίηση των μη έγκυρων εγγραφών κανόνα';
+$string['taskcleanevents'] = 'Εκκαθάριση γεγονότων της παρακολούθησης γεγονότων';
+$string['unsubscribe'] = 'Κατάργηση εγγραφής';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_customlang', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,14 +48,13 @@ $string['markinguptodate'] = 'カスタマイゼーションを最新版とし�
 $string['markinguptodate_help'] = 'あなたのサイトでストリングがカスタマイズされた後、英語オリジナルまたはマスター翻訳が修正された場合、カスタマイズされた翻訳は旧版となります。カスタマイズされた翻訳をレビューしてください。あなたが最新版であると確認した場合、チェックボックスをチェックしてください。そうでない場合、内容を編集してください。';
 $string['markuptodate'] = '最新版としてマークする';
 $string['modifiedno'] = '保存する修正済みストリングはありません。';
-$string['modifiednum'] = '{$a} 件の修正済みストリングがあります。あなたのローカル言語パックに対して、これらの修正を保存しますか?';
+$string['modifiednum'] = '{$a} 件の修正済みストリングがあります。あなたのローカル言語パックにこれらの修正を保存しますか?';
 $string['nostringsfound'] = 'ストリングが見つかりませんでした。フィルタ設定を修正してください。';
 $string['placeholder'] = 'プレースホルダ';
 $string['placeholder_help'] = 'プレースホルダはストリングの中で使用される {$a} または {$a->something} のような特別な記述です。これらの記述はストリングが実際に表示される時点で値と置換されます。
 
-プレースホルダはオリジナルのストリングと同じようにコピーすることが重要です。また、翻訳したり、左右の向きを変えないでください。';
+プレースホルダはオリジナルのストリングと同じようにコピーすることが重要です。また、翻訳したり左右の向きを変えないでください。';
 $string['placeholderwarning'] = 'プレースホルダを含むストリング';
 $string['pluginname'] = '言語カスタマイゼーション';
-$string['privacy:metadata'] = '言語カスタマイゼーションプラグインはどのような個人データも保存しません。';
 $string['savecheckin'] = '修正を言語パックに保存する';
 $string['savecontinue'] = '修正を適用して編集を続ける';

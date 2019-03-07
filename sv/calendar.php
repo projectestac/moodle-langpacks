@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'sv', branch 'MOODLE_34_STABLE'
+ * Strings for component 'calendar', language 'sv', branch 'MOODLE_32_STABLE'
  *
  * @package   calendar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,6 +48,7 @@ $string['courseevents'] = 'Händelser i kursen';
 $string['courses'] = 'Kurser';
 $string['customexport'] = 'Eget intervall ({$a->timestart} - {$a->timeend})';
 $string['daily'] = 'Dagligen';
+$string['dayviewfor'] = 'Vy över dag för:';
 $string['dayviewtitle'] = 'Vy över dag {$a}';
 $string['daywithnoevents'] = 'Det finns inga händelser för den här dagen';
 $string['default'] = 'Aktuell';
@@ -70,6 +71,9 @@ $string['errorinvalidrepeats'] = 'Ange antalet händlelser genom att skriva in e
 $string['errornodescription'] = 'Beskrivningen måste vara med';
 $string['errornoeventname'] = 'Du måste ange ett namn';
 $string['errorrequiredurlorfile'] = 'Det krävs antingen en webbadress eller en fil för att importera en kalender.';
+$string['eventcalendareventcreated'] = 'Kalenderhändelse skapad';
+$string['eventcalendareventdeleted'] = 'Kalenderhändelse har tagits bort';
+$string['eventcalendareventupdated'] = 'Kalenderhändelse har uppdaterats';
 $string['eventdate'] = 'Datum';
 $string['eventdescription'] = 'Beskrivning';
 $string['eventduration'] = 'Varaktighet';
@@ -101,6 +105,7 @@ $string['export'] = 'Exportera';
 $string['exportbutton'] = 'Exportera';
 $string['exportcalendar'] = 'Exportera kalender';
 $string['for'] = 'för';
+$string['forcecalendartype'] = 'Obligatorisk kalender';
 $string['fri'] = 'Fre';
 $string['friday'] = 'Fredag';
 $string['generateurlbutton'] = 'Hämta URL till kalender';
@@ -184,6 +189,7 @@ $string['thu'] = 'Tor';
 $string['thursday'] = 'Torsdag';
 $string['timeformat_12'] = '12 timmar (fm/em)';
 $string['timeformat_24'] = '24 timmar';
+$string['timeperiod'] = 'Tidsperiod';
 $string['today'] = 'Idag';
 $string['tomorrow'] = 'Imorgon';
 $string['tt_deleteevent'] = 'Ta bort händelse';

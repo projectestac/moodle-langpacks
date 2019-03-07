@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'booktool_print', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'booktool_print', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   booktool_print
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['eventbookprinted'] = 'Το  βιβλίο εκτυπώθηκε';
+$string['eventchapterprinted'] = 'Το κεφάλαιο εκτυπώθηκε';
 $string['pluginname'] = 'Εκτύπωση βιβλίου';
 $string['printbook'] = 'Εκτύπωσε βιβλίο';
+$string['printchapter'] = 'Εκτύπωση αυτού του κεφαλαίου';
+$string['printdate'] = 'Ημερομηνία';
+$string['printedby'] = 'Εκτυπώθηκε από';
 $string['print:print'] = 'Εκτύπωσε βιβλίο';

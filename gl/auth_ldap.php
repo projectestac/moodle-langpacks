@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth_ldap', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,6 +86,8 @@ $string['auth_ldap_preventpassindb_key'] = 'Agochar os contrasinais';
 $string['auth_ldap_search_sub'] = 'Buscar usuarios por subcontextos';
 $string['auth_ldap_search_sub_key'] = 'Buscar subcontextos';
 $string['auth_ldap_server_settings'] = 'Configuración do servidor de LDAP';
+$string['auth_ldap_suspended_attribute'] = 'Opcional: Cando se fornece este atributo, empregarase para activar/suspender a conta de usuario creada localmente.';
+$string['auth_ldap_suspended_attribute_key'] = 'Atributo suspendido';
 $string['auth_ldap_unsupportedusertype'] = 'auth: ldap user_create() non admite o tipo de usuario seleccionado: usertype: {$a}';
 $string['auth_ldap_update_userinfo'] = 'Actualizar a información del usuario (nome, apelido, enderezo...) desde LDAP a Moodle. Especifique a configuración de «Asignación de datos» se for preciso.';
 $string['auth_ldap_user_attribute'] = 'Opcional: anula o atributo usado para nomeaar/buscar usuarios. Normalmente «cn».';
@@ -142,6 +144,7 @@ $string['renamingnotallowed'] = 'O renomeado de usuarios non está activado en L
 $string['rootdseerror'] = 'Produciuse un erro ao consultar rootDSE para Active Directory';
 $string['start_tls'] = 'Usar o servizo LDAP regular (porto 389) con cifrado TLS';
 $string['start_tls_key'] = 'Usar TLS';
+$string['synctask'] = 'Traballo de sincronización de usuarios LDAP';
 $string['updatepasserror'] = 'Produciuse un erro en user_update_password{}. Código de erro: {$a->errno}. Cadea de erro: {$a->errstring}';
 $string['updatepasserrorexpire'] = 'Produciuse un erro en user_update_password{} ao ler a caducidade do contrasinal.  Código de erro: {$a->errno}. Cadea do erro: {$a->errstring}';
 $string['updatepasserrorexpiregrace'] = 'Produciuse un erro en user_update_password{} ao modificar a caducidade e/ou os accesos libres.  Código de erro: {$a->errno}. Cadea do erro: {$a->errstring}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_db', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth_db', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   auth_db
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,46 +25,48 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['auth_dbcantconnect'] = 'Could not connect to the specified authentication database...';
-$string['auth_dbchangepasswordurl_key'] = 'Password-change URL';
-$string['auth_dbdebugauthdb'] = 'Debug ADOdb';
-$string['auth_dbdebugauthdbhelp'] = 'Debug ADOdb connection to external database - use when getting empty page during login. Not suitable for production sites.';
-$string['auth_dbdeleteuser'] = 'Deleted user {$a}[0] id {$a}[1]';
-$string['auth_dbdeleteusererror'] = 'Error deleting user {$a}';
-$string['auth_dbdescription'] = 'Αυτή η μέθοδος χρησιμοποιεί έναν εξωτερικό πίνακα βάσης δεδομένων για να ελέγξει εάν τα δοσμένα όνομα χρήστη και κωδικός πρόσβασης ισχύουν.  Εάν ο λογαριασμός είναι καινούργιος, τότε οι πληροφορίες από άλλα πεδία μπορούν επίσης να αντιγραφούν στο ΠΗΛΕΑΣ.';
-$string['auth_dbextencoding'] = 'External db encoding';
-$string['auth_dbextencodinghelp'] = 'Encoding used in external database';
-$string['auth_dbextrafields'] = 'Αυτά τα πεδία είναι προαιρετικά. Υπάρχει η επιλογή να προ-συμπληρώσετε μερικά πεδία χρηστών του ΠΗΛΕΑΣ χρησιμοποιώντας πληροφορίες από την <Β> εξωτερική βάση δεδομένων</b> που διευκρινίζετε εδώ. <p> Εάν τα αφήσετε κενά, τότε θα χρησιμοποιηθούν τα προκαθορισμένα στοιχεία.<p> Σε κάθε περίπτωση, ο χρήστης θα μπορεί να παρέμβει σε όλα αυτά τα πεδία μετά την σύνδεση.';
+$string['auth_dbcantconnect'] = 'Δεν ήταν δυνατή η σύνδεση με την καθορισμένη βάση δεδομένων αυθεντικοποίησης...';
+$string['auth_dbchangepasswordurl_key'] = 'Διεύθυνση URL αλλαγής κωδικού πρόσβασης';
+$string['auth_dbdebugauthdb'] = 'Αποσφαλμάτωση ADOdb';
+$string['auth_dbdebugauthdbhelp'] = 'Αποσφαλμάτωση σύνδεσης  ADOdb με την εξωτερική βάση δεδομένων - χρησιμοποιείται όταν ληφθεί κενή σελίδα κατά τη σύνδεσης. Δεν είναι κατάλληλο για ιστοτόπους παραγωγής.';
+$string['auth_dbdeleteuser'] = 'Ο χρήστης «{$a->name}» με αναγνωριστικό «{$a->id}» διεγράφη';
+$string['auth_dbdeleteusererror'] = 'Σφάλμα κατά τη διαγραφή του χρήστη «{$a}»';
+$string['auth_dbdescription'] = 'Αυτή η μέθοδος χρησιμοποιεί έναν εξωτερικό πίνακα βάσης δεδομένων για να ελέγξει εάν το όνομα χρήστη και ο κωδικός πρόσβασης που δίνονται ισχύουν. Εάν ο λογαριασμός είναι καινούργιος, τότε πληροφορίες από άλλα πεδία μπορούν επίσης να αποσταλούν στο Moodle.';
+$string['auth_dbextencoding'] = 'Εξωτερική κωδικοποίηση βάσης δεδομένων';
+$string['auth_dbextencodinghelp'] = 'Κωδικοποίηση που χρησιμοποιείται στην εξωτερική βάση δεδομένων';
+$string['auth_dbextrafields'] = 'Αυτά τα πεδία είναι προαιρετικά. Υπάρχει η επιλογή να προ-συμπληρώσετε μερικά πεδία χρηστών του Moodle χρησιμοποιώντας πληροφορίες από την <b>εξωτερική βάση δεδομένων</b> που θα ορίσετε εδώ. <p>Εάν τα αφήσετε κενά, τότε θα χρησιμοποιηθούν τα προεπιλεγμένα στοιχεία.</p> <p>Σε κάθε περίπτωση, ο χρήστης θα μπορεί να παρέμβει σε όλα αυτά τα πεδία μετά την σύνδεση.</p>';
 $string['auth_dbfieldpass'] = 'Όνομα πεδίου που περιέχει τους κωδικούς πρόσβασης';
-$string['auth_dbfieldpass_key'] = 'Password field';
+$string['auth_dbfieldpass_key'] = 'Πεδίο κωδικού πρόσβασης';
 $string['auth_dbfielduser'] = 'Όνομα πεδίου που περιέχει τα ονόματα χρηστών';
-$string['auth_dbfielduser_key'] = 'Username field';
-$string['auth_dbhost'] = 'Ο υπολογιστής που φιλοξενεί τον εξυπηρετητή βάσης δεδομένων';
-$string['auth_dbhost_key'] = 'Host';
-$string['auth_dbinsertuser'] = 'Inserted user {$a}[0] id {$a}[1]';
-$string['auth_dbinsertusererror'] = 'Error inserting user {$a}';
-$string['auth_dbname'] = 'Όνομα της βάσης δεδομένων';
-$string['auth_dbname_key'] = 'DB Name';
+$string['auth_dbfielduser_key'] = 'Πεδίο ονόματος χρήστη';
+$string['auth_dbhost'] = 'Ο υπολογιστής που φιλοξενεί τον εξυπηρετητή βάσης δεδομένων. Χρησιμοποιήστε μια καταχώρηση συστήματος DSN εάν χρησιμοποιείτε ODBC.';
+$string['auth_dbhost_key'] = 'O Η/Υ που φιλοξενεί τον εξυπηρετητή της βάσης δεδομένων';
+$string['auth_dbinsertuser'] = 'Ο χρήστης «{$a->name}» με αναγνωριστικό «{$a->id}» εισήχθη';
+$string['auth_dbinsertuserduplicate'] = 'Σφάλμα κατά την εισαγωγή χρήστη με  όνομα «{$a->username}» - χρήστης με αυτό το όνομα χρήστη δημιουργήθηκε ήδη μέσω του πρόσθετου «{$a->auth}».';
+$string['auth_dbinsertusererror'] = 'Σφάλμα κατά την εισαγωγή του χρήστη «{$a}»';
+$string['auth_dbname'] = 'Όνομα της ίδιας της βάσης δεδομένων. Αφήστε κενό εάν χρησιμοποιείτε ODBC DSN.';
+$string['auth_dbname_key'] = 'Όνομα βάσης δεδομένων';
 $string['auth_dbpass'] = 'Κωδικός πρόσβασης που αντιστοιχεί στο παραπάνω όνομα χρήστη';
-$string['auth_dbpass_key'] = 'Password';
-$string['auth_dbpasstype'] = '<p>Διευκρινήστε τη μορφή που χρησιμοποιείται από το πεδίο του κωδικού πρόσβασης. Η κρυπτογράφηση MD5 είναι χρήσιμη για σύνδεση με άλλες κοινές διαδικτυακές εφαρμογές όπως η PostNuke.</p> <p>Χρησιμοποιήστε \'εσωτερικά\' εάν θέλετε η εξωτερική βάση δεδομένων να χειρίζεται ονόματα χρηστών και διευθύνσεις email, αλλά το ΠΗΛΕΑΣ να χειρίζεται τα συνθηματικά. Εάν χρησιμοποιήσετε το \'εσωτερικά\',<i>πρέπει</i> να παρέχετε ένα κατηλλειμένο πεδίο διεύθυνσης email στην εξωτερική βάση δεδομένων και πρέπει να εκτελείτε το  admin/cron.php συχνά. Το ΠΗΛΕΑΣ στέλνει ένα email με προσωρινό κωδικό στους νέους χρήστες.</p>';
-$string['auth_dbpasstype_key'] = 'Password format';
-$string['auth_dbreviveduser'] = 'Revived user {$a}[0] id {$a}[1]';
-$string['auth_dbrevivedusererror'] = 'Error reviving user {$a}';
-$string['auth_dbsetupsql'] = 'SQL setup command';
-$string['auth_dbsetupsqlhelp'] = 'SQL command for special database setup, often used to setup communication encoding - example for MySQL and PostgreSQL: <em>SET NAMES \'utf8\'</em>';
-$string['auth_dbsuspenduser'] = 'Suspended user {$a}[0] id {$a}[1]';
-$string['auth_dbsuspendusererror'] = 'Error suspending user {$a}';
-$string['auth_dbsybasequoting'] = 'Use sybase quotes';
-$string['auth_dbsybasequotinghelp'] = 'Sybase style single quote escaping - needed for Oracle, MS SQL and some other databases. Do not use for MySQL!';
-$string['auth_dbtable'] = 'Όνομα του πίνακα στη βάση δεδομένων.';
-$string['auth_dbtable_key'] = 'Table';
-$string['auth_dbtype'] = 'Ο τύπος της βάσης δεδομένων (Δείτε την <A HREF=../lib/adodb/readme.htm#drivers>τεκμηρίωση ADOdb</A> για λεπτομέρειες)';
-$string['auth_dbtype_key'] = 'Database';
-$string['auth_dbupdatinguser'] = 'Updating user {$a}[0] id {$a}[1]';
+$string['auth_dbpass_key'] = 'Κωδικός πρόσβασης';
+$string['auth_dbpasstype'] = '<p>Καθορίστε τη μορφή που χρησιμοποιείται από το πεδίο του κωδικού πρόσβασης. Η κρυπτογράφηση MD5 είναι χρήσιμη για σύνδεση με άλλες κοινές διαδικτυακές εφαρμογές όπως το  PostNuke.</p><p>Χρησιμοποιήστε το \'internal\' αν θέλετε η εξωτερική βάση δεδομένων να διαχειρίζεται ονόματα χρηστών και διευθύνσεις ηλεκτρονικού ταχυδρομείου, αλλά το Moodle θα διαχειρίζεται τους κωδικούς πρόσβασης. Αν  χρησιμοποιήσετε το \'internal\', <i>πρέπει</i> να παρέχετε ένα συμπληρωμένο πεδίο διεύθυνσης ηλεκτρονικού ταχυδρομείου στην εξωτερική βάση δεδομένων και πρέπει να εκτελείτε το  admin/cron.php συχνά. Το Moodle στέλνει ένα μήνυμα ηλεκτρονικού ταχυδρομείου που περιέχει ένα προσωρινό κωδικό πρόσβασης στους νέους χρήστες.</p>';
+$string['auth_dbpasstype_key'] = 'Μορφότυπος κωδικού πρόσβασης';
+$string['auth_dbreviveduser'] = 'O χρήστης «{$a->name}» με αναγνωριστικό «{$a->id}» αναβιώθηκε';
+$string['auth_dbrevivedusererror'] = 'Σφάλμα κατά την αναβίωση του χρήστη «{$a}»';
+$string['auth_dbsaltedcrypt'] = 'Mονόδρομος κατακερματισμός συμβολοσειράς μέσω της εντολής crypt';
+$string['auth_dbsetupsql'] = 'Εντολή εγκατάστασης SQL';
+$string['auth_dbsetupsqlhelp'] = 'Εντολή SQL για ειδική εγκατάσταση βάσης δεδομένων. Συχνά χρησιμοποιείται για να ρυθμίσει την κωδικοποίηση επικοινωνίας - παράδειγμα για την MySQL και την PostgreSQL: <em>SET NAMES \'utf8\'</em>';
+$string['auth_dbsuspenduser'] = 'Ο χρήστης με όνομα «{$a->name}» και αναγνωριστικό «{$a->id}» μπήκε σε αναστολή';
+$string['auth_dbsuspendusererror'] = 'Σφάλμα κατά την αναστολή χρήστη «{$a}»';
+$string['auth_dbsybasequoting'] = 'Χρήση sybase εισαγωγικών';
+$string['auth_dbsybasequotinghelp'] = 'Η μορφή sybase μονών εισαγωγικών απαιτείται για την Oracle, την MS SQL και ορισμένες άλλες βάσεις δεδομένων. Μην τα χρησιμοποιείται για την MySQL!';
+$string['auth_dbtable'] = 'Όνομα του πίνακα στη βάση δεδομένων';
+$string['auth_dbtable_key'] = 'Πίνακας';
+$string['auth_dbtype'] = 'Ο τύπος της βάσης δεδομένων (Δείτε την <a ref="http://phplens.com/adodb/supported.databases.html" target="_blank">τεκμηρίωση ADOdb</A> για λεπτομέρειες)';
+$string['auth_dbtype_key'] = 'Βάση δεδομένων';
+$string['auth_dbupdatinguser'] = 'Ενημέρωση του χρήστη με όνομα «{$a->name}» και αναγνωριστικό «{$a->id}»';
 $string['auth_dbuser'] = 'Όνομα χρήστη με δικαίωμα ανάγνωσης της βάσης δεδομένων.';
-$string['auth_dbuser_key'] = 'DB User';
-$string['auth_dbusernotexist'] = 'Cannot update non-existent user: {$a}';
-$string['auth_dbuserstoadd'] = 'User entries to add: {$a}';
-$string['auth_dbuserstoremove'] = 'User entries to remove: {$a}';
-$string['pluginname'] = 'Χρήση μιας εξωτερικής βάσης δεδομένων.';
+$string['auth_dbuser_key'] = 'Χρήστης βάσης δεδομένων';
+$string['auth_dbusernotexist'] = 'Δεν είναι δυνατή η ενημέρωση του μη υπάρχοντος χρήστη: {$a}';
+$string['auth_dbuserstoadd'] = 'Καταχωρήσεις χρηστών προς εισαγωγή: {$a}';
+$string['auth_dbuserstoremove'] = 'Καταχωρήσεις χρήστη προς διαγραφή: {$a}';
+$string['pluginname'] = 'Εξωτερική βάση δεδομένων';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'pix', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'pix', language 'el', branch 'MOODLE_32_STABLE'
  *
  * @package   pix
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,8 +33,11 @@ $string['blush'] = 'κοκκίνισμα';
 $string['clown'] = 'κλόουν';
 $string['cool'] = 'άνετος';
 $string['dead'] = 'νεκρός';
+$string['egg'] = 'αυγό';
 $string['evil'] = 'κακός';
+$string['heart'] = 'καρδιά';
 $string['kiss'] = 'φιλί';
+$string['martin'] = 'χελιδώνι';
 $string['mixed'] = 'μπερδεμένος';
 $string['sad'] = 'λυπημένος';
 $string['shy'] = 'ντροπαλός';

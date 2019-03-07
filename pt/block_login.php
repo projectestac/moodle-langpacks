@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_login', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_login', language 'pt', branch 'MOODLE_32_STABLE'
  *
  * @package   block_login
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['login:addinstance'] = 'Adicionar um novo bloco Utilizador autenticado';
+$string['login:addinstance'] = 'Adicionar um novo bloco Autenticação';
 $string['pluginname'] = 'Entrar';
-$string['privacy:metadata'] = 'O bloco de Autenticação apenas fornece um modo de autenticação e não armazena dados.';

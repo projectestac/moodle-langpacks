@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'booktool_importhtml', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'booktool_importhtml', language 'eu', branch 'MOODLE_32_STABLE'
  *
  * @package   booktool_importhtml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,11 +32,10 @@ $string['importhtml:import'] = 'Inportatu atalak';
 $string['importing'] = 'Inportatzen';
 $string['importingchapters'] = 'Atalak liburura inportatzen';
 $string['pluginname'] = 'Liburu-atala inportatu';
-$string['privacy:metadata'] = 'Liburu-atala inportatu pluginak ez du datu pertsonalik biltzen.';
 $string['relinking'] = 'Berriz estekatu';
 $string['type'] = 'Mota';
 $string['typeonefile'] = 'Goiburuak atal gisa dituen HTML fitxategia';
 $string['typezipdirs'] = 'Karpeta bakoitzak atal bat osatzen du';
 $string['typezipfiles'] = 'HTML fitxategi bakoitzak atal bat osatzen du';
 $string['ziparchive'] = 'Zip fitxategia';
-$string['ziparchive_help'] = 'Aukera ezazu HTML fitxategiak eta bestelako media-fitxategiak eta karpetak dituen ZIP fitxategia. Azpikarpetak igotzeko, gehitu "_sub" HTML fitxategiaren amaieran edo karpeta-izenean.';
+$string['ziparchive_help'] = 'Aukeratu HTML fitxategiak eta bestelako media-fitxategiak eta karpetak dituen ZIP fitxategia. Azpikarpetak igotzeko, gehitu "_sub" HTML fitxategiaren amaieran edo karpeta-izenean.';

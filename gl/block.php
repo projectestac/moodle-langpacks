@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   block
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['addtodock'] = 'Mover isto á doca (bloque ancorado)';
 $string['anypagematchingtheabove'] = 'Calquera páxina coincidente coa anterior';
 $string['appearsinsubcontexts'] = 'Aparece en subcontextos';
 $string['assignrolesinblock'] = 'Asignar roles no bloque {$a}';
+$string['blocksdrawertoggle'] = 'Acochar/amosar o caixón de bloques';
 $string['blocksettings'] = 'Configuración do bloque';
 $string['bracketfirst'] = '{$a} (primeiro)';
 $string['bracketlast'] = '{$a} (último)';
@@ -54,6 +55,7 @@ $string['moveblockafter'] = 'Mover o bloque despois do bloque {$a}';
 $string['moveblockbefore'] = 'Mover o bloque antes do bloque {$a}';
 $string['moveblockinregion'] = 'Mover o bloque para a rexión {$a}';
 $string['movingthisblockcancel'] = 'Movendo este bloque ({$a})';
+$string['myblocks'] = 'Os meus bloques';
 $string['onthispage'] = 'Nesta páxina';
 $string['pagetypes'] = 'Tipos de páxina';
 $string['pagetypewarning'] = 'O tipo de páxina especificado anteriormente xa non é seleccionábel. Escolla a seguir o tipo de páxina máis axeitado.';
@@ -68,8 +70,8 @@ $string['showonfrontpageonly'] = 'Presentar só na páxina de portada';
 $string['subpages'] = 'Seleccionar páxinas';
 $string['thisspecificpage'] = 'Esta páxina específica';
 $string['undockall'] = 'Desancorar todo';
-$string['undockblock'] = 'Desancorar {$a} da doca';
-$string['undockitem'] = 'Desaancorar este elemento';
+$string['undockblock'] = 'Desancorar o bloque {$a}';
+$string['undockitem'] = 'Desancorar este elemento';
 $string['visible'] = 'Visíbel';
 $string['weight'] = 'Peso';
 $string['wherethisblockappears'] = 'Onde aparece este bloque';

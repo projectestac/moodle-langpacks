@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_boxnet', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository_boxnet', language 'ja', branch 'MOODLE_32_STABLE'
  *
  * @package   repository_boxnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['apikey'] = 'APIキー';
 $string['boxnet:view'] = 'Boxリポジトリを表示する';
-$string['cannotcreatereference'] = 'Boxのファイルを共有する十分なパーミッションがないため、リファレンスを作成できません。';
+$string['cannotcreatereference'] = 'Boxのファイルを共有する十分なパーミッションがないためリファレンスを作成できません。';
 $string['clientid'] = 'クライアントID';
 $string['clientsecret'] = 'クライアント秘密鍵';
 $string['configplugin'] = 'Box設定';
@@ -38,8 +38,6 @@ $string['nullfilelist'] = 'このリポジトリにファイルはありませ�
 $string['password'] = 'パスワード';
 $string['pluginname'] = 'Box';
 $string['pluginname_help'] = 'Boxのリポジトリ';
-$string['privacy:metadata:repository_boxnet'] = 'Boxリポジトリプラグインはどのような個人データも保存しません。しかし、ユーザデータをMoodleからリモートシステムに転送します。';
-$string['privacy:metadata:repository_boxnet:query'] = 'Boxリポジトリユーザ検索テキストクエリです。';
 $string['saved'] = 'Boxデータが保存されました。';
 $string['shareurl'] = '共有URL';
 $string['username'] = 'Boxユーザ名';

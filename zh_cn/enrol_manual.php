@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_manual', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_manual', language 'zh_cn', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,7 +40,7 @@ $string['deleteselectedusers'] = '删除选中用户的选课记录';
 $string['editselectedusers'] = '编辑选中用户的选课';
 $string['enrolledincourserole'] = '以"{$a->role}"身份选修 "{$a->course}"。';
 $string['enrolusers'] = '加入用户';
-$string['expiredaction'] = '选课终止指令';
+$string['expiredaction'] = '选课到期行动';
 $string['expiredaction_help'] = '选择当用户选课之后要执行的操作。注意：当课程结束之后，某些用户资料和设置会被清除。';
 $string['expirymessageenrolledbody'] = '亲爱的{$a->user}，
 

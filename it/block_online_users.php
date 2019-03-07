@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_online_users', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_online_users', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   block_online_users
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,5 +31,4 @@ $string['online_users:myaddinstance'] = 'Aggiungere blocco Utenti online nella D
 $string['online_users:viewlist'] = 'Visualizzare elenco degli utenti online';
 $string['periodnminutes'] = 'ultimi {$a} minuti';
 $string['pluginname'] = 'Utenti online';
-$string['privacy:metadata'] = 'Il blocco Utenti online visualizza solamente dati provenienti da altre parti.';
 $string['timetosee'] = 'Rimuovi dopo inattività (minuti)';

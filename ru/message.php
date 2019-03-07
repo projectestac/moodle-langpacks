@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'message', language 'ru', branch 'MOODLE_32_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,7 +68,7 @@ $string['keywords'] = 'Слова';
 $string['loggedin'] = 'На сайте';
 $string['loggedindescription'] = 'Когда Вы на сайте';
 $string['loggedin_help'] = 'Настройте, как вы хотите получать уведомления после входа в Moodle';
-$string['loggedoff'] = 'Вне сайта';
+$string['loggedoff'] = 'Не в сети';
 $string['loggedoffdescription'] = 'Когда Вы вне сайта';
 $string['loggedoff_help'] = 'Настройте, как Вы хотите получать уведомления, когда Вы не находитесь на сайте Moodle';
 $string['managemessageoutputs'] = 'Управление способами доставки сообщений';
@@ -84,7 +84,7 @@ $string['newonlymsg'] = 'Показать только новые';
 $string['newsearch'] = 'Новый поиск';
 $string['nocontacts'] = 'Нет контактов';
 $string['noframesjs'] = 'Использовать простой интерфейс';
-$string['nomessages'] = 'Нет новых сообщений';
+$string['nomessages'] = 'Нет сообщений';
 $string['nomessagesfound'] = 'Сообщений не найдено';
 $string['noncontacts'] = 'Собеседники отсутствуют';
 $string['nonotifications'] = 'Уведомлений нет';

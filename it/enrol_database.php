@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_database', language 'it', branch 'MOODLE_32_STABLE'
  *
  * @package   enrol_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['database:config'] = 'Configurare istanze plugin Database esterno';
 $string['database:unenrol'] = 'Disiscrivi utenti sospesi';
 $string['dbencoding'] = 'Codifica databse';
 $string['dbhost'] = 'Host database';
-$string['dbhost_desc'] = 'Inserire l\'indirizzo IP o il nome host del database server. Utilizzare un system DSN se si usa ODBC. Utilizzare un DBS PDO se si usa PDO.';
+$string['dbhost_desc'] = 'Inserire l\'indirizzo IP o il nome host del database server. Utilizzare un system DSN se si usa ODBC.';
 $string['dbname'] = 'Nome del database';
 $string['dbname_desc'] = 'Lasciare vuoto se si usa un nome DSN per l\'host database.';
 $string['dbpass'] = 'Password del database';
@@ -45,7 +45,7 @@ $string['debugdb_desc'] = 'Esegue il debug della connessione ADOdb. Utile se si 
 $string['defaultcategory'] = 'Categoria di default per i nuovi corsi';
 $string['defaultcategory_desc'] = 'La categoria di default per i corsi creati automaticamente. Viene utilizzato quando non è stata specificata o non è stata trovata la id della categoria.';
 $string['defaultrole'] = 'Ruolo di default';
-$string['defaultrole_desc'] = 'Il ruolo che sarà assegnato per default se nella tabella esterna non sono stati specificati ruoli diversi.';
+$string['defaultrole_desc'] = 'Il ruolo che sarà assegnato di default se nella tabella esterna non sono stati specificati ruoli diversi.';
 $string['ignorehiddencourses'] = 'Ignora corsi nascosti';
 $string['ignorehiddencourses_desc'] = 'Se abilitato, gli utenti non saranno iscritti nei corsi non disponibili agli studenti.';
 $string['localcategoryfield'] = 'Campo locale per la categoria';
@@ -60,7 +60,6 @@ $string['newcoursetable'] = 'Tabella remota contenente i nuovi corsi';
 $string['newcoursetable_desc'] = 'Il nome della tabella che contiene l\'elenco dei corsi da creare automaticamente. Lasciando il nome vuoto non saranno creati corsi.';
 $string['pluginname'] = 'Database esterno';
 $string['pluginname_desc'] = 'Per gestire le iscrizioni ai corsi è possibile utilizzare un database esterno di (quasi) qualsiasi tipo. Si presuppone che il database esterno contenga almeno un campo con la ID del corso ed un campo che contenga la user id. Tali campi saranno confrontati con gli analoghi campi locali delle tabelle utenti e corsi.';
-$string['privacy:metadata'] = 'Il plugin di iscrizione "Database esterno" non memorizza dati personali.';
 $string['remotecoursefield'] = 'Campo remoto per i corsi';
 $string['remotecoursefield_desc'] = 'Il nome del campo della tabella remota utilizzato per individuare il corso nella tabella dei corsi.';
 $string['remoteenroltable'] = 'Tabella remota contenente le iscrizioni degli utenti';

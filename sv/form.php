@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'form', language 'sv', branch 'MOODLE_34_STABLE'
+ * Strings for component 'form', language 'sv', branch 'MOODLE_32_STABLE'
  *
  * @package   form
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,6 +50,7 @@ $string['modstandardels'] = 'Vanliga inställningar för modul';
 $string['month'] = 'Månad';
 $string['nomethodforaddinghelpbutton'] = 'Det finns ingen metod för att lägga till en hjälpknapp till en komponent i ett formulär {$a->name} (class {$a->classname})';
 $string['nonexistentformelements'] = 'Försöker att lägga till en hjälpknapp till en komponent till ett formulär som inte finns : {$a}';
+$string['noselection'] = 'Inga valda';
 $string['novalueclicktoset'] = 'Klicka och skriv in nytt lösenord';
 $string['optional'] = 'Valfri';
 $string['othersettings'] = 'Andra inställningar';

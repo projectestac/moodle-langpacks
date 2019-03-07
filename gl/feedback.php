@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'feedback', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,6 +57,7 @@ $string['chosen_feedback_response'] = 'escolleuse o comentario de resposta';
 $string['closebeforeopen'] = 'Especificou unha data de remate anterior á do inicio.';
 $string['completed'] = 'completado';
 $string['completed_feedbacks'] = 'Respostas entregadas';
+$string['completedon'] = 'Completado o {$a}';
 $string['complete_the_form'] = 'Responder as preguntas...';
 $string['completionsubmit'] = 'Ver como completado ao enviar o comentario';
 $string['configallowfullanonymous'] = 'De estar estabelecida afirmativamente, o comentario pode completarse sen ningún inicio de sesión precedente. Soamente afecta aos comentarios da páxina principal.';
@@ -236,6 +237,7 @@ $string['public'] = 'Público';
 $string['question'] = 'Pregunta';
 $string['questionandsubmission'] = 'Configuración da pregunta e da entrega';
 $string['questions'] = 'Preguntas';
+$string['questionslimited'] = 'Amosando só as primeiras preguntas de {$a}, ver as respostas individuais ou descargar datos de táboas para ver todo.';
 $string['radio'] = 'Elección múltiple - resposta única';
 $string['radiobutton'] = 'Elección múltiple - permítese a resposta única (botón de opción)';
 $string['radiobutton_rated'] = 'Botón de opción (puntuado)';
@@ -273,6 +275,7 @@ $string['site_after_submit'] = 'Sitio tras entregar';
 $string['sort_by_course'] = 'Ordenar por curso';
 $string['start'] = 'Iniciar';
 $string['started'] = 'iniciado';
+$string['startedon'] = 'Comenzado o {$a}';
 $string['stop'] = 'Fin';
 $string['subject'] = 'Asunto';
 $string['switch_group'] = 'Cambiar o grupo';

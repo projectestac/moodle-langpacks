@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'blog', language 'gl', branch 'MOODLE_32_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,7 +44,7 @@ $string['blogaboutthis'] = 'Blog sobre {$a->type}';
 $string['blogaboutthiscourse'] = 'Engadir un artigo sobre este curso';
 $string['blogaboutthismodule'] = 'Engadir un artigo sobre {$a}';
 $string['blogadministration'] = 'Administración do blog';
-$string['blogdeleteconfirm'] = 'Eliminar este artigo do blog?';
+$string['blogdeleteconfirm'] = 'Eliminar o artigo «{$a}» do blog?';
 $string['blogdisable'] = 'A publicación en blog está desactivada';
 $string['blogentries'] = 'Artigos do blog';
 $string['blogentriesabout'] = 'Artigos do blog sobre {$a}';
@@ -89,10 +89,15 @@ $string['entryerrornotyours'] = 'Este artigo non é seu';
 $string['entrysaved'] = 'Gardouse o seu artigo';
 $string['entrytitle'] = 'Título do artigo';
 $string['eventblogassociationadded'] = 'Creada a asociación do blog';
+$string['eventblogassociationdeleted'] = 'Eliminada a asociación do blog';
 $string['eventblogentriesviewed'] = 'Vistas as entradas do blog';
+$string['eventblogexternaladded'] = 'Rexistrado o blog externo';
+$string['eventblogexternalremoved'] = 'Blog externo dado de baixa';
+$string['eventblogexternalupdated'] = 'Actualizado o blog externo';
 $string['evententryadded'] = 'O artigo foi engadido';
 $string['evententrydeleted'] = 'O artigo foi eliminado';
 $string['evententryupdated'] = 'O artigo foi actualizado';
+$string['eventexternalblogsviewed'] = 'Visto o blog externo rexistrado';
 $string['externalblogcrontime'] = 'Programa de cron do blog externo';
 $string['externalblogdeleteconfirm'] = 'Dar de baixa este blog externo?';
 $string['externalblogdeleted'] = 'Blog externo dado de baixa';
@@ -129,7 +134,7 @@ $string['page-blog-x'] = 'Todas as páxinas de blog';
 $string['pagesize'] = 'Número de artigos de blog por páxina';
 $string['permalink'] = 'Ligazón permanente';
 $string['personalblogs'] = 'Os usuarios só poden ver o seu propio blog';
-$string['preferences'] = 'Preferencias';
+$string['preferences'] = 'Preferencias do blog';
 $string['publishto'] = 'Publicar en';
 $string['publishtocourse'] = 'Usuarios que comparten curso con vostede';
 $string['publishtocourseassoc'] = 'Membros do curso asociado';
@@ -186,4 +191,5 @@ $string['viewmyentriesaboutmodule'] = 'Ver todos os meus artigos sobre este {$a}
 $string['viewsiteentries'] = 'Ver todos os artigos';
 $string['viewuserentries'] = 'Ver todos os artigos por {$a}';
 $string['worldblogs'] = 'Calquera pode ver os artigos entradas definidos como accesíbeis a todo o mundo';
+$string['wrongexternalid'] = 'ID de blog externo incorrecto';
 $string['wrongpostid'] = 'ID de mensaxe de blog erróneo';
