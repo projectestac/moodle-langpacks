@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_orderedlist', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_orderedlist', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_orderedlist
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Αριθμημένη λίστα';
+$string['privacy:metadata'] = 'Το πρόσθετο «atto_orderedlist» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

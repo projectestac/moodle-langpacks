@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'label', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,10 @@ $string['dndresizeheight'] = 'Αλλαγή ύψους μεταφοράς και 
 $string['dndresizewidth'] = 'Αλλαγή πλάτους μεταφοράς και απόθεσης';
 $string['dnduploadlabel'] = 'Προσθήκη πολυμέσου στη σελίδα μαθήματος';
 $string['dnduploadlabeltext'] = 'Προσθήκη ταμπέλας στη σελίδα μαθήματος';
+$string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Ταμπέλας';
+$string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε έναν πόρο Ταμπέλας.';
+$string['indicator:socialbreadth'] = 'Κοινωνικό εύρος Ταμπέλας';
+$string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε έναν πόρο Ταμπέλας.';
 $string['label:addinstance'] = 'Προσθήκη νέας ταμπέλας';
 $string['labeltext'] = 'Κείμενο ταμπέλας';
 $string['label:view'] = 'Προβολή ταμπέλας';
@@ -45,4 +49,5 @@ $string['modulename_help'] = 'Το άρθρωμα ταμπέλα επιτρέπ�
 $string['modulenameplural'] = 'Ταμπέλες';
 $string['pluginadministration'] = 'Διαχείριση ταμπελών';
 $string['pluginname'] = 'Ταμπέλα';
+$string['privacy:metadata'] = 'Το πρόσθετο «Πόρος ταμπέλας» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['search:activity'] = 'Ταμπέλα';

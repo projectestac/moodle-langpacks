@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_link', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_link', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_link
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,4 +30,5 @@ $string['createlink'] = 'Crea enllaç';
 $string['enterurl'] = 'Introdueix un URL';
 $string['openinnewwindow'] = 'Obre en una finestra nova';
 $string['pluginname'] = 'Enllaç';
+$string['privacy:metadata'] = 'El connector atto_link no emmagatzema cap dada personal.';
 $string['unlink'] = 'Suprimeix l\'enllaç';

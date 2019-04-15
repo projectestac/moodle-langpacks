@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_guest', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_guest', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_guest
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['passwordinvalidhint'] = 'Este contrasinal de acceso é incorrecto, tén
 (Aquí ten unha pista - comeza con «{$a}»)';
 $string['pluginname'] = 'Acceso como convidado';
 $string['pluginname_desc'] = 'O engadido de acceso como convidado só proporciona acceso temporal aos cursos, non se matriculan usuarios neste momento.';
+$string['privacy:metadata'] = 'O engadido de inscrición de acceso para convidados non almacena ningún dato persoal.';
 $string['requirepassword'] = 'Requirir contrasinal de acceso a convidados';
 $string['requirepassword_desc'] = 'Require o contrasinal de acceso nos novos cursos e impide a retirada do contrasinal de acceso dos cursos existentes.';
 $string['showhint'] = 'Amosar pista';

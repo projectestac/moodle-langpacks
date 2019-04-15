@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_paypal', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_paypal', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_paypal
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,7 +59,35 @@ $string['paypal:unenrol'] = 'Ακύρωση εγγραφής χρηστών στ
 $string['paypal:unenrolself'] = 'Ακύρωση εγγραφής στο μάθημα από τον ίδιο';
 $string['pluginname'] = 'PayPal';
 $string['pluginname_desc'] = 'Το άρθρωμα PayPal σας επιτρέπει να δημιουργήσετε μαθήματα επί πληρωμή. Αν το κόστος για κάθε μάθημα είναι μηδενικό, τότε οι μαθητές δεν καλούνται να πληρώσουν για να εισαχθούν. Υπάρχει ένα κόστος για όλο τον ιστότοπο το οποίο το ορίζετε εδώ ως προεπιλογή για όλο τον ιστότοπο και έπειτα μια ρύθμιση μαθήματος που μπορείτε να ορίσετε για κάθε μάθημα μεμονωμένα. Το κόστος μαθήματος παρακάμπτει το κόστος ιστοτόπου.';
+$string['privacy:metadata:enrol_paypal:enrol_paypal'] = 'Πληροφορίες σχετικά με τις συναλλαγές PayPal για εγγραφές PayPal.';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:business'] = 'Διεύθυνση ηλεκτρονικού ταχυδρομείου ή αναγνωριστικό λογαριασμού PayPal του αποδέκτη πληρωμής (δηλαδή του εμπόρου).';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:courseid'] = 'Το αναγνωριστικό του μαθήματος που πωλείται.';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:instanceid'] = 'Το αναγνωριστικό του στιγμιότυπου εγγραφής στο μάθημα.';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:item_name'] = 'Το πλήρες όνομα του μαθήματος του οποίου  η εγγραφή έχει πωληθεί.';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:memo'] = 'Μια σημείωση που εισήχθη από τον αγοραστή στο πεδίο σημειώσεων του ιστοτόπου του PayPal.';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:option_selection1_x'] = 'Πλήρες όνομα του αγοραστή.';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:parent_txn_id'] = 'Σε περίπτωση επιστροφής χρημάτων, αντιστροφής ή ακυρώσεως αντιστροφής, αυτό θα ήταν το αναγνωριστικό συναλλαγής της αρχικής συναλλαγής.';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:payment_status'] = 'Η κατάσταση της πληρωμής.';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:payment_type'] = 'Διατηρεί το εάν η πληρωμή χρηματοδοτήθηκε με eCheck (echeck) ή αν χρηματοδοτήθηκε με το υπόλοιπο του PayPal, την πιστωτική κάρτα ή την άμεση μεταφορά (άμεση).';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:pending_reason'] = 'Ο λόγος για τον οποίο εκκρεμεί η κατάσταση πληρωμής (αν εκκρεμεί).';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:reason_code'] = 'Ο λόγος για τον οποίο η κατάσταση πληρωμής γίνεται Αντιστροφή, Επιστροφή, Ακύρωση_Αντιστροφή ή Απόρριψη (αν η κατάσταση είναι μία από αυτές).';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:receiver_email'] = 'Κύρια διεύθυνση ηλεκτρονικού ταχυδρομείου του αποδέκτη πληρωμής (δηλαδή, του εμπόρου).';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:receiver_id'] = 'Μοναδικό αναγνωριστικό λογαριασμού PayPal του αποδέκτη πληρωμής (δηλ. του εμπόρου).';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:tax'] = 'Ποσό φόρου που χρεώνεται στην πληρωμή.';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:timeupdated'] = 'Πότε ειδοποιείται το Moodle από  την PayPal για την πληρωμή.';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:txn_id'] = 'Ο αρχικός αριθμός αναγνώρισης συναλλαγής του εμπόρου για την πληρωμή από τον αγοραστή, έναντι του οποίου καταχωρήθηκε η υπόθεση.';
+$string['privacy:metadata:enrol_paypal:enrol_paypal:userid'] = 'Το αναγνωριστικό του χρήστη που αγόρασε την εγγραφή του μαθήματος.';
+$string['privacy:metadata:enrol_paypal:paypal_com'] = 'Το πρόσθετο εγγραφής PayPal μεταβιβάζει δεδομένα χρήστη από το Moodle στην ιστοσελίδα του PayPal.';
+$string['privacy:metadata:enrol_paypal:paypal_com:address'] = 'Διεύθυνση του χρήστη που αγοράζει το μάθημα.';
+$string['privacy:metadata:enrol_paypal:paypal_com:city'] = 'Πόλη του χρήστη που αγοράζει το μάθημα.';
+$string['privacy:metadata:enrol_paypal:paypal_com:country'] = 'Χώρα του χρήστη που αγοράζει το μάθημα.';
+$string['privacy:metadata:enrol_paypal:paypal_com:custom'] = 'Μια συμβολοσειρά, με διαχωριστικό την παύλα, που περιέχει το αναγνωριστικό του χρήστη (του αγοραστή), το αναγνωριστικό του μαθήματος, το αναγνωριστικό του στιγμιοτύπου εγγραφής.';
+$string['privacy:metadata:enrol_paypal:paypal_com:email'] = 'Διεύθυνση ηλεκτρονικού ταχυδρομείου του χρήστη που αγοράζει το μάθημα.';
+$string['privacy:metadata:enrol_paypal:paypal_com:first_name'] = 'Όνομα του χρήστη που αγοράζει το μάθημα.';
+$string['privacy:metadata:enrol_paypal:paypal_com:last_name'] = 'Το επώνυμο του χρήστη που αγοράζει το μάθημα.';
+$string['privacy:metadata:enrol_paypal:paypal_com:os0'] = 'Πλήρες όνομα του αγοραστή.';
 $string['sendpaymentbutton'] = 'Αποστολή πληρωμής με Paypal';
 $string['status'] = 'Επιτρέπονται εγγραφές PayPal';
 $string['status_desc'] = 'Επιτρέπεται στους χρήστες να χρησιμοποιούν PayPal για να εγγραφούν στο μάθημα από προεπιλογή.';
+$string['transactions'] = 'Συναλλαγές PayPal';
 $string['unenrolselfconfirm'] = 'Είστε βεβαιοι ότι θέλετε να ακυρώσετε την εγγραφή σας στο μάθημα "{$a}";';

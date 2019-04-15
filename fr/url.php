@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'url', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['createurl'] = 'Créer une URL';
 $string['displayoptions'] = 'Options d\'affichage disponibles';
 $string['displayselect'] = 'Affichage';
 $string['displayselectexplain'] = 'Choisir le type d\'affichage. Tous les types ne sont pas adéquats pour toutes les URLs.';
-$string['displayselect_help'] = 'Ce réglage, ainsi que le type de fichier de l\'URL et la capacité du navigateur à intégrer des objets (<i>embedding</i>), détermine la façon dont le l\'URL est affichée. Les options peuvent être :
+$string['displayselect_help'] = 'Ce réglage, ainsi que le type de fichier de l\'URL et la capacité du navigateur à intégrer des objets (<i>embedding</i>), détermine la façon dont l\'URL est affichée. Les options peuvent être :
 
 * Automatique : la meilleure option d\'affichage pour l\'URL concernée est automatiquement sélectionnée
 * Intégrer : l\'URL est affichée dans la page au-dessous de la barre de navigation, avec la description de l\'URL et tous les blocs
@@ -46,6 +46,10 @@ $string['displayselect_help'] = 'Ce réglage, ainsi que le type de fichier de l\
 * Nouvelle fenêtre : l\'URL est affichée dans une nouvelle fenêtre du navigateur, avec menus et barre d\'adresse';
 $string['externalurl'] = 'URL externe';
 $string['framesize'] = 'Hauteur du cadre';
+$string['indicator:cognitivedepth'] = 'URL : aspect cognitif';
+$string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une ressource URL.';
+$string['indicator:socialbreadth'] = 'URL : aspect social';
+$string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une ressource URL.';
 $string['invalidstoredurl'] = 'Impossible d\'afficher cette ressource : l\'URL n\'est pas valide.';
 $string['invalidurl'] = 'L\'URL saisie n\'est pas valide';
 $string['modulename'] = 'URL';
@@ -65,6 +69,7 @@ $string['popupwidth'] = 'Largeur de la fenêtre (en pixels)';
 $string['popupwidthexplain'] = 'Indique la largeur par défaut des fenêtres surgissantes.';
 $string['printintro'] = 'Afficher la description de la ressource';
 $string['printintroexplain'] = 'Indique s\'il faut afficher la description de l\'URL en dessous du contenu. Certains types d\'affichage n\'afficheront toutefois pas cette description, même lorsque l\'option est activée.';
+$string['privacy:metadata'] = 'Le plugin mod_url n\'enregistre aucune donnée personnelle.';
 $string['rolesinparams'] = 'Inclure les noms des rôles dans les paramètres';
 $string['search:activity'] = 'URL';
 $string['serverurl'] = 'URL du serveur';

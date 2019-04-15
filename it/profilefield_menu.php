@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_menu', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_menu', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_menu
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Menu a discesa';
+$string['privacy:metadata:profilefield_menu:data'] = 'Dati utente nel campo personalizzato \'Menu a discesa\'';
+$string['privacy:metadata:profilefield_menu:dataformat'] = 'Formato dei dati utente nel campo personalizzato \'Menu a discesa\'';
+$string['privacy:metadata:profilefield_menu:fieldid'] = 'ID del campo profilo';
+$string['privacy:metadata:profilefield_menu:tableexplanation'] = 'Dati profilo aggiuntivi';
+$string['privacy:metadata:profilefield_menu:userid'] = 'ID dell\'utente i cui dati sono memorizzati nel campo personalizzato \'Menu a discesa\'';

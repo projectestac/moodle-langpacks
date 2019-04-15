@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'editor_tinymce', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -241,7 +241,7 @@ $string['advlink_dlg:popup_opts'] = 'Επιλογές';
 $string['advlink_dlg:popup_position'] = 'Θέση (X/Y)';
 $string['advlink_dlg:popup_props'] = 'Ιδιότητες Popup';
 $string['advlink_dlg:popup_resizable'] = 'Να αλλάζουν οι διαστάσεις του παραθύρου';
-$string['advlink_dlg:popup_return'] = 'Εισαγωγή \'return false\'';
+$string['advlink_dlg:popup_return'] = 'Εισαγωγή «return false»';
 $string['advlink_dlg:popup_scrollbars'] = 'Εμφάνιση ράβδων κύλισης';
 $string['advlink_dlg:popup_size'] = 'Μέγεθος';
 $string['advlink_dlg:popup_statusbar'] = 'Εμφάνιση γραμμής κατάστασης';
@@ -425,10 +425,10 @@ $string['fullpage_dlg:ltr'] = 'Αριστερά προς δεξιά';
 $string['fullpage_dlg:media'] = 'Πολυμέσα';
 $string['fullpage_dlg:meta_description'] = 'Περιγραφή';
 $string['fullpage_dlg:meta_element'] = 'Στοιχείο μετα-πληροφορίας';
-$string['fullpage_dlg:meta_index_follow'] = 'Καταχώρηση και να ακολουθηθούν οι σύνδεσμοι';
-$string['fullpage_dlg:meta_index_nofollow'] = 'Καταχώρηση και να μην ακολουθηθούν οι σύνδεσμοι';
+$string['fullpage_dlg:meta_index_follow'] = 'Ευρετηρίαση και να ακολουθηθούν οι σύνδεσμοι';
+$string['fullpage_dlg:meta_index_nofollow'] = 'Ευρετηρίαση και να μην ακολουθηθούν οι σύνδεσμοι';
 $string['fullpage_dlg:meta_keywords'] = 'Λέξεις κλειδιά';
-$string['fullpage_dlg:meta_noindex_follow'] = 'Χωρίς καταχώρηση και να ακολουθηθούν οι σύνδεσμοι';
+$string['fullpage_dlg:meta_noindex_follow'] = 'Χωρίς ευρετηρίαση και να ακολουθηθούν οι σύνδεσμοι';
 $string['fullpage_dlg:meta_noindex_nofollow'] = 'Χωρίς ευρετηρίαση και να μην ακολουθηθούν οι σύνδεσμοι';
 $string['fullpage_dlg:meta_props'] = 'Μετα-πληροφορίες';
 $string['fullpage_dlg:meta_robots'] = 'Ρομπότ';
@@ -600,6 +600,7 @@ $string['paste:selectall_desc'] = 'Επιλογή όλων';
 $string['pluginname'] = 'Επεξεργαστής HTML TinyMCE';
 $string['preview:preview_desc'] = 'Προεπισκόπηση';
 $string['print:print_desc'] = 'Εκτύπωση';
+$string['privacy:metadata'] = 'Το πρόσθετο editor_tinymce (επεξεργαστής HTML TinyMCE) δεν αποθηκεύει καθόλου προσωπικά δεδομένα.';
 $string['save:cancel_desc'] = 'Ακύρωση όλων των αλλαγών';
 $string['save:save_desc'] = 'Αποθήκευση';
 $string['searchreplace:delta_height'] = '';
@@ -710,7 +711,7 @@ $string['style_dlg:toggle_insert_span'] = 'Εισαγωγή εκπετάσματ
 $string['style_dlg:top'] = 'Πάνω';
 $string['style_dlg:visibility'] = 'Ορατότητα';
 $string['style_dlg:width'] = 'Πλάτος';
-$string['style_dlg:zindex'] = 'Z-index';
+$string['style_dlg:zindex'] = 'Z-index (αρίθμηση επικάλυψης σε βάθος)';
 $string['subplugintype_tinymce'] = 'Πρόσθετο';
 $string['subplugintype_tinymce_plural'] = 'Πρόσθετα';
 $string['table:cell'] = 'Κελί';
@@ -858,7 +859,7 @@ $string['xhtmlxtras_dlg:attribute_label_id'] = 'ID';
 $string['xhtmlxtras_dlg:attribute_label_langcode'] = 'Γλώσσα';
 $string['xhtmlxtras_dlg:attribute_label_langdir'] = 'Κατεύθυνση κειμένου';
 $string['xhtmlxtras_dlg:attribute_label_style'] = 'Στυλ';
-$string['xhtmlxtras_dlg:attribute_label_tabindex'] = 'TabIndex';
+$string['xhtmlxtras_dlg:attribute_label_tabindex'] = 'Αρίθμηση στοιχείου (Tabindex)';
 $string['xhtmlxtras_dlg:attribute_label_title'] = 'Τίτλος';
 $string['xhtmlxtras_dlg:attribute_option_ltr'] = 'Αριστερά προς δεξιά';
 $string['xhtmlxtras_dlg:attribute_option_rtl'] = 'Δεξιά προς αριστερά';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'badges', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['addbadgecriteria'] = 'Προσθήκη κριτηρίων διακρι�
 $string['addcourse'] = 'Προσθήκη μαθημάτων';
 $string['addcourse_help'] = 'Επιλέξτε όλα τα μαθήματα που πρέπει να προστεθούν σε αυτή την απαίτηση διακριτικoύ. Κρατήστε πατημένο το πλήκτρο CTRL για να επιλέξετε πολλά στοιχεία.';
 $string['addcriteria'] = 'Προσθήκη κριτηρίων';
-$string['addcriteriatext'] = 'Για να  ξεκινήσετε να προσθέτετε κριτήρια, επιλέξτε μια από τις επιλογές του drop-down μενού';
+$string['addcriteriatext'] = 'Για να  ξεκινήσετε να προσθέτετε κριτήρια, επιλέξτε μια από τις επιλογές του πτυσσόμενου μενού';
 $string['addtobackpack'] = 'Προσθήκη στο σακίδιο';
 $string['adminonly'] = 'Σε αυτή τη σελίδα έχουν πρόσβαση μόνο οι διαχειριστές.';
 $string['after'] = 'μετά την ημερομηνία έκδοσης.';
@@ -311,7 +311,8 @@ $string['notification_help'] = 'Αυτή η ρύθμιση διαχειρίζε�
 
 * **ΠΟΤΕ** - Να μην αποστέλλονται ειδοποιήσεις.
 * **ΚΑΘΕ ΦΟΡΑ** - Να αποστέλλεται μια ειδοποίηση κάθε φορά που το διακριτικό απονέμεται.
-* **ΗΜΕΡΙΣΙΩΣ** - Να αποστέλλονται ειδοποιήσεις μία φορά την ημέρα.
+* **ΗΜΕΡΗΣΙΩΣ** - Να αποστέλλονται ειδοποιήσεις μία φορά την ημέρα.
+* **ΕΒΔΟΜΑΔΙΑΙΑ** - Να αποστέλλονται ειδοποιήσεις μία φορά την εβδομάδα.
 * **ΜΗΝΙΑΙΑ** - Να αποστέλλονται ειδοποιήσεις μία φορά τον μήνα.';
 $string['notifydaily'] = 'Ημερησίως';
 $string['notifyevery'] = 'Κάθε φορά';
@@ -325,6 +326,34 @@ $string['personaconnection_help'] = 'Το Persona είναι ένα σύστημ
 Για περισσότερες πληροφορίες επισκεφτείτε <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Ενδεχόμενοι αποδέκτες του διακριτικού';
 $string['preferences'] = 'Προτιμήσεις διακριτικών';
+$string['privacy:metadata:backpack'] = 'Ιστορικό σακιδίων χρηστών';
+$string['privacy:metadata:backpack:backpackuid'] = 'Μοναδικό αναγνωριστικό του σακιδίου';
+$string['privacy:metadata:backpack:backpackurl'] = 'Η διεύθυνση URL του σακιδίου';
+$string['privacy:metadata:backpack:email'] = 'Η διεύθυνση ηλ. ταχυδρομείου που συσχετίζεται με αυτό το σακίδιο';
+$string['privacy:metadata:backpack:userid'] = 'Το αναγνωριστικό του χρήστη του σακιδίου';
+$string['privacy:metadata:badge'] = 'Μια συλλογή από διακριτικά';
+$string['privacy:metadata:badge:timecreated'] = 'Πότε δημιουργήθηκε το διακριτικό';
+$string['privacy:metadata:badge:timemodified'] = 'Πότε τροποποιήθηκε τελευταία το διακριτικό';
+$string['privacy:metadata:badge:usercreated'] = 'Το αναγνωριστικό του χρήστη που δημιούργησε το διακριτικό';
+$string['privacy:metadata:badge:usermodified'] = 'Το αναγνωριστικό του χρήστη που τροποποίησε το διακριτικό';
+$string['privacy:metadata:criteriamet'] = 'Μια συλλογή από κριτήρια που ικανοποιήθηκαν';
+$string['privacy:metadata:criteriamet:datemet'] = 'Η ημερομηνία ικανοποίησης των κριτηρίων';
+$string['privacy:metadata:criteriamet:userid'] = 'Το αναγνωριστικό του χρήστη που ικανοποίησε τα κριτήρια';
+$string['privacy:metadata:external:backpacks'] = 'Πληροφορίες που ανταλλάσσονται όταν οι χρήστες υποβάλουν τα διακριτικά τους σε ένα εξωτερικό σακίδιο';
+$string['privacy:metadata:external:backpacks:badge'] = 'Το όνομα του διακριτικού';
+$string['privacy:metadata:external:backpacks:description'] = 'Περιγραφή του διακριτικού';
+$string['privacy:metadata:external:backpacks:image'] = 'Η εικόνα του διακριτικού';
+$string['privacy:metadata:external:backpacks:issuer'] = 'Ορισμένες πληροφορίες σχετικά με τον εκδότη';
+$string['privacy:metadata:external:backpacks:url'] = 'Η διεύθυνση URL του Moodle όπου μπορεί κανείς να δει το διακριτικό που έχει εκδοθεί.';
+$string['privacy:metadata:issued'] = 'Ένα ιστορικό των διακριτικών που έχουν απονεμηθεί';
+$string['privacy:metadata:issued:dateexpire'] = 'Η ημερομηνία κατά την οποία λήγει το διακριτικό';
+$string['privacy:metadata:issued:dateissued'] = 'Η ημερομηνία του διακριτικού';
+$string['privacy:metadata:issued:userid'] = 'Το αναγνωριστικό του χρήστη που απένειμε το διακριτικό';
+$string['privacy:metadata:manualaward'] = 'Ένα ιστορικό χειροκίνητων διακριτικών';
+$string['privacy:metadata:manualaward:datemet'] = 'Η ημερομηνία απονομής του διακριτικού στο χρήστη';
+$string['privacy:metadata:manualaward:issuerid'] = 'Το αναγνωριστικό του χρήστη που απένειμε το διακριτικό';
+$string['privacy:metadata:manualaward:issuerrole'] = 'Ο ρόλος του χρήστη που απένειμε το διακριτικό';
+$string['privacy:metadata:manualaward:recipientid'] = 'Το αναγνωριστικό του χρήστη που χειροκίνητα απένειμε ένα διακριτικό';
 $string['recipientdetails'] = 'Στοιχεία αποδέκτη';
 $string['recipientidentificationproblem'] = 'Αδυναμία εύρεσης αποδέκτη αυτού του διακριτικού μεταξύ των υπαρχόντων χρηστών.';
 $string['recipients'] = 'Αποδέκτες διακριτικού';

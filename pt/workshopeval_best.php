@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopeval_best', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopeval_best', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopeval_best
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['comparison'] = 'Comparar avaliações';
-$string['comparison_help'] = 'Esta configuração especifica o rigor da comparação entre avaliações. A comparação deve ser rigorosa, para que se obtenha um grau elevado de qualidade.';
+$string['comparison_help'] = 'Esta configuração especifica o rigor da comparação entre avaliações. A comparação deve ser rigorosa, para que se obtenha um nota alta.';
 $string['comparisonlevel1'] = 'muito rigorosa';
 $string['comparisonlevel3'] = 'rigorosa';
 $string['comparisonlevel5'] = 'justa';
@@ -34,3 +34,4 @@ $string['comparisonlevel7'] = 'vaga';
 $string['comparisonlevel9'] = 'muito vaga';
 $string['configcomparison'] = 'Valor predefinido do fator que influencia a avaliação da classificação pelo avaliador.';
 $string['pluginname'] = 'Comparar com a melhor avaliação';
+$string['privacy:metadata'] = 'O módulo Comparação com o melhor trabalho não armazena dados pessoais. Os atuais dados pessoais sobre avaliação dos utilizadores são armazenados pelo módulo workshop em si e são anexados a dados de submissões e avaliações exportados.';

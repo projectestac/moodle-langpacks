@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completionstatus', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_completionstatus', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_completionstatus
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,5 +30,6 @@ $string['completionstatus:addinstance'] = 'Προσθήκη ενός νέου μ
 $string['criteriagroup'] = 'Ομάδα κριτηρίων';
 $string['firstofsecond'] = '{$a->first} από {$a->second}';
 $string['pluginname'] = 'Κατάσταση ολοκλήρωσης μαθήματος';
+$string['privacy:metadata'] = 'Το μπλοκ «Κατάσταση ολοκλήρωσης μαθήματος» εμφανίζει μόνο πληροφορίες σχετικά με την ολοκλήρωση του μαθήματος και δεν αποθηκεύει κανένα δικό του δεδομένο.';
 $string['requirement'] = 'Απαίτηση';
 $string['returntocourse'] = 'Επιστροφή στο μάθημα';

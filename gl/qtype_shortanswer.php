@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_shortanswer', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_shortanswer', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_shortanswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,3 +43,4 @@ $string['pluginnameediting'] = 'Editando unha pregunta de resposta curta';
 $string['pluginname_help'] = 'En resposta á unha pregunta (que pode incluír unha imaxe) o que responde escribe unha palabra ou unha frase curta. Pode haber varias respostas posíbeis, cada unha cunha cualificación diferente. Se a «Distinción entre maiúsculas e minúsculas» está seleccionada, pode ter diferentes puntuacións para «Palabra» e «palabra».';
 $string['pluginname_link'] = 'pregunta/tipo/resposta_curta';
 $string['pluginnamesummary'] = 'Permitirlle unha resposta de unha ou unhas poucas palabras que se cualifican comparando contra varios modelos de resposta, que pode conter comodíns.';
+$string['privacy:metadata'] = 'O engadido de pregunta curta non almacena ningún dato persoal.';

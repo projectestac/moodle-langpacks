@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'feedback', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['anonymous'] = 'Les respostes seran anònimes';
 $string['anonymous_edit'] = 'Enregistrament dels noms d\'usuari';
 $string['anonymous_entries'] = 'Entrades anònimes ({$a})';
 $string['anonymous_user'] = 'Usuari anònim';
+$string['answerquestions'] = 'Respon les preguntes';
 $string['append_new_items'] = 'Afegeix elements nous';
 $string['autonumbering'] = 'Numeració automàtica de les preguntes';
 $string['autonumbering_help'] = 'Habilita o inhabilita la numeració automàtica per a cada pregunta';

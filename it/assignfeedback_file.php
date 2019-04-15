@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_file', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignfeedback_file', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   assignfeedback_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,6 +49,8 @@ $string['maximumsize'] = 'Dimensione massima file';
 $string['moreusers'] = '{$a} successivi...';
 $string['nochanges'] = 'Nessuna modifica';
 $string['pluginname'] = 'File di commento';
+$string['privacy:metadata:filepurpose'] = 'File di feedback inviati dal docente allo studente,';
+$string['privacy:path'] = 'File di feedback';
 $string['selectedusers'] = 'Utenti selezionati';
 $string['uploadfiles'] = 'Invia file di commento';
 $string['uploadzip'] = 'Carica più file di commento via zip';

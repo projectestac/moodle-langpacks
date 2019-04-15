@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_wikimedia', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_wikimedia', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_wikimedia
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,4 +30,8 @@ $string['keyword'] = 'Rechercher';
 $string['maxheight'] = 'Hauteur max de l\'image (px)';
 $string['maxwidth'] = 'Largeur max de l\'image (px)';
 $string['pluginname'] = 'Wikimedia';
+$string['privacy:metadata:repository_wikimedia'] = 'Le plugin de dépôt Wikimedia enregistre des réglages utilisateur et transmet des données personnelles de Moodle à un système distant.';
+$string['privacy:metadata:repository_wikimedia:preference:maxheight'] = 'La préférence utilisateur Hauteur maximale configurée pour le plugin Wikimedia.';
+$string['privacy:metadata:repository_wikimedia:preference:maxwidth'] = 'La préférence utilisateur Largeur maximale configurée pour le dépôt Wikimedia';
+$string['privacy:metadata:repository_wikimedia:search_text'] = 'La requête de recherche utilisateur du dépôt Wikimedia.';
 $string['wikimedia:view'] = 'Consulter un dépôt Wikimedia';

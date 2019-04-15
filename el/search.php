@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'search', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,7 +41,7 @@ $string['commenton'] = 'Σχολιασμός του';
 $string['createanindex'] = 'δημιουργία ευρετηρίου';
 $string['createdon'] = 'Δημιουργήθηκε την';
 $string['database'] = 'Βάση δεδομένων';
-$string['databasestate'] = 'Δημιουργείται ευρετήριο της βάσης δεδομένων';
+$string['databasestate'] = 'Κατάσταση ευρετηρίου της βάσης δεδομένων';
 $string['datadirectory'] = 'Κατάλογος δεδομένων';
 $string['deletionsinindex'] = 'Διαγραφές στο ευρετήριο';
 $string['docmodifiedon'] = 'Τελευταία τροποποίηση στις {$a}';
@@ -53,12 +53,13 @@ $string['documentsindatabase'] = 'Έγγραφα στη βάση δεδομέν�
 $string['documentsinindex'] = 'Έγγραφα στο ευρετήριο';
 $string['duration'] = 'Διάρκεια';
 $string['emptydatabaseerror'] = 'Ο πίνακας της βάσης δεδομένων δεν υπάρχει ή δεν περιέχει εγγραφές ευρετηρίου.';
-$string['enginenotfound'] = 'Αδυναμία εύρεσης μηχανής {$a}';
+$string['enginenotfound'] = 'Αδυναμία εύρεσης μηχανής {$a}.';
 $string['enginenotinstalled'] = 'Η μηχανή {$a} δεν έχει εγκατασταθεί.';
 $string['enginenotselected'] = 'Δεν έχετε επιλέξει κάποια μηχανή αναζήτησης.';
 $string['engineserverstatus'] = 'Η μηχανή αναζήτησης δεν είναι διαθέσιμη. Παρακαλούμε, επικοινωνήστε με τον διαχειριστή σας.';
 $string['enteryoursearchquery'] = 'Δώστε το ερώτημά σας προς αναζήτηση';
 $string['errorareanotavailable'] = 'Η περιοχή αναζήτησης {$a} δεν είναι διαθέσιμη.';
+$string['error_indexing'] = 'Παρουσιάστηκε σφάλμα κατά τη δημιουργία ευρετηρίου';
 $string['errors'] = 'Σφάλματα';
 $string['filesinindexdirectory'] = 'Αρχεία στον κατάλογο ευρετηρίου';
 $string['filterheader'] = 'Φίλτρο';
@@ -67,6 +68,8 @@ $string['globalsearch'] = 'Καθολική αναζήτηση';
 $string['globalsearchdisabled'] = 'Η καθολική αναζήτηση δεν είναι ενεργοποιημένη.';
 $string['incourse'] = 'στο μάθημα «{$a}»';
 $string['index'] = 'Δημιουργία ευρετηρίου';
+$string['indexwhendisabledfullnotice'] = 'Η ευρετηρίαση δεν επιτρέπεται αυτή τη στιγμή όταν η αναζήτηση είναι απενεργοποιημένη. Για να την ενεργοποιήσετε, παρακαλούμε ανατρέξτε στη ρύθμιση <a href="{$a->url} "> searchindexwhendisabled </a>.';
+$string['indexwhendisabledshortnotice'] = 'Η δημιουργία ευρετηρίου δεν είναι διαθέσιμη.';
 $string['invalidindexerror'] = 'Ο κατάλογος ευρετηρίου περιέχει εσφαλμένα ή καθόλου δεδομένα.';
 $string['ittook'] = 'Χρειάστηκαν';
 $string['matchingfile'] = 'Αντιστοιχισμένο από το αρχείο <span class="filename">«{$a}»</span>';
@@ -78,9 +81,10 @@ $string['normalsearch'] = 'Κανονική έρευνα';
 $string['notitle'] = 'Χωρίς τίτλο';
 $string['openedon'] = 'ανοίχτηκε στις';
 $string['optimize'] = 'Βελτιστοποίηση';
+$string['privacy:metadata'] = 'Το υποσύστημα αναζήτησης δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['queryerror'] = 'Δεν ήταν δυνατό να αναλυθεί από τη μηχανή αναζήτησης, το ερώτημα που δώσατε: «{$a}»';
 $string['resultsreturnedfor'] = 'αποτελέσματα βρέθηκαν για';
-$string['runindexer'] = 'Δημιουργία ευρετηρίου';
+$string['runindexer'] = 'Δημιουργία ευρετηρίου (πραγματική)';
 $string['runindexertest'] = 'Δημιουργία ευρετηρίου (δοκιμή)';
 $string['score'] = 'Σκορ';
 $string['search'] = 'Αναζήτηση';
@@ -104,7 +108,7 @@ $string['tofetchtheseresults'] = 'για την εύρεση αυτών των �
 $string['totalsize'] = 'Συνολικό μέγεθος';
 $string['totime'] = 'Τροποποιήθηκε πριν από';
 $string['type'] = 'Τύπος';
-$string['uncompleteindexingerror'] = 'Η δημιουργία ευρετηρίου δεν ολοκληρώθηκε. Παρακαλούμε εκκινήστε την ξανά.';
+$string['uncompleteindexingerror'] = 'Η δημιουργία ευρετηρίου δεν ολοκληρώθηκε. Παρακαλούμε ξαναξεκκινήστε την.';
 $string['versiontoolow'] = 'Λυπούμαστε, η καθολική έρευνα απαιτεί PHP έκδοση 5.0.0 ή νεότερη';
 $string['viewresultincontext'] = 'Προβολή αυτού του αποτελέσματος στο πλαίσιο';
 $string['wordsintitle'] = 'Λέξεις στον τίτλο';

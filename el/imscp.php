@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'imscp', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'imscp', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   imscp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,6 +31,10 @@ $string['contentheader'] = 'Περιεχόμενο';
 $string['deploymenterror'] = 'Σφάλμα πακέτου περιεχομένου!';
 $string['imscp:addinstance'] = 'Προσθέστε ένα νέο πακέτο περιεχομένου IMS';
 $string['imscp:view'] = 'Εμφάνιση IMS πακέτου περιεχομένου';
+$string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Πακέτου IMS';
+$string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε έναν πόρο Πακέτου περιεχομένου IMS.';
+$string['indicator:socialbreadth'] = 'Κοινωνικό εύρος Πακέτου IMS';
+$string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε έναν πόρο Πακέτου περιεχομένου IMS.';
 $string['keepold'] = 'Αρχείο πακέτων';
 $string['keepoldexplain'] = 'Πόσα πακέτα θα πρέπει να αρχειοθετηθούν;';
 $string['modulename'] = 'Πακέτο περιοχομένου IMS';
@@ -41,5 +45,6 @@ $string['packagefile'] = 'Αρχείο πακέτου';
 $string['page-mod-imscp-x'] = 'Οποιαδήποτε σελίδα αρθρώματος πακέτου περιεχομένου IMS';
 $string['pluginadministration'] = 'Διαχείριση IMSCP [Πακέτο (εκπαιδευτικού) περιεχομένου (Content package) της IMS]';
 $string['pluginname'] = 'Πακέτο περιοχομένου IMS';
+$string['privacy:metadata'] = 'Το πρόσθετο «Πακέτο περιεχομένου IMS» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['search:activity'] = 'Πακέτο περιεχομένου IMS - πληροφορίες πόρων';
 $string['toc'] = 'Πίνακας περιεχομένων (TOC: Table Of Contents)';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   block
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -60,6 +60,10 @@ $string['myblocks'] = 'Мои блоки';
 $string['onthispage'] = 'На этой странице';
 $string['pagetypes'] = 'Типы страниц';
 $string['pagetypewarning'] = 'Больше нет возможности выбирать указанный ранее тип страницы. Выберите наиболее подходящий тип страницы из приведенных ниже.';
+$string['privacy:metadata:userpref:dockedinstance'] = 'Записывает, когда пользователь помещает блок в док';
+$string['privacy:metadata:userpref:hiddenblock'] = 'Записывает, когда пользователь сворачивает/скрывает блок';
+$string['privacy:request:blockisdocked'] = 'Показывает, был ли блок помещен в док';
+$string['privacy:request:blockishidden'] = 'Показывает, был ли блок скрыт/свернут';
 $string['region'] = 'Область';
 $string['restrictpagetypes'] = 'Ограничить этими типами страниц:';
 $string['showblock'] = 'Показать блок «{$a}»';

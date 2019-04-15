@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_multichoice', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,10 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['answerhowmany'] = 'Один или несколько ответов?';
+$string['answerhowmany_desc'] = 'Должен ли по умолчанию быть один ответ (Переключатели) или несколько ответов (Флажки).';
 $string['answernumbering'] = 'Нумеровать варианты ответов?';
 $string['answernumbering123'] = '1., 2., 3., ...';
 $string['answernumberingabc'] = 'a., b., c., ...';
 $string['answernumberingABCD'] = 'A., B., C., ...';
+$string['answernumbering_desc'] = 'Стиль нумерации по умолчанию';
 $string['answernumberingiii'] = 'i., ii., iii., ...';
 $string['answernumberingIIII'] = 'I., II., III., ...';
 $string['answernumberingnone'] = 'Не нумеровать';
@@ -63,9 +65,11 @@ $string['pluginnameadding'] = 'Добавление вопроса «В закр
 $string['pluginnameediting'] = 'Редактирование вопроса «В закрытой форме (множественный выбор)»';
 $string['pluginname_help'] = 'Ответ на вопрос (который может содержать изображение) отвечающий выбирает из нескольких вариантов. Множественный выбор бывает двух типов: с одним правильным ответом или с несколькими правильными ответами.';
 $string['pluginnamesummary'] = 'Позволяет выбирать один или несколько правильных ответов из заданного списка.';
+$string['privacy:metadata'] = 'Плагин «Тип вопроса Множественный выбор» не хранит никаких персональных данных';
 $string['selectmulti'] = 'Выберите один или несколько ответов:';
 $string['selectone'] = 'Выберите один ответ:';
 $string['shuffleanswers'] = 'Случайный порядок ответов';
+$string['shuffleanswers_desc'] = 'Следует ли по умолчанию для каждой попытки перетасовывать варианты ответов.';
 $string['shuffleanswers_help'] = 'Если параметр включен, то порядок ответов в каждой попытке будет случайным, если «Случайный порядок ответов» также включен в настройках элемента курса.';
 $string['singleanswer'] = 'Выберите один ответ';
 $string['toomanyselected'] = 'Вы выбрали слишком много вариантов.';

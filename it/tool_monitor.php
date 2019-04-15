@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_monitor', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,6 +79,26 @@ $string['monitor:managetool'] = 'Abilita/disabilita monitoraggio eventi';
 $string['monitor:subscribe'] = 'Sottoscrizione regole monitoraggio eventi';
 $string['norules'] = 'Non ci sono regole di monitoraggio eventi.';
 $string['pluginname'] = 'Monitoraggio eventi';
+$string['privacy:metadata:description'] = 'Descrizione della regola.';
+$string['privacy:metadata:eventname'] = 'Nome non ambiguo dell\'evento.';
+$string['privacy:metadata:frequency'] = 'Frequenza delle notifiche.';
+$string['privacy:metadata:historysummary'] = 'Memorizza la storia delle notifiche inviate tramite email.';
+$string['privacy:metadata:inactivedate'] = 'Periodi di tempo, in giorni, dopo il quale una sottoscrizione inattiva verrà rimossa definitivamente.';
+$string['privacy:metadata:lastnotificationsent'] = 'Quando è stata inviata l\'ultima notifica per questa sottoscrizione.';
+$string['privacy:metadata:messagesummary'] = 'Le notifiche vengono inviate al sistema di messaggistica.';
+$string['privacy:metadata:name'] = 'Nome della regola.';
+$string['privacy:metadata:plugin'] = 'Nome Frankenstyle del plugin.';
+$string['privacy:metadata:rulessummary'] = 'Memorizza le regole di monitoraggio.';
+$string['privacy:metadata:subscriptionssummary'] = 'Memorizza le sottoscrizioni degli utenti alle varie regole.';
+$string['privacy:metadata:template'] = 'Modello messaggi.';
+$string['privacy:metadata:timecreatedrule'] = 'Data di creazione della regola.';
+$string['privacy:metadata:timecreatedsub'] = 'Data di creazione della sottoscrizione.';
+$string['privacy:metadata:timemodifiedrule'] = 'Quando è stata modificata la regola.';
+$string['privacy:metadata:timesent'] = 'Quando è stato inviato il messaggio.';
+$string['privacy:metadata:timewindow'] = 'Intervallo di tempo in secondi.';
+$string['privacy:metadata:userid'] = 'ID dell\'utente che ha creato la regola.';
+$string['privacy:metadata:useridhistory'] = 'ID dell\'utente a cui è stata inviata la notifica.';
+$string['privacy:metadata:useridsub'] = 'ID del sottoscrittore.';
 $string['processevents'] = 'Elaborazione eventi';
 $string['ruleareyousure'] = 'Sei sicuro di eliminare la regola "{$a}"?';
 $string['ruleareyousureextra'] = 'Saranno eliminate anche  {$a} sottoscrizioni della regola.';

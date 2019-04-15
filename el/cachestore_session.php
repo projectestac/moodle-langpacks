@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_session', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cachestore_session', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   cachestore_session
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Κρυφή μνήμη συνόδου';
+$string['privacy:metadata:core_user'] = 'Το πρόσθετο αποθήκευσης κρυφής μνήμης (cachestore) Συνόδου (Session) αποθηκεύει δεδομένα για λίγο ως μέρος της λειτουργικότητάς του ως κρυφής μνήμης. Αυτά τα δεδομένα αποθηκεύονται στη βραχύβια σύνοδο χρήστη.';

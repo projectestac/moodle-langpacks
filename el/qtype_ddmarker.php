@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,6 +73,7 @@ $string['pluginname_help'] = 'Οι δείκτες θέσης για μεταφο
 $string['pluginnamesummary'] = 'Οι δείκτες θέσης μεταφέρονται και απορρίπτονται πάνω σε μια εικόνα φόντου.';
 $string['previewareaheader'] = 'Προεπισκόπηση';
 $string['previewareamessage'] = 'Επιλέξτε μια εικόνα φόντου, πληκτρολογήστε ταμπέλες κειμένου για δείκτες θέσης και ορίστε ζώνες απόθεσης στην εικόνα φόντου μέσα στις οποίες πρέπει να μεταφέρονται.';
+$string['privacy:metadata'] = 'Το πρόσθετο τύπου ερώτησης μεταφοράς και απόθεσης δεικτών θέσης δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['refresh'] = 'Ανανέωση προεπισκόπησης';
 $string['shape'] = 'Σχήμα';
 $string['shape_circle'] = 'Κύκλος';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   availability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,6 +61,7 @@ $string['list_root_or_hidden'] = 'Condizioni alternative per l\'accesso (attivit
 $string['manageplugins'] = 'Gestione criteri di accesso';
 $string['missingplugin'] = 'Gestione plugin criteri di accesso';
 $string['or'] = 'or';
+$string['privacy:metadata'] = 'Il sottosistema "Criteri di accesso" Criteri di accesso';
 $string['restrictaccess'] = 'Condizioni per l\'accesso';
 $string['restrictbygroup'] = 'Aggiungi criterio di accesso basato su gruppi/raggruppamenti.';
 $string['setheading'] = 'Insieme {$a->number} di  {$a->count} criteri';

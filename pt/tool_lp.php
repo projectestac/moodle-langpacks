@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lp', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,7 @@ $string['aisrequired'] = '\'{$a}\' é necessário';
 $string['aplanswerecreated'] = 'Foram criados {$a} planos de aprendizagem.';
 $string['aplanswerecreatedmoremayrequiresync'] = 'Foram criados {$a} planos de aprendizagem e serão criados mais no decorrer da próxima sincronização.';
 $string['assigncohorts'] = 'Atribuir Grupos globais';
-$string['averageproficiencyrate'] = 'A percentagem média de proficiência para os planos de aprendizagem concluídos baseados neste modelo é {$a} %';
+$string['averageproficiencyrate'] = 'A percentagem média de proficiência para os planos de aprendizagem concluídos baseados neste modelo é {$a}%';
 $string['cancelreviewrequest'] = 'Cancelar o pedido de revisão';
 $string['cannotaddrules'] = 'A competência não pode ser configurada.';
 $string['cannotcreateuserplanswhentemplateduedateispassed'] = 'Não podem ser criados novos planos de aprendizagem, porque a data limite do modelo expirou, ou está prestes a expirar.';
@@ -80,7 +80,7 @@ $string['coursecompetencyratingsarenotpushedtouserplans'] = 'As avaliações das
 $string['coursecompetencyratingsarepushedtouserplans'] = 'As avaliações das competências nesta disciplina são automaticamente atualizadas nos planos de aprendizagem.';
 $string['coursecompetencyratingsquestion'] = 'Quando uma competência da disciplina é avaliada, a avaliação da competência nos planos de aprendizagem é atualizada ou aplica-se apenas à disciplina?';
 $string['coursesusingthiscompetency'] = 'Disciplinas associadas a esta competência';
-$string['coveragesummary'] = '{$a->competenciescoveredcount} de {$a->competenciescount} competência encontra-se abrangida ( {$a->coveragepercentage} % )';
+$string['coveragesummary'] = '{$a->competenciescoveredcount} de {$a->competenciescount} competência encontra-se abrangida ( {$a->coveragepercentage}% )';
 $string['createlearningplans'] = 'Criar planos de aprendizagem';
 $string['createplans'] = 'Criar planos de aprendizagem';
 $string['crossreferencedcompetencies'] = 'Competências referenciadas';
@@ -179,6 +179,7 @@ $string['planupdated'] = 'Plano de aprendizagem atualizado';
 $string['pluginname'] = 'Planos de aprendizagem';
 $string['points'] = 'Pontos';
 $string['pointsgivenfor'] = 'Pontos para \'{$a}\'';
+$string['privacy:metadata'] = 'O módulo Planos de aprendizagem não armazena dados pessoais.';
 $string['proficient'] = 'Proficiente';
 $string['progress'] = 'Progresso';
 $string['rate'] = 'Avaliar';

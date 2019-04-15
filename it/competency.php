@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'competency', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -115,6 +115,50 @@ $string['planstatusdraft'] = 'Bozza';
 $string['planstatusinreview'] = 'In revisione';
 $string['planstatuswaitingforreview'] = 'In attesa di revisione';
 $string['pointsrequiredaremet'] = 'Il punteggio richiesto è stato raggiunto';
+$string['privacy:metadata:competency'] = 'Registro delle competenze.';
+$string['privacy:metadata:competency_coursecomp'] = 'Registro delle competenze collegate a un corso.';
+$string['privacy:metadata:competency_coursecompsetting'] = 'Registro delle impostazioni delle competenze in un corso.';
+$string['privacy:metadata:competency_evidence'] = 'Registro delle prove che incidono sullo stato di una competenza.';
+$string['privacy:metadata:competency_framework'] = 'Registro dei quadri di competenze.';
+$string['privacy:metadata:competency_modulecomp'] = 'Registro delle competenze collegate a un modulo.';
+$string['privacy:metadata:competency_plan'] = 'Registro dei piani di formazione.';
+$string['privacy:metadata:competency_plancomp'] = 'Registro delle competenze in un piano di formazione.';
+$string['privacy:metadata:competency_relatedcomp'] = 'Registro delle relazioni fra le competenze.';
+$string['privacy:metadata:competency_template'] = 'Registro dei modelli di piani di formazione.';
+$string['privacy:metadata:competency_templatecohort'] = 'Registro dei gruppi globali associati a un modello di piano di formazione.';
+$string['privacy:metadata:competency_templatecomp'] = 'Registro delle competenze in un modello di piano di formazione.';
+$string['privacy:metadata:competency_usercomp'] = 'Registro dello stato delle competenze di un utente.';
+$string['privacy:metadata:competency_usercompcourse'] = 'Registro dello stato delle competenze di un utente in un corso.';
+$string['privacy:metadata:competency_usercompplan'] = 'Registro dello stato delle competenze in un piano di formazione.';
+$string['privacy:metadata:competency_userevidence'] = 'Registro delle attestazioni della formazione pregressa.';
+$string['privacy:metadata:competency_userevidencecomp'] = 'Registro delle competenze associate alle attestazioni della formazione pregressa.';
+$string['privacy:metadata:core_comments'] = 'Commenti sui piani di formazione e sulle competenze.';
+$string['privacy:metadata:evidence:action'] = 'Tipo di azione svolta con l\'attestazione.';
+$string['privacy:metadata:evidence:actionuserid'] = 'L\'utente svolge l\'azione.';
+$string['privacy:metadata:evidence:desca'] = 'Parametri facoltativi della descrizione traducibile della attestazione.';
+$string['privacy:metadata:evidence:desccomponent'] = 'Componente della descrizione traducibile della attestazione.';
+$string['privacy:metadata:evidence:descidentifier'] = 'Identificativo della descrizione traducibile della attestazione.';
+$string['privacy:metadata:evidence:grade'] = 'Valutazione associata alla attestazione.';
+$string['privacy:metadata:evidence:note'] = 'Nota non-localizzata allegata alla attestazione.';
+$string['privacy:metadata:evidence:url'] = 'URL associato alla attestazione.';
+$string['privacy:metadata:plan:description'] = 'Descrizione del piano di formazione.';
+$string['privacy:metadata:plan:duedate'] = 'Data di consegna del piano di formazione.';
+$string['privacy:metadata:plan:name'] = 'Nome del piano di formazione.';
+$string['privacy:metadata:plan:reviewerid'] = 'ID del revisore del piano di formazione.';
+$string['privacy:metadata:plan:status'] = 'Stato del piano di formazione.';
+$string['privacy:metadata:plan:userid'] = 'ID dell\'utente a cui appartiene il piano di formazione.';
+$string['privacy:metadata:timecreated'] = 'Data e ora di creazione del registro.';
+$string['privacy:metadata:timemodified'] = 'Data e ora di modifica del registro.';
+$string['privacy:metadata:usercomp:grade'] = 'Valutazione data per la competenza.';
+$string['privacy:metadata:usercomp:proficiency'] = 'Indicatore di conseguimento del livello di competenza.';
+$string['privacy:metadata:usercomp:reviewerid'] = 'ID del revisore.';
+$string['privacy:metadata:usercomp:status'] = 'Stato della competenza.';
+$string['privacy:metadata:usercomp:userid'] = 'ID dell\'utente a cui appartiene la competenza.';
+$string['privacy:metadata:userevidence:description'] = 'Descrizione della prova.';
+$string['privacy:metadata:userevidence:name'] = 'Nome della prova della formazione precedente.';
+$string['privacy:metadata:userevidence:url'] = 'URL associato all\'attestazione.';
+$string['privacy:metadata:usermodified'] = 'L\'utente che ha creato o modificato il registro.';
+$string['privacy:path:plans'] = 'Piani di formazione';
 $string['pushcourseratingstouserplans'] = 'Aggiorna i piani formativi individuali con le valutazioni del corso';
 $string['pushcourseratingstouserplans_desc'] = 'Di default le impostazioni del corso prevedono l\'aggiornamento dei piani formativi individuali quando vengono valutate le competenze.';
 $string['syncplanscohorts'] = 'Sincronizza i piani dai modelli dei piani formativi dei gruppi globali';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_history', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradereport_history', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   gradereport_history
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,6 +48,7 @@ $string['history:view'] = 'Ver o historial de cualificacións';
 $string['loadmoreusers'] = 'Cargar máis usuarios...';
 $string['pluginname'] = 'Historial de cualificacións';
 $string['preferences'] = 'Preferencias do historial de cualificacións';
+$string['privacy:metadata'] = 'O historial de cualificacións só amosa datos almacenados noutros lugares.';
 $string['revisedonly'] = 'Só as cualificacións revisadas';
 $string['revisedonly_help'] = 'Amosar só as cualificacións que foron revisadas.
 

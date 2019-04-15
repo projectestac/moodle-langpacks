@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scormreport_graphs', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'scormreport_graphs', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   scormreport_graphs
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,3 +29,4 @@ $string['invaliddata'] = 'Non hai datos abondo';
 $string['participants'] = 'Número de participantes';
 $string['percent'] = 'Porcentaxe(%) fixado';
 $string['pluginname'] = 'Informe gráfico';
+$string['privacy:metadata'] = 'O informe gráfico só amosa datos almacenados noutros lugares.';

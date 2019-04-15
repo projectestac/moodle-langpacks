@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_filesystem', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_filesystem', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_filesystem
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['nosubdir'] = 'É necesario crear polo menos un cartafol dentro do direc
 $string['path'] = 'Seleccionar un subdirectorio';
 $string['pluginname'] = 'Sistema de ficheiros:';
 $string['pluginname_help'] = 'Crear un repositorio de directorio local';
+$string['privacy:metadata'] = 'O engadido de repositorio do sistema de ficheiros non almacena ou transmite datos persoais.';
 $string['relativefiles'] = 'Permitir ficheiros relativos';
 $string['relativefiles_desc'] = 'Isto permite que todos os ficheiros no repositorio sexan accesíbeis empregando ligazóns relativas.';
 $string['root'] = 'Raíz';

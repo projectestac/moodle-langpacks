@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_cohortroles', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_cohortroles', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_cohortroles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,14 @@ $string['noassignableroles'] = 'Actualmente non hai roles que se poidan asignar 
 $string['nocohortroleassignmentssaved'] = 'Non se gardaron as asignacións de roles de círculo.';
 $string['onecohortroleassignmentsaved'] = 'Gardouse unha asignación de rol de círculo.';
 $string['pluginname'] = 'Xestión de roles de círculo';
+$string['privacy:metadata:tool_cohortroles'] = 'O engadido de xestión de roles «Cohort» almacena asignacións de roles de círculos.';
+$string['privacy:metadata:tool_cohortroles:cohortid'] = 'O ID do círculo.';
+$string['privacy:metadata:tool_cohortroles:id'] = 'O ID do rexistro de asignación de roles de círculo.';
+$string['privacy:metadata:tool_cohortroles:roleid'] = 'O ID do rol.';
+$string['privacy:metadata:tool_cohortroles:timecreated'] = 'A data/hora na que se creou a asignación de rol de círculo.';
+$string['privacy:metadata:tool_cohortroles:timemodified'] = 'A data/hora na que se modificou a asignación de rol de círculo.';
+$string['privacy:metadata:tool_cohortroles:userid'] = 'O ID do usuario.';
+$string['privacy:metadata:tool_cohortroles:usermodified'] = 'O ID do usuario que modificou a asignación de rol círculo por última vez.';
 $string['removecohortroleassignment'] = 'Elimina a asignación de roles de círculo';
 $string['removecohortroleassignmentconfirm'] = 'Confirma que quere retirar esta asignación de rol de círculo? Este rol será eliminado para este usuario en todos os outros contextos do usuario.';
 $string['selectcohorts'] = 'Seleccionar círculos';

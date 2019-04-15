@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'url', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,6 +47,10 @@ $string['displayselect_help'] = 'Этот параметр (наряду с ти
 * В новом окне - гиперссылка открывается в новом окне браузера с меню и адресной строкой';
 $string['externalurl'] = 'Адрес (URL)';
 $string['framesize'] = 'Высота фрейма';
+$string['indicator:cognitivedepth'] = 'Ссылка: познавательный аспект';
+$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на глубине познания, достигнутой студентом при работе с ресурсом Ссылка.';
+$string['indicator:socialbreadth'] = 'Гиперссылка: социальный аспект';
+$string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с ресурсом Гиперссылка.';
 $string['invalidstoredurl'] = 'Невозможно отобразить ресурс, некорректный адрес';
 $string['invalidurl'] = 'Введеный URL неверный';
 $string['modulename'] = 'Гиперссылка';

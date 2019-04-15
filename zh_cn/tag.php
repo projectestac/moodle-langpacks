@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tag', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['added'] = '标准标签已添加';
-$string['addedotag'] = '“{$a}”已添加为官方标签。';
 $string['addotags'] = '添加标准标签';
 $string['addtagcoll'] = '添加标签集';
 $string['addtagtomyinterests'] = '将“{$a}”添加至我的兴趣列表中';
@@ -90,7 +89,6 @@ $string['name'] = '标签名';
 $string['namesalreadybeeingused'] = '标签名已使用';
 $string['nameuseddocombine'] = '此标签名已被占用。您希望合并标签么？';
 $string['newcollnamefor'] = '标签集的新名称{$a}';
-$string['newname'] = '新标签名';
 $string['newnamefor'] = '标签{$a}的新名称';
 $string['nextpage'] = '更多';
 $string['noresultsfor'] = '未找到与“{$a}”相关的结果';
@@ -105,6 +103,19 @@ $string['page-tag-manage'] = '管理标签页';
 $string['page-tag-search'] = '标记搜索页';
 $string['page-tag-x'] = '所有标签页面';
 $string['prevpage'] = '返回';
+$string['privacy:metadata:tag'] = '每个唯一标签的详细信息与其描述和其他相关信息一起存储';
+$string['privacy:metadata:tag:description'] = '标签的描述。';
+$string['privacy:metadata:tag:flag'] = '标签是否已被标记为不合适。';
+$string['privacy:metadata:taginstance'] = '每个标签之间的链接及其使用位置。';
+$string['privacy:metadata:taginstance:ordering'] = '此标签的相对顺序。';
+$string['privacy:metadata:taginstance:tagid'] = '指向标签的链接。';
+$string['privacy:metadata:taginstance:timecreated'] = '此标签链接到目标的时间。';
+$string['privacy:metadata:taginstance:timemodified'] = '此标签修改链接到目标的时间。';
+$string['privacy:metadata:taginstance:tiuserid'] = '如果用户可以单独标记共享内容, 标签实例的所有者将被保存。';
+$string['privacy:metadata:tag:name'] = '标签名称 - 这是名称的规范化版本。';
+$string['privacy:metadata:tag:rawname'] = '标签的名称-这是显示名称。';
+$string['privacy:metadata:tag:timemodified'] = '标签上次修改的时间。';
+$string['privacy:metadata:tag:userid'] = '创建此标签的用户ID。';
 $string['ptags'] = '用户自定义标签(英文半角逗号分隔)';
 $string['relatedblogs'] = '最近发表的博客';
 $string['relatedtags'] = '相关标签';
@@ -154,13 +165,8 @@ $string['taggedwith'] = '标记为“{$a}”';
 $string['tags'] = '标签';
 $string['tagsaredisabled'] = '标签功能禁用';
 $string['tagtype'] = '标签类型';
-$string['tagtype_default'] = '默认';
-$string['tagtype_official'] = '官方';
 $string['thingstaggedwith'] = '“{$a->name}”使用次数：{$a->count}';
 $string['thingtaggedwith'] = '“{$a->name}”用过一次了';
-$string['thistaghasnodesc'] = '该标签未填写描述';
 $string['timemodified'] = '修改';
 $string['typechanged'] = '标签类型已更改';
-$string['updated'] = '已更新';
 $string['updatetag'] = '更新';
-$string['withselectedtags'] = '已选择的标签...';

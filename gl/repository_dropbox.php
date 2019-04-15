@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_dropbox', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_dropbox', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_dropbox
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,5 +36,7 @@ $string['logoutdesc'] = '(Cerrar a sesión cando remate de usar Dropbox)';
 $string['notitle'] = 'sen-título';
 $string['oauth2redirecturi'] = 'URI de redirección OAuth 2';
 $string['pluginname'] = 'Dropbox';
+$string['privacy:metadata:repository_dropbox'] = 'O engadido de repositorio en Dropbox almacena as preferencias do usuario e transmite os datos do usuario de Moodle ao sistema remoto.';
+$string['privacy:metadata:repository_dropbox:query'] = 'A consulta de busca de texto de usuario do repositorio Dropbox.';
 $string['remember'] = 'Lémbreme';
 $string['secret'] = 'Dropbox secreto';

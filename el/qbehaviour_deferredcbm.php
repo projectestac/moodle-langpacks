@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_deferredcbm', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_deferredcbm', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_deferredcbm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -65,6 +65,7 @@ $string['judgementsummary'] = 'Απαντήσεις: {$a->responses}. Ακρίβ
 $string['noquestions'] = 'Χωρίς απόκριση';
 $string['overconfident'] = 'με υπερβολική αυτοπεποίθηση';
 $string['pluginname'] = 'Αναβαλλόμενη ανατροφοδότηση με CBM (Certainty-based marking: βαθμολόγηση με βάση την βεβαιότητα)';
+$string['privacy:metadata'] = 'Το πρόσθετο «Συμπεριφορά καθυστερημένης ανατροφοδότησης με CBM» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['slightlyoverconfident'] = 'με λίγο υπερβολική αυτοπεποίθηση';
 $string['slightlyunderconfident'] = 'με λίγο μειωμένη αυτοπεποίθηση';
 $string['underconfident'] = 'χωρίς αυτοπεποίθηση';

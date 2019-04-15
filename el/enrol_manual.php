@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_manual', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_manual', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,10 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['advanced'] = 'Για προχωρημένους';
 $string['alterstatus'] = 'Αλλάξτε την κατάσταση';
 $string['altertimeend'] = 'Αλλάξτε την ώρα λήξης';
 $string['altertimestart'] = 'Αλλάξτε την ώρα έναρξης';
 $string['assignrole'] = 'Ανάθεση ρόλου';
+$string['assignroles'] = 'Ανάθεση ρόλων';
 $string['browsecohorts'] = 'Πλοήγηση στις ομάδες χρηστών';
 $string['browseusers'] = 'Αναζήτηση χρηστών';
 $string['confirmbulkdeleteenrolment'] = 'Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτές τις εγγραφές χρηστών;';
@@ -40,6 +42,7 @@ $string['deleteselectedusers'] = 'Διαγραφή επιλεγμένων εγγ
 $string['editselectedusers'] = 'Επεξεργασία επιλεγμένων εγγραφών χρηστών';
 $string['enrolledincourserole'] = 'Εγγραφή στο "{$a->course}" ως "{$a->role}"';
 $string['enrolusers'] = 'Εγγραφή χρηστών';
+$string['enroluserscohorts'] = 'Εγγραφή επιλεγμένων χρηστών και συνόλων χρηστών';
 $string['expiredaction'] = 'Ενέργεια λήξης εγγραφής';
 $string['expiredaction_help'] = 'Επιλέξτε την ενέργεια που θα εκτελεστεί όταν λήξει η εγγραφή του χρήστη. Παρακαλούμε έχετε υπόψη ότι ορισμένα δεδομένα χρήστη και ρυθμίσεις εξαλείφονται από το μάθημα κατά την ακύρωση εγγραφής στο μάθημα.';
 $string['expirymessageenrolledbody'] = 'Αγαπητέ χρήστη {$a->user},
@@ -60,6 +63,10 @@ $string['messageprovider:expiry_notification'] = 'Ειδοποιήσεις λή�
 $string['now'] = 'Τώρα';
 $string['pluginname'] = 'Μη αυτόματες εγγραφές';
 $string['pluginname_desc'] = 'Το πρόσθετο χειροκίνητης εγγραφής επιτρέπει στους χρήστες να εγγράφονται αυτόματα μέσω ενός συνδέσμου στις ρυθμίσεις διαχείρισης του μαθήματος, από ένα χρήστη με τα κατάλληλα δικαιώματα όπως ένας διδάσκων. Το πρόσθετο θα πρέπει κανονικά να είναι ενεργοποιημένο, εφόσον ορισμένες άλλες πρόσθετες λειτουργίες, όπως η αυτοεγγραφή, το απαιτούν.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Μη-αυτόματες εγγραφές» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
+$string['selectcohorts'] = 'Επιλογή συνόλων χρηστών';
+$string['selection'] = 'Επιλογή';
+$string['selectusers'] = 'Επιλέξτε χρήστες';
 $string['status'] = 'Ενεργοποίηση χειροκίνητων εγγραφών';
 $string['status_desc'] = 'Επιτρέπεται η πρόσβαση στο μάθημα από εσωτερικά εγγεγραμένους χρήστες. Αυτό θα πρέπει να διατηρείται ενεργοποιημένο στις περισσότερες περιπτώσεις.';
 $string['statusdisabled'] = 'Απενεργοποιημένο';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'rating', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'rating', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   rating
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,6 +49,11 @@ $string['norate'] = 'Non está permitida a puntuación de elementos!';
 $string['noratings'] = 'Non se entregaron puntuacións';
 $string['noviewanyrate'] = 'Só pode ver os resultados dos elementos que fixo vostede';
 $string['noviewrate'] = 'Non ten permiso para ver as puntuacións dos elementos';
+$string['privacy:metadata:rating'] = 'A puntuación introducida polo usuario almacénase xunto cunha asignación do elemento que foi puntuado.';
+$string['privacy:metadata:rating:rating'] = 'A puntuación numérica que introduciu o usuario.';
+$string['privacy:metadata:rating:timecreated'] = 'O momento que se realizou a puntuación por primeira vez';
+$string['privacy:metadata:rating:timemodified'] = 'O momento que se actualizou a puntuación por última vez';
+$string['privacy:metadata:rating:userid'] = 'O usuario que fixo a puntuación..';
 $string['rate'] = 'Puntuar';
 $string['ratepermissiondenied'] = 'Non ten permiso para puntuar este elemento';
 $string['rating'] = 'Puntuación';

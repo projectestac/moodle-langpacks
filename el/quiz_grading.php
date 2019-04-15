@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_grading', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,7 @@ $string['nothingfound'] = 'Τίποτα για εμφάνιση';
 $string['options'] = 'Επιλογές';
 $string['orderattempts'] = 'Προσπάθειες ταξινόμησης';
 $string['pluginname'] = 'Μη αυτόματη βαθμολόγηση';
+$string['privacy:metadata'] = 'Το πρόσθετο «Μη αυτόματη βαθμολόγηση κουίζ» δεν αποθηκεύει προσωπικά δεδομένα. Παρέχει μια διεπαφή στους χρήστες για να αποθηκεύουν δεδομένα, χωρίς το ίδιο το πρόσθετο να αποθηκεύει οτιδήποτε.';
 $string['qno'] = 'Ερ. #';
 $string['questionname'] = 'Όνομα ερώτησης';
 $string['questionsperpage'] = 'Ερωτήσεις ανά σελίδα';

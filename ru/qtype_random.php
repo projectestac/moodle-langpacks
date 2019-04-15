@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_random', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_random', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['includingsubcategories'] = 'Включая подкатегории';
 $string['pluginname'] = 'Случайный';
 $string['pluginnameediting'] = 'Редактирование случайного вопроса';
 $string['pluginname_help'] = 'Случайный вопрос — это не вопрос как таковой, это способ добавления случайного вопроса из указанной категории в элемент курса.';
+$string['privacy:metadata'] = 'Плагин «Тип вопроса Случайный» не хранит никаких персональных данных';
 $string['randomqname'] = 'Случайный ({$a})';
 $string['randomqplusname'] = 'Случайный ({$a} и подкатегории)';
 $string['selectedby'] = '{$a->questionname} выбран из {$a->randomname}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_recyclebin', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_recyclebin', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_recyclebin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,6 +51,7 @@ $string['invalidcontext'] = 'Ongeldige context gegeven.';
 $string['noitemsinbin'] = 'Er zit niets in de prullenbak.';
 $string['notenabled'] = 'Sorry, maar de prullenbak is uitgeschakeld door de beheerder.';
 $string['pluginname'] = 'Prullenbak';
+$string['privacy:metadata'] = 'De prullenbak-plugin bewaart geen persoonlijke gegevens.';
 $string['recyclebin:deleteitems'] = 'Verwijder items uit de prullenbak';
 $string['recyclebin:restoreitems'] = 'Zet items in de prullenbak terug';
 $string['recyclebin:viewitems'] = 'Bekijk inhoud prullenbak';

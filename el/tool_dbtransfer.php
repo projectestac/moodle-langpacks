@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dbtransfer', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_dbtransfer', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_dbtransfer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['exportdata'] = 'Εξαγωγή δεδομένων';
 $string['notargetconectexception'] = 'Λυπούμαστε, αδυναμία σύνδεσης στη βάση-προορισμό.';
 $string['options'] = 'Επιλογές';
 $string['pluginname'] = 'Μεταφορά Βάσης Δεδομένων';
+$string['privacy:metadata'] = 'Το πρόσθετο «Μεταφορά Βάσης Δεδομένων» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['targetdatabase'] = 'Η βάση δεδομένων στόχος';
 $string['targetdatabasenotempty'] = 'Η βάση δεδομένων στόχος δεν πρέπει να περιέχει πίνακες με το συγκεκριμένο πρόθεμα που δίνεται!';
 $string['transferdata'] = 'Μεταφορά δεδομένων';

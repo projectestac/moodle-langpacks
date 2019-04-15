@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_s3', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_s3', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_s3
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,5 +30,6 @@ $string['configplugin'] = 'Amazon S3 instellingen';
 $string['endpoint'] = 'Amazon S3 eindpunt';
 $string['needaccesskey'] = 'Je moet een toegangssleutel geven';
 $string['pluginname'] = 'Amazon S3';
+$string['privacy:metadata'] = 'De Amazon S3 opslagruimte-plugin bewaart geen persoonlijke gegevens, maar stuurt deze door van Moodle naar het externe systeem.';
 $string['s3:view'] = 'Bekijk Amazon S3 opslagruimte';
 $string['secret_key'] = 'Geheime sleutel';

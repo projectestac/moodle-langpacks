@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,6 +73,7 @@ $string['pluginname_help'] = 'Woorden slepen en neerzetten verwacht van de respo
 $string['pluginnamesummary'] = 'Woorden worden gesleept en neergezet op de achtergrondafbeelding.';
 $string['previewareaheader'] = 'Voorbeeld';
 $string['previewareamessage'] = 'Selecteer een bestand als achtergrondafbeelding, maak labels met woorden en bepaal zones op de achtergrondafbeelding waar die naartoe gesleept moeten worden.';
+$string['privacy:metadata'] = 'De plug-in Drag and drop markers question type slaat geen persoonlijke gegevens op.';
 $string['refresh'] = 'Voorbeeld verversen';
 $string['shape'] = 'Vorm';
 $string['shape_circle'] = 'Cirkel';

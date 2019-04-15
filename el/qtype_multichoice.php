@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_multichoice', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,10 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['answerhowmany'] = 'Μία ή πολλές απαντήσεις;';
+$string['answerhowmany_desc'] = 'Εάν η προεπιλογή πρέπει να είναι μία απάντηση (δηλ. κουμπί επιλογής) ή πολλές απαντήσεις (δηλ. πλαίσια ελέγχου).';
 $string['answernumbering'] = 'Να αριθμούνται οι επιλογές?';
 $string['answernumbering123'] = '1., 2., 3., ...';
 $string['answernumberingabc'] = 'a., b., c., ...';
 $string['answernumberingABCD'] = 'Α., B., C., ...';
+$string['answernumbering_desc'] = 'Το προεπιλεγμένο στυλ αρίθμησης.';
 $string['answernumberingiii'] = 'i., ii., iii., ...';
 $string['answernumberingIIII'] = 'I., II., III., ...';
 $string['answernumberingnone'] = 'Χωρίς αρίθμηση';
@@ -61,11 +63,13 @@ $string['pleaseselectatleastoneanswer'] = 'Επιλέξτε τουλάχιστο
 $string['pluginname'] = 'Πολλαπλής Επιλογής';
 $string['pluginnameadding'] = 'Προσθήκη μιας ερώτησης Πολλαπλής Επιλογής';
 $string['pluginnameediting'] = 'Τροποποίηση μιας ερώτησης Πολλαπλής Επιλογής';
-$string['pluginname_help'] = 'Ως απάντηση μιας ερώτησης (η οποία μπορεί να περιλαμβάνει μια εικόνα) ο ερωτώμενος επιλέγει από πολλαπλές απαντήσεις. Υπάρχουν δύο τύποι ερωτήσεων πολλαπλών επιλογών - μίας απάντησης και πολλαπλών (σωστών) απαντήσεων.';
+$string['pluginname_help'] = 'Σε απάντηση μιας ερώτησης (η οποία μπορεί να περιλαμβάνει μια εικόνα) ο ερωτώμενος επιλέγει ανάμεσα σε κάποιες απαντήσεις (που δίνονται). Μια ερώτηση πολλαπλών επιλογών μπορεί να έχει μία ή περισσότερες σωστές απαντήσεις.';
 $string['pluginnamesummary'] = 'Επιτρέπει την επιλογή μιας ή περισσοτέρων απαντήσεων από μια προ-καθορισμένη λίστα.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Ερωτήσεις τύπου πολλαπλής επιλογής» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['selectmulti'] = 'Επιλέξτε ένα ή περισσότερα:';
 $string['selectone'] = 'Επιλέξτε ένα:';
 $string['shuffleanswers'] = 'Ανακάτεμα απαντήσεων;';
+$string['shuffleanswers_desc'] = 'Εάν οι επιλογές πρέπει να ανακατεύονται τυχαία για κάθε προσπάθεια από προεπιλογή.';
 $string['shuffleanswers_help'] = 'Εάν ενεργοποιηθεί, η σειρά των απαντήσεων ανακατεύεται τυχαία για κάθε προσπάθεια, με την προϋπόθεση ότι το «Ανακάτεμα εντός των ερωτήσεων» στις ρυθμίσεις δραστηριοτήτων είναι επίσης ενεργοποιημένο.';
 $string['singleanswer'] = 'Επέλεξε μία απάντηση';
 $string['toomanyselected'] = 'Έχετε επιλέξει πάρα πολλές επιλογές.';

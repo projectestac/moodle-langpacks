@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_manual', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_manual', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,3 +34,4 @@ $string['passwdexpire_settings'] = 'Ρυθμίσεις λήξης κωδικού
 $string['passwdexpiretime'] = 'Διάρκεια κωδικού πρόσβασης';
 $string['passwdexpiretime_desc'] = 'Διάρκεια χρόνου για τον οποίο ισχύει ένας κωδικός πρόσβασης.';
 $string['pluginname'] = 'Μη αυτόματη δημιουργία λογαριασμού';
+$string['privacy:metadata:preference:passwordupdatetime'] = 'Η ημερομηνία της τελευταίας αλλαγής κωδικού πρόσβασης.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_mentees', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_mentees', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_mentees
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,3 +32,4 @@ $string['mentees:addinstance'] = 'Προσθήκη νέου μπλοκ καθο�
 $string['mentees:myaddinstance'] = 'Προσθήκη νέου μπλοκ καθοδηγούμενοι στο Ταμπλό';
 $string['newmenteesblock'] = '(νέο μπλοκ Μαθητευόμενων)';
 $string['pluginname'] = 'Μαθητευόμενοι';
+$string['privacy:metadata'] = 'Το μπλοκ Καθοδηγούμενοι εμφανίζει μόνο δεδομένα που είναι αποθηκευμένα σε άλλες τοποθεσίες.';

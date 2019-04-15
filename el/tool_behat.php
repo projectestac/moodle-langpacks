@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_behat', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_behat', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_behat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,14 +33,15 @@ $string['errordataroot'] = '$CFG->behat_dataroot δεν ορίστηκε ή έχ
 $string['errorsetconfig'] = '$CFG->behat_dataroot, $CFG->behat_prefix και $CFG->behat_wwwroot πρέπει να οριστούν στο config.php.';
 $string['erroruniqueconfig'] = 'Οι τιμές $CFG->behat_dataroot, $CFG->behat_prefix και $CFG->behat_wwwroot πρέπει να είναι διαφορετικές από τις τιμές $CFG->dataroot, $CFG->prefix, $CFG->wwwroot, $CFG->phpunit_dataroot και $CFG->phpunit_prefix.';
 $string['fieldvalueargument'] = 'Παράμετροι τιμής πεδίου';
-$string['fieldvalueargument_help'] = 'Αυτό το όρισμα πρέπει να συμπληρωθεί με μια τιμή πεδίου, υπάρχουν πολλοί τύποι πεδίων, απλοί, όπως πλαίσια ελέγχου, επιλογές ή περιοχές κειμένου ή πολύπλοκες, όπως επιλογείς ημερομηνίας. Μπορείτε να ελέγξετε τις <a href="http://docs.moodle.org/dev/Acceptance_testing#Providing_values_to_steps" target="_blank"> τιμές πεδίου </a> για να δείτε την αναμενόμενη τιμή πεδίου ανάλογα με τον τύπο πεδίου που παρέχετε.';
+$string['fieldvalueargument_help'] = 'Αυτό το όρισμα πρέπει να συμπληρωθεί με μια τιμή πεδίου. Υπάρχουν πολλοί τύποι πεδίων, που συμπεριλαμβάνουν απλούς όπως πλαίσια ελέγχου, επιλογές ή περιοχές κειμένου και πολύπλοκους, όπως επιλογείς ημερομηνίας. Μπορείτε να δείτε την τεκμηρίωση ανάπτυξης λογισμικού για τις <a href="http://docs.moodle.org/dev/Acceptance_testing" target="_blank">Δοκιμές αποδοχής</a> για λεπτομέρειες σχετικά με τις αναμενόμενες τιμές πεδίου.';
 $string['giveninfo'] = 'Δεδομένο. Διεργασίες για τη ρύθμιση του περιβάλλοντος';
 $string['infoheading'] = 'Πληροφορίες';
 $string['installinfo'] = 'Διαβάστε {$a} για πληροφορίες εγκατάστασης και εκτέλεσης δοκιμών';
 $string['newstepsinfo'] = 'Διαβάστε {$a} για πληροφορίες σχετικά με το πως να προσθέσετε νέους ορισμούς βημάτων';
 $string['newtestsinfo'] = 'Διαβάστε {$a} για πληροφορίες σχετικά με το πως να δημιουργήσετε νέες δοκιμές';
-$string['nostepsdefinitions'] = 'Δεν υπάρχουν ορισμοί βημάτων που να ταιριάζουν με αυτά τα φίλτρα';
+$string['nostepsdefinitions'] = 'Δεν υπάρχουν ορισμοί βημάτων που να ταιριάζουν σε αυτά τα φίλτρα';
 $string['pluginname'] = 'Δοκιμή αποδοχής';
+$string['privacy:metadata'] = 'Το πρόσθετο «Δοκιμές αποδοχής» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['stepsdefinitionscomponent'] = 'Περιοχή';
 $string['stepsdefinitionscontains'] = 'Περιλαμβάνει';
 $string['stepsdefinitionsfilters'] = 'Ορισμοί βημάτων';
@@ -48,7 +49,7 @@ $string['stepsdefinitionstype'] = 'Τύπος';
 $string['theninfo'] = 'Τότε. Έλεγχοι για εξασφάλιση ότι τα αποτελέσματα είναι τα αναμενόμενα';
 $string['unknownexceptioninfo'] = 'Εμφανίστηκε ένα πρόβλημα με το Selenium ή τον περιηγητή σας. Παρακαλούμε βεβαιωθείτε ότι χρησιμοποιείτε την τελευταία έκδοση του Selenium. Σφάλμα:';
 $string['viewsteps'] = 'Φίλτρο';
-$string['wheninfo'] = 'Όταν. Ενέργειες που προκαλούν ένα γεγονός';
+$string['wheninfo'] = 'Όταν. Ενέργεια που προκαλεί ένα γεγονός';
 $string['wrongbehatsetup'] = 'Κάτι συμβαίνει με τη ρύθμιση behat και έτσι δεν μπορούν να εισαχθούν ορισμοί βημάτων: <b>{$a->errormsg}</b><br/><br/>Παρακαλούμε, ελέγξτε:<ul>
 <li>$CFG->behat_dataroot, $CFG->behat_prefix and $CFG->behat_wwwroot ορίζονται στο config.php με διαφορετικές τιμές από $CFG->dataroot, $CFG->prefix και $CFG->wwwroot.</li>
 <li>Έχετε εκτελέσει «{$a->behatinit}» από τον ριζικό κατάλογο Moodle.</li>

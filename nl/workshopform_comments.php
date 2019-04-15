@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_comments', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopform_comments', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopform_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,3 +31,4 @@ $string['dimensioncommentfor'] = 'Opmerking voor {$a}';
 $string['dimensiondescription'] = 'Beschrijving';
 $string['dimensionnumber'] = 'Aspect {$a}';
 $string['pluginname'] = 'Opmerkingen';
+$string['privacy:metadata'] = 'De opmerkingen beoordelen-plugin bewaart geen persoonlijke gegevens. De persoonlijke gegevens van wie wat gaat beoordelen wordt bewaard door de Workshop-module zelf en dat vormt de basis voor het exporteren van beoordelingsdetails.';

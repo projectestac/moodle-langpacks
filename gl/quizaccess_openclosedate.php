@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_openclosedate', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quizaccess_openclosedate', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   quizaccess_openclosedate
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,4 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['notavailable'] = 'Desculpe. Este cuestionario non está dispoñible';
 $string['pluginname'] = 'Regra de acceso por data de apertura e peche';
+$string['privacy:metadata'] = 'O engadido de regra de acceso por data de apertura e peche non almacena ningún dato persoal.';
 $string['quiznotavailable'] = 'O cuestionario non estará dispoñible até: {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_onlinetext', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignsubmission_onlinetext', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   assignsubmission_onlinetext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,12 @@ $string['onlinetext'] = 'Testo online';
 $string['onlinetextfilename'] = 'onlinetext.html';
 $string['onlinetextsubmission'] = 'Consenti consegne testo online';
 $string['pluginname'] = 'Consegne testo online';
+$string['privacy:metadata:assignmentid'] = 'ID del compito';
+$string['privacy:metadata:filepurpose'] = 'File incorporati nel testo della consegna.';
+$string['privacy:metadata:submissionpurpose'] = 'ID della consegna collegata all\'utente.';
+$string['privacy:metadata:tablepurpose'] = 'Memorizza il testo della consegna per ciascun tentativo.';
+$string['privacy:metadata:textpurpose'] = 'Il testo effettivamente consegnato per lo specifico tentativo.';
+$string['privacy:path'] = 'Testo della consegna';
 $string['wordlimit'] = 'Limite parole';
 $string['wordlimitexceeded'] = 'Questo compito ha un limite di parole  pari a {$a->limit}, il tuo compito contiene {$a->count} parole. Per favore rivedi il compito prima di consegnarlo.';
 $string['wordlimit_help'] = 'Nel caso di consegne di testo online, consente di impostare il numero massimo di parole che compongono la consegna.';

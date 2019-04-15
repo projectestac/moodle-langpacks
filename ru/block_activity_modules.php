@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_activity_modules', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_activity_modules', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   block_activity_modules
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['activity_modules:addinstance'] = 'Добавлять новый блок «Элементы курса»';
 $string['pluginname'] = 'Элементы курса';
+$string['privacy:metadata'] = 'Блок «Элементы курса» только показывает данные, хранящиеся в других местах.';

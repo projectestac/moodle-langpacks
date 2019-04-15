@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_filetypes', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_filetypes', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_filetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,7 @@ A lista de iconas é recollida do directorio /pix/f dentro da instalación de Mo
 $string['mimetype'] = 'Tipo MIME';
 $string['mimetype_help'] = 'O tipo MIME asociado a este tipo de ficheiro, por exemplo «application/x-mobipocket-ebook»';
 $string['pluginname'] = 'Tipos de ficheiro';
+$string['privacy:metadata'] = 'O engadido de tipos de ficheiro non almacena ningún dato persoal.';
 $string['revert'] = 'Restaurar {$a} aos valores predeterminados de Moodle';
 $string['revert_confirmation'] = 'Confirma que quere restaurar <strong>.{$a}</strong> aos valores predeterminados de Moodle, desbotando os seus cambios?';
 $string['revertfiletype'] = 'Restaurar un tipo de ficheiro';

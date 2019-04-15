@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_comments', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_comments', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   block_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['comments:addinstance'] = 'Добавлять новый блок «Комментарии»';
 $string['comments:myaddinstance'] = 'Добавлять новый блок «Комментарии» на страницу «Личный кабинет»';
 $string['pluginname'] = 'Комментарии';
+$string['privacy:metadata:core_comment'] = 'Запись добавленных комментариев.';

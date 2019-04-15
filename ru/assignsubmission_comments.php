@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_comments', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignsubmission_comments', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   assignsubmission_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,3 +32,4 @@ $string['default_help'] = 'Если установлено, то этот мет
 $string['enabled'] = 'Комментарии к ответу';
 $string['enabled_help'] = 'Если включен, студенты смогут комментировать собственные ответы. Эта функция, например, может позволить студентам дать понять учителю какой из файлов главный, в случаях с большим количеством загруженных файлов.';
 $string['pluginname'] = 'Комментарии к ответу';
+$string['privacy:metadata:commentpurpose'] = 'Комментарии между студентом и учителем об ответе.';

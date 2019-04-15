@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_latlong', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'datafield_latlong', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   datafield_latlong
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Поле «Широта/Долгота»';
 $string['pluginname'] = 'Широта и долгота';
+$string['privacy:metadata'] = 'Компонент поля базы данных «Широта и долгота» сам по себе не хранит никаких персональных данных, он использует таблицы, определенные в mod_data.';

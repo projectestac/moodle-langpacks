@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_password', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quizaccess_password', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   quizaccess_password
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,5 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['passworderror'] = 'O contrasinal introducido non é correcto';
 $string['pluginname'] = 'Regra de acceso por contrasinal';
+$string['privacy:metadata'] = 'O engadido de regra de acceso por contrasinal non almacena ningún dato persoal.';
 $string['quizpassword'] = 'Contrasinal do cuestionario';
 $string['requirepasswordmessage'] = 'Para responder este cuestionario precisa de coñecer o contrasinal';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_local', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_local', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_local
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,4 +32,5 @@ $string['local:view'] = 'Consulter le dépôt fichiers disponibles';
 $string['notitle'] = 'sans titre';
 $string['pluginname'] = 'Fichiers disponibles';
 $string['pluginname_help'] = 'Fichiers déjà déposés sur le serveur Moodle';
+$string['privacy:metadata'] = 'Le plugin de dépôt Fichiers disponibles n\'enregistre et ne transmet aucune donnée personnelle.';
 $string['remember'] = 'Enregistrer';

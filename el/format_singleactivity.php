@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_singleactivity', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'format_singleactivity', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   format_singleactivity
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,5 +33,6 @@ $string['erroractivitytype'] = 'Ο τύπος δραστηριότητας δε�
 $string['orphaned'] = 'Ορφανός';
 $string['orphanedwarning'] = 'Αυτές οι δραστηριότητες δεν είναι προσβάσιμες από τους χρήστες!';
 $string['pluginname'] = 'Μορφότυπος μαθήματος με μια δραστηριότητα';
+$string['privacy:metadata'] = 'Το πρόσθετο «Μορφότυπος μαθήματος μοναδικής δραστηριότητας» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['sectionname'] = '';
 $string['warningchangeformat'] = 'Όταν αλλάζετε τον υπάρχοντα μορφότυπο μαθημάτων σε «Μίας δραστηριότητας», βεβαιωθείτε ότι έχετε αφαιρέσει όλες τις επιπλέον δραστηριότητες από το μάθημα, συμπεριλαμβανομένων των «Ανακοινώσεων». Σημειώστε ότι η δομή των τμημάτων μπορεί να τροποποιηθεί.';

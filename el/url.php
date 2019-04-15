@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'url', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,6 +46,10 @@ $string['displayselect_help'] = 'Αυτή η ρύθμιση, μαζί με το�
 * Νέο παράθυρο - Η διεύθυνση URL εμφανίζεται σε ένα νέο παράθυρο περιηγητή με μενού και μια γραμμή διευθύνσεων';
 $string['externalurl'] = 'Εξωτερική διεύθυνση URL';
 $string['framesize'] = 'Ύψος πλαισίου';
+$string['indicator:cognitivedepth'] = 'Βάθος κατανόησης URL';
+$string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε έναν πόρο URL.';
+$string['indicator:socialbreadth'] = 'Κοινωνικό εύρος URL';
+$string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε έναν πόρο URL.';
 $string['invalidstoredurl'] = 'Αδυναμία προβολής αυτού του πόρου. Η διεύθυνση URL είναι μη έγκυρη.';
 $string['invalidurl'] = 'Η διεύθυνση URL που δόθηκε είναι μη έγκυρη.';
 $string['modulename'] = 'Διεύθυνση URL';
@@ -67,6 +71,7 @@ $string['popupwidth'] = 'Πλάτος αναδυόμενου παραθύρου 
 $string['popupwidthexplain'] = 'Καθορίζει το προεπιλεγμένο πλάτος του αναδυόμενου παράθυρου.';
 $string['printintro'] = 'Εμφάνιση περιγραφής διεύθυνσης URL';
 $string['printintroexplain'] = 'Να εμφανίζεται η περιγραφή της διεύθυνσης URL κάτω από το περιεχόμενο; Ορισμένοι τύποι εμφάνισης ενδέχεται να μην εμφανίζουν περιγραφή ακόμα και αν είναι ενεργοποιημένη.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Πόρος διεύθυνσης URL» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['rolesinparams'] = 'Συμπεριλάβετε τα ονόματα ρόλων στις παραμέτρους';
 $string['search:activity'] = 'Διεύθυνση URL';
 $string['serverurl'] = 'Διεύθυνση URL εξυπηρετητή';

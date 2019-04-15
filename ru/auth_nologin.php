@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_nologin', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_nologin', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_nologin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['auth_nologindescription'] = 'Вспомогательный плагин, запрещающий пользователям заходить в систему и отключающий отправку им электронной почты. Может использоваться для <em>блокировки</em> учетных записей.';
 $string['pluginname'] = 'Вход запрещен';
+$string['privacy:metadata'] = 'Плагин аутентификации «Вход запрещен» не хранит никаких персональных данных.';

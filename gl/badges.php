@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'badges', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -370,6 +370,34 @@ $string['personaconnection_help'] = 'Persona é un sistema para a súa identific
 Para obter máis información sobre Persona visite <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Destinatarios potenciais da insignia';
 $string['preferences'] = 'Preferencias da insignia';
+$string['privacy:metadata:backpack'] = 'Un rexistro de mochilas de usuarios';
+$string['privacy:metadata:backpack:backpackuid'] = 'O identificador único da mochila';
+$string['privacy:metadata:backpack:backpackurl'] = 'O URL da mochila';
+$string['privacy:metadata:backpack:email'] = 'O coreo asociado coa mochila';
+$string['privacy:metadata:backpack:userid'] = 'O ID do usuario desta mochila';
+$string['privacy:metadata:badge'] = 'Unha colección de insignias';
+$string['privacy:metadata:badge:timecreated'] = 'A hora na que foi creada a insignia';
+$string['privacy:metadata:badge:timemodified'] = 'A hora na que foi modificada a insignia';
+$string['privacy:metadata:badge:usercreated'] = 'O ID do usuario que creou a insignia';
+$string['privacy:metadata:badge:usermodified'] = 'O ID do usuario que modificou a insignia';
+$string['privacy:metadata:criteriamet'] = 'Unha colección de criterios que se cumpriron';
+$string['privacy:metadata:criteriamet:datemet'] = 'Data na que se cumpriron os criterios';
+$string['privacy:metadata:criteriamet:userid'] = 'O ID do usuario que cumpriu os criterios';
+$string['privacy:metadata:external:backpacks'] = 'Información compartida cando os usuarios envían as súas insignias a unha mochila externa';
+$string['privacy:metadata:external:backpacks:badge'] = 'O nome da insignia';
+$string['privacy:metadata:external:backpacks:description'] = 'A descrición da insignia';
+$string['privacy:metadata:external:backpacks:image'] = 'A imaxe da insignia';
+$string['privacy:metadata:external:backpacks:issuer'] = 'Algunha información sobre o emisor';
+$string['privacy:metadata:external:backpacks:url'] = 'O URL de Moodle onde se pode ver a información da insignia emitida';
+$string['privacy:metadata:issued'] = 'Un rexistro de insignias outorgadas';
+$string['privacy:metadata:issued:dateexpire'] = 'A data na que caduca a insignia';
+$string['privacy:metadata:issued:dateissued'] = 'A data da insignia';
+$string['privacy:metadata:issued:userid'] = 'O ID do usuario ao que se lle outorgou unha insignia';
+$string['privacy:metadata:manualaward'] = 'Un rexistro de outorgamentos manuais';
+$string['privacy:metadata:manualaward:datemet'] = 'A data na que se lle outorgou ao usuario a insignia';
+$string['privacy:metadata:manualaward:issuerid'] = 'O ID do usuario que outorga a insignia';
+$string['privacy:metadata:manualaward:issuerrole'] = 'O rol do usuario que outorga a insignia';
+$string['privacy:metadata:manualaward:recipientid'] = 'O ID do usuario ao que se lle outorgou manualmente unha insignia';
 $string['recipientdetails'] = 'Detalles do receptor';
 $string['recipientidentificationproblem'] = 'Non foi posíbel atopar un destinatario desta insignia entre os usuarios existentes.';
 $string['recipients'] = 'Destinatarios da insignia';

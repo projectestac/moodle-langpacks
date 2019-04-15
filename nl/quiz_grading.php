@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_grading', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -65,12 +65,13 @@ $string['grading:viewstudentnames'] = 'Leerlingnamen zichtbaar tijdens beoordele
 $string['hideautomaticallygraded'] = 'Verberg vragen die al automatisch beoordeeld zijn';
 $string['inprogress'] = 'Bezig';
 $string['invalidattemptid'] = 'Er bestaat geen poging met dit ID';
-$string['invalidquestionid'] = 'Geen beoordeelbare vraag met id {$a} gevonden';
+$string['invalidquestionid'] = 'Beoordeelbare vraag met ID {$a} niet gevonden';
 $string['noquestionsfound'] = 'Geen manueel te beoordelen vragen gevonden';
 $string['nothingfound'] = 'Niets om te tonen';
 $string['options'] = 'Opties';
 $string['orderattempts'] = 'Rangschik pogingen';
 $string['pluginname'] = 'Manueel beoordelen';
+$string['privacy:metadata'] = 'De test manueel beoordelen-plugin bewaart geen persoonlijke gegevens. Het geeft een interface voor gebruikers om gegevens te kunnen bewaren zonder zelf gegevens te bewaren.';
 $string['qno'] = 'V#';
 $string['questionname'] = 'Vraagnaam';
 $string['questionsperpage'] = 'Vragen per pagina';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_calculated', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_calculated
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -116,6 +116,7 @@ $string['pluginnameediting'] = 'Τροποποίηση μιας υπολογισ
 $string['pluginname_help'] = 'Οι υπολογιζόμενες ερωτήσεις επιτρέπουν τη δημιουργία μεμονωμένων αριθμητικών ερωτήσεων με τη χρήση μπαλαντέρ σε άγκιστρα, οι οποίες αντικαθίστανται με μεμονωμένες τιμές κατά τη λήψη του κουίζ. Για παράδειγμα, η ερώτηση «Ποιό είναι το εμβαδόν ενός ορθογωνίου μήκους {l} και πλάτους {w};» θα είχε τη σωστή φόρμουλα/τύπο απάντησης "{l}*{w}" (όπου * δηλώνει τον πολλαπλασιασμό).';
 $string['pluginnamesummary'] = 'Οι υπολογισμένες ερωτήσεις είναι σαν τις αριθμητικές ερωτήσεις αλλά οι αριθμοί που χρησιμοποιούνται διαλέγονται τυχαία από ένα σύνολο όταν διεξάγεται το κουίζ.';
 $string['possiblehdr'] = 'Πιθανοί χαρακτήρες μπαλαντέρ παρουσιάζονται μόνο στο κείμενο της ερώτησης';
+$string['privacy:metadata'] = 'Το πρόσθετο «Ερωτήσεις υπολογιστικού τύπου» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['questiondatasets'] = 'Σύνολο δεδομένων ερωτήσεων';
 $string['questiondatasets_help'] = 'Σύνολα δεδομένων ερωτήσεων μπαλαντέρ που θα χρησιμοποιούνται σε κάθε ιδιαίτερη ερώτηση';
 $string['questionstoredname'] = 'Όνομα αποθηκευμένου ερωτήματος';
@@ -133,7 +134,7 @@ $string['synchronize'] = 'Συγχρονίστε τα δεδομένα από δ
 $string['synchronizeno'] = 'Χωρίς συγχρονισμό';
 $string['synchronizeyes'] = 'Με συγχρονισμό';
 $string['synchronizeyesdisplay'] = 'Συγχρονίστε και εμφανίστε το διαμοιραζόμενο όνομα του συνόλου δεδομένων ως πρόθεμα του ονόματος ερωτήματος';
-$string['tolerance'] = 'Ανοχή ±';
+$string['tolerance'] = 'Ανοχή  ±';
 $string['tolerancetype'] = 'Τύπος (ανοχής)';
 $string['trueanswerinsidelimits'] = 'Η σωστή απάντηση : {$a->correct} είναι μέσα στα όρια της πραγματικής τιμής {$a->true}';
 $string['trueansweroutsidelimits'] = '<span class="error">ΣΦΑΛΜΑ Η σωστή απάντηση : {$a->correct} είναι έξω από τα όρια της πραγματικής τιμής {$a->true}</span>';

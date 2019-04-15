@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'lti', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,7 +46,6 @@ $string['addnewapp'] = 'Activar o aplicativo externo';
 $string['addserver'] = 'Engadir un novo servidor de confianza';
 $string['addtype'] = 'Engadir unha configuración da ferramenta externa';
 $string['allow'] = 'Permitir';
-$string['allowinstructorcustom'] = 'Permitirlles aos profesores engadir parámetros personalizados';
 $string['allowsetting'] = 'Permitirlle á ferramenta gardar 8K de configuración dentro de Moodle.';
 $string['always'] = 'Sempre';
 $string['autoaddtype'] = 'Engadir ferramenta';
@@ -192,6 +191,10 @@ $string['icon_url'] = 'URL da icona';
 $string['icon_url_help'] = 'O URL da icona permite modificar a icona que se amosa na lista de cursos para esta actividade. En troques da icona LTI
 pódese especificar unha icona axeitada ao tipo de actividade.';
 $string['id'] = 'ID';
+$string['indicator:cognitivedepth'] = 'LTI cognitivo';
+$string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade LTI.';
+$string['indicator:socialbreadth'] = 'LTI social';
+$string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade LTI.';
 $string['invalidid'] = 'o ID da LTI era incorrecto';
 $string['launch_in_moodle'] = 'Iniciar a ferramenta no Moodle';
 $string['launchinpopup'] = 'Iniciar o contedor';
@@ -215,6 +218,7 @@ $string['leaveblank'] = 'Déixeo baleiro se non o precisa';
 $string['lti'] = 'LTI';
 $string['lti:addcoursetool'] = 'Engadir configuracións de ferramenta específica do curso';
 $string['lti:addinstance'] = 'Engadir novas actividades de ferramenta externa';
+$string['lti:admin'] = 'Ser un administrador cando se inicie a ferramenta';
 $string['lti_administration'] = 'Administración da LTI';
 $string['lti_errormsg'] = 'A ferramenta devolveu a seguinte mensaxe de erro: «{$a}»';
 $string['lti:grade'] = 'Ver as cualificacións devolvidas pola ferramenta externa';
@@ -326,6 +330,32 @@ $string['preferwidget'] = 'Iniciador de trebello preferido';
 $string['preferwidth'] = 'Largo preferido';
 $string['press_to_submit'] = 'Prema para iniciar esta actividade';
 $string['privacy'] = 'Intimidade';
+$string['privacy:metadata:coursefullname'] = 'O nome completo do curso dende o que o usuario está accedendo ao consumidor LTI';
+$string['privacy:metadata:courseid'] = 'O ID do curso dende o que o usuario está accedendo ao consumidor LTI';
+$string['privacy:metadata:courseidnumber'] = 'O número ID do curso dende o que o usuario está accedendo ao consumidor LTI';
+$string['privacy:metadata:courseshortname'] = 'O nome curto do curso dende o que o usuario está accedendo ao consumidor LTI';
+$string['privacy:metadata:createdby'] = 'O usuario que creou o rexistro';
+$string['privacy:metadata:email'] = 'O enderezo de correo do usuario que está accedendo ao consumidor LTI';
+$string['privacy:metadata:externalpurpose'] = 'O Consumidor LTI fornece información e contexto do usuario ao provedor de ferramentas LTI.';
+$string['privacy:metadata:firstname'] = 'O nome do usuario que está accedendo ao consumidor LTI';
+$string['privacy:metadata:fullname'] = 'O nome completo do usuario que está accedendo ao consumidor LTI';
+$string['privacy:metadata:lastname'] = 'O(s) apelido(s) do usuario que está accedendo ao consumidor LTI';
+$string['privacy:metadata:lti_submission'] = 'Entrga LTI';
+$string['privacy:metadata:lti_submission:datesubmitted'] = 'A marca de tempo indicando cando se realizou a entrega';
+$string['privacy:metadata:lti_submission:dateupdated'] = 'A marca de tempo indicando cando se modificou a entrega';
+$string['privacy:metadata:lti_submission:gradepercent'] = 'A cualificación para o usuario como porcentaxe';
+$string['privacy:metadata:lti_submission:originalgrade'] = 'A cualificación orixinal para o usuario';
+$string['privacy:metadata:lti_submission:userid'] = 'O ID do usuario que enviou a actividade LTI';
+$string['privacy:metadata:lti_tool_proxies'] = 'Proxies LTI';
+$string['privacy:metadata:lti_tool_proxies:name'] = 'Nome do proxy LTI';
+$string['privacy:metadata:lti_types'] = 'Tipos LTI';
+$string['privacy:metadata:lti_types:name'] = 'Nome do tipo LTI';
+$string['privacy:metadata:role'] = 'O rol no curso do usuario que está accedendo ao consumidor LTI';
+$string['privacy:metadata:timecreated'] = 'A data na que se creou o rexistro';
+$string['privacy:metadata:timemodified'] = 'A data na que se modificou o rexistro';
+$string['privacy:metadata:userid'] = 'O ID do usuario que está accedendo ao consumidor LTI';
+$string['privacy:metadata:useridnumber'] = 'O número ID do usuario que está accedendo ao consumidor LTI';
+$string['privacy:metadata:username'] = 'O nome de usuario do usuario que está accedendo ao consumidor LTI';
 $string['quickgrade'] = 'Permitir cualificación rápida';
 $string['quickgrade_help'] = 'Se está activado, poden ser cualificadas varias ferramentas nunha páxina. Engada as cualificacións e comentarios e prema no botón «Gardar todos os meus comentarios» para gardar todos os cambios desa páxina.';
 $string['redirect'] = 'Vostede vai seren redirixido nuns segundos. Se non for así, prema no botón.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_profile', language 'en', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability_profile', language 'en', branch 'MOODLE_34_STABLE'
  *
  * @package   availability_profile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,20 +26,21 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['conditiontitle'] = 'User profile field';
-$string['description'] = 'Control access based on fields within the student&rsquo;s profile.';
+$string['description'] = 'Control access based on fields within the student\'s profile.';
 $string['error_selectfield'] = 'You must select a profile field.';
 $string['error_setvalue'] = 'You must type a value.';
 $string['label_operator'] = 'Method of comparison';
 $string['label_value'] = 'Value to compare against';
 $string['missing'] = '(Missing custom field: {$a})';
 $string['op_contains'] = 'contains';
-$string['op_doesnotcontain'] = 'doesn&rsquo;t contain';
+$string['op_doesnotcontain'] = 'doesn\'t contain';
 $string['op_endswith'] = 'ends with';
 $string['op_isempty'] = 'is empty';
 $string['op_isequalto'] = 'is equal to';
 $string['op_isnotempty'] = 'is not empty';
 $string['op_startswith'] = 'starts with';
 $string['pluginname'] = 'Restriction by profile';
+$string['privacy:metadata'] = 'The Restriction by profile plugin does not store any personal data.';
 $string['requires_contains'] = 'Your <strong>{$a->field}</strong> contains <strong>{$a->value}</strong>';
 $string['requires_doesnotcontain'] = 'Your <strong>{$a->field}</strong> does not contain <strong>{$a->value}</strong>';
 $string['requires_endswith'] = 'Your <strong>{$a->field}</strong> ends with <strong>{$a->value}</strong>';

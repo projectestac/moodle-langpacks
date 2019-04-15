@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_self', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -87,6 +87,7 @@ $string['passwordinvalid'] = 'Εσφαλμένο κλειδί εγγραφής. 
 $string['passwordinvalidhint'] = 'Αυτό το κλειδί εγγραφής ήταν εσφαλμένο. Παρακαλούμε, δοκιμάστε ξανά<br />(Ορίστε μια υπόδειξη - ξεκινάει με «{$a}»)';
 $string['pluginname'] = 'Αυτο-εγγραφή';
 $string['pluginname_desc'] = 'Το πρόσθετο αυτο-εγγραφής επιτρέπει στους χρήστες να επιλέξουν σε ποιά μαθήματα επιθυμούν να συμμετέχουν. Τα μαθήματα μπορεί να προστατεύονται από ένα κλειδί εγγραφής. Εσωτερικά η εγγραφή γίνεται μέσω του πρόσθετου χειροκίνητης εγγραφής, η οποία πρέπει να είναι ενεργοποιημένη στο ίδιο μάθημα.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Αυτο-εγγραφή» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['requirepassword'] = 'Απαιτείται κλειδί εγγραφής';
 $string['requirepassword_desc'] = 'Απαιτείται κλειδί εγγραφής στα νέα μαθήματα και αποτρέπεται η αφαίρεση του κλειδιού εγγραφής από τα υπάρχοντα μαθήματα.';
 $string['role'] = 'Προεπιλεγμένος ρόλος που ανατίθεται';

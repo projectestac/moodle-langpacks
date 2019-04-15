@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_generator', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_generator', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_generator
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,6 +53,7 @@ $string['maketestcourse'] = 'Δημιουργία δοκιμαστικού μα�
 $string['maketestplan'] = 'Δημιουργία σχεδίου δοκιμής JMeter';
 $string['notenoughusers'] = 'Το επιλεγμένο μάθημα δεν έχει αρκετούς χρήστες';
 $string['pluginname'] = 'Δημιουργός δεδομένων ανάπτυξης';
+$string['privacy:metadata'] = 'Το πρόσθετο «Δημιουργία δεδομένων ανάπτυξης» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['progress_checkaccounts'] = 'Έλεγχος λογαριασμών χρηστών ({$a})';
 $string['progress_coursecompleted'] = 'Το μάθημα ολοκληρώθηκε ({$a})';
 $string['progress_createaccounts'] = 'Δημιουργία λογαριασμών χρηστών ({$a->from} - {$a->to})';

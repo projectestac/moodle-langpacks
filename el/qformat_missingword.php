@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_missingword', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qformat_missingword', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qformat_missingword
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,3 +30,4 @@ $string['endanswernotfound'] = 'Δεν ήταν δυνατή η εύρεση ε�
 $string['noanswerfound'] = 'Δεν βρέθηκαν απαντήσεις στην ερώτηση';
 $string['pluginname'] = 'Μορφότυπος λέξης που λείπει';
 $string['pluginname_help'] = 'Ο μορφότυπος λέξης που λείπει επιτρέπει την εισαγωγή ερωτήσεων μέσω αρχείου κειμένου.';
+$string['privacy:metadata'] = 'Το πρόσθετο μορφότυπου ερώτησης λέξης που λείπει δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

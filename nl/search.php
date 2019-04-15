@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'search', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,11 +54,12 @@ $string['documentsinindex'] = 'Documenten in index';
 $string['duration'] = 'Tijdsduur';
 $string['emptydatabaseerror'] = 'Databanktabel ontbreekt of bevat geen index records.';
 $string['enginenotfound'] = 'Zoekmachine {$a} niet gevonden';
-$string['enginenotinstalled'] = '{$a} is niet geïnstalleerd.';
+$string['enginenotinstalled'] = '{$a} niet geïnstalleerd.';
 $string['enginenotselected'] = 'U heeft geen zoekmachine gekozen.';
 $string['engineserverstatus'] = 'De zoekmachine is niet beschikbaar. Neem contact op met je beheerder.';
 $string['enteryoursearchquery'] = 'Geef je zoekopdracht';
 $string['errorareanotavailable'] = 'Zoekzone {$a} is niet beschikbaar.';
+$string['error_indexing'] = 'Er is een fout opgetreden bij het indexeren';
 $string['errors'] = 'Fouten';
 $string['filesinindexdirectory'] = 'Bestanden in indexmap';
 $string['filterheader'] = 'Filter';
@@ -67,17 +68,20 @@ $string['globalsearch'] = 'Globaal zoeken';
 $string['globalsearchdisabled'] = 'Globaal zoeken is niet ingeschakeld';
 $string['incourse'] = 'In cursus {$a}';
 $string['index'] = 'Index';
+$string['indexwhendisabledfullnotice'] = 'Indexeren is op dit ogenblik niet toegestaan wanneer zoeken is uitgeschakeld. Kijk om dit in te schakelen naar de <a href="{$a->url}">searchindexwhendisabled-instelling</a>.';
+$string['indexwhendisabledshortnotice'] = 'Indexering is niet beschikbaar.';
 $string['invalidindexerror'] = 'Indexmap bevat een ongeldige index of is leeg.';
 $string['ittook'] = 'Het duurde';
 $string['matchingfile'] = 'Overeenkomst van bestand <span class="filename">{$a}</span';
 $string['matchingfiles'] = 'Overeenkomst van bestanden:';
-$string['next'] = 'Volgende';
+$string['next'] = 'VolgendeAdm';
 $string['noindexmessage'] = 'Beheer: zo\'n index bestaat niet.';
 $string['noresults'] = 'Geen resultaat';
 $string['normalsearch'] = 'Normaal zoeken';
 $string['notitle'] = 'Geen titel';
 $string['openedon'] = 'geopend op';
 $string['optimize'] = 'Optimaliseer';
+$string['privacy:metadata'] = 'Het subsysteem voor zoeken bewaart geen persoonlijke gegvens.';
 $string['queryerror'] = 'De zoekopdracht die je gegeven hebt kon niet uitgevoerd worden door de zoekmachine: {$a}';
 $string['resultsreturnedfor'] = 'resultaten voor';
 $string['runindexer'] = 'Start indexer';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_multichoice', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,10 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['answerhowmany'] = 'Unha ou varias respostas?';
+$string['answerhowmany_desc'] = 'Se o valor predeterminado debe ser unha resposta (é dicir, botóns de opción) ou varias respostas (isto é, caixas de selección).';
 $string['answernumbering'] = 'Numerar as escollas?';
 $string['answernumbering123'] = '1., 2., 3., ...';
 $string['answernumberingabc'] = 'a., b., c., ...';
 $string['answernumberingABCD'] = 'A., B., C., ...';
+$string['answernumbering_desc'] = 'O estilo de numeración predeterminado.';
 $string['answernumberingiii'] = 'i., ii., iii., ...';
 $string['answernumberingIIII'] = 'I., II., III., ...';
 $string['answernumberingnone'] = 'Sen numeración';
@@ -64,9 +66,11 @@ $string['pluginnameediting'] = 'Editando unha pregunta de escolla múltiple';
 $string['pluginname_help'] = 'En resposta a unha pregunta (que pode incluír unha imaxe) o alumno escolle a resposta entre varias respostas posíbeis. Hai dous tipos de preguntas con resposta múltiple: con unha e con máis dunha resposta correcta.';
 $string['pluginname_link'] = 'question/type/multichoice';
 $string['pluginnamesummary'] = 'Permite seleccionar unha ou varias respostas dunha lista predefinida.';
+$string['privacy:metadata'] = 'O engadido de opción múltiple non almacena ningún dato persoal.';
 $string['selectmulti'] = 'Seleccione unha ou máis:';
 $string['selectone'] = 'Seleccione unha:';
 $string['shuffleanswers'] = 'Barallar respostas';
+$string['shuffleanswers_desc'] = 'Indica se as opcións deben ser baralladas para cada intento como predeterminado.';
 $string['shuffleanswers_help'] = 'De estar activado, a orde das escollas varía ao chou para cadanseu intento, sempre que «Barallar dentro das preguntas» tamén estea activado na configuración da actividade.';
 $string['singleanswer'] = 'Escoller unha resposta.';
 $string['toomanyselected'] = 'Seleccionou respostas de máis.';

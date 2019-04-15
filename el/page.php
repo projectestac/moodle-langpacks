@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'page', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,10 @@ $string['createpage'] = 'Δημιουργήστε έναν νέο πόρο σε�
 $string['displayoptions'] = 'Διαθέσιμες επιλογές εμφάνισης';
 $string['displayselect'] = 'Εμφάνιση';
 $string['displayselectexplain'] = 'Επιλέξτε τύπο εμφάνισης.';
+$string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Σελίδας';
+$string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε έναν πόρο Σελίδας.';
+$string['indicator:socialbreadth'] = 'Κοινωνικό εύρος Σελίδας';
+$string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε έναν πόρο Σελίδας.';
 $string['legacyfiles'] = 'Μετεγκατάσταση (μεταφορά/μετατροπή) παλαιού αρχείου μαθήματος';
 $string['legacyfilesactive'] = 'Ενεργά';
 $string['legacyfilesdone'] = 'Έληξαν';
@@ -55,4 +59,5 @@ $string['printheading'] = 'Εμφάνιση ονόματος σελίδας';
 $string['printheadingexplain'] = 'Εμφάνιση ονόματος σελίδας πάνω από το περιεχόμενο;';
 $string['printintro'] = 'Εμφάνιση περιγραφής σελίδας';
 $string['printintroexplain'] = 'Εμφάνιση περιγραφής σελίδας πάνω από το περιεχόμενο;';
+$string['privacy:metadata'] = 'Το πρόσθετο «Πόρος σελίδας» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['search:activity'] = 'Σελίδα';

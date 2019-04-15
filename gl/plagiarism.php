@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'plagiarism', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   plagiarism
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,3 +32,4 @@ $string['enableplagiarism'] = 'Activar os engadidos para a prevención do plaxio
 $string['manageplagiarism'] = 'Administrar os engadidos para a prevención do plaxio';
 $string['nopluginsinstalled'] = 'Non hai engadidos para a prevención do plaxio instalados';
 $string['plagiarism'] = 'Prevención do plaxio';
+$string['privacy:metadata:plagiarism'] = 'O subsistema de prevención do plaxio actúa como unha canle, pasando solicitudes de engadidos a varios engadidos de prevención do plaxio.';

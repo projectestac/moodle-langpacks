@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_url', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_url', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['configplugin'] = 'Ρυθμίσεις τύπου αποθετηρίου διευθύνσεων URL';
 $string['download'] = 'Λήψη';
 $string['pluginname'] = 'Λήψη (εικόνων) από διεύθυνση URL';
+$string['privacy:metadata'] = 'To πρόσθετο «Λήψη (εικόνων) από διεύθυνση URL» δεν αποθηκεύει ούτε μεταβιβάζει κανένα προσωπικό δεδομένο.';
 $string['rename'] = 'Όνομα';
 $string['url'] = 'Διεύθυνση URL';
 $string['url:view'] = 'Χρήση του «Λήψη (εικόνων) από διεύθυνση URL» στον επιλογέα αρχείων';

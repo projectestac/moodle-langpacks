@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tag_youtube', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_tag_youtube', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   block_tag_youtube
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,6 +45,7 @@ $string['numberofvideos'] = 'Número de vídeos';
 $string['peopleblogs'] = 'Xente e blogs';
 $string['petsanimals'] = 'Mascotas e animais';
 $string['pluginname'] = 'YouTube';
+$string['privacy:metadata'] = 'O bloque de YouTube só amosa datos almacenados noutros lugares.';
 $string['requesterror'] = 'Non foi posíbel obter datos do servidor. Contacte co administrador se o problema persiste.';
 $string['scienceandtech'] = 'Ciencia e tecnoloxía';
 $string['sports'] = 'Deportes';

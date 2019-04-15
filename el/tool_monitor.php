@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_monitor', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,6 +79,28 @@ $string['monitor:managetool'] = 'Ενεργοποίηση/απενεργοποί
 $string['monitor:subscribe'] = 'Εγγραφή σε κανόνες παρακολούθησης γεγονότων';
 $string['norules'] = 'Δεν υπάρχουν καθόλου κανόνες παρακολούθησης γεγονότων';
 $string['pluginname'] = 'Παρακολούθηση γεγονότων';
+$string['privacy:createdrules'] = 'Κανόνες παρακολούθησης γεγονότων που δημιούργησα';
+$string['privacy:metadata:description'] = 'Περιγραφή του κανόνα';
+$string['privacy:metadata:eventname'] = 'Πλήρες όνομα του γεγονότος';
+$string['privacy:metadata:frequency'] = 'Συχνότητα ειδοποιήσεων';
+$string['privacy:metadata:historysummary'] = 'Αποθηκεύει το ιστορικό των μηνυμάτων που στάλθηκαν';
+$string['privacy:metadata:inactivedate'] = 'Περίοδος χρόνου, σε ημέρες, μετά την οποία θα αφαιρεθεί εντελώς μια ανενεργή εγγραφή';
+$string['privacy:metadata:lastnotificationsent'] = 'Πότε έγινε τελευταία φορά ειδοποίηση για αυτήν τη συνδρομή.';
+$string['privacy:metadata:messagesummary'] = 'Οι ειδοποιήσεις αποστέλλονται στο σύστημα μηνυμάτων.';
+$string['privacy:metadata:name'] = 'Όνομα του κανόνα';
+$string['privacy:metadata:plugin'] = 'Το όνομα Frankenstlye του πρόσθετου';
+$string['privacy:metadata:rulessummary'] = 'Αυτό αποθηκεύει κανόνες παρακολούθησης.';
+$string['privacy:metadata:subscriptionssummary'] = 'Αποθηκεύει εγγραφές χρηστών σε διάφορους κανόνες';
+$string['privacy:metadata:template'] = 'Φόρμα μηνύματος';
+$string['privacy:metadata:timecreatedrule'] = 'Πότε δημιουργήθηκε αυτός ο κανόνας';
+$string['privacy:metadata:timecreatedsub'] = 'Πότε δημιουργήθηκε αυτή η εγγραφή';
+$string['privacy:metadata:timemodifiedrule'] = 'Πότε τροποποιήθηκε τελευταία αυτός ο κανόνας';
+$string['privacy:metadata:timesent'] = 'Πότε στάλθηκε το μήνυμα';
+$string['privacy:metadata:timewindow'] = 'Χρονικό παράθυρο (διάστημα) σε δευτερόλεπτα';
+$string['privacy:metadata:userid'] = 'Το αναγνωριστικό του χρήστη που δημιούργησε τον κανόνα.';
+$string['privacy:metadata:useridhistory'] = 'Το αναγνωριστικό του χρήστη στον οποίο έχει αποσταλεί αυτή η ειδοποίηση';
+$string['privacy:metadata:useridsub'] = 'Το αναγνωριστικό του εγγραφόμενου.';
+$string['privacy:subscriptions'] = 'Οι εγγραφές μου παρακολούθησης γεγονότων';
 $string['processevents'] = 'Επεξεργασία γεγονότων';
 $string['ruleareyousure'] = 'Είστε βέβαιοι ότι θέλετε να διαγράψετε τον κανόνα «{$a}»;';
 $string['ruleareyousureextra'] = 'Υπάρχουν {$a} εγγραφές σε αυτόν τον κανόνα, οι οποίες επίσης θα διαγραφούν.';

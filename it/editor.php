@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'editor', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   editor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -120,6 +120,7 @@ $string['pleaseenteralt'] = 'Si prega di inserire il testo alternativo';
 $string['popupeditor'] = 'Editor in nuova finestra';
 $string['preformatted'] = 'Preformattato';
 $string['preview'] = 'Anteprima';
+$string['privacy:metadata:preference:htmleditor'] = 'Preferenze dell\'editor di testo.';
 $string['properties'] = 'Proprietà';
 $string['redo'] = 'Ripeti ultima azione';
 $string['regularexpressions'] = 'Utilizza espressioni regolari';

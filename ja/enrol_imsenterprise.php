@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,6 +68,7 @@ $string['nestedcategories'] = 'ネストカテゴリを許可する';
 $string['nestedcategories_desc'] = 'この設定を有効にした場合、IMS Enterpriseはネストカテゴリを作成します。';
 $string['pluginname'] = 'IMSエンタープライズファイル';
 $string['pluginname_desc'] = 'このメソッドではあなたが指定した場所にある特別にフォーマットされたテキストファイルを繰り返しチェックおよび処理します。IMSエンタープライズ仕様に基づき、ファイルにはperson、groupおよびmembershipをXML要素に含む必要があります。';
+$string['privacy:metadata'] = 'IMSエンタープライズファイル登録プラグインはどのような個人データも保存しません。';
 $string['processphoto'] = 'ユーザ写真データをプロファイルに追加する';
 $string['processphotowarning'] = '警告: イメージ処理はサーバに深刻な負荷を与えます。多くの学生の処理が予想される場合、このオプションを有効にしないことをお勧めします。';
 $string['restricttarget'] = '次のターゲットが指定されている場合のみ処理する';
@@ -91,7 +92,7 @@ $string['updatecourses'] = 'コースを更新する';
 $string['updatecourses_desc'] = 'この設定を有効にした場合、IMS Enterprise登録プラグインは長いコース名およびコース省略名を更新することができます (「recstatus」フラグに「2」が設定された場合、更新を意味します)。';
 $string['updateusers'] = 'IMSデータで指定された場合、ユーザアカウントを更新する';
 $string['updateusers_desc'] = 'この設定を有効にした場合、IMS Enterprise登録データはユーザアカウントの変更を指定することができます (「recstatus」フラグに「2」が設定された場合、更新を意味します)。';
-$string['usecapitafix'] = '「Capita」を使用している場合、チェックしてください (XMLフォーマットが少しだけ正しくありません)';
+$string['usecapitafix'] = 'Capitaを使用している場合、チェックしてください (XMLフォーマットが少しだけ異なります)。';
 $string['usecapitafix_desc'] = 'Capitaによって作成された学生データにはXML出力において若干のエラーがあることが見つかっています。あなたがCapitaを使用している場合、このオプションを有効にしてください - そうでなければ、チェックしないままにしてください。';
 $string['usersettings'] = 'ユーザデータオプション';
 $string['zeroisnotruncation'] = '表示:0  切り詰め:なし';

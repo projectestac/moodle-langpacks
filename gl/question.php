@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'question', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -336,6 +336,29 @@ $string['permissionmove'] = 'Mover esta pregunta';
 $string['permissionsaveasnew'] = 'Gardar isto como unha nova pregunta';
 $string['permissionto'] = 'Ten permiso para:';
 $string['previewquestion'] = 'Previsualizar a pregunta: {$a}';
+$string['privacy:metadata:database:question'] = 'Os detalles sobre unha pregunta específica.';
+$string['privacy:metadata:database:question_attempts'] = 'A información sobre un intento dunha pregunta específica.';
+$string['privacy:metadata:database:question_attempts:flagged'] = 'Unha indicación de que o usuario sinalizou esta pregunta no intento.';
+$string['privacy:metadata:database:question_attempts:responsesummary'] = 'Un resumo da resposta da pregunta.';
+$string['privacy:metadata:database:question_attempt_step_data'] = 'Os pasos do intento de pregunta poden ter datos adicionais específicos para ese paso. Os datos almacénanse na táboa step_data.';
+$string['privacy:metadata:database:question_attempt_step_data:name'] = 'O nome do elemento de datos.';
+$string['privacy:metadata:database:question_attempt_step_data:value'] = 'O valor do elemento de datos.';
+$string['privacy:metadata:database:question_attempt_steps'] = 'Cada intento de preguntas ten unha serie de pasos para indicar as distintas fases do principio ao final ao marcado. Esta táboa almacena a información de cada un destes pasos.';
+$string['privacy:metadata:database:question_attempt_steps:fraction'] = 'A cualificación asignada a este intento de pregunta escalou a un valor de 1.';
+$string['privacy:metadata:database:question_attempt_steps:state'] = 'O estado desta pregunta intenta paso ao final da transición paso.';
+$string['privacy:metadata:database:question_attempt_steps:timecreated'] = 'A data e hora en que comezou esta transición de paso.';
+$string['privacy:metadata:database:question_attempt_steps:userid'] = 'O usuario que realizou a transición de paso.';
+$string['privacy:metadata:database:question_attempts:timemodified'] = 'O momento no que foi actualizado o intento da pregunta.';
+$string['privacy:metadata:database:question:createdby'] = 'A persoa que creou a pregunta.';
+$string['privacy:metadata:database:question:generalfeedback'] = 'O comentario xeral para esta pregunta.';
+$string['privacy:metadata:database:question:modifiedby'] = 'A persoa que fixo a última actualización da pregunta.';
+$string['privacy:metadata:database:question:name'] = 'O nome da pregunta.';
+$string['privacy:metadata:database:question:questiontext'] = 'O texto da pregunta.';
+$string['privacy:metadata:database:question:timecreated'] = 'A data e a hora na que se creou esta pregunta.';
+$string['privacy:metadata:database:question:timemodified'] = 'A data e a hora na que se actualizou esta pregunta.';
+$string['privacy:metadata:link:qbehaviour'] = 'O subsistema de preguntas usa o tipo de engadido Question Behaviour (Comportamento de pregunta).';
+$string['privacy:metadata:link:qformat'] = 'O subsistema de preguntas fai uso do tipo de engadido Question Format (Formato de pregunta) para o propósito de importar e exportar preguntas en diferentes formatos.';
+$string['privacy:metadata:link:qtype'] = 'O subsistema de preguntas interactúa co tipo de engadido Question Type (Tipo de pregunta) que contén os diferentes tipos de preguntas.';
 $string['published'] = 'compartido';
 $string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = '<a href="{$a->qurl}">Pregunta "{$a->name}" ({$a->qtype})</a> está nesta categoría pero tamén se usa na <a href="{$a->qurl}">proba "{$a->quizname}"</a> destoutro curso "{$a->coursename}".';
@@ -394,6 +417,7 @@ $string['specificfeedback_help'] = 'Comentario que depende de que contestación 
 $string['started'] = 'Arrancada';
 $string['state'] = 'Estado';
 $string['step'] = 'Paso';
+$string['steps'] = 'Pasos';
 $string['stoponerror'] = 'Alto no erro';
 $string['stoponerror_help'] = 'Este axuste determina que o proceso de importación se deterá ao detectarse un erro, de modo que ningunha pregunta se importará ou que calquera pregunta que conteña erros se ignorará mentres que calquera pregunta correcta se importará.';
 $string['submissionoutofsequence'] = 'Acceso contrario á secuencia. Por favor, non prema no botón de volver atrás ao traballar nas preguntas da proba.';

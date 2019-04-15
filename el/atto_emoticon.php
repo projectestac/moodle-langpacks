@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_emoticon', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_emoticon', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_emoticon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['insertemoticon'] = 'Εισαγωγή εικονιδίου διάθεσης';
 $string['pluginname'] = 'Εικονίδιο διάθεσης';
+$string['privacy:metadata'] = 'Το πρόσθετο «atto_emoticon» (εικονίδιο διάθεσης για τον επεξεργαστή κειμένου Atto) δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

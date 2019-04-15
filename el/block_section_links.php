@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_section_links', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_section_links', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_section_links
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['numsections1_help'] = 'Μόλις ο αριθμός των τμημάτ
 $string['numsections2'] = 'Εναλλακτικός αριθμός τμημάτων';
 $string['numsections2_help'] = 'Μόλις ο αριθμός των τμημάτων του μαθήματος φτάσει σε αυτόν τον αριθμό, τότε χρησιμοποιείται η εναλλακτική προσαύξηση κατά τιμή.';
 $string['pluginname'] = 'Σύνδεσμοι τμημάτων';
+$string['privacy:metadata'] = 'Το μπλοκ συνδέσμων τμήματος εμφανίζει μόνο τα δεδομένα που είναι αποθηκευμένα σε άλλες τοποθεσίες.';
 $string['section_links:addinstance'] = 'Προσθέστε ένα νέο μπλοκ συνδέσμων τμήματος';
 $string['topics'] = 'Τμήματα';
 $string['weeks'] = 'Εβδομάδες';

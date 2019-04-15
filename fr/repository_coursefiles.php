@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_coursefiles', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_coursefiles', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_coursefiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,4 +31,5 @@ $string['emptyfilelist'] = 'Il n\'y a pas de fichier à afficher';
 $string['notitle'] = 'sans titre';
 $string['pluginname'] = 'Fichiers du cours (obsolète)';
 $string['pluginname_help'] = 'Fichiers du cours (obsolète)';
+$string['privacy:metadata'] = 'Le plugin de dépôt Fichiers du cours n\'enregistre et ne transmet aucune donnée personnelle.';
 $string['remember'] = 'Se souvenir de moi';

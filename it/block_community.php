@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_community', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_community', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   block_community
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,6 +96,12 @@ $string['orderbypublisher'] = 'Editore';
 $string['orderbyratingaverage'] = 'Valutazione';
 $string['outcomes'] = 'Obiettivi: {$a}';
 $string['pluginname'] = 'Community finder';
+$string['privacy:metadata:block_community'] = 'Il blocco Community memorizza i link ai corsi condivisi dalla community ai quali gli utenti possono iscriversi.';
+$string['privacy:metadata:block_community:coursedescription'] = 'Descrizione del corso condiviso dalla community.';
+$string['privacy:metadata:block_community:coursename'] = 'Titolo del corso condiviso dalla community.';
+$string['privacy:metadata:block_community:courseurl'] = 'URL del corso condiviso dalla community.';
+$string['privacy:metadata:block_community:imageurl'] = 'URL dell\'immagine del corso condiviso dalla community.';
+$string['privacy:metadata:block_community:userid'] = 'ID dell\'utente che ha creato il corso condiviso dalla community.';
 $string['rateandcomment'] = 'Valuta e commenta';
 $string['rating'] = 'Valutazione';
 $string['removecommunitycourse'] = 'Elimina corso community';

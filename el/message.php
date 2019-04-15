@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'message', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,29 @@ $string['outputnotconfigured'] = 'Δεν έχει ρυθμιστεί';
 $string['page-message-x'] = 'Οποιεσδήποτε σελίδες μηνύματος';
 $string['pagerefreshes'] = 'Αυτή η σελίδα ανανεώνεται αυτόματα κάθε {$a} δευτερόλεπτα';
 $string['permitted'] = 'Επιτρέπεται';
+$string['privacy:metadata:message_contacts'] = 'Η λίστα των επαφών';
+$string['privacy:metadata:message_contacts:blocked'] = 'Επισήμανση εάν ο χρήστης είναι αποκλεισμένος ή όχι';
+$string['privacy:metadata:message_contacts:contactid'] = 'Το αναγνωριστικό του χρήστη που είναι στις επαφές';
+$string['privacy:metadata:message_contacts:userid'] = 'Το αναγνωριστικό του χρήστη του οποίου τη λίστα με τις επαφές βλέπουμε';
+$string['privacy:metadata:messages'] = 'Μηνύματα/ειδοποιήσεις';
+$string['privacy:metadata:messages:component'] = 'Το στοιχείο (λογισμικού) που είναι υπεύθυνο για την αποστολή μηνύματος/κοινοποίησης';
+$string['privacy:metadata:messages:contexturl'] = 'Η διεύθυνση URL που σχετίζεται με μια ειδοποίηση';
+$string['privacy:metadata:messages:contexturlname'] = 'Το όνομα του πλαισίου';
+$string['privacy:metadata:messages:eventtype'] = 'Ο τύπος γεγονότος';
+$string['privacy:metadata:messages:fullmessage'] = 'Το πλήρες μήνυμα/ειδοποίηση';
+$string['privacy:metadata:messages:fullmessageformat'] = 'Ο μορφότυπος του μηνύματος/ειδοποίησης';
+$string['privacy:metadata:messages:fullmessagehtml'] = 'Ο κώδικας HTML του μηνύματος/ειδοποίησης';
+$string['privacy:metadata:messages:notification'] = 'Επισήμανση με «σημαία» εάν πρόκειται για ειδοποίηση ή όχι';
+$string['privacy:metadata:messages:smallmessage'] = 'Μια μικρή έκδοση του μηνύματος/ειδοποίησης';
+$string['privacy:metadata:messages:subject'] = 'Το θέμα του μηνύματος/ειδοποίησης';
+$string['privacy:metadata:messages:timecreated'] = 'Η ώρα δημιουργίας του μηνύματος/ειδοποίησης';
+$string['privacy:metadata:messages:timeread'] = 'Η ημερομηνία κατά την οποία αναγνώστηκε το μήνυμα / η ειδοποίηση';
+$string['privacy:metadata:messages:timeuserfromdeleted'] = 'Η ημερομηνία κατά την οποία το μήνυμα / η ειδοποίηση διαγράφηκε από τον αποστολέα';
+$string['privacy:metadata:messages:timeusertodeleted'] = 'Η ημερομηνία κατά την οποία το μήνυμα / η ειδοποίηση διαγράφηκε από τον παραλήπτη';
+$string['privacy:metadata:messages:useridfrom'] = 'Το αναγνωριστικό του χρήστη που έστειλε την ειδοποίηση';
+$string['privacy:metadata:messages:useridto'] = 'Το αναγνωριστικό του χρήστη που έλαβε την ειδοποίηση';
+$string['privacy:metadata:preference:core_message_settings'] = 'Ρυθμίσεις σχετικές με την ανταλλαγή μυνημάτων';
+$string['privacy:request:preference:set'] = 'Η τιμή των ρυθμίσεων «{$a->name}» ήταν «{$a->value}»';
 $string['processorsettings'] = 'Ρυθμίσεις επεξεργαστή';
 $string['recent'] = 'Πρόσφατα';
 $string['removecontact'] = 'Αφαίρεση επαφής';
@@ -123,6 +146,10 @@ $string['seeall'] = 'Όλα τα μηνύματα';
 $string['selectmessagestodelete'] = 'Επιλέξτε τα μηνύματα που θα διαγραφούν';
 $string['selectnotificationtoview'] = 'Επιλέξτε από τη λίστα των ειδοποιήσεων για να δείτε περισσότερες λεπτομέρειες';
 $string['send'] = 'Αποστολή';
+$string['sendbulkmessage'] = 'Αποστολή μηνύματος σε {$a} άτομα';
+$string['sendbulkmessagesent'] = 'Το μήνυμα στάλθηκε σε {$a} άτομα';
+$string['sendbulkmessagesentsingle'] = 'Το μήνυμα στάλθηκε σε 1 άτομο';
+$string['sendbulkmessagesingle'] = 'Αποστολή μηνύματος σε 1 άτομο';
 $string['sendingvia'] = 'Αποστολή "{$a->provider}" μέσω "{$a->processor}"';
 $string['sendingviawhen'] = 'Αποστολή "{$a->provider}" μέσω "{$a->processor}" όταν {$a->state}';
 $string['sendmessage'] = 'Αποστολή μηνύματος';
@@ -141,6 +168,7 @@ $string['togglemessagemenu'] = 'Εναλλαγή εμφάνισης/απόκρυ
 $string['togglenotificationmenu'] = 'Εναλλαγή εμφάνισης/απόκρυψης του μενού ειδοποιήσεων';
 $string['touserdoesntexist'] = 'Δεν μπορείτε να αποστείλετε μήνυμα σε ένα αναγνωριστικό χρήστη ({$a}) που δεν υπάρχει';
 $string['unblockcontact'] = 'Ξεμπλόκαρε την επαφή';
+$string['unknownuser'] = 'Άγνωστος χρήστης';
 $string['unreadnewmessage'] = 'Νέο μήνυμα από {$a}';
 $string['unreadnotification'] = 'Αδιάβαστη ειδοποίηση: {$a}';
 $string['userisblockingyou'] = 'Αυτός ο χρήστης έχει μπλοκάρει την αποδοχή μηνυμάτων από σας';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_standard', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'logstore_standard', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   logstore_standard
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,4 +28,14 @@ defined('MOODLE_INTERNAL') || die();
 $string['buffersize'] = 'Grootte schrijfbuffer';
 $string['pluginname'] = 'Standaard log';
 $string['pluginname_desc'] = 'Een log plugin bewaart loggegevens in een Moodle databanktabel';
+$string['privacy:metadata:log'] = 'Een verzameling gebeurtenissen';
+$string['privacy:metadata:log:anonymous'] = 'Of de gebeurtenis als anoniem gemarkeerd is';
+$string['privacy:metadata:log:eventname'] = 'De gebeurtenisnaam';
+$string['privacy:metadata:log:ip'] = 'Het IP-adres dat gebruikt werd tijdens de gebeurtenis';
+$string['privacy:metadata:log:origin'] = 'De oorsprong van de gebeurtenis';
+$string['privacy:metadata:log:other'] = 'Bijkomende informatie over de gebeurtenis';
+$string['privacy:metadata:log:realuserid'] = 'De ID van de echte gebruiker achter de gebeurtenis, wanneer die zich als een andere gebruiker aangemeld heeft.';
+$string['privacy:metadata:log:relateduserid'] = 'De ID van een gebruiker gerelateerd aan deze gebeurtenis';
+$string['privacy:metadata:log:timecreated'] = 'Het tijdstip waarop de gebeurtenis plaatsvond';
+$string['privacy:metadata:log:userid'] = 'De ID van de gebruiker die deze gebeurtenis startte';
 $string['taskcleanup'] = 'Logtabel opschonen';

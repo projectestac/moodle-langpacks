@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'error', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityisscheduledfordeletion'] = 'Διαγραφή δραστηριότητας σε εξέλιξη...';
+$string['agedigitalconsentmapinvalidage'] = 'Η «{$a}» δεν είναι έγκυρη τιμή για την ηλικία.';
+$string['agedigitalconsentmapinvalidcomma'] = 'Το "{$a}" έχει περισσότερα ή λιγότερα από ένα διαχωριστικό κόμμα.';
+$string['agedigitalconsentmapinvalidcountry'] = 'Η «{$a}» δεν είναι έγκυρη τιμή για την χώρα.';
+$string['agedigitalconsentmapinvaliddefault'] = 'Η προεπιλεγμένη (*) τιμή λείπει.';
+$string['agelocationverificationdisabled'] = 'Η επαλήθευση ηλικίας και τοποθεσίας έχει απενεργοποιηθεί';
 $string['alreadyloggedin'] = 'Έχετε ήδη συνδεθεί ως {$a}. Πρέπει να αποσυνδεθείτε πρώτα, για να συνδεθείτε ως ένας διαφορετικός χρήστης.';
 $string['authnotexisting'] = 'Το πρόσθετο εξουσιοδότησης δεν υπάρχει';
 $string['backupcontainexternal'] = 'Αυτό το αντίγραφο ασφαλείας περιέχει εξωτερικούς Moodle Network Hosts που δεν είναι ρυθμισμένοι τοπικά';
@@ -38,7 +43,7 @@ $string['blockdoesnotexistonpage'] = 'Αυτό το μπλοκ (αναγνωρι
 $string['blocknameconflict'] = 'Σύγκρουση ονοματοδοσίας: το μπλοκ {$a->name} έχει τον ίδιο τίτλο με ένα υπάρχον μπλοκ: {$a->conflict}!';
 $string['callbackrejectcomment'] = 'Η επανάκληση σχολίου απέρριψε αυτό το σχόλιο.';
 $string['cannotaddcoursemodule'] = 'Δεν ήταν δυνατή η προσθήκη νέου αρθρώματος μαθήματος';
-$string['cannotaddcoursemoduletosection'] = 'Δεν ήταν δυνατή η προσθήκη νέου αρθρώματος μαθήματος σε αυτή την ενότητα';
+$string['cannotaddcoursemoduletosection'] = 'Δεν ήταν δυνατή η προσθήκη νέου αρθρώματος μαθήματος σε αυτό το τμήμα';
 $string['cannotaddmodule'] = 'Δεν ήταν δυνατή η προσθήκη του αρθρώματος {$a} στη λίστα αρθρωμάτων!';
 $string['cannotaddnewmodule'] = 'Δεν ήταν δυνατή η προσθήκη νέου αρθρώματος {$a}';
 $string['cannotaddrss'] = 'Δεν έχετε δικαίωμα να προσθέσετε τροφοδοσίες RSS';
@@ -111,8 +116,8 @@ $string['cannotmapfield'] = 'Ανιχνεύτηκε σύγκρουση στην 
 $string['cannotmarktopic'] = 'Δεν ήταν δυνατή η βαθμολόγηση αυτού του θέματος γι\'αυτό το μάθημα';
 $string['cannotmigratedatacomments'] = 'Δεν είναι δυνατή η μετεγκατάσταση (μεταφορά/μετατροπή)
  σχολίων αρθρώματος δεδομένων';
-$string['cannotmodulename'] = 'Αδυναμία ανάκτησης ονόματος αρθρώματος στο build navigation';
-$string['cannotmoduletype'] = 'Αδυναμία ανάκτησης τύπου αρθρώματος στο build navigation';
+$string['cannotmodulename'] = 'Αδυναμία ανάκτησης ονόματος αρθρώματος στην κατασκευή της πλοήγησης';
+$string['cannotmoduletype'] = 'Αδυναμία ανάκτησης τύπου αρθρώματος στην κατασκευή της πλοήγησης';
 $string['cannotmovecategory'] = 'Δεν μπορεί να μεταφερθεί η κατηγορία';
 $string['cannotmovecourses'] = 'Δεν μπορεί να μεταφερθεί μάθημα από την κατηγορία του σε άλλη.';
 $string['cannotmoverolewithid'] = 'Αδυναμία μετακίνησης ρόλου με ID {$a}';
@@ -180,6 +185,7 @@ $string['confirmationnotenabled'] = 'Η επιβεβαίωση χρήστη δε
 $string['confirmsesskeybad'] = 'Συγνώμη, αλλά δεν ήταν δυνατή η επιβεβαίωση του κλειδιού της συνόδου σας για να την ολοκλήρωση αυτής της ενέργειας. Αυτό το χαρακτηριστικό ασφαλείας αποτρέπει την εκτέλεση σημαντικών λειτουργιών κατά λάθος ή επίτηδες στο όνομά σας. Παρακαλούμε επιβεβαιώστε ότι θέλετε να εκτελεστεί αυτή η λειτουργία.';
 $string['couldnotassignrole'] = 'Ένα σοβαρό αλλά μη-ορισμένο σφάλμα συνέβη ενώ δοκιμάστηκε η απόδοση ρόλου σε σας.';
 $string['couldnotupdatenoexistinguser'] = 'Αδυναμία ενημέρωσης του χρήστη - ο χρήστης δεν υπάρχει';
+$string['couldnotverifyagedigitalconsent'] = 'Παρουσιάστηκε σφάλμα κατά την προσπάθεια επαλήθευσης της ηλικίας της ψηφιακής συναίνεσης. <br /> Επικοινωνήστε με τον διαχειριστή.';
 $string['countriesphpempty'] = 'Σφάλμα: Το αρχείο countries.php στο πακέτο γλώσσας {$a} είναι κενό ή δεν υπάρχει.';
 $string['coursedoesnotbelongtocategory'] = 'Το μάθημα δεν ανήκει σε αυτή την κατηγορία';
 $string['courseformatnotfound'] = 'Ο μορφότυπος του μαθήματος «{$a}» δεν υπάρχει ή δεν αναγνωρίζεται';
@@ -221,7 +227,7 @@ $string['dmlwriteexception'] = 'Σφάλμα εγγραφής στη βάση δ
 $string['downgradedcore'] = 'ΣΦΑΛΜΑ!!! Ο κώδικας που χρησιμοποιείτε είναι παλαιότερος από την έκδοση που δημιούργησε αυτές τις βάσεις δεδομένων!';
 $string['downloadedfilecheckfailed'] = 'Αποτυχία ελέγχου αρχείου που έγινε λήψη';
 $string['duplicatefieldname'] = 'Ανιχνεύθηκε δεύτερο πεδίο με ίδιο όνομα «{$a}»';
-$string['duplicatenosupport'] = 'Η δραστηριότητα \'{$a->modname}\' δεν μπορεί να αντιγραφεί διότι η υπομονάδα {$a->modtype} δεν υποστηρίζει την δημιουργία και επαναφορά αντιγράφων ασφαλείας.';
+$string['duplicatenosupport'] = 'Η δραστηριότητα «{$a->modname}» δεν μπορεί να αντιγραφεί διότι το άρθρωμα «{$a->modtype}» δεν υποστηρίζει την δημιουργία και επαναφορά αντιγράφων ασφαλείας.';
 $string['duplicateparaminsql'] = 'ΣΦΑΛΜΑ: διπλότυπη παράμετρος στο ερώτημα';
 $string['duplicaterolename'] = 'Υπάρχει ήδη ένας ρόλος με αυτό το όνομα!';
 $string['duplicateroleshortname'] = 'Υπάρχει ήδη ένας ρόλος με αυτό το σύντομο όνομα!';
@@ -350,7 +356,7 @@ $string['invalidrole'] = 'Μη έγκυρος ρόλος';
 $string['invalidroleid'] = 'Μη έγκυρο ID ρόλου';
 $string['invalidscaleid'] = 'Μη έγκυρο id (αναγνωριστικό) κλίμακας';
 $string['invalidsection'] = 'Η έγγραφή του αρθρώματος μαθήματος περιέχει μη έγκυρο τμήμα';
-$string['invalidsesskey'] = 'Υποβλήθηκε λανθασμένο sesskey, η φόρμα δε γίνεται δεκτή!';
+$string['invalidsesskey'] = 'Η σύνοδός σας πιθανότατα έχει λήξει. Παρακαλούμε συνδεθείτε ξανά.';
 $string['invalidshortname'] = 'Μη έγκυρο σύντομο όνομα μαθήματος';
 $string['invalidsourcefield'] = 'Το πεδίο προέλευσης του αρχείου προσχεδίου δεν είναι έγκυρο';
 $string['invalidstatedetected'] = 'Κάτι έχει πάει στραβά: {$a}. Κανονικά αυτό δεν πρέπει ποτέ να συμβεί.';
@@ -360,6 +366,7 @@ $string['invaliduserdata'] = 'Μη έγκυρα δεδομένα χρήστη: �
 $string['invaliduserfield'] = 'Μη έγκυρο πεδίο χρήστη: «{$a}»';
 $string['invaliduserid'] = 'Μη έγκυρο id χρήστη';
 $string['invalidusername'] = 'Το όνομα χρήστη που δόθηκε περιέχει μη έγκυρους χαρακτήρες';
+$string['invalidusernameblank'] = 'Το όνομα χρήστη δεν μπορεί να είναι κενό';
 $string['invalidxmlfile'] = 'Το "{$a}" δεν είναι έγκυρο αρχείο XML';
 $string['iplookupfailed'] = 'Αδυναμία εύρεσης πληροφοριών geo σχετικά με αυτή την IP διεύθυνση {$a}';
 $string['iplookupprivate'] = 'Αδυναμία προβολής αναζήτησης ιδιωτικής διεύθυνσης IP';
@@ -379,7 +386,7 @@ $string['maxareabytes'] = 'Το αρχείο είναι μεγαλύτερο α�
 $string['maxbytes'] = 'Το αρχείο είναι μεγαλύτερο από το μέγιστο επιτρεπόμενο μέγεθος.';
 $string['maxbytesfile'] = 'Το αρχείο «{$a->file}» είναι πολύ μεγάλο. Το μέγιστο μέγεθος που μπορείτε να ανεβάσετε είναι «{$a->size}».';
 $string['messagingdisable'] = 'Η ανταλλαγή μηνυμάτων είναι απενεργοποιημένη σε αυτόν τον ιστότοπο';
-$string['mimetexisnotexist'] = 'Το σύστημά σας δεν έχει ρυθμιστεί ώστε να τρεχει mimeTeX. Πρέπει να κατεβάσετε το κατάλληλο εκτελέσιμο για την πλατφόρμα PHP σας από το <a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a>, ή να αποκτήσετε τον πηγαίο κώδικα C από το <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>, να το κάνετε compile και να τοποθετήσετε το εκτελέσιμο στον κατάλογο moodle/filter/tex/.';
+$string['mimetexisnotexist'] = 'Το σύστημά σας δεν έχει ρυθμιστεί ώστε να εκτελεί mimeTeX. Πρέπει να κατεβάσετε τον πηγαίο κώδικα C από το <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>, να τον μεταγλωττίσετε (compile) και να τοποθετήσετε στον κατάλογο moodle/filter/tex/ το εκτελέσιμο αρχείο.';
 $string['mimetexnotexecutable'] = 'Το παραμετροποιημένο mimetex δεν είναι εκτελέσιμο!';
 $string['missingfield'] = 'Το πεδίο "{$a}" λείπει';
 $string['missingkeyinsql'] = 'ΣΦΑΛΜΑ: λείπει η παράμετρος «{$a}» στο ερώτημά σας';
@@ -405,7 +412,7 @@ $string['multiplerecordsfound'] = 'Βρέθηκαν πολλές εγγραφέ�
 $string['multiplerestorenotallow'] = 'Δεν επιτρέπεται η εκτέλεση πολλαπλών λειτουργιών επαναφοράς!';
 $string['mustbeloggedin'] = 'Πρέπει να συνδεθείτε για να το κάνετε αυτό';
 $string['mustbeteacher'] = 'Πρέπει να είστε διδάσκων για να δείτε αυτή τη σελίδα';
-$string['myisamproblem'] = 'Οι πίνακες βάσης δεδομένων χρησιμοποιούν τη μηχανή βάσης δεδομένων MyISAM. Συνιστάται η χρήση κινητού συμβατού με το ACID με πλήρη υποστήριξη συναλλαγών ΒΔ, όπως το InnoDB.';
+$string['myisamproblem'] = 'Οι πίνακες βάσης δεδομένων χρησιμοποιούν τη μηχανή βάσης δεδομένων MyISAM. Συνιστάται η χρήση μηχανής συμβατής με το ACID με πλήρη υποστήριξη συναλλαγών ΒΔ, όπως η InnoDB.';
 $string['needcopy'] = 'Πρέπει να αντιγράψετε κάτι πρώτα!';
 $string['needcoursecategroyid'] = 'Είτε το id μαθήματος ή η κατηγορία πρέπει να έχει οριστεί';
 $string['needphpext'] = 'Πρέπει να προσθέσετε υποστήριξη {$a} στην εγκατάσταση PHP σας';
@@ -500,7 +507,7 @@ $string['sessionipnomatch'] = 'Λυπούμαστε αλλά το IP σας φα
 $string['sessionipnomatch2'] = 'Λυπούμαστε αλλά το IP σας φαίνεται να έχει αλλάξει από την πρώτη φορά που συνδεθήκατε. Αυτό το χαρακτηριστικό ασφαλείας εμποδίζει crackers από το να κλέψουν την ταυτότητά σας ενώ έχετε συνδεθεί στον ιστότοπο. Μπορεί να δείτε αυτό το σφάλμα εάν χρησιμοποιείτε ασύρματο δίκτυο ή εάν μετακινείστε μεταξύ διαφορετικών δικτύων. Παρακαλούμε επικοινωνήστε με το διαχειριστή του ιστοτόπου σας για περισσότερη βοήθεια.<br /><br />Εάν επιθυμείτε να συνεχίσετε παρακαλούμε πιέστε το πλήκτρο F5 για να ανανεώσετε αυτή τη σελίδα.';
 $string['sessionwaiterr'] = 'Εξαντλήθηκε ο χρόνος κατά την αναμονή για κλείδωμα συνόδου.<br />Περιμένετε να ολοκληρωθούν τα τρέχοντα αιτήματά σας και δοκιμάστε ξανά αργότερα.';
 $string['shortnametaken'] = 'Το σύντομο όνομα χρησιμοποιείται ήδη από άλλο μάθημα ({$a})';
-$string['sitepolicynotagreed'] = 'Δεν συμφωνήθηκε πολιτική ιστότοπου: <a href="{$a}">Κάντε κλικ εδώ για να ανοίξετε την πολιτική ιστότοπου.</a>';
+$string['sitepolicynotagreed'] = 'Δεν συμφωνήθηκε πολιτική ιστοτόπου: <a href="{$a}">Κάντε κλικ εδώ για να ανοίξετε την πολιτική ιστοτόπου.</a>';
 $string['socksnotsupported'] = 'Ο SOCKS5 proxy δεν υποστηρίζεται στην PHP4';
 $string['spellcheckernotconf'] = 'Ο spellchecker δεν έχει ρυθμιστεί';
 $string['sslonlyaccess'] = 'Για λόγους ασφαλείας επιτρέπονται μόνο συνδέσεις https, λυπούμαστε.';
@@ -561,10 +568,12 @@ $string['userautherror'] = 'Άγνωστο πρόσθετο αυθεντικοπ
 $string['userauthunsupported'] = 'Το πρόσθετο αυθεντικοποίησης δεν υποστηρίζεται εδώ';
 $string['useremailduplicate'] = 'Διπλότυπη διεύθυνση';
 $string['usermustbemnet'] = 'Ο χρήστες στη λίστα ελέγχου πρόσβασης MNET πρεπει να είναι απομακρυσμένοι χρήστες MNET';
+$string['usernamelowercase'] = 'Το όνομα χρήστη πρέπει να είναι με πεζά';
 $string['usernotaddederror'] = 'Ο χρήστης δεν προστέθηκε - άγνωστο σφάλμα';
 $string['usernotaddedregistered'] = 'Ο χρήστης δεν προστέθηκε - ήδη εγγεγραμμένος';
 $string['usernotavailable'] = 'Οι λεπτομέρειες αυτού του χρήστη δεν είναι διαθέσιμες σε εσάς.';
 $string['usernotdeletedadmin'] = 'Ο χρήστης δεν διαγράφηκε - δεν μπορείτε να διαγράψετε λογαριασμούς διαχειριστών';
+$string['usernotdeleteddeleted'] = 'Ο χρήστης αυτός έχει ήδη διαγραφεί.';
 $string['usernotdeletederror'] = 'Ο χρήστης δε διαγράφηκε - σφάλμα';
 $string['usernotdeletedmissing'] = 'Ο χρήστης δε διαγράφηκε - δεν ήταν δυνατή η εύρεση του ονόματος χρήστη';
 $string['usernotdeletedoff'] = 'Ο χρήστης δε διαγράφηκε - δεν επιτρέπεται η διαγραφή';
@@ -579,6 +588,7 @@ $string['usernotupdatederror'] = 'Ο χρήστης δεν ενημερώθηκ�
 $string['usernotupdatednotexists'] = 'Ο χρήστης δεν ενημερώθηκε - δεν υπάρχει';
 $string['userquotalimit'] = 'Έχετε φτάσει το όριο ποσόστωσης αρχείων σας.';
 $string['userselectortoomany'] = 'Ο user_selector έχει περισσότερους από έναν επιλεγμένους χρήστες, ακόμη κι αν το multiselect είναι ανενεργό.';
+$string['verifyagedigitalconsentnotpossible'] = 'Λυπούμαστε! Η επαλήθευση ψηφιακής ηλικίας συναίνεσης δεν είναι δυνατή αυτή τη στιγμή.';
 $string['wrongcall'] = 'Το σενάριο καλείται λανθασμένα';
 $string['wrongcontextid'] = 'Το ID πλαισίου ήταν λανθασμένο (δεν είναι δυνατή η εύρεσή του)';
 $string['wrongdestpath'] = 'Λανθασμένη διαδρομή προορισμού (πλήρες όνομα).';

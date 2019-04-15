@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeimport_xml', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradeimport_xml', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   gradeimport_xml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,5 +38,6 @@ $string['fileurl_help'] = 'Το πεδίο διεύθυνσης URL απομακ
 $string['importxml'] = 'Εισαγωγή XML';
 $string['importxml_help'] = 'Οι βαθμοί μπορούν να εισαχθούν μέσω ενός αρχείου XML που περιέχει αναγνωριστικούς αριθμούς χρήστη και αναγνωριστικούς αριθμούς δραστηριότητας. Για να αποκτήσετε το σωστό μορφότυπο, πρώτα εξαγάγετε μερικούς βαθμούς σε αρχείο XML και κατόπιν δείτε το αρχείο.';
 $string['pluginname'] = 'Αρχείο XML';
+$string['privacy:metadata'] = 'Το πρόσθετο «Εισαγωγή βαθμών από XML» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['xml:publish'] = 'Δημοσίευση εισαγωγής βαθμών από αρχείο XML';
 $string['xml:view'] = 'Εισαγωγή βαθμών από αρχείο XML';

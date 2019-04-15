@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,8 +47,8 @@ $string['attachedfiles'] = 'Bijlagen';
 $string['attachment'] = 'Bijlage';
 $string['author'] = 'Auteur';
 $string['automatedbackup'] = 'Automatische back-ups';
-$string['back'] = '&laquo; Terug';
-$string['backtodraftfiles'] = '&laquo; Terug naar beheer kladbestanden';
+$string['back'] = 'Terug';
+$string['backtodraftfiles'] = 'Terug naar beheer kladbestanden';
 $string['cachecleared'] = 'Cache-bestanden zijn verwijderd';
 $string['cacheexpire'] = 'Cache verloopt';
 $string['cannotaccessparentwin'] = 'Als het vorige venster via HTTPS geopend is, krijgen we er geen toegang toe via het window.opener object, dus we kunnen de opslagruimte voor jou niet automatisch verversen. We hebben je sessie al, dus ga terug naar de bestandskiezer en selecteer de opslagruimte opnieuw. Het zou dan moeten werken.';
@@ -114,7 +114,7 @@ $string['enternewname'] = 'Geef de nieuwe bestandsnaam';
 $string['error'] = 'Onbekende fout!';
 $string['errordoublereference'] = 'Kan bestand niet overschrijven met een snelkoppeling/alias omdat er al een snelkoppeling naar dit bestand bestaat.';
 $string['errornotyourfile'] = 'Je kan geen bestand kiezen dat niet is toegevoegd door jou';
-$string['errorpostmaxsize'] = 'Het bestand dat je probeerde te uploaden is te groot om door deze server te laten verwerken.';
+$string['errorpostmaxsize'] = 'Het bestand dat je probeerde te uploaden is groter dan deze server kan verwerken.';
 $string['erroruniquename'] = 'De naam van de opslagruimte moet uniek zijn';
 $string['errorwhilecommunicatingwith'] = 'Fout bij het communiceren met de opslagruimte \'{$a}\'.';
 $string['errorwhiledownload'] = 'Er is een fout opgetreden bij het downloaden van bestand: {$a}';
@@ -156,8 +156,10 @@ $string['linkexternal'] = 'Link extern';
 $string['listview'] = 'Bekijk als lijst';
 $string['loading'] = 'Laden...';
 $string['login'] = 'Login met je account';
+$string['logintoaccount'] = 'Inloggen voor jouw {$a} account';
 $string['logout'] = 'Uitloggen';
 $string['lostsource'] = 'Fout; Bron ontbreekt. {$a}';
+$string['makefilecontrolledlink'] = 'Maak een link met toegangscontrole naar het bestand';
 $string['makefileinternal'] = 'Maak een kopie van het bestand';
 $string['makefilelink'] = 'Link rechtstreeks naar het bestand';
 $string['makefilereference'] = 'Maak een alias/koppeling naar het bestand';
@@ -195,6 +197,15 @@ $string['pluginnamehelp'] = 'Als je dit leeg laat, zal de standaardnaam gebruikt
 $string['popup'] = 'Klik op de "Login"-knop om in te loggen';
 $string['popupblockeddownload'] = 'Het downloadvenster is geblokkeerd. Sta pop-ups toe en probeer opnieuw';
 $string['preview'] = 'Voorbeeld';
+$string['privacy:metadata:repository'] = 'De opslagruimtecomponent bewaart types opslagruimten binnen het core subsysteem.';
+$string['privacy:metadata:repository_instances'] = 'De opslagruimte plugin-component bewaart gebruikersopslagruimten binnen het core subsysteem.';
+$string['privacy:metadata:repository_instances:name'] = 'De aangepaste naam van de opslagruimte.';
+$string['privacy:metadata:repository_instances:password'] = 'Het optionele wachtwoord voor de opslagruimte.';
+$string['privacy:metadata:repository_instances:timecreated'] = 'Het tijdstip waarop de opslagruimte is aangemaakt.';
+$string['privacy:metadata:repository_instances:timemodified'] = 'Het tijdstip waarop de opslagruimte is gewijzigd.';
+$string['privacy:metadata:repository_instances:typeid'] = 'Het ID-type van de opslagruimte.';
+$string['privacy:metadata:repository_instances:userid'] = 'De ID van de gebruiker die eigenaar is van de opslagruimte.';
+$string['privacy:metadata:repository_instances:username'] = 'De optionele gebruikersnaam voor de opslagruimte.';
 $string['privatefilesof'] = '{$a} privébestanden';
 $string['readonlyinstance'] = 'Je kunt een enkel lezen-verwijzing niet bewerken/verwijderen';
 $string['referencesexist'] = 'Er zijn {$a} alias/koppelingsbestanden die dit bestand als bron gebruiken';
@@ -224,6 +235,7 @@ $string['settings'] = 'Instellingen';
 $string['setupdefaultplugins'] = 'Instellen van de standaard opslagruimten';
 $string['siteinstances'] = 'Verwijzingen naar opslagruimten van de site';
 $string['size'] = 'Grootte';
+$string['sourcekeymismatch'] = 'De bron-URL komt niet overeen met de bron sleutel.';
 $string['submit'] = 'Verstuur';
 $string['sync'] = 'Synchroniseer';
 $string['syncfiletimeout'] = 'Sync bestand timeout';
@@ -235,6 +247,7 @@ $string['typenotvisible'] = 'Type niet zichtbaar';
 $string['undisclosedreference'] = '(Niet openbaar te maken)';
 $string['undisclosedsource'] = '(Niet openbaar te maken)';
 $string['unknownoriginal'] = 'Onbekend';
+$string['unknownsource'] = 'Onbekende bron';
 $string['unzipped'] = 'Uitpakken gelukt';
 $string['upload'] = 'Upload dit bestand';
 $string['uploading'] = 'Uploaden...';

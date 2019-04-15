@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_more', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'theme_more', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   theme_more
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -63,6 +63,7 @@ $string['linkcolor_desc'] = 'Use o selecionador de cores para definir a cor a us
 $string['logo'] = 'Logótipo';
 $string['logodesc'] = 'O logótipo é exibido apenas no cabeçalho da primeira página e da página de autenticação.<br /> Se a altura do logótipo for maior do que 75px, adicione a seguinte regra de CSS "div.logo {height: 100px;}" na caixa abaixo \'Personalizar CSS\' (alterar de acordo com a altura do logótipo diferente de 100px). Se um logótipo não for adicionado aqui, será usado o logótipo reduzido que foi definido em Aparência > Logótipos.';
 $string['pluginname'] = 'Tema More';
+$string['privacy:metadata'] = 'O tema More não armazena qualquer dado pessoal de nenhum utilizador.';
 $string['region-side-post'] = 'Direita';
 $string['region-side-pre'] = 'Esquerda';
 $string['secondarybackground'] = 'Cor de fundo secundária';
@@ -71,6 +72,6 @@ $string['sitelogo'] = 'Logótipo do site';
 $string['sitename'] = 'Mostrar nome do site juntamente com logótipo pequeno';
 $string['sitenamedesc'] = 'Se não existir um logótipo pequeno, o nome do site é sempre mostrado na barra de navegação. Se for definido um logótipo pequeno, este poderá ser exibido com ou sem o nome do site.';
 $string['smalllogo'] = 'Logótipo pequeno';
-$string['smalllogodesc'] = 'O logótipo pequeno é exibido na barra de navegação. Se existir um logótipo de cabeçalho para a primeira página e para a página de autenticação, o logótipo pequeno não é apresentado nestas páginas. Se um logótipo não for adicionado aqui, será usado o logótipo reduzido que foi definido em Aparência > Logótipos.';
+$string['smalllogodesc'] = 'O logótipo pequeno é exibido na barra de navegação. Se existir um logótipo de cabeçalho para a primeira página e para a página de autenticação, o logótipo pequeno não é apresentado nestas páginas. Se não for adicionado um logótipo, será usado o logótipo reduzido que foi definido em Aparência > Logótipos.';
 $string['textcolor'] = 'Cor do texto';
 $string['textcolor_desc'] = 'Use o selecionador de cores para definir a cor a usar no texto.';

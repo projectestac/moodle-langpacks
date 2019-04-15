@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_search_forums', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_search_forums', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_search_forums
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,4 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['advancedsearch'] = 'Προχωρημένη Αναζήτηση';
 $string['pluginname'] = 'Αναζήτηση στα φόρουμ';
+$string['privacy:metadata'] = 'Το μπλοκ φόρουμ αναζήτησης εμφανίζει μόνο δεδομένα αποθηκευμένα σε άλλες τοποθεσίες.';
 $string['search_forums:addinstance'] = 'Προσθήκη νέου μπλοκ αναζήτησης σε φόρουμ';

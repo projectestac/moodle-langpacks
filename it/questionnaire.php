@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'questionnaire', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,6 +39,8 @@ $string['alreadyfilled'] = 'Il questionario è già stato compilato. Grazie.';
 $string['andaveragevalues'] = 'e valori medi';
 $string['anonymous'] = 'Anonimo';
 $string['answer'] = 'Risposta';
+$string['answergiven'] = 'Risposta data';
+$string['answernotgiven'] = 'Risposta non data';
 $string['answerquestions'] = 'Rispondi alle domande...';
 $string['answers'] = 'Risposte';
 $string['attempted'] = 'Il questionario è stato inviato.';
@@ -80,6 +82,7 @@ $string['closedate'] = 'Usa data di chiusura';
 $string['closedate_help'] = 'Qui è possibile specificare una data di chiusura del questionario. Selezionare la Casella di spunta e indicare la data e l\'ora che si desiderano. Trascorsa la data indicata, gli utenti non potranno più compilare il questionario. Se la casella di spunta non è selezionata, il questionario non verrà mai chiuso.';
 $string['closeson'] = 'Il questionario chiude il {$a}';
 $string['completionsubmit'] = 'Gli studenti devono inviare il questionario per completarlo';
+$string['condition'] = 'Condizione';
 $string['confalts'] = 'oppure<br />Pagina di conferma';
 $string['configmaxsections'] = 'Massimo numero di sezioni di feedback';
 $string['configusergraph'] = 'Visualizza i grafici per il feedback del "Test della personalità"';
@@ -106,6 +109,7 @@ $string['createcontent_help'] = 'Per creare un nuovo questionario selezionare un
 
     <br />**Esempio:** Se un questionario di tipo "Pubblico" è stato creato nel corso A, esso può essere erogato nei corsi B, C... Tutte le risposte dagli utenti dei corsi A, B, C... saranno raccolte nel questionario pubblico creato nel corso A e saranno visualizzabili solamente nel contesto del corso A dagli amministratori o docenti che lo hanno realizzato.';
 $string['createnew'] = 'Crea nuovo';
+$string['crontask'] = 'Pulizia Questionario';
 $string['date'] = 'Data';
 $string['dateformatting'] = 'E\' possibile usare il formato gg/mm/aaaa, es: 14 Marzo, 1945 <strong>14/3/1945</strong>';
 $string['date_help'] = 'Usare questo tipo di domanda se si desidera che la risposta sia formattata correttamente come data.';
@@ -117,9 +121,11 @@ $string['deletedisabled'] = 'L\'elemento non può essere eliminato';
 $string['deletedresp'] = 'Risposte eliminate';
 $string['deleteresp'] = 'Elimina questa risposta';
 $string['deletingresp'] = 'Eliminazione delle risposte';
+$string['dependencies'] = 'Dipendenze';
 $string['dependquestion'] = 'Domanda genitore';
 $string['dependquestion_help'] = 'E\' possibile selezionare una domanda genitore e un\'opzione di scelta per questa domanda. Allo studente verrà visualizzata una domanda figlia"
                  in basse alla scelta operata nella domanda genitore.';
+$string['directwarnings'] = 'Le dipendenze dirette di questa domanda verranno rimosse. Questo influenzerà:';
 $string['displaymethod'] = 'Il metodo di visualizzazione delle domande non è definito.';
 $string['download'] = 'Download';
 $string['downloadtextformat'] = 'Download in formato testo';
@@ -213,6 +219,7 @@ $string['includechoicetext'] = 'Includi anche i testi delle risposte';
 $string['incorrectcourseid'] = 'ID del corso non corretto';
 $string['incorrectmodule'] = 'ID del modulo non corretto';
 $string['incorrectquestionnaire'] = 'Il questionario non è corretto';
+$string['indirectwarnings'] = 'Lìelenco mostra le domande dipendenti indirette e le dipendenze rimanenti per le domande dipendenti dirette:';
 $string['invalidresponse'] = 'La risposta specificata non è valida.';
 $string['invalidresponserecord'] = 'Il record specificato per la risposta non è corretto.';
 $string['invalidsurveyid'] = 'ID del questionario non corretto';
@@ -222,6 +229,7 @@ $string['lastrespondent'] = 'Ultimo utente che ha risposto';
 $string['length'] = 'Lunghezza';
 $string['managequestions'] = 'Gestisci domande';
 $string['managequestions_help'] = 'Nella sezione Gestisci domande della pagina Modifica domande, puoi effettuare varie operazioni sulle domande del Questionario';
+$string['mandatory'] = 'Obbligatorio - Tutte queste dipendenze devono essere soddisfatte.';
 $string['maxdigitsallowed'] = 'Numero massimo di cifre consentite';
 $string['maxdigitsallowed_help'] = 'Impostando i parametri del numero massimo di cifre consentite e delle cifre decimali, è possibile specificare la lunghezza e il numero dei decimali.';
 $string['maxforcedresponses'] = 'Numero massimo di scelte';
@@ -276,6 +284,7 @@ $string['notifications_help'] = 'Invia una notifica della consegna del questiona
 $string['notificationsimple'] = 'Solo notifica';
 $string['notopen'] = 'Il questionario sarà disponibile a partire dal {$a}';
 $string['notrequired'] = 'Risposta non obbligatoria';
+$string['notset'] = 'non impostato';
 $string['not_started'] = 'non iniziato';
 $string['nousersselected'] = 'Nessun utente selezionato';
 $string['num'] = '#';
@@ -291,6 +300,7 @@ $string['of'] = 'di';
 $string['opendate'] = 'Usa data di apertura';
 $string['opendate_help'] = 'E\' possibile specificare una data di apertura del questionario. Selezionare la casella di spunta ed indicare la data e l\'ora che si desiderano. Prima della data indicata, gli utenti non potranno compilare il questionario. In mancanza di questa indicazione, il questionario sarà immediatamente disponibile.';
 $string['option'] = 'opzione {$a}';
+$string['optional'] = 'Opzionale - Almeno una di queste dipendenze deve essere soddisfatta.';
 $string['optionalname'] = 'Nome <em>(opzionale)</em>';
 $string['optionalname_help'] = 'Il nome di una domanda è un identificativo mnemonico utile per il docente che gestisce il questionario.
 Ciò nonostante, assegnare un nome ad una domanda non è assolutamente necessario. Quest\'ultimo, infatti, viene usato soltanto come intestazione delle colonne dei documenti di esportazione delle risposte ai questionari nel formato CSV ed Excel. Se non si intendono esportare tali dati, non c\'è alcuna necessità di assegnare dei nomi alle domande. Se, per contro, si prevede di esportare sistematicamente le risposte acquisite nei questionari, si hanno due possibilità d\'uso del nome della domanda.';
@@ -318,6 +328,7 @@ $string['overviewnumrespvw1'] = 'risposta';
 $string['owner'] = 'Proprietario';
 $string['page'] = 'Pagina';
 $string['pageof'] = 'Pagina {$a->page} di {$a->totpages}';
+$string['parent'] = 'Domanda genitore';
 $string['participant'] = 'Partecipanti';
 $string['pleasecomplete'] = 'Per favore completa questa scelta.';
 $string['pluginadministration'] = 'Amministrazione del Questionario';
@@ -334,6 +345,41 @@ $string['print'] = 'Stampa questo questionario';
 $string['printblank'] = 'Stampa il modello vuoto';
 $string['printblanktooltip'] = 'Apri il modello vuoto pronto per la stampa in una nuova finestra';
 $string['printtooltip'] = 'Apri le risposte correnti pronte per la stampa in una nuova finestra';
+$string['privacy:metadata:questionnaire_resp_multiple'] = 'Una domanda a risposta multipla.';
+$string['privacy:metadata:questionnaire_resp_multiple:choice_id'] = 'ID del record della scelta per questa risposta.';
+$string['privacy:metadata:questionnaire_resp_multiple:question_id'] = 'ID del record della domanda per questa risposta.';
+$string['privacy:metadata:questionnaire_resp_multiple:response_id'] = 'ID del record della risposta.';
+$string['privacy:metadata:questionnaire_response'] = 'Risposta in corso o inviata';
+$string['privacy:metadata:questionnaire_response_bool'] = 'Risposta a una domanda di tipo booleano (sì/no).';
+$string['privacy:metadata:questionnaire_response_bool:choice_id'] = 'Risposta specifica di tipo booleano.';
+$string['privacy:metadata:questionnaire_response_bool:question_id'] = 'ID del record della domanda per questa risposta.';
+$string['privacy:metadata:questionnaire_response_bool:response_id'] = 'ID del record della risposta.';
+$string['privacy:metadata:questionnaire_response:complete'] = 'Stato di completamento per questa risposta.';
+$string['privacy:metadata:questionnaire_response_date'] = 'Risposta della domanda di tipo "data".';
+$string['privacy:metadata:questionnaire_response_date:question_id'] = 'ID del record della domanda per questa risposta.';
+$string['privacy:metadata:questionnaire_response_date:response'] = 'Specifica risposta della domanda di tipo "data".';
+$string['privacy:metadata:questionnaire_response_date:response_id'] = 'ID del record della risposta.';
+$string['privacy:metadata:questionnaire_response:grade'] = 'Punteggio della risposta.';
+$string['privacy:metadata:questionnaire_response_other'] = 'Testo della risposta alla domanda di tipo "altro",';
+$string['privacy:metadata:questionnaire_response_other:choice_id'] = 'ID del record della scelta per questa risposta.';
+$string['privacy:metadata:questionnaire_response_other:question_id'] = 'ID del record della domanda per questa risposta.';
+$string['privacy:metadata:questionnaire_response_other:response'] = 'Specifica risposta alla domanda di tipo "altro".';
+$string['privacy:metadata:questionnaire_response_other:response_id'] = 'ID del record della risposta.';
+$string['privacy:metadata:questionnaire_response_rank'] = 'Risposta della domanda di tipo "punteggio".';
+$string['privacy:metadata:questionnaire_response_rank:choice_id'] = 'ID del record della scelta per questa risposta.';
+$string['privacy:metadata:questionnaire_response_rank:question_id'] = 'ID del record della domanda per questa risposta.';
+$string['privacy:metadata:questionnaire_response_rank:rankvalue'] = 'Specifica risposta alla domanda di tipo "punteggio".';
+$string['privacy:metadata:questionnaire_response_rank:response_id'] = 'ID del record della risposta.';
+$string['privacy:metadata:questionnaire_response:submitted'] = 'Data ed ora del salvataggio più recente della risposta.';
+$string['privacy:metadata:questionnaire_response_text'] = 'Risposta della domanda di tipo "campo di testo".';
+$string['privacy:metadata:questionnaire_response_text:question_id'] = 'ID del record della domanda per questa risposta.';
+$string['privacy:metadata:questionnaire_response_text:response'] = 'Specifica risposta alla domanda di tipo "campo di testo".';
+$string['privacy:metadata:questionnaire_response_text:response_id'] = 'ID del record della risposta.';
+$string['privacy:metadata:questionnaire_response:userid'] = 'ID del record dell\'utente per questa risposta.';
+$string['privacy:metadata:questionnaire_resp_single'] = 'Risposta della domanda di tipo "scelta singola".';
+$string['privacy:metadata:questionnaire_resp_single:choice_id'] = 'ID del record della scelta per questa risposta.';
+$string['privacy:metadata:questionnaire_resp_single:question_id'] = 'ID del record della domanda per questa risposta.';
+$string['privacy:metadata:questionnaire_resp_single:response_id'] = 'ID del record della risposta.';
 $string['private'] = 'Privato';
 $string['public'] = 'Pubblico';
 $string['publiccopy'] = 'Copia:';
@@ -474,6 +520,7 @@ $string['sendemail_help'] = 'Ad ogni invio di un questionario da parte di un qua
 Si possono inserire più indirizzi di posta elettronica separati da una virgola.';
 $string['send_message'] = 'Invia un messaggio agli utenti selezionati';
 $string['send_message_to'] = 'Invia messaggio a:';
+$string['set'] = 'imposta';
 $string['settings'] = 'Impostazioni';
 $string['settingssaved'] = 'Impostazioni salvate';
 $string['show_nonrespondents'] = 'Mostra gli utenti che non hanno risposto';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_comments', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopform_comments', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopform_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,3 +31,4 @@ $string['dimensioncommentfor'] = 'Σχόλιο για {$a}';
 $string['dimensiondescription'] = 'Περιγραφή';
 $string['dimensionnumber'] = 'Πτυχή {$a}';
 $string['pluginname'] = 'Σχόλια';
+$string['privacy:metadata'] = 'Το πρόσθετο Βαθμολόγησης σχολίων αποθηκεύει μόνο τα στοιχεία της φόρμας αξιολόγησης. Τα πραγματικά προσωπικά δεδομένα για το πως έχει συμπληρωθεί η φόρμα αποθηκεύονται από το ίδιο το άρθρωμα του Εργαστηρίου και επισυνάπτονται στις εξαγόμενες αξιολογήσεις.';

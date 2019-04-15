@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_upload', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_upload', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_upload
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['configplugin'] = 'Instellingen voor uploadplugin';
 $string['pluginname'] = 'Upload een bestand';
 $string['pluginname_help'] = 'Upload een bestand naar Moodle';
+$string['privacy:metadata'] = 'De Upload een bestand opslagruimte-plugin bewaart geen persoonlijke gegevens.';
 $string['upload_error_cant_write'] = 'Kon bestand niet op schijf bewaren';
 $string['upload_error_extension'] = 'Een PHP-extentie heeft de bestandsupload gestopt.';
 $string['upload_error_form_size'] = 'Het geüploade bestand is groter dan de MAX_FILE_SIZE instelling die in het HTML-formulier was opgegeven.';

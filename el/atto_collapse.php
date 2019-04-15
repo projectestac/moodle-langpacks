@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_collapse', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_collapse', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_collapse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Εμφάνιση/απόκρυψη πλήκτρων για προχωρημένους';
+$string['privacy:metadata'] = 'Το πρόσθετο «atto_collapse» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['settings'] = 'Σύμπτυξη ρυθμίσεων γραμμής εργαλείων';
 $string['showfewer'] = 'Εμφάνιση λιγότερων πλήκτρων';
 $string['showgroups'] = 'Εμφάνιση πρώτων (n) ομάδων κατά τη σύμπτυξη.';

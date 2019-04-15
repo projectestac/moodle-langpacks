@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_title', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_title', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_title
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,4 +31,5 @@ $string['h5'] = '小标题';
 $string['p'] = '段落';
 $string['pluginname'] = '段落样式';
 $string['pre'] = '预格式化';
+$string['privacy:metadata'] = 'atto_title 插件不储存任何私人数据。';
 $string['title'] = '段落样式';

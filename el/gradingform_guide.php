@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradingform_guide', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,6 +75,13 @@ $string['name'] = 'Όνομα';
 $string['needregrademessage'] = 'Ο ορισμός του οδηγού βαθμολόγησης άλλαξε μετά την βαθμολόγηση αυτού του μαθητή. Ο μαθητής δεν μπορεί να δει αυτόν τον οδηγό βαθμολόγησης μέχρι να ελέγξετε τον οδηγό βαθμολόγησης και να ενημερώσετε τον βαθμό.';
 $string['pluginname'] = 'Οδηγός βαθμολόγησης';
 $string['previewmarkingguide'] = 'Προεπισκόπηση οδηγού βαθμολόγησης';
+$string['privacy:metadata:criterionid'] = 'Ένα αναγνωριστικό για ένα κριτήριο για προηγμένη βαθμολόγηση.';
+$string['privacy:metadata:fillingssummary'] = 'Αποθηκεύει πληροφορίες σχετικά με τη βαθμολογία και την ανατροφοδότηση ενός χρήστη για τον οδηγό βαθμολόγησης.';
+$string['privacy:metadata:instanceid'] = 'Ένα αναγνωριστικό σε έναν βαθμό που χρησιμοποιείται από μια δραστηριότητα.';
+$string['privacy:metadata:preference:showmarkerdesc'] = 'Εάν θα εμφανίζονται περιγραφές κριτηρίων βαθμολογητή';
+$string['privacy:metadata:preference:showstudentdesc'] = 'Εάν θα εμφανίζονται περιγραφές κριτηρίων μαθητή';
+$string['privacy:metadata:remark'] = 'Παρατηρήσεις σχετικά με αυτό το κριτήριο βαθμού.';
+$string['privacy:metadata:score'] = 'Ένα σκορ για αυτό το κριτήριο βαθμού';
 $string['regrademessage1'] = 'Πρόκειται να αποθηκεύσετε αλλαγές σε ένα οδηγό βαθμολόγησης ο οποίος έχει ήδη χρησιμοποιηθεί για βαθμολόγηση. Παρακαλούμε να επισημάνετε αν οι υπάρχοντες βαθμοί χρειάζονται επανεξέταση. Αν ενεργοποιήσετε αυτή την επιλογή, τότε ο οδηγός βαθμολόγησης θα παραμείνει κρυμμένος από τους μαθητές μέχρι να αναβαθμολογηθεί η απάντησή τους.';
 $string['regrademessage5'] = 'Πρόκειται να αποθηκεύσετε σημαντικές αλλαγές σε έναν οδηγό βαθμολόγησης που έχει ήδη χρησιμοποιηθεί για βαθμολόγηση. Η τιμή στο βαθμολόγιο θα παραμείνει αμετάβλητη, αλλά ο οδηγός βαθμολόγησης θα αποκρύπτεται από τους μαθητές έως ότου το στοιχείο τους ξαναβαθμολογηθεί.';
 $string['regradeoption0'] = 'Μην επισημάνετε για επαναβαθμολόγηση';

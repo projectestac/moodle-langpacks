@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_capability', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_capability', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_capability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['forroles'] = 'Для ролей {$a}';
 $string['getreport'] = 'Получить отчет';
 $string['intro'] = 'В этом отчете для конкретного права отображается, дано ли такое право каждой из ролей (или выбранным ролям), а также все места на сайте, где это право переопределяется.';
 $string['pluginname'] = 'Отчет о правах';
+$string['privacy:metadata'] = 'Плагин Отчет о правах не хранит никаких личных данных.';
 $string['reportforcapability'] = 'Отчет о праве «{$a}»';
 $string['reportsettings'] = 'Параметры отчета';
 $string['roleslabel'] = 'Роли:';

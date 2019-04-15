@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_news_items', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_news_items', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_news_items
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['news_items:addinstance'] = 'Προσθήκη νέου μπλοκ τελευταίες ανακοινώσεις';
 $string['news_items:myaddinstance'] = 'Προσθήκη νέου μπλοκ τελευταίες ανακοινώσεις στο Ταμπλό';
 $string['pluginname'] = 'Τελευταίες ανακοινώσεις';
+$string['privacy:metadata'] = 'Το μπλοκ «Τελευταίες ανακοινώσεις» εμφανίζει μόνο δεδομένα που είναι αποθηκευμένα στο φόρουμ και το ίδιο δεν αποθηκεύει δεδομένα.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_atto', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'editor_atto', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   editor_atto
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['autosavefailed'] = 'Δεν ήταν δυνατή η σύνδεση με τον εξυπηρετητή. Αν υποβάλετε αυτή τη σελίδα τώρα, οι αλλαγές ενδέχεται να χαθούν.';
 $string['autosavefrequency'] = 'Συχνότητα αυτόματης αποθήκευσης';
 $string['autosavefrequency_desc'] = 'Αυτός είναι ο αριθμός των δευτερολέπτων μεταξύ των προσπαθειών αυτόματης αποθήκευσης. Ο επεξεργαστής κειμένου atto θα αποθηκεύσει αυτόματα το κείμενο στον επεξεργαστή κειμένου σύμφωνα με αυτή τη ρύθμιση, έτσι ώστε το κείμενο να μπορεί να επαναφερθεί αυτόματα όταν ο ίδιος χρήστης επιστρέφει στην ίδια φόρμα.';
+$string['autosaves'] = 'Πληροφορίες αυτόματης αποθήκευσης επεξεργαστή κειμένου';
 $string['autosavesucceeded'] = 'Το προσχέδιο αποθηκεύτηκε.';
 $string['editor_command_keycode'] = 'Cmd + {$a}';
 $string['editor_control_keycode'] = 'Ctrl + {$a}';
@@ -40,6 +41,10 @@ $string['errortextrecovery'] = 'Δυστυχώς δεν ήταν δυνατή η
 $string['infostatus'] = 'Πληροφορίες';
 $string['pluginname'] = 'Επεξεργαστής HTML Atto';
 $string['plugin_title_shortcut'] = '{$a->title} [{$a->shortcut}]';
+$string['privacy:metadata:database:atto_autosave'] = 'Αποθηκεύτηκαν αυτόματα προσχέδια του επεξεργαστή κειμένου.';
+$string['privacy:metadata:database:atto_autosave:drafttext'] = 'Το κείμενο που αποθηκεύτηκε.';
+$string['privacy:metadata:database:atto_autosave:timemodified'] = 'Πότε τροποποιήθηκε το περιεχόμενο.';
+$string['privacy:metadata:database:atto_autosave:userid'] = 'Το αναγνωριστικό του χρήστη του οποίου τα δεδομένα αποθηκεύτηκαν.';
 $string['recover'] = 'Ανάκτηση';
 $string['settings'] = 'Ρυθμίσεις της γραμμής εργαλείων Atto';
 $string['subplugintype_atto'] = 'Πρόσθετο Atto';

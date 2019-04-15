@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_menu', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_menu', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_menu
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Menú de escolla';
+$string['privacy:metadata:profilefield_menu:data'] = 'Os datos almacenados do usuario.';
+$string['privacy:metadata:profilefield_menu:dataformat'] = 'O formato dos datos almacenados do usuario.';
+$string['privacy:metadata:profilefield_menu:fieldid'] = 'O ID do campo do perfil.';
+$string['privacy:metadata:profilefield_menu:tableexplanation'] = 'Aquí está almacenada a información adicional do usuario.';
+$string['privacy:metadata:profilefield_menu:userid'] = 'O ID do usuario cuxos datos son almacenados polo engadido de menú de escolla.';

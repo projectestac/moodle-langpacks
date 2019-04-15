@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,16 +45,19 @@ $string['deleteinstancenousersconfirm'] = 'Está a piques de eliminar o método 
 $string['disableinstanceconfirmself'] = 'Confirma definitivamente que quere desactivar a instancia «{$a->name}» que lle da acceso a este curso? É probábel que xa non poida acceder a este curso se continúa.';
 $string['durationdays'] = '{$a} días';
 $string['editenrolment'] = 'Editar a matriculación';
+$string['edituserenrolment'] = 'Editar a matriculación de {$a}';
 $string['enrol'] = 'Matricularse';
 $string['enrolcandidates'] = 'Usuarios non matriculados';
 $string['enrolcandidatesmatching'] = 'Atopando usuarios non matriculados';
 $string['enrolcohort'] = 'Matricular grupo';
 $string['enrolcohortusers'] = 'Matricular usuarios';
+$string['enroldetails'] = 'Detalles da matriculación';
 $string['enrollednewusers'] = 'Matriculados correctamente {$a} novos usuarios';
 $string['enrolledusers'] = 'Usuarios matriculados';
 $string['enrolledusersmatching'] = 'Atopar usuarios matriculados';
 $string['enrolme'] = 'Matricularme neste curso';
 $string['enrolmentinstances'] = 'Métodos de matriculación';
+$string['enrolmentmethod'] = 'Método de matriculación';
 $string['enrolmentnew'] = 'Nova matriculación en {$a}';
 $string['enrolmentnewuser'] = '{$a->user} matriculouse neste curso "{$a->course}"';
 $string['enrolmentoptions'] = 'Opcións de matriculación';
@@ -63,6 +66,7 @@ $string['enrolnotpermitted'] = 'Non ten permiso ou non se lle permite matricular
 $string['enrolperiod'] = 'Duración da matriculación';
 $string['enroltimecreated'] = 'Creada a matriculación';
 $string['enroltimeend'] = 'A matriculación finaliza';
+$string['enroltimeendinvalid'] = 'A data de remate da matriculación debe ser posterior á data de inicio da matriculación';
 $string['enroltimestart'] = 'Comeza a matriculación';
 $string['enrolusage'] = 'Instancias / matriculacións';
 $string['enrolusers'] = 'Matricular usuarios';
@@ -99,6 +103,7 @@ $string['instanceadded'] = 'O método foi engadido';
 $string['instanceeditselfwarning'] = 'Aviso:';
 $string['instanceeditselfwarningtext'] = 'Vostede está matriculado neste curso mediante este método de matriculación, os cambios poden afectar ao seu acceso a este curso.';
 $string['invalidenrolinstance'] = 'Instancia de matriculación incorrecta';
+$string['invalidrequest'] = 'Solicitude incorrecta';
 $string['invalidrole'] = 'Rol incorrecto';
 $string['manageenrols'] = 'Xestionar os complementos de matriculación';
 $string['manageinstance'] = 'Xestionar';
@@ -112,12 +117,23 @@ $string['notenrollable'] = 'Non pode matricularse a si mesmo neste curso.';
 $string['notenrolledusers'] = 'Outros usuarios';
 $string['otheruserdesc'] = 'Os seguintes usuario non están matriculados neste curso pero teñen roles, herdados ou asignados polo curso.';
 $string['participationactive'] = 'Activo';
+$string['participationnotcurrent'] = 'Non actual';
 $string['participationstatus'] = 'Estado';
 $string['participationsuspended'] = 'Suspendido';
 $string['periodend'] = 'ata {$a}';
 $string['periodnone'] = 'matriculado {$a}';
 $string['periodstart'] = 'desde {$a}';
 $string['periodstartend'] = 'desde {$a->start} ata {$a->end}';
+$string['privacy:metadata:user_enrolments'] = 'Matriculacións';
+$string['privacy:metadata:user_enrolments:enrolid'] = 'A instancia do engadido de matriculación.';
+$string['privacy:metadata:user_enrolments:modifierid'] = 'O ID do usuario que modificou a matriculación do usuario por última vez.';
+$string['privacy:metadata:user_enrolments:status'] = 'O estado da matriculación do usuario nun curso.';
+$string['privacy:metadata:user_enrolments:tableexplanation'] = 'Aquí é onde a xestión de Matriculación almacena os usuarios matriculados.';
+$string['privacy:metadata:user_enrolments:timecreated'] = 'A data/hora na que se creou a matriculación do usuario.';
+$string['privacy:metadata:user_enrolments:timeend'] = 'A data/hora na que rematou a matriculación do usuario.';
+$string['privacy:metadata:user_enrolments:timemodified'] = 'A data/hora na que se modificou a matriculación do usuario.';
+$string['privacy:metadata:user_enrolments:timestart'] = 'A data/hora na que comezou a matriculación do usuario.';
+$string['privacy:metadata:user_enrolments:userid'] = 'O ID do usuario.';
 $string['proceedtocourse'] = 'Continúe co contido do curso';
 $string['recovergrades'] = 'Recuperar antigas puntuacións do usuario se é posíbel';
 $string['rolefromcategory'] = '{$a->role} (Herdado da categoría do curso)';
@@ -142,5 +158,6 @@ $string['unenrolroleusers'] = 'Desmatricular usuarios';
 $string['uninstallmigrating'] = 'Migrando «{$a}» inscricións';
 $string['unknowajaxaction'] = 'A acción solicitada é descoñecida';
 $string['unlimitedduration'] = 'Sen límite';
+$string['userremovedfromselectiona'] = 'O usuario «{$a}» foi retirado da selección.';
 $string['usersearch'] = 'Buscar';
 $string['withselectedusers'] = 'Con usuarios seleccionados';

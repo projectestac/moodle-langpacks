@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_overview', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradereport_overview', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   gradereport_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,3 +29,4 @@ $string['eventgradereportviewed'] = 'Visualizzata scheda globale utente';
 $string['gradesoverview'] = 'Panoramica valutazioni';
 $string['overview:view'] = 'Visualizzare la propria scheda globale';
 $string['pluginname'] = 'Scheda globale utente';
+$string['privacy:metadata'] = 'Il report Panoramica delle valutazioni visualizza solamente dati memorizzati da altri componenti.';

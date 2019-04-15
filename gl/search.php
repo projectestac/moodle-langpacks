@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'search', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,6 +59,7 @@ $string['enginenotselected'] = 'Non ten seleccionando ningún motor de busca.';
 $string['engineserverstatus'] = 'Non está dispoñíbel o motor de buscas. Póñase en contacto co administrador.';
 $string['enteryoursearchquery'] = 'Escriba a súa consulta de busca';
 $string['errorareanotavailable'] = 'A área de buscas {$a} non está dispoñíbel.';
+$string['error_indexing'] = 'Produciuse un erro ao indexar';
 $string['errors'] = 'Erros';
 $string['filesinindexdirectory'] = 'Ficheiros no directorio do índice';
 $string['filterheader'] = 'Filtro';
@@ -67,6 +68,8 @@ $string['globalsearch'] = 'Busca global';
 $string['globalsearchdisabled'] = 'Non está activada a busca global.';
 $string['incourse'] = 'en curso {$a}';
 $string['index'] = 'Índice';
+$string['indexwhendisabledfullnotice'] = 'Actualmente non se permite a indexación cando a busca estea desactivada. Para activar isto, consulte o axuste <a href="{$a->url}">searchindexwhendisabled</a>.';
+$string['indexwhendisabledshortnotice'] = 'A indexación non está dispoñible.';
 $string['invalidindexerror'] = 'O índice do directorio, ou contén un índice incorrecto, ou non contén nada.';
 $string['ittook'] = 'Levoulle';
 $string['matchingfile'] = 'Emparellando desde o ficheiro <span class="filename">{$a}</span>';
@@ -78,6 +81,7 @@ $string['normalsearch'] = 'Busca normal';
 $string['notitle'] = 'Sen título';
 $string['openedon'] = 'aberto o';
 $string['optimize'] = 'Optimizar';
+$string['privacy:metadata'] = 'O subsistema de busca non almacena ningún dato persoal.';
 $string['queryerror'] = 'A consulta que forneceu non puido ser interpretada polo motor de buscas: {$a}';
 $string['resultsreturnedfor'] = 'resultados devolvidos por';
 $string['runindexer'] = 'Executar o indexador (real)';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_textarea', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_textarea', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_textarea
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Área de texto';
+$string['privacy:metadata:profile_field_textarea:data'] = 'Os datos almacenados do usuario.';
+$string['privacy:metadata:profile_field_textarea:dataformat'] = 'O formato dos datos almacenados do usuario.';
+$string['privacy:metadata:profile_field_textarea:fieldid'] = 'O ID do campo do perfil.';
+$string['privacy:metadata:profile_field_textarea:tableexplanation'] = 'Aquí está almacenada a información adicional do usuario.';
+$string['privacy:metadata:profile_field_textarea:userid'] = 'O ID do usuario cuxos datos son almacenados polo engadido de área de texto.';

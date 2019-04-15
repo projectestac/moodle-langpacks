@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_mediaplugin', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'filter_mediaplugin', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   filter_mediaplugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,3 +31,4 @@ $string['filtername'] = 'Мультимедийные плагины';
 $string['linktomedia'] = 'Фильтр мультимедийных плагинов находит в тексте ссылку, указывающую на мультимедийный ресурс и заменяет её кодом соответствующего мультимедийного проигрывателя, который может воспроизводить ресурс. Он также заменяет теги &lt;video&gt; и &lt;audio&gt;  выбранными видео- и аудиоплеерами.
 
 <a href="{$a}"> Управление медиаплеерами </a>';
+$string['privacy:metadata'] = 'Плагин Мультимедиа не хранит никаких персональных данных.';

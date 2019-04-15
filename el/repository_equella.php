@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_equella', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_equella', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_equella
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['equella:view'] = 'Εμφάνιση αποθετηρίου EQUELLA';
 $string['group'] = 'Ρυθμίσεις ρόλων {$a}';
 $string['groupdefault'] = 'Προεπιλογή';
 $string['pluginname'] = 'Αποθετήριο EQUELLA';
+$string['privacy:metadata'] = 'Το πρόσθετο «Αποθετήριο EQUELLA» δεν αποθηκεύει κανένα προσωπικό δεδομένο αλλά μεταβιβάζει δεδομένα χρήστη από το Moodle προς το απομακρυσμένο σύστημα.';
 $string['restrictionattachmentsonly'] = 'Μόνο συνδεδεμένος πόρος';
 $string['restrictionitemsonly'] = 'Περίληψη αντικειμένων μόνο';
 $string['restrictionnone'] = 'Χωρίς περιορισμό';

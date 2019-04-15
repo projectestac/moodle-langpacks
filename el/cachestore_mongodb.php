@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_mongodb', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cachestore_mongodb', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   cachestore_mongodb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,8 @@ $string['password'] = 'Κωδικός πρόσβασης';
 $string['password_help'] = 'Ο κωδικός πρόσβασης του χρήστη που χρησιμοποιείται για τη σύνδεση.';
 $string['pleaseupgrademongo'] = 'Χρησιμοποιείτε μια παλιά έκδοση της επέκτασης PHP Mongo (<1.3). Η υποστήριξη για παλιές εκδόσεις της επέκτασης Mongo θα διακοπεί στο μέλλον. Παρακαλώ εξετάστε την αναβάθμιση.';
 $string['pluginname'] = 'MongoDB';
+$string['privacy:metadata:mongodb'] = 'Το πρόσθετο αποθήκευσης κρυφής μνήμης (cachestore) MongoDB αποθηκεύει δεδομένα για λίγο ως μέρος της λειτουργικότητάς του ως κρυφής μνήμης. Αυτά τα δεδομένα αποθηκεύονται σε έναν εξυπηρετητή MongoDB όπου τα δεδομένα διαγράφονται τακτικά.';
+$string['privacy:metadata:mongodb:data'] = 'Τα διάφορα δεδομένα που αποθηκεύονται στην κρυφή μνήμη';
 $string['replicaset'] = 'Σετ πιστού αντιγράφου';
 $string['replicaset_help'] = 'Το όνομα του σετ πιστού αντιγράφου στο οποίο θέλετε να γίνει η σύνδεση. Αν αυτό δοθεί, το κύριο (σετ) θα καθοριστεί χρησιμοποιώντας την εντολή της βάσης δεδομένων ismaster στους σπόρους (πλήρη αντίγραφα), οπότε το πρόγραμμα οδήγησης μπορεί να καταλήξει στη σύνδεση με έναν εξυπηρετητή που δεν ήταν καν στη λίστα.';
 $string['server'] = 'Εξυπηρετητής';

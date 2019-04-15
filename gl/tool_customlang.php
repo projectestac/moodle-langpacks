@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_customlang', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,5 +56,6 @@ $string['placeholder_help'] = 'Os intraducíbeis son instrucións especiais, com
 É importante copialos exactamente igual a como están na cadea orixinal. NON OS TRADUZA NIN CAMBIE A SÚA ESTRUTURA INTERNA.';
 $string['placeholderwarning'] = 'cadeas contendo elementos intraducíbeis';
 $string['pluginname'] = 'Personalización do idioma';
+$string['privacy:metadata'] = 'O engadido de personalización do idioma non almacena ningún dato persoal.';
 $string['savecheckin'] = 'Gardar os cambio no paquete de idioma';
 $string['savecontinue'] = 'Aplicar os cambios e continuar editando';

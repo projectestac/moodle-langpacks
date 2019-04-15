@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_boxnet', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_boxnet', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_boxnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,8 @@ $string['nullfilelist'] = 'Questo repository non contiene file';
 $string['password'] = 'Password';
 $string['pluginname'] = 'Box';
 $string['pluginname_help'] = 'Repository su Box';
+$string['privacy:metadata:repository_boxnet'] = 'Il plugin Repository \'Box\' non memorizza dati personali, ma trasmette i dati degli utenti da Moodle al sistema remoto.';
+$string['privacy:metadata:repository_boxnet:query'] = 'Query di ricerca testo per l\'utente del repository Box.';
 $string['saved'] = 'Dati Box salvati';
 $string['shareurl'] = 'URL di condivisione';
 $string['username'] = 'Username Box';

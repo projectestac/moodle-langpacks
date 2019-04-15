@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_equation', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_equation', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_equation
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['librarygroup4'] = 'Дополнительно';
 $string['librarygroup4_desc'] = 'Команды TeX, которые будут отображаться на вкладке «Дополнительно»';
 $string['pluginname'] = 'Редактор формул';
 $string['preview'] = 'Просмотр формулы';
+$string['privacy:metadata'] = 'Плагин atto_equation не хранит никаких персональных данных.';
 $string['saveequation'] = 'Сохранить формулу';
 $string['settings'] = 'Настройки редактора формул';
 $string['update'] = 'Обновить';

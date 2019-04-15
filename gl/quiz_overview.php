@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_overview', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,6 +56,9 @@ $string['pluginname'] = 'Cualificacións';
 $string['preferencespage'] = 'Preferencias só para esta páxina';
 $string['preferencessave'] = 'Amosar informe';
 $string['preferencesuser'] = 'As súas preferencias para este informe';
+$string['privacy:metadata:preference:quiz_overview_slotmarks'] = 'Indica se se mostran as puntuacións para cada intervalo de preguntas.';
+$string['privacy:preference:slotmarks:no'] = 'As puntuacións non se amosan xunto co intervalo de preguntas.';
+$string['privacy:preference:slotmarks:yes'] = 'As puntuacións amósanse xunto co intervalo de preguntas.';
 $string['regrade'] = 'Volver cualificar';
 $string['regradeall'] = 'Volver cualificar todo';
 $string['regradealldry'] = 'Simulacro de recualificación completa';

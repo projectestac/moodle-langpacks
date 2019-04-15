@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_grade', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability_grade', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   availability_grade
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['missing'] = '(Λείπει δραστηριότητα)';
 $string['option_max'] = 'πρέπει να είναι <';
 $string['option_min'] = 'πρέπει να είναι ≥';
 $string['pluginname'] = 'Περιορισμός με βάση τους βαθμούς';
+$string['privacy:metadata'] = 'Το πρόσθετο «Περιορισμός με βάση τους βαθμούς» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['requires_any'] = 'Έχετε βαθμό στο <strong>{$a}</strong>';
 $string['requires_max'] = 'Παίρνετε ένα κατάλληλο σκορ στο <strong>{$a}</strong>';
 $string['requires_min'] = 'Επιτυγχάνετε το απαιτούμενο σκορ στο <strong>{$a}</strong>';

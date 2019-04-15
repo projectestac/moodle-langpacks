@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_capability', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_capability', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_capability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['forroles'] = 'Para os roles {$a}';
 $string['getreport'] = 'Obter a vista xeral';
 $string['intro'] = 'Este informe amosa, para un permiso en particular, que permisos ten ese permiso dentro da definición de cada rol (ou grupo de roles), e en que parte do sistema foi sobrescrito (anulado) o permiso.';
 $string['pluginname'] = 'Vista xeral do permiso';
+$string['privacy:metadata'] = 'O engadido de vista xeral do permiso non almacena ningún dato persoal.';
 $string['reportforcapability'] = 'Informe para o permiso «{$a}»';
 $string['reportsettings'] = 'Axustes de informe';
 $string['roleslabel'] = 'Roles:';

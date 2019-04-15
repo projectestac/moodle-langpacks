@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_database', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'logstore_database', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   logstore_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,6 +47,8 @@ $string['other'] = 'Другие';
 $string['participating'] = 'Участники';
 $string['pluginname'] = 'Журнал событий во внешней базе данных';
 $string['pluginname_desc'] = 'Способ хранения журнала событий, при котором данные сохраняются в таблице внешней базы данных.';
+$string['privacy:metadata:log:realuserid'] = 'ID реального пользователя в случае, когда он действует от имени другого пользователя.';
+$string['privacy:metadata:log:userid'] = 'ID пользователя, который вызвал это событие';
 $string['read'] = 'Чтение';
 $string['tablenotfound'] = 'Указанная таблица не найдена';
 $string['teaching'] = 'Обучение';

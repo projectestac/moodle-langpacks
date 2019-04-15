@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cohort', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cohort', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   cohort
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['allcohorts'] = 'Όλα τα σύνολα χρηστών';
 $string['anycohort'] = 'Οποιαδήποτε';
 $string['assign'] = 'Ανάθεση';
 $string['assigncohorts'] = 'Ανάθεση μελών σε σύνολο χρηστών';
-$string['assignto'] = 'Μέλη συνόλου χρηστών \'{$a}\'';
+$string['assignto'] = 'Μέλη συνόλου χρηστών \'{$a}\'.';
 $string['backtocohorts'] = 'Επιστροφή στα σύνολα χρηστών';
 $string['bulkadd'] = 'Προσθήκη σε σύνολο χρηστών';
 $string['bulknocohort'] = 'Δεν βρέθηκαν διαθέσιμα σύνολα χρηστών';
@@ -63,7 +63,7 @@ $string['external'] = 'Εξωτερικό σύνολο χρηστών';
 $string['idnumber'] = 'ID';
 $string['memberscount'] = 'Μέλη';
 $string['name'] = 'Όνομα';
-$string['namecolumnmissing'] = 'Υπάρχει κάποιο πρόβλημα με τη μορφή του αρχείου CSV. Παρακαλώ ελέγξτε ότι περιλαμβάνονται τα ονόματα των στηλών.';
+$string['namecolumnmissing'] = 'Υπάρχει κάποιο πρόβλημα με τη μορφή του αρχείου CSV. Παρακαλούμε ελέγξτε ότι περιλαμβάνονται τα ονόματα των στηλών. Για να προσθέσετε χρήστες σε ένα σύνολο χρηστών, μεταβείτε στην επιλογή «Εισαγωγή χρηστών» στη Διαχείριση ιστοτόπου.';
 $string['namefieldempty'] = 'Το όνομα πεδίου δεν μπορεί να είναι κενό';
 $string['newidnumberfor'] = 'Νέος αναγνωριστικός αριθμός για το σύνολο χρηστών {$a}';
 $string['newnamefor'] = 'Νέο όνομα για το σύνολο χρηστών {$a}';
@@ -71,6 +71,10 @@ $string['nocomponent'] = 'Δημιουργήθηκε χειροκίνητα';
 $string['potusers'] = 'Πιθανοί χρήστες';
 $string['potusersmatching'] = 'Πιθανοί χρήστες που ταιριάζουν';
 $string['preview'] = 'Προεπισκόπηση';
+$string['privacy:metadata:cohort_members'] = 'Πληροφορίες σχετικά με το σύνολο χρηστών του χρήστη.';
+$string['privacy:metadata:cohort_members:cohortid'] = 'Το αναγνωριστικό του συνόλου χρηστών';
+$string['privacy:metadata:cohort_members:timeadded'] = 'Η χρονοσφραγίδα που σηματοδοτεί πότε ο χρήστης προστέθηκε στο σύνολο χρηστών';
+$string['privacy:metadata:cohort_members:userid'] = 'Το αναγνωριστικό του χρήστη που συσχετίζεται με την ομάδα';
 $string['removeuserwarning'] = 'Η αφαίρεση χρηστών από ένα σύνολο χρηστών μπορεί να έχει ως αποτέλεσμα την ακύρωση εγγραφής των χρηστών από πολλαπλά μαθήματα και περιλαμβάνει διαγραφή ρυθμίσεων χρήστη, βαθμών, συμμετοχής σε ομάδες συμμετεχόντων μαθήματος και άλλες πληροφορίες χρήστη από τα επηρεαζόμενα μαθήματα.';
 $string['search'] = 'Αναζήτηση';
 $string['searchcohort'] = 'Αναζήτηση ενός συνόλου χρηστών';

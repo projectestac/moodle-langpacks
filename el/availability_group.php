@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_group', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability_group', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   availability_group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['description'] = 'Επιτρέψτε μόνο σε μαθητές που
 $string['error_selectgroup'] = 'Πρέπει να επιλέξετε μια ομάδα.';
 $string['missing'] = '(Λείπει ομάδα)';
 $string['pluginname'] = 'Περιορισμός με βάση την ομάδα';
+$string['privacy:metadata'] = 'Το πρόσθετο «Περιορισμός με βάση την ομάδα» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['requires_anygroup'] = 'Ανήκετε σε οποιαδήποτε ομάδα';
 $string['requires_group'] = 'Ανήκετε στην ομάδα <strong>{$a}</strong>';
 $string['requires_notanygroup'] = 'Δεν ανήκετε σε καμία ομάδα';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_datetime', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_datetime', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_datetime
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,11 @@ $string['defaultdate'] = 'Data predefinita';
 $string['endyear'] = 'Anno finale';
 $string['notset'] = 'Non impostato';
 $string['pluginname'] = 'Data/Ora';
+$string['privacy:metadata:profilefield_datetime:data'] = 'Dati utente nel campo personalizzato \'Data/Ora\'';
+$string['privacy:metadata:profilefield_datetime:dataformat'] = 'Formato dei dati utente nel campo personalizzato \'Data/Ora\'';
+$string['privacy:metadata:profilefield_datetime:fieldid'] = 'ID del campo profilo';
+$string['privacy:metadata:profilefield_datetime:tableexplanation'] = 'Dati profilo aggiuntivi';
+$string['privacy:metadata:profilefield_datetime:userid'] = 'ID dell\'utente i cui dati sono memorizzati nel campo personalizzato \'Data/Ora\'';
 $string['specifydatedefault'] = 'oppure specifica un data';
 $string['startyear'] = 'Anno iniziale';
 $string['startyearafterend'] = 'L\'anno iniziale non può essere successivo all\'anno finale';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_log', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_log', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   report_log
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,6 +46,7 @@ $string['page-report-log-index'] = 'Αναφορά καταγραφής μαθή
 $string['page-report-log-user'] = 'Αναφορά καταγραφής μαθήματος χρήστη';
 $string['page-report-log-x'] = 'Κάθε αναφορά καταγραφής';
 $string['pluginname'] = 'Καταγραφές';
+$string['privacy:metadata'] = 'Το πρόσθετο «Καταγραφές» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['restore'] = 'Επαναφορά';
 $string['selectlogreader'] = 'Επιλογή αναγνώστη καταγραφών';
 $string['web'] = 'Ιστός';

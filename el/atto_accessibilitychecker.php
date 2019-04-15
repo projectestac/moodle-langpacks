@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_accessibilitychecker', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_accessibilitychecker', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_accessibilitychecker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,7 @@ $string['needsmorecontrast'] = 'Τα χρώματα του προσκηνίου 
 $string['needsmoreheadings'] = 'Υπάρχει πολύ κείμενο χωρίς επικεφαλίδες. Οι επικεφαλίδες θα επιτρέψουν στους χρήστες του προγράμματος ανάγνωσης οθόνης να περιηγηθούν εύκολα στη σελίδα και θα καταστήσουν τη σελίδα περισσότερο χρήσιμη για όλους.';
 $string['nowarnings'] = 'Συγχαρητήρια, δεν βρέθηκαν προβλήματα προσβασιμότητας!';
 $string['pluginname'] = 'Ελεγκτής προσβασιμότητας';
+$string['privacy:metadata'] = 'Το πρόσθετο «atto_accessibilitychecker» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['report'] = 'Αναφορά προσβασιμότητας:';
 $string['tablesmissingcaption'] = 'Οι πίνακες πρέπει να έχουν υπότιτλους. Ενώ δεν είναι απαραίτητο για κάθε πίνακα να έχει μια λεζάντα, μια λεζάντα είναι γενικά πολύ χρήσιμη.';
 $string['tablesmissingheaders'] = 'Οι πίνακες πρέπει να χρησιμοποιούν επικεφαλίδες στηλών και/ή σειρών.';

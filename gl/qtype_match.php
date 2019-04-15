@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_match', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_match', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_match
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,5 +43,6 @@ $string['pluginnameediting'] = 'Editando unha pregunta coincidentes';
 $string['pluginname_help'] = 'As preguntas coincidentes requiren que o que responde case correctamente unha lista de nome ou proposicións (preguntas) con outra lista de nomes ou proposicións (respostas).';
 $string['pluginname_link'] = 'pregunta/tipo/coincidencia';
 $string['pluginnamesummary'] = 'A resposta para cadanseu número de subpreguntas débese seleccionar dunha lista de posibilidades.';
+$string['privacy:metadata'] = 'O engadido de pregunta coincidente non almacena ningún dato persoal.';
 $string['shuffle'] = 'Barallar';
 $string['shuffle_help'] = 'De estar activado, a orde das proposicións (respostas) barallouse aleatoriamente para cadanseu intento, dado que «Barallar as preguntas internas» tamén está activado na configuración interna.';

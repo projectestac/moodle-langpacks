@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_local', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_local', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_local
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,4 +32,5 @@ $string['local:view'] = 'Εμφάνιση του αποθετηρίου του �
 $string['notitle'] = 'Χωρίς τίτλο';
 $string['pluginname'] = 'Τοπικά αρχεία';
 $string['pluginname_help'] = 'Αρχεία ανεβασμένα προηγουμένως στον εξυπηρετητή του Moodle';
+$string['privacy:metadata'] = 'Το πρόσθετο αποθετηρίου «Αρχεία εξυπηρετητή»  δεν αποθηκεύει ούτε μεταβιβάζει κανένα προσωπικό δεδομένο.';
 $string['remember'] = 'Να με θυμάσαι';

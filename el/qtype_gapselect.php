@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_gapselect', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_gapselect', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_gapselect
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,7 @@ $string['pluginnameadding'] = 'Προσθήκη μιας ερώτησης επι
 $string['pluginnameediting'] = 'Επεξεργασία μιας ερώτησης επιλογής  λέξεων που λείπουν';
 $string['pluginname_help'] = 'Οι ερωτήσεις λέξεων που λείπουν απαιτούν από τον εξεταζόμενο να επιλέξει σωστές απαντήσεις από αναπτυσσόμενα μενού. Τα [[1]], [[2]], [[3]], ... χρησιμοποιούνται ως δεσμευτικά θέσης στο κείμενο της ερώτησης, με τις σωστές απαντήσεις να καθορίζονται ως απαντήσεις επιλογής 1, 2, 3, ... αντίστοιχα. Επιπλέον απαντήσεις επιλογής μπορούν να προστεθούν ώστε να γίνει η ερώτηση δυσκολότερη.  Οι απαντήσεις επιλογής μπορούν να ομαδοποιηθούν έτσι ώστε να περιορίζουν τις διαθέσιμες απαντήσεις σε κάθε αναπτυσσόμενο μενού.';
 $string['pluginnamesummary'] = 'Λέξεις που λείπουν στο κείμενο ερώτησης συμπληρώνονται με χρήση αναπτυσσόμενων μενού.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Επιλογή λέξεων που λείπουν»  δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['shuffle'] = 'Ανακάτεμα';
 $string['tagsnotallowed'] = '{$a->tag} δεν επιτρέπεται. (Επιτρέπονται μόνο τα {$a->allowed}.)';
 $string['tagsnotallowedatall'] = '{$a->tag} δεν επιτρέπεται. (Δεν επιτρέπεται εδώ HTML.)';

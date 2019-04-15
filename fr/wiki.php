@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'wiki', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -121,6 +121,10 @@ $string['incorrectdeleteversions'] = 'Les versions de la page marquées pour sup
 $string['incorrectpageid'] = 'L\'identifiant de page est incorrect.';
 $string['incorrectsubwikiid'] = 'L\'identifiant de sous-wiki est incorrect.';
 $string['incorrectwikiid'] = 'L\'identifiant de wiki est incorrect.';
+$string['indicator:cognitivedepth'] = 'Wiki : aspect cognitif';
+$string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une activité Wiki.';
+$string['indicator:socialbreadth'] = 'Wiki : aspect social';
+$string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Wiki.';
 $string['individualpagedoesnotexist'] = 'La page de wiki individuel n\'existe pas';
 $string['insertcomment'] = 'Insérer un commentaire';
 $string['insertimage'] = 'Insérer une image...';
@@ -128,7 +132,7 @@ $string['insertimage_help'] = 'Cette liste déroulante permet d\'insérer une im
 $string['invalidlock'] = 'Cette page est déjà verrouillée par un autre utilisateur.';
 $string['invalidparameters'] = 'Des paramètres non valides ont été donnés.';
 $string['invalidsection'] = 'Section non valide.';
-$string['invalidsesskey'] = 'La clef de session donnée n\'est pas valide. Veuillez renvoyer les données';
+$string['invalidsesskey'] = 'Votre session est vraisemblablement échue. Veuillez prendre note de vos modifications et vous reconnecter.';
 $string['javascriptdisabledlocks'] = 'Le Javascript est désactivé dans votre navigateur. Les verrous ne fonctionnent donc pas. Les modifications que vous effectuerez ne seront peut-être pas enregistrées correctement.';
 $string['links'] = 'Liens';
 $string['listall'] = 'Tout lister';
@@ -209,6 +213,31 @@ $string['pluginname'] = 'Wiki';
 $string['prettyprint'] = 'Version imprimable';
 $string['previewwarning'] = 'Ce texte n’est qu’une prévisualisation et n’a pas encore été enregistré.';
 $string['print'] = 'Imprimer';
+$string['privacy:metadata:core_comment'] = 'Commentaires sur la page wiki';
+$string['privacy:metadata:core_files'] = 'Fichiers en annexe aux sous-wikis';
+$string['privacy:metadata:core_tag'] = 'Tags associés à des pages wiki';
+$string['privacy:metadata:wiki_locks'] = 'Stockage temporaire pour les verrous d\'édition wiki';
+$string['privacy:metadata:wiki_locks:lockedat'] = 'Date et heure de verrouillage';
+$string['privacy:metadata:wiki_locks:sectionname'] = 'Nom de la section de page verrouillée';
+$string['privacy:metadata:wiki_locks:userid'] = 'Utilisateur qui a verrouillé une page';
+$string['privacy:metadata:wiki_pages'] = 'Informations sur les pages wikis';
+$string['privacy:metadata:wiki_pages:cachedcontent'] = 'Contenu en cache, en format HTML';
+$string['privacy:metadata:wiki_pages:pageviews'] = 'Nombre de consultations de la page';
+$string['privacy:metadata:wiki_pages:readonly'] = 'Si la page est en lecture seule';
+$string['privacy:metadata:wiki_pages:timecreated'] = 'Date et heure de la création de la page';
+$string['privacy:metadata:wiki_pages:timemodified'] = 'Date et heure de la modification de la page';
+$string['privacy:metadata:wiki_pages:timerendered'] = 'Date et heure de la dernière composition de la page';
+$string['privacy:metadata:wiki_pages:title'] = 'Nom de la page';
+$string['privacy:metadata:wiki_pages:userid'] = 'Utilisateur qui a modifié la page en dernier';
+$string['privacy:metadata:wiki_subwikis'] = 'Informations sur les sous-wikis (si mode en groupe ou individuel)';
+$string['privacy:metadata:wiki_subwikis:groupid'] = 'Groupe qui possède un sous-wiki';
+$string['privacy:metadata:wiki_subwikis:userid'] = 'Utilisateur qui possède un sous-wiki (pour les wikis individuels)';
+$string['privacy:metadata:wiki_versions'] = 'Informations sur l\'historique des pages wiki';
+$string['privacy:metadata:wiki_versions:content'] = 'Contenu de la version';
+$string['privacy:metadata:wiki_versions:contentformat'] = 'Format du contenu de la version';
+$string['privacy:metadata:wiki_versions:timecreated'] = 'Date et heure de la création de la version';
+$string['privacy:metadata:wiki_versions:userid'] = 'Utilisateur qui a créé la version';
+$string['privacy:metadata:wiki_versions:version'] = 'Numéro de version';
 $string['rated'] = 'Vous avez évalué cette page avec un {$a}';
 $string['rating'] = 'Évaluation';
 $string['ratingmode'] = 'Mode d\'évaluation';
@@ -236,7 +265,6 @@ $string['special'] = 'Spécial';
 $string['tableofcontents'] = 'Table des matières';
 $string['tagarea_wiki_pages'] = 'Pages wiki';
 $string['tagsdeleted'] = 'Les tags wiki ont été supprimés';
-$string['tagtitle'] = 'Afficher le tag « {$a} »';
 $string['teacherrating'] = 'Évaluation de l\'enseignant';
 $string['timesrating'] = 'Cette page a été évaluée {$a->c} fois pour une moyenne de {$a->s}';
 $string['updatedpages'] = 'Pages modifiées';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_html', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_html', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_html
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,3 +36,5 @@ $string['html:myaddinstance'] = 'Προσθήκη νέου μπλοκ HTML στ�
 $string['leaveblanktohide'] = 'Αφήστε κενό αυτό το πεδίο για να μην εμφανίζεται τίτλος';
 $string['newhtmlblock'] = '(Νέο μπλοκ HTML)';
 $string['pluginname'] = 'HTML';
+$string['privacy:metadata:block'] = 'Το μπλοκ HTML αποθηκεύει όλα τα δεδομένα του στο υποσύστημα μπλοκ.';
+$string['search:content'] = 'Περιεχόμενο μπλοκ HTML';

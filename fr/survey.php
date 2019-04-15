@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'survey', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -209,6 +209,10 @@ $string['guestsnotallowed'] = 'Seuls les utilisateurs inscrits peuvent participe
 $string['howlong'] = 'Combien de temps avez-vous mis pour répondre à cette consultation ?';
 $string['howlongoptions'] = 'Moins d\'1 min,1-2 min,2-3 min,3-4 min,4-5 min,5-10 min,Plus de 10 min';
 $string['ifoundthat'] = 'J\'ai trouvé que';
+$string['indicator:cognitivedepth'] = 'Consultation : aspect cognitif';
+$string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une activité Consultation.';
+$string['indicator:socialbreadth'] = 'Consultation : aspect social';
+$string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Consultation.';
 $string['introtext'] = 'Texte d\'introduction';
 $string['invalidsurveyid'] = 'Identifiant de consultation incorrect';
 $string['invalidtmptid'] = 'Identifiant de modèle incorrect';
@@ -232,6 +236,15 @@ $string['pluginname'] = 'Consultation';
 $string['preferred'] = 'Préféré';
 $string['preferredclass'] = 'Classe préférée';
 $string['preferredstudent'] = '{$a} préféré';
+$string['privacy:metadata:analysis'] = 'Un enregistrement de l\'analyse des réponses de la consultation.';
+$string['privacy:metadata:analysis:notes'] = 'Annotations enregistrées en lien avec les réponses d\'un utilisateur.';
+$string['privacy:metadata:analysis:userid'] = 'L\'identifiant de l\'utilisateur répondant à la consultation.';
+$string['privacy:metadata:answers'] = 'Une collection des réponses aux consultations';
+$string['privacy:metadata:answers:answer1'] = 'Champ pour enregistrer la réponse à une question.';
+$string['privacy:metadata:answers:answer2'] = 'Champ supplémentaire pour enregistrer la réponse à une question.';
+$string['privacy:metadata:answers:question'] = 'La question.';
+$string['privacy:metadata:answers:time'] = 'La date et l\'heure de la réponse.';
+$string['privacy:metadata:answers:userid'] = 'L\'identifiant de l\'utilisateur qui a remis la réponse.';
 $string['question'] = 'Question';
 $string['questions'] = 'Questions';
 $string['questionsnotanswered'] = 'Certaines questions à choix multiple n\'ont pas reçu de réponse.';

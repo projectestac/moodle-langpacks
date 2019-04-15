@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tag', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['added'] = 'Engadida(s) etiqueta(s) estándar';
-$string['addedotag'] = 'Engadiuse «{$a}» como unha etiqueta oficial.';
 $string['addotags'] = 'Engadir etiquetas estándar';
 $string['addtagcoll'] = 'Engadir colección de etiquetas';
 $string['addtagtomyinterests'] = 'Engadir «{$a}» como do meu interese';
@@ -90,7 +89,6 @@ $string['name'] = 'Nome da etiqueta';
 $string['namesalreadybeeingused'] = 'Estes nomes de etiqueta xa están empregados';
 $string['nameuseddocombine'] = 'Este nome de etiqueta xa foi usado, quere combinar estas etiquetas?';
 $string['newcollnamefor'] = 'Nome novo para a colección de etiquetas {$a}';
-$string['newname'] = 'Novo nome da etiqueta';
 $string['newnamefor'] = 'Novo nome para a etiqueta {$a}';
 $string['nextpage'] = 'Máis';
 $string['noresultsfor'] = 'Ningún resultado para «{$a}»';
@@ -105,6 +103,19 @@ $string['page-tag-manage'] = 'Páxina para administrar sinaladores';
 $string['page-tag-search'] = 'Páxina de busca de sinaladores';
 $string['page-tag-x'] = 'Todas as páxinas etiquetadas';
 $string['prevpage'] = 'Atrás';
+$string['privacy:metadata:tag'] = 'Os datos de cada etiqueta única almacenáronse xunto coa súa descrición e outras informacións relacionadas';
+$string['privacy:metadata:tag:description'] = 'A descrición da etiqueta.';
+$string['privacy:metadata:tag:flag'] = 'Indica se unha etiqueta foi sinalada como inadecuada.';
+$string['privacy:metadata:taginstance'] = 'A ligazón entre cada etiqueta e onde se usa.';
+$string['privacy:metadata:taginstance:ordering'] = 'A orde relativa desta etiqueta.';
+$string['privacy:metadata:taginstance:tagid'] = 'A ligazón á etiqueta.';
+$string['privacy:metadata:taginstance:timecreated'] = 'O momento no que esta etiqueta foi ligada ao destino.';
+$string['privacy:metadata:taginstance:timemodified'] = 'O momento no que se modificou esta etiqueta para o destino.';
+$string['privacy:metadata:taginstance:tiuserid'] = 'Cando o contido compartido poida ser marcado individualmente por usuarios, almacenase o propietario da instancia de etiqueta.';
+$string['privacy:metadata:tag:name'] = 'O nome da etiqueta; esta é a versión normalizada do nome.';
+$string['privacy:metadata:tag:rawname'] = 'O nome da etiqueta; este é o nome que se amosa.';
+$string['privacy:metadata:tag:timemodified'] = 'O momento no que se modificou a etiqueta por última vez';
+$string['privacy:metadata:tag:userid'] = 'O ID do usuario que creou a etiqueta.';
 $string['ptags'] = 'Etiquetas definidas polo usuario (separadas por comas)';
 $string['relatedblogs'] = 'Artigos máis recentes do blog';
 $string['relatedtags'] = 'Etiquetas relacionadas';
@@ -154,13 +165,8 @@ $string['taggedwith'] = 'etiquetado con «{$a}»';
 $string['tags'] = 'Etiquetas';
 $string['tagsaredisabled'] = 'As etiquetas están desactivadas';
 $string['tagtype'] = 'Tipo de etiqueta';
-$string['tagtype_default'] = 'Predeterminado';
-$string['tagtype_official'] = 'Oficial';
 $string['thingstaggedwith'] = '«{$a->name}» empregouse {$a->count} veces';
 $string['thingtaggedwith'] = '«{$a->name}« empregouse unha vez';
-$string['thistaghasnodesc'] = 'Esta etiqueta actualmente non ten descrición.';
 $string['timemodified'] = 'Modificado';
 $string['typechanged'] = 'Cambiouse o tipo da etiqueta';
-$string['updated'] = 'Actualizada';
 $string['updatetag'] = 'Actualizar';
-$string['withselectedtags'] = 'Coas etiquetas seleccionadas...';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_shibboleth', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_shibboleth', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_shibboleth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,11 +40,12 @@ $string['auth_shib_convert_data'] = 'API τροποποίησης δεδομέν
 $string['auth_shib_convert_data_description'] = 'Μπορείτε να χρησιμοποιήσετε αυτό το API για να τροποποιήσετε επιπλέον τα δεδομένα του Shibboleth. Διαβάστε το <a href="../auth/shibboleth/README.txt" target="_blank">README</a> για περισσότερες πληροφορίες.';
 $string['auth_shib_convert_data_warning'] = 'Αυτό το αρχείο δεν υπάρχει ή δεν είναι αναγνώσιμο από την διεργασία του εξυπηρετητή ιστού!';
 $string['auth_shib_idp_list'] = 'Πάροχοι ταυτότητας';
-$string['auth_shib_idp_list_description'] = 'Παρέχετε μια λίστα των αναγνωριστικών οντοτήτων παρόχου ταυτότητας για να επιτρέψετε στον χρήστη να επιλέξει από τη σελίδα σύνδεσης.<br />Σε κάθε γραμμή πρέπει να υπάρχει μια πλειάδα αναγνωριστικών οντοτήτων (διαχωρισμένων με κόμμα) του IdP (δείτε το αρχείο μεταδεδομένων Shibboleth) και το όνομα του IdP όπως θα εμφανίζεται στην αναπτυσσόμενη λίστα.<br />Ως προαιρετική τρίτη παράμετρος μπορείτε να προσθέσετε τη θέση ενός εκκινητή συνόδου Shibboleth που θα χρησιμοποιηθεί σε περίπτωση που η εγκατάσταση Moodle σας είναι μέρος μιας εγκατάστασης πολλαπλών ομοσπονδιών (federation).';
+$string['auth_shib_idp_list_description'] = 'Παρέχετε μια λίστα των αναγνωριστικών οντοτήτων παρόχου ταυτότητας για να επιτρέψετε στον χρήστη να επιλέξει από τη σελίδα σύνδεσης.<br />Σε κάθε γραμμή πρέπει να υπάρχει μια πλειάδα αναγνωριστικών οντοτήτων (διαχωρισμένων με κόμμα) του IdP (δείτε το αρχείο μεταδεδομένων Shibboleth) και το όνομα του IdP όπως θα εμφανίζεται στην πτυσσόμενη λίστα.<br />Ως προαιρετική τρίτη παράμετρος μπορείτε να προσθέσετε τη θέση ενός εκκινητή συνόδου Shibboleth που θα χρησιμοποιηθεί σε περίπτωση που η εγκατάσταση Moodle σας είναι μέρος μιας εγκατάστασης πολλαπλών ομοσπονδιών (federation).';
 $string['auth_shib_instructions'] = 'Χρησιμοποιήστε το <a href="{$a}">Shibboleth login</a> για πρόσβαση μέσω Shibboleth, εάν το ίδρυμά σας το υποστηρίζει.<br /> Ειδάλλως, χρησιμοποιήστε την κανονική φόρμα σύνδεσης/εισόδου που εμφανίζεται εδώ.';
 $string['auth_shib_instructions_help'] = 'Εδώ πρέπει να παρέχετε οδηγίες στους χρήστες για επεξήγηση του Shibboleth. Θα εμφανίζονται στην σελίδα σύνδεσης/εισόδου στο τμήμα πληροφοριών. Αυτές οι πληροφορίες πρέπει να περιλαμβάνουν ένα σύνδεσμο προς "<b>{$a}</b>" στον οποίο θα κάνουν κλικ οι χρήστες όταν θέλουν να συνδεθούν.';
+$string['auth_shib_instructions_key'] = 'Οδηγίες σύνδεσης';
 $string['auth_shib_integrated_wayf'] = 'Υπηρεσία Moodle WAYF';
-$string['auth_shib_integrated_wayf_description'] = 'If you check this, Moodle will use its own WAYF service instead of the one configured for Shibboleth. Moodle will display a drop-down list on this alternative login page where the user has to select his Identity Provider.';
+$string['auth_shib_integrated_wayf_description'] = 'Εάν ενεργοποιηθεί, το Moodle θα χρησιμοποιήσει τη δική του υπηρεσία WAYF αντί για αυτή που έχει ρυθμιστεί για το Shibboleth. Το Moodle θα εμφανίσει μια πτυσσόμενη λίστα σε αυτήν την εναλλακτική σελίδα σύνδεσης, όπου ο χρήστης πρέπει να επιλέξει τον παροχέα ταυτότητας.';
 $string['auth_shib_logout_return_url'] = 'Εναλλακτική διεύθυνση URL επιστροφής μετά από αποσύνδεση';
 $string['auth_shib_logout_return_url_description'] = 'Δώστε τη διεύθυνση URL στην οποία θα πρέπει να ανακατευθύνονται οι χρήστες του Shibboleth μετά την αποσύνδεση.<br />Εάν παραμείνει κενή, οι χρήστες θα ανακατευθύνονται στη θέση στην οποία ανακατευθύνει τους χρήστες το Moodle.';
 $string['auth_shib_logout_url'] = 'Διεύθυνση URL χειρισμού αποσύνδεσης από τον πάροχο υπηρεσιών Shibboleth';
@@ -54,6 +55,7 @@ $string['auth_shib_only'] = 'Μόνο Shibboleth';
 $string['auth_shib_only_description'] = 'Επιλέξτε αυτή την επιλογή αν πρέπει να επιβληθεί αυθεντικοποίηση Shibboleth';
 $string['auth_shib_username_description'] = 'Όνομα της μεταβλητής περιβάλλοντος του Shibboleth εξυπηρετητή ιστού που θα χρησιμοποιηθεί ως όνομα χρήστη στο Moodle.';
 $string['pluginname'] = 'Shibboleth';
+$string['privacy:metadata'] = 'Το πρόσθετο «Αυθεντικοποίηση Shibboleth» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['shib_invalid_account_error'] = 'Φαίνεται ότι έχετε πιστοποιηθεί από το Shibboleth, αλλά το Moodle δεν έχει έγκυρο λογαριασμό για το όνομα χρήστη σας. Ο λογαριασμός σας ενδέχεται να μην υπάρχει ή μπορεί να έχει ανασταλεί.';
 $string['shib_no_attributes_error'] = 'Φαίνεται πως έχετε πιστοποιηθεί με την αυθεντικοποίηση Shibboleth αλλά το Moodle δεν έλαβε τα χαρακτηριστικά χρήστη. Παρακαλούμε ελέγξτε ότι ο Πάροχος Ταυτοτήτων σας (Identity Provider) αποστέλλει τα αναγκαία χαρακτηριστικά ({$a}) στον Πάροχο Υπηρεσιών στον οποίο εκτελείται το Moodle ή ενημερώστε το διαχειριστή ιστοτόπου αυτού του εξυπηρετητή.';
 $string['shib_not_all_attributes_error'] = 'Το Moodle χρειάζεται συγκεκριμένα χαρακτηριστικά του Shibboleth τα οποία δεν είναι παρόντα στην περίπτωσή σας. Τα χαρακτηριστικά είναι: {$a}<br /> Παρακαλούμε επικοινωνήστε με το διαχειριστή του ιστοτόπου ή τον Πάροχο Ταυτοτήτων σας (Identity Provider).';

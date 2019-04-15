@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_replace', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_replace', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_replace
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['notimplemented'] = 'Λυπούμαστε, αυτή η λειτουργ�
 $string['notsupported'] = 'Αυτό το σενάριο πρέπει να θεωρείται πειραματικό. Οι αλλαγές που θα πραγματοποιήσει δεν θα μπορούν να επανέλθουν, οπότε πρέπει να γίνει πλήρης δημιουργία αντιγράφων ασφαλείας πριν εκτελεστεί το σενάριο!';
 $string['pageheader'] = 'Αναζήτηση και αντικατάσταση κειμένου σε ολόκληρη τη βάση δεδομένων';
 $string['pluginname'] = 'Αναζήτηση και αντικατάσταση ΒΔ';
+$string['privacy:metadata'] = 'Το πρόσθετο «Αναζήτηση και αντικατάσταση σε ΒΔ» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['replacewith'] = 'Αντικατάσταση με αυτήν τη συμβολοσειρά';
 $string['replacewithhelp'] = 'συνήθως νέα διεύθυνση URL εξυπηρετητή';
 $string['searchwholedb'] = 'Αναζήτηση ολόκληρης βάσης δεδομένων για';

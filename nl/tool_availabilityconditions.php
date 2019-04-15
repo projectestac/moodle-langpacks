@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_availabilityconditions', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_availabilityconditions', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_availabilityconditions
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['manageplugins'] = 'Beheer beperkingen';
 $string['pluginname'] = 'Beheer beschikbaarheidsvoorwaarden';
+$string['privacy:metadata'] = 'De beheer beschikbaarheidsvoorwaarden-plugin bewaart geen persoonlijke gegevens.';

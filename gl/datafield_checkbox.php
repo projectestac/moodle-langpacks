@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_checkbox', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'datafield_checkbox', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   datafield_checkbox
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Campo con caixa de selección';
 $string['pluginname'] = 'Caixa de selección';
+$string['privacy:metadata'] = 'O compoñente de campo da caixa de selección non almacena ningún dato persoal, usa táboas definidas en mod_data.';

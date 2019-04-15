@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'badges', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -364,6 +364,34 @@ $string['personaconnection_help'] = 'Persona представляет собой
 Для получения дополнительных сведений о Persona посетите сайт <a href="https://login.persona.org/about">https://login.persona.org/about</a> .';
 $string['potentialrecipients'] = 'Потенциальные получатели значка';
 $string['preferences'] = 'Настройки значков';
+$string['privacy:metadata:backpack'] = 'Запись коллекции наград пользователя';
+$string['privacy:metadata:backpack:backpackuid'] = 'Уникальный идентификатор коллекции наград';
+$string['privacy:metadata:backpack:backpackurl'] = 'URL коллекции наград';
+$string['privacy:metadata:backpack:email'] = 'Адрес электронной почты, связанный с коллекцией наград';
+$string['privacy:metadata:backpack:userid'] = 'ID пользователя, которому принадлежит коллекция наград';
+$string['privacy:metadata:badge'] = 'Коллекция значков';
+$string['privacy:metadata:badge:timecreated'] = 'Время, когда значок был создан';
+$string['privacy:metadata:badge:timemodified'] = 'Время, когда значок был последний раз изменен';
+$string['privacy:metadata:badge:usercreated'] = 'ID пользователя, создавшего значок';
+$string['privacy:metadata:badge:usermodified'] = 'ID пользователя, изменившего значок';
+$string['privacy:metadata:criteriamet'] = 'Набор критериев, которые были выполнены';
+$string['privacy:metadata:criteriamet:datemet'] = 'Дата, когда критерии были выполнены';
+$string['privacy:metadata:criteriamet:userid'] = 'ID пользователя, который выполнил критерии';
+$string['privacy:metadata:external:backpacks'] = 'Информация, передаваемая при отправке пользователями их значков во внешнюю коллекцию значков';
+$string['privacy:metadata:external:backpacks:badge'] = 'Название значка';
+$string['privacy:metadata:external:backpacks:description'] = 'Описание значка';
+$string['privacy:metadata:external:backpacks:image'] = 'Изображение значка';
+$string['privacy:metadata:external:backpacks:issuer'] = 'Некоторая информация о выпустившем значок';
+$string['privacy:metadata:external:backpacks:url'] = 'URL Moodle, где можно увидеть информацию о выпущенном значке';
+$string['privacy:metadata:issued'] = 'Запись о выданных значках';
+$string['privacy:metadata:issued:dateexpire'] = 'Дата, до которой действует выданный значок';
+$string['privacy:metadata:issued:dateissued'] = 'Дата выдачи значка';
+$string['privacy:metadata:issued:userid'] = 'ID пользователя, которому был выдан значок';
+$string['privacy:metadata:manualaward'] = 'Запись о выдаче вручную';
+$string['privacy:metadata:manualaward:datemet'] = 'Дата, когда пользователю был выдан значок';
+$string['privacy:metadata:manualaward:issuerid'] = 'ID пользователя, выдавшего значок';
+$string['privacy:metadata:manualaward:issuerrole'] = 'Роль пользователя, выдавшего значок';
+$string['privacy:metadata:manualaward:recipientid'] = 'ID пользователя, которому вручную был выдан значок';
 $string['recipientdetails'] = 'Сведения о получателе';
 $string['recipientidentificationproblem'] = 'Не удалось найти получателя этого значка среди имеющихся пользователей.';
 $string['recipients'] = 'Получатели значка';

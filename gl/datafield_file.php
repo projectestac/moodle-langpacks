@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_file', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'datafield_file', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   datafield_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Campo de ficheiro';
 $string['pluginname'] = 'Ficheiro';
+$string['privacy:metadata'] = 'O compoñente de campo de ficheiro non almacena ningún dato persoal, usa táboas definidas en mod_data.';

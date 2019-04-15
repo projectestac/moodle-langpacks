@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_statistics', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -91,6 +91,7 @@ $string['partofquestion'] = 'Deel van vraag';
 $string['pluginname'] = 'Statistieken';
 $string['position'] = 'Plaats';
 $string['positions'] = 'Plaats(en)';
+$string['privacy:metadata'] = 'Hoewel de test statistiekenplugin databanktabellen heeft, beschrijven de geaggregeerde gegevens geen uniek individu.';
 $string['questioninformation'] = 'Vraaginformatie';
 $string['questionname'] = 'Vraagnaam';
 $string['questionnumber'] = 'V#';

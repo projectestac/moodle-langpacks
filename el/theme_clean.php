@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_clean', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'theme_clean', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   theme_clean
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,10 +32,11 @@ $string['customcssdesc'] = 'Οποιουσδήποτε κανόνες CSS προ
 $string['footnote'] = 'Υποσημείωση';
 $string['footnotedesc'] = 'Οτιδήποτε προσθέτετε σε αυτή την περιοχή κειμένου θα εμφανίζεται στο υποσέλιδο σε ολόκληρο τον ιστότοπό σας στο Moodle.';
 $string['invert'] = 'Αντιστροφή στη μπάρα πλοήγησης';
-$string['invertdesc'] = 'Αντιμετάθεση κειμένου και φόντου στη μπάρα πλοήγησης στο πάνω μέρος της σελίδας μεταξύ μαύρου και λευκού.';
+$string['invertdesc'] = 'Εναλλαγή κειμένου και φόντου στη μπάρα πλοήγησης στο πάνω μέρος της σελίδας μεταξύ μαύρου και λευκού.';
 $string['logo'] = 'Λογότυπο';
 $string['logodesc'] = 'Το λογότυπο εμφανίζεται μόνο στην κεφαλίδα της αρχικής σελίδας και της σελίδας σύνδεσης. <br /> Εάν το ύψος του λογότυπου σας είναι μεγαλύτερο από 75px, προσθέστε το div.logo {height: 100px;} στο πλαίσιο Custom CSS παρακάτω, τροποποιώντας ανάλογα εάν το ύψος είναι διαφορετικό από 100px. Αν δεν προστεθεί εδώ λογότυπο, θα χρησιμοποιηθεί το λογότυπο της Εμφάνιση>Λογότυπα.';
 $string['pluginname'] = 'Clean (καθαρό)';
+$string['privacy:metadata'] = 'Το θέμα Clean δεν αποθηκεύει κανένα προσωπικό δεδομένο για κανέναν χρήστη.';
 $string['region-side-post'] = 'Δεξιά';
 $string['region-side-pre'] = 'Αριστερά';
 $string['sitelogo'] = 'Λογότυπο ιστοτόπου';

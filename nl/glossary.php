@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'glossary', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,6 +96,7 @@ $string['comments'] = 'Commentaren';
 $string['commentson'] = 'Commentaar op';
 $string['commentupdated'] = 'De commentaar is bijgewerkt';
 $string['completionentries'] = 'Leerling moet items maken:';
+$string['completionentriesdesc'] = 'Leerling moet minstens {$a} items invoeren.';
 $string['completionentriesgroup'] = 'Items eisen';
 $string['concept'] = 'Concept';
 $string['concepts'] = 'Concepten';
@@ -113,6 +114,7 @@ $string['defaultsortorder'] = 'Standaard sorteervolgorde';
 $string['definition'] = 'Definitie';
 $string['definitions'] = 'Definities';
 $string['deleteentry'] = 'Verwijder woord';
+$string['deleteentrya'] = 'Verwijder item: {$a}';
 $string['deletenotenrolled'] = 'Verwijder items van niet aangemelde gebruikers';
 $string['deletingcomment'] = 'Verwijder commentaar';
 $string['deletingnoneemptycategory'] = 'Door deze categorie te verwijderen zullen de woorden die ze bevat niet verdwijnen - ze zullen als niet-gecategoriseerd gemerkt worden';
@@ -146,6 +148,7 @@ $string['editalways'] = 'Bewerken altijd toestaan';
 $string['editalways_help'] = 'Deze instelling bepaalt of items altijd bewerkt kunnen worden of dat leerlingen ze slechts gedurende een geconfigureerde bewerktijd (gewoonlijk 30 minuten) kunnen aanpassen.';
 $string['editcategories'] = 'Bewerk categorieën';
 $string['editentry'] = 'Bewerk item';
+$string['editentrya'] = 'Bewerk item: {$a}';
 $string['editingcomment'] = 'Bewerk commentaar';
 $string['entbypage'] = 'Aantal items getoond per pagina';
 $string['entries'] = 'Invoer';
@@ -227,6 +230,10 @@ $string['importedentries'] = 'Geïmporteerde invoer';
 $string['importentries'] = 'Importeer inhoud';
 $string['importentriesfromxml'] = 'Items importeren uit XML-bestand';
 $string['includegroupbreaks'] = 'Scheiding invoegen';
+$string['indicator:cognitivedepth'] = 'Woordenlijst cognitief';
+$string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Woordenlijst activiteit.';
+$string['indicator:socialbreadth'] = 'Woordenlijst sociaal';
+$string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Woordenlijst activiteit.';
 $string['isglobal'] = 'Is dit een globale woordenlijst?';
 $string['isglobal_help'] = '<p>Enkel beheerders en andere gebruikers met de mogelijkheid site:doanything toegelaten kunnen een globale woordenlijst definiëren.</p>
 
@@ -283,9 +290,22 @@ $string['popupformat'] = 'Pop-upgrootte';
 $string['print'] = 'Afdrukken';
 $string['printerfriendly'] = 'Afdrukbare versie';
 $string['printviewnotallowed'] = 'Afdrukbare versie tonen is niet toegelaten';
+$string['privacy'] = 'Privacy van resultaten';
+$string['privacy:metadata:core_comments'] = 'Opmerkingen met betrekking tot definities van woordenlijsten worden opgeslagen met behulp van core_comment-systeem';
+$string['privacy:metadata:core_files'] = 'Bestanden die zijn gekoppeld aan definities van woordenlijsten worden opgeslagen met behulp van het core_files-systeem';
+$string['privacy:metadata:core_rating'] = 'Beoordelingen die aan woordenlijstinvoeren worden toegevoegd, worden opgeslagen met behulp van het core_rating-systeem';
+$string['privacy:metadata:core_tag'] = 'Tags die worden toegevoegd aan de definities van de woordenlijst worden opgeslagen met behulp van het core_tag-systeem';
+$string['privacy:metadata:glossary_entries'] = 'Informatie over de invoer van de gebruiker voor een bepaalde woordenlijstactiviteit';
+$string['privacy:metadata:glossary_entries:attachment'] = 'De bijlage van de invoer die de gebruiker heeft toegevoegd';
+$string['privacy:metadata:glossary_entries:concept'] = 'Het concept van de invoer die de gebruiker heeft toegevoegd';
+$string['privacy:metadata:glossary_entries:definition'] = 'De definitie van de invoer die de gebruiker heeft toegevoegd';
+$string['privacy:metadata:glossary_entries:glossaryid'] = 'De ID van de woordenlijstactiviteit';
+$string['privacy:metadata:glossary_entries:timemodified'] = 'Het tijdstempel dat aangeeft wanneer de woordenlijstinvoer door de gebruiker is gewijzigd';
+$string['privacy:metadata:glossary_entries:userid'] = 'De ID van de gebruiker die deze woordenlijst toevoegt';
 $string['question'] = 'Vraag';
 $string['rejectedentries'] = 'Verworpen items';
 $string['rejectionrpt'] = 'Verwerpingsrapport';
+$string['removeallglossarytags'] = 'Verwijder alle woordenlijst-tags';
 $string['resetglossaries'] = 'Verwijder items van';
 $string['resetglossariesall'] = 'Verwijder items uit alle woordenlijsten';
 $string['rssarticles'] = 'Aantal RSS recente artikels';
@@ -341,6 +361,8 @@ $string['sortchronogically'] = 'Sorteer chronologisch';
 $string['special'] = 'Speciale tekens';
 $string['standardview'] = 'Blader alfabetisch';
 $string['studentcanpost'] = 'Leerlingen kunnen items toevoegen';
+$string['tagarea_glossary_entries'] = 'Woordenlijstitems';
+$string['tagsdeleted'] = 'Woordenlijstitems zijn verwijderd';
 $string['totalentries'] = 'Totaal aantal items';
 $string['usedynalink'] = 'Link de items uit de woordenlijst automatisch';
 $string['usedynalink_help'] = '<p>Als je deze optie inschakelt, dan worden alle items in deze woordenlijst automatisch links en dat overal

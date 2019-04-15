@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_collapse', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_collapse', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_collapse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Показать/спрятать дополнительные кнопки';
+$string['privacy:metadata'] = 'Плагин atto_collapse не хранит никаких персональных данных.';
 $string['settings'] = 'Настройка сворачивания панели';
 $string['showfewer'] = 'Показывать основные кнопки';
 $string['showgroups'] = 'Показывать первые n групп при свертывании';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'my', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   my
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,8 @@ $string['nocourses'] = 'Ez dago ikastaroei buruzko informaziorik';
 $string['noguest'] = 'Aginte-panela ez dago bisitarien eskura';
 $string['pinblocks'] = 'Konfiguratu nire Moodle-rako ainguratutako blokeak';
 $string['pinblocksexplan'] = 'Hemen ezartzen duzun edozin bloke ikusiko du (baina ezingo du editatu) Moodle-ren edozein erabiltzailek bere "Nire Moodle" orrian.';
+$string['privacy:metadata:core_my:preference:user_home_page_preference'] = 'Aginta-paneleko konfiguratutako erabiltzailearen hasiera-orriaren hobespena.';
 $string['reseterror'] = 'Errorea gertatu da zure orria berrabiaraztean';
-$string['reseteveryonesdashboard'] = 'Berrabiarazi erabiltzaile guztien aginte-panela';
-$string['reseteveryonesprofile'] = 'aginte-panela erabiltzaile guztien profila';
+$string['reseteveryonesdashboard'] = 'Berrezarri erabiltzaile guztien aginte-panela';
+$string['reseteveryonesprofile'] = 'Berrezarri erabiltzaile guztien profila';
 $string['resetpage'] = 'Berrezarri orriaren lehenetsitako balioak';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_missing', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_missing', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_missing
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Поведение отсутствует';
+$string['privacy:metadata'] = 'Плагин «Режим поведения вопросов - отсутствует» не хранит никаких персональных данных.';
 $string['questionusedunknownmodel'] = 'Это была попытка с вопросом, поведение которого в настоящее время отсутствует. Вопрос показан насколько это возможно, но некоторые части могут быть пропущены или с ошибками.';

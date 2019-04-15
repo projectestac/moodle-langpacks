@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_singleview', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradereport_singleview', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   gradereport_singleview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,6 +45,7 @@ $string['gradefor'] = 'Βαθμός για {$a}';
 $string['gradeitem'] = 'Στοιχείο βαθμού: {$a}';
 $string['gradeitemcannotbeoverridden'] = 'Αυτό το στοιχείο βαθμού δεν μπορεί να παρακαμφθεί.';
 $string['gradeuser'] = 'Βαθμολόγηση χρήστη: {$a}';
+$string['itemsperpage'] = 'Στοιχεία ανά σελίδα';
 $string['noscreens'] = 'Δεν βρέθηκε μια κατάλληλη οθόνη ατομικής προβολής.';
 $string['notvalid'] = 'Δεν είναι έγκυρη οθόνη ατομικής προβολής: {$a}';
 $string['override'] = 'Παράκαμψη';
@@ -52,6 +53,7 @@ $string['overrideall'] = 'Παράκαμψη όλων των βαθμών';
 $string['overridefor'] = 'Παράκαμψη για {$a}';
 $string['overridenone'] = 'Χωρίς παράκαμψη κανενός βαθμού';
 $string['pluginname'] = 'Ατομική προβολή';
+$string['privacy:metadata'] = 'Η αναφορά ατομικής προβολής βαθμών εμφανίζει μόνο δεδομένα που είναι αποθηκευμένα σε άλλες τοποθεσίες.';
 $string['save'] = 'Αποθήκευση';
 $string['savegrades'] = 'Αποθήκευση βαθμών';
 $string['savegradessuccess'] = 'Οι βαθμοί ορίστηκαν για {$a} στοιχεία';

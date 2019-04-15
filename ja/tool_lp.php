@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lp', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,7 @@ $string['aisrequired'] = '「 {$a} 」が必須である';
 $string['aplanswerecreated'] = '{$a} 件の学習プランが作成されました。';
 $string['aplanswerecreatedmoremayrequiresync'] = '{$a} 件の学習プランが作成されました。次の同期中にさらに作成されます。';
 $string['assigncohorts'] = 'コーホートを割り当てる';
-$string['averageproficiencyrate'] = 'このテンプレートに基づく完了した学習プランの平均熟達度は {$a} %です。';
+$string['averageproficiencyrate'] = 'このテンプレートに基づく完了した学習プランの平均熟達度は {$a}% です。';
 $string['cancelreviewrequest'] = 'レビューリクエストをキャンセルする';
 $string['cannotaddrules'] = 'このコンピテンシーは設定できません。';
 $string['cannotcreateuserplanswhentemplateduedateispassed'] = '新しい学習プランを作成できません。このテンプレートの有効期限が切れたかまもなく切れます。';
@@ -80,7 +80,7 @@ $string['coursecompetencyratingsarenotpushedtouserplans'] = 'このコース内�
 $string['coursecompetencyratingsarepushedtouserplans'] = 'このコース内でのコンピテンシー評定は学習プラン内ですぐに更新されます。';
 $string['coursecompetencyratingsquestion'] = 'コースコンピテンシーが評定された場合、評定は学習プラン内のコンピテンシーを更新しますか、それともコースにのみ適用しますか?';
 $string['coursesusingthiscompetency'] = 'このコンピテンシーにリンクされたコース';
-$string['coveragesummary'] = '{$a->competenciescoveredcount} / {$a->competenciescount} のコンピテンシーがカバーされています ( {$a->coveragepercentage} % )。';
+$string['coveragesummary'] = '{$a->competenciescoveredcount} / {$a->competenciescount} のコンピテンシーがカバーされています ( {$a->coveragepercentage}% )。';
 $string['createlearningplans'] = '学習プランを作成する';
 $string['createplans'] = '学習プランを作成する';
 $string['crossreferencedcompetencies'] = 'クロスリファレンスコンピテンシー';
@@ -179,6 +179,7 @@ $string['planupdated'] = '学習プランが更新されました。';
 $string['pluginname'] = '学習プラン';
 $string['points'] = '評点';
 $string['pointsgivenfor'] = '「 {$a} 」の評点';
+$string['privacy:metadata'] = '学習プランプラグインはどのような個人データも保存しません。';
 $string['proficient'] = '熟達';
 $string['progress'] = '進捗';
 $string['rate'] = '評定';

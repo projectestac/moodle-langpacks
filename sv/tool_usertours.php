@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'sv', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_usertours', language 'sv', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,12 @@ $string['event_tour_ended'] = 'Den guidade turen avslutades';
 $string['event_tour_reset'] = 'Återställ den guidade turen';
 $string['event_tour_started'] = 'Guidad tur startad';
 $string['pluginname'] = 'Guidade turer för användare';
+$string['resettouronpage'] = 'Återställ den guidade turen för denna sida';
+$string['tour1_content_end'] = 'Din guidade tur är avslutad. Om du vill se den igen kan du klicka länken längst nere på sidan för att återställa den.
+Som administratör för webbplatsen kan du själv skapa liknande guidade turer för dina användare.';
 $string['tour1_title_end'] = 'Slut på den guidade turen';
+$string['tour2_content_end'] = 'Din guidade tur är avslutad. Om du vill se den igen kan du klicka länken längst nere på sidan för att återställa den.
+Administratören för webbplatsen kan skapa fler guidade turer för användarna.';
 $string['tour2_title_end'] = 'Slut på den guidade turen';
 $string['tours'] = 'Guidade turer';
 $string['usertours'] = 'Guidade turer för användare';

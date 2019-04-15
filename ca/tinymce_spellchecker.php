@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_spellchecker', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tinymce_spellchecker', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   tinymce_spellchecker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Corrector ortogràfic antic';
+$string['privacy:metadata'] = 'El connector Legacy de verificació ortogràfica de TinyMCE no emmagatzema cap dada personal.';

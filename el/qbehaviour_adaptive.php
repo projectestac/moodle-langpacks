@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_adaptive', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_adaptive', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_adaptive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,3 +37,4 @@ $string['gradingdetailswithpenalty'] = 'Βαθμοί για αυτήν την υ
 $string['gradingdetailswithtotalpenalty'] = 'Βαθμοί για αυτήν την υποβολή: {$a->raw}/{$a->max}. Η υποβολή αυτή επέβαλε πρόστιμο ύψους {$a->penalty}. Συνολικές ποινές μέχρι στιγμής: {$a->totalpenalty}.';
 $string['notcomplete'] = 'Μη πλήρης';
 $string['pluginname'] = 'Προσαρμοστική κατάσταση';
+$string['privacy:metadata'] = 'Το πρόσθετο «Συμπεριφορά ερώτησης κατάστασης προσαρμογής» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

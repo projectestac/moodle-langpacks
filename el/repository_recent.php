@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_recent', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_recent', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_recent
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,5 +30,6 @@ $string['emptyfilelist'] = 'Δεν υπάρχουν αρχεία για εμφά
 $string['notitle'] = 'ΧωρίςΤίτλο';
 $string['pluginname'] = 'Πρόσφατα αρχεία';
 $string['pluginname_help'] = 'Αρχεία που χρησιμοποιούνται πρόσφατα από τον τρέχοντα χρήστη';
+$string['privacy:metadata'] = 'Το πρόσθετο αποθετηρίου «Πρόσφατα αρχεία»  δεν αποθηκεύει ούτε μεταβιβάζει κανένα προσωπικό δεδομένο.';
 $string['recentfilesnumber'] = 'Αριθμός πρόσφατων αρχείων';
 $string['recent:view'] = 'Δείτε το πρόσθετο αποθετηρίου πρόσφατων αρχείων';

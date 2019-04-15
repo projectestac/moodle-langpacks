@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'scorm', language 'es', branch 'MOODLE_34_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -98,6 +98,7 @@ $string['confirmloosetracks'] = 'ATENCIÓN: El paquete parece haber sido cambiad
 $string['contents'] = 'Contenido';
 $string['coursepacket'] = 'Paquete de curso';
 $string['coursestruct'] = 'Estructura de curso';
+$string['crontask'] = 'Procesamiento en segundo plano para SCORM';
 $string['currentwindow'] = 'Ventana actual';
 $string['datadir'] = 'Error del sistema de archivos: No se puede crear el directorio de datos del curso';
 $string['defaultdisplaysettings'] = 'Configuración de pantalla predeterminada';
@@ -199,6 +200,10 @@ $string['hidetoc_help'] = 'Esta configuración especifica cómo se muestra la ta
 $string['highestattempt'] = 'Intento más alto';
 $string['identifier'] = 'Identificador de preguntas';
 $string['incomplete'] = 'Incompleto';
+$string['indicator:cognitivedepth'] = 'SCORM cognitiva';
+$string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad SCORM.';
+$string['indicator:socialbreadth'] = 'SCORM social';
+$string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad SCORM.';
 $string['info'] = 'Info';
 $string['interactions'] = 'Interacciones';
 $string['invalidactivity'] = 'La actividad SCORM es incorrecta';
@@ -307,7 +312,7 @@ $string['php5'] = 'PHP 5 (librería nativa DOMXML)';
 $string['pluginadministration'] = 'Administración SCORM/AICC';
 $string['pluginname'] = 'Paquete SCORM';
 $string['popup'] = 'Abrir Objetos de Aprendizaje en una ventana nueva';
-$string['popuplaunched'] = 'Este paquete SCORM se ha abierto en una nueva ventana, si haz finalizado viendo este recurso, haz clic aquí para regresar a la página del curso';
+$string['popuplaunched'] = 'Este paquete SCORM se ha abierto en una nueva ventana, si has terminado de ver este recurso, haz clic aquí para regresar a la página del curso';
 $string['popupmenu'] = 'En un menú emergente';
 $string['popupopen'] = 'Abrir paquete en una ventana nueva';
 $string['popupsblocked'] = 'Parece que las ventanas emergentes están bloqueadas, deteniendo la ejecución de este módulo SCORM. Por favor verifique la configuración del explorador, antes de comenzar de nuevo.';

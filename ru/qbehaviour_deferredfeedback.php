@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_deferredfeedback', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_deferredfeedback', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_deferredfeedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Отложенный отзыв';
+$string['privacy:metadata'] = 'Плагин «Режим поведения вопросов - отложенный отзыв» не хранит никаких персональных данных.';

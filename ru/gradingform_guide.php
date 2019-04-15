@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradingform_guide', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,6 +77,7 @@ $string['name'] = 'Название';
 $string['needregrademessage'] = 'Определение справочника оценщика было изменено после оценивания ответа студента. Студент не сможет видеть этот справочник, пока Вы не проверите справочник оценщика и не обновите оценку.';
 $string['pluginname'] = 'Справочник оценщика';
 $string['previewmarkingguide'] = 'Предпросмотр справочника оценщика';
+$string['privacy:metadata:fillingssummary'] = 'Хранит информацию об оценках пользователей и отзывах для Справочника оценщика.';
 $string['regrademessage1'] = 'Вы собираетесь сохранить изменения в справочнике оценщика, который уже был использован для оценивания. Пожалуйста, укажите, если существующие оценки должны быть пересмотрены. При выборе этого параметра справочник оценщика будет скрыт от студентов до переоценки элементов.';
 $string['regrademessage5'] = 'Вы собираетесь сохранить существенные изменения в справочнике оценщика, который уже был использован для оценивания. Значения в журнале оценок  не будут изменены, но справочник оценщика будет скрыт от студентов до переоценки  элементов.';
 $string['regradeoption0'] = 'Не помечать для переоценки';

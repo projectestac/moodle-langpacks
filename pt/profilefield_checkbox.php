@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_checkbox', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_checkbox', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_checkbox
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Caixa de seleção';
+$string['privacy:metadata:profilefield_checkbox:data'] = 'Os dados de utilizador armazenados no campo de perfil do tipo caixa de seleção';
+$string['privacy:metadata:profilefield_checkbox:dataformat'] = 'O formato dos dados de utilizador armazenados no campo de perfil do tipo caixa de seleção';
+$string['privacy:metadata:profilefield_checkbox:fieldid'] = 'O ID do campo de perfil';
+$string['privacy:metadata:profilefield_checkbox:tableexplanation'] = 'Dados de perfil adicionais';
+$string['privacy:metadata:profilefield_checkbox:userid'] = 'O ID do utilizador cujos dados são armazenados no campo de perfil do tipo Caixas de seleção.';

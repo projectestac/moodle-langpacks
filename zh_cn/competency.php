@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'competency', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -114,6 +114,55 @@ $string['planstatusdraft'] = '草稿';
 $string['planstatusinreview'] = '评价中';
 $string['planstatuswaitingforreview'] = '等待评价';
 $string['pointsrequiredaremet'] = '需要达到的分数';
+$string['privacy:evidence:action:complete'] = '如果尚未评级，完成能力评级';
+$string['privacy:evidence:action:log'] = '记录行为';
+$string['privacy:evidence:action:override'] = '优先取代能力评级';
+$string['privacy:metadata:competency'] = '能力记录';
+$string['privacy:metadata:competency_coursecomp'] = '与课程关联的胜任能力记录';
+$string['privacy:metadata:competency_coursecompsetting'] = '课程中的能力设置记录';
+$string['privacy:metadata:competency_evidence'] = '影响胜任能力状态的证明记录';
+$string['privacy:metadata:competency_framework'] = '胜任能力框架记录';
+$string['privacy:metadata:competency_modulecomp'] = '与模块关联的胜任能力记录';
+$string['privacy:metadata:competency_plan'] = '学习计划记录';
+$string['privacy:metadata:competency_plancomp'] = '学习计划中的胜任能力记录';
+$string['privacy:metadata:competency_relatedcomp'] = '胜任能力间关系的记录';
+$string['privacy:metadata:competency_template'] = '学习计划模板的记录';
+$string['privacy:metadata:competency_templatecohort'] = '与学习计划模板关联的群组记录';
+$string['privacy:metadata:competency_templatecomp'] = '学习计划模板中的胜任能力记录';
+$string['privacy:metadata:competency_usercomp'] = '用户胜任能力状态的记录';
+$string['privacy:metadata:competency_usercompcourse'] = '用户在课程中的胜任能力状态记录';
+$string['privacy:metadata:competency_usercompplan'] = '学习计划中的胜任能力状态记录';
+$string['privacy:metadata:competency_userevidence'] = '之前学习证明的记录';
+$string['privacy:metadata:competency_userevidencecomp'] = '之前学习证明关联胜任能力记录';
+$string['privacy:metadata:core_comments'] = '对学习计划及胜任能力的评论';
+$string['privacy:metadata:evidence:action'] = '对证明采取何类行动';
+$string['privacy:metadata:evidence:actionuserid'] = '正在执行此操作的用户';
+$string['privacy:metadata:evidence:desca'] = '可翻译证明描述的额外参数';
+$string['privacy:metadata:evidence:desccomponent'] = '可翻译证明描述的部件';
+$string['privacy:metadata:evidence:descidentifier'] = '可翻译证明描述的标识';
+$string['privacy:metadata:evidence:grade'] = '与证明关联的等级';
+$string['privacy:metadata:evidence:note'] = '作为证明附件的非本地化的注释';
+$string['privacy:metadata:evidence:url'] = '与证明关联的URL';
+$string['privacy:metadata:plan:description'] = '学习计划的描述';
+$string['privacy:metadata:plan:duedate'] = '学习计划的到期日';
+$string['privacy:metadata:plan:name'] = '学习计划名称';
+$string['privacy:metadata:plan:reviewerid'] = '学习计划检查都的用户ID';
+$string['privacy:metadata:plan:status'] = '学习计划状态';
+$string['privacy:metadata:plan:userid'] = '此学习计划的所有者ID';
+$string['privacy:metadata:timecreated'] = '创建此记录的日期';
+$string['privacy:metadata:timemodified'] = '编辑此记录的日期';
+$string['privacy:metadata:usercomp:grade'] = '能力对应的等级';
+$string['privacy:metadata:usercomp:proficiency'] = '是否达到水平';
+$string['privacy:metadata:usercomp:reviewerid'] = '检查人ID';
+$string['privacy:metadata:usercomp:status'] = '能力状态';
+$string['privacy:metadata:usercomp:userid'] = '拥有此项能力的用户ID';
+$string['privacy:metadata:userevidence:description'] = '证明的描述';
+$string['privacy:metadata:userevidence:name'] = '上次学习的证据';
+$string['privacy:metadata:userevidence:url'] = '与证据关联的URL';
+$string['privacy:metadata:usermodified'] = '创建或修改此记录的用户';
+$string['privacy:path:plans'] = '学习计划';
+$string['privacy:path:relatedtome'] = '与我相关';
+$string['privacy:path:userevidence'] = '之前的学习证明';
 $string['pushcourseratingstouserplans'] = '将课程评分推送到个人学习计划';
 $string['pushcourseratingstouserplans_desc'] = '当课程能力被评估时，课程设置的默认值更新个人学习计划。';
 $string['syncplanscohorts'] = '学习计划模板群的同步计划';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scormreport_interactions', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'scormreport_interactions', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   scormreport_interactions
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Αναφορά αλληλεπιδράσεων';
+$string['privacy:metadata:preference:scorm_report_interactions_qtext'] = 'Αν θα εμφανιστεί η περίληψη των ερωτήσεων στην αναφορά αλληλεπιδράσεων SCORM';
+$string['privacy:metadata:preference:scorm_report_interactions_resp'] = 'Αν θα εμφανιστεί η περίληψη των αποκρίσεων στην αναφορά αλληλεπιδράσεων SCORM';
+$string['privacy:metadata:preference:scorm_report_interactions_result'] = 'Αν θα εμφανιστεί η περίληψη των αποτελεσμάτων στην αναφορά αλληλεπιδράσεων SCORM';
+$string['privacy:metadata:preference:scorm_report_interactions_right'] = 'Αν θα εμφανιστεί η περίληψη των σωστών απαντήσεων στην αναφορά αλληλεπιδράσεων SCORM';
+$string['privacy:metadata:preference:scorm_report_pagesize'] = 'Αριθμός χρηστών που θα εμφανίζονται στις αναφορές SCORM';
 $string['questionx'] = 'Ερώτηση {$a}';
 $string['responsex'] = 'Απάντηση {$a}';
 $string['resultx'] = 'Αποτέλεσμα {$a}';

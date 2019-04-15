@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'error', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityisscheduledfordeletion'] = 'Activiteit verwijderen bezig ...';
+$string['agedigitalconsentmapinvalidage'] = '"{$a}" is geen geldige waarde voor leeftijd.';
+$string['agedigitalconsentmapinvalidcomma'] = '"{$a}" heeft meer of minder dan één komma-scheidingsteken.';
+$string['agedigitalconsentmapinvalidcountry'] = '"{$a}" is geen geldige waarde voor land.';
+$string['agedigitalconsentmapinvaliddefault'] = 'Standaard(*) waarde ontbreekt.';
+$string['agelocationverificationdisabled'] = 'Leeftijd- en locatieverificatie uitgeschakeld';
 $string['alreadyloggedin'] = 'Je bent al aangemeld als {$a}, je moet afmelden voor je kunt aanmelden als een andere gebruiker.';
 $string['authnotexisting'] = 'De authorisatieplugin bestaat niet';
 $string['backupcontainexternal'] = 'Het back-upbestand bevat externe Moodle Hosts die lokaal niet geconfigureerd zijn.';
@@ -181,6 +186,7 @@ $string['confirmationnotenabled'] = 'Gebruiker bevestigen is niet ingeschakeld o
 $string['confirmsesskeybad'] = 'Je sessiesleutel om deze actie uit te voeren kon niet bevestigd worden. Deze beveiligingsfunctie verhindert dat er per ongeluk of met verkeerde bedoelingen belangrijke functies in jouw naam uitgevoerd kunnen worden. Bedenk goed of je deze opdracht wel echt wou uitvoeren.';
 $string['couldnotassignrole'] = 'Er gebeurde een ernstige maar niet gespecifieerde fout tijdens het proberen toewijzen van een rol aan jou.';
 $string['couldnotupdatenoexistinguser'] = 'Kan deze gebruiker niet updaten - gebruiker bestaat niet';
+$string['couldnotverifyagedigitalconsent'] = 'Er is een fout opgetreden bij het verifiëren van de digitale meerderjarigheid.<br />Neem contact op met de sitebeheerder.';
 $string['countriesphpempty'] = 'Fout: Het bestand countries.php in taalpakket {$a} is leeg of ontbreekt.';
 $string['coursedoesnotbelongtocategory'] = 'De cursus behoort niet tot deze categorie';
 $string['courseformatnotfound'] = 'De cursusformat \'{$a}\' bestaat niet of wordt niet herkend';
@@ -215,7 +221,7 @@ $string['ddlunknownerror'] = 'Onbekende DLL-bibliotheekfout';
 $string['ddlxmlfileerror'] = 'XML databankbestandsfouten gevonden';
 $string['ddsequenceerror'] = 'Foute tabeldefinitie "{$a}"; er kan slechts één auto kolom zijn en die moet als sleutel gedefinieerd worden.';
 $string['destinationcmnotexit'] = 'De bestemde cursusmodule bestaat niet';
-$string['detectedbrokenplugin'] = 'Plugin "{$a}" werkt niet of is verouderd. Kan niet verder doen.';
+$string['detectedbrokenplugin'] = 'Plugin "{$a}" werkt niet of is verouderd. Kan niet verder gaan.';
 $string['dmlexceptiononinstall'] = '<p>Databankfout [{$a->errorcode}].<br />{$a->debuginfo}</p>';
 $string['dmlreadexception'] = 'Fout bij het lezen van de databank';
 $string['dmltransactionexception'] = 'Databank transactiefout';
@@ -352,7 +358,7 @@ $string['invalidrole'] = 'Ongeldige rol';
 $string['invalidroleid'] = 'Ongeldige rol ID';
 $string['invalidscaleid'] = 'Ongeldige schaal ID';
 $string['invalidsection'] = 'Cursusmodulerecord bevat ongeldige sectie';
-$string['invalidsesskey'] = 'Foute sesskey ingestuurd; formulier kon niet aanvaard worden!';
+$string['invalidsesskey'] = 'Je sessie is waarschijnlijk verlopen. Opnieuw inloggen aub.';
 $string['invalidshortname'] = 'Dat is een ongeldig korte cursusnaam';
 $string['invalidsourcefield'] = 'Het bronveld van het kladbestand is niet geldig';
 $string['invalidstatedetected'] = 'Er ging wat fout: {$a}. Dit zou normaal niet mogen gebeuren';
@@ -362,6 +368,7 @@ $string['invaliduserdata'] = 'Ingeldige gebruikersgegevens: {$a}';
 $string['invaliduserfield'] = 'Ongeldig gebruikersveld: {$a}';
 $string['invaliduserid'] = 'Ongeldig gebruikersID';
 $string['invalidusername'] = 'De opgegeven gebruikersnaam bevat ongeldige tekens.';
+$string['invalidusernameblank'] = 'De gebruikersnaam mag niet leeg zijn';
 $string['invalidxmlfile'] = '"{$a}" is geen geldig XML-bestand';
 $string['iplookupfailed'] = 'Kan de geografische informatie voor het IP-adres {$a} niet vinden.';
 $string['iplookupprivate'] = 'Over een privaat IP-adres kan geen informatie gevonden worden';
@@ -502,7 +509,7 @@ $string['sessionipnomatch'] = 'Sorry, maar je IP-adres is gewijzigd sinds je aan
 $string['sessionipnomatch2'] = '<p>Je IP-nummer is blijkbaar gewijzigd sinds je login. Deze beveiligingsfunctie verhindert dat crackers je identiteit stelen terwijl je aangemeld bent bij deze site. Je kunt deze melding zien als je draadloze netwerken gebruikt of als je schakelt tussen verschillende netwerken. Vraag de sitebeheerder om hulp.</p><p>Als je wil verder gaan, klik dan op F5 om deze pagina te verversen.</p>';
 $string['sessionwaiterr'] = 'Time out tijdens het wachten op sessie slot.<br />. Wacht tot je huidige aanvragen afgelopen zijn en probeer later opnieuw.';
 $string['shortnametaken'] = 'Deze korte naam wordt al gebruikt voor een andere cursus ({$a})';
-$string['sitepolicynotagreed'] = 'Niet eens met het website-beleid: <a href="{$a}" Klik hier om het website beleid te openen </a>.';
+$string['sitepolicynotagreed'] = 'Niet eens met het website-beleid: <a href="{$a}" Klik hier om het website-beleid te openen </a>.';
 $string['socksnotsupported'] = 'SOCKS5-proxy wordt niet ondersteund in PHP4';
 $string['spellcheckernotconf'] = 'Spellingscontrole niet geconfigureerd';
 $string['sslonlyaccess'] = 'Voor veiligheidsredenen zijn enkel https-connecties toegelaten.';
@@ -564,10 +571,12 @@ $string['userautherror'] = 'Onbekende authenticatieplugin';
 $string['userauthunsupported'] = 'Authenticatieplugin niet ondersteund';
 $string['useremailduplicate'] = 'Duplicaat adres';
 $string['usermustbemnet'] = 'De gebruikers in de MNET-toeganscontrolelijst moeten externe MNET-gebruikers zijn';
+$string['usernamelowercase'] = 'De gebruikersnaam moet in kleine letters zijn';
 $string['usernotaddederror'] = 'Gebruiker niet toegevoegd - fout';
 $string['usernotaddedregistered'] = 'Gebruiker niet toegevoegd - gebruiker bestaat al';
 $string['usernotavailable'] = 'Je hebt het recht niet om de detailgegevens van deze gebruiker te zien.';
 $string['usernotdeletedadmin'] = 'Gebruiker niet verwijderd - kan geen beheerdersaccounts verwijderen';
+$string['usernotdeleteddeleted'] = 'Deze gebruiker is al verwijderd';
 $string['usernotdeletederror'] = 'Gebruiker niet verwijderd - onbekende fout';
 $string['usernotdeletedmissing'] = 'Gebruiker niet verwijderd - kon gebruikersnaam niet vinden.';
 $string['usernotdeletedoff'] = 'Gebruiker niet verwijderd - verwijderen niet toegestaan.';
@@ -582,6 +591,7 @@ $string['usernotupdatederror'] = 'Gebruiker niet aangepast - onbekende fout';
 $string['usernotupdatednotexists'] = 'Gebruiker niet aangepast - bestaat niet';
 $string['userquotalimit'] = 'Je hebt je quotumlimiet bereikt';
 $string['userselectortoomany'] = 'user_selector kreeg meer dan één geselecteerde gebruiker, ondanks dat multiselect op false staat.';
+$string['verifyagedigitalconsentnotpossible'] = 'Verificatie van digitale meerderjarigheid is helaas niet mogelijk op dit moment.';
 $string['wrongcall'] = 'Dit script is verkeerd opgeroepen';
 $string['wrongcontextid'] = 'De context ID is fout (kan die niet vinden)';
 $string['wrongdestpath'] = 'Fout pad voor bestemming';

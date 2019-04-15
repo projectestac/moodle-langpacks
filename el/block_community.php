@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_community', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_community', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_community
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -95,6 +95,12 @@ $string['orderbypublisher'] = 'Εκδότης';
 $string['orderbyratingaverage'] = 'Βαθμολόγηση';
 $string['outcomes'] = 'Μαθ. Αποτελέσματα: {$a}';
 $string['pluginname'] = 'Εύρεση κοινότητας';
+$string['privacy:metadata:block_community'] = 'Το μπλοκ Κοινότητας αποθηκεύει συνδέσμους σε κοινόχρηστα μαθήματα της κοινότητας στα οποία μπορούν να εγγραφούν οι χρήστες.';
+$string['privacy:metadata:block_community:coursedescription'] = 'Περιγραφή του μαθήματος της συνδεδεμένης κοινότητας.';
+$string['privacy:metadata:block_community:coursename'] = 'Το όνομα του συνδεδεμένου μαθήματος κοινότητας.';
+$string['privacy:metadata:block_community:courseurl'] = 'Η URL διεύθυνση του συνδεδεμένου μαθήματος κοινότητας.';
+$string['privacy:metadata:block_community:imageurl'] = 'Η διεύθυνση URL της εικόνας του συνδεδεμένου μαθήματος κοινότητας.';
+$string['privacy:metadata:block_community:userid'] = 'Το αναγνωριστικό του χρήστη που δημιούργησε το συνδεδεμένο μάθημα κοινότητας.';
 $string['rateandcomment'] = 'Βαθμολόγηση και σχόλια';
 $string['rating'] = 'Βαθμολόγηση';
 $string['removecommunitycourse'] = 'Αφαίρεση μαθήματος κοινότητας';

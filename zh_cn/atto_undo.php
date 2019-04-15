@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_undo', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_undo', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_undo
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,5 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = '撤销/重做';
+$string['privacy:metadata'] = 'atto_undo 插件不储存任何私人数据。';
 $string['redo'] = '重做';
 $string['undo'] = '撤销';

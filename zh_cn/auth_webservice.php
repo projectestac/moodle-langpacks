@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_webservice', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_webservice', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['auth_webservicedescription'] = '此身份认证方法用于那些只允许通过网络服务客户端访问的账号。';
 $string['pluginname'] = '网络服务身份认证';
+$string['privacy:metadata'] = '网络服务认证插件不储存任何私人数据。';

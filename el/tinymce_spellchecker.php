@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_spellchecker', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tinymce_spellchecker', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tinymce_spellchecker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Ορθογραφικός έλεγχος παλαιού τύπου';
+$string['privacy:metadata'] = 'Το πρόσθετο «Ορθογραφικός έλεγχος παλαιού τύπου» του TinyMCE δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

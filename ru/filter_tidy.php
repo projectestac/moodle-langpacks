@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_tidy', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'filter_tidy', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   filter_tidy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['filtername'] = 'Очистка от HTML тегов';
+$string['privacy:metadata'] = 'Плагин Чистый HTML не хранит никаких персональных данных.';

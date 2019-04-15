@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'form', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'form', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   form
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,9 @@ defined('MOODLE_INTERNAL') || die();
 $string['addfields'] = 'Προσθήκη {$a} πεδίων/ου στη φόρμα';
 $string['advancedelement'] = 'Προχωρημένο στοιχείο';
 $string['close'] = 'Κλείσιμο';
+$string['custom'] = 'Προσαρμογή';
 $string['day'] = 'Μέρα';
+$string['default'] = 'Προεπιλογή';
 $string['display'] = 'Εμφάνιση';
 $string['err_alphanumeric'] = 'Πρέπει να εισάγετε μόνο γράμματα ή αριθμούς εδώ.';
 $string['err_email'] = 'Πρέπει να εισάγετε μια έγκυρη ηλ. διεύθυνση εδώ.';
@@ -41,14 +43,22 @@ $string['err_nopunctuation'] = 'Δεν πρέπει να εισάγετε χαρ
 $string['err_numeric'] = 'Πρέπει να εισάγετε έναν αριθμό εδώ.';
 $string['err_rangelength'] = 'Πρέπει να εισάγετε μεταξύ {$a->format[0]} και {$a->format[1]} χαρακτήρες εδώ.';
 $string['err_required'] = 'Πρέπει να εισάγετε μια τιμή εδώ.';
+$string['err_wrongfileextension'] = 'Κάποια αρχεία ({$a->wrongfiles}) δεν μπορούν να ανεβούν. Επιτρέπονται μόνο οι τύποι αρχείων {$a->whitelist}.';
+$string['filesofthesetypes'] = 'Αποδεκτοί τύποι αρχείων:';
+$string['filetypesany'] = 'Όλοι οι τύποι αρχείων';
+$string['filetypesnotall'] = 'Δεν επιτρέπεται να επιλέξετε «Όλοι οι τύποι αρχείων» εδώ';
+$string['filetypesnotwhitelisted'] = 'Αυτοί οι τύποι αρχείων δεν επιτρέπονται εδώ: {$a}';
+$string['filetypesothers'] = 'Άλλα αρχεία';
+$string['filetypesunknown'] = 'Άγνωστοι τύποι αρχείων: {$a}';
 $string['general'] = 'Γενικά';
 $string['hideadvanced'] = 'Απόκρυψη προχωρημένων';
 $string['hour'] = 'Ώρα';
 $string['minute'] = 'Λεπτό';
 $string['miscellaneoussettings'] = 'Διάφορες ρυθμίσεις';
-$string['modstandardels'] = 'Συχνές ρυθμίσεις μονάδας';
+$string['modstandardels'] = 'Συχνές ρυθμίσεις αρθρώματος';
 $string['month'] = 'Μήνας';
 $string['mustbeoverriden'] = 'Η αφηρημένη μέθοδος form_definition() στην κλάση {$a} πρέπει να παρακάμπτεται από κάτι άλλο. Παρακαλούμε διορθώστε τον κώδικα.';
+$string['newvaluefor'] = 'Νέα τιμή για {$a}';
 $string['nomethodforaddinghelpbutton'] = 'Δεν υπάρχει μέθοδος για την προσθήκη κουμπιού βοήθειας στο στοιχείο φόρμας {$a->name} (κλάση {$a->classname})';
 $string['nonexistentformelements'] = 'Προσπάθεια προσθήκης κουμπιών βοήθειας σε μη-υπαρκτά στοιχεία φόρμας: {$a}';
 $string['noselection'] = 'Καμία επιλογή';
@@ -60,6 +70,8 @@ $string['othersettings'] = 'Άλλες ρυθμίσεις';
 $string['passwordunmaskedithint'] = 'Επεξεργασία κωδικού πρόσβασης';
 $string['passwordunmaskinstructions'] = 'Πατήστε Enter για αποθήκευση αλλαγών';
 $string['passwordunmaskrevealhint'] = 'Αποκάλυψη';
+$string['privacy:metadata:preference:filemanager_recentviewmode'] = 'Πρόσφατα επιλεγμένη κατάσταση προβολής του στοιχείου επιλογής αρχείων';
+$string['privacy:preference:filemanager_recentviewmode'] = 'Ο προτιμώμενος τρόπος προβολής των αρχείων στον επιλογέα αρχείων είναι: {$a}';
 $string['requiredelement'] = 'Απαιτούμενο πεδίο.';
 $string['revealpassword'] = 'Αποκάλυψη';
 $string['security'] = 'Ασφάλεια';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_assignmentupgrade', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_assignmentupgrade', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_assignmentupgrade
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,6 +45,7 @@ $string['notsupported'] = '';
 $string['notupgradedintro'] = 'Η σελίδα αυτή περιέχει εργασίες που έχουν δημιουργηθεί με παλαιότερες εκδόσεις του Moodle και δεν έχουν αναβαθμιστεί στη νέα  μονάδα εργασιών που χρησιμοποιείται από το Moodle 2.3 και μετέπειτα. Δεν μπορούν να αναβαθμιστούν όλες οι εργασίες - εάν έχουν δημιουργηθεί με κάποιον ειδικό τύπο εργασίας, ο τύπος αυτός θα πρέπει να αναβαθμιστεί στη νέα μορφή plugin για να ολοκληρωθεί η αναβάθμιση.';
 $string['notupgradedtitle'] = 'Εργασίες που δεν αναβαθμίστηταν';
 $string['pluginname'] = 'Εργαλείο αναβάθμισης εργασιών';
+$string['privacy:metadata:preference:perpage'] = 'Ο προτιμώμενος αριθμός εγγραφών αναβαθμίσεων ανάθεσης ανά σελίδα που ορίζεται για το χρήστη.';
 $string['select'] = 'Επιλογή';
 $string['submissions'] = 'Υποβολές';
 $string['supported'] = 'Αναβάθμιση';

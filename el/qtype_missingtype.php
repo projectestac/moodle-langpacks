@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_missingtype', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_missingtype', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_missingtype
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,4 +34,5 @@ $string['missingqtypewarning'] = 'Αυτή η ερώτηση είναι ενός
 $string['pluginname'] = 'Άγνωστος τύπος';
 $string['pluginnameadding'] = 'Προσθήκη ερώτησης ενός τύπου που που δεν έχει εγκατασταθεί σε αυτό το σύστημα';
 $string['pluginnameediting'] = 'Επεξεργασία μιας ερώτησης ενός τύπου που δεν έχει εγκατασταθεί σε αυτό το σύστημα';
+$string['privacy:metadata'] = 'Το πρόσθετο τύπου ερώτησης «Επιλογή λέξεων που λείπουν» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['warningmissingtype'] = '<b>Αυτή η ερώτηση είναι ενός τύπου ο οποίος δεν έχει εγκατασταθεί στο Moodle σας ακόμα.<br />Παρακαλούμε ειδοποιήστε τον διαχειριστή του Moodle σας.</b>';

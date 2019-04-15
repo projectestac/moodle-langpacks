@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_text', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_text', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_text
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Текстовое поле';
+$string['privacy:metadata:profilefield_text:fieldid'] = 'ID поля профиля';
+$string['privacy:metadata:profilefield_text:userid'] = 'ID пользователя, данные которого хранятся в поле «Текстовое поле» профиля пользователя';

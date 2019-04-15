@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_profile', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability_profile', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   availability_profile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,20 +26,21 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['conditiontitle'] = 'Πεδίο προφίλ χρήστη';
-$string['description'] = 'Έλεγχος πρόσβασης με βάση τα πεδία μέσα στο προφίλ του σπουδαστή.';
+$string['description'] = 'Έλεγχος πρόσβασης με βάση τα πεδία μέσα στο προφίλ του μαθητή.';
 $string['error_selectfield'] = 'Πρέπει να επιλέξετε ένα πεδίο προφίλ.';
 $string['error_setvalue'] = 'Πρέπει να πληκτρολογήσετε μια τιμή.';
 $string['label_operator'] = 'Μέθοδος σύγκρισης';
 $string['label_value'] = 'Τιμή για σύγκριση με';
 $string['missing'] = '(Λείπει προσαρμοσμένο πεδίο: {$a})';
 $string['op_contains'] = 'περιέχει';
-$string['op_doesnotcontain'] = 'δεν περιέχει';
+$string['op_doesnotcontain'] = 'δεν  περιέχει';
 $string['op_endswith'] = 'τελειώνει με';
 $string['op_isempty'] = 'είναι κενό';
 $string['op_isequalto'] = 'είναι ίσο με';
 $string['op_isnotempty'] = 'δεν είναι κενό';
 $string['op_startswith'] = 'ξεκινάει με';
 $string['pluginname'] = 'Περιορισμός με βάση το προφίλ';
+$string['privacy:metadata'] = 'Το πρόσθετο «Περιορισμός με βάση το προφίλ» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['requires_contains'] = 'Το <strong>{$a->field}</strong> σας περιέχει <strong>{$a->value}</strong>';
 $string['requires_doesnotcontain'] = 'Το <strong>{$a->field}</strong> σας δεν περιέχει <strong>{$a->value}</strong>';
 $string['requires_endswith'] = 'Το <strong>{$a->field}</strong> σας τελειώνει σε <strong>{$a->value}</strong>';

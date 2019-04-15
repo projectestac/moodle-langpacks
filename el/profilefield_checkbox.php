@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_checkbox', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_checkbox', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_checkbox
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Πλαίσιο ελέγχου';
+$string['privacy:metadata:profilefield_checkbox:data'] = 'Τα δεδομένα χρήστη του πεδίου πλαισίου ελέγχου του προφίλ χρήστη';
+$string['privacy:metadata:profilefield_checkbox:dataformat'] = 'Ο μορφότυπος των δεδομένων χρήστη του πεδίου πλαισίου ελέγχου του προφίλ χρήστη.';
+$string['privacy:metadata:profilefield_checkbox:fieldid'] = 'Το αναγνωριστικό του πεδίου προφίλ';
+$string['privacy:metadata:profilefield_checkbox:tableexplanation'] = 'Επιπρόσθετα δεδομένα προφίλ';
+$string['privacy:metadata:profilefield_checkbox:userid'] = 'Το αναγνωριστικό του χρήστη του οποίου τα δεδομένα αποθηκεύονται από το πεδίο προφίλ χρήστη Πλαίσιο ελέγχου.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'plagiarism', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   plagiarism
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,3 +32,4 @@ $string['enableplagiarism'] = 'Abilita plugin prevenzione plagio';
 $string['manageplagiarism'] = 'Gestione plugin prevenzione plagio';
 $string['nopluginsinstalled'] = 'Non è installato nessun plugin di prevenzione plagio';
 $string['plagiarism'] = 'Prevenzione plagio';
+$string['privacy:metadata:plagiarism'] = 'Il sottosistema di prevenzione plagio funge da canale, passando le richieste dai plugin ai vari plugin prevenzione plagio.';

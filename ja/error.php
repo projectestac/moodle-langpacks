@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'error', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityisscheduledfordeletion'] = '活動削除中 ...';
+$string['agedigitalconsentmapinvalidage'] = '「 {$a} 」は有効な年齢の値ではありません。';
+$string['agedigitalconsentmapinvalidcomma'] = '「 {$a} 」には1つ以上のカンマ区切りがあります。';
+$string['agedigitalconsentmapinvalidcountry'] = '「 {$a} 」は有効な国の値ではありません。';
+$string['agedigitalconsentmapinvaliddefault'] = 'デフォルト (*) 値がありません。';
+$string['agelocationverificationdisabled'] = '年齢および場所の確認が無効にされています。';
 $string['alreadyloggedin'] = 'あなたはすでに {$a} としてログインしています。異なるユーザとしてログインする前にログアウトする必要があります。';
 $string['authnotexisting'] = '認証プラグインがありません。';
 $string['backupcontainexternal'] = 'このバックアップファイルにはローカルに設定されていない外部Moodleネットワークホストが含まれています。';
@@ -181,6 +186,7 @@ $string['confirmationnotenabled'] = 'このサイトではユーザ確認は有�
 $string['confirmsesskeybad'] = '申し訳ございません、このアクションの実行に関して、あなたのセッションキーでは確認できませんでした。このセキュリティ機能はあなたのユーザ名により重要な機能が不測または悪意により実行されることを防いでいます。本当にこの機能を実行したいか確認してください。';
 $string['couldnotassignrole'] = 'あなたへのロール割り当て中に、深刻ですが不明なエラーが発生しました。';
 $string['couldnotupdatenoexistinguser'] = 'ユーザを更新できません - ユーザが存在しません。';
+$string['couldnotverifyagedigitalconsent'] = 'デジタル許可年齢の確認中にエラーが発生しました。<br />管理者にご連絡ください。';
 $string['countriesphpempty'] = 'エラー: 言語パック {$a} のファイル「countries.php」が空または存在しません。';
 $string['coursedoesnotbelongtocategory'] = 'コースはこのカテゴリに属していません。';
 $string['courseformatnotfound'] = 'コースフォーマット「 {$a} 」が存在しないか、認識されていません。';
@@ -352,7 +358,7 @@ $string['invalidrole'] = '無効なロールです。';
 $string['invalidroleid'] = '無効なロールIDです。';
 $string['invalidscaleid'] = '正しくないスケールIDです。';
 $string['invalidsection'] = 'コースモジュールレコードに無効なセクションが含まれています。';
-$string['invalidsesskey'] = '無効なsesskeyが送信されました。フォームは受信されませんでした!';
+$string['invalidsesskey'] = '恐らく、あなたのセッションはタイムアウトしたようです。再度ログインしてください。';
 $string['invalidshortname'] = '無効なコース省略名です。';
 $string['invalidsourcefield'] = '下書きファイルのソースフィールドが無効です。';
 $string['invalidstatedetected'] = '不明なエラーが発生しました: {$a}。通常、このエラーは発生しません。';
@@ -362,6 +368,7 @@ $string['invaliduserdata'] = '無効なユーザデータ: {$a}';
 $string['invaliduserfield'] = '無効なユーザフィールド {$a}';
 $string['invaliduserid'] = '無効なユーザIDです。';
 $string['invalidusername'] = 'ユーザ名に無効な文字が含まれています。';
+$string['invalidusernameblank'] = 'ユーザ名を空白にすることはできません。';
 $string['invalidxmlfile'] = '「 {$a} 」は有効なXMLファイルではありません。';
 $string['iplookupfailed'] = 'このIPアドレス {$a} に関するgeo情報を見つけることができません。';
 $string['iplookupprivate'] = 'プライベートIPアドレスのルックアップを表示できません。';
@@ -381,7 +388,7 @@ $string['maxareabytes'] = 'ファイルがこのエリアの空き容量を超�
 $string['maxbytes'] = 'ファイルが最大許容サイズを超えています。';
 $string['maxbytesfile'] = 'ファイル {$a->file} は大きすぎます。あなたがアップロードできる最大サイズは {$a->size} です。';
 $string['messagingdisable'] = 'このサイトではメッセージングが無効にされています。';
-$string['mimetexisnotexist'] = 'あなたのシステムはmimeTeXを実行できるよう設定されていません。あなたのPHPおよびOSプラットフォームに適した実行ファイルを<a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a>からダウンロードするか、C言語のソースを<a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>からダウンロードしてください。ダウンロードしたファイルをコンパイルした後、 あなたの「moodle/filter/tex/」ディレクトリに入れてください。';
+$string['mimetexisnotexist'] = 'あなたのシステムはmimeTeXを実行できるよう設定されていません。あなたはC言語のソースを<a href="http://www.forkosh.com/mimetex.zip">http://www.forkosh.com/mimetex.zip</a>から取得する必要があります。ダウンロードしたファイルをコンパイルした後、 あなたの「moodle/filter/tex/」ディレクトリに入れてください。';
 $string['mimetexnotexecutable'] = 'カスタムmimetexを実行できません!';
 $string['missingfield'] = 'フィールド「 {$a} 」 がありません。';
 $string['missingkeyinsql'] = 'エラー: クエリにパラメータ「 {$a} 」がありません。';
@@ -565,10 +572,12 @@ $string['userautherror'] = '不明な認証プラグインです。';
 $string['userauthunsupported'] = 'ここでは認証プラグインがサポートされていません。';
 $string['useremailduplicate'] = '重複メールアドレス';
 $string['usermustbemnet'] = 'MNETアクセスコントロールリストのユーザにはリモートMNETのユーザを使用してください。';
+$string['usernamelowercase'] = 'ユーザ名は半角英数字小文字にしてください。';
 $string['usernotaddederror'] = 'ユーザは追加されませんでした - エラー。';
 $string['usernotaddedregistered'] = 'ユーザは追加されませんでした - すでに登録されています。';
 $string['usernotavailable'] = 'あなたはこのユーザの詳細を閲覧できません。';
 $string['usernotdeletedadmin'] = 'ユーザは削除されませんでした - 管理者アカウントは削除できません。';
+$string['usernotdeleteddeleted'] = 'このユーザはすでに削除されています。';
 $string['usernotdeletederror'] = 'ユーザは削除されませんでした - エラー。';
 $string['usernotdeletedmissing'] = 'ユーザは削除されませんでした - ユーザ名が見つかりませんでした。';
 $string['usernotdeletedoff'] = 'ユーザは削除されませんでした - 削除が許可されていません。';
@@ -583,6 +592,7 @@ $string['usernotupdatederror'] = 'ユーザは更新されませんでした - �
 $string['usernotupdatednotexists'] = 'ユーザは更新されませんでした - 存在しません。';
 $string['userquotalimit'] = 'あなたのファイルクオータ制限に達しました。';
 $string['userselectortoomany'] = 'multiselectがfalseにもかかわらず、user_selectorが2名以上のユーザを選択しています。';
+$string['verifyagedigitalconsentnotpossible'] = '申し訳ございません、現在、デジタル許可年齢を確認することができません。';
 $string['wrongcall'] = 'このスクリプトは正常にコールされていません。';
 $string['wrongcontextid'] = 'コンテクストIDが正しくありません (見つけることができません)。';
 $string['wrongdestpath'] = '宛先パスが正しくありません。';

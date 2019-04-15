@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_user', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradereport_user', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   gradereport_user
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['eventgradereportviewed'] = 'Η αναφορά ιστορικού βαθ
 $string['myself'] = 'Ο εαυτός μου';
 $string['otheruser'] = 'Χρήστης';
 $string['pluginname'] = 'Αναφορά χρήστη';
+$string['privacy:metadata:preference:gradereport_user_view_user'] = 'Εάν θα προβάλετε την αναφορά ως ο τρέχων χρήστης ή ως άλλος χρήστης στις αναφορές βαθμολογίου.';
 $string['tablesummary'] = 'Ο πίνακας είναι διατεταγμένος ως κατάλογος βαθμολογημένων αντικειμένων συμπεριλαμβανομένων κατηγοριών από βαθμολογημένα αντικείμενα. Όταν τα στοιχεία είναι σε μια κατηγορία, αυτά θα υποδηλώνονται ως τέτοια.';
 $string['user:view'] = 'Εμφάνιση της δικής σας αναφοράς χρήστη';
 $string['viewas'] = 'Προβάλετε την αναφορά ως';

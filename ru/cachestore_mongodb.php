@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_mongodb', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cachestore_mongodb', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   cachestore_mongodb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,8 @@ $string['password'] = 'Пароль';
 $string['password_help'] = 'Пароль пользователя, используемый для соединения.';
 $string['pleaseupgrademongo'] = 'Вы используете старую версию расширения PHP Mongo (<1.3). В будущем старые версии расширения Mongo поддерживаться не будут. Подумайте об обновлении версии.';
 $string['pluginname'] = 'MongoDB';
+$string['privacy:metadata:mongodb'] = 'Плагин хранилища кэша «MongoDB» хранит данные в течение короткого времени как часть своей функции кэширования. Эти данные хранятся на сервере MongoDB, где они регулярно удаляются.';
+$string['privacy:metadata:mongodb:data'] = 'Различные данные, хранящиеся в кэше';
 $string['replicaset'] = 'Набор реплик';
 $string['replicaset_help'] = 'Название набора реплик для подключения. Если набор реплик указан, то основная реплика будет определена с использованием команды ismaster  базы данных. Таким образом драйвер может в конечном итоге подключиться к серверу, которого даже нет в списке.';
 $string['server'] = 'Сервер';

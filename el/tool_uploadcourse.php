@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_uploadcourse', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_uploadcourse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -101,6 +101,7 @@ $string['mode_help'] = 'Αυτό σας επιτρέπει να καθορίσε
 $string['nochanges'] = 'Καθόλου αλλαγές';
 $string['pluginname'] = 'Ανέβασμα μαθημάτων';
 $string['preview'] = 'Προεπισκόπηση';
+$string['privacy:metadata'] = 'Το πρόσθετο «Ανέβασμα μαθήματος» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['reset'] = 'Επαναφορά του μαθήματος μετά από ανέβασμα';
 $string['reset_help'] = 'Εάν θα γίνεται επαναφορά του μαθήματος μετά τη δημιουργία/ενημέρωσή του.';
 $string['restoreafterimport'] = 'Επαναφορά μετά την εισαγωγή';

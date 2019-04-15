@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopeval_best', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopeval_best', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopeval_best
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,3 +34,4 @@ $string['comparisonlevel7'] = 'niet strikt';
 $string['comparisonlevel9'] = 'helemaal niet strikt';
 $string['configcomparison'] = 'Standaard instelling van de factor die de beoordeling van de evaluatie beïnvloedt.';
 $string['pluginname'] = 'Vergelijk met de beste beoordeling';
+$string['privacy:metadata'] = 'De vergelijken met de beste beoordelings-plugin bewaart geen persoonlijke gegevens. De persoonlijke gegevens van wie wat gaat beoordelen wordt bewaard door de Workshop-module zelf en dat vormt de basis voor het exporteren van beoordelingsdetails.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_comments', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignsubmission_comments', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   assignsubmission_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,3 +32,4 @@ $string['default_help'] = 'Ezarriz gero, bidalketa-metodo hau modu lehenetsian g
 $string['enabled'] = 'Bidalketaren iruzkinak';
 $string['enabled_help'] = 'Gaituz gero, ikasleek iruzkinak jar ditzakete bere bidalketak egiterakoan. Adibidez, erabili daiteke ikasleek kalifikatzaileari bidalketako fitxategi nagusia zein den adierazteko, fitxategi bat baino gehiago dagoenean.';
 $string['pluginname'] = 'Bidalketaren iruzkinak';
+$string['privacy:metadata:commentpurpose'] = 'Ikasle eta irakasleen artean trukatutako bidalketaren inguruko iruzkinak.';

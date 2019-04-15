@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'badges', language 'es', branch 'MOODLE_34_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -370,6 +370,34 @@ $string['personaconnection'] = 'Inicie sesión con su dirección de email';
 $string['personaconnection_help'] = 'Persona es un sistema para su identificación en la web, usando una dirección de correo electrónico de su propiedad. La mochila de Open Badges utiliza Persona como sistema de inicio de sesión, por lo que para conectarse a una mochila necesita una cuenta de Persona. Para obtener más información acerca de Persona visite <a href="https://login.persona.org/about">https://login.persona.org/about</a> .';
 $string['potentialrecipients'] = 'Potenciales destinatarios de la insignia';
 $string['preferences'] = 'Preferencias de insignias';
+$string['privacy:metadata:backpack'] = 'Un registro de las mochilas del usuario';
+$string['privacy:metadata:backpack:backpackuid'] = 'El identificador único de la mochila';
+$string['privacy:metadata:backpack:backpackurl'] = 'La URL de la mochila';
+$string['privacy:metadata:backpack:email'] = 'El email asociado con la mochila';
+$string['privacy:metadata:backpack:userid'] = 'El ID del usuario de la mochila';
+$string['privacy:metadata:badge'] = 'Una colección de insignias';
+$string['privacy:metadata:badge:timecreated'] = 'La hora en la cual fue creada la insignia';
+$string['privacy:metadata:badge:timemodified'] = 'La hora en la cual fue modificada por última vez la insignia';
+$string['privacy:metadata:badge:usercreated'] = 'El ID del usuario que creó la insignia';
+$string['privacy:metadata:badge:usermodified'] = 'El ID del usuario que modificó la insignia';
+$string['privacy:metadata:criteriamet'] = 'Una colección de criterios que han sido cumplidos';
+$string['privacy:metadata:criteriamet:datemet'] = 'La fecha en la cual se cumplieron los criterios';
+$string['privacy:metadata:criteriamet:userid'] = 'El ID del usuario que ha cumplido con los criterios';
+$string['privacy:metadata:external:backpacks'] = 'Información compartida cuando los usuarios envían sus insignias a una mochila externa';
+$string['privacy:metadata:external:backpacks:badge'] = 'El nombre de la insignia';
+$string['privacy:metadata:external:backpacks:description'] = 'La descripción de la insignia';
+$string['privacy:metadata:external:backpacks:image'] = 'La imagen de la insignia';
+$string['privacy:metadata:external:backpacks:issuer'] = 'Alguna información sobre el emisor';
+$string['privacy:metadata:external:backpacks:url'] = 'La URL de Moodle en donde puede verse la información de la insignia emitida';
+$string['privacy:metadata:issued'] = 'Un registro de insignias otorgadas';
+$string['privacy:metadata:issued:dateexpire'] = 'La fecha en la cual caduca la insignia';
+$string['privacy:metadata:issued:dateissued'] = 'La fecha de la distinción';
+$string['privacy:metadata:issued:userid'] = 'El ID del usuario a quien se le otorgó una insignia';
+$string['privacy:metadata:manualaward'] = 'Un registro de otorgamientos manuales';
+$string['privacy:metadata:manualaward:datemet'] = 'La fecha en la cual al usuario le fue otorgada la insignia';
+$string['privacy:metadata:manualaward:issuerid'] = 'El ID del usuario que otorga la insignia';
+$string['privacy:metadata:manualaward:issuerrole'] = 'El rol del usuario que otorga la insignia';
+$string['privacy:metadata:manualaward:recipientid'] = 'El ID del usuario al que se le otorga manualmente una insignia';
 $string['recipientdetails'] = 'Detalles del destinatario';
 $string['recipientidentificationproblem'] = 'No se puede encontrar un destinatario de esta insignia entre los usuarios existentes.';
 $string['recipients'] = 'Destinatarios de la insignia';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_ddimageortext', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_ddimageortext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -64,6 +64,7 @@ $string['pluginname_link'] = 'question/type/ddimageortext';
 $string['pluginnamesummary'] = 'As imaxes ou as etiquetas de texto arrástranse e sóltanse en zonas de arrastre nunha imaxe de fondo.';
 $string['previewareaheader'] = 'Vista previa';
 $string['previewareamessage'] = 'Seleccione unha imaxe de fondo, especifique elementos arrastrábeis e defina zonas de solta na imaxe de fondo sobre a que se deben soltar.';
+$string['privacy:metadata'] = 'O engadido de preguntas de arrastrar e soltar sobre unha imaxe non almacena ningún dato persoal.';
 $string['refresh'] = 'Actualizar a vista previa';
 $string['shuffleimages'] = 'Arrastre elementos ao chou cada vez que se intente facer unha pregunta';
 $string['summarisechoice'] = '{$a->no}. {$a->text}';

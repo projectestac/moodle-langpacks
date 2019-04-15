@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multianswer', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_multianswer', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_multianswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,6 +46,7 @@ $string['pluginnameediting'] = 'Editando unha resposta incorporada (Cloze) a unh
 $string['pluginname_help'] = 'As respostas incorporadas (Cloze) a preguntas consisten nunha pasaxe de texto con preguntas  como as de multiescolla e resposta curta incorporadas dentro';
 $string['pluginname_link'] = 'pregunta/tipo/multiresposta';
 $string['pluginnamesummary'] = 'As preguntas deste tipo son moi flexíbeis pero soamente poden crearse introducindo texto que contén códigos especiais para crear multiescolla incorporada, respostas curtas e preguntas numéricas.';
+$string['privacy:metadata'] = 'O engadido de pregunta de respostas incrustadas (CLOZE) non almacena ningún dato persoal.';
 $string['qtypenotrecognized'] = 'Non se recoñece o tipo e pregunta {$a}';
 $string['questiondefinition'] = 'Definición da pregunta';
 $string['questiondeleted'] = 'Pregunta eliminada';

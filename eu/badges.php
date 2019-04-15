@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'badges', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['activate'] = 'Gaitu sarbidea';
 $string['activatesuccess'] = 'Dominetarako sarbidea ondo gaitu da.';
 $string['addbadgecriteria'] = 'Gehitu dominarako irizpidea';
 $string['addcourse'] = 'Gehitu ikastaroak';
-$string['addcourse_help'] = 'Aukeratu dominarako baldintza honetara gehitu beharreko ikastaro guztiak. Sakatu CTRL teklari elementu bat baino gehiago aukeratzeko.';
+$string['addcourse_help'] = 'Aukeratu dominarako baldintza honetara gehitu beharreko ikastaro guztiak. Eutsi CTRL teklari hainbat elementu aukeratzeko.';
 $string['addcriteria'] = 'Gehitu irizpidea';
 $string['addcriteriatext'] = 'Irizpideak gehitzen hasteko, mesedez egin aukera zabaltzen den menutik';
 $string['addtobackpack'] = 'Gehitu motxilara';
@@ -169,17 +169,17 @@ $string['creatorbody'] = '<p>{$a->user}-(e)k dominarako baldintzak bete ditu eta
 $string['creatorsubject'] = '\'{$a}\' -(e)k domina lortu du!';
 $string['criteria_0'] = 'Domina hau honela lortzen da:';
 $string['criteria_1'] = 'Jarduera-osaketa';
-$string['criteria_1_help'] = 'Ikastaro batean hainbat jarduera eginda erabiltzaileei domina emateko aukera eskaintzen du.';
+$string['criteria_1_help'] = 'Erabiltzaileei ikastaro batean hainbat jarduera osatu izanagatik domina bat emateko aukera eskaintzen du.';
 $string['criteria_2'] = 'Eskuz ematea rolaren arabera';
-$string['criteria_2_help'] = 'Gunean edo ikastaroan rol jakin bat dutenek erabiltzaileei domina eskuz emateko aukera eskaintzen du.';
+$string['criteria_2_help'] = 'Erabiltzaileei gunean edo ikastaroan rol jakin bat izateagatik domina bat eskuz emateko aukera eskaintzen du.';
 $string['criteria_3'] = 'Partaidetza soziala';
 $string['criteria_3_help'] = 'Soziala';
 $string['criteria_4'] = 'Ikastaro-osaketa';
-$string['criteria_4_help'] = 'Ikastaroa osatu duten erabiltzaileei domina emateko aukera eskaintzen du. Bestelako parametroak gehi dakizkioke irizpide honi, besteak beste, gutxienek okalifikazioa edo ikataroa bukatzeko data.';
+$string['criteria_4_help'] = 'Erabiltzaileei ikastaroa osatu izanagatik domina bat emateko aukera eskaintzen du. Bestelako parametroak gehi dakizkioke irizpide honi, besteak beste, gutxieneko kalifikazioa edo ikastaroa bukatzeko data.';
 $string['criteria_5'] = 'Ikastaro-multzoa osatzea';
-$string['criteria_5_help'] = 'Ikastaro-multzo bat osatu duten erabiltzaileei domina emateko aukera eskaintzen du. Ikastaro bakoitzak bestelako parametroak izan ditzake, besteak beste, gutxienek okalifikazioa edo ikataroa bukatzeko data.';
+$string['criteria_5_help'] = 'Erabiltzaileei ikastaro-multzo bat osatzeagatik domina bat emateko aukera eskaintzen du. Ikastaro bakoitzak bestelako parametroak izan ditzake, besteak beste, gutxieneko kalifikazioa edo ikastaroa bukatzeko data.';
 $string['criteria_6'] = 'Osatu profila';
-$string['criteria_6_help'] = 'Norberaren profileko hainbat eremu bete dituzten erabiltzaileei domina emateko aukera eskaintzen du. Pertsonalizatutako eta lehenetsitako eremuen artean aukera dezakezu.';
+$string['criteria_6_help'] = 'Erabiltzaileei norberaren profileko hainbat eremu betetzeagatik domina bat emateko aukera eskaintzen du. Pertsonalizatutako eta lehenetsitako eremuen artean aukera dezakezu.';
 $string['criteriacreated'] = 'Dominarako irizpidea modu egokian sortu da';
 $string['criteriadeleted'] = 'Dominarako irizpidea modu egokian ezabatu da';
 $string['criteria_descr'] = 'Ondorengo baldintza betetzen dutenean emango zaie ikasleei domina hau:';
@@ -324,8 +324,8 @@ $string['makepublic'] = 'Egin publiko';
 $string['managebadges'] = 'Kudeatu dominak';
 $string['message'] = 'Mezuaren edukia';
 $string['messagebody'] = '<p>"%badgename%" domina lortu duzu!</p>
-<p>Domina honi buruzko informazio gehiago %badgelink% dominaren informazio orrian lortu ahal da.</p>
-<p>Domina {$a}-tik deskarga eta kudea dezakezu.</p>';
+<p>Domina honi buruzko informazio gehiago %badgelink% dominaren informazio orrian topatu dezakezu.</p>
+<p>Domina {$a}-tik deskarga eta kudeatu dezakezu.</p>';
 $string['messagesubject'] = 'Zorionak! Domina bat irabazi duzu!';
 $string['method'] = 'Irizpidea honela beteko da:';
 $string['mingrade'] = 'Eskatutako gutxieneko kalifikazioa';
@@ -374,6 +374,34 @@ $string['personaconnection_help'] = 'Persona zeure e-posta helbidea erabilita ze
 Pertsonari buruzko informazio gehiago lortzeko jo hona:<a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Balizko domina-jasotzaileak';
 $string['preferences'] = 'Dominen hobespenak';
+$string['privacy:metadata:backpack'] = 'Erabiltzailearen motxilen erregistroa';
+$string['privacy:metadata:backpack:backpackuid'] = 'Motxilaren identifikatzaile-bakarra';
+$string['privacy:metadata:backpack:backpackurl'] = 'Motxilaren URLa';
+$string['privacy:metadata:backpack:email'] = 'Motxilarekin lotutako e-posta helbidea';
+$string['privacy:metadata:backpack:userid'] = 'Motxilaren jabea den erabiltzailearen IDa';
+$string['privacy:metadata:badge'] = 'Dominen bilduma bat';
+$string['privacy:metadata:badge:timecreated'] = 'Domina sortu zeneko unea';
+$string['privacy:metadata:badge:timemodified'] = 'Domina azkenengoz aldatu zeneko unea';
+$string['privacy:metadata:badge:usercreated'] = 'Domina sortu zuenerabiltzailearen IDa';
+$string['privacy:metadata:badge:usermodified'] = 'Domina aldatu zuen erabiltzailearen IDa';
+$string['privacy:metadata:criteriamet'] = 'Bete diren irizpideen bilduma bat';
+$string['privacy:metadata:criteriamet:datemet'] = 'Irizpidea bete zeneko data';
+$string['privacy:metadata:criteriamet:userid'] = 'Irizpidea bete duen erabiltzailearen IDa';
+$string['privacy:metadata:external:backpacks'] = 'Erabiltzaileek euren dominak kanpoko motxiletara bidaltzean partekatzen den informazioa';
+$string['privacy:metadata:external:backpacks:badge'] = 'Dominaren izena';
+$string['privacy:metadata:external:backpacks:description'] = 'Dominaren deskribapena';
+$string['privacy:metadata:external:backpacks:image'] = 'Dominaren irudia';
+$string['privacy:metadata:external:backpacks:issuer'] = 'Emailearen inguruko informazioa';
+$string['privacy:metadata:external:backpacks:url'] = 'Dominaren informazioa ikusgarri dagoen Moodle-ko URLa';
+$string['privacy:metadata:issued'] = 'Emandako dominen erregistroa';
+$string['privacy:metadata:issued:dateexpire'] = 'Domina-ematea iraungitzen deneko data';
+$string['privacy:metadata:issued:dateissued'] = 'Domina-ematearen data';
+$string['privacy:metadata:issued:userid'] = 'Domina jaso zuen erabiltzailearen IDa';
+$string['privacy:metadata:manualaward'] = 'Eskuz emandako dominen erregistroa';
+$string['privacy:metadata:manualaward:datemet'] = 'Erabiltzaileari domina eskuz eman zitzaioneko data';
+$string['privacy:metadata:manualaward:issuerid'] = 'Domina eman zuen erabiltzailearen IDa';
+$string['privacy:metadata:manualaward:issuerrole'] = 'Domina eman zuen erabiltzailearen rola';
+$string['privacy:metadata:manualaward:recipientid'] = 'Eskuz emandako domina jaso duen erabiltzailearen IDa';
 $string['recipientdetails'] = 'Jasotzailearen zehaztasunak';
 $string['recipientidentificationproblem'] = 'Ezin da domina honetarako jasotzailerik aurkitu dauden erabiltzaileen artean.';
 $string['recipients'] = 'Domina-jasotzaileak';

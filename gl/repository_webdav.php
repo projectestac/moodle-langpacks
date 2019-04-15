@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_webdav', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_webdav', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_webdav
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['configplugin'] = 'Configuración de WebDAV';
 $string['http'] = 'HTTP';
 $string['https'] = 'HTTPS';
 $string['pluginname'] = 'Repositorio WebDAV';
+$string['privacy:metadata'] = 'O engadido de repositorio WebDAV almacena as preferencias do usuario e transmite os datos do usuario de Moodle ao sistema remoto.';
 $string['webdav'] = 'WebDAV';
 $string['webdavbasicauth'] = 'Autenticación básica WebDAV';
 $string['webdavdigestauth'] = 'Autenticación implícita WebDAV';

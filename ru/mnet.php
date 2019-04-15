@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'mnet', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -174,6 +174,7 @@ $string['permittedtransports'] = 'Разрешенные способы соед
 $string['phperror'] = 'Внутренняя ошибка PHP предотвратила выполнение Вашего запроса.';
 $string['position'] = 'Положение';
 $string['postrequired'] = 'Функции на удаление необходим POST-запрос';
+$string['privacy:metadata'] = 'Плагин MNet не хранит никаких персональных данных.';
 $string['profileexportfields'] = 'Поля для отправки';
 $string['profilefielddesc'] = 'Здесь вы можете настроить список полей профиля, которые посылаются и получаются через MNet при создании или обновлении учетных записей пользователей. Вы можете также переопределить их для каждого сайта сети MNet индивидуально. Обратите внимание, что следующие поля всегда должны быть отправлены и не могут быть пропущены: {$a}';
 $string['profilefields'] = 'Поля профиля';

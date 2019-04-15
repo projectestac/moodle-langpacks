@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_mnet_hosts', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_mnet_hosts', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   block_mnet_hosts
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,4 +31,5 @@ $string['error_roamcapabilityneeded'] = 'Os usuarios necesitan o permiso «Pasar
 $string['mnet_hosts:addinstance'] = 'Engadir un novo bloque de servidores de rede';
 $string['mnet_hosts:myaddinstance'] = 'Engadir un novo bloque de servidores de rede ao meu cartafol persoal';
 $string['pluginname'] = 'Servidores de rede';
+$string['privacy:metadata'] = 'O bloque de servidores de rede só permite a interacción cos servidores de rede e non almacena nin exporta datos propiamente ditos.';
 $string['server'] = 'Servidor';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_flickr_public', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_flickr_public', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_flickr_public
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,6 +49,11 @@ $string['notitle'] = 'geen titel';
 $string['nullphotolist'] = 'Er zijn geen foto\'s in deze account';
 $string['pluginname'] = 'Flickr Openbaar';
 $string['pluginname_help'] = 'Opslagruimte op Flickr.com';
+$string['privacy:metadata:repository_flickr_public'] = 'De Flickr publieke opslagruimte-plugin bewaart geen persoonlijke gegevens, maar stuurt deze door van Moodle naar het externe systeem.';
+$string['privacy:metadata:repository_flickr_public:author'] = 'De auteur van de inhoud van Flickr publieke opslagruimte.';
+$string['privacy:metadata:repository_flickr_public:email_address'] = 'Het e-mailadres van de gebruiker van de Flickr publieke opslagruimte.';
+$string['privacy:metadata:repository_flickr_public:text'] = 'De zoektekst van de gebruiker in de Flickr publieke opslagruimte.';
+$string['privacy:metadata:repository_flickr_public:user_id'] = 'De gebruikers-ID voor de Flickr publieke opslagruimte.';
 $string['remember'] = 'Herinner me';
 $string['secret'] = 'Geheim';
 $string['sharealike'] = 'Ja, zolang anderen ook gelijk delen';

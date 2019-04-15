@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_list', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_course_list', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   block_course_list
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,3 +34,4 @@ $string['course_list:myaddinstance'] = 'Добавлять новый блок �
 $string['hideallcourseslink'] = 'Скрыть ссылку «Все курсы»';
 $string['owncourses'] = 'Администратору доступны только его собственные курсы';
 $string['pluginname'] = 'Курсы';
+$string['privacy:metadata'] = 'Блок «Курсы» только показывает данные о курсах и сам по себе не хранит никаких данных.';

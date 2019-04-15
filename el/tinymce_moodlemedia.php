@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_moodlemedia', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tinymce_moodlemedia', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tinymce_moodlemedia
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,3 +29,4 @@ $string['moodlemedia:browsemedia'] = 'Βρείτε ή ανεβάστε έναν 
 $string['moodlemedia:desc'] = 'Εισαγωγή πολυμέσων Moodle';
 $string['nopreview'] = 'Αδυναμία προεπισκόπισης πολυμέσου';
 $string['pluginname'] = 'Εισαγωγή πολυμέσου';
+$string['privacy:metadata'] = 'Το πρόσθετο «Πολυμέσα Moodle» του TinyMCE δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

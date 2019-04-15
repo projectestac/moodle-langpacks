@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_truefalse', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_truefalse', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_truefalse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,5 +37,6 @@ $string['pluginnameadding'] = 'Добавление вопроса «Верно/
 $string['pluginnameediting'] = 'Редактирования вопроса «Верно/Неверно»';
 $string['pluginname_help'] = 'В ответе на вопрос (который может включать изображение) отвечающий выбирает значение «Верно» или значение «Неверно».';
 $string['pluginnamesummary'] = 'Простая форма вопроса «Множественный выбор», предполагающая только два варианта ответа: «Верно» или «Неверно».';
+$string['privacy:metadata'] = 'Плагин «Тип вопроса Верно/Неверно» не хранит никаких персональных данных';
 $string['selectone'] = 'Выберите один ответ:';
 $string['true'] = 'Верно';

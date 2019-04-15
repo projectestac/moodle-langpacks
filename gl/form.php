@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'form', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'form', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   form
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,9 @@ defined('MOODLE_INTERNAL') || die();
 $string['addfields'] = 'Engadir {$a} campos ao formulario';
 $string['advancedelement'] = 'Elemento avanzado';
 $string['close'] = 'Pechar';
+$string['custom'] = 'Personalizado';
 $string['day'] = 'Día';
+$string['default'] = 'Predeterminado';
 $string['display'] = 'Presentar';
 $string['err_alphanumeric'] = 'Aquí so debe escribir letras ou números.';
 $string['err_email'] = 'Aquí debe escribir un enderezo correcto de correo.';
@@ -41,6 +43,13 @@ $string['err_nopunctuation'] = 'Aquí non debe escribir ningún signo de puntuac
 $string['err_numeric'] = 'Aquí debe escribir un número.';
 $string['err_rangelength'] = 'Aquí debe escribir entre {$a->format[0]} e {$a->format[1]} caracteres.';
 $string['err_required'] = 'Aquí debe fornecer un valor.';
+$string['err_wrongfileextension'] = 'Algúns ficheios ({$a->wrongfiles}) non poden ser enviados. Só se admiten os tipos de ficheiro {$a->whitelist}.';
+$string['filesofthesetypes'] = 'Tipos de ficheiros aceptados:';
+$string['filetypesany'] = 'Todos os tipos de ficheiros';
+$string['filetypesnotall'] = 'Non está permitido seleccionar aquí «Todos os tipos de ficheiros»';
+$string['filetypesnotwhitelisted'] = 'Estes tipos de ficheiro non están permitidos aquí: {$a}';
+$string['filetypesothers'] = 'Outros ficheiros';
+$string['filetypesunknown'] = 'Tipo de ficheiro descoñecido: {$a}';
 $string['general'] = 'Xeral';
 $string['hideadvanced'] = 'Agochar avanzadas';
 $string['hour'] = 'Hora';
@@ -49,6 +58,7 @@ $string['miscellaneoussettings'] = 'Configuracións diversas';
 $string['modstandardels'] = 'Configuración común do módulo';
 $string['month'] = 'Mes';
 $string['mustbeoverriden'] = 'O método abstracto form_definition() na clase {$a} debe ser anulado, arranxe o código.';
+$string['newvaluefor'] = 'Novo valor para {$a}';
 $string['nomethodforaddinghelpbutton'] = 'Non existe un método para engadir un botón de axuda ao elemento do formulario {$a->name} (class {$a->classname})';
 $string['nonexistentformelements'] = 'Tentando engadir botóns de axuda a elementos de formulario inexistentes: {$a}';
 $string['noselection'] = 'Non hai selección';
@@ -60,6 +70,8 @@ $string['othersettings'] = 'Outras configuracións';
 $string['passwordunmaskedithint'] = 'Editar o contrasinal';
 $string['passwordunmaskinstructions'] = 'Prema Intro para gardar os cambios';
 $string['passwordunmaskrevealhint'] = 'Revelar';
+$string['privacy:metadata:preference:filemanager_recentviewmode'] = 'Modo de vista seleccionado recentemente do elemento do Selector de ficheiros.';
+$string['privacy:preference:filemanager_recentviewmode'] = 'A súa forma preferida para amosar ficheiros no Selector de ficheiros é: {$a}';
 $string['requiredelement'] = 'Campo obrigatorio';
 $string['revealpassword'] = 'Revelar';
 $string['security'] = 'Seguranza';

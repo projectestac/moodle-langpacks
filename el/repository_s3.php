@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_s3', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_s3', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_s3
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,5 +30,6 @@ $string['configplugin'] = 'Ρυθμίσεις Amazon S3';
 $string['endpoint'] = 'Τελικό σημείο Amazon S3';
 $string['needaccesskey'] = 'Το κλειδί πρόσβασης είναι απαραίτητο';
 $string['pluginname'] = 'Αποθετήριο Amazon S3';
+$string['privacy:metadata'] = 'Το πρόσθετο «Αποθετήριο Amazon S3» δεν αποθηκεύει κανένα προσωπικό δεδομένο αλλά μεταβιβάζει δεδομένα χρήστη από το Moodle προς το απομακρυσμένο σύστημα.';
 $string['s3:view'] = 'Εμφάνιση του repository amazon s3';
 $string['secret_key'] = 'Μυστικό κλειδί';

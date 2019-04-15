@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myprofile', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_myprofile', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_myprofile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,3 +48,4 @@ $string['myprofile:addinstance'] = 'Προσθήκη ενός νέου μπλο�
 $string['myprofile:myaddinstance'] = 'Προσθήκη νέου μπλοκ συνδεδεμένος χρήστης στο Ταμπλό';
 $string['myprofile_settings'] = 'Ορατές πληροφορίες χρήστη';
 $string['pluginname'] = 'Συνδεδεμένος χρήστης';
+$string['privacy:metadata'] = 'Το μπλοκ Συνδεδεμένων χρηστών εμφανίζει μόνο πληροφορίες σχετικά με τον συνδεδεμένο χρήστη και το ίδιο δεν αποθηκεύει δεδομένα.';

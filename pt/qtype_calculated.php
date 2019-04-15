@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_calculated', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_calculated
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -117,6 +117,7 @@ $string['pluginname_help'] = 'A pergunta Numérica com variáveis permite criar 
 $string['pluginname_link'] = 'pergunta/tipo/numericacomvariaveis';
 $string['pluginnamesummary'] = 'As perguntas numéricas com variáveis são idênticas às perguntas numéricas mas em que os números apresentados são selecionados aleatoriamente de uma série de conjuntos de valores definida previamente.';
 $string['possiblehdr'] = 'Possíveis variáveis presentes apenas no texto da pergunta';
+$string['privacy:metadata'] = 'O módulo Pergunta do tipo numérica com variáveis não armazena dados pessoais.';
 $string['questiondatasets'] = 'Conjunto de valores da pergunta';
 $string['questiondatasets_help'] = 'Conjuntos de valores das variáveis das perguntas que serão usados em cada pergunta individual';
 $string['questionstoredname'] = 'Nome da pergunta guardado';
@@ -134,7 +135,7 @@ $string['synchronize'] = 'Sincronizar os dados dos conjuntos de dados partilhado
 $string['synchronizeno'] = 'Não sincronizar';
 $string['synchronizeyes'] = 'Sincronizar';
 $string['synchronizeyesdisplay'] = 'Sincronizar e mostrar o nome dos conjuntos de dados partilhados tal como prefixo do nome da pergunta';
-$string['tolerance'] = 'Tolerância &plusmn;';
+$string['tolerance'] = 'Tolerância ±';
 $string['tolerancetype'] = 'Tipo';
 $string['trueanswerinsidelimits'] = 'Resposta correta : {$a->correct} dentro dos limites do valor aceite de {$a->true}';
 $string['trueansweroutsidelimits'] = '<span class="error">ERRO resposta correta : {$a->correct} fora dos limites do valor aceite {$a->true}</span>';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddwtos', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_ddwtos', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_ddwtos
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,3 +36,4 @@ $string['pluginnameadding'] = 'Inserimento domanda Trascina e rilascia su un tes
 $string['pluginnameediting'] = 'Modifica domanda Trascina e rilascia su un testo';
 $string['pluginname_help'] = 'Inserisci del testo del tipo "Il [[1]] saltò sopra il [[2]]", quindi inserisci sotto le parole mancanti in 1 e 2,';
 $string['pluginnamesummary'] = 'Nel testo della domanda le parole mancanti vengono riempite con il trascina e rilascia.';
+$string['privacy:metadata'] = 'Il plugin Tipo di domande \'Trascina e rilascia su un testo\' non memorizza dati personali.';

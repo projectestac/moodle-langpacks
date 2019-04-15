@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_emoticon', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'filter_emoticon', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   filter_emoticon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,5 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['filtername'] = 'Отображение смайликов в виде изображений';
+$string['privacy:metadata'] = 'Плагин Отображение смайликов как картинок не хранит никаких персональных данных.';
 $string['settingformats'] = 'Применять к форматам';
 $string['settingformats_desc'] = 'Фильтр будет использоваться, только если текст был вставлен в одном из выбранных форматов.';

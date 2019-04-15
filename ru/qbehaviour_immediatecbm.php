@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_immediatecbm', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_immediatecbm', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_immediatecbm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pleaseselectacertainty'] = 'Пожалуйста, выберите уверенность.';
 $string['pluginname'] = 'Немедленный отзыв с учетом уверенности в ответе';
+$string['privacy:metadata'] = 'Плагин «Режим поведения вопросов - немедленный отзыв с учетом уверенности в ответе» не хранит никаких персональных данных.';

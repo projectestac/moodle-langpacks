@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradingform_guide', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -76,6 +76,8 @@ $string['name'] = 'Nome';
 $string['needregrademessage'] = 'A definición da guía de corrección foi cambiada despois de que este alumno fose cualificado. O alumno non pode ver esta guía de corrección ata que vostede comprobe a guía de corrección e actualice a cualificación.';
 $string['pluginname'] = 'Guía de corrección';
 $string['previewmarkingguide'] = 'Vista previa da guía de corrección';
+$string['privacy:metadata:preference:showmarkerdesc'] = 'Indica se se amosan as descricións dos criterios ao corrector';
+$string['privacy:metadata:preference:showstudentdesc'] = 'Indica se se amosan as descricións dos criterios aos alumnos';
 $string['regrademessage1'] = 'Está a piques de gardar os cambios nunha guía de corrección que xa foi empregada para cualificación. Indique se as cualificacións existentes necesitan ser revisadas. Se estabelece isto entón a guía de corrección agochase para os alumnos ata que o elemento sexa cualificado de novo.';
 $string['regrademessage5'] = 'Está a piques de gardar cambios significativos nunha guía de corrección que xa foi empregada para cualificación. O valor no libro de cualificacións non cambiará, mais a guía de corrección agochase para os alumnos ata que o elemento sexa cualificado de novo.';
 $string['regradeoption0'] = 'Non corrixir para volver cualificar';

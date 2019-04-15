@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'folder', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   folder
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,6 +39,10 @@ $string['folder:addinstance'] = 'Προσθήκη νέου φακέλου';
 $string['foldercontent'] = 'Αρχεία και υποφάκελοι';
 $string['folder:managefiles'] = 'Διαχείριση αρχείων στο άρθρωμα φακέλου';
 $string['folder:view'] = 'Εμφάνιση περιεχομένου φακέλου';
+$string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Φακέλου';
+$string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε έναν πόρο Φακέλου.';
+$string['indicator:socialbreadth'] = 'Κοινωνικό εύρος Φακέλου';
+$string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε έναν πόρο Φακέλου.';
 $string['maxsizetodownload'] = 'Μέγιστο μέγεθος λήψης φακέλου (MB)';
 $string['maxsizetodownload_help'] = 'Το μέγιστο μέγεθος του φακέλου που μπορεί να κατεβεί ως αρχείο zip. Αν ορισθεί σε μηδέν, το μέγεθος του φακέλου θα είναι απεριόριστο.';
 $string['modulename'] = 'Φάκελος';
@@ -55,6 +59,7 @@ $string['page-mod-folder-view'] = 'Κύρια σελίδα αρθρώματος 
 $string['page-mod-folder-x'] = 'Οποιαδήποτε σελίδα αρθρώματος φακέλου';
 $string['pluginadministration'] = 'Διαχείριση φακέλου';
 $string['pluginname'] = 'Φάκελος';
+$string['privacy:metadata'] = 'Το πρόσθετο «Πόρος φακέλου αρχείων» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['search:activity'] = 'Φάκελος';
 $string['showdownloadfolder'] = 'Εμφάνιση πλήκτρου φακέλου λήψεων';
 $string['showdownloadfolder_help'] = 'Αν οριστεί σε «ναι», θα εμφανιστεί ένα κουμπί που θα επιτρέπει την λήψη του περιεχομένου του φακέλου ως ένα αρχείο zip.';

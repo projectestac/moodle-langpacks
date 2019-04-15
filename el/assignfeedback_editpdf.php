@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,8 @@ $string['command'] = 'Εντολή:';
 $string['comment'] = 'Σχόλια';
 $string['commentcolour'] = 'Χρώμα σχολίου';
 $string['commentcontextmenu'] = 'Το σχετικό μενού του σχολίου';
+$string['commentindex'] = 'Ευρετήριο σχολίων';
+$string['commentlabel'] = '{$a->pnum}.{$a->cnum}';
 $string['couldnotsavepage'] = 'Δεν ήταν δυνατή η αποθήκευση της σελίδας {$a}';
 $string['currentstamp'] = 'Στάμπα';
 $string['deleteannotation'] = 'Διαγραφή σχολιασμού';
@@ -51,6 +53,7 @@ $string['enabled'] = 'Σχολιασμός PDF';
 $string['enabled_help'] = 'Αν ενεργοποιηθεί, ο διδάσκων μπορεί να δημιουργήσει σχολιασμένα PDF αρχεία όταν βαθμολογεί τις εργασίες. Αυτό επιτρέπει στον διδάσκοντα να προσθέτει σχόλια, σχήματα και σφραγίδες στην εργασία των μαθητών. Ο σχολιασμός γίνεται στον περιηγητή και δεν απαιτείται επιπλέον λογισμικό.';
 $string['errorgenerateimage'] = 'Σφάλμα δημιουργίας εικόνας με ghostscript, πληροφορίες εντοπισμού σφαλμάτων: {$a}';
 $string['errorpdfpage'] = 'Παρουσιάστηκε σφάλμα κατά την παραγωγή αυτής της σελίδας.';
+$string['expcolcomments'] = 'Ανάπτυξη/σύμπυξη όλων των σχολίων';
 $string['filter'] = 'Φίλτραρε τα σχόλια....';
 $string['generatefeedback'] = 'Δημιουργία PDF ανατροφοδότησης';
 $string['generatingpdf'] = 'Δημιουργία του PDF';
@@ -69,10 +72,16 @@ $string['oval'] = 'Οβάλ';
 $string['pagenumber'] = 'Σελίδα {$a}';
 $string['pagexofy'] = 'Σελίδα {$a->page} από {$a->total}';
 $string['pathtogspathdesc'] = 'Παρακαλούμε έχετε υπόψη ότι για τα σχολιασμένα PDF απαιτείται η διαδρομή του ghostscript να προστεθεί στο {$a}.';
-$string['pathtounoconvpathdesc'] = 'Παρακαλούμε, λάβετε υπόψη ότι οι  επισημειώσεις PDF απαιτούν να οριστεί η διαδρομή προς τον UnoConv (μετατροπέας εγγράφων) στο {$a}.';
 $string['pen'] = 'Στυλός';
 $string['pluginname'] = 'Σχολιασμός PDF';
 $string['preparesubmissionsforannotation'] = 'Προετοιμασία υποβολών για σχολιασμό';
+$string['privacy:metadata:colourpurpose'] = 'Χρώμα του σχολίου ή σχολιασμού';
+$string['privacy:metadata:conversionpurpose'] = 'Τα αρχεία μετατρέπονται σε αρχεία PDF για να επιτρέπεται ο σχολιασμός.';
+$string['privacy:metadata:filepurpose'] = 'Αποθηκεύει ένα σχολιασμένο PDF με ανατροφοδότηση για τον χρήστη.';
+$string['privacy:metadata:rawtextpurpose'] = 'Αποθηκεύει ακατέργαστο κείμενο για τα γρήγορα δεδομένα.';
+$string['privacy:metadata:tablepurpose'] = 'Αποθήκευση καθοριζόμενων από τον διδάσκοντα σχολίων γρήγορης λίστας';
+$string['privacy:metadata:userid'] = 'Ένα αναγνωριστικό για τον χρήστη.';
+$string['privacy:path'] = 'Ανατροφοδότηση PDF';
 $string['rectangle'] = 'Παραλληλόγραμμο';
 $string['red'] = 'Κόκκινο';
 $string['result'] = 'Αποτέλεσμα:';
@@ -89,14 +98,6 @@ $string['test_isdir'] = 'Η διαδρομή (το πλήρες όνομα) το
 $string['test_notestfile'] = 'Το δοκιμαστικό PDF λείπει';
 $string['test_notexecutable'] = 'Το ghostscript δείχνει σε ένα αρχείο που δεν είναι εκτελέσιμο';
 $string['test_ok'] = 'Η διαδρομή του ghostscript φαίνεται να είναι ΟΚ - παρακαλούμε ελέγξτε αν μπορείτε να δείτε το μήνυμα στην παρακάτω εικόνα';
-$string['test_unoconv'] = 'Δοκιμή διαδρομής (πλήρες όνομα αρχείου) του UnoConv';
-$string['test_unoconvdoesnotexist'] = 'Η διαδρομή (πλήρες όνομα αρχείου) του UnoConv δεν δείχνει προς το εκτελέσιμο πρόγραμμα του unoconv. Παρακαλούμε, ελέγξτε τις ρυθμίσεις της διαδρομής σας.';
-$string['test_unoconvdownload'] = 'Λήψη του αρχείου δοκιμής μετατροπής pdf.';
-$string['test_unoconvisdir'] = 'Η διαδρομή (το πλήρες όνομα) του unoconv καταλήγει σε ένα φάκελο. Παρακαλούμε να συμπεριλάβετε και το αρχείο του προγράμματος unoconv στη διαδρομή που καθορίζετε.';
-$string['test_unoconvnotestfile'] = 'Το έγγραφο δοκιμής που πρόκειται να μετατραπεί σε PDF λείπει';
-$string['test_unoconvnotexecutable'] = 'Η διαδρομή (το πλήρες όνομα) του unoconv οδηγεί σε ένα αρχείο που δεν είναι εκτελέσιμο';
-$string['test_unoconvok'] = 'Η διαδρομή (το πλήρες όνομα) του unoconv φαίνεται να είναι ρυθμισμένη σωστά.';
-$string['test_unoconvversionnotsupported'] = 'Η έκδοση του unoconv που έχετε εγκαταστήσει δεν υποστηρίζεται. Η λειτουργία βαθμολόγησης του Moodle απαιτεί έκδοση 0.7 ή νεότερη.';
 $string['tool'] = 'Εργαλείο';
 $string['toolbarbutton'] = '{$a->tool} {$a->shortcut}';
 $string['viewfeedbackonline'] = 'Προβολή σχολιασμένου PDF...';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'search', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,6 +59,7 @@ $string['enginenotselected'] = 'Vous n\'avez sélectionné aucun moteur de reche
 $string['engineserverstatus'] = 'Le moteur de recherche n\'est pas disponible. Veuillez contacter l\'administrateur de la plateforme.';
 $string['enteryoursearchquery'] = 'Taper votre requête';
 $string['errorareanotavailable'] = 'La zone de recherche {$a} n\'est pas disponible';
+$string['error_indexing'] = 'Une erreur est survenue lors de l\'indexation';
 $string['errors'] = 'Erreurs';
 $string['filesinindexdirectory'] = 'Fichier dans le répertoire d\'index';
 $string['filterheader'] = 'Filtre';
@@ -67,6 +68,8 @@ $string['globalsearch'] = 'Recherche globale';
 $string['globalsearchdisabled'] = 'La recherche globale n\'est pas activée.';
 $string['incourse'] = 'dans le cours {$a}';
 $string['index'] = 'Index';
+$string['indexwhendisabledfullnotice'] = 'L\'indexation n\'est actuellement pas autorisée lorsque la recherche est désactivée. Pour l\'activer, veuillez consulter le réglage <a href="{$a->url}">searchindexwhendisabled</a>';
+$string['indexwhendisabledshortnotice'] = 'L\'indexation n\'est pas disponible.';
 $string['invalidindexerror'] = 'Le répertoire d\'index contient un index non valide ou rien du tout.';
 $string['ittook'] = 'Il a fallu';
 $string['matchingfile'] = 'Trouvé dans le fichier <span class="filename">{$a}</span>';
@@ -78,6 +81,7 @@ $string['normalsearch'] = 'Recherche normale';
 $string['notitle'] = 'Sans titre';
 $string['openedon'] = 'ouvert le';
 $string['optimize'] = 'Optimiser';
+$string['privacy:metadata'] = 'Le sous-système de recherche n\'enregistre aucune donnée personnelle.';
 $string['queryerror'] = 'La demande fournie n\'a pas pu être analysée par le moteur de recherche : {$a}';
 $string['resultsreturnedfor'] = 'résultats trouvés pour';
 $string['runindexer'] = 'Lancer l\'indexation (réelle)';

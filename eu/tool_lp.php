@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lp', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -80,7 +80,7 @@ $string['coursecompetencyratingsarenotpushedtouserplans'] = 'Ikastaro honetako k
 $string['coursecompetencyratingsarepushedtouserplans'] = 'Ikastaro honetan konpetentzien kalifikazioek ikasketa-planak berehala eguneratzen dituzte.';
 $string['coursecompetencyratingsquestion'] = 'Konpetentzia bat kalifikatzen denean, kalifikazioak ikasketa-planeko konpetentzia eguneratzen du edo ikastaroan bakarrik dauka eragina?';
 $string['coursesusingthiscompetency'] = 'Konpetentzia honetara estekatutako ikastaroak';
-$string['coveragesummary'] = '{$a->competenciescount} gaitasunetik {$a->competenciescoveredcount} lantzen dira (% {$a->coveragepercentage})';
+$string['coveragesummary'] = '{$a->competenciescount} konpetentziatik {$a->competenciescoveredcount} lantzen dira (% {$a->coveragepercentage})';
 $string['createlearningplans'] = 'Sortu ikasketa-planak';
 $string['createplans'] = 'Sortu ikasketa-planak';
 $string['crossreferencedcompetencies'] = 'Erreferentzia gurutzatuko konpetentziak';
@@ -179,6 +179,7 @@ $string['planupdated'] = 'Ikasketa-plana eguneratu da';
 $string['pluginname'] = 'Ikasketa-planak';
 $string['points'] = 'Puntuak';
 $string['pointsgivenfor'] = '\'{$a}\'-(r)i emandako puntuak';
+$string['privacy:metadata'] = 'Ikasketa-planak pluginak ez du datu pertsonalik biltzen.';
 $string['proficient'] = 'Gai';
 $string['progress'] = 'Aurrerapena';
 $string['rate'] = 'Kalifikatu';

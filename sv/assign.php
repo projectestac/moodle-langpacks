@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'sv', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assign', language 'sv', branch 'MOODLE_34_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -189,6 +189,7 @@ $string['feedbacksettings'] = 'Inställningar för återkoppling';
 $string['feedbacktypes'] = 'Feedback typer';
 $string['filesubmissions'] = 'Filinlämningar';
 $string['filter'] = 'Filter';
+$string['filtergrantedextension'] = 'Beviljad förlängning av inlämningstiden';
 $string['filternone'] = 'Inga filter';
 $string['filternotsubmitted'] = 'Ej inlämnat';
 $string['filterrequiregrading'] = 'Behöver betygssättas';
@@ -216,6 +217,8 @@ $string['gradestudent'] = 'Betygssätt elev: (id={$a->id}, fullt namn={$a->fulln
 $string['gradeuser'] = 'Betyg {$a}';
 $string['grading'] = 'Betygssättning';
 $string['gradingchangessaved'] = 'Ändringar i betygssättning sparades';
+$string['gradingduedate'] = 'Påminn mig att bedöma uppgiften senast';
+$string['gradingduefromdatevalidation'] = 'Datum för senaste bedömning kan inte ligga före tidigaste inlämningsdatum.';
 $string['gradingmethodpreview'] = 'Kriterium för betygssättning';
 $string['gradingoptions'] = 'Alternativ';
 $string['gradingstatus'] = 'Betygssättningsstatus';
@@ -273,6 +276,7 @@ Vid granskning av inlämningsuppgifter kan lärare ge kommentarer för återkopp
 $string['modulenameplural'] = 'Uppgifter';
 $string['moreusers'] = '{$a} mer ...';
 $string['multipleteams'] = 'Medlem av mer än en grupp';
+$string['multipleteams_desc'] = 'Denna inlämning är en gruppuppgift. Just nu är du medlem i flera grupper. För att kunna göra en inlämning måste du ingår i endast en grupp. V.g. be din lärare att ändra din grupptillhörighet.';
 $string['multipleteamsgrader'] = 'Medlem av mer än en grupp, kan därför inte ladda upp fil';
 $string['mysubmission'] = 'Min inlämning:';
 $string['newsubmissions'] = 'Uppgifterna är inskickade';
@@ -286,6 +290,7 @@ $string['nosavebutnext'] = 'Nästa';
 $string['nosubmission'] = 'Inget har lämnats in för denna inlämningsuppgift';
 $string['nosubmissionsacceptedafter'] = 'Inga inlämningar tillåts efter';
 $string['noteam'] = 'Inte medlem i någon grupp';
+$string['noteam_desc'] = 'Denna inlämning är en gruppuppgift. Just nu är du inte medlem i någon grupp. V.g. be din lärare att lägga in dig i en grupp.';
 $string['noteamgrader'] = 'Inte medlem i någon grupp, kan därför inte ladda upp fil';
 $string['notgraded'] = 'Ej betygssatt';
 $string['notgradedyet'] = 'Ännu ej bedömd';

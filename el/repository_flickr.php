@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_flickr', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_flickr', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_flickr
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,6 +39,10 @@ $string['notitle'] = 'Χωρίς Τίτλο';
 $string['nullphotolist'] = 'Δεν υπάρχουν φωτογραφίες σε αυτό το λογαριασμό';
 $string['pluginname'] = 'Flickr';
 $string['pluginname_help'] = 'Χώρος Αποθήκευσης στο flickr.com';
+$string['privacy:metadata:repository_flickr'] = 'Το πρόσθετο αποθετηρίου Flickr αποθηκεύει προτιμήσεις χρηστών, και μεταδίδει δεδομένα χρήστη από το Moodle στο απομακρυσμένο σύστημα.';
+$string['privacy:metadata:repository_flickr:preference:repository_flickr_access_token'] = 'Η προτίμηση του κουπονιού OAuth του αποθετηρίου Flickr.';
+$string['privacy:metadata:repository_flickr:preference:repository_flickr_access_token_secret'] = 'Η προτίμηση μυστικού OAuth του αποθετηρίου Flickr. Αυτό εξαιρείται από τις εξαγωγές δεδομένων ιδιωτικού απορρήτου.';
+$string['privacy:metadata:repository_flickr:text'] = 'Το κείμενο αναζήτησης ερωτήματος χρήστη του αποθετηρίου Flickr.';
 $string['remember'] = 'Να με θυμάσαι';
 $string['secret'] = 'Συνθηματικό (Secret)';
 $string['username'] = 'Δι/νση Ηλεκτρονικού Ταχυδρομείου του λογαριασμού στο Flickr';

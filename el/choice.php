@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'choice', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,8 +30,8 @@ $string['allowmultiple'] = 'Επέτρεψε περισσότερες από μ�
 $string['allowupdate'] = 'Να επιτρέπεται η ενημέρωση της επιλογής';
 $string['answered'] = 'Απαντήθηκε';
 $string['atleastoneoption'] = 'Θα πρέπει να δώσετε τουλάχιστον μία πιθανή απάντηση.';
-$string['calendarend'] = 'Η επιλογή {$a} κλείνει';
-$string['calendarstart'] = 'Η επιλογή {$a} ανοίγει';
+$string['calendarend'] = '{$a} κλείνει';
+$string['calendarstart'] = '{$a} ανοίγει';
 $string['cannotsubmit'] = 'Λυπούμαστε, υπήρξε πρόβλημα κατά την υποβολή της επιλογής σας. Παρακαλώ προσπαθήστε ξανά.';
 $string['choice'] = 'Επιλογή';
 $string['choiceactivityname'] = 'Επιλογή: {$a}';
@@ -41,7 +41,7 @@ $string['choiceclose'] = 'Επέτρεψε απαντήσεις μέχρι';
 $string['choicecloseson'] = 'Η επιλογή κλείνει στις {$a}';
 $string['choice:deleteresponses'] = 'Τροποποίηση και διαγραφή απαντήσεων';
 $string['choice:downloadresponses'] = 'Λήψη απαντήσεων';
-$string['choicefull'] = 'Δεν υπάρχουν διαθέσιμες επιλογές για σας.';
+$string['choicefull'] = 'Μία ή περισσότερες από τις επιλογές που έχετε επιλέξει έχουν ήδη συμπληρωθεί. Η απάντησή σας δεν έχει αποθηκευτεί. Παρακαλούμε, κάντε άλλη επιλογή.';
 $string['choicename'] = 'Όνομα επιλογής';
 $string['choiceopen'] = 'Να επιτρέπονται αποκρίσεις από';
 $string['choiceoptions'] = 'Επιλογές επιλογής';
@@ -68,6 +68,10 @@ $string['expired'] = 'Η δραστηριότητα αυτή έκλεισε στ
 $string['full'] = '(Πλήρες)';
 $string['havetologin'] = 'Πρέπει να συνδεθείτε για να μπορείτε να υποβάλετε την επιλογή σας';
 $string['includeinactive'] = 'Συμπερίληψη απαντήσεων από ανενεργούς/σε αναστολή χρήστες';
+$string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Επιλογής';
+$string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Επιλογής.';
+$string['indicator:socialbreadth'] = 'Κοινωνικό εύρος Επιλογής';
+$string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Επιλογής.';
 $string['limit'] = 'Όριο';
 $string['limitanswers'] = 'Περιόρισε το πλήθος των επιτρεπόμενων απαντήσεων';
 $string['limitanswers_help'] = 'Εάν ενεργοποιηθεί, σάς επιτρέπει να περιορίσετε τον αριθμό των συμμετεχόντων που μπορούν να διαλέξουν κάθε επιλογή μεταξύ πολλών. Όταν επιτευχθεί το όριο, κανένας άλλος δεν μπορεί να επιλέξει αυτή την επιλογή. Εάν τα όρια είναι απενεργοποιημένα, τότε οποιοδήποτε πλήθος συμμετεχόντων μπορεί να επιλέξει οποιαδήποτε από τις επιλογές.';
@@ -89,6 +93,7 @@ $string['notenrolledchoose'] = 'Λυπούμαστε, αλλά μόνο εγγε
 $string['notopenyet'] = 'Συγγνώμη, αυτή η δραστηριότητα δεν είναι διαθέσιμη μέχρι {$a}';
 $string['numberofuser'] = 'Αριθμός απαντήσεων';
 $string['numberofuserinpercentage'] = 'Ποσοστό απαντήσεων';
+$string['openafterclose'] = 'Έχετε ορίσει ημερομηνία ανοίγματος μετά την ημερομηνία κλεισίματος';
 $string['option'] = 'Επιλογή';
 $string['optionno'] = 'Επιλογή {no}';
 $string['options'] = 'Επιλογές';
@@ -97,6 +102,11 @@ $string['pluginadministration'] = 'Διαχείριση Επιλογής';
 $string['pluginname'] = 'Επιλογή';
 $string['previewonly'] = 'Πρόκειται για μια προεπισκόπηση των διαθέσιμων επιλογών για αυτήν τη δραστηριότητα. Δεν θα μπορείτε να υποβάλετε την επιλογή σας μέχρι {$a}.';
 $string['privacy'] = 'Ιδιωτικότητα αποτελεσμάτων';
+$string['privacy:metadata:choice_answers'] = 'Πληροφορίες για τις απαντήσεις(η) που έχει επιλέξει ο χρήστης για μια δεδομένη δραστηριότητα επιλογής';
+$string['privacy:metadata:choice_answers:choiceid'] = 'Το αναγνωριστικό της δραστηριότητας Επιλογής';
+$string['privacy:metadata:choice_answers:optionid'] = 'Το αναγνωριστικό της επιλογής που επέλεξε ο χρήστης.';
+$string['privacy:metadata:choice_answers:timemodified'] = 'Η χρονοσφραγίδα που σηματοδοτεί πότε τροποποιήθηκε η επιλογή από τον χρήστη';
+$string['privacy:metadata:choice_answers:userid'] = 'Το αναγνωριστικό του χρήστη που απαντά σε αυτή τη δραστηριότητα Eπιλογής';
 $string['publish'] = 'Δημοσιοποίηση αποτελεσμάτων';
 $string['publishafteranswer'] = 'Εμφάνιση αποτελεσμάτων στο μαθητή αφού απαντήσει';
 $string['publishafterclose'] = 'Εμφάνιση αποτελεσμάτων στους μαθητές όταν κλείσει η επιλογή';
@@ -121,5 +131,6 @@ $string['spacesleft'] = 'διαθέσιμοι χώροι';
 $string['taken'] = 'Ληφθέντα';
 $string['userchoosethisoption'] = 'Χρήστες που επέλεξαν αυτήν την επιλογή';
 $string['viewallresponses'] = 'Δες {$a} απαντήσεις';
+$string['viewchoices'] = 'Προβολή επιλογών';
 $string['withselected'] = 'Με τα επιλεγμένα';
 $string['yourselection'] = 'Η επιλογή σας';

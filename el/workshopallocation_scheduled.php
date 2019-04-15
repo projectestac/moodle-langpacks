@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_scheduled', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopallocation_scheduled', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopallocation_scheduled
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,7 @@ $string['currentstatusresult'] = 'Πρόσφατο αποτέλεσμα εκτέ
 $string['enablescheduled'] = 'Ενεργοποίηση προγραμματισμένης εκχώρησης';
 $string['enablescheduledinfo'] = 'Εκχωρήστε αυτόματα τις υποβολές στο τέλος της φάσης υποβολής';
 $string['pluginname'] = 'Προγραμματισμένη εκχώρηση';
+$string['privacy:metadata'] = 'Το πρόσθετο «Προγραμματισμένη εκχώρηση» δεν αποθηκεύει κανένα προσωπικό δεδομένο. Τα πραγματικά προσωπικά δεδομένα σχετικά με το ποιος πρόκειται να αξιολογήσει ποιόν, αποθηκεύονται από από το ίδιο το άρθρωμα Εργαστηρίου και αποτελούν βάση για την εξαγωγή των λεπτομερειών αξιολόγησης.';
 $string['randomallocationsettings'] = 'Ρυθμίσεις εκχώρησης';
 $string['randomallocationsettings_help'] = 'Οι παράμετροι για τη μέθοδο τυχαίας εκχώρησης ορίζονται εδώ. Θα χρησιμοποιηθούν από το πρόσθετο τυχαίας εκχώρησης για την πραγματική εκχώρηση των υποβολών.';
 $string['resultdisabled'] = 'Η προγραμματισμένη εκχώρηση είναι απενεργοποιημένη';

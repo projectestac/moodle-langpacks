@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_memcached', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cachestore_memcached', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   cachestore_memcached
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,6 +47,8 @@ $string['pluginname'] = 'Memcached (σε κρυφή μνήμη ΒΔ στη RAM)'
 $string['prefix'] = 'Κλειδί προθέματος';
 $string['prefix_help'] = 'Αυτό μπορεί να χρησιμοποιηθεί για τη δημιουργία ενός «τομέα» για τα κλειδιά στοιχείων σας, που επιτρέπει να δημιουργήσετε πολλαπλές αποθηκεύσεις memcache (κρυφή μνήμη για βελτίωση απόκρισης ΒΔ από ιστοσελίδες) σε μια μοναδική εγκατάσταση memcached. Δεν μπορεί να υπερβαίνει τους 16 χαρακτήρες, προκειμένου να διασφαλιστεί ότι δεν θα παρουσιαστούν ζητήματα μήκους κλειδιών.';
 $string['prefixinvalid'] = 'Μη έγκυρο πρόθεμα. Μπορείτε να χρησιμοποιήσετε μόνο τα a-z A-Z 0-9 -_.';
+$string['privacy:metadata:memcached'] = 'Το πρόσθετο Memcached cachestore αποθηκεύει στοιχεία για λίγο ως μέρος της λειτουργικότητας της κρυφής μνήμης. Αυτά τα δεδομένα αποθηκεύονται σε έναν εξυπηρετητή Memcache, όπου τα δεδομένα διαγράφονται τακτικά.';
+$string['privacy:metadata:memcached:data'] = 'Τα διάφορα δεδομένα που αποθηκεύονται στην κρυφή μνήμη';
 $string['serialiser_igbinary'] = 'Ο σειριοποιητής igbinary (PHP serializer).';
 $string['serialiser_json'] = 'Ο σειριοποιητής JSON (PHP serializer).';
 $string['serialiser_php'] = 'Ο προεπιλεγμένος PHP σειριοποιητής (serializer).';

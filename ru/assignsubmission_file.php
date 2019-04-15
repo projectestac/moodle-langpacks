@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignsubmission_file', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,10 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['acceptedfiletypes'] = 'Допустимые типы файлов';
-$string['acceptedfiletypes_help'] = 'Допустимые типы файлов можно ограничить, введя разделенный запятыми их перечень, например: видео/mp4, аудио/mp3, изображение/png, изображение/jpeg или расширения файлов, включая точку, например: .png, .jpg. При пустом поле разрешены все типы файлов.';
+$string['acceptedfiletypes_help'] = 'Допустимые типы файлов можно ограничить, введя список расширений файлов. Если поле оставить пустым, будут разрешены все типы файлов.';
 $string['configmaxbytes'] = 'Максимальный размер файла';
 $string['countfiles'] = 'Файлов - {$a}';
 $string['default'] = 'Включено по умолчанию';
+$string['defaultacceptedfiletypes'] = 'Допустимые типы файлов по умолчанию';
 $string['default_help'] = 'Если установлено, то этот метод представления будет включен по умолчанию для всех новых заданий.';
 $string['enabled'] = 'Ответ в виде файла';
 $string['enabled_help'] = 'Если включен, студенты смогут загрузить один или более файлов в качестве своего ответа.';
@@ -47,5 +48,6 @@ $string['maximumsubmissionsize_help'] = 'Размер файлов, загруж
 $string['nonexistentfiletypes'] = 'Следующие типы файлов не были распознаны: {$a}';
 $string['numfilesforlog'] = 'Количество файл(ов): {$a}.';
 $string['pluginname'] = 'Ответ в виде файла';
+$string['privacy:metadata:filepurpose'] = 'Файлы, загруженные для ответа на это задание';
 $string['siteuploadlimit'] = 'Ограничение загрузки на сайте';
 $string['submissionfilearea'] = 'Загружаемых файлов в ответе';

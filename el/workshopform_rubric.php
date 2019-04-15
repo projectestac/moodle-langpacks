@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_rubric', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopform_rubric', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,3 +39,4 @@ $string['mustbeunique'] = 'Οι βαθμοί επιπέδου πρέπει να 
 $string['mustchooseone'] = 'Θα πρέπει να επιλέξετε ένα από αυτά τα στοιχεία';
 $string['mustdefinelevel'] = 'Απαιτείται τουλάχιστον ένα επίπεδο';
 $string['pluginname'] = 'Ρουμπρίκα';
+$string['privacy:metadata'] = 'Το πρόσθετο Ρουμπρίκ αποθηκεύει μόνο τα στοιχεία της φόρμας αξιολόγησης. Τα πραγματικά προσωπικά δεδομένα για το πως έχει συμπληρωθεί η φόρμα αποθηκεύονται από το ίδιο το άρθρωμα του Εργαστηρίου και επισυνάπτονται στις εξαγόμενες εκτιμήσεις.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'data', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,17 +46,18 @@ $string['autogenallforms'] = 'Lehenetsitako txantiloi guztiak sortu';
 $string['autolinkurl'] = 'URLa automatikoki estekatu';
 $string['availablefromdate'] = 'Noiztik eskuragarri';
 $string['availabletags'] = 'Etiketa eskuragarriak';
-$string['availabletags_help'] = '<p>Markak txantiloian dauden edukigailuak dira. Sarrerak editatu edo ikusi ondoren eremu edo botoiek ordezkatuko dituzte.</p>
-<p>Eremuen formatua hauxe da : [[eremuaren izena]]</p>
-<p>Botoien formatua hauxe da: ##botoiren bat##</p>
-<p>Bakarrik &quot;Marka eskuragarriak&quot; izeneko zerrendan dauden markak erabil daitezke txantiloi honetan.</p>';
+$string['availabletags_help'] = 'Markak txantiloian dauden gakoak dira. Sarrerak editatu edo ikusi ondoren eremu edo botoiek ordezkatuko dituzte.
+
+Eremuen formatua [[eremuaren izena]] da. Bestelako etiketen formatua ##etiketa## da.
+
+Soilik "Eskuragarri dauden etiketak" zerrendan dauden etiketak erabil daitezke txantiloi honetan.';
 $string['availabletodate'] = 'Noiz arte eskuragarri';
 $string['availabletodatevalidation'] = 'Eskuragarri egoteko azken eguna ezin da hasiera baino lehenagokoa izan.';
 $string['blank'] = 'Hutsik';
 $string['buttons'] = 'Ekintzak';
 $string['bynameondate'] = 'Egilea eta data: {$a->name} - {$a->date}';
-$string['calendarend'] = '{$a} datu-basea itxiko da';
-$string['calendarstart'] = '{$a} datu-basea irekiko da';
+$string['calendarend'] = '{$a}-(r)en itxiera-data:';
+$string['calendarstart'] = '{$a}-(r)en hasiera-data';
 $string['cancel'] = 'Utzi';
 $string['cannotaccesspresentsother'] = 'Ez duzu beste erabiltzaile batzuen aurretiko ezarpenetara sartzeko baimenik';
 $string['cannotadd'] = 'Ezin da sarrerarik gehitu';
@@ -75,6 +76,9 @@ $string['comments'] = 'Iruzkinak';
 $string['commentsaved'] = 'Iruzkina gorde da';
 $string['commentsn'] = '{$a} iruzkin';
 $string['commentsoff'] = 'Iruzkinak ez daude gaituta';
+$string['completionentries'] = 'Behartu sarrerak';
+$string['completionentriescount'] = 'Sarrera-kopurua';
+$string['completionentriesdesc'] = 'Beharrezko gutxieneko sarrera-kopurua: {$a}';
 $string['configenablerssfeeds'] = 'Honek datu-base osorako RSS jarioen aukera indarrean jarriko du. Datu-base bakoitzeko RSS jarioak eskuz gaitu beharko dituzu.';
 $string['confirmdeletefield'] = 'Eremu hau ezabatzear zaude, ziur al zaude?';
 $string['confirmdeleterecord'] = 'Ziur al zaude sarrera hau ezabatu nahi duzula?';
@@ -148,7 +152,7 @@ $string['entry'] = 'Sarrera';
 $string['entrysaved'] = 'Zure sarrera gorde egin da';
 $string['errormustbeteacher'] = 'Orri hau erabiltzeko irakasle izan behar duzu!';
 $string['errormustsupplyvalue'] = 'Hemen balio bat eman behar duzu.';
-$string['errorpresetexists'] = 'Dagoeneko bada elementu bat  aukeratutako izena duena';
+$string['errorpresetexists'] = 'Dagoeneko bada aurretiko ezarpen bat aukeratutako izena duena';
 $string['eventfieldcreated'] = 'Eremua sortua';
 $string['eventfielddeleted'] = 'Eremua ezabatua';
 $string['eventfieldupdated'] = 'Eremua eguneratua';
@@ -210,8 +214,13 @@ $string['headersingletemplate'] = 'Sarrera baterako nabigazio-itxura definitzen 
 $string['importentries'] = 'Sarrerak inportatu';
 $string['importsuccess'] = 'Aurretiko ezarpena egoki aplikatu da';
 $string['includeapproval'] = 'Sartu onarpen-egoera';
+$string['includetags'] = 'Sartu etiketak';
 $string['includetime'] = 'Sartu denbora gehituta/aldatuta';
 $string['includeuserdetails'] = 'Sartu erabiltzaile-xehetasunak';
+$string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa datu-baseetan';
+$string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Datu-basea motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
+$string['indicator:socialbreadth'] = 'Gaitasun soziala datu-baseetan';
+$string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Datu-basea motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['insufficiententries'] = 'datu-base hau ikusteko sarrera gehiago beharrezkoak dira';
 $string['intro'] = 'Deskribapena';
 $string['invalidaccess'] = 'Orri honetarako sarbidea ez da zuzena izan';
@@ -265,7 +274,7 @@ $string['movezipfailed'] = 'Zip-a ezin da mugitu';
 $string['multientry'] = 'Sarrera bikoiztua';
 $string['multimenu'] = 'Menu (aukera anitza)';
 $string['multipletags'] = 'Marka asko aurkitu dira! Txantiloia ez da gorde';
-$string['namecheckbox'] = 'Aukera anitzeko karratutxoa';
+$string['namecheckbox'] = 'Aukera anitzeko laukitxoa';
 $string['namedate'] = 'Data';
 $string['namefile'] = 'Fitxategia';
 $string['namelatlong'] = 'Latitude/Longitude eremua';
@@ -315,23 +324,45 @@ $string['pluginname'] = 'Datu-basea';
 $string['portfolionotfile'] = 'Esportatu portfolio batera eta ez fitxategi batera (csn eta leap2a  bakarrik)';
 $string['presetinfo'] = 'Aurretiko ezarpen gisa gordetzean publikatu egingo da txantiloi hau. Beste erabiltzaile batzuek erabili ahal izango dute euren datu-baseetan.';
 $string['presets'] = 'Aurretiko ezarpenak';
+$string['privacy:metadata:commentpurpose'] = 'Datu-baseko sarrerez iruzkinak';
+$string['privacy:metadata:data_content'] = 'Datu-base jarduera-moduluko eremu baten erantzuna adierazten du.';
+$string['privacy:metadata:data_content:content'] = 'Edukia';
+$string['privacy:metadata:data_content:content1'] = 'Eduki gehigarria 1';
+$string['privacy:metadata:data_content:content2'] = 'Eduki gehigarria 2';
+$string['privacy:metadata:data_content:content3'] = 'Eduki gehigarria 3';
+$string['privacy:metadata:data_content:content4'] = 'Eduki gehigarria 4';
+$string['privacy:metadata:data_content:fieldid'] = 'Eremuaren definizioaren IDa';
+$string['privacy:metadata:datafieldnpluginsummary'] = 'Datu-base jarduera-modulurako eremuak';
+$string['privacy:metadata:data_records'] = 'Datu-base jarduera-moduluko sarrerak adierazten ditu.';
+$string['privacy:metadata:data_records:approved'] = 'Onespen-egoera';
+$string['privacy:metadata:data_records:groupid'] = 'Taldea';
+$string['privacy:metadata:data_records:timecreated'] = 'Erregistroa sortu zeneko unea';
+$string['privacy:metadata:data_records:timemodified'] = 'Sarrera noiz aldatu den';
+$string['privacy:metadata:data_records:userid'] = 'Sarrera nork sortu duen';
+$string['privacy:metadata:filepurpose'] = 'Datu-basearen sarrerari erantsitako fitxategia';
+$string['privacy:metadata:ratingpurpose'] = 'Datu-basearen sarreren kalifikazioak';
+$string['privacy:metadata:tagpurpose'] = 'Datu-basearen sarreren etiketak';
 $string['radiobutton'] = 'Aukera bakarreko botoia';
 $string['recordapproved'] = 'Sarrera onartu da';
 $string['recorddeleted'] = 'Sarrera ezabatu da';
 $string['recorddisapproved'] = 'Onartu gabeko sarrera';
 $string['recordsnotsaved'] = 'Ez da sarrerarik gorde. Igotako fitxategiaren formatua aztertu, mesedez.';
 $string['recordssaved'] = 'sarrerak gorde dira';
+$string['removealldatatags'] = 'Ezabatu datu-baseko etiketa guztiak';
 $string['requireapproval'] = 'Onarpenik behar da';
 $string['requireapproval_help'] = '<p>Ikasleek sarrerak ikusi aurretik, irakasleak onartu behar lituzke? Aukera hau erabilgarria izan daiteke moderazioa egiteko.</p>';
 $string['required'] = 'Beharrekoa';
-$string['requiredentries'] = 'Onarpenik behar da';
-$string['requiredentries_help'] = '<p>Partaide bakoitzari bidaltzeko eskatzen zaion sarrera-kopurua. Erabiltzaileak eskatutako sarrera-kopurua bidali ez badu, hori gogorarazteko mezua agertuko zaio.</p>
+$string['requiredentries'] = 'Onarpenik behar da (zaharkitua)';
+$string['requiredentries_help'] = 'Gaituz gero, mezu bat erakusten da osatzeko beharrezkoa den sarrera kopurua adieraziz. Kontuan izan ezarpen hau ez dagoela osaketa jarraipenarekin lotuta.
 
-<p>Ez da jarduera amaitutzat emango erabiltzaileak behar duen sarrera-kopurua bidali arte.</p>';
+Jarduera osatzeko beharrezkoak diren sarrerak zehazteko, jardueraren osaketaren jarraipenerako \'Sarrerak behar dira\' ezarpen berria erabili beharko litzateke. Ezarpen hau guztiz ezabatzeko, zerora ezari eta ondoren aldaketak gorde itzazu.
+
+Mesedez horren ordez \'Sarrerak behar dira\' ezarpen berria erabili ezazu.';
 $string['requiredentriestoview'] = 'Ikusi aurretik behar diren sarrerak';
 $string['requiredentriestoview_help'] = 'Datu-basearen gainerako sarrerak ikusi baino lehen, partaideek bidali behar duten sarrera-kopurua zehaztu behar da hemen.
 
 Oharra: sarrera-kopuru bat derrigortzen bada, esteka automatikoak egiteko iragazkia desgaitu beharko litzateke, honek ezin baitu jakin erabiltzaileak eskatutako sarrera kopurura iritsi den.';
+$string['requiredentrieswarning'] = 'Ezarpen hau jarduera-osaketako "Behartu sarrerak" ezarpenarekin ordezkatu da.';
 $string['requiredfield'] = 'Beharrezko eremua';
 $string['resetsettings'] = 'Garbitu iragazkiak';
 $string['resettemplate'] = 'Berrabiarazi txantiloia';
@@ -361,6 +392,9 @@ $string['subplugintype_datafield'] = 'Datu-basearen eremu-mota';
 $string['subplugintype_datafield_plural'] = 'Datu-basearen eremu-motak';
 $string['subplugintype_datapreset'] = 'Aurretiko ezarpena';
 $string['subplugintype_datapreset_plural'] = 'Aurretiko ezarpenak';
+$string['tagarea_data_records'] = 'Datu-erregistroak';
+$string['tags'] = 'Etiketak';
+$string['tagsdeleted'] = 'Datu-baseko etiketak ezabatu dira';
 $string['teachersandstudents'] = '{$a->teachers} eta {$a->students}';
 $string['templates'] = 'Txantiloiak';
 $string['templatesaved'] = 'Txantiloia gordeta';

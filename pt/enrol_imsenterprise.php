@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,6 +69,7 @@ $string['nestedcategories'] = 'Permitir grupos de categorias';
 $string['nestedcategories_desc'] = 'Se esta configuração estiver ativa, o IMS Enterprise irá criar grupos de categorias';
 $string['pluginname'] = 'Ficheiro IMS Enterprise';
 $string['pluginname_desc'] = 'Este módulo de inscrição irá verificar de forma contínua a existência de um ficheiro para processamento na localização que for especificada. O ficheiro deve estar no formato IMS Enterprise e conter os seguintes elementos XML: person, group, and membership.';
+$string['privacy:metadata'] = 'O módulo Ficheiro IMS Enterprise não armazena quaisquer dados pessoais.';
 $string['processphoto'] = 'Adicionar dados da fotografia do utilizador ao perfil';
 $string['processphotowarning'] = 'Aviso: o processamento de imagens tende a aumentar significativamente a carga no servidor. Não é recomendável ativar esta opção se o número de alunos a processar for muito elevado.';
 $string['restricttarget'] = 'Os dados apenas devem ser processados se for especificado';
@@ -82,17 +83,17 @@ $string['settingshortname'] = 'Descrição da etiqueta IMS para o nome curto da 
 $string['settingshortnamedescription'] = 'O nome curto é um campo obrigatório da disciplina e, por isso, tem de definir a descrição da etiqueta selecionada no seu ficheiro IMS da empresa';
 $string['settingsummary'] = 'Tag de descrição IMS para a descrição da disciplina';
 $string['settingsummarydescription'] = 'É um campo opcional, selecione \'Deixar vazio \' se não pretende especificar uma descrição da disciplina';
-$string['sourcedidfallback'] = 'Utilizar <strong>sourcedid</strong> para o nome de utilizador caso o campo <strong>userid</strong> não seja encontrado';
+$string['sourcedidfallback'] = 'Utilizar \'sourcedid\' para o ID do utilizador caso o campo \'userid\' esteja em falta';
 $string['sourcedidfallback_desc'] = 'Na informação IMS o campo <strong>sourcedid</strong> representa o identificador persistente de uma pessoa tal como é usado no sistema fonte. O campo <strong>userid</strong> é um campo distinto que deve conter o identificador usado pelo utilizador quando inicia uma sessão. Normalmente estes dois campos têm o mesmo valor, mas isso não é obrigatório.
 
 Alguns sistemas de gestão de alunos não conseguem exportar o campo <strong>userid</strong>. Se for o caso, esta configuração deve ser ativada para permitir a utilização do campo <strong>sourcedid</strong> como identificador de utilizador no Moodle. Caso contrário, desative esta configuração.';
-$string['truncatecoursecodes'] = 'Truncar os códigos das disciplinas se o número de carateres exceder';
+$string['truncatecoursecodes'] = 'Truncar os códigos das disciplinas se exceder o número de caracteres';
 $string['truncatecoursecodes_desc'] = 'Nalguns casos pode querer truncar os códigos das disciplinas para um comprimento máximo predefinido antes de fazer o seu processamento. Nestas situações, indique neste campo o número de caracteres máximo a considerar. Se o campo ficar vazio, os códigos das disciplinas não serão truncados.';
 $string['updatecourses'] = 'Atualizar disciplina';
 $string['updatecourses_desc'] = 'Se esta configuração estiver ativa, o módulo de inscrição do IMS Enterprise pode atualizar os nomes completo e curto da disciplina se isso for especificado nos dados IMS (campo "recstatus" = 2).';
 $string['updateusers'] = 'Atualizar as contas de utilizador quando especificado nos dados do IMS';
 $string['updateusers_desc'] = 'Se esta configuração estiver ativa, o módulo de inscrição IMS Enterprise pode especificar alterações nas contas de utilizador se isso for especificado nos dados IMS (campo "recstatus" = 2).';
-$string['usecapitafix'] = 'Selecione esta opção se utilizar <strong>Capita</strong> (o seu formato XML é ligeiramente incorreto)';
+$string['usecapitafix'] = 'Selecione esta opção se utilizar <strong>Capita</strong> (o seu formato XML é ligeiramente diferente)';
 $string['usecapitafix_desc'] = 'A informação dos alunos produzida por <strong>Capita</strong> apresenta um pequeno erro na sua exportação XML. Se estiver a utilizar <strong>Capita</strong> deve ativar esta opção.';
 $string['usersettings'] = 'Configurações dos dados de utilizador';
 $string['zeroisnotruncation'] = '0 (zero) indica que a informação não é truncada';

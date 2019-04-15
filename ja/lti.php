@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'lti', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,7 +46,6 @@ $string['addnewapp'] = '外部アプリケーションを有効にする';
 $string['addserver'] = '新しい信頼できるサーバを追加する';
 $string['addtype'] = '事前設定ツールを追加する';
 $string['allow'] = '許可';
-$string['allowinstructorcustom'] = '教師にカスタムパラメータの追加を許可する';
 $string['allowsetting'] = 'ツールにMoodle内での8Kの設定保存を許可する';
 $string['always'] = '常に';
 $string['autoaddtype'] = 'ツールを追加する';
@@ -90,7 +89,7 @@ $string['courselink'] = 'コースに移動する';
 $string['coursemisconf'] = 'コースが正しく設定されていません。';
 $string['course_tool_types'] = 'コースツール';
 $string['createdon'] = '作成日';
-$string['curllibrarymissing'] = 'LTIを使用するにはPHP Curlライブラリをインストールする必要があります。';
+$string['curllibrarymissing'] = '外部ツールにはPHP Curl拡張モジュールが必要です。';
 $string['custom'] = 'カスタムパラメータ';
 $string['custom_config'] = 'カスタムツール設定を使用します。';
 $string['custom_help'] = 'カスタムパラメータはツールプロバイダで使用される設定です。例えばプロバイダから特定のリソースを表示するため、カスタムパラメータを使用することができます。それぞれのパラメータは独立した行に「name=value」のような形で入力する必要があります。例えば次のようになります: 「chapter=3」
@@ -190,6 +189,10 @@ $string['grading'] = '評定ルーティング';
 $string['icon_url'] = 'アイコンURL';
 $string['icon_url_help'] = 'アイコンURLではこの活動がコース一覧に表示される時に表示されるアイコンを変更します。デフォルトのLTIアイコンを使用する代わりに活動のタイプで使用されるアイコンを指定することができます。';
 $string['id'] = 'ID';
+$string['indicator:cognitivedepth'] = 'LTI認知的';
+$string['indicator:cognitivedepth_help'] = 'この指標はLTI活動で学生が到達した認識深度に基づきます。';
+$string['indicator:socialbreadth'] = 'LTI社会的';
+$string['indicator:socialbreadth_help'] = 'この指標はLTI活動で学生が到達した社会的広がりに基づきます。';
 $string['invalidid'] = 'LTI IDが正しくありません。';
 $string['launch_in_moodle'] = 'Moodle内でツールを起動する';
 $string['launchinpopup'] = '起動コンテナ';
@@ -214,6 +217,7 @@ $string['leaveblank'] = '必要でない場合、空白にしてください。'
 $string['lti'] = 'LTI';
 $string['lti:addcoursetool'] = 'コース個別ツール設定を追加する';
 $string['lti:addinstance'] = '新しい外部ツール活動を追加する';
+$string['lti:admin'] = 'ツール起動時に管理者になる';
 $string['lti_administration'] = '事前設定ツールを編集する';
 $string['lti_errormsg'] = 'ツールにより次のエラーメッセージが返されました: 「 {$a} 」';
 $string['lti:grade'] = '外部ツールから戻された評点を表示する';
@@ -311,6 +315,32 @@ $string['preferwidget'] = 'ウィジェットの起動を選択する';
 $string['preferwidth'] = '推奨幅';
 $string['press_to_submit'] = 'この活動を起動する';
 $string['privacy'] = 'プライバシー';
+$string['privacy:metadata:coursefullname'] = 'ユーザがLTIコンシューマからアクセスするコースのフルネームです。';
+$string['privacy:metadata:courseid'] = 'ユーザがLTIコンシューマからアクセスするコースのIDです。';
+$string['privacy:metadata:courseidnumber'] = 'ユーザがLTIコンシューマからアクセスするコースのIDナンバーです。';
+$string['privacy:metadata:courseshortname'] = 'ユーザがLTIコンシューマからアクセスするコースの省略名です。';
+$string['privacy:metadata:createdby'] = 'レコードを作成したユーザです。';
+$string['privacy:metadata:email'] = 'LTIコンシューマにアクセスするユーザのメールアドレスです。';
+$string['privacy:metadata:externalpurpose'] = 'LTIコンシューマはユーザ情報およびコンテクストをLTIツールプロバイダに提供します。';
+$string['privacy:metadata:firstname'] = 'LTIコンシューマにアクセスするユーザの名です。';
+$string['privacy:metadata:fullname'] = 'LTIコンシューマにアクセスするユーザのフルネームです。';
+$string['privacy:metadata:lastname'] = 'LTIコンシューマにアクセスするユーザの姓です。';
+$string['privacy:metadata:lti_submission'] = 'LTI提出です。';
+$string['privacy:metadata:lti_submission:datesubmitted'] = 'タイムスタンプは提出された日時を示します。';
+$string['privacy:metadata:lti_submission:dateupdated'] = 'タイムスタンプは提出が修正された日時を示します。';
+$string['privacy:metadata:lti_submission:gradepercent'] = 'ユーザの評点 (パーセンテージ) です。';
+$string['privacy:metadata:lti_submission:originalgrade'] = 'ユーザのオリジナル評点です。';
+$string['privacy:metadata:lti_submission:userid'] = 'LTI活動を送信したユーザのIDです。';
+$string['privacy:metadata:lti_tool_proxies'] = 'LTIプロクシです。';
+$string['privacy:metadata:lti_tool_proxies:name'] = 'LTIプロクシ名です。';
+$string['privacy:metadata:lti_types'] = 'LTIタイプです。';
+$string['privacy:metadata:lti_types:name'] = 'LTIタイプ名です。';
+$string['privacy:metadata:role'] = 'LTIコンシューマにアクセスするユーザのコースでのロールです。';
+$string['privacy:metadata:timecreated'] = 'レコードが作成された日時です。';
+$string['privacy:metadata:timemodified'] = 'レコードが修正された日時です。';
+$string['privacy:metadata:userid'] = 'LTIコンシューマにアクセスするユーザのIDです。';
+$string['privacy:metadata:useridnumber'] = 'LTIコンシューマにアクセスするユーザのIDナンバーです。';
+$string['privacy:metadata:username'] = 'LTIコンシューマにアクセスするユーザのユーザ名です。';
 $string['quickgrade'] = 'クイック評定を有効にする';
 $string['quickgrade_help'] = 'この設定を有効にした場合、1ページで複数のツールを評定することができます。ページ内のすべての変更を同時に保存するには評点とコメントを変更して画面下部にある「すべてのフィードバックを保存する」ボタンをクリックしてください。';
 $string['redirect'] = 'あなたは数秒以内にリダイレクトされます。リダイレクトされない場合、ボタンをクリックしてください。';
@@ -346,7 +376,7 @@ $string['return_to_course'] = 'コースに戻るには<a href="{$a->link}" targ
 $string['saveallfeedback'] = '私のフィードバックすべてを保存する';
 $string['search:activity'] = '外部ツール - 活動情報';
 $string['secure_icon_url'] = 'セキュアアイコンURL';
-$string['secure_icon_url_help'] = 'アイコンURLに似ていますがユーザがSSLを通してMoodleに安全にアクセスする場合に使用されます。このフィールドの主目的はユーザによるページアクセス時の警告表示を防ぐことにあります。しかし、安全ではないイメージの表示をリクエストすることになります。';
+$string['secure_icon_url_help'] = 'アイコンURLに似ていますがSSLを通してサイトが安全にアクセスされる際に使用されます。このフィールドは安全ではないイメージの表示に関するブラウザの警告表示を防ぎます。';
 $string['secure_launch_url'] = 'セキュアツールURL';
 $string['secure_launch_url_help'] = 'ツールURLに似ていますがツールURLの代わりに高度なセキュリティが要求されます。MoodleサイトがSSL経由でアクセスされた場合、またはツール設定で常にSSLから起動するよう指定されている場合、ツールURLの代わりにセキュアツールURLが使用されます。
 

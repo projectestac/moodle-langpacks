@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_webct', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qformat_webct', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qformat_webct
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['missinganswer'] = 'Πολύ λίγες δηλώσεις :ANSWER, :Lx, :
 $string['missingquestion'] = 'Λείπει ταμπέλα ερωτήματος μετά τη γραμμή {$a}.';
 $string['pluginname'] = 'Μορφότυπος ερωτήσεων WebCT';
 $string['pluginname_help'] = 'Ο μορφότυπος WebCT επιτρέπει την εισαγωγή ερωτήσεων πολλαπλής επιλογής και σύντομης απάντησης που αποθηκεύονται στη μορφή κειμένου που βασίζεται σε κείμενο του WebCT.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Ερωτήσεις μορφότυπου WebCT» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['questionnametoolong'] = 'Το όνομα ερωτήματος είναι πολύ μεγάλο στη γραμμή {$a} (μέγιστο 255 χαρακτήρες). Έγινε περικοπή.';
 $string['unknowntype'] = 'Άγνωστος τύπος ερώτησης μετά τη γραμμή {$a}';
 $string['warningsdetected'] = 'Εντοπίστηκαν {$a} προειδοποιήσεις';

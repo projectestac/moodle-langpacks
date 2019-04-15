@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cache', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,10 +34,12 @@ $string['addstoresuccess'] = '成功添加一个新的 {$a}存储';
 $string['area'] = '区域';
 $string['cacheadmin'] = '缓存管理';
 $string['cacheconfig'] = '配置';
+$string['cachedef_calendar_categories'] = '用户可访问的日历课程分类';
 $string['cachedef_calendar_subscriptions'] = '日历订阅';
 $string['cachedef_capabilities'] = '系统功能列表';
 $string['cachedef_completion'] = '活动完成情况';
 $string['cachedef_config'] = '修改配置信息';
+$string['cachedef_contextwithinsights'] = '洞察力上下文';
 $string['cachedef_coursecat'] = '特定用户的课程列表';
 $string['cachedef_coursecatrecords'] = '课程目录记录';
 $string['cachedef_coursecattree'] = '课程目录树';
@@ -47,6 +49,7 @@ $string['cachedef_coursemodinfo'] = '有关每一个课程章节和单元的汇�
 $string['cachedef_databasemeta'] = '数据库元信息';
 $string['cachedef_eventinvalidation'] = '事件无效';
 $string['cachedef_externalbadges'] = '给特定用户的外部徽章';
+$string['cachedef_fontawesomeiconmapping'] = '映射awesome字体的图标';
 $string['cachedef_grade_categories'] = '等级类别';
 $string['cachedef_groupdata'] = '课程组信息';
 $string['cachedef_htmlpurifier'] = 'HTML净化器-清除不必要的内容';
@@ -59,13 +62,16 @@ $string['cachedef_observers'] = '事件观察者';
 $string['cachedef_plugin_functions'] = '插件允许回调';
 $string['cachedef_plugin_manager'] = '插件管理员';
 $string['cachedef_postprocessedcss'] = '后处理CSS';
+$string['cachedef_presignup'] = '特定未注册用户的预注册数据';
 $string['cachedef_questiondata'] = '试题定义';
 $string['cachedef_repositories'] = '库实例资料';
+$string['cachedef_roledefs'] = '角色定义';
 $string['cachedef_string'] = '语言字符串缓存';
 $string['cachedef_suspended_userids'] = '列出每一课程的已休学用户';
 $string['cachedef_tagindexbuilder'] = '加标签的项目搜索结果';
 $string['cachedef_tags'] = '标签收藏和区域';
 $string['cachedef_temp_tables'] = '临时数据表缓存';
+$string['cachedef_user_group_groupings'] = '用户分组及每课程分组';
 $string['cachedef_userselections'] = '持续用户选择所用的资料';
 $string['cachedef_yuimodules'] = 'YUI模块定义';
 $string['cachelock_file_default'] = '默认文件锁定';
@@ -130,6 +136,7 @@ $string['nativelocking'] = '这个插件会处理他自己的锁定。';
 $string['none'] = '无';
 $string['plugin'] = '插件';
 $string['pluginsummaries'] = '安装缓存存储';
+$string['privacy:metadata:cachestore'] = '缓存系统为Moodle的其它模块提供临时数据存储。要识别数据较困难，同时存在期限非常短。它作为在Moodle系统其它位置存储的数据的缓存，应该已由Moodle的其它模板管理。';
 $string['purge'] = '清除';
 $string['purgedefinitionsuccess'] = '请求定义已成功清除';
 $string['purgestoresuccess'] = '请求存储已成功清除';

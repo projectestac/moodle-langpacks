@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multianswer', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_multianswer', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_multianswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,6 +45,7 @@ $string['pluginnameadding'] = 'Ingebedde antwoorden (cloze) toevoegen';
 $string['pluginnameediting'] = 'Ingebedde antwoorden (cloze) bewerken';
 $string['pluginname_help'] = 'Ingebedde antwoord (Cloze) vragen bestaan uit een stuk tekst met daarin ingebed enkele vragen, zoals meerkeuzevragen en kort antwoordvragen.';
 $string['pluginnamesummary'] = 'Dit type vragen zijn erg flexibel, maar kunnen enkel opgesteld worden door tekst in te voeren waarin code gezet wordt. Die code zal de ingebedde meerkeuzevragen, kort antwoord en numerieke vragen vormen.';
+$string['privacy:metadata'] = 'De ingebedde antwoorden (Cloze) vraagtype-plugin bewaart geen persoonlijke gegevens.';
 $string['qtypenotrecognized'] = 'vraagtype {$a} niet herkend';
 $string['questiondefinition'] = 'Vraagdefinitie';
 $string['questiondeleted'] = 'Vraag verwijderd';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_stats', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_stats', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   report_stats
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,4 +32,16 @@ $string['page-report-stats-index'] = 'Rapport cursusstatistieken';
 $string['page-report-stats-user'] = 'Rapport gebruikers cursusstatistieken';
 $string['page-report-stats-x'] = 'Alle statistische rapporten';
 $string['pluginname'] = 'Cursusstatistieken';
+$string['privacy:dailypath'] = 'Dagelijkse statistieken';
+$string['privacy:metadata'] = 'De statistiekenplugin bewaart geen persoonlijke gegevens.';
+$string['privacy:metadata:courseid'] = 'Een identificatie voor een cursus';
+$string['privacy:metadata:roleid'] = 'De rol-ID van de gebruiker.';
+$string['privacy:metadata:statsreads'] = 'Bekijken van inhoud';
+$string['privacy:metadata:statssummary'] = 'Houdt basisstatistieken bij over de interacties van een gebruiker in cursussen.';
+$string['privacy:metadata:statswrites'] = 'Inhoud gemaakt in de cursus.';
+$string['privacy:metadata:stattype'] = 'Het type van de bewaarde statistische gegevens';
+$string['privacy:metadata:timeend'] = 'Eindtijdstip van bekeken logs';
+$string['privacy:metadata:userid'] = 'De gebruikers-ID gelinkt aan deze tabel.';
+$string['privacy:monthlypath'] = 'Maandelijkse statistieken';
+$string['privacy:weeklypath'] = 'Wekelijkse statistieken';
 $string['stats:view'] = 'Bekijk cursusstatistiekenrapport';

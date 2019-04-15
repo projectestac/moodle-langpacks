@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   availability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,6 +61,7 @@ $string['list_root_or_hidden'] = 'Μη διαθέσιμο (κρυφό) εκτό�
 $string['manageplugins'] = 'Διαχειριστείτε τους περιορισμούς';
 $string['missingplugin'] = 'Το πρόσθετο περιορισμού δεν βρέθηκε';
 $string['or'] = 'ή';
+$string['privacy:metadata'] = 'Το υποσύστημα «Περιορισμός πρόσβασης» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['restrictaccess'] = 'Περιορισμός διαθεσιμότητας';
 $string['restrictbygroup'] = 'Προσθέστε περιορισμό πρόσβασης ομάδας/ομαδοποίησης';
 $string['setheading'] = '{$a->number} Σετ από {$a->count} περιορισμό(ούς)';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_langimport', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_langimport', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_langimport
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['downloadnotavailable'] = 'Ezin izan da deskargen zerbitzarira konektatu. Ezin da hizkuntza-paketerik automatikoki instalatu edo eguneratu. Mesedez jaitsi ZIP fitxategi egokia(k) <a href="{$a->src}">{$a->src}</a> helbidetik eta eskuz erauzi zure datuen karpetako <code>{$a->dest}</code> kokapenean.';
 $string['install'] = 'Instalatu aukeratutako hizkuntza-paketea(k)';
 $string['installedlangs'] = 'Instalatutako hizkuntza-paketeak';
 $string['langimport'] = 'Hizkuntza inportatzeko baliabidea';
@@ -44,8 +45,8 @@ $string['missinglangparent'] = '<em>{$a->lang}</em> hizkuntzaren <em>{$a->parent
 $string['noenglishuninstall'] = 'Ingelesaren hizkuntza-paketea ezin da desinstalatu.';
 $string['nolangupdateneeded'] = 'Hizkuntza-pakete guztiak eguneratuta daude: ez dago eguneratu beharrik.';
 $string['pluginname'] = 'Hizkuntza-paketeak';
+$string['privacy:metadata'] = 'Hizkuntza-paketeak pluginak ez du datu pertsonalik biltzen.';
 $string['purgestringcaches'] = 'Ezabatu hizkuntza-kateen cacheak';
-$string['remotelangnotavailable'] = 'Moodle-k ezin du download.moodle.org-ekin konektatu eta beraz ezin hizkuntza-paketea automatikoki instalatu. Mesedez, jaitsi  <a href="https://download.moodle.org/langpack/">download.moodle.org/langpack</a>-tik fitxategi egokiak, kopia itzazu zure {$a} direktorioan eta eskuz deskonprimatu.';
 $string['selectlangs'] = 'Aukeratu desinstalatzeko hizkuntzak';
 $string['uninstall'] = 'Desinstalatu aukeratutako hizkuntza-paketea(k)';
 $string['uninstallconfirm'] = 'Hizkuntza-pakete hauek desinstalatzera zoaz: <strong>{$a}</strong>. Ziur al zaude?';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_list', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_course_list', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   block_course_list
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,3 +34,4 @@ $string['course_list:myaddinstance'] = 'Engadir un novo bloque de cursos ao cart
 $string['hideallcourseslink'] = 'Agochar a ligazón a Todos os cursos';
 $string['owncourses'] = 'O administrador ve os seus propios cursos';
 $string['pluginname'] = 'Cursos';
+$string['privacy:metadata'] = 'O bloque de cursos só amosa datos sobre cursos e non almacena ningún dato.';

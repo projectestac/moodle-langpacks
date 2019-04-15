@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice_rest', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'webservice_rest', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   webservice_rest
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'REST protocol';
+$string['privacy:metadata'] = 'De REST protocol-plugin bewaart geen persoonlijke gegevens.';
 $string['rest:use'] = 'Gebruik REST protocol';

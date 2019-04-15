@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_online_users', language 'de', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_online_users', language 'de', branch 'MOODLE_34_STABLE'
  *
  * @package   block_online_users
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,4 +31,5 @@ $string['online_users:myaddinstance'] = 'Neuen Block \'Personen online\' zum Das
 $string['online_users:viewlist'] = 'Liste der Personen online sehen';
 $string['periodnminutes'] = 'in den letzten {$a} Minuten';
 $string['pluginname'] = 'Personen online';
+$string['privacy:metadata'] = 'Der Block \'Wer ist online?\' zeigt nur Daten an, die an anderen Orten gespeichert sind.';
 $string['timetosee'] = 'Bei Inaktivität entfernen (in Minuten)';

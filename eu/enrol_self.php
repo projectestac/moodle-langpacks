@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_self', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,9 +32,9 @@ $string['cohortnonmemberinfo'] = 'Soilik \'{$a}\' kohorteko kideak matrikula dai
 $string['cohortonly'] = 'Kohorteko partaideak bakarrik';
 $string['cohortonly_help'] = 'Matrikulazio automatikoa kohorte bateko kideentzat bakarrik egon daiteke eskura. Kontuan izan ezarpen hau aldatzeak ez duela eraginik existitzen diren matrikulazioetan.';
 $string['customwelcomemessage'] = 'Pertsonalizatu ongi etorria emateko mezua';
-$string['customwelcomemessage_help'] = 'Ongi-etorri mezu pertsonalizatua gehi daiteke testu-soilean edo Moodle-ko formatu automatikoan, HTML etiketak eta etiketa-eleanitzak barne.
+$string['customwelcomemessage_help'] = 'Ongi-etorri mezu pertsonalizatua gehi daiteke testu-soilean edo Moodle-ko formatu automatikoan, HTML etiketak eta etiketa eleanitzak barne.
 
-Mezuan hurrengo leku-markak sar daitezke:
+Mezuan hurrengo gakoak sar daitezke:
 
 * Ikastaroaren izena {$a->coursename}
 * Erabiltzailearen profilerako esteka {$a->profileurl}
@@ -92,8 +92,9 @@ $string['passwordinvalidhint'] = 'Matrikulazio-giltza hori ez da zuzena, mesedez
 (Laguntza txiki bat - honela hasten da: \'{$a}\')';
 $string['pluginname'] = 'Matrikulazio automatikoa';
 $string['pluginname_desc'] = 'Matrikulazio automatikoko pluginak erabiltzaileari parte-hartu nahi duen ikastaroak hautatzeko aukera ematen dio. Ikastaroek matrikulazio-giltza eskatu dezakete. Barrutik matrikulazioa eskuzko matrikulazio gehigarriaren bitartez egiten da, eta beraz gehigarri hori ere ikastaro horretan gaituta egon behar da.';
+$string['privacy:metadata'] = 'Matrikulazio automatikoa pluginak ez du datu pertsonalik biltzen.';
 $string['requirepassword'] = 'Matrikulazio-giltza behar du';
-$string['requirepassword_desc'] = 'Behartu ikastaro berrietan matrikulazio-giltza izatea eta galerazi matrikulazio-giltza ezabatzea existitzen diren ikastaroetan.';
+$string['requirepassword_desc'] = 'Behartu ikastaro berrietan matrikulazio-giltza izatea eta galarazi matrikulazio-giltza ezabatzea existitzen diren ikastaroetan.';
 $string['role'] = 'Modu lehenetsian esleitutako rola';
 $string['self:config'] = 'Konfiguratu matrikulazio automatikorako instantziak';
 $string['self:holdkey'] = 'Agertu matrikulazio automatikoaren giltzain gisa';

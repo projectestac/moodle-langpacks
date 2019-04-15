@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_comments', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopform_comments', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopform_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,3 +31,4 @@ $string['dimensioncommentfor'] = 'Комментарий к {$a}';
 $string['dimensiondescription'] = 'Описание';
 $string['dimensionnumber'] = 'Критерий {$a}';
 $string['pluginname'] = 'Комментарии';
+$string['privacy:metadata'] = 'Плагин оценивание комментариями хранит только детали формы оценивания. Фактические личные данные о том, как форма была заполнена, хранятся в самом модуле Семинар и прикрепляются к экспортированным оценкам.';

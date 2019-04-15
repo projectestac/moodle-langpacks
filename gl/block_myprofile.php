@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myprofile', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_myprofile', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   block_myprofile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,3 +48,4 @@ $string['myprofile:addinstance'] = 'Engadir un novo identificador no bloque de u
 $string['myprofile:myaddinstance'] = 'Engadir un novo identificador no bloque Páxina de inicio';
 $string['myprofile_settings'] = 'Información visíbel do usuario';
 $string['pluginname'] = 'Usuario con sesión activa';
+$string['privacy:metadata'] = 'O bloque de usuarios rexistrado só amosa información sobre o usuario rexistrado e non almacena os datos en si.';

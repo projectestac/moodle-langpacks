@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'chat', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,10 @@ $string['explainmethoddaemon'] = 'Αυτές οι ρυθμίσεις έχουν 
 $string['explainmethodnormal'] = 'Αυτές οι ρυθμίσεις έχουν σημασία <strong>μόνο</strong> εάν έχετε επιλέξει «Κανονική μέθοδος συνομιλίας μέσω ajax» για μέθοδο συνομιλίας';
 $string['generalconfig'] = 'Γενικές ρυθμίσεις';
 $string['idle'] = 'Αδρανής';
+$string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Συνομιλίας';
+$string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Συνομιλίας (Chat).';
+$string['indicator:socialbreadth'] = 'Κοινωνικό εύρος συνομιλίας';
+$string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα συνομιλίας (Chat).';
 $string['inputarea'] = 'Περιοχή εισαγωγής (κειμένου)';
 $string['invalidid'] = 'Αδυναμία εύρεσης αυτού του δωματίου συνομιλίας!';
 $string['list_all_sessions'] = 'Λίστα όλων των συνόδων.';
@@ -112,6 +116,20 @@ $string['page-mod-chat-x'] = 'Σελίδα αρθρώματος οποιασδή
 $string['pastchats'] = 'Περασμένες σύνοδοι συνομιλίας';
 $string['pluginadministration'] = 'Διαχείριση συνομιλίας';
 $string['pluginname'] = 'Συνομιλία';
+$string['privacy:metadata:chat_messages_current'] = 'Τρέχουσα σύνοδος συνομιλίας. Αυτά τα δεδομένα είναι προσωρινά και διαγράφονται αφού διαγραφεί η σύνοδος συνομιλίας';
+$string['privacy:metadata:chat_users'] = 'Παρακολουθεί ποιοί χρήστες βρίσκονται σε ποιά δωμάτια συνομιλίας';
+$string['privacy:metadata:chat_users:firstping'] = 'Ώρα της πρώτης πρόσβασης στο δωμάτιο συνομιλίας';
+$string['privacy:metadata:chat_users:ip'] = 'Διεύθυνση IP χρήστη';
+$string['privacy:metadata:chat_users:lang'] = 'Γλώσσα χρήστη';
+$string['privacy:metadata:chat_users:lastmessageping'] = 'Ώρα του τελευταίου μηνύματος σε αυτό το δωμάτιο συνομιλίας';
+$string['privacy:metadata:chat_users:lastping'] = 'Ώρα της τελευταίας πρόσβασης στο δωμάτιο συνομιλίας';
+$string['privacy:metadata:chat_users:userid'] = 'Το αναγνωριστικό χρήστη';
+$string['privacy:metadata:chat_users:version'] = 'Πώς αποκτά ο χρήστης πρόσβαση στην συνομιλία (sockets/basic/ajax/header_js)';
+$string['privacy:metadata:messages'] = 'Αρχείο μηνυμάτων που αποστέλλονται κατά τη διάρκεια μιας συνόδου συνομιλίας';
+$string['privacy:metadata:messages:issystem'] = 'Αν το μήνυμα είναι ένα μήνυμα που δημιουργείται από το σύστημα';
+$string['privacy:metadata:messages:message'] = 'Το μήνυμα';
+$string['privacy:metadata:messages:timestamp'] = 'Πότε έγινε η αποστολή του μηνύματος.';
+$string['privacy:metadata:messages:userid'] = 'Το αναγνωριστικό χρήστη του συγγραφέα του μηνύματος';
 $string['refreshroom'] = 'Ανανέωση δωματίου';
 $string['refreshuserlist'] = 'Ανανέωση λίστας χρηστών';
 $string['removemessages'] = 'Διαγραφή όλων των μηνυμάτων';

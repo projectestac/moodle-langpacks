@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_xhtml', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qformat_xhtml', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qformat_xhtml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Μορφότυπος ερωτήσεων XHTML';
 $string['pluginname_help'] = 'Ο μορφότυπος XHTML επιτρέπει σε όλες τις ερωτήσεις της κατηγορίας να εξαχθούν σε μία μόνο σελίδα αυστηρής XHTML για πιθανή χρήση σε άλλη εφαρμογή.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Ερωτήσεις μορφότυπου XHTML» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

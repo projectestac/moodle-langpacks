@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_email', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_email', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_email
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,3 +31,4 @@ $string['auth_emailrecaptcha'] = 'Engade un formulario de confirmación visual o
 $string['auth_emailrecaptcha_key'] = 'Activar o elemento reCAPTCHA';
 $string['auth_emailsettings'] = 'Axustes';
 $string['pluginname'] = 'Autorexistro baseado no correo';
+$string['privacy:metadata'] = 'O engadido de autenticación no autorexistro baseado no correo non almacena ningún dato persoal.';

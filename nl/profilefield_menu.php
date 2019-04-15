@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_menu', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_menu', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_menu
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Rolmenu';
+$string['privacy:metadata:profilefield_menu:data'] = 'Rolmenu voor profielveld gebruikersgegevens';
+$string['privacy:metadata:profilefield_menu:dataformat'] = 'De format van het rolmenu voor profielveld gebruikersgegevens';
+$string['privacy:metadata:profilefield_menu:fieldid'] = 'De ID van het profielveld';
+$string['privacy:metadata:profilefield_menu:tableexplanation'] = 'Bijkomende profielgegevens';
+$string['privacy:metadata:profilefield_menu:userid'] = 'De ID van de gebruiker van wie de gegevens bewaard worden bij het rolmenu profielveld';

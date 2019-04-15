@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'de', branch 'MOODLE_32_STABLE'
+ * Strings for component 'error', language 'de', branch 'MOODLE_34_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityisscheduledfordeletion'] = 'Aktivitätslöschung ...';
+$string['agedigitalconsentmapinvalidage'] = '\'{$a}\' ist kein gültiger Wert für das Alter.';
+$string['agedigitalconsentmapinvalidcomma'] = '\'{$a}\' hat mehr oder weniger als ein Kommatrennzeichen.';
+$string['agedigitalconsentmapinvalidcountry'] = '\'{$a}\' ist kein gültiger Wert für ein Land.';
+$string['agedigitalconsentmapinvaliddefault'] = 'Es fehlt ein standardmäßiger (*) Wert.';
+$string['agelocationverificationdisabled'] = 'Die Überprüfung von Alter und Aufenthaltsort ist deaktiviert.';
 $string['alreadyloggedin'] = 'Sie sind bereits als {$a} angemeldet. Sie müssen sich abmelden, bevor Sie sich mit anderen Daten wieder anmelden.';
 $string['authnotexisting'] = 'Das Plugin zur Authorisierung existiert nicht.';
 $string['backupcontainexternal'] = 'Diese Sicherungsdatei enthält externe Netzwerkverbindungen (MNET), die lokal nicht konfiguriert sind.';
@@ -179,6 +184,7 @@ $string['confirmationnotenabled'] = 'Nutzer-Bestätigung ist auf dieser Seite ni
 $string['confirmsesskeybad'] = 'Der \'session key\' für diese Aktion konnte nicht bestätigt werden. Dieses Sicherheitsfeature schützt Sie vor der nicht beabsichtigten Ausführung wichtiger Funktionen oder der Ausführung von Aktionen durch Dritte in Ihrem Namen. Bitte loggen Sie sich nun ggfs. neu ein.';
 $string['couldnotassignrole'] = 'Ein schwerer, nicht näher bezeichneter Fehler ist aufgetreten, während Sie sich eine Rolle zuweisen wollten.';
 $string['couldnotupdatenoexistinguser'] = 'Nutzer konnte nicht aktualisiert werden - Nutzer existiert nicht';
+$string['couldnotverifyagedigitalconsent'] = 'Beim Versuch, das Alters zu überprüfen, ist ein Fehler aufgetreten. <br />Wenden Sie sich an den Administrator.';
 $string['countriesphpempty'] = 'Fehler: Die Datei countries.php im Sprachpaket \'{$a}\' ist leer oder fehlt.';
 $string['coursedoesnotbelongtocategory'] = 'Der Kurs gehört nicht zu diesem Kursbereich.';
 $string['courseformatnotfound'] = 'Das Kursformat \'{$a}\' existiert nicht oder wird nicht erkannt.';
@@ -351,7 +357,7 @@ $string['invalidrole'] = 'Ungültige Rolle';
 $string['invalidroleid'] = 'Ungültige Rollen-ID';
 $string['invalidscaleid'] = 'Falsche Skalen-ID';
 $string['invalidsection'] = 'Der Datensatz des Kursmoduls enthält ungültigen Abschnitt.';
-$string['invalidsesskey'] = 'Falsche sesskey übergeben, Formular nicht akzeptiert!';
+$string['invalidsesskey'] = 'Ihre Sitzung ist höchstwahrscheinlich abgelaufen. Bitte melden Sie sich erneut an.';
 $string['invalidshortname'] = 'Die Kurzbezeichnung für den Kurs ist ungültig';
 $string['invalidsourcefield'] = 'Der Eintrag im Feld für die Datei (draft file) ist ungültig.';
 $string['invalidstatedetected'] = 'Eigentlich hätte hier kein Fehler passieren dürfen: {$a}';
@@ -361,6 +367,7 @@ $string['invaliduserdata'] = 'Ungültige Nutzerdaten: {$a}';
 $string['invaliduserfield'] = 'Ungültiges Nutzerfeld: {$a}';
 $string['invaliduserid'] = 'Ungültige Nutzer-ID';
 $string['invalidusername'] = 'Der Anmeldename enthält ungültige Zeichen';
+$string['invalidusernameblank'] = 'Der Anmeldename darf nicht leer sein';
 $string['invalidxmlfile'] = '"{$a}" ist eine ungültige XML-Datei.';
 $string['iplookupfailed'] = 'Die Geo-Informationen zu dieser IP-Adresse konnten nicht gefunden werden: {$a}';
 $string['iplookupprivate'] = 'Private IP-Adressen können nicht lokalisiert werden';
@@ -380,7 +387,7 @@ $string['maxareabytes'] = 'Diese Datei ist zu groß';
 $string['maxbytes'] = 'Diese Datei ist größer als die Maximalgröße';
 $string['maxbytesfile'] = 'Die Datei {$a->file} ist zu groß. Die maximale Größe zum Hochladen ist {$a->size}.';
 $string['messagingdisable'] = 'Die Mitteilungen sind für diese Website deaktiviert.';
-$string['mimetexisnotexist'] = 'Ihr System ist nicht richtig konfiguriert, um mimeTeX ausführen zu können. Sie müssen das geeignete Programm für Ihr Betriebssystem unter der Adresse <a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a> herunterladen. Alternativ können Sie sich auch den C-Quellcode unter <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a> herunterladen, kompilieren und dann das ausführbare Programm in das Verzeichnis moodle/filter/tex/ legen.';
+$string['mimetexisnotexist'] = 'Ihr System ist nicht richtig konfiguriert, um mimeTeX ausführen zu können. Sie müssen den C-Quellcode unter <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a> herunterladen, kompilieren und dann das ausführbare Programm in das Verzeichnis moodle/filter/tex/ legen.';
 $string['mimetexnotexecutable'] = 'Das spezifische Programm mimetex ist nicht ausführbar!';
 $string['missingfield'] = 'Feld "{$a}" fehlt';
 $string['missingkeyinsql'] = 'Fehler: fehlender Parameter "{$a}" in der Abfrage';
@@ -562,10 +569,12 @@ $string['userautherror'] = 'Unbekanntes Plugin zur Authentifizierung';
 $string['userauthunsupported'] = 'Plugin zur Authentifizierung wird nicht unterstützt';
 $string['useremailduplicate'] = 'Doppelte Adresse';
 $string['usermustbemnet'] = 'Nutzer in der MNET Zugangskontroll-Liste sollten Remote MNET Nutzer sein.';
+$string['usernamelowercase'] = 'Der Anmeldename muss in Kleinbuchstaben sein';
 $string['usernotaddederror'] = 'Nutzer wurde nicht hinzugefügt - Fehler';
 $string['usernotaddedregistered'] = 'Nutzer wurde nicht hinzugefügt - er/sie war bereits registriert.';
 $string['usernotavailable'] = 'Sie können die Details für diese/n Nutzer/in nicht einsehen.';
 $string['usernotdeletedadmin'] = 'Nutzerkonto nicht gelöscht - Administratorkonten können nicht gelöscht werden';
+$string['usernotdeleteddeleted'] = 'Dieses Nutzerkonto ist bereits gelöscht.';
 $string['usernotdeletederror'] = 'Nutzer/in wurde nicht gelöscht - unbekannter Fehler';
 $string['usernotdeletedmissing'] = 'Nutzer/in wurde nicht gelöscht - Anmeldename wurde nicht gefunden';
 $string['usernotdeletedoff'] = 'Nutzer/in nicht gelöscht - Löschen ist nicht erlaubt';
@@ -580,6 +589,7 @@ $string['usernotupdatederror'] = 'Nutzer/in nicht aktualisiert - unbekannter Feh
 $string['usernotupdatednotexists'] = 'Nutzer/in nicht aktualisiert - der Account existiert nicht.';
 $string['userquotalimit'] = 'Sie haben die Obergrenze für Ihren Datenquota erreicht.';
 $string['userselectortoomany'] = 'Die Auswahl user_selector erhielt mehr als eine/n ausgewählten Nutzer/in, obwohl die Mehrfachauswahl (multiselect) deaktiviert ist.';
+$string['verifyagedigitalconsentnotpossible'] = 'Die Überprüfung des Alters ist derzeit nicht möglich.';
 $string['wrongcall'] = 'Das Skript wurde falsch aufgerufen';
 $string['wrongcontextid'] = 'Kontext-ID war falsch (konnte nicht gefunden werden)';
 $string['wrongdestpath'] = 'Falscher Pfad';

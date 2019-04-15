@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   block
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,6 +59,10 @@ $string['myblocks'] = '我的版块';
 $string['onthispage'] = '在本页';
 $string['pagetypes'] = '网页类型';
 $string['pagetypewarning'] = '之前指定的页面类型不再可以选择。请在下面选择最恰当的页面类型。';
+$string['privacy:metadata:userpref:dockedinstance'] = '当用户将版块停靠时进行记录';
+$string['privacy:metadata:userpref:hiddenblock'] = '当用户将版块收起/隐藏时进行记录';
+$string['privacy:request:blockisdocked'] = '显示版块是否已停靠';
+$string['privacy:request:blockishidden'] = '显示版块是否已隐藏/收起';
 $string['region'] = '区域';
 $string['restrictpagetypes'] = '在哪种类型页面显示';
 $string['showblock'] = '显示 {$a} 版块';

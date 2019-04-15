@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddwtos', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_ddwtos', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_ddwtos
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,3 +37,4 @@ $string['pluginnameediting'] = 'Editando arrastrar e soltar sobre texto';
 $string['pluginname_help'] = 'Arrastrar e soltar en preguntas de texto require que o que responde arrastre palabras ou frases ás lagoas correctas no texto da pregunta. [[1]], [[2]], [[3]], ... utilízanse como marcadores de posición no texto da pregunta, coas respostas correctas especificadas como respostas de elección 1, 2, 3, ... respectivamente. As respostas de elección poden agruparse de maneira que todas as respostas nun grupo en particular estean do mesmo xeito que as lagoas para elas no texto da pregunta. As opcións de resposta marcadas como ilimitadas poden usarse en máis dunha lagoa.';
 $string['pluginname_link'] = 'question/type/ddwtos';
 $string['pluginnamesummary'] = 'As palabras que faltan no texto da pregunta énchense usando arrastrar e soltar.';
+$string['privacy:metadata'] = 'O engadido de preguntas de arrastrar e soltar sobre texto non almacena ningún dato persoal.';

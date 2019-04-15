@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_group', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability_group', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   availability_group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['description'] = '只有指定小组的学生可用，也可以是所有
 $string['error_selectgroup'] = '您必须选择一个小组。';
 $string['missing'] = '(丢失小组)';
 $string['pluginname'] = '通过分组限制';
+$string['privacy:metadata'] = '群组限制插件不储存任何私人数据。';
 $string['requires_anygroup'] = '你属于任何小组';
 $string['requires_group'] = '你属于 <strong>{$a}</strong>';
 $string['requires_notanygroup'] = '你不属于任何组';

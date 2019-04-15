@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'questionnaire', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,8 @@ $string['alreadyfilled'] = '{$a} já respondeu a este questionário. Muito obrig
 $string['andaveragevalues'] = 'e valores médios';
 $string['anonymous'] = 'Anónimo';
 $string['answer'] = 'Resposta';
+$string['answergiven'] = 'Esta resposta dada';
+$string['answernotgiven'] = 'Esta resposta não dada';
 $string['answerquestions'] = 'Responder ao questionário...';
 $string['answers'] = 'Respostas';
 $string['attempted'] = 'Questionário submetido com sucesso';
@@ -83,6 +85,7 @@ $string['closedate_help'] = 'Pode escolher uma data de fecho para o questionári
 Os participantes não poderão preencher o questionário após a data selecionada. Se não ativar esta opção, o questionário nunca fecha.';
 $string['closeson'] = 'O questionário termina em {$a}.';
 $string['completionsubmit'] = 'Os participantes têm de submeter o questionário para o concluir';
+$string['condition'] = 'Condição';
 $string['confalts'] = '- OU - <br />Página de confirmação';
 $string['configmaxsections'] = 'Máximo de secções de feedback';
 $string['configusergraph'] = 'Mostrar gráficos no feedback de "Teste de personalidade"';
@@ -117,8 +120,10 @@ $string['deletedisabled'] = 'Este item não pode ser apagado';
 $string['deletedresp'] = 'Resposta apagada';
 $string['deleteresp'] = 'Apagar esta resposta';
 $string['deletingresp'] = 'A apagar resposta';
+$string['dependencies'] = 'Dependências';
 $string['dependquestion'] = 'Dependente da questão';
 $string['dependquestion_help'] = 'Pode selecionar uma questão e uma opção de resposta da qual esta questão depende. A questão dependente só será exibida ao aluno, se a questão de que depende for respondida com a opção definida.';
+$string['directwarnings'] = 'As dependências diretas para esta questão serão apagadas. Isso afetará:';
 $string['displaymethod'] = 'Método de exibição não definido para a questão.';
 $string['download'] = 'Descarregar';
 $string['downloadtextformat'] = 'Descarregar em formato Texto';
@@ -197,7 +202,7 @@ $string['feedbacktype'] = 'Tipos de Feedback';
 $string['field'] = 'Questão {$a}';
 $string['fieldlength'] = 'Tamanho da caixa de texto';
 $string['fieldlength_help'] = 'Para o tipo de questão **Caixa de Texto**, insira o valor do **Comprimento da caixa de texto** e o **Comprimento máximo do texto** permitido.
-Os valores predefinidos são de 20 carateres para o comprimento da caixa de texto e 25 carateres para o comprimento máximo do texto.';
+Os valores predefinidos são de 20 caracteres para o comprimento da caixa de texto e 25 carateres para o comprimento máximo do texto.';
 $string['finished'] = 'Respondeu a todas as questões deste questionário!';
 $string['firstrespondent'] = 'Primeira resposta';
 $string['formateditor'] = 'Editor HTML';
@@ -212,6 +217,7 @@ $string['includechoicetext'] = 'Incluir designação das opções de escolha';
 $string['incorrectcourseid'] = 'O ID da disciplina está incorreto';
 $string['incorrectmodule'] = 'O ID do módulo da disciplina está incorreto';
 $string['incorrectquestionnaire'] = 'O questionário está incorreto';
+$string['indirectwarnings'] = 'Esta lista mostra as questões dependentes indiretas e as restantes dependências para questões dependentes diretas:';
 $string['invalidresponse'] = 'Resposta inválida';
 $string['invalidresponserecord'] = 'Registo de resposta inválido';
 $string['invalidsurveyid'] = 'ID do questionário inválido';
@@ -222,7 +228,8 @@ $string['lastrespondent'] = 'Última resposta';
 $string['length'] = 'Comprimento';
 $string['managequestions'] = 'Gerir questões';
 $string['managequestions_help'] = 'Na secção *Gerir questões* da página **Questões**, pode realizar uma série de operações nas questões do questionário (editar, mover, apagar).';
-$string['maxdigitsallowed'] = 'Máximo de carateres permitidos';
+$string['mandatory'] = 'Obrigatório - Todas estas dependências devem ser cumpridas.';
+$string['maxdigitsallowed'] = 'Máximo de caracteres permitidos';
 $string['maxdigitsallowed_help'] = 'Use **Max. dígitos permitidos** para definir um limite para o número de caracteres digitados numa questão numérica. Tenha em atenção que o ponto decimal também conta como um caractere!';
 $string['maxforcedresponses'] = 'Número máximo de respostas';
 $string['maxforcedresponses_help'] = 'Use estes parâmetros para obrigar a assinalar um mínimo de **Min.** e um máximo de **Máx.** caixas de seleção. Para obrigar a que um número exato de caixas de seleção seja assinalado, defina **Min.** e **Máx.** com o mesmo valor. Se apenas pretender definir um dos limites, mínimo ou máximo, basta deixar o outro com o valor predefinido de **0**. Se definir **Min.** ou **Máx.** com valores diferentes de **0**, aparecerá uma mensagem de aviso se o utilizador não cumprir estes requisitos. Obviamente, deve informar os requisitos de forma clara quer nas instruções gerais do Questionário quer no texto das respetivas questões.';
@@ -276,6 +283,7 @@ $string['notifications_help'] = 'Notificar os utilizadores com a permissão "mod
 $string['notificationsimple'] = 'Apenas notificação';
 $string['notopen'] = 'Este questionário só estará disponível a partir de {$a}.';
 $string['notrequired'] = 'Resposta facultativa';
+$string['notset'] = 'não definido';
 $string['not_started'] = 'não iniciado';
 $string['nousersselected'] = 'Nenhum utilizador selecionado';
 $string['num'] = '#';
@@ -292,6 +300,7 @@ $string['opendate'] = 'Data de Abertura';
 $string['opendate_help'] = 'Pode indicar uma data de abertura para o questionário. Ative a caixa de verificação e escolha a data pretendida.
 Os participantes não poderão preencher o questionário antes da data selecionada. Se não ativar esta opção, o questionário fica disponível de imediato.';
 $string['option'] = 'opção {$a}';
+$string['optional'] = 'Opcional - pelo menos uma destas dependências deve ser cumprida.';
 $string['optionalname'] = 'Nome da Questão';
 $string['optionalname_help'] = 'O nome da questão apenas é usado quando exporta as questões para o formato CSV/Excel.
 Não necessita de se preocupar com estes nomes se não exportar para CSV.
@@ -321,6 +330,7 @@ $string['overviewnumrespvw1'] = 'resposta';
 $string['owner'] = 'Dono';
 $string['page'] = 'Página';
 $string['pageof'] = 'Página {$a->page} de {$a->totpages}';
+$string['parent'] = 'Antecedente';
 $string['participant'] = 'Participante';
 $string['pleasecomplete'] = 'Por favor, preencha esta escolha.';
 $string['pluginadministration'] = 'Administração do Questionário';
@@ -337,6 +347,41 @@ $string['print'] = 'Imprimir esta resposta';
 $string['printblank'] = 'Imprimir em branco';
 $string['printblanktooltip'] = 'Abrir nova janela com questionário em branco para imprimir';
 $string['printtooltip'] = 'Abrir nova janela com estas respostas para que possa imprimir';
+$string['privacy:metadata:questionnaire_resp_multiple'] = 'Uma resposta a uma questão de escolha múltipla.';
+$string['privacy:metadata:questionnaire_resp_multiple:choice_id'] = 'ID do registo de opção para esta resposta.';
+$string['privacy:metadata:questionnaire_resp_multiple:question_id'] = 'ID do registo da questão para esta resposta.';
+$string['privacy:metadata:questionnaire_resp_multiple:response_id'] = 'ID do registo desta resposta.';
+$string['privacy:metadata:questionnaire_response'] = 'Uma resposta em progresso ou já submetida';
+$string['privacy:metadata:questionnaire_response_bool'] = 'Uma resposta a uma questão booleana (sim/não).';
+$string['privacy:metadata:questionnaire_response_bool:choice_id'] = 'A resposta booleana específica.';
+$string['privacy:metadata:questionnaire_response_bool:question_id'] = 'ID do registo da questão para esta resposta.';
+$string['privacy:metadata:questionnaire_response_bool:response_id'] = 'ID do registo desta resposta.';
+$string['privacy:metadata:questionnaire_response:complete'] = 'O estado de conclusão da resposta.';
+$string['privacy:metadata:questionnaire_response_date'] = 'Uma resposta a uma questão de data.';
+$string['privacy:metadata:questionnaire_response_date:question_id'] = 'ID do registo da questão para esta resposta.';
+$string['privacy:metadata:questionnaire_response_date:response'] = 'A resposta de data específica.';
+$string['privacy:metadata:questionnaire_response_date:response_id'] = 'ID do registo desta resposta.';
+$string['privacy:metadata:questionnaire_response:grade'] = 'A nota para esta resposta.';
+$string['privacy:metadata:questionnaire_response_other'] = 'Um texto de resposta à opção "outra"';
+$string['privacy:metadata:questionnaire_response_other:choice_id'] = 'ID do registo de escolha para esta resposta.';
+$string['privacy:metadata:questionnaire_response_other:question_id'] = 'ID do registo da questão para esta resposta.';
+$string['privacy:metadata:questionnaire_response_other:response'] = 'A resposta de texto específica.';
+$string['privacy:metadata:questionnaire_response_other:response_id'] = 'ID do registo desta resposta.';
+$string['privacy:metadata:questionnaire_response_rank'] = 'Uma resposta a uma questão de classificação.';
+$string['privacy:metadata:questionnaire_response_rank:choice_id'] = 'ID do registo de escolha para esta resposta.';
+$string['privacy:metadata:questionnaire_response_rank:question_id'] = 'ID do registo da questão para esta resposta.';
+$string['privacy:metadata:questionnaire_response_rank:rankvalue'] = 'A resposta de classificação específica.';
+$string['privacy:metadata:questionnaire_response_rank:response_id'] = 'ID do registo de resposta para esta resposta.';
+$string['privacy:metadata:questionnaire_response:submitted'] = 'Data e hora da gravação mais recente desta resposta.';
+$string['privacy:metadata:questionnaire_response_text'] = 'Uma resposta a uma questão de texto.';
+$string['privacy:metadata:questionnaire_response_text:question_id'] = 'ID do registo da questão para esta resposta.';
+$string['privacy:metadata:questionnaire_response_text:response'] = 'A resposta de texto específica.';
+$string['privacy:metadata:questionnaire_response_text:response_id'] = 'ID do registo desta resposta.';
+$string['privacy:metadata:questionnaire_response:userid'] = 'ID do utilizador desta resposta.';
+$string['privacy:metadata:questionnaire_resp_single'] = 'Uma resposta a uma questão de escolha única.';
+$string['privacy:metadata:questionnaire_resp_single:choice_id'] = 'ID do registo de opção de resposta para esta resposta.';
+$string['privacy:metadata:questionnaire_resp_single:question_id'] = 'ID do registo da questão para esta resposta.';
+$string['privacy:metadata:questionnaire_resp_single:response_id'] = 'ID do registo desta resposta.';
 $string['private'] = 'Privado';
 $string['public'] = 'Centralizado';
 $string['publiccopy'] = 'Cópia:';
@@ -449,6 +494,7 @@ $string['sendemail'] = 'Enviar e-mail';
 $string['sendemail_help'] = 'Envia uma cópia de cada questionário submetido para o endereço de e-mail aqui indicado. Pode inserir mais que um endereço de e-mail separado por vírgulas (deixe em branco para não enviar e-mail).';
 $string['send_message'] = 'Enviar mensagem aos utilizadores selecionados';
 $string['send_message_to'] = 'Enviar mensagem a:';
+$string['set'] = 'definido';
 $string['settings'] = 'Configurações';
 $string['settingssaved'] = 'Configurações guardadas';
 $string['show_nonrespondents'] = 'Sem resposta';
@@ -482,7 +528,7 @@ $string['textarearows'] = 'Número de linhas';
 $string['textbox'] = 'Caixa de texto';
 $string['textbox_help'] = 'Para o tipo de questão **Caixa de Texto**, insira o valor do **Comprimento da caixa de texto** e o **Comprimento máximo do texto** permitido.
 
-Os valores predefinidos são de 20 carateres para o comprimento da caixa de texto e 25 carateres para o comprimento máximo do texto.';
+Os valores predefinidos são de 20 carateres para o comprimento da caixa de texto e 25 caracteres para o comprimento máximo do texto.';
 $string['textdownloadoptions'] = 'Opções de exportação em formato Texto (CSV)';
 $string['thank_head'] = 'Obrigado por responder ao questionário.';
 $string['theme'] = 'Tema';

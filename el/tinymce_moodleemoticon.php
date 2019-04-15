@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_moodleemoticon', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tinymce_moodleemoticon', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tinymce_moodleemoticon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,5 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['moodleemoticon:desc'] = 'Εισαγωγή εικονιδίου διάθεσης';
 $string['pluginname'] = 'Εισαγωγή εικονιδίου διάθεσης';
+$string['privacy:metadata'] = 'Το πρόσθετο «Εικονίδια διάθεσης του Moodle» του TinyMCE δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['requireemoticon'] = 'Απαιτείται φίλτρο εικονιδίων διάθεσης';
 $string['requireemoticon_desc'] = 'Εάν ενεργοποιηθεί, το κουμπί «Εικονίδιο διάθεσης» είναι ορατό μόνο όταν το φίλτρο των εικονιδίων διάθεσης είναι ενεργοποιημένο στο πλαίσιο του επεξεργαστή κειμένου.';

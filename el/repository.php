@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,8 +47,8 @@ $string['attachedfiles'] = 'Συνημμένα αρχεία';
 $string['attachment'] = 'Συνημμένο';
 $string['author'] = 'Συγγραφέας';
 $string['automatedbackup'] = 'Αυτοματοποιημένα αντίγραφα ασφαλείας';
-$string['back'] = '&laquo; Επιστροφή';
-$string['backtodraftfiles'] = '&laquo; Επιστροφή στη διαχείριση προσχέδιων αρχείων';
+$string['back'] = '« Επιστροφή';
+$string['backtodraftfiles'] = 'Επιστροφή στη διαχείριση προσχεδίων αρχείων';
 $string['cachecleared'] = 'Τα αρχεία στην κρυφή μνήμη διαγράφονται';
 $string['cacheexpire'] = 'Λήξη κρυφής μνήμης';
 $string['cannotaccessparentwin'] = 'Εάν το γονικό παράθυρο βρίσκεται σε HTTPS, τότε δεν επιτρέπεται να αποκτήσετε πρόσβαση στο αντικείμενο window.opener, επομένως δεν μπορούμε να ανανεώσουμε αυτόματα το χώρο αποθήκευσης για σας, αλλά έχουμε ήδη την περίοδο λειτουργίας σας. Απλά επιστρέψτε στον επιλογέα αρχείων και επιλέξτε ξανά το αποθετήριο. Τώρα πρέπει να λειτουργεί.';
@@ -156,8 +156,10 @@ $string['linkexternal'] = 'Σύνδεση εξωτερικά';
 $string['listview'] = 'Προβολή ως λίστα';
 $string['loading'] = 'Φόρτωση...';
 $string['login'] = 'Σύνδεση στον λογαριασμό σας';
+$string['logintoaccount'] = 'Συνδεθείτε στον λογαριασμό σας {$a}';
 $string['logout'] = 'Έξοδος';
 $string['lostsource'] = 'Σφάλμα. Η προέλευση λείπει. {$a}';
+$string['makefilecontrolledlink'] = 'Δημιουργία ενός συνδέσμου στο αρχείο με έλεγχο πρόσβασης';
 $string['makefileinternal'] = 'Δημιουργία ενός αντιγράφου του αρχείου';
 $string['makefilelink'] = 'Σύνδεση απευθείας στο αρχείο';
 $string['makefilereference'] = 'Δημιουργία ενός ψευδωνύμου/μιας συντόμευσης για το αρχείο';
@@ -195,6 +197,15 @@ $string['pluginnamehelp'] = 'Αν το αφήσετε κενό θα χρησιμ
 $string['popup'] = 'Κλικ στο πλήκτρο «Σύνδεση» για σύνδεση/είσοδο';
 $string['popupblockeddownload'] = 'Το παράθυρο λήψης είναι μπλοκαρισμένο. Παρακαλούμε επιτρέψτε το αναδυόμενο παράθυρο και δοκιμάστε ξανά.';
 $string['preview'] = 'Προεπισκόπηση';
+$string['privacy:metadata:repository'] = 'Το στοιχείο λογισμικού Αποθετηρίου αποθηκεύει τους τύπους αποθετηρίου στο βασικό υποσύστημα.';
+$string['privacy:metadata:repository_instances'] = 'Το στοιχείο λογισμικού των πρόσθετων Αποθετηρίου αποθηκεύει δεδομένα στιγμιοτύπων αποθετηρίου χρηστών στο υποσύστημα πυρήνα.';
+$string['privacy:metadata:repository_instances:name'] = 'Το προσαρμοσμένο όνομα του στιγμιοτύπου αποθετηρίου.';
+$string['privacy:metadata:repository_instances:password'] = 'Ο προαιρετικός κωδικός πρόσβασης έχει ρυθμιστεί για το στιγμιότυπο αποθετηρίου.';
+$string['privacy:metadata:repository_instances:timecreated'] = 'Η ημερομηνία/ώρα της δημιουργίας για το στιγμιότυπο αποθετηρίου.';
+$string['privacy:metadata:repository_instances:timemodified'] = 'Η ημερομηνία/ώρα τροποποίησης για το στιγμιότυπο αποθετηρίου.';
+$string['privacy:metadata:repository_instances:typeid'] = 'Ο τύπος αναγνωριστικού του στιγμιότυπου αποθετηρίου.';
+$string['privacy:metadata:repository_instances:userid'] = 'Το αναγνωριστικό του χρήστη που είναι ιδιοκτήτης του στιγμιοτύπου αποθετηρίου.';
+$string['privacy:metadata:repository_instances:username'] = 'Το προαιρετικό όνομα χρήστη που έχει ρυθμιστεί για το στιγμιότυπο του αποθετηρίου.';
 $string['privatefilesof'] = '{$a} Ιδιωτικά αρχεία';
 $string['readonlyinstance'] = 'Δεν μπορείτε να τροποποιήσετε/διαγράψετε ένα στιγμιότυπο που είναι μόνο για ανάγνωση';
 $string['referencesexist'] = 'Υπάρχουν {$a} ψευδώνυμα/αρχεία συντόμευσης που χρησιμοποιούν αυτό το αρχείο ως πηγή τους';
@@ -236,6 +247,7 @@ $string['typenotvisible'] = 'Τύπος μη ορατός';
 $string['undisclosedreference'] = '(Μυστικός)';
 $string['undisclosedsource'] = '(Μυστικός)';
 $string['unknownoriginal'] = 'Άγνωστος';
+$string['unknownsource'] = 'Άγνωστη προέλευση';
 $string['unzipped'] = 'Αποσυμπίεση με επιτυχία';
 $string['upload'] = 'Ανέβασμα αυτού του αρχείου';
 $string['uploading'] = 'Ανέβασμα...';

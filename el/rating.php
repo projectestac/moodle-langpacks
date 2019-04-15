@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'rating', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'rating', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   rating
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,6 +49,11 @@ $string['norate'] = 'Δεν επιτρέπεται αξιολόγηση στοι
 $string['noratings'] = 'Δεν υποβλήθηκαν βαθμολογίες';
 $string['noviewanyrate'] = 'Μπορείτε να δείτε αποτελέσματα μόνο για στοιχεία που εσείς δημιουργήσατε';
 $string['noviewrate'] = 'Δεν έχετε τη δυνατότητα να δείτε αξιολογήσεις στοιχείων';
+$string['privacy:metadata:rating'] = 'Η αξιολόγηση που εισάγει χρήστης αποθηκεύεται μαζί με μια αντιστοίχιση του στοιχείου που αξιολογήθηκε.';
+$string['privacy:metadata:rating:rating'] = 'Η αριθμητική αξιολόγηση που εισήγαγε ο χρήστης.';
+$string['privacy:metadata:rating:timecreated'] = 'Πότε έγινε η πρώτη βαθμολόγηση.';
+$string['privacy:metadata:rating:timemodified'] = 'Πότε έγινε η τελευταία βαθμολόγηση.';
+$string['privacy:metadata:rating:userid'] = 'Ο χρήστης που έκανε την αξιολόγηση.';
 $string['rate'] = 'Αξιολόγηση';
 $string['ratepermissiondenied'] = 'Δεν έχετε δικαίωμα να αξιολογήσετε αυτό το στοιχείο';
 $string['rating'] = 'Αξιολόγηση';
@@ -56,5 +61,5 @@ $string['ratinginvalid'] = 'Η αξιολόγηση είναι μη έγκυρη
 $string['ratings'] = 'Βαθμοί';
 $string['ratingtime'] = 'Περιορισμός των βαθμών σε στοιχεία με ημερομηνίες σε αυτό το διάστημα:';
 $string['rolewarning'] = 'Ρόλοι αδειοδοτημένοι να βαθμολογούν';
-$string['rolewarning_help'] = 'Για την υποβολή βαθμολογιών χρηστών απαιτείται η χρήση της moodle/rating:rate λειτουργίας και οι άλλες καθορισμένες λειτουργίες του module. Οι χρήστες που τους ανατίθενται οι ακόλουθοι ρόλοι θα είναι σε θέση να βαθμολογούν. Η λίστα των ρόλων μπορεί να τροποποιηθεί μέσω του συνδέσμου δικαιωμάτων από το μπλοκ διαχείρισης.';
+$string['rolewarning_help'] = 'Για την υποβολή βαθμολογιών οι χρήστες απαιτείται να έχουν την δυνατότητα moodle/rating:rate και όποιες άλλες δυνατότητες απαιτούνται ειδικά για το συγκεκριμένο άρθρωμα. Οι χρήστες που τους ανατίθενται οι ακόλουθοι ρόλοι θα είναι σε θέση να βαθμολογούν. Η λίστα των ρόλων μπορεί να τροποποιηθεί μέσω του συνδέσμου δικαιωμάτων στο μπλοκ διαχείρισης.';
 $string['scaleselectionrequired'] = 'Κατά την επιλογή ενός τύπου συνάθροισης βαθμολογιών πρέπει επίσης να επιλέξετε είτε μια κλίμακα είτε ένα μέγιστο αριθμό πόντων.';

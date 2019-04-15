@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'label', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,10 @@ $string['dndresizeheight'] = 'Redimensionar o alto ao arrastrar e soltar';
 $string['dndresizewidth'] = 'Redimensionar o largo ao arrastrar e soltar';
 $string['dnduploadlabel'] = 'Engadir unha imaxe á páxina do curso';
 $string['dnduploadlabeltext'] = 'Engadir unha etiqueta á páxina do curso';
+$string['indicator:cognitivedepth'] = 'Etiqueta cognitiva';
+$string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nun recurso etiqueta.';
+$string['indicator:socialbreadth'] = 'Etiqueta social';
+$string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nun recurso etiqueta.';
 $string['label:addinstance'] = 'Engadir unha nova etiqueta';
 $string['labeltext'] = 'Texto da etiqueta';
 $string['label:view'] = 'Ver a etiqueta';

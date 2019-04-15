@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_textarea', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'datafield_textarea', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   datafield_textarea
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,3 +29,4 @@ $string['fieldtypelabel'] = 'Περιοχή κειμένου';
 $string['maxbytes'] = 'Μέγιστο μέγεθος ενσωματωμένου αρχείου (byte)';
 $string['maxbytes_desc'] = 'Αν οριστεί σε μηδέν, θα είναι απεριόριστο από προεπιλογή';
 $string['pluginname'] = 'Περιοχή κειμένου';
+$string['privacy:metadata'] = 'Το στοιχείο λογισμικού «Πεδίο περιοχής κειμένου» δεν αποθηκεύει κανένα προσωπικό δεδομένο· χρησιμοποιεί πίνακες που ορίζονται στο mod_data.';

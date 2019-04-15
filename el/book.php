@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'book', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,6 +48,10 @@ $string['eventchapterdeleted'] = 'Το κεφάλαιο διαγράφηκε';
 $string['eventchapterupdated'] = 'Το κεφάλαιο ενημερώθηκε';
 $string['eventchapterviewed'] = 'Το κεφάλαιο προβλήθηκε';
 $string['hidechapter'] = 'Απόκρυψη κεφαλαίου «{$a}»';
+$string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Βιβλίου';
+$string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε έναν πόρο Βιβλίου.';
+$string['indicator:socialbreadth'] = 'Κοινωνικό εύρος Μπλοκ';
+$string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε έναν πόρο Βιβλίου.';
 $string['modulename'] = 'Βιβλίο';
 $string['modulename_help'] = 'Το άρθρωμα βιβλίου δίνει τη δυνατότητα σε έναν διδάσκοντα να δημιουργήσει έναν πόρο πολλών σελίδων σε μορφή βιβλίου, με κεφάλαια και υποκεφάλαια. Τα βιβλία μπορούν να περιέχουν αρχεία πολυμέσων καθώς και κείμενο και είναι χρήσιμα για την εμφάνιση μακρών αποσπασμάτων πληροφοριών που μπορούν να αναλυθούν σε τμήματα. Ένα βιβλίο μπορεί να χρησιμοποιηθεί:
 
@@ -85,6 +89,8 @@ $string['numberingoptions_desc'] = 'Επιλογές για την εμφάνι�
 $string['page-mod-book-x'] = 'Οποιαδήποτε σελίδα αρθρώματος βιβλίου';
 $string['pluginadministration'] = 'Διαχείριση βιβλίου';
 $string['pluginname'] = 'Βιβλίο';
+$string['privacy:metadata'] = 'Το άρθρωμα «Δραστηριότητα βιβλίου» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
+$string['removeallbooktags'] = 'Διαγραφή όλων των εττικετών βιβλίου';
 $string['search:activity'] = 'Βιβλίο - πληροφορίες πόρου';
 $string['search:chapter'] = 'Βιβλίο - κεφάλαια';
 $string['showchapter'] = 'Εμφάνιση κεφαλαίου «{$a}»';
@@ -92,5 +98,7 @@ $string['subchapter'] = 'Υποκεφάλαιο';
 $string['subchapternotice'] = '(Διατίθεται μόνο όταν έχει δημιουργηθεί το πρώτο κεφάλαιο)';
 $string['subplugintype_booktool'] = 'Εργαλείο βιβλίου';
 $string['subplugintype_booktool_plural'] = 'Εργαλεία βιβλίου';
+$string['tagarea_book_chapters'] = 'Κεφάλαια βιβλίου';
+$string['tagsdeleted'] = 'Οι εττικέτες βιβλίου διαγράφηκαν';
 $string['toc'] = 'Πίνακας περιεχομένων';
 $string['top'] = 'κορυφή';

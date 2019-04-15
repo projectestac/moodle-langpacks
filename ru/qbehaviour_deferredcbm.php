@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_deferredcbm', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_deferredcbm', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_deferredcbm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,6 +66,7 @@ $string['judgementsummary'] = 'Ответы: {$a->responses}. Точность: 
 $string['noquestions'] = 'Нет ответов';
 $string['overconfident'] = 'совершенно уверен(а)';
 $string['pluginname'] = 'Отложенный отзыв с учетом уверенности в ответе';
+$string['privacy:metadata'] = 'Плагин «Режим поведения вопросов - отложенный отзыв с учетом уверенности в ответе» не хранит никаких персональных данных.';
 $string['slightlyoverconfident'] = 'уверен(а)';
 $string['slightlyunderconfident'] = 'немного не уверен(а)';
 $string['underconfident'] = 'не уверен(а)';

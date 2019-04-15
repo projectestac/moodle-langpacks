@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'scorm', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,6 +75,8 @@ $string['browsed'] = 'Nabigatua';
 $string['browsemode'] = 'Aurrebista-modua';
 $string['browserepository'] = 'Biltegian zehar nabigatu';
 $string['calculatedweight'] = 'Kalkulatutako pisua';
+$string['calendarend'] = '{$a}-(r)en itxiera-data:';
+$string['calendarstart'] = '{$a}-(r)en hasiera-data';
 $string['cannotaccess'] = 'Ezin duzu script hau modu horretan deitu.';
 $string['cannotfindsco'] = 'Ezin da SCO aurkitu';
 $string['chooseapacket'] = 'Aukeratu edo eguneratu SCORM paketea';
@@ -84,17 +86,20 @@ $string['collapsetocwinsizedesc'] = 'Ezarpen honek leihoaren tamaina minimo bate
 $string['compatibilitysettings'] = 'Bateragarritasunerako ezarpenak';
 $string['completed'] = 'Osatua';
 $string['completionscorerequired'] = 'Gutxieneko puntuazioa beharrezkoa da';
+$string['completionscorerequireddesc'] = 'Jarduera osatzeko {$a}-eko gutxieneko kalifikazioa beharrezkoa da.';
 $string['completionscorerequired_help'] = 'Ezarpen hau gaituz gero, ikasleari SCORM jarduera osatutzat emateko, puntuazio minimoa izan beharko du eta jarduera-osaketarako beste eskakizunak bete beharko ditu.';
 $string['completionstatusallscos'] = 'Derrigortu sco guztiek osatze-egoerara bueltatzea';
 $string['completionstatusallscos_help'] = 'SCORM pakete batzuk osagai anitz edo "sco" dituzte - aukera hau gaitzean paketeko sco guztiek lesson_status balioa bueltatu behar dute jarduera hau osatutzat emateko.';
 $string['completionstatus_completed'] = 'Osatua';
 $string['completionstatus_passed'] = 'Gaindituta';
 $string['completionstatusrequired'] = 'Egoera ezarri gabe';
+$string['completionstatusrequireddesc'] = 'Ikaslea gutxienez hurrengo egoeretako batera heldu behar da: {$a}';
 $string['completionstatusrequired_help'] = 'Egoera bat edo gehiago aukeratuz gero, erabiltzaileei SCORM jarduera gainditutzat emateko, lortu beharko dute: gutxienez, aukeratutako egoeretako bat eta jarduera-osaketarako beste eskakizunak bete.';
 $string['confirmloosetracks'] = 'KONTUZ: Badirudi paketea aldatu egin dela. Paketearen egitura aldatu egin bada zenbait erabiltzaileren pistak agian galdu egingo ziren eguneratze-prozesuan.';
 $string['contents'] = 'Edukiak';
 $string['coursepacket'] = 'Ikastaro-paketea';
 $string['coursestruct'] = 'Ikastaro-egitura';
+$string['crontask'] = 'SCORM-eko atzeko planoko prozesamendua';
 $string['currentwindow'] = 'Oraingo leihoa';
 $string['datadir'] = 'Fitxategi-sistema errorea: Ikastaroko datuen direktorioa ezin da sortu';
 $string['defaultdisplaysettings'] = 'Erakusteko ezarpen lehenetsiak';
@@ -153,8 +158,10 @@ $string['forcejavascript'] = 'Behartu erabiltzaileak JavaScript gaitzera';
 $string['forcejavascript_desc'] = 'Gaituz gero (gomendatuta), SCORM paketera sartzea saihesten da JavaScript ez badago onartuta/gaituta erabiltzailearen nabigatzailean. Ez bada gaitzen, erabiltzaileak SCORM-a ikusi ahal izango du, baina API komunikazioak huts egingo du eta ez da gordeko kalifikazioei buruzko informaziorik.';
 $string['forcejavascriptmessage'] = 'JavaScript beharrezkoa da objektu hau ikusteko, mesedez, gaitu JavaScript zure nabigatzailean eta berriz saiatu.';
 $string['forcenewattempt'] = 'Behartu saiakera berria';
-$string['forcenewattemptdesc'] = 'Gaituz gero, SCORM pakete baterako sarrera bakoitza saiakera berritzat hartuko da.';
-$string['forcenewattempt_help'] = 'Gaituz gero, SCORM paketea bisitatzen den bakoitzean saiakera berritzat hartuko da.';
+$string['forcenewattemptdesc'] = 'Ezarpen honek "Saiakera berria hasi" laukitxoa ezkutatu eta berrikuspen modua saihesten du. SCORM-ek ikasle bati ahalbidetzen dio edozein unetan saiakera batera itzultzera eta saiakera beri bat hastea ez da posiblea izango aurreko saiakera "Osatua", "Gaindituta" edo "Gainditu gabea" egoera izan arte. SCORM paketeak ez badu hau egiten, ikaslea beti bueltatuko da saiakera berdinera.';
+$string['forcenewattempt_help'] = 'Ezarpen honek "Saiakera berria hasi" laukitxoa ezkutatu eta berrikuspen modua saihesten du.
+
+SCORM-ek ikasle bati ahalbidetzen dio edozein unetan saiakera batera itzultzera eta saiakera beri bat hastea ez da posiblea izango aurreko saiakera "Osatua", "Gaindituta" edo "Gainditu gabea" egoera izan arte. SCORM paketeak ez badu hau egiten, ikaslea beti bueltatuko da saiakera berdinera.';
 $string['found'] = 'Manifestua aurkitu da';
 $string['frameheight'] = 'Marko edo leihoaren altuera.';
 $string['framewidth'] = 'Marko edo leihoaren zabalera.';
@@ -192,6 +199,10 @@ $string['hidetoc_help'] = 'Nola erakutsiko den eduki-taula SCORM erreproduzitzai
 $string['highestattempt'] = 'Saiakera altuena';
 $string['identifier'] = 'Galdera-identifikatzailea';
 $string['incomplete'] = 'Osatu gabea';
+$string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa SCORM jardueretan';
+$string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak SCORM motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
+$string['indicator:socialbreadth'] = 'Gaitasun soziala SCORM jardueretan';
+$string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak SCORM motako baliabideetan lortutako zabalera sozialean oinarrituta dago.';
 $string['info'] = 'Informazioa';
 $string['interactions'] = 'Elkarrekintzak';
 $string['invalidactivity'] = 'SCORM jarduera ez da egokia';
@@ -231,6 +242,8 @@ SCORM jarduera ondokoetarako erabil daiteke
 * Eduki multimedia eta animazioak erakusteko
 * Ebaluaketa tresna gisa';
 $string['modulenameplural'] = 'SCORM paketeak';
+$string['myaiccsessions'] = 'Nire AICC saioak';
+$string['myattempts'] = 'Nire saiakerak';
 $string['nav'] = 'Erakutsi nabigazioa';
 $string['navdesc'] = 'Ezarpen honek nabigazio-botoiak erakutsi edo ezkutatzea ahalbidetzen du, baita euren kokalekua ere.';
 $string['nav_help'] = 'Ezarpen honek nabigazio-botoiak erakutsi edo ezkutatzea ahalbidetzen du, baita euren kokalekua ere.
@@ -293,6 +306,20 @@ $string['position_error'] = '{$a->tag} etiketa ezin da {$a->parent} etiketaren s
 $string['preferencespage'] = 'Orri honen hobespenak';
 $string['preferencesuser'] = 'Txosten honetarako hobespenak';
 $string['prev'] = 'Aurrekoa';
+$string['privacy:metadata:aicc:data'] = 'AICC/SCORM azpisistemaren bitartez pasatako datu pertsonalak.';
+$string['privacy:metadata:aicc:externalpurpose'] = 'Plugin honek AICC HACP erabilita datuak kanpora bidaltzen ditu.';
+$string['privacy:metadata:aicc_session:lessonstatus'] = 'Jarraituko diren ikasgaiaren egoerak';
+$string['privacy:metadata:aicc_session:scormmode'] = 'Jarraituko den elementuaren modua';
+$string['privacy:metadata:aicc_session:scormstatus'] = 'Jarraituko den elementuaren egoera';
+$string['privacy:metadata:aicc_session:sessiontime'] = 'Jarraituko den saioaren iraupen-denbora';
+$string['privacy:metadata:aicc_session:timecreated'] = 'Jarraitutako elementua sortu zeneko unea';
+$string['privacy:metadata:attempt'] = 'Saiakeraren zenbakia';
+$string['privacy:metadata:scoes_track:element'] = 'Jarraitutako elementuaren izena';
+$string['privacy:metadata:scoes_track:value'] = 'Emandako elementuaren balioa';
+$string['privacy:metadata:scorm_aicc_session'] = 'AICC HACP-aren saioaren informazioa';
+$string['privacy:metadata:scorm_scoes_track'] = 'Jarduerarenak diren jarraitutako SCO-en datuak';
+$string['privacy:metadata:timemodified'] = 'Jarraitutako elementua azkenengoz aldatu zeneko unea';
+$string['privacy:metadata:userid'] = 'SCORM jardueran sartu zen erabiltzailearen IDa';
 $string['protectpackagedownloads'] = 'Babestu paketeen deskargak';
 $string['protectpackagedownloads_desc'] = 'Gaituz gero, SCORM paketeak soilik course:manageactivities gaitasuna duten erabiltzaileek jaitsi ahal izango dute. Desgaituz gero, SCORM paketeak beti jaitsi ahal izango dira (gailu mugikorrak edo bestelakoak izan arren).';
 $string['raw'] = 'Puntuazio gordina';
@@ -301,7 +328,7 @@ $string['report'] = 'Txostena';
 $string['reportcountallattempts'] = '{$a->nbusers} erabiltzailek {$a->nbattempts} saiakera egin dute eta {$a->nbresults} emaitza lortu dituzte';
 $string['reportcountattempts'] = '{$a->nbresults} emaitzak ({$a->nbusers} erabiltzaileak)';
 $string['reports'] = 'Txostenak';
-$string['repositorynotsupported'] = 'imsmanifest.xml fitxategiak zuzenean estekatzeko fitxategi-sistemako biltegiak bakarrik erabili daitezke.';
+$string['repositorynotsupported'] = 'Biltegi honek ez du onartzen imsmanifest.xml fitxategiak zuzenean estekatzea.';
 $string['response'] = 'Erantzuna';
 $string['result'] = 'Emaitza';
 $string['results'] = 'Emaitzak';
@@ -317,8 +344,8 @@ $string['scormclose'] = 'Noiz arte eskuragarri';
 $string['scormcourse'] = 'Ikasteko ikastaroa';
 $string['scorm:deleteownresponses'] = 'Ezabatu norberaren saiakerak';
 $string['scorm:deleteresponses'] = 'Ezabatu SCORM saiakerak';
-$string['scormloggingoff'] = 'API sarbidea itxita';
-$string['scormloggingon'] = 'API sarbidea zabalik';
+$string['scormloggingoff'] = 'API sarbidea itxita dago';
+$string['scormloggingon'] = 'API sarbidea zabalik dago';
 $string['scormopen'] = 'Noiztik eskuragarri';
 $string['scormresponsedeleted'] = 'Erabiltzailearen saiakerak ezabatuta';
 $string['scorm:savetrack'] = 'Gorde pistak';

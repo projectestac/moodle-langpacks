@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_cohort', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_cohort', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_cohort
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,4 +34,5 @@ $string['defaultgroupnametext'] = '{$a->name} σύνολο χρηστών {$a->i
 $string['instanceexists'] = 'Αυτό το σύνολο χρηστών είναι ήδη συγχρονισμένο με τον επιλεγμένο ρόλο';
 $string['pluginname'] = 'Συγχρονισμός συνόλων χρηστών';
 $string['pluginname_desc'] = 'Το πρόσθετο εγγραφής συνόλων χρηστών συγχρονίζει τα μέλη ενός συνόλου χρηστών με τους συμμετέχοντες ενός μαθήματος (εγγράφει τα μη εγγεγραμένα).';
+$string['privacy:metadata:core_group'] = 'Το πρόσθετο εγγραφής συνόλου χρηστών μπορεί να δημιουργήσει μια νέα ομάδα ή να χρησιμοποιήσει μια υπάρχουσα ομάδα για να προσθέσει όλα τα μέλη του συνόλου χρηστών.';
 $string['status'] = 'Ενεργός';

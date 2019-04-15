@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_mediaplugin', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'filter_mediaplugin', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   filter_mediaplugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,3 +31,4 @@ $string['filtername'] = 'Engadidos multimedia';
 $string['linktomedia'] = 'O filtro de engadidos multimedia atopa unha ligazón no texto que apunta a un recurso multimedia e substitúe a ligazón cun código de reprodutor multimedia axeitado que pode reproducir o recurso. Tamén substitúe as etiquetas &lt;vídeo&gt; e &lt;son&gt; cos reprodutores de vídeo e son seleccionados.
 
 <a href="{$a}">Xestionar os reprodutores multimedia</a>';
+$string['privacy:metadata'] = 'O engadido de multimedia non almacena ningún dato persoal.';

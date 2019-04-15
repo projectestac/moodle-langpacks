@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_meta', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_meta', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_meta
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,5 +38,6 @@ $string['nosyncroleids'] = 'Ruoli non sincronizzati';
 $string['nosyncroleids_desc'] = 'Di default tutte le assegnazioni di ruolo a livello di corso vengono sincronizzate dal corso padre al corso figlio. E\' possibile selezionare i ruoli che non si desidera sincronizzare. I ruoli saranno aggiornati al prossimo elaboarazione del cron.';
 $string['pluginname'] = 'Collegamento meta corso';
 $string['pluginname_desc'] = 'Il plugin di iscrizione collegamento meta corso sincronizza le iscrizioni e i ruoli in due corsi diversi.';
+$string['privacy:metadata:core_group'] = 'Il plugin di iscrizione "Collegamento meta corso" può creare un nuovo gruppo o usare un gruppo esistente dove inserire i gli iscritti al corso collegato.';
 $string['syncall'] = 'Sincronizza tutti gli utenti iscritti';
 $string['syncall_desc'] = 'Consente di sincronizzare tutti gli utenti, anche se privi di ruolo nel corso padre. In alternativa saranno sincronizzati nei corsi figli solo gli utenti con almeno un ruolo.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeexport_xml', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradeexport_xml', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   gradeexport_xml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,5 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['eventgradeexported'] = 'Esportate valutazione in XML';
 $string['pluginname'] = 'Formato XML';
+$string['privacy:metadata'] = 'Il plugin per l\'esportazione delle valutazioni \'Formato XML\' non memorizza dati personali.';
 $string['xml:publish'] = 'Pubblicare le valutazioni in formato XML';
 $string['xml:view'] = 'Esportare le valutazioni in formato XML';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'de', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository', language 'de', branch 'MOODLE_34_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,9 +47,8 @@ $string['attachedfiles'] = 'Anhängende Dateien';
 $string['attachment'] = 'Anhang';
 $string['author'] = 'Autor/in';
 $string['automatedbackup'] = 'Automatisierte Sicherungen';
-$string['back'] = '« Zurück';
-$string['backtodraftfiles'] = '	
-« Zurück zur einfachen Dateiverwaltung';
+$string['back'] = 'Zurück';
+$string['backtodraftfiles'] = 'Zurück zum Dateimanager für Entwürfe';
 $string['cachecleared'] = 'Cache-Dateien gelöscht';
 $string['cacheexpire'] = 'Cache ungültig';
 $string['cannotaccessparentwin'] = 'Falls das übergeordnete Fenster HTTPS benutzt, darf das Objekt window.opener nicht benutzt werden. Deswegen kann die Anzeige nicht automatisch aktualisiert werden. Bitte gehen Sie zurück in die Dateiauswahl und wählen Sie das Repository erneut aus. Jetzt sollte es funktionieren!';
@@ -157,8 +156,10 @@ $string['linkexternal'] = 'Extern verlinken';
 $string['listview'] = 'Listenansicht';
 $string['loading'] = 'Wird geladen...';
 $string['login'] = 'Mit Ihrem Nutzerkonto anmelden';
+$string['logintoaccount'] = 'Anmeldung zu Ihrem Nutzerkonto {$a}';
 $string['logout'] = 'Abmelden';
 $string['lostsource'] = 'Fehler. Quelle nicht gefunden. {$a}';
+$string['makefilecontrolledlink'] = 'Zugriffsgesteuerten Link anlegen';
 $string['makefileinternal'] = 'Kopie der Datei anlegen';
 $string['makefilelink'] = 'Direkt zur Datei verlinken';
 $string['makefilereference'] = 'Alias/Verknüpfung zur Datei anlegen';
@@ -196,6 +197,15 @@ $string['pluginnamehelp'] = 'Wenn Sie dieses Feld leer lassen, wird der Standard
 $string['popup'] = 'Zum Einloggen klicken Sie auf den Login-Button';
 $string['popupblockeddownload'] = 'Das Download-Fenster ist blockiert. Bitte erlauben Sie Popup-Fenster in Ihrem Browser und versuchen es noch einmal.';
 $string['preview'] = 'Vorschau';
+$string['privacy:metadata:repository'] = 'Die Repository-Komponente speichert die Repository-Typen im Core-System.';
+$string['privacy:metadata:repository_instances'] = 'Das Repository-Plugin speichert nutzereigene Repository-Instanzen im Core-System.';
+$string['privacy:metadata:repository_instances:name'] = 'Individuell vergebene Bezeichnung der Repository-Instanz';
+$string['privacy:metadata:repository_instances:password'] = 'Optionales Paswort für die Repository Instanz';
+$string['privacy:metadata:repository_instances:timecreated'] = 'Datum/Zeitpunkt, an dem die Repository-Instanz erstellt wurde';
+$string['privacy:metadata:repository_instances:timemodified'] = 'Datum/Zeit der Änderung der Repository-Instanz';
+$string['privacy:metadata:repository_instances:typeid'] = 'ID-Typ der Repository-Instanz';
+$string['privacy:metadata:repository_instances:userid'] = 'ID des Nutzers der Repository-Instanz';
+$string['privacy:metadata:repository_instances:username'] = 'Optionaler Nutzername für die Repository-Instanz';
 $string['privatefilesof'] = '{$a} Meine Dateien';
 $string['readonlyinstance'] = 'Sie können keinen schreibgeschützten Eintrag bearbeiten oder löschen';
 $string['referencesexist'] = '{$a} Aliase/Verknüpfungen zu dieser Datei';
@@ -237,6 +247,7 @@ $string['typenotvisible'] = 'Typ nicht sichtbar';
 $string['undisclosedreference'] = '(verborgen)';
 $string['undisclosedsource'] = '(verborgen)';
 $string['unknownoriginal'] = 'Unbekannt';
+$string['unknownsource'] = 'Unbekannte Quelle';
 $string['unzipped'] = 'Erfolgreich entpackt';
 $string['upload'] = 'Datei hochladen';
 $string['uploading'] = 'Wird hochgeladen...';

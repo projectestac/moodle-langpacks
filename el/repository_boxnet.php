@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_boxnet', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_boxnet', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_boxnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,8 @@ $string['nullfilelist'] = 'Δεν υπάρχουν αρχεία σε αυτό τ
 $string['password'] = 'Κωδικός πρόσβασης';
 $string['pluginname'] = 'Διαδικτυακή αποθήκευση Box.net';
 $string['pluginname_help'] = 'Χώρος αποθήκευσης στο Box';
+$string['privacy:metadata:repository_boxnet'] = 'Το πρόσθετο «Αποθετήριο Box» δεν αποθηκεύει κανένα προσωπικό δεδομένο αλλά μεταβιβάζει δεδομένα χρήστη από το Moodle προς το απομακρυσμένο σύστημα.';
+$string['privacy:metadata:repository_boxnet:query'] = 'Το κείμενο αναζήτησης ερωτήματος χρήστη του αποθετηρίου Box.';
 $string['saved'] = 'Τα δεδομένα του Box αποθηκεύτηκαν';
 $string['shareurl'] = 'Διαμοιρασμός της τοποθεσίας';
 $string['username'] = 'Όνομα χρήστη για το Box';

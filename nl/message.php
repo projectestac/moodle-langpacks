@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'message', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,10 +66,10 @@ $string['hidemessagewindow'] = 'Verberg bericht venster';
 $string['hidenotificationwindow'] = 'Verberg kennisgeving venster';
 $string['keywords'] = 'Sleutelwoorden';
 $string['loggedin'] = 'Online';
-$string['loggedindescription'] = 'Wanneer je aangemeld bent in Moodle';
+$string['loggedindescription'] = 'Wanneer ik aangemeld ben in Moodle';
 $string['loggedin_help'] = 'Configureren hoe ik de meldingen zou willen ontvangen wanneer ik aangemeld bent bij Moodle';
 $string['loggedoff'] = 'Offline';
-$string['loggedoffdescription'] = 'Wanneer je niet aangemeld bent in Moodle';
+$string['loggedoffdescription'] = 'Wanneer ik niet aangemeld ben in Moodle';
 $string['loggedoff_help'] = 'Configureren hoe ik de meldingen zou willen ontvangen wanneer ik niet aangemeld bent bij Moodle';
 $string['managemessageoutputs'] = 'Beheer berichtenoutput';
 $string['message'] = 'Bericht';
@@ -107,6 +107,12 @@ $string['outputnotconfigured'] = 'Niet geconfigureerd';
 $string['page-message-x'] = 'Alle berichtenpagina\'s';
 $string['pagerefreshes'] = 'Deze pagina ververst automatisch om de {$a} seconden';
 $string['permitted'] = 'Toegestaan';
+$string['privacy:metadata:message_contacts'] = 'De lijst met contacten';
+$string['privacy:metadata:message_contacts:blocked'] = 'Markeer als de gebruiker geblokkeerd is';
+$string['privacy:metadata:message_contacts:contactid'] = 'De ID van de gebruiker die een contact is';
+$string['privacy:metadata:message_contacts:userid'] = 'De ID van de gebruiker van wie we de contactenlijst bekijken';
+$string['privacy:metadata:preference:core_message_settings'] = 'Instellingen die verband houden met berichten';
+$string['privacy:request:preference:set'] = 'De waarde van de instelling \'{$a->name}\' was \'{$a->value}\'';
 $string['processorsettings'] = 'Processor instellingen';
 $string['recent'] = 'Recent';
 $string['removecontact'] = 'Verwijder contactpersoon';
@@ -123,6 +129,10 @@ $string['seeall'] = 'Bekijk alles';
 $string['selectmessagestodelete'] = 'Selecteer te verwijderen berichten';
 $string['selectnotificationtoview'] = 'Selecteer uit de lijst met meldingen aan de zijkant om meer details te bekijken';
 $string['send'] = 'Verstuur';
+$string['sendbulkmessage'] = 'Verstuur bericht naar {$a} mensen';
+$string['sendbulkmessagesent'] = 'Bericht verstuurd naar {$a} mensen';
+$string['sendbulkmessagesentsingle'] = 'Bericht verstuurd naar 1 persoon';
+$string['sendbulkmessagesingle'] = 'Verstuur bericht naar 1 persoon';
 $string['sendingvia'] = '\'{$a->provider }\' via \'{$a->processor}\' aan het versturen';
 $string['sendingviawhen'] = '\'{$a->provider }\' via \'{$a->processor}\' aan het versturen wanneer {$a->state}';
 $string['sendmessage'] = 'Stuur bericht';
@@ -141,6 +151,7 @@ $string['togglemessagemenu'] = 'Berichten menu aan / uit zetten';
 $string['togglenotificationmenu'] = 'Meldingen menu aan / uit zetten';
 $string['touserdoesntexist'] = 'Je kunt geen bericht sturen naar gebruikersID ({$a}) dat niet bestaat';
 $string['unblockcontact'] = 'deblokkeer deze contactpersoon';
+$string['unknownuser'] = 'Onbekende gebruiker';
 $string['unreadnewmessage'] = 'Nieuw bericht van {$a}';
 $string['unreadnotification'] = 'Ongelezen meldingen: {$a}';
 $string['userisblockingyou'] = 'Deze gebruiker heeft je geblokkeerd om berichten naar hem te sturen';

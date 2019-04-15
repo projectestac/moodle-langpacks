@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_numerrors', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopform_numerrors', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopform_numerrors
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,3 +43,5 @@ $string['maperror'] = 'Le nombre d\'erreurs pondéré est inférieur ou égal à
 $string['mapgrade'] = 'Note pour le travail remis';
 $string['percents'] = '{$a} %';
 $string['pluginname'] = 'Nombre d\'erreurs';
+$string['privacy:export:metadata:map'] = 'Si le nombre pondéré des erreurs atteint {$a->nonegative}, la note est alors de {$a->grade} pour-cents.';
+$string['privacy:metadata'] = 'Le plugin Nombre d\'erreurs n\'enregistre que des informations sur le formulaire d\'évaluation. Les données personnelles récoltées sont enregistrées par le plugin Atelier lui-même et sont annexées aux évaluations exportées.';

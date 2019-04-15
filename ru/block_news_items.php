@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_news_items', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_news_items', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   block_news_items
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['news_items:addinstance'] = 'Добавлять новый блок «Последние объявления»';
 $string['news_items:myaddinstance'] = 'Добавлять новый блок «Последние объявления» на страницу «Личный кабинет»';
 $string['pluginname'] = 'Последние объявления';
+$string['privacy:metadata'] = 'Блок «Последние объявления» только показывает данные, хранящиеся в форуме и сам по себе не хранит никаких данных.';

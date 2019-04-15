@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculatedmulti', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_calculatedmulti', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_calculatedmulti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,3 +32,4 @@ $string['pluginnameadding'] = 'Een berekende meerkeuzevraag toevoegen';
 $string['pluginnameediting'] = 'Berekende meerkeuzevraag bewerken';
 $string['pluginname_help'] = 'Berekende meerkeuzevragen zijn zoals meerkeuzevragen waar in de keuzemogelijkheden numerieke formuleresultaten kunnen gebruikt worden door gebruik te maken van jokers tussen accolades, die vervangen worden door individuele waarden wanneer de test wordt afgenomen. Bijvoorbeeld, als de vraag "Wat is de oppervlakte van een rechthoek met lengte {l} en breedte {b}?" is, dan kan één van de keuzes {={l}*{b}} zijn (waarbij * voor vermenigvuldiging staat)';
 $string['pluginnamesummary'] = 'Berekende meerkeuzevragen zijn zoals meerkeuzevragen waar in de keuzemogelijkheden numerieke formuleresultaten kunnen gebruikt worden door gebruik te maken van jokers tussen accolades, die vervangen worden door individuele waarden wanneer de test wordt afgenomen.';
+$string['privacy:metadata'] = 'De plug-in Calculated multichoice question slaat geen persoonlijke gegevens op.';

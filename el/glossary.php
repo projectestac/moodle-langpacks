@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'glossary', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -88,6 +88,7 @@ $string['comments'] = 'Σχόλια';
 $string['commentson'] = 'Σχόλια για';
 $string['commentupdated'] = 'Το σχόλιο ενημερώθηκε.';
 $string['completionentries'] = 'Ο μαθητής πρέπει να δημιουργήσει καταχωρήσεις:';
+$string['completionentriesdesc'] = 'Ο μαθητής πρέπει να δημιουργήσει τουλάχιστον {$a} καταχωρήσεις(η)';
 $string['completionentriesgroup'] = 'Απαιτούνται καταχωρήσεις';
 $string['concept'] = 'Έννοια';
 $string['concepts'] = 'Έννοιες';
@@ -105,6 +106,7 @@ $string['defaultsortorder'] = 'Προεπιλεγμένη σειρά ταξιν�
 $string['definition'] = 'Ορισμός';
 $string['definitions'] = 'Ορισμοί';
 $string['deleteentry'] = 'Διαγραφή εγγραφής';
+$string['deleteentrya'] = 'Διαγραφή καταχώρησης: {$a}';
 $string['deletenotenrolled'] = 'Διαγραφή των καταχωρήσεων από χρήστες που δεν έχουν εγγραφεί στο μάθημα';
 $string['deletingcomment'] = 'Διαγραφή σχολίου';
 $string['deletingnoneemptycategory'] = 'Διαγράφοντας αυτήν την κατηγορία δεν θα διαγραφούν οι εγγραφές που περιέχει- θα χαρακτηριστούν ως μη κατηγοριοποιημένες.';
@@ -138,6 +140,7 @@ $string['editalways'] = 'Επιτρέπεται πάντα επεξεργασί�
 $string['editalways_help'] = 'Αυτή η ρύθμιση καθορίζει εάν οι μαθητές θα μπορούν πάντα να επεξεργάζονται τις καταχωρήσεις τους ή εάν θα μπορούν μόνο εντός ενός ρυθμιζόμενου χρόνου επεξεργασίας (συνήθως 30 λεπτά).';
 $string['editcategories'] = 'Επεξεργασία κατηγοριών';
 $string['editentry'] = 'Επεξεργασία καταχώρησης';
+$string['editentrya'] = 'Επεξεργασία καταχώρησης: {$a}';
 $string['editingcomment'] = 'Επεξεργασία σχολίου...';
 $string['entbypage'] = 'Καταχωρήσεις ανά σελίδα';
 $string['entries'] = 'Καταχωρήσεις';
@@ -169,7 +172,7 @@ $string['evententryupdated'] = 'Η καταχώρηση ενημερώθηκε';
 $string['evententryviewed'] = 'Η καταχώρηση προβλήθηκε';
 $string['explainaddentry'] = 'Προσθέστε μια νέα καταχώρηση στο τρέχον γλωσσάριο.<br /> Η έννοια και ο ορισμός είναι υποχρεωτικά πεδία.';
 $string['explainall'] = 'Εμφανίζει όλες τις καταχωρήσεις σε μια σελίδα';
-$string['explainalphabet'] = 'Προβολή του γλωσσαρίου χρησιμοποιώντας αυτό το ευρετήριο';
+$string['explainalphabet'] = 'Περιήγηση στο γλωσσάριο χρησιμοποιώντας αυτό το ευρετήριο';
 $string['explainexport'] = 'Πατήστε το κουμπί παρακάτω για να εξάγετε τις καταχωρήσεις γλωσσαρίου.<br />Μπορείτε να τις εισάγετε όποτε θελήσετε σε αυτό ή σε άλλο μάθημα. <p>Παρακαλούμε σημειώστε πως τα συνημμένα (π.χ. εικόνες) και οι συγγραφείς δεν εξάγονται.</p>';
 $string['explainimport'] = 'Πρέπει να προσδιορίσετε το αρχείο εισαγωγής και να ορίσετε τα κριτήρια της διαδικασίας.<p>Υποβάλετε το αίτημά σας και εξετάστε τα αποτελέσματα.</p>';
 $string['explainspecial'] = 'Εμφάνιση καταχωρήσεων που δεν ξεκινάνε με γράμμα';
@@ -211,6 +214,10 @@ $string['importedentries'] = 'Εισαγόμενες καταχωρήσεις';
 $string['importentries'] = 'Εισαγωγή καταχωρήσεων';
 $string['importentriesfromxml'] = 'Εισαγωγή καταχωρήσεων από αρχείο XML';
 $string['includegroupbreaks'] = 'Περιλαμβάνονται οι διαχωριστές ομάδων';
+$string['indicator:cognitivedepth'] = 'Βάθος κατανόησης γλωσσαρίου';
+$string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα γλωσσαρίου.';
+$string['indicator:socialbreadth'] = 'Κοινωνικό εύρος γλωσσαρίου';
+$string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα γλωσσαρίου.';
 $string['isglobal'] = 'Είναι αυτό το γλωσσάριο καθολικό;';
 $string['isglobal_help'] = 'Ένα καθολικό γλωσσάριο έχει καταχωρήσεις με συνδέσμους από ολόκληρο τον ιστότοπο, παρά από το μάθημα μόνο στο οποίο περιλαμβάνεται. Μόνο διαχειριστές μπορούν να ορίσουν ένα γλωσσάριο ως καθολικό.';
 $string['letter'] = 'γράμμα';
@@ -253,9 +260,22 @@ $string['popupformat'] = 'Μορφή αναδυόμενου';
 $string['print'] = 'Εκτύπωση';
 $string['printerfriendly'] = 'Έκδοση φιλική για τον εκτυπωτή';
 $string['printviewnotallowed'] = 'Η προβολή εκτύπωσης δεν επιτρέπεται';
+$string['privacy'] = 'Απόρρητο των αποτελεσμάτων';
+$string['privacy:metadata:core_comments'] = 'Τα σχόλια που γίνονται στους ορισμούς του γλωσσαρίου αποθηκεύονται χρησιμοποιώντας το σύστημα core_comment';
+$string['privacy:metadata:core_files'] = 'Τα αρχεία που συνδέονται με ορισμούς γλωσσαρίου αποθηκεύονται χρησιμοποιώντας το σύστημα core_files';
+$string['privacy:metadata:core_rating'] = 'Οι αξιολογήσεις που προστίθενται στις καταχωρήσεις γλωσσαρίου αποθηκεύονται χρησιμοποιώντας το σύστημα core_rating';
+$string['privacy:metadata:core_tag'] = 'Οι ετικέτες που προστίθενται στους ορισμούς γλωσσαρίου αποθηκεύονται χρησιμοποιώντας το σύστημα core_tag';
+$string['privacy:metadata:glossary_entries'] = 'Πληροφορίες σχετικά με τις καταχωρήσεις του χρήστη για μια συγκεκριμένη δραστηριότητα γλωσσαρίου';
+$string['privacy:metadata:glossary_entries:attachment'] = 'Το συνημμένο της καταχώρησης που πρόσθεσε ο χρήστης';
+$string['privacy:metadata:glossary_entries:concept'] = 'Η έννοια της καταχώρησης που πρόσθεσε ο χρήστης';
+$string['privacy:metadata:glossary_entries:definition'] = 'Ο ορισμός της καταχώρησης που πρόσθεσε ο χρήστης';
+$string['privacy:metadata:glossary_entries:glossaryid'] = 'Το αναγνωριστικό της δραστηριότητας του γλωσσάριου';
+$string['privacy:metadata:glossary_entries:timemodified'] = 'Η χρονοσφραγίδα που επισημαίνει πότε η καταχώρηση γλωσσαρίου τροποποιήθηκε από τον χρήστη';
+$string['privacy:metadata:glossary_entries:userid'] = 'Το αναγνωριστικό του χρήστη που προσθέτει αυτήν την καταχώρηση γλωσσάριου';
 $string['question'] = 'Ερώτηση';
 $string['rejectedentries'] = 'Καταχωρήσεις που απορρίφθηκαν';
 $string['rejectionrpt'] = 'Αναφορά απόρριψης';
+$string['removeallglossarytags'] = 'Αφαίρεση όλων των ετικετών γλωσσαρίου';
 $string['resetglossaries'] = 'Διαγραφή καταχωρήσεων από';
 $string['resetglossariesall'] = 'Διαγραφή καταχωρήσεων από όλα τα γλωσσάρια';
 $string['rssarticles'] = 'Αριθμός πρόσφατων άρθρων τροφοδοσίας RSS';
@@ -280,6 +300,8 @@ $string['sortchronogically'] = 'Ταξινόμηση χρονολογικά';
 $string['special'] = 'Ειδικά';
 $string['standardview'] = 'Προβολή ανά αλφάβητο';
 $string['studentcanpost'] = 'Οι μαθητές μπορούν να κάνουν δημοσιεύσεις';
+$string['tagarea_glossary_entries'] = 'Καταχωρήσεις γλωσσαρίου';
+$string['tagsdeleted'] = 'Οι ετικέτες γλωσσαρίου διαγράφηκαν';
 $string['totalentries'] = 'Συνολικές καταχωρήσεις';
 $string['usedynalink'] = 'Αυτόματη δημιουργία συνδέσμων με τις καταχωρήσεις γλωσσαρίου';
 $string['usedynalink_help'] = 'Αν η αυτόματη δημιουργία συνδέσμων με τις καταχωρήσεις γλωσσαρίου είναι ενεργοποιημένη σε όλο τον ιστότοπο από έναν διαχειριστή και αυτή η ρύθμιση είναι ενεργοποιημένη, τότε η φόρμα «Προσθήκη νέας καταχώρησης» περιλαμβάνει την επιλογή αυτόματης δημιουργίας συνδέσμων με την καταχώρηση οπουδήποτε οι λέξεις ή φράσεις της έννοιας εμφανίζονται σε όλο το υπόλοιπο του μαθήματος.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_mnet_hosts', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_mnet_hosts', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   block_mnet_hosts
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,4 +31,5 @@ $string['error_roamcapabilityneeded'] = 'Пользователям необхо
 $string['mnet_hosts:addinstance'] = 'Добавлять новый блок «Сайты сети MNet»';
 $string['mnet_hosts:myaddinstance'] = 'Добавлять новый блок «Сайты сети MNet» на страницу «Личный кабинет»';
 $string['pluginname'] = 'Сайты сети MNet';
+$string['privacy:metadata'] = 'Блок «Сайты сети MNet» только позволяет взаимодействовать с серверами сети и сам по себе не хранит и не экспортирует никаких данных.';
 $string['server'] = 'Сайт';

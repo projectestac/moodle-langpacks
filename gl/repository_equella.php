@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_equella', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_equella', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_equella
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['equella:view'] = 'Ver o repositorio de EQUELLA';
 $string['group'] = '{$a} configuración de roles';
 $string['groupdefault'] = 'Predeterminado';
 $string['pluginname'] = 'Repositorio de EQUELLA';
+$string['privacy:metadata'] = 'O engadido de repositorio de EQUELLA almacena as preferencias do usuario e transmite os datos do usuario de Moodle ao sistema remoto.';
 $string['restrictionattachmentsonly'] = 'Só recursos anexados';
 $string['restrictionitemsonly'] = 'Só elementos de resumo';
 $string['restrictionnone'] = 'Sen restrición';

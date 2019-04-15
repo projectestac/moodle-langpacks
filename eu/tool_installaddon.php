@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_installaddon', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_installaddon', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_installaddon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,6 +49,7 @@ $string['permcheckrepeat'] = 'Egiaztatu berriz';
 $string['permcheckresultno'] = 'Ezin da idatzi plugin-motaren kokapenean <em>{$a->path}</em>';
 $string['permcheckresultyes'] = 'Plugin-motaren kokapenean <em>{$a->path}</em> idatzi daiteke';
 $string['pluginname'] = 'Plugin-instalatzailea';
+$string['privacy:metadata'] = 'Plugin-instalatzailea pluginak ez du datu pertsonalik biltzen.';
 $string['remoterequestalreadyinstalled'] = 'Gune honetan {$a->name} pluginaren ({$a->component}) {$a->version} bertsioa Moodle-ko plugin-biltegitik instalatzeko eskaera bat dago. Halere, plugin hau <strong>dagoeneko instalatuta</strong> dago gune honetan.';
 $string['remoterequestconfirm'] = 'Gune honetan <strong>{$a->name}</strong> ({$a->component}) pluginaren {$a->version} bertsioa Moodle-ko plugin-biltegitik instalatzeko eskaera bat dago. Jarraituz gero, pluginaren ZIP paketea balioztatzeko jaitsiko da. Oraindik ez da ezer instalatuko.';
 $string['remoterequestinvalid'] = 'Gune honetan plugin bat instalatzeko eskaera bat dago. Zoritxarrez eskaera baliogabea da eta beraz plugina ezin da instalatu.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_ldap', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_ldap', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -133,6 +133,7 @@ $string['pluginname_desc'] = '<p>Pode utilizar un servidor LDAP para controlar a
                           <p>Este engadido tamén pode ser definido para crear automaticamente novos
                           cursos ao aparecer grupos novos en LDAP.</p>';
 $string['pluginnotenabled'] = 'Engadido non activado!';
+$string['privacy:metadata'] = 'O engadido de LDAP non almacena ningún dato persoal.';
 $string['role_mapping'] = '<p>Por cada rol que queira asignar desde  LDAP, debe especificar a lista de contextos onde se atopan os grupos de roles do curso. Separe os contextos diferentes con «;».</p><p>Tamén necesita especificar o atributo que os seus servidores LDAP utilizan para conter os membros dun grupo. Adoita ser «membro» ou «Uidmembro»</p>';
 $string['role_mapping_attribute'] = 'Atributo do membro LDAP para {$a}';
 $string['role_mapping_context'] = 'Contextos LDAP para {$a}';
@@ -140,6 +141,7 @@ $string['role_mapping_key'] = 'Mapear roles de LDAP';
 $string['roles'] = 'Asignación de papeis';
 $string['server_settings'] = 'Configuración do servidor LDAP';
 $string['synccourserole'] = '== Sincronización do curso «{$a->idnumber}» para o rol «{$a->role_shortname}»';
+$string['syncenrolmentstask'] = 'Sincronizar a tarefas de matriculación';
 $string['template'] = 'Opcional: os cursos creados automaticamente poden copiar
                                   as súas configuracións dun modelo de curso.';
 $string['template_key'] = 'Modelo';

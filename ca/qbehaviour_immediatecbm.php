@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_immediatecbm', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_immediatecbm', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_immediatecbm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pleaseselectacertainty'] = 'Seleccioneu un nivell de certesa.';
 $string['pluginname'] = 'Retroacció immediata amb QBC (CBM)';
+$string['privacy:metadata'] = 'El connector de comportament de la pregunta Retroacció immediata amb QBC no emmagatzema cap dada personal.';

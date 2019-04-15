@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_behat', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_behat', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_behat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,7 +33,7 @@ $string['errordataroot'] = '$CFG->behat_datarootが設定されていないか�
 $string['errorsetconfig'] = 'config.php内で「$CFG->behat_dataroot」「$CFG->behat_prefix」および「$CFG->behat_wwwroot」を設定する必要があります。';
 $string['erroruniqueconfig'] = '「$CFG->behat_dataroot」「$CFG->behat_prefix」および「$CFG->behat_wwwroot」の値は「$CFG->dataroot」「$CFG->prefix」「$CFG->wwwroot」「$CFG->phpunit_dataroot」および「$CFG->phpunit_prefix」の値と異なる必要があります。';
 $string['fieldvalueargument'] = 'フィールド値変数';
-$string['fieldvalueargument_help'] = 'この変数にはフィールド値を設定してください。シンプルなチェックボックス、テキストエリア、セレクトまたは複雑な日付選択のような数多くのフィールドタイプがあります。あなたは提供するフィールドタイプに応じて期待されるフィールド値を確認するため<a href="http://docs.moodle.org/dev/Acceptance_testing#Providing_values_to_steps" target="_blank">フィールド値</a>を閲覧することができます。';
+$string['fieldvalueargument_help'] = 'この変数にはフィールド値を設定してください。シンプルなチェックボックス、テキストエリア、セレクトまたは複雑な日付選択を含む数多くのフィールドタイプがあります。期待されるフィールド値の詳細に関して<a href="http://docs.moodle.org/dev/Acceptance_testing" target="_blank">Acceptance_testing</a>をご覧ください。';
 $string['giveninfo'] = 'Given - 環境セットアップ作業';
 $string['infoheading'] = '情報';
 $string['installinfo'] = 'インストールおよびテスト実行情報に関して {$a} をご覧ください。';
@@ -41,6 +41,7 @@ $string['newstepsinfo'] = '新しいステップ定義の追加に関して {$a}
 $string['newtestsinfo'] = '新しいテストの記述に関して {$a} をご覧ください。';
 $string['nostepsdefinitions'] = 'このフィルタに合致するステップ定義はありません。';
 $string['pluginname'] = '受け入れテスト';
+$string['privacy:metadata'] = '受け入れテストプラグインはどのような個人データも保存しません。';
 $string['stepsdefinitionscomponent'] = 'エリア';
 $string['stepsdefinitionscontains'] = '含む';
 $string['stepsdefinitionsfilters'] = 'ステップ定義';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_database', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'logstore_database', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   logstore_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,6 +47,16 @@ $string['other'] = 'Άλλα';
 $string['participating'] = 'Συμμετέχοντες';
 $string['pluginname'] = 'Καταγραφές εξωτερικής βάσης δεδομένων';
 $string['pluginname_desc'] = 'Ένα πρόσθετο καταγραφών που αποθηκεύει καταγραφές σε έναν πίνακα εξωτερικής βάσης δεδομένων';
+$string['privacy:metadata:log'] = 'Μια συλλογή από παρελθόντα γεγονότα';
+$string['privacy:metadata:log:anonymous'] = 'Εάν το γεγονός επισημάνθηκε ως ανώνυμο';
+$string['privacy:metadata:log:eventname'] = 'Το όνομα του γεγονότος';
+$string['privacy:metadata:log:ip'] = 'Η διεύθυνση IP που χρησιμοποιούνταν την ώρα του γεγονότος';
+$string['privacy:metadata:log:origin'] = 'Η προέλευση του γεγονότος';
+$string['privacy:metadata:log:other'] = 'Επιπρόσθετες πληροφορίες σχετικά με το γεγονός';
+$string['privacy:metadata:log:realuserid'] = 'Το αναγνωριστικό του πραγματικού χρήστη πίσω από το γεγονός, κατά την απόκρυψη ενός χρήστη (με IP Masquerading, NAT κλπ.)';
+$string['privacy:metadata:log:relateduserid'] = 'Το αναγνωριστικό χρήστη που σχετίζεται με αυτό το γεγονός';
+$string['privacy:metadata:log:timecreated'] = 'Πότε συνέβη το γεγονος';
+$string['privacy:metadata:log:userid'] = 'Το αναγνωριστικό του χρήστη που ενεργοποίησε αυτό το γεγονός';
 $string['read'] = 'Διάβασμα';
 $string['tablenotfound'] = 'Ο πίνακας που προσδιορίστηκε δεν βρέθηκε';
 $string['teaching'] = 'Διδασκαλία';

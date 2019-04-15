@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_textarea', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'datafield_textarea', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   datafield_textarea
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,3 +29,4 @@ $string['fieldtypelabel'] = 'Текстовая область';
 $string['maxbytes'] = 'Максимальный размер вложенного файла (в байтах)';
 $string['maxbytes_desc'] = 'При установке нуля будет неограниченным по умолчанию';
 $string['pluginname'] = 'Текстовая область';
+$string['privacy:metadata'] = 'Компонент поля базы данных «Текстовая область» сам по себе не хранит никаких персональных данных, он использует таблицы, определенные в mod_data.';

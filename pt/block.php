@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   block
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,7 +44,7 @@ $string['defaultweight'] = 'Ordem predefinida';
 $string['defaultweight_help'] = 'A ordem predefinida permite que escolha a ordem pela qual será exibido o bloco. A localização final é calculada a partir de todos os blocos naquele local (por exemplo, apenas um bloco pode estar no topo da página). Se desejar, poderá alterar a ordem dos blocos na disciplina.';
 $string['deleteblock'] = 'Eliminar o bloco {$a}';
 $string['deleteblockcheck'] = 'Tem a certeza de que pretende apagar o bloco <strong>\'{$a}\'</strong>?';
-$string['deleteblockwarning'] = '<p>Está prestes a eliminar um bloco que está a ser utilizado noutra localização.</p><p>Localização original do bloco: {$a->location}<br />Mostrar em páginas do tipo: {$a->pagetype}</p><p>Tem a certeza de que pretende continuar?</p>';
+$string['deleteblockwarning'] = '<p>Está prestes a apagar um bloco que está a ser utilizado noutra localização.</p><p>Localização original do bloco: {$a->location}<br />Mostrar em páginas do tipo: {$a->pagetype}</p><p>Tem a certeza de que pretende continuar?</p>';
 $string['deletecheck'] = 'Apagar o bloco {$a}?';
 $string['dockblock'] = 'Mover o bloco {$a} para a consola';
 $string['hideblock'] = 'Ocultar o bloco {$a}';
@@ -59,6 +59,10 @@ $string['myblocks'] = 'Os meus blocos';
 $string['onthispage'] = 'Nesta página';
 $string['pagetypes'] = 'Tipos de página';
 $string['pagetypewarning'] = 'O tipo de  página especificado previamente já não pode ser selecionado. Por favor, escolha o tipo de página mais apropriado da lista seguinte.';
+$string['privacy:metadata:userpref:dockedinstance'] = 'Registo de quando o utilizador moveu o bloco';
+$string['privacy:metadata:userpref:hiddenblock'] = 'Registos de quando um utilizador colapsa/esconde um bloco';
+$string['privacy:request:blockisdocked'] = 'Indica se o bloco foi movido';
+$string['privacy:request:blockishidden'] = 'Indica se um bloco foi escondico/colapsado';
 $string['region'] = 'Posição';
 $string['restrictpagetypes'] = 'Mostrar nas páginas';
 $string['showblock'] = 'Mostrar o bloco {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_cohortroles', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_cohortroles', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_cohortroles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,14 @@ $string['noassignableroles'] = 'Δεν έχουν ανατεθεί ρόλοι σ
 $string['nocohortroleassignmentssaved'] = 'Δεν αποθηκεύτηκαν αναθέσεις ρόλου στην ομάδα χρηστών';
 $string['onecohortroleassignmentsaved'] = 'Αποθηκεύτηκε μια ανάθεση ρόλου στην ομάδα χρηστών';
 $string['pluginname'] = 'Διαχείριση ρόλων ομάδας χρηστών';
+$string['privacy:metadata:tool_cohortroles'] = 'Το πρόσθετο διαχείρισης ρόλων συνόλων χρηστών αποθηκεύει τις αντιστοιχίσεις ρόλων συνόλων χρηστών.';
+$string['privacy:metadata:tool_cohortroles:cohortid'] = 'Το αναγνωριστικό του συνόλου χρηστών';
+$string['privacy:metadata:tool_cohortroles:id'] = 'Το αναγνωριστικό του αρχείου αντιστοίχισης ρόλων';
+$string['privacy:metadata:tool_cohortroles:roleid'] = 'Το αναγνωριστικό του ρόλου';
+$string['privacy:metadata:tool_cohortroles:timecreated'] = 'Ο χρόνος δημιουργίας της αντιστοίχισης ρόλου συνόλου χρηστών';
+$string['privacy:metadata:tool_cohortroles:timemodified'] = 'Ο χρόνος τροποποίησης της αντιστοίχισης ρόλου συνόλου χρηστών';
+$string['privacy:metadata:tool_cohortroles:userid'] = 'Το αναγνωριστικό του χρήστη';
+$string['privacy:metadata:tool_cohortroles:usermodified'] = 'Το αναγνωριστικό του χρήστη που τροποποίησε τελευταία τη αντιστοίχιση του ρόλου συνόλου χρηστών';
 $string['removecohortroleassignment'] = 'Αφαίρεση ανάθεσης ρόλου στην ομάδα χρηστών';
 $string['removecohortroleassignmentconfirm'] = 'Είστε βέβαιοι ότι θέλετε να αφαιρέσετε αυτήν την ανάθεση ρόλου στην ομάδα χρηστών; Ο ρόλος αυτός θα αφαιρεθεί για τον χρήστη σε όλες τις άλλες περιπτώσεις χρήστη.';
 $string['selectcohorts'] = 'Επιλογή ομάδων χρηστών';

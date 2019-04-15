@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'glossary', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -90,6 +90,7 @@ $string['comments'] = 'Comentários';
 $string['commentson'] = 'Comentários sobre';
 $string['commentupdated'] = 'O comentário foi atualizado';
 $string['completionentries'] = 'Número de termos que os alunos têm de criar:';
+$string['completionentriesdesc'] = 'O aluno deve criar pelo menos {$a} entrada(s)';
 $string['completionentriesgroup'] = 'Número de termos exigido';
 $string['concept'] = 'Conceito';
 $string['concepts'] = 'Conceitos';
@@ -107,6 +108,7 @@ $string['defaultsortorder'] = 'Tipo de ordenação predefinida';
 $string['definition'] = 'Descrição';
 $string['definitions'] = 'Descrições';
 $string['deleteentry'] = 'Apagar termo';
+$string['deleteentrya'] = 'Apagar entrada: {$a}';
 $string['deletenotenrolled'] = 'Apagar todos os termos inseridos por utilizadores não inscritos';
 $string['deletingcomment'] = 'A apagar comentário';
 $string['deletingnoneemptycategory'] = 'A eliminação desta categoria não implica a eliminação dos termos nela contida - estes deixarão de pertencer a uma categoria.';
@@ -140,6 +142,7 @@ $string['editalways'] = 'Permitir editar sempre';
 $string['editalways_help'] = 'Esta configuração especifica se os termos podem ser editados a qualquer momento ou se o aluno só pode editar os termos que inseriu durante um período definido (geralmente 30 minutos).';
 $string['editcategories'] = 'Editar categorias';
 $string['editentry'] = 'Editar termo';
+$string['editentrya'] = 'Editar entrada: {$a}';
 $string['editingcomment'] = 'A editar comentário';
 $string['entbypage'] = 'Nº de termos por página';
 $string['entries'] = 'Termos';
@@ -213,6 +216,10 @@ $string['importedentries'] = 'Termos importados';
 $string['importentries'] = 'Importar termos';
 $string['importentriesfromxml'] = 'Importar termos de ficheiro XML';
 $string['includegroupbreaks'] = 'Incluir separadores de grupos';
+$string['indicator:cognitivedepth'] = 'Compreensão do Glossário';
+$string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno na atividade Glossário.';
+$string['indicator:socialbreadth'] = 'Socialização do Glossário';
+$string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno na atividade Glossário.';
 $string['isglobal'] = 'Este glossário é global?';
 $string['isglobal_help'] = 'Um glossário global contém termos que geram hiperligações em todo o site e não apenas da disciplina em que se encontra inserido. Apenas os administradores podem configurar um glossário como global.';
 $string['letter'] = 'letra';
@@ -264,13 +271,26 @@ $string['popupformat'] = 'Formato pop-up';
 $string['print'] = 'Imprimir';
 $string['printerfriendly'] = 'Versão de impressão';
 $string['printviewnotallowed'] = 'Não é permitida a vista de impressão';
+$string['privacy'] = 'Privacidade dos resultados';
+$string['privacy:metadata:core_comments'] = 'Comentários feitos nas definições do glossário são armazenados através o sistema core_comment';
+$string['privacy:metadata:core_files'] = 'Ficheiros ligados às definições do glossário são armazenados através do sistema  core_files';
+$string['privacy:metadata:core_rating'] = 'Avaliações adicionadas a entradas do glossário são armazenadas através do sistema core_rating';
+$string['privacy:metadata:core_tag'] = 'Palavras chave adicionadas às definições do glossário são armazenadas através do sistema core_rating';
+$string['privacy:metadata:glossary_entries'] = 'Informação sobre entradas do utilizador para uma determinada atividade do glossário';
+$string['privacy:metadata:glossary_entries:attachment'] = 'O anexo que o utilizador adicionou';
+$string['privacy:metadata:glossary_entries:concept'] = 'O conceito de entrada que o utilizador adicionou';
+$string['privacy:metadata:glossary_entries:definition'] = 'A definição de entrada que o utilizador adicionou';
+$string['privacy:metadata:glossary_entries:glossaryid'] = 'O ID da atividade Glossário';
+$string['privacy:metadata:glossary_entries:timemodified'] = 'A hora exata a indicar quando é que a entrada do glossário foi modificada pelo utilizador';
+$string['privacy:metadata:glossary_entries:userid'] = 'O ID do utilizador que está a adicionar esta entrada';
 $string['question'] = 'Pergunta';
 $string['rejectedentries'] = 'Termos rejeitados';
 $string['rejectionrpt'] = 'Relatório de rejeição';
+$string['removeallglossarytags'] = 'Remover todas as tags do glossário';
 $string['resetglossaries'] = 'Apagar termos de';
 $string['resetglossariesall'] = 'Apagar termos de todos os glossários';
-$string['rssarticles'] = 'Número de notícias RSS';
-$string['rssarticles_help'] = 'Defina o número de termos do glossário a publicar no RSS. É aceitável um valor de 5 a 20 termos.';
+$string['rssarticles'] = 'Número de artigos recentes na lista RSS';
+$string['rssarticles_help'] = 'Defina o número de termos do glossário a publicar na lista RSS. É aceitável um valor de 5 a 20 termos.';
 $string['rsssubscriberss'] = 'Mostrar a lista RSS para {$a} termos';
 $string['rsstype'] = 'Lista RSS para esta atividade';
 $string['rsstype_help'] = 'Para ativar listas RSS nesta atividade, selecione termos com autor ou termos sem autor a incluir na lista RSS.';
@@ -283,7 +303,7 @@ $string['showall_help'] = 'Se ativar esta opção, os participantes podem consul
 $string['showalphabet'] = 'Mostrar hiperligações para o alfabeto';
 $string['showalphabet_help'] = 'Se ativar esta opção, os participantes podem consultar os termos por letra inicial.';
 $string['showspecial'] = 'Mostrar a hiperligação Especial';
-$string['showspecial_help'] = 'Se ativar esta opção, os participantes podem pesquisar os termos iniciados por caracteres especiais como @ e #.';
+$string['showspecial_help'] = 'Se ativar esta opção, os participantes podem pesquisar os termos iniciados por carateres especiais como @ e #.';
 $string['sortby'] = 'Ordenar por';
 $string['sortbycreation'] = 'Por data de criação';
 $string['sortbylastupdate'] = 'Por última atualização';
@@ -291,6 +311,8 @@ $string['sortchronogically'] = 'Ordenar por ordem cronológica';
 $string['special'] = 'Especial';
 $string['standardview'] = 'Consultar por alfabeto';
 $string['studentcanpost'] = 'Os alunos podem adicionar termos';
+$string['tagarea_glossary_entries'] = 'Entrada do glóssário';
+$string['tagsdeleted'] = 'As tags do glossário foram apagadas';
 $string['totalentries'] = 'Todos os termos';
 $string['usedynalink'] = 'Criar automaticamente hiperligações para o glossário';
 $string['usedynalink_help'] = 'Se ativar esta opção e as hiperligações automáticas para o glossário estiverem ativas pelo administrador, ao adicionar um novo termo poderá ativar a opção "Criar automaticamente hiperligações para este termo" para que todas as ocorrências do termo nos conteúdos da disciplina tenham uma hiperligação para a respetiva definição no glossário.';

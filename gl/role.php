@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'role', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,8 @@ $string['allowroletooverride'] = 'Permitirlle aos usuarios co rol {$a->fromrole}
 $string['allowroletoswitch'] = 'Permitirlle aos usuarios co rol {$a->fromrole} cambiar ao rol {$a->targetrole}';
 $string['allowswitch'] = 'Permitir cambios de rol';
 $string['allsiteusers'] = 'Todos os usuarios do sitio';
+$string['analytics:listinsights'] = 'Listar ideas';
+$string['analytics:managemodels'] = 'Xestionar modelos';
 $string['archetype'] = 'Arquetipo de rol';
 $string['archetypecoursecreator'] = 'ARQUETIPO: Creador de cursos';
 $string['archetypeeditingteacher'] = 'ARQUETIPO: Profesor con permiso de edición';
@@ -168,6 +170,7 @@ $string['course:create'] = 'Crear cursos';
 $string['course:delete'] = 'Eliminar cursos';
 $string['course:enrolconfig'] = 'Configurar casos de matriculación en cursos';
 $string['course:enrolreview'] = 'Revisar matriculacións do curso';
+$string['course:ignoreavailabilityrestrictions'] = 'Ignorar as restricións de dispoñibilidade';
 $string['course:ignorefilesizelimits'] = 'Usar ficheiros mais grandes que o tamaño restrinxido de ficheiro';
 $string['course:isincompletionreports'] = 'Amosarse en informes de finalización';
 $string['course:manageactivities'] = 'Xestionar as actividades';
@@ -177,6 +180,7 @@ $string['course:managegroups'] = 'Xestionar grupos';
 $string['course:managescales'] = 'Xestionar escalas';
 $string['course:markcomplete'] = 'Marcar os usuarios como completado ao completar un curso';
 $string['course:movesections'] = 'Mover seccións';
+$string['course:overridecompletion'] = 'Anular o estado do completado da actividade';
 $string['course:publish'] = 'Publicar un curso no centro';
 $string['course:renameroles'] = 'Renomear os roles';
 $string['course:request'] = 'Solicitar novos cursos';
@@ -221,6 +225,7 @@ $string['errorbadrolename'] = 'Nome de rol incorrecto';
 $string['errorbadroleshortname'] = 'Nome curto de rol incorrecto';
 $string['errorexistsrolename'] = 'Xa existe ese nome de rol';
 $string['errorexistsroleshortname'] = 'Xa existe ese nome de rol';
+$string['errorroleshortnametoolong'] = 'O nome curto non debe exceder os 100 caracteres';
 $string['eventroleallowassignupdated'] = 'Permitir a asignación de rol';
 $string['eventroleallowoverrideupdated'] = 'Permitir a anulación de rol';
 $string['eventroleallowswitchupdated'] = 'Permitir cambio de rol';
@@ -322,6 +327,23 @@ $string['potentialusers'] = '{$a} usuarios potenciais';
 $string['potusers'] = 'Usuarios potenciais';
 $string['potusersmatching'] = 'Usuarios potenciais que coinciden con «{$a}»';
 $string['prevent'] = 'Impedir';
+$string['privacy:metadata:preference:showadvanced'] = 'Xestione o botón de alternar o modo avanzado.';
+$string['privacy:metadata:role_assignments'] = 'Asignacións de roles';
+$string['privacy:metadata:role_assignments:component'] = 'Engadido responsábel da asignación de roles, baleira cando se asigna manualmente.';
+$string['privacy:metadata:role_assignments:itemid'] = 'O ID da instancia de matriculación/autenticación responsábel desta asignación de rol';
+$string['privacy:metadata:role_assignments:modifierid'] = 'O ID do usuario que creou ou modificou a asignación de rol';
+$string['privacy:metadata:role_assignments:roleid'] = 'O ID do rol';
+$string['privacy:metadata:role_assignments:tableexplanation'] = 'Esta táboa almacena os roles asignados en cada contexto.';
+$string['privacy:metadata:role_assignments:timemodified'] = 'A data na que se creou ou modificou a asignación de rol.';
+$string['privacy:metadata:role_assignments:userid'] = 'O ID do usuario';
+$string['privacy:metadata:role_capabilities'] = 'Funcionalidades do rol';
+$string['privacy:metadata:role_capabilities:capability'] = 'O nome da funcionalidade.';
+$string['privacy:metadata:role_capabilities:modifierid'] = 'O ID do usuario que creou ou modificou a funcionalidade';
+$string['privacy:metadata:role_capabilities:permission'] = 'O permiso para unha funcionalidade: herdar, permitir, previr ou prohibir.';
+$string['privacy:metadata:role_capabilities:roleid'] = 'O ID do rol';
+$string['privacy:metadata:role_capabilities:tableexplanation'] = 'As funcionalidades e a anulación das funcionalidades para un rol particular nun contexto particular';
+$string['privacy:metadata:role_capabilities:timemodified'] = 'A data na que se creou ou modificou a funcionalidade';
+$string['privacy:metadata:role_cohortroles'] = 'Roles a círculos';
 $string['prohibit'] = 'Prohibir';
 $string['prohibitedroles'] = 'Prohibido';
 $string['question:add'] = 'Engadir novas preguntas';
@@ -414,7 +436,6 @@ $string['site:viewfullnames'] = 'Ver sempre os nomes completos dos usuarios';
 $string['site:viewparticipants'] = 'Ver participantes';
 $string['site:viewreports'] = 'Ver informes';
 $string['site:viewuseridentity'] = 'Ver a identidade completa do usuario nas listas';
-$string['tag:create'] = 'Crear novas etiquetas';
 $string['tag:edit'] = 'Editar as etiquetas existentes';
 $string['tag:editblocks'] = 'Editar bloques en páxinas de etiquetas';
 $string['tag:flag'] = 'Sinalar etiquetas como inapropiadas';
@@ -457,6 +478,7 @@ $string['viewingdefinitionofrolex'] = 'Vendo a definición do rol «{$a}»';
 $string['viewrole'] = 'Ver detalles do rol';
 $string['webservice:createmobiletoken'] = 'Crear unha ficha de servizo web para acceso de móbiles';
 $string['webservice:createtoken'] = 'Crear unha ficha de servizo web';
+$string['webservice:managealltokens'] = 'Xestionar as marcas de servizos web dos usuarios';
 $string['whydoesuserhavecap'] = 'Por que {$a->fullname} ten a funcionalidade de {$a->capability} no contexto {$a->context}?';
 $string['whydoesusernothavecap'] = 'Por que {$a->fullname} non ten a funcionalidade de {$a->capability} no contexto {$a->context}?';
 $string['xroleassignments'] = 'Tarefas do rol para {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_deferredcbm', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_deferredcbm', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_deferredcbm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,6 +67,7 @@ $string['judgementsummary'] = 'Respostas: {$a->responses}. Precisión: {$a->frac
 $string['noquestions'] = 'Sen respostas';
 $string['overconfident'] = 'confiado de máis';
 $string['pluginname'] = 'Comentario diferido con PCB';
+$string['privacy:metadata'] = 'O engadido de comentario diferido con PCB non almacena ningún dato persoal.';
 $string['slightlyoverconfident'] = 'un chisco confiado de máis';
 $string['slightlyunderconfident'] = 'un chisco desconfiado';
 $string['underconfident'] = 'desconfiado de máis';

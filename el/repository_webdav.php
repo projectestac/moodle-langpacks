@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_webdav', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_webdav', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_webdav
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['configplugin'] = 'Ρυθμίσεις WebDAV';
 $string['http'] = 'HTTP';
 $string['https'] = 'HTTPS';
 $string['pluginname'] = 'Χώρος Αποθήκευσης WebDAV';
+$string['privacy:metadata'] = 'Το πρόσθετο «Αποθετήριο WebDAV» δεν αποθηκεύει κανένα προσωπικό δεδομένο αλλά μεταβιβάζει δεδομένα χρήστη από το Moodle προς το απομακρυσμένο σύστημα.';
 $string['webdav'] = 'WebDAV';
 $string['webdavbasicauth'] = 'Βασική αυθεντικοποίηση WebDAV';
 $string['webdavdigestauth'] = 'Συνοπτική αυθεντικοποίηση WebDAV';

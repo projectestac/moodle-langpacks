@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_rubric', language 'en', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradingform_rubric', language 'en', branch 'MOODLE_34_STABLE'
  *
  * @package   gradingform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -60,6 +60,11 @@ $string['name'] = 'Name';
 $string['needregrademessage'] = 'The rubric definition was changed after this student had been graded. The student can not see this rubric until you check the rubric and update the grade.';
 $string['pluginname'] = 'Rubric';
 $string['previewrubric'] = 'Preview rubric';
+$string['privacy:metadata:criterionid'] = 'An identifier for a specific criterion being graded.';
+$string['privacy:metadata:fillingssummary'] = 'Stores information about the user\'s grade created by the rubric.';
+$string['privacy:metadata:instanceid'] = 'An identifier relating to a grade in an activity.';
+$string['privacy:metadata:levelid'] = 'The level obtained in the rubric.';
+$string['privacy:metadata:remark'] = 'Remarks related to the rubric criterion being assessed.';
 $string['regrademessage1'] = 'You are about to save changes to a rubric that has already been used for grading. Please indicate if existing grades need to be reviewed. If you set this then the rubric will be hidden from students until their item is regraded.';
 $string['regrademessage5'] = 'You are about to save significant changes to a rubric that has already been used for grading. The gradebook value will be unchanged, but the rubric will be hidden from students until their item is regraded.';
 $string['regradeoption0'] = 'Do not mark for regrade';

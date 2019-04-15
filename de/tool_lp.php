@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'de', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lp', language 'de', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -80,11 +80,11 @@ $string['coursecompetencyratingsarenotpushedtouserplans'] = 'Kompetenzbewertunge
 $string['coursecompetencyratingsarepushedtouserplans'] = 'Kompetenzbewertungen in diesem Kurs werden sofort in den Lernplänen aktualisiert.';
 $string['coursecompetencyratingsquestion'] = 'Wenn eine Kurskompetenz bewertet wird, verbessert diese Bewertung dann die Kompetenz in den Lernplänen oder wird die Bewertung nur auf den Kurs angewendet?';
 $string['coursesusingthiscompetency'] = 'Mit dieser Kompetenz verlinkte Kurse';
-$string['coveragesummary'] = '{$a->competenciescoveredcount} von {$a->competenciescount} allen Komptenzen sind abgedeckt ( {$a->coveragepercentage} % )';
+$string['coveragesummary'] = '{$a->competenciescoveredcount} von {$a->competenciescount} Komptenzen sind abgedeckt ( {$a->coveragepercentage} % )';
 $string['createlearningplans'] = 'Lernpläne anlegen';
 $string['createplans'] = 'Lernpläne anlegen';
 $string['crossreferencedcompetencies'] = 'Querverwiesene Kompetenzen';
-$string['default'] = 'Voreingestellt';
+$string['default'] = 'Automatisch';
 $string['deletecompetency'] = 'Kompetenz \'{$a}\' löschen?';
 $string['deletecompetencyframework'] = 'Kompetenzrahmen \'{$a}\' löschen?';
 $string['deletecompetencyparenthasrule'] = 'Kompetenz \'{$a}\' löschen? Sie entfernen auch Regeln, die für die übergeordnete Ebene gesetzt wurden.';
@@ -179,6 +179,7 @@ $string['planupdated'] = 'Lernplan aktualisiert';
 $string['pluginname'] = 'Lernpläne';
 $string['points'] = 'Punkte';
 $string['pointsgivenfor'] = 'Für \'{$a}\' vergebene Punkte';
+$string['privacy:metadata'] = 'Das Plugin \'Lernpläne\' speichert keine personenbezogenen Daten.';
 $string['proficient'] = 'Wählbar';
 $string['progress'] = 'Fortschritt';
 $string['rate'] = 'Wertung';
@@ -291,5 +292,5 @@ $string['visible_help'] = 'Ein Kompetenzrahmen kann verborgen werden, indem er a
 $string['when'] = 'Wenn';
 $string['xcompetencieslinkedoutofy'] = '{$a->x} von {$a->y} Kompetenzen sind mit Kursen verlinkt';
 $string['xcompetenciesproficientoutofy'] = '{$a->x} von {$a->y} Kompetenzen sind eingeübt';
-$string['xcompetenciesproficientoutofyincourse'] = 'Du bist in {$a->x} von {$a->y} Kompetenzen geübt';
+$string['xcompetenciesproficientoutofyincourse'] = 'Sie sind in {$a->x} von {$a->y} Kompetenzen geübt.';
 $string['xplanscompletedoutofy'] = '{$a->x} von {$a->y} Lernplänen sind für diese Vorlage fertiggestellt';

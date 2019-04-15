@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_singleview', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradereport_singleview', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   gradereport_singleview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,6 +45,7 @@ $string['gradefor'] = 'Cualificación para {$a}';
 $string['gradeitem'] = 'Elemento de cualificación: {$a}';
 $string['gradeitemcannotbeoverridden'] = 'Esta cualificación non pode ser anulada.';
 $string['gradeuser'] = 'Cualificar usuario: {$a}';
+$string['itemsperpage'] = 'Elementos por páxina';
 $string['noscreens'] = 'Non foi posíbel atopar unha pantalla de vista individual axeitada.';
 $string['notvalid'] = 'Non é unha pantalla de vista individual válida: {$a}';
 $string['override'] = 'Sobrescribir';
@@ -52,6 +53,7 @@ $string['overrideall'] = 'Anular todas as cualificacións';
 $string['overridefor'] = 'Anular para {$a}';
 $string['overridenone'] = 'Non anular ningunha cualificación';
 $string['pluginname'] = 'Vista individual';
+$string['privacy:metadata'] = 'O informe de vista individual de cualificacións só amosa datos almacenados noutros lugares.';
 $string['save'] = 'Gardar';
 $string['savegrades'] = 'Gardando as cualificacións';
 $string['savegradessuccess'] = 'As cualificacións fixáronse para {$a} elementos';

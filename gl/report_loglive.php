@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_loglive', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_loglive', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   report_loglive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,5 +36,6 @@ $string['loglive:view'] = 'Ver os rexistros activos';
 $string['nologreaderenabled'] = 'Non hai un lector de rexistros activado';
 $string['pause'] = 'Pausar as actualizacións activas';
 $string['pluginname'] = 'Rexistros activos';
+$string['privacy:metadata'] = 'O engadido de rexistros activos non almacena ningún dato persoal.';
 $string['resume'] = 'Resumir as actualizacións activas';
 $string['selectlogreader'] = 'Seleccionar o lector de rexistros';

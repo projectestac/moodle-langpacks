@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_flickr_public', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_flickr_public', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_flickr_public
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,6 +49,11 @@ $string['notitle'] = 'Χωρίς Τίτλο';
 $string['nullphotolist'] = 'Δεν υπάρχουν φωτογραφίες σε αυτό το λογαριασμό';
 $string['pluginname'] = 'Flickr για το κοινό';
 $string['pluginname_help'] = 'Χώρος Αποθήκευσης στο flickr.com';
+$string['privacy:metadata:repository_flickr_public'] = 'Το πρόσθετο «Δημόσιο αποθετήριο Flickr» δεν αποθηκεύει κανένα προσωπικό δεδομένο αλλά μεταβιβάζει δεδομένα χρήστη από το Moodle προς το απομακρυσμένο σύστημα.';
+$string['privacy:metadata:repository_flickr_public:author'] = 'Ο συγγραφέας περιεχομένου του δημόσιου αποθετηρίου του Flickr.';
+$string['privacy:metadata:repository_flickr_public:email_address'] = 'Η διεύθυνση ηλεκτρονικού ταχυδρομείου του χρήστη του δημόσιου αποθετηρίου Flickr.';
+$string['privacy:metadata:repository_flickr_public:text'] = 'Το κείμενο αναζήτησης χρήστη του δημόσιου αποθετηρίου Flickr.';
+$string['privacy:metadata:repository_flickr_public:user_id'] = 'Το αναγνωριστικό χρήστη του δημόσιου αποθετηρίου Flickr.';
 $string['remember'] = 'Να με θυμάσαι';
 $string['secret'] = 'Συνθηματικό (Secret)';
 $string['sharealike'] = 'Ναι, εφόσον όλοι χρησιμοποιούν παρόμοια διανομή';

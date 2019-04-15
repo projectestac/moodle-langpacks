@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_comments', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignfeedback_comments', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   assignfeedback_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,3 +34,8 @@ $string['default_help'] = 'Αν ενεργοποιηθεί, αυτή η μέθο
 $string['enabled'] = 'Σχόλια ανατροφοδότησης';
 $string['enabled_help'] = 'Αν ενεργοποιηθεί, ο βαθμολογητής μπορεί να αφήσει σχόλια ανατροφοδότησης για κάθε υποβολή.';
 $string['pluginname'] = 'Σχόλια ανατροφοδότησης';
+$string['privacy:commentpath'] = 'Σχόλια ανατροφοδότησης';
+$string['privacy:metadata:assignmentid'] = 'Αναγνωριστικό εργασίας';
+$string['privacy:metadata:commentpurpose'] = 'Το κείμενο σχολίου.';
+$string['privacy:metadata:gradepurpose'] = 'Το αναγνωριστικό βαθμού που σχετίζεται με το σχόλιο.';
+$string['privacy:metadata:tablesummary'] = 'Αυτό αποθηκεύει τα σχόλια που γίνονται από τους βαθμολογητές ως ανατροφοδότηση για τον μαθητή σχετικά με την υποβολή του.';

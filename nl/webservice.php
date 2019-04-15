@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'webservice', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -139,6 +139,7 @@ $string['norequiredcapability'] = 'Geen vereiste mogelijkheid';
 $string['notoken'] = 'De tokenlijst is leeg';
 $string['onesystemcontrolling'] = 'Een extern systeem toestaan Moodle te controleren';
 $string['onesystemcontrollingdescription'] = 'Onderstaande stappen helpen je om de Moodle webservice te configureren voor een systeem dat interageert met Moodle controleert (vb een leerlinginformatiesysteem). Deze stappen helpen je om de aangeraden tokenauthenticatiemethode (met beveiligingssleutels) te configureren.';
+$string['onlyseecreatedtokens'] = 'Elk token kan verwijderd worden, maar je kunt enkel tokens zien die jij gemaakt hebt.';
 $string['operation'] = 'Operatie';
 $string['optional'] = 'Optioneel';
 $string['passwordisexpired'] = 'Wachtwoord is verlopen';
@@ -148,6 +149,22 @@ $string['postrestparam'] = 'PHP-code voor REST (POST request)';
 $string['potusers'] = 'Niet-geauthoriseerde gebruikers';
 $string['potusersmatching'] = 'Overeenkomstige niet-geauthoriseerde gebruikers';
 $string['print'] = 'Druk alles af';
+$string['privacy:metadata:serviceusers'] = 'Een lijst met gebruikers die bepaalde externe services kunnen gebruiken';
+$string['privacy:metadata:serviceusers:iprestriction'] = 'IP beperkt om de service te gebruiken';
+$string['privacy:metadata:serviceusers:timecreated'] = 'De datum waarop de record gemaakt is';
+$string['privacy:metadata:serviceusers:userid'] = 'De ID van de gebruiker';
+$string['privacy:metadata:serviceusers:validuntil'] = 'De datum waarop de autorisatie eindigt';
+$string['privacy:metadata:tokens'] = 'Een record met tokens om te interageren met Moodle via web service of mobiele applicaties.';
+$string['privacy:metadata:tokens:creatorid'] = 'De ID van de gebruiker die het token gemaakt heeft';
+$string['privacy:metadata:tokens:iprestriction'] = 'IP beperkt om dit token te gebruiken';
+$string['privacy:metadata:tokens:lastaccess'] = 'De datum waarop dit token de laatste keer gebruikt is';
+$string['privacy:metadata:tokens:privatetoken'] = 'Een meer privaat token dat occasioneel gebruikt wordt om bepaalde operaties te valideren, zoals een SSO';
+$string['privacy:metadata:tokens:timecreated'] = 'De datum waarop dit token is gemaakt';
+$string['privacy:metadata:tokens:token'] = 'Het token van een gebruiker';
+$string['privacy:metadata:tokens:tokentype'] = 'Het token type';
+$string['privacy:metadata:tokens:userid'] = 'De ID van de gebruiker van wie dit token is';
+$string['privacy:metadata:tokens:validuntil'] = 'De geldigheidsdatum van dit token';
+$string['privacy:request:notexportedsecurity'] = 'Niet geëxporteerd om veiligheidsredenen';
 $string['protocol'] = 'Protocol';
 $string['removefunction'] = 'Verwijder';
 $string['removefunctionconfirm'] = 'Wil je echt de functie "{$a->function}"  van service "{$a->service}" verwijderen?';
@@ -177,6 +194,7 @@ $string['service'] = 'Service';
 $string['servicehelpexplanation'] = 'Een service is een functieset. Een service kan toegankelijk zijn voor alle gebruiker of slechts voor enkele bepaalde gebruikers.';
 $string['servicename'] = 'Servicenaam';
 $string['servicenotavailable'] = 'Webservices is niet beschikbaar (het bestaat niet of is uitgeschakeld)';
+$string['servicerequireslogin'] = 'Webservice is niet beschikbaar (de sessie is afgemeld of is verlopen)';
 $string['servicesbuiltin'] = 'Ingebouwde service';
 $string['servicescustom'] = 'Aangepaste services';
 $string['serviceusers'] = 'Geauthoriseerde gebruikers';
@@ -189,7 +207,7 @@ $string['step'] = 'Stap';
 $string['supplyinfo'] = 'Meer details';
 $string['testauserwithtestclientdescription'] = 'Simuleer externe toegang tot de service door de webservice test client te gebruiken. Voor je dat kunt doen, moet je aanmelden met de gebruiker die de "moodle/webservice:createtoken"-mogelijkheid heeft en moet je zijn veiligheidssleutel (token) via de voorkeuren-pagina van de gebruiker halen. Je zult dit token gebruiken in de testclient. In de testclient kies je ook een ingeschakeld protocol met tokenauthenticatie. <strong>Waarschuwing: de functies die je test WORDEN UITGEVOERD voor deze gebruiker. Wees voorzichtig wat je kiest om te testen!!!</strong>';
 $string['testclient'] = 'Webservice testclient';
-$string['testclientdescription'] = '* De webservice testcliënt <strong>voert de functies ECHT uit</strong>. Test geen functies die je niet ken.<br />* Alle bestaande webservice functies zijn nog niet geïmplementeerd in de testcliënt<br />* Om te controleren of een gebruiker geen toegang heeft tot sommige functies, kun je sommige functies testen die je niet toestaat. <br />* Om duidelijke foutmeldingen te krijgen kun debugging inschakelen naar {$a->mode} in {$a->atag}.';
+$string['testclientdescription'] = '* De webservice testclient <strong>voert de functies ECHT uit</strong>. Test geen functies die je niet ken.<br />* Alle bestaande webservice functies zijn nog niet geïmplementeerd in de testclient<br />* Om te controleren of een gebruiker geen toegang heeft tot sommige functies, kun je sommige functies testen die je niet toestaat. <br />* Om duidelijlke foutmeldingen te krijgen kun debugging inschakelen naar {$a->mode} in {$a->atag}.';
 $string['testwithtestclient'] = 'Test de service';
 $string['testwithtestclientdescription'] = 'Simuleer externe toegang tot de service met de webservice testclient. Gebruik een ingeschakeld protocol met tokenauthenticatie.<strong>Waarschuwing: de functies die je test ZULLEN UITGEVOERD WORDEN. Wees voorzichtig met wat je kiest om te testen</strong>';
 $string['token'] = 'Token';

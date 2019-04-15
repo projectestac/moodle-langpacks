@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_file', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignfeedback_file', language 'es', branch 'MOODLE_34_STABLE'
  *
  * @package   assignfeedback_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,6 +49,8 @@ $string['maximumsize'] = 'Tamaño máximo de archivo';
 $string['moreusers'] = '{$a} más...';
 $string['nochanges'] = 'Sin cambios';
 $string['pluginname'] = 'Archivo de retroalimentación';
+$string['privacy:metadata:filepurpose'] = 'Archivos de retroalimentación del profesor para el estudiante.';
+$string['privacy:path'] = 'Archivos de retroalimentación';
 $string['selectedusers'] = 'Usuarios seleccionados';
 $string['uploadfiles'] = 'Mandar archivos de retroalimentación';
 $string['uploadzip'] = 'Subir múltiples archivos de retroalimentación en un ZIP';

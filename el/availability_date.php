@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_date', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability_date', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   availability_date
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['full_from_date'] = 'Είναι στις ή μετά από <strong>{$a}
 $string['full_until'] = 'Η ημερομηνία είναι πριν από <strong>{$a}</strong>';
 $string['full_until_date'] = 'Η ημερομηνία είναι πριν από το τέλος <strong>{$a}</strong>';
 $string['pluginname'] = 'Περιορισμός με βάση την ημερομηνία';
+$string['privacy:metadata'] = 'Το πρόσθετο «Περιορισμός με βάση την ημερομηνία» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['short_from'] = 'Διατίθεται από <strong>{$a}</strong>';
 $string['short_from_date'] = 'Διατίθεται από <strong>{$a}</strong>';
 $string['short_until'] = 'Διατίθεται μέχρι <strong>{$a}</strong>';

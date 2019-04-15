@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_overview', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradereport_overview', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   gradereport_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,3 +29,4 @@ $string['eventgradereportviewed'] = 'Cijferoverzicht bekeken';
 $string['gradesoverview'] = 'Cijferoverzicht';
 $string['overview:view'] = 'Overzichtsrapport bekijken';
 $string['pluginname'] = 'Overzichtsrapport';
+$string['privacy:metadata'] = 'Het rapport cijfer overzicht geeft alleen gegevens weer die op andere locaties zijn opgeslagen.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lpmigrate', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lpmigrate', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lpmigrate
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,7 +54,7 @@ $string['limittothese'] = 'これらに制限する';
 $string['lpmigrate:frameworksmigrate'] = 'フレームワークを移行する';
 $string['migrateframeworks'] = 'フレームワークを移行する';
 $string['migratefrom'] = '移行元';
-$string['migratefrom_help'] = '現在使用している古いフレームワークを選択してください。';
+$string['migratefrom_help'] = '現在使用中の古いフレームワークを選択してください。';
 $string['migratemore'] = 'さらに移行する';
 $string['migrateto'] = '移行先';
 $string['migrateto_help'] = '新しいバージョンのフレームワークを選択してください。非表示ではないフレームワークのみ選択することができます。';
@@ -62,6 +62,7 @@ $string['migratingcourses'] = 'コース移行';
 $string['missingmappings'] = '不明マッピング';
 $string['performmigration'] = '移行を実行する';
 $string['pluginname'] = 'コンピテンシー移行ツール';
+$string['privacy:metadata'] = 'コンピテンシー移行ツールプラグインはどのような個人データも保存しません。';
 $string['results'] = '結果';
 $string['startdatefrom'] = '開始日';
 $string['unmappedin'] = '{$a} 内でのマップ解除';

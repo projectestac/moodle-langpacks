@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_log', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_log', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_log
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,9 +27,17 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actlogshdr'] = 'Unidades de armazenamento de registo disponíveis';
 $string['configlogplugins'] = 'Por favor, ative todos os módulos necessários e disponha-os pela ordem adequada.';
+$string['exportlog'] = 'Incluir relatórios ao realizar a exportação.';
+$string['exportlogdetail'] = 'Incluir relatórios relacionados com o utilizador a quando da exportação.';
 $string['logging'] = 'Ferramenta de registo';
 $string['managelogging'] = 'Gerir unidades de armazenamento de registo';
-$string['pluginname'] = 'Gestor de unidade de armazenamento de registo';
+$string['pluginname'] = 'Gestor do armazenamento do registo de atividade';
+$string['privacy:metadata:logstore'] = 'As unidade de armazenamento';
+$string['privacy:path:logs'] = 'Autenticações';
+$string['privacy:request:origin:cli'] = 'Linha de comando';
+$string['privacy:request:origin:restore'] = 'Backup a ser restaurado';
+$string['privacy:request:origin:web'] = 'Solicitação standard';
+$string['privacy:request:origin:ws'] = 'Aplicação móvel ou web service';
 $string['reportssupported'] = 'Relatórios suportados';
 $string['subplugintype_logstore'] = 'Unidade de armazenamento de registo';
 $string['subplugintype_logstore_plural'] = 'Unidades de armazenamento de registo';

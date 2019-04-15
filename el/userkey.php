@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'userkey', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'userkey', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   userkey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,14 @@ $string['keyvaliduntil'] = 'Το κλειδί ισχύει μέχρι';
 $string['keyvaliduntil_help'] = 'Επιλέξτε μια προαιρετική ημερομηνία μετά την οποία το κλειδί δεν θα είναι πλέον έγκυρο (συνιστάται για πρόσθετη ασφάλεια).';
 $string['keyvalue'] = 'Τιμή κλειδιού';
 $string['newuserkey'] = 'Νέο κλειδί χρήστη';
+$string['privacy:metadata:user_private_key'] = 'Ιδιωτικά κλειδιά για τον χρήστη.';
+$string['privacy:metadata:user_private_key:instance'] = 'Το στιγμιότυπο του σεναρίου.';
+$string['privacy:metadata:user_private_key:iprestriction'] = 'Το εύρος διευθύνσεων IP από το οποίες μπορεί να χρησιμοποιηθεί αυτό το κλειδί.';
+$string['privacy:metadata:user_private_key:script'] = 'Το σενάριο που είναι υπεύθυνο για το κλειδί του χρήστη.';
+$string['privacy:metadata:user_private_key:timecreated'] = 'Η ημερομηνία και η ώρα που δημιουργήθηκε το κλειδί.';
+$string['privacy:metadata:user_private_key:userid'] = 'Ο χρήστης που συσχετίζεται με το κλειδί.';
+$string['privacy:metadata:user_private_key:validuntil'] = 'Η ημερομηνία μέχρι την οποία  είναι έγκυρo το ιδιωτικό κλειδί';
+$string['privacy:metadata:user_private_key:value'] = 'Η αξία του κλειδιού.';
 $string['userkey'] = 'Κλειδί χρήστη';
 $string['userkey_help'] = 'Επιλέξτε ένα αποθηκευμένο κλειδί το οποίο θα παρέχει στους χρήστες πρόσβαση στα δεδομένα που έχουν δημοσιευθεί από αυτό το πρόσθετο εξαγωγής, χωρίς να απαιτείται σύνδεση στο Moodle. Επιλέξτε «Δημιουργία νέου κλειδιού χρήστη» για να δημιουργήσετε ένα νέο κλειδί όταν υποβάλλετε αυτή τη φόρμα.';
 $string['userkeys'] = 'Κλειδιά χρηστών';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_managefiles', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tinymce_managefiles', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tinymce_managefiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,6 +31,7 @@ $string['hasmissingfiles'] = 'Προειδοποίηση! Τα ακόλουθα 
 $string['manageareafiles'] = 'Διαχειριστείτε τα αρχεία που είναι ενσωματωμένα στον επεξεργαστή κειμένου';
 $string['managefiles:desc'] = 'Διαχείριση ενσωματωμένων αρχείων';
 $string['pluginname'] = 'Διαχείριση ενσωματωμένων αρχείων';
+$string['privacy:metadata'] = 'Το πρόσθετο «Διαχείριση ενσωματωμένων αρχείων» του TinyMCE δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['refreshfiles'] = 'Ανανέωση στις λίστες αρχείων που λείπουν και που δεν χρησιμοποιούνται';
 $string['unusedfilesdesc'] = 'Τα ακόλουθα ενσωματωμένα αρχεία δεν χρησιμοποιούνται στην περιοχή κειμένου:';
 $string['unusedfilesheader'] = 'Αχρησιμοποίητα αρχεία';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'survey', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,7 +66,7 @@ $string['attls4'] = 'Το πιο σημαντικό μέρος της εκπαί
 $string['attls4short'] = 'Καταλαβαίνω τους διαφορετικούς ανθρώπους';
 $string['attls5'] = 'Αισθάνομαι οτι ο καλύτερος τρόπος για μένα στο να επιτύχω τη δική μου ταυτότητα, είναι να αλληλεπιδράσω με την ποικιλία των άλλων ανθρώπων.';
 $string['attls5short'] = 'αλληλεπίδραση με ποικιλία';
-$string['attls6'] = 'Απολαμβάνω να ακούω τις απόψεις ανθρώπων οι οποίοι προέρχονται από διαφορετικά υπόβαθρα από το δικό μου - με βοηθάει να κατανοήσω πώς τα ίδια πράγματα μπορούν ειδοθούν με τόσο διαφορετικούς τρόπους.';
+$string['attls6'] = 'Απολαμβάνω να ακούω τις απόψεις ανθρώπων οι οποίοι προέρχονται από διαφορετικά υπόβαθρα από το δικό μου - με βοηθάει να κατανοήσω πώς τα ίδια πράγματα μπορούν να ιδωθούν με τόσο διαφορετικούς τρόπους.';
 $string['attls6short'] = 'Μου αρέσει να ακούω τις απόψεις';
 $string['attls7'] = 'Μπορώ να ενισχύσω τη δική μου γνώμη μέσω της συζήτησης με κάποιον που διαφωνεί μαζί μου.';
 $string['attls7short'] = 'ενίσχυση μέσω της συζήτησης';
@@ -183,6 +183,10 @@ $string['guestsnotallowed'] = 'Μόνο εγγεγραμμένοι χρήστε�
 $string['howlong'] = 'Πόση ώρα σας πήρε για να συμπληρώσετε αυτή την έρευνα;';
 $string['howlongoptions'] = 'Κάτω από 1 λεπτό, 1-2 λεπτά, 2-3 λεπτά, 3-4 λεπτά, 4-5-λεπτά, 5-10 λεπτά, περισσότερο από 10 λεπτά';
 $string['ifoundthat'] = 'Ανακάλυψα ότι';
+$string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Έρευνας';
+$string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Έρευνας.';
+$string['indicator:socialbreadth'] = 'Κοινωνικό εύρος Έρευνας';
+$string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Έρευνας.';
 $string['introtext'] = 'Κείμενο εισαγωγής';
 $string['invalidsurveyid'] = 'Εσφαλμένο id έρευνας';
 $string['invalidtmptid'] = 'Εσφαλμένο id τύπου';
@@ -204,6 +208,15 @@ $string['pluginname'] = 'Έρευνα';
 $string['preferred'] = 'Προτιμώμενες';
 $string['preferredclass'] = 'Προτιμώμενη τάξη';
 $string['preferredstudent'] = '{$a} προτιμάται';
+$string['privacy:metadata:analysis'] = 'Ένα ιστορικό της ανάλυσης των απαντήσεων της έρευνας.';
+$string['privacy:metadata:analysis:notes'] = 'Σημειώσεις που αποθηκεύονται σε σχέση με τις απαντήσεις ενός χρήστη.';
+$string['privacy:metadata:analysis:userid'] = 'Το αναγνωριστικό του χρήστη που απαντά στην έρευνα.';
+$string['privacy:metadata:answers'] = 'Μια συλλογή απαντήσεων σε έρευνες.';
+$string['privacy:metadata:answers:answer1'] = 'Πεδίο για την αποθήκευση της απάντησης σε μια ερώτηση.';
+$string['privacy:metadata:answers:answer2'] = 'Επιρόσθετο πεδίο για την αποθήκευση της απάντησης σε μια ερώτηση.';
+$string['privacy:metadata:answers:question'] = 'Η ερώτηση.';
+$string['privacy:metadata:answers:time'] = 'Πότε αναρτήθηκε η απάντηση.';
+$string['privacy:metadata:answers:userid'] = 'Το αναγνωριστικό του χρήστη που υπέβαλε την απάντησή του.';
 $string['question'] = 'Ερώτηση';
 $string['questions'] = 'Ερωτήσεις';
 $string['questionsnotanswered'] = 'Μερικές από τις ερωτήσεις πολλαπλής επιλογής δεν έχουν απαντηθεί.';

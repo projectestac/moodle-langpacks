@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_manual', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopallocation_manual', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopallocation_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,4 +32,5 @@ $string['allocationexists'] = 'De toewijzing bestaat al';
 $string['areyousuretodeallocate'] = 'Ben je er zeker van dat je de toewijzign van de geselecteerde evaluatie wil ongedaan maken?';
 $string['areyousuretodeallocategraded'] = 'Je gaat deze evaluatie met cijfers verwijderen. Ben je er zeker van dat je dit wil doen?';
 $string['pluginname'] = 'Handmatig toewijzen';
+$string['privacy:metadata:preference:perpage'] = 'Aantal toegewezen beoordelingen die de gebruiker wil zien op één pagina.';
 $string['showallparticipants'] = 'Toon alle deelnemers';

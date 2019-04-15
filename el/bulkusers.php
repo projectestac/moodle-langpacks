@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'bulkusers', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'bulkusers', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   bulkusers
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,7 @@ $string['allselectedusers'] = 'Όλοι οι επιλεγμένοι ({$a->count}
 $string['allusers'] = 'Όλοι οι χρήστες ({$a})';
 $string['available'] = 'Διαθέσιμοι';
 $string['confirmmessage'] = 'Θέλετε σίγουρα να στείλετε το παραπάνω μήνυμα σε όλους αυτούς τους χρήστες;<br />{$a}';
+$string['deleteduser'] = 'Διαγραμμένος χρήστης';
 $string['nofilteredusers'] = 'Δε βρέθηκαν χρήστες';
 $string['noselectedusers'] = 'Δεν επιλέχθηκαν χρήστες';
 $string['removeall'] = 'Αφαίρεση όλων';

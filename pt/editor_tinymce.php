@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'editor_tinymce', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -600,6 +600,7 @@ $string['paste:selectall_desc'] = 'Selecionar tudo';
 $string['pluginname'] = 'Editor HTML TinyMCE';
 $string['preview:preview_desc'] = 'Pré-visualização';
 $string['print:print_desc'] = 'Imprimir';
+$string['privacy:metadata'] = 'O módulo Editor TinyMCE não armazena dados pessoais.';
 $string['save:cancel_desc'] = 'Cancelar todas as alterações';
 $string['save:save_desc'] = 'Guardar';
 $string['searchreplace:delta_height'] = '';
@@ -767,7 +768,7 @@ $string['table_dlg:langdir'] = 'Direção do texto';
 $string['table_dlg:ltr'] = 'Da esquerda para a direita';
 $string['table_dlg:merge_cells_title'] = 'Unir células';
 $string['table_dlg:mime'] = 'MIME alvo';
-$string['table_dlg:missing_scope'] = 'Tem certeza de que pretende continuar sem especificar um contexto para esta célula? (Isso poderá causar dificuldades a utilizadores portadores de deficiência).';
+$string['table_dlg:missing_scope'] = 'Tem a certeza de que pretende continuar sem especificar um contexto para esta célula? (Isso poderá causar dificuldades a utilizadores portadores de deficiência).';
 $string['table_dlg:row_all'] = 'Atualizar todas as linhas';
 $string['table_dlg:row_even'] = 'Atualizar linhas pares';
 $string['table_dlg:rowgroup'] = 'Grupo da linha';

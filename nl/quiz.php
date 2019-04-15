@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -92,6 +92,9 @@ $string['attemptclosed'] = 'Poging is nog niet gesloten';
 $string['attemptduration'] = 'Gebruikte tijd';
 $string['attemptedon'] = 'Poging op';
 $string['attempterror'] = 'Je mag deze test nu niet proberen omdat:';
+$string['attempterrorcontentchange'] = 'Dit testvoorbeeld bestaat niet meer. (Als een test bewerkt wordt, dan worden automatische alle voorbeelden die bezig zijn verwijderd.)';
+$string['attempterrorcontentchangeforuser'] = 'Deze testpoging bestaat niet meer.';
+$string['attempterrorinvalid'] = 'Ongeldig testpogingsID';
 $string['attemptfirst'] = 'Eerste poging';
 $string['attemptincomplete'] = 'De poging (door {$a}) is nog niet voltooid.';
 $string['attemptlast'] = 'Laatste poging';
@@ -168,9 +171,11 @@ $string['commentorgrade'] = 'Geef commentaar of verander cijfer';
 $string['comments'] = 'Commentaren';
 $string['completedon'] = 'Voltooid op';
 $string['completionattemptsexhausted'] = 'Of alle beschikbare pogingen voltooid';
+$string['completionattemptsexhausteddesc'] = 'Voltooid als alle beschikbare pogingen opgebruikt zijn';
 $string['completionattemptsexhausted_help'] = 'Markeer vragen als voltooid wanneer leerlingen het maximum aantal pogingen gebruikt hebben.';
 $string['completionpass'] = 'Vereist cijfer om te slagen';
-$string['completionpass_help'] = 'Indien ingeschakeld wordt deze activiteit als voltooid beschouwd wanneer de leerling een geslaagd cijfer bereikt heeft, waarbij de voorwaarde om geslaagd te zijn is ingesteld in het cijferboek.';
+$string['completionpassdesc'] = 'Leerling moet het slaagcijfer behalen om deze activiteit te voltooien';
+$string['completionpass_help'] = 'Indien ingeschakeld wordt deze activiteit als voltooid beschouwd wanneer de leerling een geslaagd cijfer bereikt heeft (de voorwaarde om geslaagd te zijn is ingesteld in het cijfer-gedeelte van de instellingen van de test) of hoger.';
 $string['configadaptive'] = 'Als je ja kiest voor deze optie, dan zal de leerlingen de leerlingen meerdere antwoorden per vraag kunnen geven, zelfs binnen dezelfde test.';
 $string['configattemptsallowed'] = 'Beperking op het aantal keer dat leerlingen de test mogen proberen.';
 $string['configdecimaldigits'] = 'Aantal cijfers na de komma bij het tonen van het testresultaat.';
@@ -186,7 +191,7 @@ $string['configintro'] = 'De instellingen die je hier maakt bepalen de se standa
 $string['configmaximumgrade'] = 'Het standaard totaalcijfer.';
 $string['confignavmethod'] = 'In vrije navigatie kunnen vragen in gelijk welke volgorde beantwoord worden door te navigeren. In sequentiële modus moeten de vragen in strikte volgorde beantwoord worden.';
 $string['confignewpageevery'] = 'Wanneer je vragen toevoegd aan de test, dan zullen er automatisch paginascheidingen toegevoegd worden volgens de instelling die je hier maakt.';
-$string['configoutcomesadvanced'] = 'Als deze optie is ingeschakeld, dan zullen de resultaten op de bewerkpagina van de test, geavanceerde instellingen worden.';
+$string['configoutcomesadvanced'] = 'Als deze optie is ingeschakeld, dan zullen de competenties op de bewerkpagina van de test geavanceerde instellingen worden.';
 $string['configpenaltyscheme'] = 'Aantal strafpunten voor elk fout antwoord in adaptieve modus.';
 $string['configpopup'] = 'Dwing de testpoging in een pop-upvenster en gebruik javascript truukjes om kopiëren, plakken en dergelijke te verhinderen tijdens testen.';
 $string['configrequirepassword'] = 'Leerlingen moeten dit wachtwoord ingeven voor ze aan een test kunnen beginnen.';
@@ -291,7 +296,7 @@ Bedankt voor het insturen van je antwoorden voor \'{$a->quizname}\'
 uit de cursus \'{$a->coursename}\'
 op {$a->submissiontime}.
 
-Deze e-mail bevestigt dat we je antwoorden ontvangen hebben.
+Deze e-mail bevestigt dat  je antwoorden bewaard zijn.
 
 Je kunt deze test vinden op {$a->quizurl}.';
 $string['emailconfirmsmall'] = 'Bedankt voor het insturen van je antwoorden voor \'{$a->quizname}\'';
@@ -412,7 +417,7 @@ om het totaalcijfer op de test te berekenen.
 $string['gradesdeleted'] = 'Cijfers van de test verwijderd';
 $string['gradesofar'] = '{$a->method}: {$a->mygrade} / {$a->quizgrade}';
 $string['gradetopassmustbeset'] = 'Slaagcijfer kan geen nul zijn omdat de test is ingesteld om een slaagcijfer te behalen als voltooiingsmethode. Geef hier een andere waarde dan een nul.';
-$string['gradetopassnotset'] = 'Deze test heeft geen slaagcijfer ingesteld en daarom kun je deze optie niet gebruiken. Gebruik de vereist cijfer-instelling in de plaats.';
+$string['gradetopassnotset'] = 'Deze test heeft geen slaagcijfer ingesteld. Gebruik de vereist cijfer-instelling bij de instellingen van de test.';
 $string['gradingdetails'] = 'Punten voor deze inzending:
 {$a->raw}/{$a->max}';
 $string['gradingdetailsadjustment'] = 'Met de vorige strafpunten geeft dit
@@ -445,6 +450,10 @@ $string['importmaxerror'] = 'Er zit een fout in de vraag. Er zijn te veel antwoo
 $string['importquestions'] = 'Importeer vragen uit bestand';
 $string['inactiveoverridehelp'] = '* Leerling zit niet in de juste groep of heeft niet de juiste rol om de test te doen';
 $string['incorrect'] = 'Niet juist';
+$string['indicator:cognitivedepth'] = 'Test cognitief';
+$string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Test activiteit.';
+$string['indicator:socialbreadth'] = 'Test sociaal';
+$string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Test activiteit.';
 $string['indivresp'] = 'Antwoorden van ieder afzonderlijk op elk item';
 $string['info'] = 'Info';
 $string['infoshort'] = 'i';
@@ -577,13 +586,14 @@ $string['onlyteachersexport'] = 'Enkel leraren kunnen vragen exporteren';
 $string['onlyteachersimport'] = 'Enkel leraren met bewerkrechten kunnen vragen importeren';
 $string['onthispage'] = 'Op deze pagina';
 $string['open'] = 'Niet beantwoord';
+$string['openafterclose'] = 'Kon de test niet aanpassen. Je hebt een startdatum ingegeven na de einddatum.';
 $string['openclosedatesupdated'] = 'Open- en sluittijden aangepast';
 $string['optional'] = 'optioneel';
 $string['orderandpaging'] = 'Volgorde en paginering';
 $string['orderandpaging_help'] = 'De nummers 10, 20, 30 tegenover elke vraag duiden de volgorde van de vragen aan. De nummers verhogen per 10 om plaats te laten om bijkomende vragen in te voegen. Om de vragen van volgorde te veranderen, kun je de nummers veranderen en op de "herorden vragen" knop klikken.';
 $string['orderingquiz'] = 'Volgorde en paginering';
 $string['orderingquizx'] = 'Volgorde en paginering: {$a}';
-$string['outcomesadvanced'] = 'Resultaten zijn geavanceerde instellingen';
+$string['outcomesadvanced'] = 'Competenties zijn geavanceerde instellingen';
 $string['outof'] = '{$a->grade} op een maximum van {$a->maxgrade}';
 $string['outofpercent'] = '{$a->grade} op een maximum van {$a->maxgrade} ({$a->percent}%)';
 $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';
@@ -627,7 +637,7 @@ $string['percentcorrect'] = 'Percentage juist';
 $string['pleaseclose'] = 'Je vraag is verwerkt. Je mag dit venster nu sluiten.';
 $string['pluginadministration'] = 'Test beheer';
 $string['pluginname'] = 'Test';
-$string['popup'] = 'Toon de test in een "veilig" venster';
+$string['popup'] = 'Toon de test in een \'veilig\' venster';
 $string['popupblockerwarning'] = 'Dit deel van de test gebeurt in een beveiligd venster. Zet je pop-up-blocker af.';
 $string['popupnotice'] = 'Leerlingen zien de test in een veilig venster';
 $string['preprocesserror'] = 'Fout opgetreden tijdens de voorbereiding!';
@@ -636,6 +646,31 @@ $string['previewquestion'] = 'Weergave van een vraag testen';
 $string['previewquiz'] = 'Voorbeeld van de test';
 $string['previewquiznow'] = 'Controleer test';
 $string['previous'] = 'Vorige status';
+$string['privacy:metadata:core_question'] = 'De activiteit Test slaat informatie over het vraaggebruik op in het core_question subsysteem.';
+$string['privacy:metadata:quiz'] = 'De activiteit Test maakt gebruik van testrapporten.';
+$string['privacy:metadata:quizaccess'] = 'De activiteit Test maakt gebruik van toegangsregels voor test.';
+$string['privacy:metadata:quiz_attempts'] = 'Details over iedere poging in een Test.';
+$string['privacy:metadata:quiz_attempts:attempt'] = 'Het pogingnummer';
+$string['privacy:metadata:quiz_attempts:currentpage'] = 'De huidige pagina waar de gebruiker is.';
+$string['privacy:metadata:quiz_attempts:preview'] = 'Of dit een voorvertoning is van de Test.';
+$string['privacy:metadata:quiz_attempts:state'] = 'De huidige toestand van de poging.';
+$string['privacy:metadata:quiz_attempts:sumgrades'] = 'De som van punten in de poging.';
+$string['privacy:metadata:quiz_attempts:timecheckstate'] = 'De tijd waarop de toestand is gecontroleerd.';
+$string['privacy:metadata:quiz_attempts:timefinish'] = 'De tijd waarop de poging is voltooid.';
+$string['privacy:metadata:quiz_attempts:timemodified'] = 'De tijd waarop de poging is geüpdated.';
+$string['privacy:metadata:quiz_attempts:timemodifiedoffline'] = 'De tijd waarop de poging is geüpdated via een offline update.';
+$string['privacy:metadata:quiz_attempts:timestart'] = 'De tijd waarop de poging is begonnen.';
+$string['privacy:metadata:quiz_grades'] = 'Details over het overall cijfer voor deze Test.';
+$string['privacy:metadata:quiz_grades:grade'] = 'Het overall cijfer voor deze Test.';
+$string['privacy:metadata:quiz_grades:quiz'] = 'De quiz is beoordeeld.';
+$string['privacy:metadata:quiz_grades:timemodified'] = 'De tijd waarop het cijfer is aangepast.';
+$string['privacy:metadata:quiz_grades:userid'] = 'De gebruiker die is beoordeeld.';
+$string['privacy:metadata:quiz_overrides'] = 'Details over overschrijvingen voor deze test';
+$string['privacy:metadata:quiz_overrides:quiz'] = 'De test met overschrijvingsinformatie';
+$string['privacy:metadata:quiz_overrides:timeclose'] = 'De nieuwe afsluittijd voor de Test.';
+$string['privacy:metadata:quiz_overrides:timelimit'] = 'De nieuwe tijdslimiet voor de Test.';
+$string['privacy:metadata:quiz_overrides:timeopen'] = 'De nieuwe openingstijd voor de Test.';
+$string['privacy:metadata:quiz_overrides:userid'] = 'De gebruiker die wordt overschreven';
 $string['publish'] = 'Publiceer';
 $string['publishedit'] = 'Je moet rechten hebben in de cursus die deze vragen publiceert om in deze categorie vragen te kunnen toevoegen of bewerken.';
 $string['qbrief'] = 'V. {$a}';
@@ -681,6 +716,8 @@ $string['quiz:deleteattempts'] = 'Verwijder pogingen voor test';
 $string['quiz:emailconfirmsubmission'] = 'Stuur een e-mailbevestiging wanneer ik de test instuur';
 $string['quiz:emailnotifysubmission'] = 'Stuur e-mailnotificaties wanneer de test ingestuurd wordt';
 $string['quiz:emailwarnoverdue'] = 'Een melding krijgen wanneer de testpoging voorbij de uiterste instuurtijd gaat en moet ingestuurd worden.';
+$string['quizeventcloses'] = '{$a} sluit';
+$string['quizeventopens'] = '{$a} opent';
 $string['quiz:grade'] = 'Handmatig (toets)cijfers aanpassen';
 $string['quiz:ignoretimelimits'] = 'Negeert tijdslimiet op testen';
 $string['quizisclosed'] = 'Deze test is gesloten';
@@ -849,6 +886,8 @@ $string['select'] = 'Selecteer';
 $string['selectall'] = 'Selecteer alle';
 $string['selectcategory'] = 'Selecteer categorie';
 $string['selectedattempts'] = 'Selecteer pogingen...';
+$string['selectmultipleitems'] = 'Selecteer meerdere items';
+$string['selectmultipletoolbar'] = 'Selecteer meerdere werkbalk';
 $string['selectnone'] = 'Selecteer geen';
 $string['selectquestiontype'] = '--Selecteer vraagtype--';
 $string['serveradded'] = 'Server toegevoegd';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_truefalse', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_truefalse', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_truefalse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,5 +38,6 @@ $string['pluginnameediting'] = 'Editando unha pregunta tipo Verdadeiro/Falso';
 $string['pluginname_help'] = 'En resposta a unha pregunta (que pode incluír unha imaxen) o alumno escolle entre verdadeiro ou falso.';
 $string['pluginname_link'] = 'question/type/truefalse';
 $string['pluginnamesummary'] = 'Unha forma simple de pregunta de opción múltiple con só dúas opcións: «Verdadeiro» ou «Falso».';
+$string['privacy:metadata'] = 'O engadido de pregunta Verdadeiro/Falso non almacena ningún dato persoal.';
 $string['selectone'] = 'Seleccione unha';
 $string['true'] = 'Verdadeiro';

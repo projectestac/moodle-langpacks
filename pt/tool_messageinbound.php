@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_messageinbound', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'Nome da classe';
 $string['component'] = 'Componente';
-$string['configmessageinboundhost'] = 'O endereço em que o Moodle deve verificar o servidor de mail. Para especificar uma porta não-predefinida, pode usar [server]:[port], como por exemplo o formato mail.example.com:587. Se deixar isto em branco, o Moodle vai usar a porta predefinida para o tipo de servidor de mail que especificou.';
+$string['configmessageinboundhost'] = 'O endereço em que o Moodle deve verificar o servidor de mail. Para especificar uma porta não-predefinida, pode usar [server]:[port], como por exemplo o formato mail.example.com:587. Se deixar em branco, o Moodle vai usar a porta predefinida para o tipo de servidor de mail que especificou.';
 $string['defaultexpiration'] = 'Endereço predefinido de período de validade';
 $string['defaultexpiration_help'] = 'Quando um endereço de e-mail é gerado pelo handler, pode ser definido para expirar automaticamente após um período de tempo e, por isso, já não pode ser usado. É aconselhável definir um período de validade.';
 $string['description'] = 'Descrição';
@@ -98,6 +98,12 @@ $string['onehour'] = 'Uma hora';
 $string['oneweek'] = 'Uma semana';
 $string['oneyear'] = 'Um ano';
 $string['pluginname'] = 'Configuração de mensagem de entrada';
+$string['privacy:metadata:coreuserkey'] = 'Chaves de utilizador para validar e-mail recebido';
+$string['privacy:metadata:messagelist'] = 'Um lista de identificadores de mensagem que falharam na validação e exigem autorização';
+$string['privacy:metadata:messagelist:address'] = 'O endereço para onde foi enviado o e-mail';
+$string['privacy:metadata:messagelist:messageid'] = 'O ID da mensagem';
+$string['privacy:metadata:messagelist:timecreated'] = 'A data/hora em que o registo foi feito';
+$string['privacy:metadata:messagelist:userid'] = 'O ID do utilizador que precisa de aprovar a mensagem';
 $string['replysubjectprefix'] = 'Re:';
 $string['requirevalidation'] = 'Validar endereço do remetente';
 $string['ssl'] = 'SSL (Autodetetar versão de SSL)';

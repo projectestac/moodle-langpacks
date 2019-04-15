@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'de', branch 'MOODLE_32_STABLE'
+ * Strings for component 'debug', language 'de', branch 'MOODLE_34_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['codingerror'] = 'Fehler in der Kodierung gefunden, den nur ein Programm
 $string['configmoodle'] = 'Moodle ist noch nicht konfiguriert. Sie müssen zuerst die Datei config.php bearbeiten.';
 $string['erroroccur'] = 'Während des Vorgangs ist ein Fehler aufgetreten.';
 $string['invalidarraysize'] = 'Falsche Feldgröße bei den Einstellungen von {$a}';
-$string['invalideventdata'] = 'Falscher Kalendereintrag übermittelt: {$a}';
+$string['invalideventdata'] = 'Falscher Event-Eintrag übermittelt: {$a}';
 $string['invalidparameter'] = 'Ungültiger Parameterwert gefunden';
 $string['invalidresponse'] = 'Ungültiger Rückgabewert gefunden';
 $string['missingconfigversion'] = 'Der Vorgang wird abgebrochen, weil die Konfiguration keine Versionsangabe enthält.';

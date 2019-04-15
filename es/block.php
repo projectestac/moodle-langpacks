@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block', language 'es', branch 'MOODLE_34_STABLE'
  *
  * @package   block
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,6 +59,10 @@ $string['myblocks'] = 'Mis bloques';
 $string['onthispage'] = 'En esta página';
 $string['pagetypes'] = 'Tipos de página';
 $string['pagetypewarning'] = 'El tipo de página especificado anteriormente ya no es seleccionable. Por favor, elija a continuación el tipo de página más apropiado.';
+$string['privacy:metadata:userpref:dockedinstance'] = 'Registros de cuando un usuario apartó un bloque';
+$string['privacy:metadata:userpref:hiddenblock'] = 'Registros de cuando un usuario contrajo/ocultó un bloque';
+$string['privacy:request:blockisdocked'] = 'Indica si es que el bloque se apartó';
+$string['privacy:request:blockishidden'] = 'Indica si es que el bloque fue ocultado/contraído';
 $string['region'] = 'Región';
 $string['restrictpagetypes'] = 'Mostrar en tipos de página';
 $string['showblock'] = 'Mostrar el bloque {$a}';

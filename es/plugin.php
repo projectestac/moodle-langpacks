@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'plugin', language 'es', branch 'MOODLE_34_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,7 +79,7 @@ $string['packagesvalidating'] = 'Validando {$a}';
 $string['packagesvalidatingfailed'] = 'Instalación abortada debido a error de validación';
 $string['packagesvalidatingok'] = 'Validación correcta, la instalación puede continuar';
 $string['plugincheckall'] = 'Todos los plugins';
-$string['plugincheckattention'] = 'Plugins solicitando atención';
+$string['plugincheckattention'] = 'Plugins que requieren su atención';
 $string['pluginchecknone'] = 'Ningún plugin necesita su atención ahora';
 $string['pluginchecknotice'] = 'Esta página muestra las extensiones (plugins) que pueden requerir su atención durante la actualización, tales como nuevos plugins para ser instaladados, plugins para ser actualizados, plugins ausentes, etc. Los plugins adicionales (módulos externos o add-ons) son mostrados si existe una actualización para ellos. Se recomienda que compruebe si hay disponible versiones más recientes de los módulos externos y actualice  su código fuente antes de continuar con esta actualización de Moodle.';
 $string['plugindisable'] = 'Deshabilitar';
@@ -126,6 +126,8 @@ $string['type_editor'] = 'Editor';
 $string['type_editor_plural'] = 'Editores';
 $string['type_enrol'] = 'Método de matriculación';
 $string['type_enrol_plural'] = 'Métodos de matriculación';
+$string['type_fileconvertermanage'] = 'Gestionar convertidores de documentos';
+$string['type_fileconverter_plural'] = 'Convertidores de documentos';
 $string['type_filter'] = 'Filtro';
 $string['type_filter_plural'] = 'Filtros de texto';
 $string['type_format'] = 'Formato de curso';

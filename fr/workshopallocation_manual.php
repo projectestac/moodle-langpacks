@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_manual', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopallocation_manual', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopallocation_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,4 +32,5 @@ $string['allocationexists'] = 'L\'attribution existe déjà';
 $string['areyousuretodeallocate'] = 'Voulez-vous vraiment supprimer l\'attribution de l\'évaluation sélectionnée ?';
 $string['areyousuretodeallocategraded'] = 'Vous allez supprimer une évaluation qui a déjà été notée.';
 $string['pluginname'] = 'Attribution manuelle';
+$string['privacy:metadata:preference:perpage'] = 'Nombre d\'évaluations attribuées que l\'utilisateur préfère voir sur une page.';
 $string['showallparticipants'] = 'Afficher tous les participants';

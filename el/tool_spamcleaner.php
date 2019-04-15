@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_spamcleaner', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_spamcleaner', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_spamcleaner
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Καθαριστής μαζικών ενοχλητικών μηνυμάτων';
+$string['privacy:metadata'] = 'Το πρόσθετο «Καθαρισμός ανεπιθύμητης αλληλογραφίας» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['spamauto'] = 'Αυτόματος εντοπισμός των συνηθισμένων πρότυπων μαζικών ενοχλητικών μηνυμάτων';
 $string['spamcannotdelete'] = 'Αδυναμία διαγραφής χρήστη';
 $string['spamcannotfinduser'] = 'Δεν υπάρχουν χρήστες που ταιριάζουν με την αναζήτηση που κάνατε';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_online_users', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_online_users', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   block_online_users
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,4 +31,5 @@ $string['online_users:myaddinstance'] = 'Добавлять новый блок 
 $string['online_users:viewlist'] = 'Видеть список пользователей на сайте';
 $string['periodnminutes'] = 'последние {$a} минут';
 $string['pluginname'] = 'Пользователи на сайте';
+$string['privacy:metadata'] = 'Блок «Пользователи на сайте» только показывает данные, хранящиеся в других местах.';
 $string['timetosee'] = 'Удалять после неактивности (минут)';

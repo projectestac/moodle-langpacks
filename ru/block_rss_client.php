@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_rss_client', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   block_rss_client
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,6 +48,8 @@ $string['editnewsfeeds'] = 'Редактировать новостные лен
 $string['editrssblock'] = 'Редактировать заголовок блока RSS-ленты';
 $string['enableautodiscovery'] = 'Включить автоматическое обнаружение лент?';
 $string['enableautodiscovery_help'] = 'При включенном параметре ленты на веб-страницах будут найдены автоматически. Например, если вводится http://docs.moodle.org, то будет найдено http://docs.moodle.org/en/index.php?title=Special:RecentChanges&feed=rss';
+$string['failedfeed'] = 'Загрузка не удалась - повторите попытку позже {$a}';
+$string['failedfeeds'] = 'Один или несколько RSS-каналов не удалось загрузить';
 $string['feed'] = 'Лента';
 $string['feedadded'] = 'Новостная лента добавлена';
 $string['feeddeleted'] = 'Новостная лента удалена';
@@ -63,6 +65,15 @@ $string['nofeeds'] = 'Для вашего сайта не определено �
 $string['numentries'] = 'Записей в ленте';
 $string['pickfeed'] = 'Выберите ленту новостей';
 $string['pluginname'] = 'Внешние RSS-ленты';
+$string['privacy:metadata:block_rss_client:description'] = 'Описание RSS-ленты';
+$string['privacy:metadata:block_rss_client:preferredtitle'] = 'Предпочитаемое (пользовательское) название RSS-ленты.';
+$string['privacy:metadata:block_rss_client:shared'] = 'Доступна ли RSS-лента всем курсам.';
+$string['privacy:metadata:block_rss_client:skiptime'] = 'Заданное время в секундах, в течение которого cron будет ждать между попытками получить данные с RSS-лент в случае неудачной загрузки.';
+$string['privacy:metadata:block_rss_client:skipuntil'] = 'Максимальное заданное время, в течение которого cron будет пытаться открыть RSS-ленты в случае неудачной загрузки.';
+$string['privacy:metadata:block_rss_client:tableexplanation'] = 'Здесь хранится информация блока «Внешние RSS-ленты».';
+$string['privacy:metadata:block_rss_client:title'] = 'Заголовок RSS-ленты.';
+$string['privacy:metadata:block_rss_client:url'] = 'URL RSS-ленты.';
+$string['privacy:metadata:block_rss_client:userid'] = 'ID пользователя, добавившего RSS-ленту.';
 $string['remotenewsfeed'] = 'Внешняя новостная лента';
 $string['rss_client:addinstance'] = 'Добавлять новый блок «Внешние RSS-ленты»';
 $string['rss_client:createprivatefeeds'] = 'Создавать личные RSS-ленты';

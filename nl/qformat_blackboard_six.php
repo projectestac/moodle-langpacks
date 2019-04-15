@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_blackboard_six', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qformat_blackboard_six', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   qformat_blackboard_six
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,4 +34,5 @@ $string['importnotext'] = 'Ontbrekende vraagtekst in XML-bestand';
 $string['notenoughtsubans'] = 'Kon koppelvraag \'{$a}\' niet importeren omdat een koppelvraag minstens twee vragen en drie antwoorden moet bevatten';
 $string['pluginname'] = 'Blackboard';
 $string['pluginname_help'] = 'Blackboard opmaak maakt het mogelijk om vragen, bewaard in het exportformaat van Blackboard, te importeren via dat- of zip-bestand. Voor zip-bestanden wordt de import van afbeeldingen ook ondersteund.';
+$string['privacy:metadata'] = 'De Blackboard vraag format-plugin bewaart geen persoonlijke gegevens.';
 $string['unhandledpresblock'] = 'Presentatieblok niet behandeld';

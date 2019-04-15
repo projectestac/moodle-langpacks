@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_uploadcourse', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_uploadcourse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,7 +66,7 @@ $string['courseshortnameincremented'] = 'Nomes curtos de disciplinas incrementad
 $string['coursestotal'] = 'Total de disciplinas: {$a}';
 $string['coursesupdated'] = 'Disciplina atualizada: {$a}';
 $string['coursetemplatename'] = 'Restaurar a partir desta disciplina depois do carregamento';
-$string['coursetemplatename_help'] = 'Introduza o nome curto de uma disciplina existente para usar como um modelo para a criação de todas as disciplinas';
+$string['coursetemplatename_help'] = 'Indique o nome curto de uma disciplina existente para usar como um modelo na criação de todas as disciplinas';
 $string['coursetorestorefromdoesnotexist'] = 'A disciplina a partir da qual pretende fazer o restauro não existe';
 $string['courseupdated'] = 'Disciplina atualizada';
 $string['createall'] = 'Criar todas e incrementar o nome curto, se necessário.';
@@ -101,6 +101,7 @@ $string['mode_help'] = 'Esta opção especifica se as disciplinas podem ser cria
 $string['nochanges'] = 'Sem alterações';
 $string['pluginname'] = 'Carregamento de Disciplina';
 $string['preview'] = 'Pré-visualização';
+$string['privacy:metadata'] = 'O módulo Carregar Disciplina não armazena dados pessoais.';
 $string['reset'] = 'Reiniciar disciplina depois do carregamento';
 $string['reset_help'] = 'Define se a disciplina é reiniciada depois de criada/atualizada';
 $string['restoreafterimport'] = 'Restaurar depois de importar';

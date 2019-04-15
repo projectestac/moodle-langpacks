@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'webservice', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -134,6 +134,7 @@ $string['norequiredcapability'] = 'Nessun privilegio richiesto';
 $string['notoken'] = 'L\'elenco dei token è vuoto';
 $string['onesystemcontrolling'] = 'Consentire ad un sistema esterno di controllare Moodle';
 $string['onesystemcontrollingdescription'] = 'I passi che seguono chiariscono le impostazioni necessarie per consentire il controllo di Moodle da parte di un sistema esterno. I passi suggeriscono anche come impostare il metodo di autenticazione basato su token (chiave di sicurezza).';
+$string['onlyseecreatedtokens'] = 'E\' possibile eliminare qualsiasi token ma puoi visualizzare solo i token che hai creato.';
 $string['operation'] = 'Operazione';
 $string['optional'] = 'Opzionale';
 $string['passwordisexpired'] = 'La password è scaduta';
@@ -143,6 +144,18 @@ $string['postrestparam'] = 'Codice PHP per REST (POST request)';
 $string['potusers'] = 'Utenti non autorizzati';
 $string['potusersmatching'] = 'Utenti non autorizzati che corrispondono';
 $string['print'] = 'Stampa tutto';
+$string['privacy:metadata:serviceusers:iprestriction'] = 'IP limitato per usare il servizio.';
+$string['privacy:metadata:serviceusers:userid'] = 'ID dell\'utente.';
+$string['privacy:metadata:tokens'] = 'Record dei token per interagire con Moodle tramite i servizi web o le app di Moodle.';
+$string['privacy:metadata:tokens:creatorid'] = 'ID dell\'utente che ha creato il token.';
+$string['privacy:metadata:tokens:iprestriction'] = 'IP limitato per usare il token.';
+$string['privacy:metadata:tokens:lastaccess'] = 'Data e ora dell\'ultimo utilizzo del token.';
+$string['privacy:metadata:tokens:privatetoken'] = 'Token privato usato occasionalmente per validare determinate operazioni, ad esempio SSO.';
+$string['privacy:metadata:tokens:timecreated'] = 'Data e ora di creazione del token.';
+$string['privacy:metadata:tokens:token'] = 'Token dell\'utente.';
+$string['privacy:metadata:tokens:tokentype'] = 'Tipo di token.';
+$string['privacy:metadata:tokens:userid'] = 'ID dell\'utente a cui appartiene il token.';
+$string['privacy:metadata:tokens:validuntil'] = 'Data di scadenza della validità del token.';
 $string['protocol'] = 'Protocollo';
 $string['removefunction'] = 'Rimuovi';
 $string['removefunctionconfirm'] = 'Vuoi rimuovere la funzione "{$a->function}" dal servizio "{$a->service}"?';

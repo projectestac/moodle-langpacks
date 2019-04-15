@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_upload', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_upload', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_upload
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['configplugin'] = 'Ρυθμίσεις πρόσθετου ανεβάσματος αρχείων';
 $string['pluginname'] = 'Ανέβασμα ενός αρχείου';
 $string['pluginname_help'] = 'Ανέβασμα ενός αρχείου στο Moodle';
+$string['privacy:metadata'] = 'Το πρόσθετο αποθετηρίου «Ανέβασμα ενός αρχείου»  δεν αποθηκεύει ούτε μεταβιβάζει κανένα προσωπικό δεδομένο.';
 $string['upload_error_cant_write'] = 'Αποτυχία εγγραφής αρχείου στο δίσκο.';
 $string['upload_error_extension'] = 'Μια επέκταση PHP σταμάτησε το ανέβασμα του αρχείου.';
 $string['upload_error_form_size'] = 'Το ανεβασμένο αρχείο υπερβαίνει το υποχρεωτικό μέγιστο MAX_FILE_SIZE που ορίστηκε στην HTML φόρμα.';

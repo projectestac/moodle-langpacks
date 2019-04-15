@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'chat', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,10 @@ $string['explainmethoddaemon'] = 'Deze instellingen worden <strong>alleen maar</
 $string['explainmethodnormal'] = 'Deze instellingen worden <strong>alleen maar</strong> gebrukt als je "Normale methode" gekozen hebt bij chat_method';
 $string['generalconfig'] = 'Algemene instellingen';
 $string['idle'] = 'Wachtend';
+$string['indicator:cognitivedepth'] = 'Chat cognitief';
+$string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Chat activiteit.';
+$string['indicator:socialbreadth'] = 'Chat sociaal';
+$string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Chat activiteit.';
 $string['inputarea'] = 'Inputvenster';
 $string['invalidid'] = 'Kon chatroom niet vinden!';
 $string['list_all_sessions'] = 'Toon alle sessies.';
@@ -116,6 +120,20 @@ $string['page-mod-chat-x'] = 'Chatmodulepagina';
 $string['pastchats'] = 'Voorbije chatsessies';
 $string['pluginadministration'] = 'Chat beheer';
 $string['pluginname'] = 'Chat';
+$string['privacy:metadata:chat_messages_current'] = 'Huidige chat-sessie. Deze gegevens zijn tijdelijk en worden verwijderd nadat de chat-sessie verwijderd is';
+$string['privacy:metadata:chat_users'] = 'Houdt bij welke gebruikers zich in welke chat-rooms bevinden';
+$string['privacy:metadata:chat_users:firstping'] = 'Tijdstip van eerste toegang tot een chat-room';
+$string['privacy:metadata:chat_users:ip'] = 'Gebruikers-IP';
+$string['privacy:metadata:chat_users:lang'] = 'Gebruikerstaal';
+$string['privacy:metadata:chat_users:lastmessageping'] = 'Tijdstip van laatste bericht in deze chat-room';
+$string['privacy:metadata:chat_users:lastping'] = 'Tijdstip van laatste toegang tot de chat-room';
+$string['privacy:metadata:chat_users:userid'] = 'De gebruikers-ID';
+$string['privacy:metadata:chat_users:version'] = 'Hoe de gebruiker toegang kreeg tot de chat (sockets/basic/ajax/header_js)';
+$string['privacy:metadata:messages'] = 'Een record van de berichten tijdens een chat-sessie';
+$string['privacy:metadata:messages:issystem'] = 'Of het bericht een systeem-gegenereerd bericht is';
+$string['privacy:metadata:messages:message'] = 'Het bericht';
+$string['privacy:metadata:messages:timestamp'] = 'Het tijdstip waarop het bericht werd verzonden.';
+$string['privacy:metadata:messages:userid'] = 'De gebruikersID van de auteur van het bericht';
 $string['refreshroom'] = 'Ververs chatroom';
 $string['refreshuserlist'] = 'Ververs gebruikerslijst';
 $string['removemessages'] = 'Verwijder alle berichten';

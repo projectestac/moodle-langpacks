@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnetservice_enrol', language 'en', branch 'MOODLE_32_STABLE'
+ * Strings for component 'mnetservice_enrol', language 'en', branch 'MOODLE_34_STABLE'
  *
  * @package   mnetservice_enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,4 +37,12 @@ $string['nopublishers'] = 'No remote peers available.';
 $string['noroamingusers'] = 'Users require the capability \'{$a}\' in the system context to be enrolled to remote courses, however there are currently no users with this capability. Click the continue button to assign the required capability to one or more roles on your site.';
 $string['otherenrolledusers'] = 'Other enrolled users';
 $string['pluginname'] = 'Remote enrolment service';
+$string['privacy:metadata:mnetservice_enrol_enrolments'] = 'Remote enrolment service';
+$string['privacy:metadata:mnetservice_enrol_enrolments:enroltime'] = 'The time when the enrolment was modified';
+$string['privacy:metadata:mnetservice_enrol_enrolments:enroltype'] = 'The enrolment type on the remote server used to enrol the user in their course';
+$string['privacy:metadata:mnetservice_enrol_enrolments:hostid'] = 'The ID of the remote MNet host';
+$string['privacy:metadata:mnetservice_enrol_enrolments:remotecourseid'] = 'The ID of the course on the remote server';
+$string['privacy:metadata:mnetservice_enrol_enrolments:rolename'] = 'The name of role on the remote server';
+$string['privacy:metadata:mnetservice_enrol_enrolments:tableexplanation'] = 'The Remote enrolment service stores information about enrolments of local users in courses on remote hosts.';
+$string['privacy:metadata:mnetservice_enrol_enrolments:userid'] = 'The ID of the local user on this server';
 $string['refetch'] = 'Re-fetch up to date state from remote hosts';

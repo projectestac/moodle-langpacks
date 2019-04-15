@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshop', language 'es', branch 'MOODLE_34_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -65,6 +65,7 @@ $string['assessmentofsubmission'] = '<a href="{$a->assessmenturl}">Evaluación</
 $string['assessmentreference'] = 'Evaluación de referencia';
 $string['assessmentreferenceconflict'] = 'No es posible evaluar un ejemplo de trabajo enviado para el que Usted realizó una evaluación de referencia.';
 $string['assessmentreferenceneeded'] = 'Usted tiene que evaluar este envío de ejemplo, para proporcionar una evaluación de referencia. Haga clic en el botón "Continuar" para evaluar el envío.';
+$string['assessments'] = 'Evaluaciones';
 $string['assessmentsettings'] = 'Configuración de la evaluación';
 $string['assessmentstart'] = 'Disponible para evaluación desde';
 $string['assessmentstartdatetime'] = 'Abierto para evaluación desde  {$a->daydatetime} ({$a->distanceday})';
@@ -178,6 +179,10 @@ $string['gradinggradeover'] = 'Pasar por alto calificación de la evaluación';
 $string['gradingsettings'] = 'Ajustes de calificación';
 $string['groupnoallowed'] = 'No se le permite acceder a ningún grupo en este taller';
 $string['iamsure'] = 'Sí, estoy seguro';
+$string['indicator:cognitivedepth'] = 'Taller cognitivo';
+$string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad de Taller.';
+$string['indicator:socialbreadth'] = 'Taller social';
+$string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad de Taller.';
 $string['info'] = 'Info';
 $string['instructauthors'] = 'Instrucciones para el envío';
 $string['instructreviewers'] = 'Instrucciones para la evaluación';
@@ -196,6 +201,7 @@ Los envíos son evaluados empleando un formato de evaluación de criterios múlt
 
 Los estudiantes tendrán dos calificaciones para la actividad de taller: una calificación por  enviarlo y otra por la evaluación de sus pares. Ambas calificaciones se guardan en el libro de calificaciones.';
 $string['modulenameplural'] = 'Talleres';
+$string['myassessments'] = 'Mis evaluaciones';
 $string['mysubmission'] = 'Mi envío';
 $string['nattachments'] = 'Número máximo de archivos adjuntos por envío';
 $string['noexamples'] = 'Aún no hay ejemplos en este Taller';
@@ -232,6 +238,10 @@ $string['pluginadministration'] = 'Administración del Taller';
 $string['pluginname'] = 'Taller';
 $string['prepareexamples'] = 'Preparar envíos de ejemplo';
 $string['previewassessmentform'] = 'Vista previa';
+$string['privacy:metadata:assessmentid'] = 'Identificador de la evaluación';
+$string['privacy:metadata:authorid'] = 'Identificador del autor del envío';
+$string['privacy:metadata:feedbackauthor'] = 'Comentario para el autor';
+$string['privacy:metadata:feedbackauthorformat'] = 'Formato de texto para el comentario para el autor';
 $string['publishedsubmissions'] = 'Envíos publicados';
 $string['publishsubmission'] = 'Publicar envío';
 $string['publishsubmission_help'] = 'Los envíos publicados estarán disponibles para los demás cuando el taller esté cerrado.';
@@ -302,12 +312,18 @@ $string['subplugintype_workshopform'] = 'Estrategia de calificación';
 $string['subplugintype_workshopform_plural'] = 'Estrategias de calificación';
 $string['switchingphase'] = 'Cambiando de fase';
 $string['switchphase'] = 'Cambiar fase';
+$string['switchphase10'] = 'Cambiar a la fase de configuración';
 $string['switchphase10info'] = 'Está a punto de entrar a la <strong>Fase de instalación </ strong> del taller. En esta fase, los usuarios no pueden modificar su envío o sus evaluaciones. Los profesores pueden usar esta fase para cambiar la configuración del taller y modificar la estrategia de calificación de las formas de evaluación.';
+$string['switchphase20'] = 'Cambiar a la fase de envío';
 $string['switchphase20info'] = 'Está a punto de cambiar a la <strong>Fase de envíos </strong> del taller. En esta fase, los estudiantes pueden enviar sus trabajos (dentro de los plazos de control de acceso existentes). Los profesores pueden asignar los envíos para ser revisados por pares.';
+$string['switchphase30'] = 'Cambiar a la fase de evaluación';
 $string['switchphase30auto'] = 'El taller cambiará automáticamente a la fase de evaluación después de {$a->daydatetime} ({$a->distanceday})';
 $string['switchphase30info'] = 'Está a punto de cambiar a la <strong>Fase de Evaluación</strong> del taller. En esta fase, los evaluadores  pueden evaluar los trabajos que les fueron asignados (dentro de los plazos de control de acceso existentes, si se establecieron).';
+$string['switchphase40'] = 'Cambiar a la fase de calificación';
 $string['switchphase40info'] = 'Está a punto de cambiar a la <strong>Fase de Calificación de Evaluaciones </strong> del taller. En esta fase, los usuario no pueden modificar sus trabajos ni sus evaluaciones. Los profesores pueden emplear las herramientas de calificación de evaluaciones para calcular las calificaciones finales y proporcionar  retroalimentación a los evaluadores.';
+$string['switchphase50'] = 'Cerrar taller';
 $string['switchphase50info'] = 'Está a punto de cerrar el taller. Esto dará como resultado que las calificaciones calculadas aparecerán en el libro de calificaciones. Los estudiantes pueden ver sus envíos y las evaluaciones de estos.';
+$string['switchphaseauto'] = 'El cambio de fase ha sido programado';
 $string['switchphasenext'] = 'Cambiar a la siguiente fase';
 $string['taskassesspeers'] = 'Evaluar a compañeros';
 $string['taskassesspeersdetails'] = 'Total: {$a->total} <br /> pendiente: {$a->todo}';
@@ -339,6 +355,7 @@ $string['userplan_help'] = 'El planificador del taller muestra todas las fases d
 $string['useselfassessment'] = 'Usar auto-evaluación';
 $string['useselfassessment_desc'] = 'Los estudiantes pueden evaluar su propio trabajo';
 $string['useselfassessment_help'] = 'Si está activado, un usuario puede ser asignado a su propia presentación para evaluarla. Recibirá una calificación por la evaluación, además de una calificación por su propia presentación.';
+$string['viewworkshopsummary'] = 'Ver resumen del taller';
 $string['weightinfo'] = 'Ponderación: {$a}';
 $string['withoutsubmission'] = 'Evaluador sin envío propio';
 $string['workshop:addinstance'] = 'Añadir un nuevo taller';

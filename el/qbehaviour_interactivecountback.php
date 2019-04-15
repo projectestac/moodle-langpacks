@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_interactivecountback', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_interactivecountback', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_interactivecountback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Συμπεριφορά ερώτησης διαδραστικής με πολλαπλές προσπάθειες (βαθμοί για τις αρχικές προσπάθειες)';
+$string['privacy:metadata'] = 'Το πρόσθετο «Συμπεριφορά ερώτησης αλληλεπίδρασης με πολλαπλές δοκιμές (πίστωση προηγούμενων προσπαθειών)» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

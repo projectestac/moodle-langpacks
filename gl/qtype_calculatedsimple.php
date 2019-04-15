@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculatedsimple', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_calculatedsimple', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_calculatedsimple
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['pluginnameediting'] = 'Editando unha pregunta simple calculada';
 $string['pluginname_help'] = 'As preguntas simples calculadas permiten crear preguntas numéricas utilizando comodíns que son substituídos por valores concretos cando se realiza a proba. As preguntas simples calculadas ofrecen as opcións máis utilizadas nas preguntas calculadas cunha interface de creación máis sinxela.';
 $string['pluginname_link'] = 'question/type/calculatedsimple';
 $string['pluginnamesummary'] = 'Unha versión máis simple de preguntas calculadas, que son como as preguntas numéricas, pero cos números seleccionados ao chou dun conxunto cando se fai a proba.';
+$string['privacy:metadata'] = 'O engadido de pregunta única calculada non almacena ningún dato persoal.';
 $string['setno'] = 'Conxunto {$a}';
 $string['setwildcardvalues'] = 'conxunto(s) de valores para o(s) comodín(s)';
 $string['showitems'] = 'Presentar';

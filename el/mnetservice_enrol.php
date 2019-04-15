@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnetservice_enrol', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'mnetservice_enrol', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   mnetservice_enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,4 +37,12 @@ $string['nopublishers'] = 'Δεν διατίθενται απομακρυσμέ�
 $string['noroamingusers'] = 'Οι χρήστες απαιτείται να έχουν τη δυνατότητα «{$a}» στο πλαίσιο συστήματος για να εγγραφούν σε απομακρυσμένα μαθήματα, ωστόσο προς το παρόν δεν υπάρχουν χρήστες με αυτή τη δυνατότητα. Κάντε κλικ στο κουμπί «Συνέχεια» για να αντιστοιχίσετε την απαιτούμενη δυνατότητα σε έναν ή περισσότερους ρόλους στον ιστότοπό σας.';
 $string['otherenrolledusers'] = 'Άλλοι εγγεγραμμένοι χρήστες';
 $string['pluginname'] = 'Υπηρεσία απομακρυσμένης εγγραφής';
+$string['privacy:metadata:mnetservice_enrol_enrolments'] = 'Υπηρεσία απομακρυσμένης εγγραφής';
+$string['privacy:metadata:mnetservice_enrol_enrolments:enroltime'] = 'Ο χρόνος κατά τον οποίο τροποποιήθηκε η εγγραφή';
+$string['privacy:metadata:mnetservice_enrol_enrolments:enroltype'] = 'Ο τύπος εγγραφής στον απομακρυσμένο εξυπηρετητή που χρησιμοποιείται για την εγγραφή του χρήστη στο μάθημά του';
+$string['privacy:metadata:mnetservice_enrol_enrolments:hostid'] = 'Το αναγνωριστικό του απομακρυσμένου Η/Υ δικτύου MNet';
+$string['privacy:metadata:mnetservice_enrol_enrolments:remotecourseid'] = 'Το αναγνωριστικό του μαθήματος στον απομακρυσμένο εξυπηρετητή';
+$string['privacy:metadata:mnetservice_enrol_enrolments:rolename'] = 'Το όνομα του ρόλου στον απομακρυσμένο εξυπηρετητή';
+$string['privacy:metadata:mnetservice_enrol_enrolments:tableexplanation'] = 'Η υπηρεσία απομακρυσμένης εγγραφής αποθηκεύει πληροφορίες για εγγραφές τοπικών χρηστών σε μαθήματα σε απομακρυσμένους κεντρικούς Η/Υ.';
+$string['privacy:metadata:mnetservice_enrol_enrolments:userid'] = 'Το αναγνωριστικό του τοπικού χρήστη σε αυτόν τον εξυπηρετητή';
 $string['refetch'] = 'Επαναλάβετε την ενημέρωση της κατάστασης από τους απομακρυσμένους Η/Υ δικτύου';

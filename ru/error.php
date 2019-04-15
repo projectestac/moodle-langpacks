@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'error', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityisscheduledfordeletion'] = 'Процесс удаления элемента курса...';
+$string['agedigitalconsentmapinvalidage'] = '«{$a}» не является правильным значением для возраста.';
+$string['agedigitalconsentmapinvalidcomma'] = '«{$a}» содержит больше или меньше одного разделителя-запятой.';
+$string['agedigitalconsentmapinvalidcountry'] = '«{$a}» не является правильным значением для страны.';
+$string['agedigitalconsentmapinvaliddefault'] = 'Значение по умолчанию (*) отсутствует.';
+$string['agelocationverificationdisabled'] = 'Проверка возраста и местоположения отключена';
 $string['alreadyloggedin'] = 'Вы уже вошли в систему под именем «{$a}». Вам нужно выйти из системы чтобы войти от имени другого пользователя.';
 $string['authnotexisting'] = 'Плагин авторизации отсутствует';
 $string['backupcontainexternal'] = 'Этот файл резервной копии содержит внешние узлы Moodle Network, которые не настроены локально';
@@ -179,6 +184,7 @@ $string['confirmationnotenabled'] = 'Подтверждение пользова
 $string['confirmsesskeybad'] = 'Произошла ошибка проверки ключа сеанса (sessionkey), а это необходимо для проведения этой операции. Эта функция безопасности предотвращает случайное или злонамеренное выполнение важных функций от Вашего имени. Пожалуйста, убедитесь, что Вы действительно хотели выполнить это действие.';
 $string['couldnotassignrole'] = 'Серьезная, но неопределенная ошибка произошла при попытке назначить Вам роль';
 $string['couldnotupdatenoexistinguser'] = 'Не удалось обновить пользователя - пользователь не существует';
+$string['couldnotverifyagedigitalconsent'] = 'Произошла ошибка при попытке проверить возраст цифрового согласия.<br />Пожалуйста, свяжитесь с администратором.';
 $string['countriesphpempty'] = 'Ошибка: файл countries.php в языковом пакете «{$a}» пуст или отсутствует.';
 $string['coursedoesnotbelongtocategory'] = 'Курс не принадлежит к этой категории';
 $string['courseformatnotfound'] = 'Формат курса «{$a}» не существует, либо не распознан';
@@ -347,7 +353,7 @@ $string['invalidrole'] = 'Некорректная роль';
 $string['invalidroleid'] = 'Неверный идентификатор роли';
 $string['invalidscaleid'] = 'Неверный идентификатор шкалы';
 $string['invalidsection'] = 'Запись модуля курса содержит неверный раздел';
-$string['invalidsesskey'] = 'Отправлен неверный ключ сеанса (sesskey), форма не принята!';
+$string['invalidsesskey'] = 'Ваш сеанс, по-видимому, истек. Пожалуйста, войдите снова.';
 $string['invalidshortname'] = 'Это некорректное краткое название курса';
 $string['invalidsourcefield'] = 'Неверное поле источника файлов проекта';
 $string['invalidstatedetected'] = 'Что-то пошло не так: {$a}.
@@ -358,6 +364,7 @@ $string['invaliduserdata'] = 'Неправильные данные пользо
 $string['invaliduserfield'] = 'Неверное пользовательское поле: {$a}';
 $string['invaliduserid'] = 'Неверный ID пользователя';
 $string['invalidusername'] = 'Данный логин содержит недопустимые символы';
+$string['invalidusernameblank'] = 'Имя пользователя не может быть пустым';
 $string['invalidxmlfile'] = '«{$a}» - некорректный XML файл';
 $string['iplookupfailed'] = 'Невозможно определить гео-информацию об этом IP-адресе {$a}.';
 $string['iplookupprivate'] = 'Невозможно отобразить расположение локального IP-адреса.';
@@ -377,7 +384,7 @@ $string['maxareabytes'] = 'Файл больше, чем оставшееся п
 $string['maxbytes'] = 'Этот файл больше максимального разрешенного размера';
 $string['maxbytesfile'] = 'Файл «{$a->file}» слишком большой. Максимальный размер файла, который Вы можете загрузить: {$a->size}.';
 $string['messagingdisable'] = 'На этом сайте выключен обмен сообщениями';
-$string['mimetexisnotexist'] = 'Ваша система не настроена на работу mimeTeX. Вам нужно скачать версию mimeTeX для своей операционной системы по ссылке <a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a>, или скачать исходный код на C по ссылке <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>, скомпилировать его и поместить в свой каталог  moodle/filter/tex/.';
+$string['mimetexisnotexist'] = 'Ваша система не настроена для запуска mimeTeX. Вам необходимо получить исходный код C на <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>, скомпилировать его и поставить исполняемый файл в свой каталог moodle/filter/tex/.';
 $string['mimetexnotexecutable'] = 'mimetex не является выполняемым!';
 $string['missingfield'] = 'Отсутствует поле «{$a}»';
 $string['missingkeyinsql'] = 'ОШИБКА: в запросе отсутствует параметр «{$a}»';
@@ -558,10 +565,12 @@ $string['userautherror'] = 'Неизвестный плагин аутентиф
 $string['userauthunsupported'] = 'Плагин аутентификации не поддерживается здесь';
 $string['useremailduplicate'] = 'Повторяющийся адрес';
 $string['usermustbemnet'] = 'Пользователи в списке управления доступом к MNET должны быть внешними пользователями MNET';
+$string['usernamelowercase'] = 'Имя пользователя должно быть в нижнем регистре';
 $string['usernotaddederror'] = 'Пользователь не добавлен - ошибка';
 $string['usernotaddedregistered'] = 'Пользователь не добавлен - он уже зарегистрирован';
 $string['usernotavailable'] = 'Информация о данном пользователе Вам не доступна.';
 $string['usernotdeletedadmin'] = 'Пользователь не удален - нельзя удалять учетные записи администраторов';
+$string['usernotdeleteddeleted'] = 'Этот пользователь уже удален.';
 $string['usernotdeletederror'] = 'Ошибка - пользователь не удален';
 $string['usernotdeletedmissing'] = 'Пользователь не удален - не удается найти имя пользователя';
 $string['usernotdeletedoff'] = 'Пользователь не удален - удаление не разрешено';
@@ -576,6 +585,7 @@ $string['usernotupdatederror'] = 'Пользователь не обновлен
 $string['usernotupdatednotexists'] = 'Пользователь не обновлен - не существует';
 $string['userquotalimit'] = 'Вы достигли предела квоты на объем личных файлов.';
 $string['userselectortoomany'] = 'В user_selector было выбрано более одного пользователя, хотя  параметр multiselect был установлен false.';
+$string['verifyagedigitalconsentnotpossible'] = 'Извините, проверка возраста цифрового согласия в данный момент не возможна.';
 $string['wrongcall'] = 'Этот скрипт был вызыван некорректно';
 $string['wrongcontextid'] = 'Некорректный ID контекста (не удалось его найти)';
 $string['wrongdestpath'] = 'Ошибочный путь назначения';

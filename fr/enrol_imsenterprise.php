@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,6 +68,7 @@ $string['nestedcategories'] = 'Permettre les catégories imbriquées';
 $string['nestedcategories_desc'] = 'Si ce réglage est activé, IMS Enterprise créera des catégories imbriquées';
 $string['pluginname'] = 'Fichier IMS Enterprise';
 $string['pluginname_desc'] = 'Ce plugin d\'inscription vérifie l\'existence d\'un fichier texte spécialement formaté dans un endroit que vous spécifiez et le traite. Le fichier doit suivre les spécifications IMS Enterprise et contenir les éléments XML person, group et membership.';
+$string['privacy:metadata'] = 'Le plugin d\'inscription Fichier IMS Enterprise n\'enregistre aucune donnée personnelle.';
 $string['processphoto'] = 'Ajouter la photo de l\'utilisateur à son profil';
 $string['processphotowarning'] = 'Attention ! Le traitement des images est susceptible de charger le serveur de façon significative. Nous vous recommandons de n\'activer pas cette option si un grand nombre d\'étudiants doit être traité.';
 $string['restricttarget'] = 'Ne traiter les données que si la cible suivante est spécifiée';
@@ -91,7 +92,7 @@ $string['updatecourses'] = 'Modifier le cours';
 $string['updatecourses_desc'] = 'Si ce réglage est activé, le plugin d\'inscription IMS Enterprise peut modifier le nom complet et le nom abrégé des cours (si le champ « recstatus » est fixé à 2, ce qui représente une modification).';
 $string['updateusers'] = 'Modifier les comptes utilisateurs lorsqu\'indiqué dans les données IMS';
 $string['updateusers_desc'] = 'Si ce réglage est activé, le plugin d\'inscription IMS Enterprise peut effectuer des modifications dans les comptes utilisateur (si le champ « recstatus » est fixé à 2, ce qui représente une modification).';
-$string['usecapitafix'] = 'Cocher cette case lors de l\'utilisation de « Capita » (leur format XML n\'est pas tout à fait correct)';
+$string['usecapitafix'] = 'Cocher cette case lors de l\'utilisation de Capita (leur format XML n\'est pas tout à fait correct)';
 $string['usecapitafix_desc'] = 'Le système de données produit par Capita comporte un légère erreur dans son format de sortie XML. Si vous utilisez Capita, veuillez activer cette option. Dans le cas contraire, laissez-la décochée.';
 $string['usersettings'] = 'Options utilisateurs';
 $string['zeroisnotruncation'] = '0 indique pas de troncature';

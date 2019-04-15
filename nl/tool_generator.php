@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_generator', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_generator', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_generator
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,7 @@ $string['maketestcourse'] = 'Maak testcursus';
 $string['maketestplan'] = 'Maak JMeter testplan';
 $string['notenoughusers'] = 'De geselecteerde cursus heeft niet genoeg gebruikers';
 $string['pluginname'] = 'Ontwikkelings datagenerator';
+$string['privacy:metadata'] = 'De ontwikkeling gegevensgenerator-plugin bewaart geen persoonlijke gegevens.';
 $string['progress_checkaccounts'] = 'Gebruikersaccounts controleren ({$a})';
 $string['progress_coursecompleted'] = 'Cursus volledig ({$a})';
 $string['progress_createaccounts'] = 'Gebruikersaccounts maken ({$a->from} - {$a->to})';

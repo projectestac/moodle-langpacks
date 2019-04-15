@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_badges', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_badges', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,3 +30,4 @@ $string['badges:myaddinstance'] = 'Προσθήκη νέου μπλοκ «Τα �
 $string['nothingtodisplay'] = 'Δεν έχετε κανένα διακριτικό προς εμφάνιση';
 $string['numbadgestodisplay'] = 'Αριθμός πιο πρόσφατων διακριτικών προς εμφάνιση';
 $string['pluginname'] = 'Πρόσφατα διακριτικά';
+$string['privacy:metadata'] = 'Το μπλοκ "Τελευταία διακριτικά" εμφανίζει μόνο δεδομένα αποθηκευμένα σε άλλες τοποθεσίες.';

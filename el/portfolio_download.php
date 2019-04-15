@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio_download', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'portfolio_download', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   portfolio_download
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['downloadfile'] = 'Λήψη του αρχείου εξαγωγής του χαρτοφυλακίου σας';
 $string['downloading'] = 'Λήψη...';
 $string['pluginname'] = 'Λήψη αρχείου';
+$string['privacy:metadata'] = 'Αυτό το πρόσθετο δεν αποθηκεύει προσωπικά δεδομένα ούτε εξάγει προσωπικά δεδομένα σε εξωτερική τοποθεσία.';

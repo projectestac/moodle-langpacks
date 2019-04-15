@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'ltiservice_profile', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'ltiservice_profile', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   ltiservice_profile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Tool gebruikersprofiel LTI dienst';
+$string['privacy:metadata'] = 'De Tool Consumer Profile LTI-service plugin bewaart geen persoonlijke gegevens.';

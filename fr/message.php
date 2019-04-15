@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'message', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,29 @@ $string['outputnotconfigured'] = 'Non configuré';
 $string['page-message-x'] = 'Toute page de messagerie personnelle';
 $string['pagerefreshes'] = 'Cette page s\'actualise automatiquement toutes les {$a} secondes';
 $string['permitted'] = 'Autorisé';
+$string['privacy:metadata:message_contacts'] = 'La liste des contacts';
+$string['privacy:metadata:message_contacts:blocked'] = 'Si l\'utilisateur est bloqué ou non';
+$string['privacy:metadata:message_contacts:contactid'] = 'L\'identifiant de l\'utilisateur qui est un contact';
+$string['privacy:metadata:message_contacts:userid'] = 'L\'identifiant de l\'utilisateur dont c\'est la liste de contacts';
+$string['privacy:metadata:messages'] = 'Messages';
+$string['privacy:metadata:messages:component'] = 'Le composant responsable de l\'envoi du message/de la notification';
+$string['privacy:metadata:messages:contexturl'] = 'L\'URL associé à une notification';
+$string['privacy:metadata:messages:contexturlname'] = 'Le nom du contexte';
+$string['privacy:metadata:messages:eventtype'] = 'Le type d\'événement';
+$string['privacy:metadata:messages:fullmessage'] = 'Le message complet';
+$string['privacy:metadata:messages:fullmessageformat'] = 'Le format du message complet';
+$string['privacy:metadata:messages:fullmessagehtml'] = 'Le message complet en format HTML';
+$string['privacy:metadata:messages:notification'] = 'Indicateur de notification ou non';
+$string['privacy:metadata:messages:smallmessage'] = 'Une version abrégée du message';
+$string['privacy:metadata:messages:subject'] = 'L\'objet du message';
+$string['privacy:metadata:messages:timecreated'] = 'La date et l\'heure de création du message';
+$string['privacy:metadata:messages:timeread'] = 'La date et l\'heure à laquelle le message/la notification a été lue';
+$string['privacy:metadata:messages:timeuserfromdeleted'] = 'La date et l\'heure à laquelle le message/la notification a été supprimée par l\'expéditeur';
+$string['privacy:metadata:messages:timeusertodeleted'] = 'La date et l\'heure à laquelle le message/la notification a été supprimée par le destinataire';
+$string['privacy:metadata:messages:useridfrom'] = 'L\'identifiant de l\'expéditeur du message';
+$string['privacy:metadata:messages:useridto'] = 'L\'identifiant de l\'utilisateur qui a reçu la notification';
+$string['privacy:metadata:preference:core_message_settings'] = 'Réglages en lien avec la messagerie';
+$string['privacy:request:preference:set'] = 'La valeur du réglage « {$a->name} » est « {$a->value} »';
 $string['processorsettings'] = 'Réglage du processus d\'envoi de messages';
 $string['recent'] = 'Récent';
 $string['removecontact'] = 'Supprimer ce contact';
@@ -123,6 +146,10 @@ $string['seeall'] = 'Tout afficher';
 $string['selectmessagestodelete'] = 'Sélectionner les messages à supprimer';
 $string['selectnotificationtoview'] = 'Sélectionner une notification dans la liste de côté pour afficher plus de détails';
 $string['send'] = 'Envoyer';
+$string['sendbulkmessage'] = 'Envoyer le message à {$a} personnes';
+$string['sendbulkmessagesent'] = 'Message envoyé à {$a} personnes';
+$string['sendbulkmessagesentsingle'] = 'Message envoyé à 1 personne';
+$string['sendbulkmessagesingle'] = 'Envoyer le message à 1 personne';
 $string['sendingvia'] = 'Envoi de « {$a->provider} » via « {$a->processor} »';
 $string['sendingviawhen'] = 'Envoi de « {$a->provider} » via « {$a->processor} » quand {$a->state}';
 $string['sendmessage'] = 'Envoyer message personnel';
@@ -141,6 +168,7 @@ $string['togglemessagemenu'] = 'Ouvrir/fermer le menu messages';
 $string['togglenotificationmenu'] = 'Ouvrir/fermer le menu notifications';
 $string['touserdoesntexist'] = 'Vous ne pouvez pas envoyer de message à un utilisateur ({$a}) qui n\'existe pas';
 $string['unblockcontact'] = 'Débloquer ce contact';
+$string['unknownuser'] = 'Utilisateur inconnu';
 $string['unreadnewmessage'] = 'Nouveau message de {$a}';
 $string['unreadnotification'] = 'Notifications non lues : {$a}';
 $string['userisblockingyou'] = 'Cet utilisateur vous a retiré le droit de lui envoyer des messages personnels';

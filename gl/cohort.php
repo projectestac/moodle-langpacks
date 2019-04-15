@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cohort', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cohort', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   cohort
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,10 @@ $string['nocomponent'] = 'Creada manualmente';
 $string['potusers'] = 'Usuarios potenciais';
 $string['potusersmatching'] = 'Usuarios potenciais coincidentes';
 $string['preview'] = 'Vista previa';
+$string['privacy:metadata:cohort_members'] = 'Información sobre o círculo do usuario.';
+$string['privacy:metadata:cohort_members:cohortid'] = 'O ID do círculo';
+$string['privacy:metadata:cohort_members:timeadded'] = 'A marca de tempo que indica cando foi engadido o usuario ao círculo';
+$string['privacy:metadata:cohort_members:userid'] = 'O ID do usuario que está asociado ao círculo';
 $string['removeuserwarning'] = 'A retirada dos usuarios dun círculo pode resultar nunha desmatriculación de usuarios de múltiples cursos, o que inclúe a eliminación da configuración do usuario, as cualificacións, a pertenza a grupos e outra información dos usuarios dos cursos afectados.';
 $string['search'] = 'Buscar';
 $string['searchcohort'] = 'Buscar un círculo';

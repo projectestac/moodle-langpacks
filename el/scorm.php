@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'scorm', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -74,6 +74,8 @@ $string['browsed'] = 'Προβλήθηκε';
 $string['browsemode'] = 'Κατάσταση προεπισκόπησης';
 $string['browserepository'] = 'Πλοήγηση στο αποθετήριο';
 $string['calculatedweight'] = 'Υπολογιζόμενος συντελεστής βαρύτητας';
+$string['calendarend'] = '{$a} κλείνει';
+$string['calendarstart'] = '{$a} ανοίγει';
 $string['cannotaccess'] = 'Δεν είναι δυνατή η κλήση του σεναρίου με αυτό τον τρόπο';
 $string['cannotfindsco'] = 'Δεν ήταν δυνατή η εύρεση του SCO';
 $string['chooseapacket'] = 'Επιλογή ή ενημέρωση πακέτου';
@@ -83,17 +85,20 @@ $string['collapsetocwinsizedesc'] = 'Αυτή η ρύθμιση σας επιτ�
 $string['compatibilitysettings'] = 'Ρυθμίσεις συμβατότητας';
 $string['completed'] = 'Ολοκληρωμένο';
 $string['completionscorerequired'] = 'Απαιτείται ελάχιστο σκορ';
+$string['completionscorerequireddesc'] = 'Για την ολοκλήρωση απαιτείται ελάχιστο σκορ {$a}';
 $string['completionscorerequired_help'] = 'Η ενεργοποίηση αυτής της ρύθμισης απαιτεί ο χρήστης να καλύπτει τουλάχιστον το ελάχιστο σκορ που δίνεται προκειμένου να επισημανθεί ως ολοκληρωμένη η δραστηριότητα SCORM, καθώς και τις όποιες άλλες απαιτήσεις Ολοκλήρωσης Δραστηριότητας.';
 $string['completionstatusallscos'] = 'Απαιτείται όλα τα scos να επιστρέφουν κατάσταση ολοκλήρωσης';
 $string['completionstatusallscos_help'] = 'Μερικά πακέτα SCORM περιέχουν πολλαπλά συστατικά ή "scos" - όταν είναι ενεργοποιημένη η ρύθμιση όλα τα scos εντός του πακέτου πρέπει να επιστρέφουν το σχετικό lesson_status προκειμένου η δραστηριότητα να επισημανθεί ως ολοκληρωμένη.';
 $string['completionstatus_completed'] = 'Ολοκληρωμένο';
 $string['completionstatus_passed'] = 'Πέρασε';
 $string['completionstatusrequired'] = 'Απαιτείται κατάσταση';
+$string['completionstatusrequireddesc'] = 'Ο μαθητής πρέπει να πετύχει τουλάχιστον μια από τις ακόλουθες καταστάσεις: {$a}';
 $string['completionstatusrequired_help'] = 'Επιλέγοντας μια ή περισσότερες καταστάσεις ο χρήστης θα πρέπει να επιτύχει τουλάχιστον μια από τις επιλεγμένες καταστάσεις, προκειμένου να επισημανθεί ως ολοκληρωμένη η δραστηριότητα SCORM, καθώς και οι όποιες άλλες απαιτήσεις Ολοκλήρωσης Δραστηριότητας.';
 $string['confirmloosetracks'] = 'ΠΡΟΣΟΧΗ: Το πακέτο έχει αλλαχθεί ή τροποποιηθεί. Αν η δομή του πακέτου έχει αλλάξει, κάποια στοιχεία χρηστών πιθανώς να χαθούν κατά τη διαδικασία ενημέρωσης.';
 $string['contents'] = 'Περιεχόμενα';
 $string['coursepacket'] = 'Πακέτο μαθήματος';
 $string['coursestruct'] = 'Δομή μαθήματος';
+$string['crontask'] = 'Επεξεργασία παρασκηνίου για το SCORM';
 $string['currentwindow'] = 'Τρέχον παράθυρο';
 $string['datadir'] = 'Σφάλμα αρχείου συστήματος: Αδυναμία δημιουργίας φακέλου δεδομένων μαθήματος';
 $string['defaultdisplaysettings'] = 'Προεπιλεγμένες ρυθμίσεις εμφάνισης';
@@ -185,6 +190,10 @@ $string['hidetoc_help'] = 'Ο τρόπος εμφάνισης του πίνακ�
 $string['highestattempt'] = 'Υψηλότερη βαθμολογία';
 $string['identifier'] = 'Αναγνωριστικό ερώτησης';
 $string['incomplete'] = 'Μη ολοκληρωμένο';
+$string['indicator:cognitivedepth'] = 'Βάθος κατανόησης SCORM';
+$string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα SCORM.';
+$string['indicator:socialbreadth'] = 'Κοινωνικό εύρος SCORM';
+$string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα SCORM.';
 $string['info'] = 'Πληροφορίες';
 $string['interactions'] = 'Αλληλεπιδράσεις';
 $string['invalidactivity'] = 'Η δραστηριότητα SCORM είναι λανθασμένη';
@@ -220,6 +229,8 @@ $string['modulename_help'] = 'Ένα πακέτο SCORM είναι μια συλ
 * Για την παρουσίαση πολυμεσικού περιεχομένου και κινουμένων σχεδίων
 * Ως εργαλείο αξιολόγησης';
 $string['modulenameplural'] = 'Πακέτα SCORM';
+$string['myaiccsessions'] = 'Οι σύνοδοι AICC μου';
+$string['myattempts'] = 'Οι προσπάθειές μου';
 $string['nav'] = 'Εμφάνιση Πλοήγησης';
 $string['navdesc'] = 'Αυτή η ρύθμιση καθορίζει αν θα εμφανίζονται ή θα αποκρύπτονται τα πλήκτρα πλοήγησης και η θέση τους.';
 $string['nav_help'] = 'Αυτή η ρύθμιση καθορίζει αν θα εμφανίζονται ή θα αποκρύπτονται τα κουμπιά πλοήγησης και η θέση τους.
@@ -281,6 +292,20 @@ $string['position_error'] = 'Η ετικέτα {$a->tag}  δεν μπορεί ν
 $string['preferencespage'] = 'Προτιμήσεις μόνο για αυτή τη σελίδα';
 $string['preferencesuser'] = 'Προτιμήσεις για αυτή την αναφορά';
 $string['prev'] = 'Προηγούμενο';
+$string['privacy:metadata:aicc:data'] = 'Προσωπικά δεδομένα που διαβιβάστηκαν από το υποσύστημα AICC/SCORM.';
+$string['privacy:metadata:aicc:externalpurpose'] = 'Αυτό το πρόσθετο αποστέλλει δεδομένα εξωτερικά με χρήση AICC HACP.';
+$string['privacy:metadata:aicc_session:lessonstatus'] = 'Η κατάσταση του μαθήματος προς παρακολούθηση';
+$string['privacy:metadata:aicc_session:scormmode'] = 'Η κατάσταση λειτουργίας του στοιχείου προς παρακολούθηση';
+$string['privacy:metadata:aicc_session:scormstatus'] = 'Η κατάσταση του στοιχείου προς παρακολούθηση';
+$string['privacy:metadata:aicc_session:sessiontime'] = 'Ο χρόνος συνόδου προς παρακολούθηση';
+$string['privacy:metadata:aicc_session:timecreated'] = 'Πότε δημιουργήθηκε το παρακολουθούμενο στοιχείο';
+$string['privacy:metadata:attempt'] = 'Ο αριθμός προσπάθειας';
+$string['privacy:metadata:scoes_track:element'] = 'Το όνομα του στοιχείου προς παρακολούθηση';
+$string['privacy:metadata:scoes_track:value'] = 'Η τιμή του δεδομένου στοιχείου';
+$string['privacy:metadata:scorm_aicc_session'] = 'Οι πληροφορίες συνόδου AICC HACP';
+$string['privacy:metadata:scorm_scoes_track'] = 'Τα δεδομένα παρακολούθησης των SCO που ανήκουν στη δραστηριότητα';
+$string['privacy:metadata:timemodified'] = 'Πότε τροποποιήθηκε τελευταία το παρακολουθούμενο στοιχείο';
+$string['privacy:metadata:userid'] = 'Το αναγνωριστικό του χρήστη που είχε πρόσβαση στη δραστηριότητα SCORM';
 $string['protectpackagedownloads'] = 'Προστασία λήψης πακέτου';
 $string['protectpackagedownloads_desc'] = 'Αν ενεργοποιηθεί, τα πακέτα SCORM μπορούν να κατέβουν μόνο αν ο χρήστης έχει τη δυνατότητα course:manageactivities. Αν απενεργοποιηθεί, τα πακέτα SCORM μπορούν να κατέβουν χωρίς περιορισμό (από κινητό ή άλλα μέσα).';
 $string['raw'] = 'Ανεπεξέργαστο σκορ';

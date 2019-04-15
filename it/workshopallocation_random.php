@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_random', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopallocation_random', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopallocation_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,6 +45,7 @@ $string['numofselfallocatedsubmissions'] = 'Auto distribuzione di {$a} consegne.
 $string['numperauthor'] = 'per consegna';
 $string['numperreviewer'] = 'per revisore';
 $string['pluginname'] = 'Distribuzione casuale';
+$string['privacy:metadata'] = 'Il plugin \'Distribuzione casuale\' non memorizza dati personali. I dati personali effettivi su chi andrà a valutare chi sono memorizzati nel modulo Workshop e costituiscono la base per l\'esportazione dei dettagli sulle valutazioni.';
 $string['randomallocationdone'] = 'Distribuzione casuale completata';
 $string['removecurrentallocations'] = 'Elimina distribuzioni in essere';
 $string['resultnomorepeers'] = 'Non ci sono altri pari disponibili';

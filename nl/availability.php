@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   availability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,6 +61,7 @@ $string['list_root_or_hidden'] = 'Niet beschikbaar (verborgen) tenzij één van:
 $string['manageplugins'] = 'Beheer beperkingen';
 $string['missingplugin'] = 'Beperkings-plugin ontbreekt';
 $string['or'] = 'of';
+$string['privacy:metadata'] = 'Het toegangsbeperking subsysteem bewaart geen persoonlijke gegevens.';
 $string['restrictaccess'] = 'Beperk toegang';
 $string['restrictbygroup'] = 'Voeg toegangsrestrictie voor groep/groepering toe';
 $string['setheading'] = '{$a->number} Set van {$a->count} beperking(en)';

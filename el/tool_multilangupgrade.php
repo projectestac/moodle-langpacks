@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_multilangupgrade', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_multilangupgrade', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_multilangupgrade
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,3 +29,4 @@ $string['multilangupgradeinfo'] = '<p>Η σύνταξη φίλτρου πακέ�
 <p>Παράδειγμα: &lt;span lang="en" class="multilang"&gt;Hello!&lt;/span&gt;&lt;span lang="es" class="multilang"&gt;Hola!&lt;/span&gt;</p>
 <p>Θέλετε τώρα να αναβαθμίσετε τη σύνταξη σε όλα τα υπάρχοντα κείμενα;</p>';
 $string['pluginname'] = 'Ενημέρωση πακέτων γλωσσών';
+$string['privacy:metadata'] = 'Το πρόσθετο «Ενημέρωση πακέτων γλωσσών» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

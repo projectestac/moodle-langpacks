@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_cas', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_cas', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_cas
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,4 +77,5 @@ $string['auth_cas_version'] = 'Έκδοση του πρωτοκόλλου CAS π
 $string['CASform'] = 'Επιλογή αυθεντικοποίησης';
 $string['noldapserver'] = 'Κανένας εξυπηρετητής LDAP δεν ρυθμίστηκε για CAS! Ο συγχρονισμός απενεργοποιήθηκε. (Central Authentication Service: κεντρική υπηρεσία αυθεντικοποίησης)';
 $string['pluginname'] = 'Εξυπηρετητής  CAS (SSO)';
+$string['privacy:metadata'] = 'Το πρόσθετο «Αυθεντικοποίηση εξυπηρετητή CAS (SSO)» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['synctask'] = 'CAS εργασία συγχρονισμού χρηστών';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_charmap', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_charmap', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_charmap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -211,6 +211,7 @@ $string['pisymbol'] = 'pi ikurra';
 $string['pluginname'] = 'Txertatu karakterea';
 $string['plusminussign'] = 'gehi-ken ikurra';
 $string['poundsign'] = 'libera ikurra';
+$string['privacy:metadata'] = 'atto_charmap pluginak ez du datu pertsonalik biltzen.';
 $string['proportionalto'] = 'honekiko proportzionala';
 $string['psi'] = 'psi';
 $string['psi_caps'] = 'Psi';

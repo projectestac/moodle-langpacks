@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_scheduled', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopallocation_scheduled', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopallocation_scheduled
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,7 @@ $string['currentstatusresult'] = 'Risultati dell\'ultima elaborazione';
 $string['enablescheduled'] = 'Abilita distribuzione pianificata';
 $string['enablescheduledinfo'] = 'Distribuisce automaticamente le consegne dopo la fine della fase di consegna';
 $string['pluginname'] = 'Distribuzione pianificata';
+$string['privacy:metadata'] = 'Il plugin \'Distribuzione pianificata\' non memorizza dati personali. I dati personali effettivi su chi andrà a valutare chi sono memorizzati nel modulo Workshop e costituiscono la base per l\'esportazione dei dettagli sulle valutazioni.';
 $string['randomallocationsettings'] = 'Impostazioni distribuzione';
 $string['randomallocationsettings_help'] = 'I parametri per la distribuzione casuali possono essere impostati qui. Tali parametri saranno usati dal plugin distribuzione casuale per distribuire le consegne.';
 $string['resultdisabled'] = 'Distribuzione pianificata disabilitata';

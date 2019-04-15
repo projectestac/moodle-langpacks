@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'mnet', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,7 +62,7 @@ $string['duplicate_usernames'] = 'Er kon geen index gemaakt worden op de kolomme
 $string['enabled_for_all'] = '(Deze service is ingeschakeld voor alle hosts)';
 $string['enterausername'] = 'Geef een gebruikersnaam of een door komma\'s gescheiden lijst van gebruikersnamen.';
 $string['error7020'] = 'Je ziet deze foutmelding als de site op afstand een record voor jou gemaakt heeft met de verkeerde wwwroot, bijvoorbeeld http://jouwsite.com in de plaats van http://www.jouwsite.com. Je moet de beheerder van die site contacteren om te vragen de record voor jouw host aan te passen met de waarde die je voor wwwroot vindt in config.php.';
-$string['error7022'] = 'Het bericht dat je naar de server op afstand stuurde, was juist geëncrypteerd, maar niet ondertekend. Dit is heel ongewoon. Je kunt best een foutmelding maken, waarbij je zoveel mogelijk informatie geeft over de betreffende applicatieversies enz.';
+$string['error7022'] = 'Het bericht dat je naar de externe server, was juist geëncrypteerd, maar niet ondertekend. Dit is heel ongewoon. Je kunt best een foutmelding maken, waarbij je zoveel mogelijk informatie geeft over de betreffende applicatieversies enz.';
 $string['error7023'] = 'De site op afstand heeft geprobeerd he bericht te ontcijferen met de sleutels die daar voor jouw site beschikbaar zijn. Dit is mislukt. Je kunt dit waarschijnlijk oplossen door manueel de sleutel opnieuw uit te wisselen met de site op afstand. Deze fout zou normaal gezien niet mogen gebeuren, tenzij je geen communicatie meer had met die site gedurende enkele maanden.';
 $string['error7024'] = 'Je hebt een onversleuteld bericht gestuurd naar de site op afstand, maar deze site accepteert geen onversleutelde boodschappen van jouw site. Dit is heel ongewoon. Je kunt best een foutmelding maken, waarbij je zoveel mogelijk informatie geeft over de betreffende applicatieversie enz.';
 $string['error7026'] = 'De sleutel waarmee je boodschap is ondertekend, is verschillend van de sleutel waarover de host op afstand over beschikt voor jouw server. Bovendien heeft die host geprobeerd je huidige sleutel te verkrijgen en is daar niet in geslaagd. Geef de sleutel opnieuw manueel door en probeer nog eens.';
@@ -174,6 +174,7 @@ $string['permittedtransports'] = 'Toegelaten transporten';
 $string['phperror'] = 'Een interne PHP-fout verhinderde dat je aanvraag goed afgehandeld werd.';
 $string['position'] = 'Positie';
 $string['postrequired'] = 'De verwijderfunctie vereist een POST request.';
+$string['privacy:metadata'] = 'De MNet-plugin bewaart geen persoonlijke gegevens.';
 $string['profileexportfields'] = 'Te versturen velden';
 $string['profilefielddesc'] = 'Hier kun je de lijst met profielvelden die verstuurd en ontvangen worden over MNET tijdens creatie en updates van gebruikersaccounts, configureren. Je kunt dit ook voor elke MNET-partner individueel overschrijven. Merk op dat volgende velden altijd verstuurd worden en niet optioneel zijn: {$a}';
 $string['profilefields'] = 'Profielvelden';

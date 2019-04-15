@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tag', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['added'] = 'Προστέθηκαν τυπικές ετικέτες(α)';
-$string['addedotag'] = 'Το "{$a}" προστέθηκε σαν επίσημη ετικέτα.';
 $string['addotags'] = 'Προσθήκη τυπικών ετικετών';
 $string['addtagcoll'] = 'Προσθήκη συλλογής ετικετών';
 $string['addtagtomyinterests'] = 'Προσθήκη του «{$a}» στα ενδιαφέροντά μου';
@@ -90,7 +89,6 @@ $string['name'] = 'Όνομα ετικέτας';
 $string['namesalreadybeeingused'] = 'Ήδη χρησιμοποιούμενα ονόματα ετικετών';
 $string['nameuseddocombine'] = 'Το όνομα της ετικέτας χρησιμοποιείται ήδη. Θέλετε να συνδυάσετε αυτές τις ετικέτες;';
 $string['newcollnamefor'] = 'Νέο όνομα για την συλλογή ετικετών «{$a}»';
-$string['newname'] = 'Νέο όνομα ετικέτας';
 $string['newnamefor'] = 'Νέο όνομα για την ετικέτα {$a}';
 $string['nextpage'] = 'Περισσότερα';
 $string['noresultsfor'] = 'Δεν βρέθηκε το «{$a}»';
@@ -105,6 +103,19 @@ $string['page-tag-manage'] = 'Διαχείριση σελίδας ετικέτα
 $string['page-tag-search'] = 'Σελίδα αναζήτησης ετικέτας';
 $string['page-tag-x'] = 'Όλες οι σελίδες ετικέτας';
 $string['prevpage'] = 'Επιστροφή';
+$string['privacy:metadata:tag'] = 'Οι λεπτομέρειες κάθε μοναδικής ετικέτας αποθηκεύονται μαζί με την περιγραφή τους και άλλες σχετικές πληροφορίες';
+$string['privacy:metadata:tag:description'] = 'Η περιγραφή της ετικέτας.';
+$string['privacy:metadata:tag:flag'] = 'Αν μια ετικέτα έχει επισημανθεί ως ακατάλληλη.';
+$string['privacy:metadata:taginstance'] = 'Ο σύνδεσμος μεταξύ κάθε ετικέτας και του σημείου όπου χρησιμοποιείται.';
+$string['privacy:metadata:taginstance:ordering'] = 'Η σχετική σειρά αυτής της ετικέτας.';
+$string['privacy:metadata:taginstance:tagid'] = 'Ο σύνδεσμος προς την ετικέτα.';
+$string['privacy:metadata:taginstance:timecreated'] = 'Πότε συνδέθηκε αυτή η ετικέτα με το στόχο.';
+$string['privacy:metadata:taginstance:timemodified'] = 'Πότε τροποποιήθηκε αυτή η ετικέτα για τον στόχο.';
+$string['privacy:metadata:taginstance:tiuserid'] = 'Όταν κοινόχρηστο περιεχόμενο μπορεί να πάρει ετικέτες μεμονωμένα από χρήστες, αποθηκεύεται ο κάτοχος του στιγμιότυπου ετικέτας.';
+$string['privacy:metadata:tag:name'] = 'Το όνομα της ετικέτας - αυτή είναι η κανονικοποιημένη έκδοση του ονόματος.';
+$string['privacy:metadata:tag:rawname'] = 'Το όνομα της ετικέτας - αυτό είναι το εμφανιζόμενο όνομα.';
+$string['privacy:metadata:tag:timemodified'] = 'Πότε τροποποιήθηκε τελευταία η ετικέτα.';
+$string['privacy:metadata:tag:userid'] = 'Το αναγνωριστικό του χρήστη που δημιούργησε την ετικέτα.';
 $string['ptags'] = 'Ετικέτες χρηστών (χωρισμένες με κόμματα)';
 $string['relatedblogs'] = 'Οι πιο πρόσφατες αναρτήσεις ιστολογίου';
 $string['relatedtags'] = 'Σχετικές ετικέτες';
@@ -154,13 +165,8 @@ $string['taggedwith'] = 'σχετικό με "{$a}"';
 $string['tags'] = 'Ετικέτες';
 $string['tagsaredisabled'] = 'Οι ετικέτες είναι απενεργοποιημένες';
 $string['tagtype'] = 'Τύπος ετικέτας';
-$string['tagtype_default'] = 'Προκαθορισμένη';
-$string['tagtype_official'] = 'Επίσημη';
 $string['thingstaggedwith'] = 'Το «{$a->name}» χρησιμοποιείται {$a->count} φορές';
 $string['thingtaggedwith'] = 'Το «{$a->name}» χρησιμοποιείται μία φορά';
-$string['thistaghasnodesc'] = 'Αυτή η ετικέτα δεν διαθέτει περιγραφή.';
 $string['timemodified'] = 'Τροποποιήθηκε';
 $string['typechanged'] = 'Ο τύπος της ετικέτας άλλαξε';
-$string['updated'] = 'Ενημερώθηκε';
 $string['updatetag'] = 'Ενημέρωση';
-$string['withselectedtags'] = 'Με τις επιλεγμένες ετικέτες...';

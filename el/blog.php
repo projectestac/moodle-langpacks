@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'blog', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -135,6 +135,29 @@ $string['pagesize'] = 'Αριθμός αναρτήσεων ανά σελίδα';
 $string['permalink'] = 'Μόνιμος σύνδεσμος';
 $string['personalblogs'] = 'Οι χρήστες μπορούν να δουν μόνο το δικό τους ιστολόγιο';
 $string['preferences'] = 'Προτιμήσεις ιστολογίου';
+$string['privacy:metadata:core_comments'] = 'Σχόλια που συσχετίζονται με καταχωρήσεις ιστολογίου';
+$string['privacy:metadata:core_files'] = 'Αρχεία που συνδέονται με καταχωρήσεις ιστολογίου';
+$string['privacy:metadata:core_tag'] = 'Ετικέτες που συσχετίζονται με καταχωρήσεις ιστολογίου';
+$string['privacy:metadata:external'] = 'Ένας σύνδεσμος προς μια εξωτερική τροφοδοσία RSS';
+$string['privacy:metadata:external:description'] = 'Περιγραφή της τροφοδοσίας';
+$string['privacy:metadata:external:filtertags'] = 'Η λίστα των ετικετών για να φιλτράρετε με αυτές, τις καταχωρήσεις';
+$string['privacy:metadata:external:name'] = 'Το όνομα της τροφοδοσίας';
+$string['privacy:metadata:external:timefetched'] = 'Ημερομηνία κατά την οποία λήφθηκε τελευταία η τροφή';
+$string['privacy:metadata:external:timemodified'] = 'Η ώρα κατά την οποία η συσχέτιση τροποποιήθηκε τελευταία φορά';
+$string['privacy:metadata:external:url'] = 'Η διεύθυνση URL της τροφοδοσίας';
+$string['privacy:metadata:external:userid'] = 'Το αναγνωριστικό του χρήστη που πρόσθεσε την εξωτερική καταχώρηση ιστολογίου.';
+$string['privacy:metadata:post'] = 'Οι πληροφορίες που σχετίζονται με αναρτήσεις ιστολογίου';
+$string['privacy:metadata:post:content'] = 'Το περιεχόμενο μιας εξωτερικής καταχώρησης ιστολογίου.';
+$string['privacy:metadata:post:created'] = 'Ημερομηνία κατά την οποία δημιουργήθηκε η καταχώρηση.';
+$string['privacy:metadata:post:lastmodified'] = 'Ημερομηνία κατά την οποία η καταχώριση τροποποιήθηκε τελευταία.';
+$string['privacy:metadata:post:publishstate'] = 'Εάν η καταχώρηση θα είναι ορατή σε άλλους ή όχι';
+$string['privacy:metadata:post:subject'] = 'Τίτλος καταχώρησης στο ιστολόγιο';
+$string['privacy:metadata:post:summary'] = 'Καταχώρηση στο ιστολόγιο.';
+$string['privacy:metadata:post:uniquehash'] = 'Ένα μοναδικό αναγνωριστικό για μια εξωτερική καταχώρηση, συνήθως μια διεύθυνση URL.';
+$string['privacy:metadata:post:userid'] = 'Το αναγνωριστικό του χρήστη που πρόσθεσε την καταχώρηση του ιστολογίου.';
+$string['privacy:metadata:post:usermodified'] = 'Ο χρήστης που τροποποίησε τελευταίος την καταχώρηση';
+$string['privacy:path:blogassociations'] = 'Συσχετισμένες αναρτήσεις ιστολογίου';
+$string['privacy:unknown'] = 'Άγνωστος';
 $string['publishto'] = 'Δημοσίευση σε';
 $string['publishtocourse'] = 'Χρήστες που μοιράζονται ένα μάθημα μαζί σας';
 $string['publishtocourseassoc'] = 'Μέλη του συσχετισμένου μαθήματος';

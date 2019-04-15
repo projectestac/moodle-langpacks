@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_equation', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_equation', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_equation
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['librarygroup4'] = 'Για προχωρημένους';
 $string['librarygroup4_desc'] = 'TeX εντολές που αναφέρονται στην καρτέλα για προχωρημένους.';
 $string['pluginname'] = 'Επεξεργαστής εξισώσεων';
 $string['preview'] = 'Προεπισκόπηση εξισώσεων';
+$string['privacy:metadata'] = 'Το πρόσθετο «atto_equation» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['saveequation'] = 'Αποθήκευση εξίσωσης';
 $string['settings'] = 'Ρυθμίσεις επεξεργαστή εξισώσεων';
 $string['update'] = 'Ενημέρωση';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio_mahara', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'portfolio_mahara', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   portfolio_mahara
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,5 +50,7 @@ $string['pf_description'] = 'Να επιτρέπεται σε χρήστες ν�
 </li></ul><br />';
 $string['pf_name'] = 'Υπηρεσίες Χαρτοφυλακίου';
 $string['pluginname'] = 'Ηλεκτρονικό Χαρτοφυλάκιο Mahara';
+$string['privacy:metadata'] = 'Αυτό το πρόσθετο αποστέλλει δεδομένα εξωτερικά σε μια συνδεδεμένη εφαρμογή Mahara. Δεν αποθηκεύει δεδομένα τοπικά.';
+$string['privacy:metadata:data'] = 'Προσωπικά δεδομένα που διαβιβάστηκαν από το υποσύστημα χαρτοφυλακίου.';
 $string['senddisallowed'] = 'Δεν μπορείτε να μεταφέρετε αρχεία στο Mahara αυτή τη στιγμή';
 $string['url'] = 'Διεύθυνση URL';

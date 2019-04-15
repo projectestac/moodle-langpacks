@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_onlinetext', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignsubmission_onlinetext', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   assignsubmission_onlinetext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,12 @@ $string['onlinetext'] = 'Κείμενο σε ιστοσελίδα (σε σύνδ
 $string['onlinetextfilename'] = 'onlineκείμενο.html';
 $string['onlinetextsubmission'] = 'Να επιτρέπεται η υποβολή κειμένου σε ιστοσελίδα (σε σύνδεση)';
 $string['pluginname'] = 'Υποβολές κειμένων σε ιστοσελίδα (σε σύνδεση)';
+$string['privacy:metadata:assignmentid'] = 'Αναγνωριστικό εργασίας';
+$string['privacy:metadata:filepurpose'] = 'Αρχεία που είναι ενσωματωμένα στην υποβολή κειμένου.';
+$string['privacy:metadata:submissionpurpose'] = 'Το αναγνωριστικό υποβολής που συνδέεται με υποβολές για τον χρήστη.';
+$string['privacy:metadata:tablepurpose'] = 'Αποθηκεύει την υποβολή κειμένου για κάθε προσπάθεια.';
+$string['privacy:metadata:textpurpose'] = 'Το πραγματικό κείμενο που υποβλήθηκε με αυτή την προσπάθεια για αυτή την εργασία.';
+$string['privacy:path'] = 'Κείμενο υποβολής';
 $string['wordlimit'] = 'Όριο λέξεων';
 $string['wordlimitexceeded'] = 'Το όριο λέξεων για αυτή την εργασία είναι {$a->limit} και προσπαθείτε να υποβάλετε {$a->count} λέξεις. Ελέγξτε την υποβολή σας και δοκιμάστε ξανά.';
 $string['wordlimit_help'] = 'Εάν είναι ενεργοποιημένες οι υποβολές κειμένου σε ιστοσελίδα (σε σύνδεση), αυτός θα είναι ο μέγιστος  αριθμός λέξεων που θα επιτρέπεται σε κάθε μαθητή να υποβάλει.';

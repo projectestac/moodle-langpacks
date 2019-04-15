@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_templatelibrary', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_templatelibrary', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_templatelibrary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['example'] = 'Παράδειγμα';
 $string['noresults'] = 'Δεν βρέθηκαν αποτελέσματα';
 $string['notemplateselected'] = 'Δεν έχει επιλεγεί πρότυπο';
 $string['pluginname'] = 'Βιβλιοθήκη προτύπων';
+$string['privacy:metadata'] = 'Το πρόσθετο «Βιβλιοθήκη φορμών» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['search'] = 'Αναζήτηση';
 $string['searchtemplates'] = 'Αναζήτηση προτύπων';
 $string['templatehasnoexample'] = 'Αυτό το πρότυπο δεν έχει παράδειγμα πλαισίου, επομένως δεν μπορεί να αποδοθεί εδώ. Για να προσθέσετε ένα παράδειγμα πλαισίου σε αυτό το πρότυπο, εισαγάγετε σε ένα σχόλιο Mustache "Example context (json):", ακολουθούμενο από το κωδικοποιημένο μέσω json παράδειγμα πλαισίου για το πρότυπο.';

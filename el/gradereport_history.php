@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_history', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradereport_history', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   gradereport_history
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,6 +48,7 @@ $string['history:view'] = 'Προβολή ιστορικού βαθμολογί�
 $string['loadmoreusers'] = 'Φόρτωση περισσότερων χρηστών...';
 $string['pluginname'] = 'Ιστορικό βαθμών';
 $string['preferences'] = 'Προτιμήσεις ιστορικού βαθμού';
+$string['privacy:metadata'] = 'Η αναφορά ιστορικού βαθμών εμφανίζει μόνο δεδομένα που είναι αποθηκευμένα σε άλλες τοποθεσίες.';
 $string['revisedonly'] = 'Μόνο αναθεωρημένοι βαθμοί';
 $string['revisedonly_help'] = 'Εμφάνιση μόνο βαθμών που έχουν αναθεωρηθεί. Αυτό σημαίνει ότι θα αναφέρονται μόνο καταχωρήσεις που οδήγησαν στην αλλαγή βαθμού.';
 $string['selectedusers'] = 'Επιλεγμένοι χρήστες';

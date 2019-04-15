@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_calendar_month', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_calendar_month', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   block_calendar_month
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['calendar_month:addinstance'] = 'Afegeix un bloc calendari nou';
 $string['calendar_month:myaddinstance'] = 'Afegeix un bloc de calendari nou a la pàgina del Tauler';
 $string['pluginname'] = 'Calendari';
+$string['privacy:metadata'] = 'El bloc Calendari només mostra les dades existents al calendari.';

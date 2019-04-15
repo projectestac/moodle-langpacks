@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_comments', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignsubmission_comments', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   assignsubmission_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,3 +32,4 @@ $string['default_help'] = 'Il metodo di consegna sarà abilitato di default in t
 $string['enabled'] = 'Commenti alla consegna';
 $string['enabled_help'] = 'Gli studenti potranno abbinare un commento alla propria consegna. Può essere utile in diversi casi, ad esempio gli studenti possono avvertire il valutatore su quale sia il file principale se la consegna prevede più file collegati tra loro.';
 $string['pluginname'] = 'Commenti alle consegne';
+$string['privacy:metadata:commentpurpose'] = 'Commenti sulla consegna tra studente e docente.';

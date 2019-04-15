@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'grades', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -116,7 +116,6 @@ $string['calculationsaved'] = 'Cálculo gardado';
 $string['calculationview'] = 'Ver o cálculo';
 $string['cannotaccessgroup'] = 'Non é posíbel acceder ás cualificacións do grupo seleccionado.';
 $string['categories'] = 'Categorías';
-$string['categoriesanditems'] = 'Categorías e elementos';
 $string['category'] = 'Categoría';
 $string['categoryedit'] = 'Editar categoría';
 $string['categoryname'] = 'Nome da categoría';
@@ -609,6 +608,44 @@ $string['prefletters'] = 'Letras de cualificación e límites';
 $string['prefrows'] = 'Filas especiais';
 $string['prefshow'] = 'Amosar/agochar os conmutadores';
 $string['previewrows'] = 'Vista previa das filas';
+$string['privacy:metadata:categorieshistory'] = 'Un rexistro de versións anteriores das categorías de cualificación';
+$string['privacy:metadata:grade_import_newitem'] = 'Táboa temporal para almacenar novos nomes de grade_item (elemento de cualificación) dende a importación de cualificación';
+$string['privacy:metadata:grade_import_newitem:importcode'] = 'Un único código por lotes para identificar un lote de importacións';
+$string['privacy:metadata:grade_import_newitem:importer'] = 'Usuario que importa os datos';
+$string['privacy:metadata:grade_import_newitem:itemname'] = 'Nome do novo elemento de cualificación';
+$string['privacy:metadata:grade_import_values'] = 'Táboa temporal de importación de cualificacións';
+$string['privacy:metadata:grade_import_values:feedback'] = 'Comentarios da cualificación';
+$string['privacy:metadata:grade_import_values:finalgrade'] = 'Valor de cualificación en bruto';
+$string['privacy:metadata:grade_import_values:importcode'] = 'Un único código por lotes para identificar un lote de importacións';
+$string['privacy:metadata:grade_import_values:importer'] = 'Usuario que importa os datos';
+$string['privacy:metadata:grade_import_values:importonlyfeedback'] = 'Sinaliza se só se importaron os comentarios';
+$string['privacy:metadata:grade_import_values:userid'] = 'Usuario cuxa cualificación foi importada';
+$string['privacy:metadata:grades'] = 'Un rexistro de cualificacións';
+$string['privacy:metadata:grades:aggregationstatus'] = 'O estado de agregación';
+$string['privacy:metadata:grades:aggregationweight'] = 'O peso na agregació';
+$string['privacy:metadata:grades:feedback'] = 'O comentario';
+$string['privacy:metadata:grades:finalgrade'] = 'A cualificación';
+$string['privacy:metadata:gradeshistory'] = 'Un rexistro das cualificacións anteriores';
+$string['privacy:metadata:grades:information'] = 'Algunha información adicional';
+$string['privacy:metadata:grades:timemodified'] = 'O momento no que a cualificación foi modificada por última vez';
+$string['privacy:metadata:grades:userid'] = 'O ID do usuario de quen é esta cualificación';
+$string['privacy:metadata:grades:usermodified'] = 'O ID do usuario que modificou o rexistro por última vez.';
+$string['privacy:metadata:history:loggeduser'] = 'A identificación do usuario que había accedido cando se produciu o versionado';
+$string['privacy:metadata:history:timemodified'] = 'Momento no que se produciu o versionado';
+$string['privacy:metadata:itemshistory'] = 'Un rexistro de versións anteriores dos elementos de cualificación';
+$string['privacy:metadata:outcomes'] = 'Un rexistro de resultados';
+$string['privacy:metadata:outcomeshistory'] = 'Un rexistro de versións anteriores de resultados';
+$string['privacy:metadata:outcomes:timemodified'] = 'O momento no que o rexistro foi modificado';
+$string['privacy:metadata:outcomes:usermodified'] = 'O usuario que modificou o rexistro por última vez';
+$string['privacy:metadata:scale'] = 'Un rexistro de escalas';
+$string['privacy:metadata:scalehistory'] = 'Un rexistro de versións anteriores das escalas';
+$string['privacy:metadata:scale:timemodified'] = 'O momento no que o rexistro foi modificado por última vez';
+$string['privacy:metadata:scale:userid'] = 'O usuario que modificou o rexistro por última vez';
+$string['privacy:path:relatedtome'] = 'Relacionado comigo';
+$string['privacy:request:historyactiondelete'] = 'Eliminar';
+$string['privacy:request:historyactioninsert'] = 'Inserir';
+$string['privacy:request:historyactionupdate'] = 'Actualizar';
+$string['privacy:request:unknowndeletedgradeitem'] = 'Descoñecido (o elemento de cualificación foi eliminado)';
 $string['profilereport'] = 'Informe do perfil de usuario';
 $string['profilereport_help'] = 'Informe de cualificacións empregado na páxina do perfil do usuario.';
 $string['publishing'] = 'Publicando';

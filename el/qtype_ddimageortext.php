@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_ddimageortext', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_ddimageortext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -63,6 +63,7 @@ $string['pluginname_help'] = 'Οι ερωτήσεις μεταφοράς και 
 $string['pluginnamesummary'] = 'Εικόνες ή ταμπέλες κειμένου μεταφέρονται και απορρίπτονται σε ζώνες απόθεσης σε μια εικόνα φόντου.';
 $string['previewareaheader'] = 'Προεπισκόπηση';
 $string['previewareamessage'] = 'Επιλέξτε μια εικόνα φόντου, καθορίστε τα μεταφέρσιμα στοιχεία και ορίστε τις ζώνες απόθεσης στην εικόνα φόντου μέσα στις οποίες πρέπει αυτά να μεταφέρονται.';
+$string['privacy:metadata'] = 'Το πρόσθετο τύπου ερώτησης μεταφοράς και απόθεσης σε εικόνα δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['refresh'] = 'Ανανέωση προεπισκόπησης';
 $string['shuffleimages'] = 'Να ανακατεύονται τα μεταφέρσιμα στοιχεία κάθε φορά που επιχειρείται η ερώτηση';
 $string['summarisechoice'] = '{$a->no}. {$a->text}';

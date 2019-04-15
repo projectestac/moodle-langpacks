@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_overview', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,6 +56,9 @@ $string['pluginname'] = '成绩';
 $string['preferencespage'] = '仅对此页面的偏好';
 $string['preferencessave'] = '保存参数';
 $string['preferencesuser'] = '对此报告您的偏好';
+$string['privacy:metadata:preference:quiz_overview_slotmarks'] = '是否显示每个问题选项的分数。';
+$string['privacy:preference:slotmarks:no'] = '不在问题选项旁边显示分数。';
+$string['privacy:preference:slotmarks:yes'] = '将分数显示在问题选项旁边。';
 $string['regrade'] = '重新评分';
 $string['regradeall'] = '全部重新评分';
 $string['regradealldry'] = '模拟运行全部重新评分';

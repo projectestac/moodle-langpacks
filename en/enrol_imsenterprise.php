@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'en', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'en', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,6 +68,7 @@ $string['nestedcategories'] = 'Allow nested categories';
 $string['nestedcategories_desc'] = 'If enabled IMS Enterprise will create nested categories';
 $string['pluginname'] = 'IMS Enterprise file';
 $string['pluginname_desc'] = 'This method will repeatedly check for and process a specially-formatted text file in the location that you specify.  The file must follow the IMS Enterprise specifications containing person, group, and membership XML elements.';
+$string['privacy:metadata'] = 'The IMS Enterprise file enrolment plugin does not store any personal data.';
 $string['processphoto'] = 'Add user photo data to profile';
 $string['processphotowarning'] = 'Warning: Image processing is likely to add a significant burden to the server. You are recommended not to activate this option if large numbers of students are expected to be processed.';
 $string['restricttarget'] = 'Only process data if the following target is specified';
@@ -81,7 +82,7 @@ $string['settingshortname'] = 'IMS description tag for the course short name';
 $string['settingshortnamedescription'] = 'The short name is a required course field so you have to define the selected description tag in your IMS Enterprise file';
 $string['settingsummary'] = 'IMS description tag for the course summary';
 $string['settingsummarydescription'] = 'Is an optional field, select \'Leave it empty\' if you dont\'t want to specify a course summary';
-$string['sourcedidfallback'] = 'Use the &quot;sourcedid&quot; for a person\'s userid if the &quot;userid&quot; field is not found';
+$string['sourcedidfallback'] = 'Use the \'sourcedid\' for a user\'s userid if the \'userid\' field is not found';
 $string['sourcedidfallback_desc'] = 'In IMS data, the <sourcedid> field represents the persistent ID code for a person as used in the source system. The <userid> field is a separate field which should contain the ID code used by the user when logging in. In many cases these two codes may be the same - but not always.
 
 Some student information systems fail to output the <userid> field. If this is the case, you should enable this setting to allow for using the <sourcedid> as the Moodle user ID. Otherwise, leave this setting disabled.';
@@ -91,7 +92,7 @@ $string['updatecourses'] = 'Update course';
 $string['updatecourses_desc'] = 'If enabled, the IMS Enterprise enrolment plugin can update course full and short names (if the "recstatus" flag is set to 2, which represents an update).';
 $string['updateusers'] = 'Update user accounts when specified in IMS data';
 $string['updateusers_desc'] = 'If enabled, IMS Enterprise enrolment data can specify changes to user accounts (if the "recstatus" flag is set to 2, which represents an update).';
-$string['usecapitafix'] = 'Tick this box if using &quot;Capita&quot; (their XML format is slightly wrong)';
+$string['usecapitafix'] = 'Tick this box if using Capita (as their XML format is slightly different)';
 $string['usecapitafix_desc'] = 'The student data system produced by Capita has been found to have one slight error in its XML output. If you are using Capita you should enable this setting - otherwise leave it un-ticked.';
 $string['usersettings'] = 'User data options';
 $string['zeroisnotruncation'] = '0 indicates no truncation';

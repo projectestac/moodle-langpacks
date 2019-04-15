@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignment_uploadsingle', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignment_uploadsingle', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   assignment_uploadsingle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = '单个上传';
+$string['privacy:metadata'] = '单次作业上传插件不储存任何私人数据。';

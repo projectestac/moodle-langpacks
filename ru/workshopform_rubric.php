@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_rubric', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopform_rubric', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,3 +38,4 @@ $string['levels'] = 'Уровни';
 $string['mustbeunique'] = 'Уровни оценки должны быть уникальными в самом критерии';
 $string['mustchooseone'] = 'Вы должны выбрать один из этих элементов';
 $string['pluginname'] = 'Рубрика';
+$string['privacy:metadata'] = 'Плагин Рубрика хранит только данные формы оценивания. Фактические личные данные о том, как форма была заполнена, хранятся в самом модуле Семинар и прикрепляются к экспортированным оценкам.';

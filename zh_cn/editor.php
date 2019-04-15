@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'editor', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   editor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -120,6 +120,8 @@ $string['pleaseenteralt'] = '清录入替换的文本';
 $string['popupeditor'] = '在弹出的大窗口中打开编辑器';
 $string['preformatted'] = '默认段落字体';
 $string['preview'] = '预览';
+$string['privacy:metadata:preference:htmleditor'] = '文本编辑器偏好。';
+$string['privacy:preference:htmleditor'] = '您偏好使用的HTML编辑器为{$a}';
 $string['properties'] = '属性';
 $string['redo'] = '重做';
 $string['regularexpressions'] = '使用正则表达式';

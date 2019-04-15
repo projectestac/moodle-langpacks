@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'book', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,6 +50,10 @@ $string['eventchapterdeleted'] = 'Capítulo eliminado';
 $string['eventchapterupdated'] = 'Capítulo actualizado';
 $string['eventchapterviewed'] = 'Capítulo visto';
 $string['hidechapter'] = 'Agochar o capítulo «{$a}»';
+$string['indicator:cognitivedepth'] = 'Libro cognitivo';
+$string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nun recurso libro.';
+$string['indicator:socialbreadth'] = 'Libro social';
+$string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nun recurso libro.';
 $string['modulename'] = 'Libro';
 $string['modulename_help'] = 'O módulo de libro permítelle a un profesor crear un recurso multipáxina en formato semellante a un libro, con capítulos e subcapítulos. Os libros poden conter ficheiros multimedia así como texto e son prácticos para presentar longos anacos de información que poden subdividirse en seccións.
 
@@ -90,6 +94,8 @@ $string['numberingoptions_desc'] = 'As opcións para presentar capítulos e subc
 $string['page-mod-book-x'] = 'Calquera páxina do módulo de libro';
 $string['pluginadministration'] = 'Administración de libro';
 $string['pluginname'] = 'Libro';
+$string['privacy:metadata'] = 'O modulo de actividade libro non almacena ningún dato persoal.';
+$string['removeallbooktags'] = 'Retirar todas as etiquetas libro';
 $string['search:activity'] = 'Libro - información do recurso';
 $string['search:chapter'] = 'Libro - capítulos';
 $string['showchapter'] = 'Amosar o capítulo «{$a}»';
@@ -97,5 +103,7 @@ $string['subchapter'] = 'Subcapítulo';
 $string['subchapternotice'] = '(Só está dipoñíbel desde que se cree o primeiro capítulo)';
 $string['subplugintype_booktool'] = 'Ferramenta libro';
 $string['subplugintype_booktool_plural'] = 'Ferramentas libro';
+$string['tagarea_book_chapters'] = 'Capítulos de libro';
+$string['tagsdeleted'] = 'As etiquetas do libro foron eliminadas';
 $string['toc'] = 'Táboa de contidos';
 $string['top'] = 'superior';

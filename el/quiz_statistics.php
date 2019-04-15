@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_statistics', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -87,6 +87,7 @@ $string['partofquestion'] = 'Μέρος της ερώτησης';
 $string['pluginname'] = 'Στατιστικά';
 $string['position'] = 'Θέση';
 $string['positions'] = 'Θέση(εις)';
+$string['privacy:metadata'] = 'Παρόλο που το πρόσθετο «Στατιστικά Κουίζ» έχει πίνακες βάσης δεδομένων, τα δεδομένα είναι συγκεντρωτικά δεδομένα και δεν περιγράφουν ένα μοναδικό άτομο.';
 $string['questioninformation'] = 'Πληροφορίες ερώτησης';
 $string['questionname'] = 'Όνομα ερώτησης';
 $string['questionnumber'] = 'Q#';

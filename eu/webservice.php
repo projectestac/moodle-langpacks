@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'webservice', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -134,6 +134,7 @@ $string['norequiredcapability'] = 'Ez da gaitasunik behar';
 $string['notoken'] = 'Token-zerrenda hutsik dago';
 $string['onesystemcontrolling'] = 'Baimendu kanpoko sistemak Moodle kontrolatzea';
 $string['onesystemcontrollingdescription'] = 'Hurrengo urratsek lagunduko dizute Moodle-ko web-zerbitzua kanpoko sistema batekin eragiteko konfiguratzen. Honek autentifikazio-metodorako token bat (segurtasun-gakoa) konfiguratzea barne hartzen du.';
+$string['onlyseecreatedtokens'] = 'Edozein token ezaba daiteke, baina soilik zuk sortutako token-ak ikus ditzakezu.';
 $string['operation'] = 'Eragiketa';
 $string['optional'] = 'Aukerakoa';
 $string['passwordisexpired'] = 'Pasahitza iraungi da.';
@@ -143,6 +144,22 @@ $string['postrestparam'] = 'PHP kodea REST-erako (POST request)';
 $string['potusers'] = 'Baimenik gabeko erabiltzaileak';
 $string['potusersmatching'] = 'Bat datozen baimenik gabeko erabiltzaileak';
 $string['print'] = 'Inprimatu dena';
+$string['privacy:metadata:serviceusers'] = 'Kanpoko zerbitzu zehatzak erabili ditzaketen erabiltzaileen zerrenda';
+$string['privacy:metadata:serviceusers:iprestriction'] = 'Zerbitzua erabiltzeko mugatutako IP helbidea';
+$string['privacy:metadata:serviceusers:timecreated'] = 'Erregistroa sortu zeneko unea';
+$string['privacy:metadata:serviceusers:userid'] = 'Erabiltzailearen IDa';
+$string['privacy:metadata:serviceusers:validuntil'] = 'Autorizazioa bukatzen deneko unea';
+$string['privacy:metadata:tokens'] = 'Web-zerbitzu edo Mobile aplikazioen bitartez Moodle-kin harremanetan jartzeko tokenen erregistroa.';
+$string['privacy:metadata:tokens:creatorid'] = 'Tokena sortu zuen erabiltzailearen IDa';
+$string['privacy:metadata:tokens:iprestriction'] = 'Token hau erabiltzeko mugatutako IP helbidea';
+$string['privacy:metadata:tokens:lastaccess'] = 'Tokena azkenengoz erabili zeneko data';
+$string['privacy:metadata:tokens:privatetoken'] = 'Noizean behin eragiketa zehatz batzuk balidatzeko erabilitako token pribatuagoa, hala nola SSO.';
+$string['privacy:metadata:tokens:timecreated'] = 'Tokena sortu zeneko unea';
+$string['privacy:metadata:tokens:token'] = 'Erabiltzailearen tokena';
+$string['privacy:metadata:tokens:tokentype'] = 'Token-mota';
+$string['privacy:metadata:tokens:userid'] = 'Tokenaren jabea den erabiltzailearen IDa';
+$string['privacy:metadata:tokens:validuntil'] = 'Tokena iraungitzen deneko unea';
+$string['privacy:request:notexportedsecurity'] = 'Ez da esportatzen segurtasun-arrazoiak direla eta';
 $string['protocol'] = 'Protokoloa';
 $string['removefunction'] = 'Ezabatu';
 $string['removefunctionconfirm'] = 'Ziur zaude "{$a->function}" funtzioa "{$a->service}" zerbitzutik ezabatu nahi duzula?';
@@ -172,6 +189,7 @@ $string['service'] = 'Zerbitzua';
 $string['servicehelpexplanation'] = 'Zerbitzu bat funtzioen multzo bat da. Zerbitzu batera erabiltzaile guztiek izan dezakete sarbidea edo zehaztutako erabiltzaileak soilik.';
 $string['servicename'] = 'Zerbitzuaren izena';
 $string['servicenotavailable'] = 'Web-zerbitzua ez dago eskuragarri (ez da existitzen edo desgaituta egon daiteke)';
+$string['servicerequireslogin'] = 'Web-zerbitzua ez dago erabiltzeko moduan (saioa itxita dago edo iraungi da)';
 $string['servicesbuiltin'] = 'Barne dauden zerbitzuak';
 $string['servicescustom'] = 'Pertsonalizatu zerbitzuak';
 $string['serviceusers'] = 'Baimendutako erabiltzaileak';

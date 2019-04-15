@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_manual', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_manual', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,3 +34,4 @@ $string['passwdexpire_settings'] = 'Configuracións de caducidade do contrasinal
 $string['passwdexpiretime'] = 'Duración do contrasinal';
 $string['passwdexpiretime_desc'] = 'Lapso de tempo no que contrasinal é valido.';
 $string['pluginname'] = 'Contas manuais';
+$string['privacy:metadata:preference:passwordupdatetime'] = 'A data do último cambio de contrasinal.';

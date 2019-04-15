@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_templatelibrary', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_templatelibrary', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_templatelibrary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['example'] = 'Voorbeeld';
 $string['noresults'] = 'Geen resultaten';
 $string['notemplateselected'] = 'Geen sjabloon geselecteerd';
 $string['pluginname'] = 'Sjablonenbibliotheek';
+$string['privacy:metadata'] = 'De sjabloonbibliotheek-plugin bewaart geen persoonlijke gegevens.';
 $string['search'] = 'Zoek';
 $string['searchtemplates'] = 'Zoeksjabloon';
 $string['templatehasnoexample'] = 'Dit sjabloon heeft geen voorbeeldcontext, het kan hier dus niet getoond worden. Om een voorbeeldcontext toe te voegen aan dit sjabloon, moet je een Mustache commentaar "Voorbeeld context (json):", gevolgd door de json geëncodeerde voorbeeldcontext voor het  sjabloon toevoegen.';

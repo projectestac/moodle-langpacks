@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,6 +68,7 @@ $string['nestedcategories'] = 'Permitir categorías aniñadas';
 $string['nestedcategories_desc'] = 'Se está activado, IMS Enterprise creará categorías aniñadas';
 $string['pluginname'] = 'Ficheiro IMS Enterprise';
 $string['pluginname_desc'] = 'Este método buscará repetidamente e procesará un ficheiro de texto espcialmente formatado na localización que especifique. O ficheiro debe seguir as especificacións de IMS Enterprise e conter a persoa, grupo e os elementos XML de membro.';
+$string['privacy:metadata'] = 'O engadido de matriculación por ficheiro IMS Enterprise non almacena ningún dato persoal.';
 $string['processphoto'] = 'Engadir datos da fotografía do usuario para o perfil';
 $string['processphotowarning'] = 'Aviso: Ao procesar unha imaxe é probable que sexa engadida unha carga significativa ao servidor. Non é recomendábel que active esta opción se hai un grande número de alumnos para seren procesados.';
 $string['restricttarget'] = 'Só procesa datos se o seguinte obxectivo é especificado';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_summary', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_course_summary', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_course_summary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['coursesummary'] = 'Περίληψη μαθήματος';
 $string['course_summary:addinstance'] = 'Προσθήκη νέου μπλοκ «Περίληψη μαθήματος/ιστοτόπου»';
 $string['pluginname'] = 'Περίληψη μαθήματος/ιστοτόπου';
+$string['privacy:metadata'] = 'Το μπλοκ «Περίληψη μαθήματος/ιστοτόπου» εμφανίζει μόνο πληροφορίες σχετικά με τα μαθήματα και το ίδιο δεν αποθηκεύει δεδομένα.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cache', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,10 +34,12 @@ $string['addstoresuccess'] = 'Προστέθηκε με επιτυχία μια 
 $string['area'] = 'Περιοχή';
 $string['cacheadmin'] = 'Διαχείριση κρυφής μνήμης';
 $string['cacheconfig'] = 'Ρυθμίσεις';
+$string['cachedef_calendar_categories'] = 'Κατηγορίες μαθημάτων στο ημερολόγιο που μπορεί να έχει πρόσβαση ένας χρήστης';
 $string['cachedef_calendar_subscriptions'] = 'Συνδρομές ημερολογίου';
 $string['cachedef_capabilities'] = 'Λίστα δυνατοτήτων συστήματος';
 $string['cachedef_completion'] = 'Κατάσταση ολοκλήρωσης δραστηριότητας';
 $string['cachedef_config'] = 'Ρυθμίσεις διαμόρφωσης';
+$string['cachedef_contextwithinsights'] = 'Πλαίσιο με διοράσεις';
 $string['cachedef_coursecat'] = 'Λίστες με κατηγορίες μαθημάτων για συγκεκριμένο χρήστη';
 $string['cachedef_coursecatrecords'] = 'Εγγραφές κατηγοριών μαθημάτων';
 $string['cachedef_coursecattree'] = 'Δέντρο κατηγοριών μαθημάτων';
@@ -47,6 +49,7 @@ $string['cachedef_coursemodinfo'] = 'Συσσωρευμένες πληροφορ
 $string['cachedef_databasemeta'] = 'Πληροφορίες μεταδεδομένων βάσης δεδομένων';
 $string['cachedef_eventinvalidation'] = 'Γεγονός ακύρωσης (κρυφής μνήμης)';
 $string['cachedef_externalbadges'] = 'Εξωτερικά διακριτικά για συγκεκριμένο χρήστη';
+$string['cachedef_fontawesomeiconmapping'] = 'Αντιστοίχιση εικονιδίων για την γραμματοσειρά awesome (φοβερή)';
 $string['cachedef_grade_categories'] = 'Ερωτήματα κατηγορίας βαθμού';
 $string['cachedef_groupdata'] = 'Πληροφορίες ομάδας μαθημάτων';
 $string['cachedef_htmlpurifier'] = 'Περιεχόμενο ξεκαθαρισμένο με τον HTML Purifier (Καθαριστής HTML)';
@@ -59,13 +62,16 @@ $string['cachedef_observers'] = 'Παρατηρητές γεγονότων';
 $string['cachedef_plugin_functions'] = 'Διαθέσιμες συναρτήσεις επανάκλησης (callbacks) πρόσθετων';
 $string['cachedef_plugin_manager'] = 'Διαχειριστής πληροφοριών πρόσθετων';
 $string['cachedef_postprocessedcss'] = 'Κώδικας CSS προς επεξεργασία σε δεύτερη φάση (Post-processed)';
+$string['cachedef_presignup'] = 'Δεδομένα πριν την εγγραφή για συγκεκριμένο μη εγγεγραμμένο χρήστη';
 $string['cachedef_questiondata'] = 'Ορισμοί ερωτημάτων';
 $string['cachedef_repositories'] = 'Δεδομένα στγμιοτύπου αποθετηρίου';
+$string['cachedef_roledefs'] = 'Ορισμοί ρόλων';
 $string['cachedef_string'] = 'Κρυφή μνήμη συμβολοσειράς γλώσσας';
 $string['cachedef_suspended_userids'] = 'Λίστα χρηστών σε αναστολή ανά μάθημα';
 $string['cachedef_tagindexbuilder'] = 'Αποτελέσματα αναζήτησης για στοιχεία με ετικέτα';
 $string['cachedef_tags'] = 'Συλλογές και περιοχές ετικετών';
 $string['cachedef_temp_tables'] = 'Κρυφή μνήμη προσωρινών πινάκων';
+$string['cachedef_user_group_groupings'] = 'Ομαδοποιήσεις και ομάδες χρηστών ανά μάθημα';
 $string['cachedef_userselections'] = 'Δεδομένα που χρησιμοποιούνται για να διατηρούνται οι επιλογές των χρηστών σε όλο το Moodle';
 $string['cachedef_yuimodules'] = 'Ορισμοί αρθρωμάτων YUI (Yahoo! User Interface Library παλιά βιβλιοθήκη JavaScript)';
 $string['cachelock_file_default'] = 'Προεπιλεγμένο κλείδωμα αρχείων';
@@ -130,6 +136,7 @@ $string['nativelocking'] = 'Το πρόσθετο χειρίζεται μόνο 
 $string['none'] = 'Κανένα';
 $string['plugin'] = 'Πρόσθετο';
 $string['pluginsummaries'] = 'Εγκατεστημένοι χώροι αποθήκευσης κρυφής μνήμης';
+$string['privacy:metadata:cachestore'] = 'Το υποσύστημα κρυφής μνήμης αποθηκεύει προσωρινά δεδομένα για λογαριασμό άλλων τμημάτων του Moodle. Αυτά τα δεδομένα δεν είναι εύκολα αναγνωρίσιμα και είναι πολύ βραχύβια. Το υποσύστημα αυτό χρησιμεύει ως μια κρυφή μνήμη δεδομένων που αποθηκεύονται σε άλλο σημείο του Moodle και για το λόγο αυτό θα πρέπει να γίνεται ήδη χειρισμός του από αυτά τα στοιχεία του Moodle.';
 $string['purge'] = 'Εκκαθάριση';
 $string['purgedefinitionsuccess'] = 'Επιτυχής εκκαθάριση του ορισμού που ζητήθηκε.';
 $string['purgestoresuccess'] = 'Επιτυχής εκκαθάριση της αποθήκευσης που ζητήθηκε.';

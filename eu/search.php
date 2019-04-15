@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'search', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,6 +59,7 @@ $string['enginenotselected'] = 'Ez duzu bilatzailerik aukeratu.';
 $string['engineserverstatus'] = 'Bilatzailea ez dago eskuragarri. Jar zaitez harremanetan kudeatzailearekin.';
 $string['enteryoursearchquery'] = 'Idatzi zure bilaketa';
 $string['errorareanotavailable'] = '{$a} bilaketa-eremua ez dago oraindik eskuragarri.';
+$string['error_indexing'] = 'Errorea gertatu da indexatzean';
 $string['errors'] = 'Erroreak';
 $string['filesinindexdirectory'] = 'Fitxategiak aurkibide-direktorioan';
 $string['filterheader'] = 'Iragazkia';
@@ -67,6 +68,8 @@ $string['globalsearch'] = 'Bilaketa orokorra';
 $string['globalsearchdisabled'] = 'Bilaketa orokorra ez dago gaituta';
 $string['incourse'] = '{$a} ikastaroan';
 $string['index'] = 'Indizea';
+$string['indexwhendisabledfullnotice'] = 'Indexatzea ez dago baimenduta bilaketa desgaituta badago. Bilaketa gaitzeko, ikusi mesedez <a href="{$a->url}">searchindexwhendisabled</a> ezarpena.';
+$string['indexwhendisabledshortnotice'] = 'Indexatzea ez dago eskuragarri.';
 $string['invalidindexerror'] = 'Aurkibide-direktorioak aurkibide ezegoki bat du edo hutsik dago';
 $string['ittook'] = 'Tori';
 $string['matchingfile'] = '<span class="filename">{$a}</span> fitxategian topatutakoak';
@@ -78,6 +81,7 @@ $string['normalsearch'] = 'Bilaketa normala';
 $string['notitle'] = 'Izenbururik ez';
 $string['openedon'] = 'irekia noiz:';
 $string['optimize'] = 'Optimizatu';
+$string['privacy:metadata'] = 'Bilaketa-sistemak ez du datu pertsonalik biltzen.';
 $string['queryerror'] = 'Bilaketa-motoreak ezin izan du zure bilaketa aztertu: {$a}';
 $string['resultsreturnedfor'] = 'lortutako emaitzak honetarako:';
 $string['runindexer'] = 'Abiarazi indexatzailea (erreala)';

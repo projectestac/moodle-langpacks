@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_database', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -60,6 +60,7 @@ $string['newcoursetable'] = 'Táboa remota dos novos cursos';
 $string['newcoursetable_desc'] = 'Especifique o nome da táboa que contén a lista de cursos que se deberían crear automaticamente. De estar baleiro significa que non se crearon cursos.';
 $string['pluginname'] = 'Base de datos externa';
 $string['pluginname_desc'] = 'Pode usar unha base de datos externa (de case que calquera clase) para controlar a matrícula. Asúmese que a súa base de datos externa contén cando menso un campo que contén un ID de curso e un curso que contén un ID de usuario. Compáranse contra campos que vostede escolla no curso local e nas táboas de usuarios.';
+$string['privacy:metadata'] = 'O engadido de matriculación de base de datos externa non almacena ningún dato persoal.';
 $string['remotecoursefield'] = 'Campo do curso remoto';
 $string['remotecoursefield_desc'] = 'O nome do campo na táboa remota que estamos a usar para casar entradas na táboa do curso.';
 $string['remoteenroltable'] = 'Táboa de matrícula de usuarios remota';

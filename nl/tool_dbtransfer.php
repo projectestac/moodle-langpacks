@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dbtransfer', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_dbtransfer', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_dbtransfer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['exportdata'] = 'Export data';
 $string['notargetconectexception'] = 'Kan geen verbinding maken met de doeldatabank';
 $string['options'] = 'Opties';
 $string['pluginname'] = 'Databank transfer';
+$string['privacy:metadata'] = 'De databank transfer-plugin bewaart geen persoonlijke gegevens.';
 $string['targetdatabase'] = 'Doeldatabank';
 $string['targetdatabasenotempty'] = 'Doeldatabank mag geen tabellen bevatten met het gegeven prefix!';
 $string['transferdata'] = 'Transfer gegevens';

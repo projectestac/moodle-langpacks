@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'booktool_print', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'booktool_print', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   booktool_print
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,3 +33,4 @@ $string['printchapter'] = 'Εκτύπωση αυτού του κεφαλαίου
 $string['printdate'] = 'Ημερομηνία';
 $string['printedby'] = 'Εκτυπώθηκε από';
 $string['print:print'] = 'Εκτύπωσε βιβλίο';
+$string['privacy:metadata'] = 'Το πρόσθετο «Εκτύπωση βιβλίων» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_langimport', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_langimport', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_langimport
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['downloadnotavailable'] = 'Δεν είναι εφικτή η σύνδεση με τον εξυπηρετητή λήψεων. Δεν είναι εφικτή η αυτόματη εγκατάσταση ή ενημέρωση των πακέτων γλωσσών. Παρακαλούμε κάντε λήψη των κατάλληλων συμπιεσμένων αρχείων zip από το <a href="{$a->src}">{$a->src}</a> και αποσυμπιέστε τα χειροκίνητα στον κατάλογο δεδομένων <code>{$a->dest}</code>';
 $string['install'] = 'Eγκατάσταση επιλεγμένου πακέτου γλώσσας';
 $string['installedlangs'] = 'Εγκατεστημένα πακέτα γλωσσών';
 $string['langimport'] = 'Εισαγωγή γλωσσικού πακέτου';
@@ -36,7 +37,7 @@ $string['langpackremoved'] = 'Το πακέτο γλώσσας \'{$a}\' απεγ
 $string['langpackremovedevent'] = 'Το πακέτο γλώσσας απεγκαταστάθηκε';
 $string['langpackupdated'] = 'Το πακέτο γλώσσας \'{$a}\' ενημερώθηκε επιτυχώς';
 $string['langpackupdatedevent'] = 'Το πακέτο γλώσσας ενημερώθηκε';
-$string['langpackupdateskipped'] = 'Παράλειψη ενημέρωσης πακέτου γλώσσας \'{$a}\'';
+$string['langpackupdateskipped'] = 'Παράλειψη ενημέρωσης πακέτου γλώσσας \'{$a}\'.';
 $string['langpackuptodate'] = 'Το πακέτο γλώσσας \'{$a}\' είναι ενημερωμένο';
 $string['langupdatecomplete'] = 'Η ενημέρωση του πακέτου γλώσσας ολοκληρώθηκε';
 $string['missingcfglangotherroot'] = 'Λείπει η τιμή $CFG->langotherroot στις ρυθμίσεις';
@@ -44,8 +45,8 @@ $string['missinglangparent'] = 'Απούσα γλώσσα-γονέας <em>{$a->
 $string['noenglishuninstall'] = 'Δεν είναι εφικτή η απεγκατάσταση του πακέτου Αγγλικής γλώσσας.';
 $string['nolangupdateneeded'] = 'Όλα τα πακέτα γλωσσών είναι ενημερωμένα, δεν απαιτείται ενημέρωση.';
 $string['pluginname'] = 'Πακέτα γλωσσών';
+$string['privacy:metadata'] = 'Το πρόσθετο «Πακέτα γλώσσας» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['purgestringcaches'] = 'Εκκαθάριση κρυφών μνημών συμβολοσειρών';
-$string['remotelangnotavailable'] = 'Επειδή το Moodle δεν μπορεί να συνδεθεί στο download.moodle.org, δεν είναι δυνατό τα γλωσσικά πακέτα να εγκατασταθούν αυτόματα. Κάντε λήψη των κατάλληλων αρχείων ZIP από το <a href="https://download.moodle.org/langpack/">download.moodle.org/langpack</a>, αντιγράψτε τα στον κατάλογο {$a} και αποσυμπιέστε τα χειροκίνητα.';
 $string['selectlangs'] = 'Επιλογή γλωσσών για απεγκατάσταση';
 $string['uninstall'] = 'Απεγκατάσταση επιλεγμένων πακέτων γλωσσών';
 $string['uninstallconfirm'] = 'Πρόκειται να απεγκαταστήσετε πλήρως αυτά τα πακέτα γλωσσών: <strong>{$a}</strong>. Είστε σίγουροι;';

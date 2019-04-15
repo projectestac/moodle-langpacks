@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_comments', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_comments', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   block_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['comments:addinstance'] = 'Aggiungere blocco Commenti';
 $string['comments:myaddinstance'] = 'Aggiungere blocco Commenti nella Dashboard';
 $string['pluginname'] = 'Commenti';
+$string['privacy:metadata:core_comment'] = 'Registro dei commenti aggiunti.';

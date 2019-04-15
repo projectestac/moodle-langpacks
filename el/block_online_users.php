@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_online_users', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_online_users', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_online_users
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,4 +31,5 @@ $string['online_users:myaddinstance'] = 'Προσθήκη νέου μπλοκ σ
 $string['online_users:viewlist'] = 'Δείτε τη λίστα όλων των συνδεδεμένων χρηστών';
 $string['periodnminutes'] = 'τα τελευταία {$a} λεπτά';
 $string['pluginname'] = 'Συνδεδεμένοι χρήστες';
+$string['privacy:metadata'] = 'Το μπλοκ «Χρήστες σε σύνδεση» εμφανίζει μόνο δεδομένα αποθηκευμένα σε άλλες τοποθεσίες.';
 $string['timetosee'] = 'Αφαίρεση μετά από αδράνεια (λεπτά)';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_cohortroles', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_cohortroles', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_cohortroles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,14 @@ $string['noassignableroles'] = 'Actuellement, il n\'existe pas de rôle pouvant 
 $string['nocohortroleassignmentssaved'] = 'Aucune attribution de rôle par cohorte n\'a été enregistrée.';
 $string['onecohortroleassignmentsaved'] = 'Une attribution de rôle par cohorte a été enregistrée.';
 $string['pluginname'] = 'Gestion des rôles par cohorte';
+$string['privacy:metadata:tool_cohortroles'] = 'Le plugin de Gestion des rôles par cohorte enregistre les correspondances des utilisateurs avec les rôles par cohorte.';
+$string['privacy:metadata:tool_cohortroles:cohortid'] = 'L\'identifiant de la cohorte';
+$string['privacy:metadata:tool_cohortroles:id'] = 'L\'identifiant de l\'enregistrement de correspondance du rôle de cohorte';
+$string['privacy:metadata:tool_cohortroles:roleid'] = 'L\'identifiant du rôle';
+$string['privacy:metadata:tool_cohortroles:timecreated'] = 'La date et l\'heure de la création de la correspondance du rôle par cohorte';
+$string['privacy:metadata:tool_cohortroles:timemodified'] = 'La date et l\'heure de la modification de la correspondance du rôle par cohorte';
+$string['privacy:metadata:tool_cohortroles:userid'] = 'L\'identifiant de l\'utilisateur';
+$string['privacy:metadata:tool_cohortroles:usermodified'] = 'L\'identifiant de l\'utilisateur qui a modifié la correspondance du rôle par cohorte en dernier';
 $string['removecohortroleassignment'] = 'Retirer l\'attribution de rôle de cohorte';
 $string['removecohortroleassignmentconfirm'] = 'Voulez-vous vraiment retirer cette attribution de rôle de cohorte ? Ce rôle sera retiré pour cet utilisateur dans tous les autres contextes utilisateur.';
 $string['selectcohorts'] = 'Choisir des cohortes';

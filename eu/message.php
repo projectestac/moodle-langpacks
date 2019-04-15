@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'message', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,12 @@ $string['outputnotconfigured'] = 'Ezarri gabea';
 $string['page-message-x'] = 'Edozein mezu-orri';
 $string['pagerefreshes'] = 'Orri hau {$a} segunduro berriztatzen da';
 $string['permitted'] = 'Baimendua';
+$string['privacy:metadata:message_contacts'] = 'Kontaktuen zerrenda';
+$string['privacy:metadata:message_contacts:blocked'] = 'Erabiltzailea blokeatuta dagoen edo ez adierazten duen marka';
+$string['privacy:metadata:message_contacts:contactid'] = 'Kontaktua den erabiltzailearen IDa';
+$string['privacy:metadata:message_contacts:userid'] = 'Ikusten ari garen kontaktu-zerrendaren jabea den erabiltzailearen IDa';
+$string['privacy:metadata:preference:core_message_settings'] = 'Mezularitzarekin lotutako ezarpenak';
+$string['privacy:request:preference:set'] = '\'{$a->name}\' ezarpenaren balioa \'{$a->value}\' da';
 $string['processorsettings'] = 'Prozesatzailearen ezarpenak';
 $string['recent'] = 'Azken aldikoa';
 $string['removecontact'] = 'Ezabatu kontaktua';
@@ -123,11 +129,15 @@ $string['seeall'] = 'Ikusi guztiak';
 $string['selectmessagestodelete'] = 'Aukeratu mezuak ezabatzeko';
 $string['selectnotificationtoview'] = 'Aukeratu alboko jakinarazpenen zerrendatik xehetasun gehiago ikusteko';
 $string['send'] = 'Bidali';
+$string['sendbulkmessage'] = 'Bidali mezua {$a} pertsonari';
+$string['sendbulkmessagesent'] = 'Mezua {$a} pertsonari bidali zaio';
+$string['sendbulkmessagesentsingle'] = 'Mezua pertsona bati bidali zaio';
+$string['sendbulkmessagesingle'] = 'Bidali mezua pertsona bati';
 $string['sendingvia'] = '"{$a->provider}" bidaltzen "{$a->processor}"-(r)en bidez';
 $string['sendingviawhen'] = '"{$a->provider}" bidaltzen "{$a->processor}"-(r)en bidez: {$a->state}';
-$string['sendmessage'] = 'Mezua bidali';
-$string['sendmessageto'] = 'Mezua bidali honi: {$a}';
-$string['sendmessagetopopup'] = '{$a}-ri mezua bidali - leiho berria';
+$string['sendmessage'] = 'Bidali mezua';
+$string['sendmessageto'] = 'Bidali mezua {$a}-(e)ri';
+$string['sendmessagetopopup'] = 'Bidali mezua {$a}-(e)ri - leiho berria';
 $string['settings'] = 'Ezarpenak';
 $string['settingssaved'] = 'Zure ezarpenak gordeta';
 $string['showmessagewindownonew'] = 'Erakutsi mezuen leihoa mezurik gabe';
@@ -141,6 +151,7 @@ $string['togglemessagemenu'] = 'Joan mezuen menura';
 $string['togglenotificationmenu'] = 'Joan jakinarazpenen menura';
 $string['touserdoesntexist'] = 'Ezin diozu mezurik bidali ({$a}) id-a duen erabiltzaileari ez baitago horrelakorik.';
 $string['unblockcontact'] = 'Desblokeatu kontaktua';
+$string['unknownuser'] = 'Erabiltzaile ezezaguna';
 $string['unreadnewmessage'] = '{$a}-ren mezu berria';
 $string['unreadnotification'] = 'Irakurri gabeko jakinarazpena: {$a}';
 $string['userisblockingyou'] = 'Erabiltzaile honek blokeatu egin zaitu eta ezin diozu mezurik bidali';

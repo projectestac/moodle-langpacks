@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'de', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_customlang', language 'de', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['checkin'] = 'Texte im lokalen Sprachpaket sichern';
 $string['checkout'] = 'Lokales Sprachpaket bearbeiten';
 $string['checkoutdone'] = 'Lokales Sprachpaket wurde geladen.';
 $string['checkoutinprogress'] = 'Lokales Sprachpaket wird geladen...';
-$string['confirmcheckin'] = 'Sie möchten geänderte Texte im lokalen Sprachpaket sichern. Dieser Vorgang exportiert die angepassten Texte aus den Übersetzer in das Verzeichnis moodledata. Moodle wird ab sofort das geänderte Sprachpaket benutzen. Klicken Sie auf die Taste "Weiter", um die Texte zu übernehmen.';
+$string['confirmcheckin'] = 'Sie möchten geänderte Texte im lokalen Sprachpaket sichern. Dieser Vorgang exportiert die angepassten Texte aus den Übersetzer in das Daten-Verzeichnis. Moodle wird ab sofort das geänderte Sprachpaket benutzen. Klicken Sie auf die Taste "Weiter", um die Texte zu speichern.';
 $string['customlang:edit'] = 'Lokales Sprachpaket bearbeiten';
 $string['customlang:view'] = 'Lokales Sprachpaket anzeigen';
 $string['filter'] = 'Filtertexte';
@@ -57,5 +57,6 @@ Es ist wichtig, die Platzhalter ganz genauso wie im Originaltext zu schreiben. P
 ';
 $string['placeholderwarning'] = 'Text enthält einen Platzhalter';
 $string['pluginname'] = 'Sprachanpassung';
+$string['privacy:metadata'] = 'Das Plugin \'Sprachanpassungen\' speichert keine personenbezogenen Daten.';
 $string['savecheckin'] = 'Texte im lokalen Sprachpaket sichern';
 $string['savecontinue'] = 'Sichern und Texte weiter bearbeiten';

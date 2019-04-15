@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_offline', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignfeedback_offline', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   assignfeedback_offline
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['feedbackupdate'] = 'Remplir le champ « {$a->field} » avec le texte�
 $string['gradelockedingradebook'] = 'La note de {$a} a été verrouillée dans le carnet de notes';
 $string['graderecentlymodified'] = 'La note de {$a} a été modifiée dans Moodle plus récemment que dans le formulaire d\'évaluation.';
 $string['gradesfile'] = 'Formulaire d\'évaluation (format CSV)';
-$string['gradesfile_help'] = 'Le formulaire d\'évaluation avec les notes modifiées. Ce fichier doit être un fichier CSV télécharger depuis ce devoir et doit contenir des colonnes pour les notes des étudiants et leur identifiant. L\'encodage doit être UTF-8.';
+$string['gradesfile_help'] = 'Le formulaire d\'évaluation avec les notes modifiées. Ce fichier doit être un fichier CSV encodé en UTF-8, qui a été téléchargé depuis le devoir, et doit contenir des colonnes pour les notes des étudiants et leur identifiant.';
 $string['gradeupdate'] = 'Mettre la note {$a->grade} à l\'étudiant {$a->student}';
 $string['ignoremodified'] = 'Autorise la modification de données modifiées plus récemment dans Moodle que dans le formulaire d\'évaluation.';
 $string['ignoremodified_help'] = 'Lorsque le formulaire d\'évaluation est téléchargé depuis Moodle, il comporte la date de la dernière modification de chaque note. Si l\'une des notes est modifiée dans Moodle après le téléchargement du formulaire, Moodle refusera d\'écraser cette note modifiée lors de l\'importation des notes par défaut. L\'activation de cette option désactive ce contrôle de sécurité et permet à des évaluateurs d\'écraser les notes données par d\'autres.';
@@ -44,6 +44,7 @@ $string['invalidgradeimport'] = 'Moodle n\'a pas pu lire le formulaire d\'évalu
 $string['nochanges'] = 'Aucune modification de note n\'a été trouvée dans le formulaire déposé';
 $string['offlinegradingworksheet'] = 'Notes';
 $string['pluginname'] = 'Formulaire d\'évaluation hors ligne';
+$string['privacy:nullproviderreason'] = 'Ce plugin n\'enregistre aucune donnée personnelle. Il utilise seulement les APIs de mod_assign pour afficher l\'interface d\'évaluation.';
 $string['processgrades'] = 'Importer des notes';
 $string['skiprecord'] = 'Passer l\'enregistrement';
 $string['updatedgrades'] = '{$a} notes et feedbacks modifiés';

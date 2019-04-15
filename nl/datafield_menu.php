@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_menu', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'datafield_menu', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   datafield_menu
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Veld voor menu';
 $string['pluginname'] = 'Menu';
+$string['privacy:metadata'] = 'De menu-component bewaart zelf geen gegevens, maar gebruikt tabellen in mod_data.';

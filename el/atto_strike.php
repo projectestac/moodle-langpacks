@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_strike', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_strike', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_strike
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Διαγραμμένα';
+$string['privacy:metadata'] = 'Το πρόσθετο «atto_strike» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

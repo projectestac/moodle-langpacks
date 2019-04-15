@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_random', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_random', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['includingsubcategories'] = 'Incluír subcategorías';
 $string['pluginname'] = 'Aleatoria';
 $string['pluginnameediting'] = 'Edición dunha pregunta aleatoria';
 $string['pluginname_help'] = 'Unha pregunta aleatoria non é un tipo de pregunta senón unha maneira de introducir unha pregunta aleatoriamente escollida a partir dunha categoría especificada dentro dunha actividade.';
+$string['privacy:metadata'] = 'O engadido de pregunta ao chou non almacena ningún dato persoal.';
 $string['randomqname'] = 'Aleatoria ({$a})';
 $string['randomqplusname'] = 'Aleatoria ({$a} e subcategorías)';
 $string['selectedby'] = '{$a->questionname} seleccionada por {$a->randomname}';

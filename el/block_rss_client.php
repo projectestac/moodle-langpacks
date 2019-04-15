@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_rss_client', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_rss_client
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,6 +48,8 @@ $string['editnewsfeeds'] = 'Επεξεργασία τροφοδοσιών RSS ε
 $string['editrssblock'] = 'Επεξεργασία μπλοκ τίτλων τροφοδοσίας RSS';
 $string['enableautodiscovery'] = 'Ενεργοποίηση αυτόματης αναζήτησης τροφοδοσιών RSS;';
 $string['enableautodiscovery_help'] = 'Αν ενεργοποιηθεί, οι τροφοδοσίες RSS στις ιστοσελίδες βρίσκονται αυτόματα. Για παράδειγμα, αν εισαχθεί το http://docs.moodle.org, τότε  θα βρεθεί το http://docs.moodle.org/en/index.php?title=Special:RecentChanges&feed=rss.';
+$string['failedfeed'] = 'Η τροφοδοσία απέτυχε στη λήψη - προσπάθεια ξανά μετά από {$a}';
+$string['failedfeeds'] = 'Μία ή περισσότερες τροφοδοσίες RSS απέτυχαν';
 $string['feed'] = 'Τροφοδοσία RSS';
 $string['feedadded'] = 'Η τροφοδοσία RSS ειδήσεων προστέθηκε';
 $string['feeddeleted'] = 'Η τροφοδοσία RSS ειδήσεων διαγράφηκε';
@@ -63,6 +65,15 @@ $string['nofeeds'] = 'Δεν έχουν οριστεί τροφοδοσίες RS
 $string['numentries'] = 'Καταχωρήσεις ανά τροφοδοσία RSS';
 $string['pickfeed'] = 'Επιλέξτε τροφοδοσία RSS ειδήσεων';
 $string['pluginname'] = 'Απομακρυσμένες τροφοδοσίες RSS';
+$string['privacy:metadata:block_rss_client:description'] = 'Περιγραφή της τροφοδοσίας RSS.';
+$string['privacy:metadata:block_rss_client:preferredtitle'] = 'Ο προτιμώμενος (προσαρμοσμένος) τίτλος της τροφοδοσίας RSS.';
+$string['privacy:metadata:block_rss_client:shared'] = 'Εάν η τροφοδοσία RSS θα είναι διαθέσιμη σε όλα τα μαθήματα.';
+$string['privacy:metadata:block_rss_client:skiptime'] = 'Ο καθορισμένος χρόνος σε δευτερόλεπτα που το (πρόγραμμα) cron θα περιμένει μεταξύ των προσπαθειών επανάληψης των αποτυχημένων τροφοδοσιών RSS.';
+$string['privacy:metadata:block_rss_client:skipuntil'] = 'Ο μέγιστος καθορισμένος χρόνος για τον οποίο το (πρόγραμμα) cron θα επιχειρεί να ανοίξει τις αποτυχημένες τροφοδοσίες RSS.';
+$string['privacy:metadata:block_rss_client:tableexplanation'] = 'Οι πληροφορίες μπλοκ τροφοδοσιών RSS αποθηκεύονται εδώ.';
+$string['privacy:metadata:block_rss_client:title'] = 'Ο τίτλος της τροφοδοσίας RSS.';
+$string['privacy:metadata:block_rss_client:url'] = 'Η διεύθυνση URL της τροφοδοσίας RSS.';
+$string['privacy:metadata:block_rss_client:userid'] = 'Το αναγνωριστικό του χρήστη που πρόσθεσε την τροφοδοσία RSS.';
 $string['remotenewsfeed'] = 'Απομακρυσμένες τροφοδοσίες RSS ειδήσεων';
 $string['rss_client:addinstance'] = 'Προσθήκη νέου μπλοκ απομακρυσμένης RSS τροφοδοσίας ειδήσεων';
 $string['rss_client:createprivatefeeds'] = 'Δημιουργία ιδιωτικών τροφοδοσιών RSS';

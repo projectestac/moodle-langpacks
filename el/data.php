@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'data', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,8 +52,8 @@ $string['availabletodatevalidation'] = 'Η «Διαθέσιμο εώς» ημε�
 $string['blank'] = 'Κενό';
 $string['buttons'] = 'Ενέργειες';
 $string['bynameondate'] = 'κατά {$a->name} - {$a->date}';
-$string['calendarend'] = 'Η βάση δεδομένων {$a} κλείνει';
-$string['calendarstart'] = 'Η βάση δεδομένων {$a} ανοίγει';
+$string['calendarend'] = '{$a} λήξη';
+$string['calendarstart'] = '{$a} έναρξη';
 $string['cancel'] = 'Ακύρωση';
 $string['cannotaccesspresentsother'] = 'Δε σας επιτρέπεται η πρόσβαση σε πρότυπα άλλων χρηστών';
 $string['cannotadd'] = 'Αδυναμία προσθήκης καταχωρήσεων!';
@@ -72,6 +72,9 @@ $string['comments'] = 'Σχόλια';
 $string['commentsaved'] = 'Το σχόλιο αποθηκεύτηκε';
 $string['commentsn'] = '{$a} σχόλιο(α)';
 $string['commentsoff'] = 'Η λειτουργία σχολίων δεν είναι ενεργοποιημένη';
+$string['completionentries'] = 'Απαιτούνται καταχωρήσεις';
+$string['completionentriescount'] = 'Πλήθος καταχωρήσεων';
+$string['completionentriesdesc'] = 'Ελάχιστος αριθμός απαιτούμενων καταχωρήσεων: {$a}';
 $string['configenablerssfeeds'] = 'Αυτή η ρύθμιση θα ενεργοποιήσει την δυνατότητα τροφοδοσιών RSS για όλες τις βάσεις δεδομένων. Θα χρειαστείτε ακόμη να ενεργοποιήσετε τις τροφοδοσίες και χειροκίνητα στις ρυθμίσεις κάθε βάσης δεδομένων.';
 $string['confirmdeletefield'] = 'Πρόκειται να διαγράψετε αυτό το πεδίο. Είστε σίγουροι;';
 $string['confirmdeleterecord'] = 'Σίγουρα θέλετε να διαγραφεί αυτή η καταχώρηση;';
@@ -180,8 +183,8 @@ $string['filesnotgenerated'] = 'Δεν παρήχθησαν όλα τα αρχε
 $string['filtername'] = 'Αυτόματη σύνδεση βάσης δεδομένων';
 $string['footer'] = 'Υποσέλιδο';
 $string['forcelinkname'] = 'Επιβεβλημένο όνομα για τον σύνδεσμο';
-$string['foundnorecords'] = 'Δε βρέθηκαν εγγραφές (<a href="{$a->reseturl}">Επαρχικοποίηση φίλτρων</a>)';
-$string['foundrecords'] = 'Βρέθηκαν οι εγγραφές: {$a->num}/{$a->max} (<a href="{$a->reseturl}">Επαρχικοποίηση φίλτρων</a>)';
+$string['foundnorecords'] = 'Δε βρέθηκαν εγγραφές (<a href="{$a->reseturl}">Επαναρχικοποίηση φίλτρων</a>)';
+$string['foundrecords'] = 'Βρέθηκαν οι εγγραφές: {$a->num}/{$a->max} (<a href="{$a->reseturl}">Επαναρχικοποίηση φίλτρων</a>)';
 $string['fromfile'] = 'Εισαγωγή από συμπιεσμένο αρχείο (zip)';
 $string['fromfile_help'] = 'Η λειτουργία εισαγωγής από συμπιεσμένο αρχείο (zip) σας επιτρέπει να αναζητήσετε και να μεταφορτώσετε ένα πρότυπο zip από φόρμες και πεδία.';
 $string['generateerror'] = 'Δεν παρήχθησαν όλα τα αρχεία!';
@@ -196,8 +199,13 @@ $string['headersingletemplate'] = 'Ορίζει την διεπαφή πλοήγ
 $string['importentries'] = 'Εισαγωγή καταχωρήσεων';
 $string['importsuccess'] = 'Το πρότυπο εφαρμόστηκε με επιτυχία.';
 $string['includeapproval'] = 'Συμπερίληψη κατάστασης έγγρισης';
+$string['includetags'] = 'Συμπερίληψη ετικετών';
 $string['includetime'] = 'Συμπερίληψη ώρας προσθήκης/τροποποίησης';
 $string['includeuserdetails'] = 'Συμπερίληψη λεπτομερειών χρήστη';
+$string['indicator:cognitivedepth'] = 'Βάθος κατανόησης (δραστηριότητας) Βάσης δεδομένων';
+$string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Βάσης δεδομένων.';
+$string['indicator:socialbreadth'] = 'Κοινωνικό εύρος βάσης δεδομένων';
+$string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Βάσης δεδομένων.';
 $string['insufficiententries'] = 'απαιτούνται περισσότερες καταχωρήσεις για την εμφάνιση αυτής της βάσης δεδομένων';
 $string['intro'] = 'Περιγραφή';
 $string['invalidaccess'] = 'Η πρόσβαση σε αυτήν τη σελίδα δεν έγινε σωστά';
@@ -301,23 +309,39 @@ $string['pluginname'] = 'Βάση δεδομένων';
 $string['portfolionotfile'] = 'Εξαγωγή σε χαρτοφυλάκιο αντί αρχείου (μόνο csv ή leap2aσ)';
 $string['presetinfo'] = 'Η αποθήκευση ως πρότυπο θα δημοσιεύσει αυτή τη φόρμα. Οι άλλοι χρήστες ίσως να μπορούν να την χρησιμοποιήσουν στις βάσεις δεδομένων τους.';
 $string['presets'] = 'Πρότυπα';
+$string['privacy:metadata:commentpurpose'] = 'Σχόλια σε εγγραφές βάσης δεδομένων';
+$string['privacy:metadata:data_content'] = 'Αντιπροσωπεύει μία απάντηση σε ένα πεδίο στο άρθρωμα βάσης δεδομένων';
+$string['privacy:metadata:data_content:content'] = 'Περιεχόμενο';
+$string['privacy:metadata:data_content:content1'] = 'Επιπρόσθετο περιεχόμενο 1';
+$string['privacy:metadata:data_content:content2'] = 'Επιπρόσθετο περιεχόμενο 2';
+$string['privacy:metadata:data_content:content3'] = 'Επιπρόσθετο περιεχόμενο 3';
+$string['privacy:metadata:data_content:content4'] = 'Επιπρόσθετο περιεχόμενο 4';
+$string['privacy:metadata:data_content:fieldid'] = 'Αναγνωριστικό ορισμού πεδίου';
+$string['privacy:metadata:datafieldnpluginsummary'] = 'Πεδία για το άρθρωμα βάσης δεδομένων';
+$string['privacy:metadata:data_records'] = 'Αντιπροσωπεύει εγγραφές στο άρθρωμα βάσης δεδομένων';
+$string['privacy:metadata:data_records:approved'] = 'Κατάσταση έγκρισης';
+$string['privacy:metadata:data_records:groupid'] = 'Ομάδα';
+$string['privacy:metadata:data_records:timecreated'] = 'Χρόνος δημιουργίας εγγραφής';
+$string['privacy:metadata:data_records:timemodified'] = 'Χρόνος τελευταίας τροποποίησης της εγγραφής';
+$string['privacy:metadata:data_records:userid'] = 'Ο χρήστης που δημιούργησε την εγγραφή';
+$string['privacy:metadata:filepurpose'] = 'Αρχείο που επισυνάπτεται στην εγγραφή βάσης δεδομένων';
+$string['privacy:metadata:ratingpurpose'] = 'Αξιολογήσεις σε εγγραφές βάσεων δεδομένων';
+$string['privacy:metadata:tagpurpose'] = 'Ετικέτες σε εγγραφές βάσεων δεδομένων';
 $string['radiobutton'] = 'Kουμπιά επιλογής';
 $string['recordapproved'] = 'Η καταχώρηση εγκρίθηκε';
 $string['recorddeleted'] = 'Η καταχώρηση διαγράφηκε';
 $string['recorddisapproved'] = 'Η έγκριση της καταχώρησης ακυρώθηκε';
 $string['recordsnotsaved'] = 'Δεν αποθηκεύτηκε καμία καταχώρηση. Ελέγξτε τον μορφότυπο του ανεβασμένου αρχείου.';
 $string['recordssaved'] = 'οι καταχωρήσεις αποθηκεύτηκαν';
+$string['removealldatatags'] = 'Διαγραφή όλων των ετικετών βάσεων δεδομένων';
 $string['requireapproval'] = 'Απαιτείται έγκριση';
 $string['requireapproval_help'] = 'Αν ενεργοποιηθεί, οι καταχωρήσεις απαιτούν έγγριση από ένα διδάσκοντα πριν γίνουν ορατές από όλους.';
 $string['required'] = 'Απαιτείται';
-$string['requiredentries'] = 'Απαιτούμενες καταχωρήσεις για ολοκλήρωση';
-$string['requiredentries_help'] = '<p align="center"><strong>Απαιτούμενες καταχωρήσεις</strong></p>
-
-<p>Ο αριθμός των καταχωρήσεων που απαιτούνται από κάθε μαθητή να εισάγει. Οι μαθητές θα δουν ένα μήνυμα υπενθύμισηςεάν δεν έχουν εισάγει τον απαοτύμενο αριθμό εγγραφών.</p>
-
-<p>Η διαδικασία δε θα ολοκληρωθεί αν δεν εισαχθούν όλες οι απαιτούμενες καταχωρήσεις.</p>';
+$string['requiredentries'] = 'Απαιτούμενες καταχωρήσεις για ολοκλήρωση (παλαιό)';
+$string['requiredentries_help'] = 'Αν οριστεί, ένα μήνυμα εμφανίζεται με τον αριθμό των καταχωρήσεων που απαιτούνται για ολοκλήρωση. Σημειώστε ότι αυτή η ρύθμιση δεν σχετίζεται με την ολοκλήρωση της δραστηριότητας. Για καταχωρήσεις που απαιτούνται για ολοκλήρωση της δραστηριότητας πρέπει να χρησιμοποιηθεί η νέα ρύθμιση «Απαιτούνται καταχωρήσεις». Για να αφαιρέσετε αυτή τη ρύθμιση εντελώς, ορίστε την σε «Καμία» και αποθηκεύστε τις αλλαγές. Παρακαλούμε, αντί αυτού, να χρησιμοποιήσετε τα πεδία «Απαιτούμενες καταχωρήσεις» στο τμήμα «Ολοκλήρωση δραστηριότητας».';
 $string['requiredentriestoview'] = 'Απαιτούμενες καταχωρήσεις πριν την προβολή';
 $string['requiredentriestoview_help'] = 'Ο αριθμός των καταχωρήσεων που ένας μαθητής απαιτείται να έχει υποβάλει πριν να μπορεί να δει καταχωρήσεις από άλλους μαθητές. Σημείωση: αν οι καταχωρήσεις απαιτούνται πριν την προβολή, τότε το φίλτρο αυτόματων συνδέσμων πρέπει να απενεργοποιηθεί. Αυτό ισχύει διότι το φίλτρο αυτόματων συνδέσμων δεν μπορεί να καθορίσει αν ένας χρήστης έχει υποβάλει τον απαιτούμενο αριθμό καταχωρήσεων.';
+$string['requiredentrieswarning'] = 'Αυτή η ρύθμιση έχει αντικατασταθεί από μια ρύθμιση ολοκλήρωσης δραστηριότητας "Απαιτούνται καταχωρήσεις"';
 $string['requiredfield'] = 'Απαιτούμενο πεδίο';
 $string['resetsettings'] = 'Επαναρχικοποίηση φίλτρων';
 $string['resettemplate'] = 'Επαναρχικοποίηση φόρμας';
@@ -345,6 +369,9 @@ $string['subplugintype_datafield'] = 'Τύπος πεδίου βάσης δεδ�
 $string['subplugintype_datafield_plural'] = 'Τύποι πεδίων βάσης δεδομένων';
 $string['subplugintype_datapreset'] = 'Πρότυπο';
 $string['subplugintype_datapreset_plural'] = 'Πρότυπα';
+$string['tagarea_data_records'] = 'Εγγραφές δεδομένων';
+$string['tags'] = 'Ετικέτες';
+$string['tagsdeleted'] = 'Οι ετικέτες της βάσης δεδομένων έχουν διαγραφεί';
 $string['teachersandstudents'] = '{$a->teachers} και {$a->students}';
 $string['templates'] = 'Φόρμες';
 $string['templatesaved'] = 'Η φόρμα αποθηκεύτηκε';

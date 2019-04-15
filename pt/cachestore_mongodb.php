@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_mongodb', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cachestore_mongodb', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   cachestore_mongodb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,11 +28,13 @@ defined('MOODLE_INTERNAL') || die();
 $string['database'] = 'Base de Dados';
 $string['database_help'] = 'Nome da Base de Dados a utilizar';
 $string['extendedmode'] = 'Usar chaves alargadas';
-$string['extendedmode_help'] = 'Se ativado, serão usados conjuntos de chaves completos quando se trabalha com o módulo. Isto não é usado internamente, mas permite pesquisar e investigar manualmente o plugin MongoDB, se assim pretender. Ativar isto irá adicionar uma pequena sobrecarga, o que só deve ser feito se for de facto necessário.';
+$string['extendedmode_help'] = 'Se ativar esta opção, serão usados conjuntos de chaves completos quando se trabalha com o módulo. Isto não é usado internamente, mas permite pesquisar e investigar manualmente o plugin MongoDB, se assim pretender. Ativar esta opção irá adicionar uma pequena sobrecarga, pelo que só deve ser feito se for de facto necessário.';
 $string['password'] = 'Senha';
 $string['password_help'] = 'Senha do utilizador a ser usada para a ligação';
 $string['pleaseupgrademongo'] = 'Está a usar uma versão antiga da extensão PHP Mongo (< 1.3). O suporte para versões antigas da extensão Mongo será descontinuado no futuro. Por favor, considere atualizar esta extensão.';
 $string['pluginname'] = 'MongoDB';
+$string['privacy:metadata:mongodb'] = 'O armazenamento de cache do módulo MongoDB armazena dados temporariamente como parte da sua funcionalidade de armazenamento em cache. Esses dados são armazenados num servidor MongoDB e são removidos regularmente.';
+$string['privacy:metadata:mongodb:data'] = 'Vários dados armazenados na cache';
 $string['replicaset'] = 'Conjunto de réplicas';
 $string['replicaset_help'] = 'O nome do conjunto de réplicas definido para se conectar. Se este nome for atribuído, o master será determinado utilizando o comando de dados ismaster nas seeds, para que a driver possa parar de ligar a um servidor que nem sequer foi listado.';
 $string['server'] = 'Servidor';

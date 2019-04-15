@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignment', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignment', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   assignment
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,5 +42,23 @@ $string['page-mod-assignment-view'] = 'Κύρια σελίδα αρθρώματ�
 $string['page-mod-assignment-x'] = 'Οποιαδήποτε σελίδα αρθρώματος ανάθεσης';
 $string['pluginadministration'] = 'Διαχείριση ανάθεσης (εργασίας) 2.2 (Απενεργοποιημένο)';
 $string['pluginname'] = 'Ανάθεση (εργασίας) 2.2 (Απενεργοποιημένο)';
+$string['privacy:markedsubmissionspath'] = 'ΒαθμολογημένεςΥποβολές';
+$string['privacy:metadata:assignmentfilter'] = 'Προτίμηση φίλτρου υποβολής εργασίας.';
+$string['privacy:metadata:assignmentmailinfo'] = 'Προτιμήσεις πληροφοριών αλληλογραφίας για υποβολές εργασίας.';
+$string['privacy:metadata:assignmentperpage'] = 'Προτίμηση αριθμού υποβολών εργασιών ανά προβολή σελίδας.';
+$string['privacy:metadata:assignmentquickgrade'] = 'Προτίμηση γρήγορης βαθμολόγησης για υποβολές εργασιών.';
+$string['privacy:metadata:assignment_submissions'] = 'Υποβολές εργασιών που σχετίζονται με μια ανάθεση (εργασίας).';
+$string['privacy:metadata:assignment_submissions:data1'] = 'Το κείμενο κατά τη σύνδεση υποβλήθηκε για την υποβολή εργασίας.';
+$string['privacy:metadata:assignment_submissions:data2'] = 'Η κατάσταση παρακολούθησης για την υποβολή εργασίας.';
+$string['privacy:metadata:assignment_submissions:grade'] = 'Η τιμή βαθμού που απονέμεται για την υποβολή εργασίας.';
+$string['privacy:metadata:assignment_submissions:mailed'] = 'Η κατάσταση ειδοποίησης ηλ. ταχυδρομείου  της υποβολής εργασίας.';
+$string['privacy:metadata:assignment_submissions:numfiles'] = 'Ο μέγιστος αριθμός αρχείων που επιτρέπονται για την υποβολή εργασίας.';
+$string['privacy:metadata:assignment_submissions:submissioncomment'] = 'Το σχόλιο υποβολής που συνοδεύει την υποβολή εργασίας.';
+$string['privacy:metadata:assignment_submissions:teacher'] = 'Το αναγνωριστικό χρήστη του διδάσκοντος που βαθμολογεί την υποβολή εργασίας.';
+$string['privacy:metadata:assignment_submissions:timecreated'] = 'Η ημερομηνία/ώρα δημιουργίας της υποβολής εργασίας.';
+$string['privacy:metadata:assignment_submissions:timemarked'] = 'Η ημερομηνία/ώρα βαθμολόγησης της υποβολής εργασίας.';
+$string['privacy:metadata:assignment_submissions:timemodified'] = 'Η ημερομηνία/ώρα τροποποίησης της υποβολής εργασίας.';
+$string['privacy:metadata:assignment_submissions:userid'] = 'Το αναγνωριστικό χρήστη που υποβάλλει την εργασία.';
+$string['privacy:submissionpath'] = 'υποβολή';
 $string['upgradenotification'] = 'Αυτή η δραστηριότητα βασίζεται σε ένα παλαιότερο άρθρωμα ανάθεσης.';
 $string['viewassignmentupgradetool'] = 'Προβολή του εργαλείου αναβάθμισης ανάθεσης εργασίας';

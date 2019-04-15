@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_gapselect', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_gapselect', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_gapselect
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,6 +44,7 @@ $string['pluginnameediting'] = 'Editando unha pregunta de seleccionar as palabra
 $string['pluginname_help'] = 'As preguntas de selección de palabras que faltan requiren que quen responde seleccione as respostas correctas de entre os menús despregábeis seleccione as respostas correctas dos menús despregábeis. [[1]], [[2]], [[3]], ... utilízanse como marcadores de posición no texto da pregunta, coas respostas correctas especificadas como respostas de elección 1, 2, 3, ... respectivamente. Pódense engadir respostas de opción adicional para facer a pregunta máis difícil. As respostas de escolla poden agruparse para restrinxir as respostas dispoñíbeis en cada menú despregábel.';
 $string['pluginname_link'] = 'question/type/gapselect';
 $string['pluginnamesummary'] = 'As palabras que faltan no texto da pregunta énchense usando os menús despregábeis.';
+$string['privacy:metadata'] = 'O engadido de selección de palabras que faltan non almacena ningún dato persoal.';
 $string['shuffle'] = 'Ao chou';
 $string['tagsnotallowed'] = '{$a->tag} non está permitido. (Só está permitido {$a->allowed}.';
 $string['tagsnotallowedatall'] = '{$a->tag} non está permitido. (Non se permite HTML aquí.)';

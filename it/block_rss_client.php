@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_rss_client', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   block_rss_client
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,6 +54,8 @@ L\'opzione consente a Moodle di individuare automaticamente un feed senza dovern
 Moodle individuerà automaticamente il feed da usare:
 <pre>http://docs.moodle.org/en/index.php?title=Special:RecentChanges&feed=rss</pre>
 </p>';
+$string['failedfeed'] = 'Non è stato possibile scaricare il feed. Verrà effettuato un nuovo tentativo dopo {$a}';
+$string['failedfeeds'] = 'Non è stato possibile scaricare uno o più feed RSS.';
 $string['feed'] = 'Feed';
 $string['feedadded'] = 'Feed News aggiunto';
 $string['feeddeleted'] = 'Feed News eliminato';
@@ -69,6 +71,14 @@ $string['nofeeds'] = 'Non ci sono altri feed RSS definiti per questo sito.';
 $string['numentries'] = 'Elementi per feed';
 $string['pickfeed'] = 'Scegli un feed news';
 $string['pluginname'] = 'Feed RSS remoto';
+$string['privacy:metadata:block_rss_client:description'] = 'Descrizione del feed RSS.';
+$string['privacy:metadata:block_rss_client:preferredtitle'] = 'Titolo personalizzato del feed RSS.';
+$string['privacy:metadata:block_rss_client:shared'] = 'Disponibilità del feed RSS in tutti i corsi,';
+$string['privacy:metadata:block_rss_client:skipuntil'] = 'Tempo massimo atteso dal cron per i feed RSS.';
+$string['privacy:metadata:block_rss_client:tableexplanation'] = 'Memorizzazione delle informazioni sul blocco RSS.';
+$string['privacy:metadata:block_rss_client:title'] = 'Titolo del feed RSS';
+$string['privacy:metadata:block_rss_client:url'] = 'URL del feed RSS';
+$string['privacy:metadata:block_rss_client:userid'] = 'ID dell\'utente che ha aggiunto il feed RSS.';
 $string['remotenewsfeed'] = 'Feed news remoto';
 $string['rss_client:addinstance'] = 'Aggiungere blocco Feed RSS remoto';
 $string['rss_client:createprivatefeeds'] = 'Creare feed RSS privati';

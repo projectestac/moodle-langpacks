@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_xmldb', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -148,7 +148,7 @@ $string['main_view'] = 'Ikuspegi nagusia';
 $string['masterprimaryuniqueordernomatch'] = 'Zure kanpoko gakoko eremuak erakusten den taularen \'UNIQUE KEY\' gakoan agertzen diren ordena berean zerrendatu behar dira.';
 $string['missing'] = 'Falta da';
 $string['missingindexes'] = 'Falta diren indizeak atzeman dira';
-$string['mustselectonefield'] = 'Eremu bat aukeratu behar duzu horrekin lotutako ekintzak ikusteko.';
+$string['mustselectonefield'] = 'Eremu bat aukeratu behar duzu horrekin lotutako ekintzak ikusteko!';
 $string['mustselectoneindex'] = 'Indize bat aukeratu behar duzu horrekin lotutako ekintzak ikusteko!';
 $string['mustselectonekey'] = 'Gako bat aukeratu behar duzu horrekin lotutako ekintzak ikusteko!';
 $string['newfield'] = 'Eremu berria';
@@ -173,6 +173,7 @@ $string['pendingchangescannotbesaved'] = 'Fitxategi honetan aldaketak daude bain
 $string['pendingchangescannotbesavedreload'] = 'Fitxategi honetan aldaketak daude baina ezin dira gorde! Mesedez egiaztatu web zerbitzariak bai karpeta baita bertako "install.xml" fitxategiak ere idazteko baimenak dituztela. Orduan orri hau freskatu eta aldaketa horiek gorde ahal izango dituzu.';
 $string['pluginname'] = 'XMLDB editorea';
 $string['primarykeyonlyallownotnullfields'] = 'Gako nagusiak (primary key) ezin dira hutsik egon';
+$string['privacy:metadata'] = 'XMLDB editorea pluginak ez du datu pertsonalik biltzen.';
 $string['reserved'] = 'Erreserbatua';
 $string['reservedwords'] = 'Hitz erreserbatuak';
 $string['revert'] = 'Desegin';
@@ -182,7 +183,7 @@ $string['searchresults'] = 'Bilatu emaitzak';
 $string['selectaction'] = 'Aukeratu ekintza:';
 $string['selectdb'] = 'Aukeratu datu-basea:';
 $string['selectfieldkeyindex'] = 'Aukeratu eremua/gakoa/indizea:';
-$string['selectonecommand'] = 'Mesedez, aukeratu Ekintza bat zerrendatik PHP kodea erakusteko';
+$string['selectonecommand'] = 'Mesedez, aukeratu ekintza bat zerrendatik PHP kodea erakusteko';
 $string['selectonefieldkeyindex'] = 'Mesedez, aukeratu zerrendako eremu/gako/indize bat PHP kodea ikusteko.';
 $string['selecttable'] = 'Aukeratu taula:';
 $string['table'] = 'Taula';
@@ -208,7 +209,7 @@ $string['violatedforeignkeysfound'] = 'Urratutako kanpoko gakoak aurkitu dira';
 $string['violations'] = 'Urraketak';
 $string['wrong'] = 'Okerra';
 $string['wrongdefaults'] = 'Lehenetsitako balio okerrak aurkitu dira';
-$string['wrongints'] = 'Zenbaki oso okerrak aurkitu dira';
+$string['wrongints'] = 'Zenbaki-oso okerrak aurkitu dira';
 $string['wronglengthforenum'] = 'Enum eremuaren luzera ez da egokia';
 $string['wrongnumberofreffields'] = 'Zenbaki ezegokia erakutsitako eremuan';
 $string['wrongoraclesemantics'] = 'Oracle-ko BYTE semantika ezegokia aurkitu da';

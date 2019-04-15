@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_numerrors', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopform_numerrors', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopform_numerrors
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,3 +43,4 @@ $string['maperror'] = 'Il numero pesato di errori e minore o uguale';
 $string['mapgrade'] = 'Voto per la consegna';
 $string['percents'] = '{$a} %';
 $string['pluginname'] = 'Numero di errori';
+$string['privacy:metadata'] = 'Il plugin \'Numero di errori\' memorizza solo i dettagli dello schema di valutazione. I dati personali effettivi su come è stato compilato lo schema sono memorizzati nel modulo Workshop e vengono allegati alle valutazioni esportate.';

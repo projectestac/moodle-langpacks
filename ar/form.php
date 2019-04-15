@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'form', language 'ar', branch 'MOODLE_32_STABLE'
+ * Strings for component 'form', language 'ar', branch 'MOODLE_34_STABLE'
  *
  * @package   form
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,6 +41,7 @@ $string['err_nopunctuation'] = 'يجب ادخال حروف تريم هنا';
 $string['err_numeric'] = 'يجب ادخال الرقم هنا';
 $string['err_rangelength'] = 'يجب الأدخل بين {$a->format[0]} و{$a->format[1]}الحروف هنا';
 $string['err_required'] = 'يجب تزويد القيمة هنا';
+$string['filesofthesetypes'] = 'أنواع الملفات المقبولة:';
 $string['general'] = 'عامة';
 $string['hideadvanced'] = 'إخفاء متقدم';
 $string['hour'] = 'ساعة';

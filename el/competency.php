@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'competency', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -115,6 +115,55 @@ $string['planstatusdraft'] = 'Προσχέδιο';
 $string['planstatusinreview'] = 'Εξετάζεται';
 $string['planstatuswaitingforreview'] = 'Αναμονή για εξέταση';
 $string['pointsrequiredaremet'] = 'Οι απαιτούμενοι πόντοι επιτεύχθηκαν';
+$string['privacy:evidence:action:complete'] = 'Ολοκλήρωση του προσόντος αν δεν έχει εκτιμηθεί';
+$string['privacy:evidence:action:log'] = 'Καταγραφή ενέργειας';
+$string['privacy:evidence:action:override'] = 'Παράκαμψη εκτίμησης προσόντος';
+$string['privacy:metadata:competency'] = 'Ένα ιστορικό των προσόντων';
+$string['privacy:metadata:competency_coursecomp'] = 'Ένα ιστορικό των προσόντων που συνδέονται με ένα μάθημα';
+$string['privacy:metadata:competency_coursecompsetting'] = 'Ένα ιστορικό των ρυθμίσεων προσόντων σε ένα μάθημα';
+$string['privacy:metadata:competency_evidence'] = 'Ιστορικό αποδεικτικού που επηρρεάζει την κατάσταση ενός προσόντος';
+$string['privacy:metadata:competency_framework'] = 'Ένα ιστορικό των πλαισίων προσόντων';
+$string['privacy:metadata:competency_modulecomp'] = 'Ένα ιστορικό των προσόντων που συνδέονται με ένα άρθρωμα';
+$string['privacy:metadata:competency_plan'] = 'Ένα ιστορικό των σχεδίων μάθησης';
+$string['privacy:metadata:competency_plancomp'] = 'Ένα ιστορικό των προσόντων σε ένα σχέδιο μάθησης';
+$string['privacy:metadata:competency_relatedcomp'] = 'Ένα ιστορικό σχέσεων μεταξύ προσόντων';
+$string['privacy:metadata:competency_template'] = 'Ένα ιστορικό των προτύπων του σχεδίου μάθησης';
+$string['privacy:metadata:competency_templatecohort'] = 'Ένα ιστορικό των συνόλων χρηστών που συσχετίζονται με ένα πρότυπο σχεδίου μάθησης';
+$string['privacy:metadata:competency_templatecomp'] = 'Ένα ιστορικό των προσόντων σε ένα πρότυπο σχεδίου μάθησης';
+$string['privacy:metadata:competency_usercomp'] = 'Ένα ιστορικό κατάστασης των προσόντων ενός χρήστη';
+$string['privacy:metadata:competency_usercompcourse'] = 'Ένα ιστορικό κατάστασης των προσόντων ενός χρήστη σε ένα μάθημα';
+$string['privacy:metadata:competency_usercompplan'] = 'Ένα ιστορικό κατάστασης των προσόντων σε ένα σχέδιο μάθησης';
+$string['privacy:metadata:competency_userevidence'] = 'Ιστορικό αποδεικτικού προηγούμενης μάθησης';
+$string['privacy:metadata:competency_userevidencecomp'] = 'Ιστορικό προσόντων που συσχετίζονται με αποδεικτικό προηγούμενης μάθησης';
+$string['privacy:metadata:core_comments'] = 'Σχόλια σχετικά με σχέδια μάθησης και ικανότητες';
+$string['privacy:metadata:evidence:action'] = 'Τύπος της ενέργειας που σχετίζεται με το αποδεικτικό';
+$string['privacy:metadata:evidence:actionuserid'] = 'Ο χρήστης που εκτελεί την ενέργεια';
+$string['privacy:metadata:evidence:desca'] = 'Οι προαιρετικές παράμετροι της μεταφράσιμης περιγραφής αποδεικτικού';
+$string['privacy:metadata:evidence:desccomponent'] = 'Το στοιχείο λογισμικού της μεταφράσιμης περιγραφής αποδεικτικού';
+$string['privacy:metadata:evidence:descidentifier'] = 'Ένα αναγνωριστικό της περιγραφής της μεταφραστικής μαρτυρίας';
+$string['privacy:metadata:evidence:grade'] = 'Ο βαθμός που συσχετίζεται με το αποδεικτικό';
+$string['privacy:metadata:evidence:note'] = 'Μια μη μεταφρασμένη σημείωση συνημμένη στο αποδεικτικό';
+$string['privacy:metadata:evidence:url'] = 'Μια διεύθυνση URL που συσχετίζεται με το αποδεικτικό';
+$string['privacy:metadata:plan:description'] = 'Η περιγραφή του σχεδίου μάθησης';
+$string['privacy:metadata:plan:duedate'] = 'H καταληκτική ημερομηνία του σχεδίου μάθησης';
+$string['privacy:metadata:plan:name'] = 'Το όνομα του σχεδίου μάθησης';
+$string['privacy:metadata:plan:reviewerid'] = 'Το αναγνωριστικό του εξεταστή του σχεδίου μάθησης';
+$string['privacy:metadata:plan:status'] = 'Η κατάσταση του σχεδίου μάθησης';
+$string['privacy:metadata:plan:userid'] = 'Το αναγνωριστικό του χρήστη στον οποίο ανήκει το σχέδιο μάθησης';
+$string['privacy:metadata:timecreated'] = 'Πότε δημιουργήθηκε το ιστορικό';
+$string['privacy:metadata:timemodified'] = 'Πότε τροποποιήθηκε το ιστορικό';
+$string['privacy:metadata:usercomp:grade'] = 'Ο βαθμός που δόθηκε για το προσόν';
+$string['privacy:metadata:usercomp:proficiency'] = 'Εάν επιτεύχθηκε η επάρκεια';
+$string['privacy:metadata:usercomp:reviewerid'] = 'Το αναγνωριστικό του εξεταστή';
+$string['privacy:metadata:usercomp:status'] = 'Η κατάσταση του προσόντος';
+$string['privacy:metadata:usercomp:userid'] = 'Το αναγνωριστικό του χρήστη στον οποίο ανήκει το προσόν';
+$string['privacy:metadata:userevidence:description'] = 'Η περιγραφή του αποδεικτικού';
+$string['privacy:metadata:userevidence:name'] = 'Το όνομα του αποδεικτικού της προηγούμενης μάθησης';
+$string['privacy:metadata:userevidence:url'] = 'Μια διεύθυνση URL που συσχετίζεται με το αποδεικτικό';
+$string['privacy:metadata:usermodified'] = 'Ο χρήστης που δημιούργησε ή τροποποίησε το ιστορικό';
+$string['privacy:path:plans'] = 'Σχέδια μάθησης';
+$string['privacy:path:relatedtome'] = 'Σε σχέση με εμένα';
+$string['privacy:path:userevidence'] = 'Aποδεικτικό προηγούμενης μάθησης';
 $string['pushcourseratingstouserplans'] = 'Προώθηση εκτιμήσεων μαθήματος σε ατομικά σχέδια μάθησης';
 $string['pushcourseratingstouserplans_desc'] = 'Προεπιλεγμένη τιμή για τη ρύθμιση μαθήματος κατά την ενημέρωση προσωπικών σχεδίων μάθησης όταν εκτιμώνται προσόντα μαθήματος.';
 $string['syncplanscohorts'] = 'Συγχρονισμός σχεδίων μέσω προτύπων σχεδίων μάθησης συνόλων χρηστών';

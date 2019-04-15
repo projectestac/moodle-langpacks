@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'pagetype', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'pagetype', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   pagetype
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,7 +39,7 @@ $string['page-mod-x-view'] = 'Οποιαδήποτε κύρια σελίδα α�
 $string['page-my-index'] = 'Σελίδα Ταμπλό';
 $string['page-report-x'] = 'Οποιαδήποτε σελίδα αναφοράς';
 $string['page-site-index'] = 'Η αρχική σελίδα μόνο';
-$string['page-site-x'] = 'Οποιαδήποτε ανώτατου επιπέδου σελίδα ιστότοπου';
+$string['page-site-x'] = 'Οποιαδήποτε ανώτατου επιπέδου σελίδα ιστοτόπου';
 $string['page-user-profile'] = 'Μόνο σελίδες προφίλ χρήστη';
 $string['page-user-view'] = 'Μόνο σελίδες προφίλ χρήστη';
 $string['page-user-x'] = 'Όλες οι σελίδες χρηστών';

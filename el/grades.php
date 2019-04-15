@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'grades', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -110,7 +110,6 @@ $string['calculationsaved'] = 'Ο υπολογισμός αποθηκεύθηκ�
 $string['calculationview'] = 'Εμφάνιση υπολογισμού';
 $string['cannotaccessgroup'] = 'Αδυναμία πρόσβασης στους βαθμούς της επιλεγμένης ομάδας, συγγνώμη.';
 $string['categories'] = 'Κατηγορίες';
-$string['categoriesanditems'] = 'Κατηγορίες και στοιχεία';
 $string['category'] = 'Κατηγορία';
 $string['categoryedit'] = 'Επεξεργασία κατηγορίας';
 $string['categoryname'] = 'Όνομα κατηγορίας';
@@ -595,6 +594,44 @@ $string['prefletters'] = 'Γράμματα βαθμών και όρια';
 $string['prefrows'] = 'Ειδικές γραμμές';
 $string['prefshow'] = 'Διακόπτες εμφάνισης/απόκρυψης';
 $string['previewrows'] = 'Προεπισκόπηση γραμμών';
+$string['privacy:metadata:categorieshistory'] = 'Ιστορικό προηγούμενων εκδόσεων κατηγοριών βαθμού';
+$string['privacy:metadata:grade_import_newitem'] = 'Προσωρινός πίνακας για την αποθήκευση νέων ονομάτων στοιχείων βαθμού από την εισαγωγή βαθμών';
+$string['privacy:metadata:grade_import_newitem:importcode'] = 'Ένας μοναδικός κωδικός δέσμης για τον προσδιορισμό μίας δέσμης εισαγωγών';
+$string['privacy:metadata:grade_import_newitem:importer'] = 'Ο χρήστης που εισάγει τα δεδομένα';
+$string['privacy:metadata:grade_import_newitem:itemname'] = 'Νέο όνομα στοιχείου βαθμού';
+$string['privacy:metadata:grade_import_values'] = 'Προσωρινός πίνακας για την εισαγωγή βαθμών';
+$string['privacy:metadata:grade_import_values:feedback'] = 'Ανατροφοδότηση βαθμού';
+$string['privacy:metadata:grade_import_values:finalgrade'] = 'Τιμή ακατέργαστου βαθμού';
+$string['privacy:metadata:grade_import_values:importcode'] = 'Ένας μοναδικός κωδικός δέσμης για τον προσδιορισμό μίας δέσμης εισαγωγών';
+$string['privacy:metadata:grade_import_values:importer'] = 'Ο χρήστης που εισάγει τα δεδομένα';
+$string['privacy:metadata:grade_import_values:importonlyfeedback'] = 'Επισήμανση αν έγινε μόνο εισαγωγή ανατροφοδότησης';
+$string['privacy:metadata:grade_import_values:userid'] = 'Ο χρήστης του οποίου εισήχθη ο βαθμός';
+$string['privacy:metadata:grades'] = 'Ιστορικό βαθμών';
+$string['privacy:metadata:grades:aggregationstatus'] = 'Η κατάσταση συνάθροισης';
+$string['privacy:metadata:grades:aggregationweight'] = 'Ο συντελεστής βαρύτητας στην συνάθροιση';
+$string['privacy:metadata:grades:feedback'] = 'Η ανατροφοδότηση';
+$string['privacy:metadata:grades:finalgrade'] = 'Ο βαθμός';
+$string['privacy:metadata:gradeshistory'] = 'Ιστορικό των προηγούμενων βαθμών';
+$string['privacy:metadata:grades:information'] = 'Μερικές πρόσθετες πληροφορίες';
+$string['privacy:metadata:grades:timemodified'] = 'Πότε τροποποιήθηκε τελευταία η βαθμολογία';
+$string['privacy:metadata:grades:userid'] = 'Το αναγνωριστικό του χρήστη στον οποίο ανήκει ο βαθμός';
+$string['privacy:metadata:grades:usermodified'] = 'Το αναγνωριστικό του χρήστη ο οποίος τροποποίησε τελευταία την εγγραφή';
+$string['privacy:metadata:history:loggeduser'] = 'Το αναγνωριστικό του χρήστη που ήταν συνδεδεμένος κατά τον ορισμό του αριθμού της έκδοσης';
+$string['privacy:metadata:history:timemodified'] = 'Πότε  ορίστηκε ο αριθμός της έκδοσης βαθμών';
+$string['privacy:metadata:itemshistory'] = 'Ιστορικό των προηγούμενων εκδόσεων των στοιχείων βαθμού';
+$string['privacy:metadata:outcomes'] = 'Ιστορικό των μαθησιακών αποτελεσμάτων';
+$string['privacy:metadata:outcomeshistory'] = 'Ιστορικό προηγούμενων εκδόσεων των μαθησιακών αποτελεσμάτων';
+$string['privacy:metadata:outcomes:timemodified'] = 'Πότε τροποποιήθηκε το ιστορικό';
+$string['privacy:metadata:outcomes:usermodified'] = 'Ο χρήστης που τροποποίησε τελευταία το ιστορικό';
+$string['privacy:metadata:scale'] = 'Ιστορικό για τις κλίμακες';
+$string['privacy:metadata:scalehistory'] = 'Ιστορικό προηγούμενων εκδόσεων για τις κλίμακες';
+$string['privacy:metadata:scale:timemodified'] = 'Πότε τροποποιήθηκε τελευταία το ιστορικό';
+$string['privacy:metadata:scale:userid'] = 'Ο χρήστης που τροποποίησε τελευταία το ιστορικό';
+$string['privacy:path:relatedtome'] = 'Σχετικά με μένα';
+$string['privacy:request:historyactiondelete'] = 'Διαγραφή';
+$string['privacy:request:historyactioninsert'] = 'Παρεμβολή';
+$string['privacy:request:historyactionupdate'] = 'Ενημέρωση';
+$string['privacy:request:unknowndeletedgradeitem'] = 'Άγνωστο (το στοιχείο βαθμού διαγράφηκε)';
 $string['profilereport'] = 'Αναφορά προφίλ χρήστη';
 $string['profilereport_help'] = 'Η αναφορά βαθμού που χρησιμοποιείται στην σελίδα προφίλ του χρήστη.';
 $string['publishing'] = 'Δημοσίευση';
@@ -732,7 +769,7 @@ $string['studentsperpagereduced'] = 'Ο μέγιστος αριθμός μαθη
 $string['subcategory'] = 'Κανονική κατηγορία';
 $string['submissions'] = 'Υποβολές';
 $string['submittedon'] = 'Υποβλήθηκε: {$a}';
-$string['sumofgradesupgradedgrades'] = 'Σημείωση: Η μέθοδος συνάθροισης «Σύνολο βαθμών» έχει αλλάξει σε «Φυσική» ως τμήμα αναβάθμισης ιστότοπου. Επειδή στο παρόν μάθημα χρησιμοποιήθηκε προηγουμένως το «άθροισμα βαθμών», συνιστάται να εξετάζετε αυτήν την αλλαγή στο βιβλίο βαθμολογίας.';
+$string['sumofgradesupgradedgrades'] = 'Σημείωση: Η μέθοδος συνάθροισης «Σύνολο βαθμών» έχει αλλάξει σε «Φυσική» ως τμήμα αναβάθμισης ιστοτόπου. Επειδή στο παρόν μάθημα χρησιμοποιήθηκε προηγουμένως το «άθροισμα βαθμών», συνιστάται να εξετάζετε αυτήν την αλλαγή στο βαθμολόγιο.';
 $string['switchtofullview'] = 'Εναλλαγή σε πλήρη προβολή';
 $string['switchtosimpleview'] = 'Εναλλαγή σε απλή προβολή';
 $string['tabs'] = 'Καρτέλες';

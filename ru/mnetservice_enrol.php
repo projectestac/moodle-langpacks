@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnetservice_enrol', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'mnetservice_enrol', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   mnetservice_enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,4 +37,8 @@ $string['nopublishers'] = 'Нет доступных сайтов сети MNet.
 $string['noroamingusers'] = 'Пользователям должно быть дано право «{$a}» в контексте системы, чтобы быть записанными на курсы на внешних серверах, однако в настоящее время нет ни одного пользователя с таким правом. Нажмите кнопку «Продолжить», чтобы дать необходимые права одной или нескольким ролям на своем сайте.';
 $string['otherenrolledusers'] = 'Другие записанные на курс пользователи';
 $string['pluginname'] = 'Служба записи на курс для пользователей сети MNet';
+$string['privacy:metadata:mnetservice_enrol_enrolments:hostid'] = 'ID отдаленного хоста MNet';
+$string['privacy:metadata:mnetservice_enrol_enrolments:remotecourseid'] = 'ID курса на отдаленном сервере';
+$string['privacy:metadata:mnetservice_enrol_enrolments:tableexplanation'] = 'Служба отдаленной регистрации хранит информацию о зачислении локальных пользователей на курсы в отдаленных хостах.';
+$string['privacy:metadata:mnetservice_enrol_enrolments:userid'] = 'ID локального пользователя на этом сервере';
 $string['refetch'] = 'Получить актуальное состояние с сайтов сети MNet';

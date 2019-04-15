@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_outline', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_outline', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   report_outline
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,3 +36,4 @@ $string['page-report-outline-index'] = 'Συνοπτική αναφορά μαθ
 $string['page-report-outline-user'] = 'Συνοπτική αναφορά μαθήματος χρήστη';
 $string['page-report-outline-x'] = 'Οποιαδήποτε συνοπτική αναφορά';
 $string['pluginname'] = 'Αναφορά δραστηριοτήτων';
+$string['privacy:metadata'] = 'Το πρόσθετο «Αναφορά δραστηριότητας» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

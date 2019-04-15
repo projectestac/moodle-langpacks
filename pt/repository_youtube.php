@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_youtube', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_youtube', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_youtube
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,8 +30,10 @@ $string['apikey'] = 'Chave API';
 $string['configplugin'] = 'Configurar repositório "YouTube"';
 $string['information'] = 'Obter uma <a href="https://developers.google.com/youtube/v3/getting-started">chave da API do Google</a> para o seu Moodle.';
 $string['pluginname'] = 'Vídeos do YouTube';
+$string['privacy:metadata:repository_youtube'] = 'O módulo repositório vídeos do Youtube não armazena quaisquer dados pessoais, mas transmite dados do utilizador do Moodle para o sistema remoto.';
+$string['privacy:metadata:repository_youtube:searchtext'] = 'Pesquisa de texto no repositório Youtube do utilizador.';
 $string['search'] = 'Procurar vídeos';
-$string['sortby'] = 'Dispor por';
+$string['sortby'] = 'Ordenar por';
 $string['sortpublished'] = 'Data de publicação';
 $string['sortrating'] = 'Nota';
 $string['sortrelevance'] = 'Relevância';

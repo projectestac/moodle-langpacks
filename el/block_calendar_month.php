@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_calendar_month', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_calendar_month', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_calendar_month
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['calendar_month:addinstance'] = 'Προσθήκη νέου μπλοκ ημερολόγιο';
 $string['calendar_month:myaddinstance'] = 'Προσθήκη νέου μπλοκ ημερολογίου στο Ταμπλό';
 $string['pluginname'] = 'Ημερολόγιο';
+$string['privacy:metadata'] = 'Το μπλοκ Ημερολόγιο εμφανίζει μόνο τα διαθέσιμα δεδομένα ημερολογίου.';

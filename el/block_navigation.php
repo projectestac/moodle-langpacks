@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_navigation', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_navigation', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_navigation
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['linkcategoriesdesc'] = 'Εμφάνιση κατηγοριών ως συ
 $string['navigation:addinstance'] = 'Προσθήκη νέου μπλοκ πλοήγηση';
 $string['navigation:myaddinstance'] = 'Προσθήκη νέου μπλοκ πλοήγηση στο Ταμπλό';
 $string['pluginname'] = 'Πλοήγηση';
+$string['privacy:metadata'] = 'Το μπλοκ πλοήγησης εμφανίζει μόνο δεδομένα αποθηκευμένα σε άλλες τοποθεσίες.';
 $string['trimlength'] = 'Πόσοι χαρακτήρες πρέπει να μείνουν μετά την περικοπή';
 $string['trimmode'] = 'Κατάσταση λειτουργίας περικοπής';
 $string['trimmodecenter'] = 'Περικοπή χαρακτήρων από το κέντρο';

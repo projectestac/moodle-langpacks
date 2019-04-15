@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_performance', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_performance', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   report_performance
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,4 +50,5 @@ $string['morehelp'] = 'máis axuda';
 $string['performancereportdesc'] = 'Este informe lista incidencias que poden afectar ao rendemento do sitio {$a}';
 $string['performance:view'] = 'Ver o informe de rendemento';
 $string['pluginname'] = 'Vista xeral do rendemento';
+$string['privacy:metadata'] = 'O engadido de vista xeral do rendemento non almacena ningún dato persoal.';
 $string['value'] = 'Valor';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_glossary_random', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_glossary_random', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_glossary_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,7 @@ $string['noentriesyet'] = 'Δεν υπάρχουν μέχρι στιγμής ε�
 $string['notyetconfigured'] = 'Παρακαλούμε ρυθμίστε αυτό το μπλοκ χρησιμοποιώντας το εικονίδιο επεξεργασίας.';
 $string['notyetglossary'] = 'Πρέπει να έχετε τουλάχιστον ένα γλωσσάριο για να διαλέξετε.';
 $string['pluginname'] = 'Τυχαία λέξη από γλωσσάριο';
+$string['privacy:metadata'] = 'Το μπλοκ τυχαία λέξη από γλωσσάριο, εμφανίζει δεδομένα μόνο από άλλες τοποθεσίες.';
 $string['random'] = 'Τυχαία εγγραφή';
 $string['refresh'] = 'Μέρες προτού επιλεγεί μια νέα εγγραφή';
 $string['select_glossary'] = 'Λήψη λέξεων από αυτό το γλωσσάριο';

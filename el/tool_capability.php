@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_capability', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_capability', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_capability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['forroles'] = 'Για τους ρόλους {$a}';
 $string['getreport'] = 'Πάρτε την επισκόπηση';
 $string['intro'] = 'Αυτή η αναφορά δείχνει, για μια συγκεκριμένη δυνατότητα, τι δικαίωμα έχει αυτή η δυνατότητα στον ορισμό κάθε ρόλου (ή ενός συνόλου ρόλων), και που σε όλο τον ιστότοπο αυτή η δυνατότητα παρακάμπτεται.';
 $string['pluginname'] = 'Επισκόπηση δυνατοτήτων';
+$string['privacy:metadata'] = 'Το πρόσθετο «Επισκόπηση δυνατοτήτων» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['reportforcapability'] = 'Αναφορά για την δυνατότητα «{$a}»';
 $string['reportsettings'] = 'Ρυθμίσεις αναφοράς';
 $string['roleslabel'] = 'Ρόλοι:';

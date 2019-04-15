@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_ldap', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,11 +43,11 @@ $string['auth_ldap_create_error'] = 'Ошибка при создании пол
 $string['auth_ldap_creators'] = 'Список групп или контейнеров, членам которых разрешается создавать новые курсы. Чтобы указать несколько групп, используйте разделитель «;». Например,«cn=teachers,ou=staff,o=myorg».';
 $string['auth_ldap_creators_key'] = 'Создатели курсов';
 $string['auth_ldapdescription'] = 'Этот метод используется для аутентификации пользователя на сервере LDAP. Если пользователем указаны корректные логин и пароль, в базе данных Moodle создается новая пользовательская учетная запись. Этот модуль может считывать атрибуты пользователя из cервера LDAP и заполнять поля в Moodle. При дальнейших входах в систему на LDAP сервере будут проверяться только логин и пароль.';
-$string['auth_ldap_expiration_desc'] = 'Выберите «no» для отключения проверки срока действия пароля или «LDAP» для получения срока действия пароля с сервера LDAP';
+$string['auth_ldap_expiration_desc'] = 'Выберите «{$a->no}» для отключения проверки срока действия пароля или «{$a->ldapserver}» для получения срока действия пароля с сервера LDAP';
 $string['auth_ldap_expiration_key'] = 'Срок действия пароля';
 $string['auth_ldap_expiration_warning_desc'] = 'За сколько дней предупреждать об окончании срока действия пароля.';
 $string['auth_ldap_expiration_warning_key'] = 'Предупреждение об окончании срока действия пароля';
-$string['auth_ldap_expireattr_desc'] = 'Необязательный параметр: переопределяет атрибут, в котором хранится время окончания срока действия пароля.';
+$string['auth_ldap_expireattr_desc'] = 'Необязательный параметр: переопределяет атрибут LDAP, в котором хранится время окончания срока действия пароля.';
 $string['auth_ldap_expireattr_key'] = 'Атрибут окончания срока действия пароля';
 $string['auth_ldapextrafields'] = 'Эти поля необязательные. Вы можете заполнить  некоторые поля пользователя данными, полученными с сервера LDAP.<p>Если не заполнять эти поля, будут использоваться значения по умолчанию, установленные в Moodle. </p><p>В любом случае, пользователь сможет редактировать эти поля после того, как зайдет в систему.</p>';
 $string['auth_ldap_graceattr_desc'] = 'Необязательный параметр. Позволяет переопределить атрибут, в котором хранится число оставшихся попыток входа по просроченному паролю';
@@ -80,6 +80,8 @@ $string['auth_ldap_passtype_key'] = 'Формат пароля';
 $string['auth_ldap_passwdexpire_settings'] = 'Настройки срока действия пароля LDAP';
 $string['auth_ldap_preventpassindb'] = 'Выберите «Да», чтобы предотвратить сохранение паролей в базе данных Moodle.';
 $string['auth_ldap_preventpassindb_key'] = 'Не кэшировать пароли';
+$string['auth_ldap_rolecontext'] = 'контекст {$a->localname}';
+$string['auth_ldap_rolecontext_help'] = 'Контекст LDAP используется для сопоставления <i>{$a->localname}</i>. В качестве разделителя групп используйте знак «;». Обычно выглядит как «cn={$a->shortname},ou=staff,o=myorg».';
 $string['auth_ldap_search_sub'] = 'Укажите «Да», если необходимо осуществлять поиск пользователей в дочерних контейнерах.';
 $string['auth_ldap_search_sub_key'] = 'Поиск в дочерних контейнерах';
 $string['auth_ldap_server_settings'] = 'Параметры сервера LDAP';
@@ -113,11 +115,14 @@ $string['auth_ntlmsso_subnet'] = 'Попытка входа в систему п
 $string['auth_ntlmsso_subnet_key'] = 'Подсеть';
 $string['auth_ntlmsso_type'] = 'Тип аутентификации, настроенный на веб-сервере (если есть сомнения, выберите NTLM)';
 $string['auth_ntlmsso_type_key'] = 'Тип аутентификации';
+$string['cannotmaprole'] = 'Роль «{$a->rolename}» не может быть сопоставлена, так как ее короткое название «{$a->shortname}» является слишком длинным и/или содержит дефисы. Чтобы разрешить сопоставление, короткое название нужно уменьшить максимум до {$a->charlimit} символов и убрать все дефисы. <a href="{$a->link}">Редактировать роль</a>';
 $string['connectingldap'] = 'Подключение к серверу LDAP ...';
+$string['connectingldapsuccess'] = 'Соединение с LDAP-сервером прошло успешно';
 $string['creatingtemptable'] = 'Создание временной таблицы {$a}';
 $string['didntfindexpiretime'] = 'Функция password_expire() не смогла определить срок действия пароля.';
 $string['didntgetusersfromldap'] = 'Ошибка - не удалось получить ни одного пользователя с сервера LDAP - выход.';
 $string['gotcountrecordsfromldap'] = 'Получено записей из LDAP - {$a}';
+$string['ldapnotconfigured'] = 'URL-адрес хоста LDAP в настоящее время не настроен';
 $string['morethanoneuser'] = 'Странно! В LDAP найдено более одной учетной записи пользователя. Используется только первая.';
 $string['needbcmath'] = 'Для проверки срока действия пароля в Active Directory необходимо установленное расширение BCMath';
 $string['needmbstring'] = 'Для смены паролей в Active Directory необходимо расширение mbstring языка PHP';
@@ -137,11 +142,14 @@ $string['pagesize'] = 'Убедитесь, что это значение мен
 $string['pagesize_key'] = 'Размер страницы';
 $string['pluginname'] = 'Сервер LDAP';
 $string['pluginnotenabled'] = 'Плагин не включен!';
+$string['privacy:metadata'] = 'Плагин аутентификации «Сервер LDAP» не хранит никаких персональных данных.';
 $string['renamingnotallowed'] = 'В LDAP переименования пользователей не допускаются';
 $string['rootdseerror'] = 'Ошибка запроса RootDSE для Active Directory';
 $string['start_tls'] = 'Использовать службу LDAP (порт 389) с шифрованием TLS';
 $string['start_tls_key'] = 'Использовать TLS';
+$string['syncroles'] = 'Синхронизировать системные роли из LDAP';
 $string['synctask'] = 'Задача синхронизации пользователей LDAP';
+$string['systemrolemapping'] = 'Сопоставление системных ролей';
 $string['updatepasserror'] = 'Ошибка в функции user_update_password(). Код ошибки: {$a->errno}; описание ошибки: {$a->errstring}';
 $string['updatepasserrorexpire'] = 'Ошибка в функции user_update_password() при чтении срока действия пароля. Код ошибки: {$a->errno}; описание ошибки: {$a->errstring}';
 $string['updatepasserrorexpiregrace'] = 'Ошибка в функции user_update_password() при изменении срока действия пароля и/или задании возможности входа при просроченном пароле. Код ошибки: {$a->errno}; описание ошибки: {$a->errstring}';

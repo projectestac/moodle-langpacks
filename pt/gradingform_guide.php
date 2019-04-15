@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradingform_guide', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -76,6 +76,13 @@ $string['name'] = 'Nome';
 $string['needregrademessage'] = 'As definições da avaliação foram alteradas após a avaliação deste aluno. O aluno não poderá ver a avaliação até que verifique a grelha de avaliação e atualize a nota.';
 $string['pluginname'] = 'Grelha quantitativa';
 $string['previewmarkingguide'] = 'Pré-visualizar grelha quantitativa';
+$string['privacy:metadata:criterionid'] = 'Um identificador do critério de avaliação avançada.';
+$string['privacy:metadata:fillingssummary'] = 'Armazena informações sobre a nota e o feedback de um utilizador para a grelha de avaliação.';
+$string['privacy:metadata:instanceid'] = 'Um identificador para uma nota usada por uma atividade.';
+$string['privacy:metadata:preference:showmarkerdesc'] = 'Se deve mostrar a descrição dos critérios de marcadores';
+$string['privacy:metadata:preference:showstudentdesc'] = 'Se deve mostrar ao aluno a descrição dos critérios';
+$string['privacy:metadata:remark'] = 'Observações relacionadas com este critério de avaliação.';
+$string['privacy:metadata:score'] = 'Uma pontuação para este critério de classificação.';
 $string['regrademessage1'] = 'Está prestes a guardar alterações numa grelha de avaliação que já foi usada. Verifique se existem notas que necessitem de ser revistas. Se escolher "Marcar para reavaliar", a grelha estará oculta para os alunos até que as notas sejam reavaliadas.';
 $string['regrademessage5'] = 'Está prestes a guardar significantes alterações numa grelha de avaliação que já foi anteriormente usada. O valor na pauta não será alterado, mas a grelha ficará oculta para os alunos enquanto decorrer a reavaliação das notas.';
 $string['regradeoption0'] = 'Não marcar para reavaliar';

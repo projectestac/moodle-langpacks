@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_overview', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_course_overview', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   block_course_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,44 +26,65 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityoverview'] = 'あなたには注意が必要な {$a} があります。';
+$string['addfavourite'] = 'お気に入りを追加する';
 $string['alwaysshowall'] = '常にすべてを表示する';
 $string['collapseall'] = 'すべてのコース一覧を折りたたむ';
 $string['configotherexpanded'] = 'この設定を有効にした場合、ユーザプリファレンスでオーバーライドされない限り、デフォルトで他のコースが展開されます。';
 $string['configpreservestates'] = 'この設定を有効にした場合、ユーザによって設定された「折りたたむ/展開する」設定が保存され、それぞれの読み込みに使用されます。';
 $string['course_overview:addinstance'] = '新しいコース概要ブロックを追加する';
 $string['course_overview:myaddinstance'] = '新しいコース概要ブロックをダッシュボードに追加する';
-$string['defaultmaxcourses'] = 'デフォルト最大コース数';
-$string['defaultmaxcoursesdesc'] = 'コース概要ブロックに表示される最大コース数です。ゼロを設定した場合、すべてのコースが表示されます。';
+$string['courses'] = 'コース';
+$string['defaulttab'] = 'デフォルトタブ';
+$string['defaulttabdesc'] = 'ダッシュボードを開いたときにデフォルトで表示されるタブを設定します。';
 $string['expandall'] = 'すべてのコース一覧を展開する';
-$string['forcedefaultmaxcourses'] = '最大コース数を強制する';
-$string['forcedefaultmaxcoursesdesc'] = 'この設定を有効にした場合、ユーザは個人設定を変更することはできません。';
+$string['favourites'] = 'お気に入り';
 $string['fullpath'] = 'すべてのカテゴリおよびサブカテゴリ';
-$string['hiddencoursecount'] = 'あなたには {$a} 件の非表示コースがあります。';
-$string['hiddencoursecountplural'] = 'あなたには {$a} 件の非表示コースがあります。';
-$string['hiddencoursecountwithshowall'] = 'あなたには {$a->coursecount} 件の非表示コースがあります ({$a->showalllink})。';
-$string['hiddencoursecountwithshowallplural'] = 'あなたには {$a->coursecount} 件の非表示コースがあります ({$a->showalllink})。';
+$string['help'] = 'ヘルプ';
+$string['help_help'] = '「このページをカスタマイズする」をクリックした後、コースをドラッグ＆ドロップで並べ替えてください。概要を表示するには活動アイコンをクリックしてください。';
+$string['keepfavourites'] = 'お気に入りをコース一覧に保持する';
+$string['keepfavouritesdesc'] = 'お気に入りタブにあったとしてもメインのコースタブにコースを表示します。';
+$string['makefavourite'] = 'お気に入りにする';
 $string['message'] = 'メッセージ';
 $string['messages'] = 'メッセージ';
+$string['morecoursestext'] = 'さらにコースを一覧表示する';
 $string['moveafterhere'] = '{$a->movingcoursename} コースを {$a->currentcoursename} の下に移動する';
 $string['movecourse'] = 'コースを移動する: {$a}';
 $string['movecoursehere'] = 'コースをここに移動する';
 $string['movetofirst'] = '{$a} コースをトップに移動する';
 $string['movingcourse'] = 'あなたは次を移動しています: {$a->fullname} ({$a->cancellink})';
+$string['nextpage'] = '次のページ';
+$string['nocourses'] = '表示するコースはありません。';
 $string['none'] = 'なし';
 $string['numtodisplay'] = '表示するコース数:';
 $string['onlyparentname'] = '親カテゴリのみ';
 $string['otherexpanded'] = '他のコースを展開する';
-$string['pluginname'] = 'コース概要';
+$string['pluginname'] = 'コースタブ概要';
 $string['preservestates'] = '展開された状態を保持する';
+$string['prevpage'] = '前のページ';
+$string['privacy:metadata:courseorder'] = '表示コースの順序付きリストです。';
+$string['privacy:metadata:coursesortorder'] = 'コース並べ替え順です (古いバージョン)。';
+$string['privacy:metadata:favourites'] = 'お気に入りコースの順序付きリストです。';
+$string['privacy:metadata:numberofcourses'] = '表示されるコース数です。';
+$string['privacy:metadata:sortorder'] = '並べ替え順です。';
+$string['removefavourite'] = 'お気に入りを削除する';
+$string['reorderfullname'] = 'コースフルネーム';
+$string['reorderid'] = 'コースID';
+$string['reordernone'] = 'ドラッグ＆ドロップ並べ替え';
+$string['reordershortname'] = 'コース省略名';
+$string['setmaxcourses'] = '最大コース数を設定する';
+$string['setmaxcoursesdesc'] = 'コース概要ブロックで1度にユーザに表示される最大コース数のデフォルトを設定します。';
+$string['setmaxcoursesmax'] = '最大可能コース数を設定する';
+$string['setmaxcoursesmaxdesc'] = 'コース概要ブロックでユーザが表示できる最大可能コース数を設定します。';
 $string['shortnameprefix'] = '{$a} を含む';
 $string['shortnamesufixprural'] = '(および他の活動 {$a} 件)';
 $string['shortnamesufixsingular'] = '(および他の活動 {$a} 件)';
 $string['showcategories'] = '表示するカテゴリ';
 $string['showcategoriesdesc'] = 'それぞれのコースの下にコースカテゴリを表示しますか?';
-$string['showchildren'] = '子を表示する';
-$string['showchildrendesc'] = 'メインコースタイトルの下に子コースを一覧表示しますか?';
-$string['showwelcomearea'] = 'ウェルカムエリアを表示する';
-$string['showwelcomeareadesc'] = 'コース一覧の上にウェルカムエリアを表示しますか?';
+$string['sortorder'] = '並べ替え順';
+$string['title'] = 'コースタブ概要';
+$string['unfavourite'] = 'お気に入りを削除する';
+$string['userchoosezero'] = '(デフォルトを使用する)';
+$string['usersetmaxcourses'] = '表示するコース数:';
 $string['view_edit_profile'] = '(あなたのプロファイルを表示および編集します)';
 $string['welcome'] = 'ようこそ {$a} さん';
 $string['youhavemessages'] = 'あなたには {$a} 件の未読があります。';

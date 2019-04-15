@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'hvp', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   hvp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['additionalinfo'] = 'Informazio gehigarria';
 $string['additionallicenseinfo'] = 'Lizentziari buruzko informazio gehigarria';
 $string['addlibraries'] = 'Gehitu liburutegiak';
 $string['ajaxfailed'] = 'Datuak kargatzen huts egin du.';
+$string['anunexpectedsave'] = 'Ezustekoren bat gertatu da. Ezin izan dugu eduki hau gorde.';
 $string['attribution'] = 'Attribution 4.0';
 $string['attributionnc'] = 'Attribution-NonCommercial 4.0';
 $string['attributionncnd'] = 'Attribution-NonCommercial-NoDerivs 4.0';
@@ -66,6 +67,7 @@ $string['confirmdialogbody'] = 'Baieztatu aurrera jarraitu nahi duzula, mesedez,
 $string['confirmdialogheader'] = 'Baieztatu ekintza';
 $string['confirmlabel'] = 'Baieztatu';
 $string['contentchanged'] = 'Eduki hau erabili zenuen azken alditik aldatu da.';
+$string['contentCopied'] = 'Edukia arbelera kopiatu da';
 $string['contentstatefrequency'] = 'Edukiaren egoeraren gordetze-maiztasuna';
 $string['contentstatefrequency_help'] = 'Segundutan, zenbatero nahi duzun erabiltzailearen aurrerapena automatikoki gordetzea. Zenbakia handitu ezazu AJAX eskaera gehiegi egoteagatik arazoak badituzu.';
 $string['contenttype'] = 'Eduki mota';
@@ -97,6 +99,9 @@ $string['disablehubdescription'] = 'Aukera hau gaitzea biziki aholkatzen da. H5P
 $string['displayoptionalwaysshow'] = 'Erakutsi beti';
 $string['displayoptionauthoroff'] = 'Egileak kontrolatua, ezezko lehenetsia';
 $string['displayoptionauthoron'] = 'Egileak kontrolatua, baiezko lehenetsia';
+$string['displayoptiondownloadalways'] = 'Beti';
+$string['displayoptiondownloadnever'] = 'Inoiz ez';
+$string['displayoptiondownloadpermission'] = 'Soilik erabiltzaileak H5P esportatzeko baimena badu';
 $string['displayoptionnevershow'] = 'Ez erakutsi inoiz';
 $string['displayoptionpermissions'] = 'Erakutsi soilik erabiltzaileak H5P esportatzeko baimena badauka';
 $string['displayoptionpermissionsembed'] = 'Erakutsi soilik erabiltzaileak H5P txertatzeko baimena badauka';
@@ -113,7 +118,7 @@ $string['enableabout'] = 'H5P botoiari buruz';
 $string['enablecopyright'] = 'Copyright botoia';
 $string['enabledlrscontenttypes'] = 'Gaitu LRS-ren mendeko eduki-motak';
 $string['enabledlrscontenttypes_help'] = 'Learning Record Store funtzioan oinarritutako eduki-motak erabiltzea ahalbidetzen du, Questionnaire eduki-mota adibidez.';
-$string['enabledownload'] = 'Jaisteko botoia';
+$string['enabledownload'] = 'Baimendu jaistea';
 $string['enableembed'] = 'Enbotatzeko botoia';
 $string['enableframe'] = 'Erakutsi ekintza-barra eta markoa';
 $string['enablehublabel'] = 'Erabili H5P bilgunea';
@@ -242,6 +247,7 @@ $string['noh5ps'] = 'Ikastaro honetan ez dago eduki interaktiborik.';
 $string['nojson'] = 'h5p.json fitxategia ez da baliagarria';
 $string['noparameters'] = 'Parametrorik ez';
 $string['noparse'] = 'Ezin da h5p.json fitxategia analizatu';
+$string['nopermissiontogettranslations'] = 'Ez duzu itzulpenak eskuratzeko baimenik';
 $string['nopermissiontorestrict'] = 'Ez duzu baimenik liburutegiak murrizteko.';
 $string['nopermissiontosavecontentuserdata'] = 'Ez duzu baimenik edukiaren erabiltzaileen datuak gordetzeko.';
 $string['nopermissiontosaveresult'] = 'Ez duzu baimenik eduki honetako emaitzak gordetzeko.';
@@ -262,6 +268,7 @@ $string['noversionattributionsa'] = 'Attribution-ShareAlike';
 $string['nowriteaccess'] = 'Zerbitzariaren idazteko baimenarekin zerikusia duen arazoa aurkitu da. Ziurtatu zure zerbitzariak datu-direktorioan idazteko baimena duela, mesedez.';
 $string['noziparchive'] = 'Zure PHP bertsioak ez du Zip fitxategirik onartzen.';
 $string['oldphpversion'] = 'PHP bertsioa zaharkituta dago. H5Pk ondo funtzionatzeko 5.2 bertsioa behar du, 5.6 edo ondorengoa aholkatu arren.';
+$string['olduploadoldcontent'] = 'H5P bertsio zahar bateko edukiak igotzen saiatzen ari zara. Mesedez eguneratu ezazu edukia sortu zenueneko zerbitzari eta ondoren saiatu zaitez berriz igotzen edo gaitu ezazu H5P Hub-a zerbitzari hau automatikoki eguneratu dadin.';
 $string['onlyupdate'] = 'Eguneratu oraingo liburutegiak soilik';
 $string['options'] = 'Aukerak';
 $string['originator'] = 'Sortzailea';
@@ -307,6 +314,7 @@ $string['privacy:metadata:hvp_xapi_results:response'] = 'Erabiltzaileak bidalita
 $string['privacy:metadata:hvp_xapi_results:user_id'] = 'Ekintza burutu zuen erabiltzailearen IDa.';
 $string['question'] = 'Galdera';
 $string['removeoldlogentries'] = 'Ezabatu H5P erregistro sarrera zaharrak';
+$string['removeoldmobileauthentries'] = 'Ezabatu H5P mobile autentifikazio erregistro zaharrak';
 $string['removetmpfiles'] = 'Ezabatu aldi batera H5P fitxategi zaharrak';
 $string['reportingquestionsremaininglabel'] = 'galdera kalifikatzea falta da';
 $string['reportingscaledscoredelimiter'] = ',';
@@ -316,6 +324,9 @@ $string['reportingscorelabel'] = 'Puntuazioa:';
 $string['reportnotsupported'] = 'Ez onartua';
 $string['reportsubmitgradelabel'] = 'Bidali kalifikazioa';
 $string['resizescript'] = 'Txertatu script hau zure webgunean enbotaturiko edukiaren tamaina dinamikoki egokitzea nahi baduzu:';
+$string['reuse'] = 'Berrerabili';
+$string['reuseContent'] = 'Berrerabili Edukia';
+$string['reuseDescription'] = 'Berrerabili eduki hau.';
 $string['reveal'] = 'Jakinarazi';
 $string['reviseserversetupandretry'] = 'Zure zerbitzariaren ezarpenak berrikusi ondoren H5P gunearekiko komunikazioa berriro gai dezakezu H5P ezarpenetan.';
 $string['score'] = 'Puntuazioa';
@@ -350,8 +361,11 @@ $string['upgradedone'] = '{$a} eduki-instantziak arrakastaz eguneratu dira.';
 $string['upgradeerror'] = 'Parametroak prozesatzerakoan errorea gertatu da:';
 $string['upgradeerrorcontent'] = '%id edukia ezin izan da eguneratu:';
 $string['upgradeerrordata'] = '%lib liburutegiko datuak ezin izan dira kargatu.';
+$string['upgradeerrormissinglibrary'] = 'Beharrezko %lib liburutegia falta da.';
+$string['upgradeerrornotsupported'] = 'Parametroek %used daukate eta hori ez da onartzen.';
 $string['upgradeerrorparamsbroken'] = 'Parametroak hautsi dira.';
 $string['upgradeerrorscript'] = '%lib(e)rako scriptaren eguneratzea ezin izan da kargatu.';
+$string['upgradeerrortoohighversion'] = 'Parametroek %used daukate eta soilik %supported edo zaharragoak onartzen dira.';
 $string['upgradeheading'] = 'Eguneratu {$a} edukia';
 $string['upgradeinprogress'] = 'Eguneratzen %ver...';
 $string['upgradeinvalidtoken'] = 'Errorea: Segurtasun-token baliogabea!';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_indent', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_indent', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_indent
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['indent'] = 'Sagnat';
 $string['outdent'] = 'Sagnat negatiu';
 $string['pluginname'] = 'Sagnat';
+$string['privacy:metadata'] = 'El connector atto_indent no emmagatzema cap dada personal.';

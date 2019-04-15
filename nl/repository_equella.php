@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_equella', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_equella', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_equella
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['equella:view'] = 'Bekijk EQUELLA opslagruimte';
 $string['group'] = '{$a} rolinstellingen';
 $string['groupdefault'] = 'Standaard';
 $string['pluginname'] = 'EQUELLA opslagruimte';
+$string['privacy:metadata'] = 'De EQUELLA opslagruimte-plugin bewaart geen persoonlijke gegevens, maar stuurt deze door van Moodle naar het externe systeem.';
 $string['restrictionattachmentsonly'] = 'Enkel bijlage';
 $string['restrictionitemsonly'] = 'Enkel item samenvatting';
 $string['restrictionnone'] = 'Geen beperking';

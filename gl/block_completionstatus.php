@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completionstatus', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_completionstatus', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   block_completionstatus
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,5 +30,6 @@ $string['completionstatus:addinstance'] = 'Engadir un novo bloque de estado de c
 $string['criteriagroup'] = 'Grupo de criterios';
 $string['firstofsecond'] = '{$a->first} de {$a->second}';
 $string['pluginname'] = 'Estado do completado do curso';
+$string['privacy:metadata'] = 'O bloque de estado de completado do curso só amosa información sobre o completado do curso e non almacena ningún dato propio.';
 $string['requirement'] = 'Requirimentos';
 $string['returntocourse'] = 'Volver ao curso';

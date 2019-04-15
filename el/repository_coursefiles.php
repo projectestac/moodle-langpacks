@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_coursefiles', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_coursefiles', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_coursefiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,4 +31,5 @@ $string['emptyfilelist'] = 'Δεν υπάρχουν αρχεία για εμφά
 $string['notitle'] = 'χωρίς τίτλο';
 $string['pluginname'] = 'Αρχεία μαθήματος παλαιού τύπου';
 $string['pluginname_help'] = 'Αρχεία μαθήματος παλαιού τύπου';
+$string['privacy:metadata'] = 'Το πρόσθετο αποθετηρίου «Αρχεία μαθήματος παλαιού τύπου» δεν αποθηκεύει ούτε μεταβιβάζει κανένα προσωπικό δεδομένο.';
 $string['remember'] = 'Θυμήσου με';

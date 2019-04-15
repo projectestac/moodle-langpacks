@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grading', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'grading', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,6 +53,27 @@ $string['manageactionshareconfirm'] = 'Πρόκειται να αποθηκεύ�
 $string['manageactionsharedone'] = 'Η φόρμα αποθηκεύτηκε με επιτυχία ως πρότυπο.';
 $string['noitemid'] = 'Δεν είναι δυνατή η βαθμολόγηση. Το βαθμολογούμενο στοιχείο δεν υπάρχει.';
 $string['nosharedformfound'] = 'Δεν βρέθηκε κανένα πρότυπο';
+$string['privacy:metadata:grading_definitions'] = 'Βασικές πληροφορίες σχετικά με μια προχωρημένη φόρμα βαθμολόγησης που ορίζεται σε μια βαθολογήσιμη περιοχή.';
+$string['privacy:metadata:grading_definitions:areaid'] = 'Το αναγνωριστικό περιοχής όπου ορίζεται η προχωρημένη φόρμα ταξινόμησης.';
+$string['privacy:metadata:grading_definitions:copiedfromid'] = 'Το αναγνωριστικό ορισμού της βαθμολόγησης από όπου αντιγράφηκε αυτό.';
+$string['privacy:metadata:grading_definitions:description'] = 'Περιγραφή της προηγμένης μεθόδου βαθμολόγησης.';
+$string['privacy:metadata:grading_definitions:method'] = 'Η μέθοδος βαθμολόγησης που είναι υπεύθυνη για τον ορισμό.';
+$string['privacy:metadata:grading_definitions:name'] = 'Το όνομα του ορισμού προχωρημένης βαθμολόγησης.';
+$string['privacy:metadata:grading_definitions:options'] = 'Κάποιες ρυθμίσεις αυτού του ορισμού βαθμολόγησης.';
+$string['privacy:metadata:grading_definitions:status'] = 'Η κατάσταση αυτού του προχωρημένου ορισμού βαθμολόγησης.';
+$string['privacy:metadata:grading_definitions:timecopied'] = 'Πότε αντιγράφηκε ο ορισμός βαθμολόγησης';
+$string['privacy:metadata:grading_definitions:timecreated'] = 'Πότε δημιουργήθηκε ο ορισμός βαθμολόγησης.';
+$string['privacy:metadata:grading_definitions:timemodified'] = 'Πότε τροποποιήθηκε τελευταία ο ορισμός βαθμολόγησης.';
+$string['privacy:metadata:grading_definitions:usercreated'] = 'Το αναγνωριστικό του χρήστη που δημιούργησε τον ορισμό βαθμολόγησης.';
+$string['privacy:metadata:grading_definitions:usermodified'] = 'Το αναγνωριστικό του χρήστη που τροποποίησε τελευταία τον ορισμό βαθμολόγησης.';
+$string['privacy:metadata:gradingformpluginsummary'] = 'Δεδομένα για τη μέθοδο βαθμολόγησης.';
+$string['privacy:metadata:grading_instances'] = 'Ιστορικό αξιολόγησης για ένα βαθμολογήσιμο στοιχείο που αξιολογήθηκε από έναν βαθμολογητή.';
+$string['privacy:metadata:grading_instances:feedback'] = 'Η ανατροφοδότηση που δόθηκε από το χρήστη.';
+$string['privacy:metadata:grading_instances:feedbackformat'] = 'Ο μορφότυπος κειμένου της ανατροφοδότησης που δόθηκε από το χρήστη.';
+$string['privacy:metadata:grading_instances:raterid'] = 'Το αναγνωριστικό του χρήστη που αξιολόγησε το στιγμιότυπο βαθμολόγησης.';
+$string['privacy:metadata:grading_instances:rawgrade'] = 'Ο βαθμός για το στιγμιότυπο βαθμολόγησης.';
+$string['privacy:metadata:grading_instances:status'] = 'Η κατάσταση του στιγμιοτύπου βαθμολόγησης.';
+$string['privacy:metadata:grading_instances:timemodified'] = 'Πότε τροποποιήθηκε τελευταία το στιγμιότυπο βαθμολόγησης.';
 $string['searchownforms'] = 'Να περιλαμβάνονται και οι δικές μου φόρμες';
 $string['searchtemplate'] = 'Αναζήτηση φόρμας βαθμολόγησης';
 $string['searchtemplate_help'] = 'Μπορείτε να αναζητήσετε μια φόρμα βαθμολόγησης και να την χρησιμοποιήσετε ως πρότυπο για την νέα φόρμα εδώ. Απλά πληκτρολογήστε λέξεις που πρέπει να βρίσκονται κάπου στο όνομα της φόρμας, στην περιγραφή της ή στο ίδια την φόρμα. Για να αναζητήσετε μια φράση, κλείστε την φράση σε διπλά εισαγωγικά ("). Από προεπιλογή, μόνο οι φόρμες βαθμολόγησης που έχουν αποθηκευτεί ως κοινόχρηστα πρότυπα περιλαμβάνονται στα αποτελέσματα της αναζήτησης. Μπορείτε επίσης να περιλάβετε όλες τις φόρμες σας στα αποτελέσματα. Έτσι, μπορείτε απλά να επαναχρησιμοποιήσετε τις φόρμες σας χωρίς να τις κάνετε κοινόχρηστες. Μόνο φόρμες σημειωμένες ως «Έτοιμες για χρήση» μπορούν να χρησιμοποιηθούν με αυτόν τον τρόπο.';

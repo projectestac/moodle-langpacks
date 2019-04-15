@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_moodlemedia', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tinymce_moodlemedia', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   tinymce_moodlemedia
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,3 +29,4 @@ $string['moodlemedia:browsemedia'] = 'Troba i carrega un so, vídeo o aplicació
 $string['moodlemedia:desc'] = 'Insereix materials de Moodle';
 $string['nopreview'] = 'No es pot previsualitzar els materials.';
 $string['pluginname'] = 'Insereix materials';
+$string['privacy:metadata'] = 'El connector de Fitxers multimèdia de Moodle de TinyMCE no emmagatzema cap dada personal.';

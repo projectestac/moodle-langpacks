@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_calculated', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_calculated
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,7 +67,7 @@ $string['functiontakesonearg'] = '{$a} funtzioak argumentu bakar bat izan behar 
 $string['functiontakesoneortwoargs'] = '{$a} funtzioak argumentu bat edo bi izan behar ditu';
 $string['functiontakestwoargs'] = '{$a} funtzioak bi argumentu behar ditu';
 $string['generatevalue'] = 'Sortu beste balio bat ondokoen artean';
-$string['getnextnow'] = 'Lortu "Gehitzeko elementua" berria orain';
+$string['getnextnow'] = 'Eskuratu "Gehitzeko elementua" berria orain';
 $string['hexanotallowed'] = '<strong>{$a->name}</strong> datu-multzoko {$a->value} balioaren formatu hamaseitarra ez dago baimenduta';
 $string['illegalformulasyntax'] = '\'{$a}\'-(r)ekin hasten den formulak sintaxi baliogabea du';
 $string['incorrectfeedback'] = 'Edozein erantzun okerretarako';
@@ -115,6 +115,7 @@ $string['pluginnameediting'] = 'Kalkulatutako galdera editatzen';
 $string['pluginname_help'] = 'Kalkulatutako galderek zenbakizko galderak komodinak giltzen artean erabilita sortzea ahalbidetzen dute, gero balioekin ordezkatuak izaten direlarik galdetegia egitean. Adibidez, "Zein da {I} luzera eta {w} zabalera duen laukiaren azalera?" galderaren erantzun zuzena "{I}*{w}" formula izango da (non * karaktereak biderkaketa esan nahi duen)';
 $string['pluginnamesummary'] = 'Kalkulatutako galderak zenbakizkoak bezalakoak dira baina erabilitako zenbakiak ausaz aukeratzen dira galdetegia egitean sortutako multzo batetik.';
 $string['possiblehdr'] = 'Galderaren testuan baino ez dauden  komodin posibleak';
+$string['privacy:metadata'] = 'Kalkulatutakoa galdera-mota pluginak ez du datu pertsonalik biltzen.';
 $string['questiondatasets'] = 'Galderaren datu-multzoa';
 $string['questiondatasets_help'] = 'Galdera bakoitzean erabiliko diren komodinetarako datu-multzoa';
 $string['questionstoredname'] = 'Gordetako galderaren izena';
@@ -128,11 +129,11 @@ $string['sharedwildcards'] = 'Partekatutako komodinak';
 $string['showitems'] = 'Erakutsi';
 $string['significantfigures'] = '{$a}-(r)ekin';
 $string['significantfiguresformat'] = 'Zenbaki esanguratsuak';
-$string['synchronize'] = 'Sinkronizatu elkarbanatutako datu-multzoetako datuak galdetegiko beste galderekin';
+$string['synchronize'] = 'Sinkronizatu galdetegiko beste galderekin elkarbanatutako datu-multzoetako datuak';
 $string['synchronizeno'] = 'Ez sinkronizatu';
 $string['synchronizeyes'] = 'Sinkronizatu';
-$string['synchronizeyesdisplay'] = 'Sinkronizatu elkarbanatutako datu-multzoetako izenak eta erakutsi galderen izenen aurrizki gisa';
-$string['tolerance'] = 'Tolerantzia &plusmn;';
+$string['synchronizeyesdisplay'] = 'Sinkronizatu eta erakutsi galderen izenen aurrizki gisa elkarbanatutako datu-multzoetako izenak';
+$string['tolerance'] = 'Tolerantzia ±';
 $string['tolerancetype'] = 'Mota';
 $string['trueanswerinsidelimits'] = 'Erantzun zuzena : {$a->correct}. Benetako balioaren mugen barruan: {$a->true}';
 $string['trueansweroutsidelimits'] = '<span class="errorea">ERROREA Erantzun zuzena : {$a->correct}. Benetako balioaren mugetatik kanpo: {$a->true}</span>';

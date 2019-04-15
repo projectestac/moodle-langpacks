@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'editor_tinymce', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -105,7 +105,7 @@ $string['advanced_dlg:link_title'] = 'リンクを挿入/編集する';
 $string['advanced_dlg:link_titlefield'] = 'タイトル';
 $string['advanced_dlg:link_url'] = 'リンクURL';
 $string['advanced:dt'] = '語句定義';
-$string['advanced:fontdefault'] = 'フォントファミリー';
+$string['advanced:fontdefault'] = 'フォントファミリ';
 $string['advanced:font_size'] = 'フォントサイズ';
 $string['advanced:forecolor_desc'] = '文字色を選択する';
 $string['advanced:h1'] = '見出し1';
@@ -404,7 +404,7 @@ $string['fullpage_dlg:copyright'] = '著作権';
 $string['fullpage_dlg:defer'] = 'Defer';
 $string['fullpage_dlg:doctypes'] = 'DOCTYPE';
 $string['fullpage_dlg:encoding'] = '文字エンコーディング';
-$string['fullpage_dlg:fontface'] = 'フォントファミリー';
+$string['fullpage_dlg:fontface'] = 'フォントファミリ';
 $string['fullpage_dlg:font_face'] = 'フォントフェイス';
 $string['fullpage_dlg:fontsize'] = '文字サイズ';
 $string['fullpage_dlg:font_size'] = '文字サイズ';
@@ -600,6 +600,7 @@ $string['paste:selectall_desc'] = 'すべてを選択する';
 $string['pluginname'] = 'TinyMCE HTMLエディタ';
 $string['preview:preview_desc'] = 'プレビュー';
 $string['print:print_desc'] = '印刷';
+$string['privacy:metadata'] = 'editor_tinymceプラグインはどのような個人データも保存しません。';
 $string['save:cancel_desc'] = 'すべての変更を破棄する';
 $string['save:save_desc'] = '保存';
 $string['searchreplace:delta_height'] = '';

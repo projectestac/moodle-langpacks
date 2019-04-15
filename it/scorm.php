@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'scorm', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -74,6 +74,8 @@ $string['browsed'] = 'Visitato';
 $string['browsemode'] = 'Modalità anteprima';
 $string['browserepository'] = 'Visita repository';
 $string['calculatedweight'] = 'Peso calcolato';
+$string['calendarend'] = '{$a} chiude';
+$string['calendarstart'] = '{$a} apre';
 $string['cannotaccess'] = 'Non è possibile chiamare lo script in quel modo';
 $string['cannotfindsco'] = 'SCO non trovato';
 $string['chooseapacket'] = 'Scegli o aggiorna un pacchetto';
@@ -83,17 +85,20 @@ $string['collapsetocwinsizedesc'] = 'Consente di impostare la dimensione minima 
 $string['compatibilitysettings'] = 'Impostazioni di compatibilità';
 $string['completed'] = 'Completato';
 $string['completionscorerequired'] = 'Punteggio minimo richiesto';
+$string['completionscorerequireddesc'] = 'Per completare l\'attività è necessario n punteggio minimo di {$a}';
 $string['completionscorerequired_help'] = 'Un utente, oltre a soddisfare eventuali altri criteri di completamento, dovrà raggiungere il punteggio impostato per completare l\'attività SCORM.';
 $string['completionstatusallscos'] = 'Tutti gli SCO devono riportare lo stato';
 $string['completionstatusallscos_help'] = 'Alcuni pacchetti SCORM sono composti da più SCO. Abilitando questa impostazione tutti gli SCO dovranno riportare lo stato prescelto affinché l\'attiivtà possa risultare completata.';
 $string['completionstatus_completed'] = 'Completed';
 $string['completionstatus_passed'] = 'Passed';
 $string['completionstatusrequired'] = 'Stato richiesto';
+$string['completionstatusrequireddesc'] = 'Lo studente dovrà ottenere almeno uno dei seguenti stati: {$a}';
 $string['completionstatusrequired_help'] = 'Affinché l\'attività SCORM venga contrassegnata come completata, oltre a soddisfare gli eventuali altri criteri di completamento, lo studente dovrà ottenere almeno uno degli stati richiesti.';
 $string['confirmloosetracks'] = 'ATTENZIONE: Il pacchetto sembra cambiato o modificato. Se la struttura del pacchetto è cambiata, alcuni tracciamenti degli utenti potrebbero andare persi durante il processo di aggiornamento.';
 $string['contents'] = 'Contenuti';
 $string['coursepacket'] = 'Pacchetto del corso';
 $string['coursestruct'] = 'Struttura del corso';
+$string['crontask'] = 'Elaborazione in background: SCORM';
 $string['currentwindow'] = 'Stessa finestra';
 $string['datadir'] = 'Errore filesystem: non è possibile creare la cartella dei dati del corso';
 $string['defaultdisplaysettings'] = 'Impostazioni di visualizzazione di default';
@@ -193,6 +198,10 @@ $string['hidetoc_help'] = 'La modalità di visualizzazione della struttura del c
 $string['highestattempt'] = 'Tentativo migliore';
 $string['identifier'] = 'Identificativo domanda';
 $string['incomplete'] = 'Incompleto';
+$string['indicator:cognitivedepth'] = 'SCORM cognitivo';
+$string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività \'SCORM\'.';
+$string['indicator:socialbreadth'] = 'SCORM sociale';
+$string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività \'SCORM\'.';
 $string['info'] = 'Info';
 $string['interactions'] = 'Interazioni';
 $string['invalidactivity'] = 'L\'attività SCORM è errata';
@@ -225,7 +234,7 @@ $string['mode'] = 'Modalità';
 $string['modulename'] = 'Pacchetto SCORM';
 $string['modulename_help'] = 'Un oggetto SCORM è un insieme di file impacchettati secondo uno standard riconosciuto per la realizzazione di learning object. Il modulo di attività SCORM consente l\'utilizzo di pacchetti in formato .zip basati sugli standard SCORM e AICC.
 
-In genere il contenuto di un pacchetto viene visualizzato su diverse pagine, con la possibilità di navigarle. E\' possibile impostare il pacchetto per visualizzare il contenuto in finestre pop up, con l\'indice dei contenuti, con i pulsanti di navigazione, eccetera. Gli oggetti SCORM possono anche presentare delle domande i cui risultati saranno memorizzati nel registro del valutatore.
+In genere il contenuto di un pacchetto viene visualizzato su diverse pagine, con la possibilità di navigarle. E\' possibile impostare il pacchetto per visualizzare il contenuto in finestre pop up, con l\'indice dei contenuti, con i pulsanti di navigazione, eccetera. Gli oggetti SCORM possono anche presentare delle domande i cui risultati saranno memorizzati nel registro valutatore.
 
 E\' possibile usare attività SCORM per:
 
@@ -294,6 +303,20 @@ $string['position_error'] = 'Il tag {$a->tag} non può essere figlio del tag {$a
 $string['preferencespage'] = 'Preferenze per questa pagina';
 $string['preferencesuser'] = 'Preferenze per questo report';
 $string['prev'] = 'Precedente';
+$string['privacy:metadata:aicc:data'] = 'Dati personali passati attraverso il sottosistema AICC/SCORM.';
+$string['privacy:metadata:aicc:externalpurpose'] = 'Il plugin invia dati esternamente tramite l\'AICC HACP.';
+$string['privacy:metadata:aicc_session:lessonstatus'] = 'Stato della lezione da tracciare.';
+$string['privacy:metadata:aicc_session:scormmode'] = 'Modalità dell\'elemento da tracciare.';
+$string['privacy:metadata:aicc_session:scormstatus'] = 'Stato dell\'elemento da tracciare.';
+$string['privacy:metadata:aicc_session:sessiontime'] = 'Orario della sessione da tracciare.';
+$string['privacy:metadata:aicc_session:timecreated'] = 'Orario di creazione dell\'elemento tracciato.';
+$string['privacy:metadata:attempt'] = 'Numero del tentativo.';
+$string['privacy:metadata:scoes_track:element'] = 'Nome dell\'elemento da tracciare.';
+$string['privacy:metadata:scoes_track:value'] = 'Valore dell\'elemento dato.';
+$string['privacy:metadata:scorm_aicc_session'] = 'Informazioni sulla sessione tramite AICC HACP.';
+$string['privacy:metadata:scorm_scoes_track'] = 'Dati tracciati degli SCO appartenenti all\'attività.';
+$string['privacy:metadata:timemodified'] = 'Ora dell\'ultima modifica apportata all\'elemento tracciato.';
+$string['privacy:metadata:userid'] = 'ID dell\'utente che ha avuto accesso all\'attività SCORM.';
 $string['protectpackagedownloads'] = 'Evita il download del pacchetto';
 $string['protectpackagedownloads_desc'] = 'Consente lo scaricamento dei pacchetti SCORM solo a coloro che hanno il privilegio course:manageactivities. Se l\'impostazione è disabilitata, i pacchetti SCORM potranno essere scaricati, ad esempio da dispositivi mobili.';
 $string['raw'] = 'Punteggio grezzo';
@@ -408,7 +431,7 @@ $string['versionwarning'] = 'La versione del manifest è precedente alla 1.3, av
 $string['viewallreports'] = 'Visualizza lo stato dei {$a} tentativi';
 $string['viewalluserreports'] = 'Visualizza il report per {$a} utenti';
 $string['whatgrade'] = 'Valutazione tentativi';
-$string['whatgradedesc'] = 'Imposta la valutazione da memorizzare nel registro del valutatore in presenza di più tentativi completati: tentativo migliore, primo o ultimo tentativo, media dei tentativi.';
+$string['whatgradedesc'] = 'Imposta la valutazione da memorizzare nel registro valutatore in presenza di più tentativi completati: tentativo migliore, primo o ultimo tentativo, media dei tentativi.';
 $string['whatgrade_help'] = 'Se sono consentiti più tentativi, con questa impostazione è possibile stabilire cosa memorizzare nel registro valutatore: il voto più alto, la media, il primo o l\'ultimo tentativo. L\'opzione Ultimo tentativo non comprende i tentativi con lo stato "failed"
 
 Gestione di tentativi multipli

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,8 +47,8 @@ $string['attachedfiles'] = '添付ファイル';
 $string['attachment'] = '添付';
 $string['author'] = '作成者';
 $string['automatedbackup'] = '自動バックアップ';
-$string['back'] = '&laquo; 戻る';
-$string['backtodraftfiles'] = '&laquo; 下書きファイルマネージャに戻る';
+$string['back'] = '戻る';
+$string['backtodraftfiles'] = '下書きファイルマネージャに戻る';
 $string['cachecleared'] = 'キャッシュファイルが削除されます。';
 $string['cacheexpire'] = 'キャッシュ有効期限';
 $string['cannotaccessparentwin'] = '親ウィンドウがHTTPSにある場合、私たちはwindow.openerオブジェクトへのアクセスを許可されません。そのため、あなたのためにリポジトリを自動的にリフレッシュすることができません。しかし、すでにあなたのセッションが存在するため、ファイルピッカに戻って、再度リポジトリを選択してください。';
@@ -156,8 +156,10 @@ $string['linkexternal'] = '外部にリンクする';
 $string['listview'] = 'リストビュー';
 $string['loading'] = '読み込み中 ...';
 $string['login'] = 'あなたのアカウントにログインする';
+$string['logintoaccount'] = 'あなたの {$a} アカウントにログインする';
 $string['logout'] = 'ログアウト';
 $string['lostsource'] = 'エラー、ソースがありません。 {$a}';
+$string['makefilecontrolledlink'] = 'ファイルのアクセスコントロールリンクを作成する';
 $string['makefileinternal'] = 'ファイルのコピーを作成する';
 $string['makefilelink'] = 'ファイルディレクトリにリンクする';
 $string['makefilereference'] = 'ファイルのエイリアス/ショートカットを作成する';
@@ -195,6 +197,15 @@ $string['pluginnamehelp'] = 'あなたがここを空白にした場合、デフ
 $string['popup'] = 'ログインするには「ログイン」ボタンをクリックしてください。';
 $string['popupblockeddownload'] = 'ダウンロードウィンドウがブロックされました。ポップアップウィンドウを許可して再度お試しください。';
 $string['preview'] = 'プレビュー';
+$string['privacy:metadata:repository'] = 'コアサブシステムでリポジトリタイプを保存するリポジトリコンポーネントです。';
+$string['privacy:metadata:repository_instances'] = 'コアサブシステムでユーザリポジトリインスタンスデータを保存するリポジトリプラグインコンポーネントです。';
+$string['privacy:metadata:repository_instances:name'] = 'リポジトリインスタンスのカスタム名です。';
+$string['privacy:metadata:repository_instances:password'] = 'リポジトリインスタンスに設定された任意パスワードです。';
+$string['privacy:metadata:repository_instances:timecreated'] = 'リポジトリインスタンスの作成日時です。';
+$string['privacy:metadata:repository_instances:timemodified'] = 'リポジトリインスタンスの修正日時です。';
+$string['privacy:metadata:repository_instances:typeid'] = 'リポジトリインスタンスのIDタイプです。';
+$string['privacy:metadata:repository_instances:userid'] = 'リポジトリインスタンスを所有しているユーザのIDです。';
+$string['privacy:metadata:repository_instances:username'] = 'リポジトリインスタンスに設定されている任意ユーザ名です。';
 $string['privatefilesof'] = '{$a} プライベートファイル';
 $string['readonlyinstance'] = 'あなたは読み取り専用のインスタンスを編集/削除できません。';
 $string['referencesexist'] = 'このファイルをソースとして使用している {$a} のエイリアス/ショートカットファイルがあります。';
@@ -236,6 +247,7 @@ $string['typenotvisible'] = 'タイプを表示できません。';
 $string['undisclosedreference'] = '(未公開)';
 $string['undisclosedsource'] = '(未公開)';
 $string['unknownoriginal'] = '不明';
+$string['unknownsource'] = '不明なソース';
 $string['unzipped'] = '正常に展開されました。';
 $string['upload'] = 'このファイルをアップロードする';
 $string['uploading'] = 'アップロード中 ...';

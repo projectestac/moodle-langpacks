@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_title', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_title', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_title
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,4 +31,5 @@ $string['h5'] = 'Επικεφαλίδα (μικρή)';
 $string['p'] = 'Παράγραφος';
 $string['pluginname'] = 'Στυλ παραγράφων';
 $string['pre'] = 'Προ-διαμορφωμένο';
+$string['privacy:metadata'] = 'Το πρόσθετο «atto_title» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['title'] = 'Στυλ παραγράφων';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_areafiles', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_areafiles', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_areafiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,3 +29,4 @@ $string['areafiles:view'] = 'Visualizzare repository File incorporati';
 $string['configplugin'] = 'Configurazione repository File incorporati';
 $string['pluginname'] = 'File incorporati';
 $string['pluginname_help'] = 'File incorporati nell\'editor di testo in uso';
+$string['privacy:metadata'] = 'Il plugin repository "File incorporati" non memorizza né trasmette file personali.';

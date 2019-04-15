@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignment_uploadsingle', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignment_uploadsingle', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   assignment_uploadsingle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Μονό ανέβασμα';
+$string['privacy:metadata'] = 'Το πρόσθετο «Upload single assignment» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

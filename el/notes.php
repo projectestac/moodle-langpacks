@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'notes', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,10 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addbulknote'] = 'Προσθέστε μια νέα σημείωση σε {$a} άτομα';
+$string['addbulknotedone'] = 'Η σημείωση προστέθηκε σε {$a} άτομα';
+$string['addbulknotedonesingle'] = 'Η σημείωση προστέθηκε σε 1 άτομο';
+$string['addbulknotesingle'] = 'Προσθέστε μια νέα σημείωση σε 1 άτομο';
 $string['addnewnote'] = 'Προσθήκη νέας σημείωσης';
 $string['addnewnoteselect'] = 'Επιλέξτε τους χρήστες για τους οποίους θα γράψετε σημειώσεις';
 $string['bynameondate'] = 'κατά {$a->name} - {$a->date}';
-$string['cannotdeletepost'] = 'Προέκυψε σφάλμα κατά την διαγραφή της ανάρτησης';
 $string['configenablenotes'] = 'Ενεργοποίηση της αποθήκευσης των σημειώσεων σχετικά με ατομικούς χρήστες.';
 $string['content'] = 'Περιεχόμενο';
 $string['course'] = 'μάθημα';
@@ -58,13 +61,18 @@ $string['page-notes-index'] = 'Κύρια σελίδα σημειώσεων';
 $string['page-notes-x'] = 'Οποιεσδήποτε σημειώσεις σελίδας';
 $string['personal'] = 'προσωπική';
 $string['personalnotes'] = 'Προσωπικές σημειώσεις';
+$string['privacy:metadata:core_notes'] = 'Το στοιχείο λογισμικού «Σημειώσεις» αποθηκεύει τις σημειώσεις χρήστη στο υποσύστημα πυρήνα.';
+$string['privacy:metadata:core_notes:content'] = 'Το περιεχόμενο της σημείωσης.';
+$string['privacy:metadata:core_notes:courseid'] = 'Το αναγνωριστικό του μαθήματος που σχετίζεται με τη σημείωση.';
+$string['privacy:metadata:core_notes:created'] = 'Η ημερομηνία/ώρα δημιουργίας για τη σημείωση.';
+$string['privacy:metadata:core_notes:lastmodified'] = 'Η ημερομηνία/ώρα τελευταίας τροποποίησης για τη σημείωση';
+$string['privacy:metadata:core_notes:publishstate'] = 'Η κατάσταση δημοσίευσης της σημείωσης.';
+$string['privacy:metadata:core_notes:userid'] = 'Το αναγνωριστικό του χρήστη που συσχετίζεται με τη σημείωση.';
 $string['publishstate'] = 'Πλαίσιο';
-$string['publishstate_help'] = 'Το πλαίσιο μιας σημείωσης καθορίζει ποιος μπορεί να δει τη σημείωση.
-<ul>
-<li>Προσωπική - Η σημείωση θα είναι ορατή μόνο σ\' εσάς</li>
-<li>Μάθημα  - Η σημείωση θα είναι ορατή στους διδάσκοντες αυτού του μαθήματος</li>
-<li>Ιστοχώρος - Η σημείωση θα είναι ορατή στους διδάσκοντες σε όλα τα μαθήματα</li>
-</ul>';
+$string['publishstate_help'] = 'Το πλαίσιο μιας σημείωσης καθορίζει ποιος μπορεί να δει τη σημείωση.<br />
+* Προσωπική - Η σημείωση θα είναι ορατή μόνο σ\' εσάς<br />
+* Μαθήματος - Η σημείωση θα είναι ορατή στους διδάσκοντες αυτού του μαθήματος<br />
+* Ιστοτόπου - Η σημείωση θα είναι ορατή στους διδάσκοντες σε όλα τα μαθήματα';
 $string['selectnotestate'] = 'Επιλέξτε κατάσταση σημείωσης';
 $string['site'] = 'ιστότοπος';
 $string['sitenotes'] = 'Σημειώσεις ιστοτόπου';

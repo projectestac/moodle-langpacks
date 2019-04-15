@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_task', language 'es', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,12 +32,14 @@ $string['corecomponent'] = 'Núcleo';
 $string['default'] = 'Por defecto';
 $string['disabled'] = 'Deshabilitado';
 $string['edittaskschedule'] = 'Editar tarea programada: {$a}';
+$string['enablerunnow'] = 'Permitir \'Ejecutar ahora\' (Run now) para tareas programadas';
 $string['faildelay'] = 'Retardo del fallo';
 $string['lastruntime'] = 'Último arranque';
 $string['nextruntime'] = 'Siguiente arranque';
 $string['plugindisabled'] = 'Plugin deshabilitado';
 $string['pluginname'] = 'Configuración de la tarea programada';
 $string['resettasktodefaults'] = 'Restablecer la configuración de la tarea programada a por defecto';
+$string['runnow'] = 'Ejecutar ahora';
 $string['scheduledtasks'] = 'Tareas programadas';
 $string['taskdisabled'] = 'Tareas deshabilitadas';
 $string['taskscheduleday'] = 'Día';

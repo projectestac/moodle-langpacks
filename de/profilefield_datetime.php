@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_datetime', language 'de', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_datetime', language 'de', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_datetime
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,11 @@ $string['defaultdate'] = 'Standarddatum';
 $string['endyear'] = 'Endjahr';
 $string['notset'] = 'nicht gesetzt';
 $string['pluginname'] = 'Datum/Zeit';
+$string['privacy:metadata:profilefield_datetime:data'] = 'Datum/Zeit Feld der Nutzerdaten';
+$string['privacy:metadata:profilefield_datetime:dataformat'] = 'Format für Datum/Zeit Feld der Nutzerdaten';
+$string['privacy:metadata:profilefield_datetime:fieldid'] = 'ID der Profilfelds';
+$string['privacy:metadata:profilefield_datetime:tableexplanation'] = 'Zusätzliche Nutzerinformationen';
+$string['privacy:metadata:profilefield_datetime:userid'] = 'ID des Nutzers dessen Daten im Datum/Zeit-Profilfeld gespeichert werden';
 $string['specifydatedefault'] = 'Datum angeben';
 $string['startyear'] = 'Startjahr';
 $string['startyearafterend'] = 'Das Startjahr kann nicht nach dem Endjahr liegen';

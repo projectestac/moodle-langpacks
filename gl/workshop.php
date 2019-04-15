@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshop', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,6 +67,7 @@ $string['assessmentofsubmission'] = '<a href="{$a->assessmenturl}">Avaliación</
 $string['assessmentreference'] = 'Avaliación de referencia';
 $string['assessmentreferenceconflict'] = 'Non é posíbel avaliar unha entrega de exemplo para que xa fixo unha avaliación de de referencia.';
 $string['assessmentreferenceneeded'] = 'Ten que avaliar esta entrega de exemplo, para proporcionar unha avaliación de referencia. Prema no botón «Continuar» para avaliar a entrega.';
+$string['assessments'] = 'Avaliacións';
 $string['assessmentsettings'] = 'Axustes da avaliación';
 $string['assessmentstart'] = 'Aberto para avaliacións desde';
 $string['assessmentstartdatetime'] = 'Aberto para avaliacións desde {$a->daydatetime} ({$a->distanceday})';
@@ -180,6 +181,10 @@ $string['gradinggradeover'] = 'Anular a cualificación da avaliación';
 $string['gradingsettings'] = 'Axustes da cualificación';
 $string['groupnoallowed'] = 'Non se lle permite acceder a ningún grupo neste obradoiro';
 $string['iamsure'] = 'Si, confirmo';
+$string['indicator:cognitivedepth'] = 'Obradoiro cognitivo';
+$string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de obradoiro.';
+$string['indicator:socialbreadth'] = 'Obradoiro social';
+$string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de obradoiro.';
 $string['info'] = 'Información';
 $string['instructauthors'] = 'Instrucións para a entrega';
 $string['instructreviewers'] = 'Instrucións para a avaliación';
@@ -199,6 +204,7 @@ As entregas son avaliadas utilizando un formulario de avaliación multicriterio 
 Os alumnos obteñen dúas cualificacións nunha actividade de seminario - unha cualificación pola súa entrega e outra pola avaliación das entregas dos seus pares. Ambas cualificacións gárdanse no libro de cualificacións.';
 $string['modulename_link'] = 'mod/workshop/view';
 $string['modulenameplural'] = 'Obradoiros';
+$string['myassessments'] = 'As miñas avaliacións';
 $string['mysubmission'] = 'A miña entrega';
 $string['nattachments'] = 'Número máximo de anexos por entrega';
 $string['noexamples'] = 'Aínda non hai exemplos neste obradoiro';
@@ -235,6 +241,46 @@ $string['pluginadministration'] = 'Administración do obradoiro';
 $string['pluginname'] = 'Obradoiro';
 $string['prepareexamples'] = 'Preparar unha entrega de exemplo';
 $string['previewassessmentform'] = 'Vista previa';
+$string['privacy:metadata:aggregatedgradinggrade'] = 'Cualificacións agregadas para todas as avaliacións realizadas polo usuario na actividade de obradoiro dada';
+$string['privacy:metadata:assessmentgrade'] = 'Cualificación agregada para a entrega suxerido por esta avaliación';
+$string['privacy:metadata:assessmentgradinggrade'] = 'Cualificación para fornecer esta avaliación';
+$string['privacy:metadata:assessmentgradinggradeover'] = 'Valor anulado manualmente da cualificación para fornecer esta avaliación';
+$string['privacy:metadata:assessmentid'] = 'ID da avaliación';
+$string['privacy:metadata:authorid'] = 'ID do autor da entrega';
+$string['privacy:metadata:dimensiongrade'] = 'Cualificación na dimensión de avaliación dada';
+$string['privacy:metadata:dimensionid'] = 'ID da dimensión de avaliación';
+$string['privacy:metadata:example'] = 'Indica se este rexistro representa unha entrega de exemplo';
+$string['privacy:metadata:feedbackauthor'] = 'Comentario para o autor';
+$string['privacy:metadata:feedbackauthorformat'] = 'Formato de texto dos comentarios para o autor';
+$string['privacy:metadata:feedbackreviewer'] = 'Comentarios para o usuario que fornece a avaliación';
+$string['privacy:metadata:feedbackreviewerformat'] = 'Formato de texto dos comentarios para o usuario que fornece a avaliación';
+$string['privacy:metadata:late'] = 'Se a presentación foi presentada despois do prazo';
+$string['privacy:metadata:peercomment'] = 'Comentario sobre a cualificación dada polo usuario que fornece a avaliación';
+$string['privacy:metadata:peercommentformat'] = 'Formato de texto do comentario na cualificación dada';
+$string['privacy:metadata:preference:perpage'] = 'Número de entregas que o usuario prefire ver nunha páxina';
+$string['privacy:metadata:published'] = 'Se a entrega debe ser publicada a todos os participantes unha vez que o obradoiro estea pechado';
+$string['privacy:metadata:reviewerid'] = 'ID do usuario que fornece a avaliación';
+$string['privacy:metadata:strategy'] = 'Nome do subgrupo de estratexia de cualificación que interpreta os valores de rexistro';
+$string['privacy:metadata:submissioncontent'] = 'Contido da entrega';
+$string['privacy:metadata:submissioncontentformat'] = 'Formato de texto do contido da entrega';
+$string['privacy:metadata:submissiongrade'] = 'Cualificación agregada para a entrega escrita como un número decimal do intervalo 0..100';
+$string['privacy:metadata:submissiongradeover'] = 'Valor anulado manualmente da cualificación agregada';
+$string['privacy:metadata:submissionid'] = 'ID da entrega';
+$string['privacy:metadata:submissiontitle'] = 'Titulo da entrega';
+$string['privacy:metadata:subsystem:corefiles'] = 'O módulo de obradoiro almacena ficheiros incrustados en /anexados ao texto da entrega';
+$string['privacy:metadata:subsystem:coreplagiarism'] = 'O módulo de obradoiro ten compatibilidade integrada para os sistemas de prevención de plaxio';
+$string['privacy:metadata:timeaggregated'] = 'Cando foi calculada por última vez a cualificación agregada';
+$string['privacy:metadata:timecreated'] = 'Cando este rexistro foi creado na base de datos';
+$string['privacy:metadata:timemodified'] = 'Cando este rexistro foi modificado por última vez na base de datos';
+$string['privacy:metadata:userid'] = 'ID do usuario para o que se calcula a cualificación agregada';
+$string['privacy:metadata:weight'] = 'Ponderación da avaliación';
+$string['privacy:metadata:workshopaggregations'] = 'Contén as cualificacións agregadas para avaliación';
+$string['privacy:metadata:workshopassessments'] = 'Contén información sobre as avaliacións asignadas dos envíos do módulo de obradoiro';
+$string['privacy:metadata:workshopgrades'] = 'Contén información sobre como se completaron os formularios de avaliación con cualificacións e comentarios';
+$string['privacy:metadata:workshopid'] = 'ID da actividade do obradoiro';
+$string['privacy:metadata:workshopsubmissions'] = 'Contén información sobre as entregas do módulo de obradoiro';
+$string['privacy:request:delete:content'] = 'O contido foi eliminado a petición do usuario.';
+$string['privacy:request:delete:title'] = '[Eliminado]';
 $string['publishedsubmissions'] = 'Entregas publicadas';
 $string['publishsubmission'] = 'Publicar a entrega';
 $string['publishsubmission_help'] = 'As entregas publicadas estarán dispoñíbeis para os demais cando o obradoiro estea pechado.';
@@ -302,12 +348,18 @@ $string['subplugintype_workshopform'] = 'Estratexia de cualificación';
 $string['subplugintype_workshopform_plural'] = 'Estratexias das cualificacións';
 $string['switchingphase'] = 'Cambiando a fase';
 $string['switchphase'] = 'Cambiar a fase';
+$string['switchphase10'] = 'Cambiar para a fase de configuración';
 $string['switchphase10info'] = 'Está a piques de cambiar o obradoiro a <strong>Fase de instalación</strong>. Nesta fase, os usuarios non poden modificar a súa entrega ou as súas avaliacións. Os profesores poden usar esta fase para cambiar a configuración do obradoiro e modificar a estratexia de cualificación ou a forma de avaliación.';
+$string['switchphase20'] = 'Cambiar para a fase de entrega';
 $string['switchphase20info'] = 'Está a piques de cambiar o obradoiro a <strong>Fase de entrega</strong>. Nesta fase, os alumnos poden enviar os seus traballos (dentro dos prazos de control de acceso existentes, se foron estabelecidos). Os profesores poden asignar entregas para seren revisadas por pares.';
+$string['switchphase30'] = 'Cambiar para a fase de avaliación';
 $string['switchphase30auto'] = 'O obradoiro cambiará automaticamente a fase de avaliación após {$a->daydatetime} ({$a->distanceday})';
 $string['switchphase30info'] = 'Está a piques de cambiar o obradoiro a <strong>Fase de avaliación</strong>. Nesta fase, os revisores poden avaliar os traballos que lles foron asignados (dentro dos prazos de control de acceso existentes, se foron estabelecidos).';
+$string['switchphase40'] = 'Cambiar para a fase de cualificación';
 $string['switchphase40info'] = 'Está a piques de cambiar o obradoiro a <strong>Fase de cualificación das avaliacións</strong> do obradoiro. Nesta fase, os usuarios non poden modificar as súas entregas ou as avaliacións. Os profesores poden empregar as ferramentas de cualificación de avaliacións para calcular as cualificacións finais e fornecer comentarios para os revisores.';
+$string['switchphase50'] = 'Pechar obradoiro';
 $string['switchphase50info'] = 'Está a piques de pechar o obradoiro. Isto dará como resultado que as cualificacións calculadas aparecerán no libro de cualificacións. Os alumnos poden ver as súas entregas e e as avaliacións destas.';
+$string['switchphaseauto'] = 'Foi programado o cambio';
 $string['switchphasenext'] = 'Cambiar para a fase de seguinte';
 $string['taskassesspeers'] = 'Avaliar pares';
 $string['taskassesspeersdetails'] = 'total: {$a->total}<br />pendente: {$a->todo}';
@@ -339,6 +391,7 @@ $string['userplan_help'] = 'O planificador do obradoiro amosa todas as fases da 
 $string['useselfassessment'] = 'Empregar a autoavaliación';
 $string['useselfassessment_desc'] = 'Os alumnos poden avaliar o seu propio traballo';
 $string['useselfassessment_help'] = 'Se está activado, un usuario pode ser asignado a sua propia entrega para avaliala e recibirá una cualificación pola avaliación, ademais dunha cualificación pola propia entrega.';
+$string['viewworkshopsummary'] = 'Ver o resumo do obradoiro';
 $string['weightinfo'] = 'Ponderación: {$a}';
 $string['withoutsubmission'] = 'Revisor sen entrega propia';
 $string['workshop:addinstance'] = 'Engadir un novo obradoiro';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_upload', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_upload', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_upload
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['configplugin'] = 'Configuration déposer des fichiers';
 $string['pluginname'] = 'Déposer un fichier';
 $string['pluginname_help'] = 'Déposer un fichier dans Moodle';
+$string['privacy:metadata'] = 'Le plugin de dépôt Déposer un fichier n\'enregistre et ne transmet aucune donnée personnelle.';
 $string['upload_error_cant_write'] = 'Échec de l\'écriture du fichier sur le disque.';
 $string['upload_error_extension'] = 'Une extension PHP a stoppé le dépôt du fichier.';
 $string['upload_error_form_size'] = 'Le fichier déposé dépasse la taille spécifiée par la directive max_file_size spécifiée dans le formulaire HTML.';

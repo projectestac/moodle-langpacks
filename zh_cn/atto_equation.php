@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_equation', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_equation', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_equation
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['librarygroup4'] = '高级';
 $string['librarygroup4_desc'] = '高级标签页的 TeX 命令。';
 $string['pluginname'] = '公式编辑器';
 $string['preview'] = '预览公式';
+$string['privacy:metadata'] = 'atto_equation 插件不储存任何私人数据。';
 $string['saveequation'] = '保存公式';
 $string['settings'] = '公式编辑器设置';
 $string['update'] = '更新';

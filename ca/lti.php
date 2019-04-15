@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'lti', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,7 +46,6 @@ $string['addnewapp'] = 'Habilita l\'aplicació externa';
 $string['addserver'] = 'Afegeix un servidor fiable nou';
 $string['addtype'] = 'Afegeix la configuració externa de l\'eina';
 $string['allow'] = 'Permet';
-$string['allowinstructorcustom'] = 'Permet als professors afegir paràmetres personalitzats';
 $string['allowsetting'] = 'Permet a l\'eina emmagatzemar 8K de paràmetres a Moodle';
 $string['always'] = 'Sempre';
 $string['autoaddtype'] = 'Afegeix eina';

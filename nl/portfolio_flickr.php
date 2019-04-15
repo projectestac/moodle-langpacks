@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio_flickr', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'portfolio_flickr', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   portfolio_flickr
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,8 @@ $string['noauthtoken'] = 'Kon geen authenticatietoken krijgen om te gebruiken ti
 $string['other'] = 'Kunst, illustratie, CGI of andere niet-fotografische afbeeldingen';
 $string['photo'] = 'Foto\'s';
 $string['pluginname'] = 'Flickr.com';
+$string['privacy:metadata'] = 'Deze plugin stuurt gegevens extern door naar een gelinkte Flickr-account en bewaart geen gegevens lokaal.';
+$string['privacy:metadata:data'] = 'Persoonlijke gegevens, binnengekomen via het portfolio subsysteem.';
 $string['restricted'] = 'Beperkt';
 $string['safe'] = 'Veilig';
 $string['safetylevel'] = 'Veiligheidsniveau';

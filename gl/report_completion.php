@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_completion', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_completion', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   report_completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,3 +37,4 @@ $string['page-report-completion-index'] = 'Informe de completado do curso';
 $string['page-report-completion-user'] = 'Informe de completado do usuario do curso';
 $string['page-report-completion-x'] = 'Calquera informe de completado';
 $string['pluginname'] = 'Completado do curso';
+$string['privacy:metadata'] = 'O informe de completado do curso só amosa datos almacenados noutros lugares.';

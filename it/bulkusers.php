@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'bulkusers', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'bulkusers', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   bulkusers
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,7 @@ $string['allselectedusers'] = 'Selezionati ({$a->count}/{$a->total})';
 $string['allusers'] = 'Tutti ({$a})';
 $string['available'] = 'Possibili';
 $string['confirmmessage'] = 'Confermi di voler mandare il messaggio precedente a tutti questi utenti?<br />{$a}';
+$string['deleteduser'] = 'Utente eliminato';
 $string['nofilteredusers'] = 'Nessun utente trovato (0/{$a})';
 $string['noselectedusers'] = 'Nessun utente selezionato';
 $string['removeall'] = 'Rimuovi tutti';

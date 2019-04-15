@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_messageinbound', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'Klasearen izena';
 $string['component'] = 'Osagaia';
-$string['configmessageinboundhost'] = 'Moodle-k e-postak bilatzera joan behar deneko zerbitzariaren helbidea. Berezkoa ez den ataka bat zehazteko, [zerbitzaria]:[ataka] erabili dezakezu, mail.adibidea.eus:587 formatua adibidez. Atakarik zehazten ez baduzu, Moodle-k zehazten duzun e-posta zerbitzariko berezko ataka erabiliko da.';
+$string['configmessageinboundhost'] = 'Moodle-k e-postak bilatzera joan behar deneko zerbitzariaren helbidea. Lehenetsitakoa ez den ataka bat zehazteko, [zerbitzaria]:[ataka] erabili dezakezu, mail.adibidea.eus:587 formatua adibidez. Atakarik zehazten ez baduzu, e-posta zerbitzari motaren lehenetsitako ataka erabiliko da.';
 $string['defaultexpiration'] = 'Helbideen iraungitze-epe lehenetsia';
 $string['defaultexpiration_help'] = 'Kudeatzaileak e-posta helbide bat sortzen duenean, automatikoki iraungitze-epe bat zehaztu dakioke epe hori igaro ondoren ezin erabiltzeko. Iraungitze-epea zehaztea gomendagarria da.';
 $string['description'] = 'Deskribapena';
@@ -98,6 +98,12 @@ $string['onehour'] = 'Ordubete';
 $string['oneweek'] = 'Astebete';
 $string['oneyear'] = 'Urtebete';
 $string['pluginname'] = 'Sarrera-mezuen ezarpenak';
+$string['privacy:metadata:coreuserkey'] = 'Jasotako e-posta egiaztatzeko erabiltzaile-gakoak';
+$string['privacy:metadata:messagelist'] = 'Balidazioak huts egin duen eta egiaztatze gehiago behar duten mezuen identifikatzaileen zerrenda';
+$string['privacy:metadata:messagelist:address'] = 'e-posta bidali zeneko helbidea.';
+$string['privacy:metadata:messagelist:messageid'] = 'Mezuaren IDa';
+$string['privacy:metadata:messagelist:timecreated'] = 'Erregistroa egin zeneko unea';
+$string['privacy:metadata:messagelist:userid'] = 'Mezua onartu behar duen erabiltzailearen IDa';
 $string['replysubjectprefix'] = 'Er:';
 $string['requirevalidation'] = 'Balioztatu Igorlearen helbidea';
 $string['ssl'] = 'SSL (Detektatu automatikoki SSL bertsioa)';

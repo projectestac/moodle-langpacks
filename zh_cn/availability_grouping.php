@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_grouping', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability_grouping', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   availability_grouping
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['description'] = '只允许那些通过特定分组方式而隶属于某
 $string['error_selectgrouping'] = '必须选择一个群组';
 $string['missing'] = '(无分组)';
 $string['pluginname'] = '按分组限制';
+$string['privacy:metadata'] = '分组限制插件不储存任何私人数据。';
 $string['requires_grouping'] = '你属于 <strong>{$a}</strong>的小组';
 $string['requires_notgrouping'] = '你不属于 <strong>{$a}</strong>的小组';
 $string['title'] = '群组';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_email', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_email', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_email
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,3 +31,4 @@ $string['auth_emailrecaptcha'] = '针对基于电子邮件的自助注册的用�
 $string['auth_emailrecaptcha_key'] = '激活 reCAPTCHA 元素';
 $string['auth_emailsettings'] = '设置';
 $string['pluginname'] = '基于email的自助注册';
+$string['privacy:metadata'] = '基于电子邮件的自注册身份验证插件不存储任何个人数据。';

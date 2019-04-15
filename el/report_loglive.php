@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_loglive', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_loglive', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   report_loglive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,5 +36,6 @@ $string['loglive:view'] = 'Εμφάνιση των ενεργών καταγρα
 $string['nologreaderenabled'] = 'Δεν είναι ενεργοποιημένος κανένας αναγνώστης καταγραφών';
 $string['pause'] = 'Παύση απευθείας (live) ενημερώσεων';
 $string['pluginname'] = 'Ενεργές καταγραφές';
+$string['privacy:metadata'] = 'Το πρόσθετο «Ζωντανές καταγραφές» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['resume'] = 'Να αρχίσουν πάλι οι απευθείας ενημερώσεις';
 $string['selectlogreader'] = 'Επιλογή αναγνώστη καταγραφών';

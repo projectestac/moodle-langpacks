@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'error', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityisscheduledfordeletion'] = '正在删除活动中...';
+$string['agedigitalconsentmapinvalidage'] = '"{$a}" 不是有效的年龄值。';
+$string['agedigitalconsentmapinvalidcomma'] = '"{$a}" 有多于或少于一个的逗号分隔符。';
+$string['agedigitalconsentmapinvalidcountry'] = '"{$a}" 不是有效的国家值。';
+$string['agedigitalconsentmapinvaliddefault'] = '找不到默认(*)值。';
+$string['agelocationverificationdisabled'] = '年龄和地点验证已禁用';
 $string['alreadyloggedin'] = '您已经以{$a}的身份登录。如果想登录为另一个用户，您必须先退出。';
 $string['authnotexisting'] = '认证插件不存在';
 $string['backupcontainexternal'] = '此备份文件保护未在本地配置的Moodle网络主机';
@@ -181,6 +186,7 @@ $string['confirmationnotenabled'] = '本站未启用用户确认';
 $string['confirmsesskeybad'] = '很抱歉，您的会话密钥不能确保您完成当前的动作。这个安全功能防止了人们无意或恶意的以您的身份运行重要功能。请确定您真的想要执行这个功能。';
 $string['couldnotassignrole'] = '当试图给您分配角色时，发生了一个严重但未说明原因的错误';
 $string['couldnotupdatenoexistinguser'] = '无法更新用户——该用户不存在';
+$string['couldnotverifyagedigitalconsent'] = '验证数字年龄合规时发生错误。<br/>请联系管理员。';
 $string['countriesphpempty'] = '错误：语言包 {$a} 中的 countries.php 文件缺失或内容为空。';
 $string['coursedoesnotbelongtocategory'] = '这门课程不属于此类别';
 $string['courseformatnotfound'] = '课程格式“{$a}”不存在，或不可识别';
@@ -352,7 +358,7 @@ $string['invalidrole'] = '无效的角色';
 $string['invalidroleid'] = '无效的角色ID';
 $string['invalidscaleid'] = '等级id不正确';
 $string['invalidsection'] = '课程模块记录包含无效的小节';
-$string['invalidsesskey'] = '错误的 sesskey，表单未被接收。';
+$string['invalidsesskey'] = '您的会话很可能已经超时。请重新登录。';
 $string['invalidshortname'] = '这是一个无效的课程简称';
 $string['invalidsourcefield'] = '草稿文件的源地址域无效';
 $string['invalidstatedetected'] = '发生错误：{$a}。正常情况下这应该不会发生。';
@@ -362,6 +368,7 @@ $string['invaliduserdata'] = '无效的用户资料：{$a}';
 $string['invaliduserfield'] = '无效用户字段：{$a}';
 $string['invaliduserid'] = '无效的用户id';
 $string['invalidusername'] = '用户名包含无效字符';
+$string['invalidusernameblank'] = '用户名不能为空';
 $string['invalidxmlfile'] = '“{$a}”不是合法的 XML 文件';
 $string['iplookupfailed'] = '无法找到关于 IP 地址 {$a} 的 geo 信息。';
 $string['iplookupprivate'] = '无法显示私有 IP 地址。';
@@ -381,7 +388,7 @@ $string['maxareabytes'] = '此文件的大小超过了剩余的空间。';
 $string['maxbytes'] = '此文件超过了允许的最大体积。';
 $string['maxbytesfile'] = '这个文件 {$a->file} 太大了。你可以上传的文件最大容量是 {$a->size}。';
 $string['messagingdisable'] = '本站的消息系统已禁用';
-$string['mimetexisnotexist'] = '您的系统还没有配置去运行mimeTeX。您需要从<a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a>为您的PHP_OS平台下载正确的可执行文件，或这从<a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>获得C源码，编译该源码并将可执行文件放入您的 moodle/filter/tex/目录下。';
+$string['mimetexisnotexist'] = '您的系统未配置运行mimeTeX。您需要从<a href="http://www.forkosh.com/mimetex.zip">http://www.forkosh.com/mimetex.zip</a> 下载C语言源代码，编译后将可执行文件复制到您的 moodle/filter/tex/ 目录。';
 $string['mimetexnotexecutable'] = '自定义mimetex不可执行！';
 $string['missingfield'] = '字段“{$a}”不存在';
 $string['missingkeyinsql'] = '错误：查询语句缺少参数"{$a}"';
@@ -564,10 +571,12 @@ $string['userautherror'] = '未知的验证插件';
 $string['userauthunsupported'] = '这里不支持验证插件';
 $string['useremailduplicate'] = '地址重复';
 $string['usermustbemnet'] = 'MNET访问控制列表中的用户必须是远程MNET用户';
+$string['usernamelowercase'] = '用户名必须小写';
 $string['usernotaddederror'] = '用户未添加 —— 出错';
 $string['usernotaddedregistered'] = '用户未添加――已经注册过了';
 $string['usernotavailable'] = '此用户的详细信息对您不可见';
 $string['usernotdeletedadmin'] = '用户未删除——不能删除管理员账户';
+$string['usernotdeleteddeleted'] = '用户已被删除。';
 $string['usernotdeletederror'] = '无法删除用户——错误';
 $string['usernotdeletedmissing'] = '无法删除用户——未找到用户名。';
 $string['usernotdeletedoff'] = '无法删除用户——不允许删除。';
@@ -581,6 +590,7 @@ $string['usernotupdatederror'] = '无法更新用户——错误。';
 $string['usernotupdatednotexists'] = '无法更新用户——用户信息不存在。';
 $string['userquotalimit'] = '你已经达到了你的文件配额上限。';
 $string['userselectortoomany'] = '尽管多重选择为false，user_selector仍返回多个已选择的用户。';
+$string['verifyagedigitalconsentnotpossible'] = '抱歉，上网年龄承诺验证暂时不可用。';
 $string['wrongcall'] = '该脚本调用错误';
 $string['wrongcontextid'] = '场景ID错误 (无法找到该ID)';
 $string['wrongdestpath'] = '错误的目标路径';

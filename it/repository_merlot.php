@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_merlot', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_merlot', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_merlot
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,3 +30,7 @@ $string['licensekey'] = 'Chiave licenza';
 $string['merlot:view'] = 'Visualizzare repository Merlot';
 $string['pluginname'] = 'Merlot.org';
 $string['pluginname_help'] = 'Merlot.org';
+$string['privacy:metadata:repository_merlot'] = 'Il plugin Repository \'Merlot.org\' non memorizza dati personali, ma trasmette i dati degli utenti da Moodle al sistema remoto.';
+$string['privacy:metadata:repository_merlot:author'] = 'L\'autore del contenuto del repository Merlot.org.';
+$string['privacy:metadata:repository_merlot:keywords'] = 'Query di ricerca testo per l\'utente del repository Merlot.org.';
+$string['privacy:metadata:repository_merlot:licencekey'] = 'Chiave di licenza del repository Merlot.org.';

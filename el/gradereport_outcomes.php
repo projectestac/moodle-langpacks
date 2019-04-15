@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_outcomes', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradereport_outcomes', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   gradereport_outcomes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,4 +31,5 @@ $string['coursespecoutcome'] = 'Μαθησιακά αποτελέσματα μα
 $string['eventgradereportviewed'] = 'Η αναφορά μαθησιακών αποτελεσμάτων βαθμού εμφανίστηκε';
 $string['outcomes:view'] = 'Εμφάνιση της αναφοράς μαθησιακών αποτελεσμάτων';
 $string['pluginname'] = 'Αναφορά μαθησιακών αποτελεσμάτων';
+$string['privacy:metadata'] = 'Η αναφορά (μαθησιακών) αποτελεσμάτων βαθμού εμφανίζει μόνο δεδομένα που είναι αποθηκευμένα σε άλλες τοποθεσίες.';
 $string['usedgradeitem'] = 'Αριθμός στοιχείων βαθμού';

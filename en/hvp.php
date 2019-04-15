@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'en', branch 'MOODLE_32_STABLE'
+ * Strings for component 'hvp', language 'en', branch 'MOODLE_34_STABLE'
  *
  * @package   hvp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['additionalinfo'] = 'Additional Information';
 $string['additionallicenseinfo'] = 'Any additional information about the license';
 $string['addlibraries'] = 'Add libraries';
 $string['ajaxfailed'] = 'Failed to load data.';
+$string['anunexpectedsave'] = 'Something unexpected happened. We were unable to save this content.';
 $string['attribution'] = 'Attribution 4.0';
 $string['attributionnc'] = 'Attribution-NonCommercial 4.0';
 $string['attributionncnd'] = 'Attribution-NonCommercial-NoDerivs 4.0';
@@ -66,6 +67,7 @@ $string['confirmdialogbody'] = 'Please confirm that you wish to proceed. This ac
 $string['confirmdialogheader'] = 'Confirm action';
 $string['confirmlabel'] = 'Confirm';
 $string['contentchanged'] = 'This content has changed since you last used it.';
+$string['contentCopied'] = 'Content is copied to the clipboard';
 $string['contentstatefrequency'] = 'Save content state frequency';
 $string['contentstatefrequency_help'] = 'In seconds, how often do you wish the user to auto save their progress. Increase this number if you\'re having issues with many ajax requests';
 $string['contenttype'] = 'Content Type';
@@ -97,6 +99,9 @@ $string['disablehubdescription'] = 'It\'s strongly encouraged to keep this optio
 $string['displayoptionalwaysshow'] = 'Always show';
 $string['displayoptionauthoroff'] = 'Controlled by author, default is off';
 $string['displayoptionauthoron'] = 'Controlled by author, default is on';
+$string['displayoptiondownloadalways'] = 'Always';
+$string['displayoptiondownloadnever'] = 'Never';
+$string['displayoptiondownloadpermission'] = 'Only if user has permissions to export H5P';
 $string['displayoptionnevershow'] = 'Never show';
 $string['displayoptionpermissions'] = 'Show only if user has permissions to export H5P';
 $string['displayoptionpermissionsembed'] = 'Show only if user has permissions to embed H5P';
@@ -113,7 +118,7 @@ $string['enableabout'] = 'About H5P button';
 $string['enablecopyright'] = 'Copyright button';
 $string['enabledlrscontenttypes'] = 'Enable LRS dependent content types';
 $string['enabledlrscontenttypes_help'] = 'Makes it possible to use content types that rely upon a Learning Record Store to function properly, like the Questionnaire content type.';
-$string['enabledownload'] = 'Download button';
+$string['enabledownload'] = 'Allow download';
 $string['enableembed'] = 'Embed button';
 $string['enableframe'] = 'Display action bar and frame';
 $string['enablehublabel'] = 'Use H5P Hub';
@@ -242,6 +247,7 @@ $string['noh5ps'] = 'There\'s no interactive content available for this course.'
 $string['nojson'] = 'The main h5p.json file is not valid';
 $string['noparameters'] = 'No parameters';
 $string['noparse'] = 'Could not parse the main h5p.json file';
+$string['nopermissiontogettranslations'] = 'You do not have permissions to retrieve translations';
 $string['nopermissiontorestrict'] = 'You do not have permission to restrict libraries.';
 $string['nopermissiontosavecontentuserdata'] = 'You do not have permission to save content user data.';
 $string['nopermissiontosaveresult'] = 'You do not have permission to save result for this content.';
@@ -262,6 +268,7 @@ $string['noversionattributionsa'] = 'Attribution-ShareAlike';
 $string['nowriteaccess'] = 'A problem with the server write access was detected. Please make sure that your server can write to your data folder.';
 $string['noziparchive'] = 'Your PHP version does not support ZipArchive.';
 $string['oldphpversion'] = 'Your PHP version is outdated. H5P requires version 5.2 to function properly. Version 5.6 or later is recommended.';
+$string['olduploadoldcontent'] = 'You\'re trying to upload content of an older version of H5P. Please upgrade the content on the server it originated from and try to upload again or turn on the H5P Hub to have this server upgrade it for your automaticall.';
 $string['onlyupdate'] = 'Only update existing libraries';
 $string['options'] = 'Options';
 $string['originator'] = 'Originator';
@@ -307,6 +314,7 @@ $string['privacy:metadata:hvp_xapi_results:response'] = 'The response the user s
 $string['privacy:metadata:hvp_xapi_results:user_id'] = 'The ID of the user that performed the action.';
 $string['question'] = 'Question';
 $string['removeoldlogentries'] = 'Remove old H5P log entries';
+$string['removeoldmobileauthentries'] = 'Remove old H5P mobile auth entries';
 $string['removetmpfiles'] = 'Remove old H5P temporary files';
 $string['reportingquestionsremaininglabel'] = 'questions remaining to grade';
 $string['reportingscaledscoredelimiter'] = ',';
@@ -316,6 +324,9 @@ $string['reportingscorelabel'] = 'Score:';
 $string['reportnotsupported'] = 'Not supported';
 $string['reportsubmitgradelabel'] = 'Submit grade';
 $string['resizescript'] = 'Include this script on your website if you want dynamic sizing of the embedded content:';
+$string['reuse'] = 'Reuse';
+$string['reuseContent'] = 'Reuse Content';
+$string['reuseDescription'] = 'Reuse this content.';
 $string['reveal'] = 'Reveal';
 $string['reviseserversetupandretry'] = 'When you have revised your server setup you may re-enable H5P hub communication in H5P Settings.';
 $string['score'] = 'Score';
@@ -350,8 +361,11 @@ $string['upgradedone'] = 'You have successfully upgraded {$a} content instance(s
 $string['upgradeerror'] = 'An error occurred while processing parameters:';
 $string['upgradeerrorcontent'] = 'Could not upgrade content %id:';
 $string['upgradeerrordata'] = 'Could not load data for library %lib.';
+$string['upgradeerrormissinglibrary'] = 'Missing required library %lib.';
+$string['upgradeerrornotsupported'] = 'Parameters contain %used which is not supported.';
 $string['upgradeerrorparamsbroken'] = 'Parameters are broken.';
 $string['upgradeerrorscript'] = 'Could not load upgrades script for %lib.';
+$string['upgradeerrortoohighversion'] = 'Parameters contain %used while only %supported or earlier are supported.';
 $string['upgradeheading'] = 'Upgrade {$a} content';
 $string['upgradeinprogress'] = 'Upgrading to %ver...';
 $string['upgradeinvalidtoken'] = 'Error: Invalid security token!';

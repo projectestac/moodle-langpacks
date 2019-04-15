@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_table', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_table', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_table
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['addrowafter'] = 'Inserir linha depois';
 $string['all'] = 'Para cada célula';
 $string['allowbackgroundcolour'] = 'Permitir definir uma cor de fundo';
 $string['allowborder'] = 'Permitir personalização de limites';
-$string['allowborder_desc'] = 'Se ativar esta opção poderá personalizar os limites da tabela e das suas células.';
+$string['allowborder_desc'] = 'Se ativar esta opção, poderá personalizar os limites da tabela e das suas células.';
 $string['allowwidth'] = 'Permitir definir a largura';
 $string['appearance'] = 'Aparência';
 $string['backgroundcolour'] = 'Cor de fundo';
@@ -59,6 +59,7 @@ $string['numberofcolumns'] = 'Número de colunas';
 $string['numberofrows'] = 'Número de linhas';
 $string['outer'] = 'Para toda a tabela';
 $string['pluginname'] = 'Tabela';
+$string['privacy:metadata'] = 'O módulo atto_table não armazena nenhum dado pessoal.';
 $string['rows'] = 'Linhas';
 $string['settings'] = 'Definições da tabela';
 $string['solid'] = 'Contínuo';

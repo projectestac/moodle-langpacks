@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_upload', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_upload', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_upload
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['configplugin'] = 'Configuración do engadido de envíos';
 $string['pluginname'] = 'Enviar un ficheiro';
 $string['pluginname_help'] = 'Enviar un ficheiro a Moodle';
+$string['privacy:metadata'] = 'O engadido de repositorio para enviar un ficheiro non almacena ou transmite ningún dato persoal.';
 $string['upload_error_cant_write'] = 'Non foi posíbel escribir o ficheiro no disco';
 $string['upload_error_extension'] = 'Unha extensión de PHP detivo o envío de ficheiros.';
 $string['upload_error_form_size'] = 'O ficheiro enviado excede a directiva MAX_FILE_SIZE que foi especificada no formulario HTML';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'booktool_importhtml', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'booktool_importhtml', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   booktool_importhtml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,7 @@ $string['importhtml:import'] = 'Импортировать главы';
 $string['importing'] = 'Идет импорт';
 $string['importingchapters'] = 'Идет импорт глав в книгу';
 $string['pluginname'] = 'Импорт главы книги';
+$string['privacy:metadata'] = 'Плагин «Импорт главы книги» не хранит никаких персональных данных.';
 $string['relinking'] = 'Преобразование ссылок';
 $string['type'] = 'Тип';
 $string['typeonefile'] = 'Одиночный HTML-файл с заголовками как главы';

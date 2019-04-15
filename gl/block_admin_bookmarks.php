@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_admin_bookmarks', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_admin_bookmarks', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   block_admin_bookmarks
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['admin_bookmarks:addinstance'] = 'Engadir un novo bloque de marcadores de administración';
 $string['admin_bookmarks:myaddinstance'] = 'Engadir un novo bloque de marcadores no cartafol persoal';
 $string['pluginname'] = 'Marcadores do administrador';
+$string['privacy:metadata'] = 'O bloque de marcadores do administrador só amosa datos almacenados noutros lugares.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'form', language 'sv', branch 'MOODLE_32_STABLE'
+ * Strings for component 'form', language 'sv', branch 'MOODLE_34_STABLE'
  *
  * @package   form
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,6 +41,7 @@ $string['err_nopunctuation'] = 'Du får inte mata in några stora skiljetecken (
 $string['err_numeric'] = 'Du måste mata in ett tal här.';
 $string['err_rangelength'] = 'Du måste mata in tecken mellan  {$a->format[0]} och {$a->format[1]} här.';
 $string['err_required'] = 'Du måste mata in ett värde här.';
+$string['filesofthesetypes'] = 'Accepterade filtyper:';
 $string['general'] = 'Allmänna data';
 $string['hideadvanced'] = 'Dölj avancerade egenskaper';
 $string['hour'] = 'Timme';

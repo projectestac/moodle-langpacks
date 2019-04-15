@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -665,6 +665,8 @@ $string['quiz:deleteattempts'] = 'Suprimeix intents del qüestionari';
 $string['quiz:emailconfirmsubmission'] = 'Rep un missatge de confirmació quan hi hagi enviaments';
 $string['quiz:emailnotifysubmission'] = 'Rep un missatge de notificació quan s\'hagi enviat un intent';
 $string['quiz:emailwarnoverdue'] = 'Rep un missatge de notificació quan un intent arribe al termini de venciment i necessiti enviar-se.';
+$string['quizeventcloses'] = '{$a} es tanca el';
+$string['quizeventopens'] = '{$a} s\'obre el';
 $string['quiz:grade'] = 'Qualifica els qüestionaris manualment';
 $string['quiz:ignoretimelimits'] = 'Ignora el límit de temps dels qüestionaris';
 $string['quizisclosed'] = 'El qüestionari està tancat';
@@ -826,6 +828,7 @@ $string['select'] = 'Selecciona';
 $string['selectall'] = 'Selecciona tot';
 $string['selectcategory'] = 'Selecciona una categoria';
 $string['selectedattempts'] = 'Intents seleccionats';
+$string['selectmultipleitems'] = 'Seleccioneu diversos elements';
 $string['selectnone'] = 'Desselecciona tot';
 $string['selectquestiontype'] = '-- Selecciona un tipus de pregunta --';
 $string['serveradded'] = 'S\'ha afegit el servidor';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_overview', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,6 +56,9 @@ $string['pluginname'] = 'Cijfers';
 $string['preferencespage'] = 'Instellingen voor deze pagina';
 $string['preferencessave'] = 'Toon rapport';
 $string['preferencesuser'] = 'Jouw instellingen voor dit rapport';
+$string['privacy:metadata:preference:quiz_overview_slotmarks'] = 'Of cijfers getoond moeten worden naast de vraag';
+$string['privacy:preference:slotmarks:no'] = 'Cijfers worden niet getoond naast de vraag.';
+$string['privacy:preference:slotmarks:yes'] = 'Cijfers worden getoond naast de vraag.';
 $string['regrade'] = 'Herbeoordeel';
 $string['regradeall'] = 'Herbeoordeel alles';
 $string['regradealldry'] = 'Test voor volledige herberekening';

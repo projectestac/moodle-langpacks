@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_guest', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_guest', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_guest
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['passwordinvalid'] = 'Εσφαλμένος κωδικός πρόσβασ
 $string['passwordinvalidhint'] = 'Αυτός ο κωδικός πρόσβασης ήταν εσφαλμένος. Παρακαλούμε, δοκιμάστε ξανά<br />(Ορίστε μια υπόδειξη - ξεκινάει με «{$a}»)';
 $string['pluginname'] = 'Πρόσβαση επισκέπτη';
 $string['pluginname_desc'] = 'Το πρόσθετο πρόσβασης επισκέπτη παρέχει μόνο προσωρινή πρόσβαση στα μαθήματα· δεν εγγράφει πραγματικά χρήστες.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Εγγραφή πρόσβασης επισκέπτη» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['requirepassword'] = 'Απαιτείται κωδικός πρόσβασης επισκέπτη';
 $string['requirepassword_desc'] = 'Απαιτείται κωδικός πρόσβασης στα νέα μαθήματα και αποτρέπεται η αφαίρεση κωδικού πρόσβασης από τα υπάρχοντα μαθήματα.';
 $string['showhint'] = 'Εμφάνιση υπόδειξης';

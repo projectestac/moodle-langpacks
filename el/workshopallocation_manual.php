@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_manual', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopallocation_manual', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopallocation_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,4 +32,5 @@ $string['allocationexists'] = 'Η εκχώρηση υπάρχει ήδη';
 $string['areyousuretodeallocate'] = 'Είστε βέβαιοι ότι θέλετε να ακυρώσετε την εκχώρηση της επιλεγμένης αξιολόγησης;';
 $string['areyousuretodeallocategraded'] = 'Θα καταργήσετε την αξιολόγηση που έχει ήδη βαθμολογηθεί. Είστε πραγματικά βέβαιοι ότι θέλετε να το κάνετε;';
 $string['pluginname'] = 'Χειροκίνητη εκχώρηση';
+$string['privacy:metadata:preference:perpage'] = 'Αριθμός εκχωρήσεων αξιολογήσεων που προτιμά ο χρήστης να φαίνονται σε μια σελίδα.';
 $string['showallparticipants'] = 'Εμφάνιση όλων των συμμετεχόντων';

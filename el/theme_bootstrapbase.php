@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_bootstrapbase', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'theme_bootstrapbase', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   theme_bootstrapbase
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,5 +29,6 @@ $string['choosereadme'] = '<div class = "theme_screenshot"> <h2> Βάση Bootst
 <br>
  <h3> Αναφορά σφαλμάτων: </ h3> <p> Μπορείτε να αναφέρετε σφάλματα στο <a href =" https : //github.com/bmbrands/theme_bootstrap/issues "> σελίδα github </a> για αυτό το θέμα ή στον ιχνηλάτη Moodle. </ p> <h3> Περισσότερες πληροφορίες: </ h3> <ul> <li> <a href="https://github.com/bmbrands/theme_bootstrap/wiki"> Σελίδα Wiki για αυτό το θέμα </a> <li> <a href = "http://docs.moodle.org/23/en/bootstrap-Theme"> Bootstrap σε έγγραφα Moodle </a> </ li> <li> <a href = "http://theming.sonsbeekmedia.nl / "> Δοκιμαστικό παιδικό θέμα</a> </ li> </ ul>';
 $string['pluginname'] = 'Βασικό Bootstrap';
+$string['privacy:metadata'] = 'Το θέμα bootstrapbase δεν αποθηκεύει κανένα προσωπικό δεδομένο για κανέναν χρήστη.';
 $string['region-side-post'] = 'Δεξιά';
 $string['region-side-pre'] = 'Αριστερά';

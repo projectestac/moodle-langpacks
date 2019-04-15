@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_filetypes', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_filetypes', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_filetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -60,6 +60,7 @@ $string['icon_help'] = 'Όνομα αρχείου εικονιδίου. Η λί�
 $string['mimetype'] = 'Τύπος MIME';
 $string['mimetype_help'] = 'Τύπος MIME που συσχετίζεται με αυτόν τον τύπο αρχείου, π.χ. \'application/x-mobipocket-ebook\' (MIME=Multipurpose Internet Mail Extensions: μορφότυπος ηλ.ταχυδρομείου με επεκτάσεις πολλαπλού σκοπού. Οτιδήποτε πέρα από το απλό αγγλικό κείμενο, π.χ. ελληνικά, εικόνες, συνημμένα κλπ).';
 $string['pluginname'] = 'Τύποι αρχείου';
+$string['privacy:metadata'] = 'Το πρόσθετο «Τύποι αρχείων» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['revert'] = 'Επαναφορά του {$a} στις προεπιλογές του Moodle';
 $string['revert_confirmation'] = 'Είστε σίγουροι ότι θέλετε να επαναφέρετε το <strong>.{$a}</strong> στην προεπιλογή του Moodle, απορρίπτοντας τις αλλαγές;';
 $string['revertfiletype'] = 'Επαναφορά ενός τύπου αρχείου';

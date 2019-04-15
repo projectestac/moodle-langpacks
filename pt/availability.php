@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   availability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['and'] = 'e';
 $string['condition_group'] = 'Conjugar condições';
 $string['condition_group_info'] = 'Adicionar conjunto de condições de acesso conjugadas com operadores lógicos (e/ou)';
 $string['enableavailability'] = 'Ativar condições de acesso';
-$string['enableavailability_desc'] = 'Se ativar esta opção poderá definir em cada atividade ou secção as condições necessárias (baseadas na data, notas ou conclusão de outras atividades) para um aluno poder aceder à atividade.';
+$string['enableavailability_desc'] = 'Se ativar esta opção, poderá definir em cada atividade ou secção as condições necessárias (baseadas na data, notas ou conclusão de outras atividades) para um aluno poder aceder à atividade.';
 $string['error_list_nochildren'] = 'Os conjuntos de condições de acesso devem conter pelo menos uma condição.';
 $string['hidden_all'] = 'Completamente oculta se o utilizador não reunir as condições';
 $string['hidden_individual'] = 'Completamente oculta se o utilizador não reunir esta condição';
@@ -61,6 +61,7 @@ $string['list_root_or_hidden'] = 'Disponível se cumprir qualquer uma (oculto):'
 $string['manageplugins'] = 'Gerir condições de acesso';
 $string['missingplugin'] = 'Falta módulo de Condição de acesso';
 $string['or'] = 'ou';
+$string['privacy:metadata'] = 'O subsistema Condições de acesso não armazena dados pessoais.';
 $string['restrictaccess'] = 'Condições de acesso';
 $string['restrictbygroup'] = 'Adicionar condição de acesso de grupos/agrupamentos';
 $string['setheading'] = '{$a->number} conjunto(s) de {$a->count} condição(ões)';

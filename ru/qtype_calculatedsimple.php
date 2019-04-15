@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculatedsimple', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_calculatedsimple', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_calculatedsimple
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['pluginnameediting'] = 'Редактирование «Простого 
 $string['pluginname_help'] = 'Простые вычисляемые вопросы позволяют использовать индивидуальные числовые вопросы,  созданные с использованием подстановочных знаков, которые заменяются конкретными значениями при прохождении теста. Простые вычисляемые вопросы
 позволяют реализовать большинство возможностей вычисляемого вопроса с помощью простого интерфейса.';
 $string['pluginnamesummary'] = 'Более простая версия вычисляемых вопросов, которые подобны числовым вопросам, но с использованием чисел, выбираемых случайным образом из определенного набора при прохождении теста.';
+$string['privacy:metadata'] = 'Плагин «Тип вопроса Простой Вычисляемый» не хранит никаких персональных данных.';
 $string['setno'] = 'Набор {$a}';
 $string['setwildcardvalues'] = 'набор(ы) значений подстановочного знака (знаков)';
 $string['showitems'] = 'Отобразить';

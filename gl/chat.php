@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'chat', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,10 @@ $string['explainmethoddaemon'] = 'Esta configuración é efectiva <strong>só</s
 $string['explainmethodnormal'] = 'Esta configuración é efectiva <strong>só</strong> de se seleccionar «Método normal» para chat_method';
 $string['generalconfig'] = 'Configuración xeral';
 $string['idle'] = 'Inactivo';
+$string['indicator:cognitivedepth'] = 'Conversa cognitiva';
+$string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de conversa.';
+$string['indicator:socialbreadth'] = 'Conversa social';
+$string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de conversa.';
 $string['inputarea'] = 'Área de entrada';
 $string['invalidid'] = 'Non foi posíbel atopar esa sala de conversa!';
 $string['list_all_sessions'] = 'Lista de todas as sesións.';
@@ -117,6 +121,20 @@ $string['page-mod-chat-x'] = 'Calquera páxina do módulo de conversa';
 $string['pastchats'] = 'Sesións pasadas de conversa';
 $string['pluginadministration'] = 'Administración da conversa';
 $string['pluginname'] = 'Conversa';
+$string['privacy:metadata:chat_messages_current'] = 'Sesión actual de conversa. Este dato é temporal e elimínase após de que se elimine a sesión de conversa';
+$string['privacy:metadata:chat_users'] = 'Mantén o control de que usuarios están en que salas de conversa';
+$string['privacy:metadata:chat_users:firstping'] = 'Momento do primeiro acceso á sala de conversa';
+$string['privacy:metadata:chat_users:ip'] = 'IP do usuario';
+$string['privacy:metadata:chat_users:lang'] = 'Idioma do usuario';
+$string['privacy:metadata:chat_users:lastmessageping'] = 'Momento da última mensaxe nesta sala de conversa';
+$string['privacy:metadata:chat_users:lastping'] = 'Momento do último acceso á sala de conversa';
+$string['privacy:metadata:chat_users:userid'] = 'O ID do usuario';
+$string['privacy:metadata:chat_users:version'] = 'Como accedeu o usuario á conversa (sockets/basic/ajax/header_js)';
+$string['privacy:metadata:messages'] = 'Un rexistro das mensaxes enviadas durante unha sesión de conversa';
+$string['privacy:metadata:messages:issystem'] = 'Se a mensaxe é unha mensaxe xerada polo sistema';
+$string['privacy:metadata:messages:message'] = 'A mensaxe';
+$string['privacy:metadata:messages:timestamp'] = 'O momento no que se enviou a mensaxe.';
+$string['privacy:metadata:messages:userid'] = 'O ID de usuario do autor da mensaxe';
 $string['refreshroom'] = 'Recarga de sala';
 $string['refreshuserlist'] = 'Recarga da lista de usuarios';
 $string['removemessages'] = 'Retirar todas as mensaxes';

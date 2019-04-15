@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_static', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cachestore_static', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   cachestore_static
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Κρυφή μνήμη στατικού αιτήματος';
+$string['privacy:metadata'] = 'Το πρόσθετο αποθήκευσης κρυφής μνήμης (cachestore) Στατικού αιτήματος (Static request) αποθηκεύει κάποια δεδομένα, αλλά αυτά διαρκούν μόνο όσο διαρκεί ένα μόνο αίτημα HTTP.';

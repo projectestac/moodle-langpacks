@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'grades', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -110,7 +110,6 @@ $string['calculationsaved'] = 'Вычисления сохранены';
 $string['calculationview'] = 'Просмотреть вычисления';
 $string['cannotaccessgroup'] = 'К сожалению, нет доступа к оценкам выбранной группы.';
 $string['categories'] = 'Категории';
-$string['categoriesanditems'] = 'Категории и элементы';
 $string['category'] = 'Категория';
 $string['categoryedit'] = 'Редактировать категорию';
 $string['categoryname'] = 'Название категории';
@@ -602,6 +601,44 @@ $string['prefletters'] = 'Буквы и границы оценок';
 $string['prefrows'] = 'Специальные столбцы';
 $string['prefshow'] = 'Показать/спрятать переключатели';
 $string['previewrows'] = 'Строк предпросмотра';
+$string['privacy:metadata:categorieshistory'] = 'Запись предыдущих версий категорий оценок';
+$string['privacy:metadata:grade_import_newitem'] = 'Временная таблица для хранения новых имен элементов оценивания из импорта оценок';
+$string['privacy:metadata:grade_import_newitem:importcode'] = 'Уникальный код пакета для идентификации одного пакета импорта';
+$string['privacy:metadata:grade_import_newitem:importer'] = 'Пользователь, импортирующий данные';
+$string['privacy:metadata:grade_import_newitem:itemname'] = 'Новое имя элемента оценивания';
+$string['privacy:metadata:grade_import_values'] = 'Временная таблица для импорта оценок';
+$string['privacy:metadata:grade_import_values:feedback'] = 'Отзыв к оценке';
+$string['privacy:metadata:grade_import_values:finalgrade'] = 'Сырое значение оценки';
+$string['privacy:metadata:grade_import_values:importcode'] = 'Уникальный код пакета для идентификации одного пакета импорта';
+$string['privacy:metadata:grade_import_values:importer'] = 'Пользователь, импортирующий данные';
+$string['privacy:metadata:grade_import_values:importonlyfeedback'] = 'Отмечено, если импортированы только отзывы';
+$string['privacy:metadata:grade_import_values:userid'] = 'Пользователь, чья оценка была импортирована';
+$string['privacy:metadata:grades'] = 'Запись оценок';
+$string['privacy:metadata:grades:aggregationstatus'] = 'Статус итоговой оценки';
+$string['privacy:metadata:grades:aggregationweight'] = 'Вес в итоговой оценке';
+$string['privacy:metadata:grades:feedback'] = 'Отзыв';
+$string['privacy:metadata:grades:finalgrade'] = 'Оценка';
+$string['privacy:metadata:gradeshistory'] = 'Запись предыдущих оценок';
+$string['privacy:metadata:grades:information'] = 'Некоторая дополнительная информация';
+$string['privacy:metadata:grades:timemodified'] = 'Время последнего изменения оценки';
+$string['privacy:metadata:grades:userid'] = 'ID пользователя, которому поставлена оценка';
+$string['privacy:metadata:grades:usermodified'] = 'ID пользователя, который последним изменял запись';
+$string['privacy:metadata:history:loggeduser'] = 'ID пользователя, который был авторизован при появлении версий';
+$string['privacy:metadata:history:timemodified'] = 'Время, когда произошла версия оценки';
+$string['privacy:metadata:itemshistory'] = 'Запись предыдущих версий элементов оценивания';
+$string['privacy:metadata:outcomes'] = 'Запись показателей';
+$string['privacy:metadata:outcomeshistory'] = 'Запись предыдущих версий показателей';
+$string['privacy:metadata:outcomes:timemodified'] = 'Время изменения записи';
+$string['privacy:metadata:outcomes:usermodified'] = 'Пользователь, последним изменявший запись';
+$string['privacy:metadata:scale'] = 'Запись шкал';
+$string['privacy:metadata:scalehistory'] = 'Запись предыдущих версий шкал';
+$string['privacy:metadata:scale:timemodified'] = 'Время последнего изменения записи';
+$string['privacy:metadata:scale:userid'] = 'Пользователь, последним изменявший запись';
+$string['privacy:path:relatedtome'] = 'Связанные со мной';
+$string['privacy:request:historyactiondelete'] = 'Удалить';
+$string['privacy:request:historyactioninsert'] = 'Вставить';
+$string['privacy:request:historyactionupdate'] = 'Обновить';
+$string['privacy:request:unknowndeletedgradeitem'] = 'Неизвестно (элемент оценивания был удален)';
 $string['profilereport'] = 'Отчет по профилю пользователя';
 $string['profilereport_help'] = 'Отчет об оценках, используемый на странице профиля';
 $string['publishing'] = 'Публикация';

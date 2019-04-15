@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_urltolink', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'filter_urltolink', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   filter_urltolink
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,5 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['embedimages'] = 'Ενσωμάτωση εικόνων';
 $string['embedimages_desc'] = 'Αντικαταστήστε τους συνδέσμους εικόνων με εικόνες στις επιλεγμένες μορφές κειμένου.';
 $string['filtername'] = 'Μετατρέψτε τις διευθύνσεις URL σε συνδέσμους και εικόνες';
+$string['privacy:metadata'] = 'Το πρόσθετο «Μετατροπή διευθύνσεων URL σε συνδέσμους και εικόνες» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['settingformats'] = 'Εφαρμογή σε μορφές';
 $string['settingformats_desc'] = 'Το φίλτρο θα εφαρμοστεί μόνο αν το αρχικό κείμενο είχε εισαχθεί σε μία από τις επιλεγμένες μορφές.';

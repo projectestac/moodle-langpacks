@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,6 +59,10 @@ $string['myblocks'] = 'Τα μπλοκ μου';
 $string['onthispage'] = 'Σε αυτή τη σελίδα';
 $string['pagetypes'] = 'Τύποι σελίδας';
 $string['pagetypewarning'] = 'Ο τύπος σελίδας που είχε καθοριστεί προηγουμένως δεν είναι πλέον επιλέξιμος. Επιλέξτε τον πιο κατάλληλο τύπο σελίδας παρακάτω.';
+$string['privacy:metadata:userpref:dockedinstance'] = 'Καταγράφει το πότε ο χρήστης ελαχιστοποίησε πλευρικά ένα μπλοκ';
+$string['privacy:metadata:userpref:hiddenblock'] = 'Καταγράφει πότε ο χρήστης κατέρρευσε/έκρυψε ένα μπλοκ';
+$string['privacy:request:blockisdocked'] = 'Υποδεικνύει εάν το μπλοκ έχει ελαχιστοποιηθεί πλευρικά';
+$string['privacy:request:blockishidden'] = 'Υποδεικνύει εάν το μπλοκ ήταν κρυμμένο/κατέρρευσε';
 $string['region'] = 'Περιοχή';
 $string['restrictpagetypes'] = 'Τύποι εμφάνισης σελίδων';
 $string['showblock'] = 'Εμφάνιση μπλοκ {$a}';

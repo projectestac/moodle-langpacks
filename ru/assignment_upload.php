@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignment_upload', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignment_upload', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   assignment_upload
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['event_assessable_submitted'] = 'Представлен ответ в виде файла.';
 $string['event_assessable_uploaded'] = 'Файл был загружен.';
 $string['pluginname'] = 'Загрузить';
+$string['privacy:metadata'] = 'Плагин задания «Загрузить» не хранит никаких персональных данных.';

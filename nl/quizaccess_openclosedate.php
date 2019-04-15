@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_openclosedate', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quizaccess_openclosedate', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   quizaccess_openclosedate
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,4 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['notavailable'] = 'Sorry, deze test is niet beschikbaar';
 $string['pluginname'] = 'Toegangsregel: open en sluit datum';
+$string['privacy:metadata'] = 'De open en sluitdatum testtoegangsregel-plugin bewaart geen persoonlijke gegevens.';
 $string['quiznotavailable'] = 'De test zal nog niet beschikbaar zijn tot :  {$a}';

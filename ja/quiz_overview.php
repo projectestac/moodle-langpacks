@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_overview', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,6 +56,9 @@ $string['pluginname'] = '評定';
 $string['preferencespage'] = 'このページのプリファレンス';
 $string['preferencessave'] = 'レポートを表示する';
 $string['preferencesuser'] = 'このレポートに関するあなたのプリファレンス';
+$string['privacy:metadata:preference:quiz_overview_slotmarks'] = 'それぞれの問題スロットに評点を表示するか示します。';
+$string['privacy:preference:slotmarks:no'] = '問題スロットの横に評点は表示されません。';
+$string['privacy:preference:slotmarks:yes'] = '問題スロットの横に評点が表示されます。';
 $string['regrade'] = '再評定';
 $string['regradeall'] = 'すべてを再評定する';
 $string['regradealldry'] = '完全な再評定を予行練習する';

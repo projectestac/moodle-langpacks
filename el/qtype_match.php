@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_match', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_match', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_match
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,5 +42,6 @@ $string['pluginnameadding'] = 'Προσθήκη μιας ερώτησης τύπ
 $string['pluginnameediting'] = 'Τροποποίηση μιας ερώτησης τύπου Αντιστοίχησης';
 $string['pluginname_help'] = 'Οι ερωτήσεις αντιστοίχισης  απαιτούν από τον αποκρινόμενο να αντιστοιχίσει σωστά μια λίστα ονομάτων ή δηλώσεων (ερωτήσεων) με μια άλλη λίστα ονομάτων ή δηλώσεων (απαντήσεων).';
 $string['pluginnamesummary'] = 'Η απάντηση σε κάθε μια ερώτηση από ένα σύνολο υπο-ερωτημάτων πρέπει να επιλεχθεί από μια λίστα πιθανών απαντήσεων.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Ερωτήσεις τύπου αντιστοίχισης» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['shuffle'] = 'Ανακάτεμα';
 $string['shuffle_help'] = 'Εάν ενεργοποιηθεί, η σειρά των δηλώσεων (απαντήσεων) ανακατεύεται τυχαία για κάθε προσπάθεια, με την προϋπόθεση ότι το «Ανακάτεμα εντός των ερωτήσεων» στις ρυθμίσεις δραστηριοτήτων είναι επίσης ενεργοποιημένο.';

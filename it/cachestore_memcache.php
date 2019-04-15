@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_memcache', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cachestore_memcache', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   cachestore_memcache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,7 @@ $string['prefix_help'] = 'Il prefisso da usare per tutti nomi delle chiavi nel s
 * se il server ospita una singola istanza Moodle, è possibile lasciare il nome al suo default
 * a causa di limitazioni sulla lunghezza delle chiavi, il prefisso può essere lungo al massimo 5 caratteri.';
 $string['prefixinvalid'] = 'Prefisso non valido. E\' possibile usare solamente a-z A-Z 0-9-_.';
+$string['privacy:metadata:memcache:data'] = 'Dati memorizzati in cache';
 $string['servers'] = 'Server';
 $string['serversclusterinvalid'] = 'Con il clustering abilitato nell\'elenco deve essere presente un solo server.';
 $string['servers_help'] = 'Imposta i server utilizzati dall\'adapter memcached.
@@ -51,7 +52,7 @@ nomeserver:porta:peso
 </pre>
 
 Se viene utilizzata l\'impostazione *Abilita server in cluster*, allora nell\'elenco dovrà essere presente un solo server, in genere il nome o l\'IP della macchina locale come ad esempio 127.0.0.1 oppure localhost.';
-$string['sessionhandlerconflict'] = 'Attenzione: l\'istanza memcache ({$a}) è stata configurata per usare lo stesso server memcached usato per le sessioni. Lo svuotamento delle cache provocherà anche l\'eliminazione delle sessioni.';
+$string['sessionhandlerconflict'] = 'Attenzione: l\'istanza memcache ({$a}) è stata configurata per usare lo stesso server memcache usato anche per le sessioni. Lo svuotamento delle cache provocherà anche l\'eliminazione delle sessioni.';
 $string['setservers'] = 'Set Server';
 $string['setservers_help'] = 'L\'elenco dei server da aggiornare quando i dati della cache vengono modificati. In genere il nome qualificato di ciascun server appartenentre al pool di load balancing.
 E\' **obbligatorio** inserire anche il server indicato sopra nella impostazione **Server**, anche usando un nome host diverso.

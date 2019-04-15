@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_questioninstances', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_questioninstances', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   report_questioninstances
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,6 +31,7 @@ $string['getreport'] = 'Получить отчет';
 $string['hiddenquestions'] = 'Скрытые';
 $string['intro'] = 'В этом отчете перечисляются все контексты системы, в которых есть вопросы определенного типа.';
 $string['pluginname'] = 'Экземпляры вопросов';
+$string['privacy:metadata'] = 'Плагин «Экземпляры вопросов» не хранит никаких персональных данных';
 $string['questioninstances:view'] = 'Просматривать отчет «Экземпляры вопросов»';
 $string['reportforallqtypes'] = 'Отчет о вопросах всех типов';
 $string['reportformissingqtypes'] = 'Отчет о вопросах неизвестных типов';

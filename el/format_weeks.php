@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_weeks', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'format_weeks', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   format_weeks
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addsections'] = 'Προσθήκη εβδομάδων';
+$string['automaticenddate'] = 'Υπολογισμός τη ημερομηνίας λήξης από τον αριθμό των τμημάτων';
+$string['automaticenddate_help'] = 'Αν ενεργοποιηθεί, η ημερομηνία λήξης για το μάθημα θα υπολογίζεται αυτόματα από τον αριθμό τμημάτων και την ημερομηνία έναρξης μαθήματος.';
 $string['currentsection'] = 'Αυτή η εβδομάδα';
 $string['deletesection'] = 'Διαγραφή εβδομάδας';
 $string['editsection'] = 'Επεξεργασία εβδομάδας';
@@ -34,6 +37,7 @@ $string['newsectionname'] = 'Νέο όνομα για την εβδομάδα {$
 $string['page-course-view-weeks'] = 'Κάθε κύρια σελίδα μαθημάτων σε μορφή εβδομάδων';
 $string['page-course-view-weeks-x'] = 'Κάθε σελίδα μαθημάτων σε μορφή εβδομάδων';
 $string['pluginname'] = 'Εβδομαδιαίος μορφότυπος μαθήματος';
+$string['privacy:metadata'] = 'Το πρόσθετο «Εβδομαδιαίος μορφότυπος μαθήματος» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['section0name'] = 'Γενικά';
 $string['sectionname'] = 'Εβδομάδα';
 $string['showfromothers'] = 'Εμφάνιση εβδομάδας';

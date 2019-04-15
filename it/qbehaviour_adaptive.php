@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_adaptive', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_adaptive', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_adaptive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,3 +46,4 @@ L\'invio ha ricevuto una penalità di {$a->penalty}.
 Penalità accumulate: {$a->totalpenalty}.';
 $string['notcomplete'] = 'Risposta mancante';
 $string['pluginname'] = 'Modo adattativo';
+$string['privacy:metadata'] = 'Il plugin Comportamenti domanda \'Modo adattivo\' non memorizza dati personali.';

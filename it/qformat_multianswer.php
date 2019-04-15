@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_multianswer', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qformat_multianswer', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   qformat_multianswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Risposte inglobate (Cloze)';
 $string['pluginname_help'] = 'Il formato Risposte inglobate (Cloze) consente l\'importazione di testi contenenti domande a risposta multiple e a risposta breve.';
+$string['privacy:metadata'] = 'Il plugin \'Risposte inglobate (Cloze)\' non memorizza dati personali.';

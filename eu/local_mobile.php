@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_mobile', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'local_mobile', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   local_mobile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,3 +36,4 @@ $string['local_mobiledescription'] = 'Mobile zerbitzuaren ezaugarriak hedatzen d
 $string['local_mobilesettings'] = 'Ezarpenak';
 $string['pluginname'] = 'Moodle Mobile ezaugarri gehigarriak';
 $string['pluginnotenabledorconfigured'] = 'Moodle Mobile plugin lokala gaituta eta konfiguratuta egon behar da app-a irekitzeko';
+$string['privacy:metadata'] = 'Moodle Mobile ezaugarri gehigarriak pluginak ez du datu pertsonalik biltzen';

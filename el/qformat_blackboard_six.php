@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_blackboard_six', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qformat_blackboard_six', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qformat_blackboard_six
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,4 +34,5 @@ $string['importnotext'] = 'Λείπει κείμενο ερώτησης στο �
 $string['notenoughtsubans'] = 'Δεν είναι δυνατή η εισαγωγή της ερώτησης αντιστοίχισης «{$a}», επειδή μια ερώτηση αντιστοίχισης πρέπει να περιλαμβάνει τουλάχιστον δύο ερωτήσεις και τρεις απαντήσεις.';
 $string['pluginname'] = 'Μορφότυπος ερωτήσεων Blackboard';
 $string['pluginname_help'] = 'Ο μορφότυπος Blackboard επιτρέπει την εισαγωγή ερωτήσεων που έχουν αποθηκευτεί σε όλες τις μορφές εξαγωγής Blackboard μέσω ενός αρχείου dat ή zip. Για τα αρχεία zip, η εισαγωγή εικόνων υποστηρίζεται.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Ερωτήσεις μορφότυπου Blackbard» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['unhandledpresblock'] = 'Μη διαχειρίσιμο μπλοκ παρουσίασης';

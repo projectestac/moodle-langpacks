@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_private_files', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_private_files', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   block_private_files
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Личные файлы';
+$string['privacy:metadata'] = 'Блок «Личные файлы» только обеспечивает просмотр и дает ссылки на личные файлы пользователя.';
 $string['privatefiles'] = 'Личные файлы';
 $string['private_files:addinstance'] = 'Добавлять новый блок «Личные файлы»';
 $string['private_files:myaddinstance'] = 'Добавлять новый блок «Личные файлы» на страницу «Личный кабинет»';

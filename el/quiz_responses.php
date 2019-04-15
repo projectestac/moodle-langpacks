@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_responses', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_responses', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_responses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,13 @@ $string['include'] = 'Συμπερίληψη...';
 $string['mustselectcols'] = 'Πρέπει να συμπεριλάβετε κάτι.';
 $string['pagesize'] = 'Μέγεθος σελίδας';
 $string['pluginname'] = 'Απαντήσεις';
+$string['privacy:preference:qtext'] = 'Αν θα εμφανιστούν οι στήλες κειμένου ερωτήσεων.';
+$string['privacy:preference:resp'] = 'Αν θα εμφανιστούν οι στήλες απόκρισης των μαθητών.';
+$string['privacy:preference:right'] = 'Αν θα εμφανιστούν οι στήλες σωστής απόκρισης.';
+$string['privacy:preference:which_tries'] = 'Εμφάνιση αποκρίσεων από ποιές προσπάθειες;';
+$string['privacy:preference:which_tries:all'] = 'Όλες οι προσπάθειες για μια ερώτηση κατά τη διάρκεια μιας προσπάθειας από έναν χρήστη.';
+$string['privacy:preference:which_tries:first'] = 'Η πρώτη προσπάθεια για μια ερώτηση κατά τη διάρκεια μιας προσπάθειας από ένα χρήστη.';
+$string['privacy:preference:which_tries:last'] = 'Η τελευταία προσπάθεια για μια ερώτηση κατά τη διάρκεια μιας προσπάθειας από ένα χρήστη.';
 $string['questiontext'] = 'κείμενο ερώτησης';
 $string['reportresponses'] = 'Αποκρίσεις';
 $string['response'] = 'απόκριση';

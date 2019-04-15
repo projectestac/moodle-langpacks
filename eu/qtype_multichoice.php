@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_multichoice', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,10 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['answerhowmany'] = 'Erantzun bakarra ala anitza?';
+$string['answerhowmany_desc'] = 'Lehenetsitakoa erantzun bakarra (aukera bakarreko botoiak) edo erantzun anitzekoa (aukera anitzeko laukitxoak) izan behar den.';
 $string['answernumbering'] = 'Zenbakitu aukerak?';
 $string['answernumbering123'] = '1., 2., 3., ...';
 $string['answernumberingabc'] = 'a., b., c., ...';
 $string['answernumberingABCD'] = 'A., B., C., ...';
+$string['answernumbering_desc'] = 'Lehenetsitako numerazio-estiloa';
 $string['answernumberingiii'] = 'i., ii., iii., ...';
 $string['answernumberingIIII'] = 'I., II., III., ...';
 $string['answernumberingnone'] = 'Numeraziorik ez';
@@ -63,9 +65,11 @@ $string['pluginnameadding'] = 'Aukera anitzeko galdera gehitzen';
 $string['pluginnameediting'] = 'Aukera anitzeko galdera editatzen';
 $string['pluginname_help'] = 'Galdera honi erantzuteko (irudi bat izan dezakeena) ikasleak erantzun posible batzuen artean aukeratu behar du. Aukera anitzeko bi galdera-mota daude: erantzun zuzen bakarrekoa edo zuzen bat baino gehiago duena.';
 $string['pluginnamesummary'] = 'Aurrez definitutako zerrendatik erantzun bat edo gehiago aukeratzea ahalbidetzen du.';
+$string['privacy:metadata'] = 'Aukera anitzak galdera-mota pluginak ez du datu pertsonalik biltzen.';
 $string['selectmulti'] = 'Aukeratu bat edo gehiago:';
 $string['selectone'] = 'Aukeratu bat:';
 $string['shuffleanswers'] = 'Nahastu aukerak?';
+$string['shuffleanswers_desc'] = 'Saiakera bakoitzean aukerak modu lehenetsian ausaz nahastu behar diren edo ez.';
 $string['shuffleanswers_help'] = 'Gaituz gero, saiakera bakoitzean erantzunak ausaz ordenatzen dirak, betiere galdetegiaren ezarpenetako "Galderen barruan nahastu" ezarpenean "Bai" ezarrita badago.';
 $string['singleanswer'] = 'Aukeratu erantzun bat.';
 $string['toomanyselected'] = 'Aukera gehiegi hautatu dituzu.';

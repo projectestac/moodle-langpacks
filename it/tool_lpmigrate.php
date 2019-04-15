@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lpmigrate', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lpmigrate', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lpmigrate
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,7 @@ $string['migratingcourses'] = 'La migrazione dei corsi è in svolgimento';
 $string['missingmappings'] = 'Mappature mancanti';
 $string['performmigration'] = 'Esegui la migrazione';
 $string['pluginname'] = 'Strumento di migrazione delle competenze';
+$string['privacy:metadata'] = 'Il plugin "Strumento di migrazione delle competenze" non memorizza dati personali.';
 $string['results'] = 'Risultati';
 $string['startdatefrom'] = 'Data di inizio del corso';
 $string['unmappedin'] = 'Non mappati in {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio_googledocs', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'portfolio_googledocs', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   portfolio_googledocs
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,5 +32,7 @@ $string['nooauthcredentials_help'] = 'Για να χρησιμοποιήσετε
 $string['nosessiontoken'] = 'Δεν υπάρχει κουπόνι συνόδου γεγονός το οποίο απαγορεύει την εξαγωγή στο google.';
 $string['oauthinfo'] = '<p>Για να χρησιμοποιήσετε αυτό το πρόσθετο, πρέπει να καταχωρήσετε τον ιστότοπό σας στο Google, όπως περιγράφεται στην τεκμηρίωση για την<a href="{$a->docsurl} "> εγκατάσταση του Google OAuth 2.0</a>.</p><p>Ως μέρος της διαδικασίας καταχώρησης, θα πρέπει να δώσετε την ακόλουθη διεύθυνση URL ως \'Authorized Redirect URIs\' (εξουσιοδοτημένες ανακατευθύνσεις URI):</p><p>{$a->callbackurl}</p><p>Μόλις καταχωρηθείτε, σας παρέχεται ένα αναγνωριστικό πελάτη και ένα μυστικό που μπορεί να χρησιμοποιηθεί για τη διαμόρφωση όλων των πρόσθετων Google Drive και Picasa.</p>';
 $string['pluginname'] = 'Διαδικτυακή αποθήκευση Google Drive';
+$string['privacy:metadata'] = 'Αυτό το πρόσθετο αποστέλλει δεδομένα εξωτερικά σε ένα συνδεδεμένο λογαριασμό Google. Δεν αποθηκεύει δεδομένα τοπικά.';
+$string['privacy:metadata:data'] = 'Προσωπικά δεδομένα που διαβιβάστηκαν από το υποσύστημα χαρτοφυλακίου.';
 $string['secret'] = 'Μυστικό';
 $string['sendfailed'] = 'Αποτυχία μεταφοράς του αρχείου {$a} στο google';

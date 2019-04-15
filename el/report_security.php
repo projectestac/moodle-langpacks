@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_security', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,6 +86,10 @@ $string['check_passwordpolicy_details'] = '<p>Συνίσταται να ορισ
 $string['check_passwordpolicy_error'] = 'Δεν έχει οριστεί πολιτική ασφαλείας για τους κωδικούς πρόσβασης.';
 $string['check_passwordpolicy_name'] = 'Πολιτική ασφαλείας κωδικών πρόσβασης';
 $string['check_passwordpolicy_ok'] = 'Η πολιτική ασφαλείας κωδικών πρόσβασης έχει ενεργοποιηθεί.';
+$string['check_preventexecpath_details'] = '<p>Η δυνατότητα ορισμού των διαδρομών των εκτελέσιμων αρχείων μέσω της Διεπαφής Διαχειριστή είναι ένα μέσο κλιμάκωσης/διαβάθμισης των προνομίων.</p>';
+$string['check_preventexecpath_name'] = 'Διαδρομές εκτελέσιμων αρχείων';
+$string['check_preventexecpath_ok'] = 'Διαδρομές εκτελέσιμων αρχείων που ορίζονται μόνο μέσα από το config.php.';
+$string['check_preventexecpath_warning'] = 'Οι διαδρομές εκτελέσιμων αρχείων μπορούν να οριστούν στη Διεπαφή Διαχείρισης.';
 $string['check_riskadmin_detailsok'] = '<p>Παρακαλούμε επιβεβαιώστε την ακόλουθη λίστα από διαχειριστές συστήματος:</p>{$a}';
 $string['check_riskadmin_detailswarning'] = '<p>Παρακαλούμε επιβεβαιώστε την ακόλουθη λίστα από διαχειριστές συστήματος:</p>{$a->admins}
 <p>Συνίσταται να αναθέτετε το ρόλο του διαχειριστή στο πλαίσιο του συστήματος μόνο.
@@ -126,6 +130,7 @@ $string['description'] = 'Περιγραφή';
 $string['details'] = 'Λεπτομέρειες';
 $string['issue'] = 'Θέμα';
 $string['pluginname'] = 'Επισκόπηση ασφάλειας';
+$string['privacy:metadata'] = 'Το πρόσθετο «Επισκόπηση ασφάλειας» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['security:view'] = 'Εμφάνιση αναφοράς ασφάλειας';
 $string['status'] = 'Κατάσταση';
 $string['statuscritical'] = 'Κρίσιμη';

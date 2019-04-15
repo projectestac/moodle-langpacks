@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_cohortroles', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_cohortroles', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_cohortroles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,12 @@ $string['noassignableroles'] = 'Сейчас нет ролей, которые �
 $string['nocohortroleassignmentssaved'] = 'Никаких назначений ролей глобальным группам не было сохранено.';
 $string['onecohortroleassignmentsaved'] = 'Одно назначение роли глобальной группе было сохранено.';
 $string['pluginname'] = 'Управление ролями глобальных групп';
+$string['privacy:metadata:tool_cohortroles'] = 'Плагин управления ролями Глобальных групп хранит сопоставления ролей  пользователей ГГ.';
+$string['privacy:metadata:tool_cohortroles:cohortid'] = 'ID глобальной группы';
+$string['privacy:metadata:tool_cohortroles:id'] = 'ID записи сопоставления ролей глобальной группы';
+$string['privacy:metadata:tool_cohortroles:roleid'] = 'ID роли';
+$string['privacy:metadata:tool_cohortroles:userid'] = 'ID пользователя';
+$string['privacy:metadata:tool_cohortroles:usermodified'] = 'ID пользователя, который последним изменил сопоставление ролей глобальной группы';
 $string['removecohortroleassignment'] = 'Удалить назначение роли глобальной группе';
 $string['removecohortroleassignmentconfirm'] = 'Вы уверены, что хотите удалить назначение роли этой глобальной группы? Эта роль будет отозвана у этого пользователя во всех других контекстах пользователя.';
 $string['selectcohorts'] = 'Выбрать глобальные группы';

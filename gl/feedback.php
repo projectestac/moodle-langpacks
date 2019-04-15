@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'feedback', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['anonymous'] = 'Anónimo';
 $string['anonymous_edit'] = 'Rexistrar nomes de usuario';
 $string['anonymous_entries'] = 'Entradas anónimas';
 $string['anonymous_user'] = 'Usuario anónimo';
+$string['answerquestions'] = 'Responder as preguntas';
 $string['append_new_items'] = 'Anexar elementos novos';
 $string['autonumbering'] = 'Numeración automática de preguntas';
 $string['autonumbering_help'] = 'Activa ou desactiva a numeración automática para cada pregunta';
@@ -144,6 +145,10 @@ $string['horizontal'] = 'horizontal';
 $string['importfromthisfile'] = 'Importar deste ficheiro';
 $string['import_questions'] = 'Importar preguntas';
 $string['import_successfully'] = 'Importado satisfactoriamente';
+$string['indicator:cognitivedepth'] = 'Comentario cognitivo';
+$string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de comentarios.';
+$string['indicator:socialbreadth'] = 'Comentario social';
+$string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de comentarios.';
 $string['info'] = 'Información';
 $string['infotype'] = 'Tipo de información';
 $string['insufficient_responses'] = 'respostas insuficientes';
@@ -218,6 +223,7 @@ $string['of'] = 'de';
 $string['oldvaluespreserved'] = 'Preservaranse todas as preguntas antigas e os valores asignados';
 $string['oldvalueswillbedeleted'] = 'Eliminaranse as preguntas actuais e todas as respostas dos teus usuarios';
 $string['only_one_captcha_allowed'] = 'Soamente se permite un captcha nun comentario';
+$string['openafterclose'] = 'Especificou unha data aberta após a data de remate';
 $string['overview'] = 'Vista xeral';
 $string['page'] = 'Páxina';
 $string['page_after_submit'] = 'Mensaxe de completado';
@@ -233,6 +239,14 @@ $string['position'] = 'Posición';
 $string['preview'] = 'Visualización';
 $string['preview_help'] = 'Na visualización pode cambiar a orde das preguntas.';
 $string['previous_page'] = 'Páxina anterior';
+$string['privacy:metadata:completed'] = 'Un rexistro das entregas aos comentarios';
+$string['privacy:metadata:completed:anonymousresponse'] = 'Indica se a entrega se fai de xeito anónimo.';
+$string['privacy:metadata:completed:timemodified'] = 'O momento no que se modificou a entrega por última vez';
+$string['privacy:metadata:completedtmp'] = 'Un rexistro das entregas que aínda están en curso.';
+$string['privacy:metadata:completed:userid'] = 'O ID do usuario que completou a actividade de comentarios.';
+$string['privacy:metadata:value'] = 'Un rexistro da resposta a unha pregunta.';
+$string['privacy:metadata:valuetmp'] = 'Un rexistro da resposta a unha pregunta nunha entrega en curso.';
+$string['privacy:metadata:value:value'] = 'A resposta escollida.';
 $string['public'] = 'Público';
 $string['question'] = 'Pregunta';
 $string['questionandsubmission'] = 'Configuración da pregunta e da entrega';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_safebrowser', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quizaccess_safebrowser', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   quizaccess_safebrowser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Toegangsregel: Safe Exam Browser';
+$string['privacy:metadata'] = 'De Safe Exam Browser testtoegangsregel-plugin bewaart geen persoonlijke gegevens.';
 $string['requiresafeexambrowser'] = 'Gebruik van de Safe Exam Browser vereist';
 $string['safebrowsererror'] = 'Deze test is zo ingesteld dat je hem alleen mag doen met de Safe Exam Browser. Met de browser die je nu gebruikt, gaat het niet.';
 $string['safebrowsernotice'] = 'Deze test is geconfigureerd zodat leerlingen die enkel kunnen afleggen met de Safe Exam Browser.';

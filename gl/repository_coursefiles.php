@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_coursefiles', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_coursefiles', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_coursefiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,4 +31,5 @@ $string['emptyfilelist'] = 'Non hai ficheiros que amosar.';
 $string['notitle'] = 'sen-título';
 $string['pluginname'] = 'Ficheiros legados do curso';
 $string['pluginname_help'] = 'Ficheiros legados do curso';
+$string['privacy:metadata'] = 'O engadido de repositorio de ficheiros legados do curso non almacena ou transmite datos persoais.';
 $string['remember'] = 'Lémbreme';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_flatfile', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_flatfile', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_flatfile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,3 +66,4 @@ $string['pluginname_desc'] = 'Этот способ записи на курс �
    del, student, 17, CF101
    add, student, 21, CF101, 1091115000, 1091215000
 </pre>';
+$string['privacy:metadata:enrol_flatfile:userid'] = 'ID пользователя, к которому относится назначение роли';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'blog', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -135,6 +135,7 @@ $string['pagesize'] = 'Entrades de blog per pàgina';
 $string['permalink'] = 'Enllaç permanent';
 $string['personalblogs'] = 'Els usuaris només poden veure el seu propi blog';
 $string['preferences'] = 'Preferències del blog';
+$string['privacy:metadata:core_comments'] = 'Comentaris associats amb entrades del blog';
 $string['publishto'] = 'Publica per a';
 $string['publishtocourse'] = 'Usuaris que comparteixen un curs amb vós';
 $string['publishtocourseassoc'] = 'Membres del curs associat';

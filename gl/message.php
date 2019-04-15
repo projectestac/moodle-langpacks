@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'message', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,12 @@ $string['outputnotconfigured'] = 'Sen configurar';
 $string['page-message-x'] = 'Calquera páxina de mensaxes';
 $string['pagerefreshes'] = 'Esta páxina actualizase automaticamente cada {$a} segundos';
 $string['permitted'] = 'Permitido';
+$string['privacy:metadata:message_contacts'] = 'A lista de contactos';
+$string['privacy:metadata:message_contacts:blocked'] = 'Sinalizar se o usuario está ou non bloqueado';
+$string['privacy:metadata:message_contacts:contactid'] = 'O ID do usuario que é un contacto';
+$string['privacy:metadata:message_contacts:userid'] = 'O ID do usuario cuxa lista de contactos estamos a ver';
+$string['privacy:metadata:preference:core_message_settings'] = 'Axustes relacionados coa mensaxería';
+$string['privacy:request:preference:set'] = 'O valor do axuste «{$a->name}» era «{$a->value}»';
 $string['processorsettings'] = 'Axustes do procesador';
 $string['recent'] = 'Recente';
 $string['removecontact'] = 'Retirar o contacto';
@@ -123,6 +129,10 @@ $string['seeall'] = 'Velo todo';
 $string['selectmessagestodelete'] = 'Seleccionar mensaxes para eliminar';
 $string['selectnotificationtoview'] = 'Selecciona da lista de notificacións da beira para ver máis detalles';
 $string['send'] = 'Enviar';
+$string['sendbulkmessage'] = 'Enviar unha mensaxe a {$a} persoas';
+$string['sendbulkmessagesent'] = 'Mensaxe enviada a {$a} persoas';
+$string['sendbulkmessagesentsingle'] = 'Mensaxe enviada a 1 persoa';
+$string['sendbulkmessagesingle'] = 'Enviar unha mensaxe a 1 persoa';
 $string['sendingvia'] = 'Enviando «{$a->provider}» mediante «{$a->processor}»';
 $string['sendingviawhen'] = 'Enviando «{$a->provider}» mediante «{$a->processor}» cando {$a->state}';
 $string['sendmessage'] = 'Enviar mensaxe';
@@ -141,6 +151,7 @@ $string['togglemessagemenu'] = 'Amosar/agachar o menú de mensaxes';
 $string['togglenotificationmenu'] = 'Amosar/agachar o menú de notificacións';
 $string['touserdoesntexist'] = 'Non pode enviar unha mensaxe a un ID de usuario ({$a}) que non existe';
 $string['unblockcontact'] = 'Desbloquear o contacto';
+$string['unknownuser'] = 'Usuario descoñecido';
 $string['unreadnewmessage'] = 'Mensaxe nova de ({$a})';
 $string['unreadnotification'] = 'Notificación sen ler: {$a}';
 $string['userisblockingyou'] = 'Este usuario bloqueouno e non pode enviarlle mensaxes';

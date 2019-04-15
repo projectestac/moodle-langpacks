@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_atto', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'editor_atto', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   editor_atto
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,10 @@ $string['errortextrecovery'] = 'Purtroppo non è stato possibile recuperare la b
 $string['infostatus'] = 'Informazioni';
 $string['pluginname'] = 'Editor HTML Atto';
 $string['plugin_title_shortcut'] = '{$a->title} [{$a->shortcut}]';
+$string['privacy:metadata:database:atto_autosave'] = 'Bozze salvate automaticamente dall\'editor di testo.';
+$string['privacy:metadata:database:atto_autosave:drafttext'] = 'Testo salvato.';
+$string['privacy:metadata:database:atto_autosave:timemodified'] = 'Orario di modifica del contenuto.';
+$string['privacy:metadata:database:atto_autosave:userid'] = 'ID dell\'utente di cui sono stati salvati i dati.';
 $string['recover'] = 'Ripristino';
 $string['settings'] = 'Impostazioni barra degli strumenti Atto';
 $string['subplugintype_atto'] = 'Plugin Atto';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_file', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cachestore_file', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   cachestore_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,7 @@ $string['path_help'] = 'La cartella da usare per memorizzare i file di questo ca
 $string['pluginname'] = 'File cache';
 $string['prescan'] = 'Prescansione della cartella';
 $string['prescan_help'] = 'Consente di eseguire una scansione della cartella al primo utilizzo della cache in modo da usare i risultati della scansione per soddisfare le richieste di file già presenti in cache. Può essere di aiuto in presenza di file system lenti e che possano rappresentare un collo di bottiglia.';
+$string['privacy:metadata'] = 'Il plugin cachestore "File cache" memorizza dati per breve tempo in quanto può fungere da cache. Tali dati vengono eliminati regolarmente.';
 $string['singledirectory'] = 'Cartella unica per lo store';
 $string['singledirectory_help'] = 'I file presenti nella cache saranno immagazzinati in una cartella unica, senza suddividerli in diverse sotto cartelle.<br />
 L\'aumento di velocità ottenibile è però limitato dal rischio di raggiungere i limiti del file system.<br />

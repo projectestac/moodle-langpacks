@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assign', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -109,6 +109,8 @@ $string['batchsetmarkingworkflowstateforusers'] = 'Estableix el flux de l\'avalu
 $string['blindmarking'] = 'Qualificació a cegues';
 $string['blindmarkingenabledwarning'] = 'Aquesta activitat té activada la qualificació a cegues.';
 $string['blindmarking_help'] = 'La qualificació a cegues oculta la identitat dels estudiants als qualificadors. Els paràmetres de la qualificació a cegues es blocaran tan bon punt s\'hagi fet una tramesa o qualificació en relació amb aquesta tasca.';
+$string['calendardue'] = '{$a} pendent de lliurament';
+$string['calendargradingdue'] = '{$a} s\'ha de qualificar';
 $string['changefilters'] = 'Canvia els filtres';
 $string['changegradewarning'] = 'Aquesta tasca té trameses qualificades i si canvieu la puntuació NO es recalcularan automàticament les qualificacions existents. Si voleu canviar la puntuació, haureu de requalificar totes les trameses existents.';
 $string['changeuser'] = 'Canvia l\'usuari';
@@ -123,6 +125,7 @@ $string['completionsubmit'] = 'Cal que els estudiants trametin quelcom per compl
 $string['configshowrecentsubmissions'] = 'Tothom pot veure les notificacions de trameses en els informes d\'activitat recent.';
 $string['confirmbatchgradingoperation'] = 'Esteu segurs que voleu {$a->operation} per als {$a->count} estudiants?';
 $string['confirmsubmission'] = 'Segur que voleu trametre el vostre treball per a qualificar? Ja no podreu realitzar més canvis.';
+$string['confirmsubmissionheading'] = 'Confirma la tramesa';
 $string['conversionexception'] = 'No s\'ha pogut convertir la tasca. L\'excepció fou: {$a}.';
 $string['couldnotconvertgrade'] = 'No s\'ha pogut convertir la qualificació de la tasca de l\'usuari {$a}.';
 $string['couldnotconvertsubmission'] = 'No s\'ha pogut convertir la tramesa de la tasca de l\'usuari {$a}.';
@@ -153,11 +156,12 @@ $string['duedatecolon'] = 'Data de venciment: {$a}';
 $string['duedate_help'] = 'És quan la tasca venç. Es permet retard en la tramesa, però qualsevol tramesa enviada després d\'aquesta data es marcarà com a lliurada amb retard. Per tal d\'evitar que es pugui trametre passada certa data, establiu una data límit a la tasca.';
 $string['duedateno'] = 'Sense data de venciment';
 $string['duedatereached'] = 'La data de venciment per a aquesta tasca ja ha passat';
-$string['duedatevalidation'] = 'La data de venciment ha de ser posterior a la data de trameses permeses des de.';
+$string['duedatevalidation'] = 'La data de venciment ha de ser posterior a la data inicial de les trameses.';
 $string['editaction'] = 'Accions...';
 $string['editattemptfeedback'] = 'Edita la qualificació i la retroalimentació per l\'intent número {$a}.';
 $string['editingpreviousfeedbackwarning'] = 'Esteu editant la retroacció d\'un intent anterior. Aquest és l\'intent {$a->attemptnumber} de {$a->totalattempts}.';
 $string['editingstatus'] = 'S\'està editant l\'estat';
+$string['editonline'] = 'Edita en línia';
 $string['editsubmission'] = 'Edita la tramesa';
 $string['editsubmission_help'] = 'Feu canvis a la vostra tramesa';
 $string['editsubmissionother'] = 'Edita la tramesa per a: {$a}';
@@ -208,6 +212,7 @@ $string['feedbacksettings'] = 'Paràmetres de retroacció';
 $string['feedbacktypes'] = 'Tipus de retroacció';
 $string['filesubmissions'] = 'Fitxers de la tramesa';
 $string['filter'] = 'Filtre';
+$string['filtergrantedextension'] = 'Amb pròrroga concedida';
 $string['filternone'] = 'Sense filtre';
 $string['filternotsubmitted'] = 'No s\'ha tramès';
 $string['filterrequiregrading'] = 'Requereix qualificació';
@@ -238,6 +243,10 @@ $string['gradestudent'] = 'Qualifica l\'estudiant: (id={$a->id}, fullname={$a->f
 $string['gradeuser'] = 'Qualifica {$a}';
 $string['grading'] = 'Qualificació';
 $string['gradingchangessaved'] = 'Els canvis a les notes han estat desats';
+$string['gradingduedate'] = 'Recorda\'m de qualificar-ho';
+$string['gradingduedate_help'] = 'És la data esperada en què s\'hauria d\'haver completat la qualificació de les trameses. Aquesta data s\'utilitza per prioritzar les notificacions del Tauler per als professors.';
+$string['gradingdueduedatevalidation'] = 'La data de «Recorda\'m de qualificar-ho» no pot ser anterior a la data de venciment.';
+$string['gradingduefromdatevalidation'] = 'La data de Recorda\'m de qualificar-ho no pot ser anterior a la data a partir de la qual es permet trametre.';
 $string['gradingmethodpreview'] = 'Criteris de qualificació';
 $string['gradingoptions'] = 'Opcions';
 $string['gradingstatus'] = 'Estat de la qualificació';
@@ -303,6 +312,7 @@ En la revisió de les tasques, els professors poden deixar comentaris i pujar fi
 $string['modulenameplural'] = 'Tasques';
 $string['moreusers'] = '{$a} més...';
 $string['multipleteams'] = 'Membre de més d\'un grup';
+$string['multipleteams_desc'] = 'La tasca requereix la tramesa en grups. Sou membre de més d\'un grup. Per poder trametre heu de ser membre de només un grup. Poseu-vos en contacte amb el professor per canviar la vostra adhesió a un grup.';
 $string['multipleteamsgrader'] = 'Sou membre de més d\'un grup, per això no teniu els permisos per fer trameses.';
 $string['mysubmission'] = 'La meva tramesa:';
 $string['newsubmissions'] = 'Tasques trameses';
@@ -320,6 +330,7 @@ $string['nosavebutnext'] = 'Següent';
 $string['nosubmission'] = 'No s\'ha tramès res per a aquesta tasca';
 $string['nosubmissionsacceptedafter'] = 'No s\'accepten trameses després de';
 $string['noteam'] = 'No és membre de cap grup';
+$string['noteam_desc'] = 'La tasca requereix la tramesa en grups. No sou membre de cap grup; per tant, no podeu fer una tramesa. Poseu-vos en contacte amb el professor per afegir-vos a un grup.';
 $string['noteamgrader'] = 'No sou membre de cap grup, per això no teniu els permisos per fer trameses.';
 $string['notgraded'] = 'Sense qualificació';
 $string['notgradedyet'] = 'No s\'ha qualificat encara';
@@ -352,6 +363,7 @@ $string['preventsubmissionnotingroup_help'] = 'Si s\'activa, els usuaris que no 
 $string['preventsubmissions'] = 'Impedeix que l\'usuari faci més trameses per a aquesta tasca.';
 $string['preventsubmissionsshort'] = 'Impedeix canvis en la tramesa';
 $string['previous'] = 'Anterior';
+$string['privacy:gradepath'] = 'qualificació';
 $string['quickgrading'] = 'Qualificació ràpida';
 $string['quickgradingchangessaved'] = 'S\'han desat els canvis en la qualificació';
 $string['quickgrading_help'] = 'La qualificació ràpida us permet assignar qualificacions (i competències) directament en la taula de trameses. La qualificació ràpida no és compatible amb la qualificació avançada i no es recomana quan qualifiquen diverses persones.';

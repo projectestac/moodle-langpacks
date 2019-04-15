@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_shortanswer', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_shortanswer', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_shortanswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,3 +42,4 @@ $string['pluginnameadding'] = '記述問題の追加';
 $string['pluginnameediting'] = '記述問題の編集';
 $string['pluginname_help'] = '問題 (イメージを含む) に対して解答者が言葉またはフレーズを入力します。異なる評点を持つ数個の正解を設定することができます。「大文字小文字の区別」オプションで「はい、文字の大小は合致する必要があります」が選択された場合、あなたは「Word」と「word」に異なる評点をつけることができます。';
 $string['pluginnamesummary'] = '様々な答えのモデルと比較して評定される1つまたは少数の言葉を入力することができます。答えにはワイルドカードを含むことができます。';
+$string['privacy:metadata'] = '記述問題タイププラグインはどのような個人データも保存しません。';

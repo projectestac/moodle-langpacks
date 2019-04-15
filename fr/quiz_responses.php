@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_responses', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_responses', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_responses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,13 @@ $string['include'] = 'Inclure le/la';
 $string['mustselectcols'] = 'Vous devez inclure quelque chose';
 $string['pagesize'] = 'Taille de page';
 $string['pluginname'] = 'Réponses';
+$string['privacy:preference:qtext'] = 'S\'il faut afficher les colonnes du texte des questions.';
+$string['privacy:preference:resp'] = 'S\'il faut afficher les colonnes des réponses des étudiants.';
+$string['privacy:preference:right'] = 'S\'il faut afficher les colonnes des réponses correctes.';
+$string['privacy:preference:which_tries'] = 'De quelles tentatives montrer les réponses.';
+$string['privacy:preference:which_tries:all'] = 'Toutes les réponses à une question durant une tentative par un utilisateur.';
+$string['privacy:preference:which_tries:first'] = 'La première réponse à une question durant une tentative par un utilisateur.';
+$string['privacy:preference:which_tries:last'] = 'La dernière réponse à une question durant une tentative par un utilisateur.';
 $string['questiontext'] = 'texte de la question';
 $string['reportresponses'] = 'Réponses des participants';
 $string['response'] = 'réponse';

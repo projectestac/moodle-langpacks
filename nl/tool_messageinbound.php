@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_messageinbound', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'klassenaam';
 $string['component'] = 'Component';
-$string['configmessageinboundhost'] = 'Het serveradres waar Moodle e-mail moet controleren. Om een niet-standaard poort op te geven, kun je [server]:[poort] gebruikern, bijvoorbeeld mail.voorbeeld.com:587. Als je dit veld leeg laat, zal Moodle de standaard poort gebruiken voor het type mailserver dat je opgegeven hebt.';
+$string['configmessageinboundhost'] = 'Het serveradres waar Moodle e-mail moet controleren. Om een niet-standaard poort op te geven, kun je [server]:[poort] gebruikern, bijvoorbeeld mail.voorbeeld.com:587. Als je geen poort opgeeft, zal Moodle de standaard poort gebruiken voor het type mailserver dat gebruikt zal worden.';
 $string['defaultexpiration'] = 'Vervalperiode standaard adres';
 $string['defaultexpiration_help'] = 'Wanneer een e-mailadres is gegenereerd, dan kan het automatisch vervallen na een tijdje, zodat het niet meer gebruikt kan worden. Het is een goed idee om een vervalperiode in te stellen.';
 $string['description'] = 'Beschrijving';
@@ -98,6 +98,12 @@ $string['onehour'] = 'Eén uur';
 $string['oneweek'] = 'Eén week';
 $string['oneyear'] = 'Eén jaar';
 $string['pluginname'] = 'Configuratie inkomende berichten';
+$string['privacy:metadata:coreuserkey'] = 'Gebruikerssleutels om de ontvangen e-mail te valideren';
+$string['privacy:metadata:messagelist'] = 'Een lijst met berichtenidentificaties waarvan de validatie mislukt is en die verdere authorisatie vereisen';
+$string['privacy:metadata:messagelist:address'] = 'Het adres naar waar de e-mail verzonden is';
+$string['privacy:metadata:messagelist:messageid'] = 'De bericht-ID';
+$string['privacy:metadata:messagelist:timecreated'] = 'Het tijdstip waarop de record gemaakt is';
+$string['privacy:metadata:messagelist:userid'] = 'De ID van de gebruiker die het bericht moet goedkeuren';
 $string['replysubjectprefix'] = 'Antw:';
 $string['requirevalidation'] = 'Valideer afzenderadres';
 $string['ssl'] = 'SSL (Auto-detect SSL versie)';

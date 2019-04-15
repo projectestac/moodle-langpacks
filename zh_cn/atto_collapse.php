@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_collapse', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_collapse', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_collapse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = '显示/隐藏高级按钮';
+$string['privacy:metadata'] = 'atto_collapse 插件不储存任何私人数据。';
 $string['settings'] = '设置折叠工具栏';
 $string['showfewer'] = '显示更少按钮';
 $string['showgroups'] = '折叠时显示前 (n) 个分组。';

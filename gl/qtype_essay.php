@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_essay', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_essay', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_essay
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,6 +46,7 @@ $string['pluginnameediting'] = 'Engadir unha pregunta de ensaio';
 $string['pluginname_help'] = 'En resposta a unha pregunta (que pode incluír unha imaxe) o que responde escribe unha resposta dun parágrafo ou dous. A pregunta de ensaio non terá unha cualificación asignada ata que sexa revisada por un profesor e manualmente cualificada.';
 $string['pluginname_link'] = 'question/type/essay';
 $string['pluginnamesummary'] = 'Permitir unha resposta dunhas poucas frases ou parágrafos. Daquela debe ser cualificada manualmente.';
+$string['privacy:metadata'] = 'O engadido de pregunta de ensaio non almacena ningún dato persoal.';
 $string['responsefieldlines'] = 'Tamaño da caixa de entrada';
 $string['responseformat'] = 'Formato da resposta';
 $string['responseisrequired'] = 'Requirir que os alumnos escriban texto';

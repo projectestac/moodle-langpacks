@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_file', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cachestore_file', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   cachestore_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,7 @@ $string['path_help'] = 'Ο φάκελος που θα χρησιμοποιείτ
 $string['pluginname'] = 'Κρυφή μνήμη αρχείων';
 $string['prescan'] = 'Κατάλογος Prescan';
 $string['prescan_help'] = 'Εάν ενεργοποιηθεί, ο κατάλογος σαρώνεται κατά την πρώτη χρήση της κρυφής μνήμης και τα αιτήματα για αρχεία ελέγχονται πρώτα με βάση τα δεδομένα σάρωσης. Αυτό μπορεί να βοηθήσει εάν έχετε ένα αργό σύστημα αρχείων και βρίσκετε ότι οι λειτουργίες αρχείων σας προκαλούν ένα μποτιλιάρισμα.';
+$string['privacy:metadata'] = 'Το πρόσθετο αποθήκευσης κρυφής μνήμης αρχείων, αποθηκεύει στοιχεία για λίγο ως μέρος της λειτουργικότητας της κρυφής μνήμης, αλλά τα δεδομένα αυτά εκκαθαρίζονται τακτικά.';
 $string['singledirectory'] = 'Μονή αποθήκευση καταλόγου';
 $string['singledirectory_help'] = 'Εάν τα ενεργοποιημένα αρχεία (στοιχεία κρυφής μνήμης) θα αποθηκευτούν σε ένα μόνο κατάλογο, αντί να διαχωριστούν σε πολλούς καταλόγους.<br />
 Ενεργοποιώντας το θα επιταχυνθεί η αλληλεπίδραση αρχείων, αλλά θα υπάρχει αυξημένος κίνδυνος να υπερβεί τα όρια του συστήματος αρχείων.<br />

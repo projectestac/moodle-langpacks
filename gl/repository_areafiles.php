@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_areafiles', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_areafiles', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_areafiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,3 +29,4 @@ $string['areafiles:view'] = 'Ver o repositorio de ficheiros incrustados';
 $string['configplugin'] = 'Configuración para o repositorio de ficheiros incrustados';
 $string['pluginname'] = 'Ficheiros incrustados';
 $string['pluginname_help'] = 'Ficheiros incrustados no editor de texto actual';
+$string['privacy:metadata'] = 'O engadido de repositorio de ficheiros incrustados non almacena ou transmite datos persoais.';

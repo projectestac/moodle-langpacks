@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'message', language 'es', branch 'MOODLE_34_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,8 @@ $string['outputnotconfigured'] = 'No configurada';
 $string['page-message-x'] = 'Cualquier página de mensajes';
 $string['pagerefreshes'] = 'Esta página se actualiza automáticamente cada {$a} segundos';
 $string['permitted'] = 'Permitida';
+$string['privacy:metadata:message_contacts'] = 'La lista de contactos';
+$string['privacy:metadata:preference:core_message_settings'] = 'Ajustes relacionados con la mensajería';
 $string['processorsettings'] = 'Ajustes de procesador';
 $string['recent'] = 'Reciente';
 $string['removecontact'] = 'Eliminar contacto';
@@ -123,6 +125,10 @@ $string['seeall'] = 'Ver todo';
 $string['selectmessagestodelete'] = 'Seleccionar mensajes a eliminar';
 $string['selectnotificationtoview'] = 'Seleccione desde la lista lateral de notificaciones para ver más detalles';
 $string['send'] = 'Enviar';
+$string['sendbulkmessage'] = 'Enviar el mensaje a {$a} personas';
+$string['sendbulkmessagesent'] = 'Mensaje enviado a {$a} personas';
+$string['sendbulkmessagesentsingle'] = 'Mensaje enviado a 1 persona';
+$string['sendbulkmessagesingle'] = 'Enviar el mensaje a 1 persona';
 $string['sendingvia'] = 'Mandando "{$a->provider}" vía "{$a->processor}"';
 $string['sendingviawhen'] = 'Mandando "{$a->provider}" vía "{$a->processor}" en cuanto {$a->state}';
 $string['sendmessage'] = 'Enviar mensaje';
@@ -141,6 +147,7 @@ $string['togglemessagemenu'] = 'Mostrar/ocultar menú de mensajes';
 $string['togglenotificationmenu'] = 'Mostrar/ocultar menú de notificaciones';
 $string['touserdoesntexist'] = 'Usted no puede enviar un mensaje al usuario con ID ({$a}) que no existe';
 $string['unblockcontact'] = 'Desbloquear contacto';
+$string['unknownuser'] = 'Usuario desconocido';
 $string['unreadnewmessage'] = 'Mensaje nuevo de ({$a})';
 $string['unreadnotification'] = 'Notificación no leída: {$a}';
 $string['userisblockingyou'] = 'Este usuario le ha bloqueado y no puede enviarle mensajes';

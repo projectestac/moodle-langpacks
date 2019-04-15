@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_log', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_log', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   report_log
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,6 +46,7 @@ $string['page-report-log-index'] = 'Informe do rexistro do curso';
 $string['page-report-log-user'] = 'Informe do rexistro do curso do usuario';
 $string['page-report-log-x'] = 'Calquera informe de rexistro';
 $string['pluginname'] = 'Rexistros';
+$string['privacy:metadata'] = 'O engadido de rexistros non almacena ningún dato persoal.';
 $string['restore'] = 'Restaurar';
 $string['selectlogreader'] = 'Seleccionar o lector de rexistros';
 $string['web'] = 'Web';

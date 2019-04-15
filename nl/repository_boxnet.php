@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_boxnet', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_boxnet', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_boxnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,8 @@ $string['nullfilelist'] = 'Er zijn geen bestanden in deze opslagruimte';
 $string['password'] = 'Jouw wachtwoord:';
 $string['pluginname'] = 'Box';
 $string['pluginname_help'] = 'Opslagruimte voor Box';
+$string['privacy:metadata:repository_boxnet'] = 'De Box opslagruimte-plugin bewaart geen persoonlijke gegevens, maar stuurt deze door van Moodle naar het externe systeem.';
+$string['privacy:metadata:repository_boxnet:query'] = 'De Box opslagruimte gebruiker zoektekst.';
 $string['saved'] = 'Box-gegevens bewaard.';
 $string['shareurl'] = 'Deel URL';
 $string['username'] = 'Box gebruikersnaam';

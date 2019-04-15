@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filters', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'filters', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   filters
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,6 +75,7 @@ $string['nofiltersenabled'] = '本站没有打开任何过滤器插件。';
 $string['off'] = '关闭';
 $string['offbutavailable'] = '关闭，但是可以使用';
 $string['on'] = '打开';
+$string['privacy:reason'] = '筛选子系统不会储存任何私人数据。';
 $string['profilefilterfield'] = '简介字段名';
 $string['profilefilterlimiter'] = '简介字段操作符';
 $string['profilelabel'] = '{$a->label}: {$a->profile} {$a->operator} {$a->value}';

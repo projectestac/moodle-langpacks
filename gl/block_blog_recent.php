@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_recent', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_blog_recent', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   block_blog_recent
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,4 +29,5 @@ $string['blog_recent:addinstance'] = 'Engadir un novo bloque de artigos recentes
 $string['norecentblogentries'] = 'Non hai artigos recentes';
 $string['numentriestodisplay'] = 'Número de artigos recentes que presentar';
 $string['pluginname'] = 'Artigos recentes do blog';
+$string['privacy:metadata'] = 'O bloque de artigos recentes do blog só amosa os datos almacenados noutros lugares';
 $string['recentinterval'] = 'Intervalo de tempo considerado «recente»';

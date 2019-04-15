@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'webservice', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -134,6 +134,7 @@ $string['norequiredcapability'] = 'Non se requiren funcionalidades';
 $string['notoken'] = 'A lista de credenciais está baleira.';
 $string['onesystemcontrolling'] = 'Permitir un sistema externo para controlar o Moodle';
 $string['onesystemcontrollingdescription'] = 'Os pasos seguintes axudaranlle a crear un servizo web para que un sistema externo interactue con Moodle. Inclúe a configuración do método de identificación por credencial (chave de seguridade).';
+$string['onlyseecreatedtokens'] = 'É posible eliminar calquera credencial, aínda que só pode ver as credenciais que creou.';
 $string['operation'] = 'Operación';
 $string['optional'] = 'Opcional';
 $string['passwordisexpired'] = 'O contrasinal caducou.';
@@ -143,6 +144,22 @@ $string['postrestparam'] = 'Código PHP para REST (solicitudes POST)';
 $string['potusers'] = 'Non hai usuarios autorizados';
 $string['potusersmatching'] = 'Non hai usuarios autorizados que coincidan';
 $string['print'] = 'Imprimir todo';
+$string['privacy:metadata:serviceusers'] = 'Unha lista de usuarios que poden empregar determinados servizos externos';
+$string['privacy:metadata:serviceusers:iprestriction'] = 'IP restrinxido para usar o servizo';
+$string['privacy:metadata:serviceusers:timecreated'] = 'A data na que se creou o rexistro';
+$string['privacy:metadata:serviceusers:userid'] = 'O ID do usuario';
+$string['privacy:metadata:serviceusers:validuntil'] = 'A data na que remata a autorización';
+$string['privacy:metadata:tokens'] = 'Un rexistro de credenciais para interactuar con Moodle a través de servizos web ou aplicacións móbiles.';
+$string['privacy:metadata:tokens:creatorid'] = 'O ID do usuario que creou a credencial';
+$string['privacy:metadata:tokens:iprestriction'] = 'IP restrinxido para usar esta credencial';
+$string['privacy:metadata:tokens:lastaccess'] = 'A data en que se usou a credencial por última vez';
+$string['privacy:metadata:tokens:privatetoken'] = 'Unha credencial máis privada usada ocasionalmente para validar certas operacións, como o SSO (Single Sign-On =Ingreso único )';
+$string['privacy:metadata:tokens:timecreated'] = 'A data na que se creou a credencial';
+$string['privacy:metadata:tokens:token'] = 'A credencial do usuario';
+$string['privacy:metadata:tokens:tokentype'] = 'O tipo de credencial';
+$string['privacy:metadata:tokens:userid'] = 'O ID do usuario de quen é esta credencial';
+$string['privacy:metadata:tokens:validuntil'] = 'A data ata a que é valida a credencial';
+$string['privacy:request:notexportedsecurity'] = 'Non se exporta por razóns de seguridade';
 $string['protocol'] = 'Protocolo';
 $string['removefunction'] = 'Retirar';
 $string['removefunctionconfirm'] = 'Confirma que quere retirar a función «{$a->function}» do servizo «{$a->service}»?';

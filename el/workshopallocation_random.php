@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_random', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopallocation_random', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopallocation_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,6 +44,7 @@ $string['numofselfallocatedsubmissions'] = 'Αυτο-εκχώρηση {$a} υπ�
 $string['numperauthor'] = 'ανά υποβολή';
 $string['numperreviewer'] = 'ανά εξεταστή';
 $string['pluginname'] = 'Τυχαία εκχώρηση';
+$string['privacy:metadata'] = 'Το πρόσθετο «Τυχαία εκχώρηση» δεν αποθηκεύει κανένα προσωπικό δεδομένο. Τα πραγματικά προσωπικά δεδομένα σχετικά με το ποιος πρόκειται να αξιολογήσει ποιόν, αποθηκεύονται από από το ίδιο το άρθρωμα Εργαστηρίου και αποτελούν βάση για την εξαγωγή των λεπτομερειών αξιολόγησης.';
 $string['randomallocationdone'] = 'Η τυχαία εκχώρηση ολοκληρώθηκε';
 $string['removecurrentallocations'] = 'Ακύρωση τρεχουσών εκχωρήσεων';
 $string['resultnomorepeers'] = 'Δεν υπάρχουν άλλοι διαθέσιμοι ομότιμοι';

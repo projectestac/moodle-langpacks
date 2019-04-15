@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_timelimit', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quizaccess_timelimit', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   quizaccess_timelimit
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,4 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['confirmstart'] = 'De test heeft een tijdslimiet van {$a}. De tijd begint te lopen vanaf het moment dat je je poging start en je moet insturen voor de tijd afloopt. Weet je zeker dat je nu wil beginnen?';
 $string['confirmstartheader'] = 'Test met tijdslimiet';
 $string['pluginname'] = 'Toegangsregel: tijdslimiet';
+$string['privacy:metadata'] = 'De tijdsbeperking testtoegangsregel-plugin bewaart geen persoonlijke gegevens.';
 $string['quiztimelimit'] = 'Tijdslimiet: {$a}';

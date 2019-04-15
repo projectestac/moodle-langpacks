@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_site_main_menu', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_site_main_menu', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_site_main_menu
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Κύριο μενού';
+$string['privacy:metadata'] = 'Το μπλοκ κεντρικού μενού εμφανίζει μόνο τα δεδομένα που είναι αποθηκευμένα σε άλλες τοποθεσίες.';
 $string['site_main_menu:addinstance'] = 'Προσθέστε ένα νέο μπλοκ κύριου μενού';

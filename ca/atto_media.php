@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_media', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_media', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_media
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,6 +68,7 @@ $string['metadatasourcelabel'] = 'URL de les metadades de la pista';
 $string['mute'] = 'Silenciat';
 $string['pluginname'] = 'Fitxers multimèdia';
 $string['poster'] = 'URL de la miniatura';
+$string['privacy:metadata'] = 'El connector atto_media no emmagatzema cap dada personal.';
 $string['remove'] = 'Elimina';
 $string['size'] = 'Mida';
 $string['srclang'] = 'Idioma';

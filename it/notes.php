@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'notes', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,10 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addbulknote'] = 'Inserisci nota a {$a} persone';
+$string['addbulknotedone'] = 'Nota inserita a {$a} persone';
+$string['addbulknotedonesingle'] = 'Nota inserita ad 1 persona';
+$string['addbulknotesingle'] = 'Inserisci nota ad 1 person1';
 $string['addnewnote'] = 'Aggiungi una annotazione';
 $string['addnewnoteselect'] = 'Seleziona gli utenti sui quali scrivere l\'annotazione';
 $string['bynameondate'] = 'di {$a->name} - {$a->date}';
-$string['cannotdeletepost'] = 'Si è verificato un errore durante l\'eliminazione dell\'annotazione.';
 $string['configenablenotes'] = 'Consente di scrivere annotazioni sugli utenti';
 $string['content'] = 'Contenuto';
 $string['course'] = 'corso';
@@ -58,6 +61,13 @@ $string['page-notes-index'] = 'Pagina principale delle note';
 $string['page-notes-x'] = 'Qualsiasi pagina con note';
 $string['personal'] = 'personale';
 $string['personalnotes'] = 'Annotazioni personali';
+$string['privacy:metadata:core_notes'] = 'Il componente Note memorizza le note dell\'utente all\'interno del sottosistema core.';
+$string['privacy:metadata:core_notes:content'] = 'Contenuto della nota.';
+$string['privacy:metadata:core_notes:courseid'] = 'ID del corso associato alla nota.';
+$string['privacy:metadata:core_notes:created'] = 'Data e ora di creazione della nota.';
+$string['privacy:metadata:core_notes:lastmodified'] = 'Data e ora dell\'ultima modifica della nota.';
+$string['privacy:metadata:core_notes:publishstate'] = 'Stato di pubblicazione della nota.';
+$string['privacy:metadata:core_notes:userid'] = 'ID dell\'utente associato alla nota.';
 $string['publishstate'] = 'Contesto';
 $string['publishstate_help'] = 'Il contesto delle annotazioni determina chi le può leggere:
 

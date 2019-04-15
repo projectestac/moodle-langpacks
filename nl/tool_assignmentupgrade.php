@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_assignmentupgrade', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_assignmentupgrade', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_assignmentupgrade
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,6 +45,7 @@ $string['notsupported'] = '';
 $string['notupgradedintro'] = 'Deze pagina geeft een lijs van opdrachten die gemaakt zijn met een oudere Moodleversie, maar die nog niet geüpgraded zijn naar de nieuwe opdrachtmodule in Moodle 2.3. Niet alle opdrachten kunnen geüpgraded worden - als ze gemaakt zijn met een aangepast subtype, dan moet dat subtype geüpgraded worden naar de nieuwe opdrachten plugin opmaak om de upgrade te kunnen voltooien.';
 $string['notupgradedtitle'] = 'Opdrachten die niet geüpgraded zijn';
 $string['pluginname'] = 'Opdracht upgrade helper';
+$string['privacy:metadata:preference:perpage'] = 'De opdracht upgrade bewaart ingestelde voorkeuren per pagina voor de gebruiker.';
 $string['select'] = 'Selecteer';
 $string['submissions'] = 'Inzendingen';
 $string['supported'] = 'Upgrade';

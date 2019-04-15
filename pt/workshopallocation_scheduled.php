@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_scheduled', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopallocation_scheduled', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopallocation_scheduled
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,7 @@ $string['currentstatusresult'] = 'Resultados da última execução';
 $string['enablescheduled'] = 'Ativar atribuição automática';
 $string['enablescheduledinfo'] = 'Atribuir automaticamente trabalhos na data limite das submissões';
 $string['pluginname'] = 'Atribuição automática';
+$string['privacy:metadata'] = 'O módulo Atribuição automática não armazena dados pessoais. Os atuais dados pessoais sobre quem vai avaliar quem são armazenados pelo módulo workshop em si e formam a base para exportar detalhes de avaliação.';
 $string['randomallocationsettings'] = 'Configurações da atribuição';
 $string['randomallocationsettings_help'] = 'Os parâmetros para o método de atribuição aleatória são definidos aqui. Serão usados pelo módulo de atribuição aleatória para atribuir os trabalhos.';
 $string['resultdisabled'] = 'Atribuição automática inativa';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_grading', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -65,12 +65,13 @@ $string['grading:viewstudentnames'] = '评分时显示学生姓名';
 $string['hideautomaticallygraded'] = '隐藏已经被自动评分的题目';
 $string['inprogress'] = '进行中';
 $string['invalidattemptid'] = '此试卷ID不存在';
-$string['invalidquestionid'] = '找不到id为{$a}的可评分题目';
+$string['invalidquestionid'] = '找不到ID为{$a}的可评分题目';
 $string['noquestionsfound'] = '没有发现由人工评分的题目';
 $string['nothingfound'] = '没有东西可显示';
 $string['options'] = '选项';
 $string['orderattempts'] = '试卷顺序';
 $string['pluginname'] = '人工评分';
+$string['privacy:metadata'] = 'Quiz 人工评分插件不会保存任务个人信息。 它提供用户存储数据的界面，但不会存储数据本身。';
 $string['qno'] = '题号';
 $string['questionname'] = '题目名';
 $string['questionsperpage'] = '每页题目数';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_description', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_description', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_description
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,3 +33,4 @@ $string['pluginname_help'] = 'La Descrizione non è una  vera e propria domanda,
 
 Il testo compare sia durante lo svolgimento del quiz sia nella pagina di revisione. Il feedback generale è visualizzato solo nella pagina di revisione.';
 $string['pluginnamesummary'] = 'La Descrizione non è una vera e propria domanda. E\' un modo per aggiungere al quiz informazioni, istruzioni o altri tipi di contenuti. Una funzione analoga è svolta dalle Etichette nella pagina home dei corsi.';
+$string['privacy:metadata'] = 'Il plugin Tipo di domande \'Descrizione\' non memorizza dati personali.';

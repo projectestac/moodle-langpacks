@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_upload', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_upload', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_upload
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['configplugin'] = 'Configurazione plugin File upload';
 $string['pluginname'] = 'File upload';
 $string['pluginname_help'] = 'Carica un file su Moodle';
+$string['privacy:metadata'] = 'Il plugin repository "File upload" non memorizza né trasmette dati personali.';
 $string['upload_error_cant_write'] = 'Non è stato possibile scrivere il file sul disco.';
 $string['upload_error_extension'] = 'Una estensione PHP ha bloccato il caricamento del file.';
 $string['upload_error_form_size'] = 'Il file caricato è più grande di quanto consentito dalla direttiva max_file_size presente nel file php.ini';

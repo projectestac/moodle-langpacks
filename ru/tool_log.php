@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_log', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_log', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_log
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,9 +27,12 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actlogshdr'] = 'Доступные способы хранения журнала событий';
 $string['configlogplugins'] = 'Включите все необходимые плагины и расположите их в нужном порядке.';
+$string['exportlog'] = 'Включать события при экспорте.';
+$string['exportlogdetail'] = 'События, которые относятся к пользователю, включаются в экспорт.';
 $string['logging'] = 'Журнал событий';
 $string['managelogging'] = 'Управление способами хранения журнала событий';
 $string['pluginname'] = 'Управление способами хранения журнала событий';
+$string['privacy:metadata:logstore'] = 'Хранит историю событий';
 $string['reportssupported'] = 'Поддерживаемые отчеты';
 $string['subplugintype_logstore'] = 'Способ хранения журнала событий';
 $string['subplugintype_logstore_plural'] = 'Способы хранения журнала событий';

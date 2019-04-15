@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_usersessions', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_usersessions', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   report_usersessions
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,5 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['mysessions'] = 'Οι ενεργές σύνοδοί μου';
 $string['navigationlink'] = 'Σύνοδοι περιηγητή';
 $string['pluginname'] = 'Αναφορά συνόδων χρήστη';
+$string['privacy:metadata'] = 'Το πρόσθετο «Αναφορά συνόδων χρήστη» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['thissession'] = 'Τρέχουσα σύνοδος';
 $string['usersessions:manageownsessions'] = 'Διαχείριση των συνόδων του περιηγητή σας';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completion_progress', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_completion_progress', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   block_completion_progress
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['config_default_title'] = '完成进度';
+$string['mouse_over_prompt'] = '鼠标悬停或触摸以获取信息.';
 $string['no_activities_config_message'] = '没有完成设置的活动或资源或没有选择活动或资源。请在活动和资源配置区块，进行活动完成设置。';

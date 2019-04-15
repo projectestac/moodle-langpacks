@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_uploaduser', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,6 +39,7 @@ $string['invalidupdatetype'] = 'Je kunt deze optie niet selecteren met het gekoz
 $string['invaliduserdata'] = 'Ongeldige gegevens ontdekt voor gebruiker {$a} en automatisch opgeschoond.';
 $string['nochanges'] = 'Geen wijzigingen';
 $string['pluginname'] = 'Gebruiker upload';
+$string['privacy:metadata'] = 'De upload gebruikers-plugin bewaart geen persoonlijke gegevens.';
 $string['renameerrors'] = 'Fouten in hernoemen';
 $string['requiredtemplate'] = 'Vereist. Je kunt hier sjabloonsyntax gebruiken (%l = achternaam, %f = voornaam, %u = gebruikersnaam). Bekijk het helpbestand voor details en voorbeelden.';
 $string['rowpreviewnum'] = 'Voorbeeld rijen';

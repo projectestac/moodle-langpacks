@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_moodleemoticon', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tinymce_moodleemoticon', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   tinymce_moodleemoticon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,5 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['moodleemoticon:desc'] = 'Insereix emoticona';
 $string['pluginname'] = 'Insereix emoticona';
+$string['privacy:metadata'] = 'El connector d\'Emoticones de Moodle de TinyMCE no emmagatzema cap dada personal.';
 $string['requireemoticon'] = 'Requereix el filtre d\'emoticones';
 $string['requireemoticon_desc'] = 'Si s\'habilita, el botó emoticona només es visible quan el filtre emoticona està habilitat en el context de l\'editor.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'geogebra', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'geogebra', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   geogebra
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -109,6 +109,7 @@ $string['pluginadministration'] = 'Administração de GeoGebra';
 $string['pluginname'] = 'GeoGebra';
 $string['preview_geogebra'] = 'Pré-visualizar GeoGebra';
 $string['previewtab'] = 'Pré-visualização';
+$string['privacy'] = 'Privacidade dos dados';
 $string['redirecttocourse'] = 'A atividade foi guardada. A voltar à página principal da disciplina';
 $string['report'] = 'Relatório de';
 $string['results'] = 'Resultados';

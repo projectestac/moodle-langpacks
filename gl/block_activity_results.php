@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_activity_results', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_activity_results', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   block_activity_results
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -63,6 +63,7 @@ $string['error_nogroupsexist'] = 'Erro: o bloque está definido para amosar cual
 $string['error_unsupportedgradetype'] = 'Erro: a actividade seleccionada usa un método de cualificación que non admite este bloque.';
 $string['notyetgraded'] = 'Aínda non cualificado';
 $string['pluginname'] = 'Resultados da actividade';
+$string['privacy:metadata'] = 'O bloque de resultados da actividade só amosa os datos almacenados noutros lugares.';
 $string['unknown'] = 'Escala descoñecida';
 $string['worstgrade'] = 'Cualificación máis baixa:';
 $string['worstgrades'] = 'As {$a} cualificacións máis baixas:';

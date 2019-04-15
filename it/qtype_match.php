@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_match', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_match', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_match
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,5 +43,6 @@ $string['pluginnameediting'] = 'Modifica domanda Corrispondenza';
 $string['pluginname_help'] = 'Lo studente dovrà far corrispondere i termini presenti nell\'elenco delle domande con i termini presenti nell\'elenco delle risposte.
 ';
 $string['pluginnamesummary'] = 'La risposta a ciascuna sotto domanda deve essere selezionata da un elenco di risposte possibili.';
+$string['privacy:metadata'] = 'Il plugin Tipo di domande \'Corrispondenza\' non memorizza dati personali.';
 $string['shuffle'] = 'Mescola';
 $string['shuffle_help'] = 'Ogni volta che lo studente tenterà un quiz contenente questa domanda, l\'ordine delle possibili alternative verrà mescolato casualmente - sempre che l\'impostazione del Quiz "Alternative in ordine casuale" sia abilitata.';

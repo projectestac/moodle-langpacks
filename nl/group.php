@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'group', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -58,6 +58,7 @@ $string['deletegroupsconfirm'] = 'Ben je er zeker van dat je volgende groepen wi
 $string['deleteselectedgroup'] = 'Verwijder geselecteerde groep';
 $string['editgroupingsettings'] = 'Bewerk instellingen groepering';
 $string['editgroupsettings'] = 'Bewerk instellingen groep';
+$string['editusersgroupsa'] = 'Bewerk groepen voor "{$a}"';
 $string['enrolmentkey'] = 'Cursussleutel';
 $string['enrolmentkeyalreadyinuse'] = 'Deze aanmeldingssleutel is al in gebruik voor een andere groep.';
 $string['enrolmentkey_help'] = 'Een aanmeldsleutel beperkt de toegang tot de cursus tot leerlingen die de sleutel kennen. Als een groepsaanmeldingssleutel is opgegeven, dan zal het ingeven van de sleutel de leerling niet alleen toegang geven tot de cursus, maar hem ook automatisch lid maken van deze groep.
@@ -112,7 +113,7 @@ $string['groupmodeforce'] = 'Forceer groepsmodus';
 $string['groupmodeforce_help'] = 'Als de groepsmodus geforceerd wordt, dan zal de groepsmodus van de cursus op elke activiteit toegepast worden. De instellingen van de groepsmodus in de activiteitenmodules wordt dan genegeerd.';
 $string['groupmode_help'] = 'Er zijn drie types van groepsmodus:
 
-*Geen groepen - er zijn geen indelingen in groepen, iedereen is onderdeel van één grote groep
+* Geen groepen
 * Gescheiden groepen - elke groep kan alleen zijn eigen groepsleden zien, alle anderen zijn onzichtbaar
 * Zichtbare groepen - elke leerling werkt binnen zijn eigen groep, maar kan de andere groepen ook zien
 
@@ -124,7 +125,7 @@ $string['groupnotamember'] = 'Sorry, maar je bent geen lid van die groep';
 $string['groups'] = 'Groepen';
 $string['groupscount'] = 'Groepen ({$a})';
 $string['groupsettingsheader'] = 'Groepen';
-$string['groupsgroupings'] = 'Groepen &amp; groeperingen';
+$string['groupsgroupings'] = 'Groepen & groeperingen';
 $string['groupsinselectedgrouping'] = 'Groepen in:';
 $string['groupsnone'] = 'Geen groepen';
 $string['groupsonly'] = 'Enkel groepen';
@@ -173,6 +174,10 @@ $string['overview'] = 'Overzicht';
 $string['potentialmembers'] = 'Mogelijke groepsleden: {$a}';
 $string['potentialmembs'] = 'Mogelijke leden';
 $string['printerfriendly'] = 'Printervriendelijke overzichtspagina groeperingen';
+$string['privacy:metadata:groups'] = 'Een record van groepslidmaatschap.';
+$string['privacy:metadata:groups:groupid'] = 'De ID van de groep.';
+$string['privacy:metadata:groups:timeadded'] = 'Het tijdstempel dat aangeeft wanneer de gebruiker aan de groep is toegevoegd.';
+$string['privacy:metadata:groups:userid'] = 'De ID van de gebruiker die aan de groep is gekoppeld.';
 $string['random'] = 'Willekeurig';
 $string['removefromgroup'] = 'Verwijder gebruiker van groep {$a}';
 $string['removefromgroupconfirm'] = 'Wil je gebruiker "{$a->user}" echt uit groep "{$a->group}" verwijderen?';

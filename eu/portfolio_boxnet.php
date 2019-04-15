@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio_boxnet', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'portfolio_boxnet', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   portfolio_boxnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,6 +41,8 @@ $string['notarget'] = 'Fitxategia igotzeko, zehaztu nehar duzu dagoeneko existit
 $string['noticket'] = 'Ezin izan da autentifikazio-saioa hasteko Box-etik ticket-a eskuratu';
 $string['password'] = 'Zure Box-eko pasahitza (ez da gordetzen)';
 $string['pluginname'] = 'Box';
+$string['privacy:metadata'] = 'Plugin honek datuak bidaltzen ditu lotutako kanpoko Box kontura. Ez du lokalki daturik biltzen.';
+$string['privacy:metadata:data'] = 'Portfolioaren azpisistemaren bitartez pasatako datu pertsonalak.';
 $string['sendfailed'] = 'Box-era edukia bidaltzeak huts egin du: {$a}';
 $string['setupinfo'] = 'Instalaziorako argibideak';
 $string['setupinfodetails'] = 'Bezero IDa eta sekretua eskuratzeko, Box-en saioa hasi eta sar zaitez  <a href="{$a->servicesurl}">Box developers page</a> orrian. \'Aukeratu Create new application\' eta zure Moodle gunerako aplikazio berri bat sortu ezazu. Bezero IDa eta sekretua aplikazioaren edizio-menuaren \'OAuth2 parameters\' atalean erakusten dira. Aukeran, zure Moodle gunearen inguruko bestelako informazioa ere eskaini dezakezu.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_standard', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'logstore_standard', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   logstore_standard
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,4 +28,14 @@ defined('MOODLE_INTERNAL') || die();
 $string['buffersize'] = 'Μέγεθος ενδιάμεσης μνήμης εγγραφής';
 $string['pluginname'] = 'Τυπικές καταγραφές';
 $string['pluginname_desc'] = 'Ένα πρόσθετο καταγραφών αποθηκεύει καταγραφές σε έναν πίνακα της βάσης δεδομένων του Moodle';
+$string['privacy:metadata:log'] = 'Μια συλλογή από παρελθόντα γεγονότα';
+$string['privacy:metadata:log:anonymous'] = 'Εάν το γεγονός επισημάνθηκε ως ανώνυμο';
+$string['privacy:metadata:log:eventname'] = 'Το όνομα του γεγονότος';
+$string['privacy:metadata:log:ip'] = 'Η διεύθυνση IP που χρησιμοποιούνταν την ώρα του γεγονότος';
+$string['privacy:metadata:log:origin'] = 'Η προέλευση του γεγονότος';
+$string['privacy:metadata:log:other'] = 'Επιπρόσθετες πληροφορίες σχετικά με το γεγονός';
+$string['privacy:metadata:log:realuserid'] = 'Το αναγνωριστικό του πραγματικού χρήστη πίσω από το γεγονός, κατά την απόκρυψη ενός χρήστη (με IP masquerading, NAT, etc).';
+$string['privacy:metadata:log:relateduserid'] = 'Το αναγνωριστικό χρήστη που σχετίζεται με αυτό το γεγονός';
+$string['privacy:metadata:log:timecreated'] = 'Πότε συνέβη το γεγονος';
+$string['privacy:metadata:log:userid'] = 'Το αναγνωριστικό του χρήστη που ενεργοποίησε αυτό το γεγονός';
 $string['taskcleanup'] = 'Καθαρισμός πίνακα καταγραφών';

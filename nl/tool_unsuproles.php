@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_unsuproles', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_unsuproles', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_unsuproles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,3 +30,4 @@ $string['contextlevel'] = 'Context niveau';
 $string['count'] = 'Aantal';
 $string['noprolbems'] = 'Geen niet-ondersteunde roltoewijzingen gevonden;';
 $string['pluginname'] = 'Niet-ondersteunde roltoewijzingen';
+$string['privacy:metadata'] = 'De niet ondersteunde roltoewijzingen-plugin bewaart geen persoonlijke gegevens.';

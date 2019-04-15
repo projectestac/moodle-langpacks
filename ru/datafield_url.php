@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_url', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'datafield_url', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   datafield_url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['fieldtypelabel'] = 'Поле «Гиперссылка»';
 $string['openlinkinnewwindow'] = 'Открывать ссылку в новом окне';
 $string['pluginname'] = 'Гиперссылка';
+$string['privacy:metadata'] = 'Компонент поля базы данных «Гиперссылка» сам по себе не хранит никаких персональных данных, он использует таблицы, определенные в mod_data.';

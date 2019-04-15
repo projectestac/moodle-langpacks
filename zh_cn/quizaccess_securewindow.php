@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_securewindow', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quizaccess_securewindow', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   quizaccess_securewindow
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = '使用JavaScript安全的测验的访问规则';
 $string['popupwithjavascriptsupport'] = '全屏幕弹出窗口（JavaScript保障安全）';
+$string['privacy:metadata'] = 'JavaScript安全访问规则不会保存任何个人信息。';

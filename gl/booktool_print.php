@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'booktool_print', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'booktool_print', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   booktool_print
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,3 +33,4 @@ $string['printchapter'] = 'Imprimir este capítulo';
 $string['printdate'] = 'Data';
 $string['printedby'] = 'Impreso por';
 $string['print:print'] = 'Imprimir libro';
+$string['privacy:metadata'] = 'O engadido de impresión de libros  non almacena ningún dato persoal.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_accumulative', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopform_accumulative', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopform_accumulative
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,7 @@ $string['mustchoosegrade'] = 'Πρέπει να επιλέξετε ένα βαθ
 $string['pluginname'] = 'Αθροιστική βαθμολόγηση';
 $string['poor'] = 'Φτωχό';
 $string['present'] = 'Παρών';
+$string['privacy:metadata'] = 'Το πρόσθετο Αθροιστική βαθμολόγηση αποθηκεύει μόνο τις λεπτομέρειες της φόρμας αξιολόγησης. Τα πραγματικά προσωπικά δεδομένα για τον τρόπο με τον οποίο έχει συμπληρωθεί το έντυπο αποθηκεύονται από την ίδια την ενότητα του Εργαστηρίου και επισυνάπτονται στις εξαγόμενες εκτιμήσεις.';
 $string['scalename0'] = 'Ναι/Όχι (2 βαθμοί)';
 $string['scalename1'] = 'Παρών/Απών (2 βαθμοί)';
 $string['scalename2'] = 'Σωστό/Λάθος (2 βαθμοί)';

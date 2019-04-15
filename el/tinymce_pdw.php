@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_pdw', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tinymce_pdw', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tinymce_pdw
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pdw:desc'] = 'Εναλλαγή εμφάνισης/απόκρυψης γραμμής εργαλείων';
 $string['pluginname'] = 'Εναλλαγή εμφάνισης/απόκρυψης γραμμής εργαλείων';
+$string['privacy:metadata'] = 'Το πρόσθετο «Εναλλαγή εμφάνισης εργαλειοθήκης» του TinyMCE δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

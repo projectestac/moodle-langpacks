@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculatedsimple', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_calculatedsimple', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_calculatedsimple
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['pluginnameadding'] = 'Aggiungi domanda Calcolata semplice';
 $string['pluginnameediting'] = 'Modifica domanda Calcolata semplice';
 $string['pluginname_help'] = 'Una domanda Calcolata semplice consente la creazione di domande numeriche sostituendo caratteri jolly con valori determinati al momento dell\'esecuzione del quiz. Le domande calcolate semplici offrono le principali funzionalità delle domande Calcolate ma con una interfaccia di creazione più semplice.';
 $string['pluginnamesummary'] = 'E\' una versione semplificata della Domanda Calcolata. Sono simili alle domande numeriche ma i numeri sono scelti casualmente da un insieme durante lo svolgimento del quiz.';
+$string['privacy:metadata'] = 'Il plugin Tipo di domande \'Calcolata semplice\' non memorizza dati personali.';
 $string['setno'] = 'Imposta {$a}';
 $string['setwildcardvalues'] = 'set di valori Jolly';
 $string['showitems'] = 'Visualizza';

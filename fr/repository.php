@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,8 +47,8 @@ $string['attachedfiles'] = 'Fichiers joints';
 $string['attachment'] = 'Annexe';
 $string['author'] = 'Auteur';
 $string['automatedbackup'] = 'Sauvegardes automatiques';
-$string['back'] = '&laquo; Retour';
-$string['backtodraftfiles'] = '&laquo; Retour à la gestion des brouillons';
+$string['back'] = 'Retour';
+$string['backtodraftfiles'] = 'Retour à la gestion des brouillons';
 $string['cachecleared'] = 'Les fichiers en cache ont été supprimés';
 $string['cacheexpire'] = 'Échéance du cache';
 $string['cannotaccessparentwin'] = 'Si la fenêtre parente est en HTTPS, l\'accès à l\'objet window.opener n\'est pas autorisé, et il n\'est donc pas possible d\'actualiser le dépôt automatiquement. Veuillez retourner au sélecteur de fichier, sélectionnez de nouveau le dépôt et tout fonctionnera alors.';
@@ -156,8 +156,10 @@ $string['linkexternal'] = 'Lien externe';
 $string['listview'] = 'Afficher en liste';
 $string['loading'] = 'Chargement...';
 $string['login'] = 'Se connecter à votre compte';
+$string['logintoaccount'] = 'Connexion à votre compte {$a}';
 $string['logout'] = 'Déconnexion';
 $string['lostsource'] = 'Erreur. La source est manquante. {$a}';
+$string['makefilecontrolledlink'] = 'Créer un lien à accès contrôlé pour le fichier';
 $string['makefileinternal'] = 'Faire une copie du fichier';
 $string['makefilelink'] = 'Lier directement le fichier';
 $string['makefilereference'] = 'Créer un alias du fichier';
@@ -195,6 +197,15 @@ $string['pluginnamehelp'] = 'Si ce champ n\'est pas renseigné, le nom par défa
 $string['popup'] = 'Cliquez « Connexion » pour vous connecter';
 $string['popupblockeddownload'] = 'La fenêtre de téléchargement a été bloquée. Veuillez autoriser les fenêtres surgissantes et essayer à nouveau.';
 $string['preview'] = 'Prévisualiser';
+$string['privacy:metadata:repository'] = 'Le composant Dépôt enregistre les types de dépôts dans le sous-système central.';
+$string['privacy:metadata:repository_instances'] = 'Le composant Plugins de dépôt enregistre les données des instances de dépôt utilisateur dans le sous-système central.';
+$string['privacy:metadata:repository_instances:name'] = 'Le nom personnalisé de l\'instance de dépôt.';
+$string['privacy:metadata:repository_instances:password'] = 'Le mot de passe optionnel configuré pour l\'instance de dépôt.';
+$string['privacy:metadata:repository_instances:timecreated'] = 'La date et l\'heure de la création de l\'instance de dépôt.';
+$string['privacy:metadata:repository_instances:timemodified'] = 'La date et l\'heure de la modification de l\'instance de dépôt.';
+$string['privacy:metadata:repository_instances:typeid'] = 'L\'identifiant de l\'instance de dépôt.';
+$string['privacy:metadata:repository_instances:userid'] = 'L\'identifiant de l\'utilisateur qui possède l\'instance de dépôt.';
+$string['privacy:metadata:repository_instances:username'] = 'Le nom d\'utilisateur optionnel configuré pour cette instance de dépôt.';
 $string['privatefilesof'] = 'Fichiers privés {$a}';
 $string['readonlyinstance'] = 'Vous ne pouvez pas modifier ni supprimer une instance en lecture seule';
 $string['referencesexist'] = 'Ce fichier est utilisé comme source par {$a} alias.';
@@ -236,6 +247,7 @@ $string['typenotvisible'] = 'Type non visible';
 $string['undisclosedreference'] = '(non publié)';
 $string['undisclosedsource'] = '(Non communiqué)';
 $string['unknownoriginal'] = 'Inconnu';
+$string['unknownsource'] = 'Source inconnue';
 $string['unzipped'] = 'Décompressé correctement';
 $string['upload'] = 'Déposer ce fichier';
 $string['uploading'] = 'En cours de dépôt...';

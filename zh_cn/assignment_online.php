@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignment_online', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignment_online', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   assignment_online
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['event_assessable_uploaded'] = '已有在线文本上传';
 $string['pluginname'] = '在线';
+$string['privacy:metadata'] = '在线作业插件不储存任何私人数据。';

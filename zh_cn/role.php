@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'role', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,8 @@ $string['allowroletooverride'] = '允许属于角色{$a->fromrole}的用户修�
 $string['allowroletoswitch'] = '允许属于角色{$a->fromrole}的用户切换到角色{$a->targetrole}';
 $string['allowswitch'] = '允许角色切换';
 $string['allsiteusers'] = '所有用户';
+$string['analytics:listinsights'] = '列出洞察力';
+$string['analytics:managemodels'] = '管理模型';
 $string['archetype'] = '角色原型';
 $string['archetypecoursecreator'] = '原型：课程创建者';
 $string['archetypeeditingteacher'] = '原型：有编辑权教师';
@@ -64,7 +66,7 @@ $string['backup:anonymise'] = '备份时隐去用户数据';
 $string['backup:backupactivity'] = '备份活动';
 $string['backup:backupcourse'] = '备份课程';
 $string['backup:backupsection'] = '备份小节';
-$string['backup:backuptargethub'] = '面向hub备份';
+$string['backup:backuptargethub'] = '在Moodle.net发布的备份';
 $string['backup:backuptargetimport'] = '面向导入备份';
 $string['backup:configure'] = '配置备份选项';
 $string['backup:downloadfile'] = '从备份区下载文件';
@@ -113,7 +115,7 @@ $string['cohort:view'] = '查看全站群';
 $string['comment:delete'] = '删除评论';
 $string['comment:post'] = '发表评论';
 $string['comment:view'] = '查看评论';
-$string['community:add'] = '使用社区版块搜索课程中心寻找课程';
+$string['community:add'] = '使用社区版块搜索Moodle.net和寻找课程';
 $string['community:download'] = '从社区版块下载课程';
 $string['competency:competencygrade'] = '设置能力评级';
 $string['competency:competencymanage'] = '管理能力框架';
@@ -167,6 +169,7 @@ $string['course:create'] = '创建课程';
 $string['course:delete'] = '删除课程';
 $string['course:enrolconfig'] = '配置课程中的选课实例';
 $string['course:enrolreview'] = '审查选课';
+$string['course:ignoreavailabilityrestrictions'] = '忽视可用性的限制';
 $string['course:ignorefilesizelimits'] = '使用超过任何文件大小限制的文件';
 $string['course:isincompletionreports'] = '在进度报告中显示';
 $string['course:manageactivities'] = '管理活动';
@@ -176,7 +179,8 @@ $string['course:managegroups'] = '管理组';
 $string['course:managescales'] = '管理等级';
 $string['course:markcomplete'] = '课程完成时标记用户为完成';
 $string['course:movesections'] = '移动小节';
-$string['course:publish'] = '将课程发布到hub';
+$string['course:overridecompletion'] = '优先取代活动完成状态';
+$string['course:publish'] = '发布课程';
 $string['course:renameroles'] = '重命名角色';
 $string['course:request'] = '申请创建新课程';
 $string['course:reset'] = '重置课程';
@@ -220,6 +224,7 @@ $string['errorbadrolename'] = '不正确的角色名';
 $string['errorbadroleshortname'] = '无效的角色简称';
 $string['errorexistsrolename'] = '角色名已经存在';
 $string['errorexistsroleshortname'] = '角色名已经存在';
+$string['errorroleshortnametoolong'] = '短名称不能超过100字符';
 $string['eventroleallowassignupdated'] = '允许角色指派';
 $string['eventroleallowoverrideupdated'] = '允许角色覆盖';
 $string['eventroleallowswitchupdated'] = '允许角色切换';
@@ -320,6 +325,14 @@ $string['potentialusers'] = '{$a}个潜在的用户';
 $string['potusers'] = '可选用户';
 $string['potusersmatching'] = '匹配“{$a}”的潜在用户';
 $string['prevent'] = '阻止';
+$string['privacy:metadata:preference:showadvanced'] = '处理高级模式切换按钮';
+$string['privacy:metadata:role_assignments'] = '角色分配';
+$string['privacy:metadata:role_assignments:component'] = '负责处理银角色分配的插件，留空为手工分配。';
+$string['privacy:metadata:role_assignments:itemid'] = '负责角色分配的选课/授权实例ID';
+$string['privacy:metadata:role_assignments:modifierid'] = '创建或编辑角色分配的用户ID';
+$string['privacy:metadata:role_assignments:roleid'] = '角色ID';
+$string['privacy:metadata:role_assignments:tableexplanation'] = '此表格储存各内容中分配的角色。';
+$string['privacy:metadata:role_assignments:timemodified'] = '角色分配创建或修改的日期。';
 $string['prohibit'] = '禁止';
 $string['prohibitedroles'] = '禁止';
 $string['question:add'] = '添加新试题';
@@ -408,7 +421,6 @@ $string['site:viewfullnames'] = '始终可看用户的全名';
 $string['site:viewparticipants'] = '浏览成员';
 $string['site:viewreports'] = '浏览报表';
 $string['site:viewuseridentity'] = '在列表中查看全部用户身份';
-$string['tag:create'] = '创建新标签';
 $string['tag:edit'] = '编辑标签';
 $string['tag:editblocks'] = '在标签页中编辑版块';
 $string['tag:flag'] = '标记为不恰当';

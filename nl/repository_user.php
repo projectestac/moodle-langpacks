@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_user', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_user', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_user
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,4 +29,5 @@ $string['configplugin'] = 'Configuratie van de zone voor persoonlijke bestanden 
 $string['emptyfilelist'] = 'Er zijn geen te tonen bestanden';
 $string['pluginname'] = 'Persoonlijke bestanden';
 $string['pluginname_help'] = 'Bestanden in de zone voor persoonlijke bestanden';
+$string['privacy:metadata'] = 'De privébestanden opslagruimte-plugin bewaart geen persoonlijke gegevens.';
 $string['user:view'] = 'Bekijk persoonlijke bestanden';

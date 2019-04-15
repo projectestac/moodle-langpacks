@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'mnet', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -174,6 +174,7 @@ $string['permittedtransports'] = 'Trasporti permessi';
 $string['phperror'] = 'Un errore PHP interno ha impedito di soddisfare la tua richiesta.';
 $string['position'] = 'Posizione';
 $string['postrequired'] = 'La funzione di eliminazione richiede una richiesta POST.';
+$string['privacy:metadata'] = 'Il plugin \'Iscrizioni remote MNet\' non memorizza dati personali.';
 $string['profileexportfields'] = 'Campi da inviare';
 $string['profilefielddesc'] = 'E\' possibile configurare l\'elenco dei campi del profilo utente da inviare e ricevere via MNet durante la creazione o l\'aggiornamento di utenti. E\' anche possibile alterare questa impostazione per ciascun nodo MNet. I seguenti campi saranno sempre inviati indipendentemente dalla configurazione: {$a}';
 $string['profilefields'] = 'Campi profilo utente';

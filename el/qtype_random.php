@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_random', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_random', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,9 @@ $string['includingsubcategories'] = 'Να συμπεριλαμβάνονται �
 $string['pluginname'] = 'Τυχαία';
 $string['pluginnameediting'] = 'Τροποποίηση μιας ερώτησης τυχαίου τύπου';
 $string['pluginname_help'] = 'Μια τυχαία ερώτηση δεν είναι ακριβώς ένας τύπος ερωτήματος, αλλά είναι ένας τρόπος να εισαχθεί μια τυχαία επιλεγμένη ερώτηση από μια δεδομένη κατηγορία σε μια δραστηριότητα.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Τύπος τυχαίας ερώτησης» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['randomqname'] = 'Τυχαία ({$a})';
 $string['randomqplusname'] = 'Τυχαία ({$a} και υποκατηγορίες)';
 $string['selectedby'] = '{$a->questionname} επιλεγμένο από {$a->randomname}';
 $string['selectmanualquestions'] = 'Οι ερωτήσεις τυχαίου τύπου μπορούν να χρησιμοποιούν ερωτήσεις που βαθμολογούνται χειροκίνητα';
+$string['taskunusedrandomscleanup'] = 'Κατάργηση τυχαίων ερωτήσεων που δεν χρησιμοποιούνται';

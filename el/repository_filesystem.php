@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_filesystem', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_filesystem', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_filesystem
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['nosubdir'] = 'Πρέπει να δημιουργήσετε τουλάχ
 $string['path'] = 'Επιλογή υποκατάλογου';
 $string['pluginname'] = 'Σύστημα Αρχείων';
 $string['pluginname_help'] = 'Δημιουργία αποθετηρίου από τοπικό κατάλογο';
+$string['privacy:metadata'] = 'Το πρόσθετο αποθετηρίου «Σύστημα αρχείων»  δεν αποθηκεύει ούτε μεταβιβάζει κανένα προσωπικό δεδομένο.';
 $string['relativefiles'] = 'Επιτρέπονται σχετικά αρχεία';
 $string['relativefiles_desc'] = 'Αυτό επιτρέπει πρόσβαση σε όλα τα αρχεία στο αποθετήριο με χρήση σχετικών συνδέσμων.';
 $string['root'] = 'Ρίζα';

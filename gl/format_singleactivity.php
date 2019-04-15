@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_singleactivity', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'format_singleactivity', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   format_singleactivity
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,5 +33,6 @@ $string['erroractivitytype'] = 'O tipo de actividade non está estabelecido na c
 $string['orphaned'] = 'Orfo';
 $string['orphanedwarning'] = 'Estas actividades son inalcanzábeis polos usuarios.';
 $string['pluginname'] = 'Formato de actividade única';
+$string['privacy:metadata'] = 'O engadido de formato de actividade única non almacena ningún dato persoal.';
 $string['sectionname'] = '';
 $string['warningchangeformat'] = 'Ao cambiar o formato do curso existente en «Actividade única», asegúrese de eliminar todas as actividades extras do curso que inclúen «Anuncios». Teña en conta que a estrutura das seccións pode modificarse.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mimetypes', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'mimetypes', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   mimetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['application/epub_zip'] = 'Ebook EPUB';
+$string['application/json'] = 'texto {$a->MIMETYPE2}';
 $string['application/msword'] = 'Documento Word';
 $string['application/pdf'] = 'Documento PDF';
 $string['application/vnd.moodle.backup'] = 'Cópia de segurança do Moodle';

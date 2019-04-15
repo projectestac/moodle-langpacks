@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'booktool_importhtml', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'booktool_importhtml', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   booktool_importhtml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,7 @@ $string['importhtml:import'] = 'Εισαγωγή κεφαλαίων';
 $string['importing'] = 'Εισαγωγή...';
 $string['importingchapters'] = 'Εισαγωγή κεφαλαίων στο βιβλίο...';
 $string['pluginname'] = 'Εισαγωγή κεφαλαίων βιβλίου';
+$string['privacy:metadata'] = 'Το πρόσθετο «Εισαγωγή κεφαλαίου βιβλίου» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['relinking'] = 'Επανασύνδεση';
 $string['type'] = 'Τύπος';
 $string['typeonefile'] = 'Ένα αρχείο HTML με επικεφαλίδες ως κεφάλαια';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_task', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['asap'] = 'Το ταχύτερο δυνατό';
+$string['backtoscheduledtasks'] = 'Επιστροφή στις προγραμματισμένες εργασίες';
 $string['blocking'] = 'Μπλοκάρισμα';
 $string['component'] = 'Στοιχείο λογισμικού';
 $string['corecomponent'] = 'Πυρήνας';
@@ -33,13 +34,18 @@ $string['default'] = 'Προεπιλογή';
 $string['disabled'] = 'Απενεργοποιημένο';
 $string['disabled_help'] = 'Οι απενεργοποιημένες προγραμματισμένες εργασίες δεν εκτελούνται από το cron, ωστόσο μπορούν να εκτελεστούν χειρονακτικά μέσω του εργαλείου CLI (Command-Line Interface).';
 $string['edittaskschedule'] = 'Επεξεργασία προγράμματος εργασιών: {$a}';
+$string['enablerunnow'] = 'Επιτρέψτε την επιλογή «Εκτέλεση τώρα» για προγραμματισμένες εργασίες';
+$string['enablerunnow_desc'] = 'Επιτρέπει στους διαχειριστές να εκτελούν μια προγραμματισμένη εργασία αμέσως, αντί να περιμένουν να εκτελεστεί όπως έχει προγραμματιστεί. Η εργασία εκτελείται στον εξυπηρετητή ιστού, έτσι ώστε ορισμένοι ιστότοποι ενδέχεται να επιθυμούν να απενεργοποιήσουν αυτήν τη λειτουργία, προκειμένου να αποφευχθούν τυχόν προβλήματα επιδόσεων.';
 $string['faildelay'] = 'Καθυστέρηση αποτυχίας';
 $string['lastruntime'] = 'Τελευταία εκτέλεση';
 $string['nextruntime'] = 'Επόμενη εκτέλεση';
 $string['plugindisabled'] = 'Το πρόσθετο είναι απενεργοποιημένο';
 $string['pluginname'] = 'Ρυθμίσεις προγραμματισμένων εργασιών';
+$string['privacy:metadata'] = 'Το πρόσθετο «Ρυθμίσεις προγραμματισμένων εργασιών» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['resettasktodefaults'] = 'Επαναφορά του προγράμματος εργασιών στις προεπιλογές';
 $string['resettasktodefaults_help'] = 'Αυτό θα απορρίψει τυχόν τοπικές αλλαγές και θα επαναφέρει το χρονοδιάγραμμα αυτής της εργασίας πίσω στις αρχικές του ρυθμίσεις.';
+$string['runnow'] = 'Εκτέλεση τώρα';
+$string['runnow_confirm'] = 'Σίγουρα θέλετε να εκτελέσετε αυτήν την εργασία «{$a}» τώρα; Η εργασία θα εκτελεστεί στον εξυπηρετητή ιστού και ενδέχεται να πάρει αρκετό χρόνο για να ολοκληρωθεί.';
 $string['scheduledtaskchangesdisabled'] = 'Τροποποιήσεις στη λίστα των προγραμματισμένων εργασιών έχουν αποτραπεί στις ρυθμίσεις του Moodle';
 $string['scheduledtasks'] = 'Προγραμματισμένες εργασίες';
 $string['taskdisabled'] = 'Εργασία απενεργοποιημένη';

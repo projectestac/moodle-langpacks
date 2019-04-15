@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'plugin', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,6 +54,7 @@ $string['err_response_http_code'] = 'Δεν είναι δυνατή η εξαγ�
 $string['filterall'] = 'Προβολή όλων';
 $string['filtercontribonly'] = 'Εμφάνιση επιπλέον πρόσθετων μόνο';
 $string['filterupdatesonly'] = 'Εμφάνιση μόνο ενημερώσιμων';
+$string['isenabled'] = 'Ενεργοποιημένο;';
 $string['misdepinfoplugin'] = 'Πληροφορίες πρόσθετου';
 $string['misdepinfoversion'] = 'Πληροφορίες έκδοσης';
 $string['misdepsavail'] = 'Διαθέσιμες εξαρτήσεις που λείπουν';
@@ -102,6 +103,7 @@ $string['status_new'] = 'Προς εγκατάσταση';
 $string['status_nodb'] = 'Δεν υπάρχει βάση δεδομένων';
 $string['status_upgrade'] = 'Προς ενημέρωση';
 $string['status_uptodate'] = 'Εγκατεστημένο';
+$string['supportedconversions'] = 'Υποστηριζόμενες μετατροπές εγγράφων';
 $string['supportedmoodleversions'] = 'Υποστηριζόμενες εκδόσεις Moodle';
 $string['systemname'] = 'Αναγνωριστικό';
 $string['type_antivirus'] = 'Αντι-ιικό πρόσθετο';
@@ -126,6 +128,9 @@ $string['type_editor'] = 'Επεξεργαστής κειμένου';
 $string['type_editor_plural'] = 'Επεξεργαστές κειμένου';
 $string['type_enrol'] = 'Μέθοδος εγγραφής';
 $string['type_enrol_plural'] = 'Μέθοδοι εγγραφής';
+$string['type_fileconverter'] = 'Μετατροπέας εγγράφων';
+$string['type_fileconvertermanage'] = 'Διαχείριση μετατροπέων εγγράφων';
+$string['type_fileconverter_plural'] = 'Μετατροπείς εγγράφων';
 $string['type_filter'] = 'Φίλτρο κειμένου';
 $string['type_filter_plural'] = 'Φίλτρα κειμένου';
 $string['type_format'] = 'Μορφότυπος μαθήματος';
@@ -144,6 +149,8 @@ $string['type_media'] = 'Πρόγραμμα αναπαραγωγής πολυμ�
 $string['type_media_plural'] = 'Προγράμματα αναπαραγωγής πολυμέσων';
 $string['type_message'] = 'Έξοδος μηνυμάτων';
 $string['type_message_plural'] = 'Έξοδοι μηνυμάτων';
+$string['type_mlbackend'] = 'Λογισμικό υποστήριξης μάθησης μηχανών';
+$string['type_mlbackend_plural'] = 'Λογισμικά υποστήριξης μάθησης μηχανών';
 $string['type_mnetservice'] = 'Υπηρεσία του MNet';
 $string['type_mnetservice_plural'] = 'Υπηρεσίες του MNet';
 $string['type_mod'] = 'Άρθρωμα δραστηριότητας';

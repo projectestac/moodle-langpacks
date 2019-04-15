@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_customlang', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,5 +56,6 @@ $string['placeholder_help'] = 'I segna posto sono elementi speciali presenti in 
 E\' fondamentale copiarli esattamente come appaiono nella stringa originale.  Non devono essere tradotti né cambiata la direzione sinistra-destra.';
 $string['placeholderwarning'] = 'la stringa contiene un segna posto';
 $string['pluginname'] = 'Personalizzazione lingua';
+$string['privacy:metadata'] = 'Il plugin \'Personalizzazione lingua\' non memorizza dati personali.';
 $string['savecheckin'] = 'Salva le modifiche nel language pack';
 $string['savecontinue'] = 'Applica le modifiche e continua a modificare';

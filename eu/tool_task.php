@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_task', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['asap'] = 'Ahal bezain laster (ASAP)';
+$string['backtoscheduledtasks'] = 'Itzuli programatutako zereginetara';
 $string['blocking'] = 'Blokeoak';
 $string['component'] = 'Osagaia';
 $string['corecomponent'] = 'Sistema';
@@ -33,13 +34,18 @@ $string['default'] = 'Lehenetsitakoa';
 $string['disabled'] = 'Desgaituta';
 $string['disabled_help'] = 'Desgaitutako programatutako zereginak ez dira cron-ean exekutatzen, baina CLI erremintaren bitartez exekutatzen jarrai daiteke.';
 $string['edittaskschedule'] = 'Editatu zereginaren programazioa: {$a}';
+$string['enablerunnow'] = 'Baimendu \'Exekutatu orain\' programatutako zereginetarako';
+$string['enablerunnow_desc'] = 'Baimendu kudeatzaileek zeregin bat edozein unetan exekutatzea, programatutako unean exekutatu arte itxaron behar izan beharrean. Zeregina web-zerbitzarian exekutatzen da, eta beraz kasu batzuetan funtzionalitate hau desgaitu nahiko duzu errendimendu arazo potentzialak ekiditeko.';
 $string['faildelay'] = 'Huts egitearen ondoriozko atzerapena';
 $string['lastruntime'] = 'Azken exekuzioa';
 $string['nextruntime'] = 'Hurrengo exekuzioa';
 $string['plugindisabled'] = 'Plugina desgaituta dago';
 $string['pluginname'] = 'Programatutako zereginen ezarpenak';
+$string['privacy:metadata'] = 'Programatutako zereginen ezarpenak pluginak ez du datu pertsonalik biltzen.';
 $string['resettasktodefaults'] = 'Berrabiarazi programatutako zeregina lehenetsitako balioetara';
 $string['resettasktodefaults_help'] = 'Honek lokalki egindako edozein aldaketa baztertu eta zeregin honen programazioa bere jatorrizko balioetara itzuliko du.';
+$string['runnow'] = 'Exekutatu orain';
+$string['runnow_confirm'] = 'Ziur zaude \'{$a}\' zeregina orain exekutatu nahi duzula? Zeregina web-zerbitzarian exekutatuko da eta denbora bat eman dezake osatu arte.';
 $string['scheduledtaskchangesdisabled'] = 'Moodle-ko konfigurazioan programatutako zereginen zerrendari aldaketak egitea ekidin da.';
 $string['scheduledtasks'] = 'Programatutako zereginak';
 $string['taskdisabled'] = 'Ataza desgaituta';

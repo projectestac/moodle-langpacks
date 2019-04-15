@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_uploadcourse', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_uploadcourse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -101,6 +101,7 @@ $string['mode_help'] = 'Honek aukera ematen dizu ikastaroak sortu edota egunerat
 $string['nochanges'] = 'Aldaketarik ez';
 $string['pluginname'] = 'Igo ikastaroa';
 $string['preview'] = 'Aurreikusi';
+$string['privacy:metadata'] = 'Igo ikastaroa pluginak ez du datu pertsonalik biltzen.';
 $string['reset'] = 'Berrabiarazi ikastaroa igo ondoren';
 $string['reset_help'] = 'Ikastaroa sortu/eguneratu ondoren berrabiarazi edo ez';
 $string['restoreafterimport'] = 'Berreskuratu inportatu ondoren';

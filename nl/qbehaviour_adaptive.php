@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_adaptive', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_adaptive', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_adaptive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,3 +37,4 @@ $string['gradingdetailswithpenalty'] = 'Cijfers voor deze inzending: {$a->raw}/{
 $string['gradingdetailswithtotalpenalty'] = 'Cijfers voor deze inzending: {$a->raw}/{$a->max}.  Deze inzending heeft een strafpunt gekregen van {$a->penalty}. Totaal aantal strafpunten tot nu toe: {$a->totalpenalty}';
 $string['notcomplete'] = 'Niet compleet';
 $string['pluginname'] = 'Adaptieve modus';
+$string['privacy:metadata'] = 'De adaptieve modus vraaggedragsplugin bewaart geen persoonlijke gegevens.';

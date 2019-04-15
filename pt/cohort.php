@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cohort', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cohort', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   cohort
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -63,7 +63,7 @@ $string['external'] = 'Grupo global externo';
 $string['idnumber'] = 'ID';
 $string['memberscount'] = 'Tamanho';
 $string['name'] = 'Nome';
-$string['namecolumnmissing'] = 'Há algo de errado com o formato do ficheiro CSV. Por favor, verifique que inclui os nomes das coluna.';
+$string['namecolumnmissing'] = 'Existe algo errado com o formato do ficheiro CSV. Por favor, verifique se estão incluídos os nomes corretos das colunas. Para adicionar utilizadores a um Grupo Global, aceda a  "Carregar utilizadores" na Administração do Site.';
 $string['namefieldempty'] = 'O campo \'Nome\' não pode estar vazio';
 $string['newidnumberfor'] = 'Novo ID para o grupo global {$a}';
 $string['newnamefor'] = 'Novo nome para o grupo global {$a}';
@@ -71,6 +71,10 @@ $string['nocomponent'] = 'Criado manualmente';
 $string['potusers'] = 'Utilizadores potenciais';
 $string['potusersmatching'] = 'Utilizadores potenciais para correspondência';
 $string['preview'] = 'Pré-visualização';
+$string['privacy:metadata:cohort_members'] = 'Informação sobre o grupo de utilizadores';
+$string['privacy:metadata:cohort_members:cohortid'] = 'O ID do grupo';
+$string['privacy:metadata:cohort_members:timeadded'] = 'O tempo exato de indicação de quando o utilizador foi adicionado ao grupo';
+$string['privacy:metadata:cohort_members:userid'] = 'O ID do utilizador associado ao grupo';
 $string['removeuserwarning'] = 'Remover utilizadores dos Grupos globais significa desinscrevê-los de várias disciplinas, o que faz com que estes percam as suas configurações, notas, grupos e outras informações nessas disciplinas.';
 $string['search'] = 'Procurar';
 $string['searchcohort'] = 'Procurar Grupos globais';

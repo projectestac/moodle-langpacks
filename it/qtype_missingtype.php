@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_missingtype', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_missingtype', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_missingtype
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,4 +34,5 @@ $string['missingqtypewarning'] = 'Questa domanda e di un tipo non installato. No
 $string['pluginname'] = 'Tipo di domanda mancante';
 $string['pluginnameadding'] = 'Aggiunta di un tipo di domanda non installato su questo sistema';
 $string['pluginnameediting'] = 'Modifica tipo di domanda non installato su questo sistema.';
+$string['privacy:metadata'] = 'Il plugin Tipo di domande \'Scelta delle parole mancanti\' non memorizza dati personali.';
 $string['warningmissingtype'] = '<b>Questa domanda è di un tipo non  installato sul vostro Moodle.<br />Per favore avverti il tuo amministratore.</b>';

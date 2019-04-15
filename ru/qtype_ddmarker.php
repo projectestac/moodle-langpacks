@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,6 +73,7 @@ $string['pluginname_help'] = 'Перетаскивание маркеров тр
 $string['pluginnamesummary'] = 'Маркеры перетаскиваются на фоновое изображение.';
 $string['previewareaheader'] = 'Предварительный просмотр';
 $string['previewareamessage'] = 'Выберите файл с фоновым изображением, введите текстовые метки для маркеров и определите зоны на фоновом изображении, куда они должны перетаскиваться.';
+$string['privacy:metadata'] = 'Плагин «Тип вопроса Перетаскивание маркеров» не хранит никаких персональных данных.';
 $string['refresh'] = 'Обновить предпросмотр';
 $string['shape'] = 'Фигура';
 $string['shape_circle'] = 'Окружность';

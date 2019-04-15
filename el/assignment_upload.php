@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignment_upload', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignment_upload', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   assignment_upload
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['event_assessable_submitted'] = 'Έχει υποβληθεί μια υποβολή ανεβάσματος.';
 $string['event_assessable_uploaded'] = 'Ένα αρχείο έχει ανεβεί.';
 $string['pluginname'] = 'Ανέβασμα';
+$string['privacy:metadata'] = 'Το πρόσθετο «Upload assignment» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

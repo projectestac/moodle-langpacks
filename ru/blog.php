@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'blog', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -135,6 +135,29 @@ $string['pagesize'] = 'Количество записей блога на ст�
 $string['permalink'] = 'Постоянная ссылка';
 $string['personalblogs'] = 'Каждому пользователю доступен только его собственный блог';
 $string['preferences'] = 'Настройки блога';
+$string['privacy:metadata:core_comments'] = 'Комментарии, связанные с записями блога';
+$string['privacy:metadata:core_files'] = 'Файлы, прикрепленные к записям блога';
+$string['privacy:metadata:core_tag'] = 'Теги, связанные с записями блога';
+$string['privacy:metadata:external'] = 'Ссылка на внешнюю ленту RSS';
+$string['privacy:metadata:external:description'] = 'Описание ленты';
+$string['privacy:metadata:external:filtertags'] = 'Список тегов для фильтрации записей';
+$string['privacy:metadata:external:name'] = 'Название ленты';
+$string['privacy:metadata:external:timefetched'] = 'Дата, когда лента последний раз была получена';
+$string['privacy:metadata:external:timemodified'] = 'Дата, когда связь последний раз была изменена';
+$string['privacy:metadata:external:url'] = 'URL ленты';
+$string['privacy:metadata:external:userid'] = 'ID пользователя, который добавил запись во внешний блог.';
+$string['privacy:metadata:post'] = 'Информация, связанная с записями блога';
+$string['privacy:metadata:post:content'] = 'Содержимое внешней записи блога.';
+$string['privacy:metadata:post:created'] = 'Дата, когда запись была создана.';
+$string['privacy:metadata:post:lastmodified'] = 'Дата, когда запись была последний раз изменена.';
+$string['privacy:metadata:post:publishstate'] = 'Видима запись другим людям или нет';
+$string['privacy:metadata:post:subject'] = 'Заголовок записи блога.';
+$string['privacy:metadata:post:summary'] = 'Запись блога.';
+$string['privacy:metadata:post:uniquehash'] = 'Уникальный идентификатор внешней записи, обычно URL.';
+$string['privacy:metadata:post:userid'] = 'ID пользователя, добавившего запись в блог.';
+$string['privacy:metadata:post:usermodified'] = 'Пользователь, который последним менял запись';
+$string['privacy:path:blogassociations'] = 'Связанные записи блога';
+$string['privacy:unknown'] = 'Неизвестно';
 $string['publishto'] = 'Опубликовать';
 $string['publishtocourse'] = 'Участники моего курса';
 $string['publishtocourseassoc'] = 'Участники связанного курса';

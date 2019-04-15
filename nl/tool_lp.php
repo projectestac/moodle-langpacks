@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lp', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,7 @@ $string['aisrequired'] = '\'{$a}\' is vereist';
 $string['aplanswerecreated'] = '{$a} studieplannen gemaakt';
 $string['aplanswerecreatedmoremayrequiresync'] = '{$a} studieplannen werden gemaakt; er zullen er meer gemaakt worden tijdens de volgende synchronisatie.';
 $string['assigncohorts'] = 'Site-groepen toewijzen';
-$string['averageproficiencyrate'] = 'Het gemiddelde slaagcijfer voor voltooide studieplannen gebaseerd op dit sjabloon is {$a}%';
+$string['averageproficiencyrate'] = 'Het gemiddelde slaagcijfer voor voltooide studieplannen gebaseerd op dit sjabloon is {$a}%.';
 $string['cancelreviewrequest'] = 'Annuleer beoordelingsverzoek';
 $string['cannotaddrules'] = 'Deze competentie kan niet geconfigureerd worden.';
 $string['cannotcreateuserplanswhentemplateduedateispassed'] = 'Er kunnen geen nieuwe studieplannen gemaakt worden. De einddatum in het sjabloon is voorbij of bijna voorbij.';
@@ -179,6 +179,7 @@ $string['planupdated'] = 'Studieplan aangepast';
 $string['pluginname'] = 'Studieplannen';
 $string['points'] = 'Punten';
 $string['pointsgivenfor'] = 'Punten gegeven voor \'{$a}\'';
+$string['privacy:metadata'] = 'De Learning plans-plugin bewaart geen persoonlijke gegevens.';
 $string['proficient'] = 'Geslaagd';
 $string['progress'] = 'Vordering';
 $string['rate'] = 'Beoordeel';

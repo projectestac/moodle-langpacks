@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'my', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   my
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['nocourses'] = 'Non sono presenti informazioni sui corsi.';
 $string['noguest'] = 'La Dashboard non è disponibile agli ospiti.';
 $string['pinblocks'] = 'Configura i blocchi forzati per "My Moodle"';
 $string['pinblocksexplan'] = 'Le configurazioni dei blocchi qui impostate saranno visibili (e non modificabili) a tutti gli utenti nella lora pagina "My Moodle".';
+$string['privacy:metadata:core_my:preference:user_home_page_preference'] = 'Preferenza pagina Home dell\'utente configurata per la Dashboard.';
 $string['reseterror'] = 'Si è verificato un errore durante la reimpostazione della pagina';
 $string['reseteveryonesdashboard'] = 'Reimposta le dashboard di tutti gli utenti';
 $string['reseteveryonesprofile'] = 'Reimposta le pagine del profilo di tutti gli utenti';

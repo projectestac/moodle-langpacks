@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'data', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,6 +56,8 @@ $string['availabletodatevalidation'] = 'A data «dispoñíbel ata» non pode ser
 $string['blank'] = 'En branco';
 $string['buttons'] = 'Accións';
 $string['bynameondate'] = 'por {$a->name} - {$a->date}';
+$string['calendarend'] = '{$a} pechan';
+$string['calendarstart'] = '{$a} abren';
 $string['cancel'] = 'Cancelar';
 $string['cannotaccesspresentsother'] = 'Non se lle permite acceder ás predefinicións doutros usuarios';
 $string['cannotadd'] = 'Non se pode engadir entradas!';
@@ -74,6 +76,9 @@ $string['comments'] = 'Comentarios';
 $string['commentsaved'] = 'Comentario gardado';
 $string['commentsn'] = '{$a} comentario(s)';
 $string['commentsoff'] = 'A funcionalidade de comentarios non está activa';
+$string['completionentries'] = 'Requirir entradas';
+$string['completionentriescount'] = 'Número de entradas';
+$string['completionentriesdesc'] = 'Número mínimo de entradas requiridas: {$a}';
 $string['configenablerssfeeds'] = 'Este interruptor activará a posibilidade de fontes RSS para todas as bases de datos. Aínda será necesario acender as fontes manualmente na configuración de cada base de datos.';
 $string['confirmdeletefield'] = 'Vai eliminar este campo, confirma que o quere facer?';
 $string['confirmdeleterecord'] = 'Confirma que quere eliminar esta entrada?';
@@ -198,8 +203,13 @@ $string['headersingletemplate'] = 'Definir a interface de navegación para unha 
 $string['importentries'] = 'Importar entradas';
 $string['importsuccess'] = 'A predefinición aplicouse correctamente.';
 $string['includeapproval'] = 'Incluír estado de aprobación';
+$string['includetags'] = 'Incluír as etiquetas';
 $string['includetime'] = 'Include time added/modified';
 $string['includeuserdetails'] = 'Incluír detalles do usuario';
+$string['indicator:cognitivedepth'] = 'Base de datos cognitiva';
+$string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de base de datos.';
+$string['indicator:socialbreadth'] = 'Base de datos social';
+$string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de base de datos.';
 $string['insufficiententries'] = 'necesítanse máis entradas para ver esta base de datos';
 $string['intro'] = 'Descrición';
 $string['invalidaccess'] = 'Non se accedeu correctamente a esta páxina';
@@ -304,12 +314,31 @@ $string['pluginname'] = 'Base de datos';
 $string['portfolionotfile'] = 'Exportar a un cartafol antes ca a un ficheiro (soamente csv e leap2a)';
 $string['presetinfo'] = 'Ao gardalo como un predefinido publicarase este modelo. Outros usuarios poderán usalo nas súas bases de datos.';
 $string['presets'] = 'Predefinicións';
+$string['privacy:metadata:commentpurpose'] = 'Comentarios nos rexistros da base de datos';
+$string['privacy:metadata:data_content'] = 'Representa unha resposta a un campo no módulo de actividade da base de datos';
+$string['privacy:metadata:data_content:content'] = 'Contido';
+$string['privacy:metadata:data_content:content1'] = 'Contido adicional 1';
+$string['privacy:metadata:data_content:content2'] = 'Contido adicional 2';
+$string['privacy:metadata:data_content:content3'] = 'Contido adicional 3';
+$string['privacy:metadata:data_content:content4'] = 'Contido adicional 4';
+$string['privacy:metadata:data_content:fieldid'] = 'ID de definición de campo';
+$string['privacy:metadata:datafieldnpluginsummary'] = 'Campos para o módulo de actividade da base de datos';
+$string['privacy:metadata:data_records'] = 'Representan rexistros no módulo de actividade da base de datos';
+$string['privacy:metadata:data_records:approved'] = 'Estado de aprobación';
+$string['privacy:metadata:data_records:groupid'] = 'Grupo';
+$string['privacy:metadata:data_records:timecreated'] = 'O momento no que se creou o rexistro';
+$string['privacy:metadata:data_records:timemodified'] = 'O momento no que o rexistro foi modificado por última vez';
+$string['privacy:metadata:data_records:userid'] = 'Usuario que creou o rexistro';
+$string['privacy:metadata:filepurpose'] = 'Ficheiro anexo ao rexistro da base de datos';
+$string['privacy:metadata:ratingpurpose'] = 'Puntuación nos rexistros da base de datos';
+$string['privacy:metadata:tagpurpose'] = 'Etiquetas nos rexistros da base de datos';
 $string['radiobutton'] = 'Botóns de radio';
 $string['recordapproved'] = 'Entrada aprobada';
 $string['recorddeleted'] = 'Entrada eliminada';
 $string['recorddisapproved'] = 'Entrada non aprobada';
 $string['recordsnotsaved'] = 'Non se gardou ningunha entrada. Comprobe o formato do ficheiro subido.';
 $string['recordssaved'] = 'entradas gardadas';
+$string['removealldatatags'] = 'Retirar todas as etiquetas da base de datos';
 $string['requireapproval'] = 'Solicita aprobación?';
 $string['requireapproval_help'] = 'De estar activada, as entradas requiren a aprobación por un profesor antes de ser visíbeis para calquera';
 $string['required'] = 'Requirido';
@@ -319,6 +348,7 @@ $string['requiredentriestoview'] = 'Entradas requiridas antes da visualización'
 $string['requiredentriestoview_help'] = 'O número de entradas que se lle pide que envíe un alumno antes de que poida ver as entradas doutros alumnos.
 
 Nota: De requirir entradas antes da vista previa, o filtro de autoligado da base de datos debería desactivarse. Isto é así porque o filtro de autoligado da base de datos non pode determinar cando un usuario enviou o número requirido de entradas.';
+$string['requiredentrieswarning'] = 'Este axusten foi substituído por un axuste de completado da actividade «Requirir entradas»';
 $string['requiredfield'] = 'Campo requirido';
 $string['resetsettings'] = 'Reiniciar os filtros';
 $string['resettemplate'] = 'Reiniciar o modelo';
@@ -346,6 +376,9 @@ $string['subplugintype_datafield'] = 'Tipo de campo de base de datos';
 $string['subplugintype_datafield_plural'] = 'Tipos de campo de base de datos';
 $string['subplugintype_datapreset'] = 'Predefinición';
 $string['subplugintype_datapreset_plural'] = 'Predefinicións';
+$string['tagarea_data_records'] = 'Rexistros de datos';
+$string['tags'] = 'Etiquetas';
+$string['tagsdeleted'] = 'As etiquetas da base de datos foron eliminadas';
 $string['teachersandstudents'] = '{$a->teachers} e {$a->students}';
 $string['templates'] = 'Modelos';
 $string['templatesaved'] = 'Modelo gardado';

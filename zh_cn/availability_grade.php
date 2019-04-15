@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_grade', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability_grade', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   availability_grade
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['missing'] = '没有活动';
 $string['option_max'] = '必须小于';
 $string['option_min'] = '必须大于或等于';
 $string['pluginname'] = '以分数作为限制';
+$string['privacy:metadata'] = '成绩插件的限制不储存任何私人数据。';
 $string['requires_any'] = '你在<strong>{$a}</strong>有一个分数';
 $string['requires_max'] = '你在<strong>{$a}</strong>获得的分数令人满意';
 $string['requires_min'] = '你在<strong>{$a}</strong>的分数达到要求';

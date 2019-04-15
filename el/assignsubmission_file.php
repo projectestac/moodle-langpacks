@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignsubmission_file', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,10 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['acceptedfiletypes'] = 'Αποδεκτοί τύποι αρχείου';
-$string['acceptedfiletypes_help'] = 'Οι αποδεκτοί τύποι αρχείου μπορούν να περιοριστούν εισάγοντας μια λίστα με mimetypes διαχωρισμένα με κόμμα, π.χ. video/mp4, audio/mp3, image/png, image/jpeg, ή τις επεκτάσεις αρχείων συμπεριλαμβάνοντας μια τελεία, π.χ. .png, .jpg. Αν το πεδίο μείνει κενό, τότε επιτρέπονται όλοι οι τύποι αρχείων.';
+$string['acceptedfiletypes_help'] = 'Οι αποδεκτοί τύποι αρχείων μπορούν να περιοριστούν εισάγοντας μια λίστα με επεκτάσεις αρχείων. Αν το πεδίο αφεθεί κενό, τότε επιτρέπονται όλοι οι τύποι αρχείων.';
 $string['configmaxbytes'] = 'Μέγιστο μέγεθος αρχείου';
 $string['countfiles'] = '{$a} αρχεία';
 $string['default'] = 'Ενεργοποιημένο από προεπιλογή';
+$string['defaultacceptedfiletypes'] = 'Προεπιλεγμένοι αποδεκτοί τύποι αρχείου';
 $string['default_help'] = 'Αν οριστεί, αυτή η μέθοδος υποβολής θα ενεργοποιηθεί από προεπιλογή για όλες τις νέες αναθέσεις.';
 $string['enabled'] = 'Υποβολές αρχείων';
 $string['enabled_help'] = 'Εάν ενεργοποιηθεί, οι μαθητές έχουν τη δυνατότητα να ανεβάσουν ένα ή περισσότερα αρχεία ως υποβολή τους.';
@@ -47,5 +48,6 @@ $string['maximumsubmissionsize_help'] = 'Τα αρχεία που ανεβάζο
 $string['nonexistentfiletypes'] = 'Οι ακόλουθοι τύποι αρχείων δεν αναγνωρίστηκαν: {$a}';
 $string['numfilesforlog'] = 'Ο αριθμός των αρχείων: {$a} αρχεία.';
 $string['pluginname'] = 'Υποβολές αρχείων';
+$string['privacy:metadata:filepurpose'] = 'Τα αρχεία που φορτώθηκαν για αυτή την υποβολή εργασίας.';
 $string['siteuploadlimit'] = 'Όριο ταχύτητας upload του ιστοτόπου';
 $string['submissionfilearea'] = 'Ανεβασμένα αρχεία υποβολής';

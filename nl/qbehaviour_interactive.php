@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_interactive', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_interactive', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_interactive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,5 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Interactief met meerdere pogingen';
+$string['privacy:metadata'] = 'De interactief met meerdere pogingen vraaggedrag-plugin bewaart geen persoonlijke gegevens.';
 $string['triesremaining'] = 'Overblijvende pogingen: {$a}';
 $string['tryagain'] = 'Probeer opnieuw';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopeval_best', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopeval_best', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopeval_best
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,3 +34,4 @@ $string['comparisonlevel7'] = 'tollerante';
 $string['comparisonlevel9'] = 'molto tollerante';
 $string['configcomparison'] = 'Il valore di default della precisione  con cui sono confrontate le valutazioni.';
 $string['pluginname'] = 'Confronto con la valutazione migliore';
+$string['privacy:metadata'] = 'Il plugin \'Confronto con la valutazione migliore\'. I dati personali effettivi su chi andrà a valutare chi sono memorizzati nel modulo Workshop e costituiscono la base per l\'esportazione dei dettagli sulle valutazioni.';

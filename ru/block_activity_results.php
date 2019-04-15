@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_activity_results', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_activity_results', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   block_activity_results
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -63,6 +63,7 @@ $string['error_nogroupsexist'] = 'Ошибка: блок настроен пок
 $string['error_unsupportedgradetype'] = 'Ошибка: выбранный элемент курса использует метод оценки, который не поддерживается данным блоком.';
 $string['notyetgraded'] = 'Еще не оценено';
 $string['pluginname'] = 'Оценки за элемент курса';
+$string['privacy:metadata'] = 'Блок «Оценки за элемент курса» только показывает данные, хранящиеся в других местах.';
 $string['unknown'] = 'Неизвестная шкала';
 $string['worstgrade'] = 'Самая низкая оценка:';
 $string['worstgrades'] = '{$a} самых низких оценок:';

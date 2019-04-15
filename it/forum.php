@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'forum', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -84,12 +84,15 @@ $string['cleanreadtime'] = 'Ora per spuntare come letti i messaggi vecchi';
 $string['clicktosubscribe'] = 'Non hai sottoscritto questa discussione, Click per sottoscriverla.';
 $string['clicktounsubscribe'] = 'Hai sottoscritto la discussione. Click per revocare la sottoscrizione.';
 $string['completiondiscussions'] = 'L\'utente deve iniziare il seguente numero di discussioni:';
+$string['completiondiscussionsdesc'] = 'Lo studente deve avviare almeno il seguente numero di discussioni: {$a}';
 $string['completiondiscussionsgroup'] = 'Numero minimo discussioni';
 $string['completiondiscussionshelp'] = 'è necessario un numero minimo di discussioni';
 $string['completionposts'] = 'L\'utente deve effettuare il seguente numero di discussioni o di interventi:';
+$string['completionpostsdesc'] = 'L\'utente deve effettuare almeno {$a} discussioni o interventi';
 $string['completionpostsgroup'] = 'Numero minimo interventi';
 $string['completionpostshelp'] = 'è necessario un numero minimo di discussioni o di interventi';
 $string['completionreplies'] = 'L\'utente deve inviare il seguente numero di risposte:';
+$string['completionrepliesdesc'] = 'L\'utente deve effettuare almeno {$a} interventi';
 $string['completionrepliesgroup'] = 'Numero minimo risposte';
 $string['completionreplieshelp'] = 'è necessario un numero minimo di interventi';
 $string['configcleanreadtime'] = 'L\'ora del giorno in cui la tabella \'lettura\' vien ripulita dai messaggi vecchi.';
@@ -106,6 +109,7 @@ $string['configreplytouser'] = 'Nelle email inviate dai forum, di default compar
 $string['configrssarticlesdefault'] = 'Imposta il numero di default di articoli (interventi o discussioni) quando i feed RSS sono abilitati.';
 $string['configrsstypedefault'] = 'Imposta il tipo di attività di default quando i feed RSS sono abilitati.';
 $string['configshortpost'] = 'Gli interventi al di sotto del numero di caratteri specificato (escludendo i tag HTML) saranno considerati "brevi".';
+$string['configsubscriptiontype'] = 'Impostazioni di default della sottoscrizione';
 $string['configtrackingtype'] = 'Il tipo di evidenziamento dei messaggi di default.';
 $string['configtrackreadposts'] = 'Impostare a \'Si\' se si desidera tracciare lo stato "letto/non letto" per ciascun utente.';
 $string['configusermarksread'] = 'Con "Si", l\'utente deve spuntare manualmente un intervento come "letto". Con "No", l\'intervento viene automaticamente considerato "letto" all\'atto della visualizzazione.';
@@ -227,6 +231,7 @@ $string['forum:addquestion'] = 'Aggiungere domanda';
 $string['forum:allowforcesubscribe'] = 'Consentire sottoscrizione obbligatoria';
 $string['forumauthorhidden'] = 'Autore (nascosto)';
 $string['forumblockingalmosttoomanyposts'] = 'Stai per raggiungere il limite degli interventi permessi. Hai inviato {$a->numposts} interventi negli ultimi {$a->blockperiod} giorni. Il limite è di {$a->blockafter} interventi.';
+$string['forumbodydeleted'] = 'Il contenuto di questo forum è stato rimosso e non può più essere visualizzato.';
 $string['forumbodyhidden'] = 'Non puoi visualizzare questo intervento, probabilmente perché non hai ancora effettuato interventi nella discussione, non è ancora trascorso il tempo massimo per l\'editing dei messaggi,  la discussione non è ancora cominciata oppure è terminata.';
 $string['forum:canoverridediscussionlock'] = 'Intervenire in discussioni bloccate';
 $string['forum:canposttomygroups'] = 'Inserire interventi in tutti i gruppi dove si ha accesso';
@@ -238,7 +243,7 @@ $string['forum:exportdiscussion'] = 'Esportare intera discussione';
 $string['forum:exportownpost'] = 'Esportare propri interventi';
 $string['forum:exportpost'] = 'Esportare intervento';
 $string['forumintro'] = 'Descrizione';
-$string['forum:managesubscriptions'] = 'Gestire le sottoscrizioni';
+$string['forum:managesubscriptions'] = 'Gestire sottoscrittori';
 $string['forum:movediscussions'] = 'Spostare le discussioni';
 $string['forumname'] = 'Nome del forum';
 $string['forum:pindiscussions'] = 'Mettere in evidenza discussioni';
@@ -250,6 +255,7 @@ $string['forum:replypost'] = 'Rispondere agli interventi';
 $string['forums'] = 'Forum';
 $string['forum:splitdiscussions'] = 'Dividere discussioni';
 $string['forum:startdiscussion'] = 'Iniziare una nuova discussione';
+$string['forumsubjectdeleted'] = 'L\'intervento è stato rimosso';
 $string['forumsubjecthidden'] = 'Oggetto (nascosto)';
 $string['forumtracked'] = 'Gli interventi non letti sono tracciati';
 $string['forumtrackednot'] = 'Gli interventi non letti non sono tracciati';
@@ -271,6 +277,10 @@ $string['forum:viewsubscribers'] = 'Visualizzare i sottoscrittori';
 $string['generalforum'] = 'Forum standard per uso generale';
 $string['generalforums'] = 'Forum per uso generale';
 $string['hiddenforumpost'] = 'Intervento nascosto';
+$string['indicator:cognitivedepth'] = 'Forum cognitivo';
+$string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività \'forum\'.';
+$string['indicator:socialbreadth'] = 'Forum sociale';
+$string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività \'forum\'.';
 $string['inforum'] = 'in {$a}';
 $string['introblog'] = 'I post di questo forum sono stati copiati automaticamente dai blog degli utenti iscritti al corso poiché tali interventi blog non sono più disponibili';
 $string['intronews'] = 'Annunci e news di carattere generale';
@@ -291,6 +301,8 @@ $string['lockdiscussionafter_help'] = 'Le discussioni possono essere bloccate au
 Gli utenti con il privilegio di intervenire in discussioni bloccate potranno sbloccare la discussione semplicemente inviando una risposta.';
 $string['longpost'] = 'Intervento lungo';
 $string['mailnow'] = 'Invia l\'intervento immediatamente senza attendere il tempo per la modifica.';
+$string['managesubscriptionsoff'] = 'Termina gestione sottoscrizioni';
+$string['managesubscriptionson'] = 'Gestione sottoscrittori';
 $string['manydiscussions'] = 'Discussioni per pagina';
 $string['markalldread'] = 'Segna come letti tutti gli interventi in questa discussione.';
 $string['markallread'] = 'Segna come letti tutti gli interventi in questo forum.';
@@ -322,13 +334,13 @@ $string['modeflatoldestfirst'] = 'Visualizza le repliche in formato lineare, con
 $string['modenested'] = 'Visualizza le repliche in formato nidificato';
 $string['modethreaded'] = 'Visualizza le repliche in formato per oggetto';
 $string['modulename'] = 'Forum';
-$string['modulename_help'] = 'Il modulo di attività forum consente di tenere discussioni asincrone tra i partecipanti, la cui durata è prolungata nel tempo.
+$string['modulename_help'] = 'Il modulo attività Forum consente di tenere discussioni asincrone tra i partecipanti, la cui durata è prolungata nel tempo.
 
 Sono disponibili diversi tipi di forum tra cui scegliere,  forum standard dove chiunque può avviare una discussione, forum dove ciascuno studente può avviare una sola discussioni, forum domande e risposte, dove lo studente deve intervenire prima di poter visualizzare gli interventi degli altri. E\' possibile consentire file allegati. Se gli allegati sono immagini saranno visualizzate direttamente nel corpo dell\'intervento.
 
 I partecipanti possono sottoscrivere il forum per ricevere notifiche di nuovi interventi. Il docente può impostare la sottoscrizione al forum come facoltativa, obbligatoria, automatica. oppure può non consentirne la sottoscrizione. In caso di necessità è anche possibile bloccare studenti che abbiano postato più di un certo numero di interventi in un dato intervallo di tempo, riducendo il rischio che qualcuno domini la discussione.
 
-Gli interventi nei forum possono essere valutati dal docente o dagli stessi studenti (valutazione tra pari). I punteggi ottenuti vengono aggregati e memorizzati nel registro del valutatore.
+Gli interventi nei forum possono essere valutati dal docente o dagli stessi studenti (valutazione tra pari). I punteggi ottenuti vengono aggregati e memorizzati nel registro valutatore.
 
 E\' possibile usare il forum per:
 
@@ -381,7 +393,7 @@ $string['notrackforum'] = 'Non evidenziare messaggi non letti';
 $string['notsubscribed'] = 'Sottoscrivi';
 $string['noviewdiscussionspermission'] = 'Non sei autorizzato a vedere le discussioni in questo forum';
 $string['nowallsubscribed'] = 'Hai sottoscritto tutti i forum presenti in {$a}.';
-$string['nowallunsubscribed'] = 'Sei stato rimosso da tutti in forum presenti in {$a}.';
+$string['nowallunsubscribed'] = 'Sei stato rimosso da tutti i forum presenti in {$a}.';
 $string['nownotsubscribed'] = 'L\'utente  {$a->name} NON riceverà più notifiche di nuovi interventi dal forum \'{$a->forum}\'.';
 $string['nownottracking'] = '{$a->name} non sta più evidenziando i messaggi in \'{$a->forum}\'.';
 $string['nowsubscribed'] = 'L\'utente {$a->name} riceverà notifiche di nuovi interventi dal forum \'{$a->forum}\'.';
@@ -427,6 +439,60 @@ $string['posttomygroups_help'] = 'L\'intervento sarà copiato in tutti i gruppi 
 $string['postupdated'] = 'Il tuo intervento è stato aggiornato';
 $string['potentialsubscribers'] = 'Utenti che non hanno sottoscritto il forum';
 $string['prevdiscussiona'] = 'Discussione precedente: {$a}';
+$string['privacy:digesttypenone'] = 'In questo forum n on vengono memorizzate informazioni relative alla preferenza sul tipo di raccolta email.';
+$string['privacy:digesttypepreference'] = 'Hai scelto di ricevere il seguente tipo di raccolta email: "{$a->type}".';
+$string['privacy:discussionsubscriptionpreference'] = 'Hai scelto le seguenti preferenze di sottoscrizione alla discussione per questo forum: "{$a->preference}"';
+$string['privacy:metadata:core_rating'] = 'Il forum utilizza il sottosistema di valutazione per supportare la valutazione degli interventi.';
+$string['privacy:metadata:core_tag'] = 'Il forum utilizza il sottosistema tag per supportare i tag negli interventi.';
+$string['privacy:metadata:forum_digests'] = 'Informazioni sulle preferenze per la raccolta emaild ei forum.';
+$string['privacy:metadata:forum_digests:forum'] = 'Sottoscrizioni ai forum.';
+$string['privacy:metadata:forum_digests:maildigest'] = 'Preferenza raccolta email.';
+$string['privacy:metadata:forum_digests:userid'] = 'ID dell\'utente con preferenza raccolta email.';
+$string['privacy:metadata:forum_discussions'] = 'Informazioni sulle singole discussioni create dall\'utente sul forum.';
+$string['privacy:metadata:forum_discussions:assessed'] = 'TODOD - cosa memorizza questo campo';
+$string['privacy:metadata:forum_discussions:name'] = 'Titolo della discussione scelto dall\'autore.';
+$string['privacy:metadata:forum_discussions:timemodified'] = 'Data e ora di ultima modifica della discussione.';
+$string['privacy:metadata:forum_discussion_subs'] = 'Informazioni sulle sottoscrizioni alle singole discussioni sul forum.';
+$string['privacy:metadata:forum_discussion_subs:discussionid'] = 'ID della discussione sottoscritta.';
+$string['privacy:metadata:forum_discussion_subs:preference'] = 'Data e ora di inizio della sottoscrizione.';
+$string['privacy:metadata:forum_discussion_subs:userid'] = 'ID dell\'utente che ha sottoscritto la discussione.';
+$string['privacy:metadata:forum_discussions:userid'] = 'ID dell\'utente che ha creato la discussione.';
+$string['privacy:metadata:forum_discussions:usermodified'] = 'ID dell\'utente che ha apportato le ultime modifiche alla discussione.';
+$string['privacy:metadata:forum_posts'] = 'Informazioni sulle preferenze per raccolta email di ogni forum.';
+$string['privacy:metadata:forum_posts:created'] = 'Orario di creazione dell\'intervento sul forum.';
+$string['privacy:metadata:forum_posts:discussion'] = 'Discussione di appartenenza dell\'intervento.';
+$string['privacy:metadata:forum_posts:message'] = 'Messaggio dell\'intervento sul forum.';
+$string['privacy:metadata:forum_posts:modified'] = 'Orario di modifica più recente dell\'intervento sul forum.';
+$string['privacy:metadata:forum_posts:parent'] = 'Intervento genitore che ha ricevuto una risposta.';
+$string['privacy:metadata:forum_posts:subject'] = 'Oggetto dell\'intervento sul forum.';
+$string['privacy:metadata:forum_posts:totalscore'] = 'Messaggio dell\'intervento sul forum.';
+$string['privacy:metadata:forum_posts:userid'] = 'ID dell\'utente che ha scritto l\'intervento.';
+$string['privacy:metadata:forum_queue'] = 'Log temporaneo degli interventi che saranno inviati come raccolta';
+$string['privacy:metadata:forum_queue:discussionid'] = 'ID della discussione sul forum';
+$string['privacy:metadata:forum_queue:postid'] = 'ID dell\'intervento sul forum';
+$string['privacy:metadata:forum_queue:timemodified'] = 'Orario di modifica dell\'intervento originale';
+$string['privacy:metadata:forum_queue:userid'] = 'Utente che deve essere avvertito sull\'intervento';
+$string['privacy:metadata:forum_read'] = 'Informazioni sugli interventi letti dall\'utente.';
+$string['privacy:metadata:forum_read:discussionid'] = 'Discussione di appartenenza dell\'intervento.';
+$string['privacy:metadata:forum_read:firstread'] = 'Orario in cui l\'intervento è stato letto per la prima volta.';
+$string['privacy:metadata:forum_read:lastread'] = 'Orario in cui l\'intervento è stato letto più recentemente.';
+$string['privacy:metadata:forum_read:postid'] = 'Intervento che è stato letto.';
+$string['privacy:metadata:forum_read:userid'] = 'ID dell\'utente a cui fa riferimento il record.';
+$string['privacy:metadata:forum_subscriptions'] = 'Informazioni su quali forum sono stati sottoscritti dall\'utente.';
+$string['privacy:metadata:forum_subscriptions:forum'] = 'Forum che sono stati sottoscritti.';
+$string['privacy:metadata:forum_subscriptions:userid'] = 'ID dell\'utente a cui fa riferimento la sottoscrizione al forum.';
+$string['privacy:metadata:forum_track_prefs'] = 'Informazioni sui forum dovel\'utente ha scelto di tracciare la lettura degli interventi.';
+$string['privacy:metadata:forum_track_prefs:forumid'] = 'Forum dove il tracciamento della lettura è abilitato.';
+$string['privacy:metadata:forum_track_prefs:userid'] = 'ID dell\'utente a cui fa riferimento la preferenza sul tracciamento del forum.';
+$string['privacy:metadata:preference:autosubscribe'] = 'Scelta di sottoscrivere le discussioni quando si risponde gli interventi.';
+$string['privacy:metadata:preference:maildigest'] = 'Preferenza raccolta email per l\'intero il sito.';
+$string['privacy:metadata:preference:markasreadonnotification'] = 'Scelta di contrassegnare i post sul forum come letti quando si ricevono come messaggi.';
+$string['privacy:metadata:preference:trackforums'] = 'Scelta di abilitare il tracciamento della lettura.';
+$string['privacy:postwasread'] = 'Questo intervento è stato letto la prima volta il {$a->firstread} e la lettura più recente è del {$a->lastread}';
+$string['privacy:request:delete:discussion:name'] = 'Elimina su richiesta dell\'autore';
+$string['privacy:request:delete:post:message'] = 'Il contenuto di questo intervento è stato eliminato su richiesta dell\'autore.';
+$string['privacy:request:delete:post:subject'] = 'Elimina su richiesta dell\'autore';
+$string['privacy:subscribedtoforum'] = 'Hai sottoscritto il forum.';
 $string['processingdigest'] = 'Elaborazione email di raccolta per l\'utente {$a}';
 $string['processingpost'] = 'Elaborazione intervento {$a}';
 $string['prune'] = 'Sposta altrove';
@@ -436,6 +502,7 @@ $string['qandaforum'] = 'Forum Domande e Risposte';
 $string['qandanotify'] = 'Questo è un forum Domande e Risposte. Per poter vedere le risposte date dagli altri partecipanti  devi prima rispondere a tua volta..';
 $string['re'] = 'Re:';
 $string['readtherest'] = 'Leggi il resto dell\'argomento';
+$string['removeallforumtags'] = 'Rimuovi tutti i tag del forum';
 $string['replies'] = 'Repliche';
 $string['repliesmany'] = '{$a} risposte finora';
 $string['repliesone'] = '{$a} risposta finora';
@@ -470,6 +537,7 @@ $string['searchphrase'] = 'Nell\'intervento deve apparire esattamente questa fra
 $string['search:post'] = 'Forum - Interventi';
 $string['searchresults'] = 'Risultati delle ricerche';
 $string['searchsubject'] = 'Queste parole devono apparire nell\'oggetto';
+$string['searchtags'] = 'E\' taggato con';
 $string['searchuser'] = 'Questo nome deve corrispondere all\'autore';
 $string['searchuserid'] = 'Il Moodle ID dell\'autore';
 $string['searchwhichforums'] = 'Scegliere in quali forum cercare';
@@ -489,7 +557,6 @@ $string['subscribediscussion'] = 'Sottoscrivi questa discussione';
 $string['subscribeenrolledonly'] = 'Spiacente, solo gli utenti iscritti possono sottoscrivere i forum e ricevere notifiche di nuovi interventi.';
 $string['subscribenone'] = 'Revoca tutte le sottoscrizioni di questo forum';
 $string['subscribers'] = 'Sottoscrittori';
-$string['subscribersto'] = 'Sottoscrittori di "{$a->name}"';
 $string['subscriberstowithcount'] = '({$a->count}) sottoscrittori di "{$a->name}"';
 $string['subscribestart'] = 'Desidero ricevere notifiche sui nuovi interventi di questo forum';
 $string['subscribestop'] = 'Non desidero ricevere notifiche sui nuovi interventi di questo forum';
@@ -508,6 +575,8 @@ $string['subscriptionmode_help'] = 'La sottoscrizione di un forum consente di ri
 * Disabilitata - Non è possibile sottoscrivere il forum';
 $string['subscriptionoptional'] = 'Facoltativa';
 $string['subscriptions'] = 'Sottoscrizioni';
+$string['tagarea_forum_posts'] = 'Interventi forum';
+$string['tagsdeleted'] = 'I tag del forum sono stati eliminati';
 $string['thisforumisthrottled'] = 'Questo forum ha una soglia massima di interventi che è possibile effettuare in un dato intervallo di tempo - la soglia al momento è impostata a {$a->blockafter} interventi in {$a->blockperiod}';
 $string['timedhidden'] = 'Stato Intervento a tempo: non visibile agli studenti';
 $string['timedposts'] = 'Interventi a tempo';

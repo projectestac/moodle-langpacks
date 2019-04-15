@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_clear', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_clear', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_clear
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = '清除格式';
+$string['privacy:metadata'] = 'atto_clear 插件不储存任何私人数据。';

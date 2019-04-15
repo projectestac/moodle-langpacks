@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_user', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradereport_user', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   gradereport_user
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['eventgradereportviewed'] = 'S\'ha visualitzat l\'informe d\'usuari de q
 $string['myself'] = 'Jo';
 $string['otheruser'] = 'Usuari';
 $string['pluginname'] = 'Informe d\'usuari';
+$string['privacy:metadata:preference:gradereport_user_view_user'] = 'Veure l\'informe com a l\'usuari actual o com un altre usuari en els informes del butlletí de qualificacions';
 $string['tablesummary'] = 'La taula està ordenada com una llista d\'elements incloent-hi categories o notes. Quan els elements pertanyen a una categoria s\'indica.';
 $string['user:view'] = 'Visualitzar l\'informe de qualificacions propi';
 $string['viewas'] = 'Visualitza l\'informe com a';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_cohortroles', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_cohortroles', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_cohortroles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,14 @@ $string['noassignableroles'] = 'Non sono presenti ruoli assegnabili nel contesto
 $string['nocohortroleassignmentssaved'] = 'Non sono state salvate assegnazioni di ruolo del gruppo globale.';
 $string['onecohortroleassignmentsaved'] = 'E\' stata salvata una assegnazione di ruolo del gruppo globale.';
 $string['pluginname'] = 'Gestione ruoli dei gruppi globali';
+$string['privacy:metadata:tool_cohortroles'] = 'Il plugin \'Gestione ruoli dei gruppi globali\' non memorizza dati personali.';
+$string['privacy:metadata:tool_cohortroles:cohortid'] = 'ID del gruppo globale.';
+$string['privacy:metadata:tool_cohortroles:id'] = 'ID del record di mappatura dei ruoli del gruppo globale.';
+$string['privacy:metadata:tool_cohortroles:roleid'] = 'ID del ruolo.';
+$string['privacy:metadata:tool_cohortroles:timecreated'] = 'Ora di creazione della mappatura ruoli del gruppo globale.';
+$string['privacy:metadata:tool_cohortroles:timemodified'] = 'Ora di modifica della mappatura ruoli del gruppo globale.';
+$string['privacy:metadata:tool_cohortroles:userid'] = 'ID dell\'utente.';
+$string['privacy:metadata:tool_cohortroles:usermodified'] = 'ID dell\'utente che ha apportato le ultime modifiche alla mappatura ruoli del gruppo globale.';
 $string['removecohortroleassignment'] = 'Rimuovi ruoli ai membri del gruppo globale';
 $string['removecohortroleassignmentconfirm'] = 'Sei sicuro di eliminare questo ruolo dal gruppo globale? Per questo utente il ruolo sarà eliminato in tutti i contesti utente.';
 $string['selectcohorts'] = 'Seleziona gruppo globale';

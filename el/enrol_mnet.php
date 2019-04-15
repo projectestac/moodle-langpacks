@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_mnet', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_mnet', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,6 +42,7 @@ $string['mnet_enrol_description'] = 'Δημοσίευση αυτής της υπ
 $string['mnet_enrol_name'] = 'Υπηρεσία απομακρυσμένης εγγραφής';
 $string['pluginname'] = 'Mnet απομακρυσμένες εγγραφές (Moodle Net)';
 $string['pluginname_desc'] = 'Επιτρέπει ο απομακρυσμένος εξυπηρετητής Mnet να εγγράψει τους χρήστες του στα μαθήματα μας.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Απομακρυσμένες εγγραφές MNet» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['remotesubscriber'] = 'Απομακρυσμένος Η/Υ';
 $string['remotesubscriber_help'] = 'Επιλέξτε «Όλοι οι Η/Υ» για να ανοίξει αυτό το μάθημα προς όλους του ομότιμους προς τους οποίους προσφέρουμε την υπηρεσία απομακρυσμένης εγγραφής. Ή διαλέξτε έναν μόνο Η/Υ για να κάνετε αυτό το μάθημα διαθέσιμο προς τους χρήστες του μόνο.';
 $string['remotesubscribersall'] = 'Όλοι οι Η/Υ';

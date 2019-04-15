@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_comments', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopform_comments', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopform_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,3 +31,4 @@ $string['dimensioncommentfor'] = 'Commento su {$a}';
 $string['dimensiondescription'] = 'Descrizione';
 $string['dimensionnumber'] = 'Elemento {$a}';
 $string['pluginname'] = 'Commenti';
+$string['privacy:metadata'] = 'Il plugin \'Commenti\' memorizza solo i dettagli dello schema di valutazione. I dati personali effettivi su come è stato compilato lo schema sono memorizzati nel modulo Workshop e vengono allegati alle valutazioni esportate.';

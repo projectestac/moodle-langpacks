@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_responses', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_responses', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_responses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,13 @@ $string['include'] = 'Inbegrepen';
 $string['mustselectcols'] = 'Je moet iets kiezen';
 $string['pagesize'] = 'Paginagrootte';
 $string['pluginname'] = 'Antwoorden';
+$string['privacy:preference:qtext'] = 'Of de vraagtekstkolom getoond moet worden.';
+$string['privacy:preference:resp'] = 'Of de kolom met het antwoord van de leerling moet getoond worden.';
+$string['privacy:preference:right'] = 'Of de kolom met het juiste antwoord moet getoond worden.';
+$string['privacy:preference:which_tries'] = 'Van welke poging de antwoorden getoond moeten worden.';
+$string['privacy:preference:which_tries:all'] = 'Alle antwoordpogingen voor een vraag tijdens de poging van een gebruiker.';
+$string['privacy:preference:which_tries:first'] = 'De eerste antwoordpoging op een vraag tijdens een poging van een gebruiker.';
+$string['privacy:preference:which_tries:last'] = 'De laatste antwoordpoging op een vraag tijdens een poging van een gebruiker.';
 $string['questiontext'] = 'vraag tekst';
 $string['reportresponses'] = 'Antwoorden';
 $string['response'] = 'antwoord';

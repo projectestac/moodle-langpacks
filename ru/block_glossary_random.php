@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_glossary_random', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_glossary_random', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   block_glossary_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,7 @@ $string['noentriesyet'] = 'В выбранном глоссарии нет ни 
 $string['notyetconfigured'] = 'Пожалуйста, произведите настройки для этого блока, воспользовавшись иконкой редактирования.';
 $string['notyetglossary'] = 'Для выбора у вас в курсе должен быть по крайней мере один глоссарий.';
 $string['pluginname'] = 'Случайная запись из глоссария';
+$string['privacy:metadata'] = 'Блок «Случайная запись из глоссария» только показывает данные, хранящиеся в других местах.';
 $string['random'] = 'Случайная запись';
 $string['refresh'] = 'Дней до того, как будет выбрана новая запись';
 $string['select_glossary'] = 'Выбирать записи из этого глоссария';

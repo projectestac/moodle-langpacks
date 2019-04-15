@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'sv', branch 'MOODLE_32_STABLE'
+ * Strings for component 'message', language 'sv', branch 'MOODLE_34_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,7 +46,8 @@ $string['disabled'] = 'Funktionen meddelanden är avaktiverad på den här webbp
 $string['disallowed'] = 'Otillåten';
 $string['discussion'] = 'Diskussion';
 $string['editmessages'] = 'Redigera meddelanden';
-$string['emailtagline'] = 'Det här e-postmeddelandet är en kopia av ett meddelande som har skickats till Dig på "{$a->sitename}". Gå till  {$a->url} för att svara.';
+$string['emailtagline'] = 'Det här e-postmeddelandet är en kopia av ett meddelande som har skickats till Dig på "{$a>sitename}". Gå till  {$a->url} för att svara.
+';
 $string['emptysearchstring'] = 'Du måste söka efter någonting';
 $string['enabled'] = 'Aktiverat';
 $string['errorcallingprocessor'] = 'Fel i sb m anrop till den definierade processorn';
@@ -107,6 +108,10 @@ $string['outputnotconfigured'] = 'Ej konfigurerad';
 $string['page-message-x'] = 'Vilken meddelandesida som helst';
 $string['pagerefreshes'] = 'Den här sidan uppdateras automatiskt var {$a} sekund';
 $string['permitted'] = 'Tillåten';
+$string['privacy:metadata:message_contacts'] = 'Lista över kontakter';
+$string['privacy:metadata:message_contacts:contactid'] = 'ID för den användare som är en kontakt';
+$string['privacy:metadata:message_contacts:userid'] = 'ID för den användare vars kontaktlista visas';
+$string['privacy:metadata:preference:core_message_settings'] = 'Inställningar för meddelanden';
 $string['recent'] = 'Nyligen';
 $string['removecontact'] = 'Ta bort kontakt';
 $string['removecoursefilter'] = 'Ta bort filter för kursen {$a}';
@@ -120,6 +125,10 @@ $string['searchmessages'] = 'Sök meddelande';
 $string['seeall'] = 'Visa alla';
 $string['selectmessagestodelete'] = 'Välj de meddelanden som ska raderas';
 $string['send'] = 'Skicka';
+$string['sendbulkmessage'] = 'Skicka meddelande till {$a} personer';
+$string['sendbulkmessagesent'] = 'Meddelande har skickats till {$a} personer';
+$string['sendbulkmessagesentsingle'] = 'Meddelande har skickats till 1 person';
+$string['sendbulkmessagesingle'] = 'Skicka meddelande till 1 person';
 $string['sendingvia'] = 'Skickar "{$a->provider}" via "{$a->processor}"';
 $string['sendingviawhen'] = 'Skickar "{$a->provider}" via "{$a->processor}" när {$a->state}';
 $string['sendmessage'] = 'Skicka meddelande';
@@ -134,6 +143,7 @@ $string['togglemessagemenu'] = 'Växla till meddelandemenyn';
 $string['togglenotificationmenu'] = 'Växla till notismenyn';
 $string['touserdoesntexist'] = 'Du kan inte skicka ett meddelande till en användar-id ({$a}) som inte existerar';
 $string['unblockcontact'] = 'Ta bort blockering av användare';
+$string['unknownuser'] = 'Okänd användare';
 $string['unreadnewmessage'] = 'Nytt meddelande från {$a}';
 $string['unreadnotification'] = 'Oläst notis: {$a}';
 $string['userisblockingyou'] = 'Den här användaren har blockerat Dig från att skicka meddelanden till dem';

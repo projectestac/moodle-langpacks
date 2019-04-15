@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cohort', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cohort', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   cohort
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,10 @@ $string['nocomponent'] = '人工建立';
 $string['potusers'] = '潜在用户';
 $string['potusersmatching'] = '潜在的匹配用户';
 $string['preview'] = '预览';
+$string['privacy:metadata:cohort_members'] = '用户群组信息。';
+$string['privacy:metadata:cohort_members:cohortid'] = '群组ID';
+$string['privacy:metadata:cohort_members:timeadded'] = '表示用户加入到群组的时间戳';
+$string['privacy:metadata:cohort_members:userid'] = '群组中用户的ID';
 $string['removeuserwarning'] = '从群删除用户可能会导致撤销该用户在多个课程的选课，也就是说会删除用户在这些课程的个人设置、成绩、分组和其它用户信息。';
 $string['search'] = '搜索';
 $string['searchcohort'] = '搜索群';

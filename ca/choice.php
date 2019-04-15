@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'choice', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,7 +41,7 @@ $string['choiceclose'] = 'Permet respostes fins a';
 $string['choicecloseson'] = 'Tanca la consulta en {$a}';
 $string['choice:deleteresponses'] = 'Modifica i suprimeix les respostes';
 $string['choice:downloadresponses'] = 'Baixa les respostes';
-$string['choicefull'] = 'Aquesta consulta està completa i no queden espais disponibles.';
+$string['choicefull'] = 'Una o més opcions de les que heu triat estan completes. La vostra resposta no s\'ha desat. Feu una altra selecció.';
 $string['choicename'] = 'Títol de la consulta';
 $string['choiceopen'] = 'Permet respostes des de';
 $string['choiceoptions'] = 'Opcions de la tria';
@@ -99,6 +99,7 @@ $string['notenrolledchoose'] = 'Només els usuaris inscrits poden respondre cons
 $string['notopenyet'] = 'Aquesta activitat no estarà disponible fins al dia {$a}';
 $string['numberofuser'] = 'Nombre de respostes';
 $string['numberofuserinpercentage'] = 'Percentatge de respostes (%)';
+$string['openafterclose'] = 'Heu especificat una data d\'obertura posterior a la data de tancament';
 $string['option'] = 'Opció';
 $string['optionno'] = 'Opció {no}';
 $string['options'] = 'Opcions';
@@ -131,5 +132,6 @@ $string['spacesleft'] = 'Espais disponibles';
 $string['taken'] = 'Ocupat';
 $string['userchoosethisoption'] = 'Usuaris que han escollit aquesta opció';
 $string['viewallresponses'] = 'Visualitza respostes ({$a})';
+$string['viewchoices'] = 'Visualitza les seleccions';
 $string['withselected'] = 'Amb la selecció';
 $string['yourselection'] = 'La vostra selecció';

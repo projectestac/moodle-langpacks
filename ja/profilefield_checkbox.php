@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_checkbox', language 'ja', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_checkbox', language 'ja', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_checkbox
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'チェックボックス';
+$string['privacy:metadata:profilefield_checkbox:data'] = 'チェックボックスユーザプロファイルフィールドのユーザデータです。';
+$string['privacy:metadata:profilefield_checkbox:dataformat'] = 'チェックボックスユーザプロファイルフィールドのユーザデータのフォーマットです。';
+$string['privacy:metadata:profilefield_checkbox:fieldid'] = 'プロファイルフィールドのIDです。';
+$string['privacy:metadata:profilefield_checkbox:tableexplanation'] = '追加プロファイルデータです。';
+$string['privacy:metadata:profilefield_checkbox:userid'] = 'チェックボックスユーザプロファイルフィールドにデータが保存されるユーザのIDです。';

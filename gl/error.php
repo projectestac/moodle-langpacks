@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'error', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityisscheduledfordeletion'] = 'Estase a eliminar a actividade...';
+$string['agedigitalconsentmapinvalidage'] = '«{$a}» non é un valor válido para a idade.';
+$string['agedigitalconsentmapinvalidcomma'] = '«{$a}» ten máis ou menos dunha coma separadora.';
+$string['agedigitalconsentmapinvalidcountry'] = '«{$a}» non é un valor válido para o país.';
+$string['agedigitalconsentmapinvaliddefault'] = 'Falta o valor predeterminado (*).';
+$string['agelocationverificationdisabled'] = 'A verificación da localización e da idade está desactivada';
 $string['alreadyloggedin'] = 'Xa está nunha sesión como {$a}, cómpre que saia antes de iniciar sesión como un usuario diferente.';
 $string['authnotexisting'] = 'O complemento de autorización non existe';
 $string['backupcontainexternal'] = 'Esta copia de seguranza contén servidores de redes externas a Moodle que non están configurados localmente';
@@ -181,6 +186,7 @@ $string['confirmationnotenabled'] = 'A confirmación do usuario non está activa
 $string['confirmsesskeybad'] = 'Mágoa, pero a súa clave de sesión non puido confirmarse para realizar esta acción. Esta funcionalidade de seguranza evita a execución accidental ou maliciosa de funcións importantes no seu nome. Asegúrese de que quere executar esta función.';
 $string['couldnotassignrole'] = 'Un erro importante pero inespecífico produciuse ao tentar asignarlle un rol a vostede';
 $string['couldnotupdatenoexistinguser'] = 'Non foi posíbel actualizar o usuario - o usuario non existe';
+$string['couldnotverifyagedigitalconsent'] = 'Produciuse un erro ao tentar verificar a idade do consentimento dixital.<br />Contacte co administrador.';
 $string['countriesphpempty'] = 'Erro: O ficheiro countries.php no paquete de idioma {$a} está baleiro ou falta.';
 $string['coursedoesnotbelongtocategory'] = 'O curso non pertence a esta categoría';
 $string['courseformatnotfound'] = 'Non existe ou non se recoñece o formato do curso «{$a}»';
@@ -570,6 +576,7 @@ $string['usernotaddederror'] = 'O usuario non foi engadido. Erro descoñecido';
 $string['usernotaddedregistered'] = 'O usuario non foi engadido. Xa está rexistrado';
 $string['usernotavailable'] = 'Os detalles deste usuario non están dispoñíbeis';
 $string['usernotdeletedadmin'] = 'O usuario non foi eliminado - non é posíbel eliminar as contas dos administradores';
+$string['usernotdeleteddeleted'] = 'Este usuario xa foi eliminado.';
 $string['usernotdeletederror'] = 'O usuario non foi eliminado - erro';
 $string['usernotdeletedmissing'] = 'O usuario non foi eliminado - non foi posíbel atopar o nome de usuario';
 $string['usernotdeletedoff'] = 'O usuario non foi eliminado - non está permitida a eliminación';
@@ -584,6 +591,7 @@ $string['usernotupdatederror'] = 'O usuario non foi actualizado - erro';
 $string['usernotupdatednotexists'] = 'O usuario non foi actualizado - non existe';
 $string['userquotalimit'] = 'Acadou o seu límite de cota de ficheiros.';
 $string['userselectortoomany'] = 'user_selector ten máis dun usuario seleccionado, a pesares de que a opción de selección múltiple é falso.';
+$string['verifyagedigitalconsentnotpossible'] = 'A verificación de consentimento por idade dixital non é posible neste momento.';
 $string['wrongcall'] = 'O script está a ser chamado incorrectamente';
 $string['wrongcontextid'] = 'O ID de contexto é incorrecto (non é posíbel atopalo)';
 $string['wrongdestpath'] = 'Camiño de destino errado.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_list', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_course_list', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_course_list
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,3 +34,4 @@ $string['course_list:myaddinstance'] = 'Προσθήκη νέου μπλοκ μ�
 $string['hideallcourseslink'] = 'Απόκρυψη του συνδέσμου «Όλα τα μαθήματα»';
 $string['owncourses'] = 'Οι διαχειριστές βλέπουν μόνο τα δικά τους μαθήματα';
 $string['pluginname'] = 'Μαθήματα';
+$string['privacy:metadata'] = 'Το μπλοκ «Μαθήματα» εμφανίζει μόνο δεδομένα σχετικά με τα μαθήματα και δεν αποθηκεύει το ίδιο κανένα δεδομένο.';

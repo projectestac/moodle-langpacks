@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,10 @@ $string['auth_data_mapping'] = 'Mapeamento de dados';
 $string['authenticationoptions'] = 'Opções da autenticação';
 $string['auth_fieldlock'] = 'Bloquear valor';
 $string['auth_fieldlock_expl'] = '<p><b>Valor bloqueado:</b> Se ativo, irá prevenir que os utilizadores e administradores do Moodle editem um campo diretamente. Utilize esta opção se quiser manter os dados no sistema de autenticação externo. </p>';
+$string['auth_fieldlockfield'] = 'Bloquear valor ({$a})';
 $string['auth_fieldlocks'] = 'Bloquear campos de utilizador';
 $string['auth_fieldlocks_help'] = '<p>Pode bloquear campos de perfil dos utilizadores. Esta configuração é útil para sites onde os dados dos utilizadores são mantidos manualmente pelos administradores, editando os registos dos utilizadores ou fazendo o carregamento utilizando a ferramenta \'Carregar utilizadores\'. Se está a bloquear campos requeridos pelo Moodle, verifique que fornece esses dados ao criar contas de utilizadores, caso contrário, as contas não serão válidas.</p><p>Pondere a utilização do modo de bloqueio \'Desbloquear se vazio\' para evitar este problema.</p>';
+$string['auth_fieldmapping'] = 'Mapeamento de dados ({$a})';
 $string['authinstructions'] = 'Deixe este campo em branco para que as instruções de autenticação predefinidas sejam mostradas na página de autenticação. Se pretender disponibilizar instruções personalizadas, introduza-as aqui.';
 $string['auth_invalidnewemailkey'] = 'Erro: se está a tentar confirmar uma alteração de e-mail, deve ter cometido um erro ao copiar o URL enviado no e-mail de confirmação. Por favor, copie novamente o URL e tente novamente.';
 $string['authloginviaemail'] = 'Permitir autenticação por e-mail';
@@ -61,13 +63,16 @@ $string['auth_sync_suspended'] = 'Se ativar esta opção, o atributo suspenso se
 $string['auth_sync_suspended_key'] = 'Sincronizar estado da suspensão do utilizador local';
 $string['auth_updatelocal'] = 'Atualizar localmente';
 $string['auth_updatelocal_expl'] = '<p><b>Atualização local:</b> Se ativo, o campo será atualizado (a partir da origem externa) cada vez que o utilizador faz a autenticação ou ocorra uma sincronização de utilizadores. Os campos definidos para serem atualizados localmente deverão estar bloqueados.</p>';
+$string['auth_updatelocalfield'] = 'Atualizar campo local ({$a})';
 $string['auth_updateremote'] = 'Atualizar campo externo';
 $string['auth_updateremote_expl'] = '<p><b>Atualização externa:</b> Se ativo, a autorização externa será atualizada quando o registo do utilizador for atualizado. Os campos deverão estar desbloquados para que sejam permitidas edições.</p>';
+$string['auth_updateremotefield'] = 'Atualizar campo externo ({$a})';
 $string['auth_updateremote_ldap'] = '<p><b>Nota:</b> Para atualizar dados externos do LDAP é necessário que defina o \'binddn\' e o \'bindpw\' para um \'utilizador bind\' com permissões de edição para todos os registos de utilizador. Atualmente não são preservados os atributos \'multi-valued\' e irá remover valores extra aquando da atualização.</p>';
 $string['auth_user_create'] = 'Permitir a criação de utilizadores';
 $string['auth_user_creation'] = 'Novos utilizadores (anónimos) podem criar contas na origem de autenticação externa e confirmá-las por e-mail. Se ativar esta opção, lembre-se de configurar as opções no módulo específico para criação de utilizadores.';
 $string['auth_usernameexists'] = 'O nome escolhido já existe. Escolha outro.';
 $string['auto_add_remote_users'] = 'Adicionar automaticamente utilizadores remotos';
+$string['cannotmapfield'] = 'O campo "{$a->fieldname}" não pode ser mapeado porque o nome curto "{$a->shortname}" é muito longo. Para ser possível o mapeamento, encurte o campo de perfil \'Nome curto\' para {$a->charlimit} caracteres. <a href="{$a->link}">Editar campos de perfil do utilizador</a>';
 $string['changepassword'] = 'Endereço para alteração de senha';
 $string['changepasswordhelp'] = 'Endereço URL da página de recuperação de senha que será enviado aos utilizadores por e-mail. Tenha em atenção que esta configuração não terá efeito caso um endereço URL de recuperação de senha esteja definido nas configurações comuns da autenticação.';
 $string['chooseauthmethod'] = 'Método de autenticação';
@@ -90,7 +95,7 @@ $string['emailupdatesuccess'] = 'O e-mail do utilizador <em>{$a->fullname}</em> 
 $string['emailupdatetitle'] = 'Confirmação de atualização de e-mail em {$a->site}';
 $string['enterthenumbersyouhear'] = 'Insira os números que ouvir';
 $string['enterthewordsabove'] = 'Insira as palavras indicadas acima';
-$string['errormaxconsecutiveidentchars'] = 'As senhas só podem ter um máximo de {$a} carateres iguais consecutivos.';
+$string['errormaxconsecutiveidentchars'] = 'As senhas só podem ter, no máximo, {$a} caracteres iguais consecutivos.';
 $string['errorminpassworddigits'] = 'A senha deverá ter, pelo menos, {$a} algarismo(s).';
 $string['errorminpasswordlength'] = 'A senha deverá ter, pelo menos, {$a} caracteres.';
 $string['errorminpasswordlower'] = 'A senha deverá ter, pelo menos, {$a} letra(s) minúscula(s).';
@@ -114,7 +119,7 @@ $string['guestloginbutton'] = 'Botão de entrada como visitante';
 $string['incorrectpleasetryagain'] = 'Incorreto. Por favor, tente novamente.';
 $string['infilefield'] = 'Campo necessário no ficheiro';
 $string['informminpassworddigits'] = 'pelo menos {$a} dígito(s)';
-$string['informminpasswordlength'] = 'pelo menos {$a} carateres';
+$string['informminpasswordlength'] = 'pelo menos {$a} caracteres';
 $string['informminpasswordlower'] = 'pelo menos {$a} letra(s) minúscula(s)';
 $string['informminpasswordnonalphanum'] = 'pelo menos {$a} caracter(es) não alfanumérico(s), tais como *, -, #';
 $string['informminpasswordreuselimit'] = 'As senhas podem ser reutilizadas após {$a} alterações';
@@ -137,21 +142,30 @@ $string['plaintext'] = 'Texto simples';
 $string['pluginnotenabled'] = 'O módulo de autenticação \'{$a}\' não está ativado.';
 $string['pluginnotinstalled'] = 'O módulo de autenticação \'{$a}\' não está instalado.';
 $string['potentialidps'] = 'Autenticar-se usando a sua conta:';
+$string['privacy:metadata:userpref:createpassword'] = 'Indica que deve ser gerada uma senha para o utilizador';
+$string['privacy:metadata:userpref:forcepasswordchange'] = 'Indica se o utilizador tem de alterar a sua senha na sua próxima autenticação';
+$string['privacy:metadata:userpref:loginfailedcount'] = 'O número de vezes que falhou a autenticação do utilizador';
+$string['privacy:metadata:userpref:loginfailedcountsincesuccess'] = 'O número de vezes que falhou a autenticação do utilizador desde a última autenticação com sucesso';
+$string['privacy:metadata:userpref:loginfailedlast'] = 'A data em que foi registada a última tentativa de autenticação sem sucesso';
+$string['privacy:metadata:userpref:loginlockout'] = 'Se a conta de utilizador está bloqueada, devido a tentativas de autenticação falhadas, e a data em que a conta ficou bloqueada';
+$string['privacy:metadata:userpref:loginlockoutignored'] = 'Indica que a conta de um utilizador nunca deverá ser sujeita a bloqueio';
+$string['privacy:metadata:userpref:loginlockoutsecret'] = 'Quando bloqueada, o \'segredo\' que o utilizador deve usar para desbloquear a sua conta';
 $string['recaptcha'] = 'reCAPTCHA';
-$string['recaptcha_help'] = 'O CAPTCHA serve para evitar ações indevidas por parte de programas automáticos. Siga as instruções para verificar se é uma pessoa. Pode ser uma caixa, com carateres apresentados numa imagem que deve inserir, ou um conjunto de imagens para selecionar.
+$string['recaptcha_help'] = 'O CAPTCHA serve para evitar ações indevidas por parte de programas automáticos. Siga as instruções para confirmar que é uma pessoa. Pode ser uma caixa, com caracteres apresentados numa imagem que deve inserir, ou um conjunto de imagens para selecionar.
 
 Se não tiver a certeza de quais são as imagens, tente obter outro CAPTCHA ou um CAPTCHA de áudio.';
 $string['recaptcha_link'] = 'link';
 $string['security_question'] = 'Pergunta de segurança';
 $string['selfregistration'] = 'Autorregisto';
 $string['selfregistration_help'] = 'Se estiver selecionado um módulo de autenticação, como por exemplo, o Autorregisto com confirmação por e-mail, será possível aos potenciais utilizadores registarem-se e criarem a sua conta de utilizador. No entanto, isto torna também possível que spammers criem contas para usar os fóruns, blogues, etc. e inserirem mensagens de spam (publicidade, por exemplo). Para evitar estas situações, o autorregisto deve ser desativado ou limitado através da opção <em>Domínios de e-mail permitidos</em>.';
+$string['settingmigrationmismatch'] = 'Foram detetados valores incompatíveis ao corrigir os nomes de configuração do módulo! O módulo de autenticação \'{$a->plugin}\' tinha a opção \'{$a->setting}\' configurada para \'{$a->legacy}\' com o nome antigo e \'{$a->current} com o nome atual. O último valor foi definido como válido, mas deve verificar e confirmar se é o que pretende.';
 $string['sha1'] = 'tabela hash SHA-1';
 $string['showguestlogin'] = 'Pode optar por ocultar ou mostrar o botão de entrada para visitantes na página de autenticação.';
 $string['stdchangepassword'] = 'Usar a página predefinida para alterar a senha';
 $string['stdchangepassword_expl'] = 'Se o sistema de autenticação externa permitir alteração de senha pelo Moodle, altere a configuração para Sim. Esta definição prevalece sobre a opção \'Endereço para alteração de senha\'.';
 $string['stdchangepassword_explldap'] = 'NOTA: É recomendado utilizar o LDAP sobre um túnel encriptado SSL (ldaps://) se o servidor LDAP for remoto.';
 $string['suspended'] = 'Conta suspensa';
-$string['suspended_help'] = 'Os utilizadores que tenham as suas contas suspensas não podem autenticar-se no site nem usar os web services, e qualquer mensagem enviada para eles será descartada.';
+$string['suspended_help'] = 'Os utilizadores que tenham as suas contas suspensas não podem autenticar-se no site nem usar os web services e qualquer mensagem enviada para eles será descartada.';
 $string['testsettings'] = 'Configurações de teste';
 $string['testsettingsheading'] = 'Configurações da autenticação de teste - {$a}';
 $string['unlocked'] = 'Desbloqueado';

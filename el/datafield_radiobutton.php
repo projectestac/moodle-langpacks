@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_radiobutton', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'datafield_radiobutton', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   datafield_radiobutton
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Πεδίο κουμπιού επιλογής';
 $string['pluginname'] = 'Κουμπί επιλογής';
+$string['privacy:metadata'] = 'Το στοιχείο λογισμικού «Πεδίο κουμπιού επιλογής» δεν αποθηκεύει κανένα προσωπικό δεδομένο· χρησιμοποιεί πίνακες που ορίζονται στο mod_data.';

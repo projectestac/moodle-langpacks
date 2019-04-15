@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_tex', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'filter_tex', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   filter_tex
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,4 +38,5 @@ $string['pathdvisvgm'] = 'Διαδρομή για το <i>dvisvgm</i> εκτελ
 $string['pathlatex'] = 'Διαδρομή για το <i>latex</i> εκτελέσιμο αρχείο';
 $string['pathmimetex'] = 'Διαδρομή για το <i>mimetex</i> εκτελέσιμο αρχείο';
 $string['pathmimetexdesc'] = 'Το Moodle θα χρησιμοποιήσει το δικό του εκτελέσιμο αρχείο mimetex εκτός αν οριστεί άλλο πλήρες όνομα αρχείου (διαδρομή).';
+$string['privacy:metadata'] = 'Το πρόσθετο «Σημειογραφία TeX» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['source'] = 'Προέλευση/πηγή TeX';

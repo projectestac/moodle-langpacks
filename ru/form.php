@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'form', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'form', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   form
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,9 @@ defined('MOODLE_INTERNAL') || die();
 $string['addfields'] = 'Добавить {$a} поля(ей) в форму';
 $string['advancedelement'] = 'Дополнительный элемент';
 $string['close'] = 'Закрыть';
+$string['custom'] = 'Пользовательское';
 $string['day'] = 'День';
+$string['default'] = 'По умолчанию';
 $string['display'] = 'Отображение';
 $string['err_alphanumeric'] = 'Это поле должно содержать только буквы и цифры.';
 $string['err_email'] = 'Это поле должно содержать правильный email адрес.';
@@ -41,6 +43,13 @@ $string['err_nopunctuation'] = 'Это поле не должно содержа
 $string['err_numeric'] = 'Вы должны ввести число.';
 $string['err_rangelength'] = 'Это поле должно содержать от {$a->format[0]} до {$a->format[1]} символов.';
 $string['err_required'] = 'Вы должны ввести значение.';
+$string['err_wrongfileextension'] = 'Некоторые файлы ({$a->wrongfiles}) не могут быть загружены на сервер. Разрешены только файлы следующих типов: {$a->whitelist}.';
+$string['filesofthesetypes'] = 'Поддерживаемые типы файлов:';
+$string['filetypesany'] = 'Все типы файлов';
+$string['filetypesnotall'] = 'Здесь нельзя выбрать «Все типы файлов»';
+$string['filetypesnotwhitelisted'] = 'Эти типы файлов здесь не разрешены: {$a}';
+$string['filetypesothers'] = 'Другие файлы';
+$string['filetypesunknown'] = 'Неизвестные типы файлов: {$a}';
 $string['general'] = 'Общее';
 $string['hideadvanced'] = 'Скрыть дополнительные настройки';
 $string['hour'] = 'Час';
@@ -49,6 +58,7 @@ $string['miscellaneoussettings'] = 'Дополнительные настрой�
 $string['modstandardels'] = 'Общие настройки модуля';
 $string['month'] = 'Месяц';
 $string['mustbeoverriden'] = 'Аннотация form_definition() в классе {$a} должна быть отменена; пожалуйста, исправьте код.';
+$string['newvaluefor'] = 'Новое значение для {$a}';
 $string['nomethodforaddinghelpbutton'] = 'Отсутствует метод добавления кнопки вызова справки для элемента формы {$a->name} (класс {$a->classname}).';
 $string['nonexistentformelements'] = 'Попытка добавить кнопку вызова справки для отсутствующего элемента формы: {$a}';
 $string['noselection'] = 'Ничего не выбрано';
@@ -60,6 +70,8 @@ $string['othersettings'] = 'Другие настройки';
 $string['passwordunmaskedithint'] = 'Изменить пароль';
 $string['passwordunmaskinstructions'] = 'Нажмите Enter, чтобы сохранить изменения';
 $string['passwordunmaskrevealhint'] = 'Показать';
+$string['privacy:metadata:preference:filemanager_recentviewmode'] = 'Последний выбранный режим просмотра для элемента выбора файлов.';
+$string['privacy:preference:filemanager_recentviewmode'] = 'Предпочитаемый Вами способ отображения файлов в выборе файлов — {$a}';
 $string['requiredelement'] = 'Обязательное поле';
 $string['revealpassword'] = 'Показать';
 $string['security'] = 'Защита';

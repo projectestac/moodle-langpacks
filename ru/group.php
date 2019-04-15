@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'group', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -58,6 +58,7 @@ $string['deletegroupsconfirm'] = 'Вы уверены, что хотите уд�
 $string['deleteselectedgroup'] = 'Удалить выбранные группы';
 $string['editgroupingsettings'] = 'Редактировать настройки потоков';
 $string['editgroupsettings'] = 'Редактировать настройки группы';
+$string['editusersgroupsa'] = 'Изменить группы для «{$a}»';
 $string['enrolmentkey'] = 'Кодовое слово';
 $string['enrolmentkeyalreadyinuse'] = 'Это кодовое слово уже используется для другой группы.';
 $string['enrolmentkey_help'] = 'Кодовое слово позволяет ограничить доступ к курсу таким образом, чтобы он был доступен только тем, кто знает пароль. Если указать кодовое слово для регистрации в группе, то это позволит пользователю не только записаться на курс, но и автоматически стать участником этой группы.
@@ -178,6 +179,10 @@ $string['overview'] = 'Обзор';
 $string['potentialmembers'] = 'Возможные участники: {$a}';
 $string['potentialmembs'] = 'Возможные участники';
 $string['printerfriendly'] = 'Вид для печати';
+$string['privacy:metadata:groups'] = 'Запись членства в группах.';
+$string['privacy:metadata:groups:groupid'] = 'ID группы.';
+$string['privacy:metadata:groups:timeadded'] = 'Момент времени, когда пользователь был добавлен в группу.';
+$string['privacy:metadata:groups:userid'] = 'ID пользователя, который связан с группой.';
 $string['random'] = 'Случайно';
 $string['removefromgroup'] = 'Удалить пользователя из группы {$a}';
 $string['removefromgroupconfirm'] = 'Вы действительно хотите удалить пользователя «{$a->user}» из группы «{$a->group}»?';

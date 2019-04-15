@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopeval_best', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopeval_best', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopeval_best
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,3 +34,4 @@ $string['comparisonlevel7'] = 'χαλαρή';
 $string['comparisonlevel9'] = 'πολύ χαλαρή';
 $string['configcomparison'] = 'Προεπιλεγμένη τιμή του παράγοντα που επηρεάζει την αξιολόγηση βαθμολογίας.';
 $string['pluginname'] = 'Σύγκριση με την καλύτερη αξιολόγηση';
+$string['privacy:metadata'] = 'Το πρόσθετο «Σύγκριση με την καλύτερη αξιολόγηση» δεν αποθηκεύει κανένα προσωπικό δεδομένο. Τα πραγματικά προσωπικά δεδομένα βαθμολογιών χρηστών αποθηκεύονται από το ίδιο το άρθρωμα Εργαστηρίου και επισυνάπτονται στα εξαγόμενα δεδομένα υποβολής και αξιολόγησης.';

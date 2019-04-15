@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_self', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -89,6 +89,7 @@ $string['passwordinvalid'] = 'Неверное кодовое слово, поп
 $string['passwordinvalidhint'] = 'Введено неверное кодовое слово, попробуйте еще раз<br />(Подсказка - оно начинается с \'{$a}\')';
 $string['pluginname'] = 'Самостоятельная запись';
 $string['pluginname_desc'] = 'Плагин самостоятельной записи позволяет пользователям самостоятельно записываться на желаемый курс. Курсы могут быть защищены кодовым словом. Внутри системы запись пользователя выполняется через модуль «Зачисление вручную», поэтому он должен быть включен для работы данного модуля.';
+$string['privacy:metadata'] = 'Плагин «Самостоятельная запись» не хранит никаких персональных данных.';
 $string['requirepassword'] = 'Обязательно использовать кодовое слово';
 $string['requirepassword_desc'] = 'Этот параметр отвечает за обязательное использование кодового слова в новых курсах, а также запрещает его отключение в уже созданных.';
 $string['role'] = 'Роль, назначаемая по умолчанию';

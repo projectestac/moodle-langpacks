@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_bootstrapbase', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'theme_bootstrapbase', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   theme_bootstrapbase
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -64,5 +64,6 @@ Pode enviar os seus informes de erro deste tema a <a href="https://github.com/bm
 <li><a href="http://theming.sonsbeekmedia.nl/">Theme testing playground </a></li>
 </ul>';
 $string['pluginname'] = 'Base de arrinque';
+$string['privacy:metadata'] = 'O tema bootstrapbase non almacena ningún dato persoal sobre ningún usuario.';
 $string['region-side-post'] = 'Dereita';
 $string['region-side-pre'] = 'Esquerda';

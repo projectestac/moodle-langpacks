@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_grading', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,7 @@ $string['nothingfound'] = 'Non ci sono elementi da visualizzare';
 $string['options'] = 'Opzioni';
 $string['orderattempts'] = 'Ordine tentativi';
 $string['pluginname'] = 'Valutazione manuale';
+$string['privacy:metadata'] = 'Il plugin Quiz/Report \'Valutazione manuale\' non memorizza dati personali. Fornisce agli utenti un\'interfaccia per memorizzare i dati, senza che li memorizzi il plugin stesso.';
 $string['qno'] = 'D #';
 $string['questionname'] = 'Nome domanda';
 $string['questionsperpage'] = 'Domande per pagina';

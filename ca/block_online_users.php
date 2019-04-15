@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_online_users', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_online_users', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   block_online_users
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,4 +31,5 @@ $string['online_users:myaddinstance'] = 'Afegeix un bloc nou d\'usuaris en líni
 $string['online_users:viewlist'] = 'Veure la llista d\'usuaris en línia';
 $string['periodnminutes'] = 'darrers {$a} minuts';
 $string['pluginname'] = 'Usuaris en línia';
+$string['privacy:metadata'] = 'El bloc d\'Usuaris en línia només mostra dades emmagatzemades en altres ubicacions.';
 $string['timetosee'] = 'Treu després d\'un temps d\'inactivitat (minuts)';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_unsuproles', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_unsuproles', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_unsuproles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,3 +30,4 @@ $string['contextlevel'] = 'Επίπεδο πλαισίου';
 $string['count'] = 'Πλήθος';
 $string['noprolbems'] = 'Δεν βρέθηκαν μη υποστηριζόμενες αναθέσεις ρόλου';
 $string['pluginname'] = 'Μη υποστηριζόμενες αναθέσεις ρόλου';
+$string['privacy:metadata'] = 'Το πρόσθετο «Αναθέσεις μη υποστηριζόμενων ρόλων» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

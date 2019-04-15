@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio_boxnet', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'portfolio_boxnet', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   portfolio_boxnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,6 +41,8 @@ $string['notarget'] = 'Πρέπει να ορίσετε είτε έναν υπά
 $string['noticket'] = 'Δεν ήταν δυνατή η ανάκτηση ενός δελτίου από το Box για την εκκίνηση της συνόδου αυθεντικοποίησης';
 $string['password'] = 'Ο κωδικός πρόσβασής σας στο Box (δεν θα αποθηκευθεί)';
 $string['pluginname'] = 'Box (Διαδικτυακή αποθήκευση)';
+$string['privacy:metadata'] = 'Αυτό το πρόσθετο αποστέλλει δεδομένα εξωτερικά σε ένα συνδεδεμένο λογαριασμό Box. Δεν αποθηκεύει δεδομένα τοπικά.';
+$string['privacy:metadata:data'] = 'Προσωπικά δεδομένα που διαβιβάστηκαν από το υποσύστημα χαρτοφυλακίου.';
 $string['sendfailed'] = 'Αποτυχία αποστολής περιεχομένου στο Box: {$a}';
 $string['setupinfo'] = 'Οδηγίες εγκατάστασης';
 $string['setupinfodetails'] = 'Για να αποκτήσετε αναγνωριστικό πελάτη και μυστικό, συνδεθείτε στο Box και επισκεφτείτε τη <a href="{$a->servicesurl}">σελίδα προγραμματιστών του Box</a>. Ακολουθήστε την επιλογή «Δημιουργία νέας εφαρμογής» και δημιουργήστε μια νέα εφαρμογή για τον ιστότοπό σας στο Moodle. Το αναγνωριστικό πελάτη και το μυστικό εμφανίζονται στην ενότητα \'OAuth2 parameters\' της φόρμας επεξεργασίας της εφαρμογής. Προαιρετικά, μπορείτε επίσης να παρέχετε και άλλες πληροφορίες σχετικά με τον ιστότοπό σας Moodle.';

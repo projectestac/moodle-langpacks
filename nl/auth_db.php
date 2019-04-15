@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_db', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_db', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_db
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['auth_dbcannotconnect'] = 'Kan niet verbinden met de externe databank.';
+$string['auth_dbcannotreadtable'] = 'Kan externe tabel niet lezen.';
 $string['auth_dbcantconnect'] = 'Kon niet met de opgegeven authenticatiedatabank verbinden...';
 $string['auth_dbchangepasswordurl_key'] = 'URL om wachtwoord te wijzigen';
+$string['auth_dbcolumnlist'] = 'Externe tabel bevat de volgende kolommen:<br />{$a}';
 $string['auth_dbdebugauthdb'] = 'Foutopsporing ADOdb';
 $string['auth_dbdebugauthdbhelp'] = 'Foutopsporing van de ADOdb-connectie naar de externe databank - gebruik dit wanneer je een lege pagina krijgt tijdens het inloggen. Niet gebruiken op productiesites.';
 $string['auth_dbdeleteuser'] = 'verwijderde gebruiker {$a->name} id {$a->id}';
@@ -40,16 +43,18 @@ $string['auth_dbfieldpass_key'] = 'Wachtwoordveld';
 $string['auth_dbfielduser'] = 'Naam van het veld dat de gebruikersnamen bevat';
 $string['auth_dbfielduser_key'] = 'Veld gebruikersnaam';
 $string['auth_dbhost'] = 'De computer die de databaseserver host.
-Gebruik een systeem DSN als je OBDC gebruikt.';
+Gebruik een systeem DSN als je OBDC gebruikt. Gebruik een PDO DSN als je PDO gebruikt.';
 $string['auth_dbhost_key'] = 'Host';
 $string['auth_dbinsertuser'] = 'toegevoegde gebruiker{$a->name} id {$a->id}';
 $string['auth_dbinsertuserduplicate'] = 'Fout bij het invoegen van gebruiker {$a->username} - de gebruiker met deze gebruikersnaam is al gemaakt door de plugin \'{$a->auth}\'.';
 $string['auth_dbinsertusererror'] = 'fout bij toevoegen gebruiker {$a}';
-$string['auth_dbname'] = 'Naam van de database zelf. Laat leeg als je ODBC DSN gebruikt.';
+$string['auth_dbname'] = 'Naam van de database zelf. Laat leeg als je ODBC DSN gebruikt. Laat leeg als je PDO DSN al een databasenaam gebruikt.';
 $string['auth_dbname_key'] = 'DB naam';
+$string['auth_dbnoexttable'] = 'Externe tabel niet gespecificeerd.';
+$string['auth_dbnouserfield'] = 'Extern gebruikersveld niet gespecificeerd.';
 $string['auth_dbpass'] = 'Wachtwoord dat bij de bovengenoemde gebruikersnaam past';
 $string['auth_dbpass_key'] = 'Wachtwoord';
-$string['auth_dbpasstype'] = '<p>Geef hier aan welk format het wachtwoordveld gebruikt. MD5-encryptie is handig om een verbinding te maken naar andere veel voorkomende webapplicaties zoals PostNuke.</p><p>Gebruik "intern" als je een externe databank het beheer van gebruikersnamen en e-mailadressen wil laten doen, maar Moodle het wachtwoordbeheer. Als je "intern" gebruikt <i>moet</i> je een gevuld e-mailadresveld hebben in de externe databank en moet je zowel admin/cron.php als auth/db/cli/sync_users.php regelmatig laten lopen. Moodle zal een e-mail sturen met een tijdelijk wachtwoord sturen naar nieuwe gebruikers .</p>';
+$string['auth_dbpasstype'] = '<p>Geef hier aan welk formaat het wachtwoordveld gebruikt.</p><p>Gebruik "intern" als je een externe databank het beheer van gebruikersnamen en e-mailadressen wil laten doen, maar Moodle het wachtwoordbeheer. Als je "intern" gebruikt <i>moet</i> je een gevuld e-mailadresveld hebben in de externe databank en moet je zowel admin/cron.php als auth/db/cli/sync_users.php regelmatig laten lopen. Moodle zal een e-mail sturen met een tijdelijk wachtwoord sturen naar nieuwe gebruikers .</p>';
 $string['auth_dbpasstype_key'] = 'Wachtwoordformaat';
 $string['auth_dbreviveduser'] = 'Teruggehaalde gebruiker {$a->name} id {$a->id}';
 $string['auth_dbrevivedusererror'] = 'Fout bij het terughalen van gebruiker {$a}';
@@ -60,10 +65,14 @@ $string['auth_dbsuspenduser'] = 'Uitgeschakelde gebruiker {$a->name} id {$a->id}
 $string['auth_dbsuspendusererror'] = 'Fout bij het uitschakelen van gebruiker {$a}';
 $string['auth_dbsybasequoting'] = 'Gebruik sybase aanhalingstekens';
 $string['auth_dbsybasequotinghelp'] = 'Escaping met enkele aanhalingstekens volgens Sybase stijl - nodig voor Oracle, MS SQL en sommige andere databanken. Niet gebruiken voor MYSQL!';
+$string['auth_dbsyncuserstask'] = 'Synchroniseer gebruikerstaak';
 $string['auth_dbtable'] = 'Naam  van  de  tabel in de database';
+$string['auth_dbtableempty'] = 'Externe tabel is leeg.';
 $string['auth_dbtable_key'] = 'Tabel';
 $string['auth_dbtype'] = 'Het type database (Bekijk <a href="http://phplens.com/adodb/supported.databases.html" target="_blank">ADOdb documentatie</a> voor meer informatie)';
 $string['auth_dbtype_key'] = 'Databank';
+$string['auth_dbupdateusers'] = 'Gebruikers bijwerken';
+$string['auth_dbupdateusers_description'] = 'Evenals het invoegen van nieuwe gebruikers, update bestaande gebruikers';
 $string['auth_dbupdatinguser'] = 'Gebruiker {$a->name} id {$a->id} aan het updaten';
 $string['auth_dbuser'] = 'Gebruikersnaam met read access tot de database';
 $string['auth_dbuser_key'] = 'DB gebruiker';
@@ -71,3 +80,4 @@ $string['auth_dbusernotexist'] = 'Gebruiker {$a} bestaat niet: kan niet updaten.
 $string['auth_dbuserstoadd'] = 'Toe te voegen gebruikers: {$a}';
 $string['auth_dbuserstoremove'] = 'Te verwijderen gebruikers: {$a}';
 $string['pluginname'] = 'Externe databank';
+$string['privacy:metadata'] = 'De externe databank authenticatie-plugin bewaart geen persoonlijke gegevens.';

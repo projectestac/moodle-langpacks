@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeexport_txt', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradeexport_txt', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   gradeexport_txt
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['eventgradeexported'] = 'Оценки экспортированы в формат TXT';
 $string['pluginname'] = 'Текстовый файл';
+$string['privacy:metadata'] = 'Плагин «Экспорт оценок в текстовый файл» не хранит никаких персональных данных.';
 $string['timeexported'] = 'Последние загруженные из этого курса';
 $string['txt:publish'] = 'Опубликовывать ссылку для экспорта оценок в формате TXT';
 $string['txt:view'] = 'Использовать экспорт оценок в виде текстового файла';

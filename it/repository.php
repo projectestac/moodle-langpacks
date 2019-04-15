@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -157,8 +157,10 @@ $string['linkexternal'] = 'Link esterno';
 $string['listview'] = 'visualizza come elenco';
 $string['loading'] = 'Caricamento in corso...';
 $string['login'] = 'Login';
+$string['logintoaccount'] = 'Login con l\'account {$a}';
 $string['logout'] = 'Logout';
 $string['lostsource'] = 'Errore. Manca il sorgente. {$a}';
+$string['makefilecontrolledlink'] = 'Crea un link al file sotto controllo';
 $string['makefileinternal'] = 'Copia il file';
 $string['makefilelink'] = 'Collega direttamente il file';
 $string['makefilereference'] = 'Crea un alias/scorciatoia al file';
@@ -195,6 +197,14 @@ $string['pluginnamehelp'] = 'Non compilando questo campo, Moodle userà il nome 
 $string['popup'] = 'Fai click sul pulsante "Login" per autenticarti';
 $string['popupblockeddownload'] = 'La finestra di download è stata bloccata, per favore abilita le finestre popup e riprova.';
 $string['preview'] = 'Anteprima';
+$string['privacy:metadata:repository'] = 'La componente Repository memorizza le tipologie di repository all\'interno del sottosistema core.';
+$string['privacy:metadata:repository_instances:name'] = 'Nome personalizzato del repository.';
+$string['privacy:metadata:repository_instances:password'] = 'Password facoltativa configurata per il repository.';
+$string['privacy:metadata:repository_instances:timecreated'] = 'Data e ora di creazione del repository.';
+$string['privacy:metadata:repository_instances:timemodified'] = 'Data e ora di modifica del repository.';
+$string['privacy:metadata:repository_instances:typeid'] = 'ID del repository.';
+$string['privacy:metadata:repository_instances:userid'] = 'ID dell\'utente a cui appartiene il repository.';
+$string['privacy:metadata:repository_instances:username'] = 'Username facoltativo configurato per il repository.';
 $string['privatefilesof'] = '{$a} file personali';
 $string['readonlyinstance'] = 'Non puoi modificare o eliminare un repository a sola lettura';
 $string['referencesexist'] = 'Sono presenti {$a} alias/scorciatoie collegate a questo file';
@@ -235,6 +245,7 @@ $string['typenotvisible'] = 'Tipo non visibile';
 $string['undisclosedreference'] = '(Non reso noto)';
 $string['undisclosedsource'] = '(Riservate)';
 $string['unknownoriginal'] = 'Sconosciuto';
+$string['unknownsource'] = 'Fonte sconosciuta';
 $string['unzipped'] = 'Decompresso correttamentre';
 $string['upload'] = 'Carica questo file';
 $string['uploading'] = 'Caricamento in corso...';

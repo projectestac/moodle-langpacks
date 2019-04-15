@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_calculated', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_calculated
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -117,6 +117,7 @@ $string['pluginname_help'] = 'As preguntas calculadas permiten crear preguntas n
 $string['pluginname_link'] = 'question/type/calculated';
 $string['pluginnamesummary'] = 'As preguntas calculadas son similares a preguntas numéricas pero con números seleccionados ao chou dun conxunto cando se intenta facer a proba.';
 $string['possiblehdr'] = 'Posibles comodíns presentes só no texto da pregunta';
+$string['privacy:metadata'] = 'O engadido de pregunta calculada non almacena ningún dato persoal.';
 $string['questiondatasets'] = 'Conxunto de datos da pregunta';
 $string['questiondatasets_help'] = 'Conxunto de datos de comodíns que se usarán en cada pregunta individual';
 $string['questionstoredname'] = 'Nome gardado da pregunta';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_accumulative', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopform_accumulative', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopform_accumulative
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,7 @@ $string['mustchoosegrade'] = 'Vous devez sélectionner une note pour cet aspect'
 $string['pluginname'] = 'Évaluation cumulative';
 $string['poor'] = 'Mauvais';
 $string['present'] = 'Présent';
+$string['privacy:metadata'] = 'Le plugin Évaluation cumulative n\'enregistre que des informations sur le formulaire d\'évaluation. Les données personnelles récoltées sont enregistrées par le plugin Atelier lui-même et sont annexées aux évaluations exportées.';
 $string['scalename0'] = 'Oui/Non (2)';
 $string['scalename1'] = 'Présent/Absent (2)';
 $string['scalename2'] = 'Correct/Incorrect (2)';

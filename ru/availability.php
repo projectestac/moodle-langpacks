@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   availability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,6 +61,7 @@ $string['list_root_or_hidden'] = 'Не доступно (скрыто), пока
 $string['manageplugins'] = 'Управление ограничениями';
 $string['missingplugin'] = 'Плагин ограничения отсутствует';
 $string['or'] = 'или';
+$string['privacy:metadata'] = 'Подсистема ограничения доступа не хранит никаких персональных данных.';
 $string['restrictaccess'] = 'Ограничение доступа';
 $string['restrictbygroup'] = 'Добавить ограничение доступа по группе/потоку';
 $string['setheading'] = '{$a->number} Набор из {$a->count} ограничений';

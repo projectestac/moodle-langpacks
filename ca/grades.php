@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'grades', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -129,7 +129,6 @@ $string['calculationsaved'] = 'S\'ha desat el càlcul';
 $string['calculationview'] = 'Visualitza el càlcul';
 $string['cannotaccessgroup'] = 'No es pot accedir a les qualificacions del grup seleccionat.';
 $string['categories'] = 'Categories';
-$string['categoriesanditems'] = 'Categories i elements';
 $string['category'] = 'Categoria';
 $string['categoryedit'] = 'Edita la categoria';
 $string['categoryname'] = 'Nom de la categoria';

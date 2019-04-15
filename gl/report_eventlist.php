@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_eventlist', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_eventlist', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   report_eventlist
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,6 +52,7 @@ $string['otherinformation'] = 'Outra información:';
 $string['parentevent'] = 'Actividade principal';
 $string['participating'] = 'Participando';
 $string['pluginname'] = 'Lista de actividades';
+$string['privacy:metadata'] = 'O engadido de lista de eventos non almacena ningún dato persoal.';
 $string['read'] = 'ler';
 $string['relatedobservers'] = 'Engadidos que observan esta actividade';
 $string['since'] = 'Desde';

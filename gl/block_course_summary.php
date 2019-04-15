@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_summary', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_course_summary', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   block_course_summary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['coursesummary'] = 'Resumo do curso';
 $string['course_summary:addinstance'] = 'Engadir un novo bloque de resumo do curso/sitio';
 $string['pluginname'] = 'Descrición do curso/sitio';
+$string['privacy:metadata'] = 'O bloque de resumo curso/sitio só amosa información sobre cursos e non almacena datos en si.';

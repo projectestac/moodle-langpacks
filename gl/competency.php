@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'competency', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -114,6 +114,55 @@ $string['planstatusdraft'] = 'Versión preliminar';
 $string['planstatusinreview'] = 'En revisión';
 $string['planstatuswaitingforreview'] = 'Agardando pola revisión';
 $string['pointsrequiredaremet'] = 'Cumpríronse os puntos requiridos';
+$string['privacy:evidence:action:complete'] = 'Completar a competencia se está sen puntuar';
+$string['privacy:evidence:action:log'] = 'Rexistro da acción';
+$string['privacy:evidence:action:override'] = 'Anular a puntuación de competencia';
+$string['privacy:metadata:competency'] = 'Un rexistro das competencias';
+$string['privacy:metadata:competency_coursecomp'] = 'Un rexistro das competencias enlazadas a un curso';
+$string['privacy:metadata:competency_coursecompsetting'] = 'Un rexistro dos axustes das competencias nun curso';
+$string['privacy:metadata:competency_evidence'] = 'Un rexistro da evidencia que afecta ao estado dunha competencia';
+$string['privacy:metadata:competency_framework'] = 'Un rexistro dos marcos de competencia';
+$string['privacy:metadata:competency_modulecomp'] = 'Un rexistro das competencias enlazadas a un módulo';
+$string['privacy:metadata:competency_plan'] = 'Un rexistro dos plans de aprendizaxe';
+$string['privacy:metadata:competency_plancomp'] = 'Un rexistro das competencias nun plan de aprendizaxe';
+$string['privacy:metadata:competency_relatedcomp'] = 'Un rexistro da relación entre competencias';
+$string['privacy:metadata:competency_template'] = 'Un rexistro dos modelos do plan de aprendizaxe';
+$string['privacy:metadata:competency_templatecohort'] = 'Un rexistro dos círculos asociados a un modelo de plan de aprendizaxe';
+$string['privacy:metadata:competency_templatecomp'] = 'Un rexistro das competencias nun modelo de plan de aprendizaxe';
+$string['privacy:metadata:competency_usercomp'] = 'Un rexistro do estado de competencia dun usuario';
+$string['privacy:metadata:competency_usercompcourse'] = 'Un rexistro do estado das competencias nun curso';
+$string['privacy:metadata:competency_usercompplan'] = 'Un rexistro do estado das competencias nun plan de aprendizaxe';
+$string['privacy:metadata:competency_userevidence'] = 'Un rexistro da evidencia de aprendizaxe previa';
+$string['privacy:metadata:competency_userevidencecomp'] = 'Un rexistro das competencias asociadas a probas de aprendizaxe previa';
+$string['privacy:metadata:core_comments'] = 'Comentarios feitos sobre plans de aprendizaxe e competencias';
+$string['privacy:metadata:evidence:action'] = 'O tipo de acción tomada coa evidencia';
+$string['privacy:metadata:evidence:actionuserid'] = 'O usuario que realiza a acción';
+$string['privacy:metadata:evidence:desca'] = 'Os parámetros opcionais da descrición da evidencia traducíbel';
+$string['privacy:metadata:evidence:desccomponent'] = 'O compoñente da descrición da evidencia traducíbel';
+$string['privacy:metadata:evidence:descidentifier'] = 'Un identificador da descrición da evidencia traducíbel';
+$string['privacy:metadata:evidence:grade'] = 'A cualificación asociada coa evidencia';
+$string['privacy:metadata:evidence:note'] = 'Unha nota non localizada anexada á evidencia';
+$string['privacy:metadata:evidence:url'] = 'Un URL asociado coa evidencia';
+$string['privacy:metadata:plan:description'] = 'A descrición do plan de aprendizaxe';
+$string['privacy:metadata:plan:duedate'] = 'A data de remate do plan de aprendizaxe';
+$string['privacy:metadata:plan:name'] = 'O nome do plan de aprendizaxe';
+$string['privacy:metadata:plan:reviewerid'] = 'O ID do revisor do plan de aprendizaxe';
+$string['privacy:metadata:plan:status'] = 'O estado do plan de aprendizaxe';
+$string['privacy:metadata:plan:userid'] = 'O ID do usuario de quen é o plan de aprendizaxe';
+$string['privacy:metadata:timecreated'] = 'A data na que se creou o rexistro';
+$string['privacy:metadata:timemodified'] = 'A data na que se editou o rexistro';
+$string['privacy:metadata:usercomp:grade'] = 'A cualificación dada pola competencia';
+$string['privacy:metadata:usercomp:proficiency'] = 'Se se logra a aptitude';
+$string['privacy:metadata:usercomp:reviewerid'] = 'O ID do revisor';
+$string['privacy:metadata:usercomp:status'] = 'O estado da competencia';
+$string['privacy:metadata:usercomp:userid'] = 'O ID do usuario de quen é esta competencia';
+$string['privacy:metadata:userevidence:description'] = 'A descrición da evidencia';
+$string['privacy:metadata:userevidence:name'] = 'O nome da evidencia de aprendizaxe previa';
+$string['privacy:metadata:userevidence:url'] = 'Un URL asociado coa evidencia';
+$string['privacy:metadata:usermodified'] = 'O usuario que creou ou modificou o rexistro';
+$string['privacy:path:plans'] = 'Plans de aprendizaxe';
+$string['privacy:path:relatedtome'] = 'Relacionado comigo';
+$string['privacy:path:userevidence'] = 'Evidencia de aprendizaxe previo';
 $string['pushcourseratingstouserplans'] = 'Enviar as puntuacións do curso aos plans de aprendizaxe individuais';
 $string['pushcourseratingstouserplans_desc'] = 'Valor predeterminado para o axuste do curso para actualizar plans individuais de aprendizaxe cando se puntúan as competencias do curso.';
 $string['syncplanscohorts'] = 'Sincronizar plans desde modelos de círculos de plan de aprendizaxe';

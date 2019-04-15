@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_mnet', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_mnet', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['mnet_enrol_description'] = 'Publika ezazu zerbitzu hau {$a}-ko kudeatza
 $string['mnet_enrol_name'] = 'Urrutiko matrikulazio-zerbitzua';
 $string['pluginname'] = 'Moodle sareko urrutiko matrikulazioak';
 $string['pluginname_desc'] = 'Baimendu urrutiko MNet ostalaria beren erabiltzaileak gure ikastaroetan matrikulatzeko.';
+$string['privacy:metadata'] = 'MNet urrutiko matrikulazioak pluginak ez du datu pertsonalik biltzen.';
 $string['remotesubscriber'] = 'Urrutiko ostalaria';
 $string['remotesubscriber_help'] = 'Aukeratu \'Ostalari guztiak\' urruneko matrikulazio zerbitzua eskaintzen den MNet kide guztiei ikastaro hau irekitzeko. Bestela aukeratu ostalari bat ikastaro hau soilik bere erabiltzaileentzako eskuragarri jartzeko.';
 $string['remotesubscribersall'] = 'Ostalari guztiak';

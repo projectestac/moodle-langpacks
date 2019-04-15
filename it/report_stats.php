@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_stats', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'report_stats', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   report_stats
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,4 +32,13 @@ $string['page-report-stats-index'] = 'Report statistiche del corso';
 $string['page-report-stats-user'] = 'Report statistiche del corso dell\'utente';
 $string['page-report-stats-x'] = 'Qualsiasi report statistico';
 $string['pluginname'] = 'Statistiche';
+$string['privacy:metadata'] = 'Il plugin \'Statistiche\' non memorizza dati personali.';
+$string['privacy:metadata:courseid'] = 'Identificatore di un corso.';
+$string['privacy:metadata:roleid'] = 'ID del ruolo dell\'utente.';
+$string['privacy:metadata:statsreads'] = 'Visualizzazioni del contenuto.';
+$string['privacy:metadata:statssummary'] = 'Registra le statistiche di base sull\'interazione fra gli utenti nei corsi.';
+$string['privacy:metadata:statswrites'] = 'Contenuto creato nel corso.';
+$string['privacy:metadata:stattype'] = 'Tipo di statistica registrata.';
+$string['privacy:metadata:timeend'] = 'Scadenza della visualizzazione dei log.';
+$string['privacy:metadata:userid'] = 'ID dell\'utente collegato alla tabella.';
 $string['stats:view'] = 'Visualizzare le statistiche del corso';

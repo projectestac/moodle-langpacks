@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_uploaduser', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,6 +39,7 @@ $string['invalidupdatetype'] = 'Αυτή η επιλογή δεν είναι ε�
 $string['invaliduserdata'] = 'Ανιχνεύθηκαν μη έγκυρα δεδομένα για τον χρήστη {$a} και καθαρίστηκαν αυτόματα.';
 $string['nochanges'] = 'Καμία αλλαγή';
 $string['pluginname'] = 'Ανέβασμα χρήστη';
+$string['privacy:metadata'] = 'Το πρόσθετο «Ανέβασμα χρηστών» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['renameerrors'] = 'Σφάλματα στις μετονομασίες';
 $string['requiredtemplate'] = 'Απαιτείται. Μπορείτε να χρησιμοποιήσετε συντακτικό πρότυπο εδώ (%l = επίθετο, %f = όνομα, %u = όνομα χρήστη). Δείτε τη βοήθεια για λεπτομέρειες και παραδείγματα.';
 $string['rowpreviewnum'] = 'Προεπισκόπηση γραμμών';

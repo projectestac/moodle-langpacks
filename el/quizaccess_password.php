@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_password', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quizaccess_password', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   quizaccess_password
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,5 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['passworderror'] = 'Δόθηκε λάθος κωδικός πρόσβασης';
 $string['pluginname'] = 'Κανόνας πρόσβασης σε κουίζ, με κωδικό';
+$string['privacy:metadata'] = 'Το πρόσθετο «Υποχρεωτικός κωδικός πρόσβασης σε κουίζ» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['quizpassword'] = 'Κωδικός πρόσβασης κουίζ';
 $string['requirepasswordmessage'] = 'Για να δοκιμάσετε αυτό το κουίζ πρέπει να γνωρίζετε τον κωδικό του';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_dropbox', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_dropbox', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_dropbox
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,5 +36,7 @@ $string['logoutdesc'] = '(Αποσύνδεση όταν ολοκληρωθεί �
 $string['notitle'] = 'χωρίς τίτλο';
 $string['oauth2redirecturi'] = 'URI ανακατεύθυνσης OAuth 2';
 $string['pluginname'] = 'Διαδικτυακή αποθήκευση Dropbox';
+$string['privacy:metadata:repository_dropbox'] = 'Το πρόσθετο «Αποθετήριο Dropbox» δεν αποθηκεύει κανένα προσωπικό δεδομένο αλλά μεταβιβάζει δεδομένα χρήστη από το Moodle προς το απομακρυσμένο σύστημα.';
+$string['privacy:metadata:repository_dropbox:query'] = 'Το κείμενο αναζήτησης ερωτήματος χρήστη του αποθετηρίου Dropbox.';
 $string['remember'] = 'Θυμήσου με';
 $string['secret'] = 'Μυστικός κωδικός Dropbox';

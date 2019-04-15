@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradingform_guide', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,7 +40,7 @@ $string['commentsmovedown'] = 'Verplaats omlaag';
 $string['commentsmoveup'] = 'Verplaats omhoog';
 $string['confirmdeletecriterion'] = 'Weet je zeker dat je dit item wil verwijderen?';
 $string['confirmdeletelevel'] = 'Weet je zeker dat je dit niveau wil verwijderen';
-$string['criterion'] = 'Criterium-naam';
+$string['criterion'] = 'Criteriumnaam';
 $string['criteriondelete'] = 'Verwijder criterium';
 $string['criterionempty'] = 'Klik om het criterium te bewerken';
 $string['criterionmovedown'] = 'Verplaats omlaag';
@@ -76,6 +76,13 @@ $string['name'] = 'Naam';
 $string['needregrademessage'] = 'De beoordelingshulp is gewijzigd nadat deze leerling beoordeeld werd. De leerling kan zijn beoordeling niet zien tot je de beoordelingshulp controleert en het cijfer aanpast.';
 $string['pluginname'] = 'Beoordelingshulp';
 $string['previewmarkingguide'] = 'Voorbeeld beoordelingshulp';
+$string['privacy:metadata:criterionid'] = 'Een identificatie voor een criterium voor geavanceerde markering.';
+$string['privacy:metadata:fillingssummary'] = 'Bewaart informatie over het cijfer van een gebruiker en feedback voor de markeringsgids.';
+$string['privacy:metadata:instanceid'] = 'Een identificatie voor een cijfer dat door een activiteit wordt gebruikt.';
+$string['privacy:metadata:preference:showmarkerdesc'] = 'Of beschrijvingscriteria worden weergegeven';
+$string['privacy:metadata:preference:showstudentdesc'] = 'Of beschrijvingen van studentencriteria moeten worden getoond';
+$string['privacy:metadata:remark'] = 'Opmerkingen met betrekking tot dit cijfercriterium.';
+$string['privacy:metadata:score'] = 'Een score voor dit cijfer criterium.';
 $string['regrademessage1'] = 'Je gaat wijzigingen aanbrengen in een boordelingshulp die al gebruikt geweest is om te beoordelen. Geef aan of bestaande cijfers moeten nagekeken worden. Als je dit inschakeld, dan zal de beoordelingshulp verborgen worden tot het werk van de leerling opnieuw nagekeken is.';
 $string['regrademessage5'] = 'Je gaat grote wijzigingen aanbrengen aan een beoordelingshulp die al gebruikt geweest is om mee te beoordelen. Het cijfer in de cijferlijst zal niet wijzigen, maar de beoordelingshulp zal voor de leerlingen verborgen blijven tot hun werk opnieuw nagekeken is.';
 $string['regradeoption0'] = 'Niet markeren voor opnieuw beoordelen';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_db', language 'en', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_db', language 'en', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_db
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['auth_dbcannotconnect'] = 'Cannot connect to external database.';
+$string['auth_dbcannotreadtable'] = 'Cannot read external table.';
 $string['auth_dbcantconnect'] = 'Could not connect to the specified authentication database...';
 $string['auth_dbchangepasswordurl_key'] = 'Password-change URL';
+$string['auth_dbcolumnlist'] = 'External table contains the following columns:<br />{$a}';
 $string['auth_dbdebugauthdb'] = 'Debug ADOdb';
 $string['auth_dbdebugauthdbhelp'] = 'Debug ADOdb connection to external database - use when getting empty page during login. Not suitable for production sites.';
 $string['auth_dbdeleteuser'] = 'Deleted user {$a->name} id {$a->id}';
@@ -39,16 +42,18 @@ $string['auth_dbfieldpass'] = 'Name of the field containing passwords';
 $string['auth_dbfieldpass_key'] = 'Password field';
 $string['auth_dbfielduser'] = 'Name of the field containing usernames';
 $string['auth_dbfielduser_key'] = 'Username field';
-$string['auth_dbhost'] = 'The computer hosting the database server. Use a system DSN entry if using ODBC.';
+$string['auth_dbhost'] = 'The computer hosting the database server. Use a system DSN entry if using ODBC. Use a PDO DSN entry if using PDO.';
 $string['auth_dbhost_key'] = 'Host';
 $string['auth_dbinsertuser'] = 'Inserted user {$a->name} id {$a->id}';
 $string['auth_dbinsertuserduplicate'] = 'Error inserting user {$a->username} - user with this username was already created through \'{$a->auth}\' plugin.';
 $string['auth_dbinsertusererror'] = 'Error inserting user {$a}';
-$string['auth_dbname'] = 'Name of the database itself. Leave empty if using an ODBC DSN.';
+$string['auth_dbname'] = 'Name of the database itself. Leave empty if using an ODBC DSN. Leave empty if your PDO DSN already contains the database name.';
 $string['auth_dbname_key'] = 'DB name';
+$string['auth_dbnoexttable'] = 'External table not specified.';
+$string['auth_dbnouserfield'] = 'External user field not specified.';
 $string['auth_dbpass'] = 'Password matching the above username';
 $string['auth_dbpass_key'] = 'Password';
-$string['auth_dbpasstype'] = '<p>Specify the format that the password field is using. MD5 hashing is useful for connecting to other common web applications like PostNuke.</p> <p>Use \'internal\' if you want the external database to manage usernames and email addresses, but Moodle to manage passwords. If you use \'internal\', you <i>must</i> provide a populated email address field in the external database, and you must execute both admin/cron.php and auth/db/cli/sync_users.php regularly. Moodle will send an email to new users with a temporary password.</p>';
+$string['auth_dbpasstype'] = '<p>Specify the format that the password field is using.</p> <p>Use \'internal\' if you want the external database to manage usernames and email addresses, but Moodle to manage passwords. If you use \'internal\', you <i>must</i> provide a populated email address field in the external database, and you must execute both admin/cron.php and auth/db/cli/sync_users.php regularly. Moodle will send an email to new users with a temporary password.</p>';
 $string['auth_dbpasstype_key'] = 'Password format';
 $string['auth_dbreviveduser'] = 'Revived user {$a->name} id {$a->id}';
 $string['auth_dbrevivedusererror'] = 'Error reviving user {$a}';
@@ -59,10 +64,14 @@ $string['auth_dbsuspenduser'] = 'Suspended user {$a->name} id {$a->id}';
 $string['auth_dbsuspendusererror'] = 'Error suspending user {$a}';
 $string['auth_dbsybasequoting'] = 'Use sybase quotes';
 $string['auth_dbsybasequotinghelp'] = 'Sybase style single quote escaping - needed for Oracle, MS SQL and some other databases. Do not use for MySQL!';
+$string['auth_dbsyncuserstask'] = 'Synchronise users task';
 $string['auth_dbtable'] = 'Name of the table in the database';
+$string['auth_dbtableempty'] = 'External table is empty.';
 $string['auth_dbtable_key'] = 'Table';
-$string['auth_dbtype'] = 'The database type (See the <a href="http://phplens.com/adodb/supported.databases.html" target="_blank">ADOdb documentation</a> for details)';
+$string['auth_dbtype'] = 'The database type (see the documentation <a href="http://adodb.org/dokuwiki/doku.php" target="_blank">ADOdb - Database Abstraction Layer for PHP</a> for details).';
 $string['auth_dbtype_key'] = 'Database';
+$string['auth_dbupdateusers'] = 'Update users';
+$string['auth_dbupdateusers_description'] = 'As well as inserting new users, update existing users.';
 $string['auth_dbupdatinguser'] = 'Updating user {$a->name} id {$a->id}';
 $string['auth_dbuser'] = 'Username with read access to the database';
 $string['auth_dbuser_key'] = 'DB user';
@@ -70,3 +79,4 @@ $string['auth_dbusernotexist'] = 'Cannot update non-existent user: {$a}';
 $string['auth_dbuserstoadd'] = 'User entries to add: {$a}';
 $string['auth_dbuserstoremove'] = 'User entries to remove: {$a}';
 $string['pluginname'] = 'External database';
+$string['privacy:metadata'] = 'The External database authentication plugin does not store any personal data.';

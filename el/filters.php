@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filters', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'filters', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   filters
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,6 +73,7 @@ $string['nofiltersenabled'] = 'Δεν έχει ενεργοποιηθεί καν
 $string['off'] = 'Απενεργοποιημένο';
 $string['offbutavailable'] = 'Απενεργοποιημένο, αλλά διαθέσιμο';
 $string['on'] = 'Ενεργοποιημένο';
+$string['privacy:reason'] = 'Το υποσύστημα «Filter» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['profilefilterfield'] = 'Όνομα πεδίου προφίλ';
 $string['profilefilterlimiter'] = 'Χειριστής πεδίου προφίλ';
 $string['profilelabel'] = '{$a->label}: {$a->profile} {$a->operator} {$a->value}';

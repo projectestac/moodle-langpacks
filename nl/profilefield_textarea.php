@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_textarea', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_textarea', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_textarea
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Tekstzone';
+$string['privacy:metadata:profile_field_textarea:data'] = 'Tekstzone voor profielveld gebruikersgegevens';
+$string['privacy:metadata:profile_field_textarea:dataformat'] = 'De format van de tekstzone voor profielveld gebruikersgegevens';
+$string['privacy:metadata:profile_field_textarea:fieldid'] = 'De ID van het profielveld';
+$string['privacy:metadata:profile_field_textarea:tableexplanation'] = 'Bijkomende gebruikersgegevens';
+$string['privacy:metadata:profile_field_textarea:userid'] = 'De ID van de gebruiker wiens data bewaard worden door de Textzone profielveld';

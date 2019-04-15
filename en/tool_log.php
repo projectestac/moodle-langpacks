@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_log', language 'en', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_log', language 'en', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_log
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,9 +27,17 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actlogshdr'] = 'Available log stores';
 $string['configlogplugins'] = 'Please enable all required plugins and arrange them in appropriate order.';
+$string['exportlog'] = 'Include logs when exporting.';
+$string['exportlogdetail'] = 'Include logs that relate to the user when exporting.';
 $string['logging'] = 'Logging';
 $string['managelogging'] = 'Manage log stores';
 $string['pluginname'] = 'Log store manager';
+$string['privacy:metadata:logstore'] = 'The log stores';
+$string['privacy:path:logs'] = 'Logs';
+$string['privacy:request:origin:cli'] = 'Command line tool';
+$string['privacy:request:origin:restore'] = 'Backup being restored';
+$string['privacy:request:origin:web'] = 'Standard web request';
+$string['privacy:request:origin:ws'] = 'Mobile app or web service';
 $string['reportssupported'] = 'Reports supported';
 $string['subplugintype_logstore'] = 'Log store';
 $string['subplugintype_logstore_plural'] = 'Log stores';

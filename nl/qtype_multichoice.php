@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_multichoice', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,10 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['answerhowmany'] = 'Een of meer antwoorden?';
+$string['answerhowmany_desc'] = 'Moet de standaard één antwoord zijn (keuzerondjes) of meerdere antwoorden (selectievakjes)?';
 $string['answernumbering'] = 'Keuzes nummeren?';
 $string['answernumbering123'] = '1., 2., 3., ...';
 $string['answernumberingabc'] = 'a., b., c., ...';
 $string['answernumberingABCD'] = 'A., B., C., ...';
+$string['answernumbering_desc'] = 'De standaard nummersingsstijl.';
 $string['answernumberingiii'] = 'i., ii., iii., ...';
 $string['answernumberingIIII'] = 'I., II., III., ...';
 $string['answernumberingnone'] = 'Geen nummering';
@@ -61,11 +63,13 @@ $string['pleaseselectatleastoneanswer'] = 'Kies minstens één antwoord';
 $string['pluginname'] = 'Meerkeuze';
 $string['pluginnameadding'] = 'Een meerkeuzevraag toevoegen';
 $string['pluginnameediting'] = 'Meerkeuzevraag bewerken';
-$string['pluginname_help'] = 'Als antwoord op een vraag (waarin een afbeelding kan staan), kiest de respondent uit meerdere antwoorden. Er zijn twee types meerkeuzevragen - één antwoord mogelijk of meerdere antwoorden mogelijk.';
+$string['pluginname_help'] = 'Als antwoord op een vraag (waarin een afbeelding kan staan), kiest de respondent uit meerdere antwoorden. Een meerkeuzevraag kan één of meerdere juiste antwoorden hebben.';
 $string['pluginnamesummary'] = 'Laat de keuze van één of meerdere antwoorden toe uit een vooraf opgestelde lijst.';
+$string['privacy:metadata'] = 'De meerkeuzevraagtype-plugin bewaart geen persoonlijke gegevens.';
 $string['selectmulti'] = 'Kies één of meer uit de volgende antwoorden:';
 $string['selectone'] = 'Kies het juiste antwoord uit de volgende mogelijkheden:';
 $string['shuffleanswers'] = 'Antwoorden in willekeurige volgorde?';
+$string['shuffleanswers_desc'] = 'Moeten opties standaard door elkaar geschud worden voor elke poging?';
 $string['shuffleanswers_help'] = 'Indien ingeschakeld wordt de volgorde van de antwoorden voor elke poging door elkaar gehaald, toch indien "Door elkaar halen binnen vragen" ook is ingesteld op het niveau van de activiteit.';
 $string['singleanswer'] = 'Kies een antwoord';
 $string['toomanyselected'] = 'Je hebt gekozen voor te veel opties.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_date', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability_date', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   availability_date
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['full_from_date'] = 'с или после <strong>{$a}</strong>';
 $string['full_until'] = 'До <strong>{$a}</strong>';
 $string['full_until_date'] = 'до <strong>{$a}</strong>';
 $string['pluginname'] = 'Ограничение по дате';
+$string['privacy:metadata'] = 'Плагин ограничения доступности «Ограничение по дате» не хранит никаких персональных данных.';
 $string['short_from'] = 'Доступно с <strong>{$a}</strong>';
 $string['short_from_date'] = 'Доступно с <strong>{$a}</strong>';
 $string['short_until'] = 'Доступно до <strong>{$a}</strong>';

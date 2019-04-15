@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'group', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -111,9 +111,9 @@ $string['groupmodeforce'] = 'Imposa el mode de grup';
 $string['groupmodeforce_help'] = 'Si es força el mode de grups, el mode de grups del curs s\'aplica a cada activitat del curs. Aleshores els modes de grup de cada activitat no es tenen en compte.';
 $string['groupmode_help'] = 'Aquest paràmetre té 3 opcions:
 
-* Sense grups: no hi ha subgrups, tots els participants són membres d\'una gran comunitat.
- * Grups separats: cada membre d\'un grup veu només el seu grup, els altres són invisibles.
-* Grups visibles: cada membre d\'un grup treballa dins del propi grup, però pot veure també els altres grups.
+* Sense grups
+* Grups separats: cada membre d\'un grup veu només el seu grup, els altres són invisibles.
+* Grups visibles: cada membre d\'un grup treballa dins del seu propi grup, però pot veure també els altres grups.
 
 El mode de grup definit a nivell de curs és el mode per defecte en totes les activitats del curs. Cada activitat que admeti grups pot definir també el seu propi mode de grup, encara que si s\'imposa el mode de grup a nivell de curs, s\'ignorarà el paràmetre de mode de grup de cada activitat.';
 $string['groupmy'] = 'El meu grup';

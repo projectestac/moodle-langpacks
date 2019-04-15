@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'webservice', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -134,6 +134,7 @@ $string['norequiredcapability'] = 'Δεν απαιτείται δυνατότη�
 $string['notoken'] = 'Η λίστα κουπονιών είναι άδεια.';
 $string['onesystemcontrolling'] = 'Επιτρέψτε σε ένα εξωτερικό σύστημα να ελέγχει το Moodle';
 $string['onesystemcontrollingdescription'] = 'Τα παρακάτω βήματα σας βοηθούν να ρυθμίσετε τις υπηρεσίες ιστού του Moodle για να επιτρέψετε σε ένα εξωτερικό σύστημα να αλληλεπιδράσει με το Moodle. Αυτό περιλαμβάνει τη ρύθμιση μιας μεθόδου αυθεντικοποίησης κουπονιού (κλειδί ασφαλείας).';
+$string['onlyseecreatedtokens'] = 'Οποιοδήποτε κουπόνι μπορεί να διαγραφεί, αν και μπορείτε να δείτε μόνο τα κουπόνια που δημιουργήσατε.';
 $string['operation'] = 'Λειτουργία';
 $string['optional'] = 'Προαιρετικά';
 $string['passwordisexpired'] = 'Ο κωδικός πρόσβασης έχει λήξει.';
@@ -143,6 +144,22 @@ $string['postrestparam'] = 'Κώδικας PHP για REST (αίτημα POST)';
 $string['potusers'] = 'Μη εξουσιοδοτημένοι χρήστες';
 $string['potusersmatching'] = 'Μη εξουσιοδοτημένοι χρήστες που ταιριάζουν';
 $string['print'] = 'Εκτύπωση όλων';
+$string['privacy:metadata:serviceusers'] = 'Λίστα χρηστών που μπορούν να χρησιμοποιήσουν ορισμένες εξωτερικές υπηρεσίες';
+$string['privacy:metadata:serviceusers:iprestriction'] = 'Μόνο αυτή η διεύθυνση IP θα χρησιμοποιεί την υπηρεσία';
+$string['privacy:metadata:serviceusers:timecreated'] = 'Η ημερομηνία κατά την οποία δημιουργήθηκε το αρχείο';
+$string['privacy:metadata:serviceusers:userid'] = 'Το αναγνωριστικό του χρήστη';
+$string['privacy:metadata:serviceusers:validuntil'] = 'Η ημερομηνία λήξης της εξουσιοδότησης';
+$string['privacy:metadata:tokens'] = 'Ένα ιστορικό των κουπονιών για αλληλεπίδραση με το Moodle μέσω υπηρεσιών ιστού ή εφαρμογών για κινητά.';
+$string['privacy:metadata:tokens:creatorid'] = 'Το αναγνωριστικό του χρήστη που δημιούργησε το κουπόνι';
+$string['privacy:metadata:tokens:iprestriction'] = 'Το IP αυτό περιορίζεται να χρησιμοποιεί μόνο αυτό το κουπόνι';
+$string['privacy:metadata:tokens:lastaccess'] = 'Η  ημερομηνία κατά την οποία χρησιμοποιήθηκε τελευταία φορά το κουπόνι';
+$string['privacy:metadata:tokens:privatetoken'] = 'Ένα πιο ιδιωτικό κουπόνι χρησιμοποιείται περιστασιακά για την επικύρωση ορισμένων λειτουργιών, όπως η SSO (Single sign-on: μία και μόνον ενιαία αυθεντικοποίηση).';
+$string['privacy:metadata:tokens:timecreated'] = 'Η  ημερομηνία κατά την οποία δημιουργήθηκε το κουπόνι';
+$string['privacy:metadata:tokens:token'] = 'Το κουπόνι του χρήστη';
+$string['privacy:metadata:tokens:tokentype'] = 'Ο τύπος του κουπονιού';
+$string['privacy:metadata:tokens:userid'] = 'Το αναγνωριστικό του χρήστη του οποίου είναι το κουπόνι';
+$string['privacy:metadata:tokens:validuntil'] = 'Η ημερομηνία κατά την οποία το κουπόνι καθίσταται άκυρο';
+$string['privacy:request:notexportedsecurity'] = 'Δεν εξήχθη για λόγους ασφαλείας';
 $string['protocol'] = 'Πρωτόκολλο';
 $string['removefunction'] = 'Αφαίρεση';
 $string['removefunctionconfirm'] = 'Θέλετε πραγματικά να καταργήσετε τη λειτουργία «{$a->function}» από την υπηρεσία «{$a->service}»;';
@@ -172,6 +189,7 @@ $string['service'] = 'Υπηρεσία';
 $string['servicehelpexplanation'] = 'Μια υπηρεσία είναι ένα σύνολο λειτουργιών. Μια υπηρεσία μπορεί να προσπελαστεί από όλους τους χρήστες ή μόνο από ορισμένους χρήστες.';
 $string['servicename'] = 'Όνομα υπηρεσίας';
 $string['servicenotavailable'] = 'Η υπηρεσία ιστού δεν είναι διαθέσιμη (δεν υπάρχει ή μπορεί να είναι απενεργοποιημένη)';
+$string['servicerequireslogin'] = 'Η υπηρεσία ιστού δεν είναι διαθέσιμη (η σύνοδος αποσυνδέθηκε ή έχει λήξει)';
 $string['servicesbuiltin'] = 'Ενσωματωμένες υπηρεσίες';
 $string['servicescustom'] = 'Προσαρμοσμένες υπηρεσίες';
 $string['serviceusers'] = 'Εξουσιοδοτημένοι χρήστες';

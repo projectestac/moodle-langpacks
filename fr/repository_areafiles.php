@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_areafiles', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_areafiles', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_areafiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,3 +29,4 @@ $string['areafiles:view'] = 'Consulter le dépôt Fichiers intégrés';
 $string['configplugin'] = 'Configuration du dépôt Fichiers intégrés';
 $string['pluginname'] = 'Fichiers intégrés';
 $string['pluginname_help'] = 'Les fichiers intégrés dans l\'éditeur de texte actuel';
+$string['privacy:metadata'] = 'Le plugin de dépôt Fichiers intégrés n\'enregistre et ne transmet aucune donnée personnelle.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_history', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradereport_history', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   gradereport_history
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,6 +48,7 @@ $string['history:view'] = 'Bekijk cijfergeschiedenis';
 $string['loadmoreusers'] = 'Laad meer gebruikers...';
 $string['pluginname'] = 'Cijfergeschiedenis';
 $string['preferences'] = 'Voorkeuren cijfergeschiedenis';
+$string['privacy:metadata'] = 'Het rapport cijfer geschiedenis toont alleen gegevens die op andere locaties zijn opgeslagen.';
 $string['revisedonly'] = 'Enkel aangepaste cijfers';
 $string['revisedonly_help'] = 'Toon enkel cijfers die aangepast zijn. Enkel het uiteindelijke resultaat wordt getoond.';
 $string['selectedusers'] = 'Geselecteerde gebruikers';

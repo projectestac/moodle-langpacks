@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_comments', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignfeedback_comments', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   assignfeedback_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,3 +34,8 @@ $string['default_help'] = 'Se establece, este método de comentarios será activ
 $string['enabled'] = 'Comentarios';
 $string['enabled_help'] = 'Si está activado, o marcador pode deixar comentarios para cada envío.';
 $string['pluginname'] = 'Comentarios';
+$string['privacy:commentpath'] = 'Comentarios';
+$string['privacy:metadata:assignmentid'] = 'ID da tarefa';
+$string['privacy:metadata:commentpurpose'] = 'O texto do comentario.';
+$string['privacy:metadata:gradepurpose'] = 'O ID da cualificación asociada co comentario.';
+$string['privacy:metadata:tablesummary'] = 'Isto almacena os comentarios feitos polos cualificadores como comentarios para o alumno na súa presentación.';

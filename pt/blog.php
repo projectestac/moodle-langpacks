@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'blog', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -80,7 +80,7 @@ $string['donothaveblog'] = 'Não possui um blogue próprio.';
 $string['editentry'] = 'Editar mensagem';
 $string['editexternalblog'] = 'Editar este blogue externo';
 $string['emptybody'] = 'As mensagens do blogue têm de conter texto';
-$string['emptyrssfeed'] = 'O URL que indicou não corresponde a um RSS válido';
+$string['emptyrssfeed'] = 'O URL que indicou não aponta para uma lista RSS válida';
 $string['emptytitle'] = 'O título das entradas do blogue têm de conter texto';
 $string['emptyurl'] = 'Tem que indicar um URL que aponte para uma lista RSS válida';
 $string['entrybody'] = 'Texto da mensagem';
@@ -112,7 +112,7 @@ $string['groupblogdisable'] = 'Os blogues de grupo não estão ativos';
 $string['groupblogentries'] = 'Entradas do blogue associadas a {$a->coursename} pelo grupo {$a->groupname}';
 $string['groupblogs'] = 'Os utilizadores só podem ver blogues de pessoas com quem partilham um grupo';
 $string['incorrectblogfilter'] = 'Filtro incorreto';
-$string['intro'] = 'Esta Lista RSS foi automaticamente gerado a partir de um ou mais blogues';
+$string['intro'] = 'Esta lista RSS foi automaticamente gerado a partir de um ou mais blogues';
 $string['invalidgroupid'] = 'ID de grupo inválido';
 $string['invalidurl'] = 'O URL não está disponível';
 $string['linktooriginalentry'] = 'Ligar à mensagem original';
@@ -135,6 +135,29 @@ $string['pagesize'] = 'Número de entradas do blogue por página';
 $string['permalink'] = 'Permalink';
 $string['personalblogs'] = 'Os utilizadores só podem ver os seus blogues';
 $string['preferences'] = 'Preferências do blogue';
+$string['privacy:metadata:core_comments'] = 'Comentários associados a entradas no blogue';
+$string['privacy:metadata:core_files'] = 'Ficheiros anexados a entradas de blogue';
+$string['privacy:metadata:core_tag'] = 'Palavras-chave associadas a entradas de blogue';
+$string['privacy:metadata:external'] = 'Uma hiperligacão para uma lista RSS externa';
+$string['privacy:metadata:external:description'] = 'Descrição da lista';
+$string['privacy:metadata:external:filtertags'] = 'A lista de palavras-chave para filtrar as entradas';
+$string['privacy:metadata:external:name'] = 'Nome da lista';
+$string['privacy:metadata:external:timefetched'] = 'A data/hora em que a lista foi recuperada pela última vez';
+$string['privacy:metadata:external:timemodified'] = 'A data/hora em que a associação foi modificada pela última vez';
+$string['privacy:metadata:external:url'] = 'O URL da lista';
+$string['privacy:metadata:external:userid'] = 'O ID do utilizador que adicionou a entrada de blogue externo.';
+$string['privacy:metadata:post'] = 'Informação relacionada com entradas no blogue';
+$string['privacy:metadata:post:content'] = 'Conteúdo de uma entrada de blogue externa';
+$string['privacy:metadata:post:created'] = 'Data em que a entrada foi criada.';
+$string['privacy:metadata:post:lastmodified'] = 'Data em que a entrada de blogue foi modificada pela última vez.';
+$string['privacy:metadata:post:publishstate'] = 'Se a entrada é visível para os outros ou não';
+$string['privacy:metadata:post:subject'] = 'O título da entrada do blogue';
+$string['privacy:metadata:post:summary'] = 'O texto da entrada do blogue';
+$string['privacy:metadata:post:uniquehash'] = 'Identificador único para uma entrada externa, geralmente um URL';
+$string['privacy:metadata:post:userid'] = 'O ID do utilizador que adicionou a entrada de blogue.';
+$string['privacy:metadata:post:usermodified'] = 'O utilizador que modificou a entrada pela última vez';
+$string['privacy:path:blogassociations'] = 'Tópicos de blogues associados';
+$string['privacy:unknown'] = 'Desconhecido';
 $string['publishto'] = 'Publicar para';
 $string['publishtocourse'] = 'Os utilizadores partilham uma disciplina consigo';
 $string['publishtocourseassoc'] = 'Membros da disciplina associada';

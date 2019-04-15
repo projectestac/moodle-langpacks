@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_ldap', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_ldap', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['autocreate_key'] = 'Criação automática';
 $string['autocreation_settings'] = 'Configurações para criação automática de disciplinas';
 $string['autoupdate_settings'] = 'Atualização das definições automáticas da disciplina';
 $string['autoupdate_settings_desc'] = '<p>Selecione os ficheiros a atualizar quando o script de sincronização estiver a ser executado (enrol/ldap/cli/sync.php).</p><p> Uma atualização irá decorrer quando pelo menos um campo estiver selecionado.</p>';
-$string['bind_dn'] = 'Se desejar indique neste campo um nome de utilizador de <em>bind</em> para pesquisar utilizadores. Ex: cn=ldapuser,ou=public,o=org';
+$string['bind_dn'] = 'Se desejar, indique neste campo um nome de utilizador de <em>bind</em> para pesquisar utilizadores. Ex: cn=ldapuser,ou=public,o=org';
 $string['bind_dn_key'] = 'DN do utilizador de <em>bind</em>';
 $string['bind_pw'] = 'Senha do utilizador de <em>bind</em>';
 $string['bind_pw_key'] = 'Senha';
@@ -66,7 +66,7 @@ $string['courseupdated'] = 'A disciplina com o número de ID \'{$a->idnumber}\' 
 $string['courseupdateskipped'] = 'A disciplina com o número de ID \'{$a->idnumber}\' não requer atualização. A ignorar...';
 $string['createcourseextid'] = 'CRIAR Utilizador inscrito numa disciplina que não existe: \'{$a->courseextid}\'';
 $string['createnotcourseextid'] = 'Utilizador inscrito numa disciplina que não existe: \'{$a->courseextid}\'';
-$string['creatingcourse'] = 'A criar a disciplina "{$a}" ...';
+$string['creatingcourse'] = 'A criar a disciplina "{$a}"...';
 $string['duplicateshortname'] = 'A criação da disciplina falhou. Duplique o nome curto. A disciplina com o número ID \'{$a->idnumber}\' será ignorada.';
 $string['editlock'] = 'Bloquear valor';
 $string['emptyenrolment'] = 'Não existem utilizadores com o papel "{$a->role_shortname}" na disciplina "{$a->course_shortname}"';
@@ -96,7 +96,7 @@ $string['nested_groups'] = 'Pretender utilizar grupos de grupos (\'nested groups
 $string['nested_groups_key'] = 'Grupos de grupos';
 $string['nested_groups_settings'] = 'Configurações de grupos de grupos';
 $string['nosuchrole'] = 'O papel "{$a}" não existe';
-$string['objectclass'] = 'objectClass a usar na pesquisas de disciplinas. Nomalmente "group" ou "posixGroup".';
+$string['objectclass'] = 'objectClass a usar nas pesquisas de disciplinas. Nomalmente "group" ou "posixGroup".';
 $string['objectclass_key'] = 'Object class';
 $string['ok'] = 'OK!';
 $string['opt_deref'] = 'Se o <em>group membership</em> contém <em>distinguished names</em> indique como são tratados os <em>aliases</em> durante uma pesquisa. Selecione um dos seguintes valores: "Não" (LDAP_DEREF_NEVER) ou "Sim" (LDAP_DEREF_ALWAYS).';
@@ -105,6 +105,7 @@ $string['phpldap_noextension'] = '<em>Este módulo de inscrição não pode ser 
 $string['pluginname'] = 'Inscrições LDAP';
 $string['pluginname_desc'] = '<p>Este módulo de inscrição permite utilizar um servidor LDAP para gerir as inscrições. É necessário que a árvore LDAP possua grupos que representem as disciplinas e que cada um desses grupos/disciplinas tenham elementos que correspondam aos alunos.</p><p>É necessário que as disciplinas estejam definidas como grupos no LDAP, em que cada grupo tem um campo (<strong>member</strong> ou <strong>memberUid</strong>) que identifica univocamente cada utilizador.</p><p>Para poder usar inscrições LDAP os seus utilizadores têm que ter um <strong>idnumber</strong> válido. Os grupos LDAP têm que ter esse <strong>idnumber</strong> com campo de membro para que os utilizadores sejam inscritos na disciplina. Normalmente não surgem problemas se estiver a ser usada autenticação LDAP.</p><p>As inscrições de um utilizador serão atualizadas quando este inicia uma sessão. É possível correr um script que atualize todas as inscrições em simultâneo: <strong>enrol/ldap/cli/sync.php</strong>.</p><p>Este módulo também pode ser configurado para criar novas disciplinas sempre que forem criados novos grupos no LDAP.</p>';
 $string['pluginnotenabled'] = 'O módulo não está ativo!';
+$string['privacy:metadata'] = 'O módulo Inscrições LDAP	não armazena dados pessoais.';
 $string['role_mapping'] = '<p>Para cada papel que quiser mapear do LDAP terá que indicar a lista de contextos onde as disciplinas de cada papel estão localizadas. Separa cada contexto com ";".</p><p>É também necessário especificar o atributo que o servidor LDAP usa para guardar a informação de pertença a um grupo.Normalmente "member" ou "memberUid"</p>';
 $string['role_mapping_attribute'] = 'Atributo do membro LDAP para {$a}';
 $string['role_mapping_context'] = 'Contextos LDAP para {$a}';
@@ -112,6 +113,7 @@ $string['role_mapping_key'] = 'Mapeamento de papéis do LDAP';
 $string['roles'] = 'Mapeamento de papéis';
 $string['server_settings'] = 'Configurações do servidor LDAP';
 $string['synccourserole'] = 'A sincronizar a disciplina "{$a->idnumber}" para o papel "{$a->role_shortname}"';
+$string['syncenrolmentstask'] = 'Sincronizar a tarefa inscrições';
 $string['template'] = 'Opcional: as configurações das disciplinas criadas automaticamente podem ser copiadas a partir de uma disciplina que já existe no Moodle.';
 $string['template_key'] = 'Modelo';
 $string['unassignrole'] = 'A retirar o papel "{$a->role_shortname}" ao utilizador "{$a->user_username}" na disciplina "{$a->course_shortname}" (identificador da disciplina {$a->course_id})';

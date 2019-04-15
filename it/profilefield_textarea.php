@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_textarea', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_textarea', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_textarea
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Area di testo';
+$string['privacy:metadata:profile_field_textarea:data'] = 'Dati utente nel campo personalizzato \'Area di testo\'';
+$string['privacy:metadata:profile_field_textarea:dataformat'] = 'Formato dei dati utente nel campo personalizzato \'Area di testo\'';
+$string['privacy:metadata:profile_field_textarea:fieldid'] = 'ID del campo profilo';
+$string['privacy:metadata:profile_field_textarea:tableexplanation'] = 'Dati profilo aggiuntivi';
+$string['privacy:metadata:profile_field_textarea:userid'] = 'ID dell\'utente i cui dati sono memorizzati nel campo personalizzato \'Area di testo\'';

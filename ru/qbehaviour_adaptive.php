@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_adaptive', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_adaptive', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_adaptive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,3 +37,4 @@ $string['gradingdetailswithpenalty'] = 'Оценка за этот ответ: {
 $string['gradingdetailswithtotalpenalty'] = 'Оценка за этот ответ: {$a->raw}/{$a->max}. Эта попытка повлекла штраф: {$a->penalty}. Итоговый штраф на текущий момент: {$a->totalpenalty}.';
 $string['notcomplete'] = 'Не завершено';
 $string['pluginname'] = 'Адаптивный режим';
+$string['privacy:metadata'] = 'Плагин «Адаптивный режим поведения вопросов» не хранит никаких персональных данных.';

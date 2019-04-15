@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_overview', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,6 +56,9 @@ $string['pluginname'] = 'Notes';
 $string['preferencespage'] = 'Préférences pour cette page';
 $string['preferencessave'] = 'Afficher le rapport';
 $string['preferencesuser'] = 'Vos préférences pour ce rapport';
+$string['privacy:metadata:preference:quiz_overview_slotmarks'] = 'S\'il faut afficher les points pour chaque question.';
+$string['privacy:preference:slotmarks:no'] = 'Les points ne sont pas affichés à côté de la question.';
+$string['privacy:preference:slotmarks:yes'] = 'Les points sont affichés à côté de la question.';
 $string['regrade'] = 'Ré-évaluer';
 $string['regradeall'] = 'Recalcul global';
 $string['regradealldry'] = 'Recalcul global (simulation)';

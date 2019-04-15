@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tag', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['added'] = 'Foram adicionadas palavras-chave oficiais';
-$string['addedotag'] = '"{$a}" foi adicionada como palavra-chave oficial.';
 $string['addotags'] = 'Adicionar palavras-chave';
 $string['addtagcoll'] = 'Adicionar coleção de palavras-chave';
 $string['addtagtomyinterests'] = 'Adicionar "{$a}" aos meus interesses';
@@ -58,7 +57,7 @@ $string['editsearchable'] = 'Alterar pesquisáveis';
 $string['edittag'] = 'Editar esta palavra-chave';
 $string['edittagcoll'] = 'Editar a coleção de palavras-chave {$a}';
 $string['edittagcollection'] = 'Alterar a coleção de palavras-chave';
-$string['entertags'] = 'Inserir palavras-chave...';
+$string['entertags'] = 'Insira palavras-chave...';
 $string['errortagfrontpage'] = 'Criar palavras-chave para a página principal do site não é permitido';
 $string['errorupdatingrecord'] = 'Ocorreu um erro ao atualizar a palavra-chave';
 $string['eventtagadded'] = 'Palavra-chave adicionada a um item';
@@ -90,7 +89,6 @@ $string['name'] = 'Nome da palavra-chave';
 $string['namesalreadybeeingused'] = 'Nomes de palavras-chave já utilizados';
 $string['nameuseddocombine'] = 'Já existe uma palavra-chave com este nome. Pretende combinar estas palavras-chave?';
 $string['newcollnamefor'] = 'Novo nome para a coleção de palavras-chave {$a}';
-$string['newname'] = 'Novo nome da palavra-chave';
 $string['newnamefor'] = 'Novo nome para a palavra-chave {$a}';
 $string['nextpage'] = 'Mais';
 $string['noresultsfor'] = 'Não foram devolvidos resultados para "{$a}"';
@@ -105,6 +103,19 @@ $string['page-tag-manage'] = 'Gerir página de palavras-chave';
 $string['page-tag-search'] = 'Pesquisa na página de palavras-chave';
 $string['page-tag-x'] = 'Todas as páginas de palavras-chave';
 $string['prevpage'] = 'Voltar';
+$string['privacy:metadata:tag'] = 'Os detalhes de cada palavra-chave são armazenados juntamente com a sua descrição e outras informações relacionadas';
+$string['privacy:metadata:tag:description'] = 'A descrição da palavra-chave.';
+$string['privacy:metadata:tag:flag'] = 'Se uma palavra-chave foi sinalizada como inadequada.';
+$string['privacy:metadata:taginstance'] = 'A hiperligação entre cada palavra-chave e onde é usada.';
+$string['privacy:metadata:taginstance:ordering'] = 'A ordem relativa desta palavra-chave.';
+$string['privacy:metadata:taginstance:tagid'] = 'A hiperligação para a palavra-chave.';
+$string['privacy:metadata:taginstance:timecreated'] = 'A data/hora em que esta palavra-chave foi ligada ao objetivo.';
+$string['privacy:metadata:taginstance:timemodified'] = 'A data/hora em que esta palavra-chave foi modificada para o objetivo.';
+$string['privacy:metadata:taginstance:tiuserid'] = 'Onde o conteúdo partilhado pode ser marcado individualmente pelos utilizadores, o proprietário da instância da palavras-chave é armazenado.';
+$string['privacy:metadata:tag:name'] = 'O nome da palavra-chave - Isto é uma versão normalizada do nome.';
+$string['privacy:metadata:tag:rawname'] = 'O nome da palavras-chave - nome que é mostrado.';
+$string['privacy:metadata:tag:timemodified'] = 'A última vez que a palavra-chave foi modificada.';
+$string['privacy:metadata:tag:userid'] = 'O ID do utilizador que criou a palavra-chave pela primeira vez.';
 $string['ptags'] = 'Palavras-chave definidas pelo utilizador (separadas por vírgulas)';
 $string['relatedblogs'] = 'Entradas de blogue mais recentes';
 $string['relatedtags'] = 'Palavras-chave relacionadas';
@@ -118,7 +129,7 @@ $string['rsstitle'] = 'Palavras-chave da disciplina na lista RSS do utilizador: 
 $string['search'] = 'Procurar';
 $string['searchable'] = 'Pesquisável';
 $string['searchable_help'] = 'Se selecionar esta opção, as palavras-chave nesta coleção de pesquisa poderão ser encontradas na página "Pesquisar palavras-chave". Se não selecionar esta opção, as palavras-chave continuarão a poder ser encontradas através de outras páginas de pesquisa.';
-$string['searchresultsfor'] = 'Procurar resultados para "{$a}"';
+$string['searchresultsfor'] = 'Resultado da procura para "{$a}"';
 $string['searchtags'] = 'Procurar palavras-chave';
 $string['seeallblogs'] = 'Ver todas as entradas de blogue com a palavra-chave "{$a}"';
 $string['select'] = 'Selecionar';
@@ -136,7 +147,7 @@ $string['standardforce'] = 'Forçar';
 $string['standardhide'] = 'Não sugerir';
 $string['standardsuggest'] = 'Sugerir';
 $string['standardtag'] = 'Oficial';
-$string['suredeletecoll'] = 'Tem certeza de que pretende eliminar a coleção de palavras-chave "{$a}"?';
+$string['suredeletecoll'] = 'Tem a certeza de que pretende eliminar a coleção de palavras-chave "{$a}"?';
 $string['tag'] = 'palavra-chave';
 $string['tagarea_blog_external'] = 'Entradas de blogue externas';
 $string['tagarea_course'] = 'Disciplinas';
@@ -154,13 +165,8 @@ $string['taggedwith'] = 'Com a palavra-chave "{$a}"';
 $string['tags'] = 'Palavras-chave';
 $string['tagsaredisabled'] = 'As palavras-chave estão desativadas';
 $string['tagtype'] = 'Tipo de palavra-chave';
-$string['tagtype_default'] = 'Predefinido';
-$string['tagtype_official'] = 'Oficial';
 $string['thingstaggedwith'] = '<b>{$a->count}</b> coisas sinalizadas com "{$a->name}"';
 $string['thingtaggedwith'] = '"{$a->name}" é usado uma vez';
-$string['thistaghasnodesc'] = 'Atualmente, esta palavra-chave não contém qualquer descrição';
 $string['timemodified'] = 'Alterada';
 $string['typechanged'] = 'O tipo de palavra-chave foi alterado';
-$string['updated'] = 'Atualizada';
 $string['updatetag'] = 'Atualizar';
-$string['withselectedtags'] = 'Com as palavras-chave selecionadas...';

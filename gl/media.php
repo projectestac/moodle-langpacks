@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'media', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'media', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   media
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,5 +39,6 @@ $string['mediaformats_desc'] = 'Cando están activados os reprodutores nesta con
 
 As veces dous reprodutores aceptan o mesmo formato, o que aumenta a compatibilidade con diferentes dispositivos tales como teléfonos móbiles. É posible aumentar aínda máis a compatibilidade fornecendo ficheiros en diferentes formatos para o son ou para fragmentos de vídeo.';
 $string['mediasettings'] = 'Multimedia integrada';
+$string['privacy:metadata'] = 'A incrustación de medios non almacena ningún dato persoal.';
 $string['supports'] = 'Compatibilidade';
 $string['videoextensions'] = 'Vídeo: {$a}';

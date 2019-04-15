@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_rubric', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'workshopform_rubric', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   workshopform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,3 +39,4 @@ $string['mustbeunique'] = 'I voti dei livelli devono essere univoci all\'interno
 $string['mustchooseone'] = 'Devi scegliere uno di questi elementi';
 $string['mustdefinelevel'] = 'E\' necessario almeno un livello';
 $string['pluginname'] = 'Rubric';
+$string['privacy:metadata'] = 'Il plugin \'Rubric\' memorizza solo i dettagli dello schema di valutazione. I dati personali effettivi su come è stato compilato lo schema sono memorizzati nel modulo Workshop e vengono allegati alle valutazioni esportate.';

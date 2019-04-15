@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hub', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'hub', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   hub
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,7 +59,7 @@ $string['coursemap'] = 'Mapa del curs';
 $string['coursename'] = 'Nom';
 $string['courseprivate'] = 'Privat';
 $string['coursepublic'] = 'Públic';
-$string['coursepublished'] = 'Aquest curs ha sigut publicat amb èxit en \'{$a}\'.';
+$string['coursepublished'] = 'Aquest curs ha estat publicat amb èxit en «{$a}».';
 $string['courseshortname'] = 'Nom curt';
 $string['courseshortname_help'] = 'Introduïu un nom curt per al vostre curs. No cal que sigui únic.';
 $string['coursesnumber'] = 'Nombre de cursos ({$a})';
@@ -76,7 +76,7 @@ $string['demourl'] = 'URL demo';
 $string['demourl_help'] = 'Introduïu l\'URL de demostració del vostre curs. Per defecte és l\'URL del vostre curs. L\'URL de demostració es mostra com un enllaç als resultats de cerca.';
 $string['description'] = 'Descripció';
 $string['description_help'] = 'Aquest text de descripció es mostrarà a la llista de cursos al concentrador.';
-$string['detectednotexistingpublication'] = '{$a->hubname} és el llistat de cursos que ja no existeix. Alerteu a l\'administrador del concentrador que el número de publicació  {$a->id} hauria de suprimir-se.';
+$string['detectednotexistingpublication'] = '{$a->hubname} és la llista de cursos que ja no existeix. Aviseu l\'administrador del concentrador que el número de publicació  {$a->id} hauria de suprimir-se.';
 $string['downloadable'] = 'Descarregable';
 $string['educationallevel'] = 'Nivell educatiu';
 $string['educationallevel_help'] = 'Seleccioneu el nivell educatiu més apropiat on el curs encaixi';
@@ -91,16 +91,16 @@ $string['emailalert'] = 'Notificacions per correu electrònic';
 $string['emailalert_help'] = 'Si s\'habilita l\'administrador del concentrador us enviarà correus electrònics amb notificacions sobre seguretat i altres noticies importants.';
 $string['enrollable'] = 'Inscribible';
 $string['errorbadimageheightwidth'] = 'La imatge hauria de tindre una mida màxima de {$a->width} X {$a->height}';
-$string['errorcourseinfo'] = 'Ha succeït un error quan es rebien metadades del concentrador ({$a}). Si us plau proveu de nou a recuperar les metadades del curs des del concentrador recarregant aquesta pàgina després. D\'altra forma podeu decidir continuar el procés de registre amb les metadades per defecte següents.';
+$string['errorcourseinfo'] = 'Hi ha hagut un error quan es rebien metadades del concentrador ({$a}). Torneu a provar de recuperar les metadades del curs des del concentrador recarregant aquesta pàgina més tard. En cas contrari, podeu decidir continuar el procés de registre amb les metadades per defecte següents.';
 $string['errorcoursepublish'] = 'Hi ha hagut un error mentre es publicava el curs ({$a}). Torneu a provar-ho més tard.';
-$string['errorcoursewronglypublished'] = 'El concentrador ha retornat un error de publicació. Si us plau torneu-ho a provar més tard.';
+$string['errorcoursewronglypublished'] = 'El concentrador ha retornat un error de publicació. Torneu a provar-ho més tard.';
 $string['errorcron'] = 'Ha succeït un error durant l\'actualització del registre en "{$a->hubname}" ({$a->errormessage})';
 $string['errorcronnoxmlrpc'] = 'XML-RPC cal que estigui habilitat per actualitzar registres.';
 $string['errorhublisting'] = 'S\'ha produït un error quan es rebia la llista del concentrador des de Moodle.org; torneu a provar-ho  més tard. ({$a})';
 $string['errorlangnotrecognized'] = 'El codi proporcionat per a l\'idioma és desconegut per a Moodle. Poseu-vos en contacte amb {$a}';
 $string['errorregistration'] = 'Ha succeït un error durant el registre; torneu a provar-ho més tard. ({$a})';
-$string['errorunpublishcourses'] = 'Degut a un error inesperat, els cursos no es poden suprimir del concentrador. Torneu a provar després ( recomanat) o poseu-vos en contacte amb l\'administrador del concentrador.';
-$string['existingscreenshotnumber'] = '{$a} captures de pantalla existents. Podeu veure aquestes captures de pantalla en aquesta pàgina, quan l\'administrador del concentrador habiliti el vostre curs.';
+$string['errorunpublishcourses'] = 'A causa d\'un error inesperat, els cursos no es poden suprimir de Moodle.net. Torneu a provar-ho més tard (recomanat) o poseu-vos en contacte amb l\'administrador de Moodle.net.';
+$string['existingscreenshotnumber'] = '{$a} captures de pantalla existents. Podreu veure aquestes captures de pantalla en aquesta pàgina sols quan l\'administrador del concentrador habiliti el vostre curs.';
 $string['existingscreenshots'] = 'Captures de pantalla existents';
 $string['forceunregister'] = 'Sí, suprimeix les dades del registre';
 $string['forceunregisterconfirmation'] = 'El vostre lloc no pot arribar a {$a}. El concentrador deu haver caigut temporalment. A menys que estigueu segurs de voler continuar amb la supressió del registre de manera local, cancel·leu-ho i torneu a intentar-ho més tard.';
@@ -198,24 +198,24 @@ $string['sitecountry'] = 'País';
 $string['sitecountry_help'] = 'El país de la vostra arganització és';
 $string['sitecreated'] = 'Lloc creat';
 $string['sitedesc'] = 'Descripció';
-$string['sitedesc_help'] = 'La descripció del vostre lloc es pot mostrar  al llistat de llocs. Si us plau utilitzeu sols text pla.';
+$string['sitedesc_help'] = 'La descripció del vostre lloc es pot mostrar a la llista de llocs. Utilitzeu sols text net.';
 $string['siteemail'] = 'Adreça de correu electrònic';
 $string['siteemail_help'] = 'Us cal proporcionar un correu electrònic a l\'administrador del concentrador perquè contacti amb vós. Això no s\'utilitzarà per a cap altre propòsit. És recomanable introduir un correu que reflecteixi la vostra posició (ex.: adminlloc@exemple.com ) i no directament un de personal.';
 $string['sitegeolocation'] = 'Geolocalització';
 $string['sitegeolocation_help'] = 'En un futur podem proporcionar cerques basades en la geolocalització als concentradors. Si voleu especificar la localització del vostre lloc, utilitzeu la latitud/longitud aquí (p. ex.: -31.947884,115.871285). Una manera de trobar-la és utilitzar Google Maps.';
 $string['sitelang'] = 'Idioma';
-$string['sitelang_help'] = 'L\'idioma del vostre lloc pot mostrar-se al llistat de llocs.';
+$string['sitelang_help'] = 'L\'idioma del vostre lloc pot mostrar-se a la llista de llocs.';
 $string['sitename'] = 'Nom';
 $string['sitename_help'] = 'El nom del lloc es mostrarà a sota en la llista de llocs si el concentrador ho permet.';
 $string['sitephone'] = 'Telèfon';
 $string['sitephone_help'] = 'El vostre número de telèfon sols els veurà l\'administrador del concentrador.';
 $string['siteprivacy'] = 'Privat';
 $string['siteprivacylinked'] = 'Fes públic el nom del lloc amb un enllaç';
-$string['siteprivacynotpublished'] = 'Si us plau no feu públic aquest lloc';
+$string['siteprivacynotpublished'] = 'No feu públic aquest lloc';
 $string['siteprivacypublished'] = 'Feu públic sols el nom del lloc';
 $string['siteregconfcomment'] = 'Us cal una confirmació final en {$a} (per evitar evitar correu brossa en {$a} )';
 $string['siteregistrationcontact'] = 'Poseu-vos en contacte amb';
-$string['siteregistrationcontact_help'] = 'Si ho permeteu, altra gent podrà posar-se en contacte amb vostè amb un formulari del concentrador. Però mai veuran el vostre correu electrònic.';
+$string['siteregistrationcontact_help'] = 'Si ho permeteu, altres persones podran posar-se en contacte amb vós amb un formulari del concentrador. De totes maneres, mai podran veure la vostra adreça electrònica.';
 $string['siteregistrationemail'] = 'Notificacions per correu electrònic';
 $string['siteregistrationemail_help'] = 'Si ho habiliteu l\'administrador del concentrador podrà enviar-vos correus electrònics per informar-vos de notícies importants sobre seguretat.';
 $string['siteregistrationupdated'] = 'Registre del lloc actualitzat';
@@ -250,14 +250,14 @@ $string['unpublishcourse'] = 'Desfés la publicació {$a}';
 $string['unregister'] = 'Esborra el registre';
 $string['unregisterconfirmation'] = 'Ara esborrareu el registre d\'aquest lloc al concentrador {$a}. Una vegada us hàgiu desconnectat, no podreu gestionar cap dels cursos que hàgiu deixat compartits aquí. Confirmeu que voleu esborrar el registre?';
 $string['unregisterfrom'] = 'Esborra el registre des de {$a}';
-$string['unregistrationerror'] = 'Ha succeït un error quan el lloc ha intentat esborrar el registre des del concentrador: {$a}';
+$string['unregistrationerror'] = 'S\'ha produït un error quan el lloc ha intentat esborrar el registre des de Moodle.net: {$a}';
 $string['untrustme'] = 'No confiïs';
 $string['update'] = 'Actualitza';
 $string['updatesite'] = 'Actualitza el registre en {$a}';
 $string['updatestatus'] = 'Comprova-ho ara.';
 $string['uploaded'] = 'Penjat';
 $string['url'] = 'URL del concentrador';
-$string['urlalreadyregistered'] = 'El seu lloc sembla estar ja registrat en aquest concentrador, el que significa que alguna cosa ha anat malament. Si us plau, poseu-vos en contacte amb l\'administrador del concentrador per restablir el vostre registre perquè pugui provar de nou.';
+$string['urlalreadyregistered'] = 'Sembla que el vostre lloc ja està registrat a Moodle.net, la qual cosa significa que alguna cosa ha anat malament. Poseu-vos en contacte amb l\'administrador de Moodle.net per restablir el vostre registre; d\'aquesta manera, podreu tornar-ho a provar.';
 $string['usersnumber'] = 'Nombre d\'usuaris ({$a})';
 $string['warning'] = 'AVIS';
 $string['wrongtoken'] = 'El registre ha fallat per alguna raó desconeguda (xarxa?). Torneu a provar-ho.';

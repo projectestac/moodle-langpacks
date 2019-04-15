@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lp', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -179,6 +179,7 @@ $string['planupdated'] = 'Il piano di formazione è stato aggiornato';
 $string['pluginname'] = 'Piani di formazione';
 $string['points'] = 'Punteggio';
 $string['pointsgivenfor'] = 'Punteggio dato per \'{$a}\'';
+$string['privacy:metadata'] = 'Il plugin "Piani di formazione" non memorizza dati personali.';
 $string['proficient'] = 'Esperto';
 $string['progress'] = 'Avanzamento';
 $string['rate'] = 'Valuta';

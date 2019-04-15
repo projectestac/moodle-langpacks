@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'plugin', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,6 +54,7 @@ $string['err_response_http_code'] = 'Ezin izan da eskuragarri dauden egunerakete
 $string['filterall'] = 'Erakutsi guztiak';
 $string['filtercontribonly'] = 'Erakutsi plugin gehigarriak bakarrik';
 $string['filterupdatesonly'] = 'Erakutsi eguneratzeko modukoak bakarrik';
+$string['isenabled'] = 'Gaituta?';
 $string['misdepinfoplugin'] = 'Pluginaren informazioa';
 $string['misdepinfoversion'] = 'Bertsioaren informazioa';
 $string['misdepsavail'] = 'Falta diren menpekotasunak eskuragarri';
@@ -102,6 +103,7 @@ $string['status_new'] = 'Instalatu egingo da';
 $string['status_nodb'] = 'Ez dago datu-baserik';
 $string['status_upgrade'] = 'Eguneratu egingo da';
 $string['status_uptodate'] = 'Instalatuta';
+$string['supportedconversions'] = 'Onartutako dokumentu-bihurtzeak';
 $string['supportedmoodleversions'] = 'Onartutako Moodle bertsioak';
 $string['systemname'] = 'Identifikatzailea';
 $string['type_antivirus'] = 'Antiburus-plugina';
@@ -126,6 +128,9 @@ $string['type_editor'] = 'Editorea';
 $string['type_editor_plural'] = 'Editoreak';
 $string['type_enrol'] = 'Matrikulazio-metodoa';
 $string['type_enrol_plural'] = 'Matrikulazio-metodoak';
+$string['type_fileconverter'] = 'Dokumentu-bihurgailua';
+$string['type_fileconvertermanage'] = 'Kudeatu dokumentu-bihurgailuak';
+$string['type_fileconverter_plural'] = 'Dokumentu-bihurgailuak';
 $string['type_filter'] = 'Testu-iragazkia';
 $string['type_filter_plural'] = 'Testu-iragazkiak';
 $string['type_format'] = 'Ikastaro-formatua';
@@ -144,6 +149,8 @@ $string['type_media'] = 'Erreproduzitzailea';
 $string['type_media_plural'] = 'Erreproduzitzaileak';
 $string['type_message'] = 'Mezu-prozesatzailea';
 $string['type_message_plural'] = 'Mezu-prozesatzaileak';
+$string['type_mlbackend'] = 'Ikaste automatikoaren backend-a';
+$string['type_mlbackend_plural'] = 'Ikaste automatikoaren backend-ak';
 $string['type_mnetservice'] = 'MNet zerbitzua';
 $string['type_mnetservice_plural'] = 'MNet zerbitzuak';
 $string['type_mod'] = 'Jarduera-modulua';

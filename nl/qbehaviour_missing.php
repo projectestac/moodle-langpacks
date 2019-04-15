@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_missing', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qbehaviour_missing', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   qbehaviour_missing
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Ontbrekend gedrag';
+$string['privacy:metadata'] = 'De ontbrekend vraaggedrag-plugin bewaart geen persoonlijke gegevens.';
 $string['questionusedunknownmodel'] = 'Deze vraag is geprobeerd met een gedrag dat niet beschikbaar is. We proberen de vraag te tonen, maar sommige delen kunnen ontbreken of fout zijn.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_randomsamatch', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_randomsamatch', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   qtype_randomsamatch
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['pluginnameadding'] = 'Προσθήκη μιας Τυχαίας ερώτ
 $string['pluginnameediting'] = 'Επεξεργασία Τυχαίας ερώτησης αντιστοίχισης σύντομης απάντησης';
 $string['pluginname_help'] = 'Από την άποψη του μαθητή, αυτό μοιάζει ακριβώς με μια ερώτηση αντιστοίχισης. Η διαφορά είναι ότι η λίστα των ονομάτων ή δηλώσεων (ερωτήσεων) για αντιστοίχιση επιλέγονται τυχαία από τις ερωτήσεις σύντομης απάντησης στην τρέχουσα κατηγορία. Πρέπει να υπάρχουν επαρκείς ερωτήσεις σύντομης απάντησης στην κατηγορία, διαφορετικά θα εμφανιστεί ένα μήνυμα σφάλματος.';
 $string['pluginnamesummary'] = 'Όπως μια ερώτηση αντιστοίχισης, αλλά δημιουργείται τυχαία από τις σύντομες απαντήσεις ερωτήσεων σε μια συγκεκριμένη κατηγορία.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Τύπος τυχαίας ερώτησης αντιστοίχισης σύντομης απάντησης» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['randomsamatch'] = 'Τυχαία αντιστοίχισης σύντομης απάντησης';
 $string['randomsamatchintro'] = 'Για κάθε μία από τις παρακάτω ερωτήσεις, επιλέξτε την αντίστοιχη απάντηση από το μενού.';
 $string['randomsamatchnumber'] = 'Αριθμός ερωτήσεων προς επιλογή';

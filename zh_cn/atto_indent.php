@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_indent', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_indent', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_indent
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['indent'] = '缩进';
 $string['outdent'] = '缩出';
 $string['pluginname'] = '缩进';
+$string['privacy:metadata'] = 'atto_indent 插件不储存任何私人数据。';

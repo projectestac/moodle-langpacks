@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'de', branch 'MOODLE_32_STABLE'
+ * Strings for component 'question', language 'de', branch 'MOODLE_34_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -101,7 +101,7 @@ $string['contexterror'] = 'Diese Seite sollte nur angezeigt werden, wenn eine Ka
 $string['copy'] = 'Aus {$a} kopieren und Links ändern.';
 $string['correct'] = 'Richtig';
 $string['correctfeedback'] = 'Für jede richtige Antwort';
-$string['correctfeedbackdefault'] = 'Die Antwort ist richtig';
+$string['correctfeedbackdefault'] = 'Die Antwort ist richtig.';
 $string['created'] = 'Erstellt';
 $string['createdby'] = 'Erstellt von';
 $string['createdmodifiedheader'] = 'Erstellt / Verändert';
@@ -236,7 +236,7 @@ $string['impossiblechar'] = 'Unzulässiges Zeichen {$a} innerhalb der Klammern e
 $string['includesubcategories'] = 'Fragen aus Unterkategorien anzeigen';
 $string['incorrect'] = 'Falsch';
 $string['incorrectfeedback'] = 'Für jede falsche Antwort';
-$string['incorrectfeedbackdefault'] = 'Die Antwort ist falsch';
+$string['incorrectfeedbackdefault'] = 'Die Antwort ist falsch.';
 $string['information'] = 'Information';
 $string['invalidanswer'] = 'Unvollständige Antwort';
 $string['invalidarg'] = 'Ungültige Argumente oder falsche Serverkonfiguration';
@@ -384,6 +384,29 @@ $string['permissionmove'] = 'Diese Frage verschieben';
 $string['permissionsaveasnew'] = 'Diese Frage  als neue Frage speichern';
 $string['permissionto'] = 'Sie haben Rechte für :';
 $string['previewquestion'] = 'Vorschau Frage {$a}';
+$string['privacy:metadata:database:question'] = 'Details zu einer bestimmten Frage';
+$string['privacy:metadata:database:question_attempts'] = 'Informationen über einen Beantwortungsversuch für eine bestimmte Frage';
+$string['privacy:metadata:database:question_attempts:flagged'] = 'Kennzeichen, dass der Nutzer beim Frageversuch Frage markiert hat';
+$string['privacy:metadata:database:question_attempts:responsesummary'] = 'Zusammenfassung der Antworten zu einer Frage';
+$string['privacy:metadata:database:question_attempt_step_data'] = 'Für den Schritt eines Fragenversuchs können  weitere Daten in der step_data-Tabelle abgelegt sein.';
+$string['privacy:metadata:database:question_attempt_step_data:name'] = 'Name des Datenwerts';
+$string['privacy:metadata:database:question_attempt_step_data:value'] = 'Wert';
+$string['privacy:metadata:database:question_attempt_steps'] = 'Jeder Fragenversuch durchläuft eine Reihe von Schritten vom Beginn bis zum Abschluß und der Bewertung. DieTabelle speichert Informationen für jeden dieser Schritte.';
+$string['privacy:metadata:database:question_attempt_steps:fraction'] = 'Bewertung für diesen Fragenversuch skaliert zu 1';
+$string['privacy:metadata:database:question_attempt_steps:state'] = 'Status des Fragenversuchsschritts am Ende  der Verarbeitung des Schritts';
+$string['privacy:metadata:database:question_attempt_steps:timecreated'] = 'Datum und Zeitpunkt, zu dem die Schrittverarbeitung dieser Frage begann';
+$string['privacy:metadata:database:question_attempt_steps:userid'] = 'Nutzer, der Schrittverarbeitung ausgeführt hat';
+$string['privacy:metadata:database:question_attempts:timemodified'] = 'Zeitpunkt zu dem Fragenversuch aktualisiert wurde';
+$string['privacy:metadata:database:question:createdby'] = 'Person, die Testfrage erstellt hat';
+$string['privacy:metadata:database:question:generalfeedback'] = 'Allgemeines Feedback für die Frage';
+$string['privacy:metadata:database:question:modifiedby'] = 'Person, die Frage zuletzt aktualisiert hat';
+$string['privacy:metadata:database:question:name'] = 'Name der Frage';
+$string['privacy:metadata:database:question:questiontext'] = 'Fragetext';
+$string['privacy:metadata:database:question:timecreated'] = 'Datum/Zeit an dem Frage erstellt wurde';
+$string['privacy:metadata:database:question:timemodified'] = 'Datum/Zeitpunkt, zu dem die Frage aktualisiert wurde';
+$string['privacy:metadata:link:qbehaviour'] = 'Das Fragen-Subsystem nutzt den Plugintyp \'Frageverhalten\'.';
+$string['privacy:metadata:link:qformat'] = 'Das Fragen-Subsystem nutzt den Plugintyp \'Fragenformat\', um Fragen aus unterschiedlichen Formaten zu importieren oder zu exportieren.';
+$string['privacy:metadata:link:qtype'] = 'Das Fragen-Subsystem nutzt den Plugintyp \'Fragetyp\', der verschiedene Fragentypen umfasst.';
 $string['published'] = 'Freigegeben';
 $string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = '<a href="{$a->qurl}">Die Frage "{$a->name}" ({$a->qtype})</a> gehört zu dieser Fragenkategorie. Sie wird aber auch im <a href="{$a->qurl}">Test "{$a->quizname}"</a> innerhalb des Kurses "{$a->coursename}" benutzt.';
@@ -444,6 +467,7 @@ $string['specificfeedback_help'] = 'Spezifisches Feedback, das von der Teilnehme
 $string['started'] = 'Begonnen';
 $string['state'] = 'Status';
 $string['step'] = 'Schritt';
+$string['steps'] = 'Schritte';
 $string['stoponerror'] = 'Bei Fehler anhalten';
 $string['stoponerror_help'] = 'Die Einstellung legt fest, ob der Importprozess gestoppt werden soll, wenn ein Fehler entdeckt wird. In dem Fall wird keine Frage importiert. Andernfalls werden korrekte Fragen importiert, fehlerhafte ignoriert. ';
 $string['submissionoutofsequence'] = 'Benutzen Sie nicht den Zurück-Button, wenn Sie Fragen bearbeiten.';
@@ -454,7 +478,7 @@ $string['submitted'] = 'Absenden: {$a}';
 $string['tagarea_question'] = 'Fragen';
 $string['technicalinfo'] = 'Technische Information';
 $string['technicalinfo_help'] = 'Diese technische Information wendet sich ausschließlich an Entwickler von neuen Fragetypen. Sie kann auch für die Diagnose von Problemen mit Fragen verwendet werden.';
-$string['technicalinfomaxfraction'] = 'Größter Anteil: {$a}';
+$string['technicalinfomaxfraction'] = 'Größter Teilwert: {$a}';
 $string['technicalinfominfraction'] = 'Kleinster Teilwert: {$a}';
 $string['technicalinfoquestionsummary'] = 'Fragetext: {$a}';
 $string['technicalinforesponsesummary'] = 'Antwortzusammenfassung: {$a}';

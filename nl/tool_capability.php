@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_capability', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_capability', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_capability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['forroles'] = 'Voor rollen {$a}';
 $string['getreport'] = 'Maak rapport';
 $string['intro'] = 'Dit rapport toont, voor een bepaalde mogelijkheid, welke rechten deze mogelijkheid heeft in de definitie van elke rol (of een selectie van rollen) en waar op de site deze mogelijkheid is overschreven';
 $string['pluginname'] = 'Mogelijkhedenrapport';
+$string['privacy:metadata'] = 'De mogelijkheden overzichts-plugin bewaart geen persoonlijke gegevens.';
 $string['reportforcapability'] = 'Rapport voor mogelijkheid \'{$a}\'';
 $string['reportsettings'] = 'Rapport instellingen';
 $string['roleslabel'] = 'Rollen:';

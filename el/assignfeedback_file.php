@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_file', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignfeedback_file', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   assignfeedback_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,6 +49,8 @@ $string['maximumsize'] = 'Μέγιστο μέγεθος αρχείου';
 $string['moreusers'] = '{$a} περισσότερα...';
 $string['nochanges'] = 'Δεν υπάρχουν αλλαγές';
 $string['pluginname'] = 'Αρχείο ανατροφοδότησης';
+$string['privacy:metadata:filepurpose'] = 'Αρχεία ανατροφοδότησης από τον διδάσκοντα για τον μαθητή.';
+$string['privacy:path'] = 'Αρχεία ανατροφοδότησης';
 $string['selectedusers'] = 'Επιλεγμένοι χρήστες';
 $string['uploadfiles'] = 'Αποστολή αρχείου ανατροφοδότησης';
 $string['uploadzip'] = 'Ανέβασμα πολλών αρχείων ανατροφοδότησης σε ένα (συμπιεσμένο αρχείο) zip';

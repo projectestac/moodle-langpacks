@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_mathjaxloader', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'filter_mathjaxloader', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   filter_mathjaxloader
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,6 +41,7 @@ $string['localinstall_help'] = 'В конфигурации по умолчан�
 $string['mathjaxsettings'] = 'Конфигурация MathJax';
 $string['mathjaxsettings_desc'] = 'Конфигурация MathJax по умолчанию должна подходить большинству пользователей.
 MathJax легко конфигурируется и здесь может быть добавлен любой из стандартных вариантов конфигурации MathJax.';
+$string['privacy:metadata'] = 'Плагин MathJax не хранит никаких персональных данных.';
 $string['texfiltercompatibility'] = 'Совместимость с фильтром TeX';
 $string['texfiltercompatibility_help'] = 'Фильтр MathJax может быть использован в качестве замены фильтра TeX.
 

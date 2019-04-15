@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_multianswer', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qformat_multianswer', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   qformat_multianswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = '«Вложенные ответы» (Cloze)';
 $string['pluginname_help'] = 'Формат «Вложенные ответы» (Cloze) позволяет импортировать отрывок текста с вложенными в него вопросами, таких типов. как «Множественный выбор» и «Короткий ответ».';
+$string['privacy:metadata'] = 'Плагин «Формат Вложенные ответы» не хранит никаких персональных данных.';

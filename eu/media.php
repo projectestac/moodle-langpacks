@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'media', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'media', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   media
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,5 +39,6 @@ $string['mediaformats_desc'] = 'Erreproduzitzaileak gaituta daudenean, multimedi
 
 Bi erreproduzitzaileek formatu bera onartzen dutenean, biak gaituta gailu arteko bateragarritasuna handitzen dugu, sakeleko telefonoetan esaterako. Bateragarritasuna handitzeko posible da ere audio edo bideo klip berarentzat formatu ezberdinetako fitxategiak eskaintzea.';
 $string['mediasettings'] = 'Enbotatu media';
+$string['privacy:metadata'] = 'Enbotatu media pluginak ez du datu pertsonalik biltzen.';
 $string['supports'] = 'Euskarriak';
 $string['videoextensions'] = 'Bideoa: {$a}';

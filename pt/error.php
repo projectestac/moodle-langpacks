@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'pt', branch 'MOODLE_32_STABLE'
+ * Strings for component 'error', language 'pt', branch 'MOODLE_34_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityisscheduledfordeletion'] = 'A atividade está a ser apagada...';
+$string['agedigitalconsentmapinvalidage'] = 'Não foi possível aceder a {$a->url} para verificar a notificação de pagamento instantâneo: {$a->result}';
+$string['agedigitalconsentmapinvalidcomma'] = '"{$a}" tem mais ou menos que um separador de vírgula.';
+$string['agedigitalconsentmapinvalidcountry'] = '"{$a}" não é um valor válido para o país.';
+$string['agedigitalconsentmapinvaliddefault'] = 'O valor predefinido (*) está em falta.';
+$string['agelocationverificationdisabled'] = 'Verificação de idade e localização desativada';
 $string['alreadyloggedin'] = 'Está autenticado como {$a}, precisa de sair antes de se autenticar como um utilizador diferente.';
 $string['authnotexisting'] = 'O módulo de autorização não existe';
 $string['backupcontainexternal'] = 'Esta cópia de segurança contém servidores de rede externos Moodle que não estão configurados localmente';
@@ -41,7 +46,7 @@ $string['cannotaddcoursemodule'] = 'Não foi possível adicionar um novo módulo
 $string['cannotaddcoursemoduletosection'] = 'Não foi possível adicionar o novo módulo da disciplina à secção';
 $string['cannotaddmodule'] = '{$a} módulo não pode ser adicionado à lista de módulos!';
 $string['cannotaddnewmodule'] = 'Não foi possível adicionar um novo módulo {$a}';
-$string['cannotaddrss'] = 'Não possui permissões para adicionar listas rss';
+$string['cannotaddrss'] = 'Não possui permissões para adicionar listas RSS';
 $string['cannotaddthisblocktype'] = 'Não pode adicionar um bloco {$a} a esta página.';
 $string['cannotassignrole'] = 'Não é possível atribuir papel na disciplina';
 $string['cannotassignrolehere'] = 'Não tem permissões para atribuir este papel (id = {$a->roleid}) neste contexto ({$a->context})';
@@ -157,7 +162,7 @@ $string['cannotupdatemod'] = 'Não foi possível atualizar {$a}';
 $string['cannotupdatepasswordonextauth'] = 'Falha ao atualizar a senha na autenticação externa: {$a}. Veja os registos de atividade do servidor para obter mais detalhes.';
 $string['cannotupdateprofile'] = 'Erro ao atualizar registo do utilizador';
 $string['cannotupdaterecord'] = 'Não foi possível atualizar o registo com ID {$a}';
-$string['cannotupdaterss'] = 'Não é possível atualizar o RSS';
+$string['cannotupdaterss'] = 'Não é possível atualizar a lista RSS';
 $string['cannotupdatesubcourse'] = 'Não foi possível atualizar uma disciplina filha!';
 $string['cannotupdateusermsgpref'] = 'Não foi possível atualizar as preferências de mensagem do utilizador';
 $string['cannotupdateuseronexauth'] = 'Falha ao atualizar os dados do utilizador na autenticação externa: {$a}. Veja os registos de atividade do servidor para obter mais detalhes.';
@@ -179,6 +184,7 @@ $string['confirmationnotenabled'] = 'A confirmação do utilizador não está at
 $string['confirmsesskeybad'] = 'A sua chave de sessão não pôde ser confirmada de modo a poder realizar esta ação. Este método de segurança previne a execução, acidental ou maliciosa, de funções importantes em seu nome. Certifique-se de que pretende realmente executar esta função.';
 $string['couldnotassignrole'] = 'Ocorreu um erro sério, mas indeterminado, durante a operação de atribuição de um papel a si próprio.';
 $string['couldnotupdatenoexistinguser'] = 'Não é possível atualizar este utilizador - não existe';
+$string['couldnotverifyagedigitalconsent'] = 'Ocorreu um erro ao tentar verificar a idade do consentimento digital.<br /> Entre em contacto com o administrador.';
 $string['countriesphpempty'] = 'Erro: O ficheiro countries.php no pacote linguístico {$a} está vazio ou não existe.';
 $string['coursedoesnotbelongtocategory'] = 'A disciplina não pertence a esta categoria';
 $string['courseformatnotfound'] = 'O formato da disciplina \'{$a}\' não existe ou não é reconhecido';
@@ -350,7 +356,7 @@ $string['invalidrole'] = 'Papel inválido';
 $string['invalidroleid'] = 'ID do papel inválido';
 $string['invalidscaleid'] = 'ID da escala inválido';
 $string['invalidsection'] = 'Registo de módulo de disciplina contém secção inválida';
-$string['invalidsesskey'] = 'Chave submetida incorreta, não aceite!';
+$string['invalidsesskey'] = 'É possível que a sua sessão tenha expirado. Autentique-se novamente.';
 $string['invalidshortname'] = 'Esse é um nome curto da disciplina inválido';
 $string['invalidsourcefield'] = 'O campo do rascunho do ficheiro de origem é inválido';
 $string['invalidstatedetected'] = 'Algo de errado ocorreu: {$a}. Normalmente isso nunca deveria acontecer.';
@@ -360,6 +366,7 @@ $string['invaliduserdata'] = 'Dados inválidos do utilizador: {$a}';
 $string['invaliduserfield'] = 'Campo de utilizador inválido: {$a}';
 $string['invaliduserid'] = 'Id do utilizador inválido';
 $string['invalidusername'] = 'O nome de utilizador contém caracteres inválidos';
+$string['invalidusernameblank'] = 'O nome de utilizador não pode ficar vazio';
 $string['invalidxmlfile'] = '"{$a}" não é um ficheiro XML válido';
 $string['iplookupfailed'] = 'Não é possível encontrar informação geográfica sobre este endereço IP {$a}';
 $string['iplookupprivate'] = 'Não é possível exibir a pesquisa de endereço de IP privado';
@@ -379,7 +386,7 @@ $string['maxareabytes'] = 'Este ficheiro é maior do que o espaço restante nest
 $string['maxbytes'] = 'Este ficheiro é maior que o tamanho máximo permitido.';
 $string['maxbytesfile'] = 'O ficheiro {$a->file} é muito grande. Apenas pode carregar ficheiros com um tamanho máximo de {$a->size}.';
 $string['messagingdisable'] = 'A troca de mensagens está desativada neste site';
-$string['mimetexisnotexist'] = 'O seu sistema não está configurado para executar mimeTeX. É necessário descarregar o ficheiro executável adequado para a sua plataforma (PHP, OS). Pode descarregar na página <a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a> ou obter o código fonte em <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>. Neste caso, compile-o e coloque o executável na pasta moodle/filter/tex/';
+$string['mimetexisnotexist'] = 'O seu sistema não está configurado para executar mimeTeX. É necessário  obter o código fonte de <a href="http://www.forkosh.com/mimetex.zip">http://www.forkosh.com/mimetex.zip</a>, compilá-lo e colocar o executável na pasta moodle/filter/tex/';
 $string['mimetexnotexecutable'] = 'Mimetex Custom não é executável!';
 $string['missingfield'] = 'O campo "{$a}" está em falta.';
 $string['missingkeyinsql'] = 'ERRO: falta o parâmetro "{$a}" na consulta';
@@ -561,10 +568,12 @@ $string['userautherror'] = 'Módulo de autenticação desconhecido';
 $string['userauthunsupported'] = 'Módulo de autenticação não suportado aqui.';
 $string['useremailduplicate'] = 'Endereço duplicado';
 $string['usermustbemnet'] = 'Os utilizadores na lista de controle de acesso MNET devem ser utilizadores remotos MNET';
+$string['usernamelowercase'] = 'O nome de utilizador tem de ser em minúsculas';
 $string['usernotaddederror'] = 'Utilizador não adicionado - erro.';
 $string['usernotaddedregistered'] = 'Utilizador não adicionado - já estava registado.';
 $string['usernotavailable'] = 'Informação detalhada deste utilizador não pode ser vista por si.';
 $string['usernotdeletedadmin'] = 'O utilizador não foi eliminado - não pode apagar as contas de administrador';
+$string['usernotdeleteddeleted'] = 'Este utilizador já foi apagado.';
 $string['usernotdeletederror'] = 'Utilizador não eliminado - erro.';
 $string['usernotdeletedmissing'] = 'Utilizador não eliminado - não foi possível encontrar o nome de utilizador.';
 $string['usernotdeletedoff'] = 'Utilizador não eliminado - a operação não é permitida.';
@@ -579,6 +588,7 @@ $string['usernotupdatederror'] = 'Utilizador não atualizado - erro.';
 $string['usernotupdatednotexists'] = 'Utilizador não atualizado - não existe.';
 $string['userquotalimit'] = 'Atingiu o seu limite de cota de ficheiro.';
 $string['userselectortoomany'] = 'user_selector tem mais de um utilizador selecionado, embora a multiseleção não se aplique.';
+$string['verifyagedigitalconsentnotpossible'] = 'De momento não é possível a verificação da idade mínima de consentimento.';
 $string['wrongcall'] = 'Este script é chamado de forma errada';
 $string['wrongcontextid'] = 'O contexto ID estava incorreto (não é possível encontrá-lo)';
 $string['wrongdestpath'] = 'Caminho de destino errado';

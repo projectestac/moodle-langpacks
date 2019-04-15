@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'message', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,11 @@ $string['outputnotconfigured'] = 'Не настроено';
 $string['page-message-x'] = 'Любая из страниц сообщений';
 $string['pagerefreshes'] = 'Эта страница обновляется автоматически, каждые {$a} секунд';
 $string['permitted'] = 'Разрешено';
+$string['privacy:metadata:message_contacts'] = 'Список контактов';
+$string['privacy:metadata:message_contacts:contactid'] = 'ID пользователя-контакта';
+$string['privacy:metadata:message_contacts:userid'] = 'ID пользователя, чей список контактов мы просматриваем';
+$string['privacy:metadata:preference:core_message_settings'] = 'Параметры, связанные со службой обмена сообщениями';
+$string['privacy:request:preference:set'] = 'Значение параметра «{$a->name}» было «{$a->value}»';
 $string['processorsettings'] = 'Настройки способа доставки сообщений';
 $string['recent'] = 'Последние';
 $string['removecontact'] = 'Удалить собеседника из моего списка';
@@ -123,6 +128,10 @@ $string['seeall'] = 'Смотреть все';
 $string['selectmessagestodelete'] = 'Выберите сообщения для удаления';
 $string['selectnotificationtoview'] = 'Выберите уведомление, чтобы просмотреть более подробную информацию';
 $string['send'] = 'Отправить';
+$string['sendbulkmessage'] = 'Отправить сообщение {$a} людям';
+$string['sendbulkmessagesent'] = 'Сообщение отправлено {$a} людям';
+$string['sendbulkmessagesentsingle'] = 'Сообщение отправлено одному человеку';
+$string['sendbulkmessagesingle'] = 'Отправить сообщение одному человеку';
 $string['sendingvia'] = 'Отправка «{$a->provider}» через «{$a->processor}»';
 $string['sendingviawhen'] = 'Отправка «{$a->provider}» через «{$a->processor}», если {$a->state}';
 $string['sendmessage'] = 'Отправить сообщение';
@@ -141,6 +150,7 @@ $string['togglemessagemenu'] = 'Переключить меню сообщени
 $string['togglenotificationmenu'] = 'Переключить меню уведомлений';
 $string['touserdoesntexist'] = 'Вы не можете отправить сообщение несуществующему пользователю (id {$a}).';
 $string['unblockcontact'] = 'Разблокировать сообщения от этого собеседника';
+$string['unknownuser'] = 'Неизвестный пользователь';
 $string['unreadnewmessage'] = 'Новое сообщение от пользователя {$a}';
 $string['unreadnotification'] = 'Непрочитанное уведомление: {$a}';
 $string['userisblockingyou'] = 'Пользователь заблокировал получение Ваших сообщений';

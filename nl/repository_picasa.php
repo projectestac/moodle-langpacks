@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_picasa', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_picasa', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_picasa
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,4 +30,6 @@ $string['configplugin'] = 'Picasa opslagruimte configuratie';
 $string['oauthinfo'] = '<p>Om deze plugin te kunnen gebruiken, moet je je site registreren bij Google, zoals beschreven in de documentatie op <a href="{$a->docsurl}">Google OAuth 2.0 setup</a>.</p><p>Als deel van het registratieproces, zul je volgende URL\'s als \'Authorized Redirect URL\'s moeten ingeven:</p><p>{$a->callbackurl}</p>Als je geregistreerd bent, dan krijg je een clientID en geheim, die gebruikt kunnen worden om alle Google Drive en Picasa plugins te configureren.';
 $string['picasa:view'] = 'Bekijk Picasa opslagruimte';
 $string['pluginname'] = 'Picasa Webalbum';
+$string['privacy:metadata:repository_picasa'] = 'De Picasa web album opslagruimte-plugin bewaart geen persoonlijke gegevens, maar stuurt deze door van Moodle naar het externe systeem.';
+$string['privacy:metadata:repository_picasa:searchtext'] = 'De Picasa opslagruimte zoektekst van de gebruiker.';
 $string['secret'] = 'Geheim';

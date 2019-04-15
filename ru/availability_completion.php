@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_completion', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'availability_completion', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   availability_completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['option_fail'] = 'элемент должен быть завершен 
 $string['option_incomplete'] = 'элемент не должен быть отмечен как выполненный';
 $string['option_pass'] = 'элемент должен быть завершен с оценкой выше проходного балла';
 $string['pluginname'] = 'Ограничение по завершению элемента';
+$string['privacy:metadata'] = 'Плагин ограничения доступности «Ограничение по завершению элемента» не хранит никаких персональных данных.';
 $string['requires_complete'] = 'Элемент курса <strong>{$a}</strong> должен быть отмечен как выполненный';
 $string['requires_complete_fail'] = 'Элемент курса <strong>{$a}</strong> должен быть отмечен как выполненный, оценка должна быть ниже проходного балла';
 $string['requires_complete_pass'] = 'Элемент курса <strong>{$a}</strong> должен быть отмечен как выполненный, оценка должна быть выше проходного балла';

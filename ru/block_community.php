@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_community', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_community', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   block_community
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,6 +96,12 @@ $string['orderbypublisher'] = 'По издателю';
 $string['orderbyratingaverage'] = 'По рейтингу';
 $string['outcomes'] = 'Показатели: {$a}';
 $string['pluginname'] = 'Поиск в общественных каталогах';
+$string['privacy:metadata:block_community'] = 'Блок «Поиск в общественных каталогах» хранит ссылки на курсы из общественных каталогов, на которые записаны пользователи.';
+$string['privacy:metadata:block_community:coursedescription'] = 'Описание курса из общественного каталога.';
+$string['privacy:metadata:block_community:coursename'] = 'Название курса из общественного каталога.';
+$string['privacy:metadata:block_community:courseurl'] = 'URL курса из общественного каталога.';
+$string['privacy:metadata:block_community:imageurl'] = 'URL изображения из общественного каталога.';
+$string['privacy:metadata:block_community:userid'] = 'ID пользователя, создавшего ссылку на курс из общественного каталога.';
 $string['rateandcomment'] = 'Оценить и прокомментировать';
 $string['rating'] = 'Оценка';
 $string['removecommunitycourse'] = 'Удалить курс, взятый из общественного каталога';

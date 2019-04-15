@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_email', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_email', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_email
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,3 +31,4 @@ $string['auth_emailrecaptcha'] = 'Προσθέτει ένα στοιχείο φ�
 $string['auth_emailrecaptcha_key'] = 'Ενεργοποίηση του στοιχείου reCAPTCHA';
 $string['auth_emailsettings'] = 'Ρυθμίσεις';
 $string['pluginname'] = 'Αυτο-εγγραφή βασισμένη στο ηλεκτρονικό ταχυδρομείο.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Αυθεντικοποίηση με βάση την διεύθυνση ηλεκτρονικού ταχυδρομείου για αυτο-εγγραφή» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

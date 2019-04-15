@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_local', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_local', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_local
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,4 +32,5 @@ $string['local:view'] = 'Ver o repositorio do servidor';
 $string['notitle'] = 'sen-título';
 $string['pluginname'] = 'Ficheiros do servidor';
 $string['pluginname_help'] = 'Ficheiros enviados previamente ao servidor de Moodle';
+$string['privacy:metadata'] = 'O engadido de repositorio de servidor de ficheiros non almacena ou transmite datos persoais.';
 $string['remember'] = 'Lémbreme';

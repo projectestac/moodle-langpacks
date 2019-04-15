@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_profiling', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_profiling', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_profiling
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,7 @@ $string['lastrunof'] = 'Περίληψη τελευταίας εκτέλεσης
 $string['markreferencerun'] = 'Σημείωση ως «Εκτέλεση αναφοράς»/σχολιασμός';
 $string['memory'] = 'Μνήμη που χρησιμοποιήθηκε';
 $string['pluginname'] = 'Εκτελέσεις δημιουργίας προφίλ';
+$string['privacy:metadata'] = 'Το πρόσθετο «Εκτελέσεις για δημιουργία προφίλ» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['profilingfocusscript'] = 'Εστίαση στις εκτελέσεις δημιουργίας προφίλ για το σενάριο: {$a}';
 $string['profilingruns'] = 'Εκτελέσεις δημιουργίας προφίλ';
 $string['profilingrunsfor'] = 'Εκτελέσεις δημιουργίας προφίλ για {$a}';

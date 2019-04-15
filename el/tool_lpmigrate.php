@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lpmigrate', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lpmigrate', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lpmigrate
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -58,6 +58,7 @@ $string['migratingcourses'] = 'Μετεγκατάσταση (μεταφορά/μ
 $string['missingmappings'] = 'Αντιστοιχίσεις που λείπουν';
 $string['performmigration'] = 'Εκτέλεση μετεγκατάστασης';
 $string['pluginname'] = 'Εργαλείο μετεγκατάστασης προσόντων';
+$string['privacy:metadata'] = 'Το πρόσθετο «Εργαλείο μετεγκατάστασης προσόντων» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['results'] = 'Αποτελέσματα';
 $string['startdatefrom'] = 'Ημερομηνία έναρξης από';
 $string['unmappedin'] = 'Κατάργηση αντιστοίχισης σε {$a}';

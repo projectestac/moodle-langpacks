@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_menu', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_menu', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_menu
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Αναπτυσσόμενο μενού';
+$string['privacy:metadata:profilefield_menu:data'] = 'Τα δεδομένα χρήστη του πεδίου αναπτυσσόμενου μενού του προφίλ χρήστη';
+$string['privacy:metadata:profilefield_menu:dataformat'] = 'Ο μορφότυπος των δεδομένων χρήστη του πεδίου αναπτυσσόμενου μενού του προφίλ χρήστη';
+$string['privacy:metadata:profilefield_menu:fieldid'] = 'Το αναγνωριστικό του πεδίου προφίλ';
+$string['privacy:metadata:profilefield_menu:tableexplanation'] = 'Επιπρόσθετα δεδομένα προφίλ';
+$string['privacy:metadata:profilefield_menu:userid'] = 'Το αναγνωριστικό του χρήστη του οποίου τα δεδομένα αποθηκεύονται από το πεδίο αναπτυσσόμενου μενού προφίλ χρήστη μενού';

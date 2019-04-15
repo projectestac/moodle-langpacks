@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'en', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lp', language 'en', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,7 @@ $string['aisrequired'] = '\'{$a}\' is required';
 $string['aplanswerecreated'] = '{$a} learning plans were created.';
 $string['aplanswerecreatedmoremayrequiresync'] = '{$a} learning plans were created; more will be created during the next synchronisation.';
 $string['assigncohorts'] = 'Assign cohorts';
-$string['averageproficiencyrate'] = 'The average proficiency rate for completed learning plans based on this template is {$a} %';
+$string['averageproficiencyrate'] = 'The average proficiency rate for completed learning plans based on this template is {$a}%.';
 $string['cancelreviewrequest'] = 'Cancel review request';
 $string['cannotaddrules'] = 'This competency cannot be configured.';
 $string['cannotcreateuserplanswhentemplateduedateispassed'] = 'New learning plans cannot be created. The template due date has expired, or is about to expire.';
@@ -80,7 +80,7 @@ $string['coursecompetencyratingsarenotpushedtouserplans'] = 'Competency ratings 
 $string['coursecompetencyratingsarepushedtouserplans'] = 'Competency ratings in this course are updated immediately in learning plans.';
 $string['coursecompetencyratingsquestion'] = 'When a course competency is rated, does the rating update the competency in the learning plans, or is it only applied to the course?';
 $string['coursesusingthiscompetency'] = 'Courses linked to this competency';
-$string['coveragesummary'] = '{$a->competenciescoveredcount} of {$a->competenciescount} competencies are covered ( {$a->coveragepercentage} % )';
+$string['coveragesummary'] = '{$a->competenciescoveredcount} of {$a->competenciescount} competencies are covered ( {$a->coveragepercentage}% )';
 $string['createlearningplans'] = 'Create learning plans';
 $string['createplans'] = 'Create learning plans';
 $string['crossreferencedcompetencies'] = 'Cross-referenced competencies';
@@ -179,6 +179,7 @@ $string['planupdated'] = 'Learning plan updated';
 $string['pluginname'] = 'Learning plans';
 $string['points'] = 'Points';
 $string['pointsgivenfor'] = 'Points given for \'{$a}\'';
+$string['privacy:metadata'] = 'The Learning plans plugin does not store any personal data.';
 $string['proficient'] = 'Proficient';
 $string['progress'] = 'Progress';
 $string['rate'] = 'Rate';

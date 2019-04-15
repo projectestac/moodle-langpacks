@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'competency', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -115,6 +115,7 @@ $string['planstatusdraft'] = 'Esborrany';
 $string['planstatusinreview'] = 'En revisió';
 $string['planstatuswaitingforreview'] = 'S\'està esperant la revisió';
 $string['pointsrequiredaremet'] = 'La puntuació demanada s\'ha aconseguit.';
+$string['privacy:metadata:plan:duedate'] = 'La data de venciment del pla d\'aprenentatge';
 $string['pushcourseratingstouserplans'] = 'Força les qualificacions del curs als plans individuals d\'aprenentatge';
 $string['pushcourseratingstouserplans_desc'] = 'Valor per defecte del paràmetre del curs per actualitzar els plans d\'aprenentatge individuals quan es qualifiquen les competències dels curs.';
 $string['syncplanscohorts'] = 'Plans de sincronització de les cohorts de plantilles dels plans d\'aprenentatge';

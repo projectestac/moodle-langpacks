@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'survey', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -209,6 +209,10 @@ $string['guestsnotallowed'] = 'Os convidados non poden enviar enquisas';
 $string['howlong'] = 'Canto tempo lle levou completar esta enquisa?';
 $string['howlongoptions'] = 'sobre 1 min,1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,máis de 10';
 $string['ifoundthat'] = 'Atopei isto';
+$string['indicator:cognitivedepth'] = 'Enquisa cognitiva';
+$string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de enquisa.';
+$string['indicator:socialbreadth'] = 'Enquisa social';
+$string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de enquisa.';
 $string['introtext'] = 'Texto de introdución';
 $string['invalidsurveyid'] = 'O ID da enquisa é incorrecto';
 $string['invalidtmptid'] = 'O ID do modelo é incorrecto';
@@ -233,6 +237,15 @@ $string['pluginname'] = 'Enquisa';
 $string['preferred'] = 'Preferida';
 $string['preferredclass'] = 'Clase preferida';
 $string['preferredstudent'] = '{$a} preferida';
+$string['privacy:metadata:analysis'] = 'Un rexistro de análise de respostas.';
+$string['privacy:metadata:analysis:notes'] = 'Notas gardadas contra as respostas do usuario.';
+$string['privacy:metadata:analysis:userid'] = 'O ID do usuario que responde a enquisa.';
+$string['privacy:metadata:answers'] = 'Unha colección de respostas a enquisas.';
+$string['privacy:metadata:answers:answer1'] = 'Campo para almacenar a resposta a unha pregunta.';
+$string['privacy:metadata:answers:answer2'] = 'Campo adicional para almacenar a resposta a unha pregunta.';
+$string['privacy:metadata:answers:question'] = 'A pregunta';
+$string['privacy:metadata:answers:time'] = 'O momento no que se publicou a resposta.';
+$string['privacy:metadata:answers:userid'] = 'O ID do usuario que enviou a súa resposta.';
 $string['question'] = 'Pregunta';
 $string['questions'] = 'Preguntas';
 $string['questionsnotanswered'] = 'Algunhas das preguntas con opción múltiple non foi respondida.';

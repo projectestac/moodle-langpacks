@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_flatfile', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'enrol_flatfile', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   enrol_flatfile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -65,3 +65,11 @@ del, student, 8, CF101
 del, student, 17, CF101
 add, student, 21, CF101, 1091115000, 1091215000
 </pre>';
+$string['privacy:metadata:enrol_flatfile'] = 'Il plugin di iscrizione "File (CSV)" memorizzata nella tabella enrol_flatfile dati personali relativi alle iscrizioni.';
+$string['privacy:metadata:enrol_flatfile:action'] = 'Azione di iscrizione da svolgere in una determinata data.';
+$string['privacy:metadata:enrol_flatfile:courseid'] = 'ID del corso al quale fa riferimento l\'iscrizione.';
+$string['privacy:metadata:enrol_flatfile:roleid'] = 'ID del ruolo da assegnare o revocare.';
+$string['privacy:metadata:enrol_flatfile:timeend'] = 'Data e ora di fine dell\'iscrizione.';
+$string['privacy:metadata:enrol_flatfile:timemodified'] = 'Data e ora di modifica dell\'iscrizione.';
+$string['privacy:metadata:enrol_flatfile:timestart'] = 'Data e ora di inizio dell\'iscrizione.';
+$string['privacy:metadata:enrol_flatfile:userid'] = 'ID dell\'utente al quale viene assegnato il ruolo.';

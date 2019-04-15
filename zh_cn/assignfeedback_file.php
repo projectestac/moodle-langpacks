@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_file', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignfeedback_file', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   assignfeedback_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,6 +51,8 @@ $string['maximumsize'] = '最大文件大小';
 $string['moreusers'] = '{$a}更多…';
 $string['nochanges'] = '没有改变';
 $string['pluginname'] = '文件反馈';
+$string['privacy:metadata:filepurpose'] = '老师反馈给学生的文件。';
+$string['privacy:path'] = '反馈文件';
 $string['selectedusers'] = '选定的用户';
 $string['uploadfiles'] = '发送反馈文件';
 $string['uploadzip'] = '以一个压缩文件方式上传多个反馈文件';

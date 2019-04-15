@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'wiki', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -121,6 +121,10 @@ $string['incorrectdeleteversions'] = 'De gevraagde versies om te verwijderen zij
 $string['incorrectpageid'] = 'Pagina-ID is fout.';
 $string['incorrectsubwikiid'] = 'Subwiki-ID is fout.';
 $string['incorrectwikiid'] = 'Wiki-ID is fout.';
+$string['indicator:cognitivedepth'] = 'Wiki cognitief';
+$string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Wiki activiteit.';
+$string['indicator:socialbreadth'] = 'Wiki sociaal';
+$string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Wiki activiteit.';
 $string['individualpagedoesnotexist'] = 'Individuele wiki-pagina bestaat niet';
 $string['insertcomment'] = 'Opmerking invoegen';
 $string['insertimage'] = 'Voeg een afbeelding toe...';
@@ -128,7 +132,7 @@ $string['insertimage_help'] = 'Met dit rolmenu kun je een afbeelding in de wiki-
 $string['invalidlock'] = 'Deze pagina is al geblokkeerd door een andere gebruiker.';
 $string['invalidparameters'] = 'Ongeldige parameters gegeven.';
 $string['invalidsection'] = 'Ongeldige sectie.';
-$string['invalidsesskey'] = 'De opgegeven sessiesleutel is niet geldig. Stuur de gegevens opnieuw';
+$string['invalidsesskey'] = 'De opgegeven sessiesleutel is waarschijnlijk verlopen. Neem nota van je bewerking en log opnieuw in.';
 $string['javascriptdisabledlocks'] = 'Javascript is uitgeschakeld in je browser en het blokkeren werkt niet. De wijzigingen die je aanbrengt kunnen fout bewaard worden.';
 $string['links'] = 'Links';
 $string['listall'] = 'Toon alles';
@@ -209,6 +213,31 @@ $string['pluginname'] = 'Wiki';
 $string['prettyprint'] = 'Printervriendelijke versie';
 $string['previewwarning'] = 'Dit is een voorbeeld. De wijzigingen zijn nog niet bewaard.';
 $string['print'] = 'Afdrukken';
+$string['privacy:metadata:core_comment'] = 'Opmerkingen op wiki-pagina';
+$string['privacy:metadata:core_files'] = 'Bestanden als bijlage bij subwiki\'s';
+$string['privacy:metadata:core_tag'] = 'Tags geassocieerd met wiki-pagina\'s';
+$string['privacy:metadata:wiki_locks'] = 'Tijdelijke opslag voor wiki bewerken blokkering';
+$string['privacy:metadata:wiki_locks:lockedat'] = 'Tijdstip van blokkering';
+$string['privacy:metadata:wiki_locks:sectionname'] = 'Naam van de geblokkeerde pagina-sectie';
+$string['privacy:metadata:wiki_locks:userid'] = 'Gebruiker die een pagina blokkeerde';
+$string['privacy:metadata:wiki_pages'] = 'Informatie over wiki-pagina\'s';
+$string['privacy:metadata:wiki_pages:cachedcontent'] = 'Gecachete inhoud in HTML-formaat';
+$string['privacy:metadata:wiki_pages:pageviews'] = 'Aantal keer dat de pagina bekeken is';
+$string['privacy:metadata:wiki_pages:readonly'] = 'Of een pagina alleen lezen is';
+$string['privacy:metadata:wiki_pages:timecreated'] = 'Tijdstip waarop een pagina de eerste keer is gemaakt';
+$string['privacy:metadata:wiki_pages:timemodified'] = 'Tijdstip waarop een pagina de laatste keer is gewijzigd';
+$string['privacy:metadata:wiki_pages:timerendered'] = 'Tijdstip waarop een pagina de laatste keer is gerendered';
+$string['privacy:metadata:wiki_pages:title'] = 'Naam van de pagina';
+$string['privacy:metadata:wiki_pages:userid'] = 'Laatste gebruiker die de pagina bewerkte';
+$string['privacy:metadata:wiki_subwikis'] = 'Informatie over subwiki\'s (in het geval van groeps of individuele modus)';
+$string['privacy:metadata:wiki_subwikis:groupid'] = 'Groep die eigenaar is van een subwiki';
+$string['privacy:metadata:wiki_subwikis:userid'] = 'Gebruiker die eigenaar is van een subwiki (voor individuele wiki\'s)';
+$string['privacy:metadata:wiki_versions'] = 'Informatie over de geschiedenis van wiki-pagina\'s';
+$string['privacy:metadata:wiki_versions:content'] = 'Revisie inhoud';
+$string['privacy:metadata:wiki_versions:contentformat'] = 'Revisie inhoudsopmaak';
+$string['privacy:metadata:wiki_versions:timecreated'] = 'Tijdstip waarop de revisie is gemaakt';
+$string['privacy:metadata:wiki_versions:userid'] = 'De gebruiker die de revisie heeft gemaakt';
+$string['privacy:metadata:wiki_versions:version'] = 'Versienummer';
 $string['rated'] = 'Je hebt deze pagina beoordeeld: {$a}';
 $string['rating'] = 'Beoordeling';
 $string['ratingmode'] = 'Beoordelingsmodus';
@@ -236,7 +265,6 @@ $string['special'] = 'Speciaal';
 $string['tableofcontents'] = 'Inhoudsopgave';
 $string['tagarea_wiki_pages'] = 'Wiki pagina\'s';
 $string['tagsdeleted'] = 'Wiki tags zijn verwijderd';
-$string['tagtitle'] = 'Zie tag "{$a}"';
 $string['teacherrating'] = 'Leraarbeoordeling';
 $string['timesrating'] = 'Deze pagina is {$a->c} keer beoordeeld met een gemiddelde van {$a->s}';
 $string['updatedpages'] = 'Gewijzigde pagina\'s';

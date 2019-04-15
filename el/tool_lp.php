@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_lp', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,7 @@ $string['aisrequired'] = '«{$a}» απαιτείται';
 $string['aplanswerecreated'] = 'Δημιουργήθηκαν {$a} σχέδια μάθησης.';
 $string['aplanswerecreatedmoremayrequiresync'] = 'Δημιουργήθηκαν {$a} σχέδια μάθησης· περισσότερα θα δημιουργηθούν κατά τον επόμενο συγχρονισμό.';
 $string['assigncohorts'] = 'Ανάθεση ομάδων χρηστών';
-$string['averageproficiencyrate'] = 'Η μέση επαγγελματικου επιπέδου επάρκεια για ολοκληρωμένα σχέδια μάθησης βασισμένα σε αυτό το πρότυπο είναι {$a} %';
+$string['averageproficiencyrate'] = 'Το μέσο ποσοστό επάρκειας (επαγγελματικού επιπέδου) για ολοκληρωμένα σχέδια μάθησης βασισμένα σε αυτό το πρότυπο είναι {$a}%.';
 $string['cancelreviewrequest'] = 'Ακύρωση αιτήματος εξέτασης';
 $string['cannotaddrules'] = 'Αυτό το προσόν δεν μπορεί να ρυθμιστεί.';
 $string['cannotcreateuserplanswhentemplateduedateispassed'] = 'Δεν μπορούν να δημιουργηθούν νέα σχέδια μάθησης. Η καταληκτική ημερομηνία του προτύπου έχει εκπνεύσει ή εκπνέει.';
@@ -80,7 +80,7 @@ $string['coursecompetencyratingsarenotpushedtouserplans'] = 'Οι εκτιμήσ
 $string['coursecompetencyratingsarepushedtouserplans'] = 'Οι εκτιμήσεις προσόντων σε αυτό το μάθημα ενημερώνονται αμέσως στα σχέδια μάθησης.';
 $string['coursecompetencyratingsquestion'] = 'Όταν ένα προσόν μαθήματος εκτιμάται, η εκτίμηση αυτή ενημερώνει το προσόν στα σχέδια μάθησης ή εφαρμόζεται μόνο στο μάθημα;';
 $string['coursesusingthiscompetency'] = 'Μαθήματα συνδεδεμένα με αυτό το προσόν';
-$string['coveragesummary'] = '{$a->competenciescoveredcount} από {$a->competenciescount} προσόντα καλύφθηκαν ( {$a->coveragepercentage} % )';
+$string['coveragesummary'] = '{$a->competenciescoveredcount} από {$a->competenciescount} προσόντα καλύφθηκαν ( {$a->coveragepercentage}% )';
 $string['createlearningplans'] = 'Δημιουργία σχεδίων μάθησης';
 $string['createplans'] = 'Δημιουργία σχεδίων μάθησης';
 $string['crossreferencedcompetencies'] = 'Διασταυρωμένα προσόντα';
@@ -135,11 +135,11 @@ $string['modcompetencies'] = 'Προσόντα μαθήματος';
 $string['modcompetencies_help'] = 'Προσόντα μαθήματος συνδεδεμένα με αυτή τη δραστηριότητα.';
 $string['move'] = 'Μετακίνηση';
 $string['movecompetency'] = 'Μετακίνηση προσόντος';
-$string['movecompetencyafter'] = 'Μετακίνηση προσόντος μετά από το \'{$a}\'';
+$string['movecompetencyafter'] = 'Μετακίνηση προσόντος μετά από το \'{$a}\'.';
 $string['movecompetencyframework'] = 'Μετακίνηση πλαισίου προσόντων';
 $string['movecompetencytochildofselfwillresetrules'] = 'Η μετακίνηση του προσόντος θα διαγράψει τον κανόνα του και τους κανόνες των γονέων και του προορισμού. Θέλετε να συνεχίσετε;';
 $string['movecompetencywillresetrules'] = 'Η μετακίνηση του προσόντος θα διαγράψει τους κανόνες των γονέων και του προορισμού. Θέλετε να συνεχίσετε;';
-$string['moveframeworkafter'] = 'Μετακίνηση πλαισίου προσόντων μετά από το \'{$a}\'';
+$string['moveframeworkafter'] = 'Μετακίνηση πλαισίου προσόντων μετά από το \'{$a}\'.';
 $string['movetonewparent'] = 'Μεταφορά';
 $string['myplans'] = 'Τα σχέδια μάθησής μου';
 $string['nfiles'] = '{$a} αρχείο(-α)';
@@ -179,6 +179,7 @@ $string['planupdated'] = 'Το σχέδιο μάθησης ενημερώθηκ�
 $string['pluginname'] = 'Σχέδια μάθησης';
 $string['points'] = 'Πόντοι';
 $string['pointsgivenfor'] = 'Πόντοι που δίνονται για «{$a}»';
+$string['privacy:metadata'] = 'Το πρόσθετο «Σχέδια μάθησης» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['proficient'] = 'Επαρκής';
 $string['progress'] = 'Πρόοδος';
 $string['rate'] = 'Βαθμός';
@@ -203,7 +204,7 @@ $string['selectcohortstosync'] = 'Επιλογή ομάδων χρηστών γ�
 $string['selectcompetencymovetarget'] = 'Επιλέξτε τοποθεσία για μεταφορά αυτού του προσόντος:';
 $string['selectedcompetency'] = 'Επιλεγμένο προσόν';
 $string['selectuserstocreateplansfor'] = 'Επιλέξτε χρήστες για τους οποίους θα δημιουργήσετε σχέδια μάθησης';
-$string['sendallcompetenciestoreview'] = 'Στείλτε όλα τα εξεταζόμενα προσόντα για αποδεικτικά προηγούμενης μάθησης \'{$a}\'';
+$string['sendallcompetenciestoreview'] = 'Στείλτε όλα τα εξεταζόμενα προσόντα για αποδεικτικά προηγούμενης μάθησης \'{$a}\'.';
 $string['sendcompetenciestoreview'] = 'Στείλετε τα προσόντα για επανεξέταση';
 $string['shortname'] = 'Όνομα';
 $string['sitedefault'] = '(Προεπιλογή ιστοτόπου)';

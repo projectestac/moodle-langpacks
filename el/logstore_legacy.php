@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_legacy', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'logstore_legacy', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   logstore_legacy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,4 +30,11 @@ $string['loglegacy'] = 'Καταγραφή δεδομένων παλαιού τ�
 $string['loglegacy_help'] = 'Αυτό το πρόσθετο καταγράφει δεδομένα στον πίνακα καταγραφής παλαιού τύπου (mdl_log). Αυτή η λειτουργικότητα έχει αντικατασταθεί από νεότερα, πλουσιότερα και πιο αποδοτικά πρόσθετα για καταγραφή, επομένως θα πρέπει να εκτελέσετε αυτό το πρόσθετο μόνο αν διαθέτετε παλιές προσαρμοσμένες αναφορές που εκτελούν ερωτήματα άμεσα στον παλιό πίνακα καταγραφής. Η εγγραφή στις καταγραφές παλαιού τύπου θα αυξήσει το φορτίο, επομένως συνιστάται να απενεργοποιήσετε αυτό το πρόσθετο για λόγους απόδοσης όταν δεν είναι απαραίτητο.';
 $string['pluginname'] = 'Καταγραφές παλαιού τύπου';
 $string['pluginname_desc'] = 'Ένα πρόσθετο καταγραφών που αποθηκεύει καταγραφές στον πίνακα καταγραφών παλαιού τύπου.';
+$string['privacy:metadata:log'] = 'Μια συλλογή από παρελθόντα γεγονότα';
+$string['privacy:metadata:log:action'] = 'Περιγραφή της ενέργειας';
+$string['privacy:metadata:log:info'] = 'Επιπρόσθετες πληροφορίες';
+$string['privacy:metadata:log:ip'] = 'Η διεύθυνση IP που χρησιμοποιούνταν την ώρα του γεγονότος';
+$string['privacy:metadata:log:time'] = 'Η ώρα κατά την οποία η ενέργεια έλαβε χώρα';
+$string['privacy:metadata:log:url'] = 'Η διεύθυνση URL που σχετίζεται με το γεγονός';
+$string['privacy:metadata:log:userid'] = 'Το αναγνωριστικό του χρήστη που εκτέλεσε την ενέργεια';
 $string['taskcleanup'] = 'Καθαρισμός πίνακα καταγραφών παλαιού τύπου';

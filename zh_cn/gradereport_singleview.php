@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_singleview', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'gradereport_singleview', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   gradereport_singleview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['exclude'] = '排除';
 $string['excludeall'] = '排除所有成绩';
 $string['excludenone'] = '不排除任何成绩';
 $string['gradeitem'] = '成绩项: {$a}';
+$string['itemsperpage'] = '每页显示项';
 $string['noscreens'] = '无法找到一个合适的简略视图屏幕';
 $string['notvalid'] = '不是一个有效的简略视图屏幕: {$a}';
 $string['override'] = '覆盖';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'question', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,7 +77,7 @@ $string['categorycurrent'] = 'Huidige categorie';
 $string['categorycurrentuse'] = 'Gebruik deze categorie';
 $string['categorydoesnotexist'] = 'Deze categorie bestaat niet';
 $string['categoryinfo'] = 'Categorie info';
-$string['categorymove'] = 'De categorie \'{$a->name}\' bevat {$a->count} vragen (sommigen kunnen verborgen vragen of willekeurige vragen zijn die nog in gebruik zijn in een test). Kies alsjeblieft een andere categorie om deze vragen naar te verplaatsen.';
+$string['categorymove'] = 'De categorie \'{$a->name}\' bevat {$a->count} vragen (sommigen kunnen verborgen vragen zijn of willekeurige vragen die nog gebruikt worden in een test). Kies alsjeblieft een andere categorie om deze vragen naar te verplaatsen.';
 $string['categorymoveto'] = 'Bewaar in categorie';
 $string['categorynamecantbeblank'] = 'De categorienaam kan niet leeg zijn';
 $string['changeoptions'] = 'Wijzig opties';
@@ -316,6 +316,29 @@ $string['permissionmove'] = 'Verplaats deze vraag';
 $string['permissionsaveasnew'] = 'Bewaar dit als een nieuwe vraag';
 $string['permissionto'] = 'Je hebt het recht om:';
 $string['previewquestion'] = 'Voorbeeld van vraag: {$a}';
+$string['privacy:metadata:database:question'] = 'De details van een specifieke vraag.';
+$string['privacy:metadata:database:question_attempts'] = 'De informatie over een poging voor een specifieke vraag.';
+$string['privacy:metadata:database:question_attempts:flagged'] = 'Een indicatie dat de gebruiker deze vraag heeft gemarkeerd tijdens de poging.';
+$string['privacy:metadata:database:question_attempts:responsesummary'] = 'Een samenvatting van het antwoord op de vraag.';
+$string['privacy:metadata:database:question_attempt_step_data'] = 'Stappen in de vraagpoging kunnen aanvullende data bevatten specifiek voor die stap. Deze data wordt opgeslagen in de tabel step_data.';
+$string['privacy:metadata:database:question_attempt_step_data:name'] = 'De naam van het data-item.';
+$string['privacy:metadata:database:question_attempt_step_data:value'] = 'De waarde van het data-item.';
+$string['privacy:metadata:database:question_attempt_steps'] = 'Iedere vraagpoging heeft een aantal stappen om de verschillende fases aan te geven van begin tot voltooiing tot beoordeling. Deze tabel slaat de informatie op voor iedere van deze stappen.';
+$string['privacy:metadata:database:question_attempt_steps:fraction'] = 'Het cijfer dat werd toegekend voor deze vraagpoging geschaald naar een waarde op 1.';
+$string['privacy:metadata:database:question_attempt_steps:state'] = 'De toestand van deze stap in de vraagpoging aan het einde van de stapovergang.';
+$string['privacy:metadata:database:question_attempt_steps:timecreated'] = 'De datum en tijd dat deze stapovergang begon.';
+$string['privacy:metadata:database:question_attempt_steps:userid'] = 'De gebruiker die de stapovergang uitvoerde.';
+$string['privacy:metadata:database:question_attempts:timemodified'] = 'De tijd dat de vraagpoging werd geüpdatet.';
+$string['privacy:metadata:database:question:createdby'] = 'De persoon die de vraag aanmaakte.';
+$string['privacy:metadata:database:question:generalfeedback'] = 'De algemene feedback voor deze vraag.';
+$string['privacy:metadata:database:question:modifiedby'] = 'De persoon die de vraag voor het laatst bijwerkte.';
+$string['privacy:metadata:database:question:name'] = 'De naam van de vraag.';
+$string['privacy:metadata:database:question:questiontext'] = 'De vraagtekst.';
+$string['privacy:metadata:database:question:timecreated'] = 'De datum en tijd dat deze vraag werd aangemaakt.';
+$string['privacy:metadata:database:question:timemodified'] = 'De datum en tijd dat deze vraag werd aangepast.';
+$string['privacy:metadata:link:qbehaviour'] = 'Het vraag subsysteem maakt gebruik van het vraaggedrag plugintype';
+$string['privacy:metadata:link:qformat'] = 'Het Vraag subsysteem maakt gebruik van het plugintype Vraagformat om vragen in verschillende formats te importeren en exporteren.';
+$string['privacy:metadata:link:qtype'] = 'Het Vraag subsysteem maakt gebruik van het plugintype Vraagtype dat de verschillende types vragen bevat.';
 $string['published'] = 'gepubliceerd';
 $string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = '<a href="{$a->qurl}">Vraag "{$a->name}" ({$a->qtype})</a> is in deze vragencategorie, maar is ook gebruikt in <a href="{$a->qurl}">de test "{$a->quizname}"</a> in een andere cursus: "{$a->coursename}".';
@@ -374,6 +397,7 @@ $string['specificfeedback_help'] = 'Feedback die afhankelijk is van het antwoord
 $string['started'] = 'Gestart';
 $string['state'] = 'Status';
 $string['step'] = 'Stap';
+$string['steps'] = 'Stappen';
 $string['stoponerror'] = 'Stop bij fout';
 $string['stoponerror_help'] = 'Deze instelling bepaalt of het importproces stopt wanneer er een fout gevonden wordt, met als resultaat dat er geen vragen geïmporteerd worden, of dat alle vragen met fouten genegeerd worden en de geldige vragen geïmporteerd worden.';
 $string['submissionoutofsequence'] = 'Toegang uit volgorde. Klik niet op de terug-knop van je browser wanneer je aan testvragen werkt.';

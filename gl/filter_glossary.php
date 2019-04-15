@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_glossary', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'filter_glossary', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   filter_glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['filtername'] = 'Glosario autoligado';
+$string['privacy:metadata'] = 'O engadido de glosario autoligado non almacena ningún dato persoal.';

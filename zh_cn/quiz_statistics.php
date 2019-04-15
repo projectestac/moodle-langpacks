@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'zh_cn', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_statistics', language 'zh_cn', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -91,6 +91,7 @@ $string['partofquestion'] = '试题部分';
 $string['pluginname'] = '统计';
 $string['position'] = '题号';
 $string['positions'] = '位置';
+$string['privacy:metadata'] = '虽然 Quiz 统计插件有数据表，但这些数据是汇总数据不包含具体个人的细节描述。';
 $string['questioninformation'] = '题目信息';
 $string['questionname'] = '题目名';
 $string['questionnumber'] = '题#';

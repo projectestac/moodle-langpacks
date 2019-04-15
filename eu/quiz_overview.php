@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'quiz_overview', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,7 +44,7 @@ $string['optallattempts'] = 'saiakera guztiak';
 $string['optallstudents'] = 'galdetegia egiten saiatu ez diren \'{$a}\' guztiak';
 $string['optattemptsonly'] = 'Saiakerak dituzten \'{$a}\' baino ez';
 $string['optnoattemptsonly'] = 'Saiakerarik ez duten \'{$a}\' bakarrik';
-$string['optonlyregradedattempts'] = 'berriz kalifikatutakoak /  berkalifikatu behar direlako markatuta daudenak';
+$string['optonlyregradedattempts'] = 'berriz kalifikatu direnak / berkalifikatu behar direlako markatuta daudenak';
 $string['overview'] = 'Kalifikazioak';
 $string['overviewdownload'] = 'Laburpena jaitsi';
 $string['overviewfilename'] = 'kalifikazioak';
@@ -56,6 +56,9 @@ $string['pluginname'] = 'Kalifikazioak';
 $string['preferencespage'] = 'Zure hobespenak orri honetarako';
 $string['preferencessave'] = 'Erakutsi txostena';
 $string['preferencesuser'] = 'Zure hobespenak txosten honetarako';
+$string['privacy:metadata:preference:quiz_overview_slotmarks'] = 'Galdera-tarte bakoitzarekin batera kalifikazioak erakustea edo ez.';
+$string['privacy:preference:slotmarks:no'] = 'Kalifikazioak ez dira galdera-tarte bakoitzarekin batera erakusten.';
+$string['privacy:preference:slotmarks:yes'] = 'Kalifikazioak galdera-tarte bakoitzarekin batera erakusten dira.';
 $string['regrade'] = 'Berriz kalifikatu';
 $string['regradeall'] = 'Berriz kalifikatu guztia';
 $string['regradealldry'] = 'Berriz kalifikatu osorik proba moduan';

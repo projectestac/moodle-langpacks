@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_messageinbound', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,6 +96,12 @@ $string['onehour'] = 'Μία ώρα';
 $string['oneweek'] = 'Μια εβδομάδα';
 $string['oneyear'] = 'Ένας χρόνος';
 $string['pluginname'] = 'Ρυθμίσεις εισερχόμενου μηνύματος';
+$string['privacy:metadata:coreuserkey'] = 'Κλειδιά χρηστών για την επικύρωση του μηνύματος ηλ. ταχυδρομείου που παραλήφθηκε';
+$string['privacy:metadata:messagelist'] = 'Μια λίστα αναγνωριστικών μηνυμάτων που απέτυχαν στην επικύρωση και απαιτούν περαιτέρω εξουσιοδότηση';
+$string['privacy:metadata:messagelist:address'] = 'Η διεύθυνση αποστολής του μηνύματος ηλεκτρονικού ταχυδρομείου';
+$string['privacy:metadata:messagelist:messageid'] = 'Το αναγνωριστικό του μηνύματος';
+$string['privacy:metadata:messagelist:timecreated'] = 'Πότε έγινε η εγγραφή';
+$string['privacy:metadata:messagelist:userid'] = 'Το αναγνωριστικό του χρήστη που πρέπει να εγκρίνει το μήνυμα';
 $string['replysubjectprefix'] = 'Απάντ:';
 $string['requirevalidation'] = 'Επικυρώστε τη διεύθυνση του αποστολέα';
 $string['ssl'] = 'SSL (Αυτόματη ανίχνευση έκδοσης SSL)';

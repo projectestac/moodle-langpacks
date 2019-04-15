@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_textarea', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'profilefield_textarea', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   profilefield_textarea
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Область ввода текста';
+$string['privacy:metadata:profile_field_textarea:fieldid'] = 'ID поля профиля';
+$string['privacy:metadata:profile_field_textarea:userid'] = 'ID пользователя, данные которого хранятся в поле «Область ввода текста» профиля пользователя';

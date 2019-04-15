@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_multimenu', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'datafield_multimenu', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   datafield_multimenu
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Поле «Меню»';
 $string['pluginname'] = 'Меню';
+$string['privacy:metadata'] = 'Компонент поля базы данных «Меню» сам по себе не хранит никаких персональных данных, он использует таблицы, определенные в mod_data.';

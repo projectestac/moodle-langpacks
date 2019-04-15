@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_areafiles', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_areafiles', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_areafiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,3 +29,4 @@ $string['areafiles:view'] = 'Προβολή ενσωματωμένων αρχε�
 $string['configplugin'] = 'Ρυθμίσεις για το αποθετήριο Ενσωματωμένων αρχείων (π.χ. εικόνες που έχουν στο παρελθόν ενσωματωθεί μέσω επεξεργαστή κειμένου)';
 $string['pluginname'] = 'Ενσωματωμένα αρχεία';
 $string['pluginname_help'] = 'Αρχεία ενσωματωμένα στον τρέχοντα επεξεργαστή κειμένου';
+$string['privacy:metadata'] = 'Το πρόσθετο αποθετηρίου «Ενσωματωμένα αρχεία» δεν αποθηκεύει ούτε μεταβιβάζει κανένα προσωπικό δεδομένο.';

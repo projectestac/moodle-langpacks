@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_social', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'format_social', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   format_social
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,4 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['numberdiscussions'] = 'Количество обсуждений';
 $string['numberdiscussions_help'] = 'Этот параметр определяет сколько обсуждений должно быть показано.';
 $string['pluginname'] = 'Форум';
+$string['privacy:metadata'] = 'Плагин «формат Форум» не хранит никаких персональных данных.';
 $string['sectionname'] = 'раздел';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_offline', language 'it', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignfeedback_offline', language 'it', branch 'MOODLE_34_STABLE'
  *
  * @package   assignfeedback_offline
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['downloadgrades'] = 'Scarica il foglio di valutazione offline';
 $string['enabled'] = 'Foglio di valutazione offline';
 $string['enabled_help'] = 'I docenti potranno scaricare e caricare fogli di valutazione offline dei compiti degli studenti';
 $string['feedbackupdate'] = 'Imposta a "{$a->text}" il campo "{$a->field}" per lo studente "{$a->student}"';
-$string['gradelockedingradebook'] = 'La valutazione di {$a} è stata bloccata nel registro del valutatore';
+$string['gradelockedingradebook'] = 'La valutazione di {$a} è stata bloccata nel registro valutatore';
 $string['graderecentlymodified'] = 'La valutazione di {$a} è stata modificata in Moodle più recentemente rispetto al foglio di valutazione offline';
 $string['gradesfile'] = 'Foglio di valutazione offline (formato csv)';
 $string['gradesfile_help'] = 'Il foglio di valutazione offline contenente le valutazioni aggiornate. Il file deve essere in formato csv, deve essere stato preventivamente scaricato da questo compito e deve contenere le colonne con la valutazione e l\'identificativo di ciascuno studente. La codifica del file deve essere UTF-8.';

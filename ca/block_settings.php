@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_settings', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_settings', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   block_settings
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,5 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['enabledock'] = 'Permet que l\'usuari minimitzi aquest bloc';
 $string['pluginname'] = 'Administració';
+$string['privacy:metadata'] = 'El bloc Administració només mostra dades emmagatzemades en altres ubicacions.';
 $string['settings:addinstance'] = 'Afegeix un bloc d\'administració nou';
 $string['settings:myaddinstance'] = 'Afegeix un bloc nou de configuració a la pàgina del Tauler';

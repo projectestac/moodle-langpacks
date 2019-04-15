@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,8 @@ $string['command'] = 'Orde:';
 $string['comment'] = 'Comentarios';
 $string['commentcolour'] = 'Cor do comentario';
 $string['commentcontextmenu'] = 'Menú de contexto de comentarios';
+$string['commentindex'] = 'Índice de comentarios';
+$string['commentlabel'] = '{$a->pnum}.{$a->cnum}';
 $string['couldnotsavepage'] = 'Non foi posíbel gardar a páxina {$a}';
 $string['currentstamp'] = 'Selo';
 $string['deleteannotation'] = 'Eliminar anotación';
@@ -51,6 +53,7 @@ $string['enabled'] = 'Anotar PDF';
 $string['enabled_help'] = 'Se está activado, o profesor poderá crear ficheiros PDF con anotacións ao cualificar as tarefas. Isto permite que o profesor engada comentarios, debuxos e selos directamente sobre o traballo dos alumnos. A anotación faise no navegador e non se require ningún software adicional.';
 $string['errorgenerateimage'] = 'Produciuse un erro ao xerar a imaxe con ghostscript, información para depuración: {$a}';
 $string['errorpdfpage'] = 'Produciuse un erro ao xerar esta páxina.';
+$string['expcolcomments'] = 'Expandir/contraer todos os comentarios';
 $string['filter'] = 'Filtrar comentarios...';
 $string['generatefeedback'] = 'Xerar PDF de comentarios';
 $string['generatingpdf'] = 'Xerando o PDF...';
@@ -70,6 +73,13 @@ $string['pathtogspathdesc'] = 'Teña en conta que facer anotacións nun PDF requ
 $string['pen'] = 'Lapis';
 $string['pluginname'] = 'Facer anotacións en PDF';
 $string['preparesubmissionsforannotation'] = 'Prepare envíos para a anotación';
+$string['privacy:metadata:colourpurpose'] = 'Cor do comentario ou anotación';
+$string['privacy:metadata:conversionpurpose'] = 'Os ficheiros son convertidos a PDF para permitir anotacións.';
+$string['privacy:metadata:filepurpose'] = 'Almacena un PDF anotado con comentarios para o usuario.';
+$string['privacy:metadata:rawtextpurpose'] = 'Almacena o texto en bruto para os datos rápidos.';
+$string['privacy:metadata:tablepurpose'] = 'Almacena comentarios de lista rápida especificados polo profesor';
+$string['privacy:metadata:userid'] = 'O ID do usuario';
+$string['privacy:path'] = 'PDF de comentarios';
 $string['rectangle'] = 'Rectángulo';
 $string['red'] = 'Vermello';
 $string['result'] = 'Resultado:';

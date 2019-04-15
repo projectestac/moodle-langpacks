@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_community', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_community', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   block_community
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -97,6 +97,12 @@ $string['orderbypublisher'] = 'Editor';
 $string['orderbyratingaverage'] = 'Puntuación';
 $string['outcomes'] = 'Resultados: {$a}';
 $string['pluginname'] = 'Buscador da comunidade';
+$string['privacy:metadata:block_community'] = 'O bloque da comunidade almacena ligazóns a cursos compartidos da comunidade nos que os usuarios poden inscribirse.';
+$string['privacy:metadata:block_community:coursedescription'] = 'A descrición do curso da comunidade ligada.';
+$string['privacy:metadata:block_community:coursename'] = 'O nome do curso da comunidade ligada.';
+$string['privacy:metadata:block_community:courseurl'] = 'O URL do curso do curso da comunidade ligada.';
+$string['privacy:metadata:block_community:imageurl'] = 'O URL da iomaxe do curso da comunidade ligada.';
+$string['privacy:metadata:block_community:userid'] = 'O ID do usuario que creou o curso da comunidade ligada.';
 $string['rateandcomment'] = 'Puntuar e comentar';
 $string['rating'] = 'Puntuación';
 $string['removecommunitycourse'] = 'Retirar curso da comunidade';

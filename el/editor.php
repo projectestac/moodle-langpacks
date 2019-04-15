@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'editor', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   editor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -120,6 +120,8 @@ $string['pleaseenteralt'] = 'Παρακαλούμε εισάγετε το ενα
 $string['popupeditor'] = 'Μεγέθυνση επεξεργαστή κειμένου';
 $string['preformatted'] = 'Προ-μορφορποιήμενο';
 $string['preview'] = 'Προεπισκόπηση';
+$string['privacy:metadata:preference:htmleditor'] = 'Προτίμηση επεξεργαστή κειμένου.';
+$string['privacy:preference:htmleditor'] = 'Ο επεξεργαστής κειμένου που προτιμάτε να χρησιμοποιείτε για σύνταξη HTML κειμένου είναι {$a}';
 $string['properties'] = 'Ιδιότητες';
 $string['redo'] = 'Επανάληψη της τελευταίας ενέργειας';
 $string['regularexpressions'] = 'Χρήση κανονικών εκφράσεων';

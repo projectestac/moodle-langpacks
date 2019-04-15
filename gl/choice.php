@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'choice', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,8 @@ $string['allowmultiple'] = 'Permitir que se seleccione máis dunha escolla';
 $string['allowupdate'] = 'Permitir actualizar a escolla';
 $string['answered'] = 'Respondido';
 $string['atleastoneoption'] = 'Cómpre que forneza cando menos unha resposta posíbel.';
+$string['calendarend'] = '{$a} pechan';
+$string['calendarstart'] = '{$a} abren';
 $string['cannotsubmit'] = 'Xurdiu un problema ao enviar a súa escolla. Tenteo de novo.';
 $string['choice'] = 'Escolla';
 $string['choiceactivityname'] = 'Escolla: {$a}';
@@ -71,6 +73,10 @@ $string['expired'] = 'Desculpe, esta actividade pechouse o {$a} e xa non está d
 $string['full'] = '(Cheo)';
 $string['havetologin'] = 'Ten que rexistrarse antes de poder enviar a súa escolla';
 $string['includeinactive'] = 'Incluír respostas de usuarios inactivos/suspendidos';
+$string['indicator:cognitivedepth'] = 'Escolla cognitiva';
+$string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de escolla.';
+$string['indicator:socialbreadth'] = 'Escolla social';
+$string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de escolla.';
 $string['limit'] = 'Límite';
 $string['limitanswers'] = 'Limitar o número de respostas permitidas';
 $string['limitanswers_help'] = 'Esta opción permítelle limitar o número de participantes que poden seleccionar cada opción de escolla. Cando se acada o límite, ninguén máis pode seleccionar esa opción.
@@ -99,6 +105,7 @@ $string['notenrolledchoose'] = 'Desculpe, soamente os usuarios matriculados pode
 $string['notopenyet'] = 'Esta actividade non estará dispoñible até {$a}';
 $string['numberofuser'] = 'Número de participantes';
 $string['numberofuserinpercentage'] = 'Porcentaxe de participantes';
+$string['openafterclose'] = 'Especificou unha data aberta posterior á data de remate';
 $string['option'] = 'Opción';
 $string['optionno'] = 'Opción {no}';
 $string['options'] = 'Opcións';
@@ -107,6 +114,11 @@ $string['pluginadministration'] = 'Administración da escolla';
 $string['pluginname'] = 'Escolla';
 $string['previewonly'] = 'Isto é soamente unha vista previa das opcións dispoñíbeis para esta actividade. Vostede non poderá enviar a súa escolla ata o {$a}.';
 $string['privacy'] = 'Privacidade dos resultados';
+$string['privacy:metadata:choice_answers'] = 'Información sobre a(s) resposta(s) elixida(s) do usuario para unha determinada actividade de escolla';
+$string['privacy:metadata:choice_answers:choiceid'] = 'O ID da actividade de escolla';
+$string['privacy:metadata:choice_answers:optionid'] = 'O ID da opción que o usuario seleccionou.';
+$string['privacy:metadata:choice_answers:timemodified'] = 'A marca de tempo indicando cando foi modificada a escolla polo usuario';
+$string['privacy:metadata:choice_answers:userid'] = 'ID do usuario que responde esta actividade de escolla';
 $string['publish'] = 'Publicar resultados';
 $string['publishafteranswer'] = 'Mostrar resultados aos alumnos despois de que respondan';
 $string['publishafterclose'] = 'Mostrar resultados aos alumnos só despois de que a escolla estea fechada';
@@ -131,5 +143,6 @@ $string['spacesleft'] = 'espazos dispoñibles';
 $string['taken'] = 'Reservado';
 $string['userchoosethisoption'] = 'O usuario escolleu esta opción';
 $string['viewallresponses'] = 'Ver respostas {$a}';
+$string['viewchoices'] = 'Ver escollas';
 $string['withselected'] = 'Coa seleccionada';
 $string['yourselection'] = 'A súa selección';

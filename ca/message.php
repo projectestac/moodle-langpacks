@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'ca', branch 'MOODLE_32_STABLE'
+ * Strings for component 'message', language 'ca', branch 'MOODLE_34_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -121,6 +121,8 @@ $string['seeall'] = 'Mostra-ho tot';
 $string['selectmessagestodelete'] = 'Selecciona els missatges per suprimir';
 $string['selectnotificationtoview'] = 'Selecciona de la llista de notificacions que hi ha al costat per veure\'n més detalls';
 $string['send'] = 'Envia';
+$string['sendbulkmessage'] = 'Envia el missatge a {$a} persones';
+$string['sendbulkmessagesingle'] = 'Envia el missatge a una persona';
 $string['sendingvia'] = 'S\'està enviant "{$a->provider}" mitjançant "{$a->processor}"';
 $string['sendingviawhen'] = 'S\'està enviant "{$a->provider}" mitjançant "{$a->processor}" quan {$a->state}';
 $string['sendmessage'] = 'Envia missatge';

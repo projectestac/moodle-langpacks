@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_recyclebin', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_recyclebin', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_recyclebin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,6 +51,7 @@ $string['invalidcontext'] = 'Δόθηκε μη έγκυρο πλαίσιο.';
 $string['noitemsinbin'] = 'Δεν υπάρχουν στοιχεία στον κάδο ανακύκλωσης.';
 $string['notenabled'] = 'Λυπούμαστε, αλλά ο κάδος ανακύκλωσης έχει απενεργοποιηθεί από το διαχειριστή.';
 $string['pluginname'] = 'Κάδος ανακύκλωσης';
+$string['privacy:metadata'] = 'Το πρόσθετο «Κάδος ανακύκλωσης» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['recyclebin:deleteitems'] = 'Διαγραφή στοιχείων κάδου ανακύκλωσης';
 $string['recyclebin:restoreitems'] = 'Επαναφορά στοιχείων ανακύκλωσης';
 $string['recyclebin:viewitems'] = 'Προβολή στοιχείων κάδου ανακύκλωσης';

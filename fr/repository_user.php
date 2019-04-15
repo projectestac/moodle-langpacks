@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_user', language 'fr', branch 'MOODLE_32_STABLE'
+ * Strings for component 'repository_user', language 'fr', branch 'MOODLE_34_STABLE'
  *
  * @package   repository_user
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,4 +29,5 @@ $string['configplugin'] = 'Configuration fichiers personnels';
 $string['emptyfilelist'] = 'Il n\'y a aucun fichier à afficher';
 $string['pluginname'] = 'Fichiers personnels';
 $string['pluginname_help'] = 'Fichiers de la zone privée de l\'utilisateur';
+$string['privacy:metadata'] = 'Le plugin de dépôt Fichiers personnels n\'enregistre et ne transmet aucune donnée personnelle.';
 $string['user:view'] = 'Consulter les fichiers personnels';

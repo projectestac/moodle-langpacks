@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_lp', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_lp', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,5 +33,6 @@ $string['myplans'] = 'Τα σχεδιά μου';
 $string['noactiveplans'] = 'Δεν υπάρχουν ενεργά σχέδια προς το παρόν.';
 $string['planstoreview'] = 'Σχέδια προς αναθεώρηση';
 $string['pluginname'] = 'Σχέδια μάθησης';
+$string['privacy:metadata'] = 'Το μπλοκ «Σχέδια μάθησης» εμφανίζει μόνο δεδομένα που είναι αποθηκευμένα σε άλλες τοποθεσίες.';
 $string['viewmore'] = 'Δείτε περισσότερα...';
 $string['viewotherplans'] = 'Δείτε άλλα σχέδια ...';

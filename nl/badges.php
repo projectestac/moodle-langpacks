@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'nl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'badges', language 'nl', branch 'MOODLE_34_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -372,6 +372,34 @@ $string['personaconnection_help'] = 'Persona is een systeem waarmee je je kunt i
 Voor meer info over Persona, bezoek <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Mogelijke badge-ontvangers';
 $string['preferences'] = 'Badge voorkeuren';
+$string['privacy:metadata:backpack'] = 'De backpacks die een gebruiker gekregen heeft';
+$string['privacy:metadata:backpack:backpackuid'] = 'De unieke identificatie van de backpack';
+$string['privacy:metadata:backpack:backpackurl'] = 'De URL van de backpack';
+$string['privacy:metadata:backpack:email'] = 'De e-mail die met de backpack geassocieerd is';
+$string['privacy:metadata:backpack:userid'] = 'De ID van de gebruiker van wie de backpack is';
+$string['privacy:metadata:badge'] = 'Een collectie badges';
+$string['privacy:metadata:badge:timecreated'] = 'Het tijdstip waarop de badge gemaakt is';
+$string['privacy:metadata:badge:timemodified'] = 'Het tijdstip waarop de badge laatst is aangepast';
+$string['privacy:metadata:badge:usercreated'] = 'De ID van de gebruiker die de badge gemaakt heeft';
+$string['privacy:metadata:badge:usermodified'] = 'De ID van de gebruiker die de badge gewijzigd heeft';
+$string['privacy:metadata:criteriamet'] = 'Een collectie van behaalde criteria';
+$string['privacy:metadata:criteriamet:datemet'] = 'De datum waarop het criterium behaald was';
+$string['privacy:metadata:criteriamet:userid'] = 'De ID van de gebruiker die het criterium behaalde';
+$string['privacy:metadata:external:backpacks'] = 'Informatie die gedeeld wordt wanneer een gebruiker zijn badge instuurt naar een externe backpack';
+$string['privacy:metadata:external:backpacks:badge'] = 'De naam van de badge';
+$string['privacy:metadata:external:backpacks:description'] = 'De beschrijving van de badge';
+$string['privacy:metadata:external:backpacks:image'] = 'De afbeelding van de badge';
+$string['privacy:metadata:external:backpacks:issuer'] = 'Informatie van de uitgever';
+$string['privacy:metadata:external:backpacks:url'] = 'De Moodle URL waar de uitgerijkte badge gezien kan worden';
+$string['privacy:metadata:issued'] = 'De uitgereikte badges';
+$string['privacy:metadata:issued:dateexpire'] = 'Vervaldatum';
+$string['privacy:metadata:issued:dateissued'] = 'Uitreikingsdatum';
+$string['privacy:metadata:issued:userid'] = 'De ID van de gebruiker die de badge uitgereikt heeft';
+$string['privacy:metadata:manualaward'] = 'Manueeluitgereikt';
+$string['privacy:metadata:manualaward:datemet'] = 'De datum waarop de gebruiker de badge gekregen heeft';
+$string['privacy:metadata:manualaward:issuerid'] = 'De ID van de gebruiker die de badge uitgereikt heeft';
+$string['privacy:metadata:manualaward:issuerrole'] = 'De rol van de gebruiker die de badge uitgereikt heeft';
+$string['privacy:metadata:manualaward:recipientid'] = 'De ID van de gebruiker die manueel een badge uitgereikt heeft';
 $string['recipientdetails'] = 'Details ontvanger';
 $string['recipientidentificationproblem'] = 'Can geen ontvanger van deze badge vinden tussen de bestaande gebruikers.';
 $string['recipients'] = 'Badge-ontvangers';

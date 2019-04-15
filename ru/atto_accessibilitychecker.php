@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_accessibilitychecker', language 'ru', branch 'MOODLE_32_STABLE'
+ * Strings for component 'atto_accessibilitychecker', language 'ru', branch 'MOODLE_34_STABLE'
  *
  * @package   atto_accessibilitychecker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,6 +32,7 @@ $string['needsmorecontrast'] = 'Цвета основного текста и ф
 $string['needsmoreheadings'] = 'Введен большой объем текста, но нет заголовков. Заголовки облегчают пользователям чтение с экрана и делают навигацию по странице более удобной.';
 $string['nowarnings'] = 'Поздравляем, никаких проблем с доступностью не обнаружено!';
 $string['pluginname'] = 'Проверка доступности для лиц с ограниченными возможностями';
+$string['privacy:metadata'] = 'Плагин atto_accessibilitychecker не хранит никаких персональных данных.';
 $string['report'] = 'Отчет о доступности:';
 $string['tablesmissingcaption'] = 'Желательно указать названия таблиц. Хотя не обязательно, чтобы у каждой таблицы было название, в большинстве случаев названия оказываются очень полезны.';
 $string['tablesmissingheaders'] = 'В таблицах желательно использовать заголовки строк и столбцов.';

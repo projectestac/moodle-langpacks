@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_activity_results', language 'el', branch 'MOODLE_32_STABLE'
+ * Strings for component 'block_activity_results', language 'el', branch 'MOODLE_34_STABLE'
  *
  * @package   block_activity_results
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -63,6 +63,7 @@ $string['error_nogroupsexist'] = 'Σφάλμα: το μπλοκ έχει ορι�
 $string['error_unsupportedgradetype'] = 'Σφάλμα: Η επιλεγμένη δραστηριότητα χρησιμοποιεί μια μέθοδο βαθμολόγησης που δεν υποστηρίζεται από αυτό το μπλοκ.';
 $string['notyetgraded'] = 'Δεν έχει βαθμολογηθεί ακόμα';
 $string['pluginname'] = 'Αποτελέσματα δραστηριότητας';
+$string['privacy:metadata'] = 'Το μπλοκ αποτελεσμάτων Δραστηριότητας εμφανίζει μόνο δεδομένα που έχουν αποθηκευτεί σε άλλες τοποθεσίες.';
 $string['unknown'] = 'Άγνωστη κλίμακα';
 $string['worstgrade'] = 'Ο χαμηλότερος βαθμός:';
 $string['worstgrades'] = 'Οι {$a} χαμηλότεροι βαθμοί:';

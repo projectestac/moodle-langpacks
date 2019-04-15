@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'cache', language 'es', branch 'MOODLE_34_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,10 +34,12 @@ $string['addstoresuccess'] = 'Se añadió exitosamente un nuevo almacén de {$a}
 $string['area'] = 'Área';
 $string['cacheadmin'] = 'Administración de caché';
 $string['cacheconfig'] = 'Configuración';
+$string['cachedef_calendar_categories'] = 'Categorías de curso del calendario a las que puede acceder un usuario';
 $string['cachedef_calendar_subscriptions'] = 'Suscripciones al calendario';
 $string['cachedef_capabilities'] = 'Listado de prestaciones del sistema';
 $string['cachedef_completion'] = 'Estado de finalización de la actividad';
 $string['cachedef_config'] = 'Ajustes de configuración';
+$string['cachedef_contextwithinsights'] = 'Contexto con intuiciones (predicciones)';
 $string['cachedef_coursecat'] = 'Listas de categorías de cursos para un usuario en particular';
 $string['cachedef_coursecatrecords'] = 'Registros de categorías de cursos';
 $string['cachedef_coursecattree'] = 'Árbol de categorías de cursos';
@@ -47,6 +49,7 @@ $string['cachedef_coursemodinfo'] = 'Información acumulada sobre los módulos y
 $string['cachedef_databasemeta'] = 'Meta Información de Base de Datos';
 $string['cachedef_eventinvalidation'] = 'Invalidación de evento';
 $string['cachedef_externalbadges'] = 'Insignias externas de un usuario concreto';
+$string['cachedef_fontawesomeiconmapping'] = 'Mapeo de iconos para font Awesome';
 $string['cachedef_grade_categories'] = 'Consulta de categorías de grado';
 $string['cachedef_groupdata'] = 'Información de grupos del curso';
 $string['cachedef_htmlpurifier'] = 'Depurador de HTML - Limpieza de contenido';
@@ -58,13 +61,16 @@ $string['cachedef_observers'] = 'Observadores del evento';
 $string['cachedef_plugin_functions'] = 'Llamadas de retorno disponibles de Plugins';
 $string['cachedef_plugin_manager'] = 'Gestor de información del plugin';
 $string['cachedef_postprocessedcss'] = 'CSS post procesado';
+$string['cachedef_presignup'] = 'Preinscribir datos para un usuario no registrado determinado';
 $string['cachedef_questiondata'] = 'Definiciones de preguntas';
 $string['cachedef_repositories'] = 'Datos de repositorios';
+$string['cachedef_roledefs'] = 'Definiciones de roles';
 $string['cachedef_string'] = 'Caché de cadenas de idioma';
 $string['cachedef_suspended_userids'] = 'Listado de usuarios suspendidos por curso';
 $string['cachedef_tagindexbuilder'] = 'Resultados de la búsqueda de elementos etiquetados';
 $string['cachedef_tags'] = 'Etiquetas de colecciones y áreas';
 $string['cachedef_temp_tables'] = 'Tabla temporal de caché';
+$string['cachedef_user_group_groupings'] = 'Grupos y agrupamientos de usuarios por curso';
 $string['cachedef_userselections'] = 'Información empleada para mantener las selecciones del usuario en Moodle';
 $string['cachedef_yuimodules'] = 'Definiciones de módulos YUI';
 $string['cachelock_file_default'] = 'Bloqueo de archivo por defecto';
@@ -131,6 +137,7 @@ $string['nativelocking'] = 'Este plugin maneja su propio bloqueo.';
 $string['none'] = 'Ninguno';
 $string['plugin'] = 'Plugin';
 $string['pluginsummaries'] = 'Almacenes de caché instalados';
+$string['privacy:metadata:cachestore'] = 'El subsistema de Caché almacena datos temporalmente a nombre de otras partes de Moodle. Estos datos no son fácilmente identificables, y son de muy corta duración. Sirve como una caché de datos almacenados en otro sitio en Moodle y por lo tanto deberían de ser manejados por esos componentes de Moodle.';
 $string['purge'] = 'Purgar';
 $string['purgedefinitionsuccess'] = 'Definición solicitada purgada con éxito.';
 $string['purgestoresuccess'] = 'Se purgó exitosamente el almacén solicitado.';

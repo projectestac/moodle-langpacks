@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_capability', language 'eu', branch 'MOODLE_32_STABLE'
+ * Strings for component 'tool_capability', language 'eu', branch 'MOODLE_34_STABLE'
  *
  * @package   tool_capability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,9 +31,10 @@ $string['changeoverrides'] = 'Aldatu baimenak kentzea testuinguru honetan';
 $string['changeroles'] = 'Aldatu rolen definizioak';
 $string['eventreportviewed'] = 'Txostena ikusi da';
 $string['forroles'] = '{$a} roletarako';
-$string['getreport'] = 'Lortu txostena';
+$string['getreport'] = 'Eskuratu txostena';
 $string['intro'] = 'Txosten honek erakusten du gaitasun jakin baterako, zein baimen duen gaitasunaren definizioak rol bakoitzerako (edo aukeratutako rolek), eta gaitasuna anulatuta dagoen guneko leku guztietan.';
 $string['pluginname'] = 'Gaitasunen txostena';
+$string['privacy:metadata'] = 'Gaitasunen txostena pluginak ez du datu pertsonalik biltzen.';
 $string['reportforcapability'] = '\'{$a}\' gaitasunerako txostena';
 $string['reportsettings'] = 'Txostenaren ezarpenak';
 $string['roleslabel'] = 'Rolak:';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_nologin', language 'gl', branch 'MOODLE_32_STABLE'
+ * Strings for component 'auth_nologin', language 'gl', branch 'MOODLE_34_STABLE'
  *
  * @package   auth_nologin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['auth_nologindescription'] = 'Engadido auxiliar que impide que o usuario acceda ao sistema e desbota calquera correo enviado ao usuario. Pode empregarse para <em>suspender</em> contas de usuario.';
 $string['pluginname'] = 'Sen acceso';
+$string['privacy:metadata'] = 'O engadido de autenticación sen acceso non almacena ningún dato persoal.';
