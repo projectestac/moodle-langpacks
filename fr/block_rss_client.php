@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_rss_client', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   block_rss_client
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -74,13 +74,14 @@ $string['privacy:metadata:block_rss_client:tableexplanation'] = 'Les information
 $string['privacy:metadata:block_rss_client:title'] = 'Le titre du flux RSS.';
 $string['privacy:metadata:block_rss_client:url'] = 'L\'URL du flux RSS.';
 $string['privacy:metadata:block_rss_client:userid'] = 'L\'identifiant de l\'utilisateur qui a ajouté le flux RSS.';
+$string['refreshfeedstask'] = 'Actualisation des flux RSS';
 $string['remotenewsfeed'] = 'Flux RSS';
 $string['rss_client:addinstance'] = 'Ajouter un bloc flux RSS';
 $string['rss_client:createprivatefeeds'] = 'Créer des flux RSS privés';
 $string['rss_client:createsharedfeeds'] = 'Créer des flux RSS partagés';
 $string['rss_client:manageanyfeeds'] = 'Gérer tous les flux RSS';
 $string['rss_client:manageownfeeds'] = 'Gérer ses propres flux RSS';
-$string['rss_client:myaddinstance'] = 'Ajouter un bloc flux RSS au tableau de bord';
+$string['rss_client:myaddinstance'] = 'Ajouter un bloc flux RSS distant au tableau de bord';
 $string['seeallfeeds'] = 'Afficher tous les flux RSS';
 $string['sharedfeed'] = 'Flux RSS partagé';
 $string['shownumentrieslabel'] = 'Nombre maximum d\'articles à afficher par bloc';

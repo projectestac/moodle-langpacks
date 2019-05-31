@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'calendar', language 'ru', branch 'MOODLE_36_STABLE'
  *
  * @package   calendar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -144,7 +144,6 @@ $string['export'] = 'Экспортировать';
 $string['exportbutton'] = 'Экспорт';
 $string['exportcalendar'] = 'Экспортировать события';
 $string['exporthelp'] = 'Как я могу подписаться на этот календарь из приложения календаря (Google/Outlook/Other)?';
-$string['for'] = 'за';
 $string['forcecalendartype'] = 'Принудительный календарь';
 $string['fri'] = 'Пт';
 $string['friday'] = 'Пятница';

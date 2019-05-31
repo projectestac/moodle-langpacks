@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_usertours', language 'es', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -165,7 +165,49 @@ $string['tour2_title_navigation'] = 'Navegación';
 $string['tour2_title_opendrawer'] = 'Abrir el cajón de navegación';
 $string['tour2_title_participants'] = 'Participantes del curso';
 $string['tour2_title_welcome'] = 'Bienvenida';
+$string['tour3_content_dashboard'] = 'Su nuevo panel tiene muchas características que pueden ayudar a acceder fácilmente a la información más importante.';
+$string['tour3_content_displayoptions'] = 'Los cursos pueden ordenarse por nombre o por su última fecha de acceso.
+
+También puede optar por mostrar los cursos en una lista, con información de resumen o la vista de "tarjeta" predeterminada.';
+$string['tour3_content_overview'] = 'El bloque de Vista general del curso muestra todos los cursos en los cuales está matriculado.
+
+Puede elegir mostrar cursos actualmente en progreso, o en el pasado, o en el futuro, o cursos que ha marcado como destacados.';
+$string['tour3_content_recentcourses'] = 'El bloque de "Cursos de Acceso Reciente" muestra los cursos que han sido vistos por última vez, lo que le permite volver a encontrarlos y acceder de un modo más inmediato.';
+$string['tour3_content_starring'] = 'Puede elegir iniciar un curso para destacarlo u ocultar un curso que ya no es importante.
+
+Estas acciones solo afectan a su vista.
+
+También puede optar por mostrar los cursos en una lista, o con información resumida, o la vista de "tarjeta" predeterminada.';
+$string['tour3_content_timeline'] = 'El bloque de línea de tiempo muestra tus próximos eventos importantes y tareas.
+
+Puede elegir entre mostrar las actividades en la próxima semana, próximo mes o en el futuro.
+
+También puede mostrar los elementos ya vencidos.';
+$string['tour3_title_dashboard'] = 'Su panel de control';
+$string['tour3_title_displayoptions'] = 'Mostrar opciones';
+$string['tour3_title_overview'] = 'Vista general de curso';
+$string['tour3_title_recentcourses'] = 'Cursos accedidos recientemente';
+$string['tour3_title_starring'] = 'Destacar y ocultar cursos';
+$string['tour3_title_timeline'] = 'Bloque de Línea del Tiempo';
+$string['tour4_content_groupconvo'] = 'Si es miembro de un grupo con mensajes de grupo habilitados, verá las conversaciones de grupo aquí.
+
+Las conversaciones en grupo del curso permiten interactuar con los demás miembros de su grupo en una zona privada.';
+$string['tour4_content_icon'] = 'Puede acceder a sus mensajes desde cualquier página usando este icono.
+
+Si hay algún mensaje no leído, el número de mensajes no leídos se mostrará aquí también.
+
+Haga clic en el icono para abrir el cajón de mensajes y continuar el recorrido.';
+$string['tour4_content_messaging'] = 'Moodle 3.6 proporciona una nueva interfaz para la mensajería, la capacidad de enviar mensajes de grupo dentro de un curso, junto con un mejor control sobre quién puede enviarle mensajes.';
+$string['tour4_content_settings'] = 'Se puede acceder a la configuración de mensajería a través del icono del engranaje. Una nueva configuración de privacidad permite restringir quién puede enviarle mensajes.';
+$string['tour4_content_starred'] = 'Puede elegir iniciar conversaciones particulares para que sean más fáciles de encontrar.';
+$string['tour4_title_groupconvo'] = 'Mensajes de grupo';
+$string['tour4_title_icon'] = 'Mensajería';
+$string['tour4_title_messaging'] = 'Nueva interfaz de mensajería';
+$string['tour4_title_settings'] = 'Opciones de mensajería';
+$string['tour4_title_starred'] = 'Destacado';
 $string['tourconfig'] = 'Archivo de configuración de tour a importar';
+$string['tour_final_step_content'] = 'Este es el final del recorrido. No se mostrará de nuevo a menos que lo restablezca utilizando el enlace en el pie de página.';
+$string['tour_final_step_title'] = 'Fin del tour';
 $string['tourisenabled'] = 'El Tour está habilitado';
 $string['tourlist_explanation'] = 'Puede crear tantos tours como desee y habilitarlos para diferentes partes de Moodle. Solamente puede crearse un tour por página.';
 $string['tour_resetforall'] = 'El estado del tour ha sido reiniciado. Se mostrará nuevamente a todos los usuarios.';

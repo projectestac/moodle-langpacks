@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'forum', language 'ru', branch 'MOODLE_36_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -173,9 +173,6 @@ $string['edit'] = 'Редактировать';
 $string['editedby'] = 'Редактировал(а) {$a->name} -  {$a->date}';
 $string['editedpostupdated'] = 'Сообщение {$a} было обновлено';
 $string['editing'] = 'Редактирование';
-$string['emaildigest_0'] = 'Вы будете получать отдельное письмо на каждое сообщение в форуме.';
-$string['emaildigest_1'] = 'Вы будете ежедневно получать по почте  дайджест, включающий полное содержимое всех сообщений форума за день.';
-$string['emaildigest_2'] = 'Вы будете ежедневно получать по почте  дайджест, содержащий названия всех тем форума за день.';
 $string['emaildigestcompleteshort'] = 'Полные сообщения';
 $string['emaildigestdefault'] = 'По умолчанию ({$a})';
 $string['emaildigestoffshort'] = 'Без дайджеста';
@@ -187,8 +184,6 @@ $string['emaildigesttype_help'] = 'Тип уведомления, который
 * Без дайджеста - Вы получите одно электронное письмо на каждое сообщение форума;
 * Дайджест - полные сообщения - Вы будете ежедневно получать по почте  дайджест, включающий полное содержимое всех сообщений форума за день;
 * Дайджест - только темы - Вы будете ежедневно получать по почте  дайджест, содержащий названия всех тем форума за день.';
-$string['emaildigestupdated'] = 'Настройки дайджеста в форуме «{$a->forum}» были изменены на «{$a->maildigesttitle}». {$a->maildigestdescription}';
-$string['emaildigestupdated_default'] = 'В форуме «{$a->forum}» используется настройка дайджеста «{$a->maildigesttitle}», установленная по умолчанию в Вашем профиле. {$a->maildigestdescription}';
 $string['emptymessage'] = 'Произошла ошибка при обработке Вашего сообщения. Вероятнее всего, Вы оставили его пустым или превысили допустимый размер вложения. <br>Сообщение не было сохранено.';
 $string['erroremptymessage'] = 'Сообщение не может быть пустым';
 $string['erroremptysubject'] = 'Тема сообщения не может быть пустой';
@@ -421,7 +416,6 @@ $string['postbymailsuccess'] = 'Ваше сообщение форума с те
 $string['postbymailsuccess_html'] = 'Ваше <a href="{$a->discussionurl}">сообщение на форуме</a> с темой «{$a->subject}» был успешно отправлено.';
 $string['postbyuser'] = '{$a->post} от {$a->user}';
 $string['postincontext'] = 'Показать в контексте';
-$string['postmailinfo'] = 'Это копия сообщения с сайта {$a}. Чтобы ответить на него на сайте, проследуйте по этой ссылке:';
 $string['postmailinfolink'] = 'Это копия сообщения, опубликованного в курсе  «{$a->coursename}».
 
 Чтобы ответить на него, щелкните по этой ссылке: {$a->replylink}';
@@ -440,10 +434,13 @@ $string['postupdated'] = 'Ваше сообщение было изменено'
 $string['potentialsubscribers'] = 'Потенциальные подписчики';
 $string['prevdiscussiona'] = 'Предыдущее обсуждение: {$a}';
 $string['privacy:metadata:forum_digests:userid'] = 'ID пользователя с предпочтением дайджеста.';
+$string['privacy:metadata:forum_discussions'] = 'Информация об отдельных обсуждениях форума, которые создал пользователь';
 $string['privacy:metadata:forum_discussion_subs:discussionid'] = 'ID обсуждения, на которое была подписка.';
+$string['privacy:metadata:forum_discussion_subs:preference'] = 'Время начала подписки.';
 $string['privacy:metadata:forum_discussion_subs:userid'] = 'ID пользователя с подпиской на обсуждение.';
 $string['privacy:metadata:forum_discussions:userid'] = 'ID пользователя, создавшего обсуждение';
 $string['privacy:metadata:forum_discussions:usermodified'] = 'ID пользователя, который последним изменил обсуждение.';
+$string['privacy:metadata:forum_posts:created'] = 'Время создания сообщения';
 $string['privacy:metadata:forum_posts:userid'] = 'ID пользователя, который является автором сообщения на форуме.';
 $string['privacy:metadata:forum_read:userid'] = 'ID пользователя, к которому относится эта запись.';
 $string['privacy:metadata:forum_subscriptions:userid'] = 'ID пользователя, к которому относится подписка на этот форум.';

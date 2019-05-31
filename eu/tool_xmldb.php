@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_xmldb', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -168,6 +168,7 @@ $string['nowrongintsfound'] = 'Ez da zenbaki oso ezegokirik aurkitu, zure datu-b
 $string['nowrongoraclesemanticsfound'] = 'Ez da BYTE semantika erabiltzen duten Oracle zutaberik aurkitu, zure datu-baseak ez du bestelako ekintzarik behar.';
 $string['numberincorrectdecimals'] = 'Hamartarren kopuru ezegokia zenbakizko eremuan';
 $string['numberincorrectlength'] = 'Zenbakizko eremuaren luzera ezegokia';
+$string['numberincorrectwholepart'] = 'Zenbakizko eremuaren zenbaki-atal handiegia.';
 $string['pendingchanges'] = 'Oharra: Fitxategi honi aldaketak egin dizkiozu. Edozein unetan gorde daitezke.';
 $string['pendingchangescannotbesaved'] = 'Fitxategi honetan aldaketak daude baina ezin dira gorde! Mesedez egiaztatu web zerbitzariak bai karpeta baita bertako "install.xml" fitxategia ere idazteko baimenak dituela.';
 $string['pendingchangescannotbesavedreload'] = 'Fitxategi honetan aldaketak daude baina ezin dira gorde! Mesedez egiaztatu web zerbitzariak bai karpeta baita bertako "install.xml" fitxategiak ere idazteko baimenak dituztela. Orduan orri hau freskatu eta aldaketa horiek gorde ahal izango dituzu.';
@@ -219,6 +220,6 @@ $string['yesmissingindexesfound'] = '<p>Zure datu-basean hainbat indize falta di
 $string['yeswrongdefaultsfound'] = '<p>Zure datu-basean sendotasunik gabeko lehenetsitako balio batzuk aurkitu dira. Hemen dituzu horien xehetasunak eta arazoa konpontzeko zure SQL interfaze gogokoenean exekutatu behar diren SQL komandoak. Gogoratu aurretik zure datuen segurtasun-kopia bat egitea!</p>
 <p>Behin hori egindakoan, funtzio hau berriz ere exekutatzea gomendatzen da arazoak sortzen dituen lehenetsitako beste baliorik ez dagoela ziurtatzeko.</p>';
 $string['yeswrongintsfound'] = '<p>Zure datu-basean hainbat integer oker aurkitu dira. Hemen dituzu horien xehetasunak eta arazoa konpontzeko zure SQL interfaz gogokoenean exekutatu behar diren SQL komandoak. Gogoratu aurretik zure datuen segurtasun-kopia bat egitea!</p>
-<p>Behin hori egindakoan, funtzio hau berriz ere exekutatzea gomendatzen da beste zenbaki oso okerrik ez dagoela ziurtatzeko.</p>';
-$string['yeswrongoraclesemanticsfound'] = '<p>Zure datu-basean BYTE semantika erabiltzen duten Oracle zutabeak aurkitu dira. Hemen dituzu horien zehaztasunak eta sortzeko zure SQL interfaz gogokoenean exekutatu behar diren SQL komandoak. Gogoratu aurretik zure datuen segurtasun-kopia bat egitea!</p>
+<p>Arazoak konpondu ondoren, funtzio hau berriz ere exekutatzea gomendatzen da beste zenbaki okerrik ez dagoela ziurtatzeko.</p>';
+$string['yeswrongoraclesemanticsfound'] = '<p>Zure datu-basean BYTE semantika erabiltzen duten Oracle zutabeak aurkitu dira. Hemen dituzu horien zehaztasunak eta zutabeak eraldatzeko zure SQL interfaz gogokoenean exekutatu behar diren SQL komandoak. Gogoratu aurretik zure datuen segurtasun-kopia bat egitea!</p>
 <p>Behin hori egindakoan, funtzio hau berriz ere exekutatzea gomendatzen da semantika ezegoki gehiago ez dagoela ziurtatzeko.</p>';

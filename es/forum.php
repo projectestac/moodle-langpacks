@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'forum', language 'es', branch 'MOODLE_36_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -138,7 +138,7 @@ $string['disallowsubscription_help'] = 'Este foro ha sido configurado de tal for
 $string['discussion'] = 'Tema';
 $string['discussionlocked'] = 'Este tema ha sido bloqueado así que no podrás responder en el.';
 $string['discussionlockingdisabled'] = 'No bloquear discusiones';
-$string['discussionlockingheader'] = 'Bloqueando discusión';
+$string['discussionlockingheader'] = 'Bloqueo de discusión';
 $string['discussionmoved'] = 'Este tema se ha movido a \'{$a}\'.';
 $string['discussionmovedpost'] = 'Esta discusión ha sido trasladada a <a href="{$a->discusshref}">aquí</a> en el foro <a href="{$a->forumhref}">{$a->forumname}</a>';
 $string['discussionname'] = 'Denominación';
@@ -170,9 +170,6 @@ $string['edit'] = 'Editar';
 $string['editedby'] = 'Editado por {$a->name} - envío original {$a->date}';
 $string['editedpostupdated'] = '{$a} mensajes actualizados';
 $string['editing'] = 'Editando';
-$string['emaildigest_0'] = 'Recibirás un e-mail por cada mensaje del foro.';
-$string['emaildigest_1'] = 'Recibirá un resumen de correo diario con el contenido completo de cada mensaje del foro';
-$string['emaildigest_2'] = 'Recibirá un resumen de correo diario con el asunto de cada mensaje del foro';
 $string['emaildigestcompleteshort'] = 'Mensajes completos';
 $string['emaildigestdefault'] = 'Por defecto ({$a})';
 $string['emaildigestoffshort'] = 'Sin resumen';
@@ -184,8 +181,6 @@ $string['emaildigesttype_help'] = 'Tipo de notificación que recibirá de cada f
 * Sin resumen - Recibirá un correo por cada mensaje del foro;
 * Resumen - mensajes completos- Recibirá un resumen de correo diario con el contenido completo de cada mensaje del foro;
 * Resumen - sólo asunto- Recibirá un resumen de correo diario sólo con el asunto de cada mensaje del foro.';
-$string['emaildigestupdated'] = 'El tipo de resumen de correo ha sido cambiado a  \'{$a->maildigesttitle}\' para el foro \'{$a->forum}\'. {$a->maildigestdescription}';
-$string['emaildigestupdated_default'] = 'Sus ajustes de perfil por defecto para \'{$a->maildigesttitle}\' han sido usados para el foro \'{$a->forum}\'. {$a->maildigestdescription}.';
 $string['emptymessage'] = 'Algo va mal con su mensaje. Tal vez lo haya enviado en blanco o el archivo adjunto, si lo hay, es demasiado grande. Sus cambios NO se han guardado.';
 $string['erroremptymessage'] = 'El mensaje no puede estar vacío';
 $string['erroremptysubject'] = 'El asunto del mensaje no puede estar vacío.';
@@ -412,9 +407,6 @@ $string['postbymailsuccess'] = 'Felicidades, su publicación en el foro con el a
 $string['postbymailsuccess_html'] = 'Felicidades, su <a href="{$a->discussionurl}">publicación en el foro</a> con el asunto "{$a->subject}" ha sido publicada con éxito.';
 $string['postbyuser'] = '{$a->post} por {$a->user}';
 $string['postincontext'] = 'Ver el mensaje en su contexto';
-$string['postmailinfo'] = 'Esta es una copia del mensaje publicado en el sitio web {$a}.
-
-Para responder a este mensaje haga clic en este enlace:';
 $string['postmailinfolink'] = 'Esta es una copia de un mensaje enviado a {$a->coursename}.
 
 Para responder haga clic en el link: {$a->replylink}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository', language 'de', branch 'MOODLE_36_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['addplugin'] = 'Repository-Plugin hinzufügen';
 $string['allowexternallinks'] = 'Externe Links erlauben';
 $string['areacategoryintro'] = 'Kategorieeinleitung';
 $string['areacourseintro'] = 'Kurseinleitung';
-$string['areacourseoverviewfiles'] = 'Dateien in der Kursbeschreibung';
+$string['areacourseoverviewfiles'] = 'Kursbild';
 $string['areamainfile'] = 'Hauptdatei';
 $string['arearoot'] = 'System';
 $string['areauserbackup'] = 'Nutzersicherung';
@@ -51,7 +51,7 @@ $string['back'] = 'Zurück';
 $string['backtodraftfiles'] = 'Zurück zum Dateimanager für Entwürfe';
 $string['cachecleared'] = 'Cache-Dateien gelöscht';
 $string['cacheexpire'] = 'Cache ungültig';
-$string['cannotaccessparentwin'] = 'Falls das übergeordnete Fenster HTTPS benutzt, darf das Objekt window.opener nicht benutzt werden. Deswegen kann die Anzeige nicht automatisch aktualisiert werden. Bitte gehen Sie zurück in die Dateiauswahl und wählen Sie das Repository erneut aus. Jetzt sollte es funktionieren!';
+$string['cannotaccessparentwin'] = 'Wenn HTTPS benutzt wird, kann das Repository nicht automatisch aktualisiert werden. Gehen Sie zurück in die Dateiauswahl und wählen Sie das Repository erneut aus.';
 $string['cannotdelete'] = 'Datei kann nicht gelöscht werden';
 $string['cannotdownload'] = 'Datei kann nicht herunter geladen werden';
 $string['cannotdownloaddir'] = 'Verzeichnis kann nicht herunter geladen werden';
@@ -149,7 +149,7 @@ $string['invalidparams'] = 'Ungültige Parameter';
 $string['invalidplugin'] = 'Ungültiges Repository-Plugin {$a}';
 $string['invalidrepositoryid'] = 'Ungültige Repository-ID';
 $string['isactive'] = 'Aktiv?';
-$string['keyword'] = 'Schlagwort';
+$string['keyword'] = 'Tag';
 $string['lastmodified'] = 'Zuletzt geändert';
 $string['license'] = 'Lizenz';
 $string['linkexternal'] = 'Extern verlinken';

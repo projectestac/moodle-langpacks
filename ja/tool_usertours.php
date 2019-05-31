@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_usertours', language 'ja', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -138,7 +138,7 @@ $string['title'] = 'タイトル';
 $string['title_help'] = 'ステップのタイトルは必要であればマルチメディアタグ (multi-languageコンテンツフィルタを使用) で囲まれたプレインテキストで追加することができます。
 
 代わりにフォーマットID、コンポーネントに言語ストリングIDを入力することができます (角括弧なしまたはカンマの後のスペースなし)。';
-$string['tour1_content_addingblocks'] = '実際、あなたのページにブロックを追加する場合、慎重に考えてください。ブロックはMoodleモバイルアプリで表示されないため、一般的にあなたのサイトがブロックなしでも正常に動作することを確認した方が良いでしょう。';
+$string['tour1_content_addingblocks'] = '実際、あなたのページにブロックを追加する場合、慎重に考えてください。ブロックはMoodleアプリで表示されないため、一般的にあなたのサイトがブロックなしでも正常に動作することを確認した方が良いでしょう。';
 $string['tour1_content_blockregion'] = 'ここにまだブロック領域があります。すべての機能がBoostテーマの他の場所にあるため、ナビゲーションを削除して管理ブロックを完全に設定することをお勧めします。';
 $string['tour1_content_customisation'] = 'あなたのサイトの概観をカスタマイズする場合、このヘッダの角にある設定メニューを使用してください。編集モードを開始してください。';
 $string['tour1_content_end'] = 'あなたのユーザツアーの最後です。あなたがフッタ内のリンクをクリックしてリセットしない限り、再度表示されることはありません。あなたは管理者としてこのような独自のツアーを作成することもできます!';
@@ -150,8 +150,8 @@ $string['tour1_title_customisation'] = 'カスタマイゼーション';
 $string['tour1_title_end'] = 'ツアー終了';
 $string['tour1_title_navigation'] = 'ナビゲーション';
 $string['tour1_title_welcome'] = 'ようこそ';
-$string['tour2_content_addblock'] = '編集モードを開始した場合、あなたはナビゲーションドロワよりブロックを追加することができます。しかし、あなたのページにブロックを設置する場合、慎重に考えてください。ブロックはMoodleモバイルアプリで表示されないため、学生の最良の経験のためにあなたのコースワークがブロックなしでも正常に動作することを確認した方が良いでしょう。';
-$string['tour2_content_addingblocks'] = 'このボタンを使用することにより、あなたはこのページにブロックを追加することができます。しかし、あなたのページにブロックを設置する場合、慎重に考えてください。ブロックはMoodleモバイルアプリで表示されないため、学生の最良の経験のためにあなたのコースワークがブロックなしでも正常に動作することを確認した方が良いでしょう。';
+$string['tour2_content_addblock'] = '編集モードを開始した場合、あなたはナビゲーションドロワよりブロックを追加することができます。しかし、あなたのページにブロックを設置する場合、慎重に考えてください。ブロックはMoodleアプリで表示されないため、最良のユーザ経験のためにあなたのコースワークがブロックなしでも正常に動作することを確認した方が良いでしょう。';
+$string['tour2_content_addingblocks'] = 'このボタンを使用することにより、あなたはこのページにブロックを追加することができます。しかし、あなたのページにブロックを設置する場合、慎重に考えてください。ブロックはMoodleアプリで表示されないため、最良のユーザ経験のためにあなたのコースワークがブロックなしでも正常に動作することを確認した方が良いでしょう。';
 $string['tour2_content_customisation'] = 'コース設定を変更する場合、このヘッダの角にある設定メニューを使用してください。すべての活動のホームページにも似たような設定メニューがあります。編集モードを開始してください。';
 $string['tour2_content_end'] = 'あなたのユーザツアーの最後です。あなたがフッタ内のリンクをクリックしてリセットしない限り、再度表示されることはありません。必要であればサイト管理者はこのサイトのツアーをさらに作成することができます。';
 $string['tour2_content_navigation'] = 'ナビゲーションはこのナビゲーションドロワを使用します。ナビゲーションドロワを表示または非表示にするには最上部のボタンを使用してください。あなたのコースセクションへのリンクが表示されます。';
@@ -166,7 +166,49 @@ $string['tour2_title_navigation'] = 'ナビゲーション';
 $string['tour2_title_opendrawer'] = 'ナビゲーションドロワを開く';
 $string['tour2_title_participants'] = 'コース参加者';
 $string['tour2_title_welcome'] = 'ようこそ';
+$string['tour3_content_dashboard'] = 'あなたの新しいダッシュボードには重要な情報に簡単にアクセスするための多くの機能があります。';
+$string['tour3_content_displayoptions'] = 'コースはコース名または最終アクセス日で並べ替えることができます。
+
+あなたはコースを概要情報と共に一覧表示にすること、またデフォルトの「カード」表示にすることもできます。';
+$string['tour3_content_overview'] = 'コース概要ブロックではあなたが受講登録しているすべてのコースを表示します。
+
+あなたは現在の進行中のコース、過去または未来のコース、あなたが星を付けたコースを表示することができます。';
+$string['tour3_content_recentcourses'] = '最近アクセスされたコースブロックはあなたが最近アクセスしたコースを表示して直接アクセスできるようにします。';
+$string['tour3_content_starring'] = 'あなたはコースを目立つように星を付けることができます。また、あなたに重要ではなくなったコースを隠すこともできます。
+
+これらの操作はあなたの表示にのみ影響します。
+
+あなたはコースを概要情報と共に一覧表示にすること、またデフォルトの「カード」表示にすることもできます。';
+$string['tour3_content_timeline'] = 'タイムラインブロックはあなたの重要で到来するイベントを表示します。
+
+あなたは「未来」の中で来週、来月または未来の活動の表示を選択することができます。
+
+あなたは期限切れのアイテムを表示することもできます。';
+$string['tour3_title_dashboard'] = 'あなたのダッシュボード';
+$string['tour3_title_displayoptions'] = '表示オプション';
+$string['tour3_title_overview'] = 'コース概要';
+$string['tour3_title_recentcourses'] = '最近アクセスされたコース';
+$string['tour3_title_starring'] = 'コースの星付けおよび非表示';
+$string['tour3_title_timeline'] = 'タイムラインブロック';
+$string['tour4_content_groupconvo'] = 'グループメッセージングが有効にされているグループのメンバーである場合、あなたにはここにグループの会話が表示されます。
+
+コースグループ会話ではあなたのグループ内の他のメンバーとプライベートかつ便利な場所で会話することができます。';
+$string['tour4_content_icon'] = 'このアイコンを使ってどのページからでもあなたのメッセージにアクセスすることができます。
+
+あなたに未読メッセージがある場合、未読メッセージ数もここに表示されます。
+
+メッセージングドロワを開いてツアーを続けるにはアイコンをクリックしてください。';
+$string['tour4_content_messaging'] = 'Moodle 3.6はコース内でのグループメッセージングを実現する新しいメッセージングインターフェースを提供します。同時にあなたにメッセージを送信できる人をコントロールすることもできます。';
+$string['tour4_content_settings'] = 'あなたは歯車アイコンでメッセージング設定にアクセスすることができます。新しいプライバシー設定により誰があなたにメッセージを送信できるか制限することができます。';
+$string['tour4_content_starred'] = 'あなたが簡単に探せるよう特定の会話に星を付けることができます。';
+$string['tour4_title_groupconvo'] = 'グループメッセージ';
+$string['tour4_title_icon'] = 'メッセージング';
+$string['tour4_title_messaging'] = '新しいメッセージングインターフェース';
+$string['tour4_title_settings'] = 'メッセージング設定';
+$string['tour4_title_starred'] = '星付き';
 $string['tourconfig'] = 'インポートするツアー設定ファイル';
+$string['tour_final_step_content'] = 'ここであなたのユーザツアーは終了します。あなたがフッタのリンクを使ってリセットしない限り、再度表示されることはありません。';
+$string['tour_final_step_title'] = 'ツアー終了';
 $string['tourisenabled'] = 'ツアー有効';
 $string['tourlist_explanation'] = 'あなたは好きなだけツアーを作成してMoodleの異なる部分で有効にすることができます。1ページあたり1ツアーのみ作成することができます。';
 $string['tour_resetforall'] = 'ツアーの状態がリセットされました。再度すべてのユーザに表示されます。';

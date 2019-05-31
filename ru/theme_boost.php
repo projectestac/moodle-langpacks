@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'theme_boost', language 'ru', branch 'MOODLE_36_STABLE'
  *
  * @package   theme_boost
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,12 +28,17 @@ defined('MOODLE_INTERNAL') || die();
 $string['advancedsettings'] = 'Расширенные настройки';
 $string['backgroundimage'] = 'Фоновое изображение';
 $string['backgroundimage_desc'] = 'Изображение для показа в качестве фона сайта. Фоновое изображение, которое вы загружаете здесь, переопределит фоновое изображение в файлах предустановок вашей темы.';
+$string['bootswatch'] = 'Bootswatch';
+$string['bootswatch_desc'] = 'Bootswatch - это набор переменных Bootstrap и CSS для стиля Bootstrap.';
 $string['brandcolor'] = 'Корпоративный цвет';
 $string['brandcolor_desc'] = 'Цвет выделения';
 $string['choosereadme'] = 'Boost - это современная тема с множеством настроек. Эта тема предназначена для использования непосредственно или в качестве родительской темы при создании новых тем с использованием Bootstrap 4.';
 $string['configtitle'] = 'Boost';
 $string['currentinparentheses'] = '(текущая)';
+$string['fontsize'] = 'Основной размер шрифта темы';
+$string['fontsize_desc'] = 'Введите размер шрифта в %';
 $string['generalsettings'] = 'Общие настройки';
+$string['nobootswatch'] = 'Никто';
 $string['pluginname'] = 'Boost';
 $string['preset'] = 'Предустановка темы';
 $string['preset_desc'] = 'Выберите предустановку, чтобы в целом изменить внешний вид темы.';

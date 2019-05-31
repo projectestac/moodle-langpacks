@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'backup', language 'gl', branch 'MOODLE_36_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -197,7 +197,7 @@ $string['importcurrentstage4'] = 'Confirmación e revisión';
 $string['importcurrentstage8'] = 'Facer a importación';
 $string['importfile'] = 'Importar un ficheiro de copia de seguranza';
 $string['importgeneralduplicateadminallowed'] = 'Permitir a resolución de conflito co usuario «admin»';
-$string['importgeneralduplicateadminallowed_desc'] = 'Se o sitio ten unha conta co nome_de_usuario «admin», entón ao intentar restaurar un ficheiro de copia de seguranza que conteña un nome_de_usuario «admin» pode causar un conflito. Se habilita esta configuración, o conflito resolverase ao cambiar o nome_de_usuario no ficheiro de copia de seguranza a «admin_xyz».';
+$string['importgeneralduplicateadminallowed_desc'] = 'Se o sitio ten unha conta co nome_de_usuario «admin», entón ao intentar restaurar un ficheiro de copia de seguranza que conteña un nome_de_usuario «admin» pode causar un conflito. Se activa esta configuración, o conflito resolverase ao cambiar o nome_de_usuario no ficheiro de copia de seguranza a «admin_xyz».';
 $string['importgeneralmaxresults'] = 'Número máximo de cursos listados para importar';
 $string['importgeneralmaxresults_desc'] = 'Isto controla o número de cursos que son listados durante o primeiro paso do proceso de importación';
 $string['importgeneralsettings'] = 'Configuración predeterminada da importación';
@@ -331,6 +331,6 @@ $string['timetaken'] = 'Tempo levado';
 $string['title'] = 'Título';
 $string['totalcategorysearchresults'] = 'Total de categorías: {$a}';
 $string['totalcoursesearchresults'] = 'Total de cursos: {$a}';
-$string['undefinedrolemapping'] = 'A asignación de funcións non está definida para o arquetipo: «{$a}»';
+$string['undefinedrolemapping'] = 'A asignación de roles non está definida para o arquetipo «{$a}».';
 $string['unnamedsection'] = 'Sección sen nome';
 $string['userinfo'] = 'Información do usuario';

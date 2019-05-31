@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_essay', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_essay', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   qtype_essay
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['acceptedfiletypes'] = 'Αποδεκτοί τύποι αρχείων';
+$string['acceptedfiletypes_help'] = 'Οι αποδεκτοί τύποι αρχείων μπορούν να περιοριστούν εισάγοντας μια λίστα με επεκτάσεις αρχείων. Αν το πεδίο αφεθεί κενό, τότε επιτρέπονται όλοι οι τύποι αρχείων.';
 $string['allowattachments'] = 'Να επιτρέπονται συνημμένα';
 $string['attachmentsoptional'] = 'Τα συνημμένα είναι προαιρετικά';
 $string['attachmentsrequired'] = 'Απαιτούνται συνημμένα';
@@ -40,6 +42,7 @@ $string['mustattach'] = 'Όταν έχει επιλεγεί «Χωρίς κεί�
 $string['mustrequire'] = 'Όταν έχει επιλεγεί «Χωρίς κείμενο σε σύνδεση» ή οι απαντήσεις είναι προαιρετικές, πρέπει να απαιτείται τουλάχιστον ένα συνημμένο.';
 $string['mustrequirefewer'] = 'Δεν μπορείτε να απαιτήσετε περισσότερα συνημμένα από αυτά που επιτρέπετε.';
 $string['nlines'] = '{$a} γραμμές';
+$string['nonexistentfiletypes'] = 'Οι ακόλουθοι τύποι αρχείων δεν αναγνωρίστηκαν: {$a}';
 $string['pluginname'] = 'Έκθεση';
 $string['pluginnameadding'] = 'Προσθήκη μιας ερώτησης τύπου Έκθεσης';
 $string['pluginnameediting'] = 'Τροποποίηση μιας ερώτησης τύπου Έκθεσης';

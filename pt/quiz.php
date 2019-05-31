@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz', language 'pt', branch 'MOODLE_36_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,6 +82,7 @@ $string['answers'] = 'Respostas corretas';
 $string['answersingleno'] = 'São permitidas múltiplas respostas';
 $string['answersingleyes'] = 'Só é permitida uma resposta';
 $string['answertoolong'] = 'Resposta demasiado extensa a partir da linha {$a} (máximo 255 car.)';
+$string['anytags'] = 'Sem seleção';
 $string['aon'] = 'Formato AON';
 $string['areyousureremoveselected'] = 'Tem a certeza de que pretende apagar todas as perguntas selecionadas?';
 $string['asshownoneditscreen'] = 'Como é exibida ao editar o teste';
@@ -104,6 +105,7 @@ $string['attemptsallowed'] = 'Tentativas permitidas';
 $string['attemptsdeleted'] = 'Tentativas apagadas';
 $string['attemptselection'] = 'Selecione quais as tentativas a analisar por utilizador:';
 $string['attemptsexist'] = 'Já não é possível adicionar ou remover perguntas.';
+$string['attempts_help'] = 'O número total de tentativas permitidas (não o número de tentativas extras).';
 $string['attemptsnum'] = 'Total de tentativas: {$a}';
 $string['attemptsnumthisgroup'] = 'Tentativas: {$a->total} ({$a->group} deste grupo)';
 $string['attemptsnumyourgroups'] = 'Tentativas: {$a->total} ({$a->group} dos seus grupos)';
@@ -137,6 +139,8 @@ $string['cannotinsertrandomquestion'] = 'Não foi possível adicionar uma nova p
 $string['cannotloadquestion'] = 'Não foi possível carregar as opções da pergunta';
 $string['cannotloadtypeinfo'] = 'Não é possível carregar as informações específicas da pergunta';
 $string['cannotopen'] = 'Não é possível abrir o ficheiro exportado ({$a})';
+$string['cannotremoveallsectionslots'] = 'Selecionou todas as perguntas abaixo do cabeçalho da secção \'{$a}\'. Não é permitido remover todas as perguntas abaixo de um cabeçalho de secção.';
+$string['cannotremoveslots'] = 'Não é possível remover perguntas';
 $string['cannotrestore'] = 'Não foi possível restaurar as sessões das perguntas';
 $string['cannotreviewopen'] = 'Não pode rever esta tentativa pois ainda está em curso.';
 $string['cannotsavelayout'] = 'Não foi possível guardar a estrutura';
@@ -187,8 +191,8 @@ $string['configdelay1'] = 'Se definir um tempo de espera, o aluno terá de aguar
 $string['configdelay1st2nd'] = 'Se definir um tempo de espera, o aluno terá de aguardar o intervalo de tempo especificado para poder realizar uma nova tentativa do Teste depois de ter concluído a primeira tentativa.';
 $string['configdelay2'] = 'Se definir um tempo de espera, o aluno terá de aguardar para realizar uma nova tentativa do Teste depois de ter concluído a segunda tentativa ou posterior.';
 $string['configdelaylater'] = 'Se definir um tempo de espera, o aluno terá de aguardar o intervalo de tempo especificado para poder realizar uma nova tentativa do Teste depois de ter concluído a segunda tentativa ou posterior.';
-$string['configeachattemptbuildsonthelast'] = 'Se o Teste permitir múltiplas tentativas, cada nova tentativa irá conter os resultados da anterior.';
-$string['configgrademethod'] = 'Nos Testes com múltiplas tentativas, qual o método a ser usado para calcular a nota final do aluno no Teste.';
+$string['configeachattemptbuildsonthelast'] = 'Se o teste permitir múltiplas tentativas, cada nova tentativa irá conter os resultados da tentativa anterior.';
+$string['configgrademethod'] = 'Nos testes com múltiplas tentativas, qual o método a ser usado para calcular a nota final do aluno no Teste.';
 $string['configintro'] = 'As configurações seguintes serão usadas por predefinição sempre que criar um novo teste. Poderá também definir quais as configurações do teste que serão consideradas avançadas.';
 $string['configmaximumgrade'] = 'Nota máxima predefinida do teste.';
 $string['confignavmethod'] = 'Na navegação livre, as perguntas podem ser respondidas sem qualquer ordem usando a navegação. Em Sequencial, as perguntas devem ser respondidas na sequência em que são apresentadas.';
@@ -342,6 +346,7 @@ $string['eventreportviewed'] = 'Relatório de Teste visualizado';
 $string['everynquestions'] = 'A cada {$a} perguntas';
 $string['everyquestion'] = 'A cada nova pergunta inserida';
 $string['everythingon'] = 'Tudo em';
+$string['existingcategory'] = 'Categoria existente';
 $string['exportcategory'] = 'exportar categoria';
 $string['exporterror'] = 'Ocorreu um erro durante o processo de exportação';
 $string['exportingquestions'] = 'As perguntas estão a ser exportadas para um ficheiro';
@@ -386,7 +391,7 @@ $string['gradeboundary'] = 'Limite de avaliação';
 $string['gradeessays'] = 'Avaliar perguntas de desenvolvimento';
 $string['gradehighest'] = 'Nota mais alta';
 $string['grademethod'] = 'Método de avaliação';
-$string['grademethod_help'] = 'Quando o Teste é configurado para múltiplas tentativas de resolução, nota final é calculada segundo um dos seguintes métodos:
+$string['grademethod_help'] = 'Quando o teste é configurado para múltiplas tentativas de resolução, a nota final é calculada segundo um dos seguintes métodos:
 
 * Nota mais alta de todas as tentativas
 * Nota média de todas as tentativas
@@ -443,6 +448,7 @@ $string['invalidcategory'] = 'O ID da categoria não é válido';
 $string['invalidoverrideid'] = 'O ID da exceção não é válido';
 $string['invalidquestionid'] = 'O ID da pergunta não é válido';
 $string['invalidquizid'] = 'O ID do teste não é válido';
+$string['invalidrandomslot'] = 'ID inválido da vaga de perguntas aleatórias.';
 $string['invalidsource'] = 'A origem não é aceite como válida.';
 $string['invalidsourcetype'] = 'O tipo de origem não é válido';
 $string['invalidstateid'] = 'O ID do estado não é válido';
@@ -469,7 +475,7 @@ $string['matchanswer'] = 'Resposta correspondente';
 $string['matchanswerno'] = 'Resposta correspondente {$a}';
 $string['max'] = 'Máx.';
 $string['maxmark'] = 'Nota máxima';
-$string['messageprovider:attempt_overdue'] = 'Avisar quando as tentativas de Teste estão a atingir o tempo limite';
+$string['messageprovider:attempt_overdue'] = 'Avisar quando as tentativas do teste estão a atingir o tempo limite';
 $string['messageprovider:confirmation'] = 'Confirmação das suas submissões nos testes';
 $string['messageprovider:submission'] = 'Notificações das submissões do teste';
 $string['min'] = 'Mín.';
@@ -508,6 +514,7 @@ $string['navmethod_seq'] = 'Sequencial';
 $string['navnojswarning'] = 'Aviso: estas hiperligações não guardarão as suas respostas. Use o botão Seguinte no final da página.';
 $string['neverallononepage'] = 'Nunca, todas as perguntas numa só página';
 $string['newattemptfail'] = 'Erro: Não foi possível começar uma nova tentativa de resolução do teste';
+$string['newcategory'] = 'Nova categoria';
 $string['newpage'] = 'Inserir nova página';
 $string['newpageevery'] = 'Inserir nova página automaticamente';
 $string['newpage_help'] = 'Para testes com muitas perguntas, pode separar o teste em várias páginas configurando um número máximo de perguntas a exibir por página. Quando adiciona as perguntas as quebras de página são inseridas automaticamente de acordo com esta configuração. Estas quebras poderão depois ser movidas manualmente na página de edição do teste.';
@@ -673,8 +680,10 @@ $string['questionnotloaded'] = 'Pergunta {$a} não foi carregada da base de dado
 $string['questionorder'] = 'Ordem das perguntas';
 $string['questionposition'] = 'Nova posição na ordem para a pergunta {$a}';
 $string['questions'] = 'Perguntas';
+$string['questionsetpreview'] = 'Pré-visualização do conjunto de perguntas';
 $string['questionsinclhidden'] = 'Perguntas (incluindo ocultas)';
 $string['questionsinthisquiz'] = 'Perguntas neste teste';
+$string['questionsmatchingfilter'] = 'Perguntas que correspondem a este filtro: {$a}';
 $string['questionsperpage'] = 'Perguntas por página';
 $string['questionsperpageselected'] = 'O número de perguntas por página foi configurado para a paginação ser fixa. Como tal, os controlos de paginação foram desativados. Pode alterar esta configuração em {$a}.';
 $string['questionsperpagex'] = 'Perguntas por página: {$a}';
@@ -688,15 +697,15 @@ $string['quizavailable'] = 'O teste está disponível até: {$a}';
 $string['quizclose'] = 'Fechar o teste em';
 $string['quizclosed'] = 'O teste fechou {$a}';
 $string['quizcloses'] = 'Teste fecha';
-$string['quizcloseson'] = 'Este teste fecha {$a}';
+$string['quizcloseson'] = 'Este teste fecha {$a}.';
 $string['quiz:deleteattempts'] = 'Apagar tentativas';
 $string['quiz:emailconfirmsubmission'] = 'Receber e-mail de confirmação quando submeter';
 $string['quiz:emailnotifysubmission'] = 'Receber e-mail de confirmação das submissões';
 $string['quiz:emailwarnoverdue'] = 'Obter uma notificação quando o tempo expirou e a tentativa tem de ser submetida.';
-$string['quizeventcloses'] = '{$a} termina o prazo';
+$string['quizeventcloses'] = 'Termina o prazo de \'{$a}\'';
 $string['quizeventopens'] = 'Inicia \'{$a}\'';
 $string['quiz:grade'] = 'Avaliar testes manualmente';
-$string['quiz:ignoretimelimits'] = 'Ignorar tempo limite dos testes';
+$string['quiz:ignoretimelimits'] = 'Ignorar tempo limite do teste';
 $string['quizisclosed'] = 'Este teste está fechado';
 $string['quizisclosedwillopen'] = 'Teste fechado (abre {$a})';
 $string['quizisopen'] = 'Este teste está aberto';
@@ -723,10 +732,18 @@ $string['quiz:viewreports'] = 'Ver relatórios do teste';
 $string['quizwillopen'] = 'Este teste irá abrir {$a}';
 $string['random'] = 'Pergunta aleatória';
 $string['randomcreate'] = 'Criar perguntas aleatórias';
+$string['randomediting'] = 'A editar uma pergunta aleatória';
 $string['randomfromcategory'] = 'Pergunta aleatória da categoria:';
 $string['randomfromexistingcategory'] = 'Pergunta aleatória de uma categoria existente';
+$string['randomfromunavailabletag'] = '{$a} (não disponível)';
 $string['randomnosubcat'] = 'Apenas perguntas desta categoria, não utilizar das suas subcategorias';
 $string['randomnumber'] = 'Número de perguntas aleatórias';
+$string['randomquestion'] = 'Pergunta aleatória';
+$string['randomquestion_help'] = 'Uma pergunta aleatória é um método de inserir uma pergunta escolhida aleatoriamente de uma categoria específica.';
+$string['randomquestiontags'] = 'Palavras-chave';
+$string['randomquestiontags_help'] = 'Pode restringir ainda mais os critérios de seleção especificando algumas palavras-chave de pergunta.
+
+As perguntas "aleatórias" serão selecionadas das perguntas que tiverem todas as palavras-chave escolhidas.';
 $string['randomquestionusinganewcategory'] = 'Pergunta aleatória de uma nova categoria';
 $string['randomwithsubcat'] = 'Perguntas desta categoria e suas subcategorias';
 $string['readytosend'] = 'Está prestes a submeter o teste para a avaliação. Tem a certeza de que pretende continuar?';
@@ -943,6 +960,7 @@ $string['unfinished'] = 'aberto';
 $string['ungraded'] = 'Sem avaliação';
 $string['unit'] = 'Unidade';
 $string['unknowntype'] = 'O tipo de pergunta não é suportado na linha {$a}. A pergunta será ignorada.';
+$string['updatequizslotswithrandomxofy'] = 'A atualizar as vagas do teste com dados de perguntas "aleatórias" ({$a->done}/{$a->total})';
 $string['updatesettings'] = 'Atualizar configurações do teste';
 $string['updatingatttemptgrades'] = 'A atualizar as notas das tentativas.';
 $string['updatingfinalgrades'] = 'A atualizar notas finais';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'page', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,5 +59,7 @@ $string['printheading'] = 'Εμφάνιση ονόματος σελίδας';
 $string['printheadingexplain'] = 'Εμφάνιση ονόματος σελίδας πάνω από το περιεχόμενο;';
 $string['printintro'] = 'Εμφάνιση περιγραφής σελίδας';
 $string['printintroexplain'] = 'Εμφάνιση περιγραφής σελίδας πάνω από το περιεχόμενο;';
+$string['printlastmodified'] = 'Εμφάνιση ημερομηνίας τελευταίας τροποποίησης';
+$string['printlastmodifiedexplain'] = 'Εμφάνιση ημερομηνίας τελευταίας τροποποίησης κάτω από το περιεχόμενο;';
 $string['privacy:metadata'] = 'Το πρόσθετο «Πόρος σελίδας» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['search:activity'] = 'Σελίδα';

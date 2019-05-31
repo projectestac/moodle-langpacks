@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_usertours', language 'ca', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -162,6 +162,7 @@ $string['tour2_title_navigation'] = 'Navegació';
 $string['tour2_title_opendrawer'] = 'Obre el menú de navegació';
 $string['tour2_title_participants'] = 'Participants del curs';
 $string['tour2_title_welcome'] = 'Benvinguts';
+$string['tour3_title_overview'] = 'Resum del curs';
 $string['tourconfig'] = 'Fitxer de configuració de la visita guiada que s\'ha d\'importar';
 $string['tourisenabled'] = 'La visita guiada està activada';
 $string['tourlist_explanation'] = 'Podeu crear totes les visites guiades que vulgueu i activar-les per a parts diferents de Moodle. Només es pot crear una visita guiada per pàgina.';

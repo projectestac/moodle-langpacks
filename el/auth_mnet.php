@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_mnet', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth_mnet', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   auth_mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -88,11 +88,11 @@ $string['privacy:metadata:mnet_log:remoteid'] = 'Απομακρυσμένο αν
 $string['privacy:metadata:mnet_log:time'] = 'Ώρα όταν η ενέργεια πραγματοποιήθηκε.';
 $string['privacy:metadata:mnet_log:url'] = 'Διεύθυνση URL απομακρυσμένου συστήματος όπου έλαβε χώρα η ενέργεια.';
 $string['privacy:metadata:mnet_log:userid'] = 'Τοπικό αναγνωριστικό του χρήστη που εκτέλεσε την ενέργεια στο απομακρυσμένο σύστημα.';
-$string['privacy:metadata:mnet_session'] = 'Οι λεπτομέρειες κάθε συνόδου χρήστη MNet σε απομακρυσμένο σύστημα αποθηκεύονται προσωρινά.';
+$string['privacy:metadata:mnet_session'] = 'Οι λεπτομέρειες κάθε συνόδου χρήστη MNet σε ένα απομακρυσμένο σύστημα. Τα δεδομένα αποθηκεύονται προσωρινά.';
 $string['privacy:metadata:mnet_session:expires'] = 'Ώρα λήξης της συνεδρίας.';
 $string['privacy:metadata:mnet_session:mnethostid'] = 'Αναγνωριστικό απομακρυσμένου συστήματος MNet.';
 $string['privacy:metadata:mnet_session:token'] = 'Μοναδικό αναγνωριστικό συνόδου.';
-$string['privacy:metadata:mnet_session:useragent'] = 'Το λογισμικό περιηγητή που χρησιμοποιείται για την απομακρυσμένη πρόσβαση στη σελίδα';
+$string['privacy:metadata:mnet_session:useragent'] = 'Ο πράκτορας χρήστη (περιηγητής) που χρησιμοποιείται για την πρόσβαση στο απομακρυσμένο σύστημα';
 $string['privacy:metadata:mnet_session:userid'] = 'Αναγνωριστικό του χρήστη που μεταπηδά στο απομακρυσμένο σύστημα.';
 $string['privacy:metadata:mnet_session:username'] = 'Όνομα χρήστη του χρήστη που μεταπηδά στο απομακρυσμένο σύστημα.';
 $string['rpc_negotiation_timeout'] = 'RPC negotiation timeout';

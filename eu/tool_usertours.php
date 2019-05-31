@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_usertours', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -138,7 +138,7 @@ $string['title'] = 'Izenburua';
 $string['title_help'] = 'Urrats baten izenburua gehi daiteke testu-soil gisa, behar izanez gero etiketa eleanitzen barruan (eduki eleanitzaren iragazkiarekin erabiltzeko).
 
 Bestela, hizkuntza-kate baten IDa sar daiteke identifikatzaile,osagaia formatuan (komaren ostean parentesi edo tarterik gabe).';
-$string['tour1_content_addingblocks'] = 'Izan ere, ondo hausnartu zure orrietan ezein bloke gehitzea nahi duzun. Blokeak ez dira Moodle Mobile app-an erakusten, eta beraz orokorrean hobe da ziurtatzea zure gunea blokerik erakutsi gabe ondo funtzionatzen duela.';
+$string['tour1_content_addingblocks'] = 'Izan ere, ondo hausnartu zure orrietan ezein bloke gehitzea nahi duzun. Blokeak ez dira Moodle app-an erakusten, eta beraz orokorrean hobe da ziurtatzea zure gunea blokerik erakutsi gabe ondo funtzionatzen duela.';
 $string['tour1_content_blockregion'] = 'Hemen oraindik blokeentzako eremu bat dago. Nabigazio eta Kudeaketa blokeak erabat kentzea gomendatzen dugu, Boost itxuran funtzionalitate guztia beste nonbait ere badago-eta.';
 $string['tour1_content_customisation'] = 'Zure gunearen eta hasiera-orriaren itxura pertsonalizatzeko, erabili goiburu honetako ertzeko menua. Saiatu oraintxe bertan edizioa aktibatzen.';
 $string['tour1_content_end'] = 'Hau da erabiltzaile-ibilbidearen amaiera. Ez zaizu berriz ere erakutsiko, zuk orri-oinean dagoen esteka erabilita berrabiarazten ez baduzu. Kudeatzailea zaren aldetik, hau bezalako ibilbideak sor ditzakezu.';
@@ -150,8 +150,8 @@ $string['tour1_title_customisation'] = 'Pertsonalizazioa';
 $string['tour1_title_end'] = 'Ibilaldiaren amaiera';
 $string['tour1_title_navigation'] = 'Nabigazioa';
 $string['tour1_title_welcome'] = 'Ongi etorri';
-$string['tour2_content_addblock'] = 'Edizioa aktibatzen baduzu nabigazio-kutxatik blokeak gehi ditzakezu. Halere, ondo hausnartu zure orrietan ezein bloke gehitzea nahi duzun. Blokeak ez dira Moodle Mobile app-an erakusten, eta beraz orokorrean hobe da ziurtatzea zure gunea blokerik erakutsi gabe ondo funtzionatzen duela.';
-$string['tour2_content_addingblocks'] = 'Botoi hau erabiliz orri honetara blokeak gehitu ditzakezu. Halere, ondo hausnartu zure orrietan ezein bloke gehitzea nahi duzun. Blokeak ez dira Moodle Mobile app-an erakusten, eta beraz orokorrean hobe da ziurtatzea zure gunea blokerik erakutsi gabe ondo funtzionatzen duela.';
+$string['tour2_content_addblock'] = 'Edizioa aktibatzen baduzu nabigazio-kutxatik blokeak gehi ditzakezu. Halere, ondo hausnartu zure orrietan ezein bloke gehitzea nahi duzun. Blokeak ez dira Moodle app-an erakusten, eta beraz orokorrean hobe da ziurtatzea zure gunea blokerik erakutsi gabe ondo funtzionatzen duela.';
+$string['tour2_content_addingblocks'] = 'Botoi hau erabiliz orri honetara blokeak gehitu ditzakezu. Halere, ondo hausnartu zure orrietan ezein bloke gehitzea nahi duzun. Blokeak ez dira Moodle app-an erakusten, eta beraz orokorrean hobe da ziurtatzea zure gunea blokerik erakutsi gabe ondo funtzionatzen duela.';
 $string['tour2_content_customisation'] = 'Ikastaroko ezarpenak aldatzeko, erabil ezazu goiburuaren ertzean dagoen ezarpen-menua. Antzeko ezarpen-menua aurkituko duzu jarduera bakoitzaren hasiera-orrian ere. Saiatu zaitez aktibatzen orain.';
 $string['tour2_content_end'] = 'Hau da erabiltzaile-ibilbidearen amaiera. Ez zaizu berriz ere erakutsiko, zuk orri-oinean dagoen esteka erabilita berrabiarazten ez baduzu. Guneko kudeatzaileak ibilbide gehiago sor ditzake, behar izanez gero.';
 $string['tour2_content_navigation'] = 'Nabigazio gehiena orain nabigazio-kutxa honen bitartez egiten da. Erabili goiko aldeko botoia ezkutatzeko edo erakusteko. Zure ikastaroko ataletarako estekak ere bertan direla ikusiko duzu.';
@@ -166,7 +166,49 @@ $string['tour2_title_navigation'] = 'Nabigazioa';
 $string['tour2_title_opendrawer'] = 'Ireki nabigazio-kutxa';
 $string['tour2_title_participants'] = 'Ikastaroko partaideak';
 $string['tour2_title_welcome'] = 'Ongi etorri';
+$string['tour3_content_dashboard'] = 'Zure kontrol-panel berriak zuretzat garrantzitsua den informazioa modu errazean eskuratzen laguntzeko ezaugarri asko ditu.';
+$string['tour3_content_displayoptions'] = 'Ikastaroak izenaren arabera edo azken sarbide-dataren arabera ordena daitezke.
+
+Ikastaroak zerrenda batean erakustea ere aukera dezakezu, informazio laburpenaz lagundua edo lehenetsitako \'txartel\' ikuspegiaz.';
+$string['tour3_content_overview'] = 'Ikastaroa gainbegiratzeko blokeak matrikulatuta zaudenteneko ikastaro guztiak erakusten ditu.
+
+Oraingo ikastaro guztiak erakustea aukera dezakezu, edo amaitutakoak edo hastekoak, edo izardunak.';
+$string['tour3_content_recentcourses'] = 'Duela gutxi sarbide izandako ikastaroen blokeak bisitatutako azken ikastaroak erakusten ditu, horietara azkar joateko ahalbidetuz.';
+$string['tour3_content_starring'] = 'Ikastaroari izarra eslei diezaiokezu nabarmentzearren, edo zuretzat jadanik garrantzitsua ez den ikastaro bat ezkutatu.
+
+Ekintza horiek zure ikuspegiari eragiten diote, besterik ez.
+
+Ikastaroak zerrenda batean erakustea ere aukera dezakezu, informazio laburpenaz lagundua edo lehenetsitako \'txartel\' ikuspegiaz.';
+$string['tour3_content_timeline'] = 'Denbora-lerroa blokeak datozen zure ekitaldi garrantzitsuak erakusten ditu.
+
+Datorren asteko, hileko edo etorkizun urruneko ekintzak erakustea aukera dezakezu.
+
+Iraungitako elementuak ere erakuts dezakezu.';
+$string['tour3_title_dashboard'] = 'Aginte-panela';
+$string['tour3_title_displayoptions'] = 'Erakusteko aukerak';
+$string['tour3_title_overview'] = 'Ikuspegi orokorra';
+$string['tour3_title_recentcourses'] = 'Arestian sartutako ikastaroak';
+$string['tour3_title_starring'] = 'Ikastaroei izarrak egozten eta ezkutatzen';
+$string['tour3_title_timeline'] = 'Kronologia blokea';
+$string['tour4_content_groupconvo'] = 'Taldeko mezularitza gaituta duen taldeko kidea bazara, taldeko elkarrizketak hmen ikusiko dituzu.
+
+Ikastaroko taldeko elkarrizketek ahalbidetzen dizute zure taldeko beste kideekin pribatuan komunikatzen.';
+$string['tour4_content_icon'] = 'Ikono hau erabiliz zure mezuak edozein orritatik ikus ditzakezu.
+
+Irakurri gabeko mezurik izanez gero, mezu-kopurua hemen erakutsiko da.
+
+Egin klik ikonoan mezuak irekitzeko eta jarraitu ibilbidea.';
+$string['tour4_content_messaging'] = 'Moodle 3.6k mezularitza-interfaze berria eta ikastaro barruko taldeko mezularitza dauzka, baita mezuak nork bidal diezazkizukeen hobeto kontrolatzeko ahalmena ere.';
+$string['tour4_content_settings'] = 'Mezularitzaren ezarpenetara engranaje-ikonoaren bidez sar zaitezke. Pribatutasun-ezarpen berri batek mezuak nork bidal diezazkizukeen murriztu dezake.';
+$string['tour4_content_starred'] = 'Elkarrizketei izarrak eslei diezazkiekezu aurkitzea erraztuz.';
+$string['tour4_title_groupconvo'] = 'Talde-mezuak';
+$string['tour4_title_icon'] = 'Mezularitza';
+$string['tour4_title_messaging'] = 'Mezularitza-interfaze berria';
+$string['tour4_title_settings'] = 'Mezularitzaren ezarpenak';
+$string['tour4_title_starred'] = 'Nabarmendua';
 $string['tourconfig'] = 'Inportatu beharreko ibilaldiaren konfigurazio-fitxategia';
+$string['tour_final_step_content'] = 'Zure erabiltzaile-ibilbidearen amaiera duzu hau. Ez da berriro abiatuko behealdeko estekan klik egin ezean.';
+$string['tour_final_step_title'] = 'Ibilbidearen amaiera';
 $string['tourisenabled'] = 'Ibilbidea gaituta dago';
 $string['tourlist_explanation'] = 'Nahi beste ibilaldi sortu eta Moodle-ko atal ezberdinetan gaitu ditzakezu. Orri bakoitzerako ordea ibilaldi bakarra sor daiteke.';
 $string['tour_resetforall'] = 'Erabiltzaile-ibilaldiaren egoera berrabiarazi da. Erabiltzaile guztiei berriz erakutsiko zaie.';

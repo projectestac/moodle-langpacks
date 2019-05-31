@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'nl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_ddimageortext', language 'nl', branch 'MOODLE_36_STABLE'
  *
  * @package   qtype_ddimageortext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,7 +40,7 @@ $string['draggableword'] = 'Versleepbare tekst';
 $string['dropbackground'] = 'Achtergrondafbeelding om markeringen op te slepen';
 $string['dropzone'] = 'Neerzetzone {$a}';
 $string['dropzoneheader'] = 'Neerzetzones';
-$string['formerror_disallowedtags'] = 'Sorry, HTML-tags niet toegestaan in versleepbare tekst.';
+$string['formerror_disallowedtags'] = 'Alleen "{$a}" -tags zijn toegestaan in deze versleepbare tekst.';
 $string['formerror_multipledraginstance'] = 'Je hebt deze afbeelding {$a} meer dan één keer gekozen als juist antwoord maar het is niet gemarkeerd als een item dat onbeperkt mag versleept worden.';
 $string['formerror_multipledraginstance2'] = 'Je hebt deze afbeelding meer dan één keer gekozen als juist antwoord, maar het is niet gemarkeerd als een item dat onbeperkt mag versleept worden.';
 $string['formerror_noallowedtags'] = 'HTML-tags mogen niet gebruikt worden in deze tekst omdat het een alt-tekst is voor een versleepbare afbeelding.';

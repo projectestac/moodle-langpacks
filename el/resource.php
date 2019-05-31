@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'resource', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -105,7 +105,8 @@ $string['showdate_help'] = 'Εμφανίζει την ημερομηνία αν�
 Αν υπάρχουν πολλαπλά αρχεία σε αυτό τον πόρο, θα εμφανιστεί η ημερομηνία ανεβάσματος/τροποποίησης του αρχείου εκκίνησης.';
 $string['showsize'] = 'Εμφάνιση μεγέθους';
 $string['showsize_desc'] = 'Εμφάνιση μεγέθους αρχείου στη σελίδα μαθήματος;';
-$string['showsize_help'] = 'Εμφανίζει το μέγεθος του αρχείου, όπως "3.1 MB", δίπλα από τους συνδέσμους στο αρχείο.
+$string['showsize_help'] = 'Εμφανίζει το μέγεθος του αρχείου, όπως «3.1 MB», δίπλα από τους συνδέσμους στο αρχείο.
+
 Αν υπάρχουν πολλαπλά αρχεία σε αυτό τον πόρο, θα εμφανιστεί το συνολικό μέγεθος όλων των αρχείων.';
 $string['showtype'] = 'Εμφάνιση τύπου';
 $string['showtype_desc'] = 'Εμφάνιση τύπου αρχείου (π.χ. «αρχείο Word») στη σελίδα μαθήματος;';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'choice', language 'ca', branch 'MOODLE_36_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -113,6 +113,11 @@ $string['publishafteranswer'] = 'Mostra els resultats als estudiants després qu
 $string['publishafterclose'] = 'Mostra els resultats als estudiants només després que s\'hagi tancat la consulta';
 $string['publishalways'] = 'Mostra sempre els resultats als estudiants';
 $string['publishanonymous'] = 'Publica els resultats anònimament, sense mostrar els noms dels estudiants';
+$string['publishinfoanonafter'] = 'Els resultats es publicaran de manera anònima després que contesteu.';
+$string['publishinfoanonclose'] = 'Els resultats es publicaran de manera anònima després que es tanqui l\'activitat.';
+$string['publishinfofullafter'] = 'Els resultats complets, que mostraran l\'elecció de cadascú, es publicaran després que contesteu.';
+$string['publishinfofullclose'] = 'Els resultats complets, que mostraran l\'elecció de cadascú, es publicaran després que es tanqui l\'activitat.';
+$string['publishinfonever'] = 'Els resultats d\'aquesta activitat no es publicaran després que contesteu.';
 $string['publishnames'] = 'Publica els resultats complets, amb els noms dels estudiants i les seves respostes';
 $string['publishnot'] = 'No publiquis els resultats';
 $string['removemychoice'] = 'Suprimeix la meva resposta';

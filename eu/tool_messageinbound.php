@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_messageinbound', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -92,7 +92,7 @@ $string['messageprovider:messageprocessingsuccess'] = 'Mezu bat ondo prozesatu d
 $string['name'] = 'Izena';
 $string['noencryption'] = 'Desgaituta - Zifraketarik ez';
 $string['noexpiry'] = 'Iraungitzerik ez';
-$string['oldmessagenotfound'] = 'Mezu bat eskuz autentifikatzen saiatu zara, baina ezin izan da mezua aurkitu. Hau gertatu daiteke mezua dagoeneko prozesatu delako edo mezua iraungitu delako.';
+$string['oldmessagenotfound'] = 'Mezu bat eskuz autentifikatzen saiatu zara, baina ezin izan da mezua aurkitu. Hau gertatu daiteke mezua dagoeneko prozesatu delako edo mezua iraungi delako.';
 $string['oneday'] = 'Egunbete';
 $string['onehour'] = 'Ordubete';
 $string['oneweek'] = 'Astebete';
@@ -100,7 +100,7 @@ $string['oneyear'] = 'Urtebete';
 $string['pluginname'] = 'Sarrera-mezuen ezarpenak';
 $string['privacy:metadata:coreuserkey'] = 'Jasotako e-posta egiaztatzeko erabiltzaile-gakoak';
 $string['privacy:metadata:messagelist'] = 'Balidazioak huts egin duen eta egiaztatze gehiago behar duten mezuen identifikatzaileen zerrenda';
-$string['privacy:metadata:messagelist:address'] = 'e-posta bidali zeneko helbidea.';
+$string['privacy:metadata:messagelist:address'] = 'E-posta bidali zeneko helbidea';
 $string['privacy:metadata:messagelist:messageid'] = 'Mezuaren IDa';
 $string['privacy:metadata:messagelist:timecreated'] = 'Erregistroa egin zeneko unea';
 $string['privacy:metadata:messagelist:userid'] = 'Mezua onartu behar duen erabiltzailearen IDa';

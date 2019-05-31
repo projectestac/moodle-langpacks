@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_usertours', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -137,7 +137,7 @@ $string['title'] = 'Titre';
 $string['title_help'] = 'Le titre d\'une étape peut être ajouté en texte pur ou en utilisant la syntaxe multilingue de Moodle (pour utilisation avec le filtre multilingue).
 
 Il est aussi possible d\'indiquer un identifiant de chaîne de caractères, sous la forme « identifiant,composant » (sans espace après la virgule).';
-$string['tour1_content_addingblocks'] = 'En fait, réfléchissez à deux fois avant d\'ajouter des blocs sur vos pages. Les blocs ne sont pas affichés dans l\'App mobile Moodle, donc de façon générale, il est beaucoup mieux de s\'assurer que votre plateforme fonctionne bien sans aucun bloc.';
+$string['tour1_content_addingblocks'] = 'En fait, réfléchissez à deux fois avant d\'ajouter des blocs sur vos pages. Les blocs ne sont pas affichés dans l\'app Moodle, donc de façon générale, il est beaucoup mieux de s\'assurer que votre plateforme fonctionne bien sans aucun bloc.';
 $string['tour1_content_blockregion'] = 'Il reste encore une région pour les blocs à cet endroit. Nous vous recommandons de retirer complètement les blocs Navigation et Administration, puisque toutes leurs fonctionnalités sont disponibles ailleurs dans le thème Boost.';
 $string['tour1_content_customisation'] = 'Pour personnaliser l\'apparence de votre plateforme et de sa page d\'accueil, utilisez le menu des réglages au coin de cette entête. Activez le mode édition maintenant.';
 $string['tour1_content_end'] = 'Vous venez de terminer une visite guidée. Cette visite ne s\'affichera plus, à moins que vous ne la relanciez au moyen du lien dans le pied de page. En tant qu\'administrateur, vous pouvez aussi créer vos propres visites guidées comme celle-ci !';
@@ -149,8 +149,8 @@ $string['tour1_title_customisation'] = 'Personnalisation';
 $string['tour1_title_end'] = 'Fin de la visite guidée';
 $string['tour1_title_navigation'] = 'Navigation';
 $string['tour1_title_welcome'] = 'Bienvenue';
-$string['tour2_content_addblock'] = 'En activant le mode édition, vous pouvez ajouter des blocs à partir du tiroir de navigation. Cependant, réfléchissez à deux fois avant d\'ajouter des blocs sur vos pages. Les blocs ne sont pas affichés dans l\'App mobile Moodle, et pour une meilleure expérience utilisateur de vos étudiants, il est beaucoup mieux de vous assurer que votre cours se passe bien sans aucun bloc.';
-$string['tour2_content_addingblocks'] = 'Vous pouvez ajouter des blocs à cette page au moyen de ce bouton. Cependant, réfléchissez à deux fois avant d\'ajouter des blocs sur vos pages. Les blocs ne sont pas affichés dans l\'App mobile Moodle, et pour une meilleure expérience utilisateur de vos étudiants, il est beaucoup mieux de vous assurer que votre cours se passe bien sans aucun bloc.';
+$string['tour2_content_addblock'] = 'En activant le mode édition, vous pouvez ajouter des blocs à partir du tiroir de navigation. Cependant, réfléchissez à deux fois avant d\'ajouter des blocs sur vos pages. Les blocs ne sont pas affichés dans l\'app Moodle, et pour une meilleure expérience utilisateur de vos étudiants, il est beaucoup mieux de vous assurer que votre cours se passe bien sans aucun bloc.';
+$string['tour2_content_addingblocks'] = 'Vous pouvez ajouter des blocs à cette page au moyen de ce bouton. Cependant, réfléchissez à deux fois avant d\'ajouter des blocs sur vos pages. Les blocs ne sont pas affichés dans l\'app Moodle, et pour une meilleure expérience utilisateur de vos étudiants, il est beaucoup mieux de vous assurer que votre cours se passe bien sans aucun bloc.';
 $string['tour2_content_customisation'] = 'Pour modifier les réglages du cours, utilisez le menu des réglages dans le coin de cette entête. Vous trouverez d\'autres menus de réglages similaires sur la page de chaque activité. Activez maintenant le mode édition.';
 $string['tour2_content_end'] = 'Vous venez de faire une visite guidée. Cette visite ne s\'affichera plus, à moins que vous ne la relanciez au moyen du lien dans le pied de page. L\'administrateur du site peut créer d\'autres visites guidées pour cette plateforme.';
 $string['tour2_content_navigation'] = 'La navigation s\'effectue maintenant au moyen de ce tiroir de navigation. Le bouton en haut permet de l\'afficher ou de le cacher. Vous constaterez qu\'il s\'y trouver des liens vers les sections de votre cours.';
@@ -165,7 +165,49 @@ $string['tour2_title_navigation'] = 'Navigation';
 $string['tour2_title_opendrawer'] = 'Ouvrir le tiroir de navigation';
 $string['tour2_title_participants'] = 'Participants au cours';
 $string['tour2_title_welcome'] = 'Bienvenue';
+$string['tour3_content_dashboard'] = 'Votre nouveau Tableau de bord a de nombreuses fonctions pour vous permettre d\'accéder facilement aux informations les plus importantes pour vous.';
+$string['tour3_content_displayoptions'] = 'Les cours peuvent être triés par nom ou par date du dernier accès.
+
+Vous pouvez aussi choisir d\'afficher les cours dans une liste, avec les informations résumées, ou dans la vue par défaut en « cartes ».';
+$string['tour3_content_overview'] = 'Le bloc Vue d\'ensemble des cours affiche la totalité des cours dans lesquels vous êtes inscrit.
+
+Vous pouvez choisir de n\'afficher que les cours actuellement actifs, ou ceux qui sont passés ou à venir, ou les cours que vous avez marqués comme favoris.';
+$string['tour3_content_recentcourses'] = 'Le bloc Cours consultés récemment affiche les cours que vous avez visités en dernier, vous permettant d\'y retourner directement.';
+$string['tour3_content_starring'] = 'Vous pouvez marquer un cours comme favori pour le mettre en évidence ou le cacher s\'il n\'est plus important pour vous.
+
+Ces actions n\'ont d\'effet que sur ce que vous voyez.
+
+Vous pouvez aussi choisir d\'afficher les cours dans une liste, avec les informations résumées, ou dans la vue par défaut en « cartes ».';
+$string['tour3_content_timeline'] = 'Le bloc Chronologie affiche les événements à venir importants.
+
+Vous pouvez choisir d\'afficher les activités de la semaine prochaine, du mois prochain, ou plus loin encore dans l\'avenir.
+
+Vous pouvez aussi afficher les éléments en retard.';
+$string['tour3_title_dashboard'] = 'Votre tableau de bord';
+$string['tour3_title_displayoptions'] = 'Options d\'affichage';
+$string['tour3_title_overview'] = 'Vue d\'ensemble des cours';
+$string['tour3_title_recentcourses'] = 'Cours consultés récemment';
+$string['tour3_title_starring'] = 'Marquer des cours comme favoris ou les cacher';
+$string['tour3_title_timeline'] = 'Bloc Chronologie';
+$string['tour4_content_groupconvo'] = 'Si vous êtes un membre d\'un groupe dans lequel la messagerie de groupe est activée, vous verrez ici les conversations du groupe.
+
+Les conversations de groupes de cours vous permettent d\'interagir avec d\'autres personnes de votre groupe de façon simple et en privé.';
+$string['tour4_content_icon'] = 'Vous pouvez accéder à vos messages depuis n\'importe quelle page à l\'aide de cette icône.
+
+Si vous avez des messages non lus, leur nombre sera affiché ici également.
+
+Cliquer sur l\'icône pour ouvrir le tiroir de messagerie et continuer la visite guidée.';
+$string['tour4_content_messaging'] = 'Moodle 3.6 fournit une nouvelle interface de messagerie, la possibilité de communiquer par messagerie dans des groupes de cours, ainsi qu\'un meilleur contrôle de qui peut vous envoyer des messages.';
+$string['tour4_content_settings'] = 'Vous pouvez accéder à vos réglages de messagerie au moyen de l\'icône d\'engrenage. Un nouveau réglage de confidentialité vous permet de restreindre les personnes qui peuvent vous envoyer des messages.';
+$string['tour4_content_starred'] = 'Vous pouvez choisir de marquer comme favorites certaines conversations afin de les retrouver plus facilement.';
+$string['tour4_title_groupconvo'] = 'Messages de groupe';
+$string['tour4_title_icon'] = 'Messagerie';
+$string['tour4_title_messaging'] = 'Nouvelle interface de messagerie';
+$string['tour4_title_settings'] = 'Réglages de messagerie';
+$string['tour4_title_starred'] = 'Favoris';
 $string['tourconfig'] = 'Fichier de configuration de visite guidée à importer';
+$string['tour_final_step_content'] = 'Cette visite guidée est terminée. Elle ne sera pas ré-affichée à moins que vous ne la réinitialisiez au moyen du lien dans le pied de page.';
+$string['tour_final_step_title'] = 'Fin de la visite guidée';
 $string['tourisenabled'] = 'La visite est activée';
 $string['tourlist_explanation'] = 'Il est possible de créer autant de visites guidées que désiré et de les activer pour diverses parties de Moodle. Une seule visite guidée peut être créée pour chaque page.';
 $string['tour_resetforall'] = 'Le statut de la visite guidée a été relancé. La visite sera affichée de nouveau à tous les utilisateurs.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_shortanswer', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_shortanswer', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   qtype_shortanswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,7 @@ $string['casesensitive'] = 'Διάκριση μικρών/κεφαλαίων (Ca
 $string['caseyes'] = 'Ναι, μικρά/κεφαλαία πρέπει να ταιριάζουν';
 $string['correctansweris'] = 'Η σωστή απάντηση είναι: {$a}';
 $string['correctanswers'] = 'Σωστές απαντήσεις';
-$string['filloutoneanswer'] = 'Πρέπει να δώσετε τουλάχιστον μια πιθανή απάντηση. Οι απαντήσεις που θα αφήνονται κενές θα παραλείπονται. Ο χαρακτήρας \'*\' μπορεί να χρησιμοποιηθεί σαν μπαλαντέρ για οποιονδήποτε χαρακτήρα. Η πρώτη απάντηση που ταιριάζει θα χρησιμοποιηθεί για να προσδιοριστεί το σκορ και η ανατροφοδότηση.';
+$string['filloutoneanswer'] = 'Πρέπει να δώσετε τουλάχιστον μια πιθανή απάντηση. Οι απαντήσεις που θα αφήνονται κενές θα παραλείπονται. Ο χαρακτήρας «*» μπορεί να χρησιμοποιηθεί σαν μπαλαντέρ για οποιονδήποτε χαρακτήρα. Η πρώτη απάντηση που ταιριάζει θα χρησιμοποιηθεί για να προσδιοριστεί το σκορ και η ανατροφοδότηση.';
 $string['notenoughanswers'] = 'Αυτός ο τύπος ερωτήματος απαιτεί τουλάχιστον {$a} απαντήσεις';
 $string['pleaseenterananswer'] = 'Παρακαλούμε, δώστε μια απάντηση.';
 $string['pluginname'] = 'Σύντομης Απάντησης';

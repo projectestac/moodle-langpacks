@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'scorm', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -150,17 +150,19 @@ $string['finishscormlinkname'] = 'cliquez ici pour revenir à la page de cours';
 $string['firstaccess'] = 'Toujours, sauf la première fois';
 $string['firstattempt'] = 'Première tentative';
 $string['floating'] = 'Flottant';
+$string['forceattemptalways'] = 'Toujours';
+$string['forceattemptoncomplete'] = 'Lorsque la tentative précédente a été terminée, réussie ou a échoué';
 $string['forcecompleted'] = 'Imposer de terminer';
 $string['forcecompleteddesc'] = 'Ce réglage détermine si par défaut il est imposé de terminer l\'activité ou non';
 $string['forcecompleted_help'] = 'Si ce réglage est activé, l\'état de la tentative actuelle est forcé sur « Terminé » (ce réglage n\'est valable que pour les paquetages SCORM 1.2).';
 $string['forcejavascript'] = 'Forcer les utilisateurs à activer Javascript';
 $string['forcejavascript_desc'] = 'Si ce réglage est activé (recommandé), il empêche l\'accès aux objets SCORM lorsque Javascript est désactivé ou n\'est pas supporté dans le navigateur de l\'utilisateur. Si le réglage est désactivé, l\'utilisateur pourra voir le SCORM, mais les communications API échoueront et aucune information d\'évaluation ne sera enregistrée.';
 $string['forcejavascriptmessage'] = 'Javascript est requis pour voir cet élément. Veuillez activer Javascript dans votre navigateur et essayer à nouveau.';
-$string['forcenewattempt'] = 'Imposer une nouvelle tentative';
-$string['forcenewattemptdesc'] = 'Si ce réglage est activé, la case à cocher « Commencer une nouvelle tentative » est cachée et empêche le mode relecture. SCORM permet à un étudiant de revenir à une tentative à n\'importe quel stade, et une nouvelle tentative n\'est possible que si la tentative précédente est marquée comme « terminée », « réussie » ou « échouée ». Si le paquetage SCORM ne fait pas ceci, l\'étudiant recommencera toujours la même tentative.';
-$string['forcenewattempt_help'] = 'Si ce réglage est activé, la case à cocher « Commencer une nouvelle tentative » est cachée et empêche le mode relecture.
-
-SCORM permet à un étudiant de revenir à une tentative à n\'importe quel stade, et une nouvelle tentative n\'est possible que si la tentative précédente est marquée comme « terminée », « réussie » ou « échouée ». Si le paquetage SCORM ne fait pas ceci, l\'étudiant recommencera toujours la même tentative.';
+$string['forcenewattempts'] = 'Imposer une nouvelle tentative';
+$string['forcenewattempts_help'] = 'Il y a 3 options disponibles :
+* Non – Si une tentative précédente est terminée, réussie ou a échoué, l\'étudiant aura la possibilité d\'entrer en mode relecture ou d\'effectuer une nouvelle tentative.
+* Lorsque la tentative précédente a été terminée, réussie ou a échoué – Tient compte du réglage du paquetage SCORM définissant l\'état « terminé », « réussi » ou « échoué ».
+* Toujours – Chaque nouvel accès à l\'activité SCORM générera une nouvelle tentative et l\'étudiant ne sera pas dirigé au point atteint lors de la tentative précédente.';
 $string['found'] = 'Fichier « manifest » trouvé';
 $string['frameheight'] = 'La hauteur du cadre ou de la fenêtre';
 $string['framewidth'] = 'La largeur du cadre ou de la fenêtre';
@@ -274,6 +276,7 @@ $string['notattempted'] = 'Aucune tentative';
 $string['not_corr_type'] = 'Erreur de type pour la balise {$a->tag}';
 $string['notopenyet'] = 'Désolé, cette activité n\'est pas disponible avant le {$a}';
 $string['objectives'] = 'Objectifs';
+$string['openafterclose'] = 'Vous avez indiqué une date d\'ouverture postérieure à la date de fermeture.';
 $string['optallstudents'] = 'Tous les utilisateurs';
 $string['optattemptsonly'] = 'Seulement les utilisateurs avec tentatives';
 $string['options'] = 'Options (bloqué par certains navigateurs)';
@@ -336,9 +339,6 @@ $string['reviewmode'] = 'Mode relecture';
 $string['rightanswer'] = 'Réponse correcte';
 $string['scoes'] = 'Objets d\'apprentissage';
 $string['score'] = 'Résultat';
-$string['scorm12standard'] = 'Activer le mode standard SCORM 1.2';
-$string['scorm12standarddesc'] = 'La désactivation de ce réglage permet à Moodle d\'enregistrer plus de données que ne le permet la spécification SCORM 1.2.
-Si vos paquetages SCORM autorisent la saisie des textes très longs ou si vos paquetage tentent d\'enregistrer de grandes quantités de données dans le champ suspend_data, veuillez désactiver ce champ.';
 $string['scorm:addinstance'] = 'Ajouter un paquetage SCORM';
 $string['scormclose'] = 'Disponible jusqu\'au';
 $string['scormcourse'] = 'Cours d\'apprentissage';
@@ -350,6 +350,8 @@ $string['scormopen'] = 'Disponible depuis le';
 $string['scormresponsedeleted'] = 'Tentative supprimées de l\'utilisateur';
 $string['scorm:savetrack'] = 'Enregistrer les traces';
 $string['scorm:skipview'] = 'Passer la vue d\'ensemble';
+$string['scormstandard'] = 'Mode standards SCORM';
+$string['scormstandarddesc'] = 'Si ce réglage est désactivé, Moodle autorise l\'enregistrement dans les paquetages SCORM 1.2 de plus de données que ce qui est permis par la spécification, et utilise le réglage de Moodle pour le nom complet lors de la transmission des noms d\'utilisateurs au paquetage SCORM.';
 $string['scormtype'] = 'Type';
 $string['scormtype_help'] = 'Ce réglage détermine comment le paquetage est inclus dans le cours. Il y a au maximum 4 options.
 

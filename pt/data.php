@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'data', language 'pt', branch 'MOODLE_36_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,6 +68,7 @@ $string['checkbox'] = 'Caixas de seleção';
 $string['chooseexportfields'] = 'Escolha os campos que pretende exportar:';
 $string['chooseexportformat'] = 'Escolha o formato de exportação:';
 $string['chooseorupload'] = 'Selecionar ficheiro';
+$string['closebeforeopen'] = 'Indicou uma data de fim antes da data de início.';
 $string['columns'] = 'Colunas';
 $string['comment'] = 'Comentar';
 $string['commentdeleted'] = 'O comentário foi apagado';
@@ -171,7 +172,8 @@ $string['fieldheightlistview'] = 'Altura no modo de lista';
 $string['fieldheightsingleview'] = 'Altura no modo registo';
 $string['fieldids'] = 'Identificadores de campo';
 $string['fieldmappings'] = 'Mapeamentos dos campos';
-$string['fieldmappings_help'] = 'Este menu permite-lhe manter os dados da base de dados existente. Para preservar os dados de um campo, este deverá ser mapeado para um novo campo. Os campos podem ser deixados em branco, caso em que não será copiada informação. Todos os campos que não sejam mapeados para novos campos serão apagados e a sua informação perdida. Apenas podem ser mapeados campos do mesmo tipo, pelo que cada lista pendente apresentará os tipos permitidos. Não é permitido o mapeamento de um campo para mais do que um novo campo.';
+$string['fieldmappings_help'] = 'Este menu permite-lhe manter os dados da base de dados existente. Para preservar os dados de um campo, este deverá ser mapeado para um novo campo. Os campos podem ser deixados em branco, caso em que não será copiada informação. Todos os campos que não sejam mapeados para novos campos serão apagados e a sua informação perdida.
+Apenas podem ser mapeados campos do mesmo tipo, pelo que cada lista pendente apresentará os tipos permitidos. Não é permitido o mapeamento de um campo para mais do que um novo campo.';
 $string['fieldname'] = 'Nome do campo';
 $string['fieldnotmatched'] = 'Os seguintes campos presentes no ficheiro não existem nesta base de dados: {$a}';
 $string['fieldoptions'] = 'Opções (uma por linha)';
@@ -192,10 +194,10 @@ $string['fromfile'] = 'Importar ficheiro ZIP';
 $string['fromfile_help'] = 'Esta configuração permite consultar e importar um zip protótipo de modelos e campos de base de dados.';
 $string['generateerror'] = 'Não foi possível gerar todos os ficheiros!';
 $string['header'] = 'Cabeçalho';
-$string['headeraddtemplate'] = 'Define a aparência da página de edição de registos';
-$string['headerasearchtemplate'] = 'Define a aparência da página de pesquisas avançadas';
+$string['headeraddtemplate'] = 'Define a aparência da página de adição ou edição de registos';
+$string['headerasearchtemplate'] = 'Define a aparência da página de pesquisa avançada';
 $string['headercsstemplate'] = 'Define os estilos CSS locais a aplicar aos outros modelos';
-$string['headerjstemplate'] = 'Define o código Javascript específico a aplicar aos outros formatos';
+$string['headerjstemplate'] = 'Define o JavaScript personalizado para manipular a maneira como os elementos são mostrados nos modelos Lista, Simples ou Adicionar';
 $string['headerlisttemplate'] = 'Define a aparência da página da lista de registos';
 $string['headerrsstemplate'] = 'Define a aparência dos registos nas listas RSS';
 $string['headersingletemplate'] = 'Define a aparência da página de registos individuais';
@@ -263,18 +265,6 @@ $string['movezipfailed'] = 'Não é possível mover o ficheiro ZIP';
 $string['multientry'] = 'Registo repetido';
 $string['multimenu'] = 'Menu (seleção múltipla)';
 $string['multipletags'] = 'Foram encontrados múltiplos marcadores! O modelo não foi guardado';
-$string['namecheckbox'] = 'Campo caixa de seleção';
-$string['namedate'] = 'Campo data';
-$string['namefile'] = 'Campo ficheiro';
-$string['namelatlong'] = 'Campo latitude/longitude';
-$string['namemenu'] = 'Campo menu';
-$string['namemultimenu'] = 'Campo menu de seleção múltipla';
-$string['namenumber'] = 'Campo numérico';
-$string['namepicture'] = 'Campo imagem';
-$string['nameradiobutton'] = 'Campo botões de rádio';
-$string['nametext'] = 'Campo texto';
-$string['nametextarea'] = 'Campo área de texto';
-$string['nameurl'] = 'Campo URL';
 $string['newentry'] = 'Novo registo';
 $string['newfield'] = 'Criar novo campo';
 $string['newfield_help'] = 'Um campo permite a inserção de um determinado tipo de informação nos registos de dados. Cada registo da base de dados pode ter diversos campos, de vários tipos. Ex: Um campo <b>Data</b> permite aos participantes escolher um dia, mês e ano a partir de uma lista pendente; um campo <b>Imagem</b> permite aos participantes enviar um ficheiro de imagem; um campo <b>Caixa seleção</b> permite aos participantes selecionar uma ou mais opções.
@@ -297,6 +287,7 @@ $string['numberrssarticles'] = 'Entradas na lista RSS';
 $string['numnotapproved'] = 'Pendente(s)';
 $string['numrecords'] = '<b>{$a}</b> registos';
 $string['ods'] = 'Ficheiro <acronym title="OpenDocument Spreadsheet">ODS</acronym> (OpenOffice)';
+$string['openafterclose'] = 'Indicou uma data de abertura após a data de fecho';
 $string['optionaldescription'] = 'Descrição resumida (opcional)';
 $string['optionalfilename'] = 'Nome do ficheiro (opcional)';
 $string['other'] = 'Outro';
@@ -325,8 +316,8 @@ $string['privacy:metadata:datafieldnpluginsummary'] = 'Campos para a atividade B
 $string['privacy:metadata:data_records'] = 'Representa registos na atividade Base de dados';
 $string['privacy:metadata:data_records:approved'] = 'Estado da aprovação';
 $string['privacy:metadata:data_records:groupid'] = 'Grupo';
-$string['privacy:metadata:data_records:timecreated'] = 'Data/hora da criação do registo';
-$string['privacy:metadata:data_records:timemodified'] = 'Data/hora da última modificação';
+$string['privacy:metadata:data_records:timecreated'] = 'Data e hora da criação do registo';
+$string['privacy:metadata:data_records:timemodified'] = 'Data e hora da última modificação';
 $string['privacy:metadata:data_records:userid'] = 'Utilizador que criou o registo';
 $string['privacy:metadata:filepurpose'] = 'Ficheiro anexado ao registo da Base de dados';
 $string['privacy:metadata:ratingpurpose'] = 'Classificações nos registos da Base de dados';
@@ -374,8 +365,8 @@ $string['selectedrequired'] = 'Todos os selecionados são obrigatórios';
 $string['showall'] = 'Mostrar todos os registos';
 $string['single'] = 'Ver registo';
 $string['singletemplate'] = 'Registo';
-$string['subplugintype_datafield'] = 'Tipo de campo da Base de Dados';
-$string['subplugintype_datafield_plural'] = 'Tipos de campos da Base de Dados';
+$string['subplugintype_datafield'] = 'Tipo de campo da base de dados';
+$string['subplugintype_datafield_plural'] = 'Tipos de campos da base de dados';
 $string['subplugintype_datapreset'] = 'Protótipo';
 $string['subplugintype_datapreset_plural'] = 'Protótipos';
 $string['tagarea_data_records'] = 'Registos de dados';
@@ -386,11 +377,11 @@ $string['templates'] = 'Modelos';
 $string['templatesaved'] = 'O modelo foi gravado';
 $string['text'] = 'Texto';
 $string['textarea'] = 'Área de texto';
-$string['timeadded'] = 'Data de criação';
-$string['timemodified'] = 'Data da última edição';
+$string['timeadded'] = 'Data e hora de criação';
+$string['timemodified'] = 'Data e hora da última modificação';
 $string['todatabase'] = 'para esta base de dados.';
 $string['type'] = 'Tipo de campo';
-$string['undefinedprocessactionmethod'] = 'Não foi definido nenhum método de ação em Data_Preset para executar a ação "{$a}".';
+$string['undefinedprocessactionmethod'] = 'Não foi definido o método de ação em Data_Preset para executar a ação "{$a}".';
 $string['unsupportedexport'] = 'O tipo de campo <b>{$a->fieldtype}</b> não pode ser exportado.';
 $string['updatefield'] = 'Atualizar um campo existente';
 $string['uploadfile'] = 'Enviar ficheiro';

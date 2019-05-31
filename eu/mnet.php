@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'mnet', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -241,7 +241,7 @@ $string['trustedhosts'] = 'XML-RPC ostalariak';
 $string['trustedhostsexplain'] = '<p>Konfiantzazko ostalarien mekanismoak makina konkretu batzuk XML-RPC bitartez Moodle API-ko edozein dei exekutatzeko aukera ematen du. Honek Moodle-ko jokaera script bidez kontrolatzea ahalbidetzen du eta gaitzeak arrisku handia suposa lezake. Zalantzak badituzu, desgaituta utzi.</p>
 <p><strong>Hau ez da beharrezkoa ohiko MNet funtzioentzat!</strong> Soilik gaitu zer egiten ari zaren badakizu.</p>
 <p>Aukera hau gaitzeko, sartu IP helbideen edo sareen zerrenda, bat errenkada bakoitzean. Adibide batzuk:</p>
-Zure ostalari lokala:<br />127.0.0.1<br />Zur eostalari lokala (sareko blokearekin):<br />127.0.0.1/32<br />Soilik  192.168.0.7 IP helbidea duen ostalaria:<br />192.168.0.7/32<br />192.168.0.1 eta 192.168.0.255 IP helbideen arteko edozein ostalari:<br />192.168.0.0/24<br />Edozein ostalari:<br />192.168.0.0/0<br />Jakina, azken adibidea <strong>ez</strong> da gomendatutako konfigurazio bat.';
+Zure ostalari lokala:<br />127.0.0.1<br />Zure ostalari lokala (sareko blokearekin):<br />127.0.0.1/32<br />Soilik  192.168.0.7 IP helbidea duen ostalaria:<br />192.168.0.7/32<br />192.168.0.1 eta 192.168.0.255 IP helbideen arteko edozein ostalari:<br />192.168.0.0/24<br />Edozein ostalari:<br />192.168.0.0/0<br />Jakina, azken adibidea <strong>ez</strong> da gomendatutako konfigurazio bat.';
 $string['turnitoff'] = 'Itzali';
 $string['turniton'] = 'Piztu';
 $string['type'] = 'Mota';

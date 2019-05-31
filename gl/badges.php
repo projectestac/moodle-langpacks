@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'badges', language 'gl', branch 'MOODLE_36_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,11 @@ defined('MOODLE_INTERNAL') || die();
 $string['actions'] = 'Accións';
 $string['activate'] = 'Activar o acceso';
 $string['activatesuccess'] = 'O acceso ás insignias activouse correctamente.';
+$string['addbadge'] = 'Engadir insignias';
 $string['addbadgecriteria'] = 'Engadir criterios para insignia';
+$string['addbadge_help'] = 'Seleccionar todas as insignias que deberían engadirse a este requirimento de insignia. Manteña premida a tecla CTRL para seleccionar múltiples elementos.';
+$string['addcohort'] = 'Engadir círculo';
+$string['addcohort_help'] = 'Seleccionar todos os círculos que deberían engadirse a este requirimento de insignia. Manteña premida a tecla CTRL para seleccionar múltiples elementos.';
 $string['addcourse'] = 'Engadir cursos';
 $string['addcourse_help'] = 'Seleccionar todos os curso que deberían engadirse a este requirimento de insignia. Manteña premida a tecla CTRL para seleccionar múltiples elementos.';
 $string['addcriteria'] = 'Engadir criterios';
@@ -40,6 +44,8 @@ $string['aggregationmethod'] = 'Método de agregación';
 $string['all'] = 'Todos';
 $string['allmethod'] = 'Dánse todas as condicións seleccionadas';
 $string['allmethodactivity'] = 'Todas as actividades seleccionadas están completas';
+$string['allmethodbadges'] = 'Foron gañadas todas as insignias seleccionadas';
+$string['allmethodcohort'] = 'Membros en todos os círculos seleccionados';
 $string['allmethodcourseset'] = 'Todos os cursos seleccionados están completos';
 $string['allmethodmanual'] = 'Todos os roles seleccionados outorgan a insignia';
 $string['allmethodprofile'] = 'Completáronse todos os campos do perfil seleccionado';
@@ -52,9 +58,11 @@ Nota: Recoméndase deixar esta opción desactivada se non é posíbel acceder ao
 $string['any'] = 'Calquera';
 $string['anymethod'] = 'Dánse algunha das condicións seleccionadas';
 $string['anymethodactivity'] = 'Algunha das actividades seleccionadas están completas';
+$string['anymethodbadges'] = 'Foi gañada calquera das insignias seleccionadas';
+$string['anymethodcohort'] = 'Membros en calquera dos círculos seleccionados';
 $string['anymethodcourseset'] = 'Calquera dos cursos seleccionados están completos';
 $string['anymethodmanual'] = 'Calquera dos roles seleccionados reciben a insignia';
-$string['anymethodprofile'] = 'Completáronse algúns dos campos do perfil seleccionado';
+$string['anymethodprofile'] = 'Completouse calquera dos campos do perfil seleccionado';
 $string['archivebadge'] = 'Quere borrar a insignia «{$a}» pero manter as insignias xa concedidas?';
 $string['archiveconfirm'] = 'Borrar e manter as insignias xa concedidas';
 $string['archivehelp'] = '<p>Esta opción implica que a insignia quedará marcada como «retirada» e xa non aparecerá na lista de insignias. Os usuarios xa non volverán a podela ganar, pero aqueles aos que xa se lle concedeu poderán seguir amosándoa na súa páxina de perfil e trasladala á súa mochila externa.</p>
@@ -176,6 +184,10 @@ $string['criteria_5'] = 'Completando un conxunto de cursos';
 $string['criteria_5_help'] = 'Permite conceder unha insignia a usuarios que completasen un conxunto de cursos. Cada curso pode ter parámetros adicionais como unha cualificación mínima e unha data de completado do curso.';
 $string['criteria_6'] = 'Perfil de completado';
 $string['criteria_6_help'] = 'Permite conceder unha insignia a usuarios por completar certos campos no seu perfil. Pode seleccionar tanto campos personalizados como predeterminados do perfil que están dispoñíbeis para os usuario.';
+$string['criteria_7'] = 'Insignias outorgadas';
+$string['criteria_7_help'] = 'Permite que se outorgue unha insignia aos usuarios en función das outras insignias que gañaron.';
+$string['criteria_8'] = 'Membro do círculo';
+$string['criteria_8_help'] = 'Permite que se outorgue unha insignia aos usuarios en función da participación no círculo.';
 $string['criteriacreated'] = 'Criterios das insignias creados correctamente';
 $string['criteriadeleted'] = 'Criterios das insignias eliminados correctamente';
 $string['criteria_descr'] = 'Os alumnos reciben esta insignia cando completan o seguinte requirimento:';
@@ -185,6 +197,8 @@ $string['criteria_descr_2'] = 'Esta insignia debe concederse aos usuarios con <s
 $string['criteria_descr_4'] = 'Os alumnos deben completar o curso';
 $string['criteria_descr_5'] = 'Teñen que ser completados <strong>{$a}</strong> dos seguintes cursos:';
 $string['criteria_descr_6'] = 'Teñen que ser completados <strong>{$a}</strong> dos seguintes campos do perfil do usuario:';
+$string['criteria_descr_7'] = 'Teñen que ter sido gañadas <strong>{$a}</strong> das seguintes insignias:';
+$string['criteria_descr_8'] = 'É necesario ser membro de <strong>{$a}</strong> dos seguintes círculos:';
 $string['criteria_descr_bydate'] = 'por <em>{$a}</em>';
 $string['criteria_descr_grade'] = 'cunha cualificación mínima de <em>{$a}</em>';
 $string['criteria_descr_short0'] = 'Completar <strong>{$a}</strong> de:';
@@ -193,16 +207,22 @@ $string['criteria_descr_short2'] = 'Concedida por <strong>{$a}</strong> de:';
 $string['criteria_descr_short4'] = 'Completar o curso';
 $string['criteria_descr_short5'] = 'Completar <strong>{$a}</strong> de:';
 $string['criteria_descr_short6'] = 'Completar <strong>{$a}</strong> de:';
+$string['criteria_descr_short7'] = 'Completar <strong>{$a}</strong> de:';
+$string['criteria_descr_short8'] = 'Membro do círculo en <strong>{$a}</strong> de:';
 $string['criteria_descr_single_1'] = 'Ten que completar a seguinte actividade:';
 $string['criteria_descr_single_2'] = 'Debe concederse esta insignia ao usuario co seguinte rol:';
 $string['criteria_descr_single_4'] = 'Os alumnos deben completar este curso';
 $string['criteria_descr_single_5'] = 'Ten que completar o seguinte curso:';
 $string['criteria_descr_single_6'] = 'Ten que completar o seguinte campo do perfil de usuario:';
+$string['criteria_descr_single_7'] = 'Ten que gañar a seguinte insignia:';
+$string['criteria_descr_single_8'] = 'Requírese ser membro dos seguintes círculos:';
 $string['criteria_descr_single_short1'] = 'Completar:';
 $string['criteria_descr_single_short2'] = 'Concedido por:';
 $string['criteria_descr_single_short4'] = 'Completar o curso';
 $string['criteria_descr_single_short5'] = 'Completar:';
 $string['criteria_descr_single_short6'] = 'Completar:';
+$string['criteria_descr_single_short7'] = 'Completar:';
+$string['criteria_descr_single_short8'] = 'Membro en:';
 $string['criteriasummary'] = 'Resumo de criterios';
 $string['criteriaupdated'] = 'Criterios das insignias actualizados correctamente';
 $string['criterror'] = 'Incidencias cos parámetros actuais';
@@ -250,13 +270,18 @@ $string['error:invalidbadgeurl'] = 'O formato do URL do emisor da insignia é in
 $string['error:invalidcriteriatype'] = 'Tipo de criterio incorrecto.';
 $string['error:invalidexpiredate'] = 'A data de caducidade ten que situarse no futuro.';
 $string['error:invalidexpireperiod'] = 'O período de caducidade non pode ser negativo nin igual a 0.';
+$string['error:invalidparambadge'] = 'Esa insignia non existe.';
+$string['error:invalidparamcohort'] = 'Ese círculo non existe.';
 $string['error:noactivities'] = 'Non hai actividades con criterio de completado activado neste curso.';
 $string['error:noassertion'] = 'Persona non devolveu ningunha aseveración. É probábel que pechara a xanela de diálogo antes de completar o proceso de acceso.';
+$string['error:nobadges'] = 'Non hai insignias de curso nin de sitio con acceso activado para engadir como criterios.';
+$string['error:nocohorts'] = 'Sen círculos';
 $string['error:nocourses'] = 'O completado do curso non está activado en ningún dos curso deste sitio, así que non se pode presentar ningún. O completado do curso pode activarse na configuración do curso.';
 $string['error:nogroups'] = '<p>Non hai coleccións públicas de insignias dispoñíbeis na súa mochila. </p>
 <p>Só se amosan as coleccións públicas, <a href="http://backpack.openbadges.org">visite a súa mochila</a> para crear algunhas coleccións públicas.</p>';
 $string['error:nopermissiontoview'] = 'Non ten permisos para ver os receptores de insignias';
 $string['error:nosuchbadge'] = 'A insignia co ID {$a} non existe.';
+$string['error:nosuchcohort'] = 'Aviso: Este círculo xa non está dispoñíbel.';
 $string['error:nosuchcourse'] = 'Aviso: Este curso xa non está dispoñíbel.';
 $string['error:nosuchfield'] = 'Aviso: este campo de usuario xa non está dispoñíbel.';
 $string['error:nosuchmod'] = 'Aviso: Esta actividade xa non está dispoñíbel.';
@@ -403,6 +428,8 @@ $string['recipientidentificationproblem'] = 'Non foi posíbel atopar un destinat
 $string['recipients'] = 'Destinatarios da insignia';
 $string['recipientvalidationproblem'] = 'Non é posíbel confirmar que o usuario actual é o receptor da insignia.';
 $string['relative'] = 'Data relativa';
+$string['requiredbadge'] = 'Debe engadirse, polo menos, unha insignia ao criterio de insignia.';
+$string['requiredcohort'] = 'Cando menos, debería engadirse un círculo ao criterio de círculo.';
 $string['requiredcourse'] = 'Cando menos, debería engadirse un curso ao criterio de conxunto de curso.';
 $string['reviewbadge'] = 'Cambios no acceso as insignias';
 $string['reviewconfirm'] = '<p>Con isto, fará que a súa insignia sexa visíbel para os usuarios e permítelles comezar a gañala.</p>

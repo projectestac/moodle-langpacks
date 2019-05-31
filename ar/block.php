@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'ar', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block', language 'ar', branch 'MOODLE_36_STABLE'
  *
  * @package   block
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,13 +27,13 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addtodock'] = 'انقل الى زاوية التصغير';
 $string['anypagematchingtheabove'] = 'أي صفحة متطابقة مع الصفحة العليا';
-$string['appearsinsubcontexts'] = 'يظهر في اامتحويات لفرعية';
-$string['assignrolesinblock'] = 'اعتماد صلاحيات في {$a} الصندوق';
+$string['appearsinsubcontexts'] = 'يظهر في المتحويات الفرعية';
+$string['assignrolesinblock'] = 'اعتماد صلاحيات في كتلة {$a}';
 $string['blocksdrawertoggle'] = 'إخفاء/إظهار راسم الكتل';
 $string['blocksettings'] = 'إعدادات الكتل';
 $string['bracketfirst'] = '{$a} أولاً';
 $string['bracketlast'] = '{$a} آخراً';
-$string['configureblock'] = 'إجراء تغير على الصندوق';
+$string['configureblock'] = 'تهيئة {$a} كتلة';
 $string['contexts'] = 'سياقات الصفحة';
 $string['createdat'] = 'الموضع الأصلي للكتلة';
 $string['defaultregion'] = 'منظقة افتراضية';
@@ -46,7 +46,7 @@ $string['dockblock'] = 'تصغير الصندوق';
 $string['hideblock'] = 'اخفاء الصندوق';
 $string['hidedockpanel'] = 'اخفاء صندوق التصغير';
 $string['hidepanel'] = 'اخفاء اللوحة';
-$string['moveblock'] = 'نقل الصندوق';
+$string['moveblock'] = 'نقل {$a} كتلة';
 $string['moveblockafter'] = 'نقل الصندوق بعد الصندوق التالي';
 $string['moveblockbefore'] = 'نقل الصندوق الى الصندوق الذي قبل';
 $string['moveblockinregion'] = 'نقل الصندوق الى المنطقة';

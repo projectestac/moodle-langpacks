@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'lesson', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -119,7 +119,6 @@ $string['completiontimespent'] = 'Ikasleak jarduera hau egin du gutxienez ondoko
 $string['completiontimespentdesc'] = 'Erabiltzaileak gutxienez {$a} eman behar du jarduera egiten';
 $string['completiontimespentgroup'] = 'Eman beharreko denbora';
 $string['conditionsfordependency'] = 'Menpekotasun-baldintza(k)';
-$string['configactionaftercorrectanswer'] = 'Erantzun zuzen baten ondoren berezko ekintza';
 $string['configintro'] = 'Hemen zehaztutako balioak ikasgai jarduera berri bat sortzean balio lehenetsiak zehazteko erabiltzen dira. Ezarpen aurreratu gisa markatutakoak \'Erakutsi gehiago...\' estekan klik egitean bakarrik erakutsiko dira.';
 $string['configmaxanswers'] = 'Lehenetsitako gehienezko erantzun-kopurua orriko';
 $string['configmediaclose'] = 'Erakutsi itxiera-botoia estekatutako media-fitxategiarentzat zabaldutako popup leihoan.';
@@ -165,7 +164,7 @@ $string['displayleftif'] = 'Gutxieneko puntuazioa menua erakusteko';
 $string['displayleftif_help'] = 'Ezarpen honek zehazten du ikasleak kalifikazio zehatz bat lortu behar duen ikasgaiaren menua ikusi ahal izateko. Honek ikaslea lehen saiakeran ikasgai osotik pasatzera behartzen du, eta ondoren, behar den kalifikazioa lortuz gero, berrikusketa egiteko menua ikusi ahal izango du.';
 $string['displayleftmenu'] = 'Erakutsi menua';
 $string['displayleftmenu_help'] = 'Gaituz gero, erabiltzaileari nabigatzeko aukera ematen dion orrien zerrenda erakusten duen menua erakusten da.';
-$string['displayofgrade'] = 'Kalifikazioa erakutsi (ikasleentzat soilik)';
+$string['displayofgrade'] = 'Erakutsi kalifikazioa (ikasleentzat soilik)';
 $string['displayreview'] = 'Eman aukera galderari berriz erantzuteko';
 $string['displayreview_help'] = 'Gaituz gero, galdera bat modu okerrean erantzuten denean ikasleari puntuazioan eragin gabe berriz saiatzeko edo ikasgaiarekin jarraitzeko aukera ematen zaio.';
 $string['displayscorewithessays'] = '<p>Automatikoki kalifikatutako galderetan hau da zure puntuazioa: {$a->score}
@@ -209,6 +208,7 @@ $string['essay'] = 'Entsegua';
 $string['essayemailmessage2'] = '<p>Entsegu-galderaren emaitza: {$a->question}</p><p>Zure erantzuna:<em>{$a->response}</em></p>
 <p>{$a->teacher} iruzkinak:<em>{$a->comment}</em></p><p>Zuk {$a->outof}-(e)tik {$a->earned} jaso duzu entsegu-galdera honetako.</p><p>Ikasgai honetan zure kalifikazioa aldatu egin da eta orain hau da: {$a->newgrade}%.</p>';
 $string['essayemailsubject'] = 'Ikasgai galderarako zure kalifikazioa eskuragarri dago';
+$string['essaynotgradedyet'] = 'Saiakera hau ez da oraindik kalifikatu';
 $string['essayresponses'] = 'Entseguaren erantzunak';
 $string['essays'] = 'Entseguak';
 $string['essayscore'] = 'Entseguaren puntuazioa';
@@ -395,6 +395,7 @@ $string['ongoingcustom'] = 'Ikasgai hau gehienez {$a->score} punturekin balioest
 $string['ongoing_help'] = 'Gaituz gero, orri bakoitzak ikasleak lor daitezkeen puntu guztietatik zenbat lortu duen erakustiko du.';
 $string['ongoingnormal'] = 'Zuk {$a->viewed} galderatik {$a->correct} ondo erantzun duzu.';
 $string['onpostperpage'] = 'Mezu bat bakarrik kalifikazioko';
+$string['openafterclose'] = 'Ezarri duzun hasiera-data itxiera-data baino beranduagokoa da.';
 $string['options'] = 'Aukerak';
 $string['or'] = 'edo';
 $string['ordered'] = 'Ordenatua';
@@ -455,11 +456,11 @@ $string['privacy:metadata:branch:retry'] = 'Saiakeraren zenbakia';
 $string['privacy:metadata:branch:timeseen'] = 'Orria ikusi zeneko unea';
 $string['privacy:metadata:branch:userid'] = 'Erabiltzailearen IDa';
 $string['privacy:metadata:grades'] = 'Ikasgai bakoitzeko kalifikazioen erregistroa';
-$string['privacy:metadata:grades:completed'] = 'Kalifikazioa eman zeneko unea';
+$string['privacy:metadata:grades:completed'] = 'Kalifikazioa eman zeneko data';
 $string['privacy:metadata:grades:grade'] = 'Emandako kalifikazioa';
 $string['privacy:metadata:grades:userid'] = 'Erabiltzailearen IDa';
 $string['privacy:metadata:overrides'] = 'Ikasgai bakoitzeko salbuespenen erregistroa';
-$string['privacy:metadata:overrides:available'] = 'Ikasleek ikasgaia egiten hasi daitezkeen unea';
+$string['privacy:metadata:overrides:available'] = 'Ikasgaian saiakerak egiten hasi daitezkeen unea';
 $string['privacy:metadata:overrides:deadline'] = 'Ikasgaia osatzeko amaiera-data.';
 $string['privacy:metadata:overrides:maxattempts'] = 'Gehienezko saiakera kopurua';
 $string['privacy:metadata:overrides:password'] = 'Ikasgaian sartzeko pasahitza';
@@ -569,6 +570,7 @@ $string['usepassword_help'] = 'Gaituz gero, ikasgaia eskuratzeko pasahitza eskat
 $string['useroverrides'] = 'Erabiltzaile-salbuespenak';
 $string['useroverridesdeleted'] = 'Erabiltzaile-salbuespenak ezabatu dira';
 $string['usersnone'] = 'Ikasleek ez dute ikasgai honetarako sarbiderik';
+$string['viewessayanswers'] = 'Ikusi saiakeraren erantzunak';
 $string['viewgrades'] = 'Ikusi kalifikazioak';
 $string['viewreports'] = 'Ikusi {$a->student}(e)k osatutako {$a->attempts} saiakera';
 $string['viewreports2'] = 'Ikusi osatutako {$a} saiakera';

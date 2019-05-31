@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'en', branch 'MOODLE_34_STABLE'
+ * Strings for component 'my', language 'en', branch 'MOODLE_36_STABLE'
  *
  * @package   my
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,4 +42,3 @@ $string['reseterror'] = 'There was an error resetting your page';
 $string['reseteveryonesdashboard'] = 'Reset Dashboard for all users';
 $string['reseteveryonesprofile'] = 'Reset profile for all users';
 $string['resetpage'] = 'Reset page to default';
-$string['unabletoaccess'] = 'As a security precaution, you may not access another user\'s dashboard';

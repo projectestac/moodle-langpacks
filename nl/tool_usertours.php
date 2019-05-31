@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'nl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_usertours', language 'nl', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -136,7 +136,7 @@ $string['title'] = 'Titel';
 $string['title_help'] = 'De titel van een stap kan toegevoegd worden als tekst, ingesloten in multilang tags (om te gebruiken met de multilang inhoudsfilter) indien nodig.
 
 Er mag ook een taalstringID ingegeven worden in het formaat identificatie,component (zonder haakjes of spaties na de komma).';
-$string['tour1_content_addingblocks'] = 'Denk goed na over het plaatsen van blokken op je pagina\'s. Blokken worden niet getoond op de Moodle mobile app, dus als algemene regel is het beter om er voor te zorgen dat je site goed werkt zonder blokken.';
+$string['tour1_content_addingblocks'] = 'Denk goed na over het plaatsen van blokken op je pagina\'s. Blokken worden niet getoond op de Mobiele app, dus als algemene regel is het beter om er voor te zorgen dat je site goed werkt zonder blokken.';
 $string['tour1_content_blockregion'] = 'Er is hier nog een blok-zone. We raden aan om het navigatie- en instellingenblok volledig te verwijderen omdat alle functionaliteit op andere plaatsen zit in het Boost thema.';
 $string['tour1_content_customisation'] = 'Om het uiterlijk van je site en je startpagina aan te passen kun je het instellingenmenu gebruiken in de hoek van deze kopregel. Probeer nu bewerken in te schakelen.';
 $string['tour1_content_end'] = 'Dit is het einde van jouw rondleiding. Dit zal niet meer getoond worden, tenzij je deze opnieuw instelt door de link te gebruiken onderaan de pagina. Als beheerder kun je ook rondleidingen zoals deze maken!';
@@ -148,8 +148,8 @@ $string['tour1_title_customisation'] = 'Aanpassing';
 $string['tour1_title_end'] = 'Einde van de rondleiding';
 $string['tour1_title_navigation'] = 'Navigatie';
 $string['tour1_title_welcome'] = 'Welkom';
-$string['tour2_content_addblock'] = 'Als je de bewerkmodus inschakelt, dan kun je blokken toevoegen vanaf de navigatiebalk. Wees echter voorzichtig met het toevoegen van blokken aan je pagina\'s. Blokken worden niet getoond op Moodle mobile app. Voor de beste leerling-ervaringen kun je er dus best voor zorgen dat je cursus goed werkt zonder blokken.';
-$string['tour2_content_addingblocks'] = 'Met deze knop kun je blokken toevoegen aan deze pagina. Wees echter voorzichtig met het toevoegen van blokken aan je pagina\'s. Blokken worden niet getoond op Moodle mobile app. Voor de beste leerling-ervaringen kun je er dus best voor zorgen dat je cursus goed werkt zonder blokken.';
+$string['tour2_content_addblock'] = 'Als je bewerken inschakelt, dan kun je blokken toevoegen vanaf de navigatiebalk. Wees echter voorzichtig met het toevoegen van blokken aan je pagina\'s. Blokken worden niet getoond op Mobiele app. Voor de beste gebruikerservaring kun je er dus best voor zorgen dat je cursus goed werkt zonder blokken.';
+$string['tour2_content_addingblocks'] = 'Met deze knop kun je blokken toevoegen aan deze pagina. Wees echter voorzichtig met het toevoegen van blokken aan je pagina\'s. Blokken worden niet getoond op Mobiele app. Voor de beste gebruikerservaring kun je er dus best voor zorgen dat je cursus goed werkt zonder blokken.';
 $string['tour2_content_customisation'] = 'Om de cursusinstellingen te wijzigen kun je het instellingenmenu gebruiken in de hoek van deze balk. Je zult gelijkaardige instellingenmenu\'s vinden op de startpagina van elke activiteit. Probeer nu bewerken in te schakelen.';
 $string['tour2_content_end'] = 'Dit is het einde van jouw rondleiding,. Dit zal niet meer getoond worden, tenzij je deze opnieuw instelt door de link te gebruiken onderaan de pagina. De site-beheerder kan ook rondleidingen zoals deze maken, specifiek voor deze site, indien nodig.';
 $string['tour2_content_navigation'] = 'De belangrijkste navigatie gebeurt vanaf nu via deze navigatiebalk. Gebruik de knop bovenaan om deze te tonen of te verbergen. Je zult zien dat er links zijn voor de belangrijkste secties van je cursus.';
@@ -164,7 +164,49 @@ $string['tour2_title_navigation'] = 'Navigatie';
 $string['tour2_title_opendrawer'] = 'Open de navigatiebalk';
 $string['tour2_title_participants'] = 'Cursusdeelnemers';
 $string['tour2_title_welcome'] = 'Welkom';
+$string['tour3_content_dashboard'] = 'Je nieuwe startpagina heeft veel functies om je gemakkelijk toegang te geven tot de informatie die voor jou het belangrijkst is.';
+$string['tour3_content_displayoptions'] = 'Cursussen kunnen worden gesorteerd op cursusnaam of op de laatste toegangsdatum.
+
+Je kunt er ook voor kiezen de cursussen in een lijst weer te geven, met samenvattingsinformatie of de standaard \'kaartweergave\'.';
+$string['tour3_content_overview'] = 'Het blok met het cursusoverzicht geeft alle cursussen weer waarvoor je bent ingeschreven.
+
+Je kunt ervoor kiezen om cursussen te laten zien die momenteel lopen, of in het verleden of de toekomst, of cursussen die je met een ster hebt gemarkeerd.';
+$string['tour3_content_recentcourses'] = 'Het blok \'Recente toegang\' toont de cursussen die je het laatst hebt bezocht, zodat je meteen weer kunt beginnen.';
+$string['tour3_content_starring'] = 'Je kunt ervoor kiezen om een cursus te markeren om hem te laten opvallen, of om een cursus te verbergen die niet langer belangrijk voor je is.
+
+Deze acties hebben alleen invloed op jouw startpagina.
+
+Je kunt er ook voor kiezen de cursussen in een lijst weer te geven, of met samenvattingsinformatie, of de standaard \'kaartweergave\'.';
+$string['tour3_content_timeline'] = 'Het tijdlijnblok toont je belangrijke aankomende gebeurtenissen.
+
+Je kunt ervoor kiezen activiteiten in de volgende week, maand of verder in de toekomst weer te geven.
+
+Je kunt ook items tonen die te laat zijn.';
+$string['tour3_title_dashboard'] = 'Jouw startpagina';
+$string['tour3_title_displayoptions'] = 'Weergaveopties';
+$string['tour3_title_overview'] = 'Cursusoverzicht';
+$string['tour3_title_recentcourses'] = 'Onlangs geopende cursussen';
+$string['tour3_title_starring'] = 'Cursussen weergeven en verbergen';
+$string['tour3_title_timeline'] = 'Tijdlijnblok';
+$string['tour4_content_groupconvo'] = 'Als je lid bent van een groep met groepsberichten ingeschakeld, dan zie je hier groepsgesprekken.
+
+Via cursusgroepgesprekken kun je met de anderen in jouw groep communiceren op een private en handige plek.';
+$string['tour4_content_icon'] = 'Je kunt vanaf elke pagina toegang krijgen tot je berichten met behulp van dit pictogram.
+
+Als je ongelezen berichten hebt, wordt hier ook het aantal ongelezen berichten weergegeven.
+
+Klik op het pictogram om de berichtenlade te openen en door te gaan met de rondleiding.';
+$string['tour4_content_messaging'] = 'Moodle 3.6 biedt een nieuwe interface voor berichten, mogelijkheid voor groepsberichten binnen een cursus en een betere controle over wie je berichten kan sturen.';
+$string['tour4_content_settings'] = 'Je hebt toegang tot je berichtinstellingen via het tandwielpictogram. Met een nieuwe privacy-instelling kun je beperken wie je berichten kan sturen.';
+$string['tour4_content_starred'] = 'Je kunt ervoor kiezen om bepaalde gesprekken te markeren om ze gemakkelijker te vinden.';
+$string['tour4_title_groupconvo'] = 'Groepsberichten';
+$string['tour4_title_icon'] = 'Berichten';
+$string['tour4_title_messaging'] = 'Nieuwe berichteninterface';
+$string['tour4_title_settings'] = 'Instellingen berichten';
+$string['tour4_title_starred'] = 'Met ster';
 $string['tourconfig'] = 'Te importeren configuratiebestand voor een rondleiding';
+$string['tour_final_step_content'] = 'Dit is het einde van je rondleiding. Je zult dit niet meer zien, tenzij je opnieuw start via de link onderaan de pagina.';
+$string['tour_final_step_title'] = 'Einde van de rondleiding';
 $string['tourisenabled'] = 'Rondleiding is ingeschakeld';
 $string['tourlist_explanation'] = 'Je kunt zoveel rondleidingen maken als je wil en ze inschakelen voor verschillende delen van Moodle. Er kan slechts één rondleiding gemaakt worden per pagina.';
 $string['tour_resetforall'] = 'De status van de rondleiding is teruggezet. Ze zal opnieuw getoond worden aan alle gebruikers.';

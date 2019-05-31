@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'blog', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,7 +38,6 @@ $string['autotags'] = 'Προσθέστε αυτές τις ετικέτες';
 $string['autotags_help'] = 'Εισάγετε μία ή περισσότερες τοπικές ετικέτες (χωρισμένες με κόμμα) που επιθυμείτε να προσθέσετε αυτόματα σε κάθε καταχώρηση ιστολογίου που αντιγράφεται από το εξωτερικό ιστολόγιο στο τοπικό σας ιστολόγιο.';
 $string['backupblogshelp'] = 'Αν ενεργοποιηθεί, τα ιστολόγια θα συμπεριλαμβάνονται στα αυτόματα αντίγραφα ασφαλείας του ΙΣΤΟΤΟΠΟΥ';
 $string['blockexternalstitle'] = 'Εξωτερικά ιστολόγια';
-$string['blocktitle'] = 'Τίτλος του μπλοκ Ετικέτες ιστολογίων';
 $string['blog'] = 'Ιστολόγιο';
 $string['blogaboutthis'] = 'Ιστολόγιο για τον τύπο {$a->type}';
 $string['blogaboutthiscourse'] = 'Προσθέστε μια καταχώρηση για αυτό το μάθημα';

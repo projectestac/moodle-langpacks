@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_rss_client', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   block_rss_client
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -74,13 +74,14 @@ $string['privacy:metadata:block_rss_client:tableexplanation'] = 'Οι πληρο
 $string['privacy:metadata:block_rss_client:title'] = 'Ο τίτλος της τροφοδοσίας RSS.';
 $string['privacy:metadata:block_rss_client:url'] = 'Η διεύθυνση URL της τροφοδοσίας RSS.';
 $string['privacy:metadata:block_rss_client:userid'] = 'Το αναγνωριστικό του χρήστη που πρόσθεσε την τροφοδοσία RSS.';
+$string['refreshfeedstask'] = 'Ανανέωση της εργασίας τροφοδοσίας RSS';
 $string['remotenewsfeed'] = 'Απομακρυσμένες τροφοδοσίες RSS ειδήσεων';
 $string['rss_client:addinstance'] = 'Προσθήκη νέου μπλοκ απομακρυσμένης RSS τροφοδοσίας ειδήσεων';
 $string['rss_client:createprivatefeeds'] = 'Δημιουργία ιδιωτικών τροφοδοσιών RSS';
 $string['rss_client:createsharedfeeds'] = 'Δημιουργία διαμοιραζόμενων τροφοδοσιών RSS';
 $string['rss_client:manageanyfeeds'] = 'Διαχείριση οποιωνδήποτε τροφοδοσιών RSS';
 $string['rss_client:manageownfeeds'] = 'Διαχείριση των δικών σας τροφοδοσιών RSS';
-$string['rss_client:myaddinstance'] = 'Προσθήκη ενός νέου μπλοκ τροφοδοσιών RSS στο Ταμπλό';
+$string['rss_client:myaddinstance'] = 'Προσθήκη ενός νέου μπλοκ απομακρυσμένων τροφοδοσιών RSS στο Ταμπλό';
 $string['seeallfeeds'] = 'Εμφάνιση όλων των τροφοδοσιών RSS';
 $string['sharedfeed'] = 'Διαμοιραζόμενη τροφοδοσία RSS';
 $string['shownumentrieslabel'] = 'Μέγιστος αριθμός εγγραφών για εμφάνιση ανα μπλοκ';

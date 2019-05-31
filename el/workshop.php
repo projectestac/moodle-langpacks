@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshop', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -203,6 +203,7 @@ $string['noexamplesformready'] = 'Πρέπει να ορίσετε τη φόρμ
 $string['nogradeyet'] = 'Χωρίς βαθμό ακόμη';
 $string['nosubmissionfound'] = 'Δεν βρέθηκε υποβολή για αυτόν τον χρήστη';
 $string['nosubmissions'] = 'Δεν υπάρχουν υποβολές ακόμα για αυτό το εργαστήριο';
+$string['nosubmissiontype'] = 'Τουλάχιστον ένας τύπος υποβολής πρέπει να είναι διαθέσιμος';
 $string['notassessed'] = 'Δεν έχει αξιολογηθεί ακόμη';
 $string['nothingfound'] = 'Τίποτα για εμφάνιση';
 $string['nothingtoreview'] = 'Τίποτα για ανασκόπηση';
@@ -330,6 +331,12 @@ $string['submissionstart'] = 'Ανοιχτό για υποβολές από';
 $string['submissionstartdatetime'] = 'Ανοιχτό για υποβολές από {$a->daydatetime} ({$a->distanceday})';
 $string['submissionstartevent'] = '{$a} έναρξη για υποβολές';
 $string['submissiontitle'] = 'Τίτλος';
+$string['submissiontypedisabled'] = 'Αυτός ο τύπος υποβολής είναι απενεργοποιημένος για αυτό το εργαστήριο.';
+$string['submissiontypefileavailable'] = 'Επισύναψη αρχείου <span class="accesshide">διαθέσιμη</span>';
+$string['submissiontypefilerequired'] = 'pan class="accesshide">Επισύναψη αρχείου </span>Απαιτείται';
+$string['submissiontypes'] = 'Τύποι υποβολής';
+$string['submissiontypetextavailable'] = 'Κείμενο σε σύνδεση <span class="accesshide">διαθέσιμο</span>';
+$string['submissiontypetextrequired'] = '<span class="accesshide">Κείμενο σε σύνδεση</span> απαιτείται';
 $string['submittednotsubmitted'] = 'Υποβλήθηκαν ({$a->submitted}) / δεν υποβλήθηκαν ({$a->notsubmitted})';
 $string['subplugintype_workshopallocation'] = 'Μέθοδος εκχώρησης υποβολών';
 $string['subplugintype_workshopallocation_plural'] = 'Μέθοδοι εκχώρησης υποβολών';
@@ -405,7 +412,6 @@ $string['workshop:viewauthornames'] = 'Εμφάνιση ονομάτων συγ�
 $string['workshop:viewauthorpublished'] = 'Εμφάνιση συγγραφέων που έχουν δημοσιεύσει υποβολές';
 $string['workshop:viewpublishedsubmissions'] = 'Εμφάνιση δημοσιευμένων υποβολών';
 $string['workshop:viewreviewernames'] = 'Εμφάνιση των ονομάτων των αξιολογητών';
-$string['yourassessment'] = 'Η αξιολόγησή σας';
 $string['yourassessmentfor'] = 'Η αξιολόγησή σας για {$a}';
 $string['yourgrades'] = 'Οι βαθμοί σας';
 $string['yoursubmission'] = 'Η υποβολή σας';

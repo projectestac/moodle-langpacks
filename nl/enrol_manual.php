@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_manual', language 'nl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_manual', language 'nl', branch 'MOODLE_36_STABLE'
  *
  * @package   enrol_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,11 +71,13 @@ $string['privacy:metadata'] = 'De manuele aanmeldingsplugin bewaart geen persoon
 $string['selectcohorts'] = 'Selecteer site-groepen';
 $string['selection'] = 'Selectie';
 $string['selectusers'] = 'Selecteer gebruikers';
+$string['sendexpirynotificationstask'] = 'Taak voor het versturen van meldingen over vervallen manuele aanmeldingen';
 $string['status'] = 'Manuele aanmeldingen inschakelen';
 $string['status_desc'] = 'Toegang tot de cursus toestaan voor intern aangemelde gebruikers. Dit moet meestal ingeschakeld blijven.';
 $string['statusdisabled'] = 'Uitgeschakeld';
 $string['statusenabled'] = 'Ingeschakeld';
 $string['status_help'] = 'Deze instelling bepaalt of gebruikers manueel aangemeld kunnen worden via een link in de cursus instellingen door een gebruiker met voldoende rechten, zoals een leraar.';
+$string['syncenrolmentstask'] = 'Synchronisatietaak voor manuele aanmeldingen';
 $string['unenrol'] = 'Gebruiker afmelden';
 $string['unenrolselectedusers'] = 'Geselecteerde gebruikers afmelden';
 $string['unenrolselfconfirm'] = 'Wil je echt jezelf afmelden van cursus "{$a}"?';

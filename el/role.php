@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'role', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,9 @@ $string['allowoverride'] = 'Να επιτρέπεται παράκαμψη ρό�
 $string['allowroletoassign'] = 'Να επιτρέπεται στους χρήστες με ρόλο {$a->fromrole} να αναθέτουν το ρόλο {$a->targetrole}';
 $string['allowroletooverride'] = 'Να επιτρέπεται στους χρήστες με ρόλο {$a->fromrole} να παρακάμπτουν το ρόλο {$a->targetrole}';
 $string['allowroletoswitch'] = 'Να επιτρέπεται στους χρήστες με ρόλο {$a->fromrole} να αλλάζουν ρόλο σε {$a->targetrole}';
+$string['allowroletoview'] = 'Να επιτρέπεται στους χρήστες με ρόλο {$a->fromrole} να βλέπουν τον ρόλο {$a->targetrole}';
 $string['allowswitch'] = 'Να επιτρέπονται εναλλαγές ρόλων';
+$string['allowview'] = 'Να επιτρέπεται στο ρόλο η προβολή';
 $string['allsiteusers'] = 'Όλοι οι χρήστες';
 $string['analytics:listinsights'] = 'Λίστα με διοράσεις';
 $string['analytics:managemodels'] = 'Διαχείριση μοντέλων';
@@ -166,6 +168,7 @@ $string['course:changeidnumber'] = 'Αλλαγή αναγνωριστικού α
 $string['course:changeshortname'] = 'Τροποποίηση σύντομου ονόματος μαθήματος';
 $string['course:changesummary'] = 'Τροποποίηση περίληψης μαθήματος';
 $string['course:create'] = 'Δημιουργία μαθημάτων';
+$string['course:creategroupconversations'] = 'Δημιουργία ομαδικών συζητήσεων';
 $string['course:delete'] = 'Διαγραφή μαθημάτων';
 $string['course:enrolconfig'] = 'Διαμόρφωση instances εγγραφής στα μαθήματα';
 $string['course:enrolreview'] = 'Εξέταση εγγραφών μαθήματος';
@@ -187,7 +190,9 @@ $string['course:reset'] = 'Επαναφορά αρχικών ρυθμίσεων 
 $string['course:reviewotherusers'] = 'Αξιολογήστε άλλους χρήστες';
 $string['course:sectionvisibility'] = 'Προβολή/απόκρυψη τμημάτων';
 $string['course:setcurrentsection'] = 'Ορισμός τρέχοντος τμήματος';
+$string['course:setforcedlanguage'] = 'Επιβολή γλώσσας μαθήματος';
 $string['course:tag'] = 'Αλλαγή ετικετών μαθήματος';
+$string['course:togglecompletion'] = 'Χειροκίνητη επισήμανση δραστηριοτήτων ως ολοκληρωμένων';
 $string['course:update'] = 'Επεξεργασία ρυθμίσεων μαθήματος';
 $string['course:useremail'] = 'Ενεργοποίηση/απενεργοποίηση διεύθυνσης email';
 $string['course:view'] = 'Προβολή μαθημάτων χωρίς συμμετέχοντες';
@@ -228,6 +233,7 @@ $string['errorroleshortnametoolong'] = 'Το σύντομο όνομα δεν π
 $string['eventroleallowassignupdated'] = 'Να επιτρέπεται ανάθεση ρόλου';
 $string['eventroleallowoverrideupdated'] = 'Να επιτρέπεται παράκαμψη ρόλου';
 $string['eventroleallowswitchupdated'] = 'Να επιτρέπεται εναλλαγή ρόλων';
+$string['eventroleallowviewupdated'] = 'Να επιτρέπεται προβολή ρόλου';
 $string['eventroleassigned'] = 'Ο ρόλος έχει ανατεθεί';
 $string['eventrolecapabilitiesupdated'] = 'Οι δυνατότητες ρόλων ενημερώθηκαν';
 $string['eventroledeleted'] = 'Ο ρόλος έχει διαγραφεί';
@@ -261,7 +267,7 @@ $string['grade:unlock'] = 'Ξεκλείδωμα βαθμών ή στοιχείω
 $string['grade:view'] = 'Προβολή των βαθμών σας';
 $string['grade:viewall'] = 'Προβολή των βαθμών άλλων χρηστών';
 $string['grade:viewhidden'] = 'Προβολή των κρυφών βαθμών μου';
-$string['highlightedcellsshowdefault'] = 'Τα φωτισμένα δικαιώματα που επισημαίνονται στον παρακάτω πίνακα είναι οι προεπιλογές για το αρχικό πρότυπο ρόλων που έχετε επιλέξει παραπάνω.κελιά στον παρακάτω πίνακα δείχνουν την από προεπιλογή δυνατότητα για το ρόλο αυτό, βασισμένα στον \'Ιστορικό τύπο ρόλου\'.';
+$string['highlightedcellsshowdefault'] = 'Τα φωτισμένα δικαιώματα που επισημαίνονται στον παρακάτω πίνακα είναι οι προεπιλογές για το αρχικό πρότυπο ρόλων που έχετε επιλέξει παραπάνω.κελιά στον παρακάτω πίνακα δείχνουν την από προεπιλογή δυνατότητα για το ρόλο αυτό, βασισμένα στον «Ιστορικό τύπο ρόλου».';
 $string['highlightedcellsshowinherit'] = 'Τα φωτισμένα κελιά στον παρακάτω πίνακα δείχνουν το δικαίωμα (αν υπάρχει) που πρόκειται να κληρονομηθεί. Εκτός από τις δυνατότητες που πραγματικά  θέλετε να αλλάξετε, αφήστε όλες τις άλλες ρυθμισμένες σε Κληρονομεί.';
 $string['inactiveformorethan'] = 'ανενεργό για παραπάνω από {$a->timeperiod}';
 $string['ingroup'] = 'στην ομάδα «{$a->group}»';
@@ -291,7 +297,7 @@ $string['my:manageblocks'] = 'Διαχείριση των μπλοκ σελίδ�
 $string['neededroles'] = 'Αδειοδοτημένοι ρόλοι';
 $string['nocapabilitiesincontext'] = 'Δεν υπάρχουν διαθέσιμες δυνατότες σε αυτό το πλαίσιο';
 $string['noneinthisx'] = 'Κανένας σ\' αυτό το {$a}';
-$string['noneinthisxmatching'] = 'Δεν υπάρχουν χρήστες παρόμοιοι με \'{$a->search}\' σ\' αυτό το {$a->contexttype}';
+$string['noneinthisxmatching'] = 'Δεν υπάρχουν χρήστες παρόμοιοι με «{$a->search}» σ\' αυτό το {$a->contexttype}';
 $string['norole'] = 'Κανένας ρόλος';
 $string['noroleassignments'] = 'Ο χρήστης αυτός δεν έχει αναθέσεις ρόλων πουθενά στο Moodle.';
 $string['noroles'] = 'Χωρίς ρόλους';
@@ -300,10 +306,11 @@ $string['notabletooverrideroleshere'] = 'Δεν μπορείτε να παρακ
 $string['notes:manage'] = 'Διαχείριση σημειώσεων';
 $string['notes:view'] = 'Προβολή σημειώσεων';
 $string['notset'] = 'Μη καταχωρημένο';
+$string['novisibleroles'] = 'Χωρίς ρόλους';
 $string['overrideanotherrole'] = 'Παράκαμψη άλλου ρόλου';
 $string['overridecontext'] = 'Παράκαμψη πλαισίου';
 $string['overridepermissions'] = 'Παράκαμψη δυνατοτήτων';
-$string['overridepermissionsforrole'] = 'Παράκαμψη δυνατοτήτων για το ρόλο \'{$a->role}\' στο {$a->context}';
+$string['overridepermissionsforrole'] = 'Παράκαμψη δυνατοτήτων για το ρόλο «{$a->role}» στο {$a->context}';
 $string['overridepermissions_help'] = 'Οι παρακάμψεις δικαιωμάτων επιτρέπουν την αποδοχή ή την αποτροπή επιλεγμένων δυνατοτήτων σε ένα συγκεκριμένο πλαίσιο.';
 $string['overridepermissionsin'] = 'Παράκαμψη δυνατοτήτων σε {$a}';
 $string['overrideroles'] = 'Παράκαμψη ρόλων';
@@ -352,6 +359,8 @@ $string['question:flag'] = 'Επισήμανση ερωτήσεων κατά τ�
 $string['question:managecategory'] = 'Επεξεργασία κατηγοριών ερωτήσεων';
 $string['question:moveall'] = 'Μετακίνηση όλων των ερωτήσεων';
 $string['question:movemine'] = 'Μετακίνηση των δικών σας ερωτήσεων';
+$string['question:tagall'] = 'Θέστε εττικέτες σε όλες τις ερωτήσεις';
+$string['question:tagmine'] = 'Θέστε εττικέτες στις δικές σας ερωτήσεις';
 $string['question:useall'] = 'Χρήση όλων των ερωτήσεων';
 $string['question:usemine'] = 'Χρήση των δικών σας ερωτήσεων';
 $string['question:viewall'] = 'Προβολή όλων των ερωτήσεων';
@@ -422,6 +431,8 @@ $string['site:import'] = 'Εισαγωγή άλλων μαθημάτων σε έ
 $string['site:maintenanceaccess'] = 'Πρόσβαση στον ιστότοπο κατά την διάρκεια της λειτουργίας συντήρησης';
 $string['site:manageallmessaging'] = 'Προσθήκη, αφαίρεση, μπλοκάρισμα και ξεμπλοκάρισμα επαφών για οποιονδήποτε χρήστη';
 $string['site:manageblocks'] = 'Διαχείριση των μπλοκ σε μια σελίδα';
+$string['site:managecontextlocks'] = 'Διαχειριστείτε το πάγωμα πλαισίων';
+$string['site:messageanyuser'] = 'Παρακάμψτε τις προτιμήσεις απορρήτου/ιδιωτικότητας χρήστη για την αποστολή μηνυμάτων σε οποιονδήποτε χρήστη';
 $string['site:mnetloginfromremote'] = 'Σύνδεση από απομακρυσμένη εφαρμογή μέσω MNet';
 $string['site:mnetlogintoremote'] = 'Σύνδεση σε απομακρυσμένη εγκατάσταση εφαρμογής (Moodle) μέσω MNet';
 $string['site:readallmessages'] = 'Ανάγνωση όλων των μηνυμάτων';

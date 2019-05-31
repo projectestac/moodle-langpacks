@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth', language 'ru', branch 'MOODLE_36_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,7 @@ $string['auth_updateremote_ldap'] = '<p><b>Примечание:</b> Для об
 $string['auth_user_create'] = 'Разрешить создание пользователей';
 $string['auth_user_creation'] = 'Новые (анонимные) пользователи могут создавать учетные записи во внешнем источнике аутентификации и подтверждать их по электронной почте. Если Вы включаете этот параметр, не забудьте также настроить параметры конкретного модуля, необходимые для создания пользователей.';
 $string['auth_usernameexists'] = 'Выбранный логин уже существует. Выберите другой.';
+$string['auth_usernotexist'] = 'Невозможно обновить несуществующего пользователя: {$a}';
 $string['auto_add_remote_users'] = 'Автоматически добавлять внешних пользователей';
 $string['cannotmapfield'] = 'Поле «{$a->fieldname}» нельзя сопоставить, так как его короткое имя «{$a->shortname}» является слишком длинным. Чтобы разрешить его сопоставление, Вам нужно уменьшить короткое имя до {$a->charlimit} символов. <a href="{$a->link}">Редактировать поля профиля пользователя</a>';
 $string['changepassword'] = 'Адрес страницы смены пароля';

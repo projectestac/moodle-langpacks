@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'repository', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,7 +36,7 @@ $string['addplugin'] = 'Προσθήκη ενός πρόσθετου αποθε�
 $string['allowexternallinks'] = 'Επιτρέπονται εξωτερικοί σύνδεσμοι';
 $string['areacategoryintro'] = 'Εισαγωγή στην κατηγορία';
 $string['areacourseintro'] = 'Εισαγωγή στο μάθημα';
-$string['areacourseoverviewfiles'] = 'Αρχεία περίληψης μαθήματος';
+$string['areacourseoverviewfiles'] = 'Εικόνα μαθήματος';
 $string['areamainfile'] = 'Κύριο αρχείο';
 $string['arearoot'] = 'Σύστημα';
 $string['areauserbackup'] = 'Αντίγραφο ασφαλείας χρήστη';
@@ -51,7 +51,7 @@ $string['back'] = '« Επιστροφή';
 $string['backtodraftfiles'] = 'Επιστροφή στη διαχείριση προσχεδίων αρχείων';
 $string['cachecleared'] = 'Τα αρχεία στην κρυφή μνήμη διαγράφονται';
 $string['cacheexpire'] = 'Λήξη κρυφής μνήμης';
-$string['cannotaccessparentwin'] = 'Εάν το γονικό παράθυρο βρίσκεται σε HTTPS, τότε δεν επιτρέπεται να αποκτήσετε πρόσβαση στο αντικείμενο window.opener, επομένως δεν μπορούμε να ανανεώσουμε αυτόματα το χώρο αποθήκευσης για σας, αλλά έχουμε ήδη την περίοδο λειτουργίας σας. Απλά επιστρέψτε στον επιλογέα αρχείων και επιλέξτε ξανά το αποθετήριο. Τώρα πρέπει να λειτουργεί.';
+$string['cannotaccessparentwin'] = 'Όταν χρησιμοποιείτε το HTTPS, το αποθετήριο δεν ανανεώνεται αυτόματα. Αντ\' αυτού, πρέπει να επιστρέψετε στο εργαλείο επιλογής αρχείων και να επιλέξετε ξανά το αποθετήριο.';
 $string['cannotdelete'] = 'Δεν είναι δυνατή η διαγραφή αυτού του αρχείου.';
 $string['cannotdownload'] = 'Δεν είναι δυνατή η λήψη αυτού του αρχείου.';
 $string['cannotdownloaddir'] = 'Δεν είναι δυνατή η λήψη αυτού του φακέλου';
@@ -113,7 +113,7 @@ $string['entername'] = 'Παρακαλούμε εισάγετε όνομα φα�
 $string['enternewname'] = 'Παρακαλούμε, εισαγάγετε το νέο όνομα αρχείου';
 $string['error'] = 'Συνέβη ένα άγνωστο σφάλμα!';
 $string['errordoublereference'] = 'Δεν είναι δυνατή η αντικατάσταση αρχείου με συντόμευση/ψευδώνυμο, επειδή υπάρχουν ήδη συντομεύσεις σε αυτό το αρχείο.';
-$string['errornotyourfile'] = 'Δεν μπορείτε να επιλέξετε αρχείο που δεν έχει προστεθεί από σας';
+$string['errornotyourfile'] = 'Μπορείτε να επιλέξετε μόνο αρχεία τα οποία προσθέσατε εσείς.';
 $string['errorpostmaxsize'] = 'Το αρχείο που προσπαθήσατε να ανεβάσετε είναι πολύ μεγάλο για να το επεξεργαστεί ο εξυπηρετητής.';
 $string['erroruniquename'] = 'Το όνομα στιγμιότυπου αποθετηρίου πρέπει να είναι μοναδικό';
 $string['errorwhilecommunicatingwith'] = 'Σφάλμα κατά την επικοινωνία με το αποθετήριο «{$a}».';
@@ -146,7 +146,7 @@ $string['instancesforusers'] = '{$a} Ιδιωτικά στιγμιότυπα(ο)
 $string['invalidfiletype'] = 'Ο τύπος αρχείου {$a} δεν μπορεί να γίνει αποδεκτός.';
 $string['invalidjson'] = 'Μη έγκυρη συμβολοσειρά JSON';
 $string['invalidparams'] = 'Μη έγκυρες παράμετροι';
-$string['invalidplugin'] = 'Μη έγκυρο πρόσθετο για το αποθετήριο {$a}';
+$string['invalidplugin'] = 'Μη έγκυρο πρόσθετο για το αποθετήριο «{$a}»';
 $string['invalidrepositoryid'] = 'Μη έγκυρο αναγνωριστικό αποθετηρίου';
 $string['isactive'] = 'Ενεργό;';
 $string['keyword'] = 'Λέξη κλειδί';
@@ -190,7 +190,7 @@ $string['original'] = 'Πρωτότυπο';
 $string['overwrite'] = 'Αντικατάσταση';
 $string['overwriteall'] = 'Αντικατάσταση όλων';
 $string['path'] = 'Διαδρομή';
-$string['plugin'] = 'Πρόσθετα αποθετηρίου';
+$string['plugin'] = 'Πρόσθετα  αποθετηρίου';
 $string['pluginerror'] = 'Σφάλματα σε πρόσθετο αποθετηρίου.';
 $string['pluginname'] = 'Όνομα πρόσθετου αποθετηρίου';
 $string['pluginnamehelp'] = 'Αν το αφήσετε κενό θα χρησιμοποιηθεί το προεπιλεγμένο όνομα.';
@@ -198,7 +198,7 @@ $string['popup'] = 'Κλικ στο πλήκτρο «Σύνδεση» για σ�
 $string['popupblockeddownload'] = 'Το παράθυρο λήψης είναι μπλοκαρισμένο. Παρακαλούμε επιτρέψτε το αναδυόμενο παράθυρο και δοκιμάστε ξανά.';
 $string['preview'] = 'Προεπισκόπηση';
 $string['privacy:metadata:repository'] = 'Το στοιχείο λογισμικού Αποθετηρίου αποθηκεύει τους τύπους αποθετηρίου στο βασικό υποσύστημα.';
-$string['privacy:metadata:repository_instances'] = 'Το στοιχείο λογισμικού των πρόσθετων Αποθετηρίου αποθηκεύει δεδομένα στιγμιοτύπων αποθετηρίου χρηστών στο υποσύστημα πυρήνα.';
+$string['privacy:metadata:repository_instances'] = 'Το στοιχείο λογισμικού των πρόσθετων Αποθετηρίου αποθηκεύει δεδομένα στιγμιοτύπων αποθετηρίου χρηστών μέσα στο υποσύστημα πυρήνα.';
 $string['privacy:metadata:repository_instances:name'] = 'Το προσαρμοσμένο όνομα του στιγμιοτύπου αποθετηρίου.';
 $string['privacy:metadata:repository_instances:password'] = 'Ο προαιρετικός κωδικός πρόσβασης έχει ρυθμιστεί για το στιγμιότυπο αποθετηρίου.';
 $string['privacy:metadata:repository_instances:timecreated'] = 'Η ημερομηνία/ώρα της δημιουργίας για το στιγμιότυπο αποθετηρίου.';

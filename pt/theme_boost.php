@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'theme_boost', language 'pt', branch 'MOODLE_36_STABLE'
  *
  * @package   theme_boost
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,17 +28,22 @@ defined('MOODLE_INTERNAL') || die();
 $string['advancedsettings'] = 'Configurações avançadas';
 $string['backgroundimage'] = 'Imagem de fundo';
 $string['backgroundimage_desc'] = 'Imagem a ser mostrada como plano de fundo do site. A imagem de fundo que carregar aqui substituirá a imagem de fundo nos seus ficheiros predefinidos de temas.';
+$string['bootswatch'] = 'Bootswatch';
+$string['bootswatch_desc'] = 'Um bootswatch é um conjunto de variáveis do Bootstrap e CSS para o estilo Bootstrap';
 $string['brandcolor'] = 'Cor da marca';
 $string['brandcolor_desc'] = 'A cor do rebordo.';
 $string['choosereadme'] = 'Boost é um tema moderno altamente personalizável. Este tema é destinado a ser usado como tal, ou como tema original para criar novos temas utilizando o Bootstrap 4.';
 $string['configtitle'] = 'Boost';
 $string['currentinparentheses'] = '(atual)';
+$string['fontsize'] = 'Tamanho do tipo de letra do tema base';
+$string['fontsize_desc'] = 'Indique o tamanho do tipo de letra em %';
 $string['generalsettings'] = 'Configurações gerais';
+$string['nobootswatch'] = 'Nenhum';
 $string['pluginname'] = 'Boost';
 $string['preset'] = 'Predefinição do tema';
 $string['preset_desc'] = 'Escolha uma predefinição para alterar amplamente a aparência do tema.';
 $string['presetfiles'] = 'Ficheiros adicionais de predefinições do tema';
-$string['presetfiles_desc'] = 'Os ficheiros de predefinições podem ser usados para alterar drasticamente a aparência do tema. Visite <a href=https://docs.moodle.org/dev/Boost_Presets>Boost presets</a> para obter informações sobre como criar e partilhar os seus próprios ficheiros de predefinições e também <a href=http://moodle.net/boost>Presets repository</a> para predefinições que outros tenham partilhado.';
+$string['presetfiles_desc'] = 'Os ficheiros de predefinições podem ser usados para alterar drasticamente a aparência do tema. Visite <a href=https://docs.moodle.org/dev/Boost_Presets>Personalização Boost</a> para obter informações sobre como criar e partilhar os seus próprios ficheiros de predefinições e também <a href=http://moodle.net/boost>Repositório de personalizações</a> para predefinições que outros tenham partilhado.';
 $string['privacy:drawernavclosed'] = 'A preferência atual do menu de navegação é fechado.';
 $string['privacy:drawernavopen'] = 'A preferência atual do menu de navegação é aberto.';
 $string['privacy:metadata'] = 'O tema Boost não armazena qualquer dado pessoal de nenhum utilizador.';

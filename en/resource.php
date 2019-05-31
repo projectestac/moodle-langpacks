@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'en', branch 'MOODLE_34_STABLE'
+ * Strings for component 'resource', language 'en', branch 'MOODLE_36_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -95,7 +95,7 @@ $string['popupwidth'] = 'Pop-up width (in pixels)';
 $string['popupwidthexplain'] = 'Specifies default width of popup windows.';
 $string['printintro'] = 'Display resource description';
 $string['printintroexplain'] = 'Display resource description below content? Some display types may not display description even if enabled.';
-$string['privacy:metadata'] = 'The mod_resource plugin does not store any personal data.';
+$string['privacy:metadata'] = 'The File resource plugin does not store any personal data.';
 $string['resource:addinstance'] = 'Add a new resource';
 $string['resourcecontent'] = 'Files and subfolders';
 $string['resourcedetails_sizedate'] = '{$a->size} {$a->date}';

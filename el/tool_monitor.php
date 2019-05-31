@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_monitor', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -118,7 +118,7 @@ $string['subareyousure'] = 'Είστε βέβαιοι ότι θέλετε να �
 $string['subcreatesuccess'] = 'Η εγγραφή δημιουργήθηκε με επιτυχία';
 $string['subdeletesuccess'] = 'Η εγγραφή διαγράφηκε με επιτυχία';
 $string['subhelp'] = 'Στοιχεία εγγραφής';
-$string['subhelp_help'] = 'Αυτή η συνδρομή παρακολουθεί πότε το γεγονός «{$a->eventname}» έχει ενεργοποιηθεί στο \'{$a->moduleinstance}\' {$a->frequency} φορές(ά) σε {$a->minutes} λεπτά(ό).';
+$string['subhelp_help'] = 'Αυτή η συνδρομή παρακολουθεί πότε το γεγονός «{$a->eventname}» έχει ενεργοποιηθεί στο «{$a->moduleinstance}» {$a->frequency} φορές(ά) σε {$a->minutes} λεπτά(ό).';
 $string['subscribeto'] = 'Εγγραφείτε στον κανόνα «{$a}»';
 $string['taskchecksubscriptions'] = 'Ενεργοποίηση/απενεργοποίηση των μη έγκυρων εγγραφών κανόνα';
 $string['taskcleanevents'] = 'Εκκαθάριση γεγονότων της παρακολούθησης γεγονότων';

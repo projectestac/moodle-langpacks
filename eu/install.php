@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'install', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -157,7 +157,6 @@ Horrek Moodle-k berak memoria-muga ezartzea ahalbidetzen du.</li>
 <p>Hala ere, zerbitzari batzuetan horrek PHP orri <b>guztiek</b> ez funtzionatzea ekar dezake
 (orriak ikustean erroreak ere ikusiko dituzu). Kasu horretan, .htaccess fitxategia ezabatu beharko duzu.</p></li>
 </ol>';
-$string['mssqlextensionisnotpresentinphp'] = 'PHP ez da ondo konfiguratu MSSQL luzapenaren bidez SQL*Server-ekin komunikatzeko. Mesedez konprobatu zure php.ini fitxategia edo PHP berriz konpilatu.';
 $string['mysqliextensionisnotpresentinphp'] = 'PHP ez da ondo konfiguratu MySQLi luzapenaren bidez MySQL-rekin komunikatzeko. Mesedez konprobatu zure php.ini fitxategia edo PHP berriz konpilatu.';
 $string['nativemariadb'] = 'MariaDB (native/mariadb)';
 $string['nativemariadbhelp'] = '<p>Datu-basean gordetzen dira Moodle-ko ezarpen eta datu gehienak eta hemen konfiguratu behar da.</p>
@@ -165,9 +164,6 @@ $string['nativemariadbhelp'] = '<p>Datu-basean gordetzen dira Moodle-ko ezarpen 
 <p>Datu-basearen izenak soilik karaktere alfanumerikoak, dolar ($) eta beheko gidoia (_) izan ditzake.</p>
 <p>Datu-basea dagoeneko existitzen ez bada eta erabiltzaileak baimenak baditu, Moodle datu-base berri bat sortzen saiatuko da baimen eta ezarpen egokiekin.</p>
 <p>Kontrolatzailea ez da bateragarria heredatutako MyISAM motorearekin</p>';
-$string['nativemssql'] = 'SQL*Server FreeTDS (native/mssql)';
-$string['nativemssqlhelp'] = 'Orain Moodle-ko datuak gordeko diren datu-basea konfiguratu behar duzu.
-Datu-base hau lehendik sortuta egon behar du, baita sarbidea eta pasahitza dituen erabiltzaile bat ere. Taulen aurrizkia derrigorrezkoa da.';
 $string['nativemysqli'] = 'Improved MySQL (native/mysqli)';
 $string['nativemysqlihelp'] = '<p>Datu-basean gordetzen dira Moodle-ko ezarpen eta datu gehienak eta hemen konfiguratu behar da.</p>
 <p>Datu-basearen izena, erabiltzailea eta pasahitza derrigorrezko eremuak dira; taulen aurrizkia aukerakoa da.</p>

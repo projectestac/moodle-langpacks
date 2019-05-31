@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'role', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,9 @@ $string['allowoverride'] = 'Autoriser la définition de dérogations aux rôles'
 $string['allowroletoassign'] = 'Autoriser les utilisateurs ayant le rôle {$a->fromrole} à attribuer le rôle {$a->targetrole}';
 $string['allowroletooverride'] = 'Autoriser les utilisateurs ayant le rôle {$a->fromrole} à définir des dérogations pour le rôle {$a->targetrole}';
 $string['allowroletoswitch'] = 'Autoriser les utilisateurs ayant le rôle {$a->fromrole} à changer de rôle vers le rôle {$a->targetrole}';
+$string['allowroletoview'] = 'Permettre aux utilisateurs ayant le rôle {$a->fromrole} de voir le rôle {$a->targetrole}';
 $string['allowswitch'] = 'Autoriser le changement de rôle';
+$string['allowview'] = 'Autoriser le rôle à voir';
 $string['allsiteusers'] = 'Tous les utilisateurs du site';
 $string['analytics:listinsights'] = 'Lister les indications';
 $string['analytics:managemodels'] = 'Gérer les modèles';
@@ -166,6 +168,7 @@ $string['course:changeidnumber'] = 'Modifier le n° d\'identification du cours';
 $string['course:changeshortname'] = 'Modifier le nom abrégé du cours';
 $string['course:changesummary'] = 'Modifier le résumé du cours';
 $string['course:create'] = 'Créer des cours';
+$string['course:creategroupconversations'] = 'Créer des conversations de groupe';
 $string['course:delete'] = 'Supprimer des cours';
 $string['course:enrolconfig'] = 'Configurer les instances d\'inscription dans les cours';
 $string['course:enrolreview'] = 'Vérifier les inscriptions aux cours';
@@ -187,7 +190,9 @@ $string['course:reset'] = 'Réinitialiser les cours';
 $string['course:reviewotherusers'] = 'Consulter les autres utilisateurs';
 $string['course:sectionvisibility'] = 'Contrôler la visibilité des sections';
 $string['course:setcurrentsection'] = 'Fixer la section actuelle';
+$string['course:setforcedlanguage'] = 'Imposer la langue du cours';
 $string['course:tag'] = 'Modifier les tags de cours';
+$string['course:togglecompletion'] = 'Marquer manuellement les activités comme achevées';
 $string['course:update'] = 'Modifier les réglages des cours';
 $string['course:useremail'] = 'Activer/désactiver les adresses de courriel';
 $string['course:view'] = 'Voir les cours sans y participer';
@@ -228,6 +233,7 @@ $string['errorroleshortnametoolong'] = 'Le nom abrégé ne peut pas dépasser 10
 $string['eventroleallowassignupdated'] = 'Attribution de rôle autorisée';
 $string['eventroleallowoverrideupdated'] = 'Dérogation de rôle autorisée';
 $string['eventroleallowswitchupdated'] = 'Changement de rôle autorisé';
+$string['eventroleallowviewupdated'] = 'Permettre au rôle d\'être vu';
 $string['eventroleassigned'] = 'Rôle attribué à un utilisateur';
 $string['eventrolecapabilitiesupdated'] = 'Capacités de rôle modifiées';
 $string['eventroledeleted'] = 'Rôle supprimé';
@@ -300,6 +306,7 @@ $string['notabletooverrideroleshere'] = 'Vous ne pouvez modifier ici aucune perm
 $string['notes:manage'] = 'Gérer les annotations';
 $string['notes:view'] = 'Voir les annotations';
 $string['notset'] = 'Non défini';
+$string['novisibleroles'] = 'Aucun rôle';
 $string['overrideanotherrole'] = 'Définir une dérogation pour un autre rôle';
 $string['overridecontext'] = 'Contexte de dérogation';
 $string['overridepermissions'] = 'Définir des dérogations aux permissions';
@@ -352,6 +359,8 @@ $string['question:flag'] = 'Marquer les questions auxquelles on répond';
 $string['question:managecategory'] = 'Modifier les catégories de questions';
 $string['question:moveall'] = 'Déplacer toutes les questions';
 $string['question:movemine'] = 'Déplacer ses propres questions';
+$string['question:tagall'] = 'Tagger toutes les questions';
+$string['question:tagmine'] = 'Tagger vos propres questions';
 $string['question:useall'] = 'Utiliser toutes les questions';
 $string['question:usemine'] = 'Utiliser ses propres questions';
 $string['question:viewall'] = 'Voir toutes les questions';
@@ -422,6 +431,8 @@ $string['site:import'] = 'Importer d\'autres cours dans un cours';
 $string['site:maintenanceaccess'] = 'Accéder à la plateforme en mode de maintenance';
 $string['site:manageallmessaging'] = 'Ajouter, supprimer, bloquer et débloquer des contacts pour n\'importe quel utilisateur';
 $string['site:manageblocks'] = 'Gérer les blocs sur une page';
+$string['site:managecontextlocks'] = 'Gestion du gel des contextes';
+$string['site:messageanyuser'] = 'Passer outre les préférences de confidentialité utilisateur pour envoyer un message à tous les utilisateurs';
 $string['site:mnetloginfromremote'] = 'Se connecter depuis une application distante via MNet';
 $string['site:mnetlogintoremote'] = 'Accéder à une application distante via MNet';
 $string['site:readallmessages'] = 'Lire tous les messages sur le site';

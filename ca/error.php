@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'error', language 'ca', branch 'MOODLE_36_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -375,7 +375,6 @@ $string['logfilenotavailable'] = 'No es pot accedir als registres';
 $string['loginasnoenrol'] = 'No us podeu inscriure en un curs, o cancel·lar la inscripció, mentre estigueu dins d\'una sessió del tipus «inicia sessió com a»';
 $string['loginasonecourse'] = 'No podeu entrar en aquest curs.<br />Heu d\'acabar la sessió «Inicia sessió com a» abans d\'entrar a cap altre curs.';
 $string['maxareabytes'] = 'No hi ha prou espai disponible per emmagatzemar aquest fitxer';
-$string['maxbytes'] = 'Aquest fitxer excedeix la mida màxima permesa';
 $string['maxbytesfile'] = 'El fitxer {$a->file} és massa gran. La mida màxima que podeu pujar és de {$a->size}.';
 $string['messagingdisable'] = 'La missatgeria d\'aquest lloc està desactivada.';
 $string['mimetexisnotexist'] = 'El vostre sistema no està configurat per executar mimeTeX. Cal que descarregueu l\'executable corresponent a la vostra plataforma PHP_OS de <a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a>, o obtenir les fonts de C de <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>, compilar-les i posar l\'executable al vostre directori moodle/filter/tex/';

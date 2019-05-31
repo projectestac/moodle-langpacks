@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assign', language 'ru', branch 'MOODLE_36_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addnewattempt_help'] = 'Это создаст новое пустое �
 $string['addnewgroupoverride'] = 'Добавить переопределение групп';
 $string['addnewuseroverride'] = 'Добавить переопределение пользователя';
 $string['addsubmission'] = 'Добавить ответ на задание';
+$string['addsubmission_help'] = 'Вы пока не предоставили ответ на задание';
 $string['allocatedmarker'] = 'Назначенный оценщик';
 $string['allocatedmarker_help'] = 'Назначенный оценщик этой работы';
 $string['allowsubmissions'] = 'Разрешить пользователю продолжать представлять ответ на это задание.';
@@ -108,7 +109,6 @@ $string['blindmarking_help'] = 'Оценивание вслепую скрыва
 $string['calendardue'] = '{$a} - надо сдать';
 $string['calendargradingdue'] = '{$a} - должно быть оценено';
 $string['changefilters'] = 'Изменить фильтры';
-$string['changegradewarning'] = 'В задании есть оцененные представления и изменение оценки не будет автоматически пересчитывать существующие оценки представлений. Необходимо повторно переоценить все существующие представления, если Вы хотите изменить оценки.';
 $string['changeuser'] = 'Изменить пользователя';
 $string['choosegradingaction'] = 'Действия оценивания';
 $string['choosemarker'] = 'Выберите ...';
@@ -160,7 +160,7 @@ $string['editingstatus'] = 'Изменение статуса';
 $string['editonline'] = 'Редактировать онлайн';
 $string['editoverride'] = 'Редактировать переопределение';
 $string['editsubmission'] = 'Редактировать ответ';
-$string['editsubmission_help'] = 'Внесение изменений в представленную работу';
+$string['editsubmission_help'] = 'Вы можете внести изменения в представленную работу';
 $string['editsubmissionother'] = 'Редактирование ответа {$a}';
 $string['enabled'] = 'Доступно';
 $string['errornosubmissions'] = 'Нет никаких ответов на задание';
@@ -486,7 +486,7 @@ $string['submissionstatusheading'] = 'Состояние ответа';
 $string['submissionstatus_marked'] = 'Оценено';
 $string['submissionstatus_new'] = 'Ответ не представлен';
 $string['submissionstatus_reopened'] = 'Возобновлено';
-$string['submissionstatus_submitted'] = 'Отправлено для оценивания';
+$string['submissionstatus_submitted'] = 'Ответы для оценки';
 $string['submissionsummary'] = '{$a->status}. Последнее изменение -  {$a->timemodified}';
 $string['submissionteam'] = 'Группы';
 $string['submissiontypes'] = 'Типы представлений ответов';

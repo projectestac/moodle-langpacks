@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'scorm', language 'es', branch 'MOODLE_36_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -156,9 +156,7 @@ $string['forcecompleted_help'] = 'Si se activa, el estado del intento actual se 
 $string['forcejavascript'] = 'Obligar a los usuarios a tener JavaScript habilitado';
 $string['forcejavascript_desc'] = 'Si está activado (recomendado) impide el acceso a los objetos SCORM cuando JavaScript no está soportado/activado en el navegador del usuario. Si está desactivado, el usuario puede ver el SCORM, pero la comunicación API fallará y no se almacenará la información de la calificación.';
 $string['forcejavascriptmessage'] = 'Se requiere JavaScript para visualizar este objeto, por favor, active JavaScript en su navegador y vuelva a intentarlo.';
-$string['forcenewattempt'] = 'Forzar nuevo intento';
-$string['forcenewattemptdesc'] = 'Esta preferencia fija el valor por defecto para mostrar el ajuste de forzar nuevo intento';
-$string['forcenewattempt_help'] = 'Si se activa, cada vez que un paquete SCORM se visite se contará como un nuevo intento.';
+$string['forcenewattempts'] = 'Forzar nuevo intento';
 $string['found'] = 'Encontrado manifiesto';
 $string['frameheight'] = 'Esta preferencia determina la altura por defecto del marco o ventana SCO';
 $string['framewidth'] = 'Esta preferencia ajusta la anchura por defecto del marco o ventana SCO';
@@ -337,7 +335,6 @@ $string['reviewmode'] = 'Modo Revisión';
 $string['rightanswer'] = 'Respuesta correcta';
 $string['scoes'] = 'Objetos de aprendizaje';
 $string['score'] = 'Puntuación';
-$string['scorm12standard'] = 'Habilitado SCORM 1.2 modo estandar';
 $string['scorm:addinstance'] = 'Añadir un nuevo paquete SCORM';
 $string['scormclose'] = 'Disponible hasta';
 $string['scormcourse'] = 'Curso de Aprendizaje';

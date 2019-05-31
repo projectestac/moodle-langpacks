@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_ddimageortext', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   qtype_ddimageortext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,7 +40,7 @@ $string['draggableword'] = 'Μεταφέρσιμο κείμενο';
 $string['dropbackground'] = 'Εικόνα φόντου για να μεταφέρετε δείκτες θέσης πάνω της';
 $string['dropzone'] = 'Ζώνη απόθεσης {$a}';
 $string['dropzoneheader'] = 'Ζώνες απόθεσης';
-$string['formerror_disallowedtags'] = 'Λυπούμαστε, οι ετικέτες HTML δεν επιτρέπονται σε κείμενο με δυνατότητα μεταφοράς.';
+$string['formerror_disallowedtags'] = 'Σε αυτό σε κείμενο με δυνατότητα μεταφοράς επιτρέπονται μόνο ετικέτες «{$a}».';
 $string['formerror_multipledraginstance'] = 'Έχετε επιλέξει αυτήν την εικόνα {$a} περισσότερες από μία φορές ως τη σωστή επιλογή για μια ζώνη απόθεσης, αλλά δεν έχει επισημανθεί ως απεριόριστο μεταφέρσιμο στοιχείο.';
 $string['formerror_multipledraginstance2'] = 'Έχετε επιλέξει αυτήν την εικόνα περισσότερες από μία φορές ως τη σωστή επιλογή για μια ζώνη απόθεσης, αλλά δεν έχει επισημανθεί ως απεριόριστο μεταφέρσιμο στοιχείο.';
 $string['formerror_noallowedtags'] = 'Οι ετικέτες HTML δεν επιτρέπονται σε αυτό το κείμενο, το οποίο είναι το εναλλακτικό κείμενο για μια εικόνα που μπορεί να μεταφερθεί.';

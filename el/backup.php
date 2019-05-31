@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'backup', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['autoactivedescription'] = 'Επιλέξτε αν θέλετε ή όχι να δημιουργούνται αυτόματα αντίγραφα ασφαλείας. Αν επιλέξετε χειρονακτικά, τα αυτόματα αντίγραφα ασφαλείας θα είναι δυνατά μόνο μέσα από τη δέσμη ενεργειών αυτομάτων αντιγράφων ασφαλείας CLI (Command-Line Interface). Αυτό μπορεί να γίνει είτε χειροκίνητα από τη γραμμή εντολών ή μέσω της εντολής χρονοπρογραμματισμού cron.';
+$string['autoactivedescription'] = 'Επιλέξτε αν θέλετε ή όχι να δημιουργούνται αυτόματα αντίγραφα ασφαλείας. Αν επιλέξετε χειροκίνητα, τα αυτόματα αντίγραφα ασφαλείας θα είναι δυνατά μόνο μέσα από το σενάριο αυτομάτων αντιγράφων ασφαλείας CLI (Command-Line Interface). Αυτό μπορεί να γίνει είτε χειροκίνητα από τη γραμμή εντολών ή μέσω της εντολής χρονοπρογραμματισμού cron.';
 $string['autoactivedisabled'] = 'Απενεργοποιημένο';
 $string['autoactiveenabled'] = 'Ενεργοποιημένο';
 $string['autoactivemanual'] = 'Μη αυτόματο';
@@ -193,7 +193,7 @@ $string['importcurrentstage4'] = 'Επιβεβαίωση και εξέταση';
 $string['importcurrentstage8'] = 'Εκτέλεση εισαγωγής';
 $string['importfile'] = 'Εισαγωγή αντιγράφου ασφαλείας';
 $string['importgeneralduplicateadminallowed'] = 'Να επιτρέπεται επίλυση σύγκρουση admin';
-$string['importgeneralduplicateadminallowed_desc'] = 'Αν ο ιστότοπος έχει ένα λογαριασμό με όνομα χρήστη «admin», και γίνει προσπάθεια επαναφοράς ενός αρχείου αντιγράφου ασφαλείας που περιέχει ένα λογαριασμό με όνομα χρήστη «admin» θα προκληθεί σύγκρουση. Εάν ενεργοποιηθεί αυτή η ρύθμιση, η σύγκρουση θα επιλυθεί με την αλλαγή του ονόματος χρήστη στο αρχείο αντιγράφου ασφαλείας σε \'admin_xyz\'.';
+$string['importgeneralduplicateadminallowed_desc'] = 'Αν ο ιστότοπος έχει ένα λογαριασμό με όνομα χρήστη «admin», και γίνει προσπάθεια επαναφοράς ενός αρχείου αντιγράφου ασφαλείας που περιέχει ένα λογαριασμό με όνομα χρήστη «admin» θα προκληθεί σύγκρουση. Εάν ενεργοποιηθεί αυτή η ρύθμιση, η σύγκρουση θα επιλυθεί με την αλλαγή του ονόματος χρήστη στο αρχείο αντιγράφου ασφαλείας σε «admin_xyz».';
 $string['importgeneralmaxresults'] = 'Μέγιστος αριθμός μαθημάτων για εισαγωγή';
 $string['importgeneralmaxresults_desc'] = 'Ελέγχει τον αριθμό των μαθημάτων που απαριθμούνται στο πρώτο στάδιο της διαδικασίας εισαγωγής';
 $string['importgeneralsettings'] = 'Προεπιλογές γενικής εισαγωγής';
@@ -221,7 +221,7 @@ $string['morecoursesearchresults'] = 'Βρέθηκαν περισσότερα α
 $string['moreresults'] = 'Υπάρχουν πάρα πολλά αποτελέσματα, εισάγετε μια πιο συγκεκριμένη αναζήτηση.';
 $string['nomatchingcourses'] = 'Δεν υπάρχουν μαθήματα για να εμφανίσετε';
 $string['norestoreoptions'] = 'Δεν υπάρχουν κατηγορίες ή υφιστάμενα μαθήματα για επαναφορά.';
-$string['originalwwwroot'] = 'URL αντιγράφου ασφαλείας';
+$string['originalwwwroot'] = 'Διεύθυνση URL αντιγράφου ασφαλείας';
 $string['overwrite'] = 'Αντικατάσταση';
 $string['preparingdata'] = 'Προετοιμασία δεδομένων';
 $string['preparingui'] = 'Προετοιμασία εμφάνισης σελίδας';
@@ -235,9 +235,10 @@ $string['privacy:metadata:backup_controllers:type'] = 'Ο τύπος του στ
 $string['privacy:metadata:backup:detailsofarchive'] = 'Αυτό το αρχείο μπορεί να περιέχει διάφορα δεδομένα χρήστη σχετικά με ένα μάθημα, όπως βαθμοί, εγγραφές χρηστών και δεδομένα δραστηριότητας.';
 $string['privacy:metadata:backup:externalpurpose'] = 'Ο σκοπός αυτού του αρχείου είναι η αποθήκευση πληροφοριών σχετικά με ένα μάθημα, του οποίου μπορεί να γίνει επαναφορά στο μέλλον.';
 $string['qcategory2coursefallback'] = 'Η κατηγορία ερωτήσεων «{$a->name}», αρχικά στο πλαίσιο σύστημα/κατηγορία μαθημάτων στο αρχείο αντιγράφου ασφαλείας, θα δημιουργηθεί στο πλαίσιο μαθήματος κατά την επαναφορά';
-$string['qcategorycannotberestored'] = 'Δεν είναι δυνατή η δημιουργία της κατηγορίας ερωτήσεων "{$a->name}" κατά την επαναφορά';
+$string['qcategorycannotberestored'] = 'Δεν είναι δυνατή η δημιουργία της κατηγορίας ερωτήσεων «{$a->name}» κατά την επαναφορά';
 $string['question2coursefallback'] = 'Η κατηγορία ερωτήσεων «{$a->name}», αρχικά στο πλαίσιο σύστημα/κατηγορία μαθημάτων στο αρχείο αντιγράφου ασφαλείας, θα δημιουργηθεί στο πλαίσιο μαθήματος κατά την επαναφορά';
 $string['questionegorycannotberestored'] = 'Δεν είναι δυνατή η δημιουργία της κατηγορίας ερωτήσεων «{$a->name}» κατά την επαναφορά';
+$string['recyclebin_desc'] = 'Να σημειωθεί ότι αυτές οι ρυθμίσεις θα εφαρμοστούν επίσης στον κάδο ανακύκλωσης.';
 $string['replacerestoredefaults'] = 'Επαναφορά προεπιλογών κατά την επαναφορά σε άλλο μάθημα, διαγράφοντας τα περιεχόμενα';
 $string['restoreactivity'] = 'Επαναφορά δραστηριότητας';
 $string['restorecourse'] = 'Επαναφορά μαθήματος';

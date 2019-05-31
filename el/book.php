@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'book', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -60,7 +60,7 @@ $string['modulename_help'] = 'Το άρθρωμα βιβλίου δίνει τη
 * Ως χαρτοφυλάκιο επίδειξης μαθητικής εργασίας';
 $string['modulenameplural'] = 'Βιβλία';
 $string['movechapterdown'] = 'Μετακίνηση κεφαλαίου κάτω «{$a}»';
-$string['movechapterup'] = 'Move chapter up «{$a}»';
+$string['movechapterup'] = 'Μετακίνηση κεφαλαίου πάνω «{$a}»';
 $string['navexit'] = 'Έξοδος από το βιβλίο';
 $string['navimages'] = 'Εικόνες';
 $string['navnext'] = 'Επόμενο';

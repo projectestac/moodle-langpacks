@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'resource', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -93,7 +93,7 @@ $string['popupwidth'] = 'Largeur de la fenêtre (en pixels)';
 $string['popupwidthexplain'] = 'Indique la largeur par défaut des fenêtres surgissantes.';
 $string['printintro'] = 'Afficher la description de la ressource';
 $string['printintroexplain'] = 'Indique s\'il faut afficher la description de la ressource au-dessus du contenu. Certains types d\'affichage n\'afficheront toutefois pas cette description, même lorsque l\'option est activée.';
-$string['privacy:metadata'] = 'Le plugin mod_resource n\'enregistre aucune donnée personnelle.';
+$string['privacy:metadata'] = 'Le plugin de ressource Fichier n\'enregistre aucune donnée personnelle.';
 $string['resource:addinstance'] = 'Ajouter une ressource';
 $string['resourcecontent'] = 'Fichiers et sous-dossiers';
 $string['resourcedetails_sizedate'] = '{$a->size} {$a->date}';

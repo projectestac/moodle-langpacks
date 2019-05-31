@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'wiki', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -78,7 +78,7 @@ $string['editcomment'] = 'Επεξεργασία σχολίου';
 $string['editfiles'] = 'Επεξεργασία αρχείων wiki';
 $string['editing'] = 'Επεξεργασία σελίδας wiki...';
 $string['editingcomment'] = 'Επεξεργασία σχολίου';
-$string['editingpage'] = 'Επεξεργασία αυτής της σελίδας \'{$a}\'.';
+$string['editingpage'] = 'Επεξεργασία αυτής της σελίδας «{$a}».';
 $string['editsection'] = 'επεξεργασία';
 $string['eventdiffviewed'] = 'Οι διαφορές (diff) μεταξύ Wiki προβλήθηκαν';
 $string['eventhistoryviewed'] = 'Το ιστορικό του Wiki προβλήθηκε';
@@ -91,7 +91,7 @@ $string['eventpageversiondeleted'] = 'Η έκδοση σελίδας wiki δια
 $string['eventpageviewed'] = 'Η σελίδα wiki προβλήθηκε';
 $string['eventversionrestored'] = 'Η έκδοση Wiki επαναφέρθηκε';
 $string['eventversionviewed'] = 'Η έκδοση σελίδας wiki προβλήθηκε';
-$string['filenotuploadederror'] = 'Το αρχείο \'{$a}\' δεν μπόρεσε να ανεβεί σωστά.';
+$string['filenotuploadederror'] = 'Το αρχείο «{$a}» δεν μπόρεσε να ανεβεί σωστά.';
 $string['files'] = 'Αρχεία';
 $string['filtername'] = 'Αυτόματη σύνδεση σελίδων wiki';
 $string['firstpagetitle'] = 'Όνομα πρώτης σελίδας';
@@ -234,7 +234,7 @@ $string['ratingmode'] = 'Λειτουργία αξιολόγησης';
 $string['removeallwikitags'] = 'Κατάργηση όλων των ετικετών wiki';
 $string['removepages'] = 'Κατάργηση σελίδων';
 $string['reparsetimeout'] = 'Αναδιάρθρωση προεπιλεγμένου χρονικού ορίου';
-$string['repeatedsection'] = 'Σφάλμα wiki: Το όνομα του τμήματος δεν μπορεί να επαναληφθεί \'{$a}\'.';
+$string['repeatedsection'] = 'Σφάλμα wiki: Το όνομα του τμήματος δεν μπορεί να επαναληφθεί «{$a}».';
 $string['restore'] = 'Επαναφέρω';
 $string['restoreconfirm'] = 'Είστε βέβαιοι ότι θέλετε να επαναφέρετε την έκδοση #{$a};';
 $string['restoreerror'] = 'Η έκδοση #{$a} δεν ήταν δυνατό να επαναφερθεί';

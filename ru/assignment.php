@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignment', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignment', language 'ru', branch 'MOODLE_36_STABLE'
  *
  * @package   assignment
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['assignmentdisabled'] = 'Устаревший элемент «Зада�
 $string['assignment:exportownsubmission'] = 'Экспортировать свои задания';
 $string['assignment:exportsubmission'] = 'Экспортировать задания';
 $string['assignment:grade'] = 'Оценивать задание';
-$string['assignmentneedsupgrade'] = 'Устаревший элемент «Задание 2.2» был отключен. Обратитесь к администратору сайта, чтобы он запустил процесс обновления всех унаследованных заданий на этом сайте.';
+$string['assignmentneedsupgrade'] = 'Устаревший элемент «Задание 2.2» был удален.';
 $string['assignment:submit'] = 'Отправлять ответ на задание';
 $string['assignment:view'] = 'Просматривать задание';
 $string['messageprovider:assignment_updates'] = 'Уведомления о задании (2.2)';
@@ -44,4 +44,3 @@ $string['pluginadministration'] = 'Управление отключенным �
 $string['pluginname'] = 'Задание 2.2 (Отключено)';
 $string['privacy:metadata:assignment_submissions:timecreated'] = 'Дата и время создания ответа на задание.';
 $string['upgradenotification'] = 'Этот элемент курса основан на старом модуле «Задание».';
-$string['viewassignmentupgradetool'] = 'Просмотр способов обновления задания';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeimport_xml', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'gradeimport_xml', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   gradeimport_xml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,11 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['errbadxmlformat'] = 'Σφάλμα - λάθος μορφή XML';
-$string['errduplicategradeidnumber'] = 'Σφάλμα - υπάρχουν δύο στοιχεία βαθμού με αναγνωριστικό αριθμό \'{$a}\' σε αυτό το μάθημα. Αυτό θα έπρεπε να είναι αδύνατο.';
+$string['errduplicategradeidnumber'] = 'Σφάλμα - υπάρχουν δύο στοιχεία βαθμού με αναγνωριστικό αριθμό «{$a}» σε αυτό το μάθημα. Αυτό θα έπρεπε να είναι αδύνατο.';
 $string['errduplicateidnumber'] = 'Σφάλμα - διπλότυπος αναγνωριστικός αριθμός';
-$string['errincorrectgradeidnumber'] = 'Σφάλμα - ο αναγνωριστικός αριθμός \'{$a}\' από το αρχείο εισαγωγής δεν αντιστοιχεί σε κάποιο στοιχείο βαθμού.';
+$string['errincorrectgradeidnumber'] = 'Σφάλμα - ο αναγνωριστικός αριθμός «{$a}» από το αρχείο εισαγωγής δεν αντιστοιχεί σε κάποιο στοιχείο βαθμού.';
 $string['errincorrectidnumber'] = 'Σφάλμα - λανθασμένος αναγνωριστικός αριθμός';
-$string['errincorrectuseridnumber'] = 'Σφάλμα - ο αναγνωριστικός αριθμός \'{$a}\' από το αρχείο εισαγωγής δεν αντιστοιχεί σε κάποιον χρήστη.';
+$string['errincorrectuseridnumber'] = 'Σφάλμα - ο αναγνωριστικός αριθμός «{$a}» από το αρχείο εισαγωγής δεν αντιστοιχεί σε κάποιον χρήστη.';
 $string['error'] = 'Συνέβησαν σφάλματα';
 $string['errorduringimport'] = 'Προέκυψε σφάλμα κατα την εισαγωγή: {$a}';
 $string['fileurl'] = 'URL απομακρυσμένου αρχείου';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'chat', language 'it', branch 'MOODLE_36_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,8 +66,8 @@ $string['errornousers'] = 'Non riesco a trovare utenti!';
 $string['eventmessagesent'] = 'Inviato messaggio';
 $string['eventsessionsviewed'] = 'Visualizzata sessione';
 $string['explaingeneralconfig'] = 'Impostazioni comuni valide con <strong>qualsiasi</strong> metodo di chat';
-$string['explainmethoddaemon'] = 'Impostazioni valide <strong>solo</strong> se si sceglie "Server chat" in chat_method';
-$string['explainmethodnormal'] = 'Impostazioni valide <strong>solo</strong> se si sceglie  "Metodo standard" in chat_method';
+$string['explainmethoddaemon'] = 'Impostazioni valide <strong>solo</strong> se si seleziona "Server chat" come metodo chat.';
+$string['explainmethodnormal'] = 'Impostazioni valide <strong>solo</strong> se si seleziona"Metodo normale" come metodo chat.';
 $string['generalconfig'] = 'Configurazione generale';
 $string['idle'] = 'Inattivo';
 $string['indicator:cognitivedepth'] = 'Chat cognitivo';
@@ -86,9 +86,9 @@ $string['messageexit'] = '{$a} ha lasciato la chat';
 $string['messages'] = 'Messaggi';
 $string['messageyoubeep'] = 'Hai richiamato {$a}';
 $string['method'] = 'Metodo chat';
-$string['methodajax'] = 'Metodo Ajax';
+$string['methodajax'] = 'AJAX';
 $string['methoddaemon'] = 'Server chat';
-$string['methodnormal'] = 'Metodo standard';
+$string['methodnormal'] = 'Normale';
 $string['modulename'] = 'Chat';
 $string['modulename_help'] = 'Il modulo di attività chat consente ai partecipanti di tenere discussioni testuali sincrone in tempo reale.
 
@@ -120,16 +120,16 @@ $string['pastchats'] = 'Sessioni di chat svolte';
 $string['pluginadministration'] = 'Gestione Chat';
 $string['pluginname'] = 'Chat';
 $string['privacy:metadata:chat_messages_current'] = 'Sessione chat attuale. Tali dati sono temporanei e vengono eliminati al termine della sessione.';
-$string['privacy:metadata:chat_users'] = 'Mantiene traccia degli utenti presenti nelle diverse chat.';
+$string['privacy:metadata:chat_users'] = 'Tiene traccia di quali utenti sono presenti nelle diverse chat.';
 $string['privacy:metadata:chat_users:firstping'] = 'Data e ora del primo accesso alla chat.';
 $string['privacy:metadata:chat_users:ip'] = 'IP dell\'utente';
 $string['privacy:metadata:chat_users:lang'] = 'Lingua dell\'utente';
-$string['privacy:metadata:chat_users:lastmessageping'] = 'Data e ora dell\'ultimo messaggio della chat.';
+$string['privacy:metadata:chat_users:lastmessageping'] = 'Data e ora dell\'ultimo messaggio nella chat.';
 $string['privacy:metadata:chat_users:lastping'] = 'Data e ora dell\'ultimo accesso alla chat.';
 $string['privacy:metadata:chat_users:userid'] = 'ID dell\'utente';
 $string['privacy:metadata:chat_users:version'] = 'Modalità di accesso dell\'utente alla chat (sockets/basic/ajax/header_js)';
 $string['privacy:metadata:messages'] = 'Registro dei messaggi inviati durante la sessione chat.';
-$string['privacy:metadata:messages:issystem'] = 'Se il messaggio è un messaggio generato dal sistema.';
+$string['privacy:metadata:messages:issystem'] = 'Indicatore di messaggio generato dal sistema.';
 $string['privacy:metadata:messages:message'] = 'Messaggio';
 $string['privacy:metadata:messages:timestamp'] = 'Data e ora di invio del messaggio';
 $string['privacy:metadata:messages:userid'] = 'ID utente dell\'autore del messaggio';

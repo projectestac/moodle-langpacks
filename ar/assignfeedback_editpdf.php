@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'ar', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'ar', branch 'MOODLE_36_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,8 @@ $string['addtoquicklist'] = 'أضف إلى القائمة السريعة';
 $string['annotationcolour'] = 'لون التعليق';
 $string['black'] = 'أسود';
 $string['blue'] = 'أزرق';
+$string['default'] = 'مُفعّل تلقائياً';
+$string['default_help'] = 'إذا تم تفعيل هذا الخيار فإن طريقة اتغذية الراجعة هذه ستكون مفُعّلة افتراضياً لكل المهمات الجديدة.';
 $string['deletecomment'] = 'امسح التعليق';
 $string['drag'] = 'اسحب';
 $string['gotopage'] = 'الذهاب لصفحة';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_database', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   enrol_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['dbname'] = 'Όνομα βάσης δεδομένων';
 $string['dbname_desc'] = 'Αφήστε κενό εάν χρησιμοποιείτε όνομα DSN στον Η/Υ της βάσης δεδομένων.';
 $string['dbpass'] = 'Κωδικός πρόσβασης βάσης δεδομένων';
 $string['dbsetupsql'] = 'Εντολή εγκατάστασης βάσης δεδομένων';
-$string['dbsetupsql_desc'] = 'Εντολή SQL για ειδική εγκατάσταση βάσης δεδομένων, συχνά χρησιμοποιείται για να ρυθμίσει την κωδικοποίηση επικοινωνίας -παράδειγμα για την MySQL και την PostgreSQL: <em>SET NAMES \'utf8\'</em>';
+$string['dbsetupsql_desc'] = 'Εντολή SQL για ειδική εγκατάσταση βάσης δεδομένων, συχνά χρησιμοποιείται για να ρυθμίσει την κωδικοποίηση επικοινωνίας -παράδειγμα για την MySQL και την PostgreSQL: <em>SET NAMES «utf8»</em>';
 $string['dbsybasequoting'] = 'Χρήση sybase εισαγωγικών';
 $string['dbsybasequoting_desc'] = 'Η μορφή sybase μονών εισαγωγικών απαιτείται για την Oracle, την MS SQL και ορισμένες άλλες βάσεις δεδομένων. Μην τα χρησιμοποιείται για την MySQL!';
 $string['dbtype'] = 'Οδηγός βάσης δεδομένων';

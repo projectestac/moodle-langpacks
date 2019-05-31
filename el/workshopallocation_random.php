@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_random', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'workshopallocation_random', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   workshopallocation_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addselfassessment'] = 'Προσθέστε αυτοαξιολογήσεις';
 $string['allocationaddeddetail'] = 'Νέα αξιολόγηση: Ο/Η <strong>{$a->reviewername}</strong> είναι εξεταστής του <strong>{$a->authorname}</strong>';
-$string['allocationdeallocategraded'] = 'Δεν είναι δυνατή η ακύρωση εκχώρησης ήδη βαθμολογημένης αξιολόγησης: εξεταστής: <strong>{$a->reviewername}</strong>, συγγραφέας υποβολής: <strong>{$a->authorname}</strong>';
+$string['allocationdeallocategraded'] = 'Δεν είναι δυνατή η ακύρωση εκχώρησης της ήδη βαθμολογημένης αξιολόγησης... εξεταστής: <strong>{$a->reviewername}</strong>, συγγραφέας υποβολής: <strong>{$a->authorname}</strong>';
 $string['allocationreuseddetail'] = 'Επαναχρησιμοποίηση αξιολόγησης: Ο/Η <strong>{$a->reviewername}</strong> διατηρήθηκε ως εξεταστής του <strong>{$a->authorname}</strong>';
 $string['allocationsettings'] = 'Ρυθμίσεις εκχώρησης';
 $string['assessmentdeleteddetail'] = 'Ακύρωση εκχώρησης αξιολόγησης: Ο/Η <strong>{$a->reviewername}</strong> δεν είναι πλέον εξεταστής του/της <strong>{$a->authorname}</strong>';

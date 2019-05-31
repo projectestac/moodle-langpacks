@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'es', branch 'MOODLE_36_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,8 @@ $string['commentindex'] = 'Índice de comentarios';
 $string['commentlabel'] = '{$a->pnum}.{$a->cnum}';
 $string['couldnotsavepage'] = 'No se pudo guardar la página {$a}';
 $string['currentstamp'] = 'Sello';
+$string['default'] = 'Habilitado por defecto';
+$string['default_help'] = 'Si se activa la opcion, este método de retroalimentación estará habilitado por omisión para todas las tareas nuevas.';
 $string['deleteannotation'] = 'Eliminar anotación';
 $string['deletecomment'] = 'Eliminar comentario';
 $string['deletefeedback'] = 'Borrar retroalimentación del PDF';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hub', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'hub', language 'pt', branch 'MOODLE_36_STABLE'
  *
  * @package   hub
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['advertised'] = 'Disponíveis para inscrição';
 $string['advertiseon'] = 'Partilhar esta disciplina em {$a}';
 $string['advertiseonhub'] = 'Partilhar esta disciplina para atrair participantes';
 $string['advertiseonmoodleorg'] = 'Divulgar esta disciplina em moodle.org';
-$string['advertisepublication_help'] = 'Esta disciplina será listada no Moodle.net como uma disciplina em que as pessoas podem inscrever-se e participar. O autoregisto baseado em e-mail deve ser ativado no site e é necessário ativar a auto-inscrição nesta disciplina.';
+$string['advertisepublication_help'] = 'Esta disciplina será listada no Moodle.net como uma disciplina em que as pessoas podem inscrever-se e participar. O autoregisto baseado em e-mail deve ser ativado no site e é necessário ativar a autoinscrição nesta disciplina.';
 $string['all'] = 'Todo(a)s';
 $string['allowglobalsearch'] = 'Publicar este hub e permitir a pesquisa global de todas as disciplinas';
 $string['allowpublicsearch'] = 'Publicar este hub para que as pessoas se possam registar';
@@ -40,7 +40,7 @@ $string['audienceadmins'] = 'Administradores do Moodle';
 $string['audienceeducators'] = 'Educadores';
 $string['audience_help'] = 'Defina o público-alvo pretendido para a disciplina';
 $string['audiencestudents'] = 'Alunos';
-$string['badgesnumber'] = 'Número de Medalhas ({$a})';
+$string['badgesnumber'] = 'Número de medalhas ({$a})';
 $string['badurlformat'] = 'Formato de URL inválido';
 $string['cannotsearchcommunity'] = 'Não possui as permissões necessárias para ver esta página';
 $string['community'] = 'Comunidade';
@@ -115,7 +115,7 @@ $string['hub'] = 'Hub';
 $string['imageurl'] = 'URL da imagem';
 $string['imageurl_help'] = 'Esta imagem será exibido no hub. Esta imagem deve estar disponível a partir do hub a qualquer momento. A imagem deve ter um tamanho máximo de {$a->width} X {$a->height}';
 $string['information'] = 'Informação';
-$string['issuedbadgesnumber'] = 'Número de Medalhas emitidas ({$a})';
+$string['issuedbadgesnumber'] = 'Número de medalhas emitidas ({$a})';
 $string['language'] = 'Idioma';
 $string['language_help'] = 'O idioma principal desta disciplina';
 $string['lasttimechecked'] = 'Última verificação';

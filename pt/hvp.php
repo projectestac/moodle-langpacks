@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'hvp', language 'pt', branch 'MOODLE_36_STABLE'
  *
  * @package   hvp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -298,7 +298,7 @@ $string['privacy:metadata:hvp_events:id'] = 'ID exclusivo do evento.';
 $string['privacy:metadata:hvp_events:library_name'] = 'A biblioteca do evento afetado.';
 $string['privacy:metadata:hvp_events:library_version'] = 'A versão da biblioteca do evento afetado.';
 $string['privacy:metadata:hvp_events:sub_type'] = 'Subtipo do evento ou ação do evento.';
-$string['privacy:metadata:hvp_events:type'] = 'Tipo de evento.';
+$string['privacy:metadata:hvp_events:type'] = 'O tipo de evento.';
 $string['privacy:metadata:hvp_events:user_id'] = 'ID do utilizador que executou a ação.';
 $string['privacy:metadata:hvp_xapi_results'] = 'Armazena eventos xAPI no conteúdo H5P.';
 $string['privacy:metadata:hvp_xapi_results:additionals'] = 'Informações adicionais que o H5P pode enviar.';
@@ -313,7 +313,7 @@ $string['privacy:metadata:hvp_xapi_results:raw_score'] = 'Pontuação obtida no 
 $string['privacy:metadata:hvp_xapi_results:response'] = 'Resposta enviada pelo utilizador.';
 $string['privacy:metadata:hvp_xapi_results:user_id'] = 'Id do utilizador que executou a ação.';
 $string['question'] = 'Questão';
-$string['removeoldlogentries'] = 'Remover as entradas de log H5P antigas';
+$string['removeoldlogentries'] = 'Remover as entradas de registos (log) antigas do H5P';
 $string['removeoldmobileauthentries'] = 'Remover entradas antigas de autenticação H5P para dispositivos móveis';
 $string['removetmpfiles'] = 'Remover ficheiros temporários H5P antigos';
 $string['reportingquestionsremaininglabel'] = 'perguntas por avaliar';

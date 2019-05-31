@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'webservice', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,7 +108,7 @@ $string['functions'] = 'Fonctions';
 $string['generalstructure'] = 'Structure générale';
 $string['information'] = 'Information';
 $string['installexistingserviceshortnameerror'] = 'Un service web avec le nom abrégé « {$a} » existe déjà. Il n\'est pas possible d\'installer ou de mettre à jour un service web avec ce nom abrégé.';
-$string['installserviceshortnameerror'] = 'Erreur de codage : le nom abrégé du service web « {$a} » ne doit comporter que des chiffres, des lettres et les caractères _ (souligné) et - (tiret).';
+$string['installserviceshortnameerror'] = 'Erreur de codage : le nom abrégé du service web « {$a} » ne doit comporter que des caractères alphanumériques (chiffres et lettres) et les caractères _ (souligné), - (tiret) ou point (.).';
 $string['invalidextparam'] = 'Paramètre API externe non valide : {$a}';
 $string['invalidextresponse'] = 'Réponse API externe non valide : {$a}';
 $string['invalidiptoken'] = 'Jeton non valide. Votre IP n\'est pas supportée.';
@@ -144,7 +144,7 @@ $string['postrestparam'] = 'Code PHP pour REST (requête POST)';
 $string['potusers'] = 'Aucun utilisateur autorisé';
 $string['potusersmatching'] = 'Aucun utilisateur autorisé correspondant';
 $string['print'] = 'Tout imprimer';
-$string['privacy:metadata:serviceusers'] = 'Une liste des utilisateurs pouvant utiliser certains services externes';
+$string['privacy:metadata:serviceusers'] = 'Une liste des utilisateurs pouvant utiliser un certain service externe';
 $string['privacy:metadata:serviceusers:iprestriction'] = 'Adresses IP restreinte pour l\'utilisation du service';
 $string['privacy:metadata:serviceusers:timecreated'] = 'La date et l\'heure de création de l\'enregistrement';
 $string['privacy:metadata:serviceusers:userid'] = 'L\'identifiant de l\'utilisateur';
@@ -188,8 +188,8 @@ $string['selectspecificuserdescription'] = 'Ajouter l\'utilisateur web services 
 $string['service'] = 'Service';
 $string['servicehelpexplanation'] = 'Un service est un ensemble de fonction. Il peut être utilisé par tous les utilisateurs ou alors seulement par des utilisateurs spécifiés.';
 $string['servicename'] = 'Nom du service';
-$string['servicenotavailable'] = 'Le service web n\'est pas disponible (il n\'existe pas ou n\'est pas activé)';
-$string['servicerequireslogin'] = 'Le service web n\'est pas disponible (il n\'existe pas ou n\'est pas activé).';
+$string['servicenotavailable'] = 'Le service web n\'est pas disponible (il n\'existe pas ou n\'est pas activé).';
+$string['servicerequireslogin'] = 'Le service web n\'est pas disponible (la session a été terminée ou est échue).';
 $string['servicesbuiltin'] = 'Services prédéfinis';
 $string['servicescustom'] = 'Services personnalisés';
 $string['serviceusers'] = 'Utilisateurs autorisés';

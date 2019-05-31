@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'en', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assign', language 'en', branch 'MOODLE_36_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addnewattempt_help'] = 'This will create a new blank submission for you
 $string['addnewgroupoverride'] = 'Add group override';
 $string['addnewuseroverride'] = 'Add user override';
 $string['addsubmission'] = 'Add submission';
+$string['addsubmission_help'] = 'You have not made a submission yet';
 $string['allocatedmarker'] = 'Allocated Marker';
 $string['allocatedmarker_help'] = 'Marker allocated to this submission';
 $string['allowsubmissions'] = 'Allow the user to continue making submissions to this assignment.';
@@ -111,7 +112,6 @@ $string['blindmarking_help'] = 'Blind marking hides the identity of students fro
 $string['calendardue'] = '{$a} is due';
 $string['calendargradingdue'] = '{$a} is due to be graded';
 $string['changefilters'] = 'Change filters';
-$string['changegradewarning'] = 'This assignment has graded submissions and changing the grade will not automatically re-calculate existing submission grades. You must re-grade all existing submissions, if you wish to change the grade.';
 $string['changeuser'] = 'Change user';
 $string['choosegradingaction'] = 'Grading action';
 $string['choosemarker'] = 'Choose...';
@@ -152,7 +152,7 @@ $string['downloadasfolders_help'] = 'Assignment submissions may be downloaded in
 $string['downloadselectedsubmissions'] = 'Download selected submissions';
 $string['duedate'] = 'Due date';
 $string['duedatecolon'] = 'Due date: {$a}';
-$string['duedate_help'] = 'This is when the assignment is due. Submissions will still be allowed after this date but any assignments submitted after this date are marked as late. To prevent submissions after a certain date - set the assignment cut off date.';
+$string['duedate_help'] = 'This is when the assignment is due. Submissions will still be allowed after this date, but any assignments submitted after this date will be marked as late. Set an assignment cut-off date to prevent submissions after a certain date.';
 $string['duedateno'] = 'No due date';
 $string['duedatereached'] = 'The due date for this assignment has now passed';
 $string['duedatevalidation'] = 'Due date cannot be earlier than the allow submissions from date.';
@@ -164,7 +164,7 @@ $string['editingstatus'] = 'Editing status';
 $string['editonline'] = 'Edit online';
 $string['editoverride'] = 'Edit override';
 $string['editsubmission'] = 'Edit submission';
-$string['editsubmission_help'] = 'Make changes to your submission';
+$string['editsubmission_help'] = 'You can still make changes to your submission';
 $string['editsubmissionother'] = 'Edit submission for {$a}';
 $string['enabled'] = 'Enabled';
 $string['errornosubmissions'] = 'There are no submissions to download';
@@ -188,7 +188,7 @@ $string['eventrevealidentitiesconfirmationpageviewed'] = 'Reveal identities conf
 $string['eventstatementaccepted'] = 'The user has accepted the statement of the submission.';
 $string['eventsubmissionconfirmationformviewed'] = 'Submission confirmation form viewed.';
 $string['eventsubmissioncreated'] = 'Submission created.';
-$string['eventsubmissionduplicated'] = 'The user duplicated his submission.';
+$string['eventsubmissionduplicated'] = 'The user duplicated their submission.';
 $string['eventsubmissionformviewed'] = 'Submission form viewed.';
 $string['eventsubmissiongraded'] = 'The submission has been graded.';
 $string['eventsubmissionlocked'] = 'The submissions have been locked for a user.';
@@ -235,6 +235,7 @@ $string['gradecanbechanged'] = 'Grade can be changed';
 $string['gradechangessaveddetail'] = 'The changes to the grade and feedback were saved';
 $string['graded'] = 'Graded';
 $string['gradedby'] = 'Graded by';
+$string['gradedfollowupsubmit'] = 'Graded - follow up submission received';
 $string['gradedon'] = 'Graded on';
 $string['gradelocked'] = 'This grade is locked or overridden in the gradebook.';
 $string['gradeoutof'] = 'Grade out of {$a}';
@@ -473,7 +474,7 @@ assignment submission for \'{$a->assignment}\'
 You can see the status of your assignment submission:
 
     {$a->url}';
-$string['submissiondrafts'] = 'Require students click submit button';
+$string['submissiondrafts'] = 'Require students to click the submit button';
 $string['submissiondrafts_help'] = 'If enabled, students will have to click a Submit button to declare their submission as final. This allows students to keep a draft version of the submission on the system. If this setting is changed from "No" to "Yes" after students have already submitted those submissions will be regarded as final.';
 $string['submissioneditable'] = 'Student can edit this submission';
 $string['submissionempty'] = 'Nothing was submitted';

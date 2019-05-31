@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_flatfile', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_flatfile', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   enrol_flatfile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,9 @@ $string['notifyenrolled'] = 'Ειδοποιήστε τους εγγεγραμμ�
 $string['notifyenroller'] = 'Ειδοποιήστε τον χρήστη που είναι υπεύθυνος για τις εγγραφές';
 $string['pluginname'] = 'Επίπεδο αρχείο (CSV)';
 $string['pluginname_desc'] = 'Αυτή η μέθοδος θα ελέγχει κατ\' επανάληψη και θα επεξεργάζεται ένα ειδικά διαμορφωμένο αρχείο κειμένου στην τοποθεσία που εσείς ορίζετε. Το αρχείο αυτό είναι ένα αρχείο διαχωρισμένο με κόμματα που θεωρητικά έχει τέσσερα ή έξι πεδία ανα γραμμή:
+
 operation, role, user idnumber, course idnumber [, starttime [, endtime]]
+
 όπου:
 
 * operation - add | del
@@ -53,7 +55,15 @@ operation, role, user idnumber, course idnumber [, starttime [, endtime]]
 * starttime - start time (in seconds since epoch) - optional
 * endtime - end time (in seconds since epoch) - optional
 
-Θα μπορούσε να μοιάζει κάπως σαν το παρακάτω: <pre class="informationbox"> add, student, 5, CF101 add, teacher, 6, CF101 add, teacheredit, 7, CF101 del, student, 8, CF101 del, student, 17, CF101 add, student, 21, CF101, 1091115000, 1091215000 </pre>';
+Θα μπορούσε να μοιάζει κάπως σαν το παρακάτω:
+<pre class="informationbox">
+   add, student, 5, CF101
+   add, teacher, 6, CF101
+   add, teacheredit, 7, CF101
+   del, student, 8, CF101
+   del, student, 17, CF101
+   add, student, 21, CF101, 1091115000, 1091215000
+</pre>';
 $string['privacy:metadata:enrol_flatfile'] = 'Το πρόσθετο εγγραφών απλού αρχείου (CSV) μπορεί να αποθηκεύσει προσωπικά δεδομένα σχετικά με τις μελλοντικές εγγραφές στον πίνακα enrol_flatfile.';
 $string['privacy:metadata:enrol_flatfile:action'] = 'Η ενέργεια εγγραφής που αναμένεται κατά την ημερομηνία που δίνεται';
 $string['privacy:metadata:enrol_flatfile:courseid'] = 'Το αναγνωριστικό μαθήματος στο οποίο αναφέρεται η εγγραφή';

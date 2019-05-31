@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assign', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addnewattempt_help'] = 'Ceci créera un travail vide pour vous permettr
 $string['addnewgroupoverride'] = 'Ajouter une exception de groupe';
 $string['addnewuseroverride'] = 'Ajouter une exception utilisateur';
 $string['addsubmission'] = 'Ajouter un travail';
+$string['addsubmission_help'] = 'Vous n\'avez pas encore remis de travail';
 $string['allocatedmarker'] = 'Évaluateur attribué';
 $string['allocatedmarker_help'] = 'L\'évaluateur attribué pour ce travail';
 $string['allowsubmissions'] = 'Autoriser l\'utilisateur à ajouter ou modifier ses travaux pour ce devoir.';
@@ -111,7 +112,6 @@ $string['blindmarking_help'] = 'L\'évaluation à l\'aveugle cache aux évaluate
 $string['calendardue'] = '{$a} doit être rendu';
 $string['calendargradingdue'] = '{$a} doit être évalué';
 $string['changefilters'] = 'Modifier les filtres';
-$string['changegradewarning'] = 'Ce devoir comporte des travaux évalués. La modification de la note ne déclenchera pas automatiquement le calcul des notes existantes. Pour modifier la note, vous devez ré-évaluer tous les travaux remis.';
 $string['changeuser'] = 'Modifier l\'utilisateur';
 $string['choosegradingaction'] = 'Action d\'évaluation';
 $string['choosemarker'] = 'Sélectionner...';
@@ -164,7 +164,7 @@ $string['editingstatus'] = 'Statut d\'édition';
 $string['editonline'] = 'Modifier en ligne';
 $string['editoverride'] = 'Modifier l\'exception';
 $string['editsubmission'] = 'Modifier le travail';
-$string['editsubmission_help'] = 'Modifier votre travail remis';
+$string['editsubmission_help'] = 'Vous pouvez encore faire des modifications à votre travail remis';
 $string['editsubmissionother'] = 'Modifier le travail de {$a}';
 $string['enabled'] = 'Activé';
 $string['errornosubmissions'] = 'Il n\'y a pas de devoir remis à télécharger';
@@ -188,7 +188,7 @@ $string['eventrevealidentitiesconfirmationpageviewed'] = 'Page de confirmation d
 $string['eventstatementaccepted'] = 'Énoncé du travail accepté par l\'utilisateur';
 $string['eventsubmissionconfirmationformviewed'] = 'Formulaire de confirmation de remise consulté';
 $string['eventsubmissioncreated'] = 'Travail de devoir créé';
-$string['eventsubmissionduplicated'] = 'Travail de devoir dupliqué';
+$string['eventsubmissionduplicated'] = 'L\'utilisateur a dupliqué son travail.';
 $string['eventsubmissionformviewed'] = 'Formulaire de remise consulté';
 $string['eventsubmissiongraded'] = 'Travail de devoir évalué';
 $string['eventsubmissionlocked'] = 'Travaux d\'un utilisateur verrouillés';
@@ -230,6 +230,7 @@ $string['gradecanbechanged'] = 'La note peut être modifiée';
 $string['gradechangessaveddetail'] = 'Les modifications à la note et au feedback ont été enregistrées';
 $string['graded'] = 'Noté';
 $string['gradedby'] = 'Évalué par';
+$string['gradedfollowupsubmit'] = 'Évalué - travail supplémentaire reçu';
 $string['gradedon'] = 'Évalué le';
 $string['gradelocked'] = 'Cette note est verrouillée ou modifiée dans le carnet de notes.';
 $string['gradeoutof'] = 'Note sur {$a}';

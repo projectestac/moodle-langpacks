@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_randomsamatch', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_randomsamatch', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   qtype_randomsamatch
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['insufficientoptions'] = 'Δεν υπάρχουν επαρκείς επιλογές για αυτήν την ερώτηση, επομένως δεν είναι διαθέσιμη σε αυτό το κουίζ. Παρακαλούμε, να ενημερώσετε τον διδάσκοντά σας.';
-$string['nosaincategory'] = 'Δεν υπάρχουν ερωτήσεις με σύντομη απάντηση στην κατηγορία που επιλέξατε \'{$a->catname}\'. Επιλέξτε μια άλλη κατηγορία, δημιουργήστε μερικές ερωτήσεις σε αυτή την κατηγορία.';
-$string['notenoughsaincategory'] = 'Υπάρχει/υπάρχουν μόνο {$a->nosaquestions} ερωτήσεις σύντομης απάντησης στην κατηγορία που επιλέξατε \'{$a->catname}\'. Επιλέξτε μια άλλη κατηγορία, δημιουργήστε μερικές ερωτήσεις σε αυτή την κατηγορία ή μειώστε τον αριθμό των ερωτήσεων που επιλέξατε.';
+$string['nosaincategory'] = 'Δεν υπάρχουν ερωτήσεις με σύντομη απάντηση στην κατηγορία που επιλέξατε «{$a->catname}». Επιλέξτε μια άλλη κατηγορία, δημιουργήστε μερικές ερωτήσεις σε αυτή την κατηγορία.';
+$string['notenoughsaincategory'] = 'Υπάρχει/υπάρχουν μόνο {$a->nosaquestions} ερωτήσεις σύντομης απάντησης στην κατηγορία που επιλέξατε «{$a->catname}». Επιλέξτε μια άλλη κατηγορία, δημιουργήστε μερικές ερωτήσεις σε αυτή την κατηγορία ή μειώστε τον αριθμό των ερωτήσεων που επιλέξατε.';
 $string['pluginname'] = 'Τυχαία αντιστοίχισης σύντομης απάντησης';
 $string['pluginnameadding'] = 'Προσθήκη μιας Τυχαίας ερώτησης αντιστοίχισης σύντομης απάντησης';
 $string['pluginnameediting'] = 'Επεξεργασία Τυχαίας ερώτησης αντιστοίχισης σύντομης απάντησης';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_xmldb', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,7 +158,7 @@ $string['newtable'] = 'Nouvelle table';
 $string['newtablefrommysql'] = 'Nouvelle table depuis MySQL';
 $string['new_table_from_mysql'] = 'Nouvelle table depuis MySQL';
 $string['nofieldsspecified'] = 'Aucun champ spécifié';
-$string['nomasterprimaryuniquefound'] = 'La (les) colonne(s) référencées par votre clef externe doit(vent) être inclus dans une clef (KEY) primaire ou unique de la table référencée. Il ne suffit pas que la colonne soit dans un UNIQUE INDEX.';
+$string['nomasterprimaryuniquefound'] = 'La (les) colonne(s) référencées par votre clef externe doit(vent) être inclues dans une clef (KEY) primaire ou unique de la table référencée. Il ne suffit pas que la colonne soit dans un UNIQUE INDEX.';
 $string['nomissingindexesfound'] = 'Aucun index manquant n\'a été trouvé. Votre base de données ne nécessite aucune manipulation.';
 $string['noreffieldsspecified'] = 'Aucun champ de référence spécifié';
 $string['noreftablespecified'] = 'Table de référence spécifiée non trouvée';
@@ -168,6 +168,7 @@ $string['nowrongintsfound'] = 'Aucun entier incorrectement défini n\'a été tr
 $string['nowrongoraclesemanticsfound'] = 'Aucune colonne Oracle varchar2 utilisant la sémantique BYTE n\'a été trouvée. Aucune intervention n\'est nécessaire sur votre base de données.';
 $string['numberincorrectdecimals'] = 'Nombre de décimales incorrect pour champ numérique';
 $string['numberincorrectlength'] = 'Longueur du champ numérique incorrecte';
+$string['numberincorrectwholepart'] = 'Nombre entier trop grand pour le champ nombre';
 $string['pendingchanges'] = 'Remarque ! Vous avez effectué des modifications dans ce fichier. Vous pouvez l\'enregistrer quand cela vous convient.';
 $string['pendingchangescannotbesaved'] = 'Ce fichier comprend des modifications, mais ne peut pas être enregistré ! Veuillez vérifier que le dossier, ainsi que le fichier « install.xml » qu\'il contient, disposent des droits d\'accès en écriture du serveur web.';
 $string['pendingchangescannotbesavedreload'] = 'Ce fichier comprend des modifications, mais ne peut pas être enregistré ! Veuillez vérifier que le dossier, ainsi que le fichier « install.xml » qu\'il contient, disposent des permissions d\'écriture du serveur web. Rafraîchissez ensuite l\'affichage de cette page, et vous pourrez alors enregistrer les modifications.';
@@ -218,7 +219,7 @@ $string['yesmissingindexesfound'] = '<p>Des index manquants ont été trouvés d
 <p>Après les avoir exécutés, il vous est vivement recommandé de lancer cet utilitaire une nouvelle fois afin de vérifier qu\'il ne reste plus d\'index manquant.</p>';
 $string['yeswrongdefaultsfound'] = '<p>Certaines valeurs par défaut incohérentes ont été trouvées dans votre base de données. Voici les détails et instructions SQL à exécuter avec votre interface SQL préférée pour les corriger. N\'oubliez pas d\'effectuer une sauvegarde de la base de données avant de lancer ces commandes.</p>
 <p>Après les avoir exécutées, il vous est vivement recommandé de lancer cet utilitaire une nouvelle fois afin de vérifier qu\'il ne reste plus de valeurs par défaut incohérentes.</p>';
-$string['yeswrongintsfound'] = '<p>Des entiers incorrectement définis ont été trouvés dans votre base de données. Voici les détails et instructions SQL à exécuter avec votre interface SQL préférée pour les créer. N\'oubliez pas d\'effectuer une sauvegarde de la base de données avant de lancer ces commandes.</p>
-<p>Après les avoir exécutés, il vous est vivement recommandé de lancer cet utilitaire une nouvelle fois afin de vérifier qu\'il ne reste plus d\'entiers incorrectement définis.</p>';
-$string['yeswrongoraclesemanticsfound'] = '<p>Des colonnes Oracle varchar2 utilisant la sémantique BYTE ont été trouvées dans votre base de données. Voici des détails et les instructions SQL à lancer depuis votre interface SQL préférée pour corriger ceci (n\'oubliez pas de sauvegarder vos données avant de le faire).</p>
+$string['yeswrongintsfound'] = '<p>Des entiers incorrectement définis ont été trouvés dans votre base de données. Voici les détails et instructions SQL à exécuter avec votre interface SQL préférée pour les corriger. N\'oubliez pas d\'effectuer une sauvegarde de la base de données avant de lancer ces commandes.</p>
+<p>Après les avoir corrigés, il vous est vivement recommandé de lancer cet utilitaire une nouvelle fois pour vérifier qu\'il ne reste plus d\'entiers incorrectement définis.</p>';
+$string['yeswrongoraclesemanticsfound'] = '<p>Des colonnes Oracle utilisant la sémantique BYTE ont été trouvées dans votre base de données. Voici des détails et les instructions SQL à lancer depuis votre interface SQL préférée pour toutes les convertir. N\'oubliez pas de sauvegarder vos données avant de le faire !</p>
 <p>Il est vivement recommandé d\'effectuer une nouvelle fois cette recherche après avoir lancé ces commandes, afin de vous assurer qu\'il ne reste plus de sémantiques incorrectes.</p>';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_messageinbound', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,7 +51,7 @@ $string['invalid_recipient_handler'] = 'Si un message valide est reçu, mais que
 Ce gestionnaire traite ces réponses.
 
 Il n\'est pas possible de désactiver la vérification de l\'expéditeur de ce gestionnaire, car un utilisateur pourrait alors répondre à partir d\'une adresse incorrecte, si la configuration de son client de courriel est incorrecte.';
-$string['invalid_recipient_handler_name'] = 'Expéditeur non valide';
+$string['invalid_recipient_handler_name'] = 'Gestionnaire d\'expédition non valide';
 $string['mailbox'] = 'Nom de la boîte à lettres';
 $string['mailboxconfiguration'] = 'Configuration de la boîte à lettres';
 $string['mailboxdescription'] = '[boîte]+adresse@[domaine]';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'my', language 'ja', branch 'MOODLE_36_STABLE'
  *
  * @package   my
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,4 +42,3 @@ $string['reseterror'] = 'あなたのページのリセット中にエラーが�
 $string['reseteveryonesdashboard'] = 'すべてのユーザのダッシュボードをリセットする';
 $string['reseteveryonesprofile'] = 'すべてのユーザのプロファイルをリセットする';
 $string['resetpage'] = 'ページをデフォルトにリセットする';
-$string['unabletoaccess'] = 'このセッションではユーザが作成したスクリプトはセキュリティ上の理由から無効にされています。';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'ru', branch 'MOODLE_34_STABLE'
+ * Strings for component 'editor_tinymce', language 'ru', branch 'MOODLE_36_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -597,6 +597,7 @@ $string['paste:selectall_desc'] = 'Выделить все';
 $string['pluginname'] = 'HTML-редактор TinyMCE';
 $string['preview:preview_desc'] = 'Предварительный просмотр';
 $string['print:print_desc'] = 'Печать';
+$string['privacy:metadata'] = 'Плагин формата данных «HTML-редактор TinyMCE» не хранит никаких персональных данных.';
 $string['save:cancel_desc'] = 'Отменить';
 $string['save:save_desc'] = 'Сохранить';
 $string['searchreplace:delta_height'] = '';

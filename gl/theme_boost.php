@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost', language 'gl', branch 'MOODLE_34_STABLE'
+ * Strings for component 'theme_boost', language 'gl', branch 'MOODLE_36_STABLE'
  *
  * @package   theme_boost
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,12 +28,17 @@ defined('MOODLE_INTERNAL') || die();
 $string['advancedsettings'] = 'Axustes avanzados';
 $string['backgroundimage'] = 'Imaxe de fondo';
 $string['backgroundimage_desc'] = 'A imaxe que se amosa como fondo do sitio. A imaxe de fondo que cargue aquí substituirá a imaxe de fondo nos seus ficheiros predefinidos do tema.';
+$string['bootswatch'] = 'Bootswatch';
+$string['bootswatch_desc'] = 'Un bootswatch é un conxunto de variábeis Bootstrap e css ao estilo Bootstrap';
 $string['brandcolor'] = 'Color de marca';
 $string['brandcolor_desc'] = 'A cor do acento.';
 $string['choosereadme'] = 'Boost é un tema moderno e altamente personalizábel. Este tema pretende ser usado directamente ou como un tema primario cando se crean novos temas usando Bootstrap 4.';
 $string['configtitle'] = 'Boost';
 $string['currentinparentheses'] = '(actual)';
+$string['fontsize'] = 'Tamaño de letra do tema base';
+$string['fontsize_desc'] = 'Escriba un tamaño de letra en %';
 $string['generalsettings'] = 'Axustes xerais';
+$string['nobootswatch'] = 'Ningún';
 $string['pluginname'] = 'Boost';
 $string['preset'] = 'Predefinidos do tema';
 $string['preset_desc'] = 'Escolla un axuste predefinido para cambiar amplamente o aspecto do tema.';

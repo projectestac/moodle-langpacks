@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'resource', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -91,9 +91,9 @@ $string['popupresource'] = 'Baliabide hau popup leiho batean agertuko da';
 $string['popupresourcelink'] = 'Hala ez bada, egin klik hemen:  {$a}';
 $string['popupwidth'] = 'Pop-up-aren zabalera (pixeletan)';
 $string['popupwidthexplain'] = 'Zehaztu zabaltzen den leihoaren zabalera lehenetsia.';
-$string['printintro'] = 'Baliabidearen deskribapena erakutsi';
+$string['printintro'] = 'Erakutsi baliabidearen deskribapena';
 $string['printintroexplain'] = 'Erakutsi baliabidearen deskribapena edukiaren azpian? Mota batzuek agian ez dute deskribapena erakutsiko, nahiz aukera hori ezarrita egon.';
-$string['privacy:metadata'] = 'mod_resource pluginak ez du datu pertsonalik biltzen.';
+$string['privacy:metadata'] = 'Fitxategia baliabide-pluginak ez du datu pertsonalik biltzen.';
 $string['resource:addinstance'] = 'Gehitu baliabide berria';
 $string['resourcecontent'] = 'Fitxategiak eta azpikarpetak';
 $string['resourcedetails_sizedate'] = '{$a->size} {$a->date}';
@@ -110,7 +110,7 @@ $string['showdate_help'] = 'Igoera/aldatze data fitxategiaren estekaren ondoan e
 
 Baliabidean fitxategi anitz badago, hasierako fitxategiaren igoera/aldatze data erakutsiko da.';
 $string['showsize'] = 'Erakutsi tamaina';
-$string['showsize_desc'] = 'Fitxategiaren tamaina ikastaroaren orrian erakutsi?';
+$string['showsize_desc'] = 'Erakutsi fitxategiaren tamaina ikastaroaren orrian?';
 $string['showsize_help'] = 'Fitxategiaren tamaina erakusten du, \'3,1MB\' adibidez, fitxategiaren estekaren ondoan.
 
 Baliabidean fitxategi bat baino gehiago badaude, guztien tamainaren batuketa erakutsiko da.';

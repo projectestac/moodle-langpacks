@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assign', language 'it', branch 'MOODLE_36_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addnewattempt_help'] = 'Verrà creata una consegna vuota dove potrai sv
 $string['addnewgroupoverride'] = 'Aggiungi personalizzazione di gruppo';
 $string['addnewuseroverride'] = 'Aggiungi personalizzazione individuale';
 $string['addsubmission'] = 'Aggiungi consegna';
+$string['addsubmission_help'] = 'Non hai ancora consegnato';
 $string['allocatedmarker'] = 'Valutatore assegnato';
 $string['allocatedmarker_help'] = 'Valutatore assegnato a questa consegna';
 $string['allowsubmissions'] = 'Consenti all\'utente di continuare a consegnare il compito';
@@ -109,7 +110,6 @@ $string['blindmarking_help'] = 'La valutazione cieca nasconde l\'identità degli
 $string['calendardue'] = '{$a} è in scadenza';
 $string['calendargradingdue'] = '{$a} deve essere valutato';
 $string['changefilters'] = 'Modifica filtri';
-$string['changegradewarning'] = 'In questo compito ci sono consegne che sono già state valutate, la modifica della valutazione del compito non ricalcolerà le valutazioni date. Se vuoi modificare la valutazione del compito, dovrai anche rivalutare tutte le consegne già valutate.';
 $string['changeuser'] = 'Modifica utente';
 $string['choosegradingaction'] = 'Azioni per la valutazione';
 $string['choosemarker'] = 'Scegli...';
@@ -131,7 +131,7 @@ $string['couldnotcreatenewassignmentinstance'] = 'Non è stato possibile creare 
 $string['couldnotfindassignmenttoupgrade'] = 'Non è stato possibile trovare precedenti istanze di compito da aggiornare';
 $string['currentattempt'] = 'Tentativo {$a}.';
 $string['currentattemptof'] = 'Tentativo {$a->attemptnumber} (Tentativi consentiti: {$a->maxattempts}).';
-$string['currentgrade'] = 'Voto nel Registro delle valutazioni';
+$string['currentgrade'] = 'Voto nel Registro valutatore';
 $string['cutoffdate'] = 'Data limite';
 $string['cutoffdatecolon'] = 'Data limite: {$a}';
 $string['cutoffdatefromdatevalidation'] = 'La data limite deve essere successiva alla data di inizio consegne';
@@ -147,7 +147,7 @@ $string['disabled'] = 'Disabilitato';
 $string['downloadall'] = 'Scarica tutte le consegne';
 $string['downloadasfolders'] = 'Scarica consegne in cartelle';
 $string['downloadasfolders_help'] = 'Se le consegne sono formate da più di un file, sarà possibile scaricarle suddivise in cartelle. Ogni consegna sarà contenuta in una cartella separata mantenendo inalterati i nomi dei file la struttura delle eventuali sottocartelle.';
-$string['downloadselectedsubmissions'] = 'Scarica le consegne selezionate?';
+$string['downloadselectedsubmissions'] = 'Scarica le consegne selezionate';
 $string['duedate'] = 'Termine consegne';
 $string['duedatecolon'] = 'Termine consegne: {$a}';
 $string['duedate_help'] = 'La data di consegna del compito. Eventuali consegne successive alla data di fine consegne saranno considerate in in ritardo. Per impedire consegne in ritardo devi impostare la data limite';
@@ -162,7 +162,7 @@ $string['editingstatus'] = 'Possibilità di modifica';
 $string['editonline'] = 'Modifica online';
 $string['editoverride'] = 'Modifica personalizzazione';
 $string['editsubmission'] = 'Modifica consegna';
-$string['editsubmission_help'] = 'Modifica la tua consegna';
+$string['editsubmission_help'] = 'Puoi ancora modificare la tua consegna';
 $string['editsubmissionother'] = 'Modifica consegna di {$a}';
 $string['enabled'] = 'Abilitato';
 $string['errornosubmissions'] = 'Non ci sono consegne da scaricare';
@@ -176,7 +176,7 @@ $string['eventextensiongranted'] = 'Concessa proroga';
 $string['eventfeedbackupdated'] = 'Aggiornato commento';
 $string['eventfeedbackviewed'] = 'Visualizzato commento';
 $string['eventgradingformviewed'] = 'Visualizzato schema di valutazione';
-$string['eventgradingtableviewed'] = 'Visualizzata tabella di valutazione';
+$string['eventgradingtableviewed'] = 'Visualizzata tabella delle valutazioni';
 $string['eventidentitiesrevealed'] = 'Rivelate le identità';
 $string['eventmarkerupdated'] = 'Aggiornato valutatore assegnato';
 $string['eventoverridecreated'] = 'Creata personalizzazione del compito';
@@ -292,9 +292,9 @@ $string['markerfilternomarker'] = 'Nessun valutatore';
 $string['markingallocation'] = 'Utilizza assegnazione valutatori';
 $string['markingallocation_help'] = 'Consente di assegnare valutatori a singoli studenti. Richiede l\'attivazione del flusso di lavoro della valutazione.';
 $string['markingworkflow'] = 'Utilizza flusso di lavoro della valutazione';
-$string['markingworkflow_help'] = 'Le valutazioni seguiranno un flusso di lavoro prima di essere rilasciate agli studenti, consentendo di valutare in diversi cicli e rilasciare le valutazioni a tutti studenti in una sola volta.';
+$string['markingworkflow_help'] = 'Le valutazioni seguiranno un flusso di lavoro prima di essere rilasciate agli studenti, consentendo di valutare in diversi cicli e rilasciare le valutazioni a tutti gli studenti in una sola volta.';
 $string['markingworkflowstate'] = 'Stato del flusso di lavoro della valutazione';
-$string['markingworkflowstate_help'] = 'I possibili stati del flusso di lavoro, in funzione dei privilegi posseduti possono essere i seguenti:
+$string['markingworkflowstate_help'] = 'I possibili stati del flusso di lavoro, in funzione dei privilegi posseduti, possono essere i seguenti:
 
 * Non valutata - la valutazione non è iniziata
 * In valutazione - la valutazione è iniziata ma non è ancora terminata
@@ -317,7 +317,7 @@ $string['messageprovider:assign_notification'] = 'Notifiche compito';
 $string['modulename'] = 'Compito';
 $string['modulename_help'] = 'Il modulo di attività compito consente al docente di valutare l\'apprendimento degli studenti assegnando loro un lavoro che potrà poi valutare e commentare.
 
-Gli studenti possono consegnare qualsiasi tipo di contenuto digitale, come ad esempio documenti di testo, immagini, clip audio e clip video. Il compito può anche prevedere la compilazione online di un testo sia in alternativa sia in aggiunta al caricamento di file. E\' altresì possibile usare il compito per attività da svolgere al di fuori di Moodle, dove non sono richiesti contenuti digitali. Gli studenti possono consegnare i lavori individualmente oppure come membri di un gruppo.
+Gli studenti possono consegnare qualsiasi tipo di contenuto digitale, come ad esempio documenti di testo, immagini, clip audio e clip video. Il compito può anche prevedere la compilazione online di un testo sia in alternativa sia in aggiunta al caricamento di file. E\' anche possibile usare il compito per attività da svolgere al di fuori di Moodle, dove non sono richiesti contenuti digitali. Gli studenti possono consegnare i lavori individualmente oppure come membri di un gruppo.
 
 I docenti possono commentare le consegne degli studenti e caricare file a loro volta, ad esempio i compiti corretti e valutati o file audio di commento. I compiti possono essere valutati utilizzando sia voti numerici, sia metodi di valutazione avanzata tipo rubric. Le valutazioni vengono memorizzate nel registro valutatore';
 $string['modulenameplural'] = 'Compiti';
@@ -421,7 +421,7 @@ $string['revealidentities'] = 'Rivela l\'identità degli studenti';
 $string['revealidentitiesconfirm'] = 'Sei sicuro di rivelare l\'identità degli studenti? L\'operazione non può essere annullata. Dopo aver rivelato l\'identità degli studenti, le valutazioni saranno trasferite nel registro valutatore.';
 $string['reverttodefaults'] = 'Riporta tutti i valori del compito al loro default';
 $string['reverttodraft'] = 'Riporta le consegne allo stato di bozza.';
-$string['reverttodraftforstudent'] = 'Riporta le consegne allo stato di bozza per lo studente: (id={$a->id}, fullname={$a->fullname}).';
+$string['reverttodraftforstudent'] = 'Riporta le consegne allo stato di bozza per lo student: (id={$a->id}, nome={$a->fullname}).';
 $string['reverttodraftshort'] = 'Riporta a bozze le consegne';
 $string['reviewed'] = 'Rivisto';
 $string['save'] = 'Salva';
@@ -438,9 +438,9 @@ $string['selectedusers'] = 'Utenti selezionati';
 $string['selectlink'] = 'Seleziona...';
 $string['selectuser'] = 'Seleziona {$a}';
 $string['sendlatenotifications'] = 'Notifica le consegne in ritardo ai valutatori';
-$string['sendlatenotifications_help'] = 'I valutatori (di norma i docenti) riceveranno una notifica tutte le volte che uno studente avrà consegnato un compito in ritardo. I metodi di notifica sono configurabili.';
+$string['sendlatenotifications_help'] = 'I valutatori (di solito i docenti) riceveranno una notifica tutte le volte che uno studente avrà consegnato un compito in ritardo. I metodi di notifica sono configurabili.';
 $string['sendnotifications'] = 'Notifica le consegne ai valutatori';
-$string['sendnotifications_help'] = 'I valutatori (di solito i docenti) riceveranno una notifica tutte le volte che uno studente avrà consegnato un compito, sia che la consegna avvenga in anticipo, sia nelle date previste, sia  in ritardo. I metodi di notifica sono configurabili.';
+$string['sendnotifications_help'] = 'I valutatori (di solito i docenti) riceveranno una notifica tutte le volte che uno studente avrà consegnato un compito, sia che la consegna avvenga in anticipo, sia nelle date previste, sia in ritardo. I metodi di notifica sono configurabili.';
 $string['sendstudentnotifications'] = 'Notifica agli studenti';
 $string['sendstudentnotificationsdefault'] = 'Impostazione di default per "Notifica agli studenti"';
 $string['sendstudentnotificationsdefault_help'] = 'Imposta il valore di default per la casella di spunta "Notifica agli studenti" presente nella pagina di valutazione.';

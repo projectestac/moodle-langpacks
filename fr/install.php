@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'install', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -116,7 +116,6 @@ $string['memorylimithelp'] = '<p>La limite de mémoire de PHP sur votre serveur 
 <blockquote><div>php_value memory_limit 40M</div></blockquote>
 <p>Cependant, sur certains serveurs, cela empêchera le fonctionnement correct de <b>tous</b> les fichiers PHP (vous verrez s\'afficher des erreurs lors de la consultation de pages). Dans ce cas, vous devrez supprimer le fichier « .htaccess ».</p></li>
 </ol>';
-$string['mssqlextensionisnotpresentinphp'] = 'La configuration de l\'extension MSSQL de PHP n\'a pas été effectuée correctement. De ce fait, PHP ne peut communiquer avec SQL*Server. Veuillez vérifier votre fichier « php.ini » ou recompiler PHP.';
 $string['mysqliextensionisnotpresentinphp'] = 'La configuration de l\'extension MySQLi de PHP n\'a pas été effectuée correctement. De ce fait, PHP ne peut communiquer avec MySQL. Veuillez contrôler votre fichier « php.ini » ou recompiler PHP.';
 $string['nativemariadb'] = 'MariaDB (native/mariadb)';
 $string['nativemariadbhelp'] = '<p>La base de données permet l\'enregistrement de la plupart des réglages et des données de Moodle. Elle doit être configurée ici.</p>
@@ -124,8 +123,6 @@ $string['nativemariadbhelp'] = '<p>La base de données permet l\'enregistrement 
 <p>Le nom de la base de données ne doit comporter que des caractères alphanumériques, le dollar ($) et le caractère soulignement (_).</p>
 <p>Si la base de données n\'existe pas encore et que l\'utilisateur indiqué a les droits d\'accès requis, Moodle tentera de créer une nouvelle base de données avec les permissions et réglages adéquats.</p>
 <p>Ce pilote de base de données n\'est pas compatible avec le moteur MyISAM.</p>';
-$string['nativemssql'] = 'SQL*Server FreeTDS (native/mssql)';
-$string['nativemssqlhelp'] = 'Vous devez maintenant configurer la base de données où seront stockées les données de Moodle. Cette base de données doit être déjà créée, tout comme le nom d\'utilisateur et le mot de passe pour y accéder. Le préfixe des tables est obligatoire.';
 $string['nativemysqli'] = 'MySQL amélioré (natif, mysqli)';
 $string['nativemysqlihelp'] = '<p>La base de données permet l\'enregistrement de la plupart des réglages et des données de Moodle. Elle doit être configurée ici.</p>
 <p>Le nom de la base de données, son nom d\'utilisateur et son mot de passe sont des champs obligatoires ; le préfixe des tables est optionnel.</p>

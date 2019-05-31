@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'theme_boost', language 'zh_cn', branch 'MOODLE_36_STABLE'
  *
  * @package   theme_boost
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,12 +28,17 @@ defined('MOODLE_INTERNAL') || die();
 $string['advancedsettings'] = '高级设置';
 $string['backgroundimage'] = '背景图片';
 $string['backgroundimage_desc'] = '图片将显示为网站背景。在这里上传的图片将替换主题预置文件。';
+$string['bootswatch'] = 'Bootswatch';
+$string['bootswatch_desc'] = 'bootswatch 是一系列 Bootstrap 变量以及Bootstrap 的css 样式文件';
 $string['brandcolor'] = '条块颜色';
 $string['brandcolor_desc'] = '强调色。';
 $string['choosereadme'] = 'Boost是一套现代且高度可定制化的主题。该主题可以直接使用，或在使用Bootstrap 4 设计新主题时作为模板使用。';
 $string['configtitle'] = 'Boost';
 $string['currentinparentheses'] = '(当前)';
+$string['fontsize'] = '主题基础字号';
+$string['fontsize_desc'] = '输入字号的百分比';
 $string['generalsettings'] = '常规设置';
+$string['nobootswatch'] = '无';
 $string['pluginname'] = 'Boost';
 $string['preset'] = '主题预设';
 $string['preset_desc'] = '选择一种预设可明显改变主题外观。';

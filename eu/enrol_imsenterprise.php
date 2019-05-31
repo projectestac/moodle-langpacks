@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,7 +82,7 @@ $string['settingshortname'] = 'IMS deskribapen-etiketa ikastaroaren izen laburre
 $string['settingshortnamedescription'] = 'Izen laburra ikastaroaren beharrezko eremua da eta beraz zure IMS Enterprise fitxategiko description etiketan definitu behar duzu';
 $string['settingsummary'] = 'IMS deskribapen-etiketa ikastaroaren laburpenerako';
 $string['settingsummarydescription'] = 'Aukerazko eremua da , aukeratu \'Utzi hutsik\' ez baduzu ikastaroaren laburpena zehaztu nahi.';
-$string['sourcedidfallback'] = 'Userdid-erako "Sourcedid"a erabili, pertsona baten "userid" kanpoa aurkitzen ez bada.';
+$string['sourcedidfallback'] = 'Erabili \'sourcedid\'-a erabiltzaile baten erabiltzaile-ID gisa bere "userid" eremua aurkitzen ez bada';
 $string['sourcedidfallback_desc'] = 'IMS datuetan, <sourcedid> eremuak jatorrizko sisteman pertsona batentzako ID kode iraunkorra irudikatzen du. <userid> eremua beste eremu bat da eta sartzera zoazen sistemarako ID kodea eduki beharko luke. Kasu askotan bi kode hauek berdinak izango dira - baina ez beti.
 
 Informazio Zerbitzu batzuk ikasleen <userid> eremua esportatzean huts egiten dute. Kasu horretan, ezarpen hau gaitu beharko zenuke <sourcedid> eremua Moodle-ko erabiltzaile ID gisa erabili ahal izateko. Bestela, utzi ezarpen hau desgaituta.';
@@ -92,7 +92,7 @@ $string['updatecourses'] = 'Eguneratu ikastaroa';
 $string['updatecourses_desc'] = 'Gaituz gero, IMS Enterprise matrikulazio-pluginak ikastaroen izen laburra eta izen osoa eguneratzeko aukera izango du ("recstatus" markak 2 balioa badu, eguneratze bat erakusten duena)';
 $string['updateusers'] = 'Eguneratu erabiltzaile-kontuak IMS datuetan zehaztuta dagoenean';
 $string['updateusers_desc'] = 'Gaituz gero, IMS Enterprise  matrikulazio-gehigarriaren datuetan erabiltzaile-kontuetako aldaketak zehaz daitezke ("recstatus" markak 2 balioa badu, eguneratze bat erakusten duena)';
-$string['usecapitafix'] = 'Kutxa hau markatu "Capita" erabiltzen bada (XML formatua neurri batean okerra da)';
+$string['usecapitafix'] = 'Kutxa hau markatu Capita erabiltzen bada (bere XML formatua ezberdina delako)';
 $string['usecapitafix_desc'] = 'Errore bat antzeman da Capita sistemak sortutako ikasleen datuetako XML irteeran. Capita erabiltzen ari bazara ezarpen hau gaitu beharko zenuke - bestela utz ezazu markatu gabe.';
 $string['usersettings'] = 'Erabiltzailearen datuen aukerak';
 $string['zeroisnotruncation'] = '0-ak kodeak ez direla mozten adierazten du';

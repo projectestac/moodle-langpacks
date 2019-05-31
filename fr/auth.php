@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,7 @@ $string['auth_updateremote_ldap'] = '<p><strong>Remarque :</strong> la mise à 
 $string['auth_user_create'] = 'Activer la création des utilisateurs';
 $string['auth_user_creation'] = 'Les nouveaux utilisateurs (anonymes) peuvent créer des comptes sur la source d\'authentification externe, avec confirmation par courriel. Ne pas oublier de configurer les éventuelles options dans les différents modules lors de l\'activation de cette possibilité.';
 $string['auth_usernameexists'] = 'Ce nom d\'utilisateur existe déjà. Veuillez en choisir un autre.';
+$string['auth_usernotexist'] = 'Impossible de modifier l\'utilisateur {$a}, qui n\'existe pas';
 $string['auto_add_remote_users'] = 'Ajouter automatiquement les utilisateurs distants';
 $string['cannotmapfield'] = 'Le champ « {$a->fieldname} » ne peut pas être mis en correspondance, car son nom abrégé « {$a->shortname} » est trop long. Réduisez la longueur du nom abrégé du champ de profil à {$a->charlimit} caractères. <a href="{$a->link}">Modifier les champs de profil utilisateur</a>';
 $string['changepassword'] = 'URL de la page de changement du mot de passe';
@@ -150,9 +151,9 @@ $string['privacy:metadata:userpref:loginlockout'] = 'Indique si le compte de l\'
 $string['privacy:metadata:userpref:loginlockoutignored'] = 'Indique que le compte d\'un utilisateur ne doit jamais être verrouillé';
 $string['privacy:metadata:userpref:loginlockoutsecret'] = 'Si son compte est bloqué, le secret que doit utiliser l\'utilisateur pour déverrouiller son compte';
 $string['recaptcha'] = 'reCAPTCHA';
-$string['recaptcha_help'] = 'Un CAPTCHA permet d\'éviter les abus de programmes automatiques pour faire du spam. Suivez les instructions pour vérifier que vous êtes un humain : une case à cocher, des caractères à lire sur une image et à saisir ou une série d\'images à sélectionner.
+$string['recaptcha_help'] = 'Un CAPTCHA est un programme permettant d\'éviter les abus de programmes automatiques. Suivez les instructions destinées à vérifier que vous êtes une personne. Ce pourrait être une case à cocher, des caractères à saisir, présentés dans une image ou plusieurs images à sélectionner.
 
-Si vous n\'arrivez pas à déchiffrer l\'image, essayez d\'obtenir un nouveau CAPTCHA un CAPTCHA audio.';
+Si vous n\'êtes pas sûr des images, vous pouvez obtenir un nouveau CAPTCHA ou un CAPTCHA audio.';
 $string['security_question'] = 'Question de sécurité';
 $string['selfregistration'] = 'Auto-enregistrement';
 $string['selfregistration_help'] = 'Si vous choisissez un plugin d\'authentification gérant l\'auto-enregistrement, par exemple par courriel, vous permettez aux utilisateurs potentiels de créer des comptes pour eux-mêmes. Il est par conséquent possible que des spammeurs créent des comptes dans le but d\'écrire du spam dans des messages dans les forums, des articles de blog, etc. Si vous voulez éviter ce risque, vous devez désactiver l\'auto-enregistrement ou au moins le limiter en utilisant le réglage <em> Domaines courriel autorisés</em>.';

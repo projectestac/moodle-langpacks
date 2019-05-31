@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'theme_boost', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   theme_boost
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,12 +28,17 @@ defined('MOODLE_INTERNAL') || die();
 $string['advancedsettings'] = 'Ezarpen aurreratuak';
 $string['backgroundimage'] = 'Atzeko planoaren irudia';
 $string['backgroundimage_desc'] = 'Gunearen atzeko planoan erakutsiko den irudia. Hemen igotzen duzun irudiak itxuraren irudi lehenetsia ordezkatuko du itxuraren aurretiko ezarpen-fitxategietan.';
+$string['bootswatch'] = 'Bootswatch';
+$string['bootswatch_desc'] = 'Bootswatch bat Bootstrap aldagaien eta Bootstrap estiloentzako CSS multzo bat da';
 $string['brandcolor'] = 'Markaren kolorea';
 $string['brandcolor_desc'] = 'Azentuaren kolorea';
 $string['choosereadme'] = 'Boost itxura moderno duen eta asko pertsonaliza daitekeen itxura bat da. Itxura hau zuzenean erabil daiteke, edo Bootstrap 4 erabilita sor daitezkeen itxura berrien goragoko itxura gisa.';
 $string['configtitle'] = 'Boost';
 $string['currentinparentheses'] = '(oraingoa)';
+$string['fontsize'] = 'Itxuran oinarritutako letra-tamaina';
+$string['fontsize_desc'] = 'Sartu letra-taimana ehunekotan';
 $string['generalsettings'] = 'Ezarpen orokorrak';
+$string['nobootswatch'] = 'Bat ere ez';
 $string['pluginname'] = 'Boost';
 $string['preset'] = 'Itxuraren aurretiko ezarpena';
 $string['preset_desc'] = 'Aukeratu aurretiko ezarpen bat itxuraren tankera orokorra aldatzeko.';

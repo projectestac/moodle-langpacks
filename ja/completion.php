@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'completion', language 'ja', branch 'MOODLE_36_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -97,7 +97,7 @@ $string['completionnotenabledforcourse'] = 'このコースでは完了は有効
 $string['completionnotenabledforsite'] = 'このサイトでは完了は有効にされていません。';
 $string['completion-n-override'] = '未完了 ({$a} による設定)';
 $string['completionondate'] = '日付';
-$string['completionondatevalue'] = 'ユーザは次の日付まで登録を保持する必要があります';
+$string['completionondatevalue'] = 'コースが完了マークされる日付';
 $string['completion-pass'] = '完了 (合格点到達)';
 $string['completionsettingslocked'] = '完了設定ロック中';
 $string['completion-title-manual-n'] = '完了マークする: {$a}';
@@ -207,8 +207,8 @@ $string['requiredcriteria'] = '必須クライテリア';
 $string['resetactivities'] = 'すべてのチェックした活動およびリソースをクリアする';
 $string['restoringcompletiondata'] = '完了データの書き出し';
 $string['roleaggregation'] = 'コンディション要求';
-$string['roleaggregation_all'] = 'コンディションに合致した場合、選択したロールすべてをマークできる';
-$string['roleaggregation_any'] = 'コンディションに合致した場合、選択したロールのどれかをマークできる';
+$string['roleaggregation_all'] = 'コンディションに合致した場合、選択したロールすべてがマークする';
+$string['roleaggregation_any'] = 'コンディションに合致した場合、選択したロールのどれかがマークする';
 $string['roleidnotfound'] = 'ロールID「 {$a} 」が見つかりませんでした。';
 $string['saved'] = '保存完了';
 $string['seedetails'] = '詳細を表示する';

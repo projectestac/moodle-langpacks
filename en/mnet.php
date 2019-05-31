@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'en', branch 'MOODLE_34_STABLE'
+ * Strings for component 'mnet', language 'en', branch 'MOODLE_36_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -185,7 +185,7 @@ $string['publickey'] = 'Public key';
 $string['publickey_help'] = 'The public key is automatically obtained from the remote server.';
 $string['publickeyrequired'] = 'You must provide a public key.';
 $string['publish'] = 'Publish';
-$string['reallydeleteserver'] = 'Are you sure you want to delete the server';
+$string['reallydeleteserver'] = 'Are you sure you want to delete the server?';
 $string['receivedwarnings'] = 'The following warnings were received';
 $string['recordnoexists'] = 'Record does not exist.';
 $string['reenableserver'] = 'No - select this option to re-enable this server.';

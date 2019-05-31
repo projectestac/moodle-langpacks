@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_atto', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'editor_atto', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   editor_atto
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,8 +35,8 @@ $string['editor_control_keycode'] = 'Ctrl + {$a}';
 $string['errorcannotparseline'] = 'Η γραμμή «{$a}» δεν έχει το σωστό μορφότυπο.';
 $string['errorgroupisusedtwice'] = 'Η ομάδα «{$a}» ορίζεται δύο φορές· τα ονόματα ομάδων πρέπει να είναι μοναδικά.';
 $string['errornopluginsorgroupsfound'] = 'Δεν βρέθηκαν πρόσθετα ή ομάδες συμμετεχόντων· παρακαλούμε προσθέστε μερικά πρόσθετα και ομάδες συμμετεχόντων.';
-$string['errorpluginisusedtwice'] = 'Το πρόσθετο \'{$a}\' χρησιμοποιείται δύο φορές· τα πρόσθετα μπορούν να οριστούν μόνο μία φορά.';
-$string['errorpluginnotfound'] = 'Το πρόσθετο \'{$a}\' δεν μπορεί να χρησιμοποιηθεί· δεν φαίνεται να έχει εγκατασταθεί.';
+$string['errorpluginisusedtwice'] = 'Το πρόσθετο «{$a}» χρησιμοποιείται δύο φορές· τα πρόσθετα μπορούν να οριστούν μόνο μία φορά.';
+$string['errorpluginnotfound'] = 'Το πρόσθετο «{$a}» δεν μπορεί να χρησιμοποιηθεί· δεν φαίνεται να έχει εγκατασταθεί.';
 $string['errortextrecovery'] = 'Δυστυχώς δεν ήταν δυνατή η επαναφορά της έκδοσης προσχεδίου.';
 $string['infostatus'] = 'Πληροφορίες';
 $string['pluginname'] = 'Επεξεργαστής HTML Atto';

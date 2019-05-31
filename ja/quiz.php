@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz', language 'ja', branch 'MOODLE_36_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,6 +82,7 @@ $string['answers'] = '正解';
 $string['answersingleno'] = '複数解答を許可する';
 $string['answersingleyes'] = '単一解答のみ';
 $string['answertoolong'] = '{$a} 行以後の解答が長すぎます (最大、半角255文字)';
+$string['anytags'] = 'すべてのタグ';
 $string['aon'] = 'AONフォーマット';
 $string['areyousureremoveselected'] = '本当に選択した問題すべてを削除してもよろしいですか?';
 $string['asshownoneditscreen'] = '編集画面と同じ順序で表示する';
@@ -104,6 +105,7 @@ $string['attemptsallowed'] = '受験可能回数';
 $string['attemptsdeleted'] = '小テスト受験結果が削除されました。';
 $string['attemptselection'] = 'どの受験を分析するかユーザごとに選択してください:';
 $string['attemptsexist'] = 'あなたはこれ以上問題を追加または削除することはできません。';
+$string['attempts_help'] = '許可される合計受験回数です (特別受験数ではありません)。';
 $string['attemptsnum'] = '受験件数: {$a}';
 $string['attemptsnumthisgroup'] = '受験件数: {$a->total} (このグループ: {$a->group})';
 $string['attemptsnumyourgroups'] = '受験件数: {$a->total} (あなたのグループ: {$a->group})';
@@ -137,6 +139,8 @@ $string['cannotinsertrandomquestion'] = '新しいランダム問題を追加で
 $string['cannotloadquestion'] = '問題オプションを読み込むことができませんでした。';
 $string['cannotloadtypeinfo'] = '問題タイプの問題情報を読み込むことができません。';
 $string['cannotopen'] = 'エクスポートファイル ({$a}) を開けません。';
+$string['cannotremoveallsectionslots'] = 'あなたは「 {$a} 」セクションヘッディング配下のすべての問題を選択しました。セクションヘッディング配下の問題すべての削除は許可されていません。';
+$string['cannotremoveslots'] = '問題を削除できません。';
 $string['cannotrestore'] = '問題セッションをリストアできませんでした。';
 $string['cannotreviewopen'] = 'あなたはこの受験をレビューできません。まだ開いています。';
 $string['cannotsavelayout'] = 'レイアウトを保存できませんでした。';
@@ -340,6 +344,7 @@ $string['eventreportviewed'] = '小テストレポートが閲覧されました
 $string['everynquestions'] = '問題 {$a} 問ごと';
 $string['everyquestion'] = '問題１問ごと';
 $string['everythingon'] = 'すべて有効';
+$string['existingcategory'] = '既存のカテゴリ';
 $string['exportcategory'] = 'エクスポートカテゴリ';
 $string['exporterror'] = 'エクスポート処理中にエラーが発生しました。';
 $string['exportingquestions'] = '問題がファイルにエクスポートされました。';
@@ -440,6 +445,7 @@ $string['invalidcategory'] = 'カテゴリIDが正しくありません。';
 $string['invalidoverrideid'] = 'オーバーライドIDが正しくありません。';
 $string['invalidquestionid'] = '問題IDが正しくありません。';
 $string['invalidquizid'] = '小テストIDが正しくありません。';
+$string['invalidrandomslot'] = '無効なランダム問題スロットIDです。';
 $string['invalidsource'] = 'ソースが正しくありません。';
 $string['invalidsourcetype'] = 'ソースタイプが正しくありません。';
 $string['invalidstateid'] = '状態IDが正しくありません。';
@@ -505,6 +511,7 @@ $string['navmethod_seq'] = '順次';
 $string['navnojswarning'] = '警告: これらのリンクではあなたの解答を保存しません。ページ下部の「次へ」ボタンを使用してください。';
 $string['neverallononepage'] = 'なし、すべての問題を1ページに表示する';
 $string['newattemptfail'] = 'エラー: 小テストの新しい受験を開始できませんでした。';
+$string['newcategory'] = '新しいカテゴリ';
 $string['newpage'] = '新しいページ';
 $string['newpageevery'] = '新しいページを自動的に開始する';
 $string['newpage_help'] = '問題数の多い小テストの場合、1ページあたりの問題数を制限して小テストを複数のページに分けることは理にかなっています。小テストのページに問題を追加する場合、この設定にしたがって改ページが自動的に挿入されます。後で小テストの編集ページで手動で改ページを移動することもできます。';
@@ -669,8 +676,10 @@ $string['questionnotloaded'] = '問題「 {$a} 」はデータベースから読
 $string['questionorder'] = '問題順';
 $string['questionposition'] = '問題 {$a} 順番の新しいポジション';
 $string['questions'] = '問題';
+$string['questionsetpreview'] = '問題セットプレビュー';
 $string['questionsinclhidden'] = '問題 (隠された問題を含む)';
 $string['questionsinthisquiz'] = 'この小テストの問題';
+$string['questionsmatchingfilter'] = 'このフィルタに合致する問題: {$a}';
 $string['questionsperpage'] = '1ページあたりの問題数';
 $string['questionsperpageselected'] = '1ページあたりの問題数が設定されたため現在ページングは固定されています。結果として「改ページ調整」ボタンは無効にされました。あなたは {$a} でこの設定を変更することができます。';
 $string['questionsperpagex'] = '1ページあたりの問題数: {$a}';
@@ -719,10 +728,18 @@ $string['quiz:viewreports'] = '小テストレポートを表示する';
 $string['quizwillopen'] = 'この小テストは {$a} に公開されます。';
 $string['random'] = 'ランダム問題';
 $string['randomcreate'] = 'ランダム問題を作成する';
+$string['randomediting'] = 'ランダム問題を編集する';
 $string['randomfromcategory'] = '次のカテゴリからのランダム問題:';
 $string['randomfromexistingcategory'] = '既存のカテゴリからのランダム問題';
+$string['randomfromunavailabletag'] = '{$a} (利用不可)';
 $string['randomnosubcat'] = 'サブカテゴリからではなく、このカテゴリからのみの問題です。';
 $string['randomnumber'] = 'ランダム問題数';
+$string['randomquestion'] = 'ランダム問題';
+$string['randomquestion_help'] = 'ランダム問題は指定したカテゴリまたは指定したタグから選択された問題を活動にランダムに入れる方法です。';
+$string['randomquestiontags'] = 'タグ';
+$string['randomquestiontags_help'] = 'あなたはここで問題タグを指定することによりさらに選択クライテリアを制限することができます。
+
+「ランダム」問題はこれらすべてのタグが付けられた問題から選択されます。';
 $string['randomquestionusinganewcategory'] = '新しいカテゴリを使用するランダム問題';
 $string['randomwithsubcat'] = 'このカテゴリおよびサブカテゴリからの問題です。';
 $string['readytosend'] = 'あなたは評定のためにすべての小テストを送信しようとしています。本当に続けてもよろしいですか?';
@@ -939,6 +956,7 @@ $string['unfinished'] = '未了';
 $string['ungraded'] = '未評定';
 $string['unit'] = '単位';
 $string['unknowntype'] = '{$a} 行目の問題タイプはサポートされていません。問題は無視されます。';
+$string['updatequizslotswithrandomxofy'] = '「ランダム」問題データの小テストスロットを更新する ({$a->done}/{$a->total})';
 $string['updatesettings'] = '小テスト設定を更新する';
 $string['updatingatttemptgrades'] = '受験評点の更新';
 $string['updatingfinalgrades'] = '最終評点の更新';

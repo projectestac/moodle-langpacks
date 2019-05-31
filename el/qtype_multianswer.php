@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multianswer', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_multianswer', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   qtype_multianswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,15 +30,16 @@ $string['confirmsave'] = 'Επιβεβαίωση και κατόπιν αποθ�
 $string['correctanswer'] = 'Σωστή απάντηση';
 $string['correctanswerandfeedback'] = 'Σωστή απάντηση και ανατροφοδότηση';
 $string['decodeverifyquestiontext'] = 'Αποκωδικοποίηση και επιβεβαίωση του κειμένου της ερώτησης';
+$string['invalidmultianswerquestion'] = 'Μη έγκυρη ερώτηση ενσωματωμένων απαντήσεων (Cloze) ({$a}).';
 $string['layout'] = 'Διάταξη';
 $string['layouthorizontal'] = 'Οριζόντια σειρά από κουμπιά τύπου radio';
 $string['layoutmultiple_horizontal'] = 'Οριζόντια σειρά από πλαίσια ελέγχου';
 $string['layoutmultiple_vertical'] = 'Κάθετη στήλη από πλαίσια ελέγχου';
-$string['layoutselectinline'] = 'Αναπτυσσόμενο μενού εμβόλιμα στο κείμενο';
+$string['layoutselectinline'] = 'Πτυσσόμενο μενού στην ίδια γραμμή με το κείμενο';
 $string['layoutundefined'] = 'Μη ορισμένη διάταξη';
 $string['layoutvertical'] = 'Κάθετη στήλη από κουμπιά επιλογής';
 $string['nooptionsforsubquestion'] = 'Αδυναμία λήψης επιλογών για το τμήμα # {$a->sub} (question->id={$a->id}) της ερώτησης';
-$string['noquestions'] = 'Η ερώτηση τύπου Cloze (με πολλές απαντήσεις) "<strong>{$a}</strong>" δεν περιέχει καμία ερώτηση';
+$string['noquestions'] = 'Η ερώτηση τύπου ενσωματωμένων απαντήσεων (Cloze με πολλές απαντήσεις) «<strong>{$a}</strong>» δεν περιέχει καμία ερώτηση';
 $string['pleaseananswerallparts'] = 'Απαντήστε σε όλα τα τμήματα της ερώτησης.';
 $string['pluginname'] = 'Ενσωματωμένες απαντήσεις (Cloze)';
 $string['pluginnameadding'] = 'Προσθήκη μιας ερώτησης με Ενσωματωμένες απαντήσεις (Cloze)';

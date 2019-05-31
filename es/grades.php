@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'grades', language 'es', branch 'MOODLE_36_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -207,7 +207,7 @@ $string['editverbose'] = 'Editar {$a->category} {$a->itemmodule} {$a->itemname}'
 $string['enableajax'] = 'Habilitar AJAX';
 $string['enableajax_help'] = 'Agrega una capa de funcionalidad AJAX al informe del calificador, simplificando y agilizando las operaciones comunes. Depende de que Javascript esté activado en el navegador del usuario.';
 $string['enableoutcomes'] = 'Habilitar resultados';
-$string['enableoutcomes_help'] = 'Apoyo para los Resultados (también conocidos como \'competencias\', \'objetivos\', \'estándars\' o \'criterios\'). Significa que calificamos usando una o más escalas que están conectadas a las declaraciones de resultados. La activación de los resultados posibilita esta forma especial de calificación en todo el sitio.';
+$string['enableoutcomes_help'] = 'Si se habilita, los ítems de calificación pueden ser calificados usando una o más escalas ligadas a declaraciones de resultados.';
 $string['encoding'] = 'Codificación';
 $string['errorcalculationbroken'] = 'Probablemente una referencia circular o una fórmula de cálculo errónea';
 $string['errorcalculationnoequal'] = 'La fórmula debe comenzar por el signo \'igual\' (=1+2)';

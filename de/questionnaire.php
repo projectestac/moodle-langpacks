@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'questionnaire', language 'de', branch 'MOODLE_36_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,10 @@ $string['activityoverview'] = 'Sie haben unbeantwortete Befragungen.';
 $string['additionalinfo'] = 'zusätzliche Information';
 $string['additionalinfo_help'] = 'Text, der auf der ersten Seite am Anfang dieses Fragebogens angezeigt werden soll, z.B. Anleitungen, Hintergrundinfos, usw.';
 $string['addnewquestion'] = '{$a}-Frage hinzufügen';
+$string['addnewsection'] = 'Neuen Abschnitt anlegen';
+$string['addquestion'] = 'Frage hinzufügen...';
 $string['addquestions'] = 'Fragen hinzufügen';
+$string['addquestiontosection'] = 'Weitere Fragen zum Abschnitt hinzufügen';
 $string['addselqtype'] = 'Fragetyp hinzufügen';
 $string['alignment'] = 'Anordnung der Radio-Buttons';
 $string['alignment_help'] = 'Anordnung wählen: senkrecht (Standard) oder waagerecht';
@@ -90,10 +93,12 @@ $string['configusergraph'] = 'Zeigen Sie die Grafiken für das "Personality Test
 $string['configusergraphlong'] = 'Nutzen Sie die <a href="http://www.rgraph.net/">Rgraph</a> library um die "Personality Test"-Feedback Grafiken zu zeigen.';
 $string['confirmdelallresp'] = 'Möchten Sie wirklich alle Antworten in dieser Befragung löschen?';
 $string['confirmdelchildren'] = 'Wenn Sie diese Frage löschen wird/werden die abhängige(n) Frage(n) ebenfalls gelöscht:';
+$string['confirmdeletesection'] = 'Möchten Sie wirklich den Abschnitt \'{$a}\' löschen?';
 $string['confirmdelgroupresp'] = 'Möchten Sie wirklich alle Antworten von {$a} löschen?';
 $string['confirmdelquestion'] = 'Sind Sie sicher dass Sie die Frage an Position {$a} löschen möchten?';
 $string['confirmdelquestionresps'] = 'Dies wird auch die {$a} Antwort(en) löschen, die für die Frage bereits gegeben wurden.';
 $string['confirmdelresp'] = 'Möchten Sie wirklich die Antwort von {$a} löschen?';
+$string['confirmremovequestion'] = 'Möchten Sie wirklich die Frage \'{$a->qname}\' aus Abschnitt \'{$a->sname}\' entfernen?';
 $string['confpage'] = 'Überschrift';
 $string['confpagedesc'] = 'Überschrift (fett) und Beschreibung für die "Bestätigungsseite", die nach der Abgabe der Befragung angezeigt wird. (Falls eine URL angegeben, wird diese angezeigt, anstatt die Bestätigungsseite.)';
 $string['confpage_help'] = 'Überschrift (fett) und Beschreibung für die "Bestätigungsseite", die nach der Abgabe der Befragung angezeigt wird. (Falls eine URL angegeben, wird diese angezeigt, anstatt die Bestätigungsseite.)
@@ -115,6 +120,7 @@ $string['deletedallresp'] = 'Abgaben gelöscht';
 $string['deletedisabled'] = 'Diese Objekt kann nicht gelöscht werden';
 $string['deletedresp'] = 'Antwort löschen';
 $string['deleteresp'] = 'Diese Antwort löschen';
+$string['deletesection'] = 'Diesen Abschnitt löschen';
 $string['deletingresp'] = 'Antort wird gelöscht';
 $string['dependencies'] = 'Abhängigkeiten';
 $string['dependquestion'] = 'Übergeordnete Frage';
@@ -152,6 +158,7 @@ $string['event_submitted'] = 'Antworten abgesendet';
 $string['feedback'] = 'Feedback';
 $string['feedbackaddmorefeedbacks'] = 'Füge {keine} weiteren Feedback Felder hinzu';
 $string['feedbackbysection'] = 'Abschnittsfeedback';
+$string['feedbackdefaultlabel'] = '[Neuer Abschnitt]';
 $string['feedbackeditingglobal'] = 'Globales Feedback des Fragebogens bearbeiten';
 $string['feedbackeditingmessages'] = 'Feedback-Mitteilungen des Fragebogens bearbeiten';
 $string['feedbackeditingsections'] = 'Feedback der Abschnitte des Fragebogens bearbeiten';
@@ -189,6 +196,7 @@ $string['feedbacksectionheadingmissing'] = 'Sie müssen einen Titel für diesen 
 $string['feedbacksectionheadingtext'] = 'Überschrift';
 $string['feedbacksectionlabel'] = 'Beschriftung';
 $string['feedbacksectionlabel_help'] = 'Diese Beschriftung wird bei den Diagrammen genutzt. Bitte halten Sie ihn so kurz wie möglich.';
+$string['feedbacksectionquestions'] = 'Fragen in Abschnitt {$a}';
 $string['feedbacksections'] = 'Abschnittsfeedback';
 $string['feedbacksectionsselect'] = 'Abschnitte';
 $string['feedbacksectionsselect_help'] = 'Platzieren Sie Ihre Fragen in diese Abschnitte';
@@ -209,6 +217,7 @@ $string['horizontal'] = 'Waagerecht';
 $string['id'] = 'ID';
 $string['includechoicecodes'] = 'Auswahlcode einbeziehen';
 $string['includechoicetext'] = 'Auswahltext einbeziehen';
+$string['includeincomplete'] = 'Unvollständige Durchläufe einbeziehen';
 $string['incorrectcourseid'] = 'Falsche Kurs-ID';
 $string['incorrectmodule'] = 'Falsche Kursmodul-ID';
 $string['incorrectquestionnaire'] = 'Falsche Befragung';
@@ -253,6 +262,7 @@ $string['myresults'] = 'Ihre Ergebnisse';
 $string['name'] = 'Name';
 $string['navigate'] = 'Verzweigte Fragen erlauben';
 $string['navigate_help'] = 'Aktivieren Sie diese Option, damit Ja/Nein-Fragen, Radio-Button-Fragen und Mehrfachauswahlfragen abhängig von den gegebenen Antworten weitere Fragen sichtbar oder unsichtbar schalten.';
+$string['navigatetosection'] = 'Zu diesem Abschnitt wechseln';
 $string['next'] = 'Weiter';
 $string['nextpage'] = 'Nächste Seite';
 $string['nlines'] = '{$a} Zeilen';
@@ -487,6 +497,7 @@ $string['theme'] = 'Theme';
 $string['thismonth'] = 'dieser Monat';
 $string['thisresponse'] = 'Diese Antwort';
 $string['thisweek'] = 'diese Woche';
+$string['thousands'] = 'Kein Tausendertrennzeichen verwenden.';
 $string['title'] = 'Titel';
 $string['title_help'] = 'Titel der Befragung, der oben auf jeder Seite angezeigt wird.
 Standardmässig ist dies der Name der Befragung, Sie können dies aber editieren und nach Bedarf ändern.';

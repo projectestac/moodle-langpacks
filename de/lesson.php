@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'lesson', language 'de', branch 'MOODLE_36_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -122,7 +122,6 @@ $string['completiontimespent'] = 'Teilnehmer/in muss diese Aktivität erledigen 
 $string['completiontimespentdesc'] = 'Teilnehmer muss diese Aktivität für mindestens {$a} ausführen';
 $string['completiontimespentgroup'] = 'Geforderte Zeit erbracht';
 $string['conditionsfordependency'] = 'Bedingungen für Abhängigkeit';
-$string['configactionaftercorrectanswer'] = 'Standardaktion nach einer richtigen Antwort';
 $string['configintro'] = 'Die hier festgelegten Werte werden als Vorgaben beim Anlegen einer neuen Lektion verwendet. Einstellungen, die als erweitert bezeichnet sind, sind nur dann sichtbar, wenn der Link \'Mehr anzeigen ...\' angeklickt wird.';
 $string['configmaxanswers'] = 'Maximale Anzahl von Antworten pro Seite';
 $string['configmediaclose'] = 'Taste \'Schließen\' im Popup-Fenster für eine verlinkte Mediendatei anzeigen';
@@ -404,6 +403,7 @@ $string['ongoingcustom'] = 'Gesamtpunktzahl: {$a->score} / {$a->currenthigh}';
 $string['ongoing_help'] = 'Wenn diese Option aktiviert ist, wird den Teilnehmer/innen auf jeder Seite ihre aktuelle Bewertung zusammen mit der maximal erreichbaren Bewertung angezeigt.';
 $string['ongoingnormal'] = 'Richtige Antworten: {$a->correct} / {$a->viewed}';
 $string['onpostperpage'] = 'Nur eine Mitteilung pro Bewertung';
+$string['openafterclose'] = 'Sie haben ein offenes Datum nach dem Abschlussdatum angegeben.';
 $string['options'] = 'Optionen';
 $string['or'] = 'ODER';
 $string['ordered'] = 'Geordnet';

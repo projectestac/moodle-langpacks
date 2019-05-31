@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'theme_boost', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   theme_boost
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,17 +28,22 @@ defined('MOODLE_INTERNAL') || die();
 $string['advancedsettings'] = 'Προχωρημένες ρυθμίσεις';
 $string['backgroundimage'] = 'Εικόνα φόντου';
 $string['backgroundimage_desc'] = 'Η εικόνα που θα εμφανίζεται ως φόντο του ιστοτόπου. Αν ανεβάσετε μια εικόνα φόντου εδώ, θα παρακάμψει την εικόνα στα αρχεία προρυθμίσεων του θέματός σας.';
+$string['bootswatch'] = 'Bootswatch';
+$string['bootswatch_desc'] = 'Bootswatch είναι ένα σύνολο μεταβλητών Bootstrap και css για στυλ Bootstrap';
 $string['brandcolor'] = 'Χρώμα μάρκας';
 $string['brandcolor_desc'] = 'Το χρώμα έμφασης.';
 $string['choosereadme'] = 'Το Boost (προωθώ) είναι ένα σύγχρονο, ιδιαίτερα προσαρμόσιμο θέμα (theme). Αυτό το θέμα προορίζεται να χρησιμοποιηθεί άμεσα ή ως γονικό θέμα κατά τη δημιουργία νέων θεμάτων που χρησιμοποιούν το Bootstrap 4.';
 $string['configtitle'] = 'Boost';
 $string['currentinparentheses'] = '(τρέχων)';
+$string['fontsize'] = 'Βασική γραμματοσειρά θέματος';
+$string['fontsize_desc'] = 'Δώστε μέγεθος γραμματοσειράς σε %';
 $string['generalsettings'] = 'Γενικές Ρυθμίσεις';
+$string['nobootswatch'] = 'Τίποτα';
 $string['pluginname'] = 'Boost';
 $string['preset'] = 'Προρυθμίσεις θέματος';
 $string['preset_desc'] = 'Επιλέξτε ένα σετ προρυθμίσεων και αλλάξτε σε μεγάλο βαθμό την εμφάνιση του θέματος.';
 $string['presetfiles'] = 'Επιπρόσθετα αρχεία προρυθμίσεων θέματος';
-$string['presetfiles_desc'] = 'Τα αρχεία προτύπων μπορούν να χρησιμοποιηθούν για να αλλάξουν δραματικά την εμφάνιση του θέματος. Δείτε <a href=https://docs.moodle.org/dev/Boost_Presets>Δώστε ώθηση στα πρότυπα</a> για πληροφορίες για να δημιουργείτε και να μοιράζεστε τα δικά σας αρχεία προτύπων και δείτε το <a href=http://moodle.net/boost>Αποθετήριο προτύπων</a> για πρότυπα που άλλοι μοιράζονται.';
+$string['presetfiles_desc'] = 'Τα αρχεία προρυθμίσεων μπορούν να χρησιμοποιηθούν για να αλλάξουν δραματικά την εμφάνιση του θέματος. Δείτε <a href=https://docs.moodle.org/dev/Boost_Presets>Πρότυπα Boost</a> για πληροφορίες για να δημιουργείτε και να μοιράζεστε τα δικά σας αρχεία προρυθμίσεων και δείτε το <a href=http://moodle.net/boost>Αποθετήριο προρυθμίσεων </a> για προρυθμίσεις που άλλοι μοιράζονται.';
 $string['privacy:drawernavclosed'] = 'Η τρέχουσα προτίμηση για το συρτάρι πλοήγησης είναι κλειστό.';
 $string['privacy:drawernavopen'] = 'Η τρέχουσα προτίμηση για το συρτάρι πλοήγησης είναι ανοιχτό.';
 $string['privacy:metadata'] = 'Το θέμα Boost δεν αποθηκεύει κανένα προσωπικό δεδομένο για κανέναν χρήστη.';

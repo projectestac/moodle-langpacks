@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'debug', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,8 +50,8 @@ $string['nomodules'] = 'Δεν έχουν βρεθεί αρθρώματα!!';
 $string['nopageclass'] = 'Έγινε εισαγωγή του {$a} αλλά δε βρέθηκαν κλάσεις σελίδας';
 $string['noreports'] = 'Δεν υπάρχουν προσβάσιμες αναφορές';
 $string['notables'] = 'Δεν υπάρχουν καθόλου πίνακες!';
-$string['phpvaroff'] = 'Η μεταβλητή του εξυπηρετητή PHP \'{$a->name}\' θα έπρεπε να είναι Off - {$a->link}';
-$string['phpvaron'] = 'Η μεταβλητή του εξυπηρετητή PHP \'{$a->name}\' δεν είναι On - {$a->link}';
+$string['phpvaroff'] = 'Η μεταβλητή του εξυπηρετητή PHP «{$a->name}» θα έπρεπε να είναι Off - {$a->link}';
+$string['phpvaron'] = 'Η μεταβλητή του εξυπηρετητή PHP «{$a->name}» δεν είναι On - {$a->link}';
 $string['sessionmissing'] = 'Το αντικείμενο {$a} λείπει από τη σύνοδο';
 $string['sqlrelyonobsoletetable'] = 'Η SQL αυτή στηρίζεται σε απαρχαιωμένους πίνακες table: {$a}!  Ο κώδικάς σας πρέπει να φτιαχτεί από κάποιον προγραμματιστή.';
 $string['withoutversion'] = 'Το κύριο αρχείο version.php λείπει, δεν είναι αναγνώσιμο ή είναι κατεστραμμένο.';

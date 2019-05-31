@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'my', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   my
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,4 +42,3 @@ $string['reseterror'] = 'Προέκυψε σφάλμα κατά την επαν�
 $string['reseteveryonesdashboard'] = 'Επαναφορά Ταμπλό για όλους τους χρήστες';
 $string['reseteveryonesprofile'] = 'Επαναφορά προφίλ για όλους τους χρήστες';
 $string['resetpage'] = 'Επαναφορά σελίδας σε προεπιλογή';
-$string['unabletoaccess'] = 'Ως προφύλαξη ασφαλείας, δεν επιτρέπεται πρόσβαση σε Ταμπλό άλλου χρήστη';

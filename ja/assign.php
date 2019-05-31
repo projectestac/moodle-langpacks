@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assign', language 'ja', branch 'MOODLE_36_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addnewattempt_help'] = 'ここではあなたの作業のために空�
 $string['addnewgroupoverride'] = 'グループオーバーライドを追加する';
 $string['addnewuseroverride'] = 'ユーザオーバーライドを追加する';
 $string['addsubmission'] = '課題を追加する';
+$string['addsubmission_help'] = 'あなたはまだ提出していいません。';
 $string['allocatedmarker'] = '割り当て採点者';
 $string['allocatedmarker_help'] = 'この提出に割り当てられた採点者';
 $string['allowsubmissions'] = 'この課題にユーザが継続して提出できるようにします。';
@@ -113,7 +114,6 @@ $string['blindmarking_help'] = 'ブラインド評定は評定者に学生の個
 $string['calendardue'] = '{$a} の提出期限が到来しています。';
 $string['calendargradingdue'] = '{$a} の評定期限が到来しています。';
 $string['changefilters'] = 'フィルタを変更する';
-$string['changegradewarning'] = 'この課題は評定済みであり、評点を変更することにより既存の提出が自動的に再計算されることはありません。評点を変更したい場合、あなたは既存のすべての提出を再評定する必要があります。';
 $string['changeuser'] = 'ユーザを変更する';
 $string['choosegradingaction'] = '評定操作';
 $string['choosemarker'] = '選択 ...';
@@ -154,7 +154,7 @@ $string['downloadasfolders_help'] = '提出課題をフォルダに入れてダ�
 $string['downloadselectedsubmissions'] = '選択した提出をダウンロードする';
 $string['duedate'] = '終了日時';
 $string['duedatecolon'] = '終了日時: {$a}';
-$string['duedate_help'] = 'これは課題の提出期限です。提出遅延が許可された場合、この日時以後に提出された課題は提出遅延としてマークされます。特定日時以降の提出を避けるには課題遮断日時を設定してください。';
+$string['duedate_help'] = 'これは課題の提出期限です。この日時以降の提出はまだ許可されますが、この日時以後に提出された課題は提出遅延としてマークされます。特定日時以降の提出を避けるには課題遮断日時を設定してください。';
 $string['duedateno'] = '提出期限なし';
 $string['duedatereached'] = 'この課題の提出期限を過ぎました。';
 $string['duedatevalidation'] = '終了日を開始日時の前に設定することはできません。';
@@ -166,7 +166,7 @@ $string['editingstatus'] = '編集ステータス';
 $string['editonline'] = 'オンラインで編集する';
 $string['editoverride'] = 'オーバーライドを編集する';
 $string['editsubmission'] = '提出を編集する';
-$string['editsubmission_help'] = 'あなたの提出に変更を加えます。';
+$string['editsubmission_help'] = 'あなたはまだ提出に変更を加えることができます。';
 $string['editsubmissionother'] = '{$a} の提出を編集する';
 $string['enabled'] = '有効';
 $string['errornosubmissions'] = 'ダウンロード可能な提出はありません。';
@@ -237,6 +237,7 @@ $string['gradecanbechanged'] = '評点変更可';
 $string['gradechangessaveddetail'] = '評定およびフィードバックの変更が保存されました。';
 $string['graded'] = '評定済み';
 $string['gradedby'] = '評定者';
+$string['gradedfollowupsubmit'] = '評定済み - フォローアップ提出受信済み';
 $string['gradedon'] = '評定日時';
 $string['gradelocked'] = 'この評点はロックされているか評定表内で上書きされています。';
 $string['gradeoutof'] = '{$a} 点中の評点';

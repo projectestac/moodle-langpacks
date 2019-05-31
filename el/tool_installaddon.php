@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_installaddon', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_installaddon', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_installaddon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,7 +51,7 @@ $string['permcheckresultyes'] = 'Ο κατάλογος του τύπου πρό�
 $string['pluginname'] = 'Πρόγραμμα εγκατάστασης πρόσθετου';
 $string['privacy:metadata'] = 'Το πρόσθετο «Εγκατάσταση πρόσθετων» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['remoterequestalreadyinstalled'] = 'Υπάρχει ένα αίτημα εγκατάστασης του πρόσθετου {$a->name} ({$a->component}) έκδοσης {$a->version} από τον κατάλογο των πρόσθετων του Moodle σε αυτόν τον ιστότοπο. Όμως, το πρόσθετο αυτό είναι <strong>ήδη εγκατεστημένο</strong> στον ιστότοπο.';
-$string['remoterequestconfirm'] = 'Υπάρχει ένα αίτημα εγκατάστασης του πρόσθετου {$a->name} ({$a->component}) έκδοσης {$a->version} από τον κατάλογο των πρόσθετων του Moodle σε αυτόν τον ιστότοπο. Αν συνεχίσετε, θα γίνει λήψη του συμπιεσμένου zip πακέτου για αποτίμηση. Τίποτα δεν θα εγκατασταθεί ακόμα.';
+$string['remoterequestconfirm'] = 'Υπάρχει ένα αίτημα εγκατάστασης του πρόσθετου {$a->name} ({$a->component}) έκδοσης {$a->version} από τον κατάλογο των πρόσθετων του Moodle σε αυτόν τον ιστότοπο. Αν συνεχίσετε, θα γίνει λήψη του συμπιεσμένου zip για επικύρωση ως πακέτου. Τίποτα δεν θα εγκατασταθεί ακόμα.';
 $string['remoterequestinvalid'] = 'Υπάρχει ένα αίτημα για την εγκατάσταση ενός πρόσθετου από τον κατάλογο πρόσθετων του Moodle σε αυτόν τον ιστότοπο. Δυστυχώς το αίτημα δεν είναι έγκυρο και έτσι δεν είναι δυνατή η εγκατάσταση του πρόσθετου.';
 $string['remoterequestnoninstallable'] = 'Υπάρχει ένα αίτημα εγκατάστασης του πρόσθετου {$a->name} (στοιχείου {$a->component}) έκδοσης {$a->version} από τον κατάλογο των πρόσθετων του Moodle σε αυτόν τον ιστότοπο. Όμως, ο προ-έλεγχος της εγκατάστασης του πρόσθετου απέτυχε (κωδικός αιτίας: {$a->reason}).';
 $string['remoterequestpermcheck'] = 'Υπάρχει ένα αίτημα εγκατάστασης του πρόσθετου {$a->name} ({$a->component}) έκδοσης {$a->version} από τον κατάλογο των πρόσθετων του Moodle σε αυτόν τον ιστότοπο. Όμως, η τοποθεσία <strong>{$a->typepath}</strong>  <strong>δεν είναι εγγράψιμη</strong>. Πρέπει να δώσετε πρόσβαση εγγραφής στην τοποθεσία από τον χρήστη του εξυπηρετητή ιστού, κατόπιν πατήστε το πλήκτρο συνέχειας για επανάληψη του ελέγχου.';

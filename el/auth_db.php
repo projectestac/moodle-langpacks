@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_db', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth_db', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   auth_db
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,7 +40,7 @@ $string['auth_dbextencodinghelp'] = 'Κωδικοποίηση που χρησι�
 $string['auth_dbextrafields'] = 'Αυτά τα πεδία είναι προαιρετικά. Υπάρχει η επιλογή να προ-συμπληρώσετε μερικά πεδία χρηστών του Moodle χρησιμοποιώντας πληροφορίες από την <b>εξωτερική βάση δεδομένων</b> που θα ορίσετε εδώ. <p>Εάν τα αφήσετε κενά, τότε θα χρησιμοποιηθούν τα προεπιλεγμένα στοιχεία.</p> <p>Σε κάθε περίπτωση, ο χρήστης θα μπορεί να παρέμβει σε όλα αυτά τα πεδία μετά την σύνδεση.</p>';
 $string['auth_dbfieldpass'] = 'Όνομα πεδίου που περιέχει τους κωδικούς πρόσβασης';
 $string['auth_dbfieldpass_key'] = 'Πεδίο κωδικού πρόσβασης';
-$string['auth_dbfielduser'] = 'Όνομα πεδίου που περιέχει τα ονόματα χρηστών';
+$string['auth_dbfielduser'] = 'Όνομα πεδίου που περιέχει τα ονόματα χρηστών. Το πεδίο αυτό πρέπει να είναι τύπου δεδομένων varchar.';
 $string['auth_dbfielduser_key'] = 'Πεδίο ονόματος χρήστη';
 $string['auth_dbhost'] = 'Ο υπολογιστής που φιλοξενεί τον εξυπηρετητή βάσης δεδομένων. Χρησιμοποιήστε μια καταχώρηση DSN συστήματος αν χρησιμοποιείτε ODBC. Χρησιμοποιήστε μια καταχώρηση DSN PDO εάν χρησιμοποιείτε PDO. (ODBC: Open Database Connectivity) (DSN: Data Source Name) (PDO: PHP Data Objects)';
 $string['auth_dbhost_key'] = 'O Η/Υ που φιλοξενεί τον εξυπηρετητή της βάσης δεδομένων';
@@ -63,7 +63,7 @@ $string['auth_dbreviveduser'] = 'O χρήστης «{$a->name}» με αναγν
 $string['auth_dbrevivedusererror'] = 'Σφάλμα κατά την αναβίωση του χρήστη «{$a}»';
 $string['auth_dbsaltedcrypt'] = 'Mονόδρομος κατακερματισμός συμβολοσειράς μέσω της εντολής crypt';
 $string['auth_dbsetupsql'] = 'Εντολή εγκατάστασης SQL';
-$string['auth_dbsetupsqlhelp'] = 'Εντολή SQL για ειδική εγκατάσταση βάσης δεδομένων. Συχνά χρησιμοποιείται για να ρυθμίσει την κωδικοποίηση επικοινωνίας - παράδειγμα για την MySQL και την PostgreSQL: <em>SET NAMES \'utf8\'</em>';
+$string['auth_dbsetupsqlhelp'] = 'Εντολή SQL για ειδική εγκατάσταση βάσης δεδομένων. Συχνά χρησιμοποιείται για να ρυθμίσει την κωδικοποίηση επικοινωνίας - παράδειγμα για την MySQL και την PostgreSQL: <em>SET NAMES «utf8»</em>';
 $string['auth_dbsuspenduser'] = 'Ο χρήστης με όνομα «{$a->name}» και αναγνωριστικό «{$a->id}» μπήκε σε αναστολή';
 $string['auth_dbsuspendusererror'] = 'Σφάλμα κατά την αναστολή χρήστη «{$a}»';
 $string['auth_dbsybasequoting'] = 'Χρήση sybase εισαγωγικών';
@@ -79,7 +79,6 @@ $string['auth_dbupdateusers_description'] = 'Εκτός από την εισαγ
 $string['auth_dbupdatinguser'] = 'Ενημέρωση του χρήστη με όνομα «{$a->name}» και αναγνωριστικό «{$a->id}»';
 $string['auth_dbuser'] = 'Όνομα χρήστη με δικαίωμα ανάγνωσης της βάσης δεδομένων.';
 $string['auth_dbuser_key'] = 'Χρήστης βάσης δεδομένων';
-$string['auth_dbusernotexist'] = 'Δεν είναι δυνατή η ενημέρωση του μη υπάρχοντος χρήστη: {$a}';
 $string['auth_dbuserstoadd'] = 'Καταχωρήσεις χρηστών προς εισαγωγή: {$a}';
 $string['auth_dbuserstoremove'] = 'Καταχωρήσεις χρήστη προς διαγραφή: {$a}';
 $string['pluginname'] = 'Εξωτερική βάση δεδομένων';

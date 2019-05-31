@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'error', language 'ja', branch 'MOODLE_36_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -385,7 +385,6 @@ $string['logfilenotavailable'] = 'ログは利用できません。';
 $string['loginasnoenrol'] = 'コースに「... としてログイン」している場合、あなたはユーザ登録および登録解除することはできません。';
 $string['loginasonecourse'] = 'あなたはこのコースに入ることはできません。<br />他のコースに入る前に現在の「... としてログイン」セッションを終了する必要があります。';
 $string['maxareabytes'] = 'ファイルがこのエリアの空き容量を超えています。';
-$string['maxbytes'] = 'ファイルが最大許容サイズを超えています。';
 $string['maxbytesfile'] = 'ファイル {$a->file} は大きすぎます。あなたがアップロードできる最大サイズは {$a->size} です。';
 $string['messagingdisable'] = 'このサイトではメッセージングが無効にされています。';
 $string['mimetexisnotexist'] = 'あなたのシステムはmimeTeXを実行できるよう設定されていません。あなたはC言語のソースを<a href="http://www.forkosh.com/mimetex.zip">http://www.forkosh.com/mimetex.zip</a>から取得する必要があります。ダウンロードしたファイルをコンパイルした後、 あなたの「moodle/filter/tex/」ディレクトリに入れてください。';
@@ -446,7 +445,7 @@ $string['nopermissiontomanagegroup'] = 'あなたにはグループを管理す�
 $string['nopermissiontorate'] = 'アイテム評価は許可されていません!';
 $string['nopermissiontoshow'] = 'これを閲覧するパーミッションがありません!';
 $string['nopermissiontounlock'] = 'ロック解除するパーミッションはありません!';
-$string['nopermissiontoupdatecalendar'] = '申し訳ございません、現在あなたにはカレンダーイベントを更新するためのパーミッションがありません。';
+$string['nopermissiontoupdatecalendar'] = '申し訳ございません、あなたにはカレンダーイベントを更新するためのパーミッションがありません。';
 $string['nopermissiontoviewgrades'] = '評点を表示できません。';
 $string['nopermissiontoviewletergrade'] = '評定文字を閲覧するパーミッションがありません。';
 $string['nopermissiontoviewpage'] = 'あなたはこのページを閲覧できません。';

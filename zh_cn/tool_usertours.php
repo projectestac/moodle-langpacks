@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'zh_cn', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_usertours', language 'zh_cn', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,6 +38,7 @@ $string['resettouronpage'] = '在这个页面上重新开始用户导航';
 $string['target'] = '目标';
 $string['tour1_title_customisation'] = '定制';
 $string['tour2_title_customisation'] = '定制';
+$string['tour3_title_overview'] = '课程概览';
 $string['tourlist_explanation'] = '您可以根据您的喜好创建尽可能多的导航，并为Moodle的不同部分提供支持。每一页只能创建一个导航。';
 $string['tours'] = '导航';
 $string['usertours'] = '用户导航';

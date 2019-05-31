@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'glossary', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addcategory'] = 'Προσθήκη κατηγορίας';
 $string['addcomment'] = 'Προσθήκη σχολίου';
 $string['addentry'] = 'Προσθήκη νέας εγγραφής';
 $string['addingcomment'] = 'Προσθήκη ενός σχολίου';
@@ -105,6 +106,7 @@ $string['defaultsortkey'] = 'Προεπιλεγμένο κλειδί ταξιν�
 $string['defaultsortorder'] = 'Προεπιλεγμένη σειρά ταξινόμησης';
 $string['definition'] = 'Ορισμός';
 $string['definitions'] = 'Ορισμοί';
+$string['deletecategory'] = 'Διαγραφή κατηγορίας';
 $string['deleteentry'] = 'Διαγραφή εγγραφής';
 $string['deleteentrya'] = 'Διαγραφή καταχώρησης: {$a}';
 $string['deletenotenrolled'] = 'Διαγραφή των καταχωρήσεων από χρήστες που δεν έχουν εγγραφεί στο μάθημα';
@@ -139,6 +141,7 @@ $string['duplicateentry'] = 'Διπλή καταχώρηση';
 $string['editalways'] = 'Επιτρέπεται πάντα επεξεργασία';
 $string['editalways_help'] = 'Αυτή η ρύθμιση καθορίζει εάν οι μαθητές θα μπορούν πάντα να επεξεργάζονται τις καταχωρήσεις τους ή εάν θα μπορούν μόνο εντός ενός ρυθμιζόμενου χρόνου επεξεργασίας (συνήθως 30 λεπτά).';
 $string['editcategories'] = 'Επεξεργασία κατηγοριών';
+$string['editcategory'] = 'Επεξεργασία κατηγορίας';
 $string['editentry'] = 'Επεξεργασία καταχώρησης';
 $string['editentrya'] = 'Επεξεργασία καταχώρησης: {$a}';
 $string['editingcomment'] = 'Επεξεργασία σχολίου...';
@@ -152,6 +155,7 @@ $string['entrydeleted'] = 'Η καταχώρηση διαγράφηκε';
 $string['entryexported'] = 'Η καταχώρηση εξάχθηκε επιτυχώς';
 $string['entryishidden'] = '(αυτή η καταχώρηση είναι προς το παρόν κρυμμένη)';
 $string['entryleveldefaultsettings'] = 'Προεπιλεγμένες ρυθμίσεις επιπέδου καταχώρησης';
+$string['entrylink'] = 'Σύνδεσμος καταχώρησης: {$a}';
 $string['entrysaved'] = 'Αυτή η καταχώρηση αποθηκεύτηκε';
 $string['entryupdated'] = 'Αυτή η καταχώρηση ενημερώθηκε';
 $string['entryusedynalink'] = 'Σε αυτήν την καταχώρηση θα γίνεται σύνδεση αυτόματα.';
@@ -280,7 +284,7 @@ $string['resetglossaries'] = 'Διαγραφή καταχωρήσεων από';
 $string['resetglossariesall'] = 'Διαγραφή καταχωρήσεων από όλα τα γλωσσάρια';
 $string['rssarticles'] = 'Αριθμός πρόσφατων άρθρων τροφοδοσίας RSS';
 $string['rssarticles_help'] = 'Αυτή η ρύθμιση καθορίζει τον αριθμό των καταχωρήσεων εννοιών του γλωσσαρίου που θα συμπεριληφθούν στην RSS τροφοδοσία. Γενικά επιτρέπονται 5 με 20.';
-$string['rsssubscriberss'] = 'Εμφάνιση της τροφοδοσίας RSS για \'{$a}\' έννοιες';
+$string['rsssubscriberss'] = 'Εμφάνιση της τροφοδοσίας RSS για «{$a}» έννοιες';
 $string['rsstype'] = 'Τροφοδοσία RSS για αυτή τη δραστηριότητα';
 $string['rsstype_help'] = 'Για να ενεργοποιήσετε την τροφοδοσία RSS για αυτήν τη δραστηριότητα, επιλέξτε είτε έννοιες με συγγραφέα ή έννοιες χωρίς συγγραφέα που θα συμπεριληφθούν στην τροφοδοσία.';
 $string['search:activity'] = 'Πληροφορίες δραστηριότητας γλωσσαρίου';

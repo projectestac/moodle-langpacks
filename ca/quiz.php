@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz', language 'ca', branch 'MOODLE_36_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -81,6 +81,7 @@ $string['answers'] = 'Respostes';
 $string['answersingleno'] = 'Es permeten múltiples respostes';
 $string['answersingleyes'] = 'Només una resposta';
 $string['answertoolong'] = 'La resposta és massa llarga després de la línia {$a} (màxim 255 caràcters)';
+$string['anytags'] = 'Totes les etiquetes';
 $string['aon'] = 'Format AON';
 $string['areyousureremoveselected'] = 'Segur que voleu eliminar totes les preguntes seleccionades?';
 $string['asshownoneditscreen'] = 'Tal com apareix a la pantalla d\'edició';
@@ -699,6 +700,7 @@ $string['randomfromcategory'] = 'Pregunta aleatòria de la categoria:';
 $string['randomfromexistingcategory'] = 'Pregunta aleatòria d\'una categoria existent';
 $string['randomnosubcat'] = 'Preguntes només d\'aquesta categoria, no de les seves subcategories.';
 $string['randomnumber'] = 'Nombre de preguntes aleatòries';
+$string['randomquestiontags'] = 'Etiquetes';
 $string['randomquestionusinganewcategory'] = 'Pregunta aleatòria fent servir una categoria nova.';
 $string['randomwithsubcat'] = 'Pregunta d\'aquesta categoria i de les seves subcategories.';
 $string['readytosend'] = 'Esteu a punt d\'enviar el qüestionari complet perquè sigui qualificat. Esteu segur que voleu continuar?';
@@ -828,7 +830,7 @@ $string['select'] = 'Selecciona';
 $string['selectall'] = 'Selecciona tot';
 $string['selectcategory'] = 'Selecciona una categoria';
 $string['selectedattempts'] = 'Intents seleccionats';
-$string['selectmultipleitems'] = 'Seleccioneu diversos elements';
+$string['selectmultipleitems'] = 'Selecciona diversos elements';
 $string['selectnone'] = 'Desselecciona tot';
 $string['selectquestiontype'] = '-- Selecciona un tipus de pregunta --';
 $string['serveradded'] = 'S\'ha afegit el servidor';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_usertours', language 'pt', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['appliesto'] = 'Aplica-se a';
 $string['backdrop'] = 'Mostrar com plano de fundo';
 $string['backdrop_help'] = 'Pode usar um plano de fundo para realçar a parte da página para onde está a apontar.
 
-Atenção: os planos de fundo não são compatíveis com algumas partes da página tal como, por exemplo, a barra de navegação.';
+<b>Atenção</b>: Os planos de fundo não são compatíveis com algumas partes da página, por exemplo, a barra de navegação.';
 $string['below'] = 'Abaixo';
 $string['block'] = 'Bloco';
 $string['block_named'] = 'Bloco \'{$a}\'';
@@ -138,7 +138,7 @@ $string['title'] = 'Título';
 $string['title_help'] = 'O título de uma etapa pode ser adicionado como texto simples, incluído em palavras-chave multilingue se for necessário (para uso com o filtro de conteúdo em vários idiomas).
 
 Em alternativa, um ID de string do idioma pode ser inserido no identificador de formato, componente (sem parêntesis ou espaço após a vírgula).';
-$string['tour1_content_addingblocks'] = 'Na verdade, pense cuidadosamente sobre incluir quaisquer blocos nas suas páginas. Os blocos não são mostrados na aplicação móvel do Moodle, por isso, como regra geral, é muito melhor certificar-se de que o seu site funciona bem sem quaisquer blocos.';
+$string['tour1_content_addingblocks'] = 'Na verdade, pense cuidadosamente sobre incluir quaisquer blocos nas suas páginas. Os blocos não são mostrados na Aplicação móvel Moodle, por isso, e como regra geral, é muito melhor certificar-se de que o seu site funciona bem sem quaisquer blocos.';
 $string['tour1_content_blockregion'] = 'Existe ainda uma área com blocos. Recomenda-se a remoção completa dos blocos Navegação e Administração, uma vez que toda a funcionalidade destes está noutro lugar no tema Boost.';
 $string['tour1_content_customisation'] = 'Para personalizar a aparência do seu site e da página principal, use o menu de configurações no canto deste cabeçalho. Clique em Ativar o modo de edição.';
 $string['tour1_content_end'] = 'Esta foi uma demonstração ao utilizador. Não será mostrada novamente a menos que a reinicie através da hiperligação existente no rodapé. Como administrador, também pode criar as suas demonstrações!';
@@ -150,8 +150,8 @@ $string['tour1_title_customisation'] = 'Personalização';
 $string['tour1_title_end'] = 'Fim da demonstração';
 $string['tour1_title_navigation'] = 'Navegação';
 $string['tour1_title_welcome'] = 'Bem-vindo';
-$string['tour2_content_addblock'] = 'Se ativar o modo de edição, poderá adicionar blocos a partir do menu de navegação. No entanto, pense cuidadosamente sobre a inclusão de quaisquer blocos nas suas páginas. Os blocos não são mostrados na aplicação móvel do Moodle, por isso, para uma melhor experiência do utilizador é melhor certificar-se de que a disciplina funciona bem, sem quaisquer blocos.';
-$string['tour2_content_addingblocks'] = 'Pode adicionar blocos a esta página através deste botão. No entanto, pense cuidadosamente sobre incluir quaisquer blocos nas suas páginas. Os blocos não são mostrados na aplicação móvel do Moodle, por isso, para uma melhor experiência do utilizador é melhor certificar-se de que a disciplina funciona bem, sem quaisquer blocos.';
+$string['tour2_content_addblock'] = 'Se ativar o modo de edição, poderá adicionar blocos através do menu de navegação. No entanto, pense cuidadosamente sobre incluir quaisquer blocos nas suas páginas. Os blocos não são mostrados na Aplicação móvel Moodle, por isso, para uma melhor experiência do utilizador, é melhor certificar-se de que a disciplina funciona bem sem quaisquer blocos.';
+$string['tour2_content_addingblocks'] = 'Pode adicionar blocos a esta página através deste botão. No entanto, pense cuidadosamente sobre incluir quaisquer blocos nas suas páginas. Os blocos não são mostrados na Aplicação móvel Moodle, por isso, para uma melhor experiência do utilizador, é melhor certificar-se de que a disciplina funciona bem sem quaisquer blocos.';
 $string['tour2_content_customisation'] = 'Para alterar as configurações da disciplina, use o menu de configurações no canto deste cabeçalho. Também encontrará um menu de configurações semelhante na página inicial de todas as atividades. Clique em Ativar o modo de edição.';
 $string['tour2_content_end'] = 'Esta foi uma demonstração ao utilizador. Não será mostrada novamente a menos que a reinicie usando a hiperligação existente no rodapé. Se necessário, o administrador do site também pode criar outras demonstrações para este site.';
 $string['tour2_content_navigation'] = 'A navegação é agora feita através deste menu de navegação. Use o botão na parte superior para ocultá-lo ou mostrá-lo. Verá que existem hiperligações para as secções principais da sua disciplina.';
@@ -166,7 +166,49 @@ $string['tour2_title_navigation'] = 'Navegação';
 $string['tour2_title_opendrawer'] = 'Abrir o menu de navegação';
 $string['tour2_title_participants'] = 'Participantes da disciplina';
 $string['tour2_title_welcome'] = 'Bem-vindo';
+$string['tour3_content_dashboard'] = 'O novo Painel do utilizador tem muitas funcionalidades para facilitar o fácil acesso às informações mais importantes.';
+$string['tour3_content_displayoptions'] = 'As disciplinas podem ser ordenadas por nome da disciplina ou pela data do último acesso.
+
+Também pode optar por mostrar as disciplinas numa lista, com descrição, ou a exibição predefinida de \'cartões\'.';
+$string['tour3_content_overview'] = 'O bloco Visão global das disciplinas mostra todas as disciplinas em que está inscrito.
+
+Pode optar por mostrar as disciplinas atualmente em progresso, as já terminadas, as a iniciar ou as disciplinas que marcou com estrela.';
+$string['tour3_content_recentcourses'] = 'O bloco Disciplinas acedidas recentemente mostra as últimas disciplinas que visitou, o que permite uma navegação rápida para as disciplinas visitadas.';
+$string['tour3_content_starring'] = 'Pode optar por marcar uma disciplina com uma estrela para a destacar ou ocultar uma disciplina que já não é importante.
+
+Estas ações afetam apenas a sua visualização.
+
+Também pode optar por mostrar as disciplinas numa lista, com descrição, ou a exibição predefinida de \'cartões\'.';
+$string['tour3_content_timeline'] = 'O bloco Cronograma mostra os seus próximos eventos importantes.
+
+Pode optar por mostrar atividades da próxima semana, mês ou no futuro.
+
+Também pode mostrar itens que já terminaram.';
+$string['tour3_title_dashboard'] = 'Painel do utilizador';
+$string['tour3_title_displayoptions'] = 'Opções de visualização';
+$string['tour3_title_overview'] = 'Visão global';
+$string['tour3_title_recentcourses'] = 'Disciplinas acedidas recentemente';
+$string['tour3_title_starring'] = 'Marcar com estrela e ocultar disciplinas';
+$string['tour3_title_timeline'] = 'Bloco Cronograma';
+$string['tour4_content_groupconvo'] = 'Se é membro de um grupo com mensagens de grupo ativadas, verá aqui as conversações do grupo.
+
+As conversas de grupo das disciplinas permitem que interaja com as outras pessoas do seu grupo num local privado e conveniente.';
+$string['tour4_content_icon'] = 'Pode aceder às suas mensagens a partir de qualquer página ao clicar neste ícone.
+
+Se tiver alguma mensagem não lida, o número de mensagens não lidas será também mostrado aqui.
+
+Clique no ícone para abrir a caixa de mensagens e continuar a demonstração.';
+$string['tour4_content_messaging'] = 'O Moodle 3.6 fornece uma nova interface do envio de mensagens, a capacidade de enviar mensagens para um grupo dentro de uma disciplina, assim como, um melhor controlo sobre quem pode enviar mensagens para si.';
+$string['tour4_content_settings'] = 'Pode aceder às suas configurações de mensagens através do ícone de engrenagem. Uma nova configuração de privacidade permite restringir quem pode enviar mensagens si.';
+$string['tour4_content_starred'] = 'Pode optar por marcar conversas específicas com estrela para torná-las mais fáceis de encontrar.';
+$string['tour4_title_groupconvo'] = 'Mensagens de grupo';
+$string['tour4_title_icon'] = 'Enviar mensagens';
+$string['tour4_title_messaging'] = 'Nova interface do envio de mensagens';
+$string['tour4_title_settings'] = 'Configurações do envio de mensagens';
+$string['tour4_title_starred'] = 'Com estrela';
 $string['tourconfig'] = 'Ficheiro de configuração da demonstração a ser importado';
+$string['tour_final_step_content'] = 'Chegou ao fim da demonstração ao utilizador. Não será mostrada novamente a menos que a reponha através da hiperligação existente no rodapé.';
+$string['tour_final_step_title'] = 'Fim da demonstração';
 $string['tourisenabled'] = 'Demonstração ativada';
 $string['tourlist_explanation'] = 'Pode criar as demonstrações que pretender e ativá-las para diferentes partes do Moodle. Apenas pode criar uma demonstração para cada página.';
 $string['tour_resetforall'] = 'O estado da demonstração foi redefinido. Será mostrada novamente a todos os utilizadores.';

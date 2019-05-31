@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'moodle', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -230,7 +230,7 @@ $string['cachecontrols'] = 'Réglages du cache';
 $string['cancel'] = 'Annuler';
 $string['cancelled'] = 'Annulé';
 $string['categories'] = 'Catégories de cours';
-$string['categoriesandcoures'] = 'Catégories de cours et cours';
+$string['categoriesandcourses'] = 'Catégories de cours et cours';
 $string['category'] = 'Catégorie';
 $string['categoryadded'] = 'La catégorie « {$a} » a été ajoutée';
 $string['categorybulkaction'] = 'Actions en lots pour les catégories sélectionnées';
@@ -291,7 +291,7 @@ $string['confirmcheckfull'] = 'Voulez-vous vraiment confirmer {$a} ?';
 $string['confirmcoursemove'] = 'Voulez-vous vraiment déplacer ce cours ({$a->course}) dans cette catégorie ({$a->category}) ?';
 $string['confirmdeletesection'] = 'Voulez-vous vraiment supprimer « {$a} » et toutes les activités qui y sont placées ?';
 $string['confirmed'] = 'Votre enregistrement a été confirmé';
-$string['confirmednot'] = 'Votre enregistrement n\'a pas encore été confirmé';
+$string['confirmednot'] = 'Votre enregistrement n\'a pas encore été confirmé. Veuillez vérifier si vous avez reçu un courriel de confirmation.';
 $string['considereddigitalminor'] = 'Vous êtes trop jeune pour créer un compte sur ce site.';
 $string['content'] = 'Contenu';
 $string['continue'] = 'Continuer';
@@ -300,9 +300,11 @@ $string['convertingwikitomarkdown'] = 'Conversion du format Wiki au Markdown';
 $string['cookiesenabled'] = 'Votre navigateur doit supporter les cookies';
 $string['cookiesenabled_help'] = 'Ce site utilise deux cookies.
 
-Un cookie (essentiel) est utilisé pour la session de travail. Il est habituellement appelé <strong>MoodleSession</strong>. Vous devez autoriser son utilisation par le navigateur pour pouvoir ouvrir de nouvelles fenêtres sans avoir à vous reconnecter chaque fois. Le cookie est effacé lorsque vous vous déconnectez ou si vous quittez le navigateur.</p>
+Un cookie (essentiel) est utilisé pour la session de travail. Il est habituellement appelé MoodleSession. Vous devez l\'autoriser dans votre navigateur afin de pouvoir naviguer sur le site sans avoir à vous reconnecter à tout moment. Ce cookie est supprimé du navigateur et du serveur lorsque vous vous déconnectez ou si vous quittez le navigateur.
 
-L\'autre cookie n\'est pas essentiel, mais rend la connexion à Moodle plus facile en mémorisant votre nom d\'utilisateur dans le navigateur. Vous n\'aurez donc pas à remplir ce champ lors de la prochaine visite. Il porte habituellement le nom <strong>MOODLEID</strong>. Il n\'y a toutefois pas de problème à refuser ce cookie.';
+L\'autre cookie n\'est pas essentiel, mais rend la connexion à Moodle plus facile en mémorisant votre nom d\'utilisateur dans le navigateur. Vous n\'aurez donc pas à remplir ce champ lors de la prochaine visite. Il porte habituellement le nom MOODLEID. Il est tout à fait sûr de refuser ce cookie. Vous devrez simplement ressaisir votre nom d\'utilisateur lors de chaque connexion.';
+$string['cookiesenabledonlysession'] = 'Votre navigateur doit supporter les cookies';
+$string['cookiesenabledonlysession_help'] = 'Ce site utilise un cookie de session, appelé usuellement MoodleSession. Vous devez autoriser ce cookie dans votre navigateur afin de pouvoir naviguer sur le site sans avoir à vous reconnecter à tout moment. Ce cookie est supprimé du navigateur et du serveur lorsque vous vous déconnectez ou si vous quittez le navigateur.';
 $string['cookiesnotenabled'] = 'La gestion des cookies n\'est malheureusement pas activée actuellement dans votre navigateur';
 $string['copy'] = 'copie';
 $string['copyasnoun'] = 'copie';
@@ -376,10 +378,10 @@ $string['coursenotaccessible'] = 'Ce cours n\'est pas accessible au public';
 $string['coursenotyetfinished'] = 'Le cours n\'est pas encore terminé';
 $string['coursenotyetstarted'] = 'Le cours n\'a pas encore débuté';
 $string['courseoverview'] = 'Aperçu du cours';
-$string['courseoverviewfiles'] = 'Fichiers de résumé des cours';
-$string['courseoverviewfilesext'] = 'Extensions des fichiers de résumé des cours';
-$string['courseoverviewfiles_help'] = 'Les fichiers de résumé des cours (habituellement des images) sont affichés dans la liste des cours avec le résumé du cours.';
-$string['courseoverviewfileslimit'] = 'Limite du nombre de fichiers de résumé des cours';
+$string['courseoverviewfiles'] = 'Image de cours';
+$string['courseoverviewfilesext'] = 'Extensions des fichiers image de cours';
+$string['courseoverviewfiles_help'] = 'L\'image de cours est affichée dans la vue d\'ensemble des cours sur le Tableau de bord. D\'autres types de fichiers et plus d\'un fichiers peuvent être autorisés par un administrateur du site. Dans ce cas, ces fichiers seront affichés avec le résumé du cours, dans la page avec la liste des cours.';
+$string['courseoverviewfileslimit'] = 'Limite du nombre de fichiers image de cours';
 $string['courseoverviewgraph'] = 'Graphique de l\'aperçu du cours';
 $string['coursepreferences'] = 'Préférences du cours';
 $string['courseprofiles'] = 'Profils de cours';
@@ -404,6 +406,13 @@ $string['courserequestsupport'] = 'Informations supplémentaires pour aider l\'a
 $string['courserequestwarning'] = 'L\'utilisateur ayant demandé ce cours y sera inscrit automatiquement avec le rôle « {$a} ».';
 $string['courserestore'] = 'Restauration du cours';
 $string['courses'] = 'Cours';
+$string['coursesearch'] = 'Rechercher des cours';
+$string['coursesearch_help'] = '<p>Vous pouvez saisir plusieurs termes comme critères et affiner votre recherche de la façon suivante.<p>
+<ul>
+<li>terme : rechercher toutes les occurrences du terme dans le texte.</li>
+<li>+terme : seules les correspondances exactes du terme (mot entier) seront trouvées.</li>
+<li>-terme : ne pas inclure les résultats contenant ce terme.</li>
+</ul>';
 $string['coursesectionsummaries'] = 'Résumés des sections de cours';
 $string['coursesectiontitle'] = 'Cours : {$a->course}, {$a->sectionname} : {$a->sectiontitle}';
 $string['coursesettings'] = 'Réglages par défaut des cours';
@@ -564,6 +573,7 @@ $string['downloadtext'] = 'Télécharger en format texte';
 $string['doyouagree'] = 'Avez-vous lu et compris ces conditions ?';
 $string['droptoupload'] = 'Lâcher les fichiers ici pour les envoyer';
 $string['duplicate'] = 'Dupliquer';
+$string['duplicatedmodule'] = '{$a} (copie)';
 $string['edhelpaspellpath'] = 'Pour utiliser le correcteur orthographique dans l\'éditeur WYSIWYG, le programme <strong>aspell</strong> version <strong>0.50</strong> ou ultérieure doit être installé sur le serveur, et son chemin d\'accès doit être configuré correctement. Sur les systèmes Unix/Linux, ce chemin d\'accès est habituellement <strong>/usr/bin/aspell</strong>.';
 $string['edhelpbgcolor'] = 'Couleur de fond de l\'éditeur.<br />Des valeurs correctes sont par exemple : #ffffff ou white';
 $string['edhelpcleanword'] = 'Ce réglage permet l\'activation du filtre spécifique au format Word.';
@@ -615,9 +625,9 @@ $string['emailagain'] = 'Courriel (confirmation)';
 $string['emailalreadysent'] = 'Un message de réinitialisation du mot de passe a déjà été envoyé. Veuillez consulter votre boîte de courriel.';
 $string['emailcharset'] = 'Encodage des courriels';
 $string['emailconfirm'] = 'Confirmer votre enregistrement';
-$string['emailconfirmation'] = 'Bonjour,
+$string['emailconfirmation'] = 'Bonjour {$a->firstname},
 
-La création d\'un compte pour {$a->sitename} a été demandée en utilisant votre adresse de courriel. Pour confirmer votre enregistrement, veuillez visiter la page web suivante :
+La création d\'un compte pour {$a->sitename} a été demandée en utilisant votre adresse de courriel. Pour confirmer votre enregistrement, veuillez visiter la page web suivante :
 
 {$a->link}
 
@@ -625,8 +635,11 @@ Dans la plupart des logiciels de courriel, cette adresse devrait apparaître com
 
 Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site,
 {$a->admin}';
+$string['emailconfirmationresend'] = 'Renvoyer le courriel de confirmation';
 $string['emailconfirmationsubject'] = '{$a} : confirmation de l\'ouverture du compte';
 $string['emailconfirmsent'] = '<p>Un message vous a été envoyé à l\'adresse de courriel <strong>{$a}</strong>.</p><p>Il contient les instructions pour terminer votre enregistrement.</p><p>Si vous rencontrez des difficultés, veuillez contacter l\'administrateur du site.</p>';
+$string['emailconfirmsentfailure'] = 'Échec de l\'envoi du courriel de confirmation';
+$string['emailconfirmsentsuccess'] = 'Courriel de confirmation envoyé';
 $string['emaildigest'] = 'Forme du courriel quotidien';
 $string['emaildigestcomplete'] = 'Complet (courriel quotidien avec l\'intégralité des messages)';
 $string['emaildigest_help'] = 'Le type de notification que les forums utiliseront par défaut pour le courriel quotidien.
@@ -642,8 +655,9 @@ $string['emaildisable'] = 'Cette adresse de courriel est désactivée';
 $string['emaildisableclick'] = 'Cliquez ici pour désactiver l\'envoi de courriels à cette adresse';
 $string['emaildisplay'] = 'Affichage de l\'adresse de courriel';
 $string['emaildisplaycourse'] = 'Seuls les membres du cours sont autorisés à voir mon adresse de courriel';
+$string['emaildisplay_help'] = 'Les utilisateurs avec les permissions adéquates (tels que les enseignants et gestionnaires) pourront toujours voir votre adresse de courriel.';
 $string['emaildisplayhidden'] = 'Adresse de courriel cachée';
-$string['emaildisplayno'] = 'Cacher à tous mon adresse de courriel';
+$string['emaildisplayno'] = 'Cacher mon adresse de courriel aux utilisateurs non autorisés';
 $string['emaildisplayyes'] = 'Autoriser tout le monde à voir mon adresse de courriel';
 $string['emailenable'] = 'Cette adresse de courriel est activée';
 $string['emailenableclick'] = 'Cliquez ici pour ré-activer l\'envoi de courriels à cette adresse';
@@ -655,9 +669,9 @@ $string['emailmustbereal'] = 'Remarque : votre adresse de courriel doit être v
 $string['emailnotallowed'] = 'Les adresses de courriel de ce domaine ne sont pas autorisées ({$a})';
 $string['emailnotfound'] = 'Cette adresse de courriel n\'a pas été trouvée dans la base de données';
 $string['emailonlyallowed'] = 'Cette adresse de courriel ne fait pas partie de celles qui sont autorisées ({$a})';
-$string['emailpasswordchangeinfo'] = 'Bonjour,
+$string['emailpasswordchangeinfo'] = 'Bonjour {$a->firstname},
 
-Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte « {$a->username} » sur « {$a->sitename} ».
+Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte « {$a->username} » sur « {$a->sitename} ».
 
 Pour modifier votre mot de passe, visitez la page web suivante :
 
@@ -669,16 +683,16 @@ Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site,
 {$a->admin}';
 $string['emailpasswordchangeinfodisabled'] = 'Bonjour {$a->firstname},
 
-Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « {$a->sitename} ».
+Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « {$a->sitename} ».
 
-Malheureusement, votre compte sur ce site est désactivé et le mot de passe ne peut donc pas être réinitialisé.  Veuillez contacter l\'administrateur du site, {$a->admin}';
+Malheureusement, votre compte sur ce site est désactivé et le mot de passe ne peut donc pas être réinitialisé. Veuillez contacter l\'administrateur du site, {$a->admin}.';
 $string['emailpasswordchangeinfofail'] = 'Bonjour {$a->firstname},
 
 Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « {$a->sitename} ».
 
-Malheureusement, les mots de passe ne peuvent pas être réinitialisés sur ce site. Veuillez contacter l\'administrateur du site, {$a->admin}';
+Malheureusement, les mots de passe ne peuvent pas être réinitialisés sur ce site. Veuillez contacter l\'administrateur du site, {$a->admin}.';
 $string['emailpasswordchangeinfosubject'] = '{$a} : information sur le changement de mot de passe';
-$string['emailpasswordconfirmation'] = 'Bonjour,
+$string['emailpasswordconfirmation'] = 'Bonjour {$a->firstname},
 
 Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « {$a->sitename} ».
 
@@ -804,14 +818,15 @@ $string['explanationdigitalminor'] = 'Cette information est requise pour déterm
 $string['extendenrol'] = 'Étendre la période d\'inscription (individuelle)';
 $string['extendperiod'] = 'Extension de la période d\'inscription';
 $string['failedloginattempts'] = '{$a->attempts} tentatives de connexion depuis votre dernière connexion';
+$string['favourites'] = 'Favori';
 $string['feedback'] = 'Feedback';
 $string['file'] = 'Fichier';
 $string['fileexists'] = 'Un fichier de nom {$a} existe déjà';
 $string['filemissing'] = '{$a} n\'existe pas';
+$string['filereaderror'] = 'Impossible de lire le fichier « $a ». Veuillez vérifier qu\'il s\'agit bien d\'un fichier, et non d\'un dossier.';
 $string['files'] = 'Fichiers';
 $string['filesanduploads'] = 'Fichiers et dépôts';
 $string['filesfolders'] = 'Fichiers/dossiers';
-$string['filetoolarge'] = 'est trop gros pour être déposé';
 $string['fileuploadwithcontent'] = 'Lors du dépôt d\'un fichier, le paramètre content ne doit pas être inclus';
 $string['filloutallfields'] = 'Merci de remplir tous les champs de ce formulaire';
 $string['filter'] = 'Filtre';
@@ -1124,7 +1139,6 @@ $string['markedthistopic'] = 'Cette section est marquée';
 $string['markthistopic'] = 'Marquer cette section';
 $string['matchingsearchandrole'] = 'Correspondant à « {$a->search} » et {$a->role}';
 $string['maxareabytesreached'] = 'Le fichier (ou la taille totale de plusieurs fichiers) dépasse l\'espace disponible dans cette zone.';
-$string['maxbytesforfile'] = 'Le fichier {$a} dépasse l\'espace disponible dans cette zone.';
 $string['maxfilesize'] = 'Taille maximale des nouveaux fichiers : {$a}';
 $string['maxfilesreached'] = 'Vous pouvez joindre un maximum de {$a} fichier(s) à cet élément';
 $string['maximumchars'] = '{$a} caractères maximum';
@@ -1161,6 +1175,7 @@ $string['messageprovider:errors_help'] = 'Ces erreurs sont graves et devraient �
 $string['messageprovider:insights'] = 'Indications générées par les modèles de prédiction';
 $string['messageprovider:instantmessage'] = 'Messages personnels entre utilisateurs';
 $string['messageprovider:instantmessage_help'] = 'Cette section permet de configurer ce qui se passe avec les messages personnels qui vous sont envoyés par d\'autres utilisateurs de ce site.';
+$string['messageprovider:messagecontactrequests'] = 'Notification des demandes de contact de messagerie';
 $string['messageprovider:notices'] = 'Avertissement de problèmes mineurs';
 $string['messageprovider:notices_help'] = 'Ces informations pourraient être intéressantes pour un administrateur.';
 $string['messageselect'] = 'Sélectionner cet utilisateur comme destinataire';
@@ -1182,7 +1197,7 @@ $string['missinglastname'] = 'Le nom ne peut pas être vide';
 $string['missingname'] = 'Le nom ne peut pas être vide';
 $string['missingnewpassword'] = 'Le nouveau mot de passe ne peut pas être vide';
 $string['missingpassword'] = 'Le mot de passe ne peut pas être vide';
-$string['missingrecaptchachallengefield'] = 'Échec du reCAPTCHA. Veuillez essayer à nouveau.';
+$string['missingrecaptchachallengefield'] = 'Échec du reCAPTCHA, veuillez essayer à nouveau.';
 $string['missingreqreason'] = 'Veuillez renseigner la raison';
 $string['missingshortname'] = 'Le nom abrégé ne peut pas être vide';
 $string['missingshortsitename'] = 'Le nom abrégé du site ne peut pas être vide';
@@ -1194,8 +1209,6 @@ $string['missingsummary'] = 'Résumé non renseigné';
 $string['missingteacher'] = 'Vous devez choisir un enseignant';
 $string['missingurl'] = 'L\'URL ne peut pas être vide';
 $string['missingusername'] = 'Le nom d\'utilisateur ne peut pas être vide';
-$string['modchooserdisable'] = 'Désactiver le sélecteur de ressources ou d\'activités';
-$string['modchooserenable'] = 'Activer le sélecteur de ressources ou d\'activités';
 $string['moddoesnotsupporttype'] = 'Le module {$a->modname} ne permet pas le dépôt de fichiers de type {$a->type}';
 $string['modhide'] = 'Cacher';
 $string['modified'] = 'Modifié';
@@ -1236,7 +1249,9 @@ $string['movecategorysuccess'] = 'Déplacement de la catégorie « {$a->moved}�
 $string['movecategoryto'] = 'Déplacer la catégorie vers :';
 $string['movecategorytotopsuccess'] = 'La catégorie « {$a->moved} » a été déplacée au niveau racine';
 $string['movecontent'] = 'Déplacer {$a}';
+$string['movecontentafter'] = 'Après « {$a} »';
 $string['movecontentstoanothercategory'] = 'Déplacer le contenu vers une autre catégorie';
+$string['movecontenttothetop'] = 'En haut de la liste';
 $string['movecoursemodule'] = 'Déplacer la ressource';
 $string['movecoursesection'] = 'Déplacer la section';
 $string['movecourseto'] = 'Déplacer le cours vers :';
@@ -1253,7 +1268,7 @@ $string['movetoanotherfolder'] = 'Déplacer vers un autre dossier';
 $string['moveup'] = 'Monter';
 $string['msnid'] = 'Identifiant MSN';
 $string['mustchangepassword'] = 'Le nouveau mot de passe doit être différent du mot de passe actuel';
-$string['mustconfirm'] = 'Vous devez confirmer votre enregistrement';
+$string['mustconfirm'] = 'Vous devez confirmer l\'enregistrement de votre compte';
 $string['mycourses'] = 'Mes cours';
 $string['myfiles'] = 'Fichiers personnels';
 $string['myfilesmanage'] = 'Gérer mes fichiers personnels';
@@ -1277,16 +1292,16 @@ $string['newcourse'] = 'Nouveau cours';
 $string['newpassword'] = 'Nouveau mot de passe';
 $string['newpasswordfromlost'] = '<strong>Attention !</strong> Votre <strong>Mot de passe actuel</strong> vous a été envoyé dans le <strong>deuxième</strong> des deux courriels envoyés durant le processus de récupération de mot de passe. Veuillez vous assurer que vous avez bien reçu votre mot de passe de remplacement avant de continuer sur cette page.';
 $string['newpassword_help'] = 'Saisissez un nouveau mot de passe ou laissez vide pour conserver le mot de passe actuel.';
-$string['newpasswordtext'] = 'Bonjour,
+$string['newpasswordtext'] = 'Bonjour {$a->firstname},
 
-Le mot de passe de votre compte sur « {$a->sitename} » a été remplacé par un nouveau mot de passe temporaire.
+Le mot de passe de votre compte sur « {$a->sitename} » a été remplacé par un nouveau mot de passe temporaire.
 
 Les informations pour vous connecter sont désormais :
 
-    nom d\'utilisateur : {$a->username}
-    mot de passe : {$a->newpassword}
+    nom d\'utilisateur : {$a->username}
+    mot de passe : {$a->newpassword}
 
-Merci de visiter cette page afin de changer de mot de passe :
+Merci de visiter cette page afin de changer de mot de passe :
     {$a->link}
 
 Dans la plupart des logiciels de courriel, cette adresse devrait apparaître comme un lien de couleur bleue qu\'il vous suffit de cliquer. Si cela ne fonctionne pas, copiez ce lien et collez-le dans la barre d\'adresse de votre navigateur web.
@@ -1307,17 +1322,17 @@ Ce réglage détermine le nombre d\'éléments à afficher dans le bloc des dern
 Si un tel forum d\'annonces n\'est pas désiré dans le cours, ce réglage doit être réglé à 0.';
 $string['newuser'] = 'Nouvel utilisateur';
 $string['newusernewpasswordsubj'] = 'Nouveau compte utilisateur';
-$string['newusernewpasswordtext'] = 'Bonjour,
+$string['newusernewpasswordtext'] = 'Bonjour {$a->firstname},
 
-Un nouveau compte a été créé pour vous sur le site « {$a->sitename} » et un mot de passe temporaire vous a été délivré.
+Un nouveau compte a été créé pour vous sur le site « {$a->sitename} » et un mot de passe temporaire vous a été délivré.
 
 Les informations nécessaires à votre connexion sont maintenant :
-   nom d\'utilisateur : {$a->username}
-   mot de passe       : {$a->newpassword}
+   nom d\'utilisateur : {$a->username}
+   mot de passe : {$a->newpassword}
 
 Vous devrez changer votre mot de passe lors de votre première connexion.
 
-Pour commencer à travailler sur « {$a->sitename} », veuillez vous connecter en cliquant sur le lien ci-dessous.
+Pour commencer à travailler sur « {$a->sitename} », veuillez vous connecter en cliquant sur le lien ci-dessous.
    {$a->link}
 
 Dans la plupart des logiciels de courriel, cette adresse devrait apparaître comme un lien de couleur bleue qu\'il vous suffit de cliquer. Si cela ne fonctionne pas, copiez ce lien et collez-le dans la barre d\'adresse de votre navigateur web.
@@ -1430,6 +1445,10 @@ $string['outline'] = 'Résumé';
 $string['outlinereport'] = 'Rapport résumé';
 $string['page'] = 'Page';
 $string['pagea'] = 'Page {$a}';
+$string['pagedcontentnavigation'] = 'Navigation par pages';
+$string['pagedcontentnavigationactiveitem'] = 'Page actuelle, page {$a}';
+$string['pagedcontentnavigationitem'] = 'Aller à la page {$a}';
+$string['pagedcontentpagingbaritemsperpage'] = 'Afficher {$a} éléments par page';
 $string['pageheaderconfigablock'] = 'Configuration d\'un bloc dans {$a->fullname}';
 $string['pagepath'] = 'Chemin de la page';
 $string['pageshouldredirect'] = 'Cette page va vous rediriger automatiquement. Si cela n\'arrive pas, veuillez utiliser le lien Continuer ci-dessous.';
@@ -1464,6 +1483,7 @@ $string['payments'] = 'Paiements';
 $string['paymentsorry'] = 'Merci pour votre paiement ! Malheureusement, votre paiement n\'a pas encore été comptabilisé, et vous ne pouvez pas encore accéder au cours « {$a->fullname} ». Veuillez essayer d\'accéder au cours dans quelques secondes. Si vous n\'arrivez toujours pas à y accéder, merci de contacter l\'enseignant ou l\'administrateur du site';
 $string['paymentthanks'] = 'Merci pour votre paiement ! Vous êtes dès maintenant inscrit à votre cours :<br />« {$a} »';
 $string['pendingrequests'] = 'Demandes en attente';
+$string['percents'] = '{$a} %';
 $string['periodending'] = 'Fin de la période ({$a})';
 $string['perpage'] = 'Par page';
 $string['perpagea'] = 'Par page : {$a}';
@@ -1596,8 +1616,10 @@ $string['requestcourse'] = 'Demander la création d\'un cours';
 $string['requestedby'] = 'Demandé par';
 $string['requestedcourses'] = 'Cours demandés';
 $string['requestreason'] = 'Raison de la demande de création';
+$string['requests'] = 'Demandes';
 $string['required'] = 'Requis';
 $string['requirespayment'] = 'Un paiement est requis pour accéder à ce cours';
+$string['resendemail'] = 'Renvoyer le courriel';
 $string['reset'] = 'Réinitialiser';
 $string['resetcomponent'] = 'Composant';
 $string['resetcourse'] = 'Réinitialiser le cours';
@@ -1685,12 +1707,6 @@ $string['searchagain'] = 'Rechercher de nouveau';
 $string['searchbyemail'] = 'Récupération par adresse de courriel';
 $string['searchbyusername'] = 'Récupération par nom d\'utilisateur';
 $string['searchcourses'] = 'Rechercher des cours';
-$string['searchhelp'] = '<p>Vous pouvez saisir plusieurs termes comme critères et affiner votre recherche de la façon suivante.<p>
-<ul>
-<li>terme : rechercher toutes les occurrences du terme dans le texte.</li>
-<li>+terme : seules les correspondances exactes du terme (mot entier) seront trouvées.</li>
-<li>-terme : ne pas inclure les résultats contenant ce terme.</li>
-</ul>';
 $string['search_help'] = 'Pour une recherche simple d\'un ou de plusieurs mots n\'importe où dans le texte, il suffit de les taper, en les séparant par des espaces. Les mots de moins de 3 caractères sont ignorés.
 
 Pour des critères de recherche plus pointus, cliquez sur le bouton sans taper quoi que ce soit dans les différents champs. Un formulaire complet s\'affichera, vous permettant de spécifier plus précisément votre recherche.';
@@ -1749,6 +1765,7 @@ $string['separateandconnectedinfo'] = 'Ce barème est fondé sur une théorie qu
 <li><strong>Un apprenant « lié »</strong> est plus empathique. Il est sensible et tend à écouter et poser des questions aux gens jusqu\'à ce qu\'il sente qu\'il peut être en connexion avec eux et comprendre les choses de leur point de vue. Il apprend en essayant de partager les expériences qui conduisent au savoir qu\'elle trouve chez les autres.</li></ul>';
 $string['servererror'] = 'Une erreur est survenue lors de la communication avec le serveur';
 $string['serverlocaltime'] = 'Heure locale du serveur';
+$string['sessionforceclean'] = 'Par mesure de sécurité, les scripts générés par les utilisateurs ont été désactivés pour cette session.';
 $string['setcategorytheme'] = 'Choisir le thème de la catégorie';
 $string['setpassword'] = 'Définir mot de passe';
 $string['setpasswordinstructions'] = 'Veuillez saisir votre nouveau mot de passe ci-dessous, puis enregistrer les modifications.';
@@ -2033,7 +2050,6 @@ $string['uploadthisfile'] = 'Déposer ce fichier';
 $string['url'] = 'URL';
 $string['used'] = 'Utilisé';
 $string['usedinnplaces'] = 'Utilisé à {$a} endroits';
-$string['usemessageform'] = 'ou utiliser le formulaire ci-dessous pour envoyer un message aux étudiants sélectionnés';
 $string['user'] = 'Utilisateur';
 $string['useraccount'] = 'Compte utilisateur';
 $string['useractivity'] = 'Activité';

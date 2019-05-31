@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'pt', branch 'MOODLE_34_STABLE'
+ * Strings for component 'plugin', language 'pt', branch 'MOODLE_36_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -122,8 +122,8 @@ $string['type_calendartype'] = 'Tipo de calendário';
 $string['type_calendartype_plural'] = 'Tipos de calendário';
 $string['type_coursereport'] = 'Relatório da disciplina';
 $string['type_coursereport_plural'] = 'Relatórios da disciplina';
-$string['type_dataformat'] = 'Formato de dados';
-$string['type_dataformat_plural'] = 'Formatos de dados';
+$string['type_dataformat'] = 'Formato dos dados';
+$string['type_dataformat_plural'] = 'Formatos dos dados';
 $string['type_editor'] = 'Editor';
 $string['type_editor_plural'] = 'Editores';
 $string['type_enrol'] = 'Método de inscrição';
@@ -188,7 +188,7 @@ $string['uninstallextraconfirmblock'] = 'Existem {$a->instances} instâncias des
 $string['uninstallextraconfirmenrol'] = 'Existem {$a->enrolments} inscrições do utilizador.';
 $string['uninstallextraconfirmmod'] = 'Existem {$a->instances} instâncias deste módulo em {$a->courses} disciplinas.';
 $string['uninstalling'] = 'A desinstalar \'{$a->name}\'';
-$string['updateavailable'] = 'Existe uma nova versão {$a} disponível!';
+$string['updateavailable'] = 'Existe uma nova versão \'{$a}\' disponível!';
 $string['updateavailable_moreinfo'] = 'Mais informação...';
 $string['updateavailable_release'] = 'Lançamento {$a}';
 $string['updatepluginconfirm'] = 'Confirmação da atualização do módulo';

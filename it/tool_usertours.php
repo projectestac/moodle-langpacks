@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_usertours', language 'it', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -137,7 +137,7 @@ $string['title'] = 'Titolo';
 $string['title_help'] = 'Il titolo di ciascun passo può essere inserito come testo semplice, eventualmente inserito nei tag multilingua qualora fosse necessario il filtraggio del testo in base alla lingua.
 
 In alternativa è possibile inserire un ID della stringa della lingua con il formato \'identifier, component\', senza aggiungere parentesi o spazi dopo la virgola.';
-$string['tour1_content_addingblocks'] = 'Valuta attentamente l\'inserimento di blocchi poiché nella app Moodle Mobile i blocchi non verranno visualizzati, pertanto è preferibile accertari che il sito funzioni bene senza l\'utilizzo dei blocchi.';
+$string['tour1_content_addingblocks'] = 'Valuta attentamente l\'inserimento di blocchi poiché nella app Moodle Mobile i blocchi non verranno visualizzati, pertanto è preferibile accertarsi che il sito funzioni bene senza l\'utilizzo dei blocchi.';
 $string['tour1_content_blockregion'] = 'Una regione per i blocchi è ancora disponibile. Si raccomanda di eliminare completamente il blocco Navigazione ed il blocco Amministrazione poiché le stesse funzionalità sono presenti nel tema Boost.';
 $string['tour1_content_customisation'] = 'Per personalizzare l\'aspetto del sito e della pagina home, utilizza le impostazioni del menu presente nell\'angolo dell\'intestazione. Prova ad attivare adesso la modalità modifica.';
 $string['tour1_content_end'] = 'Sei alla fine del tour utente. Il tour non sarà più visualizzato a meno che venga reimpostato utilizzando il link nel piè di pagina. Un amministratore del sito può anche creare tour personalizzati.';
@@ -165,7 +165,37 @@ $string['tour2_title_navigation'] = 'Navigazione';
 $string['tour2_title_opendrawer'] = 'Apri il cassetto di navigazione';
 $string['tour2_title_participants'] = 'Partecipanti al corso';
 $string['tour2_title_welcome'] = 'Benvenuto';
+$string['tour3_content_dashboard'] = 'La nuova dashboard ha tante funzionalità che ti faciliteranno l\'accesso alle informazioni più rilevanti.';
+$string['tour3_content_displayoptions'] = 'Puoi ordinare i corsi per nome o per data di accesso.
+
+Puoi anche visualizzarli come elenco, elenco con sommario oppure come matrice.';
+$string['tour3_content_overview'] = 'Il blocco Panoramica corsi visualizza tutti i corsi nei quali sei iscritto.
+
+Puoi scegliere di visualizzare i corsi in svolgimento, quelli passati, quelli futuri oppure i corsi preferiti.';
+$string['tour3_content_recentcourses'] = 'Il blocco corsi Recenti visualizza gli ultimi corsi che hai visualizzato e ti permette  di raggiungerli velocemente.';
+$string['tour3_content_starring'] = 'Puoi aggiungere un corso ai preferiti o nasconderlo se non è più importante.
+
+Queste operazioni influenzano solo la tua visualizzazione.
+
+Puoi anche visualizzarli come elenco, elenco con sommario oppure come matrice.';
+$string['tour3_content_timeline'] = 'Il blocco Cronologia mostra i prossimi eventi.
+
+Puoi scegliere di visualizzare le attività della prossima settimana, del prossimo mese o quelle future.
+
+Puoi anche scegliere di visualizzare le attività scadute.';
+$string['tour3_title_dashboard'] = 'La tua Dashboard';
+$string['tour3_title_displayoptions'] = 'Opzioni di visualizzazione';
+$string['tour3_title_overview'] = 'Panoramica corsi';
+$string['tour3_title_recentcourses'] = 'Ultimi corsi visitati';
+$string['tour3_title_starring'] = 'Aggiungere un corso ai preferiti o nasconderlo';
+$string['tour4_title_groupconvo'] = 'Messaggi di gruppo';
+$string['tour4_title_icon'] = 'Messaggistica';
+$string['tour4_title_messaging'] = 'Nuova interfaccia della messaggistica';
+$string['tour4_title_settings'] = 'Impostazioni messaggistica';
+$string['tour4_title_starred'] = 'Preferiti';
 $string['tourconfig'] = 'File di configurazione tour da importare';
+$string['tour_final_step_content'] = 'Il tour è terminato. Per visualizzarlo di nuovo fai click sul link presente nel piè di pagina.';
+$string['tour_final_step_title'] = 'Fine del tour';
 $string['tourisenabled'] = 'Tour abilitato';
 $string['tourlist_explanation'] = 'E\' possibile creare tanti tour quanti si vuole ed abilitarli per diverse parti di Moodle. Una pagina può avere un solo tour.';
 $string['tour_resetforall'] = 'Lo stato del tour è stato reimpostato. Verrà visualizzato nuovamente a tutti gli utenti.';

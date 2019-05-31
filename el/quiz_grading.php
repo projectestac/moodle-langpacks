@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz_grading', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -76,7 +76,7 @@ $string['qno'] = 'Ερ. #';
 $string['questionname'] = 'Όνομα ερώτησης';
 $string['questionsperpage'] = 'Ερωτήσεις ανά σελίδα';
 $string['questionsthatneedgrading'] = 'Ερωτήσεις που χρειάζονται βαθμολόγηση';
-$string['questiontitle'] = 'Ερώτηση {$a->number} : "{$a->name}" ({$a->openspan}{$a->gradedattempts}{$a->closespan} / {$a->totalattempts} προσπάθειες {$a->openspan}βαθμολογημένες{$a->closespan}).';
+$string['questiontitle'] = 'Ερώτηση {$a->number} : «{$a->name}» ({$a->openspan}{$a->gradedattempts}{$a->closespan} / {$a->totalattempts} προσπάθειες {$a->openspan}βαθμολογημένες{$a->closespan}).';
 $string['randomly'] = 'Τυχαία';
 $string['saveandnext'] = 'Αποθήκευση και μετάβαση στην επόμενη σελίδα';
 $string['showstudentnames'] = 'Δώστε ονόματα μαθητών';

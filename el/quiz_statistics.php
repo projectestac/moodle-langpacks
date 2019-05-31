@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz_statistics', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,12 +29,12 @@ $string['actualresponse'] = 'Πραγματική απόκριση';
 $string['allattempts'] = 'όλες οι προσπάθειες';
 $string['allattemptsavg'] = 'Μέση βαθμολογία όλων των προσπαθειών';
 $string['allattemptscount'] = 'Συνολικός αριθμός πλήρως βαθμολογημένων προσπαθειών';
-$string['analysisnameonly'] = '"{$a->name}"';
+$string['analysisnameonly'] = '«{$a->name}»';
 $string['analysisno'] = '({$a->number}) «{$a->name}»';
-$string['analysisnovariant'] = '({$a->number}) "{$a->name}" παραλλαγή {$a->variant}';
+$string['analysisnovariant'] = '({$a->number}) «{$a->name}» παραλλαγή {$a->variant}';
 $string['analysisofresponses'] = 'Ανάλυση των απαντήσεων';
 $string['analysisofresponsesfor'] = 'Ανάλυση των αποκρίσεων για {$a}';
-$string['analysisvariant'] = '"{$a->name}" παραλλαγή {$a->variant}';
+$string['analysisvariant'] = '«{$a->name}» παραλλαγή {$a->variant}';
 $string['attempts'] = 'Προσπάθειες';
 $string['attemptsall'] = 'όλες οι προσπάθειες';
 $string['attemptsfirst'] = 'πρώτη προσπάθεια';
@@ -99,6 +99,8 @@ $string['quizname'] = 'Όνομα κουίζ';
 $string['quizoverallstatistics'] = 'Γενικά στατιστικά κουίζ';
 $string['quizstructureanalysis'] = 'Ανάλυση δομής του κουίζ';
 $string['random_guess_score'] = 'Σκορ τυχαίας εικασίας';
+$string['rangebetween'] = '{$a->min} − {$a->max}';
+$string['rangeofvalues'] = 'Εύρος στατιστικών στοιχείων για αυτές τις ερωτήσεις';
 $string['recalculatenow'] = 'Επαναβαθμολόγηση τώρα';
 $string['reportsettings'] = 'Ρυθμίσεις υπολογισμού στατιστικών στοιχείων';
 $string['response'] = 'Απόκριση';
@@ -114,4 +116,5 @@ $string['statisticsreportgraph'] = 'Στατιστικά για τη θέση τ
 $string['statistics:view'] = 'Εμφάνιση αναφοράς στατιστικών';
 $string['statsfor'] = 'Στατιστικά κουίζ (για {$a})';
 $string['variant'] = 'Παραλλαγή';
+$string['viewanalysis'] = 'Προβολή λεπτομερειών';
 $string['whichtries'] = 'Αναλύστε τις απαντήσεις για';

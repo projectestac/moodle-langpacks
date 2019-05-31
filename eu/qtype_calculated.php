@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'qtype_calculated', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   qtype_calculated
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -129,10 +129,10 @@ $string['sharedwildcards'] = 'Partekatutako komodinak';
 $string['showitems'] = 'Erakutsi';
 $string['significantfigures'] = '{$a}-(r)ekin';
 $string['significantfiguresformat'] = 'Zenbaki esanguratsuak';
-$string['synchronize'] = 'Sinkronizatu galdetegiko beste galderekin elkarbanatutako datu-multzoetako datuak';
+$string['synchronize'] = 'Sinkronizatu elkarbanatutako datu-multzoetako datuak galdetegiko beste galderekin';
 $string['synchronizeno'] = 'Ez sinkronizatu';
 $string['synchronizeyes'] = 'Sinkronizatu';
-$string['synchronizeyesdisplay'] = 'Sinkronizatu eta erakutsi galderen izenen aurrizki gisa elkarbanatutako datu-multzoetako izenak';
+$string['synchronizeyesdisplay'] = 'Sinkronizatu elkarbanatutako datu-multzoetako izenak eta erakutsi galderen izenen aurrizki gisa';
 $string['tolerance'] = 'Tolerantzia ±';
 $string['tolerancetype'] = 'Mota';
 $string['trueanswerinsidelimits'] = 'Erantzun zuzena : {$a->correct}. Benetako balioaren mugen barruan: {$a->true}';

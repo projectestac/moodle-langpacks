@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'journal', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'journal', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   journal
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,6 +69,12 @@ $string['notstarted'] = 'Oraindik ez duzu egunkari hau hasi';
 $string['overallrating'] = 'Kalifikazio orokorrak';
 $string['pluginadministration'] = 'Egunkariaren kudeaketa';
 $string['pluginname'] = 'Egunkaria';
+$string['privacy:metadata:journal_entries'] = 'Egunkariko sarreraren erregistro bat';
+$string['privacy:metadata:journal_entries:entrycomment'] = 'Erabiltzaileak egunkarian jasotako iruzkina';
+$string['privacy:metadata:journal_entries:modified'] = 'Egunkariko sarreren hasierako denbora';
+$string['privacy:metadata:journal_entries:rating'] = 'Erabiltzaileak egunkarian jasotako sailkapena';
+$string['privacy:metadata:journal_entries:text'] = 'Erabiltzaileak idatzitako testua';
+$string['privacy:metadata:journal_entries:userid'] = 'Erabiltzailearen IDa';
 $string['rate'] = 'Kalifikazioa';
 $string['removeentries'] = 'Ezabatu sarrera guztiak';
 $string['removemessages'] = 'Ezabatu egunkari-sarrera guztiak';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_media', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'atto_media', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   atto_media
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,6 +54,7 @@ $string['descriptionssourcelabel'] = 'Διεύθυνση URL παρακολού�
 $string['displayoptions'] = 'Εμφάνιση επιλογών';
 $string['entername'] = 'Εισαγωγή ονόματος';
 $string['entersource'] = 'Διεύθυνση URL προέλευσης';
+$string['entertitle'] = 'Εισαγωγή τίτλου';
 $string['enterurl'] = 'Εισαγωγή διεύθυνσης URL';
 $string['height'] = 'Ύψος';
 $string['kind'] = 'Τύπος';
@@ -66,7 +67,7 @@ $string['metadata'] = 'Μεταδεδομένα';
 $string['metadata_help'] = 'Τα κομμάτια μεταδεδομένων, για χρήση από ένα σενάριο, μπορούν να χρησιμοποιηθούν μόνο εάν το πρόγραμμα αναπαραγωγής υποστηρίζει μεταδεδομένα.';
 $string['metadatasourcelabel'] = 'Διεύθυνση URL κομματιού μεταδεδομένων';
 $string['mute'] = 'Σε σίγαση';
-$string['pluginname'] = 'Πολυμέσα';
+$string['pluginname'] = 'Εισαγωγή ή επεξεργασία ενός αρχείου ήχου/βίντεο';
 $string['poster'] = 'Διεύθυνση URL μικρογραφίας';
 $string['privacy:metadata'] = 'Το πρόσθετο «atto_media» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['remove'] = 'Διαγραφή';
@@ -77,7 +78,7 @@ $string['subtitles_help'] = 'Οι υπότιτλοι μπορούν να χρη�
 $string['subtitlessourcelabel'] = 'Διεύθυνση URL κομματιού υποτίτλων';
 $string['track'] = 'Διεύθυνση URL κομματιού';
 $string['tracks'] = 'Υπότιτλοι και λεζάντες';
-$string['tracks_help'] = 'Υπότιτλοι, λεζάντες, κεφάλαια και περιγραφές μπορούν να προστεθούν μέσω ενός αρχείου με μορφότυπο WebVTT (Web Video Text Tracks). Οι ταμπέλες των κομματιών θα εμφανίζονται στο αναπτυσσόμενο μενού επιλογής. Για κάθε τύπο κομματιού, κάθε κομμάτι που ορίζεται ως προεπιλεγμένο θα προεπιλέγεται στην αρχή του βίντεο.';
+$string['tracks_help'] = 'Υπότιτλοι, λεζάντες, κεφάλαια και περιγραφές μπορούν να προστεθούν μέσω ενός αρχείου με μορφότυπο WebVTT (Web Video Text Tracks: κομμάτια κειμένου/υπότιτλων για βίντεο Ιστού). Οι ταμπέλες των κομματιών θα εμφανίζονται στο πτυσσόμενο μενού επιλογής. Για κάθε τύπο κομματιού, κάθε κομμάτι που ορίζεται ως προεπιλεγμένο θα προεπιλέγεται στην αρχή του βίντεο.';
 $string['video'] = 'Βίντεο';
 $string['videoheight'] = 'Ύψος βίντεο';
 $string['videosourcelabel'] = 'Διεύθυνση URL πηγής βίντεο';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,8 @@ $string['commentindex'] = 'Ευρετήριο σχολίων';
 $string['commentlabel'] = '{$a->pnum}.{$a->cnum}';
 $string['couldnotsavepage'] = 'Δεν ήταν δυνατή η αποθήκευση της σελίδας {$a}';
 $string['currentstamp'] = 'Στάμπα';
+$string['default'] = 'Ενεργοποιημένο από προεπιλογή';
+$string['default_help'] = 'Αν ενεργοποιηθεί, αυτή η μέθοδος ανατροφοδότησης θα ενεργοποιηθεί ως προεπιλογή για όλες τις νέες αναθέσεις εργασιών.';
 $string['deleteannotation'] = 'Διαγραφή σχολιασμού';
 $string['deletecomment'] = 'Διαγραφή σχολίου';
 $string['deletefeedback'] = 'Διαγραφή PDF ανατροφοδότησης';
@@ -65,12 +67,13 @@ $string['jsrequired'] = 'Για τα σχολιασμένα PDF απαιτείτ
 $string['launcheditor'] = 'Έναρξη επεξεργαστή PDF...';
 $string['line'] = 'Γραμμή';
 $string['loadingeditor'] = 'Ο επεξεργαστής PDF φορτώνεται';
-$string['navigatenext'] = 'Επόμενη σελίδα';
-$string['navigateprevious'] = 'Προηγούμενη σελίδα';
+$string['navigatenext'] = 'Επόμενη σελίδα (Alt/Shift-Alt/Ctrl-Option + {$a})';
+$string['navigateprevious'] = 'Προηγούμενη σελίδα (Alt/Shift-Alt/Ctrl-Option + {$a})';
 $string['output'] = 'Έξοδος:';
 $string['oval'] = 'Οβάλ';
 $string['pagenumber'] = 'Σελίδα {$a}';
 $string['pagexofy'] = 'Σελίδα {$a->page} από {$a->total}';
+$string['partialwarning'] = 'Ορισμένα από τα αρχεία αυτής της υποβολής μπορούν να προσπελαστούν μόνο με άμεση λήψη.';
 $string['pathtogspathdesc'] = 'Παρακαλούμε έχετε υπόψη ότι για τα σχολιασμένα PDF απαιτείται η διαδρομή του ghostscript να προστεθεί στο {$a}.';
 $string['pen'] = 'Στυλός';
 $string['pluginname'] = 'Σχολιασμός PDF';

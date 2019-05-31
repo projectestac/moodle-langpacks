@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'questionnaire', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['attempted'] = 'Αυτό το ερωτηματολόγιο έχει υπ
 $string['autonumbering'] = 'Αυτόματη αρίθμηση';
 $string['dependquestion'] = 'Γονική Ερώτηση';
 $string['download'] = 'Λήψη';
-$string['downloadtextformat'] = 'Λήψη σε μορφή κειμένου';
+$string['downloadtextformat'] = 'Λήψη ως CSV (κείμενο με κόμματα)';
 $string['edit'] = 'Επεξεργασία';
 $string['feedbackaddmorefeedbacks'] = 'Προσθήκη {no} ακόμη κενών πεδίων ανατροφοδότησης';
 $string['feedbacksectionlabel'] = 'Ετικέτα';

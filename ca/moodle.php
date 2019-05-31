@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'ca', branch 'MOODLE_34_STABLE'
+ * Strings for component 'moodle', language 'ca', branch 'MOODLE_36_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -230,7 +230,7 @@ $string['cachecontrols'] = 'Controls de la memòria cau';
 $string['cancel'] = 'Cancel·la';
 $string['cancelled'] = 'S\'ha cancel·lat';
 $string['categories'] = 'Categories de cursos';
-$string['categoriesandcoures'] = 'Cursos i categories de cursos';
+$string['categoriesandcourses'] = 'Cursos i categories de cursos';
 $string['category'] = 'Categoria';
 $string['categoryadded'] = 'S\'ha afegit la categoria \'{$a}\'';
 $string['categorybulkaction'] = 'Accions massives per a les categories seleccionades';
@@ -303,6 +303,8 @@ $string['cookiesenabled_help'] = 'Aquest lloc utilitza dues galetes:
 La més essencial és la galeta de sessió, generalment anomenada MoodleSession. Heu de permetre aquesta galeta al vostre navegador per donar continuïtat i mantenir la connexió al llarg de les diferents pàgines. Quan finalitzeu la sessió o tanqueu el navegador aquesta galeta es destrueix (al vostre ordinador i al servidor).
 
 L\'altra galeta, anomenada sovint MOODLEID, és purament de conveniència. Simplement recorda el vostre nom d\'usuari dins del navegador. Això vol dir que quan torneu a aquest lloc el camp d\'usuari de la pàgina d\'entrada ja estarà emplenat amb el vostre nom. Refusar aquesta galeta és segur: en aquest cas simplement haureu d\'escriure el vostre nom d\'usuari cada vegada que inicieu la sessió.';
+$string['cookiesenabledonlysession'] = 'Les galetes han d\'estar habilitades en el vostre navegador';
+$string['cookiesenabledonlysession_help'] = 'Aquest lloc utilitza una sessió de galetes, anomenada MoodleSession. Heu de permetre l\'ús d\'aquestes galetes al vostre navegador per poder continuar i romandre autenticat mentre navegueu pel lloc. Quan tanqueu la sessió o tanqueu el navegador, aquestes galetes seran eliminades (del vostre navegador i del servidor).';
 $string['cookiesnotenabled'] = 'Malauradament no teniu les galetes habilitades al navegador';
 $string['copy'] = 'copia';
 $string['copyasnoun'] = 'còpia';
@@ -404,6 +406,13 @@ $string['courserequestsupport'] = 'Informació complementària que voleu fer arr
 $string['courserequestwarning'] = 'L\'usuari que demana aquest curs quedarà automàticament inscrit amb el rol de {$a}.';
 $string['courserestore'] = 'Restauració del curs';
 $string['courses'] = 'Cursos';
+$string['coursesearch'] = 'Cerca cursos';
+$string['coursesearch_help'] = '<p>Podeu cercar diverses paraules de cop. i refinar la vostra cerca de la següent manera:</p>
+<ul>
+<li>paraula - cerca qualsevol coincidència d\'aquesta paraula al text.</li>
+<li>+paraula - cerca només coincidències exactes.</li>
+<li>-paraula - exclou els resultats que continguin aquesta paraula.</li>
+</ul>';
 $string['coursesectionsummaries'] = 'Resums de les seccions del curs';
 $string['coursesectiontitle'] = 'Curs: {$a->course}, {$a->sectionname}: {$a->sectiontitle}';
 $string['coursesettings'] = 'Paràmetres per defecte del curs';
@@ -628,10 +637,13 @@ de la finestra del vostre navegador web.
 
 Si necessiteu ajuda, contacteu amb l\'administrador del lloc,
 {$a->admin},';
+$string['emailconfirmationresend'] = 'Reenvia el correu de confirmació';
 $string['emailconfirmationsubject'] = '{$a}: confirmació de compte';
 $string['emailconfirmsent'] = '<p>S\'ha enviat un correu a la vostra adreça <b>{$a}</b></p>
 <p>Conté instruccions senzilles per completar el registre.</p>
 <p>Si seguiu tenint problemes, contacteu amb l\'administrador del lloc.</p>';
+$string['emailconfirmsentfailure'] = 'El correu de confirmació no s\'ha pogut enviar';
+$string['emailconfirmsentsuccess'] = 'El correu de confirmació s\'ha enviat correctament.';
 $string['emaildigest'] = 'Tipus de resum de missatge de correu electrònic';
 $string['emaildigestcomplete'] = 'Complet (missatge de correu electrònic diari amb els missatges complets dels fòrums)';
 $string['emaildigest_help'] = 'Aquesta és la configuració del resum diari que els fòrums faran servir per defecte.
@@ -647,8 +659,9 @@ $string['emaildisable'] = 'Aquesta adreça de correu està inhabilitada.';
 $string['emaildisableclick'] = 'Feu clic aquí per inhabilitar l\'enviament de correu a aquesta adreça';
 $string['emaildisplay'] = 'Mostra l\'adreça electrònica';
 $string['emaildisplaycourse'] = 'Permet que només els altres membres del curs vegin la meva adreça electrònica';
+$string['emaildisplay_help'] = 'Alguns rols d\'usuari (com els tutors i administradors) podran veure la vostra adreça de correu.';
 $string['emaildisplayhidden'] = 'Adreça de correu oculta';
-$string['emaildisplayno'] = 'Oculta a tothom la meva adreça electrònica';
+$string['emaildisplayno'] = 'Oculta la meva adreça electrònica als usuaris sense permisos';
 $string['emaildisplayyes'] = 'Permet que tothom vegi la meva adreça electrònica';
 $string['emailenable'] = 'Aquesta adreça de correu està habilitada.';
 $string['emailenableclick'] = 'Feu clic aquí per tornar a habilitar l\'enviament de correu a aquesta adreça';
@@ -815,14 +828,15 @@ $string['explanationdigitalminor'] = 'Aquesta informació es demana per determin
 $string['extendenrol'] = 'Amplia la inscripció (individual)';
 $string['extendperiod'] = 'Període ampliat';
 $string['failedloginattempts'] = '{$a->attempts} intents fallits d\'inici de sessió des del darrer inici de sessió';
+$string['favourites'] = 'Destacats';
 $string['feedback'] = 'Retroacció';
 $string['file'] = 'Fitxer';
 $string['fileexists'] = 'Ja existeix un fitxer anomenat {$a}';
 $string['filemissing'] = 'Falta {$a}';
+$string['filereaderror'] = 'No es pot llegir l\'arxiu «{$a}». Reviseu que realment sigui un arxiu (i no una carpeta).';
 $string['files'] = 'Fitxers';
 $string['filesanduploads'] = 'Àrea de fitxers';
 $string['filesfolders'] = 'Fitxers/carpetes';
-$string['filetoolarge'] = 'és massa gran per a penjar-lo';
 $string['fileuploadwithcontent'] = 'Les càrregues de fitxers no haurien d\'incloure el paràmetre de contingut';
 $string['filloutallfields'] = 'Ompliu tots els camps d\'aquest formulari';
 $string['filter'] = 'Filtre';
@@ -1147,7 +1161,6 @@ $string['markedthistopic'] = 'Aquest tema està marcat com a tema actual';
 $string['markthistopic'] = 'Marca aquest tema com a tema actual';
 $string['matchingsearchandrole'] = 'Trobats \'{$a->search}\' i {$a->role}';
 $string['maxareabytesreached'] = 'El fitxer ( o la mida total dels fitxers) és més gran que l\'espai disponible que queda en aquesta àrea.';
-$string['maxbytesforfile'] = 'El fitxer {$a} és més gran que la mida màxima permesa.';
 $string['maxfilesize'] = 'Mida màxima per als fitxers nous: {$a}';
 $string['maxfilesreached'] = 'Podeu adjuntar un màxim de {$a} fitxers a aquest element';
 $string['maximumchars'] = 'Màxim de {$a} caràcters';
@@ -1218,8 +1231,6 @@ $string['missingsummary'] = 'Falta el resum';
 $string['missingteacher'] = 'Heu de triar alguna cosa';
 $string['missingurl'] = 'Falta l\'URL';
 $string['missingusername'] = 'Falta el nom d\'usuari';
-$string['modchooserdisable'] = 'Selector d\'activitat desactivat';
-$string['modchooserenable'] = 'Selector d\'activitat activat';
 $string['moddoesnotsupporttype'] = 'El mòdul {$a->modname} no és compatible amb fitxers del tipus {$a->type}';
 $string['modhide'] = 'Oculta';
 $string['modified'] = 'Modificat';
@@ -1452,6 +1463,9 @@ $string['outline'] = 'Esquema';
 $string['outlinereport'] = 'Informe en esquema';
 $string['page'] = 'Pàgina';
 $string['pagea'] = 'Pàgina {$a}';
+$string['pagedcontentnavigation'] = 'Paginació de navegació';
+$string['pagedcontentnavigationactiveitem'] = 'Pàgina actual, pàgina {$a}';
+$string['pagedcontentpagingbaritemsperpage'] = 'Mostra {$a} elements per pàgina';
 $string['pageheaderconfigablock'] = 'S\'està configurant un bloc {$a->fullname}';
 $string['pagepath'] = 'Camí de la pàgina';
 $string['pageshouldredirect'] = 'Sereu redirigits de forma automàtica. Si no sou redirigits utilitzeu l\'enllaç de sota. ';
@@ -1488,6 +1502,7 @@ $string['payments'] = 'Pagaments';
 $string['paymentsorry'] = 'Gràcies per pagar. Dissortadament, el pagament encara no ha estat completament processat i encara no podeu entrar al curs «{$a->fullname}». Torneu a intentar-ho d\'aquí a uns segons i si no podeu adreceu-vos al {$a->teacher} o a l\'administrador del lloc';
 $string['paymentthanks'] = 'Gràcies per pagar. Ja esteu inscrit al curs:<br />"{$a}"';
 $string['pendingrequests'] = 'Sol·licituds pendents';
+$string['percents'] = '{$a}%';
 $string['periodending'] = 'Fi del període ({$a})';
 $string['perpage'] = 'per pàgina';
 $string['perpagea'] = 'resultats per pàgina: {$a}';
@@ -1624,8 +1639,10 @@ $string['requestcourse'] = 'Sol·licita un curs';
 $string['requestedby'] = 'Sol·licitat per';
 $string['requestedcourses'] = 'Cursos consultats';
 $string['requestreason'] = 'Raó de la sol·licitud';
+$string['requests'] = 'Sol·licituds';
 $string['required'] = 'Necessari';
 $string['requirespayment'] = 'Aquest curs requereix pagament';
+$string['resendemail'] = 'Reenvia el correu';
 $string['reset'] = 'Reinicia';
 $string['resetcomponent'] = 'Component';
 $string['resetcourse'] = 'Reinicia curs';
@@ -1726,12 +1743,6 @@ $string['searchagain'] = 'Torna a cercar';
 $string['searchbyemail'] = 'Cerca per correu electrònic';
 $string['searchbyusername'] = 'Cerca per nom d\'usuari';
 $string['searchcourses'] = 'Cerca cursos';
-$string['searchhelp'] = '<p>Podeu cercar diverses paraules de cop. i refinar la vostra cerca de la següent manera:</p>
-<ul>
-<li>paraula - cerca qualsevol coincidència d\'aquesta paraula al text.</li>
-<li>+paraula - cerca només coincidències exactes.</li>
-<li>-paraula - exclou els resultats que continguin aquesta paraula.</li>
-</ul>';
 $string['search_help'] = 'Per fer cerques bàsiques amb una o més paraules al text, teclegeu les paraules separades per espais en blanc. Tots els mots de més de dos caràcters seran utilitzats.
 
 Per fer una cerca avançada, premeu el botó de cerca sense escriure res a la caixa de text per accedir al menú avançat de cerca.';
@@ -2063,7 +2074,6 @@ $string['uploadthisfile'] = 'Penja aquest fitxer';
 $string['url'] = 'URL';
 $string['used'] = 'Utilitzat';
 $string['usedinnplaces'] = 'Utilitzat en {$a} llocs';
-$string['usemessageform'] = 'o feu servir el formulari més avall per enviar un missatge als estudiants seleccionats';
 $string['user'] = 'Usuari';
 $string['useraccount'] = 'Compte d\'usuari';
 $string['useractivity'] = 'Activitat';
@@ -2139,9 +2149,8 @@ $string['withchosenfiles'] = 'Els fitxers seleccionats';
 $string['withdisablednote'] = '{$a} (inhabilitat)';
 $string['withoutuserdata'] = 'sense dades d\'usuari';
 $string['withselectedusers'] = 'Amb els usuaris seleccionats...';
-$string['withselectedusers_help'] = '* Envia un missatge - Per enviar un missatge a un o més participants.
-* Afegeix un nota nova - Per afegir una nota a un participant seleccionat
-* Afegeix una nota comuna - Per afegir la mateixa nota a més d\'un participant';
+$string['withselectedusers_help'] = '* Envia un missatge - Per enviar un missatge a un o més participants
+* Afegeix un nota nova - Per afegir una nota a un participant seleccionat';
 $string['withuserdata'] = 'amb dades d\'usuari';
 $string['wordforstudent'] = 'La vostra paraula per a \'Estudiant\'';
 $string['wordforstudenteg'] = 'p. ex. Estudiant, Participant, etc.';

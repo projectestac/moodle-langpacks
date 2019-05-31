@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'en', branch 'MOODLE_34_STABLE'
+ * Strings for component 'quiz', language 'en', branch 'MOODLE_36_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,6 +82,7 @@ $string['answers'] = 'Answers';
 $string['answersingleno'] = 'Multiple answers allowed';
 $string['answersingleyes'] = 'One answer only';
 $string['answertoolong'] = 'Answer too long after line {$a} (255 char. max)';
+$string['anytags'] = 'Any tags';
 $string['aon'] = 'AON format';
 $string['areyousureremoveselected'] = 'Are you sure you want to remove all the selected questions?';
 $string['asshownoneditscreen'] = 'As shown on the edit screen';
@@ -104,6 +105,7 @@ $string['attemptsallowed'] = 'Attempts allowed';
 $string['attemptsdeleted'] = 'Quiz attempts deleted';
 $string['attemptselection'] = 'Select which attempts to analyze per user:';
 $string['attemptsexist'] = 'You can no longer add or remove questions.';
+$string['attempts_help'] = 'The total number of attempts allowed (not the number of extra attempts).';
 $string['attemptsnum'] = 'Attempts: {$a}';
 $string['attemptsnumthisgroup'] = 'Attempts: {$a->total} ({$a->group} from this group)';
 $string['attemptsnumyourgroups'] = 'Attempts: {$a->total} ({$a->group} from your groups)';
@@ -137,6 +139,8 @@ $string['cannotinsertrandomquestion'] = 'Could not insert new random question!';
 $string['cannotloadquestion'] = 'Could not load question options';
 $string['cannotloadtypeinfo'] = 'Unable to load questiontype specific question information';
 $string['cannotopen'] = 'Cannot open export file ({$a})';
+$string['cannotremoveallsectionslots'] = 'You have selected all questions under the \'{$a}\' section heading. It is not allowed to remove all questions under a section heading.';
+$string['cannotremoveslots'] = 'Cannot remove questions';
 $string['cannotrestore'] = 'Could not restore question sessions';
 $string['cannotreviewopen'] = 'You cannot review this attempt, it is still open.';
 $string['cannotsavelayout'] = 'Could not save layout';
@@ -341,6 +345,7 @@ $string['eventreportviewed'] = 'Quiz report viewed';
 $string['everynquestions'] = 'Every {$a} questions';
 $string['everyquestion'] = 'Every question';
 $string['everythingon'] = 'Everything on';
+$string['existingcategory'] = 'Existing category';
 $string['exportcategory'] = 'export category';
 $string['exporterror'] = 'An error occurred during export processing';
 $string['exportingquestions'] = 'Questions are being exported to file';
@@ -442,6 +447,7 @@ $string['invalidcategory'] = 'Category ID is invalid';
 $string['invalidoverrideid'] = 'Invalid override id';
 $string['invalidquestionid'] = 'Invalid question id';
 $string['invalidquizid'] = 'Invalid quiz ID';
+$string['invalidrandomslot'] = 'Invalid random question slot id.';
 $string['invalidsource'] = 'The source is not accepted as valid.';
 $string['invalidsourcetype'] = 'Invalid source type.';
 $string['invalidstateid'] = 'Invalid state id';
@@ -508,6 +514,7 @@ $string['navmethod_seq'] = 'Sequential';
 $string['navnojswarning'] = 'Warning: these links will not save your answers. Use the next button at the bottom of the page.';
 $string['neverallononepage'] = 'Never, all questions on one page';
 $string['newattemptfail'] = 'Error: Could not start a new attempt at the quiz';
+$string['newcategory'] = 'New category';
 $string['newpage'] = 'New page';
 $string['newpageevery'] = 'Automatically start a new page';
 $string['newpage_help'] = 'For longer quizzes it makes sense to stretch the quiz over several pages by limiting the number of questions per page. When adding questions to the quiz, page breaks will automatically be inserted according to this setting. However page breaks may later be moved manually on the editing page.';
@@ -673,8 +680,10 @@ $string['questionnotloaded'] = 'Question {$a} has not been loaded from the datab
 $string['questionorder'] = 'Question order';
 $string['questionposition'] = 'New position in order for question {$a}';
 $string['questions'] = 'Questions';
+$string['questionsetpreview'] = 'Question set preview';
 $string['questionsinclhidden'] = 'Questions (including hidden)';
 $string['questionsinthisquiz'] = 'Questions in this quiz';
+$string['questionsmatchingfilter'] = 'Questions matching this filter: {$a}';
 $string['questionsperpage'] = 'Questions per page';
 $string['questionsperpageselected'] = 'Questions per page has been set so the paging is currently fixed. As a result, the paging controls have been disabled. You can change this in {$a}.';
 $string['questionsperpagex'] = 'Questions per page: {$a}';
@@ -688,7 +697,7 @@ $string['quizavailable'] = 'The quiz is available until: {$a}';
 $string['quizclose'] = 'Close the quiz';
 $string['quizclosed'] = 'This quiz closed on {$a}';
 $string['quizcloses'] = 'Quiz closes';
-$string['quizcloseson'] = 'This quiz will close at {$a}';
+$string['quizcloseson'] = 'This quiz will close on {$a}.';
 $string['quiz:deleteattempts'] = 'Delete quiz attempts';
 $string['quiz:emailconfirmsubmission'] = 'Get a confirmation message when submitting';
 $string['quiz:emailnotifysubmission'] = 'Get a notification message when an attempt is submitted';
@@ -696,7 +705,7 @@ $string['quiz:emailwarnoverdue'] = 'Get a notification message when an attempt b
 $string['quizeventcloses'] = '{$a} closes';
 $string['quizeventopens'] = '{$a} opens';
 $string['quiz:grade'] = 'Grade quizzes manually';
-$string['quiz:ignoretimelimits'] = 'Ignores time limit on quizzes';
+$string['quiz:ignoretimelimits'] = 'Ignore quiz time limit';
 $string['quizisclosed'] = 'This quiz is closed';
 $string['quizisclosedwillopen'] = 'Quiz closed (opens {$a})';
 $string['quizisopen'] = 'This quiz is open';
@@ -724,10 +733,18 @@ $string['quiz:viewreports'] = 'View quiz reports';
 $string['quizwillopen'] = 'This quiz will open {$a}';
 $string['random'] = 'Random question';
 $string['randomcreate'] = 'Create random questions';
+$string['randomediting'] = 'Editing a random question';
 $string['randomfromcategory'] = 'Random question from category:';
 $string['randomfromexistingcategory'] = 'Random question from an existing category';
+$string['randomfromunavailabletag'] = '{$a} (unavailable)';
 $string['randomnosubcat'] = 'Questions from this category only, not its subcategories.';
 $string['randomnumber'] = 'Number of random questions';
+$string['randomquestion'] = 'Random question';
+$string['randomquestion_help'] = 'A random question is a way of inserting a randomly-chosen question from a specified category or by a specified tag into an activity.';
+$string['randomquestiontags'] = 'Tags';
+$string['randomquestiontags_help'] = 'You can restrict the selection criteria further by specifying some question tags here.
+
+The "random" questions will be selected from the questions that have all these tags.';
 $string['randomquestionusinganewcategory'] = 'Random question using a new category';
 $string['randomwithsubcat'] = 'Questions from this category and its subcategories.';
 $string['readytosend'] = 'You are about to send your whole quiz to be graded.  Are you sure you want to continue?';
@@ -945,6 +962,7 @@ $string['unfinished'] = 'open';
 $string['ungraded'] = 'Ungraded';
 $string['unit'] = 'Unit';
 $string['unknowntype'] = 'Question type not supported at line {$a}. The question will be ignored';
+$string['updatequizslotswithrandomxofy'] = 'Updating quiz slots with "random" question data ({$a->done}/{$a->total})';
 $string['updatesettings'] = 'Update quiz settings';
 $string['updatingatttemptgrades'] = 'Updating attempt grades.';
 $string['updatingfinalgrades'] = 'Updating final grades.';

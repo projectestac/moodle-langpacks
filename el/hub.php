@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hub', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'hub', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   hub
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -60,7 +60,7 @@ $string['coursemap'] = 'Χάρτης μαθήματος';
 $string['coursename'] = 'Όνομα';
 $string['courseprivate'] = 'Ιδιωτικό';
 $string['coursepublic'] = 'Δημόσιο';
-$string['coursepublished'] = 'Αυτό το μάθημα έχει διαμοιραστεί με επιτυχία στο \'{$a}\'.';
+$string['coursepublished'] = 'Αυτό το μάθημα έχει διαμοιραστεί με επιτυχία στο «{$a}».';
 $string['courseshortname'] = 'Σύντομο όνομα';
 $string['courseshortname_help'] = 'Εισαγάγετε ένα σύντομο όνομα για το μάθημά σας. Δεν χρειάζεται να είναι μοναδικό.';
 $string['coursesnumber'] = 'Αριθμός μαθημάτων ({$a})';
@@ -95,7 +95,7 @@ $string['errorbadimageheightwidth'] = 'Η εικόνα θα πρέπει να έ
 $string['errorcourseinfo'] = 'Παρουσιάστηκε σφάλμα κατά την ανάκτηση μεταδεδομένων μαθήματος από {$a}. Παρακαλούμε, δοκιμάστε ξανά να ανακτήσετε τα μεταδεδομένα του μαθήματος ξαναφορτώνοντας αυτή τη σελίδα αργότερα. Διαφορετικά, μπορείτε να αποφασίσετε να συνεχίσετε τη διαδικασία καταχώρησης με τα ακόλουθα προεπιλεγμένα μεταδεδομένα.';
 $string['errorcoursepublish'] = 'Παρουσιάστηκε σφάλμα κατά τη δημοσίευση του μαθήματος ({$a}). Παρακαλώ προσπαθήστε ξανά αργότερα.';
 $string['errorcoursewronglypublished'] = 'Ένα σφάλμα δημοσίευσης έχει επιστραφεί από το Moodle.net. Παρακαλώ προσπαθήστε ξανά αργότερα.';
-$string['errorcron'] = 'Ένα σφάλμα παρουσιάστηκε κατά την ενημέρωση καταχώρησης στον κεντρικό κόμβο "{$a->hubname}" ({$a->errormessage})';
+$string['errorcron'] = 'Ένα σφάλμα παρουσιάστηκε κατά την ενημέρωση καταχώρησης στον κεντρικό κόμβο «{$a->hubname}» ({$a->errormessage})';
 $string['errorcronnoxmlrpc'] = 'Το XML-RPC πρέπει να ενεργοποιηθεί για την ενημέρωση της εγγραφής.';
 $string['errorhublisting'] = 'Ένα σφάλμα παρουσιάστηκε κατά την ανάκτηση της λίστας κεντρικών κόμβων από το Moodle. Παρακαλούμε, δοκιμάστε ξανά αργότερα. ({$a})';
 $string['errorlangnotrecognized'] = 'Ο παρεχόμενος κώδικας γλώσσας δεν είναι αναγνωρίσιμος από το Moodle. Παρακαλώ επικοινωνήστε με τον/την {$a}';

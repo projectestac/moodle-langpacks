@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,8 @@ $string['commentindex'] = 'Index des commentaires';
 $string['commentlabel'] = '{$a->pnum}.{$a->cnum}';
 $string['couldnotsavepage'] = 'Impossible d\'enregistrer la page {$a}';
 $string['currentstamp'] = 'Tampon';
+$string['default'] = 'Activé par défaut';
+$string['default_help'] = 'Si ce réglage est activé, cette méthode de feedback sera activée par défaut pour tous les nouveaux devoirs.';
 $string['deleteannotation'] = 'Supprimer l\'annotation';
 $string['deletecomment'] = 'Supprimer le commentaire';
 $string['deletefeedback'] = 'Supprimer le feedback PDF';
@@ -65,12 +67,13 @@ $string['jsrequired'] = 'L\'annotation de documents PDF requiert l\'activation d
 $string['launcheditor'] = 'Lancer l\'éditeur PDF...';
 $string['line'] = 'Ligne';
 $string['loadingeditor'] = 'Chargement de l\'éditeur PDF';
-$string['navigatenext'] = 'Page suivante';
-$string['navigateprevious'] = 'Page précédente';
+$string['navigatenext'] = 'Page suivante (Alt/Shift-Alt/Ctrl-Option + {$a})';
+$string['navigateprevious'] = 'Page précédente (Alt/Shift-Alt/Ctrl-Option + {$a})';
 $string['output'] = 'Sortie :';
 $string['oval'] = 'Ovale';
 $string['pagenumber'] = 'Page {$a}';
 $string['pagexofy'] = 'Page {$a->page} sur {$a->total}';
+$string['partialwarning'] = 'Certains des fichiers du travail remis ne peuvent être consultés qu\'après téléchargement direct.';
 $string['pathtogspathdesc'] = 'L\'annotation des PDF requiert la définition du chemin d\'accès à <i>ghostscript</i> dans {$a}.';
 $string['pen'] = 'Plume';
 $string['pluginname'] = 'Annotation PDF';

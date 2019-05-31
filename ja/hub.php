@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hub', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'hub', language 'ja', branch 'MOODLE_36_STABLE'
  *
  * @package   hub
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,7 +42,7 @@ $string['audience_help'] = 'コースが対象とするオーディエンスを�
 $string['audiencestudents'] = '学生';
 $string['badgesnumber'] = 'バッジ数 ({$a})';
 $string['badurlformat'] = '無効なURLフォーマット';
-$string['cannotsearchcommunity'] = '申し訳ございません、あなたにはこのページを閲覧するために適切なパーミッションがありません。';
+$string['cannotsearchcommunity'] = '申し訳ございません、あなたにはこのページを閲覧するための適切なパーミッションがありません。';
 $string['community'] = 'コミュニティ';
 $string['communityremoved'] = 'あなたのリストからコースリンクが削除されました。';
 $string['completeregistration'] = 'Moodle.netの登録を完了する';

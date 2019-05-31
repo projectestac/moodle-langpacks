@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,8 @@ $string['commentindex'] = 'Iruzkinen aurkibidea';
 $string['commentlabel'] = '{$a->pnum}.{$a->cnum}';
 $string['couldnotsavepage'] = 'Ezin da {$a} orria gorde';
 $string['currentstamp'] = 'Zigilua';
+$string['default'] = 'Gaituta modu lehenetsian';
+$string['default_help'] = 'Ezarriz gero, feedback-metodo hau modu lehenetsian gaituko da zeregin berri guztietan.';
 $string['deleteannotation'] = 'Ezabatu oharra';
 $string['deletecomment'] = 'Ezabatu iruzkina';
 $string['deletefeedback'] = 'Ezabatu PDF feedbacka';
@@ -65,12 +67,13 @@ $string['jsrequired'] = 'JavaScript-a beharrezkoa da PDF oharretarako. Mesedez, 
 $string['launcheditor'] = 'Ekin PDF editatzaileari...';
 $string['line'] = 'Lerroa';
 $string['loadingeditor'] = 'PDF editorea kargatzen';
-$string['navigatenext'] = 'Hurrengo orria';
-$string['navigateprevious'] = 'Aurreko orria';
+$string['navigatenext'] = 'Hurrengo orria (Alt/Shift-Alt/Ctrl-Option + {$a})';
+$string['navigateprevious'] = 'Aurreko orria (Alt/Shift-Alt/Ctrl-Option + {$a})';
 $string['output'] = 'Irteera:';
 $string['oval'] = 'Obaloa';
 $string['pagenumber'] = '{$a} orria';
 $string['pagexofy'] = '{$a->page} orri {$a->total}-(e)tik';
+$string['partialwarning'] = 'Bidalketa honetako fitxategi batzuk ezin dira ireki, baina jaits daitezke.';
 $string['pathtogspathdesc'] = 'Mesedez kontuan izan PDF oharrek ghostscript-erako bide-izena {$a}-n zehazturik egon behar dutela.';
 $string['pen'] = 'Arkatza';
 $string['pluginname'] = 'PDF oharra';
@@ -80,7 +83,7 @@ $string['privacy:metadata:conversionpurpose'] = 'FItxategiak PDF bihurtzen dira 
 $string['privacy:metadata:filepurpose'] = 'Erabiltzaile-feedbackarekin batera oharrak dituen PDFa gordetzen da.';
 $string['privacy:metadata:rawtextpurpose'] = 'Kalifikazio azkarrerako testu gordina gordetzen da.';
 $string['privacy:metadata:tablepurpose'] = 'Irakasleak zehaztutako iruzkinen zerrenda azkarra gordetzen da.';
-$string['privacy:metadata:userid'] = 'Erabiltzailearentzako identifikatzaile bat';
+$string['privacy:metadata:userid'] = 'Erabiltzailearen IDa';
 $string['privacy:path'] = 'PDF Feedbacka';
 $string['rectangle'] = 'Laukizuzena';
 $string['red'] = 'Gorria';

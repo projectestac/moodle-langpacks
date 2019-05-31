@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'el', branch 'MOODLE_34_STABLE'
+ * Strings for component 'editor_tinymce', language 'el', branch 'MOODLE_36_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -346,7 +346,7 @@ $string['contextmenu:right'] = 'Δεξιά';
 $string['customconfig'] = 'Προσαρμοσμένες ρυθμίσεις';
 $string['customconfig_desc'] = 'Προσαρμοσμένες προχωρημένες ρυθμίσεις του TinyMCE σε μορφότυπο JSON, για παράδειγμα: {"option1": "value2", "option2": "value2"}. Οποιεσδήποτε επιλογές καθορίζονται εδώ παρακάμπτουν τις τυπικές ρυθμίσεις και τις ρυθμίσεις πρόσθετου.';
 $string['customtoolbar'] = 'Εργαλειοθήκη επεξεργαστή κειμένου';
-$string['customtoolbar_desc'] = 'Κάθε γραμμή περιέχει μια λίστα από ονόματα πλήκτρων χωρισμένα με κόμμα. Χρησιμοποιήστε "wrap" ως διαχωριστικό ομάδας. Άδειες γραμμές αγνοούνται. Δείτε <a href="{$a}" target="_blank">{$a}</a> για τον κατάλογο των προεπιλεγμένων πλήκτρων TinyMCE.<br />Η πρώτη σειρά θα εμφανίζεται πάντα ενώ η ορατότητα της δεύτερης και της τρίτης γραμμής εργαλείων μπορεί να επιλέγεται.';
+$string['customtoolbar_desc'] = 'Κάθε γραμμή περιέχει μια λίστα από ονόματα πλήκτρων χωρισμένα με κόμμα. Χρησιμοποιήστε «wrap» ως διαχωριστικό ομάδας. Άδειες γραμμές αγνοούνται. Δείτε <a href="{$a}" target="_blank">{$a}</a> για τον κατάλογο των προεπιλεγμένων πλήκτρων TinyMCE.<br />Η πρώτη σειρά θα εμφανίζεται πάντα ενώ η ορατότητα της δεύτερης και της τρίτης γραμμής εργαλείων μπορεί να επιλέγεται.';
 $string['directionality:ltr_desc'] = 'Κατεύθυνση αριστερά προς δεξιά';
 $string['directionality:rtl_desc'] = 'Κατεύθυνση δεξιά προς αριστερά';
 $string['emotions:delta_height'] = '';
@@ -600,7 +600,7 @@ $string['paste:selectall_desc'] = 'Επιλογή όλων';
 $string['pluginname'] = 'Επεξεργαστής HTML TinyMCE';
 $string['preview:preview_desc'] = 'Προεπισκόπηση';
 $string['print:print_desc'] = 'Εκτύπωση';
-$string['privacy:metadata'] = 'Το πρόσθετο editor_tinymce (επεξεργαστής HTML TinyMCE) δεν αποθηκεύει καθόλου προσωπικά δεδομένα.';
+$string['privacy:metadata'] = 'Το πρόσθετο «Επεξεργαστής HTML TinyMCE» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['save:cancel_desc'] = 'Ακύρωση όλων των αλλαγών';
 $string['save:save_desc'] = 'Αποθήκευση';
 $string['searchreplace:delta_height'] = '';

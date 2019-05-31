@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'theme_boost', language 'de', branch 'MOODLE_36_STABLE'
  *
  * @package   theme_boost
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,12 +28,17 @@ defined('MOODLE_INTERNAL') || die();
 $string['advancedsettings'] = 'Erweiterte Einstellungen';
 $string['backgroundimage'] = 'Hintergrundbild';
 $string['backgroundimage_desc'] = 'Bild zur Anzeige als Hintergrund der Website.';
+$string['bootswatch'] = 'Bootswatch';
+$string['bootswatch_desc'] = 'Bootswatch ist ein Set von Bootstrap-Variablen und CSS zur Gestaltung von Bootstrap';
 $string['brandcolor'] = 'Markenfarbe';
 $string['brandcolor_desc'] = 'Der Farbton.';
 $string['choosereadme'] = 'Boost ist ein sehr anpassungsfähiges Design. Dieses Design ist für den direkten Gebrauch vorgesehen, kann aber auch als Basis für die Erstellung neuer Designs mit Bootstrap 4 dienen.';
 $string['configtitle'] = 'Boost';
 $string['currentinparentheses'] = '(aktuell)';
+$string['fontsize'] = 'Basisschriftgröße';
+$string['fontsize_desc'] = 'Schriftfgröße in % angeben';
 $string['generalsettings'] = 'Allgemeine Einstellungen';
+$string['nobootswatch'] = 'Keine';
 $string['pluginname'] = 'Boost';
 $string['preset'] = 'voreingestelltes Theme';
 $string['preset_desc'] = 'Wählen Sie ein Preset, um das Aussehen des Designs vollständig zu ändern.';

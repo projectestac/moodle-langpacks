@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'de', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_usertours', language 'de', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['appliesto'] = 'Gilt für';
 $string['backdrop'] = 'Mit Hervorhebung anzeigen';
 $string['backdrop_help'] = 'Sie können den Teil der Seite hervorheben, auf den Sie gerade verweisen.
 
-Hinweis: Hervorhebungen sind nicht Kompatibel mit manchen Teilen der Seite, z.B. mit der Navigationsleiste.';
+Hinweis: Hervorhebungen sind nicht kompatibel mit einigen übrigen Teilen der Seite, z.B. mit der Navigationsleiste.';
 $string['below'] = 'Unterhalb';
 $string['block'] = 'Block';
 $string['block_named'] = 'Block \'{$a}\'';
@@ -99,7 +99,7 @@ Beispiele dafür sind:
 * /mod/forum/view.php% - für die Diskussionsliste des Forums
 * /user/profile.php% - für die Nutzerprofilseite
 
-Wenn Sie eine Tour auf der Startseite anzeigen lassen wollen, können Sie den Wert "FRONTPAGE" verwenden.';
+Wenn Sie eine Tour auf der Startseite anzeigen lassen möchten, können Sie den Wert "FRONTPAGE" verwenden.';
 $string['pausetour'] = 'Pause';
 $string['placement'] = 'Platzierung';
 $string['placement_help'] = 'Ein Schritt kann oben, unten, links oder rechts des Ziels platziert werden. Oben oder unten wird empfohlen, da dies besser für mobile Geräte passt.
@@ -109,7 +109,7 @@ $string['pluginname'] = 'Geführte Touren';
 $string['privacy:metadata:preference:completed'] = 'Zeitpunkt, an dem eine Person die Nutzerführung zuletzt abgeschlossen hat.';
 $string['privacy:metadata:preference:requested'] = 'Zeitpunkt, zu dem eine Person die Nutzerführung zuletzt manuell angefordert hat.';
 $string['privacy:request:preference:completed'] = 'Sie haben die Benutzerführung \'{$a->name}\' zuletzt am {$a->time} als abgeschlossen markiert.';
-$string['privacy:request:preference:requested'] = 'Sie haben die Benutzerführung \'{$a->name}\' zuletzt am {$a->time} angefordert.';
+$string['privacy:request:preference:requested'] = 'Sie haben die Nutzerführung \'{$a->name}\' zuletzt am {$a->time} angefordert.';
 $string['reflex'] = 'Bei Klick ausführen';
 $string['reflex_help'] = 'Der nächste Schritt wird ausgeführt, wenn auf das Ziel geklickt wird.';
 $string['resettouronpage'] = 'Tour erneut starten';
@@ -138,9 +138,9 @@ $string['title'] = 'Titel';
 $string['title_help'] = 'Der Titel eines Schrittes kann als Klartext hinzugefügt werden, der in Multilang-Tags eingeschlossen ist (für die Verwendung mit dem mehrsprachigen Inhaltsfilter), falls erforderlich.
 
 Alternativ kann eine Text-ID in die Formatkennung eingegeben werden (u.z. Komponente ohne Klammern oder Leerzeichen nach dem Komma).';
-$string['tour1_content_addingblocks'] = 'Seien Sie zurückhaltend bei der Verwendung von Blöcken. Blöcke werden in der mobilen Moodle-App nicht angezeigt, daher sollten Sie darauf achten, dass Ihre Website auch ohne Blöcke problemlos funktioniert.';
+$string['tour1_content_addingblocks'] = 'Verwenden Sie Blöcke möglichst zurückhaltend. Blöcke werden in der mobilen Moodle-App nicht angezeigt, weswegen Sie darauf achten sollten, dass Ihre Website auch ohne Blöcke problemlos funktioniert.';
 $string['tour1_content_blockregion'] = 'Es gibt weiterhin einen Blockbereich. Wir empfehlen, die Navigations- und Einstellungsblöcke zu entfernen, weil deren Funktionalität an anderer Stelle im Design Boost zu finden ist.';
-$string['tour1_content_customisation'] = 'Verwenden Sie das Menü "Einstellungen" am Rand dieser Kopfzeile, um Ihre Website anzupassen. Versuchen Sie "Bearbeiten einschalten" jetzt zu aktivieren.';
+$string['tour1_content_customisation'] = 'Verwenden Sie das Einstellungsmenü am Rand dieser Kopfzeile, um Ihre Website anzupassen. Versuchen Sie, "Bearbeiten einschalten" jetzt zu aktivieren.';
 $string['tour1_content_end'] = 'Dies war eine Nutzer-Tour. Sie wird nicht wieder angezeigt, es sei denn Sie setzen sie zurück, indem Sie auf den Link in der Fußzeile klicken. Als Admin können Sie zudem solche Touren selbst erstellen.';
 $string['tour1_content_navigation'] = 'Die Hauptnavigation findet nun über diese Navigationsleiste statt. Die Inhalte aktualisieren sich abhängig davon, an welcher Stelle Sie auf der Website sind. Nutzen Sie den Button am Kopf der Seite, um die Navigationsleiste ein- oder auszublenden.';
 $string['tour1_content_welcome'] = 'Willkommen zum Design "Boost" für Moodle. Falls Sie Moodle bereits vorher verwendet haben, werden Sie möglicherweise Dinge finden, die jetzt ein bisschen anders aussehen.';
@@ -150,11 +150,11 @@ $string['tour1_title_customisation'] = 'Anpassungen';
 $string['tour1_title_end'] = 'Ende der Tour';
 $string['tour1_title_navigation'] = 'Navigation';
 $string['tour1_title_welcome'] = 'Willkommen';
-$string['tour2_content_addblock'] = 'Wenn Sie "Bearbeiten einschalten" aktivieren, können Sie Blöcke aus der Navigationsleiste hinzufügen. Seien Sie beim Hinzufügen von Blöcken jedoch vorsichtig. Blöcke werden in der mobilen Moodle-App nicht angezeigt, daher sollten Sie im Sinne der Benutzerfreundlichkeit darauf achten, dass Ihre Kurse auch ohne Blöcke gut funktionieren.';
-$string['tour2_content_addingblocks'] = 'Sie können dieser Seite mit Hilfe dieses Buttons Blocks hinzufügen. Bedenken Sie jedoch das Einfügen von Blocks auf Ihren Seiten sorgfältig. Blocks werden auf der mobilen Moodle App nicht angezeigt, deshalb ist es für die beste Anwendung besser, sicherzustellen, dass Ihre Kurse auch gut ohne Blocks funktionieren.';
-$string['tour2_content_customisation'] = 'Nutzen Sie das Menü "Einstellungen" am Rand dieser Kopfzeile um Kurseinstellungen zu bearbeiten. Sie finden eine ähnliches Einstellungsmenü zudem auf der Startseite jeder Kursaktivität. Versuchen Sie nun "Bearbeiten einschalten" zu aktivieren.';
-$string['tour2_content_end'] = 'Dies war eine Nutzer-Tour. Sie wird nicht wieder angezeigt, es sei denn Sie setzen die Tour zurück, indem Sie auf den Link in der Fußzeile klicken. Der Administrator der Seite kann zudem weitere Touren erstellen, falls notwendig.';
-$string['tour2_content_navigation'] = 'Die Navigation findet nun über diese Navigationsleiste statt. Nutzen Sie den Button am Kopf der Seite um die Navigationsleiste ein- oder auszublenden. Sie enthält Links zu Abschnitten Ihrer Kurse.';
+$string['tour2_content_addblock'] = 'Wenn Sie "Bearbeiten einschalten" aktivieren, können Sie Blöcke aus der Navigationsleiste hinzufügen. Seien Sie beim Hinzufügen von Blöcken jedoch zurückhaltend. Blöcke werden in der mobilen Moodle-App nicht angezeigt, daher sollten Sie im Sinne der Benutzerfreundlichkeit darauf achten, dass Ihre Kurse auch ohne Blöcke gut funktionieren.';
+$string['tour2_content_addingblocks'] = 'Sie können dieser Seite mit Hilfe dieses Buttons Blöcke hinzufügen. Bedenken Sie jedoch das Einfügen von Blöcken auf Ihren Seiten sorgfältig. Blöcke werden in der mobilen Moodle App nicht angezeigt, weshalb Sie am besten sicherstellen, dass Ihre Kurse auch ohne Blöcke gut funktionieren.';
+$string['tour2_content_customisation'] = 'Nutzen Sie das Einstellungsmenü am Rand dieser Kopfzeile, um Kurseinstellungen zu bearbeiten. Sie finden ein ähnliches Einstellungsmenü zudem auf der Startseite jeder Kursaktivität. Versuchen Sie nun, "Bearbeiten einschalten" zu aktivieren.';
+$string['tour2_content_end'] = 'Dies war eine Nutzer-Tour. Sie wird nicht wieder angezeigt, es sei denn, Sie setzen die Tour zurück, indem Sie auf den Link in der Fußzeile klicken. Der Administrator der Seite kann zudem weitere Touren erstellen, falls notwendig.';
+$string['tour2_content_navigation'] = 'Die Navigation findet nun über diese Navigationsleiste statt. Nutzen Sie den Button am Kopf der Seite, um die Navigationsleiste ein- oder auszublenden. Sie enthält Links zu Abschnitten Ihrer Kurse.';
 $string['tour2_content_opendrawer'] = 'Versuchen Sie jetzt, den Navigationsbereich zu öffnen.';
 $string['tour2_content_participants'] = 'Zeigen Sie hier die Teilnehmer/innen an. An dieser Stelle werden auch die Teilnehmer/innen hinzugefügt oder entfernt.';
 $string['tour2_content_welcome'] = 'Willkommen zum Design Boost in Moodle. Wenn Sie Moodle bereits verwendet haben, könnten einige Dinge auf der Kursseite ein bisschen anders aussehen.';
@@ -166,7 +166,49 @@ $string['tour2_title_navigation'] = 'Navigation';
 $string['tour2_title_opendrawer'] = 'Navigationsbereich öffnen';
 $string['tour2_title_participants'] = 'Kursteilnehmer/innen';
 $string['tour2_title_welcome'] = 'Willkommen';
+$string['tour3_content_dashboard'] = 'Ihr neues Dashboard bietet viele Funktionen, mit denen Sie einfach auf die für Sie wichtigsten Infos zugreifen können.';
+$string['tour3_content_displayoptions'] = 'Die Kurse können nach Kursnamen oder dem letzten Zugriffszeitpunkt sortiert werden.
+
+Sie können außerdem auswählen, ob die Kurse in einer Liste mit zusammenfassenden Infos oder in der Standardansicht "Karte" angezeigt werden.';
+$string['tour3_content_overview'] = 'Der Block \'Kursübersicht\' zeigt alle Kurse, bei denen Sie eingeschrieben sind.
+
+Sie können Kurse anzeigen, die aktuell in Bearbeitung sind, die in der Vergangenheit oder in der Zukunft liegen oder die Sie als Favoriten markiert haben.';
+$string['tour3_content_recentcourses'] = 'Der Block \'Zuletzt besuchte Kurse\' zeigt die zuletzt aufgerufenen Kurse, so dass Sie direkt wieder rein springen können.';
+$string['tour3_content_starring'] = 'Sie können wählen, ob Sie einen Kurs markieren möchten, um ihn hervorzuheben oder ihn als nicht mehr wichtigen Kurs auszublenden.
+
+Diese Aktionen wirken sich nur auf Ihre Ansicht aus.
+
+Sie können auch auswählen, ob die Kurse in einer Liste, mit einer zusammenfassenden Info oder in der Standardansicht "Karte" angezeigt werden.';
+$string['tour3_content_timeline'] = 'Der Block \'Zeitleiste\' zeigt Ihre wichtigen bevorstehenden Termine.
+
+Sie können Aktivitäten in der nächsten Woche, im nächsten Monat oder weiter in der Zukunft anzeigen.
+
+Sie können auch überfällige Elemente anzeigen.';
+$string['tour3_title_dashboard'] = 'Ihr Dashboard';
+$string['tour3_title_displayoptions'] = 'Anzeigeoptionen';
+$string['tour3_title_overview'] = 'Kursübersicht';
+$string['tour3_title_recentcourses'] = 'Zuletzt besuchte Kurse';
+$string['tour3_title_starring'] = 'Kurse markieren und verbergen';
+$string['tour3_title_timeline'] = 'Block \'Zeitleiste\'';
+$string['tour4_content_groupconvo'] = 'Wenn Sie in einer Gruppe mit aktivierten Gruppenmitteilungen sind, wird hier die Gruppenkommunikation angezeigt.
+
+Die Gruppenkommunikation in einem Kurs ermöglichen es Ihnen, mit den anderen Gruppenmitgliedern an einem privaten Ort zu interagieren.';
+$string['tour4_content_icon'] = 'Mit diesem Symbol können Sie von jeder Seite aus auf Ihre Mitteilungen zugreifen.
+
+Wenn Sie ungelesene Mitteilungen haben, wird hier auch die Anzahl der ungelesenen Mitteilungen angezeigt.
+
+Klicken Sie auf das Symbol, um die Mitteilungsschublade zu öffnen und die Tour fortzusetzen.';
+$string['tour4_content_messaging'] = 'Moodle 3.6 bietet eine neue Mitteilungsschnittstelle, die Möglichkeit für Gruppenmitteilungen innerhalb eines Kurses und außerdem eine bessere Kontrolle, wer Ihnen Mitteilungen senden darf.';
+$string['tour4_content_settings'] = 'Über das Zahnradsymbol können Sie direkt auf Ihre Mitteilungseinstellungen zugreifen. Mit einer neuen Datenschutzeinstellung können Sie einschränken, wer Ihnen Mitteilungen senden kann.';
+$string['tour4_content_starred'] = 'Sie können bestimmte Konversationen markieren, um sie leichter zu finden.';
+$string['tour4_title_groupconvo'] = 'Gruppenmitteilungen';
+$string['tour4_title_icon'] = 'Mitteilungen';
+$string['tour4_title_messaging'] = 'Neue Mitteilungsschnittstelle';
+$string['tour4_title_settings'] = 'Mitteilungseinstellungen';
+$string['tour4_title_starred'] = 'Als Favorit markiert';
 $string['tourconfig'] = 'Konfigurationsdatei der Tour';
+$string['tour_final_step_content'] = 'Sie sind am Ende Ihrer Nutzertour angekommen. Die Tour wird nur einmal angezeigt, es sei denn, Sie starten die Tour über den Link im Fußbereich der Seite erneut.';
+$string['tour_final_step_title'] = 'Ende der Tour';
 $string['tourisenabled'] = 'Geführte Tour aktiv';
 $string['tourlist_explanation'] = 'Sie können beliebig viele Touren anlegen und sie in verschiedenen Bereichen von Moodle aktivieren. Für jede Seite kann es aber nur eine Tour geben.';
 $string['tour_resetforall'] = 'Der Status der Tour wurde zurückgesetzt. Die Tour wird allen Nutzer/innen erneut gezeigt.';

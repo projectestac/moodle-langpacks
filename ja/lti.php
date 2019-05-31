@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'lti', language 'ja', branch 'MOODLE_36_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -454,6 +454,8 @@ $string['tooltypenotdeleted'] = '事前設定ツールを削除できません�
 $string['tooltypes'] = 'ツール';
 $string['tooltypeupdated'] = '事前設定ツールが更新されました。';
 $string['toolurl'] = 'ツールURL';
+$string['toolurl_contentitemselectionrequest'] = 'コンテンツ選択URL';
+$string['toolurl_contentitemselectionrequest_help'] = 'コンテンツ選択URLはツールプロバイダのコンテンツ選択ページを起動するため使用されます。空白にした場合、ツールＵＲＬが使用されます。';
 $string['toolurl_help'] = 'ツールベースURLは正しいツール設定をツールツールURLと合致させるために使用されます。URLの接頭辞「http(s)」は任意です。
 
 加えて、外部ツールインスタンスのツールURLが指定されていない場合、ベースURLが使用されます。

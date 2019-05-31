@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'eu', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_rss_client', language 'eu', branch 'MOODLE_36_STABLE'
  *
  * @package   block_rss_client
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,7 +41,7 @@ $string['couldnotfindloadrssfeed'] = 'Ezin izan da aurkitu edo kargatu RSS jario
 $string['customtitlelabel'] = 'Izenburu pertsonalizatua (jarioak ematen duen izenburua erakusteko hutsik utzi):';
 $string['deletefeedconfirm'] = 'Ziur al zaude jario hau ezabatu nahi duzula?';
 $string['disabledrssfeeds'] = 'RSS jarioak desgaituta daude';
-$string['displaydescriptionlabel'] = 'Esteka bakoitzaren deskribapena erakutsi?';
+$string['displaydescriptionlabel'] = 'Erakutsi esteka bakoitzaren deskribapena?';
 $string['editafeed'] = 'Editatu jarioa';
 $string['editfeeds'] = 'Editatu, harpidetu edo baja eman RSS/Atom albiste-jariotik';
 $string['editnewsfeeds'] = 'Editatu albiste-jarioak';
@@ -74,13 +74,14 @@ $string['privacy:metadata:block_rss_client:tableexplanation'] = 'Hemen RSS bloke
 $string['privacy:metadata:block_rss_client:title'] = 'RSS jarioaren izenburua';
 $string['privacy:metadata:block_rss_client:url'] = 'RSS jarioaren URLa';
 $string['privacy:metadata:block_rss_client:userid'] = 'RSS jarioa gehitu zuen erabiltzailearen IDa.';
+$string['refreshfeedstask'] = 'Freskatu RSS jarioak zeregina';
 $string['remotenewsfeed'] = 'Urrutiko albiste-jarioa';
 $string['rss_client:addinstance'] = 'Gehitu urrutiko RSS albiste-jarioa bloke berria';
 $string['rss_client:createprivatefeeds'] = 'Sortu RSS jario pribatuak';
 $string['rss_client:createsharedfeeds'] = 'Sortu partekatutako RSS jarioak';
 $string['rss_client:manageanyfeeds'] = 'Kudeatu edozein RSS jario';
 $string['rss_client:manageownfeeds'] = 'Kudeatu norberaren RSS jarioak';
-$string['rss_client:myaddinstance'] = 'Gehitu urrutiko albiste-jarioa bloke berria aginte-panelean';
+$string['rss_client:myaddinstance'] = 'Gehitu urrutiko RSS albiste-jarioa bloke berria aginte-panelean';
 $string['seeallfeeds'] = 'Jario guztiak ikusi';
 $string['sharedfeed'] = 'Partekatutako jarioa';
 $string['shownumentrieslabel'] = 'Blokeko erakuts daitekeen gehienezko sarrera-kopurua.';

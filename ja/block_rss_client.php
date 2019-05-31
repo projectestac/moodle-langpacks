@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_rss_client', language 'ja', branch 'MOODLE_36_STABLE'
  *
  * @package   block_rss_client
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -74,13 +74,14 @@ $string['privacy:metadata:block_rss_client:tableexplanation'] = 'ここにRSSブ
 $string['privacy:metadata:block_rss_client:title'] = 'RSSフィードのタイトルです。';
 $string['privacy:metadata:block_rss_client:url'] = 'RSSフィードのＵＲＬです。';
 $string['privacy:metadata:block_rss_client:userid'] = 'RSSフィードを追加したユーザのIDです。';
+$string['refreshfeedstask'] = 'RSSフィードタスクをリフレッシュする';
 $string['remotenewsfeed'] = 'リモートニュースフィード';
 $string['rss_client:addinstance'] = '新しいリモートRSSフィードブロックを追加する';
 $string['rss_client:createprivatefeeds'] = 'プライベートRSSフィードを作成する';
 $string['rss_client:createsharedfeeds'] = '共有RSSフィードを作成する';
 $string['rss_client:manageanyfeeds'] = 'すべてのRSSフィードを管理する';
 $string['rss_client:manageownfeeds'] = '自分のRSSフィードを管理する';
-$string['rss_client:myaddinstance'] = '新しいRSSフィードブロックをダッシュボードに追加する';
+$string['rss_client:myaddinstance'] = '新しいリモートRSSフィードブロックをダッシュボードに追加する';
 $string['seeallfeeds'] = 'すべてのフィードを表示する';
 $string['sharedfeed'] = '共有フィード';
 $string['shownumentrieslabel'] = 'ブロックに表示する最大エントリ数です。';

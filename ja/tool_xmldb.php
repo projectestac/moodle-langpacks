@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'ja', branch 'MOODLE_34_STABLE'
+ * Strings for component 'tool_xmldb', language 'ja', branch 'MOODLE_36_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -168,6 +168,7 @@ $string['nowrongintsfound'] = '間違ったインテジャは見つかりませ�
 $string['nowrongoraclesemanticsfound'] = 'BYTEセマンティクスを使用しているOracleカラムは見つかりませんでした。あなたのDBに関して、さらなる処置は不要です。';
 $string['numberincorrectdecimals'] = 'numberフィールドの小数点以下桁数が正しくありません。';
 $string['numberincorrectlength'] = 'numberフィールドの長さが正しくありません。';
+$string['numberincorrectwholepart'] = 'ナンバーフィールドの整数部分が大き過ぎます。';
 $string['pendingchanges'] = 'メモ: あなたはこのファイルを変更しました。ファイルはいつでも保存することができます。';
 $string['pendingchangescannotbesaved'] = 'このファイルに変更が加えられましたが、保存できませんでした! ディレクトリおよび「install.xml」にウェブサーバからの書込み権があるかどうか確認してください。';
 $string['pendingchangescannotbesavedreload'] = 'このファイルに変更が加えられましたが、保存できませんでした! ディレクトリおよび「install.xml」にウェブサーバからの書込み権があるかどうか確認してください。確認後、このページをリロードすることで、あなたは変更を保存することができます。';
@@ -218,7 +219,7 @@ $string['yesmissingindexesfound'] = '<p>あなたのDBに不明なインデッ�
 <p>SQL文の実行後、これ以上不明なインデックスが見つかるかどうかこのユーティリティの再実行を強くお勧めします。</p>';
 $string['yeswrongdefaultsfound'] = '<p>あなたのDBに矛盾したデフォルト値が見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインデックス作成を実行するためのSQL文です。最初にあなたのデータを忘れずにバックアップしてください!</p>
 <p>SQL文の実行後、これ以上矛盾したデフォルト値が見つかるかどうかこのユーティリティの再実行を強くお勧めします。</p>';
-$string['yeswrongintsfound'] = '<p>あなたのDBに不正なインテジャが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインテジャ作成を実行するためのSQL文です。最初にあなたのデータを忘れずにバックアップしてください!</p>
-<p>SQL文の実行後、これ以上不正なインテジャが見つかるかどうかこのユーティリティの再実行を強くお勧めします。<p>';
-$string['yeswrongoraclesemanticsfound'] = '<p>あなたのOracleカラムに不正なBYTEセマンティクスが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでOracleカラムの作成を実行するためのSQL文です。最初にあなたのデータを忘れずにバックアップしてください!</p>
+$string['yeswrongintsfound'] = '<p>あなたのDBに不正なインテジャが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインテジャの修正を実行するためのSQL文です。最初にあなたのデータを忘れずにバックアップしてください!</p>
+<p>修正後、さらに不正なインテジャが見つかるかどうかこのユーティリティの再実行を強くお勧めします。<p>';
+$string['yeswrongoraclesemanticsfound'] = '<p>あなたのOracleカラムに不正なBYTEセマンティクスが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでOracleカラムすべての変換を実行するためのSQL文です。最初にあなたのデータを忘れずにバックアップしてください!</p>
 <p>SQL文の実行後、これ以上不正なOracleカラムが見つかるかどうかこのユーティリティの再実行を強くお勧めします。<p>';

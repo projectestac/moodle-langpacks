@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'it', branch 'MOODLE_34_STABLE'
+ * Strings for component 'auth_ldap', language 'it', branch 'MOODLE_36_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -127,7 +127,7 @@ $string['didntfindexpiretime'] = 'password_expire() non ha trovato la data di sc
 $string['didntgetusersfromldap'] = 'LDAP non ha restituito nessun acccount -- un errore ? --';
 $string['gotcountrecordsfromldap'] = 'LDAP ha restituito {$a} record';
 $string['ldapnotconfigured'] = 'L\'URL dell\'host LDAP non è configurata';
-$string['morethanoneuser'] = 'Strano! LDAP ha restituito più account dello stesso utente. Verrà usato il primo.';
+$string['morethanoneuser'] = 'LDAP ha restituito più account dello stesso utente. Verrà usato il primo.';
 $string['needbcmath'] = 'Per verificare le password scadute su Active Directory occorre l\'estensione BCMath';
 $string['needmbstring'] = 'Per cambiare password in Active Directory occorre l\'estensione mbstring.';
 $string['nodnforusername'] = 'Si è verificato un errore in user_update_password(). Nessun DN per: {$a->username}';
@@ -156,7 +156,7 @@ $string['synctask'] = 'Sincronizzazione utenti LDAP';
 $string['systemrolemapping'] = 'Mappatura ruoli di sistema';
 $string['updatepasserror'] = 'Errore in user_update_password(). Error code: {$a->errno}; Error string: {$a->errstring}';
 $string['updatepasserrorexpire'] = 'Si è verificato un errore in user_update_password() durante la lettura della data di scadenza della password. Codice errore: {$a->errno}; messagio di errore: {$a->errstring}';
-$string['updatepasserrorexpiregrace'] = 'Errore in user_update_password() durante la modifica di expirationtime e/o gracelogin. Error code: {$a->errno}; Error string: {$a->errstring}';
+$string['updatepasserrorexpiregrace'] = 'Errore in user_update_password() durante la modifica della data di scadenza e/o gracelogin. Error code: {$a->errno}; Error string: {$a->errstring}';
 $string['updateremfail'] = 'Errore durante l\'aggiornamento del record LDAP. Error code: {$a->errno}; Error string: {$a->errstring}<br/>Key ({$a->key}) - valore moodle precedente: \'{$a->ouvalue}\' nuovo valore: \'{$a->nuvalue}\'';
 $string['updateremfailamb'] = 'Errore durante l\'aggiornamento LDAP con il campo ambiguo {$a->key}; valore moodle precedente: \'{$a->ouvalue}\' nuovo valore: \'{$a->nuvalue}\'';
 $string['updateusernotfound'] = 'L\'utente non è stato trovato durante l\'aggiornamento dei dati esterni. Dettagli: search base: \'{$a->userdn}\'; search filter: \'(objectClass=*)\'; search attributes: {$a->attribs}';

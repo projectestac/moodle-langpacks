@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'fr', branch 'MOODLE_34_STABLE'
+ * Strings for component 'label', language 'fr', branch 'MOODLE_36_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,5 +51,5 @@ Les étiquettes peuvent être utilisées pour :
 $string['modulenameplural'] = 'Étiquettes';
 $string['pluginadministration'] = 'Administration étiquette';
 $string['pluginname'] = 'Étiquette';
-$string['privacy:metadata'] = 'Le plugin mod_label n\'enregistre aucune donnée personnelle.';
+$string['privacy:metadata'] = 'Le plugin de ressource Étiquette n\'enregistre aucune donnée personnelle.';
 $string['search:activity'] = 'Étiquette';
