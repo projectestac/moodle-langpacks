@@ -153,12 +153,12 @@ $string['cannotstartmissingquestion'] = 'Ezin da hasi galdetegi-saiakera. Galdet
 $string['cannotstartnoquestions'] = 'Ezin da hasi saiakerarik galdetegi honetan. Galdetegia ez da oraindik prestatu; ez da galderarik gehitu.';
 $string['cannotwrite'] = 'Ezin da esportatutako fitxategia idatzi ({$a})';
 $string['canredoquestions'] = 'Baimendu berriz saiatzea saiakera barruan';
-$string['canredoquestions_desc'] = 'Gaituz gero, ikasleak  galdera jakin bat erantzuten saiatu direnean \'Berriz saiatu\' botoi bat ikusiko dute. Honek galdera hori beste behin erantzuten saiatzea ahalbidetzen du, galdetegia osorik bidali eta beste saiakera bat hasi behar izan gabe. Aukera hau praktikarako galdetegietan da bereziki erabilgarria.
+$string['canredoquestions_desc'] = 'Gaituz gero, ikaslea galdera jakin bat erantzuten saiatu denean \'Berriz saiatu\' botoi bat ikusiko du. Honek galdera hori beste behin erantzuten saiatzea ahalbidetzen du, galdetegia osorik bidali eta beste saiakera bat hasi behar izan gabe. Aukera hau praktikarako galdetegietan da erabilgarria.
 
 Ezarpen honek eragina du soilik galdera solteak galdetegia amaitu baino lehen ahalbidetzen duten galdera-motetan (adibidez ez du Entsegua galdera-motan eragiten) eta galderen jokaeretan (Berehalako feedbacka edo Interaktiboa hainbat saiakerekin adibidez).';
 $string['canredoquestions_help'] = 'Gaituz gero, ikasleak  galdera jakin bat erantzuten saiatu direnean \'Berriz saiatu\' botoi bat ikusiko dute. Honek galdera hori beste behin erantzuten saiatzea ahalbidetzen du, galdetegia osorik bidali eta beste saiakera bat hasi behar izan gabe. Aukera hau praktikarako galdetegietan da bereziki erabilgarria.
 
-Ezarpen honek eragina du soilik galdera solteak galdetegia amaitu baino lehen ahalbidetzen duten galdera-motetan (adibidez ez du Entsegua galdera-motan eragiten) eta galderen jokaeretan (Berehalako feedbacka edo Interaktiboa hainbat saiakerekin adibidez).';
+Ezarpen honek galdetegiaren saiakera bidali baino lehen amaitu daitezkeen galdera eta portaerei eragiten die soilik (hala nola berehalako feedbacka edo interaktiboa hainbat saiakerarekin).';
 $string['canredoquestionsyes'] = 'Ikasleek amaitutako edozein galdera berriz egiten saiatu daiteke';
 $string['caseno'] = 'Ez, letra larriak eta xeheak ez dira bereiziko';
 $string['casesensitive'] = 'Letra larriak eta xeheak bereiziz';
@@ -207,7 +207,7 @@ $string['configshowblocks'] = 'Erakutsi blokeak galdetegiari erantzun bitartean'
 $string['configshowuserpicture'] = 'Erakutsi erabiltzaileen irudia pantailan galdetegiari erantzun bitartean.';
 $string['configshufflewithin'] = 'Hau gaituz gero, ikasleek saiakera bat egiten duen bakoitzean, galderen osagaiak ausaz nahastuko dira; kontuan izan galderaren ezarpenetan aukera berdinak gaituta egon behar duela.';
 $string['configtimelimit'] = 'Lehenetsitako denbora-muga galdetegietarako minututan. 0-k ez dagoela mugarik adierazten du.';
-$string['configtimelimitsec'] = 'Lehenetsitako denbora-muga galdetegietarako segundutan. 0-k ez dagoela mugarik adierazten du.';
+$string['configtimelimitsec'] = 'Lehenetsitako denbora-muga galdetegietarako (segundoetan). 0-k ez dagoela mugarik adierazten du.';
 $string['configurerandomquestion'] = 'Konfiguratu galdera';
 $string['confirmclose'] = 'Behin saiakera itxitakoan ezingo duzu bertako erantzunetan aldaketarik egin.';
 $string['confirmremovequestion'] = 'Ziur al zaude {$a} galdera ezabatu nahi duzula?';
@@ -410,7 +410,7 @@ $string['gradingdetailszeropenalty'] = 'Bidalketa honek ez dizu kenketarik ekarr
 $string['gradingmethod'] = 'Kalifikazio-metodoa: {$a}';
 $string['groupoverrides'] = 'Talde-salbuespenak';
 $string['groupoverridesdeleted'] = 'Talde-salbuespenak ezabatu dira';
-$string['groupsnone'] = 'Ez dago talderik ikastaro honetan';
+$string['groupsnone'] = 'Ez dago sarbidea duzun talderik.';
 $string['guestsno'] = 'Sentitzen dugu, baina bisitariek ezin dituzte galdetegiak ikusi edo egin';
 $string['hidebreaks'] = 'Ezkutatu orri-jauziak';
 $string['hidereordertool'] = 'Ezkutatu berrantolaketarako tresna';
@@ -592,7 +592,7 @@ $string['overduehandlingautoabandon'] = 'Saiakerak denbora agortu aurretik bidal
 $string['overduehandlingautosubmit'] = 'Saiakera irekiak automatikoki bidaltzen dira denbora agortzean.';
 $string['overduehandling_desc'] = 'Ikasle batek galdetegiari garaiz erantzuten ez badio, gertatu beharko litzatekeenerako lehenetsitako balioa.';
 $string['overduehandlinggraceperiod'] = 'Hasitako saiakerak bidaltzeko epe gehigarria dago denbora bukatzean, baina epe horretan ezin da galdera gehiago erantzun';
-$string['overduehandling_help'] = 'Ezarpen honek kontrolatzen du zer gertatzen den  ikasle batek bidalketa egitea lortzen ez badu denbora agortu aurretik. Momentu horretan ikaslea saiakeran lanean ari bada, atzerako kontaketa kronometroak automatikoki bidaliko du saiakera, baina ikaslea plataformatik atera bada, ezarpen honek kontrolatzen du zer gertatuko den.';
+$string['overduehandling_help'] = 'Ezarpen honek kontrolatzen du zer gertatzen den ikasle batek denbora agortu aurretik galdetegiaren saiakera bidaltzea lortzen ez badu. Momentu horretan ikaslea saiakeran lanean ari bada, atzerako kontaketa kronometroak automatikoki bidaliko du saiakera, baina ikaslea plataformatik atera bada, ezarpen honek kontrolatzen du zer gertatuko den.';
 $string['overduemustbesubmittedby'] = 'Saiakera hau epez kanpo dago. Dagoeneko bidalita egon beharko luke. Galdetegia kalifikatua izatea nahi baduzu, {$a}-rako bidali behar duzu. Data horretarako bidaltzen ez baduzu bidaltzen, saiakera hau ez da aintzat hartuko.';
 $string['override'] = 'Gehitu salbuespena';
 $string['overridedeletegroupsure'] = 'Ziur al zaude {$a} talderako talde-salbuespena ezabatu nahi duzula?';
@@ -667,7 +667,7 @@ $string['questionbank'] = 'galdera-bankutik';
 $string['questionbankmanagement'] = 'Galdera-bankuaren kudeaketa';
 $string['questionbehaviour'] = 'Galderen jokaera';
 $string['questioncats'] = 'Galdera-kategoriak';
-$string['questiondeleted'] = 'Galdera hau ezabatu egin da. Mesedez, jarri harremanetan irakaslearekin';
+$string['questiondeleted'] = 'Galdera hau ezabatu egin da. Mesedez, jarri harremanetan irakaslearekin.';
 $string['questiondependencyadd'] = 'Ez dago {$a->thisq} galdera erantzuten saiatzeko baldintzarik • Egin klik aldatzeko';
 $string['questiondependencyfree'] = 'Ez dago baldintzarik galdera honetan';
 $string['questiondependencyremove'] = '{$a->thisq} galdera ezin da erantzun aurretik {$a->previousq} galdera osatu arte • Egin klik aldatzeko';
@@ -896,14 +896,14 @@ $string['showreport'] = 'Erakutsi txostena';
 $string['showsmallimage'] = 'Irudi txikia';
 $string['showteacherattempts'] = 'Erakutsi irakaslearen saiakerak';
 $string['showuserpicture'] = 'Erakutsi erabiltzailearen irudia';
-$string['showuserpicture_help'] = 'Gaituz gero, ikaslearen izena eta irudia erakutsiko dira pantailan saiakerak irauten duen bitartean, eta berrikuste-pantailan; horrela, zaindutako azterketa batean zehar, errazagoa izango da egiaztatzea ikaslea bere izenarekin sartu dela.';
+$string['showuserpicture_help'] = 'Gaituz gero, ikaslearen izena eta irudia pantailan eta berrikuste-pantailan erakutsiko dira saiakerak irauten duen bitartean; horrela, zaindutako azterketa batean zehar, errazagoa izango da ikaslea bere izenarekin sartu dela egiaztatzea.';
 $string['shuffle'] = 'Nahastu';
 $string['shuffleanswers'] = 'Nahastu erantzunak';
 $string['shuffledrandomly'] = 'Ausaz nahastuta';
 $string['shufflequestions'] = 'Nahastu';
-$string['shufflequestions_help'] = 'Aukera hau gaituz gero galdetegia egiteko saiakera bakoitzean galderak ausaz nahastu eta ordena berri batean erakutsiko dira.
+$string['shufflequestions_help'] = 'Gaituz gero, galdetegia egiteko saiakera bakoitzean galderak ausaz nahastu eta ordena berri batean erakutsiko dira.
 
-Honek ikasleek galdera trukatzea zaildu dezake, baina ikasleek zurekin galdera zehatz bati buruz jardutea ere zailtzen du.';
+Honek ikasleek galdera trukatzea zaildu dezake, baina ikasleek irakaslearekin galdera zehatz bati buruz jardutea ere zailtzen du.';
 $string['shufflewithin'] = 'Nahastu galderen barruan';
 $string['shufflewithin_help'] = 'Gaituz gero, galderen atalak ausaz nahastuko dira ikasle batek galdetegian saiakera bat egiten duen bakoitzean, galdetegiaren ezarpenetan ere gaituta badago. Ezarpen honek galderak atal anitz dituenean du eragina, hala nola aukera anitzezkoak edo lotu galderetan.';
 $string['singleanswer'] = 'Aukeratu erantzun bat';

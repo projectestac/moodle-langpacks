@@ -29,4 +29,5 @@ $string['configplugin'] = 'Configuración del repositorio de archivos privados d
 $string['emptyfilelist'] = 'No hay archivos que mostrar';
 $string['pluginname'] = 'Archivos privados';
 $string['pluginname_help'] = 'Archivos en el área privada del usuario';
+$string['privacy:metadata'] = 'El plugin del Repositorio de Archivos privados no almacena ni transmite ningún dato personal.';
 $string['user:view'] = 'Ver archivos privados del usuario';

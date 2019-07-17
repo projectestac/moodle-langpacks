@@ -51,7 +51,7 @@ $string['auth_ldap_expireattr_desc'] = 'Προαιρετικό: Παρακάμπ
 $string['auth_ldap_expireattr_key'] = 'Τιμή του ιδιοχαρακτηριστικού expiry (λήξη)';
 $string['auth_ldapextrafields'] = 'Αυτά τα πεδία είναι προαιρετικά. Υπάρχει η επιλογή να προ-συμπληρώσετε μερικά πεδία χρηστών του Moodle χρησιμοποιώντας πληροφορίες από τα <b>LDAP πεδία</b> που θα ορίσετε εδώ.
 <p>Εάν αφήσετε αυτά τα πεδία κενά, τότε τίποτα δεν θα αποσταλεί από το LDAP (Lightweight Directory Access Protocol: Υπηρεσίες καταλόγου) και θα χρησιμοποιηθούν οι προεπιλογές του Moodle.</p>
-<p>Σε κάθε περίπτωση, ο χρήστης θα μπορεί να παρέμβει σε όλα αυτά τα πεδία μετά την σύνδεση.</p>';
+<p>Σε κάθε περίπτωση, ο χρήστης θα μπορεί να επεξεργαστεί όλα αυτά τα πεδία μετά την σύνδεση.</p>';
 $string['auth_ldap_graceattr_desc'] = 'Προαιρετικό:  Παρακάμπτει την τιμή του ιδιοχαρακτηριστικού grace login (συνδέσεις χάριτος μετά τη λήξη)';
 $string['auth_ldap_gracelogin_key'] = 'Τιμή του ιδιοχαρακτηριστικού grace login (συνδέσεις χάριτος μετά τη λήξη)';
 $string['auth_ldap_gracelogins_desc'] = 'Ενεργοποίηση της υποστήριξης grace login (συνδέσεις χάριτος μετά τη λήξη) του LDAP. Αφού λήξει ο κωδικός πρόσβασης ο χρήστης μπορεί να συνδεθεί μέχρι το grace login να φθάσει το 0. Ενεργοποιώντας αυτή τη ρύθμιση θα εμφανίζεται ένα μήνυμα grace login εάν ο κωδικός πρόσβασης έχει λήξει.';
@@ -101,7 +101,7 @@ $string['auth_ldap_usertypeundefined2'] = 'Ο τύπος config.user_type δεν
 $string['auth_ldap_version'] = 'Η έκδοση του πρωτοκόλλου LDAP που χρησιμοποιεί ο εξυπηρετητής σας.';
 $string['auth_ldap_version_key'] = 'Έκδοση';
 $string['auth_ntlmsso'] = 'NTLM SSO (NTLM =NT LAN Manager: διαχείριστής τοπικού δικτύου των Microsoft NT) (SSO=Single sign-on: μία και μόνον ενιαία αυθεντικοποίηση)';
-$string['auth_ntlmsso_enabled'] = 'Ορίστε το σε «ναι» για προσπάθεια SSO (Single Sign On: μία και μόνον ενιαία αυθεντικοποίηση) στον τομέα NTLM (NT LAN Manager: Πρωτόκολλα ασφαλείας της Microsoft). <strong>Σημείωση:</strong> αυτό απαιτεί επιπρόσθετες ρυθμίσεις στον εξυπηρετητή ιστού για να λειτουργήσει, δείτε <a href="http://docs.moodle.org/en/NTLM_authentication">http://docs.moodle.org/en/NTLM_authentication</a>';
+$string['auth_ntlmsso_enabled'] = 'Ορίστε το σε «ναι» για προσπάθεια SSO (Single Sign On: μία και μόνον ενιαία αυθεντικοποίηση) στον τομέα NTLM (NT LAN Manager: Πρωτόκολλα ασφαλείας της Microsoft). Σημειώστε ότι αυτό απαιτεί επιπρόσθετες ρυθμίσεις στον εξυπηρετητή για να λειτουργήσει. Για περισσότερες λεπτομέρειες, δείτε <a href="https://docs.moodle.org/en/NTLM_authentication">https://docs.moodle.org/en/NTLM_authentication</a>';
 $string['auth_ntlmsso_enabled_key'] = 'Ενεργοποίηση';
 $string['auth_ntlmsso_ie_fastpath'] = 'Επιλέξτε το για να ενεργοποιήσετε τη γρήγορη διαδρομή του NTLM SSO (παρακάμπτει ορισμένα βήματα μόνο στον περιηγητή MS Internet Explorer). (NTLM =NT LAN Manager: διαχείριστής τοπικού δικτύου των Microsoft NT) (SSO=Single sign-on: μία και μόνον ενιαία αυθεντικοποίηση)';
 $string['auth_ntlmsso_ie_fastpath_attempt'] = 'Δοκιμάστε το NTLM σε όλους τους περιηγητές';
@@ -142,7 +142,7 @@ $string['pagedresultsnotsupp'] = 'Δεν υποστηρίζονται τα σε�
 $string['pagesize'] = 'Επιβεβαιώστε ότι αυτή η τιμή είναι μικρότερη από το όριο πλήθους αποτελεσμάτων του LDAP εξυπηρετητή σας (μέγιστος αριθμός καταχωρήσεων που μπορούν να επιστραφούν σε ένα ερώτημα)';
 $string['pagesize_key'] = 'Μέγεθος σελίδας';
 $string['pluginname'] = 'Εξυπηρετητής LDAP (Lightweight Directory Access Protocol)';
-$string['pluginnotenabled'] = 'Το πρόσθετο  δεν  είναι ενεργοποιημένο!';
+$string['pluginnotenabled'] = 'Πρόσθετο μη ενεργοποιημένο!';
 $string['privacy:metadata'] = 'Το πρόσθετο «Αυθεντικοποίηση LDAP» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
 $string['renamingnotallowed'] = 'Η μετονομασία χρήστη δεν επιτρέπεται στο LDAP';
 $string['rootdseerror'] = 'Σφάλμα κατά την αναζήτηση στο rootDSE για την υπηρεσία καταλόγου Active Directory';

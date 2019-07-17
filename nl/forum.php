@@ -338,15 +338,15 @@ $string['modeflatoldestfirst'] = 'Laat de antwoorden in één lijst zien, met de
 $string['modenested'] = 'Laat de antwoorden \'genest\' zien';
 $string['modethreaded'] = 'Laat de antwoorden in hun \'draden\' zien';
 $string['modulename'] = 'Forum';
-$string['modulename_help'] = 'Met de forum-acticviteitsmodule kunnen deelnemers asynchrone discurssies voeren over een lange tijdsperiode.
+$string['modulename_help'] = 'Met de activiteit Forum kunnen deelnemers asynchrone discussies voeren over een lange tijdsperiode.
 
-Er zijn verschillende forumtypes om uit te kiezen, zoals standaard forum, waarbij iedereen een nieuwe discussie kan starten, een forum waarbij elke leerling slechts één discussie kan starten, of een vraag en antwoordforum, waar leerlingen eerst moeten posten, voor ze de berichten van andere leerlingen kunnen zien. Een leraar kan toestaan om bestanden als bijlage bij een bericht te laten voegen. Als dit afbeeldingen zijn, dan worden die getoond in het bericht.
+Er zijn verschillende forumtypes om uit te kiezen, zoals standaard forum, waarbij iedereen een nieuwe discussie kan starten, een forum waarbij elke leerling slechts één discussie kan starten, of een vraag en antwoordforum, waar leerlingen eerst moeten posten, voor ze de berichten van andere leerlingen kunnen zien. Een leraar kan toestaan bestanden als bijlage bij een bericht te laten voegen. Als dit afbeeldingen zijn, worden deze getoond in het bericht.
 
-Deelnemers kunnen zich inschrijven op een forum, zodat ze meldingen krijgen van nieuwe forumberichten. Een leraar kan die inschrijvingsmodus op optioneel, verplicht of automatich zetten of het inschrijven volledig blokkeren. Indien nodig kunnen leerlingen geblokkeerd worden als ze meer dan een bepaald aantal berichten posten per tijdsperiode; dit kan verhinderen dat sommigen de discussie domineren.
+Deelnemers kunnen zich inschrijven op een forum, zodat ze meldingen krijgen van nieuwe forumberichten. Een leraar kan die inschrijvingsmodus op optioneel, verplicht of automatisch zetten of het inschrijven volledig blokkeren. Indien nodig kunnen leerlingen geblokkeerd worden als ze meer dan een bepaald aantal berichten posten per tijdsperiode; dit kan verhinderen dat sommigen de discussie domineren.
 
-Forumberichten kunnen beoordeeld worden door leraars of door leerlingen (peer-evaluatie). De beoordelingen kunnen samengeteld worden om een eindbeoordeling voor het forum te verkrijgen, die dan in de cijferlijst opgenomen wordt.
+Forumberichten kunnen beoordeeld worden door leraren of door leerlingen (peer-evaluatie). De beoordelingen kunnen samengeteld worden om een eindbeoordeling voor het forum te verkrijgen, die dan in de cijferlijst opgenomen wordt.
 
-Forums kunnen voor veel zaken gebruikt worden, zoals
+Fora kunnen voor veel zaken gebruikt worden, zoals
 
 * een sociale ruimte waar leerlingen elkaar kunnen leren kennen
 * voor cursusmededelingen (door gebruik te maken van een nieuwsforum met verplicht ontvangen van meldingen)
@@ -355,7 +355,7 @@ Forums kunnen voor veel zaken gebruikt worden, zoals
 * voor discussies tussen leraren (in een verborgen forum)
 * als helpcentrum waar leraren en leerlingen advies kunnen geven
 * als één-op-één ondersteuningszone voor een privé leraar-leerling communicatie (door een forum met groepen te gebruiken met 1 leerling per groep)
-* voor uitbreidingsoefeningen, met uitdagende denkoefeningen waar leerlingen kunnen over nadenken, discussieren en oplossingen voorstellen.';
+* voor uitbreidingsoefeningen, met uitdagende denkoefeningen waar leerlingen kunnen over nadenken, discussiëren en oplossingen voorstellen.';
 $string['modulenameplural'] = 'Forums';
 $string['more'] = 'meer';
 $string['movedmarker'] = '(Verplaatst)';

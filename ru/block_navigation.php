@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['courseactivities'] = 'категорий, курсов, разделов и элементов курсов';
+$string['courseactivities'] = 'Категории, курсы и элементы курсов';
 $string['courses'] = 'категорий и курсов';
 $string['coursestructures'] = 'категорий, курсов и разделов курсов';
 $string['enabledockdesc'] = 'Разрешить пользователям перемещать этот блок в док';

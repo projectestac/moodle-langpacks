@@ -91,4 +91,4 @@ $string['sendpaymentbutton'] = 'Envoyer un paiement avec PayPal';
 $string['status'] = 'Permettre les inscriptions PayPal';
 $string['status_desc'] = 'Permettre par défaut aux utilisateurs d\'utiliser PayPal pour s\'inscrire à un cours';
 $string['transactions'] = 'Transactions PayPal';
-$string['unenrolselfconfirm'] = 'Voulez-vous vraiment vous désinscrire du cours « {$a} »?';
+$string['unenrolselfconfirm'] = 'Voulez-vous vraiment vous désinscrire du cours « {$a} » ?';

@@ -29,7 +29,7 @@ $string['auth_shib_auth_logo'] = 'Autentifikazio-metodoaren logoa';
 $string['auth_shib_auth_logo_description'] = 'Eman zure erabiltzaileei ezaguna egingo zaien logo bat Shibboleth autentifikazio-metodoarentzat. Hau Shibboleth federeazioaren logoa izan daiteke, esaterako <tt>SWITCHaai Login</tt>, <tt>InCommon Login</tt> edo antzeko bat.';
 $string['auth_shib_auth_method'] = 'Autentifikazio-metodoaren izena';
 $string['auth_shib_auth_method_description'] = 'Eman Shibboleth autentifikazio-metodoarentzako zure erabiltzaileei ezaguna egingo zaien izen bat. Hau zure Shibboleth federazioaren izena izan daiteke, ad. <tt>SWITCHaai Login</tt>,  <tt>InCommon Login</tt> edo antzeko bat.';
-$string['auth_shibbolethdescription'] = 'Metodo honen bidez <a href="http://shibboleth.internet2.edu/">Shibboleth</a> zerbitzari batera konektatu zaitezke kontu berriak sortu eta konprobatzeko.<br />Ziurtatu ezazu Shibboleth-eko <a href="../auth/shibboleth/README.txt">IRAKUR NAZAZU</a> dokumentua irakurri duzula Moodle-n Shibboleth konfiguratzen jakiteko.';
+$string['auth_shibbolethdescription'] = 'Metodo honen bitartez erabiltzaileak Shibboleth erabilita sortu eta autentifikatzen dira. Konfigurazioaren xehetasunetarako ikusi ezazu <a href="../auth/shibboleth/README.txt">Shibboleth IRAKUR NAZAZU</a> dokumentua.';
 $string['auth_shibboleth_errormsg'] = 'Mesedez, aukera ezazu zein erakundetakoa zaren!';
 $string['auth_shibboleth_login'] = 'Shibboleth sarbidea';
 $string['auth_shibboleth_login_long'] = 'Saioa hasi Moodle-n  Shibboleth-en bidez';

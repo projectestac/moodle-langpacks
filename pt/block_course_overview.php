@@ -69,6 +69,7 @@ $string['privacy:metadata:sortorder'] = 'Definir ordem';
 $string['removefavourite'] = 'Desmarcar favorito';
 $string['reorderfullname'] = 'Nome completo da disciplina';
 $string['reorderid'] = 'ID da disciplina';
+$string['reorderiddesc'] = 'ID disciplina descendente';
 $string['reordernone'] = 'Arrastar e largar';
 $string['reordershortname'] = 'Nome curto da disciplina';
 $string['setmaxcourses'] = 'Definir o máximo de disciplinas';

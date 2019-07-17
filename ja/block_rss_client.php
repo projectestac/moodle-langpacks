@@ -47,7 +47,7 @@ $string['editfeeds'] = 'RSS/Atomニュースフィードを編集、購読また
 $string['editnewsfeeds'] = 'ニュースフィードを編集する';
 $string['editrssblock'] = 'RSSヘッドラインブロックを編集する';
 $string['enableautodiscovery'] = 'フィードのオートディスカバリを有効にしますか?';
-$string['enableautodiscovery_help'] = 'この設定を有効にした場合、ウェブページのフィードが自動的に探されます。例えばhttp://docs.moodle.orgが入力された場合、http://docs.moodle.org/en/index.php?title=Special:RecentChanges&feed=rssが見つかります。';
+$string['enableautodiscovery_help'] = 'この設定を有効にした場合、ウェブページのフィードが自動的に探されます。例えばhttps://docs.moodle.orgが入力された場合、https://docs.moodle.org/en/index.php?title=Special:RecentChanges&feed=rssが見つかります。';
 $string['failedfeed'] = 'フィードのダウンロードに失敗しました -  {$a} 後に再試行します。';
 $string['failedfeeds'] = '1つまたはそれ以上のRSSフィードが失敗しました。';
 $string['feed'] = 'フィード';

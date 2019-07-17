@@ -43,7 +43,7 @@ $string['check_indexes'] = '不明なDBインデックスを探す';
 $string['checkoraclesemantics'] = 'セマンティクスをチェックする';
 $string['check_oracle_semantics'] = '正しくない長さのセマンティクスを探す';
 $string['completelogbelow'] = '(検索結果に関する下記の完全なログをご覧ください。)';
-$string['confirmcheckbigints'] = 'この機能はあなたのMoodleサーバで<a href="http://tracker.moodle.org/browse/MDL-11038">潜在的に不正なインテジャフィールド</a>を調査しDB内のインテジャを適切に定義するためのSQL文を自動的に生成します (実行ではありません!)。
+$string['confirmcheckbigints'] = 'この機能はあなたのMoodleサーバで<a href="https://tracker.moodle.org/browse/MDL-11038">潜在的に不正なインテジャフィールド</a>を調査しDB内のインテジャを適切に定義するためのSQL文を自動的に生成します (実行ではありません!)。
 
 SQL文の生成後、あなたはSQL文をコピーして自分の好きなSQLインターフェースで安全に実行することができます (実行前にあなたのデータを忘れずにバックアップしてください)。
 
@@ -69,7 +69,7 @@ SQL文の生成後、あなたはSQL文をコピーして自分の好きなSQL�
 不明なインデックス調査を実行する前にあなたのMoodleリリースを最新のもの (+バージョン)  にバージョンアップすることを強くお勧めします。
 
 この機能はDBに対していかなる処理も実行しません (読むだけです)。ですからいつでも安全に実行することが可能です。';
-$string['confirmcheckoraclesemantics'] = 'この機能はあなたのMoodleサーバで<a href="http://tracker.moodle.org/browse/MDL-29322">BYTEセマンティクスを使用しているOracle varchar2カラム</a>を調査し代わりにCHARセマンティクスを使用するよう (cross-db互換性およびコンテンツ最大長に有利) カラムすべてを変換するためのSQL文を自動的に生成します (実行ではありません!)。
+$string['confirmcheckoraclesemantics'] = 'この機能はあなたのMoodleサーバで<a href="https://tracker.moodle.org/browse/MDL-29322">BYTEセマンティクスを使用しているOracle varchar2カラム</a>を調査し代わりにCHARセマンティクスを使用するよう (cross-db互換性およびコンテンツ最大長に有利) カラムすべてを変換するためのSQL文を自動的に生成します (実行ではありません!)。
 
 SQL文の生成後、あなたはSQL文をコピーして自分の好きなSQLインターフェースで安全に実行することができます (実行前にあなたのデータを忘れずにバックアップしてください)。
 
@@ -142,7 +142,7 @@ $string['integerincorrectlength'] = 'integerフィールドの長さが正しく
 $string['key'] = 'キー';
 $string['keynameempty'] = 'キー名を空白にすることはできません。';
 $string['keys'] = 'キー';
-$string['listreservedwords'] = '予約語一覧<br />(<a href="http://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB_reserved_words</a> を更新するため使用されます。)';
+$string['listreservedwords'] = '予約語一覧<br />(<a href="https://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB_reserved_words</a> を更新するため使用されます。)';
 $string['load'] = 'ロード';
 $string['main_view'] = 'メインビュー';
 $string['masterprimaryuniqueordernomatch'] = 'あなたの外部キーのフィールドは参照テーブルのユニークキーと同じ順番で記述する必要があります。';

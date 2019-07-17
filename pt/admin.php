@@ -143,7 +143,7 @@ $string['cliunknowoption'] = 'Opções desconhecidas: {$a}. Por favor, use a op�
 $string['cliupgradedefault'] = 'Nova configuração: {$a}';
 $string['cliupgradedefaultheading'] = 'Novos valores predefinidos da configuração';
 $string['cliupgradedefaultverbose'] = 'Nova configuração: {$a->name}, Valor predefinido: {$a->defaultsetting}';
-$string['cliupgradefinished'] = 'A atualização de {$a->oldversion} para {$a->newversion} através da linha de comandos foi realizada com sucesso.';
+$string['cliupgradefinished'] = 'A atualização da versão {$a->oldversion} para {$a->newversion}, através da linha de comandos, foi realizada com sucesso.';
 $string['cliupgradenoneed'] = 'Não é necessária nenhuma atualização para a versão {$a}. Obrigado pela sua visita!';
 $string['cliyesnoprompt'] = 'digite s (para sim) ou n (para não)';
 $string['commentsperpage'] = 'Comentários mostrados por página';
@@ -210,7 +210,7 @@ $string['configdbsessions'] = 'Se ativar esta opção, a base de dados será usa
 $string['configdebug'] = 'Se ativar esta opção, o nível de error_reporting do PHP é aumentado, fazendo com que mais avisos sejam apresentados. Isto só tem utilidade para programadores.';
 $string['configdebugdisplay'] = 'Se ativar esta opção, as mensagens de erro serão mostradas no HTML. Isto é prático, mas quebra os "HTTP Headers", "JavaScript", "cookies" e "XHTML". Se desativar esta opção, as mensagens de erro serão registadas nos registos de atividade do servidor, permitindo uma melhor análise de erros. A variável "error_log" do PHP controla para que log vai esta informação.';
 $string['configdebugpageinfo'] = 'Se ativar esta opção, será mostrada informação da página no rodapé.';
-$string['configdebugsmtp'] = 'Se ativar esta opção, serão mostradas mensagens caso ocorram erros durante o envio de mensagens de e-mail para o servidor SMTP.';
+$string['configdebugsmtp'] = 'Se ativar esta opção, serão mostradas mensagens caso ocorram erros durante o envio de mensagens de e-mail para o servidor SMTP. Para que esta configuração tenha efeito, a configuração \'Mensagens de erro\' deve ser definida como \'PROGRAMADOR\'.';
 $string['configdebugvalidators'] = 'Ative esta configuração se pretender incluir hiperligações para servidores externos de validação no rodapé da página. Pode ser necessário criar uma nova conta de utilizador com o nome de utilizador <strong>w3cvalidator</strong> e disponibilizar o acesso a visitantes. Estas configurações podem permitir acessos não autorizados ao servidor, pelo que não deve ser ativada em sites em produção!';
 $string['configdefaulthomepage'] = 'Define a página inicial para utilizadores autenticados';
 $string['configdefaultrequestcategory'] = 'As disciplinas pedidas pelos utilizadores serão colocadas automaticamente nesta categoria.';
@@ -235,10 +235,10 @@ $string['configenablecalendarexport'] = 'Ativa a possibilidade de exportação o
 $string['configenablecomments'] = 'Ativar comentários';
 $string['configenablecourserequests'] = 'Se ativar esta opção, qualquer utilizador poderá pedir a criação de uma disciplina.';
 $string['configenabledevicedetection'] = 'Ativa a deteção de dispositivos móveis, telemóveis, tablets e outros (portáteis, computadores, etc.) permitindo a aplicação de temas específicos e outras funcionalidades.';
-$string['configenablemobilewebservice'] = 'Ativa o serviço para dispositivos móveis para a Aplicação móvel Moodle oficial ou outra aplicação para dispositivos móveis que necessite desse serviço. Para mais informação consulte a página {$a}.';
+$string['configenablemobilewebservice'] = 'Ativa o serviço para dispositivos móveis para a Aplicação móvel Moodle oficial ou outra aplicação para dispositivos móveis que necessite desse serviço. Para mais informações, consulte a página {$a}.';
 $string['configenablerssfeeds'] = 'Se ativar esta opção, as listas RSS serão geradas a partir de várias funcionalidades do site (tais como blogues, fóruns, bases de dados e glossários). Note que deverá ativar as Listagens RSS nas configurações das respetivas atividades.';
-$string['configenablerssfeedsdisabled'] = 'Não está disponível porque as listas RSS estão desativadas ao nível do site. Podem ser ativadas em Administração do Site » Funcionalidades avançadas » Ativar Listas RSS.';
-$string['configenablerssfeedsdisabled2'] = 'As listas RSS estão desativados ao nível do site. Podem ser ativadas em Administração do Site » Funcionalidades avançadas » Ativar Listas RSS.';
+$string['configenablerssfeedsdisabled'] = 'Não está disponível porque as listas RSS estão desativadas ao nível do site. Podem ser ativadas em Administração do Site / Funcionalidades avançadas / Ativar Listas RSS.';
+$string['configenablerssfeedsdisabled2'] = 'As listas RSS estão desativadas ao nível do site. Podem ser ativadas em Administração do Site / Funcionalidades avançadas / Ativar Listas RSS.';
 $string['configenablesafebrowserintegration'] = 'Adicionar a opção \'Forçar Safe Exam Browser\' ao campo \'Segurança do Navegador\' na página de configurações da atividade Teste. Para mais informações, consulte a página <a href="http://www.safeexambrowser.org/" target="_blank">http://www.safeexambrowser.org/</a>';
 $string['configenablestats'] = 'Se ativar esta opção, o script cron do Moodle irá processar os registos de atividade e calcular algumas estatísticas. Dependendo do volume de tráfego do site, esta operação pode demorar muito tempo. Se ativada, poderá ver alguns gráficos e estatísticas em cada disciplina e para todo o site.';
 $string['configenabletrusttext'] = 'O Moodle efetua normalmente uma limpeza a fundo dos conteúdos enviados pelos utilizadores para eliminar scripts maliciosos, spam, etc. que possam colocar o site em risco. A ativação desta configuração permite a alguns utilizadores de confiança incluir este tipo de conteúdo sem restrições. Para ativar esta funcionalidade, depois de ativar esta opção é necessário ativar a permissão "Conteúdo fiável" num papel específico do Moodle. O texto criado ou enviado por esses utilizadores será identificado como fiável e não será submetido ao processo de limpeza.';
@@ -272,7 +272,7 @@ $string['confighiddenuserfields'] = 'Selecione quais os campos de informação d
 $string['configidnumber'] = 'Esta opção especifica se: (a) não é pedido aos utilizadores um número de ID, (b) é pedido um número de identificação (ID) aos utilizadores mas este pode ser deixado em branco, ou (c) é pedido um número de identificação (ID) aos utilizadores e este não pode ficar em branco. Se for fornecido, o número de identificação (ID) do utilizador será mostrado no seu perfil.';
 $string['configintro'] = 'Nesta página pode configurar as variáveis relacionadas com o correto funcionamento do Moodle no seu servidor. Não se preocupe muito com esta página - em geral, os valores por predefinição funcionam bem e poderá sempre voltar a esta página e mudar as configurações.';
 $string['configintroadmin'] = 'Nesta página deve configurar a sua conta de Administrador principal a qual terá um controlo absoluto de todo o site. Não se esqueça de indicar um nome de utilizador e senha seguros, bem como um endereço e-mail válido. Posteriormente poderá criar mais contas de Administrador.';
-$string['configintrosite'] = 'Nesta página pode configurar a página principal e o nome do seu site. Poderá voltar a esta página e alterar as configurações utilizando o menu de Administração do site.';
+$string['configintrosite'] = 'Nesta página pode configurar a página principal e o nome do seu site. Poderá voltar a esta página e alterar as configurações através do menu da Administração do Site.';
 $string['configiplookup'] = 'Quando clica num endereço IP (por exemplo, 34.12.222.93), designadamente na página de registos de atividade, é apresentado um mapa com a localização mais provável desse IP. Pode selecionar entre diferentes módulos para este efeito, cada um com as suas vantagens e desvantagens.';
 $string['configkeeptagnamecase'] = 'Ative esta opção para que as palavras-chave do site mantenham a mesma combinação de maiúsculas e minúsculas com que foram introduzidas pelos utilizadores que as criaram.';
 $string['configlang'] = 'Selecione o idioma predefinido a utilizar em todo o site. Os utilizadores poderão redefinir esta configuração selecionando outro idioma no menu de idiomas ou no seu perfil de utilizador.';
@@ -406,7 +406,7 @@ $string['country'] = 'País predefinido';
 $string['coursecontact'] = 'Contactos das disciplinas';
 $string['coursecontact_desc'] = 'Esta configuração define quem aparece junto da descrição das disciplinas. Os utilizadores que tenham pelo menos um destes papéis nas disciplinas aparecerão junto das descrições das mesmas.';
 $string['coursecontactduplicates'] = 'Mostrar todos os papeis de contacto da disciplina';
-$string['coursecontactduplicates_desc'] = 'Se ativar esta opção, os utilizadores com mais do que um dos papeis de contacto da disciplina selecionada serão mostrados na descrição da disciplina com cada um dos seus papeis. Caso contrário, serão mostrados com apenas um papel (o que estiver listado mais alto em \'Definir papeis\' na administração do site).';
+$string['coursecontactduplicates_desc'] = 'Se ativar esta opção, os utilizadores com mais do que um dos papeis de contacto da disciplina selecionada serão mostrados na descrição da disciplina com cada um dos seus papeis. Caso contrário, serão mostrados com apenas um papel (o que estiver listado mais alto em Administração do Site / Utilizadores / Permissões / Definir papeis).';
 $string['coursegraceperiodafter'] = 'Tempo extra para disciplinas já terminadas';
 $string['coursegraceperiodbefore'] = 'Tempo extra para disciplinas a iniciar';
 $string['courselistshortnames'] = 'Mostrar nomes extensos das disciplinas';
@@ -426,11 +426,11 @@ $string['cron'] = 'Cron';
 $string['cronclionly'] = 'Limitar execução do cron à linha de comandos';
 $string['cronerrorclionly'] = 'O acesso via Internet a esta página foi desativado pelo administrador.';
 $string['cronerrorpassword'] = 'Não indicou uma senha válida para aceder a esta página';
-$string['cron_help'] = 'O script de manutenção cron.php realiza periodicamente um conjunto de tarefas necessárias, como o envio por e-mail de novas mensagens submetidas nos fóruns. Este script deve ser executado com regularidade - idealmente a cada minuto.';
+$string['cron_help'] = 'O script de manutenção \'cron.php\' realiza periodicamente um conjunto de tarefas necessárias, tais como o envio por e-mail de novas mensagens submetidas nos fóruns. Este script deve ser executado com regularidade - idealmente a cada minuto.';
 $string['cron_link'] = 'Link para executar o script cron';
 $string['cronremotepassword'] = 'Senha do cron para acesso remoto';
-$string['cronwarning'] = 'O script de manutenção <a href="{$a}">cron.php maintenance script</a> não é executado há pelo menos 24 horas.';
-$string['cronwarningcli'] = 'O script de manutenção "cli/cron.php" não é executado há pelo menos 24 horas.';
+$string['cronwarning'] = 'O script de manutenção \'<a href="{$a}">cron.php</a>\' não é executado há pelo menos 24 horas.';
+$string['cronwarningcli'] = 'O script de manutenção \'cron.php\' não é executado há pelo menos 24 horas.';
 $string['ctyperequired'] = 'A extensão ctype PHP é requerida pelo Moodle, a fim de melhorar o desempenho do site e para oferecer compatibilidade multilingue.';
 $string['curlcache'] = 'TTL da cache do cURL';
 $string['curlrequired'] = 'A instalação da extensão cURL do PHP é obrigatória para permitir ao Moodle comunicar com os repositórios.';
@@ -676,7 +676,7 @@ $string['legacyfilesinnewcourses_help'] = 'Por predefinição, os ficheiros de r
 $string['libcurlwarning'] = 'Foi detetado que o libcurl não tem suporte para o CURLOPT_PROTOCOL. Recomenda-se a instalação atualizada do libcurl por razões de segurança.';
 $string['licensesettings'] = 'Definições da licença';
 $string['linkadmincategories'] = 'Hiperligações para as categorias admin';
-$string['linkadmincategories_help'] = 'Se ativar esta opção, as categorias de configurações da Administração do site serão exibidas como hiperligações na Navegação apontando para as páginas de configurações da categoria.';
+$string['linkadmincategories_help'] = 'Se ativar esta opção, as categorias de configurações da Administração do Site serão mostradas como hiperligações na Navegação apontando para as páginas de configurações da categoria.';
 $string['linkcoursesections'] = 'Interligar sempre as secções da disciplina';
 $string['linkcoursesections_help'] = 'Tentar sempre fornecer uma interligação entre as secções da disciplina. As secções das disciplinas são habitualmente visualizadas apenas como hiperligações caso o formato da disciplina esteja definido para apresentar apenas uma secção por página. Se ativar esta opção, será sempre disponibilizada uma hiperligação.';
 $string['loading'] = 'A carregar';
@@ -844,7 +844,7 @@ $string['notifyloginthreshold'] = 'Limite para envio de notificações por e-mai
 $string['notloggedinroleid'] = 'Papel a atribuir aos utilizadores não autenticados';
 $string['numberofmissingstrings'] = 'Numero de frases em falta: {$a}';
 $string['numberofstrings'] = 'Número total de frases: {$a->strings}<br />Em falta: {$a->missing} ({$a->missingpercent}&nbsp;%)';
-$string['oauthrefreshtokenexpired'] = 'O token de atualização para um dos serviços OAuth {$a->issuer} no seu site {$a->siteurl} expirou. Isto limitará a funcionalidade de qualquer módulo que use este serviço. Para corrigir este problema, visite a página de configuração dos Serviços OAuth 2 (Administração do Site/Servidor/Serviços OAuth 2) e clique no ícone "Ligar a uma conta do sistema" na linha da tabela correspondente a este serviço. Cada vez que autenticar-se, não se esqueça de usar a mesma conta de serviço para o sistema OAuth.';
+$string['oauthrefreshtokenexpired'] = 'O token de atualização para um dos serviços OAuth {$a->issuer} no seu site {$a->siteurl} expirou. Isto limitará a funcionalidade de qualquer módulo que use este serviço. Para corrigir este problema, visite a página de configuração dos Serviços OAuth 2 (Administração do Site / Servidor / Serviços OAuth 2) e clique no ícone "Ligar a uma conta do sistema" na linha da tabela correspondente a este serviço. Cada vez que autenticar-se, não se esqueça de usar a mesma conta de serviço para o sistema OAuth.';
 $string['oauthrefreshtokenexpiredshort'] = 'O token de atualização do OAuth {$a->issuer} no seu site {$a->siteurl} expirou.';
 $string['onlynoreply'] = 'Apenas a partir do endereço \'Não responder\'';
 $string['opcacherecommended'] = 'A cache de opcodes do PHP melhora o desempenho e reduz os requisitos de memória. A extensão OPcache é recomendada e totalmente suportada.';
@@ -882,7 +882,7 @@ $string['pathtopsqlinvalid'] = 'O caminho indicado para <strong>psql</strong> é
 $string['pathtopython'] = 'Caminho para Python';
 $string['pathtopythondesc'] = 'Caminho para o binário Python executável (Python 2 e Python 3 são aceites).';
 $string['pathtosassc'] = 'Caminho para SassC';
-$string['pathtosassc_help'] = 'Ao especificar a localização do binário SassC mudará o compilador SASS da implementação PHP do Moodle para SassC. Visite https://github.com/sass/sassc para mais informação.';
+$string['pathtosassc_help'] = 'Ao especificar a localização do binário SassC mudará o compilador SASS da implementação PHP do Moodle para SassC. Visite https://github.com/sass/sassc para mais informações.';
 $string['pcreunicodewarning'] = 'É extremamente recomendado usar a extensão PCRE PHP que é compatível como os caracteres Unicode.';
 $string['perfdebug'] = 'Informação de desempenho';
 $string['performance'] = 'Desempenho';
@@ -890,7 +890,7 @@ $string['pgcluster'] = 'Cluster PostgreSQL';
 $string['pgclusterdescription'] = 'Parâmetro versão/cluster PostgreSQL para operações através da linha de comandos. Se tiver apenas um PostgreSQL no seu sistema ou não tiver a certeza do que é isto, deixe em branco.';
 $string['phpfloatproblem'] = 'Detetado um problema inesperado na manipulação de PHP números float PHP - {$a}';
 $string['pleaserefreshregistration'] = 'O seu site está registado. Última atualização do registo: {$a}.<br />A tarefa agendada "Registo do site" mantém o registo atualizado. A qualquer momento pode atualizar manualmente o registo.';
-$string['pleaserefreshregistrationnewdata'] = 'As informações de registo foram alteradas. Confirme usando o botão "Atualizar registo".';
+$string['pleaserefreshregistrationnewdata'] = 'As informações do registo foram alteradas. Clique no botão "Atualizar registo em Moodle.net" para confirmar as alterações.';
 $string['pleaserefreshregistrationunknown'] = 'O seu site foi registado, mas a data de registo é desconhecida.
 Por favor, atualize o seu registo através do botão "Atualizar registo" ou assegure-se que a tarefa agendada "Registo do site" encontra-se ativa para que o registo seja atualizado automaticamente.';
 $string['plugin'] = 'Módulo';
@@ -1014,7 +1014,7 @@ $string['registration'] = 'Registo';
 $string['registration_help'] = 'É recomendável que registe o seu site em Moodle.net para que receba notificações e alertas de segurança, e poder aceder à nossa comunidade Moodle.';
 $string['registrationwarning'] = 'O seu site ainda não está registado.';
 $string['registrationwarningcontactadmin'] = 'Este site ainda não está registado. Informe o Administrador.';
-$string['releasenoteslink'] = 'Para mais informação sobre esta versão do Moodle, veja as <a target="_new" href="{$a}">Notas de Lançamento</a>';
+$string['releasenoteslink'] = 'Para mais informações sobre esta versão do Moodle, consulte as <a target="_blank" href="{$a}">Notas de Lançamento</a>';
 $string['rememberusername'] = 'Lembrar nome de utilizador';
 $string['rememberusername_desc'] = 'Ative esta opção, para que sejam guardados cookies permanentes com os nomes de utilizador durante a autenticação do utilizador. Os cookies permanentes podem ser considerados abusivos em termos de privacidade, se usados sem consentimento.';
 $string['reportsmanage'] = 'Gerir relatórios';
@@ -1257,7 +1257,7 @@ $string['updateavailable_version'] = 'Versão {$a}';
 $string['updatecomponent'] = 'Atualizar informação';
 $string['updateminmaturity'] = 'Maturidade exigida do código';
 $string['updateminmaturity_desc'] = 'Notificar a existência de atualizações disponíveis apenas se o código disponível tem, pelo menos, o nível de maturidade selecionado. As atualizações dos módulos que não especificam o seu nível de maturidade do código são sempre notificadas independentemente desta configuração.';
-$string['updatenotificationfooter'] = 'O seu site Moodle {$a->siteurl} está configurado para procurar automaticamente por novas atualizações. Está a receber esta mensagem por ser o administrador do site. Pode desativar as verificações automáticas de atualizações disponíveis em "Administração do Site/Servidor/Notificação de atualizações" ou pode personalizar a entrega desta mensagem através da sua página de preferências.';
+$string['updatenotificationfooter'] = 'O seu site Moodle {$a->siteurl} está configurado para procurar automaticamente por novas atualizações. Está a receber esta mensagem por ser o administrador do site. Pode desativar as verificações automáticas de atualizações disponíveis em "Administração do Site / Servidor / Notificação de atualizações" ou pode personalizar a entrega desta mensagem através da sua página de preferências.';
 $string['updatenotifications'] = 'Notificação de atualizações';
 $string['updatenotificationsubject'] = 'Há atualizações disponíveis para o seu Moodle ({$a->siteurl})';
 $string['updatenotifybuilds'] = 'Notificar sobre novas \'builds\'';
@@ -1275,25 +1275,25 @@ $string['upgradepluginsinfo_help'] = 'Existem atualizações disponíveis para a
 $string['upgradepluginsinfo_link'] = 'admin/upgradepluginsinfo';
 $string['upgradesettings'] = 'Novas configurações';
 $string['upgradesettingsintro'] = 'As configurações mostradas abaixo foram adicionadas durante a última atualização do Moodle. Modifique as que achar necessário e quando terminar clique no botão \'Guardar alterações\' no fim da página.';
-$string['upgradestalefiles'] = 'Foram detetados ficheiros de instalação inválidos, a atualização não pode continuar';
-$string['upgradestalefilesinfo'] = 'O processo de atualização do Moodle foi interrompido porque os scripts de PHP de, pelo menos, duas versões anteriores do Moodle foram detetados na diretoria do Moodle.
+$string['upgradestalefiles'] = 'Foram detetados ficheiros de instalação inválidos. A atualização não pode continuar.';
+$string['upgradestalefilesinfo'] = 'O processo de atualização do Moodle foi interrompido porque foram detetados scripts de PHP de, pelo menos, duas versões anteriores do Moodle na pasta do Moodle.
 
-Posteriormente isto pode causar problemas significativos. Assim, para prosseguir deverá certificar-se que a diretoria do Moodle contém apenas os ficheiros de uma única versão do Moodle.
+Isto podetá causar problemas significativos mais tarde. Para prosseguir deverá certificar-se que a pasta do Moodle contém apenas os ficheiros de uma única versão do Moodle.
 
-Recomenda-se o seguinte procedimento para limpar a sua diretoria do Moodle:
-* atribua um novo nome à atual diretoria do Moodle (p.ex. "moodle_antiga");
-* crie uma nova diretoria do Moodle que contenha apenas os ficheiros extraídos de um pacote-padrão do Moodle ou a partir do repositório Moodle Git;
-* mova o ficheiro original \'config.php\' e qualquer outro módulo não-padrão da diretoria "moodle_antiga" para a nova diretoria do Moodle.
+Recomenda-se o seguinte procedimento para limpar a sua pasta do Moodle:<br>
+* atribua um novo nome à pasta atual do Moodle (por exemplo: "moodle_antiga");<br>
+* crie uma nova pasta do Moodle que contenha apenas os ficheiros extraídos de um pacote predefinido do Moodle ou a partir do repositório Moodle Git;<br>
+* mova o ficheiro original \'config.php\' e qualquer outro módulo não padrão da pasta "moodle_antiga" para a nova pasta do Moodle.
 
-Quando tiver uma diretoria do Moodle limpa, recarregue esta página para retomar o processo de atualização do Moodle.
+Quando tiver uma pasta do Moodle limpa, recarregue esta página para retomar o processo de atualização do Moodle.
 
-Este aviso é frequentemente causado quando um pacote-padrão do Moodle é extraído de uma pasta comprimida (zipada) sobre uma versão anterior do Moodle. Apesar disto ser aceitável para atualizações menores, é altamente desaconselhável quando se tratam de atualizações maiores do Moodle.
+Este aviso é frequentemente causado quando um pacote predefinido do Moodle é extraído de uma pasta comprimida (zip ot tgz) na mesma pasta de uma versão anterior do Moodle. Apesar disto ser aceitável para atualizações menores, é altamente desaconselhável em atualizações maiores do Moodle.
 
-Este aviso também pode ser causado por uma saída incompleta ou por uma operação de atualização a partir do repositório Git. Neste caso, poderá ter de aguardar que a operação termine, ou talvez correr o comando adequado à limpeza e repetir a operação.
+Este aviso também pode ser causado por uma verificação incompleta ou por uma operação de atualização a partir do repositório Git. Neste caso, terá de aguardar que a operação termine, ou talvez correr o comando adequado de limpeza e repetir a operação.
 
-Poderá obter mais informação na documentação sobre atualizações em <a href="{$a}">{$a}</a>.';
+Poderá obter mais informações na documentação sobre atualizações em <a href="{$a}">{$a}</a>.';
 $string['upgradestart'] = 'Atualizar agora a base de dados do Moodle';
-$string['upgradesure'] = 'Os seus ficheiros Moodle foram alterados e está prestes a proceder à atualização do seu servidor para a nova versão:<br /><br /><strong>{$a}</strong>.<br /><br />Assim que efetuar esta operação não será possível voltar atrás.<br /><br />Note que este processo pode demorar algum tempo.<br /><br />Tem a certeza de que pretende atualizar o seu servidor para a nova versão?';
+$string['upgradesure'] = 'Os seus ficheiros Moodle foram alterados e está prestes a proceder à atualização do seu servidor para a nova versão:<br /><br /><strong>{$a}</strong>.<br /><br />Assim que efetuar esta operação não será possível voltar atrás.<br /><br />Tenha em atenção que este processo pode demorar algum tempo.<br /><br />Tem a certeza de que pretende atualizar o seu servidor para a nova versão?';
 $string['upgradetimedout'] = 'Expirou o tempo para atualização. Por favor, reinicie o processo.';
 $string['upgradingdata'] = 'A atualizar os dados';
 $string['upgradinglogs'] = 'A atualizar os registos de atividade';

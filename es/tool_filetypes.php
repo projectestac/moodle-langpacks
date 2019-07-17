@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['corestring'] = 'Cadena de idioma alternativa';
 $string['corestring_help'] = 'Esta configuración puede ser utilizada para seleccionar una cadena de idioma diferente desde el fichero idioma principal mimetypes.php. Generalmente debe ser dejado en blanco. Para tipos personalizados, utilice el campo descripción.';
 $string['deletea'] = 'Borrar {$a}';
+$string['deletefiletypes'] = 'Eliminar un tipo de archivo';
 $string['description'] = 'Descripción personalizada';
 $string['descriptiontype'] = 'Tipo de descripción';
 $string['descriptiontype_custom'] = 'Descripción personalizada especificada en este formulario';

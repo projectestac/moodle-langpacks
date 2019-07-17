@@ -99,7 +99,7 @@ $string['auth_ldap_usertypeundefined2'] = 'config.user_typeが定義されてい
 $string['auth_ldap_version'] = 'あなたのサーバが使用しているLDAPプロトコルのバージョンです。';
 $string['auth_ldap_version_key'] = 'バージョン';
 $string['auth_ntlmsso'] = 'NTLM SSO';
-$string['auth_ntlmsso_enabled'] = '「Yes」にした場合、NTLMドメインでシングルサインオンを試みます。<strong>注意:</strong> 動作させるにはウェブサーバに対して追加のセットアップが必要です。詳細は<a href="http://docs.moodle.org/en/NTLM_authentication">http://docs.moodle.org/en/NTLM_authentication</a>をご覧ください。';
+$string['auth_ntlmsso_enabled'] = '「Yes」にした場合、NTLMドメインでシングルサインオンを試みます。<strong>注意:</strong> 動作させるにはウェブサーバに対して追加のセットアップが必要です。詳細は<a href="https://docs.moodle.org/en/NTLM_authentication">https://docs.moodle.org/en/NTLM_authentication</a>をご覧ください。';
 $string['auth_ntlmsso_enabled_key'] = '有効';
 $string['auth_ntlmsso_ie_fastpath'] = 'この設定を有効にした場合、NTLM SSO高速経路 (fast path) が有効にされます (クライアントブラウザがMS Internet Explorerの場合、特定のステップをバイパスします)。';
 $string['auth_ntlmsso_ie_fastpath_attempt'] = 'すべてのブラウザでNTLMを試みます';

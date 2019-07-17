@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['browserepositories'] = 'Procurar nos repositórios...';
 $string['createlink'] = 'Criar hiperligação';
-$string['enterurl'] = 'Digitar URL';
+$string['enterurl'] = 'Digite ou cole o URL';
 $string['openinnewwindow'] = 'Abrir numa nova janela';
 $string['pluginname'] = 'Hiperligação';
 $string['privacy:metadata'] = 'O módulo atto_link não armazena nenhum dado pessoal.';

@@ -73,6 +73,9 @@ $string['stopbutton_help'] = 'Αν αυτή η ρύθμιση είναι ενε�
 Το κείμενο που εμφανίζεται στο κουμπί διακοπής μπορεί να είναι μία από τις προκαθορισμένες φράσεις από τα πακέτα γλωσσών του Moodle ή μπορεί να καθορίσει ο διδάσκων το δικό του κείμενο για το κουμπί.';
 $string['stopbutton_langpack'] = 'Από πακέτο γλώσσας';
 $string['studentfeedback'] = 'Ανάδραση φοιτητών';
+$string['subplugintype_hotpotattempt'] = 'Μορφότυπος εξόδου';
+$string['subplugintype_hotpotattempt_plural'] = 'Μορφότυποι εξόδου';
+$string['subplugintype_hotpotreport'] = 'Αναφορά';
 $string['subplugintype_hotpotreport_plural'] = 'Αναφορές';
 $string['textsourcefilename'] = 'Χρήση ονόματος αρχείου';
 $string['textsourcefilepath'] = 'Χρήση διεύθυνσης αρχείου';

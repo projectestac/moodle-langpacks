@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['accessdenied'] = 'Accès interdit';
+$string['accessdenied'] = 'Accès refusé';
 $string['accounts'] = 'Comptes';
 $string['addcategory'] = 'Ajouter une catégorie';
 $string['additionalhtml'] = 'HTML additionnel';
@@ -35,12 +35,12 @@ $string['additionalhtmlfooter_desc'] = 'Ce contenu sera ajouté à chaque page, 
 $string['additionalhtmlhead'] = 'Dans HEAD';
 $string['additionalhtmlhead_desc'] = 'Ce contenu sera ajouté à chaque page, en bas de la balise HEAD.';
 $string['additionalhtml_heading'] = 'HTML additionnel à ajouter à chaque page';
-$string['additionalhtmltopofbody'] = 'Lorsque BODY est ouvert';
+$string['additionalhtmltopofbody'] = 'Quand la balise BODY est ouverte';
 $string['additionalhtmltopofbody_desc'] = 'Ce contenu sera ajouté à chaque page, juste après l\'ouverture de la balise BODY.';
 $string['admincategory'] = 'Catégorie {$a}';
-$string['adminseesall'] = 'Les administrateurs voient tout';
+$string['adminseesall'] = 'Les administrateurs peuvent tout voir';
 $string['adminseesallevents'] = 'Les administrateurs voient tous les événements';
-$string['adminseesownevents'] = 'Les administrateurs sont comme tous les autres utilisateurs';
+$string['adminseesownevents'] = 'Les administrateurs sont considérés comme les autres utilisateurs';
 $string['advancedfeatures'] = 'Fonctions avancées';
 $string['agedigitalconsentverification'] = 'Vérification de l\'âge de majorité numérique';
 $string['agedigitalconsentverification_desc'] = 'Active la vérification de l\'âge de majorité numérique des utilisateurs avant l\'affichage de la page d\'auto-inscription. Ceci permet d\'éviter que des mineurs s\'inscrivent sur votre site sans le consentement de leur représentant légal. <a target="_blank" href="{$a}">Des informations supplémentaires</a> sont disponibles pour les mineurs nécessitant de l\'aide.';
@@ -80,7 +80,7 @@ $string['authentication'] = 'Authentification';
 $string['authpreventaccountcreation'] = 'Empêcher la création de compte lors de l\'authentification';
 $string['authpreventaccountcreation_help'] = 'Lorsqu\'un utilisateur s\'authentifie, un compte est créé automatiquement sur le site s\'il n\'existe pas encore. Si une base externe, par exemple LDAP, est utilisée pour l\'authentification et que vous désirez restreindre l\'accès à votre site aux seuls utilisateurs avec un compte existant, vous devez activer cette option. Les nouveaux comptes devront alors être créés manuellement ou importés via un fichier. Ce réglage ne s\'applique pas à l\'authentification MNet.';
 $string['authsettings'] = 'Gestion de l\'authentification';
-$string['autolang'] = 'Détection automatique de langue';
+$string['autolang'] = 'Détection automatique de la langue';
 $string['autologinguests'] = 'Connecter automatiquement les visiteurs anonymes';
 $string['availablelicenses'] = 'Licences disponibles';
 $string['availableto'] = 'Disponible pour';
@@ -123,8 +123,8 @@ $string['calendar_weekend'] = 'Jours du week-end';
 $string['cannotdeletemodfilter'] = 'Vous ne pouvez pas désinstaller « {$a->filter} », car il fait partie du module « {$a->module} ».';
 $string['cannotuninstall'] = 'Désinstallation de {$a} impossible.';
 $string['categoryemail'] = 'Courriel';
-$string['cfgwwwrootslashwarning'] = 'Le paramètre $CFG->wwwroot est défini incorrectement dans votre fichier config.php. Vous y avez placé une barre oblique « / » à la fin. Veuillez la retirer, sans quoi vous souffrirez de bogues bizarres, comme celui décrit ici : <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
-$string['cfgwwwrootwarning'] = 'Le paramètre $CFG->wwwroot est défini incorrectement dans votre fichier config.php. Il ne correspond pas à l\'URL que vous utilisez pour accéder à cette page. Veuillez le corriger, sans quoi vous souffrirez de bogues bizarres, comme celui décrit ici : <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
+$string['cfgwwwrootslashwarning'] = 'Le paramètre $CFG->wwwroot est défini incorrectement dans votre fichier config.php. Il contient une barre oblique « / » à la fin, qui doit être retirée.';
+$string['cfgwwwrootwarning'] = 'Le paramètre $CFG->wwwroot est défini incorrectement dans votre fichier config.php. Il doit correspondre à l\'URL que vous utilisez pour accéder à cette page.';
 $string['change'] = 'Changer';
 $string['checkboxno'] = 'Non';
 $string['checkboxyes'] = 'Oui';
@@ -195,7 +195,7 @@ $string['configcourserequestnotify2'] = 'Les utilisateurs qui seront avertis lor
 $string['configcoursesperpage'] = 'Saisissez le nombre de cours à afficher par page dans la liste des cours.';
 $string['configcourseswithsummarieslimit'] = 'Le nombre maximum de cours à afficher dans les listes des cours, y compris les résumés, avant de passer à une liste plus simple, sans les résumés.';
 $string['configcronclionly'] = 'Le lancement du cron par l\'intermédiaire d\'un navigateur web peut exposer des informations sensibles à des utilisateurs anonymes. Il est donc recommandé de ne lancer le cron qu\'en ligne de commande ou de définir un mot de passe pour l\'accès distant au cron.';
-$string['configcronremotepassword'] = 'Si un mot de passe est spécifié dans ce champ, le script de cron ne pourra être lancé depuis un navigateur web qu\'en fournissant ce mot de passe, suivant la syntaxe d\'URL :<pre>
+$string['configcronremotepassword'] = 'Ce paramètre signifie que le script cron.php ne pourra pas être lancé depuis un navigateur web sans indiquer le mot de passe, suivant la syntaxe d\'URL :<pre>
 http://site.exemple.fr/admin/cron.php?password=lemotdepasse
 </pre>Si le champ n\'est pas renseigné, aucun mot de passe n\'est nécessaire.';
 $string['configcurlcache'] = 'Durée de vie du cache cURL, en secondes.';
@@ -204,19 +204,18 @@ $string['configcustommenuitems'] = 'Vous pouvez définir ici un menu personnalis
 Communauté Moodle|https://moodle.org|Le site de la communauté Moodle
 -Moodle en français|https://moodle.org/course/view.php?id=20
 -Assistance gratuite Moodle|https://moodle.org/support
--Moodle Docs|http://docs.moodle.org
--Moodle Docs en français|http://docs.moodle.org/fr|Dcumentation en français|fr
+-Moodle Docs|https://docs.moodle.org
+-Moodle Docs en français|https://docs.moodle.org/fr|Dcumentation en français|fr
 --###
 -Développement de Moodle|https://moodle.org/development
--Nouveautés Moodle|http://moodle.org/news
-Entreprise Moodle|http://moodle.com/
+Entreprise Moodle|https://moodle.com/
 </pre>';
 $string['configcustomusermenuitems'] = 'Vous pouvez configurer le contenu du menu utilisateur (à l\'exception du lien de déconnexion, qui est ajouté automatiquement). Chaque ligne définit un élément de menu et comprend 3 éléments, séparés par des barres verticales (|) : 1) une chaîne de caractères de la forme « chaînedecaractèresmoodle, nomducomposant » ou un simple texte, 2) une URL, et 3) une icône, soit sous la forme d\'une icône de thème pix (dans le dossier pix avec structure [sousdossier]/[icône], p.ex. i/publish), soit sous la forme d\'une URL. Des barres de séparation peuvent être spécifiées en ajoutant à l\'endroit désiré une ligne avec un ou plusieurs #.';
 $string['configdbsessions'] = 'Si ce réglage est activé, les informations sur les sessions en cours seront enregistrées dans la base de données. Attention ! si vous changez ce réglage, tous les utilisateurs seront immédiatement déconnectés, vous y compris ! Si vous utilisez une base de données MySQL, assurez-vous que la variable « max_allowed_packet » dans <em>my.cnf</em> (ou <em>my.ini</em>) ait au moins une valeur de 4M. D\'autres pilotes de sessions peuvent être configurés directement dans le fichier config.php. Veuillez consulter le fichier config-dist.php pour plus d\'information. Ce réglage n\'est plus affiché si un tel pilote de session est configuré dans le fichier config.php.';
 $string['configdebug'] = 'Si vous activez cette option, le paramètre PHP « error_reporting » sera augmenté afin que les avertissements soient affichés. Ceci est utile essentiellement pour les développeurs.';
 $string['configdebugdisplay'] = 'Une fois ce réglage activé, les rapports d\'erreur seront affichés sur la page HTML. C\'est pratique, mais cela rend non conforme le XHTML, le JS, les cookies et les entêtes HTTP en général. Si le réglage est désactivé, les rapports sont écrits dans les journaux du serveur, permettant un meilleur débogage. Le réglage error_log de PHP contrôle dans quel fichier les rapports sont écrits.';
 $string['configdebugpageinfo'] = 'Activer cette option pour afficher des informations concernant la page dans le pied de page.';
-$string['configdebugsmtp'] = 'Activer les informations complètes de débogage de l\'envoi des messages courriel vers le serveur SMTP.';
+$string['configdebugsmtp'] = 'Activer les informations complètes de débogage de l\'envoi des messages courriel vers le serveur SMTP. Pour que ce réglage prenne effet, le réglage « Messages de débogage » doit être réglé sur « Développeur ».';
 $string['configdebugvalidators'] = 'Activer cette option si vous voulez que les liens vers des serveurs de validation soient visibles dans le pied de page. Il vous sera peut-être nécessaire de créer dans votre Moodle un nouvel utilisateur dont le nom d\'utilisateur est <em>w3cvalidator</em> et d\'activer l\'accès aux visiteurs anonymes. Ces modifications peuvent ouvrir l\'accès à votre serveur par des personnes non autorisées. Ne les activez pas sur des serveurs en production !';
 $string['configdefaulthomepage'] = 'Ce réglage permet de déterminer la page d\'accueil des utilisateurs connectés';
 $string['configdefaultrequestcategory'] = 'Les cours demandés par les utilisateurs seront automatiquement classés dans cette catégorie.';
@@ -245,7 +244,7 @@ $string['configenablemobilewebservice'] = 'Active le service mobile pour l\'appl
 $string['configenablerssfeeds'] = 'Si ce réglage est activé, des flux RSS seront générés pour diverses fonctionnalités sur tout le site, par exemple les blogs, forums, bases de données et glossaires. Il sera également nécessaire d\'activer les flux RSS pour chacun des différents modules d’activité.';
 $string['configenablerssfeedsdisabled'] = 'Non disponible, car les flux RSS ne sont pas activés pour le site. Pour les activer, voyez l\'option Paramètres techniques sous Administration -> Configuration.';
 $string['configenablerssfeedsdisabled2'] = 'Les flux RSS sont désactivés au niveau du site. Ils peuvent être activés dans les fonctions avancées de l\'administration du site.';
-$string['configenablesafebrowserintegration'] = 'Ce réglage permet d\'ajouter l\'option « Nécessite l\'utilisation de Safe Exam Browser » au champ « Sécurité du navigateur » dans les réglages des tests. Voir http://www.safeexambrowser.org/ (en anglais) pour plus d\'informations.';
+$string['configenablesafebrowserintegration'] = 'Ce réglage permet d\'ajouter l\'option « Nécessite l\'utilisation de Safe Exam Browser » au champ « Sécurité du navigateur » dans les réglages des tests. Voir https://www.safeexambrowser.org/ (en anglais) pour plus d\'informations.';
 $string['configenablestats'] = 'Si vous activez ce réglage, le cron automatique de Moodle traitera les journaux et produira quelques statistiques. Suivant la quantité de trafic sur votre site, le traitement peut prendre du temps. Les statistiques vous fourniront d\'intéressants graphiques et des statistiques sur chaque cours ou sur la totalité du site.';
 $string['configenabletrusttext'] = 'Par défaut, Moodle nettoie soigneusement tous les fichiers déposés et textes saisis par les utilisateurs, afin d\'en retirer les éventuels scripts, médias, etc. pouvant constituer une faille de sécurité. Le système « Contenu fiable » vous permet de donner à certains utilisateurs en qui vous avez confiance la capacité d\'inclure sans interférence de tels éléments dans leurs ressources. Pour faire fonctionner ce système, veuillez d\'abord l\'activer ici, puis accorder la capacité « Se fier aux contenus » à un rôle spécifique. Les textes créés ou déposés par des utilisateurs ayant ce rôle seront marqués comme fiables et ne seront alors pas nettoyés avant leur affichage.';
 $string['configenablewebservices'] = 'Les services web permettent à d\'autres systèmes de se connecter à ce Moodle et y effectuer des opérations. Pour plus de sécurité, cette fonctionnalité doit être désactivée, sauf si vous l\'utilisez réellement.';
@@ -268,7 +267,7 @@ $string['configfrontpageloggedin'] = 'Les éléments sélectionnés seront affic
 $string['configfullnamedisplay'] = 'Ce réglage définit comment les noms sont affichés en format complet. La valeur par défaut, « language », conserve le réglage défini en fonction de votre paquetage de langue (les diverses langues ont des conventions différentes).
 
 Pour la plupart des sites monolingues, le réglage le plus efficace est le réglage « Prénom Nom », mais vous pouvez choisir par exemple de cacher les noms de familles. Vous pouvez utiliser ici les variables prédéfinies suivantes : firstname, lastname, firstnamephonetic, lastnamephonetic, middlename, et alternatename.';
-$string['configgeoipfile'] = 'Emplacement du fichier binaire GeoLite2 City. Ce fichier ne fait pas partie de la distribution de Moodle. Il doit être obtenu séparément chez <a href="http://www.maxmind.com/">MaxMind</a>. Vous pouvez soit en acheter une version commerciale, soit utiliser la version gratuite. Téléchargez simplement le fichier <a href="http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz" >http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz</a> et décompressez-le dans le dossier « {$a} » sur votre serveur.';
+$string['configgeoipfile'] = 'Emplacement du fichier binaire GeoLite2 City. Ce fichier ne fait pas partie de la distribution de Moodle. Il doit être obtenu séparément chez <a href="https://www.maxmind.com/">MaxMind</a>. Vous pouvez soit en acheter une version commerciale, soit utiliser la version gratuite. Téléchargez simplement le fichier <a href="https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz" >https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz</a> et décompressez-le dans le dossier « {$a} » sur votre serveur.';
 $string['configgetremoteaddrconf'] = 'Si votre serveur est situé derrière un proxy inverse, vous pouvez utiliser ce réglage pour indiquer les entêtes HTTP dont on peut être sûr qu\'elles contiennent l\'adresse IP distante. Les entêtes sont lues dans l\'ordre indiqué, la première disponible étant utilisée.';
 $string['configgradebookroles'] = 'Ce réglage permet de configurer les rôles apparaissant dans le carnet de notes. Pour être mentionnés dans le carnet de notes d\'un cours, les utilisateurs doivent avoir au moins l\'un de ces rôles dans ce cours.';
 $string['configgradeexport'] = 'Sélectionnez les formats d\'exportation privilégiés du carnet de notes. Les sélections mettront en place et utiliseront ensuite un champ « dernière exportation » pour chaque note. Par exemple, cela permettra d\'identifier des notes exportées comme « nouvelles » ou « modifiées ». Si vous n\'êtes pas sûr à ce sujet, ne cochez rien.';
@@ -398,7 +397,7 @@ $string['configwarning'] = 'Attention ! Des valeurs inadaptées pour ces param�
 $string['configyuicomboloading'] = 'Cette option permet un chargement combiné des bibliothèques YUI pour améliorer la performance. Ce réglage devrait être activé sur des sites en production.';
 $string['confirmation'] = 'Confirmation';
 $string['confirmcontextlock'] = '{$a->contextname} n\'est actuellement pas gelé. Son gel le placera en lecture seule et empêchera les utilisateurs d\'y faire des modifications. Voulez-vous vraiment continuer ?';
-$string['confirmcontextunlock'] = '{$a->contextname} est actuellement gelé. Son dégel permettra les utilisateurs d\'y effectuer des modifications. Voulez-vous vraiment continuer ?';
+$string['confirmcontextunlock'] = '{$a->contextname} est actuellement gelé. Son dégel permettra aux utilisateurs d\'y effectuer des modifications. Voulez-vous vraiment continuer ?';
 $string['confirmdeletecomments'] = 'Voulez-vous vraiment supprimer des commentaires ?';
 $string['confirmed'] = 'Confirmé';
 $string['contextlockappliestoadmin'] = 'Le gel des contextes s\'applique aux administrateurs';
@@ -663,9 +662,9 @@ $string['ipblocked'] = 'Ce site n\'est actuellement pas accessible.';
 $string['ipblocker'] = 'Blocage IP';
 $string['ipblockersyntax'] = 'Indiquer une adresse (complète ou partielle) ou une plage d\'adresses par ligne. Des entrées valides sont soit une adresse IP complète (par exemple <b>192.168.10.1</b>), qui correspond à un seul serveur, soit une adresse IP partielle, (par exemple <b>192.168</b>), qui correspond à la plage des adresses commençant par ces nombres, ou une adresse en format CIDR (par exemple <b>231.54.211.0/20</b>), ou encore une plage d\'adresses IP (par exemple <b>231.3.56.10-20</b>) dans laquelle la plage est indiquée sur la dernière partie de l\'adresse. Les noms de domaines (comme « exemple.fr ») ne sont pas autorisés. Les lignes vide et le texte après un caractère « # » sont ignorés.';
 $string['iplookup'] = 'Recherche d\'adresse IP';
-$string['iplookupgeoplugin'] = 'Le service <a href="http://www.geoplugin.com">geoPlugin</a> est actuellement utilisé pour obtenir les informations géographiques. Pour des résultats plus précis, l\'installation d\'une copie locale de la base de données MaxMind GeoLite est recommandée.';
+$string['iplookupgeoplugin'] = 'Le service <a href="https://www.geoplugin.com">geoPlugin</a> est actuellement utilisé pour obtenir les informations géographiques. Pour des résultats plus précis, l\'installation d\'une copie locale de la base de données MaxMind GeoLite est recommandée.';
 $string['iplookupinfo'] = 'Par défaut, Moodle utilise le service en ligne gratuit NetGeo (Internet Geographic Database) pour afficher la localisation des adresses IP. Malheureusement cette base de données n\'est plus entretenue et peut fournir des résultats <em>totalement faux</em>. Il est recommandé d\'installer sur votre serveur une copie gratuite de la base de données GeoLite2 City de MaxMind.<br />La localisation des adresses IP est affichée sur une simple carte ou à l\'aide de Google Maps. Veuillez remarquer que vous aurez besoin d\'un compte Google et de demander une clef gratuite pour l\'utilisation de l\'API de Google Maps API pour activer les cartes interactives.';
-$string['iplookupmaxmindnote'] = 'Ce produit comprend les données GeoLite2 créées par MaxMind, disponibles sur <a href="http://www.maxmind.com/">http://www.maxmind.com/</a>.';
+$string['iplookupmaxmindnote'] = 'Ce produit comprend les données GeoLite2 créées par MaxMind, disponibles sur <a href="https://www.maxmind.com/">https://www.maxmind.com/</a>.';
 $string['ishttpswarning'] = 'Votre site n\'est pas sécurisé au moyen de HTTPS. Il est vivement recommandé de passer votre site en HTTPS pour une sécurité accrue et une meilleure intégration à d\'autres systèmes.';
 $string['keeptagnamecase'] = 'Conserver la casse des tags';
 $string['lang'] = 'Langue par défaut';
@@ -801,7 +800,7 @@ $string['moodlebrandedapp'] = 'App Moodle personnalisée';
 $string['moodlebrandedapp_help'] = '<p>L\'app Moodle personnalisée a toutes les fonctionnalités de notre app mobile gratuite pour Moodle, avec votre propre visuel personnalisé.</p>
 <a href="https://moodle.com/branded-app">À propos de l\'app Moodle personnalisée</a>';
 $string['moodlebrandedappreference'] = 'Autrement, obtenez une<a href="https://moodle.com/branded-app">app Moodle personnalisée</a> avec vos propres visuels.';
-$string['moodleorghubname'] = 'Moodle.net';
+$string['moodleorghubname'] = 'Moodle';
 $string['moodlepartners'] = 'Partenaires Moodle';
 $string['moodlepartners_help'] = '<p>Les Partenaires Moodle sont des fournisseurs de services certifiés par Moodle HQ pour fournir des services Moodle de qualité élevée pour l\'organisation de votre environnement d\'apprentissage Moodle.</p>
 <a href="https://moodle.com/about-partners/">À propos de nos Partenaires Moodle</a><br />
@@ -930,13 +929,13 @@ $string['profiledeletefield'] = 'Suppression du champ « {$a} »';
 $string['profiledescription'] = 'Description du champ';
 $string['profiledscript'] = 'Ce script a été profilé';
 $string['profiledscriptview'] = 'Afficher l\'information de profilage de ce script';
-$string['profileeditcategory'] = 'Modification de la catégorie&nbsp;: {$a}';
+$string['profileeditcategory'] = 'Modification de la catégorie : {$a}';
 $string['profileeditfield'] = 'Modification du champ&nbsp;: {$a}';
 $string['profilefield'] = 'Champ de profil';
 $string['profilefieldcolumns'] = 'Colonnes';
 $string['profilefieldispassword'] = 'Champ mot de passe';
 $string['profilefieldlink'] = 'Lien';
-$string['profilefieldlink_help'] = 'Pour transformer un texte en lien, tapez une URL contenant $$. Les $$ seront remplacés par le texte. Par exemple pour transformer un identifiant Twitter en lien, tapez http://twitter.com/$$.';
+$string['profilefieldlink_help'] = 'Pour transformer un texte en lien, tapez une URL contenant $$. Les $$ seront remplacés par le texte. Par exemple pour transformer un identifiant Twitter en lien, tapez https://twitter.com/$$.';
 $string['profilefieldlinktarget'] = 'Cible du lien';
 $string['profilefieldmaxlength'] = 'Longueur maximale';
 $string['profilefieldrows'] = 'Lignes';
@@ -1025,7 +1024,11 @@ $string['registermoodleorgli1'] = 'Vous êtes inscrit à une liste de diffusion 
 $string['registermoodleorgli2'] = 'Des statistiques sur votre site sont ajoutées aux {$a} de la communauté mondiale de Moodle.';
 $string['registerwithmoodleorg'] = 'Enregistrer votre site';
 $string['registration'] = 'Enregistrement';
-$string['registration_help'] = 'L\'enregistrement de votre site est recommandé, afin de recevoir les alertes de sécurité et pour accéder à Moodle.net, notre plateforme d\'échange de cours.';
+$string['registration_help'] = 'Grâce à l\'enregistrement de votre site :
+
+* vous recevrez les alertes de sécurité
+* vous pourrez activer les notifications push de l\'app mobile pour votre site
+* vous contribuez aux statistiques Moodle de la communauté internationale';
 $string['registrationwarning'] = 'Votre site n\'est pas encore enregistré.';
 $string['registrationwarningcontactadmin'] = 'Votre site n\'est pas encore enregistré. Veuillez en informer l\'administrateur de la plateforme.';
 $string['releasenoteslink'] = 'Pour des informations sur cette version de Moodle, veuillez consulter les <a target="_blank" href="{$a}">Notes de mise à jour</a> en ligne.';
@@ -1033,7 +1036,7 @@ $string['rememberusername'] = 'Se souvenir du nom d\'utilisateur';
 $string['rememberusername_desc'] = 'Activez ce réglage si vous voulez stocker de façon permanente dans un cookie le nom de l\'utilisateur, lors de la connexion. Les cookies permanent peuvent soulever des questions de protection des données personnelles, s\'ils sont utilisés sans le consentement de l\'utilisateur.';
 $string['reportsmanage'] = 'Gérer les rapports';
 $string['requestcategoryselection'] = 'Activer le choix de catégorie';
-$string['requiredentrieschanged'] = '<strong>IMPORTANT !<br />(Ce message d\'avertissement ne sera affiché que durant cette mise à jour.)</strong><br/>En raison de la correction d\'un bogue, le comportement des bases de données qui utilisent les réglages « Fiches requises » et « Fiches requises avant consultation » est modifié. Une explication détaillée des changements peut être lue dans le <a href="http://moodle.org/mod/forum/discuss.php?d=110928" target="_blank">forum dédié au module Base de données (en anglais)</a> et <a href="http://docs.moodle.org/en/Adding/editing_a_database#Required_entries" target="_blank">Moodle Docs (en anglais pour l\'instant)</a>.<br/><br/>Cette modification a un impact sur les bases de données suivantes de votre Moodle : (veuillez enregistrer cette liste maintenant et, une fois la mise à jour effectuée, vérifier que ces activités continuent de fonctionner de la façon désirée par l\'enseignant.)<br/><strong>{$a->text}</strong><br/>';
+$string['requiredentrieschanged'] = 'Information : après la mise à jour, le réglage « Fiches requises avant consultation » est imposé dans les bases de données suivantes :<br/><strong>{$a->text}</strong><br/>';
 $string['requiremodintro'] = 'Exiger une description';
 $string['requiremodintro_desc'] = 'Si cette option est activée, une description est requise pour chaque activité.';
 $string['requires'] = 'Requiert';

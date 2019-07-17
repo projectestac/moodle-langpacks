@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['notopenyet'] = 'Συγγνώμη, αυτή η δραστηριότητα δεν είναι διαθέσιμη μέχρι {$a}';
+$string['save'] = 'Αποθήκευση';
+$string['savechanges'] = 'Αποθήκευση αλλαγών';

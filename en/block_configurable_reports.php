@@ -303,6 +303,7 @@ $string['others'] = 'Others';
 $string['pagination'] = 'Pagination';
 $string['pagination_help'] = 'Number of records to show in each page. Zero means no pagination';
 $string['parentcategory'] = 'Parent category';
+$string['percent'] = 'Percentage';
 $string['permissions'] = 'Permissions';
 $string['pie'] = 'Pie';
 $string['pieareaname'] = 'Name';

@@ -200,7 +200,7 @@ $string['backuplogdetailed'] = 'Rapport détaillé des exécutions';
 $string['backuploglaststatus'] = 'Rapport de la dernière exécution';
 $string['backupmissinguserinfoperms'] = 'Remarque : cette sauvegarde ne contient aucune donnée d\'utilisateur. Les activités Exercice et Atelier ne seront pas incluses dans la sauvegarde, puisque ces modules ne sont pas compatibles avec de type de sauvegarde.';
 $string['backupnext'] = 'Prochaine sauvegarde';
-$string['backupnonisowarning'] = 'Attention ! Cette sauvegarde provient d\'une version non Unicode de Moodle (antérieure à la version 1.6). Si elle contient des textes en caractères non ISO-8859-1, ceux-ci pourront être ENDOMMAGÉS si vous la restaurez dans cette version Unicode de Moodle. Veuillez consulter la <a href="http://docs.moodle.org/fr/FAQ_de_sauvegarde">FAQ de sauvegarde</a> pour plus d\'informations sur la façon de restaurer correctement cette sauvegarde.';
+$string['backupnonisowarning'] = 'Attention ! Cette sauvegarde provient d\'une version non Unicode de Moodle (antérieure à la version 1.6). Si elle contient des textes en caractères non ISO-8859-1, ceux-ci pourront être ENDOMMAGÉS si vous la restaurez dans cette version Unicode de Moodle. Veuillez consulter la <a href="https://docs.moodle.org/fr/FAQ_de_sauvegarde">FAQ de sauvegarde</a> pour plus d\'informations sur la façon de restaurer correctement cette sauvegarde.';
 $string['backupnotyetrun'] = 'Sauvegarde automatique en attente';
 $string['backuporiginalname'] = 'Nom de la sauvegarde';
 $string['backuproleassignments'] = 'Sauvegarder les attributions de rôles pour ces rôles';
@@ -897,25 +897,24 @@ $string['general'] = 'Général';
 $string['geolocation'] = 'latitude - longitude';
 $string['gettheselogs'] = 'Consulter ces journaux';
 $string['go'] = 'Valider';
-$string['gpl'] = 'Copyright (C) 1999 et années ultérieures, Martin Dougiamas (http://moodle.com/).
+$string['gpl'] = 'Copyright (C) 1999 et années ultérieures, Martin Dougiamas (https://moodle.com/)
 
-Ce programme est libre, vous pouvez le redistribuer et/ou le modifier selon les termes de la Licence Publique Générale GNU publiée par la Free Software Foundation (version 2 ou bien toute autre version
-ultérieure choisie par vous).
+Ce programme est libre, vous pouvez le redistribuer et/ou le modifier selon les termes de la Licence Publique Générale GNU publiée par la Free Software Foundation (version 2 ou bien toute autre version ultérieure choisie par vous).
 
 Ce programme est distribué car potentiellement utile, mais SANS AUCUNE GARANTIE : sans même la garantie implicite de COMMERCIALISABILITÉ ni d’ADÉQUATION À UN OBJECTIF PARTICULIER.
 
-Pour plus de détails, reportez-vous à la page d\'information sur la Licence Moodle : http://docs.moodle.org/fr/Licence';
-$string['gpl3'] = 'Copyright (C) 1999 et années ultérieures, Martin Dougiamas (http://moodle.com/)
+Pour plus de détails, reportez-vous à la page d\'information sur la Licence Moodle : https://docs.moodle.org/fr/Licence';
+$string['gpl3'] = 'Copyright (C) 1999 et années ultérieures, Martin Dougiamas (https://moodle.com/)
 
-Ce programme est un logiciel libre ; vous pouvez le redistribuer ou le modifier suivant les termes de la “GNU General Public License” telle que publiée par la Free Software Foundation : soit la version 3 de cette licence, soit (à votre gré) toute version ultérieure.
+Ce programme est un logiciel libre ; vous pouvez le redistribuer ou le modifier suivant les termes de la GNU General Public License telle que publiée par la Free Software Foundation : soit la version 3 de cette licence, soit (à votre gré) toute version ultérieure.
 
 Ce programme est distribué dans l’espoir qu’il vous sera utile, mais SANS AUCUNE GARANTIE : sans même la garantie implicite de COMMERCIALISABILITÉ ni d’ADÉQUATION À UN OBJECTIF PARTICULIER.
 
-Pour plus de détails, reportez-vous à la page d\'information sur la Licence Moodle : http://docs.moodle.org/fr/Licence';
+Pour plus de détails, reportez-vous à la page d\'information sur la Licence Moodle : https://docs.moodle.org/fr/Licence';
 $string['gpllicense'] = 'Licence GPL';
 $string['grade'] = 'Note';
 $string['grades'] = 'Notes';
-$string['gravatarenabled'] = '<a href="http://www.gravatar.com/"> Gravatar</a> a été activé sur ce site. Si vous ne déposez pas d\'image de profil, Moodle essaiera d\'afficher pour vous un avatar à partir de Gravatar.';
+$string['gravatarenabled'] = '<a href="https://www.gravatar.com/"> Gravatar</a> a été activé sur ce site. Si vous ne déposez pas d\'image de profil, Moodle essaiera d\'afficher pour vous un avatar à partir de Gravatar.';
 $string['group'] = 'Groupe';
 $string['groupadd'] = 'Ajouter un nouveau groupe';
 $string['groupaddusers'] = 'Ajouter les utilisateurs sélectionnés au groupe';
@@ -1628,7 +1627,7 @@ $string['resetnotimplemented'] = 'Réinitialisation pas implémentée';
 $string['resetrecordexpired'] = 'Le lien de réinitialisation de mot de passe que vous avez utilisé a été généré il y a {$a} minutes et est désormais échu. Veuillez effectuer une nouvelle demande de réinitialisation de mot de passe.';
 $string['resetstartdate'] = 'Réinitialiser la date de début';
 $string['resetstatus'] = 'État';
-$string['resettable'] = 'Réinitialiser les réglages de la table';
+$string['resettable'] = 'Réinitialiser les réglages du tableau';
 $string['resettask'] = 'Tâche';
 $string['resettodefaults'] = 'Retour aux réglages par défaut';
 $string['resortcourses'] = 'Trier les cours';
@@ -1791,7 +1790,7 @@ $string['showcommentsnonjs'] = 'Afficher les commentaires';
 $string['showdescription'] = 'Afficher la description sur la page de cours';
 $string['showdescription_help'] = 'Si ce réglage est activé, la description ci-dessus sera affichée sur la page du cours, juste au-dessous du lien vers l\'activité ou la ressource.';
 $string['showgrades'] = 'Afficher le carnet de notes aux étudiants';
-$string['showgrades_help'] = 'Plusieurs activités d\'un cours peuvent être évaluées au moyen de notes. Ce réglage détermine si un étudiant peut voir une liste de toutes ses notes données dans ce cours, en cliquant sur le lien « Notes » dans le bloc d\'administration du cours.';
+$string['showgrades_help'] = 'Plusieurs activités d\'un cours peuvent être évaluées au moyen de notes. Ce réglage détermine si un étudiant peut voir une liste de toutes ses notes données dans ce cours, en cliquant sur le lien « Notes » dans le bloc ou le tiroir de navigation du cours.';
 $string['showingacourses'] = 'Affichage de tous les {$a} cours';
 $string['showingxofycourses'] = 'Affichage des cours {$a->start} à {$a->end} sur un total de {$a->total} cours';
 $string['showlistofcourses'] = 'Afficher la liste des cours';
@@ -1827,7 +1826,7 @@ $string['sitepartlist0'] = 'Vous devez être enseignant du site pour voir la lis
 $string['sitepartlist1'] = 'Vous devez être enseignant pour voir la liste des participants';
 $string['sites'] = 'Sites';
 $string['sitesection'] = 'Inclure une section descriptive';
-$string['sitesettings'] = 'Page d\'accueil';
+$string['sitesettings'] = 'Administration du site';
 $string['siteteachers'] = 'Enseignants de la page d\'accueil';
 $string['size'] = 'Taille';
 $string['sizeb'] = 'octets';

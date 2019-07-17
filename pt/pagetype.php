@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['page-admin-current'] = 'A página atual de administração do Site';
+$string['page-admin-current'] = 'A página atual da Administração do Site';
 $string['page-admin-x'] = 'Qualquer página de administração';
 $string['page-course-index'] = 'Página de visualização da categoria de topo';
 $string['page-course-index-category'] = 'Página de visualização da categoria atual';

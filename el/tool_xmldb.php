@@ -138,7 +138,7 @@ $string['integerincorrectlength'] = 'Λάθος μήκος για πεδίο α�
 $string['key'] = 'Κλειδί';
 $string['keynameempty'] = 'Το όνομα του κλειδιού δεν μπορεί να είναι κενό';
 $string['keys'] = 'Κλειδιά';
-$string['listreservedwords'] = 'Λίστα Δεσμευμένων λέξεων <br />(χρησιμοποιείται για ενημέρωση των <a href="http://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB_reserved_words</a>)';
+$string['listreservedwords'] = 'Λίστα δεσμευμένων λέξεων <br />(χρησιμοποιείται για ενημέρωση των <a href="http://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">δεσμευμένων λέξεων XMLDB</a>)';
 $string['load'] = 'Φόρτωση';
 $string['main_view'] = 'Κύρια προβολή';
 $string['masterprimaryuniqueordernomatch'] = 'Τα πεδία του ξένου κλειδιού (foreign key) σας πρέπει να παρατίθενται με την ίδια σειρά που παρατίθενται στο UNIQUE KEY (μοναδικό κλειδί) στον πίνακα αναφοράς.';

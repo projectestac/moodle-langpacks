@@ -47,7 +47,7 @@ $string['editfeeds'] = 'Modifier, s\'abonner ou se désabonner d\'un flux RSS/At
 $string['editnewsfeeds'] = 'Modifier les flux RSS';
 $string['editrssblock'] = 'Modifier le bloc manchette RSS';
 $string['enableautodiscovery'] = 'Activer la découverte automatique de flux ?';
-$string['enableautodiscovery_help'] = 'L\'activation de cette option permet à Moodle d\'essayer de découvrir automatiquement un flux RSS sur une page web. Par exemple, si l\'on saisit http://docs.moodle.org/fr, Moodle découvrira automatiquement le lien http://docs.moodle.org/fr/index.php?title=Special:RecentChanges&feed=rss.';
+$string['enableautodiscovery_help'] = 'Si ce réglage est activé, les flux RSS des pages web sont découverts automatiquement. Par exemple, si l\'on saisit https://docs.moodle.org/fr, Moodle découvrira automatiquement le lien https://docs.moodle.org/fr/index.php?title=Special:RecentChanges&feed=rss.';
 $string['failedfeed'] = 'Échec du téléchargement du flux. Nouvelle tentative après le {$a}';
 $string['failedfeeds'] = 'Un ou plusieurs flux RSS ont échoué';
 $string['feed'] = 'Flux RSS';

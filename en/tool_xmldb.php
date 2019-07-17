@@ -43,7 +43,7 @@ $string['check_indexes'] = 'Look for missing DB indexes';
 $string['checkoraclesemantics'] = 'Check semantics';
 $string['check_oracle_semantics'] = 'Look for incorrect length semantics';
 $string['completelogbelow'] = '(see the complete log of the search below)';
-$string['confirmcheckbigints'] = 'This functionality will search for <a href="http://tracker.moodle.org/browse/MDL-11038">potential wrong integer fields</a> in your Moodle server, generating (but not executing!) automatically the needed SQL statements to have all the integers in your DB properly defined.
+$string['confirmcheckbigints'] = 'This functionality will search for <a href="https://tracker.moodle.org/browse/MDL-11038">potential wrong integer fields</a> in your Moodle server, generating (but not executing!) automatically the needed SQL statements to have all the integers in your DB properly defined.
 
 Once generated you can copy such statements and execute them safely with your favourite SQL interface (don\'t forget to backup your data before doing that).
 
@@ -69,7 +69,7 @@ Once generated you can copy such statements and execute them safely with your fa
 It\'s highly recommended to be running the latest (+ version) available of your Moodle release before executing the search of missing indexes.
 
 This functionality doesn\'t perform any action against the DB (just reads from it), so can be safely executed at any moment.';
-$string['confirmcheckoraclesemantics'] = 'This functionality will search for <a href="http://tracker.moodle.org/browse/MDL-29322">Oracle varchar2 columns using BYTE semantics</a> in your Moodle server, generating (but not executing!) automatically the needed SQL statements to have all the columns converted to use CHAR semantics instead (better for cross-db compatibility and increased contents max. length).
+$string['confirmcheckoraclesemantics'] = 'This functionality will search for <a href="https://tracker.moodle.org/browse/MDL-29322">Oracle varchar2 columns using BYTE semantics</a> in your Moodle server, generating (but not executing!) automatically the needed SQL statements to have all the columns converted to use CHAR semantics instead (better for cross-db compatibility and increased contents max. length).
 
 Once generated you can copy such statements and execute them safely with your favourite SQL interface (don\'t forget to backup your data before doing that).
 
@@ -142,7 +142,7 @@ $string['integerincorrectlength'] = 'Incorrect length for integer field';
 $string['key'] = 'Key';
 $string['keynameempty'] = 'The key name cannot be empty';
 $string['keys'] = 'Keys';
-$string['listreservedwords'] = 'List of Reserved Words<br />(used to keep <a href="http://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB_reserved_words</a> updated)';
+$string['listreservedwords'] = 'List of reserved words<br />(used to keep <a href="https://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB reserved words</a> updated)';
 $string['load'] = 'Load';
 $string['main_view'] = 'Main view';
 $string['masterprimaryuniqueordernomatch'] = 'The fields in your foreign key must be listed in the same order as they are listed in the UNIQUE KEY on the referenced table.';

@@ -31,7 +31,7 @@ $string['cachelimit_info'] = 'Indiquez la taille maximale des fichiers (en octet
 $string['configplugin'] = 'Configuration Dropbox';
 $string['dropbox'] = 'Dropbox';
 $string['dropbox:view'] = 'Consulter un dépôt Dropbox';
-$string['instruction'] = 'Vous pouvez obtenir votre clef API et votre secret sur <a href="http://www.dropbox.com/developers/apps">Dropbox developers</a>. Indiquer « Full Dropbox » dans les réglages lors de la configuration de la clef.';
+$string['instruction'] = 'Vous pouvez obtenir votre clef API et votre secret sur <a href="https://www.dropbox.com/developers/apps">Dropbox developers</a>. Indiquer « Full Dropbox » dans les réglages lors de la configuration de la clef.';
 $string['logoutdesc'] = '(Déconnexion après avoir utilisé Dropbox)';
 $string['notitle'] = 'sans titre';
 $string['oauth2redirecturi'] = 'URI de redirection OAuth 2';

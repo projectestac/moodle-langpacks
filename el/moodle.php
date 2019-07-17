@@ -203,7 +203,7 @@ $string['backupnext'] = 'Επόμενο αντίγραφο ασφαλείας';
 $string['backupnonisowarning'] = 'Προειδοποίηση: Αυτό το αντίγραφο ασφαλείας προέρχεται από μία έκδοση του Moodle η οποία δεν υποστηρίζει Unicode. Αν αυτό το αντίγραφο ασφαλείας περιέχει κείμενο διαφορετικής κωδικοποίησης από το πρότυπο ISO-8859-1 τότε μπορεί να καταστεί ΚΑΤΕΣΤΡΑΜΕΝΟ αν προσπαθήσετε να το επαναφέρετε σε αυτή την έκδοση Unicode του Moodle. Δείτε τις <a href="http://docs.moodle.org/en/Backup_FAQ">Συχνές ερωτήσεις για τα Εφεδρικά αντίγραφα ασφαλείας</a> για περισσότερες πληροφορίες για σωστή επαναφορά αυτού του αντιγράφου ασφαλείας.';
 $string['backupnotyetrun'] = 'Το αυτοματοποιημένο αντίγραφο ασφαλείας αναμένει';
 $string['backuporiginalname'] = 'Όνομα αντιγράφου ασφαλείας';
-$string['backuproleassignments'] = 'Δημιουργία αντιγράφων ασφαλείας των αναθέσεων ρόλων γι\' αυτούς τους ρόλους';
+$string['backuproleassignments'] = 'Δημιουργία αντιγράφων ασφαλείας των αναθέσεων ρόλων για αυτούς τους ρόλους';
 $string['backupsavetohelp'] = 'Η πλήρης διαδρομή του φακέλου στον οποίο θέλετε να αποθηκεύσετε το αντίγραφο ασφαλείας.
 <br /> (Προεπιλογή: ο φάκελος μαθήματος)';
 $string['backupsitefileshelp'] = 'Εάν ενεργοποιηθεί, τότε τα αρχεία του ιστοτόπου που χρησιμοποιούνται σε μαθήματα θα συμπεριληφθούν στα αυτόματα αντίγραφα ασφαλείας';
@@ -228,7 +228,7 @@ $string['bycourseorder'] = 'Ταξινόμηση κατά μάθημα';
 $string['byname'] = 'κατά {$a}';
 $string['bypassed'] = 'Προσπεράστηκαν';
 $string['cachecontrols'] = 'Χειριστήρια κρυφής μνήμης';
-$string['cancel'] = 'Ακύρωση';
+$string['cancel'] = 'Άκυρο';
 $string['cancelled'] = 'Ακυρώθηκε';
 $string['categories'] = 'Κατηγορίες μαθημάτων';
 $string['categoriesandcourses'] = 'Κατηγορίες μαθημάτων και μαθήματα';
@@ -751,7 +751,7 @@ $string['executeat'] = 'Εκτέλεση στις';
 $string['existing'] = 'Υπάρχει';
 $string['existingadmins'] = 'Υπάρχοντες διαχειριστές';
 $string['existingcourse'] = 'Υφιστάμενο μάθημα';
-$string['existingcourseadding'] = 'Υπάρχον μάθημα, προσθήκη δεδομένων σ\' αυτό';
+$string['existingcourseadding'] = 'Υπάρχον μάθημα, προσθήκη δεδομένων σε αυτό';
 $string['existingcoursedeleting'] = 'Υπάρχον μάθημα, διαγραφή του πρώτα';
 $string['existingcreators'] = 'Υπάρχοντες δημιουργοί μαθημάτων';
 $string['existingstudents'] = 'Εγγεγραμμένοι μαθητές';
@@ -843,7 +843,7 @@ $string['general'] = 'Γενικά';
 $string['geolocation'] = 'γεωγραφικό πλάτος - μήκος';
 $string['gettheselogs'] = 'Φέρτε αυτές τις καταγραφές';
 $string['go'] = 'Μεταβείτε';
-$string['gpl'] = 'Copyright (C) 2001-2002  Martin Dougiamas  (http://dougiamas.com)
+$string['gpl'] = 'Πνευματικά Δικαιώματα (C) 2001-2002  Martin Dougiamas  (http://dougiamas.com)
 <br/><br/>
 Αυτό το πρόγραμμα είναι δωρεάν λογισμικό; μπορείτε να το αναδιανείμετε και/ή να το τροποποιήσετε υπό τους όρους της άδειας GNU General Public Licence όπως δημοσιεύεται στο Free Software Foundation, είτε στην έκδοση 2 της Άδειας ή (κατά δική σας επιλογή) μιας επόμενης έκδοσης.
 <br/><br/>
@@ -851,7 +851,7 @@ $string['gpl'] = 'Copyright (C) 2001-2002  Martin Dougiamas  (http://dougiamas.c
 ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ ή ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ.
 <br/><br/>
 Δείτε τη σελίδα πληροφοριών Άδειας Moodle για περισσότερες λεπτομέρειες: http://docs.moodle.org/dev/License';
-$string['gpl3'] = 'Copyright (C) 1999 Martin Dougiamas (http://dougiamas.com)
+$string['gpl3'] = 'Πνευματικά Δικαιώματα (C) 1999 Martin Dougiamas (http://dougiamas.com)
 <br/><br/>
  Αυτό το πρόγραμμα είναι δωρεάν λογισμικό; μπορείτε να το αναδιανείμετε και/ή να το τροποποιήσετε υπό τους όρους της άδειας GNU General Public License όπως δημοσιεύεται στο Free Software Foundation, είτε στην έκδοση 3 της Άδειας ή (κατά δική σας επιλογή) μιας επόμενης έκδοσης.
 <br/><br/>
@@ -1208,7 +1208,7 @@ $string['movecoursesection'] = 'Μετακίνηση τμήματος';
 $string['movecourseto'] = 'Μετακίνηση μαθήματος σε:';
 $string['movedown'] = 'Μετακίνηση κάτω';
 $string['movefilestohere'] = 'Μετακίνηση των αρχείων εδώ';
-$string['movefull'] = 'Μετακίνηση {$a} σ\' αυτή την τοποθεσία';
+$string['movefull'] = 'Μετακίνηση {$a} σε αυτή την τοποθεσία';
 $string['movehere'] = 'Μετακίνηση εδώ';
 $string['moveleft'] = 'Μετακίνηση αριστερά';
 $string['moveright'] = 'Μετακίνηση δεξιά';

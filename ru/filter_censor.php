@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['badwords'] = 'shit,fucked,fucker,fuck,dickhead,dick,cockhead,cock,cunt,asshole,arsehole,prick,bitch,jism,whore,slut,wanker,wank,bastard,dildo,masturbate,orgasm,penis,nigger,pussy,vagina';
 $string['filtername'] = 'Цензура';
+$string['privacy:metadata'] = 'Плагин цензуры Word не хранит никаких личных данных.';

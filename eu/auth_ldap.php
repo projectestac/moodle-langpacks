@@ -99,7 +99,7 @@ $string['auth_ldap_usertypeundefined2'] = 'config.user_type ez dago definituta e
 $string['auth_ldap_version'] = 'Zure zerbitzariak erabiltzen duen LDAP protokoloaren bertsioa.';
 $string['auth_ldap_version_key'] = 'Bertsioa';
 $string['auth_ntlmsso'] = 'NTLM SSO';
-$string['auth_ntlmsso_enabled'] = 'Bai ezarri Single Sign On NTLM domeinuan saiatzeko. <strong>Oharra:</strong> bestelako ezarpen behar du web zerbitzarian funtzionatzeko, begiratu <a href="http://docs.moodle.org/en/NTLM_authentication">http://docs.moodle.org/en/NTLM_authentication</a>';
+$string['auth_ntlmsso_enabled'] = 'Bai aukeratu NTLM domeinuan Single Sign On egiten saiatzeko. Kontuan izan ezarpen honek funtzionatzeko bestelako ezarpenak behar dituela web zerbitzarian. Xehetasun gehiagorako ikusi dokumentazioa: <a href="https://docs.moodle.org/en/NTLM_authentication">https://docs.moodle.org/en/NTLM_authentication</a>.';
 $string['auth_ntlmsso_enabled_key'] = 'Gaitu';
 $string['auth_ntlmsso_ie_fastpath'] = 'Markatu NTLM SSO sarbide azkarra gaitzeko (hainbat pausu aurreratzen ditu erabiltzailearen nabigatzailea MS Internet Explorer bada).';
 $string['auth_ntlmsso_ie_fastpath_attempt'] = 'Saiatu NTLM nabigatzaile guztiekin';
@@ -136,7 +136,7 @@ $string['ntlmsso_attempting'] = 'Single Sign On saiatzen NTLM bidez...';
 $string['ntlmsso_failed'] = 'Saio-hasiera automatikoak huts egin du, saiatu sarbide-orri arrunta...';
 $string['ntlmsso_isdisabled'] = 'NTLM SSO desgaituta dago.';
 $string['ntlmsso_unknowntype'] = 'ntlmsso mota ezezaguna!';
-$string['pagedresultsnotsupp'] = 'LDAPeko orrikako emaitzak ez dira onartzen (zure PHP bertsioak onartzen ez dituelako, Moodle LDAP protokoloaren 2 bertsioa erabiltzeko konfiguratu duzulako edo Moodle-k ezin duelako LDAP zerbitzariarekin kontaktatu orrikako emaitzak onartzen dituen egiaztatzeko.';
+$string['pagedresultsnotsupp'] = 'LDAPeko orrikako emaitzak ez dira onartzen (zure PHP bertsioak onartzen ez dituelako, Moodle LDAP protokoloaren 2 bertsioa erabiltzeko konfiguratu duzulako edo Moodle-k ezin duelako LDAP zerbitzariarekin kontaktatu orrikako emaitzak onartzen dituen egiaztatzeko).';
 $string['pagesize'] = 'Ziurtatu ezazu balio hau zure LDAP zerbitzariren emaitza-sortaren gehienezko tamaina (query bakar batek bueltatu dezakeen gehienezko erregistro kopurua) baino txikiagoa dela';
 $string['pagesize_key'] = 'Orriaren tamaina';
 $string['pluginname'] = 'LDAP zerbitzaria';

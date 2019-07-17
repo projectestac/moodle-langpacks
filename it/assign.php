@@ -40,7 +40,7 @@ $string['allocatedmarker_help'] = 'Valutatore assegnato a questa consegna';
 $string['allowsubmissions'] = 'Consenti all\'utente di continuare a consegnare il compito';
 $string['allowsubmissionsanddescriptionfromdatesummary'] = 'I dettagli del compito ed il form di consegna saranno disponibili a partire dal <strong>{$a}</strong>';
 $string['allowsubmissionsfromdate'] = 'Inizio consegne';
-$string['allowsubmissionsfromdate_help'] = 'Impedisce agli studenti di consegnare il compito prima della data di inizio consegne';
+$string['allowsubmissionsfromdate_help'] = 'Impedisce agli studenti di consegnare il compito prima della data di inizio consegne.';
 $string['allowsubmissionsfromdatesummary'] = 'Questo compito accetta consegne a partire dal <strong>{$a}</strong>';
 $string['allowsubmissionsshort'] = 'Consenti di modificare le consegne';
 $string['alwaysshowdescription'] = 'Visualizza la descrizione';
@@ -464,15 +464,15 @@ $string['submissioncopiedtext'] = 'Hai copiato la tua consegna precedente del co
 Per visualizzare lo stato della tua consegna:
 
 {$a->url}';
-$string['submissiondrafts'] = 'Gli studenti devono premere il pulsante consegna';
-$string['submissiondrafts_help'] = 'L\'impostazione obbliga gli studenti a premere il pulsante consegna per confermare che la consegna del  proprio compito è definitiva. In questo modo gli studenti possono mantenere il compito in bozza prima di consegnarlo definitivamente. Cambiare l\'impostazione da "No" a "Si" dopo la consegna degli studenti  renderà definitive le consegne già effettuate.';
+$string['submissiondrafts'] = 'Gli studenti devono premere il pulsante di consegna';
+$string['submissiondrafts_help'] = 'L\'impostazione obbliga gli studenti a premere il pulsante di consegna per confermare che la consegna del  proprio compito è definitiva. In questo modo gli studenti possono mantenere il compito in bozza prima di consegnarlo definitivamente. Cambiare l\'impostazione da "No" a "Si" dopo la consegna degli studenti  renderà definitive le consegne già effettuate.';
 $string['submissioneditable'] = 'Lo studente può modificare la consegna';
 $string['submissionempty'] = 'Non sono presenti consegne';
 $string['submissionlog'] = 'Studente: {$a->fullname}, Stato: {$a->status}';
 $string['submissionmodified'] = 'Sono già presenti consegne. Per favore abbandona la pagina e riprova.';
 $string['submissionmodifiedgroup'] = 'La consegna è stata modificata da altri. Per favore abbandona la pagina e riprova.';
 $string['submissionnotcopiedinvalidstatus'] = 'La consegna non è stata copiata poiché è stata modificata da quando è stato riaperto il tentativo.';
-$string['submissionnoteditable'] = 'Gli studenti non possono modificare questa consegna';
+$string['submissionnoteditable'] = 'Gli studenti non possono modificare la consegna';
 $string['submissionnotready'] = 'Questo compito non è pronto per la consegna:';
 $string['submissionplugins'] = 'Plugin consegna';
 $string['submissionreceipthtml'] = '<p>Hai effettuato una consegna per il compito \'<i>{$a->assignment}</i>\'.</p>
@@ -531,7 +531,7 @@ $string['teamname'] = 'Gruppo: {$a}';
 $string['teamsubmission'] = 'Consegna di gruppo';
 $string['teamsubmissiongroupingid'] = 'Raggruppamento';
 $string['teamsubmissiongroupingid_help'] = 'Il raggruppamento da utilizzare per circoscrivere i gruppi di studenti. Se non impostato, verranno utilizzati i gruppi disponibili.';
-$string['teamsubmission_help'] = 'Consente la suddivisone degli studenti in gruppi secondo i gruppi disponibili oppure in base ad un raggruppamento definito. Una consegna di gruppo sarà condivisa tra tutti gli appartenenti al gruppo e ciascuno membro potrà visualizzare le modifiche apportate alla consegna dagli altri membri del gruppo.';
+$string['teamsubmission_help'] = 'Consente la suddivisone degli studenti in gruppi secondo i gruppi disponibili oppure in base ad un raggruppamento personalizzato. Una consegna di gruppo sarà condivisa tra tutti gli appartenenti al gruppo e ciascuno membro potrà visualizzare le modifiche apportate alla consegna dagli altri membri del gruppo.';
 $string['textinstructions'] = 'Istruzioni del compito';
 $string['timemodified'] = 'Ultima modifica';
 $string['timeremaining'] = 'Tempo rimasto';
@@ -541,7 +541,7 @@ $string['ungroupedusers'] = 'L\'impostazione \'Consegna di gruppo obbligatoria\'
 $string['unlimitedattempts'] = 'Illimitati';
 $string['unlimitedattemptsallowed'] = 'Consentiti tentativi illimitati.';
 $string['unlimitedpages'] = 'Senza limite';
-$string['unlocksubmissionforstudent'] = 'Sblocca consegna per lo studente (id={$a->id}, fullname={$a->fullname}).';
+$string['unlocksubmissionforstudent'] = 'Consenti consegna dello studente (id={$a->id}, fullname={$a->fullname}).';
 $string['unlocksubmissions'] = 'Sblocca consegne';
 $string['unsavedchanges'] = 'Ci sono modifiche non salvate';
 $string['unsavedchangesquestion'] = 'Ci sono modifiche ai feedback alle valutazioni che non sono stati salvati. Vuoi salvare prima di continuare?';
@@ -565,7 +565,7 @@ $string['viewfull'] = 'Visualizza tutto';
 $string['viewfullgradingpage'] = 'Apri la pagina della valutazione per rilasciare commenti';
 $string['viewgradebook'] = 'Visualizza registro valutatore';
 $string['viewgrading'] = 'Visualizza tutte le consegne';
-$string['viewgradingformforstudent'] = 'Visualizza pagina di valutazione per lo studente (id={$a->id}, fullname={$a->fullname}).';
+$string['viewgradingformforstudent'] = 'Visualizza pagina di valutazione dello studente (id={$a->id}, fullname={$a->fullname}).';
 $string['viewownsubmissionform'] = 'Visualizza la propria pagina di consegna';
 $string['viewownsubmissionstatus'] = 'Visualizza la propria pagina di stato della consegna';
 $string['viewrevealidentitiesconfirm'] = 'Visualizza pagina di conferma per rivelare l\'identità degli studenti';

@@ -109,7 +109,7 @@ $string['instancedeleted'] = 'O portefólio foi apagado';
 $string['instanceismisconfigured'] = 'Esta instância de Portefólio não foi considerada devido a erros de configuração. Mensagem de erro: {$a}';
 $string['instancenotdelete'] = 'Erro ao apagar o portefólio';
 $string['instancenotsaved'] = 'Erro ao guardar o portefólio';
-$string['instancesaved'] = 'O portefólio foi gravado com sucesso';
+$string['instancesaved'] = 'O portefólio foi guardado com sucesso';
 $string['intro'] = 'Os conteúdos que criou, tais como submissões de trabalhos, tópicos de discussão e publicações em blogues, podem ser exportados para um portfólio ou descarregados.<br>
 Poderá esconder qualquer portfólio que não deseje utilizar, desta forma o mesmo não será listado como uma opção para exportar os conteúdos.';
 $string['invalidaddformat'] = 'O formato de adição passado a portfolio_add_button é inválido. O valor "{$a}" deve ser um de PORTFOLIO_ADD_XXX';

@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['add'] = 'Añadir';
 $string['addsubtitlestrack'] = 'Añadir pista de subtítulo';
 $string['addtrack'] = 'Añadir pista';
-$string['advancedsettings'] = 'Opciones avanzadas';
+$string['advancedsettings'] = 'Ajustes avanzados';
 $string['autoplay'] = 'Reproducir automáticamente';
 $string['browserepositories'] = 'Examinar repositorios...';
 $string['chapters'] = 'Capítulos';

@@ -69,6 +69,7 @@ $string['privacy:metadata:sortorder'] = 'Sorteervolgorde';
 $string['removefavourite'] = 'Favoriet verwijderen';
 $string['reorderfullname'] = 'Volledige naam van cursus';
 $string['reorderid'] = 'Cursus id';
+$string['reorderiddesc'] = 'Cursus-ID aflopend';
 $string['reordernone'] = 'Volgorde slepen en neerzetten';
 $string['reordershortname'] = 'Korte naam van cursus';
 $string['setmaxcourses'] = 'Stel maximale cursussen in';

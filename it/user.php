@@ -117,6 +117,7 @@ $string['privacy:metadata:usertablesummary'] = 'Questa tabella memorizza i dati 
 $string['privacy:metadata:uuid'] = 'UUID del dispositivo.';
 $string['privacy:metadata:version'] = 'Versione del dispositivo (6.1.2, 4.2.2, ecc)';
 $string['privacy:metadata:yahoo'] = 'Identificativo Yahoo dell\'utente.';
+$string['privacy:passwordhistorypath'] = 'Storico password';
 $string['privacy:passwordresetpath'] = 'Reimpostazioni password';
 $string['privacy:privatefilespath'] = 'File privati';
 $string['privacy:profileimagespath'] = 'Immagini del profilo';

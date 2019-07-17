@@ -43,7 +43,7 @@ $string['check_indexes'] = 'Bilatu falta diren datu-baseko indizeak';
 $string['checkoraclesemantics'] = 'Egiaztatu semantika';
 $string['check_oracle_semantics'] = 'Bilatu luzera ezegokiko semantika';
 $string['completelogbelow'] = '(ikusi behean bilaketaren erregistro osoa)';
-$string['confirmcheckbigints'] = 'Funtzionalitate honek <a href="http://tracker.moodle.org/browse/MDL-11038">zenbaki oso ezegokiak izan ditzaketen eremuak</a> bilatuko ditu zure Moodle zerbitzarian, eta sortuko ditu (exekutatu gabe!) zenbaki osoak zure datu-basean modu egokian definituta izateko beharrezkoak diren SQL komandoak.
+$string['confirmcheckbigints'] = 'Funtzionalitate honek <a href="https://tracker.moodle.org/browse/MDL-11038">zenbaki oso ezegokiak izan ditzaketen eremuak</a> bilatuko ditu zure Moodle zerbitzarian, eta sortuko ditu (exekutatu gabe!) zenbaki osoak zure datu-basean modu egokian definituta izateko beharrezkoak diren SQL komandoak.
 
 Behin komando horiek sortuta zure SQL interfaze gogokoenean kopiatu eta modu seguruan exekuta ditzakezu (ez ahaztu hori egin aurretik zure datuen segurtasun-kopia bat egitea).
 
@@ -69,7 +69,7 @@ Behin komando horiek sortuta zure SQL interfaze gogokoenean kopiatu eta modu seg
 Irmoki gomendatzen da eskuragarri dagoen zure Moodle bertsioaren azken kaleratzea instalatuta izatea falta diren indizeak bilatu baino lehen.
 
 Funtzionalitate honek ez du datu-basean inolako ekintzarik egiten (bertatik irakurri baino ez), eta beraz arazorik gabe edozein unetan exekuta daiteke.';
-$string['confirmcheckoraclesemantics'] = 'Funtzionalitate honek <a href="http://tracker.moodle.org/browse/MDL-29322">BYTE semantika erabiltzen duten Oracle varchar2 zutabeak</a> bilatuko ditu zure Moodle zerbitzarian, eta sortuko ditu (exekutatu gabe!) zutabe guztiek horren ordez CHAR semantika (datu-baseen arteko bateragarritasunerako hobea eta edukien gehienezko luzera handitzen duena) erabil dezaten beharrezkoak diren SQL komandoak.
+$string['confirmcheckoraclesemantics'] = 'Funtzionalitate honek <a href="https://tracker.moodle.org/browse/MDL-29322">BYTE semantika erabiltzen duten Oracle varchar2 zutabeak</a> bilatuko ditu zure Moodle zerbitzarian, eta sortuko ditu (exekutatu gabe!) zutabe guztiek horren ordez CHAR semantika (datu-baseen arteko bateragarritasunerako hobea eta edukien gehienezko luzera handitzen duena) erabil dezaten beharrezkoak diren SQL komandoak.
 
 Behin komando horiek sortuta zure SQL interfaze gogokoenean kopiatu eta modu seguruan exekuta ditzakezu (ez ahaztu hori egin aurretik zure datuen segurtasun-kopia bat egitea).
 
@@ -142,7 +142,7 @@ $string['integerincorrectlength'] = 'Integer eremuaren luzera ezegokia';
 $string['key'] = 'Gakoa';
 $string['keynameempty'] = 'Gakoaren izena ezin da hutsik egon';
 $string['keys'] = 'Gakoak';
-$string['listreservedwords'] = 'Hitz Erreserbatuen Zerrenda<br/>(<a href="http://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB_reserved_words</a> eguneratuta mantentzeko erabilia)';
+$string['listreservedwords'] = 'Hitz erreserbatuen zerrenda<br/>(<a href="https://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB_reserved_words</a> eguneratuta mantentzeko erabilia)';
 $string['load'] = 'Igo';
 $string['main_view'] = 'Ikuspegi nagusia';
 $string['masterprimaryuniqueordernomatch'] = 'Zure kanpoko gakoko eremuak erakusten den taularen \'UNIQUE KEY\' gakoan agertzen diren ordena berean zerrendatu behar dira.';

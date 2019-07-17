@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['category:config'] = 'Настраивать экземпляры способа записи на курс «Зачисление из категории»';
 $string['category:synchronised'] = 'Быть зачисленным на курс способом записи «Зачисление из категории»';
+$string['enrolcategorysynctask'] = 'Синхронизация зачисления из категории';
 $string['pluginname'] = 'Зачисление из категории';
 $string['pluginname_desc'] = 'Плагин записи из категории синхронизирует любые назначения ролей в контексте категории для ролей с возможностью enrol/category:synchronised allowed.';
 $string['privacy:metadata'] = 'Плагин «Зачисление из категории» не хранит никаких персональных данных.';

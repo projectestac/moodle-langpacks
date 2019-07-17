@@ -236,18 +236,14 @@ $string['lti_tool_request_existing'] = 'A ferramenta de configuração para o do
 $string['ltiunknownserviceapicall'] = 'Serviço desconhecido de LTI no pedido a API.';
 $string['lti:view'] = 'Arrancar atividades Ferramenta LTI';
 $string['main_admin'] = 'Ajuda geral';
-$string['main_admin_help'] = 'As ferramentas externas permitem que os utilizadores do Moodle acedam a recursos de aprendizagem alojados externamente. Através de um protocolo especial
-de arranque, a ferramenta externa terá acesso a algumas informações gerais sobre o utilizador que iniciou a ferramenta. Por exemplo,
+$string['main_admin_help'] = 'As ferramentas externas permitem que os utilizadores do Moodle acedam a recursos de aprendizagem alojados externamente. Através de um protocolo de arranque especial, a ferramenta externa terá acesso a algumas informações gerais sobre o utilizador que iniciou a ferramenta. Por exemplo,
 o nome da instituição, ID da disciplina, ID do utilizador e outras informações, tais como o nome do utilizador ou o endereço de e-mail.
 
 As ferramentas listadas nesta página estão separadas em três categorias:
 
-* **Ativa** - Estes fornecedores de ferramentas foram aprovados e configurados por um administrador. Podem ser utilizados a partir de qualquer
-         disciplina neste Moodle. Se for inserida uma chave do consumidor e uma senha partilhada, é estabelecida uma confiança
-         entre a instância do Moodle e a ferramenta externa, proporcionando um canal de comunicação seguro.
-* **Pendente** - Estes fornecedores de ferramentas chegam através de um pacote importado e não foram configurados por nenhum administrador.
-        Os professores podem usar estas ferramentas se possuírem uma chave do consumidor e uma senha partilhada, ou se não for necessário nenhuma.
-* **Rejeitada** - Estes fornecedores de ferramentas são marcados como aqueles que um administrador não tem a intenção de colocar à disposição de todo o Moodle. Os professores podem usar estas ferramentas se possuírem uma chave do consumidor e uma senha partilhada ou se não for necessário nenhuma.';
+* **Ativa** - Estes fornecedores de ferramentas foram aprovados e configurados por um administrador. Podem ser utilizados a partir de qualquer          disciplina neste Moodle. Se for inserida uma chave do consumidor e uma senha partilhada, é estabelecida uma relação de confiança entre a instância do Moodle e a ferramenta externa, proporcionando um canal de comunicação seguro.
+* **Pendente** - Estes fornecedores de ferramentas chegaram através de um pacote importado e não foram configurados por nenhum administrador. Os professores podem usar estas ferramentas se possuírem uma chave do consumidor e uma senha partilhada, ou se não for necessário nenhuma.
+* **Rejeitada** - Estes fornecedores de ferramentas são marcados por um administrador como aqueles que não há intenção de colocar à disposição de todo o Moodle. Os professores podem usar estas ferramentas se possuírem uma chave do consumidor e uma senha partilhada ou se não for necessário nenhuma.';
 $string['manage_external_tools'] = 'Gerir ferramentas';
 $string['manage_tool_proxies'] = 'Gerir registos de ferramentas externas';
 $string['manage_tools'] = 'Gerir ferramentas pré-configuradas';

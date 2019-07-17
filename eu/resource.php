@@ -70,7 +70,7 @@ $string['legacyfilesactive'] = 'Aktiboa';
 $string['legacyfilesdone'] = 'Amaituta';
 $string['modifieddate'] = 'Aldatze-data: {$a}';
 $string['modulename'] = 'Fitxategia';
-$string['modulename_help'] = 'Fitxategia baliabideari esker irakasleak fitxategi bat ikastaroko baliabide gisa eskuragarri jar  dezakegu. Posiblea denean fitxategia ikastaroaren interfazearen barruan erakutsiko da; bestela ikasleei fitxategia jaisteko mezu bat agertuko zaie. Fitxategiak fitxategi lagungarriak izan ditzake,  irudiak edo Flash objektuak txertaturik dituzten HTML orriak adibidez.
+$string['modulename_help'] = 'Fitxategia baliabideari esker irakasleak fitxategi bat ikastaroko baliabide gisa eskuragarri jar  dezakegu. Posiblea denean fitxategia ikastaroaren interfazearen barruan erakutsiko da; bestela ikasleei fitxategia jaisteko mezu bat agertuko zaie. Fitxategiak fitxategi lagungarriak izan ditzake, irudiak txertaturik dituen HTML orria bat adibidez.
 
 Kontuan izan ikasleek fitxategia irekiko duen softwarea instalaturik izan beharko dutela.
 

@@ -242,6 +242,7 @@ $string['privacy:metadata:assessmentid'] = 'Identificador de la evaluación';
 $string['privacy:metadata:authorid'] = 'Identificador del autor del envío';
 $string['privacy:metadata:feedbackauthor'] = 'Comentario para el autor';
 $string['privacy:metadata:feedbackauthorformat'] = 'Formato de texto para el comentario para el autor';
+$string['privacy:request:delete:title'] = '[Eliminado]';
 $string['publishedsubmissions'] = 'Envíos publicados';
 $string['publishsubmission'] = 'Publicar envío';
 $string['publishsubmission_help'] = 'Los envíos publicados estarán disponibles para los demás cuando el taller esté cerrado.';

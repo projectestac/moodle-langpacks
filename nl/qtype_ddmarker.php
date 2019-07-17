@@ -49,10 +49,11 @@ Het bewerken van de vorm begint met een klik op de vorm in het voorbeeld om te b
 
 Voor polygonen zal de control-toets (command op een Mac) terwijl je op een knooppunthendel klikt een nieuw knooppunt toevoegen aan de polygoon. Hou de vorm van een polygoon zo eenvoudig mogelijk zonder lijnen te laten kruisen.
 
-Ter informatie: de drie vormen gebruiken coördinaten op volgende manieren<br />
-* Cirkel: middelpunt_x, middelpunt_y; straal<br>bijvoorbeeld: <code>80, 100; 50</code><br />
-* Polygoon: x1, y1; x2, y2; ...; xn, yn<br>bijvoorbeeld: <code>20, 60; 100, 60; 20, 100</code><br />
+Ter informatie: de drie vormen gebruiken coördinaten op volgende manieren:
+
+* Cirkel: middelpunt_x, middelpunt_y; straal<br>bijvoorbeeld: <code>80, 100; 50</code>
 * Rechthoek: x linkerbovenhoek, y linkerbovenhoek ; breedte, hoogte<br>bijvoorbeeld: <code>20, 60; 80, 40</code>
+* Polygoon: x1, y1; x2, y2; ...; xn, yn<br>bijvoorbeeld: <code>20, 60; 100, 60; 20, 100</code>
 
 Het selecteren van een markeertekst zal die tekst toevoegen aan de vorm in het voorbeeld.';
 $string['followingarewrong'] = 'Volgende woorden staan in de foute zone: {$a}';

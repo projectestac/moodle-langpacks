@@ -229,14 +229,14 @@ $string['lti_tool_request_existing'] = 'Tresnaren domeinurako tresna-ezarpena da
 $string['ltiunknownserviceapicall'] = 'LTI zerbitzu ezezagun baten API deia';
 $string['lti:view'] = 'Abiarazi kanpoko tresnaren jarduerak';
 $string['main_admin'] = 'Laguntza orokorra';
-$string['main_admin_help'] = 'Kanpoko tresnek ahalbidetzen dute Moodle-erabiltzaileek urruneko ikasketa-baliabideekin etenik gabe eragitea. Abio-protokolo berezi batez, urruneko tresnak abiatzen duen erabiltzailearen informazio orokorrera sarbidea izango du. Adibidez, erakundearen izena, ikastaroaren IDa, eta erabiltzaile-izen edo e-postaren helbidea bezalako informazioa.
+$string['main_admin_help'] = 'Kanpoko tresnek Moodle-erabiltzaileek urruneko ikasketa-baliabideekin eragitea ahalbidetzen dute. Abio-protokolo berezi batez, urruneko tresnak abiatzen duen erabiltzailearen informazio orokorrera sarbidea du. Adibidez, erakundearen izena, ikastaroaren IDa, eta erabiltzaile-izen edo e-postaren helbidea bezalako informazioa.
 
 Orri honetan zerrendatutako tresnak hiru kategoriatan banatzen dira:
 
-* **Aktibo** - Tresna-hornitzaile hauek kudeatzaile batek onartu eta ezarri ditu. Moodle instantzia honetako ikastaroetan erabil daiteke. Kontsumitzaile-gakoa eta partekatutako sekretua sartuz gero, Moodle-ren instantzia eta urruneko tresnaren arteko konfiantzazko harremana ezartzen da, komunikazio-kanala segurua erabiliz.
+* **Aktibo** - Tresna-hornitzaile hauek kudeatzaile batek onartu eta ezarri ditu. Gune honetako edozein ikastarotan erabil daiteke. Kontsumitzaile-gakoa eta partekatutako sekretua sartuz gero, gune honen eta urruneko tresnaren arteko konfiantzazko harremana ezartzen da, komunikazio-kanal segurua erabiliz.
 * **Zain** - Tresna-hornitzaile hauek pakete-inportazioaz ezartzen dira, baina ez ditu kudeatzaile batek konfiguratu behar.
 Irakasleek hornitzaile hauen tresnak erabil ditzake kontsumitzaile-gakoa eta partekatutako sekretua baldin badauzka, edo holakorik eskatzen ez bada.
-* **Ezeztatu** - Kudeatzaileak tresna-hornitzaile hauek markatu ditu, Moodle-ren instantzia osoan erabili ahal izateko asmorik ez baitauka. Irakasleek hornitzaile hauen tresnak erabil ditzake kontsumitzaile-gakoa eta partekatutako sekretua baldin badauzka, edo holakorik eskatzen ez bada.';
+* **Ezeztatu** - Kudeatzaileak tresna-hornitzaile hauek markatu ditu, gune osoan erabili ahal izateko asmorik ez baitauka. Irakasleek hornitzaile hauen tresnak erabil ditzake kontsumitzaile-gakoa eta partekatutako sekretua baldin badauzka, edo holakorik eskatzen ez bada.';
 $string['manage_external_tools'] = 'Kudeatu tresnak';
 $string['manage_tool_proxies'] = 'Kudeatu kanpoko tresnen erregistroak';
 $string['manage_tools'] = 'Kudeatu aurretik konfiguratutako tresnak';

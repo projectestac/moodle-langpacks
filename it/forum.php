@@ -84,16 +84,16 @@ $string['cannotviewusersposts'] = 'Non ci sono interventi di questo utente che t
 $string['cleanreadtime'] = 'Ora per spuntare come letti i messaggi vecchi';
 $string['clicktosubscribe'] = 'Non hai sottoscritto questa discussione, Click per sottoscriverla.';
 $string['clicktounsubscribe'] = 'Hai sottoscritto la discussione. Click per revocare la sottoscrizione.';
-$string['completiondiscussions'] = 'L\'utente deve iniziare il seguente numero di discussioni:';
+$string['completiondiscussions'] = 'Lo studente deve avviare il seguente numero di discussioni:';
 $string['completiondiscussionsdesc'] = 'Lo studente deve avviare almeno il seguente numero di discussioni: {$a}';
 $string['completiondiscussionsgroup'] = 'Numero minimo discussioni';
 $string['completiondiscussionshelp'] = 'è necessario un numero minimo di discussioni';
-$string['completionposts'] = 'L\'utente deve effettuare il seguente numero di discussioni o di interventi:';
-$string['completionpostsdesc'] = 'L\'utente deve effettuare almeno {$a} discussioni o interventi';
+$string['completionposts'] = 'Lo studente deve effettuare il seguente numero di discussioni o interventi:';
+$string['completionpostsdesc'] = 'Lo studente deve effettuare almeno {$a} discussioni o interventi';
 $string['completionpostsgroup'] = 'Numero minimo interventi';
 $string['completionpostshelp'] = 'è necessario un numero minimo di discussioni o di interventi';
-$string['completionreplies'] = 'L\'utente deve inviare il seguente numero di risposte:';
-$string['completionrepliesdesc'] = 'L\'utente deve effettuare almeno {$a} interventi';
+$string['completionreplies'] = 'Lo studente deve effettuare il seguente numero di interventi:';
+$string['completionrepliesdesc'] = 'Lo studente deve effettuare almeno {$a} interventi';
 $string['completionrepliesgroup'] = 'Numero minimo risposte';
 $string['completionreplieshelp'] = 'è necessario un numero minimo di interventi';
 $string['configcleanreadtime'] = 'L\'ora del giorno in cui la tabella \'lettura\' vien ripulita dai messaggi vecchi.';
@@ -335,7 +335,7 @@ $string['modulename_help'] = 'Il modulo attività Forum consente di tenere discu
 
 Sono disponibili diversi tipi di forum tra cui scegliere,  forum standard dove chiunque può avviare una discussione, forum dove ciascuno studente può avviare una sola discussioni, forum domande e risposte, dove lo studente deve intervenire prima di poter visualizzare gli interventi degli altri. E\' possibile consentire file allegati. Se gli allegati sono immagini saranno visualizzate direttamente nel corpo dell\'intervento.
 
-I partecipanti possono sottoscrivere il forum per ricevere notifiche di nuovi interventi. Il docente può impostare la sottoscrizione al forum come facoltativa, obbligatoria, automatica. oppure può non consentirne la sottoscrizione. In caso di necessità è anche possibile bloccare studenti che abbiano postato più di un certo numero di interventi in un dato intervallo di tempo, riducendo il rischio che qualcuno domini la discussione.
+I partecipanti possono sottoscrivere il forum per ricevere notifiche di nuovi interventi. Il docente può impostare la sottoscrizione al forum come facoltativa, obbligatoria, automatica, oppure può non consentirne la sottoscrizione. In caso di necessità è anche possibile bloccare studenti che abbiano postato più di un certo numero di interventi in un dato intervallo di tempo, riducendo il rischio che qualcuno domini la discussione.
 
 Gli interventi nei forum possono essere valutati dal docente o dagli stessi studenti (valutazione tra pari). I punteggi ottenuti vengono aggregati e memorizzati nel registro valutatore.
 

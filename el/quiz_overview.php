@@ -76,4 +76,4 @@ $string['showdetailedmarks'] = 'Βαθμοί για κάθε ερώτηση';
 $string['showinggraded'] = 'Εμφανίζεται μόνο η προσπάθεια που βαθμολογήθηκε για κάθε χρήστη.';
 $string['showinggradedandungraded'] = 'Εμφανίζονται και οι προσπάθειες που βαθμολογήθηκαν και οι προσπάθειες που δεν βαθμολογήθηκαν για κάθε χρήστη. Η μία προσπάθεια που βαθμολογήθηκε για κάθε χρήστη είναι τονισμένη. Η μέθοδος βαθμολόγησης για αυτό το κουίζ είναι {$a}.';
 $string['studentingroup'] = '«{$a->coursestudent}» στην ομάδα «{$a->groupname}».';
-$string['studentingrouplong'] = '\'{$a->coursestudent}\' σε αυτή την ομάδα';
+$string['studentingrouplong'] = '«{$a->coursestudent}» σε αυτή την ομάδα';

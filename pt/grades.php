@@ -98,7 +98,7 @@ $string['availableidnumbers'] = 'Números de ID disponíveis';
 $string['average'] = 'Média';
 $string['averagesdecimalpoints'] = 'Casas decimais nas médias das colunas';
 $string['averagesdecimalpoints_help'] = 'Esta opção determina o número de casas decimais a mostrar nas médias das notas ou se são herdadas as casas decimais da categoria ou item de avaliação.';
-$string['averagesdisplaytype'] = 'Formato da média da coluna';
+$string['averagesdisplaytype'] = 'Formato da coluna da média';
 $string['averagesdisplaytype_help'] = 'Esta opção determina se a média é exibida como nota real, percentagem ou nota alfabética, ou se é herdado o formato da categoria ou item de avaliação.';
 $string['backupwithoutgradebook'] = 'A cópia de segurança não contém as configurações da pauta.';
 $string['badgrade'] = 'A nota fornecida é inválida';
@@ -112,7 +112,7 @@ $string['calculationadd'] = 'Adicionar cálculo';
 $string['calculationedit'] = 'Editar cálculo';
 $string['calculation_help'] = 'O cálculo da nota é a fórmula usada para determinar as notas. A fórmula deve começar com um sinal de igualdade (=) e usar operadores comuns matemáticos como max, min e sum. Pode ainda, se desejar, incluir outros itens de avaliação inserindo os respectivos ID\'s entre parêntesis retos.';
 $string['calculation_link'] = 'nota/cálculo';
-$string['calculationsaved'] = 'Cálculo gravado';
+$string['calculationsaved'] = 'Cálculo guardado';
 $string['calculationview'] = 'Ver cálculo';
 $string['cannotaccessgroup'] = 'Lamentamos mas não pode aceder às avaliações do grupo selecionado.';
 $string['categories'] = 'Categorias';
@@ -235,7 +235,7 @@ $string['feedbackforgradeitems'] = 'Comentário para {$a}';
 $string['feedback_help'] = 'Esta caixa permite adicionar qualquer comentário sobre a nota';
 $string['feedbackhistoryfiles'] = 'Ficheiros de histórico de feedback';
 $string['feedbacks'] = 'Comentários';
-$string['feedbacksaved'] = 'Feedback gravado';
+$string['feedbacksaved'] = 'Feedback guardado';
 $string['feedbackview'] = 'Ver feedback';
 $string['finalgrade'] = 'Nota final';
 $string['finalgrade_help'] = 'Se a caixa de seleção Ajustada for ativada, pode inserir ou alterar ou alterar a nota.';
@@ -397,10 +397,10 @@ $string['importcsv_help'] = 'As notas podem ser importadas através de um Fichei
 
 * Cada linha do ficheiro contém apenas um registo
 * Cada registo é um conjunto de dados separados por vírgulas ou outro tipo de separador
-* O primeiro registo contém uma lista com os nomes do campo, definindo assim o restante formato do ficheiro
+* O primeiro registo contém uma lista com os nomes dos campos, definindo assim o restante formato do ficheiro
 * É necessário existir um campo com os dados de identificação dos utilizadores - pode ser o nome de utilizador, o número de identificação (ID) ou o endereço de e-mail
 
-Se previamente exportar algumas notas, poderá obter um exemplo de um ficheiro com o formato correto. O ficheiro em questão poderá ser editado posteriormente e gravado como ficheiro CSV.';
+Se previamente exportar algumas notas, poderá obter um exemplo de um ficheiro com o formato correto. O ficheiro em questão poderá ser editado posteriormente e guardado como ficheiro CSV.';
 $string['importcustom'] = 'Importar como resultados da aprendizagem personalizados (apenas nesta disciplina)';
 $string['importerror'] = 'Ocorreu um erro, o script não foi chamado com os parâmetros corretos.';
 $string['importfailed'] = 'A importação falhou. Nenhum dado foi importado.';
@@ -589,7 +589,7 @@ $string['overridden_help'] = 'Se ativar esta opção, a nota já não pode ser a
 
 Quando uma nota é ajustada na pauta, esta caixa de seleção será ativada automaticamente. No entanto, pode ser desativada para que a nota volte a depender da atividade.';
 $string['overriddennotice'] = 'A sua nota final nesta atividade foi alterada manualmente na pauta.';
-$string['overridecat'] = 'Permitir que as notas da categoria sejam ajustadas manualmente';
+$string['overridecat'] = 'Permitir ajuste manual das notas da categoria';
 $string['overridecat_help'] = 'Se desativar esta configuração vai impossibilitar os utilizadores de ajustar as notas das categorias.';
 $string['overridesitedefaultgradedisplaytype'] = 'Ajustar valores predefinidos do site';
 $string['overridesitedefaultgradedisplaytype_help'] = 'Se selecionar esta opção, as notas alfabéticas e limites de intervalos para a disciplina podem ser configuradas, ao invés de serem usadas as configurações predefinidas do site.';
@@ -656,7 +656,7 @@ $string['privacy:request:historyactiondelete'] = 'Apagar';
 $string['privacy:request:historyactioninsert'] = 'Inserir';
 $string['privacy:request:historyactionupdate'] = 'Atualizar';
 $string['privacy:request:unknowndeletedgradeitem'] = 'Desconhecido (O item de avaliação foi apagado)';
-$string['profilereport'] = 'Relatório de perfil de utilizador';
+$string['profilereport'] = 'Relatório no perfil de utilizador';
 $string['profilereport_help'] = 'Relatório de avaliação exibido na página de perfil do utilizador.';
 $string['publishing'] = 'Publicar';
 $string['publishingoptions'] = 'Opções da publicação de notas';
@@ -741,12 +741,12 @@ $string['showgrade'] = 'Mostrar notas';
 $string['showgrade_help'] = 'Mostrar a coluna das notas.';
 $string['showgroups'] = 'Mostrar grupos';
 $string['showhiddenitems'] = 'Mostrar itens ocultos';
-$string['showhiddenitems_help'] = 'Esta opção define se os itens ocultos são totalmente omitidos da pauta ou se apenas os seus nomes são exibidos aos alunos.
+$string['showhiddenitems_help'] = 'Esta opção define se os itens ocultos são totalmente omitidos na pauta ou se apenas os seus nomes são exibidos aos alunos.
 
 * Mostrar nomes dos itens ocultos - Os nomes dos itens ocultos são exibidos aos alunos mas as notas mantêm-se ocultas;
-* Apenas ocultar até - Os itens da pauta definidos como ocultos até uma determinada data ficarão totalmente ocultos até à data definida. Após esta data, estes itens serão exibidos na sua totalidade;
-* Não exibir itens ocultos - Todos os itens ocultos são omitidos da pauta.';
-$string['showhiddenuntilonly'] = 'Apenas Ocultar até';
+* Apenas itens ocultos até - Os itens da pauta definidos como "Ocultar até" uma determinada data ficarão totalmente ocultos até à data definida. Após esta data, estes itens serão exibidos na sua totalidade;
+* Totalmente ocultos - Todos os itens ocultos são omitidos na pauta.';
+$string['showhiddenuntilonly'] = 'Apenas itens ocultos até';
 $string['showingaggregatesonly'] = 'Mostrar as notas das categorias apenas';
 $string['showingfullmode'] = 'Vista completa';
 $string['showinggradesonly'] = 'Mostrar apenas as notas';
@@ -762,10 +762,10 @@ $string['showonlyactiveenrol'] = 'Mostrar apenas as inscrições ativas';
 $string['showonlyactiveenrol_help'] = 'Esta definição determina se apenas os utilizadores inscritos e ativos serão visíveis no relatório da pauta. Se ativar esta opção, os utilizadores suspensos não serão mostrados na pauta.';
 $string['showpercentage'] = 'Mostrar percentagem';
 $string['showpercentage_help'] = 'Mostrar o valor da percentagem de cada item de avaliação.';
-$string['showquickfeedback'] = 'Mostrar feedback rápido';
-$string['showquickfeedback_help'] = 'Se ativar esta opção, quando o modo de edição das notas está ativo, surge uma caixa de comentários para cada nota, permitindo editar vários comentários ao mesmo tempo. As alterações serão guardadas e assinaladas após clicar no botão de Atualização.
+$string['showquickfeedback'] = 'Mostrar comentário rápido';
+$string['showquickfeedback_help'] = 'Se ativar esta opção, quando o modo de edição das notas está ativo, surge uma caixa de comentários para cada nota, permitindo editar vários comentários ao mesmo tempo. As alterações serão guardadas e assinaladas após clicar no botão de Guardar.
 
-Repare que quando um comentário é editado diretamente na pauta não pode ser alterado pela atividade à qual a nota está associada.';
+Tenha em atenção que quando um comentário é editado diretamente na pauta não pode ser alterado pela atividade à qual a nota está associada.';
 $string['showrange'] = 'Mostrar intervalos';
 $string['showrange_help'] = 'Mostrar a coluna dos intervalos.';
 $string['showranges'] = 'Mostrar intervalos';

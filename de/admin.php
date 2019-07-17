@@ -837,7 +837,7 @@ $string['moodlebrandedapp'] = 'Individuell angepasste Mobile App';
 $string['moodlebrandedapp_help'] = '<p>Die individuell angepasste Moodle-App verfügt über alle Funktionen der freien mobilen Moodle-App. Sie steht in den AppStores mit Design Ihrer Schule oder Institution zur Verfügung.</p>
 <a href="https://moodle.com/branded-app">Über die individuelle Moodle-App</a>';
 $string['moodlebrandedappreference'] = 'Alternativ können Sie eine <a href="https://moodle.com/branded-app">individuelle Moodle-App</a> für Ihre Institution bestellen.';
-$string['moodleorghubname'] = 'Moodle.net';
+$string['moodleorghubname'] = 'Moodle';
 $string['moodlepartners'] = 'Moodle Partner';
 $string['moodlepartners_help'] = '<p>Moodle Partner sind vom Moodle HQ zertifizierte Servicedienstleister für Ihre Online-Lernumgebung.</p>
 <a href="https://moodle.com/about-partners/">Über unsere Partner</a><br />
@@ -1065,7 +1065,11 @@ $string['registermoodleorgli1'] = 'Sie werden in eine Mailing-Liste eingetragen.
 $string['registermoodleorgli2'] = 'Statistiken werden unter {$a} auf der internationalen Moodle-Seite dargestellt. Statistische Informationen aus Ihrer Seite werden dazu ausgewertet.';
 $string['registerwithmoodleorg'] = 'Website registrieren';
 $string['registration'] = 'Registrierung';
-$string['registration_help'] = 'Registrieren Sie Ihre Website bei Moodle, um Sicherheitswarnungen und einen Zugang zu Moodle.net, unserer Kurs-Sharing-Plattform, zu bekommen.';
+$string['registration_help'] = 'Mit der Registrierung Ihrer Website:
+
+* erhalten Sie von uns Sicherheitswarnungen für Moodle
+* können Sie Push-Mitteilungen für die mobile App aktivieren
+* tragen Sie zu unserer weltweiten Moodle-Statistik bei';
 $string['registrationwarning'] = 'Diese Website ist noch nicht registriert.';
 $string['registrationwarningcontactadmin'] = 'Diese Website ist noch nicht registriert. Bitte benachrichtigen Sie den Administrator.';
 $string['releasenoteslink'] = 'Weitere Informationen über diese Version finden Sie online: <a target="_blank" href="{$a}">Versionsinformation</a>';
@@ -1303,7 +1307,7 @@ $string['updateautocheck'] = 'Aktualisierungen prüfen';
 $string['updateautocheck_desc'] = 'Wenn diese Option aktiviert ist, wird für Ihrer Website automatisch geprüft, ob für Moodle oder ein zusätzliches Plugin aktuellere Versionen verfügbar sind. Falls eine Aktualisierung vorhanden ist, werden die Administratoren benachrichtigt.';
 $string['updateavailable'] = 'Ein neueres Moodle ist verfügbar!';
 $string['updateavailabledetailslink'] = 'Weitere Details: {$a->url}';
-$string['updateavailableforplugin'] = 'Für einige Plugins sind Aktualisierungen verfügbar.';
+$string['updateavailableforplugin'] = 'Für Plugins sind Aktualisierungen verfügbar.';
 $string['updateavailableinstall'] = 'Aktualisierung ausführen';
 $string['updateavailableinstallall'] = 'Verfügbare Aktualisierungen ausführen ({$a})';
 $string['updateavailableinstallallhead'] = 'Verfügbare Aktualisierungen werden installiert.';

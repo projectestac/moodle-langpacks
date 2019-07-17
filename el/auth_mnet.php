@@ -27,10 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['auth_mnet_auto_add_remote_users'] = 'Όταν οριστεί σε Ναι, μια εγγραφή τοπικού χρήστη δημιουργείται αυτόματα όταν ένας απομακρυσμένος χρήστης συνδέεται για πρώτη φορά.';
 $string['auth_mnetdescription'] = 'Οι χρήστες αυθεντικοποιούνται σύμφωνα με τον ιστό εμπιστοσύνης που ορίζεται στις ρυθμίσεις του δικτύου Moodle.';
-$string['auth_mnet_roamin'] = 'These host\'s users can roam in to your site';
-$string['auth_mnet_roamout'] = 'Your users can roam out to these hosts';
+$string['auth_mnet_roamin'] = 'Οι χρήστες αυτού του κεντρικού Η/Υ μπορούν να συνδέονται και στον ιστοτόπο σας';
+$string['auth_mnet_roamout'] = 'Οι χρήστες σας μπορούν να συνδέονται και σε αυτούς τους κεντρικούς Η/Υ';
 $string['auth_mnet_rpc_negotiation_timeout'] = 'Το χρονικό όριο σε δευτερόλεπτα για αυθεντικοποίηση κατά τη μεταφορά XMLRPC.';
-$string['auto_add_remote_users'] = 'Auto add remote users';
+$string['auto_add_remote_users'] = 'Αυτόματη προσθήκη απομακρυσμένων χρηστών';
 $string['pluginname'] = 'Αυθεντικοποίηση στο MNet (Moodle Network)';
 $string['privacy:metadata:external:mahara'] = 'Αυτό το πρόσθετο μπορεί να στείλει δεδομένα εξωτερικά σε μια συνδεδεμένη εφαρμογή Mahara.';
 $string['privacy:metadata:external:moodle'] = 'Αυτό το πρόσθετο μπορεί να στείλει δεδομένα εξωτερικά σε μια συνδεδεμένη εφαρμογή Mahara.';

@@ -29,6 +29,7 @@ $string['answer'] = 'Respuesta {$a}';
 $string['availablechoices'] = 'Opciones disponibles';
 $string['blanksforxmorequestions'] = '{no} Más conjuntos de espacios en blanco';
 $string['correctansweris'] = 'La respuesta correcta es: {$a}';
+$string['deletedchoice'] = '[Opción eliminada]';
 $string['filloutthreeqsandtwoas'] = 'Debe proporcionar al menos dos preguntas y tres respuestas. Puede incluir respuestas erróneas extra dando una respuesta con una pregunta en blanco. Las entradas correspondientes a la pregunta y respuesta en blanco serán pasadas por alto.';
 $string['nomatchinganswer'] = 'Debe especificar una respuesta que corresponda a la pregunta \'{$a}\'';
 $string['nomatchinganswerforq'] = 'Debe especificar una respuesta para esta pregunta.';

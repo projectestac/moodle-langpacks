@@ -34,9 +34,9 @@ $string['addnewattempt_help'] = 'Ceci créera un travail vide pour vous permettr
 $string['addnewgroupoverride'] = 'Ajouter une exception de groupe';
 $string['addnewuseroverride'] = 'Ajouter une exception utilisateur';
 $string['addsubmission'] = 'Ajouter un travail';
-$string['addsubmission_help'] = 'Vous n\'avez pas encore remis de travail';
+$string['addsubmission_help'] = 'Vous n\'avez pas encore remis de travail.';
 $string['allocatedmarker'] = 'Évaluateur attribué';
-$string['allocatedmarker_help'] = 'L\'évaluateur attribué pour ce travail';
+$string['allocatedmarker_help'] = 'L\'évaluateur attribué pour ce travail.';
 $string['allowsubmissions'] = 'Autoriser l\'utilisateur à ajouter ou modifier ses travaux pour ce devoir.';
 $string['allowsubmissionsanddescriptionfromdatesummary'] = 'Les détails du devoir et le formulaire de remise de document seront disponibles dès le <strong>{$a}</strong>';
 $string['allowsubmissionsfromdate'] = 'Autoriser la remise dès le';
@@ -82,9 +82,9 @@ $string['attemptnumber'] = 'Numéro de tentative';
 $string['attemptreopenmethod'] = 'Réouverture des travaux remis';
 $string['attemptreopenmethod_help'] = 'Détermine comment les travaux remis par les étudiants sont rouverts. Les options disponibles sont :
 <ul>
-<li>Jamais - Le travail de l\'étudiant ne peut pas être rouvert.</li>
-<li>Manuellement - Le travail de l\'étudiant peut être rouvert par un enseignant.</li>
-<li>Automatiquement jusqu\'à réussite - Le travail est rouvert automatiquement jusqu\'à ce que l\'étudiant atteigne la note nécessaire pour réussir le devoir ; cette note est indiquée dans le carnet de notes (section Configuration du carnet de notes).</li>
+<li>Jamais - Le travail remis ne peut pas être rouvert.</li>
+<li>Manuellement - Le travail remis peut être rouvert par un enseignant.</li>
+<li>Automatiquement jusqu\'à réussite - Le travail remis est rouvert automatiquement jusqu\'à ce que l\'étudiant atteigne la note nécessaire pour réussir le devoir ; cette note est indiquée dans le carnet de notes.</li>
 </ul>';
 $string['attemptreopenmethod_manual'] = 'Manuellement';
 $string['attemptreopenmethod_none'] = 'Jamais';
@@ -131,6 +131,7 @@ $string['couldnotconvertsubmission'] = 'Impossible de convertir le travail remis
 $string['couldnotcreatecoursemodule'] = 'Impossible de créer le module de cours.';
 $string['couldnotcreatenewassignmentinstance'] = 'Impossible de créer l\'instance du nouveau devoir.';
 $string['couldnotfindassignmenttoupgrade'] = 'Impossible de trouver l\'instance de l\'ancien devoir à mettre à jour.';
+$string['currentassigngrade'] = 'Note actuel dans le devoir';
 $string['currentattempt'] = 'Ceci est la tentative {$a}.';
 $string['currentattemptof'] = 'Ceci est la tentative {$a->attemptnumber} ({$a->maxattempts} tentatives autorisées).';
 $string['currentgrade'] = 'Note actuelle dans le carnet de notes';
@@ -164,7 +165,7 @@ $string['editingstatus'] = 'Statut d\'édition';
 $string['editonline'] = 'Modifier en ligne';
 $string['editoverride'] = 'Modifier l\'exception';
 $string['editsubmission'] = 'Modifier le travail';
-$string['editsubmission_help'] = 'Vous pouvez encore faire des modifications à votre travail remis';
+$string['editsubmission_help'] = 'Vous pouvez encore faire des modifications à votre travail remis.';
 $string['editsubmissionother'] = 'Modifier le travail de {$a}';
 $string['enabled'] = 'Activé';
 $string['errornosubmissions'] = 'Il n\'y a pas de devoir remis à télécharger';
@@ -260,15 +261,15 @@ $string['grantextension'] = 'Octroyer une prolongation';
 $string['grantextensionforusers'] = 'Octroyer une prolongation à {$a} étudiants';
 $string['groupoverrides'] = 'Exceptions de groupe';
 $string['groupoverridesdeleted'] = 'Exceptions de groupe supprimées';
-$string['groupsnone'] = 'Il n\'y a pas de groupe dans ce cours';
+$string['groupsnone'] = 'Aucun groupe auquel vous avez accès.';
 $string['groupsubmissionsettings'] = 'Réglages de remises en groupe';
 $string['hiddenuser'] = 'Participant';
 $string['hideshow'] = 'Cacher/afficher';
 $string['inactiveoverridehelp'] = '* L\'étudiant n\'est pas dans le groupe correct ou n\'a pas le rôle adéquat pour effectuer le devoir, ou le devoir est caché';
 $string['indicator:cognitivedepth'] = 'Devoir : aspect cognitif';
-$string['indicator:cognitivedepth_help'] = 'Cet indicateur se base sur le niveau cognitif atteint par l\'étudiant dans une activité Devoir.';
+$string['indicator:cognitivedepth_help'] = 'Cet indicateur se base sur le niveau cognitif atteint par l\'étudiant dans une activité devoir.';
 $string['indicator:socialbreadth'] = 'Devoir : aspect social';
-$string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Devoir.';
+$string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité devoir.';
 $string['instructionfiles'] = 'Fichiers d\'instructions';
 $string['introattachments'] = 'Fichiers supplémentaires';
 $string['introattachments_help'] = 'Des fichiers supplémentaires à utiliser dans le devoir peuvent être ajoutés, par exemple des modèles de réponse. Les liens de téléchargement de ces fichiers seront affichés sur la page du devoir, sous la description.';
@@ -292,7 +293,7 @@ $string['markingallocation_help'] = 'Si ce réglage est activé en même temps q
 $string['markingworkflow'] = 'Utiliser les flux d\'évaluation';
 $string['markingworkflow_help'] = 'Si ce réglage est activé, l\'évaluation passera par différentes étapes d\'un flux de travail avant d\'être publiée pour les participants. Ce processus permet une évaluation en plusieurs tours, ainsi que la publication simultanée des évaluations de tous les participants.';
 $string['markingworkflowstate'] = 'Statut du flux d\'évaluation';
-$string['markingworkflowstate_help'] = 'La liste des statuts d\'évaluation à votre disposition est déterminée par vos permissions et peut comprendre :
+$string['markingworkflowstate_help'] = 'La liste des statuts d\'évaluation à votre disposition peut comprendre (selon vos permissions) :
 
 * Non évalué - l\'évaluateur n\'a pas encore commencé l\'évaluation
 * En cours d\'évaluation - l\'évaluateur a commencé l\'évaluation, qui n\'est pas encore terminée
@@ -310,7 +311,7 @@ $string['maxattempts'] = 'Nombre maximal de tentatives';
 $string['maxattempts_help'] = 'Le nombre maximal de tentatives de remise pouvant être effectuées par un étudiant. Une fois ce nombre atteint, le travail remis ne pourra plus être rouvert.';
 $string['maxgrade'] = 'Note maximale';
 $string['maxperpage'] = 'Nombre de devoirs par page';
-$string['maxperpage_help'] = 'Le nombre maximum de devoirs qu\'un évaluateur peut voir dans la page d\'évaluation des devoirs. Pratique pour éviter des lenteurs d\'affichage dans les cours où il y a de très nombreux participants.';
+$string['maxperpage_help'] = 'Le nombre maximum de devoirs qu\'un évaluateur peut voir dans la page d\'évaluation des devoirs. Ce réglage est utile pour éviter des lenteurs d\'affichage dans les cours où il y a de très nombreux participants.';
 $string['messageprovider:assign_notification'] = 'Notifications de devoirs';
 $string['modulename'] = 'Devoir';
 $string['modulename_help'] = 'Le module d\'activité devoir permet à un enseignant de communiquer aux participants des tâches, de récolter des travaux et de leur fournir feedbacks et notes.
@@ -445,7 +446,7 @@ $string['sendstudentnotificationsdefault'] = 'Réglages par défaut pour «&nbsp
 $string['sendstudentnotificationsdefault_help'] = 'Définit la valeur par défaut de la case à cocher «&nbsp;Notifier les étudiants&nbsp;» sur le formulaire d\'évaluation.';
 $string['sendstudentnotifications_help'] = 'Si ce réglage est activé, les étudiants reçoivent un message lors de la modification d\'une note ou d\'un feedback.';
 $string['sendsubmissionreceipts'] = 'Envoyer aux étudiants un accusé de réception';
-$string['sendsubmissionreceipts_help'] = 'Ce réglage permet d\'activer les accusés de réception pour les étudiants. Les étudiants recevront une notification chaque fois qu\'ils remettent un travail pour un devoir.';
+$string['sendsubmissionreceipts_help'] = 'Ce réglage active les accusés de réception pour les étudiants. Les étudiants recevront alors une notification chaque fois qu\'ils remettent un travail pour un devoir.';
 $string['setmarkerallocationforlog'] = 'Définition de l\'évaluateur : (id={$a->id}, nom={$a->fullname}, évaluateur={$a->marker}).';
 $string['setmarkingallocation'] = 'Définir l\'évaluateur attribué';
 $string['setmarkingworkflowstate'] = 'Définir le statut du flux d\'évaluation';
@@ -464,7 +465,7 @@ Vous pouvez consulter l\'état de votre travail remis&nbsp;:
 
  {$a->url}';
 $string['submissiondrafts'] = 'Exiger que les étudiants cliquent sur le bouton « Envoyer le devoir »';
-$string['submissiondrafts_help'] = 'Si ce réglage est activé, les étudiants devront explicitement cliquer sur le bouton « Envoyer le devoir » pour confirmer que leur devoir est terminé. Cela permet aux étudiants de conserver dans le système une version brouillon de leur travail avant de l\'envoyer. Si le réglage est activé après que des étudiants ont déjà remis leur travaux, ceux-ci seront considérés comme définitifs.';
+$string['submissiondrafts_help'] = 'Si ce réglage est activé, les étudiants devront explicitement cliquer sur un bouton de remise pour confirmer que leur devoir est terminé. Cela permet aux étudiants de conserver dans le système une version brouillon de leur travail avant de l\'envoyer. Si le réglage est activé après que des étudiants ont déjà remis leur travaux, ceux-ci seront considérés comme définitifs.';
 $string['submissioneditable'] = 'L\'étudiant peut modifier ce travail remis';
 $string['submissionempty'] = 'Rien n\'a été remis';
 $string['submissionlog'] = 'Étudiant&nbsp;: {$a->fullname}, statut&nbsp;: {$a->status}';

@@ -358,7 +358,7 @@ $string['scormtype_help'] = 'Esta configuração define como o Pacote SCORM ser�
 
 * Manifesto externo SCORM: permite especificar um URL imsmanifest.xml. (Nota: Se o URL tiver um nome de domínio diferente do seu site, então selecione a opção "Descarregar pacote", pois caso contrário as notas não são guardadas.);
 
-* Pacote descarregado: permite especificar o URL de um pacote. O pacote será descompactado e gravado localmente, e atualizado quando o pacote SCORM externo é atualizado;
+* Pacote descarregado: permite especificar o URL de um pacote. O pacote será descompactado e guardado localmente, e atualizado quando o pacote SCORM externo é atualizado;
 
 * Repositório local de conteúdo IMS: permite que um pacote seja selecionado a partir de um repositório IMS.';
 $string['scorm:viewreport'] = 'Ver relatórios';

@@ -624,6 +624,7 @@ $string['prefletters'] = 'Letras de calificación y límites';
 $string['prefrows'] = 'Filas especiales';
 $string['prefshow'] = 'Mostrar/ocultar conmutadores';
 $string['previewrows'] = 'Previsualizar filas';
+$string['privacy:request:historyactiondelete'] = 'Eliminar';
 $string['profilereport'] = 'Informe de perfil de usuario';
 $string['profilereport_help'] = 'Informe de calificaciones usado en la página del perfil del usuario.';
 $string['publishing'] = 'Publicando';

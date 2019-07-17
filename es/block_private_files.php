@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Archivos privados';
+$string['privacy:metadata'] = 'El Bloque de Archivos privados solamente proporciona una vista de, y un enlace hacia, los archivos privados del usuario.';
 $string['privatefiles'] = 'Archivos privados';
 $string['private_files:addinstance'] = 'Añadir un nuevo bloque de archivos privados';
 $string['private_files:myaddinstance'] = 'Añadir un nuevo bloque de archivos privados del usuario al Área personal';

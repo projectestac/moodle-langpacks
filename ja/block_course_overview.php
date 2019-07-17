@@ -69,6 +69,7 @@ $string['privacy:metadata:sortorder'] = '並べ替え順です。';
 $string['removefavourite'] = 'お気に入りを削除する';
 $string['reorderfullname'] = 'コースフルネーム';
 $string['reorderid'] = 'コースID';
+$string['reorderiddesc'] = 'コースID説明';
 $string['reordernone'] = 'ドラッグ＆ドロップ並べ替え';
 $string['reordershortname'] = 'コース省略名';
 $string['setmaxcourses'] = '最大コース数を設定する';

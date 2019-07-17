@@ -43,7 +43,7 @@ $string['check_indexes'] = 'Recherche des index manquants de la base de données
 $string['checkoraclesemantics'] = 'Vérifier les sémantiques';
 $string['check_oracle_semantics'] = 'Recherche des sémantiques de longueur incorrecte';
 $string['completelogbelow'] = '(voir le journal de recherche complet ci-dessous)';
-$string['confirmcheckbigints'] = 'Cette fonctionnalité recherche les <a href="http://tracker.moodle.org/browse/MDL-11038">champs de type entier potentiellement faux</a> dans votre serveur Moodle, et génère automatiquement (mais n\'exécute pas) les instructions SQL nécessaires pour définir correctement les entiers de votre base de données.
+$string['confirmcheckbigints'] = 'Cette fonctionnalité recherche les <a href="https://tracker.moodle.org/browse/MDL-11038">champs de type entier potentiellement faux</a> dans votre serveur Moodle, et génère automatiquement (mais n\'exécute pas) les instructions SQL nécessaires pour définir correctement les entiers de votre base de données.
 
 Vous pouvez copier alors ces instructions et les lancer avec votre interface SQL préférée. N\'oubliez pas d\'effectuer une sauvegarde de la base de données avant de lancer ces commandes.
 
@@ -69,7 +69,7 @@ Vous pouvez copier alors ces instructions et les lancer avec votre interface SQL
 Il est vivement recommandé d\'avoir la dernière version (version +) disponible pour votre version de Moodle avant de lancer la recherche des index manquants.
 
 Cette fonctionnalité n\'effectue aucune modification de la base de données (elle ne fait que la lire), et peut donc être lancée à tout instant.';
-$string['confirmcheckoraclesemantics'] = 'Cette fonctionnalité va rechercher des <a href="http://tracker.moodle.org/browse/MDL-29322">colonnes Oracle varchar2 utilisant la sémantique BYTE</a> sur votre serveur Moodle et générer automatiquement (sans les lancer !) les instructions SQL permettant de convertir ces colonnes de sorte qu\'elles utilisent la sémantique CHAR (meilleur pour la compatibilité et pouvant accepter des contenus de longueur plus grande).
+$string['confirmcheckoraclesemantics'] = 'Cette fonctionnalité va rechercher des <a href="https://tracker.moodle.org/browse/MDL-29322">colonnes Oracle varchar2 utilisant la sémantique BYTE</a> sur votre serveur Moodle et générer automatiquement (sans les lancer !) les instructions SQL permettant de convertir ces colonnes de sorte qu\'elles utilisent la sémantique CHAR (meilleur pour la compatibilité et pouvant accepter des contenus de longueur plus grande).
 
 Vous pourrez  copier ces instructions et les lancer depuis votre interface SQL préférée (n\'oubliez pas de sauvegarder vos données avant de le faire).
 
@@ -142,7 +142,7 @@ $string['integerincorrectlength'] = 'Longueur du champ entier incorrecte';
 $string['key'] = 'Clef';
 $string['keynameempty'] = 'Le nom de clef ne peut pas être vide';
 $string['keys'] = 'Clefs';
-$string['listreservedwords'] = 'Liste des mots réservés<br />(utilisée pour tenir à jour <a href="http://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB_reserved_words</a>)';
+$string['listreservedwords'] = 'Liste des mots réservés<br />(utilisée pour tenir à jour <a href="https://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB_reserved_words</a>)';
 $string['load'] = 'Charger';
 $string['main_view'] = 'Vue d\'ensemble';
 $string['masterprimaryuniqueordernomatch'] = 'Les champs dans votre clef externe doivent être listés dans le même ordre que la UNIQUE KEY dans la table référencée.';

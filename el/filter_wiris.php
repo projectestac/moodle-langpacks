@@ -25,5 +25,18 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['connectionsettings_text'] = '';
+$string['editormodalwindowfullscreen_help'] = '';
+$string['editormodalwindow_help'] = '';
+$string['editorsettings_text'] = '';
+$string['imageformat_help'] = '';
+$string['imageservicehost_help'] = '';
+$string['imageservicepath_help'] = '';
+$string['imageserviceport_help'] = '';
+$string['imageserviceprotocol_help'] = '';
+$string['imagesettings_text'] = '';
 $string['noteditorspluginsinstalled'] = 'Δεν έχει εγκατασταθεί κανένα πρόσθετο κειμενογράφου';
 $string['onlytextareaeditorinstalled'] = 'Υπάρχει μόνο ένα πρόσθετο κειμενογράφου για περιοχές κειμένου';
+$string['pluginperformance_help'] = '';
+$string['securitysettings_text'] = '';
+$string['windowsettings_text'] = '';

@@ -26,5 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allevents'] = 'Todos los eventos';
+$string['deleterule'] = 'Eliminar regla';
+$string['deletesubscription'] = 'Eliminar suscripción';
 $string['managerules'] = 'Reglas para monitorización de eventos';
 $string['norules'] = 'No hay reglas para monitorizar eventos.';

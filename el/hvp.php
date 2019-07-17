@@ -25,7 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['cancellabel'] = 'Ακύρωση';
+$string['cancellabel'] = 'Άκυρο';
+$string['copyrightinfo'] = 'Πληροφορίες Πνευματικών Δικαιωμάτων';
+$string['copyrightstring'] = 'Πνευματικά Δικαιώματα';
 $string['download'] = 'Λήψη';
 $string['filenotfoundonserver'] = 'Αδυναμία εύρεσης αρχείου στο διακομιστή. Ελέγξτε τις ρυθμίσεις μεταφόρτωσης αρχείου.';
 $string['filenotimage'] = 'Το αρχείο δεν είναι εικόνα.';
@@ -39,4 +41,5 @@ $string['search'] = 'Αναζήτηση';
 $string['showless'] = 'Εμφάνιση λιγότερων';
 $string['showmore'] = 'Εμφάνιση περισσότερων';
 $string['title'] = 'Τίτλος';
+$string['viewreportlabel'] = 'Αναφορά';
 $string['year'] = 'Έτος';

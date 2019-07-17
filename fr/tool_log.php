@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actlogshdr'] = 'Stockages de journaux disponibles';
 $string['configlogplugins'] = 'Veuillez activer tous les plugins nécessaires et les placer dans l\'ordre adéquat.';
-$string['exportlog'] = 'Inclure les journaux lors de l\'exportation.';
+$string['exportlog'] = 'Inclure les journaux lors de l\'exportation';
 $string['exportlogdetail'] = 'Inclure les journaux en lien avec l\'utilisateur lors de l\'exportation.';
 $string['logging'] = 'Journaux';
 $string['managelogging'] = 'Gérer les stockages des journaux';

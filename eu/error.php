@@ -100,7 +100,7 @@ $string['cannotfindinfo'] = 'Ezin da ondokoarentzako informaziorik aurkitu: "{$a
 $string['cannotfindlang'] = 'Ezin da "{$a}" hizkuntza-paketea aurkitu!';
 $string['cannotfindteacher'] = 'Ezin da irakaslea aurkitu';
 $string['cannotfinduser'] = 'Ezin da "{$a}" erabiltzaile-izena aurkitu';
-$string['cannotgeoplugin'] = 'Ezin da geoPlugin-en  zerbitzarira konektatu (http://www.geoplugin.com). Mesedez, egiaztatu proxy-ren ezarpenak, edo hobeto, instala ezazu MaxMind GeoLite City-ren datu-fitxategia.';
+$string['cannotgeoplugin'] = 'Ezin da geoPlugin-en  zerbitzarira konektatu (https://www.geoplugin.com). Mesedez, egiaztatu proxy-aren ezarpenak edo instalatu ezazu MaxMind GeoLite City-ren datu-fitxategia.';
 $string['cannotgetblock'] = 'Ezin da blokerik berreskuratu datu-basetik';
 $string['cannotgetcats'] = 'Ezin da lortu kategoria-erregistrorik';
 $string['cannotgetdata'] = 'Ezin da daturik lortu';
@@ -387,7 +387,7 @@ $string['loginasonecourse'] = 'Ezin zara ikastaro honetan sartu.<br />"Aukeratu 
 $string['maxareabytes'] = 'Fitxategia eremu honetan geratzen den espazioa baino handiagoa da.';
 $string['maxbytesfile'] = '{$a->file} fitxategia handiegia da. Igo dezakezun gehinezko tamaina  {$a->size} da.';
 $string['messagingdisable'] = 'Mezularitza desgaituta dago gune honetan';
-$string['mimetexisnotexist'] = 'Zure sistema ez dago mimeTeX exekutatzeko konfiguratuta. <a href="http://www.forkosh.com/mimetex.zip">http://www.forkosh.com/mimetex.zip</a> helbidetik C iturburua eskuratu behar duzu, berau konpilatu eta exekutagarria zure guneko /filter/tex/ karpetan jarri beharko zenuke.';
+$string['mimetexisnotexist'] = 'Zure sistema ez dago mimeTeX exekutatzeko konfiguratuta. <a href="https://www.forkosh.com/mimetex.zip">https://www.forkosh.com/mimetex.zip</a> helbidetik C iturburua eskuratu behar duzu, berau konpilatu eta exekutagarria zure guneko /filter/tex/ karpetan jarri beharko zenuke.';
 $string['mimetexnotexecutable'] = 'mimetex pertsonalizatua ez da exekutagarria!';
 $string['missingfield'] = '"{$a}" eremua falta da';
 $string['missingkeyinsql'] = 'ERROREA: kontsultan "{$a}" parametroa falta da';

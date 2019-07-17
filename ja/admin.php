@@ -123,8 +123,8 @@ $string['calendar_weekend'] = '週末日';
 $string['cannotdeletemodfilter'] = '「 {$a->module} 」モジュールの一部のため、あなたは「 {$a->filter} 」をアンインストールできません。';
 $string['cannotuninstall'] = '{$a} をアンインストールすることはできません。';
 $string['categoryemail'] = 'メール';
-$string['cfgwwwrootslashwarning'] = 'あなたはconfig.phpファイルの$CFG->wwwrootを正しく定義していません。末尾に「/」文字が含まれています。「/」文字を取り除いてください。あなたが取り除かない場合、<a href="http://tracker.moodle.org/browse/MDL-11061">MDL-11061</a>のようなバグが発生する可能性があります。';
-$string['cfgwwwrootwarning'] = 'あなたはconfig.phpファイルの$CFG->wwwrootを正しく定義していません。あなたがこのページにアクセスしているURLと合致しません。URLを修正してください。あなたが修正しない場合、<a href="http://tracker.moodle.org/browse/MDL-11061">MDL-11061</a>のようなバグが発生する可能性があります。';
+$string['cfgwwwrootslashwarning'] = 'あなたはconfig.phpファイルの$CFG->wwwrootを正しく定義していません。末尾に「/」文字が含まれています。「/」文字を取り除いてください。';
+$string['cfgwwwrootwarning'] = 'あなたはconfig.phpファイルの$CFG->wwwrootを正しく定義していません。あなたがこのページにアクセスしているURLに合致する必要があります。';
 $string['change'] = '変更';
 $string['checkboxno'] = 'No';
 $string['checkboxyes'] = 'Yes';
@@ -200,18 +200,18 @@ $string['configcoursesperpage'] = 'コース一覧の1ページあたりに表�
 $string['configcourseswithsummarieslimit'] = 'シンプルな一覧に戻る前、コース一覧に表示するコース概要を含むコースの最大数です。';
 $string['configcronclionly'] = 'ウェブ経由でcronを実行することにより、匿名ユーザに機密情報を晒してしまいます。そのため、コマンドラインによるcronの実行またはリモートアクセスに対してcronにパスワードを設定することをお勧めします。';
 $string['configcronremotepassword'] = 'cronパスワードを設定した場合、下記の形式のURLを使用してcronパスワードを提供しない限り、ウェブブラウザからcron.phpを動作させることはできません。<pre>
-http://site.example.com/admin/cron.php?password=opensesame
+https://site.example.com/admin/cron.php?password=opensesame
 </pre>これが空白の場合、パスワードは要求されません。';
 $string['configcurlcache'] = 'cURLキャッシュの有効期間 (Time-to-live) を秒で指定してください。';
 $string['configcustommenuitems'] = 'あなたはテーマに表示されるカスタムメニューをここで設定することができます。それぞれの行はパイプ文字 (|) によって分離されたメニューテキスト、リンクURL (任意)、ツールチップタイトル (任意) および言語コードまたはコードのカンマ区切り一覧 (任意、指定された言語でのみユーザに行を表示する)  により構成されます。あなたはハイフンを使用して構造を定義することもできます。例えば次のようになります:
-<pre>
+pre>
 Moodle community|https://moodle.org
 -Moodle free support|https://moodle.org/support
--Moodle Docs|http://docs.moodle.org|Moodle Docs
--German Moodle Docs|http://docs.moodle.org/de|Documentation in German|de
+-Moodle Docs|https://docs.moodle.org|Moodle Docs
+-German Moodle Docs|https://docs.moodle.org/de|Documentation in German|de
 -###
 -Moodle development|https://moodle.org/development
-Moodle.com|http://moodle.com/
+Moodle.com|https://moodle.com/
 </pre>';
 $string['configcustomusermenuitems'] = 'あなたはユーザメニューのコンテンツを設定することができます (自動的に追加されるログアウトリンクを除きます)。それぞれの行はパイプ文字で区切ってください。また、次の行で構成されます。
 1) 「langstringname, componentname」の形のストリングまたはプレインテキスト
@@ -251,7 +251,7 @@ $string['configenablemobilewebservice'] = '公式Moodle appまたは他のappが
 $string['configenablerssfeeds'] = 'このオプションを有効にした場合、ブログ、フォーラム、データベース活動および用語集を含むサイト全体の様々な機能によってRSSフィードが生成されます。特定のモジュールでRSSフィードを有効にする必要があることに留意してください。';
 $string['configenablerssfeedsdisabled'] = 'サイトすべてにおいてRSSフィードが無効にされているため、利用できません。管理設定内の詳細設定でRSSフィードを利用可にすることができます。';
 $string['configenablerssfeedsdisabled2'] = 'RSSフィードはサイトレベルで無効にされています。サイト管理の拡張機能で有効にすることができます。';
-$string['configenablesafebrowserintegration'] = 'この設定を有効にした場合、小テスト設定の「ブラウザセキュリティ」フィールドに「Safe Exam Browserの使用を必要とする」を追加します。詳細はhttp://www.safeexambrowser.org/をご覧ください。';
+$string['configenablesafebrowserintegration'] = 'この設定を有効にした場合、小テスト設定の「ブラウザセキュリティ」フィールドに「Safe Exam Browserの使用を必要とする」を追加します。詳細はhttps://www.safeexambrowser.org/をご覧ください。';
 $string['configenablestats'] = 'この設定を有効にした場合、Moodleのcronジョブがログを処理して統計情報を集めます。あなたのサイトのトラフィックにより時間を要する場合があります。このオプションを有効にした場合、あなたのそれぞれのコースまたはサイト全体に関して興味深いグラフおよび統計データを閲覧することができます。';
 $string['configenabletrusttext'] = 'デフォルトではMoodleは常にユーザによりアップロードされたセキュリティ上のリスクのある悪意を持ったスクリプト、メディア等をテキストを完全にクリーニングします。コンテンツ信頼システムでは特定のユーザによるコンテンツに対して、干渉しない拡張機能を適用することができます。このシステムを動作させるには最初にこの設定を有効にした後、個別のMoodleロールにコンテンツ信頼パーミッションを与える必要があります。このようなユーザにより作成またはアップロードされたテキストには信頼されている旨のマークが付けられ、表示前にクリーニングされることはありません。';
 $string['configenablewebservices'] = 'ウェブサービスでは他のシステムがこのMoodleにログインして操作できるようにします。セキュリティのため、あなたが本当に使用したい場合以外、この機能を無効にしてください。';
@@ -275,7 +275,7 @@ $string['configfullnamedisplay'] = 'ここでは氏名がどのように表示�
 
 単一言語を使用したほとんどのサイトでは「名 + 姓」を使用した方が良いでしょう。しかし、あなたは姓を完全に隠すこともできます。使用できるプレースホルダは次のとおりです:
 firstname, lastname, firstnamephonetic, lastnamephonetic, middlename, alternatename';
-$string['configgeoipfile'] = 'GeoLite2 City バイナリデータファイルのロケーションです。このファイルはMoodleディストリビューションの一部ではなく、<a href="http://www.maxmind.com/">MaxMind</a>から個別に取得する必要があります。あなたは商用バージョンを購入、または無料バージョンを使用することができます。無料バージョンの場合、<a href="http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz" >http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz</a>からダウンロードした後、あなたのサーバの「 {$a} 」ディレクトリに展開してください。';
+$string['configgeoipfile'] = 'GeoLite2 City バイナリデータファイルのロケーションです。このファイルはMoodleディストリビューションの一部ではなく、<a href="https://www.maxmind.com/">MaxMind</a>から個別に取得する必要があります。あなたは商用バージョンを購入、または無料バージョンを使用することができます。無料バージョンの場合、<a href="https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz" >https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz</a>からダウンロードした後、あなたのサーバの「 {$a} 」ディレクトリに展開してください。';
 $string['configgetremoteaddrconf'] = 'リバースプロキシの背後にサーバを設置している場合、あなたはリモートIPアドレスを含んだ信頼できるHTTPヘッダを指定することができます。ヘッダは順番に読まれ最初の有効なヘッダが使用されます。';
 $string['configgradebookroles'] = 'ここでは誰が評定表に表示されるか設定することができます。ユーザがコース評定表で表示されるためにはこれらの中から少なくとも１つのロールを割り当ててください。';
 $string['configgradeexport'] = 'どの評定表エクスポートフォーマットをあなたの主要な評定表エクスポート方法にするか選択してください。選択されたフォーマットのプラグインが設定され、すべての評定の「最新エクスポート」フィールドに使用されます。例えばエクスポートされたレコードは「新規」または「更新」レコードとして認識されます。この設定に関して自信を持てない場合、すべてをチェックしないままにしてください。';
@@ -671,10 +671,10 @@ $string['ipblocked'] = '現在、このサイトは利用できません。';
 $string['ipblocker'] = 'IPブロッカー';
 $string['ipblockersyntax'] = '1行に1エントリを入力してください。有効なエントリは単一ホストに合致する (<b>192.168.10.1</b>) のようなフルIPアドレス、指定されたIPアドレスで始まる (<b>192.168</b>) のような部分的なアドレス、(<b>231.54.211.0/20</b>) のようなCIDR表記法、またはアドレスの最後の部分に適用される (<b>231.3.56.10-20</b>) のようなIPアドレスの範囲です。「example.com\'」のようなテキストドメインはサポートされません。空白行および「#」記号以下のテキストは無視されます。';
 $string['iplookup'] = 'IPアドレスのルックアップ';
-$string['iplookupgeoplugin'] = '現在、<a href="http://www.geoplugin.com">geoPlugin</a> は地理情報を取得するために使用されています。さらに正確な結果を取得するにはローカルへのMaxMind GeoLiteデータベースのインストールをお勧めします。';
+$string['iplookupgeoplugin'] = '現在、<a href="https://www.geoplugin.com">geoPlugin</a> は地理情報を取得するために使用されています。さらに正確な結果を取得するにはローカルへのMaxMind GeoLiteデータベースのインストールをお勧めします。';
 $string['iplookupinfo'] = 'IPアドレスのロケーションをルックアップするため、MoodleはフリーオンラインNetGeo (The Internet Geographic Database) サーバをデフォルトで利用します。残念ですが、このデータベースは今後メンテナンスされることはなく、「大幅に不正確」なデータを返します。MaxMindからフリーGeoLite2 Cityデータベースのローカルコピーをインストールすることをお勧めします。<br />
 IPアドレスのロケーションはシンプルマップまたはGoogle Mapsを利用して表示されます。インタラクティブマップを有効にするにはGoogleアカウントを取得してフリーGoogle Maps APIキーを適用する必要があることに留意してください。';
-$string['iplookupmaxmindnote'] = 'この製品は<a href="http://www.maxmind.com/">http://www.maxmind.com/</a>で利用できるMaxMindによって作成されたGeoLite2データを含みます。';
+$string['iplookupmaxmindnote'] = 'この製品は<a href="https://www.maxmind.com/">https://www.maxmind.com/</a>で利用できるMaxMindによって作成されたGeoLite2データを含みます。';
 $string['ishttpswarning'] = 'あなたのサイトでは安全なHTTPSを使用していないことが検出されました。セキュリティを増して他のシステムとの統合を改善するため、あなたのサイトをHTTPSに移行することを強くお勧めします。';
 $string['keeptagnamecase'] = 'タグ名の大文字小文字を保持する';
 $string['lang'] = 'デフォルト言語';
@@ -809,7 +809,7 @@ $string['moodlebrandedapp'] = 'ブランドMoodleアプリ';
 $string['moodlebrandedapp_help'] = '<p>ブランドMoodleアプリは私たちのフリーのモバイルアプリの機能すべてにあなたの独自カスタムブランディングが組み合わされたものです。</p>
 <a href="https://moodle.com/branded-app">ブランドMoodleアプリに関して</a>';
 $string['moodlebrandedappreference'] = '代わりにあなたのカスタムブランドの<a href="https://moodle.com/branded-app/">ブランドMoodleアプリ</a>を入手してください。';
-$string['moodleorghubname'] = 'Moodle.net';
+$string['moodleorghubname'] = 'Moodle';
 $string['moodlepartners'] = 'Moodleパートナー';
 $string['moodlepartners_help'] = '<p>Moodle HQにより認定されたMoodleパートナーはあなたの組織のオンライン学習環境に質の高いMoodleサービスを提供します。</p>
 <a href="https://moodle.com/about-partners/">私たちのパートナーに関して</a><br />
@@ -944,7 +944,7 @@ $string['profilefield'] = 'プロファイルフィールド';
 $string['profilefieldcolumns'] = '列';
 $string['profilefieldispassword'] = 'これはパスワードフィールドですか?';
 $string['profilefieldlink'] = 'リンク';
-$string['profilefieldlink_help'] = 'テキストをリンクに変換するには$$を含んだURLを入力してください。$$はテキストと置換されます。例えばTwitter IDをリンクに変換したい場合、次のように入力してください: http://twitter.com/$$';
+$string['profilefieldlink_help'] = 'テキストをリンクに変換するには$$を含んだURLを入力してください。$$はテキストと置換されます。例えばTwitter IDをリンクに変換したい場合、次のように入力してください: https://twitter.com/$$';
 $string['profilefieldlinktarget'] = 'リンクターゲット';
 $string['profilefieldmaxlength'] = '最大長';
 $string['profilefieldrows'] = '行';
@@ -1036,7 +1036,11 @@ $string['registermoodleorgli1'] = 'あなたはセキュリティ警告および
 $string['registermoodleorgli2'] = 'あなたのサイト統計情報が世界規模のMoodleコミュニティの {$a} に追加されます。';
 $string['registerwithmoodleorg'] = 'あなたのサイトを登録する';
 $string['registration'] = '登録';
-$string['registration_help'] = 'セキュリティ警告の受信および私たちのコース共有プラットフォームMoodle.netにアクセスするため、あなたのサイトを登録することをお勧めします。';
+$string['registration_help'] = '登録することにより:
+
+* あなたはセキュリティ警告を受信します。
+* あなたのサイトからのモバイルアプリプッシュ通知を有効にできます。
+* あなたは私たちの世界規模のコミュニティのMoodle統計に貢献できます。';
 $string['registrationwarning'] = 'あなたのサイトはまだ登録されていません。';
 $string['registrationwarningcontactadmin'] = 'あなたのサイトはまだ登録されていません。あなたの管理者にお伝えください。';
 $string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報はオンライン<a target="_blank" href="{$a}">リリースノート</a>をご覧ください。';
@@ -1044,7 +1048,7 @@ $string['rememberusername'] = 'ユーザ名を記憶する';
 $string['rememberusername_desc'] = 'ユーザログイン中、あなたがユーザ名を永続クッキーに保存したい場合、この設定を有効にしてください。同意なしに使用した場合、永続的クッキーはプライバシー問題であると考えられる可能性があります。';
 $string['reportsmanage'] = 'レポートの管理';
 $string['requestcategoryselection'] = 'カテゴリ選択を有効にする';
-$string['requiredentrieschanged'] = '<strong>重要 - お読みください<br />(この警告メッセージはこのアップグレード中にのみ表示されます)。</strong><br />バグ修正のため、「必須エントリ数」および「閲覧前に必要な入力エントリ数」を使用しているデータベース活動の設定は変更されます。この変更に関する詳細は<a href="http://moodle.org/mod/forum/discuss.php?d=110928" target="_blank">データベースモジュールフォーラム</a>でご覧いただけます。また、これらの設定に関する詳細は<a href="http://docs.moodle.org/en/Adding/editing_a_database#Required_entries" target="_blank">Moodle Docs</a>でご覧いただけます。<br /><br />この変更はあなたのシステムの以下のデータベースに影響します: (このリストを保存して、アップグレード後、教師が意図するように動作するか確認してください)<br /><strong>{$a->text}</strong><br />';
+$string['requiredentrieschanged'] = '注意: アップグレード後、設定「閲覧の前にエントリを必要とする」が次のデータベース活動で強制されます:<br/>{$a->text}<br/>';
 $string['requiremodintro'] = '活動説明を必須とする';
 $string['requiremodintro_desc'] = 'この設定を有効にした場合、ユーザはそれぞれの活動の説明の入力を強制されます。';
 $string['requires'] = '必要条件';

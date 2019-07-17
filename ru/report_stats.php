@@ -32,4 +32,5 @@ $string['page-report-stats-index'] = 'Отчет «Статистика» для
 $string['page-report-stats-user'] = 'Отчет «Статистика» для участника курса';
 $string['page-report-stats-x'] = 'Любой отчет «Статистика»';
 $string['pluginname'] = 'Статистика';
+$string['privacy:metadata:statssummary'] = 'Записывает основную статистику о взаимодействии пользователей в курсах.';
 $string['stats:view'] = 'Просматривать отчет «Статистика»';

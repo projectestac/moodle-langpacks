@@ -177,7 +177,7 @@ $string['taxonomy_practice'] = 'Entraînement';
 $string['taxonomy_proficiency'] = 'Aptitude';
 $string['taxonomy_skill'] = 'Habileté';
 $string['taxonomy_value'] = 'Valeur';
-$string['usercommentedonacompetency'] = '{$a->fullname} a commenté la compétence « {$a->competency} »:
+$string['usercommentedonacompetency'] = '{$a->fullname} a commenté la compétence « {$a->competency} » :
 
 {$a->comment}
 

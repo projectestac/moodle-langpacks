@@ -166,9 +166,9 @@ $string['displaydefaultfeedback_help'] = '<h2>Standardrückmeldung anzeigen</h2>
 <p>Bei der Einstellung <strong>Ja</strong> wird die Standardrückmeldung (Richtig/Falsch) angezeigt, sofern keine individuelle Rückmeldung vorhanden ist.</p>
 <p>Bei der Einstellung <strong>Nein</strong> wird keine Rückmeldung angezeigt, sofern keine individuelle Rückmeldung vorhanden ist. Die Teilnehmer/innen werden dann automatisch zur nächsten Seite der Lektion geführt. </p>';
 $string['displayinleftmenu'] = 'Im Menü anzeigen?';
-$string['displayleftif'] = 'Menü nur anzeigen, wenn die Bewertung höher ist als';
+$string['displayleftif'] = 'Inhaltsverzeichnis nur anzeigen, wenn die Bewertung höher ist als';
 $string['displayleftif_help'] = 'Diese Option legt fest, ob eine bestimmte Bewertung erreicht sein muss, damit das Menü sichtbar ist. Dies zwingt Teilnehmer/innen, bei ihrem ersten Versuch durch die gesamte Lektion zu gehen. Erst mit dem Erreichen einer bestimmten Punktzahl kann das Menü benutzt werden, um  alle Lösungen nochmals zu kontrollieren.';
-$string['displayleftmenu'] = 'Menü anzeigen';
+$string['displayleftmenu'] = 'Inhaltsverzeichnis anzeigen';
 $string['displayleftmenu_help'] = 'Diese Option legt fest, ob ein Menü zur Navigation zwischen den Seiten angezeigt wird.';
 $string['displayofgrade'] = 'Anzeige der Bewertungen (für Teilnehmer/innen)';
 $string['displayreview'] = 'Wiederholung bei falscher Antwort';
@@ -297,7 +297,7 @@ $string['lessonformating'] = 'Lektion wird formatiert';
 $string['lesson:grade'] = 'Freitextfragen in Lektionen bewerten';
 $string['lesson:manage'] = 'Lektion verwalten';
 $string['lesson:manageoverrides'] = 'Lektionsüberschreibungen verwalten';
-$string['lessonmenu'] = 'Seitenmenü';
+$string['lessonmenu'] = 'Inhaltsverzeichnis';
 $string['lessonname'] = 'Lektion: {$a}';
 $string['lessonnotready'] = 'Diese Lektion ist noch nicht verfügbar. Nehmen Sie bitte mit {$a} Kontakt auf.';
 $string['lessonnotready2'] = 'Diese Lektion kann noch nicht bearbeitet werden.';

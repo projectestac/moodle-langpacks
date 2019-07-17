@@ -100,7 +100,7 @@ $string['cannotfindinfo'] = 'Impossible de trouver d\'information pour « {$a}�
 $string['cannotfindlang'] = 'Paquetage de la langue « {$a} » introuvable';
 $string['cannotfindteacher'] = 'Impossible de trouver un enseignant';
 $string['cannotfinduser'] = 'Impossible de trouver l\'utilisateur « {$a} »';
-$string['cannotgeoplugin'] = 'Impossible de se connecter au serveur geoPlugin à l\'adresse http://www.geoplugin.com. Veuillez vérifier les réglages du proxy, ou, mieux encore, installer le fichier MaxMind GeoLite City data.';
+$string['cannotgeoplugin'] = 'Impossible de se connecter au serveur geoPlugin à l\'adresse https://www.geoplugin.com. Veuillez vérifier les réglages du proxy ou installer le fichier MaxMind GeoLite City data.';
 $string['cannotgetblock'] = 'Impossible de récupérer les blocs dans la base de données';
 $string['cannotgetcats'] = 'Impossible d\'obtenir l\'enregistrement de la catégorie';
 $string['cannotgetdata'] = 'Impossible d\'obtenir les données';
@@ -384,7 +384,7 @@ $string['loginasonecourse'] = 'Vous ne pouvez pas entrer dans ce cours.<br />Vou
 $string['maxareabytes'] = 'Le fichier dépasse l\'espace disponible dans cette zone.';
 $string['maxbytesfile'] = 'La taille du fichier {$a->file} est trop grande. La taille maximale d\'un fichier à déposer est de {$a->size}.';
 $string['messagingdisable'] = 'La messagerie est désactivée sur ce site';
-$string['mimetexisnotexist'] = 'Votre serveur n\'est pas configuré pour lancer mimeTeX. Veuillez télécharger les sources en C du programme ici <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>, les compiler et placer le programme dans le dossier moodle/filter/tex/.';
+$string['mimetexisnotexist'] = 'Votre serveur n\'est pas configuré pour lancer mimeTeX. Veuillez télécharger les sources en C du programme ici <a href="https://www.forkosh.com/mimetex.zip"> https://www.forkosh.com/mimetex.zip</a>, les compiler et placer le programme dans le dossier moodle/filter/tex/.';
 $string['mimetexnotexecutable'] = 'Votre programme <i>mimetex</i> n\'est pas exécutable !';
 $string['missingfield'] = 'Le champ « {$a} » est manquant';
 $string['missingkeyinsql'] = 'Erreur : paramètre « {$a} » manquant dans la requête';

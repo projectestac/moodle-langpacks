@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['asap'] = 'ASAP';
 $string['backtoscheduledtasks'] = 'Voltar para as tarefas agendadas';
 $string['blocking'] = 'Bloqueio';
-$string['cannotfindthepathtothecli'] = 'Não é possível encontrar o executável CLI do PHP para que a execução da tarefa seja anulada. Defina a configuração \'Caminho para CLI do PHP\' em Administração do Site / Servidor / Caminhos do Sistema.';
+$string['cannotfindthepathtothecli'] = 'Não é possível encontrar o executável CLI do PHP para que a execução da tarefa seja anulada. Defina a configuração \'Caminho para o CLI do PHP\' em Administração do Site / Servidor / Caminhos do sistema.';
 $string['clearfaildelay_confirm'] = 'Tem a certeza de que pretende limpar o atraso de falha para a tarefa \'{$a}\'? Depois de limpar o atraso, a tarefa será executada de acordo com a sua programação normal.';
 $string['component'] = 'Componente';
 $string['corecomponent'] = 'Core';

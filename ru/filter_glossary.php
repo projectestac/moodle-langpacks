@@ -26,4 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['filtername'] = 'Автоматическое создание ссылок на записи модуля «Глоссарий»';
+$string['glossarycategory'] = '{$a->glossary}: Категория {$a->category}';
+$string['glossaryconcept'] = '{$a->glossary}: {$a->concept}';
 $string['privacy:metadata'] = 'Плагин автосвязывания глоссария не хранит никаких персональных данных.';

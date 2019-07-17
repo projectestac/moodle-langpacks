@@ -27,4 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['advancedsearch'] = 'Búsqueda avanzada';
 $string['pluginname'] = 'Buscar en los foros';
+$string['privacy:metadata'] = 'El Bloque para Buscar en Foros solamente muestra datos almacenados en otros lugares.';
 $string['search_forums:addinstance'] = 'Añadir un nuevo bloque de buscar en foros';

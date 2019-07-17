@@ -36,7 +36,7 @@ $string['addnewuseroverride'] = 'ユーザオーバーライドを追加する';
 $string['addsubmission'] = '課題を追加する';
 $string['addsubmission_help'] = 'あなたはまだ提出していいません。';
 $string['allocatedmarker'] = '割り当て採点者';
-$string['allocatedmarker_help'] = 'この提出に割り当てられた採点者';
+$string['allocatedmarker_help'] = 'この提出に割り当てられた採点者です。';
 $string['allowsubmissions'] = 'この課題にユーザが継続して提出できるようにします。';
 $string['allowsubmissionsanddescriptionfromdatesummary'] = '課題詳細および提出フォームは <strong>{$a}</strong> から利用できます。';
 $string['allowsubmissionsfromdate'] = '開始日時';
@@ -84,9 +84,9 @@ $string['attemptnumber'] = '提出回数';
 $string['attemptreopenmethod'] = '提出再オープン';
 $string['attemptreopenmethod_help'] = '学生の提出をどのように再オープンするか決定します。利用可能なオプションは以下のとおりです:
 <ul>
-<li>なし - 学生の提出を再オープンすることはできません。</li>
-<li>手動 - 学生の提出は教師により再オープンすることができます。</li>
-<li>合格するまで自動 - この課題に設定された評定表内 (評定表セットアップセクション) の合格点に到達するまで学生の提出は自動的に再オープンされます。</li>
+<li>なし - 提出を再オープンすることはできません。</li>
+<li>手動 - 提出は教師により再オープンすることができます。</li>
+<li>合格するまで自動 - この課題に設定された評定表内の合格点に到達するまで学生の提出は自動的に再オープンされます。</li>
 </ul>';
 $string['attemptreopenmethod_manual'] = '手動';
 $string['attemptreopenmethod_none'] = 'なし';
@@ -133,6 +133,7 @@ $string['couldnotconvertsubmission'] = 'ユーザ {$a} の提出課題をコン�
 $string['couldnotcreatecoursemodule'] = 'コースモジュールを作成できませんでした。';
 $string['couldnotcreatenewassignmentinstance'] = '新しい課題インスタンスを作成できませんでした。';
 $string['couldnotfindassignmenttoupgrade'] = 'アップグレードするための古い課題インスタンスを見つけることができませんでした。';
+$string['currentassigngrade'] = '課題の現在の評定';
 $string['currentattempt'] = 'これは {$a} 回目の提出です。';
 $string['currentattemptof'] = 'これは {$a->attemptnumber} 回目の提出です ( {$a->maxattempts} 回の提出が許可されています)。';
 $string['currentgrade'] = '評定表内の現在の評定';
@@ -268,7 +269,7 @@ $string['grantextension'] = '延長を許可する';
 $string['grantextensionforusers'] = '{$a} 名の学生に対して延長を許可する';
 $string['groupoverrides'] = 'グループオーバーライド';
 $string['groupoverridesdeleted'] = 'グループオーバーライドが削除されました。';
-$string['groupsnone'] = 'このコースにグループはありません。';
+$string['groupsnone'] = 'あなたがアクセスできるグループはありません。';
 $string['groupsubmissionsettings'] = 'グループ提出設定';
 $string['hiddenuser'] = '参加者';
 $string['hideshow'] = '非表示/表示';
@@ -306,7 +307,7 @@ $string['markingworkflowstate_help'] = '使用可能なワークフローステ�
 * 採点中 - 採点者は開始しましたが、まだ完了していません。
 * 採点完了 - 採点者は完了していますが、チェックおよび訂正が必要です。
 * レビュー中 - 採点は教師によるクオリティチェック中です。
-* リリース準備完了 - 担当教師は採点に満足していますが、学生に対して評点にアクセスさせる前に待機しています。
+* リリース準備完了 - 担当教師は採点に満足した場合でも、学生が評点にアクセスできるようにする前に待機できます。
 * リリース - 学生は評点およびフィードバックにアクセスすることができます。';
 $string['markingworkflowstateinmarking'] = '採点中';
 $string['markingworkflowstateinreview'] = 'レビュー中';
@@ -318,7 +319,7 @@ $string['maxattempts'] = '最大提出回数';
 $string['maxattempts_help'] = '学生が試みることのできる最大提出回数です。この提出回数に達した場合、提出を再度開くことができないようになります。';
 $string['maxgrade'] = '最大評点';
 $string['maxperpage'] = '1ページあたりの最大課題数';
-$string['maxperpage_help'] = '評定者が課題評定ページに表示できる最大課題数です。非常に多くの受講登録があるコースのタイムアウトを防ぐことに有用です。';
+$string['maxperpage_help'] = '評定者が課題評定ページに表示できる最大課題数です。この設定は非常に多くの受講登録のいるコースのタイムアウトを防ぐことに有用です。';
 $string['messageprovider:assign_notification'] = '課題通知';
 $string['modulename'] = '課題';
 $string['modulename_help'] = '課題活動モジュールにおいて、教師はタスクの伝達、作業の収集、評点およびフィードバックを提供することができます。

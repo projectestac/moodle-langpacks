@@ -82,7 +82,7 @@ $string['settingshortname'] = 'Tag di descrizione IMS per il titolo abbreviato d
 $string['settingshortnamedescription'] = 'Il titolo abbreviato del corso è un capo obbligatorio, è necessario definire il tag di descrizione nel file IMS Enterprise';
 $string['settingsummary'] = 'Tag di descrizione IMS per la descrizione del corso';
 $string['settingsummarydescription'] = 'Il campo è opzionale, è possibile non utilizzarlo selezionando \'Lascia vuoto\'';
-$string['sourcedidfallback'] = 'Utilizza il campo &quot;sourcedid&quot; come userid di una persona se il campo &quot;userid&quot; non è presente';
+$string['sourcedidfallback'] = 'Utilizza il campo \'sourcedid\' come userid di un utente se non si trova il campo \'userid\' .';
 $string['sourcedidfallback_desc'] = 'Nei file IMS il campo <sourcedid> rappresenta il codice ID permanente assegnato all\'utente dal sistema da dove si originano i dati.
 Il campo <userid> è un campo separato che contiene il codice ID usato dagli utenti per autenticarsi. Spesso i due valori coincidono, in altri casi no.
 

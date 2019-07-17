@@ -37,7 +37,7 @@ $string['localinstall_help'] = 'MathJax-en konfigurazio lehenetsiak MathJax-en C
 
 Hau erabilgarria izan daiteke banda-zabalera aurrezteko edota proxy lokalen murrizketak saihesteko.
 
-MathJax-en instalazio lokala erabiltzeko, lehenik eta behin MathJax liburutegi osoa jaitsi http://www.mathjax.org/ helbidetik. Ondoren instala ezazu web-zerbitzari batean. Eta bukatzeko MathJax iragazkiaren httpurl edota httpsurl ezarpenetan MathJax.js lokalaren URLak konfigura itzazu.';
+MathJax-en instalazio lokala erabiltzeko, lehenik eta behin MathJax liburutegi osoa jaitsi https://www.mathjax.org/ helbidetik. Ondoren instala ezazu web-zerbitzari batean. Eta bukatzeko MathJax iragazkiaren httpurl edota httpsurl ezarpenetan MathJax.js lokalaren URLak konfigura itzazu.';
 $string['mathjaxsettings'] = 'MathJax-en ezarpenak';
 $string['mathjaxsettings_desc'] = 'MathJax-en konfigurazio lehenetsia egokia izan beharko litzateke erabiltzaile gehienentzat, baina MathJax oso konfiguragarria da eta hemen MathJax estandarraren edozein konfigurazio aukera gehi daitezke.';
 $string['privacy:metadata'] = 'MathJax pluginak ez du datu pertsonalik biltzen.';

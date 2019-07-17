@@ -119,7 +119,7 @@ $string['auth_ntlmsso_subnet'] = 'L\'impostazione consente l\'SSO solo dai clien
 $string['auth_ntlmsso_subnet_key'] = 'Subnet';
 $string['auth_ntlmsso_type'] = 'Il metodo di autenticazione configurato nel web server per autenticare gli utenti (se sei in dubbio scegli NTLM)';
 $string['auth_ntlmsso_type_key'] = 'Tipo di autenticazione';
-$string['cannotmaprole'] = 'Non è possibile mappare Il ruolo  "{$a->rolename}" poiché è troppo lungo il suo nome abbreviato "{$a->shortname}". Per poterlo mappare, è necessario ridurre la lunghezza a {$a->charlimit} caratteri. <a href="{$a->link}">Modifica i campi del profilo utente.</a>';
+$string['cannotmaprole'] = 'Non è possibile mappare Il ruolo  "{$a->rolename}" poiché il suo nome abbreviato "{$a->shortname}" è troppo lungo oppure contiene trattini. Per poterlo mappare, è necessario ridurre la lunghezza a {$a->charlimit} caratteri e/o rimuovere i tratini. <a href="{$a->link}">Modifica il ruolo.</a>';
 $string['connectingldap'] = 'Connessione al server LDAP...';
 $string['connectingldapsuccess'] = 'La connessione al server LDAP è avvenuta correttamente';
 $string['creatingtemptable'] = 'Creazione tabella temporanea {$a}';

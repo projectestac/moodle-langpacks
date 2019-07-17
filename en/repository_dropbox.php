@@ -31,7 +31,7 @@ $string['cachelimit_info'] = 'Enter the maximum size of files (in bytes) to be c
 $string['configplugin'] = 'Dropbox configuration';
 $string['dropbox'] = 'Dropbox';
 $string['dropbox:view'] = 'View a Dropbox folder';
-$string['instruction'] = 'You can get your API Key and secret from <a href="http://www.dropbox.com/developers/apps">Dropbox developers</a>. When setting up your key please select "Full Dropbox" as the "Access level".';
+$string['instruction'] = 'You can get your API Key and secret from <a href="https://www.dropbox.com/developers/apps">Dropbox developers</a>. When setting up your key please select "Full Dropbox" as the "Access level".';
 $string['logoutdesc'] = '(Logout when you finish using Dropbox)';
 $string['notitle'] = 'notitle';
 $string['oauth2redirecturi'] = 'OAuth 2 Redirect URI';

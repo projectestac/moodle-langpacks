@@ -252,5 +252,5 @@ $string['viewunreadmessageswith'] = 'Непрочитанные сообщени
 $string['wouldliketocontactyou'] = 'Хотят связаться с вами';
 $string['writeamessage'] = 'Напишите сообщение...';
 $string['you'] = 'Вы:';
-$string['youhaveblockeduser'] = 'Вы ранее заблокировали этого пользователя';
+$string['youhaveblockeduser'] = 'Вы заблокировали этого пользователя';
 $string['yourcontactrequestpending'] = 'Ваш запрос на добавление в контакты находится на рассмотрении с {$a}';

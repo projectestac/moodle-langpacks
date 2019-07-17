@@ -119,6 +119,7 @@ $string['eventsimported'] = 'Импортировано событий: {$a}';
 $string['eventskey'] = 'Легенда событий';
 $string['eventsource'] = 'Источник события';
 $string['eventspersonal'] = 'Мои личные события';
+$string['eventsrelatedtocategories'] = 'События, связанные с категориями';
 $string['eventsrelatedtocourses'] = 'События курса';
 $string['eventsrelatedtogroups'] = 'События, связанные с группами';
 $string['eventstarttime'] = 'Время начала';

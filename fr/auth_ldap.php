@@ -99,7 +99,7 @@ $string['auth_ldap_usertypeundefined2'] = 'Le type config.user_type n\'est pas d
 $string['auth_ldap_version'] = 'La version du protocole LDAP que votre serveur utilise.';
 $string['auth_ldap_version_key'] = 'Version';
 $string['auth_ntlmsso'] = 'SSO NTLM';
-$string['auth_ntlmsso_enabled'] = 'Sélectionner Oui pour authentifier les utilisateurs via un domaine NTLM. <strong>Remarque :</strong> pour fonctionner, cette méthode d\'authentification requiert d\'autres réglages sur votre serveur. Voir <a href="http://docs.moodle.org/fr/Authentification_NTLM">http://docs.moodle.org/fr/Authentification_NTLM</a>';
+$string['auth_ntlmsso_enabled'] = 'Sélectionner Oui pour authentifier les utilisateurs via un domaine NTLM. Remarque : pour fonctionner, cette méthode d\'authentification requiert d\'autres réglages sur votre serveur. Voir <a href="https://docs.moodle.org/fr/Authentification_NTLM">https://docs.moodle.org/fr/Authentification_NTLM</a>';
 $string['auth_ntlmsso_enabled_key'] = 'Activer';
 $string['auth_ntlmsso_ie_fastpath'] = 'Activer le chemin rapide NTLM SSO (saute certaines étapes si le navigateur client est Internet Explorer).';
 $string['auth_ntlmsso_ie_fastpath_attempt'] = 'Tenter NTLM avec tous les navigateurs';

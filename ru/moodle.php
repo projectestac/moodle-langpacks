@@ -617,8 +617,8 @@ $string['edulevel'] = 'Все события';
 $string['edulevel_help'] = '* Обучение — действия, выполняемые учителем, например, обновление ресурса
 * Участие — действия, выполняемые студентом, например, публикация в форуме
 * Другое — действия, выполняемые пользователем с ролью, отличной от роли учителя или студента';
-$string['edulevelother'] = 'Другой';
-$string['edulevelparticipating'] = 'Участник';
+$string['edulevelother'] = 'Другое';
+$string['edulevelparticipating'] = 'Участие';
 $string['edulevelteacher'] = 'Обучение';
 $string['email'] = 'Адрес электронной почты';
 $string['emailactive'] = 'Адрес электронной почты подтвержден';
@@ -1421,7 +1421,7 @@ $string['notifyloginfailuresmessageend'] = 'Вы можете просмотре
 $string['notifyloginfailuresmessagestart'] = 'Это список ошибочных попыток входа на сайт {$a} с момента последнего уведомления';
 $string['notifyloginfailuressubject'] = '{$a} :: Уведомление об ошибках входа в систему';
 $string['notincluded'] = 'Не включено';
-$string['notingroup'] = 'Извините, но Вы должны быть участником группы, чтобы видеть этот элемент.';
+$string['notingroup'] = 'Извините, но Вы должны быть участником группы, чтобы видеть эту страницу.';
 $string['notpublic'] = 'Не для всех!';
 $string['nousersfound'] = 'Пользователи не найдены';
 $string['nousersmatching'] = 'Не найдено пользователей, соответствующих шаблону «{$a}»';

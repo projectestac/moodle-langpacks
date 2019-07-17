@@ -200,7 +200,7 @@ $string['backuplogdetailed'] = '詳細実行ログ';
 $string['backuploglaststatus'] = '最新実行ログ';
 $string['backupmissinguserinfoperms'] = '注意: このバックアップにはユーザデータが含まれていません。また、このタイプのバックアップに互換性がないため、これらのモジュールはバックアップに含まれません。';
 $string['backupnext'] = '次のバックアップ';
-$string['backupnonisowarning'] = '警告: このバックアップは非ユニコードバージョンのMoodle (1.6以前) によって作成されたものです。このバックアップに非ISO-8859-1テキストが含まれている場合、ユニコードバージョンのMoodleにリストアすることのより文字化けが発生する可能性があります。このバックアップを正常にするための詳細情報は<a href="http://docs.moodle.org/ja/バックアップFAQ">バックアップFAQ</a>をご覧ください。';
+$string['backupnonisowarning'] = '警告: このバックアップは非ユニコードバージョンのMoodle (1.6以前) によって作成されたものです。このバックアップに非ISO-8859-1テキストが含まれている場合、ユニコードバージョンのMoodleにリストアすることのより文字化けが発生する可能性があります。このバックアップを正常にするための詳細情報は<a href="https://docs.moodle.org/ja/バックアップFAQ">バックアップFAQ</a>をご覧ください。';
 $string['backupnotyetrun'] = '自動バックアップ保留';
 $string['backuporiginalname'] = 'バックアップ名';
 $string['backuproleassignments'] = 'これらのロールに対するロール割り当てをバックアップする';
@@ -900,26 +900,25 @@ $string['general'] = '一般';
 $string['geolocation'] = '緯度 - 経度';
 $string['gettheselogs'] = 'これらのログを取得する';
 $string['go'] = 'Go';
-$string['gpl'] = 'Copyright (C) 1999 onwards Martin Dougiamas (http://moodle.com)
+$string['gpl'] = 'Copyright (C) 1999 onwards Martin Dougiamas (https://moodle.com)
 
 このプログラムはフリーソフトウェアです。あなたはこれを、フリーソフトウェア財団によって発行された GNU 一般公衆利用許諾契約書 (バージョン2か、希望によってはそれ以降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができます。
 
 このプログラムは有用であることを願って頒布されますが、*全くの無保証*です。商業可能性の保証や特定の目的への適合性は言外に示されたものも含め全く存在しません。
 
-詳しくはMoodleライセンス情報をご覧ください：
-http://docs.moodle.org/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9';
-$string['gpl3'] = 'Copyright (C) 1999 onwards Martin Dougiamas (http://moodle.com)
+詳しくはMoodleライセンス情報をご覧ください： https://docs.moodle.org/dev/License';
+$string['gpl3'] = 'Copyright (C) 1999 onwards Martin Dougiamas (https://moodle.com)
 
 このプログラムはフリーソフトウェアです。あなたはこれをフリーソフトウェア財団によって発行された GNU 一般公衆利用許諾契約書 (バージョン2か、希望によってはそれ以降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができます。
 
 このプログラムは有用であることを願って頒布されますが*全くの無保証*です。商業可能性の保証や特定の目的への適合性は言外に示されたものも含め全く存在しません。
 
 詳しくはMoodleライセンス情報をご覧ください：
-http://docs.moodle.org/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9';
+https://docs.moodle.org/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9';
 $string['gpllicense'] = 'GPLライセンス';
 $string['grade'] = '評点';
 $string['grades'] = '評定';
-$string['gravatarenabled'] = 'このサイトでは<a href="http://www.gravatar.com/">Gravatar</a>が有効にされています。あなたがプロファイル画像をアップロードしていない場合、MoodleはGravatarよりプロファイル画像の取得を試みます。';
+$string['gravatarenabled'] = 'このサイトでは<a href="https://www.gravatar.com/">Gravatar</a>が有効にされています。あなたがプロファイル画像をアップロードしていない場合、MoodleはGravatarよりプロファイル画像の取得を試みます。';
 $string['group'] = 'グループ';
 $string['groupadd'] = '新しいグループを追加する';
 $string['groupaddusers'] = '選択した人をグループに追加する';

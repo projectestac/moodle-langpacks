@@ -419,7 +419,7 @@ $string['postaddedtimeleft'] = 'Aldaketaren bat egin nahi baduzu, {$a} dituzu me
 $string['postbymailsuccess'] = 'Zorionak, idatzi duzun eta "{$a->subject}" gaia duen mezua ondo bidali da. Mezua hurrengo helbidean ikusi dezakezu {$a->discussionurl}.';
 $string['postbymailsuccess_html'] = 'Zorionak, idatzi duzun eta "{$a->subject}" gaia <a href="{$a->discussionurl}">duen mezua</a> ondo bidali da.';
 $string['postbyuser'] = '{$a->user}-(r)en {$a->post}';
-$string['postincontext'] = 'Mezu hau testuinguruan ikusi';
+$string['postincontext'] = 'Ikusi mezu hau bere testuinguruan';
 $string['postmailinfolink'] = 'Hau {$a->coursename} ikastaroan argitaratutako mezu baten kopia da.
 
 Erantzuteko egin klik esteka honetan: {$a->replylink}';
@@ -543,7 +543,7 @@ $string['searchuser'] = 'Izen hau egilearena izan behar litzateke';
 $string['searchuserid'] = 'Egilearen ID-a Moodle-n';
 $string['searchwhichforums'] = 'Aukeratu zein forotan bilatu behar den';
 $string['searchwords'] = 'Hitz hauek mezuaren edozein lekutan ager daitezke';
-$string['seeallposts'] = 'Erabiltzaile honen mezu guztiak ikusi';
+$string['seeallposts'] = 'Ikusi erabiltzaile honen mezu guztiak';
 $string['shortpost'] = 'Mezu laburra';
 $string['showsubscribers'] = 'Erakutsi/editatu oraingo harpidedunak';
 $string['singleforum'] = 'Eztabaida arrunt bakarra';
@@ -591,7 +591,7 @@ $string['trackingoptional'] = 'Aukeran';
 $string['trackingtype'] = 'Irakurri gabekoen nabarmentzea';
 $string['trackingtype_help'] = 'Irakurketaren jarraipenaren bitartez partaideek irakurri gabeko mezuak konprobatu egin ditzakete mezu berriak nabarmenduz.
 
-Aukeran utziz gero partaideek kudeaketa blokean nabarmentzea ala ez aukeratu dezakete. (Foroen nabarmentzea erabiltzailearen profilean ere gaituta egon behar du.)
+Aukeran utziz gero partaideek nabarmentzea ala ez aukeratu dezakete ekintza-menuan edo kudeaketa blokean. (Foroen nabarmentzea erabiltzailearen profilean ere gaituta egon behar du.)
 
 Gunearen kudeaketan "Baimendu Irakurri gabekoak nabarmentzea behartzea" gaituta badago, beste aukera bat agertuko da - behartuta. Aukera honek jarraipena beti gaituta egotea ahalbidetzen du, erabiltzailearen hobespenak edozein izanda ere.';
 $string['trackreadposts_header'] = 'Foroko jarraipena';

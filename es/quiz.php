@@ -588,7 +588,7 @@ Para agregar saltos de página después de determinadas cuestiones, marque la ca
 Para ordenar las preguntas por un número de páginas, haga clic en el botón "Paginar de nuevo" y seleccione el número deseado de preguntas por página.';
 $string['orderingquiz'] = 'Orden y paginación';
 $string['orderingquizx'] = 'Orden y paginación: {$a}';
-$string['outcomesadvanced'] = '';
+$string['outcomesadvanced'] = 'Los resultados son ajustes avanzados';
 $string['outof'] = '{$a->grade} de {$a->maxgrade}';
 $string['outofpercent'] = '{$a->grade} de {$a->maxgrade} ({$a->percent}%)';
 $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';

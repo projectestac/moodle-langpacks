@@ -30,6 +30,6 @@ $string['blindmarkingviewfullname'] = '{$a->participantnumber}. partaidea ({$a->
 $string['default'] = 'Gaituta modu lehenetsian';
 $string['default_help'] = 'Ezarriz gero, bidalketa-metodo hau modu lehenetsian gaituko da zeregin berri guztietan.';
 $string['enabled'] = 'Bidalketaren iruzkinak';
-$string['enabled_help'] = 'Gaituz gero, ikasleek iruzkinak jar ditzakete bere bidalketak egiterakoan. Adibidez, erabili daiteke ikasleek kalifikatzaileari bidalketako fitxategi nagusia zein den adierazteko, fitxategi bat baino gehiago dagoenean.';
+$string['enabled_help'] = 'Gaituz gero, ikasleek iruzkinak jar ditzakete bere bidalketak egiterakoan. Adibidez, aukera hau erabili daiteke ikasleek bidalketako fitxategi nagusia zein den adierazteko, bidalketan fitxategi bat baino gehiago dagoenean.';
 $string['pluginname'] = 'Bidalketaren iruzkinak';
 $string['privacy:metadata:commentpurpose'] = 'Ikasle eta irakasleen artean trukatutako bidalketaren inguruko iruzkinak.';

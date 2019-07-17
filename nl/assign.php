@@ -128,6 +128,7 @@ $string['couldnotconvertsubmission'] = 'Kon inzending van de opdracht niet conve
 $string['couldnotcreatecoursemodule'] = 'Kon cursusmodule niet aanmaken.';
 $string['couldnotcreatenewassignmentinstance'] = 'Kon geen nieuwe opdrachtinstantie maken.';
 $string['couldnotfindassignmenttoupgrade'] = 'Kon geen oude opdracht-instantie vinden om te upgraden.';
+$string['currentassigngrade'] = 'Huidige cijfer in opdracht';
 $string['currentattempt'] = 'Deze poging {$a}';
 $string['currentattemptof'] = 'Dit is poging {$a->attemptnumber} ({$a->maxattempts} pogingen zijn toegestaan).';
 $string['currentgrade'] = 'Huidig cijfer in de cijferlijst';
@@ -291,7 +292,7 @@ $string['markerfilternomarker'] = 'Geen beoordelaar';
 $string['markingallocation'] = 'Gebruik toewijzing beoordelaars';
 $string['markingallocation_help'] = 'Indien dit ingeschakeld is samen met de beoordelingsworkflow, dan kun je beoordelaars toewijzen aan individuele leerlingen.';
 $string['markingworkflow'] = 'Gebruik beoordelings-workflow';
-$string['markingworkflow_help'] = 'Indien ingeschakeld zullen beoordelingen door een workflow gaan, vooraleer ze aan leerlingen vrijgegeven worden. Dit maakt meerdere beoordelingssessies toe zodat de cijfers tegelijk aan alle leerlingen gegeven kunnen worden.';
+$string['markingworkflow_help'] = 'Indien ingeschakeld zullen beoordelingen door een workflow gaan, vooraleer ze aan leerlingen vrijgegeven worden. Dit laat meerdere beoordelingssessies toe zodat de cijfers tegelijk aan alle leerlingen gegeven kunnen worden.';
 $string['markingworkflowstate'] = 'Status van de beoordelings-workflow';
 $string['markingworkflowstate_help'] = 'De lijst van workflow statussen waaruit je kunt kiezen hangt af van je rechten in deze opdracht. Dit kan bijvoorbeeld zijn:
 
