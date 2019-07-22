@@ -48,7 +48,7 @@ $string['availablefromdate'] = 'Disponible du';
 $string['availabletags'] = 'Balises disponibles';
 $string['availabletags_help'] = 'Les balises sont des paramètres du modèle, qui seront remplacés par des champs ou d\'autres éléments, par exemple une icône d\'édition, lorsque les fiches sont modifiées ou affichées.
 
-Les champs ont le format [[nom_de_champ]]. Toutes les autres balises sont formatées ainsi  ##une_balise##.
+Les champs ont le format [[nom_de_champ]]. Toutes les autres balises sont formatées ainsi ##une_balise##.
 
 Seules les balises dans la liste des « Balises disponibles » peuvent être utilisées dans le modèle actuel.';
 $string['availabletodate'] = 'Disponible jusqu\'au';

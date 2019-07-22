@@ -76,7 +76,7 @@ $string['messageprocessingerror'] = 'Vous avez récemment envoyé un courriel «
 Les détails de l\'erreur sont indiqués ci-dessous.
 
 {$a->error}';
-$string['messageprocessingerrorhtml'] = '<p>Vous avez récemment envoyé un courriel  « {$a->subject} », qui n\'a malheureusement pas pu être traité.</p>
+$string['messageprocessingerrorhtml'] = '<p>Vous avez récemment envoyé un courriel « {$a->subject} », qui n\'a malheureusement pas pu être traité.</p>
 <p>Les détails de l\'erreur sont indiqués ci-dessous.</p>
 <p>{$a->error}</p>';
 $string['messageprocessingfailed'] = 'Le courriel « {$a->subject} » n\'a pas pu être traité. Voici le message d\'erreur qui a été renvoyé : « {$a->message} ».';

@@ -163,11 +163,11 @@ $string['discussionsubscription_help'] = 'L\'abonnement à une discussion vous p
 $string['discussionunpin'] = 'Dépingler';
 $string['discussthistopic'] = 'Discuter sur ce sujet';
 $string['displayend'] = 'Fin de l\'affichage';
-$string['displayend_help'] = 'Ce réglage détermine si un message de forum doit être caché après une certaine date. À noter que les administrateurs peuvent  toujours voir les messages.';
+$string['displayend_help'] = 'Ce réglage détermine si un message de forum doit être caché après une certaine date. À noter que les administrateurs peuvent toujours voir les messages.';
 $string['displaymode'] = 'Type d\'affichage';
 $string['displayperiod'] = 'Période d\'affichage';
 $string['displaystart'] = 'Début de l\'affichage';
-$string['displaystart_help'] = 'Ce réglage détermine si un message de forum doit être affiché à partir d\'une certaine date. À noter que les administrateurs peuvent  toujours voir les messages.';
+$string['displaystart_help'] = 'Ce réglage détermine si un message de forum doit être affiché à partir d\'une certaine date. À noter que les administrateurs peuvent toujours voir les messages.';
 $string['displaywordcount'] = 'Afficher le nombre de mots';
 $string['displaywordcount_help'] = 'Ce réglage détermine si le nombre de mots de chaque message est affiché ou non.';
 $string['eachuserforum'] = 'Chaque personne lance une discussion unique';
@@ -182,7 +182,7 @@ $string['emaildigestsubjectsshort'] = 'Objets seulement';
 $string['emaildigesttype'] = 'Options des courriels quotidiens';
 $string['emaildigesttype_help'] = 'Le type de notification que vous recevrez pour chaque forum.
 
-* Réglage par défaut – c\'est le réglage de votre profil pour ce paramètre. Si  vous le modifiez dans votre profil, cette modification sera prise en compte ici également.
+* Réglage par défaut – c\'est le réglage de votre profil pour ce paramètre. Si vous le modifiez dans votre profil, cette modification sera prise en compte ici également.
 * Pas de courriel quotidien – vous ne recevrez pas de courriel quotidien, mais un courriel pour chaque message de forum.
 * Messages complets – vous recevrez un courriel quotidien contenant la totalité du contenu de chaque message de forum.
 * Objets seulement – vous recevrez un courriel quotidien ne contenant que l\'objet de chaque message de forum.';
@@ -337,7 +337,7 @@ Divers types de forums peuvent être choisis, comme un forum standard, où chacu
 
 Les images jointes sont affichées dans le message. Les participants peuvent s\'abonner à un forum afin de recevoir les messages des forums par courriel. L\'enseignant peut rendre l\'abonnement facultatif, obligatoire ou l\'empêcher complètement. Au besoin, les participants peuvent être empêchés de poster plus d\'un nombre donné de messages durant une période donnée, afin d\'éviter que l\'un d\'entre eux domine les discussions.
 
-Les messages des forums peuvent être évalués par les enseignants ou les participants (évaluation par les pairs). Les évaluations sont combinées pour former une note  qui est enregistrée dans le carnet de notes.
+Les messages des forums peuvent être évalués par les enseignants ou les participants (évaluation par les pairs). Les évaluations sont combinées pour former une note qui est enregistrée dans le carnet de notes.
 
 Les forums ont de nombreuses utilisations, comme :
 
@@ -482,7 +482,7 @@ $string['privacy:metadata:preference:autosubscribe'] = 'S\'il faut s\'abonner au
 $string['privacy:metadata:preference:maildigest'] = 'La préférence globale des courriels quotidiens';
 $string['privacy:metadata:preference:markasreadonnotification'] = 'S\'il faut marquer les messages comme lus quand on les reçoit par messagerie.';
 $string['privacy:metadata:preference:trackforums'] = 'S\'il faut activer le suivi des messages.';
-$string['privacy:postwasread'] = 'Ce message a été consulté pour la première fois le {$a->firstread}  et consulté pour la dernière fois le {$a->lastread}';
+$string['privacy:postwasread'] = 'Ce message a été consulté pour la première fois le {$a->firstread} et consulté pour la dernière fois le {$a->lastread}';
 $string['privacy:readtrackingdisabled'] = 'Vous avez choisi de ne pas suivre les messages que vous avez consultés dans ce forum.';
 $string['privacy:request:delete:discussion:name'] = 'Supprimé à la demande de l\'auteur';
 $string['privacy:request:delete:post:message'] = 'Le contenu de ce message a été supprimé à la demande de son auteur.';

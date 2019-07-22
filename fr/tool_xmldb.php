@@ -71,7 +71,7 @@ Il est vivement recommandé d\'avoir la dernière version (version +) disponible
 Cette fonctionnalité n\'effectue aucune modification de la base de données (elle ne fait que la lire), et peut donc être lancée à tout instant.';
 $string['confirmcheckoraclesemantics'] = 'Cette fonctionnalité va rechercher des <a href="https://tracker.moodle.org/browse/MDL-29322">colonnes Oracle varchar2 utilisant la sémantique BYTE</a> sur votre serveur Moodle et générer automatiquement (sans les lancer !) les instructions SQL permettant de convertir ces colonnes de sorte qu\'elles utilisent la sémantique CHAR (meilleur pour la compatibilité et pouvant accepter des contenus de longueur plus grande).
 
-Vous pourrez  copier ces instructions et les lancer depuis votre interface SQL préférée (n\'oubliez pas de sauvegarder vos données avant de le faire).
+Vous pourrez copier ces instructions et les lancer depuis votre interface SQL préférée (n\'oubliez pas de sauvegarder vos données avant de le faire).
 
 Il est vivement recommandé de disposer de la version la plus récente (version +) disponible pour votre version de Moodle avant de lancer la recherche.
 

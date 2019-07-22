@@ -31,6 +31,7 @@ $string['answer'] = 'Antwoord';
 $string['bgimage'] = 'Achtergrondafbeelding';
 $string['blank'] = 'blanco';
 $string['correctansweris'] = 'Het juiste antwoord is: {$a}';
+$string['deletedchoice'] = '[Verwijderde keuze]';
 $string['draggableimage'] = 'Versleepbare afbeelding';
 $string['draggableitem'] = 'Versleepbaar item';
 $string['draggableitemheader'] = 'Versleepbaar item {$a}';

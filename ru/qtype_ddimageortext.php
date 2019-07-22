@@ -31,6 +31,7 @@ $string['answer'] = 'Ответ';
 $string['bgimage'] = 'Фоновое изображения';
 $string['blank'] = 'пусто';
 $string['correctansweris'] = 'Правильный ответ: {$a}';
+$string['deletedchoice'] = '[Удаленный вариант]';
 $string['draggableimage'] = 'Перетаскиваемое изображение';
 $string['draggableitem'] = 'Перетаскиваемый элемент';
 $string['draggableitemheader'] = 'Перетаскиваемый элемент {$a}';

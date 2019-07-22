@@ -402,7 +402,7 @@ $string['notacceptedrole'] = 'Une honetan esleituta duzun rola ez da eskuz domin
 Dagoeneko domina hau irabazi duten erabiltzaileak ikusi nahi badituzu, joan orri honetara {$a}';
 $string['notconnected'] = 'Konektatu gabe';
 $string['notealignment'] = 'Dominak jasotzen dituen kanpoko konpetentziak, trebetasunak edo estandarrak zehaztu ahal dira. Edozein konpetentzia dominaren orrian erakutsiko da.';
-$string['noteendorsement'] = 'Bestelako batek dominari onarpena ematea balia daiteke dominaren balioa handitzeko. Adibidez, irakasle batek emandako domina eskolak onar dezake, edo tokian tokiko erakundearen domina goragoko erakunde nazionalak onar dezake.';
+$string['noteendorsement'] = 'Hirugarren batek dominari onarpena ematea balia daiteke dominaren balioa handitzeko. Adibidez, irakasle batek emandako domina eskolak onar dezake, edo tokian tokiko erakundearen domina goragoko erakunde nazionalak onar dezake.';
 $string['noterelated'] = 'Konexia duten dominak erlazionatutakotzat joko dira. Adibidez, irizpide bera duten eta hizkuntza ezberdinetan erakusten diren dominak erlazionatutakotzat jo daitezke. Edozein domina dominen orrian erakutsiko da.';
 $string['nothingtoadd'] = 'Ez dago gehitzeko bestelako irizpiderik.';
 $string['notification'] = 'Jakinarazi dominaren sortzaileari';

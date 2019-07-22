@@ -393,7 +393,7 @@ $string['gradehighest'] = 'Note la plus haute';
 $string['grademethod'] = 'Méthode d\'évaluation';
 $string['grademethod_help'] = 'Lorsqu\'il est permis à l\'étudiant d\'effectuer plusieurs tentatives, les possibilités suivantes sont disponibles pour calculer sa note finale pour le test.
 
-* Note la plus élevée –  la meilleure des notes de toutes les tentatives
+* Note la plus élevée – la meilleure des notes de toutes les tentatives
 * Note moyenne – la moyenne arithmétique de toutes les tentatives
 * Première note – la note obtenue à la première tentative (les autres tentatives sont ignorées)
 * Dernière note – la note obtenue à la dernière tentative (les autres tentatives sont ignorées)';

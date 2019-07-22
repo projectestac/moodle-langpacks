@@ -31,6 +31,7 @@ $string['answer'] = '解答';
 $string['bgimage'] = '背景イメージ';
 $string['blank'] = '空白';
 $string['correctansweris'] = '正解: {$a}';
+$string['deletedchoice'] = '[削除済み選択肢]';
 $string['draggableimage'] = 'ドラッグ可能イメージ';
 $string['draggableitem'] = 'ドラッグ可能アイテム';
 $string['draggableitemheader'] = 'ドラッグ可能アイテム {$a}';

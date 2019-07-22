@@ -108,7 +108,7 @@ $string['validnumberformats_help'] = '* nombres réguliers 13500.67, 13 500.67,
 
 * si votre paquetage de langue utilise le caractère « , » en tant que séparateur de milliers, il faut *impérativement* utiliser le caractère « . » pour indiquer la décimale comme dans 13,500.67 ou 13,500
 
-* pour l\'exposant, par exemple pour écrire 1.350067 * 10<sup>4</sup>, il faut utiliser  1.350067 E4 ou 1.350067 E04';
+* pour l\'exposant, par exemple pour écrire 1.350067 * 10<sup>4</sup>, il faut utiliser 1.350067 E4 ou 1.350067 E04';
 $string['validnumbers'] = '13500.67, 13 500.67, 13,500.67, 13500,67, 13 500,67, 1.350067 E4 ou 1.350067 E04';
 $string['xmustbenumeric'] = '{$a} doit être un nombre.';
 $string['xmustnotbenumeric'] = '{$a} ne peut pas être un nombre.';

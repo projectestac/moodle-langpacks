@@ -63,7 +63,7 @@ $string['enablemessaging'] = 'Messagerie de groupe';
 $string['enablemessaging_help'] = 'Si ce réglage est activé, les membres du groupe peuvent envoyer des messages personnels aux autres membres de leur groupe.';
 $string['enrolmentkey'] = 'Clef d\'inscription';
 $string['enrolmentkeyalreadyinuse'] = 'Cette clef d\'inscription est déjà utilisée pour un autre groupe.';
-$string['enrolmentkey_help'] = 'Une clef d\'inscription permet de donner accès à un cours aux seuls utilisateurs la détenant. Si  une clef d\'inscription de groupe est spécifiée, non seulement cette clef permettra l\'accès au cours, mais elle inscrira simultanément l\'utilisateur utilisant cette clef comme membre de ce groupe.
+$string['enrolmentkey_help'] = 'Une clef d\'inscription permet de donner accès à un cours aux seuls utilisateurs la détenant. Si une clef d\'inscription de groupe est spécifiée, non seulement cette clef permettra l\'accès au cours, mais elle inscrira simultanément l\'utilisateur utilisant cette clef comme membre de ce groupe.
 
 Remarque : le réglage pour les clefs d\'inscription de groupe doit être également activé dans les réglages d\'auto-inscription, et une clef d\'inscription doit en outre être spécifiée pour le cours.';
 $string['erroraddremoveuser'] = 'Erreur lors de l\'ajout ou du retrait de l\'utilisateur {$a} du groupe';
@@ -156,7 +156,7 @@ $string['namingscheme_help'] = 'Le caractère arobase (@) peut être utilisé po
 Le caractère dièse (#) peut être utilisé pour créer des groupes contenant des nombres. Par exemple, « Groupe # » générera des groupes nommés « Groupe 1 », « Groupe 2 », « Groupe 3 », etc.';
 $string['newgrouping'] = 'Nouveau groupement';
 $string['newpicture'] = 'Nouvelle image';
-$string['newpicture_help'] = 'Sélectionnez une image en format JPG ou PNG.  L\'image sera redimensionnée en un carré de 100x100 pixels.';
+$string['newpicture_help'] = 'Sélectionnez une image en format JPG ou PNG. L\'image sera redimensionnée en un carré de 100x100 pixels.';
 $string['noallocation'] = 'Pas d\'attribution';
 $string['nogroup'] = 'Aucun groupe';
 $string['nogrouping'] = 'Pas de groupement';

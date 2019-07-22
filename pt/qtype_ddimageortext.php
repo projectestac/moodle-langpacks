@@ -31,6 +31,7 @@ $string['answer'] = 'Pergunta';
 $string['bgimage'] = 'Imagem de fundo';
 $string['blank'] = 'Em branco';
 $string['correctansweris'] = 'A resposta correta é: {$a}';
+$string['deletedchoice'] = '[Opção apagada]';
 $string['draggableimage'] = 'Imagem arrastável';
 $string['draggableitem'] = 'Item arrastável';
 $string['draggableitemheader'] = 'Item arrastável {$a}';

@@ -31,6 +31,7 @@ $string['answer'] = 'Erantzuna';
 $string['bgimage'] = 'Atzeko planoaren irudia';
 $string['blank'] = 'hutsik';
 $string['correctansweris'] = 'Erantzun zuzena ondokoa da: {$a}';
+$string['deletedchoice'] = '[Ezabatutako aukera]';
 $string['draggableimage'] = 'Eramateko irudia';
 $string['draggableitem'] = 'Eramateko elementua';
 $string['draggableitemheader'] = 'Eramateko elementua {$a}';

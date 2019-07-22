@@ -1308,7 +1308,7 @@ Dans la plupart des logiciels de courriel, cette adresse devrait apparaître com
 Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site {$a->sitename},
 {$a->signoff}';
 $string['newpicture'] = 'Nouvelle image';
-$string['newpicture_help'] = 'Pour ajouter une image, sélectionnez-en une en format JPG ou PNG, puis cliquez sur « Enregistrer mon profil ».  L\'image sera redimensionnée en un carré de 100x100 pixels.';
+$string['newpicture_help'] = 'Pour ajouter une image, sélectionnez-en une en format JPG ou PNG, puis cliquez sur « Enregistrer mon profil ». L\'image sera redimensionnée en un carré de 100x100 pixels.';
 $string['newpictureusernotsetup'] = 'Une image de profil ne peut être ajoutée que lorsque toutes les informations requises pour le profil ont été enregistrées.';
 $string['newsectionname'] = 'Nouveau nom pour la section {$a}';
 $string['newsitem'] = 'article';
@@ -1653,7 +1653,7 @@ $string['restorecoursenow'] = 'Restaurer ce cours maintenant!';
 $string['restoredaccount'] = 'Compte restauré';
 $string['restoredaccountinfo'] = 'Ce compte a été importé d\'un autre serveur et son mot de passe a été perdu. Pour définir un nouveau mot de passe par courriel, veuillez cliquer sur « Continuer »';
 $string['restorefinished'] = 'Restauration réussie';
-$string['restoremnethostidmismatch'] = 'L\'identifiant de l\'utilisateur {$a} sur le serveur MNet  ne correspond pas à l\'ID local du serveur MNet.';
+$string['restoremnethostidmismatch'] = 'L\'identifiant de l\'utilisateur {$a} sur le serveur MNet ne correspond pas à l\'ID local du serveur MNet.';
 $string['restoreto'] = 'Restaurer vers';
 $string['restoretositeadding'] = 'Attention ! Vous allez restaurer des données en les ajoutant à la page d\'accueil du site !';
 $string['restoretositedeleting'] = 'Attention ! Vous allez restaurer des données sur la page d\'accueil du site, en supprimant certaines données existantes !';

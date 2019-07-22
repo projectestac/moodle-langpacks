@@ -114,7 +114,7 @@ $string['forgottenpasswordurl'] = 'URL de récupération de mot de passe';
 $string['getanaudiocaptcha'] = 'Obtenir un CAPTCHA audio';
 $string['getanimagecaptcha'] = 'Obtenir un CAPTCHA visuel';
 $string['getanothercaptcha'] = 'Obtenir un nouveau CAPTCHA';
-$string['getrecaptchaapi'] = 'L\'utilisation de reCAPTCHA nécessite l\'obtention d\'une clef d\'API  de <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
+$string['getrecaptchaapi'] = 'L\'utilisation de reCAPTCHA nécessite l\'obtention d\'une clef d\'API de <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Bouton de connexion anonyme';
 $string['incorrectpleasetryagain'] = 'Incorrect. Veuillez essayer à nouveau.';
 $string['infilefield'] = 'Champ requis dans le fichier';
@@ -157,7 +157,7 @@ Si vous n\'êtes pas sûr des images, vous pouvez obtenir un nouveau CAPTCHA ou 
 $string['security_question'] = 'Question de sécurité';
 $string['selfregistration'] = 'Auto-enregistrement';
 $string['selfregistration_help'] = 'Si vous choisissez un plugin d\'authentification gérant l\'auto-enregistrement, par exemple par courriel, vous permettez aux utilisateurs potentiels de créer des comptes pour eux-mêmes. Il est par conséquent possible que des spammeurs créent des comptes dans le but d\'écrire du spam dans des messages dans les forums, des articles de blog, etc. Si vous voulez éviter ce risque, vous devez désactiver l\'auto-enregistrement ou au moins le limiter en utilisant le réglage <em> Domaines courriel autorisés</em>.';
-$string['settingmigrationmismatch'] = 'Une discordance a été détectée lors de la correction des noms des paramètres du plugin ! Dans le plugin d\'authentification « {$a->plugin} », le réglage « {$a->setting} » était réglé sur « {$a->legacy} » avec l\'ancienne terminologie et sur « {$a->current} » avec la terminologie actuelle. Cette dernière valeur a été conservée. Veuillez confirmer que c\'est bien ce qui est  attendu.';
+$string['settingmigrationmismatch'] = 'Une discordance a été détectée lors de la correction des noms des paramètres du plugin ! Dans le plugin d\'authentification « {$a->plugin} », le réglage « {$a->setting} » était réglé sur « {$a->legacy} » avec l\'ancienne terminologie et sur « {$a->current} » avec la terminologie actuelle. Cette dernière valeur a été conservée. Veuillez confirmer que c\'est bien ce qui est attendu.';
 $string['sha1'] = 'Hachage SHA-1';
 $string['showguestlogin'] = 'Vous pouvez choisir d\'afficher ou non sur la page de connexion le bouton de connexion anonyme.';
 $string['stdchangepassword'] = 'Utiliser la page de changement de mot de passe standard';

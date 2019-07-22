@@ -31,6 +31,7 @@ $string['answer'] = 'Απάντηση';
 $string['bgimage'] = 'Εικόνα φόντου';
 $string['blank'] = 'κενό';
 $string['correctansweris'] = 'Η σωστή απάντηση είναι: {$a}';
+$string['deletedchoice'] = '[Διαγραμμένη επιλογή]';
 $string['draggableimage'] = 'Μεταφέρσιμη εικόνα';
 $string['draggableitem'] = 'Μεταφέρσιμο στοιχείο';
 $string['draggableitemheader'] = 'Μεταφέρσιμο στοιχείο {$a}';

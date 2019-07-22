@@ -31,6 +31,7 @@ $string['answer'] = 'Answer';
 $string['bgimage'] = 'Background image';
 $string['blank'] = 'blank';
 $string['correctansweris'] = 'The correct answer is: {$a}';
+$string['deletedchoice'] = '[Deleted choice]';
 $string['draggableimage'] = 'Draggable image';
 $string['draggableitem'] = 'Draggable item';
 $string['draggableitemheader'] = 'Draggable item {$a}';
