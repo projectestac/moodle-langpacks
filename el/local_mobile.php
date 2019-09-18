@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['enableadditionalservice'] = 'Ενεργοποίηση της υπηρεσίας πρόσθετων χαρακτηριστικών του Moodle για κινητά';
+$string['local_mobilesettings'] = 'Ρυθμίσεις';
 $string['pluginname'] = 'Πρόσθετα χαρακτηριστικά του Moodle για κινητά';

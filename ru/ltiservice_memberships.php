@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['ltiservice_memberships_help'] = 'Разрешить инструменту получать информацию об участнике из курса, используя службу членства IMS LTI. Настройки конфиденциальности будут применяться.';
 $string['pluginname'] = 'LTI-служба «Членства»';
 $string['servicename'] = 'Членства';

@@ -25,7 +25,18 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addmoredimensions'] = 'الفراغات لـ {$a} معايير أخرى';
+$string['configuration'] = 'تكوين نموذج التقييم';
+$string['criteria'] = 'مقياس';
 $string['dimensiondescription'] = 'وصف';
+$string['dimensionnumber'] = 'القياسي {$a}';
+$string['layout'] = 'تخطيط نموذج التقييم';
+$string['layoutgrid'] = 'الشبكة';
 $string['layoutlist'] = 'قائمة';
+$string['levelgroup'] = 'تعريف المستوى و درجاته';
 $string['levels'] = 'مستويات';
+$string['mustbeunique'] = 'يجب أن تكون درجات المستوى فريدة داخل المعيار';
 $string['mustchooseone'] = 'لقد قمت باختيار هذه البنود';
+$string['mustdefinelevel'] = 'مطلوب مستوى واحد على الأقل';
+$string['pluginname'] = 'نموذج التقييم';
+$string['privacy:metadata'] = 'يقوم المكون الإضافي Rubric بتخزين تفاصيل نموذج التقييم فقط. يتم تخزين البيانات الشخصية الفعلية لكيفية ملىء النموذج بواسطة وحدة ورشة العمل نفسها ويتم إرفاقها بالتقييمات المصدرة.';

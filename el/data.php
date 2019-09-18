@@ -30,8 +30,8 @@ $string['add'] = 'Προσθήκη καταχώρησης';
 $string['addcomment'] = 'Προσθήκη σχολίου';
 $string['addentries'] = 'Προσθήκη καταχωρήσεων';
 $string['addtemplate'] = 'Προσθήκη φόρμας';
-$string['advancedsearch'] = 'Σύνθετη αναζήτηση';
-$string['allowcomments'] = 'Να επιτρέπονται τα σχόλια στις εγγραφές';
+$string['advancedsearch'] = 'Προχωρημένη αναζήτηση';
+$string['allowcomments'] = 'Να επιτρέπονται τα σχόλια στις καταχωρήσεις';
 $string['alttext'] = 'Εναλλακτικό κείμενο';
 $string['approvalstatus'] = 'Κατάσταση έγκρισης';
 $string['approve'] = 'Έγκριση';
@@ -51,8 +51,8 @@ $string['availabletags_help'] = 'Οι ετικέτες είναι δεσμευτ
 Τα πεδία έχουν το μορφότυπο [[fieldname]]. Όλες οι άλλες ετικέτες έχουν το μορφότυπο ##sometag##.
 
 Μόνο οι ετικέτες που είναι στην λίστα «Διαθέσιμες ετικέτες» μπορούν να χρησιμοποιηθούν στην τρέχουσα φόρμα.';
-$string['availabletodate'] = 'Διαθέσιμο εώς';
-$string['availabletodatevalidation'] = 'Η «Διαθέσιμο εώς» ημερομηνία δεν μπορεί να οριστεί νωρίτερα από την «Διαθέσιμο από».';
+$string['availabletodate'] = 'Διαθέσιμο έως';
+$string['availabletodatevalidation'] = 'Η «Διαθέσιμο έως» ημερομηνία δεν μπορεί να οριστεί νωρίτερα από την «Διαθέσιμο από».';
 $string['blank'] = 'Κενό';
 $string['buttons'] = 'Ενέργειες';
 $string['bynameondate'] = 'κατά {$a->name} - {$a->date}';
@@ -103,7 +103,7 @@ $string['data:managetemplates'] = 'Διαχείριση φορμών';
 $string['data:manageuserpresets'] = 'Διαχείριση όλων των προτύπων φόρμας';
 $string['data:rate'] = 'Βαθμολόγηση καταχωρήσεων';
 $string['data:readentry'] = 'Ανάγνωση καταχωρήσεων';
-$string['data:view'] = 'Προβολή δραστηριότητας βάσης δεδομένων';
+$string['data:view'] = 'Εμφάνιση δραστηριότητας βάσης δεδομένων';
 $string['data:viewallratings'] = 'Εμφάνιση όλων των ανεπεξέργαστων εκτιμήσεων που δόθηκαν από άτομα';
 $string['data:viewalluserpresets'] = 'Εμφάνιση προτύπων όλων των χρηστών';
 $string['data:viewanyrating'] = 'Εμφάνιση συνολικών αξιολογήσεων που έλαβε οποιοσδήποτε';
@@ -117,7 +117,7 @@ $string['defaultfieldenclosure'] = '(το προεπιλεγμένο είναι 
 $string['defaultsortfield'] = 'Προεπιλεγμένο πεδίο ταξινόμησης';
 $string['delcheck'] = 'Πλαίσιο ελέγχου μαζικής διαγραφής';
 $string['delete'] = 'Διαγραφή';
-$string['deleteallentries'] = 'Διαγραφή όλων των εγγραφών';
+$string['deleteallentries'] = 'Διαγραφή όλων των καταχωρήσεων';
 $string['deletecomment'] = 'Σίγουρα θέλετε να διαγράψετε αυτό το σχόλιο;';
 $string['deleted'] = 'διαγράφηκε';
 $string['deletefield'] = 'Διαγραφή υπάρχοντος πεδίου';
@@ -229,7 +229,7 @@ $string['latlongdownloadallhint'] = 'Σύνδεσμος λήψης όλων τω
 $string['latlongkmllabelling'] = 'Πως να χαρακτηρίζονται τα αντικείμενα στα KML αρχεία (Google Earth)';
 $string['latlonglinkservicesdisplayed'] = 'Υπηρεσίες link-out (αυτόματοι εξωτερικοί γεωγραφικοί σύνδεσμοι) προς εμφάνιση.';
 $string['latlongotherfields'] = 'Άλλα πεδία';
-$string['list'] = 'Προβολή λίστας';
+$string['list'] = 'Εμφάνιση λίστας';
 $string['listtemplate'] = 'Φόρμα λίστας';
 $string['longitude'] = 'Γεωγραφικό μήκος';
 $string['manageapproved'] = 'Να επιτρέπεται επεξεργασία εγκεκριμένων καταχωρήσεων';
@@ -257,6 +257,7 @@ $string['modulename_help'] = 'Το άρθρωμα δραστηριότητας �
 
 * Μια συνεργατική συλλογή από συνδέσμους ιστού, βιβλία, κριτικές βιβλίων, αναφορές σε περιοδικά κλπ.
 * Για εμφάνιση φωτογραφιών, αφισών, ιστοτόπων ή ποιημάτων δημιουργημένων από μαθητές, για σχολιασμό και κριτικές από ομότιμους.';
+$string['modulename_link'] = 'άρθρωμα/δεδομένα/προβολή';
 $string['modulenameplural'] = 'Βάσεις δεδομένων';
 $string['more'] = 'Περισσότερα';
 $string['moreurl'] = 'Περισσότερα URL';
@@ -356,7 +357,7 @@ $string['search'] = 'Αναζήτηση';
 $string['search:activity'] = 'Βάση δεδομένων - πληροφορίες δραστηριότητας';
 $string['search:entry'] = 'Βάση δεδομένων - καταχωρήσεις';
 $string['selectedrequired'] = 'Απαιτούνται όλα τα επιλεγμένα';
-$string['showall'] = 'Προβολή όλων των καταχωρήσεων';
+$string['showall'] = 'Εμφάνιση όλων των καταχωρήσεων';
 $string['single'] = 'Ατομική προβολή';
 $string['singletemplate'] = 'Ατομική φόρμα';
 $string['subplugintype_datafield'] = 'Τύπος πεδίου βάσης δεδομένων';
@@ -387,6 +388,7 @@ $string['uploadrecords_help'] = 'Οι καταχωρήσεις μπορούν ν
 * Η πρώτη εγγραφή περιέχει μια λίστα από ονόματα πεδίων που ορίζουν τον μορφότυπο του υπόλοιπου αρχείου.
 
 Ο χαρακτήρας εισαγωγικών (π.χ. «1,2,3» όπου δεν ισχύει το διαχωριστικό πεδίων κόμμα) είναι ένας χαρακτήρας που (μπορεί να) περικλείει κάθε πεδίο σε κάθε εγγραφή. Κανονικά δεν χρειάζεται να οριστεί.';
+$string['uploadrecords_link'] = 'άρθρωμα/δεδομένα/εισαγωγή';
 $string['url'] = 'Διεύθυνση URL';
 $string['usedate'] = 'Συμπερίληψη στην αναζήτηση.';
 $string['usestandard'] = 'Χρήση ενός προτύπου';

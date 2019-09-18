@@ -242,6 +242,7 @@ $string['qcategory2coursefallback'] = 'A categoría de preguntas «{$a->name}»,
 $string['qcategorycannotberestored'] = 'A categoría de preguntas «{$a-> name}» non pode crearse por restauración';
 $string['question2coursefallback'] = 'A categoría de preguntas «{$a->name}», orixinalmente no contexto de categoría sistema/curso dentro do ficheiro de copia de seguranza, crearase no contexto do curso ao seren restauradas.';
 $string['questionegorycannotberestored'] = 'As preguntas «{$a-> name}» non pode crearse por restauración';
+$string['recyclebin_desc'] = 'Teña en conta que estes axustes tamén se usarán para o cesto do lixo.';
 $string['replacerestoredefaults'] = 'Restablece os valores predeterminados ao restaurar noutro curso eliminando os contidos';
 $string['restoreactivity'] = 'Restaurar actividade';
 $string['restorecourse'] = 'Restaurar curso';

@@ -145,4 +145,4 @@ $string['statusinfo'] = 'Informazioa';
 $string['statusok'] = 'ONDO';
 $string['statusserious'] = 'Larria';
 $string['statuswarning'] = 'Kontuz';
-$string['timewarning'] = 'Datuen prozesamenduak luze iraun dezake, mesedez, izan pazientzia...';
+$string['timewarning'] = 'Datuen prozesamenduak luze iraun dezake, mesedez, pazientzia izan ezazu...';

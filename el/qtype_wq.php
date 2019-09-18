@@ -26,7 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['connectionsettings_text'] = '';
+$string['error'] = 'ΣΦΑΛΜΑ';
+$string['info_enabled'] = 'Ενεργοποιημένο';
 $string['info_tableheader_report'] = 'Αναφορά';
+$string['info_tableheader_status'] = 'Κατάσταση';
 $string['info_test3_rt3'] = 'Αδυναμία εύρεσης αρχείου έκδοσης Moodle';
 $string['info_test4_name'] = 'Πρόσθετα';
 $string['info_test4_pluginname5'] = 'Τύπος ερώτησης αντιστοίχισης';

@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'لون الخلفية';
+$string['privacy:metadata'] = 'البرنامج المساعد atto_backcolor لا يخزن أي بيانات شخصية.';

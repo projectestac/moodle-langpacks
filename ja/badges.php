@@ -104,7 +104,7 @@ $string['backpackdetails'] = 'バックパック設定';
 $string['backpackemail'] = 'メールアドレス';
 $string['backpackemail_help'] = 'あなたのバックパックに関するメールアドレスです。あなたが接続している間、このサイトで取得したすべてのバッジはこのメールアドレスに関連付けられます。';
 $string['backpackemailverificationpending'] = '確認保留';
-$string['backpackemailverifyemailbody'] = 'あなたのオープンバッジバックパックへの新しい接続が「 {$a->sitename} 」からあなたのメールアドレスを使ってリクエストされました。
+$string['backpackemailverifyemailbody'] = 'あなたのバッジバックパックへの新しい接続が「 {$a->sitename} 」からあなたのメールアドレスを使ってリクエストされました。
 
 あなたのバックパックへの接続を確認および有効化するには以下にアクセスしてください。
 
@@ -113,7 +113,7 @@ $string['backpackemailverifyemailbody'] = 'あなたのオープンバッジバ�
 ほとんどのメールプログラムではこのリンクはあなたがクリックできる青いリンクとして表示されます。動作しない場合、アドレスをあなたのウェブブラウザ上部にあるアドレス行にコピー＆ペーストしてください。
 
 分からない場合、サイト管理者 ( {$a->admin}) にご連絡ください';
-$string['backpackemailverifyemailsubject'] = '{$a}: Mozillaオープンバッジバックパックメール確認';
+$string['backpackemailverifyemailsubject'] = '{$a}: バッジバックパックメール確認';
 $string['backpackemailverifypending'] = '<strong>{$a}</strong>に確認メールが送信されました。メール内のリンクをクリックしてあなたのバックパック接続を有効化してください。';
 $string['backpackemailverifysuccess'] = 'あなたのメールを確認してくださいましてありがとうございます。あなたのバックパックに接続しました。';
 $string['backpackemailverifytokenmismatch'] = 'あなたがクリックしたリンクのトークンは保存されているトークンと合致しません。あなたが受信した最新のメール内リンクをクリックしていることを確認してください。';

@@ -25,5 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['aria:courseimage'] = 'صورة المقرر';
+$string['aria:coursename'] = 'اسم المقرر';
+$string['aria:courseshortname'] = 'الاسم القصير للمقرر';
+$string['aria:favourite'] = 'المقرر مميز بنجمة';
+$string['favourite'] = 'المقررات المميزة بنجمه';
 $string['privacy:completionpath'] = 'إكتمال مقرر دراسي';
+$string['privacy:favouritespath'] = 'معلومات المقررات المميزة بنجمة';
+$string['privacy:metadata:completionsummary'] = 'يحتوي المقرر على معلومات الإكمال عن المستخدم';
+$string['privacy:metadata:favouritessummary'] = 'يحتوي المقرر على معلومات تتعلق بالمقرر المميز بنجمة من قبل المستخدم.';
 $string['privacy:perpage'] = 'عدد المقررات الدراسية في الصفحة الواحدة';

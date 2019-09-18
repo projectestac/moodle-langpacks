@@ -299,20 +299,20 @@ $string['markingallocation_help'] = 'Nach der Aktivierung können einzelnen Nutz
 $string['markingworkflow'] = 'Bewertungsworkflow verwenden';
 $string['markingworkflow_help'] = 'Nach der Aktivierung werden für Bewertungen mehrere Schritte durchlaufen bevor Teilnehmende sie sehen. Damit können mehrere Bewertungsdurchläufe erfolgen bevor alle Bewertungen zugleich den Teilnehmenden sichtbar gemacht werden.';
 $string['markingworkflowstate'] = 'Status des Bewertungsworkflows';
-$string['markingworkflowstate_help'] = 'Die Liste der Workflowstatus, die Sie auswählen können, wird durch die Berechtigungungen in der Aufgabe festgelegt. Es gibt folgende Status:
+$string['markingworkflowstate_help'] = 'Die Liste der Workflowstati, die Sie auswählen können, wird durch die Berechtigungungen in der Aufgabe festgelegt. Es gibt folgende Stati:
 
-* Nicht bewertet - Der/die Bewerter/in hat noch nicht begonnen
-* In Bewertung - Die Bewertung hat begonnen, ist jedoch noch nicht abgeschlossen
-* Bewertung vorläufig abgeschlossen - Der Bewerter hat die Bewertung vorgenommen, jedoch noch nicht freigegeben
-* In der Zweitbewertung - Die Bewertung wird nun von Zweitbewertern (Trainer) durchgesehen
-* Fertig für Veröffentlichung - Der/die Trainer/in hat die abschließende Bewertung vorgenommen, wartet jedoch mit der Veröffentlichung
-* Veröffentlicht - Teilnehmer/innen sehen ihre Bewertungen und das Feedback';
+* Unbewertet: Es wurde noch keine Bewertung begonnen.
+* In Bewertung: Die Bewertung wurde begonnen, ist jedoch noch nicht abgeschlossen.
+* Bewertung abgeschlossen: Die Bewertung wurde vorgenommen, ist jedoch noch nicht für die Teilnehmer/innen freigegeben.
+* In weiterer Überprüfung: Die Bewertung wird im Review-Verfahren von weiteren Trainer/innen durchgesehen.
+* Fertig zur Freigabe: Die abschließende Bewertung steht fest, wartet jedoch noch mit der Freigabe für die Teilnehmer/innen.
+* Freigegeben: Teilnehmer/innen erhalten eine Benachrichtgung per E-Mail – soweit aktiviert - und sehen ihre Bewertungen sowie das Feedback.';
 $string['markingworkflowstateinmarking'] = 'In Bewertung';
-$string['markingworkflowstateinreview'] = 'Wird überprüft';
+$string['markingworkflowstateinreview'] = 'In weiterer Überprüfung';
 $string['markingworkflowstatenotmarked'] = 'Unbewertet';
 $string['markingworkflowstatereadyforrelease'] = 'Fertig zur Freigabe';
 $string['markingworkflowstatereadyforreview'] = 'Bewertung abgeschlossen';
-$string['markingworkflowstatereleased'] = 'Freigegeben';
+$string['markingworkflowstatereleased'] = 'Freigegeben (Teilnehmer/innen informieren)';
 $string['maxattempts'] = 'Maximal mögliche Versuche';
 $string['maxattempts_help'] = 'Maximale Anzahl von Abgabeversuchen. Nach dieser Anzahl von Versuchen können Teilnehmer/innen ihre Abgabe nicht mehr neu öffnen oder ändern.';
 $string['maxgrade'] = 'Bestwertung';
@@ -462,7 +462,7 @@ $string['setmarkingworkflowstateforlog'] = 'Bewertungsworkflow-Status gesetzt: (
 $string['settings'] = 'Einstellungen';
 $string['showrecentsubmissions'] = 'Neue Abgaben anzeigen';
 $string['status'] = 'Status';
-$string['studentnotificationworkflowstateerror'] = 'Der Status für den Ablauf muss \'freigegeben\' sein, um Teilnehmer/innen zu benachrichtigen.';
+$string['studentnotificationworkflowstateerror'] = 'Der Status für den Ablauf muss \'Freigegeben\' sein, um Teilnehmer/innen zu benachrichtigen.';
 $string['submission'] = 'Abgabe';
 $string['submissioncopiedhtml'] = '<p>Sie haben eine Kopie der früheren Lösung für die Aufgabe \'<i>{$a->assignment} erstellt</i>\'</p><p>.
 Sehen sehen hier den Status  <a href="{$a->url}"> für Ihre Aufgabenlösung</a>.</p>';

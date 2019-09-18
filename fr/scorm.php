@@ -359,7 +359,7 @@ $string['scormtype_help'] = 'Ce réglage détermine comment le paquetage est inc
 * Manifeste SCORM externe : permet d\'indiquer l\'URL d\'un fichier imsmanifest.xml. Si l\'URL est dans un autre domaine que le site Moodle, l\'option Paquetage téléchargé est mieux adaptée, car sinon les notes ne seraient pas enregistrées.
 * Paquetage téléchargé : permet d\'indiquer l\'URL d\'un paquetage SCORM externe. Le paquetage sera décompressé et enregistré localement, et mis à jour si le paquetage externe est modifié.
 * External AICC URL : cette URL est l\'URL permettant de lancer une activité AICC. Un pseudo paquetage sera construit autour de cette activité.';
-$string['scorm:viewreport'] = 'Voir les rapports';
+$string['scorm:viewreport'] = 'Consulter les rapports';
 $string['scorm:viewscores'] = 'Voir les scores';
 $string['scrollbars'] = 'Permettre le défilement de la fenêtre';
 $string['search:activity'] = 'Paquet SCORM – information sur l\'activité';

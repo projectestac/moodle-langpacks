@@ -97,5 +97,5 @@ $string['subplugintype_booktool'] = 'Eina del llibre';
 $string['subplugintype_booktool_plural'] = 'Eines del llibre';
 $string['tagarea_book_chapters'] = 'Capítols del llibre';
 $string['tagsdeleted'] = 'Les etiquetes del llibre s\'han suprimit';
-$string['toc'] = 'Índex';
+$string['toc'] = 'Taula de continguts';
 $string['top'] = 'amunt';

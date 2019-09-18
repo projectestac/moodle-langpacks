@@ -49,5 +49,5 @@ $string['nonexistentfiletypes'] = 'Οι ακόλουθοι τύποι αρχεί
 $string['numfilesforlog'] = 'Ο αριθμός των αρχείων: {$a} αρχεία.';
 $string['pluginname'] = 'Υποβολές αρχείων';
 $string['privacy:metadata:filepurpose'] = 'Τα αρχεία που φορτώθηκαν για αυτή την υποβολή εργασίας.';
-$string['siteuploadlimit'] = 'Όριο ταχύτητας upload του ιστοτόπου';
+$string['siteuploadlimit'] = 'Όριο ταχύτητας του ιστοτόπου για ανέβασμα';
 $string['submissionfilearea'] = 'Ανεβασμένα αρχεία υποβολής';

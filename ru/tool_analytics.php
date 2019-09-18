@@ -37,4 +37,5 @@ $string['indicators'] = 'Показатели';
 $string['nodatatopredict'] = 'Нет новых элементов, чтобы получить прогнозы для';
 $string['predictionprocessfinished'] = 'Процесс прогнозирования завершен';
 $string['predictionresults'] = 'Результаты прогноза';
+$string['target'] = 'Цель';
 $string['timesplittingnotdefined_help'] = 'Перед включением модели нужно выбрать метод разделения по времени.';

@@ -263,6 +263,7 @@ $string['filternotactive'] = 'Le filtre {$a} n\'est actuellement pas actif';
 $string['filternotenabled'] = 'Le filtre n\'est pas activé !';
 $string['filternotinstalled'] = 'Le filtre {$a} n\'est actuellement pas installé';
 $string['forumblockingtoomanyposts'] = 'Vous avez dépassé le maximum de messages fixé pour ce forum';
+$string['functionalityremoved'] = 'Vous tentez d\'accéder à une fonctionnalité qui a été supprimée.';
 $string['generalexceptionmessage'] = 'Exception : {$a}';
 $string['gradecantregrade'] = 'Une erreur est survenue lors du calcul de la note : {$a}';
 $string['gradepubdisable'] = 'Publication des notes désactivée';

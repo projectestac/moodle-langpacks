@@ -31,5 +31,5 @@ $string['configplagiarismplugins'] = 'Escolha o módulo anti-plágio que pretend
 $string['enableplagiarism'] = 'Ativar módulos anti-plágio';
 $string['manageplagiarism'] = 'Gerir módulos anti-plágio';
 $string['nopluginsinstalled'] = 'Não há nenhum módulo anti-plágio instalado';
-$string['plagiarism'] = 'Prevenção de plágio';
+$string['plagiarism'] = 'Plágio';
 $string['privacy:metadata:plagiarism'] = 'O subsistema antiplágio funciona como um canal, transmite pedidos dos módulos a vários módulos de antiplágio.';

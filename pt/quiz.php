@@ -100,6 +100,8 @@ $string['attemptincomplete'] = 'Essa tentativa (feita por {$a}) ainda não foi c
 $string['attemptlast'] = 'Última tentativa';
 $string['attemptnumber'] = 'Tentativa';
 $string['attemptquiznow'] = 'Responder ao teste agora';
+$string['attemptreviewtitle'] = '{$a}: Revisão da tentativa';
+$string['attemptreviewtitlepaged'] = '{$a->name}: Resumo da tentativa (página {$a->currentpage} de {$a->totalpages})';
 $string['attempts'] = 'Tentativas';
 $string['attemptsallowed'] = 'Tentativas permitidas';
 $string['attemptsdeleted'] = 'Tentativas apagadas';
@@ -112,7 +114,10 @@ $string['attemptsnumyourgroups'] = 'Tentativas: {$a->total} ({$a->group} dos seu
 $string['attemptsonly'] = 'Mostrar apenas os alunos com tentativas';
 $string['attemptstate'] = 'Estado';
 $string['attemptstillinprogress'] = 'Tentativa ainda em progresso';
+$string['attemptsummarytitle'] = '{$a}: Resumo da tentativa';
 $string['attemptsunlimited'] = 'Tentativas ilimitadas';
+$string['attempttitle'] = '{$a}:';
+$string['attempttitlepaged'] = '{$a->name} (página {$a->currentpage} de {$a->totalpages})';
 $string['autosaveperiod'] = 'Intervalo de tempo entre gravações automáticas';
 $string['autosaveperiod_desc'] = 'As respostas dos alunos podem ser guardadas automaticamente, em intervalos de tempo definidos, durante as tentativas de realização do Teste. Esta funcionalidade aumenta a carga do servidor mas, em contrapartida, reduz a possibilidade dos alunos perderem o seu trabalho. Se pretender tornar este intervalo de tempo muito mais curto, deve alterar gradualmente este valor e monitorizar a carga do servidor. Se a carga estiver demasiado alta, modifique o intervalo de tempo para um valor maior. Se configurar o intervalo de tempo para 0 a gravação automática é desligada.';
 $string['back'] = 'Voltar à pré-visualização da pergunta';
@@ -899,7 +904,7 @@ $string['shuffledrandomly'] = 'Baralhadas aleatoriamente';
 $string['shufflequestions'] = 'Baralhar perguntas';
 $string['shufflequestions_help'] = 'Se ativar esta opção, sempre que iniciar uma nova tentativa de resolução do teste, a ordem das perguntas desta secção será baralhada aleatoriamente.
 
-Esta configuração pode dificultar a partilha de respostas entre alunos, mas também tornar mais difícil pedir ajuda ao professor acerca de determinada pergunta.';
+Esta configuração pode dificultar a partilha de respostas entre alunos, mas também torna mais difícil pedir ajuda ao professor acerca de uma determinada pergunta.';
 $string['shufflewithin'] = 'Baralhar dentro das perguntas';
 $string['shufflewithin_help'] = 'Se selecionar \'Sim\', as opções de resposta serão baralhadas aleatoriamente cada vez que o aluno realiza uma tentativa do teste. Esta configuração só se aplica a perguntas com várias opções como as de resposta múltipla ou correspondência.';
 $string['singleanswer'] = 'Escolha uma resposta…';

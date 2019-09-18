@@ -407,12 +407,11 @@ $string['courserequestwarning'] = 'L\'utilisateur ayant demandé ce cours y sera
 $string['courserestore'] = 'Restauration du cours';
 $string['courses'] = 'Cours';
 $string['coursesearch'] = 'Rechercher des cours';
-$string['coursesearch_help'] = '<p>Vous pouvez saisir plusieurs termes comme critères et affiner votre recherche de la façon suivante.<p>
-<ul>
-<li>terme : rechercher toutes les occurrences du terme dans le texte.</li>
-<li>+terme : seules les correspondances exactes du terme (mot entier) seront trouvées.</li>
-<li>-terme : ne pas inclure les résultats contenant ce terme.</li>
-</ul>';
+$string['coursesearch_help'] = 'Vous pouvez saisir plusieurs termes comme critères et affiner votre recherche de la façon suivante :
+
+* terme : rechercher toutes les occurrences du terme dans le texte
+* +terme : seules les correspondances exactes du terme (mot entier) seront trouvées
+* -terme : ne pas inclure les résultats contenant ce terme';
 $string['coursesectionsummaries'] = 'Résumés des sections de cours';
 $string['coursesectiontitle'] = 'Cours : {$a->course}, {$a->sectionname} : {$a->sectiontitle}';
 $string['coursesettings'] = 'Réglages par défaut des cours';
@@ -728,8 +727,8 @@ Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site,
 $string['emailresetconfirmationsubject'] = '{$a} : demande de réinitialisation de mot de passe';
 $string['emailresetconfirmsent'] = 'Un courriel vous a été envoyé à l\'adresse <b>{$a}</b>.<br />Il contient des instructions simple vous permettant de confirmer et d\'effectuer le changement de votre mot de passe.
 En cas de difficulté, veuillez contacter l\'administrateur du site.';
-$string['emailtoprivatefiles'] = 'Il est aussi possible d\'envoyer par courriel des fichiers directement vers votre zone de fichiers privée. Il vous suffit de les joindre à un courriel et les envoyer à {$a}';
-$string['emailtoprivatefilesdenied'] = 'L\'administrateur de votre serveur a désactivé l\'option d\'envoyer des fichiers vers votre zone de fichiers privés';
+$string['emailtoprivatefiles'] = 'Il est aussi possible d\'envoyer par courriel des fichiers directement vers votre zone de fichiers personnels. Il vous suffit de les joindre à un courriel et les envoyer à {$a}';
+$string['emailtoprivatefilesdenied'] = 'L\'administrateur de votre serveur a désactivé l\'option d\'envoyer des fichiers vers votre zone de fichiers personnels';
 $string['emailuserhasnone'] = 'L\'utilisateur n\'a pas d\'adresse de courriel.';
 $string['emailvia'] = '{$a->name} (via {$a->url})';
 $string['emptydragdropregion'] = 'région vide';
@@ -1122,7 +1121,7 @@ $string['maincoursepage'] = 'Page d\'accueil du cours';
 $string['makeafolder'] = 'Créer un dossier';
 $string['makeavailable'] = 'Rendre disponible';
 $string['makeeditable'] = 'Si le serveur Web (par exemple Apache) possède un accès en écriture au fichier « {$a} », alors il sera possible de modifier ce fichier directement depuis cette page';
-$string['makethismyhome'] = 'Faire de cette page ma page d\'accueil par défaut';
+$string['makethismyhome'] = 'Faire de cette page ma page d\'accueil';
 $string['makeunavailable'] = 'Rendre non disponible';
 $string['manageblocks'] = 'Blocs';
 $string['managecategorythis'] = 'Gérer cette catégorie';
@@ -1152,8 +1151,8 @@ $string['maxnumcoursesincombo'] = 'Consultez <a href="{$a->link}">{$a->numberofc
 $string['maxsectionslimit'] = 'Impossible de créer une nouvelle section, car cela ferait dépasser el nombre maximum de sections permises pour ce cours ({$a}).';
 $string['maxsize'] = 'Taille maximale : {$a}';
 $string['maxsizeandareasize'] = 'Taille maximale pour les nouveaux fichiers : {$a->size}, limite globale : {$a->areasize}';
-$string['maxsizeandattachments'] = 'Taille maximale des nouveaux fichiers : {$a->size}. Nombre maximal d\'annexes : {$a->attachments}';
-$string['maxsizeandattachmentsandareasize'] = 'Taille maximale pour les nouveaux fichiers : {$a->size}, nombre maximal d\'annexes : {$a->attachments}, limite globale : {$a->areasize}';
+$string['maxsizeandattachments'] = 'Taille maximale des fichiers : {$a->size} ; nombre maximal de fichiers : {$a->attachments}';
+$string['maxsizeandattachmentsandareasize'] = 'Taille maximale des fichiers : {$a->size} ; nombre maximal de fichiers : {$a->attachments} ; limite globale : {$a->areasize}';
 $string['memberincourse'] = 'Personnes dans le cours';
 $string['messagebody'] = 'Texte du message';
 $string['messagedselectedcountusersfailed'] = 'Un problème est survenu. {$a} messages n\'ont pas été envoyés.';
@@ -1563,8 +1562,8 @@ $string['privacy:metadata:upgrade_log:type'] = 'Le type d\'entrée de journal.';
 $string['privacy:metadata:upgrade_log:userid'] = 'L\'utilisateur qui a effectué la mise à jour.';
 $string['privacy:metadata:upgrade_log:version'] = 'L\'ancienne version du plugin.';
 $string['privatefiles'] = 'Fichiers personnels';
-$string['private_files_handler'] = 'Ce gestionnaire permet d\'enregistrer les annexes de courriel dans la zone de fichiers privées de l\'utilisateur.';
-$string['private_files_handler_name'] = 'Envoi par courriel vers les fichiers privés';
+$string['private_files_handler'] = 'Ce gestionnaire permet d\'enregistrer les annexes de courriel dans la zone de fichiers personnels de l\'utilisateur.';
+$string['private_files_handler_name'] = 'Envoi par courriel vers les fichiers personnels';
 $string['privatefilesmanage'] = 'Gérer les fichiers personnels';
 $string['proceed'] = 'Continuer';
 $string['profile'] = 'Profil';
@@ -1594,9 +1593,9 @@ $string['registrationcontactyes'] = 'Oui, veuillez fournir un formulaire permett
 $string['registrationemail'] = 'Notifications par courriel';
 $string['registrationinfo'] = '<p>Cette page vous permet d\'enregistrer votre site Moodle sur moodle.org. L\'enregistrement est gratuit. Le principal avantage de l\'enregistrement est l\'inscription à une liste de distribution courriel utilisée pour d\'importantes informations telles que des alertes de sécurité et des mises à jour de Moodle.</p><p>Vos données seront conservées confidentiellement, et ne seront jamais vendues ou divulguées à quiconque. Ces informations ne sont recueillies que pour l\'assistance technique et à des fins de statistiques sur la communauté Moodle.</p><p>Si vous le désirez, le nom et l\'URL de votre site, ainsi que votre pays peuvent être ajoutés à la liste publique des sites Moodle.</p><p>Les nouveaux enregistrements sont vérifiés manuellement avant d\'être ajoutés à la liste. En revanche, une fois dans cette liste, vous pouvez modifier votre enregistrement en tout temps en remplissant et validant à nouveau ce formulaire.</p>';
 $string['registrationinfotitle'] = 'Informations d\'enregistrement';
-$string['registrationno'] = 'Non, je ne désire pas recevoir de courriel de Moodle HQ';
+$string['registrationno'] = 'Non, je ne désire recevoir aucun courriel';
 $string['registrationsend'] = 'Envoyer les informations d\'enregistrement à moodle.org';
-$string['registrationyes'] = 'Oui, envoyez-moi les informations importantes (par exemple les problèmes de sécurité ou nouvelles versions)';
+$string['registrationyes'] = 'Oui, informez-moi des nouvelles versions de Moodle, des alertes de sécurité et d\'autres nouvelles';
 $string['reject'] = 'Rejeter';
 $string['rejectdots'] = 'Rejeter...';
 $string['reload'] = 'Actualiser';
@@ -1697,8 +1696,8 @@ $string['scalescustomno'] = 'Aucun barème personnalisé n\'a été encore cré�
 $string['scalesstandard'] = 'Barèmes standards';
 $string['scalestandard'] = 'Barème standard';
 $string['scalestandard_help'] = 'Un barème standard est disponible dans tout le site, pour tous les cours.';
-$string['scalestip'] = 'Pour créer des barêmes personnalisés, utilisez le liens « Barêmes... » dans le menu d\'administration de votre cours.';
-$string['scalestip2'] = 'Pour créer des barêmes personnalisés, cliquez sur le lien Notes dans le menu d\'administration du cours, puis sélectionnez Modifier > Barêmes dans le menu déroulant.';
+$string['scalestip'] = 'Pour créer des barèmes personnalisés, utilisez le liens « Barèmes... » dans le menu d\'administration de votre cours.';
+$string['scalestip2'] = 'Pour créer des barèmes personnalisés, cliquez sur le lien Notes dans le menu d\'administration du cours, puis sélectionnez Modifier > Barèmes dans le menu déroulant.';
 $string['schedule'] = 'Planification';
 $string['screenshot'] = 'Copie d\'écran';
 $string['search'] = 'Rechercher';
@@ -1870,7 +1869,7 @@ $string['statsreport10'] = 'Activités des utilisateurs';
 $string['statsreport11'] = 'Cours les plus actifs';
 $string['statsreport12'] = 'Cours les plus actifs (pondérés)';
 $string['statsreport13'] = 'Cours avec le plus de participation (inscriptions)';
-$string['statsreport14'] = 'Cours avec le plus de participation (affichages/messages)';
+$string['statsreport14'] = 'Cours avec le plus de participation (messages/affichages)';
 $string['statsreport2'] = 'Affichages (tous les rôles)';
 $string['statsreport3'] = 'Messages (tous les rôles)';
 $string['statsreport4'] = 'Toutes les activités (tous les rôles)';

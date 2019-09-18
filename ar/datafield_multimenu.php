@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'حقل القائمة متعددة الخيارات';
+$string['pluginname'] = 'قوائم متعددة';
+$string['privacy:metadata'] = 'لا يخزن Multiple-selection menu  أي بيانات شخصية ، فهو يستخدم الجداول المحددة في mod_data.';

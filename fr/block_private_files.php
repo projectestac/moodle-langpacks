@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Fichiers personnels';
-$string['privacy:metadata'] = 'Le bloc Fichiers privés fournit un affichage et des liens vers les fichiers privés de l\'utilisateur.';
+$string['privacy:metadata'] = 'Le bloc Fichiers privés fournit un affichage et des liens vers les fichiers personnels de l\'utilisateur.';
 $string['privatefiles'] = 'Fichiers personnels';
 $string['private_files:addinstance'] = 'Ajouter un bloc mes fichiers personnels';
 $string['private_files:myaddinstance'] = 'Ajouter un bloc fichiers personnels au tableau de bord';

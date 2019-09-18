@@ -44,4 +44,4 @@ $string['privacy:metadata:timeend'] = 'Ώρα λήξης της προβολής
 $string['privacy:metadata:userid'] = 'Το αναγνωριστικό χρήστη που συνδέεται με αυτόν τον πίνακα.';
 $string['privacy:monthlypath'] = 'Στατιστικά μηνιαία';
 $string['privacy:weeklypath'] = 'Στατιστικά εβδομαδιαία';
-$string['stats:view'] = 'Προβολή αναφοράς στατιστικών μαθήματος';
+$string['stats:view'] = 'Εμφάνιση αναφοράς στατιστικών μαθήματος';

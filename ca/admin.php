@@ -142,6 +142,7 @@ $string['clitypevaluedefault'] = 'valor de tipus, premeu la tecla de retorn (<em
 $string['cliunknowoption'] = 'Opcions no reconegudes:
  {$a}
 L\'opció --help us orientarà.';
+$string['cliupgradedefault'] = 'Nou paràmetre: {$a}';
 $string['cliupgradefinished'] = 'L\'actualització per línia d\'ordres s\'ha completat de forma satisfactòria.';
 $string['cliupgradenoneed'] = 'No es necessita actualitzar per a la versió instal·lada {$a}.';
 $string['cliyesnoprompt'] = 'Escriu y (significa Sí) o n (significa No)';
@@ -409,7 +410,7 @@ $string['coursegraceperiodbefore'] = 'Període de gràcia per cursos futurs.';
 $string['courselistshortnames'] = 'Mostra els noms expandits de cursos';
 $string['courselistshortnames_desc'] = 'Si està activat, a la llista de cursos es mostrarà el nom curt dels cursos, a més del nom complet. Si cal, els noms expandits de cursos poden ser personalitzats mitjançant l\'edició de la cadena de llengua «courseextendednamedisplay», utilitzant la funció de personalització d\'idioma.';
 $string['coursemgmt'] = 'Gestiona cursos i categories';
-$string['courseoverview'] = 'Resum del curs';
+$string['courseoverview'] = 'Resum dels cursos';
 $string['courserequestnotify'] = 'Notificació de sol·licitud de curs';
 $string['courserequestnotifyemail'] = 'L\'usuari {$a->user} ha sol·licitat un nou curs: {$a->link}';
 $string['courserequests'] = 'Sol·licitud de cursos';

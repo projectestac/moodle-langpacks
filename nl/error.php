@@ -266,6 +266,7 @@ $string['filternotactive'] = 'Filter {$a} is momenteel niet actief';
 $string['filternotenabled'] = 'Filter niet ingeschakeld!';
 $string['filternotinstalled'] = 'Filter {$a} is momenteel niet geïnstalleerd';
 $string['forumblockingtoomanyposts'] = 'Je hebt het maximale aantal berichten voor dit forum bereikt.';
+$string['functionalityremoved'] = 'U probeert toegang te krijgen tot de functionaliteit die is verwijderd.';
 $string['generalexceptionmessage'] = 'Uitzondering - {$a}';
 $string['gradecantregrade'] = 'Er is een fout gebeurd tijdens het berekenen van de cijfers: {$a}';
 $string['gradepubdisable'] = 'Het publiceren van cijfers is uitgeschakeld';

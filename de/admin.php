@@ -211,20 +211,23 @@ $string['configcustommenuitems'] = 'Das eigene Menü wird auf allen Seiten in de
 
 Jeder Menüpunkt steht in einer eigenen Zeile. Jede Zeile besteht aus dem gezeigten Text, einer URL (optional), einem Tooltipp (optional) und einer Sprachzuordnung (optional, falls ein Menüpunkt nur mit bestimmten Sprachen sichtbar sein soll).
 
-Die Trennung erfolgt jeweils durch einen senkrechten Strich (|). Eine Struktur mit Untermenüs wird über Bindestriche (-) geregelt, Trennlinien werden mit dem Rautenzeichen (#) angelegt.
+Die Trennung erfolgt jeweils durch einen senkrechten Strich (|). Eine Struktur mit Untermenü wird einen Bindestrich (-) vor dem Eintrag geregelt, Trennlinien werden mit dem Rautenzeichen (#) angelegt.
 <pre>
-Moodle Community|http://moodle.org
--Moodle Support|http://moodle.org/support
+Moodle Community
+-Moodle Community (EN)|https://moodle.org" target=\\"_blank
+-Moodle Support (EN)|https://moodle.org/support" target=\\"_blank
 -#
--Moodle Entwickler|http://moodle.org/development
---Moodle Tracker|http://tracker.moodle.org
---Moodle Docs|http://docs.moodle.org|Moodle-Dokumentation
---Deutsche Moodle Docs|http://docs.moodle.org/de|Dokumentation in Deutsch|de,de_du,de_kids
--Moodle News|http://moodle.org/Nachrichten von Moodle
-####
-Moodle.com|http://moodle.com
--Moodle Commercial Hosting|http://moodle.com/hosting
--Moodle Commercial Support|http://moodle.com/support
+-Moodle für Entwickler (EN)|https://moodle.org/development" target=\\"_blank
+-Moodle Tracker (EN)|https://tracker.moodle.org" target=\\"_blank
+-Moodle Docs (EN)|https://docs.moodle.org/en/" target=\\"_blank|Moodle-Dokumentation
+-Moodle Docs (DE)|https://docs.moodle.org/de/" target=\\"_blank|Moodle-Dokumentation
+-Moodle News (EN)|https://moodle.org/news/" target=\\"_blank
+#####
+Moodle Commercial
+-Moodle.com (EN)|https://moodle.com" target=\\"_blank
+-Moodle Commercial Hosting (EN)|https://moodle.com/hosting" target=\\"_blank
+-Moodle Commercial Support (EN)|https://moodle.com/support" target=\\"_blank
+-Moodle Workplace (EN)|https://moodle.com/products/moodle-workplace/" target=\\"_blank
 </pre>';
 $string['configcustomusermenuitems'] = 'Sie können den Inhalt des Nutzermenüs konfigurieren (mit Ausnahme des Logout-Links, der automatisch hinzugefügt wird). Jede Menüzeile wird durch das Zeichen | getrennt und besteht aus 1.) einem Text oder der Angabe "langstringname, componentname" oder reinem Text, 2.) einer URL und 3.) einem Icon als pix-Symbol (im Verzeichnis /pix oder mit der Struktur [Unterverzeichnisname]/[Iconname) oder als URL. Trennungen können durch Eingabe einer Linie oder einem oder mehreren #-Zeichen eingegeben werden.';
 $string['configdbsessions'] = 'Bei der Aktivierung dieser Einstellung wird die Datenbank verwendet, um Informationen über aktuelle Sessions abzuspeichern. Das ist sinnvoll bei sehr großen Anwendungen oder Anwendungen, die über mehrere Cluster von Servern verteilt arbeiten. Meist kann die Einstellung deaktiviert bleiben. Bei einer Einstellungsänderung werden alle aktuellen Nutzer/innen ausgeloggt (auch die Administrator/innen). Falls Sie MySQL benutzen, stellen Sie sicher, dass \'max_allowed_packet\' in der Datei my.cnf (oder my.ini) mindestens 4M ist.

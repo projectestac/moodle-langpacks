@@ -82,7 +82,7 @@ $string['answers'] = 'Réponses';
 $string['answersingleno'] = 'Plusieurs choix possibles';
 $string['answersingleyes'] = 'Une seule réponse';
 $string['answertoolong'] = 'Réponse trop longue après la ligne {$a} (255 caractères max.)';
-$string['anytags'] = 'N\'importe quel tag';
+$string['anytags'] = 'Tous les tags';
 $string['aon'] = 'Format AON';
 $string['areyousureremoveselected'] = 'Voulez-vous vraiment retirer les questions sélectionnées ?';
 $string['asshownoneditscreen'] = 'Tel qu\'affiché sur la page de modification';
@@ -100,6 +100,8 @@ $string['attemptincomplete'] = 'Cette tentative (de {$a}) n\'est pas encore term
 $string['attemptlast'] = 'Dernière tentative';
 $string['attemptnumber'] = 'Tentative';
 $string['attemptquiznow'] = 'Faire le test';
+$string['attemptreviewtitle'] = '{$a} : relecture de tentative';
+$string['attemptreviewtitlepaged'] = '{$a->name} : relecture de tentative (page {$a->currentpage} sur {$a->totalpages})';
 $string['attempts'] = 'Tentatives';
 $string['attemptsallowed'] = 'Nombre de tentatives autorisées';
 $string['attemptsdeleted'] = 'Tentatives de tests supprimées';
@@ -112,7 +114,10 @@ $string['attemptsnumyourgroups'] = 'Tentatives : {$a->total} ({$a->group} de vo
 $string['attemptsonly'] = 'N\'afficher que les étudiants ayant déjà effectué le test';
 $string['attemptstate'] = 'État';
 $string['attemptstillinprogress'] = 'Tentative encore en cours';
+$string['attemptsummarytitle'] = '{$a} : résumé de tentative';
 $string['attemptsunlimited'] = 'Nombre illimité de tentatives';
+$string['attempttitle'] = '{$a}';
+$string['attempttitlepaged'] = '{$a->name} (page {$a->currentpage} sur {$a->totalpages})';
 $string['autosaveperiod'] = 'Délai d\'enregistrement automatique';
 $string['autosaveperiod_desc'] = 'Durant les tests, les réponses des participants peuvent être enregistrées automatiquement. Les réponses sont enregistrées dès que l\'une d\'entre elles est modifiée ou après la durée indiquée ici. Un délai plus court augmente la charge sur le serveur, mais réduit en revanche les risques de perte du travail des participants. Si vous voulez réduire considérablement ce délai, essayez de le diminuer graduellement en observant la charge du serveur. Si elle devient trop grande, allongez le délai. En fixant le délai à 0, l\'enregistrement automatique est désactivé.';
 $string['back'] = 'Retour à la question précédente';
@@ -897,7 +902,7 @@ $string['shuffledrandomly'] = 'Mélangées aléatoirement';
 $string['shufflequestions'] = 'Mélanger';
 $string['shufflequestions_help'] = 'Si ce réglage est activé, à chaque tentative du test, l\'ordre des questions dans cette section sera mélangé dans un ordre aléatoire différent.
 
-Ceci permet de rendre plus difficile le partage des réponses entre étudiants, mais rend également plus difficile les discussions entre les étudiants et vous sur une question déterminée.';
+Ceci permet de rendre plus difficile le partage des réponses entre étudiants, mais rend également plus difficile les discussions entre les étudiants et l\'enseignant sur une question déterminée.';
 $string['shufflewithin'] = 'Mélanger les éléments des questions';
 $string['shufflewithin_help'] = 'Si cette option est activée, les propositions de réponses aux questions seront mélangées aléatoirement à chaque nouvelle tentative du test, à condition que l\'option correspondant ait également été activée dans les paramètres de la question. Le réglage ne s\'applique qu\'aux questions qui comportent des propositions de réponses, telles que les questions à choix multiple ou les questions d\'appariement.';
 $string['singleanswer'] = 'Veuillez choisir une réponse.';

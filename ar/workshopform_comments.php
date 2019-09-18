@@ -26,4 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addmoredimensions'] = 'فراغات لاوجه   {$a} الدولار';
+$string['dimensioncommentfor'] = 'تعليق لـ {$a}';
+$string['dimensiondescription'] = 'الوصف';
 $string['dimensionnumber'] = '{$a} اوجه الدولار';
+$string['pluginname'] = 'التعليقات';
+$string['privacy:metadata'] = 'يقوم المكون الإضافي  Comments grading بتخزين تفاصيل نموذج التقييم فقط. يتم تخزين البيانات الشخصية الفعلية لكيفية ملىء النموذج بواسطة وحدة ورشة العمل نفسها ويتم إرفاقها بالتقييمات المصدرة.';

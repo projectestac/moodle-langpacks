@@ -37,5 +37,6 @@ $string['pluginname'] = 'Comentarios';
 $string['privacy:commentpath'] = 'Comentarios';
 $string['privacy:metadata:assignmentid'] = 'ID da tarefa';
 $string['privacy:metadata:commentpurpose'] = 'O texto do comentario.';
+$string['privacy:metadata:filepurpose'] = 'Ficheiros de comentarios do profesor para o alumno.';
 $string['privacy:metadata:gradepurpose'] = 'O ID da cualificación asociada co comentario.';
 $string['privacy:metadata:tablesummary'] = 'Isto almacena os comentarios feitos polos cualificadores como comentarios para o alumno na súa presentación.';

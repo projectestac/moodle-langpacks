@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['event_assessable_uploaded'] = 'قد تم تحميل نص الكتروني';
 $string['pluginname'] = 'الكترونيا';
+$string['privacy:metadata'] = 'لا يقوم المكون الإضافي Online assignment  بتخزين أيّ بيانات شخصية.';

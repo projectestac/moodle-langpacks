@@ -41,7 +41,7 @@ $string['defaultstart'] = 'Standaard aanmeldingsstart';
 $string['deleteselectedusers'] = 'Verwijder gebruikersaanmeldingen';
 $string['editselectedusers'] = 'Bewerk geselecteerde gebruikersaanmelding';
 $string['enrolledincourserole'] = 'Aangemeld in "{$a->course}" als "{$a->role}"';
-$string['enrolusers'] = 'Gebruikers aanmelden';
+$string['enrolusers'] = 'Gebruikers manueel aanmelden';
 $string['enroluserscohorts'] = 'Geselecteerde gebruikers en site-groepen aanmelden';
 $string['expiredaction'] = 'Actie bij verlopen van de aanmelding';
 $string['expiredaction_help'] = 'Selecteer een uit te voeren actie wanneer de aanmelding van een gebruiker vervalt. Merk op dat sommige gebruikersgegevens en instellingen gewist zullen worden tijdens het afmelden van de cursus.';
@@ -58,7 +58,7 @@ $string['expirymessageenrollerbody'] = 'De aanmelding in cursus  \'{$a->course}\
 Ga naar  {$a->extendurl} om hun aanmelding te verlengen.';
 $string['expirymessageenrollersubject'] = 'Melding voor het vervallen van de aanmelding';
 $string['manual:config'] = 'Maneel aanmelden van gebruikers configureren';
-$string['manual:enrol'] = 'Gebruikers aanmelden';
+$string['manual:enrol'] = 'Gebruikers manueel aanmelden';
 $string['manual:manage'] = 'Beheer gebruikersaanmeldingen';
 $string['manualpluginnotinstalled'] = 'De "Manueel"-plugin is niet geïnstalleerd';
 $string['manual:unenrol'] = 'Gebruikers van de cursus afmelden';

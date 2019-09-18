@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'خارج التغطية';
+$string['privacy:metadata'] = 'لا يقوم المكون الإضافي Offline assignment  بتخزين أيّ بيانات شخصية.';

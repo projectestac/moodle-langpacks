@@ -545,7 +545,7 @@ $string['notavailabletostudents'] = 'Nota: aquest qüestionari no està disponib
 $string['notenoughrandomquestions'] = 'No hi ha prou preguntes a la categoria {$a->category} per crear la pregunta {$a->name} ({$a->id}).';
 $string['notenoughsubquestions'] = 'No heu definit prou subpreguntes!<br />
 Voleu tornar enrere i arreglar aquesta pregunta?';
-$string['notimedependentitems'] = 'A hores d\'ara, els elements depenents del temps no funcionen amb el mòdul de qüestionaris. De manera provisional, podeu definir un límit de temps per a tot el qüestionari. Voleu triar un altre ítem diferent o, malgrat tot, preferiu utilitzar aquest?';
+$string['notimedependentitems'] = 'A hores d\'ara, els elements depenents del temps no funcionen amb el mòdul de qüestionaris. De manera provisional, podeu definir un límit de temps per a tot el qüestionari. Voleu triar un altre element diferent o, malgrat tot, preferiu utilitzar aquest?';
 $string['notyetgraded'] = 'Encara no s\'ha avaluat';
 $string['notyetviewed'] = 'Encara no s\'ha visualitzat';
 $string['notyourattempt'] = 'No és el vostre intent!';
@@ -571,7 +571,7 @@ Per distribuir les preguntes en un nombre de pàgines feu clic al botó "Repagin
 $string['orderingquiz'] = 'Ordre i paginació';
 $string['orderingquizx'] = 'Ordre i paginació: {$a}';
 $string['outcomesadvanced'] = 'Les competències són paràmetres avançats';
-$string['outof'] = '{$a->grade} d\'un màxim de {$a->maxgrade}';
+$string['outof'] = '{$a->grade} sobre {$a->maxgrade}';
 $string['outofpercent'] = '{$a->grade} sobre {$a->maxgrade} ({$a->percent}%)';
 $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';
 $string['overallfeedback'] = 'Retroacció global';

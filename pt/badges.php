@@ -109,11 +109,11 @@ Para confirmar e ativar a ligação à sua backpack, visite a página
 
 {$a->link}
 
-Em geral, o URL acima deverá aparecer como uma hiperligação azul que apenas tem de clicar. Se tal não funcionar, copie e cole a hiperligação na linha de endereço do seu navegador.
+Normalmente o URL acima deverá aparecer como uma hiperligação azul que apenas tem de clicar. Se tal não funcionar, copie e cole a hiperligação na linha de endereço do seu navegador.
 
 Se precisar de ajuda, entre em contacto com o administrador do site,
 {$a->admin}';
-$string['backpackemailverifyemailsubject'] = '{$a}: e-mail de verificação da backpack OpenBadges';
+$string['backpackemailverifyemailsubject'] = '{$a}: e-mail de verificação da backpack Badges';
 $string['backpackemailverifypending'] = 'Um e-mail de verificação foi enviado para <strong>{$a}</strong>. Clique na hiperligação de verificação no e-mail para ativar a ligação à sua backpack.';
 $string['backpackemailverifysuccess'] = 'Obrigado por verificar o seu endereço de e-mail. Já está ligado à sua backpack.';
 $string['backpackemailverifytokenmismatch'] = 'O token na hiperligação que clicou não corresponde ao token guardado. Certifique-se de clicar na hiperligação do e-mail mais recente que recebeu.';

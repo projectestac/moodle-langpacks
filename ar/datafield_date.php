@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'حقل التاريخ';
+$string['pluginname'] = 'التاريخ';
+$string['privacy:metadata'] = 'لا يخزن Date field  أي بيانات شخصية ، فهو يستخدم الجداول المعرفة في mod_data.';

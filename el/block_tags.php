@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['anycollection'] = 'Κάθε';
 $string['anytype'] = 'Όλα';
 $string['configtitle'] = 'Τίτλος μπλοκ ετικετών';
-$string['defaultdisplay'] = 'Προβολή ετικετών';
+$string['defaultdisplay'] = 'Εμφάνιση ετικετών';
 $string['disabledtags'] = 'Οι ετικέτες είναι απενεργοποιημένες';
 $string['pluginname'] = 'Ετικέτες';
 $string['privacy:metadata'] = 'Το μπλοκ Ετικέτες εμφανίζει μόνο δεδομένα αποθηκευμένα σε άλλες τοποθεσίες.';

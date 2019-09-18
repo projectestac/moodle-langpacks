@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['advancedsearch'] = 'Σύνθετη αναζήτηση';
+$string['advancedsearch'] = 'Προχωρημένη αναζήτηση';
 $string['all'] = 'Όλα';
 $string['allareas'] = 'Όλες οι περιοχές';
 $string['allcourses'] = 'Όλα τα μαθήματα';
@@ -122,15 +122,15 @@ $string['seconds'] = 'δευτερόλεπτα';
 $string['solutions'] = 'Λύσεις';
 $string['statistics'] = 'Στατιστικά';
 $string['step'] = 'Βήμα';
-$string['thesewordshelpimproverank'] = 'Οι παρακάτω λέξεις έχουν μεγαλύτερη προτεραιότητα';
+$string['thesewordshelpimproverank'] = 'Οι παρακάτω λέξεις βοηθούν στη βελτίωση της κατάταξης';
 $string['thesewordsmustappear'] = 'Οι παρακάτω λέξεις πρέπει να εμφανίζονται';
 $string['thesewordsmustnotappear'] = 'Οι παρακάτω λέξεις πρέπει να μην εμφανίζονται';
 $string['title'] = 'Τίτλος';
-$string['tofetchtheseresults'] = 'για την εύρεση αυτών των αποτελεσμάτων';
+$string['tofetchtheseresults'] = 'για την εύρεση και λήψη αυτών των αποτελεσμάτων';
 $string['totalsize'] = 'Συνολικό μέγεθος';
 $string['totime'] = 'Τροποποιήθηκε πριν από';
 $string['type'] = 'Τύπος';
-$string['uncompleteindexingerror'] = 'Η δημιουργία ευρετηρίου δεν ολοκληρώθηκε. Παρακαλούμε ξαναξεκκινήστε την.';
+$string['uncompleteindexingerror'] = 'Η δημιουργία ευρετηρίου δεν ολοκληρώθηκε. Παρακαλούμε ξεκκινήστε την ξανά.';
 $string['versiontoolow'] = 'Λυπούμαστε, η καθολική έρευνα απαιτεί PHP έκδοση 5.0.0 ή νεότερη';
-$string['viewresultincontext'] = 'Προβολή αυτού του αποτελέσματος στο πλαίσιο';
+$string['viewresultincontext'] = 'Εμφάνιση αυτού του αποτελέσματος στο πλαίσιο';
 $string['wordsintitle'] = 'Λέξεις στον τίτλο';

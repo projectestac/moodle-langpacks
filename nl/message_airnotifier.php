@@ -64,5 +64,5 @@ $string['privacy:metadata:usersubsystem'] = 'Deze plugin is verbonden met het ge
 $string['privacy:subcontext'] = 'Berichten Airnotifier';
 $string['requestaccesskey'] = 'Toegangssleutel vragen';
 $string['showhide'] = 'Apparaat inschakelen/uitschakelen.';
-$string['sitemustberegistered'] = 'Om de publieke Airnotifier te kunnen gebruiken, moet je je site registreren bij Moodle.net.';
+$string['sitemustberegistered'] = 'Om de publieke Airnotifier te kunnen gebruiken, moet je je site registreren bij Moodle.';
 $string['unknowndevice'] = 'Onbekend apparaat';

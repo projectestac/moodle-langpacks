@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['moodleimage:browseimage'] = 'ابحث عن أو حمل صورة';
+$string['pluginname'] = 'أدرج صورة';
+$string['privacy:metadata'] = 'لا يخزن البرنامج المساعد The TinyMCE Moodle image أيّ بيانات شخصية.';

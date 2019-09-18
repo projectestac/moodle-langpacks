@@ -39,7 +39,7 @@ $string['indicator:socialbreadth'] = 'Étiquette : aspect social';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une ressource Étiquette.';
 $string['label:addinstance'] = 'Ajouter une étiquette';
 $string['labeltext'] = 'Contenu de l\'étiquette';
-$string['label:view'] = 'Consulter une étiquette';
+$string['label:view'] = 'Consulter des étiquettes';
 $string['modulename'] = 'Étiquette';
 $string['modulename_help'] = 'Le module étiquette permet d\'insérer du texte ou des contenus multimédias dans la page du cours, entre les liens vers d\'autres ressources ou activités. Les étiquettes sont très polyvalentes et permettent d\'améliorer considérablement l\'aspect d\'un cours, lorsqu\'elles sont utilisées de façon adéquate.
 

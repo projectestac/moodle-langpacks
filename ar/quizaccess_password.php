@@ -27,5 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['passworderror'] = 'كلمة السر المدخلة غير صحيحة';
 $string['pluginname'] = 'قاعدة كلمة المرور للوصول للاختبار';
+$string['privacy:metadata'] = 'المكون الإضافي Password quiz access rule  لا يخزن أيّ بيانات شخصية.';
 $string['quizpassword'] = 'كلمة المرور للاختبار';
 $string['requirepasswordmessage'] = 'لأخذ هذا الاختباريجب عليك معرفة كلمة المرور';

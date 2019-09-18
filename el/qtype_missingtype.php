@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['answerno'] = 'Απάντηση {$a}';
-$string['cannotchangeamissingqtype'] = 'Δεν μπορείτε να κάνετε αλλαγές σε ερώτηση ενός άγνωστου τύπου.';
+$string['cannotchangeamissingqtype'] = 'Δεν μπορείτε να κάνετε αλλαγές σε ερώτηση ενός τύπου που λείπει.';
 $string['deletedquestion'] = 'Ερώτηση που λείπει';
 $string['deletedquestiontext'] = 'Αυτή η ερώτηση λείπει. Δεν είναι δυνατό να εμφανιστεί τίποτα.';
 $string['missing'] = 'Ερώτηση ενός τύπου που δεν έχει εγκατασταθεί σε αυτό το σύστημα';

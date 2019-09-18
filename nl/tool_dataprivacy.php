@@ -59,7 +59,7 @@ $string['confirmcompletion'] = 'Wil je echt deze gebruikersvraag als onvolledig 
 $string['confirmcontextdeletion'] = 'Wil je echt het verwijderen van de geselecteerde contexten bevestigen? Dit zal ook alle gebruikersgegevens voor de gerelateerde subcontexten verwijderen.';
 $string['confirmdenial'] = 'Wil je echt dit gegevensverzoek weigeren?';
 $string['confirmrequestresubmit'] = 'Weet u zeker dat u de huidige {$a->type} aanvraag voor {$a->username}  wilt annuleren en opnieuw wilt verzenden?';
-$string['contactdataprotectionofficer'] = 'Neem contact op met de functionaris voor gegevensbescherming.';
+$string['contactdataprotectionofficer'] = 'Neem contact op met de functionaris voor gegevensbescherming';
 $string['contactdataprotectionofficer_desc'] = 'Door deze functie in te schakelen, kunnen gebruikers contact opnemen met de functionaris gegevensbescherming en hun gegevens opvragen via een link op hun profielpagina.';
 $string['contactdpoviaprivacypolicy'] = 'Neem contact op met de functionaris gegevensbescherming van deze website, zoals beschreven in het privacybeleid.';
 $string['contextlevelname10'] = 'Website';
@@ -309,7 +309,7 @@ $string['send'] = 'Verstuur';
 $string['sensitivedatareasons'] = 'Reden voor het verwerken van gevoelige persoonlijke gegevens';
 $string['sensitivedatareasons_help'] = 'Selecteer één of meerdere redenen of doelen die het verwerken van gevoelige persoonlijke gegevens voor dit doel rechtvaardigen. Zie <a href="http://www.privacy-regulation.eu/nl/artikel-9-verwerking-van-bijzondere-categorieen-van-persoonsgegevens-EU-AVG.htm" target="_blank">AVG Art. 9.2</a';
 $string['setdefaults'] = 'Stel de standaardwaarden in';
-$string['showdataretentionsummary'] = 'Toon samenvatting van dataretentie';
+$string['showdataretentionsummary'] = 'Toon samenvatting gegevensretentie';
 $string['showdataretentionsummary_desc'] = 'Indien ingeschakeld wordt er een link naar de samenvatting van dataretentie getoond onderaan de pagina en op de pagina van het gebruikersprofiel.';
 $string['statusapproved'] = 'Goedgekeurd';
 $string['statusawaitingapproval'] = 'In afwachting van goedkeuring';

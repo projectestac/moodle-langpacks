@@ -149,6 +149,7 @@ $string['privacy:metadata:userpref:loginfailedcountsincesuccess'] = 'عدد ال
 $string['privacy:metadata:userpref:loginfailedlast'] = 'التاريخ الذي تم فيه تسجيل آخر محاولة تسجيل دخول فاشلة';
 $string['privacy:metadata:userpref:loginlockout'] = 'ما إذا كان حساب المستخدم مقفلاً بسبب محاولات تسجيل الدخول الفاشلة، وتاريخ قفل الحساب';
 $string['privacy:metadata:userpref:loginlockoutignored'] = 'يشير إلى أن حساب المستخدم يجب ألا يخضع أبدًا للإغلاق';
+$string['privacy:metadata:userpref:loginlockoutsecret'] = 'عند الإغلاق ، السر الذي يجب على المستخدم استخدامه لفتح حسابه';
 $string['recaptcha'] = 'ريكاباتشا';
 $string['recaptcha_help'] = 'يستخدم اختبار CAPTCHA لمنع إساءة الاستخدام من البرامج التلقائية. اتبع التعليمات للتحقق من أنك شخص. قد يكون هذا مربعًا للتحقق، أو الأحرف المعروضة في صورة يجب إدخالها أو مجموعة من الصور للاختيار من بينها.
 

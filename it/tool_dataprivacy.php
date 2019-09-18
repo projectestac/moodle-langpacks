@@ -193,8 +193,8 @@ $string['gdpr_art_9_2_j_name'] = 'Archiviazione nel pubblico interesse, ricerca 
 $string['hide'] = 'Contrai tutto';
 $string['httpwarning'] = 'I dati scaricati da questo sito non sono crittografati. Per favore contatta l\'amministratore di sistema per richiedere l\'installazione di un certificato SSL.';
 $string['inherit'] = 'Eredita';
-$string['lawfulbases'] = 'Liceità del trattamento';
-$string['lawfulbases_help'] = 'Selezionare almeno un\'opzione che attesti la liceità del trattamento dei dati personali. Per maggiori informazioni: <a href="https://gdpr-info.eu/art-6-gdpr/" target="_blank">GDPR Art. 6.1</a>';
+$string['lawfulbases'] = 'Base giuridica del trattamento';
+$string['lawfulbases_help'] = 'Selezionare almeno un\'opzione che specifichi la base giuridica del trattamento dei dati personali. Per maggiori informazioni: <a href="https://gdpr-info.eu/art-6-gdpr/" target="_blank">GDPR Art. 6.1</a>';
 $string['markcomplete'] = 'Contrassegna come completata';
 $string['markedcomplete'] = 'la richiesta è stata contrassegnata come completata dal responsabile del trattamento dei dati.';
 $string['message'] = 'Messaggio';
@@ -282,7 +282,7 @@ $string['requireallenddatesforuserdeletion_desc'] = 'Per calcolare la scadenza d
 * la data di ultimo accesso viene confrontata con il periodo di conservazione dei dati
 * la presenza di iscrizioni attive nei corsi
 
-Durante la verifica delle iscrizioni attive, se il corso non ha una data di fine allora entra in gioco questa impostazione: nel caso in cui il corso non abbia data di fine e l\'impostazione sia attiva, l\'account dell\'utente iscritto non potrà essere eliminato.';
+Durante la verifica delle iscrizioni attive, se il corso non ha una data di fine allora entra in gioco questa impostazione: nel caso in cui il corso non abbia data di fine e l\'impostazione sia attiva, l\'account dell\'utente iscritto al corso non potrà essere eliminato.';
 $string['requiresattention'] = 'Richiedono attenzione.';
 $string['requiresattentionexplanation'] = 'Plugin che non supporta le API privacy di Moodle. Qualora il pluign dovesse memorizzare dati personali, non sarà possibile esportarli o eliminarli attraverso il sistema di privacy di Moodle.';
 $string['resubmitrequest'] = 'Invia di nuovo la richiesta {$a->type} dell\'utente {$a->username}';

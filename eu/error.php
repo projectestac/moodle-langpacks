@@ -473,7 +473,7 @@ $string['prefixcannotbeempty'] = '<p>Errorea: datu-basearen taularen aurrizkia e
 $string['prefixtoolong'] = '<p>Errorea: data-baseko taulen aurrizkia luzeegia da ({$a->dbfamily})</p>
 <p>Guneko kudeatzaileak arazoa konpondu behar du. {$a->dbfamily} datu-baseetan tauletako aurrizkien gehienezko luzera {$a->maxlength} karakterekoa da.</p>';
 $string['privatefilesupload'] = 'Erabiltzailaren gune pribatura fitxategiak zuzenean igotzea ez da dagoeneko onartzen. Fitxategiak zirriborro-gunera igo eta ondoren core_user::add_user_private_files erremintarekin mugitu itzazu';
-$string['processingstops'] = 'Prozesamendua hemen bukatu da. Gainontzeko erregistroak ez dira kontuan hartu.';
+$string['processingstops'] = 'Prozesamendua hemen geratu da. Gainontzeko erregistroak ez dira kontuan hartu.';
 $string['protected_cc_not_supported'] = 'Babestutako cartridge-ak ez dira onartzen.';
 $string['querystringcannotbeempty'] = 'Kontsultaren katea ezin da hutsik egon.';
 $string['redirecterrordetected'] = 'Onartzen ez den berbideraketa atzeman da, script-aren egikaritzea amaitu da';

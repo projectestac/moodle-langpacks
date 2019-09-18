@@ -921,11 +921,11 @@ Questo programma è software libero; puoi ridistribuirlo e/o modificarlo secondo
 Questo programma viene distribuito nell\'auspicio che possa essere utile, ma SENZA ALCUNA GARANZIA, ivi inclusa qualsiasi garanzia implicita di COMMERCIABILITÀ o di IDONEITÀ PER UN USO SPECIFICO.
 
 Per maggiori dettagli leggere la pagina informativa sulla Licenza di Moodle:
-http://docs.moodle.org/dev/License';
+https://docs.moodle.org/dev/License';
 $string['gpllicense'] = 'Licenza GPL';
 $string['grade'] = 'Valutazione';
 $string['grades'] = 'Valutazioni';
-$string['gravatarenabled'] = 'In questo sito è stato abilitato <a href="http://www.gravatar.com/">Gravatar</a>. Se nel tuo profilo non carichi nessuna immagine, Moodle proverà a caricare una da Gravatar.';
+$string['gravatarenabled'] = 'In questo sito è stato abilitato <a href="https://www.gravatar.com/">Gravatar</a>. Se nel tuo profilo non carichi nessuna immagine, Moodle proverà a caricarne una da Gravatar.';
 $string['group'] = 'Gruppo';
 $string['groupadd'] = 'Aggiunta nuovo gruppo';
 $string['groupaddusers'] = 'Aggiunta al gruppo selezionato';

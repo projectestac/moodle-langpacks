@@ -26,13 +26,13 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allowdeletes'] = '削除を許可する';
-$string['allowdeletes_help'] = '「delete 」フィールドを受け入れるかどうか決定します。';
+$string['allowdeletes_help'] = '「delete」フィールドを受け入れるかどうか決定します。';
 $string['allowrenames'] = 'リネームを許可する';
 $string['allowrenames_help'] = '「rename」フィールドを受け入れるかどうか決定します。';
 $string['allowresets'] = 'リセットを許可する';
 $string['allowresets_help'] = '「reset」フィールドを受け入れるかどうか決定します。';
 $string['cachedef_helper'] = 'ヘルパキャッシング';
-$string['cannotdeletecoursenotexist'] = '存在しないコースを削除できません。';
+$string['cannotdeletecoursenotexist'] = '存在しないコースは削除できません。';
 $string['cannotforcelang'] = 'このコースの言語を強制するパーミッションがありません。';
 $string['cannotgenerateshortnameupdatemode'] = '更新が許可されている場合、省略名を生成することはできません。';
 $string['cannotreadbackupfile'] = 'バックアップファイルを読めません。';

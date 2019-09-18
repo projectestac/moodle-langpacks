@@ -36,4 +36,4 @@ $string['oauthinfo'] = '<p>Για να χρησιμοποιήσετε αυτό �
 $string['pluginname'] = 'Microsoft OneDrive (παλαιού τύπου)';
 $string['privacy:metadata'] = 'Το πρόσθετο αποθετηρίου «Microsoft OneDrive (παλαιού τύπου)» δεν αποθηκεύει κανένα προσωπικό δεδομένο αλλά μεταβιβάζει δεδομένα χρήστη από το Moodle προς το απομακρυσμένο σύστημα.';
 $string['secret'] = 'Μυστικό';
-$string['skydrive:view'] = 'Προβολή OneDrive (παλαιού τύπου)';
+$string['skydrive:view'] = 'Εμφάνιση OneDrive (παλαιού τύπου)';

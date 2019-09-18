@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['confirmdelete'] = '本当にコンテクストレベル「 {$a->level} 」内ロール「 {$a->role} 」へのサポートされないロール割り当てすべてを削除してもよろしいですか?';
+$string['confirmdelete'] = '本当にコンテクストレベル「 {$a->level} 」内のロール「 {$a->role} 」へのサポートされないロール割り当てすべてを削除してもよろしいですか?';
 $string['contextlevel'] = 'コンテクストレベル';
 $string['count'] = 'カウント';
 $string['noprolbems'] = 'サポートされないロール割り当ては見つかりませんでした。';

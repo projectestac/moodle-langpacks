@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['modulename'] = 'معرض الصور';
+$string['pluginname'] = 'معرض الصور';
+$string['privacy:metadata'] = 'لا يخزن المكون الإضافي  Image gallery  أيّ بيانات شخصية.';

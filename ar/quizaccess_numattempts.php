@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['attemptsallowedn'] = 'المحاولات المسموح بها: {$a}';
 $string['pluginname'] = 'قاعدة عدد محاولات الوصول للاختبار';
+$string['privacy:metadata'] = 'المكون الإضافي Number of attempts quiz access rule لا يخزن أيّ بيانات شخصية.';

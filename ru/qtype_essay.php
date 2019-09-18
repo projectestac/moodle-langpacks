@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['acceptedfiletypes_help'] = 'Принимаемые типы файлов могут быть ограничены путем ввода списка их расширений. При пустом поле разрешены все типы файлов.';
 $string['allowattachments'] = 'Разрешить вложения';
 $string['attachmentsoptional'] = 'Вложения не обязательны';
 $string['attachmentsrequired'] = 'Вложения обязательны';

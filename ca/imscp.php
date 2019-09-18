@@ -46,4 +46,4 @@ $string['page-mod-imscp-x'] = 'Qualsevol pàgina del modul paquet de contingut I
 $string['pluginadministration'] = 'Gestió IMSCP';
 $string['pluginname'] = 'Paquet de contingut IMS';
 $string['search:activity'] = 'Paquet de contingut IMS: informació del recurs';
-$string['toc'] = 'Índex';
+$string['toc'] = 'Taula de continguts';

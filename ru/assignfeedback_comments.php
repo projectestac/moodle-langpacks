@@ -37,5 +37,6 @@ $string['pluginname'] = 'Отзыв в виде комментария';
 $string['privacy:commentpath'] = 'Отзыв в виде комментария';
 $string['privacy:metadata:assignmentid'] = 'ID задания';
 $string['privacy:metadata:commentpurpose'] = 'Текст комментария.';
+$string['privacy:metadata:filepurpose'] = 'Файлы отзыва от учителя для студента.';
 $string['privacy:metadata:gradepurpose'] = 'ID оценки, связанной с этим комментарием.';
 $string['privacy:metadata:tablesummary'] = 'Хранит комментарии, сделанные оценщиками в виде отзыва для студента на отправленное задание.';

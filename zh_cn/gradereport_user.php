@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = '用户报表';
 $string['user:view'] = '查看自己的成绩报表';
+$string['viewas'] = '查看报告';

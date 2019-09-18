@@ -73,6 +73,7 @@ $string['output'] = 'Saída:';
 $string['oval'] = 'Óvalo';
 $string['pagenumber'] = 'Páxina {$a}';
 $string['pagexofy'] = 'Páxina {$a->page} de {$a->total}';
+$string['partialwarning'] = 'A algúns dos ficheiros deste envío só se pode acceder mediante descarga directa.';
 $string['pathtogspathdesc'] = 'Teña en conta que facer anotacións nun PDF require que a ruta a ghostscript se configure en {$a}.';
 $string['pen'] = 'Lapis';
 $string['pluginname'] = 'Facer anotacións en PDF';

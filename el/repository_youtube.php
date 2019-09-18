@@ -37,5 +37,5 @@ $string['sortby'] = 'Ταξινόμηση κατά';
 $string['sortpublished'] = 'Ημερομηνία Δημοσίευσης';
 $string['sortrating'] = 'Αξιολόγηση';
 $string['sortrelevance'] = 'Συνάφεια';
-$string['sortviewcount'] = 'Προβολή Πλήθους';
+$string['sortviewcount'] = 'Εμφάνιση Πλήθους';
 $string['youtube:view'] = 'Χρήση του YouTube στον επιλογέα αρχείων';

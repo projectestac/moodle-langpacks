@@ -72,7 +72,7 @@ $string['assign:revealidentities'] = 'Révéler l’identité des étudiants';
 $string['assign:reviewgrades'] = 'Relire les notes';
 $string['assignsubmission'] = 'Plugin de remise';
 $string['assignsubmissionpluginname'] = 'Plugin de remise';
-$string['assign:submit'] = 'Envoyer le devoir';
+$string['assign:submit'] = 'Envoyer un devoir';
 $string['assign:view'] = 'Accéder à un devoir';
 $string['assign:viewblinddetails'] = 'Voir les identités des étudiants quand l\'évaluation à l\'aveugle est activée';
 $string['assign:viewgrades'] = 'Affichage des notes';
@@ -81,11 +81,10 @@ $string['attempthistory'] = 'Tentatives précédentes';
 $string['attemptnumber'] = 'Numéro de tentative';
 $string['attemptreopenmethod'] = 'Réouverture des travaux remis';
 $string['attemptreopenmethod_help'] = 'Détermine comment les travaux remis par les étudiants sont rouverts. Les options disponibles sont :
-<ul>
-<li>Jamais - Le travail remis ne peut pas être rouvert.</li>
-<li>Manuellement - Le travail remis peut être rouvert par un enseignant.</li>
-<li>Automatiquement jusqu\'à réussite - Le travail remis est rouvert automatiquement jusqu\'à ce que l\'étudiant atteigne la note nécessaire pour réussir le devoir ; cette note est indiquée dans le carnet de notes.</li>
-</ul>';
+
+* Jamais - Le travail remis ne peut pas être rouvert.
+* Manuellement - Le travail remis peut être rouvert par un enseignant.
+* Automatiquement jusqu\'à réussite - Le travail remis est rouvert automatiquement jusqu\'à ce que l\'étudiant atteigne la note nécessaire pour réussir le devoir ; cette note est indiquée dans le carnet de notes.';
 $string['attemptreopenmethod_manual'] = 'Manuellement';
 $string['attemptreopenmethod_none'] = 'Jamais';
 $string['attemptreopenmethod_untilpass'] = 'Automatiquement jusqu\'à réussite';
@@ -248,7 +247,7 @@ $string['gradestudent'] = 'Évaluer l\'étudiant&nbsp;: (id={$a->id}, fullname={
 $string['gradeuser'] = 'Note {$a}';
 $string['grading'] = 'Évaluation';
 $string['gradingchangessaved'] = 'Les modifications de note ont été enregistrées';
-$string['gradingduedate'] = 'Rappeler d\'évaluer après';
+$string['gradingduedate'] = 'Rappeler d\'évaluer jusqu\'au';
 $string['gradingduedate_help'] = 'Le délai pour l\'évaluation des devoirs par l\'enseignant. Cette date est utilisée afin de prioriser les notifications du tableau de bord des enseignants.';
 $string['gradingdueduedatevalidation'] = 'La date pour le rappel d\'évaluation ne peut pas être antérieure à la date de remise.';
 $string['gradingduefromdatevalidation'] = 'La date pour le rappel d\'évaluation ne peut pas être antérieure à la date de début de remise.';

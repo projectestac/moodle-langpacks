@@ -408,12 +408,11 @@ $string['courserequestwarning'] = 'O utilizador que solicite acesso a esta disci
 $string['courserestore'] = 'Reposição da disciplina';
 $string['courses'] = 'Disciplinas';
 $string['coursesearch'] = 'Procurar disciplinas';
-$string['coursesearch_help'] = '<p>Pode procurar várias palavras de uma só vez e refinar a pesquisa de várias formas:</p>
-<ul>
-<li>"palavra" - encontrar qualquer correspondência desta palavra no texto.</li>
-<li>"+palavra" - apenas correspondências exatas das palavras serão encontradas.</li>
-<li>"-palavra" - não incluir resultados que contenham esta palavra.</li>
-</ul>';
+$string['coursesearch_help'] = '<p>Pode procurar várias palavras de uma só vez e especificar a pesquisa de várias formas:
+
+*palavra - encontrar qualquer correspondência desta palavra no texto
+*+palavra - apenas serão encontradas as correspondências exatas das palavras
+*-palavra - não incluir resultados que contenham esta palavra';
 $string['coursesectionsummaries'] = 'Secção de sumários da disciplina';
 $string['coursesectiontitle'] = 'Disciplina: {$a->course}, {$a->sectionname}: {$a->sectiontitle}';
 $string['coursesettings'] = 'Configuração predefinida das disciplinas';
@@ -1137,7 +1136,7 @@ $string['maincoursepage'] = 'Página principal da disciplina';
 $string['makeafolder'] = 'Criar pasta';
 $string['makeavailable'] = 'Tornar disponível';
 $string['makeeditable'] = 'Se mudar as permissões de \'{$a}\' para que o servidor de http (por exemplo Apache) possa modificá-lo, este ficheiro poderá ser editado diretamente nesta página';
-$string['makethismyhome'] = 'Fazer desta a minha página principal';
+$string['makethismyhome'] = 'Tornar na minha página principal';
 $string['makeunavailable'] = 'Tornar indisponível';
 $string['manageblocks'] = 'Blocos';
 $string['managecategorythis'] = 'Gerir esta categoria';
@@ -1167,8 +1166,8 @@ $string['maxnumcoursesincombo'] = 'Procurar <a href="{$a->link}">{$a->numberofco
 $string['maxsectionslimit'] = 'Não é possível criar uma nova secção, pois iria exceder o número máximo de secções permitidas para esta disciplina ({$a}).';
 $string['maxsize'] = 'Tamanho máximo: {$a}';
 $string['maxsizeandareasize'] = 'Tamanho máximo para novos ficheiros: {$a->size}, limite global: {$a->areasize}';
-$string['maxsizeandattachments'] = 'Tamanho máximo para novos ficheiros: {$a->size}, número máximo de anexos: {$a->attachments}';
-$string['maxsizeandattachmentsandareasize'] = 'Tamanho máximo para novos ficheiros: {$a->size}, número máximo de anexos: {$a->attachments}, limite global: {$a->areasize}';
+$string['maxsizeandattachments'] = 'Tamanho máximo do ficheiro: {$a->size}, número máximo de ficheiros: {$a->attachments}';
+$string['maxsizeandattachmentsandareasize'] = 'Tamanho máximo do ficheiro: {$a->size}, número máximo de ficheiros: {$a->attachments}, tamanho máximo total: {$a->areasize}';
 $string['memberincourse'] = 'Participantes na disciplina';
 $string['messagebody'] = 'Conteúdo da mensagem';
 $string['messagedselectedcountusersfailed'] = 'Ocorreu um problema e {$a} mensagens não puderam ser enviadas.';
@@ -1611,7 +1610,7 @@ O principal benefício de se registar é que será adicionado a uma lista de cor
 <p>Se assim o entender, poderá permitir que o nome do seu site, país e URL sejam adicionados à lista pública de sites que usam o Moodle.</p>
 <p>Todos os novos registos serão verificados manualmente antes de serem adicionados à lista, mas uma vez adicionados, poderá atualizar os dados do seu registo em qualquer altura submetendo novamente este formulário.</p>';
 $string['registrationinfotitle'] = 'Informação de registo';
-$string['registrationno'] = 'Não pretendo receber notificações por e-mail de Moodle HQ';
+$string['registrationno'] = 'Não pretendo receber notificações por e-mail';
 $string['registrationsend'] = 'Enviar dados de registo para o moodle.org';
 $string['registrationyes'] = 'Sim, notifique-me acerca de assuntos importantes';
 $string['reject'] = 'Rejeitar';
@@ -1779,7 +1778,7 @@ $string['separateandconnected'] = 'Modos de aprendizagem Isolado e Conexo';
 $string['separateandconnectedinfo'] = 'A escala baseada na teoria de aprendizagem isolada e conexa. Esta teoria descreve duas formas diferentes de avaliarmos e aprendermos sobre as coisas que vemos e ouvimos.<ul><li><strong>Aprendentes isolados</strong> são tão objetivos quanto possível, evitando sentimentos e emoções. Numa discussão com outras pessoas, gostam de defender as suas próprias ideias, usando a lógica de encontrar lacunas nas ideias dos adversários.</li><li><strong>Aprendentes conexos</strong> são mais sensíveis a outras pessoas. Criam facilmente empatia e preferem ouvir e questionar, até sentir que se podem ligar e "compreender as coisas do seu ponto de vista". Aprendem através da partilha das experiências que levaram ao conhecimento que encontram noutras pessoas.</li></ul>';
 $string['servererror'] = 'Ocorreu um erro ao comunicar com o servidor';
 $string['serverlocaltime'] = 'Hora local do servidor';
-$string['sessionforceclean'] = 'Por questões de segurança, os scripts gerados pelo utilizador foram desativados nesta sessão';
+$string['sessionforceclean'] = 'Por questões de segurança, os scripts gerados pelo utilizador foram desativados nesta sessão.';
 $string['setcategorytheme'] = 'Definir tema da categoria';
 $string['setpassword'] = 'Definir senha';
 $string['setpasswordinstructions'] = 'Por favor, introduza abaixo a sua nova senha e depois guarde as alterações.';
@@ -1885,7 +1884,7 @@ $string['statsreport10'] = 'Atividade de utilizador';
 $string['statsreport11'] = 'Disciplinas mais ativas';
 $string['statsreport12'] = 'Disciplinas mais ativas (com pesos)';
 $string['statsreport13'] = 'Disciplinas com maior participação (inscrições)';
-$string['statsreport14'] = 'Disciplinas com maior participação (consultas/contribuições)';
+$string['statsreport14'] = 'Disciplinas com maior participação (contribuições/consultas)';
 $string['statsreport2'] = 'Consultas (professores e alunos)';
 $string['statsreport3'] = 'Contribuições (professores e alunos)';
 $string['statsreport4'] = 'Toda a atividade (professores e alunos)';

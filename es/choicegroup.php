@@ -91,7 +91,7 @@ $string['havetologin'] = 'Es necesario iniciar sesión para poder elegir una opc
 $string['hidedescription'] = 'Ocultar descripciones';
 $string['hidegroupmembers'] = 'Ocultar miembros del grupo';
 $string['limit'] = 'Límite';
-$string['limitanswers'] = 'Limitar el número de respuestas permitidas.';
+$string['limitanswers'] = 'Limitar el número de participantes permitidos.';
 $string['limitanswers_help'] = 'Mediante esta opción se puede limitar el número de miembros que pueden formar parte de cada grupo. Cuando se alcanza el límite establecido, nadie más puede optar por formar parte del grupo correspondiente.
 
 Si se elige la opción "deshabilitar" el número de miembros posibles para todos los grupos es ilimitado.';

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityoverview'] = 'Hai chat in attesa';
-$string['ajax'] = 'Versione Ajax';
+$string['ajax'] = 'Versione AJAX';
 $string['autoscroll'] = 'Scorrimento automatico';
 $string['beep'] = 'Beep';
 $string['bubble'] = 'Bolla';
@@ -45,7 +45,7 @@ $string['chattime'] = 'Orario della chat';
 $string['chat:view'] = 'Visualizzare attività chat';
 $string['compact'] = 'Compatto';
 $string['composemessage'] = 'Scrivi un messaggio';
-$string['configmethod'] = 'Il metodo chat ajax fornisce una chat basata su ajax che contatta il server con regolarità per ricevere gli aggiornamenti. Il metodo normale prevede che i client contattino il server per ottenere gli aggiornamenti. Il metodo normale non richiede configurazione e funziona sempre, tuttavia con molti client collegati contemporaneamente alla chat si potrebbe generare un sovraccarico sul server. Il metodo server chat per essere configurato necessita di accesso ad una shell Unix, ma è molto più veloce e scalabile.';
+$string['configmethod'] = 'Il metodo chat AJAX fornisce una chat basata su AJAX che contatta il server con regolarità per ricevere gli aggiornamenti. Il metodo normale prevede che i client contattino il server per ottenere gli aggiornamenti. Il metodo normale non richiede configurazione e funziona sempre, tuttavia con molti client collegati contemporaneamente alla chat si potrebbe generare un sovraccarico sul server. Il metodo server chat per essere configurato necessita di accesso ad una shell Unix, ma è molto più veloce e scalabile.';
 $string['confignormalupdatemode'] = 'Gli aggiornamenti delle chat sono forniti in modo efficiente utilizzando la funzionalità <em>Keep-Alive</em> dell\'HTTP 1.1, tuttavia questo metodo è gravoso per il server. Un metodo di aggiornamento più avanzato è lo <em>Stream</em>. Il metodo <em>Stream</em> consente una migliore scalabilità  (analogamente al Server chat) ma il tuo server potrebbe non supportarlo.';
 $string['configoldping'] = 'Tempo massimo per individuare la disconnessione dalla chat di un partecipante (in secondi). Rappresenta un tempo limite, in genere le disconnessioni vengono individuate molto rapidamente. Valori bassi aumentano il carico sul server. Se usi il Metodo normale, questo valore <strog>non deve essere mai inferiore</strong> a 2 * chat_refresh_room.';
 $string['configrefreshroom'] = 'Tempo di aggiornamento della chat (in secondi). Impostando un valore basso i tempi di risposta della chat saranno più brevi ma a spese di un carico molto maggiore sul server in presenza di molte connessioni contemporanee. Se utilizzi il Metodo di aggiornamento <em>Stream</em> puoi impostare un valore di aggiornamento più basso, ad esempio 2.';

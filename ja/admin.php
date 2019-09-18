@@ -222,9 +222,9 @@ $string['configdbsessions'] = 'この設定を有効にした場合、現在の�
 $string['configdebug'] = 'この設定を有効にした場合、PHPのerror_reportingが増加し、より多くの警告が表示されるようになります。これは開発者にのみ便利な設定です。';
 $string['configdebugdisplay'] = 'この設定を有効にした場合、エラー報告はHTMLページに表示されます。これは実際、役に立ちますが、一般的にXHTML、JS、cookiesおよびHTTPヘッダを壊します。この設定を無効にした場合、エラー報告がサーバログに記録されて、デバッグしやすくなります。PHP設定のerror_logでどのログを記録するかコントロールできます。';
 $string['configdebugpageinfo'] = 'この設定を有効にした場合、ページフッタにページ情報が表示されます。';
-$string['configdebugsmtp'] = 'メールメッセージがSMTPサーバに送信される間、詳細デバッグ情報を表示します。';
+$string['configdebugsmtp'] = 'メールメッセージがSMTPサーバに送信される間、詳細デバッグ情報を表示します。これを動作させるためには「デバッグメッセージ」設定を「開発者」にする必要があります。';
 $string['configdebugvalidators'] = 'この設定を有効にした場合、フッタに外部Validatorサーバのリンクが表示されます。あなたは新たなユーザ名「w3cvalidator」を作成して、ゲストアクセスを有効にする必要があります。これらの変更により、サーバに対して不正なアクセスを許可してしまうことになります。実運用サイトでは有効にしないでください!';
-$string['configdefaulthomepage'] = 'ここではログインユーザのホームページを設定します。';
+$string['configdefaulthomepage'] = 'ここではログインユーザのナビゲーション内の最初のリンクを決定します。';
 $string['configdefaultrequestcategory'] = 'ユーザからリクエストされたコースは自動的にこのカテゴリに配置されます。';
 $string['configdefaultrequestedcategory'] = 'リクエストされたコースが承認された場合、コースが設置されるデフォルトカテゴリです。';
 $string['configdefaultuserroleid'] = 'すべてのログインユーザにはそれぞれのユーザに与えられるロールに加えて、あなたがここで指定したケイパビリティを持つロールがサイトレベルで与えられます。デフォルトは認証済みユーザロールです。ここでの設定はユーザに与えられているロールと衝突することはなく、すべてのユーザにコースレベルで割り当てすることができないケイパビリティを割り当てます (例 ブログエントリの投稿、自分のカレンダーの管理等)。';
@@ -476,7 +476,7 @@ $string['debugvalidators'] = 'Validatorリンクを表示する';
 $string['defaultcity'] = 'デフォルトの都道府県';
 $string['defaultcity_help'] = 'ここに入力した都道府県は新しいユーザアカウント作成時のデフォルトの都道府県となります。';
 $string['defaultformatnotset'] = 'デフォルトコースフォーマットの決定時にエラーが発生しました。サイト設定を確認してください。';
-$string['defaulthomepage'] = 'ユーザのデフォルトホームページ';
+$string['defaulthomepage'] = 'ユーザのホームページ';
 $string['defaultrequestcategory'] = 'コースリクエストのデフォルトカテゴリ';
 $string['defaultsettinginfo'] = 'デフォルト: {$a}';
 $string['defaultuserroleid'] = 'すべてのユーザのデフォルトロール';
@@ -1026,7 +1026,7 @@ $string['registermoodlenet'] = '<p>私たちはあなたのMoodleサイトにと
 
 <p>登録することにより:</p>
 <ul>
-<li>あなたはセキュリティ通知および新しいMoodleリリース等の重要な通知を最初に知ることができます。</li>
+<li>あなたは新しいMoodleのリリース、セキュリティ警告およびその他重要なニュースの通知を購読して受信できます。</li>
 <li>私たちの無料Moodleアプリ (https://download.moodle.org/mobile/) を使用してあなたのサイトにアクセスおよびモバイルプッシュ通知を有効にすることができます。</li>
 <li>あなたは私たちのMoodleおよびコミュニティサイトの改善の一助となる世界的コミュニティの<a href="https://moodle.net/stats/">Moodle統計</a>に寄与することになります。</li>
 <li>あなたの国の<a href="https://moodle.net/sites/">Moodle登録サイト一覧</a>にあなたのサイトを登録することもできます。</li>
@@ -1256,7 +1256,7 @@ $string['unbookmarkthispage'] = 'このページをブックマーク解除す�
 $string['unicoderequired'] = 'あなたのすべてのデータをユニコードフォーマット (UTF-8) で保存する必要があります。Moodleの新しいインストールはユニコードをデフォルトキャラクタにセットしたデータベースで実行してください。アップグレードの場合、UTF-8移行処理を実行してださい (詳細は管理ページをご覧ください)。';
 $string['uninstallplugin'] = 'アンインストール';
 $string['unlockaccount'] = 'アカウントをロック解除する';
-$string['unoconvwarning'] = 'あなたがインストールしているunoconvのバージョンはサポートされません。';
+$string['unoconvwarning'] = 'あなたがインストールしているunoconv のバージョンはサポートされません。';
 $string['unsettheme'] = 'テーマ設定を解除する';
 $string['unsupported'] = '未サポート';
 $string['unsupporteddbfileformat'] = 'あなたのデータベーステーブルはファイルフォーマットにAntelopeを使用しています。MySQLおよびMariaDBでUTF-8をフルサポートするにはBarracudaファイルフォーマットが必要です。Barracudaファイルフォーマットに変更してください。<a href="https://docs.moodle.org/en/admin/environment/custom check/mysql full unicode support">MySQLフルユニコードサポート</a>の詳細に関してドキュメンテーションをご覧ください。';

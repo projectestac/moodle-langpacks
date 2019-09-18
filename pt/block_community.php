@@ -64,7 +64,7 @@ $string['enroldownload'] = 'Procurar';
 $string['enroldownload_help'] = 'Algumas das disciplinas apresentadas na comunidade selecionada permitem que possa inscrever-se e participar. Outros são modelos de disciplinas, disponibilizados para que os possa descarregar e utilizar no seu próprio Moodle.';
 $string['enrollable'] = 'Disciplinas em que me posso inscrever';
 $string['enrollablecourses'] = 'Disciplinas em que me posso inscrever';
-$string['errorcourselisting'] = 'Ocorreu um erro ao recuperar a lista de disciplinas a partir do hub selecionado. Por favor, tente novamente mais tarde ({$a})';
+$string['errorcourselisting'] = 'Atenção: Já não é possível pesquisar por disciplinas da comunidade no moodle.net. As disciplinas anteriormente partilhados para descarregar estão disponíveis em archive.moodle.net. Para mais detalhes, consulte o <a href="https://docs.moodle.org/en/Sunsetting_moodle.net"> encerramento do moodle.net</a>.';
 $string['errorhublisting'] = 'Ocorreu um erro ao recuperar a lista de disciplinas hub a partir do Moodle.org. Por favor, tente novamente mais tarde ({$a})';
 $string['fileinfo'] = 'Idioma: {$a->lang} - Licença: {$a->license} - Atualizado em: {$a->timeupdated}';
 $string['hideall'] = 'Ocultar hubs';

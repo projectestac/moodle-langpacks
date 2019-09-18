@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'تحميل الملف فردياً';
+$string['privacy:metadata'] = 'لا يقوم المكون الإضافي لUpload single assignment   بتخزين أي بيانات شخصية.';

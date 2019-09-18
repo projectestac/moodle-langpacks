@@ -25,4 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['invaliddata'] = 'بيانات غير كافية';
 $string['participants'] = 'عدد المشاركين';
+$string['percent'] = 'نسبة(%) الأمان';
+$string['pluginname'] = 'تقرير بالرسم البياني';
+$string['privacy:metadata'] = 'يعرض التقرير بالرسم البياني البيانات المخزنة في مواقع أخرى فقط.';

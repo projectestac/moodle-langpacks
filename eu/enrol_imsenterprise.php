@@ -44,7 +44,7 @@ $string['createnewusers'] = 'Sortu oraindik Moodle-n erregistratu ez diren erabi
 $string['createnewusers_desc'] = 'IMS Enterprise matrikulazio-datuek normalean erabiltzaile-multzo bat deskribatzen dute. Gaituz gero, Moodle-ko datu-basean existitzen ez diren erabiltzaileentzako kontuak sortu ahalko dira.
 
 Erabiltzaileak aurkitzeko lehenengo euren "ID zenbakia" eta ondoren euren Moodle-ko erabiltzaile-izena bilatzen dira. IMS Enterprise pluginak ez ditu pasahitzak inportatzen. Erabiltzaileak autentifikatzeko autentifikazio-plugin bat erabiltzea gomendatzen da.';
-$string['cronfrequency'] = 'Prozesamendu-maiztasuna';
+$string['cronfrequency'] = 'Prozesamenduaren maiztasuna';
 $string['deleteusers'] = 'Ezabatu erabiltzaile-kontuak IMS datuetan zehazten denean';
 $string['deleteusers_desc'] = 'Gaituz gero, IMS Enterprise matrikulazio-gehigarriak erabiltzaile-kontuen ezabatzea zehaztu dezake ("recstatus" banderak 3 balioa badu, kontuaren ezabatzea irudikatzen duena). Moodle-n modu lehenetsian gertatzen den moduan, erabiltzailearen erregistroa ez da datu-basetik ezabatzen, baina kontua ezabatu gisa markatzen da.';
 $string['doitnow'] = 'Exekutatu oraintxe bertan IMS Enterprise inportazioa';

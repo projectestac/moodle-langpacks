@@ -265,6 +265,7 @@ $string['tt_showuser'] = 'Eventi utente nascosti (clicca per visualizzare)';
 $string['tue'] = 'Mar';
 $string['tuesday'] = 'Martedì';
 $string['typecategory'] = 'Evento di categoria';
+$string['typeclose'] = 'Chiudi evento';
 $string['typecourse'] = 'Evento di corso';
 $string['typegroup'] = 'Evento di gruppo';
 $string['typeopen'] = 'Apri evento';

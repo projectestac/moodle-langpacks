@@ -145,6 +145,7 @@ $string['importgroups_help'] = 'Οι ομάδες μπορούν να εισαχ
 * Απαιτούμενο όνομα πεδίου είναι το «groupname» (όνομα ομάδας)
 * Προαιρετικά ονόματα πεδίων είναι «description» (περιγραφή), «enrolmentkey» (κλειδί εγγραφής), «groupingname» (όνομα ομαδοποίησης)
 * Παλαιότερες εκδόσεις πριν την 3.0 χρησιμοποιούσαν και «picture» (εικόνα) και «hidepicture» (απόκρυψη εικόνας)';
+$string['importgroups_link'] = 'ομάδα/εισαγωγή';
 $string['includeonlyactiveenrol'] = 'Να συμπεριληφθούν μόνο ενεργές εγγραφές';
 $string['includeonlyactiveenrol_help'] = 'Εάν ενεργοποιηθεί, οι χρήστες σε αναστολή δεν θα συμπεριλαμβάνονται σε ομάδες.';
 $string['javascriptrequired'] = 'Αυτή η σελίδα απαιτεί ενεργοποίηση της Javascript.';

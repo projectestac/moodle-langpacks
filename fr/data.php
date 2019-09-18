@@ -93,7 +93,7 @@ $string['csvwithselecteddelimiter'] = 'Texte <acronym title="Comma Separated Val
 $string['data:addinstance'] = 'Ajouter une base de données';
 $string['data:approve'] = 'Approuver ou retirer l\'approbation de fiches';
 $string['data:comment'] = 'Écrire des commentaires';
-$string['data:exportallentries'] = 'Export toutes les fiches d\'une base de données';
+$string['data:exportallentries'] = 'Exporter toutes les fiches d\'une base de données';
 $string['data:exportentry'] = 'Exporter des fiches de base de données';
 $string['data:exportownentry'] = 'Exporter ses propres fiches de base de données';
 $string['data:exportuserinfo'] = 'Exporter l\'information de l\'utilisateur';

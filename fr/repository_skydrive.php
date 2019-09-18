@@ -36,4 +36,4 @@ $string['oauthinfo'] = '<p>Pour utiliser ce plugin, vous devez enregistrer votre
 $string['pluginname'] = 'Microsoft OneDrive (obsolète)';
 $string['privacy:metadata'] = 'Le plugin de dépôt Microsoft OneDrive (obsolète) n\'enregistre aucune donnée personnelle, mais transmet des données des utilisateurs de Moodle vers le système distant.';
 $string['secret'] = 'Secret';
-$string['skydrive:view'] = 'Consulter OneDrive (obsolète)';
+$string['skydrive:view'] = 'Consulter un dépôt OneDrive (obsolète)';

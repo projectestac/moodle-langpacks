@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'حقل النص';
+$string['pluginname'] = 'النص المدخل';
+$string['privacy:metadata'] = 'لا يخزن  Text field component  أيّ بيانات شخصية ، فهو يستخدم الجداول المعرفة في mod_data.';

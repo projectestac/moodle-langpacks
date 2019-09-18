@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'قاعدة الوصول للاختبار الخاصة بعنوان بروتوكول الانترنت IP';
+$string['privacy:metadata'] = 'المكون الإضافي IP address quiz access rule لا يخزن أيّ بيانات شخصية.';
 $string['subnetwrong'] = 'هذا الاختبارلا يمكن الوصول إليه إلا من مواقع معينة، وهذا الكمبيوتر ليس على القائمة المسموح بها.';

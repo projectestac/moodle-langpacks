@@ -61,6 +61,7 @@ $string['list_root_or_hidden'] = 'غير متاح (مخفي) ما لم يكن أ
 $string['manageplugins'] = 'إدارة القيود';
 $string['missingplugin'] = 'مكوّن تقييد إضافي مفقود';
 $string['or'] = 'أو';
+$string['privacy:metadata'] = 'النظام الفرعي لتقييد الوصول لا يخزن أي بيانات شخصية.';
 $string['restrictaccess'] = 'تقييد الدخول';
 $string['restrictbygroup'] = 'إضافة تقييد الوصول إلى المجموعة / التجميع المجموعات';
 $string['setheading'] = '{$a->number} منظومة من {$a->count} قيد (قيود)';

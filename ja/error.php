@@ -266,6 +266,7 @@ $string['filternotactive'] = '現在、フィルタ {$a} は有効ではあり�
 $string['filternotenabled'] = 'フィルタが有効にされていません!';
 $string['filternotinstalled'] = '現在、フィルタ {$a} はインストールされていません。';
 $string['forumblockingtoomanyposts'] = 'あなたはこのフォーラムに設定されている投稿期限を超えています。';
+$string['functionalityremoved'] = 'あなたは削除された機能へのアクセスを試みています。';
 $string['generalexceptionmessage'] = '例外 - {$a}';
 $string['gradecantregrade'] = '評定計算中にエラーが発生しました: {$a}';
 $string['gradepubdisable'] = '評定の公開が無効にされています。';

@@ -122,6 +122,7 @@ $string['eventspersonal'] = 'マイパーソナルイベント';
 $string['eventsrelatedtocategories'] = 'カテゴリ関連イベント';
 $string['eventsrelatedtocourses'] = 'コースに関連したイベント';
 $string['eventsrelatedtogroups'] = 'グループ関連イベント';
+$string['eventsskipped'] = 'スキップされたイベント : {$a}';
 $string['eventstarttime'] = '開始日時';
 $string['eventstoexport'] = 'エクスポートするイベント';
 $string['eventsubscriptioncreated'] = 'カレンダー購読が作成されました。';

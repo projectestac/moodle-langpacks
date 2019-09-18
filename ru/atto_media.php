@@ -54,6 +54,7 @@ $string['descriptionssourcelabel'] = 'URL описания трека';
 $string['displayoptions'] = 'Показать варианты';
 $string['entername'] = 'Введите название';
 $string['entersource'] = 'URL источника';
+$string['entertitle'] = 'Введите название';
 $string['enterurl'] = 'Введите URL';
 $string['height'] = 'Высота';
 $string['kind'] = 'Тип';

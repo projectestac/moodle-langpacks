@@ -83,11 +83,10 @@ $string['attempthistory'] = '前回の提出';
 $string['attemptnumber'] = '提出回数';
 $string['attemptreopenmethod'] = '提出再オープン';
 $string['attemptreopenmethod_help'] = '学生の提出をどのように再オープンするか決定します。利用可能なオプションは以下のとおりです:
-<ul>
-<li>なし - 提出を再オープンすることはできません。</li>
-<li>手動 - 提出は教師により再オープンすることができます。</li>
-<li>合格するまで自動 - この課題に設定された評定表内の合格点に到達するまで学生の提出は自動的に再オープンされます。</li>
-</ul>';
+
+* なし - 提出を再オープンすることはできません。
+* 手動 - 提出は教師により再オープンすることができます。
+* 合格するまで自動 - この課題に設定された評定表内の合格点に到達するまで学生の提出は自動的に再オープンされます。';
 $string['attemptreopenmethod_manual'] = '手動';
 $string['attemptreopenmethod_none'] = 'なし';
 $string['attemptreopenmethod_untilpass'] = '合格するまで自動';

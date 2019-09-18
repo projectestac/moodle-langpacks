@@ -217,7 +217,7 @@ $string['configdebugdisplay'] = 'Une fois ce réglage activé, les rapports d\'e
 $string['configdebugpageinfo'] = 'Activer cette option pour afficher des informations concernant la page dans le pied de page.';
 $string['configdebugsmtp'] = 'Activer les informations complètes de débogage de l\'envoi des messages courriel vers le serveur SMTP. Pour que ce réglage prenne effet, le réglage « Messages de débogage » doit être réglé sur « Développeur ».';
 $string['configdebugvalidators'] = 'Activer cette option si vous voulez que les liens vers des serveurs de validation soient visibles dans le pied de page. Il vous sera peut-être nécessaire de créer dans votre Moodle un nouvel utilisateur dont le nom d\'utilisateur est <em>w3cvalidator</em> et d\'activer l\'accès aux visiteurs anonymes. Ces modifications peuvent ouvrir l\'accès à votre serveur par des personnes non autorisées. Ne les activez pas sur des serveurs en production !';
-$string['configdefaulthomepage'] = 'Ce réglage permet de déterminer la page d\'accueil des utilisateurs connectés';
+$string['configdefaulthomepage'] = 'Ce réglage permet de déterminer le premier lien de la navigation des utilisateurs connectés';
 $string['configdefaultrequestcategory'] = 'Les cours demandés par les utilisateurs seront automatiquement classés dans cette catégorie.';
 $string['configdefaultrequestedcategory'] = 'Catégorie par défaut où placer les cours dont la demande a été approuvée.';
 $string['configdefaultuserroleid'] = 'Tous les utilisateurs connectés auront les capacités du rôle spécifié ici, au niveau du site, EN PLUS de celles de tous les autres rôles qu\'ils ont déjà. Par défaut, il s\'agit du rôle « Utilisateur authentifié ». Il est à remarquer que cela n\'entrera pas en conflit avec les autres rôles disponibles, à moins que vous n\'interdisiez des capacités : cela permet simplement de s\'assurer que tous les utilisateurs possèdent les capacités qui ne peuvent être attribuées au niveau des cours (par exemple écrire des articles de blog, gérer son calendrier, etc.).';
@@ -468,7 +468,7 @@ $string['debugvalidators'] = 'Afficher les liens de validation W3C';
 $string['defaultcity'] = 'Localité par défaut';
 $string['defaultcity_help'] = 'La localité saisie ici sera la ville par défaut lors de la création de nouveaux comptes utilisateurs.';
 $string['defaultformatnotset'] = 'Erreur de détection du format de cours. Veuillez vérifier les réglages du site.';
-$string['defaulthomepage'] = 'Page d\'accueil par défaut pour les utilisateurs';
+$string['defaulthomepage'] = 'Page d\'accueil des utilisateurs';
 $string['defaultrequestcategory'] = 'Catégorie par défaut des demandes de cours';
 $string['defaultsettinginfo'] = 'Défaut : {$a}';
 $string['defaultuserroleid'] = 'Rôle par défaut des utilisateurs';
@@ -799,7 +799,7 @@ $string['moodleapp_help'] = '<p>Si vous avez un compte sur un site Moodle, vous 
 $string['moodlebrandedapp'] = 'App Moodle personnalisée';
 $string['moodlebrandedapp_help'] = '<p>L\'app Moodle personnalisée a toutes les fonctionnalités de notre app mobile gratuite pour Moodle, avec votre propre visuel personnalisé.</p>
 <a href="https://moodle.com/branded-app">À propos de l\'app Moodle personnalisée</a>';
-$string['moodlebrandedappreference'] = 'Autrement, obtenez une<a href="https://moodle.com/branded-app">app Moodle personnalisée</a> avec vos propres visuels.';
+$string['moodlebrandedappreference'] = 'Autrement, obtenez une <a href="https://moodle.com/branded-app">app Moodle personnalisée</a> avec vos propres visuels.';
 $string['moodleorghubname'] = 'Moodle';
 $string['moodlepartners'] = 'Partenaires Moodle';
 $string['moodlepartners_help'] = '<p>Les Partenaires Moodle sont des fournisseurs de services certifiés par Moodle HQ pour fournir des services Moodle de qualité élevée pour l\'organisation de votre environnement d\'apprentissage Moodle.</p>
@@ -1000,7 +1000,7 @@ $string['purgelangcache'] = 'Chaînes de langue';
 $string['purgemuc'] = 'Tous les caches MUC';
 $string['purgeothercaches'] = 'Tous les caches de fichiers et divers';
 $string['purgeselectedcaches'] = 'Purger les caches sélectionnés';
-$string['purgeselectedcachesfinished'] = 'Les caches sélectionnés ont été purgées.';
+$string['purgeselectedcachesfinished'] = 'Les caches sélectionnés ont été purgés.';
 $string['purgethemecache'] = 'Thèmes';
 $string['query'] = 'Requête';
 $string['question'] = 'Question';
@@ -1015,7 +1015,7 @@ $string['recaptchapublickey'] = 'Clef de site ReCAPTCHA';
 $string['register'] = 'Enregistrer votre site';
 $string['registermoodlenet'] = '<p>Nous serions heureux de garder le contact et de vous donner des informations importantes au sujet de votre plateforme Moodle !</p>
 <p>En enregistrant votre site,</p>
-<ul><li>vous serez parmi les premiers à recevoir d\'importantes notifications, par exemple des alertes de sécurité et de nouvelles versions de Moodle ;</li>
+<ul><li>vous pouvez vous inscrire pour recevoir la notification des nouvelles versions de Moodle, des alertes de sécurité et d\'autres informations importantes ;</li>
 <li>vous pouvez avoir accès et activer les notifications <i>push</i> pour mobiles à partir de votre site Moodle au moyen de notre <a href="https://download.moodle.org/mobile/">app Moodle</a> gratuite ;</li>
 <li>vous contribuez aux <a href="https://moodle.net/stats/">statistiques Moodle</a> de la communauté mondiale, ce qui nous aide à améliorer Moodle et nos sites communautaires ;</li>
 <li>si vous le désirez, votre site peut être inclus dans la <a href="https://moodle.net/stats">liste des sites Moodle enregistrés</a> de votre pays.</li></ul>';
@@ -1125,7 +1125,7 @@ $string['sitemenubar'] = 'Navigation du site';
 $string['sitepolicies'] = 'Réglages de sécurité du site';
 $string['sitepolicy'] = 'URL de la politique du site';
 $string['sitepolicyguest'] = 'URL de la politique du site pour visiteurs anonymes';
-$string['sitepolicyguest_help'] = 'L\'URL la politique du site que tous les visiteurs anonymes doivent lire et accepter avant d\'accéder au site. Ce réglage n\'a d\'effet que si le gestionnaire de politiques du site choisi est celui par défaut (cœur).';
+$string['sitepolicyguest_help'] = 'L\'URL de la politique du site que tous les visiteurs anonymes doivent lire et accepter avant d\'accéder au site. Ce réglage n\'a d\'effet que si le gestionnaire de politiques du site choisi est celui par défaut (cœur).';
 $string['sitepolicyhandler'] = 'Gestionnaire des politiques du site';
 $string['sitepolicyhandlercore'] = 'Par défaut';
 $string['sitepolicyhandler_desc'] = 'Ce réglage détermine comment sont gérés les politiques du site et les consentements donnés par les utilisateurs. Le composant par défaut (cœur) permet de spécifier une URL pour la politique du site et une URL pour la politique du site pour visiteurs anonymes. Le gestionnaire des politiques permet de définir une politique de site, une politique de confidentialité et d\'autres politiques. Il active également l\'affichage du consentement des utilisateurs, et si nécessaire le consentement à donner au nom des mineurs.';
@@ -1244,7 +1244,7 @@ $string['unbookmarkthispage'] = 'Retirer cette page des marque-pages';
 $string['unicoderequired'] = 'Le stockage des données en format Unicode (UTF-8) est requis. Toute nouvelle installation de Moodle doit être effectuée dans une base de données ayant comme jeu de caractères par défaut Unicode (UTF-8). Si vous effectuez une mise à jour de Moodle, veuillez procéder à la migration de votre base de données en Unicode (voir la page Notifications).';
 $string['uninstallplugin'] = 'Désinstaller';
 $string['unlockaccount'] = 'Débloquer ce compte';
-$string['unoconvwarning'] = 'La version installée de <i>unoconv</i> n\'est pas supportée. La fonctionnalité d\'annotation de devoirs de Moodle nécessite la version 0.7 ou ultérieure.';
+$string['unoconvwarning'] = 'La version installée de <i>unoconv</i> n\'est pas supportée.';
 $string['unsettheme'] = 'Ne pas définir de thème';
 $string['unsupported'] = 'Non supporté';
 $string['unsupporteddbfileformat'] = 'Votre base de données utilise le format de fichier Antelope. Le support complet de l\'encodage UTF-8 dans MySQL et MariaDB requiert le format Barracuda. Veuillez passer au format de fichier Barracuda. Consultez la documentation <a href="https://docs.moodle.org/fr/Support_unicode_complet_pour_MySQL">Support unicode complet pour MySQL</a> pour des informations supplémentaires.';

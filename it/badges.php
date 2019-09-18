@@ -117,7 +117,7 @@ Nella maggioranza dei programmi di posta elettronica il link di solito appare co
 
 Se hai bisogno di aiuto, contatta l\'amministratore del sito:
 {$a->admin}';
-$string['backpackemailverifyemailsubject'] = '{$a}: email di verifica per OpenBadges Backpack';
+$string['backpackemailverifyemailsubject'] = '{$a}: email di verifica del backpack';
 $string['backpackemailverifypending'] = 'Un\'email di verifica è stata inviata a <strong>{$a}</strong>. Fai click sul link di verifica nell\'email per attivare il collegamento al tuo Backpack.';
 $string['backpackemailverifysuccess'] = 'Grazie per aver verificato il tuo indirizzo email. Ora sei collegato con il tuo backpack.';
 $string['backpackemailverifytokenmismatch'] = 'Il token nel link su cui hai cliccato non corrisponde al token memorizzato. Verifica di aver cliccato il link nella email più recente che hai ricevuto.';

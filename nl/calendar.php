@@ -122,6 +122,7 @@ $string['eventspersonal'] = 'Mijn persoonlijke gebeurtenissen';
 $string['eventsrelatedtocategories'] = 'Evenementen met betrekking tot categorieën';
 $string['eventsrelatedtocourses'] = 'Activiteiten uit cursussen';
 $string['eventsrelatedtogroups'] = 'Groepsgerelateerde gebeurtenissen';
+$string['eventsskipped'] = 'Evenementen overgeslagen: {$a}';
 $string['eventstarttime'] = 'Startuur';
 $string['eventstoexport'] = 'Te exporteren gebeurtenissen';
 $string['eventsubscriptioncreated'] = 'Ingeschreven op kalender';

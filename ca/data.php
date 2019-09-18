@@ -361,6 +361,7 @@ $string['subplugintype_datafield'] = 'Tipus de camp de la base de dades';
 $string['subplugintype_datafield_plural'] = 'Els tipus de camp de la base de dades';
 $string['subplugintype_datapreset'] = 'Predefinit';
 $string['subplugintype_datapreset_plural'] = 'Predefinits';
+$string['tagarea_data_records'] = 'Entrades';
 $string['tags'] = 'Etiquetes';
 $string['teachersandstudents'] = '{$a->teachers} i {$a->students}';
 $string['templates'] = 'Plantilles';

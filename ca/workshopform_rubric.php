@@ -36,5 +36,5 @@ $string['layoutlist'] = 'Llista';
 $string['levelgroup'] = 'Definició i gradació de nivells';
 $string['levels'] = 'Nivells';
 $string['mustbeunique'] = 'Les qualificacions d\'un nivell han de ser úniques dins d\'un criteri';
-$string['mustchooseone'] = 'Heu d\'escollir un d\'aquests ítems';
+$string['mustchooseone'] = 'Heu d\'escollir un d\'aquests elements';
 $string['pluginname'] = 'Rúbrica';

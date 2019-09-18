@@ -307,7 +307,7 @@ Podem considerar la contrasenya secreta compartida com una contrasenya emprada p
 Potser que a les eines que no requereixen una comunicació segura amb Moodle i que no proporcionen serveis addicionals (com els informes de qualificacions) no els calgui la contrasenya secreta compartida.';
 $string['pending'] = 'Pendent';
 $string['pluginadministration'] = 'Gestió de LTI';
-$string['pluginname'] = 'LTI';
+$string['pluginname'] = 'Eina externa (LTI)';
 $string['preferheight'] = 'Alçària preferida';
 $string['preferwidget'] = 'Llança el giny preferit';
 $string['preferwidth'] = 'Amplada preferida';

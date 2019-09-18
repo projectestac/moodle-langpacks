@@ -26,5 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'قاعدة التأخير بين المحاولات للدخول على الاختبار';
+$string['privacy:metadata'] = 'المساعد Delay between attempts quiz access rule  لا يخزن أيّ بيانات شخصية.';
 $string['youcannotwait'] = 'يغلق هذا الاختبار قبل أن يسمح لك البدء بمحاولة أخرى.';
 $string['youmustwait'] = 'يجب الانتظار قبل أن تعيد المحاولة في هذا الاختبار. وسوف يسمح لك البدء بمحاولة أخرى بعد  {$a}.';

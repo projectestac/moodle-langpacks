@@ -74,11 +74,11 @@ $string['taskschedulehour_help'] = 'Champ heure pour la programmation des tâche
 * <strong>2-10</strong> Toutes les heures, entre 2 h et 10 h (incluses)
 * <strong>2,13,19</strong> À 2 h, 13 h et 19 h';
 $string['taskscheduleminute'] = 'Minute';
-$string['taskscheduleminute_help'] = 'Champ heure pour la programmation des tâches. Le champ utilise la même syntaxe que le cron Unix. Voici quelques exemples :
+$string['taskscheduleminute_help'] = 'Champ minute pour la programmation des tâches. Le champ utilise la même syntaxe que le cron Unix. Voici quelques exemples :
 
 * <strong>*</strong> Toutes les minutes
 * <strong>*/5</strong> Toutes les 5 minutes
-* <strong>2-10</strong> Toutes les minutes 2 et 10 après toutes les heures (incluses)
+* <strong>2-10</strong> Toutes les minutes entre 2 et 10 (incluses) après toutes les heures
 * <strong>2,26,49</strong> 2, 26 et 49 minutes après toutes les heures';
 $string['taskschedulemonth'] = 'Mois';
 $string['taskschedulemonth_help'] = 'Champ mois pour la programmation des tâches. Le champ utilise la même syntaxe que le cron Unix. Voici quelques exemples :

@@ -28,4 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['numberdiscussions'] = 'عدد المناقشات';
 $string['numberdiscussions_help'] = 'يحدد هذا الإعداد عدد المناقشات التي ينبغي أن يتم عرضها.';
 $string['pluginname'] = 'تنسيق اجتماعي';
+$string['privacy:metadata'] = 'لا يخزن المكون الإضافي Social format  أيّ بيانات شخصية.';
 $string['sectionname'] = 'القسم';

@@ -25,4 +25,28 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['configured'] = 'Configurat';
+$string['configuredstatus'] = 'Configurat';
+$string['createnewfacebookissuer'] = 'Crea un servei de Facebook nou';
+$string['createnewgoogleissuer'] = 'Crea un servei de Google nou';
+$string['createnewissuer'] = 'Crea un servei personalitzat nou';
+$string['createnewmicrosoftissuer'] = 'Crea un servei de Microsoft nou';
+$string['createnewnextcloudissuer'] = 'Crea un servei de Nextcloud nou';
+$string['endpointname'] = 'Nom';
+$string['issueralloweddomains'] = 'Dominis d\'inici de sessió';
+$string['issuerbaseurl'] = 'URL base de servei';
+$string['issuerclientid'] = 'ID de client';
+$string['issuerclientsecret'] = 'Secret de client';
+$string['issuerimage'] = 'URL del logotip';
+$string['issuerloginparams'] = 'Paràmetres addicionals inclosos en una sol·licitud d\'inici de sessió.';
+$string['issuerloginparamsoffline'] = 'Paràmetres addicionals inclosos en una sol·licitud d\'inici de sessió per a l\'accés fora de línia.';
+$string['issuerloginscopes'] = 'Àmbits inclosos en una sol·licitud d’inici de sessió.';
+$string['issuerloginscopesoffline'] = 'Àmbits inclosos en una sol·licitud d\'inici de sessió per a l\'accés fora de línia.';
+$string['issuerrequireconfirmation'] = 'Requereix correu electrònic de verificació';
+$string['issuershowonloginpage'] = 'Mostra a la pàgina d\'autenticació';
+$string['loginissuer'] = 'Permet l\'autenticació';
 $string['pluginname'] = 'Serveis OAuth 2';
+$string['savechanges'] = 'Desa els canvis';
+$string['serviceshelp'] = 'Instruccions de configuració del proveïdor de serveis.';
+$string['systemaccountconnected'] = 'Compte del sistema connectat';
+$string['usebasicauth'] = 'Autentica les sol·licituds de testimoni mitjançant capçaleres HTTP';

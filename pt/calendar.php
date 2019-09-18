@@ -122,6 +122,7 @@ $string['eventspersonal'] = 'Os meus eventos pessoais';
 $string['eventsrelatedtocategories'] = 'Eventos relacionados com categorias';
 $string['eventsrelatedtocourses'] = 'Eventos relacionados com disciplinas';
 $string['eventsrelatedtogroups'] = 'Eventos relacionados com grupos';
+$string['eventsskipped'] = 'Eventos ignorados: {$a}';
 $string['eventstarttime'] = 'Hora de início';
 $string['eventstoexport'] = 'Eventos para exportar';
 $string['eventsubscriptioncreated'] = 'Criada subscrição de calendário';

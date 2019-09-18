@@ -41,7 +41,7 @@ $string['application/vnd.openxmlformats-officedocument.presentationml.presentati
 $string['application/vnd.openxmlformats-officedocument.presentationml.slideshow'] = 'Presentació de diapositives PowerPoint 2007';
 $string['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'] = 'Full de càlcul Excel 2007';
 $string['application/vnd.openxmlformats-officedocument.spreadsheetml.template'] = 'Plantilla Excel 2007';
-$string['application/vnd.openxmlformats-officedocument.wordprocessingml.document'] = 'Document MS Word 2007';
+$string['application/vnd.openxmlformats-officedocument.wordprocessingml.document'] = 'Document Word 2007';
 $string['application/xhtml_xml'] = 'Document XHTML';
 $string['application/x-iwork-keynote-sffkey'] = 'Presentació de Keynote iWork';
 $string['application/x-iwork-numbers-sffnumbers'] = 'Full de càlcul de Numbers iWork';

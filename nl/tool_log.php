@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actlogshdr'] = 'Beschikbare opslag voor logs';
 $string['configlogplugins'] = 'Schakel alle vereiste plugins in en schik ze in de juiste volgorde.';
-$string['exportlog'] = 'Logs mee opnemen tijdens export.';
+$string['exportlog'] = 'Logs mee opnemen tijdens export';
 $string['exportlogdetail'] = 'Logs die verband houden met de gebruiker mee opnemen in de export.';
 $string['logging'] = 'Logging';
 $string['managelogging'] = 'Beheer opslag voor log';

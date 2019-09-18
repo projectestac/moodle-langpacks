@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['activityoverview'] = 'Teniu sessions de xat properes';
 $string['ajax'] = 'Versió Ajax';
 $string['autoscroll'] = 'Desplaçament automàtic';
-$string['beep'] = 'bip';
+$string['beep'] = 'Fes sonar';
 $string['bubble'] = 'Bombolla';
 $string['cantlogin'] = 'No s\'ha pogut entrar a la sala de xat';
 $string['chat:addinstance'] = 'Afegeix un xat nou';

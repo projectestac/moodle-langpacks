@@ -26,3 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'حقل عنوان أنترنت';
+$string['openlinkinnewwindow'] = 'افتح الرابط في نافذة جديدة';
+$string['pluginname'] = 'رابط إنترنت';
+$string['privacy:metadata'] = 'لا يخزن المكون الإضافي URL أيّ بيانات شخصية ، فهو يستخدم الجداول المحددة في mod_data.';

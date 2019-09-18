@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['both'] = 'Εσωτερικά και εξωτερικά';
 $string['cachedef_folder'] = 'Αναγνωριστικά αρχείων Google για φακέλους στο λογαριασμό συστήματος';
 $string['clientid'] = 'Αναγνωριστικό πελάτη';
-$string['configplugin'] = 'Ρύθμιση πρόσθετου Google Docs';
+$string['configplugin'] = 'Ρύθμιση πρόσθετου Google Drive';
 $string['defaultreturntype'] = 'Προεπιλεγμένος τύπος επιστροφής';
 $string['docsformat'] = 'Προεπιλεγμένος μορφότυπος εισαγωγής εγγράφου';
 $string['drawingformat'] = 'Προεπιλεγμένος μορφότυπος εισαγωγής σχεδίου';

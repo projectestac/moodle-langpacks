@@ -30,6 +30,6 @@ $string['blindmarkingviewfullname'] = 'Partecipante {$a->participantnumber} ({$a
 $string['default'] = 'Abilitato di default';
 $string['default_help'] = 'Il metodo di consegna sarà abilitato di default in tutte le nuove istanze di compito.';
 $string['enabled'] = 'Commenti alla consegna';
-$string['enabled_help'] = 'Gli studenti potranno abbinare un commento alla propria consegna. Può essere utile in diversi casi, ad esempio gli studenti possono avvertire il valutatore su quale sia il file principale se la consegna prevede più file collegati tra loro.';
+$string['enabled_help'] = 'Gli studenti potranno abbinare un commento alla propria consegna. Può essere utile in diversi casi, ad esempio gli studenti possono indicare quale sia il file principale se la consegna prevede più file collegati tra loro.';
 $string['pluginname'] = 'Commenti alle consegne';
 $string['privacy:metadata:commentpurpose'] = 'Commenti sulla consegna tra studente e docente.';

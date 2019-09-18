@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['news_items:addinstance'] = 'Afegir un bloc nou d\'últimes noticíes';
 $string['news_items:myaddinstance'] = 'Afegeix un bloc nou d\'últimes notícies a la pàgina del Tauler';
-$string['pluginname'] = 'Últimes notícies';
+$string['pluginname'] = 'Darrers anuncis';

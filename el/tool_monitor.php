@@ -71,6 +71,7 @@ $string['messagetemplate_help'] = 'Ένα μήνυμα ειδοποίησης α
 * Όνομα κανόνα {rulename}
 * Περιγραφή {description}
 * Γεγονός {eventname}';
+$string['messagetemplate_link'] = 'διαχείριση/εργαλείο/παρακολούθηση/διαχείρισηκανόνων';
 $string['moduleinstance'] = 'Στιγμιότυπο';
 $string['monitordisabled'] = 'Η παρακολούθηση γεγονότων είναι αυτή τη στιγμή απενεργοποιημένη.';
 $string['monitorenabled'] = 'Η παρακολούθηση γεγονότων είναι αυτή τη στιγμή ενεργοποιημένη.';
