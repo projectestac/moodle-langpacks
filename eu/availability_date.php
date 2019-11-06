@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['ajaxerror'] = 'Errorea zerbitzariarekin denborak bihurtzeko konektatzean';
-$string['description'] = 'Ukatu sarbidea data eta ordu zehatz batetik aurrera (edo batera arte).';
+$string['description'] = 'Galarazi sarbidea data eta ordu zehatz batetik aurrera (edo batera arte).';
 $string['direction_before'] = 'Data';
 $string['direction_from'] = 'noiztik';
 $string['direction_label'] = 'Norabidea';
