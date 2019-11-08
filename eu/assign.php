@@ -56,7 +56,7 @@ $string['assign:grantextension'] = 'Eman epearen luzapena';
 $string['assign:manageallocations'] = 'Kudeatu bidalketei esleitutako kalifikatzaileak';
 $string['assign:managegrades'] = 'Berrikusi eta argitaratu kalifikazioa';
 $string['assign:manageoverrides'] = 'Kudeatu zeregin-salbuespenak';
-$string['assignmentisdue'] = 'Epea bukatu da';
+$string['assignmentisdue'] = 'Epea amaitu da';
 $string['assignmentmail'] = '{$a->grader}-k feedbacka bidali du zure \'{$a->assignment}\' zereginaren bidalketarako.
 
 Zure zereginaren bidalketaren eranskin gisa ikus dezakezu:

@@ -128,16 +128,16 @@ $string['displayoptions'] = 'Erakusteko aukerak';
 $string['disterror'] = '{$a} banaketak arazoak sortu ditu';
 $string['donothing'] = 'Ez kopiatu, ez mugitu fitxategirik eta ez aldatu estekarik.';
 $string['editcategories'] = 'Editatu kategoriak';
-$string['editcategories_help'] = 'Zure galdera guztiak zerrenda luze bakar batean izan beharrean, kategoriak sor ditzakezu galderak bertan izateko.
+$string['editcategories_help'] = 'Zure galdera guztiak zerrenda luze bakar batean izan beharrean, kategoriak eta azpikategoriak sor ditzakezu galderak antolatzeko.
 
-Kategoria bakoitzak testuinguru bat izan behar du, eta honek zehaztuko du kategoriako zein galdera erabil daitekeen:
+Kategoria bakoitzak testuinguru bat du, eta honek zehaztuko du kategoriako galderak non erabil daitezkeen:
 
-* Jarduera-testuingurua - Galderak bakarrik daude eskura jarduera-moduluan
-*Ikastaro-testuingurua: Galderak eskura daude ikastaroko jarduera-modulu guztietan
-*Ikastaro-kategoriaren testuinguruan - Galderak eskura daude kategoriako ikastaro eta jarduera-modulu guztietan
-* Sistema-testuingurua - Galderak eskura daude guneko ikastaro eta jarduera-modulu guztietan
+* Jarduera-testuingurua - Galderak jarduera-moduluan soilik erabil daitezke
+* Ikastaro-testuingurua - Galderak ikastaroko jarduera-modulu guztietan erabil daitezke
+* Ikastaro-kategoriaren testuinguruan - Galderak kategoriako ikastaro eta jarduera-modulu guztietan erabil daitezke
+* Sistema-testuingurua - Galderak guneko ikastaro eta jarduera-modulu guztietan erabil daitezke
 
-Kategoriak ere ausazko galderetarako erabil daitezke eta galderak kategoria jakin batetik aukeratu.';
+Kategoriak ere ausazko galderetarako erabiltzen dira, ausazko galderak kategoria jakin batetik aukeratzen baitira.';
 $string['editcategory'] = 'Editatu kategoria';
 $string['editingcategory'] = 'Kategoria editatzen';
 $string['editingquestion'] = 'Galdera editatzen';

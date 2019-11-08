@@ -229,7 +229,7 @@ $string['forum:allowforcesubscribe'] = 'Baimendu behartutako harpidetza';
 $string['forumauthorhidden'] = 'Egilea (ezkutuan)';
 $string['forumblockingalmosttoomanyposts'] = 'Gehienezko mezu-kopurutik hurbil zaude. {$a->numposts} bidali dituzu azken {$a->blockperiod} eta gehienez {$a->blockafter} bidal daitezke.';
 $string['forumbodydeleted'] = 'Foro-elkarrizketa honetako edukiak ezabatuak izan dira eta ez daude eskuragarri.';
-$string['forumbodyhidden'] = 'Zuk ezin duzu mezu hau ikusi, ziurrenik ez duzulako eztabaida honetara mezurik bidali, editatzeko gehienezko epea agortu delako, eztabaida hasi ez delako edo eztabaida bukatu delako.';
+$string['forumbodyhidden'] = 'Zuk ezin duzu mezu hau ikusi, ziurrenik ez duzulako eztabaida honetara mezurik bidali, editatzeko gehienezko epea agortu delako, eztabaida hasi ez delako edo eztabaida amaitu delako.';
 $string['forum:canoverridediscussionlock'] = 'Erantzun blokeatutako eztabaidetan';
 $string['forum:canposttomygroups'] = 'Idatzi sarbidea duzun talde guztietan';
 $string['forum:createattachment'] = 'Sortu erantsitako fitxategiak';
@@ -260,7 +260,7 @@ $string['forumtype'] = 'Foro-mota';
 $string['forumtype_help'] = '5 foro-mota daude:
 
 * Eztabaida arrunt bakarra - Eztabaidagai bakarra dago eta bertan edozeinek erantzun dezake (ez du funtzionatzen banatutako taldeekin).
-* Pertsona bakoitzak eztabaida bat bidaltzen du - Pertsona bakoitzak zehazki eztabaida gai berri bat bidali dezake eta guztiek erantzun dezakete.
+* Pertsona bakoitzak eztabaida bat bidaltzen du - Pertsona bakoitzak eztabaida gai berri bakar bat bidali dezake eta guztiek erantzun dezakete.
 * Galdera eta Erantzuna motako foroa - Ikasleek euren mezua bidali behar dute beste ikasleen mezuak ikusi ahal izateko.
 * Blog formatuan erakutsitako erabilera arrunteko foroa - Edozeinek edonoiz eztabaidagai berriak sortu ditzakeen foro irekia. Eztabaidagaiak "Eztabaidatu gai hau" estekarekin agertuko dira orrian
 * Erabilera orokorreko foro arrunta - Foro irekia da, eta bertan edozeinek edonoiz eztabaidagai berriak sortu ditzake';
@@ -309,8 +309,8 @@ $string['markasreadonnotificationno'] = 'Ez markatu mezua irakurritzat';
 $string['markasreadonnotificationyes'] = 'Markatu mezua irakurritzat';
 $string['markread'] = 'Markatu irakurritzat';
 $string['markreadbutton'] = 'Markatu<br/>irakurritzat';
-$string['markunread'] = 'Irakurri gabetzat eman';
-$string['markunreadbutton'] = 'Irakurri gabetzat<br/>eman';
+$string['markunread'] = 'Markatu irakurri gabeko gisa';
+$string['markunreadbutton'] = 'Markatu irakurri<br />gabeko gisa';
 $string['maxattachments'] = 'Gehienezko eranskin-kopurua';
 $string['maxattachments_help'] = 'Ezarpen honek foroko mezu bati gehienez zenbat eranskin gehitu ahal zaizkion zehazten du.';
 $string['maxattachmentsize'] = 'Eranskinaren gehienezko tamaina';

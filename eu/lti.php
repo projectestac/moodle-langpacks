@@ -440,7 +440,7 @@ $string['toolproxy_help'] = 'Kanpoko tresnen erregistroak Moodle guneko kudeatza
 Orri honetan zerrendatutako tresnen erregistroak lau kategoriatan banatzen dira:
 
 * **Konfiguratuak** - Tresna hauen erregistroak instalatu dira, baina erregistro-prozesua ez da oraindik hasi.
-* **Zain** - Tresna hauetarako erregistro-prozesua hasi da, baina ez da oraindik bukatu. Ireki eta gorde ezarpenak berriro \'Konfiguratuak\' kategoriara mugitzeko.
+* **Zain** - Tresna hauetarako erregistro-prozesua hasi da, baina ez da oraindik amaitu. Ireki eta gorde ezarpenak berriro \'Konfiguratuak\' kategoriara mugitzeko.
 * **Onartuak** - Tresna hauen erregistroak onartu dira. Proxy-tresnan zehaztutako baliabideak aurrez konfiguratutako tresnen orrian \'Zain\' egoeran azalduko dira.
 * **Gaitzetsiak** - Tresna hauen erregistroak prozesuan gaitzetsi zirenak dira. Ireki eta gorde ezarpenak berriro \'Konfiguratuak\' kategoriara mugitzeko, erregistro-prozesua berrabiaraz dadin.';
 $string['toolproxyregistration'] = 'Kanpoko tresnen erregistroa';

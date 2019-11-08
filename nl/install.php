@@ -119,6 +119,7 @@ $string['inputdatadirectory'] = 'Data map:';
 $string['inputwebadress'] = 'Web adres:';
 $string['inputwebdirectory'] = 'Moodle map:';
 $string['installation'] = 'Installatie';
+$string['invaliddbprefix'] = 'Ongeldig voorvoegsel. Het voorvoegsel mag alleen uit kleine letters en een onderstrepingsteken bestaan.';
 $string['langdownloaderror'] = 'De taal "{$a}" kon niet worden gedownload. Het installatieproces gaat verder in het Engels.';
 $string['langdownloadok'] = 'De taal "{$a}" is met succes geïnstalleerd. Het installatieproces zal in deze taal verder gaan.';
 $string['memorylimit'] = 'Geheugenlimiet';

@@ -130,7 +130,7 @@ $string['badgedetails'] = 'Dominaren xehetasunak';
 $string['badgeimage'] = 'Irudia';
 $string['badgeimage_help'] = 'Hau da domina hau ematean erabiliko den irudia.
 
-Irudi berria gehitzeko, bilatu eta aukeratu irudia (JPG edo PNG formatuan) eta ondoren egin klik "Aldaketak gorde" botoian. Irudiaren tamaina aldatu egingo da dominaren irudiaren baldintzetara egokitzeko.';
+Irudi berria gehitzeko, bilatu eta aukeratu irudia (JPG edo PNG formatuan) eta ondoren egin klik "Gorde aldaketak" botoian. Irudiaren tamaina aldatu egingo da dominaren irudiaren baldintzetara egokitzeko.';
 $string['badgeprivacysetting'] = 'Dominen pribatutasun-ezarpenak';
 $string['badgeprivacysetting_help'] = 'Irabazten dituzun dominak zure kontuaren profil-orrian erakutsi ahal dira. Ezarpen honek irabazitako azken dominak automatikoki erakusteko aukera ematen dizu.
 
@@ -165,9 +165,9 @@ $string['claim'] = 'Erreklamatu';
 $string['claimcomment'] = 'Onarpenaren iruzkina';
 $string['claimid'] = 'Erreklamatzeko URLa';
 $string['clearsettings'] = 'Garbitu ezarpenak';
-$string['completioninfo'] = 'Domina hau ondorengo hau bukatuta eman zen:';
+$string['completioninfo'] = 'Domina hau ondorengo hau osatuta eman zen:';
 $string['completionnotenabled'] = 'Ikastaro-osaketa ez dago gaituta ikastaro honetarako eta, beraz, ezin da dominarako irizpideetan erabili. Ikastaroaren ezarpenetan gaitu daiteke ikataro-osaketa.';
-$string['configenablebadges'] = 'Gaituta, funtzio honek dominak sortu eta guneko erabiltzaileei emateko aukera emango dizu.';
+$string['configenablebadges'] = 'Gaituz gero, funtzio honek dominak sortu eta guneko erabiltzaileei emateko aukera emango dizu.';
 $string['configuremessage'] = 'Dominaren mezua';
 $string['connect'] = 'Konektatu';
 $string['connected'] = 'Konektatuta';
@@ -212,12 +212,12 @@ $string['criteria_descr_7'] = 'Hurrengo dominetatik <strong>{$a}</strong> lortu 
 $string['criteria_descr_8'] = 'Beharrezkoa da hurrengo kohorteetarik <strong>{$a}</strong>etan partaidetza:';
 $string['criteria_descr_bydate'] = '<em>{$a}</em> baino lehenago';
 $string['criteria_descr_grade'] = '<em>{$a}</em> gutxieneko kalfikazioarekin';
-$string['criteria_descr_short0'] = '<strong>{$a}</strong> bukatuta hauetatik:';
-$string['criteria_descr_short1'] = '<strong>{$a}</strong> bukatuta hauetatik:';
+$string['criteria_descr_short0'] = '<strong>{$a}</strong> osatuta hauetatik:';
+$string['criteria_descr_short1'] = '<strong>{$a}</strong> osatuta hauetatik:';
 $string['criteria_descr_short2'] = '<strong>{$a}</strong> emanda hauetatik:';
 $string['criteria_descr_short4'] = 'Osatu ikastaroa';
-$string['criteria_descr_short5'] = '<strong>{$a}</strong> bukatuta hauetatik:';
-$string['criteria_descr_short6'] = '<strong>{$a}</strong> bukatuta hauetatik:';
+$string['criteria_descr_short5'] = '<strong>{$a}</strong> osatuta hauetatik:';
+$string['criteria_descr_short6'] = '<strong>{$a}</strong> osatuta hauetatik:';
 $string['criteria_descr_short7'] = 'Hurrengoetatik <strong>{$a}</strong> osatu:';
 $string['criteria_descr_short8'] = '<strong>{$a}</strong> kohortetan partaidetza hauen artean:';
 $string['criteria_descr_single_1'] = 'Ondoko jarduera osatu behar da:';

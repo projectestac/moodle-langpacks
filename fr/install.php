@@ -102,6 +102,7 @@ $string['inputdatadirectory'] = 'Dossier de données :';
 $string['inputwebadress'] = 'Adresse web :';
 $string['inputwebdirectory'] = 'Dossier Moodle :';
 $string['installation'] = 'Installation';
+$string['invaliddbprefix'] = 'Préfixe non valide. Le préfixe ne doit comporter que des lettres bas de casse et des caractères sous-ligné.';
 $string['langdownloaderror'] = 'La langue « {$a} » n\'a pas pu être téléchargée. La suite de l\'installation se déroulera en anglais. Vous pourrez télécharger et installer d\'autres langues à la fin de l\'installation';
 $string['langdownloadok'] = 'La langue « {$a} » a été installée correctement. La suite de l\'installation se déroulera dans cette langue';
 $string['memorylimit'] = 'Limite de mémoire';

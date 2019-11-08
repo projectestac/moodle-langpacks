@@ -122,7 +122,7 @@ $string['calendartype_desc'] = 'Aukeratu lehenetsitako egutegi-mota bat gune oso
 $string['calendar_weekend'] = 'Asteburuko egunak';
 $string['cannotdeletemodfilter'] = 'Ezin duzu \'{$a->filter}\' desinstalatu \'{$a->module}\' moduluaren zati bat baita.';
 $string['cannotuninstall'] = '{$a} ezin da desinstalatu.';
-$string['categoryemail'] = 'E-mail';
+$string['categoryemail'] = 'Posta elektronikoa';
 $string['cfgwwwrootslashwarning'] = '$CFG->wwwroot aldagaia modu ezegokian zehaztuta dago config.php fitxategian. Amaieran kendu beharreko \'/\' karakterea dauka.';
 $string['cfgwwwrootwarning'] = '$CFG->wwwroot aldagaia modu ezegokian zehaztuta dago config.php fitxategian. Orri honetara sartzeko erabiltzen ari zaren URLarekin bat etorri behar du.';
 $string['change'] = 'aldatu';
@@ -223,7 +223,7 @@ $string['configdefaultrequestedcategory'] = 'Eskatutako ikastaroak barneratuko d
 $string['configdefaultuserroleid'] = 'Hemen, gune-mailan, zehazten duzun rolaren gaitasunak emango zaizkie autentifikatutako erabiltzaile guztiei, izan ditzaketen beste rolez GAIN. Lehenetsitako rola Bisitaria da. Honek ez du arazorik sortuko dituzten gainontzeko rolekin gaitasunak ukatzen ez badituzu, erabiltzaile guztiek gunean zerbait erabilgarri egin dezaketela bakarrik ziurtatzen du (besteak beste, blogetako sarrerak, norbere egutegia kudeatzea, e.a.)';
 $string['configdeleteincompleteusers'] = 'Tarte honen ondoren, izena, abizena eta helbide elektronikoa beteta ez duten kontuak ezabatuak izango dira.';
 $string['configdeleteunconfirmed'] = 'Autentifikazio-mota konkretu batzuetan, hala nola posta elektronikoan oinarritutako auto-erregistroan, erabiltzaileek denbora-epe batean euren kontuak baieztatu behar dituzte. Denbora-epea horren ondoren, baieztatu gabeko kontu zahar guztiak ezabatuko dira.';
-$string['configdenyemailaddresses'] = 'Domeinu batzuen helbide elektronikoak gaitzesteko, idatzi hemen horien zerrenda. Beste domeinu guztiak onartu egingo dira. Adibidez, <strong>hotmail.com euskalnet.net</strong>';
+$string['configdenyemailaddresses'] = 'Domeinu batzuen helbide elektronikoak ukatzeko, idatzi hemen horien zerrenda. Beste domeinu guztiak onartu egingo dira. Gehitu ezazu aurretik \'.\' azpidomeinuak debekatu nahi badituzu. Adibidez, <strong>adibidea.eus .bestebat.eus</strong>';
 $string['configdisableuserimages'] = 'Desgaitu erabiltzaileek beren profiletako irudiak aldatzeko aukera.';
 $string['configdisplayloginfailures'] = 'Aukera honek erabiltzaileei huts egindako aurreko sarrerei buruzko informazioa erakutsiko die.';
 $string['configdndallowtextandlinks'] = 'Gaitu edo desgaitu testu eta fitxategiak hartu eta eramatea, baita ikastaroko orrietako estekak ere. Ohar zaitez testu hartu eta Firefox-era eramatea edo nabigatzaileen artean egitea ez dela fidagarria. Hortaz, baliteke daturik ez igotzea edo testu akastuna igotzea.';
@@ -1295,7 +1295,7 @@ $string['upgradepluginsfirst'] = 'Gomendagarria da lehenengo eskuragarri dauden 
 $string['upgradepluginsinfo'] = 'Pluginak eguneratzen';
 $string['upgradepluginsinfo_help'] = 'Zure plugin batzuetarako eguneraketak daude eskuragai. Moodle-ren datu-basea eguneratu aurretik horiek guztiak instalatu beharko zenituzke. Zure guneak eguneraketa automatikoak onartzen ez baditu, pluginen bertsio berriak jaitsi eta zure zerbitzarian eskuz instalatu beharko dituzu.';
 $string['upgradesettings'] = 'Ezarpen berriak';
-$string['upgradesettingsintro'] = 'Beheragoko ezarpenak Moodle-ren azken eguneraketan gehitu ziren. Egin beharrezko aldaketak lehenetsitako balioetan eta ondoren egin klik orriaren bukaerako \'Gorde aldaketak\' botoiari.';
+$string['upgradesettingsintro'] = 'Beheragoko ezarpenak Moodle-ren azken eguneraketan gehitu ziren. Egin beharrezko aldaketak lehenetsitako balioetan eta ondoren egin klik orriaren amaierako \'Gorde aldaketak\' botoiari.';
 $string['upgradestalefiles'] = 'Moodle bertsio nahastuak atzeman dira. Eguneraketak ezin du jarraitu.';
 $string['upgradestalefilesinfo'] = 'Moodle-ren eguneraketa-prozesua gelditu da Moodle-ren karpetan Moodle-ren gutxienez bi bertsio nagusiren PHP scriptak atzeman direlako.
 
@@ -1311,7 +1311,7 @@ Moodle karpeta garbi dagoenean, freskatu orri hau eguneraketa-prozesuak jarrai d
 
 Abisua askotan gertatzen da Moodle estandar paketea aurreko bertsio baten gainean deskonprimatzeagatik. Azpibertsioekin hori prozedura egokia izan arren, ez da inola ere bertsio nagusiekin egin behar.
 
-Abisua ere gerta daiteke amaitu gabeko Git biltegiko azterketa edo eguneraketagatik. Kasu horretan nahikoa izango da itxarotea eragiketa bukatu arte, edo agian garbiketa-komando egokia erabiltzea eta berriro saiatzea.
+Abisua ere gerta daiteke amaitu gabeko Git biltegiko azterketa edo eguneraketagatik. Kasu horretan nahikoa izango da itxarotea eragiketa amaitu arte, edo agian garbiketa-komando egokia erabiltzea eta berriro saiatzea.
 
 Eguneraketako dokumentazioan informazio gehiago aurkituko duzu: <a href="{$a}">{$a}</a>.';
 $string['upgradestart'] = 'Eguneratu orain Moodle-ren datu-basea';

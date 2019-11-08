@@ -136,6 +136,7 @@ $string['inputdatadirectory'] = 'Datu-direktorioa:';
 $string['inputwebadress'] = 'Web helbidea:';
 $string['inputwebdirectory'] = 'Moodle direktorioa:';
 $string['installation'] = 'Instalazioa';
+$string['invaliddbprefix'] = 'Aurrizki baliogabea. Aurrizkian soilik letra xeheak eta marratxo baxua (_) erabili daitezke.';
 $string['langdownloaderror'] = 'Zoritxarrez "{$a}" hizkuntza ezin izan da jaitsi. Instalazio-prozesuak ingelesez jarraituko du.';
 $string['langdownloadok'] = '"{$a}" hizkuntza zuzen instalatu da. Instalazio-prozesuak hizkuntza horretan jarraituko du.';
 $string['memorylimit'] = 'Memoriaren muga';

@@ -54,9 +54,9 @@ $string['resultvoid'] = 'Ez dago esleitutako bidalketarik';
 $string['resultvoiddeadline'] = 'Ez da bidalketa-faseko epea oraindik amaitu.';
 $string['resultvoidexecuted'] = 'Esleipena exekutatu da jada.';
 $string['scheduledallocationsettings'] = 'Esleipen programatuaren ezarpenak';
-$string['scheduledallocationsettings_help'] = 'Esleipen programatua gaituz gero honek bidalketa-fasea bukatzean bidalketak ebaluatzeko automatikoki esleituko ditu. Fasearen bukaera tailerraren ezarpenen "Bidalketetarako amaiera-data" atalean zehaztu daiteke.
+$string['scheduledallocationsettings_help'] = 'Esleipen programatua gaituz gero honek bidalketa-fasea amaitzean bidalketak ebaluatzeko automatikoki esleituko ditu. Fasearen amaiera tailerraren ezarpenen "Bidalketetarako amaiera-data" atalean zehaztu daiteke.
 
-Barrutik, ausazko esleipena formulario honetan zehaztutako parametroak erabilita exekutatzen da. Honek esan nahi du, beraz, esleipen programatuak irakasleak bidalketa fasea bukatzean ausazko esleipena beheko ezarpenak erabiliz egingo balu bezala funtzionatzen duela.
+Barrutik, ausazko esleipena formulario honetan zehaztutako parametroak erabilita exekutatzen da. Honek esan nahi du, beraz, esleipen programatuak irakasleak bidalketa fasea amaitzean ausazko esleipena beheko ezarpenak erabiliz egingo balu bezala funtzionatzen duela.
 
 Kontuan izan esleipen programatua *ez* dela exekutatzen irakasleak eskuz tailerraren fasea bidalketetarako amaiera-data baino lehen ebaluazio-fasera aldatzen badu. Kasu horretan irakasleak esleipena bere kabuz egin beharko du. Esleipen programatua bereziki erabilgarria da fasea automatikoki aldatzeko funtzioarekin batera erabiltzen denean.';
 $string['setup'] = 'Prestatu esleipen programatua';
