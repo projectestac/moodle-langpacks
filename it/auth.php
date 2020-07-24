@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -91,11 +91,9 @@ hai richiesto la modifica dell\'indirizzo email del tuo account sul sito {$a->si
 
 {$a->url}
 
-Per chiarimenti, contatta il supporto: {$a->supportemail}';
+{$a->supportemail}';
 $string['emailupdatesuccess'] = 'L\'indirizzo email dell\'utente <em>{$a->fullname}</em> è stato modificato in <em>{$a->email}</em>.';
 $string['emailupdatetitle'] = 'Conferma del cambio di email su {$a->site}';
-$string['enterthenumbersyouhear'] = 'Inserisci i numeri che senti';
-$string['enterthewordsabove'] = 'Inserisci le parole sovrastanti';
 $string['errormaxconsecutiveidentchars'] = 'La password può contenere un massimo di {$a} caratteri identici consecutivi.';
 $string['errorminpassworddigits'] = 'La password deve contenere almeno {$a} numeri.';
 $string['errorminpasswordlength'] = 'La password deve essere lunga almeno {$a} caratteri.';
@@ -112,9 +110,6 @@ $string['forcechangepasswordfirst_help'] = 'Obbliga gli utenti a cambiare la pas
 $string['forcechangepassword_help'] = 'Obbliga gli utenti a cambiare la password al prossimo accesso a Moodle.';
 $string['forgottenpassword'] = 'E\' possibile inserire un URL che sarà usato come pagina di recupero delle password. L\'impostazione è particolarmente utile per quei siti dove le password sono gestite esternamente a Moodle. Non inserendo un URL sarà usata la pagina di default per il recupero delle password.';
 $string['forgottenpasswordurl'] = 'URL pagina recupero password';
-$string['getanaudiocaptcha'] = 'Chiedi un audio CAPTCHA';
-$string['getanimagecaptcha'] = 'Chiedi un\'immagine CAPTCHA';
-$string['getanothercaptcha'] = 'Chiedi un altro CAPTCHA';
 $string['getrecaptchaapi'] = 'Per utilizzare reCAPTCHA devi prima ottenere una chiave API su <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Pulsante login ospite';
 $string['incorrectpleasetryagain'] = 'Sbagliato. Prova ancora.';

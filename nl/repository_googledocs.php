@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_googledocs', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_googledocs', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_googledocs
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['both'] = 'Intern en extern';
 $string['cachedef_folder'] = 'Google bestand ID\'s voor mappen in de systeemaccount';
-$string['clientid'] = 'Client ID';
 $string['configplugin'] = 'Configuratie Google Drive plugin';
 $string['defaultreturntype'] = 'Standaard teruggegeven type';
 $string['docsformat'] = 'Standaard importeerformaat van documenten';
@@ -40,7 +39,6 @@ $string['internal'] = 'Intern (bestanden bewaard in Moodle)';
 $string['issuer'] = 'OAuth 2 service';
 $string['issuer_help'] = 'Selecteer de OAuth 2 service die geconfigureerd is om met de Google Drive API te communiceren. Als de service niet bestaat, dan zul je die moeten maken.';
 $string['oauth2serviceslink'] = '<a href="{$a}" title="Link naar OAuth 2 service configuratie">OAuth 2 service configuratie</a>';
-$string['oauthinfo'] = '<p>Om deze plugin te kunnen gebruiken, moet je je site registreren bij Google, zoals beschreven in de documentatie op <a href="{$a->docsurl}">Google OAuth 2.0 setup</a>.</p><p>Als deel van het registratieproces, zul je volgende URL\'s als \'Authorized Redirect URL\'s moeten ingeven:</p><p>{$a->callbackurl}</p>Als je geregistreerd bent, dan krijg je een clientID en geheim, die gebruikt kunnen worden om alle Google Drive en Picasa plugins te configureren.</p><p>Merk op dat je ook de service \'Drive api\' moet inschakelen\'.</p>';
 $string['owner'] = 'Eigenaar:  {$a}';
 $string['pluginname'] = 'Google Drive';
 $string['presentationformat'] = 'Standaard importformaat presentaties';
@@ -48,7 +46,6 @@ $string['privacy:metadata:repository_googledocs'] = 'De Google Drive opslagruimt
 $string['privacy:metadata:repository_googledocs:email'] = 'Het e-mailadres van de gebruiker van de Google drive opslagruimte.';
 $string['privacy:metadata:repository_googledocs:searchtext'] = 'De zoektekst van de gebruiker van de Google drive opslagruimte.';
 $string['searchfor'] = 'Zoek naar  {$a}';
-$string['secret'] = 'Geheim';
 $string['servicenotenabled'] = 'Toegang niet geconfigureerd. Zorg ervoor dat de service \'Drive API\' ingeschakeld is.';
 $string['spreadsheetformat'] = 'Standaard importformaat rekenblad';
 $string['supportedreturntypes'] = 'Ondersteunde bestanden';

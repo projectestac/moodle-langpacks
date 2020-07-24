@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'plugin', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -122,6 +122,8 @@ $string['type_calendartype'] = 'Kalendertype';
 $string['type_calendartype_plural'] = 'Kalendertypes';
 $string['type_coursereport'] = 'Cursusrapport';
 $string['type_coursereport_plural'] = 'Cursusrapporten';
+$string['type_customfield'] = 'Aangepast veld';
+$string['type_customfield_plural'] = 'Aangepaste velden';
 $string['type_dataformat'] = 'Datumformaat';
 $string['type_dataformat_plural'] = 'Dataformaten';
 $string['type_editor'] = 'Editor';
@@ -147,8 +149,8 @@ $string['type_local'] = 'Lokale plugin';
 $string['type_local_plural'] = 'lokale plugins';
 $string['type_media'] = 'Media-speler';
 $string['type_media_plural'] = 'Media-spelers';
-$string['type_message'] = 'Berichten-output';
-$string['type_message_plural'] = 'Berichten-outputs';
+$string['type_message'] = 'Berichten-plugin';
+$string['type_message_plural'] = 'Berichten-plugins';
 $string['type_mlbackend'] = 'Machine learning backend';
 $string['type_mlbackend_plural'] = 'Machine learning backends';
 $string['type_mnetservice'] = 'MNet service';
@@ -225,6 +227,7 @@ $string['validationmsg_onedir'] = 'Ongeldige structuur van het ZIP-bestand';
 $string['validationmsg_onedir_help'] = 'Het zip-bestand moet één root-map bevatten waarin de plugin zit. De naam van die map moet dezelfde zijn als de naam van de plugin.';
 $string['validationmsg_pathwritable'] = 'Test schrijftoegang';
 $string['validationmsg_pluginversion'] = 'Plugin-versie';
+$string['validationmsg_pluginversiontoolow'] = 'Er is al een hogere versie van deze plugin geïnstalleerd';
 $string['validationmsg_release'] = 'Plugin-release';
 $string['validationmsg_requiresmoodle'] = 'Vereiste Moodleversie';
 $string['validationmsg_rootdir'] = 'Naam van de te installeren plugin';

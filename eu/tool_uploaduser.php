@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploaduser', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,12 +35,18 @@ $string['deleteerrors'] = 'Ezabatu erroreak';
 $string['encoding'] = 'Kodifikazioa';
 $string['errormnetadd'] = 'Ezin da urrutiko erabiltzailerik gehitu';
 $string['errors'] = 'Erroreak';
+$string['examplecsv'] = 'Adibidezko testu-fitxategia';
+$string['examplecsv_help'] = 'Adibidezko testu-fitxategia erabiltzeko, jaitsi eta testuen edo kalkulu-orrien editore batekin ireki ezazu. Utzi lehen errenkada dagoen moduan, eta editatu hurrengoak zure erabiltzaileen datuak gehitzeko, errenkada gehiago gehituta behar izanez gero. Amaitzean fitxategia CSV gisa gorde ezazu eta ondoren igo ezazu.
+
+Adibidezko testu-fitxategia probetarako ere erabili daiteke, erabiltzaile-kontuak sortu aurretik erabiltzaileen datuak aurreikusi eta ekintza bertan behera utz daitekeelako.';
+$string['invalidtheme'] = '"{$a}" azala ez dago instalatuta eta baztertua izango da.';
 $string['invalidupdatetype'] = 'Igoera-mota honetan ezin da aukera hau hautatu.';
 $string['invaliduserdata'] = '{$a} erabiltzailearen datu baliogabea antzeman da eta automatikoki garbitu da.';
 $string['nochanges'] = 'Aldaketarik ez';
+$string['notheme'] = 'Ez dago azalik zehaztuta erabiltzaile honentzat.';
 $string['pluginname'] = 'Igo erabiltzailea';
 $string['privacy:metadata'] = 'Igo erabiltzailea pluginak ez du datu pertsonalik biltzen.';
-$string['renameerrors'] = 'Berrizendatu erroreak';
+$string['renameerrors'] = 'Aldatu erroreen izenak';
 $string['requiredtemplate'] = 'Beharrezkoa. Hemen txantiloi-sintaxia erabil dezakezu (%l = abizena, %f = izena, %u = erabiltzaile-izena). Ikusi laguntza zehaztasun gehiagorako eta adibideak ikusteko.';
 $string['rowpreviewnum'] = 'Aurreikusi errenkadak';
 $string['unassignedsysrole'] = 'Sistemako {$a} rola kendu zaio';
@@ -51,7 +57,7 @@ $string['uploadpicture_cannotsave'] = 'Ezin da gorde {$a} erabiltzailearentzako 
 $string['uploadpicture_cannotunzip'] = 'Ezin da irudi-fitxategia deskonprimatu.';
 $string['uploadpicture_invalidfilename'] = '{$a} irudi-fitxategiaren izenak balio ez duten karaktereak ditu. Alde batera utzi da.';
 $string['uploadpicture_overwrite'] = 'Gainidatzi erabiltzaileek dagoeneko dituzten irudiak?';
-$string['uploadpictures'] = 'Gehitu erabiltzaileen irudiak';
+$string['uploadpictures'] = 'Igo erabiltzaileen irudiak';
 $string['uploadpictures_help'] = 'Erabiltzailearen irudiak zip fitxategia edo irudi-fitxategi gisa igo daitezke. Irudi-fitxategiei aukeratutako-erabiltzaile-ezaugarria.luzapena izena eman behar zaie. Adibidez, erabiltzaile-izena erabil1234 bada fitxategiaren izena erabil1234.jpg izango da.';
 $string['uploadpicture_userfield'] = 'Irudiak lotzean erabilitako erabiltzailearen atributua:';
 $string['uploadpicture_usernotfound'] = '\'{$a->uservalue}\'-n \'{$a->userfield}\' balioa duen erabiltzailea ez da existitzen. Alde batera utzi da.';
@@ -77,6 +83,7 @@ $string['usersrenamed'] = 'Berrizendatutako erabiltzaileak';
 $string['usersskipped'] = 'Albo batera utzitako erabiltzaileak';
 $string['usersupdated'] = 'Eguneratutako erabiltzaileak';
 $string['usersweakpassword'] = 'Pasahitz ahula duten erabiltzaileak';
+$string['userthemesnotallowed'] = 'Erabiltzaile-azalak ez daude gaituta, eta beraz igotako erabiltzaile-fitxategian daudenak baztertuak izango dira.';
 $string['uubulk'] = 'Aukeratu eragiketa masiboetarako ekintza';
 $string['uubulkall'] = 'Erabiltzaile guztiak';
 $string['uubulknew'] = 'Erabiltzaile berriak';

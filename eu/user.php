@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'user', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'user', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   user
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -72,7 +72,7 @@ $string['privacy:metadata:lastip'] = 'Erabitzailearen azken IP helbidea.';
 $string['privacy:metadata:lastlogin'] = 'Erabiltzaile honen azken saio-hasiera.';
 $string['privacy:metadata:lastname'] = 'Erabiltzailearen abizena.';
 $string['privacy:metadata:lastnamephonetic'] = 'Erabiltzailearen abizenaren inguruko xehetasun fonetikoak.';
-$string['privacy:metadata:maildigest'] = 'Erabiltzaile honentzako posta elektroniko bidezko banaketa-aukeraren ezarpena.';
+$string['privacy:metadata:maildigest'] = 'Erabiltzaile honentzako posta elektroniko bidezko laburpen-mezuen ezarpena.';
 $string['privacy:metadata:maildisplay'] = 'Erabiltzailearen helbide elektronikoa beste erabiltzaileei erakustekoaren inguruko hobespena.';
 $string['privacy:metadata:middlename'] = 'Erabiltzailearen bigarren izena';
 $string['privacy:metadata:mnethostid'] = 'MNet ostalariaren identifikatzailea, erabiliz gero.';
@@ -102,7 +102,7 @@ $string['privacy:metadata:skype'] = 'Erabiltzailearen Skype identifikatzailea';
 $string['privacy:metadata:state'] = 'Zerok saio normala adierazten du';
 $string['privacy:metadata:summary'] = 'Ikastaroaren deskribapena.';
 $string['privacy:metadata:suspended'] = 'Erabiltzailea etenda dagoen adierazteko marka.';
-$string['privacy:metadata:theme'] = 'Erakutsi beharreko itxuraren erabiltzaile-hobespena.';
+$string['privacy:metadata:theme'] = 'Erakutsi beharreko azalaren erabiltzaile-hobespena.';
 $string['privacy:metadata:timeaccess'] = 'Ikastaroaren sarrera-unea.';
 $string['privacy:metadata:timecreated'] = 'Erregistro hau sortu zeneko unea.';
 $string['privacy:metadata:timemodified'] = 'Erregistro hau aldatu zeneko unea.';
@@ -128,3 +128,6 @@ $string['privacy:passwordresetpath'] = 'Pasahitzaren berrezartze kopurua';
 $string['privacy:privatefilespath'] = 'Fitxategi pribatuak';
 $string['privacy:profileimagespath'] = 'Profileko irudiak';
 $string['privacy:sessionpath'] = 'Saioaren datuak';
+$string['target:upcomingactivitiesdue'] = 'Datozen jarduera-amaierak';
+$string['target:upcomingactivitiesdue_help'] = 'Helburu honek datozen jarduera-amaierentzako gogorarazpenak sortzen ditu.';
+$string['target:upcomingactivitiesdueinfo'] = 'Aurreikuspen guztietako programatutako jarduerak hemen erakusten dira. Ikasle hauek aurreikuspen hauek zuzenean jaso dituzte.';

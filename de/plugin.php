@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'plugin', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -123,6 +123,8 @@ $string['type_calendartype'] = 'Kalendertyp';
 $string['type_calendartype_plural'] = 'Kalendertypen';
 $string['type_coursereport'] = 'Kursbericht';
 $string['type_coursereport_plural'] = 'Kursberichte';
+$string['type_customfield'] = 'Kursfeld';
+$string['type_customfield_plural'] = 'Kursfelder';
 $string['type_dataformat'] = 'Datenformat';
 $string['type_dataformat_plural'] = 'Datenformate';
 $string['type_editor'] = 'Editor';
@@ -148,8 +150,8 @@ $string['type_local'] = 'Lokales Plugin';
 $string['type_local_plural'] = 'Lokale Plugins';
 $string['type_media'] = 'MediaPlayer';
 $string['type_media_plural'] = 'MediaPlayer';
-$string['type_message'] = 'Mitteilungskanal';
-$string['type_message_plural'] = 'Mitteilungskanäle';
+$string['type_message'] = 'Mitteilungsplugin';
+$string['type_message_plural'] = 'Mitteilungsplugins';
 $string['type_mlbackend'] = 'Maschinelles Lernen Backend';
 $string['type_mlbackend_plural'] = 'Maschinelles Lernen Backends';
 $string['type_mnetservice'] = 'MNet Service';
@@ -227,6 +229,7 @@ $string['validationmsg_onedir'] = 'Ungültige Struktur im ZIP-Paket';
 $string['validationmsg_onedir_help'] = 'Das ZIP-Paket darf nur das Hauptverzeichnis mit dem Plugin-Code enthalten. Der Name des Hauptverzeichnisses muss dem Namen des Plugins entsprechen.';
 $string['validationmsg_pathwritable'] = 'Prüfung des Schreibzugriffs';
 $string['validationmsg_pluginversion'] = 'Plugin-Version';
+$string['validationmsg_pluginversiontoolow'] = 'Eine höhere Version dieses Plugins ist bereits installiert.';
 $string['validationmsg_release'] = 'Plugin-Release';
 $string['validationmsg_requiresmoodle'] = 'Erforderliche Moodle-Version';
 $string['validationmsg_rootdir'] = 'Plugin-Name';

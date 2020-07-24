@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploaduser', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,9 +35,15 @@ $string['deleteerrors'] = 'Verwijder fouten';
 $string['encoding'] = 'Codering';
 $string['errormnetadd'] = 'Kan externe gebruikers niet toevoegen';
 $string['errors'] = 'Fouten';
+$string['examplecsv'] = 'Voorbeeld tekstbestand';
+$string['examplecsv_help'] = 'Download dit voorbeeld tekstbestand om het te kunnen gebruiken en open het met een teksteditor of met rekenblad-software. Laat de eerste regel onveranderd en bewerk dan de volgende regels (records) and voeg jouw gebruikersgegevens toe. Voeg meer lijnen toe als nodig. Bewaar het bestand als CSV en upload het dan.
+
+Het voorbeeld tekst-bestand kan ook gebruikt worden om te testen omdat je een voorbeeld van de gebruikersgegevens kunt bekijken en dan kunt annuleren voor de accounts gemaakt worden.';
+$string['invalidtheme'] = 'Thema "{$a}" is niet geïnstalleerd en zal worden genegeerd.';
 $string['invalidupdatetype'] = 'Je kunt deze optie niet selecteren met het gekozen upload-type.';
 $string['invaliduserdata'] = 'Ongeldige gegevens ontdekt voor gebruiker {$a} en automatisch opgeschoond.';
 $string['nochanges'] = 'Geen wijzigingen';
+$string['notheme'] = 'Er is geen thema gedefinieerd voor deze gebruiker.';
 $string['pluginname'] = 'Gebruiker upload';
 $string['privacy:metadata'] = 'De upload gebruikers-plugin bewaart geen persoonlijke gegevens.';
 $string['renameerrors'] = 'Fouten in hernoemen';
@@ -79,6 +85,7 @@ $string['usersrenamed'] = 'Gebruikers hernoemd';
 $string['usersskipped'] = 'Gebruikers overgeslagen';
 $string['usersupdated'] = 'Gebruikers geüpdatet';
 $string['usersweakpassword'] = 'Gebruikers met een zwak wachtwoord';
+$string['userthemesnotallowed'] = 'Gebruikersthema\'s zijn niet ingeschakeld, dus alle in het upload-gebruikers-bestand opgenomen thema\'s zullen worden genegeerd.';
 $string['uubulk'] = 'Selecteer voor bulkoperaties';
 $string['uubulkall'] = 'Alle gebruikers';
 $string['uubulknew'] = 'Nieuwe gebruikers';

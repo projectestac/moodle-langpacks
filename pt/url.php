@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'url', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,7 @@ $string['configsecretphrase'] = 'Esta frase secreta é usada para produzir um c�
 $string['contentheader'] = 'Conteúdo';
 $string['createurl'] = 'Criar um url';
 $string['displayoptions'] = 'Opções de visualização disponíveis';
-$string['displayselect'] = 'Exibir em';
+$string['displayselect'] = 'Modo de exibição';
 $string['displayselectexplain'] = 'Escolha a forma de exibição tendo em conta que nem todos os tipos de exibição são adequados para todos os URLs.';
 $string['displayselect_help'] = 'Esta configuração, em conjunto com o tipo de ficheiro e possibilidades do navegador, determina a forma como é exibido o ficheiro. As opções podem ser:
 
@@ -46,7 +46,7 @@ $string['displayselect_help'] = 'Esta configuração, em conjunto com o tipo de 
 
 * Mesma janela: apenas o ficheiro é exibido na janela do navegador;
 
-* Janela de pop-up: o ficheiro é exibido numa nova janela do navegador sem menus nem barra de endereço;
+* Janela pop-up: o ficheiro é exibido numa nova janela do navegador sem menus nem barra de endereço;
 
 * Frame: o ficheiro é exibido numa frame, mantendo a barra de navegação e a descrição do ficheiro;
 
@@ -54,8 +54,12 @@ $string['displayselect_help'] = 'Esta configuração, em conjunto com o tipo de 
 $string['externalurl'] = 'URL externo';
 $string['framesize'] = 'Altura da frame';
 $string['indicator:cognitivedepth'] = 'Compreensão do URL';
+$string['indicator:cognitivedepthdef'] = 'Compreensão do URL';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelos recursos URL durante esse intervalo de análise (Níveis = Não visualizado, Visualizado)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na profundidade cognitiva alcançada pelo aluno num recurso URL.';
 $string['indicator:socialbreadth'] = 'Socialização do URL';
+$string['indicator:socialbreadthdef'] = 'Socialização do URL';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelos recursos URL durante esse intervalo de análise (Níveis = Sem participação, Participante individual)';
 $string['indicator:socialbreadth_help'] = 'Este indicador baseia-se na amplitude social alcançada pelo aluno numa recurso URL.';
 $string['invalidstoredurl'] = 'Não é possível mostrar este recurso, o URL é inválido';
 $string['invalidurl'] = 'Insira um URL válido';

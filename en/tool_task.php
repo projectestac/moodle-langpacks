@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_task', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,6 +52,7 @@ $string['runpattern'] = 'Run pattern';
 $string['scheduledtaskchangesdisabled'] = 'Modifications to the list of scheduled tasks have been prevented in Moodle configuration';
 $string['scheduledtasks'] = 'Scheduled tasks';
 $string['taskdisabled'] = 'Task disabled';
+$string['tasklogs'] = 'Task logs';
 $string['taskscheduleday'] = 'Day';
 $string['taskscheduleday_help'] = 'Day of month field for task schedule. The field uses the same format as unix cron. Some examples are:
 
@@ -87,3 +88,4 @@ $string['taskschedulemonth_help'] = 'Month field for task schedule. The field us
 * <strong>*/2</strong> Every second month
 * <strong>1</strong> Every January
 * <strong>1,5</strong> Every January and May';
+$string['viewlogs'] = 'View logs for {$a}';

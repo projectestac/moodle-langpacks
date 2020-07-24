@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_statistics', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,8 +69,8 @@ $string['highestattempts'] = '最高評点の受験';
 $string['highestattemptsavg'] = '受験の最高評点の平均点';
 $string['intended_weight'] = '意図された加重';
 $string['kurtosis'] = '評点分布の尖度 ({$a})';
-$string['lastattempts'] = '前回の受験';
-$string['lastattemptsavg'] = '前回の受験の平均点';
+$string['lastattempts'] = '最新の受験';
+$string['lastattemptsavg'] = '最新の受験の平均点';
 $string['lastcalculated'] = '最後に {$a->lastcalculated} 前に計算されてから {$a->count} 件の受験がありました。';
 $string['maximumfacility'] = '容易さ - 最大';
 $string['median'] = '評点の中央値 ({$a})';
@@ -101,6 +101,7 @@ $string['questiontype'] = '問題タイプ';
 $string['quizinformation'] = '小テスト情報';
 $string['quizname'] = '小テスト名';
 $string['quizoverallstatistics'] = '小テスト全体の統計';
+$string['quizstatisticscleanuptask'] = '古い小テスト統計キャッシュレコードを削除する';
 $string['quizstructureanalysis'] = '問題構造分析';
 $string['random_guess_score'] = '当てずっぽうの評点';
 $string['rangebetween'] = '{$a->min} − {$a->max}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['addinstance'] = 'Methode toevoegen';
 $string['addinstanceanother'] = 'Voeg methode toe en maak nog één';
 $string['ajaxnext25'] = 'Volgende 25...';
 $string['ajaxoneuserfound'] = '1 gebruiker gevonden';
+$string['ajaxxmoreusersfound'] = 'Meer dan {$a} gebruikers gevonden';
 $string['ajaxxusersfound'] = '{$a} gebruikers gevonden';
 $string['assignnotpermitted'] = 'Je hebt het recht niet om rollen toe te wijzen in deze cursus';
 $string['bulkuseroperation'] = 'Bulk gebruikersbewerking';
@@ -102,6 +103,7 @@ $string['foundxcohorts'] = '{$a} site-brede groepen gevonden';
 $string['instanceadded'] = 'Methode toegevoegd';
 $string['instanceeditselfwarning'] = 'Waarschuwing:';
 $string['instanceeditselfwarningtext'] = 'Je bent in deze cursus aangemeld door deze aanmeldingsmethode. Het wijzigen hiervan kan je toegang tot deze cursus onmogelijk maken.';
+$string['invalidenrolduration'] = 'Ongeldige inschrijvingsduur';
 $string['invalidenrolinstance'] = 'Ongeldige aanmelding';
 $string['invalidrequest'] = 'Ongeldige aanvraag';
 $string['invalidrole'] = 'Ingeldige rol';
@@ -149,6 +151,7 @@ $string['testsettings'] = 'Testinstellingen';
 $string['testsettingsheading'] = 'Test aanmeldingsinstellingen - {$a}';
 $string['totalenrolledusers'] = '{$a} aangemelde gebruikers';
 $string['totalotherusers'] = '{$a} andere gebruikers';
+$string['totalunenrolledusers'] = '{$a} afgemelde gebruikers';
 $string['unassignnotpermitted'] = 'Je hebt het recht niet om rollen te verwijderen in deze cursus';
 $string['unenrol'] = 'Zeg lidmaatschap op';
 $string['unenrolconfirm'] = 'Wil je echt gebruiker "{$a->user}" van cursus "{$a->course}" afmelden (was aangemeld via "{$a->enrolinstancename}") ?';
@@ -161,3 +164,5 @@ $string['unlimitedduration'] = 'Onbeperkt';
 $string['userremovedfromselectiona'] = 'Gebruiker "{$a}"  is uit de selectie verwijderd.';
 $string['usersearch'] = 'Zoek';
 $string['withselectedusers'] = 'Met geselecteerde gebruikers';
+$string['youenrolledincourse'] = 'Je bent aangemeld in de cursus.';
+$string['youunenrolledfromcourse'] = 'Je bent niet meer aangemeld in cursus "{$a} ".';

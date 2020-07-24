@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'survey', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -210,8 +210,12 @@ $string['howlong'] = 'Quanto tempo demorou a completar este inquérito?';
 $string['howlongoptions'] = 'Menos de 1 min, 1 a 2 min, 2 a 3 min, 3 a 4 min, 4 a 5 min, 5 a 10 min, mais de 10';
 $string['ifoundthat'] = 'Achei isso';
 $string['indicator:cognitivedepth'] = 'Compreensão do Inquérito';
+$string['indicator:cognitivedepthdef'] = 'Compreensão do Inquérito';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelas atividades Inquérito durante esse intervalo de análise (Níveis = Não visualizado, Visualizado, Submetido)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno na atividade Inquérito predefinido.';
 $string['indicator:socialbreadth'] = 'Socialização do Inquérito predefinido';
+$string['indicator:socialbreadthdef'] = 'Socialização do Inquérito';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelas atividades Inquérito durante esse intervalo de análise (Níveis = Sem participação, Participante individual)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno na atividade Inquérito predefinido.';
 $string['introtext'] = 'Texto introdutório';
 $string['invalidsurveyid'] = 'O ID do questionário está incorreto';
@@ -250,7 +254,7 @@ $string['questionsnotanswered'] = 'Algumas perguntas de escolha múltipla não f
 $string['report'] = 'Relatório do inquérito';
 $string['responsereports'] = 'Relatório de respostas';
 $string['responses'] = 'Respostas';
-$string['savednotes'] = 'As suas anotações foram gravadas';
+$string['savednotes'] = 'As suas anotações foram guardadas';
 $string['scaleagree5'] = 'Discordo plenamente,Discordo,Não concordo nem discordo,Concordo,Concordo plenamente';
 $string['scales'] = 'Escalas';
 $string['scaletimes5'] = 'Quase nunca, Raramente, Às vezes, Frequentemente, Quase sempre';

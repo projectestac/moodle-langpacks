@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_filesystem', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_filesystem', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_filesystem
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['blockedpath'] = 'Geblokkeerd root pad';
 $string['configplugin'] = 'Configuratie voor bestandssysteem opslagruimte';
+$string['crontask'] = 'Achtergrondverwerking voor de bestandssysteem opslagruimte';
 $string['donotusesysdir'] = 'Systeemmap niet als opslagruimte gebruiken, inclusief';
 $string['enablecourseinstances'] = 'Sta gebruikers toe om een opslagruimte-instantie toe te voegen aan de cursus (kan enkel door beheerders geconfigureerd worden).';
 $string['enableuserinstances'] = 'Sta gebruikers toe om een een opslagruimte-instatie toe te voegen voor persoonlijk gebruik (kan enkel door beheerders geconfigureerd worden)';

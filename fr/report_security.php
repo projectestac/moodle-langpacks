@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,11 @@ $string['check_cookiesecure_details'] = '<p>Si la communication https est activ�
 $string['check_cookiesecure_error'] = 'Veuillez activer les cookies sécurisés';
 $string['check_cookiesecure_name'] = 'Cookies sécurisés';
 $string['check_cookiesecure_ok'] = 'Cookies sécurisés activés.';
+$string['check_crawlers_details'] = '<p>L\'activation du réglage « Ouvert à Google » autorise les moteurs de recherche à accéder aux cours en tant que visiteur anonyme. Il n\'y a aucune raison d\'activer ce réglage si l\'accès aux visiteurs anonymes n\'est pas autorisé.</p>';
+$string['check_crawlers_error'] = 'L\'accès aux visiteurs anonymes est autorisé pour les moteurs de recherche alors que l\'accès aux visiteurs anonymes est désactivé.';
+$string['check_crawlers_info'] = 'Les moteurs de recherche peuvent accéder en tant que visiteur anonyme.';
+$string['check_crawlers_name'] = 'Ouvert à Google';
+$string['check_crawlers_ok'] = 'L\'accès des moteurs de recherche est désactivé.';
 $string['check_defaultuserrole_details'] = '<p>Tous les utilisateurs connectés possèdent les capacités du rôle par défaut. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Utilisateur authentifié</em>. La capacité de voir les cours ne doit pas être autorisée.</p>';
 $string['check_defaultuserrole_error'] = 'Rôle par défaut des utilisateurs « {$a} » incorrectement défini !';
 $string['check_defaultuserrole_name'] = 'Rôle par défaut des utilisateurs';
@@ -56,11 +61,6 @@ $string['check_frontpagerole_error'] = 'Rôle de la page d\'accueil « {$a} »
 $string['check_frontpagerole_name'] = 'Rôle de la page d\'accueil';
 $string['check_frontpagerole_notset'] = 'Le rôle de la page d\'accueil n\'est pas défini.';
 $string['check_frontpagerole_ok'] = 'Définition correcte du rôle de la page d\'accueil';
-$string['check_google_details'] = '<p>L\'activation du réglage « Ouvert à Google » autorise les moteurs de recherche à accéder aux cours en tant que visiteur anonyme. Il n\'y a aucune raison d\'activer ce réglage si l\'accès aux visiteurs anonymes n\'est pas autorisé.</p>';
-$string['check_google_error'] = 'L\'accès aux visiteurs anonymes est autorisé pour les moteurs de recherche alors que l\'accès aux visiteurs anonymes est désactivé.';
-$string['check_google_info'] = 'Les moteurs de recherche peuvent accéder en tant que visiteur anonyme.';
-$string['check_google_name'] = 'Ouvert à Google';
-$string['check_google_ok'] = 'L\'accès des moteurs de recherche est désactivé.';
 $string['check_guestrole_details'] = '<p>Un rôle de visiteur anonyme est utilisé pour l\'accès temporaire aux cours pour les utilisateurs anonymes. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Visiteur anonyme</em>.</p>';
 $string['check_guestrole_error'] = 'Rôle de visiteur anonyme « {$a} » incorrectement défini !';
 $string['check_guestrole_name'] = 'Rôle de visiteur anonyme';

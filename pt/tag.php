@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tag', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,7 +33,7 @@ $string['alltagpages'] = 'Todas as páginas de palavras-chave';
 $string['backtoallitems'] = 'Regressar a todos os itens com a palavra-chave "{$a}"';
 $string['changename'] = 'Alterar nome da palavra-chave';
 $string['changeshowstandard'] = 'Alterar exibição das palavras-chave oficiais na área {$a}';
-$string['changessaved'] = 'Alterações guardadas';
+$string['changessaved'] = 'Alterações guardadas com sucesso';
 $string['changetagcoll'] = 'Alterar a coleção de palavras-chave da área {$a}';
 $string['changetype'] = 'Alterar tipo da palavra-chave';
 $string['collnameexplained'] = 'Deixe o campo em branco para utilizar o valor predefinido: {$a}';
@@ -46,7 +46,7 @@ $string['count'] = 'Número';
 $string['coursetags'] = 'Palavras-chave da disciplina';
 $string['defautltagcoll'] = 'Coleção predefinida';
 $string['delete'] = 'Apagar';
-$string['deleted'] = 'Palavra(s)-chave(s) apagada(s)';
+$string['deleted'] = 'Palavra(s)-chave apagada(s)';
 $string['deletedcoursetags'] = 'Palavras-chave da disciplina - Apagada(s)';
 $string['deleteselected'] = 'Apagar as palavras-chave selecionadas';
 $string['description'] = 'Descrição';

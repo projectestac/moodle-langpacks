@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,38 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['asyncbackupcomplete'] = 'Segurtasun-kopiaren prozesamendua amaitu da';
+$string['asyncbackupcompletebutton'] = 'Jarraitu';
+$string['asyncbackupcompletedetail'] = 'Segurtasun-kopiaren prozesamendua ondo amaitu da. <br/> Segurtasun-kopia <a href="{$a}">berreskuratze-orrian</a> aurkituko duzu.';
+$string['asyncbackuperror'] = 'Segurtasun-kopiaren prozesamenduak huts egin du';
+$string['asyncbackuperrordetail'] = 'Segurtasun-kopiaren prozesamenduak huts egin du. Jarri harremanetan zure gunearen kudeatzailearekin.';
+$string['asyncbackuppending'] = 'Segurtasun-kopiaren prozesamendua zain dago';
+$string['asyncbackupprocessing'] = 'Segurtasun-kopiaren prozesamendua martxan dago';
+$string['asyncbadexecution'] = 'Segurtasun-kopiaren kontrolatzaile-exekuzio desegokia, {$a} da eta 2 izan beharko litzateke.';
+$string['asynccheckprogress'] = '<a href="{$a}">Berreskuratze-orrian</a> aurrerapena edozein unetan ikus dezakezu.';
+$string['asyncemailenable'] = 'Gaitu mezu-jakinarazpenak';
+$string['asyncemailenabledetail'] = 'Gaituz gero, erabiltzaileek mezua jasoko dute berreskuratze edo kopia asinkronoa amaitutakoan.';
+$string['asyncgeneralsettings'] = 'Segurtasun-kopia eta berreskuratze asinkronoa';
+$string['asyncmessagebody'] = 'Mezua';
+$string['asyncmessagebodydefault'] = 'Kaixo, {user_firstname}: <br/>
+{backupid} IDa duen zure {operation} eragiketa ondo amaitu da! <br/><br/>
+Hemen ikus dezakezu {link}.';
+$string['asyncmessagebodydetail'] = 'Segurtasun-kopia eta berreskuratze asinkronoa amaitutakoan bidali beharreko mezua.';
+$string['asyncmessagesubject'] = 'Gaia';
+$string['asyncmessagesubjectdefault'] = 'Moodle {operation} eragiketa ondo amaitu da';
+$string['asyncmessagesubjectdetail'] = 'Mezuaren gaia';
+$string['asyncnowait'] = 'Ez duzu zertan hemen itxaron, prozesamenduak atzeko planoan jarraituko du-eta.';
+$string['asyncprocesspending'] = 'Prozesamenduaren zain';
+$string['asyncrestorecomplete'] = 'Berreskuratze-prozesua amaitu da';
+$string['asyncrestorecompletebutton'] = 'Jarraitu';
+$string['asyncrestorecompletedetail'] = 'Berreskuratze-prozesua ondo amaitu da. Klikatuz gero, <a href="{$a}">berreskuratutako edukia dagokion ikastarora</a> joango zara.';
+$string['asyncrestoreerror'] = 'Berreskuratze-prozesuak huts egin du';
+$string['asyncrestoreerrordetail'] = 'Berreskuratze-prozesuak huts egin du. Jarri harremanetan zure kudeatzailearekin, mesedez.';
+$string['asyncrestoreinprogress'] = 'Berreskuratzea martxan dago';
+$string['asyncrestoreinprogress_help'] = 'Prozesuan dauden ikastaro-berreskuratze asinkronoak hemen erakusten dira.';
+$string['asyncrestorepending'] = 'Berreskuratze-prozesamenduaren zain';
+$string['asyncrestoreprocessing'] = 'Berreskuratze-prozesua martxan dago';
+$string['asyncreturn'] = 'Itzuli ikastarora';
 $string['autoactivedescription'] = 'Aukeratu segurtasun-kopia automatizatuak egitea edo ez. Eskuz aukeratuz gero segurtasun-kopia automatizatuak soilik komando-lerro bidezko script-en bitartez egin ahal izango dira. Hau komando lerroan eskuz egin daiteke edo cron-aren bitartez.';
 $string['autoactivedisabled'] = 'Desgaituta';
 $string['autoactiveenabled'] = 'Gaituta';
@@ -64,6 +96,7 @@ $string['backupmode30'] = 'Bilgunea';
 $string['backupmode40'] = 'Gune bera';
 $string['backupmode50'] = 'Automatizatua';
 $string['backupmode60'] = 'Bihurtuta';
+$string['backupmode70'] = 'Asinkronoa';
 $string['backupsection'] = 'Ikastaro-atalaren segurtasun-kopia:{$a}';
 $string['backupsettings'] = 'Segurtasun-kopiaren ezarpenak';
 $string['backupsitedetails'] = 'Gunearen xehetasunak';
@@ -86,20 +119,21 @@ $string['choosefilefromcoursebackup'] = 'Ikastaroaren segurtasun-kopien eremua';
 $string['choosefilefromcoursebackup_help'] = 'Ikastaro baten segurtasun-kopia ezarpen lehenetsiak erabiliz egiten denean, kopiaren fitxategiak hemen gordeko dira.';
 $string['choosefilefromuserbackup'] = 'Erabiltzailearen segurtasun-kopietarako eremu pribatua';
 $string['choosefilefromuserbackup_help'] = 'Ikastaroen segurtasun-kopiak anonimo bihurtutako erabiltzaileen informazioa duenean, segurtasun-kopien fitxategiak hemen gordeko dira.';
-$string['configgeneralactivities'] = 'Ezarri jarduerak segurtasun-kopietan sartzeko lehenetsitako balioak.';
+$string['configgeneralactivities'] = 'Jarduerak segurtasun-kopietan sartzeko lehenetsitako balioa zehazten du.';
 $string['configgeneralanonymize'] = 'Gaituz gero modu lehenetsian erabiltzaileei buruzko informazio guztia anonimo bihurtuko da.';
-$string['configgeneralbadges'] = 'Ezarri dominak segurtasun-kopietan sartzeko lehenetsitako balioak.';
-$string['configgeneralblocks'] = 'Ezarri blokeak segurtasun-kopia batean sartzeko lehenetsitako balioak.';
-$string['configgeneralcalendarevents'] = 'Ezarri egutegiko ekitaldiak segurtasun-kopietan sartzeko lehenetsitako balioak.';
-$string['configgeneralcomments'] = 'Ezarri iruzkinak segurtasun-kopia batean sartzeko lehenetsitako balioak.';
-$string['configgeneralcompetencies'] = 'Ezarri konpetentziak segurtasun-kopietan sartzeko lehenetsitako balioak.';
-$string['configgeneralfilters'] = 'Ezarri iragazkiak segurtasun-kopia batean sartzeko lehenetsitako balioak.';
-$string['configgeneralgroups'] = 'Ezarri taldeak eta taldekatzeak segurtasun-kopietan sartzeko lehenetsitako balioak.';
-$string['configgeneralhistories'] = 'Ezarri erabiltzaileen historia jarduerak segurtasun-kopian sartzeko lehenetsitako balioak.';
+$string['configgeneralbadges'] = 'Dominak segurtasun-kopietan sartzeko lehenetsitako balioa zehazten du.';
+$string['configgeneralblocks'] = 'Blokeak segurtasun-kopia batean sartzeko lehenetsitako balioa zehazten du.';
+$string['configgeneralcalendarevents'] = 'Egutegiko ekitaldiak segurtasun-kopietan sartzeko lehenetsitako balioa zehazten du.';
+$string['configgeneralcomments'] = 'Iruzkinak segurtasun-kopia batean sartzeko lehenetsitako balioa zehazten du.';
+$string['configgeneralcompetencies'] = 'Konpetentziak segurtasun-kopietan sartzeko lehenetsitako balioa zehazten du.';
+$string['configgeneralfiles'] = 'Segurtasun-kopian fitxategiak modu lehenetsian sartzeko ezarpena. Mesedez kontuan izan hurrengoa: ezarpen hau desgaitzearen emaitza fitxategietarako erreferentziak baino ez dituen segurtasun-kopia bat izango da. Hau ez da arazo bat izango segurtasun-kopia gune berean berreskuratzen bada eta bitartean fitxategiak ez badira ezabatu \'Garbitu zakarrontziko fitxategiak\' (filescleanupperiod) ezarpenaren arabera.';
+$string['configgeneralfilters'] = 'Iragazkiak segurtasun-kopia batean sartzeko lehenetsitako balioa zehazten du.';
+$string['configgeneralgroups'] = 'Taldeak eta taldekatzeak segurtasun-kopietan sartzeko lehenetsitako balioa zehazten du.';
+$string['configgeneralhistories'] = 'Erabiltzaileen historia jarduerak segurtasun-kopian sartzeko lehenetsitako balioa zehazten du.';
 $string['configgenerallogs'] = 'Gaituz gero modu lehenetsian erregistroak sartuko dira segurtasun-kopietan.';
 $string['configgeneralquestionbank'] = 'Gaituz gero galdera-bankua modu lehenetsian segurtasun-kopietan sartuko da. KONTUAN IZAN: ezarpen hau desgaituz gero galdera-bankua erabiltzen duten jardueren segurtasun-kopia ere desgaituko du, galdetegiarena esaterako.';
 $string['configgeneralroleassignments'] = 'Gaituz gero, rol-esleipenak modu lehenetsian sartuko dira segurtasun-kopietan.';
-$string['configgeneralusers'] = 'Ezarri erabiltzaileak segurtasun-kopietan sartzeko lehenetsitako balioak.';
+$string['configgeneralusers'] = 'Erabiltzaileak segurtasun-kopietan sartzeko lehenetsitako balioa zehazten du.';
 $string['configgeneraluserscompletion'] = 'Gaituz gero, erabiltzaileen osaketa-informazioa modu lehenetsian sartuko da segurtasun-kopietan.';
 $string['config_keep_groups_and_groupings'] = 'Mantendu uneko taldeak eta taldekatzeak modu lehenetsian.';
 $string['config_keep_roles_and_enrolments'] = 'Mantendu uneko rolak eta matrikulazioak modu lehenetsian.';
@@ -139,18 +173,21 @@ $string['currentstage16'] = 'Osatuta';
 $string['currentstage2'] = 'Egituraren ezarpenak';
 $string['currentstage4'] = 'Egiaztatu eta berrikusi';
 $string['currentstage8'] = 'Egin segurtasun-kopia';
+$string['enableasyncbackup'] = 'Gaitu segurtasun-kopia asinkronoak';
+$string['enableasyncbackup_help'] = 'Gaituz gero, segurtasun-kopia eta berreskuratze-lan guztiak era asinkronoan egingo dira. Horrek ez du eraginik inportazio eta esportazioetan. Segurtasun-kopia eta berreskuratze asinkronoek ahalbidetzen dute erabiltzaileek beste eragiketak egin ditzaten, segurtasun-kopiak eta berreskuratzeak atzeko planoan egiten ari diren bitartean.';
 $string['enterasearch'] = 'Idatzi bilaketa bat';
 $string['error_block_for_module_not_found'] = 'Bloke-instantzia umezurtza (id: {$a->bid}) aurkitu da (id: {$a->mid}) ikastaro-modulurako. Bloke hau ez da berreskuratuko';
 $string['errorcopyingbackupfile'] = 'Errorea gertatu da segurtasun-kopia fitxategia aldi baterako karpetara kopiatzean berreskuratzea hasi aurretik.';
 $string['error_course_module_not_found'] = 'Ikastaro-modulu umezurtza (id: {$a})  aurkitu da. Modulu hau ez da segurtausn-kopian gehituko.';
 $string['errorfilenamemustbezip'] = 'Sartzen duzun fitxategiak ZIP motakoa izan behar du eta .mbz luzapena behar du izan';
-$string['errorfilenamerequired'] = 'Fitxategi-izen egokia sartu behar duzu segurtasun-kopia honetarako';
+$string['errorfilenamerequired'] = 'Fitxategi-izen egokia zehaztu behar duzu segurtasun-kopia honetarako';
 $string['errorfilenametoolong'] = 'Fitxategi-izenaren luzera gehienez 255 karakterekoa izan behar da.';
 $string['errorinvalidformat'] = 'Segurtasun-kopiaren formatu ezezaguna';
 $string['errorinvalidformatinfo'] = 'Aukeratutako fitxategia ez da Moodlerako segurtasun-kopiaren fitxategi baliagarria eta ezin da berreskuratu.';
 $string['errorminbackup20version'] = 'Segurtasun-kopiaren fitxategia hau Moodleren segutasun-kopiaren garapen ({$a->backup}) bertsioarekin sortu da segurtasun-kopiaren fitxategi hau. Gutxienez behar dena, berriz, hau da: {$a->min}. Ezin da, beraz, berreskuratu.';
 $string['errorrestorefrontpagebackup'] = 'Hasiera-orrian hasiera-orriko segurtasun-kopiak baino ezin dira berreskuratu';
 $string['executionsuccess'] = 'Zure segurtasun-kopiaren fitxategia egoki osatu da.';
+$string['failed'] = 'Segurtasun-kopiak huts egin du';
 $string['filealiasesrestorefailures'] = 'Erroreak ezizenak berreskuratzean';
 $string['filealiasesrestorefailures_help'] = 'Ezizen/estekak beste fitxategietarako esteka sinbolikoak dira, kanpo-biltegietan dauden fitxategietarakoak barne. Batzuetan, Moodlek ezin ditu berreskuratu - esaterako segurtasun-kopia beste gune batean berreskuratzean edo estekatutako fitxategia existitzen ez denean.
 
@@ -169,6 +206,7 @@ $string['generalcalendarevents'] = 'Egutegiko ekitaldiak barne ditu';
 $string['generalcomments'] = 'Iruzkinak barne ditu';
 $string['generalcompetencies'] = 'Konpetentziak barne ditu';
 $string['generalenrolments'] = 'Matrikulazio-metodoak barne ditu';
+$string['generalfiles'] = 'Fitxategiak barne ditu';
 $string['generalfilters'] = 'Iragazkiak barne ditu';
 $string['generalgradehistories'] = 'Kalifikazio-historia barne du';
 $string['generalgroups'] = 'Taldeak eta taldekatzeak barne ditu';
@@ -207,6 +245,7 @@ $string['includeditems'] = 'Barne dituen elementuak:';
 $string['includefilereferences'] = 'Fitxategien erreferentziak kanpoko edukietara';
 $string['includesection'] = '{$a} atala';
 $string['includeuserinfo'] = 'Erabiltzaileen datuak';
+$string['inprogress'] = 'Segurtasun-kopia egiten ari da';
 $string['jumptofinalstep'] = 'Jauzi egin azken urratsera';
 $string['keep'] = 'Mantendu';
 $string['locked'] = 'Blokeatuta';
@@ -225,6 +264,11 @@ $string['nomatchingcourses'] = 'Ez dago erakusteko ikastarorik';
 $string['norestoreoptions'] = 'Ez dago berreskuratzeko kategoriarik edo ikastarorik.';
 $string['originalwwwroot'] = 'Segurtasun-kopiaren URLa';
 $string['overwrite'] = 'Gainidatzi';
+$string['pendingasyncdeletedetail'] = 'Ikastaro hau segurtasun-kopia asinkronoaren zain dago.<br/>Ikastaroak ezin dira ezabatu segurtasun-kopia egin arte.';
+$string['pendingasyncdetail'] = 'Segurtasun-kopia asinkronoek erabiltzaile batek aldiko baliabide bakar baten kopia zain izatea ahalbidetzen dute.<br/>
+Baliabide bereko kopia asinkrono anitz ezin dira itxaron-zerrendan jarri, horrek seguruenik eduki bereko segurtasun kopiak sortuko bailituzke.';
+$string['pendingasyncedit'] = 'Ikastaro hau segurtasun-kopia asinkronoaren zain dago. Ez ezazu ikastaroa editatu segurtasun-kopia osatu arte, mesedez.';
+$string['pendingasyncerror'] = 'Baliabide honetarako segurtasun-kopiaren zain';
 $string['preparingdata'] = 'Datuak prestatzen';
 $string['preparingui'] = 'Orria erakusteko prestatzen';
 $string['previousstage'] = 'Aurrekoa';
@@ -257,7 +301,7 @@ $string['restorestage1'] = 'Baieztatu';
 $string['restorestage16'] = 'Berrikusi';
 $string['restorestage16action'] = 'Berreskuratu';
 $string['restorestage1action'] = 'Hurrengoa';
-$string['restorestage2'] = 'Helburua';
+$string['restorestage2'] = 'Helmuga';
 $string['restorestage2action'] = 'Hurrengoa';
 $string['restorestage32'] = 'Prozesua';
 $string['restorestage32action'] = 'Jarraitu';
@@ -275,7 +319,7 @@ $string['restoretocurrentcoursedeleting'] = 'Ezabatu ikastaro honetako edukiak e
 $string['restoretoexistingcourse'] = 'Berreskuratu aldez aurretik dagoen ikastaro batera';
 $string['restoretoexistingcourseadding'] = 'Batu segurtasun-kopia lehendik dagoen ikastaro batera';
 $string['restoretoexistingcoursedeleting'] = 'Ezabatu aldez aurretik dagoen ikastaro bateko edukiak eta ondoren berreskuratu.';
-$string['restoretonewcourse'] = 'Ikastaro berri gisa berreskuratu';
+$string['restoretonewcourse'] = 'Berreskuratu ikastaro berri gisa';
 $string['restoringcourse'] = 'Ikastaro-berreskuraketa martxan da';
 $string['restoringcourseshortname'] = 'berreskuratzen';
 $string['rootenrolmanual'] = 'Berreskuratu eskuzko matrikulazio gisa.';
@@ -286,10 +330,12 @@ $string['rootsettingblocks'] = 'Blokeak barne ditu';
 $string['rootsettingcalendarevents'] = 'Egutegiko ekitaldiak barne ditu';
 $string['rootsettingcomments'] = 'Iruzkinak barne ditu';
 $string['rootsettingcompetencies'] = 'Konpetentziak barne ditu';
+$string['rootsettingcustomfield'] = 'Eremu pertsonalizatuak barne ditu';
 $string['rootsettingenrolments'] = 'Matrikulazio-metodoak barne ditu';
 $string['rootsettingenrolments_always'] = 'Bai, beti';
 $string['rootsettingenrolments_never'] = 'Ez, berreskuratu erabiltzaileak eskuzko matrikulazio gisa';
 $string['rootsettingenrolments_withusers'] = 'Bai, baina soilik erabiltzaileak baditu.';
+$string['rootsettingfiles'] = 'Fitxategiak barne ditu';
 $string['rootsettingfilters'] = 'Iragazkiak barne ditu';
 $string['rootsettinggradehistories'] = 'Kalifikazio-historia barne du';
 $string['rootsettinggroups'] = 'Taldeak eta taldekatzeak barne ditu';
@@ -301,6 +347,7 @@ $string['rootsettingroleassignments'] = 'Erabiltzaileen rol-esleipenak barne dit
 $string['rootsettings'] = 'Segurtasun-kopiaren ezarpenak';
 $string['rootsettingusers'] = 'Matrikulatutako erabiltzaileak barne ditu';
 $string['rootsettinguserscompletion'] = 'Erabiltzaileen osaketa-xehetasunak barne ditu';
+$string['samesitenotification'] = 'Segurtasun-kopia fitxategietarako erreferentziekin sortu zen, eta ez fitxategiekin. Berreskurapenak gune honetan soilik egin daiteke.';
 $string['sectionactivities'] = 'Jarduerak';
 $string['sectioninc'] = 'Segurtasun-kopian sartua (erabiltzaileen informaziorik gabe)';
 $string['sectionincanduser'] = 'Segurtasun-kopian sartua erabiltzaileen informazioarekin';
@@ -319,13 +366,16 @@ $string['showtypes'] = 'Erakutsi aukera-motak';
 $string['sitecourseformatwarning'] = 'Hau hasiera-orriko segurtasun-kopia bat da, kontuan izan soilik hasiera-orrian berreskura daitekeela.';
 $string['skiphidden'] = 'Utzi alde batera ezkutuan dauden ikastaroak';
 $string['skiphiddenhelp'] = 'Aukeratu ezkutuan dauden ikastaroak alde batera uztea edo ez';
-$string['skipmodifdays'] = 'Utzi alde batera ondoko dataren ondoren aldatu ez diren ikastaroak';
+$string['skipmodifdays'] = 'Utzi alde batera orain dela gutxi aldatu ez diren ikastaroak';
 $string['skipmodifdayshelp'] = 'Aukeratu azken egun-kopuru horretan aldatu ez diren ikastaroak alde batera uztea edo ez';
 $string['skipmodifprev'] = 'Utzi alde batera aurreko segurtasun-kopiatik aldatu ez diren ikastaroak';
 $string['skipmodifprevhelp'] = 'Aukeratu aurreko programatutako segurtasun-kopiatik aldatu ez diren ikastaroak alde batera uztea edo ez. honek erregistroa gaituta egotea behar du.';
+$string['status'] = 'Egoera';
 $string['storagecourseandexternal'] = 'Ikastaroko segurtasun-kopien fitxategi-eremua eta direktorio espezifikoa';
 $string['storagecourseonly'] = 'Ikastaroko segurtasun-kopien fitxategi-eremua';
 $string['storageexternalonly'] = 'Zehaztu direktorio bat segurtasun-kopia automatizatuetarako';
+$string['successful'] = 'Segurtasun kopia arrakastatsua';
+$string['successfulrestore'] = 'Berreskuratze arrakastatsua';
 $string['timetaken'] = 'Hartutako denbora';
 $string['title'] = 'Izenburua';
 $string['totalcategorysearchresults'] = 'Kategoriak denera: {$a}';

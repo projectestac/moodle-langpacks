@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'error', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -98,7 +98,7 @@ $string['cannotfindinfo'] = 'Informationen zu \'{$a}\' wurden nicht gefunden.';
 $string['cannotfindlang'] = 'Das Sprachpaket \'{$a}\' wurde nicht gefunden!';
 $string['cannotfindteacher'] = 'Trainer/in wurde nicht gefunden.';
 $string['cannotfinduser'] = 'Nutzerkonto \'{$a}\' wurde nicht gefunden:';
-$string['cannotgeoplugin'] = 'Die Verbindung zum geoPlugin-Server http://www.geoplugin.com konnte nicht hergestellt werden. Prüfen Sie die Proxyeinstellungen. Alternativ können Sie die Datenbank \'<a href="http://www.maxmind.com">MaxMind GeoLite City</a>\' installieren.';
+$string['cannotgeoplugin'] = 'Die Verbindung zum geoPlugin-Server http://www.geoplugin.com konnte nicht hergestellt werden. Prüfen Sie die Proxyeinstellungen oder installieren Sie die Datei \'<a href="http://www.maxmind.com">MaxMind GeoLite City</a>\'.';
 $string['cannotgetblock'] = 'Die Blöcke wurden nicht aus der Datenbank abgerufen.';
 $string['cannotgetcats'] = 'Der Datensatzes für den Kursbereich konnte nicht abgerufen werden.';
 $string['cannotgetdata'] = 'Die Daten wurden nicht gefunden.';
@@ -171,6 +171,7 @@ $string['cannotuseadmin'] = 'Sie müssen Administrator/in sein, um diese Seite n
 $string['cannotuseadminadminorteacher'] = 'Sie müssen Trainer/in oder Administrator/in sein, um diese Seite nutzen zu können';
 $string['cannotusepage'] = 'Ausschließlich Trainer/innen und Administrator/innen können diese Seite nutzen';
 $string['cannotusepage2'] = 'Sie dürfen diese Seite nicht verwenden.';
+$string['cannotviewcategory'] = 'Sie haben nicht das Recht, die Kursliste anzuzeigen.';
 $string['cannotviewprofile'] = 'Sie können dieses Nutzerprofil nicht ansehen';
 $string['cannotviewreport'] = 'Sie können diesen Bericht nicht ansehen';
 $string['cannotwritefile'] = 'In die Datei \'{$a}\' kann nicht geschieben werden';
@@ -189,7 +190,7 @@ $string['countriesphpempty'] = 'Fehler: Die Datei countries.php im Sprachpaket \
 $string['coursedoesnotbelongtocategory'] = 'Der Kurs gehört nicht zu diesem Kursbereich.';
 $string['courseformatnotfound'] = 'Das Kursformat \'{$a}\' existiert nicht oder wird nicht erkannt.';
 $string['coursegroupunknown'] = 'Es wurde kein Kurs für die Gruppe {$a} festgelegt';
-$string['courseidnotfound'] = 'Kurs-ID existiert nicht';
+$string['courseidnotfound'] = 'Die Kurs-ID existiert nicht.';
 $string['courseidnumbertaken'] = 'ID-Nummer wird bereits für anderen Kurs ({$a}) genutzt';
 $string['coursemisconf'] = 'Kurs ist falsch konfiguriert.';
 $string['courserequestdisabled'] = 'Die Kursanträge wurden von Administrator/innen deaktiviert.';
@@ -306,7 +307,7 @@ $string['invalidarguments'] = 'Keine gültigen Argumente angegeben';
 $string['invalidblockinstance'] = 'Ungültige Block-Instanz: {$a}';
 $string['invalidbulkenrolop'] = 'Ungültige Nutzerverarbeitung (Bulk) angefordert';
 $string['invalidcategory'] = 'Falscher Kursbereich!';
-$string['invalidcategoryid'] = 'Falsche Kursbereichs-ID!';
+$string['invalidcategoryid'] = 'Falsche Kursbereichs-ID';
 $string['invalidcomment'] = 'Falscher Kommentar';
 $string['invalidcommentarea'] = 'Ungültiger Kommentarbereich';
 $string['invalidcommentid'] = 'Ungültige Kommentar-ID';
@@ -316,7 +317,7 @@ $string['invalidcomponent'] = 'Ungültiger Komponentenname';
 $string['invalidconfirmdata'] = 'Ungültige Bestätigungsdaten';
 $string['invalidcontext'] = 'Ungültiger Kontext';
 $string['invalidcourse'] = 'Ungültiger Kurs';
-$string['invalidcourseformat'] = 'Ungültiges Kursfromat';
+$string['invalidcourseformat'] = 'Ungültiges Kursformat';
 $string['invalidcourseid'] = 'Sie versuchen, eine ungültige Kurs-ID zu benutzen.';
 $string['invalidcourselevel'] = 'Falsche Kontext-Stufe';
 $string['invalidcoursemodule'] = 'Ungültige Kursmodul-ID';
@@ -359,7 +360,7 @@ $string['invalidroleid'] = 'Ungültige Rollen-ID';
 $string['invalidscaleid'] = 'Falsche Skalen-ID';
 $string['invalidsection'] = 'Der Datensatz des Kursmoduls enthält ungültigen Abschnitt.';
 $string['invalidsesskey'] = 'Ihre Sitzung ist höchstwahrscheinlich abgelaufen. Bitte melden Sie sich erneut an.';
-$string['invalidshortname'] = 'Die Kurzbezeichnung für den Kurs ist ungültig';
+$string['invalidshortname'] = 'Ungültige Kurzbezeichnung für den Kurs';
 $string['invalidsourcefield'] = 'Der Eintrag im Feld für die Datei (draft file) ist ungültig.';
 $string['invalidstatedetected'] = 'Eigentlich hätte hier kein Fehler passieren dürfen: {$a}';
 $string['invalidurl'] = 'Ungültige URL';
@@ -406,7 +407,7 @@ $string['moduleinstancedoesnotexist'] = 'Die Instanz dieses  Moduls gibt es nich
 $string['modulemissingcode'] = 'Im Modul {$a} fehlt der Code, um diese Funktion auszuführen.';
 $string['movecatcontentstoroot'] = 'Das Verschieben des Bereichsinhalts in den Root-Bereich ist nicht zulässig. Der Inhalt muss in einen bestehenden Kursbereich verschoben werden.';
 $string['movecategorynotpossible'] = 'Sie können den Kursbereich \'{$a}\' nicht in den ausgewählten Kursbereich verschieben.';
-$string['movecategoryownparent'] = 'Sie können den Kursbereich \'{$a}\' nicht zu einem Unterbereich von sich selber machen..';
+$string['movecategoryownparent'] = 'Sie können den Kursbereich \'{$a}\' nicht zu einem Unterbereich von sich selber machen.';
 $string['movecategoryparentconflict'] = 'Sie können den Kursbereich \'{$a}\' nicht zu einem Unterbereich innerhalb seiner eigenen Unterbereiche machen.';
 $string['mssqlrcsmodemissing'] = 'Die Datenbank verwendet nicht den Modus READ_COMMITTED_SNAPSHOT. Dies kann zu falschen Ergebnissen - besonders bei vielen zeitgleichen Zugriffen - führen. Aktivieren Sie dies für das korrekte Verhalten. Weitere Informationen finden Sie unter  <a href="https://docs.moodle.org/en/Installing_MSSQL_for_PHP">Moodle Docs</a>.';
 $string['multiplerecordsfound'] = 'Mehrere Datensätze gefunden, aber nur ein Datensatz wird erwartet';
@@ -415,7 +416,7 @@ $string['mustbeloggedin'] = 'Sie müssen sich anmelden, um dies zu tun.';
 $string['mustbeteacher'] = 'Diese Seite können Sie nur als Trainer/in ansehen.';
 $string['myisamproblem'] = 'Die Datenbank nutzt die Database Engine MyISAM. Es wird empfohlen, stattdessen eine ACID-konforme Engine mit vollständigem Transactionsupport zu verwenden, z.B. InnoDB.';
 $string['needcopy'] = 'Sie müssen zuerst etwas kopieren';
-$string['needcoursecategroyid'] = 'Die Kurs ID oder der Kursbereich muss definiert werden.';
+$string['needcoursecategroyid'] = 'Die Kurs-ID oder der Kursbereich muss definiert werden.';
 $string['needphpext'] = 'Sie müssen {$a} -Unterstützung in Ihrer PHP-Installation hinzufügen';
 $string['noadmins'] = 'Keine Adminstratoren!';
 $string['noblocks'] = 'Keine Blöcke gefunden!';
@@ -503,6 +504,7 @@ $string['sessioncookiesdisable'] = 'Fehlerhafte Verwendung von  require_key_logi
 $string['sessiondiskfull'] = 'Die Session-Partition ist voll. Ein Login ist zurzeit nicht möglich. Bitte benachrichtigen Sie die Server-Administrator/innen.';
 $string['sessionerroruser'] = 'Ihre Session ist ungültig. Sie müssen sich neu anmelden.';
 $string['sessionerroruser2'] = 'Ein Serverfehler ist aufgetreten. Er betrifft Ihre Login-Session. Loggen Sie sich bitte neu ein oder starten Sie Ihren Browser noch einmal.';
+$string['sessionexpired'] = 'Sitzung abgelaufen';
 $string['sessionhandlerproblem'] = 'Der Session-Handler ist falsch konfiguriert';
 $string['sessionipnomatch'] = 'Die IP-Adresse scheint sich seit Ihrem letzten Login geändert zu haben. Dieses Sicherheitsfeature schützt Sie vor dem Diebstahl Ihrer Identität durch Hacker, während Sie auf der Seite arbeiten. Normale Nutzer sollten diese Mitteilung nicht sehen - bitten Sie die Administrator/innen um Hilfe.';
 $string['sessionipnomatch2'] = '<p>Ihre IP-Adresse hat sich geändert, seit Sie sich eingeloggt haben. Diese Sicherheitsoption schützt davor, dass Ihre Identität gestohlen werden kann, während Sie eingeloggt sind. Sie könnten diese Fehlermeldung auch erhalten, wenn Sie ein Funknetzwerk benutzen oder zwischen unterschiedlichen Netzwerken pendeln (roaming). Bitte fragen Sie für weitere Hilfe die Administrator/innen Ihrer Website. </p><p>Falls Sie weitermachen möchten, aktualisieren Sie bitte die Seite (F5-Taste).</p>';
@@ -541,7 +543,7 @@ $string['unknowncontext'] = 'Unbekannter Kontext';
 $string['unknowncourse'] = 'Unbekannter Kurs "{$a}"';
 $string['unknowncourseidnumber'] = 'Unbekannte Kurs-ID "{$a}"';
 $string['unknowncourserequest'] = 'Unbekannte Kursanfrage';
-$string['unknowncoursesection'] = 'Unbekannter Kursabschnitt im Kurs \'{$a}\'';
+$string['unknowncoursesection'] = 'Unbekannter Kursabschnitt im Kurs "{$a}"';
 $string['unknownevent'] = 'Unbekanntes Event';
 $string['unknownfiletype'] = 'Fehler: unbekannter Filtertyp';
 $string['unknowngroup'] = 'Unbekannte Gruppe \'{$a}\'';

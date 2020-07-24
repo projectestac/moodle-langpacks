@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_ddimageortext', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_ddimageortext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,11 +57,13 @@ $string['infinite'] = 'Onbeperkt';
 $string['label'] = 'Tekst';
 $string['nolabel'] = 'Geen labeltekst';
 $string['pleasedraganimagetoeachdropregion'] = 'Je antwoord is niet volledig; sleep een item naar elke doelzone.';
-$string['pluginname'] = 'Sleep en zet neer op afbeelding';
+$string['pluginname'] = 'Slepen en neerzetten op afbeelding';
 $string['pluginnameadding'] = 'Voeg slepen en neerzetten op afbeelding toe';
 $string['pluginnameediting'] = 'Bewerk slepen en neerzetten op afbeelding';
 $string['pluginname_help'] = 'Vragen met slepen en neerzetten op afbeelding vragen van de respondent dat die afbeeldingen of tekst labels sleept en neerzet op een bepaalde zone van een achtergrondafbeelding. Sleepbare items kunnen gegroepeerd worden zodat alle items in een bepaalde groep gekleurd worden zoals de doelzones. Versleepbare items die als onbeperkt gemarkeerd zijn, kunnen op meer dan één zone neergezet worden.';
-$string['pluginnamesummary'] = 'Afbeeldingen of tekstlabels worden gesleept en neergezet in een doelzone op een achtergrondafbeelding.';
+$string['pluginnamesummary'] = 'Afbeeldingen of tekstlabels worden gesleept en neergezet in een doelzone op een achtergrondafbeelding.
+
+Merk op: dit vraagtype is niet toegankelijk slechtzienden.';
 $string['previewareaheader'] = 'Voorbeeld';
 $string['previewareamessage'] = 'Selecteer een achtergrondafbeelding, bepaal versleepbare items en bepaal neerzetzones op de achtergrondafbeelding waarin ze gesleept moeten worden.';
 $string['privacy:metadata'] = 'De plug-in Drag and drop to image question type slaat geen persoonlijke gegevens op.';

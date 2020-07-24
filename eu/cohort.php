@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cohort', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cohort', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   cohort
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,7 +61,7 @@ $string['eventcohortmemberremoved'] = 'Erabiltzailea kohortetik ezabatu da';
 $string['eventcohortupdated'] = 'Kohortea eguneratu da';
 $string['external'] = 'Kanpoko kohortea';
 $string['idnumber'] = 'Kohortearen IDa';
-$string['invalidtheme'] = 'Kohortearen itxura ez da existitzen';
+$string['invalidtheme'] = 'Kohortearen azala ez da existitzen';
 $string['memberscount'] = 'Kohortearen tamaina';
 $string['name'] = 'Izena';
 $string['namecolumnmissing'] = 'Arazoren bat dago CSV fitxategiaren formatuan. Mesedez, egiazta ezazu zutabeen izenak egokiak direla.  Erabiltzaileak kohorteetara gehitzeko, joan Gunearen Kudeaketako \'Igo erabiltzaileak\' atalera.';
@@ -82,7 +82,7 @@ $string['searchcohort'] = 'Bilatu kohortea';
 $string['selectfromcohort'] = 'Aukeratu partaideak kohortetik';
 $string['systemcohorts'] = 'Sistemako kohorteak';
 $string['unknowncohort'] = 'Kohorte ezezaguna: ({$a})';
-$string['uploadcohorts'] = 'Eguneratu kohorteak';
+$string['uploadcohorts'] = 'Igo kohorteak';
 $string['uploadcohorts_help'] = 'Kohorteak testu-fitxategien bitartez igo daitezke. Fitxategiaren formatua honako hau izan beharko litzateke:
 
 * Fitxategiko errenkada bakoitzak erregistro bana du
@@ -90,7 +90,7 @@ $string['uploadcohorts_help'] = 'Kohorteak testu-fitxategien bitartez igo daitez
 * Fitxategiko lehen errenkadak eremuen izenen zerrenda izango du, fitxategiko beste erregistroen formatua zehaztuko duena
 * <i>name</i> eremua derrigorrezkoa da
 * Aukerazko eremuak hurrengoak dira: <i>idnumber</i>, <i>description</i>, <i>descriptionformat</i>, <i>visible</i>, <i>context</i>, <i>category</i>, <i>category_id</i>, <i>category_idnumber</i> eta <i>category_path</i>';
-$string['uploadedcohorts'] = 'Eguneratutako  {$a} kohorte';
+$string['uploadedcohorts'] = 'Igotako {$a} kohorte';
 $string['useradded'] = 'Erabiltzailea "{$a}" kohortera gehitu da';
 $string['visible'] = 'Ikusgai';
 $string['visible_help'] = '\'moodle/cohort:view\' gaitasuna duten erabiltzaileek edozein kohorte ikusi dezakete kohortearen testuinguruan.<br/>

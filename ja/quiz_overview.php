@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_overview', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,9 +67,11 @@ $string['regradealldrydogroup'] = 'グループ「 {$a->groupname} 」内で再�
 $string['regradealldrygroup'] = 'グループ「 {$a->groupname} 」の完全な再評定を予行練習する';
 $string['regradeallgroup'] = 'グループ「 {$a->groupname} 」を完全に再評定する';
 $string['regradecomplete'] = '再評定正常完了';
+$string['regradedsuccessfullyxofy'] = '再評定成功 ({$a->done}/{$a->count})';
 $string['regradeheader'] = '再評定';
 $string['regradeselected'] = '選択した受験を再評定する';
 $string['regradingattemptxofy'] = '受験の再評定 ({$a->done}/{$a->count})';
+$string['regradingattemptxofywithdetails'] = '受験の再評定 ({$a->done}/{$a->count}) - 受験 {$a->attemptnum} by {$a->name} (id {$a->attemptid})';
 $string['show'] = '表示 / ダウンロード';
 $string['showattempts'] = '表示のみ / 受験のダウンロード';
 $string['showdetailedmarks'] = 'それぞれの問題の評点';

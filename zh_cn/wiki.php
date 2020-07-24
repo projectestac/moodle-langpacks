@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'wiki', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,7 +158,7 @@ Wikis 有很多用途，诸如
 * 学生进行合作出版在线书目，针对他们导师设置的主题创作内容
 * 用来合作创作故事或诗歌，其中每个参与者写一行或者一节诗。
 * 作为个人的日志，记录考试笔记或复习内容（使用个人 wiki）';
-$string['modulenameplural'] = 'Wiki协作';
+$string['modulenameplural'] = 'Wiki';
 $string['navigation'] = '导航';
 $string['navigationfrom'] = '此页面来自';
 $string['navigationfrom_help'] = '链接到此页的wiki页面';
@@ -292,5 +292,5 @@ $string['wikisettings'] = 'Wiki设置';
 $string['wikiunorderedlist'] = '项目列表';
 $string['wiki:viewcomment'] = '查看页面评论';
 $string['wiki:viewpage'] = '查看wiki页面';
-$string['wrongversionlock'] = '当您正在编辑时，另一个用户已经编辑了这个页面，并且您的内容已经过时。';
+$string['wrongversionlock'] = '当您正在编辑时，另一个用户已编辑此页面，而您的内容已过时。';
 $string['wrongversionsave'] = '在您正编辑时，另一个用户创建了一个新版本，而您覆盖了他的修改。请检查页面历史。';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'rating', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'rating', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   rating
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,6 +45,7 @@ $string['allowratings'] = 'Permitir que os elementos sexan puntuados?';
 $string['allratingsforitem'] = 'Todas as puntuacións entregadas';
 $string['capabilitychecknotavailable'] = 'A comprobación da funcionalidade non está dispoñíbel ata que se garde a actividade';
 $string['couldnotdeleteratings'] = 'Desculpe, non pode eliminarse xa que alguén xa o puntuou';
+$string['grade_rating_name'] = 'Puntuación';
 $string['norate'] = 'Non está permitida a puntuación de elementos!';
 $string['noratings'] = 'Non se entregaron puntuacións';
 $string['noviewanyrate'] = 'Só pode ver os resultados dos elementos que fixo vostede';

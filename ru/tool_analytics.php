@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_analytics', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_analytics', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_analytics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,11 +37,12 @@ $string['evaluationinbatches'] = 'Содержимое сайта рассчит
 $string['getpredictions'] = 'Получить прогнозы';
 $string['indicators'] = 'Показатели';
 $string['insights'] = 'Статистика';
-$string['modeltimesplitting'] = 'Разбивка времени';
+$string['insightsreport'] = 'Статистический отчёт';
+$string['modeltimesplitting'] = 'Интервал анализа';
 $string['nodatatopredict'] = 'Нет новых элементов, чтобы получить прогнозы для';
 $string['notdefined'] = 'Еще не определено';
 $string['predictionprocessfinished'] = 'Процесс прогнозирования завершен';
 $string['predictionresults'] = 'Результаты прогноза';
 $string['target'] = 'Цель';
-$string['timesplittingnotdefined'] = 'Разделение по времени не определено.';
+$string['timesplittingnotdefined'] = 'Интервал анализа не определен.';
 $string['timesplittingnotdefined_help'] = 'Перед включением модели нужно выбрать метод разделения по времени.';

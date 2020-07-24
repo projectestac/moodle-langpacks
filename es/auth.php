@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -91,8 +91,6 @@ Ha solicitado un cambio de su dirección email en su cuenta de {$a->site}. Abra 
 {$a->url}';
 $string['emailupdatesuccess'] = 'La dirección email del usuario <em>{$a->fullname}</em> ha sido actualizada con éxito a <em>{$a->email}</em>.';
 $string['emailupdatetitle'] = 'Confirmación de actualización de email en {$a->site}';
-$string['enterthenumbersyouhear'] = 'Escriba los números que oye';
-$string['enterthewordsabove'] = 'Escriba las palabras de arriba';
 $string['errormaxconsecutiveidentchars'] = 'Las contraseñas deben tener como máximo {$a} caracteres consecutivos idénticos';
 $string['errorminpassworddigits'] = 'Las contraseñas deben tener al menos {$a} dígito(s).';
 $string['errorminpasswordlength'] = 'Las contraseñas deben tener al menos una longitud de {$a} caracteres.';
@@ -109,9 +107,6 @@ $string['forcechangepasswordfirst_help'] = 'Forzar a los usuarios a cambiar la c
 $string['forcechangepassword_help'] = 'Forzar a los usuarios a cambiar la contraseña la próxima vez que accedan a Moodle.';
 $string['forgottenpassword'] = 'Si escribe aquí una URL, se usará como página de recuperación de la contraseña perdida para este sitio. Esto está pensado para sitios en los que las contraseñas se gestionan totalmente fuera de Moodle. Déjelo en blanco para usar la recuperación por defecto de la contraseña.';
 $string['forgottenpasswordurl'] = 'URL contraseña olvidada';
-$string['getanaudiocaptcha'] = 'Obtener un CAPTCHA de audio';
-$string['getanimagecaptcha'] = 'Obtener un CAPTCHA de imagen';
-$string['getanothercaptcha'] = 'Obtener otro CAPTCHA';
 $string['getrecaptchaapi'] = 'Para usar reCAPTCHA necesita obtener una clave API de <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Botón de entrada para invitados';
 $string['incorrectpleasetryagain'] = 'Incorrecto. Por favor, inténtelo de nuevo.';

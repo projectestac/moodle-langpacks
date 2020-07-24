@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'notes', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,6 @@ $string['deleteconfirm'] = 'Vill Du ta bort den här anteckningen?';
 $string['deletenotes'] = 'Ta bort alla anteckningar';
 $string['editnote'] = 'Redigera anteckning';
 $string['enablenotes'] = 'Aktivera anteckningar';
-$string['groupaddnewnote'] = 'Lägg till en ny anteckning för alla';
 $string['invalidid'] = 'Det ID för anteckning som har angivits är ogiltigt';
 $string['invaliduserid'] = 'Ogiltigt användarnamn: {$a}';
 $string['nocontent'] = 'Innehållet i en anteckning kan inte vara tomt';

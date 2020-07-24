@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'chat', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityoverview'] = 'Vous avez des sessions de chat prévues';
-$string['ajax'] = 'Version Ajax';
+$string['ajax'] = 'Version AJAX';
 $string['autoscroll'] = 'Défilement automatique';
 $string['beep'] = 'Bip';
 $string['bubble'] = 'Bulle';
@@ -55,6 +55,7 @@ $string['configserverip'] = 'L\'adresse IP numérique de l\'ordinateur sur leque
 $string['configservermax'] = 'Nombre maximal de clients autorisés';
 $string['configserverport'] = 'Port à utiliser par le démon sur le serveur';
 $string['coursetheme'] = 'Thème de cours';
+$string['crontask'] = 'Traitement en tâche de fond du module chat';
 $string['currentchats'] = 'Sessions actives';
 $string['currentusers'] = 'Utilisateurs en ligne';
 $string['deletesession'] = 'Supprimer cette session';
@@ -71,8 +72,12 @@ $string['explainmethodnormal'] = 'Ces réglages ne sont effectifs que si vous av
 $string['generalconfig'] = 'Configuration générale';
 $string['idle'] = 'En attente';
 $string['indicator:cognitivedepth'] = 'Chat : aspect cognitif';
+$string['indicator:cognitivedepthdef'] = 'Chat : aspect cognitif';
+$string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement cognitif offert par les activités « Chat » (niveaux : pas de vue, vue, envoi, vue du feedback, commentaire du feedback).';
 $string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une activité Chat.';
 $string['indicator:socialbreadth'] = 'Chat : aspect social';
+$string['indicator:socialbreadthdef'] = 'Chat : aspect social';
+$string['indicator:socialbreadthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement social offert par les activités « Chat » (niveaux : pas de participation, participant seul, participant avec d\'autres).';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Chat.';
 $string['inputarea'] = 'Zone de saisie';
 $string['invalidid'] = 'Salon de chat introuvable !';

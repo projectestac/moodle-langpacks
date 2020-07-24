@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'group', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -137,16 +137,17 @@ $string['groupsvisible'] = 'Zichtbare groepen';
 $string['grouptemplate'] = 'Groep @';
 $string['hidepicture'] = 'Verberg foto';
 $string['importgroups'] = 'Importeer groepen';
-$string['importgroups_help'] = 'Groepen kunnen geïimporteerd worden via een tekstbestand. De opmaak van het bestand moet als volgt zijn:
+$string['importgroups_help'] = 'Groepen kunnen geïmporteerd worden via een tekstbestand. De opmaak van het bestand moet als volgt zijn:
 
 * Elke lijn van het bestand bevat één record
 * Elke  record is een rij kommagescheiden gegevens
 * De eerste record bevat een lijst met veldnamen die de opmaak bepalen van de rest van het bestand
 * De vereiste veldnaam is groupname
-* Optionele velnamen zijn groupidnumber, description, enrolmentkey, groupingname';
+* Optionele velnamen zijn groupidnumber, description, enrolmentkey, groupingname, enablemessaging';
 $string['includeonlyactiveenrol'] = 'Enkel actieve aanmeldingen meenemen';
 $string['includeonlyactiveenrol_help'] = 'Indien ingeschakeld zullen geschorste gebruikers niet mee opgenomen worden in groepen.';
 $string['javascriptrequired'] = 'Voor deze pagina moet Javascript ingeschakeld zijn';
+$string['memberofgroup'] = 'Groepslid van: {$a}';
 $string['members'] = 'Leden per groep';
 $string['membersofselectedgroup'] = 'Leden van de geselecteerde groep';
 $string['mygroups'] = 'Mijn groepen';

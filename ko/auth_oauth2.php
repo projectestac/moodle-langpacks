@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -65,6 +65,7 @@ $string['emailconfirmlinksent'] = '<p>이 이메일 주소로 기존 계정을 �
    <p> 이메일이 <b> {$a} </b>의 주소로 발송되었습니다. </p>
    <p> 여기에는 계정 연결 방법이 포함되어 있습니다. </p>
    <p> 문제가 있을 경우 사이트 관리자에게 문의하십시오. </p>';
+$string['emailpasswordchangeinfosubject'] = '{$a}: 비밀번호 변경 안내';
 $string['info'] = '외부 계정';
 $string['issuer'] = '공개 기반 인증 프로토콜2 서비스';
 $string['linkedlogins'] = '링크된 로그인';

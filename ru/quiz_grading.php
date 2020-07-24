@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_grading', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,7 +53,6 @@ $string['gradingall'] = 'Все попытки для этого вопроса:
 $string['gradingattempt'] = 'Попытка номер {$a->attempt} студента {$a->fullname}.';
 $string['gradingattemptsxtoyofz'] = 'Оценивание попыток {$a->from} - {$a->to} из {$a->of}';
 $string['gradingattemptwithidnumber'] = 'Номер попытки {$a->attempt} для {$a->fullname} ({$a->idnumber})';
-$string['grading:componentname'] = 'Отчет по тесту «Оценивание вручную»';
 $string['gradingnextungraded'] = 'Следующие {$a} неоцененных попыток';
 $string['gradingnotallowed'] = 'У вас нет прав вручную оценивать ответы этого теста';
 $string['gradingquestionx'] = 'Оценивание вопроса {$a->number}: {$a->questionname}';

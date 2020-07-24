@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_database', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,7 +47,7 @@ $string['defaultcategory_desc'] = 'Categoria predefinida para disciplinas criada
 $string['defaultrole'] = 'Papel predefinido';
 $string['defaultrole_desc'] = 'Papel que será atribuído se não houver nenhum definido na tabela externa.';
 $string['ignorehiddencourses'] = 'Ignorar disciplinas ocultas';
-$string['ignorehiddencourses_desc'] = 'Se esta configuração estiver ativa os utilizadores não serão inscritos em disciplinas que não estiverem disponíveis para alunos.';
+$string['ignorehiddencourses_desc'] = 'Se ativar esta opção, os utilizadores não serão inscritos em disciplinas não disponíveis para os alunos.';
 $string['localcategoryfield'] = 'Campo da categoria local';
 $string['localcoursefield'] = 'Nome do campo "Disciplina" na tabela do Moodle';
 $string['localrolefield'] = 'Nome do campo "Papel" na tabela do Moodle';
@@ -75,5 +75,6 @@ $string['settingsheaderdb'] = 'Ligação à base de dados externa';
 $string['settingsheaderlocal'] = 'Mapeamento local de campos';
 $string['settingsheadernewcourses'] = 'Criação de novas disciplinas';
 $string['settingsheaderremote'] = 'Sincronização externa de inscrições';
+$string['syncenrolmentstask'] = 'Tarefa de sincronização das inscrições com base de dados externa';
 $string['templatecourse'] = 'Modelo para novas disciplinas';
 $string['templatecourse_desc'] = 'Opcional: as configurações das disciplinas criadas autonomamente poder ser copiadas de uma outra disciplina já existente. Indique neste campo o nome curto da disciplina a usar como modelo.';

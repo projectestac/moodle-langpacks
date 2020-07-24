@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_dataprivacy', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_dataprivacy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,7 @@ $string['contextlevelname70'] = '活動モジュール';
 $string['contextlevelname80'] = 'ブロック';
 $string['contextpurposecategorysaved'] = '目的およびカテゴリが保存されました。';
 $string['createcategory'] = 'データカテゴリを作成する';
+$string['createdeletedatarequest'] = 'データ削除リクエストを作成する';
 $string['createnewdatarequest'] = '新しいデータリクエストを作成する';
 $string['createpurpose'] = 'データ目的を作成する';
 $string['creationauto'] = '自動';
@@ -78,9 +79,12 @@ $string['datadeletion'] = 'データ削除';
 $string['datadeletionpagehelp'] = 'ここで一覧表示されているとおり保持期間の有効期限が切れました。データの削除を確認および承認してください。「有効期限切れコンテクストを削除する」スケジュールタスクで削除が実行されます。';
 $string['dataprivacy:downloadallrequests'] = '全員のエクスポート済みデータをダウンロードします。';
 $string['dataprivacy:downloadownrequest'] = 'あなた自身のエクスポート済みデータをダウンロードします。';
+$string['dataprivacy:makedatadeletionrequestsforchildren'] = '未成年のデータ削除リクエスト';
 $string['dataprivacy:makedatarequestsforchildren'] = '未成年のデータリクエストを作成する';
 $string['dataprivacy:managedataregistry'] = 'データレジストリを管理する';
 $string['dataprivacy:managedatarequests'] = 'データリクエストを管理する';
+$string['dataprivacy:requestdelete'] = 'あなた自身のデータ削除リクエスト';
+$string['dataprivacy:requestdeleteforotheruser'] = '別のユーザの代理としてのデータ削除リクエスト';
 $string['dataregistry'] = 'データレジストリ';
 $string['dataregistryinfo'] = 'データレジストリによりカテゴリ (データのタイプ) および目的 (データを処理する目的) をサイトすべてのコンテンツに設定することができます - ユーザおよびコースから活動およびブロックまで。それぞれの目的には保持期間を設定することができます。保持期間の有効期限が切れた場合、データはフラグ付けされ削除リストに追加された後、管理者による承認を待ちます。';
 $string['datarequestcreatedforuser'] = '{$a} のデータリクエストが作成されました。';
@@ -134,7 +138,8 @@ $string['editpurposes'] = '目的を編集する';
 $string['effectiveretentionperiodcourse'] = '{$a} (コース終了日後)';
 $string['effectiveretentionperioduser'] = '{$a} (最後にユーザがサイトにアクセスして以来)';
 $string['emailsalutation'] = '{$a} さん';
-$string['errorcannotdeleteadmin'] = '主サイト管理者の削除リクエストは作成できません。';
+$string['errorcannotrequestdeleteforother'] = 'あなたにはこのユーザの削除リクエストを作成するパーミッションはありません。';
+$string['errorcannotrequestdeleteforself'] = 'あなたにはあなた自身の削除リクエストを作成するパーミッションはありません。';
 $string['errorcontexthasunexpiredchildren'] = 'コンテクスト「 {$a} 」にはまだ有効期限切れではないサブコンテクストがあります。コンテクストには削除のための削除フラグは付けられませんでした。';
 $string['errorinvalidrequestcreationmethod'] = '無効なリクエスト作成方法です!';
 $string['errorinvalidrequeststatus'] = '無効なリクエストステータスです!';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'webservice', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -102,13 +102,13 @@ $string['externalservices'] = 'Externe Services';
 $string['externalserviceusers'] = 'Externe Servicenutzer';
 $string['failedtolog'] = 'Fehler beim Schreiben von Logdaten';
 $string['filenameexist'] = 'Dateiname existiert bereits: {$a}';
-$string['forbiddenwsuser'] = 'Sie können keine Token erzeugen, wenn Nutzerinnen unbestätigt, gelöscht, gesperrt oder Gäste sind.';
+$string['forbiddenwsuser'] = 'Sie können keine Token erzeugen, wenn Nutzer/innen unbestätigt, gelöscht, gesperrt oder Gäste sind.';
 $string['function'] = 'Funktion';
 $string['functions'] = 'Funktionen';
 $string['generalstructure'] = 'Allgemeine Struktur';
 $string['information'] = 'Information';
 $string['installexistingserviceshortnameerror'] = 'Ein Webservice mit dem Kurznamen "{$a}" existiert bereits. Sie können keinen weiteren Webservice mit dem gleichen Namen installieren.';
-$string['installserviceshortnameerror'] = 'Codierungsfehler: Der Kurzname des Webservice "{$a}" darf ausschließlich Buchstaben, Zahlen und _-.. enthalten';
+$string['installserviceshortnameerror'] = 'Codierungsfehler: Der Kurzname des Webservice "{$a}" darf ausschließlich Buchstaben, Zahlen, Unterstrich (_), Bindestrich (-) oder Punkt (.) enthalten.';
 $string['invalidextparam'] = 'Ungültiger externer API-Parameter: {$a}';
 $string['invalidextresponse'] = 'Ungültige externe API-Antwort: {$a}';
 $string['invalidiptoken'] = 'Ungültiges Token - Ihre IP-Adresse wird nicht unterstützt';
@@ -236,7 +236,7 @@ $string['webservices'] = 'Webservices';
 $string['webservicesoverview'] = 'Übersicht';
 $string['webservicetokens'] = 'Webservice-Tokens';
 $string['wrongusernamepassword'] = 'Falscher Anmeldename oder falsches Kennwort';
-$string['wsaccessuserdeleted'] = 'Webservicezugriff für gelöschtes Nutzerkonto verweigert: {$a}';
+$string['wsaccessuserdeleted'] = 'Verweigerter Webservicezugriff für gelöschtes Nutzerkonto: {$a}';
 $string['wsaccessuserexpired'] = 'Webservicezugriff für Nutzerkonto mit abgelaufenem Kennwort verweigert: {$a}';
 $string['wsaccessusernologin'] = 'Webservicezugriff für gesperrtes Nutzerkonto verweigert: {$a}';
 $string['wsaccessusersuspended'] = 'Webservicezugriff für gesperrtes Nutzerkonto verweigert: {$a}';

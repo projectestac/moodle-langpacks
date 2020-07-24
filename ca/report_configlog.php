@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_configlog', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_configlog', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   report_configlog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,9 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configlog'] = 'Canvis de la configuració';
-$string['oldvalue'] = 'Valor originals';
 $string['plugin'] = 'Connector';
 $string['pluginname'] = 'Canvis de la configuració';
 $string['setting'] = 'Paràmetre';
 $string['timemodified'] = 'Data';
-$string['value'] = 'Valor nou';
+$string['valuenew'] = 'Valor nou';
+$string['valueold'] = 'Valor originals';

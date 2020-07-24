@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_email', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message_email', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   message_email
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['email'] = 'E-Mail-Systemnachrichten senden an';
+$string['emaildigestsubject'] = 'Zusammenfassung der Mitteilungen';
+$string['emaildigestunreadmessages'] = 'Ungelesene Mitteilungen';
+$string['emaildigestviewallmessages'] = 'Alle Mitteilungen anzeigen';
 $string['emailonlyfromnoreplyaddress'] = 'E-Mails immer mit der Nicht-Antworten-Adresse senden?';
 $string['ifemailleftempty'] = 'Leer lassen, um E-Mails an die Adresse {$a} senden zu lassen.';
 $string['pluginname'] = 'E-Mail';
@@ -34,8 +37,13 @@ $string['privacy:metadata:attachname'] = 'Name der angehängten Datei (Erweiteru
 $string['privacy:metadata:externalpurpose'] = 'Diese Information wird an einen externen SMTP-Server gesendet und letztlich als E-Mail an den Empfänger versendet.';
 $string['privacy:metadata:fullmessage'] = 'Vollständige Mitteilung im gegebenen Format';
 $string['privacy:metadata:fullmessagehtml'] = 'Vollständige Mitteilung';
+$string['privacy:metadata:message_email_messages'] = 'Die Liste der Nutzer/innen, die über einen LTI-Anbieter eingeschrieben sind';
+$string['privacy:metadata:message_email_messages:conversationid'] = 'Die ID der Konversation, an die gesendet wird';
+$string['privacy:metadata:message_email_messages:messageid'] = 'Die ID der zu sendenden Nachricht';
+$string['privacy:metadata:message_email_messages:useridto'] = 'Die ID des/ Nutzer/in, der/die die Nachricht erhält';
 $string['privacy:metadata:recipient'] = 'Empfänger der Mitteilung.';
 $string['privacy:metadata:replyto'] = 'E-Mail-Adresse zum Antworten.';
 $string['privacy:metadata:replytoname'] = 'Name für Antwort an Empfänger';
 $string['privacy:metadata:subject'] = 'Betreffzeile der Mitteilung';
 $string['privacy:metadata:userfrom'] = 'Nutzer, der die Mitteilung sendet.';
+$string['tasksendemail'] = 'Versand der Zusammenfassung   von Mitteilungen';

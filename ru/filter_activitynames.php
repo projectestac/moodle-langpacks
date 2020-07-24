@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_activitynames', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'filter_activitynames', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   filter_activitynames
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['filtername'] = 'Автоматическое распознавание ссылок на элементы курса';
-$string['privacy:metadata'] = 'Плагин автосвязывания названий активных элементов не хранит никаких персональных данных.';
+$string['privacy:metadata'] = 'Плагин автосвязывания названий элементов курса не хранит никаких персональных данных.';

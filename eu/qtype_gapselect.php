@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_gapselect', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_gapselect', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_gapselect
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,14 +28,14 @@ defined('MOODLE_INTERNAL') || die();
 $string['addmorechoiceblanks'] = 'Gehitu {no} zuriune aukera gehiagorako';
 $string['answer'] = 'Erantzuna';
 $string['choices'] = 'Aukerak';
-$string['choicex'] = '{no} aukera';
+$string['choicex'] = '[[{no}]] aukera';
 $string['combinedcontrolnamegapselect'] = 'Zabaltzen den menua';
 $string['combinedcontrolnamegapselectplural'] = 'Zabaltzen diren menuak';
 $string['correctansweris'] = 'Erantzun zuzena ondokoa da: {$a}';
 $string['errorblankchoice'] = 'Mesedez, egiaztatu aukerak: {$a} aukera hutsik dago.';
 $string['errormissingchoice'] = 'Mesedez, egiazta ezazu galderaren testua: {$a} ez aukera posibleetan aurkitu! Soilik aukeren erantzunekin bat datozen zenbakiak erabili daitezke gako gisa.';
 $string['errornoslots'] = 'Galderaren testuak [[1]] moduko gakoak izan behar ditu hutsuneak non erakutsi behar diren jakiteko.';
-$string['errorquestiontextblank'] = 'Galderaren testua adierazi behar duzu.';
+$string['errorquestiontextblank'] = 'Galderaren testua zehaztu behar duzu.';
 $string['group'] = 'Taldea';
 $string['pleaseputananswerineachbox'] = 'Mesedez, jarri erantzun bat kaxa bakoitzean.';
 $string['pluginname'] = 'Aukeratu falta diren hitzak';

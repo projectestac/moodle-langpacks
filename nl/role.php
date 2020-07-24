@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'role', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,7 @@ $string['allowswitch'] = 'Toestaan van rol te wisselen';
 $string['allowview'] = 'Rol bekijken toestaan';
 $string['allsiteusers'] = 'Alle sitegebruikers';
 $string['analytics:listinsights'] = 'Lijst inzichten';
+$string['analytics:listowninsights'] = 'Lijst eigen inzichten';
 $string['analytics:managemodels'] = 'Beheer modellen';
 $string['archetype'] = 'Rol archetype';
 $string['archetypecoursecreator'] = 'ARCHETYPE: cursusaanmaker';
@@ -69,7 +70,6 @@ $string['backup:anonymise'] = 'Maak gebruikersgegevens anoniem tijdens een back-
 $string['backup:backupactivity'] = 'Back-up activiteiten';
 $string['backup:backupcourse'] = 'Back-up cursussen';
 $string['backup:backupsection'] = 'Back-up secties';
-$string['backup:backuptargethub'] = 'Back-up voor publiceren op Moodle.net';
 $string['backup:backuptargetimport'] = 'Back-up voor import';
 $string['backup:configure'] = 'Configureer back-upopties';
 $string['backup:downloadfile'] = 'Download bestanden van back-upzone';
@@ -104,6 +104,7 @@ $string['category:create'] = 'Categorieën maken';
 $string['category:delete'] = 'Categorieën verwijderen';
 $string['category:manage'] = 'Beheer categorieën';
 $string['category:update'] = 'Categorieën updaten';
+$string['category:viewcourselist'] = 'Bekijk de lijst met cursussen waarvoor u niet bent ingeschreven';
 $string['category:viewhiddencategories'] = 'Verborgen categorieën bekijken';
 $string['category:visibility'] = 'Verborgen categorieën bekijken';
 $string['checkglobalpermissions'] = 'Controleer systeemrechten';
@@ -118,8 +119,6 @@ $string['cohort:view'] = 'Bekijk site groepen';
 $string['comment:delete'] = 'Verwijder notities';
 $string['comment:post'] = 'Post notities';
 $string['comment:view'] = 'Bekijk notities';
-$string['community:add'] = 'Gebruik het community-blok om Moodle.net te doorzoeken om cursussen te vinden';
-$string['community:download'] = 'Download een cursus van de community-blok';
 $string['competency:competencygrade'] = 'Stel het competentiecijfer in';
 $string['competency:competencymanage'] = 'Beheer competentiekaders';
 $string['competency:competencyview'] = 'Bekijk competentiekaders';
@@ -166,8 +165,10 @@ $string['course:bulkmessaging'] = 'Stuur een boodschap naar meerdere gebruikers'
 $string['course:changecategory'] = 'Cursuscategorie wijzigen';
 $string['course:changefullname'] = 'Wijzig cursusnaam';
 $string['course:changeidnumber'] = 'Wijzig cursus IDnummer';
+$string['course:changelockedcustomfields'] = 'Verander vergrendelde aangepaste velden';
 $string['course:changeshortname'] = 'Wijzig cursus korte naam';
 $string['course:changesummary'] = 'Cursussamenvatting wijzigen';
+$string['course:configurecustomfields'] = 'Aangepaste velden configureren';
 $string['course:create'] = 'Cursussen aanmaken';
 $string['course:creategroupconversations'] = 'Maak groepsconversaties';
 $string['course:delete'] = 'Cursussen verwijderen';
@@ -184,7 +185,6 @@ $string['course:managescales'] = 'Schalen beheren';
 $string['course:markcomplete'] = 'Markeer gebruikers als voltooid in cursus voltooiing';
 $string['course:movesections'] = 'Verplaats secties';
 $string['course:overridecompletion'] = 'Overschrijf activiteitsvoltooiingsstatus';
-$string['course:publish'] = 'Publiceer een cursus';
 $string['course:renameroles'] = 'Rollen hernoemen';
 $string['course:request'] = 'Nieuwe cursussen aanvragen';
 $string['course:reset'] = 'Cursus naar standaardinstellingen';
@@ -231,6 +231,8 @@ $string['errorbadroleshortname'] = 'Verkeerde korte rolnaam';
 $string['errorexistsrolename'] = 'Rolnaam bestaat al';
 $string['errorexistsroleshortname'] = 'Rolnaam bestaat al';
 $string['errorroleshortnametoolong'] = 'De korte naam mag niet langer zijn dan 100 tekens';
+$string['eventcapabilityassigned'] = 'Mogelijkheid toegewezen';
+$string['eventcapabilityunassigned'] = 'Mogelijkheid niet toegewezen';
 $string['eventroleallowassignupdated'] = 'Roltoewijzing toestaan';
 $string['eventroleallowoverrideupdated'] = 'Rol overschrijven toestaan';
 $string['eventroleallowswitchupdated'] = 'Rol wijzigen toestaan';
@@ -239,6 +241,7 @@ $string['eventroleassigned'] = 'Rol toegewezen';
 $string['eventrolecapabilitiesupdated'] = 'Rolmogelijkheden aangepast';
 $string['eventroledeleted'] = 'Rol verwijderd';
 $string['eventroleunassigned'] = 'Rol niet meer toegewezen';
+$string['eventroleupdated'] = 'Rol bijgewerkt';
 $string['existingadmins'] = 'Huidige sitebeheerders';
 $string['existingusers'] = '{$a} bestaande gebruikers';
 $string['explanation'] = 'Verklaring';
@@ -268,6 +271,9 @@ $string['grade:unlock'] = 'Beoordelingen of items vrijgeven';
 $string['grade:view'] = 'Eigen cijfers bekijken';
 $string['grade:viewall'] = 'Cijfers van andere gebruikers bekijken';
 $string['grade:viewhidden'] = 'Verborgen cijfer zien';
+$string['h5p:deploy'] = 'H5P-inhoud uitrollen';
+$string['h5p:setdisplayoptions'] = 'Stel de weergave-opties in voor H5P-inhoud';
+$string['h5p:updatelibraries'] = 'Beheer H5P-inhoudstypen';
 $string['highlightedcellsshowdefault'] = 'De geselecteerde rechten in onderstaande tabel zijn de standaardrechten voor het hierboven geselecteerde rolarchetype.';
 $string['highlightedcellsshowinherit'] = 'De opgelichte cellen in onderstaande tabel tonen de rechten (als die er zijn) die overgeërfd worden. Buiten de mogelijkheden waarvan je de rechten wil aanpassen, moet je alles op Overerven laten staan.';
 $string['inactiveformorethan'] = 'langer dan {$a->timeperiod} niet actief';
@@ -399,7 +405,6 @@ $string['restore:createuser'] = 'Gebruikers aanmaken bij terugzetten';
 $string['restore:restoreactivity'] = 'Activiteiten terugzetten';
 $string['restore:restorecourse'] = 'Cursussen terugzetten';
 $string['restore:restoresection'] = 'Secties terugzetten';
-$string['restore:restoretargethub'] = 'Terugzetten van bestanden, gedownload van Moodle.net';
 $string['restore:restoretargetimport'] = 'Terugzetten van bestanden die import als doel hebben';
 $string['restore:rolldates'] = 'Mag data van activiteiten wijzigen bij terugzetten';
 $string['restore:uploadfile'] = 'Bestanden uploaden naar back-upzone\'s';

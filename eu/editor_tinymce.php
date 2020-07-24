@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'editor_tinymce', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,7 +59,7 @@ $string['advanced_dlg:about_plugin'] = 'Plugina';
 $string['advanced_dlg:about_plugins'] = 'Pluginak';
 $string['advanced_dlg:about_title'] = 'TinyMCE-ri buruz';
 $string['advanced_dlg:about_version'] = 'Bertsioa';
-$string['advanced_dlg:accessibility_help'] = 'Erabilerraztasunerako laguntza';
+$string['advanced_dlg:accessibility_help'] = 'Irisgarritasunerako laguntza';
 $string['advanced_dlg:accessibility_usage_title'] = 'Erabilera orokorra';
 $string['advanced_dlg:anchor_invalid'] = 'Zehaztu ainguraren izen baliagarria.';
 $string['advanced_dlg:anchor_name'] = 'Ainguraren izena';
@@ -143,7 +143,7 @@ $string['advanced:redo_desc'] = 'Berregin (Ctrl+Y)';
 $string['advanced:removeformat_desc'] = 'Ezabatu formatua';
 $string['advanced:rich_text_area'] = 'Testu-eremu aberastua';
 $string['advanced:samp'] = 'Kode-adibidea';
-$string['advanced:shortcuts_desc'] = 'Erabilerraztasunerako laguntza';
+$string['advanced:shortcuts_desc'] = 'Irisgarritasunerako laguntza';
 $string['advanced:striketrough_desc'] = 'Marratua';
 $string['advanced:style_select'] = 'Estiloak';
 $string['advanced:sub_desc'] = 'Azpiindizea';
@@ -180,7 +180,7 @@ $string['advimage_dlg:classes'] = 'Motak';
 $string['advimage_dlg:constrain_proportions'] = 'Proportzio murriztuak';
 $string['advimage_dlg:dialog_title'] = 'Txertatu/editatu irudia';
 $string['advimage_dlg:dimensions'] = 'Dimentsioak';
-$string['advimage_dlg:example_img'] = 'Irudiaren aurrebista';
+$string['advimage_dlg:example_img'] = 'Irudi-itxuraren aurrebista';
 $string['advimage_dlg:general'] = 'Orokorra';
 $string['advimage_dlg:height'] = 'Altuera';
 $string['advimage_dlg:hspace'] = 'Espazio horizontala';
@@ -274,7 +274,7 @@ $string['advlist:types'] = 'Motak';
 $string['advlist:upper_alpha'] = 'Alfa maiuskula';
 $string['advlist:upper_roman'] = 'Letra erromatar larria';
 $string['aria:rich_text_area'] = 'Testu-eremu aberastua';
-$string['autosave:restore_content'] = 'Automatikoki gordetako edukia berreskuratu';
+$string['autosave:restore_content'] = 'Berreskuratu automatikoki gordetako edukia';
 $string['autosave:unload_msg'] = 'Orri honetatik irtenez gero, egindako aldaketak galdu egindgo dira.';
 $string['autosave:warning_message'] = 'Gordetako edukia berreskuratzen baduzu, editorean orain dagoen edukia galduko duzu.
 
@@ -332,7 +332,7 @@ $string['common:insert'] = 'Txertatu';
 $string['common:invalid_data'] = 'Errorea: Baliogabeak diren balioak sartu dituzu, gorriz markatuta daude.';
 $string['common:invalid_data_min'] = '{#field}-(e)k zenbaki handiago izan behar du {#min}-(e)k baino';
 $string['common:invalid_data_number'] = '{#field}-(e)k zenbakia izan behar du';
-$string['common:invalid_data_size'] = '{#field}-(e)k zenbakia edo portzentajea izan behar du';
+$string['common:invalid_data_size'] = '{#field}-(e)k zenbakia edo ehunekoa izan behar du';
 $string['common:more_colors'] = 'Kolore gehiago...';
 $string['common:not_set'] = '-- Ezarri gabea --';
 $string['common:popup_blocked'] = 'Sentitzen dugu baina zabaltzen diren leihoen blokeoak aplikazioaren funtzioak dakartzan leiho bat desgaitu du. Blokeo hori kendu egin behar duzu gune honetarako funtzio guztiak erabili ahal izateko.';

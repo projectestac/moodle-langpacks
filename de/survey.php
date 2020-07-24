@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'survey', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -210,8 +210,12 @@ $string['howlong'] = 'Wie lange haben Sie für das Ausfüllen dieser Umfrage geb
 $string['howlongoptions'] = 'unter 1 Min, 1-2 Min, 2-3 Min, 3-4 Min, 4-5 Min, 5-10 Min, mehr als 10 Min';
 $string['ifoundthat'] = 'Dies findet statt:';
 $string['indicator:cognitivedepth'] = 'Umfrage kognitiv';
+$string['indicator:cognitivedepthdef'] = 'Umfrage kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die Umfrageaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht, Beiträge).';
 $string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die eine Person in einer Umfrageaktivität erreicht hat.';
 $string['indicator:socialbreadth'] = 'Umfrage sozial';
+$string['indicator:socialbreadthdef'] = 'Umfrage sozial';
+$string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die Umfrageaktivität während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein).';
 $string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer Umfrageaktivität erreicht hat.';
 $string['introtext'] = 'Einführungstext';
 $string['invalidsurveyid'] = 'Falsche Umfrage-ID';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_file', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cachestore_file', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   cachestore_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,9 +34,11 @@ $string['prescan'] = 'Pré-scanner le dossier';
 $string['prescan_help'] = 'Si ce réglage est activé, le dossier est scanné lors de la première utilisation du cache et les requêtes de fichiers sont d\'abord comparées aux données scannées. Ce comportement peut être utile si votre système de fichiers est lent et que vous constatez que les opérations sur les fichiers ralentissent votre système.';
 $string['privacy:metadata'] = 'Le plugin de stockage de cache Cache de fichiers enregistre des données brièvement, de par sa fonction de mise en cache. Les données sont supprimées régulièrement.';
 $string['singledirectory'] = 'Dépôt dossier unique';
-$string['singledirectory_help'] = 'Si ce réglage est activé, les fichiers (éléments mis en cache) seront stockés dans un dossier unique, plutôt que d\'être répartis dans plusieurs dossiers.<br />
-L\'activation rendra plus rapide l\'interaction avec les fichiers, mais au risque d\'arriver aux limites du système.<br />
-Il n\'est conseillé de n\'activer ce réglage que si les conditions suivantes sont remplies :<br />
+$string['singledirectory_help'] = 'Si ce réglage est activé, les fichiers (éléments mis en cache) seront stockés dans un dossier unique, plutôt que d\'être répartis dans plusieurs dossiers.
 
-* vous savez que le nombre d\'éléments en cache sera suffisamment petit pour ne pas causer des problèmes sur le système de fichiers utilisés ;<br />
+L\'activation rendra plus rapide l\'interaction avec les fichiers, mais au risque d\'arriver aux limites du système.
+
+Il n\'est conseillé de n\'activer ce réglage que si les conditions suivantes sont remplies :
+
+* vous savez que le nombre d\'éléments en cache sera suffisamment petit pour ne pas causer des problèmes sur le système de fichiers utilisés ;
 * les données à mettre en cache ne sont pas trop lourdes à générer.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_ldap', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_ldap', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['autocreate'] = '<p>Ikastaroak era automatikoan sor daitezke oraindik er
 $string['autocreate_key'] = 'Sortu automatikoki';
 $string['autocreation_settings'] = 'Ikastaroak era automatikoan sortzeko ezarpenak';
 $string['autoupdate_settings'] = 'Ikastaroak era automatikoan eguneratzeko ezarpenak';
-$string['autoupdate_settings_desc'] = '<p>Aukeratu sinkronizazio script-a exekutatzean (enrol/ldap/cli/sync.php) eguneratuko diren eremuak.</p><p>Gutxienez eremu bat aukeratzen bada eguneratzea egingo da.</p>';
+$string['autoupdate_settings_desc'] = '<p>Aukeratu \'Sinkronizatu LDAP matrikulazioak\' programatutako zeregina exekutatzean eguneratuko diren eremuak.</p><p>Gutxienez eremu bat aukeratzen bada eguneratzea egingo da.</p>';
 $string['bind_dn'] = 'Erabiltzaileak bilatzeko \'bind-user\' bat erabili nahi baduzu, zehaztu hemen. Horrelako zerbait \'cn=ldapuser,ou=public,o=org\'';
 $string['bind_dn_key'] = '\'Bind-user\'aren izen gorena (distinguished name)';
 $string['bind_pw'] = '\'Bind-user\'aren pasahitza';

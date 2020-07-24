@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'ltiservice_memberships', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'ltiservice_memberships', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   ltiservice_memberships
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,10 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allow'] = 'Gebruik deze service om ledeninformatie op te halen volgens privacy-instellingen';
-$string['ltiservice_memberships'] = 'IMS LTI lidmaatschap:';
-$string['ltiservice_memberships_help'] = 'Sta de tool toe om ledeninformatie uit de cursus te halen met behulp van de IMS LTI Membership Service. De privacy-instellingen zijn van toepassing.';
+$string['ltiservice_memberships'] = 'IMS LTI namen en rollen';
+$string['ltiservice_memberships_help'] = 'Sta de tool toe om ledeninformatie uit de cursus te halen met behulp van de IMS LTI Names and Roles Provisioning Service. De privacy-instellingen zijn van toepassing. Voor aanvragen op cursusniveau zullen die gebaseerd worden op de instellingen van de tool. Laat deze keuze niet over aan leraren als je altijd deze informatie wil verzenden. Aanvragen op niveau van een link zullen altijd de privacy-instellingen volgen die op de link van toepassing zijn.';
 $string['notallow'] = 'Gebruik deze service niet';
-$string['pluginname'] = 'Lidmaatschap LTI-service';
+$string['pluginname'] = 'Namen en rollen voor LTI-service';
 $string['privacy:metadata:email'] = 'Het e-mailadres van de gebruiker die gebruik maakt van de LTI-Consumer.';
 $string['privacy:metadata:externalpurpose'] = 'Deze informatie wordt naar een externe LTI-provider gestuurd.';
 $string['privacy:metadata:firstname'] = 'De voornaam van de gebruiker die gebruik maakt van de LTI-Consumer.';
@@ -37,4 +37,3 @@ $string['privacy:metadata:fullname'] = 'De volledige naam van de gebruiker die g
 $string['privacy:metadata:lastname'] = 'De achternaam van de gebruiker die gebruik maakt van de LTI Consumer.';
 $string['privacy:metadata:userid'] = 'De ID van de gebruiker die gebruik maakt van de LTI Consumer.';
 $string['privacy:metadata:useridnumber'] = 'Het ID-nummer van de gebruiker die gebruik maakt van de LTI Consumer.';
-$string['servicename'] = 'Lidmaatschap';

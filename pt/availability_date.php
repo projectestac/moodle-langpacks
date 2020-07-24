@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_date', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'availability_date', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   availability_date
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,8 +33,8 @@ $string['direction_label'] = 'Direção';
 $string['direction_until'] = 'até';
 $string['full_from'] = 'Data e hora posterior a <strong>{$a}</strong>';
 $string['full_from_date'] = 'Data igual ou posterior a <strong>{$a}</strong>';
-$string['full_until'] = 'Data anterior <strong>{$a}</strong>';
-$string['full_until_date'] = 'Data anterior ou igual a <strong>{$a}</strong>';
+$string['full_until'] = 'Data e hora anterior a <strong>{$a}</strong>';
+$string['full_until_date'] = 'Data e hora anterior a <strong>{$a}</strong>';
 $string['pluginname'] = 'Condição de acesso com base em data';
 $string['privacy:metadata'] = 'O módulo Condição de acesso com base em data não armazena dados pessoais.';
 $string['short_from'] = 'Disponível a partir de <strong>{$a}</strong>';

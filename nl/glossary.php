@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'glossary', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -164,6 +164,7 @@ $string['entryexported'] = 'Item met succes geëxporteerd';
 $string['entryishidden'] = '(dit item is verborgen)';
 $string['entryleveldefaultsettings'] = 'Standaardinstellingen invoer';
 $string['entrylink'] = 'Item link: {$a}';
+$string['entrynotapproved'] = 'Inzending niet goedgekeurd';
 $string['entrysaved'] = 'Dit item is bewaard';
 $string['entryupdated'] = 'Dit item is geüpdatet';
 $string['entryusedynalink'] = 'Dit item wordt<br />automatisch gelinkt';
@@ -235,8 +236,12 @@ $string['importentries'] = 'Importeer inhoud';
 $string['importentriesfromxml'] = 'Items importeren uit XML-bestand';
 $string['includegroupbreaks'] = 'Scheiding invoegen';
 $string['indicator:cognitivedepth'] = 'Woordenlijst cognitief';
+$string['indicator:cognitivedepthdef'] = 'Woordenlijst cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de verklarende woordenlijstactiviteiten tijdens dit analyse-interval bereikt (Niveaus = Geen weergave, Bekijken, Verzenden)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Woordenlijst activiteit.';
 $string['indicator:socialbreadth'] = 'Woordenlijst sociaal';
+$string['indicator:socialbreadthdef'] = 'Woordenlijst sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de maatschappelijke betrokkenheid van de verklarende woordenlijstactiviteiten tijdens dit analyse-interval bereikt (niveaus = geen deelname, alleen deelnemer)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Woordenlijst activiteit.';
 $string['isglobal'] = 'Is dit een globale woordenlijst?';
 $string['isglobal_help'] = '<p>Enkel beheerders en andere gebruikers met de mogelijkheid site:doanything toegelaten kunnen een globale woordenlijst definiëren.</p>

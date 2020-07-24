@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -213,8 +213,8 @@ $string['referenceslist'] = 'Ezizenak/Estekak';
 $string['refresh'] = 'Freskatu';
 $string['refreshnonjsfilepicker'] = 'Mesedez itxi leiho hau eta freskatu Javascript-gabeko fitxategi-hautatzailea';
 $string['removed'] = 'Biltegia kenduta';
-$string['renameall'] = 'Berrizendatu guztiak';
-$string['renameto'] = 'Berrizendatu honela: "{$a}"';
+$string['renameall'] = 'Aldatu izena guztiei';
+$string['renameto'] = 'Aldatu izena honetara: "{$a}"';
 $string['repositories'] = 'Biltegiak';
 $string['repository'] = 'Biltegia';
 $string['repositorycourse'] = 'Ikastaro-biltegiak';

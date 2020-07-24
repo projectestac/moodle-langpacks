@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lesson', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -186,11 +186,9 @@ $string['displayleftmenu_help'] = 'Si está habilitada, se mostrará a los usuar
 $string['displayofgrade'] = 'Mostrar calificación (sólo para estudiantes)';
 $string['displayreview'] = 'Proporcionar una opción para tratar de nuevo la pregunta';
 $string['displayreview_help'] = 'Si se activa, cuando una pregunta se responde incorrectamente, se le da al estudiante la opción de intentarlo de nuevo sin crédito de puntos, o continuar con la lección.';
-$string['displayscorewithessays'] = 'Usted ha obtenido una puntuación de {$a->score} sobre {$a->tempmaxgrade} en las preguntas calificadas automáticamente.
-
-Sus {$a->essayquestions} preguntas de tipo ensayo se calificarán posteriormente y su calificación se añadirá a su calificación final
-
-Su calificación actual sin contar esas preguntas es de is {$a->score} sobre {$a->grade}';
+$string['displayscorewithessays'] = '<p>Usted ha obtenido un total de {$a->score} sobre {$a->tempmaxgrade} en las preguntas calificadas de manera automática.<p>
+<p>Sus {$a->essayquestions} pregunta(s) de ensayo se calificarán  se añadirán a su calificación final.<p>
+<p>Su calificación actual sin incluir  las pregunta(s) ensayo es de {$a->score} sobre {$a->grade}.<p>';
 $string['displayscorewithoutessays'] = 'Su puntuación es {$a->score} (sobre {$a->grade}).';
 $string['duplicatepagenamed'] = 'Duplicar página: {$a}';
 $string['edit'] = 'Edición';
@@ -250,7 +248,7 @@ $string['false'] = 'Falso';
 $string['fileformat'] = 'Formato de archivo';
 $string['finish'] = 'Terminado';
 $string['firstanswershould'] = 'de elementos';
-$string['firstwrong'] = 'Lo sentimos, usted no puede obtener este punto porque su respuesta no es correcta. ¿Desea seguir intentándolo? (únicamente para aprender, no para ganar el punto).';
+$string['firstwrong'] = 'Su respuesta es incorrecta. ¿Desea intentarlo de nuevo? ( si contesta la pregunta correctamente no se tomará en cuenta en la puntuación final)';
 $string['flowcontrol'] = 'Control de Flujo';
 $string['fractionsaddwrong'] = 'Las calificaciones positivas otorgadas no suman 100% sino {$a}%<br />¿Desea regresar y corregir esta pregunta?';
 $string['fractionsnomax'] = 'Una de las preguntas debe ser 100% para que sea<br />posible alcanzar la calificación máxima<br />¿Desea regresar y corregir esta pregunta?';
@@ -299,6 +297,7 @@ $string['lessonclosed'] = 'Esta lección se cerró el {$a}.';
 $string['lessoncloses'] = 'La lección se cierra';
 $string['lessoncloseson'] = 'La lección se cierra el {$a}';
 $string['lesson:edit'] = 'Editar una actividad de lección';
+$string['lessoneventopens'] = '{$a} abre';
 $string['lessonformating'] = 'Formateado de la Lección';
 $string['lesson:grade'] = 'Calificar preguntas de tipo ensayo de la lección';
 $string['lesson:manage'] = 'Gestionar una actividad de lección';
@@ -379,7 +378,7 @@ $string['nameapproved'] = 'Nombre aprobado';
 $string['namereject'] = 'Lo sentimos, su nombre ha sido rechazado por el filtro.<br>Por favor, pruebe con otro nombre.';
 $string['new'] = 'nueva';
 $string['nextpage'] = 'Página siguiente';
-$string['noanswer'] = 'No se ha dado respuesta';
+$string['noanswer'] = 'Una o más preguntas no se han contestado. Por favor regrese y de una respuesta.';
 $string['noattemptrecordsfound'] = 'No se encontraron registros de intentos. Sin calificación';
 $string['nobranchtablefound'] = 'No se ha encontrado página de contenido';
 $string['noclose'] = 'Sin fecha de cierre';
@@ -416,7 +415,7 @@ $string['numberofpagestoshow'] = 'Número de páginas a mostrar';
 $string['numberofpagestoshow_help'] = 'Esta ajuste especifica el número de páginas mostradas en la lección. Sólo es aplicable para las lecciones con páginas que se muestran en orden aleatorio (cuando "Acción después de la respuesta correcta" está ajustado a"Mostrar una página no vista"  o "Mostrar unan página no contestada"). Si se establece en cero, se muestran todas las páginas.';
 $string['numberofpagesviewed'] = 'Número de páginas vistas: {$a}';
 $string['numberofpagesviewedheader'] = 'Número de preguntas respondidas';
-$string['numberofpagesviewednotice'] = 'Número de preguntas contestadas: {$a->nquestions}; (Debería contestar al menos: {$a->minquestions})';
+$string['numberofpagesviewednotice'] = 'Número de preguntas contestadas: {$a->nquestions} (Debería contestar al menos {$a->minquestions})';
 $string['numerical'] = 'Numérica';
 $string['ongoing'] = 'Mostrar puntuación acumulada';
 $string['ongoingcustom'] = 'Ha obtenido {$a->score} punto(s) sobre {$a->currenthigh} hasta ahora.';
@@ -553,8 +552,8 @@ $string['studentoneminwarning'] = 'Atención: Le queda 1 minuto o menos para ter
 $string['studentresponse'] = 'comentario de {$a}';
 $string['submit'] = 'Enviar';
 $string['submitname'] = 'Enviar nombre';
-$string['teacherjumpwarning'] = 'En esta lección se usa un salto {$a->cluster} o {$a->unseen}. En su lugar se usará el salto a la página siguiente. Entre como estudiante para probar estos saltos.';
-$string['teacherongoingwarning'] = 'La puntuación acumulada sólo se muestra al estudiante. Entre como estudiante para probar la puntuación acumulada.';
+$string['teacherjumpwarning'] = 'En esta lección se ha utilizado un salto {$a->cluster} o un salto a {$a->unseen}. En su lugar se usará el salto a la  siguiente página. Acceda a su cuenta como estudiante para comprobar estos saltos.';
+$string['teacherongoingwarning'] = 'La puntuación acumulada sólo se muestra al estudiante. Acceda  como estudiante para probar la puntuación acumulada.';
 $string['teachertimerwarning'] = 'El temporizador sólo funciona con estudiantes. Entre como estudiante para probar el temporizador.';
 $string['thatsthecorrectanswer'] = 'Esta es la respuesta correcta';
 $string['thatsthewronganswer'] = 'Esta es la respuesta equivocada';

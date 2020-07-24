@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'folder', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   folder
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,8 +41,12 @@ $string['foldercontent'] = 'File e sotto cartelle';
 $string['folder:managefiles'] = 'Gestire file nel modulo cartella';
 $string['folder:view'] = 'Visualizzare contenuto cartella';
 $string['indicator:cognitivedepth'] = 'Cartella cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Cartella cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalla risorsa Cartella (Livelli: Nessuna visualizzazione, Visualizzazione)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente con risorse Cartella.';
 $string['indicator:socialbreadth'] = 'Cartella sociale';
+$string['indicator:socialbreadthdef'] = 'Cartella sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dalle risorse Cartella (Livelli: Nessuna partecipazione, Partecipazione da solo)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente con risorse \'file\'.';
 $string['maxsizetodownload'] = 'Dimensione massima della cartella da scaricare (MB)';
 $string['maxsizetodownload_help'] = 'L\'impostazione limita la dimensione massima oltre la quale gli utenti non potranno scaricare la cartella in formato zip. Impostando a zero, non ci saranno limiti dimensionali.';

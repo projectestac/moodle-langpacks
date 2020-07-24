@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'role', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,7 @@ $string['allowswitch'] = 'ロールのスイッチを許可する';
 $string['allowview'] = 'ロールの表示を許可する';
 $string['allsiteusers'] = 'すべてのサイトユーザ';
 $string['analytics:listinsights'] = '洞察を一覧表示する';
+$string['analytics:listowninsights'] = '自分の洞察を一覧表示する';
 $string['analytics:managemodels'] = 'モデルを管理する';
 $string['archetype'] = 'ロールアーキタイプ';
 $string['archetypecoursecreator'] = 'アーキタイプ: コース作成者';
@@ -68,7 +69,6 @@ $string['backup:anonymise'] = 'バックアップのユーザデータを匿名�
 $string['backup:backupactivity'] = '活動をバックアップする';
 $string['backup:backupcourse'] = 'コースをバックアップする';
 $string['backup:backupsection'] = 'セクションをバックアップする';
-$string['backup:backuptargethub'] = 'Moodle.netの公開をバックアップする';
 $string['backup:backuptargetimport'] = 'インポートをバックアップする';
 $string['backup:configure'] = 'バックアップオプションを設定する';
 $string['backup:downloadfile'] = 'バックアップエリアよりファイルをダウンロードする';
@@ -103,6 +103,7 @@ $string['category:create'] = 'カテゴリを作成する';
 $string['category:delete'] = 'カテゴリを削除する';
 $string['category:manage'] = 'カテゴリを管理する';
 $string['category:update'] = 'カテゴリを更新する';
+$string['category:viewcourselist'] = 'あなたが登録していないコース一覧を表示する';
 $string['category:viewhiddencategories'] = '非表示カテゴリを表示する';
 $string['category:visibility'] = '非表示カテゴリを表示する';
 $string['checkglobalpermissions'] = 'システムパーミッションをチェックする';
@@ -117,8 +118,6 @@ $string['cohort:view'] = 'サイト全体のコーホートを表示する';
 $string['comment:delete'] = 'コメントを削除する';
 $string['comment:post'] = 'コメントを投稿する';
 $string['comment:view'] = 'コメントを表示する';
-$string['community:add'] = 'Moodle.netおよびコースの検索にコミュニティブロックを使用する';
-$string['community:download'] = 'コミュニティブロックよりコースをダウンロードする';
 $string['competency:competencygrade'] = 'コンピテンシー評定を設定する';
 $string['competency:competencymanage'] = 'コンピテンシーフレームワークを管理する';
 $string['competency:competencyview'] = 'コンピテンシーフレームワークを表示する';
@@ -165,8 +164,10 @@ $string['course:bulkmessaging'] = '多くの人にメッセージを送信する
 $string['course:changecategory'] = 'コースカテゴリを変更する';
 $string['course:changefullname'] = '長いコース名を変更する';
 $string['course:changeidnumber'] = 'コースIDナンバーを変更する';
+$string['course:changelockedcustomfields'] = 'ロック済みカスタムフィールドを変更する';
 $string['course:changeshortname'] = 'コース省略名を変更する';
 $string['course:changesummary'] = 'コース概要を変更する';
+$string['course:configurecustomfields'] = 'カスタムフィールドを設定する';
 $string['course:create'] = 'コースを作成する';
 $string['course:creategroupconversations'] = 'グループ会話を作成する';
 $string['course:delete'] = 'コースを削除する';
@@ -183,7 +184,6 @@ $string['course:managescales'] = '評価尺度を管理する';
 $string['course:markcomplete'] = 'コース完了に関してユーザに完了をマークする';
 $string['course:movesections'] = 'セクションを移動する';
 $string['course:overridecompletion'] = '活動完了ステータスをオーバーライドする';
-$string['course:publish'] = 'コースを公開する';
 $string['course:renameroles'] = 'ロールをリネームする';
 $string['course:request'] = '新しいコースをリクエストする';
 $string['course:reset'] = 'コースをリセットする';
@@ -230,6 +230,8 @@ $string['errorbadroleshortname'] = 'ロール省略名が正しくありませ�
 $string['errorexistsrolename'] = 'ロール名がすでに存在します。';
 $string['errorexistsroleshortname'] = 'ロール名がすでに存在します。';
 $string['errorroleshortnametoolong'] = '省略名は半角100文字を超えないでください。';
+$string['eventcapabilityassigned'] = 'ケイパビリティが割り当てられました。';
+$string['eventcapabilityunassigned'] = 'ケイパビリティが割り当て解除されました。';
 $string['eventroleallowassignupdated'] = 'ロール割り当てを許可する';
 $string['eventroleallowoverrideupdated'] = 'ロールオーバーライドを許可する';
 $string['eventroleallowswitchupdated'] = 'ロールスイッチを許可する';
@@ -238,6 +240,7 @@ $string['eventroleassigned'] = 'ロールが割り当てられました。';
 $string['eventrolecapabilitiesupdated'] = 'ロールケイパビリティが更新されました。';
 $string['eventroledeleted'] = 'ロールが削除されました。';
 $string['eventroleunassigned'] = 'ロール割り当てが解除されました。';
+$string['eventroleupdated'] = 'ロールが更新されました。';
 $string['existingadmins'] = '現在のサイト管理者';
 $string['existingusers'] = '割り当て済みユーザ: {$a}';
 $string['explanation'] = '説明';
@@ -267,6 +270,9 @@ $string['grade:unlock'] = '評定または評定項目をロック解除する';
 $string['grade:view'] = '自分の評定を表示する';
 $string['grade:viewall'] = '他のユーザの評定を表示する';
 $string['grade:viewhidden'] = '自分の非表示の評定を表示する';
+$string['h5p:deploy'] = 'H5Pコンテンツを配置する';
+$string['h5p:setdisplayoptions'] = 'H5P表示オプションを設定する';
+$string['h5p:updatelibraries'] = 'H5Pコンテンツタイプを管理する';
 $string['highlightedcellsshowdefault'] = '以下のテーブルでハイライトされているパーミッションは上で現在選択されているロールアーキタイプのデフォルトです。';
 $string['highlightedcellsshowinherit'] = '以下にハイライトされたセルは継承されるパーミッションを示してしています。あなたが実際に変更したいパーミッションとは別にしてすべてを継承のままにしてください。';
 $string['inactiveformorethan'] = '{$a->timeperiod} 以上活動していない';
@@ -376,7 +382,6 @@ $string['restore:createuser'] = 'リストア時、ユーザを作成する';
 $string['restore:restoreactivity'] = '活動をリストアする';
 $string['restore:restorecourse'] = 'コースをリストアする';
 $string['restore:restoresection'] = 'セクションをリストアする';
-$string['restore:restoretargethub'] = 'Moodle.netからダウンロードしたコースをリストアする';
 $string['restore:restoretargetimport'] = 'インポートファイルからリストアする';
 $string['restore:rolldates'] = 'リストア時、活動設定の日付変更を許可する';
 $string['restore:uploadfile'] = 'バックアップエリアにファイルをアップロードする';

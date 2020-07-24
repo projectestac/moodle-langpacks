@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,10 +30,15 @@ Note-se que esta medida não melhora significativamente a segurança do servidor
 $string['check_configrw_name'] = 'Permissões de escrita do ficheiro <strong>config.php</strong>';
 $string['check_configrw_ok'] = 'O ficheiro <strong>config.php</strong> não pode ser alterado por scripts PHP.';
 $string['check_configrw_warning'] = 'O ficheiro <strong>config.php</strong> pode ser alterado por scripts PHP.';
-$string['check_cookiesecure_details'] = '<p>Se a comunicação HTTPS estiver ativa, é recomendável ativar o envio de cookies seguros. Deve ter o redirecionamento permanente de http para https e, de preferência, utilizar também cabeçalhos HSTS.</p>';
+$string['check_cookiesecure_details'] = '<p>Se a comunicação HTTPS estiver ativa, recomenda-se ativar o envio de cookies seguros. Deve ter o redirecionamento permanente de http para https e, de preferência, utilizar também cabeçalhos HSTS.</p>';
 $string['check_cookiesecure_error'] = 'A utilização de cookies seguros não está ativa.';
 $string['check_cookiesecure_name'] = 'Cookies seguros';
 $string['check_cookiesecure_ok'] = 'A utilização de cookies seguros está ativa.';
+$string['check_crawlers_details'] = '<p>A configuração <strong>Permitir acesso aos motores de busca</strong> disponibiliza aos motores de busca o acesso às disciplinas que permitem acesso a visitantes. Não faz sentido ativar esta configuração se o site não permitir o acesso de visitante.</p>';
+$string['check_crawlers_error'] = 'É permitido o acesso aos motores de busca mas o acesso de visitante não está ativo. Com esta configuração, os motores não terão acesso a nenhuma disciplina no site.';
+$string['check_crawlers_info'] = 'Os motores de busca podem aceder como visitantes.';
+$string['check_crawlers_name'] = 'Permitir acesso aos motores de busca';
+$string['check_crawlers_ok'] = 'O acesso ao site por motores de busca não deve ativo.';
 $string['check_defaultuserrole_details'] = '<p>As permissões do papel predefinido são atribuídas a todos os utilizadores autenticados. Por isso, assegure-se que não são atribuídas permissões com riscos a este papel.</p>
 <p>O único papel retrocompatível (usado em versões anteriores do Moodle) que pode ser usado com o papel de utilizador predefinido é <strong>Utilizador autenticado</strong>. A permissão para ver disciplinas não deve ser concedida.</p>';
 $string['check_defaultuserrole_error'] = 'O papel "{$a}", a atribuir automaticamente a todos os utilizadores autenticados, não está configurado corretamente!';
@@ -54,17 +59,12 @@ $string['check_embed_details'] = '<p>A incorporação de objetos sem restriçõe
 $string['check_embed_error'] = '<p>A configuração de incorporação de objetos sem restrições está ativa. Esta configuração levanta problemas de segurança graves na maioria dos servidores.</p>';
 $string['check_embed_name'] = 'Permitir conteúdos incorporados e OBJECT';
 $string['check_embed_ok'] = 'Conteúdos incorporados e OBJECT ilimitados';
-$string['check_frontpagerole_details'] = '<p>O papel predefinido para a página de entrada é atribuídos a todos os utilizadores no contexto das atividades da página de entrada.  Por isso, não devem ser atribuídas permissões a este papel que ponham em risco o site.</p>
+$string['check_frontpagerole_details'] = '<p>O papel predefinido para a página principal é atribuído a todos os utilizadores no contexto das atividades da página principal.  Por isso, não devem ser atribuídas permissões a este papel que ponham em risco o site.</p>
 <p>É recomendado que se crie um papel especificamente para este contexto e que não seja usado nenhum dos papéis retrocompatíveis (usados por versões anteriores do Moodle).</p>';
-$string['check_frontpagerole_error'] = 'O papel "{$a}", definido para a página de entrada, está configurado incorretamente!';
-$string['check_frontpagerole_name'] = 'Papel para a página de entrada';
-$string['check_frontpagerole_notset'] = 'Não foi definido nenhum papel para a página de entrada.';
-$string['check_frontpagerole_ok'] = 'O papel definido para a página de entrada está configurado corretamente.';
-$string['check_google_details'] = '<p>A configuração <strong>Permitir acesso Google</strong> disponibiliza aos motores de busca o acesso às disciplinas que dão acesso a visitantes. Não faz sentido ativar esta configuração se o site não permitir o acesso de visitante.</p>';
-$string['check_google_error'] = 'É permitido o acesso aos motores de busca mas o acesso de visitante não está ativo. Com esta configuração, os motores não terão acesso a nenhuma disciplina no site.';
-$string['check_google_info'] = 'Os motores de busca podem aceder como visitantes.';
-$string['check_google_name'] = 'Permitir acesso Google';
-$string['check_google_ok'] = 'O acesso ao site por motores de busca não deve ativo.';
+$string['check_frontpagerole_error'] = 'O papel "{$a}", definido para a página principal, está configurado incorretamente!';
+$string['check_frontpagerole_name'] = 'Papel para a página principal';
+$string['check_frontpagerole_notset'] = 'Não foi definido nenhum papel para a página principal.';
+$string['check_frontpagerole_ok'] = 'O papel definido para a página principal está configurado corretamente.';
 $string['check_guestrole_details'] = '<p>O papel de visitante é usado por visitantes, utilizadores sem sessão ativa e utilizadores com acesso temporário de visitante às disciplinas. Por isso, não devem ser atribuídas permissões a este papel que ponham em risco o site.</p>
 <p>O único papel retrocompatível (usado em versões anteriores do Moodle) que pode ser usado com o papel de visitante é <strong>Visitante</strong>.</p>';
 $string['check_guestrole_error'] = 'O papel de visitante "{$a}" está configurado incorretamente!';
@@ -103,9 +103,9 @@ $string['check_riskadmin_ok'] = 'Existe(m) {$a} administrador(es) de sistema.';
 $string['check_riskadmin_unassign'] = '<a href="{$a->url}">{$a->fullname} ({$a->email}) verificar atribuição de papel</a>';
 $string['check_riskadmin_warning'] = 'Existe(m) {$a->admincount} administrador(es) de sistema e {$a->unsupcount} atribuições de papel de administrador noutros contextos (não aconselhado).';
 $string['check_riskbackup_detailsok'] = 'A configuração efetuada não permite que nenhum papel tenha permissão para incluir dados dos utilizadores nas cópias de segurança das disciplinas. Contudo, utilizadores que tenham o papel de administrador com a permissão <strong>doanything</strong> poderão fazê-lo.';
-$string['check_riskbackup_details_overriddenroles'] = '<p>Se esta configuração estiver ativa, os utilizadores poderão incluir os dados dos utilizadores nas cópias de segurança. Se esta permissão não for necessária deve ser desativada.</p> {$a}';
+$string['check_riskbackup_details_overriddenroles'] = '<p>Se ativar esta opção, os utilizadores poderão incluir os dados dos utilizadores nas cópias de segurança. Se esta permissão não for necessária deve ser desativada.</p> {$a}';
 $string['check_riskbackup_details_systemroles'] = '<p>Os papéis indicados em seguida têm atualmente permissão para incluir informação dos utilizadores nas cópias de segurança.Se esta permissão não for necessária deve ser desativada.</p> {$a}';
-$string['check_riskbackup_details_users'] = '<p>Devido aos papéis indicados acima ou por causa de redefinições locais, os utilizadores indicados de seguida têm permissão para incluir a informação dos utilizadores nas cópias de segurança das disciplinas. Por questões de privacidade deve ser garantido que (a) são utilizadores de confiança e (b) as suas contas estão protegidas por senhas robustas:</p> {$a}';
+$string['check_riskbackup_details_users'] = '<p>Devido aos papéis indicados acima ou por causa de redefinições locais, os utilizadores indicados a seguir têm permissão para incluir a informação dos utilizadores nas cópias de segurança das disciplinas. Por questões de privacidade deve ser garantido que (a) são utilizadores de confiança e (b) as suas contas estão protegidas por senhas robustas:</p> {$a}';
 $string['check_riskbackup_editoverride'] = '<a href="{$a->url}">{$a->name} no contexto {$a->contextname}</a>';
 $string['check_riskbackup_editrole'] = '<a href="{$a->url}">{$a->name}</a>';
 $string['check_riskbackup_name'] = 'Cópias de segurança com dados dos utilizadores';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_cas', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_cas', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_cas
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['accesCAS'] = 'Χρήστες CAS';
 $string['accesNOCAS'] = 'άλλοι χρήστες';
+$string['auth_cas_auth_logo'] = 'Λογότυπο μεθόδου αυθεντικοποίησης';
+$string['auth_cas_auth_logo_description'] = 'Δώστε ένα λογότυπο για τη μέθοδο αυθεντικοποίησης CAS που είναι οικεία στους χρήστες σας.';
+$string['auth_cas_auth_name'] = 'Όνομα μεθόδου αυθεντικοποίησης';
+$string['auth_cas_auth_name_description'] = 'Δώστε ένα όνομα για τη μέθοδο αυθεντικοποίησης CAS που είναι οικεία στους χρήστες σας.';
+$string['auth_cas_auth_service'] = 'CAS';
 $string['auth_cas_auth_user_create'] = 'Create users externally';
 $string['auth_cas_baseuri'] = 'URI του εξυπηρετητή (τίποτα αν δεν υπάρχει baseURI)<br />Για παράδειγμα, εάν ο εξυπηρετητής CAS απαντάει στο host.domaine.fr/CAS/ τότε <br />cas_baseuri = CAS/';
 $string['auth_cas_baseuri_key'] = 'Base URI';

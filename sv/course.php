@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'course', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'course', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   course
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,3 +27,18 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['aria:coursename'] = 'Kursnamn';
 $string['aria:favourite'] = 'Kursen är favoritmärkt';
+$string['noaccesssincestartinfomessage'] = 'Hej {$a->userfirstname},
+
+</br><br/>några deltagare i {$a->coursename} har aldrig varit inne i kursen.';
+$string['norecentaccessesinfomessage'] = 'Hej {$a->userfirstname},
+
+</br><br/>några deltagare i {$a->coursename} har inte varit inne i kursen på ett tag.';
+$string['studentsatriskincourse'] = 'Deltagare i riskzonen i kursen {$a}';
+$string['target:coursecompetencies'] = 'Deltagare som är i riskzonen för att inte uppnå de kompetenser som ingår i kursen.';
+$string['target:coursecompletion'] = 'Deltagare som är i riskzonen för att inte uppfylla villkoren för fullföljandet av kursen.';
+$string['target:coursedropout'] = 'Deltagare som är i riskzonen att avbryta kursen.';
+$string['target:coursegradetopass'] = 'Deltagare som är i riskzonen att inte uppnå minimibetyget för att klara kursen.';
+$string['target:noaccesssincecoursestart'] = 'Deltagare som inte varit inne i kursen ännu.';
+$string['target:noaccesssincecoursestartinfo'] = 'Följande deltagare är registrerade på en kurs som redan har startat. Men de har aldrig varit inne i den kursen.';
+$string['target:norecentaccesses'] = 'Deltagare som inte varit inne i kursen den senaste tiden.';
+$string['target:norecentaccessesinfo'] = 'Följande deltagare har inte varit inne i kursen som de är registrerade på under den tid som är satt som analysintervall (standardsinställningen är en månad).';

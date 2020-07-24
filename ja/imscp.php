@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'imscp', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'imscp', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   imscp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,8 +32,12 @@ $string['deploymenterror'] = 'コンテンツパッケージエラー!';
 $string['imscp:addinstance'] = '新しいIMSコンテンツパッケージを追加する';
 $string['imscp:view'] = 'IMSコンテンツを表示する';
 $string['indicator:cognitivedepth'] = 'IMSパッケージ認知的';
+$string['indicator:cognitivedepthdef'] = 'IMSパッケージ認知的';
+$string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がIMSパッケージリソースから提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧)。';
 $string['indicator:cognitivedepth_help'] = 'この指標はIMSコンテンツパッケージリソースで学生が到達した認識深度に基づきます。';
 $string['indicator:socialbreadth'] = 'IMSパッケージ社会的';
+$string['indicator:socialbreadthdef'] = 'IMSパッケージ社会的';
+$string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がIMSパッケージリソースから提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加)。';
 $string['indicator:socialbreadth_help'] = 'この指標はIMSコンテンツパッケージリソースで学生が到達した社会的深度に基づきます。';
 $string['keepold'] = 'パッケージをアーカイブする';
 $string['keepoldexplain'] = '何個のパッケージをアーカイブしますか?';

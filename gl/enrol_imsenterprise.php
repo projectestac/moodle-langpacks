@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['aftersaving...'] = 'Unha vez gardadas as súas configuracións, poderá desexar';
+$string['aftersaving...'] = 'Unha vez gardados os seus axustes, poderá desexar';
 $string['allowunenrol'] = 'Permitir datos IMS para <strong>desmatricular</strong> alumnos/profesores';
 $string['allowunenrol_desc'] = 'De estar activado, as matriculacións retiraranse cando se especifique nos datos de empresa.';
 $string['basicsettings'] = 'Configuracións básicas';
@@ -82,7 +82,7 @@ $string['settingshortname'] = 'A etiqueta de descrición IMS para o nome curto d
 $string['settingshortnamedescription'] = 'O nome curto é un campo requirido do curso así que ten que definir a etiqueta de descrición seleccionada no seu ficheiro IMS Enterprise';
 $string['settingsummary'] = 'A etiqueta de descrición IMS para o resumo do curso';
 $string['settingsummarydescription'] = 'É un campo opcional, seleccione \'Deixalo baleiro\' se non quere especificar un resumo do curso';
-$string['sourcedidfallback'] = 'Utilice o sourcedid para o id de usuario da persoa se o userid campo non é encontrado';
+$string['sourcedidfallback'] = 'Utilice o «sourcedid» para o identificador de usuario se o campo «userid» non é atopado';
 $string['sourcedidfallback_desc'] = 'Nos datos do IMS, o campo <sourcedid> campo o código persistente de identificación dunha persoa que utiliza o sistema orixe. O campo <userid> é un campo separado que debe conter o código de identificación utilizado polo usuario cando inicia sesión. En moitos casos, estes dous códigos poden ser os mesmos - pero non sempre.
 
 Algúns sistemas de información dos alumnos fallan ao emitir o <userid> campo. Se este é o caso, ten que activar esta configuración para permitir o uso do <sourcedid> como o ID de usuario Moodle. Se non, deixe esta opción desactivada.';

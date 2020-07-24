@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_insights', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_insights', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   report_insights
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['calculatedvalue'] = 'Valor calculado';
+$string['actionsaved'] = 'Gardouse o seu comentario de «{$a}».';
+$string['confirmbulkaction'] = 'Confirma que quere marcar as {$a->nitems} predicións seleccionadas como {$a->action}?';
 $string['disabledmodel'] = 'Mágoa, este modelo foi desactivado polo administrador';
-$string['indicator'] = 'Indicador';
+$string['indicators'] = 'Indicadores';
 $string['insight'] = 'Estimación';
-$string['insightprediction'] = 'Predición {$a}';
 $string['insights'] = 'Estimacións';
 $string['justpredictions'] = 'Teña en conta que as seguintes estimacións son só predicións. Non é posíbel prever o futuro con certeza. As estimacións son fornecidas para que se poida tomar a medida que sexa necesario para evitar que as predicións negativas se fagan realidade.';
 $string['nodetailsavailable'] = 'Non hai detalles preditos relevantes.';
@@ -42,10 +42,10 @@ $string['outcomeverynegative'] = 'Resultado moi negativo';
 $string['outcomeverypositive'] = 'Resultado moi positivo';
 $string['pluginname'] = 'Estimacións';
 $string['prediction'] = 'Predicción';
-$string['predictioncalculations'] = 'Cálculos do indicador';
 $string['predictiondetails'] = 'Detalles da predición';
 $string['privacy:metadata'] = 'O engadido de estimacións non almacena ningún dato persoal.';
 $string['selectotherinsights'] = 'Seleccionar outras estimacións...';
+$string['selectprediction'] = 'Seleccionar {$a} para unha acción masiva';
 $string['timecreated'] = 'Tempo predito';
 $string['timerange'] = 'Intervalo de tempo';
 $string['timerangewithdata'] = '{$a->timestart} to {$a->timeend}';

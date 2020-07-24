@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,11 @@ $string['check_cookiesecure_details'] = '<p>https通信が有効にされた場�
 $string['check_cookiesecure_error'] = 'セキュアクッキーを有効にしてください。';
 $string['check_cookiesecure_name'] = 'セキュアクッキー';
 $string['check_cookiesecure_ok'] = 'セキュアクッキーは有効にされています。';
+$string['check_crawlers_details'] = '<p>Googleに公開する設定ではサーチエンジンがコースにゲストとしてログインできるようにします。ゲストログインが許可されていない場合、この設定の有効化は意味を持ちません。</p>';
+$string['check_crawlers_error'] = 'サーチエンジンによるゲストアクセスは許可されていますが、ゲストアクセスは無効にされています。';
+$string['check_crawlers_info'] = 'サーチエンジンはゲストとして入ることができます。';
+$string['check_crawlers_name'] = 'Googleに公開する';
+$string['check_crawlers_ok'] = 'サーチエンジンによるアクセスは有効にされていません。';
 $string['check_defaultuserrole_details'] = '<p>すべてのログインユーザにはデフォルトのユーザロールのケイパビリティが割り当てられます。このロールにリスクのあるケイパビリティが許可されていなことを確認してください。</p>
 <p>デフォルトのユーザロールでサポートされているレガシータイプのロールは「認証済みユーザ」のみです。コース閲覧ケイパビリティは有効にしないでください。</p>';
 $string['check_defaultuserrole_error'] = 'デフォルトユーザロール「 {$a} 」は正しくない定義です!';
@@ -59,11 +64,6 @@ $string['check_frontpagerole_error'] = '正しくないフロントページロ�
 $string['check_frontpagerole_name'] = 'フロントページロール';
 $string['check_frontpagerole_notset'] = 'フロントページロールが設定されていません。';
 $string['check_frontpagerole_ok'] = 'フロントページロール定義はOKです。';
-$string['check_google_details'] = '<p>Googleに公開する設定ではサーチエンジンがコースにゲストとしてログインできるようにします。ゲストログインが許可されていない場合、この設定の有効化は意味を持ちません。</p>';
-$string['check_google_error'] = 'サーチエンジンによるゲストアクセスは許可されていますが、ゲストアクセスは無効にされています。';
-$string['check_google_info'] = 'サーチエンジンはゲストとして入ることができます。';
-$string['check_google_name'] = 'Googleに公開する';
-$string['check_google_ok'] = 'サーチエンジンによるアクセスは有効にされていません。';
 $string['check_guestrole_details'] = '<p>ゲストロールはゲストに使用され、ログインユーザおよび一時的なゲストコースアクセスには使用されません。このロールにリスクのあるケイパビリティが許可されているかどうか確認してください。</p>
 <p>ゲストロールでサポートされているレガシータイプのロールは「ゲスト」のみです</p>';
 $string['check_guestrole_error'] = 'ゲストロール「 {$a} 」の定義は正しくありません!';

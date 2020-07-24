@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_replace', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_replace', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_replace
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['cannotfit'] = 'Het nieuwe is langer dan het origineel en korter maken is niet toegestaan. Kan niet verder.';
+$string['cannotfit'] = 'Het nieuwe is langer dan het origineel en korter maken is niet toegestaan. Kan niet verder gaan.';
 $string['disclaimer'] = 'Ik begrijp de risico\'s van deze opertatie:';
 $string['doit'] = 'Ja, doe maar!';
 $string['excludedtables'] = 'Er zijn verschillende tabellen niet aangepast bij het vervangen van tekst. Dit zijn configuratie, logs en sessietabellen.';

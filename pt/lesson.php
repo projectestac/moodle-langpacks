@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lesson', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,6 +61,9 @@ $string['addnumerical'] = 'Adicionar página de pergunta Numérica';
 $string['addpage'] = 'Inserir página';
 $string['addshortanswer'] = 'Adicionar página de pergunta de Resposta curta';
 $string['addtruefalse'] = 'Adicionar página de pergunta Verdadeiro/falso';
+$string['allotheranswers'] = 'Todas as outras respostas';
+$string['allotheranswersjump'] = 'Saltar todas as outras respostas';
+$string['allotheranswersscore'] = 'Avaliar todas as outras respostas';
 $string['allowofflineattempts'] = 'Permitir conclusão em modo offline com a Aplicação móvel';
 $string['allowofflineattempts_help'] = 'Se ativar esta opção, um utilizador pode descarregar a lição e tentar fazê-la offline através da Aplicação móvel. Todas as respostas possíveis e respostas corretas serão também descarregadas.
 Nota: Não é possível concluir uma lição offline caso esta tenha sido configurado com um limite de tempo.';
@@ -72,6 +75,8 @@ $string['answersfornumerical'] = 'As respostas a perguntas numéricas devem coin
 $string['arrangebuttonshorizontally'] = 'Alinhar os botões horizontalmente?';
 $string['attempt'] = 'Tentativa: {$a}';
 $string['attemptheader'] = 'Tentativa';
+$string['attemptinfonograde'] = '{$a->timestart} ({$a->duration})';
+$string['attemptinfowithgrade'] = '{$a->grade}% {$a->timestart} ({$a->duration})';
 $string['attempts'] = 'Tentativas';
 $string['attemptsdeleted'] = 'Tentativas apagadas';
 $string['attemptsremaining'] = 'Ainda pode realizar {$a} tentativa(s)';
@@ -123,8 +128,8 @@ $string['conditionsfordependency'] = 'Condições de dependência';
 $string['configintro'] = 'Os valores definidos aqui são os valores predefinidos utilizados nas configurações do formulário de criação de uma nova atividade Lição. As configurações especificadas como avançadas só serão mostradas quando clicar na hiperligação \'Mostrar mais...\'.';
 $string['configmaxanswers'] = 'Número máximo de respostas por página, por predefinição';
 $string['configmediaclose'] = 'Exibe um botão de fechar na janela de pop-up do conteúdo de suporte';
-$string['configmediaheight'] = 'Define a altura da janela de pop-up do conteúdo de suporte';
-$string['configmediawidth'] = 'Define a largura da janela de pop-up do conteúdo de suporte';
+$string['configmediaheight'] = 'Define a altura da janela pop-up do conteúdo de suporte';
+$string['configmediawidth'] = 'Define a largura da janela pop-up do conteúdo de suporte';
 $string['configpassword_desc'] = 'Se é necessária uma senha para aceder à Lição.';
 $string['configslideshowbgcolor'] = 'Cor de fundo para a apresentação de slides, se estiver ativa';
 $string['configslideshowheight'] = 'Define a altura da apresentação de slides, se ativa';
@@ -154,6 +159,7 @@ $string['deletingpage'] = 'A apagar página: {$a}';
 $string['dependencyon'] = 'Dependente de';
 $string['dependencyon_help'] = 'Esta opção permite que o acesso a esta lição dependa do desempenho do aluno noutra lição da mesma disciplina. Como critério pode ser usada qualquer combinação entre o tempo despendido, se completou a lição ou "nota melhor que".';
 $string['description'] = 'Designação';
+$string['deselectallattempts'] = 'Desselecionar todas as tentativas';
 $string['detailedstats'] = 'Estatísticas detalhadas';
 $string['didnotanswerquestion'] = 'Não respondeu a esta pergunta';
 $string['didnotreceivecredit'] = 'Não obteve qualquer pontuação';
@@ -167,7 +173,7 @@ $string['displayleftmenu'] = 'Exibir menu';
 $string['displayleftmenu_help'] = 'Se ativar esta opção, será exibido um menu que permite aos utilizadores navegar pela lista de páginas da Lição.';
 $string['displayofgrade'] = 'Exibição da nota (apenas para alunos)';
 $string['displayreview'] = 'Mostrar botão de \'Voltar a responder\'';
-$string['displayreview_help'] = 'Se ativar esta opção, quando uma pergunta é respondida de forma incorreta, é dado a escolher ao aluno se quer responder de novo sem obter a pontuação ou continuar a lição';
+$string['displayreview_help'] = 'Se ativar esta opção, quando uma pergunta é respondida de forma incorreta, é dado a escolher ao aluno se quer responder de novo sem obter a pontuação ou continuar a lição. Se o aluno clicar para passar para outra pergunta, a resposta selecionada (errada) será seguida. Por predefinição, os saltos de respostas erradas são definidos para "esta página" e têm uma pontuação de 0, por isso é recomendado que defina o salto de resposta errado para uma página diferente para evitar confusão aos seus alunos.';
 $string['displayscorewithessays'] = '<p>Obteve {$a->score} num máximo de {$a->tempmaxgrade} nas respostas avaliadas automaticamente.</p>
 <p>As suas respostas às perguntas de desenvolvimento ({$a->essayquestions}) serão avaliadas posteriormente e a pontuação correspondente será adicionada à pontuação final.</p>
 <p>A sua nota atual, sem as perguntas que faltam avaliar, é de  {$a->score} num máximo de {$a->grade}.</p>';
@@ -206,6 +212,7 @@ $string['eolstudentoutoftime'] = '<b>Atenção</b>: Terminou o tempo disponível
 $string['eolstudentoutoftimenoanswers'] = 'Não respondeu a nenhuma pergunta. Obteve uma classificação de 0 para esta lição.';
 $string['essay'] = 'Desenvolvimento';
 $string['essayemailmessage2'] = '<p>Pergunta de desenvolvimento: {$a->question}</p><p>A sua resposta: <em>{$a->response}</em></p><p>Comentários da avaliação: <em>{$a->comment}</em></p><p>Obteve {$a->earned} num máximo de {$a->outof} nesta pergunta de desenvolvimento.</p><p>A sua nota da lição \'{$a->lesson}\' foi alterada para {$a->newgrade}%.</p>';
+$string['essayemailmessagesmall'] = '<p>Obteve {$a->earned} de {$a->outof} nesta pergunta de desenvolvimento.</p><p>A sua nota na lição \'{$a->lesson}\' foi alterada para {$a->newgrade}%.</p>';
 $string['essayemailsubject'] = 'A sua nota da pergunta';
 $string['essaynotgradedyet'] = 'Esta pergunta de desenvolvimento ainda não foi avaliada';
 $string['essayresponses'] = 'Respostas à pergunta de desenvolvimento';
@@ -258,10 +265,14 @@ $string['hightime'] = 'Tempo máximo';
 $string['importcount'] = 'A importar {$a} perguntas';
 $string['importquestions'] = 'Importar questões';
 $string['importquestions_help'] = 'Esta opção permite importar perguntas de vários formatos a partir de um ficheiro de texto.';
-$string['inactiveoverridehelp'] = '* O aluno não se encontra num grupo ou não tem o papel correto para realizar esta lição';
+$string['inactiveoverridehelp'] = '* Essa substituição está inativa porque o acesso do utilizador à atividade é restrito. Pode ser devido ao grupo ou atribuições de papel, outras restrições de acesso ou atividade oculta.';
 $string['indicator:cognitivedepth'] = 'Compreensão da Lição';
+$string['indicator:cognitivedepthdef'] = 'Compreensão da Lição';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelas atividades Lição durante esse intervalo de análise (Níveis = Não visualizado, Visualizado, Submetido, Visualizado feedback, Comentários ao feedback, Voltar a submeter após visualizar feedback)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno na atividade Lição.';
 $string['indicator:socialbreadth'] = 'Socialização da Lição';
+$string['indicator:socialbreadthdef'] = 'Socialização da Lição';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelas atividades Lição durante esse intervalo de análise (Níveis = Sem participação, Participante individual, Participante com outros)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno na atividade Lição.';
 $string['insertedpage'] = 'Página inserida';
 $string['invalidfile'] = 'Ficheiro inválido';
@@ -316,8 +327,8 @@ $string['mediaclose'] = 'Mostrar botão de fechar';
 $string['mediafile'] = 'Ficheiros multimédia relacionados';
 $string['mediafile_help'] = 'Podem ser carregados ficheiros para utilização na Lição. Será mostrada uma hiperligação \'Clique aqui para ver\' num bloco com a designação \'Conteúdo de suporte\' em cada página da Lição.';
 $string['mediafilepopup'] = 'Clique aqui para ver';
-$string['mediaheight'] = 'Altura da janela de pop-up';
-$string['mediawidth'] = 'Largura da janela de pop-up';
+$string['mediaheight'] = 'Altura da janela pop-up';
+$string['mediawidth'] = 'Largura da janela pop-up';
 $string['messageprovider:graded_essay'] = 'Notificações sobre avaliação de perguntas de desenvolvimento';
 $string['minimumnumberofquestions'] = 'Número mínimo de perguntas';
 $string['minimumnumberofquestions_help'] = 'Esta opção define o número mínimo de perguntas que será usado para calcular a nota da atividade.';
@@ -377,6 +388,7 @@ $string['nooverridedata'] = 'Deverá definir uma exceção em pelo menos uma op�
 $string['noretake'] = 'Não pode repetir esta lição.';
 $string['normal'] = 'Normal - conforme sequência da lição';
 $string['notcompleted'] = 'Incompleta';
+$string['notcompletedwithdate'] = 'Não concluída ({$a})';
 $string['notdefined'] = 'Indefinido(a)';
 $string['notenoughsubquestions'] = 'Não foram definidas subperguntas suficientes!<br />Quer voltar atrás e corrigir a pergunta?';
 $string['notenoughtimespent'] = 'Completou esta lição em {$a->timespent}, o que é inferior ao tempo mínimo de realização de {$a->timerequired} . Poderá necessitar de iniciar uma nova tentativa de realização da lição.';
@@ -398,7 +410,7 @@ $string['ongoingcustom'] = 'Até agora obteve {$a->score} num máximo de {$a->cu
 $string['ongoing_help'] = 'Se ativar esta opção, cada página da lição exibirá a pontuação obtida pelo aluno e a máxima possível de obter na lição.';
 $string['ongoingnormal'] = 'Respondeu corretamente a {$a->correct} de {$a->viewed} perguntas.';
 $string['onpostperpage'] = 'Apenas um registo por nota';
-$string['openafterclose'] = 'Indicou uma data de abertura após a data de fecho';
+$string['openafterclose'] = 'Indicou uma data de abertura posterior à data de fecho';
 $string['options'] = 'Opções';
 $string['or'] = 'OU';
 $string['ordered'] = 'Por ordem';
@@ -478,6 +490,7 @@ $string['privacy:metadata:timer:starttime'] = 'A data/hora em que iniciou a tent
 $string['privacy:metadata:timer:timemodifiedoffline'] = 'O último momento em que a atividade foi registada na Aplicação móvel Moodle';
 $string['privacy:metadata:timer:userid'] = 'O ID do utilizador';
 $string['privacy:metadata:userpref:lessonview'] = 'A preferência do modo de exibição ao editar lições';
+$string['privacy:path:essayanswers'] = 'Respostas de desenvolvimento';
 $string['privacy:path:essayresponses'] = 'Respostas de desenvolvimento';
 $string['privacy:path:pages'] = 'Páginas';
 $string['processerror'] = 'Ocorreu um erro durante o processo!';
@@ -521,6 +534,7 @@ $string['score_help'] = 'A pontuação só é usada quando a pontuação persona
 $string['scores'] = 'Notas';
 $string['search:activity'] = 'Lição - informações da atividade';
 $string['secondpluswrong'] = 'Resposta incorreta. Quer voltar a tentar?';
+$string['selectallattempts'] = 'Selecionar todas as tentativas';
 $string['selectaqtype'] = 'Selecione tipo de pergunta';
 $string['sent'] = 'Enviado';
 $string['shortanswer'] = 'Resposta curta';
@@ -580,6 +594,7 @@ $string['viewreports2'] = 'Ver {$a} tentativas concluídas';
 $string['warning'] = 'Aviso';
 $string['welldone'] = 'Muito bem!';
 $string['whatdofirst'] = 'O que pretende fazer para começar?';
+$string['withselectedattempts'] = 'Com as tentativas selecionadas...';
 $string['wronganswerjump'] = 'Seguir para, se resposta errada';
 $string['wronganswerscore'] = 'Pontuação';
 $string['wrongresponse'] = 'Feedback para resposta errada';

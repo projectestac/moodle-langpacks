@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,13 +158,13 @@ $string['cannotstartmissingquestion'] = 'Cannot start an attempt at this quiz. T
 $string['cannotstartnoquestions'] = 'Cannot start an attempt at this quiz. The quiz has not been set up yet. No questions have been added.';
 $string['cannotwrite'] = 'Cannot write to export file ({$a})';
 $string['canredoquestions'] = 'Allow redo within an attempt';
-$string['canredoquestions_desc'] = 'If enabled, when a student has finished attempting a question, they will see a Redo question button. This allows them to attempt another version of the same question, without having to submit the entire quiz attempt and start another attempt. This option is useful for practice quizzes.
+$string['canredoquestions_desc'] = 'If enabled, after finishing attempting a question, a \'Try another question like this one\' button is displayed. This allows for a similar question (selected randomly) to be attempted, or the same question again, without the entire quiz attempt having to be submitted and another attempt started. This option is useful for practice quizzes.
 
-This setting only affects questions and behaviours (such as immediate feedback or interactive with multiple tries) where it is possible for student to finish the question before the attempt is submitted.';
-$string['canredoquestions_help'] = 'If enabled, when a student has finished attempting a question, they will see a Redo question button. This allows them to attempt another version of the same question, without having to submit the entire quiz attempt and start another attempt. This option is useful for practice quizzes.
+This setting only affects questions and behaviours (such as immediate feedback or interactive with multiple tries) where it is possible to finish a question before the attempt is submitted.';
+$string['canredoquestions_help'] = 'If enabled, after finishing attempting a question, a \'Try another question like this one\' button is displayed. This allows for a similar question (selected randomly) to be attempted, or the same question again, without the entire quiz attempt having to be submitted and another attempt started. This option is useful for practice quizzes.
 
-This setting only affects questions and behaviours (such as immediate feedback or interactive with multiple tries) where it is possible for student to finish the question before the attempt is submitted.';
-$string['canredoquestionsyes'] = 'Students may redo another version of any finished question';
+This setting only affects questions and behaviours (such as immediate feedback or interactive with multiple tries) where it is possible to finish a question before the attempt is submitted.';
+$string['canredoquestionsyes'] = 'Yes, provide the option to try another question';
 $string['caseno'] = 'No, case is unimportant';
 $string['casesensitive'] = 'Case sensitivity';
 $string['caseyes'] = 'Yes, case must match';
@@ -256,7 +256,7 @@ $string['decimalplaces'] = 'Decimal places in grades';
 $string['decimalplaces_help'] = 'This setting specifies the number of digits shown after the decimal point when displaying grades. It only affects the display of grades, not the grades stored in the database, nor the internal calculations, which are carried out to full accuracy.';
 $string['decimalplacesquestion'] = 'Decimal places in question grades';
 $string['decimalplacesquestion_help'] = 'This setting specifies the number of digits shown after the decimal point when displaying the grades for individual questions.';
-$string['decimalpoints'] = 'Decimal points';
+$string['decimalpoints'] = 'Decimal places';
 $string['default'] = 'Default';
 $string['defaultgrade'] = 'Default question grade';
 $string['defaultinfo'] = 'The default category for questions.';
@@ -343,6 +343,7 @@ $string['eventoverridedeleted'] = 'Quiz override deleted';
 $string['eventoverrideupdated'] = 'Quiz override updated';
 $string['eventquestionmanuallygraded'] = 'Question manually graded';
 $string['eventquizattemptabandoned'] = 'Quiz attempt abandoned';
+$string['eventquizattemptregraded'] = 'Quiz attempt regraded';
 $string['eventquizattemptstarted'] = 'Quiz attempt started';
 $string['eventquizattemptsubmitted'] = 'Quiz attempt submitted';
 $string['eventquizattempttimelimitexceeded'] = 'Quiz attempt time limit exceeded';
@@ -383,8 +384,8 @@ $string['functiondisabledbysecuremode'] = 'That functionality is currently disab
 $string['generalfeedback'] = 'General feedback';
 $string['generalfeedback_help'] = 'General feedback is text which is shown after a question has been attempted. Unlike feedback for a specific question which depends on the response given, the same general feedback is always shown.';
 $string['graceperiod'] = 'Submission grace period';
-$string['graceperiod_desc'] = 'If what to do when time expires is set to \'Allow a grace period to submit, but not change any responses\', this is the default amount of extra time that is allowed.';
-$string['graceperiod_help'] = 'If what to do when time expires is set to \'Allow a grace period to submit, but not change any responses\', this is the amount of extra time that is allowed.';
+$string['graceperiod_desc'] = 'If what to do when the time expires is set to \'There is a grace period...\', then this is the default amount of extra time that is allowed.';
+$string['graceperiod_help'] = 'If what to do when the time expires is set to \'There is a grace period...\', then this is the amount of extra time that is allowed.';
 $string['graceperiodmin'] = 'Last submission grace period';
 $string['graceperiodmin_desc'] = 'There is a potential problem right at the end of the quiz. On the one hand, we want to let students continue working right up until the last second - with the help of the timer that automatically submits the quiz when time runs out. On the other hand, the server may then be overloaded, and take some time to get to process the responses. Therefore, we will accept responses for up to this long after time expires, so they are not penalised for the server being slow. However, the student could cheat and get this many seconds to answer the quiz. You have to make a trade-off based on how much you trust the performance of your server during quizzes.';
 $string['graceperiodtoosmall'] = 'The grace period must be more than {$a}.';
@@ -434,11 +435,17 @@ $string['import_link'] = 'question/import';
 $string['importmax10error'] = 'There is an error in the question. You may not have more than ten answers';
 $string['importmaxerror'] = 'There is an error in the question. There are too many answers.';
 $string['importquestions'] = 'Import questions from file';
-$string['inactiveoverridehelp'] = '* Student does not have the correct group or role to attempt the quiz';
+$string['inactiveoverridehelp'] = '* This override is inactive because the user\'s access to the activity is restricted. This can be due to group or role assignments, other access restrictions, or the activity being hidden.';
 $string['incorrect'] = 'Incorrect';
 $string['indicator:cognitivedepth'] = 'Quiz cognitive';
+$string['indicator:cognitivedepthdef'] = 'Quiz cognitive';
+$string['indicator:cognitivedepthdef_help'] = 'The participant has reached this percentage of the cognitive engagement offered by the Quiz activities during this analysis interval (Levels = No view, View, Submit, View feedback, Comment on feedback, Resubmit after viewing feedback)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:cognitivedepth_help'] = 'This indicator is based on the cognitive depth reached by the student in a Quiz activity.';
 $string['indicator:socialbreadth'] = 'Quiz social';
+$string['indicator:socialbreadthdef'] = 'Quiz social';
+$string['indicator:socialbreadthdef_help'] = 'The participant has reached this percentage of the social engagement offered by the Quiz activities during this analysis interval (Levels = No participation, Participant alone, Participant with others)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['indicator:socialbreadth_help'] = 'This indicator is based on the social breadth reached by the student in a Quiz activity.';
 $string['indivresp'] = 'Responses of individuals to each item';
 $string['info'] = 'Info';
@@ -462,6 +469,8 @@ $string['layoutasshown'] = 'Page layout as shown.';
 $string['layoutasshownwithpages'] = 'Page layout as shown. <small>(Automatic new page every {$a} questions.)</small>';
 $string['layoutshuffledandpaged'] = 'Questions randomly shuffled with {$a} questions per page.';
 $string['layoutshuffledsinglepage'] = 'Questions randomly shuffled, all on one page.';
+$string['legacyquizaccessrulescron'] = 'Legacy cron quiz access rules';
+$string['legacyquizreportscron'] = 'Legacy cron quiz reports';
 $string['link'] = 'Link';
 $string['listitems'] = 'Listing of items in quiz';
 $string['literal'] = 'Literal';
@@ -866,6 +875,7 @@ $string['sectionheadingremove'] = 'Remove heading \'{$a}\'';
 $string['seequestions'] = '(See questions)';
 $string['select'] = 'Select';
 $string['selectall'] = 'Select all';
+$string['selectattempt'] = 'Select attempt';
 $string['selectcategory'] = 'Select category';
 $string['selectedattempts'] = 'Selected attempts...';
 $string['selectmultipleitems'] = 'Select multiple items';
@@ -967,6 +977,7 @@ $string['unfinished'] = 'open';
 $string['ungraded'] = 'Ungraded';
 $string['unit'] = 'Unit';
 $string['unknowntype'] = 'Question type not supported at line {$a}. The question will be ignored';
+$string['updateoverdueattemptstask'] = 'Updating overdue quiz attempts';
 $string['updatequizslotswithrandomxofy'] = 'Updating quiz slots with "random" question data ({$a->done}/{$a->total})';
 $string['updatesettings'] = 'Update quiz settings';
 $string['updatingatttemptgrades'] = 'Updating attempt grades.';

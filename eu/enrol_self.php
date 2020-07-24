@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_self', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -110,7 +110,7 @@ $string['sendcoursewelcomemessage'] = 'Bidali ikastarorako harrera-mezua';
 $string['sendcoursewelcomemessage_help'] = 'Erabiltzaileek beren burua ikastaro batean matrikulatzen dutenean ongi etorri e-maila jasoko dute. Ikastaroko kontaktuak bidaltzen badu (modu lehenetsian irakasleak) eta erabiltzaile batek baino gehiagok badute rol hori, e-maila rol hori daukan lehen erabiltzailearen izenean bidaliko da.';
 $string['sendexpirynotificationstask'] = 'Matrikulazio automatikoen iraungitze-jakinarazpenen bidalketa zeregina';
 $string['showhint'] = 'Erakutsi argibidea';
-$string['showhint_desc'] = 'Erakutsi bisitarien sarbide-giltzaren lehenbiziko letra';
+$string['showhint_desc'] = 'Erakutsi bisitarien sarbide-gakoaren lehenbiziko letra';
 $string['status'] = 'Baimendu existitzen diren matrikulazioak';
 $string['status_desc'] = 'Gaitu matrikulazio automatikoa ikastaro berrietan';
 $string['status_help'] = '\'Baimendu matrikula berriak\' aukerarekin batera gaituz gero, soilik aurretik auto-matrikulatutako erabiltzaileek izango dute ikastarorako sarbidea. Desgaituz gero matrikulazio automatikoki gehigarria desgaituko da, existitzen diren matrikulazioak etengo direlako eta erabiltzaile berriek ezingo dutelako bere burua matrikulatu.';

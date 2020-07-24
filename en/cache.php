@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cache', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addstoresuccess'] = 'Successfully added a new {$a} store.';
 $string['area'] = 'Area';
 $string['cacheadmin'] = 'Cache administration';
 $string['cacheconfig'] = 'Configuration';
+$string['cachedef_calculablesinfo'] = 'Analytics calculables info';
 $string['cachedef_calendar_categories'] = 'Calendar course categories that a user can access';
 $string['cachedef_calendar_subscriptions'] = 'Calendar subscriptions';
 $string['cachedef_capabilities'] = 'System capabilities list';
@@ -46,21 +47,25 @@ $string['cachedef_coursecattree'] = 'Course categories tree';
 $string['cachedef_coursecompletion'] = 'Course completion status';
 $string['cachedef_coursecontacts'] = 'List of course contacts';
 $string['cachedef_coursemodinfo'] = 'Accumulated information about modules and sections for each course';
+$string['cachedef_course_user_dates'] = 'The user dates for courses set to relative dates mode';
 $string['cachedef_databasemeta'] = 'Database meta information';
 $string['cachedef_eventinvalidation'] = 'Event invalidation';
 $string['cachedef_externalbadges'] = 'External badges for particular user';
 $string['cachedef_fontawesomeiconmapping'] = 'Mapping of icons for font awesome';
 $string['cachedef_grade_categories'] = 'Grade category queries';
+$string['cachedef_grade_letters'] = 'Grade letter queries';
 $string['cachedef_groupdata'] = 'Course group information';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier - cleaned content';
 $string['cachedef_langmenu'] = 'List of available languages';
 $string['cachedef_locking'] = 'Locking';
 $string['cachedef_message_processors_enabled'] = 'Message processors enabled status';
 $string['cachedef_message_time_last_message_between_users'] = 'Time created for most recent message in a conversation';
+$string['cachedef_modelfirstanalyses'] = 'First analysis by model and analysable';
 $string['cachedef_navigation_expandcourse'] = 'Navigation expandable courses';
 $string['cachedef_observers'] = 'Event observers';
 $string['cachedef_plugin_functions'] = 'Plugins available callbacks';
 $string['cachedef_plugin_manager'] = 'Plugin info manager';
+$string['cachedef_portfolio_add_button_portfolio_instances'] = 'Portfolio instances for portfolio_add_button class';
 $string['cachedef_postprocessedcss'] = 'Post processed CSS';
 $string['cachedef_presignup'] = 'Pre sign-up data for particular unregistered user';
 $string['cachedef_questiondata'] = 'Question definitions';
@@ -77,6 +82,7 @@ $string['cachedef_yuimodules'] = 'YUI Module definitions';
 $string['cachelock_file_default'] = 'Default file locking';
 $string['cachestores'] = 'Cache stores';
 $string['caching'] = 'Caching';
+$string['canuselocalstore'] = 'Can use local store';
 $string['component'] = 'Component';
 $string['confirmlockdeletion'] = 'Confirm lock deletion';
 $string['confirmstoredeletion'] = 'Confirm store deletion';
@@ -138,8 +144,11 @@ $string['plugin'] = 'Plugin';
 $string['pluginsummaries'] = 'Installed cache stores';
 $string['privacy:metadata:cachestore'] = 'The Cache subsystem stores data temporarily on behalf of other parts of Moodle. This data is not easily identifiable, and is very short lived. It serves as a cache of data stored elsewhere in Moodle, and should therefore already be handled by those Moodle components.';
 $string['purge'] = 'Purge';
+$string['purgeagain'] = 'Purge again';
 $string['purgedefinitionsuccess'] = 'Successfully purged the requested definition.';
 $string['purgestoresuccess'] = 'Successfully purged the requested store.';
+$string['purgexdefinitionsuccess'] = 'Successfully purged the "{$a->name}" cache ({$a->component}/{$a->area}).';
+$string['purgexstoresuccess'] = 'Successfully purged the "{$a->store}" store.';
 $string['requestcount'] = 'Test with {$a} requests';
 $string['rescandefinitions'] = 'Rescan definitions';
 $string['result'] = 'Result';

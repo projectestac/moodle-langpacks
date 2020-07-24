@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,10 +61,10 @@ $string['completion-alt-auto-pass'] = '已完成：{$a}（及格）';
 $string['completion-alt-auto-y'] = '已完成：{$a}';
 $string['completion-alt-auto-y-override'] = '已完成: {$a->modname} (由{$a->overrideuser}设置)';
 $string['completion-alt-manual-enabled'] = '学生可以手工标记此项为完成：{$a}';
-$string['completion-alt-manual-n'] = '未完成：{$a}。点击标记为完成。';
-$string['completion-alt-manual-n-override'] = '未完成: {$a->modname} (由 {$a->overrideuser}设置)。点击标记为完成。';
-$string['completion-alt-manual-y'] = '已完成：{$a}。点击标记为未完成。';
-$string['completion-alt-manual-y-override'] = '已完成: {$a->modname} (由{$a->overrideuser}设置)。点击标记为未完成。';
+$string['completion-alt-manual-n'] = '未完成：{$a}。选择标记为完成。';
+$string['completion-alt-manual-n-override'] = '未完成: {$a->modname} (由 {$a->overrideuser}设置)。选择标记为完成。';
+$string['completion-alt-manual-y'] = '已完成：{$a}。选择标记为未完成。';
+$string['completion-alt-manual-y-override'] = '已完成: {$a->modname} (由{$a->overrideuser}设置)。选择标记为未完成。';
 $string['completion_automatic'] = '当条件都满足时，将活动标为完成';
 $string['completiondefault'] = '完成进度跟踪默认设置';
 $string['completiondisabled'] = '禁用，不在活动设置页面显示';
@@ -92,8 +92,6 @@ $string['completionondate'] = '日期';
 $string['completionondatevalue'] = '用户必须在此日期之前一直保持选课';
 $string['completion-pass'] = '已完成（及格）';
 $string['completionsettingslocked'] = '完成设置已锁定';
-$string['completion-title-manual-n'] = '标记为完成：{$a}';
-$string['completion-title-manual-y'] = '标记为未完成：{$a}';
 $string['completionusegrade'] = '必须有成绩';
 $string['completionusegrade_desc'] = '学生必须获得成绩才能完成此活动';
 $string['completionusegrade_help'] = '如果激活，此活动在学生获得成绩时被标记为完成。如果活动设置了及格线，那么会显示及格或未及格图标。';

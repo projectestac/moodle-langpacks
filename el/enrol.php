@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['addinstance'] = 'Προσθήκη μεθόδου';
 $string['addinstanceanother'] = 'Προσθήκη μεθόδου και δημιουργία μιας άλλης';
 $string['ajaxnext25'] = 'Επόμενοι 25...';
 $string['ajaxoneuserfound'] = 'Βρέθηκε ένας χρήστης';
+$string['ajaxxmoreusersfound'] = 'Βρέθηκαν περισσότεροι από {$a} χρήστες';
 $string['ajaxxusersfound'] = 'Βρέθηκαν {$a} χρήστες';
 $string['assignnotpermitted'] = 'Δεν έχετε δικαίωμα ή δεν μπορείτε να αναθέσετε ρόλους σε αυτό το μάθημα.';
 $string['bulkuseroperation'] = 'Μαζικές λειτουργίες χρήστη';
@@ -102,6 +103,7 @@ $string['foundxcohorts'] = 'Βρέθηκαν {$a} ομάδες χρηστών';
 $string['instanceadded'] = 'Η μέθοδος προστέθηκε';
 $string['instanceeditselfwarning'] = 'Προειδοποίηση:';
 $string['instanceeditselfwarningtext'] = 'Είστε εγγεγραμμένοι σε αυτό το μάθημα μέσω αυτής της μεθόδου εγγραφής· οι αλλαγές μπορεί να επηρεάσουν την πρόσβασή σας σε αυτό το μάθημα.';
+$string['invalidenrolduration'] = 'Μη έγκυρη διάρκεια εγγραφής';
 $string['invalidenrolinstance'] = 'Μη έγκυρο στιγμιότυπο εγγραφής';
 $string['invalidrequest'] = 'Άκυρο αίτημα';
 $string['invalidrole'] = 'Μη επιτρεπτός ρόλος';
@@ -149,6 +151,7 @@ $string['testsettings'] = 'Δοκιμαστικές ρυθμίσεις';
 $string['testsettingsheading'] = 'Ελέγξτε τις ρυθμίσεις εγγραφής - {$a}';
 $string['totalenrolledusers'] = '{$a} εγγεγραμμένοι χρήστες';
 $string['totalotherusers'] = '{$a} άλλοι χρήστες';
+$string['totalunenrolledusers'] = '{$a} μη εγγεγραμμένοι χρήστες';
 $string['unassignnotpermitted'] = 'Δεν έχετε δικαίωμα να αφαιρέσετε αναθέσεις ρόλων σε αυτό το μάθημα';
 $string['unenrol'] = 'Ακύρωση εγγραφής';
 $string['unenrolconfirm'] = 'Είστε βέβαιοι ότι θέλετε να ακυρώσετε την εγγραφή του χρήστη «{$a->user}» (που έγινε μέσω «{$a->enrolinstancename}») από το μάθημα «{$a->course}»;';
@@ -161,3 +164,5 @@ $string['unlimitedduration'] = 'Χωρίς περιορισμό';
 $string['userremovedfromselectiona'] = 'Ο χρήστης «{$a}» αφαιρέθηκε από την επιλογή.';
 $string['usersearch'] = 'Αναζήτηση';
 $string['withselectedusers'] = 'Με επιλεγμένους χρήστες';
+$string['youenrolledincourse'] = 'Είστε εγγεγραμμένος στο μάθημα.';
+$string['youunenrolledfromcourse'] = 'Έχετε διαγραφεί από το μάθημα «{$a}».';

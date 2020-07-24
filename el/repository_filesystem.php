@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_filesystem', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_filesystem', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_filesystem
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['blockedpath'] = 'Φραγμένη στη ρίζα διαδρομή αρχείων';
 $string['configplugin'] = 'Ρυθμίσεις αποθετηρίου συστήματος αρχείων';
+$string['crontask'] = 'Επεξεργασία παρασκηνίου για το αποθετήριο συστήματος αρχείων';
 $string['donotusesysdir'] = 'Μην χρησιμοποιείται καταλόγους συστήματος ως αποθετήρια, περιλαμβάνοντας';
 $string['enablecourseinstances'] = 'Να επιτρέπεται στους διαχειριστές να προσθέτουν στιγμιότυπο αποθετηρίου σε μάθημα (μπορεί να ρυθμιστεί μόνο από διαχειριστές)';
 $string['enableuserinstances'] = 'Να επιτρέπεται στους διαχειριστές να προσθέτουν στιγμιότυπο αποθετηρίου στο πλαίσιο χρήστη (μπορεί να ρυθμιστεί μόνο από διαχειριστές)';

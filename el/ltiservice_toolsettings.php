@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'ltiservice_toolsettings', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'ltiservice_toolsettings', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   ltiservice_toolsettings
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['allow'] = 'Χρήση αυτής της υπηρεσίας';
+$string['ltiservice_toolsettings'] = 'Ρυθμίσεις εργαλείου';
+$string['ltiservice_toolsettings_help'] = 'Επιτρέψτε στο εργαλείο να αποθηκεύει και να ανακτά τιμές ρύθμισης.';
+$string['notallow'] = 'Μην χρησιμοποιείτε αυτήν την υπηρεσία';
 $string['pluginname'] = 'Υπηρεσία ρυθμίσεων εργαλείων';
 $string['privacy:metadata'] = 'Το πρόσθετο «Υπηρεσία ρυθμίσεων εργαλείων» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

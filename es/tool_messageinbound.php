@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_messageinbound', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,6 +86,9 @@ $string['messageprocessingsuccess'] = '{$a->plain}
 Si en el futuro no desea recibir estas notificaciones, puede editar las preferencias personales de los mensajes abriendo {$a->messagepreferencesurl} en su navegador.';
 $string['messageprocessingsuccesshtml'] = '{$a->html}
 <p>Si en el futuro no desea recibir estas notificaciones, puede <a href="{$a->messagepreferencesurl}">editar las preferencias personales de los mensajes</a>.</p>';
+$string['messageprovider:invalidrecipienthandler'] = 'Mensaje para confirmar que recibiste un mensaje entrante';
+$string['messageprovider:messageprocessingerror'] = 'Advertencia cuando no se pudo procesar un mensaje entrante';
+$string['messageprovider:messageprocessingsuccess'] = 'Confirmación de que un mensaje se procesó correctamente';
 $string['name'] = 'Nombre';
 $string['noencryption'] = 'Desactivado: sin encriptación';
 $string['noexpiry'] = 'Sin caducidad';

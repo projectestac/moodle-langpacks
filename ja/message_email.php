@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_email', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message_email', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   message_email
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['email'] = 'メール通知送信先';
+$string['emaildigestsubject'] = 'メッセージダイジェスト';
+$string['emaildigestunreadmessages'] = '未読メッセージ';
+$string['emaildigestviewallmessages'] = 'すべてのメッセージを表示する';
 $string['emailonlyfromnoreplyaddress'] = '常にno-replyアドレスからメールを送信する';
 $string['ifemailleftempty'] = '{$a} に通知を送信するには空白にしてください。';
 $string['pluginname'] = 'メール';
@@ -34,8 +37,13 @@ $string['privacy:metadata:attachname'] = '添付ファイル名です (拡張子
 $string['privacy:metadata:externalpurpose'] = 'この情報は最終的に受信者へのメールとして送信するため外部SMTPサーバに送信されます。';
 $string['privacy:metadata:fullmessage'] = '所与のフォーマットの完全なメッセージです。';
 $string['privacy:metadata:fullmessagehtml'] = 'メッセージのフルバージョンです。';
+$string['privacy:metadata:message_email_messages'] = 'LTIプロバイダ経由で登録したユーザの一覧です。';
+$string['privacy:metadata:message_email_messages:conversationid'] = '送信される会話のIDです。';
+$string['privacy:metadata:message_email_messages:messageid'] = '送信されるメッセージのIDです。';
+$string['privacy:metadata:message_email_messages:useridto'] = 'メッセージを受信するユーザのIDです。';
 $string['privacy:metadata:recipient'] = 'メッセージの受信者です。';
 $string['privacy:metadata:replyto'] = '返信先のメールアドレスです。';
 $string['privacy:metadata:replytoname'] = '受信者への返信名です。';
 $string['privacy:metadata:subject'] = 'メッセージの件名行です。';
 $string['privacy:metadata:userfrom'] = 'メッセージを送信したユーザです。';
+$string['tasksendemail'] = 'メッセージダイジェストメーリング';

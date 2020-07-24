@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'course', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'course', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   course
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,27 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['aria:coursecategory'] = 'Categoria de curs';
 $string['aria:courseimage'] = 'Imatge de curs';
 $string['aria:coursename'] = 'Nom del curs';
 $string['aria:courseshortname'] = 'Nom curt del curs';
 $string['aria:favourite'] = 'És un curs destacat';
+$string['coursealreadyfinished'] = 'El curs ja ha acabat';
+$string['coursenotyetfinished'] = 'El curs encara no ha acabat';
+$string['coursenotyetstarted'] = 'El curs encara no ha començat';
+$string['coursetoolong'] = 'El curs és massa llarg';
+$string['customfield_islocked'] = 'Tancat';
+$string['customfield_notvisible'] = 'Ningú';
+$string['customfield_visibility'] = 'Visible per a';
+$string['customfield_visibletoall'] = 'Tothom';
+$string['customfield_visibletoteachers'] = 'Professors';
+$string['errorendbeforestart'] = 'La data de finalització del curs {$a}) és anterior a la data d\'inici del curs.';
 $string['favourite'] = 'Curs destacat';
+$string['gradetopassnotset'] = 'El curs no té habilitada cap qualificació per aprovar. Es pot habilitar en l\'element de qualificació del curs (Configuració del llibre de qualificacions).';
+$string['nocourseactivity'] = 'No hi ha hagut prou activitat al curs entre l\'inici i el final del curs.';
+$string['nocourseendtime'] = 'El curs no té una data de finalització';
+$string['nocoursesections'] = 'No hi ha cap secció al curs';
+$string['nocoursestudents'] = 'No hi ha cap estudiant';
 $string['privacy:completionpath'] = 'Compleció del curs';
 $string['privacy:metadata:completionsummary'] = 'El curs conté informació de compleció sobre l\'usuari.';
 $string['privacy:metadata:favouritessummary'] = 'El curs conté informació relacionada amb el curs destacat per l\'usuari.';

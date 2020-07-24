@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_guide', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,12 +27,15 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addcomment'] = 'Ajouter un commentaire fréquemment utilisé';
 $string['addcriterion'] = 'Ajouter un critère';
+$string['additionalcomments'] = 'Commentaires additionnels';
+$string['additionalcommentsforcriterion'] = 'Commentaires supplémentaires pour le critère, {$a}';
 $string['alwaysshowdefinition'] = 'Afficher le guide d\'évaluation aux participants';
 $string['backtoediting'] = 'Retour à la modification';
 $string['clicktocopy'] = 'Cliquer pour copier ce texte dans le feedback du critère';
 $string['clicktoedit'] = 'Cliquer pour modifier';
 $string['clicktoeditname'] = 'Cliquer pour modifier le nom du critère';
 $string['comment'] = 'Commentaire';
+$string['commentpickerforcriterion'] = 'Sélecteur de commentaires fréquents d\'utilisateurs pour les commentaires supplémentaires';
 $string['comments'] = 'Commentaires fréquemment utilisés';
 $string['commentsdelete'] = 'Supprimer le commentaire';
 $string['commentsempty'] = 'Cliquer pour modifier le commentaire';
@@ -69,10 +72,12 @@ $string['guideoptions'] = 'Options du guide d\'évaluation';
 $string['guidestatus'] = 'État du guide d\'évaluation actuel';
 $string['hidemarkerdesc'] = 'Cacher les descriptions des critères pour les évaluateurs';
 $string['hidestudentdesc'] = 'Cacher les descriptions des critères pour les participants';
+$string['informationforcriterion'] = 'Information sur {$a}';
 $string['insertcomment'] = 'Insérer un commentaire utilisé souvent';
 $string['maxscore'] = 'Note maximale';
 $string['name'] = 'Nom';
 $string['needregrademessage'] = 'Le guide d\'évaluation a été modifié après que cet participant a été évalué. Le participant ne pourra voir ce guide que lorsque vous aurez vérifié le guide et modifié la note.';
+$string['outof'] = 'Score sur {$a}';
 $string['pluginname'] = 'Guide d\'évaluation';
 $string['previewmarkingguide'] = 'Prévisualiser le guide d\'évaluation';
 $string['privacy:metadata:criterionid'] = 'Un identifiant de critère pour l\'évaluation avancée.';
@@ -91,6 +96,8 @@ $string['save'] = 'Enregistrer';
 $string['saveguide'] = 'Enregistrer le guide d\'évaluation et le rendre disponible';
 $string['saveguidedraft'] = 'Enregistrer comme brouillon';
 $string['score'] = 'Note';
+$string['scoreforcriterion'] = 'Score pour {$a}';
+$string['score_help'] = 'Saisir pour {$a->criterion} un score entre 0 et {$a->maxscore}.';
 $string['showmarkerdesc'] = 'Afficher les descriptions des critères pour les évaluateurs';
 $string['showmarkspercriterionstudents'] = 'Afficher aux participants les notes par critère';
 $string['showstudentdesc'] = 'Afficher les descriptions des critères pour les participants';

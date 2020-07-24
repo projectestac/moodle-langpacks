@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'chat', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,7 +39,7 @@ $string['chat:exportsession'] = '导出所有聊天会话';
 $string['chatintro'] = '简要描述';
 $string['chatname'] = '聊天室名称';
 $string['chat:readlog'] = '阅读聊天日志';
-$string['chatreport'] = '聊天话题';
+$string['chatreport'] = '聊天会话';
 $string['chat:talk'] = '发言';
 $string['chattime'] = '聊天开始时间';
 $string['compact'] = '紧凑';
@@ -54,13 +54,14 @@ $string['configserverip'] = '与上面的域名相对应的 IP 地址';
 $string['configservermax'] = '最多允许多少客户端';
 $string['configserverport'] = '服务器上聊天室进程所使用的端口';
 $string['coursetheme'] = '课程主题';
+$string['crontask'] = '聊天模块后台处理';
 $string['currentchats'] = '当前话题';
 $string['currentusers'] = '当前用户';
 $string['deletesession'] = '删除该主题';
 $string['deletesessionsure'] = '确定删除该主题吗?';
 $string['donotusechattime'] = '不显示聊天时间';
 $string['enterchat'] = '进入聊天室';
-$string['entermessage'] = '输入您的信息';
+$string['entermessage'] = '输入您的消息';
 $string['errornousers'] = '没有用户';
 $string['eventmessagesent'] = '信息发送';
 $string['eventsessionsviewed'] = '查看会话时间';
@@ -126,7 +127,7 @@ $string['serverip'] = '服务器 IP';
 $string['servermax'] = '最大用户数';
 $string['serverport'] = '服务器端口';
 $string['sessions'] = '聊天记录';
-$string['sessionstart'] = '聊天话题开始时间：{$a}';
+$string['sessionstart'] = '下一个聊天会话将在{$a->date}开始，({$a->fromnow} 从现在起)';
 $string['strftimemessage'] = '%H:%M';
 $string['studentseereports'] = '是否所有人都可查看聊天记录';
 $string['studentseereports_help'] = '如果选否，那么只有具有mod/chat:readlog权限的用户可以看到聊天历史';
@@ -142,4 +143,4 @@ $string['usingchat_help'] = '聊天室模块提供了一些功能以让聊天更
 * 表演 - 在行首添加“/me”或者“:”可以将这行变成动作描述。例如，假设您叫柱子，那么您输入了“:手舞足蹈！”或者“/me 手舞足蹈！”，则所有人都会看到“柱子手舞足蹈！”</dd>
 * 呼叫 - 您可以通过点击别人姓名旁的“呼叫”链接发送一个声音给他。要想一下子呼叫所有的人，可以输入“beep all”
 * HTML - 如果您知道如何使用HTML，您可以使用它们，这样就可以插入图片、播放声音或者创建不同颜色的文字';
-$string['viewreport'] = '查看聊天记录';
+$string['viewreport'] = '查看过去的聊天会话';

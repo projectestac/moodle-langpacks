@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_database', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'logstore_database', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   logstore_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['buffersize_help'] = 'عدد إدخالات السجل التي يتم �
 $string['conectexception'] = 'لا يمكن الاتصال بقاعدة البيانات.';
 $string['create'] = 'إنشاء';
 $string['databasecollation'] = 'ترتيب قاعدة البيانات';
-$string['databasehandlesoptions'] = 'قاعدة بيانات يعالج الخيارات';
+$string['databasehandlesoptions'] = 'قاعدة بيانات تعالج الخيارات';
 $string['databasehandlesoptions_help'] = 'هل تعالج قاعدة البيانات عن بعد خياراتها الخاصة.';
 $string['databasepersist'] = 'اتصالات قاعدة البيانات المستمرة';
 $string['databaseschema'] = 'مخطط قاعدة البيانات';
@@ -42,6 +42,8 @@ $string['filters'] = 'تصفية السجلات';
 $string['filters_help'] = 'تمكين عوامل التصفية التي تستبعد بعض الإجراءات من التسجيل.';
 $string['includeactions'] = 'تشمل الإجراءات من هذه الأنواع';
 $string['includelevels'] = 'تشمل الإجراءات مع هذه المستويات التعليمية';
+$string['jsonformat'] = 'تنسيق JSON';
+$string['jsonformat_desc'] = 'استخدم تنسيق JSON القياسي بدلاً من البيانات التسلسلية لـ PHP في حقل قاعدة البيانات "الآخر".';
 $string['logguests'] = 'تسجيل إجراءات الضيف';
 $string['other'] = 'آخر';
 $string['participating'] = 'المشاركة';

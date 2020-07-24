@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'glossary', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,6 +158,7 @@ $string['entryexported'] = 'エントリが正常にエクスポートされま�
 $string['entryishidden'] = '( このエントリは現在非表示にされています)';
 $string['entryleveldefaultsettings'] = 'エントリレベルのデフォルト設定';
 $string['entrylink'] = 'エントリリンク: {$a}';
+$string['entrynotapproved'] = 'エントリが承認されていません。';
 $string['entrysaved'] = 'このエントリが保存されました。';
 $string['entryupdated'] = 'このエントリが更新されました。';
 $string['entryusedynalink'] = 'このエントリを自動的にリンクさせる';
@@ -221,8 +222,12 @@ $string['importentries'] = 'エントリをインポートする';
 $string['importentriesfromxml'] = 'エントリをXMLファイルからインポートする';
 $string['includegroupbreaks'] = 'グループ区切りを含む';
 $string['indicator:cognitivedepth'] = '用語集認知的';
+$string['indicator:cognitivedepthdef'] = '用語集認知的';
+$string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者が用語集活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信)。';
 $string['indicator:cognitivedepth_help'] = 'この指標は用語集活動で学生が到達した認識深度に基づきます。';
 $string['indicator:socialbreadth'] = '用語集社会的';
+$string['indicator:socialbreadthdef'] = '用語集社会的';
+$string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者が用語集活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加)。';
 $string['indicator:socialbreadth_help'] = 'この指標は用語集活動で学生が到達した社会的広がりに基づきます。';
 $string['isglobal'] = 'これはグローバル用語集ですか?';
 $string['isglobal_help'] = '用語集エントリがコース内でのみリンクされるのに対してグローバル用語集はサイト全体からリンクされるエントリを持つことができます。管理者のみ用語集をグローバルに設定することができます。';

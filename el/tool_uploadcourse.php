@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploadcourse', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploadcourse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -92,9 +92,12 @@ $string['invalidcourseformat'] = 'Μη έγκυρος τύπος μαθήματ�
 $string['invalidcsvfile'] = 'Μη έγκυρο αρχείο CSV εισόδου';
 $string['invalidencoding'] = 'Μη έγκυρη κωδικοποίηση';
 $string['invalideupdatemode'] = 'Έχει επιλεγεί μη έγκυρη λειτουργία ενημέρωσης';
+$string['invalidfullnametoolong'] = 'Το πεδίο πλήρους ονόματος περιορίζεται σε {$a} χαρακτήρες';
 $string['invalidmode'] = 'Έχει επιλεγεί μη έγκυρη λειτουργία';
 $string['invalidroles'] = 'Μη έγκυρα ονόματα ρόλων: {$a}';
 $string['invalidshortname'] = 'Μη έγκυρο σύντομο όνομα';
+$string['invalidshortnametoolong'] = 'Το πεδίο σύντομου ονόματος περιορίζεται σε {$a} χαρακτήρες';
+$string['invalidvisibilitymode'] = 'Μη έγκυρη κατάσταση λειτουργίας ορατότητας';
 $string['missingmandatoryfields'] = 'Λείπει τιμή για υποχρεωτικά πεδία: {$a}';
 $string['missingshortnamenotemplate'] = 'Λείπει το σύντομο όνομα και δεν έχει οριστεί υπόδειγμα σύντομου ονόματος';
 $string['mode'] = 'Τρόπος ανεβάσματος';

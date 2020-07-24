@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_file', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignfeedback_file', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   assignfeedback_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,6 +47,7 @@ $string['maximumsize'] = '최대 파일 크기';
 $string['moreusers'] = '{$a} 이상';
 $string['nochanges'] = '변경 없음';
 $string['pluginname'] = '파일 피드백';
+$string['privacy:path'] = '피드백 파일';
 $string['selectedusers'] = '사용자 선택';
 $string['uploadfiles'] = '피드백 파일 보내기';
 $string['uploadzip'] = 'zip 파일로 여러 피드백 파일 업로드';

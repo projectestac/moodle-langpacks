@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_dropbox', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_dropbox', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_dropbox
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['apikey'] = 'API Key';
 $string['cachelimit'] = 'Cache-Begrenzung';
 $string['cachelimit_info'] = 'Legen Sie die maximale Dateigröße (in Bytes) fest, die auf dem Server bei Dropbox Aliases/Verknüpfungen gecacht werden soll. Gecachte Dateien werden genutzt, wenn die Quelldatei nicht verfügbar ist. Leere Einträge oder der Wert \'0\' bedeuten, dass alle Dateien unabhängig von ihrer Größe gecacht werden.';
 $string['configplugin'] = 'Einstellungen für Dropbox';
+$string['crontask'] = 'Hintergrundprozess für Dropbox Repository';
 $string['dropbox'] = 'Dropbox';
 $string['dropbox:view'] = 'Dropbox-Dateien anzeigen';
 $string['instruction'] = 'Sie erhalten API Key und Secret von: <a href="http://www.dropbox.com/developers/apps">Dropbox Developers</a>. Bei der Beantragung wählen Sie bitte "Full Dropbox" als "Access level".';

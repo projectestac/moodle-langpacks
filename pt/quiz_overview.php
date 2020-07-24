@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_overview', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,13 +67,15 @@ $string['regradealldrydogroup'] = 'Reavaliar tentativas ({$a->countregradeneeded
 $string['regradealldrygroup'] = 'Reavaliar todo o grupo \'{$a->groupname}';
 $string['regradeallgroup'] = 'Reavaliação total do grupo \'{$a->groupname}\'';
 $string['regradecomplete'] = 'Reavaliação concluída com sucesso';
+$string['regradedsuccessfullyxofy'] = 'Reavaliado com sucesso ({$a->done}/{$a->count})';
 $string['regradeheader'] = 'A reavaliar';
 $string['regradeselected'] = 'Reavaliar as tentativas selecionadas';
 $string['regradingattemptxofy'] = 'Reavaliando a tentativa ({$a->done}/{$a->count})';
+$string['regradingattemptxofywithdetails'] = 'A reavaliar tentativa ({$a->done}/{$a->count}) - Tentativa {$a->attemptnum} de {$a->name} (ID {$a->attemptid})';
 $string['show'] = 'Mostrar';
 $string['showattempts'] = 'Incluir tentativas';
 $string['showdetailedmarks'] = 'Notas de cada pergunta';
 $string['showinggraded'] = 'A mostrar apenas as tentativas que contam para a nota final de cada aluno';
-$string['showinggradedandungraded'] = 'A mostrar tentativas que contam, ou não, para a nota final de cada aluno. A tentativa do aluno que conta para a nota final está assinalada. O método de avaliação deste Teste é {$a}.';
+$string['showinggradedandungraded'] = 'A mostrar tentativas que contam, ou não, para a nota final de cada aluno. A tentativa do aluno que conta para a nota final está assinalada. O método de avaliação deste teste é {$a}.';
 $string['studentingroup'] = '\'{$a->coursestudent}\' no grupo \'{$a->groupname}';
 $string['studentingrouplong'] = '\'{$a->coursestudent}\' neste grupo';

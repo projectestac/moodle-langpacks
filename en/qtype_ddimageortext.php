@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_ddimageortext', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_ddimageortext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,7 +62,9 @@ $string['pluginnameadding'] = 'Adding drag and drop onto image';
 $string['pluginnameediting'] = 'Editing drag and drop onto image';
 $string['pluginname_help'] = 'Drag and drop onto image questions require the respondent to drag images or text labels and drop them into defined drop zones on a background image. Draggable items may be grouped so that all items in a particular group are coloured the same as the drop zones. Draggable items marked as unlimited may be dropped into more than one zone.';
 $string['pluginname_link'] = 'question/type/ddimageortext';
-$string['pluginnamesummary'] = 'Images or text labels are dragged and dropped into drop zones on a background image.';
+$string['pluginnamesummary'] = 'Images or text labels are dragged and dropped into drop zones on a background image.
+
+Note: This question type is not accessible to users who are visually impaired.';
 $string['previewareaheader'] = 'Preview';
 $string['previewareamessage'] = 'Select a background image, specify draggable items and define drop zones on the background image into which they must be dragged.';
 $string['privacy:metadata'] = 'The Drag and drop onto image question type plugin does not store any personal data.';

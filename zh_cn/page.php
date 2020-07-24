@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'page', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,13 +41,13 @@ $string['legacyfilesactive'] = '活动的';
 $string['legacyfilesdone'] = '已结束';
 $string['modulename'] = '网页';
 $string['modulename_help'] = '在课程中显示和编辑Web页面。';
-$string['modulenameplural'] = '网页';
+$string['modulenameplural'] = '页面';
 $string['optionsheader'] = '选项';
 $string['page:addinstance'] = '添加新的页面资源';
 $string['page-mod-page-x'] = '任意网页模块页面';
 $string['page:view'] = '查看页面内容';
 $string['pluginadministration'] = '网页模块管理';
-$string['pluginname'] = '网页';
+$string['pluginname'] = '页面';
 $string['popupheight'] = '弹出窗口高度（单位：像素）';
 $string['popupheightexplain'] = '指定弹出窗口的缺省高度。';
 $string['popupwidth'] = '弹出窗口宽度（单位：像素）';

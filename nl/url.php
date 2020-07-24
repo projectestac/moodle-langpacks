@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'url', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,8 +47,12 @@ $string['displayselect_help'] = 'Deze instelling, samen met het bestandstype van
 $string['externalurl'] = 'Externe URL';
 $string['framesize'] = 'Frame hoogte';
 $string['indicator:cognitivedepth'] = 'URL cognitief';
+$string['indicator:cognitivedepthdef'] = 'URL cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid bereikt die door de URL-bronnen wordt aangeboden tijdens dit analyse-interval (Niveaus = Geen weergave, Weergave)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een URL bron.';
 $string['indicator:socialbreadth'] = 'URL sociaal';
+$string['indicator:socialbreadthdef'] = 'URL sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid bereikt die wordt aangeboden door de URL-bronnen tijdens dit analyse-interval (Niveaus = Geen deelname, alleen deelnemer)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een URL bron.';
 $string['invalidstoredurl'] = 'Kan deze bron niet tonen, URL is niet geldig.';
 $string['invalidurl'] = 'Externe URL is niet geldig';

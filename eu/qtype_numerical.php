@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_numerical', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_numerical', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_numerical
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,7 +49,7 @@ $string['multiplier'] = 'Biderkatzailea';
 $string['nominal'] = 'Nominala';
 $string['noneditableunittext'] = 'Editatu EZIN den testua 1. Unitaterako';
 $string['nonvalidcharactersinnumber'] = 'Zenbakian karaktere EZ baliagarriak';
-$string['notenoughanswers'] = 'Gutxienez erantzun bat idatzi behar duzu';
+$string['notenoughanswers'] = 'Gutxienez erantzun bat zehaztu behar duzu';
 $string['nounitdisplay'] = 'Ez dago kalifikaziorako unitaterik';
 $string['numericalmultiplier'] = 'Biderkatzailea';
 $string['numericalmultiplier_help'] = 'Biderkatzailea erantzun zuzenaren zenbakia biderkatuko duen faktorea da.
@@ -87,7 +87,7 @@ $string['unitmandatory_help'] = '* Erantzuna idatzitako unitatea erabilita kalif
 
 * Unitatearen penalizazioa aplikatuko da unitatearen eremua hutsik utziz gero.';
 $string['unitnotselected'] = 'Unitatea aukeratu behar duzu.';
-$string['unitonerequired'] = 'Gutxienez unitate bat idatzi behar duzu';
+$string['unitonerequired'] = 'Gutxienez unitate bat zehaztu behar duzu';
 $string['unitoptional'] = 'Aukerako unitatea';
 $string['unitoptional_help'] = '* Unitatearen eremua hutsik ez badago, erantzuna unitate hori erabilita kalifikatuko da.
 
@@ -110,4 +110,4 @@ $string['validnumberformats_help'] = '* zenbaki arruntak 13500.67, 13 500.67, 13
 $string['validnumbers'] = '13500.67, 13 500.67, 13,500.67, 13500,67, 13 500,67, 1.350067 E4 edo 1.350067 E04';
 $string['xmustbenumeric'] = '{$a}-(e)k zenbakia izan behar du.';
 $string['xmustnotbenumeric'] = '{$a}-(e)k ezin da zenbakia.';
-$string['youmustenteramultiplierhere'] = 'Biderkatzaile bat idatzi behar duzu';
+$string['youmustenteramultiplierhere'] = 'Biderkatzaile bat zehaztu behar duzu';

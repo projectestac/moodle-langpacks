@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_installaddon', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_installaddon', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_installaddon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,7 @@ $string['installfromzipfile'] = 'ZIP paketea';
 $string['installfromzipfile_help'] = 'Pluginaren ZIP paketeak direktorioa bakarra izan behar du, eta pluginaren izenarekin bat etorri behar da. ZIParen edukia plugin-motari dagokion kokapenean erauziko da. Paketea Moodleko plugin-biltegitik jaitsi bada direktorioak egitura hau izango du.';
 $string['installfromzip_help'] = 'Plugina zuzenean Moodleko plugin-biltegitik instalatzearen modu alternatibo bat plugina duen ZIP paketea igotzea da. ZIP paketeak Moodleko plugin-biltegitik jaitsitakoa paketearen egitura bera izan beharko du.';
 $string['installfromzipinvalid'] = 'Pluginaren ZIP paketeak direktorioa bakarra izan behar du, eta pluginaren izenarekin bat etorri behar da. Emandako fitxategia ez da ZIP pakete baliagarri bat.';
-$string['installfromziprootdir'] = 'Berrizendatu jatorrizko direktorioa';
+$string['installfromziprootdir'] = 'Aldatu izena jatorrizko direktorioari';
 $string['installfromziprootdir_help'] = 'ZIP pakete batzuek, Github-ek sortutakoak adibidez, jatorrizko direktorioaren izen ezegokia izan dezakete. Hala bada, sartu hemen izen egokia.';
 $string['installfromzipsubmit'] = 'Instalatu plugina ZIP fitxategitik';
 $string['installfromziptype'] = 'Plugin-mota';

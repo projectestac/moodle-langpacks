@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'search', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,11 @@ $string['confirm_delete'] = 'Wollen Sie wirklich den Index für {$a} löschen? B
 $string['confirm_deleteall'] = 'Sind Sie sicher, dass Sie alle indexierten Inhalte jetzt löschen wollen? Nutzer werden dann so lange keine Suchergebnisse erhalten bis eine erneute Indexierung erfolgt ist.';
 $string['confirm_indexall'] = 'Möchten Sie wirklich alle Inhalte erneut indexieren? Wenn Sie sehr viele Inhalte haben, kann dies sehr lange dauern. Auf produktiven Servern sollte dieser Prozess durch den geplanten Vorgang  \'Indizierung für die globale Suche\' ausgeführt werden.';
 $string['confirm_reindexall'] = 'Sind Sie sicher, dass Sie alle Inhalte erneut indexieren wollen? Wenn Sie sehr viele Inhalte haben, kann dies recht lange dauern. Bevor der Prozess abgeschlossen ist werden Nutzer nur Teilergenisse sehen.';
+$string['core-all'] = 'Alle';
+$string['core-course-content'] = 'Kursinhalte';
+$string['core-courses'] = 'Kurse';
+$string['core-other'] = 'Andere';
+$string['core-users'] = 'Nutzer/innen';
 $string['createanindex'] = 'Index erzeugen';
 $string['createdon'] = 'Erzeugt am';
 $string['database'] = 'Datenbank';
@@ -84,6 +89,7 @@ $string['invalidindexerror'] = 'Das Indexverzeichnis enthält entweder einen ung
 $string['ittook'] = 'Benötigt wurden';
 $string['matchingfile'] = 'Treffer in der Datei: <span class="filename">{$a}</span>';
 $string['matchingfiles'] = 'Treffer in den Dateien:';
+$string['mycoursesonly'] = 'Nur meine Kurse';
 $string['next'] = 'Weiter';
 $string['noindexmessage'] = 'Admin: Es gibt scheinbar keinen Suchindex. Bitte';
 $string['noresults'] = 'Keine Ergebnisse';
@@ -109,6 +115,9 @@ $string['schemaversionunknown'] = 'Die Suchmaschine kennt die aktuelle Schemaver
 $string['score'] = 'Punkte';
 $string['search'] = 'Suchen';
 $string['searcharea'] = 'Suchbereich';
+$string['searchareacategories'] = 'Kategorien von Suchbereichen';
+$string['search:course'] = 'Kurse';
+$string['search:customfield'] = 'Kursfelder';
 $string['searching'] = 'Suche in ...';
 $string['search:message_received'] = 'Mitteilungen - empfangen';
 $string['search:message_sent'] = 'Mitteilungen - gesendet';

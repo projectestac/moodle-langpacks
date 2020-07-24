@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'folder', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   folder
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['bynameondate'] = 'by {$a->name} - {$a->date}';
 $string['contentheader'] = 'コンテンツ';
 $string['display'] = 'フォルダコンテンツを表示する';
-$string['display_help'] = 'あなたがコースページでのフォルダコンテンツ表示を選択した場合、別ページへのリンクは表示されません。「コースページに説明を表示する」がチェックされた場合のみ説明が表示されます。<br /> この場合、参加者の閲覧動作が記録されないことに留意してください。';
+$string['display_help'] = 'あなたがコースページでのフォルダコンテンツ表示を選択した場合、別ページへのリンクは表示されません。「コースページに説明を表示する」がチェックされた場合のみ説明が表示されます。この場合、参加者の閲覧動作が記録されないことにも留意してください。';
 $string['displayinline'] = 'コースページにインライン表示する';
 $string['displaypage'] = '別ページに表示する';
 $string['dnduploadmakefolder'] = 'ファイルを展開してフォルダを作成する';
@@ -40,8 +40,12 @@ $string['foldercontent'] = 'ファイルおよびサブフォルダ';
 $string['folder:managefiles'] = 'フォルダモジュールのファイルを管理する';
 $string['folder:view'] = 'フォルダコンテンツを表示する';
 $string['indicator:cognitivedepth'] = 'フォルダ認知的';
+$string['indicator:cognitivedepthdef'] = 'フォルダ認知的';
+$string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がフォルダリソースから提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧)。';
 $string['indicator:cognitivedepth_help'] = 'この指標はフォルダリソースで学生が到達した認識深度に基づきます。';
 $string['indicator:socialbreadth'] = 'フォルダ社会的';
+$string['indicator:socialbreadthdef'] = 'フォルダ社会的';
+$string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がフォルダリソースから提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加)。';
 $string['indicator:socialbreadth_help'] = 'この指標はフォルダリソースで学生が到達した社会的広がりに基づきます。';
 $string['maxsizetodownload'] = '最大フォルダダウンロードサイズ  (MB)';
 $string['maxsizetodownload_help'] = 'ZIPファイルとしてダウンロードできるフォルダの最大サイズです。ゼロに設定された場合、フォルダサイズに制限はありません。';

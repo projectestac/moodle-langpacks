@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,9 +37,9 @@ Bitte folgen Sie diesem Link, um das neue Profil zu bestätigen:
 
 {$a->link}
 
-In den meisten Mailprogrammen sollte dieser Link in blau angezeigt werden, sodass Sie ihn anklicken können. Sollte dies nicht der Fall sein, kopieren Sie bitte den Link und fügen Ihn in der Adresszeile Ihres Browserfensters ein.
+In den meisten E-Mail-Programmen sollte dieser Link in blau angezeigt werden, so dass Sie ihn anklicken können. Sollte dies nicht der Fall sein, kopieren Sie bitte den Link und fügen ihn in der Adresszeile Ihres Browserfensters ein.
 
-Falls Sie Hilfe benötigen, kontaktieren Sie bitte den Seitenadministrator,
+Falls Sie Hilfe benötigen, kontaktieren Sie bitte den Administrator der Website,
 {$a->admin}
 
 Ihr E-Learning-Team';
@@ -69,6 +69,15 @@ $string['emailconfirmlinksent'] = '<p>Zu dieser E-Mail-Adresse wurde ein bereits
 <p>Eine E-Mail sollte an Ihre Emailadresse bei <b>{$a}</b> versandt worden sein.</p>
 <p>Diese E-Mail enthält einfache Anweisungen, wie Sie Ihre Nutzerkonten miteinander verbinden.</p>
  <p>Kontaktieren Sie die Administrator/innen der Website, falls Probleme auftreten.</p>';
+$string['emailpasswordchangeinfo'] = 'Hallo {$a->firstname},
+
+jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihr Nutzerkonto auf "{$a->sitename}" angefordert.
+
+Ihr Kennwort kann jedoch nicht zurückgesetzt werden, da Sie Ihr Nutzerkonto zur Anmeldung auf einer anderen Website nutzen.
+
+Bitte melden Sie sich wie bisher über den Link auf der Anmeldeseite an.
+{$a->admin}';
+$string['emailpasswordchangeinfosubject'] = '{$a}: Kennwort ändern';
 $string['info'] = 'Externes Nutzerkonto';
 $string['issuer'] = 'OAuth 2 Service';
 $string['issuernologin'] = 'Der Aussteller kann nicht als Login verwendet werden';

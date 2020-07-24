@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'hvp', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   hvp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -251,8 +251,8 @@ $string['missinglibraryjson'] = 'No se pudo encontrar el archivo library.json co
 $string['missinglibraryproperty'] = 'Falta la propiedad {$a->%property} de {$a->%library}';
 $string['missingmbstring'] = 'La extensión mbstring de PHP no está cargada. H5P necesita esto para funcionar correctamente';
 $string['missingparameters'] = 'Faltan parámetros';
-$string['missinguploadpermissions'] = 'Tenga en cuenta que las bibliotecas pueden existir en el archivo que cargó, pero no tiene permiso para cargar nuevas bibliotecas. Póngase en contacto con el administrador del sitio acerca de esto.';
-$string['modulename'] = 'Contenido Interactivo';
+$string['missinguploadpermissions'] = 'Tenga en cuenta que pueden existir librerías en el paquete que usted subió, pero usted no tiene permitido subir nuevas librerías. Póngase en contacto con el administrador del sitio a este respecto.';
+$string['modulename'] = 'Contenido interactivo';
 $string['modulename_help'] = 'El módulo de actividad H5P le permite crear contenido interactivo, tal como Videos Interactivos, Conjuntos de Preguntas, Preguntas de Arrastrar y Soltar, Preguntas de Opción Múltiple, Presentaciones y mucho más.
 
 Además de ser una herramienta de autoría para contenido enriquecido, H5P le permite importar y exportar archivos H5P para re-utilizar efectivamente y compartir contenido.
@@ -260,59 +260,59 @@ Además de ser una herramienta de autoría para contenido enriquecido, H5P le pe
 Las interacciones con el usuario y los puntajes son monitoreados usando xAPI y están disponibles mediante el Libro de Calificaciones de Moodle. Tenga en cuenta que es actualmente posible para personas con habilidades de programación el hacer trampa en interacciones H5P y obtener el puntaje completo sin saber las respuestas correctas. H5Ps no deben usarse  para exámenes sumativos o similares.
 
 Usted añade contenido interactivo H5P al crear contenido usando la herramienta de autoría incluida o al subir archivos H5P encontrados en otros sitios con H5P.';
-$string['modulenameplural'] = 'Contenido Interactivo';
-$string['nextpage'] = 'Página siguiente';
-$string['noanswersubmitted'] = 'Este usuario aun no ha enviado una respuesta al H5P';
-$string['nocontent'] = 'No pudo encontrarse o procesarse el archivo content.json';
-$string['nocontenttype'] = 'No fue especificado tipo de contenido.';
-$string['nocopyright'] = 'No hay información disponible de copyright para este contenido.';
-$string['nodata'] = 'No hay datos disponibles que coincidan con su criterio.';
+$string['modulenameplural'] = 'Contenido interactivo';
+$string['nextpage'] = 'Siguiente página';
+$string['noanswersubmitted'] = 'Este usuario aún no ha enviado una respuesta al H5P';
+$string['nocontent'] = 'No se pudo encontrar o analizar el archivo content.json';
+$string['nocontenttype'] = 'No se especificó ningún tipo de contenido.';
+$string['nocopyright'] = 'No hay información de copyright disponible para este contenido.';
+$string['nodata'] = 'No hay datos disponibles que coincidan con sus criterios.';
 $string['noextension'] = 'El archivo que subió no es un paquete HTML5 válido (No tiene la extensión .h5p)';
 $string['noh5ps'] = 'No hay contenido interactivo disponible para este curso.';
-$string['nojson'] = 'El archivo principal h5p.json  no es válido';
+$string['nojson'] = 'El archivo principal h5p.json no es válido';
 $string['nombstringexteension'] = 'La extensión PHP mbstring no está cargada. H5P necesita que funcione correctamente';
 $string['noparameters'] = 'Sin parámetros';
-$string['noparse'] = 'No pudo procesarse el archivo principal h5p.json';
+$string['noparse'] = 'No se pudo analizar el archivo principal h5p.json';
 $string['nopermissiontogettranslations'] = 'Usted no tiene permisos para recuperar traducciones';
-$string['nopermissiontorestrict'] = 'Usted no tiene permiso para restringir librerías.';
-$string['nopermissiontosavecontentuserdata'] = 'Usted no tiene permiso para guardar datos de usuario del contenido.';
-$string['nopermissiontosaveresult'] = 'Usted no tiene permiso para guardar el resultado para este contenido.';
-$string['nopermissiontoupgrade'] = 'Usted no tiene permiso para actualizar librerías.';
-$string['nopermissiontouploadcontent'] = 'Usted no tiene permisos para subir contenido aquí.';
-$string['nopermissiontouploadfiles'] = 'Usted no tiene permisos para subir archivos aquí.';
-$string['nopermissiontoviewcontenttypes'] = 'Usted no tiene permisos para ver los tipos de contenido.';
-$string['nopermissiontoviewresult'] = 'Usted no tiene permiso para ver resultados para este contenido.';
-$string['nosuchlibrary'] = 'No hay tal librería';
+$string['nopermissiontorestrict'] = 'No tienes permiso para restringir bibliotecas.';
+$string['nopermissiontosavecontentuserdata'] = 'No tiene permiso para guardar datos de usuario.';
+$string['nopermissiontosaveresult'] = 'No tiene permiso para guardar resultados de este contenido.';
+$string['nopermissiontoupgrade'] = 'No tienes permiso para actualizar bibliotecas.';
+$string['nopermissiontouploadcontent'] = 'No tienes permiso para subir contenido aquí.';
+$string['nopermissiontouploadfiles'] = 'No tienes permiso para subir archivos aquí.';
+$string['nopermissiontoviewcontenttypes'] = 'No tienes permiso para ver los tipos de contenido.';
+$string['nopermissiontoviewresult'] = 'No tiene permiso para ver los resultados de este contenido.';
+$string['nosuchlibrary'] = 'No hay tal biblioteca';
 $string['notapplicable'] = 'NO disponible';
-$string['nounzip'] = 'El archivo que Usted subió no es un paquete HTML5 válido (No podemos descomprimirlo)';
+$string['nounzip'] = 'El archivo que cargó no es un paquete HTML5 válido (no podemos descomprimirlo)';
 $string['noversionattribution'] = 'Atribución';
 $string['noversionattributionnc'] = 'Atribución-NoComercial';
 $string['noversionattributionncnd'] = 'Atribución-NoComercial-NoDerivadas';
 $string['noversionattributionncsa'] = 'Atribución-NoComercial-CompartirIgual';
 $string['noversionattributionnd'] = 'Atribución-NoDerivadas';
 $string['noversionattributionsa'] = 'Atribución-CompartirIgual';
-$string['nowriteaccess'] = 'Se detectó un problema con el acceso de escritura del servidor. Por favor asegúrese de que su servidor puede escribir a su carpeta de datos.';
-$string['noziparchive'] = 'Su versión de PHP no soporta ZipArchive.';
+$string['nowriteaccess'] = 'Se detectó un problema con el acceso de escritura del servidor. Asegúrese de que su servidor pueda escribir en su carpeta de datos.';
+$string['noziparchive'] = 'Su versión de PHP no es compatible con ZipArchive.';
 $string['offlinedialogbody'] = 'No hemos podido enviarle información sobre la finalización de esta tarea. Por favor, compruebe su conexión a Internet.';
 $string['offlinedialogheader'] = 'Se ha perdido la conexión con el servidor';
 $string['offlinedialogretrybuttonlabel'] = 'Vuelva a intentarlo ahora';
 $string['offlinedialogretrymessage'] = 'Reintentando en :num.....';
 $string['offlinesuccessfulsubmit'] = 'Resultados presentados con éxito.';
-$string['oldphpversion'] = 'Su versión de PHP está obsoleta. H5P requiere versión 5.2 para funcionar apropiadamente. Se recomienda versión 5.6 o mayor.';
+$string['oldphpversion'] = 'Su versión de PHP está desactualizada. H5P requiere la versión 5.2 para funcionar correctamente. Se recomienda la versión 5.6 o posterior.';
 $string['olduploadoldcontent'] = 'Usted está intentando subir contenido de una versión más antigua de H5P. Por favor actualice el contenido en el servidor de donde se originó e intente subirlo nuevamente o active el Hub H5P para que haga que este servidor lo actualice para usted automáticamente.';
-$string['onlyupdate'] = 'Solamente actualizar librerías existentes';
+$string['onlyupdate'] = 'Sólo actualizar las bibliotecas existentes';
 $string['options'] = 'Opciones';
-$string['originator'] = 'Originador';
+$string['originator'] = 'Autor';
 $string['pd'] = 'Dominio Público';
 $string['pddl'] = 'Licencia y Dedicación de Dominio Público';
 $string['pdm'] = 'Marca de Dominio Público';
 $string['pluginadministration'] = 'H5P';
 $string['pluginname'] = 'H5P';
-$string['postmessagerequired'] = 'Se requiere un mensaje post para acceder al punto-final dado.';
-$string['previouspage'] = 'Página anterior';
-$string['privacy:metadata:core_files'] = 'La actividad H5P almacena archivos que han sido subidos como parte del contenido H5P.';
-$string['privacy:metadata:core_grades'] = 'La actividad H5P almacena calificaciones de usuarios que han respondido a contenido H5P.';
-$string['privacy:metadata:hvp_content_user_data'] = 'Describe el estado actual del contenido para un usuario. Empleado para restaurar contenido a un estado anterior.';
+$string['postmessagerequired'] = 'Se requiere un mensaje post para acceder al endpoint';
+$string['previouspage'] = 'Pagina anterior';
+$string['privacy:metadata:core_files'] = 'La actividad H5P almacena archivos que se han cargado como parte del contenido de H5P.';
+$string['privacy:metadata:core_grades'] = 'La actividad H5P almacena las calificaciones de los usuarios que han respondido al contenido H5P.';
+$string['privacy:metadata:hvp_content_user_data'] = 'Describe el estado actual en que se encuentra el contenido para un usuario. Se utiliza para restaurar el contenido a un estado anterior.';
 $string['privacy:metadata:hvp_content_user_data:data'] = 'Datos de usuario que fueron almacenados.';
 $string['privacy:metadata:hvp_content_user_data:data_id'] = 'Identificador de tipo de datos.';
 $string['privacy:metadata:hvp_content_user_data:delete_on_content_change'] = 'Marca que determina si los datos deben eliminarse cuando cambia el contenido.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_dropbox', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_dropbox', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_dropbox
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['apikey'] = 'Κλειδί Dropbox API';
 $string['cachelimit'] = 'Όριο προσωρινής μνήμης';
 $string['cachelimit_info'] = 'Δώστε το μέγιστο μέγεθος αρχείων (σε bytes) που θα αποθηκευτούν στον εξυπηρετητή για ψευδώνυμα/συντομεύσεις Dropbox. Τα αρχεία της κρυφής μνήμης θα χρησιμοποιούνται όταν η πηγή δεν είναι πλέον διαθέσιμη. Κενή τιμή ή μηδενική σημαίνει προσωρινή αποθήκευση όλων των αρχείων ανεξάρτητα από το μέγεθος.';
 $string['configplugin'] = 'Ρυθμίσεις Dropbox';
+$string['crontask'] = 'Επεξεργασία παρασκηνίου για το αποθετήριο Dropbox';
 $string['dropbox'] = 'Dropbox';
 $string['dropbox:view'] = 'Εμφάνιση ενός φακέλου Dropbox';
 $string['instruction'] = 'Μπορείτε να πάρετε το κλειδί σας API και τον μυστικό κωδικό σας από τους <a href="https://www.dropbox.com/developers/apps">κατασκευαστές του Dropbox</a>. Κατά τη ρύθμιση του κλειδιού σας, επιλέξτε «Πλήρες Dropbox» ως «Επίπεδο πρόσβασης».';

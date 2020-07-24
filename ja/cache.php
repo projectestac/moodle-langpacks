@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cache', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addstoresuccess'] = '新しい {$a} ストアが正常に追加され�
 $string['area'] = 'エリア';
 $string['cacheadmin'] = 'キャッシュ管理';
 $string['cacheconfig'] = '設定';
+$string['cachedef_calculablesinfo'] = 'アナリティクス計算可能性';
 $string['cachedef_calendar_categories'] = 'ユーザがアクセスできるカレンダーコースカテゴリ';
 $string['cachedef_calendar_subscriptions'] = 'カレンダー購読';
 $string['cachedef_capabilities'] = 'システムケイパビリティリスト';
@@ -46,21 +47,25 @@ $string['cachedef_coursecattree'] = 'コースカテゴリツリー';
 $string['cachedef_coursecompletion'] = 'コース完了ステータス';
 $string['cachedef_coursecontacts'] = 'コース連絡先一覧';
 $string['cachedef_coursemodinfo'] = 'それぞれのコースのモジュールおよびセクションに関する累積情報';
+$string['cachedef_course_user_dates'] = '相対日付モードで設定するコースのユーザ日付';
 $string['cachedef_databasemeta'] = 'データベースメタ情報';
 $string['cachedef_eventinvalidation'] = 'イベント無効化';
 $string['cachedef_externalbadges'] = '特定ユーザの外部バッジ';
 $string['cachedef_fontawesomeiconmapping'] = 'Font Awesomのアイコンマッピング';
 $string['cachedef_grade_categories'] = '評定カテゴリクエリ';
+$string['cachedef_grade_letters'] = '評定文字クエリ';
 $string['cachedef_groupdata'] = 'コースグループ情報';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier - クリーニング済みコンテンツ';
 $string['cachedef_langmenu'] = '利用可能な言語一覧';
 $string['cachedef_locking'] = 'ロッキング';
 $string['cachedef_message_processors_enabled'] = 'メッセージプロセッサ有効ステータス';
 $string['cachedef_message_time_last_message_between_users'] = '会話内の直近メッセージの作成日時';
+$string['cachedef_modelfirstanalyses'] = 'モデルおよび分析可能による最初の分析';
 $string['cachedef_navigation_expandcourse'] = 'ナビゲーション拡張可能コース';
 $string['cachedef_observers'] = 'イベントオブザーバ';
 $string['cachedef_plugin_functions'] = 'プラグイン利用可能コールバック';
 $string['cachedef_plugin_manager'] = 'プラグイン情報マネージャ';
+$string['cachedef_portfolio_add_button_portfolio_instances'] = 'portfolio_add_buttonクラスのポートフォリオインスタンス';
 $string['cachedef_postprocessedcss'] = '後処理CSS';
 $string['cachedef_presignup'] = '特定の未登録ユーザの事前サインアップデータ';
 $string['cachedef_questiondata'] = '問題定義';
@@ -77,6 +82,7 @@ $string['cachedef_yuimodules'] = 'YUIモジュール定義';
 $string['cachelock_file_default'] = 'デフォルトファイルロッキング';
 $string['cachestores'] = 'キャッシュストア';
 $string['caching'] = 'キャッシング';
+$string['canuselocalstore'] = 'ローカルストア利用可';
 $string['component'] = 'コンポーネント';
 $string['confirmlockdeletion'] = 'ロック削除確認';
 $string['confirmstoredeletion'] = 'ストア削除確認';
@@ -138,8 +144,11 @@ $string['plugin'] = 'プラグイン';
 $string['pluginsummaries'] = 'インストール済みキャッシュストア';
 $string['privacy:metadata:cachestore'] = 'キャッシュサブシステムはMoodleの他の部分の代理として一時的にデータを保存します。このデータは簡単に特定することはできません。また、データは非常に短い時間生存します。データはMoodle内のどこかで保存されたデータキャッシュとして提供されるため、すでにそれらのMoodleコンポーネントにより処理されています。';
 $string['purge'] = 'パージ';
+$string['purgeagain'] = '再度パージする';
 $string['purgedefinitionsuccess'] = '指定された定義を正常に削除しました。';
 $string['purgestoresuccess'] = 'リクエストされたストアを正常に削除しました。';
+$string['purgexdefinitionsuccess'] = '「 {$a->name} 」キャッシュ ({$a->component}/{$a->area}) を正常に削除しました。';
+$string['purgexstoresuccess'] = '「 {$a->store} 」ストアを正常に削除しました。';
 $string['requestcount'] = '{$a} リクエストによりテストする';
 $string['rescandefinitions'] = '定義を再スキャンする';
 $string['result'] = '結果';

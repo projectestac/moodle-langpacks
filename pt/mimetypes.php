@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mimetypes', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'mimetypes', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   mimetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['application/dash_xml'] = 'Transmissão dinâmica adaptativa através de HTTP (MPEG-DASH)';
 $string['application/epub_zip'] = 'Ebook EPUB';
 $string['application/json'] = 'texto {$a->MIMETYPE2}';
 $string['application/msword'] = 'Documento Word';
@@ -48,23 +49,25 @@ $string['application/x-iwork-keynote-sffkey'] = 'Apresentação iWork Keynote';
 $string['application/x-iwork-numbers-sffnumbers'] = 'Folha de cálculo iWork Numbers';
 $string['application/x-iwork-pages-sffpages'] = 'Documento iWork Pages';
 $string['application/x-javascript'] = 'Código fonte JavaScript';
+$string['application/x-mpegURL'] = 'HTTP Live Streaming (HLS)';
 $string['application/x-mspublisher'] = 'Documento do Publisher';
 $string['application/x-shockwave-flash'] = 'Animação Flash';
 $string['archive'] = 'Arquivo ({$a->EXT})';
 $string['audio'] = 'Ficheiro Áudio ({$a->EXT})';
 $string['default'] = '{$a->mimetype}';
 $string['document/unknown'] = 'Ficheiro';
-$string['group:archive'] = 'Ficheiros de arquivo';
+$string['group:archive'] = 'Ficheiros de Arquivo';
 $string['group:audio'] = 'Ficheiros Áudio';
-$string['group:document'] = 'Ficheiros de documento';
-$string['group:html_audio'] = 'Ficheiros de áudio suportados de modo nativo pelos navegadores';
-$string['group:html_track'] = 'Ficheiros de faixa HTML';
-$string['group:html_video'] = 'Ficheiros de vídeo suportados de modo nativo pelos navegadores';
-$string['group:image'] = 'Ficheiros de imagem';
+$string['group:document'] = 'Ficheiros de Documento';
+$string['group:html_audio'] = 'Ficheiros de Áudio suportado de modo nativo pelos navegadores';
+$string['group:html_track'] = 'Ficheiros de Faixa HTML';
+$string['group:html_video'] = 'Ficheiros de Vídeo suportado de modo nativo pelos navegadores';
+$string['group:image'] = 'Ficheiros de Imagem';
+$string['group:media_source'] = 'Transmissão multimédia';
 $string['group:presentation'] = 'Ficheiros de Apresentação';
 $string['group:sourcecode'] = 'Código fonte';
 $string['group:spreadsheet'] = 'Ficheiros de Folha de Cálculo';
-$string['group:video'] = 'Ficheiros de vídeo';
+$string['group:video'] = 'Ficheiros de Vídeo';
 $string['group:web_audio'] = 'Ficheiros de Áudio usados na web';
 $string['group:web_file'] = 'Ficheiros Web';
 $string['group:web_image'] = 'Ficheiros de imagem usados na web';

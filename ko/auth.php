@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -98,8 +98,6 @@ $string['emailupdatemessage'] = '{$a->fullname} 님,
 {$a->url}';
 $string['emailupdatesuccess'] = '사용자 <em>{$a->fullname}</em>의 이메일 주소가 <em>{$a->email}</em>로 업데이트 완료되었음';
 $string['emailupdatetitle'] = '{$a->site} 의 이메일 업데이트 확인';
-$string['enterthenumbersyouhear'] = '들리는 숫자를 입력하시오';
-$string['enterthewordsabove'] = '위의 단어를 입력하시오';
 $string['errormaxconsecutiveidentchars'] = '암호에는 최소 {$a} 개의 연속된 동일 문자가 포함되야 합니다.';
 $string['errorminpassworddigits'] = '암호에는 최소 {$a} 개의 숫자가 포함되야 합니다.';
 $string['errorminpasswordlength'] = '암호길이는 최소 {$a} 문자 이상이라야 합니다.';
@@ -116,9 +114,6 @@ $string['forcechangepasswordfirst_help'] = '무들에 최초 로그인 할 때 �
 $string['forcechangepassword_help'] = '다음 로그인시 사용자에게 비밀번호 교체 요청';
 $string['forgottenpassword'] = '여기에 URL을 입력하면, 이 주소는 사이트에 대한 암호 복원 페이지로 이용될 것입니다. 이것은 암호가 무들 외부에서 처리되는 사이트를 위한 것입니다. 기본 암호 복원 방법을 사용하려면 빈칸으로 남겨 놓으시오.';
 $string['forgottenpasswordurl'] = '암호 재발급 URL';
-$string['getanaudiocaptcha'] = '소리 CAPTCHA';
-$string['getanimagecaptcha'] = '그림 CAPTCHA';
-$string['getanothercaptcha'] = '다른 CAPTCHA 얻기';
 $string['getrecaptchaapi'] = 'reCAPTCHA를 사용하려면 <a href=\'https://www.google.com/recaptcha/admin\'> https://www.google.com/recaptcha/admin</a>에서 API 키를 받아야합니다.';
 $string['guestloginbutton'] = '손님 접속 버튼';
 $string['incorrectpleasetryagain'] = '틀렸습니다. 다시 해 보세요.';

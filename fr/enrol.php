@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['addinstance'] = 'Ajouter méthode';
 $string['addinstanceanother'] = 'Ajouter une méthode et en créer une autre';
 $string['ajaxnext25'] = '25 suivants…';
 $string['ajaxoneuserfound'] = '1 utilisateur trouvé';
+$string['ajaxxmoreusersfound'] = 'Plus de {$a} utilisateurs trouvés';
 $string['ajaxxusersfound'] = '{$a} utilisateurs trouvés';
 $string['assignnotpermitted'] = 'Vous n\'avez pas les permissions requises pour attribuer des rôles dans ce cours.';
 $string['bulkuseroperation'] = 'Opération en lot sur les utilisateurs';
@@ -102,6 +103,7 @@ $string['foundxcohorts'] = '{$a} cohortes trouvées';
 $string['instanceadded'] = 'Méthode ajoutée';
 $string['instanceeditselfwarning'] = 'Attention :';
 $string['instanceeditselfwarningtext'] = 'Vous êtes inscrit à ce cours au moyen de cette méthode d\'inscription. Des modifications pourraient empêcher votre accès à ce cours.';
+$string['invalidenrolduration'] = 'Durée d\'inscription non valide';
 $string['invalidenrolinstance'] = 'Instance d\'inscription non valide';
 $string['invalidrequest'] = 'Requête non valide';
 $string['invalidrole'] = 'Rôle non valide';
@@ -149,6 +151,7 @@ $string['testsettings'] = 'Réglages de test';
 $string['testsettingsheading'] = 'Réglages de test d\'inscription – {$a}';
 $string['totalenrolledusers'] = '{$a} utilisateurs inscrits';
 $string['totalotherusers'] = '{$a} autres utilisateurs';
+$string['totalunenrolledusers'] = '{$a} utilisateurs désinscrits';
 $string['unassignnotpermitted'] = 'Vous n\'avez pas les permissions requises pour retirer des rôles dans ce cours';
 $string['unenrol'] = 'Désinscription';
 $string['unenrolconfirm'] = 'Voulez-vous vraiment désinscrire « {$a->user} » (inscrit via « {$a->enrolinstancename} ») du cours « {$a->course} » ?';
@@ -161,3 +164,5 @@ $string['unlimitedduration'] = 'Illimité';
 $string['userremovedfromselectiona'] = 'L\'utilisateur « {$a} » a été retiré de la sélection.';
 $string['usersearch'] = 'Recherche';
 $string['withselectedusers'] = 'Pour les utilisateurs sélectionnés';
+$string['youenrolledincourse'] = 'Vous être inscrit au cours.';
+$string['youunenrolledfromcourse'] = 'Vous êtes désinscrit du cours « {$a} ».';

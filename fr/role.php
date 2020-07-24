@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'role', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,7 @@ $string['allowswitch'] = 'Autoriser le changement de rôle';
 $string['allowview'] = 'Autoriser le rôle à voir';
 $string['allsiteusers'] = 'Tous les utilisateurs du site';
 $string['analytics:listinsights'] = 'Lister les indications';
+$string['analytics:listowninsights'] = 'Lister ses propres indications';
 $string['analytics:managemodels'] = 'Gérer les modèles';
 $string['archetype'] = 'Modèle de rôle';
 $string['archetypecoursecreator'] = 'MODÈLE : Créateur de cours';
@@ -68,7 +69,6 @@ $string['backup:anonymise'] = 'Anonymiser les données utilisateur des sauvegard
 $string['backup:backupactivity'] = 'Sauvegarder des activités';
 $string['backup:backupcourse'] = 'Sauvegarder des cours';
 $string['backup:backupsection'] = 'Sauvegarder des sections';
-$string['backup:backuptargethub'] = 'Sauvegarder pour publication sur Moodle.net';
 $string['backup:backuptargetimport'] = 'Sauvegarder pour importation';
 $string['backup:configure'] = 'Configurer les réglages de sauvegarde';
 $string['backup:downloadfile'] = 'Télécharger des fichiers des zones de sauvegarde';
@@ -103,6 +103,7 @@ $string['category:create'] = 'Créer les catégories de cours';
 $string['category:delete'] = 'Supprimer les catégories de cours';
 $string['category:manage'] = 'Gérer les catégories';
 $string['category:update'] = 'Modifier les catégories de cours';
+$string['category:viewcourselist'] = 'Consulter la liste des cours dans lesquels on n\'est pas inscrit';
 $string['category:viewhiddencategories'] = 'Voir les catégories cachées';
 $string['category:visibility'] = 'Voir les catégories de cours cachées';
 $string['checkglobalpermissions'] = 'Vérifier les permissions système';
@@ -117,8 +118,6 @@ $string['cohort:view'] = 'Voir les cohortes du site';
 $string['comment:delete'] = 'Supprimer des commentaires';
 $string['comment:post'] = 'Écrire des commentaires';
 $string['comment:view'] = 'Consulter les commentaires';
-$string['community:add'] = 'Utiliser le bloc Communauté pour rechercher des cours sur Moodle.net';
-$string['community:download'] = 'Télécharger des cours depuis le bloc Communauté';
 $string['competency:competencygrade'] = 'Évaluer une compétence';
 $string['competency:competencymanage'] = 'Gérer les référentiels de compétences';
 $string['competency:competencyview'] = 'Consulter les référentiels de compétences';
@@ -165,8 +164,10 @@ $string['course:bulkmessaging'] = 'Envoyer des messages à plusieurs utilisateur
 $string['course:changecategory'] = 'Modifier la catégorie du cours';
 $string['course:changefullname'] = 'Modifier le nom du cours';
 $string['course:changeidnumber'] = 'Modifier le n° d\'identification du cours';
+$string['course:changelockedcustomfields'] = 'Modifier les champs personnalisés verrouillés';
 $string['course:changeshortname'] = 'Modifier le nom abrégé du cours';
 $string['course:changesummary'] = 'Modifier le résumé du cours';
+$string['course:configurecustomfields'] = 'Configurer les champs personnalisés';
 $string['course:create'] = 'Créer des cours';
 $string['course:creategroupconversations'] = 'Créer des conversations de groupe';
 $string['course:delete'] = 'Supprimer des cours';
@@ -183,7 +184,6 @@ $string['course:managescales'] = 'Gérer les barèmes';
 $string['course:markcomplete'] = 'Marquer les utilisateurs comme ayant terminé un cours';
 $string['course:movesections'] = 'Déplacer les sections';
 $string['course:overridecompletion'] = 'Écraser le statut d\'achèvement de l\'activité';
-$string['course:publish'] = 'Publier un cours';
 $string['course:renameroles'] = 'Renommer les rôles';
 $string['course:request'] = 'Demander de nouveaux cours';
 $string['course:reset'] = 'Réinitialiser les cours';
@@ -230,6 +230,8 @@ $string['errorbadroleshortname'] = 'Nom abrégé du rôle incorrect';
 $string['errorexistsrolename'] = 'Ce nom de rôle existe déjà';
 $string['errorexistsroleshortname'] = 'Ce nom de rôle abrégé existe déjà';
 $string['errorroleshortnametoolong'] = 'Le nom abrégé ne peut pas dépasser 100 caractères';
+$string['eventcapabilityassigned'] = 'Capacité attribuée';
+$string['eventcapabilityunassigned'] = 'Capacité non attribuée';
 $string['eventroleallowassignupdated'] = 'Attribution de rôle autorisée';
 $string['eventroleallowoverrideupdated'] = 'Dérogation de rôle autorisée';
 $string['eventroleallowswitchupdated'] = 'Changement de rôle autorisé';
@@ -238,6 +240,7 @@ $string['eventroleassigned'] = 'Rôle attribué à un utilisateur';
 $string['eventrolecapabilitiesupdated'] = 'Capacités de rôle modifiées';
 $string['eventroledeleted'] = 'Rôle supprimé';
 $string['eventroleunassigned'] = 'Rôle retiré à un utilisateur';
+$string['eventroleupdated'] = 'Rôle mis à jour';
 $string['existingadmins'] = 'Administrateurs du site actuels';
 $string['existingusers'] = '{$a} utilisateurs existants';
 $string['explanation'] = 'Explication';
@@ -267,6 +270,9 @@ $string['grade:unlock'] = 'Déverrouiller les notes ou éléments';
 $string['grade:view'] = 'Voir ses propres notes';
 $string['grade:viewall'] = 'Voir les notes d\'autres utilisateurs';
 $string['grade:viewhidden'] = 'Voir ses propres notes cachées';
+$string['h5p:deploy'] = 'Déployer contenu H5P';
+$string['h5p:setdisplayoptions'] = 'Options d\'affichage H5P';
+$string['h5p:updatelibraries'] = 'Gérer les types de contenus H5P';
 $string['highlightedcellsshowdefault'] = 'Les cellules en surbrillance dans le tableau ci-dessous indiquent les permissions par défaut pour le modèle de rôle spécifié ci-dessus.';
 $string['highlightedcellsshowinherit'] = 'Les cellules en surbrillance dans le tableau ci-dessous indiquent s\'il y a lieu la permission qui sera héritée. À part les capacités dont vous voulez modifier les permissions, il est suggéré de laisser le tout sur Hériter.';
 $string['inactiveformorethan'] = 'inactif depuis plus de {$a->timeperiod}';
@@ -376,7 +382,6 @@ $string['restore:createuser'] = 'Créer des utilisateurs lors des restaurations'
 $string['restore:restoreactivity'] = 'Restaurer des activités';
 $string['restore:restorecourse'] = 'Restaurer des cours';
 $string['restore:restoresection'] = 'Restaurer des sections';
-$string['restore:restoretargethub'] = 'Restaurer des cours téléchargés de Moodle.net';
 $string['restore:restoretargetimport'] = 'Restaurer à partir de fichiers pour importation';
 $string['restore:rolldates'] = 'Autoriser la modification des dates des activités lors des restaurations';
 $string['restore:uploadfile'] = 'Déposer des fichiers dans les zones de sauvegarde';

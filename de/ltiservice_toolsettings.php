@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'ltiservice_toolsettings', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'ltiservice_toolsettings', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   ltiservice_toolsettings
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['allow'] = 'Diesen Service verwenden';
+$string['ltiservice_toolsettings'] = 'Tool-Einstellungen';
+$string['ltiservice_toolsettings_help'] = 'Erlauben Sie dem Tool, Einstellungswerte zu speichern und abzurufen.';
+$string['notallow'] = 'Diesen Service nicht verwenden';
 $string['pluginname'] = 'Tool Einstellungsservice';
 $string['privacy:metadata'] = 'Das Einstellungs-Service-Plugin speichert keine personenbezogenen Daten.';

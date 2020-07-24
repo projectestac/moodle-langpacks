@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lti', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -65,7 +65,10 @@ $string['cannot_edit'] = 'Sie können diese Tool-Konfiguration nicht löschen';
 $string['capabilities'] = 'Berechtigungen';
 $string['capabilities_help'] = 'Wählen Sie die Berechtigungen, die Sie dem Tool-Anbieter übergeben möchten. Sie können mehrere Optionen auswählen.';
 $string['capabilitiesrequired'] = 'Dieses Tool benötigt zur Aktivierung den Zugriff auf folgende Daten:';
+$string['cleanaccesstokens'] = 'Entfernen von abgelaufenen Zugriffstoken durch externes Tool';
 $string['click_to_continue'] = '<a href="{$a->link}" target="_top">Weiter</a>';
+$string['clientidadmin'] = 'Client-ID';
+$string['clientidadmin_help'] = 'Die Kunden-ID ist ein eindeutiger Wert, der zur Identifizierung eines Werkzeugs verwendet wird. Sie wird automatisch für jedes Tool erstellt, das das in LTI 1.3 eingeführte JWT-Sicherheitsprofil verwendet und sollte Teil der an den Tool-Provider übermittelten Details sein, damit dieser die Verbindung an seinem Ende konfigurieren kann.';
 $string['comment'] = 'Kommentar';
 $string['configpassword'] = 'Standardkennwort für Remote Tool';
 $string['configpreferheight'] = 'Höhe (Vorgabe)';
@@ -135,9 +138,9 @@ $string['errortooltypenotfound'] = 'LTI Tool-Typ nicht gefunden';
 $string['existing_window'] = 'Vorhandenes Fenster';
 $string['extensions'] = 'LTI Extension Service';
 $string['external_tool_type'] = 'Vorkonfiguriertes Tool';
-$string['external_tool_type_help'] = '* **Automatisch mit Tool-tURL** - Diese Einstellung ist meistens ausreichend. Moodle verwendet dann die passendste Konfiguration über die Toolt-URL. Es können Tools verwandt werden, die vom Administrator vorkonfiguriert oder im Kurs angelegt wurden.
+$string['external_tool_type_help'] = '* **Automatisch mit Tool-URL** - Diese Einstellung ist meistens ausreichend. Moodle verwendet dann die passendste Konfiguration über die Tool-URL. Es können Tools verwendet werden, die vom Administrator vorkonfiguriert oder im Kurs angelegt wurden.
 Sofern eine Start-URL definiert ist, erzeugt Moodle ein Feedback, ob dieses erkannt wird oder nicht. Sollte dieser Zugang scheitern, können Konfigurationsinformationen manuell eingetragen werden.
-* **Ein spezifischer vorkonfigurierter  Tool-Typ** - Die Auswahl erzwingt eine bestimmte Konfiguration zur Kommunikation mit dem Tool-Anbieter zu nutzen. Sollte die eingetragene Start-URL nicht zu dem Tool-Anbieter passen, erfolgt eine Warnung. Manchmal ist es nicht nötig eine Start-URL einzutragen falls ein spezifischer Tool-Typ verwandt wird.
+* **Ein spezifischer vorkonfigurierter Tool-Typ** - Die Auswahl erzwingt eine bestimmte Konfiguration zur Kommunikation mit dem Tool-Anbieter zu nutzen. Sollte die eingetragene Start-URL nicht zu dem Tool-Anbieter passen, erfolgt eine Warnung. Manchmal ist es nicht nötig eine Start-URL einzutragen falls ein spezifischer Tool-Typ verwandt wird.
 * **Individuelle Konfiguration** - Die spezifische Konfiguration wird nur für die spezielle Instanz verwandt. Unter erweiterten Einstellungen können Anwenderschlüsssel und Kennwörter (shared secret) eingetragen werden. Beide werden durch den Tool Provider zur Verfügung gestellt. Falls das Tool diese Einstellungen nicht benötigt, können die Felder leer bleiben.
 
 ##Tool-Typ bearbeiten
@@ -170,17 +173,24 @@ $string['icon_url'] = 'Icon URL';
 $string['icon_url_help'] = 'Die Funktion Icon URl ermöglich es, das für die Aktivität verwandte Icon auszutauschen.  An Stelle des Standard LTI Icons kann ein Icon, das zur eingebundenen Aktivität passt, gewählt werden.';
 $string['id'] = 'ID';
 $string['indicator:cognitivedepth'] = 'LTI kognitiv';
+$string['indicator:cognitivedepthdef'] = 'LTI kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die LTI-Aktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht, Beiträge, Feedback anzeigen).';
 $string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die eine Person in einer LTI-Aktivität erreicht hat.';
 $string['indicator:socialbreadth'] = 'LTI sozial';
+$string['indicator:socialbreadthdef'] = 'LTI sozial';
+$string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die LTI-Aktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein, Teilnahme mit anderen).';
 $string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer LTI-Aktivität erreicht hat.';
+$string['initiatelogin'] = 'Anmelde-URL';
+$string['initiatelogin_help'] = 'Die Tool-URL, an die Anfragen zur Initiierung eines Logins gesendet werden sollen. Diese URL ist erforderlich, bevor eine Nachricht erfolgreich an das Tool gesendet werden kann.';
 $string['invalidid'] = 'LTI ID war fehlerhaft';
+$string['jwtsecurity'] = 'LTI 1.3';
 $string['launch_in_moodle'] = 'Tool in Moodle starten';
 $string['launchinpopup'] = 'Startcontainer';
 $string['launch_in_popup'] = 'Tool in Pop-Up starten';
 $string['launchinpopup_help'] = 'Der Startcontainer beeinflusst die Anzeige des Tools beim Start aus dem Kurs heraus. Einige Startcontainer generieren eine Oberfläche in der Darstellung des Tools, andere passen sich an die Oberfläche von Moodle an.
 
 * **Standard** - Startcontainer wie in Tool-Konfiguration festgelegt verwenden.
-* **Einbetten** - Das Tool wird in einem bestehenden Moodle-Fenster angezeigt, ählich wie andere Aktivitäten.
+* **Einbetten** - Das Tool wird in einem bestehenden Moodle-Fenster angezeigt, ähnlich wie andere Aktivitäten.
 * **Eingebettet, ohne Blöcke** - Das Tool wird in einem bestehenden Moodle-Fenster ohne Blöcke, nur mit der Navigation im Kopf angezeigt.
 * **Neues Fenster** - Das Tool öffnet in einem neuen Fenster und nutzt den gesamten Raum im Fenster aus. Abhängig vom Browser  wird ein neuer Tab angelegt oder ein neues Fenster geöffnet.';
 $string['launchoptions'] = 'Startoptionen';
@@ -208,6 +218,8 @@ $string['ltisettings'] = 'LTI Einstellungen';
 $string['lti_tool_request_added'] = 'Die Konfigurationsanfrage wurde erfolgreich weitergeleitet. Kontakten Sie die Administrator/innen nun, um den Prozess abzuschließen.';
 $string['lti_tool_request_existing'] = 'Für die Domain wurde bereits eine Konfiguration beauftragt.';
 $string['ltiunknownserviceapicall'] = 'Unbekannter API-Aufruf für externes Tool';
+$string['ltiversion'] = 'LTI Version';
+$string['ltiversion_help'] = 'Die Version von LTI, die zum Signieren von Nachrichten und Dienstanforderungen verwendet wird: LTI 1.0 / 1.1 und LTI 2.0 verwenden das Sicherheitsprofil OAuth 1.0A. LTI 1.3.0 verwendet JWTs.';
 $string['lti:view'] = 'Aktivität Externes Tool aufrufen';
 $string['main_admin'] = 'Allgemeine Hilfe';
 $string['main_admin_help'] = 'Externe Tools ermöglichen es Moodle Nutzern nahtlos mit externen Lernanwendungen zu arbeiten und Daten auszutauschen. Durch ein spezielles Start-Protokoll erhält das externe Tool Zugriff auf bestimmte Daten des Nutzers. Dies können sein: Institutionsbezeichnung, Kurs-ID, Nutzer-ID, Nutzername oder E-Mail.
@@ -251,12 +263,14 @@ $string['no_tp_pending'] = 'Es gibt keine ausstehenden Registrierungen für exte
 $string['no_tp_rejected'] = 'Es gibt keine zurückgewiesenen Registrierungen für externe Tools.';
 $string['notypes'] = 'Es sind zur Zeit keine LTI Tools in Moodle angelegt. Mit dem Installieren-Link können diese jetzt angelegt werden.';
 $string['noviewusers'] = 'Keine Nutzer mit diesem Recht gefunden.';
+$string['oauthsecurity'] = 'LTI 1.0/1.1';
+$string['opensslconfiginvalid'] = 'Für LTI 1.3 muss eine gültige openssl.cnf konfiguriert sein und Ihrem Webserver zur Verfügung stehen. Wenden Sie sich an den/die Website-Administrator/in, um openssl für diese Site zu konfigurieren und zu aktivieren.';
 $string['optionalsettings'] = 'Optionale Einstellungen';
-$string['organization'] = 'Organisation Details';
-$string['organizationdescr'] = 'Beschreibung der Organisation';
-$string['organizationid'] = 'Organisations ID';
-$string['organizationid_help'] = 'Eindeutiges Kennzeichen für die Moodle-Instanz. Dies kann die DNS Bezeichnung sein. Bleibt das Feld leer wird der Host Name des Moodle-Systems als Standardwert verwandt.';
-$string['organizationurl'] = 'Organisations-URL';
+$string['organization'] = 'Organisationsdetails';
+$string['organizationdescr'] = 'Beschreibung der Institution';
+$string['organizationid'] = 'Organisations-ID';
+$string['organizationid_help'] = 'Eindeutige Identifizierung für diese Moodle-Instanz. Üblicherweise wird der DNS-Name der Institution verwendet. Wenn das Feld leer ist, wird der Host-Name des Moodle-Systems als Standardwert benutzt.';
+$string['organizationurl'] = 'URL der Institution';
 $string['organizationurl_help'] = 'Basis URL der Moodle-Instanz. Bleibt das Feld leer wird der Wert aus der Moodle-Installation verwandt.';
 $string['pagesize'] = 'Zahl der Leistungen pro Seite';
 $string['parameter'] = 'Tool-Parameter';
@@ -306,9 +320,13 @@ $string['privacy:metadata:timemodified'] = 'Zeitpunkt an dem Datensatz veränder
 $string['privacy:metadata:userid'] = 'ID des Nutzers, der den LTI Consumer aufgerufen hat';
 $string['privacy:metadata:useridnumber'] = 'ID-Nummer des Nutzers, der den LTI Consumer aufgerufen hat';
 $string['privacy:metadata:username'] = 'Nutzername des Nutzers, der den LTI Consumer aufgerufen hat';
+$string['publickey'] = 'Öffentlicher Schüssel';
+$string['publickey_help'] = 'Der vom Tool bereitgestellte öffentliche Schlüssel (im PEM-Format), mit dem die Signaturen eingehender Nachrichten und Dienstanforderungen überprüft werden können.';
 $string['quickgrade'] = 'Direktbewertung zulassen';
 $string['quickgrade_help'] = 'Nach der Aktivierung können mehrere Tools auf einer Seite bewertet werden. Bewertungen und Kommentare eintragen und dann den \'Speichern aller Feedbacks\' Button drücken.';
 $string['redirect'] = 'Sie werden in ein paar Sekunden weitergeleitet. Andernfalls den Button anklicken.';
+$string['redirectionuris'] = 'Umleitungs-URI(s)';
+$string['redirectionuris_help'] = 'Eine Liste von URIs (eine pro Zeile), die das Tool für Autorisierungsanfragen verwendet. Mindestens eine muss registriert sein, bevor eine Nachricht erfolgreich an das Tool gesendet werden kann.';
 $string['register'] = 'Registrieren';
 $string['registertype'] = 'Konfiguration eines neu registrierten externen Tools';
 $string['register_warning'] = 'Die Registrierungsseite benötigt einige Zeit zum Öffnen. Sollte sie nicht erscheinen, prüfen Sie die eingegebene URL in den Konfigurationseinstellungen. Wenn Moodle https nutzt, stellen Sie sicher, dass das konfigurierte Tool https unterstützt und dass Sie in der URL https nutzen.';
@@ -371,9 +389,9 @@ $string['share_roster_help'] = 'Diese Option legt fest, ob das Tool auf die Teil
 Diese Einstellung kann in der Tool-Konfiguration überschrieben werden.';
 $string['show_in_course_activity_chooser'] = 'In Aktivitätsauswahl als vorkonfiguriertes Tool anzeigen.';
 $string['show_in_course_lti1'] = 'Verwendung der Toolkonfiguration';
-$string['show_in_course_lti1_help'] = 'Dieses Tool kann für Trainer/innen in der Aktivitätsauswahl angezeigt werden, um es einem Kurs hinzuzufügen. Es kann ebenfalls im vorkonfigurierten Tool-Menü angezeigt werden, wenn ein externes Tool einem Kurs hinzugefügt wird. Außerdem kann die Tool-Konfiguration so eingestellt werden, dass sie beim Hinzufügen eines externen Tools zu einem Kurs nur dann verwendet wird, wenn die exakte Tool-URL angegeben wird.';
+$string['show_in_course_lti1_help'] = 'Dieses Tool kann in der Aktivitätsauswahl für Trainer/innen angezeigt werden, um es zu einem Kurs hinzuzufügen. Alternativ kann es ist im vorkonfigurierten Tool-Menü angezeigt werden, wenn ein externes Tool zu einem Kurs hinzugefügt wird. Des Weiteren kann die Tool-Konfiguration auch verwendet werden, um die genaue Tool-URL zu erfahren, wenn ein externes Tool zu einem Kurs hinzugefügt wird.';
 $string['show_in_course_lti2'] = 'Verwendung der Toolkonfiguration';
-$string['show_in_course_lti2_help'] = 'Dieses Tool kann in der Aktivitätsauswahl für einen Lehrer angezeigt werden, um es einem Kurs hinzuzufügen, oder im vorkonfigurierten Auswahlmenü, wenn ein externes Tool zu einem Kurs hinzugefügt wird.';
+$string['show_in_course_lti2_help'] = 'Dieses Tool kann für Trainer/innen in der Aktivitätsauswahl angezeigt werden, um es zu einem Kurs hinzuzufügen. Alternativ kann es ist im vorkonfigurierten Tool-Menü angezeigt werden, wenn ein externes Tool zu einem Kurs hinzugefügt wird.';
 $string['show_in_course_no'] = 'Nicht anzeigen; nur benutzen, wenn eine passende Start URL eingetragen ist';
 $string['show_in_course_preconfigured'] = 'Als vorkonfiguriertes Tool anzeigen, wenn ein externes Tool hinzugefügt wird';
 $string['size'] = 'Größenparameter';
@@ -394,6 +412,16 @@ $string['tooldescription'] = 'Tool-Beschreibung';
 $string['tooldescription_help'] = 'Die Beschreibung des Tools, die Lehrern in der Aktivitätsliste angezeigt wird.
 
 Sie sollte beschreiben, wofür das Tool ist, was es tut und jede weitere Information enthalten, die der Lehrer haben muss.';
+$string['tooldetailsaccesstokenurl'] = 'URL für Zugriffstoken';
+$string['tooldetailsauthrequesturl'] = 'URL der Authentifizierungsanforderung';
+$string['tooldetailsclientid'] = 'Client-ID';
+$string['tooldetailsdeploymentid'] = 'Deployment-ID';
+$string['tooldetailsmailtosubject'] = 'LTI Tool-Konfiguration';
+$string['tooldetailsmodalemail'] = 'E-Mail';
+$string['tooldetailsmodallink'] = 'Konfigurationsdetails anzeigen';
+$string['tooldetailsmodaltitle'] = 'Konfigurationsdetails';
+$string['tooldetailsplatformid'] = 'Plattform-ID';
+$string['tooldetailspublickeyseturl'] = 'URL des öffentlichen Schlüsselbundes';
 $string['toolisbeingused'] = 'Dieses Tool wurde {$a} Mal verwendet.';
 $string['toolisnotbeingused'] = 'Dieses Tool wurde bisher nicht verwendet.';
 $string['toolproxy'] = 'Registrierung von externen Tools';

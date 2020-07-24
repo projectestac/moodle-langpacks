@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'calendar', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   calendar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['calendarheading'] = '{$a} Kalender';
 $string['calendarpreferences'] = 'Välj inställningar för kalendern';
 $string['calendartypes'] = 'Kalander typer';
 $string['calendarurl'] = 'Kalender URL: {$a}';
+$string['category'] = 'Kategori';
 $string['categoryevent'] = 'Händelse i kategori';
 $string['categoryevents'] = 'Händelser i kategori';
 $string['clickhide'] = 'Klicka för att dölja';
@@ -115,6 +116,7 @@ $string['eventtypecourse'] = 'kurs';
 $string['eventtypeglobal'] = 'global';
 $string['eventtypegroup'] = 'grupp';
 $string['eventtypemodule'] = 'modul';
+$string['eventtypesite'] = 'webbplats';
 $string['eventtypeuser'] = 'användare';
 $string['eventview'] = 'Detaljer om händelse';
 $string['expired'] = 'Utgick';
@@ -135,13 +137,8 @@ $string['gotocalendar'] = 'Gå till Kalender';
 $string['group'] = 'Grupp';
 $string['groupevent'] = 'Händelse för grupp';
 $string['groupevents'] = 'Händelser för grupp';
-$string['hidecourseevents'] = 'Dölj kurshändelser';
 $string['hideeventtype'] = 'Dölj {$a} händelser';
-$string['hideglobalevents'] = 'Dölj globala händelser';
-$string['hidegroupsevents'] = 'Dölj grupphändelser';
-$string['hideuserevents'] = 'Dölj användarhändelser';
 $string['hourly'] = 'Per timme';
-$string['ical'] = 'iCal';
 $string['importcalendar'] = 'Importera kalender';
 $string['importcalendarfrom'] = 'Importera från';
 $string['importcalendarheading'] = 'Importera kalender';
@@ -192,7 +189,6 @@ $string['privacy:metadata:calendar:event_subscriptions:name'] = 'Namn för kalen
 $string['privacy:metadata:calendar:event_subscriptions:url'] = 'URL för kalenderprenumerationen';
 $string['privacy:metadata:calendar:event:timeduration'] = 'Varaktighet för kalenderhändelsen';
 $string['privacy:metadata:calendar:event:timestart'] = 'Starttid för kalenderhändelsen';
-$string['quickdownloadcalendar'] = 'Snabb nedladdning/prenumerera på kalender';
 $string['recentupcoming'] = 'Nyliga och kommande 60 dagar';
 $string['repeatedevents'] = 'Upprepade händelser';
 $string['repeateditall'] = 'Tillämpa ändringar för alla {$a} händelser i den här serien av upprepningar';
@@ -203,12 +199,9 @@ $string['repeatweeksl'] = 'Upprepa veckovis, skapa';
 $string['repeatweeksr'] = 'händelser';
 $string['sat'] = 'Lör';
 $string['saturday'] = 'Lördag';
-$string['showcourseevents'] = 'Visa kurshändelser';
 $string['showeventtype'] = 'Visa {$a} händelser';
-$string['showglobalevents'] = 'Visa globala händelser';
-$string['showgroupsevents'] = 'Visa grupphändelser';
 $string['shown'] = 'visad';
-$string['showuserevents'] = 'Visa användarhändelser';
+$string['site'] = 'Webbplats';
 $string['siteevents'] = 'Händelser för webbplatsen';
 $string['spanningevents'] = 'Händelser på gång';
 $string['subscriptionname'] = 'Kalendernamn';
@@ -216,7 +209,6 @@ $string['subscriptionremoved'] = 'Kalenderprenumeration {$a} borttagen';
 $string['subscriptions'] = 'Prenumerationer';
 $string['subscriptionsource'] = 'Källa för händelse: {$a}';
 $string['subscriptionupdated'] = 'Prenumeration på kalender {$a} uppdaterad';
-$string['subsource'] = 'Händelsekälla: {$a->name}';
 $string['sun'] = 'Sön';
 $string['sunday'] = 'Söndag';
 $string['thu'] = 'Tor';
@@ -229,14 +221,6 @@ $string['todayplustitle'] = 'Idag {$a}';
 $string['tomorrow'] = 'Imorgon';
 $string['tt_deleteevent'] = 'Ta bort händelse';
 $string['tt_editevent'] = 'Redigera händelse';
-$string['tt_hidecourse'] = 'Händelser i kurs/er visas (klicka för att dölja)';
-$string['tt_hideglobal'] = 'Händelser på webbplatsnivå visas (klicka för att dölja)';
-$string['tt_hidegroups'] = 'Händelser för grupp/er visas (klicka för att dölja)';
-$string['tt_hideuser'] = 'Händelser gällande användare visas (klicka för att dölja)';
-$string['tt_showcourse'] = 'Händelser i kurs/er är dolda (klicka för att visa)';
-$string['tt_showglobal'] = 'Händelser på webbplatsnivå är dolda (klicka för att visa)';
-$string['tt_showgroups'] = 'Händelser för grupp/er är dolda (klicka för att visa)';
-$string['tt_showuser'] = 'Händelser för användare är dolda (klicka för att visa)';
 $string['tue'] = 'Tis';
 $string['tuesday'] = 'Tisdag';
 $string['typecategory'] = 'Händelse för kategori';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'error', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -171,6 +171,7 @@ $string['cannotuseadmin'] = 'Usted necesita ser un usuario administrador para us
 $string['cannotuseadminadminorteacher'] = 'Usted necesita ser un usuario profesor o administrador para usar esta página';
 $string['cannotusepage'] = 'Sólo profesores y administradores pueden usar esta página';
 $string['cannotusepage2'] = 'Lo sentimos, usted no puede usar esta página';
+$string['cannotviewcategory'] = 'No tiene permisos para ver la lista de cursos.';
 $string['cannotviewprofile'] = 'No puede ver el perfil de este usuario';
 $string['cannotviewreport'] = 'Usted no puede ver este informe';
 $string['cannotwritefile'] = 'No se puede escribir en el archivo ({$a})';
@@ -323,7 +324,7 @@ $string['invalidcourselevel'] = 'Nivel de contexto incorrecto';
 $string['invalidcoursemodule'] = 'ID de módulo de curso no válida';
 $string['invalidcoursenameshort'] = 'El nombre corto del curso no es valido';
 $string['invaliddata'] = 'La información suministrada es invalida';
-$string['invaliddatarootpermissions'] = 'Se han detectado permisos no válidos en el directorio $CFG->dataroot, el administrador tiene que arreglar los permisos.';
+$string['invaliddatarootpermissions'] = 'Se han detectado permisos no válidos al tratar de crear un  directorio. Active la depuración (debugging) para más detalles.';
 $string['invaliddevicetype'] = 'Tipo de dispositivo inválido';
 $string['invalidelementid'] = 'El ID del elemento es incorrecto!';
 $string['invalidentry'] = 'Esta no es una entrada valida!';
@@ -435,7 +436,7 @@ $string['nologinas'] = 'No está autorizado a \'entrar como\' ese usuario';
 $string['nonmeaningfulcontent'] = 'No contenido significativo';
 $string['noparticipants'] = 'No se encontraron participantes en este curso';
 $string['noparticipatorycms'] = 'Lo sentimos, no dispone de módulos de participación en cursos sobre los que informar';
-$string['nopermissions'] = 'Lo sentimos, pero por el momento no tiene permiso para hacer eso ({$a})';
+$string['nopermissions'] = 'Lo sentimos, pero no tiene los permisos para hacer esto ({$a}).';
 $string['nopermissiontocomment'] = 'No puede añadir comentarios';
 $string['nopermissiontodelentry'] = 'No puede eliminar entradas de otras personas!';
 $string['nopermissiontoeditcomment'] = 'No puede editar comentarios de otras personas!';
@@ -446,7 +447,7 @@ $string['nopermissiontomanagegroup'] = 'Usted no tiene los permisos necesarios p
 $string['nopermissiontorate'] = 'La evaluación de ítems no es permitida!';
 $string['nopermissiontoshow'] = 'No tiene permiso para ver esto!';
 $string['nopermissiontounlock'] = 'No tiene permiso para desbloquear!';
-$string['nopermissiontoupdatecalendar'] = 'No tiene permisos para actualizar los eventos del calendario';
+$string['nopermissiontoupdatecalendar'] = 'Lo sentimos, no tiene permisos para actualizar los eventos del calendario.';
 $string['nopermissiontoviewgrades'] = 'No se pueden ver las calificaciones.';
 $string['nopermissiontoviewletergrade'] = 'Le falta permisos para revisar las calificaciones con letra';
 $string['nopermissiontoviewpage'] = 'No está autorizado a ver esta página';
@@ -505,6 +506,7 @@ $string['sessioncookiesdisable'] = 'Uso incorrecto de <b>require_key_login()</b>
 $string['sessiondiskfull'] = 'La partición de sesiones está llena. No es posible acceder en este momento. Por favor notifique al administrador del servidor.';
 $string['sessionerroruser'] = 'Su sesión ha excedido el tiempo límite. Por favor, ingrese de nuevo.';
 $string['sessionerroruser2'] = 'Se ha detectado un error del servidor que afecta a su sesión de acceso. Por favor, acceda de nuevo o reinicie su navegador.';
+$string['sessionexpired'] = 'La sesión expiró';
 $string['sessionhandlerproblem'] = 'El gestor de sesión está mal configurado';
 $string['sessionipnomatch'] = 'Lo sentimos, pero su número IP parece haber cambiado desde su primer acceso. Esta norma de seguridad previene que los crackers roben su identidad mientras usted está dentro de este sitio. Los usuarios normales no deberían ver este mensaje, así que por favor pida ayuda al administrador del sitio.';
 $string['sessionipnomatch2'] = '<p>Lo sentimos, pero su dirección IP, parece haber cambiado desde la primera vez que inicio su sesión. Esta característica de seguridad impide a los \'crackers\' robar su identidad mientras está conectado a este sitio. Usted puede ver este error si utiliza redes wifi o si está en itinerancia (roaming) entre redes diferentes. Por favor, pregunte al administrador del sitio para obtener más ayuda. </p>

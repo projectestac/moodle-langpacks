@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,11 @@ $string['check_cookiesecure_details'] = '<p>Se si abilita la comunicazione https
 $string['check_cookiesecure_error'] = 'Per favore abilita i cookie sicuri';
 $string['check_cookiesecure_name'] = 'Cookie sicuri';
 $string['check_cookiesecure_ok'] = 'Cookie sicuri abilitati.';
+$string['check_crawlers_details'] = '<p>L\'impostazione Aperto a Google consente ai motori di ricerca di accedere ai corsi come ospite. E\' inutile consentire l\'accesso come ospite ai motori di ricerca se l\'accesso come ospite è disabilitato.</p>';
+$string['check_crawlers_error'] = 'L\'accesso per i motori di ricerca è abilitato ma l\'accesso come ospite al sito è disabilitato.';
+$string['check_crawlers_info'] = 'I motori di ricerca possono entrare nel sito come ospiti.';
+$string['check_crawlers_name'] = 'Aperto a Google';
+$string['check_crawlers_ok'] = 'L\'accesso per i motori di ricerca è disabilitato.';
 $string['check_defaultuserrole_details'] = '<p>A tutti gli utenti autenticati vengono conferiti i privilegi del Ruolo di default per tutti gli utenti. Accertati che tale ruolo non possegga privilegi tali da consentirgli di compromettere la sicurezza del sito.</p>
 <p>Il solo Ruolo origine supportato per il Ruolo di default per tutti gli utenti è <em>Utente autenticato</em>.</p>';
 $string['check_defaultuserrole_error'] = 'Il Ruolo di default per tutti gli utenti "{$a}" non è definito in modo corretto!';
@@ -60,11 +65,6 @@ $string['check_frontpagerole_error'] = 'Il Ruolo di default per la pagina home, 
 $string['check_frontpagerole_name'] = 'Ruolo di default per la pagina home';
 $string['check_frontpagerole_notset'] = 'Il Ruolo di default per la pagina home non è impostato.';
 $string['check_frontpagerole_ok'] = 'Definizione del Ruolo di default per la pagina home OK.';
-$string['check_google_details'] = '<p>L\'impostazione Aperto a Google consente ai motori di ricerca di accedere ai corsi come ospite. E\' inutile consentire l\'accesso come ospite ai motori di ricerca se l\'accesso come ospite è disabilitato.</p>';
-$string['check_google_error'] = 'L\'accesso per i motori di ricerca è abilitato ma l\'accesso come ospite al sito è disabilitato.';
-$string['check_google_info'] = 'I motori di ricerca possono entrare nel sito come ospiti.';
-$string['check_google_name'] = 'Aperto a Google';
-$string['check_google_ok'] = 'L\'accesso per i motori di ricerca è disabilitato.';
 $string['check_guestrole_details'] = '<p>Il Ruolo ospite è utilizzato per gli ospiti: agli utenti non autenticati può essere consentito un accesso temporaneo come ospite. Accertati che il ruolo ospite non possegga privilegi tali da consentirgli di compromettere la sicurezza del sito.</p>
 <p>Il solo Ruolo origine supportato per il ruolo di ospite è <em>Ospite</em>.</p>';
 $string['check_guestrole_error'] = 'Il Ruolo di default per gli ospiti, "{$a}", non è definito in modo corretto.';

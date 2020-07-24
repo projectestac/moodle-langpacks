@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,6 +67,15 @@ $string['emailconfirmlinksent'] = 'このメールアドレスで既存のアカ
 あなたのメールアドレス <b>{$a}</b> にメールが送信されています。
 
 メールにはあなたのアカウントをリンクするための簡単なインストラクションが含まれます。難しい場合、あなたのサイト管理者にご連絡ください。';
+$string['emailpasswordchangeinfo'] = '{$a->firstname} さん
+
+誰か (恐らくあなた) が「 {$a->sitename} 」 のあなたのアカウントの新しいパスワードをリクエストしました。
+
+しかし、あなたは別のサイトのアカウントをログインに使用しているため、あなたのパスワードをリセットできません。
+
+これまでのようにログインページのリンクを使用してログインしてください。
+{$a->admin}';
+$string['emailpasswordchangeinfosubject'] = '{$a}: パスワード変更情報';
 $string['info'] = '外部アカウント';
 $string['issuer'] = 'OAuth 2サービス';
 $string['issuernologin'] = 'この発行者はログインに使用できません。';

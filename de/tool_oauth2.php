@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_oauth2', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_oauth2', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,7 +73,7 @@ $string['issuerimage_help'] = 'Die Logo-URL wird verwendet, um ein Logo des Serv
 $string['issuerloginparams'] = 'Zusätzliche Parameter für die Login-Anforderung';
 $string['issuerloginparams_help'] = 'Einige Systeme brauchen zusätzliche Parameter für eine Anmeldeanforderung, um ein Nutzergrundprofil zu lesen.';
 $string['issuerloginparamsoffline'] = 'Zusätzliche Parameter, die in einer Login-Anforderung für den Offline-Zugriff enthalten sind.';
-$string['issuerloginparamsoffline_help'] = 'Jedes OAuth-System definiert seinen eigenen Weg, um den Offline-Zugriff anzufordern. Google verlangt z. B. die zusätzlichen Parameter: "access_type=offline&prompt=consent".  Diese Parameter sollten im URL-query-Parameterformat angegeben sein.';
+$string['issuerloginparamsoffline_help'] = 'Jedes OAuth-System definiert seinen eigenen Weg, um den Offline-Zugriff anzufordern. Google verlangt z.B. die zusätzlichen Parameter: "access_type=offline&prompt=consent".  Diese Parameter sollten im URL-query-Parameterformat angegeben sein.';
 $string['issuerloginscopes'] = 'Scopes, die bei einer Anmeldeanforderung angefordert werden.';
 $string['issuerloginscopes_help'] = 'Einige OAuth-Systeme erfordern zusätzliche Scopes (d. h. Berechtigungen) für eine Anmeldeanforderung, um das Nutzergrundprofil zu lesen. Die Standard-Scopes für ein zu OpenID-Connect kompatibles System sind "openid profile email".';
 $string['issuerloginscopesoffline'] = 'Scopes in einer Anmeldeanforderung für einen Offline-Zugriff';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_tex', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'filter_tex', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   filter_tex
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['configconvertformat'] = 'Als <i>latex</i>, <i>dvips</i> en <i>convert</i> samen met <i>convert</i> beschikbaar zijn, kies dan je voorkeur afbeeldingstype (<i>convert</i> maakt GIF of PNG; <i>dvisvgm</i> maakt SVG). Anders zal mimeTeX gebruikt worden en dat maakt GIF-afbeeldingen.';
 $string['convertformat'] = 'Output afbeeldingsformaat';
 $string['filtername'] = 'TeX notatie';
-$string['latexpreamble'] = 'LaTeX inleiding';
+$string['latexpreamble'] = 'LaTeX preamble';
 $string['latexsettings'] = 'LaTeX  renderer instellingen';
 $string['pathconvert'] = 'Pad van <i>convert</i> binary';
 $string['pathdvips'] = 'Pad van <i>dvips</i> binary';

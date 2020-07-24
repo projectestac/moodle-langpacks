@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'debug', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,11 +34,13 @@ $string['cannotinitpage'] = 'Αδυναμία πλήρους αρχικοποί�
 $string['cannotsetuptable'] = '{$a} πίνακες δεν έχουν εγκατασταθεί με επιτυχία!';
 $string['codingerror'] = 'Εντοπίστηκε λάθος κώδικα, πρέπει να φτιαχτεί από προγραμματιστή: {$a}';
 $string['configmoodle'] = 'Το Moodle δεν έχει παραμετροποιηθεί ακόμη. Πρέπει να επεξεργαστείτε το config.php πρώτα.';
+$string['debuginfo'] = 'Πληροφορίες αποσφαλμάτωσης';
 $string['erroroccur'] = 'Παρουσιάστηκε κάποιο σφάλμα κατά τη διάρκεια της διαδικασίας';
 $string['invalidarraysize'] = 'Μη έγκυρο μέγεθος πινάκων στις παραμέτρους του {$a}';
 $string['invalideventdata'] = 'Έχουν υποβληθεί λανθασμένα δεδομένα γεγονότος: {$a}';
 $string['invalidparameter'] = 'Εντοπίστηκε μη έγκυρη τιμή παραμέτρου';
 $string['invalidresponse'] = 'Εντοπίστηκε μη έγκυρη τιμή απόκρισης';
+$string['line'] = 'Γραμμή';
 $string['missingconfigversion'] = 'Ο πίνακας ρυθμίσεων δεν περιέχει την έκδοση. Λυπούμαστε αλλά είναι αδύνατη η συνέχεια.';
 $string['modulenotexist'] = 'Το άρθρωμα {$a} δεν υπάρχει';
 $string['morethanonerecordinfetch'] = 'Βρέθηκαν περισσότερες από μία εγγραφές στη fetch() !';
@@ -50,9 +52,11 @@ $string['nomodules'] = 'Δεν έχουν βρεθεί αρθρώματα!!';
 $string['nopageclass'] = 'Έγινε εισαγωγή του {$a} αλλά δε βρέθηκαν κλάσεις σελίδας';
 $string['noreports'] = 'Δεν υπάρχουν προσβάσιμες αναφορές';
 $string['notables'] = 'Δεν υπάρχουν καθόλου πίνακες!';
+$string['outputbuffer'] = 'Ενδιάμεση μνήμη εξόδου';
 $string['phpvaroff'] = 'Η μεταβλητή του εξυπηρετητή PHP «{$a->name}» θα έπρεπε να είναι Off - {$a->link}';
 $string['phpvaron'] = 'Η μεταβλητή του εξυπηρετητή PHP «{$a->name}» δεν είναι On - {$a->link}';
 $string['sessionmissing'] = 'Το αντικείμενο {$a} λείπει από τη σύνοδο';
 $string['sqlrelyonobsoletetable'] = 'Η SQL αυτή στηρίζεται σε απαρχαιωμένους πίνακες/-α: {$a}! Ο κώδικάς σας πρέπει να διορθωθεί από κάποιον προγραμματιστή.';
+$string['stacktrace'] = 'Ίχνη στοίβας';
 $string['withoutversion'] = 'Το κύριο αρχείο version.php λείπει, δεν είναι αναγνώσιμο ή είναι κατεστραμμένο.';
 $string['xmlizeunavailable'] = 'Οι λειτουργίες xmlize δεν είναι διαθέσιμες';

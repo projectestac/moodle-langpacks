@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'availability', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   availability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['accessrestrictions'] = 'Eskuragarritasun baldintzak';
 $string['addrestriction'] = 'Gehitu baldintza...';
 $string['and'] = 'eta';
 $string['condition_group'] = 'Baldintza-sorta';
-$string['condition_group_info'] = 'Gehitu habiaratutako baldintza-multzoa logika konplexua aplikatzeko.';
+$string['condition_group_info'] = 'Gehitu habiaratutako baldintza-multzo bat logika konplexua erabiltzeko.';
 $string['enableavailability'] = 'Gaitu eskuragarritasun baldintzak';
 $string['enableavailability_desc'] = 'Gaituz gero, baldintzak (data, kalifikazioa edo beste jarduera bat osatua egotea) ezarri ahal izango dituzu jarduera eskuragarri dagoen ala ez kontrolatzeko.';
 $string['error_list_nochildren'] = 'Baldintza-sortek gutxienez baldintza bat izan behar dute.';
@@ -58,7 +58,7 @@ $string['list_root_and'] = 'Ez eskuragarri hurrengoak bete ezean:';
 $string['list_root_and_hidden'] = 'Ez eskuragarri (bestela ezkutuan) hurrengoak bete ezean:';
 $string['list_root_or'] = 'Ez eskuragarri hurrengoetako baten bat bete ezean:';
 $string['list_root_or_hidden'] = 'Ez eskuragarri (bestela ezkutuan) hurrengoetako baten bat bete ezean:';
-$string['manageplugins'] = 'Kudeatu baldintzak';
+$string['manageplugins'] = 'Kudeatu baldintza-motak';
 $string['missingplugin'] = 'Baldintza-plugina falta da';
 $string['or'] = 'edo';
 $string['privacy:metadata'] = 'Eskuragarritasun baldintzen azpisistemak ez du datu pertsonalik biltzen.';

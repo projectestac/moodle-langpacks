@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_configlog', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_configlog', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   report_configlog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,9 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configlog'] = 'Konfigurationsändringar';
-$string['oldvalue'] = 'Ursprungligt värde';
 $string['plugin'] = 'Insticksmodul';
 $string['pluginname'] = 'Konfigurationsändringar';
 $string['setting'] = 'Inställning';
 $string['timemodified'] = 'Datum';
-$string['value'] = 'Nytt värde';
+$string['valuenew'] = 'Nytt värde';
+$string['valueold'] = 'Ursprungligt värde';

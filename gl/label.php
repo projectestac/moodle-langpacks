@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'label', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,8 +34,14 @@ $string['dndresizewidth'] = 'Redimensionar o largo ao arrastrar e soltar';
 $string['dnduploadlabel'] = 'Engadir unha imaxe á páxina do curso';
 $string['dnduploadlabeltext'] = 'Engadir unha etiqueta á páxina do curso';
 $string['indicator:cognitivedepth'] = 'Etiqueta cognitiva';
+$string['indicator:cognitivedepthdef'] = 'Etiqueta cognitiva';
+$string['indicator:cognitivedepthdef_help'] = 'O participante acadou esta porcentaxe do compromiso cognitivo que ofrecen os recursos de Etiqueta durante este intervalo de análise (Niveis = Sen vista, Ver)';
+$string['indicator:cognitivedepthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Profundidade_cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nun recurso etiqueta.';
 $string['indicator:socialbreadth'] = 'Etiqueta social';
+$string['indicator:socialbreadthdef'] = 'Etiqueta social';
+$string['indicator:socialbreadthdef_help'] = 'O participante acadou esta porcentaxe do compromiso social que ofrecen os recursos de Etiqueta durante este intervalo de análise (Niveis = Sen participación, Participante en solitario)';
+$string['indicator:socialbreadthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Amplitude_social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nun recurso etiqueta.';
 $string['label:addinstance'] = 'Engadir unha nova etiqueta';
 $string['labeltext'] = 'Texto da etiqueta';

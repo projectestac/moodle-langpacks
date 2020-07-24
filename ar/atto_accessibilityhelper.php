@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_accessibilityhelper', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'atto_accessibilityhelper', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   atto_accessibilityhelper
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,12 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['listimages'] = 'الصورة في محرر النص';
-$string['listlinks'] = 'الرابط في محرر النص';
-$string['liststyles'] = 'انماط للحزء المحدد';
-$string['noimages'] = 'لايوجد صورة';
-$string['nolinks'] = 'لايوجد رابط';
-$string['nostyles'] = 'لايوجد أنماط';
+$string['listimages'] = 'الصور في محرر النص:';
+$string['listlinks'] = 'الروابط في محرر النص:';
+$string['liststyles'] = 'أنماط للجزء المحدد:';
+$string['noimages'] = 'لا يوجد صور:';
+$string['nolinks'] = 'لا يوجد روابط';
+$string['nostyles'] = 'لا يوجد أنماط';
 $string['pluginname'] = 'مساعد ترويسة الشاشة';
 $string['privacy:metadata'] = 'لا يقوم الملحق الإضافي atto_accessibilityhelper بتخزين أيّ بيانات شخصية.';
 $string['selectimage'] = 'حدد الصورة';

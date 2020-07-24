@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -188,6 +188,7 @@ $string['qcategory2coursefallback'] = 'Fråge kategorin "{$a->name}", ursprungli
 $string['qcategorycannotberestored'] = 'Frågekategorin &quot;{$a->name}&quot; kan inte skapas av återställningprocessen';
 $string['question2coursefallback'] = 'Frågekategorin &quot;{$a->name}&quot; kan inte skapas av återställningprocessen';
 $string['questionegorycannotberestored'] = 'Frågorna "{$a->name}" kan inte skapas av återställningprocessen';
+$string['recyclebin_desc'] = 'OBS att dessa inställningar även kommer att användas för papperskorgen.';
 $string['restoreactivity'] = 'Återställ aktivitet';
 $string['restorecourse'] = 'Återställ kurs';
 $string['restorecoursesettings'] = 'Inställningar för kurs';

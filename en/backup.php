@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,36 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['asyncbackupcomplete'] = 'The backup process has completed';
+$string['asyncbackupcompletebutton'] = 'Continue';
+$string['asyncbackupcompletedetail'] = 'The backup process has completed successfully. <br/> You can access the backup on the <a href="{$a}">restore page.</a>';
+$string['asyncbackuperror'] = 'The backup process has failed';
+$string['asyncbackuperrordetail'] = 'The backup process has failed. Please contact your system administrator.';
+$string['asyncbackuppending'] = 'The backup process is pending';
+$string['asyncbackupprocessing'] = 'The backup is in progress';
+$string['asyncbadexecution'] = 'Bad backup controller execution. It is {$a} and should be 2.';
+$string['asynccheckprogress'] = 'You can check the progress at any time on the <a href="{$a}">restore page</a>.';
+$string['asyncemailenable'] = 'Enable message notifications';
+$string['asyncemailenabledetail'] = 'If enabled, users will receive a message when an asynchronous backup or restore completes.';
+$string['asyncgeneralsettings'] = 'Asynchronous backup/restore';
+$string['asyncmessagebody'] = 'Message';
+$string['asyncmessagebodydefault'] = 'Hi {user_firstname},<br/> Your {operation} (ID: {backupid}) has completed successfully. <br/><br/>You can access it here: {link}.';
+$string['asyncmessagebodydetail'] = 'Message to send when an asynchronous backup or restore completes.';
+$string['asyncmessagesubject'] = 'Subject';
+$string['asyncmessagesubjectdefault'] = 'Moodle {operation} completed successfully';
+$string['asyncmessagesubjectdetail'] = 'Message subject';
+$string['asyncnowait'] = 'You don\'t need to wait here, as the process will continue in the background.';
+$string['asyncprocesspending'] = 'Process pending';
+$string['asyncrestorecomplete'] = 'The restore process has completed';
+$string['asyncrestorecompletebutton'] = 'Continue';
+$string['asyncrestorecompletedetail'] = 'The restore process has completed successfully. Clicking continue will take you to the <a href="{$a}">course for the restored item.</a>';
+$string['asyncrestoreerror'] = 'The restore process has failed';
+$string['asyncrestoreerrordetail'] = 'The restore process has failed. Please contact your system administrator.';
+$string['asyncrestoreinprogress'] = 'Restores in progress';
+$string['asyncrestoreinprogress_help'] = 'Asynchronous course restores that are in progress are shown here.';
+$string['asyncrestorepending'] = 'The restore process is pending';
+$string['asyncrestoreprocessing'] = 'The restore is in progress';
+$string['asyncreturn'] = 'Return to course';
 $string['autoactivedescription'] = 'Choose whether or not to do automated backups. If manual is selected automated backups will be possible only by through the automated backups CLI script. This can be done either manually on the command line or through cron.';
 $string['autoactivedisabled'] = 'Disabled';
 $string['autoactiveenabled'] = 'Enabled';
@@ -64,6 +94,7 @@ $string['backupmode30'] = 'Hub';
 $string['backupmode40'] = 'Same site';
 $string['backupmode50'] = 'Automated';
 $string['backupmode60'] = 'Converted';
+$string['backupmode70'] = 'Asynchronous';
 $string['backupsection'] = 'Backup course section: {$a}';
 $string['backupsettings'] = 'Backup settings';
 $string['backupsitedetails'] = 'Site details';
@@ -93,6 +124,7 @@ $string['configgeneralblocks'] = 'Sets the default for including blocks in a bac
 $string['configgeneralcalendarevents'] = 'Sets the default for including calendar events in a backup.';
 $string['configgeneralcomments'] = 'Sets the default for including comments in a backup.';
 $string['configgeneralcompetencies'] = 'Sets the default for including competencies in a backup.';
+$string['configgeneralfiles'] = 'Sets the default for including files in a backup. Please note: Disabling this setting will result in a backup which only includes references to files. This is not a problem if the backup is restored on the same site and the files have not been deleted according to the setting \'Clean up trash pool files\' (filescleanupperiod).';
 $string['configgeneralfilters'] = 'Sets the default for including filters in a backup.';
 $string['configgeneralgroups'] = 'Sets the default for including groups and groupings in a backup.';
 $string['configgeneralhistories'] = 'Sets the default for including user history within a backup.';
@@ -140,6 +172,8 @@ $string['currentstage16'] = 'Complete';
 $string['currentstage2'] = 'Schema settings';
 $string['currentstage4'] = 'Confirmation and review';
 $string['currentstage8'] = 'Perform backup';
+$string['enableasyncbackup'] = 'Enable asynchronous backups';
+$string['enableasyncbackup_help'] = 'If enabled, all backup and restore operations will be done asynchronously. This does not affect imports and exports. Asynchronous backups and restores allow users to do other operations while a backup or restore is in progress.';
 $string['enterasearch'] = 'Enter a search';
 $string['error_block_for_module_not_found'] = 'Orphan block instance (id: {$a->bid}) for course module (id: {$a->mid}) found. This block will not be backed up';
 $string['errorcopyingbackupfile'] = 'Failed to copy the backup file to the temporary folder before restoring.';
@@ -152,6 +186,7 @@ $string['errorinvalidformatinfo'] = 'The selected file is not a valid Moodle bac
 $string['errorminbackup20version'] = 'This backup file has been created with one development version of Moodle backup ({$a->backup}). Minimum required is {$a->min}. Cannot be restored.';
 $string['errorrestorefrontpagebackup'] = 'You can only restore front page backups on the front page';
 $string['executionsuccess'] = 'The backup file was successfully created.';
+$string['failed'] = 'Backup failed';
 $string['filealiasesrestorefailures'] = 'Aliases restore failures';
 $string['filealiasesrestorefailures_help'] = 'Aliases are symbolic links to other files, including those stored in external repositories. In some cases, Moodle cannot restore them - for example when restoring the backup at another site or when the referenced file does not exist.
 
@@ -171,6 +206,7 @@ $string['generalcalendarevents'] = 'Include calendar events';
 $string['generalcomments'] = 'Include comments';
 $string['generalcompetencies'] = 'Include competencies';
 $string['generalenrolments'] = 'Include enrolment methods';
+$string['generalfiles'] = 'Include files';
 $string['generalfilters'] = 'Include filters';
 $string['generalgradehistories'] = 'Include histories';
 $string['generalgroups'] = 'Include groups and groupings';
@@ -209,6 +245,7 @@ $string['includeditems'] = 'Included items:';
 $string['includefilereferences'] = 'File references to external contents';
 $string['includesection'] = 'Section {$a}';
 $string['includeuserinfo'] = 'User data';
+$string['inprogress'] = 'Backup in progress';
 $string['jumptofinalstep'] = 'Jump to final step';
 $string['keep'] = 'Keep';
 $string['locked'] = 'Locked';
@@ -227,6 +264,10 @@ $string['nomatchingcourses'] = 'There are no courses to display';
 $string['norestoreoptions'] = 'There are no categories or existing courses you can restore to.';
 $string['originalwwwroot'] = 'URL of backup';
 $string['overwrite'] = 'Overwrite';
+$string['pendingasyncdeletedetail'] = 'This course has an asynchronous backup pending. <br/> Courses can\'t be deleted until this backup finishes.';
+$string['pendingasyncdetail'] = 'Asynchronous backups only allow a user to have one pending backup for a resource at a time. <br/> Multiple asynchronous backups of the same resource can\'t be queued, as this would likely result in multiple backups with the same content.';
+$string['pendingasyncedit'] = 'There is a pending asynchronous backup for this course. Please do not edit this course until backup is complete.';
+$string['pendingasyncerror'] = 'Backup pending for this resource';
 $string['preparingdata'] = 'Preparing data';
 $string['preparingui'] = 'Preparing to display page';
 $string['previousstage'] = 'Previous';
@@ -288,10 +329,12 @@ $string['rootsettingblocks'] = 'Include blocks';
 $string['rootsettingcalendarevents'] = 'Include calendar events';
 $string['rootsettingcomments'] = 'Include comments';
 $string['rootsettingcompetencies'] = 'Include competencies';
+$string['rootsettingcustomfield'] = 'Include custom fields';
 $string['rootsettingenrolments'] = 'Include enrolment methods';
 $string['rootsettingenrolments_always'] = 'Yes, always';
 $string['rootsettingenrolments_never'] = 'No, restore users as manual enrolments';
 $string['rootsettingenrolments_withusers'] = 'Yes, but only if users are included';
+$string['rootsettingfiles'] = 'Include files';
 $string['rootsettingfilters'] = 'Include filters';
 $string['rootsettinggradehistories'] = 'Include grade history';
 $string['rootsettinggroups'] = 'Include groups and groupings';
@@ -303,6 +346,7 @@ $string['rootsettingroleassignments'] = 'Include user role assignments';
 $string['rootsettings'] = 'Backup settings';
 $string['rootsettingusers'] = 'Include enrolled users';
 $string['rootsettinguserscompletion'] = 'Include user completion details';
+$string['samesitenotification'] = 'This backup was created with only references to files, not the files themselves. Restoring will only work on this site.';
 $string['sectionactivities'] = 'Activities';
 $string['sectioninc'] = 'Included in backup (no user information)';
 $string['sectionincanduser'] = 'Included in backup along with user information';
@@ -325,9 +369,12 @@ $string['skipmodifdays'] = 'Skip courses not modified since';
 $string['skipmodifdayshelp'] = 'Choose to skip courses that have not been modified since a number of days';
 $string['skipmodifprev'] = 'Skip courses not modified since previous backup';
 $string['skipmodifprevhelp'] = 'Choose whether to skip courses that have not been modified since the last automatic backup. This requires logging to be enabled.';
+$string['status'] = 'Status';
 $string['storagecourseandexternal'] = 'Course backup filearea and the specified directory';
 $string['storagecourseonly'] = 'Course backup filearea';
 $string['storageexternalonly'] = 'Specified directory for automated backups';
+$string['successful'] = 'Backup successful';
+$string['successfulrestore'] = 'Restore successful';
 $string['timetaken'] = 'Time taken';
 $string['title'] = 'Title';
 $string['totalcategorysearchresults'] = 'Total categories: {$a}';

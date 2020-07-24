@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_task', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,6 +49,7 @@ $string['runnow_confirm'] = 'Sei sicuro di eseguire l\'elaborazione ‘{$a}’ a
 $string['scheduledtaskchangesdisabled'] = 'La modifica delle elaborazioni pianificate è disabilitata';
 $string['scheduledtasks'] = 'Elaborazioni pianificate';
 $string['taskdisabled'] = 'Elaborazione disabilitata';
+$string['tasklogs'] = 'Log delle elaborazioni';
 $string['taskscheduleday'] = 'Giorno';
 $string['taskscheduleday_help'] = 'Il giorno del mese nel quale svolgere l\'elaborazione. Il formato da usare è lo stesso del cron Unix. Esempi:
 
@@ -84,3 +85,4 @@ $string['taskschedulemonth_help'] = 'Il mese nel quale svolgere l\'elaborazione.
 <strong>*/2</strong> Ogni secondo mese
 <strong>1</strong> Ogni anno a gennaio
 <strong>1,5</strong> Ogni anno a gennaio e maggio';
+$string['viewlogs'] = 'Visualizza i log di {$a}';

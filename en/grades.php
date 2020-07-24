@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'grades', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addfeedback'] = 'Add feedback';
 $string['addgradeletter'] = 'Add a grade letter';
 $string['addidnumbers'] = 'Add ID numbers';
 $string['additem'] = 'Add grade item';
+$string['additionalfeedback'] = 'Additional feedback';
 $string['addoutcome'] = 'Add an outcome';
 $string['addoutcomeitem'] = 'Add outcome item';
 $string['addscale'] = 'Add a scale';
@@ -97,7 +98,7 @@ $string['autosort'] = 'Auto-sort';
 $string['availableidnumbers'] = 'Available ID numbers';
 $string['average'] = 'Average';
 $string['averagesdecimalpoints'] = 'Decimals in column averages';
-$string['averagesdecimalpoints_help'] = 'This setting determines the number of decimal points to display for each average or whether the overall decimal points setting for the category or grade item is used (inherit).';
+$string['averagesdecimalpoints_help'] = 'This setting determines the number of decimal places to display for each average or whether the overall decimal places setting for the category or grade item is used (inherit).';
 $string['averagesdisplaytype'] = 'Column averages display type';
 $string['averagesdisplaytype_help'] = 'This setting determines whether the average (mean) is displayed as real grades, percentages or letters, or whether the display type for the category or grade item is used (inherit).';
 $string['backupwithoutgradebook'] = 'Backup does not contain gradebook configuration';
@@ -126,6 +127,7 @@ $string['changedefaults'] = 'Change defaults';
 $string['changereportdefaults'] = 'Change report defaults';
 $string['chooseaction'] = 'Choose an action ...';
 $string['choosecategory'] = 'Select category';
+$string['collapsecriterion'] = 'Collapse criterion';
 $string['combo'] = 'Tabs and drop-down menu';
 $string['compact'] = 'Compact';
 $string['componentcontrolsvisibility'] = 'Whether this grade item is hidden is controlled by the activity settings.';
@@ -150,8 +152,8 @@ $string['creatinggradebooksettings'] = 'Creating gradebook settings';
 $string['csv'] = 'CSV';
 $string['currentparentaggregation'] = 'Current parent aggregation';
 $string['curveto'] = 'Curve to';
-$string['decimalpoints'] = 'Overall decimal points';
-$string['decimalpoints_help'] = 'This setting determines the number of decimal points to display for each grade. It has no effect on grade calculations, which are made with an accuracy of 5 decimal places.';
+$string['decimalpoints'] = 'Overall decimal places';
+$string['decimalpoints_help'] = 'This setting determines the number of decimal places to display for each grade. It has no effect on grade calculations, which are made with an accuracy of 5 decimal places.';
 $string['default'] = 'Default';
 $string['defaultprev'] = 'Default ({$a})';
 $string['deletecategory'] = 'Delete category';
@@ -202,6 +204,8 @@ $string['errorupdatinggradecategoryaggregateoutcomes'] = 'Error updating the "In
 $string['errorupdatinggradecategoryaggregation'] = 'Error updating the aggregation type of grade category ID {$a->id}';
 $string['errorupdatinggradeitemaggregationcoef'] = 'Error updating the aggregation coefficient (weight or extra credit) of grade item ID {$a->id}';
 $string['eventgradedeleted'] = 'Grade deleted';
+$string['eventgradeitemcreated'] = 'Grade item created';
+$string['eventgradeitemupdated'] = 'Grade item updated';
 $string['eventgradelettercreated'] = 'Grade letter created';
 $string['eventgradeletterdeleted'] = 'Grade letter deleted';
 $string['eventgradeletterupdated'] = 'Grade letter updated';
@@ -213,6 +217,7 @@ $string['eventusergraded'] = 'User graded';
 $string['excluded'] = 'Excluded';
 $string['excluded_help'] = 'If ticked, the grade will not be included in any aggregation.';
 $string['expand'] = 'Expand category';
+$string['expandcriterion'] = 'Expand criterion';
 $string['export'] = 'Export';
 $string['exportalloutcomes'] = 'Export all outcomes';
 $string['exportfeedback'] = 'Include feedback in export';
@@ -274,16 +279,16 @@ $string['gradedisplay'] = 'Grade display';
 $string['gradedisplaytype'] = 'Grade display type';
 $string['gradedisplaytype_help'] = 'This setting determines how grades are displayed in the grader and user reports.
 
-* Real - Actual grades
-* Percentage
-* Letter - Letters or words are used to represent a range of grades';
+* Letter - Letters or words are used to represent a range of grades, as defined in \'Letters\' in the gradebook setup
+* Percentage - Relative to maximum and minimum grades
+* Real - Actual grades or scale values';
 $string['gradedon'] = 'Graded: {$a}';
 $string['gradeexport'] = 'Grade export';
 $string['gradeexportcolumntype'] = '{$a->name} ({$a->extra})';
 $string['gradeexportcustomprofilefields'] = 'Grade export custom profile fields';
 $string['gradeexportcustomprofilefields_desc'] = 'Include these custom profile fields in the grade export, separated by commas.';
-$string['gradeexportdecimalpoints'] = 'Grade export decimal points';
-$string['gradeexportdecimalpoints_desc'] = 'The number of decimal points to display for export. This can be overridden during export.';
+$string['gradeexportdecimalpoints'] = 'Grade export decimal places';
+$string['gradeexportdecimalpoints_desc'] = 'The number of decimal places to display for export. This can be overridden during export.';
 $string['gradeexportdisplaytype'] = 'Grade export display type';
 $string['gradeexportdisplaytype_desc'] = 'Grades can be shown as real grades, as percentages (in reference to the minimum and maximum grades) or as letters (A, B, C etc..) during export. This can be overridden during export.';
 $string['gradeexportdisplaytypes'] = 'Grade export display types';
@@ -292,6 +297,7 @@ $string['gradeexportuserprofilefields_desc'] = 'Include these user profile field
 $string['gradeforstudent'] = '{$a->student}<br />{$a->item}{$a->feedback}';
 $string['gradegrademinmax'] = 'Initial min and max grades';
 $string['gradehelp'] = 'Grade help';
+$string['grade_help'] = 'The grade to award the student for their work.';
 $string['gradehistorylifetime'] = 'Grade history lifetime';
 $string['gradehistorylifetime_help'] = 'This specifies the length of time you want to keep history of changes in grade related tables. It is recommended to keep it as long as possible. If you experience performance problems or have limited database space, try to set lower value.';
 $string['gradeimport'] = 'Grade import';
@@ -320,6 +326,8 @@ $string['grademax'] = 'Maximum grade';
 $string['grademax_help'] = 'This setting determines the maximum grade when using the value grade type. The maximum grade for an activity-based grade item is set on the activity settings page.';
 $string['grademin'] = 'Minimum grade';
 $string['grademin_help'] = 'This setting determines the minimum grade when using the value grade type.';
+$string['gradenotificationmessage'] = 'You have new feedback on your work for "{$a}"';
+$string['gradenotificationsubject'] = 'You have been graded';
 $string['gradeoutcomeitem'] = 'Grade outcome item';
 $string['gradeoutcomes'] = 'Outcomes';
 $string['gradeoutcomescourses'] = 'Course outcomes';
@@ -358,6 +366,7 @@ $string['gradevaluetoobig'] = 'One of the grade values is larger than the allowe
 $string['gradeview'] = 'View grade';
 $string['gradewasmodifiedduringediting'] = 'The grade entered for {$a->itemname} for {$a->username} was ignored because it was more recently updated by someone else.';
 $string['gradeweighthelp'] = 'Grade weight help';
+$string['gradingmodulename'] = 'Grading ({$a})';
 $string['groupavg'] = 'Group average';
 $string['hidden'] = 'Hidden';
 $string['hiddenasdate'] = 'Show submitted date for hidden grades';
@@ -557,6 +566,7 @@ $string['noselecteditems'] = 'no items were selected.';
 $string['notenrolled'] = 'You are currently not enrolled in any courses.';
 $string['notteachererror'] = 'You must be a teacher to use this feature.';
 $string['nousersloaded'] = 'No users loaded';
+$string['nouserstograde'] = 'No users to grade';
 $string['numberofgrades'] = 'Number of grades';
 $string['onascaleof'] = 'on a scale of {$a->grademin} to {$a->grademax}';
 $string['operations'] = 'Operations';
@@ -668,10 +678,10 @@ $string['quickgrading_help'] = 'If enabled, when editing is turned on, a text in
 
 Note that when a grade is edited in the grader report, an overridden flag is set, meaning that the grade can no longer be changed from within the related activity.';
 $string['range'] = 'Range';
-$string['rangedecimals'] = 'Range decimal points';
-$string['rangedecimals_help'] = 'The number of decimal points to display for range.';
+$string['rangedecimals'] = 'Range decimal places';
+$string['rangedecimals_help'] = 'The number of decimal places to display for the range.';
 $string['rangesdecimalpoints'] = 'Decimals shown in ranges';
-$string['rangesdecimalpoints_help'] = 'This setting determines the number of decimal points to display for each range or whether the overall decimal points setting for the category or grade item is used (inherit).';
+$string['rangesdecimalpoints_help'] = 'This setting determines the number of decimal places to display for each range or whether the overall decimal places setting for the category or grade item is used (inherit).';
 $string['rangesdisplaytype'] = 'Range display type';
 $string['rangesdisplaytype_help'] = 'This setting determines whether the range is displayed as real grades, percentages or letters, or whether the display type for the category or grade item is used (inherit).';
 $string['rank'] = 'Rank';

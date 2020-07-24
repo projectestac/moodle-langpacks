@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_overview', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,9 +67,11 @@ $string['regradealldrydogroup'] = 'Herberekende pogingen ({$a->countregradeneede
 $string['regradealldrygroup'] = 'Test voor volledige herberekening voor groep \'{$a->groupname}\'';
 $string['regradeallgroup'] = 'Volledige herberekening voor groep \'{$a->groupname}\'';
 $string['regradecomplete'] = 'Herberekenen gelukt';
+$string['regradedsuccessfullyxofy'] = 'Herbeoordelen gelukt ({$a->done}/{$a->count})';
 $string['regradeheader'] = 'Herberekenen';
 $string['regradeselected'] = 'Herbereken geselecteerde pogingen';
 $string['regradingattemptxofy'] = 'Herberekenen poging ({$a->done}/{$a->count})';
+$string['regradingattemptxofywithdetails'] = 'Opnieuw proberen ({$a->done}/{$a->count}) - Probeer {$a->attemptnum} door {$a->name} (id {$a->attemptid})';
 $string['show'] = 'Toon / download';
 $string['showattempts'] = 'Toon /download alleen pogingen';
 $string['showdetailedmarks'] = 'Cijfers voor elke vraag';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_mnet', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_mnet', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,6 +31,7 @@ $string['auth_mnet_roamin'] = 'Deze gebruiker van deze host kunnen zich op jouw 
 $string['auth_mnet_roamout'] = 'Jouw gebruikers kunnen zich op deze hosts aanmelden.';
 $string['auth_mnet_rpc_negotiation_timeout'] = 'De timeout in seconden voor authenticatie over XMLRPC-transport.';
 $string['auto_add_remote_users'] = 'Voeg externe gebruikers automatisch toe';
+$string['crontask'] = 'Achtergrondverwerking voor MNET-authenticatie';
 $string['pluginname'] = 'MNet authenticatie';
 $string['privacy:metadata:external:mahara'] = 'Deze plugin kan extern data versturen naar een gelinkte Mahara-applicatie.';
 $string['privacy:metadata:external:moodle'] = 'Deze plugin kan extern data versturen naar een gelinkte Moodle-applicatie.';

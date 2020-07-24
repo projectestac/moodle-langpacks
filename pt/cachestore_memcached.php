@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_memcached', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cachestore_memcached', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   cachestore_memcached
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,7 +33,7 @@ $string['clustered_help'] = 'Esta opção é usada para permitir a funcionalidad
 
 A utilização pretendida consiste em melhorar o armazenamento para as configurações de balanceamento. O armazenamento irá procurar num servidor (normalmente localmente), mas definido para muitos (todos os servidores no load-balance pool). Para caches com uma leitura muito elevada que permitem definir rácios, isto reduz significativamente a sobrecarga na rede.
 
-Quando esta opção está ativada, a lista de servidores acima será usado para fetching.';
+Quando esta opção está ativada, a lista de servidores acima será usado para procurar.';
 $string['hash'] = 'Método Hash';
 $string['hash_crc'] = 'CRC';
 $string['hash_default'] = 'Predefinido (um de cada vez)';

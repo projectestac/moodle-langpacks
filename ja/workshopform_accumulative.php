@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_accumulative', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshopform_accumulative', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   workshopform_accumulative
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['absent'] = '欠席';
 $string['addmoredimensions'] = 'さらに {$a} 個の空白アスペクトを追加する';
 $string['correct'] = '正解';
-$string['dimensioncommentfor'] = '{$a} のコメント';
+$string['dimensioncommentfor'] = '{$a} へのコメント';
 $string['dimensiondescription'] = '説明';
 $string['dimensiongradefor'] = '{$a} の評定';
 $string['dimensionmaxgrade'] = '可能な範囲の最良評点 / 使用する評価尺度';
@@ -41,12 +41,12 @@ $string['mustchoosegrade'] = 'あなたはこのアスペクトの評点を選�
 $string['pluginname'] = '累積評価';
 $string['poor'] = '悪い';
 $string['present'] = '出席';
-$string['privacy:metadata'] = '累積評価プラグインは評価フォームの詳細のみ保存します。フォームがどのように入力されたかという実際の個人データはワークショップモジュール自体に保存されます。データはエクスポートされる提出に添付されます。';
+$string['privacy:metadata'] = '累積評価プラグインは評価フォームの詳細のみ保存します。フォームがどのように入力されたかという実際の個人データはワークショップモジュール自体に保存されます。データはエクスポートされる提出に付随します。';
 $string['scalename0'] = 'Yes/No (2点)';
 $string['scalename1'] = '出席/欠席 (2点)';
 $string['scalename2'] = '正解/不正解 (2点)';
 $string['scalename3'] = '良い/悪い (3点)';
-$string['scalename4'] = '優秀/特に悪い (4点)';
-$string['scalename5'] = '優秀/特に悪い (5点)';
-$string['scalename6'] = '優秀/特に悪い (7点)';
+$string['scalename4'] = '優秀/非常に悪い (4点)';
+$string['scalename5'] = '優秀/非常に悪い (5点)';
+$string['scalename6'] = '優秀/非常に悪い (7点)';
 $string['verypoor'] = '非常に悪い';

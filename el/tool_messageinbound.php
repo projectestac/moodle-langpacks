@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_messageinbound', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'Όνομα κλάσης';
 $string['component'] = 'Στοιχείο λογισμικού';
-$string['configmessageinboundhost'] = 'Η διεύθυνση του εξυπηρετητή τον οποίο το Moodle θα πρέπει να ελέγχει για ηλε.αλληλογραφία. Για να καθορίσετε μια μη προεπιλεγμένη θύρα, χρησιμοποιήστε το [server]:[θύρα], για παράδειγμα mail.example.com:587. Εάν δεν έχει οριστεί μια θύρα, θα χρησιμοποιηθεί η προεπιλεγμένη θύρα για τον τύπο εξυπηρετητή ηλε.ταχυδρομείου.';
+$string['configmessageinboundhost'] = 'Η διεύθυνση του εξυπηρετητή τον οποίο το Moodle θα πρέπει να ελέγχει για ηλε.αλληλογραφία. Για να καθορίσετε μια μη προεπιλεγμένη θύρα, χρησιμοποιήστε το [server]:[θύρα], για παράδειγμα mail.example.com:993. Εάν δεν έχει οριστεί μια θύρα, θα χρησιμοποιηθεί η προεπιλεγμένη θύρα για τον τύπο εξυπηρετητή ηλε.ταχυδρομείου.';
 $string['defaultexpiration'] = 'Προεπιλεγμένη περίοδος λήξης διεύθυνσης';
 $string['defaultexpiration_help'] = 'Όταν δημιουργείται μια διεύθυνση ηλε.ταχυδρομείου από το χειριστή, μπορεί να οριστεί αυτόματα να λήξει μετά από ένα χρονικό διάστημα, ώστε να μην μπορεί πλέον να χρησιμοποιηθεί. Συνιστάται να ορίσετε μια περίοδο λήξης.';
 $string['description'] = 'Περιγραφή';

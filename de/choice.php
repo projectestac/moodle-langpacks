@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,6 +57,7 @@ $string['chooseoption'] = 'Auswahl: {$a}';
 $string['closebeforeopen'] = 'Das Enddatum kann nicht vor dem Startdatum liegen.';
 $string['completionsubmit'] = 'Als abgeschlossen anzeigen, wenn die Person eine Option gewählt hat.';
 $string['description'] = 'Beschreibung';
+$string['deselectalloption'] = 'Alles abwählen "{$a}"';
 $string['displayhorizontal'] = 'Horizontal anzeigen';
 $string['displaymode'] = 'Anzeigemodus';
 $string['displayvertical'] = 'Vertikal anzeigen';
@@ -71,8 +72,12 @@ $string['full'] = '(Nicht verfügbar)';
 $string['havetologin'] = 'Sie müssen angemeldet sein, um sich an der Abstimmung beteiligen zu können.';
 $string['includeinactive'] = 'Einschließlich Ergebnissen von inaktiven/gesperrten Nutzer/innen';
 $string['indicator:cognitivedepth'] = 'Abstimmung kognitiv';
+$string['indicator:cognitivedepthdef'] = 'Abstimmung kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die Abstimmungsaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht, Beiträge, Feedback anzeigen).';
 $string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die eine Person in einer Abstimmungsaktivität erreicht hat.';
 $string['indicator:socialbreadth'] = 'Abstimmung sozial';
+$string['indicator:socialbreadthdef'] = 'Abstimmung sozial';
+$string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die Abstimmungsaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein, Teilnahme mit anderen).';
 $string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer Abstimmungsaktivität erreicht hat.';
 $string['limit'] = 'Obergrenze';
 $string['limitanswers'] = 'Anzahl der Antworten bei den Abstimmungsoptionen beschränken';
@@ -131,10 +136,10 @@ $string['responsesto'] = 'Antworten zu {$a}';
 $string['results'] = 'Ergebnisse';
 $string['savemychoice'] = 'Meine Auswahl speichern';
 $string['search:activity'] = 'Abstimmung - Beschreibung';
+$string['selectalloption'] = 'Alles auswählen "{$a}"';
 $string['showpreview'] = 'Vorschau anzeigen';
 $string['showpreview_help'] = 'Diese Option legt fest, ob die verfügbaren Wahlmöglichkeiten bereits vor dem Abstimmungsbeginn angezeigt werden.';
 $string['showunanswered'] = 'Teilnehmer/innen ohne Antwort anzeigen';
-$string['skipresultgraph'] = 'Ergebnisanzeige überspringen';
 $string['spaceleft'] = 'Platz verfügbar';
 $string['spacesleft'] = 'Plätze verfügbar';
 $string['taken'] = 'Eingetragen';

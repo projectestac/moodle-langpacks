@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,15 +86,13 @@ $string['emailnowexists'] = 'あなたのプロファイルに割り当てよう
 $string['emailupdate'] = 'メールアドレス更新';
 $string['emailupdatemessage'] = '{$a->fullname} さん
 
-あなたは {$a->site} のアカウントに関するメールアドレス変更をリクエストしました。この変更を確認するにはあなたのブラウザで以下のURLにアクセスしてください。
+あなたは {$a->site} のアカウントに関するメールアドレス変更をリクエストしました。この変更を確認するには以下のウェブアドレスにアクセスしてください。
 
-あなたが分からない点に関してサポートにご連絡ください: {$a->supportemail}
+{$a->url}
 
-{$a->url}';
+{$a->supportemail}';
 $string['emailupdatesuccess'] = 'ユーザ {$a->fullname} のメールアドレスは正常に {$a->email} に変更されました。';
 $string['emailupdatetitle'] = '{$a->site} のメール更新確認';
-$string['enterthenumbersyouhear'] = 'あなたに聞こえる数字を入力してください';
-$string['enterthewordsabove'] = '上記の言葉を入力してください。';
 $string['errormaxconsecutiveidentchars'] = 'パスワードには最大 {$a} 文字の連続した同一文字を使用する必要があります。';
 $string['errorminpassworddigits'] = 'パスワードには少なくとも半角 {$a} 文字の数字を使用する必要があります。';
 $string['errorminpasswordlength'] = 'パスワードには少なくとも半角 {$a} 文字使用する必要があります。';
@@ -111,9 +109,6 @@ $string['forcechangepasswordfirst_help'] = 'ユーザの初回Moodleログイン
 $string['forcechangepassword_help'] = 'ユーザの次回Moodleログイン時にパスワードの変更を強制します。';
 $string['forgottenpassword'] = 'あなたがここにURLを入力した場合、このサイトの喪失パスワード回復ページに使用されます。これは完全にMoodleの外でパスワードが処理されるサイトを対象としています。デフォルトのパスワード回復を使用する場合、空白のままにしてください。';
 $string['forgottenpasswordurl'] = 'パスワード喪失URL';
-$string['getanaudiocaptcha'] = 'CAPTCHAオーディオを取得する';
-$string['getanimagecaptcha'] = 'CAPTCHAイメージを取得する';
-$string['getanothercaptcha'] = '別のCAPTCHAを取得する';
 $string['getrecaptchaapi'] = 'reCAPTCHAを使用するにはあなたは<a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>でAPIキーを取得する必要があります。';
 $string['guestloginbutton'] = 'ゲストログインボタン';
 $string['incorrectpleasetryagain'] = '正しくありません、再度お試しください。';

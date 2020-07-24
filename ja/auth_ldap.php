@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,6 @@ $string['auth_ldap_contexts_key'] = 'コンテクスト';
 $string['auth_ldap_create_context'] = 'メールによるアカウント登録確認でユーザを作成する場合、ユーザが作成されるコンテクストを指定してください。セキュリティの観点から、このコンテクストはユーザごとに異なるものにしてください。このコンテクストからMoodleが自動的にユーザを探すため、このコンテクストをldap_context-vaiableに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、auth/ldap/auth.phpファイルのuser_create() 関数を修正する必要があります。';
 $string['auth_ldap_create_context_key'] = '新しいユーザのコンテクスト';
 $string['auth_ldap_create_error'] = 'LDAPでのユーザ作成中にエラーが発生しました。';
-$string['auth_ldap_creators'] = 'メンバーが新しいコースの作成を許可されているグループの一覧です。複数のグループは「;」で区切ってください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
-$string['auth_ldap_creators_key'] = 'コース作成者';
 $string['auth_ldapdescription'] = 'この方法では外部のLDAPサーバに対して認証を提供します。ユーザ名およびパスワードが正しい場合、Moodleは新しいユーザをデータベースに作成します。このモジュールはユーザ属性をLDAPから取得して、Moodleのフィールドに入力します。認証後のログインではユーザ名およびパスワードのみ確認されます。';
 $string['auth_ldap_expiration_desc'] = 'パスワードチェックの有効期限を無効にする場合、または「 {$a->ldapserver} 」から直接パスワード有効期限を参照する場合、「 {$a->no} 」を選択してください。';
 $string['auth_ldap_expiration_key'] = '有効期限切れ';
@@ -118,6 +116,11 @@ $string['cannotmaprole'] = '省略名「 {$a->shortname} 」が長過ぎるか�
 $string['connectingldap'] = 'LDAPサーバに接続中 ...';
 $string['connectingldapsuccess'] = 'あなたのLDAPサーバに正常に接続しました。';
 $string['creatingtemptable'] = '一時テーブル {$a} の作成';
+$string['diag_contextnotfound'] = 'コンテクスト {$a} が存在しないか、バインドDNから読み込めませんでした。';
+$string['diag_emptycontext'] = '空のコンテクストが見つかりました。';
+$string['diag_genericerror'] = 'LDAPエラー {$a->code} 読み込み {$a->subject}: {$a->message}';
+$string['diag_rolegroupnotfound'] = 'ロール {$a->localname} のグループ {$a->group} が存在しないか、バインドDNから読み込めませんでした。';
+$string['diag_toooldversion'] = '最新のLDAPサーバがLDAPv2プロトコルを使用することは非常に稀なことです。正しくない設定によりユーザフィールドの値が破損する場合があります。あなたのLDAP管理者にご相談ください。';
 $string['didntfindexpiretime'] = 'password_expire()が有効期限を見つけることができませんでした。';
 $string['didntgetusersfromldap'] = 'LDAPサーバからユーザを取得できませんでした。';
 $string['gotcountrecordsfromldap'] = 'LDAPから {$a} レコードを取得しました。';

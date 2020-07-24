@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_dataprivacy', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_dataprivacy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,7 @@ $string['contextlevelname70'] = 'Activiteiten modules';
 $string['contextlevelname80'] = 'Blokken';
 $string['contextpurposecategorysaved'] = 'Doel en categorie opgeslagen.';
 $string['createcategory'] = 'Maak gegevenscategorie';
+$string['createdeletedatarequest'] = 'Verzoek om gegevens te verwijderen';
 $string['createnewdatarequest'] = 'Maak een nieuw gegevensverzoek';
 $string['createpurpose'] = 'Maak datadoel';
 $string['creationauto'] = 'Automatisch';
@@ -78,9 +79,12 @@ $string['datadeletion'] = 'Gegevensverwijdering';
 $string['datadeletionpagehelp'] = 'Gegevens waarvoor de bewaarperiode vervallen is, worden hier vermeld. Controleer en bevestig het verwijderen van de gegevens, wat daarna zal worden uitgevoerd door de geplande taak "Verwijder vervallen contexten".';
 $string['dataprivacy:downloadallrequests'] = 'Download geëxporteerde gegevens voor iedereen';
 $string['dataprivacy:downloadownrequest'] = 'Download je eigen geëxporteerde gegevens';
+$string['dataprivacy:makedatadeletionrequestsforchildren'] = 'Verzoek om gegevens te verwijderen voor minderjarigen';
 $string['dataprivacy:makedatarequestsforchildren'] = 'Gegevensverzoeken voor minderjarigen maken';
 $string['dataprivacy:managedataregistry'] = 'Beheer gegevensregister';
 $string['dataprivacy:managedatarequests'] = 'Gegevensverzoeken beheren';
+$string['dataprivacy:requestdelete'] = 'Verzoek om gegevens te verwijderen voor jezelf';
+$string['dataprivacy:requestdeleteforotheruser'] = 'Gegevensverwijdering aanvragen namens een andere gebruiker';
 $string['dataregistry'] = 'Gegevensregister';
 $string['dataregistryinfo'] = 'Het gegevensregister maakt het mogelijk om categorieën (types van gegevens) en doelen (de redenen van het verwerken van gegevens) in te stellen voor alle inhoud van de site - van gebruikers en cursussen tot activiteiten en blokken. Voor elk doel kan een bewaartijd ingesteld worden. Wanneer de bewaartijd verstreken is, dan worden de gegevens gemarkeerd en opgelijst voor verwijdering in afwachting van de bevestiging van de beheerder.';
 $string['datarequestcreatedforuser'] = 'Gegevensaanvraag gemaakt voor {$a}';
@@ -134,6 +138,8 @@ $string['editpurposes'] = 'Doeleinden bewerken';
 $string['effectiveretentionperiodcourse'] = '{$a} (na de einddatum van cursus)';
 $string['effectiveretentionperioduser'] = '{$a} sinds de laatste keer dat de gebruiker de site bezocht)';
 $string['emailsalutation'] = 'Beste {$a},';
+$string['errorcannotrequestdeleteforother'] = 'Je bent niet gemachtigd om verwijderingsverzoeken voor deze gebruiker te maken.';
+$string['errorcannotrequestdeleteforself'] = 'Je bent niet gemachtigd om een verwijderingsverzoek voor jezelf te maken.';
 $string['errorcontexthasunexpiredchildren'] = 'De context "{$a}" heeft subcontexten die nog niet vervallen zijn. Er zijn geen contexten gemarkeerd voor verwijdering.';
 $string['errorinvalidrequestcreationmethod'] = 'Ongeldige methode voor het maken van aanvragen!';
 $string['errorinvalidrequeststatus'] = 'Ongeldige aanvraagstatus!';

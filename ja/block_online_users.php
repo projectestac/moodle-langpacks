@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_online_users', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_online_users', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   block_online_users
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,8 @@ $string['nouser'] = 'オンラインユーザなし';
 $string['numuser'] = '{$a} オンラインユーザ';
 $string['numusers'] = '{$a} オンラインユーザ';
 $string['online_status:hide'] = '他のユーザから私のオンラインステータスを隠す';
+$string['onlinestatushiding'] = 'オンラインステータス非表示';
+$string['onlinestatushiding_desc'] = 'この設定を有効にした場合、ユーザには自分のオンラインステータスを他のユーザから隠すオプションが提供されます。';
 $string['online_status:show'] = '他のユーザに私のオンラインステータスを表示する';
 $string['online_users:addinstance'] = '新しいオンラインユーザブロックを追加する';
 $string['online_users:myaddinstance'] = '新しいオンラインユーザブロックをダッシュボードに追加する';

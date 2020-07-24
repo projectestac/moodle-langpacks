@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'question', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,6 +82,9 @@ $string['categoryinfo'] = 'Category info';
 $string['categorymove'] = 'The category \'{$a->name}\' contains {$a->count} questions (some of which may be hidden questions or random questions that are still in use in a quiz). Please choose another category to move them to.';
 $string['categorymoveto'] = 'Save in category';
 $string['categorynamecantbeblank'] = 'The category name cannot be blank.';
+$string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
+$string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
+$string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Change options';
 $string['changepublishstatuscat'] = '<a href="{$a->caturl}">Category "{$a->name}"</a> in course "{$a->coursename}" will have it\'s sharing status changed from <strong>{$a->changefrom} to {$a->changeto}</strong>.';
 $string['check'] = 'Check';
@@ -175,7 +178,19 @@ $string['errorsavingcomment'] = 'Error saving the comment for question {$a->name
 $string['errorsavingflags'] = 'Error saving the flag state.';
 $string['errorupdatingattempt'] = 'Error updating attempt {$a->id} in the database.';
 $string['eventquestioncategorycreated'] = 'Question category created';
+$string['eventquestioncategorydeleted'] = 'Question category deleted';
+$string['eventquestioncategorymoved'] = 'Question category moved';
+$string['eventquestioncategoryupdated'] = 'Question category updated';
+$string['eventquestioncategoryviewed'] = 'Question category viewed';
+$string['eventquestioncreated'] = 'Question created';
+$string['eventquestiondeleted'] = 'Question deleted';
+$string['eventquestionmoved'] = 'Question moved';
+$string['eventquestionsexported'] = 'Questions exported';
+$string['eventquestionsimported'] = 'Questions imported';
+$string['eventquestionupdated'] = 'Question updated';
+$string['eventquestionviewed'] = 'Question viewed';
 $string['export'] = 'Export';
+$string['exportasxml'] = 'Export as Moodle XML';
 $string['exportcategory'] = 'Export category';
 $string['exportcategory_help'] = 'This setting determines the category from which the exported questions will be taken.
 
@@ -387,7 +402,7 @@ $string['questionpreviewdefaults'] = 'Question preview defaults';
 $string['questionpreviewdefaults_desc'] = 'These defaults are used when a user first previews a question in the question bank. Once a user has previewed a question, their personal preferences are stored as user preferences.';
 $string['questions'] = 'Questions';
 $string['questionsaveerror'] = 'Errors occur during saving question - ({$a})';
-$string['questionsinuse'] = '(* Questions marked by an asterisk are already in use in some quizzes. These questions will not be deleted from these quizzes but only from the category list.)';
+$string['questionsinuse'] = '(* Questions marked with an asterisk are used somewhere, for example in a quiz. Therefore, if you proceed, these questions will not really be deleted, they will just be hidden.)';
 $string['questionsmovedto'] = 'Questions still in use moved to "{$a}" in the parent course category.';
 $string['questionsrescuedfrom'] = 'Questions saved from context {$a}.';
 $string['questionsrescuedfrominfo'] = 'These questions (some of which may be hidden) were saved when context {$a} was deleted because they are still used by some quizzes or other activities.';

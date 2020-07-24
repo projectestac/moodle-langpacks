@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cache', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addstoresuccess'] = 'Adicionada com sucesso uma nova unidade de armazen
 $string['area'] = 'Área';
 $string['cacheadmin'] = 'Administração da cache';
 $string['cacheconfig'] = 'Configuração';
+$string['cachedef_calculablesinfo'] = 'Informações calculáveis da Analítica';
 $string['cachedef_calendar_categories'] = 'Categorias de calendário de disciplina que um utilizador pode aceder';
 $string['cachedef_calendar_subscriptions'] = 'Subscrições do calendário';
 $string['cachedef_capabilities'] = 'Lista de permissões do sistema';
@@ -46,21 +47,25 @@ $string['cachedef_coursecattree'] = 'Árvore de categorias de disciplina';
 $string['cachedef_coursecompletion'] = 'Estado de conclusão da disciplina';
 $string['cachedef_coursecontacts'] = 'Lista de contactos da disciplina';
 $string['cachedef_coursemodinfo'] = 'Informação acumulada sobre módulos e secções para cada disciplina';
+$string['cachedef_course_user_dates'] = 'As datas do utilizador para as disciplinas configuradas para o modo de datas relativas';
 $string['cachedef_databasemeta'] = 'Meta-informação da base de dados';
 $string['cachedef_eventinvalidation'] = 'Invalidação de evento';
 $string['cachedef_externalbadges'] = 'Medalhas externas para um utilizador em particular';
 $string['cachedef_fontawesomeiconmapping'] = 'Mapeamento de ícones para o tipo de letra awesome';
 $string['cachedef_grade_categories'] = 'Consultas às categorias de avaliação';
+$string['cachedef_grade_letters'] = 'Consultas às notas alfabéticas';
 $string['cachedef_groupdata'] = 'Informação de grupos da disciplina';
 $string['cachedef_htmlpurifier'] = 'Purificador HTML - conteúdo limpo';
 $string['cachedef_langmenu'] = 'Lista de idiomas disponíveis';
 $string['cachedef_locking'] = 'Bloqueio';
 $string['cachedef_message_processors_enabled'] = 'Estado dos processadores de mensagens ativado';
 $string['cachedef_message_time_last_message_between_users'] = 'Data/hora de criação da mensagem mais recente';
+$string['cachedef_modelfirstanalyses'] = 'Primeira análise por modelo e analisável';
 $string['cachedef_navigation_expandcourse'] = 'Disciplinas expansíveis no bloco Navegação';
 $string['cachedef_observers'] = 'Observadores de eventos';
 $string['cachedef_plugin_functions'] = 'Callbacks de módulos disponíveis';
 $string['cachedef_plugin_manager'] = 'Gestor de informação dos módulos';
+$string['cachedef_portfolio_add_button_portfolio_instances'] = 'Intâncias Portfolio para a classe portfolio_add_button';
 $string['cachedef_postprocessedcss'] = 'CSS processado da mensagem';
 $string['cachedef_presignup'] = 'Dados de pré-inscrição para determinado utilizador ainda não registado';
 $string['cachedef_questiondata'] = 'Definições da pergunta';
@@ -77,6 +82,7 @@ $string['cachedef_yuimodules'] = 'Definições do Módulo YUI';
 $string['cachelock_file_default'] = 'Bloqueio de ficheiro predefinido';
 $string['cachestores'] = 'Unidades de armazenamento de cache';
 $string['caching'] = 'Cache';
+$string['canuselocalstore'] = 'Pode usar armazenamento local';
 $string['component'] = 'Componente';
 $string['confirmlockdeletion'] = 'Confirmar eliminação de bloqueio';
 $string['confirmstoredeletion'] = 'Confirmar a remoção da unidade de armazenamento';
@@ -138,8 +144,11 @@ $string['plugin'] = 'Módulo';
 $string['pluginsummaries'] = 'Cache de unidades de armazenamento instaladas';
 $string['privacy:metadata:cachestore'] = 'O subsistema Cache armazena dados temporários em nome de outras partes do Moodle.';
 $string['purge'] = 'Apagar';
+$string['purgeagain'] = 'Limpar novamente';
 $string['purgedefinitionsuccess'] = 'A definição requerida foi eliminada com sucesso.';
 $string['purgestoresuccess'] = 'A unidade de armazenamento requerida foi apagada com sucesso.';
+$string['purgexdefinitionsuccess'] = 'Limpeza com sucesso da cache "{$a->name}" ({$a->component}/{$a->area}).';
+$string['purgexstoresuccess'] = 'Limpeza com sucesso do armazenamento "{$a->store}"';
 $string['requestcount'] = 'Testar com {$a} pedidos';
 $string['rescandefinitions'] = 'Reexaminar definições';
 $string['result'] = 'Resultado';

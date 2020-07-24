@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_eventlist', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_eventlist', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   report_eventlist
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['abstractclass'] = '抽象クラス';
 $string['action'] = '操作';
-$string['affectedtable'] = '影響を受けたテーブル';
+$string['affectedtable'] = '影響を受けるテーブル';
 $string['all'] = 'すべて';
 $string['clear'] = 'クリア';
 $string['component'] = 'コンポーネント';

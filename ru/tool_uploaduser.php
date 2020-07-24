@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploaduser', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,10 @@ $string['deleteerrors'] = 'Ошибки удаления';
 $string['encoding'] = 'Кодировка';
 $string['errormnetadd'] = 'Невозможно добавить отдаленных пользователей';
 $string['errors'] = 'Ошибки';
+$string['examplecsv'] = 'Пример текстового файла';
+$string['examplecsv_help'] = 'Чтобы использовать пример текстового файла, загрузите его и откройте в текстовом редакторе или редакторе электронных таблиц. Оставьте первую строку без изменений, затем отредактируйте следующие строки (записи) и добавьте свои пользовательские данные, добавив дополнительные строки при необходимости. Сохраните файл как CSV, затем загрузите его.
+
+Пример текстового файла также может использоваться для тестирования, так как вы можете предварительно просмотреть данные пользователя и можете отменить действие до создания учетных записей пользователей.';
 $string['invalidupdatetype'] = 'Этот параметр не может быть выбран с заданным типом загрузки.';
 $string['invaliduserdata'] = 'Обнаружены некорректные данные для пользователя {$a}, они были автоматически очищены.';
 $string['nochanges'] = 'Не изменять';

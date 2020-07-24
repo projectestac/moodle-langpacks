@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'feedback', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['anonymous'] = 'Anonym';
 $string['anonymous_edit'] = 'Anonym ausfüllen';
 $string['anonymous_entries'] = 'Anonyme Einträge ({$a})';
 $string['anonymous_user'] = 'Anonyme Person';
-$string['answerquestions'] = 'Frage beantworten';
+$string['answerquestions'] = 'Fragen beantworten';
 $string['append_new_items'] = 'Neue Elemente anfügen';
 $string['autonumbering'] = 'Automatische Nummerierung';
 $string['autonumbering_help'] = 'Diese Option aktiviert die automatische Nummerierung der Fragen.';
@@ -120,7 +120,7 @@ $string['eventresponsesubmitted'] = 'Antwort abgegeben';
 $string['export_questions'] = 'Fragen exportieren';
 $string['export_to_excel'] = 'Nach Excel exportieren';
 $string['feedback:addinstance'] = 'Neues Feedback hinzufügen';
-$string['feedbackclose'] = 'Antworten erlauben bis';
+$string['feedbackclose'] = 'Antworten erlaubt bis';
 $string['feedback:complete'] = 'Feedback abschließen';
 $string['feedbackcompleted'] = '{$a->username} hat {$a->feedbackname} abgeschlossen.';
 $string['feedback:createprivatetemplate'] = 'Kursinternen Template erstellen';
@@ -131,7 +131,7 @@ $string['feedback:edititems'] = 'Fragen bearbeiten';
 $string['feedback_is_not_for_anonymous'] = 'Das Feedback ist nicht für anonyme Personen.';
 $string['feedback_is_not_open'] = 'Ein Feedback ist zu diesem Zeitpunkt nicht möglich';
 $string['feedback:mapcourse'] = 'Kurse zu globalen Feedbacks zuordnen';
-$string['feedbackopen'] = 'Antworten erlauben ab';
+$string['feedbackopen'] = 'Antworten erlaubt ab';
 $string['feedback:receivemail'] = 'E-Mail-Nachricht empfangen';
 $string['feedback:view'] = 'Feedback anzeigen';
 $string['feedback:viewanalysepage'] = 'Analyseseite nach der Abgabe anzeigen';
@@ -144,9 +144,14 @@ $string['horizontal'] = 'Nebeneinander';
 $string['importfromthisfile'] = 'Aus dieser Datei importieren';
 $string['import_questions'] = 'Fragen importieren';
 $string['import_successfully'] = 'Erfolgreich importiert';
+$string['includeuserinrecipientslist'] = 'Fügen Sie {$a} in die Empfängerliste hinzu';
 $string['indicator:cognitivedepth'] = 'Feedback kognitiv';
+$string['indicator:cognitivedepthdef'] = 'Feedback kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die Feedback-Aktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht, Beiträge).';
 $string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die eine Person in einer Feedback-Aktivität erreicht hat.';
 $string['indicator:socialbreadth'] = 'Feedback sozial';
+$string['indicator:socialbreadthdef'] = 'Feedback sozial';
+$string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die Feedback-Aktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein, Teilnahme mit anderen).';
 $string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer Feedback-Aktivität erreicht hat.';
 $string['info'] = 'Information';
 $string['infotype'] = 'Informationstyp';
@@ -281,7 +286,7 @@ $string['this_feedback_is_already_submitted'] = 'Sie haben diese Aktivität bere
 $string['typemissing'] = 'Fehlender Typ';
 $string['update_item'] = 'Element aktualisieren';
 $string['url_for_continue'] = 'URL für die Taste "Weiter"';
-$string['url_for_continue_help'] = 'Nach der Feedback-Abgabe wird eine Taste "Weiter" gezeigt. Zumeist auf die Kursseite weitergeleitet. Falls Sie auf ein anderes Ziel verlinken möchten, können Sie hier die URL angeben.';
+$string['url_for_continue_help'] = 'Nach der Feedback-Abgabe wird eine Taste "Weiter" gezeigt. Meistens wird auf die Kurshauptseite weitergeleitet. Falls Sie auf ein anderes Ziel verlinken möchten, können Sie hier die URL angeben.';
 $string['use_one_line_for_each_value'] = 'Benutzen Sie für jede Antwort eine neue Zeile!';
 $string['use_this_template'] = 'Diese Vorlage verwenden';
 $string['using_templates'] = 'Vorlage verwenden';

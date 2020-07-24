@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'ur', branch 'MOODLE_36_STABLE'
+ * Strings for component 'calendar', language 'ur', branch 'MOODLE_38_STABLE'
  *
  * @package   calendar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -83,7 +83,6 @@ $string['gotocalendar'] = 'تقویم کی طرف جاؤ';
 $string['group'] = 'گروپ';
 $string['groupevent'] = 'گروپ کا واقعہ';
 $string['groupevents'] = 'گروپ کا واقعات';
-$string['ical'] = 'آئی کال';
 $string['iwanttoexport'] = 'برآمد کرو';
 $string['manyevents'] = '{$a} واقعات';
 $string['mon'] = 'سوموار';
@@ -101,7 +100,6 @@ $string['pref_maxevents'] = 'زیادہ سے زیادہ آنے والے واق
 $string['pref_persistflt'] = 'فلٹر سیٹنگز یاد رکھو';
 $string['pref_startwday'] = 'ہفتے کا پہلہ دن';
 $string['pref_timeformat'] = 'وقت کا طرز ظاہریت';
-$string['quickdownloadcalendar'] = 'چست ڈاؤنلوڈ / تقویم پر رجسٹر ہوں';
 $string['recentupcoming'] = 'حالیہ اور اگلے 60 دن';
 $string['repeateditall'] = 'دوہرائی گئی سیریز میں تمام واقعات پر یہ تبدیلیاں اثر انداز کریں';
 $string['repeateditthis'] = 'صرف اس واقع میں ردو بدل کرو';
@@ -111,6 +109,7 @@ $string['repeatweeksr'] = 'واقعات';
 $string['sat'] = 'ہفتہ';
 $string['saturday'] = 'ہفتہ';
 $string['shown'] = 'ظاہر ہے';
+$string['site'] = 'سائٹ';
 $string['spanningevents'] = 'واقعات چالو ہیں';
 $string['sun'] = 'اتوار';
 $string['sunday'] = 'اتوار';
@@ -122,14 +121,6 @@ $string['today'] = 'آج';
 $string['tomorrow'] = 'آنے والا کل';
 $string['tt_deleteevent'] = 'واقع خارج کرو';
 $string['tt_editevent'] = 'واقع میں ردو بدل کریں';
-$string['tt_hidecourse'] = 'کورس کے واقعات ظاہر ہیں، چھپانے کے لیے کلک کریں';
-$string['tt_hideglobal'] = 'عالمگیر واقعات ظاہر ہیں، چھپانے کے لیے کلک کریں';
-$string['tt_hidegroups'] = 'گروہ کے واقعات طاہر ہیں، چھپانے کے لیے کلک کریں';
-$string['tt_hideuser'] = 'استعمال کنندگان کے واقعات ظاہر ہیں، چھپانے کے لیے کلک کریں';
-$string['tt_showcourse'] = 'کور س کے واقعات خفی ہیں، ظاہر کرنے کے لیے کلک کریں';
-$string['tt_showglobal'] = 'گلوبل واقعات خفی ہیں، ظاہر کرنے کے لیے کلک کریں';
-$string['tt_showgroups'] = 'گروہ کے واقعات خفی ہیں، ظاہر کرنے کے لیے کلک کریں';
-$string['tt_showuser'] = 'استعمال کنندگان کے واقعات خفی ہیں، ظاہر کرنے کے لیے کلک کریں';
 $string['tue'] = 'منگل';
 $string['tuesday'] = 'منگل';
 $string['typecourse'] = 'کورس کے واقعات';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'install', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -119,7 +119,7 @@ $string['downloadlanguagesub'] = 'Orain zure hizkuntza-paketea jaisteko eta hizk
 $string['doyouagree'] = 'Ados al zaude? (bai/ez):';
 $string['environmenthead'] = 'Zure ingurunea egiaztatzen...';
 $string['environmentsub'] = 'Zure zerbitzariaren osagai ezberdinak sistemaren betebeharrekin bat datozen egiaztatzen ari gara';
-$string['environmentsub2'] = 'Moodleko bertsio bakoitzak PHPko gutxieneko bertsioa eta derrigorrez instalatu beharreko PHP hedapen batzuk ditu. Ingurunearen azterketa oso bat egiten da instalazioa eta eguneraketa bakoitza egin aurretik. Mesedez, jarri harremanetan zerbitzariaren kudeatzailearekin ez badakizu bertsio berria edo PHP hedapenak nola instalatu.';
+$string['environmentsub2'] = 'Moodleko bertsio bakoitzak PHPko gutxieneko bertsioa eta derrigorrez instalatu beharreko PHP hedapen batzuk ditu. Ingurunearen azterketa oso bat egiten da instalazioa eta eguneratze bakoitza egin aurretik. Mesedez, jarri harremanetan zerbitzariaren kudeatzailearekin ez badakizu bertsio berria edo PHP hedapenak nola instalatu.';
 $string['errorsinenvironment'] = 'Huts egin du ingurunearen egiaztatzeak!';
 $string['fail'] = 'Errorea';
 $string['fileuploads'] = 'Fitxategien igoera';

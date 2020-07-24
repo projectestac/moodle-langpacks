@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_rubric', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_rubric', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addcriterion'] = 'Gehitu irizpidea';
+$string['additionalfeedback'] = 'Feedback gehigarria';
 $string['alwaysshowdefinition'] = 'Baimendu ikasleei erabilitako errubrika aurreikusten (bestela, errubrika kalifikatu ondoren baino ez da ikusiko).';
 $string['backtoediting'] = 'Itzuli editatzera';
 $string['confirmdeletecriterion'] = 'Ziur zaude irizpidea ezabatu nahi duzula?';
@@ -54,11 +55,13 @@ $string['leveldefinition'] = '{$a} mailaren definizioa';
 $string['leveldelete'] = 'Ezabatu {$a} maila';
 $string['levelempty'] = 'Egin klik maila editatzeko';
 $string['levelsgroup'] = 'Maila-taldeak';
-$string['lockzeropoints'] = 'Kalkulatu kalifikazioa errubrikaren gutxieneko puntuazioa izateko gutxieneko kalifikazioa';
-$string['lockzeropoints_help'] = 'Ezarpen hau soilik aplikatzen da errubrikaren irizpide guztien gutxienezko puntuazioen batura 0 baino handiagoa bada. Markatuz gero, lor daitekeen gutxieneko kalifikazioa errubrikaren irizpide guztien gutxienezko puntuazioa izango da. Markatu gabe utziz gero, errubrikaren gutxieneko puntuazioa aktibitatearen gutxieneko puntuazioa izateko egokituko da (0 izango da eskala bat erabiltzen ez bada).';
+$string['lockzeropoints'] = 'Kalkulatu gutxieneko kalifikazioa errubrikaren gutxieneko puntuazioa izan dadin.';
+$string['lockzeropoints_help'] = 'Ezarpen hau soilik aplikatzen da errubrikaren irizpide guztien gutxienezko puntuazioen batura 0 baino handiagoa bada. Markatuz gero, jardueran lor daitekeen gutxieneko kalifikazioa errubrikaren irizpide guztien gutxienezko puntuazioa izango da. Markatu gabe utziz gero, errubrikaren gutxieneko puntuazioa aktibitatearen gutxieneko puntuazioa izateko egokituko da (0 izango da eskala bat erabiltzen ez bada).';
 $string['name'] = 'Izena';
 $string['needregrademessage'] = 'Errubrikaren definizioa aldatu da ikasle hau kalifikatu ondoren. Ikasleak ezin du ikusi errubrika hau egiaztatu eta kalifikazioa eguneratu arte.';
+$string['notset'] = 'Zehaztu gabe';
 $string['pluginname'] = 'Errubrika';
+$string['pointsvalue'] = '{$a} puntu';
 $string['previewrubric'] = 'Aurreikusi errubrika';
 $string['privacy:metadata:criterionid'] = 'Kalifikatzen den irizpidearen identifikatzailea';
 $string['privacy:metadata:fillingssummary'] = 'Errubrikak sortutako erabiltzailearen kalifikazioaren inguruko informazioa gordetzen du';
@@ -76,7 +79,7 @@ $string['rubricmappingexplained'] = 'Errubrika honentzako gutxieneko puntuazioa 
 
 Eskala bat erabiltzen bada kalifikazio baten ordez, puntuazioa bihurtuko da eskalaren elementuetako batean, jarraian doazen zenbaki osoak bailiran.
 
-Kalifikazio-kalkulu hau aldatu daiteke formularioa editatu eta \'Kalkulatu kalifikazioa errubrikaren gutxieneko puntuazioa izateko gutxieneko kalifikazioa\' aukera markatuta.';
+Kalifikazio-kalkulu hau aldatu daiteke formularioa editatu eta \'Kalkulatu gutxieneko kalifikazioa errubrikaren gutxieneko puntuazioa izan dadin\' aukera markatuta.';
 $string['rubricnotcompleted'] = 'Mesedez, aukeratu zerbait irizpide bakoitzerako';
 $string['rubricoptions'] = 'Errubrikaren aukerak';
 $string['rubricstatus'] = 'Oraingo errubrikaren egoera';

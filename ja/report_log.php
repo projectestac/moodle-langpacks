@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_log', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_log', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   report_log
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['eventcomponent'] = 'コンポーネント';
 $string['eventcontext'] = 'イベントコンテクスト';
 $string['eventloggedas'] = '{$a->realusername} - 代替ログイン: {$a->asusername}';
 $string['eventorigin'] = 'オリジン';
-$string['eventrelatedfullnameuser'] = '影響を受けたユーザ';
+$string['eventrelatedfullnameuser'] = '影響を受けるユーザ';
 $string['eventreportviewed'] = 'ログレポートが閲覧されました。';
 $string['eventuserreportviewed'] = 'ユーザログレポートが閲覧されました。';
 $string['logsformat'] = 'ログフォーマット';

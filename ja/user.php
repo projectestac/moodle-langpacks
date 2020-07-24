@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'user', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'user', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   user
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -128,3 +128,6 @@ $string['privacy:passwordresetpath'] = 'パスワードリセットです。';
 $string['privacy:privatefilespath'] = 'プライベートファイルです。';
 $string['privacy:profileimagespath'] = 'プロファイルイメージです。';
 $string['privacy:sessionpath'] = 'セッションデータです。';
+$string['target:upcomingactivitiesdue'] = '直近の活動期限';
+$string['target:upcomingactivitiesdue_help'] = 'このターゲットは直近の活動期限のリマインダを生成します。';
+$string['target:upcomingactivitiesdueinfo'] = 'すべての到来する活動期限洞察がここに一覧表示されます。これらの学生はこれらの洞察を直接受信しています。';

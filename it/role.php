@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'role', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['allowroletooverride'] = 'Consenti agli utenti con il ruolo {$a->fromrol
 $string['allowroletoswitch'] = 'Consenti agli utenti con il ruolo {$a->fromrole} di cambiare il ruolo in {$a->targetrole}';
 $string['allowroletoview'] = 'Consenti agli utenti con il ruolo {$a->fromrole} di visualizzare utenti con il ruolo {$a->targetrole}';
 $string['allowswitch'] = 'Autorizzati a cambiare ruolo';
+$string['allowview'] = 'Autorizzati a visualizzare ruoli';
 $string['allsiteusers'] = 'Tutti gli utenti del sito';
 $string['analytics:listinsights'] = 'Elenco considerazioni';
 $string['analytics:managemodels'] = 'Gestire modelli';
@@ -68,7 +69,6 @@ $string['backup:anonymise'] = 'Rendere anonimi i dati utente nei backup';
 $string['backup:backupactivity'] = 'Eseguire backup di attività';
 $string['backup:backupcourse'] = 'Eseguire backup di corsi';
 $string['backup:backupsection'] = 'Eseguire backup di sezioni';
-$string['backup:backuptargethub'] = 'Backup per pubblicazione su Moodle.net';
 $string['backup:backuptargetimport'] = 'Eseguire backup per importare';
 $string['backup:configure'] = 'Configurare opzioni di backup';
 $string['backup:downloadfile'] = 'Scaricare file dalle aree di backup';
@@ -117,8 +117,6 @@ $string['cohort:view'] = 'Visualizzare gruppi globali del sito';
 $string['comment:delete'] = 'Eliminare commenti';
 $string['comment:post'] = 'Scrivere commenti';
 $string['comment:view'] = 'Visualizzare commenti';
-$string['community:add'] = 'Usare il Blocco community per cercare corsi su Moodle.net';
-$string['community:download'] = 'Scaricare un corso dal Blocco community';
 $string['competency:competencygrade'] = 'Impostare valutazioni delle competenze';
 $string['competency:competencymanage'] = 'Gestire quadri di competenze';
 $string['competency:competencyview'] = 'Visualizzare quadri di competenze';
@@ -167,6 +165,7 @@ $string['course:changefullname'] = 'Cambiare il titolo del corso';
 $string['course:changeidnumber'] = 'Cambiare il codice identificativo del corso';
 $string['course:changeshortname'] = 'Cambiare il titolo abbreviato del corso';
 $string['course:changesummary'] = 'Cambiare l\'introduzione al corso';
+$string['course:configurecustomfields'] = 'Configurare campi personalizzati';
 $string['course:create'] = 'Creare corsi';
 $string['course:delete'] = 'Eliminare corsi';
 $string['course:enrolconfig'] = 'Configurare istanze di plugin di iscrizione nei corsi';
@@ -182,7 +181,6 @@ $string['course:managescales'] = 'Gestire scale di valutazione';
 $string['course:markcomplete'] = 'Approvare manualmente il completamento del corso';
 $string['course:movesections'] = 'Spostare sezioni';
 $string['course:overridecompletion'] = 'Modificare lo stato di completamento delle attività';
-$string['course:publish'] = 'Pubblicare corsi';
 $string['course:renameroles'] = 'Personalizzare nomi dei ruoli';
 $string['course:request'] = 'Richiedere corsi';
 $string['course:reset'] = 'Eseguire reset del corso';
@@ -235,6 +233,7 @@ $string['eventroleassigned'] = 'Assegnato ruolo';
 $string['eventrolecapabilitiesupdated'] = 'Aggiornati privilegi ruolo';
 $string['eventroledeleted'] = 'Eliminato ruolo';
 $string['eventroleunassigned'] = 'Revocato ruolo';
+$string['eventroleupdated'] = 'Aggiornato ruolo';
 $string['existingadmins'] = 'Amministratori del sito esistenti';
 $string['existingusers'] = '{$a} utenti esistenti';
 $string['explanation'] = 'Spiegazione';
@@ -264,6 +263,9 @@ $string['grade:unlock'] = 'Sbloccare valutazioni o elementi';
 $string['grade:view'] = 'Visualizzare proprie valutazioni';
 $string['grade:viewall'] = 'Visualizzare valutazioni di altri utenti';
 $string['grade:viewhidden'] = 'Visualizzare valutazioni nascoste per proprietario';
+$string['h5p:deploy'] = 'Utilizzare contenuto H5P';
+$string['h5p:setdisplayoptions'] = 'Impostare opzioni di visualizzazione H5P';
+$string['h5p:updatelibraries'] = 'Gestire tipi di contenuto H5P';
 $string['highlightedcellsshowdefault'] = 'I privilegi evidenziati nella tabella sottostante sono i privilegi di default per il ruolo archetipo selezionato sopra.';
 $string['highlightedcellsshowinherit'] = 'Le caselle evidenziate nella tabella sottostante indicano i privilegi ereditati (se presenti). Ad eccezione dei privilegi che desideri modificare, tutti gli altri privilegi dovrebbero essere lasciati a Eredita.';
 $string['inactiveformorethan'] = 'non attivo per più di {$a->timeperiod}';
@@ -370,7 +372,6 @@ $string['restore:createuser'] = 'Creare utenti durante il ripristino';
 $string['restore:restoreactivity'] = 'Ripristinare attività';
 $string['restore:restorecourse'] = 'Ripristinare corsi';
 $string['restore:restoresection'] = 'Ripristinare sezioni';
-$string['restore:restoretargethub'] = 'Ripristinare corsi scaricati da Moodle.net';
 $string['restore:restoretargetimport'] = 'Ripristinare da file contrassegnati  per l\'importazione';
 $string['restore:rolldates'] = 'Posticipare date di attività durante il ripristino';
 $string['restore:uploadfile'] = 'Caricare file dalle aree di backup';

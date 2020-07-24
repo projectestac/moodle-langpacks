@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multianswer', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_multianswer', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_multianswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,7 @@ $string['layout'] = 'Impaginazione';
 $string['layouthorizontal'] = 'Riga orizzontale di pulsanti radio';
 $string['layoutmultiple_horizontal'] = 'Caselle di spunta in linea orizzontale';
 $string['layoutmultiple_vertical'] = 'Caselle di spunta in colonna verticale';
-$string['layoutselectinline'] = 'Menu a discesa nella riga di testo';
+$string['layoutselectinline'] = 'Menu a discesa nel testo';
 $string['layoutundefined'] = 'Impaginazione non definita';
 $string['layoutvertical'] = 'Colonna verticale di pulsanti radio';
 $string['nooptionsforsubquestion'] = 'Non è possibile ricavare le opzioni per la porzione di domanda # {$a->sub}';

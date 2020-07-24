@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,6 +57,7 @@ $string['chooseoption'] = 'Kies: {$a}';
 $string['closebeforeopen'] = 'Je hebt een afsluitdatum opgegeven die vroeger ligt dan de openingsdatum.';
 $string['completionsubmit'] = 'Toon als voltooid wanneer de gebruiker een keuze maakt';
 $string['description'] = 'Inleidende tekst';
+$string['deselectalloption'] = 'Deselecteer alles "{$a}"';
 $string['displayhorizontal'] = 'Toon horizontaal';
 $string['displaymode'] = 'Toonmodus voor de opties';
 $string['displayvertical'] = 'Toon verticaal';
@@ -71,27 +72,31 @@ $string['full'] = '(volledig)';
 $string['havetologin'] = 'Je moet aangemeld zijn voor je je keuze kunt insturen';
 $string['includeinactive'] = 'Antwoorden opnemen van niet actieve/geschorste gebruikers';
 $string['indicator:cognitivedepth'] = 'Keuze cognitief';
+$string['indicator:cognitivedepthdef'] = 'Keuze cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de Choice-activiteiten tijdens dit analyse-interval bereikt (Niveaus = Geen weergave, Bekijken, Verzenden, Feedback bekijken)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Keuze activiteit.';
 $string['indicator:socialbreadth'] = 'Keuze sociaal';
+$string['indicator:socialbreadthdef'] = 'Keuze sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de maatschappelijke betrokkenheid van de Choice-activiteiten tijdens dit analyse-interval bereikt (Niveaus = Geen deelname, Alleen deelnemer, Deelnemer met anderen)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Keuze activiteit.';
 $string['limit'] = 'Beperk';
 $string['limitanswers'] = 'Beperk het aantal toegelaten antwoorden';
-$string['limitanswers_help'] = '<p>Met deze optie is het mogelijk om het aantal deelnemers dat elke optie kan kiezen te beperken.</p>
+$string['limitanswers_help'] = 'Met deze optie is het mogelijk om het aantal deelnemers dat elke optie kan kiezen te beperken.
 
-<p>Eens limieten ingeschakeld zijn, kan op elke optie een limiet gezet worden. Als de limiet bereikt is, kan niemand nog die optie kiezen. Als een limiet van nul gekozen wordt, dan kan niemand die optie kiezen.</p>
+Merk op dat wanneer je deze methode met groepen gebruikt, dan geldt de limiet per groep. Als de limiet op 5 is ingesteld, dan kunnen 5 leden van elke groep de optie kiezen. Als er dan 3 groepen zijn, dan betekent dit dat er 15 deelnemers deze optie kunnen kiezen (5 x 3).
 
-<p>Als limieten niet ingeschakeld zijn, dan kan gelijk welk aantal deelnemers een bepaalde keuze selecteren.</p>';
+Als limieten niet ingeschakeld zijn, dan kan gelijk welk aantal deelnemers een bepaalde keuze selecteren.';
 $string['limitno'] = 'Limiet {no}';
 $string['modulename'] = 'Keuze';
 $string['modulename_help'] = 'Met de keuzemodule kan de leraar een vraag stellen en een keuze van mogelijke antwoorden opgeven.
 
-De keuzeresultaten kunnen gepubliceerd worden nadat de leerlingen geantwoord hebben, na een bepaalde datum of helemaal niet. Resultaten kunnen met de naam van de leerling of anoniem gepubliceerd worden.
+De keuzeresultaten kunnen gepubliceerd worden nadat de leerlingen geantwoord hebben, na een bepaalde datum of helemaal niet. Resultaten kunnen met de naam van de leerling of anoniem gepubliceerd worden (leraren zien altijd de naam met de antwoorden).
 
 Een keuze kan gebruikt worden
 
 * als een snelle bevraging om het denken over een onderwerp te stimuleren
 * om snel te testen of leerlingen iets begrepen hebben
-* om beslissingen door leerlingen mogelijk te maken, bijvoorbeeld door leerlingen te laten stemmen over de richting waarin de cursus zal evolueren;';
+* om beslissingen door leerlingen mogelijk te maken, bijvoorbeeld door leerlingen te laten stemmen over de richting waarin de cursus zal evolueren';
 $string['modulenameplural'] = 'Keuzes';
 $string['moveselectedusersto'] = 'Verplaats geselecteerde gebruikers naar...';
 $string['multiplenotallowederror'] = 'Meerdere antwoorden zijn niet toegestaan in deze keuze';
@@ -100,7 +105,7 @@ $string['noguestchoose'] = 'Sorry, gasten mogen geen keuze ingeven.';
 $string['noresultsviewable'] = 'De resultaten zijn nu niet zichtbaar.';
 $string['notanswered'] = 'Nog niet beantwoord';
 $string['notenrolledchoose'] = 'Enkel aangemelde gebruikers mogen hun keuze invullen';
-$string['notopenyet'] = 'Deze activiteit is niet beschikbaar tot {$a}';
+$string['notopenyet'] = 'Deze activiteit is niet beschikbaar tot {$a}.';
 $string['numberofuser'] = 'Aantal antwoorden';
 $string['numberofuserinpercentage'] = 'Percentage antwoorden';
 $string['openafterclose'] = 'Je hebt een startdatum opgegeven die na de sluitdatum valt';
@@ -137,10 +142,10 @@ $string['responsesto'] = 'Antwoorden op  {$a}';
 $string['results'] = 'Resultaten';
 $string['savemychoice'] = 'Bewaar mijn antwoord';
 $string['search:activity'] = 'Keuze - activiteitsinformatie';
+$string['selectalloption'] = 'Selecteer alles "{$a}"';
 $string['showpreview'] = 'Toon voorbeeld';
 $string['showpreview_help'] = 'Laat leerlingen een voorbeeld zien van de mogelijke opties voor de keuze open is voor insturen.';
 $string['showunanswered'] = 'Toon een kolom voor onbeantwoord';
-$string['skipresultgraph'] = 'Resultatengrafiek overslaan';
 $string['spaceleft'] = 'plaats beschikbaar';
 $string['spacesleft'] = 'plaatsen beschikbaar';
 $string['taken'] = 'Ingenomen';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploadcourse', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploadcourse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -92,9 +92,12 @@ $string['invalidcourseformat'] = '無効なコースフォーマット';
 $string['invalidcsvfile'] = '無効な入力CSVファイル';
 $string['invalidencoding'] = '無効なエンコーディング';
 $string['invalideupdatemode'] = '無効な更新モードが選択されました。';
+$string['invalidfullnametoolong'] = 'フルネームフィールドは {$a} 文字に制限されています。';
 $string['invalidmode'] = '無効なモードが選択されました。';
 $string['invalidroles'] = '無効なロール名: {$a}';
 $string['invalidshortname'] = '無効な省略名';
+$string['invalidshortnametoolong'] = '省略名フィールドは {$a} 文字に制限されています。';
+$string['invalidvisibilitymode'] = '無効な可視性モードです。';
 $string['missingmandatoryfields'] = '必須フィールドの値がありません: {$a}';
 $string['missingshortnamenotemplate'] = '省略名がありません。また、省略名テンプレートが設定されていません。';
 $string['mode'] = 'アップロードモード';

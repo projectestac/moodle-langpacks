@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_xmldb', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actual'] = 'Actual';
+$string['addpersistent'] = 'Voeg verplichte persistente velden toe';
 $string['aftertable'] = 'Tabel resultaat:';
 $string['back'] = 'Terug';
 $string['backtomainview'] = 'Terug naar Hoofd';
@@ -43,7 +44,7 @@ $string['check_indexes'] = 'Zoek ontbrekende DB indexen';
 $string['checkoraclesemantics'] = 'Controleer semantics';
 $string['check_oracle_semantics'] = 'Controleer op semantics met de foute lengte';
 $string['completelogbelow'] = '(complete log van zoeken onderaan)';
-$string['confirmcheckbigints'] = 'Deze functie zal zoeken naar <a href="http://tracker.moodle.org/browse/MDL-11038"> mogelijk foute integer velden op je Moodle server, en hierbij automatisch de nodige SQL-statements genereren (maar niet uitvoeren!) om alle integer velden in je DB juist te zetten.
+$string['confirmcheckbigints'] = 'Deze functie zal zoeken naar <a href="http://tracker.moodle.org/browse/MDL-11038"> mogelijk foute integer velden</a> op je Moodle server, en hierbij automatisch de nodige SQL-statements genereren (maar niet uitvoeren!) om alle integer velden in je DB juist te zetten.
 
 Eens gegenereerd kun je die statements kopiëren en veilig uitvoeren in je favoriete SQL-interface (maak altijd eerst een backup van je databank!).
 
@@ -157,7 +158,7 @@ $string['newtable'] = 'Nieuwe tabel';
 $string['newtablefrommysql'] = 'Nieuwe tabel van MySQL';
 $string['new_table_from_mysql'] = 'Nieuwe tabel van MySQL';
 $string['nofieldsspecified'] = 'Geen velden opgegeven';
-$string['nomasterprimaryuniquefound'] = 'De kolom(men) waarnaar jouw foreign key refereert moet inbegrepen zijn in een primary key of een unique key in de gerefereerde tabel. Merk op, het is niet goed genoeg als de kolom een unieke index is.';
+$string['nomasterprimaryuniquefound'] = 'De kolom(men) waarnaar jouw foreign key refereert moet inbegrepen zijn in een primary key of een unique key in de gerefereerde tabel. Merk op: het is niet goed genoeg als de kolom in een UNIQUE INDEX is.';
 $string['nomissingindexesfound'] = 'Er zijn geen ontbrekende indexen gevonden, er moet niets aan je databank gewijzigd worden.';
 $string['noreffieldsspecified'] = 'Geen referentievelden opgegeven';
 $string['noreftablespecified'] = 'Opgegeven referentietabel niet gevonden';
@@ -171,6 +172,9 @@ $string['numberincorrectwholepart'] = 'Te groot geheel getal in het getal-veld';
 $string['pendingchanges'] = 'Opmerking: je hebt wijzigingen aan dit bestand aangebracht. Ze kunnen elk moment opgeslagen worden.';
 $string['pendingchangescannotbesaved'] = 'Er zijn wijzigingen in dit bestand, maar ze kunnen niet bewaard worden! Controleer dat de webserver schrijfrechten heeft, zowel op de map als op het bestand install.xml ';
 $string['pendingchangescannotbesavedreload'] = 'Er zijn wijzigingen in dit bestand, maar ze kunnen niet bewaard worden! Controleer dat de webserver schrijfrechten heeft, zowel op de map als op het bestand install.xml. Herlaad dan deze pagina en je zou de wijzigingen moeten kunnen bewaren.';
+$string['persistentfieldscomplete'] = 'De volgende velden zijn toegevoegd:';
+$string['persistentfieldsconfirm'] = 'Wil je de volgende velden toevoegen:';
+$string['persistentfieldsexist'] = 'De volgende velden bestaan al:';
 $string['pluginname'] = 'XMLDB editor';
 $string['primarykeyonlyallownotnullfields'] = 'Primaire sleutel kan niet nul zijn';
 $string['privacy:metadata'] = 'De XMLDB editor-plugin bewaart geen persoonlijke gegevens.';
@@ -215,7 +219,7 @@ $string['wrongnumberofreffields'] = 'Fout aantal referentievelden';
 $string['wrongoraclesemantics'] = 'Verkeerde Oracle BYTE semantiek gevonden';
 $string['wrongreservedwords'] = 'Gebruikte gereserveerde woorden<br />(merk op dat tabelnamen niet belangrijk zijn als je *CFG->prefix gebruikt)';
 $string['yesmissingindexesfound'] = '<p>Er zijn ontbrekende indexen gevonden in je databank. Hier vind je de details en de nodige SQL-statements om uit te voeren in je favoriete SQL interface om de indexen aan te maken.</p><p>Nadat je dit gedaan hebt, is het ten zeerste aangeraden deze functie nogmaals te laten lopen om te controleren of er niet meer ontbrekende indexen gevonden kunnen worden.</p>';
-$string['yeswrongdefaultsfound'] = '<p>Er zijn inconsistenties gevonden in je databank. Hier zijn de juiste standaardwaarden en de nodige SQL-expressies om uit te voeren in je favoriete SQL-interface om ze allemaal te herstellen (vergeet niet je databank te back-uppen voor je dddat doet).</p><p>
+$string['yeswrongdefaultsfound'] = '<p>Er zijn inconsistenties gevonden in je databank. Hier zijn de juiste standaardwaarden en de nodige SQL-expressies om uit te voeren in je favoriete SQL-interface om ze allemaal te herstellen (vergeet niet je databank te back-uppen voor je dat doet).</p><p>
 Daarna is het ten zeerste aangeraden om dit script nogmaals te laten lopen om te zoeken naar meer inconsistenties.<p>';
 $string['yeswrongintsfound'] = '<p>Er zijn foute integers gevonden in je databank. Hier vind je de details en de nodige SQL-statements om uit te voeren in je favoriete SQL interface ze te herstellen. Denk er aan om eerst je databank te backuppen!</p><p>Nadat je dit gedaan hebt, is het ten zeerste aangeraden deze functie nogmaals te laten lopen om te controleren of er niet meer foute integers gevonden kunnen worden.<p>';
 $string['yeswrongoraclesemanticsfound'] = '<p>Er zijn Oracle kolommen die BYTE semantics gebruiken gevonden in je databank. Hier zijn de details en de nodige SQL om uit te voeren met je favoriete SQL interface om ze allemaal te herstellen. Maak eerst een backup van je data! </p>

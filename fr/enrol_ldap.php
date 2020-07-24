@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_ldap', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_ldap', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,8 +31,7 @@ $string['autocreate'] = 'Des cours peuvent être créés automatiquement si des 
 $string['autocreate_key'] = 'Créer automatiquement';
 $string['autocreation_settings'] = 'Réglages de la création automatique de cours';
 $string['autoupdate_settings'] = 'Réglages de mise à jour automatique des cours';
-$string['autoupdate_settings_desc'] = '<p>Sélectionnez les champs à mettre à jour lorsque le script de synchronisation est lancé (enrol/ldap/cli/sync.php).</p>
-<p>Si un champ au moins est sélectionné, des mises à jour auront lieu.</p>';
+$string['autoupdate_settings_desc'] = '<p>Sélectionnez les champs à mettre à jour lorsque la tâche programmée « Synchroniser les inscriptions LDAP » est lancée (enrol_ldap\\task\\sync_enrolments).</p><p>Si un champ au moins est sélectionné, une mise à jour aura lieu.</p>';
 $string['bind_dn'] = 'Si vous voulez utiliser bind-user pour rechercher des utilisateurs, veuillez le spécifier ici, par exemple sous la forme « cn=ldapuser,ou=public,o=org »';
 $string['bind_dn_key'] = 'Nom complet du « Bind user »';
 $string['bind_pw'] = 'Mot de passe pour bind-user.';

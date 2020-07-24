@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_rubric', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_rubric', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addcriterion'] = 'Kriterium hinzufügen';
+$string['additionalfeedback'] = 'Zusätzliches Feedback';
 $string['alwaysshowdefinition'] = 'Nutzer/innen eine Vorschau auf die Rubrik erlauben (andernfalls wird die Rubrik erst nach der Bewertung sichtbar)';
 $string['backtoediting'] = 'Zurück zum Bearbeiten';
 $string['confirmdeletecriterion'] = 'Wollen Sie dieses Kriterium wirklich löschen?';
@@ -58,7 +59,9 @@ $string['lockzeropoints'] = 'Bewertung abhängig davon berechnen, ob die Rubrik 
 $string['lockzeropoints_help'] = 'Diese Einstellung greift nur, wenn die minimal erreichbare Punktzahl über alle Kriterien größer als 0 ist. Wenn die Einstellung aktiviert wird, sind nur Bewertungen für die Rubrik möglich, die größer als 0 sind. Wird sie deaktiviert, wird die kleinstmögliche Punktzahl auf die schlechteste Bewertung abgebildet (0 wenn keine Skala verwendet wird).';
 $string['name'] = 'Name';
 $string['needregrademessage'] = 'Die Rubrik wurde geändert, nachdem ein/e Teilnehmer/in bewertet wurde. Teilnehmer/innen sehen diese Bewertung solange nicht, bis Sie die Rubrik geprüft und die Bewertung aktualisiert haben.';
+$string['notset'] = 'Nicht gesetzt';
 $string['pluginname'] = 'Rubrik';
+$string['pointsvalue'] = '{$a} Punkte';
 $string['previewrubric'] = 'Rubrik-Vorschau';
 $string['privacy:metadata:criterionid'] = 'Identifier für ein spezifisches Kriterium, das bewertet wurde';
 $string['privacy:metadata:fillingssummary'] = 'Speichert Informationen über die Bewertung de sNutzers in der Rubrik';

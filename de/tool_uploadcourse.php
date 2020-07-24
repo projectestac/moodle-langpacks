@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploadcourse', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploadcourse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -92,9 +92,12 @@ $string['invalidcourseformat'] = 'Ungültiges Kursformat';
 $string['invalidcsvfile'] = 'Ungültige CSV-Datei';
 $string['invalidencoding'] = 'Ungültige Kodierung';
 $string['invalideupdatemode'] = 'Ungültige Aktualisierung ausgewählt';
+$string['invalidfullnametoolong'] = 'Das Feld \'Vollständiger Name\' ist auf {$a} Zeichen beschränkt.';
 $string['invalidmode'] = 'Ungültiger Modus ausgewählt';
 $string['invalidroles'] = 'Ungültige Rollennamen: {$a}';
 $string['invalidshortname'] = 'Ungültiger Kursname';
+$string['invalidshortnametoolong'] = 'Das Feld \'Kurzname\' ist auf {$a} Zeichen beschränkt.';
+$string['invalidvisibilitymode'] = 'Ungültiger Modus für die Sichtbarkeit';
 $string['missingmandatoryfields'] = 'Fehlender Wert für Pflichtfelder: {$a}';
 $string['missingshortnamenotemplate'] = 'Fehlender Kursname oder nicht gesetzte Vorlage';
 $string['mode'] = 'Modus beim Hochladen';
@@ -108,7 +111,7 @@ $string['reset_help'] = 'Sollen Kurse nach dem Erstellen/Update zurückgesetzt w
 $string['restoreafterimport'] = 'Nach dem Import zurücksetzen';
 $string['result'] = 'Ergebnis';
 $string['rowpreviewnum'] = 'Vorschauzeilen';
-$string['rowpreviewnum_help'] = 'Anzahl der Zeilen der csv-Datei, die in der Vorschau auf der folgenden Seite angezeigt werden.Die Option ermöglicht es die Länge der nächsten Seite zu begrenzen.';
+$string['rowpreviewnum_help'] = 'Anzahl der Zeilen aus der CSV-Datei, die auf der folgenden Seite als Vorschau angezeigt werden. Diese Option dient zur Größenbegrenzung der Seite.';
 $string['shortnametemplate'] = 'Vorlage zum Erzeugen eines Kursnamens';
 $string['shortnametemplate_help'] = 'Die Kurzbezeichunung des Kurses wird in der Navigation verwandt. Sie können als Template-Syntax folgenden Eintrag verwenden: %f = fullname, %i = idnumber. Oder geben Sie einen Startwert an, der heraufgezählt wird.';
 $string['templatefile'] = 'Aus dieser Datei nach dem Upload wiederherstellen';

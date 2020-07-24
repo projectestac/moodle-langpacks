@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio_mahara', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'portfolio_mahara', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   portfolio_mahara
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,7 +42,7 @@ $string['mnet_nofilecontents'] = 'Transferentzia-objektuan fitxategia aurkitu da
 $string['mnet_noid'] = 'Ezin izan da aurkitu token honekin bat etortzen den transferentzia-erregistroa';
 $string['mnet_notoken'] = 'Ezin izan da aurkitu transferentzia honekin bat etortzen den tokena';
 $string['mnet_wronghost'] = 'Urruneko ostalaria ez dator bat token honen transferentzia-erregistroarekin';
-$string['pf_description'] = 'Baimendu erabiltzaileei Moodleko edukiak ostalari honetara bidaltzea<br />Harpidetu zaitez <b>eta</b> publika ezazu zerbitzu hau zure gunean autentifikatutako erabiltzaileei edukiak {$a}-(e)ra bidaltzea baimentzeko. <br /><ul><li><em>Menpekotasuna</em>:  {$a}-(e)rako SSO (Identitate Hornitzailea) zerbitzua ere <strong>publikatu</strong> behar duzu.</li><li><em>Menpekotasuna</em>: {$a}-(e)ko SSO (Identitate Hornitzailea) zerbitzura ere <strong>harpidetu</strong> behar zara.</li><li><em>Menpekotasuna</em>: MNet autentifikazio-plugina ere gaitu behar duzu.</li></ul><br />';
+$string['pf_description'] = 'Baimendu erabiltzaileei Moodleko edukiak ostalari honetara bidaltzea<br />Harpidetu zaitez <b>eta</b> publika ezazu zerbitzu hau zure gunean autentifikatutako erabiltzaileei edukiak {$a}-(e)ra bidaltzea baimentzeko. <br /><ul><li><em>Mendekotasuna</em>:  {$a}-(e)rako SSO (Identitate Hornitzailea) zerbitzua ere <strong>publikatu</strong> behar duzu.</li><li><em>Mendekotasuna</em>: {$a}-(e)ko SSO (Identitate Hornitzailea) zerbitzura ere <strong>harpidetu</strong> behar zara.</li><li><em>Mendekotasuna</em>: MNet autentifikazio-plugina ere gaitu behar duzu.</li></ul><br />';
 $string['pf_name'] = 'Portfolio zerbitzuak';
 $string['pluginname'] = 'Mahara ePortfolioa';
 $string['privacy:metadata'] = 'Plugin honek datuak bidaltzen ditu lotutako kanpoko Mahara aplikaziora. Ez du lokalki daturik biltzen.';

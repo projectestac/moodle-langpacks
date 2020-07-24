@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_overview', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,9 +67,11 @@ $string['regradealldrydogroup'] = 'Regrade attempts ({$a->countregradeneeded}) m
 $string['regradealldrygroup'] = 'Dry run a full regrade for group \'{$a->groupname}\'';
 $string['regradeallgroup'] = 'Full regrade for group \'{$a->groupname}\'';
 $string['regradecomplete'] = 'Regrade completed successfully';
+$string['regradedsuccessfullyxofy'] = 'Successfully regraded ({$a->done}/{$a->count})';
 $string['regradeheader'] = 'Regrading';
 $string['regradeselected'] = 'Regrade selected attempts';
 $string['regradingattemptxofy'] = 'Regrading attempt ({$a->done}/{$a->count})';
+$string['regradingattemptxofywithdetails'] = 'Regrading attempt ({$a->done}/{$a->count}) - Attempt {$a->attemptnum} by {$a->name} (id {$a->attemptid})';
 $string['show'] = 'Show / download';
 $string['showattempts'] = 'Only show / download attempts';
 $string['showdetailedmarks'] = 'Marks for each question';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_guide', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addcomment'] = 'Engadir comentarios empregados con frecuencia';
 $string['addcriterion'] = 'Engadir criterio';
+$string['additionalcomments'] = 'Comentarios adicionais';
 $string['alwaysshowdefinition'] = 'Amosar a guía de definición aos alumnos';
 $string['backtoediting'] = 'Volver á edición';
 $string['clicktocopy'] = 'Prema para copiar este texto no comentario do criterio';
@@ -74,6 +75,7 @@ $string['insertcomment'] = 'Inserir comentarios empregados con frecuencia';
 $string['maxscore'] = 'Corrección máxima';
 $string['name'] = 'Nome';
 $string['needregrademessage'] = 'A definición da guía de corrección foi cambiada despois de que este alumno fose cualificado. O alumno non pode ver esta guía de corrección ata que vostede comprobe a guía de corrección e actualice a cualificación.';
+$string['outof'] = 'Puntuación de {$a}';
 $string['pluginname'] = 'Guía de corrección';
 $string['previewmarkingguide'] = 'Vista previa da guía de corrección';
 $string['privacy:metadata:criterionid'] = 'Un identificador para un criterio para a corrección avanzada.';

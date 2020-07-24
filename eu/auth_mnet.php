@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_mnet', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_mnet', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,6 +31,7 @@ $string['auth_mnet_roamin'] = 'Ostalari honetako erabiltzaileak zure gunean ibil
 $string['auth_mnet_roamout'] = 'Zure erabiltzaileak ostalari honetan ibil daitezke';
 $string['auth_mnet_rpc_negotiation_timeout'] = 'XMLRCP-ren bidez autentifikatzeko gehienezko denbora (segundoetan).';
 $string['auto_add_remote_users'] = 'Gehitu automatikoki urrutiko erabiltzaileak';
+$string['crontask'] = 'MNET autentifikazioaren atzeko planoko prozesatzea';
 $string['pluginname'] = 'Moodle Sarea autentifikazioa';
 $string['privacy:metadata:external:mahara'] = 'Plugin honek lotutako kanpoko Mahara aplikazio batera datuak bidal ditzake.';
 $string['privacy:metadata:external:moodle'] = 'Plugin honek lotutako kanpoko Moodle aplikazio batera datuak bidal ditzake.';
@@ -59,7 +60,7 @@ $string['privacy:metadata:mnet_external:lastaccess'] = 'Erabiltzailea gunean azk
 $string['privacy:metadata:mnet_external:lastlogin'] = 'Erabiltzaile honen azken saio-hasiera.';
 $string['privacy:metadata:mnet_external:lastname'] = 'Erabiltzailearen abizena.';
 $string['privacy:metadata:mnet_external:lastnamephonetic'] = 'Erabiltzailearen abizenaren inguruko xehetasun fonetikoak.';
-$string['privacy:metadata:mnet_external:maildigest'] = 'Erabiltzaile honentzako posta elektroniko bidezko banaketa-aukeraren ezarpena.';
+$string['privacy:metadata:mnet_external:maildigest'] = 'Erabiltzaile honentzako posta elektroniko bidezko laburpen-motarentzako ezarpena.';
 $string['privacy:metadata:mnet_external:maildisplay'] = 'Erabiltzailearen helbide elektronikoa beste erabiltzaileei erakustekoaren inguruko hobespena.';
 $string['privacy:metadata:mnet_external:middlename'] = 'Erabiltzailearen bigarren izena';
 $string['privacy:metadata:mnet_external:msn'] = 'Erabiltzailearen MSN identifikatzailea';

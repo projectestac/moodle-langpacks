@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,8 +41,6 @@ $string['auth_ldap_create_context'] = 'Wenn Sie die Nutzererstellung mit E-Mail-
 <br /><b>Achtung!</b> Sie müssen die Funktion user_create() in der Datei auth/ldap/auth.php anpassen, damit die Nutzererstellung funktioniert.';
 $string['auth_ldap_create_context_key'] = 'Kontext für neue Nutzer/innen';
 $string['auth_ldap_create_error'] = 'Fehler beim Anlegen des Nutzerkontos in LDAP';
-$string['auth_ldap_creators'] = 'Liste von Gruppen oder Kontexten, deren Mitglieder Kurse verwalten und neu anlegen dürfen (Liste der Kursersteller/innen). Mehrere Gruppen werden durch ein \';\' (Semikolon) getrennt. Normalerweise hat der Eintrag diese Form: \'cn=teachers,ou=staff,o=myorg\'';
-$string['auth_ldap_creators_key'] = 'Kursersteller/innen';
 $string['auth_ldapdescription'] = 'Diese Anmeldemethode ermöglicht die Authentifizierung gegenüber einem externen LDAP-Server. Wenn der angegebene Anmeldename und das angegebene Kennwort gültig sind, erstellt Moodle ein neues Nutzerkonto in seiner Datenbank. Dieses Plugin kann Nutzerattribute aus LDAP lesen und gewünschte Felder in Moodle vorab ausfüllen. Bei nachfolgenden Anmeldungen werden nur noch der Anmeldename und das Kennwort überprüft.';
 $string['auth_ldap_expiration_desc'] = 'Wählen Sie \'{$a->no}\', um den Ablauf von Kennwörtern nicht zu prüfen. Wenn Sie \'{$a->ldapserver}\' wählen, wird Ablaufdatum direkt vom LDAP-Server zu lesen.';
 $string['auth_ldap_expiration_key'] = 'Ablauf';
@@ -119,6 +117,11 @@ $string['cannotmaprole'] = 'Die Rolle \'{$a->rolename}\' kann nicht zugeordnet w
 $string['connectingldap'] = 'Verbindung zum LDAP-Server aufbauen...';
 $string['connectingldapsuccess'] = 'Die Verbindung zum LDAP-Server wurde erfolgreich hergestellt.';
 $string['creatingtemptable'] = 'Temporäre Tabelle {$a} erstellen';
+$string['diag_contextnotfound'] = 'Kontext {$a} existiert nicht oder kann nicht von Bind-DN gelesen werden.';
+$string['diag_emptycontext'] = 'Leeren Kontext gefunden';
+$string['diag_genericerror'] = 'LDAP-Fehler {$a->code} beim Lesen von {$a->subject}: {$a->message}.';
+$string['diag_rolegroupnotfound'] = 'Die Gruppe {$a->group} für die Rolle {$a->localname} existiert nicht oder kann nicht vom Bind-DN gelesen werden.';
+$string['diag_toooldversion'] = 'Es ist sehr unwahrscheinlich, dass ein moderner LDAP-Server das LDAPv2-Protokoll verwendet. Durch falsche Einstellungen können die Werte in Nutzerfeldern beschädigt werden. Wenden Sie sich an Ihre/n LDAP-Administrator/in.';
 $string['didntfindexpiretime'] = 'Für die Funktion password_expire() wurde kein Gültigkeitsende gefunden';
 $string['didntgetusersfromldap'] = 'Kein Nutzerkonto über LDAP einlesbar! Fehler?';
 $string['gotcountrecordsfromldap'] = '{$a} Datensätze von LDAP eingelesen';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'editor_tinymce', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -475,7 +475,7 @@ $string['media_dlg:qtsrc'] = 'QT Src';
 $string['media_dlg:qtsrcchokespeed'] = 'Choke speed';
 $string['media_dlg:qt_stream_warn'] = 'Strömmande rtsp resurser bör läggas till till QT Src fältet under den advancerade tabben. Du borde också lägga till en icke-strömmande version till Src fältet.';
 $string['media_dlg:quality'] = 'Kvalité';
-$string['media_dlg:rate'] = 'Rate';
+$string['media_dlg:rate'] = 'Bedöm/värdera inlägg';
 $string['media_dlg:rmp_options'] = 'Real media player options';
 $string['media_dlg:salign'] = 'SAlign';
 $string['media_dlg:scale'] = 'Skala';

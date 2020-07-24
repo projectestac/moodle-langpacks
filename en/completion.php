@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['activityaggregation_all'] = 'ALL selected activities to be completed';
 $string['activityaggregation_any'] = 'ANY selected activities to be completed';
 $string['activitycompletion'] = 'Activity completion';
 $string['activitycompletionupdated'] = 'Changes saved';
+$string['activitygradenotrequired'] = 'Grade not required';
 $string['affectedactivities'] = 'The changes will affect the following <b>{$a}</b> activities or resources:';
 $string['aggregationmethod'] = 'Aggregation method';
 $string['all'] = 'All';
@@ -42,6 +43,7 @@ $string['any'] = 'Any';
 $string['approval'] = 'Approval';
 $string['areyousureoverridecompletion'] = 'Are you sure you want to override the current completion state of this activity for this user and mark it "{$a}"?';
 $string['badautocompletion'] = 'When you select automatic completion, you must also enable at least one requirement (below).';
+$string['badcompletiongradeitemnumber'] = 'Require grade can\'t be enabled for <b>{$a}</b> because grading by {$a} is not enabled.';
 $string['bulkactivitycompletion'] = 'Bulk edit activity completion';
 $string['bulkactivitydetail'] = 'Select the activities you wish to bulk edit.';
 $string['bulkcompletiontracking'] = 'Completion tracking';
@@ -104,8 +106,6 @@ $string['completionondate'] = 'Date';
 $string['completionondatevalue'] = 'Date when course will be marked as complete';
 $string['completion-pass'] = 'Completed (achieved pass grade)';
 $string['completionsettingslocked'] = 'Completion settings locked';
-$string['completion-title-manual-n'] = 'Mark as complete: {$a}';
-$string['completion-title-manual-y'] = 'Mark as not complete: {$a}';
 $string['completionupdated'] = 'Updated completion for activity <b>{$a}</b>';
 $string['completionusegrade'] = 'Require grade';
 $string['completionusegrade_desc'] = 'Student must receive a grade to complete this activity';

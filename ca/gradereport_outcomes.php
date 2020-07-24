@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_outcomes', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradereport_outcomes', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   gradereport_outcomes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,10 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addoutcome'] = 'Afegeix un resultat';
-$string['courseoutcomes'] = 'Resultats del curs';
-$string['coursespecoutcome'] = 'Resultats del curs';
-$string['eventgradereportviewed'] = 'S\'ha visualitzat l\'informe de resultats de qualificacions';
-$string['outcomes:view'] = 'Visualitza l\'informe de resultats';
-$string['pluginname'] = 'Informe de resultats';
+$string['addoutcome'] = 'Afegeix una competència';
+$string['courseoutcomes'] = 'Competències del curs';
+$string['coursespecoutcome'] = 'Competències del curs';
+$string['eventgradereportviewed'] = 'S\'ha visualitzat l\'informe de qualificacions de competències';
+$string['outcomes:view'] = 'Visualitza l\'informe de competències';
+$string['pluginname'] = 'Informe de competències';
+$string['privacy:metadata'] = 'L\'informe de qualificacions de competències només mostra dades desades en altres ubicacions.';
 $string['usedgradeitem'] = 'Nombre d\'elements de qualificació';

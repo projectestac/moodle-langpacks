@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_email', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message_email', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   message_email
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['email'] = 'Stuur meldingen via e-mail naar';
+$string['emaildigestsubject'] = 'Berichtenoverzicht';
+$string['emaildigestunreadmessages'] = 'Ongelezen berichten';
+$string['emaildigestviewallmessages'] = 'Bekijk alle berichten';
 $string['emailonlyfromnoreplyaddress'] = 'E-mail altijd verzenden vanaf niet-beantwoorden adres?';
 $string['ifemailleftempty'] = 'Laat leeg om notificaties te sturen naar {$a}';
 $string['pluginname'] = 'E-mail';
@@ -34,8 +37,13 @@ $string['privacy:metadata:attachname'] = 'De naam van de bijlage (extensie geeft
 $string['privacy:metadata:externalpurpose'] = 'Deze informatie is naar een externe SMTP-server gestuurd om uiteindelijk als een e-mail bij de ontvanger terecht te komen.';
 $string['privacy:metadata:fullmessage'] = 'Het volledige bericht in een gegeven opmaak.';
 $string['privacy:metadata:fullmessagehtml'] = 'De volledige versie van het bericht.';
+$string['privacy:metadata:message_email_messages'] = 'De lijst met gebruikers die zijn aangemeld via een LTI-provider';
+$string['privacy:metadata:message_email_messages:conversationid'] = 'De ID van het gesprek waarnaar wordt verzonden';
+$string['privacy:metadata:message_email_messages:messageid'] = 'De ID van het bericht dat wordt verzonden';
+$string['privacy:metadata:message_email_messages:useridto'] = 'De ID van de gebruiker die het bericht ontvangt';
 $string['privacy:metadata:recipient'] = 'De ontvanger van het bericht.';
 $string['privacy:metadata:replyto'] = 'Het e-mailadres om naar te antwoorden.';
 $string['privacy:metadata:replytoname'] = 'Naam van de beantwoorde ontvanger.';
 $string['privacy:metadata:subject'] = 'De onderwerpregel van het bericht.';
 $string['privacy:metadata:userfrom'] = 'De gebruiker die het bericht verstuurd.';
+$string['tasksendemail'] = 'Berichtenoverzicht mailings';

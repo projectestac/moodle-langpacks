@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_atto', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'editor_atto', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   editor_atto
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,7 +49,7 @@ $string['recover'] = 'Wiederherstellen';
 $string['settings'] = 'Einstellungen';
 $string['subplugintype_atto'] = 'Atto Plugin';
 $string['subplugintype_atto_plural'] = 'Atto Plugins';
-$string['taskautosavecleanup'] = 'Abgelaufene automatisch gespeicherte Entwürfe aus Datenbank löschen';
+$string['taskautosavecleanup'] = 'Abgelaufene Autosave-Entwürfe löschen';
 $string['textrecovered'] = 'Der Entwurf dieses Textes wurde automatisch wiederhergestellt.';
 $string['toolbarconfig'] = 'Menüleiste';
 $string['toolbarconfig_desc'] = 'Mit dieser Option werden die Plugins und deren Reihenfolge in der Menüleiste festgelegt. Für die Konfiguration werden Gruppennamen angegeben (einer pro Zeile), jeweils gefolgt von einem Gleichheitszeichen und der kommagetrennten Liste von Plugins für diese Gruppe. Die Gruppennamen müssen eindeutig sein und sollten zeigen, was die Symbole in der jeweiligen Gruppe gemeinsam haben. Symbol- und Gruppennamen dürfen nur einmal vorkommen und nur alphanumerische Zeichen enthalten.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'debug', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,11 +34,13 @@ $string['cannotinitpage'] = 'لا يمكن تهيئة الصفحة بالكام�
 $string['cannotsetuptable'] = 'لا يمكن ضبط جداول {$a} بنجاح!';
 $string['codingerror'] = 'تم الكشف عن خطأ بالكود، يجب إصلاحه من قبل مبرمج: {$a}';
 $string['configmoodle'] = 'لم يتم إعداد مودل بعد. يجب أن تقوم بتحرير الملف config.php أولاً.';
+$string['debuginfo'] = 'معلومات التصحيح';
 $string['erroroccur'] = 'لقد حدث خطأ أثناء هذه العملية';
 $string['invalidarraysize'] = 'طول مصفوفة غير صحيح للوسيط {$a}';
 $string['invalideventdata'] = 'تم تسليم بيانات أحداث غير صحيحة: {$a}';
 $string['invalidparameter'] = 'تم الكشف عن قيمة وسيط غير صالحة، لا يمكن استمرار التنفيذ.';
 $string['invalidresponse'] = 'تم الكشف عن قيمة إجابة غير صالحة، لا يمكن استمرار التنفيذ.';
+$string['line'] = 'خط';
 $string['missingconfigversion'] = 'جدول الإعدادات لا يحوي رقم الإصدار، لا يمكن الاستمرار للأسف.';
 $string['modulenotexist'] = 'الوحدة {$a} غير موجودة';
 $string['morethanonerecordinfetch'] = 'تم إيجاد أكثر من سجل في تابع fetch() !';
@@ -50,9 +52,11 @@ $string['nomodules'] = 'لا يوجد وحدات!';
 $string['nopageclass'] = 'تم استيراد {$a} لكن لم يوجد أي صفوف صفحات';
 $string['noreports'] = 'لا يوجد تقارير يمكن الوصول لها';
 $string['notables'] = 'لا يوجد جداول!';
+$string['outputbuffer'] = 'التخزين المؤقت للمخرجات';
 $string['phpvaroff'] = 'يجب إطفاء متحول مخدم PHP المسمى \'{$a->name}\' - {$a->link}';
 $string['phpvaron'] = 'متحول مخدم PHP المسمى \'{$a->name}\' غير مشغل - {$a->link}';
 $string['sessionmissing'] = 'الغرض {$a} مفقود من الجلسة';
 $string['sqlrelyonobsoletetable'] = 'هذه الـ SQL تعتمد على جداول متقادمة: {$a}! يجب إصلاح كودك من قبل مبرمج.';
+$string['stacktrace'] = 'تتبع المكدس';
 $string['withoutversion'] = 'ملف version.php الرئيسي مفقود أو غير مقروء أو تم نقله.';
 $string['xmlizeunavailable'] = 'توابع التحويل إلى xml غير متوافرة';

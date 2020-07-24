@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_statistics', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,7 +51,7 @@ $string['detailedanalysisforvariant'] = 'Análisis más detallado para las respu
 $string['discrimination_index'] = 'Índice de Discriminación';
 $string['discriminative_efficiency'] = 'Eficiencia discriminativa';
 $string['downloadeverything'] = 'Descargar informe completo como';
-$string['duration'] = 'Abierto para';
+$string['duration'] = 'Abierto por';
 $string['effective_weight'] = 'peso efectivo';
 $string['errordeleting'] = 'Error al eliminar {$a} registros antiguos.';
 $string['errormedian'] = 'Error al buscar la mediana';

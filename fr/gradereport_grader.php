@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_grader', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradereport_grader', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   gradereport_grader
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,13 +37,13 @@ $string['overriddengrade'] = 'Note forcée';
 $string['pluginname'] = 'Rapport de l\'évaluateur';
 $string['preferences'] = 'Préférences du rapport de l\'évaluateur';
 $string['privacy:metadata:preference:grade_report_aggregationposition'] = 'Si les colonnes des totaux de catégories et de cours sont affichées en premier ou en dernier dans les rapports d\'évaluation';
-$string['privacy:metadata:preference:grade_report_averagesdecimalpoints'] = 'Le nombre de chiffres après la virgule à afficher pour chaque moyenne, ou s\'il faut utiliser pour ceci le réglage de la catégorie ou de l\'élément d\'évaluation (héritage).';
+$string['privacy:metadata:preference:grade_report_averagesdecimalpoints'] = 'Le nombre de décimales à afficher pour chaque moyenne, ou s\'il faut utiliser pour ceci le réglage de la catégorie ou de l\'élément d\'évaluation (héritage).';
 $string['privacy:metadata:preference:grade_report_averagesdisplaytype'] = 'Si la moyenne est affichée sous forme de note, de pourcentage ou de lettre, ou s\'il faut utiliser pour ceci le réglage de la catégorie ou de l\'élément d\'évaluation (héritage).';
 $string['privacy:metadata:preference:grade_report_enableajax'] = 'S\'il faut ajouter des fonctions AJAX au rapport de l\'évaluateur, afin de simplifier et de rendre plus rapide les opérations habituelles';
 $string['privacy:metadata:preference:grade_report_grader_collapsed_categories'] = 'Liste des catégories à replier dans le carnet de notes';
 $string['privacy:metadata:preference:grade_report_meanselection'] = 'Si les cellules sans note doivent être inclues lors du calcul de la moyenne de chaque catégorie ou élément d\'évaluation';
 $string['privacy:metadata:preference:grade_report_quickgrading'] = 'S\'il faut afficher un champ de texte pour chaque note, permettant de modifier plusieurs notes à la fois';
-$string['privacy:metadata:preference:grade_report_rangesdecimalpoints'] = 'Le nombre de chiffres après la virgule à afficher pour chaque plage, ou s\'il faut utiliser pour ceci le réglage de la catégorie ou de l\'élément d\'évaluation (héritage).';
+$string['privacy:metadata:preference:grade_report_rangesdecimalpoints'] = 'Le nombre de décimales à afficher pour chaque plage, ou s\'il faut utiliser pour ceci le réglage de la catégorie ou de l\'élément d\'évaluation (héritage).';
 $string['privacy:metadata:preference:grade_report_rangesdisplaytype'] = 'Si la plage est affichée sous forme de note, de pourcentage ou de lettre, ou s\'il faut utiliser pour ceci le réglage de la catégorie ou de l\'élément d\'évaluation (héritage).';
 $string['privacy:metadata:preference:grade_report_showactivityicons'] = 'S\'il faut afficher les icônes des activités à côté des noms des activités';
 $string['privacy:metadata:preference:grade_report_showanalysisicon'] = 'S\'il faut afficher par défaut l\'icône d\'analyse de note. Si le module d\'activité le permet, l\'icône d\'analyse de note lie vers une page contenant des explications complémentaires sur la note et comment elle a été obtenue.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_grader', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradereport_grader', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   gradereport_grader
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,11 +37,13 @@ $string['overriddengrade'] = 'Nota anulada';
 $string['pluginname'] = 'Informe del calificador';
 $string['preferences'] = 'Preferencias del informe del calificador';
 $string['privacy:metadata:preference:grade_report_aggregationposition'] = 'Si los totales de curso y categoría se muestran al principio o al final en los informes del Libro de calificaciones';
+$string['privacy:metadata:preference:grade_report_averagesdecimalpoints'] = 'El número de decimales a mostrar para cada promedio, o si se usará la configuración general de decimales para la categoría o el ítem de calificación (heredar).';
 $string['privacy:metadata:preference:grade_report_averagesdisplaytype'] = 'Si se muestra el promedio (media) como calificaciones reales, porcentajes o letras, o si se muestra el tipo de datos fijado para el ítem de calificación o categoría (heredar).';
 $string['privacy:metadata:preference:grade_report_enableajax'] = 'Si se añade o no una capa de funcionalidad AJAX al informe del calificador, simplificando y acelerando las operaciones comunes.';
 $string['privacy:metadata:preference:grade_report_grader_collapsed_categories'] = 'Lista de categorías del Libro de calificaciones que serán colapsadas';
 $string['privacy:metadata:preference:grade_report_meanselection'] = 'Si las celdas que no tienen calificación deberían de ser incluidas al calcular el promedio (media) para cada categoría o ítem de calificación';
 $string['privacy:metadata:preference:grade_report_quickgrading'] = 'Si se muestra una caja para introducir texto para cada calificación, permitiendo que al mismo tiempo sean editadas muchas calificaciones';
+$string['privacy:metadata:preference:grade_report_rangesdecimalpoints'] = 'El número de decimales a mostrar para cada rango, o si se usará la configuración general de decimales para la categoría o el ítem de calificación (heredar)';
 $string['privacy:metadata:preference:grade_report_rangesdisplaytype'] = 'Si el rango es mostrado como calificaciones reales, porcentajes o letras; o si se muestra el tipo de datos usado para el ítem de calificación o categoría (heredar)';
 $string['privacy:metadata:preference:grade_report_showactivityicons'] = 'Si se muestran los íconos de actividad junto a los nombres de actividad';
 $string['privacy:metadata:preference:grade_report_showanalysisicon'] = 'Si se muestra por defecto el ícono del análisis de calificación. Si el módulo de actividad lo soporta, el ícono del análisis de calificación enlaza hacia una página con una explicación más detallada de la calificación y cómo fue obtenida.';

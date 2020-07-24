@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_self', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,12 +33,14 @@ $string['cohortonly'] = 'Soamente os membros do círculo';
 $string['cohortonly_help'] = 'A automatriculación pódese restrinxir aos membros dun único círculo especifico. Vexa que o cambio desta configuración non ten efecto sobre as matriculacións existentes.';
 $string['confirmbulkdeleteenrolment'] = 'Confirma que quere eliminar estas matriculacións de usuarios?';
 $string['customwelcomemessage'] = 'Mensaxe de benvida personalizada';
-$string['customwelcomemessage_help'] = 'Pode engadirse unha mensaxe personalizada de benvida, en formato simple ou en formáto automático do Moodle, incluídas as etiquetas HTML e as etiquetas multi-idioma.
+$string['customwelcomemessage_help'] = 'Pode engadirse unha mensaxe personalizada de benvida, en formato simple ou en formato automático do Moodle, incluídas as etiquetas HTML e as etiquetas multi-idioma.
 
 Pódense incluír na mensaxe os seguintes marcadores de posición:
 
 * Nome do curso {$a->coursename}
-* Ligazón á páxina de perfil doo usuario {$a->profileurl}';
+* Ligazón á páxina de perfil do usuario {$a->profileurl}
+* Correo do usuario {$a->email}
+* Nome completo do usuario {$a->fullname}';
 $string['defaultrole'] = 'Asignación de rol predeterminado';
 $string['defaultrole_desc'] = 'Seleccionar o rol que se lle debería de asignar aos usuarios durante a automatriculación';
 $string['deleteselectedusers'] = 'Eliminar as matriculacións dos usuarios seleccionados';

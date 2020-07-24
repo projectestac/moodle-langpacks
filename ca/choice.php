@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -131,7 +131,6 @@ $string['search:activity'] = 'Consulta: informació de l\'activitat';
 $string['showpreview'] = 'Mostra la vista prèvia';
 $string['showpreview_help'] = 'Permet als estudiants veure de forma prèvia les opcions disponibles abans que la consulta sigui oberta per rebre enviaments.';
 $string['showunanswered'] = 'Mostra columna de no contestades';
-$string['skipresultgraph'] = 'Omet el gràfic de resultats';
 $string['spaceleft'] = 'Espai disponible';
 $string['spacesleft'] = 'Espais disponibles';
 $string['taken'] = 'Ocupat';

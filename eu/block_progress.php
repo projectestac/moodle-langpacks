@@ -192,9 +192,9 @@ $string['why_display_now_help'] = '<p>Ikastaro guztiek ez daukate aktibitateak b
 $string['why_set_the_title'] = 'Zergatik izan daiteke baliagarria zuretzat bloke-instantziaren izenburua ipintzea?';
 $string['why_set_the_title_help'] = '<p>Aurrerapen-barra blokeko instantzia anitz egon daitezke. Aurrerapen-barra ezberdinak erabili ditzakezu aktibitate eta baliabide sorta ezberdinak jarraitzeko. Esaterako, zereginak bloke batean eta galdetegiak beste batean jarraitu ditzakezu. Hori dela eta, blokearen berezko izenburua gainidatzi eta instantzia bakoitzarentzat izenburu egokiago bat jarri daiteke.</p>';
 $string['why_show_precentage'] = 'Zergatik erakutsi aurrerapenaren ehunekoa ikasleei?';
-$string['why_show_precentage_help'] = '<p>Ikasleei aurrerapen osoaren portzentajea erakuts dakieke.</p>
+$string['why_show_precentage_help'] = '<p>Ikasleei aurrerapen osoaren ehunekoa erakuts dakieke.</p>
 <p>Hau kalkulatzeko osatutako elementu kopurua eta barrako elementu kopuruaren arteko zatiketa egiten da.</p>
-<p>Aurrerapen portzentajea erakusten da ikasleak sagua elementu baten gainean jartzen duen arte.</p>';
+<p>Aurrerapen ehunekoa erakusten da ikasleak sagua elementu baten gainean jartzen duen arte.</p>';
 $string['why_use_icons'] = 'Zergatik izan daiteke baliagarria zuretzat ikonoak erabiltzea?';
 $string['why_use_icons_help'] = '<p>Agian Aurrerapen-barran ontzat edo txartzat emateko ikonoak erakutsi nahiko dituzu daltonikoentzat bloke hau eskuragarriagoa egiteko.</p>
 <p>Honek blokea argiagoa eta ulergarriagoa egitea ere ahalbidetu dezake, koloreak intuitiboak ez direla uste baduzu, arrazoi kultural edo pertsonalak direla medio.</p>';

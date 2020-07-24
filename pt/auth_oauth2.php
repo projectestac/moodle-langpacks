@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['accountexists'] = 'Já existe neste site utilizador com esse nome de ut
 $string['alreadylinked'] = 'Essa conta externa já está vinculada a uma conta neste site';
 $string['auth_oauth2description'] = 'Autenticação baseada nos padrões OAuth 2';
 $string['auth_oauth2settings'] = 'Configurações da autenticação OAuth 2';
-$string['confirmaccountemail'] = 'Olá {$a->fullname},
+$string['confirmaccountemail'] = 'Caro(a) {$a->fullname},
 
 Foi solicitada uma nova conta em \'{$a->sitename}\' usando o seu endereço de e-mail.
 
@@ -37,30 +37,30 @@ Para confirmar a sua nova conta, aceda a este endereço:
 
 {$a->link}
 
-Na maioria dos casos, deve aparecer como uma hiperligação azul, na qual apenas tem de clicar. Se tal não acontecer, copie o endereço e cole-o na linha de endereço, na parte superior da janela, do seu navegador da internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de internet.
 
 Se precisar de ajuda, entre em contacto com o administrador do site,
 {$a->admin}
 
-Se não fez este pedido, outra pessoa pode estar a tentar comprometer a sua conta.
+Se não fez este pedido, outra pessoa pode estar a tentar aceder à sua conta.
 Entre em contacto com o administrador do site imediatamente.';
 $string['confirmaccountemailsubject'] = '{$a}: confirmação da conta';
 $string['confirmationinvalid'] = 'A hiperligação de confirmação é inválida ou expirou. Inicie novamente o processo de autenticação para gerar um novo e-mail de confirmação.';
 $string['confirmationpending'] = 'Esta conta está pendente da confirmação do e-mail.';
-$string['confirmlinkedloginemail'] = 'Olá {$a->fullname},
+$string['confirmlinkedloginemail'] = 'Caro(a) {$a->fullname},
 
-Usando o seu endereço de e-mail, foi feita uma solicitação para vincular a autenticação {$a->issuername} com o e-mail {$a->linkedemail} à sua conta em \'{$a->sitename}\'.
+Foi feita uma solicitação para vincular a autenticação via {$a->issuername} com o e-mail {$a->linkedemail} à sua conta em \'{$a->sitename}\'.
 
-Para confirmar este pedido e vincular as autenticações, aceda a este endereço:
+Para confirmar este pedido e vincular estas autenticações, aceda a este endereço:
 
 {$a->link}
 
-Na maioria dos casos, deve aparecer como uma hiperligação azul, na qual apenas tem de clicar. Se tal não acontecer, copie o endereço e cole-o na linha de endereço, na parte superior da janela, do seu navegador da internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de internet.
 
-Se precisar de ajuda, entre em contacto com o administrador do site,
+Se precisar de ajuda, entre em contacto com o administrador do site:
 {$a->admin}
 
-Se não fez este pedido, outra pessoa pode estar a tentar comprometer a sua conta.
+Se não fez este pedido, outra pessoa pode estar a tentar aceder à sua conta.
 Entre em contacto com o administrador do site imediatamente.';
 $string['confirmlinkedloginemailsubject'] = '{$a}: confirmação da vinculação de autenticação';
 $string['createaccountswarning'] = 'Este módulo de autenticação permite aos utilizadores criarem contas no seu site. É importante ativar a configuração "authpreventaccountcreation" se pretende usar esta funcionalidade.';
@@ -71,6 +71,15 @@ $string['emailconfirmlinksent'] = '<p>Foi encontrada uma conta existente com est
 <p>Foi enviada uma mensagem para o seu endereço <b>{$a}</b>.</p>
 <p>Contém instruções fáceis para vincular as suas contas.</p>
 <p>Se tiver alguma dificuldade, entre em contacto com o administrador do site.</p>';
+$string['emailpasswordchangeinfo'] = 'Olá {$a->firstname},
+
+Solicitou uma nova senha para a sua conta em \'{$a->sitename}\'.
+
+No entanto, a sua senha não pode ser redefinida porque está a usar a sua conta em outro site para se autenticar.
+
+Por favor, autentique-se usando a hiperligação na página de autenticação.
+{$a->admin}';
+$string['emailpasswordchangeinfosubject'] = '{$a}: Informação para alteração de senha';
 $string['info'] = 'Conta externa';
 $string['issuer'] = 'Serviço OAuth 2';
 $string['issuernologin'] = 'Este provedor não pode ser utilizado para iniciar sessão';

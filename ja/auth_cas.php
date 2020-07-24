@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_cas', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_cas', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_cas
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['accesCAS'] = 'CASユーザ';
 $string['accesNOCAS'] = '他のユーザ';
+$string['auth_cas_auth_logo'] = '認証方法ロゴ';
+$string['auth_cas_auth_logo_description'] = 'あなたのユーザになじみのあるCAS認証方法のロゴを提供してください。';
+$string['auth_cas_auth_name'] = '認証方法名';
+$string['auth_cas_auth_name_description'] = 'あなたのユーザになじみのあるCAS認証方法の名称を提供してください。';
+$string['auth_cas_auth_service'] = 'CAS';
 $string['auth_cas_auth_user_create'] = '外部にユーザを作成する';
 $string['auth_cas_baseuri'] = 'サーバのURI(ベースURIがない場合は空白)<br />CASサーバが host.domaine.fr/CAS/ に応答する場合、<br />cas_baseuri = CAS/';
 $string['auth_cas_baseuri_key'] = 'ベースURI';

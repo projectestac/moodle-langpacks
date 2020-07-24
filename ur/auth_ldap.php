@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'ur', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'ur', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['auth_ldap_bind_pw_key'] = 'پاسورڈ';
-$string['auth_ldap_creators_key'] = 'تخلیق کنندگان';
 $string['auth_ldap_groupecreators_key'] = 'گروہ کے تخلیق کننگان';
 $string['auth_ldap_passtype_key'] = 'پاسورڈ کی طرز';
 $string['auth_ldap_preventpassindb'] = 'موڈل کے ڈیٹا بیس میں پاسورڈ محفوظ ہونے سے پچانے کے لیے ہاں منتخب کریں';

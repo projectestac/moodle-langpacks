@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grading', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'grading', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,8 +29,9 @@ $string['activemethodinfo'] = '\'{$a->method}\' is gekozen als beoordelingsmetho
 $string['activemethodinfonone'] = 'Er is geen geavanceerde beoordelingsmethode geselecteerd voor de \'{$a->area}\' zone. Eenvoudig rechtstreeks beoordelen zal gebruikt worden';
 $string['changeactivemethod'] = 'Wijzig de beoordelingsmethode naar';
 $string['clicktoclose'] = 'klik om te sluiten';
+$string['error:notinrange'] = 'Ongeldig cijfer \'{$a->grade}\' gegeven. Cijfers moeten tussen 0 en {$a->maxgrade} liggen.';
 $string['exc_gradingformelement'] = 'Kon beoordelingsformulierelement niet instantiëren';
-$string['formnotavailable'] = 'Geavanceerd beoordelen was geselecteerd, maar het beoordelingsformulier is nog niet beschikbaar. Je moet het eerst maken via een link in het instellingenblok.';
+$string['formnotavailable'] = 'Geavanceerd beoordelen was geselecteerd, maar het beoordelingsformulier is nog niet beschikbaar. Je moet het eerst maken via een link in het actiemenu of het instellingenblok.';
 $string['gradingformunavailable'] = 'Merk op: het formulier voor geavanceerd beoordelen is nog niet klaar op dit ogenblik. Eenvoudig beoordelen zal gebruikt worden tot het beoordelingsformulier helemaal klaar is.';
 $string['gradingmanagement'] = 'Geavanceerd beoordelen';
 $string['gradingmanagementtitle'] = 'Geavanceerd beoordelen: {$a->component} ({$a->area})';

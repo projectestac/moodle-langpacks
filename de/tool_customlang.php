@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_customlang', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,9 +34,9 @@ $string['customlang:edit'] = 'Lokales Sprachpaket bearbeiten';
 $string['customlang:view'] = 'Lokales Sprachpaket anzeigen';
 $string['filter'] = 'Filtertexte';
 $string['filtercomponent'] = 'Komponenten';
-$string['filtercustomized'] = 'Anpassungen';
-$string['filtermodified'] = 'Veränderungen';
-$string['filteronlyhelps'] = 'Hilfstexte';
+$string['filtercustomized'] = 'nur Anpassungen';
+$string['filtermodified'] = 'Nur in dieser Sitzung geändert';
+$string['filteronlyhelps'] = 'nur Hilfstexte';
 $string['filtershowstrings'] = 'Texte anzeigen';
 $string['filterstringid'] = 'Text-ID';
 $string['filtersubstring'] = 'Textteil';

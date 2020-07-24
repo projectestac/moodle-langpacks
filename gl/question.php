@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'question', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,6 +82,9 @@ $string['categoryinfo'] = 'Info da categoría';
 $string['categorymove'] = 'A categoría «{$a->name}» contén {$a->count} preguntas (algunhas das cales poden ser preguntas agochadas ou preguntas ao chou que aínda se usan nunha proba). Escolla outra categoría á cal movelas.';
 $string['categorymoveto'] = 'Gardar na categoría';
 $string['categorynamecantbeblank'] = 'O nome da categoría non se pode deixar en branco.';
+$string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
+$string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
+$string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Cambiar opcións';
 $string['changepublishstatuscat'] = '<a href="{$a->caturl}">A categoría «{$a->name}»</a> no curso «{$a->coursename}» cambiará o seu estado de compartición desde <strong>{$a->changefrom} a {$a->changeto}</strong>.';
 $string['check'] = 'Comprobar';
@@ -177,7 +180,19 @@ $string['errorsavingcomment'] = 'Produciuse un erro ao gardar o comentario da pr
 $string['errorsavingflags'] = 'Produciuse un erro ao gardar o marcador de estado';
 $string['errorupdatingattempt'] = 'Produciuse un erro ao actualizar o intento {$a->id} na base de datos.';
 $string['eventquestioncategorycreated'] = 'Creouse a categoría de pregunta';
+$string['eventquestioncategorydeleted'] = 'Eliminouse a categoría de pregunta';
+$string['eventquestioncategorymoved'] = 'Moveuse a categoría de pregunta';
+$string['eventquestioncategoryupdated'] = 'Actualizouse a categoría de pregunta';
+$string['eventquestioncategoryviewed'] = 'Viuse a categoría de pregunta';
+$string['eventquestioncreated'] = 'Creouse a pregunta';
+$string['eventquestiondeleted'] = 'Pregunta eliminada';
+$string['eventquestionmoved'] = 'Pregunta movida';
+$string['eventquestionsexported'] = 'Preguntas exportadas';
+$string['eventquestionsimported'] = 'Preguntas importadas';
+$string['eventquestionupdated'] = 'Pregunta actualizada';
+$string['eventquestionviewed'] = 'Pregunta vista';
 $string['export'] = 'Exportar';
+$string['exportasxml'] = 'Exportar como XML de Moodle';
 $string['exportcategory'] = 'Exportar categoría';
 $string['exportcategory_help'] = 'Este axuste determina a categoría da que se tomarán as preguntas para exportar.
 
@@ -468,7 +483,7 @@ $string['whethercorrect_help'] = 'Isto cobre ambas descricións, tanto a textual
 $string['whichtries'] = 'Que intentos';
 $string['withselected'] = 'Co seleccionado';
 $string['wrongprefix'] = 'nameprefix {$a} erradamente formatado';
-$string['xoutofmax'] = '{$a->mark} fóra de {$a->max}';
+$string['xoutofmax'] = '{$a->mark} sobre {$a->max}';
 $string['yougotnright'] = 'Seleccionou correctamente {$a->num}.';
 $string['youmustselectaqtype'] = 'Debe seleccionar un tipo de pregunta.';
 $string['yourfileshoulddownload'] = 'O seu ficheiro de exportación debería comezar a descargarse axiña. Se non o fai, <a href="{$a}">prema aquí</a>.';

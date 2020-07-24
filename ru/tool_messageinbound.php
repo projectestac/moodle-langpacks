@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_messageinbound', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'Название класса';
 $string['component'] = 'Компонент';
-$string['configmessageinboundhost'] = 'Адрес сервера, на котором Moodle должен проверять почту. Чтобы задать порт не по умолчанию, Вы можете использовать формат [сервер]:[порт]; например,  mail.example.com:587. Если оставить это поле пустым, то Moodle будет использовать порт по умолчанию для указанного типа почтового сервера.';
+$string['configmessageinboundhost'] = 'Адрес сервера, на котором Moodle должен проверять почту. Чтобы задать порт не по умолчанию, Вы можете использовать формат [сервер]:[порт]; например,  mail.example.com:993. Если оставить это поле пустым, то Moodle будет использовать порт по умолчанию для указанного типа почтового сервера.';
 $string['defaultexpiration'] = 'Значение по умолчанию срока действия адреса';
 $string['defaultexpiration_help'] = 'Если адрес электронной почты формируется обработчиком, можно установить, что срок действия адреса автоматически истекает после некоторого времени и адрес больше не может использоваться.  Рекомендуется задать срок действия адреса.';
 $string['description'] = 'Описание';

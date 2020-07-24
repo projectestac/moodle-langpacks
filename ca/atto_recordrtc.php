@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_recordrtc', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'atto_recordrtc', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   atto_recordrtc
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allowedtypes'] = 'Tipus d\'arxiu permesos';
-$string['allowedtypes_desc'] = 'Quins botons d\'enregistrament haurien d\'aparèixer a l\'Atto?';
+$string['allowedtypes_desc'] = 'Quins botons d\'enregistrament haurien d\'aparèixer a Atto? A més d\'aquest paràmetre, també hi ha capacitats que poden controlar l\'accés als botons d\'usuaris concrets en contextos concrets.';
 $string['attachrecording'] = 'Adjunta un enregistrament';
 $string['audioandvideo'] = 'Àudio i vídeo';
 $string['audiobitrate'] = 'Taxa de bits d\'àudio';
@@ -40,7 +40,7 @@ $string['gumnotfound'] = 'No s\'ha trobat cap dispositiu per enregistrar; intent
 $string['gumnotfound_title'] = 'No s\'ha trobat cap dispositiu';
 $string['gumnotreadable'] = 'Alguna cosa impedeix que el navegador accedeixi a la càmera o al micròfon; intenteu-ho de nou!';
 $string['gumnotreadable_title'] = 'Error de maquinari';
-$string['gumnotsupported'] = 'El vostre navegador no suporta l\'enregistrament en una connexió no segura i ha de tancar el connector';
+$string['gumnotsupported'] = 'El vostre navegador no admet l\'enregistrament en una connexió no segura, i ha de tancar el connector';
 $string['gumnotsupported_title'] = 'No hi ha suport per a una connexió no segura';
 $string['gumoverconstrained'] = 'La càmera o el micròfon no pot crear un flux amb les restriccions preestablertes';
 $string['gumoverconstrained_title'] = 'Hi ha un problema amb les restriccions';
@@ -53,7 +53,7 @@ $string['insecurealert_title'] = 'Connexió no segura!';
 $string['nearingmaxsize'] = 'Heu adjuntat el nombre màxim d\'enregistraments';
 $string['nearingmaxsize_title'] = 'S\'ha aturat l\'enregistrament';
 $string['norecordingfound'] = 'Pareix que alguna cosa ha fallat, ja que no sembla que s\'hagi enregistrat res';
-$string['norecordingfound_title'] = 'No s\'ha trobat l\'enregistrament';
+$string['norecordingfound_title'] = 'No s\'ha trobat cap enregistrament';
 $string['nowebrtc'] = 'El vostre navegador és massa antic i no ofereix suport per a la tecnologia WebRTC. Utilitzeu un altre navegador (Opera, Chrome, Firefox...) o actualitzeu el vostre';
 $string['nowebrtc_title'] = 'No s\'admet la tecnologia WebRTC';
 $string['onlyaudio'] = 'Només àudio';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_lp', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_lp', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   block_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['competenciestoreview'] = 'Berrikusteko konpetentziak';
 $string['lp:addinstance'] = 'Gehitu ikasketa-planak bloke berria';
 $string['lp:myaddinstance'] = 'Gehitu ikasketa-planak bloke berria Aginte-panelean';
-$string['lp:view'] = 'Ikusi ikasketa-planak blokea';
 $string['myplans'] = 'Nire planak';
 $string['noactiveplans'] = 'Une honetan ez dago plan aktiborik.';
 $string['planstoreview'] = 'Berrikusteko planak';

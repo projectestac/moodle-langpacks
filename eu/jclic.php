@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'jclic', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'jclic', language 'eu', branch 'MOODLE_37_STABLE'
  *
  * @package   jclic
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,7 +44,7 @@ $string['event_instances_list_viewed'] = 'Instantzia-zerrenda ikusi da';
 $string['exiturl'] = 'Irteera-esteka';
 $string['exiturl_help'] = 'Hau da ikasleak JClic jarduera amaitzen duenean zabalduko den URLa.
 
-Berbidalketa honek funtziona dezan, "Sekuentziak" fitxako JClic proiektuko azken jarduerak, "Aurrerako gezia" atalean, lotuta izan behar du "JClic-etik irten" ekintza.';
+Berbidalketa honek funtziona dezan, "Sekuentziak" fitxako JClic proiektuko azken jarduerak, "Aurrerako gezia" atalean, lotuta izan behar du "Irten JClic-etik" ekintza.';
 $string['expired'] = 'Barkatu, jarduera hau {$a} datan itxi zen eta dagoeneko ez dago eskura';
 $string['filetype'] = 'Mota';
 $string['filetypeexternal'] = 'Kanpoko URLa';

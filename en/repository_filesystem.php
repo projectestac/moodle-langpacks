@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_filesystem', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_filesystem', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_filesystem
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['blockedpath'] = 'Blocked root path';
 $string['configplugin'] = 'Configuration for file system repository';
+$string['crontask'] = 'Background processing for file system repository';
 $string['donotusesysdir'] = 'Don\'t use system directory as repository, including';
 $string['enablecourseinstances'] = 'Allow admins to add a file system repository instance to a course (configurable only by admins)';
 $string['enableuserinstances'] = 'Allow admins to add a file system repository instance for personal use (configurable only by admins)';

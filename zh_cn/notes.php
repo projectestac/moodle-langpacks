@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'notes', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,11 +37,10 @@ $string['deleteconfirm'] = '删除该备注吗？';
 $string['deletenotes'] = '删除所有备注';
 $string['editnote'] = '编辑备注';
 $string['enablenotes'] = '启用备注';
-$string['eventnotecreated'] = '创建了备注';
-$string['eventnotedeleted'] = '删除了备注';
+$string['eventnotecreated'] = '创建备注';
+$string['eventnotedeleted'] = '删除备注';
 $string['eventnotesviewed'] = '查看了笔记';
 $string['eventnoteupdated'] = '修改了笔记';
-$string['groupaddnewnote'] = '添加相同备注';
 $string['invalidid'] = '错误的备注 ID';
 $string['invaliduserid'] = '无效用户id：{$a}';
 $string['myprofileownnotes'] = '我的笔记';
@@ -63,7 +62,6 @@ $string['publishstate_help'] = '备注的上下文决定了谁能看到这个备
 * 个人 - 只有您自己可以看见
 * 课程 - 该课程中的所有教师都可以看见
 * 网站 - 所有课程的教师都可以看见';
-$string['selectnotestate'] = '选择备注状态';
 $string['site'] = '全站';
-$string['sitenotes'] = '全站备注';
+$string['sitenotes'] = '网站备注';
 $string['unknown'] = '未知';

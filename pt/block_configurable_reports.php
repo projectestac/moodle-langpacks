@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_configurable_reports', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_configurable_reports', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   block_configurable_reports
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,11 +51,11 @@ $string['columnandcellproperties'] = 'Propriedades das colunas e das células';
 $string['columncalculations'] = 'Cálculos da coluna';
 $string['columns'] = 'Colunas';
 $string['comp_calcs'] = 'Cálculos';
-$string['comp_calcs_help'] = '<p>Pode adicionar cálculos para as colunas, por exemplo: média do número de utilizadores inscritos nas disciplinas</p>
+$string['comp_calcs_help'] = '<p>Pode adicionar cálculos para as colunas, como por exemplo: média do número de utilizadores inscritos nas disciplinas</p>
 
 <p>Mais informações: <a href="http://docs.moodle.org/en/blocks/configurable_reports/" target="_blank">documentação do módulo</a></p>';
 $string['comp_calculations'] = 'Cálculos';
-$string['comp_calculations_help'] = '<p>Pode adicionar cálculos para as colunas, por exemplo: média do número de utilizadores inscritos nas disciplinas</p>';
+$string['comp_calculations_help'] = '<p>Pode adicionar cálculos para as colunas, como por exemplo: média do número de utilizadores inscritos nas disciplinas</p>';
 $string['comp_columns'] = 'Colunas';
 $string['comp_columns_help'] = '<p>Pode escolher as diferentes colunas que pretende no seu relatório, dependendo do tipo de relatório</p>
 

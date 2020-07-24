@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'book', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addafter'] = 'Engadir un novo capítulo';
+$string['addafterchapter'] = 'Engadir un novo capítulo após «{$a->title}»';
 $string['book:addinstance'] = 'Engadir un novo libro';
 $string['book:edit'] = 'Editar capítulos do libro';
 $string['book:read'] = 'Ler libro';
@@ -51,8 +52,14 @@ $string['eventchapterupdated'] = 'Capítulo actualizado';
 $string['eventchapterviewed'] = 'Capítulo visto';
 $string['hidechapter'] = 'Agochar o capítulo «{$a}»';
 $string['indicator:cognitivedepth'] = 'Libro cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Libro cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'O participante acadou esta porcentaxe do compromiso cognitivo que ofrecen as actividades do Libro durante este intervalo de análise (Niveis = Sen vista, Ver)';
+$string['indicator:cognitivedepthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Profundidade_cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nun recurso libro.';
 $string['indicator:socialbreadth'] = 'Libro social';
+$string['indicator:socialbreadthdef'] = 'Libro social';
+$string['indicator:socialbreadthdef_help'] = 'O participante acadou esta porcentaxe do compromiso social que ofrecen as actividades do Libro durante este intervalo de análise (Niveis = Sen participación, Participante en solitario)';
+$string['indicator:socialbreadthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Amplitude_social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nun recurso libro.';
 $string['modulename'] = 'Libro';
 $string['modulename_help'] = 'O módulo de libro permítelle a un profesor crear un recurso multipáxina en formato semellante a un libro, con capítulos e subcapítulos. Os libros poden conter ficheiros multimedia así como texto e son prácticos para presentar longos anacos de información que poden subdividirse en seccións.
@@ -94,6 +101,7 @@ $string['numberingoptions_desc'] = 'As opcións para presentar capítulos e subc
 $string['page-mod-book-x'] = 'Calquera páxina do módulo de libro';
 $string['pluginadministration'] = 'Administración de libro';
 $string['pluginname'] = 'Libro';
+$string['previouschapter'] = 'Capítulo anterior';
 $string['privacy:metadata'] = 'O modulo de actividade libro non almacena ningún dato persoal.';
 $string['removeallbooktags'] = 'Retirar todas as etiquetas libro';
 $string['search:activity'] = 'Libro - información do recurso';

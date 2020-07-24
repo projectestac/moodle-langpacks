@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'chat', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,8 +45,8 @@ $string['chattime'] = 'Hurrengo txat-saioaren ordua';
 $string['chat:view'] = 'Ikusi txateko aktibitatea';
 $string['compact'] = 'Trinkoa';
 $string['composemessage'] = 'Idatzi mezua';
-$string['configmethod'] = 'AJAX bidezko txat-metodoak AJAX bidezko txat-interfazea ematen du, zerbitzariarekin eguneraketak egiteko aldiro konektatzen dena. Txataren ohiko metodoa erabilita erabiltzaileek aldiro konektatzen dute zerbitzariarekin eguneraketak egiteko. Ez du konfiguraziorik behar eta edonon funtzionatzen du, baina zerbitzaria gainkarga dezake erabiltzaile asko aldi berean txateatzen ari badira. Zerbitzariko \'daemon\'a erabiltzeak Unixerako shell sarbidea eskatzen du, baina txat-giro arinago eta lorgarriagoa ematen du.';
-$string['confignormalupdatemode'] = 'HTTP 1.1ren <em>Keep-Alive</em> ezaugarria erabilita zerbitzatzen dira normalean txat-gelaren eguneraketak baina zerbitzariarentzat nahikoa gogorra da lan hau. Erabiltzaileei eguneraketak bidaltzeko metodo aurreratuagoa da <em>Stream</em> estrategia erabiltzea. <em>Stream</em> erabilita eskalamendu hobea lortzen da (chatd metodoaren antzekoa da) baina agian zure zerbitzariak ez du onartuko aukera hau.';
+$string['configmethod'] = 'AJAX bidezko txat-metodoak AJAX bidezko txat-interfazea ematen du, zerbitzariarekin datuak freskatzeko aldiro konektatzen dena. Txataren ohiko metodoa erabilita erabiltzaileek aldiro konektatzen dute zerbitzariarekin datuak freskatzeko. Ez du konfiguraziorik behar eta edonon funtzionatzen du, baina zerbitzaria gainkarga dezake erabiltzaile asko aldi berean txateatzen ari badira. Zerbitzariko \'daemon\'a erabiltzeak Unixerako shell sarbidea eskatzen du, baina txat-giro arinago eta lorgarriagoa ematen du.';
+$string['confignormalupdatemode'] = 'Txat-gelaren eguneraketak normalean HTTP 1.1ren <em>Keep-Alive</em> ezaugarri efizientea erabilita zerbitzatzen dira baina hala izanda ere zerbitzariarentzat nahikoa astuna da lan hau. Erabiltzaileei eguneraketak bidaltzeko metodo aurreratuagoa da <em>Stream</em> estrategia erabiltzea. <em>Stream</em> erabilita eskalamendu hobea lortzen da (chatd metodoaren antzekoa da) baina agian zure zerbitzariak ez du onartuko aukera hau.';
 $string['configoldping'] = 'Jarduerarik gabe zenbat denbora (segundoetan) igarota pentsatu behar da erabiltzaileak utzi egin duela?';
 $string['configrefreshroom'] = 'Zenbat segundoero freskatu behar da txataren orria? Balio baxuak elkarrizketa arinagoa ahalbidetuko du, baina zerbitzariarentzat karga handia izan daiteke gelan lagun asko dagoenean. <em>Stream</em> eguneratzeak erabiltzen ari bazara freskatze-maiztasun handiagoak jarri ditzakezu -- 2 jartzen saiatu zaitez.';
 $string['configrefreshuserlist'] = 'Zenbat segundoero eguneratu behar da txatean dauden erabiltzaileen zerrenda?';
@@ -54,7 +54,8 @@ $string['configserverhost'] = 'Zerbitzariaren \'daemon\'a (egikaritza prozesu in
 $string['configserverip'] = '\'hostame\'aren (etxekoaren izena) baliokidea den IP zenbakizko helbidea';
 $string['configservermax'] = 'Gehinenezko erabiltzaile kopurua';
 $string['configserverport'] = 'Zerbitzariaren \'daemon\'ak erabiltzen duen portua';
-$string['coursetheme'] = 'Ikastaroaren itxura';
+$string['coursetheme'] = 'Ikastaroaren azala';
+$string['crontask'] = 'Txat-moduluaren atzeko planoko prozesatzea';
 $string['currentchats'] = 'Txat-txostenak martxan jarri';
 $string['currentusers'] = 'Oraingo erabiltzaileak';
 $string['deletesession'] = 'Ezabatu txosten hau';
@@ -71,8 +72,12 @@ $string['explainmethodnormal'] = 'Egokitzapen hauek soilik dute eragina txat-met
 $string['generalconfig'] = 'Ezarpen orokorrak';
 $string['idle'] = 'Abian jarri gabe';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa txatetan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa txatetan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek Txat jarduerak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da, Bidali da, Feedbacka ikusi da, Feedbackari iruzkina egin da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Txat motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala txatetan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala txatetan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek Txat jarduerak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Parte-hartzerik ez, bakarkako parte-hartzea, parte-hartzea besteekin)';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Txat motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['inputarea'] = 'Sarrera-gunea';
 $string['invalidid'] = 'Ezin da aurkitu txat-gela hori!';
@@ -125,7 +130,7 @@ $string['privacy:metadata:chat_users'] = 'Txat-gela bakoitzean dauden erabiltzai
 $string['privacy:metadata:chat_users:firstping'] = 'Txat-gelarako lehen sarbidearen unea';
 $string['privacy:metadata:chat_users:ip'] = 'Erabiltzailearen IPa';
 $string['privacy:metadata:chat_users:lang'] = 'Erabiltzailearen hizkuntza';
-$string['privacy:metadata:chat_users:lastmessageping'] = 'Txat-gelako azken mezuare unea';
+$string['privacy:metadata:chat_users:lastmessageping'] = 'Txat-gelako azken mezuaren unea';
 $string['privacy:metadata:chat_users:lastping'] = 'Txat-gelarako azken sarbidearen unea';
 $string['privacy:metadata:chat_users:userid'] = 'Erabiltzailearen IDa';
 $string['privacy:metadata:chat_users:version'] = 'Erabiltzailea txatera sartu zen modua (sockets/basic/ajax/header_js)';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'competency', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -93,22 +93,23 @@ $string['eventusercompetencyviewedinplan'] = '学习计划中的用户能力已�
 $string['eventuserevidencecreated'] = '已经建立预习的证据';
 $string['eventuserevidencedeleted'] = '已经删除预习的证据';
 $string['eventuserevidenceupdated'] = '已经更新预习的证据';
-$string['evidence_competencyrule'] = '已经符合能力规则';
-$string['evidence_coursecompleted'] = '已经完成课程 \'{$a}\'';
-$string['evidence_coursemodulecompleted'] = '已经完成活动 \'{$a}\'';
-$string['evidence_courserestored'] = '这一评级已经随着课程\'{$a}\'恢复';
-$string['evidence_evidenceofpriorlearninglinked'] = '先前学习的证据\'{$a}\' 已经建立链接';
-$string['evidence_evidenceofpriorlearningunlinked'] = '先前学习的证据\'{$a}\'已经取消链接';
-$string['evidence_manualoverride'] = '已经手动设置能力评级';
-$string['evidence_manualoverrideincourse'] = '能力评价已手动在课程 \'{$a}\'中设置。';
-$string['evidence_manualoverrideinplan'] = '能力评价已手动在学习计划 \'{$a}\'中设置';
+$string['evidence_competencyrule'] = '符合能力的规则。';
+$string['evidence_coursecompleted'] = '课程“{$a}”已完成。';
+$string['evidence_coursemodulecompleted'] = '活动“{$a}”已完成。';
+$string['evidence_courserestored'] = '评分随课程“{$a}”一起恢复。';
+$string['evidence_evidenceofpriorlearninglinked'] = '先前学习“{$a}” 的证据已链接';
+$string['evidence_evidenceofpriorlearningunlinked'] = '先前学习“{$a}” 的证据已取消链接';
+$string['evidence_manualoverride'] = '能力评价是手动设置的。';
+$string['evidence_manualoverrideincourse'] = '能力评价是在课程“{$a}”中手动设置的。';
+$string['evidence_manualoverrideinplan'] = '能力评价是在学习计划“{$a}”中手动设置的。';
 $string['invalidevidencedesc'] = '无效的证据描述';
 $string['invalidgrade'] = '无效评分';
 $string['invalidpersistenterror'] = '错误: {$a}';
 $string['invalidplan'] = '无效的学习计划';
 $string['invalidtaxonomy'] = '无效的分类：{$a}';
 $string['invalidurl'] = 'URL无效，请确保以"http://"或“https://”开头';
-$string['planstatusactive'] = '活跃';
+$string['nouserplanswithcompetency'] = '没有任何学习计划包含这个能力。';
+$string['planstatusactive'] = '有效的';
 $string['planstatuscomplete'] = '完成';
 $string['planstatusdraft'] = '草稿';
 $string['planstatusinreview'] = '审核中';

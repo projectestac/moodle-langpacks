@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'journal', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'journal', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   journal
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,12 +45,12 @@ $string['feedbackupdated'] = 'Feedback für {$a} Einträge aktualisiert';
 $string['gradeingradebook'] = 'Aktuelle Bewertung in der Bewertungsübersicht';
 $string['journal:addentries'] = 'Journaleinträge erstellen';
 $string['journal:addinstance'] = 'Journal anlegen';
-$string['journalmail'] = '{$a->teacher} hat eine Rückmeldung zu Ihrem Eintrag im Journal \'{$a->journal}\' abgegeben.
+$string['journalmail'] = '{$a->teacher} hat ein Feedback zu Ihrem Eintrag im Journal \'{$a->journal}\' abgegeben.
 
-Sie können diese Rückmeldung als Anhang an Ihrem Journaleintrag einsehen:
+Sie können das Feedback als Anhang zu Ihrem Journaleintrag anzeigen:
 
     {$a->url}';
-$string['journalmailhtml'] = '{$a->teacher} hat eine Rückmeldung zu Ihrem Eintrag im Journal \'<i>{$a->journal}</i>\' abgegeben.<br /><br />Sie können diese Rückmeldung als Anhang an Ihrem <a href="{$a->url}">Journaleintrag</a> ansehen.';
+$string['journalmailhtml'] = '{$a->teacher} hat ein Feedback zu Ihrem Eintrag im Journal \'<i>{$a->journal}</i>\' abgegeben.<br /><br />Sie können das Feedback als Anhang zu Ihrem <a href="{$a->url}">Journaleintrag</a> anzeigen.';
 $string['journal:manageentries'] = 'Journaleinträge verwalten';
 $string['journalname'] = 'Name des Journals';
 $string['journalquestion'] = 'Beschreibung';

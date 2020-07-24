@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,35 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['asyncbackupcomplete'] = 'Процесс резервного копирования завершен';
+$string['asyncbackupcompletebutton'] = 'Продолжить';
+$string['asyncbackupcompletedetail'] = 'Процесс резервного копирования успешно завершен. <br/> Вы можете получить доступ к резервной копии на <a href="{$a}">странице восстановления.</a>';
+$string['asyncbackuperror'] = 'Процесс резервного копирования не удался';
+$string['asyncbackuperrordetail'] = 'Процесс резервного копирования не удался. Пожалуйста, обратитесь к системному администратору.';
+$string['asyncbackuppending'] = 'Подготовка к резервному копированию';
+$string['asyncbackupprocessing'] = 'Выполняется резервное копирование';
+$string['asynccheckprogress'] = 'Вы можете в любой момент проверить ход выполнения на <a href="{$a}">странице восстановления</a>.';
+$string['asyncemailenable'] = 'Включить уведомления';
+$string['asyncemailenabledetail'] = 'Если этот параметр включен, пользователи получат сообщение после завершения асинхронного резервного копирования или восстановления.';
+$string['asyncgeneralsettings'] = 'Асинхронное резервное копирование/восстановление';
+$string['asyncmessagebody'] = 'Сообщение';
+$string['asyncmessagebodydefault'] = 'Здравствуйте, {user_firstname}, <br/> процесс {operation} (ID: {backupid}) успешно завершен. <br/> <br/> Вы можете получить к нему доступ здесь: {link}.';
+$string['asyncmessagebodydetail'] = 'Сообщение для отправки после завершения асинхронного резервного копирования или восстановления.';
+$string['asyncmessagesubject'] = 'Тема';
+$string['asyncmessagesubjectdefault'] = 'Процесс {operation} Moodle успешно завершен.';
+$string['asyncmessagesubjectdetail'] = 'Тема сообщения';
+$string['asyncnowait'] = 'Вам не нужно ждать окончания, так как процесс будет продолжаться в фоновом режиме.';
+$string['asyncprocesspending'] = 'Подготовка к процессу';
+$string['asyncrestorecomplete'] = 'Процесс восстановления завершен';
+$string['asyncrestorecompletebutton'] = 'Продолжить';
+$string['asyncrestorecompletedetail'] = 'Процесс восстановления успешно завершен. Нажав «Продолжить», вы перейдете в <a href="{$a}"> восстановленный курс. </a>';
+$string['asyncrestoreerror'] = 'Процесс восстановления не удался';
+$string['asyncrestoreerrordetail'] = 'Процесс восстановления не удался. Пожалуйста, обратитесь к системному администратору.';
+$string['asyncrestoreinprogress'] = 'Процесс восстановления';
+$string['asyncrestoreinprogress_help'] = 'Здесь показан процесс асинхронного восстановления.';
+$string['asyncrestorepending'] = 'Подготовка к восстановлению';
+$string['asyncrestoreprocessing'] = 'Восстановление продолжается';
+$string['asyncreturn'] = 'Вернуться к курсу';
 $string['autoactivedescription'] = 'Выберите, нужно ли осуществлять автоматическое резервное копирование. Если выбран режим «Вручную», то автоматическое резервное копирование будет возможно только с помощью специального скрипта через интерфейс командной строки. Его можно запускать вручную или с помощью cron.';
 $string['autoactivedisabled'] = 'Отключено';
 $string['autoactiveenabled'] = 'Включено';
@@ -64,6 +93,7 @@ $string['backupmode30'] = 'Каталог';
 $string['backupmode40'] = 'Тот же самый сайт';
 $string['backupmode50'] = 'Автоматизированный';
 $string['backupmode60'] = 'Конвертированный';
+$string['backupmode70'] = 'Асинхронный';
 $string['backupsection'] = 'Резервное копирование раздела курса: {$a}';
 $string['backupsettings'] = 'Настройки резервного копирования';
 $string['backupsitedetails'] = 'Описание сайта';
@@ -139,6 +169,8 @@ $string['currentstage16'] = 'Завершение';
 $string['currentstage2'] = 'Настройка схемы';
 $string['currentstage4'] = 'Обзор и подтверждение';
 $string['currentstage8'] = 'Резервное копирование';
+$string['enableasyncbackup'] = 'Включить асинхронное резервное копирование';
+$string['enableasyncbackup_help'] = 'Если эта функция включена, все операции резервного копирования и восстановления будут выполняться асинхронно. Это не влияет на импорт и экспорт. Асинхронное резервное копирование и восстановление позволяет пользователям выполнять другие операции во время резервного копирования или восстановления.';
 $string['enterasearch'] = 'Введите искомое';
 $string['error_block_for_module_not_found'] = 'Найден устаревший блок курса (id: {$a->bid}) для модуля курса (id: {$a->mid}). Этот блок не будет включен в резервную копию.';
 $string['errorcopyingbackupfile'] = 'Не удалось скопировать файл резервной копии во временную папку перед восстановлением.';
@@ -151,6 +183,7 @@ $string['errorinvalidformatinfo'] = 'Выбранный файл не являе
 $string['errorminbackup20version'] = 'Этот файл резервной копии был создан в версии Moodle ({$a->backup}). Минимально возможная версия - {$a->min}. Файл не может быть восстановлен.';
 $string['errorrestorefrontpagebackup'] = 'На главную страницу сайта можно восстановить только резервные копии главной страницы.';
 $string['executionsuccess'] = 'Файл резервной копии успешно создан.';
+$string['failed'] = 'Ошибка резервного копирования';
 $string['filealiasesrestorefailures'] = 'Сбой восстановления псевдонима';
 $string['filealiasesrestorefailures_help'] = 'Псевдонимы являются символическими ссылками на другие файлы, в том числе те, которые хранятся во внешних хранилищах. В некоторых случаях, Moodle не может восстановить их - например, при восстановлении резервной копии в другом сайте или если указанный файл не существует.
 
@@ -169,6 +202,7 @@ $string['generalcalendarevents'] = 'Включать события календ
 $string['generalcomments'] = 'Включать комментарии';
 $string['generalcompetencies'] = 'Включать компетенции';
 $string['generalenrolments'] = 'Включать способы зачисления на курс';
+$string['generalfiles'] = 'Включать файлы';
 $string['generalfilters'] = 'Включать фильтры';
 $string['generalgradehistories'] = 'Включать историю оценок';
 $string['generalgroups'] = 'Включать группы и потоки';
@@ -207,6 +241,7 @@ $string['includeditems'] = 'Включенные элементы:';
 $string['includefilereferences'] = 'Файлы, ссылающиеся на внешнее содержимое';
 $string['includesection'] = 'Раздел {$a}';
 $string['includeuserinfo'] = 'Данные пользователей';
+$string['inprogress'] = 'Выполняется резервное копирование';
 $string['jumptofinalstep'] = 'Переход к конечному этапу';
 $string['keep'] = 'Сохранить';
 $string['locked'] = 'Заблокировано';
@@ -225,14 +260,18 @@ $string['nomatchingcourses'] = 'Нет подходящих курсов';
 $string['norestoreoptions'] = 'Нет категорий или курсов в которых Вы можете осуществлять восстановление';
 $string['originalwwwroot'] = 'URL резервной копии';
 $string['overwrite'] = 'Заменить';
+$string['pendingasyncdeletedetail'] = 'Идет подготовка к асинхронному резервному копированию курса. <br/> Курсы не могут быть удалены до завершения резервного копирования.';
+$string['pendingasyncdetail'] = 'Асинхронное резервное копирование позволяет пользователю одновременно иметь только одно задание резервного копирования для ресурса. <br/> Многочисленные асинхронные резервные копии одного и того же ресурса не могут быть поставлены в очередь, так как это, скорее всего, приведет к созданию нескольких резервных копий с одним и тем же содержимым.';
+$string['pendingasyncedit'] = 'Идет подготовка к асинхронному резервному копированию курса. Пожалуйста, не редактируйте этот курс, пока резервное копирование не будет завершено.';
+$string['pendingasyncerror'] = 'Подготовка резервного копирования для этого ресурса';
 $string['preparingdata'] = 'Подготовка данных';
 $string['preparingui'] = 'Подготовка страницы к показу';
 $string['previousstage'] = 'Назад';
 $string['privacy:metadata:backup_controllers'] = 'Список операций резервного копирования';
 $string['privacy:metadata:backup_controllers:itemid'] = 'ID курса';
 $string['privacy:metadata:backup_controllers:operation'] = 'Выполненная операция, например, восстановление.';
-$string['privacy:metadata:backup_controllers:timecreated'] = 'Дата, когда действие было создано';
-$string['privacy:metadata:backup_controllers:timemodified'] = 'Дата, когда действие было изменено';
+$string['privacy:metadata:backup_controllers:timecreated'] = 'Время, когда действие было создано';
+$string['privacy:metadata:backup_controllers:timemodified'] = 'Время, когда действие было изменено';
 $string['privacy:metadata:backup_controllers:type'] = 'Тип объекта, с которым выполнялась операция, например, элемент.';
 $string['privacy:metadata:backup:detailsofarchive'] = 'Этот архив может содержать разнообразные данные пользователей, связанных с курсом, такие как оценки, запись пользователей на курс и данные об активности.';
 $string['privacy:metadata:backup:externalpurpose'] = 'Цель этого архива — хранить информацию, связанную с курсом, которая может быть в будущем восстановлена.';
@@ -286,10 +325,12 @@ $string['rootsettingblocks'] = 'Включать блоки';
 $string['rootsettingcalendarevents'] = 'Включать события календаря';
 $string['rootsettingcomments'] = 'Включать комментарии';
 $string['rootsettingcompetencies'] = 'Включать компетенции';
+$string['rootsettingcustomfield'] = 'Включить пользовательские поля';
 $string['rootsettingenrolments'] = 'Включать способы зачисления на курс';
 $string['rootsettingenrolments_always'] = 'Да, всегда';
 $string['rootsettingenrolments_never'] = 'Нет, восстанавливать пользователей вручную';
 $string['rootsettingenrolments_withusers'] = 'Да, но только если пользователи включены';
+$string['rootsettingfiles'] = 'Включать файлы';
 $string['rootsettingfilters'] = 'Включать фильтры';
 $string['rootsettinggradehistories'] = 'Включать историю оценок';
 $string['rootsettinggroups'] = 'Включать группы и потоки';
@@ -301,6 +342,7 @@ $string['rootsettingroleassignments'] = 'Включать назначенные
 $string['rootsettings'] = 'Настройки резервного копирования';
 $string['rootsettingusers'] = 'Включать зачисленных пользователей';
 $string['rootsettinguserscompletion'] = 'Включать информацию о завершении пользователем элементов курса';
+$string['samesitenotification'] = 'Эта резервная копия была создана только со ссылками на файлы, а не на сами файлы. Восстановление будет работать только на этом сайте.';
 $string['sectionactivities'] = 'Элементы курса';
 $string['sectioninc'] = 'Включено в резервную копию (без пользовательской информации)';
 $string['sectionincanduser'] = 'Включено в резервную копию с пользовательской информацией';
@@ -323,9 +365,12 @@ $string['skipmodifdays'] = 'Пропускать курсы, не изменив
 $string['skipmodifdayshelp'] = 'Пропускать ли курсы, не изменившиеся на протяжении указанного количества дней';
 $string['skipmodifprev'] = 'Пропускать курсы, не изменившиеся с предыдущего создания резервной копии';
 $string['skipmodifprevhelp'] = 'Пропускать ли курсы, не изменившиеся с предыдущего создания резервной копии. Для этого необходимо, чтобы было включено ведение журнала событий.';
+$string['status'] = 'Статус';
 $string['storagecourseandexternal'] = 'Область курса для резервных копий и указанный каталог';
 $string['storagecourseonly'] = 'Область курса для резервных копий';
 $string['storageexternalonly'] = 'Указанный каталог для автоматически созданных резервных копий';
+$string['successful'] = 'Резервное копирование успешно';
+$string['successfulrestore'] = 'Восстановление успешно';
 $string['timetaken'] = 'Прошло времени';
 $string['title'] = 'Название';
 $string['totalcategorysearchresults'] = 'Всего категорий: {$a}';

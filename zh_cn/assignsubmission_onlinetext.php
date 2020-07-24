@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_onlinetext', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignsubmission_onlinetext', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   assignsubmission_onlinetext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,5 +45,5 @@ $string['privacy:metadata:tablepurpose'] = '存储每次尝试的文本提报。
 $string['privacy:metadata:textpurpose'] = '为此作业尝试提交的实际文本。';
 $string['privacy:path'] = '提报文本';
 $string['wordlimit'] = '字数限制';
-$string['wordlimitexceeded'] = '此作业被设置了不能超过 {$a->limit} 字，而您试图提交 {$a->count} 字，请再检查一下你的作业后重新提交。';
+$string['wordlimitexceeded'] = '这个作业的字数限制是{$a->limit}字，而您要提交的是{$a->count}字。请检查您的提交，然后再试一次。';
 $string['wordlimit_help'] = '如果作业类型为在线文本，此项设置是学生提交的最大字数限制。';

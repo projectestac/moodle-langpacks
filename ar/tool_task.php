@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_task', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,6 +53,7 @@ $string['runpattern'] = 'نمط التشغيل';
 $string['scheduledtaskchangesdisabled'] = 'تم منع التعديلات على قائمة المهام المجدولة في تكوين Moodle';
 $string['scheduledtasks'] = 'المهام المجدولة';
 $string['taskdisabled'] = 'تم تعطيل المهمة';
+$string['tasklogs'] = 'سجلات المهام';
 $string['taskscheduleday'] = 'اليوم';
 $string['taskscheduleday_help'] = 'حقل يوم من الشهر لجدول المهام. يستخدم الحقل نفس تنسيق يونكس كرون. بعض الأمثلة هي:
 * * كل يوم
@@ -83,3 +84,4 @@ $string['taskschedulemonth_help'] = 'حقل شهر لجدول المهمة. يس
 * * / 2 كل شهر ثاني
 * 1 كل يناير
 * 1،5 كل يناير ومايو';
+$string['viewlogs'] = 'عرض سجلات {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hub', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'hub', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   hub
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,26 +29,23 @@ $string['addscreenshots'] = '';
 $string['advertise'] = 'الإعلان عن هذا المقرر الدراسي لينضم إليه الناس';
 $string['advertised'] = 'تم الإعلان عنها';
 $string['advertiseon'] = 'الإعلان عن هذا المقرر الدراسي في {$a}';
-$string['advertiseonmoodleorg'] = 'الإعلان عن هذا المقرر في moodle.org';
 $string['advertisepublication_help'] = 'الإعلان عن المواد الخاصة بك على الخادم الجماعي .. مركزاً يتيح للناس العثور على هذا المواد و يأتون إلى هنا للتسجيل.';
-$string['all'] = 'الكل';
+$string['analyticsactions'] = 'عدد الإجراءات المتخذة بشأن التنبؤات المولدة ({$a})';
+$string['analyticsactionsnotuseful'] = 'عدد الإجراءات التي تشير إلى التنبؤ على أنها غير مفيدة  ({$a})';
+$string['analyticsenabledmodels'] = 'عدد نماذج التنبؤ الممكنة ({$a})';
+$string['analyticspredictions'] = 'عدد التنبؤات التي تم إنشاؤها ({$a})';
 $string['audience'] = 'الجمهور';
 $string['audienceadmins'] = 'المسؤولون عن مودل';
 $string['audienceeducators'] = 'المعلمون';
 $string['audience_help'] = 'قم بتحديد المستهدفين من هذا المقرر.';
 $string['audiencestudents'] = 'الطلاب';
 $string['badgesnumber'] = 'عدد الشارات ({$a})';
-$string['cannotsearchcommunity'] = 'عذراً، ليس لديك الإذن برؤية هذه الصفحة';
 $string['communityremoved'] = 'لقد تم إزالة رابط هذا المقرر الذراسي من قائمتك';
 $string['completeregistration'] = 'التسجيل الكامل مع Moodle.net';
 $string['confirmregistration'] = 'تأكيد التسجيل';
-$string['contactphone'] = 'رقم الهاتف';
 $string['contributornames'] = 'المساهمين الآخرين';
 $string['contributornames_help'] = 'يمكنك استخدام هذا الحقل لسرد أسماء لأيّ شخص آخر ساهم في هذا المقرر.';
-$string['coursemap'] = 'خريطة المقرر الدراسي';
 $string['coursename'] = 'الاسم';
-$string['courseprivate'] = 'خاص';
-$string['coursepublic'] = 'عام';
 $string['coursepublished'] = 'لقد تم نشر هذا المقرر الدراسي بنجاح في \'{$a}\'.';
 $string['courseshortname'] = 'الاسم القصير';
 $string['courseshortname_help'] = 'أدخل اسماً قصيراً للمقرر الدراسي. ليس من الضروري أن يكون فريداً.';
@@ -96,6 +93,9 @@ $string['registerwithmoodleorginfo'] = 'يسعدنا البقاء على اتص�
 $string['registerwithmoodleorginfoapp'] = 'حول تطبيق Moodle';
 $string['registerwithmoodleorginfosites'] = 'مواقع أخرى في بلدي';
 $string['registerwithmoodleorginfostats'] = 'إحصائيات Moodle';
+$string['registerwithmoodleorgremove'] = 'أنت تقوم بإلغاء تسجيل موقعك. في حالة المتابعة ، لن تتمكن من الوصول إلى الإشعارات و التنبيهات الأمنية الهامة.
+لن يتمكن مستخدميك من تلقي إشعارات الدفع من موقعك إلى تطبيق Moodle للجوال.
+هل أنت متأكد من أنك تريد إلغاء تسجيل موقعك؟';
 $string['registerwithmoodleorgupdate'] = 'تحديث تسجيل الموقع الخاص بك';
 $string['search'] = 'بحث';
 $string['sendingcourse'] = 'إرسال مقرر';

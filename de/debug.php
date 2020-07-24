@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'debug', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,11 +34,13 @@ $string['cannotinitpage'] = 'Die Seite konnte nicht vollständig initialisiert w
 $string['cannotsetuptable'] = '{$a} Tabellen konnten nicht erfolgreich erstellt werden!';
 $string['codingerror'] = 'Fehler in der Kodierung gefunden, den nur ein Programmierer korrigieren kann: {$a}';
 $string['configmoodle'] = 'Moodle ist noch nicht konfiguriert. Sie müssen zuerst die Datei config.php bearbeiten.';
+$string['debuginfo'] = 'Debug-Info';
 $string['erroroccur'] = 'Während des Vorgangs ist ein Fehler aufgetreten.';
 $string['invalidarraysize'] = 'Falsche Feldgröße bei den Einstellungen von {$a}';
 $string['invalideventdata'] = 'Falscher Event-Eintrag übermittelt: {$a}';
 $string['invalidparameter'] = 'Ungültiger Parameterwert';
 $string['invalidresponse'] = 'Ungültiger Rückgabewert';
+$string['line'] = 'Zeile';
 $string['missingconfigversion'] = 'Der Vorgang wird abgebrochen, weil die Konfiguration keine Versionsangabe enthält.';
 $string['modulenotexist'] = 'Modul {$a} existiert nicht';
 $string['morethanonerecordinfetch'] = 'Mehr als einen Datensatz in fetch() gefunden!';
@@ -50,9 +52,11 @@ $string['nomodules'] = 'Keine Module gefunden!';
 $string['nopageclass'] = 'Importierte {$a}, fand aber keine page classes.';
 $string['noreports'] = 'Kein Zugriff auf Berichte';
 $string['notables'] = 'Keine Tabellen!';
+$string['outputbuffer'] = 'Ausgabepuffer';
 $string['phpvaroff'] = 'Die PHP-Variable \'{$a->name}\' sollte ausgeschaltet werden: {$a->link}';
 $string['phpvaron'] = 'Die PHP-Variable \'{$a->name}\' sollte eingeschaltet werden: {$a->link}';
 $string['sessionmissing'] = 'Objekt {$a} fehlt für Session';
 $string['sqlrelyonobsoletetable'] = 'Dieses SQL beinhaltet fehlerhafte Tabellen: {$a}! Ein Entwickler muss den Code korrigieren.';
+$string['stacktrace'] = 'Stack trace';
 $string['withoutversion'] = 'Die Datei version.php ist nicht lesbar oder nicht vorhanden.';
 $string['xmlizeunavailable'] = 'Die Funktionen xmlize sind nicht verfügbar.';

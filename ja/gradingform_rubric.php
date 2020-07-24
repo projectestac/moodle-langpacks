@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_rubric', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_rubric', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addcriterion'] = 'クライテリアを追加する';
+$string['additionalfeedback'] = '追加フィードバック';
 $string['alwaysshowdefinition'] = 'ユーザがルーブリックをプレビューできるようにする (そうでない場合、ルーブリックは評定後のみ閲覧できます)';
 $string['backtoediting'] = '編集に戻る';
 $string['confirmdeletecriterion'] = '本当にこのクライテリアを削除してもよろしいですか?';
@@ -54,11 +55,13 @@ $string['leveldefinition'] = 'レベル {$a} 定義';
 $string['leveldelete'] = 'レベル {$a} を削除する';
 $string['levelempty'] = 'クリックしてレベルを編集する';
 $string['levelsgroup'] = 'レベルグループ';
-$string['lockzeropoints'] = 'ルーブリックを基に評点を計算して最小評点をゼロとみなす';
-$string['lockzeropoints_help'] = 'この設定はそれぞれのクライテリアの評点の最小数がゼロより大きい場合のみ適用されます。この設定を有効にした場合、ルーブリックの最小到達可能評点はゼロより大きくなります。この設定が変更されない場合、このルーブリックで利用可能な最小評点は活動で利用可能な最小評点  (評価尺度が使用されない場合はゼロ) にマップされます。';
+$string['lockzeropoints'] = 'ルーブリックの最小到達可能評点の最小評点がある場合に評点を計算する';
+$string['lockzeropoints_help'] = 'この設定はそれぞれのクライテリアの評点の最小数がゼロより大きい場合のみ適用されます。この設定を有効にした場合、活動の最小評点はルーブリックの最小到達可能評点となります。この設定が有効にされない場合、ルーブリックで利用可能な最小評点は活動で利用可能な最小評点  (評価尺度が使用されない場合はゼロ) にマップされます。';
 $string['name'] = '名称';
 $string['needregrademessage'] = 'この学生が評定された後、ルーブリック定義が変更されました。あなたがルーブリックをチェックして評定を更新するまで学生はこのルーブリックを閲覧することができません。';
+$string['notset'] = '未設定';
 $string['pluginname'] = 'ルーブリック';
+$string['pointsvalue'] = '{$a} 点';
 $string['previewrubric'] = 'ルーブリックをプレビューする';
 $string['privacy:metadata:criterionid'] = '評定される特定のクライテリアのIDです。';
 $string['privacy:metadata:fillingssummary'] = 'ルーブリックにより作成されたユーザの評定に関する情報を保持します。';
@@ -72,11 +75,11 @@ $string['regradeoption1'] = '再評定対象としてマークする';
 $string['restoredfromdraft'] = '注意: このユーザの前回の受験に関する評点が適切に保存されなかったため、下書きの評点がリストアされました。あなたがこれらの変更をキャンセルしたい場合、下の「キャンセル」ボタンを使用してください。';
 $string['rubric'] = 'ルーブリック';
 $string['rubricmapping'] = '評定マッピングルールの評点';
-$string['rubricmappingexplained'] = 'このルーブリックの最小評点は <b>{$a->minscore} 点</b>です。また、この評点は活動で利用可能な最小評点  (評価尺度が使用されない場合はゼロ) にコンバートされます。最大評点 <b>{$a->maxscore} 点</b> は最大評点にコンバートされます。中間評点はそれぞれコンバートされます。
+$string['rubricmappingexplained'] = 'このルーブリックの最小評点は<b>{$a->minscore} 点</b>です。また、この評点は活動で利用可能な最小評点  (評価尺度が使用されない場合はゼロ) にコンバートされます。最大評点 <b>{$a->maxscore} 点</b> は最大評点にコンバートされます。中間評点はそれぞれコンバートされます。
 
 評定に評価尺度が使用されている場合、評点は連続する整数であるかのように尺度要素に四捨五入してコンバートされます。
 
-この評定計算はフォームを編集して「ルーブリックを基に評点を計算して最小評点をゼロとみなす」チェックボックスをチェックすることにより変更することができます。';
+この評定計算はフォームを編集して「ルーブリックの最小到達可能評点の最小評点がある場合に評点を計算する」チェックボックスのチェックにより変更できます。';
 $string['rubricnotcompleted'] = 'それぞれのクライテリアに設定値を選択してください。';
 $string['rubricoptions'] = 'ルーブリックオプション';
 $string['rubricstatus'] = '現在のルーブリックステータス';

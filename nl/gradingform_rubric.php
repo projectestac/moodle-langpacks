@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_rubric', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_rubric', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addcriterion'] = 'Voeg criterium toe';
+$string['additionalfeedback'] = 'Aanvullende feedback';
 $string['alwaysshowdefinition'] = 'Toon de rubric aan de leerlingen (zoniet is de rubric enkel zichtbaar na de beoordeling)';
 $string['backtoediting'] = 'Terug naar bewerken';
 $string['confirmdeletecriterion'] = 'Weet je zeker dat je dit criterium wil wissen?';
@@ -54,11 +55,13 @@ $string['leveldefinition'] = 'Niveau {$a} definitie';
 $string['leveldelete'] = 'Verwijder niveau  {$a}';
 $string['levelempty'] = 'Klik om het niveau te bewerken';
 $string['levelsgroup'] = 'Groepniveaus';
-$string['lockzeropoints'] = 'Bereken cijfer gebaseerd op  een rubric met een minimumscore van 0';
-$string['lockzeropoints_help'] = 'Deze instelling is enkel van toepassing wanneer de som van het minimale cijfer voor alle criteria groter is dan 0. Indien ingeschakeld zal het minimaal haalbare cijfer voor de rubric groter dan 0 zijn. Indien niet ingeschakeld zal het minimaal haalbare cijfer voor de rubric gemapt worden naar het minimaal haalbare cijfer voor de activiteit (dat 0 is tenzij er een schaal wordt gebruikt).';
+$string['lockzeropoints'] = 'Bereken cijfer gebaseerd op de minimale score op de minimaal mogelijke score van de rubric';
+$string['lockzeropoints_help'] = 'Deze instelling is enkel van toepassing wanneer de som van het minimale cijfer voor alle criteria groter is dan 0. Indien ingeschakeld zal het minimaal haalbare cijfer voor de rubric het minimaal haalbare cijfer voor de rubric zijn. Indien niet ingeschakeld zal het minimaal haalbare cijfer voor de rubric gemapt worden naar het minimaal haalbare cijfer voor de activiteit (dat 0 is tenzij er een schaal wordt gebruikt).';
 $string['name'] = 'Naam';
 $string['needregrademessage'] = 'De rubricdefinitie is gewijzigd nadat de leerling beoordeeld werd. De leerling kan zijn rubric niet zien tot je deze controleert en het cijfer aanpast.';
+$string['notset'] = 'Niet ingesteld';
 $string['pluginname'] = 'Rubric';
+$string['pointsvalue'] = '{$a} punten';
 $string['previewrubric'] = 'Voorbeeld van rubric';
 $string['privacy:metadata:criterionid'] = 'Een identificatie voor een specifiek criterium dat wordt beoordeeld.';
 $string['privacy:metadata:fillingssummary'] = 'Slaat informatie op over het cijfer van de gebruiker dat door de rubric is gemaakt.';
@@ -72,11 +75,11 @@ $string['regradeoption1'] = 'Markeren voor opnieuw beoordelen';
 $string['restoredfromdraft'] = 'OPMERKING: de laatste beoordelingspoging voor deze persoon is niet behoorlijk bewaard en daarom zijn de voorlopige cijfers teruggezet. Als je deze wijzigingen wil annuleren, klik dan op de \'Annuleer\'-knop onderaan.';
 $string['rubric'] = 'Rubric';
 $string['rubricmapping'] = 'Score naar cijfer mappingregels';
-$string['rubricmappingexplained'] = 'De kleinst mogelijke score voor deze rubric is <b>{$a->minscore}</b> en zal omgezet worden naar het minimumcijfer beschikbaar in deze activiteit (welke nul is, tenzij de schaal wordt gebruikt). De maximumscore van <b>{$a->maxscore} punten</b> zal omgezet worden naar het maximumcijfer.
+$string['rubricmappingexplained'] = 'De kleinst mogelijke score voor deze rubric is <b>{$a->minscore}</b> punten en zal omgezet worden naar het minimale cijfer beschikbaar voor deze activiteit (welke nul is, tenzij een schaal wordt gebruikt). De maximale score van <b>{$a->maxscore} punten</b> zal omgezet worden naar het maximale cijfer.
 
 Als er een schaal gebruikt wordt in plaats van een cijfer, dan zal de score afgerond worden en omgezet worden naar de schaalelementen alsof ze opeenvolgende getallen waren.
 
-Deze cijferberekening kan gewijzigd worden door het formulier te bewerken en het \'Bereken cijfer gebaseerd op de rubric met minimumcijfer 0\' aan te vinken.';
+Deze cijferberekening kan gewijzigd worden door het formulier te bewerken en het \'Bereken cijfer gebaseerd op de minimale score op de minimaal mogelijke score van de rubric\' aan te vinken.';
 $string['rubricnotcompleted'] = 'Kies iets voor elk criterium';
 $string['rubricoptions'] = 'Rubric opties';
 $string['rubricstatus'] = 'Huidige rubric status';

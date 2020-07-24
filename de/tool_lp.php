@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_lp', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,7 @@ $string['editthisplan'] = 'Diesen Lernplan bearbeiten';
 $string['editthisuserevidence'] = 'Diesen Beleg bearbeiten';
 $string['edituserevidence'] = 'Beleg bearbeiten';
 $string['evidence'] = 'Beleg';
+$string['filterbyactivity'] = 'Kompetenzen nach Material oder Aktivität filtern';
 $string['findcourses'] = 'Kurse finden';
 $string['frameworkcannotbedeleted'] = 'Der Kompetenzrahlen \'{$a}\' kann nicht gelöscht werden.';
 $string['hidden'] = 'Verborgen';
@@ -145,9 +146,11 @@ $string['myplans'] = 'Meine Lernpläne';
 $string['nfiles'] = '{$a} Datei(en)';
 $string['noactivities'] = 'Keine Aktivitäten';
 $string['nocompetencies'] = 'Für diesen Kompetenzrahmen wurden keine Kompetenzen angelegt.';
+$string['nocompetenciesinactivity'] = 'Es wurden keine Kompetenzen mit dieser Aktivität oder diesem Material verknüpft.';
 $string['nocompetenciesincourse'] = 'Für diesen Kurs sind keine Kompetenzen verlinkt.';
 $string['nocompetenciesinevidence'] = 'Zu diesem Nachweis wurden keine Kompetenzen verlinkt.';
 $string['nocompetenciesinlearningplan'] = 'Zu diesem Lernplan wurden keine Kompetenzen verlinkt.';
+$string['nocompetenciesinlist'] = 'Es wurden keine Kompetenzen ausgewählt.';
 $string['nocompetenciesintemplate'] = 'Für diese Lernplanvorlage sind keine Kompetenzen verlinkt.';
 $string['nocompetencyframeworks'] = 'Bisher sind keine Kompetenzrahmen angelegt.';
 $string['nocompetencyselected'] = 'Keine Kompetenzen ausgewählt';

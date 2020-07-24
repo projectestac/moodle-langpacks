@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_guide', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,12 +27,15 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addcomment'] = 'Adicionar feedback frequente';
 $string['addcriterion'] = 'Adicionar critério';
+$string['additionalcomments'] = 'Comentários adicionais';
+$string['additionalcommentsforcriterion'] = 'Comentários adicionais para o critério, {$a}';
 $string['alwaysshowdefinition'] = 'Mostrar os critérios aos alunos';
 $string['backtoediting'] = 'Voltar à edição';
 $string['clicktocopy'] = 'Clique para copiar este texto para o critério de feedback';
 $string['clicktoedit'] = 'Clique para editar';
 $string['clicktoeditname'] = 'Clique para editar o nome do critério';
 $string['comment'] = 'Comentário';
+$string['commentpickerforcriterion'] = 'Seletor de comentários usados com frequência para {$a} comentários adicionais';
 $string['comments'] = 'Feedback frequente';
 $string['commentsdelete'] = 'Apagar feedback';
 $string['commentsempty'] = 'Clique para editar comentário';
@@ -70,10 +73,12 @@ $string['guideoptions'] = 'Opções da avaliação com grelha quantitativa';
 $string['guidestatus'] = 'Estado da grelha';
 $string['hidemarkerdesc'] = 'Ocultar a descrição dos critérios ao avaliar';
 $string['hidestudentdesc'] = 'Ocultar a descrição dos critérios aos alunos';
+$string['informationforcriterion'] = 'Informação de {$a}';
 $string['insertcomment'] = 'Inserir um feedback frequente';
 $string['maxscore'] = 'Pontuação máxima';
 $string['name'] = 'Nome';
 $string['needregrademessage'] = 'As definições da avaliação foram alteradas após a avaliação deste aluno. O aluno não poderá ver a avaliação até que verifique a grelha de avaliação e atualize a nota.';
+$string['outof'] = 'Pontuação máxima de {$a}';
 $string['pluginname'] = 'Grelha quantitativa';
 $string['previewmarkingguide'] = 'Pré-visualizar grelha quantitativa';
 $string['privacy:metadata:criterionid'] = 'Um identificador do critério de avaliação avançada.';
@@ -92,6 +97,8 @@ $string['save'] = 'Guardar';
 $string['saveguide'] = 'Guardar grelha';
 $string['saveguidedraft'] = 'Guardar como rascunho';
 $string['score'] = 'nota';
+$string['scoreforcriterion'] = 'Pontuação de {$a}';
+$string['score_help'] = 'Insira uma pontuação para {$a->criterion} entre 0 e {$a->maxscore}.';
 $string['showmarkerdesc'] = 'Mostrar descrição dos critérios ao professor';
 $string['showmarkspercriterionstudents'] = 'Mostrar os pontos por critério aos alunos';
 $string['showstudentdesc'] = 'Mostrar descrição dos critérios aos alunos';

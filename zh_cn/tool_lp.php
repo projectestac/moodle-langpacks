@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_lp', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,7 +52,7 @@ $string['chooserating'] = '选择一个评估...';
 $string['cohortssyncedtotemplate'] = '群同步到该学习计划模板';
 $string['competenciesforframework'] = '{$a}的能力';
 $string['competenciesmostoftennotproficient'] = '在完成的学习计划中，通常大多数能力都不是精通的。';
-$string['competenciesmostoftennotproficientincourse'] = '在这门课程中大多数能力通常不精通';
+$string['competenciesmostoftennotproficientincourse'] = '在这门课程中最经常的不熟练的能力';
 $string['competencycannotbedeleted'] = '能力 \'{$a}\' 不能被删除';
 $string['competencycreated'] = '创建的能力';
 $string['competencycrossreferencedcompetencies'] = '{$a}交叉引用的能力';
@@ -75,14 +75,14 @@ $string['completeplanconfirm'] = '设置学习计划 \'{$a}\' 为完成的？如
 $string['configurecoursecompetencysettings'] = '设置课程能力';
 $string['configurescale'] = '配置量尺';
 $string['coursecompetencies'] = '课程能力';
-$string['coursecompetencyratingsarenotpushedtouserplans'] = '该课程的能力评估不会影响学习计划。';
-$string['coursecompetencyratingsarepushedtouserplans'] = '本课程的能力评估在学习计划中即时更新。';
+$string['coursecompetencyratingsarenotpushedtouserplans'] = '该课程的能力评价不会影响学习计划。';
+$string['coursecompetencyratingsarepushedtouserplans'] = '本课程的能力评分会在学习计划中即时更新。';
 $string['coursecompetencyratingsquestion'] = '当一个课程能力被评估时，该评估是否更新学习计划中的能力，或者仅仅是应用于该课程?';
 $string['coursesusingthiscompetency'] = '链接到该能力的课程';
 $string['coveragesummary'] = '{$a->competenciescoveredcount} of {$a->competenciescount} 能力被覆盖( {$a->coveragepercentage} % )';
 $string['createlearningplans'] = '创建学习计划';
 $string['createplans'] = '创建学习计划';
-$string['crossreferencedcompetencies'] = '交叉引用的能力';
+$string['crossreferencedcompetencies'] = '交叉引用能力';
 $string['default'] = '默认';
 $string['deletecompetency'] = '删除能力\'{$a}\'？';
 $string['deletecompetencyframework'] = '删除能力框架  \'{$a}\' 吗?';
@@ -163,15 +163,15 @@ $string['planunapprove'] = '发回到草稿';
 $string['pluginname'] = '学习计划';
 $string['points'] = '分数';
 $string['pointsgivenfor'] = '给予\'{$a}分数';
-$string['proficient'] = '精通';
+$string['proficient'] = '熟练';
 $string['progress'] = '进步';
 $string['rate'] = '评估';
 $string['ratecomment'] = '证据说明';
-$string['rating'] = '评级';
+$string['rating'] = '评价';
 $string['ratingaffectsonlycourse'] = '能力评估只更新该课程的能力';
 $string['ratingaffectsuserplans'] = '评估一个能力的同时也更新所有学习计划中的该项能力';
 $string['requestreview'] = '请求审核';
-$string['reviewstatus'] = '审核状态';
+$string['reviewstatus'] = '检查状态';
 $string['savechanges'] = '保存更改';
 $string['scale'] = '量尺';
 $string['scale_help'] = '量尺确定了在能力方面的熟练程度。在选择了量尺之后，需要对其进行配置。被选择为“默认”的项目是当一个能力自动完成时给予的评价。';
@@ -227,6 +227,6 @@ $string['userevidenceurl'] = '网页地址';
 $string['visible'] = '可见';
 $string['visible_help'] = '能力框架在设立或更新时可以被隐藏。';
 $string['when'] = '当';
-$string['xcompetenciesproficientoutofy'] = '{$a->x} / {$a->y} 能力是精通的';
-$string['xcompetenciesproficientoutofyincourse'] = '你精通这门课程{$a->y}个能力中的{$a->x}个。';
+$string['xcompetenciesproficientoutofy'] = '{$a->x} / {$a->y} 能力是熟练的';
+$string['xcompetenciesproficientoutofyincourse'] = '您熟练这门课程{$a->y}个能力中的{$a->x}个。';
 $string['xplanscompletedoutofy'] = '这个模板有{$a->x}/{$a->y}学习计划完成了';

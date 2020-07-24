@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lpimportcsv', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_lpimportcsv', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_lpimportcsv
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,12 +35,15 @@ $string['descriptionformat'] = 'Формат описания';
 $string['encoding'] = 'Кодировка';
 $string['export'] = 'Экспорт';
 $string['exportid'] = 'Экспортированный ID (необязательно)';
+$string['exportnavlink'] = 'Экспорт набора компетентностей';
 $string['idnumber'] = 'Номер ID';
 $string['import'] = 'Импорт';
+$string['importfile'] = 'CSV-файл описания набора';
 $string['importingfile'] = 'Импорт данных файла';
 $string['invalidimportfile'] = 'Недопустимый формат файла.';
-$string['noframeworks'] = 'Пока нет созданных фреймворков компетенций.';
+$string['noframeworks'] = 'Пока нет созданных наборов компетентностей.';
 $string['parentidnumber'] = 'Родительский номер ID';
+$string['pluginname'] = 'Импорт набора компетентностей';
 $string['processingfile'] = 'Обработка файла';
 $string['relatedidnumbers'] = 'ID номера компетенций с перекрестными ссылками';
 $string['ruleconfig'] = 'Конфигурация правила  (необязательно)';

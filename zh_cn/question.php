@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'question', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,7 @@ $string['advancedsearchoptions'] = '搜索选项';
 $string['alltries'] = '所有尝试';
 $string['answer'] = '答案';
 $string['answers'] = '答案';
-$string['answersaved'] = '答案已保存';
+$string['answersaved'] = '保存答案';
 $string['attemptfinished'] = '答题结束';
 $string['attemptfinishedsubmitting'] = '正在完成提交中：';
 $string['attemptoptions'] = '尝试选项';

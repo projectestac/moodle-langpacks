@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'install', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,8 +75,11 @@ $string['dbport'] = 'Port';
 $string['dbprefix'] = 'Préfixe des tables';
 $string['dbtype'] = 'Type';
 $string['directorysettings'] = '<p>Veuillez confirmer les emplacements de cette installation de Moodle.</p>
+
 <p><b>Adresse web :</b> veuillez indiquer l\'adresse web complète par laquelle on accédera à Moodle. Si votre site web est accessible par plusieurs URLs, choisissez celle qui est la plus naturelle ou la plus évidente. Ne placez pas de barre oblique à la fin de l\'adresse.</p>
+
 <p><b>Dossier Moodle :</b> veuillez spécifier le chemin d\'accès complet de cette installation de Moodle. Assurez-vous que la casse des caractères (majuscules/minuscules) est correcte.</p>
+
 <p><b>Dossier de données :</b> Moodle a besoin d\'un emplacement où enregistrer les fichiers déposés sur le site. Le serveur web (utilisateur dénommé habituellement « www », « apache » ou « nobody ») doit avoir accès à ce dossier en lecture et EN ÉCRITURE. Toutefois ce dossier ne doit pas être accessible directement depuis le web. L\'installeur va tenter de créer ce dossier s\'il n\'existe pas.</p>';
 $string['directorysettingshead'] = 'Veuillez confirmer les emplacements de cette installation de Moodle.';
 $string['directorysettingssub'] = '<p><b>Adresse web :</b> veuillez indiquer l\'adresse web complète par laquelle on accédera à Moodle. Si votre site web est accessible par plusieurs URLs, choisissez celle qui est la plus naturelle ou la plus évidente. Ne placez pas de barre oblique à la fin de l\'adresse.</p>
@@ -134,7 +137,7 @@ $string['nativeocihelp'] = 'Vous devez maintenant configurer la base de données
 $string['nativepgsql'] = 'PostgreSQL (natif, pgsql)';
 $string['nativepgsqlhelp'] = '<p>La base de données permet l\'enregistrement de la plupart des réglages et des données de Moodle. Elle doit être configurée ici.</p>
 <p>Le nom de la base de données, son nom d\'utilisateur,  son mot de passe et le préfixe des tables sont des champs obligatoires.</p>
-<p>Si la base de données n\'existe pas encore et que l\'utilisateur indiqué a les permissions requises, Moodle tentera de créer une nouvelle base de données avec les droits d\'accès et réglages adéquats.</p>';
+<p>La base de données doit déjà exister et l\'utilisateur indiqué avoir les permissions pour la lire et y écrire.</p>';
 $string['nativesqlsrv'] = 'SQL*Server Microsoft (native/sqlsrv)';
 $string['nativesqlsrvhelp'] = 'Vous devez maintenant configurer la base de données où seront stockées les données de Moodle. Cette base de données doit être déjà créée, tout comme le nom d\'utilisateur et le mot de passe pour y accéder. Le préfixe des tables est obligatoire.';
 $string['nativesqlsrvnodriver'] = 'Les pilotes Microsoft Drivers for SQL Server pour PHP ne sont pas installés ou ne sont pas configurés correctement.';

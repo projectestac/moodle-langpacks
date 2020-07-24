@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['activityaggregation_all'] = '選択された活動すべてを完了す
 $string['activityaggregation_any'] = '選択された活動いずれかを完了する';
 $string['activitycompletion'] = '活動完了';
 $string['activitycompletionupdated'] = '変更が保存されました。';
+$string['activitygradenotrequired'] = '評定未必須';
 $string['affectedactivities'] = '変更は次の<b>{$a}</b>件の活動またはリソースに影響します。';
 $string['aggregationmethod'] = '総計方法';
 $string['all'] = 'すべて';
@@ -42,6 +43,7 @@ $string['any'] = '任意';
 $string['approval'] = '承認';
 $string['areyousureoverridecompletion'] = '本当にこのユーザのこの活動の現在の完了ステータスをオーバーライドして「 {$a} 」とマークしてもよろしいですか?';
 $string['badautocompletion'] = '「条件を満たした場合、活動完了を表示する」を選択した場合、あなたは少なくとも (以下の) 1つの必要条件も有効にする必要があります。';
+$string['badcompletiongradeitemnumber'] = '「 {$a} 」の評定必須は有効にできません ({$a} による評定が有効にされていないため)。';
 $string['bulkactivitycompletion'] = '活動完了バルク編集';
 $string['bulkactivitydetail'] = 'あなたがバルク編集したい活動を選択してください。';
 $string['bulkcompletiontracking'] = '完了トラッキング';
@@ -100,8 +102,6 @@ $string['completionondate'] = '日付';
 $string['completionondatevalue'] = 'コースが完了マークされる日付';
 $string['completion-pass'] = '完了 (合格点到達)';
 $string['completionsettingslocked'] = '完了設定ロック中';
-$string['completion-title-manual-n'] = '完了マークする: {$a}';
-$string['completion-title-manual-y'] = '未完了マークする: {$a}';
 $string['completionupdated'] = '活動「 {$a} 」の完了が更新されました。';
 $string['completionusegrade'] = '評定を必要とする';
 $string['completionusegrade_desc'] = 'この活動を完了するには学生が評定される必要があります。';

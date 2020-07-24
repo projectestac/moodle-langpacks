@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'data', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -157,7 +157,7 @@ $string['expired'] = 'Die Aktivität wurde am {$a} abgeschlossen und ist nicht m
 $string['export'] = 'Export';
 $string['exportaszip'] = 'Export als ZIP-Datei';
 $string['exportaszip_help'] = 'Mit dem Export als ZIP-Datei können Sie den Vorlagensatz auf Ihren Computer herunterladen, um ihn später als "Import aus einer ZIP-Datei" in einem anderen Kurs hochzuladen und zu nutzen.';
-$string['exportedtozip'] = 'In eine temporäre ZIP-Datei exportiert....';
+$string['exportedtozip'] = 'In eine temporäre ZIP-Datei exportiert...';
 $string['exportentries'] = 'Einträge exportieren';
 $string['exportownentries'] = 'Nur die eigenen Einträge exportieren? ({$a->mine}/{$a->all})';
 $string['failedpresetdelete'] = 'Fehler beim Löschen eines Vorlagensatzes';
@@ -172,8 +172,8 @@ $string['fieldheightlistview'] = 'Höhe in Listenansicht';
 $string['fieldheightsingleview'] = 'Höhe in Einzelansicht';
 $string['fieldids'] = 'Feldnummern';
 $string['fieldmappings'] = 'Feldübersicht';
-$string['fieldmappings_help'] = 'Dieses Menü ermöglicht es, die Daten aus der bestehenden Datenbank zu erhalten, wenn Sie die Datenbank neu anlegen. Um die Daten zu behalten, die in einem Feld gesammelt sind, müssen Sie das Feld in ein neues Feld übertragen ("mappen"), in dem die Daten dann erscheinen. Felder können dabei auch leer gelassen werden. Jedes alte Feld, das nicht in ein neues übertragen wird, geht zusammen mit allen Daten unwiederbringlich verloren.
-Sie können ausschließlich Felder desselben Typs übertragen. Deshalb enthält das Klappmenü jedes Mal andere Felder zur Auswahl. Versuchen Sie bitte auch nicht, ein altes Feld in mehr als ein neues Feld zu übertragen.';
+$string['fieldmappings_help'] = 'Dieses Menü ermöglicht es, die Daten aus der bestehenden Datenbank zu behalten. Um die Daten in einem Feld zu behalten, müssen Sie das Feld in ein neues Feld übertragen ("mappen"), in dem die Daten dann erscheinen. Felder können dabei auch leer gelassen werden.  Jedes alte Feld, das keinem neuen Feld zugeordnet ist, geht verloren und alle Daten werden entfernt.
+Sie können nur Felder desselben Typs zuordnen, sodass jedes Dropdown-Menü unterschiedliche Felder enthält. Versuchen Sie bitte auch nicht, ein altes Feld mehr als einem neuen Feld zuzuordnen.';
 $string['fieldname'] = 'Feldname';
 $string['fieldnotmatched'] = 'Die folgenden Felder in Ihrer Datei sind in der Datenbank unbekannt: {$a}';
 $string['fieldoptions'] = 'Optionen (eine pro Zeile)';
@@ -208,8 +208,12 @@ $string['includetags'] = 'Tags einbeziehen';
 $string['includetime'] = 'Zeitpunkt hinzugefügt/geändert einfügen';
 $string['includeuserdetails'] = 'Nutzerdetails einfügen';
 $string['indicator:cognitivedepth'] = 'Datenbank kognitiv';
+$string['indicator:cognitivedepthdef'] = 'Datenbank kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die Datenbankaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht, Beiträge).';
 $string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die eine Person in einer Datenbankaktivität erreicht hat.';
 $string['indicator:socialbreadth'] = 'Datenbank sozial';
+$string['indicator:socialbreadthdef'] = 'Datenbank sozial';
+$string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die Datenbankaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein).';
 $string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer Datenbankaktivität erreicht hat.';
 $string['insufficiententries'] = 'Weitere Einträge sind erforderlich, um die Datenbank einzusehen.';
 $string['intro'] = 'Beschreibung';
@@ -260,9 +264,9 @@ $string['multimenu'] = 'Menü (Mehrfachauswahl)';
 $string['multipletags'] = 'Elemente mehrfach gefunden! Keine Vorlage gespeichert.';
 $string['newentry'] = 'Neuer Eintrag';
 $string['newfield'] = 'Neues Feld erstellen';
-$string['newfield_help'] = 'Auf dieser Seite können Sie die Felder anlegen, die Teil der Datenbank sein sollen. Für jedes Feld können unterschiedliche Datentypen festgelegt werden, zu denen jeweils unterschiedliche Formulare für datenspezifische Angaben gehören.
+$string['newfield_help'] = 'Ein Feld ermöglicht die Eingabe von Daten. Jeder Eintrag in einer Datenbankaktivität kann mehrere Felder verschiedener Typen enthalten, z.B. ein Datumsfeld zur Angabe von Tag, Monat und Jahr, ein Bildfeld zum Hochladen einer Bilddatei oder ein Kontrollkästchen zur Auswahl einer oder mehrerer Optionen.
 
-Jedes Feld muss einen eindeutigen Feldnamen bekommen, die Feldbeschreibung ist optional.';
+Jedes Feld muss einen eindeutigen Feldnamen haben. Die Feldbeschreibung ist optional.';
 $string['noaccess'] = 'Sie haben keinen Zugriff auf diese Seite.';
 $string['nodefinedfields'] = 'Neuer Vorlagensatz besitzt keine definierten Felder!';
 $string['nofieldcontent'] = 'Feldinhalt nicht gefunden';
@@ -371,7 +375,7 @@ $string['templatesaved'] = 'Vorlage wurde gespeichert';
 $string['text'] = 'Text';
 $string['textarea'] = 'Textbereich';
 $string['timeadded'] = 'Zeit erstellt';
-$string['timemodified'] = 'Zeit geändert';
+$string['timemodified'] = 'Zuletzt geändert';
 $string['todatabase'] = 'in diese Datenbank';
 $string['type'] = 'Feld-Typ';
 $string['undefinedprocessactionmethod'] = 'In Data_Preset wurde keine Verarbeitungsmethode definiert für: "{$a}".';

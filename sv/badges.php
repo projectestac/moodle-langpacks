@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'badges', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -213,7 +213,6 @@ $string['donotaward'] = 'För nuvarande är det här märket inte aktivt så det
 $string['editsettings'] = 'Redigera inställningar';
 $string['enablebadges'] = 'Aktivera märken';
 $string['error:backpackemailnotfound'] = 'E-postadressen \'{$a}\' är inte ansluten till någon ryggsäck. Du behöver antingen i <a href="http://backpack.openbadges.org">skapa en ryggsäck </a> för detta e-postkonto eller logga in med en annan e-postadress.';
-$string['error:backpackloginfailed'] = 'Anslutningen till en extern ryggsäck misslyckades av denna anledning: {$a}';
 $string['error:backpacknotavailable'] = 'Din webbplats är inte tillgänlig via Internet så märken som utfärdats från den här webbplatsen kan inte verifieras av externa ryggsäcks-tjänster.';
 $string['error:backpackproblem'] = 'Anslutningen till din ryggsäcktjänst misslyckades. V.g. försök senare.';
 $string['error:badgeawardnotfound'] = 'Detta märke kan inte verifieras. Möjligtvis har det återkallats.';
@@ -325,7 +324,6 @@ $string['notifyweekly'] = 'Veckovis';
 $string['numawards'] = 'Det här märket har tilldelats <a href="{$a->link}">{$a->count}</a> användare.';
 $string['numawardstat'] = 'Det här märket har tilldelats {$a} användare.';
 $string['overallcrit'] = 'av de valda kriterierna är slutförda.';
-$string['personaconnection'] = 'Logga in med din e-post.';
 $string['potentialrecipients'] = 'Potentiella mottagare av märket';
 $string['preferences'] = 'Välj inställningar för märken (badges)';
 $string['recipientidentificationproblem'] = 'Kan inte hitta någon mottagare av detta märke bland befintliga användare.';

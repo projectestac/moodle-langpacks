@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -202,8 +202,12 @@ $string['highestattempt'] = 'Tentativo migliore';
 $string['identifier'] = 'Identificativo domanda';
 $string['incomplete'] = 'Incompleto';
 $string['indicator:cognitivedepth'] = 'SCORM cognitivo';
+$string['indicator:cognitivedepthdef'] = 'SCORM cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalle attività SCORM (Livelli: Nessuna visualizzazione, Visualizzazione, Invio, Visualizzazione feedback)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività SCORM.';
 $string['indicator:socialbreadth'] = 'SCORM sociale';
+$string['indicator:socialbreadthdef'] = 'SCORM sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dall\'attività SCORM (Livelli: Nessuna partecipazione, Partecipazione da solo)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività SCORM.';
 $string['info'] = 'Info';
 $string['interactions'] = 'Interazioni';

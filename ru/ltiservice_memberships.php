@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'ltiservice_memberships', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'ltiservice_memberships', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   ltiservice_memberships
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['ltiservice_memberships_help'] = 'Разрешить инструменту получать информацию об участнике из курса, используя службу членства IMS LTI. Настройки конфиденциальности будут применяться.';
 $string['pluginname'] = 'LTI-служба «Членства»';
-$string['servicename'] = 'Членства';

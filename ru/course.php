@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'course', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'course', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   course
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,13 +25,31 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['aria:coursecategory'] = 'Категория курса';
 $string['aria:courseimage'] = 'Изображение курса';
 $string['aria:coursename'] = 'Название курса';
 $string['aria:courseshortname'] = 'Краткое название курса';
 $string['aria:favourite'] = 'Курс является избранным';
+$string['coursealreadyfinished'] = 'Курс уже завершен';
+$string['coursenotyetfinished'] = 'Курс еще не завершен';
+$string['coursenotyetstarted'] = 'Курс еще не начат';
+$string['coursetoolong'] = 'Курс очень длинный';
+$string['customfield_islocked'] = 'Заблокировано';
+$string['customfield_islocked_help'] = 'Если поле заблокировано, только пользователи с правом изменять блокировку пользовательских полей могут менять его в настройках курса (по умолчанию, только пользователи с ролью менеджера).';
+$string['customfield_notvisible'] = 'Никто';
+$string['customfieldsettings'] = 'Общие настройки пользовательских полей курса';
+$string['customfield_visibility'] = 'Виден';
+$string['customfield_visibility_help'] = 'Этот параметр определяет, кто может просматривать название и значение пользовательского поля в списке курсов.';
+$string['customfield_visibletoall'] = 'Все';
+$string['customfield_visibletoteachers'] = 'Преподаватели';
+$string['errorendbeforestart'] = 'Дата окончания ({$a}) раньше даты начала курса.';
 $string['favourite'] = 'Избранный курс';
+$string['nocourseendtime'] = 'Курс не имеет времени окончания';
+$string['nocoursesections'] = 'Нет разделов курса';
+$string['nocoursestudents'] = 'Нет студентов';
 $string['privacy:completionpath'] = 'Завершение курса';
 $string['privacy:favouritespath'] = 'Информация помеченного курса';
 $string['privacy:metadata:completionsummary'] = 'Курс содержит информацию о завершении его пользователем.';
 $string['privacy:metadata:favouritessummary'] = 'Курс содержит информацию, относящуюся к курсу, отмеченному пользователем.';
 $string['privacy:perpage'] = 'Число курсов, показываемых на странице.';
+$string['studentsatriskincourse'] = 'Студенты с проблемами в курсе {$a}';

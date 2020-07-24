@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'access', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'access', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   access
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,18 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['access'] = 'Eskuragarritasuna';
-$string['accesshelp'] = 'Eskuragarritasunari buruzko laguntza';
-$string['accesskey'] = 'Sarbide-giltza, {$a}';
-$string['accessstatement'] = 'Eskuragarritasun-adierazpena';
+$string['access'] = 'Irisgarritasuna';
+$string['accesshelp'] = 'Irisgarritasunari buruzko laguntza';
+$string['accesskey'] = 'Sarbide-gakoa, {$a}';
+$string['accessstatement'] = 'Irisgarritasun-adierazpena';
 $string['activitynext'] = 'Hurrengo jarduera';
 $string['activityprev'] = 'Aurreko jarduera';
 $string['breadcrumb'] = 'Nabigazio-barra';
 $string['eventcontextlocked'] = 'Testuingurua izoztu da';
 $string['eventcontextunlocked'] = 'Testuingurua desizoztu da';
 $string['hideblocka'] = 'Ezkutatu {$a} blokea';
-$string['monthnext'] = 'Hurrengo hilabetea';
-$string['monthprev'] = 'Aurreko hilabetea';
 $string['showblocka'] = 'Erakutsi {$a} blokea';
 $string['sitemap'] = 'Gunearen mapa';
 $string['skipa'] = '{$a} saltatu';
@@ -44,5 +42,5 @@ $string['skipblock'] = 'Saltatu blokea';
 $string['skipnavigation'] = 'Saltatu nabigazioa';
 $string['skipto'] = 'Salto egin hona: {$a}';
 $string['tocontent'] = 'Joan eduki nagusira zuzenean';
-$string['tonavigation'] = 'Nabigaziora joan';
+$string['tonavigation'] = 'Joan nabigaziora';
 $string['youarehere'] = 'Hemen zaude';

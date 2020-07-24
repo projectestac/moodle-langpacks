@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_overview', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,9 +67,11 @@ $string['regradealldrydogroup'] = 'Recualificar os intentos ({$a->countregradene
 $string['regradealldrygroup'] = 'Simulacro de recualificación completa para o grupo «{$a->groupname}»';
 $string['regradeallgroup'] = 'Recualificación completa para o grupo «{$a->groupname}»';
 $string['regradecomplete'] = 'Recualificación realizada satisfactorimente';
+$string['regradedsuccessfullyxofy'] = 'Recualificado satisfactoriamente ({$a->done}/{$a->count})';
 $string['regradeheader'] = 'Recualificando';
 $string['regradeselected'] = 'Volver cualificar os intentos seleccionados';
 $string['regradingattemptxofy'] = 'Recualificando o intento ({$a->done}/{$a->count})';
+$string['regradingattemptxofywithdetails'] = 'Recualificación do intento ({$a->done}/{$a->count}) - Intento {$a->attemptnum} por {$a->name} (id {$a->attemptid})';
 $string['show'] = 'Amosar / descargar';
 $string['showattempts'] = 'Só amosar / descargar os intentos';
 $string['showdetailedmarks'] = 'Puntuación para cada pregunta';

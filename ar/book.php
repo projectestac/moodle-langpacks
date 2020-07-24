@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'book', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addafter'] = 'إضافة فصل جديد';
+$string['addafterchapter'] = 'إضافة فصل جديد بعد "{$a->title}"';
 $string['book:addinstance'] = 'إضافة كتاب جديد';
 $string['book:edit'] = 'تحرير فصول كتاب';
 $string['book:read'] = 'استعراض الكتاب';
@@ -93,6 +94,7 @@ $string['numberingoptions_desc'] = 'خيارات عرض الفصول والفص�
 $string['page-mod-book-x'] = 'أي صفحة لوحدة كتاب';
 $string['pluginadministration'] = 'إدارة كتاب';
 $string['pluginname'] = 'كتاب';
+$string['previouschapter'] = 'الفصل السابق';
 $string['privacy:metadata'] = 'وحدة book activity module  لا تخزن أيّ بيانات شخصية.';
 $string['removeallbooktags'] = 'إزالة جميع علامات الكتاب';
 $string['search:activity'] = 'كتاب - معلومات المصادر';

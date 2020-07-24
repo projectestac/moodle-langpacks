@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'chat', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,13 +48,14 @@ $string['composemessage'] = 'Redactar unha mensaxe';
 $string['configmethod'] = 'O método de conversa ajax fornece unha interface baseada en ajax, contacta regularmente co servidor para actualización. O método normal de conversa implica que os clientes contactan regularmente para as actualizacións. Non require configuración e funciona en calquera sitio pero pode producir unha longa carga no servidor con moitos participantes.  Usar un servizo de servidor require acceso ao shell en Unix, mais resulta ser un entorno de conversa rapidamente escalábel.';
 $string['confignormalupdatemode'] = 'As actualizacións das salas de conversa funcionan eficientemente usando a funcionalidade <em>Manter vivo</em> de HTTP 1.1 mais isto resulta pesado no lado do servidor. Un método máis avanzado é usar a estratexia de <em>Fluxo</em> para que aflúan as actualizacións aos usuarios. O uso de <em>Fluxo</em> escala moito mellor (semellante ao método chatd) mais pode ser que o seu servidor non sexa compatíbel.';
 $string['configoldping'] = 'Cal é o tempo máximo que pode pasar antes de detectarmos que un usuario se desconectou (en segundos)? Isto só é un límite máximo, xa que as desconexións adoitan detectarse moi rapidamente. Os valores baixos supoñerán unha maior demanda do seu servidor. Se está a usar o método normal, <strong>nunca</strong> estabeleza isto cun valor inferior a 2 * chat_refresh_room.';
-$string['configrefreshroom'] = 'Con que frecuencia a sala de conversa debería recargarse a si mesma? (en segundos).  Un valor baixo fará que a sala de conversa pareza máis rápida pero pode supoñer unha carga maior no seu servidor web cando moitas persoas estean a conversar. De estar usando actualizacións con <em>Fluxo</em> poder seleccionar frecuencias de recarga máis altas -- probe con 2.';
+$string['configrefreshroom'] = 'Con que frecuencia a sala de conversa debería recargarse a si mesma? (en segundos).  Un valor baixo fará que a sala de conversa pareza máis rápida pero pode supoñer unha carga maior no seu servidor web cando moitas persoas estean a conversar. De estar usando actualizacións con <em>Fluxo</em> pode seleccionar frecuencias de recarga máis altas -- probe con 2.';
 $string['configrefreshuserlist'] = 'Con que frecuencia debería recargarse a lista de usuarios? (en segundos)';
 $string['configserverhost'] = 'O nome de máquina do computador onde está o servizo de servidor';
 $string['configserverip'] = 'O enderezo numérico IP que coincide co nome de máquina anterior';
 $string['configservermax'] = 'Número máximo de clientes permitido';
 $string['configserverport'] = 'Porto que usar no servidor para o servizo';
 $string['coursetheme'] = 'Tema do curso';
+$string['crontask'] = 'Procesamento en segundo plano para o módulo de conversas';
 $string['currentchats'] = 'Sesións activas de conversa';
 $string['currentusers'] = 'Usuarios actuais';
 $string['deletesession'] = 'Eliminar esta sesión';
@@ -71,8 +72,14 @@ $string['explainmethodnormal'] = 'Esta configuración é efectiva <strong>só</s
 $string['generalconfig'] = 'Configuración xeral';
 $string['idle'] = 'Inactivo';
 $string['indicator:cognitivedepth'] = 'Conversa cognitiva';
+$string['indicator:cognitivedepthdef'] = 'Conversa cognitiva';
+$string['indicator:cognitivedepthdef_help'] = 'O participante acadou esta porcentaxe do compromiso cognitivo que ofrecen as actividades de Conversa durante este intervalo de análise (Niveis = Sen vista, Ver, Entregar, Ver comentarios, Facer comentarios)';
+$string['indicator:cognitivedepthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Profundidade_cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de conversa.';
 $string['indicator:socialbreadth'] = 'Conversa social';
+$string['indicator:socialbreadthdef'] = 'Conversa social';
+$string['indicator:socialbreadthdef_help'] = 'O participante acadou esta porcentaxe do compromiso social que ofrecen as actividades de Conversa durante este intervalo de análise (Niveis = Sen participación, Participante en solitario, Participante con outros)';
+$string['indicator:socialbreadthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Amplitude_social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de conversa.';
 $string['inputarea'] = 'Área de entrada';
 $string['invalidid'] = 'Non foi posíbel atopar esa sala de conversa!';

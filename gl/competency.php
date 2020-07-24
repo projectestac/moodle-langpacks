@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'competency', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,6 +108,7 @@ $string['invalidpersistenterror'] = 'Erro: {$a}';
 $string['invalidplan'] = 'Plan de aprendizaxe incorrecto';
 $string['invalidtaxonomy'] = 'Taxonomía incorrecta: {$a}';
 $string['invalidurl'] = 'O URL non é válido. Asegúrese de que comeza con «http://» ou «https://».';
+$string['nouserplanswithcompetency'] = 'Non hai ningún plan de aprendizaxe que conteña esta competencia.';
 $string['planstatusactive'] = 'Activo';
 $string['planstatuscomplete'] = 'Completo';
 $string['planstatusdraft'] = 'Versión preliminar';
@@ -184,17 +185,17 @@ $string['usercommentedonacompetency'] = '{$a->fullname} comentou na competencia 
 See: {$a->url}';
 $string['usercommentedonacompetencyhtml'] = '<p>{$a->fullname} comentou na competencia "{$a->competency}":</p>
 <div>{$a->comment}</div>
-<p>See: <a href="{$a->url}">{$a->urlname}</a>.</p>';
+<p>Ver: <a href="{$a->url}">{$a->urlname}</a>.</p>';
 $string['usercommentedonacompetencysmall'] = '{$a->fullname} comentou na competencia "{$a->competency}".';
 $string['usercommentedonacompetencysubject'] = '{$a} comentou nunha competencia.';
 $string['usercommentedonaplan'] = '{$a->fullname} comentou no plan de aprendizaxe "{$a->plan}":
 
 {$a->comment}
 
-See: {$a->url}';
+Ver: {$a->url}';
 $string['usercommentedonaplanhtml'] = '<p>{$a->fullname} comentou no plan de aprendizaxe "{$a->plan}":</p>
 <div>{$a->comment}</div>
-<p>See: <a href="{$a->url}">{$a->urlname}</a>.</p>';
+<p>Ver: <a href="{$a->url}">{$a->urlname}</a>.</p>';
 $string['usercommentedonaplansmall'] = '{$a->fullname} comentou no plan de aprendizaxe "{$a->plan}".';
 $string['usercommentedonaplansubject'] = '{$a} comentou un plan de aprendizaxe.';
 $string['usercompetencystatus_idle'] = 'Inactivo';

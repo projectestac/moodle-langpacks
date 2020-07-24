@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cache', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addstoresuccess'] = 'Speicher {$a} erfolgreich hinzugefügt';
 $string['area'] = 'Bereich';
 $string['cacheadmin'] = 'Cache Verwaltung';
 $string['cacheconfig'] = 'Konfiguration';
+$string['cachedef_calculablesinfo'] = 'Analytics-Berechnungen';
 $string['cachedef_calendar_categories'] = 'Kalenderkurskategorien, auf die eine Person zugreifen kann';
 $string['cachedef_calendar_subscriptions'] = 'Kalender Abonnements';
 $string['cachedef_capabilities'] = 'Liste von Systemrechten';
@@ -46,21 +47,25 @@ $string['cachedef_coursecattree'] = 'Struktur der Kurskategorien';
 $string['cachedef_coursecompletion'] = 'Kursabschlussstatus';
 $string['cachedef_coursecontacts'] = 'Liste von Kurskontakten';
 $string['cachedef_coursemodinfo'] = 'Angesammelte Informationen über Module und Kursabschnitte';
+$string['cachedef_course_user_dates'] = 'Die Nutzerdaten für Kurse, die auf den Modus relative Daten eingestellt sind';
 $string['cachedef_databasemeta'] = 'Metainformationen zur Datenbank';
 $string['cachedef_eventinvalidation'] = 'Termin löschen';
 $string['cachedef_externalbadges'] = 'Externe Badges einer bestimmten Person';
 $string['cachedef_fontawesomeiconmapping'] = 'Zuordnen von Icons für Schriftart Awesome';
 $string['cachedef_grade_categories'] = 'Abfragen der Bewertungskategorie';
+$string['cachedef_grade_letters'] = 'Notenabfragen';
 $string['cachedef_groupdata'] = 'Information für Kursgruppe';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier - Inhalt entfernt';
 $string['cachedef_langmenu'] = 'Liste verfügbarer Sprachen';
 $string['cachedef_locking'] = 'Sperrung';
 $string['cachedef_message_processors_enabled'] = 'Aktivierungsstatus der Mitteilungsabläufe';
 $string['cachedef_message_time_last_message_between_users'] = 'Zeitpunkt der letzten Mitteilung zwischen den Nutzer/innen';
+$string['cachedef_modelfirstanalyses'] = 'Erste Analyse nach Modell und analysierbar';
 $string['cachedef_navigation_expandcourse'] = 'Navigation erweiterbare Kurse';
 $string['cachedef_observers'] = 'Event-Beobachtung';
 $string['cachedef_plugin_functions'] = 'Callbacks für verfügbare Plugins';
 $string['cachedef_plugin_manager'] = 'Plugin-Informatonsmanager';
+$string['cachedef_portfolio_add_button_portfolio_instances'] = 'Portfolio-Instanzen für die Portfolio-Klasse_add_button';
 $string['cachedef_postprocessedcss'] = 'Letztverarbeitetes CSS';
 $string['cachedef_presignup'] = 'Voranmeldedaten für bestimmte unregistrierte Nutzer/innen';
 $string['cachedef_questiondata'] = 'Fragedefinition';
@@ -77,6 +82,7 @@ $string['cachedef_yuimodules'] = 'YUI Modul-Definitionen';
 $string['cachelock_file_default'] = 'Standard-Dateisperre';
 $string['cachestores'] = 'Cache-Speicher';
 $string['caching'] = 'Caching';
+$string['canuselocalstore'] = 'Kann den lokalen Speicher verwenden';
 $string['component'] = 'Komponente';
 $string['confirmlockdeletion'] = 'Löschen der Sperre bestätigen';
 $string['confirmstoredeletion'] = 'Speicherlöschung bestätigen';
@@ -138,8 +144,11 @@ $string['plugin'] = 'Plugin';
 $string['pluginsummaries'] = 'Installierte Cache-Speicher';
 $string['privacy:metadata:cachestore'] = 'Das Cache-Subsystem speichert Daten vorübergehend für andere Teile von Moodle. Diese Daten sind im Cache nicht leicht zu identifizieren und sehr kurzlebig. Die Daten werden von anderen Moodle-Komponenten verarbeitet und gespeichert.';
 $string['purge'] = 'Verwerfen';
+$string['purgeagain'] = 'Noch einmal löschen';
 $string['purgedefinitionsuccess'] = 'Die abgefragte Definition wurde erfolgreich ersetzte.';
 $string['purgestoresuccess'] = 'Gewählten Speicher erfolgreich gelöscht';
+$string['purgexdefinitionsuccess'] = '"{$a->name}" Cache erfolgreich gelöscht ({$a->component}/{$a->area}).';
+$string['purgexstoresuccess'] = '"{$a->store}" Store erfolgreich gelöscht.';
 $string['requestcount'] = 'Test mit {$a} Zugriffen';
 $string['rescandefinitions'] = 'Definitionen erneut auswerten';
 $string['result'] = 'Ergebnis';

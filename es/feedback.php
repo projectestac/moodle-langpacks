@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'feedback', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,13 +33,14 @@ $string['allowfullanonymous'] = 'Permitir anonimato completo';
 $string['analysis'] = 'Análisis';
 $string['anonymous'] = 'Anónima';
 $string['anonymous_edit'] = 'Registrar nombres de usuario';
-$string['anonymous_entries'] = 'Respuestas anónimas';
+$string['anonymous_entries'] = 'Entradas anónimas ({$a})';
 $string['anonymous_user'] = 'Usuario anónimo';
 $string['append_new_items'] = 'Agregar ítems nuevos';
 $string['autonumbering'] = 'Auto numerar preguntas';
 $string['autonumbering_help'] = 'Activa o desactiva la numeración automática para cada pregunta';
 $string['average'] = 'Promedio';
 $string['bold'] = 'Negrita';
+$string['calendarstart'] = '{$a} abre';
 $string['cannotaccess'] = 'Sólo puedes acceder a este feedback desde un curso';
 $string['cannotsavetempl'] = 'no se permite guardar plantillas';
 $string['captcha'] = 'Captcha';
@@ -52,14 +53,14 @@ $string['chosen_feedback_response'] = 'respuesta elegida';
 $string['completed'] = 'completada';
 $string['completed_feedbacks'] = 'Respuestas enviadas';
 $string['completedon'] = 'Completada en {$a}';
-$string['complete_the_form'] = 'Responda a las preguntas...';
+$string['complete_the_form'] = 'Responda a las preguntas';
 $string['completionsubmit'] = 'Ver como "completado" si se envía la encuesta';
 $string['configallowfullanonymous'] = 'Si se establece esta opción la encuesta puede ser respondida por usuarios que previamente no hayan iniciado la sesión. Esto sólo afecta a las encuestas de la página principal.';
 $string['confirmdeleteentry'] = '¿Está seguro que quiere borrar esta entrada?';
 $string['confirmdeleteitem'] = '¿Está seguro que quiere borrar este elemento?';
 $string['confirmdeletetemplate'] = '¿Está seguro que quiere utilizar esta plantilla?';
 $string['confirmusetemplate'] = '¿Está seguro de que desea usar esta plantilla?';
-$string['continue_the_form'] = 'Continuar con el formulario';
+$string['continue_the_form'] = 'Continúe contestando las preguntas';
 $string['count_of_nums'] = 'Conteo de números';
 $string['courseid'] = 'Id del curso';
 $string['creating_templates'] = 'Guardar estas preguntas como plantilla nueva';
@@ -156,10 +157,10 @@ $string['mapcoursenone'] = 'No hay cursos asignados. La encuesta está disponibl
 $string['mapcourses'] = 'Asignar encuesta a cursos';
 $string['mappedcourses'] = 'Cursos asignados';
 $string['mappingchanged'] = 'El mapeo del curso ha cambiado';
-$string['maximal'] = 'máximo';
+$string['maximal'] = 'Máximo';
 $string['messageprovider:message'] = 'Recordatorio de encuesta';
 $string['messageprovider:submission'] = 'Notificaciones de encuesta';
-$string['minimal'] = 'mínimo';
+$string['minimal'] = 'Mínimo';
 $string['mode'] = 'Modo';
 $string['modulename'] = 'Encuesta';
 $string['modulename_help'] = 'El módulo de actividad Encuesta permite que un profesor pueda crear una encuesta personalizada para obtener la opinión de los participantes utilizando una variedad de tipos de pregunta, como  opción múltiple, sí/no o texto.
@@ -188,12 +189,12 @@ $string['no_itemlabel'] = 'No etiqueta';
 $string['no_itemname'] = 'Falta el nombre del ítem';
 $string['no_items_available_yet'] = 'No se han planificado preguntas';
 $string['non_anonymous'] = 'Los nombres de los usuarios se mostrarán y registrarán con las respuestas';
-$string['non_anonymous_entries'] = 'entradas no anónimas';
-$string['non_respondents_students'] = 'estudiantes no respondientes';
+$string['non_anonymous_entries'] = 'Entradas no anónimas ({$a})';
+$string['non_respondents_students'] = 'Estudiantes sin responder  ({$a})';
 $string['not_completed_yet'] = 'Aún no se ha finalizado';
 $string['no_templates_available_yet'] = 'No hay plantillas disponibles';
 $string['not_selected'] = 'No seleccionada';
-$string['not_started'] = 'no comenzado';
+$string['not_started'] = 'Sin comenzar';
 $string['numberoutofrange'] = 'Número fuera de rango';
 $string['numeric'] = 'Respuesta numérica';
 $string['numeric_range_from'] = 'Rango desde';
@@ -204,7 +205,7 @@ $string['oldvalueswillbedeleted'] = 'Se eliminarán las preguntas actuales y tod
 $string['only_one_captcha_allowed'] = 'Solo se permite un captcha por encuesta';
 $string['overview'] = 'Vista general';
 $string['page'] = 'Página';
-$string['page_after_submit'] = 'Página a mostrar tras el envío';
+$string['page_after_submit'] = 'Mensaje de finalizado';
 $string['pagebreak'] = 'Salto de página';
 $string['page-mod-feedback-x'] = 'Cualquier página del módulo Encuesta';
 $string['pluginadministration'] = 'Administración de la encuesta';
@@ -243,7 +244,7 @@ $string['show_entry'] = 'Mostrar respuesta';
 $string['show_nonrespondents'] = 'Mostrar no respondientes';
 $string['site_after_submit'] = 'Sitio tras el envío';
 $string['sort_by_course'] = 'Ordenar por curso';
-$string['started'] = 'comenzado';
+$string['started'] = 'Iniciado';
 $string['startedon'] = 'Empezado el {$a}';
 $string['subject'] = 'Materia';
 $string['switch_item_to_not_required'] = 'cambiar a: respuesta no obligatoria';

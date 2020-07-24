@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'blog', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -152,7 +152,7 @@ $string['privacy:metadata:post:lastmodified'] = 'A data na que foi modificada po
 $string['privacy:metadata:post:publishstate'] = 'Si a entrada é visíbel ou non para outros';
 $string['privacy:metadata:post:subject'] = 'Título da entrada do blog';
 $string['privacy:metadata:post:summary'] = 'Entrada do blog';
-$string['privacy:metadata:post:uniquehash'] = 'Un identificador único para unha entrada externa, xeralmente unha URL';
+$string['privacy:metadata:post:uniquehash'] = 'Un identificador único para un artigo externo, xeralmente un URL';
 $string['privacy:metadata:post:userid'] = 'O ID do usuario que engadiu a entrada de blog.';
 $string['privacy:metadata:post:usermodified'] = 'O usuario que modificou a entrada por última vez';
 $string['privacy:path:blogassociations'] = 'Publicacións asociadas ao blog';

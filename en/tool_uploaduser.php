@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploaduser', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,9 +35,15 @@ $string['deleteerrors'] = 'Delete errors';
 $string['encoding'] = 'Encoding';
 $string['errormnetadd'] = 'Can not add remote users';
 $string['errors'] = 'Errors';
+$string['examplecsv'] = 'Example text file';
+$string['examplecsv_help'] = 'To use the example text file, download it then open it with a text or spreadsheet editor. Leave the first line unchanged, then edit the following lines (records) and add your user data, adding more lines as necessary. Save the file as CSV then upload it.
+
+The example text file may also be used for testing, as you are able to preview user data and can choose to cancel the action before user accounts are created.';
+$string['invalidtheme'] = 'Theme "{$a}" is not installed and will be ignored.';
 $string['invalidupdatetype'] = 'This option cannot be selected with the chosen upload type.';
 $string['invaliduserdata'] = 'Invalid data detected for user {$a} and it has been automatically cleaned.';
 $string['nochanges'] = 'No changes';
+$string['notheme'] = 'No theme is defined for this user.';
 $string['pluginname'] = 'User upload';
 $string['privacy:metadata'] = 'The User upload plugin does not store any personal data.';
 $string['renameerrors'] = 'Rename errors';
@@ -64,6 +70,7 @@ $string['uploadusers_help'] = 'Users may be uploaded (and optionally enrolled in
 * Each record is a series of data separated by commas (or other delimiters)
 * The first record contains a list of fieldnames defining the format of the rest of the file
 * Required fieldnames are username, password, firstname, lastname, email';
+$string['uploadusers_link'] = 'admin/tool/uploaduser/index';
 $string['uploaduserspreview'] = 'Upload users preview';
 $string['uploadusersresult'] = 'Upload users results';
 $string['uploaduser:uploaduserpictures'] = 'Upload user pictures';
@@ -77,6 +84,7 @@ $string['usersrenamed'] = 'Users renamed';
 $string['usersskipped'] = 'Users skipped';
 $string['usersupdated'] = 'Users updated';
 $string['usersweakpassword'] = 'Users having a weak password';
+$string['userthemesnotallowed'] = 'User themes are not enabled, so any included in the upload users file will be ignored.';
 $string['uubulk'] = 'Select for bulk user actions';
 $string['uubulkall'] = 'All users';
 $string['uubulknew'] = 'New users';

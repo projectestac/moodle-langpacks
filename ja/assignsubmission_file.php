@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignsubmission_file', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,8 +36,6 @@ $string['enabled'] = 'ファイル提出';
 $string['enabled_help'] = 'この設定を有効にした場合、学生は1つまたはそれ以上のファイルを提出物としてアップロードすることができます。';
 $string['eventassessableuploaded'] = 'ファイルがアップロードされました。';
 $string['file'] = 'ファイル提出';
-$string['filesofthesetypes'] = 'これらのタイプのファイルは提出に追加することができます:';
-$string['filetypewithexts'] = '{$a->name} &mdash; {$a->extlist}';
 $string['maxbytes'] = '最大ファイルサイズ';
 $string['maxfiles'] = '提出あたりの最大ファイル数';
 $string['maxfiles_help'] = 'ファイル提出が許可された場合、それぞれの課題において、このファイル数を上限とする提出を受け入れるよう設定することができます。';
@@ -45,7 +43,6 @@ $string['maxfilessubmission'] = '最大アップロードファイル数';
 $string['maxfilessubmission_help'] = 'ファイル提出が有効にされた場合、学生はこの数のファイルまで提出にアップロードすることができます。';
 $string['maximumsubmissionsize'] = '最大提出サイズ';
 $string['maximumsubmissionsize_help'] = '学生は最大このサイズまでファイルをアップロードすることができます。';
-$string['nonexistentfiletypes'] = '次のファイルタイプは認識されませんでした: {$a}';
 $string['numfilesforlog'] = 'ファイル数 : {$a} ファイル';
 $string['pluginname'] = 'ファイル提出';
 $string['privacy:metadata:filepurpose'] = 'この課題提出に読み込まれるファイルです。';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_multichoice', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['answersingleno'] = 'Flera svar tillåtna';
 $string['answersingleyes'] = 'Endast ett svar';
 $string['choiceno'] = 'Val {$a}';
 $string['choices'] = 'Tillgängliga val';
+$string['clearchoice'] = 'Rensa mitt val';
 $string['clozeaid'] = 'Mata in det saknade ordet';
 $string['correctansweris'] = 'Rätta svaret är:{$a}';
 $string['correctanswersare'] = 'Det rätta svaren är: {$a}';

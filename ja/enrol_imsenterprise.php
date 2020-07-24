@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['categoryseparator'] = 'カテゴリセパレータ文字';
 $string['categoryseparator_desc'] = '「カテゴリIDナンバー」が有効にされた場合、必須となります。カテゴリ名およびIDナンバーを分けるための文字です。';
 $string['coursesettings'] = 'コースデータオプション';
 $string['createnewcategories'] = 'Moodleに登録されていない場合、新しい (非表示) コースカテゴリを作成する';
-$string['createnewcategories_desc'] = 'コースの入力データ内に<org><orgunit>要素が存在する場合、そのコンテンツは最初から作成されるコースのカテゴリを指定するために使用されます。このプラグインは既存のコースを再度カテゴリ分類することはありません。
+$string['createnewcategories_desc'] = 'コースの入力データ内に&lt;org&gt;&lt;orgunit&gt;要素が存在する場合、そのコンテンツは最初から作成されるコースのカテゴリを指定するために使用されます。このプラグインは既存のコースを再度カテゴリ分類することはありません。
 
 指定した名称のカテゴリが存在しない場合、非表示カテゴリが作成されます。';
 $string['createnewcourses'] = 'Moodleに登録されていない場合、新しい (非表示) コースを作成する';

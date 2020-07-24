@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_paypal', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_paypal', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_paypal
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,13 +32,13 @@ $string['cost'] = 'Preço da inscrição';
 $string['costerror'] = 'O preço da inscrição tem que ser um valor numérico';
 $string['costorkey'] = 'Selecione um dos seguintes métodos de inscrição.';
 $string['currency'] = 'Moeda';
-$string['defaultrole'] = 'Atribuição de papel predefinida';
+$string['defaultrole'] = 'Atribuição de papel predefinido';
 $string['defaultrole_desc'] = 'Selecione o papel que deve ser atribuído aos utilizadores nas inscrições PayPal';
 $string['enrolenddate'] = 'Data de fim';
 $string['enrolenddate_help'] = 'Se ativo, os utilizadores apenas podem ser inscritos até esta data.';
 $string['enrolenddaterror'] = 'A data de fim de inscrição não pode ser anterior à data de início';
 $string['enrolperiod'] = 'Duração da inscrição';
-$string['enrolperiod_desc'] = 'Duração predefinida da inscrição.  Se for definida para zero, a validade da inscrição será ilimitada por predefinição.';
+$string['enrolperiod_desc'] = 'Duração predefinida da inscrição.  Se for definida como zero, a validade da inscrição será ilimitada por predefinição.';
 $string['enrolperiod_help'] = 'Período de tempo em que a inscrição é válida, a partir do momento em que o utilizador é inscrito. Se desativado, a duração da inscrição será ilimitada.';
 $string['enrolstartdate'] = 'Data de início';
 $string['enrolstartdate_help'] = 'Se ativo, os utilizadores apenas podem ser inscritos a partir desta data.';

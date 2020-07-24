@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'folder', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   folder
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,9 +30,9 @@ $string['contentheader'] = 'Conteúdo';
 $string['display'] = 'Exibir conteúdo da pasta';
 $string['display_help'] = 'Se optar por exibir os conteúdos da pasta na página da disciplina, não haverá uma ligação para uma página independente.
 
-A descrição será exibida apenas se a opção "Exibir descrição na página da disciplina" estiver ativa.
+A descrição será exibida apenas se a opção \'Exibir descrição na página da disciplina\' estiver assinalada.
 
-Note também que as ações de visualização dos participantes não poderão ser registadas neste caso.';
+Tenha em atenção que as ações de visualização dos participantes não poderão ser registadas neste caso.';
 $string['displayinline'] = 'Na página da disciplina';
 $string['displaypage'] = 'Numa página separada';
 $string['dnduploadmakefolder'] = 'Extrair zip e criar pasta';
@@ -44,8 +44,12 @@ $string['foldercontent'] = 'Ficheiros e subpastas';
 $string['folder:managefiles'] = 'Gerir ficheiros no recurso pasta';
 $string['folder:view'] = 'Ver conteúdo da pasta';
 $string['indicator:cognitivedepth'] = 'Compreensão da Pasta';
+$string['indicator:cognitivedepthdef'] = 'Compreensão da Pasta';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelos recursos Pasta durante esse intervalo de análise (Níveis = Não visualizado, Visualizado)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno no recurso Pasta.';
 $string['indicator:socialbreadth'] = 'Socialização da Pasta';
+$string['indicator:socialbreadthdef'] = 'Socialização da Pasta';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelos recursos Pasta durante esse intervalo de análise (Níveis = Sem participação, Participante individual)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno no recurso Pasta.';
 $string['maxsizetodownload'] = 'Tamanho máximo da pasta a descarregar (MB)';
 $string['maxsizetodownload_help'] = 'O tamanho máximo da pasta que pode ser descarregada como um ficheiro ZIP. Se definir como zero, o tamanho da pasta é ilimitado.';

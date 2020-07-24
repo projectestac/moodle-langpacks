@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['emailpasswordchangeinfosubject'] = '{$a}: information om byte av lösenord';
 $string['loginerror_authenticationfailed'] = 'Autentisering misslyckades';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'glossary', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,7 +61,7 @@ $string['cachedef_concepts'] = '概念连接';
 $string['cantinsertcat'] = '不能插入类别';
 $string['cantinsertrec'] = '不能插入记录';
 $string['cantinsertrel'] = '不能插入 类别-词条 关系';
-$string['casesensitive'] = '此词条大小写敏感';
+$string['casesensitive'] = '此词条区分大小写';
 $string['casesensitive_help'] = '此设置决定在自动链接词条时，是否要大小写完全匹配。';
 $string['cat'] = '类别';
 $string['categories'] = '类别';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,7 +73,7 @@ $string['output'] = 'Irteera:';
 $string['oval'] = 'Obaloa';
 $string['pagenumber'] = '{$a}. orria';
 $string['pagexofy'] = '{$a->page} orri {$a->total}-(e)tik';
-$string['partialwarning'] = 'Bidalketa honetako fitxategi batzuk ezin dira ireki, baina jaits daitezke.';
+$string['partialwarning'] = 'Bidalketa honetako fitxategi batzuk ez dira erakusten eta soilik deskarga bidez daude eskuragarri.';
 $string['pathtogspathdesc'] = 'Mesedez kontuan izan PDF gaineko oharrak egiteko ghostscript-erako bidea {$a}-n zehazturik egotea behar duela.';
 $string['pen'] = 'Arkatza';
 $string['pluginname'] = 'PDF gaineko oharrak';
@@ -88,6 +88,8 @@ $string['privacy:path'] = 'PDF Feedbacka';
 $string['rectangle'] = 'Laukizuzena';
 $string['red'] = 'Gorria';
 $string['result'] = 'Emaitza:';
+$string['rotateleft'] = 'Biratu 90 gradu ezkerrera';
+$string['rotateright'] = 'Biratu 90 gradu eskuinera';
 $string['searchcomments'] = 'Bilatu iruzkinak';
 $string['select'] = 'Aukeratu';
 $string['stamp'] = 'Zigilua';

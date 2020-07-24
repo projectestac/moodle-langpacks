@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cache', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,10 +54,12 @@ $string['cachedef_langmenu'] = 'قائمة اللغات المتاحة';
 $string['cachedef_locking'] = 'قفل';
 $string['cachedef_message_processors_enabled'] = 'تمكين حالة معالجات الرسائل';
 $string['cachedef_message_time_last_message_between_users'] = 'تم إنشاء الوقت لأحدث للرسالة في المحادثة';
+$string['cachedef_modelfirstanalyses'] = 'أول تحليل حسب النموذج و قابل للتحليل';
 $string['cachedef_navigation_expandcourse'] = 'التنقل بين المواد القابلة للتوسيع';
 $string['cachedef_observers'] = 'مراقبوا الحدث';
 $string['cachedef_plugin_functions'] = 'الإضافات المتاحة callbacks';
 $string['cachedef_plugin_manager'] = 'مدير معلومات المكونات الإضافية';
+$string['cachedef_portfolio_add_button_portfolio_instances'] = 'مثيلات الحافظة لفئة portfolio_add_button';
 $string['cachedef_postprocessedcss'] = 'تأجيل معالجة CSS';
 $string['cachedef_presignup'] = 'بيانات التسجيل المسبق لمستخدم معين غير مسجل';
 $string['cachedef_questiondata'] = 'تعاريف الأسئلة';

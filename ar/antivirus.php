@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'antivirus', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'antivirus', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   antivirus
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,12 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['actantivirushdr'] = 'المكونات المضادة للفيروسات المتوفرة';
-$string['antiviruses'] = 'المكونات المضادة للفيروسات';
-$string['antivirussettings'] = 'إدارة المكونات المضادة للفيروسات';
-$string['configantivirusplugins'] = 'الرجاء اختيار المكونات الإضافية لمكافحة الفيروسات التي ترغب في استخدامها وترتيبها ليتم تطبيقها.';
+$string['actantivirushdr'] = 'برامج مضادات الفيروسات المتاحة';
+$string['antiviruses'] = 'برامج مضادات الفيروسات';
+$string['antivirussettings'] = 'إدارة برامج مضادات الفيروسات';
+$string['configantivirusplugins'] = 'الرجاء اختيار برامج مكافحة الفيروسات التي ترغب في استخدامها وترتيبها ليتم تطبيقها.';
 $string['datastream'] = 'البيانات';
-$string['emailsubject'] = '{$a}:: إشعار كلامأيفي';
+$string['emailsubject'] = '{$a}:: إشعار مضاد الفيروسات';
 $string['privacy:metadata'] = 'نظام مكافح الفيروسات لا يخزن أي بيانات شخصية.';
 $string['virusfound'] = 'تم فحص {$a->item} بواسطة مدقق الفيروسات ووجد مصاباً!';
 $string['virusfounduser'] = 'تم اكتشاف أن الملف الذي قمت بتحميله، {$a->filename}، يحتوي على فيروس! لذا لم يتم تحميل ملفك إلى المجلد المحدد.';

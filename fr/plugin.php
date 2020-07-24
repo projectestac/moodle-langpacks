@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'plugin', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -122,6 +122,8 @@ $string['type_calendartype'] = 'Type de calendrier';
 $string['type_calendartype_plural'] = 'Types de calendriers';
 $string['type_coursereport'] = 'Rapport de cours';
 $string['type_coursereport_plural'] = 'Rapports du cours';
+$string['type_customfield'] = 'Champ personnalisé';
+$string['type_customfield_plural'] = 'Champs personnalisés';
 $string['type_dataformat'] = 'Format de données';
 $string['type_dataformat_plural'] = 'Formats de données';
 $string['type_editor'] = 'Éditeur';
@@ -147,8 +149,8 @@ $string['type_local'] = 'Plugin local';
 $string['type_local_plural'] = 'Plugins locaux';
 $string['type_media'] = 'Lecteur de média';
 $string['type_media_plural'] = 'Lecteurs de média';
-$string['type_message'] = 'Notification de messagerie';
-$string['type_message_plural'] = 'Notifications de messagerie';
+$string['type_message'] = 'Plugin de notification';
+$string['type_message_plural'] = 'Plugins de notification';
 $string['type_mlbackend'] = 'Programme d\'apprentissage automatique';
 $string['type_mlbackend_plural'] = 'Programmes d\'apprentissage automatique';
 $string['type_mnetservice'] = 'Service MNet';
@@ -225,6 +227,7 @@ $string['validationmsg_onedir'] = 'Structure non valide du paquetage ZIP';
 $string['validationmsg_onedir_help'] = 'Ce paquetage ZIP doit contenir un seul dossier principal, contenant le code source du plugin. Le nom de ce dossier principal doit correspondre au nom du plugin.';
 $string['validationmsg_pathwritable'] = 'Vérification des droits d\'accès en écriture';
 $string['validationmsg_pluginversion'] = 'Version du plugin';
+$string['validationmsg_pluginversiontoolow'] = 'Une version plus récente de ce plugin est déjà installée';
 $string['validationmsg_release'] = 'Détails de la version du plugin';
 $string['validationmsg_requiresmoodle'] = 'Version de Moodle requise';
 $string['validationmsg_rootdir'] = 'Nom du plugin à installer';

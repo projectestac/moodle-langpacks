@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'search', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,7 @@ $string['schemaversionunknown'] = 'Поисковая машина не знае
 $string['score'] = 'Очки';
 $string['search'] = 'Поиск';
 $string['searcharea'] = 'Область поиска';
+$string['search:customfield'] = 'Пользовательские поля курса';
 $string['searching'] = 'Поиск в...';
 $string['search:message_received'] = 'Полученные сообщения';
 $string['search:message_sent'] = 'Отправленные сообщения';

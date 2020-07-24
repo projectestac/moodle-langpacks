@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -200,8 +200,12 @@ $string['highestattempt'] = 'Bester Versuch';
 $string['identifier'] = 'Fragen-ID';
 $string['incomplete'] = 'Unvollständig';
 $string['indicator:cognitivedepth'] = 'Lernpaket kognitiv';
+$string['indicator:cognitivedepthdef'] = 'Lernpaket kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die Lernpaketaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht, Beiträge, Feedback anzeigen).';
 $string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die einPerson in einer Lernpaketaktivität erreicht hat.';
 $string['indicator:socialbreadth'] = 'Lernpaket sozial';
+$string['indicator:socialbreadthdef'] = 'Lernpaket sozial';
+$string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die Lernpaketaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein).';
 $string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer Lernpaketaktivität erreicht hat.';
 $string['info'] = 'Info';
 $string['interactions'] = 'Interaktionen';
@@ -209,6 +213,7 @@ $string['invalidactivity'] = 'Aktivität im Lernpaket ist falsch';
 $string['invalidhacpsession'] = 'Ungültige HACP Session';
 $string['invalidmanifestname'] = 'Nur imsmanisfest.xml oder .zip-Dateien werden ausgewählt.';
 $string['invalidmanifestresource'] = 'Warnung: folgende Ressourcen wurden im Manifest referenziert, konnten jedoch nicht gefunden werden:';
+$string['invalidstatus'] = 'Ungültiger Status';
 $string['invalidurl'] = 'Ungültige URL angegeben';
 $string['invalidurlhttpcheck'] = 'Ungültige URL. Debug-Mitteilung: <pre>{$a->cmsg}</pre>';
 $string['last'] = 'Letzter Versuch am';
@@ -322,7 +327,7 @@ $string['raw'] = 'Rohpunktwert';
 $string['regular'] = 'Reguläres Manifest';
 $string['report'] = 'Bericht';
 $string['reportcountallattempts'] = '{$a->nbresults} Ergebnisse ({$a->nbattempts} Versuche von {$a->nbusers} Nutzer/innen)';
-$string['reportcountattempts'] = '{$a->nbresults} Ergebnisse ({$a->nbusers} Nutzerinnen)';
+$string['reportcountattempts'] = '{$a->nbresults} Ergebnisse ({$a->nbusers} Nutzer/innen)';
 $string['reports'] = 'Übersicht';
 $string['repositorynotsupported'] = 'Dieses Repository akzeptiert keine Verlinkung auf eine Datei imsmanifest.xml.';
 $string['response'] = 'Antwort';
@@ -341,7 +346,7 @@ $string['scorm:deleteresponses'] = 'Versuche im Lernpaket löschen';
 $string['scormloggingoff'] = 'API-Logdaten deaktiviert';
 $string['scormloggingon'] = 'API-Logdaten aktiviert';
 $string['scormopen'] = 'Verfügbar ab';
-$string['scormresponsedeleted'] = 'Versuche der Nutzer/innen löschen';
+$string['scormresponsedeleted'] = 'Gelöschte Nutzerversuche';
 $string['scorm:savetrack'] = 'Trackingdaten speichern';
 $string['scorm:skipview'] = 'Übersicht überspringen';
 $string['scormstandard'] = 'Standardmodus von SCORM';

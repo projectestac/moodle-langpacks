@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'resource', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,8 +62,12 @@ $string['filtername'] = 'Automatikoki lotutako baliabideak';
 $string['forcedownload'] = 'Behartu jaistera';
 $string['framesize'] = 'Markoaren altuera';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa fitxategietan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa fitxategietan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek Fitxategia baliabideak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Fitxategia motako baliabideetan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala fitxategietan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala fitxategietan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek Fitxategia baliabideak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Fitxategia motako baliabideetan lortutako zabalera sozialean oinarrituta dago.';
 $string['legacyfiles'] = 'Ikastaro-fitxategi zaharraren migrazioa';
 $string['legacyfilesactive'] = 'Aktiboa';

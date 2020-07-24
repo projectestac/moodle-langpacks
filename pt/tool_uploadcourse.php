@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploadcourse', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploadcourse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,7 +39,7 @@ $string['cannotreadbackupfile'] = 'Não é possível ler o ficheiro da cópia de
 $string['cannotrenamecoursenotexist'] = 'Não é possível renomear uma disciplina que não existe';
 $string['cannotrenameidnumberconflict'] = 'Não é possível renomear a disciplina, o número ID está em conflito com uma disciplina existente';
 $string['cannotrenameshortnamealreadyinuse'] = 'Não é possível renomear a disciplina, o nome curto já está em uso';
-$string['cannotupdatefrontpage'] = 'É proibido modificar a página inicial';
+$string['cannotupdatefrontpage'] = 'Não é permitido modificar a página principal';
 $string['canonlyrenameinupdatemode'] = 'Só é possível renomear uma disciplina quando a atualização é permitida';
 $string['canonlyresetcourseinupdatemode'] = 'Só é possível reiniciar uma disciplina no modo de atualização';
 $string['couldnotresolvecatgorybyid'] = 'Não foi possível resolver a categoria por ID';
@@ -92,9 +92,12 @@ $string['invalidcourseformat'] = 'Formato de disciplina inválido';
 $string['invalidcsvfile'] = 'Entrada inválida de ficheiro CSV';
 $string['invalidencoding'] = 'Codificação inválida';
 $string['invalideupdatemode'] = 'O modo de atualização selecionado é inválido';
+$string['invalidfullnametoolong'] = 'O campo \'Nome completo da disciplina\' está limitado a {$a} caracteres';
 $string['invalidmode'] = 'O modo selecionado é inválido';
 $string['invalidroles'] = 'Nomes de papel inválidos: {$a}';
 $string['invalidshortname'] = 'Nome curto inválido';
+$string['invalidshortnametoolong'] = 'O campo \'Nome curto\' está limitado a {$a} caracteres';
+$string['invalidvisibilitymode'] = 'Modo de visibilidade inválido';
 $string['missingmandatoryfields'] = 'Valor em falta para campos obrigatórios: {$a}';
 $string['missingshortnamenotemplate'] = 'Não foram definidos o nome curto e o modelo de nome curto em falta';
 $string['mode'] = 'Modo de carregamento';
@@ -114,7 +117,7 @@ $string['shortnametemplate_help'] = 'O nome curto da disciplina é exibido na na
 $string['templatefile'] = 'Restaurar a partir deste ficheiro depois do carregamento';
 $string['templatefile_help'] = 'Selecione um ficheiro para ser usado como modelo para a criação de todas as disciplinas.';
 $string['unknownimportmode'] = 'Modo de importação desconhecido';
-$string['updatemissing'] = 'Preencha os itens em falta a partir de dados e predefinições de CSV';
+$string['updatemissing'] = 'Preencha os itens em falta a partir dos dados do CSV e das predefinições';
 $string['updatemode'] = 'Modo de atualização';
 $string['updatemodedoessettonothing'] = 'O modo de atualização não permite que nada seja atualizado';
 $string['updatemode_help'] = 'Se permitir que as disciplinas sejam atualizadas, é necessário indicar com o que é que será feita a atualização das disciplinas';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshop', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -95,7 +95,8 @@ $string['configgradedecimals'] = 'Modu lehenetsian kalifikazioak erakustean hama
 $string['configgradinggrade'] = 'Lehenetsitako gehienezko kalifikazioa tailerretako ebaluazioetan';
 $string['configmaxbytes'] = 'Guneko tailer guztietarako bidalketetarako fitxategien gehienezko tamaina lehenetsia (ikastaroko eta bestelako ezarpen lokalen menpekoa)';
 $string['configstrategy'] = 'Lehenetsitako kalifikazio-estrategia tailerretan';
-$string['createsubmission'] = 'Hasi zure bidalketa prestatzen';
+$string['createsubmission'] = 'Gehitu bidalketa';
+$string['crontask'] = 'Tailer-moduluaren atzeko planoko prozesatzea';
 $string['daysago'] = 'duela {$a} egun';
 $string['daysleft'] = '{$a} egun falta dira';
 $string['daystoday'] = 'gaur';
@@ -110,8 +111,6 @@ $string['editingsubmission'] = 'Bidalketa editatzen';
 $string['editsubmission'] = 'Editatu bidalketa';
 $string['err_multiplesubmissions'] = 'Formulario hau bete bitartean bidalketaren beste bertsio bat gorde da. Erabiltzaile bakoitzak bidalketa bakarra egin dezake.';
 $string['err_removegrademappings'] = 'Ezin dira ezabatu erabili gabeko kalifikazio-loturak';
-$string['err_unknownfileextension'] = 'Fitxategi-luzapen ezezaguna: {$a}';
-$string['err_wrongfileextension'] = 'Fitxategi batzuk ({$a->wrongfiles}) ezin dira igo. Soilik {$a->whitelist} fitxategi-luzapenak onartzen dira.';
 $string['evaluategradeswait'] = 'Mesedez, itxaron ebaluazioak kalifikatu eta kalifikazioak kalkulatu arte';
 $string['evaluation'] = 'Ebaluazioa kalifikatzen';
 $string['evaluationmethod'] = 'Ebaluazioen kalifikatze-metodoa';
@@ -145,7 +144,7 @@ $string['exampleneedsubmission'] = 'Aurretik zure lana bidali eta adibidezko bid
 $string['examplesbeforeassessment'] = 'Adibideak eskuragarri daude norberaren bidalketa egin aurretik, eta parekoen arteko ebaluazioa egin aurretik ebaluatu behar dira';
 $string['examplesbeforesubmission'] = 'Adibideak ebaluatu behar dira norberaren bidalketa egin aurretik';
 $string['examplesmode'] = 'Adibideen ebaluazio-modua';
-$string['examplesubmissions'] = 'Adibiderako bidalketa';
+$string['examplesubmissions'] = 'Adibiderako bidalketak';
 $string['examplesvoluntary'] = 'Adibiderako bidalketen ebaluazioa borondatezkoa da';
 $string['exportsubmission'] = 'Esportatu orri hau';
 $string['feedbackauthor'] = 'Egilearentzako feedbacka';
@@ -163,12 +162,14 @@ $string['givengrades'] = 'Emandako kalifikazioak';
 $string['gradecalculated'] = 'Bidalketarako kalkulatutako kalifikazioa';
 $string['gradedecimals'] = 'Hamartar-kopurua kalifikazioetan';
 $string['gradegivento'] = '&gt;';
+$string['grade_grading_name'] = 'Ebaluazioa';
 $string['gradeinfo'] = 'Kalifikazioa: {$a->received}/{$a->max}';
 $string['gradeitemassessment'] = '{$a->workshopname} (ebaluazioa)';
 $string['gradeitemsubmission'] = '{$a->workshopname} (bidalketa)';
 $string['gradeover'] = 'Indargabetu kalifikazioa bidalketarako';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Tailerraren kalifikazio-txostena';
+$string['grade_submission_name'] = 'Bidalketa';
 $string['gradetopassgrading'] = 'Gainditzeko ebaluazioaren kalifikazioa';
 $string['gradetopasssubmission'] = 'Gainditzeko bidalketaren kalifikazioa';
 $string['gradinggrade'] = 'Ebaluazioaren kalifikazioa';
@@ -180,8 +181,12 @@ $string['gradingsettings'] = 'Kalifikazioen ezarpenak';
 $string['groupnoallowed'] = 'Ez duzu tailer honetako talderen batean sartzeko baimenik';
 $string['iamsure'] = 'Bai, ziur nago';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa tailerretan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa tailerretan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek Tailerra jarduerak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da, Bidali da, Feedbacka ikusi da, Feedbackari iruzkina egin da, Feedback ikusi ondoren berriz bidali da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Tailerra motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala tailerretan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala tailerretan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek Tailerra jarduerak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Tailerra motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['info'] = 'Info';
 $string['instructauthors'] = 'Bidalketarako argibideak';
@@ -191,6 +196,7 @@ $string['latesubmissions'] = 'Epez kanpoko bidalketak';
 $string['latesubmissionsallowed'] = 'Epez kanpoko bidalketak baimenduta daude';
 $string['latesubmissions_desc'] = 'Baimendu epez kanpoko bidalketak';
 $string['latesubmissions_help'] = 'Gaituz gero, egileek bidalketak epez kanpo edo ebaluazio-fasean egin ditzakete. Hala ere, berandu egindako bidalketak ezin dira editatu.';
+$string['legacyallocationplugincron'] = 'Zaharkitutako Tailer-Esleipenen Cron-a';
 $string['maxbytes'] = 'Bidalketa eranskinaren gehienezko tamaina';
 $string['modulename'] = 'Tailerra';
 $string['modulename_help'] = 'Tailerra jarduerak ikasleen lanak jaso, berrikusi eta parekoen arteko ebaluazioa egiteko aukera ematen du.
@@ -240,7 +246,7 @@ $string['pluginname'] = 'Tailerra';
 $string['prepareexamples'] = 'Prestatu adibiderako bidalketak';
 $string['previewassessmentform'] = 'Aurreikusi';
 $string['privacy:metadata:aggregatedgradinggrade'] = 'Tailer-jardueran erabiltzaileak egindako ebaluazio guztien kalifikazioen batura';
-$string['privacy:metadata:assessmentgrade'] = 'Ebaluazio honetan bidalketa honetarako iradokitutako kalifikazioen batura';
+$string['privacy:metadata:assessmentgrade'] = 'Ebaluazio honetan bidalketa honetarako iradokitako kalifikazioen batura';
 $string['privacy:metadata:assessmentgradinggrade'] = 'Ebaluazio hau emateagatiko kalifikazioa';
 $string['privacy:metadata:assessmentgradinggradeover'] = 'Ebaluazio hau emateagatiko kalifikazioarentzat eskuz baliogabetutako balioa';
 $string['privacy:metadata:assessmentid'] = 'Ebaluazioaren IDa';

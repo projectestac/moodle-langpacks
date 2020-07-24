@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_xmldb', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actual'] = 'Atual';
+$string['addpersistent'] = 'Adicionar campos persistentes obrigatórios';
 $string['aftertable'] = 'Após tabela:';
 $string['back'] = 'Voltar';
 $string['backtomainview'] = 'Voltar à página principal XMLDB';
@@ -163,15 +164,18 @@ $string['nomissingindexesfound'] = 'Não foram encontrados índices em falta, a 
 $string['noreffieldsspecified'] = 'Não existem campos de referência especificados';
 $string['noreftablespecified'] = 'Tabela de referência especificada não encontrada';
 $string['noviolatedforeignkeysfound'] = 'Não foram encontradas violações de chaves estrangeiras';
-$string['nowrongdefaultsfound'] = 'Não foram encontradas predefinições inconsistentes, a sua BD não necessita de ações subsequentes.';
-$string['nowrongintsfound'] = 'Não foram encontrados inteiros errados, a sua BD não necessita de ações subsequentes.';
-$string['nowrongoraclesemanticsfound'] = 'Não foram encontradas colunas Oracle usando semânticas BYTE, a sua BD não necessita de ações subsequentes.';
+$string['nowrongdefaultsfound'] = 'Não foram encontradas predefinições inconsistentes. A sua BD não necessita de ações subsequentes.';
+$string['nowrongintsfound'] = 'Não foram encontrados inteiros errados. A sua BD não necessita de ações subsequentes.';
+$string['nowrongoraclesemanticsfound'] = 'Não foram encontradas colunas Oracle usando semânticas BYTE. A sua BD não necessita de ações subsequentes.';
 $string['numberincorrectdecimals'] = 'Número incorreto de decimais para campo numérico';
 $string['numberincorrectlength'] = 'Tamanho incorreto para campo numérico';
 $string['numberincorrectwholepart'] = 'Parte de número inteiro muito grande para o campo de número';
-$string['pendingchanges'] = 'Nota: Fez alterações a este ficheiro. Estas podem ser gravadas a qualquer momento.';
-$string['pendingchangescannotbesaved'] = 'Há alterações a este ficheiro mas não podem ser gravadas! Verifique que tanto a diretoria como o ficheiro "install.xml" têm permissões de escrita para o servidor web.';
+$string['pendingchanges'] = 'Nota: Fez alterações a este ficheiro. Estas podem ser guardadas a qualquer momento.';
+$string['pendingchangescannotbesaved'] = 'Existem alterações a este ficheiro mas não podem ser guardadas! Verifique que tanto a diretoria como o ficheiro "install.xml" têm permissões de escrita para o servidor web.';
 $string['pendingchangescannotbesavedreload'] = 'Existem alterações a este ficheiro mas não podem ser guardadas! Verifique que tanto a diretoria como o ficheiro "install.xml" têm permissões de escrita para o servidor web. Em seguida, atualize/recarregue esta página e deverá estar em condições de poder guardar as alterações.';
+$string['persistentfieldscomplete'] = 'Foram adicionados os campos seguintes:';
+$string['persistentfieldsconfirm'] = 'Pretende adicionar os seguintes campos:';
+$string['persistentfieldsexist'] = 'Já existem os campos seguintes:';
 $string['pluginname'] = 'Editor XMLDB';
 $string['primarykeyonlyallownotnullfields'] = 'As chaves primárias não podem ser nulas';
 $string['privacy:metadata'] = 'O módulo Editor XMLDB não armazena dados pessoais.';
@@ -209,7 +213,7 @@ $string['violatedforeignkeys'] = 'Chaves estrangeiras violadas';
 $string['violatedforeignkeysfound'] = 'Chaves estrangeiras violadas encontradas';
 $string['violations'] = 'Violações';
 $string['wrong'] = 'Erros';
-$string['wrongdefaults'] = 'Predefinições erradas encontradas';
+$string['wrongdefaults'] = 'Foram encontradas predefinições incorretas';
 $string['wrongints'] = 'Inteiros errados encontrados';
 $string['wronglengthforenum'] = 'Tamanho incorreto para campo enum';
 $string['wrongnumberofreffields'] = 'Número errado de campos de referência';

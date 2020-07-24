@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'group', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -201,7 +201,7 @@ har &auml;ndrats. Om det skulle vara s&aring; beh&ouml;ver Du bara anv&auml;nda 
 \'Ladda om sidan\' i Din webbl&auml;sare.</p>';
 $string['noallocation'] = 'Ingen fördelning';
 $string['nogrouping'] = 'Ingen gruppindelning';
-$string['nogroups'] = 'Det finns ingen uppsättning av grupper i den här kursen ännu.';
+$string['nogroups'] = 'Det har inte skapats några grupper i den här kursen ännu.';
 $string['nogroupsassigned'] = 'Det har inte tilldelats några grupper';
 $string['nopermissionforcreation'] = 'Det går inte att skapa grupp \'{$a}\' eftersom Du inte har de rättigheter som krävs.';
 $string['nosmallgroups'] = 'Förhindra den sista lilla gruppen';

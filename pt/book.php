@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'book', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addafter'] = 'Adicionar novo capítulo';
+$string['addafterchapter'] = 'Adicionar novo capítulo depois de "{$a->title}"';
 $string['book:addinstance'] = 'Adicionar novo Livro';
 $string['book:edit'] = 'Editar capítulos do livro';
 $string['book:read'] = 'Ver livro';
@@ -51,8 +52,12 @@ $string['eventchapterupdated'] = 'Capítulo atualizado';
 $string['eventchapterviewed'] = 'Capítulo visualizado';
 $string['hidechapter'] = 'Ocultar capítulo "{$a}"';
 $string['indicator:cognitivedepth'] = 'Compreensão do Livro';
+$string['indicator:cognitivedepthdef'] = 'Compreensão do Livro';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelas atividades Livro durante esse intervalo de análise (Níveis = Não visualizado, Visualizado)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno no recurso Livro.';
 $string['indicator:socialbreadth'] = 'Socialização do Livro';
+$string['indicator:socialbreadthdef'] = 'Socialização do Livro';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelas atividades Livro durante esse intervalo de análise (Níveis = Sem participação, Participante individual)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno no recurso Livro.';
 $string['modulename'] = 'Livro';
 $string['modulename_help'] = 'O recurso Livro permite que o professor crie um conteúdo com várias páginas com formato idêntico a um livro, com capítulos e subcapítulos. O Livro pode conter texto e elementos multimédia e é útil para exibir informação extensa que pode ser dividida em capítulos.
@@ -95,6 +100,7 @@ $string['numberingoptions_desc'] = 'Opções de formatação usadas para exibir 
 $string['page-mod-book-x'] = 'Qualquer página do recurso Livro';
 $string['pluginadministration'] = 'Administração do Livro';
 $string['pluginname'] = 'Livro';
+$string['previouschapter'] = 'Capítulo anterior';
 $string['privacy:metadata'] = 'O módulo Livro não armazena dados pessoais.';
 $string['removeallbooktags'] = 'Remover todas as tags do livro';
 $string['search:activity'] = 'Livro - informações sobre o recurso';

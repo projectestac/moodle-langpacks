@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,11 +86,15 @@ $string['emailchangecancel'] = 'Ακύρωση αλλαγής διεύθυνση
 $string['emailchangepending'] = 'Η αλλαγή δεν έχει γίνει ακόμη. Άνοιξε τον σύνδεσμο που έχει σταλεί στο email {$a->preference_newemail}.';
 $string['emailnowexists'] = 'Η διεύθυνση ηλε.ταχυδρομείου που προσπαθήσατε να αποδώσετε στο προφίλ σας έχει ήδη αποδοθεί σε κάποιον άλλο μετά το αρχικό σας αίτημα. Το αίτημά σας για αλλαγή της ηλε.διεύθυνσής σας, με το παρόν μήνυμα ακυρώνεται, αλλά μπορείτε να προσπαθήσετε ξανά με μια διαφορετική διεύθυνση.';
 $string['emailupdate'] = 'Ανανέωση διεύθυνσης ηλε.ταχυδρομείου';
-$string['emailupdatemessage'] = 'Αγαπητέ χρήστη {$a->fullname}, Ζητήσατε μια αλλαγή της διεύθυνσης σας ηλε.ταχυδρομείου για το λογαριασμό σας στο {$a->site}. Παρακαλούμε ανοίξτε την παρακάτω διεύθυνση URL στον περιηγητή σας για να επιβεβαιώσετε αυτή την αλλαγή:{$a->url} <br /> Αν έχετε οποιαδήποτε ερώτηση, παρακαλούμε επικοινωνήστε με την υποστήριξη (του ιστοτόπου): {$a->supportemail}';
+$string['emailupdatemessage'] = 'Αγαπητέ χρήστη {$a->fullname},
+
+Ζητήσατε μια αλλαγή της διεύθυνσης ηλε.ταχυδρομείου σας για το λογαριασμό σας στο {$a->site}. Για να επιβεβαιώσετε αυτή την αλλαγή, παρακαλούμε μεταβείτε στην ακόλουθη διεύθυνση ιστού:
+
+{$a->url}
+
+{$a->supportemail}';
 $string['emailupdatesuccess'] = 'Η διεύθυνση ηλε.ταχυδρομείου του χρήστη <em>{$a->fullname}</em> ενημερώθηκε με επιτυχία σε <em>{$a->email}</em>.';
 $string['emailupdatetitle'] = 'Επιβεβαίωση ενημέρωσης email στο {$a->site}';
-$string['enterthenumbersyouhear'] = 'Enter the numbers you hear';
-$string['enterthewordsabove'] = 'Εισάγετε τις παραπάνω λέξεις';
 $string['errormaxconsecutiveidentchars'] = 'Οι κωδικοί πρόσβασης θα πρέπει να έχουν το πολύ {$a} διαδοχικούς πανομοιότυπους χαρακτήρες.';
 $string['errorminpassworddigits'] = 'Οι κωδικοί πρόσβασης θα πρέπει να έχουν τουλάχιστον {$a} ψηφία.';
 $string['errorminpasswordlength'] = 'Οι κωδικοί πρόσβασης θα πρέπει να είναι τουλάχιστον {$a} χαρακτήρες.';
@@ -107,9 +111,6 @@ $string['forcechangepasswordfirst_help'] = 'Υποχρεωτική αλλαγή 
 $string['forcechangepassword_help'] = 'Υποχρεωτική αλλαγή κωδικού πρόσβασης των χρηστών την επόμενη φορά που θα συνδεθούν στο Moodle';
 $string['forgottenpassword'] = 'Αν εισάγετε εδώ μια διεύθυνση URL, θα χρησιμοποιηθεί ως η σελίδα ανάκτησης κωδικού πρόσβασης για αυτόν τον ιστότοπο. Αυτό προορίζεται για ιστοτόπους όπου η διαχείριση κωδικών πρόσβασης γίνεται εξ ολοκλήρου εκτός Moodle. Αφήστε το κενό για να χρησιμοποιήσετε την προεπιλεγμένη ανάκτηση κωδικού πρόσβασης';
 $string['forgottenpasswordurl'] = 'Διεύθυνση URL ξεχασμένου κωδικού πρόσβασης';
-$string['getanaudiocaptcha'] = 'Ακούστε το ηχητικό CAPTCHA';
-$string['getanimagecaptcha'] = 'Φέρε μια εικόνα CAPTCHA';
-$string['getanothercaptcha'] = 'Φέρε μια άλλη εικόνα CAPTCHA';
 $string['getrecaptchaapi'] = 'Για να χρησιμοποιήσετε το reCAPTCHA, πρέπει να πάρετε ένα κλειδί API από τη διεύθυνση <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Σύνδεσμος για την σύνδεση ως καλεσμένος';
 $string['incorrectpleasetryagain'] = 'Λάθος. Παρακαλούμε προσπαθήστε πάλι.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -63,7 +63,7 @@ $string['addrandomquestiontoquiz'] = 'ランダム問題を小テスト {$a} に
 $string['addselectedquestionstoquiz'] = '選択した問題を小テストに追加する';
 $string['addselectedtoquiz'] = '選択したものを小テストに追加する';
 $string['addtoquiz'] = '小テストに追加する';
-$string['affectedstudents'] = '影響を受けた {$a}';
+$string['affectedstudents'] = '影響を受ける {$a}';
 $string['aftereachquestion'] = 'それぞれの問題を追加した後';
 $string['afternquestions'] = '問題 {$a} 問を追加した後';
 $string['age'] = '作成日時';
@@ -158,13 +158,13 @@ $string['cannotstartmissingquestion'] = 'この小テストの受験を開始で
 $string['cannotstartnoquestions'] = 'この小テストの受験を開始できません。まだ、小テストが設定されていません。問題が追加されていません。';
 $string['cannotwrite'] = 'エクスポートファイル ({$a}) を書き込めません。';
 $string['canredoquestions'] = '受験内でのやり直しを許可する';
-$string['canredoquestions_desc'] = 'この設定を有効にした場合、学生が特定の問題の受験を終了した時点で「問題をやり直す」ボタンが表示されます。これにより小テストの受験すべてを送信せずに、また別の小テストを開始せずに別バージョンの同一問題を受験できるようになります。このオプションは練習問題に有用です。
+$string['canredoquestions_desc'] = 'この設定を有効にした場合、特定の問題の受験を終了した時点で「問題をやり直す」ボタンが表示されます。これにより小テスト全体を受験して送信せずに、また別の受験を開始せずに (ランダムに選択された) 類似の問題を受験または同じ問題を受験できます。このオプションは練習問題に有用です。
 
 この設定は学生が受験を送信する前に問題を終了できるような問題および挙動 (例えば「即時フィードバック」または「複数受験インタラクティブ」) にのみ影響します。';
-$string['canredoquestions_help'] = 'この設定を有効にした場合、学生が特定の問題の受験を終了した時点で「問題をやり直す」ボタンが表示されます。これにより小テストの受験すべてを送信せずに、また別の小テストを開始せずに別バージョンの同一問題を受験できるようになります。このオプションは練習問題に有用です。
+$string['canredoquestions_help'] = 'この設定を有効にした場合、問題の受験を終了した時点で「問題をやり直す」ボタンが表示されます。これにより小テストの受験すべてを送信せずに、また別の小テストを開始せずに別バージョンの同一問題を受験できるようになります。このオプションは練習問題に有用です。
 
-この設定は学生が受験を送信する前に問題を終了できるような問題および挙動 (例えば「即時フィードバック」または「複数受験インタラクティブ」) にのみ影響します。';
-$string['canredoquestionsyes'] = '学生は終了した問題の別バージョンをやり直すことができる';
+この設定は受験を送信する前に問題を終了できるような問題および挙動 (例えば「即時フィードバック」または「複数受験インタラクティブ」) にのみ影響します。';
+$string['canredoquestionsyes'] = 'はい、別の問題を受験できるオプションを提供してください';
 $string['caseno'] = 'いいえ、文字の大小は重要ではありません。';
 $string['casesensitive'] = '大文字小文字の区別';
 $string['caseyes'] = 'はい、文字の大小は合致する必要があります。';
@@ -186,7 +186,7 @@ $string['completionattemptsexhausteddesc'] = 'すべての利用可能な受験�
 $string['completionattemptsexhausted_help'] = '学生が最大受験数を満たした場合、小テストを完了したとマークします。';
 $string['completionpass'] = '合格点を必要とする';
 $string['completionpassdesc'] = 'この活動を完了するには学生は合格点に到達する必要があります。';
-$string['completionpass_help'] = 'この設定を有効にした場合、学生が合格点 (小テスト設定の評定セクションで指定) またはそれ以上を取得することによりこの活動は完了したとみなされます。';
+$string['completionpass_help'] = 'この設定を有効にした場合、学生が合格点 (小テスト設定の評点セクションで指定) またはそれ以上を取得することによりこの活動は完了したとみなされます。';
 $string['configadaptive'] = 'あなたがこのオプションを有効にした場合、同じ小テスト内の受験であっても学生は問題の複数回解答を許可されます。';
 $string['configattemptsallowed'] = '小テストで学生が許可される受験回数の制限です。';
 $string['configdecimaldigits'] = '評定を表示する場合、小数点以下に表示される評点の桁数を設定します。';
@@ -256,7 +256,7 @@ $string['decimalplaces'] = '評点の小数位';
 $string['decimalplaces_help'] = 'この設定では評点を表示する時に小数点以下を何桁表示するか指定します。この設定は評点の表示にのみ影響します。データベースに保存された評点および常に完全精度のため実行される内部計算には影響しません。';
 $string['decimalplacesquestion'] = '問題評点の小数位';
 $string['decimalplacesquestion_help'] = 'この設定では個別の問題の評点を表示する時に小数点以下を何桁表示するか指定します。';
-$string['decimalpoints'] = '小数点';
+$string['decimalpoints'] = '小数位';
 $string['default'] = 'デフォルト';
 $string['defaultgrade'] = 'デフォルト問題評点';
 $string['defaultinfo'] = '問題のデフォルトカテゴリ';
@@ -323,7 +323,7 @@ $string['emailoverduesmall'] = 'あなたは {$a->quizname} の受験を送信�
 $string['emailoverduesubject'] = '受験期限切れ: {$a->quizname}';
 $string['empty'] = '空';
 $string['enabled'] = '有効';
-$string['endtest'] = 'テストを終了する処理へ ...';
+$string['endtest'] = 'テストを終了する ...';
 $string['erroraccessingreport'] = 'あなたはこのレポートにアクセスできません。';
 $string['errorinquestion'] = '問題のエラー';
 $string['errormissingquestion'] = 'エラー: id {$a} の問題はありません。';
@@ -342,6 +342,7 @@ $string['eventoverridedeleted'] = '小テストオーバーライドが削除さ
 $string['eventoverrideupdated'] = '小テストオーバーライドが更新されました。';
 $string['eventquestionmanuallygraded'] = '小テストが手動評定されました。';
 $string['eventquizattemptabandoned'] = '小テスト受験が放棄されました。';
+$string['eventquizattemptregraded'] = '小テスト受験が再評定されました。';
 $string['eventquizattemptstarted'] = '小テスト受験が開始されました。';
 $string['eventquizattemptsubmitted'] = '小テスト受験が送信されました。';
 $string['eventquizattempttimelimitexceeded'] = '小テスト受験の時間制限を超過しました。';
@@ -382,8 +383,8 @@ $string['functiondisabledbysecuremode'] = 'この機能は現在無効にされ�
 $string['generalfeedback'] = '全般に対するフィードバック';
 $string['generalfeedback_help'] = '全般に対するフィードバックは問題の受験後、学生に表示されるテキストです。解答によって決まる特定の問題のフィードバックとは異なり常に同じ全般に対するフィードバックが表示されます。';
 $string['graceperiod'] = '送信猶予期間';
-$string['graceperiod_desc'] = '制限時間経過後に関して「開いている受験を送信できる場合は猶予期間を設けますが、さらに問題に解答することはできません」が設定されている場合に許可されるデフォルトの猶予期間です。';
-$string['graceperiod_help'] = '制限時間経過後に関して「開いている受験を送信できる場合は猶予期間を設けますが、さらに問題に解答することはできません」が設定されている場合に許可される猶予期間です。';
+$string['graceperiod_desc'] = '制限時間経過後に関して「開いている受験を送信できる場合は猶予期間を設けますが ...」が設定されている場合に許可されるデフォルトの猶予期間です。';
+$string['graceperiod_help'] = '制限時間経過後に関して「開いている受験を送信できる場合は猶予期間を設けますが ...」が設定されている場合に許可される猶予期間です。';
 $string['graceperiodmin'] = '最終送信の猶予期間';
 $string['graceperiodmin_desc'] = '小テストの終わりに関して潜在的な問題があります。時間切れ時点でタイマーが小テストを自動的に送信させることにより私たちは最後の秒まで学生に小テストを受験を続けさせたいと思います。しかし、サーバに負荷が掛かることにより解答処理に時間を要する場合があります。そのため、サーバの遅延を原因としてペナルティが課せられないよう私たちは制限時間後に最大ここで設定した時間だけ解答を受け付けることができます。しかし、学生はこの時間を小テストの解答に不正に使うことができてしまいます。小テストの受験中、あなたのサーバのパフォーマンスをどれだけ信用するか交換条件とする必要があります。';
 $string['graceperiodtoosmall'] = '送信猶予期間は {$a} 以上に設定してください。';
@@ -403,7 +404,7 @@ $string['grademethod_help'] = '複数回の受験が許可されている場合�
 $string['gradesdeleted'] = '小テストの評定が削除されました。';
 $string['gradesofar'] = '{$a->method}: {$a->mygrade} / {$a->quizgrade}';
 $string['gradetopassmustbeset'] = 'この小テストには完了方法に「合格点を必要とする」が設定されているため合格点をゼロにすることはできません。ゼロ以外の値を設定してください。';
-$string['gradetopassnotset'] = 'この小テストには合格点が設定されていません。小テスト設定の評定セクションで設定することができます。';
+$string['gradetopassnotset'] = 'この小テストには合格点が設定されていません。小テスト設定の評点セクションで設定することができます。';
 $string['gradingdetails'] = 'この解答の評点: {$a->raw}/{$a->max}';
 $string['gradingdetailsadjustment'] = '前のペナルティにより <strong>{$a->cur}/{$a->max}</strong> に調整されます。';
 $string['gradingdetailspenalty'] = 'この解答のペナルティ: {$a}';
@@ -432,11 +433,15 @@ $string['importingquestions'] = '{$a} 問の問題をファイルからインポ
 $string['importmax10error'] = '問題にエラーがあります。あなたは10個を超える答えを設定することはできません。';
 $string['importmaxerror'] = '問題にエラーがあります。答えが多すぎます。';
 $string['importquestions'] = 'ファイルから問題をインポートする';
-$string['inactiveoverridehelp'] = '* 学生に小テストを受験するための正しいグループまたはロールがありません。';
+$string['inactiveoverridehelp'] = '* ユーザの活動へのアクセスが制限されているため、このオーオバーライドは有効ではありません。グループ、ロール割り当て、他のアクセス制限または活動が非表示にされている可能性があります。';
 $string['incorrect'] = '不正解';
 $string['indicator:cognitivedepth'] = '小テスト認知的';
+$string['indicator:cognitivedepthdef'] = '小テスト認知的';
+$string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者が小テスト活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信, フィードバックの閲覧, フィードバックへのコメント, フィードバック閲覧後の再送信)。';
 $string['indicator:cognitivedepth_help'] = 'この指標は小テスト活動で学生が到達した認識深度に基づきます。';
 $string['indicator:socialbreadth'] = '小テスト社会的';
+$string['indicator:socialbreadthdef'] = '小テスト社会的';
+$string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者が小テスト活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加, 他の人と参加)。';
 $string['indicator:socialbreadth_help'] = 'この指標は小テスト活動で学生が到達した社会的広がりに基づきます。';
 $string['indivresp'] = '各問題に対する解答内容';
 $string['info'] = 'インフォメーション';
@@ -460,6 +465,8 @@ $string['layoutasshown'] = '表示されているページレイアウトです�
 $string['layoutasshownwithpages'] = '表示されているページレイアウトです。<small>({$a} 問ごとに新しいページが自動作成されます)</small>';
 $string['layoutshuffledandpaged'] = '1ページあたり {$a} 問の問題がランダムにシャッフルされます。';
 $string['layoutshuffledsinglepage'] = '1ページ内で問題すべてがランダムにシャッフルされます。';
+$string['legacyquizaccessrulescron'] = 'レガシーcron小テストアクセスルール';
+$string['legacyquizreportscron'] = 'レガシーcron小テストレポート';
 $string['link'] = 'リンク';
 $string['listitems'] = '小テスト内アイテム一覧';
 $string['literal'] = '定数';
@@ -588,10 +595,10 @@ $string['overallfeedback'] = '全体フィードバック';
 $string['overallfeedback_help'] = '全体フィードバックは小テスト受験後に表示されるテキストです。さらに評点境界 (パーセントまたは数字) を指定することにより取得された評点に応じてテキストを表示することができます。';
 $string['overdue'] = '期限切れ';
 $string['overduehandling'] = '制限時間を経過した場合';
-$string['overduehandlingautoabandon'] = '受験は制限時間内に送信される必要がありますがそうでない場合はカウントされません';
+$string['overduehandlingautoabandon'] = '受験は制限時間内に送信される必要がありますが、そうでない場合はカウントされません';
 $string['overduehandlingautosubmit'] = '開いている受験は自動的に送信されます';
 $string['overduehandling_desc'] = '制限時間の前に学生が小テストを送信しなかった場合、デフォルトでどのようにしますか。';
-$string['overduehandlinggraceperiod'] = '開いている受験を送信できる場合は猶予期間を設けますが、さらに問題への解答はできません';
+$string['overduehandlinggraceperiod'] = '開いている受験を送信できる場合は送信猶予期間を設けますが、問題には解答できません';
 $string['overduehandling_help'] = 'この設定では学生が制限時間の前に小テスト受験の送信に失敗した場合の処理をコントロールします。その時点で学生が小テストの受験に取り組んでいる場合、カウントダウンタイマーは常に学生のために受験を自動送信します。しかし、学生がログアウトしている場合、この設定が処理をコントロールします。';
 $string['overduemustbesubmittedby'] = 'この受験は制限時間を過ぎています。この受験はすでに送信されている必要があります。あなたがこの小テストの評定を希望する場合、{$a} までに送信してください。それまでに送信しない場合、この受験の評点はカウントされません。';
 $string['override'] = 'オーバーライド';
@@ -725,6 +732,7 @@ $string['quizordernotrandom'] = '小テスト順はシャッフルされませ�
 $string['quizorderrandom'] = '* 小テスト順はシャッフルされます。';
 $string['quiz:preview'] = '小テストをプレビューする';
 $string['quiz:regrade'] = '小テストの受験を再評定する';
+$string['quizreport'] = '小テストレポート';
 $string['quiz:reviewmyattempts'] = 'あなた自身の受験をレビューする';
 $string['quizsettings'] = '小テスト設定';
 $string['quiztimer'] = '小テストタイマー';
@@ -828,7 +836,7 @@ $string['reviewoptionsheading_help'] = 'このオプションでは小テスト�
 
 **学生の受験最中** 設定は「複数受験インタラクティブ」のような特定の挙動にのみ関連します。
 
-**学生の受験直後 (2分間)** 設定はユーザが「すべてを送信して終了する」ボタンをクリックして受験を終了した後、2分以内を意味します。
+**学生の受験直後 (2分間)** 設定はユーザが「すべての解答を送信して採点待ちにする」ボタンをクリックして受験を終了した後、2分以内を意味します。
 
 **学生の受験後、小テストがクローズされるまで** 設定は今後および小テスト終了日時の前を意味します。
 
@@ -861,6 +869,7 @@ $string['sectionheadingremove'] = '見出し「 {$a} 」を削除する';
 $string['seequestions'] = '(問題を表示する)';
 $string['select'] = '選択';
 $string['selectall'] = 'すべてを選択する';
+$string['selectattempt'] = '受験を選択する';
 $string['selectcategory'] = 'カテゴリを選択する';
 $string['selectedattempts'] = '選択された受験 ...';
 $string['selectmultipleitems'] = '複数のアイテムを選択する';
@@ -924,7 +933,7 @@ $string['stateoverdue'] = '期限切れ';
 $string['stateoverduedetails'] = '送信期限: {$a}';
 $string['status'] = 'ステータス';
 $string['stoponerror'] = 'エラーで中止する';
-$string['submitallandfinish'] = 'すべての解答をサーバへ送信し、採点待ちにする';
+$string['submitallandfinish'] = 'すべての解答を送信して採点待ちにする';
 $string['subneterror'] = '申し訳ございません、この小テストは特定の場所からのみアクセスすることができます。現在、あなたのコンピュータはこの小テストを利用できるコンピュータではありません。';
 $string['subnetnotice'] = '特定の場所からのみアクセスできるようこの小テストはロックされています。現在、あなたのコンピュータはこの小テストの使用を許可されていません。あなたが教師としてプレビューすることは許可されています。';
 $string['subplugintype_quiz'] = 'レポート';
@@ -961,6 +970,7 @@ $string['unfinished'] = '未了';
 $string['ungraded'] = '未評定';
 $string['unit'] = '単位';
 $string['unknowntype'] = '{$a} 行目の問題タイプはサポートされていません。問題は無視されます。';
+$string['updateoverdueattemptstask'] = '期限切れの小テスト受験を更新する';
 $string['updatequizslotswithrandomxofy'] = '「ランダム」問題データの小テストスロットを更新する ({$a->done}/{$a->total})';
 $string['updatesettings'] = '小テスト設定を更新する';
 $string['updatingatttemptgrades'] = '受験評点の更新';

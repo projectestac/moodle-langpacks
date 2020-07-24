@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'portfolio', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   portfolio
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -188,7 +188,7 @@ $string['selectedformat'] = 'Выбранный формат экспорта';
 $string['selectedwait'] = 'Ждать выбранный?';
 $string['selectplugin'] = 'Выберите место назначения';
 $string['showhide'] = 'Показать / скрыть';
-$string['singleinstancenomultiallowed'] = 'Доступен только один экземпляр плагина портфолио, несколько экспортов в сессии не поддерживается.Уже есть активный экспорт в сессии, использующей этот плагин!';
+$string['singleinstancenomultiallowed'] = 'Доступен только один экземпляр плагина портфолио, несколько экспортов в сессии не поддерживается. Уже есть активный экспорт в сессии, использующей этот плагин!';
 $string['somepluginsdisabled'] = 'Некоторые плагины портфолио целиком были отключены, потому что они либо неверно сконфигурированы, либо полагаются на что-то другое:';
 $string['sure'] = 'Вы уверены, что хотите удалить«{$a}»? Это действие не может быть отменено.';
 $string['thirdpartyexception'] = 'Сторонее исключение было получено в течение экспорта портфолио ({$a}). Прервите и вызовите вновь, но это должно быть действительно исправлено';

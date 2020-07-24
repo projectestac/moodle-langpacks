@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'portfolio', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   portfolio
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,7 +46,7 @@ $string['confirmexport'] = 'Mesedez, baieztatu esportazio hau';
 $string['confirmsummary'] = 'Zure esportazioaren laburpena';
 $string['continuetoportfolio'] = 'Jarraitu zure portfoliora';
 $string['deleteportfolio'] = 'Ezabatu portfolio-instantzia';
-$string['destination'] = 'Helburua';
+$string['destination'] = 'Helmuga';
 $string['disabled'] = 'Sentitzen dugu, baina gune honetan portfolio-esportazioak ez daude gaituta';
 $string['disabledinstance'] = 'Desgaituta';
 $string['displayarea'] = 'Esportazio-eremua';
@@ -191,7 +191,7 @@ $string['returntowhereyouwere'] = 'Itzuli aurreko tokira';
 $string['save'] = 'Gorde';
 $string['selectedformat'] = 'Aukeratutako esportazio-formatua';
 $string['selectedwait'] = 'Itxaroteko aukeratua?';
-$string['selectplugin'] = 'Aukeratu helburua';
+$string['selectplugin'] = 'Aukeratu helmuga';
 $string['showhide'] = 'Erakutsi / ezkutatu';
 $string['singleinstancenomultiallowed'] = 'Portfolio-plugin bakarra dago eskuragarri, ez ditu saio beraren aldi bereko esportatze anitzak onartzen, eta gehigarri hori erabiliz saio honetan dagoeneko aktibo dagoen esportatze bat dago!';
 $string['somepluginsdisabled'] = 'Portfolio-plugin batzuk desgaitu dira konfigurazio okerra dutelako edo beste zerbaiten menpe daudelako:';

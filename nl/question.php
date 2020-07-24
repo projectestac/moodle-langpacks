@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'question', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,6 +82,9 @@ $string['categoryinfo'] = 'Categorie info';
 $string['categorymove'] = 'De categorie \'{$a->name}\' bevat {$a->count} vragen (sommigen kunnen verborgen vragen zijn of willekeurige vragen die nog gebruikt worden in een test). Kies alsjeblieft een andere categorie om deze vragen naar te verplaatsen.';
 $string['categorymoveto'] = 'Bewaar in categorie';
 $string['categorynamecantbeblank'] = 'De categorienaam kan niet leeg zijn';
+$string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
+$string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
+$string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Wijzig opties';
 $string['changepublishstatuscat'] = 'De instelling voor het delen van <a href="{$a->caturl}">categorie "{$a->name}"</a> in cursus "{$a->coursename}" zal gewijzigd worden van <strong>{$a->changefrom} naar {$a->changeto}</strong>.';
 $string['check'] = 'Controleer';
@@ -166,7 +169,19 @@ $string['errorsavingcomment'] = 'Fout bij het bewaren van de commentaar voor vra
 $string['errorsavingflags'] = 'Fout bij het bewaren van de vlagstatus';
 $string['errorupdatingattempt'] = 'Fout bij het updaten van poging {$a->id} in de databank.';
 $string['eventquestioncategorycreated'] = 'Vraagcategorie aangemaakt';
+$string['eventquestioncategorydeleted'] = 'Vraagcategorie verwijderd';
+$string['eventquestioncategorymoved'] = 'Vraagcategorie verplaatst';
+$string['eventquestioncategoryupdated'] = 'Vraagcategorie bijgewerkt';
+$string['eventquestioncategoryviewed'] = 'Vraagcategorie bekeken';
+$string['eventquestioncreated'] = 'Vraag gemaakt';
+$string['eventquestiondeleted'] = 'Vraag verwijderd';
+$string['eventquestionmoved'] = 'Vraag verplaatst';
+$string['eventquestionsexported'] = 'Vragen geëxporteerd';
+$string['eventquestionsimported'] = 'Vragen geïmporteerd';
+$string['eventquestionupdated'] = 'Vraag bijgewerkt';
+$string['eventquestionviewed'] = 'Vraag bekeken';
 $string['export'] = 'Exporteer';
+$string['exportasxml'] = 'Exporteer als Moodle XML';
 $string['exportcategory'] = 'Exporteer categorie';
 $string['exportcategory_help'] = 'Deze instelling bepaalt de categorie van waaruit de geëxporteerde vragen gehaald worden.
 

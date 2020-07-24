@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'debug', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,11 +34,13 @@ $string['cannotinitpage'] = 'Kan pagina niet helemaal initialiseren: ongeldige {
 $string['cannotsetuptable'] = '{$a} tabellen konden NIET juist ingesteld worden!';
 $string['codingerror'] = 'Fout in de programmeercode gevonden. Dit moet door een programmeur hersteld worden. {$a}';
 $string['configmoodle'] = 'Moodle is nog niet geconfigureerd. Je moet eerst config.php bewerken.';
+$string['debuginfo'] = 'Foutopsporingsinformatie';
 $string['erroroccur'] = 'Er is een fout opgetreden tijdens dit proces.';
 $string['invalidarraysize'] = 'Array grootte in params van {$a} fout';
 $string['invalideventdata'] = 'Foute gebeurtenisgegevens ingestuurd: {$a}';
 $string['invalidparameter'] = 'Ongeldige parameterwaarde gevonden';
 $string['invalidresponse'] = 'Ongeldige antwoordwaarde gevonden';
+$string['line'] = 'Regel';
 $string['missingconfigversion'] = 'De versie staat niet in de config-tabel. Kan niet verder gaan.';
 $string['modulenotexist'] = 'module {$a} bestaat niet';
 $string['morethanonerecordinfetch'] = 'Meer dan één record gevonden !';
@@ -50,9 +52,11 @@ $string['nomodules'] = 'Geen modules gevonden!';
 $string['nopageclass'] = 'Geïmporteerde {$a} maar geen paginaklassen gevonden';
 $string['noreports'] = 'Geen toegankelijke rapporten';
 $string['notables'] = 'Geen tabellen!';
+$string['outputbuffer'] = 'Uitvoerbuffer';
 $string['phpvaroff'] = 'De PHP server variable \'{$a->name}\' moet Off zijn - {$a->link}';
 $string['phpvaron'] = 'De PHP server variable \'{$a->name}\' is niet ingeschakeld - {$a->link}';
 $string['sessionmissing'] = '{$a} object ontbreekt in de sessie';
 $string['sqlrelyonobsoletetable'] = 'Deze SQL steunt op onbestaande tabellen: {$a}! Je code moet aangepast worden door een software-ontwikkelaar.';
+$string['stacktrace'] = 'Stack trace';
 $string['withoutversion'] = 'version.php is niet leesbaar, fout of niet opgegeven';
 $string['xmlizeunavailable'] = 'xmlize functies zijn niet beschikbaar';

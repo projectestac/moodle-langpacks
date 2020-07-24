@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,36 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['asyncbackupcomplete'] = 'Het backup proces is voltooid';
+$string['asyncbackupcompletebutton'] = 'Voortzetten';
+$string['asyncbackupcompletedetail'] = 'Het backup proces is met succes voltooid. <br/>  U kunt toegang krijgen tot de back-up op de <a href="{$a}"> herstelpagina. </a>';
+$string['asyncbackuperror'] = 'Het backup proces is mislukt';
+$string['asyncbackuperrordetail'] = 'Het back-up proces is mislukt. Neem contact op met je systeembeheerder.';
+$string['asyncbackuppending'] = 'Het back-up proces is in behandeling';
+$string['asyncbackupprocessing'] = 'De back-up is bezig';
+$string['asyncbadexecution'] = 'Slechte uitvoering van backup-controller. Het is {$a} en zou 2 moeten zijn.';
+$string['asynccheckprogress'] = 'Je kunt de voortgang op elk gewenst moment controleren op de <a href="{$a}">restore page</a';
+$string['asyncemailenable'] = 'Schakel berichtmeldingen in';
+$string['asyncemailenabledetail'] = 'Indien ingeschakeld, ontvangen gebruikers een bericht wanneer een asynchrone back-up of herstel is voltooid.';
+$string['asyncgeneralsettings'] = 'Asynchrone backup / restore';
+$string['asyncmessagebody'] = 'Bericht';
+$string['asyncmessagebodydefault'] = 'Hallo {user_firstname}, <br/>Je {operation} (ID: {backupid}) is met succes voltooid. <br/> <br/> U kunt hier toegang tot krijgen: {link}.';
+$string['asyncmessagebodydetail'] = 'Bericht dat moet worden verzonden wanneer een asynchrone back-up of herstel is voltooid.';
+$string['asyncmessagesubject'] = 'Onderwerp';
+$string['asyncmessagesubjectdefault'] = 'Moodle {operation}  is succesvol voltooid';
+$string['asyncmessagesubjectdetail'] = 'Bericht Onderwerp';
+$string['asyncnowait'] = 'Je hoeft hier niet te wachten, omdat het proces op de achtergrond wordt voortgezet.';
+$string['asyncprocesspending'] = 'Proces in behandeling';
+$string['asyncrestorecomplete'] = 'Het herstelproces is voltooid';
+$string['asyncrestorecompletebutton'] = 'Ga door';
+$string['asyncrestorecompletedetail'] = 'Het herstelproces is met succes voltooid. Als je op Doorgaan klikt, gaat u naar de  <a href="{$a}"> cursus met het teruggezette item. </a>';
+$string['asyncrestoreerror'] = 'Het herstelproces is mislukt';
+$string['asyncrestoreerrordetail'] = 'Het herstelproces is mislukt. Neem contact op met uw systeembeheerder.';
+$string['asyncrestoreinprogress'] = 'Herstelproces bezig';
+$string['asyncrestoreinprogress_help'] = 'Asynchrone herstelde cursus die hier worden uitgevoerd, worden hier weergegeven.';
+$string['asyncrestorepending'] = 'Het herstelproces is in behandeling';
+$string['asyncrestoreprocessing'] = 'Het herstel is bezig';
+$string['asyncreturn'] = 'Keer terug naar cursus';
 $string['autoactivedescription'] = 'Kies om al dan niet automatische back-ups te doen. Als manueel is geselecteerd, dan zullen automatische back-ups enkel mogelijk zijn met het automatische back-ups Command Line Interface script. Dit kan dan manueel gedaan worden via de command line of via cron.';
 $string['autoactivedisabled'] = 'Uitgeschakeld';
 $string['autoactiveenabled'] = 'Ingeschakeld';
@@ -64,6 +94,7 @@ $string['backupmode30'] = 'Hub';
 $string['backupmode40'] = 'Zelfde site';
 $string['backupmode50'] = 'Geautomatiseerd';
 $string['backupmode60'] = 'Geconverteerd';
+$string['backupmode70'] = 'Asynchroon';
 $string['backupsection'] = 'Back-up cursussectie: {$a}';
 $string['backupsettings'] = 'Back-upinstellingen';
 $string['backupsitedetails'] = 'Site details';
@@ -93,6 +124,7 @@ $string['configgeneralblocks'] = 'Stelt de standaardinstelling  in voor het opne
 $string['configgeneralcalendarevents'] = 'Standaardinstelling voor het opnemen van kalendergebeurtenissen in een back-up.';
 $string['configgeneralcomments'] = 'Stelt de standaardinstelling  in voor het opnemen van commentaren in een back-up';
 $string['configgeneralcompetencies'] = 'Standaardinstelling voor het opnemen van competenties in een back-up.';
+$string['configgeneralfiles'] = 'Stelt de standaardwaarde in voor het opnemen van bestanden in een back-up. Het uitschakelen van deze instelling zal als resultaat hebben dat er enkel referenties naar bestanden in de backup zitten. Dit is geen probleem als de backup terug gezet wordt op dezelfde site en de bestanden zijn niet gewist door de instelling \'Prullenbak leegmaken\' (filescleanupperiod)';
 $string['configgeneralfilters'] = 'Stelt de standaardinstelling  in voor het opnemen van filters in een back-up';
 $string['configgeneralgroups'] = 'Stelt de standaard in om groepen en groeperingen mee op te nemen in een back-up.';
 $string['configgeneralhistories'] = 'Stelt de standaardinstelling  in voor het opnemen van de gebruikersgeschiedenis in een back-up';
@@ -140,6 +172,8 @@ $string['currentstage16'] = 'Volledig';
 $string['currentstage2'] = 'Schema-instellingen';
 $string['currentstage4'] = 'Nakijken en bevestigen';
 $string['currentstage8'] = 'Back-up uitvoeren';
+$string['enableasyncbackup'] = 'Schakel asynchrone back-ups in';
+$string['enableasyncbackup_help'] = 'Indien ingeschakeld, worden alle back-up- en herstelbewerkingen asynchroon uitgevoerd. Dit heeft geen invloed op import en export. Met asynchrone back-ups en herstelbewerkingen kunnen gebruikers andere bewerkingen uitvoeren terwijl een back-up of herstel bezig is.';
 $string['enterasearch'] = 'Start een zoekopdracht';
 $string['error_block_for_module_not_found'] = 'Verweesde blok instantie (id: {$a->bid}) voor cursus module (id: {$a->mid}) gevonden. Dit blok zal niet geback-uped worden.';
 $string['errorcopyingbackupfile'] = 'Het kopiëren van het back-upbestand naar de tijdelijke map voor het terugzetten is mislukt.';
@@ -152,6 +186,7 @@ $string['errorinvalidformatinfo'] = 'Het gekozen bestand is geen geldig Moodle b
 $string['errorminbackup20version'] = 'Dit back-upbestand is gemaakt met een ontwikkelversie van Moodle-back-up ({$a->backup}). De minimale vereiste is {$a->min}. Kan niet teruggezet worden.';
 $string['errorrestorefrontpagebackup'] = 'Je kunt back-ups van de startpagina enkel op de startpagina terugzetten';
 $string['executionsuccess'] = 'Je back-upbestand is klaar.';
+$string['failed'] = 'Back-up mislukt';
 $string['filealiasesrestorefailures'] = 'Aliases terugzetten mislukt';
 $string['filealiasesrestorefailures_help'] = 'Aliases zijn symbolische links naar andere bestanden,  ook deze naar externe opslagruimten. In sommige gevallen kan Moodle ze niet terugzetten - bijvoorbeeld als een back-up van een andere site wordt teruggezet en het bestand waarnaar gerefereerd wordt niet bestaat.
 
@@ -170,12 +205,13 @@ $string['generalcalendarevents'] = 'Kalendergebeurtenissen mee opnemen';
 $string['generalcomments'] = 'Commentaren mee opnemen';
 $string['generalcompetencies'] = 'Competenties mee opnemen';
 $string['generalenrolments'] = 'Aanmeldingsmethodes mee opnemen';
+$string['generalfiles'] = 'Bestanden opnemen';
 $string['generalfilters'] = 'Filters mee opnemen';
 $string['generalgradehistories'] = 'Geschiedenis toevoegen';
 $string['generalgroups'] = 'Groepen en groeperingen mee opnemen';
 $string['generalhistories'] = 'Geschiedenis mee opnemen';
 $string['generallogs'] = 'Logs mee opnemen';
-$string['generalquestionbank'] = 'Vragenpool ook backuppen';
+$string['generalquestionbank'] = 'De hele vragenpool ook back-uppen';
 $string['generalrestoredefaults'] = 'Algemene standaardinstellingen voor terugzetten.';
 $string['generalrestoresettings'] = 'Algemene instellingen voor terugzetten.';
 $string['generalroleassignments'] = 'Roltoewijzingen mee opnemen';
@@ -208,6 +244,7 @@ $string['includeditems'] = 'Ingesloten items:';
 $string['includefilereferences'] = 'Bestandsverwijizingen naar externe inhoud';
 $string['includesection'] = 'Sectie {$a}';
 $string['includeuserinfo'] = 'Gebruikersinformatie';
+$string['inprogress'] = 'Back-up wordt uitgevoerd';
 $string['jumptofinalstep'] = 'Ga naar laatste stap';
 $string['keep'] = 'Bijhouden';
 $string['locked'] = 'Geblokkeerd';
@@ -226,6 +263,10 @@ $string['nomatchingcourses'] = 'Er zijn geen cursussen om te tonen';
 $string['norestoreoptions'] = 'Er zijn geen categorieën of bestaande cursussen waarnaar je kan terugzetten.';
 $string['originalwwwroot'] = 'URL van de back-up';
 $string['overwrite'] = 'Overschrijven';
+$string['pendingasyncdeletedetail'] = 'Voor deze cursus is een asynchrone back-up in behandeling. <br/> Cursussen kunnen pas worden verwijderd als deze back-up is voltooid.';
+$string['pendingasyncdetail'] = 'Met asynchrone back-ups kan een gebruiker slechts één back-up in behandeling voor één bron tegelijk hebben. <br/> Meerdere asynchrone back-ups van dezelfde bron kunnen niet in de wachtrij worden geplaatst, omdat dit waarschijnlijk zou resulteren in meerdere back-ups met dezelfde inhoud.';
+$string['pendingasyncedit'] = 'Er is een asynchrone back-up in behandeling voor deze cursus. Bewerk deze cursus niet voordat de back-up is voltooid.';
+$string['pendingasyncerror'] = 'Back-up in behandeling voor deze bron';
 $string['preparingdata'] = 'Data voorbereiden';
 $string['preparingui'] = 'Tonen van de pagina voorbereiden';
 $string['previousstage'] = 'Vorige';
@@ -241,7 +282,7 @@ $string['qcategory2coursefallback'] = 'De vragencategorie "{$a->name}" die oorsp
 $string['qcategorycannotberestored'] = 'De vragencategorie "{$a->name}" kan tijdens het terugzetten niet gemaakt worden';
 $string['question2coursefallback'] = 'De vragencategorie "{$a->name}" die oorspronkelijk op systeem/cursus categorie context in het back-up bestand zat, zal in de cursus context gemaakt worden bij het terugzetten;';
 $string['questionegorycannotberestored'] = 'De vragen "{$a->name}" kunnen niet gemaakt worden tijdens het terugzetten.';
-$string['recyclebin_desc'] = 'Deze instellingen worden ook toegepast op de prullenbak';
+$string['recyclebin_desc'] = 'Deze instellingen worden ook toegepast op de prullenbak.';
 $string['replacerestoredefaults'] = 'Herstel standaardinstellingen wanneer er teruggezet wordt in een andere cursus waarbij inhoud verwijderd wordt';
 $string['restoreactivity'] = 'Activiteit terugzetten';
 $string['restorecourse'] = 'Cursus terugzetten';
@@ -287,21 +328,24 @@ $string['rootsettingblocks'] = 'Blokken invoegen';
 $string['rootsettingcalendarevents'] = 'Kalendergebeurtenissen mee opnemen';
 $string['rootsettingcomments'] = 'Commentaar invoegen';
 $string['rootsettingcompetencies'] = 'Competenties mee opnemen';
+$string['rootsettingcustomfield'] = 'Voeg aangepaste velden toe';
 $string['rootsettingenrolments'] = 'Aanmeldingsmethoden mee opnemen';
 $string['rootsettingenrolments_always'] = 'Ja, altijd';
 $string['rootsettingenrolments_never'] = 'Nee, zet gebruikers terug als manuele aanmeldingen';
 $string['rootsettingenrolments_withusers'] = 'Ja, maar enkel als gebruikers mee opgenomen zijn';
+$string['rootsettingfiles'] = 'Bestanden opnemen';
 $string['rootsettingfilters'] = 'Filters invoegen';
 $string['rootsettinggradehistories'] = 'Cijfergeschiedenis invoegen';
 $string['rootsettinggroups'] = 'Groepen en groeperingen mee opnemen';
 $string['rootsettingimscc1'] = 'Converteer naar IMS Common Cartridge 1.0';
 $string['rootsettingimscc11'] = 'Converteer naar IMS Common Cartridge 1.1';
 $string['rootsettinglogs'] = 'Cursuslogs invoegen';
-$string['rootsettingquestionbank'] = 'Vragenpool ook backuppen';
+$string['rootsettingquestionbank'] = 'De hele vragenpool ook back-uppen';
 $string['rootsettingroleassignments'] = 'Roltoewijzingen van gebruikers invoegen';
 $string['rootsettings'] = 'Back-up-instellingen';
 $string['rootsettingusers'] = 'Aangemelde gebruikers invoegen';
 $string['rootsettinguserscompletion'] = 'Details over voltooien van gebruikers invoegen';
+$string['samesitenotification'] = 'Deze back-up is gemaakt met alleen verwijzingen naar bestanden, niet de bestanden zelf. Herstellen werkt alleen op deze website.';
 $string['sectionactivities'] = 'Activiteiten';
 $string['sectioninc'] = 'Ingevoegd in back-up (geen gebruikersinformatie)';
 $string['sectionincanduser'] = 'In back-up samen met gebruikersinformatie';
@@ -324,9 +368,12 @@ $string['skipmodifdays'] = 'Sla cursussen over die niet gewijzigd zijn sinds';
 $string['skipmodifdayshelp'] = 'Kies om cursussen over te slaan die niet gewijzigd zijn sinds een bepaald aantal dagen.';
 $string['skipmodifprev'] = 'Sla cursussen over die niet gewijzigd zijn sinds de vorige back-up';
 $string['skipmodifprevhelp'] = 'Kies om al dan niet cursussen over te slaan die niet gewijzigd zijn sinds de vorige back-up. Hiervoor moeten logs ingeschakeld zijn.';
+$string['status'] = 'Status';
 $string['storagecourseandexternal'] = 'Cursusback-ups in cursusbestandszone en alternatieve map';
 $string['storagecourseonly'] = 'Cursusback-ups in cursusbestandszone';
 $string['storageexternalonly'] = 'Alternatieve map voor automatische back-ups';
+$string['successful'] = 'Back-up geslaagd';
+$string['successfulrestore'] = 'Herstel succesvol';
 $string['timetaken'] = 'Gebruikte tijd';
 $string['title'] = 'Titel';
 $string['totalcategorysearchresults'] = 'Totaal aantal categorieën: {$a}';

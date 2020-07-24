@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,10 +30,15 @@ Tenga en cuenta que esta medida no mejora la seguridad del servidor de forma sig
 $string['check_configrw_name'] = 'Archivo config.php escribible';
 $string['check_configrw_ok'] = 'El archivo config.php no puede ser modificado por scripts PHP.';
 $string['check_configrw_warning'] = 'Los scripts PHP pueden modificar el archivo config.php.';
-$string['check_cookiesecure_details'] = '<p>Si habilita la comunicación https, se recomienda que también habilite las \'cookies\' seguras. Debería asimismo agregar una redirección permanente desde http a https.</p>';
+$string['check_cookiesecure_details'] = '<p>Si habilita la comunicación https, se recomienda que también habilite el envío de \'cookies\' seguras. Debería asimismo agregar una redirección permanente desde http a https. Idealmente también debería de servir encabezados HSTS (headers) tambien.</p>';
 $string['check_cookiesecure_error'] = 'Por favor, habilite \'cookies\' seguras';
 $string['check_cookiesecure_name'] = '\'Cookies\' seguras';
 $string['check_cookiesecure_ok'] = 'Habilitadas \'Cookies\' seguras.';
+$string['check_crawlers_details'] = '<p>La configuración de Abrir a Google permite que los motores de búsqueda entren a los cursos que tengan acceso a invitados. No hay razón de configurarlo así cuando un sitio no  permite el acceso a invitados.</p>';
+$string['check_crawlers_error'] = 'Se permite el acceso al motor de búsquedas pero el acceso de invitados está desactivado.';
+$string['check_crawlers_info'] = 'Los motores de búsqueda pueden entrar como invitados.';
+$string['check_crawlers_name'] = 'Abrir a Google';
+$string['check_crawlers_ok'] = 'El acceso a los motores de búsqueda está deshabilitado.';
 $string['check_defaultuserrole_details'] = '<p>A todos los usuarios identificados se les asignan los permisos del rol de usuario por defecto. Por favor, asegúrese de que no se admiten permisos de riego en este rol. </p>
 <p>Para el rol de usuario por defecto solo se permite heredar el tipo <em>usuario autenticado</em>. El  permiso para ver el curso no debe estar habilitado. </p>';
 $string['check_defaultuserrole_error'] = 'El rol default para el usuario "{$a}" ¡está incorrectamente definido!';
@@ -59,11 +64,6 @@ $string['check_frontpagerole_error'] = '¡Detectado un rol en la página princip
 $string['check_frontpagerole_name'] = 'Rol en la página principal';
 $string['check_frontpagerole_notset'] = 'El rol en la página principal no está establecido.';
 $string['check_frontpagerole_ok'] = 'La definición del rol en la página principal es correcta.';
-$string['check_google_details'] = '<p>La configuración de Abrir a Google permite que los motores de búsqueda entren a los cursos que tengan acceso a invitados. No hay razón de configurarlo así cuando un sitio no  permite el acceso a invitados.</p>';
-$string['check_google_error'] = 'Se permite el acceso al motor de búsquedas pero el acceso de invitados está desactivado.';
-$string['check_google_info'] = 'Los motores de búsqueda pueden entrar como invitados.';
-$string['check_google_name'] = 'Abrir a Google';
-$string['check_google_ok'] = 'El acceso a los motores de búsqueda está deshabilitado.';
 $string['check_guestrole_details'] = '<p>El rol de invitados se emplea para el acceso a cursos para invitados, para usuarios no-identificados y para invitados temporales. Por favor asegúrese que no se permitan permisos riesgosos en este rol.</p>
 <p>El único rol heredado soportado para el rol de invitado es <em>Invitado</em>.</p>';
 $string['check_guestrole_error'] = '¡El rol de invitado "{$a}" está definido incorrectamente!';
@@ -79,6 +79,7 @@ $string['check_noauth_error'] = 'La extensión "Sin identificación" no puede us
 $string['check_noauth_name'] = 'Sin identificación';
 $string['check_noauth_ok'] = 'La extensión "Sin identificación" está deshabilitada';
 $string['check_nodemodules_info'] = 'El directorio node_modules no debería estar presente en sitios públicos.';
+$string['check_nodemodules_name'] = 'Directorio de módulos Node.js';
 $string['check_openprofiles_details'] = '<p>Los perfiles de usuario abiertos pueden ser explotados por spammers. Se recomienda que haga una de dos acciones: Habilitar <code>Forzar a los usuarios a que se identifiquen para ver perfiles</code> o  Habilitar <code>Forzar usuarios a identificarse.</p>';
 $string['check_openprofiles_error'] = 'Cualquier persona puede ver los perfiles de usuarios sin autenticarse';
 $string['check_openprofiles_name'] = 'Abrir perfiles de usuario';
@@ -88,6 +89,8 @@ N ponga unos requisitos demasiado estrictos, ya que puede ocurrir que los usuari
 $string['check_passwordpolicy_error'] = 'No se ha configurado la política de contraseñas.';
 $string['check_passwordpolicy_name'] = 'Política de contraseñas';
 $string['check_passwordpolicy_ok'] = 'Política de contraseñas habilitada.';
+$string['check_preventexecpath_name'] = 'Rutas hacia ejecutables';
+$string['check_preventexecpath_ok'] = 'Las rutas hacia ejecutables solamente son configurables en config.php.';
 $string['check_preventexecpath_warning'] = 'Las rutas hacia ejecutables pueden configurarse en la Interfaz Gráfica del Usuario Administrador.';
 $string['check_riskadmin_detailsok'] = '<p>Por favor, compruebe la siguiente lista de los administradores del sistema:</p>{$a}';
 $string['check_riskadmin_detailswarning'] = '<p>Por favor verifique la lista siguiente de administradores del sistema:</p>{$a->admins} <p> Se recomienda que solamente se asigne el rol de administrador en el contexto de sistema. Los siguientes usuarios tienen asignaciones de rol de administrador (no soportadas) en otros contextos:</p>{$a->unsupported}';
@@ -114,7 +117,9 @@ $string['check_unsecuredataroot_name'] = 'Directorio dataroot inseguro';
 $string['check_unsecuredataroot_ok'] = 'El directorio de datos (normalmente /moodledata) no debe ser accesible desde la web';
 $string['check_unsecuredataroot_warning'] = '!Su directorio dataroot <code>{$a}</code> ¡ está en el lugar equivocado y puede estar expuesto a la web!';
 $string['check_vendordir_info'] = 'El directorio del vendedor no debería estar presente en sitios públicos.';
-$string['check_webcron_name'] = 'Cron web';
+$string['check_vendordir_name'] = 'Directorio del vendedor';
+$string['check_webcron_details'] = '<p>El ejecutar el cron por web puede exponer información privilegiada a usuarios anónimos. Se recomienda usar el cron solamente mediante la Interfaz por Línea de Comando (CLI) o configurar una contraseña del cron para el acceso remoto.</p>';
+$string['check_webcron_name'] = 'Cron por web';
 $string['check_webcron_ok'] = 'Los usuarios anónimos no pueden acceder al cron.';
 $string['check_webcron_warning'] = 'Los usuarios anónimos pueden acceder al cron.';
 $string['configuration'] = 'Configuración';
@@ -122,6 +127,7 @@ $string['description'] = 'Descripción';
 $string['details'] = 'Detalles';
 $string['issue'] = 'Tema';
 $string['pluginname'] = 'Información general sobre seguridad';
+$string['privacy:metadata'] = 'El plugin de Vista general de seguridad no almacena ningún dato personal.';
 $string['security:view'] = 'Ver informe de seguridad';
 $string['status'] = 'Estatus';
 $string['statuscritical'] = 'Crítico';

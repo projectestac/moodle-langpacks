@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['answer'] = 'Resposta';
 $string['bgimage'] = 'Imagem de fundo';
 $string['clearwrongparts'] = 'Mover os marcadores arrastados incorretamente para a sua posição inicial na imagem abaixo';
 $string['coords'] = 'Coordenadas';
-$string['correctansweris'] = 'A resposta correta é: {$a}';
+$string['correctansweris'] = 'Resposta correta: {$a}';
 $string['draggableimage'] = 'Imagem arrastável';
 $string['draggableitem'] = 'Item arrastável';
 $string['draggableitemheader'] = 'Item arrastável {$a}';
@@ -79,7 +79,9 @@ $string['pluginname'] = 'Arrastar e largar numa área';
 $string['pluginnameadding'] = 'Adicionar pergunta do tipo arrastar e largar numa área';
 $string['pluginnameediting'] = 'Editar pergunta do tipo arrastar e largar numa área';
 $string['pluginname_help'] = 'As perguntas do tipo arrastar e largar numa área necessitam que os alunos arrastem quadros de texto, e os larguem numa área para largar predefinida numa imagem de fundo.';
-$string['pluginnamesummary'] = 'Os marcadores podem ser arrastados e largados em zonas predefinidas para largar, numa imagem de fundo.';
+$string['pluginnamesummary'] = 'Os marcadores podem ser arrastados e largados em zonas predefinidas para largar, numa imagem de fundo.
+
+Nota: este tipo de pergunta não é acessível a utilizadores com deficiência visual.';
 $string['previewareaheader'] = 'Pré-visualização';
 $string['previewareamessage'] = 'Selecione um ficheiro de imagem de fundo, insira os seus quadros de texto para marcadores e defina as áreas para largar, na imagem de fundo, onde estes deverão ser largados.';
 $string['privacy:metadata'] = 'O módulo Pergunta do tipo Arrastar e largar numa área não armazena quaisquer dados pessoais.';

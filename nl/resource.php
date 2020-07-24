@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'resource', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,8 +62,12 @@ $string['filtername'] = 'Bronnamen automatisch linken';
 $string['forcedownload'] = 'Download verplicht';
 $string['framesize'] = 'Frame hoogte';
 $string['indicator:cognitivedepth'] = 'Bestand cognitief';
+$string['indicator:cognitivedepthdef'] = 'Bestand cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de bestandsresources tijdens dit analyse-interval bereikt (Niveaus = Geen weergave, Weergave)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Bestand bron.';
 $string['indicator:socialbreadth'] = 'Bestand sociaal';
+$string['indicator:socialbreadthdef'] = 'Bestand sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid van de bestandsresources tijdens dit analyse-interval bereikt (niveaus = geen deelname, alleen deelnemer)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Bestand bron.';
 $string['legacyfiles'] = 'Migratie van oude cursusbestanden';
 $string['legacyfilesactive'] = 'Actief';

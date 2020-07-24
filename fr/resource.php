@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'resource', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,8 +62,12 @@ $string['filtername'] = 'Liens automatiques des noms des ressources';
 $string['forcedownload'] = 'Forcer le téléchargement';
 $string['framesize'] = 'Hauteur du cadre';
 $string['indicator:cognitivedepth'] = 'Fichier : aspect cognitif';
+$string['indicator:cognitivedepthdef'] = 'Fichier : aspect cognitif';
+$string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement cognitif offert par les ressources « Fichier » (niveaux : pas de vue, vue).';
 $string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une ressource Fichier.';
 $string['indicator:socialbreadth'] = 'Fichier : aspect social';
+$string['indicator:socialbreadthdef'] = 'Fichier : aspect social';
+$string['indicator:socialbreadthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement social offert par les ressources « Fichier » (niveaux : pas de participation, participant seul).';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une ressource Fichier.';
 $string['legacyfiles'] = 'Migration des anciens fichiers du cours';
 $string['legacyfilesactive'] = 'Activée';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'grades', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addfeedback'] = 'Добавить отзыв';
 $string['addgradeletter'] = 'Добавить букву оценки';
 $string['addidnumbers'] = 'Добавить ID';
 $string['additem'] = 'Добавить элемент оценивания';
+$string['additionalfeedback'] = 'Дополнительный отзыв';
 $string['addoutcome'] = 'Добавить показатель';
 $string['addoutcomeitem'] = 'Добавить оценку за показатель';
 $string['addscale'] = 'Добавить шкалу';

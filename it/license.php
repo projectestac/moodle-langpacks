@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'license', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'license', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   license
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['allrightsreserved'] = 'Tutti i diritti riservati';
 $string['cc'] = 'Creative Commons';
 $string['cc-nc'] = 'Creative Commons - Non Commerciale';
 $string['cc-nc-nd'] = 'Creative Commons - Non Commerciale NoOpereDerivate';
-$string['cc-nc-sa'] = 'Creative Commons - Non Commercial ShareAlike';
+$string['cc-nc-sa'] = 'Creative Commons - Non Commerciale ShareAlike';
 $string['cc-nd'] = 'Creative Commons - NoOpereDerivate';
 $string['cc-sa'] = 'Creative Commons - ShareAlike';
 $string['public'] = 'Pubblico dominio';

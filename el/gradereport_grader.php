@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_grader', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradereport_grader', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   gradereport_grader
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,13 +37,13 @@ $string['overriddengrade'] = 'Βαθμός που παρακάμφθηκε';
 $string['pluginname'] = 'Αναφορά βαθμολογητή';
 $string['preferences'] = 'Προτιμήσεις αναφοράς βαθμολογητή';
 $string['privacy:metadata:preference:grade_report_aggregationposition'] = 'Εάν στις αναφορές βαθμολογίου θα εμφανίζονται πρώτες ή τελευταίες οι στήλες συνόλου κατηγορίας και μαθήματος';
-$string['privacy:metadata:preference:grade_report_averagesdecimalpoints'] = 'Ο αριθμός των δεκαδικών ψηφίων που θα εμφανίζονται για κάθε μέσο όρο ή αν θα χρησιμοποιείται η συνολική ρύθμιση δεκαδικών ψηφίων για την κατηγορία ή το στοιχείο βαθμού (κληρονομικότητα).';
+$string['privacy:metadata:preference:grade_report_averagesdecimalpoints'] = 'Ο αριθμός δεκαδικών ψηφίων που θα εμφανίζονται για κάθε μέσο όρο ή αν θα χρησιμοποιείται (κληρονομείται) η γενική ρύθμιση δεκαδικών ψηφίων για την κατηγορία ή το στοιχείο βαθμού.';
 $string['privacy:metadata:preference:grade_report_averagesdisplaytype'] = 'Αν ο μέσος (μέση τιμή ή μέσος όρος) εμφανίζεται ως πραγματικός βαθμός, ποσοστό ή γράμμα ή αν χρησιμοποιείται (κληρονομείται) ο τύπος εμφάνισης για την κατηγορία ή το στοιχείο βαθμού.';
 $string['privacy:metadata:preference:grade_report_enableajax'] = 'Εάν πρόκειται να προσθέσετε ένα στρώμα λειτουργιών AJAX στην αναφορά βαθμολογητή, απλοποιώντας και επιταχύνοντας κοινές λειτουργίες';
 $string['privacy:metadata:preference:grade_report_grader_collapsed_categories'] = 'Λίστα κατηγοριών βαθμολογίου που θα συμπτυχθούν';
 $string['privacy:metadata:preference:grade_report_meanselection'] = 'Εάν κελιά χωρίς βαθμό πρέπει να συμπεριλαμβάνονται κατά τον υπολογισμό του μέσου όρου (μέσης τιμής) για κάθε κατηγορία ή στοιχείο βαθμού';
 $string['privacy:metadata:preference:grade_report_quickgrading'] = 'Εάν θα εμφανίζεται ένα κουτάκι εισαγωγής κειμένου για κάθε βαθμό, επιτρέποντας την επεξεργασία πολλών βαθμών ταυτόχρονα';
-$string['privacy:metadata:preference:grade_report_rangesdecimalpoints'] = 'Ο αριθμός των δεκαδικών σημείων που εμφανίζονται για κάθε εύρος τιμών ή εάν χρησιμοποιείται η συνολική ρύθμιση δεκαδικών σημείων για την κατηγορία ή το στοιχείο βαθμού (κληρονομήστε)';
+$string['privacy:metadata:preference:grade_report_rangesdecimalpoints'] = 'Ο αριθμός δεκαδικών σημείων που θα εμφανίζονται για κάθε εύρος τιμών ή αν θα χρησιμοποιείται (κληρονομείται) η γενική ρύθμιση δεκαδικών ψηφίων για την κατηγορία ή το στοιχείο βαθμού.';
 $string['privacy:metadata:preference:grade_report_rangesdisplaytype'] = 'Εάν το διάστημα/εύρος εμφανίζεται ως πραγματικοί βαθμοί, ποσοστά ή γράμματα ή αν χρησιμοποιείται (κληρονομικά) ο τύπος εμφάνισης για την κατηγορία ή το στοιχείο βαθμού.';
 $string['privacy:metadata:preference:grade_report_showactivityicons'] = 'Εάν θα εμφανίζονται τα εικονίδια δραστηριότητας δίπλα στα ονόματα δραστηριοτήτων';
 $string['privacy:metadata:preference:grade_report_showanalysisicon'] = 'Εάν θα εμφανίζεται το εικονίδιο ανάλυσης βαθμού από προεπιλογή. Εάν το υποστηρίζει το άρθρωμα δραστηριότητας, το εικονίδιο ανάλυσης βαθμού συνδέεται με μια σελίδα με λεπτομερέστερη εξήγηση του βαθμού και με τον τρόπο με τον οποίο αποκτήθηκε.';

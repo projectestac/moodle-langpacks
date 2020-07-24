@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'group', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,10 +56,10 @@ $string['deletegrouping'] = 'Apagar agrupamento';
 $string['deletegroupingconfirm'] = 'Tem a certeza de que pretende apagar o agrupamento \'{$a}\'? (Os grupos contidos no agrupamento não são apagados)';
 $string['deletegroupsconfirm'] = 'Tem a certeza de que pretende excluir os seguintes grupos?';
 $string['deleteselectedgroup'] = 'Apagar grupos selecionados';
-$string['editgroupingsettings'] = 'Editar definições do agrupamento';
-$string['editgroupsettings'] = 'Editar definições do grupo';
+$string['editgroupingsettings'] = 'Editar configurações do agrupamento';
+$string['editgroupsettings'] = 'Editar configurações do grupo';
 $string['editusersgroupsa'] = 'Editar grupos de "{$a}"';
-$string['enablemessaging'] = 'Enviar mensagem de grupo';
+$string['enablemessaging'] = 'Ativar mensagens de grupo';
 $string['enablemessaging_help'] = 'Se ativar esta opção, os membros do grupo podem enviar mensagens para os outros membros do grupo através da caixa de mensagens.';
 $string['enrolmentkey'] = 'Senha de inscrição';
 $string['enrolmentkeyalreadyinuse'] = 'Esta chave de inscrição já está a ser usada por outro grupo.';
@@ -141,12 +141,13 @@ $string['importgroups_help'] = 'Os grupos podem ser importados a partir de um fi
 * Cada linha do ficheiro contém um registo
 * Cada registo é uma série de dados separados por vírgulas
 * O primeiro registo contém uma lista de nomes dos campos que definem o formato do resto do ficheiro
-* O campo fieldname (nome do grupo) é obrigatório.
-* Os campos opcionais são groupidnumber,description, enrolmentkey, groupingname (ID do grupo, descrição, senha de inscrição, nome do agrupamento).';
+* O campo groupname (nome do grupo) é obrigatório
+* Os campos opcionais são groupidnumber, description, enrolmentkey, groupingname, enablemessaging (ID do grupo, descrição, senha de inscrição, nome do agrupamento, mensagens)';
 $string['importgroups_link'] = 'grupo/importar';
 $string['includeonlyactiveenrol'] = 'Incluir apenas inscrições ativas';
 $string['includeonlyactiveenrol_help'] = 'Se ativar esta opção, os utilizadores suspensos não serão incluídos nos grupos.';
 $string['javascriptrequired'] = 'Esta página requer a ativação do JavaScript.';
+$string['memberofgroup'] = 'Membro do grupo: {$a}';
 $string['members'] = 'Membros por grupo';
 $string['membersofselectedgroup'] = 'Membros:';
 $string['mygroups'] = 'Os meus grupos';

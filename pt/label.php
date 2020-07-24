@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'label', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,8 +34,12 @@ $string['dndresizewidth'] = 'Redimensionar largura da imagem';
 $string['dnduploadlabel'] = 'Adicionar conteúdo multimédia à página da disciplina';
 $string['dnduploadlabeltext'] = 'Adicionar um separador à página da disciplina';
 $string['indicator:cognitivedepth'] = 'Compreensão do Separador';
+$string['indicator:cognitivedepthdef'] = 'Compreensão do Separador';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelos recursos Separador durante esse intervalo de análise (Níveis = Não visualizado, Visualizado)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno no recurso Separador.';
 $string['indicator:socialbreadth'] = 'Socialização do Separador';
+$string['indicator:socialbreadthdef'] = 'Socialização do Separador';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelos recursos Separador durante esse intervalo de análise (Níveis = Sem participação, Participante individual)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno no recurso Separador.';
 $string['label:addinstance'] = 'Adicionar novo Separador';
 $string['labeltext'] = 'Texto do separador';

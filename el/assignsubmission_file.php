@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignsubmission_file', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,8 +36,6 @@ $string['enabled'] = 'Υποβολές αρχείων';
 $string['enabled_help'] = 'Εάν ενεργοποιηθεί, οι μαθητές έχουν τη δυνατότητα να ανεβάσουν ένα ή περισσότερα αρχεία ως υποβολή τους.';
 $string['eventassessableuploaded'] = 'Ένα αρχείο έχει ανεβεί.';
 $string['file'] = 'Υποβολές αρχείων';
-$string['filesofthesetypes'] = 'Τύποι αρχείων που μπορούν να προστεθούν στην υποβολή:';
-$string['filetypewithexts'] = '{$a->name} &mdash; {$a->extlist}';
 $string['maxbytes'] = 'Μέγιστο μέγεθος αρχείου';
 $string['maxfiles'] = 'Μέγιστος αριθμό αρχείων ανά υποβολή';
 $string['maxfiles_help'] = 'Αν οι υποβολές αρχείων ενεργοποιηθούν, κάθε εργασία μπορεί να ρυθμιστεί να δέχεται μέχρι αυτόν τον αριθμό αρχείων για την υποβολή της.';
@@ -45,7 +43,6 @@ $string['maxfilessubmission'] = 'Μέγιστος αριθμός ανεβασμ�
 $string['maxfilessubmission_help'] = 'Αν οι υποβολές αρχείων ενεργοποιηθούν, κάθε μαθητής θα μπορεί να ανεβάσει μέχρι αυτόν τον αριθμό αρχείων για την υποβολή του.';
 $string['maximumsubmissionsize'] = 'Μέγιστο μέγεθος υποβολής';
 $string['maximumsubmissionsize_help'] = 'Τα αρχεία που ανεβάζουν οι μαθητές μπορεί να είναι μέχρι αυτό το μέγεθος.';
-$string['nonexistentfiletypes'] = 'Οι ακόλουθοι τύποι αρχείων δεν αναγνωρίστηκαν: {$a}';
 $string['numfilesforlog'] = 'Ο αριθμός των αρχείων: {$a} αρχεία.';
 $string['pluginname'] = 'Υποβολές αρχείων';
 $string['privacy:metadata:filepurpose'] = 'Τα αρχεία που φορτώθηκαν για αυτή την υποβολή εργασίας.';

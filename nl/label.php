@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'label', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,8 +34,12 @@ $string['dndresizewidth'] = 'Herschalen breedte bij slepen en neerzetten';
 $string['dnduploadlabel'] = 'Media toevoegen aan de cursuspagina';
 $string['dnduploadlabeltext'] = 'Voeg tekst toe aan de cursuspagina';
 $string['indicator:cognitivedepth'] = 'Label cognitief';
+$string['indicator:cognitivedepthdef'] = 'Label cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid bereikt die door de Label-bronnen wordt aangeboden tijdens dit analyse-interval (Niveaus = Geen weergave, Weergave)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Label bron.';
 $string['indicator:socialbreadth'] = 'Label sociaal';
+$string['indicator:socialbreadthdef'] = 'Label sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid bereikt die door de Label-middelen wordt aangeboden tijdens dit analyse-interval (Niveaus = Geen deelname, alleen deelnemer)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Label bron.';
 $string['label:addinstance'] = 'Voeg een nieuw label toe';
 $string['labeltext'] = 'Label tekst';

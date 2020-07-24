@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_cas', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_cas', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_cas
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['accesCAS'] = 'Utilizadores CAS';
 $string['accesNOCAS'] = 'outros utilizadores';
+$string['auth_cas_auth_logo'] = 'Logótipo do método de autenticação';
+$string['auth_cas_auth_logo_description'] = 'Forneça um logótipo para o método de autenticação do CAS que seja familiar para seus utilizadores.';
+$string['auth_cas_auth_name'] = 'Nome do método de autenticação';
+$string['auth_cas_auth_name_description'] = 'Indique um nome para o método de autenticação do CAS que seja familiar para seus utilizadores.';
+$string['auth_cas_auth_service'] = 'CAS (Serviço de Autenticação Central)';
 $string['auth_cas_auth_user_create'] = 'Criar utilizadores externamente';
 $string['auth_cas_baseuri'] = 'URL do servidor (vazio se não houver baseUri)<br />Por exemplo, se o servidor CAS responder a servidor.dominio.pt/CAS/ então<br />cas_baseuri = CAS/';
 $string['auth_cas_baseuri_key'] = 'URI base';

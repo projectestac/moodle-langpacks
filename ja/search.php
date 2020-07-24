@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'search', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,11 @@ $string['confirm_delete'] = '本当に {$a} のインデックスを削除して
 $string['confirm_deleteall'] = '本当にすべてのインデックス化済みコンテンツを削除してもよろしいですか？サイトが再度インデックス化されるまでユーザは検索結果を取得することはできません。';
 $string['confirm_indexall'] = '本当にインデックス化済みコンテンツを更新してもよろしいですか? 大量のコンテンツをインデックス化する必要がある場合、この作業には時間を要します。実運用サーバでは通常あなたは「グローバル検索インデックス化」スケジュールタスクにインデックス化させるべきです。';
 $string['confirm_reindexall'] = '本当にすべてのサイトコンテンツを再インデックス化してもよろしいですか? あなたのサイトに大量のコンテンツが含まれる場合、この作業には時間を要します。再インデックス化が完了するまでユーザは完全な検索結果を取得することはできません。';
+$string['core-all'] = 'すべて';
+$string['core-course-content'] = 'コースコンテンツ';
+$string['core-courses'] = 'コース';
+$string['core-other'] = 'その他';
+$string['core-users'] = 'ユーザ';
 $string['createanindex'] = 'インデックスを作成する';
 $string['createdon'] = '作成日時';
 $string['database'] = 'データベース';
@@ -84,6 +89,7 @@ $string['invalidindexerror'] = 'インデックスディレクトリに無効な
 $string['ittook'] = '検索時間:';
 $string['matchingfile'] = 'ファイル<span class="filename">{$a}</span>に合致する';
 $string['matchingfiles'] = 'ファイルに合致する:';
+$string['mycoursesonly'] = 'マイコースのみ';
 $string['next'] = '次へ';
 $string['noindexmessage'] = '管理: 検索インデックスが作成されていないようです。';
 $string['noresults'] = '該当データはありません。';
@@ -109,6 +115,9 @@ $string['schemaversionunknown'] = '検索エンジンが現在のスキーマバ
 $string['score'] = 'スコア';
 $string['search'] = '検索';
 $string['searcharea'] = '検索エリア';
+$string['searchareacategories'] = '検索エリアカテゴリ';
+$string['search:course'] = 'コース';
+$string['search:customfield'] = 'コースカスタムフィールド';
 $string['searching'] = '検索 ...';
 $string['search:message_received'] = 'メッセージ - 受信';
 $string['search:message_sent'] = 'メッセージ - 送信';

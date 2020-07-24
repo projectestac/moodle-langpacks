@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'glossary', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,6 +158,7 @@ $string['entryexported'] = 'Termo exportado com sucesso';
 $string['entryishidden'] = '(este termo está atualmente oculto)';
 $string['entryleveldefaultsettings'] = 'Configurações predefinidas para termos do glossário';
 $string['entrylink'] = 'Hiperligação da entrada: {$a}';
+$string['entrynotapproved'] = 'Entrada não aprovada';
 $string['entrysaved'] = 'Este termo foi guardado';
 $string['entryupdated'] = 'Este termo foi atualizado';
 $string['entryusedynalink'] = 'Criar automaticamente hiperligações para este termo';
@@ -221,8 +222,12 @@ $string['importentries'] = 'Importar termos';
 $string['importentriesfromxml'] = 'Importar termos de ficheiro XML';
 $string['includegroupbreaks'] = 'Incluir separadores de grupos';
 $string['indicator:cognitivedepth'] = 'Compreensão do Glossário';
+$string['indicator:cognitivedepthdef'] = 'Compreensão do Glossário';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelas atividades Glossário durante esse intervalo de análise (Níveis = Não visualizado, Visualizado, Submetido)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno na atividade Glossário.';
 $string['indicator:socialbreadth'] = 'Socialização do Glossário';
+$string['indicator:socialbreadthdef'] = 'Socialização do Glossário';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelas atividades Glossário durante esse intervalo de análise (Níveis = Sem participação, Participante individual)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno na atividade Glossário.';
 $string['isglobal'] = 'Este glossário é global?';
 $string['isglobal_help'] = 'Um glossário global contém termos que geram hiperligações em todo o site e não apenas da disciplina em que se encontra inserido. Apenas os administradores podem configurar um glossário como global.';
@@ -233,13 +238,13 @@ $string['linking'] = 'Hiperligações automáticas';
 $string['mainglossary'] = 'Glossário principal';
 $string['maxtimehaspassed'] = 'Lamentamos, mas o tempo limite para editar este comentário ({$a}) expirou.';
 $string['modulename'] = 'Glossário';
-$string['modulename_help'] = 'O glossário permite aos participantes criarem e manterem uma lista de termos e definições semelhante a um dicionário.
+$string['modulename_help'] = 'O glossário permite aos participantes criar e manter uma lista de termos e definições semelhante a um dicionário.
 
-O professor pode configurar o glossário para que seja possível anexar ficheiros aos termos. Se os anexos forem imagens, estas são exibidas junto à definição do termo. Os termos podem ser visualizados por ordem alfabética, data, categoria ou autor. Podem ficar automaticamente visíveis a todos, após serem inseridos pelos alunos ou após a aprovação do professor.
+O professor pode configurar o glossário para que seja possível anexar ficheiros aos termos. Se os anexos forem imagens, estas são exibidas junto à definição do termo. Os termos podem ser visualizados por ordem alfabética, data, categoria ou autor. Podem ficar automaticamente visíveis para todos, após serem inseridos pelos alunos ou após a aprovação do professor.
 
 Se ativar a opção de hiperligações ao glossário, sempre que os termos surgirem em palavras e/ou frases nos conteúdos da disciplina serão automaticamente convertidos em hiperligações ao respetivo termo e descrição no glossário.
 
-O professor pode permitir que sejam adicionados comentários aos termos. Pode também permitir que os termos sejam avaliados pelos professores ou pelos alunos. Todas as notas atribuídas são convertidas numa nota final que é registada no relatório de avaliação da disciplina.
+O professor pode permitir que sejam adicionados comentários aos termos. Pode também permitir que os termos sejam avaliados pelos professores ou pelos alunos. Todas as notas atribuídas são convertidas numa nota final que é registada na pauta da disciplina.
 
 Os glossários podem ser úteis para criar:
 
@@ -307,7 +312,7 @@ $string['showall_help'] = 'Se ativar esta opção, os participantes podem consul
 $string['showalphabet'] = 'Mostrar hiperligações para o alfabeto';
 $string['showalphabet_help'] = 'Se ativar esta opção, os participantes podem consultar os termos por letra inicial.';
 $string['showspecial'] = 'Mostrar a hiperligação Especial';
-$string['showspecial_help'] = 'Se ativar esta opção, os participantes podem pesquisar os termos iniciados por carateres especiais como @ e #.';
+$string['showspecial_help'] = 'Se ativar esta opção, os participantes podem pesquisar os termos iniciados por caracteres especiais, tais como @ e #.';
 $string['sortby'] = 'Ordenar por';
 $string['sortbycreation'] = 'Por data de criação';
 $string['sortbylastupdate'] = 'Por última atualização';
@@ -319,7 +324,7 @@ $string['tagarea_glossary_entries'] = 'Entrada do glóssário';
 $string['tagsdeleted'] = 'As tags do glossário foram apagadas';
 $string['totalentries'] = 'Todos os termos';
 $string['usedynalink'] = 'Criar automaticamente hiperligações para o glossário';
-$string['usedynalink_help'] = 'Se ativar esta opção e as hiperligações automáticas para o glossário estiverem ativas pelo administrador, ao adicionar um novo termo poderá ativar a opção "Criar automaticamente hiperligações para este termo" para que todas as ocorrências do termo nos conteúdos da disciplina tenham uma hiperligação para a respetiva definição no glossário.';
+$string['usedynalink_help'] = 'Se ativar esta opção e as hiperligações automáticas para o glossário estiverem ativas pelo administrador, ao adicionar um novo termo poderá ativar a opção "Criar automaticamente hiperligação para este termo" para que todas as ocorrências do termo nos conteúdos da disciplina tenham uma hiperligação para a respetiva definição no glossário.';
 $string['visibletabs'] = 'Separadores visíveis';
 $string['waitingapproval'] = 'A aguardar aprovação';
 $string['warningstudentcapost'] = '(Aplica-se apenas se o glossário não for o principal)';

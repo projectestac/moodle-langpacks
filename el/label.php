@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'label', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,8 +34,14 @@ $string['dndresizewidth'] = 'Αλλαγή πλάτους μεταφοράς & α
 $string['dnduploadlabel'] = 'Προσθήκη πολυμέσου στη σελίδα μαθήματος';
 $string['dnduploadlabeltext'] = 'Προσθήκη ταμπέλας στη σελίδα μαθήματος';
 $string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Ταμπέλας';
+$string['indicator:cognitivedepthdef'] = 'Βάθος κατανόησης Ταμπέλας';
+$string['indicator:cognitivedepthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο βάθος κατανόησης που προσφέρεται από τις δραστηριότητες Ταμπέλας κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία εμφάνιση, Εμφάνιση)';
+$string['indicator:cognitivedepthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Βάθος_κατανόησης';
 $string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε έναν πόρο Ταμπέλας.';
 $string['indicator:socialbreadth'] = 'Κοινωνικό εύρος Ταμπέλας';
+$string['indicator:socialbreadthdef'] = 'Κοινωνικό εύρος Ταμπέλας';
+$string['indicator:socialbreadthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο κοινωνικό εύρος που προσφέρεται από τις δραστηριότητες Ταμπέλας κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία συμμετοχή, Συμμετέχων μόνος)';
+$string['indicator:socialbreadthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Κοινωνικό_εύρος';
 $string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε έναν πόρο Ταμπέλας.';
 $string['label:addinstance'] = 'Προσθήκη νέας ταμπέλας';
 $string['labeltext'] = 'Κείμενο ταμπέλας';

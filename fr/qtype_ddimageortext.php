@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_ddimageortext', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_ddimageortext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,7 +62,9 @@ $string['pluginnameadding'] = 'Ajout d\'un glisser-déposer sur une image';
 $string['pluginnameediting'] = 'Modification d\'un glisser-déposer sur une image';
 $string['pluginname_help'] = 'Les questions glisser-déposer sur une image demandent au participant de glisser-déposer des images ou des textes sur des zones de dépôts définies sur une image de fond. Les éléments à glisser-déposer peuvent être groupés, de sorte que les éléments d\'un même groupe aient la même couleur que les zones de dépôt. Les éléments marqués comme réutilisables peuvent être déposés sur une ou plusieurs zones.';
 $string['pluginname_link'] = 'question/type/ddimageortext';
-$string['pluginnamesummary'] = 'Les images ou les labels sont glissés et déposés dans des zones de dépôt sur une image de fond.';
+$string['pluginnamesummary'] = 'Les images ou les étiquettes sont glissés et déposés dans des zones de dépôt sur une image de fond.
+
+À noter : ce type de question n\'est pas accessible pour les personnes malvoyantes.';
 $string['previewareaheader'] = 'Aperçu';
 $string['previewareamessage'] = 'Sélectionnez un fichier image de fond, définissez des éléments à glisser-déposer ainsi que des zones de dépôt sur l\'image de fond où ces éléments doivent être placés.';
 $string['privacy:metadata'] = 'Le plugin de type de question Glisser-déposer sur une image n\'enregistre aucune donnée personnelle.';

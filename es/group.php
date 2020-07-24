@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'group', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -153,6 +153,7 @@ $string['importgroups_help'] = 'Los grupos pueden ser importados mediante un arc
 $string['includeonlyactiveenrol'] = 'Incluir únicamente matriculas activas';
 $string['includeonlyactiveenrol_help'] = 'Si está activado, los usuarios suspendidos no serán incluidos en los grupos.';
 $string['javascriptrequired'] = 'Esta página requiere que Javascript esté activado.';
+$string['memberofgroup'] = 'Miembro del grupo de: {$a}';
 $string['members'] = 'Miembros por grupo';
 $string['membersofselectedgroup'] = 'Miembros de:';
 $string['mygroups'] = 'Mis grupos';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_ldap', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_ldap', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,7 +33,7 @@ moodle/course:changeidnumber moodle/course:changeshortname moodle/course:changef
 $string['autocreate_key'] = '自動作成';
 $string['autocreation_settings'] = 'コース自動作成設定';
 $string['autoupdate_settings'] = 'コース自動更新設定';
-$string['autoupdate_settings_desc'] = '<p>同期スクリプト (enrol/ldap/cli/sync.php) 実行時に更新されるフィールドを選択してください。</p><p>少なくとも1つのフィールドが選択された場合、更新処理が実施されます。</p>';
+$string['autoupdate_settings_desc'] = '<p>「LDAP登録タスクを同期する」スケジュールタスク実行時に更新されるフィールドを選択してください。</p><p>少なくとも1つのフィールドが選択された時点で更新処理が実行されます。</p>';
 $string['bind_dn'] = 'あなたがバインドユーザをユーザ検索に使用したい場合、ここで指定してください。次のように指定します: cn=ldapuser,ou=public,o=org';
 $string['bind_dn_key'] = 'バインドユーザ識別名';
 $string['bind_pw'] = 'ユーザバインドのパスワードです。';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignsubmission_file', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,8 +36,6 @@ $string['enabled'] = 'Dateiabgabe';
 $string['enabled_help'] = 'Teilnehmer/innen können eine oder mehrere Dateien als Lösung der Aufgabe einreichen wenn dies aktiviert wird.';
 $string['eventassessableuploaded'] = 'Datei wurde hochgeladen';
 $string['file'] = 'Dateiabgabe';
-$string['filesofthesetypes'] = 'Folgende Dateitypen können als Abgabe hinzugefügt werden:';
-$string['filetypewithexts'] = '{$a->name} &mdash; {$a->extlist}';
 $string['maxbytes'] = 'Maximale Dateigröße';
 $string['maxfiles'] = 'Maximale Anzahl von Dateien pro Abgabe';
 $string['maxfiles_help'] = 'Wenn die Dateiabgabe aktiviert ist, kann jede Aufgabe für Dateien bis zu dieser Anzahl eingestellt werden.';
@@ -45,7 +43,6 @@ $string['maxfilessubmission'] = 'Anzahl hochladbarer Dateien';
 $string['maxfilessubmission_help'] = 'Wenn die Abgabe von Dateien als Lösung der Aufgabe gewählt wird, wird hier festgelegt wie viele Dateien je Teilnehmer/in hochgeladen werden können.';
 $string['maximumsubmissionsize'] = 'Maximale Dateigröße';
 $string['maximumsubmissionsize_help'] = 'Legt die Größenbegrenzung für hochgeladene Dateien fest.';
-$string['nonexistentfiletypes'] = 'Folgende Dateitypen wurden nicht anerkannt: {$a}';
 $string['numfilesforlog'] = 'Anzahl der Dateien: {$a}';
 $string['pluginname'] = 'Dateiabgabe';
 $string['privacy:metadata:filepurpose'] = 'Hochgeladene Dateien für die Aufgabenlösung';

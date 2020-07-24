@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grading', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'grading', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['activemethodinfo'] = 'Η μέθοδος «{$a->method}» επιλέχθ
 $string['activemethodinfonone'] = 'Δεν υπάρχει προχωρημένη μέθοδος βαθμολόγησης επιλεγμένη για την περιοχή «{$a->area}». Θα χρησιμοποιηθεί η απλή άμεση βαθμολόγηση.';
 $string['changeactivemethod'] = 'Αλλαγή ενεργής μεθόδου βαθμολόγησης σε';
 $string['clicktoclose'] = 'κλικ για κλείσιμο';
+$string['error:notinrange'] = 'Δόθηκε μη έγκυρος βαθμός «{$a->grade}». Οι βαθμοί πρέπει να είναι μεταξύ 0 και {$a->maxgrade}.';
 $string['exc_gradingformelement'] = 'Δεν μπορεί να δημιουργηθεί στιγμιότυπο ενός στοιχείου φόρμας βαθμολόγησης';
 $string['formnotavailable'] = 'Επιλέχτηκε η προχωρημένη μέθοδος βαθμολόγησης αλλά η φόρμα βαθμολόγησης δεν είναι έτοιμη ακόμη. Ίσως πρέπει να την ορίσετε πρώτα μέσω ενός συνδέσμου στο μενού ενεργειών ή στο μπλοκ διαχείρισης.';
 $string['gradingformunavailable'] = 'Παρακαλούμε σημειώστε: η φόρμα προχωρημένης βαθμολόγησης δεν είναι έτοιμη προς το παρόν. Η Απλή μέθοδος βαθμολόγησης θα χρησιμοποιηθεί μέχρι η φόρμα να αποκτήσει έγκυρη κατάσταση.';

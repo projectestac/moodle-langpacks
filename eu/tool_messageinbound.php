@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_messageinbound', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'Klasearen izena';
 $string['component'] = 'Osagaia';
-$string['configmessageinboundhost'] = 'Moodlek e-mailak bilatzera joan behar deneko zerbitzariaren helbidea. Lehenetsitakoa ez den ataka bat zehazteko, [zerbitzaria]:[ataka] erabili dezakezu, mail.adibidea.eus:587 formatua adibidez. Atakarik zehazten ez baduzu, posta elektronikoko zerbitzari motaren lehenetsitako ataka erabiliko da.';
+$string['configmessageinboundhost'] = 'Moodlek e-mailak bilatzera joan behar deneko zerbitzariaren helbidea. Lehenetsitakoa ez den ataka bat zehazteko, [zerbitzaria]:[ataka] erabili dezakezu, posta.adibidea.eus:993 formatua adibidez. Atakarik zehazten ez baduzu, posta elektronikoko zerbitzari motaren lehenetsitako ataka erabiliko da.';
 $string['defaultexpiration'] = 'Helbideen iraungitze-epe lehenetsia';
 $string['defaultexpiration_help'] = 'Kudeatzaileak helbide elektroniko bat sortzen duenean, automatikoki iraungitze-epe bat zehaztu dakioke epe hori igaro ondoren ezin erabiltzeko. Iraungitze-epea zehaztea gomendagarria da.';
 $string['description'] = 'Deskribapena';

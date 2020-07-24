@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'grades', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,7 +44,7 @@ $string['aggregatemedian'] = 'Medianvärde för betyg';
 $string['aggregatemin'] = 'Lägsta betyg';
 $string['aggregatemode'] = 'Typ av betyg';
 $string['aggregatenotonlygraded'] = 'Inkludera tomma betyg';
-$string['aggregateonlygraded'] = 'Aggregera bara icke-tomma betyg';
+$string['aggregateonlygraded'] = 'Ta inte med tomma betyg';
 $string['aggregateonlygraded_help'] = '<p>Icke-existerande betyg behandlas antingen som minimibetyg eller så tas de inte med i aggregationen. </p>';
 $string['aggregateoutcomes'] = 'Ta med resultaten i aggregeringen.';
 $string['aggregateoutcomes_help'] = '<p>Om du tar med resultaten i aggregationerna så är det inte säkert att det leder till det önskade sammanfattningsbetyget och därför har du valmöjligheten att ta med dem eller att utelämna dem. </p>';
@@ -609,7 +609,7 @@ $string['showuserimage_help'] = 'Detta avgör huruvida användarnas bilder ska v
 $string['showverbose'] = 'Visa {$a->category}$a->itemmodule {$a->itemname}';
 $string['showweight'] = 'Visa viktningar';
 $string['showweight_help'] = 'Ska betygsviktningskolumnen visas?';
-$string['simpleview'] = 'Enkel vy';
+$string['simpleview'] = 'Enskild vy';
 $string['singleview'] = 'Enskild vy för {$a}';
 $string['sitewide'] = 'Över hela webbplatsen';
 $string['sort'] = 'Sortera';

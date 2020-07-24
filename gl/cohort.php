@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cohort', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cohort', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   cohort
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -64,7 +64,7 @@ $string['idnumber'] = 'ID do círculo';
 $string['invalidtheme'] = 'Non existe o tema do círculo';
 $string['memberscount'] = 'Tamaño do círculo';
 $string['name'] = 'Nome';
-$string['namecolumnmissing'] = 'Algo está mal co formato do ficheiro CSV. Revise que inclúa os nomes das columnas. Teña en conta  que o envío de círculos soamente lle permite engadirlle novos usuarios a un círculo existente e non permite retiralos dun círculo existente.';
+$string['namecolumnmissing'] = 'Algo está mal co formato do ficheiro CSV. Revise que inclúa os nomes das columnas. Teña en conta  que o envío de círculos soamente lle permite engadir novos usuarios a un círculo existente e non permite retiralos dun círculo existente.';
 $string['namefieldempty'] = 'O nome do campo non pode estar baleiro.';
 $string['newidnumberfor'] = 'Novo número ID para o círculo {$a}';
 $string['newnamefor'] = 'Novo nome para o círculo {$a}';

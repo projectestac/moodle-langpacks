@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,9 +55,12 @@ $string['defaultmessageoutputs'] = 'Настройки значений по у�
 $string['defaults'] = 'Значения по умолчанию';
 $string['deleteallconfirm'] = 'Вы уверены, что хотите удалить всю эту беседу ? Это не удалит её для других участников разговора.';
 $string['deleteallmessages'] = 'Удалить все сообщения';
+$string['deleteallselfconfirm'] = 'Вы уверены, что хотите удалить всю эту личную беседу?';
 $string['deleteconversation'] = 'Удалить беседу';
+$string['deleteforeveryoneselectedmessagesconfirm'] = 'Вы уверены, что хотите удалить выбранные сообщения?';
 $string['deleteselectedmessages'] = 'Удалить выбранные сообщения';
 $string['deleteselectedmessagesconfirm'] = 'Вы уверены, что хотите удалить выбранные сообщения? Это не удалит их для других участников разговора.';
+$string['deleteselectedmessagesconfirmselfconversation'] = 'Вы уверены, что хотите удалить выбранные личные сообщения?';
 $string['disableall'] = 'Отключить уведомления';
 $string['disabled'] = 'На этом сайте отключена система обмена сообщениями.';
 $string['disallowed'] = 'Запрещено';
@@ -205,12 +208,11 @@ $string['searchcombined'] = 'Поиск пользователей и сообщ
 $string['searchforuser'] = 'Поиск пользователя';
 $string['searchforuserorcourse'] = 'Поиск пользователя или курса';
 $string['searchmessages'] = 'Поиск сообщений';
-$string['searchnocontactsfound'] = 'Контакты не найдены';
-$string['searchnomessagesfound'] = 'Сообщений не найдено';
-$string['searchnononcontactsfound'] = 'Контакты не найдены';
 $string['seeall'] = 'Смотреть все';
 $string['selectmessagestodelete'] = 'Выберите сообщения для удаления';
 $string['selectnotificationtoview'] = 'Выберите уведомление, чтобы просмотреть более подробную информацию';
+$string['selfconversation'] = 'Личное пространство';
+$string['selfconversationdefaultmessage'] = 'Сохраните черновики сообщений, ссылок, заметок и т.п. К ним можно будет вернуться позже.';
 $string['send'] = 'Отправить';
 $string['sendbulkmessage'] = 'Отправить сообщение {$a} людям';
 $string['sendbulkmessagesent'] = 'Сообщение отправлено {$a} людям';
@@ -246,7 +248,6 @@ $string['userisblockingyou'] = 'Пользователь заблокирова�
 $string['userisblockingyounoncontact'] = 'Пользователь {$a} принимает сообщения только от лиц из своего списка собеседников.';
 $string['userwouldliketocontactyou'] = '{$a} хотел(а) бы с вами связаться';
 $string['viewfullnotification'] = 'Просмотреть уведомление полностью';
-$string['viewinganotherusersmessagearea'] = 'Вы просматриваете сообщения другого пользователя.';
 $string['viewmessageswith'] = 'Просмотреть сообщения от {$a}';
 $string['viewnotificationresource'] = 'Перейти к: {$a}';
 $string['viewunreadmessageswith'] = 'Непрочитанные сообщения от {$a}';

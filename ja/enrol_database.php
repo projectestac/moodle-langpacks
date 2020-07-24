@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_database', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,5 +75,6 @@ $string['settingsheaderdb'] = '外部データベース接続';
 $string['settingsheaderlocal'] = 'ローカルフィールドマッピング';
 $string['settingsheadernewcourses'] = '新しいコースの作成';
 $string['settingsheaderremote'] = 'リモート登録同期';
+$string['syncenrolmentstask'] = '外部データベース登録タスクを同期する';
 $string['templatecourse'] = '新しいコーステンプレート';
 $string['templatecourse_desc'] = '任意: 自動作成コースはテンプレートコースから設定をコピーすることができます。ここにテンプレートコースの省略名を入力してください。';

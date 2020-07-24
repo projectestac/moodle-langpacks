@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'notes', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,7 +45,6 @@ $string['eventnotecreated'] = 'Δημιουργία σημείωσης';
 $string['eventnotedeleted'] = 'Διαγραφή σημείωσης';
 $string['eventnotesviewed'] = 'Εμφάνιση σημείωσης';
 $string['eventnoteupdated'] = 'Ενημέρωση σημείωσης';
-$string['groupaddnewnote'] = 'Προσθήκη κοινής σημείωσης';
 $string['invalidid'] = 'Ορίστηκε ένα μη έγκυρο αναγνωριστικό σημείωσης';
 $string['invaliduserid'] = 'Μη έγκυρο αναγνωριστικό χρήστη: {$a}';
 $string['myprofileownnotes'] = 'Οι σημειώσεις μου';
@@ -73,7 +72,6 @@ $string['publishstate_help'] = 'Το πλαίσιο μιας σημείωσης 
 * Προσωπική - Η σημείωση θα είναι ορατή μόνο σε εσάς<br />
 * Μαθήματος - Η σημείωση θα είναι ορατή στους διδάσκοντες αυτού του μαθήματος<br />
 * Ιστοτόπου - Η σημείωση θα είναι ορατή στους διδάσκοντες σε όλα τα μαθήματα';
-$string['selectnotestate'] = 'Επιλέξτε κατάσταση σημείωσης';
 $string['site'] = 'ιστότοπος';
 $string['sitenotes'] = 'Σημειώσεις ιστοτόπου';
 $string['unknown'] = 'άγνωστη';

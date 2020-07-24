@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'group', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -143,10 +143,10 @@ $string['importgroups_help'] = 'Группы могут быть импорти�
 * Первая запись содержит список имен полей, определяющих формат остальной части файла
 * Обязательным полем является groupname (название группы)**
 * Дополнительными полями могут быть:
-- groupidnumber (ID номер группы)
 - description (описание),
 - enrolmentkey (кодовое слово),
-- groupingname (название потока)**.
+- picture (изображение),
+- hidepicture (скрыть изображение)**.
 
 ** - в скобках приведен перевод. В файле НЕ использовать!';
 $string['includeonlyactiveenrol'] = 'Включать только активных участников';

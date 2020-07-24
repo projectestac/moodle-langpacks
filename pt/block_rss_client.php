@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_rss_client', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   block_rss_client
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -87,7 +87,7 @@ $string['sharedfeed'] = 'Lista RSS partilhada';
 $string['shownumentrieslabel'] = 'Número máximo de notícias a exibir por lista RSS';
 $string['submitters'] = 'Quem pode definir novas listas RSS? As listas RSS definidas estão disponíveis em qualquer página do site.';
 $string['submitters2'] = 'Fornecedores';
-$string['timeout'] = 'Tempo, em minutos, antes que a lista RSS expire na cache. Note que define o tempo mínimo antes de expirar. A lista será atualizada na cache na próxima execução do cron, após expirar. Os valores recomendados são de 30 minutos ou mais.';
+$string['timeout'] = 'Tempo em minutos antes que a lista RSS expire na cache. Note que este tempo define o tempo mínimo antes de expirar. A lista será atualizada na cache na próxima execução do cron, após expirar. Os valores recomendados são de 30 minutos ou mais.';
 $string['timeout2'] = 'Tempo limite';
 $string['timeoutdesc'] = 'Tempo de vida, em minutos, de uma lista RSS em cache';
 $string['updatefeed'] = 'Atualizar URL de uma lista RSS:';

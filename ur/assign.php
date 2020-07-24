@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'ur', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assign', language 'ur', branch 'MOODLE_38_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,6 @@ $string['newsubmissions'] = 'ارسال کردہ اسائنمینٹس';
 $string['notgradedyet'] = 'ابھی تک درجہ نہیں دیا گیا';
 $string['notsubmittedyet'] = 'ابھی تک ارسال نہیں ہوئی';
 $string['submission'] = 'ارسلات';
-$string['submissions'] = 'سبمشنز';
 $string['submissionstatus_marked'] = 'درجہ بندی ہو چکی';
 $string['submitassignment'] = 'اسائنمینٹ ارسال کرو';
 $string['submitted'] = 'ارسال کردہ';

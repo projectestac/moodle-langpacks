@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_xmldb', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actual'] = 'فعلي';
+$string['addpersistent'] = 'إضافة الحقول المستمرة الإلزامية';
 $string['aftertable'] = 'بعد الجدول:';
 $string['back'] = 'للخلف';
 $string['backtomainview'] = 'العودة الي الأساس';
@@ -145,6 +146,9 @@ $string['numberincorrectwholepart'] = 'جزء عدد كبير جدًا في حق
 $string['pendingchanges'] = 'ملاحظة: لقد أجريت تغييرات على هذا الملف. يمكن حفظها في أيّ لحظة.';
 $string['pendingchangescannotbesaved'] = 'هناك تغييرات في هذا الملف ولكن لا يمكن حفظها ! يرجى التحقق من أن كل من المجلد و "install.xml"  لديها أذونات الكتابة لخادم الويب.';
 $string['pendingchangescannotbesavedreload'] = 'هناك تغييرات في هذا الملف ولكن لا يمكن حفظها ! يرجى التحقق من أن كل من المجلد و "install.xml" لديها أذونات الكتابة لخادم الويب. ثم إعادة تحميل هذه الصفحة و بعد ذلك يجب عليك أن تكون قادرا على حفظ هذه التغييرات.';
+$string['persistentfieldscomplete'] = 'تم إضافة الحقول التالية:';
+$string['persistentfieldsconfirm'] = 'هل ترغب في إضافة الحقول التالية:';
+$string['persistentfieldsexist'] = 'الحقول التالية موجودة بالفعل:';
 $string['pluginname'] = 'محرر XMLDB';
 $string['primarykeyonlyallownotnullfields'] = 'لا يمكن للمفاتيح الأساسية أن تكون فارغة';
 $string['privacy:metadata'] = 'لا يقوم المكون الإضافي XMLDB editor   أي بيانات شخصية.';

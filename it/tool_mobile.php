@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_mobile', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_mobile', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_mobile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['androidappid'] = 'Identificativo univoco app Android';
 $string['androidappid_desc'] = 'L\'impostazione deve essere lasciata al suo default a meno che non si utilizzi una app Android propria.';
 $string['apppolicy'] = 'URL della policy dell\'app';
 $string['apppolicy_help'] = 'L\'URL della policy per gli utenti dell\'app, elencata nella pagina Informazioni nell\'app. Lasciando il campo vuoto, verrà utilizzato l\'URL della policy del sito.';
+$string['apprequired'] = 'La funzionalità è disponibile solamente quando si accede a Moodle via app desktop o mobile.';
 $string['autologinkeygenerationlockout'] = 'La generazione della chiave di accesso automatico è stata bloccata. È necessario attendere 6 minuti prima di effettuare una nuova richiesta.';
 $string['autologinnotallowedtoadmins'] = 'Gli amministratori del sito non posso autenticarsi automaticamente.';
 $string['cachedef_plugininfo'] = 'Elenco dei plugin con funzionalità aggiuntive mobile';
@@ -52,6 +53,7 @@ App help|https://domain.tld/help|inappbrowser
 Le mie valutazioni|https://domain.tld/local/mygrades/index.php|embedded|it
 Mis calificaciones|https://domain.tld/local/mygrades/index.php|embedded|es
 </pre>';
+$string['darkmode'] = 'Modalità scura';
 $string['disabledfeatures'] = 'Funzionalità disabilitate';
 $string['disabledfeatures_desc'] = 'E\' possibile selezionare le funzionalità da disabilitare nell\'app per dispositivi mobili. Da tenere presente che alcune delle funzioni elencate potrebbero essere già state disattivate tramite altre impostazioni a livello di sito. Per visualizzare le modifiche, effettuare il log out e accedere di nuovo all\'app.';
 $string['displayerrorswarning'] = 'La visualizzazione dei messaggi di debug (debugdisplay) è abilitata. Andrebbe disabilitata.';
@@ -59,11 +61,12 @@ $string['downloadcourse'] = 'Scarica corso';
 $string['downloadcourses'] = 'Scarica corsi';
 $string['enablesmartappbanners'] = 'Abilita App banner';
 $string['enablesmartappbanners_desc'] = 'Visitando il sito con un browser mobile sarà visualizzato un banner promozionale della app mobile.';
-$string['forcedurlscheme'] = 'Se si desidera consentire esclusivamente l\'apertura della propria app personalizzata da una finestra browser, è allora necessario impostare il relativo schema URL. In alternativa lasciare il campo vuoto. del browser, specificare qui il suo schema URL; altrimenti lascia il campo vuoto.';
+$string['forcedurlscheme'] = 'Se si desidera consentire esclusivamente l\'apertura della propria app personalizzata da una finestra browser, è allora necessario impostare il relativo schema URL. Per utilizzare l\'app ufficiale, impostare il valore di default. Per utilizzare qualsiasi app lasciare il campo vuoto.';
 $string['forcedurlscheme_key'] = 'Schema URL';
 $string['forcelogout'] = 'Forza disconnessione';
 $string['forcelogout_desc'] = 'Se abilitato, l\'opzione "Cambia sito" dell\'app verrà sostituita da "Esci". Di conseguenza l\'utente perderà l\'autenticazione. Per accedere nuovamente al sito l\'utente dovrà inserire la password.';
 $string['getmoodleonyourmobile'] = 'Ottieni l\'app mobile';
+$string['h5poffline'] = 'Visualizza contenuto H5P offline';
 $string['httpsrequired'] = 'HTTPS obbligatorio';
 $string['insecurealgorithmwarning'] = 'E\' possibile che il certificato HTTPS del sito utilizzi un algoritmo di firma non sicuro (SHA-1). Per favore prova ad aggiornare il certificato.';
 $string['invalidcertificatechainwarning'] = 'E\' possibile che il certificato HTTPS del sito utilizzi un <i>certifcate chain</i> non valido.';
@@ -77,6 +80,8 @@ $string['loginintheapp'] = 'Via app';
 $string['logininthebrowser'] = 'Via finestra browser (per plugin SSO)';
 $string['loginintheembeddedbrowser'] = 'Via browser incorporato (per plugin SSO)';
 $string['mainmenu'] = 'Menu principale';
+$string['minimumversion'] = 'Indicando una versione dell\'app (3.8.0 o superiore), gli utenti che utilizzano versioni più vecchie verranno invitati ad aggiornare l\'app prima di poter accedere al sito.';
+$string['minimumversion_key'] = 'Versione minima dell\'app';
 $string['mobileapp'] = 'App mobile';
 $string['mobileappconnected'] = 'App mobile connessa';
 $string['mobileappearance'] = 'Aspetto mobile';
@@ -86,6 +91,7 @@ $string['mobilecssurl'] = 'CSS';
 $string['mobilefeatures'] = 'Funzionalità mobile';
 $string['mobilenotificationsdisabledwarning'] = 'Le notifiche per dispositivi mobili non sono abilitate. Possono essere abilitate nelle impostazioni delle notifiche.';
 $string['mobilesettings'] = 'Impostazioni mobile';
+$string['oauth2identityproviders'] = 'Identity provider OAuth 2';
 $string['offlineuse'] = 'Uso offiline';
 $string['pluginname'] = 'Strumenti Moodle App';
 $string['pluginnotenabledorconfigured'] = 'Il plugin non è abilitato o non è configurato';

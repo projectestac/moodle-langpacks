@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'data', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -209,8 +209,12 @@ $string['includetags'] = 'タグを含む';
 $string['includetime'] = '追加/修正時間を含む';
 $string['includeuserdetails'] = 'ユーザ詳細を含む';
 $string['indicator:cognitivedepth'] = 'データベース認知的';
+$string['indicator:cognitivedepthdef'] = 'データベース認知的';
+$string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がデータベース活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信)。';
 $string['indicator:cognitivedepth_help'] = 'この指標はデータベース活動で学生が到達した認識深度に基づきます。';
 $string['indicator:socialbreadth'] = 'データベース社会的';
+$string['indicator:socialbreadthdef'] = 'データベース社会的';
+$string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がデータベース活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加)。';
 $string['indicator:socialbreadth_help'] = 'この指標はデータベース活動で学生が到達した社会的広がりに基づきます。';
 $string['insufficiententries'] = 'このデータベースを閲覧するにはさらにエントリが必要です。';
 $string['intro'] = '説明';

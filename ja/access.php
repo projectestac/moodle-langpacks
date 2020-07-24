@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'access', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'access', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   access
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,8 +35,6 @@ $string['breadcrumb'] = 'ナビゲーションバー';
 $string['eventcontextlocked'] = 'コンテクストが凍結されました。';
 $string['eventcontextunlocked'] = 'コンテクストが凍結解除されました。';
 $string['hideblocka'] = 'ブロック {$a} を隠す';
-$string['monthnext'] = '来月';
-$string['monthprev'] = '前月';
 $string['showblocka'] = 'ブロック {$a} を表示する';
 $string['sitemap'] = 'サイトマップ';
 $string['skipa'] = '{$a} をスキップする';

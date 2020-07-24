@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'competency', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,6 +108,7 @@ $string['invalidpersistenterror'] = 'Σφάλμα: {$a}';
 $string['invalidplan'] = 'Άκυρο σχέδιο μάθησης';
 $string['invalidtaxonomy'] = 'Μη έγκυρη ταξινομία: {$a}';
 $string['invalidurl'] = 'Η διεύθυνση URL δεν είναι έγκυρη. Βεβαιωθείτε ότι ξεκινά με «http://» or «https://».';
+$string['nouserplanswithcompetency'] = 'Κανένα σχέδιο μάθησης δεν περιλαμβάνει αυτήν την ικανότητα.';
 $string['planstatusactive'] = 'Ενεργό';
 $string['planstatuscomplete'] = 'Πλήρες';
 $string['planstatusdraft'] = 'Προσχέδιο';

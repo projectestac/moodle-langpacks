@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lesson', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,9 +71,11 @@ $string['answersfornumerical'] = 'Le risposte alle domande numeriche devono esse
 $string['arrangebuttonshorizontally'] = 'Posizionare orizzontalmente i pulsanti del contenuto?';
 $string['attempt'] = 'Tentativo: {$a}';
 $string['attemptheader'] = 'Tentativo';
+$string['attemptinfonograde'] = '{$a->timestart} ({$a->duration})';
+$string['attemptinfowithgrade'] = '{$a->grade}% {$a->timestart} ({$a->duration})';
 $string['attempts'] = 'Tentativi';
 $string['attemptsdeleted'] = 'I tentativi sono stati eliminati';
-$string['attemptsremaining'] = 'Ti rimangono {$a} tentativo/i';
+$string['attemptsremaining'] = 'Tentativi rimasti: {$a}';
 $string['available'] = 'Disponibile dal';
 $string['averagescore'] = 'Punteggio medio';
 $string['averagetime'] = 'Tempo medio';
@@ -154,6 +156,7 @@ $string['dependencyon'] = 'Dipendente da';
 $string['dependencyon_help'] = 'Rende la lezione dipendente dai risultati ottenuti dallo studente in un\'altra lezione presente nello stesso corso. E\' possibile usare qualsiasi combinazione di
 Tempo impiegato, Completamento o voto.';
 $string['description'] = 'Descrizione';
+$string['deselectallattempts'] = 'Deseleziona tutti i tentativi';
 $string['detailedstats'] = 'Statistiche dettagliate';
 $string['didnotanswerquestion'] = 'Non è stata data risposta a questa domanda.';
 $string['didnotreceivecredit'] = 'Credito non ricevuto';
@@ -259,8 +262,12 @@ $string['importquestions'] = 'Importa domande';
 $string['importquestions_help'] = 'Abilita l\'importazione di domande redatte in diversi formati tramite file di testo.';
 $string['inactiveoverridehelp'] = '* Lo studente non ha il ruolo o il gruppo corretto per visualizzare/tentare la lezione';
 $string['indicator:cognitivedepth'] = 'Lezione cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Lezione cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalle attività Lezione (Livelli: Nessuna visualizzazione, Visualizzazione, Invio, Visualizzazione feedback, Commento al feedback, Nuovo invio dopo il feedback)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività Lezione.';
 $string['indicator:socialbreadth'] = 'Lezione sociale';
+$string['indicator:socialbreadthdef'] = 'Lezione sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dall\'attività Lezione (Livelli: Nessuna partecipazione, Partecipazione da solo, Partecipazione con altri)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività Lezione.';
 $string['insertedpage'] = 'Pagina aggiunta';
 $string['invalidfile'] = 'File non valido';
@@ -375,6 +382,7 @@ $string['nooverridedata'] = 'Devi personalizzare almeno una impostazione della l
 $string['noretake'] = 'Non sei autorizzato a  riprovare la lezione.';
 $string['normal'] = 'Normale - segui il flusso della lezione';
 $string['notcompleted'] = 'Non completato';
+$string['notcompletedwithdate'] = 'Non completato ({$a})';
 $string['notdefined'] = 'Non definito';
 $string['notenoughsubquestions'] = 'Non sono state definite sufficienti sotto domande!<br />Vuoi tornare indietro e correggere la domanda?';
 $string['notenoughtimespent'] = 'Hai completato la lezione in {$a->timespent}, che è meno del tempo minimo richiesto di {$a->timerequired}. Devi trascorrere più tempo sulla lezione.';
@@ -518,6 +526,7 @@ $string['score_help'] = 'Il punteggio è utilizzato solo se è abilitato il punt
 $string['scores'] = 'Punteggi';
 $string['search:activity'] = 'Lezione - Informazioni sull\'attività';
 $string['secondpluswrong'] = 'Non proprio. Vuoi riprovare?';
+$string['selectallattempts'] = 'Seleziona tutti i tentativi';
 $string['selectaqtype'] = 'Scegli il tipo di domanda';
 $string['sent'] = 'Inviato';
 $string['shortanswer'] = 'Risposta breve';
@@ -569,13 +578,14 @@ $string['usepassword'] = 'Accesso con password';
 $string['usepassword_help'] = 'Per accedere alla lezione sarà necessario conoscere la password.';
 $string['useroverrides'] = 'Personalizzazioni individuali';
 $string['useroverridesdeleted'] = 'Personalizzazione individuale eliminata';
-$string['usersnone'] = 'Nessuno studente ha acceduto la lezione';
+$string['usersnone'] = 'Nessuno studente ha accesso alla lezione';
 $string['viewgrades'] = 'Visualizza risultati';
 $string['viewreports'] = 'Visualizza i {$a->attempts} tentativi completati da {$a->student}';
 $string['viewreports2'] = 'Visualizza {$a} tentativi completati';
 $string['warning'] = 'Attenzione';
 $string['welldone'] = '-';
 $string['whatdofirst'] = 'Cosa vuoi fare prima?';
+$string['withselectedattempts'] = 'Con i tentativi selezionati...';
 $string['wronganswerjump'] = 'Per risposta errata salta a';
 $string['wronganswerscore'] = 'Punteggio per risposta errata';
 $string['wrongresponse'] = 'Replica a risposta errata';

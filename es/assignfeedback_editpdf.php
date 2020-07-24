@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -80,7 +80,11 @@ $string['pluginname'] = 'Anotación PDF';
 $string['preparesubmissionsforannotation'] = 'Preparar los envíos para la anotación';
 $string['privacy:metadata:colourpurpose'] = 'Color del comentario o anotación';
 $string['privacy:metadata:conversionpurpose'] = 'Los archivos son convertidos a PDFs para permitir las anotaciones.';
+$string['privacy:metadata:filepurpose'] = 'Archiva una anotación PDF con retroalimentación de usuario';
+$string['privacy:metadata:rawtextpurpose'] = 'Archiva texto en bruto de respuestas rápidas';
+$string['privacy:metadata:tablepurpose'] = 'Archiva los comentarios de la lista indicados por el docente';
 $string['privacy:metadata:userid'] = 'Identificador del usuario';
+$string['privacy:path'] = 'Retroalimentación PDF';
 $string['rectangle'] = 'Rectángulo';
 $string['red'] = 'Rojo';
 $string['result'] = 'Resultado:';

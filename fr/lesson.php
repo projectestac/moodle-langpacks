@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lesson', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,6 +61,9 @@ $string['addnumerical'] = 'Créer une page Question numérique';
 $string['addpage'] = 'Ajouter une page';
 $string['addshortanswer'] = 'Créer une page Question à réponse courte';
 $string['addtruefalse'] = 'Créer une page Question vrai/faux';
+$string['allotheranswers'] = 'Toutes les autres réponses';
+$string['allotheranswersjump'] = 'Tous les autres sauts de réponse';
+$string['allotheranswersscore'] = 'Tous les autres scores de réponse';
 $string['allowofflineattempts'] = 'Permettre de tenter la leçon hors ligne au moyen de l\'app mobile';
 $string['allowofflineattempts_help'] = 'Si ce réglage est activé, l\'utilisateur d\'une app mobile peut télécharger la leçon et l\'effectuer hors ligne.
 Toutes les réponses possibles et les réponses correctes seront aussi téléchargées.
@@ -73,6 +76,8 @@ $string['answersfornumerical'] = 'Les réponses aux questions numériques doiven
 $string['arrangebuttonshorizontally'] = 'Arranger horizontalement les boutons de contenu ?';
 $string['attempt'] = 'Tentative : {$a}';
 $string['attemptheader'] = 'Tentative';
+$string['attemptinfonograde'] = '{$a->timestart} ({$a->duration})';
+$string['attemptinfowithgrade'] = '{$a->grade} % {$a->timestart} ({$a->duration})';
 $string['attempts'] = 'Tentatives';
 $string['attemptsdeleted'] = 'Tentatives supprimées';
 $string['attemptsremaining'] = 'Il vous reste {$a} tentative(s)';
@@ -155,6 +160,7 @@ $string['deletingpage'] = 'Suppression de la page ? {$a}';
 $string['dependencyon'] = 'Dépend de';
 $string['dependencyon_help'] = 'Grâce à ce réglage, l\'accès à cette leçon peut dépendre des résultats de l\'étudiant à d\'autres leçons dans le même cours. Il est possible de combiner les critères « durée utilisée », « terminé » ou « note plus haute que ».';
 $string['description'] = 'Description';
+$string['deselectallattempts'] = 'Désélectionner toutes les tentatives';
 $string['detailedstats'] = 'Statistiques détaillées';
 $string['didnotanswerquestion'] = 'N\'a pas répondu à cette question';
 $string['didnotreceivecredit'] = 'N\'a pas reçu de point';
@@ -168,7 +174,7 @@ $string['displayleftmenu'] = 'Afficher le menu';
 $string['displayleftmenu_help'] = 'Si ce réglage est activé, un menu est affiché, permettant aux utilisateurs de parcourir les pages de la leçon.';
 $string['displayofgrade'] = 'Affichage de la note (pour l\'étudiant)';
 $string['displayreview'] = 'Offrir la possibilité de refaire une question';
-$string['displayreview_help'] = 'Si cette option est activée, lorsqu\'une question reçoit une réponse incorrecte, l\'étudiant a la possibilité de corriger celle-ci (sans obtenir de point) ou de continuer la leçon.';
+$string['displayreview_help'] = 'Si cette option est activée, lorsqu\'une question reçoit une réponse incorrecte, l\'étudiant a la possibilité de corriger celle-ci (sans obtenir de point) ou de continuer la leçon. Si l\'étudiant choisit de continuer vers une autre question, il sera dirigé vers la page à suivre après une réponse (fausse). Par défaut, les sauts de pages pour une réponse fausse sont définis sur « Cette page » et donnent un score de 0. Il est donc recommandé de spécifier d\'aller vers une page différente en cas de réponse fausse pour éviter de prêter à confusion pour les étudiants.';
 $string['displayscorewithessays'] = '<p>Vous avez obtenu un score de {$a->score} sur {$a->tempmaxgrade} aux questions notées automatiquement.</p>
 <p>Les notes de votre(vos) {$a->essayquestions} composition(s) sera(ont) évaluée(s) et ajoutée(s) au score final ultérieurement.</p>
 <p>Votre note actuelle, sans la(les) composition(s), est de {$a->score} sur {$a->grade}.</p>';
@@ -207,6 +213,7 @@ $string['eolstudentoutoftime'] = 'Attention : le temps à votre disposition pou
 $string['eolstudentoutoftimenoanswers'] = 'vous n\'avez répondu à aucune question. Votre note pour cette leçon est de 0.';
 $string['essay'] = 'Composition';
 $string['essayemailmessage2'] = '<p>Question ouverte : {$a->question}</p><p>Votre réponse : <em>{$a->response}</em></p><p>Commentaire de l\'évaluateur : <em>{$a->comment}</em></p><p>Vous avez obtenu {$a->earned} points sur un total de {$a->outof} à cette question ouverte.</p><p>Votre note pour cette leçon est maintenant {$a->newgrade} %.</p>';
+$string['essayemailmessagesmall'] = '<p>Vous avez obtenu {$a->earned} sur {$a->outof} pour cette question de composition.</p><p>Votre note pour la leçon {$a->lesson} a été modifiée à {$a->newgrade} %.</p>';
 $string['essayemailsubject'] = 'Note pour la question de leçon';
 $string['essaynotgradedyet'] = 'La composition n\'a pas encore été évaluée';
 $string['essayresponses'] = 'Compositions';
@@ -259,10 +266,14 @@ $string['hightime'] = 'Plus longue durée';
 $string['importcount'] = 'Importation de {$a} questions';
 $string['importquestions'] = 'Importer des questions';
 $string['importquestions_help'] = 'Cette fonctionnalité permet d\'importer des questions de divers formats à partir de fichiers texte.';
-$string['inactiveoverridehelp'] = '* L\'étudiant n\'est pas dans le groupe correct ou n\'a pas le rôle adéquat pour consulter/effectuer la leçon, ou la leçon est cachée';
+$string['inactiveoverridehelp'] = '* Cette exception est inactive, car l\'accès de l\'utilisateur à l\'activité est restreinte. Ceci peut être dû à des attributions de groupe ou de rôles, à d\'autres restrictions d\'accès ou au fait que l\'activité est cachée.';
 $string['indicator:cognitivedepth'] = 'Leçon : aspect cognitif';
+$string['indicator:cognitivedepthdef'] = 'Leçon : aspect cognitif';
+$string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement cognitif offert par les activités « Leçon » (niveaux : pas de vue, vue, envoi, vue du feedback, commentaire du feedback, nouvel envoi après vue du feedback).';
 $string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une activité Leçon.';
 $string['indicator:socialbreadth'] = 'Leçon : aspect social';
+$string['indicator:socialbreadthdef'] = 'Leçon : aspect social';
+$string['indicator:socialbreadthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement social offert par les activités « Leçon » (niveaux : pas de participation, participant seul, participant avec d\'autres).';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Leçon.';
 $string['insertedpage'] = 'Page insérée';
 $string['invalidfile'] = 'Fichier non valide';
@@ -378,6 +389,7 @@ $string['nooverridedata'] = 'Vous devez définir une dérogation pour au moins u
 $string['noretake'] = 'Vous n\'êtes pas autorisé à refaire cette leçon.';
 $string['normal'] = 'Normal - suivre le parcours de la leçon';
 $string['notcompleted'] = 'Pas terminé';
+$string['notcompletedwithdate'] = 'Non terminée ({$a})';
 $string['notdefined'] = 'Non défini';
 $string['notenoughsubquestions'] = 'Vous n\'avez pas défini assez de sous-questions !<br />Souhaitez-vous revenir en arrière pour corriger cela ?';
 $string['notenoughtimespent'] = 'Vous avez terminé cette leçon en {$a->timespent}, c\'est-à-dire en moins de temps que la durée minimale exigée {$a->timerequired}.';
@@ -480,6 +492,7 @@ $string['privacy:metadata:timer:starttime'] = 'La date à laquelle la tentative 
 $string['privacy:metadata:timer:timemodifiedoffline'] = 'La date et l\'heure de la dernière activité depuis l\'app mobile';
 $string['privacy:metadata:timer:userid'] = 'L\'ID de l\'utilisateur';
 $string['privacy:metadata:userpref:lessonview'] = 'Le mode d\'affichage préféré lors de l\'édition de leçons';
+$string['privacy:path:essayanswers'] = 'Réponses aux questions de composition';
 $string['privacy:path:essayresponses'] = 'Réponses de composition';
 $string['privacy:path:pages'] = 'Pages';
 $string['processerror'] = 'Erreur lors du traitement !';
@@ -523,6 +536,7 @@ $string['score_help'] = 'Le score n\'est utilisé que si l\'option « score per
 $string['scores'] = 'Scores';
 $string['search:activity'] = 'Leçon – information sur l\'activité';
 $string['secondpluswrong'] = 'Pas tout à fait. Voulez-vous essayer à nouveau ?';
+$string['selectallattempts'] = 'Sélectionner toutes les tentatives';
 $string['selectaqtype'] = 'Sélectionner un type de question';
 $string['sent'] = 'Envoyé';
 $string['shortanswer'] = 'Réponse courte';
@@ -582,6 +596,7 @@ $string['viewreports2'] = 'Afficher les {$a} tentatives terminées';
 $string['warning'] = 'Avertissement';
 $string['welldone'] = 'Bien joué !';
 $string['whatdofirst'] = 'Par quoi voulez-vous commencer ?';
+$string['withselectedattempts'] = 'Avec les tentatives sélectionnées...';
 $string['wronganswerjump'] = 'Lien après mauvaise réponse';
 $string['wronganswerscore'] = 'Score des mauvaises réponses';
 $string['wrongresponse'] = 'Feedback mauvaise réponse';

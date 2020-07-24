@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshop', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -110,8 +110,6 @@ $string['editingsubmission'] = 'Editando lo enviado';
 $string['editsubmission'] = 'Editar lo enviado';
 $string['err_multiplesubmissions'] = 'Mientras se estaba editando este formato, otra versión de la entrega se ha guardado. No se permiten envíos múltiples por usuario.';
 $string['err_removegrademappings'] = 'No se pueden eliminar los mapeos de calificaciones';
-$string['err_unknownfileextension'] = 'Extensión de fichero desconocida: {$a}';
-$string['err_wrongfileextension'] = 'Algunos ficheros ({$a}->wrongfiles}) no se pueden subir. Sólo se permiten los ficheros de tipo {$a->whitelist}.';
 $string['evaluategradeswait'] = 'Por favor, espere hasta que se hayan realizado las evaluaciones y calculado las calificaciones';
 $string['evaluation'] = 'Evaluación de calificaciones';
 $string['evaluationmethod'] = 'Método de evaluación de calificaciones';
@@ -163,12 +161,14 @@ $string['givengrades'] = 'Calificaciones otorgadas';
 $string['gradecalculated'] = 'Calificación calculada para el envío';
 $string['gradedecimals'] = 'Decimales en las calificaciones';
 $string['gradegivento'] = '&gt;';
+$string['grade_grading_name'] = 'Evaluación';
 $string['gradeinfo'] = 'Calificación: {$a->received} of {$a->max}';
 $string['gradeitemassessment'] = '{$a->workshopname} (evaluación)';
 $string['gradeitemsubmission'] = '{$a->workshopname} (envío)';
 $string['gradeover'] = 'Pasar por alto calificación del envío';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Informe de calificaciones del Taller';
+$string['grade_submission_name'] = 'Envío';
 $string['gradetopassgrading'] = 'Calificación para aprobar la evaluación';
 $string['gradetopasssubmission'] = 'Calificación para aprobar la entrega';
 $string['gradinggrade'] = 'Calificación de la evaluación';
@@ -182,6 +182,7 @@ $string['iamsure'] = 'Sí, estoy seguro';
 $string['indicator:cognitivedepth'] = 'Taller cognitivo';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad de Taller.';
 $string['indicator:socialbreadth'] = 'Taller social';
+$string['indicator:socialbreadthdef'] = 'Taller social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad de Taller.';
 $string['info'] = 'Info';
 $string['instructauthors'] = 'Instrucciones para el envío';

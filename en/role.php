@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'role', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,7 @@ $string['allowswitch'] = 'Allow role switches';
 $string['allowview'] = 'Allow role to view';
 $string['allsiteusers'] = 'All site users';
 $string['analytics:listinsights'] = 'List insights';
+$string['analytics:listowninsights'] = 'List own insights';
 $string['analytics:managemodels'] = 'Manage models';
 $string['archetype'] = 'Role archetype';
 $string['archetypecoursecreator'] = 'ARCHETYPE: Course creator';
@@ -69,7 +70,6 @@ $string['backup:anonymise'] = 'Anonymise user data on backup';
 $string['backup:backupactivity'] = 'Backup activities';
 $string['backup:backupcourse'] = 'Backup courses';
 $string['backup:backupsection'] = 'Backup sections';
-$string['backup:backuptargethub'] = 'Backup for publishing on Moodle.net';
 $string['backup:backuptargetimport'] = 'Backup for import';
 $string['backup:configure'] = 'Configure backup options';
 $string['backup:downloadfile'] = 'Download files from backup areas';
@@ -104,6 +104,7 @@ $string['category:create'] = 'Create categories';
 $string['category:delete'] = 'Delete categories';
 $string['category:manage'] = 'Manage categories';
 $string['category:update'] = 'Update categories';
+$string['category:viewcourselist'] = 'View list of courses you are not enrolled in';
 $string['category:viewhiddencategories'] = 'See hidden categories';
 $string['category:visibility'] = 'See hidden categories';
 $string['checkglobalpermissions'] = 'Check system permissions';
@@ -118,8 +119,6 @@ $string['cohort:view'] = 'View site-wide cohorts';
 $string['comment:delete'] = 'Delete comments';
 $string['comment:post'] = 'Post comments';
 $string['comment:view'] = 'View comments';
-$string['community:add'] = 'Use the community block to search Moodle.net and find courses';
-$string['community:download'] = 'Download a course from the community block';
 $string['competency:competencygrade'] = 'Set competency rating';
 $string['competency:competencymanage'] = 'Manage competency frameworks';
 $string['competency:competencyview'] = 'View competency frameworks';
@@ -166,8 +165,10 @@ $string['course:bulkmessaging'] = 'Send a message to many people';
 $string['course:changecategory'] = 'Change course category';
 $string['course:changefullname'] = 'Change course full name';
 $string['course:changeidnumber'] = 'Change course ID number';
+$string['course:changelockedcustomfields'] = 'Change locked custom fields';
 $string['course:changeshortname'] = 'Change course short name';
 $string['course:changesummary'] = 'Change course summary';
+$string['course:configurecustomfields'] = 'Configure custom fields';
 $string['course:create'] = 'Create courses';
 $string['course:creategroupconversations'] = 'Create group conversations';
 $string['course:delete'] = 'Delete courses';
@@ -184,7 +185,6 @@ $string['course:managescales'] = 'Manage scales';
 $string['course:markcomplete'] = 'Mark users as complete in course completion';
 $string['course:movesections'] = 'Move sections';
 $string['course:overridecompletion'] = 'Override activity completion status';
-$string['course:publish'] = 'Publish a course';
 $string['course:renameroles'] = 'Rename roles';
 $string['course:request'] = 'Request new courses';
 $string['course:reset'] = 'Reset course';
@@ -231,6 +231,8 @@ $string['errorbadroleshortname'] = 'Incorrect role short name';
 $string['errorexistsrolename'] = 'Role name already exists';
 $string['errorexistsroleshortname'] = 'Role name already exists';
 $string['errorroleshortnametoolong'] = 'The short name must not exceed 100 characters';
+$string['eventcapabilityassigned'] = 'Capability assigned';
+$string['eventcapabilityunassigned'] = 'Capability unassigned';
 $string['eventroleallowassignupdated'] = 'Allow role assignment';
 $string['eventroleallowoverrideupdated'] = 'Allow role override';
 $string['eventroleallowswitchupdated'] = 'Allow role switch';
@@ -239,6 +241,7 @@ $string['eventroleassigned'] = 'Role assigned';
 $string['eventrolecapabilitiesupdated'] = 'Role capabilities updated';
 $string['eventroledeleted'] = 'Role deleted';
 $string['eventroleunassigned'] = 'Role unassigned';
+$string['eventroleupdated'] = 'Role updated';
 $string['existingadmins'] = 'Current site administrators';
 $string['existingusers'] = '{$a} existing users';
 $string['explanation'] = 'Explanation';
@@ -268,6 +271,9 @@ $string['grade:unlock'] = 'Unlock grades or items';
 $string['grade:view'] = 'View own grades';
 $string['grade:viewall'] = 'View grades of other users';
 $string['grade:viewhidden'] = 'View hidden grades for owner';
+$string['h5p:deploy'] = 'Deploy H5P content';
+$string['h5p:setdisplayoptions'] = 'Set H5P display options';
+$string['h5p:updatelibraries'] = 'Manage H5P content types';
 $string['highlightedcellsshowdefault'] = 'The permissions highlighted in the table below are the defaults for the role archetype currently selected above.';
 $string['highlightedcellsshowinherit'] = 'The highlighted cells in the table below show the permission (if any) that will be inherited. Apart from the capabilities whose permission you actually want to alter, you should leave everything set to Inherit.';
 $string['inactiveformorethan'] = 'inactive for more than {$a->timeperiod}';
@@ -378,7 +384,6 @@ $string['restore:createuser'] = 'Create users on restore';
 $string['restore:restoreactivity'] = 'Restore activities';
 $string['restore:restorecourse'] = 'Restore courses';
 $string['restore:restoresection'] = 'Restore sections';
-$string['restore:restoretargethub'] = 'Restore courses downloaded from Moodle.net';
 $string['restore:restoretargetimport'] = 'Restore from files targeted as import';
 $string['restore:rolldates'] = 'Allowed to roll activity configuration dates on restore';
 $string['restore:uploadfile'] = 'Upload files to backup areas';

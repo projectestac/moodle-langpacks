@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'page', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,8 +33,12 @@ $string['displayoptions'] = 'Opzioni di visualizzazione disponibili';
 $string['displayselect'] = 'Visualizzazione';
 $string['displayselectexplain'] = 'Tipo di visualizzazione';
 $string['indicator:cognitivedepth'] = 'Pagina cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Pagina cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalla risorsa Pagina (Livelli: Nessuna visualizzazione, Visualizzazione)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente con risorse Pagina.';
 $string['indicator:socialbreadth'] = 'Pagina sociale';
+$string['indicator:socialbreadthdef'] = 'Pagina sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dalle risorse Pagina (Livelli: Nessuna partecipazione, Partecipazione da solo)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente con risorse Pagina';
 $string['legacyfiles'] = 'Migrazione dei file di corsi precedenti';
 $string['legacyfilesactive'] = 'Attivo';

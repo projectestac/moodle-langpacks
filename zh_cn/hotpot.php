@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotpot', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'hotpot', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   hotpot
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,6 +45,7 @@ $string['addquizchain_help'] = '添加所有测验链中的测验吗？
 $string['allowreview'] = '允许评论';
 $string['allowreview_help'] = '如启用，学生在测验关闭以后可以回顾他们是如何作答的。';
 $string['analysisreport'] = '项目分析';
+$string['attempted'] = '已尝试';
 $string['attemptlimit'] = '答题限制';
 $string['attemptlimit_help'] = '一个学生可以在此 HotPot 活动中进行的答题的最大次数';
 $string['attemptnumber'] = '答题次数';
@@ -121,7 +122,7 @@ $string['enablemymoodle'] = '在我的Moodle上显示HotPots';
 $string['enableobfuscate'] = '启用媒体播放器代码混淆';
 $string['enableswf'] = '允许HotPot活动中嵌入SWF文件';
 $string['entry_attempts'] = '试卷';
-$string['entrycm'] = '之前的活动';
+$string['entrycm'] = '上一个活动';
 $string['entrycmcourse'] = '本课程上次活动';
 $string['entrycm_help'] = '该设置指定了一个Moodle活动与在尝试该Quizport前，必须达到的最小等级。
 
@@ -169,8 +170,8 @@ $string['entrytext'] = '入口页面文字';
 $string['entry_title'] = '单元名称作为标题';
 $string['exit_areyouok'] = '您好，您还在吗？';
 $string['exit_attemptscore'] = '您的那次答卷成绩是 {$a}';
-$string['exitcm'] = '下一项活动';
-$string['exitcmcourse'] = '本课程的下次活动';
+$string['exitcm'] = '下一个活动';
+$string['exitcmcourse'] = '本课程的下一个活动';
 $string['exitcm_help'] = '此设置指定在 Quizport 完成后需要进行的 Moodle 活动。
 
 教师可以选择一个特定的活动，或者下面几个通用设置之一：
@@ -181,7 +182,7 @@ $string['exitcm_help'] = '此设置指定在 Quizport 完成后需要进行的 M
 * 此小节的下一个 HotPot
 
 如果其他退出页面选项被禁用了，学生将会直接进入下一项活动。否则将会给学生显示一个链接，当他们准备好时可以带他们进入下一项活动。';
-$string['exitcmsection'] = '本节的下次活动';
+$string['exitcmsection'] = '本节的下一个活动';
 $string['exit_course'] = '课程';
 $string['exit_course_text'] = '返回课程主页';
 $string['exit_encouragement'] = '鼓励';
@@ -207,7 +208,7 @@ $string['exit_feedback_help'] = '这些选项启用和禁用 HotPot 退出页面
 
 另外，如果单元评分方式是最高的，将会显示一条消息，告诉用户最新的答卷是等于还是优于前次。';
 $string['exit_goodtry'] = '良好的尝试！';
-$string['exitgrade'] = '下一个活动等级';
+$string['exitgrade'] = '下一个活动的评分';
 $string['exit_grades'] = '成绩';
 $string['exit_grades_text'] = '查看此课程您目前为止的成绩';
 $string['exithotpotcourse'] = '此课程的下一个 HotPot';
@@ -235,7 +236,7 @@ $string['exit_links_help'] = '这些选项开启和禁用 HotPot 退出页面上
 **成绩**
 如果选中，将会显示一个指向 Moodle 成绩册的链接。';
 $string['exit_next'] = '下一个';
-$string['exit_next_text'] = '尝试下一项活动';
+$string['exit_next_text'] = '尝试下一个活动';
 $string['exit_noscore'] = '您已经成功完成此活动！';
 $string['exitoptions'] = '退出页面选项';
 $string['exitpage'] = '显示退出页面';
@@ -359,6 +360,7 @@ $string['noreview'] = '对不起，您不能查看本测验答卷的详情。';
 $string['noreviewafterclose'] = '对不起，本测验已经关闭。您再也不能查看本测验答卷的详情了。';
 $string['noreviewbeforeclose'] = '对不起，在 {$a} 前您不能查看本测验答卷的详情';
 $string['nosourcefilesettings'] = 'HotPot 记录丢失源文件信息';
+$string['notattemptedyet'] = '还未尝试';
 $string['notavailable'] = '对不起，此活动当前对您不可用。';
 $string['outputformat'] = '输出格式';
 $string['outputformat_best'] = '最佳';

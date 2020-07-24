@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,11 @@ $string['check_cookiesecure_details'] = '<p>如果您启用了https通信，那�
 $string['check_cookiesecure_error'] = '请启用安全的 cookie';
 $string['check_cookiesecure_name'] = '安全的 cookie';
 $string['check_cookiesecure_ok'] = '已启用安全的 cookie。';
+$string['check_crawlers_details'] = '<p>向Google开放后，搜索引擎就可以以访客身份进入课程。如果不允许访客访问的话，那么打开这个设置也没有意义。</p>';
+$string['check_crawlers_error'] = '搜索引擎可以访问，但访客不能访问。';
+$string['check_crawlers_info'] = '搜索引擎可以作为访客进入。';
+$string['check_crawlers_name'] = '对谷歌开放';
+$string['check_crawlers_ok'] = '不允许搜索引擎访问';
 $string['check_defaultuserrole_details'] = '<p>所有已登录的用户都会拥有缺省角色的权限。请确信此角色没有危险的权限。</p>
 <p>缺省用户对应的旧角色只能是<em>已认证用户</em>。一定不能有查看课程权限。</p>';
 $string['check_defaultuserrole_error'] = '默认角色“{$a}”未正确定义！';
@@ -60,11 +65,6 @@ $string['check_frontpagerole_error'] = '检测到未正确定义的首页角色�
 $string['check_frontpagerole_name'] = '首页角色';
 $string['check_frontpagerole_notset'] = '未设置首页角色。';
 $string['check_frontpagerole_ok'] = '首页角色定义正确。';
-$string['check_google_details'] = '<p>向Google开放后，搜索引擎就可以以访客身份进入课程。如果不允许访客访问的话，那么打开这个设置也没有意义。</p>';
-$string['check_google_error'] = '搜索引擎可以访问，但访客不能访问。';
-$string['check_google_info'] = '搜索引擎可以作为访客进入。';
-$string['check_google_name'] = '对谷歌开放';
-$string['check_google_ok'] = '不允许搜索引擎访问';
 $string['check_guestrole_details'] = '<p>访客角色由访客、未登录用户和临时访问课程的访客使用。请确认此角色没有危险的权限。</p>
 <p>访客用户对应的旧角色只能是<em>访客</em>。</p>';
 $string['check_guestrole_error'] = '访客角色“{$a}”定义错误！';

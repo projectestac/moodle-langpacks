@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'glossary', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,6 +158,7 @@ $string['entryexported'] = 'Voce esportata correttamente';
 $string['entryishidden'] = '(al momento questa voce è nascosta)';
 $string['entryleveldefaultsettings'] = 'Impostazioni di default per le voci';
 $string['entrylink'] = 'Link d\'accesso: {$a}';
+$string['entrynotapproved'] = 'Voce non approvata';
 $string['entrysaved'] = 'La voce è stata salvata';
 $string['entryupdated'] = 'La voce è stata aggiornata';
 $string['entryusedynalink'] = 'Collega la voce automaticamente';
@@ -221,8 +222,12 @@ $string['importentries'] = 'Importa voci';
 $string['importentriesfromxml'] = 'Importa voci da file XML';
 $string['includegroupbreaks'] = 'Visualizza separazione dei gruppi';
 $string['indicator:cognitivedepth'] = 'Glossario cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Glossario cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalle attività Gossario (Livelli: Nessuna visualizzazione, Visualizzazione, Invio)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività Glossario.';
 $string['indicator:socialbreadth'] = 'Glossario sociale';
+$string['indicator:socialbreadthdef'] = 'Glossario sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dall\'attività Glossario (Livelli: Nessuna partecipazione, Partecipazione da solo)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività Glossario.';
 $string['isglobal'] = 'Glossario globale';
 $string['isglobal_help'] = 'le voci di un glossario globale sono collegati automaticamente in tutto il sito. Solo gli amministratori possono impostare glossari globali.';

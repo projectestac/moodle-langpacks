@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'editor_tinymce', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -154,7 +154,7 @@ $string['advanced:toolbar_focus'] = 'Ir aos botóns de ferramentas - Alt+Q, Ir a
 $string['advanced:underline_desc'] = 'Subliñado (Ctrl+U)';
 $string['advanced:undo_desc'] = 'Desfacer (Ctrl+Z)';
 $string['advanced:unlink_desc'] = 'Eliminar ligazón';
-$string['advanced:visualaid_desc'] = 'Amosar/agachar liñas de guía/elementos invisíbeis';
+$string['advanced:visualaid_desc'] = 'Amosar/agochar liñas de guía/elementos invisíbeis';
 $string['advhr:advhr_desc'] = 'Inserir unha liña horizontal';
 $string['advhr:delta_height'] = '';
 $string['advhr:delta_width'] = '';
@@ -392,7 +392,7 @@ $string['fullpage_dlg:appearance_bgprops'] = 'Propiedades do fondo';
 $string['fullpage_dlg:appearance_linkprops'] = 'Cores da ligazón';
 $string['fullpage_dlg:appearance_marginprops'] = 'Marxes';
 $string['fullpage_dlg:appearance_style'] = 'Propiedades de folla de estilos e estilo';
-$string['fullpage_dlg:appearance_tab'] = 'Apariencia';
+$string['fullpage_dlg:appearance_tab'] = 'Aparencia';
 $string['fullpage_dlg:appearance_textprops'] = 'Propiedades de texto';
 $string['fullpage_dlg:author'] = 'Autor';
 $string['fullpage_dlg:base_element'] = 'Elemento «base»';
@@ -832,8 +832,8 @@ $string['template_dlg:preview'] = 'Vista previa';
 $string['template_dlg:select'] = 'Seleccione un modelo';
 $string['template_dlg:title'] = 'Modelos';
 $string['template_dlg:warning'] = 'Aviso: Actualizar un modelo co contido doutro pode provocar perda de datos.';
-$string['visualblocks:desc'] = 'Amosar/agachar elementos do bloque';
-$string['visualchars:desc'] = 'Amosar/agachar caracteres visuais de control';
+$string['visualblocks:desc'] = 'Amosar/agochar elementos do bloque';
+$string['visualchars:desc'] = 'Amosar/agochar caracteres visuais de control';
 $string['wordcount:words'] = 'Palabras:';
 $string['xhtmlxtras:abbr_delta_height'] = '';
 $string['xhtmlxtras:abbr_delta_width'] = '';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_recentlyaccessedcourses', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_recentlyaccessedcourses', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   block_recentlyaccessedcourses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,5 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['nocourses'] = 'Нет недавно посещенных курсов';
 $string['pluginname'] = 'Недавно посещенные курсы';
 $string['privacy:metadata'] = 'Блок «Недавно посещенные курсы» не сохраняет никаких личных данных';
-$string['recentlyaccessedcourses:addinstance'] = 'Добавлять новый блок «Недавно посещенные курсы»';
-$string['recentlyaccessedcourses:myaddinstance'] = 'Добавлять новый блок «Недавно посещенные курсы» в личный кабинет';
+$string['recentlyaccessedcourses:myaddinstance'] = 'Добавлять новый блок «Недавно посещенные курсы» на страницу «Личный кабинет»';

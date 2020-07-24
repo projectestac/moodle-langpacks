@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -103,8 +103,6 @@ $string['completionondate'] = 'Fecha';
 $string['completionondatevalue'] = 'Los usuarios permanecerán matriculados hasta';
 $string['completion-pass'] = 'Finalizado (ha alcanzado la califiación de aprobado)';
 $string['completionsettingslocked'] = 'Ajustes de finalización bloqueados';
-$string['completion-title-manual-n'] = 'Marcar como finalizado: {$a}';
-$string['completion-title-manual-y'] = 'Marcar como no finalizado: {$a}';
 $string['completionupdated'] = 'Se actualizó finalización para actividad <b>{$a}</b>';
 $string['completionusegrade'] = 'Requerir calificación';
 $string['completionusegrade_desc'] = 'El estudiante debe recibir una calificación para finalizar esta actividad';
@@ -135,7 +133,7 @@ $string['csvdownload'] = 'Descargar en formato de hoja de cálculo (UTF-8.csv)';
 $string['datepassed'] = 'Fecha pasada';
 $string['days'] = 'Días';
 $string['daysoftotal'] = '{$a->days} de {$a->total}';
-$string['defaultcompletion'] = 'Editar la finalización por tipo de actividades';
+$string['defaultcompletion'] = 'Finalización de actividad por defecto';
 $string['defaultcompletionupdated'] = 'Cambios guardados';
 $string['deletecompletiondata'] = 'Borrar datos de finalización';
 $string['dependencies'] = 'Dependencias';

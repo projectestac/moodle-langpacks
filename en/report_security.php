@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,11 @@ $string['check_cookiesecure_details'] = '<p>If https communication is enabled, i
 $string['check_cookiesecure_error'] = 'Please enable secure cookies';
 $string['check_cookiesecure_name'] = 'Secure cookies';
 $string['check_cookiesecure_ok'] = 'Secure cookies enabled.';
+$string['check_crawlers_details'] = '<p>The "Open to search engines" setting enables search engines to enter courses with guest access. There is no point in enabling this setting if guest login is not allowed.</p>';
+$string['check_crawlers_error'] = 'Search engine access is allowed but guest access is disabled.';
+$string['check_crawlers_info'] = 'Search engines may enter as guests.';
+$string['check_crawlers_name'] = 'Open to search engines';
+$string['check_crawlers_ok'] = 'Search engine access is not enabled.';
 $string['check_defaultuserrole_details'] = '<p>All logged in users are given capabilities of the default user role. Please make sure no risky capabilities are allowed in this role.</p>
 <p>The only supported legacy type for the default user role is <em>Authenticated user</em>. The course view capability must not be enabled.</p>';
 $string['check_defaultuserrole_error'] = 'The default user role "{$a}" is incorrectly defined!';
@@ -60,11 +65,6 @@ $string['check_frontpagerole_error'] = 'Incorrectly defined frontpage role "{$a}
 $string['check_frontpagerole_name'] = 'Frontpage role';
 $string['check_frontpagerole_notset'] = 'Frontpage role is not set.';
 $string['check_frontpagerole_ok'] = 'Frontpage role definition is OK.';
-$string['check_google_details'] = '<p>The Open to Google setting enables search engines to enter courses with guest access. There is no point in enabling this setting if guest login is not allowed.</p>';
-$string['check_google_error'] = 'Search engine access is allowed but guest access is disabled.';
-$string['check_google_info'] = 'Search engines may enter as guests.';
-$string['check_google_name'] = 'Open to Google';
-$string['check_google_ok'] = 'Search engine access is not enabled.';
 $string['check_guestrole_details'] = '<p>The guest role is used for guests, not logged in users and temporary guest course access. Please make sure no risky capabilities are allowed in this role.</p>
 <p>The only supported legacy type for guest role is <em>Guest</em>.</p>';
 $string['check_guestrole_error'] = 'The guest role "{$a}" is incorrectly defined!';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_gapselect', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_gapselect', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_gapselect
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,9 +28,9 @@ defined('MOODLE_INTERNAL') || die();
 $string['addmorechoiceblanks'] = 'Blanco voor {no} meer keuzes';
 $string['answer'] = 'Antwoord';
 $string['choices'] = 'Keuzes';
-$string['choicex'] = 'Keuze {no}';
-$string['combinedcontrolnamegapselect'] = 'Rolmenu';
-$string['combinedcontrolnamegapselectplural'] = 'Rolmenu\'s';
+$string['choicex'] = 'Keuze [[{no}]]';
+$string['combinedcontrolnamegapselect'] = 'rolmenu';
+$string['combinedcontrolnamegapselectplural'] = 'rolmenu\'s';
 $string['correctansweris'] = 'Het goede antwoord is: {$a}';
 $string['errorblankchoice'] = 'Controleer de keuzes: keuze {$a} is leeg.';
 $string['errormissingchoice'] = 'Controleer de vraagtekst: {$a} is niet gevonden in de keuzes!

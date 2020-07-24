@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,11 @@ $string['check_cookiesecure_details'] = '<p>Si habiliteu la comunicació https e
 $string['check_cookiesecure_error'] = 'Habiliteu les galetes segures';
 $string['check_cookiesecure_name'] = 'Galetes segures';
 $string['check_cookiesecure_ok'] = 'Galetes segures habilitades.';
+$string['check_crawlers_details'] = '<p>El paràmetre «Obert a Google» permet que els motors de cerca accedeixin als cursos amb permís d\'accés als convidats. No té sentit habilitar aquest paràmetre si no es permet l\'inici de sessió dels convidats.</p>';
+$string['check_crawlers_error'] = 'Es permet l\'accés als motors de cerca, però s\'ha inhabilitat l\'accés de visitant.';
+$string['check_crawlers_info'] = 'Els motors de cerca poden entrar com a convidats.';
+$string['check_crawlers_name'] = 'Obert a Google';
+$string['check_crawlers_ok'] = 'L\'accés als motors de cerca no està habilitat.';
 $string['check_defaultuserrole_details'] = '<p>Tots els usuaris que han iniciat sessió tenen les capacitats del rol d\'usuari per defecte. Comproveu que aquest rol no té permesa cap capacitat arriscada.</p> <p>L\'únic tipus heretat admès pel rol d\'usuari per defecte és  <em>Usuari autenticat</em>. La capacitat de veure cursos no s\'ha d\'habilitar.</p>';
 $string['check_defaultuserrole_error'] = 'El rol d\'usuari per defecte «{$a}» està definit incorrectament!';
 $string['check_defaultuserrole_name'] = 'Rol per defecte per tots els usuaris';
@@ -56,11 +61,6 @@ $string['check_frontpagerole_error'] = 'S\'ha detectat una definició incorrecta
 $string['check_frontpagerole_name'] = 'Rol de la pàgina principal';
 $string['check_frontpagerole_notset'] = 'El rol de la pàgina principal no està definit.';
 $string['check_frontpagerole_ok'] = 'El rol de la pàgina principal està definit de forma correcta.';
-$string['check_google_details'] = '<p>El paràmetre «Obert a Google» permet que els motors de cerca accedeixin als cursos amb permís d\'accés als convidats. No té sentit habilitar aquest paràmetre si no es permet l\'inici de sessió dels convidats.</p>';
-$string['check_google_error'] = 'Es permet l\'accés als motors de cerca, però s\'ha inhabilitat l\'accés de visitant.';
-$string['check_google_info'] = 'Els motors de cerca poden entrar com a convidats.';
-$string['check_google_name'] = 'Obert a Google';
-$string['check_google_ok'] = 'L\'accés als motors de cerca no està habilitat.';
 $string['check_guestrole_details'] = '<p>El rol de convidat és utilitzat pels convidats, pels usuaris que no han iniciat sessió i en cas d\'accés temporal als cursos com a convidat. Comproveu que aquest rol no té permesa cap capacitat arriscada.</p> <p>L\'únic tipus heretat admès pel rol d\'usuari convidat és <em>Convidat</em>.</p>';
 $string['check_guestrole_error'] = 'El rol de convidat «{$a}» està definit incorrectament!';
 $string['check_guestrole_name'] = 'Rol de convidat';

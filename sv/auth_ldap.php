@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,6 @@ $string['auth_ldap_contexts_key'] = 'Sammanhang';
 $string['auth_ldap_create_context'] = 'Om Du aktiverar \'Skapa användare\' med e-postbekräftelse så ska Du specifiera den kontext där användare skapas. Denna kontext bör vara en annan än den vanliga för att undvika säkerhetsrisker. Du behöver inte lägga till denna kontext till variabeln \'ldap_context\'. Moodle letar automatiskt efter användare från den här kontexten.<br /><b>OBS!</b> Du måste modifiera metoden \'ser_create\' i filen \'auth/ldap/auth.php för att se till att \'skapa användare\' fungerar.';
 $string['auth_ldap_create_context_key'] = 'Sammanhang för nya användare';
 $string['auth_ldap_create_error'] = 'Fel i samband med en användare skulle skapas i LDAP';
-$string['auth_ldap_creators'] = 'Lista av grupper som har behörighet att skapa nya kurser. Skilj på grupperna med \';\'. Vanligtvis något liknande \'ch=utbildare, ou=personal, o=minOrg\'';
-$string['auth_ldap_creators_key'] = 'Skapare';
 $string['auth_ldapdescription'] = 'Denna metod ger autenticering mot en extern LDAP-server. Om det givna användarnamnet och lösenordet är giltiga skapar Moodle en plats för en ny användare i databasen. Denna modul kan läsa användarattribut från LDAP och fylla i på förhand önskade fält i Moodle. För följande inloggning är endast användarnamn och lösenord kontrollerade.';
 $string['auth_ldap_expiration_desc'] = 'Välj \'Nej\' för att avaktivera kontroll av lösenord som har gått ut eller LDAP för att läsa \'passwordexpiration time\' direkt från LDAP. Kom ihåg att fylla i namnet på attributet, nämligen \'ldap_expireattr\'.';
 $string['auth_ldap_expiration_key'] = 'Giltighetstiden går ut';

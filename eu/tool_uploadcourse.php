@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploadcourse', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploadcourse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['allowdeletes'] = 'Baimendu ezabatzea';
 $string['allowdeletes_help'] = '\'delete\' eremua onartuko den edo ez.';
-$string['allowrenames'] = 'Baimendu berrizendatzea';
+$string['allowrenames'] = 'Baimendu \'rename\' eremuak';
 $string['allowrenames_help'] = '\'rename\' eremua onartuko den edo ez.';
 $string['allowresets'] = 'Baimendu berrabiaraztea';
 $string['allowresets_help'] = '\'reset\' eremua onartuko den edo ez.';
@@ -36,11 +36,11 @@ $string['cannotdeletecoursenotexist'] = 'Ezin da ezabatu existitzen ez den ikast
 $string['cannotforcelang'] = 'Ez duzu baimenik ikastaro honetan hizkuntza behartzeko';
 $string['cannotgenerateshortnameupdatemode'] = 'Ezin da izen laburra sortu eguneratzeak baimenduta daudenean';
 $string['cannotreadbackupfile'] = 'Ezin da segurtasun-kopiaren fitxategia irakurri';
-$string['cannotrenamecoursenotexist'] = 'Ezin da berrizendatu existitzen ez den ikastaroa';
-$string['cannotrenameidnumberconflict'] = 'Ezin da ikastaroa berrizendatu, ID zenbakiak gatazka sortzen du existitzen den beste ikastaro batenarekin';
+$string['cannotrenamecoursenotexist'] = 'Ezin zaio existitzen ez den ikastaro bati izena aldatu';
+$string['cannotrenameidnumberconflict'] = 'Ezin zaio ikastaroari izena aldatu, ID zenbakiak gatazka sortzen du existitzen den beste ikastaro batenarekin';
 $string['cannotrenameshortnamealreadyinuse'] = 'Ezin zaio ikastaroari izena aldatu, dagoeneko izen laburra erabilita baitago';
 $string['cannotupdatefrontpage'] = 'Debekatuta dago hasiera-orria aldatzea';
-$string['canonlyrenameinupdatemode'] = 'Ikastaroa soilik eguneratzea baimenduta dagoenean berrizenda daiteke';
+$string['canonlyrenameinupdatemode'] = 'Ikastaroari soilik eguneratzea baimenduta dagoenean aldatu dakioke izena.';
 $string['canonlyresetcourseinupdatemode'] = 'Ikastaro bat soilik eguneratze-moduan berrabiaraz daiteke';
 $string['couldnotresolvecatgorybyid'] = 'Ezin izan da ID hori duen kategoriarik aurkitu';
 $string['couldnotresolvecatgorybyidnumber'] = 'Ezin izan da ID zenbaki hori duen kategoriarik aurkitu';
@@ -54,7 +54,7 @@ $string['coursefile'] = 'Fitxategia';
 $string['coursefile_help'] = 'Fitxategiak CSV formatua izan behar du.';
 $string['courseidnumberincremented'] = 'Ikastaroen ID zenbakia handitu da {$a->from} -> {$a->to}';
 $string['courseprocess'] = 'Ikastaro-prozesatzea';
-$string['courserenamed'] = 'Ikastaroa berrizendatu da';
+$string['courserenamed'] = 'Ikastaroaren izena aldatu da';
 $string['courserenamingnotallowed'] = 'Ikastaroak berrizendatzea ez dago baimenduta';
 $string['coursereset'] = 'Berrabiarazi ikastaroa';
 $string['courseresetnotallowed'] = 'Ikastaroa berrabiaraztea baimenduta dago orain';
@@ -92,9 +92,12 @@ $string['invalidcourseformat'] = 'Ikastaro-formatu baliogabea';
 $string['invalidcsvfile'] = 'CSV fitxategi baliogabea';
 $string['invalidencoding'] = 'Kodifikazioa ez da baliagarria';
 $string['invalideupdatemode'] = 'Eguneratze-modu baliogabea aukeratu da';
+$string['invalidfullnametoolong'] = 'Izen osoaren eremuak {$a} karaktereko muga dauka';
 $string['invalidmode'] = 'Modu baliogabea aukeratu da';
 $string['invalidroles'] = 'Rol izen baliogabeak: {$a}';
 $string['invalidshortname'] = 'Izen labur baliogabea';
+$string['invalidshortnametoolong'] = 'Izen laburraren eremuak {$a} karaktereko muga dauka';
+$string['invalidvisibilitymode'] = 'Ikusgarritasun modu baliobagea';
 $string['missingmandatoryfields'] = 'Derrigorrezko eremuetan balioak falta dira: {$a}';
 $string['missingshortnamenotemplate'] = 'Izen laburra falta da eta ez da zehaztu izen-laburraren txantiloirik';
 $string['mode'] = 'Igotze-modua';

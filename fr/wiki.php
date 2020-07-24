@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'wiki', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -122,8 +122,12 @@ $string['incorrectpageid'] = 'L\'identifiant de page est incorrect.';
 $string['incorrectsubwikiid'] = 'L\'identifiant de sous-wiki est incorrect.';
 $string['incorrectwikiid'] = 'L\'identifiant de wiki est incorrect.';
 $string['indicator:cognitivedepth'] = 'Wiki : aspect cognitif';
+$string['indicator:cognitivedepthdef'] = 'Wiki : aspect cognitif';
+$string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement cognitif offert par les activités « Wiki » (niveaux : pas de vue, vue, envoi).';
 $string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une activité Wiki.';
 $string['indicator:socialbreadth'] = 'Wiki : aspect social';
+$string['indicator:socialbreadthdef'] = 'Wiki : aspect social';
+$string['indicator:socialbreadthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement social offert par les activités « Wiki » (niveaux : pas de participation, participant seul, participant avec d\'autres).';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Wiki.';
 $string['individualpagedoesnotexist'] = 'La page de wiki individuel n\'existe pas';
 $string['insertcomment'] = 'Insérer un commentaire';

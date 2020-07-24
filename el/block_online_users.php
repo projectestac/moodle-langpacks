@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_online_users', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_online_users', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   block_online_users
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,8 @@ $string['nouser'] = 'Κανένας χρήστης εντός σύνδεσης';
 $string['numuser'] = '{$a} χρήστης σε εντός σύνδεση';
 $string['numusers'] = '{$a} χρήστες εντός σύνδεσης';
 $string['online_status:hide'] = 'Απόκρυψη της κατάστασης σύνδεσής μου από άλλους χρήστες';
+$string['onlinestatushiding'] = 'Απόκρυψη κατάστασης σύνδεσης';
+$string['onlinestatushiding_desc'] = 'Εάν ενεργοποιηθεί, οι χρήστες έχουν την επιλογή απόκρυψης της κατάστασης σύνδεσής τους από τους άλλους χρήστες.';
 $string['online_status:show'] = 'Εμφάνιση της κατάστασης σύνδεσής μου στους άλλους χρήστες';
 $string['online_users:addinstance'] = 'Προσθήκη νέου μπλοκ συνδεδεμένοι χρήστες';
 $string['online_users:myaddinstance'] = 'Προσθήκη νέου μπλοκ συνδεδεμένοι χρήστες στο Ταμπλό';

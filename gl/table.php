@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'table', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'table', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   table
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['downloadas'] = 'Descargar a táboa de datos como {$a->formatsmenu} {$a->downloadbutton}';
+$string['downloadas'] = 'Descargar a táboa de datos como';

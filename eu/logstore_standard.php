@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_standard', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'logstore_standard', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   logstore_standard
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['buffersize'] = 'Idazteko buffer-aren tamaina';
+$string['jsonformat'] = 'JSON formatua';
+$string['jsonformat_desc'] = 'Erabili JSON formatu estandarra PHPko datu-serien ordez \'Bestelako bat\' datu-base eremuan.';
 $string['pluginname'] = 'Agerraldi estandarra';
 $string['pluginname_desc'] = 'Ekitaldiak Moodleko datu-basean gordetzen dituen agerraldi-erregistro plugin bat.';
 $string['privacy:metadata:log'] = 'Igarotako ekitaldien bilduma';

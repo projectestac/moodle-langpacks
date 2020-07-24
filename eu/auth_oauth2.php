@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,15 @@ $string['emailconfirmlinksent'] = '<p>Helbide elektroniko hau duen kontu bat aur
 <p>E-mail bat bidaliko zen <b>{$a}</b> helbidera.</p>
 <p>Bertan kontuak lotzeko jarraibide errazak aurkituko dituzu.</p>
 <p>Zailtasunen bat baduzu, jarri harremanetan guneko kudeatzailearekin.</p>';
+$string['emailpasswordchangeinfo'] = 'Kaixo, {$a->firstname}:
+
+Norbaitek (seguru asko zuk zeuk)  \'{$a->sitename}\' zure konturako pasahitz berria eskatu du.
+
+Hala ere, zure pasahitza ezin da berrabiarazi kontua beste gune batean sartzeko erabiltzen ari baitzara.
+
+Sartu lehen bezala, sarrera-orriko esteka erabiliz, mesedez.
+{$a->admin}';
+$string['emailpasswordchangeinfosubject'] = '{$a}: Pasahitz-aldaketari buruzko informazioa';
 $string['info'] = 'Kanpoko kontua';
 $string['issuer'] = 'OAuth 2 zerbitzua';
 $string['issuernologin'] = 'Emaile hau ezin da sarbiderako erabili.';

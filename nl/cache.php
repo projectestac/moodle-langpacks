@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cache', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addstoresuccess'] = 'Toevoegen van een nieuwe {$a} opslag gelukt';
 $string['area'] = 'Zone';
 $string['cacheadmin'] = 'Cache-beheer';
 $string['cacheconfig'] = 'Configuratie';
+$string['cachedef_calculablesinfo'] = 'Analytics berekent info';
 $string['cachedef_calendar_categories'] = 'Kalender cursus categorieën die een gebruiker kan openen';
 $string['cachedef_calendar_subscriptions'] = 'Kalenderinschrijvingen';
 $string['cachedef_capabilities'] = 'Lijst systeemmogelijkheden';
@@ -46,21 +47,25 @@ $string['cachedef_coursecattree'] = 'Cursuscategorieboomstructuur';
 $string['cachedef_coursecompletion'] = 'Cursus voltooiingsstatus';
 $string['cachedef_coursecontacts'] = 'Lijst met cursuscontacten';
 $string['cachedef_coursemodinfo'] = 'Geaccumuleerde informatie over modules en secties voor elke cursus';
+$string['cachedef_course_user_dates'] = 'De gebruikersdatums voor cursussen ingesteld op relatieve datums';
 $string['cachedef_databasemeta'] = 'Meta-informatie databank';
 $string['cachedef_eventinvalidation'] = 'Gebeurtenis ongeldig maken';
 $string['cachedef_externalbadges'] = 'Externe badges voor een bepaalde gebruiker';
 $string['cachedef_fontawesomeiconmapping'] = 'Koppeling van icoontjes voor lettertype awesome';
 $string['cachedef_grade_categories'] = 'Cijfercategorie queries';
+$string['cachedef_grade_letters'] = 'Vragen over brieven beoordelen';
 $string['cachedef_groupdata'] = 'Cursus groepsinformatie';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier - opgeschoonde inhoud';
 $string['cachedef_langmenu'] = 'Lijst van beschikbare talen';
 $string['cachedef_locking'] = 'Blokkeren';
 $string['cachedef_message_processors_enabled'] = 'Status van ingeschakelde berichtenprocessors';
 $string['cachedef_message_time_last_message_between_users'] = 'Tijdstip van het meest recente bericht tussen gebruikers';
+$string['cachedef_modelfirstanalyses'] = 'Eerste analyse per model en analyseerbaar';
 $string['cachedef_navigation_expandcourse'] = 'Navigatie uitklapbare cursussen';
 $string['cachedef_observers'] = 'Actie wachters';
 $string['cachedef_plugin_functions'] = 'Plugins beschikbare callbacks';
 $string['cachedef_plugin_manager'] = 'Plugin infobeheerder';
+$string['cachedef_portfolio_add_button_portfolio_instances'] = 'Portfolio-exemplaren voor klasse portfolio_add_button';
 $string['cachedef_postprocessedcss'] = 'Nabewerkt CSS';
 $string['cachedef_presignup'] = 'Pre-aanmeldingsgegevens voor bepaalde niet-geregistreerde gebruikers';
 $string['cachedef_questiondata'] = 'Vraagdefinities';
@@ -77,6 +82,7 @@ $string['cachedef_yuimodules'] = 'YUI Moduledefinities';
 $string['cachelock_file_default'] = 'Standaard bestandsblokkering';
 $string['cachestores'] = 'Cache opslag';
 $string['caching'] = 'Caching';
+$string['canuselocalstore'] = 'Kan lokale opslag gebruiken.';
 $string['component'] = 'Component';
 $string['confirmlockdeletion'] = 'Bevestig verwijderen lock';
 $string['confirmstoredeletion'] = 'Bevestig verwijderen van opslag';
@@ -138,8 +144,11 @@ $string['plugin'] = 'Plugin';
 $string['pluginsummaries'] = 'Geïnstalleerde cache opslag';
 $string['privacy:metadata:cachestore'] = 'Het cache subsysteem bewaart tijdelijk gegevens voor andere delen van Moodle. Deze gegevens kunnen niet eenvoudig geïdentificeerd worden en leven kort. Het is bedoeld als cache van gegevens die elders in Moodle bewaard worden en zijn daarom al behandeld door die Moodle-componenten.';
 $string['purge'] = 'Leegmaken';
+$string['purgeagain'] = 'Verwijder cache opnieuw';
 $string['purgedefinitionsuccess'] = 'Met succes de gevraagde definitie weggegooid.';
 $string['purgestoresuccess'] = 'Opslag met succes leeggemaakt';
+$string['purgexdefinitionsuccess'] = 'De cache "{$a->name}" cache ({$a->component}/{$a->area}) is verwijderd.';
+$string['purgexstoresuccess'] = 'De opslagruimte "{$a->store}" is verwijderd.';
 $string['requestcount'] = 'Test met {$a} vragen';
 $string['rescandefinitions'] = 'Definities opnieuw scannen';
 $string['result'] = 'Resultaat';

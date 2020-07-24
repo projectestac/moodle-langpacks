@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploaduser', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,9 +35,15 @@ $string['deleteerrors'] = 'Fehler löschen';
 $string['encoding'] = 'Encoding';
 $string['errormnetadd'] = 'Remote-Nutzer/innen können nicht hinzugefügt werden';
 $string['errors'] = 'Fehler';
+$string['examplecsv'] = 'Beispiel-Textdatei';
+$string['examplecsv_help'] = 'Um die Beispiel-Textdatei zu verwenden, laden Sie sie herunter und öffnen Sie sie dann mit einem Text- oder Tabellenkalkulationsprogramm. Lassen Sie die erste Zeile unverändert, bearbeiten Sie dann die folgenden Zeilen (Datensätze) und fügen Sie Ihre Nutzerdaten hinzu, indem Sie bei Bedarf weitere Zeilen hinzufügen. Speichern Sie die Datei im CSV-Format und laden Sie sie hoch.
+
+Die Beispiel-Textdatei kann auch zum Testen verwendet werden, da Sie eine Vorschau der Nutzerdaten erhalten und die Aktion abbrechen können, bevor Nutzerkonten erstellt werden.';
+$string['invalidtheme'] = 'Das Design "{$a}" ist nicht installiert und wird ignoriert.';
 $string['invalidupdatetype'] = 'Diese Option kann mit dem ausgesuchten \'Upload Typ\' nicht ausgewählt werden.';
 $string['invaliduserdata'] = 'Für den Nutzer {$a} wurden ungültige Daten entdeckt und automatisch bereinigt.';
 $string['nochanges'] = 'Keine Änderungen';
+$string['notheme'] = 'Für diese Person ist kein Design definiert.';
 $string['pluginname'] = 'Nutzerupload';
 $string['privacy:metadata'] = 'Das Plugin \'Nutzer-Upload\' speichert keine personenbezogenen Daten.';
 $string['renameerrors'] = 'Fehler beim Umbenennen';
@@ -58,14 +64,12 @@ $string['uploadpicture_usernotfound'] = 'Nutzer/in mit \'{$a->userfield}\'-Wert 
 $string['uploadpicture_userskipped'] = 'Nutzerbild {$a} exitiert bereits und wird nicht überschrieben.';
 $string['uploadpicture_userupdated'] = 'Nutzerbild {$a} aktualisiert';
 $string['uploadusers'] = 'Nutzerliste hochladen';
-$string['uploadusers_help'] = 'Nutzer/innen können als Textdatei hochgeladen (und optional auch in Kurse eingeschrieben) werden.
+$string['uploadusers_help'] = 'Nutzer/innen können als Textdatei hochgeladen (und optional auch in Kurse eingeschrieben) werden. Das Format der Textdatei sollte folgendermaßen aussehen:
 
-Das Format der Textdatei sollte folgendermaßen aussehen:
-* Jede Zeile der Datei enthält genau einen Datensatz
-* Jeder Datensatz besteht aus einer Reihe von Datenfeldern, die durch Kommas (oder andere Trennzeichen) getrennt sind
-* Der erste Datensatz der Datei enthält eine Liste der benutzten Feldnamen und legt die Struktur der restlichen Zeilen fest
-* Notwendige Feldnamen sind
-username, password, firstname, lastname, email';
+* Jede Zeile enthält genau einen Datensatz
+* Jeder Datensatz besteht aus Datenfeldern, die durch Kommas (oder andere Trennzeichen) getrennt sind
+* Der erste Datensatz enthält eine Liste der benutzten Feldnamen und legt die Struktur der restlichen Zeilen fest
+* Notwendige Feldnamen sind username, password, firstname, lastname, email';
 $string['uploaduserspreview'] = 'Vorschau Nutzer-Upload';
 $string['uploadusersresult'] = 'Ergebnisse Nutzer-Upload';
 $string['uploaduser:uploaduserpictures'] = 'Nutzerbilder hochladen';
@@ -79,6 +83,7 @@ $string['usersrenamed'] = 'Nutzer/innen umbenannt';
 $string['usersskipped'] = 'Nutzer/innen übersprungen';
 $string['usersupdated'] = 'Nutzer/innen aktualisiert';
 $string['usersweakpassword'] = 'Nutzer/innen mit schwachem Kennwort';
+$string['userthemesnotallowed'] = 'Nutzerdesigns sind nicht aktiviert, so dass alle in der Datei enthaltenen Designs ignoriert werden.';
 $string['uubulk'] = 'Für Bulkprozess auswählen';
 $string['uubulkall'] = 'Alle Nutzer/innen';
 $string['uubulknew'] = 'Neue Nutzer/innen';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myoverview', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_myoverview', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   block_myoverview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,8 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addtofavourites'] = 'Пометить этот курс';
-$string['all'] = 'Все';
-$string['aria:allcourses'] = 'Все курсы';
+$string['all'] = 'Все (кроме скрытых)';
+$string['allincludinghidden'] = 'Все';
+$string['aria:allcoursesincludinghidden'] = 'Все курсы';
 $string['aria:favourites'] = 'Показать избранные курсы';
 $string['aria:lastaccessed'] = 'Сортировать курсы по дате последнего посещения';
 $string['aria:title'] = 'Сортировать курсы по их названию';
@@ -44,7 +45,6 @@ $string['inprogress'] = 'Текущие';
 $string['lastaccessed'] = 'Последнее посещение';
 $string['list'] = 'Список';
 $string['morecourses'] = 'Больше курсов';
-$string['myoverview:addinstance'] = 'Добавлять новый блок «Сводка по курсам»';
 $string['myoverview:myaddinstance'] = 'Добавлять новый блок «Сводка по курсам» на страницу «Личный кабинет»';
 $string['next30days'] = 'Следующие 30 дней';
 $string['next7days'] = 'Следующие 7 дней';

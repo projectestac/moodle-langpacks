@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'question', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,6 +82,9 @@ $string['categoryinfo'] = 'Πληροφορίες κατηγορίας';
 $string['categorymove'] = 'Η κατηγορία «{$a->name}» περιλαμβάνει {$a->count} ερωτήσεις (κάποιες μπορεί να είναι παλιές, κρυμμένες, ερωτήσεις που χρησιμοποιούνται ακόμα σε υπάρχοντα κουίζ). Παρακαλούμε, επιλέξτε άλλη κατηγορία για να τις μετακινήσετε.';
 $string['categorymoveto'] = 'Αποθήκευση στην κατηγορία';
 $string['categorynamecantbeblank'] = 'Το όνομα κατηγορίας δεν μπορεί να είναι κενό.';
+$string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
+$string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
+$string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Αλλαγή επιλογών';
 $string['changepublishstatuscat'] = '<a href="{$a->caturl}">Η κατηγορία «{$a->name}»</a> στο μάθημα «{$a->coursename}» θα έχει την κατάσταση διαμοιρασμού του αλλαγμένη από <strong>«{$a->changefrom}» σε «{$a->changeto}»</strong>.';
 $string['check'] = 'Έλεγχος';
@@ -166,7 +169,19 @@ $string['errorsavingcomment'] = 'Σφάλμα αποθήκευσης του σχ
 $string['errorsavingflags'] = 'Σφάλμα κατά την αποθήκευση της κατάστασης της σημαιοδότησης.';
 $string['errorupdatingattempt'] = 'Σφάλμα ενημέρωσης της προσπάθειας {$a->id} στην βάση δεδομένων.';
 $string['eventquestioncategorycreated'] = 'Η κατηγορία ερωτήσεων δημιουργήθηκε';
+$string['eventquestioncategorydeleted'] = 'Η κατηγορία ερώτησης διαγράφηκε';
+$string['eventquestioncategorymoved'] = 'Η κατηγορία ερώτησης μετακινήθηκε';
+$string['eventquestioncategoryupdated'] = 'Η κατηγορία ερώτησης ενημερώθηκε';
+$string['eventquestioncategoryviewed'] = 'Η κατηγορία ερώτησης προβλήθηκε';
+$string['eventquestioncreated'] = 'Η ερώτηση δημιουργήθηκε';
+$string['eventquestiondeleted'] = 'Η ερώτηση διαγράφηκε';
+$string['eventquestionmoved'] = 'Η ερώτηση μετακινήθηκε';
+$string['eventquestionsexported'] = 'Ερωτήσεις που εξήχθησαν';
+$string['eventquestionsimported'] = 'Ερωτήσεις που έχουν εισαχθεί';
+$string['eventquestionupdated'] = 'Η ερώτηση ενημερώθηκε';
+$string['eventquestionviewed'] = 'Η ερώτηση προβλήθηκε';
 $string['export'] = 'Εξαγωγή';
+$string['exportasxml'] = 'Εξαγωγή ως Moodle XML';
 $string['exportcategory'] = 'Εξαγωγή κατηγορίας';
 $string['exportcategory_help'] = 'Αυτή η ρύθμιση καθορίζει την κατηγορία από την οποία θα αντληθούν οι εξαγόμενες ερωτήσεις.
 
@@ -372,7 +387,7 @@ $string['questionpreviewdefaults'] = 'Προεπιλογές προεπισκό�
 $string['questionpreviewdefaults_desc'] = 'Αυτές οι προεπιλογές χρησιμοποιούνται κατά την πρώτη προεπισκόπηση από ένα χρήστη μιας ερώτησης της τράπεζας ερωτήσεων. Μόλις ένας χρήστης κάνει προεπισκόπηση μιας ερώτησης, οι προσωπικές του προτιμήσεις αποθηκεύονται ως προτιμήσεις χρήστη.';
 $string['questions'] = 'Ερωτήσεις';
 $string['questionsaveerror'] = 'Σφάλματα συνέβησαν κατά την αποθήκευση της ερώτησης - ({$a})';
-$string['questionsinuse'] = '(* Ερωτήσεις που επισημαίνονται με αστερίσκο χρησιμοποιούνται ήδη σε μερικά κουίζ. Αυτές οι ερωτήσεις δεν θα διαγραφούν από αυτά τα κουίζ αλλά μόνο από την λίστα της κατηγορίας.)';
+$string['questionsinuse'] = '(* Ερωτήσεις που επισημαίνονται με αστερίσκο χρησιμοποιούνται ήδη κάπου, για παράδειγμα σε κάποιο κουίζ. Συνεπώς, αν προχωρήσετε, αυτές οι ερωτήσεις δεν θα διαγραφούν πραγματικά, απλά θα κρύβονται.)';
 $string['questionsmovedto'] = 'Ερωτήσεις οι οποίες χρησιμοποιούνται ακόμα μετακινήθηκαν στο «{$a}» στην γονική κατηγορία μαθήματος.';
 $string['questionsrescuedfrom'] = 'Οι ερωτήσεις αποθηκεύτηκαν από το πλαίσιο {$a}.';
 $string['questionsrescuedfrominfo'] = 'Αυτές οι ερωτήσεις (κάποιες από τις οποίες μπορεί να είναι κρυμμένες) αποθηκεύτηκαν όταν το πλαίσιο {$a} διαγράφηκε επειδή χρησιμοποιούνται ακόμα από ορισμένα κουίζ ή άλλες δραστηριότητες.';

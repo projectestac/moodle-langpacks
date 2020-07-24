@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_gapselect', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_gapselect', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_gapselect
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addmorechoiceblanks'] = 'Espaces vides pour {no} choix supplémentaires';
 $string['answer'] = 'Réponse';
 $string['choices'] = 'Choix';
-$string['choicex'] = 'Choix {no}';
+$string['choicex'] = 'Choix [[{no}]]';
 $string['combinedcontrolnamegapselect'] = 'menu déroulant';
 $string['combinedcontrolnamegapselectplural'] = 'menus déroulants';
 $string['correctansweris'] = 'La réponse correcte est : {$a}';

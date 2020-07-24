@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'survey', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -208,8 +208,12 @@ $string['howlong'] = 'Hoe lang heb je er over gedaan om dit onderzoek in te vull
 $string['howlongoptions'] = 'minder dan 1 min,1-2 min,2-3 min,3-4 min,4-5 min,5-10 min,meer dan 10 min';
 $string['ifoundthat'] = 'Ik vond dat';
 $string['indicator:cognitivedepth'] = 'Onderzoek cognitief';
+$string['indicator:cognitivedepthdef'] = 'Onderzoek cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de enquêteactiviteiten tijdens dit analyse-interval bereikt (Niveaus = Geen weergave, Bekijken, Verzenden)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Onderzoek activiteit.';
 $string['indicator:socialbreadth'] = 'Onderzoek sociaal';
+$string['indicator:socialbreadthdef'] = 'Onderzoek sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de maatschappelijke betrokkenheid van de enquêteactiviteiten tijdens dit analyse-interval bereikt (niveaus = geen deelname, alleen deelnemer)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Onderzoek activiteit.';
 $string['introtext'] = 'Inleidende tekst';
 $string['invalidsurveyid'] = 'Onderzoeks ID was fout';

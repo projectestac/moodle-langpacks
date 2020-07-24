@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'access', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'access', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   access
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,8 +35,6 @@ $string['breadcrumb'] = 'Μπάρα πλοήγησης';
 $string['eventcontextlocked'] = 'Πλαίσιο παγωμένο';
 $string['eventcontextunlocked'] = 'Πλαίσιο ξεπαγωμένο';
 $string['hideblocka'] = 'Σύμπτυξη μπλοκ {$a}';
-$string['monthnext'] = 'Επόμενος μήνας';
-$string['monthprev'] = 'Προηγούμενος μήνας';
 $string['showblocka'] = 'Ανάπτυξη μπλοκ {$a}';
 $string['sitemap'] = 'Χάρτης ιστοτόπου';
 $string['skipa'] = 'Παράλειψη {$a}';

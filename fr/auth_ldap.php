@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,6 @@ $string['auth_ldap_contexts_key'] = 'Contextes';
 $string['auth_ldap_create_context'] = 'Lors de l\'utilisation de la création d\'utilisateurs avec confirmation par courriel, indiquer ici le contexte où créer les utilisateurs. Pour des raisons de sécurité, ce contexte ne doit pas être le même que celui des autres utilisateurs. Il n\'est pas nécessaire d\'ajouter ce contexte à la variable ldap_context. Moodle cherchera automatiquement les utilisateurs dans ce contexte.<br /><strong>Remarque :</strong> vous devrez modifier la méthode user_create() dans le fichier auth/ldap/auth.php pour permettre la création des utilisateurs.';
 $string['auth_ldap_create_context_key'] = 'Contexte des nouveaux utilisateurs';
 $string['auth_ldap_create_error'] = 'Erreur lors de la création de l\'utilisateur dans LDAP.';
-$string['auth_ldap_creators'] = 'Liste des groupes ou contextes dont les membres sont autorisés à créer des cours. Les groupes (en général, de la forme « cn=teachers,ou=staff,o=myorg ») sont séparés par des points-virgules (;).';
-$string['auth_ldap_creators_key'] = 'Gestionnaires de cours';
 $string['auth_ldapdescription'] = 'Cette méthode permet l\'authentification auprès d\'un annuaire LDAP externe. Si les nom d\'utilisateur et mot de passe sont corrects, Moodle créera un nouvel enregistrement pour cet utilisateur dans sa base de données. Ce module peut récupérer les attributs de l\'enregistrement LDAP de l\'utilisateur afin de remplir certains champs dans Moodle. Lors des connexions suivantes, seuls les nom d\'utilisateur et mot de passe sont vérifiés.';
 $string['auth_ldap_expiration_desc'] = 'Sélectionnez « {$a->no} » pour désactiver le contrôle d\'échéance des mots de passe ou « {$a->ldapserver} » pour reprendre la durée d\'échéance des mots de passe à partir du serveur LDAP';
 $string['auth_ldap_expiration_key'] = 'Échéance';
@@ -118,6 +116,11 @@ $string['cannotmaprole'] = 'Le rôle « {$a->rolename} » ne peut pas être mi
 $string['connectingldap'] = 'Connection au serveur LDAP…';
 $string['connectingldapsuccess'] = 'La connexion au serveur LDAP a réussi';
 $string['creatingtemptable'] = 'Création de la table temporaire {$a}';
+$string['diag_contextnotfound'] = 'Le contexte {$a} n\'existe pas ou ne peut pas être lu par DN lié.';
+$string['diag_emptycontext'] = 'Contexte vide trouvé.';
+$string['diag_genericerror'] = 'Erreur LDAP {$a->code} de libellé {$a->subject}: {$a->message}.';
+$string['diag_rolegroupnotfound'] = 'Le groupe {$a->group} pour le rôle {$a->localname} n\'existe pas ou ne peut pas être lu par DN lié.';
+$string['diag_toooldversion'] = 'Il est très improbable qu\'un serveur LDAP moderne utilise le protocole LDAPv2. Des réglages erronés peuvent corrompre les valeurs des champs utilisateur. Veuillez vérifier auprès de votre administrateur LDAP.';
 $string['didntfindexpiretime'] = 'La fonction password_expire() n\'a pas trouvé de durée d\'échéance';
 $string['didntgetusersfromldap'] = 'Aucun utilisateur obtenu depuis LDAP';
 $string['gotcountrecordsfromldap'] = '{$a} enregistrements obtenus de LDAP';

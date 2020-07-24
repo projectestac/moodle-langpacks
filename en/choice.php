@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,6 +57,7 @@ $string['chooseoption'] = 'Choose: {$a}';
 $string['closebeforeopen'] = 'You have specified a close date before the open date.';
 $string['completionsubmit'] = 'Show as complete when user makes a choice';
 $string['description'] = 'Description';
+$string['deselectalloption'] = 'Deselect all "{$a}"';
 $string['displayhorizontal'] = 'Display horizontally';
 $string['displaymode'] = 'Display mode for the options';
 $string['displayvertical'] = 'Display vertically';
@@ -71,8 +72,14 @@ $string['full'] = '(Full)';
 $string['havetologin'] = 'You have to log in before you can submit your choice';
 $string['includeinactive'] = 'Include responses from inactive/suspended users';
 $string['indicator:cognitivedepth'] = 'Choice cognitive';
+$string['indicator:cognitivedepthdef'] = 'Choice cognitive';
+$string['indicator:cognitivedepthdef_help'] = 'The participant has reached this percentage of the cognitive engagement offered by the Choice activities during this analysis interval (Levels = No view, View, Submit, View feedback)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:cognitivedepth_help'] = 'This indicator is based on the cognitive depth reached by the student in a Choice activity.';
 $string['indicator:socialbreadth'] = 'Choice social';
+$string['indicator:socialbreadthdef'] = 'Choice social';
+$string['indicator:socialbreadthdef_help'] = 'The participant has reached this percentage of the social engagement offered by the Choice activities during this analysis interval (Levels = No participation, Participant alone, Participant with others)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['indicator:socialbreadth_help'] = 'This indicator is based on the social breadth reached by the student in a Choice activity.';
 $string['limit'] = 'Limit';
 $string['limitanswers'] = 'Limit the number of responses allowed';
@@ -85,7 +92,7 @@ $string['limitno'] = 'Limit {no}';
 $string['modulename'] = 'Choice';
 $string['modulename_help'] = 'The choice activity module enables a teacher to ask a single question and offer a selection of possible responses.
 
-Choice results may be published after students have answered, after a certain date, or not at all. Results may be published with student names or anonymously.
+Choice results may be published after students have answered, after a certain date, or not at all. Results may be published with student names or anonymously (though teachers always see student names and their responses).
 
 A choice activity may be used
 
@@ -138,10 +145,10 @@ $string['responsesto'] = 'Responses to {$a}';
 $string['results'] = 'Results';
 $string['savemychoice'] = 'Save my choice';
 $string['search:activity'] = 'Choice - activity information';
+$string['selectalloption'] = 'Select all "{$a}"';
 $string['showpreview'] = 'Show preview';
 $string['showpreview_help'] = 'Allow students to preview the available options before the choice is opened for submission.';
 $string['showunanswered'] = 'Show column for unanswered';
-$string['skipresultgraph'] = 'Skip result graph';
 $string['spaceleft'] = 'space available';
 $string['spacesleft'] = 'spaces available';
 $string['taken'] = 'Taken';

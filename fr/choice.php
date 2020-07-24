@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,6 +57,7 @@ $string['chooseoption'] = 'Choisir : {$a}';
 $string['closebeforeopen'] = 'La date de fermeture indiquée est antérieure à la date d\'ouverture.';
 $string['completionsubmit'] = 'Afficher comme terminé quand l\'utilisateur a rempli le sondage';
 $string['description'] = 'Description';
+$string['deselectalloption'] = 'Désélectionner tous les « {$a} »';
 $string['displayhorizontal'] = 'Afficher horizontalement';
 $string['displaymode'] = 'Mode d\'affichage des options';
 $string['displayvertical'] = 'Afficher verticalement';
@@ -71,8 +72,12 @@ $string['full'] = '(complet)';
 $string['havetologin'] = 'Vous devez vous connecter pour pouvoir répondre à ce sondage';
 $string['includeinactive'] = 'Inclure les réponses des utilisateurs inactifs/désactivés';
 $string['indicator:cognitivedepth'] = 'Sondage : aspect cognitif';
+$string['indicator:cognitivedepthdef'] = 'Sondage : aspect cognitif';
+$string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement cognitif offert par les activités « Sondage » (niveaux : pas de vue, vue, envoi, vue du feedback).';
 $string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une activité Sondage.';
 $string['indicator:socialbreadth'] = 'Sondage : aspect social';
+$string['indicator:socialbreadthdef'] = 'Sondage : aspect social';
+$string['indicator:socialbreadthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement social offert par les activités « Sondage » (niveaux : pas de participation, participant seul, participant avec d\'autres).';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Sondage.';
 $string['limit'] = 'Limite';
 $string['limitanswers'] = 'Limiter le nombre de réponses permises';
@@ -85,13 +90,13 @@ $string['limitno'] = 'Limite {no}';
 $string['modulename'] = 'Sondage';
 $string['modulename_help'] = 'Le module d\'activité sondage permet à un enseignant de poser une question et de proposer un choix de réponses possibles.
 
-Les résultats du sondage peuvent être publiés après que les participants ont répondu, ou après une date, ou pas du tout. Ils peuvent être publiés avec ou sans les noms des participants.
+Les résultats du sondage peuvent être publiés après que les étudiants ont répondu, ou après une date, ou pas du tout. Ils peuvent être publiés avec ou sans les noms des étudiants (bien que les enseignants voient toujours les noms des étudiants et leur réponse).
 
 Un sondage peut être utilisé pour :
 
 * une question rapide afin de stimuler la réflexion sur un thème
-* tester la compréhension des participants
-* faciliter une décision par les participants, en leur permettant par exemple de choisir une direction pour la suite du cours';
+* tester la compréhension des étudiants
+* faciliter une décision par les étudiants, en leur permettant par exemple de choisir une direction pour la suite du cours';
 $string['modulenameplural'] = 'Sondages';
 $string['moveselectedusersto'] = 'Déplacer les utilisateurs sélectionnés vers…';
 $string['multiplenotallowederror'] = 'Il n\'est pas permis de fournir plusieurs réponses à ce sondage';
@@ -137,10 +142,10 @@ $string['responsesto'] = 'Réponses à {$a}';
 $string['results'] = 'Résultats';
 $string['savemychoice'] = 'Enregistrer mon choix';
 $string['search:activity'] = 'Sondage – information sur l\'activité';
+$string['selectalloption'] = 'Sélectionner tous les « {$a} »';
 $string['showpreview'] = 'Afficher la prévisualisation';
 $string['showpreview_help'] = 'Permettre aux étudiants de prévisualiser les options disponibles avant l\'ouverture de l\'enregistrement des choix du sondage.';
 $string['showunanswered'] = 'Afficher la colonne des « sans réponse »';
-$string['skipresultgraph'] = 'Ne pas montrer le graphique des résultats';
 $string['spaceleft'] = 'place disponible';
 $string['spacesleft'] = 'places disponibles';
 $string['taken'] = 'Effectué';

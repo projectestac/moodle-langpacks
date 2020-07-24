@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lesson', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['actionaftercorrectanswer_help'] = 'Nachdem eine Frage richtig beantwort
 ';
 $string['actions'] = 'Aktionen';
 $string['activitylink'] = 'Folgeaktivität';
-$string['activitylink_help'] = 'Um einen Link am Ende der Lektion zu einer weiteren Aktivität im Kurs einzufügen, wählen Sie die Aktivität aus dem  Auswahlmenü.';
+$string['activitylink_help'] = 'Um einen Link am Ende der Lektion zu einer weiteren Aktivität im Kurs einzufügen, wählen Sie die Aktivität aus dem Auswahlmenü.';
 $string['activitylinkname'] = 'Zu \'{$a}\' gehen';
 $string['activityoverview'] = 'Eine oder mehrere Lektionen sind fällig';
 $string['addabranchtable'] = 'Inhaltsseite einfügen';
@@ -55,13 +55,16 @@ $string['addendofcluster'] = 'Clusterende einfügen';
 $string['addessay'] = 'Seite mit Freitextfrage anlegen';
 $string['additionalattemptsremaining'] = 'Abgeschlossen. Sie können die Lektion erneut versuchen.';
 $string['addmatching'] = 'Seite mit Zuordnungsfrage anlegen';
-$string['addmultichoice'] = 'Seite mit MultipleChoice-Frage anlegen';
+$string['addmultichoice'] = 'Seite mit Multiple-Choice-Frage anlegen';
 $string['addnewgroupoverride'] = 'Gruppenüberschreibung hinzufügen';
 $string['addnewuseroverride'] = 'Nutzerüberschreibung hinzufügen';
 $string['addnumerical'] = 'Seite mit numerischer Frage anlegen';
 $string['addpage'] = 'Seite einfügen';
 $string['addshortanswer'] = 'Seite mit Kurzantwortfrage anlegen';
 $string['addtruefalse'] = 'Seite mit Wahr/Falsch-Frage anlegen';
+$string['allotheranswers'] = 'Alle anderen Antworten';
+$string['allotheranswersjump'] = 'Alle anderen Antworten überspringen';
+$string['allotheranswersscore'] = 'Alle anderen Antworten bewerten';
 $string['allowofflineattempts'] = 'Versuch der Lektion offline in Moodle Mobile erlauben';
 $string['allowofflineattempts_help'] = 'Wenn diese Option aktiviert ist, können Teilnehmer/innen die Lektion mit Moodle Mobile herunterladen und sie offline versuchen. Alle möglichen Antworten (auch die korrekten Antworten) werden heruntergeladen.
 
@@ -74,6 +77,8 @@ $string['answersfornumerical'] = 'Bei numerischen Fragen können ein Minimal- un
 $string['arrangebuttonshorizontally'] = 'Verzweigungstasten horizontal anordnen?';
 $string['attempt'] = 'Versuch: {$a}';
 $string['attemptheader'] = 'Versuch';
+$string['attemptinfonograde'] = '{$a->timestart} ({$a->duration})';
+$string['attemptinfowithgrade'] = '{$a->grade}% {$a->timestart} ({$a->duration})';
 $string['attempts'] = 'Versuche';
 $string['attemptsdeleted'] = 'Versuche gelöscht';
 $string['attemptsremaining'] = 'Verbleibende Versuche: {$a}';
@@ -156,14 +161,13 @@ $string['deletingpage'] = 'Lösche Seite {$a}';
 $string['dependencyon'] = 'Abhängigkeit von anderen Lektionen';
 $string['dependencyon_help'] = 'Diese Option ermöglicht es, den Zugriff auf diese Lektion vom Ergebnis einer anderen Lektion innerhalb des Kurses abhängig zu machen. Dabei ist jede Kombination aus den Faktoren \'aufgewendete Zeit\', \'abgeschlossen\' oder \'Bewertung besser als\' möglich.';
 $string['description'] = 'Beschreibung';
+$string['deselectallattempts'] = 'Alle Versuche abwählen';
 $string['detailedstats'] = 'Ergebnisanalyse';
 $string['didnotanswerquestion'] = 'Hat diese Frage nicht beantwortet.';
 $string['didnotreceivecredit'] = 'Hat keine Bewertung erhalten';
 $string['disabled'] = 'Deaktiviert';
 $string['displaydefaultfeedback'] = 'Standardfeedback benutzen';
-$string['displaydefaultfeedback_help'] = '<h2>Standardrückmeldung anzeigen</h2>
-
-<p>Bei der Einstellung <strong>Ja</strong> wird die Standardrückmeldung (Richtig/Falsch) angezeigt, sofern keine individuelle Rückmeldung vorhanden ist.</p>
+$string['displaydefaultfeedback_help'] = '<p>Bei der Einstellung <strong>Ja</strong> wird die Standardrückmeldung (Richtig/Falsch) angezeigt, sofern keine individuelle Rückmeldung vorhanden ist.</p>
 <p>Bei der Einstellung <strong>Nein</strong> wird keine Rückmeldung angezeigt, sofern keine individuelle Rückmeldung vorhanden ist. Die Teilnehmer/innen werden dann automatisch zur nächsten Seite der Lektion geführt. </p>';
 $string['displayinleftmenu'] = 'Im Menü anzeigen?';
 $string['displayleftif'] = 'Inhaltsverzeichnis nur anzeigen, wenn die Bewertung höher ist als';
@@ -187,7 +191,7 @@ $string['editessay'] = 'Seite mit Freitextfrage bearbeiten';
 $string['editingquestionpage'] = 'Frageseite {$a} bearbeiten';
 $string['editlessonsettings'] = 'Einstellungen für Lektion bearbeiten';
 $string['editmatching'] = 'Seite mit Zuordnungsfrage bearbeiten';
-$string['editmultichoice'] = 'Seite mit MultipleChoice-Frage bearbeiten';
+$string['editmultichoice'] = 'Seite mit Multiple-Choice-Frage bearbeiten';
 $string['editnumerical'] = 'Seite mit numerischer Frage bearbeiten';
 $string['editoverride'] = 'Überschreibung bearbeiten';
 $string['editpage'] = 'Seite bearbeiten';
@@ -211,6 +215,7 @@ $string['eolstudentoutoftime'] = 'Achtung: Die verfügbare Zeit ist abgelaufen. 
 $string['eolstudentoutoftimenoanswers'] = 'Sie haben keine Fragen beantwortet. Sie erhalten daher 0 Punkte für die Lektion.';
 $string['essay'] = 'Freitext';
 $string['essayemailmessage2'] = '<p>Freitextfrage: {$a->question}</p><p>Ihre Antwort: <em>{$a->response}</em></p><p>Trainerfeedback: <em>{$a->comment}</em></p><p>Sie haben {$a->earned} von {$a->outof} Punkten bei dieser Frage erhalten.</p><p>Ihre aktuelle Bewertung für die Lektion \'{$a->lesson}\' ist nun {$a->newgrade}%.</p>';
+$string['essayemailmessagesmall'] = '<p>Sie haben {$a->earned} von {$a->outof} für diese Freitextfrage erhalten.</p><p>Ihre Bewertung für die Lektion {$a->lesson} wurde zu {$a->newgrade}% geändert.</p>';
 $string['essayemailsubject'] = 'Bewertung für eine Lektionantwort verfügbar';
 $string['essaynotgradedyet'] = 'Dieser Text wurde noch nicht bewertet.';
 $string['essayresponses'] = 'Freitextantworten';
@@ -259,11 +264,9 @@ $string['groupoverrides'] = 'Gruppenüberschreibungen';
 $string['groupoverridesdeleted'] = 'Gruppenüberschreibungen gelöscht';
 $string['groupsnone'] = 'Keine Gruppen, auf die Sie zugreifen können';
 $string['handlingofretakes'] = 'Bewertung bei Wiederholungen';
-$string['handlingofretakes_help'] = '<h2>Bewertung bei Wiederholungen</h2>
-<p>Wenn die Teilnehmer/innen eine Lektion wiederholen dürfen, kann die
-Bewertung entweder als Durchnittsnote
-oder als Bestnote aller Versuche eines Teilnehmenden erfolgen.</p>
-<p>Diese Option kann jederzeit geändert werden.</p>';
+$string['handlingofretakes_help'] = 'Wenn die Teilnehmer/innen eine Lektion wiederholen dürfen, kann die
+Bewertung entweder als Durchnittsnote oder als Bestnote aller Versuche eines Teilnehmenden erfolgen.
+Diese Option kann jederzeit geändert werden.';
 $string['havenotgradedyet'] = 'Noch nicht bewertet';
 $string['here'] = 'hier';
 $string['highscore'] = 'Beste Bewertung';
@@ -271,10 +274,14 @@ $string['hightime'] = 'Längste Zeit';
 $string['importcount'] = '{$a} Fragen importieren';
 $string['importquestions'] = 'Fragen importieren';
 $string['importquestions_help'] = 'Diese Option ermöglicht den Import von Fragen in unterschiedlichen Formaten über eine Textdatei.';
-$string['inactiveoverridehelp'] = '* Teilnehmer/in hat nicht die richtige Gruppe oder Rolle, um die Lektion anzusehen/auszuführen.';
+$string['inactiveoverridehelp'] = '* Diese Nutzeränderung ist inaktiv, da der Zugriff des Benutzers auf die Aktivität eingeschränkt ist. Dies kann durch Gruppen- oder Rollenzuordnungen, andere Zugriffsbeschränkungen oder durch das Verbergen der Aktivität bedingt sein.';
 $string['indicator:cognitivedepth'] = 'Lektion kognitiv';
+$string['indicator:cognitivedepthdef'] = 'Lektion kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die Lektionsaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht, Beiträge, Feedback anzeigen, Feedback kommentieren, Beiträge nach Feedback überarbeiten).';
 $string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die ein/e Teilnehmer/in in einer Lektionsaktivität erreicht hat.';
 $string['indicator:socialbreadth'] = 'Lektion sozial';
+$string['indicator:socialbreadthdef'] = 'Lektion sozial';
+$string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die Lektionsaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein, Teilnahme mit anderen).';
 $string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer Lektionsaktivität erreicht hat.';
 $string['insertedpage'] = 'Seite eingefügt';
 $string['invalidfile'] = 'Ungültige Datei';
@@ -288,7 +295,7 @@ $string['jumps_help'] = 'Jede Antwort (bei Fragen) oder jede Beschreibung (bei I
 $string['jumpsto'] = 'Sprung zu <em>{$a}</em>';
 $string['leftduringtimed'] = 'Sie haben die Lektion abgebrochen. Die Bearbeitung der Lektion ist zeitlich begrenzt. <br />Klicken Sie auf Fortsetzen, um die Lektion erneut zu beginnen.';
 $string['leftduringtimednoretake'] = 'Sie haben die Lektion abgebrochen. Die Bearbeitung der Lektion ist zeitlich begrenzt. <br />Sie können diese Lektion nicht mehr bearbeiten.';
-$string['leftduringtimedsession'] = 'Sie haben eine zeitbegrenzte Lektion abgebrochen..';
+$string['leftduringtimedsession'] = 'Sie haben eine zeitbegrenzte Lektion abgebrochen.';
 $string['lesson:addinstance'] = 'Neue Lektion hinzufügen';
 $string['lessonclosed'] = 'Die Lektion war verfügbar bis {$a}';
 $string['lessoncloses'] = 'Verfügbarkeit der Lektion endet';
@@ -383,6 +390,7 @@ $string['nooverridedata'] = 'Sie müssen mindestens eine Lektionseinstellung au�
 $string['noretake'] = 'Sie können diese Lektion nicht wiederholen.';
 $string['normal'] = 'Dem Pfad der Lektion folgen';
 $string['notcompleted'] = 'Nicht beendet';
+$string['notcompletedwithdate'] = 'Nicht abgeschossen ({$a})';
 $string['notdefined'] = 'Nicht definiert';
 $string['notenoughsubquestions'] = 'Es wurden noch nicht genügend Unterfragen definiert! <br />Möchten Sie zurückgehen und diese Frage korrigieren?';
 $string['notenoughtimespent'] = 'Sie haben diese Lektion erledigt in {$a->timespent}, also weniger als die gefordert Zeit {$a->timerequired}. Möglicherweise müssen Sie die Lektion erneut versuchen.';
@@ -490,6 +498,7 @@ $string['privacy:metadata:timer:starttime'] = 'Zeitpunkt des Starts des Lektions
 $string['privacy:metadata:timer:timemodifiedoffline'] = 'Letzter Moment als die Aktivität in der Mobile App bearbeitet wurde';
 $string['privacy:metadata:timer:userid'] = 'Die Nutzer ID';
 $string['privacy:metadata:userpref:lessonview'] = 'Voreingestellter Darstellungsmodus beim Bearbeiten der Lektion';
+$string['privacy:path:essayanswers'] = 'Freitextantworten';
 $string['privacy:path:essayresponses'] = 'Essay-Antworten';
 $string['privacy:path:pages'] = 'Seiten';
 $string['processerror'] = 'Fehler während der Verarbeitung aufgetreten!';
@@ -533,6 +542,7 @@ $string['score_help'] = 'Punkte werden nur verwendet, wenn eine benutzerdefinier
 $string['scores'] = 'Bewertung';
 $string['search:activity'] = 'Lektion - Beschreibung';
 $string['secondpluswrong'] = 'Nicht ganz. Möchten Sie es noch einmal versuchen?';
+$string['selectallattempts'] = 'Alle Versuche auswählen';
 $string['selectaqtype'] = 'Fragetyp auswählen';
 $string['sent'] = 'Gesendet';
 $string['shortanswer'] = 'Kurzantwort';
@@ -592,6 +602,7 @@ $string['viewreports2'] = 'Zeige {$a} komplette Versuche';
 $string['warning'] = 'Warnung';
 $string['welldone'] = 'Glückwunsch!';
 $string['whatdofirst'] = 'Was wollen Sie zuerst tun?';
+$string['withselectedattempts'] = 'Mit den ausgewählten Versuchen ...';
 $string['wronganswerjump'] = 'Sprung bei falscher Antwort';
 $string['wronganswerscore'] = 'Bewertung bei falscher Antwort';
 $string['wrongresponse'] = 'Feedback bei falscher Antwort';

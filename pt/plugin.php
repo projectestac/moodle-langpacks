@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'plugin', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -48,9 +48,9 @@ $string['dependencyupload'] = 'Carregar ficheiros';
 $string['dependencyuploadmissing'] = 'Carregar ficheiros ZIP';
 $string['detectedmisplacedplugin'] = 'O módulo "{$a->component}" está instalado numa localização incorreta "{$a->current}", a localização esperada é "{$a->expected}"';
 $string['displayname'] = 'Nome do módulo';
-$string['err_response_curl'] = 'Não é possível descarregar dados de atualizações disponíveis - erro cURL inesperado.';
+$string['err_response_curl'] = 'Não é possível descarregar os dados de atualizações disponíveis - erro cURL inesperado.';
 $string['err_response_format_version'] = 'Versão inesperada do formato de resposta. Por favor, verifique novamente se existem atualizações disponíveis.';
-$string['err_response_http_code'] = 'Não é possível descarregar dados de atualizações disponíveis - código de resposta HTTP inesperado.';
+$string['err_response_http_code'] = 'Não é possível descarregar os dados de atualizações disponíveis - código de resposta HTTP inesperado.';
 $string['filterall'] = 'Mostrar tudo';
 $string['filtercontribonly'] = 'Mostrar apenas módulos adicionais';
 $string['filterupdatesonly'] = 'Mostrar apenas o que está disponível para atualizar';
@@ -122,6 +122,8 @@ $string['type_calendartype'] = 'Tipo de calendário';
 $string['type_calendartype_plural'] = 'Tipos de calendário';
 $string['type_coursereport'] = 'Relatório da disciplina';
 $string['type_coursereport_plural'] = 'Relatórios da disciplina';
+$string['type_customfield'] = 'Campo personalizado';
+$string['type_customfield_plural'] = 'Campos personalizados';
 $string['type_dataformat'] = 'Formato dos dados';
 $string['type_dataformat_plural'] = 'Formatos dos dados';
 $string['type_editor'] = 'Editor';
@@ -147,8 +149,8 @@ $string['type_local'] = 'Módulo local';
 $string['type_local_plural'] = 'Módulos locais';
 $string['type_media'] = 'Leitor de Media';
 $string['type_media_plural'] = 'Leitores de Media';
-$string['type_message'] = 'Destino de mensagens';
-$string['type_message_plural'] = 'Destinos de mensagens';
+$string['type_message'] = 'Módulo Notificação';
+$string['type_message_plural'] = 'Módulos Notificação';
 $string['type_mlbackend'] = 'Estrutura de suporte à aprendizagem';
 $string['type_mlbackend_plural'] = 'Estruturas de suporte à aprendizagem';
 $string['type_mnetservice'] = 'MNet service';
@@ -225,6 +227,7 @@ $string['validationmsg_onedir'] = 'Estrutura inválida do pacote ZIP.';
 $string['validationmsg_onedir_help'] = 'O pacote ZIP deve conter apenas uma diretoria raiz que contém o código do módulo. O nome dessa diretoria raiz deve ser igual ao nome do módulo.';
 $string['validationmsg_pathwritable'] = 'Verificação do acesso de gravação';
 $string['validationmsg_pluginversion'] = 'Versão do módulo';
+$string['validationmsg_pluginversiontoolow'] = 'Já está instalada uma versão superior deste módulo';
 $string['validationmsg_release'] = 'Nova versão do módulo';
 $string['validationmsg_requiresmoodle'] = 'Versão Moodle requerida';
 $string['validationmsg_rootdir'] = 'Nome do módulo a ser instalado';

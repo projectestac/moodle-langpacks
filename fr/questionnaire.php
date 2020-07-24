@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'questionnaire', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,6 +39,8 @@ $string['alignment'] = 'Alignement des boutons radio';
 $string['alignment_help'] = 'Par défaut les boutons radio sont disposés et alignés verticalement. Si vous avez des items relativements courts ou nombreux vous pouvez préférer les disposer horizontalement.';
 $string['alignment_link'] = 'mod/questionnaire/questions#Radio_Buttons';
 $string['all'] = 'Tout';
+$string['allnameddegrees'] = 'Degrés nommés';
+$string['allnameddegrees_help'] = 'Indiquez le texte à afficher pour les degrés sur l\'échelle de Likert au lieu de nombres. Laissez une valeur en blanc pour ne pas l\'utiliser.';
 $string['alreadyfilled'] = 'Vous avez déjà répondu à ce questionnaire {$a}. Merci.';
 $string['andaveragevalues'] = 'et moyenne des valeurs';
 $string['anonymous'] = 'Anonyme';

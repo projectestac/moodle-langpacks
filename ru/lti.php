@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lti', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -178,7 +178,7 @@ $string['icon_url'] = 'URL-адрес значка';
 $string['icon_url_help'] = 'Этот параметр определяет значок, который используется для этого элемента курса в перечне элементов курса. Вместо используемого по умолчанию значка внешнего приложения можно задать значок, который более точно определяет тип элемента курса.';
 $string['id'] = 'Идентификатор';
 $string['indicator:cognitivedepth'] = 'LTI: познавательный аспект';
-$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на  глубине познания, достигнутой студентом при работе с активным элементом LTI.';
+$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на глубине познания, достигнутой студентом при работе с элементом курса «LTI».';
 $string['indicator:socialbreadth'] = 'LTI: социальный аспект';
 $string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с элементом  LTI.';
 $string['invalidid'] = 'Некорректный ID LTI';

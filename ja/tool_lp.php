@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_lp', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,7 @@ $string['editthisplan'] = 'この学習プランを編集する';
 $string['editthisuserevidence'] = 'このエビデンスを編集する';
 $string['edituserevidence'] = 'エビデンスを編集する';
 $string['evidence'] = 'エビデンス';
+$string['filterbyactivity'] = 'リソースまたは活動でコンピテンシーをフィルタする';
 $string['findcourses'] = 'コースを探す';
 $string['frameworkcannotbedeleted'] = 'コンピテンシーフレームワーク「 {$a} 」を削除することはできません。';
 $string['hidden'] = '非表示';
@@ -145,9 +146,11 @@ $string['myplans'] = 'マイ学習プラン';
 $string['nfiles'] = '{$a} ファイル';
 $string['noactivities'] = '活動なし';
 $string['nocompetencies'] = 'このフレームワークでコンピテンシーは作成されていません。';
+$string['nocompetenciesinactivity'] = 'この活動またはリソースに関連付けられたコンピテンシーはありません。';
 $string['nocompetenciesincourse'] = 'このコースにリンクされたコンピテンシーはありません。';
 $string['nocompetenciesinevidence'] = 'このエビデンスにリンクされたコンピテンシーはありません。';
 $string['nocompetenciesinlearningplan'] = 'この学習プランにリンクされたコンピテンシーはありません。';
+$string['nocompetenciesinlist'] = '選択されたコンピテンシーはありません。';
 $string['nocompetenciesintemplate'] = 'この学習プランテンプレートにリンクされたコンピテンシーはありません。';
 $string['nocompetencyframeworks'] = 'まだコンピテンシーフレームワークは作成されていません。';
 $string['nocompetencyselected'] = 'コンピテンシー未選択';

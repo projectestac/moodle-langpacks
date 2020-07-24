@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_randomsamatch', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_randomsamatch', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_randomsamatch
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['insufficientoptions'] = 'As opções de seleção para esta pergunta são insuficientes e, por isso, não estarão disponíveis neste Teste. Por favor, informe o seu professor.';
+$string['insufficientoptions'] = 'As opções de seleção para esta pergunta são insuficientes e, por isso, não estarão disponíveis neste teste. Por favor, informe o seu professor.';
 $string['nosaincategory'] = 'Não existem perguntas de resposta curta na categoria que escolheu \'{$a->catname}\'. Escolha uma categoria diferente, ou crie algumas perguntas nesta categoria.';
 $string['notenoughsaincategory'] = 'Existe(m) só {$a->nosaquestions} perguntas de resposta curta na categoria que escolheu \'{$a->catname}\'. Escolha uma categoria diferente, crie mais perguntas nesta categoria ou reduza o número de perguntas que selecionou.';
 $string['pluginname'] = 'Correspondência de respostas curtas aleatórias';

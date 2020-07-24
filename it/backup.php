@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,36 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['asyncbackupcomplete'] = 'Il backup è stato completato';
+$string['asyncbackupcompletebutton'] = 'Prosegui';
+$string['asyncbackupcompletedetail'] = 'Il processo di backup è stato completato correttamente.<br/> E\' possibile visualizzare il backup <a href="{$a}">nella pagina di ripristino</a>.';
+$string['asyncbackuperror'] = 'Il backup non è andato a buon fine';
+$string['asyncbackuperrordetail'] = 'Il backup non è andato a buon fine. Per favore contatta l\'amministratore.';
+$string['asyncbackuppending'] = 'Il backup è in attesa';
+$string['asyncbackupprocessing'] = 'Il backup è in svolgimento';
+$string['asyncbadexecution'] = 'Errata elaborazione del controller di backup. Risulta {$a} invece di 2.';
+$string['asynccheckprogress'] = 'E\' possibile seguire l\'avanzamento <a href="{$a}">nella pagina di ripristino</a>.';
+$string['asyncemailenable'] = 'Abilita notifiche';
+$string['asyncemailenabledetail'] = 'Gli utenti saranno avvisati tramite messaggio quando il backup/ripristino asincrono sarà stato completato.';
+$string['asyncgeneralsettings'] = 'Backup/ripristino asincrono';
+$string['asyncmessagebody'] = 'Messaggio';
+$string['asyncmessagebodydefault'] = 'Gentile {user_firstname},<br/>il {operation} (ID: {backupid}) è stato completato correttamente.<br/><br/>Per accedere: {link}.';
+$string['asyncmessagebodydetail'] = 'Messaggio da inviare quando il backup/ripristino asincrono sarà stato completato:';
+$string['asyncmessagesubject'] = 'Oggetto';
+$string['asyncmessagesubjectdefault'] = '{operation} Moodle è stata completata correttamente';
+$string['asyncmessagesubjectdetail'] = 'Ogetto del messaggio';
+$string['asyncnowait'] = 'Non è necessario attendere, l\'elaborazione proseguirà in background.';
+$string['asyncprocesspending'] = 'Processo in attesa';
+$string['asyncrestorecomplete'] = 'Il processo di ripristino è stato completato.';
+$string['asyncrestorecompletebutton'] = 'Prosegui';
+$string['asyncrestorecompletedetail'] = 'Il processo di ripristino è stato completato correttamente. Cliccando su prosegui è posisbile accedere al <a href="{$a}">corso con l\'elemento ripristinato.</a>';
+$string['asyncrestoreerror'] = 'Il ripristino non è andato a buon fine';
+$string['asyncrestoreerrordetail'] = 'Il ripristino non è andato a buon fine. Per favore contatta l\'amministratore.';
+$string['asyncrestoreinprogress'] = 'Il ripristino è in svolgimento';
+$string['asyncrestoreinprogress_help'] = 'I ripristini asincroni che sono in svolgimento sono visualizzati di seguito.';
+$string['asyncrestorepending'] = 'Il ripristino è in attesa';
+$string['asyncrestoreprocessing'] = 'Il ripristino è in svolgimento';
+$string['asyncreturn'] = 'Torna al corso';
 $string['autoactivedescription'] = 'E\' possibile scegliere come impostare i backup automatici. Selezionando \'Manuale\' i backup automatici saranno eseguiti esclusivamente tramite lo script CLI di backup che può essere eseguito manualmente oppure tramite il cron.';
 $string['autoactivedisabled'] = 'Disabilitato';
 $string['autoactiveenabled'] = 'Abilitato';
@@ -64,6 +94,7 @@ $string['backupmode30'] = 'Hub';
 $string['backupmode40'] = 'Stesso sito';
 $string['backupmode50'] = 'Automatico';
 $string['backupmode60'] = 'Convertito';
+$string['backupmode70'] = 'Asincrono';
 $string['backupsection'] = 'Backup sezione corso: {$a}';
 $string['backupsettings'] = 'Impostazioni backup';
 $string['backupsitedetails'] = 'Dettagli sito';
@@ -93,6 +124,7 @@ $string['configgeneralblocks'] = 'Imposta il default per l\'inclusione dei blocc
 $string['configgeneralcalendarevents'] = 'Imposta il default per l\'inclusione degli eventi di calendario nei backup.';
 $string['configgeneralcomments'] = 'Imposta il default per l\'inclusione dei commenti nei backup.';
 $string['configgeneralcompetencies'] = 'Imposta il default per l\'inclusione delle competenze nei backup.';
+$string['configgeneralfiles'] = 'Il default per l\'inclusione dei file nei backup.';
 $string['configgeneralfilters'] = 'Imposta il default per l\'inclusione dei filtri nei backup.';
 $string['configgeneralgroups'] = 'Il default per l\'inclusione nei backup di gruppi e raggruppamenti.';
 $string['configgeneralhistories'] = 'Imposta il default per l\'inclusione dello storico degli utenti nei backup.';
@@ -139,6 +171,8 @@ $string['currentstage16'] = 'Fine';
 $string['currentstage2'] = 'Impostazione struttura';
 $string['currentstage4'] = 'Revisione e conferma';
 $string['currentstage8'] = 'Esecuzione backup';
+$string['enableasyncbackup'] = 'Abilita backup asincroni';
+$string['enableasyncbackup_help'] = 'Le operazioni di backup e ripristino saranno asincrone, consentendo all\'utente di svolgere altre attività. L\'impostazione non ha influenza su importazioni ed esportazioni.';
 $string['enterasearch'] = 'Inserisci una ricerca';
 $string['error_block_for_module_not_found'] = 'E\' stata trovata una istanza orfana  di blocco (id: {$a->bid}) nel corso (id: {$a->mid}). Questo blocco non sarà incluso nel backup.';
 $string['errorcopyingbackupfile'] = 'Non è andata a buon fine la copia del file di backup nella cartella temporanea per il ripristino.';
@@ -151,6 +185,7 @@ $string['errorinvalidformatinfo'] = 'Il file selezionato non è un file di backu
 $string['errorminbackup20version'] = 'Questo file di backup è stato creato con una versione di sviluppo del backup di Moodle ({$a->backup}). La versione minima dalla quale è possibile ripristinare è la {$a->min}.';
 $string['errorrestorefrontpagebackup'] = 'I backup della pagina home possono essere ripristinati solamente nella pagina home';
 $string['executionsuccess'] = 'Il file di backup è stato creato correttamente. ';
+$string['failed'] = 'Il backup non è andato a buon fine';
 $string['filealiasesrestorefailures'] = 'Errori nel ripristino di alias';
 $string['filealiasesrestorefailures_help'] = 'Gli alias sono link simbolici a file, tra cui i file memorizzati in repository esterni. In alcuni casi Moodle non può ripristinarli, ad esempio nel caso in cui si tenti di ripristinare backup provenienti da altri siti oppure quando il file collegato non esiste.
 
@@ -169,6 +204,7 @@ $string['generalcalendarevents'] = 'Includi eventi di calendario';
 $string['generalcomments'] = 'Includi commenti';
 $string['generalcompetencies'] = 'Includi competenze';
 $string['generalenrolments'] = 'Includi metodi di iscrizione';
+$string['generalfiles'] = 'Includi i file';
 $string['generalfilters'] = 'Includi filtri';
 $string['generalgradehistories'] = 'Includi storie';
 $string['generalgroups'] = 'Includi gruppi e raggruppamenti';
@@ -207,6 +243,7 @@ $string['includeditems'] = 'Elementi inclusi:';
 $string['includefilereferences'] = 'File collegati a contenuti esterni';
 $string['includesection'] = 'Sezione {$a}';
 $string['includeuserinfo'] = 'Dati utente';
+$string['inprogress'] = 'Il backup è in svolgimento';
 $string['jumptofinalstep'] = 'Salta al passo finale';
 $string['keep'] = 'Mantieni';
 $string['locked'] = 'Bloccato';
@@ -225,6 +262,10 @@ $string['nomatchingcourses'] = 'Non ci sono corsi da visualizzare';
 $string['norestoreoptions'] = 'Non ci sono categorie né corsi dove ripristinare.';
 $string['originalwwwroot'] = 'URL del backup';
 $string['overwrite'] = 'Sovrascrivi';
+$string['pendingasyncdeletedetail'] = 'Il corso ha un backup asincrono in attesa. <br/> Non è possibile eliminare corso finché il backup non sarà stato effettuato.';
+$string['pendingasyncdetail'] = 'Un utente può avere solo un backup asincrono per la medesima risorsa.<br/>Non è possibile accodare backup asincroni della medesima risorsa perché si rischierebbe di avere tanti backup dello stesso contenuto.';
+$string['pendingasyncedit'] = 'Il corso ha un backup asincrono in attesa. Per favore non modificare il corso finché il backup non sarà stato effettuato.';
+$string['pendingasyncerror'] = 'La risorsa ha un backup in attesa';
 $string['preparingdata'] = 'Preparazione dati';
 $string['preparingui'] = 'Preparazione visualizzazione della pagina';
 $string['previousstage'] = 'Indietro';
@@ -286,10 +327,12 @@ $string['rootsettingblocks'] = 'Includi blocchi';
 $string['rootsettingcalendarevents'] = 'Includi eventi del calendario';
 $string['rootsettingcomments'] = 'Includi commenti';
 $string['rootsettingcompetencies'] = 'Includi competenze';
+$string['rootsettingcustomfield'] = 'Includi campi personalizzati';
 $string['rootsettingenrolments'] = 'Includi metodi di iscrizione';
 $string['rootsettingenrolments_always'] = 'Si, sempre';
 $string['rootsettingenrolments_never'] = 'No, ripristina gli utenti iscrivendoli con iscrizione manuali';
 $string['rootsettingenrolments_withusers'] = 'Sì, ma soltanto se gli utenti sono inclusi';
+$string['rootsettingfiles'] = 'Includi i file';
 $string['rootsettingfilters'] = 'Includi filtri';
 $string['rootsettinggradehistories'] = 'Includi storico valutazioni';
 $string['rootsettinggroups'] = 'Includi gruppi e raggruppamenti';
@@ -301,6 +344,7 @@ $string['rootsettingroleassignments'] = 'Includi assegnazioni di ruolo';
 $string['rootsettings'] = 'Impostazioni backup';
 $string['rootsettingusers'] = 'Includi utenti iscritti';
 $string['rootsettinguserscompletion'] = 'Includi dati completamento utente';
+$string['samesitenotification'] = 'Il backup è stato creato con i riferimenti ai file e pertanto non li contiene. Il ripristino è possibile solo su questo sito.';
 $string['sectionactivities'] = 'Attività';
 $string['sectioninc'] = 'Inclusi nel backup (senza dati utente)';
 $string['sectionincanduser'] = 'Inclusi nel backup con i dati utente';
@@ -323,9 +367,12 @@ $string['skipmodifdays'] = 'Salta i corsi non modificati per';
 $string['skipmodifdayshelp'] = 'Consente di escludere dal backup i corsi non modificati per un dato numero di giorni.';
 $string['skipmodifprev'] = 'Salta i corsi non modificati dall\'ultimo backup';
 $string['skipmodifprevhelp'] = 'Consente di escludere dal backup i corsi non modificati dalla data del backup più recente. Richiede l\'abilitazione del logging.';
+$string['status'] = 'Stato';
 $string['storagecourseandexternal'] = 'Area backup del corso e una cartella specifica';
 $string['storagecourseonly'] = 'Area backup del corso';
 $string['storageexternalonly'] = 'Una cartella specifica, dove salvare i backup automatici';
+$string['successful'] = 'Backup completato correttamente';
+$string['successfulrestore'] = 'Ripristino completato correttamente';
 $string['timetaken'] = 'Tempo impiegato';
 $string['title'] = 'Titolo';
 $string['totalcategorysearchresults'] = 'Totale categorie: {$a}';

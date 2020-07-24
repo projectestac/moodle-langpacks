@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_googledocs', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_googledocs', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_googledocs
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['both'] = 'Internal and external';
 $string['cachedef_folder'] = 'Google file IDs for folders in the system account';
-$string['clientid'] = 'Client ID';
 $string['configplugin'] = 'Configure Google Drive plugin';
 $string['defaultreturntype'] = 'Default return type';
 $string['docsformat'] = 'Default document import format';
@@ -40,7 +39,6 @@ $string['internal'] = 'Internal (files stored in Moodle)';
 $string['issuer'] = 'OAuth 2 service';
 $string['issuer_help'] = 'Select the OAuth 2 service that is configured to talk to the Google Drive API. If the service does not exist yet, you will need to create it.';
 $string['oauth2serviceslink'] = '<a href="{$a}" title="Link to OAuth 2 services configuration">OAuth 2 services configuration</a>';
-$string['oauthinfo'] = '<p>To use this plugin, you must register your site with Google, as described in the documentation <a href="{$a->docsurl}">Google OAuth 2.0 setup</a>.</p><p>As part of the registration process, you will need to enter the following URL as \'Authorized Redirect URIs\':</p><p>{$a->callbackurl}</p><p>Once registered, you will be provided with a client ID and secret which can be used to configure certain other Google Drive and Picasa plugins.</p><p>Please also note that you will have to enable the service \'Drive API\'.</p>';
 $string['owner'] = 'Owned by: {$a}';
 $string['pluginname'] = 'Google Drive';
 $string['presentationformat'] = 'Default presentation import format';
@@ -48,7 +46,6 @@ $string['privacy:metadata:repository_googledocs'] = 'The Google Drive repository
 $string['privacy:metadata:repository_googledocs:email'] = 'The email of the Google Drive repository user.';
 $string['privacy:metadata:repository_googledocs:searchtext'] = 'The Google Drive repository user search text query.';
 $string['searchfor'] = 'Search for {$a}';
-$string['secret'] = 'Secret';
 $string['servicenotenabled'] = 'Access not configured. Make sure the service \'Drive API\' is enabled.';
 $string['spreadsheetformat'] = 'Default spreadsheet import format';
 $string['supportedreturntypes'] = 'Supported files';

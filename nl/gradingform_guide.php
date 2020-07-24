@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_guide', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,12 +27,15 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addcomment'] = 'Voeg frequent gebruikte opmerking toe';
 $string['addcriterion'] = 'Voeg criterium toe';
+$string['additionalcomments'] = 'Bijkomende opmerkingen';
+$string['additionalcommentsforcriterion'] = 'Aanvullende opmerkingen voor criterium, {$a}';
 $string['alwaysshowdefinition'] = 'Toon de beoordelingshulp aan leerlingen';
 $string['backtoediting'] = 'Terug naar bewerken';
 $string['clicktocopy'] = 'Klik om deze tekst in het criterium feedback te kopiëren';
 $string['clicktoedit'] = 'Klik om te bewerken';
 $string['clicktoeditname'] = 'Klik om de naam van het criterium te bewerken';
 $string['comment'] = 'Opmerking';
+$string['commentpickerforcriterion'] = 'Veelgebruikte opmerkingenkiezer voor {$a} aanvullende opmerkingen';
 $string['comments'] = 'Frequent gebruikte opmerkingen';
 $string['commentsdelete'] = 'Verwijder opmerking';
 $string['commentsempty'] = 'Klik om de opmerking te bewerken';
@@ -70,10 +73,12 @@ $string['guideoptions'] = 'Opties beoordelingshulp';
 $string['guidestatus'] = 'Status';
 $string['hidemarkerdesc'] = 'Verberg gemarkeerde criteriumbeschrijvingen';
 $string['hidestudentdesc'] = 'Verberg criteriumbeschrijving voor leerlingen';
+$string['informationforcriterion'] = '{$a} informatie';
 $string['insertcomment'] = 'Voeg frequent gebruikte opmerkingen toe';
 $string['maxscore'] = 'Maximumcijfer';
 $string['name'] = 'Naam';
 $string['needregrademessage'] = 'De beoordelingshulp is gewijzigd nadat deze leerling beoordeeld werd. De leerling kan zijn beoordeling niet zien tot je de beoordelingshulp controleert en het cijfer aanpast.';
+$string['outof'] = 'Cijfer van de {$a}';
 $string['pluginname'] = 'Beoordelingshulp';
 $string['previewmarkingguide'] = 'Voorbeeld beoordelingshulp';
 $string['privacy:metadata:criterionid'] = 'Een identificatie voor een criterium voor geavanceerde markering.';
@@ -92,6 +97,8 @@ $string['save'] = 'Bewaar';
 $string['saveguide'] = 'Bewaar de beoordelingshulp en maak die klaar voor gebruik';
 $string['saveguidedraft'] = 'Bewaar als klad';
 $string['score'] = 'cijfer';
+$string['scoreforcriterion'] = '{$a} score';
+$string['score_help'] = 'Voer een score in voor {$a->criterion} tussen 0 en {$a->maxscore}.';
 $string['showmarkerdesc'] = 'Toon beoordeler de criterium beschrijvingen';
 $string['showmarkspercriterionstudents'] = 'Toon cijfers per criterium aan leerlingen';
 $string['showstudentdesc'] = 'Toon leerling criterium beschrijvingen';

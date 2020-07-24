@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_statistics', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -101,6 +101,7 @@ $string['questiontype'] = 'Vraagtype';
 $string['quizinformation'] = 'Testinformatie';
 $string['quizname'] = 'Testnaam';
 $string['quizoverallstatistics'] = 'Algemene teststatistieken';
+$string['quizstatisticscleanuptask'] = 'Opruimen van oude cache-records voor testtatistieken';
 $string['quizstructureanalysis'] = 'Analyse teststructuur';
 $string['random_guess_score'] = 'Gok-score';
 $string['rangebetween'] = '{$a->min} − {$a->max}';
@@ -114,7 +115,6 @@ $string['standarddeviation'] = 'Standaarddeviatie (voor {$a})';
 $string['standarddeviationq'] = 'Standaarddeviatie';
 $string['standarderror'] = 'Standaardafwijking (voor {$a})';
 $string['statistics'] = 'Statistieken';
-$string['statistics:componentname'] = 'Rapport teststatistieken';
 $string['statisticsreport'] = 'Statistisch rapport';
 $string['statisticsreportgraph'] = 'Statistiek voor vraagposities';
 $string['statistics:view'] = 'Bekijk rapport teststatistieken';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_customlang', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['customlang:view'] = 'Voir les chaînes de caractères locales';
 $string['filter'] = 'Filtrer les chaînes';
 $string['filtercomponent'] = 'Afficher les chaînes de ces composants';
 $string['filtercustomized'] = 'Chaînes personnalisées seulement';
-$string['filtermodified'] = 'Chaînes modifiées seulement';
+$string['filtermodified'] = 'Chaînes modifiées dans cette session seulement';
 $string['filteronlyhelps'] = 'Chaînes d\'aide seulement';
 $string['filtershowstrings'] = 'Afficher les chaînes';
 $string['filterstringid'] = 'Identifiant de la chaîne';

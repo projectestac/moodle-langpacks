@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'imscp', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'imscp', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   imscp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,8 +32,12 @@ $string['deploymenterror'] = 'Si è verificato un errore nel pacchetto';
 $string['imscp:addinstance'] = 'Aggiungere pacchetti IMS';
 $string['imscp:view'] = 'Visualizzare IMS Content';
 $string['indicator:cognitivedepth'] = 'Pacchetto IMS cognitvo';
+$string['indicator:cognitivedepthdef'] = 'Pacchetto IMS cognitvo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalla risorsa Pacchetto IMS (Livelli: Nessuna visualizzazione, Visualizzazione)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività Feedback\'.';
 $string['indicator:socialbreadth'] = 'Pacchetto IMS sociale';
+$string['indicator:socialbreadthdef'] = 'Pacchetto IMS sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dalle risorse Pacchetto IMS (Livelli: Nessuna partecipazione, Partecipazione da solo)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente con risorse Pacchetto IMS.';
 $string['keepold'] = 'Pacchetti da archiviare';
 $string['keepoldexplain'] = 'Quanti pacchetti devono essere archiviati?';

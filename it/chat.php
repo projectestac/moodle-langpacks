@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'chat', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,6 +55,7 @@ $string['configserverip'] = 'Indirizzo IP corrispondente al l\'host soprastante'
 $string['configservermax'] = 'Numero massimo di utenti ammessi';
 $string['configserverport'] = 'Porta del server usata dal demone chat';
 $string['coursetheme'] = 'Tema del corso';
+$string['crontask'] = 'Elaborazione in background: modulo chat';
 $string['currentchats'] = 'Sessioni di chat attive';
 $string['currentusers'] = 'Utenti attivi';
 $string['deletesession'] = 'Elimina questa sessione';
@@ -71,8 +72,12 @@ $string['explainmethodnormal'] = 'Impostazioni valide <strong>solo</strong> se s
 $string['generalconfig'] = 'Configurazione generale';
 $string['idle'] = 'Inattivo';
 $string['indicator:cognitivedepth'] = 'Chat cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Chat cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dall\'attività Chat (Livelli: Nessuna visualizzazione, Visualizzazione, Invio, Visualizzazione feedback, Commento al feedback)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività Chat.';
 $string['indicator:socialbreadth'] = 'Chat sociale';
+$string['indicator:socialbreadthdef'] = 'Chat sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dall\'attività Chat (Livelli: Nessuna partecipazione, Partecipazione da solo, Partecipazione con altri)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività Chat.';
 $string['inputarea'] = 'Area di input';
 $string['invalidid'] = 'Non è stato possibile trovare la chat!';
@@ -120,16 +125,16 @@ $string['pastchats'] = 'Sessioni di chat svolte';
 $string['pluginadministration'] = 'Gestione Chat';
 $string['pluginname'] = 'Chat';
 $string['privacy:metadata:chat_messages_current'] = 'Sessione chat attuale. Tali dati sono temporanei e vengono eliminati al termine della sessione.';
-$string['privacy:metadata:chat_users'] = 'Tiene traccia di quali utenti sono presenti nelle diverse chat.';
+$string['privacy:metadata:chat_users'] = 'Mantiene traccia degli utenti presenti nelle diverse chat.';
 $string['privacy:metadata:chat_users:firstping'] = 'Data e ora del primo accesso alla chat.';
 $string['privacy:metadata:chat_users:ip'] = 'IP dell\'utente';
 $string['privacy:metadata:chat_users:lang'] = 'Lingua dell\'utente';
-$string['privacy:metadata:chat_users:lastmessageping'] = 'Data e ora dell\'ultimo messaggio nella chat.';
+$string['privacy:metadata:chat_users:lastmessageping'] = 'Data e ora dell\'ultimo messaggio della chat.';
 $string['privacy:metadata:chat_users:lastping'] = 'Data e ora dell\'ultimo accesso alla chat.';
 $string['privacy:metadata:chat_users:userid'] = 'ID dell\'utente';
 $string['privacy:metadata:chat_users:version'] = 'Modalità di accesso dell\'utente alla chat (sockets/basic/ajax/header_js)';
 $string['privacy:metadata:messages'] = 'Registro dei messaggi inviati durante la sessione chat.';
-$string['privacy:metadata:messages:issystem'] = 'Indicatore di messaggio generato dal sistema.';
+$string['privacy:metadata:messages:issystem'] = 'Se il messaggio è un messaggio generato dal sistema.';
 $string['privacy:metadata:messages:message'] = 'Messaggio';
 $string['privacy:metadata:messages:timestamp'] = 'Data e ora di invio del messaggio';
 $string['privacy:metadata:messages:userid'] = 'ID utente dell\'autore del messaggio';

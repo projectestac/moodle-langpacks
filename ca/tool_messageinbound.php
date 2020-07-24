@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_messageinbound', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'Nom de la classe';
 $string['component'] = 'Component';
-$string['configmessageinboundhost'] = 'L\'adreça del servidor amb què Moodle ha de comprovar el correu. Per especificar un port diferent del predeterminat, podeu utilitzar el format [server]:[port]; per exemple: mail.example.com:587. Si deixeu aquest camp buit, Moodle utilitzarà el port per defecte per al tipus de servidor que correu que especifiqueu.';
+$string['configmessageinboundhost'] = 'L\'adreça del servidor amb què Moodle ha de comprovar el correu. Per especificar un port diferent del predeterminat, podeu utilitzar el format [server]:[port]; per exemple: mail.example.com:993. Si deixeu aquest camp buit, Moodle utilitzarà el port per defecte per al tipus de servidor que correu que especifiqueu.';
 $string['defaultexpiration'] = 'Període per defecte d\'expiració de l\'adreça';
 $string['defaultexpiration_help'] = 'Quan una adreça de correu electrònic ha estat generada per un gestor, es pot configurar que caduqui de forma automàtica després d\'un període de temps, i que no es pugui utilitzar més. És aconsellable establir un període de caducitat.';
 $string['description'] = 'Descripció';

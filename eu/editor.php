@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'editor', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   editor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -104,7 +104,7 @@ $string['middle'] = 'Erdian';
 $string['minimize'] = 'Minimizatu editorea';
 $string['move'] = 'Mugitu';
 $string['multi'] = 'Multi';
-$string['mustenterurl'] = 'URLa jarri behar duzu';
+$string['mustenterurl'] = 'URLa zehaztu behar duzu';
 $string['nolink'] = 'Galarazi estekatze automatikoa';
 $string['normal'] = 'Normala';
 $string['notimage'] = 'Hautatutako artxiboa ez da irudi bat. Mesedez, aukeratu ezazu irudi bat!';
@@ -127,7 +127,7 @@ $string['properties'] = 'Ezaugarriak';
 $string['redo'] = 'Berregin azken ekintza';
 $string['regularexpressions'] = 'Erabili adierazpen erregularrak';
 $string['removelink'] = 'Ezabatu esteka';
-$string['rename'] = 'Berrizendatu';
+$string['rename'] = 'Aldatu izena';
 $string['replaceall'] = 'Ordeztu guztiak';
 $string['replacewith'] = 'Ordeztu';
 $string['right'] = 'Eskuina';

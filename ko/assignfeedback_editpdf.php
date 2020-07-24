@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,6 +62,8 @@ $string['pagenumber'] = '페이지 {$a}';
 $string['pagexofy'] = '페이지   {$a->page} / {$a->total}';
 $string['pen'] = '펜';
 $string['pluginname'] = 'PDF 주석추가';
+$string['privacy:metadata:userid'] = '사용자 ID';
+$string['privacy:path'] = 'PDF 피드백';
 $string['rectangle'] = '직사각형';
 $string['red'] = '빨강';
 $string['result'] = '결과:';

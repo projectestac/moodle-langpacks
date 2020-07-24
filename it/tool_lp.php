@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_lp', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,7 @@ $string['editthisplan'] = 'Modifica questo piano di formazione';
 $string['editthisuserevidence'] = 'Modifica questa attestazione';
 $string['edituserevidence'] = 'Modifica attestazione';
 $string['evidence'] = 'Attestazione';
+$string['filterbyactivity'] = 'Filtra competenze per risorsa o attività';
 $string['findcourses'] = 'Cerca corsi';
 $string['frameworkcannotbedeleted'] = 'Non è possibile eliminare il quadro di competenze \'{$a}\'';
 $string['hidden'] = 'Nascosto';
@@ -145,9 +146,11 @@ $string['myplans'] = 'I miei piani di formazione';
 $string['nfiles'] = '{$a} file';
 $string['noactivities'] = 'Nessuna attività.';
 $string['nocompetencies'] = 'Questo quadro non ha competenze';
+$string['nocompetenciesinactivity'] = 'Nessuna competenza è collegata a questa attività o risorsa.';
 $string['nocompetenciesincourse'] = 'Questo corso non è collegato a competenze';
 $string['nocompetenciesinevidence'] = 'Nessuna competenza è stata collegata a questa attestazione.';
 $string['nocompetenciesinlearningplan'] = 'Nessuna competenza collegata a questo piano di formazione';
+$string['nocompetenciesinlist'] = 'Nessuna competenza è stata selezionata.';
 $string['nocompetenciesintemplate'] = 'Nessuna competenza è collegata a questo modello di piano di formazione.';
 $string['nocompetencyframeworks'] = 'Non sono presenti quadri di competenze.';
 $string['nocompetencyselected'] = 'Non è stata selezionata nessuna competenza';

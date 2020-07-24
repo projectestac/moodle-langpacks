@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_online_users', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_online_users', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   block_online_users
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,8 @@ $string['nouser'] = 'Nenhum utilizador ativo';
 $string['numuser'] = '{$a} utilizador ativo';
 $string['numusers'] = '{$a} utilizadores ativos';
 $string['online_status:hide'] = 'Ocultar o meu estado dos outros utilizadores';
+$string['onlinestatushiding'] = 'A ocultar estado online';
+$string['onlinestatushiding_desc'] = 'Se ativar esta opção, os utilizadores têm a opção de ocultar o seu estado online dos outros utilizadores.';
 $string['online_status:show'] = 'Mostrar o meu estado aos outros utilizadores';
 $string['online_users:addinstance'] = 'Adicionar um novo bloco Utilizadores ativos';
 $string['online_users:myaddinstance'] = 'Adicionar um novo bloco Participantes ativos ao Painel do utilizador';

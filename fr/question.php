@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'question', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,6 +82,9 @@ $string['categoryinfo'] = 'Description de la catégorie';
 $string['categorymove'] = 'La catégorie « {$a->name} » contient {$a->count} questions (certaines d\'entre elles peuvent être des questions cachées ou des questions aléatoires encore utilisées dans des tests). Veuillez choisir une autre catégorie dans laquelle les déplacer.';
 $string['categorymoveto'] = 'Enregistrer dans la catégorie';
 $string['categorynamecantbeblank'] = 'Le nom de la catégorie ne peut pas être vide.';
+$string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
+$string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
+$string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Modifier les options';
 $string['changepublishstatuscat'] = 'La <a href="{$a->caturl}">catégorie « {$a->name} »</a> du cours « {$a->coursename} » verra son état modifié de <strong>{$a->changefrom} à {$a->changeto}</strong>.';
 $string['check'] = 'Vérifier';
@@ -165,7 +168,19 @@ $string['errorsavingcomment'] = 'Erreur lors de l\'enregistrement dans la base d
 $string['errorsavingflags'] = 'Erreur durant l\'enregistrement de l\'indicateur d\'état.';
 $string['errorupdatingattempt'] = 'Erreur lors de la mise à jour dans la base de données de la tentative {$a->id}.';
 $string['eventquestioncategorycreated'] = 'Catégorie de questions créée';
+$string['eventquestioncategorydeleted'] = 'Catégorie de question supprimée';
+$string['eventquestioncategorymoved'] = 'Catégorie de question déplacée';
+$string['eventquestioncategoryupdated'] = 'Catégorie de question modifiée';
+$string['eventquestioncategoryviewed'] = 'Catégorie de question consultée';
+$string['eventquestioncreated'] = 'Question créée';
+$string['eventquestiondeleted'] = 'Question supprimée';
+$string['eventquestionmoved'] = 'Question déplacée';
+$string['eventquestionsexported'] = 'Questions exportées';
+$string['eventquestionsimported'] = 'Questions importées';
+$string['eventquestionupdated'] = 'Question modifiée';
+$string['eventquestionviewed'] = 'Question consultée';
 $string['export'] = 'Exporter';
+$string['exportasxml'] = 'Exporter comme XML Moodle';
 $string['exportcategory'] = 'Exporter catégorie';
 $string['exportcategory_help'] = 'Ce réglage détermine la catégorie dont il faut tirer les questions à exporter.
 
@@ -373,7 +388,7 @@ $string['questionpreviewdefaults'] = 'Réglages par défaut de la prévisualisat
 $string['questionpreviewdefaults_desc'] = 'Ces réglages sont utilisés lors de la première prévisualisation d\'une question dans la banque de questions. Lorsqu\'un utilisateur a prévisualisé une question, ses préférences personnelles sont enregistrées.';
 $string['questions'] = 'Questions';
 $string['questionsaveerror'] = 'Des erreurs sont survenues lors de l\'enregistrement de la question ({$a})';
-$string['questionsinuse'] = '(* Les questions marquées d\'un astérisque sont déjà utilisées dans d\'autres tests. Ces questions ne seront pas supprimées de ces tests, mais seulement de la liste des catégories.)';
+$string['questionsinuse'] = '(* Les questions marquées d\'un astérisque sont déjà utilisées ailleurs, par exemple dans un autre test. C\'est pourquoi, si vous continuez, ces questions ne seront pas supprimées, mais seulement cachées.)';
 $string['questionsmovedto'] = 'Les questions encore utilisées ont été déplacées vers « {$a} » dans la catégorie de cours mère.';
 $string['questionsrescuedfrom'] = 'Questions enregistrées depuis le contexte {$a}.';
 $string['questionsrescuedfrominfo'] = 'Ces questions (dont certaines sont peut-être cachées) ont été enregistrées lors de la suppression du contexte {$a}, car elles sont encore utilisées dans certains tests ou d\'autres activités.';

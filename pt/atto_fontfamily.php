@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fontselectlist'] = 'Tipos de letra disponíveis';
 $string['pluginname'] = 'Tipo de letra';
-$string['settings'] = 'Definições dos tipos de letra';
+$string['settings'] = 'Configurações do tipo de letra';

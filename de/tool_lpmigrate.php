@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lpmigrate', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_lpmigrate', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_lpmigrate
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -64,8 +64,8 @@ $string['privacy:metadata'] = 'Das Plugin \'Tool Kompetenzen-Migration\' speiche
 $string['results'] = 'Ergebnisse';
 $string['startdatefrom'] = 'Kursbeginn ab';
 $string['unmappedin'] = 'Keine Zuordnung in {$a}';
-$string['warningcouldnotremovecoursecompetency'] = 'Diese Kurs Kompetenzen konnten nicht entfernt werden.';
-$string['warningcouldnotremovemodulecompetency'] = 'Die Aktivität oder Ressourcen Kompetenz konnte nicht entfernt werden.';
-$string['warningdestinationcoursecompetencyalreadyexists'] = 'Die Zielkurs Kompetenz existiert bereits.';
+$string['warningcouldnotremovecoursecompetency'] = 'Diese Kurskompetenzen konnten nicht entfernt werden.';
+$string['warningcouldnotremovemodulecompetency'] = 'Die Aktivitäten- oder Ressourcenkompetenz konnte nicht entfernt werden.';
+$string['warningdestinationcoursecompetencyalreadyexists'] = 'Die Zielkurskompetenz existiert bereits.';
 $string['warningdestinationmodulecompetencyalreadyexists'] = 'Die Zielaktivität oder -ressourcen Kompetenz existiert bereits.';
 $string['warnings'] = 'Warnungen';

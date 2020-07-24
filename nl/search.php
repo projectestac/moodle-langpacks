@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'search', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,11 @@ $string['confirm_delete'] = 'Weet je zeker dat je de index voor {$a} wil verwijd
 $string['confirm_deleteall'] = 'Weet je zeker dat je alle geïndexeerde inhoud nu wil verwijderen? Zolang de site niet opnieuw geïndexeerd is, zullen gebruikers geen zoekresultaten krijgen.';
 $string['confirm_indexall'] = 'Weet je zeker dat je de geïndexeerde inhoud nu wil verwijderen? Als een grote hoeveelheid inhoud geïndexeerd moet worden, dan kan dit een lange tijd in beslag nemen. Voor live servers moet je het indexeren overlaten aan de "Globaal zoeken indexeren" geplande taak.';
 $string['confirm_reindexall'] = 'Weet je zeker dat je alle site-inhoud nu opnieuw wil indexeren? Als de site een grote hoeveelheid inhoud heeft, dan zal dit een lange tijd in beslag nemen en gebruikers zullen geen volledige zoekresultaten krijgen tot het indexeren voltooid is.';
+$string['core-all'] = 'Allemaal';
+$string['core-course-content'] = 'Cursusinhoud';
+$string['core-courses'] = 'Cursussen';
+$string['core-other'] = 'Anders';
+$string['core-users'] = 'Gebruikers';
 $string['createanindex'] = 'maak een index';
 $string['createdon'] = 'Gemaakt op';
 $string['database'] = 'Databank';
@@ -84,6 +89,7 @@ $string['invalidindexerror'] = 'Indexmap bevat een ongeldige index of is leeg.';
 $string['ittook'] = 'Het duurde';
 $string['matchingfile'] = 'Overeenkomst van bestand <span class="filename">{$a}</span';
 $string['matchingfiles'] = 'Overeenkomst van bestanden:';
+$string['mycoursesonly'] = 'Alleen mijn cursussen';
 $string['next'] = 'VolgendeAdm';
 $string['noindexmessage'] = 'Beheer: zo\'n index bestaat niet.';
 $string['noresults'] = 'Geen resultaat';
@@ -109,6 +115,9 @@ $string['schemaversionunknown'] = 'De zoekrobot heeft geen weet van het de huidi
 $string['score'] = 'Score';
 $string['search'] = 'Zoek';
 $string['searcharea'] = 'Zoekzone';
+$string['searchareacategories'] = 'Zoek gebied categorieën';
+$string['search:course'] = 'Cursussen';
+$string['search:customfield'] = 'Aangepaste velden voor cursussen';
 $string['searching'] = 'Zoeken in ...';
 $string['search:message_received'] = 'Berichten - ontvangen';
 $string['search:message_sent'] = 'Berichten - verzonden';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'badges', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   badges
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,6 +158,7 @@ $string['issuerdetails'] = '발행자 세부정보';
 $string['issuername'] = '발행자 이름';
 $string['issuername_help'] = '발행기관 이름';
 $string['issuerurl'] = '발행자 URL';
+$string['language'] = '언어';
 $string['localbadges'] = '{$a}  웹 사이트로 부터 받은 뱃지';
 $string['localbadgesh'] = '이 사이트로 부터 받은 뱃지';
 $string['localbadgesp'] = '{$a} 웹 사이트로 부터 받은 뱃지';
@@ -187,8 +188,8 @@ $string['notifydaily'] = '매일';
 $string['notifyevery'] = '매번';
 $string['notifymonthly'] = '매달';
 $string['notifyweekly'] = '매주';
-$string['personaconnection'] = '이메일로 로그인';
 $string['potentialrecipients'] = '뱃지 수상 후보';
+$string['privacy:metadata:external:backpacks:badge'] = '뱃지 이름';
 $string['recipientdetails'] = '수신자 세부사항';
 $string['recipients'] = '뱃지 수상자';
 $string['relative'] = '상대 날짜';
@@ -200,7 +201,6 @@ $string['selectaward'] = '이 배지를 수여하는 데 사용하고 싶은 역
 $string['selectgroup_start'] = '이 사이트에 표시할 backpack 에 있는 콜렉션을 선택하세요.';
 $string['selecting'] = '선택된 뱃지로 ...';
 $string['setup'] = '연결 설정';
-$string['signinwithyouremail'] = '이메일로 로그인';
 $string['sitebadges'] = '사이트 뱃지';
 $string['sitebadges_help'] = '사이트 뱃지는 사이트 관련된 활동을 한 사용자에게 수여됩니다. 지정된 강좌들을 완료하거나 사용자 개인 정보의 일부분을 완료한 것에 대해 뱃지를 수여할 수 있습니다. 사이트 뱃지는 수동으로 수여할 수 있습니다. 강좌 관련 활동에 대한 뱃지는 강좌 수준에서 만들 수 있습니다. 강좌 배지는 강좌 관리 > 뱃지에서 찾을 수 있습니다.';
 $string['status'] = '뱃지 상태';
@@ -210,6 +210,7 @@ $string['statusmessage_2'] = '이 뱃지는 사용자들이 사용할 수 없으
 $string['statusmessage_3'] = '이 뱃지는 사용자들에게 개방되어 있으며, 기준이 잠궈져 있습니다.';
 $string['statusmessage_4'] = '이 뱃지는 현재 저장소에 보관됩니다.';
 $string['subject'] = '메세지 제목';
+$string['targetname'] = '이름';
 $string['variablesubstitution'] = '메시지에 변수 치환';
 $string['viewbadge'] = '발급된  뱃지 보기';
 $string['visible'] = '볼수 있음';

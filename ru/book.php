@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'book', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,7 +96,7 @@ $string['numberingoptions_desc'] = 'Выберите параметры нуме
 $string['page-mod-book-x'] = 'Страница любого модуля Книга';
 $string['pluginadministration'] = 'Управление книгой';
 $string['pluginname'] = 'Книга';
-$string['privacy:metadata'] = 'Активный элемент «Книга» не хранит никаких персональных данных.';
+$string['privacy:metadata'] = 'Элемент курса «Книга» не хранит никаких персональных данных.';
 $string['removeallbooktags'] = 'Удалить все теги книги';
 $string['search:activity'] = 'Книга — информация о ресурсе';
 $string['search:chapter'] = 'Книга — главы';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'ltiservice_memberships', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'ltiservice_memberships', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   ltiservice_memberships
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,10 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allow'] = 'Χρησιμοποιήστε αυτήν την υπηρεσία για να ανακτήσετε τις πληροφορίες των μελών σύμφωνα με τις ρυθμίσεις απορρήτου';
-$string['ltiservice_memberships'] = 'IMS LTI εγγεγραμμένοι:';
-$string['ltiservice_memberships_help'] = 'Αφήστε το εργαλείο να ανακτήσει τις πληροφορίες του μέλους από το μάθημα χρησιμοποιώντας την υπηρεσία μελών IMS LTI Membership. Θα ισχύουν οι ρυθμίσεις απορρήτου.';
+$string['ltiservice_memberships'] = 'Υπηρεσία LTI Ονομάτων και Παροχής Ρόλων του IMS';
+$string['ltiservice_memberships_help'] = 'Επιτρέψτε στο εργαλείο να ανακτά πληροφορίες μέλους από το μάθημα χρησιμοποιώντας την Υπηρεσία LTI Ονομάτων και Παροχής Ρόλων του IMS. Θα ισχύουν οι ρυθμίσεις απορρήτου. Για αιτήσεις σε επίπεδο μαθήματος αυτές θα βασίζονται στις ρυθμίσεις διαμόρφωσης του εργαλείου. Αν επιθυμείτε να στέλνετε τέτοιες λεπτομέρειες πάντα, μην αναθέτετε την επιλογή στους εκπαιδευτικούς. Τα αιτήματα επιπέδου σύνδεσης θα χρησιμοποιούν πάντα τις ρυθμίσεις απορρήτου που ισχύουν για το σύνδεσμο.';
 $string['notallow'] = 'Μην χρησιμοποιείτε αυτήν την υπηρεσία';
-$string['pluginname'] = 'Υπηρεσία LTI εγγεγραμμένων';
+$string['pluginname'] = 'Υπηρεσία LTI Ονομάτων και Παροχής Ρόλων';
 $string['privacy:metadata:email'] = 'Η διεύθυνση ηλε.ταχυδρομείου του χρήστη που χρησιμοποιεί τον καταναλωτή LTI.';
 $string['privacy:metadata:externalpurpose'] = 'Αυτές οι πληροφορίες αποστέλλονται σε έναν εξωτερικό πάροχο LTI.';
 $string['privacy:metadata:firstname'] = 'Το μικρό (βαπτιστικό) όνομα του χρήστη που χρησιμοποιεί τον καταναλωτή LTI.';
@@ -37,4 +37,3 @@ $string['privacy:metadata:fullname'] = 'Το πλήρες όνομα (ονομα
 $string['privacy:metadata:lastname'] = 'Το επώνυμο του χρήστη που χρησιμοποιεί τον καταναλωτή LTI.';
 $string['privacy:metadata:userid'] = 'Το αναγνωριστικό του χρήστη που χρησιμοποιεί τον καταναλωτή LTI.';
 $string['privacy:metadata:useridnumber'] = 'Ο αναγνωριστικός αριθμός του χρήστη που χρησιμοποιεί τον καταναλωτή LTI.';
-$string['servicename'] = 'Μέλη (εγγραφές)';

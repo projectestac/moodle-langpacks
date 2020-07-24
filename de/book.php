@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'book', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addafter'] = 'Kapitel hinzufügen';
+$string['addafterchapter'] = 'Neues Kapitel nach \'{$a->title}\' hinzufügen';
 $string['book:addinstance'] = 'Neues Buch hinzufügen';
 $string['book:edit'] = 'Kapitel bearbeiten';
 $string['book:read'] = 'Buch anzeigen';
@@ -51,8 +52,12 @@ $string['eventchapterupdated'] = 'Kapitel aktualisiert';
 $string['eventchapterviewed'] = 'Kapitel angezeigt';
 $string['hidechapter'] = 'Kapitel "{$a}" verbergen';
 $string['indicator:cognitivedepth'] = 'Buch kognitiv';
+$string['indicator:cognitivedepthdef'] = 'Buch kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die Buchaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht).';
 $string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die eine Person bei einem Buch erreicht hat.';
 $string['indicator:socialbreadth'] = 'Buch sozial';
+$string['indicator:socialbreadthdef'] = 'Buch sozial';
+$string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die Buchaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein).';
 $string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person bei einem Buch erreicht hat.';
 $string['modulename'] = 'Buch';
 $string['modulename_help'] = 'Statt endlos durch lange Texte am Bildschirm zu scrollen, teilen Sie Ihre Lerninhalte auf kurze Seiten innerhalb des Buchs auf.
@@ -90,6 +95,7 @@ $string['numberingoptions_desc'] = 'Wählen Sie die Kapitelgliederungen aus, die
 $string['page-mod-book-x'] = 'Jede Seite des Moduls \'Buch\'';
 $string['pluginadministration'] = 'Buch-Administration';
 $string['pluginname'] = 'Buch';
+$string['previouschapter'] = 'Vorheriges Kapitel';
 $string['privacy:metadata'] = 'Das Plugin \'Buch\' speichert keine personenbezogenen Daten.';
 $string['removeallbooktags'] = 'Alle Buch-Tags entfernen';
 $string['search:activity'] = 'Buch - Beschreibung';

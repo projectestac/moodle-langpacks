@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_mnet', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_mnet', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,6 +31,7 @@ $string['auth_mnet_roamin'] = '这些主机的用户不能进入您的站点。'
 $string['auth_mnet_roamout'] = '您的用户可以进入到这些主机的站点中。';
 $string['auth_mnet_rpc_negotiation_timeout'] = '通过 XMLRPC 进行认证时的超时时间（秒）。';
 $string['auto_add_remote_users'] = '自动添加远程用户';
+$string['crontask'] = '后台处理MNET认证';
 $string['pluginname'] = 'MNet认证';
 $string['privacy:metadata:external:mahara'] = '此插件可以将数据外发到到链接的 Mahara 应用程序。';
 $string['privacy:metadata:external:moodle'] = '此插件可以将数据外发到到链接的Moodle应用程序。';

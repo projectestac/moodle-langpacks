@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'data', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -208,8 +208,12 @@ $string['includetags'] = 'Sartu etiketak';
 $string['includetime'] = 'Sartu denbora gehituta/aldatuta';
 $string['includeuserdetails'] = 'Sartu erabiltzaile-xehetasunak';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa datu-baseetan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa datu-basean';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek Datu-basea jarduerak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da, Bidali da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Datu-basea motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala datu-baseetan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala datu-baseetan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek Datu-basea jarduerak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Parte-hartzerik ez, bakarkako parte-hartzea, parte-hartzea besteekin)';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Datu-basea motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['insufficiententries'] = 'datu-base hau ikusteko sarrera gehiago beharrezkoak dira';
 $string['intro'] = 'Deskribapena';
@@ -247,7 +251,7 @@ $string['missingfield'] = 'Programatze-errorea: eremua edota datua zehaztu behar
 $string['modulename'] = 'Datu-basea';
 $string['modulename_help'] = 'Datu-basea jarduera moduluak irakasleei edo ikasleei edozein gairen inguruko sarreren bilduma bat sortu, erakutsi eta bilatzeko aukera ematen die. Sarreren egitura irakasleek definitzen dituzten eremuen bidez eratzen da. Eremuak mota askotakoak izan daitezke, besteak beste kontrol-laukitxoak, aukera-botoiak, aukera-menuak, testu edo zenbaki eremuak, URLak, irudiak eta igotako fitxategiak.
 
-Datu-baseko sarrerak zerrendatu, ikusi edo editatzean informazioa erakusteko diseinua datu-baseen txantiloien bidez kontrolatu daiteke. Datu-base jarduerak ikastaroen artean aurrezarpen moduan partekatu daitezke eta irakasleek datu-base sarrerak inportatu eta esportatu ditzakete.
+Datu-baseko sarrerak zerrendatu, ikusi edo editatzean informazioa erakusteko diseinua datu-baseen txantiloien bidez kontrolatu daiteke. Datu-base jarduerak ikastaroen artean aurretiko ezarpen moduan partekatu daitezke eta irakasleek datu-base sarrerak inportatu eta esportatu ditzakete.
 
 Datu-baserako esteka automatikoak egiteko iragazkia piztuta badago, datu-basean dagoen edozein sarrera automatikoki estekatuko da ikastaroan hitz edo esaldi horiek agertzen direnean.
 

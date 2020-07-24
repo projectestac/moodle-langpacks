@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignsubmission_file', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,8 +36,6 @@ $string['enabled'] = 'Fitxategi-bidalketak';
 $string['enabled_help'] = 'Gaituz gero, ikasleek fitxategi bat edo gehiago igo dezakete euren bidalketan';
 $string['eventassessableuploaded'] = 'Fitxategia ondo igo da.';
 $string['file'] = 'Fitxategi-bidalketak';
-$string['filesofthesetypes'] = 'Mota hauetako fitxategiak gehitu daitezke bidalketa honetara:';
-$string['filetypewithexts'] = '{$a->name} &mdash; {$a->extlist}';
 $string['maxbytes'] = 'Fitxategiaren gehienezko tamaina';
 $string['maxfiles'] = 'Bidalketa bakoitzeko gehienezko fitxategi kopurua';
 $string['maxfiles_help'] = 'Fitxategien bidalketa gaituta egonez gero, zeregin bakoitzak jasoko ahal duen gehienezko fitxategi kopurua ezarri daiteke.';
@@ -45,7 +43,6 @@ $string['maxfilessubmission'] = 'Igotako fitxategien gehienezko kopurua';
 $string['maxfilessubmission_help'] = 'Fitxategien bidalketa gaituta badago, ikasle bakoitzak fitxategi-kopuru hau bidali ahal izango du gehienez.';
 $string['maximumsubmissionsize'] = 'Bidalketaren gehienezko tamaina';
 $string['maximumsubmissionsize_help'] = 'Ikasleek igotako fitxategiek tamaina hau izan dezakete gehienez.';
-$string['nonexistentfiletypes'] = 'Hurrengo fitxategi-motak ez dira onartu: {$a}';
 $string['numfilesforlog'] = 'Fitxategi-kopurua: {$a} fitxategi.';
 $string['pluginname'] = 'Fitxategi-bidalketak';
 $string['privacy:metadata:filepurpose'] = 'Zereginaren bidalketan igotako fitxategiak';

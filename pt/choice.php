@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,6 +57,7 @@ $string['chooseoption'] = 'Escolha: {$a}';
 $string['closebeforeopen'] = 'Especificou uma data de fecho anterior à data de abertura.';
 $string['completionsubmit'] = 'Mostrar como concluída após o aluno submeter a sua resposta';
 $string['description'] = 'Descrição';
+$string['deselectalloption'] = 'Desselecionar tudo "{$a}"';
 $string['displayhorizontal'] = 'Disposição horizontal';
 $string['displaymode'] = 'Modo de exibição das opções';
 $string['displayvertical'] = 'Disposição vertical';
@@ -71,8 +72,12 @@ $string['full'] = 'Completa';
 $string['havetologin'] = 'Tem que estar autenticado antes de submeter a sua resposta';
 $string['includeinactive'] = 'Inclui respostas de utilizadores inativos e/ou suspensos';
 $string['indicator:cognitivedepth'] = 'Compreensão da Sondagem';
+$string['indicator:cognitivedepthdef'] = 'Compreensão da Sondagem';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelas atividades Sondagem durante esse intervalo de análise (Níveis = Não visualizado, Visualizado, Submetido, Visualizado feedback)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno na atividade Sondagem.';
 $string['indicator:socialbreadth'] = 'Socialização da Sondagem';
+$string['indicator:socialbreadthdef'] = 'Socialização da Sondagem';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelas atividades Sondagem durante esse intervalo de análise (Níveis = Sem participação, Participante individual, Participante com outros)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno na atividade Sondagem.';
 $string['limit'] = 'Limite máximo de respostas';
 $string['limitanswers'] = 'Limitar o número de respostas permitidas';
@@ -84,7 +89,7 @@ $string['limitno'] = 'Limite {no}';
 $string['modulename'] = 'Sondagem';
 $string['modulename_help'] = 'A atividade Sondagem permite ao professor colocar uma pergunta e especificar múltiplas opções de resposta.
 
-Os resultados da sondagem podem ser publicados logo após os alunos responderem, após uma determinada data, ou ficarem apenas visíveis para o professor. Os resultados podem ser publicados juntamente com os nomes dos alunos ou de forma anónima.
+Os resultados da sondagem podem ser publicados logo após os alunos responderem, após uma determinada data, ou ficarem apenas visíveis para o professor. Os resultados podem ser publicados juntamente com os nomes dos alunos ou de forma anónima (os nomes dos alunos e as suas respostas estão sempre visíveis para os professores).
 
 A Sondagem pode ser utilizada:
 
@@ -136,10 +141,10 @@ $string['responsesto'] = 'Respostas para {$a}';
 $string['results'] = 'Resultados';
 $string['savemychoice'] = 'Guardar a minha resposta';
 $string['search:activity'] = 'Sondagem - informações da atividade';
+$string['selectalloption'] = 'Selecionar tudo "{$a}"';
 $string['showpreview'] = 'Mostrar pré-visualização';
 $string['showpreview_help'] = 'Permitir que os alunos pré-visualizem as opções disponíveis antes da Sondagem estar disponível para submissão.';
 $string['showunanswered'] = 'Mostrar coluna com quem não respondeu';
-$string['skipresultgraph'] = 'Saltar gráfico de resultados';
 $string['spaceleft'] = 'Número de respostas disponível';
 $string['spacesleft'] = 'Número de respostas disponíveis';
 $string['taken'] = 'Completa';

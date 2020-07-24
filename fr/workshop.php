@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshop', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -95,7 +95,8 @@ $string['configgradedecimals'] = 'Nombre de chiffres à afficher par défaut apr
 $string['configgradinggrade'] = 'Note maximale par défaut pour les évaluations dans les ateliers';
 $string['configmaxbytes'] = 'Taille maximale par défaut des travaux remis pour tous les ateliers du site (peut être modifié par les limites des cours et d\'autres réglages locaux)';
 $string['configstrategy'] = 'Stratégie d\'évaluation par défaut des ateliers';
-$string['createsubmission'] = 'Commencer la préparation de votre travail';
+$string['createsubmission'] = 'Ajouter un travail';
+$string['crontask'] = 'Traitement en tâche de fond du module Atelier';
 $string['daysago'] = 'il y a {$a} jours';
 $string['daysleft'] = '{$a} jours restants';
 $string['daystoday'] = 'aujourd\'hui';
@@ -110,8 +111,6 @@ $string['editingsubmission'] = 'Modification du travail remis';
 $string['editsubmission'] = 'Modifier le travail remis';
 $string['err_multiplesubmissions'] = 'Une autre version de ce travail a été enregistrée alors que vous modifiiez ce formulaire. Les remises de plusieurs travaux par utilisateur ne sont pas autorisées.';
 $string['err_removegrademappings'] = 'Impossible de supprimer les attributions de notes pas utilisées';
-$string['err_unknownfileextension'] = 'Extension de fichier inconnue : {$a}';
-$string['err_wrongfileextension'] = 'Certains fichiers ({$a->wrongfiles}) ne peuvent pas être déposés. Seuls les types de fichiers {$a->whitelist} sont autorisés.';
 $string['evaluategradeswait'] = 'Veuillez attendre que les évaluations aient été notées et que les notes soient calculées';
 $string['evaluation'] = 'Notation des évaluations';
 $string['evaluationmethod'] = 'Méthode de notation des évaluations';
@@ -163,12 +162,14 @@ $string['givengrades'] = 'Notes données';
 $string['gradecalculated'] = 'Note calculée pour le travail remis';
 $string['gradedecimals'] = 'Décimales dans les notes';
 $string['gradegivento'] = '→';
+$string['grade_grading_name'] = 'Évaluation';
 $string['gradeinfo'] = 'Note : {$a->received} sur {$a->max}';
 $string['gradeitemassessment'] = '{$a->workshopname} (évaluation)';
 $string['gradeitemsubmission'] = '{$a->workshopname} (travail remis)';
 $string['gradeover'] = 'Modifier la note du travail remis';
 $string['gradereceivedfrom'] = '←';
 $string['gradesreport'] = 'Rapport d\'évaluation de l\'atelier';
+$string['grade_submission_name'] = 'Travail remis';
 $string['gradetopassgrading'] = 'Note de l\'évaluation pour réussir';
 $string['gradetopasssubmission'] = 'Note du travail pour réussir';
 $string['gradinggrade'] = 'Note du processus d\'évaluation';
@@ -180,8 +181,12 @@ $string['gradingsettings'] = 'Réglages d\'évaluation';
 $string['groupnoallowed'] = 'Vous n\'avez les permissions requises pour accéder à aucun groupe de cet atelier';
 $string['iamsure'] = 'Oui, vraiment';
 $string['indicator:cognitivedepth'] = 'Atelier : aspect cognitif';
+$string['indicator:cognitivedepthdef'] = 'Atelier : aspect cognitif';
+$string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement cognitif offert par les activités « Atelier » (niveaux : pas de vue, vue, envoi, vue du feedback, commentaire du feedback, nouvel envoi après vue du feedback).';
 $string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une activité Atelier.';
 $string['indicator:socialbreadth'] = 'Atelier : aspect social';
+$string['indicator:socialbreadthdef'] = 'Atelier : aspect social';
+$string['indicator:socialbreadthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement social offert par les activités « Atelier » (niveaux : pas de participation, participant seul, participant avec d\'autres).';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Atelier.';
 $string['info'] = 'Info';
 $string['instructauthors'] = 'Instructions pour la remise du travail';
@@ -191,6 +196,7 @@ $string['latesubmissions'] = 'Travaux remis en retard';
 $string['latesubmissionsallowed'] = 'Les travaux remis en retard sont autorisés';
 $string['latesubmissions_desc'] = 'Autoriser la remise des travaux après le délai';
 $string['latesubmissions_help'] = 'Si ce réglage est activé, les participants peuvent remettre leur travail après le délai fixé ou durant la phase d\'évaluation. Les travaux remis en retard ne pourront en revanche pas être modifiés.';
+$string['legacyallocationplugincron'] = 'Cron obsolète d\'attribution des évaluations des ateliers';
 $string['maxbytes'] = 'Taille maximale des annexes aux travaux';
 $string['modulename'] = 'Atelier';
 $string['modulename_help'] = 'Le module d\'activité atelier permet de recueillir et d\'examiner les travaux des participants, et de les faire évaluer par les pairs.

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'book', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addafter'] = 'Gehitu beste atal bat';
+$string['addafterchapter'] = 'Gehitu kapitulu berria "{$a->title}" ondoren';
 $string['book:addinstance'] = 'Gehitu liburu berria';
 $string['book:edit'] = 'Editatu liburuaren atalak';
 $string['book:read'] = 'Ikusi liburua';
@@ -51,8 +52,12 @@ $string['eventchapterupdated'] = 'Atala eguneratu da';
 $string['eventchapterviewed'] = 'Atala ikusi da';
 $string['hidechapter'] = 'Ezkutatu "{$a}" atala';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa liburuetan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa liburuetan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek Liburua baliabideak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Liburua motako baliabideetan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala liburuetan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala liburuetan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek Liburua baliabideak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Parte-hartzerik ez, bakarkako parte-hartzea)';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Liburua motako baliabideetan lortutako zabalera sozialean oinarrituta dago.';
 $string['modulename'] = 'Liburua';
 $string['modulename_help'] = 'Liburua moduluak aukera ematen dio irakasleari liburu formatuko hainbat orritako baliabidea sortzeko, atal eta azpiatalduna. Liburuak media fitxategiak izan ditzake eta baita testua ere eta erabilgarria da ataletan bana daitezkeen informazio-pasarte luzeak erakusteko.
@@ -79,7 +84,7 @@ $string['navstyle_help'] = '* Irudiak - Ikonoak erabiliko dira nabigatzeko
 $string['navtext'] = 'Testua';
 $string['navtoc'] = 'TOC baino ez';
 $string['nocontent'] = 'Oraindik ez da edukirik gehitu liburu honetan.';
-$string['numbering'] = 'Atalen itxura';
+$string['numbering'] = 'Atalen formatua';
 $string['numbering0'] = 'Bat ere ez';
 $string['numbering1'] = 'Zenbakiak';
 $string['numbering2'] = 'Buletak';
@@ -93,6 +98,7 @@ $string['numberingoptions_desc'] = 'Aukeratu liburu berriak sortzean eskuragarri
 $string['page-mod-book-x'] = 'Liburua moduluaren edozein orri';
 $string['pluginadministration'] = 'Liburuaren kudeaketa';
 $string['pluginname'] = 'Liburua';
+$string['previouschapter'] = 'Aurreko kapitulua';
 $string['privacy:metadata'] = 'Liburua jarduera-moduluak ez du datu pertsonalik biltzen.';
 $string['removeallbooktags'] = 'Ezabatu liburu guztien etiketak';
 $string['search:activity'] = 'Blokea - baliabidearen informazioa';

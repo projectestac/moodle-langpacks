@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_customlang', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['customlang:view'] = 'Ver tradução local';
 $string['filter'] = 'Filtrar strings';
 $string['filtercomponent'] = 'Mostrar strings destes componentes';
 $string['filtercustomized'] = 'Apenas customizado';
-$string['filtermodified'] = 'Apenas modificado';
+$string['filtermodified'] = 'Apenas modificado nesta sessão';
 $string['filteronlyhelps'] = 'Apenas ajuda';
 $string['filtershowstrings'] = 'Mostrar strings';
 $string['filterstringid'] = 'Identificador de strings';
@@ -51,7 +51,7 @@ $string['modifiedno'] = 'Não existem strings alteradas para inserir';
 $string['modifiednum'] = 'Existem {$a} strings alteradas. Deve inseri-las no disco para as guardar permanentemente.';
 $string['nostringsfound'] = 'Não foram encontradas strings, altere os seus critérios de pesquisa.';
 $string['placeholder'] = 'Espaços reservados';
-$string['placeholder_help'] = 'Espaços reservados (placeholders) são códigos especiais como \'{$a}\' ou \'{$a->something}\' dentro de uma string. Estes são substituídos por um valor quando a string é exibida.
+$string['placeholder_help'] = 'Espaços reservados são códigos especiais como \'{$a}\' ou \'{$a->something}\' dentro de uma string. Estes são substituídos por um valor quando a string é exibida.
 
 Como tal, é importante copiá-los exatamente como estão na string original. Não os traduza, nem altere a sua orientação da direita para a esquerda.';
 $string['placeholderwarning'] = 'strings com expressões especiais';

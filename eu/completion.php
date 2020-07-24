@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['activityaggregation_all'] = 'Aukeratutako jarduera GUZTIAK osatu behar 
 $string['activityaggregation_any'] = 'Aukeratutako EDOZEIN jarduera osatu behar da';
 $string['activitycompletion'] = 'Jarduera-osaketa';
 $string['activitycompletionupdated'] = 'Aldaketak gorde dira';
+$string['activitygradenotrequired'] = 'Ez da kalifikazioa behar';
 $string['affectedactivities'] = 'Aldaketek hurrengo <b>{$a}</b> jarduera edota baliabideetan eragingo du:';
 $string['aggregationmethod'] = 'Osatu beharreko elementu-kopurua';
 $string['all'] = 'Guztiak';
@@ -42,6 +43,7 @@ $string['any'] = 'Batzuk';
 $string['approval'] = 'Onartu';
 $string['areyousureoverridecompletion'] = 'Ziur zaude jarduera honetako oraingo osatze-egoera baliogabetu eta "{$a}" gisa markatu nahi duzula?';
 $string['badautocompletion'] = 'Auto-osaketa aukeratzen baduzu, gutxienez baldintza bat gaitu behar duzu (beherago)';
+$string['badcompletiongradeitemnumber'] = '\'Kalifikazioa behar du\' ezin da gaitu <b>{$a}</b> jardueran kalifikazioa ez dagoelako gaituta {$a}-(r)entzat.';
 $string['bulkactivitycompletion'] = 'Masiboki editatu jardueren osaketa';
 $string['bulkactivitydetail'] = 'Aukeratu batera editatu nahi dituzun jarduerak.';
 $string['bulkcompletiontracking'] = 'Osaketaren jarraipena';
@@ -104,8 +106,6 @@ $string['completionondate'] = 'Data';
 $string['completionondatevalue'] = 'Ikastaroa osatutzat markatuko deneko data';
 $string['completion-pass'] = 'Osatuta (gutxieneko kalifikazioa lortu dute)';
 $string['completionsettingslocked'] = 'Osaketa-ezarpenak blokeatuta';
-$string['completion-title-manual-n'] = 'Markatu osatutzat: {$a}';
-$string['completion-title-manual-y'] = 'Markatu osatugabetzat: {$a}';
 $string['completionupdated'] = '<b>{$a}</b> jardueraren osatze-informazioa eguneratu da';
 $string['completionusegrade'] = 'Kalifikazioa behar du';
 $string['completionusegrade_desc'] = 'Ikasleak kalifikazioa jaso behar du jarduera hau osatzeko';

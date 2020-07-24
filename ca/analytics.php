@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'analytics', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'analytics', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   analytics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,14 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['errorendbeforestart'] = 'La data de finalització ({$a}) és anterior a la data de començament del curs.';
 $string['errorinvalidindicator'] = 'Indicador {$a} no vàlid';
 $string['errornoindicators'] = 'Aquest model no té cap indicador.';
 $string['errorunknownaction'] = 'Acció desconeguda';
 $string['eventinsightsviewed'] = 'Prediccions visualitzades';
-$string['insightinfomessage'] = 'El sistema ha generat algunes prediccions: {$a}';
 $string['insightinfomessagehtml'] = 'El sistema ha generat algunes prediccions: <a href="{$a}">{$a}</a>.';
+$string['insightinfomessageplain'] = 'El sistema ha generat algunes prediccions: {$a}';
 $string['nocourses'] = 'No hi ha cap curs per analitzar';
 $string['nodata'] = 'No hi ha dades per analitzar';
 $string['noinsights'] = 'No s\'ha informat de cap predicció';
 $string['noinsightsmodel'] = 'Aquest model no genera prediccions';
+$string['viewdetails'] = 'Mostra els detalls';

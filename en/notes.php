@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'notes', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,7 +45,6 @@ $string['eventnotecreated'] = 'Note created';
 $string['eventnotedeleted'] = 'Note deleted';
 $string['eventnotesviewed'] = 'Notes viewed';
 $string['eventnoteupdated'] = 'Note updated';
-$string['groupaddnewnote'] = 'Add a common note';
 $string['invalidid'] = 'Invalid note ID specified';
 $string['invaliduserid'] = 'Invalid user id: {$a}';
 $string['myprofileownnotes'] = 'My notes';
@@ -74,7 +73,6 @@ $string['publishstate_help'] = 'A note\'s context determines who can see the not
 * Personal - The note will be visible only to you
 * Course - The note will be visible to teachers in this course
 * Site - The note will be visible to teachers in all courses';
-$string['selectnotestate'] = 'Select note state';
 $string['site'] = 'site';
 $string['sitenotes'] = 'Site notes';
 $string['unknown'] = 'unknown';

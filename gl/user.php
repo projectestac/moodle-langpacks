@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'user', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'user', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   user
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -109,7 +109,7 @@ $string['privacy:metadata:timemodified'] = 'O momento no que foi modificado este
 $string['privacy:metadata:timerequested'] = 'O momento no que o usuario solicitou por primeira vez este restabelecemento do contrasinal';
 $string['privacy:metadata:timererequested'] = 'O momento no que o usuario volveu solicitar o restabelecemento do contrasinal.';
 $string['privacy:metadata:timezone'] = 'O fuso horario do usuario';
-$string['privacy:metadata:token'] = 'secreto estabelecido e enviado por correo ao usuario';
+$string['privacy:metadata:token'] = 'segredo estabelecido e enviado por correo ao usuario';
 $string['privacy:metadata:trackforums'] = 'Unha preferencia para foros e os seus seguimentos.';
 $string['privacy:metadata:trustbitmask'] = 'A máscara do bit de confianza';
 $string['privacy:metadata:url'] = 'Un URL relacionado con este usuario.';
@@ -128,3 +128,5 @@ $string['privacy:passwordresetpath'] = 'Restabelecemento do contrasinal';
 $string['privacy:privatefilespath'] = 'Ficheiros privados';
 $string['privacy:profileimagespath'] = 'Imaxes do perfil';
 $string['privacy:sessionpath'] = 'Datos da sesión';
+$string['target:upcomingactivitiesdue'] = 'Actividades pendentes de entrega';
+$string['target:upcomingactivitiesdue_help'] = 'Este obxectivo xera recordatorios para as actividades pendentes de entrega.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'notes', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,7 +45,6 @@ $string['eventnotecreated'] = 'ノートが作成されました。';
 $string['eventnotedeleted'] = 'ノートが削除されました。';
 $string['eventnotesviewed'] = 'ノートが閲覧されました。';
 $string['eventnoteupdated'] = 'ノートが更新されました。';
-$string['groupaddnewnote'] = '共通ノートを追加する';
 $string['invalidid'] = '無効なノートIDが指定されました。';
 $string['invaliduserid'] = '無効なユーザID: {$a}';
 $string['myprofileownnotes'] = 'マイノート';
@@ -74,7 +73,6 @@ $string['publishstate_help'] = 'ノートコンテクストでは誰がノート
 * パーソナル - ノートはあなただけに表示されます。
 * コース - ノートはこのコースの教師に表示されます。
 * サイト - ノートはすべてのコースの教師に表示されます。';
-$string['selectnotestate'] = 'ノートの状態を選択する';
 $string['site'] = 'サイト';
 $string['sitenotes'] = 'サイトノート';
 $string['unknown'] = '不明';

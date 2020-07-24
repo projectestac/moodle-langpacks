@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'debug', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,11 +34,13 @@ $string['cannotinitpage'] = 'No se puede inicializar completamente la página: I
 $string['cannotsetuptable'] = 'Las tablas {$a} no han podido configurarse con éxito.';
 $string['codingerror'] = 'Detectado un error de codificación, debe ser corregido por un programador: {$a}';
 $string['configmoodle'] = 'Moodle aún no ha sido configurado. Necesita editar config.php.';
+$string['debuginfo'] = 'Información de depuración';
 $string['erroroccur'] = 'Ocurrió un error durante este proceso';
 $string['invalidarraysize'] = 'Tamaño incorrecto de cadenas en params: {$a}';
 $string['invalideventdata'] = 'Se enviaron datos del evento incorrectos: {$a}';
 $string['invalidparameter'] = 'Detectado valor de parámetro no válido';
 $string['invalidresponse'] = 'Detectado valor de respuesta no válido';
+$string['line'] = 'Línea';
 $string['missingconfigversion'] = 'Lo sentimos, config table no contiene versión, no se puede continuar.';
 $string['modulenotexist'] = '{$a} module doesn\'t exist';
 $string['morethanonerecordinfetch'] = 'Se ha encontrado más de un registro en lectura().';
@@ -50,9 +52,11 @@ $string['nomodules'] = 'No se han encontrado módulos.';
 $string['nopageclass'] = 'Imported {$a} but found no page classes';
 $string['noreports'] = 'No hay informes accesibles';
 $string['notables'] = 'No hay tablas.';
+$string['outputbuffer'] = 'Buffer de salida';
 $string['phpvaroff'] = 'The PHP server variable \'{$a->name}\' should be Off - {$a->link}';
 $string['phpvaron'] = 'The PHP server variable \'{$a->name}\' is not turned On - {$a->link}';
 $string['sessionmissing'] = 'El objeto {$a} está ausente de la sesión';
 $string['sqlrelyonobsoletetable'] = 'This SQL relies on obsolete table(s): {$a}! Your code must be fixed by a developer.';
+$string['stacktrace'] = 'Trazado de la pila (stack)';
 $string['withoutversion'] = 'El archivo principal de version.php está ausente, no legible o roto.';
 $string['xmlizeunavailable'] = 'Las funciones xmlize no están disponibles';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'glossary', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -156,6 +156,7 @@ $string['entryexported'] = 'Η καταχώρηση εξάχθηκε επιτυ�
 $string['entryishidden'] = '(αυτή η καταχώρηση είναι προς το παρόν κρυμμένη)';
 $string['entryleveldefaultsettings'] = 'Προεπιλεγμένες ρυθμίσεις επιπέδου καταχώρησης';
 $string['entrylink'] = 'Σύνδεσμος καταχώρησης: {$a}';
+$string['entrynotapproved'] = 'Η είσοδος δεν εγκρίθηκε';
 $string['entrysaved'] = 'Αυτή η καταχώρηση αποθηκεύτηκε';
 $string['entryupdated'] = 'Αυτή η καταχώρηση ενημερώθηκε';
 $string['entryusedynalink'] = 'Σε αυτήν την καταχώρηση θα γίνεται σύνδεση αυτόματα.';
@@ -219,8 +220,14 @@ $string['importentries'] = 'Εισαγωγή καταχωρήσεων';
 $string['importentriesfromxml'] = 'Εισαγωγή καταχωρήσεων από αρχείο XML';
 $string['includegroupbreaks'] = 'Περιλαμβάνονται οι διαχωριστές ομάδων';
 $string['indicator:cognitivedepth'] = 'Βάθος κατανόησης γλωσσαρίου';
+$string['indicator:cognitivedepthdef'] = 'Βάθος κατανόησης γλωσσαρίου';
+$string['indicator:cognitivedepthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο βάθος κατανόησης που προσφέρεται από τις δραστηριότητες Γλωσσαρίου κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία εμφάνιση, Εμφάνιση, Υποβολή)';
+$string['indicator:cognitivedepthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Βάθος_κατανόησης';
 $string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα γλωσσαρίου.';
 $string['indicator:socialbreadth'] = 'Κοινωνικό εύρος γλωσσαρίου';
+$string['indicator:socialbreadthdef'] = 'Κοινωνικό εύρος γλωσσαρίου';
+$string['indicator:socialbreadthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο κοινωνικό εύρος που προσφέρεται από τις δραστηριότητες Γλωσσαρίου κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία συμμετοχή, Συμμετέχων μόνος)';
+$string['indicator:socialbreadthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Κοινωνικό_εύρος';
 $string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα γλωσσαρίου.';
 $string['isglobal'] = 'Είναι αυτό το γλωσσάριο καθολικό;';
 $string['isglobal_help'] = 'Ένα καθολικό γλωσσάριο έχει καταχωρήσεις με συνδέσμους από ολόκληρο τον ιστότοπο, παρά από το μάθημα μόνο στο οποίο περιλαμβάνεται. Μόνο διαχειριστές μπορούν να ορίσουν ένα γλωσσάριο ως καθολικό.';

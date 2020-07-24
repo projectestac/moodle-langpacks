@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_recentlyaccessedcourses', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_recentlyaccessedcourses', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   block_recentlyaccessedcourses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['displaycategories'] = 'Εμφάνιση κατηγοριών';
+$string['displaycategories_help'] = 'Εμφάνιση της κατηγορίας μαθήματος στα στοιχεία μπλοκ των μαθημάτων με πρόσφατη πρόσβαση.';
 $string['nocourses'] = 'Κανένα πρόσφατο μάθημα';
 $string['pluginname'] = 'Μαθήματα με πρόσφατη πρόσβαση';
 $string['privacy:metadata'] = 'Το μπλοκ Μαθήματα με πρόσφατη πρόσβαση δεν αποθηκεύει καθόλου προσωπικά δεδομένα.';
-$string['recentlyaccessedcourses:addinstance'] = 'Προσθήκη ενός νέου μπλοκ Μαθήματα με πρόσφατη πρόσβαση';
 $string['recentlyaccessedcourses:myaddinstance'] = 'Προσθήκη στο Ταμπλό ενός νέου μπλοκ Μαθήματα με πρόσφατη πρόσβαση';

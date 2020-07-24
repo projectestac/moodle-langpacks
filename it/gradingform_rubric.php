@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_rubric', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_rubric', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addcriterion'] = 'Aggiungi criterio';
+$string['additionalfeedback'] = 'Feedback aggiuntivo';
 $string['alwaysshowdefinition'] = 'Gli utenti potranno visualizzare un\'anteprima del rubric (altrimenti il rubric sarà visibile solo dopo la valutazione)';
 $string['backtoediting'] = 'Torna alla modifica';
 $string['confirmdeletecriterion'] = 'Sei sicuro di eliminare questo criterio?';
@@ -58,7 +59,9 @@ $string['lockzeropoints'] = 'Calcola la valutazione basandosi sul rubric con un 
 $string['lockzeropoints_help'] = 'L\'impostazione si applica solamente se il numero minimo di punti per ciascun criterio è maggiore di 0. Se selezionata, la valutazione minima ottenibile con il rubric sarà maggiore di 0. Se non selezionata, la valutazione minima possibile con il rubric sarà mappata alla valutazione più bassa dell\'attività (ossia 0 a meno che non venga utilizzata una scala).';
 $string['name'] = 'Nome';
 $string['needregrademessage'] = 'La definizione del rubric è stata cambiata dopo la valutazione di questo studente. Lo studente non potrà visualizzare questo rubric finché non controllerai il rubric e aggiornerai la valutazione';
+$string['notset'] = 'Non impostato';
 $string['pluginname'] = 'Rubric';
+$string['pointsvalue'] = '{$a} punti';
 $string['previewrubric'] = 'Anteprima rubric';
 $string['privacy:metadata:criterionid'] = 'Identificatore di un determinato criterio valutato.';
 $string['privacy:metadata:fillingssummary'] = 'Informazioni sulla valutazione di un utente generata dal rubric.';

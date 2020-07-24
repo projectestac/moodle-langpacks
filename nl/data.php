@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'data', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -232,8 +232,12 @@ $string['includetags'] = 'Inclusief tags';
 $string['includetime'] = 'Tijd toegevoegd/gewijzigd mee opnemen';
 $string['includeuserdetails'] = 'Gebruikersdetails mee opnemen';
 $string['indicator:cognitivedepth'] = 'Databank cognitief';
+$string['indicator:cognitivedepthdef'] = 'Database cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de database-activiteiten bereikt tijdens dit analyse-interval (Niveaus = Geen weergave, Bekijken, Verzenden)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Databank activiteit.';
 $string['indicator:socialbreadth'] = 'Databank sociaal';
+$string['indicator:socialbreadthdef'] = 'Database sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid van de database-activiteiten bereikt tijdens dit analyse-interval (niveaus = geen deelname, alleen deelnemer)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Databank activiteit.';
 $string['insufficiententries'] = 'meer items nodig om deze databank te kunnen bekijken';
 $string['intro'] = 'Beschrijving';
@@ -269,15 +273,15 @@ $string['menuchoose'] = 'Kies...';
 $string['missingdata'] = 'Data ID of object moet opgegeven worden aan field class';
 $string['missingfield'] = 'Programmatiefout: je moet een veld en of gegevens specifiëren wanneer je een field class definieert.';
 $string['modulename'] = 'Databank';
-$string['modulename_help'] = 'De databank activiteitsmodule maakt het voor deelnemers mogelijk om gegevensbank te maken, te onderhouden en te doorzoeken. De opmaak en structuur ervan wordt bepaald door de leraar door het maken van een aantal velden. Deze velden kunnen keuzevakjes, selectierondjes, rolmenu\'s, tekst zone\'s, URL\'s, afbeeldingen en een geüploaded bestand zijn.
+$string['modulename_help'] = 'De databank activiteitsmodule maakt het voor deelnemers mogelijk om gegevensbank te maken, te onderhouden en te doorzoeken. De opmaak en structuur ervan wordt bepaald door de leraar door het maken van een aantal velden. Deze velden kunnen keuzevakjes, selectierondjes, rolmenu\'s, tekst zone\'s, URL\'s, afbeeldingen en een geüpload bestand zijn.
 
-De zichtbare layout van de informatie bij het maken van lijsten, bekijken of bewerken van de databankitems wordt geregeld door databanksjablonen. Databankactiviteiten kunnen in verschillende cursussen gebruikt worden via sjablonen en een leraar kan databankitems importeren en exporteren.
+De zichtbare layout van de informatie bij het maken van lijsten, bekijken of bewerken van de databank-items wordt geregeld door databanksjablonen. Databank-activiteiten kunnen gedeeld worden tussen cursussen  via sjablonen en een leraar kan de inhoud van een  databank importeren en exporteren.
 
 Als de filter databank automatisch linken is ingeschakeld, dan zullen items in de databank  automatisch gelinkt worden aan woorden en zinnen die in de cursus voorkomen.
 
-Een leraar kan opmerkingen bij databankitems toestaan. Databankitems kunnen ook beoordeeld worden door leraars of leerlingen (peer-evaluatie). Beoordelingen kunnen samengeteld worden om een eindbeoordeling te vormen die in de cijferlijst opgeslagen wordt.
+Een leraar kan opmerkingen bij databank-items toestaan. Databank-items kunnen ook beoordeeld worden door leraren of leerlingen (peer-evaluatie). Beoordelingen kunnen samengeteld worden om een eindbeoordeling te vormen die in de cijferlijst opgeslagen wordt.
 
-Databankactiviteiten kunnen voor heel veel zaken gebruikt worden, zoals
+Databank-activiteiten kunnen voor heel veel zaken gebruikt worden, zoals
 
 * Samenwerken aan een collectie links, boekbesprekingen, logboek, enz.
 * Voor het tonen van door leerlingen gemaakte foto\'s, posters, websites, gedichten, ... voor peer commentaar en beoordeling.';

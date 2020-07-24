@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'competency', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,6 +108,7 @@ $string['invalidpersistenterror'] = 'エラー: {$a}';
 $string['invalidplan'] = '無効な学習プラン';
 $string['invalidtaxonomy'] = '無効な分類: {$a}';
 $string['invalidurl'] = 'URLが有効ではありません。「http://」または「https://」で始まっていることを確認してください。';
+$string['nouserplanswithcompetency'] = 'このコンピテンシーに学習プランは含まれていません。';
 $string['planstatusactive'] = 'アクティブ';
 $string['planstatuscomplete'] = '完了';
 $string['planstatusdraft'] = '下書き';

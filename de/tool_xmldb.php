@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_xmldb', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actual'] = 'Aktuell';
+$string['addpersistent'] = 'Hinzufügen von obligatorischen, beständigen Feldern';
 $string['aftertable'] = 'Nach Tabelle:';
 $string['back'] = 'Zurück';
 $string['backtomainview'] = 'Zurück zur Hauptübersicht';
@@ -43,13 +44,13 @@ $string['check_indexes'] = 'Fehlende Datenbank-Indizes suchen';
 $string['checkoraclesemantics'] = 'Semantische Prüfung';
 $string['check_oracle_semantics'] = 'Suche nach fehlerhaften semantischen Längen';
 $string['completelogbelow'] = '(das vollständige Suchprotokoll folgt)';
-$string['confirmcheckbigints'] = 'Diese Funktion sucht nach <a href="http://tracker.moodle.org/browse/MDL-11038"> möglicherweise ungültigen Zahlenwerten</a> in Ihrem Moodle-Server und erzeugt automatisch die notwendigen SQL-Anweisungen, um die Integer Werte in der Datenbank zu korrigieren (die SQL-Anweisungen werden erzeugt, aber nicht ausgeführt!).
+$string['confirmcheckbigints'] = 'Diese Funktion sucht nach <a href="https://tracker.moodle.org/browse/MDL-11038"> möglicherweise ungültigen Zahlenwerten</a> in Ihrem Moodle-Server und erzeugt automatisch die notwendigen SQL-Anweisungen, um die Integer Werte in der Datenbank zu korrigieren (die SQL-Anweisungen werden erzeugt, aber nicht ausgeführt!).
 
-Nachdem die Anweisungen erzeugt wurden, können Sie diese kopieren und sie sicher in Ihrer bevorzugten SQL-Oberfläche ausführen (vergessen Sie bitte nicht, Ihre Daten vorher zu sichern!!).
+Nachdem die Anweisungen erzeugt wurden, können Sie diese kopieren und sie sicher in Ihrer bevorzugten SQL-Oberfläche ausführen. Vergessen Sie bitte nicht, Ihre Datenbank vorher zu sichern!!
 
-Es wird dringend empfohlen, auf die jeweils neueste Variante Ihrer Moodle-Version (1.8, 1.9, 2.x ...) zu updaten, bevor Sie die Suche nach ungültigen Werten durchführen.
+Es wird dringend empfohlen, auf die jeweils neueste Variante Ihrer Moodle-Version zu aktualisieren, bevor Sie die Suche nach ungültigen Werten durchführen.
 
-Die Funktion führt selber keinerlei Aktionen mit der Datenbank durch (außer lesend auf sie zuzugreifen), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
+Die Funktion führt selber keinerlei Aktionen mit der Datenbank durch (außer lesend), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
 $string['confirmcheckdefaults'] = 'Diese Funktion sucht nach inkonsistenten Defaultwerten auf dem Moodle-Server und erstellt erforderliche SQL-Statements zur Korrektur dieser Werte, ohne jedoch automatisch die SQL Anpassungen vorzunehmen.
 
 Wenn die Prüfung ausgeführt und das SQL Statement erstellt wurde, können Sie mit dieses mit dem Werkzeug Ihrer Wahl in der Datenbank ausführen. Vorher unbedingt ein Backup der Datenbank erstellen.
@@ -63,7 +64,13 @@ Es wird dringend empfohlen, die neueste verfügbare (+Version) zu Ihrem Moodle-R
 
 Die Funktion führt keine SQL-Anweisungen auf Ihrer Datenbank aus (außer, dass sie lesend zugreift), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
 $string['confirmcheckindexes'] = 'Diese Funktion sucht nach möglicherweise fehlenden Indizes in Ihrem Moodle-Server, wobei die nötigen SQL-Anweisungen für ein Update automatisch erzeugt (aber nicht ausgeführt) werden. Nachdem die Anweisungen erzeugt sind, können Sie sie kopieren und in Ihrem bevorzugten SQL-Zugang ausführen.<br /><br /> Es wird dringend empfohlen, die neueste verfügbare +-Version zu Ihrem Moodle-Release (1.8, 1.9, 2.x ...) zu installieren, bevor Sie die Suche nach fehlenden Indizes starten.<br /><br /> Die Funktion führt keine SQL-Anweisungen auf Ihrer Datenbank aus (außer dass sie lesend zugreift), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
-$string['confirmcheckoraclesemantics'] = 'Diese Funktion sucht nach <a href="http://tracker.moodle.org/browse/MDL-29322">Oracle varchar2 Spalten, die BYTE Semantics</a> verwenden auf Ihrem Moodle-Server, wobei die nötigen SQL-Anweisungen zur Konvertierung in CHAR Semantics für ein Update automatisch erzeugt (aber nicht ausgeführt) werden. Diese sind besser für datenbankübergreifende Kompatibilität umfangreichere Contents. Nachdem die Anweisungen erzeugt sind, können Sie sie kopieren und in Ihrem bevorzugten SQL-Zugang ausführen.<br /><br /> Es wird dringend empfohlen, die neueste verfügbare +Version zu Ihrem Moodle-Release (1.8, 1.9, 2.x ...) zu installieren, bevor Sie die Suche nach BYTE Semantics starten.<br /><br /> Die Funktion führt keine Anweisungen auf Ihrer Datenbank aus (außer dass sie lesend zugreift), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
+$string['confirmcheckoraclesemantics'] = 'Diese Funktion sucht nach <a href="https://tracker.moodle.org/browse/MDL-29322">Oracle varchar2 Spalten, die BYTE Semantics</a> verwenden auf Ihrem Moodle-Server, wobei die nötigen SQL-Anweisungen zur Konvertierung in CHAR Semantics für ein Update automatisch erzeugt (aber nicht ausgeführt) werden.
+
+Nachdem die Anweisungen erzeugt wurden, können Sie diese kopieren und sie sicher in Ihrer bevorzugten SQL-Oberfläche ausführen. Vergessen Sie bitte nicht, Ihre Datenbank vorher zu sichern!!
+
+Es wird dringend empfohlen, auf die jeweils neueste Variante Ihrer Moodle-Version zu aktualisieren, bevor Sie die Suche nach BYTE Semantics starten.
+
+Die Funktion führt selber keinerlei Aktionen mit der Datenbank durch (außer lesend), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
 $string['confirmdeletefield'] = 'Sind Sie wirklich sicher, dass Sie dieses Feld löschen wollen:';
 $string['confirmdeleteindex'] = 'Sind Sie wirklich sicher, dass Sie diesen Index löschen wollen:';
 $string['confirmdeletekey'] = 'Sind Sie wirklich sicher, dass Sie diesen Schlüssel löschen wollen:';
@@ -130,7 +137,7 @@ $string['integerincorrectlength'] = 'Falsche Feldlänge (integer)';
 $string['key'] = 'Schlüssel';
 $string['keynameempty'] = 'Die Key Bezeichnung darf nicht leer bleiben';
 $string['keys'] = 'Schlüssel';
-$string['listreservedwords'] = 'Liste von reservierten Wörtern<br/>auf dem aktuellsten Stand: <a href="http://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB_reserved_words</a>';
+$string['listreservedwords'] = 'Liste von reservierten Wörtern<br/>auf dem aktuellen Stand: <a href="http://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB_reserved_words</a>';
 $string['load'] = 'Laden';
 $string['main_view'] = 'Hauptübersicht';
 $string['masterprimaryuniqueordernomatch'] = 'Die Felder des externen (foreign) Schlüssels müssen in der gleichen Reihenfolge wie sie als UNIQUE KEY or in der Referenztabelle eingetragen sind.';
@@ -160,6 +167,9 @@ $string['numberincorrectwholepart'] = 'Zu großer ganzzahliger Teil für Zahlenf
 $string['pendingchanges'] = 'Hinweis: Sie haben Veränderungen in dieser Datei vorgenommen. Sie können jederzeit gespeichert werden.';
 $string['pendingchangescannotbesaved'] = 'Die Änderungen in dieser Datei können nicht gespeichert werden! Bitte prüfen Sie, dass das Verzeichnis und die darin enthaltene Datei "install.xml" eine Schreibberechtigung für den Webserver besitzen.';
 $string['pendingchangescannotbesavedreload'] = 'Die Änderungen in dieser Datei können nicht gespeichert werden! Bitte prüfen Sie, dass das Verzeichnis und die darin enthaltene Datei "install.xml" eine Schreibbereichtigung für den Webserver besitzen. Wenn Sie danach diese Seite neu laden, sollten Sie diese Änderungen speichern können.';
+$string['persistentfieldscomplete'] = 'Die folgenden Felder wurden hinzugefügt:';
+$string['persistentfieldsconfirm'] = 'Möchten Sie die folgenden Felder hinzufügen:';
+$string['persistentfieldsexist'] = 'Diese Felder sind bereits vorhanden:';
 $string['pluginname'] = 'XMLDB-Editor';
 $string['primarykeyonlyallownotnullfields'] = 'Primäre Keys können nicht null sein';
 $string['privacy:metadata'] = 'Das Plugin \'XMLDB Editor\' speichert keine personenbezogenen Daten.';

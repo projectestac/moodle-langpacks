@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_timelimit', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quizaccess_timelimit', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   quizaccess_timelimit
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['confirmstart'] = '测验的时间限制是{$a}。将从您开始测验时开始倒计时，您必须在时限到之前提交。您确定现在开始答题吗?';
-$string['confirmstartheader'] = '限时测验';
+$string['confirmstart'] = '您的尝试将有一个{$a}的时间限制。当您开始时，计时器将开始倒数，不能暂停。您必须在它到期之前完成尝试。您确定现在开始吗?';
+$string['confirmstartheader'] = '时间限制';
 $string['pluginname'] = '使用倒计时的测验的访问规则';
 $string['privacy:metadata'] = '时间限制访问规则插件不会保存任何个人信息。';
 $string['quiztimelimit'] = '时间限制：{$a}';

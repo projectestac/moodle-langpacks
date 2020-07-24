@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'competency', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,6 +108,7 @@ $string['invalidpersistenterror'] = 'Errorea: {$a}';
 $string['invalidplan'] = 'Ikasketa-plana baliogabea';
 $string['invalidtaxonomy'] = 'Taxonomia baliogabea: {$a}';
 $string['invalidurl'] = 'URLa ez da baliagarria. Ziurtatu ezazu honela hasten dela: \'http://\' edo \'https://\'.';
+$string['nouserplanswithcompetency'] = 'Ez dago konpetentzia hau barne duen ikasketa-planik.';
 $string['planstatusactive'] = 'Aktiboa';
 $string['planstatuscomplete'] = 'Osatu';
 $string['planstatusdraft'] = 'Zirriborroa';
@@ -176,7 +177,7 @@ $string['taxonomy_outcome'] = 'Ikaste-emaitza';
 $string['taxonomy_practice'] = 'Praktika';
 $string['taxonomy_proficiency'] = 'Trebezia';
 $string['taxonomy_skill'] = 'Trebetasuna';
-$string['taxonomy_value'] = 'Balioa';
+$string['taxonomy_value'] = 'Balorea';
 $string['usercommentedonacompetency'] = '{$a->fullname}-(e)k iruzkina egin du "{$a->competency}" konpetentzian:
 
 {$a->comment}

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['activityloading'] = 'سيتم إعادة توجيهك تلقائيا إ
 $string['activityoverview'] = 'لديك حزم سكورم التي تحتاج إلى عناية';
 $string['activitypleasewait'] = 'تحميل النشاط، يرجى الانتظار ...';
 $string['adminsettings'] = 'إعدادات المشرف';
-$string['advanced'] = 'متقدم';
+$string['advanced'] = 'المعامِلات';
 $string['aicchacpkeepsessiondata'] = 'بيانات دورة  AICC HACP';
 $string['aicchacpkeepsessiondata_desc'] = 'طول الوقت في الأيام للحفاظ على دورة البيانات الخارجية HACP AICC (إعدادات عالية تملأ الجدول مع البيانات القديمة و لكن قد تكون مفيدة عند تصحيح)';
 $string['aicchacptimeout'] = 'مهلة AICC HACP';

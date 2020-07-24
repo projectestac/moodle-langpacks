@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_collapse', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'atto_collapse', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   atto_collapse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,6 @@ $string['pluginname'] = 'Mostrar/ocultar botões avançados';
 $string['privacy:metadata'] = 'O módulo atto_collapse não armazena nenhum dado pessoal.';
 $string['settings'] = 'Contrair configurações da barra de ferramentas';
 $string['showfewer'] = 'Mostrar menos botões';
-$string['showgroups'] = 'Mostrar os primeiros (n) grupos quando contraído.';
-$string['showgroups_desc'] = 'Quando a barra de ferramentas está contraída (configuração predefinida) apenas este número de grupos será exibido ao mesmo tempo.';
+$string['showgroups'] = 'Primeiros (n) grupos a mostrar quando contraído';
+$string['showgroups_desc'] = 'Quando a barra de ferramentas está contraída (configuração predefinida), apenas serão exibidos ao mesmo tempo o número de grupos aqui definidos.';
 $string['showmore'] = 'Mostrar mais botões';

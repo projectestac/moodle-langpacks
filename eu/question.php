@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'question', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,6 +82,9 @@ $string['categoryinfo'] = 'Kategoriaren informazioa';
 $string['categorymove'] = '\'{$a->name}\' kategoriak {$a->count} galdera ditu (horietako batzuk ezkutuan dauden edo ausazko galdera moduan gehituta dauden galdetegietan erabiliak egon daitezke). Mesedez, hauek mugitzeko beste kategoria bat aukeratu.';
 $string['categorymoveto'] = 'Gorde kategorian';
 $string['categorynamecantbeblank'] = 'Kategoriaren izena ezin da hutsik egon';
+$string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
+$string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
+$string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Aldatu aukerak';
 $string['changepublishstatuscat'] = '<a href="{$a->caturl}"> "{$a->name}"</a> kategoriak, "{$a->coursename}" ikastarokoa, bere <strong>{$a->changefrom} truke egoera beste honetara aldatuko du {$a->changeto}</strong>.';
 $string['check'] = 'Egiaztatu';
@@ -166,7 +169,19 @@ $string['errorsavingcomment'] = 'Eorrea datu-basean {$a->name} galderaren iruzki
 $string['errorsavingflags'] = 'Errorea markaren egoera gordetzean.';
 $string['errorupdatingattempt'] = 'Eorrea datu-basean {$a->id} saiakera eguneratzean.';
 $string['eventquestioncategorycreated'] = 'Galdera-kategoria sortu da';
+$string['eventquestioncategorydeleted'] = 'Galdera-kategoria ezabatu da';
+$string['eventquestioncategorymoved'] = 'Galdera-kategoria mugitu da';
+$string['eventquestioncategoryupdated'] = 'Galdera-kategoria eguneratu da';
+$string['eventquestioncategoryviewed'] = 'Galdera-kategoria ikusi da';
+$string['eventquestioncreated'] = 'Galdera sortu da';
+$string['eventquestiondeleted'] = 'Galdera ezabatu da';
+$string['eventquestionmoved'] = 'Galdera mugitu da';
+$string['eventquestionsexported'] = 'Galdera esportatu da';
+$string['eventquestionsimported'] = 'Galdera inportatu da';
+$string['eventquestionupdated'] = 'Galdera eguneratu da';
+$string['eventquestionviewed'] = 'Galdera ikusi da';
 $string['export'] = 'Esportatu';
+$string['exportasxml'] = 'Esportatu Moodle XML gisa';
 $string['exportcategory'] = 'Esportatu kategoria';
 $string['exportcategory_help'] = 'Ezarpen honek esportatuko diren galderak zein kategoriatik hartuko diren zehazten du.
 
@@ -192,7 +207,7 @@ $string['flagthisquestion'] = 'Markatu galdera hau';
 $string['formquestionnotinids'] = 'Galdera hau questionids-en ez dagoen formularioan dago';
 $string['fractionsnomax'] = 'Erantzunetako batek %100 izan behar du galdera honetako gehienezko puntuazioa lortu ahal izateko.';
 $string['generalfeedback'] = 'Galderaren feedback orokorra';
-$string['generalfeedback_help'] = 'Galderaren feedback orokorra galdera erantzun ondoren erakusten zaio ikasleari. Feedback zehatzak ez bezala, galdera-mota eta ikasleak emandako erantzunaren araberakoa dena, feedback orokorra berdina da ikasle guztientzat.
+$string['generalfeedback_help'] = 'Galderaren feedback orokorra galdera erantzun ondoren erakusten zaio ikasleari. Erantzunaren feedback zehatzak ez bezala, galdera-mota eta ikasleak emandako erantzunaren araberakoa dena, feedback orokorra berdina da ikasle guztientzat.
 
 Galderaren feedback orokorra erantzun egokia erakusteko eta azaltzeko erabil dezakezu, eta agian informazio gehiago erakusten duen estekaren bat gehi dezakezu galdera ulertu ez duenarentzat.';
 $string['getcategoryfromfile'] = 'Hartu kategoria fitxategitik';
@@ -297,7 +312,7 @@ $string['notshown'] = 'Ez da erakusten';
 $string['notyetanswered'] = 'Erantzun gabea';
 $string['notyourpreview'] = 'Aurrebista hau dagokizu zuri';
 $string['novirtualquestiontype'] = 'Ez dago galdera-mota birtualik {$a} galdera-motarako';
-$string['numqas'] = 'Ez. Galderen saiakerak';
+$string['numqas'] = 'Galderen saiakera kopurua';
 $string['numquestions'] = 'Galdera kopurua';
 $string['numquestionsandhidden'] = '{$a->numquestions} (+{$a->numhidden} ezkutuan)';
 $string['options'] = 'Aukerak';
@@ -374,7 +389,7 @@ $string['questionpreviewdefaults'] = 'Galderak aurreikusteko lehenetsitako balio
 $string['questionpreviewdefaults_desc'] = 'Lehenetsitako balio hauek erabiltzaile batek galdera bat lehenengo aldiz aurreikusten duenean erabiltzen dira. Behin erabiltzaileak galdera aurreikusi duenean bere hobespenak erabiltzaile-hobespenetan gordeko dira.';
 $string['questions'] = 'Galderak';
 $string['questionsaveerror'] = 'Erroreak gertatu dira galdera gordetzean - ({$a})';
-$string['questionsinuse'] = '(\'*\' izartxoaz markatutako galderak dagoeneko galdetegiren batean erabiltzen ari dira. Galderak hauek ez dira ezabatu galdetegi horietatik, kategoria-zerrendatik soilik ezabatuko dira.)';
+$string['questionsinuse'] = '(\'*\' izartxoaz markatutako galderak dagoeneko lekuren batean erabiltzen dira, galdetegiren batean adibidez. Ondorioz, aurrera egiten baduzu galderak hauek ez dira benetan ezabatuko, ezkutatu baino ez dira egingo.)';
 $string['questionsmovedto'] = 'Oraindik erabiltzen ari diren galderak  \'{$a}\'-ra mugitzen goragoko ikastaro-kategorian.';
 $string['questionsrescuedfrom'] = 'Galderak gordeta {$a} testuingurutik';
 $string['questionsrescuedfrominfo'] = 'Galdera hauek (batzuk ezkutuan egon daitezke) gorde egin ziren {$a} testuingurua ezabatu zenean, oraindik ere hainbat galdetegitan edo bestelako jardueratan erabili egiten direlako.';
@@ -409,7 +424,7 @@ $string['shown'] = 'Erakutsia';
 $string['shownumpartscorrect'] = 'Erakutsi erantzun zuzenen kopurua';
 $string['shownumpartscorrectwhenfinished'] = 'Erakutsi erantzun zuzenen kopurua';
 $string['showquestiontext'] = 'Erakutsi galderaren testua galdera-zerrendan';
-$string['specificfeedback'] = 'Feedback zehatza';
+$string['specificfeedback'] = 'Erantzunaren feedback zehatza';
 $string['specificfeedback_help'] = 'Ikasleek emandako erantzunen araberako feedbacka';
 $string['started'] = 'Hasita';
 $string['state'] = 'Egoera';
@@ -450,7 +465,7 @@ $string['updatedisplayoptions'] = 'Eguneratu erakusteko aukerak';
 $string['upgradeproblemcategoryloop'] = 'Galdera-kategoriak eguneratzean arazo bat atzeman da. Kategoria-zuhaitzean begizta (loop) bat dago. Horren eraginpeko kategorien ID-ak {$a} dira.';
 $string['upgradeproblemcouldnotupdatecategory'] = 'Ezin da ondoko galdera-kategoria eguneratu: {$a->name} ({$a->id}).';
 $string['upgradeproblemunknowncategory'] = 'Arazoa atzemena da galdera-kategoriak eguneratzean. {$a->id} kategoria  {$a->parent} goragoko kategoriari dagokio eta ez da existitzen. Arazoa konpontzeko, goragoko kategoria aldatu egin da.';
-$string['whethercorrect'] = 'Zuzena bada';
+$string['whethercorrect'] = 'Zuzena den ala ez';
 $string['whethercorrect_help'] = 'Honek \'Ondo\', \'Partzialki ondo\' eta \'Gaizki\'-ren deskribapenak barne hartzen ditu, baita informazio hori ematen duen kolorezko edozein nabarmentze.';
 $string['whichtries'] = 'Zein saiakera';
 $string['withselected'] = 'Aukeratutakoekin';

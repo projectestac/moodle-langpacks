@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'user', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'user', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   user
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -72,7 +72,7 @@ $string['privacy:metadata:lastip'] = 'La dernière adresse IP de l\'utilisateur.
 $string['privacy:metadata:lastlogin'] = 'La dernière connexion de l\'utilisateur.';
 $string['privacy:metadata:lastname'] = 'Le surnom de l\'utilisateur.';
 $string['privacy:metadata:lastnamephonetic'] = 'Les informations phonétiques sur le surnom de l\'utilisateur.';
-$string['privacy:metadata:maildigest'] = 'Un régales pour les courriels quotidiens pour cet utilisateur.';
+$string['privacy:metadata:maildigest'] = 'Un réglage pour les récapitulatifs de messages de cet utilisateur.';
 $string['privacy:metadata:maildisplay'] = 'Un réglage indiquant si l\'adresse de courriel est affichée aux autres utilisateurs.';
 $string['privacy:metadata:middlename'] = 'Le deuxième prénom de l\'utilisateur';
 $string['privacy:metadata:mnethostid'] = 'Un identifiant du serveur MNet, le cas échéant';
@@ -128,3 +128,6 @@ $string['privacy:passwordresetpath'] = 'Réinitialisation de mots de passe';
 $string['privacy:privatefilespath'] = 'Fichiers personnels';
 $string['privacy:profileimagespath'] = 'Avatars (images des profils)';
 $string['privacy:sessionpath'] = 'Données de session';
+$string['target:upcomingactivitiesdue'] = 'Activités à venir à effectuer';
+$string['target:upcomingactivitiesdue_help'] = 'Cette cible génère des rappels pour les activités à venir à effectuer.';
+$string['target:upcomingactivitiesdueinfo'] = 'Toutes les indications concernant les « activités à venir » sont affichées ici. Ces étudiants ont reçu directement ces indications.';

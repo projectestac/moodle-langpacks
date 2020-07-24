@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_manual', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_manual', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -73,7 +73,7 @@ $string['status_desc'] = 'Επιτρέπεται η πρόσβαση στο μά
 $string['statusdisabled'] = 'Απενεργοποιημένο';
 $string['statusenabled'] = 'Ενεργοποιημένο';
 $string['status_help'] = 'Αυτή η ρύθμιση καθορίζει αν οι χρήστες μπορούν να εγγραφούν χειροκίνητα, μέσω ενός συνδέσμου στις ρυθμίσεις διαχείρισης μαθήματος, από έναν χρήστη με τα κατάλληλα δικαιώματα π.χ. διδάσκων.';
-$string['syncenrolmentstask'] = 'Διεργασία συγχρονισμού εγγραφών LDAP για τις χειροκίνητες εγγραφές';
+$string['syncenrolmentstask'] = 'Διεργασία συγχρονισμού μη αυτόματων εγγραφών';
 $string['unenrol'] = 'Ακύρωση εγγραφής χρήστη';
 $string['unenrolselectedusers'] = 'Ακύρωση εγγραφής επιλεγμένων χρηστών';
 $string['unenrolselfconfirm'] = 'Είστε βέβαιοι ότι θέλετε να ακυρώσετε την εγγραφή σας στο μάθημα «{$a}»;';

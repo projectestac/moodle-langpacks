@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -209,8 +209,12 @@ $string['highestattempt'] = 'Beste poging';
 $string['identifier'] = 'Vraagidentificatie';
 $string['incomplete'] = 'Onvolledig';
 $string['indicator:cognitivedepth'] = 'SCORM cognitief';
+$string['indicator:cognitivedepthdef'] = 'SCORM cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de SCORM-activiteiten bereikt tijdens dit analyse-interval (Niveaus = Geen weergave, Bekijken, Verzenden, Feedback bekijken)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een SCORM activiteit.';
 $string['indicator:socialbreadth'] = 'SCORM sociaal';
+$string['indicator:socialbreadthdef'] = 'SCORM sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid van de SCORM-activiteiten tijdens dit analyse-interval bereikt (Niveaus = Geen deelname, alleen deelnemer)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een SCORM activiteit.';
 $string['info'] = 'Info';
 $string['interactions'] = 'Interacties';
@@ -218,6 +222,7 @@ $string['invalidactivity'] = 'Fout in SCORM-activiteit';
 $string['invalidhacpsession'] = 'Ongeldige HACP-sessie';
 $string['invalidmanifestname'] = 'Enkel imsmanifest.xml of zip-bestanden mogen geselecteerd worden';
 $string['invalidmanifestresource'] = 'Waarschuwing: volgende bronnen hebben een referentie in je manifest maar konden niet gevonden worden:';
+$string['invalidstatus'] = 'Ongeldige status';
 $string['invalidurl'] = 'Ongeldige URL opgegeven';
 $string['invalidurlhttpcheck'] = 'Ongeldige URL opgegeven. Foutopsporingsbericht: <pre>{$a->cmsg}</pre>';
 $string['last'] = 'Laatst bekeken op';

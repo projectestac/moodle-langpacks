@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'glossary', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -156,6 +156,7 @@ $string['entryexported'] = 'Article exporté avec succès';
 $string['entryishidden'] = '(Cet article est actuellement masqué)';
 $string['entryleveldefaultsettings'] = 'Réglages par défaut des articles';
 $string['entrylink'] = 'Lien vers l\'article : {$a}';
+$string['entrynotapproved'] = 'Article non approuvé';
 $string['entrysaved'] = 'Cet article a été enregistré';
 $string['entryupdated'] = 'Cet article a été mis à jour';
 $string['entryusedynalink'] = 'Article lié automatiquement';
@@ -219,8 +220,12 @@ $string['importentries'] = 'Importer des articles';
 $string['importentriesfromxml'] = 'Importer des articles d\'un fichier XML';
 $string['includegroupbreaks'] = 'Inclure les séparations entre groupes';
 $string['indicator:cognitivedepth'] = 'Glossaire : aspect cognitif';
+$string['indicator:cognitivedepthdef'] = 'Glossaire : aspect cognitif';
+$string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement cognitif offert par les activités « Glossaire » (niveaux : pas de vue, vue, envoi).';
 $string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une activité Glossaire.';
 $string['indicator:socialbreadth'] = 'Glossaire : aspect social';
+$string['indicator:socialbreadthdef'] = 'Glossaire : aspect social';
+$string['indicator:socialbreadthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement social offert par les activités « Glossaire » (niveaux : pas de participation, participant seul).';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Glossaire.';
 $string['isglobal'] = 'Glossaire global';
 $string['isglobal_help'] = 'Les articles d\'un glossaire global sont utilisés dans tout le site pour la création automatique des liens, et pas seulement dans le cours auquel il appartient. Seuls les administrateurs peuvent définir un glossaire comme étant global.';

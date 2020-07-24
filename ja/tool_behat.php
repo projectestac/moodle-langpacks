@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_behat', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_behat', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_behat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['aim'] = 'この管理ツールは開発者およびテスト作成者のMoodle機能が記述された.featureファイル作成に役立ちします。.featureファイルは自動実行されます。.featureファイルで使用できるステップ定義を以下に一覧表示します。';
 $string['allavailablesteps'] = 'すべての利用可能なステップ定義';
+$string['errorapproot'] = '$CFG->behat_ionic_dirrootは有効なMoodleアプリ開発者インストールを指定していません。';
 $string['errorbehatcommand'] = 'behat CLIコマンドの実行中にエラーが発生しました。CLIで「{$a} --help」を手動実行して問題を調査してください。';
 $string['errorcomposer'] = 'Composer依存関係がインストールされていません。';
 $string['errordataroot'] = '$CFG->behat_datarootが設定されていないか有効ではありません。';

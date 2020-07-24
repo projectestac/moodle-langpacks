@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'userkey', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'userkey', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   userkey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,12 +30,10 @@ $string['createuserkey'] = 'Nutzerschlüssel erzeugen';
 $string['deletekeyconfirm'] = 'Möchten Sie diesen Nutzerschlüssel wirklich löschen?';
 $string['edituserkey'] = 'Nutzerschlüssel bearbeiten';
 $string['keyiprestriction'] = 'IP-Adressbeschränkung';
-$string['keyiprestriction_help'] = '<h2>Einschränkung des Zugriffs für bestimmte IP-Adressen</h2>
-<p>Tragen Sie eine IP-Adresse ein oder einen IP-Adressbereich der alleine zum Zugriff auf diese Daten berechtigt ist. Wenn Sie keinen Eintrag vornehmen (was nicht empfohlen ist) deaktivieren Sie die IP-Begrenzung.</p>';
+$string['keyiprestriction_help'] = 'Tragen Sie eine IP-Adresse ein oder einen IP-Adressbereich der alleine zum Zugriff auf diese Daten berechtigt ist. Wenn Sie keinen Eintrag vornehmen (was nicht empfohlen ist) deaktivieren Sie die IP-Begrenzung.';
 $string['keymanager'] = 'Schlüsselverwaltung';
 $string['keyvaliduntil'] = 'Schlüssel gültig bis';
-$string['keyvaliduntil_help'] = '<h2>Schlüssel gültig bis</h2>
-<p>Tragen Sie ein Datum ein nach dem der gewählte Schlüssel nicht mehr gültig sein soll. Damit kann die Sicherheit erhöht werden.</p>';
+$string['keyvaliduntil_help'] = 'Tragen Sie ein Datum ein nach dem der gewählte Schlüssel nicht mehr gültig sein soll. Damit kann die Sicherheit erhöht werden.';
 $string['keyvalue'] = 'Schlüsselwert';
 $string['newuserkey'] = 'Neuer Nutzerschlüssel';
 $string['privacy:metadata:user_private_key'] = 'Privater Schlüssel für den Nutzer';

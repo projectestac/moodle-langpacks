@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mimetypes', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'mimetypes', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   mimetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['application/msword'] = 'Word 文档';
 $string['application/pdf'] = 'PDF 文档';
 $string['application/vnd.moodle.backup'] = 'Moodle 备份';
 $string['application/vnd.ms-excel'] = 'Excel 数据表';
-$string['application/vnd.ms-excel.sheet.macroEnabled.12'] = 'Excel 2007宏激活工作簿';
+$string['application/vnd.ms-excel.sheet.macroEnabled.12'] = '启用宏的Excel 2007工作簿';
 $string['application/vnd.ms-powerpoint'] = 'PowerPoint 演示文档';
 $string['application/vnd.oasis.opendocument.spreadsheet'] = 'OpenDocument电子表格';
 $string['application/vnd.oasis.opendocument.spreadsheet-template'] = 'OpenDocument电子表格模板';
@@ -43,8 +43,8 @@ $string['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'] = '
 $string['application/vnd.openxmlformats-officedocument.spreadsheetml.template'] = 'Excel 2007 模板';
 $string['application/vnd.openxmlformats-officedocument.wordprocessingml.document'] = 'Word 2007 文档';
 $string['application/xhtml_xml'] = 'XHTML文档';
-$string['application/x-iwork-keynote-sffkey'] = '';
-$string['application/x-iwork-numbers-sffnumbers'] = 'iWork Numbers 表格文档';
+$string['application/x-iwork-keynote-sffkey'] = 'iWork主旨演讲';
+$string['application/x-iwork-numbers-sffnumbers'] = 'iWork数字电子表格';
 $string['application/x-iwork-pages-sffpages'] = 'iWork Pages 文字处理文档';
 $string['application/x-javascript'] = '';
 $string['application/x-mspublisher'] = '公开发布文档';
@@ -52,7 +52,7 @@ $string['application/x-shockwave-flash'] = 'flash 动画';
 $string['archive'] = '存档（{$a->EXT}）';
 $string['audio'] = '音频文件（{$a->EXT}）';
 $string['default'] = '{$a->mimetype}';
-$string['document/unknown'] = '普通文件';
+$string['document/unknown'] = '文件';
 $string['group:archive'] = '存档文件';
 $string['group:audio'] = '音频文件';
 $string['group:document'] = '文档文件';

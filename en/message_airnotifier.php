@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_airnotifier', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message_airnotifier', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   message_airnotifier
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,19 +31,20 @@ $string['airnotifier:managedevice'] = 'Manage devices';
 $string['airnotifiermobileappname'] = 'Mobile app name';
 $string['airnotifierport'] = 'Airnotifier port';
 $string['airnotifierurl'] = 'Airnotifier URL';
-$string['configairnotifieraccesskey'] = 'The access key to use when connecting to the airnotifier server.';
+$string['configairnotifieraccesskey'] = 'The access key for connecting to the Airnotifier server. You can obtain an access key by clicking the "Request access key" link below (registered sites only) or by creating an account on the <a href="https://apps.moodle.com">Moodle Apps Portal</a>.';
 $string['configairnotifierappname'] = 'The app name identifier in Airnotifier.';
 $string['configairnotifiermobileappname'] = 'The Mobile app unique identifier (usually something like com.moodle.moodlemobile).';
 $string['configairnotifierport'] = 'The port to use when connecting to the airnotifier server.';
-$string['configairnotifierurl'] = 'The server url to connect to to send push notifications.';
+$string['configairnotifierurl'] = 'The server URL to connect to for sending push notifications.';
 $string['deletecheckdevicename'] = 'Delete your device: {$a->name}';
 $string['deletedevice'] = 'Delete the device. Note that an app can register the device again. If the device keeps reappearing, disable it.';
 $string['devicetoken'] = 'Device token';
-$string['errorretrievingkey'] = 'An error occurred while retrieving the access key. Your site must be registered to use this service. If your site is already registered, please try updating your registration.';
-$string['keyretrievedsuccessfully'] = 'Key retrieved successfully';
+$string['errorretrievingkey'] = 'An error occurred while retrieving the access key. Your site must be registered to use this service. If your site is already registered, please try updating your registration. Alternatively, you can obtain an access key by creating an account on the <a href="https://apps.moodle.com">Moodle Apps Portal</a>.';
+$string['keyretrievedsuccessfully'] = 'The access key was retrieved successfully. To access Moodle app usage statistics, please create an account on the <a href="https://apps.moodle.com">Moodle Apps Portal</a>.';
+$string['moodleappsportallimitswarning'] = 'Please note that the number of user devices allowed to receive notifications depends on your Moodle app subscription. For details, visit the <a href="{$a}" target="_blank">Moodle Apps Portal</a>.';
 $string['nodevices'] = 'No registered devices. Devices will automatically appear after you install the Moodle app and add this site.';
 $string['nopermissiontomanagedevices'] = 'You don\'t have permission to manage devices.';
-$string['notconfigured'] = 'The Airnotifier server hasn\'t been configured so Airnotifier messages cannot be sent';
+$string['notconfigured'] = 'The Airnotifier server has not been configured so push notifications cannot be sent.';
 $string['pluginname'] = 'Mobile';
 $string['privacy:appiddescription'] = 'This is an identifier to the application being used.';
 $string['privacy:enableddescription'] = 'If this device is enabled for airnotifier.';
@@ -64,5 +65,5 @@ $string['privacy:metadata:usersubsystem'] = 'This plugin is connected to the use
 $string['privacy:subcontext'] = 'Message Airnotifier';
 $string['requestaccesskey'] = 'Request access key';
 $string['showhide'] = 'Enable/disable the device.';
-$string['sitemustberegistered'] = 'In order to use the public Airnotifier instance, your site must be registered with Moodle.';
+$string['sitemustberegistered'] = 'In order to use the public Airnotifier instance, your site must be registered. Alternatively, you can obtain an access key by creating an account on the <a href="https://apps.moodle.com">Moodle Apps Portal</a>.';
 $string['unknowndevice'] = 'Unknown device';

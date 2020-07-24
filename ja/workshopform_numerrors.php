@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_numerrors', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshopform_numerrors', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   workshopform_numerrors
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addmoredimensions'] = 'さらに {$a} 個の空白アサーションを追加する';
 $string['configgrade0'] = '主張に対するマイナス評価を表すために使用するデフォルトの言葉です。';
 $string['configgrade1'] = '主張に対するプラス評価を表すために使用するデフォルトの言葉です。';
-$string['dimensioncommentfor'] = '{$a} のコメント';
+$string['dimensioncommentfor'] = '{$a} へのコメント';
 $string['dimensiondescription'] = '説明';
 $string['dimensiongrade'] = '評定';
 $string['dimensionnumber'] = '主張 {$a}';
@@ -38,7 +38,7 @@ $string['grade0default'] = 'No';
 $string['grade1'] = '成功を表す言葉';
 $string['grade1default'] = 'Yes';
 $string['grademapping'] = '評定マッピングテーブル';
-$string['maperror'] = 'エラーの加重数 <= ';
+$string['maperror'] = 'エラーの加重値 <=';
 $string['mapgrade'] = '提出の評価';
 $string['pluginname'] = 'エラー数';
 $string['privacy:export:metadata:map'] = 'エラーの加重値が {$a->nonegative} に達した場合、評点は {$a->grade} パーセントになります。';

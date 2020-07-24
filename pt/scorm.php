@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -115,8 +115,8 @@ $string['display'] = 'Exibir pacote de conteúdos';
 $string['displayactivityname'] = 'Exibir nome da atividade';
 $string['displayactivityname_help'] = 'Esta opção define se o nome da atividade é ou não exibido acima da janela de reprodução do SCORM.';
 $string['displayattemptstatus'] = 'Exibir estado das tentativas';
-$string['displayattemptstatusdesc'] = 'Se é mostrado, ou não, um resumo das tentativas do utilizador no bloco visão global das disciplinas no Painel do utilizador e/ou na página de entrada do SCORM';
-$string['displayattemptstatus_help'] = 'Esta opção define se é mostrado,ou não, um resumo das tentativas do utilizador no bloco visão global das disciplinas no Painel do utilizador e/ou na página de entrada do SCORM';
+$string['displayattemptstatusdesc'] = 'Se é mostrado, ou não, um resumo das tentativas do utilizador no bloco Minhas disciplinas no Painel do utilizador e/ou na página de entrada do SCORM';
+$string['displayattemptstatus_help'] = 'Esta opção define se é mostrado, ou não, um resumo das tentativas do utilizador no bloco Minhas disciplinas no Painel do utilizador e/ou na página de entrada do SCORM';
 $string['displaycoursestructure'] = 'Exibir índice na página de entrada';
 $string['displaycoursestructuredesc'] = 'Se ativar esta opção, o índice é exibido na página de entrada do SCORM.';
 $string['displaycoursestructure_help'] = 'Se ativar esta opção, o índice é exibido na página de entrada do SCORM';
@@ -202,8 +202,12 @@ $string['highestattempt'] = 'Tentativa com melhor nota';
 $string['identifier'] = 'Identificador de pergunta';
 $string['incomplete'] = 'Incompleto';
 $string['indicator:cognitivedepth'] = 'Compreensão do SCORM';
+$string['indicator:cognitivedepthdef'] = 'Compreensão do SCORM';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecido pelas atividades SCORM durante esse intervalo de análise (Níveis = Não visualizado, Visualizado, Submetido, Visualizado feedback)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno na atividade SCORM.';
 $string['indicator:socialbreadth'] = 'Socialização do SCORM';
+$string['indicator:socialbreadthdef'] = 'Socialização do SCORM';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelas atividades SCORM durante esse intervalo de análise (Níveis = Sem participação, Participante individual)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno na atividade SCORM.';
 $string['info'] = 'Info';
 $string['interactions'] = 'Interações';
@@ -211,6 +215,7 @@ $string['invalidactivity'] = 'A atividade SCORM está incorreta';
 $string['invalidhacpsession'] = 'Sessão de HACP inválida';
 $string['invalidmanifestname'] = 'Apenas \'imsmanifest.xml\' ou ficheiros zip podem ser selecionados';
 $string['invalidmanifestresource'] = 'AVISO: Os seguintes recursos foram referenciados no seu manifesto, mas não podem ser encontrados.';
+$string['invalidstatus'] = 'Estado inválido';
 $string['invalidurl'] = 'O URL é inválido';
 $string['invalidurlhttpcheck'] = 'Foi especificado um URL inválido. Mensagem de erro:<pre>{$a->cmsg}</pre>';
 $string['last'] = 'Último acesso em';
@@ -235,13 +240,13 @@ $string['missingparam'] = 'Um parâmetro requerido está em falta ou errado';
 $string['missing_tag'] = 'Falta a tag {$a->tag}';
 $string['mode'] = 'Modo';
 $string['modulename'] = 'Pacote SCORM';
-$string['modulename_help'] = 'Um pacote SCORM (Sharable Content Object Reference Model) é um conjunto de ficheiros agregados em zip sob as normas padrão para objetos de aprendizagem. A atividade SCORM permite carregar pacotes SCORM ou AICC numa disciplina.
+$string['modulename_help'] = 'Um pacote SCORM (Sharable Content Object Reference Model) é um conjunto de ficheiros agregados num zip sob as normas padrão para objetos de aprendizagem. A atividade SCORM permite carregar pacotes SCORM ou AICC numa disciplina.
 
-O conteúdo é normalmente distribuído por várias páginas, com navegação entre as mesmas. Existem várias opções de visualização como numa janela pop-up, com índice, botões de navegação, etc. Os SCORM geralmente incluem perguntas, em que as notas são registadas no relatório de avaliação da disciplina.
+O conteúdo é normalmente distribuído por várias páginas, com navegação entre as mesmas. Existem várias opções de visualização: numa janela pop-up, com índice, botões de navegação, etc. As atividades SCORM geralmente incluem perguntas, em que as notas são registadas na pauta da disciplina.
 
-A atividade SCORM pode ser utilizada;
+A atividade SCORM pode ser utilizada:
 
-* Para a apresentação de conteúdo multimédia e animações;
+* Para apresentação de conteúdo multimédia e animações;
 * Como uma ferramenta de avaliação.';
 $string['modulename_link'] = 'mod/scorm/view';
 $string['modulenameplural'] = 'Pacotes SCORM';

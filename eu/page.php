@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'page', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,8 +33,12 @@ $string['displayoptions'] = 'Eskura dauden erakusteko aukerak';
 $string['displayselect'] = 'Erakutsi';
 $string['displayselectexplain'] = 'Aukeratu pantaila-mota';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa orrietan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa orrietan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek Orria baliabideak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Orria motako baliabideetan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala orrietan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala orrietan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek Orria baliabideak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Orria motako baliabideetan lortutako zabalera sozialean oinarrituta dago.';
 $string['legacyfiles'] = 'Ikastaro zaharren fitxategi-migrazioa';
 $string['legacyfilesactive'] = 'Aktiboa';

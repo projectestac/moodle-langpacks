@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['categoryseparator'] = 'Caractère séparateur de catégorie';
 $string['categoryseparator_desc'] = 'Requis si les identifiants de catégorie sont activés. C\'est le caractère de séparation entre le nom de la catégorie et l\'identifiant.';
 $string['coursesettings'] = 'Options cours';
 $string['createnewcategories'] = 'Créer de nouvelles catégories de cours (cachées) si inexistantes dans Moodle';
-$string['createnewcategories_desc'] = 'Si l\'élément <org><orgunit> est présent dans les données arrivant pour un cours, son contenu sera utilisé pour indiquer une catégorie, si le cours doit être créé à partir de rien. Le plugin ne modifiera pas la catégorie des cours déjà existants.
+$string['createnewcategories_desc'] = 'Si l\'élément &lt;org&gt;&lt;orgunit&gt; est présent dans les données arrivant pour un cours, son contenu sera utilisé pour indiquer une catégorie, si le cours doit être créé à partir de rien. Le plugin ne modifiera pas la catégorie des cours déjà existants.
 
 Si aucune catégorie du nom désiré n\'existe, une catégorie cachée portant ce nom sera créée.';
 $string['createnewcourses'] = 'Créer de nouveaux cours (cachés) si inexistants dans Moodle';

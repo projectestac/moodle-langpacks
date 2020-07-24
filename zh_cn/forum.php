@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'forum', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['activityoverview'] = '新讨论区帖子';
 $string['addanewdiscussion'] = '添加一个新论题';
 $string['addanewquestion'] = '添加一个新问题';
 $string['addanewtopic'] = '添加一个新话题';
+$string['addtofavourites'] = '标星此讨论';
 $string['advancedsearch'] = '高级搜索';
 $string['allforums'] = '全部讨论区';
 $string['allowdiscussions'] = '允许 {$a} 在此讨论区发帖吗?';
@@ -45,6 +46,7 @@ $string['attachment_help'] = '您可以向一个帖子附加一个或多个文�
 $string['attachmentnopost'] = '您不能导出没有帖子id的附件';
 $string['attachments'] = '附件';
 $string['attachmentswordcount'] = '附件数和字数';
+$string['availability'] = '可用性';
 $string['blockafter'] = '被阻塞前帖数极限';
 $string['blockafter_help'] = '此项设置决定用户在指定的时长内最多允许发几个帖子。有mod/forum:postwithoutthrottling权限的用户不受此限。';
 $string['blockperiod'] = '阻塞统计周期';
@@ -53,8 +55,8 @@ $string['blockperiod_help'] = '学生如果在指定的时长内发了达到指�
 $string['blogforum'] = '博客形式的标准讨论区';
 $string['bynameondate'] = '由 {$a->name} 发表于 {$a->date}';
 $string['cannotadd'] = '不能向此讨论区添加此话题';
-$string['cannotadddiscussion'] = '在此讨论区添加讨论必须是组成员。';
-$string['cannotadddiscussionall'] = '您没有向所有人添加新论题的权限';
+$string['cannotadddiscussion'] = '向此讨论区添加讨论需要组成员身份。';
+$string['cannotadddiscussionall'] = '您没有权限为所有参与者添加新的论题。';
 $string['cannotaddsubscriber'] = '不能向此讨论区添加id为{$a}的订阅人！';
 $string['cannotaddteacherforumto'] = '不能在课程的第0节添加转换过的教师讨论区';
 $string['cannotcreatediscussion'] = '不能建立新讨论';
@@ -120,6 +122,9 @@ $string['couldnotadd'] = '由于未知的错误无法添加您的帖子';
 $string['couldnotdeletereplies'] = '很抱歉，已经有跟帖的帖子不能删除';
 $string['couldnotupdate'] = '由于未知的错误无法更新您的帖子';
 $string['crontask'] = '讨论区的邮件和维护工作';
+$string['cutoffdate'] = '提交截止时间';
+$string['cutoffdatereached'] = '此讨论区截止日期已到，您不能再在这儿发布帖子。';
+$string['cutoffdatevalidation'] = '提交截止时间不能早于截止时间。';
 $string['delete'] = '删除';
 $string['deleteddiscussion'] = '讨论话题已被删除';
 $string['deletedpost'] = '帖子已删除';
@@ -138,7 +143,13 @@ $string['disallowsubscribeteacher'] = '不允许订阅(教师除外)';
 $string['disallowsubscription'] = '订阅';
 $string['disallowsubscription_help'] = '该讨论区已被设置为你无法订阅话题。';
 $string['discussion'] = '讨论';
-$string['discussionlocked'] = '此讨论已被冻结，不再接受新回复。';
+$string['discussionlistsortbycreatedasc'] = '按创建日期升序排序';
+$string['discussionlistsortbycreateddesc'] = '按创建日期降序排序';
+$string['discussionlistsortbylastpostasc'] = '按最近帖子创建日期升序排序';
+$string['discussionlistsortbylastpostdesc'] = '按最近帖子创建日期降序排序';
+$string['discussionlistsortbyrepliesasc'] = '按回复数升序排序';
+$string['discussionlistsortbyrepliesdesc'] = '按回复数降序排序';
+$string['discussionlocked'] = '此讨论已被锁定，不再接受新回复。';
 $string['discussionlockingdisabled'] = '不要冻结话题';
 $string['discussionlockingheader'] = '冻结话题';
 $string['discussionmoved'] = '该讨论已被移到“{$a}”。';
@@ -181,6 +192,7 @@ $string['displaystart_help'] = '<p align="center"><b>讨论区显示时期</b></
 <span style="font-weight: bold;">翻译者：况亮</span><br style="font-weight: bold;" /><span style="font-weight: bold;">Email：kuangliang12345@163.com</span><br style="font-weight: bold;" /><span style="font-weight: bold;">翻译日期：2007年3月4日</span><br />';
 $string['displaywordcount'] = '显示字数';
 $string['displaywordcount_help'] = '是否需要显示每个帖子的总字数？';
+$string['duedate'] = '截止时间';
 $string['eachuserforum'] = '每个人发表一个话题';
 $string['edit'] = '编辑';
 $string['editedby'] = '由 {$a->name} 修改 - 原提交时间 {$a->date}';
@@ -227,6 +239,8 @@ $string['everyoneisnowsubscribed'] = '现在所有人都订阅了该讨论区';
 $string['everyoneissubscribed'] = '所有人都订阅了该讨论区';
 $string['existingsubscribers'] = '个订阅者';
 $string['exportdiscussion'] = '导出整个讨论区话题到学习文件';
+$string['favourites'] = '带星号标记的';
+$string['favouriteupdated'] = '您的标星选项已更新。';
 $string['forcedreadtracking'] = '强制阅读跟踪';
 $string['forcedreadtracking_desc'] = '允许讨论区设置为“强制阅读跟踪”，可能导致某些课程运行效能降低，特别是在含有多个讨论区和帖子的课程中。若以后关闭此选项，以前的设置为“强制的”都会更改为“自行选择”。';
 $string['forcesubscribed'] = '该讨论区强制每个人都订阅';
@@ -300,10 +314,12 @@ $string['invalidparentpostid'] = '父帖子的ID错误';
 $string['invalidpostid'] = '无效的帖子ID - {$a}';
 $string['lastpost'] = '最新帖子';
 $string['learningforums'] = '学习讨论区';
+$string['lockdiscussion'] = '锁定此讨论';
 $string['lockdiscussionafter'] = '在设定时间内若无人参与讨论则锁定此话题';
 $string['lockdiscussionafter_help'] = '自最后一次回帖过后的设定时间点自动锁定话题。
 
 拥有回复已冻结话题权限的用户可以通过回复解冻话题。';
+$string['lockupdated'] = '锁定选项已更新。';
 $string['longpost'] = '长帖';
 $string['mailnow'] = '立刻发送邮件';
 $string['managesubscriptionsoff'] = '完成订阅设置管理';
@@ -423,6 +439,8 @@ $string['page-mod-forum-x'] = '任意讨论区模块页面';
 $string['parent'] = '显示父帖子';
 $string['parentofthispost'] = '该帖的父帖';
 $string['permalink'] = '永久链接';
+$string['pindiscussion'] = '置顶此讨论';
+$string['pinupdated'] = '置顶选项已更新';
 $string['pluginadministration'] = '讨论区管理';
 $string['pluginname'] = '讨论区';
 $string['postadded'] = '<p>您的帖子已经成功发表。</p>
@@ -433,6 +451,7 @@ $string['postbymailsuccess'] = '恭喜，你的讨论区帖子其主题为 "{$a-
 $string['postbymailsuccess_html'] = '恭喜，你的<a href="{$a->discussionurl}">讨论区帖子</a> 主题为 "{$a->subject}" 已经成功提交。';
 $string['postbyuser'] = '{$a->post} 由 {$a->user} 所发';
 $string['postincontext'] = '在上下文中看此帖';
+$string['postisprivatereply'] = '这是私人回复。其他参与者不可见。';
 $string['postmailinfolink'] = '这是提交到{$a->coursename} 课程讨论区的帖子副本。
 
 若要回复，请点击这一链接 ：{$a->replylink}';
@@ -445,11 +464,12 @@ $string['posts'] = '帖子';
 $string['postsmadebyuser'] = '{$a}的帖子';
 $string['postsmadebyuserincourse'] = '{$a->fullname}在{$a->coursename}中的帖子';
 $string['posttoforum'] = '发到讨论区上';
-$string['posttomygroups'] = '提交一副本到所有群组';
+$string['posttomygroups'] = '发布一份副本到所有组';
 $string['posttomygroups_help'] = '提交这一信息的副本到所有你可访问的群組。你无法访问的群组的参与者将无法看到。';
 $string['postupdated'] = '您的帖子已经更新';
 $string['potentialsubscribers'] = '潜在订阅者';
 $string['prevdiscussiona'] = '前面的话题:{$a}';
+$string['privatereply'] = '私下回复';
 $string['processingdigest'] = '正在为用户 {$a} 处理邮件摘要';
 $string['processingpost'] = '正在处理帖子 {$a}';
 $string['prune'] = '分割';
@@ -460,6 +480,7 @@ $string['qandanotify'] = '这是一个问题和解答讨论区。为了能看到
 $string['re'] = '回复:';
 $string['readtherest'] = '阅读剩余部分';
 $string['removeallforumtags'] = '删除所有讨论区的标签';
+$string['removefromfavourites'] = '取消标星此讨论';
 $string['replies'] = '回帖';
 $string['repliesmany'] = '迄今有 {$a} 个回帖';
 $string['repliesone'] = '迄今有 {$a} 个回帖';
@@ -467,6 +488,7 @@ $string['reply'] = '回复';
 $string['replyforum'] = '回复到讨论区上';
 $string['reply_handler'] = '通过email回复帖子';
 $string['reply_handler_name'] = '回复讨论区的帖子';
+$string['replyplaceholder'] = '写您的回复...';
 $string['replytopostbyemail'] = '你可以通过email回复这个帖子';
 $string['replytouser'] = '在回复中使用Email地址';
 $string['resetdigests'] = '删除每一用户的帖子摘要';
@@ -514,6 +536,8 @@ $string['searchuserid'] = '作者的Moodle ID';
 $string['searchwhichforums'] = '选择要搜索哪个讨论区';
 $string['searchwords'] = '这些文字可以在帖子的任何位置出现';
 $string['seeallposts'] = '查看此用户发表的全部帖子';
+$string['sendstudentnotifications'] = '通知学生';
+$string['sendstudentnotifications_help'] = '若启用，学生会收到有关成绩或反馈修改的简讯。';
 $string['shortpost'] = '短帖';
 $string['showsubscribers'] = '显示/修改订阅者';
 $string['singleforum'] = '单个简单话题';
@@ -550,6 +574,8 @@ $string['subscriptionoptional'] = '可选订阅';
 $string['subscriptions'] = '订阅';
 $string['tagarea_forum_posts'] = '讨论区帖子';
 $string['tagsdeleted'] = '讨论区标签已删除';
+$string['thisforumhasduedate'] = '此讨论区发帖的截止日期为{$a}。';
+$string['thisforumisdue'] = '此讨论区发帖的截止日期为{$a}。';
 $string['thisforumisthrottled'] = '这个讨论区有规定周期内发帖数的限制，它被设置为 {$a->blockperiod} 内最多发 {$a->blockafter} 个帖子。';
 $string['timedhidden'] = '定时状态：不让学生看见';
 $string['timedposts'] = '定时帖子';
@@ -569,6 +595,8 @@ $string['trackingtype_help'] = '如果激活，用户可以跟踪讨论区和话
 * 开启 - 跟踪永远打开
 * 关闭 - 跟踪永远关闭';
 $string['trackreadposts_header'] = '跟踪讨论区';
+$string['unlockdiscussion'] = '解锁此讨论';
+$string['unpindiscussion'] = '取消置顶此讨论';
 $string['unread'] = '未读';
 $string['unreadposts'] = '未读帖子';
 $string['unreadpostsnumber'] = '{$a} 未读帖子';

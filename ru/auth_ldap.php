@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,6 @@ $string['auth_ldap_contexts_key'] = 'Контейнеры';
 $string['auth_ldap_create_context'] = 'Если Вы разрешили создание пользователей с подтверждением по электронной почте, укажите контейнер, в котором будут создаваться новые пользователи. Этот контейнер должен отличаться от других, чтобы избежать проблем, связанных с безопасностью. Нет необходимости повторно указывать этот контейнер в поле «Контейнеры», Moodle будет автоматически осуществлять поиск и в этом контейнере.';
 $string['auth_ldap_create_context_key'] = 'Контейнер для новых пользователей';
 $string['auth_ldap_create_error'] = 'Ошибка при создании пользователя в LDAP.';
-$string['auth_ldap_creators'] = 'Список групп или контейнеров, членам которых разрешается создавать новые курсы. Чтобы указать несколько групп, используйте разделитель «;». Например,«cn=teachers,ou=staff,o=myorg».';
-$string['auth_ldap_creators_key'] = 'Создатели курсов';
 $string['auth_ldapdescription'] = 'Этот метод используется для аутентификации пользователя на сервере LDAP. Если пользователем указаны корректные логин и пароль, в базе данных Moodle создается новая пользовательская учетная запись. Этот модуль может считывать атрибуты пользователя из cервера LDAP и заполнять поля в Moodle. При дальнейших входах в систему на LDAP сервере будут проверяться только логин и пароль.';
 $string['auth_ldap_expiration_desc'] = 'Выберите «{$a->no}» для отключения проверки срока действия пароля или «{$a->ldapserver}» для получения срока действия пароля с сервера LDAP';
 $string['auth_ldap_expiration_key'] = 'Срок действия пароля';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_media', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'atto_media', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   atto_media
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['addchapterstrack'] = 'Track mit Kapiteln hinzufügen';
 $string['adddescriptionstrack'] = 'Track mit Beschreibung hinzufügen';
 $string['addmetadatatrack'] = 'Track mit Metadaten hinzufügen';
 $string['addsource'] = 'Alternative Mediendatei hinzufügen';
-$string['addsource_help'] = 'Es wird empfohlen, eine alternative Mediendatei bereitzugestellen, da Desktop- und mobile Browser sich in den unterstützten Formaten unterscheiden.';
+$string['addsource_help'] = 'Es wird empfohlen, eine alternative Mediendatei bereitzustellen, da Desktop- und mobile Browser sich in den unterstützten Formaten unterscheiden.';
 $string['addsubtitlestrack'] = 'Track mit Untertiteln hinzufügen';
 $string['addtrack'] = 'Track hinzufügen';
 $string['advancedsettings'] = 'Erweiterte Einstellungen';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -76,7 +76,7 @@ $string['pagexofy'] = '第 {$a->page} 页，共 {$a->total} 页';
 $string['partialwarning'] = '提交某些文件只能通过直接下载进行访问。';
 $string['pathtogspathdesc'] = '请注意，这个说明的pdf文件要在{$a}设定到ghostscript的目录。';
 $string['pen'] = '笔';
-$string['pluginname'] = '批注的PDF文件';
+$string['pluginname'] = '批注的PDF';
 $string['preparesubmissionsforannotation'] = '准备要批注的作业';
 $string['privacy:metadata:colourpurpose'] = '评论或批注的颜色';
 $string['privacy:metadata:conversionpurpose'] = '文件转换为 PDF格式以允许批注。';

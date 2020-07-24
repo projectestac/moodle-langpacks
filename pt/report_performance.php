@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_performance', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_performance', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   report_performance
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['check_backup_comment_enable'] = 'O desempenho pode ser afetado durante 
 $string['check_backup_details'] = '<p>Ativar a realização de cópias de segurança automáticas irá criar automaticamente no servidor, e à hora que especificou, arquivos de todas as disciplinas. <p<Durante este processo, serão consumidos mais recursos e isto poderá afetar o desempenho.<p/>';
 $string['check_cachejs_comment_disable'] = 'Se ativar esta opção, o desempenho do carregamento das páginas será melhorado.';
 $string['check_cachejs_comment_enable'] = 'Se desativar esta opção, o carregamento das páginas poderá ser mais lento.';
-$string['check_cachejs_details'] = 'A caching e compressão de JavaScript melhora muito o desempenho do carregamento da página. É altamente recomendável para sites de produção.';
+$string['check_cachejs_details'] = 'A caching e compressão de JavaScript melhora muito o desempenho do carregamento da página. É altamente recomendado para sites de produção.';
 $string['check_debugmsg_comment_developer'] = 'Se for definido para outro que não Programador, o desempenho pode ser melhorado ligeiramente.';
 $string['check_debugmsg_comment_nodeveloper'] = 'Se for definido para PROGRAMADOR, o desempenho pode ser ligeiramente afetado.';
 $string['check_debugmsg_details'] = 'Raramente existem vantagens em ativar o nível de \'PROGRAMADOR\', a menos que seja solicitado por um programador.<p>Após ter obtido a mensagem de erro, copie e guarde a mensagem noutro local, é ALTAMENTE RECOMENDADO alterar o nível de PROGRAMADOR para \'Nada\'. As mensagens de erro podem dar pistas da configuração do seu site a um pirata informático e podem afetar o desempenho.';

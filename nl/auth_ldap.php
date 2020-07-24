@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,6 @@ $string['auth_ldap_contexts_key'] = 'Contexten';
 $string['auth_ldap_create_context'] = 'Als je het aanmaken van gebruikers met e-mailbevestiging aanzet, moet je de context aangeven waarin gebruikers worden aangemaakt. Deze context moet verschillen van andere contexten om beveiligingsproblemen te vermijden. Deze context hoef je niet toe te voegen aan ldap_context_variable. Moodle zoekt automatisch de gebruikers uit deze context.<br /><b>Merk op!</b> Je moet de functie auth_user_create() in het bestand auth/ldap/lib.php wijzigen om er voor te zorgen dat het aanmaken van gebruikers werkt.';
 $string['auth_ldap_create_context_key'] = 'Context voor nieuwe gebruikers';
 $string['auth_ldap_create_error'] = 'Fout bij het aanmaken van de gebruiker in LDAP';
-$string['auth_ldap_creators'] = 'Lijst met groepen gebruikers. De leden van de groepen mogen nieuwe cursussen aanmaken. Scheid verschillende groepen met \';\'. Meestal iets als \'cn=leraren,ou=medewerkers,o=mijnorganisatie\'';
-$string['auth_ldap_creators_key'] = 'Aanmakers';
 $string['auth_ldapdescription'] = 'Deze methode levert authenticatie door middel van een externe LDAP-server.
 Als de gebruikersnaam en wachtwoord geldig zijn, maakt Moodle een nieuwe gebruiker aan in zijn database. Deze plugin kan gebruikerseigenschappen vanuit LDAP lezen en bepaalde velden in Moodle alvast invullen. Bij latere aanmeldingen worden alleen de gebruikersnaam en het wachtwoord gecontroleerd.';
 $string['auth_ldap_expiration_desc'] = 'Kies  \'{$a->no}\' om de controle op vervallen wachtwoorden uit te schakelen of  \'{$a->ldapserver}\' de geldigheidsduur van de wachtwoorden rechtstreeks uit LDAP te laten lezen.';
@@ -121,6 +119,11 @@ $string['cannotmaprole'] = 'De rol "{$a->rolename}" kan niet worden toegewezen o
 $string['connectingldap'] = 'Verbinden met LDAP-server';
 $string['connectingldapsuccess'] = 'Verbinding maken met je LDAP-server was succesvol';
 $string['creatingtemptable'] = 'Tijdelijke tabel {$a} aanmaken';
+$string['diag_contextnotfound'] = 'Context {$a} bestaat niet of kan niet worden gelezen door DN te binden.';
+$string['diag_emptycontext'] = 'Lege context gevonden.';
+$string['diag_genericerror'] = 'LDAP-fout {$a->code} lezen  {$a->subject}: {$a->message}.';
+$string['diag_rolegroupnotfound'] = 'Groep {$a->group}  voor rol {$a->localname} bestaat niet of kan niet worden gelezen door DN binden.';
+$string['diag_toooldversion'] = 'Het is zeer onwaarschijnlijk dat een moderne LDAP-server het LDAPv2-protocol gebruikt. Verkeerde instellingen kunnen waarden in gebruikersvelden beschadigen. Neem contact op met uw LDAP-beheerder.';
 $string['didntfindexpiretime'] = 'password_expire() vond de verlooptijd niet';
 $string['didntgetusersfromldap'] = 'Kreeg geen enkele gebruiker van LDAP. Configuratiefout?';
 $string['gotcountrecordsfromldap'] = 'Kreeg {$a} records van LDAP';

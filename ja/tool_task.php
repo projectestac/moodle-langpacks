@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_task', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,6 +52,7 @@ $string['runpattern'] = '実行パターン';
 $string['scheduledtaskchangesdisabled'] = 'スケジュールタスク一覧の修正はMoodle設定で禁止されています。';
 $string['scheduledtasks'] = 'スケジュールタスク';
 $string['taskdisabled'] = 'タスク無効';
+$string['tasklogs'] = 'タスクログ';
 $string['taskscheduleday'] = '日';
 $string['taskscheduleday_help'] = 'タスクスケジュールの日フィールドです。フィールドはunix cronと同じフォーマットを使用します。以下、いくつかの例です:
 
@@ -87,3 +88,4 @@ $string['taskschedulemonth_help'] = 'タスクスケジュールの月フィー�
 * <strong>*/2</strong> 隔月
 * <strong>1</strong> 毎1月
 * <strong>1,5</strong> 毎1月および5月';
+$string['viewlogs'] = '{$a} のログを表示する';

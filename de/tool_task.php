@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_task', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,16 +52,40 @@ $string['runpattern'] = 'Ausführungsmuster';
 $string['scheduledtaskchangesdisabled'] = 'Änderungen in der Liste der geplanten Vorgänge sind nicht erlaubt.';
 $string['scheduledtasks'] = 'Geplante Vorgänge';
 $string['taskdisabled'] = 'Vorgang deaktiviert';
+$string['tasklogs'] = 'Task-Logdaten';
 $string['taskscheduleday'] = 'Tag';
 $string['taskscheduleday_help'] = 'Zeitplanung: Tag des Monats. Das Feld verwendet das gleiche Format wie der Unix Cron. Einige Beispiele:
-<br/><ul><li><strong>*</strong> Jeden Tag</li><li><strong>*/2</strong>Jeden zweiten Tag</li><li><strong>1</strong> Der erste Tag jeden Monats</li><li><strong>1,15</strong> Am ersten und 15. Tag jeden Monats</li></ul>';
+
+* <strong>*</strong> Jeden Tag
+* <strong>*/2</strong> Jeden zweiten Tag
+* <strong>1</strong> Am ersten Tag in jedem Monat
+* <strong>1,15</strong> Am ersten und am 15. Tag in jedem Monat';
 $string['taskscheduledayofweek'] = 'Wochentag';
-$string['taskscheduledayofweek_help'] = 'Zeitplanung: Wochentag. Das Feld verwendet das gleiche Format wie der Unix Cron. Einige Beispiele: <br/><ul><li><strong>*</strong> Jeden Tag</li><li><strong>0</strong> Jeden Sonntag</li><li><strong>6</strong> Jeden Samstag</li><li><strong>1,5</strong> Jeden Montag und jeden Freitag</li></ul>';
+$string['taskscheduledayofweek_help'] = 'Zeitplanung: Wochentag. Das Feld verwendet das gleiche Format wie der Unix Cron. Einige Beispiele:
+
+* <strong>*</strong> Jeden Tag
+* <strong>0</strong> Jeden Sonntag
+* <strong>6</strong> Jeden Samstag
+* <strong>1,5</strong> Jeden Montag und Freitag';
 $string['taskschedulehour'] = 'Stunde';
-$string['taskschedulehour_help'] = 'Zeitplanung: Stunde. Das Feld verwendet das gleiche Format wie der Unix Cron. Einige Beispiele: <br/><ul><li><strong>*</strong> Jede Stunde</li><li><strong>*/2</strong> Alle zwei Stunden</li><li><strong>2-10</strong> Jede Stunde zwischen  2am bisl 10am (inkl.)</li><li><strong>2,6,9</strong> um 2am, 6am und 9am</li></ul>';
+$string['taskschedulehour_help'] = 'Zeitplanung: Stunde. Das Feld verwendet das gleiche Format wie der Unix Cron. Einige Beispiele:
+
+* <strong>*</strong> Jede Stunde
+* <strong>*/2</strong> Alle zwei Stunden
+* <strong>2-10</strong> Jede Stunde zwischen 2:00 Uhr und 10:00 Uhr (inclusive)
+* <strong>2,6,9</strong> 2:00 Uhr, 6:00 Uhr und 9:00 Uhr';
 $string['taskscheduleminute'] = 'Minute';
 $string['taskscheduleminute_help'] = 'Zeitplanung: Minute. Das Feld verwendet das gleiche Format wie der Unix Cron. Einige Beispiele:
-<br/><ul><li><strong>*</strong> Jede Minute</li><li><strong>*/5</strong> Alle 5 Minuten</li><li><strong>2-10</strong> Jede Minute zwischen 2 und 10 Minuten nach der vollen Stunde (inkl)</li><li><strong>2,6,9</strong> um 2, 6 und 9 Minuten nach jeder vollen Stunde</li></ul>';
+
+* <strong>*</strong> Jede Minute
+* <strong>*/5</strong> Alle 5 Minuten
+* <strong>2-10</strong> Jede Minute zwischen der 2. und 10. Minute einer jeden Stunde  (inclusive)
+* <strong>2,6,9</strong> Jede 2., 6, und 9, Minute einer jeden Stunde';
 $string['taskschedulemonth'] = 'Monat';
 $string['taskschedulemonth_help'] = 'Zeitplanung: Monat. Das Feld verwendet das gleiche Format wie der Unix Cron. Einige Beispiele:
-<br/><ul><li><strong>*</strong> Jeden Monat</li><li><strong>*/2</strong> Jeden zweiten Monat</li><li><strong>1</strong> Jeden  Januar</li><li><strong>1,5</strong> Jeden Januar und Mai</li></ul>';
+
+* <strong>*</strong> Jeden Monat
+* <strong>*/2</strong> Jeden zweiten Monat
+* <strong>1</strong> Jeden Januar
+* <strong>1,5</strong> Jeden Januar und Mai';
+$string['viewlogs'] = 'Logdaten für  {$a} anzeigen';

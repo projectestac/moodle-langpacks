@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,8 +82,6 @@ $string['completionondate'] = '날짜';
 $string['completionondatevalue'] = '사용자 등록 유지 기한:';
 $string['completion-pass'] = '완료됨(통과 성적 얻음)';
 $string['completionsettingslocked'] = '이수 설정 잠김';
-$string['completion-title-manual-n'] = '이수로 표시';
-$string['completion-title-manual-y'] = '미이수로 표시';
 $string['completionusegrade'] = '성적 필수';
 $string['completionusegrade_desc'] = '이 활동을 완료하기 위해서는 반드시 성적을 받아야 합니다.';
 $string['completionusegrade_help'] = '활성화되면 활동은 학생이 성적을 받아야 완료된 것으로 간주됩니다. 활동에 대한 통과 성적이 설정되었으면 통과및 실패 아이콘이 표시될 수 있습니다.';

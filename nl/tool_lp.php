@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_lp', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,7 @@ $string['editthisplan'] = 'Bewerk dit studieplan';
 $string['editthisuserevidence'] = 'Bewerk dit bewijs';
 $string['edituserevidence'] = 'Bewerk bewijs';
 $string['evidence'] = 'Bewijs';
+$string['filterbyactivity'] = 'Filter competenties per bron of activiteit';
 $string['findcourses'] = 'Zoek cursussen';
 $string['frameworkcannotbedeleted'] = 'Het competentieframework \'{$a}\' kan niet verwijderd worden';
 $string['hidden'] = 'Verborgen';
@@ -145,9 +146,11 @@ $string['myplans'] = 'Mijn studieplannen';
 $string['nfiles'] = '{$a} bestand(en)';
 $string['noactivities'] = 'Geen activiteiten';
 $string['nocompetencies'] = 'Er zijn nog geen competenties gemaakt in dit framework';
+$string['nocompetenciesinactivity'] = 'Er zijn geen bevoegdheden gekoppeld aan deze activiteit of bron.';
 $string['nocompetenciesincourse'] = 'Er zijn nog geen competenties gelinkt aan deze cursus.';
 $string['nocompetenciesinevidence'] = 'Er zijn nog geen competenties gelinkt aan dit bewijs';
 $string['nocompetenciesinlearningplan'] = 'Er zijn nog geen competenties gelinkt aan dit studieplan.';
+$string['nocompetenciesinlist'] = 'Er zijn geen competenties geselecteerd.';
 $string['nocompetenciesintemplate'] = 'Er zijn nog geen competenties gelinkt aan dit studieplansjabloon.';
 $string['nocompetencyframeworks'] = 'Er zijn nog geen competentieframeworks gemaakt.';
 $string['nocompetencyselected'] = 'Geen competentie geselecteerd';

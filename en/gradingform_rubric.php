@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_rubric', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_rubric', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addcriterion'] = 'Add criterion';
+$string['additionalfeedback'] = 'Additional feedback';
 $string['alwaysshowdefinition'] = 'Allow users to preview rubric (otherwise it will only be displayed after grading)';
 $string['backtoediting'] = 'Back to editing';
 $string['confirmdeletecriterion'] = 'Are you sure you want to delete this criterion?';
@@ -54,11 +55,13 @@ $string['leveldefinition'] = 'Level {$a} definition';
 $string['leveldelete'] = 'Delete level {$a}';
 $string['levelempty'] = 'Click to edit level';
 $string['levelsgroup'] = 'Levels group';
-$string['lockzeropoints'] = 'Calculate grade based on the rubric having a minimum score of 0';
-$string['lockzeropoints_help'] = 'This setting only applies if the sum of the minimum number of points for each criterion is greater than 0. If ticked, the minimum achievable grade for the rubric will be greater than 0. If unticked, the minimum possible score for the rubric will be mapped to the minimum grade available for the activity (which is 0 unless a scale is used).';
+$string['lockzeropoints'] = 'Calculate grade having a minimum score of the minimum achievable grade for the rubric';
+$string['lockzeropoints_help'] = 'This setting only applies if the sum of the minimum number of points for each criterion is greater than 0. If ticked, the minimum score of the activity will be the minimum achievable grade for the rubric. If unticked, the minimum possible score for the rubric will be mapped to the minimum grade available for the activity (which is 0 unless a scale is used).';
 $string['name'] = 'Name';
 $string['needregrademessage'] = 'The rubric definition was changed after this student had been graded. The student can not see this rubric until you check the rubric and update the grade.';
+$string['notset'] = 'Not set';
 $string['pluginname'] = 'Rubric';
+$string['pointsvalue'] = '{$a} points';
 $string['previewrubric'] = 'Preview rubric';
 $string['privacy:metadata:criterionid'] = 'An identifier for a specific criterion being graded.';
 $string['privacy:metadata:fillingssummary'] = 'Stores information about the user\'s grade created by the rubric.';
@@ -76,7 +79,7 @@ $string['rubricmappingexplained'] = 'The minimum possible score for this rubric 
 
 If a scale is used for grading, the score will be rounded and converted to the scale elements as if they were consecutive integers.
 
-This grade calculation may be changed by editing the form and ticking the box \'Calculate grade based on the rubric having a minimum score of 0\'.';
+This grade calculation may be changed by editing the form and ticking the box \'Calculate grade having a minimum score of the minimum achievable grade for the rubric\'.';
 $string['rubricnotcompleted'] = 'Please choose something for each criterion';
 $string['rubricoptions'] = 'Rubric options';
 $string['rubricstatus'] = 'Current rubric status';

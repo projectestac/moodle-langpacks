@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'chat', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,6 +55,7 @@ $string['configserverip'] = 'O endereço IP do servidor acima.';
 $string['configservermax'] = 'Número máximo de participantes permitido';
 $string['configserverport'] = 'Porta a usar no servidor para o daemon';
 $string['coursetheme'] = 'Tema da disciplina';
+$string['crontask'] = 'Processamento em segundo plano do módulo Chat';
 $string['currentchats'] = 'Sessões de chat ativas';
 $string['currentusers'] = 'Utilizadores no chat';
 $string['deletesession'] = 'Apagar sessão';
@@ -71,8 +72,12 @@ $string['explainmethodnormal'] = 'Estas configurações aplicam-se unicamente se
 $string['generalconfig'] = 'Configuração geral';
 $string['idle'] = 'Sem atividade';
 $string['indicator:cognitivedepth'] = 'Compreensão do Chat';
+$string['indicator:cognitivedepthdef'] = 'Compreensão do Chat';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelas atividades Chat durante esse intervalo de análise (Níveis = Não visualizado, Visualizado, Submetido, Visualizado feedback)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno na atividade Chat.';
 $string['indicator:socialbreadth'] = 'Socialização do Chat';
+$string['indicator:socialbreadthdef'] = 'Socialização do Chat';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelas atividades Chat durante esse intervalo de análise (Níveis = Sem participação, Participante individual, Participante com outros)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno na atividade Chat.';
 $string['inputarea'] = 'Área de entrada';
 $string['invalidid'] = 'Não foi possível encontrar a sala de chat!';

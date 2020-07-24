@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_grader', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradereport_grader', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   gradereport_grader
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,16 +34,16 @@ $string['eventgradereportviewed'] = 'Relatório de avaliador visualizado';
 $string['grader:manage'] = 'Gerir relatório de avaliação';
 $string['grader:view'] = 'Ver o relatório de avaliação';
 $string['overriddengrade'] = 'Nota ajustada';
-$string['pluginname'] = 'Pauta do avaliador';
-$string['preferences'] = 'Preferências da pauta do avaliador';
+$string['pluginname'] = 'Relatório do avaliador';
+$string['preferences'] = 'Preferências do relatório do avaliador';
 $string['privacy:metadata:preference:grade_report_aggregationposition'] = 'Se as colunas total da categoria e a disciplina são exibidas em primeiro ou último lugar na pauta';
-$string['privacy:metadata:preference:grade_report_averagesdecimalpoints'] = 'O número de casas decimais a exibir em cada média ou se é usado o total de casas decimais configurado para a categoria ou item da pauta (herdar)';
+$string['privacy:metadata:preference:grade_report_averagesdecimalpoints'] = 'O número de casas decimais a mostrar em cada média ou se é usado o total de casas decimais configurado para a categoria ou item da pauta (herdar)';
 $string['privacy:metadata:preference:grade_report_averagesdisplaytype'] = 'Se a média (média) é exibida como nota simples, percentagem ou letras, ou se é usado o tipo de exibição configurado para a categoria ou item da pauta (herdar)';
 $string['privacy:metadata:preference:grade_report_enableajax'] = 'Se deve adicionar um layer da funcionalidade AJAX ao relatório da pauta, simplificando e acelerando operações comuns.';
 $string['privacy:metadata:preference:grade_report_grader_collapsed_categories'] = 'Lista de categorias de pauta a serem contraídas';
 $string['privacy:metadata:preference:grade_report_meanselection'] = 'Se células com notas vazias devem ser incluídas no cálculo da média (média) para cada categoria ou item da pauta';
 $string['privacy:metadata:preference:grade_report_quickgrading'] = 'Se deve exibir uma caixa de texto em cada nota, permitindo editar várias notas ao mesmo tempo';
-$string['privacy:metadata:preference:grade_report_rangesdecimalpoints'] = 'O número de casas decimais a exibir em cada intervalo ou se se sobrepões a configuração de pontos decimais usados em cada categoria ou item (herdar)';
+$string['privacy:metadata:preference:grade_report_rangesdecimalpoints'] = 'O número de casas decimais a mostrar em cada intervalo ou se se sobrepões a configuração de pontos decimais usados em cada categoria ou item (herdar)';
 $string['privacy:metadata:preference:grade_report_rangesdisplaytype'] = 'Se o intervalo é exibido em notas reais, percentagens ou letras, ou se é usado o tipo de exibição configurado para a categoria ou item da pauta (herdar)';
 $string['privacy:metadata:preference:grade_report_showactivityicons'] = 'Se deve exibir o ícone das atividades ao lado do nome das atividade';
 $string['privacy:metadata:preference:grade_report_showanalysisicon'] = 'Se deve exibir o ícone de análise das notas por predefinição. Se a atividade suportar, o ícone de análise das notas irá estar hiperligado a uma página com mais detalhe e explicação sobre as notas e como foram obtidas.';

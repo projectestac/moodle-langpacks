@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_ddimageortext', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_ddimageortext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,7 +61,9 @@ $string['pluginname'] = 'Hartu eta eraman irudira';
 $string['pluginnameadding'] = 'Hartu eta eraman irudira motako galdera gehitzen';
 $string['pluginnameediting'] = 'Hartu eta eraman irudira motako galdera editatzen';
 $string['pluginname_help'] = 'Hartu era eraman irudira motako galderek ikasleei irudi edo testuak hartu eta atzeko planoko irudian zehaztuta dauden eramateko tokietara eramatea eskatzen diete. Elementu eramangarriak taldekatu daitezke talde bakoitzeko elementu guztiak eramateko tokien kolore berdina izan dezaten. \'Mugarik gabe\' gisa markatutako elementu eramangarriak eremu bat baino gehigotara eraman daitezke.';
-$string['pluginnamesummary'] = 'Irudiak edo testu-etiketak hartu eta eraman dira atzeko planoko irudira.';
+$string['pluginnamesummary'] = 'Irudiak edo testu-etiketak hartu eta eraman dira atzeko planoko irudira.
+
+Oharra: Galdera-mota hau ez dago ikuspen urritasuna duten erabiltzaileentzako eskuragarri.';
 $string['previewareaheader'] = 'Aurrebista';
 $string['previewareamessage'] = 'Aukeratu atzeko planoko irudia, zehaztu elementu eramangarriak eta kokatu elementuak irudiaren gainean kokatzeko eramateko tokiak.';
 $string['privacy:metadata'] = 'Hartu eta eraman irudira galdera-mota pluginak ez du datu pertsonalik biltzen.';

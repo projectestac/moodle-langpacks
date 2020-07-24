@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_lp', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,7 @@ $string['editthisplan'] = 'Editatu ikasketa-plan hau';
 $string['editthisuserevidence'] = 'Editatu ebidentzia hau';
 $string['edituserevidence'] = 'Editatu ebidentzia';
 $string['evidence'] = 'Ebidentzia';
+$string['filterbyactivity'] = 'Iragazi konpetentziak baliabide edo jardueraren arabera';
 $string['findcourses'] = 'Bilatu ikastaroak';
 $string['frameworkcannotbedeleted'] = '\'{$a}\' konpetentzia-markoa ezin da ezabatu';
 $string['hidden'] = 'Ezkutuan';
@@ -137,17 +138,19 @@ $string['move'] = 'Mugitu';
 $string['movecompetency'] = 'Mugitu konpetentzia';
 $string['movecompetencyafter'] = 'Mugitu konpetentzia \'{$a}\'-(r)en ondorengora.';
 $string['movecompetencyframework'] = 'Mugitu konpetentzia-markoa';
-$string['movecompetencytochildofselfwillresetrules'] = 'Konpetentzia mugitzeak bere baitako arauak ezabatuko ditu, baita goragoko eta helburukoak ere. Jarraitu nahi duzu?';
-$string['movecompetencywillresetrules'] = 'Konpetentzia mugitzeak goragoko eta helburuko arauak ezabatuko ditu. Jarraitu nahi duzu?';
+$string['movecompetencytochildofselfwillresetrules'] = 'Konpetentzia mugitzeak bere baitako arauak ezabatuko ditu, baita goragoko eta helmugakoak ere. Jarraitu nahi duzu?';
+$string['movecompetencywillresetrules'] = 'Konpetentzia mugitzeak goragoko eta helmugako arauak ezabatuko ditu. Jarraitu nahi duzu?';
 $string['moveframeworkafter'] = 'Mugitu konpetentzia-markoa \'{$a}\'-(r)en ondorengora.';
 $string['movetonewparent'] = 'Mugitu';
 $string['myplans'] = 'Nire ikasketa-planak';
 $string['nfiles'] = '{$a} fitxategi';
 $string['noactivities'] = 'Ez dago jarduerarik';
 $string['nocompetencies'] = 'Ezin izan konpetentziarik sortu marko honetan.';
+$string['nocompetenciesinactivity'] = 'Ez dago jarduera edo baliabide honekin lotutako konpetentziarik.';
 $string['nocompetenciesincourse'] = 'Ez da konpetentziarik estekatu ikastaro honetara.';
 $string['nocompetenciesinevidence'] = 'Ez da konpetentziarik estekatu ebidentzia honetara.';
 $string['nocompetenciesinlearningplan'] = 'Ez da konpetentziarik estekatu ikasketa-plan honetara.';
+$string['nocompetenciesinlist'] = 'Ez da konpetentziarik aukeratu.';
 $string['nocompetenciesintemplate'] = 'Ez da konpetentziarik estekatu ikasketa-planerako txantiloi honetara.';
 $string['nocompetencyframeworks'] = 'Oraindik ez da konpetentzia-markorik sortu.';
 $string['nocompetencyselected'] = 'Ez da konpetentziarik aukeratu';

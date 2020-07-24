@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'data', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -208,8 +208,12 @@ $string['includetags'] = 'Incluir palavaras-chave';
 $string['includetime'] = 'Incluir data de criação/modificação';
 $string['includeuserdetails'] = 'Incluir detalhes do utilizador';
 $string['indicator:cognitivedepth'] = 'Compreensão da Base de dados';
+$string['indicator:cognitivedepthdef'] = 'Compreensão da Base de dados';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelas atividades Base de dados durante esse intervalo de análise (Níveis = Não visualizado, Visualizado, Submetido)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno na atividade Base de dados.';
 $string['indicator:socialbreadth'] = 'Socialização da Base de dados';
+$string['indicator:socialbreadthdef'] = 'Socialização da Base de dados';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelas atividades Base de dados durante esse intervalo de análise (Níveis = Sem participação, Participante individual)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno na atividade Base de dados.';
 $string['insufficiententries'] = 'são necessários mais registos para ver esta base de dados';
 $string['intro'] = 'Descrição';
@@ -233,7 +237,7 @@ $string['list'] = 'Ver lista';
 $string['listtemplate'] = 'Lista';
 $string['longitude'] = 'Longitude';
 $string['manageapproved'] = 'Permitir editar os registos já aprovados';
-$string['manageapproved_help'] = 'Se desativar esta opção, os registos aprovados deixam de poder ser editados ou apagados pelo utilizador que os criou. Esta configuração não é aplicada a não ser que ative a opção "Requer aprovação".';
+$string['manageapproved_help'] = 'Se desativar esta opção, os registos aprovados deixam de poder ser editados ou apagados pelo utilizador que os criou. Esta configuração não é aplicada a não ser que ative a opção "Requer aprovação dos registos".';
 $string['mapexistingfield'] = 'Mapear para {$a}';
 $string['mapnewfield'] = 'Criar novo campo';
 $string['mappingwarning'] = 'Todos os campos que não forem mapeados para novos campos serão apagados e a sua informação removida.';
@@ -287,7 +291,7 @@ $string['numberrssarticles'] = 'Entradas na lista RSS';
 $string['numnotapproved'] = 'Pendente(s)';
 $string['numrecords'] = '<b>{$a}</b> registos';
 $string['ods'] = 'Ficheiro <acronym title="OpenDocument Spreadsheet">ODS</acronym> (OpenOffice)';
-$string['openafterclose'] = 'Indicou uma data de abertura após a data de fecho';
+$string['openafterclose'] = 'Indicou uma data de abertura posterior à data de fecho';
 $string['optionaldescription'] = 'Descrição resumida (opcional)';
 $string['optionalfilename'] = 'Nome do ficheiro (opcional)';
 $string['other'] = 'Outro';
@@ -329,7 +333,7 @@ $string['recorddisapproved'] = 'Entrada não aprovada';
 $string['recordsnotsaved'] = 'Não foram guardados registos. Verifique o formato do ficheiro enviado.';
 $string['recordssaved'] = 'os registos foram guardados';
 $string['removealldatatags'] = 'Apagar todas as tags da base de dados';
-$string['requireapproval'] = 'Requer aprovação';
+$string['requireapproval'] = 'Requer aprovação dos registos';
 $string['requireapproval_help'] = 'Se ativar esta opção, os registos necessitam de aprovação do professor antes de ficarem visíveis para todos os utilizadores.';
 $string['required'] = 'Obrigatório';
 $string['requiredentries'] = 'Registos requeridos para conclusão (antigo)';

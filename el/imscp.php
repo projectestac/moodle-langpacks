@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'imscp', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'imscp', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   imscp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,8 +32,14 @@ $string['deploymenterror'] = 'Σφάλμα πακέτου περιεχομένο
 $string['imscp:addinstance'] = 'Προσθέστε ένα νέο πακέτο περιεχομένου IMS';
 $string['imscp:view'] = 'Εμφάνιση IMS πακέτου περιεχομένου';
 $string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Πακέτου IMS';
+$string['indicator:cognitivedepthdef'] = 'Βάθος κατανόησης Πακέτου IMS';
+$string['indicator:cognitivedepthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο βάθος κατανόησης που προσφέρεται από τις δραστηριότητες Πακέτου IMS κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία εμφάνιση, Εμφάνιση)';
+$string['indicator:cognitivedepthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Βάθος_κατανόησης';
 $string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε έναν πόρο Πακέτου περιεχομένου IMS.';
 $string['indicator:socialbreadth'] = 'Κοινωνικό εύρος Πακέτου IMS';
+$string['indicator:socialbreadthdef'] = 'Κοινωνικό εύρος Πακέτου IMS';
+$string['indicator:socialbreadthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο κοινωνικό εύρος που προσφέρεται από τις δραστηριότητες Πακέτου IMS κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία συμμετοχή, Συμμετέχων μόνος)';
+$string['indicator:socialbreadthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Κοινωνικό_εύρος';
 $string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε έναν πόρο Πακέτου περιεχομένου IMS.';
 $string['keepold'] = 'Αρχείο πακέτων';
 $string['keepoldexplain'] = 'Πόσα πακέτα θα πρέπει να αρχειοθετηθούν;';

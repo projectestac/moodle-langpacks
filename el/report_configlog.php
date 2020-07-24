@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_configlog', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_configlog', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   report_configlog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,3 +33,5 @@ $string['privacy:metadata'] = 'Το πρόσθετο «Αλλαγές διαμό
 $string['setting'] = 'Ρύθμιση';
 $string['timemodified'] = 'Ημερομηνία';
 $string['value'] = 'Νέα τιμή';
+$string['valuenew'] = 'Νέα τιμή';
+$string['valueold'] = 'Αρχική τιμή';

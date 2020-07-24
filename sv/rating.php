@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'rating', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'rating', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   rating
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,6 +42,7 @@ Om "Inga betyg/omdömen" är vald kommer inte aktiviteten att visas i Betygsrapp
 $string['allratingsforitem'] = 'Alla inskickade betyg/omdömen';
 $string['capabilitychecknotavailable'] = 'Rolltillstånd kan inte visas innan aktiviteten sparats';
 $string['couldnotdeleteratings'] = 'Tyvärr, det kan inte tas bort eftersom personer redan har betygsatt/gett omdömen om det.';
+$string['grade_rating_name'] = 'Betyg/omdöme';
 $string['noratings'] = 'Det finns inga inskickade betyg/omdömen';
 $string['noviewanyrate'] = 'Du kan bara titta på resultaten för objekt som du har gjort';
 $string['noviewrate'] = 'Du har inte förmågan att se betyg/omdömen för objekt';

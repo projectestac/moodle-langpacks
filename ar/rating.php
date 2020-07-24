@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'rating', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'rating', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   rating
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['aggregatetype'] = 'إجمالي نوع';
 $string['allowratings'] = 'هل سيسمح بتقييم العناصر';
 $string['allratingsforitem'] = 'جميع التقييمات المسلمة';
 $string['capabilitychecknotavailable'] = 'التحقق من الإمكانات غير متوفر حتى يتم حفظ هذا النشاط';
+$string['grade_rating_name'] = 'تقييم';
 $string['noratings'] = 'لم يتم تسليم أي تقييمات';
 $string['noviewanyrate'] = 'يمكن فقط معاينة نتائج عناصر التي قمت بها';
 $string['rate'] = 'قييم';

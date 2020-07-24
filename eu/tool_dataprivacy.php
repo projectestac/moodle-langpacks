@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_dataprivacy', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_dataprivacy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,7 @@ $string['contextlevelname70'] = 'Jarduera-moduluak';
 $string['contextlevelname80'] = 'Blokeak';
 $string['contextpurposecategorysaved'] = 'Helburua eta kategoria gorde dira.';
 $string['createcategory'] = 'Sortu datu-kategoria';
+$string['createdeletedatarequest'] = 'Sortu datu-ezabaketa eskaera';
 $string['createnewdatarequest'] = 'Sortu datu-eskaera berri bat';
 $string['createpurpose'] = 'Sortu datu-helburua';
 $string['creationauto'] = 'Automatikoki';
@@ -78,9 +79,12 @@ $string['datadeletion'] = 'Datu-ezabapena';
 $string['datadeletionpagehelp'] = 'Hemen atxikipen-epea iraungita duten datuak zerrendatzen dira. Mesedez berrikusi eta konfirmatu datu-ezabatzea, "Ezabatu iraungitako testuinguruak" programatutako zereginean exekutatuko dena.';
 $string['dataprivacy:downloadallrequests'] = 'Jaitsi erabiltzaile guztien datu esportatuak';
 $string['dataprivacy:downloadownrequest'] = 'Jaitsi zure datu esportatuak';
+$string['dataprivacy:makedatadeletionrequestsforchildren'] = 'Eskatu adingabeen datu-ezabatzea';
 $string['dataprivacy:makedatarequestsforchildren'] = 'Egin adin txikikoen datu-eskaerak';
 $string['dataprivacy:managedataregistry'] = 'Kudeatu datu-erregistroa';
 $string['dataprivacy:managedatarequests'] = 'Kudeatu datu-eskaerak';
+$string['dataprivacy:requestdelete'] = 'Eskatu zure datuen ezabatzea';
+$string['dataprivacy:requestdeleteforotheruser'] = 'Eskatu datuen ezabatzea beste erabiltzaile baten izenean';
 $string['dataregistry'] = 'Datuen erregistroa';
 $string['dataregistryinfo'] = 'Datu-erregistroak kategoriak (datu-motak) eta helburuak (datua prozesatzeko arrazoia) guneko eduki guztiei aplikatzeko aukera ematen dute - erabiltzaile eta ikastaroetatik jarduera eta blokeetaraino. Helburu bakoitzarentzat atxikipen-epe bat zehaztu daiteke. Atxikipen-epe bat iraungitzen denean, datuak markatzen dira eta ezabatzeko zerrendan sartzen dira, kudeatzailearen baieztatzearen zain.';
 $string['datarequestcreatedforuser'] = 'Datu-eskaera sortu da {$a}-(r)entzat';
@@ -134,6 +138,8 @@ $string['editpurposes'] = 'Editatu helburuak';
 $string['effectiveretentionperiodcourse'] = '{$a} (ikastaroaren amaiera-dataren ondoren)';
 $string['effectiveretentionperioduser'] = '{$a} (erabiltzailea gunean azkenengoz sartu zenetik)';
 $string['emailsalutation'] = '{$a} agurgarria,';
+$string['errorcannotrequestdeleteforother'] = 'Ez duzu erabiltzaile honentzako ezabatze-eskaera egiteko baimenik.';
+$string['errorcannotrequestdeleteforself'] = 'Ez duzu zuretzako ezabatze-eskaera egiteko baimenik.';
 $string['errorcontexthasunexpiredchildren'] = '"{$a}" testuinguruak oraindik ditu iraungi ez diren azpi-testuinguruak. Ez da ezabatzeko testuingururik markatu.';
 $string['errorinvalidrequestcreationmethod'] = 'Sorrera-metodoaren eskaera baliogabea!';
 $string['errorinvalidrequeststatus'] = 'Eskaeraren egoera baliogabea!';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_gapselect', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_gapselect', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_gapselect
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addmorechoiceblanks'] = 'الفراغات لـ {no} خيارات أخرى';
 $string['answer'] = 'الإجابة';
 $string['choices'] = 'الخيارات';
+$string['choicex'] = 'الاختيار [[{no}]]';
 $string['combinedcontrolnamegapselect'] = 'القائمة المنسدلة';
 $string['combinedcontrolnamegapselectplural'] = 'القوائم المنسدلة';
 $string['correctansweris'] = 'الإجابة الصحيحة هي: {$a}';

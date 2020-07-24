@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'url', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,8 +52,12 @@ Folgende Einstelloptionen sind möglich:
 $string['externalurl'] = 'Externe URL';
 $string['framesize'] = 'Frame-Höhe';
 $string['indicator:cognitivedepth'] = 'URL kognitiv';
+$string['indicator:cognitivedepthdef'] = 'URL kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die URL-Ressoucen während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht).';
 $string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die eine Person bei einer URL-Ressource erreicht hat.';
 $string['indicator:socialbreadth'] = 'URL sozial';
+$string['indicator:socialbreadthdef'] = 'URL sozial';
+$string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die URL-Ressourcen während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein).';
 $string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person bei einer URL-Ressource erreicht hat.';
 $string['invalidstoredurl'] = 'Das Material kann nicht angezeigt werden, weil die URL ungültig ist';
 $string['invalidurl'] = 'Ungültige URL';

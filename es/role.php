@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'role', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,7 +68,6 @@ $string['backup:anonymise'] = 'Hacer anónimos los datos de usuario en la copia 
 $string['backup:backupactivity'] = 'Copia de seguridad de las actividades';
 $string['backup:backupcourse'] = 'Copia de seguridad de los cursos';
 $string['backup:backupsection'] = 'Copia de seguridad de las secciones';
-$string['backup:backuptargethub'] = 'Copia de seguridad del hub';
 $string['backup:backuptargetimport'] = 'Copia de seguridad de las importaciones';
 $string['backup:configure'] = 'Configurar las opciones de la copia de seguridad';
 $string['backup:downloadfile'] = 'Descargar archivos de las áreas de copia de seguridad';
@@ -116,8 +115,6 @@ $string['cohort:view'] = 'Ver cohortes de todo el sitio';
 $string['comment:delete'] = 'Eliminar comentarios';
 $string['comment:post'] = 'Enviar comentarios';
 $string['comment:view'] = 'Leer comentarios';
-$string['community:add'] = 'Usar el bloque comunidad para buscar hubs y encontrar cursos';
-$string['community:download'] = 'Descargar un curso del bloque comunidad';
 $string['competency:evidencedelete'] = 'Eliminar evidencia';
 $string['competency:templatemanage'] = 'Gestionar plantillas de plan de aprendizaje';
 $string['competency:templateview'] = 'Ver plantillas de plan de aprendizaje';
@@ -151,7 +148,6 @@ $string['course:managegroups'] = 'Gestionar grupos';
 $string['course:managescales'] = 'Gestionar escalas';
 $string['course:markcomplete'] = 'Marcar los usuarios como completos al completar un curso';
 $string['course:movesections'] = 'Mover secciones';
-$string['course:publish'] = 'Publicar un curso en el hub';
 $string['course:request'] = 'Solicitar nuevos cursos';
 $string['course:reset'] = 'Reiniciar curso';
 $string['course:reviewotherusers'] = 'Revise otros usuarios';
@@ -323,7 +319,6 @@ $string['restore:createuser'] = 'Crear usuarios en la restauración';
 $string['restore:restoreactivity'] = 'Restaurar actividades';
 $string['restore:restorecourse'] = 'Restaurar cursos';
 $string['restore:restoresection'] = 'Restaurar secciones';
-$string['restore:restoretargethub'] = 'Restaurar de archivos señalados como hub';
 $string['restore:restoretargetimport'] = 'Restaurar archivos señalados como importación';
 $string['restore:rolldates'] = 'Está permitido contemplar fechas de configuración de la actividad en la restauración';
 $string['restore:uploadfile'] = 'Subir archivos a las áreas de copia de seguridad';

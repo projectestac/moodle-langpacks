@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_ldap', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_ldap', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,8 +30,8 @@ $string['assignrolefailed'] = 'A atribuição do papel "{$a->role_shortname}" ao
 $string['autocreate'] = '<p>As disciplinas podem ser criadas automaticamente caso sejam detetadas inscrições em disciplinas que não existem no Moodle</p><p>Se estiver a usar a criação automática de disciplinas recomenda-se que sejam removidas as permissões: moodle/course:changeidnumber, moodle/course:changeshortname, moodle/course:changefullname and moodle/course:changesummary, dos papéis mais importantes para evitar alterações dos campos das disciplinas referidos nestas permissões (ID number, shortname, fullname and summary).</p>';
 $string['autocreate_key'] = 'Criação automática';
 $string['autocreation_settings'] = 'Configurações para criação automática de disciplinas';
-$string['autoupdate_settings'] = 'Atualização das definições automáticas da disciplina';
-$string['autoupdate_settings_desc'] = '<p>Selecione os ficheiros a atualizar quando o script de sincronização estiver a ser executado (enrol/ldap/cli/sync.php).</p><p> Uma atualização irá decorrer quando pelo menos um campo estiver selecionado.</p>';
+$string['autoupdate_settings'] = 'Atualização das configurações automáticas da disciplina';
+$string['autoupdate_settings_desc'] = '<p>Selecione os campos a serem atualizados quando a tarefa agendada \'Sincronizar registos LDAP\' estiver em execução.</p><p>A atualização irá ocorrer quando pelo menos um campo estiver selecionado.</p>';
 $string['bind_dn'] = 'Se desejar, indique neste campo um nome de utilizador de <em>bind</em> para pesquisar utilizadores. Ex: cn=ldapuser,ou=public,o=org';
 $string['bind_dn_key'] = 'DN do utilizador de <em>bind</em>';
 $string['bind_pw'] = 'Senha do utilizador de <em>bind</em>';

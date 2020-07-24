@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_grading', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,7 +53,6 @@ $string['gradingall'] = '此试题共被解答 {$a} 次。';
 $string['gradingattempt'] = '{$a->fullname}的第{$a->attempt}次答题';
 $string['gradingattemptsxtoyofz'] = '为{$a->of}次答题中的第{$a->from}次到第{$a->to}次评分';
 $string['gradingattemptwithidnumber'] = '{$a->fullname}（{$a->idnumber}）的第{$a->attempt}次答题';
-$string['grading:componentname'] = '人工评分报告';
 $string['gradingnextungraded'] = '下 {$a} 份未评分试卷';
 $string['gradingnotallowed'] = '无权在该测验中手动评分回复';
 $string['gradingquestionx'] = '评分题目 {$a->number}: {$a->questionname}';

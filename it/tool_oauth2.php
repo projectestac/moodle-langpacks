@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_oauth2', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_oauth2', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,7 +40,7 @@ $string['createnewissuer'] = 'Crea servizio personalizzato';
 $string['createnewmicrosoftissuer'] = 'Crea servizio Microsoft';
 $string['createnewnextcloudissuer'] = 'Crea servizio Nextcloud';
 $string['createnewuserfieldmapping'] = 'Crea mappatura di campo per il fornitore "{$a}"';
-$string['deleteconfirm'] = 'Sei sicuro di eliminare il fornitore di identità {$a}"? Tutti i plugin che utilizzano questo fornitore smetteranno di funzionare.';
+$string['deleteconfirm'] = 'Sei sicuro di eliminare l\'identity provider {$a}"? Tutti i plugin che utilizzano questo provider smetteranno di funzionare.';
 $string['deleteendpointconfirm'] = 'Sei sicuro di eliminare l\'endpoint "{$a->endpoint}" del fornitore "{$a->issuer}"? Tutti i plugin che utilizzano questo endpoint smetteranno di funzionare.';
 $string['deleteuserfieldmappingconfirm'] = 'Sei sicuro di eliminare la mappatura di campo del fornitore "{$a}"?';
 $string['discovered'] = 'L\'individuazione del servizio è andata a buon fine.';
@@ -48,7 +48,7 @@ $string['discovered_help'] = 'L\'individuazione significa che gli endpoint OAuth
 $string['discoverystatus'] = 'Individuazione';
 $string['editendpoint'] = 'Modifica endpoint: {$a->endpoint} del fornitore {$a->issuer}';
 $string['editendpoints'] = 'Configura endpoint';
-$string['editissuer'] = 'Modifica fornitore d\'identità: {$a}';
+$string['editissuer'] = 'Modifica identity provider: {$a}';
 $string['edituserfieldmapping'] = 'Modifica mappatura dei campi del fornitore {$a}';
 $string['edituserfieldmappings'] = 'Configurazione mappatura dei campi utente';
 $string['endpointdeleted'] = 'L\'endpoint è stato eliminato';
@@ -65,9 +65,9 @@ $string['issuerclientid'] = 'Client ID';
 $string['issuerclientid_help'] = 'Il client ID OAuth del fornitore.';
 $string['issuerclientsecret'] = 'Client secret';
 $string['issuerclientsecret_help'] = 'Il secret OAuth del fornitore.';
-$string['issuerdeleted'] = 'Il fornitore di identità è stato eliminato';
-$string['issuerdisabled'] = 'Il fornitore di identità è stato disabilitato';
-$string['issuerenabled'] = 'Il fornitore di identità è stato abilitato';
+$string['issuerdeleted'] = 'L\'identity provider è stato eliminato';
+$string['issuerdisabled'] = 'L\'identity provider è stato disabilitato';
+$string['issuerenabled'] = 'L\'identity provider è stato abilitato';
 $string['issuerimage'] = 'URL del logo';
 $string['issuerimage_help'] = 'URL dell\'immagine contenete il logo del fornitore. Potrà essere visualizzata nella pagina di autenticazione.';
 $string['issuerloginparams'] = 'Parametri aggiuntivi da includere in una richiesta di autenticazione.';
@@ -79,7 +79,7 @@ $string['issuerloginscopes_help'] = 'Per una richiesta di autenticazione, alcuni
 $string['issuerloginscopesoffline'] = 'Ambiti inclusi in una richiesta di autenticazione per l\'accesso offline.';
 $string['issuerloginscopesoffline_help'] = 'Ciascun sistema Oauth supporta metodi diversi per l\'accesso offline. Ad esempio, Microsoft richiede un\'ambito aggiuntivo per "offline_access".';
 $string['issuername'] = 'Nome';
-$string['issuername_help'] = 'Nome del fornitore di identità. Potrà essere visualizzato nella pagina di autenticazione.';
+$string['issuername_help'] = 'Nome dell\'dentity provider. Potrà essere visualizzato nella pagina di autenticazione.';
 $string['issuerrequireconfirmation'] = 'Richiedi verifica email';
 $string['issuerrequireconfirmation_help'] = 'Gli utenti dovranno verificare la propria email prima di potersi autenticare con OAuth, La verifica sarà richiesta sia quando si crea un nuovo account, sia quando si collega un account esistente con una account OAuth con mail corrispondente.';
 $string['issuers'] = 'Fornitori';

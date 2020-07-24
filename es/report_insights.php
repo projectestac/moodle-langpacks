@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_insights', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_insights', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   report_insights
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['indicator'] = 'Indicador';
 $string['insights'] = 'Intuiciones (predicciones)';
 $string['justpredictions'] = 'Por favor tenga en cuenta que las siguientes intuiciones son solamente predicciones. No es posible predecir el futuro con certeza. Las intuiciones son proporcionadas para que se puedan tomar las acciones necesarias para evitar que las predicciones negativas se vuelvan realidad.';
 $string['pluginname'] = 'Intuiciones (predicciones)';

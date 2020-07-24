@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'questionnaire', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -450,6 +450,7 @@ $string['submitted'] = 'Es va trametre el:';
 $string['subtitle'] = 'Subtítol';
 $string['subtitle_help'] = 'Subtítol d\'aquesta enquesta. Apareix a sota del títol, només a la primera pàgina.';
 $string['summary'] = 'Resum';
+$string['summaryreportattached'] = 'S\'ha adjuntat l\'informe de resum de l\'enquesta';
 $string['surveynotexists'] = 'Aquesta enquesta no existeix';
 $string['surveyowner'] = 'Heu de ser el propietari de l\'enquesta per dur a terme aquesta operació.';
 $string['surveyresponse'] = 'Resposta de l\'enquesta';

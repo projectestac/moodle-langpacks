@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'glossary', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -117,7 +117,7 @@ $string['deletenotenrolled'] = 'Ezabatu matrikulatu gabeko erabiltzaileen sarrer
 $string['deletingcomment'] = 'Iruzkina ezabatzen';
 $string['deletingnoneemptycategory'] = 'Kategoria hau ezabatuta ez dira ezabatuko dituen sarrerak. Besterik gabe, kategoria gabeko bezala agertuko dira.';
 $string['descending'] = 'goitik behera';
-$string['destination'] = 'Inportatutako sarreren helburua';
+$string['destination'] = 'Inportatutako sarreren helmuga';
 $string['destination_help'] = 'Sarrerak inporta eta gehi daitezke oraingo glosariora edo glosario berri batera. Glosario berria XML fitxategian dagoen informazioan oinarrituta sortuko da.';
 $string['disapprove'] = 'Desegin onarpena';
 $string['displayformat'] = 'Erakusteko modua';
@@ -160,6 +160,7 @@ $string['entryexported'] = 'Sarrera ondo esportatu da';
 $string['entryishidden'] = '(sarrera hau ezkutuan dago)';
 $string['entryleveldefaultsettings'] = 'Sarreren ezarpen lehenetsiak';
 $string['entrylink'] = 'Sarreraren esteka: {$a}';
+$string['entrynotapproved'] = 'Onartu gabeko sarrera';
 $string['entrysaved'] = 'Sarrera gordeta';
 $string['entryupdated'] = 'Sarrera eguneratuta';
 $string['entryusedynalink'] = 'Sarrera hau automatikoki estekatu';
@@ -223,8 +224,12 @@ $string['importentries'] = 'Inportatu sarrerak';
 $string['importentriesfromxml'] = 'Inportatu sarrerak XML fitxategi batetik';
 $string['includegroupbreaks'] = 'Sartu banatutako taldeak';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa glosarioetan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa glosarioetan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek Glosarioa jarduerak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da, Bidali da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Glosarioa motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala glosarioetan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala glosarioetan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek Glosarioa jarduerak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Parte-hartzerik ez, bakarkako parte-hartzea)';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Glosarioa motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['isglobal'] = 'Glosario orokorra al da hau?';
 $string['isglobal_help'] = 'Glosario orokorrak dituen sarrerak guneko edozein tokitatik estekatuak izan daitezke, eta ez soilik glosarioa duen ikastarotik. Soilik Kudeatzaileek ezar dezakete glosario bat orokor gisa.';

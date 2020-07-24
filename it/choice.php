@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,6 +57,7 @@ $string['chooseoption'] = 'Scegli: {$a}';
 $string['closebeforeopen'] = 'Hai specificato una data di chiusura successiva alla data di apertura.';
 $string['completionsubmit'] = 'Completata all\'atto della scelta';
 $string['description'] = 'Descrizione';
+$string['deselectalloption'] = 'Deseleziona tutti "{$a}"';
 $string['displayhorizontal'] = 'Visualizza orizzontalmente';
 $string['displaymode'] = 'Modalità  di visualizzazione';
 $string['displayvertical'] = 'Visualizza verticalmente';
@@ -71,8 +72,12 @@ $string['full'] = '(Completo)';
 $string['havetologin'] = 'Devi autenticarti prima di poter effettuare la tua scelta';
 $string['includeinactive'] = 'Includi risposte degli utenti non attivi e sospesi';
 $string['indicator:cognitivedepth'] = 'Scelta cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Scelta cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalle attività Scelta (Livelli: Nessuna visualizzazione, Visualizzazione, Invio, Visualizzazione feedback)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività Scelta.';
 $string['indicator:socialbreadth'] = 'Scelta sociale';
+$string['indicator:socialbreadthdef'] = 'Scelta sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dall\'attività Scelta (Livelli: Nessuna partecipazione, Partecipazione da solo, Partecipazione con altri)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività Scelta.';
 $string['limit'] = 'Limite';
 $string['limitanswers'] = 'Limita il numero di scelte';
@@ -110,7 +115,7 @@ $string['pluginadministration'] = 'Gestione Scelta';
 $string['pluginname'] = 'Scelta';
 $string['previewonly'] = 'Questa è un\'anteprima delle scelte disponibili. Potrai inviare la tua scelta solo dal {$a}.';
 $string['privacy'] = 'Privacy dei risultati';
-$string['privacy:metadata:choice_answers'] = 'Informazioni sulle risposte dell\'utente in un\'attività a scelta';
+$string['privacy:metadata:choice_answers'] = 'Informazioni sulla/e scelte effettuate dall\'utente in una data attività scelta';
 $string['privacy:metadata:choice_answers:choiceid'] = 'ID dell\'attività a scelta';
 $string['privacy:metadata:choice_answers:optionid'] = 'L\'ID della scelta effettuata dall\'utente.';
 $string['privacy:metadata:choice_answers:timemodified'] = 'Data e ora di modica della scelta dell\'utente';
@@ -135,14 +140,14 @@ $string['responsesto'] = 'Scelte su {$a}';
 $string['results'] = 'Risultati';
 $string['savemychoice'] = 'Salva la mia scelta';
 $string['search:activity'] = 'Scelta - Informazioni sull\'attività';
+$string['selectalloption'] = 'Seleziona tutti "{$a}"';
 $string['showpreview'] = 'Visualizza anteprima';
 $string['showpreview_help'] = 'Gli studenti potranno visualizzare l\'anteprima della scelta prima della data di apertura.';
 $string['showunanswered'] = 'Visualizza colonna di chi non ha scelto';
-$string['skipresultgraph'] = 'Salta il grafico dei risultati';
 $string['spaceleft'] = 'spazio disponibile';
 $string['spacesleft'] = 'spazi disponibili';
 $string['taken'] = 'Preso';
-$string['userchoosethisoption'] = 'Gli utenti che hanno scelto questa opzione';
+$string['userchoosethisoption'] = 'Scelte degli utenti';
 $string['viewallresponses'] = 'Vedi {$a} scelte';
 $string['viewchoices'] = 'Visualizza scelte';
 $string['withselected'] = 'Con i selezionati';

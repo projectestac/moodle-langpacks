@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -195,8 +195,14 @@ $string['highestattempt'] = 'Υψηλότερη βαθμολογία';
 $string['identifier'] = 'Αναγνωριστικό ερώτησης';
 $string['incomplete'] = 'Μη ολοκληρωμένο';
 $string['indicator:cognitivedepth'] = 'Βάθος κατανόησης SCORM';
+$string['indicator:cognitivedepthdef'] = 'Βάθος κατανόησης SCORM';
+$string['indicator:cognitivedepthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο βάθος κατανόησης που προσφέρεται από τις δραστηριότητες SCORM κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία εμφάνιση, Εμφάνιση, Υποβολή, Εμφάνιση ανατροφοδότησης)';
+$string['indicator:cognitivedepthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Βάθος_κατανόησης';
 $string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα SCORM.';
 $string['indicator:socialbreadth'] = 'Κοινωνικό εύρος SCORM';
+$string['indicator:socialbreadthdef'] = 'Κοινωνικό εύρος SCORM';
+$string['indicator:socialbreadthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο κοινωνικό εύρος που προσφέρεται από τις δραστηριότητες SCORM κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία συμμετοχή, Συμμετέχων μόνος)';
+$string['indicator:socialbreadthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Κοινωνικό_εύρος';
 $string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα SCORM.';
 $string['info'] = 'Πληροφορίες';
 $string['interactions'] = 'Αλληλεπιδράσεις';
@@ -204,6 +210,7 @@ $string['invalidactivity'] = 'Η δραστηριότητα SCORM είναι λ�
 $string['invalidhacpsession'] = 'Μη έγκυρη σύνοδος HACP';
 $string['invalidmanifestname'] = 'Μπορεί να γίνει επιλογή μόνο imsmanifest.xml ή .zip αρχείων';
 $string['invalidmanifestresource'] = 'ΠΡΟΣΟΧΗ: Οι παρακάτω πόροι αναφέρονται στο manifest, αλλά δεν είναι εφικτή η εύρεση τους:';
+$string['invalidstatus'] = 'Μη έγκυρη κατάσταση';
 $string['invalidurl'] = 'Μη έγκυρο URL';
 $string['invalidurlhttpcheck'] = 'Μη έγκυρο URL. Μήνυμα αποσφαλμάτωσης:<pre>{$a->cmsg}</pre>';
 $string['last'] = 'Τελευταία πρόσβαση στις';

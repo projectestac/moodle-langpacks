@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'install', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,7 +52,7 @@ $string['clialreadyconfigured'] = 'The configuration file config.php already exi
 $string['clialreadyinstalled'] = 'The configuration file config.php already exists. Please use admin/cli/install_database.php to upgrade Moodle for this site.';
 $string['cliinstallfinished'] = 'Installation completed successfully.';
 $string['cliinstallheader'] = 'Moodle {$a} command line installation program';
-$string['climustagreelicense'] = 'In non interactive mode you must agree to license by specifying --agree-license option';
+$string['climustagreelicense'] = 'In non-interactive mode you must agree to the licence by specifying --agree-license option';
 $string['cliskipdatabase'] = 'Skipping database installation.';
 $string['clitablesexist'] = 'Database tables already present; CLI installation cannot continue.';
 $string['compatibilitysettings'] = 'Checking your PHP settings ...';

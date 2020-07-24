@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_guide', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addcomment'] = 'Aggiungi commento di uso frequente';
 $string['addcriterion'] = 'Aggiungi criterio';
+$string['additionalcomments'] = 'Commenti aggiuntivi';
 $string['alwaysshowdefinition'] = 'La definizione della valutazione guidata è visualizzata dagli studenti';
 $string['backtoediting'] = 'Torna alla modifica';
 $string['clicktocopy'] = 'Click per copiare questo testo nel commento dei criteri';
@@ -73,6 +74,7 @@ $string['insertcomment'] = 'Inserisci commento di uso frequente';
 $string['maxscore'] = 'Punteggio massimo';
 $string['name'] = 'Nome';
 $string['needregrademessage'] = 'La definizione della valutazione guidata è cambiata dopo la valutazione di questo studente. Lo studente non potrà visualizzare la propria valutazione finché la sua valutazione non sarà stata aggiornata.';
+$string['outof'] = 'Su {$a}';
 $string['pluginname'] = 'Valutazione guidata';
 $string['previewmarkingguide'] = 'Anteprima valutazione guidata';
 $string['privacy:metadata:criterionid'] = 'Identificatore del criterio di valutazione avanzata.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assign', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -321,6 +321,8 @@ $string['quickgradingchangessaved'] = 'Betygsändringarna sparades';
 $string['quickgrading_help'] = 'Snabb betygssättning medger att du sätter betyg (och resultat) direkt i inlämningsöversikten. Snabb betygssättning är inte kompatibelt med avancerad betygssättning och rekommenderas heller inte då det finns multipla poängskalor.';
 $string['quickgradingresult'] = 'Snabb betygssättning';
 $string['recordid'] = 'Identifierare';
+$string['removesubmission'] = 'Ta bort inlämning';
+$string['removesubmissionforstudent'] = 'Ta bort inlämning för deltagaren: (id={$a->id}, fullname={$a->fullname}).';
 $string['requireallteammemberssubmit'] = 'Kräv att alla gruppmedlemmar lämnar in';
 $string['requireallteammemberssubmit_help'] = 'Om detta är aktiverat måste alla elever i elevgruppen ha klickat på skicka in knappen innan gruppens inlämning kommer anses vara inlämnad. Om avaktiverat kommer gruppinlämningen anses som inlämnad så snart som någon av gruppmedlemmarna klickar på knappen lämna in.';
 $string['requiresubmissionstatement'] = 'Kräv att elever godkänner inlämningsförsäkran';
@@ -382,7 +384,6 @@ $string['submissionreceipttext'] = 'Du har lämnat in en uppgift för \'{$a->ass
 Se status för din inlämnade uppgift:
 
  {$a->url}';
-$string['submissions'] = 'Inskickade uppgifter';
 $string['submissionsclosed'] = 'Inlämning stängd';
 $string['submissionsettings'] = 'Inställningar för inlämning';
 $string['submissionslocked'] = 'Denna inlämningsuppgift accepterar inte inlämningar';

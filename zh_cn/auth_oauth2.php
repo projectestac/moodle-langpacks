@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -64,6 +64,7 @@ $string['emailconfirmlinksent'] = '<p>已有既有用户使用了相同的电子
 <p>只有在绑定后才可使用第三方登陆。</p>
 <p>已向您的邮箱 <b>{$a}</b> 发送了一封包含绑定方法的邮件。</p>
 <p>如果遇到问题，请与站点管理员联系。</p>';
+$string['emailpasswordchangeinfosubject'] = '{$a}：确定改变密码';
 $string['info'] = '第三方账户';
 $string['issuer'] = '第三方平台';
 $string['issuernologin'] = '该平台不可用于登陆';

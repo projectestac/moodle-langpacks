@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,6 +57,7 @@ $string['chooseoption'] = '選択: {$a}';
 $string['closebeforeopen'] = 'あなたは開始日時の前に終了日時を指定しました。';
 $string['completionsubmit'] = 'ユーザが選択した場合、完了として表示する';
 $string['description'] = '説明';
+$string['deselectalloption'] = 'すべての「 {$a} 」を選択解除する';
 $string['displayhorizontal'] = '水平に表示する';
 $string['displaymode'] = 'オプション表示モード';
 $string['displayvertical'] = '垂直に表示する';
@@ -71,8 +72,12 @@ $string['full'] = '(上限到達)';
 $string['havetologin'] = 'あなたは投票する前にログインする必要があります。';
 $string['includeinactive'] = '利用停止ユーザからの回答を含む';
 $string['indicator:cognitivedepth'] = '投票認知的';
+$string['indicator:cognitivedepthdef'] = '投票認知的';
+$string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者が投票活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信, フィードバックの閲覧)。';
 $string['indicator:cognitivedepth_help'] = 'この指標は投票活動で学生が到達した認識深度に基づきます。';
 $string['indicator:socialbreadth'] = '投票社会的';
+$string['indicator:socialbreadthdef'] = '投票社会的';
+$string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者が投票活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加, 他の人と参加)。';
 $string['indicator:socialbreadth_help'] = 'この指標は投票活動で学生が到達した社会的広がりに基づきます。';
 $string['limit'] = '投票制限数';
 $string['limitanswers'] = '投票可能数を制限する';
@@ -83,11 +88,11 @@ $string['limitanswers_help'] = 'このオプションではあなたは参加者
 制限が無効にされた場合、すべての参加者がそれぞれのオプションを選択できます。';
 $string['limitno'] = '制限 {no}';
 $string['modulename'] = '投票';
-$string['modulename_help'] = '投票活動モジュールにおいて教師は単一の質問をたずねることおよび複数の一連の回答を提供することができます。
+$string['modulename_help'] = '投票活動モジュールにおいて教師は単一の質問をたずねることおよび複数の一連の回答を提供できます。
 
-投票結果は学生が回答した後に公開、特定の日時に公開または一切公開しないことができます。投票結果は学生の氏名と共にまたは匿名で公開することができます。
+投票結果は学生が回答した後に公開、特定の日時に公開または一切公開しないことができます。投票結果は学生の氏名と共にまたは匿名で公開できます (教師には常に学生名および回答が表示されます)。
 
-投票活動は以下のように使用することができます:
+投票活動は以下のように使用できます:
 
 * 1つの話題に関しての考えを刺激するためのクイックポールとして
 * 学生の理解に関するクイックテストとして
@@ -137,10 +142,10 @@ $string['responsesto'] = '{$a} へ投票する';
 $string['results'] = '結果';
 $string['savemychoice'] = '私の投票を保存する';
 $string['search:activity'] = '投票 - 活動情報';
+$string['selectalloption'] = 'すべての「 {$a} 」を選択解除する';
 $string['showpreview'] = 'プレビューを表示する';
 $string['showpreview_help'] = '投票の送信が開始される前に学生が利用可能なオプションをプレビューできるようにします。';
 $string['showunanswered'] = '未投票のカラムを表示する';
-$string['skipresultgraph'] = '結果グラフをスキップする';
 $string['spaceleft'] = '件 (投票可能数)';
 $string['spacesleft'] = '件 (投票可能数)';
 $string['taken'] = '投票済み';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_align', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'atto_align', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   atto_align
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['center'] = 'توسيط';
-$string['leftalign'] = 'باتجاه اليسار';
-$string['pluginname'] = 'باتجاه النص';
+$string['leftalign'] = 'محاذاة إلى اليسار';
+$string['pluginname'] = 'محاذاة النص';
 $string['privacy:metadata'] = 'البرنامج المساعد atto_align لا يخزن أيّ بيانات شخصية.';
-$string['rightalign'] = 'باتجاه اليمين';
+$string['rightalign'] = 'محاذاة إلى اليمين';

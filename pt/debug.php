@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'debug', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,11 +34,13 @@ $string['cannotinitpage'] = 'Não é possível iniciar totalmente a página: {$a
 $string['cannotsetuptable'] = '{$a} tabelas NÃO foram configuradas com sucesso!';
 $string['codingerror'] = 'Foi detetado o seguinte erro de programação que deve ser corrigido por um programador: {$a}';
 $string['configmoodle'] = 'O Moodle ainda não foi configurado. Tem de editar o config.php primeiro.';
+$string['debuginfo'] = 'Informação de depuração';
 $string['erroroccur'] = 'Ocorreu um erro durante este processo';
 $string['invalidarraysize'] = 'Tamanho incorreto nos parâmetros de {$a}';
 $string['invalideventdata'] = 'Foi submetida uma data do evento incorreta: {$a}';
 $string['invalidparameter'] = 'Foi detetado um valor do parâmetro inválido, a execução não pode continuar.';
-$string['invalidresponse'] = 'Foi detetado um valor de resposta inválido, a execução não pode continuar.';
+$string['invalidresponse'] = 'Foi detetado um valor de resposta inválido. A execução não pode continuar.';
+$string['line'] = 'Linha';
 $string['missingconfigversion'] = 'A configuração da tabela não contém nenhuma versão, não pode continuar.';
 $string['modulenotexist'] = 'O módulo {$a} não existe';
 $string['morethanonerecordinfetch'] = 'Foram encontrados vários registos na pesquisa!';
@@ -50,9 +52,11 @@ $string['nomodules'] = 'Não foram encontrados módulos!';
 $string['nopageclass'] = '{$a} importado mas não foram encontradas classes de páginas';
 $string['noreports'] = 'Não há relatórios acessíveis';
 $string['notables'] = 'Não há tabelas!';
+$string['outputbuffer'] = 'Buffer de Output';
 $string['phpvaroff'] = 'A variável de servidor PHP \'{$a->name}\' deve estar Off - {$a->link}';
 $string['phpvaron'] = 'A variável de servidor PHP \'{$a->name}\' não está ligada - {$a->link}';
 $string['sessionmissing'] = '{$a} objetos em falta na sessão';
 $string['sqlrelyonobsoletetable'] = 'Este SQL baseia-se na tabela: {$a}! O seu código deverá ser reparado por um programador.';
+$string['stacktrace'] = 'Stack trace';
 $string['withoutversion'] = 'O ficheiro version.php principal está em falta, inacessível ou corrompido.';
 $string['xmlizeunavailable'] = 'as funções xmlize não estão disponíveis';

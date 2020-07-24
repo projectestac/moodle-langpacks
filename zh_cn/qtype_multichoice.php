@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_multichoice', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['answersingleno'] = '允许多个正确答案';
 $string['answersingleyes'] = '只有一个正确答案';
 $string['choiceno'] = '选项 {$a}';
 $string['choices'] = '可选项';
+$string['clearchoice'] = '清除我的选择';
 $string['clozeaid'] = '键入缺少的词';
 $string['correctansweris'] = '正确答案是：{$a}';
 $string['correctanswersare'] = '正确答案是：{$a}';

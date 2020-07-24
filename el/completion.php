@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['activityaggregation_all'] = 'ΟΛΕΣ οι επιλεγμένες δρ�
 $string['activityaggregation_any'] = 'ΟΠΟΙΕΣΔΗΠΟΤΕ επιλεγμένες δραστηριότητες πρέπει να ολοκληρωθούν';
 $string['activitycompletion'] = 'Ολοκλήρωση δραστηριοτήτων';
 $string['activitycompletionupdated'] = 'Οι αλλαγές αποθηκεύτηκαν';
+$string['activitygradenotrequired'] = 'Δεν απαιτείται βαθμός';
 $string['affectedactivities'] = 'Οι αλλαγές θα επηρεάσουν τις ακόλουθες δραστηριότητες ή πόρους <b>{$a}</b>:';
 $string['aggregationmethod'] = 'Μέθοδος συνάθροισης';
 $string['all'] = 'Όλα';
@@ -42,6 +43,7 @@ $string['any'] = 'Κάθε';
 $string['approval'] = 'Αποδοχή';
 $string['areyousureoverridecompletion'] = 'Είστε βέβαιοι ότι θέλετε να παρακάμψετε την τρέχουσα κατάσταση ολοκλήρωσης αυτής της δραστηριότητας για αυτόν τον χρήστη και να την επισημάνετε ως «{$a}»;';
 $string['badautocompletion'] = 'Εάν επιλέξετε αυτόματη ολοκλήρωση, πρέπει να επιλέξετε επίσης και τουλάχιστον ένα προαπαιτούμενο (παρακάτω).';
+$string['badcompletiongradeitemnumber'] = 'Δεν μπορεί να ενεργοποιηθεί η απαίτηση βαθμολόγησης για <b>{$a}</b> διότι δεν είναι ενεργοποιημένη η βαθμολόγηση από {$a}.';
 $string['bulkactivitycompletion'] = 'Μαζική επεξεργασία ολοκλήρωσης δραστηριοτήτων';
 $string['bulkactivitydetail'] = 'Επιλέξτε τις δραστηριότητες που θέλετε να επεξεργαστείτε μαζικά.';
 $string['bulkcompletiontracking'] = 'Παρακολούθηση ολοκλήρωσης';
@@ -98,8 +100,6 @@ $string['completionondate'] = 'Ημερομηνία';
 $string['completionondatevalue'] = 'Ημερομηνία κατά την οποία το μάθημα θα επισημανθεί ως ολοκληρωμένο';
 $string['completion-pass'] = 'Ολοκληρωμένο (με βαθμό άνω της βάσης)';
 $string['completionsettingslocked'] = 'Οι ρυθμίσεις ολοκλήρωσης είναι κλειδωμένες';
-$string['completion-title-manual-n'] = 'Επισήμανση ως ολοκληρωμένο: {$a}';
-$string['completion-title-manual-y'] = 'Επισήμανση ως μη ολοκληρωμένο: {$a}';
 $string['completionupdated'] = 'Ενημερώθηκε η ολοκλήρωση της δραστηριότητας <b>{$a}</b>';
 $string['completionusegrade'] = 'Απαιτείται βαθμός';
 $string['completionusegrade_desc'] = 'Ο μαθητής πρέπει να λάβει βαθμό για να ολοκληρώσει τη δραστηριότητα';

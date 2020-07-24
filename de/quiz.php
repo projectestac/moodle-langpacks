@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -157,13 +157,13 @@ $string['cannotstartmissingquestion'] = 'Für diesen Test kann kein Versuch begi
 $string['cannotstartnoquestions'] = 'Für diesen Test kann kein Versuch gestartet werden. Der Test ist noch nicht fertig angelegt, denn bisher fehlen die Fragen.';
 $string['cannotwrite'] = 'Exportdatei kann nicht erstellt werden ({$a})';
 $string['canredoquestions'] = 'Neubearbeitung in einem Versuch erlauben';
-$string['canredoquestions_desc'] = 'Die Option legt fest, dass nach dem Beenden einer bestimmten Frage eine \'Wiederholen\'-Taste angezeigt wird. Dies ermöglicht es, eine andere Antwort für die gleiche Frage zu versuchen, ohne den ganzen Versuch abzusenden und einen neuen Versuch zu starten. Diese Option ist vor allem nützlich zum Üben.
+$string['canredoquestions_desc'] = 'Die Option legt fest, dass nach dem Beenden einer bestimmten Frage eine Taste \'Versuchen Sie eine weitere Frage wie diese hier\' angezeigt wird. Dies ermöglicht es, eine andere Antwort für die gleiche Frage zu versuchen, ohne den ganzen Versuch abzusenden und einen neuen Versuch zu starten. Diese Option ist vor allem nützlich zum Üben.
 
-Die Option wirkt sich nur auf Fragen (keine Freitextfragen) und Verhaltensweisen (z.B. sofortige Rückmeldung oder Interaktiv mit mehreren Versuchen) aus, bei denen die Frage beendet werden kann, ohne den Versuch abzugeben.';
-$string['canredoquestions_help'] = 'Die Option legt fest, dass nach dem Beenden einer bestimmten Frage eine \'Wiederholen\'-Taste angezeigt wird. So kann eine andere Antwort für die gleiche Frage versucht werden, ohne den ganzen Testversuch schließen und einen ganz neuen Testversuch zu starten. Diese Option ist vor allem nützlich zum Üben.
+Die Option wirkt sich nur auf Fragen (keine Freitextfragen) und Verhaltensweisen (z.B. Direkte Auswertung oder Interaktiv mit mehreren Versuchen) aus, bei denen die Frage beendet werden kann, ohne den Versuch abzugeben.';
+$string['canredoquestions_help'] = 'Die Option legt fest, dass nach dem Beenden einer bestimmten Frage eine Taste \'Versuchen Sie eine weitere Frage wie diese hier\' angezeigt wird. So kann eine andere Antwort für die gleiche Frage versucht werden, ohne den ganzen Testversuch schließen und einen ganz neuen Testversuch zu starten. Diese Option ist vor allem nützlich zum Üben.
 
-Die Option wirkt sich nur auf Fragen (keine Freitextfragen) und Verhaltensweisen (z.B. sofortige Rückmeldung oder Interaktiv mit mehreren Versuchen) aus, bei denen die Frage beendet werden kann, ohne den Versuch abzugeben.';
-$string['canredoquestionsyes'] = 'Teilnehmer/innen dürfen andere Versionen von erledigten Fragen wiederholen.';
+Die Option wirkt sich nur auf Fragen (keine Freitextfragen) und Verhaltensweisen (z.B. Direkte Auswertung oder Interaktiv mit mehreren Versuchen) aus, bei denen die Frage beendet werden kann, ohne den Versuch abzugeben.';
+$string['canredoquestionsyes'] = 'Ja, erlauben Sie die Möglichkeit, um eine weitere Frage zu beantworten.';
 $string['caseno'] = 'Nein, Groß-/Kleinschreibung ist unwichtig';
 $string['casesensitive'] = 'Groß-/Kleinschreibung';
 $string['caseyes'] = 'Ja, Groß-/Kleinschreibung muss stimmen';
@@ -183,8 +183,8 @@ $string['completedon'] = 'Beendet am';
 $string['completionattemptsexhausted'] = 'Oder alle verfügbaren Versuche abgeschlossen sind';
 $string['completionattemptsexhausteddesc'] = 'Vollständig, wenn alle möglichen Versuche erschöpft sind';
 $string['completionattemptsexhausted_help'] = 'Der Test wird als abgeschlossen markiert, wenn Teilnehmer/innen die maximale Anzahl von Versuchen erreichen.';
-$string['completionpass'] = 'Erreichen der Bewertungsgrenze notwendig';
-$string['completionpassdesc'] = 'Teilnehmer/in muss eine Bewertungsgrenze erreichen, um diese Aktivität abzuschließen';
+$string['completionpass'] = 'Erreichen der Bestehensgrenze notwendig';
+$string['completionpassdesc'] = 'Teilnehmer/in muss eine Bestehensgrenze erreichen, um diese Aktivität abzuschließen';
 $string['completionpass_help'] = 'Diese Option legt fest, dass diese Aktivität als abgeschlossen gilt, wenn Teilnehmer/innen eine Bestehensgrenze erreicht haben. Diese wird im Abschnitt \'Bewertung\' bei den Testeinstellungen festgelegt.';
 $string['configadaptive'] = 'Wenn die Option \'Ja\' gewählt ist, besteht für die Teilnehmer/innen die Möglichkeit, während eines Testversuches mehrere Antworten auf eine Frage zu geben.';
 $string['configattemptsallowed'] = 'Beschränkung der Anzahl an Antwortversuchen  während des Tests.';
@@ -348,6 +348,7 @@ $string['eventoverridedeleted'] = 'Testüberschreibung gelöscht';
 $string['eventoverrideupdated'] = 'Testüberschreibung aktualisiert';
 $string['eventquestionmanuallygraded'] = 'Frage manuell bewertet';
 $string['eventquizattemptabandoned'] = 'Testversuch aufgegeben';
+$string['eventquizattemptregraded'] = 'Testersuch neu bewertet';
 $string['eventquizattemptstarted'] = 'Testversuch gestartet';
 $string['eventquizattemptsubmitted'] = 'Testversuch eingereicht';
 $string['eventquizattempttimelimitexceeded'] = 'Zeit für Testversuch überschritten';
@@ -392,8 +393,8 @@ $string['functiondisabledbysecuremode'] = 'Diese Funktion ist aktuell deaktivier
 $string['generalfeedback'] = 'Allgemeines Feedback';
 $string['generalfeedback_help'] = 'Das allgemeine Feedback besteht aus dem Text, den die Teilnehmer/innen nach dem Versuch sehen, eine Frage zu beantworten. Anders als das Feedback, das vom Fragetyp und der Nutzerantwort abhängt, wird der Text des allgemeinen Fragen-Feedbacks allen Teilnehmer/innen gezeigt';
 $string['graceperiod'] = 'Nachfrist für Abgabe';
-$string['graceperiod_desc'] = 'Wenn für den Zeitablauf gewählt wurde \'Nachfrist: offene Versuche können abgeschlossen, aber Fragen nicht mehr beantwortet werden.\' wird diese Zeitdauer in Sekunden standardmäßig festgelegt.';
-$string['graceperiod_help'] = 'Wenn für den Zeitablauf gewählt wurde \'Nachfrist: offene Versuche können abgeschlossen, aber Fragen nicht mehr beantwortet werden.\' wird diese Zeitdauer in Sekunden festgelegt.';
+$string['graceperiod_desc'] = 'Wenn für den Zeitablauf gewählt wurde \'Nachfrist: offene Versuche können abgeschlossen, aber Fragen nicht mehr beantwortet werden.\' wird diese Zeitdauer in Sekunden festgelegt.';
+$string['graceperiod_help'] = 'Wenn die Option "Es gibt eine Nachfrist ..." für den Zeitablauf gewählt ist, wird diese Zeitdauer in Sekunden festgelegt.';
 $string['graceperiodmin'] = 'Nachfrist für Abgabe';
 $string['graceperiodmin_desc'] = 'Wenn für alle Teilnehmer/innen der Test zum gleichen Zeitpunkt endet, sind u.U. sehr viele Daten auf einmal abzuspeichern. Daher kann ein Zeitraum festgelegt werden für den das Abspeichen der Testdaten noch zulässig ist, obwohl der Zeitraum eigentlich abgelaufen ist. Die Länge des erforderlichen Zeitraums hängt von der Teilnehmerzahl und vom Testumfang ab, sowie der Leistungsstärke des Servers. Der Wert wird in Sekunden eingegeben. Damit wird verhindert. dass es zu Problemen beim Abspeichern der Eingaben durch Serverengpässe kommt.';
 $string['graceperiodtoosmall'] = 'Die Nachfrist muss länger sein als {$a}.';
@@ -443,11 +444,15 @@ $string['importingquestions'] = 'Import von {$a} Fragen aus Datei';
 $string['importmax10error'] = 'In der Frage ist ein Fehler aufgetreten. Sie dürfen höchstens zehn Antworten formulieren.';
 $string['importmaxerror'] = 'Fehler in der Frage: zu viele Antworten.';
 $string['importquestions'] = 'Frage aus einer Datei importieren';
-$string['inactiveoverridehelp'] = '* Teilnehmer/in hat nicht die richtige Gruppenzugehörigkeit oder Rolle, um den Test auszuführen.';
+$string['inactiveoverridehelp'] = '* Diese Nutzeränderung ist inaktiv, weil kein Zugang zur Aktivität besteht. Das kann aufgrund der Gruppenzugehörigkeit oder Rolle sein, aufgrund anderer Zugriffsbeschränkungen oder weil die Aktivität verborgen ist.';
 $string['incorrect'] = 'Falsch';
 $string['indicator:cognitivedepth'] = 'Test kognitiv';
+$string['indicator:cognitivedepthdef'] = 'Test kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die Testaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht, Beiträge, Feedback anzeigen, Feedback kommentieren, Beiträge nach Feedback überarbeiten).';
 $string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die eine Person in einer Testaktivität erreicht hat.';
 $string['indicator:socialbreadth'] = 'Test sozial';
+$string['indicator:socialbreadthdef'] = 'Test sozial';
+$string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die Testaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein, Teilnahme mit anderen).';
 $string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer Testaktivität erreicht hat.';
 $string['indivresp'] = 'Antworten der einzelnen Personen zu jeder Frage';
 $string['info'] = 'Info';
@@ -471,6 +476,8 @@ $string['layoutasshown'] = 'Seitenlayout wie angezeigt.';
 $string['layoutasshownwithpages'] = 'Seitenlayout wie angezeigt. <small>(Automatisch neue Seite nach {$a} Fragen.)</small>';
 $string['layoutshuffledandpaged'] = 'Zufällige Reihenfolge der Fragen. {$a} Fragen/Seite.';
 $string['layoutshuffledsinglepage'] = 'Zufällige Reihenfolge der Fragen. Alle Fragen auf einer Seite.';
+$string['legacyquizaccessrulescron'] = 'Testzugriffsregeln Cron Job (veraltet)';
+$string['legacyquizreportscron'] = 'Testberichte Cron Job (veraltet)';
 $string['link'] = 'Link';
 $string['listitems'] = 'Liste der Testfragen';
 $string['literal'] = 'Schreibweise';
@@ -801,7 +808,7 @@ $string['reportuserswithorwithout'] = 'Eingeschriebene mit oder ohne Testversuch
 $string['reportuserswithout'] = 'Eingeschriebene ohne Testversuch';
 $string['reportwhattoinclude'] = 'Was in Bericht einbezogen wird';
 $string['requirepassword'] = 'Kennwort';
-$string['requirepassword_help'] = 'Wenn Sie ein Kennwort festlegen, müssen die Teilnehmer/innen erst das Kennwort eingeben, bevor sie den Test versuchen können.';
+$string['requirepassword_help'] = 'Wenn Sie ein Kennwort festlegen, müssen die Teilnehmer/innen erst das Kennwort eingeben, bevor sie den Test starten können.';
 $string['requiresubnet'] = 'IP-Adresse';
 $string['requiresubnet_help'] = 'Sie können den Testzugriff auf bestimmte Rechner oder IP-Adressen beschränken, wenn beispielsweise nur Teilnehmer/innen in einem bestimmten Raum den Test durchführen dürfen. Die zugelassenen IP-Adressen geben Sie in einer kommagetrennten Liste teilweise oder vollständig an (z.B. <b>192.168. , 231.54.211.0/20, 231.3.56.211</b>).';
 $string['response'] = 'Eingabe TN';
@@ -862,6 +869,7 @@ $string['sectionheadingremove'] = 'Überschrift \'{$a}\' löschen';
 $string['seequestions'] = '(Siehe Fragen)';
 $string['select'] = 'Auswählen';
 $string['selectall'] = 'Alle auswählen';
+$string['selectattempt'] = 'Versuch auswählen';
 $string['selectcategory'] = 'Wählen Sie eine Kategorie';
 $string['selectedattempts'] = 'Ausgewählte Versuche ...';
 $string['selectmultipleitems'] = 'Mehrere Elemente auswählen';
@@ -962,6 +970,7 @@ $string['unfinished'] = 'offen';
 $string['ungraded'] = 'Unbewertet';
 $string['unit'] = 'Einheit';
 $string['unknowntype'] = 'Der Fragetyp in Zeile {$a} wird nicht unterstützt. Die Frage wird ignoriert.';
+$string['updateoverdueattemptstask'] = 'Aktualisierung überfälliger Testversuche';
 $string['updatequizslotswithrandomxofy'] = 'Test-Slots werden mit \'zufälligen\' Fragendaten aktualisiert ({$a->done}/{$a->total})';
 $string['updatesettings'] = 'Testeinstellungen aktualisieren';
 $string['updatingatttemptgrades'] = 'Versuchsbewertungen aktualisieren';

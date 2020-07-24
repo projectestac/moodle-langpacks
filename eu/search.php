@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'search', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,11 @@ $string['confirm_delete'] = 'Ziur zaude {$a}-(e)rako indizea ezabatu nahi duzula
 $string['confirm_deleteall'] = 'Ziur zaude indizatutako eduki guztiak orain ezabatu nahi dituzula? Gunea berriz indizatu bitartean, erabiltzaileek bilaketetan ez dute emaitzik lortuko.';
 $string['confirm_indexall'] = 'Ziur zaude indexatutako edukiak orain eguneratu nahi dituzula? Eduki kopuru handia indexatzea beharrezkoa bada, honek denbora luzea beharko du. Lanean dauden zerbitzarien kasuan, indexatzea \'Bilaketa globalerako indexatzea\' programatutako zereginaren esku utzi beharko litzateke.';
 $string['confirm_reindexall'] = 'Ziur zaude guneko eduki guztiak orain berriz indexatu nahi dituzula? Zure guneak eduki kopuru handia badauka, honek denbora luzea beharko du, eta osatu bitartean erabiltzaileek ez dituzte bilaketen emaitza guztiak eskuratuko.';
+$string['core-all'] = 'Guztiak';
+$string['core-course-content'] = 'Ikastaroko edukia';
+$string['core-courses'] = 'Ikastaroak';
+$string['core-other'] = 'Beste bat';
+$string['core-users'] = 'Erabiltzaileak';
 $string['createanindex'] = 'sortu indizea';
 $string['createdon'] = 'Sortua noiz:';
 $string['database'] = 'Datu-basea';
@@ -84,6 +89,7 @@ $string['invalidindexerror'] = 'Aurkibide-direktorioak aurkibide ezegoki bat du 
 $string['ittook'] = 'Tori';
 $string['matchingfile'] = '<span class="filename">{$a}</span> fitxategian topatutakoak';
 $string['matchingfiles'] = 'Hurrengo fitxategietan topatutakoak:';
+$string['mycoursesonly'] = 'Nire ikastaroak soilik';
 $string['next'] = 'Hurrengoa';
 $string['noindexmessage'] = 'Kudeatzailea: ez dago bilaketa-aurkibiderik, antza. Mesedez';
 $string['noresults'] = 'Emaitzarik ez';
@@ -109,6 +115,9 @@ $string['schemaversionunknown'] = 'Bilaketa-motoreak ez du uneko bertsioaren esk
 $string['score'] = 'Puntuazioa';
 $string['search'] = 'Bilatu';
 $string['searcharea'] = 'Bilaketa-eremua';
+$string['searchareacategories'] = 'Bilaketa-eremuen kategoriak';
+$string['search:course'] = 'Ikastaroak';
+$string['search:customfield'] = 'Ikastaroko eremu pertsonalizatuak';
 $string['searching'] = 'Bilatzen hemen:';
 $string['search:message_received'] = 'Mezuak - jasotakoak';
 $string['search:message_sent'] = 'Mezuak - bidalitakoak';

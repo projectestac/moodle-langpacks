@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'webservice', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -169,7 +169,7 @@ $string['requiredcapability'] = 'Permissão obrigatória';
 $string['requiredcapability_help'] = 'Se esta configuração estiver selecionada, apenas os utilizadores que possuam a permissão obrigatória poderão aceder ao serviço';
 $string['requiredcaps'] = 'Permissões obrigatórias';
 $string['resettokenconfirm'] = 'Tem a certeza de que pretende reiniciar a chave deste web service para o utilizador <strong>{$a->user}</strong> no serviço <strong>{$a->service}</strong>?';
-$string['resettokenconfirmsimple'] = 'Tem a certeza de que pretende reiniciar esta chave? Todos as hiperligações que tiverem sido gravadas com a chave antiga deixarão de funcionar.';
+$string['resettokenconfirmsimple'] = 'Tem a certeza de que pretende reiniciar esta chave? Todos as hiperligações que tiverem sido guardadas com a chave antiga deixarão de funcionar.';
 $string['response'] = 'Resposta';
 $string['restcode'] = 'REST';
 $string['restexception'] = 'REST';
@@ -223,7 +223,7 @@ $string['usernameoridnousererror'] = 'Não foram encontrados utilizadores com es
 $string['usernameoridoccurenceerror'] = 'Foi encontrado mais que um utilizador com esse nome de utilizador. Por favor, insira o ID do utilizador.';
 $string['usernotallowed'] = 'O utilizador não tem permissão para usar este serviço. Para dar acesso a este utilizador, este deve ser adicionado à lista de utilizadores autorizados na página de administração de "{$a}".';
 $string['userservices'] = 'Serviços do utilizador: {$a}';
-$string['usersettingssaved'] = 'As configurações do utilizador foram gravadas';
+$string['usersettingssaved'] = 'As configurações do utilizador foram guardadas';
 $string['validuntil'] = 'Válido até';
 $string['validuntil_help'] = 'Se esta configuração estiver definida, o utilizador ficará impossibilitado de usar este serviço a partir desta data.';
 $string['webservice'] = 'Web service';

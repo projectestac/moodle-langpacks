@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,6 @@ $string['auth_ldap_contexts_key'] = 'Contextos';
 $string['auth_ldap_create_context'] = 'Se permitir a criação de utilizadores com confirmação por e-mail especifique o contexto em que estes utilizadores são criados. Este contexto deverá ser diferente do de outros utilizadores por medidas de segurança. Não é necessário adicionar este contexto à variável ldap_context, pois o Moodle irá, automaticamente, procurar os utilizadores associados a este contexto.<br /><b>Atenção</b>: é necessário alterar o método user_create() no ficheiro auth/ldap/auth.php para que a criação de utilizadores funcione';
 $string['auth_ldap_create_context_key'] = 'Contexto para novos utilizadores';
 $string['auth_ldap_create_error'] = 'Erro ao criar utilizador no LDAP.';
-$string['auth_ldap_creators'] = 'Lista de grupos ou contextos cujos membros estão autorizados a criar novas disciplinas. Os nomes dos grupos devem ser separados por ";". Ex: cn=teachers,ou=staff,o=myorg';
-$string['auth_ldap_creators_key'] = 'Criadores';
 $string['auth_ldapdescription'] = 'Este método permite realizar autenticação num servidor LDAP externo.<br />Se o nome de utilizador e senha indicados forem válidos o Moodle criará uma nova conta de utilizador na sua base de dados. Este módulo consegue aceder aos atributos dos utilizadores no servidor LDAP e preencher os campos do perfil Moodle. Em acessos futuros apenas o nome de utilizador e senha serão verificados.';
 $string['auth_ldap_expiration_desc'] = 'Selecione \'{$a->no}\' para desativar a verificação de expiração das senhas ou \'{$a->ldapserver}\' para ler o momento de expiração da senha diretamente do servidor LDAP.';
 $string['auth_ldap_expiration_key'] = 'Expiração';
@@ -118,6 +116,11 @@ $string['cannotmaprole'] = 'O papel "{$a->rolename}" não pode ser mapeado porqu
 $string['connectingldap'] = 'A ligar ao servidor LDAP…';
 $string['connectingldapsuccess'] = 'A ligação ao servidor LDAP foi bem sucedida';
 $string['creatingtemptable'] = 'A criar tabela temporária {$a}';
+$string['diag_contextnotfound'] = 'O contexto {$a} não existe ou não pode ser lido pelo DN de ligação.';
+$string['diag_emptycontext'] = 'Encontrado contexto vazio.';
+$string['diag_genericerror'] = 'Erro LDAP {$a->code} ao ler {$a->subject}: {$a->message}.';
+$string['diag_rolegroupnotfound'] = 'O grupo {$a->group} para o papel {$a->localname} não existe ou não pode ser lido pelo DN de ligação.';
+$string['diag_toooldversion'] = 'É pouco provável que um servidor LDAP moderno use o protocolo LDAPv2. Configurações erradas podem corromper os valores nos campos do utilizador. Consulte o seu administrador LDAP.';
 $string['didntfindexpiretime'] = 'password_expire() não conseguiu encontrar intervalo de expiração';
 $string['didntgetusersfromldap'] = 'Não foram encontrados utilizadores no servidor LDAP -- erro? -- a terminar operação';
 $string['gotcountrecordsfromldap'] = 'Foram encontrados {$a} registos no LDAP';

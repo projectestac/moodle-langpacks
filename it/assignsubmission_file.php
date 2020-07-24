@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignsubmission_file', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,8 +36,6 @@ $string['enabled'] = 'Consegna file';
 $string['enabled_help'] = 'Consente agli studenti di consegnare file.';
 $string['eventassessableuploaded'] = 'Caricato file';
 $string['file'] = 'Consegna file';
-$string['filesofthesetypes'] = 'Tipi di file accettati per la consegna:';
-$string['filetypewithexts'] = '{$a->name} &mdash; {$a->extlist}';
 $string['maxbytes'] = 'Dimensione massima file';
 $string['maxfiles'] = 'Numero massimo di file per ogni consegna';
 $string['maxfiles_help'] = 'Se è abilitata la consegna di file, l\'impostazione consente di stabilire il numero massimo di file che è possibile accettare per ciascuna consegna.';
@@ -45,7 +43,6 @@ $string['maxfilessubmission'] = 'Numero massimo di file caricabili';
 $string['maxfilessubmission_help'] = 'Se la consegna di file è abilitata, gli studenti  non potranno consegnare un numero di file superiore al numero massimo impostato.';
 $string['maximumsubmissionsize'] = 'Dimensione massima file';
 $string['maximumsubmissionsize_help'] = 'Dimensione massima dei file caricabili dagli studenti.';
-$string['nonexistentfiletypes'] = 'I seguenti tipi di file non sono stati riconosciuti: {$a}';
 $string['numfilesforlog'] = 'Numero di file: {$a} file';
 $string['pluginname'] = 'Consegna file';
 $string['privacy:metadata:filepurpose'] = 'File caricati per la consegna.';

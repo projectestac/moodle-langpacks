@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_xmldb', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actual'] = 'Πραγματικά';
+$string['addpersistent'] = 'Προσθέστε υποχρεωτικά επιμένοντα πεδία';
 $string['aftertable'] = 'Μετά τον πίνακα:';
 $string['back'] = 'Επιστροφή';
 $string['backtomainview'] = 'Επιστροφή στην κεντρική';
@@ -168,6 +169,9 @@ $string['numberincorrectwholepart'] = 'Υπερβολικά μεγάλο ακέ�
 $string['pendingchanges'] = 'Σημείωση: Έχετε πραγματοποιήσει αλλαγές σε αυτό το αρχείο. Μπορούν να αποθηκευτούν ανά πάσα στιγμή.';
 $string['pendingchangescannotbesaved'] = 'Υπάρχουν αλλαγές σε αυτό το αρχείο αλλά δεν μπορούν να αποθηκευτούν! Παρακαλούμε, επαληθεύστε ότι τόσο για τον φάκελο όσο και για το αρχείο του «install.xml» υπάρχουν δικαιώματα εγγραφής για τον διακομιστή ιστού.';
 $string['pendingchangescannotbesavedreload'] = 'Υπάρχουν αλλαγές σε αυτό το αρχείο αλλά δεν μπορούν να αποθηκευτούν! Παρακαλούμε, επαληθεύστε ότι τόσο για τον φάκελο όσο και για το αρχείο του «install.xml» υπάρχουν δικαιώματα εγγραφής για τον διακομιστή ιστού. Στη συνέχεια επαναλάβετε τη φόρτωση αυτής της σελίδας και θα πρέπει να είστε σε θέση πλέον να αποθηκεύσετε αυτές τις αλλαγές.';
+$string['persistentfieldscomplete'] = 'Προστέθηκαν τα ακόλουθα πεδία:';
+$string['persistentfieldsconfirm'] = 'Θέλετε να προσθέσετε τα παρακάτω πεδία:';
+$string['persistentfieldsexist'] = 'Τα παρακάτω πεδία υπάρχουν ήδη:';
 $string['pluginname'] = 'Επεξεργαστής XMLDB';
 $string['primarykeyonlyallownotnullfields'] = 'Τα πρωτεύοντα κλειδιά δεν μπορούν να είναι κενά (null)';
 $string['privacy:metadata'] = 'Το πρόσθετο επεξεργαστή XMLDB δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'resource', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,8 +62,12 @@ $string['filtername'] = 'Auto link ai Nomi delle risorse';
 $string['forcedownload'] = 'Forza scaricamento';
 $string['framesize'] = 'Altezza frame';
 $string['indicator:cognitivedepth'] = 'File cognitivo';
+$string['indicator:cognitivedepthdef'] = 'File cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalla risorsa File (Livelli: Nessuna visualizzazione, Visualizzazione)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente con risorse File.';
 $string['indicator:socialbreadth'] = 'File sociale';
+$string['indicator:socialbreadthdef'] = 'File sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dalle risorse File (Livelli: Nessuna partecipazione, Partecipazione da solo)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente con risorse File.';
 $string['legacyfiles'] = 'Migrazione dei file di corsi precedenti';
 $string['legacyfilesactive'] = 'Attivo';

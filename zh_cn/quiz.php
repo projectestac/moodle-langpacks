@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,7 +75,7 @@ $string['alwaysavailable'] = '总是可见';
 $string['analysisoptions'] = '分析选项';
 $string['analysistitle'] = '单项分析表';
 $string['answer'] = '答案';
-$string['answered'] = '已作答';
+$string['answered'] = '已回答';
 $string['answerhowmany'] = '一个或多个正确答案？';
 $string['answers'] = '答案';
 $string['answersingleno'] = '允许多个答案';
@@ -198,7 +198,7 @@ $string['configshufflewithin'] = '如果您启用此选项，且题目设置也�
 $string['configtimelimit'] = '测验的缺省时限，单位分钟。0 表示无限制。';
 $string['configtimelimitsec'] = '测验的缺省时间限制，单位秒。0 表示无时间限制。';
 $string['configurerandomquestion'] = '设置试题';
-$string['confirmclose'] = '一旦提交，您将不能再修改这次尝试的答案。';
+$string['confirmclose'] = '一旦提交，您将不能再更改这次尝试的答案。';
 $string['confirmremovequestion'] = '要删除此{$a}题目吗？';
 $string['confirmremovesectionheading'] = '你确定要删除\'{$a}\'标题吗 ？';
 $string['confirmserverdelete'] = '确定要把服务器<b>{$a}</b>从列表删除吗？';
@@ -206,7 +206,7 @@ $string['connectionerror'] = '网络连接丢失。（自动保存失败）。
 
 请记下最近几分钟在本页面所输入的答案，然后尝试重新连接。
 
-一旦重新建立连接，您的答案将会被自动保存，同时这个消息会消失。';
+一旦重新建立连接，您的答案将会被自动保存，同时这个消息将消失。';
 $string['connectionok'] = '网络连接恢复。你可以继续安全使用。';
 $string['containercategorycreated'] = '由于以下详细原因，已经创建了存储所有移到适当的层次的原始类别的分类。';
 $string['continueattemptquiz'] = '继续上次尝试';
@@ -387,7 +387,7 @@ $string['grademethod_help'] = '当允许学生多次参加测验，提交了多�
 * 第一次答题（其它次都被忽略）
 * 最后一次答题（其它次都被忽略）';
 $string['gradesdeleted'] = '测验成绩已删除';
-$string['gradesofar'] = '';
+$string['gradesofar'] = '{$a->method}: {$a->mygrade} / {$a->quizgrade}。';
 $string['gradetopassmustbeset'] = '通过分数不能为零，因为这个测验的完成方法要求及格。请设置一个非零值。';
 $string['gradetopassnotset'] = '这个测验没有分数通过设置，所以你不能使用这个选项。请使用要求的等级设置。';
 $string['gradingdetails'] = '这次提交的分数：{$a->raw}/{$a->max}。';
@@ -455,7 +455,7 @@ $string['manualgradequestion'] = '用户{$a->user}在{$a->quiz}的人工评分�
 $string['manualgrading'] = '分类';
 $string['mark'] = '提交';
 $string['markall'] = '提交此页';
-$string['marks'] = '得分';
+$string['marks'] = '分数';
 $string['marks_help'] = '指每一道试题的得分和整个测验成绩';
 $string['match'] = '匹配题';
 $string['matchanswer'] = '匹配答案';
@@ -489,7 +489,7 @@ $string['modulenameplural'] = '测验';
 $string['moveselectedonpage'] = '移动已选定试题到 {$a} 页';
 $string['multichoice'] = '选择题';
 $string['multipleanswers'] = '选择至少一个答案';
-$string['mustbesubmittedby'] = '此次尝试必须在 {$a} 以前提交。';
+$string['mustbesubmittedby'] = '此尝试必须由{$a}提交。';
 $string['name'] = '名称';
 $string['navigatenext'] = '下一页';
 $string['navigateprevious'] = '上一页';
@@ -528,7 +528,7 @@ $string['noquestionsnotinuse'] = '此随机题未被使用，因为它的类别�
 $string['noquestionsonpage'] = '空白页';
 $string['noresponse'] = '无解答';
 $string['noreview'] = '您无权回顾该测验';
-$string['noreviewattempt'] = '不允许您检查此次尝试。';
+$string['noreviewattempt'] = '不允许您检查此尝试。';
 $string['noreviewshort'] = '不允许';
 $string['noreviewuntil'] = '您在 {$a} 之前不能回顾该测验';
 $string['noreviewuntilshort'] = '可用 {$a}';
@@ -860,11 +860,11 @@ $string['startedon'] = '开始时间';
 $string['startnewpreview'] = '开启一个新预览';
 $string['stateabandoned'] = '从未提交';
 $string['statefinished'] = '完成';
-$string['statefinisheddetails'] = '提交于 {$a}';
+$string['statefinisheddetails'] = '已提交 {$a}';
 $string['stateinprogress'] = '进行中';
 $string['statenotloaded'] = '试题 {$a} 的状态还没有从数据库中加载';
-$string['stateoverdue'] = '逾期';
-$string['stateoverduedetails'] = '必须于 {$a} 前提交';
+$string['stateoverdue'] = '超时';
+$string['stateoverduedetails'] = '必须由{$a}提交';
 $string['status'] = '状态';
 $string['stoponerror'] = '遇错中止';
 $string['submitallandfinish'] = '全部提交并结束';
@@ -904,6 +904,7 @@ $string['unfinished'] = '未关闭';
 $string['ungraded'] = '未评分';
 $string['unit'] = '单位';
 $string['unknowntype'] = '行{$a}处不支持该类别的试题。该试题将被忽略';
+$string['updateoverdueattemptstask'] = '更新过期的测验尝试';
 $string['updatesettings'] = '升级测试环境';
 $string['updatingatttemptgrades'] = '更新测验成绩。';
 $string['updatingfinalgrades'] = '更新最终成绩。';
@@ -928,4 +929,4 @@ $string['withsummary'] = '概览统计';
 $string['wronguse'] = '您不能这样使用此页';
 $string['xhtml'] = 'XHTML';
 $string['youneedtoenrol'] = '参加此测验前需要选修此课程。';
-$string['yourfinalgradeis'] = '这个测验您的最终成绩是 {$a}。';
+$string['yourfinalgradeis'] = '您这次测验的最终成绩是{$a}。';

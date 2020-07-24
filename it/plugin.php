@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'plugin', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -122,6 +122,8 @@ $string['type_calendartype'] = 'Tipo di calendario';
 $string['type_calendartype_plural'] = 'Tipi di calendario';
 $string['type_coursereport'] = 'Report del corso';
 $string['type_coursereport_plural'] = 'Report del corso';
+$string['type_customfield'] = 'Campo personalizzato';
+$string['type_customfield_plural'] = 'Campi personalizzati';
 $string['type_dataformat'] = 'Formato data';
 $string['type_dataformat_plural'] = 'Formati data';
 $string['type_editor'] = 'Editor';
@@ -147,8 +149,8 @@ $string['type_local'] = 'Plugin locale';
 $string['type_local_plural'] = 'Plugin locali';
 $string['type_media'] = 'Riproduttore multimediali';
 $string['type_media_plural'] = 'Riproduttori multimediali';
-$string['type_message'] = 'Instradamento messaggi';
-$string['type_message_plural'] = 'Instradamento messaggi';
+$string['type_message'] = '';
+$string['type_message_plural'] = 'Plugin notifiche';
 $string['type_mlbackend'] = 'Backend di machine learning';
 $string['type_mlbackend_plural'] = 'Backend di machine learning';
 $string['type_mnetservice'] = 'Servizio MNet';

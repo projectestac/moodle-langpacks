@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'wiki', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -122,8 +122,12 @@ $string['incorrectpageid'] = 'ページIDが正しくありません。';
 $string['incorrectsubwikiid'] = 'Subwiki IDが正しくありません。';
 $string['incorrectwikiid'] = 'Wiki IDが正しくありません。';
 $string['indicator:cognitivedepth'] = 'Wiki認知的';
+$string['indicator:cognitivedepthdef'] = 'Wiki認知的';
+$string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がWiki活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信)。';
 $string['indicator:cognitivedepth_help'] = 'この指標はWiki活動で学生が到達した認識深度に基づきます。';
 $string['indicator:socialbreadth'] = 'Wiki社会的';
+$string['indicator:socialbreadthdef'] = 'Wiki社会的';
+$string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がWiki活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加, 他の人と参加)。';
 $string['indicator:socialbreadth_help'] = 'この指標はWiki活動で学生が到達した社会的広がりに基づきます。';
 $string['individualpagedoesnotexist'] = '個人Wikiページは存在していません。';
 $string['insertcomment'] = 'コメントを追加する';

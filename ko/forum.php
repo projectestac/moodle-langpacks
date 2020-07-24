@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'forum', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,6 +47,7 @@ $string['attachment_help'] = '여러분은 선택적으로 포럼 게시글에 �
 $string['attachmentnopost'] = '게시 ID 없이 첨부물을 내보낼 수 없음';
 $string['attachments'] = '첨부물';
 $string['attachmentswordcount'] = '첨부 및 단어 수';
+$string['availability'] = '사용가능성';
 $string['blockafter'] = '차단하기 전 게시 한도';
 $string['blockafter_help'] = '이 설정은 사용자가 주어진 기간안에 게시할 수 있는 최대 글의 갯수를 명시합니다. mod/forum:postwithoutthrottling 권한이 있는 사용자는 게시한계에서 제외됩니다.';
 $string['blockperiod'] = '차단 시간';
@@ -111,6 +112,8 @@ $string['confirmunsubscribe'] = '포럼 \'{$a}\'를 구독해지하시기를 원
 $string['couldnotadd'] = '알 수 없는 오류로 인해 게시할 수 없음';
 $string['couldnotdeletereplies'] = '죄송, 사람들이 벌써 답변하였기에 지울 수 없음';
 $string['couldnotupdate'] = '알 수 없는 오류로 인해 업데이트 할 수 없음';
+$string['cutoffdate'] = '최종 마감일';
+$string['cutoffdatevalidation'] = '최종 마감일은 마감일 보다 먼저일 수 없습니다.';
 $string['delete'] = '삭제';
 $string['deleteddiscussion'] = '토론 주제가 삭제되었음';
 $string['deletedpost'] = '그 게시물은 삭제되었음';
@@ -148,6 +151,7 @@ $string['displaystart_help'] = '<p>포럼의 게시물을 언제부터 언제까
 
 <p>관리자로 접속하게 되면 언제 게시되었는 지 또 언제 종료되었는 지에 대한 메시지를 볼 수 있음을 유의하십시오.</p>';
 $string['displaywordcount'] = '단어 수 표시';
+$string['duedate'] = '마감 일시';
 $string['eachuserforum'] = '개인별 단독 포럼';
 $string['edit'] = '수정';
 $string['editedby'] = '{$a->name}에 의해 편집됨 -  원문 제출일 {$a->date} ';
@@ -399,6 +403,7 @@ $string['searchuserid'] = '글쓴이 아이디';
 $string['searchwhichforums'] = '검색할 포럼';
 $string['searchwords'] = '다음 단어들을 포함한 게시물';
 $string['seeallposts'] = '다음 사용자가 쓴 모든 글 보기';
+$string['sendstudentnotifications'] = '학습자들에게 통지';
 $string['shortpost'] = '간단한 게시';
 $string['showsubscribers'] = '구독자 보기/고치기';
 $string['singleforum'] = '하나의 간단한 토론';

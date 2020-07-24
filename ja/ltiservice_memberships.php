@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'ltiservice_memberships', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'ltiservice_memberships', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   ltiservice_memberships
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,10 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allow'] = 'このサービスをプライバシー設定を基にメンバーシップ情報を検索するため使用します';
-$string['ltiservice_memberships'] = 'IMS LTIメンバーシップ:';
-$string['ltiservice_memberships_help'] = 'IMS LTIメンバーシップサービスを利用してツールがコースからメンバー情報を検索できるようにします。プライバシー設定が適用されます。';
+$string['ltiservice_memberships'] = 'IMS LTI氏名およびロールプロビジョニング:';
+$string['ltiservice_memberships_help'] = 'IMS LTI氏名およびロールプロビジョニングサービスを利用してツールがコースからメンバー情報を検索できるようにします。プライバシー設定が適用されます。コースレベルのリクエストに関してはツール設定をベースにします。あなたが常にそのような詳細を送信したい場合、教師に選択権を与えないでください。リンクレベルは常にリンクに適用されるプライバシー設定を使用します。';
 $string['notallow'] = 'このサービスを使用しません';
-$string['pluginname'] = 'メンバーシップLTIサービス';
+$string['pluginname'] = '氏名およびロールプロビジョニングLTIサービス';
 $string['privacy:metadata:email'] = 'LTIコンシューマを使用するユーザのメールアドレスです。';
 $string['privacy:metadata:externalpurpose'] = 'この情報は外部LTIプロバイダに送信されます。';
 $string['privacy:metadata:firstname'] = 'LTIコンシューマを使用するユーザの名です。';
@@ -37,4 +37,3 @@ $string['privacy:metadata:fullname'] = 'LTIコンシューマを使用するユ�
 $string['privacy:metadata:lastname'] = 'LTIコンシューマを使用するユーザの姓です。';
 $string['privacy:metadata:userid'] = 'LTIコンシューマを使用するユーザのIDです。';
 $string['privacy:metadata:useridnumber'] = 'LTIコンシューマを使用するユーザのIDナンバーです。';
-$string['servicename'] = 'メンバーシップ';

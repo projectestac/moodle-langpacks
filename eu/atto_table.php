@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_table', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'atto_table', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   atto_table
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -63,7 +63,7 @@ $string['privacy:metadata'] = 'atto_table pluginak ez du datu pertsonalik biltze
 $string['rows'] = 'Errenkadak';
 $string['settings'] = 'Taularen ezarpenak';
 $string['solid'] = 'Solidoa';
-$string['themedefault'] = 'Itxura lehenetsia';
+$string['themedefault'] = 'Azal lehenetsia';
 $string['transparent'] = 'Gardena';
 $string['updatetable'] = 'Eguneratu taula';
 $string['width'] = 'Taularen zabalera (ehunekoetan)';

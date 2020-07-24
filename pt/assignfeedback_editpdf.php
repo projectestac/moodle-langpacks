@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -88,10 +88,12 @@ $string['privacy:path'] = 'PDF de feedback';
 $string['rectangle'] = 'Retângulo';
 $string['red'] = 'Vermelho';
 $string['result'] = 'Resultado:';
+$string['rotateleft'] = 'Rodar 90 graus para a esquerda';
+$string['rotateright'] = 'Rodar 90° para a direita';
 $string['searchcomments'] = 'Pesquisar comentários';
 $string['select'] = 'Selecionar';
 $string['stamp'] = 'Carimbo';
-$string['stamppicker'] = 'Selecionador de carimbos';
+$string['stamppicker'] = 'Seletor de carimbos';
 $string['stamps'] = 'Carimbos';
 $string['stampsdesc'] = 'Os  carimbos têm de ser ficheiros de imagem (tamanho recomendado: 40x40). Estas imagens podem ser usadas com a ferramenta carimbo para fazer anotações no PDF.';
 $string['test_doesnotexist'] = 'O caminho ghostscript aponta para um ficheiro que não existe';
@@ -103,6 +105,6 @@ $string['test_notexecutable'] = 'O caminho ghostscript aponta para um ficheiro q
 $string['test_ok'] = 'O caminho ghostscript parece estar OK - por favor, verifique que consegue ver a mensagem na imagem abaixo';
 $string['tool'] = 'Ferramenta';
 $string['toolbarbutton'] = '{$a->tool} {$a->shortcut}';
-$string['viewfeedbackonline'] = 'Ver o PDF anotado...';
+$string['viewfeedbackonline'] = 'Ver o PDF anotado';
 $string['white'] = 'Branco';
 $string['yellow'] = 'Amarelo';

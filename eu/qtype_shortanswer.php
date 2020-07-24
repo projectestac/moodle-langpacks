@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_shortanswer', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_shortanswer', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_shortanswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addmoreanswerblanks'] = 'Gehitu {no} zuriune erantzun gehiagorako';
 $string['answer'] = 'Erantzuna: {$a}';
-$string['answermustbegiven'] = 'Erantzun bat eman behar duzu hau kalifikazioa edo feebacka baita.';
+$string['answermustbegiven'] = 'Erantzun bat zehaztu behar duzu hau kalifikazioa edo feedbacka badago.';
 $string['answerno'] = '{$a} erantzuna';
 $string['caseno'] = 'Ez, ez bereizi maiuskulak/minuskulak';
 $string['casesensitive'] = 'Maiuskulak/minuskulak';

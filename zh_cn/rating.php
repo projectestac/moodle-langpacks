@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'rating', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'rating', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   rating
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,8 +45,9 @@ $string['allowratings'] = '可以给项目评分吗？';
 $string['allratingsforitem'] = '所以已提交的评分';
 $string['capabilitychecknotavailable'] = '在活动被保存之前，不能检查权限';
 $string['couldnotdeleteratings'] = '抱歉，因为已经有人参与了评分，所以不能删除';
+$string['grade_rating_name'] = '评分';
 $string['norate'] = '项目评分功能没有打开！';
-$string['noratings'] = '没有已提交的评分';
+$string['noratings'] = '没有提交的评分';
 $string['noviewanyrate'] = '您只能查看您创造的条目的结果';
 $string['noviewrate'] = '您没有查看评分的权限';
 $string['rate'] = '评分';

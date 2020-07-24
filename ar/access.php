@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'access', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'access', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   access
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,18 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['access'] = 'الإتاحة';
-$string['accesshelp'] = 'مساعدة حول الإتاحة';
+$string['access'] = 'إمكانية الوصول';
+$string['accesshelp'] = 'مساعدة حول إمكانية الوصول';
 $string['accesskey'] = 'مفتاح الوصول، {$a}';
-$string['accessstatement'] = 'وثيقة الإتاحة';
+$string['accessstatement'] = 'وثيقة امكانية الوصول';
 $string['activitynext'] = 'النشاط التالي';
 $string['activityprev'] = 'النشاط السابق';
-$string['breadcrumb'] = 'مسار التصفح';
+$string['breadcrumb'] = 'شريط التنقل';
 $string['eventcontextlocked'] = 'تم تجميد السياق';
 $string['eventcontextunlocked'] = 'تم إلغاء تجميد السياق';
 $string['hideblocka'] = 'إخفاء كتلة {$a}';
-$string['monthnext'] = 'الشهر القادم';
-$string['monthprev'] = 'الشهر الماضي';
 $string['showblocka'] = 'إظهار كتلة {$a}';
 $string['sitemap'] = 'خارطة الموقع';
 $string['skipa'] = 'تخطي {$a}';

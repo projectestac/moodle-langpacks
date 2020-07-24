@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lesson', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,6 +61,9 @@ $string['addnumerical'] = 'Create a Numerical question page';
 $string['addpage'] = 'Add a page';
 $string['addshortanswer'] = 'Create a Short answer question page';
 $string['addtruefalse'] = 'Create a True/false question page';
+$string['allotheranswers'] = 'All other answers';
+$string['allotheranswersjump'] = 'All other answers jump';
+$string['allotheranswersscore'] = 'All other answers score';
 $string['allowofflineattempts'] = 'Allow lesson to be attempted offline using the mobile app';
 $string['allowofflineattempts_help'] = 'If enabled, a mobile app user can download the lesson and attempt it offline.
 All the possible answers and correct responses will be downloaded as well.
@@ -73,6 +76,8 @@ $string['answersfornumerical'] = 'Answers for numerical questions should be matc
 $string['arrangebuttonshorizontally'] = 'Arrange content buttons horizontally?';
 $string['attempt'] = 'Attempt: {$a}';
 $string['attemptheader'] = 'Attempt';
+$string['attemptinfonograde'] = '{$a->timestart} ({$a->duration})';
+$string['attemptinfowithgrade'] = '{$a->grade}% {$a->timestart} ({$a->duration})';
 $string['attempts'] = 'Attempts';
 $string['attemptsdeleted'] = 'Deleted attempts';
 $string['attemptsremaining'] = 'You have {$a} attempt(s) remaining';
@@ -155,6 +160,7 @@ $string['deletingpage'] = 'Deleting page: {$a}';
 $string['dependencyon'] = 'Dependent on';
 $string['dependencyon_help'] = 'This setting allows access to this lesson to be dependent upon a student\'s performance in another lesson in the same course. Any combination of time spent, completed or "grade better than" may be used.';
 $string['description'] = 'Description';
+$string['deselectallattempts'] = 'Deselect all attempts';
 $string['detailedstats'] = 'Detailed statistics';
 $string['didnotanswerquestion'] = 'Did not answer this question.';
 $string['didnotreceivecredit'] = 'Did not receive credit';
@@ -168,7 +174,7 @@ $string['displayleftmenu'] = 'Display menu';
 $string['displayleftmenu_help'] = 'If enabled, a menu allowing users to navigate through the list of pages is displayed.';
 $string['displayofgrade'] = 'Display of grade (for students only)';
 $string['displayreview'] = 'Provide option to try a question again';
-$string['displayreview_help'] = 'If enabled, when a question is answered incorrectly, the student is given the option to try it again for no point credit, or continue with the lesson.';
+$string['displayreview_help'] = 'If enabled, when a question is answered incorrectly, the student is given the option to try it again for no point credit, or continue with the lesson. If the student clicks to move on to another question then the selected (wrong) answer will be followed. By default wrong answer jumps are set to "this page" and have a score of 0, so it is recommended that you set the wrong answer jump to a different page to avoid confusion with your students.';
 $string['displayscorewithessays'] = '<p>You earned {$a->score} out of {$a->tempmaxgrade} for the automatically graded questions.</p>
 <p>Your {$a->essayquestions} essay question(s) will be graded and added into your final score at a later date.</p>
 <p>Your current grade without the essay question(s) is {$a->score} out of {$a->grade}.</p>';
@@ -207,6 +213,7 @@ $string['eolstudentoutoftime'] = 'Attention:  You ran out of time for this lesso
 $string['eolstudentoutoftimenoanswers'] = 'You did not answer any questions.  You have received a 0 for this lesson.';
 $string['essay'] = 'Essay';
 $string['essayemailmessage2'] = '<p>Essay prompt: {$a->question}</p><p>Your response: <em>{$a->response}</em></p><p>Grader\'s comments: <em>{$a->comment}</em></p><p>You have received {$a->earned} out of {$a->outof} for this essay question.</p><p>Your grade for the {$a->lesson} lesson has been changed to {$a->newgrade}&#37;.</p>';
+$string['essayemailmessagesmall'] = '<p>You have received {$a->earned} out of {$a->outof} for this essay question.</p><p>Your grade for the {$a->lesson} lesson has been changed to {$a->newgrade}&#37;.</p>';
 $string['essayemailsubject'] = 'Grade available for lesson question';
 $string['essaynotgradedyet'] = 'This essay has not been graded yet';
 $string['essayresponses'] = 'Essay responses';
@@ -259,10 +266,16 @@ $string['hightime'] = 'High time';
 $string['importcount'] = 'Importing {$a} questions';
 $string['importquestions'] = 'Import questions';
 $string['importquestions_help'] = 'This feature enables questions in a variety of formats to be imported via text file.';
-$string['inactiveoverridehelp'] = '* Student does not have the correct group or role to view/attempt the lesson';
+$string['inactiveoverridehelp'] = '* This override is inactive because the user\'s access to the activity is restricted. This can be due to group or role assignments, other access restrictions, or the activity being hidden.';
 $string['indicator:cognitivedepth'] = 'Lesson cognitive';
+$string['indicator:cognitivedepthdef'] = 'Lesson cognitive';
+$string['indicator:cognitivedepthdef_help'] = 'The participant has reached this percentage of the cognitive engagement offered by the Lesson activities during this analysis interval (Levels = No view, View, Submit, View feedback, Comment on feedback, Resubmit after viewing feedback)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:cognitivedepth_help'] = 'This indicator is based on the cognitive depth reached by the student in a Lesson activity.';
 $string['indicator:socialbreadth'] = 'Lesson social';
+$string['indicator:socialbreadthdef'] = 'Lesson social';
+$string['indicator:socialbreadthdef_help'] = 'The participant has reached this percentage of the social engagement offered by the Lesson activities during this analysis interval (Levels = No participation, Participant alone, Participant with others)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['indicator:socialbreadth_help'] = 'This indicator is based on the social breadth reached by the student in a Lesson activity.';
 $string['insertedpage'] = 'Inserted page';
 $string['invalidfile'] = 'Invalid file';
@@ -375,6 +388,7 @@ $string['nooverridedata'] = 'You must override at least one of the lesson settin
 $string['noretake'] = 'You are not allowed to retake this lesson.';
 $string['normal'] = 'Normal - follow lesson path';
 $string['notcompleted'] = 'Not completed';
+$string['notcompletedwithdate'] = 'Not completed ({$a})';
 $string['notdefined'] = 'Not defined';
 $string['notenoughsubquestions'] = 'Not enough sub-questions have been defined!';
 $string['notenoughtimespent'] = 'You completed this lesson in {$a->timespent}, which is less than the required time of {$a->timerequired}. You might need to attempt the lesson again.';
@@ -476,6 +490,7 @@ $string['privacy:metadata:timer:starttime'] = 'The date when the attempt started
 $string['privacy:metadata:timer:timemodifiedoffline'] = 'The last moment when we recorded activity from the mobile app';
 $string['privacy:metadata:timer:userid'] = 'The user ID';
 $string['privacy:metadata:userpref:lessonview'] = 'The preferred display mode when editing lessons';
+$string['privacy:path:essayanswers'] = 'Essay answers';
 $string['privacy:path:essayresponses'] = 'Essay responses';
 $string['privacy:path:pages'] = 'Pages';
 $string['processerror'] = 'Error occurred during processing!';
@@ -519,6 +534,7 @@ $string['score_help'] = 'Score is only used when custom scoring is enabled. Each
 $string['scores'] = 'Scores';
 $string['search:activity'] = 'Lesson - activity information';
 $string['secondpluswrong'] = 'Not quite.  Would you like to try again?';
+$string['selectallattempts'] = 'Select all attempts';
 $string['selectaqtype'] = 'Select a question type';
 $string['sent'] = 'Sent';
 $string['shortanswer'] = 'Short answer';
@@ -578,6 +594,7 @@ $string['viewreports2'] = 'View {$a} completed attempts';
 $string['warning'] = 'Warning';
 $string['welldone'] = 'Well done!';
 $string['whatdofirst'] = 'What would you like to do first?';
+$string['withselectedattempts'] = 'With selected attempts...';
 $string['wronganswerjump'] = 'Wrong answer jump';
 $string['wronganswerscore'] = 'Wrong answer score';
 $string['wrongresponse'] = 'Wrong response';

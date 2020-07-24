@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grading', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'grading', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['activemethodinfo'] = '\'{$a->method}\' ist als Bewertungsmethode für d
 $string['activemethodinfonone'] = 'Es wurde für den \'{$a->area}\'-Bereich keine erweiterte Bewertungsmethode ausgewählt.';
 $string['changeactivemethod'] = 'Aktive Bewertungsmethode wechseln nach';
 $string['clicktoclose'] = 'anklicken zum Schließen';
+$string['error:notinrange'] = 'Ungültige Bewertung \'{$a->grade}\' vorhanden. Die Bewertung muss zwischen 0 und {$a->maxgrade} liegen.';
 $string['exc_gradingformelement'] = 'Bewertungsformular konnte nicht angelegt werden';
 $string['formnotavailable'] = 'Erweiterte Bewertungsmethode wurde ausgewählt, aber das Bewertungsformular steht noch nicht zur Verfügung. Es muss zuerst über den Link im Block \'Einstellungen\' angelegt werden.';
 $string['gradingformunavailable'] = 'Hinweis: Das erweiterte Bewertungsformular steht noch nicht zur Verfügung. Bis zu seiner Erstellung wird die einfache Bewertung verwendet.';

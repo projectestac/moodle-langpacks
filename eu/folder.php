@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'folder', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   folder
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,9 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['bynameondate'] = '{$a->name}-(e)k - {$a->date}';
 $string['contentheader'] = 'Edukia';
 $string['display'] = 'Erakutsi karpetaren edukiak';
-$string['display_help'] = 'Karpetako edukiak ikastaroaren orrian erakustea aukeratzen baduzu ez da agertuko aparteko orri baterako esteka eta izenburua ere ez da erakutsiko.
-Deskribapena soilik "Erakutsi deskribapena ikastaroaren orriaren pantailan" aukeratzen bada agertuko da.<br />
-Kontuan izan, bestalde, kasu honetan ezin dela erabiltzaileen ekintzarik erregistratu.';
+$string['display_help'] = 'Karpetako edukiak ikastaroaren orrian erakustea aukeratzen baduzu ez da agertuko aparteko orri baterako esteka eta izenburua ere ez da erakutsiko. Deskribapena soilik agertuko da \'Erakutsi deskribapena ikastaroaren orriaren pantailan\' aukeratzen bada. Kontuan izan kasu honetan ezin dela erabiltzaileen ekintzarik erregistratu.';
 $string['displayinline'] = 'Erakutsi ikastaroaren orrian';
 $string['displaypage'] = 'Aparteko orri batean';
 $string['dnduploadmakefolder'] = 'Deskonprimatu fitxategiak eta sortu karpeta';
@@ -42,8 +40,12 @@ $string['foldercontent'] = 'Fitxategiak eta azpikarpetak';
 $string['folder:managefiles'] = 'Kudeatu fitxategiak karpeta moduluan';
 $string['folder:view'] = 'Ikusi karpetaren edukia';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa karpetetan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa karpetetan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek Karpeta baliabideak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Karpeta motako baliabideetan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala karpetetan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala karpetetan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek Karpeta baliabideak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Parte-hartzerik ez, bakarkako parte-hartzea)';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Karpeta motako baliabideetan lortutako zabalera sozialean oinarrituta dago.';
 $string['maxsizetodownload'] = 'Karpetak jaisteko gehienezko tamaina (MB)';
 $string['maxsizetodownload_help'] = 'Karpetak zip fitxategi moduan jaisteko gehienezko tamaina. 0 ezarriz gero, karpetaren tamainak ez du mugarik izango.';

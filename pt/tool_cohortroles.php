@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_cohortroles', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_cohortroles', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_cohortroles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['acohortroleassignmentssaved'] = 'As atribuições de papel do grupo global {$a} foram gravadas.';
+$string['acohortroleassignmentssaved'] = 'As atribuições de papel do grupo global \'{$a}\' foram guardadas.';
 $string['assign'] = 'Atribuir';
 $string['assignroletocohort'] = 'Atribuir papéis no contexto utilizador a todos os membros do grupo global';
 $string['backgroundsync'] = 'Nota: As novas atribuições de papeis do grupo global não terão efeito imediato. As mudanças na atribuição de papeis serão efetuadas por uma tarefa agendada.';

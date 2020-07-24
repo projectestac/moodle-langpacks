@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'chat', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,6 +55,7 @@ $string['configserverip'] = 'The numerical IP address that matches the above hos
 $string['configservermax'] = 'Max number of clients allowed';
 $string['configserverport'] = 'Port to use on the server for the daemon';
 $string['coursetheme'] = 'Course theme';
+$string['crontask'] = 'Background processing for chat module';
 $string['currentchats'] = 'Active chat sessions';
 $string['currentusers'] = 'Current users';
 $string['deletesession'] = 'Delete this session';
@@ -71,8 +72,14 @@ $string['explainmethodnormal'] = 'These settings only have an effect if Normal i
 $string['generalconfig'] = 'General configuration';
 $string['idle'] = 'Idle';
 $string['indicator:cognitivedepth'] = 'Chat cognitive';
+$string['indicator:cognitivedepthdef'] = 'Chat cognitive';
+$string['indicator:cognitivedepthdef_help'] = 'The participant has reached this percentage of the cognitive engagement offered by the Chat activities during this analysis interval (Levels = No view, View, Submit, View feedback, Comment on feedback)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:cognitivedepth_help'] = 'This indicator is based on the cognitive depth reached by the student in a Chat activity.';
 $string['indicator:socialbreadth'] = 'Chat social';
+$string['indicator:socialbreadthdef'] = 'Chat social';
+$string['indicator:socialbreadthdef_help'] = 'The participant has reached this percentage of the social engagement offered by the Chat activities during this analysis interval (Levels = No participation, Participant alone, Participant with others)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['indicator:socialbreadth_help'] = 'This indicator is based on the social breadth reached by the student in a Chat activity.';
 $string['inputarea'] = 'Input area';
 $string['invalidid'] = 'Could not find that chat room!';

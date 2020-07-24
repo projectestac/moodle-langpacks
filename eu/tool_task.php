@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_task', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,6 +52,7 @@ $string['runpattern'] = 'Exekuzio-patroia';
 $string['scheduledtaskchangesdisabled'] = 'Moodleko konfigurazioan programatutako zereginen zerrendari aldaketak egitea ekidin da.';
 $string['scheduledtasks'] = 'Programatutako zereginak';
 $string['taskdisabled'] = 'Ataza desgaituta';
+$string['tasklogs'] = 'Zeregin-erregistroak';
 $string['taskscheduleday'] = 'Eguna';
 $string['taskscheduleday_help'] = 'Programatutako zereginerako hileko egunentzako eremua. Eremuak unix cron-aren formau bera erabiltzen du. Hauek dira adibide batzuk:
 
@@ -87,3 +88,4 @@ $string['taskschedulemonth_help'] = 'Programatutako zereginerako hilabeteentzako
 <strong>*/2</strong> Bi hilean behin
 <strong>1</strong> Urtarrila guztietan
 <strong>1,5</strong> Urtarrilean eta maiatza guztietan';
+$string['viewlogs'] = 'Ikusi {$a}-(e)rako erregistroak';

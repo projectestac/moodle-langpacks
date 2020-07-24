@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'group', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -142,10 +142,11 @@ $string['importgroups_help'] = 'テキストファイル経由でグループを
 * それぞれのレコードはカンマ区切りのデータです。
 * 先頭レコードには残りのデータのフォーマットを定義したフィールド名を記述してください。
 * 必須フィールド名は「groupname」です。
-* 任意フィールド名は「groupidnumber」「description」「enrolmentkey」「groupingname」です。';
+* 任意フィールド名は「groupidnumber」「description」「enrolmentkey」「groupingname」「enablemessaging」です。';
 $string['includeonlyactiveenrol'] = 'アクティブな登録のみ含む';
 $string['includeonlyactiveenrol_help'] = 'この設定を有効にした場合、利用停止ユーザはグループに含まれません。';
 $string['javascriptrequired'] = 'このページではJavaScriptを有効にする必要があります。';
+$string['memberofgroup'] = 'グループメンバー: {$a}';
 $string['members'] = 'グループあたりのメンバー数';
 $string['membersofselectedgroup'] = 'メンバー:';
 $string['mygroups'] = 'マイグループ';

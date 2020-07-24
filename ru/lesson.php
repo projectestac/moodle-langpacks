@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lesson', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -113,7 +113,7 @@ $string['comments'] = 'Ваши комментарии';
 $string['completed'] = 'Лекция завершена';
 $string['completederror'] = 'Завершить лекцию';
 $string['completethefollowingconditions'] = 'Вы должны выполнить следующие условия в лекции <b>{$a}</b> перед тем, как сможете продолжить.';
-$string['completionendreached'] = 'Достигнут необходимый конец';
+$string['completionendreached'] = 'Необходимо достичь конца';
 $string['completionendreached_desc'] = 'Студент должен дойти до страницы конца лекции, чтобы завершить этот элемент';
 $string['completiontimespent'] = 'Студент должен изучать этот элемент не менее';
 $string['completiontimespentdesc'] = 'Студент должен работать с этим элементом курса по меньшей мере {$a}';
@@ -257,7 +257,7 @@ $string['importquestions'] = 'Импортировать вопросы';
 $string['importquestions_help'] = 'Эта функция позволяет из внешнего текстового файла импортировать вопросы в различных форматах.';
 $string['inactiveoverridehelp'] = '* У студента нет нужной группы или роли для просмотра/прохождения лекции';
 $string['indicator:cognitivedepth'] = 'Лекция: познавательный аспект';
-$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на  глубине познания, достигнутой студентом при работе с активным элементом Лекция.';
+$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на глубине познания, достигнутой студентом при работе с элементом курса «Лекция».';
 $string['indicator:socialbreadth'] = 'Лекция: социальный аспект';
 $string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с элементом Лекция.';
 $string['insertedpage'] = 'Страница вставлена';

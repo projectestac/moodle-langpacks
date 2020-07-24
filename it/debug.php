@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'debug', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,11 +34,13 @@ $string['cannotinitpage'] = 'Non è possibile inizializzare completamente la pag
 $string['cannotsetuptable'] = 'Il setup delle tabelle {$a} non è andato a buon fine!';
 $string['codingerror'] = 'E\' stato rilevato un errore di programmazione, deve essere sistemato da un programmatore: {$a}';
 $string['configmoodle'] = 'Moodle non è ancora stato configurato. E\' necessario editare il file config.php';
+$string['debuginfo'] = 'Informazioni di debug';
 $string['erroroccur'] = 'Si è verificato un errore durante lo svolgimento di questo processo';
 $string['invalidarraysize'] = 'La dimensione degli array è errata nei parametri di {$a}';
 $string['invalideventdata'] = 'Sono stati inviati dati non corretti di un evento: {$a}';
 $string['invalidparameter'] = 'E\' stato rilevato un parametro non valido';
 $string['invalidresponse'] = 'E\' stato individuato un valore non valido nella risposta';
+$string['line'] = 'Linea';
 $string['missingconfigversion'] = 'La tabella di configurazione non contiene la versione, non è possibile continuare.';
 $string['modulenotexist'] = 'Il modulo {$a} non esiste';
 $string['morethanonerecordinfetch'] = 'Nella fetch() è stato trovato più di un record!';
@@ -50,9 +52,11 @@ $string['nomodules'] = 'Non sono stati trovati moduli!';
 $string['nopageclass'] = 'E\' stato importato {$a} ma non sono state trovate page class';
 $string['noreports'] = 'Non ci sono report visualizzabili';
 $string['notables'] = 'Non ci sono tabelle!';
+$string['outputbuffer'] = 'Buffer di output';
 $string['phpvaroff'] = 'La variabile PHP \'{$a->name}\' dovrebbe essere impostata ad Off - {$a->link}';
 $string['phpvaron'] = 'La variabile PHP \'{$a->name}\' non è impostata ad On - {$a->link}';
 $string['sessionmissing'] = 'L\'oggetto {$a} manca dalla sessione';
 $string['sqlrelyonobsoletetable'] = 'Questo SQL fa affidamento su tabelle obsolete: {$a}!. Il tuo codice deve essere sistemato da uno sviluppatore.';
+$string['stacktrace'] = 'Stack trace';
 $string['withoutversion'] = 'Il file version.php principale è mancante, illeggibile o rovinato.';
 $string['xmlizeunavailable'] = 'Le funzioni xmlize non sono disponibili';

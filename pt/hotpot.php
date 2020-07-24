@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotpot', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'hotpot', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   hotpot
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,7 +44,7 @@ Se o ficheiro de origem é uma **pasta**, todos os testes na pasta são adiciona
 
 Se o ficheiro de origem é um **ficheiro de unidade**, como um ficheiro Hot Potatoes ou index.html, os testes do ficheiro serão adicionados à disciplina como uma cadeia de cadeia de testes com configurações idênticas.';
 $string['allowpaste'] = 'Permitir colar';
-$string['allowpaste_help'] = 'Se esta configuração estiver ativa, os alunos terão permissão para copiar, colar e arrastar texto para caixas de texto.';
+$string['allowpaste_help'] = 'Se ativar esta opção, os alunos terão permissão para copiar, colar e arrastar texto para caixas de texto.';
 $string['allowreview'] = 'Permitir revisão';
 $string['allowreview_help'] = 'Se ativar esta opção, os alunos podem rever as suas tentativas de resposta após o teste fechar';
 $string['analysisreport'] = 'Análise de item';
@@ -92,7 +92,7 @@ $string['configframeheight'] = 'Quando um teste é exibido dentro de uma janela,
 $string['configlocation'] = 'Ficheiro de configuração local';
 $string['configlockframe'] = 'Se esta configuração está ativa, então a janela de navegação fica bloqueada para que não seja possível redimensioná-la, ajustá-la ou ver as bordas.';
 $string['configmaxeventlength'] = 'Se um HotPot tem especificado uma data de início e de fecho, e a diferença é superior ao número de dias especificado nesta opção, então dois eventos separados são adicionados ao bloco Calendário. Para períodos mais curtos, ou quando apenas é configurado um dia, é adicionado apenas um evento no calendário. Se não configurado nenhum período de tempo nenhum evento será adicionado.';
-$string['configstoredetails'] = 'Se esta configuração estiver ativa, então os detalhes XML das tentativas nos HotPot serão guardados na tabela hotpot_details. Isto permite visualizar as tentativas para serem reclassificadas no futuro de forma a refletir as mudanças no sistema de pontuação nos testes HotPot. No entanto, ativar esta opção em um local ocupado fará com que a tabela hotpot_details possa crescer muito rapidamente.';
+$string['configstoredetails'] = 'Se ativar esta opção, os detalhes XML das tentativas nos HotPot serão guardados na tabela \'hotpot_details\'. Isto permite visualizar as tentativas para serem reavaliadas no futuro de forma a refletir as mudanças no sistema de pontuação nos testes HotPot. No entanto, ativar esta opção, num site com muitos testes HotPot, fará com que a tabela \'hotpot_details\' possa crescer muito rapidamente.';
 $string['confirmdeleteattempts'] = 'Tem a certeza de que pretende apagar estas tentativas?';
 $string['confirmstop'] = 'Tem a certeza de que pretende sair desta página?';
 $string['correct'] = 'Correto';
@@ -187,7 +187,7 @@ $string['event_attempt_started'] = 'Tentativa HotPot iniciada';
 $string['event_attempt_started_description'] = 'O utilizador com id "{$a->userid}" iniciou uma tentativa da atividade "HotPot" no módulo da disciplina com id "{$a->cmid}"';
 $string['event_attempt_started_explanation'] = 'Um utilizador acaba de iniciar uma tentativa de uma atividade HotPot';
 $string['event_attempt_submitted'] = 'Tentativa HotPot submetida';
-$string['event_attempt_submitted_description'] = 'O utilizador com id "{$a->userid}" submeteu uma tentativa da atividade "HotPot" no módulo da disciplina com id "{$a->cmid}"';
+$string['event_attempt_submitted_description'] = 'O utilizador com ID "{$a->userid}" submeteu uma tentativa da atividade "HotPot" no módulo da disciplina com ID "{$a->cmid}"';
 $string['event_attempt_submitted_explanation'] = 'Um utilizador acaba de submeter uma tentativa de uma atividade HotPot';
 $string['event_base'] = 'Evento HotPot detetada';
 $string['event_base_description'] = 'O utilizador com id "{$a->userid}" iniciou evento na atividade "HotPot" do módulo da disciplina com id "{$a->cmid}"';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploadcourse', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploadcourse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -92,9 +92,12 @@ $string['invalidcourseformat'] = 'Ongeldig cursusformaat';
 $string['invalidcsvfile'] = 'Ongeldig input CSV-bestand';
 $string['invalidencoding'] = 'Ongeldige encoding';
 $string['invalideupdatemode'] = 'Ongeldige aanpasmodus geselecteerd';
+$string['invalidfullnametoolong'] = 'Het veld voor de volledige naam is beperkt tot {$a} tekens';
 $string['invalidmode'] = 'Ongeldige modus geselecteerd';
 $string['invalidroles'] = 'Ongeldige rolnamen: {$a}';
 $string['invalidshortname'] = 'Ongeldige korte naam';
+$string['invalidshortnametoolong'] = 'Het veld voor de korte naam is beperkt tot {$a} tekens';
+$string['invalidvisibilitymode'] = 'Ongeldige zichtbaarheidsmodus opgegeven';
 $string['missingmandatoryfields'] = 'Ontbrekende waarde voor verplichte velden: {$a}';
 $string['missingshortnamenotemplate'] = 'Ontbrekende korte naam en sjabloon voor korte naam niet ingesteld';
 $string['mode'] = 'Uploadmodus';

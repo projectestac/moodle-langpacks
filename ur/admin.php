@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'admin', language 'ur', branch 'MOODLE_36_STABLE'
+ * Strings for component 'admin', language 'ur', branch 'MOODLE_38_STABLE'
  *
  * @package   admin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,7 +108,7 @@ $string['mymoodle'] = 'میرا موڈل';
 $string['noresults'] = 'کوئی نتیجہ نہیں ملا';
 $string['notifications'] = 'اطلاعات';
 $string['notloggedinroleid'] = 'معائن کا کردار';
-$string['opentogoogle'] = 'گوگل کی طرف کھولیں';
+$string['opentowebcrawlers'] = 'گوگل کی طرف کھولیں';
 $string['order1'] = 'پہلا';
 $string['order2'] = 'دوسرا';
 $string['order3'] = 'تیسرا';
@@ -141,6 +141,8 @@ $string['sitemailcharset'] = 'حروف تہجی';
 $string['stats'] = 'اعداد و شمار';
 $string['stickyblockscourseview'] = 'کورس کا صفحہ';
 $string['stickyblocksmymoodle'] = 'میرا موڈل';
+$string['task_duration'] = 'مدت';
+$string['task_starttime'] = 'شروع ہونے کا وقت';
 $string['therewereerrors'] = 'ڈیٹا میں خرابیاں ہیں';
 $string['upgradesettings'] = 'نئی تشکیلات';
 $string['upwards'] = 'اوپر کی جانب';

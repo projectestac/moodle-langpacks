@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_database', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -76,5 +76,6 @@ $string['settingsheaderdb'] = 'Σύνδεση εξωτερικής βάσης δ
 $string['settingsheaderlocal'] = 'Τοπική αντιστοίχιση πεδίων';
 $string['settingsheadernewcourses'] = 'Δημιουργία νέων μαθημάτων';
 $string['settingsheaderremote'] = 'Απομακρυσμένος συγχρονισμός εγγραφής';
+$string['syncenrolmentstask'] = 'Συγχρονισμός εργασιών εξωτερικών εγγραφών βάσης δεδομένων';
 $string['templatecourse'] = 'Υπόδειγμα νέου μαθήματος';
 $string['templatecourse_desc'] = 'Προαιρετικά: τα αυτόματα δημιουργούμενα μαθήματα μπορούν να αντιγράψουν τις ρυθμίσεις τους από ένα υπόδειγμα μαθήματος. Πληκτρολογήστε εδώ το σύντομο όνομα του υποδείγματος μαθήματος.';

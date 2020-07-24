@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,36 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['asyncbackupcomplete'] = 'O processo de cópia de segurança está concluído';
+$string['asyncbackupcompletebutton'] = 'Continuar';
+$string['asyncbackupcompletedetail'] = 'O processo de cópia de segurança foi concluído com sucesso.<br/>Pode aceder à cópia de segurança na <a href="{$a}">página de restauro</a>.';
+$string['asyncbackuperror'] = 'Ocorreu um erro no processo de cópia de segurança';
+$string['asyncbackuperrordetail'] = 'Ocorreu um erro no processo de cópia de segurança. Por favor, contacte o administrador do sistema.';
+$string['asyncbackuppending'] = 'O processo de cópia de segurança está pendente';
+$string['asyncbackupprocessing'] = 'A cópia de segurança está em andamento';
+$string['asyncbadexecution'] = 'Execução incorreta do controlador de cópia de segurança, é {$a} mas devia ser 2';
+$string['asynccheckprogress'] = 'A qualquer instante, pode acompanhar o progresso na <a href="{$a}">página de restauro</a>.';
+$string['asyncemailenable'] = 'Ativar mensagens de notificação';
+$string['asyncemailenabledetail'] = 'Se ativar esta opção, os utilizadores receberão uma mensagem quando um restauro/cópia de segurança assíncrona for concluída';
+$string['asyncgeneralsettings'] = 'Configurações gerais do restauro/cópia de segurança assíncrona';
+$string['asyncmessagebody'] = 'Mensagem';
+$string['asyncmessagebodydefault'] = 'Olá {user_firstname} {user_lastname}, <br/>A operação \'{operation}\' (ID: {backupid}) foi concluída com sucesso! <br/><br/>Pode consultar os detalhes aqui {link}.<br/>Sinceramente,<br/>Administrator Moodle.';
+$string['asyncmessagebodydetail'] = 'Mensagem a enviar quando um restauro/cópia de segurança assíncrona for concluída.';
+$string['asyncmessagesubject'] = 'Assunto';
+$string['asyncmessagesubjectdefault'] = '\'{operation}\' Moodle concluída com sucesso';
+$string['asyncmessagesubjectdetail'] = 'Assunto da mensagem';
+$string['asyncnowait'] = 'Não precisa de aguardar, o processo continuará em segundo plano.';
+$string['asyncprocesspending'] = 'Processo pendente';
+$string['asyncrestorecomplete'] = 'O processo de restauro está concluído';
+$string['asyncrestorecompletebutton'] = 'Continuar';
+$string['asyncrestorecompletedetail'] = 'O processo de restauro foi concluído com sucesso. Clique em continuar para ir para a <a href="{$a}">disciplina do item restaurado</a>.';
+$string['asyncrestoreerror'] = 'Ocorreu um erro no processo de restauro';
+$string['asyncrestoreerrordetail'] = 'Ocorreu um erro no processo de restauro. Por favor, contacte o administrador do sistema.';
+$string['asyncrestoreinprogress'] = 'Restauros em andamento';
+$string['asyncrestoreinprogress_help'] = 'Os restauros assíncronos de disciplinas que estão em andamento são mostradas aqui.';
+$string['asyncrestorepending'] = 'O processo de restauro está pendente';
+$string['asyncrestoreprocessing'] = 'Restauro em andamento';
+$string['asyncreturn'] = 'Voltar à disciplina';
 $string['autoactivedescription'] = 'Indique se pretende realizar cópias de segurança automáticas. Se escolher "Manual", apenas será possível realizar cópias de segurança automáticas através de script CLI. Isto pode ser feito manualmente na linha de comandos ou via cron.';
 $string['autoactivedisabled'] = 'Desativado';
 $string['autoactiveenabled'] = 'Ativado';
@@ -64,6 +94,7 @@ $string['backupmode30'] = 'Hub';
 $string['backupmode40'] = 'Mesmo site';
 $string['backupmode50'] = 'Automatizado';
 $string['backupmode60'] = 'Convertido';
+$string['backupmode70'] = 'Assíncrona';
 $string['backupsection'] = 'Secção da disciplina da cópia de segurança: {$a}';
 $string['backupsettings'] = 'Configurações da cópia de segurança';
 $string['backupsitedetails'] = 'Detalhes do site';
@@ -93,11 +124,12 @@ $string['configgeneralblocks'] = 'Se ativar esta opção, os blocos serão inclu
 $string['configgeneralcalendarevents'] = 'Define como predefinição a inclusão dos eventos de calendário na cópia de segurança.';
 $string['configgeneralcomments'] = 'Se ativar esta opção, os comentários serão incluídos nas cópias de segurança.';
 $string['configgeneralcompetencies'] = 'Define como predefinição a inclusão das competências na cópia de segurança.';
+$string['configgeneralfiles'] = 'Define a predefinição para a opção de inclusão de ficheiros na cópia de segurança. Nota: desativar esta configuração resultará numa cópia de segurança que inclui apenas referências a ficheiros. Isto não é um problema se a cópia de segurança for restaurada no mesmo site e os ficheiros não tiverem sido apagados, de acordo com a configuração \'Limpar repositório de ficheiros de lixo\' (filescleanupperiod).';
 $string['configgeneralfilters'] = 'Se ativar esta opção, os filtros serão incluídos nas cópias de segurança';
 $string['configgeneralgroups'] = 'Se ativar esta opção, os grupos e agrupamentos serão incluídos nas cópia de segurança.';
 $string['configgeneralhistories'] = 'Se ativar esta opção, o histórico dos utilizadores será incluído nas cópias de segurança.';
 $string['configgenerallogs'] = 'Se ativar esta opção, os registos de atividade (logs) serão incluídos nas cópias de segurança.';
-$string['configgeneralquestionbank'] = 'Se ativar esta opção, a base de dados de perguntas será incluída nas cópias de segurança por predefinição. <strong>Atenção</strong>: Desativar esta configuração irá desativar a cópia de segurança das atividades que usam a base de dados de perguntas, como por exemplo o Teste.';
+$string['configgeneralquestionbank'] = 'Se ativar esta opção, a base de dados de perguntas será incluída nas cópias de segurança por predefinição. <strong>Atenção</strong>: Desativar esta configuração irá desativar a cópia de segurança das atividades que usam a base de dados de perguntas, como por exemplo, o Teste.';
 $string['configgeneralroleassignments'] = 'Se ativar esta opção, as atribuições de papéis serão incluídas nas cópias de segurança.';
 $string['configgeneralusers'] = 'Se ativar esta opção, a informação dos utilizadores será incluída nas cópias de segurança.';
 $string['configgeneraluserscompletion'] = 'Se ativar esta opção, a informação sobre a conclusão da disciplina pelos utilizadores será incluída nas cópias de segurança.';
@@ -140,6 +172,8 @@ $string['currentstage16'] = 'Conclusão';
 $string['currentstage2'] = 'Configuração da estrutura';
 $string['currentstage4'] = 'Revisão';
 $string['currentstage8'] = 'Processamento';
+$string['enableasyncbackup'] = 'Ativar cópias de segurança';
+$string['enableasyncbackup_help'] = 'Se ativar esta opção, todas as operações de cópia de segurança e restauro serão executadas de forma assíncrona. Isto não afeta importações e exportações. Cópias de segurança e restauros assíncronos permitem que os utilizadores executem outras operações enquanto uma cópia de segurança ou restauro está em andamento.';
 $string['enterasearch'] = 'Insira uma pesquisa';
 $string['error_block_for_module_not_found'] = 'Foi encontrada uma instância para bloco (id: {$a->bid}) para a disciplina (id: {$a->mid}). Este bloco não pode ser incluído.';
 $string['errorcopyingbackupfile'] = 'Erro ao copiar o ficheiro da cópia de segurança para a pasta temporária antes de proceder ao restauro.';
@@ -152,6 +186,7 @@ $string['errorinvalidformatinfo'] = 'O ficheiro selecionado não é um ficheiro 
 $string['errorminbackup20version'] = 'Esta cópia de segurança foi criada com uma versão de desenvolvimento do Moodle ({$a->backup}). A versão mínima necessária é {$a->min}. O restauro não pode continuar.';
 $string['errorrestorefrontpagebackup'] = 'Apenas pode restaurar cópias de segurança a partir da página principal';
 $string['executionsuccess'] = 'O ficheiro da cópia de segurança foi criado com sucesso.';
+$string['failed'] = 'Falhou a cópia de segurança';
 $string['filealiasesrestorefailures'] = 'Não foi possível restaurar os atalhos';
 $string['filealiasesrestorefailures_help'] = 'Atalhos são ligações a outros ficheiros, incluindo os que se encontram em repositórios externos. Em alguns casos, o Moodle não consegue restaurá-los, como acontece ao fazer o restauro a partir de outro site ou quando os ficheiros ligados não existem.';
 $string['filealiasesrestorefailuresinfo'] = 'Alguns atalhos incluídos no ficheiro da cópia de segurança não puderam ser restaurados. A lista seguinte contém a sua localização e o ficheiro de origem, tal como são referidos no site original.';
@@ -169,6 +204,7 @@ $string['generalcalendarevents'] = 'Incluir eventos de calendário';
 $string['generalcomments'] = 'Incluir comentários';
 $string['generalcompetencies'] = 'Incluir competências';
 $string['generalenrolments'] = 'Incluir os métodos de inscrição';
+$string['generalfiles'] = 'Incluir ficheiros';
 $string['generalfilters'] = 'Incluir filtros';
 $string['generalgradehistories'] = 'Incluir históricos';
 $string['generalgroups'] = 'Incluir grupos e agrupamentos';
@@ -199,7 +235,7 @@ $string['importgeneralduplicateadminallowed_desc'] = 'Se o site tem uma conta co
 $string['importgeneralmaxresults'] = 'Número máximo de disciplinas listadas para importação';
 $string['importgeneralmaxresults_desc'] = 'Isto controla o número de disciplinas que são listadas durante o primeiro passo do processo de importação';
 $string['importgeneralsettings'] = 'Configurações predefinidas de importação';
-$string['importrootsettings'] = 'Importar definições';
+$string['importrootsettings'] = 'Importar configurações';
 $string['importsettings'] = 'Configurações gerais de importação';
 $string['importsuccess'] = 'A importação foi concluída. Clique para prosseguir para a disciplina.';
 $string['includeactivities'] = 'Incluir:';
@@ -207,6 +243,7 @@ $string['includeditems'] = 'Itens incluídos:';
 $string['includefilereferences'] = 'Referências a conteúdos externos';
 $string['includesection'] = 'Secção {$a}';
 $string['includeuserinfo'] = 'Informação do utilizador';
+$string['inprogress'] = 'Cópia de segurança em andamento';
 $string['jumptofinalstep'] = 'Ir para etapa final';
 $string['keep'] = 'Manter';
 $string['locked'] = 'Bloqueado(a)';
@@ -220,11 +257,15 @@ $string['missingfilesinpool'] = 'Não foi possível guardar alguns ficheiros dur
 $string['module'] = 'Módulo';
 $string['moodleversion'] = 'Versão do Moodle';
 $string['morecoursesearchresults'] = 'Foram encontradas mais do que {$a} disciplinas, a exibir os primeiros {$a} resultados';
-$string['moreresults'] = 'Existem demasiados resultado. Proceda a uma pesquisa mais específica';
+$string['moreresults'] = 'Existem demasiados resultados. Proceda a uma pesquisa mais específica.';
 $string['nomatchingcourses'] = 'Não existem disciplina para mostrar';
 $string['norestoreoptions'] = 'Não existem categorias ou disciplinas para onde possa restaurar.';
 $string['originalwwwroot'] = 'URL da cópia de segurança';
 $string['overwrite'] = 'Substituir';
+$string['pendingasyncdeletedetail'] = 'Esta disciplina tem uma cópia de segurança assíncrona pendente.<br/> As disciplinas não podem ser apagadas até que esta cópia de segurança seja concluída.';
+$string['pendingasyncdetail'] = 'As cópias de segurança assíncronas permitem que apenas um utilizador tenha uma cópia de segurança pendente para um recurso de cada vez.<br/>Várias cópias de segurança assíncronas do mesmo recurso não podem ser colocadas em fila de espera, uma vez que provavelmente resultaria em várias cópias de segurança com o mesmo conteúdo.';
+$string['pendingasyncedit'] = 'Existe uma cópia de segurança assíncrona pendente para esta disciplina. Por favor, não edite esta disciplina até que a cópia de segurança esteja completa.';
+$string['pendingasyncerror'] = 'Cópia de segurança pendente para este recurso';
 $string['preparingdata'] = 'A preparar dados';
 $string['preparingui'] = 'A preparar a exibição da página';
 $string['previousstage'] = 'Anterior';
@@ -286,10 +327,12 @@ $string['rootsettingblocks'] = 'Incluir blocos';
 $string['rootsettingcalendarevents'] = 'Incluir eventos de calendário';
 $string['rootsettingcomments'] = 'Incluir comentários';
 $string['rootsettingcompetencies'] = 'Incluir competências';
+$string['rootsettingcustomfield'] = 'Incluir campos personalizados';
 $string['rootsettingenrolments'] = 'Incluir os métodos de inscrição';
 $string['rootsettingenrolments_always'] = 'Sim, sempre';
 $string['rootsettingenrolments_never'] = 'Não, restaurar os utilizadores como inscrições manuais';
 $string['rootsettingenrolments_withusers'] = 'Sim, mas apenas se os utilizadores estão incluídos';
+$string['rootsettingfiles'] = 'Incluir ficheiros';
 $string['rootsettingfilters'] = 'Incluir filtros';
 $string['rootsettinggradehistories'] = 'Incluir histórico das notas';
 $string['rootsettinggroups'] = 'Incluir grupos e agrupamentos';
@@ -301,6 +344,7 @@ $string['rootsettingroleassignments'] = 'Incluir atribuições de papéis';
 $string['rootsettings'] = 'Configuração inicial';
 $string['rootsettingusers'] = 'Incluir utilizadores inscritos';
 $string['rootsettinguserscompletion'] = 'Incluir detalhes da conclusão dos utilizadores';
+$string['samesitenotification'] = 'Esta cópia de segurança foi criada apenas com referências a ficheiros, não os ficheiros em si. O restauro da cópia apenas funcionará neste site.';
 $string['sectionactivities'] = 'Atividades';
 $string['sectioninc'] = 'Incluído na cópia de segurança (sem informação de utilizadores)';
 $string['sectionincanduser'] = 'Incluído na cópia de segurança juntamente com a informação dos utilizadores';
@@ -323,9 +367,12 @@ $string['skipmodifdays'] = 'Ignorar disciplinas que não foram modificadas há';
 $string['skipmodifdayshelp'] = 'Determina se as disciplinas que não foram modificadas há um determinado número de dias são ignoradas';
 $string['skipmodifprev'] = 'Ignorar disciplinas que não foram modificadas desde a cópia de segurança anterior';
 $string['skipmodifprevhelp'] = 'Selecione se as disciplinas que não foram modificadas desde a última cópia de segurança devem ser ou não ignoradas. Esta ação requer o registo de ações ativado.';
+$string['status'] = 'Estado';
 $string['storagecourseandexternal'] = 'Área de ficheiros das cópias de segurança da disciplina e pasta escolhida';
 $string['storagecourseonly'] = 'Área de ficheiros das cópias de segurança da disciplina';
 $string['storageexternalonly'] = 'Pasta escolhida para a cópias de segurança automáticas';
+$string['successful'] = 'Cópia de segurança criada com sucesso';
+$string['successfulrestore'] = 'Restauro efetuado com sucesso';
 $string['timetaken'] = 'Tempo gasto';
 $string['title'] = 'Título';
 $string['totalcategorysearchresults'] = 'Total de categorias: {$a}';

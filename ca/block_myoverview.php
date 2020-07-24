@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myoverview', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_myoverview', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   block_myoverview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,9 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addtofavourites'] = 'Destaca el curs';
-$string['all'] = 'Tots';
+$string['all'] = 'Tots (excepte els amagats)';
+$string['allincludinghidden'] = 'Tots';
 $string['aria:addtofavourites'] = 'Destaca';
-$string['aria:allcourses'] = 'Tots els cursos';
+$string['aria:allcourses'] = 'Tots els cursos excepte els cursos ocults';
 $string['aria:card'] = 'Canvia a vista de targetes';
 $string['aria:controls'] = 'Controls del resum de cursos';
 $string['aria:courseactions'] = 'Accions per al curs actual';
@@ -51,9 +52,12 @@ $string['aria:title'] = 'Ordena els cursos pel nom del curs';
 $string['card'] = 'Targeta';
 $string['cards'] = 'Targetes';
 $string['complete'] = 'complet';
+$string['completepercent'] = '{$a}% complet';
 $string['courseprogress'] = 'Progrés del curs:';
 $string['defaulttab'] = 'Pestanya per defecte';
 $string['defaulttab_desc'] = 'La pestanya que es mostrarà per defecte quan un usuari veu per primera vegada el resum dels seus cursos. Quan torne al resum dels cursos, es recordarà la pestanya activa de l\'usuari';
+$string['displaycategories'] = 'Mostra les categories';
+$string['displaycategories_help'] = 'Mostra les categories de curs en els elements de curs del tauler incloent targetes, elements de llista i elements de resum.';
 $string['favourites'] = 'Destacats';
 $string['future'] = 'Futurs';
 $string['hidden'] = 'Cursos amagats';
@@ -63,7 +67,6 @@ $string['inprogress'] = 'Actuals';
 $string['lastaccessed'] = 'Accedits recentment';
 $string['list'] = 'Llista';
 $string['morecourses'] = 'Més cursos';
-$string['myoverview:addinstance'] = 'Afegeix un bloc nou de resum del curs';
 $string['myoverview:myaddinstance'] = 'Afegeix un bloc nou de resum del curs al Tauler';
 $string['next30days'] = 'Propers 30 dies';
 $string['next7days'] = 'Propers 7 dies';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   block
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,7 +39,7 @@ $string['contexts_help'] = 'Testuinguruak orri-mota bereziagoak dira zeinetan bl
 $string['createdat'] = 'Blokearen jatorrizko kokapena';
 $string['createdat_help'] = 'Blokea sortu zeneko jatorrizko kokapena. Blokearen ezarpenen arabera bestelako kokapenetan (testuinguruak) ager daiteke blokea jatorrizko kokapenaz gain. Adibidez, ikastaro baten hasiera orrian sortutako bloke bat ikastaro horretako jardueretan erakus daiteke. Hasiera-orrian sortutako bloke bat gune osoan zehar erakus daiteke.';
 $string['defaultregion'] = 'Lehenetsitako kokapena';
-$string['defaultregion_help'] = 'Itxurek blokeak erakusteko bloke-eremu bat edo gehiago zehaztu ditzakete. Ezarpen honek bloke hau modu lehenetsian horietako zeinetan erakutsi behar den zehazten du. Orri zehatzetan eremua baliogabetu daiteke hala behar izanez gero.';
+$string['defaultregion_help'] = 'Azalek blokeak erakusteko bloke-eremu bat edo gehiago zehaztu ditzakete. Ezarpen honek bloke hau modu lehenetsian horietako zeinetan erakutsi behar den zehazten du. Orri zehatzetan eremua baliogabetu daiteke hala behar izanez gero.';
 $string['defaultweight'] = 'Lehenetsitako pisua';
 $string['defaultweight_help'] = 'Lehenetsitako pisuak hautatutako bloke-eremuaren barruan blokea gutxi gorabehera non agertu behar den zehazteko balio du, goialdean edo behealdean. Behin betiko kokapena bloke-eremuko bloke guztiak kontuan izanda kalkulatzen da (bloke bakarra egon daiteke goialdean, adibidez). Orri zehatzetan eremua baliogabetu daiteke hala behar izanez gero.';
 $string['deleteblock'] = 'Ezabatu {$a} blokea';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_guide', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,15 +25,18 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addcomment'] = 'Gehitu maiz erabiltzen diren iruzkinak';
+$string['addcomment'] = 'Gehitu maiz erabilitako iruzkinak';
 $string['addcriterion'] = 'Gehitu irizpidea';
+$string['additionalcomments'] = 'Iruzkin gehigarriak';
+$string['additionalcommentsforcriterion'] = 'Irizpidearentzako iruzkin gehigarriak, {$a}';
 $string['alwaysshowdefinition'] = 'Erakutsi gidaren definizioa ikasleei';
 $string['backtoediting'] = 'Itzuli ediziora';
 $string['clicktocopy'] = 'Egin klik testu hau irizpidearen feedbackean kopiatzeko';
 $string['clicktoedit'] = 'Egin klik editatzeko';
 $string['clicktoeditname'] = 'Egin klik irizpidearen izena editatzeko';
 $string['comment'] = 'Iruzkina';
-$string['comments'] = 'Maiz erabiltzen diren iruzkinak';
+$string['commentpickerforcriterion'] = '{$a}-(e)ko iruzkin gehigarrietarako maiz erabilitako iruzkinen hautatzailea';
+$string['comments'] = 'Maiz erabiltako iruzkinak';
 $string['commentsdelete'] = 'Ezabatu iruzkina';
 $string['commentsempty'] = 'Egin klik iruzkina editatzeko';
 $string['commentsmovedown'] = 'Mugitu behera';
@@ -70,10 +73,12 @@ $string['guideoptions'] = 'Ebaluazio-gidaren aukerak';
 $string['guidestatus'] = 'Ebaluazio-gidaren oraingo egoera';
 $string['hidemarkerdesc'] = 'Ezkutatu kalifikatzailearen irizpideen deskribapenak';
 $string['hidestudentdesc'] = 'Ezkutatu ikaslearen irizpideen deskribapenak';
-$string['insertcomment'] = 'Txertatu gehien erabilitako iruzkina';
+$string['informationforcriterion'] = '{$a} informazioa';
+$string['insertcomment'] = 'Txertatu maiz erabilitako iruzkina';
 $string['maxscore'] = 'Gehienezko puntuazioa';
 $string['name'] = 'Izena';
 $string['needregrademessage'] = 'Ebaluazio-gidaren definizioa aldatu da ikasle hau kalifikatu ondoren. Ikasleak ezin du ikusi kalifikazio-gida, zuk gida egiaztatu eta kalifikazioa eguneratu arte.';
+$string['outof'] = '{$a}-(e)rarteko puntuazioa';
 $string['pluginname'] = 'Ebaluazio-gida';
 $string['previewmarkingguide'] = 'Aurreikusi ebaluazio-gida';
 $string['privacy:metadata:criterionid'] = 'Kalifikazio aurreraturako irizpide baten identifikatzailea';
@@ -92,6 +97,8 @@ $string['save'] = 'Gorde';
 $string['saveguide'] = 'Gorde ebaluazio-gida eta utzi erabiltzeko prest';
 $string['saveguidedraft'] = 'Gorde zirriborro gisa';
 $string['score'] = 'puntuazioa';
+$string['scoreforcriterion'] = '{$a} puntuazioa';
+$string['score_help'] = 'Zehaztu {$a->criterion} irizpiderako 0 eta {$a->maxscore} arteko puntuazioa.';
 $string['showmarkerdesc'] = 'Erakutsi kalifikatzailearen irizpideen deskribapenak';
 $string['showmarkspercriterionstudents'] = 'Erakutsi ikasleei irizpide bakoitzearen kalifikazioak';
 $string['showstudentdesc'] = 'Erakutsi Ikasleen irizpideen deskribapenak';

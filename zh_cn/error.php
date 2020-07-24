@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'error', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -433,7 +433,7 @@ $string['noguest'] = '没有访客！';
 $string['noinstances'] = '在本课程中没有 {$a}！';
 $string['nologinas'] = '您不允许登录为此用户';
 $string['nonmeaningfulcontent'] = '无意义的内容';
-$string['noparticipants'] = '未找到此课程的参与者';
+$string['noparticipants'] = '本课程没有参与者';
 $string['noparticipatorycms'] = '很抱歉，您没有可参与的课程模块来生成报表';
 $string['nopermissions'] = '很抱歉，您没有相应权限（{$a}）';
 $string['nopermissiontocomment'] = '你不能添加评论';
@@ -446,7 +446,7 @@ $string['nopermissiontomanagegroup'] = '您没有权限管理组';
 $string['nopermissiontorate'] = '项目不允许评分';
 $string['nopermissiontoshow'] = '没有浏览权限！';
 $string['nopermissiontounlock'] = '没有解锁的权限！';
-$string['nopermissiontoupdatecalendar'] = '抱歉，您现在还没有更新日历事件的权限';
+$string['nopermissiontoupdatecalendar'] = '对不起，您没有权限更新日历事件。';
 $string['nopermissiontoviewgrades'] = '不能查看成绩。';
 $string['nopermissiontoviewletergrade'] = '没有查看分数段的权限';
 $string['nopermissiontoviewpage'] = '您不允许浏览这个页面';
@@ -498,7 +498,7 @@ $string['scheduledbackupsdisabled'] = '预定文件备份已经被管理员禁�
 $string['secretalreadyused'] = '更改密码的确认链接已经被使用，密码没有改变';
 $string['sectionnotexist'] = '小节不存在';
 $string['sendmessage'] = '发消息';
-$string['serverconnection'] = '连接到服务器出错';
+$string['serverconnection'] = '连接到服务器时出错';
 $string['servicedonotexist'] = '该服务不存在';
 $string['sessioncookiesdisable'] = '错误使用 require_key_login() —— 一定是会话 cookies 被禁用了！';
 $string['sessiondiskfull'] = '会话分区已满。现在不能登录。请通知服务器管理员。';
@@ -571,7 +571,7 @@ $string['userauthunsupported'] = '这里不支持验证插件';
 $string['useremailduplicate'] = '地址重复';
 $string['usermustbemnet'] = 'MNET访问控制列表中的用户必须是远程MNET用户';
 $string['usernamelowercase'] = '用户名必须小写';
-$string['usernotaddederror'] = '用户未添加 — 出错';
+$string['usernotaddederror'] = '用户未添加-错误';
 $string['usernotaddedregistered'] = '用户未添加――已经注册过了';
 $string['usernotavailable'] = '此用户的详细信息对您不可见';
 $string['usernotdeletedadmin'] = '用户未删除——不能删除管理员账户';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'feedback', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -137,9 +137,16 @@ $string['horizontal'] = 'Οριζόντια';
 $string['importfromthisfile'] = 'Εισαγωγή από αυτό το αρχείο';
 $string['import_questions'] = 'Εισαγωγή ερωτήσεων';
 $string['import_successfully'] = 'Εισαγωγή επιτυχημένη';
+$string['includeuserinrecipientslist'] = 'Συμπερίληψη {$a} στη λίστα των παραληπτών';
 $string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Ανατροφοδότησης';
+$string['indicator:cognitivedepthdef'] = 'Βάθος κατανόησης Ανατροφοδότησης';
+$string['indicator:cognitivedepthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο βάθος κατανόησης που προσφέρεται από τις δραστηριότητες ανατροφοδότησης κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία εμφάνιση, Εμφάνιση, Υποβολή)';
+$string['indicator:cognitivedepthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Βάθος_κατανόησης';
 $string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Ανατροφοδότησης.';
 $string['indicator:socialbreadth'] = 'Κοινωνικό εύρος Ανατροφοδότησης';
+$string['indicator:socialbreadthdef'] = 'Κοινωνικό εύρος Ανατροφοδότησης';
+$string['indicator:socialbreadthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο κοινωνικό εύρος που προσφέρεται από τις δραστηριότητες ανατροφοδότησης κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία συμμετοχή, Συμμετέχων μόνος, Συμμετέχων με άλλους)';
+$string['indicator:socialbreadthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Κοινωνικό_εύρος';
 $string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Ανατροφοδότησης.';
 $string['info'] = 'Πληροφορίες';
 $string['infotype'] = 'Τύπος πληροφοριών';

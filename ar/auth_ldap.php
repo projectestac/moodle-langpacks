@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,8 +36,6 @@ $string['auth_ldap_contexts'] = 'قائمة السياقات الموجود به
 $string['auth_ldap_contexts_key'] = 'صياغ';
 $string['auth_ldap_create_context'] = 'لو مكّنت إنشاء المستخدم بتأكيد البريد الإلكترونيّ, حدّد السّياق إنشاء مستخدمون . يجب أن يكون هذا السّياق مختلف عن المستخدمين الآخرين لمنع القضايا الأمنيّة . لا تحتاج لإضافة هذا السّياق سياق الـمتغير(ldap_context-variable) مودل سيبحث عن المستخدمين من هذا السّياق تلقائيًّا';
 $string['auth_ldap_create_context_key'] = 'الصياغ للمستخدمين الجدد';
-$string['auth_ldap_creators'] = 'قائمة الجماعات التى يُسْمَح لأعضائها القيام بانشاء مناهج دراسية جديدة. أفصل بين الجماعات المتعدّدة بـ ";" عادة على الشكل التالي (cn=teachers,ou=staff,o=myorg)';
-$string['auth_ldap_creators_key'] = 'منشؤن';
 $string['auth_ldapdescription'] = 'هذا الأسلوب يقدم التوثيق في مقابل مزود خارجي لبروتوكول الدخول على الدليل الخفيف LDAP.
 إذا كان كل من اسم المستخدم وكلمة المرور صحيحا فإن نظام Moodle يقوم بإنشاء إدخال مستخدم جديد في قاعدة بياناته. ويمكن لهذه الوحدة النمطية قراءة سمات المستخدم من بروتوكول الدخول على الدليل الخفيف LDAP  وملء الحقول المطلوبة في نظام Moodle  . ولا يحتاج عند الدخول لاحقا سوى إلى التحقق من اسم المستخدم وكلمة المرور.';
 $string['auth_ldap_expiration_key'] = 'أنتهاء تاريخ الصلاحية';

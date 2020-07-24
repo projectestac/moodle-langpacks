@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_rubric', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_rubric', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addcriterion'] = 'Добавить критерий';
+$string['additionalfeedback'] = 'Дополнительный отзыв';
 $string['alwaysshowdefinition'] = 'Разрешить пользователям просматривать рубрики (иначе рубрики будут доступны только после оценки)';
 $string['backtoediting'] = 'Вернуться к редактированию';
 $string['confirmdeletecriterion'] = 'Вы уверены, что хотите удалить этот критерий?';

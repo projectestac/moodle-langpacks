@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_self', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,7 +75,7 @@ $string['self:manage'] = 'Hantera registrerade användare';
 $string['self:unenrol'] = 'Koppla bort användare från kursen';
 $string['self:unenrolself'] = 'Koppla bort sig själv från kursen';
 $string['sendcoursewelcomemessage'] = 'Skicka välkomstmeddelande';
-$string['sendcoursewelcomemessage_help'] = 'Om aktiverad får användaren ett välkomstmeddelande via epost då denne kopplar sig till kursen.';
+$string['sendcoursewelcomemessage_help'] = 'Om aktiverad får användaren ett välkomstmeddelande via epost då hen kopplar sig till kursen.';
 $string['showhint'] = 'Visa ledtråd';
 $string['showhint_desc'] = 'Visa första bokstaven i gäst-nyckeln.';
 $string['status'] = 'Aktivera befintliga registreringar';

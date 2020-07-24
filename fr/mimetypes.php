@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mimetypes', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'mimetypes', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   mimetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['application/dash_xml'] = 'Diffusion en flux adaptatif dynamique sur HTTP (MPEG-DASH)';
 $string['application/epub_zip'] = 'Ebook EPUB';
 $string['application/json'] = 'Texte {$a->MIMETYPE2}';
 $string['application/msword'] = 'Document Word';
@@ -48,6 +49,7 @@ $string['application/x-iwork-keynote-sffkey'] = 'Présentation iWork Keynote';
 $string['application/x-iwork-numbers-sffnumbers'] = 'Feuille de calcul iWork Numbers';
 $string['application/x-iwork-pages-sffpages'] = 'Document iWork Pages';
 $string['application/x-javascript'] = 'Source JavaScript';
+$string['application/x-mpegURL'] = 'Flux HTTP direct (HLS)';
 $string['application/x-mspublisher'] = 'Documents Publisher';
 $string['application/x-shockwave-flash'] = 'Animation flash';
 $string['archive'] = 'Archive ({$a->EXT})';
@@ -61,6 +63,7 @@ $string['group:html_audio'] = 'Fichiers audio supportés nativement par les navi
 $string['group:html_track'] = 'Fichiers de piste HTML';
 $string['group:html_video'] = 'Fichiers vidéo supportés nativement par les navigateurs';
 $string['group:image'] = 'Fichiers image';
+$string['group:media_source'] = 'Diffusion de média';
 $string['group:presentation'] = 'Fichiers de présentation';
 $string['group:sourcecode'] = 'Code source';
 $string['group:spreadsheet'] = 'Fichiers feuille de calcul';

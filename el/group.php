@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'group', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   group
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -137,18 +137,18 @@ $string['groupsvisible'] = 'Ορατές ομάδες';
 $string['grouptemplate'] = 'Ομάδα @';
 $string['hidepicture'] = 'Απόκρυψη εικόνας';
 $string['importgroups'] = 'Εισαγωγή ομάδων';
-$string['importgroups_help'] = 'Οι ομάδες μπορούν να εισαχθούν μέσω αρχείου κειμένου. Ο μορφότυπος του αρχείου θα πρέπει να είναι ο εξής:
+$string['importgroups_help'] = 'Οι ομάδες μπορούν να εισαχθούν μέσω αρχείου κειμένου. Ο μορφότυπος του αρχείου θα πρέπει να είναι ως εξής:
 
-* Κάθε γραμμή του αρχείου περιέχει μία εγγραφή
+ * Κάθε γραμμή του αρχείου περιέχει μία εγγραφή
 * Κάθε εγγραφή είναι μια σειρά δεδομένων που χωρίζονται με κόμματα
-* Η πρώτη εγγραφή περιέχει μια λίστα ονομάτων πεδίων που καθορίζουν το μορφότυπο του υπόλοιπου αρχείου
-* Απαιτούμενο όνομα πεδίου είναι το «groupname» (όνομα ομάδας)
-* Προαιρετικά ονόματα πεδίων είναι «description» (περιγραφή), «enrolmentkey» (κλειδί εγγραφής), «groupingname» (όνομα ομαδοποίησης)
-* Παλαιότερες εκδόσεις πριν την 3.0 χρησιμοποιούσαν και «picture» (εικόνα) και «hidepicture» (απόκρυψη εικόνας)';
+* Η πρώτη εγγραφή περιέχει μια λίστα με ονόματα πεδίων που καθορίζουν το μορφότυπο του υπόλοιπου αρχείου
+* Απαιτούμενο όνομα πεδίου είναι το groupname (όνομα της ομάδας)
+* Προαιρετικά ονόματα πεδίων είναι τα εξής: groupidnumber (αναγνωριστικός αριθμός ομάδας), description (περιγραφή), enrolmentkey (κλειδί εγγραφής), groupingname (όνομα της ομαδοποίησης), enablemessaging (ενεργοποίηση μηνυμάτων)';
 $string['importgroups_link'] = 'ομάδα/εισαγωγή';
 $string['includeonlyactiveenrol'] = 'Να συμπεριληφθούν μόνο ενεργές εγγραφές';
 $string['includeonlyactiveenrol_help'] = 'Εάν ενεργοποιηθεί, οι χρήστες σε αναστολή δεν θα συμπεριλαμβάνονται σε ομάδες.';
 $string['javascriptrequired'] = 'Αυτή η σελίδα απαιτεί ενεργοποίηση της Javascript.';
+$string['memberofgroup'] = 'Μέλος ομάδας: {$a}';
 $string['members'] = 'Μέλη ανά ομάδα';
 $string['membersofselectedgroup'] = 'Μέλη σε:';
 $string['mygroups'] = 'Οι ομάδες μου';

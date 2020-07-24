@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'imscp', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'imscp', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   imscp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,8 +32,12 @@ $string['deploymenterror'] = 'Erro no pacote de conteúdo!';
 $string['imscp:addinstance'] = 'Adicionar novo pacote IMS';
 $string['imscp:view'] = 'Ver conteúdo IMS';
 $string['indicator:cognitivedepth'] = 'Compreensão do Pacote IMS';
+$string['indicator:cognitivedepthdef'] = 'Compreensão do Pacote IMS';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelos recursos Pacote IMS durante esse intervalo de análise (Níveis = Não visualizado, Visualizado)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno no recurso Pacote IMS.';
 $string['indicator:socialbreadth'] = 'Socialização do Pacote IMS';
+$string['indicator:socialbreadthdef'] = 'Socialização do Pacote IMS';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelos recursos Pacote IMS durante esse intervalo de análise (Níveis = Sem participação, Participante individual)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno no recurso Pacote IMS.';
 $string['keepold'] = 'Arquivar pacotes';
 $string['keepoldexplain'] = 'Quantos pacotes devem ser arquivados?';

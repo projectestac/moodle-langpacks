@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploadcourse', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploadcourse
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -92,9 +92,12 @@ $string['invalidcourseformat'] = 'Formato di corso non valido';
 $string['invalidcsvfile'] = 'File CSV di input non valido';
 $string['invalidencoding'] = 'Codifica non valida';
 $string['invalideupdatemode'] = 'Modalità di aggiornamento non valida';
+$string['invalidfullnametoolong'] = 'Il titolo deve essere lungo al massimo {$a} caratteri';
 $string['invalidmode'] = 'Modalità selezionata non valida';
 $string['invalidroles'] = 'Nome del ruolo non valido: {$a}';
 $string['invalidshortname'] = 'Titolo abbreviato non valido';
+$string['invalidshortnametoolong'] = 'Il titolo abbreviato deve essere lungo al massimo {$a} caratteri';
+$string['invalidvisibilitymode'] = 'La modalità scelta per la visibilità non è valida';
 $string['missingmandatoryfields'] = 'Campi obbligatori con valori mancanti: {$a}';
 $string['missingshortnamenotemplate'] = 'Titolo abbreviato mancante e modello per generazione titolo abbreviato non impostato';
 $string['mode'] = 'Modalità caricamento';

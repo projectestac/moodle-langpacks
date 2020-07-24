@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_dropbox', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_dropbox', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_dropbox
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['apikey'] = 'Dropbox-en API gakoa';
 $string['cachelimit'] = 'Cache-muga';
 $string['cachelimit_info'] = 'Zehaztu zerbitzariaren cachean gordetako Dropbox-eko alias/esteken fitxategien gehienezko tamaina (byte-tan). Cachean gordetako fitxategiak erabiliko dira jatorrizkoa eskuragarri ez dagoenean. Hutsik utziz gero edo zero jarrita fitxategi guztian gordeko dira cachean euren tamaina edozein izanda ere.';
 $string['configplugin'] = 'Dropbox-en ezarpenak';
+$string['crontask'] = 'Dropbox biltegiaren atzeko planoko prozesatzea';
 $string['dropbox'] = 'Dropbox';
 $string['dropbox:view'] = 'Ikusi Dropbox karpeta bat';
 $string['instruction'] = 'API gakoa eta sekretua <a href="https://www.dropbox.com/developers/apps">Dropbox-en garatzaileen orrian</a> lortu ahal dituzu. Zure gakoa konfiguratzean "Access level" atalean "Full Dropbox" aukeratu ezazu.';

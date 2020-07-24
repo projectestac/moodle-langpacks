@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -91,7 +91,6 @@ $string['responsesresultgraphheader'] = 'عرض كمنحني';
 $string['responsesto'] = 'إجابات لـ  {$a}';
 $string['savemychoice'] = 'حفظ الاختيار';
 $string['showunanswered'] = 'اظهر الأسئلة التى لم يتم الاجابة عليها في هيئة عامود';
-$string['skipresultgraph'] = 'تخطي رسم النتائج';
 $string['spaceleft'] = 'المساحة المتاحة';
 $string['spacesleft'] = 'المساحات المتاحة';
 $string['taken'] = 'استخدم';

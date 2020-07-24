@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'hvp', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   hvp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -119,6 +119,7 @@ $string['emailconfirmbody'] = 'Здравствуйте, {$a->username}.
 Это сообщение подтверждает, что Ваши ответы были сохранены.
 Вы можете получить доступ к H5P в {$a->hvpurl}.';
 $string['emailconfirmsmall'] = 'Спасибо Вам за отправленные ответы \'{$a->hvpname}\\';
+$string['emailconfirmsubject'] = 'Подтверждение отправки: {$a->hvpname}';
 $string['emailnotifybody'] = 'Здравствуйте, {$a->username}.
 {$a->studentname} завершил(а) \'{$a->hvpname}\' ({$a->hvpurl}) в курсе \'{$a->coursename}\'.
 Вы можете просмотреть данную попытку в {$a->hvpreporturl}.';

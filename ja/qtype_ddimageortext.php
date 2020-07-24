@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_ddimageortext', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_ddimageortext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,7 +61,9 @@ $string['pluginname'] = 'ドラッグ＆ドロップイメージ';
 $string['pluginnameadding'] = 'ドラッグ＆ドロップイメージの追加';
 $string['pluginnameediting'] = 'ドラッグ＆ドロップイメージの編集';
 $string['pluginname_help'] = 'ドラッグ＆ドロップイメージ問題は背景イメージに定義されたドロップゾーンにイメージまたはテキストラベルをドラッグ＆ドロップするためのレスポンデントを必要とします。ドラッグ可能アイテムは特定のグループ内アイテムすべてをドロップゾーンで同じ色にするためにグループ分けすることができます。無制限にマークされたドラッグ可能アイテムは2つの以上のゾーンにドロップすることができます。';
-$string['pluginnamesummary'] = 'イメージまたはテキストラベルを背景イメージのドロップゾーンにドラッグ＆ドロップします。';
+$string['pluginnamesummary'] = 'イメージまたはテキストラベルは背景イメージのドロップゾーンにドラッグ＆ドロップされます。
+
+注意: この問題タイプは視覚に障害のあるユーザは利用できません。';
 $string['previewareaheader'] = 'プレビュー';
 $string['previewareamessage'] = '背景イメージを選択してドラッグ可能イメージ指定した後、ドラッグするための背景イメージのドロップゾーンを定義してください。';
 $string['privacy:metadata'] = 'ドラッグ＆ドロップイメージ問題タイププラグインはいかなる個人データも保存しません。';

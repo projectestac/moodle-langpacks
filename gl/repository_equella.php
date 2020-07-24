@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_equella', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_equella', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_equella
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,9 +41,9 @@ $string['restrictionnone'] = 'Sen restrición';
 $string['search'] = 'Busca en EQUELLA';
 $string['selectrestriction'] = 'Restrinxir a selección';
 $string['selectrestriction.desc'] = 'Escolla se os editores de curso só deberían ser quen de seleccionar un elemento de resumo, un recurso anexado ou calquera';
-$string['sharedid'] = 'ID do secreto compartido';
-$string['sharedidtitle'] = 'ID do secreto compartido';
+$string['sharedid'] = 'ID do segredo compartido';
+$string['sharedidtitle'] = 'ID do segredo compartido';
 $string['sharedsecrets'] = 'Segredo compartido';
-$string['sharedsecretsheading'] = 'Configuración de Secreto compartido';
-$string['sharedsecretshelp'] = '<p>A seguir podese estabelecer un secreto compartido EQUELLA predeterminado para o rexistro individual dos usuarios. Pode configurar diferentes secretos compartidos para uso xeral (lectura), e un rol especializado baseado nun secreto compartido para cada función de <em>escritura</em> no seu sitio Moodle. Se un ID de secreto compartido non está configurado para un rol, empregarase o secreto compartido e o valor predeterminado para o ID de secreto compartido.</p><p>Tamén se deben configurar en EQUELLA todos os ID de secreto compartido e os secretos compartidos e activar o módulo de secreto compartido. Esta configuración atopase na consola de administración EQUELLA baixo Xestión de usuarios > Secretos compartidos.</p>';
+$string['sharedsecretsheading'] = 'Configuración de Segredo compartido';
+$string['sharedsecretshelp'] = '<p>A seguir podese estabelecer un segredo compartido EQUELLA predeterminado para o rexistro individual dos usuarios. Pode configurar diferentes secretos compartidos para uso xeral (lectura), e un rol especializado baseado nun secreto compartido para cada función de <em>escritura</em> no seu sitio Moodle. Se un ID de secreto compartido non está configurado para un rol, empregarase o secreto compartido e o valor predeterminado para o ID de secreto compartido.</p><p>Tamén se deben configurar en EQUELLA todos os ID de secreto compartido e os secretos compartidos e activar o módulo de secreto compartido. Esta configuración atopase na consola de administración EQUELLA baixo Xestión de usuarios > Secretos compartidos.</p>';
 $string['sharedsecrettitle'] = 'Segredo compartido';

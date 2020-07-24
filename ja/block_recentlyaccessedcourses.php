@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_recentlyaccessedcourses', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_recentlyaccessedcourses', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   block_recentlyaccessedcourses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['displaycategories'] = 'カテゴリを表示する';
+$string['displaycategories_help'] = '「最近アクセスされたコース」ブロックアイテムにコースカテゴリを表示します。';
 $string['nocourses'] = '最近のコースなし';
 $string['pluginname'] = '最近アクセスされたコース';
 $string['privacy:metadata'] = '最近アクセスされたコースブロックはいかなる個人データも保存しません。';
-$string['recentlyaccessedcourses:addinstance'] = '新しい最近アクセスされたコースブロックを追加する';
 $string['recentlyaccessedcourses:myaddinstance'] = '新しい最近アクセスされたコースブロックをダッシュボードに追加する';

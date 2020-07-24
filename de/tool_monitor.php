@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_monitor', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -63,7 +63,7 @@ $string['manageruleslink'] = 'Sie können Events der {$a} Seite verwalten.';
 $string['managesubscriptions'] = 'Event-Beobachtung';
 $string['managesubscriptionslink'] = 'Sie können sich über Ereignisse der Seite {$a} benachrichtigen lassen.';
 $string['messageprovider:notification'] = 'Systemnachrichten über Regel-Abonnements';
-$string['messagetemplate'] = 'Benachrichtigung';
+$string['messagetemplate'] = 'Benachrichtigungen';
 $string['messagetemplate_help'] = 'Eine Benachrichtigung wird dem Empfänger zugesandt, wenn die Meldeschwelle erreicht wurde. Sie kann einen oder mehrere Platzhalter enthalten:
 
 * Link zur Seite des Ereignisses {link}<br />

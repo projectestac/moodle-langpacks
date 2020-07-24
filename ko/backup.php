@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -245,6 +245,7 @@ $string['skipmodifprevhelp'] = '이전 백업 이후에 수정되지 않은 강�
 $string['storagecourseandexternal'] = '강좌 백업 파일 영역 및 특정 디렉토리';
 $string['storagecourseonly'] = '강좌 백업 파일영역';
 $string['storageexternalonly'] = '자동 백업을 위한 특정 디렉토리';
+$string['successful'] = '백업 성공';
 $string['timetaken'] = '걸린 시간';
 $string['title'] = '제목';
 $string['totalcategorysearchresults'] = '전체 범주 : {$a}';

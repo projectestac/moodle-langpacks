@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'page', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,8 +33,14 @@ $string['displayoptions'] = 'Opcións dispoñíbeis de presentación';
 $string['displayselect'] = 'Presentar';
 $string['displayselectexplain'] = 'Seleccionar tipo de presentación.';
 $string['indicator:cognitivedepth'] = 'Páxina cognitiva';
+$string['indicator:cognitivedepthdef'] = 'Páxina cognitiva';
+$string['indicator:cognitivedepthdef_help'] = 'O participante acadou esta porcentaxe do compromiso cognitivo que ofrecen os recursos de Páxina durante este intervalo de análise (Niveis = Sen vista, Ver)';
+$string['indicator:cognitivedepthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Profundidade_cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nun recurso páxina.';
 $string['indicator:socialbreadth'] = 'Páxina social';
+$string['indicator:socialbreadthdef'] = 'Páxina social';
+$string['indicator:socialbreadthdef_help'] = 'O participante acadou esta porcentaxe do compromiso social que ofrecen os recursos de Páxina durante este intervalo de análise (Niveis = Sen participación, Participante en solitario)';
+$string['indicator:socialbreadthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Amplitude_social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nun recurso páxina.';
 $string['legacyfiles'] = 'Migración de ficheiros antigos de curso';
 $string['legacyfilesactive'] = 'Activo';

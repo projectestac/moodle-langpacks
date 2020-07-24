@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'data', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -208,8 +208,14 @@ $string['includetags'] = 'Συμπερίληψη ετικετών';
 $string['includetime'] = 'Συμπερίληψη ώρας προσθήκης/τροποποίησης';
 $string['includeuserdetails'] = 'Συμπερίληψη λεπτομερειών χρήστη';
 $string['indicator:cognitivedepth'] = 'Βάθος κατανόησης (δραστηριότητας) Βάσης δεδομένων';
+$string['indicator:cognitivedepthdef'] = 'Βάθος κατανόησης (δραστηριότητας) Βάσης δεδομένων';
+$string['indicator:cognitivedepthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο βάθος κατανόησης που προσφέρεται από τις δραστηριότητες βάσης δεδομένων κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία εμφάνιση, Εμφάνιση, Υποβολή)';
+$string['indicator:cognitivedepthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Βάθος_κατανόησης';
 $string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Βάσης δεδομένων.';
 $string['indicator:socialbreadth'] = 'Κοινωνικό εύρος βάσης δεδομένων';
+$string['indicator:socialbreadthdef'] = 'Κοινωνικό εύρος βάσης δεδομένων';
+$string['indicator:socialbreadthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο κοινωνικό εύρος που προσφέρεται από τις δραστηριότητες βάσης δεδομένων κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία συμμετοχή, Συμμετέχων μόνος)';
+$string['indicator:socialbreadthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Κοινωνικό_εύρος';
 $string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Βάσης δεδομένων.';
 $string['insufficiententries'] = 'απαιτούνται περισσότερες καταχωρήσεις για την εμφάνιση αυτής της βάσης δεδομένων';
 $string['intro'] = 'Περιγραφή';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['addinstance'] = 'Add method';
 $string['addinstanceanother'] = 'Add method and create another';
 $string['ajaxnext25'] = 'Next 25...';
 $string['ajaxoneuserfound'] = '1 user found';
+$string['ajaxxmoreusersfound'] = 'More than {$a} users found';
 $string['ajaxxusersfound'] = '{$a} users found';
 $string['assignnotpermitted'] = 'You do not have permission or can not assign roles in this course.';
 $string['bulkuseroperation'] = 'Bulk user operation';
@@ -102,6 +103,7 @@ $string['foundxcohorts'] = 'Found {$a} cohorts';
 $string['instanceadded'] = 'Method added';
 $string['instanceeditselfwarning'] = 'Warning:';
 $string['instanceeditselfwarningtext'] = 'You are enrolled into this course through this enrolment method, changes may affect your access to this course.';
+$string['invalidenrolduration'] = 'Invalid enrolment duration';
 $string['invalidenrolinstance'] = 'Invalid enrolment instance';
 $string['invalidrequest'] = 'Invalid request';
 $string['invalidrole'] = 'Invalid role';
@@ -149,6 +151,7 @@ $string['testsettings'] = 'Test settings';
 $string['testsettingsheading'] = 'Test enrol settings - {$a}';
 $string['totalenrolledusers'] = '{$a} enrolled users';
 $string['totalotherusers'] = '{$a} other users';
+$string['totalunenrolledusers'] = '{$a} unenrolled users';
 $string['unassignnotpermitted'] = 'You do not have permission to unassign roles in this course';
 $string['unenrol'] = 'Unenrol';
 $string['unenrolconfirm'] = 'Do you really want to unenrol "{$a->user}" (previously enrolled via "{$a->enrolinstancename}") from "{$a->course}"?';
@@ -161,3 +164,5 @@ $string['unlimitedduration'] = 'Unlimited';
 $string['userremovedfromselectiona'] = 'User "{$a}" was removed from the selection.';
 $string['usersearch'] = 'Search';
 $string['withselectedusers'] = 'With selected users';
+$string['youenrolledincourse'] = 'You are enrolled in the course.';
+$string['youunenrolledfromcourse'] = 'You are unenrolled from the course "{$a}".';

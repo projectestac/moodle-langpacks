@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'search', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,11 @@ $string['confirm_delete'] = 'Tem a certeza de que pretende apagar o índice de {
 $string['confirm_deleteall'] = 'Tem a certeza de que pretende apagar agora todo o conteúdo indexado? Até que o site seja indexado novamente, os utilizadores não obterão resultados de pesquisa.';
 $string['confirm_indexall'] = 'Tem a certeza de que pretende atualizar agora o conteúdo indexado? Se uma grande quantidade de conteúdo precisar de indexação, a operação de indexação pode demorar muito tempo. Para servidores ativos, normalmente deve deixar a indexação para a tarefa agendada \'Indexação de pesquisa global\'.';
 $string['confirm_reindexall'] = 'Tem a certeza de que pretende reindexar agora todo o conteúdo do site? Se o seu site contiver uma grande quantidade de conteúdo, a operação de indexação demorará um longo tempo e os utilizadores poderão não obter resultados completos da pesquisa até que esteja concluída.';
+$string['core-all'] = 'Tudo';
+$string['core-course-content'] = 'Conteúdo da disciplina';
+$string['core-courses'] = 'Disciplinas';
+$string['core-other'] = 'Outro';
+$string['core-users'] = 'Utilizadores';
 $string['createanindex'] = 'criar um índice';
 $string['createdon'] = 'Criado';
 $string['database'] = 'Base de dados';
@@ -84,6 +89,7 @@ $string['invalidindexerror'] = 'A pasta de índice contém um índice inválido,
 $string['ittook'] = 'Demorou';
 $string['matchingfile'] = 'Verificado a partir do ficheiro <span class="filename">{$a}</span>';
 $string['matchingfiles'] = 'Verificado a partir dos ficheiros:';
+$string['mycoursesonly'] = 'Apenas as minhas disciplinas';
 $string['next'] = 'Seguinte';
 $string['noindexmessage'] = 'Administração: Parece não existir um índice de pesquisa. Por favor, ';
 $string['noresults'] = 'Sem resultados';
@@ -109,6 +115,9 @@ $string['schemaversionunknown'] = 'O mecanismo de procura desconhece a versão a
 $string['score'] = 'Classificação';
 $string['search'] = 'Procurar';
 $string['searcharea'] = 'Área de pesquisa';
+$string['searchareacategories'] = 'Categorias da área de pesquisa';
+$string['search:course'] = 'Disciplinas';
+$string['search:customfield'] = 'Campos personalizados da disciplina';
 $string['searching'] = 'A procurar em...';
 $string['search:message_received'] = 'Mensagens - recebidas';
 $string['search:message_sent'] = 'Mensagens - enviadas';

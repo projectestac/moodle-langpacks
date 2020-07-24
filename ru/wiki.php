@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'wiki', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -122,7 +122,7 @@ $string['incorrectpageid'] = 'Некорректный ID страницы.';
 $string['incorrectsubwikiid'] = 'Некорректный ID подраздела вики.';
 $string['incorrectwikiid'] = 'Некорректный ID вики.';
 $string['indicator:cognitivedepth'] = 'Вики: познавательный аспект';
-$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на  глубине познания, достигнутой студентом при работе с активным элементом Вики.';
+$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на глубине познания, достигнутой студентом при работе с элементом курса «Вики».';
 $string['indicator:socialbreadth'] = 'Вики: социальный аспект';
 $string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с элементом Вики.';
 $string['individualpagedoesnotexist'] = 'Нет отдельной страницы Вики';

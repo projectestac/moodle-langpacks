@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,6 +57,7 @@ $string['chooseoption'] = 'Escolla: {$a}';
 $string['closebeforeopen'] = 'Especificou unha data de peche anterior á da apertura.';
 $string['completionsubmit'] = 'Amosar como completo cando o usuario fai unha escolla';
 $string['description'] = 'Descrición';
+$string['deselectalloption'] = 'Demarcar todos os «{$a}»';
 $string['displayhorizontal'] = 'Mostrar horizontalmente';
 $string['displaymode'] = 'Mostrar Modo';
 $string['displayvertical'] = 'Mostrar verticalmente';
@@ -71,8 +72,14 @@ $string['full'] = '(Cheo)';
 $string['havetologin'] = 'Ten que rexistrarse antes de poder enviar a súa escolla';
 $string['includeinactive'] = 'Incluír respostas de usuarios inactivos/suspendidos';
 $string['indicator:cognitivedepth'] = 'Escolla cognitiva';
+$string['indicator:cognitivedepthdef'] = 'Escolla cognitiva';
+$string['indicator:cognitivedepthdef_help'] = 'O participante acadou esta porcentaxe do compromiso cognitivo que ofrecen as actividades de Escolla durante este intervalo de análise (Niveis = Sen vista, Ver, Entregar, Ver comentarios)';
+$string['indicator:cognitivedepthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Profundidade_cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de escolla.';
 $string['indicator:socialbreadth'] = 'Escolla social';
+$string['indicator:socialbreadthdef'] = 'Escolla social';
+$string['indicator:socialbreadthdef_help'] = 'O participante acadou esta porcentaxe do compromiso social que ofrecen as actividades de Escolla durante este intervalo de análise (Niveis = Sen participación, Participante en solitario, Participante con outros)';
+$string['indicator:socialbreadthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Amplitude_social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de escolla.';
 $string['limit'] = 'Límite';
 $string['limitanswers'] = 'Limitar o número de respostas permitidas';
@@ -136,10 +143,10 @@ $string['responsesto'] = 'Respostas a {$a}';
 $string['results'] = 'Resultados';
 $string['savemychoice'] = 'Gardar a miña escolla';
 $string['search:activity'] = 'Escolla - información de actividade';
+$string['selectalloption'] = 'Seleccionar todos os «{$a}»';
 $string['showpreview'] = 'Amosar a vista previa';
 $string['showpreview_help'] = 'Permitirlle aos alumnos facer unha vista previa das opcións dispoñíbeis antes de que a escolla sexa aberta para envío.';
 $string['showunanswered'] = 'Mostrar columna para non respondidas';
-$string['skipresultgraph'] = 'Omitir a gráfica de resultados';
 $string['spaceleft'] = 'espazo dispoñible';
 $string['spacesleft'] = 'espazos dispoñibles';
 $string['taken'] = 'Reservado';

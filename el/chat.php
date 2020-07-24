@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'chat', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,6 +55,7 @@ $string['configserverip'] = 'Η διεύθυνση IP που αντιστοιχ�
 $string['configservermax'] = 'Μέγιστος αριθμός επιτρεπόμενων πελατών (clients)';
 $string['configserverport'] = 'Η θύρα (port) που θα χρησιμοποιεί η αυτόνομη υπηρεσία εξυπηρετητή';
 $string['coursetheme'] = 'Αισθητικό θέμα μαθήματος';
+$string['crontask'] = 'Επεξεργασία παρασκηνίου για το άρθρωμα συνομιλίας';
 $string['currentchats'] = 'Ενεργές σύνοδοι συνομιλίας';
 $string['currentusers'] = 'Τρέχοντες χρήστες';
 $string['deletesession'] = 'Διαγραφή αυτής της συνόδου';
@@ -71,8 +72,14 @@ $string['explainmethodnormal'] = 'Αυτές οι ρυθμίσεις έχουν 
 $string['generalconfig'] = 'Γενικές ρυθμίσεις';
 $string['idle'] = 'Αδρανής';
 $string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Συνομιλίας';
+$string['indicator:cognitivedepthdef'] = 'Βάθος κατανόησης Συνομιλίας';
+$string['indicator:cognitivedepthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο βάθος κατανόησης που προσφέρεται από τις δραστηριότητες συνομιλίας κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία εμφάνιση, Εμφάνιση, Υποβολή, Εμφάνιση ανατροφοδότησης, Σχόλιο στην ανατροφοδότηση)';
+$string['indicator:cognitivedepthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Βάθος_κατανόησης';
 $string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Συνομιλίας.';
 $string['indicator:socialbreadth'] = 'Κοινωνικό εύρος συνομιλίας';
+$string['indicator:socialbreadthdef'] = 'Κοινωνικό εύρος συνομιλίας';
+$string['indicator:socialbreadthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο κοινωνικό εύρος που προσφέρεται από τις δραστηριότητες συνομιλίας κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία αφοσίωση, Συμμετέχων μόνος, Συμμετέχων με άλλους)';
+$string['indicator:socialbreadthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Κοινωνικό_εύρος';
 $string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα συνομιλίας.';
 $string['inputarea'] = 'Περιοχή εισαγωγής (κειμένου)';
 $string['invalidid'] = 'Αδυναμία εύρεσης αυτού του δωματίου συνομιλίας!';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploaduser', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,9 +35,15 @@ $string['deleteerrors'] = 'Erreurs lors de suppressions';
 $string['encoding'] = 'Encodage';
 $string['errormnetadd'] = 'Impossible d\'ajouter des utilisateurs distants';
 $string['errors'] = 'Erreurs';
+$string['examplecsv'] = 'Fichier texte exemple';
+$string['examplecsv_help'] = 'Pour utiliser le fichier texte exemple, le télécharger, puis l\'ouvrir avec un éditeur de texte ou de feuille de calcul. Laisser inchangée la première ligne et modifier les lignes suivantes (enregistrements) en ajoutant vos données utilisateurs, en ajoutant autant de lignes que nécessaire. Enregistrer le fichier comme fichier CSV, puis le déposer ici.
+
+Le fichier texte exemple peut aussi être utilisé pour des tests, puisqu\'il est possible de prévisualiser les données utilisateur et de choisir d\'annuler l\'action avant que les comptes utilisateurs soient créés.';
+$string['invalidtheme'] = 'Le thème « {$a} » n\'est pas installé et sera ignoré.';
 $string['invalidupdatetype'] = 'Cette option ne peut pas être sélectionnée avec le type de dépôt choisi.';
 $string['invaliduserdata'] = 'Données invalides détectées pour l\'utilisateur {$a}. Nettoyage automatique effectué.';
 $string['nochanges'] = 'Aucune modification';
+$string['notheme'] = 'Aucun thème défini pour cet utilisateur.';
 $string['pluginname'] = 'Déposer des comptes utilisateurs';
 $string['privacy:metadata'] = 'Le plugin Déposer des comptes utilisateurs n\'enregistre aucune donnée personnelle.';
 $string['renameerrors'] = 'Erreurs lors du changement de nom';
@@ -79,6 +85,7 @@ $string['usersrenamed'] = 'Utilisateurs renommés';
 $string['usersskipped'] = 'Utilisateurs ignorés';
 $string['usersupdated'] = 'Utilisateurs modifiés';
 $string['usersweakpassword'] = 'Utilisateurs avec mot de passe faible';
+$string['userthemesnotallowed'] = 'Les thèmes d\'utilisateur ne sont pas activés ; de tels thèmes inclus dans le fichier d\'utilisateurs seront ignorés.';
 $string['uubulk'] = 'Sélectionner pour des opérations en lots';
 $string['uubulkall'] = 'Tous les utilisateurs';
 $string['uubulknew'] = 'Nouveaux utilisateurs';

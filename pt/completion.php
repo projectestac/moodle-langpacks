@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,8 @@ $string['activityaggregation'] = 'Condição exigida';
 $string['activityaggregation_all'] = 'TODAS as atividades selecionadas estão concluídas';
 $string['activityaggregation_any'] = 'QUALQUER UMA das atividades selecionadas está concluída';
 $string['activitycompletion'] = 'Conclusão da atividade';
-$string['activitycompletionupdated'] = 'Alterações guardadas';
+$string['activitycompletionupdated'] = 'Alterações guardadas com sucesso';
+$string['activitygradenotrequired'] = 'Nota não obrigatória';
 $string['affectedactivities'] = 'As alterações irão afetar a(s) seguinte(s) <b>{$a}</b> atividade(s) ou recurso(s):';
 $string['aggregationmethod'] = 'Requer verificação de';
 $string['all'] = 'Todos';
@@ -42,6 +43,7 @@ $string['any'] = 'Qualquer';
 $string['approval'] = 'Aprovação';
 $string['areyousureoverridecompletion'] = 'Tem a certeza de que pretende redefinir o estado atual de conclusão desta atividade para este utilizador e a assinalar como "{$a}"?';
 $string['badautocompletion'] = 'Quando seleciona a conclusão automática, tem de ativar pelo menos uma das condições apresentadas abaixo.';
+$string['badcompletiongradeitemnumber'] = 'A exigência de nota não pode ser ativada para <b>{$a}</b> porque a avaliação por {$a} não está ativada.';
 $string['bulkactivitycompletion'] = 'Editar em massa a conclusão de atividades';
 $string['bulkactivitydetail'] = 'Selecione as atividades / recursos que pretende editar em simultâneo';
 $string['bulkcompletiontracking'] = 'Verificação da conclusão';
@@ -57,7 +59,7 @@ $string['completed'] = 'Concluída';
 $string['completedunlocked'] = 'Opções de conclusão desbloqueadas';
 $string['completedunlockedtext'] = 'Quando guardar as alterações, o estado de conclusão de todos os alunos será apagado. Se não desejar que isto aconteça, não guarde as alterações.';
 $string['completedwarning'] = 'Opções de conclusão bloqueadas';
-$string['completedwarningtext'] = 'Um ou mais alunos ({$a}) já assinalaram esta atividade como concluída. Se alterar as opções de conclusão irá apagar o estado de conclusão destes alunos, podendo gerar alguma confusão. Assim, as opções foram bloqueadas e não devem ser desbloqueadas, excepto se for absolutamente necessário.';
+$string['completedwarningtext'] = 'Um ou mais alunos ({$a}) já assinalaram esta atividade como concluída. Se alterar as opções de conclusão irá apagar o estado de conclusão destes alunos, podendo gerar alguma confusão. Por isso, as opções foram bloqueadas e não devem ser desbloqueadas, exceto se for absolutamente necessário.';
 $string['completion'] = 'Verificação da conclusão';
 $string['completionactivitydefault'] = 'Usar configuração predefinida da atividade';
 $string['completion-alt-auto-enabled'] = 'A atividade é dada como concluída pelo sistema quando se verificarem determinadas condições: {$a}';
@@ -68,9 +70,9 @@ $string['completion-alt-auto-pass'] = 'Concluída: {$a} (atingiu nota de aprova�
 $string['completion-alt-auto-y'] = 'Concluída: {$a}';
 $string['completion-alt-auto-y-override'] = 'Concluída: {$a->modname} (marcada por {$a->overrideuser})';
 $string['completion-alt-manual-enabled'] = 'Os alunos podem assinalar a atividade como concluída: {$a}';
-$string['completion-alt-manual-n'] = 'Não concluída: {$a}. Clique para assinalar como concluída';
+$string['completion-alt-manual-n'] = 'Não concluída: \'{$a}\'. Clique para assinalar como concluída';
 $string['completion-alt-manual-n-override'] = 'Não completo: {$a- modname} (definido por {$a->overrideuser}). Selecione para marcar como completo.';
-$string['completion-alt-manual-y'] = 'Concluída: {$a}. Clique para assinalar como não concluída';
+$string['completion-alt-manual-y'] = 'Concluída: \'{$a}\'. Clique para assinalar como não concluída';
 $string['completion-alt-manual-y-override'] = 'Completo: {$a- modname} (definido por {$a->overrideuser}). Selecione para marcar como não completo.';
 $string['completion_automatic'] = 'Dar como concluída quando se verificarem as seguintes condições';
 $string['completiondefault'] = 'Configuração predefinida da verificação da conclusão';
@@ -104,18 +106,16 @@ $string['completionondate'] = 'Data';
 $string['completionondatevalue'] = 'Data em que a disciplina será marcada como concluída';
 $string['completion-pass'] = 'Concluída (atingiu a nota de aprovação)';
 $string['completionsettingslocked'] = 'Configurações de conclusão bloqueadas';
-$string['completion-title-manual-n'] = 'Assinalar como concluída: {$a}';
-$string['completion-title-manual-y'] = 'Dar como não concluída: {$a}';
 $string['completionupdated'] = 'Atualização da conclusão da atividade <b>{$a}</b>';
 $string['completionusegrade'] = 'Requer nota';
-$string['completionusegrade_desc'] = 'Os alunos devem ter uma nota para concluir a atividade';
+$string['completionusegrade_desc'] = 'Os alunos têm de ter uma nota para concluir a atividade';
 $string['completionusegrade_help'] = 'Se ativar esta opção, a atividade é considerada concluída quando for atribuída uma nota ao aluno. Os ícones de aprovação ou reprovação podem aparecer caso tenha sido definida uma nota mínima para aprovação.';
 $string['completionview'] = 'Requer visualização';
-$string['completionview_desc'] = 'Os alunos devem visualizar a atividade para a concluir';
+$string['completionview_desc'] = 'Os alunos têm de visualizar a atividade para a concluir';
 $string['completion-y'] = 'Concluída';
 $string['completion-y-override'] = 'Concluída (marcada por {$a->overrideuser})';
 $string['configcompletiondefault'] = 'A configuração predefinida para a verificação da conclusão quando são criadas novas atividades.';
-$string['configenablecompletion'] = 'Se ativar esta opção, será possível definir as condições de conclusão das disciplinas e das atividades. É recomendável definir condições de conclusão da atividade para que os dados significativos sejam mostrados aos utilizadores na sua visão geral da disciplina no Painel do utilizador.';
+$string['configenablecompletion'] = 'Se ativar esta opção, será possível definir as condições de conclusão das disciplinas e das atividades. Recomenda-se que defina condições de conclusão da atividade para que seja mostrada informação relevante aos utilizadores no bloco Minhas disciplinas no Painel do utilizador.';
 $string['confirmselfcompletion'] = 'Confirmar autoconclusão';
 $string['courseaggregation'] = 'Condição requer';
 $string['courseaggregation_all'] = 'TODAS as disciplinas selecionadas estarem concluídas';
@@ -137,13 +137,13 @@ $string['datepassed'] = 'Data passada';
 $string['days'] = 'Dias';
 $string['daysoftotal'] = '{$a->days} de {$a->total}';
 $string['defaultcompletion'] = 'Predefinições da conclusão de atividades';
-$string['defaultcompletionupdated'] = 'Alterações guardadas';
+$string['defaultcompletionupdated'] = 'Alterações guardadas com sucesso';
 $string['deletecompletiondata'] = 'Apagar informação da conclusão';
 $string['dependencies'] = 'Dependências';
 $string['dependenciescompleted'] = 'Conclusão de outras disciplinas';
 $string['editcoursecompletionsettings'] = 'Editar configurações de conclusão da disciplina';
 $string['enablecompletion'] = 'Ativar verificação da conclusão';
-$string['enablecompletion_help'] = 'Se ativar esta opção, as condições de conclusão da atividade podem ser definidas nas configurações da atividade e/ou podem ser definidas as condições de conclusão da disciplina. Recomenda-se que esta opção esteja ativa para que os dados significativos sejam mostrados na visão global das disciplinas no Painel do utilizador.';
+$string['enablecompletion_help'] = 'Se ativar esta opção, as condições de conclusão da atividade podem ser definidas nas configurações da atividade e/ou podem ser definidas as condições de conclusão da disciplina. Recomenda-se que esta opção esteja ativa para que os dados significativos sejam mostrados no bloco Minhas disciplinas no Painel do utilizador.';
 $string['enrolmentduration'] = 'Duração da inscrição';
 $string['enrolmentdurationlength'] = 'O utilizador tem de se manter inscrito por';
 $string['err_noactivities'] = 'Não há nenhuma atividade configurada com a verificação da conclusão ativa  na disciplina, por isso não pode ser exibida nenhuma atividade. Pode ativar a verificação da conclusão das atividades editando as suas configurações.';
@@ -226,7 +226,7 @@ $string['unit'] = 'Unidade';
 $string['unlockcompletion'] = 'Desbloquear opções de conclusão';
 $string['unlockcompletiondelete'] = 'Desbloquear opções de conclusão e apagar dados de conclusão do utilizador';
 $string['updateactivities'] = 'Atualizar o estado de conclusão das atividades selecionadas';
-$string['usealternateselector'] = 'Usar o selecionador alternativo de disciplinas';
+$string['usealternateselector'] = 'Usar o seletor alternativo de disciplinas';
 $string['usernotenroled'] = 'O utilizador não está inscrito nesta disciplina';
 $string['viewcoursereport'] = 'Ver relatório da disciplina';
 $string['viewingactivity'] = 'Visualizar {$a}';

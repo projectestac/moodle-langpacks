@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'glossary', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,6 +158,7 @@ $string['entryexported'] = 'Entry successfully exported';
 $string['entryishidden'] = '(this entry is currently hidden)';
 $string['entryleveldefaultsettings'] = 'Entry level default settings';
 $string['entrylink'] = 'Entry link: {$a}';
+$string['entrynotapproved'] = 'Entry not approved';
 $string['entrysaved'] = 'This entry has been saved';
 $string['entryupdated'] = 'This entry has been updated';
 $string['entryusedynalink'] = 'This entry should be automatically linked';
@@ -221,8 +222,14 @@ $string['importentries'] = 'Import entries';
 $string['importentriesfromxml'] = 'Import entries from XML file';
 $string['includegroupbreaks'] = 'Include group breaks';
 $string['indicator:cognitivedepth'] = 'Glossary cognitive';
+$string['indicator:cognitivedepthdef'] = 'Glossary cognitive';
+$string['indicator:cognitivedepthdef_help'] = 'The participant has reached this percentage of the cognitive engagement offered by the Glossary activities during this analysis interval (Levels = No view, View, Submit)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:cognitivedepth_help'] = 'This indicator is based on the cognitive depth reached by the student in a Glossary activity.';
 $string['indicator:socialbreadth'] = 'Glossary social';
+$string['indicator:socialbreadthdef'] = 'Glossary social';
+$string['indicator:socialbreadthdef_help'] = 'The participant has reached this percentage of the social engagement offered by the Glossary activities during this analysis interval (Levels = No participation, Participant alone)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['indicator:socialbreadth_help'] = 'This indicator is based on the social breadth reached by the student in a Glossary activity.';
 $string['isglobal'] = 'Is this glossary global?';
 $string['isglobal_help'] = 'A global glossary has entries which are linked to from throughout the site, rather than only in the course that the glossary is in. Only administrators can set a glossary as global.';

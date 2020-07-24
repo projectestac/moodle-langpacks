@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_shibboleth', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_shibboleth', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_shibboleth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,7 @@ $string['auth_shib_convert_data_description'] = 'Je kunt deze API gebruiken om d
 $string['auth_shib_convert_data_warning'] = 'Het bestand bestaat niet of is niet leesbaar voor het webserverproces!';
 $string['auth_shib_idp_list'] = 'Identiteitsproviders';
 $string['auth_shib_idp_list_description'] = 'Geef een lijst met Provider entityID\'s om een gebruiker een loginpagina te laten kiezen.<br /> Op elke lijn moet er een kommagescheiden tuple komen voor entityID van de IdP (zie Shibboleth metadatabestand) en Name of IdP zoals het getoond zal worden in het rolmenu.<br />Als optionele derde parameter kun je de locatie van een Shibboleth sessie initiator geven die gebruikt zal worden in het geval dat jouw Moodleinstallatie deel is van een multifederatie setup.';
-$string['auth_shib_instructions'] = 'Gebruik de <a href="{$a}">Shibboleth login</a> om toegang te krijgen via Shibboleth als je instituut dat ondersteund.<br />Gebruik anders het gewone loginformulier.';
+$string['auth_shib_instructions'] = 'Gebruik de <a href="{$a}">Shibboleth login</a> om toegang te krijgen via Shibboleth als je instituut dat ondersteunt.<br />Gebruik anders het gewone loginformulier.';
 $string['auth_shib_instructions_help'] = 'Hier zou je aangepaste instructies moeten geven om je gebruikers Shibboleth uit te leggen. Die instructies zullen getoond worden op de login-pagina in het gedeelte voor instructies. Er zou een link naar "<b>{$a}</b>" moeten instaan, zodat gebruikers gemakkelijk kunnen inloggen. Als je dit blanco laat, dan zullen de standaardinstructies getoond worden (niet specifiek voor Shibboleth).';
 $string['auth_shib_instructions_key'] = 'Inlog instructies';
 $string['auth_shib_integrated_wayf'] = 'Moodle WAYF Service';

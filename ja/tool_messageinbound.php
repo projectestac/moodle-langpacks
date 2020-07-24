@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_messageinbound', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'クラス名';
 $string['component'] = 'コンポーネント';
-$string['configmessageinboundhost'] = 'Moodleがメールをチェックする対象のサーバのアドレスです。デフォルトポート以外のポートを指定する場合、[server]:[port]を使用してください。例えば次のようになります: mail.example.com:587 ポートが指定されない場合、メールサーバタイプのデフォルトポートが使用されます。';
+$string['configmessageinboundhost'] = 'Moodleがメールをチェックする対象のサーバのアドレスです。デフォルトポート以外のポートを指定する場合、[server]:[port]を使用してください。例えば次のようになります: mail.example.com:993 ポートが指定されない場合、メールサーバタイプのデフォルトポートが使用されます。';
 $string['defaultexpiration'] = 'デフォルトアドレス有効期限';
 $string['defaultexpiration_help'] = 'ハンドラによってメールアドレスが生成された場合、使用できなくなるよう自動的に期限切れとなる期間を設定することができます。有効期限の設定をお勧めします。';
 $string['description'] = '説明';

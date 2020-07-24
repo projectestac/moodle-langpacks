@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'page', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   page
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,8 +33,12 @@ $string['displayoptions'] = 'Mogelijk opties om te tonen';
 $string['displayselect'] = 'Toon';
 $string['displayselectexplain'] = 'Kies type om te tonen';
 $string['indicator:cognitivedepth'] = 'Pagina cognitief';
+$string['indicator:cognitivedepthdef'] = 'Pagina cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de paginabronnen bereikt tijdens dit analyse-interval (Niveaus = Geen weergave, Weergave)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Pagina bron.';
 $string['indicator:socialbreadth'] = 'Pagina sociaal';
+$string['indicator:socialbreadthdef'] = 'Pagina sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid van de paginabronnen bereikt tijdens dit analyse-interval (niveaus = geen deelname, alleen deelnemer)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Pagina bron.';
 $string['legacyfiles'] = 'Migratie van oude cursusbestanden';
 $string['legacyfilesactive'] = 'Actief';

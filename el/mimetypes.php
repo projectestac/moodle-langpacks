@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mimetypes', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'mimetypes', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   mimetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['application/dash_xml'] = 'Δυναμικές Προσαρμόσιμες Ροές πολυμέσων μέσω HTTP (MPEG-DASH)';
 $string['application/epub_zip'] = 'Ηλε.βιβλίο EPUB';
 $string['application/json'] = 'Κείμενο {$a->MIMETYPE2}';
 $string['application/msword'] = 'Έγγραφο Word';
@@ -48,6 +49,7 @@ $string['application/x-iwork-keynote-sffkey'] = 'iWork Keynote παρουσία�
 $string['application/x-iwork-numbers-sffnumbers'] = 'iWork Numbers υπολογιστικό φύλλο';
 $string['application/x-iwork-pages-sffpages'] = 'iWork Pages έγγραφο';
 $string['application/x-javascript'] = 'Πηγαίος κώδικας JavaScript';
+$string['application/x-mpegURL'] = 'Απευθείας/Ζωντανές Συνεχείς Ροές πολυμέσων μέσω HTTP (HLS: HTTP Live Streaming)';
 $string['application/x-mspublisher'] = 'Έγγραφο Publisher';
 $string['application/x-shockwave-flash'] = 'Κινούμενα σχέδια Flash';
 $string['archive'] = 'Αρχειοθήκη ({$a->EXT})';
@@ -61,6 +63,7 @@ $string['group:html_audio'] = 'Αρχεία ήχου με εγγενή υποσ�
 $string['group:html_track'] = 'Αρχεία κομματιών πολυμέσων HTML';
 $string['group:html_video'] = 'Αρχεία βίντεο με εγγενή υποστήριξη από τους περιηγητές';
 $string['group:image'] = 'Αρχεία εικόνων';
+$string['group:media_source'] = 'Πολυμέσο συνεχούς ροής';
 $string['group:presentation'] = 'Αρχεία παρουσιάσεων';
 $string['group:sourcecode'] = 'Πηγαίος κώδικας';
 $string['group:spreadsheet'] = 'Αρχεία υπολογιστικών φύλλων';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_lp', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,7 @@ $string['editthisplan'] = 'Modifier ce plan de formation';
 $string['editthisuserevidence'] = 'Modifier cette preuve d\'acquis';
 $string['edituserevidence'] = 'Modifier la preuve d\'acquis';
 $string['evidence'] = 'Preuve';
+$string['filterbyactivity'] = 'Filtrer les compétences par ressource ou activité';
 $string['findcourses'] = 'Chercher des cours';
 $string['frameworkcannotbedeleted'] = 'Le référentiel de compétences « {$a} » ne peut pas être supprimé';
 $string['hidden'] = 'Caché';
@@ -145,9 +146,11 @@ $string['myplans'] = 'Mes plans de formation';
 $string['nfiles'] = '{$a} fichier(s)';
 $string['noactivities'] = 'Aucune activité';
 $string['nocompetencies'] = 'Aucune compétence n\'a été créée dans ce référentiel.';
+$string['nocompetenciesinactivity'] = 'Aucune compétence n\'a été liée à cette activité ou ressource.';
 $string['nocompetenciesincourse'] = 'Aucune compétence n\'a été liée à ce cours.';
 $string['nocompetenciesinevidence'] = 'Aucune compétence n\'a été liée à cette preuve d\'acquis.';
 $string['nocompetenciesinlearningplan'] = 'Aucune compétence n\'a été loué à ce plan de formation';
+$string['nocompetenciesinlist'] = 'Aucune compétence n\'a été sélectionnée';
 $string['nocompetenciesintemplate'] = 'Aucune compétence n\'a été liée à ce modèle de plan de formation.';
 $string['nocompetencyframeworks'] = 'Aucun référentiel de compétences n\'a encore été créé.';
 $string['nocompetencyselected'] = 'Aucune compétence sélectionnée';

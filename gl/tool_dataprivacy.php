@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_dataprivacy', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_dataprivacy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,7 @@ $string['contextlevelname70'] = 'Módulos de actividade';
 $string['contextlevelname80'] = 'Bloques';
 $string['contextpurposecategorysaved'] = 'Gardouse o propósito e a categoría';
 $string['createcategory'] = 'Crear categoría de datos';
+$string['createdeletedatarequest'] = 'Crear solicitude de eliminación de datos';
 $string['createnewdatarequest'] = 'Crear unha nova solicitude de datos';
 $string['createpurpose'] = 'Crear propósito de datos';
 $string['creationauto'] = 'Automaticamente';
@@ -78,9 +79,12 @@ $string['datadeletion'] = 'Eliminación de datos';
 $string['datadeletionpagehelp'] = 'Os datos para os que o período de retención caducou están listados aquí. Revise e confirme a eliminación de datos, que será executada pola tarefa programada «Eliminar os contextos caducados».';
 $string['dataprivacy:downloadallrequests'] = 'Descargar datos exportados para todos';
 $string['dataprivacy:downloadownrequest'] = 'Descargar os seus propios datos exportados';
+$string['dataprivacy:makedatadeletionrequestsforchildren'] = 'Solicitar a eliminación de datos para menores';
 $string['dataprivacy:makedatarequestsforchildren'] = 'Facer solicitudes de datos para menores de idade';
 $string['dataprivacy:managedataregistry'] = 'Xestionar o rexistro de datos';
 $string['dataprivacy:managedatarequests'] = 'Xestionar as solicitudes de datos';
+$string['dataprivacy:requestdelete'] = 'Solicitar a eliminación de datos para vostede mesmo';
+$string['dataprivacy:requestdeleteforotheruser'] = 'Solicitar a eliminación de datos en nome doutro usuario';
 $string['dataregistry'] = 'Rexistro de datos';
 $string['dataregistryinfo'] = 'O rexistro de datos permite estabelecer categorías (tipos de datos) e propósitos (os motivos do tratamento de datos) para todo o contido do sitio - desde usuarios e cursos ata actividades e bloques. Para cada propósito, pódese estabelecer un período de retención. Cando un período de retención caduca, os datos son marcados e listados para eliminalos, agardando a confirmación do administrador.';
 $string['datarequestcreatedforuser'] = 'Solicitude de datos creada para {$a}';
@@ -134,6 +138,8 @@ $string['editpurposes'] = 'Editar propósitos';
 $string['effectiveretentionperiodcourse'] = '{$a} (após a data de finalización do curso)';
 $string['effectiveretentionperioduser'] = '{$a} (desde a última vez que o usuario accedeu ao sitio)';
 $string['emailsalutation'] = 'Aprezado/a {$a}';
+$string['errorcannotrequestdeleteforother'] = 'Non ten permiso para crear unha solicitude de eliminación para este usuario.';
+$string['errorcannotrequestdeleteforself'] = 'Non ten permiso para crear unha solicitude de eliminación para vostede mesmo.';
 $string['errorcontexthasunexpiredchildren'] = 'O contexto «{$a}» aínda ten subcontextos que aínda non caducaron. Non se marcou ningún contexto para eliminar.';
 $string['errorinvalidrequestcreationmethod'] = 'O método de creación de solicitude non é válido.';
 $string['errorinvalidrequeststatus'] = 'Estado de solicitude non válido';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'chat', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,6 +55,7 @@ $string['configserverip'] = '上記ホスト名に合致するIPアドレス';
 $string['configservermax'] = '最大クライアント数';
 $string['configserverport'] = 'デーモンに使用するサーバのポート';
 $string['coursetheme'] = 'コーステーマ';
+$string['crontask'] = 'チャットモジュールのバックグラウンド処理';
 $string['currentchats'] = 'アクティブチャットセッション';
 $string['currentusers'] = '現在のユーザ';
 $string['deletesession'] = 'このセッションを削除する';
@@ -71,8 +72,12 @@ $string['explainmethodnormal'] = 'これらの設定はチャットメソッド�
 $string['generalconfig'] = '一般設定';
 $string['idle'] = 'アイドル';
 $string['indicator:cognitivedepth'] = 'チャット認知的';
+$string['indicator:cognitivedepthdef'] = 'チャット認知的';
+$string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がチャット活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信, フィードバックの閲覧, フィードバックへのコメント)。';
 $string['indicator:cognitivedepth_help'] = 'この指標はチャット活動で学生が到達した認識深度に基づきます。';
 $string['indicator:socialbreadth'] = 'チャット社会的';
+$string['indicator:socialbreadthdef'] = 'チャット社会的';
+$string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がチャット活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加, 他の人と参加)。';
 $string['indicator:socialbreadth_help'] = 'この指標はチャット活動で学生が到達した社会的広がりに基づきます。';
 $string['inputarea'] = '入力エリア';
 $string['invalidid'] = 'チャットルームが見つかりませんでした!';

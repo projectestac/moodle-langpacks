@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_guide', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,12 +27,15 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addcomment'] = 'よく使われるコメントを追加する';
 $string['addcriterion'] = 'クライテリアを追加する';
+$string['additionalcomments'] = '追加コメント';
+$string['additionalcommentsforcriterion'] = 'クライテリア {$a} の追加コメント';
 $string['alwaysshowdefinition'] = 'ガイド定義を学生に表示する';
 $string['backtoediting'] = '編集に戻る';
 $string['clicktocopy'] = 'このテキストをクライテリアフィードバックにコピーするにはクリックしてください。';
 $string['clicktoedit'] = '編集するにはクリックしてください。';
 $string['clicktoeditname'] = 'クライテリア名を編集するにはクリックしてください。';
 $string['comment'] = 'コメント';
+$string['commentpickerforcriterion'] = '{$a} 追加コメントに頻繁に使用されたコメントピッカ';
 $string['comments'] = 'よく使われるコメント';
 $string['commentsdelete'] = 'コメントを削除する';
 $string['commentsempty'] = 'コメントを編集するにはクリックしてください。';
@@ -69,10 +72,12 @@ $string['guideoptions'] = '評定ガイドオプション';
 $string['guidestatus'] = '現在の評定ガイドステータス';
 $string['hidemarkerdesc'] = '評定者クライテリア説明を隠す';
 $string['hidestudentdesc'] = '学生クライテリア説明を隠す';
+$string['informationforcriterion'] = '{$a} 情報';
 $string['insertcomment'] = 'よく使われるコメントを追加する';
 $string['maxscore'] = '最大評点';
 $string['name'] = '名称';
 $string['needregrademessage'] = 'この学生が評定された後、評定ガイド定義が変更されています。あなたが評定ガイドを確認して評点を更新するまで、学生はこの評定ガイドを閲覧することができません。';
+$string['outof'] = '{$a} 中';
 $string['pluginname'] = '評定ガイド';
 $string['previewmarkingguide'] = '評定ガイドをプレビューする';
 $string['privacy:metadata:criterionid'] = '高度な評定のためのクライテリアのIDです。';
@@ -91,6 +96,8 @@ $string['save'] = '保存';
 $string['saveguide'] = '評定ガイドを保存して利用可能な状態にする';
 $string['saveguidedraft'] = '下書きとして保存する';
 $string['score'] = '評点';
+$string['scoreforcriterion'] = '{$a} 評点';
+$string['score_help'] = '{$a->criterion} の評点を 0 から {$a->maxscore} の間で入力してください。';
 $string['showmarkerdesc'] = '評定者にクライテリア説明を表示する';
 $string['showmarkspercriterionstudents'] = 'クライテリアごとの評点を学生に表示する';
 $string['showstudentdesc'] = '学生にクライテリア説明を表示する';

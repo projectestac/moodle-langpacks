@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_recentlyaccessedcourses', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_recentlyaccessedcourses', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   block_recentlyaccessedcourses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,5 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['nocourses'] = 'Det finns inga senast besökta kurser';
 $string['pluginname'] = 'Senast besökta kurser';
 $string['privacy:metadata'] = 'Blocket Senast besökta kurser sparar inga personuppgifter.';
-$string['recentlyaccessedcourses:addinstance'] = 'Lägg till nytt block Senast besökta kurser';
 $string['recentlyaccessedcourses:myaddinstance'] = 'Lägg till blocket Senast besökta kurser till Mitt Moodle';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_email', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message_email', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   message_email
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['email'] = 'Bidali posta elektroniok bidezko jakinarazpenak hona';
+$string['emaildigestsubject'] = 'Laburpen-mezuak';
+$string['emaildigestunreadmessages'] = 'Irakurri gabeko mezuak';
+$string['emaildigestviewallmessages'] = 'Ikusi mezu guztiak';
 $string['emailonlyfromnoreplyaddress'] = 'E-mailak beti ez-erantzun moduko helbide batetik bidali nahi duzu?';
 $string['ifemailleftempty'] = 'Hutsik utzi jakinarazpenak {$a} helbidera bidaltzeko';
 $string['pluginname'] = 'Posta elektronikoa';
@@ -34,8 +37,13 @@ $string['privacy:metadata:attachname'] = 'Erantsitako fitxategiaren izena (luzap
 $string['privacy:metadata:externalpurpose'] = 'Informazio hau kanpoko SMTP zerbitzari batera bidaltzen da jasotzaileari e-mail gisa helarazteko.';
 $string['privacy:metadata:fullmessage'] = 'Mezu osoa emandako formatuan.';
 $string['privacy:metadata:fullmessagehtml'] = 'Mezuaren bertsio osoa.';
+$string['privacy:metadata:message_email_messages'] = 'LTI hornitzailearen bitartez matrikulatutako erabiltzaileen zerrenda';
+$string['privacy:metadata:message_email_messages:conversationid'] = 'Bidalitako elkarrizketaren IDa';
+$string['privacy:metadata:message_email_messages:messageid'] = 'Bidalitako mezuaren IDa';
+$string['privacy:metadata:message_email_messages:useridto'] = 'Mezuaren jasotzailearen IDa';
 $string['privacy:metadata:recipient'] = 'Mezuaren jasotzailea.';
 $string['privacy:metadata:replyto'] = 'Erantzuteko helbide elektronikoa.';
 $string['privacy:metadata:replytoname'] = 'Erantzuteko jasotzailearen izena.';
 $string['privacy:metadata:subject'] = 'Mezuaren gaia duen lerroa.';
 $string['privacy:metadata:userfrom'] = 'Mezua bidaltzen duen erabiltzailea.';
+$string['tasksendemail'] = 'Laburpen-mezuen bidalketak';

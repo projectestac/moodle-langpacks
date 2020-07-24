@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'book', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addafter'] = 'Aggiungi un nuovo capitolo';
+$string['addafterchapter'] = 'Aggiungi capitolo dopo "{$a->title}"';
 $string['book:addinstance'] = 'Aggiungere libri';
 $string['book:edit'] = 'Modificare capitoli';
 $string['book:read'] = 'Visualizzare libri';
@@ -51,8 +52,12 @@ $string['eventchapterupdated'] = 'Aggiornato capitolo';
 $string['eventchapterviewed'] = 'Visualizzato capitolo';
 $string['hidechapter'] = 'Nascondi il capitolo "{$a}"';
 $string['indicator:cognitivedepth'] = 'Libro cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Libro cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dall\'attività Compito (Livelli: Nessuna visualizzazione, Visualizzazione)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente con risorse Libro.';
 $string['indicator:socialbreadth'] = 'Libro sociale';
+$string['indicator:socialbreadthdef'] = 'Libro sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dall\'attività Libro (Livelli: Nessuna partecipazione, Partecipazione da solo)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente con risorse Libro.';
 $string['modulename'] = 'Libro';
 $string['modulename_help'] = 'Il modulo libro consente ad un docente di creare risorse multi pagina componendole, similmente ad un libro, in capitoli e paragrafi.
@@ -94,6 +99,7 @@ $string['numberingoptions_desc'] = 'Le opzioni di numerazione da rendere disponi
 $string['page-mod-book-x'] = 'Qualsiasi pagina con modulo libro';
 $string['pluginadministration'] = 'Gestione libro';
 $string['pluginname'] = 'Libro';
+$string['previouschapter'] = 'Capitolo precedente';
 $string['privacy:metadata'] = 'Il modulo di attività "Libro" non memorizza dati personali.';
 $string['removeallbooktags'] = 'Elimina tutti i tag del libro';
 $string['search:activity'] = 'Libro - Informazioni sulla risorsa';

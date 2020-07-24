@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,7 +69,7 @@ $string['auth_updateremote_expl'] = '<p><b>Eguneratu kanpoko datuak:</b> Gaituz 
 $string['auth_updateremotefield'] = 'Eguneratu kanpokoa ({$a})';
 $string['auth_updateremote_ldap'] = '<p><b>Oharra:</b> LDAP kanpoko datuen eguneratzeak \'binddn\' eta \'bindpw\' balioak ezartzeko eskatzen du erabiltzaile-erregistro guztien edizio-baimena duen erabiltzaile batentzat. Oraingoz, honek ez ditu balio anitzeko atributuak babesten, eta soberako balioak ezabatuko ditu eguneratzean zehar. </p>';
 $string['auth_user_create'] = 'Gaitu erabiltzaileen sorrera';
-$string['auth_user_creation'] = 'Erabiltzaile anonimo berriek erabiltzaile-kontuak autentifikazioko kanpo kodearen gainean sor ditzakete eta posta elektroniko bidez baieztatu. Hau indarrean jartzen baduzu, erabiltzaileen sorrerarako moduluaren aukerak ere ezarri behar dituzula gogoratu.';
+$string['auth_user_creation'] = 'Erabiltzaile anonimo berriek erabiltzaile-kontuak autentifikazioko kanpo kodearen gainean sor ditzakete eta posta elektroniko bidez baieztatu. Aukera hau gaituz gero, erabiltzaileen sorrerarako moduluaren aukerak ere ezarri behar dituzula gogoratu.';
 $string['auth_usernameexists'] = 'Aukeratutako erabiltzailearen izena honez gero badago. Beste bat aukeratu, mesedez.';
 $string['auth_usernotexist'] = 'Ezin da existitzen ez den erabiltzailea eguneratu: {$a}';
 $string['auto_add_remote_users'] = 'Gehitu automatikoki urrutiko erabiltzaileak';
@@ -86,15 +86,13 @@ $string['emailnowexists'] = 'Zure profilari ezarri nahi diozun helbide elektroni
 $string['emailupdate'] = 'Eguneratu helbide elektronikoa';
 $string['emailupdatemessage'] = '{$a->fullname} agurgarria,
 
-Zure erabiltzaile kontuko helbide elektronikoa aldatzeko eskaria egin duzu {$a->site}-n. Mesedez, ireki ondorengo URLa zure nabigatzailean aldaketa baieztatzeko.
+Zure kontuko helbide elektronikoa aldatzeko eskaria egin duzu {$a->site} gunean. Aldaketa hau baieztatzeko joan mesedez ondorengo web helbidera:
 
-Edozein zalantza izanez gero mesedez laguntza eskatu hemen: : {$a->supportemail}
+{$a->url}
 
-{$a->url}';
+{$a->supportemail}';
 $string['emailupdatesuccess'] = '<em>{$a->fullname}</em> erabiltzailearean helbide elektronikoa ondo eguneratu da honetara: <em>{$a->email}</em>';
 $string['emailupdatetitle'] = 'Helbide elektronikoa eguneratzeko baieztapena hemen: {$a->site}';
-$string['enterthenumbersyouhear'] = 'Idatzi entzuten dituzun zenbakiak';
-$string['enterthewordsabove'] = 'Idatzi goiko hitzak';
 $string['errormaxconsecutiveidentchars'] = 'Pasahitzak gehienez {$a} karaktere berdin izan behar ditu elkarren segidan.';
 $string['errorminpassworddigits'] = 'Pasahitzak gutxienez {$a} zenbaki izan behar ditu.';
 $string['errorminpasswordlength'] = 'Pasahitzak gutxienez {$a} karaktere izan behar ditu.';
@@ -111,9 +109,6 @@ $string['forcechangepasswordfirst_help'] = 'Behartu pasahitza aldatzera erabiltz
 $string['forcechangepassword_help'] = 'Behartu pasahitza aldatzera erabiltzaileak Moodlen sartzen diren hurrengo aldian.';
 $string['forgottenpassword'] = 'Hemen URL bat idatziz gero, gune honetan galdu diren pasahitzak berreskuratzeko orri gisa erabiliko da. Aukera hau pentsatuta dago pasahitzak Moodletik kanpo kudeatzen diren guneetarako. Hutsik utz ezazu pasahitza berreskuratzeko lehenetsitako orria erabiltzeko.';
 $string['forgottenpasswordurl'] = 'Ahaztutako pasahitzaren URLa';
-$string['getanaudiocaptcha'] = 'Eskuratu CAPTCHA audio bat';
-$string['getanimagecaptcha'] = 'Eskuratu CAPTCHA irudi bat';
-$string['getanothercaptcha'] = 'Eskuratu beste CAPTCHA bat';
 $string['getrecaptchaapi'] = 'reCAPTCHA erabiltzeko, API giltza lortu behar duzu hemendik: <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Bisitariek saioa hasteko botoia';
 $string['incorrectpleasetryagain'] = 'Ez da zuzena. Mesedez, saiatu berriz.';
@@ -151,7 +146,7 @@ $string['privacy:metadata:userpref:loginlockout'] = 'Huts egindako saio-hasiera 
 $string['privacy:metadata:userpref:loginlockoutignored'] = 'Erabiltzaile-kontu bat blokeatu ezin daitekela adierazten du';
 $string['privacy:metadata:userpref:loginlockoutsecret'] = 'Blokeatuta dagoenean, erabiltzaileak bere kontua desblokeatzeko erabili beharreko sekretua';
 $string['recaptcha'] = 'reCAPTCHA';
-$string['recaptcha_help'] = 'CAPTCHA programa automaten gehiegikeriak ekiditeko da. Jarraitu argibideei pertsona zarela egiaztatzeko. Klikatzeko botoia izan daiteke, edo azaldutako karaktereak idatzi beharra edo aukeratzeko irudi multzeoa.
+$string['recaptcha_help'] = 'CAPTCHA automatizatutako programen gehiegikeriak ekiditeko da. Jarraitu argibideei pertsona bat zarela egiaztatzeko. Klikatu beharreko laukitxo bat izan daiteke, azaldutako karaktereak idatzi beharra edo aukeratzeko irudi multzoa.
 
 Ziur ez bazaude zein irudi diren, beste CAPTCHA bat eska dezakezu edo audio CAPTCHA bat.';
 $string['security_question'] = 'Segurtasun-galdera';

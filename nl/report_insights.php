@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_insights', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_insights', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   report_insights
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['calculatedvalue'] = 'Berekende waarde';
+$string['actionsaved'] = 'Je feedback van \'{$a}\'  is opgeslagen.';
+$string['confirmbulkaction'] = 'Gebruik je de geselecteerde {$a->nitems} voorspellingen als "{$a->action}"?';
 $string['disabledmodel'] = 'Dit model is uitgeschakeld door de beheerder.';
-$string['indicator'] = 'Indicator';
+$string['indicators'] = 'Indicatoren';
 $string['insight'] = 'Inzicht';
-$string['insightprediction'] = '{$a} voorspelling';
 $string['insights'] = 'Inzichten';
 $string['justpredictions'] = 'Merk op dat volgende inzichten slechts voorspellingen zijn. Het is niet mogelijk om de toekomst met enige zekerheid te voorspellen. Deze inzichten worden gegeven zodat er indien nodig actie kan ondernomen worden om te verhinderen dat negatieve voorspellingen de waarheid worden.';
 $string['nodetailsavailable'] = 'Er zijn geen relevante voorspellingsdetails';
@@ -42,10 +42,10 @@ $string['outcomeverynegative'] = 'Heel negatief resultaat';
 $string['outcomeverypositive'] = 'Heel positief resultaat';
 $string['pluginname'] = 'Inzichten';
 $string['prediction'] = 'Voorspelling';
-$string['predictioncalculations'] = 'Indicatorberekeningen';
 $string['predictiondetails'] = 'Details voorspelling';
 $string['privacy:metadata'] = 'De Inzichten-plugin bewaart geen persoonlijke gegevens.';
 $string['selectotherinsights'] = 'Selecteer voor meer inzicht...';
+$string['selectprediction'] = 'Selecteer {$a} voor bulkactie';
 $string['timecreated'] = 'Voorspelde tijd';
-$string['timerange'] = 'Tijdsspanne';
+$string['timerange'] = 'Analyse-interval';
 $string['timerangewithdata'] = '{$a->timestart} tot {$a->timeend}';

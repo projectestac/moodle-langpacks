@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myoverview', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_myoverview', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   block_myoverview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,14 +26,17 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addtofavourites'] = 'Toevoegen aan favorieten';
-$string['all'] = 'Alle';
+$string['all'] = 'Alles (behalve verborgen)';
+$string['allincludinghidden'] = 'Alle';
 $string['aria:addtofavourites'] = 'Favoriet voor';
-$string['aria:allcourses'] = 'Alle cursussen';
+$string['aria:allcourses'] = 'Toon alle cursussen behalve verborgen cursussen';
+$string['aria:allcoursesincludinghidden'] = 'Toon alle cursussen';
 $string['aria:card'] = 'Schakel over naar kaartweergave';
 $string['aria:controls'] = 'Cursusoverzicht besturing';
 $string['aria:courseactions'] = 'Acties voor huidige cursus';
 $string['aria:courseprogress'] = 'Vordering cursus:';
 $string['aria:coursesummary'] = 'Samenvatting cursus:';
+$string['aria:customfield'] = 'Toon {$a} cursussen';
 $string['aria:displaydropdown'] = 'Toon rolmenu';
 $string['aria:favourites'] = 'Toon favoriete cursussen';
 $string['aria:future'] = 'Toon toekomstige cursussen';
@@ -49,12 +52,20 @@ $string['aria:showcourse'] = 'Toon {$a}';
 $string['aria:sortingdropdown'] = 'Rolmenu sortering';
 $string['aria:summary'] = 'Schakel over naar overzichtsweergave';
 $string['aria:title'] = 'Sorteer cursussen op naam';
+$string['availablegroupings'] = 'Beschikbare filters';
+$string['availablegroupings_desc'] = 'Cursusfilters die beschikbaar zijn voor selectie door gebruikers. Als er geen is geselecteerd, worden alle cursussen weergegeven.';
 $string['card'] = 'Kaart';
 $string['cards'] = 'Kaarten';
 $string['complete'] = 'voltooid';
+$string['completepercent'] = '{$a}% voltooid';
 $string['courseprogress'] = 'Cursusvordering:';
+$string['customfield'] = 'Aangepast veld';
+$string['customfiltergrouping'] = 'Veld om te gebruiken';
+$string['customfiltergrouping_nofields'] = 'Voor deze optie moet je een aangepast veld in je cursus maken en dat zichtbaar zetten voor iedereen.';
 $string['defaulttab'] = 'Standaard-tab';
 $string['defaulttab_desc'] = 'Dit is de standaard-tab die aan een gebruiker getoond de eerste keer dat die een cursus bezoekt. Bij het terugkeren naar het cursusoverzicht wordt de actieve tab van de gebruiker onthouden.';
+$string['displaycategories'] = 'Toon categorieën';
+$string['displaycategories_help'] = 'Geef de cursuscategorie weer op dashboard-cursusitems, inclusief kaarten, lijstitems en samenvattingsitems.';
 $string['favourites'] = 'Favoriet';
 $string['future'] = 'Toekomst';
 $string['hidden'] = 'Verborgen cursussen';
@@ -62,9 +73,10 @@ $string['hiddencourses'] = 'Verborgen';
 $string['hidecourse'] = 'Verberg';
 $string['inprogress'] = 'Actief';
 $string['lastaccessed'] = 'Laatst geopend';
+$string['layouts'] = 'Beschikbare lay-outs';
+$string['layouts_help'] = 'Cursus overzicht-lay-outs die beschikbaar zijn voor selectie door gebruikers. Als er geen geselecteerd zijn, zal de kaart-lay-out gebruikt worden.';
 $string['list'] = 'Lijst';
 $string['morecourses'] = 'Meer cursussen';
-$string['myoverview:addinstance'] = 'Een nieuw cursusoverzichtblok toevoegen';
 $string['myoverview:myaddinstance'] = 'Een nieuw cursusoverzichtblok toevoegen aan Mijn startpagina';
 $string['next30days'] = 'Komende 30 dagen';
 $string['next7days'] = 'Komende 7 dagen';
@@ -72,6 +84,7 @@ $string['nocourses'] = 'Geen cursussen';
 $string['nocoursesfuture'] = 'Geen toekomstige cursussen';
 $string['nocoursesinprogress'] = 'Geen actieve cursussen';
 $string['nocoursespast'] = 'Geen voltooide cursussen';
+$string['nocustomvalue'] = 'Geen {$a}';
 $string['noevents'] = 'Er zijn geen verwachte activiteiten';
 $string['past'] = 'Voltooid';
 $string['pluginname'] = 'Cursusoverzicht';

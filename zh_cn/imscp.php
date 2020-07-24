@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'imscp', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'imscp', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   imscp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['areabackup'] = '包归档';
 $string['areacontent'] = '内容';
 $string['contentheader'] = '内容';
-$string['deploymenterror'] = '内容包有错！';
+$string['deploymenterror'] = '内容包错误!';
 $string['imscp:addinstance'] = '添加新的 IMS 内容包';
 $string['imscp:view'] = '查看 IMS 内容';
 $string['indicator:cognitivedepth'] = 'IMS内容包资源认知深度';

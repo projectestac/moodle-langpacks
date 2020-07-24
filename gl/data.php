@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'data', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -208,8 +208,14 @@ $string['includetags'] = 'Incluír as etiquetas';
 $string['includetime'] = 'Incluír o momento de engadido/modificado';
 $string['includeuserdetails'] = 'Incluír detalles do usuario';
 $string['indicator:cognitivedepth'] = 'Base de datos cognitiva';
+$string['indicator:cognitivedepthdef'] = 'Base de datos cognitiva';
+$string['indicator:cognitivedepthdef_help'] = 'O participante acadou esta porcentaxe do compromiso cognitivo que ofrecen as actividades da Base de datos durante este intervalo de análise (Niveis = Sen vista, Ver)';
+$string['indicator:cognitivedepthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Profundidade_cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de base de datos.';
 $string['indicator:socialbreadth'] = 'Base de datos social';
+$string['indicator:socialbreadthdef'] = 'Base de datos social';
+$string['indicator:socialbreadthdef_help'] = 'O participante acadou esta porcentaxe do compromiso social que ofrecen as actividades da Base de datos durante este intervalo de análise (Niveis = Sen participación, Participante en solitario)';
+$string['indicator:socialbreadthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Amplitude_social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de base de datos.';
 $string['insufficiententries'] = 'necesítanse máis entradas para ver esta base de datos';
 $string['intro'] = 'Descrición';
@@ -245,7 +251,7 @@ $string['menuchoose'] = 'Escoller...';
 $string['missingdata'] = 'Debe fornecerse id dos datos ou do obxecto para o campo clase';
 $string['missingfield'] = 'Erro na programación: Debe especificar o campo e/ou datos ao definir o campo clase.';
 $string['modulename'] = 'Base de datos';
-$string['modulename_help'] = 'O módulo de actividade permítelles aos participantes crear, manter e buscar unha colección de entradas (i.e. rexistros). A estrutura das entradas defínea o profesor como un número de campos. Os tipos de campos como caixas de selección, botón de opción, menú despregábel, área de texto, URL, imaxe ou ficheiro enviado.
+$string['modulename_help'] = 'O módulo de actividade permítelles aos participantes crear, manter e buscar unha colección de entradas (i.e. rexistros). A estrutura das entradas defínea o profesor como un número de campos. Os tipos de campos como caixas de verificación, botón de opción, menú despregábel, área de texto, URL, imaxe ou ficheiro enviado.
 
 O deseño visual da información ao listar, ver ou editar as entradas da base de datos pode controlarse mediante modelos de bases de datos. As actividades da base de datos pode compartirse entre cursos como predefinicións e un profesor tamén pode importar e exportar entradas da base de datos.
 
@@ -255,7 +261,7 @@ Un profesor pode permitir comentarios en entradas. As entradas tamén as poden p
 
 As actividades da base de datos teñen moitos usos, tales como
 
-* Unha colectión colectiva de ligazóns web, libros, resumos de libros, referencias xornalísticas, etc.
+* Unha colección colaborativa de ligazóns web, libros, resumos de libros, referencias xornalísticas, etc.
 * Para presentar fotos, carteis, sitios web ou poemas feitos por alumnos comentados e revisados por pares';
 $string['modulename_link'] = 'mod/chat/vista';
 $string['modulenameplural'] = 'Bases de datos';

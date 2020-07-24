@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_grading', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,7 +53,6 @@ $string['gradingall'] = 'Todos los ??? intentos de contestar esta pregunta.';
 $string['gradingattempt'] = 'Intento número {$a->attempt} de {$a->fullname}.';
 $string['gradingattemptsxtoyofz'] = 'Intentos de calificación {$a->from} a {$a->to} de {$a->of}';
 $string['gradingattemptwithidnumber'] = 'Número de intento {$a->attempt} para {$a->fullname} ({$a->idnumber})';
-$string['grading:componentname'] = 'Informe de calificación manual';
 $string['gradingnextungraded'] = 'Los siguientes ??? intentos no calificados';
 $string['gradingnotallowed'] = 'No tiene permiso para calificar manualmente las respuestas de este cuestionario';
 $string['gradingquestionx'] = 'Calificación de la pregunta {$a->number}: {$a->questionname}';

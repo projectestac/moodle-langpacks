@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,6 +69,15 @@ $string['emailconfirmlinksent'] = '<p>Er is een bestaande account gevonden met d
    <p>Er is een e-mail verzonden naar jouw adres: <b>{$a}</b>.</p>
    <p>Die bevat eenvoudige instructies om je accounts te koppelen</p>
    <p>Als je moeilijkheden hebt, neem dan contact op met je site-beheerder.</p>';
+$string['emailpasswordchangeinfo'] = 'Hallo {$a->firstname},
+
+Iemand (waarschijnlijk jij) heeft een nieuw wachtwoord voor je account aangevraagd op \'{$a->sitename}\'.
+
+Uw wachtwoord kan echter niet worden gereset omdat u uw account gebruikt.
+
+Meld u alstublieft aan zoals eerder, via de link op de inlogpagina.
+{$a->admin}';
+$string['emailpasswordchangeinfosubject'] = '{$a}: Informatie over wachtwoordwijziging';
 $string['info'] = 'Externe account';
 $string['issuer'] = 'OAuth 2 service';
 $string['issuernologin'] = 'Deze uitgever kan niet gebruikt worden om in te loggen';

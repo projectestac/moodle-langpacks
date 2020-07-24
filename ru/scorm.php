@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -74,8 +74,8 @@ $string['browsed'] = 'Найден';
 $string['browsemode'] = 'Режим предпросмотра';
 $string['browserepository'] = 'Посмотреть  репозиторий';
 $string['calculatedweight'] = 'Расчетный вес';
-$string['calendarend'] = 'Закрытие активного элемента SCORM «{$a}»';
-$string['calendarstart'] = 'Открытие активного элемента SCORM «{$a}»';
+$string['calendarend'] = '«{$a}» закрывается';
+$string['calendarstart'] = '«{$a}» открывается';
 $string['cannotaccess'] = 'Вы не можете вызывать этот скрипт таким образом';
 $string['cannotfindsco'] = 'Не удалось найти SCO (Shareable Content Object - Разделяемый объект содержимого)';
 $string['chooseapacket'] = 'Выберите или модернизируйте SCORM пакет';
@@ -208,7 +208,7 @@ $string['highestattempt'] = 'Лучшая попытка';
 $string['identifier'] = 'Идентификатор вопроса';
 $string['incomplete'] = 'Не завершено';
 $string['indicator:cognitivedepth'] = 'SCORM: познавательный аспект';
-$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на  глубине познания, достигнутой студентом при работе с активным элементом SCORM.';
+$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на глубине познания, достигнутой студентом при работе с элементом курса «SCORM».';
 $string['indicator:socialbreadth'] = 'SCORM: социальный аспект';
 $string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с элементом SCORM.';
 $string['info'] = 'Введение';

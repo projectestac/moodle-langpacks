@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_db', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_db', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_db
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['auth_dbchangepasswordurl_key'] = 'URL zur Kennwortänderung';
 $string['auth_dbcolumnlist'] = 'Die externe Tabelle enthält die folgenden Spalten:<br />{$a}';
 $string['auth_dbdebugauthdb'] = 'Debug ADOdb';
 $string['auth_dbdebugauthdbhelp'] = 'Ein Debug der ADOdb Verbindung zur externen Datenbank sollte ausgeführt werden, wenn beim Login eine leere Seite erscheint. Die Funktion sollte nicht auf Produktivinstallationen eingesetzt werden.';
-$string['auth_dbdeleteuser'] = 'Gelöschte Nutzer/in {$a->name} ID {$a->id}';
+$string['auth_dbdeleteuser'] = 'Gelöschtes Nutzerkonto {$a->name} ID {$a->id}';
 $string['auth_dbdeleteusererror'] = 'Fehler beim Löschen von Nutzer/in {$a}';
 $string['auth_dbdescription'] = 'Diese Methode benutzt eine externe Datenbank-Tabelle, um die Gültigkeit von angegebenem Anmeldenamen und Kennwort zu überprüfen. Wenn der Zugang neu ist, werden die Informationen der übrigen Felder ebenso zu Moodle hinüberkopiert.';
 $string['auth_dbextencoding'] = 'Externe DB-Codierung';

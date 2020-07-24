@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_database', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'logstore_database', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   logstore_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,6 +42,8 @@ $string['filters'] = 'Iragazi agerraldiak';
 $string['filters_help'] = 'Gaitu ekintza batzuk erregistratu gabe utziko dituzten iragazkiak.';
 $string['includeactions'] = 'Sartu mota honetako ekintzak';
 $string['includelevels'] = 'Sartu hezkuntza-maila hauetako ekintzak';
+$string['jsonformat'] = 'JSON formatua';
+$string['jsonformat_desc'] = 'Erabili JSON formatu estandarra PHPko datu-serien ordez \'Bestelako bat\' datu-base eremuan.';
 $string['logguests'] = 'Erregistratu bisitarien ekintzak';
 $string['other'] = 'Bestelako bat';
 $string['participating'] = 'Partaidetza';

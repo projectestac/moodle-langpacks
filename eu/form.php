@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'form', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'form', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   form
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,16 +32,16 @@ $string['custom'] = 'Pertsonalizatua';
 $string['day'] = 'Eguna';
 $string['default'] = 'Lehenetsitakoa';
 $string['display'] = 'Erakutsi';
-$string['err_alphanumeric'] = 'Hemen letrak eta zenbakiak baino ezin dituzu idatzi';
-$string['err_email'] = 'Hemen benetako helbide elektroniko bat idatzi behar duzu';
-$string['err_lettersonly'] = 'Hemen letrak baino ezin dituzu idatzi';
+$string['err_alphanumeric'] = 'Hemen letrak eta zenbakiak baino ezin dituzu idatzi.';
+$string['err_email'] = 'Hemen benetako helbide elektroniko bat zehaztu behar duzu.';
+$string['err_lettersonly'] = 'Hemen letrak baino ezin dituzu idatzi.';
 $string['err_maxfiles'] = 'Ez duzu {$a} baino fitxategi gehiago erantsi behar hemen.';
 $string['err_maxlength'] = 'Hemen ezin duzu {$a->format} baino karaktere gehiago idatzi.';
-$string['err_minlength'] = 'Hemen gutxienez {$a->format} karaktere idatzi behar dituzu';
+$string['err_minlength'] = 'Hemen gutxienez {$a->format} karaktere idatzi behar dituzu.';
 $string['err_nonzero'] = 'Hemen 0-rekin hasten ez den zenbaki bat idatzi behar duzu.';
-$string['err_nopunctuation'] = 'Hemen ezin duzu inongo puntuazio-markarik idatzi';
+$string['err_nopunctuation'] = 'Hemen ezin duzu inongo puntuazio-markarik idatzi.';
 $string['err_numeric'] = 'Hemen zenbaki bat idatzi behar duzu.';
-$string['err_rangelength'] = 'Hemen {$a->format[0]} eta {$a->format[1]}-ren arteko karaktere-kopurua idatzi behar duzu';
+$string['err_rangelength'] = 'Hemen {$a->format[0]} eta {$a->format[1]}-ren arteko karaktere-kopurua idatzi behar duzu.';
 $string['err_required'] = 'Hemen balio bat eman behar duzu';
 $string['err_wrappingwhitespace'] = 'Balioak ezin du zuriune batekin hasi edo amaitu.';
 $string['err_wrongfileextension'] = 'Fitxategi batzuk ({$a->wrongfiles}) ezin dira igo. Soilik {$a->whitelist} fitxategi-luzapenak onartzen dira.';

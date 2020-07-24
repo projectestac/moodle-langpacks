@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_generator', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_generator', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_generator
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,7 +59,7 @@ $string['error_nouserspassword'] = 'Sie müssen $CFG->tool_generator_users_passw
 $string['fullname'] = 'Testkurs: {$a->size}';
 $string['maketestcourse'] = 'Testkurs erstellen';
 $string['maketestplan'] = 'JMeterTestplan erstellen';
-$string['notenoughusers'] = 'Der ausgewählte Kurs hat zu wenig Nutzerinnen.';
+$string['notenoughusers'] = 'Der ausgewählte Kurs hat zu wenig Nutzer/innen.';
 $string['pluginname'] = 'Datengenerator zur Entwicklung';
 $string['privacy:metadata'] = 'Das Plugin \'Entwicklungsdaten-Generator\' speichert keine personenbezogenen Daten.';
 $string['progress_checkaccounts'] = 'Nutzeraccounts prüfen ({$a})';

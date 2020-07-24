@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotpot', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'hotpot', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   hotpot
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -81,14 +81,14 @@ $string['completed'] = 'Beteta';
 $string['completionmingrade'] = 'Gutxieneko kalifikazioa beharrezkoa da';
 $string['completionpass'] = 'Gainditzeko kalifikazioa beharrezkoa da';
 $string['completionwarning'] = 'Eremu hauek desgaituta daude jarduera honetako kalifikazio-muga "Kalifikaziorik ez" baldin bada, edo kalifikazioaren pisua "Pisurik ez" bada.';
-$string['configbodystyles'] = 'Moodleren itxura motak HotPot jardueraren itxura gainidaztea dago lehenetsita. Hala ere, hemen aukeratutako itxura edozein izanda ere, HotPot jardueraren itxurak lehentasuna izango du Moodleren itxuraren gainetik.';
+$string['configbodystyles'] = 'Moodleren azal motak HotPot jardueraren itxura gainidaztea dago lehenetsita. Hala ere, hemen aukeratutako itxura edozein izanda ere, HotPot jardueraren itxurak lehentasuna izango du Moodleren azalaren gainetik.';
 $string['configenablecache'] = 'HotPot galdetegien cache-a mantentzeak abiadura biziki arinduko du ikasleek lan egiterakoan.';
 $string['configenablecron'] = 'Zehaztu cron-a abiarazteko zure ordutegi-eremuko orduak';
 $string['configenablemymoodle'] = 'Ezarpen honek kontrolatzen du Nire Moodle orrian HotPot jarduerak zerrendatuko diren ala ez';
 $string['configfile'] = 'Ezarpenen fitxategia';
 $string['configlocation'] = 'Ezarpenen fitxategiaren kokapena';
 $string['confirmdeleteattempts'] = 'Ziur al zaude saiakera hauek ezabatu nahi dituzula?';
-$string['confirmstop'] = 'Ziur al zaude orri honetatik irten nahi duzula?';
+$string['confirmstop'] = 'Ziur zaude orri honetatik irten nahi duzula?';
 $string['correct'] = 'Zuzena';
 $string['couldnotinsertsubmissionform'] = 'Ezin izan da bidalketa formularioa txertatu';
 $string['delay1'] = '1. atzerapena';
@@ -145,7 +145,7 @@ $string['exit_grades'] = 'Kalifikazioak';
 $string['exit_grades_text'] = 'Begiratu ikastaro honetako kalifikazioei';
 $string['exithotpotcourse'] = 'Hurrenho HotPot-a ikastaro honetan';
 $string['exit_hotpotgrade'] = 'Jarduera honetarako kalifikazioa {$a}';
-$string['exit_hotpotgrade_average'] = 'Zure jarduera honetako orain arteko batezbesteko puntuazioa {$a} da';
+$string['exit_hotpotgrade_average'] = 'Zure jarduera honetako orain arteko batez besteko puntuazioa {$a} da';
 $string['exit_hotpotgrade_highest'] = 'Zure jarduera honetako orain arteko gehienezko puntuazioa {$a} da';
 $string['exit_hotpotgrade_highest_equal'] = 'Jarduera honetan aurretik lortutako zure puntuaziorik onena berdindu duzu!';
 $string['exit_hotpotgrade_highest_previous'] = 'Jarduera honetan aurretik lortutako puntuazioarik onena {$a} zen';

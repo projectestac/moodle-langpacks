@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_dataprivacy', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_dataprivacy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,7 @@ $string['contextlevelname70'] = 'Moduli di attività';
 $string['contextlevelname80'] = 'Blocchi';
 $string['contextpurposecategorysaved'] = 'Finalità e categoria salvati';
 $string['createcategory'] = 'Crea categoria di dati';
+$string['createdeletedatarequest'] = 'Crea richiesta di eliminazione  dati';
 $string['createnewdatarequest'] = 'Crea richiesta di dati';
 $string['createpurpose'] = 'Aggiungi finalità dei dati';
 $string['creationauto'] = 'Automatica';
@@ -78,9 +79,12 @@ $string['datadeletion'] = 'Eliminazione dati';
 $string['datadeletionpagehelp'] = 'Nella pagina sono elencati i dati che hanno oltrepassato il tempo di conservazione. Per favore rivedi i dati e conferma l\'eliminazione che sarà eseguita dall\'elaborazione pianificata "Eliminazione contesti scaduti".';
 $string['dataprivacy:downloadallrequests'] = 'Scaricare qualsiasi richiesta di dati';
 $string['dataprivacy:downloadownrequest'] = 'Scaricare le proprie richieste di esportazione dati';
+$string['dataprivacy:makedatadeletionrequestsforchildren'] = 'Richiedere eliminazione di dati per i minori';
 $string['dataprivacy:makedatarequestsforchildren'] = 'Effettuare richieste di dati per minori';
 $string['dataprivacy:managedataregistry'] = 'Gestire registro dei dati';
 $string['dataprivacy:managedatarequests'] = 'Gestire richieste di dati';
+$string['dataprivacy:requestdelete'] = 'Richiedere eliminazione dei propri dati';
+$string['dataprivacy:requestdeleteforotheruser'] = 'Richiedere eliminazione dei dati nelle veci di altro utente';
 $string['dataregistry'] = 'Registro dei dati';
 $string['dataregistryinfo'] = 'Il registro dei dati consente di creare categorie (tipologie di dati) e finalità (i motivi del trattamento dei dati) per qualsiasi contesto del sito, dagli utenti e i corsi fino alle attività ed i blocchi. Per ciascuna finalità è possibile impostare un tempo di conservazione dei dati. Una volta trascorso il tempo di conservazione, i dati saranno posti in attesa della conferma di eliminazione da parte di un amministratore.';
 $string['datarequestcreatedforuser'] = 'E\' stata creata una richiesta di dati da parte di {$a}';
@@ -94,9 +98,8 @@ $string['datecomment'] = '[{$a->date}]:
 {$a->comment}';
 $string['daterequested'] = 'Data della richiesta';
 $string['daterequesteddetail'] = 'Data della richiesta:';
-$string['defaultexpired'] = 'Dati di tutti gli utenti';
-$string['defaultexpiredexcept'] = 'Dati di tutti gli utenti, ad eccezione di coloro che hanno almeno uno dei seguenti ruoli: <br>
-{$a->unexpired}';
+$string['defaultexpired'] = 'Tutti i dati utente';
+$string['defaultexpiredexcept'] = 'Tutti i dati utente, ad eccezione dei dati degli utenti che possiedono almeno uno dei seguenti ruoli: <br> {$a->unexpired}';
 $string['defaultsinfo'] = 'Le finalità e la categorie di default saranno applicati alle nuove istanze dove finalità e categorie non sono state impostate.';
 $string['defaultssaved'] = 'Default salvati';
 $string['defaultswarninginfo'] = 'Attenzione: la modifica del tempo di conservazione può modificare il periodo di conservazione di istanze preesistenti.';
@@ -134,6 +137,8 @@ $string['editpurposes'] = 'Modifica finalità';
 $string['effectiveretentionperiodcourse'] = '{$a} (dopo la data di fine corso)';
 $string['effectiveretentionperioduser'] = '{$a} (dalla data dell\'ultima autenticazione dell\'utente)';
 $string['emailsalutation'] = 'Gentile {$a},';
+$string['errorcannotrequestdeleteforother'] = 'Non sei autorizzato a richiedere l\'eliminazione dei dati di questo utente.';
+$string['errorcannotrequestdeleteforself'] = 'Non sei autorizzato a richiedere l\'eliminazione dei tuoi dati.';
 $string['errorcontexthasunexpiredchildren'] = 'Il contesto "{$a}" ha sotto-contesti che non sono scaduti. nessun contesto è stato contrassegnato per l\'eliminazione.';
 $string['errorinvalidrequestcreationmethod'] = 'Il metodo di creazione della richiesta non è valido';
 $string['errorinvalidrequeststatus'] = 'Stato della richiesta non valido';
@@ -199,8 +204,8 @@ $string['markcomplete'] = 'Contrassegna come completata';
 $string['markedcomplete'] = 'la richiesta è stata contrassegnata come completata dal responsabile del trattamento dei dati.';
 $string['message'] = 'Messaggio';
 $string['messagelabel'] = 'Messaggio:';
-$string['messageprovider:contactdataprotectionofficer'] = 'Richiesta di dati';
-$string['messageprovider:datarequestprocessingresults'] = 'Risultato dell\'elaborazione della richiesta di dati';
+$string['messageprovider:contactdataprotectionofficer'] = 'Richieste di dati';
+$string['messageprovider:datarequestprocessingresults'] = 'Risultati delle richieste di dati';
 $string['messageprovider:notifyexceptions'] = 'Notifiche di eccezioni relative alle richieste di dati';
 $string['moduleinstancename'] = '{$a->instancename} ({$a->modulename})';
 $string['mypersonaldatarequests'] = 'Le mie richieste di dati';

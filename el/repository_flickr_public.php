@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_flickr_public', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_flickr_public', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_flickr_public
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,7 @@ $string['flickr_public:view'] = 'Χρήση του repository Flickr public στ
 $string['fulltext'] = 'Πλήρες κείμενο';
 $string['information'] = '<div>Λάβετε ένα <a href="http://www.flickr.com/services/api/keys/">Κλειδί API για το Flickr</a> για τον Moodle ιστότοπό σας.</div>';
 $string['invalidemail'] = 'Μη έγκυρος λογαριασμός ηλε.ταχυδρομείου για το flickr';
-$string['license'] = 'Άδεια';
+$string['license'] = 'Άδεια χρήσης';
 $string['modification'] = 'Θέλω να είμαι σε θέση να τροποποιήσω τις εικόνες';
 $string['notitle'] = 'Χωρίς Τίτλο';
 $string['nullphotolist'] = 'Δεν υπάρχουν φωτογραφίες σε αυτό το λογαριασμό';

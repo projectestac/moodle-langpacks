@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_generator', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_generator', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_generator
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['bigfile'] = 'Fitxer gran {$a}';
-$string['courseexplanation'] = 'Aquesta eina crea cursos de prova estàndards que inclouen moltes seccions, activitats i fitxers.
+$string['courseexplanation'] = 'Aquesta eina crea cursos de prova estàndard que inclouen moltes seccions, activitats i fitxers.
 
 Està destinada a proporcionar una mesura estandarditzada per comprovar la fiabilitat i el rendiment de diversos components del sistema (per exemple, les còpies de seguretat i la restauració).
 

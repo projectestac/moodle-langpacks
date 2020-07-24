@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'ltiservice_memberships', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'ltiservice_memberships', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   ltiservice_memberships
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['allow'] = 'Use este serviço para recuperar as informações dos membros de acordo com as configurações de privacidade';
+$string['ltiservice_memberships'] = 'Nomes e atribuição de papéis do IMS LTI';
+$string['ltiservice_memberships_help'] = 'Permite que a ferramenta recupere as informações dos membros da disciplina usando o serviço de Nomes e atribuição de papéis do IMS LTI. Serão aplicadas as configurações de privacidade. Para solicitações ao nível da disciplina, elas serão baseadas nas definições da configuração da ferramenta. Se pretende que sejam sempre enviados estes detalhes, não delegue a escolha para os professores. As solicitações no nível de hiperligação usarão sempre as configurações de privacidade que se aplicam à hiperligação.';
 $string['notallow'] = 'Não usar este serviço';
-$string['pluginname'] = 'Subscrever Serviço LTI';
+$string['pluginname'] = 'Serviço LTI para fornecimento de nomes e papeis';
 $string['privacy:metadata:email'] = 'O e-mail do utilizador a usar o sistema LTI.';
 $string['privacy:metadata:externalpurpose'] = 'Este informação é enviada para um fornecedor LTI externo.';
 $string['privacy:metadata:firstname'] = 'firstname do utilizador a usar o sistema LTI.';
@@ -34,4 +37,3 @@ $string['privacy:metadata:fullname'] = 'O fullname do utilizador a usar o sistem
 $string['privacy:metadata:lastname'] = 'lastname do utilizador a usar o sistema LTI.';
 $string['privacy:metadata:userid'] = 'O ID do utilizado a usar o sistema LTI.';
 $string['privacy:metadata:useridnumber'] = 'O ID do utilizador ao usar o sistema LTI';
-$string['servicename'] = 'Subscrever';

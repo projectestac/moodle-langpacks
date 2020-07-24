@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_ddimageortext', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_ddimageortext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,7 +41,7 @@ $string['draggableword'] = 'Texto arrastrábel';
 $string['dropbackground'] = 'Imaxe de fondo cara onde arrastrar os marcadores';
 $string['dropzone'] = 'Zona de solta {$a}';
 $string['dropzoneheader'] = 'Zonas de solta';
-$string['formerror_disallowedtags'] = 'Non se permiten etiquetas HTML no texto arrastrábel.';
+$string['formerror_disallowedtags'] = 'Neste texto arrastrábel só están permitidas as etiquetas «{$a}».';
 $string['formerror_multipledraginstance'] = 'Seleccionou esta imaxe {$a} máis dunha vez como a opción correcta para unha zona de solta mais non está marcada como un elemento de arrastre ilimitado.';
 $string['formerror_multipledraginstance2'] = 'Seleccionou esta imaxe máis dunha vez como a opción correcta para unha zona de solta mais non está marcada como un elemento de arrastre ilimitado.';
 $string['formerror_noallowedtags'] = 'Non se permiten etiquetas HTML neste texto que é o texto alternativo para unha imaxe arrastrábel.';

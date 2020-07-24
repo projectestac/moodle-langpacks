@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_file', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cachestore_file', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   cachestore_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,8 +34,11 @@ $string['prescan'] = 'Aurrez eskaneatu direktorioa';
 $string['prescan_help'] = 'Gaituz gero cachea erabiltzen den lehen aldian direktorioa eskaneatuko da eta fitxategi-eskaerak eskaneatze-datuetan lehenegoz egiaztatzen dira. Honek lagundu dezake fitxategi-sistema motela baduzu eta fitxategien eragiketek itogunea eragiten dutela ikusten baduzu.';
 $string['privacy:metadata'] = 'Fitxategi-cachea cache-biltegi pluginak datuak laburki gordetzen ditu bere cache-funtzioaren baitan, baina datuak erregularki ezabatzen dira eta ez dira inola kanpora bidaltzen.';
 $string['singledirectory'] = 'Direktorio bakarreko biltegia';
-$string['singledirectory_help'] = 'Gaituz gero fitxategiak (cacheatutako elementuak) karpeta bakarrean gordeko diren karpeta anitzetan banatu beharrean.<br />
-Hau gaituta fitxategiekiko elkarrekintzak azkartuko dira baina fitxategi-sistemaren mugetara iristeko arriskua egon daiteke.<br />
-Aukera hau gaitzea soilik hurrengo hauetako bat gertatzen bada gomendatzen da:<br />
- - Cachean egongo den elementu kopurua nahikoa txikia izango dela eta exekutatzen ari den fitxategi-sistemarekin arazoak egongo ez direla badakizu.<br />
- - Cacheatutako datuak sortzeak kostu handia ez badu. Bestela lehenetsitako ezarpenak uztea komeni da arazoak izateko arriskuak txikitzen direlako.';
+$string['singledirectory_help'] = 'Gaituz gero fitxategiak (cacheatutako elementuak) direktorio bakarrean gordeko diren direktorio anitzetan banatu beharrean.
+
+Hau gaituta fitxategiekiko elkarrekintzak azkartuko dira baina fitxategi-sistemaren mugetara iristeko arriskua egon daiteke.
+
+Aukera hau gaitzea soilik hurrengo hauetako bat gertatzen bada gomendatzen da:
+
+* Cachean egongo den elementu kopurua nahikoa txikia izango dela eta exekutatzen ari den fitxategi-sistemarekin arazoak egongo ez direla badakizu.
+* Cacheatutako datuak sortzeak kostu handia ez badu. Bestela lehenetsitako ezarpenak uztea komeni da arazoak izateko arriskuak txikitzen direlako.';

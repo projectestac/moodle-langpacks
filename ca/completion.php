@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -104,8 +104,6 @@ $string['completionondate'] = 'Data';
 $string['completionondatevalue'] = 'L\'usuari ha de romandre inscrit fins';
 $string['completion-pass'] = 'Completat (s\'ha assolit la qualificació)';
 $string['completionsettingslocked'] = 'Bloquejats els paràmetres de compleció';
-$string['completion-title-manual-n'] = 'Marca com completat: {$a}';
-$string['completion-title-manual-y'] = 'Marca com a incomplet: {$a}';
 $string['completionupdated'] = 'S\'ha actualitzat la compleció per a l\'activitat <b>{$a}</b>';
 $string['completionusegrade'] = 'Qualificació requerida';
 $string['completionusegrade_desc'] = 'L\'estudiant ha de rebre una qualificació per completar aquesta activitat';

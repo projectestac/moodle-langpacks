@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'role', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,7 @@ $string['allowswitch'] = 'Permitir cambios de rol';
 $string['allowview'] = 'Permitirlle ver a rol';
 $string['allsiteusers'] = 'Todos os usuarios do sitio';
 $string['analytics:listinsights'] = 'Listar ideas';
+$string['analytics:listowninsights'] = 'Listar as súas propias ideas';
 $string['analytics:managemodels'] = 'Xestionar modelos';
 $string['archetype'] = 'Arquetipo de rol';
 $string['archetypecoursecreator'] = 'ARQUETIPO: Creador de cursos';
@@ -69,7 +70,6 @@ $string['backup:anonymise'] = 'Facer anónimos os datos de usuario na copia de s
 $string['backup:backupactivity'] = 'Copia de seguranza das actividades';
 $string['backup:backupcourse'] = 'Copia de seguranza dos cursos';
 $string['backup:backupsection'] = 'Copia de seguranza das seccións';
-$string['backup:backuptargethub'] = 'Copia de seguranza para publicar en Moodle.net';
 $string['backup:backuptargetimport'] = 'Copia de seguranza para importar';
 $string['backup:configure'] = 'Configurar as opcións da copia de seguranza';
 $string['backup:downloadfile'] = 'Descargar ficheiros das áreas de copia de seguranza';
@@ -104,6 +104,7 @@ $string['category:create'] = 'Crear categorías';
 $string['category:delete'] = 'Eliminar categorías';
 $string['category:manage'] = 'Xestionar categorías';
 $string['category:update'] = 'Actualizar categorías';
+$string['category:viewcourselist'] = 'Ver a lista de cursos nos que non está matriculado';
 $string['category:viewhiddencategories'] = 'Ver categorías agochadas';
 $string['category:visibility'] = 'Ver categorías agochadas';
 $string['checkglobalpermissions'] = 'Comprobar os permisos do sistema';
@@ -118,8 +119,6 @@ $string['cohort:view'] = 'Ver círculos de todo o sitio';
 $string['comment:delete'] = 'Eliminar comentarios';
 $string['comment:post'] = 'Publicar comentarios';
 $string['comment:view'] = 'Ler comentarios';
-$string['community:add'] = 'Empregar o bloque comunidade para buscar centros e atopar cursos';
-$string['community:download'] = 'Descargar un curso do bloque comunidade';
 $string['competency:competencygrade'] = 'Estabelecer a puntuación de competencia';
 $string['competency:competencymanage'] = 'Administrar os marcos de competencia';
 $string['competency:competencyview'] = 'Ver os marcos de competencia';
@@ -166,8 +165,10 @@ $string['course:bulkmessaging'] = 'Enviar unha mensaxe a moitas persoas';
 $string['course:changecategory'] = 'Cambiar a categoría do curso';
 $string['course:changefullname'] = 'Cambiar o nome completo do curso';
 $string['course:changeidnumber'] = 'Cambiar o número ID do curso';
+$string['course:changelockedcustomfields'] = 'Cambiar os campos personalizados bloqueados';
 $string['course:changeshortname'] = 'Cambiar o nome curto do curso';
 $string['course:changesummary'] = 'Cambiar o resumo do curso';
+$string['course:configurecustomfields'] = 'Configurar campos personalizados';
 $string['course:create'] = 'Crear cursos';
 $string['course:creategroupconversations'] = 'Crear conversas en grupo';
 $string['course:delete'] = 'Eliminar cursos';
@@ -184,7 +185,6 @@ $string['course:managescales'] = 'Xestionar escalas';
 $string['course:markcomplete'] = 'Marcar os usuarios como completado ao completar un curso';
 $string['course:movesections'] = 'Mover seccións';
 $string['course:overridecompletion'] = 'Anular o estado do completado da actividade';
-$string['course:publish'] = 'Publicar un curso no centro';
 $string['course:renameroles'] = 'Renomear os roles';
 $string['course:request'] = 'Solicitar novos cursos';
 $string['course:reset'] = 'Restabelecer o curso';
@@ -378,7 +378,6 @@ $string['restore:createuser'] = 'Crear usuarios na restauración';
 $string['restore:restoreactivity'] = 'Restaurar actividades';
 $string['restore:restorecourse'] = 'Restaurar cursos';
 $string['restore:restoresection'] = 'Restaurar seccións';
-$string['restore:restoretargethub'] = 'Restaurar de ficheiros indicados como centro';
 $string['restore:restoretargetimport'] = 'Restaurar de ficheiros indicados como importación';
 $string['restore:rolldates'] = 'Está permitido mover as datas na configuración da actividade ao restaurar';
 $string['restore:uploadfile'] = 'Enviar ficheiros ás áreas de copia de seguranza';

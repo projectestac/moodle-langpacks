@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'webservice', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -87,11 +87,11 @@ $string['errornotemptydefaultparamarray'] = '名为“{$a}”的网络服务描�
 $string['erroroptionalparamarray'] = '名为“{$a}”的网络服务描述参数是一个或多个结构。它不能被设为 VALUE_OPTIONAL。请检查网络服务描述。';
 $string['eventwebservicefunctioncalled'] = '网络服务功能调用';
 $string['eventwebserviceloginfailed'] = '网页服务登录失败';
-$string['eventwebserviceservicecreated'] = '网络服务服务创建';
-$string['eventwebserviceservicedeleted'] = '网络服务服务删除';
-$string['eventwebserviceserviceupdated'] = '网络服务服务升级';
-$string['eventwebserviceserviceuseradded'] = '网络服务服务用户增加';
-$string['eventwebserviceserviceuserremoved'] = '网络服务服务用户删除';
+$string['eventwebserviceservicecreated'] = 'Web服务已创建';
+$string['eventwebserviceservicedeleted'] = 'Web服务已删除';
+$string['eventwebserviceserviceupdated'] = 'Web服务已升级';
+$string['eventwebserviceserviceuseradded'] = 'Web服务用户已添加';
+$string['eventwebserviceserviceuserremoved'] = 'Web服务用户已删除';
 $string['eventwebservicetokencreated'] = '网络服务令牌创建';
 $string['eventwebservicetokensent'] = '网络服务令牌发送';
 $string['execute'] = '执行';
@@ -108,21 +108,21 @@ $string['functions'] = '函数';
 $string['generalstructure'] = '通用结构';
 $string['information'] = '信息';
 $string['installexistingserviceshortnameerror'] = '以“{$a}”为简称的网络服务已存在。不能安装或者升级使用相同此简称的不同的网络服务。';
-$string['installserviceshortnameerror'] = '源代码错误：服务的简称“{$a}”应该只包含数字、字母和_-..。';
+$string['installserviceshortnameerror'] = '编码错误：服务简称“ {$a}”只能包含字母数字字符（字母和数字），下划线（_），连字符（-）或句号（.）。';
 $string['invalidextparam'] = '无效的外部 api 参数：{$a}';
 $string['invalidextresponse'] = '无效的外部 api 应答：{$a}';
 $string['invalidiptoken'] = '无效令牌——不支持您的IP';
 $string['invalidtimedtoken'] = '无效令牌——令牌过期';
 $string['invalidtoken'] = '无效令牌——找不到令牌';
 $string['iprestriction'] = 'IP限制';
-$string['iprestriction_help'] = '此用户将只能从列出的 IP 访问网络服务';
+$string['iprestriction_help'] = '用户将需要从列出的IP（以逗号分隔）中访问Web服务。';
 $string['key'] = '密钥';
 $string['keyshelp'] = '密钥用来从外部程序访问您的 Moodle 账号。';
 $string['loginrequired'] = '只限于已经登录的用户';
 $string['manageprotocols'] = '管理协议';
 $string['managetokens'] = '管理令牌';
 $string['missingcaps'] = '缺少权限';
-$string['missingcaps_help'] = '此服务必需，但所选用户不具有的权限。如果要使用此服务，必须为用户所属的角色添加缺少的权限。';
+$string['missingcaps_help'] = '所选用户不具有该服务需要的下列权限。为了使用该服务，必须将缺失的权限添加到用户角色中。';
 $string['missingpassword'] = '缺少密码';
 $string['missingrequiredcapability'] = '必须有 {$a} 权限。';
 $string['missingusername'] = '缺少用户名';
@@ -134,6 +134,7 @@ $string['norequiredcapability'] = '没有需要的权限';
 $string['notoken'] = '令牌列表为空。';
 $string['onesystemcontrolling'] = '允许外部系统控制 Moodle';
 $string['onesystemcontrollingdescription'] = '下面步骤帮助配置 Moodle 网络服务，让外部系统可以与 Moodle 交互。包括设置令牌（安全密钥）认证方法。';
+$string['onlyseecreatedtokens'] = '任何令牌都可以被删除，但您只能查看自己创建的令牌。';
 $string['operation'] = '操作';
 $string['optional'] = '可选';
 $string['passwordisexpired'] = '密码已过期。';
@@ -143,6 +144,22 @@ $string['postrestparam'] = 'PHP 的 REST（POST 请求）源代码';
 $string['potusers'] = '未授权用户';
 $string['potusersmatching'] = '匹配的未授权用户';
 $string['print'] = '全部打印';
+$string['privacy:metadata:serviceusers'] = '可以使用某些外部服务的用户的列表';
+$string['privacy:metadata:serviceusers:iprestriction'] = 'IP被限制使用该服务';
+$string['privacy:metadata:serviceusers:timecreated'] = '记录创建的日期';
+$string['privacy:metadata:serviceusers:userid'] = '用户的ID';
+$string['privacy:metadata:serviceusers:validuntil'] = '授权有效期至';
+$string['privacy:metadata:tokens'] = '通过Web服务或移动应用程序与Moodle交互的令牌的记录。';
+$string['privacy:metadata:tokens:creatorid'] = '创建令牌的用户的ID';
+$string['privacy:metadata:tokens:iprestriction'] = 'IP仅限使用此令牌';
+$string['privacy:metadata:tokens:lastaccess'] = '令牌的最后使用日期';
+$string['privacy:metadata:tokens:privatetoken'] = '一种更私密的令牌，偶尔用于验证某些操作，如SSO';
+$string['privacy:metadata:tokens:timecreated'] = '令牌创建的日期';
+$string['privacy:metadata:tokens:token'] = '用户令牌';
+$string['privacy:metadata:tokens:tokentype'] = '令牌类型';
+$string['privacy:metadata:tokens:userid'] = '令牌用户的ID';
+$string['privacy:metadata:tokens:validuntil'] = '令牌有效期至';
+$string['privacy:request:notexportedsecurity'] = '出于安全原因未导出';
 $string['protocol'] = '协议';
 $string['removefunction'] = '删除';
 $string['removefunctionconfirm'] = '您确信要从服务“{$a->service}”删除函数“{$a->function}”吗？';
@@ -154,8 +171,8 @@ $string['requiredcaps'] = '需要权限';
 $string['resettokenconfirm'] = '您确信要重置<strong>{$a->user}</strong>的<strong>{$a->service}</strong>服务的网络服务密钥吗？';
 $string['resettokenconfirmsimple'] = '您想重置这个密钥吗？所有使用旧密钥的链接都将失效。';
 $string['response'] = '应答';
-$string['restcode'] = 'REST';
-$string['restexception'] = 'REST';
+$string['restcode'] = '重置';
+$string['restexception'] = '重置';
 $string['restoredaccountresetpassword'] = '恢复的账号在获得令牌前需要重置密码。';
 $string['restparam'] = 'REST（POST 参数）';
 $string['restrictedusers'] = '只服务授权用户';
@@ -171,7 +188,8 @@ $string['selectspecificuserdescription'] = '将网络服务用户加为授权用
 $string['service'] = '服务';
 $string['servicehelpexplanation'] = '服务是一个函数集合。可以让所有人或只让指定的用户访问服务。';
 $string['servicename'] = '服务名';
-$string['servicenotavailable'] = '网络服务不可用（它不存在或者已禁用）';
+$string['servicenotavailable'] = 'Web服务不可用。 （它不存在或可能被禁用。）';
+$string['servicerequireslogin'] = 'Web服务不可用。 （会话已注销或已过期。）';
 $string['servicesbuiltin'] = '内置服务';
 $string['servicescustom'] = '自定义服务';
 $string['serviceusers'] = '已授权用户';
@@ -182,9 +200,10 @@ $string['shortnametaken'] = '这个短命已经用于另一个服务（{$a}）';
 $string['simpleauthlog'] = '简单认证登录';
 $string['step'] = '步骤';
 $string['supplyinfo'] = '更多细节';
-$string['testauserwithtestclientdescription'] = '用网络服务测试客户端仿真外部访问。在开始之前，先要用有 moodle/webservice:createtoken 权限的用户并通过我的个人资料设置获得密钥（令牌）。您将在测试客户端使用此令牌。在测试客户端中，用令牌认证选择一个已启用的协议。<strong>警告：您测试的函数会被真的执行，所以小心选择测试什么！</strong>';
+$string['testauserwithtestclientdescription'] = '用网络服务测试客户端仿真外部访问。在开始之前，先要用有 moodle/webservice:createtoken 权限的用户并通过我的个人资料设置获得密钥（令牌）。您将在测试客户端使用此令牌。在测试客户端中，用令牌认证选择一个已启用的协议。<strong>警告：您测试的函数会被真的执行，所以小心选择测试什么！</strong>
+使用Web服务测试客户端模拟对服务的外部访问。在执行此操作之前，请以具有moodle/webservice:createtoken权限的用户身份登录，并通过用户的偏好页面获取安全密钥（令牌）。您将在测试客户端中使用此令牌。在测试客户端中，还要选择一个启用了令牌身份验证的协议。 <strong>警告：将为此用户执行您要测试的功能，因此请小心选择要测试的功能！</ strong>';
 $string['testclient'] = '网络服务测试客户端';
-$string['testclientdescription'] = '* 此网络服务测试客户端会<strong>真的执行</strong>被测函数。不要测试您不了解的函数。<br />
+$string['testclientdescription'] = '* 此网络服务测试客户端会<strong>真的执行</strong>函数。不要测试您不了解的函数。<br />
 * 此测试客户端并没有实现所有的网络服务。<br />
 * 您可以通过测试一些禁用的函数来检查用户是否能访问它们。 <br />
 * 要看到更清晰的错误信息，到“{$a->atag}”页面把调试状态设为<strong>{$a->mode}</strong><br />
@@ -208,12 +227,13 @@ $string['usernameorid_help'] = '输入用户名或用户 ID。';
 $string['usernameoridnousererror'] = '未能找到该用户名/用户 ID 的用户。';
 $string['usernameoridoccurenceerror'] = '使用此用户名的用户用户不唯一，请输入用户 ID。';
 $string['usernotallowed'] = '此用户不可以使用此服务。首先，您需要在{$a}的允许用户管理页面允许此用户使用。';
+$string['userservices'] = '用户服务: {$a}';
 $string['usersettingssaved'] = '用户设置已保存';
 $string['validuntil'] = '有效期至';
 $string['validuntil_help'] = '如果设置，此日期之后，此服务就会对此用户失效。';
 $string['webservice'] = '网络服务';
 $string['webservices'] = '网络服务';
-$string['webservicesoverview'] = '概述';
+$string['webservicesoverview'] = '概览';
 $string['webservicetokens'] = '网络服务令牌';
 $string['wrongusernamepassword'] = '错误的用户名或密码';
 $string['wsaccessuserdeleted'] = '拒绝访问网络服务，因为用户名已删除：{$a}';

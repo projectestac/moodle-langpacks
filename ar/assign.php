@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assign', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -183,7 +183,6 @@ $string['scale'] = 'مقياس';
 $string['showrecentsubmissions'] = 'أظهر التسليمات الحديثة';
 $string['status'] = 'الحالة';
 $string['submission'] = 'تسليم';
-$string['submissions'] = 'تسليمات';
 $string['submissionslocked'] = 'هذه الوظيفة لا تقبل التسليم الآن';
 $string['submissionsnotgraded'] = '{$a} مرسلات غير مصححة';
 $string['submissionstatus'] = 'حالة التسليم';

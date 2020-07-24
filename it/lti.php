@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lti', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,7 +69,9 @@ $string['cannot_edit'] = 'Non dovresti modificare la configurazione di questo to
 $string['capabilities'] = 'Funzionalità';
 $string['capabilities_help'] = 'Selezionare le funzionalità che si desidera offrire al tool provider. E\' possibile selezionare più di un afunzionalità';
 $string['capabilitiesrequired'] = 'Per essere attivato il tool deve accedere ali seguenti dati:';
+$string['cleanaccesstokens'] = 'Rimozione token scaduti dei tool esterni';
 $string['click_to_continue'] = '<a href="{$a->link}" target="_top">Click per continuare</a>';
+$string['clientidadmin'] = 'ID del client';
 $string['comment'] = 'Comment';
 $string['configpassword'] = 'Password di default del tool remoto';
 $string['configpreferheight'] = 'Altezza preferita di default';
@@ -183,10 +185,15 @@ $string['icon_url'] = 'URL dell\'icona';
 $string['icon_url_help'] = 'L\'URL dell\'icona consente di visualizzare nella pagina home del corso l\'icona specifica del tool al posto dell\'icona LTI default';
 $string['id'] = 'ID';
 $string['indicator:cognitivedepth'] = 'LTI cognitivo';
+$string['indicator:cognitivedepthdef'] = 'LTI cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalle attività LTI (Livelli: Nessuna visualizzazione, Visualizzazione, Invio, Visualizzazione feedback)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività LTI.';
 $string['indicator:socialbreadth'] = 'LTI sociale';
+$string['indicator:socialbreadthdef'] = 'LTI sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dall\'attività LTI (Livelli: Nessuna partecipazione, Partecipazione da solo, Partecipazione con altri)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività LTI.';
 $string['invalidid'] = 'L\'ID LTI non era corretta';
+$string['jwtsecurity'] = 'LTI 1.3';
 $string['launch_in_moodle'] = 'Lancia il tool in Moodle';
 $string['launchinpopup'] = 'Contenitore di lancio';
 $string['launch_in_popup'] = 'Lancia il tool in una finestra pop-up';
@@ -226,6 +233,7 @@ $string['ltisettings'] = 'Impostazioni LTI';
 $string['lti_tool_request_added'] = 'La richiesta di configurare il tool è stata inviata correttamente. Contatta l\'amministratore per completare la configurazione.';
 $string['lti_tool_request_existing'] = 'E\' già stata inviata una configurazione per il dominio del tool.';
 $string['ltiunknownserviceapicall'] = 'Chiamata servizio API LTI sconosciuta';
+$string['ltiversion'] = 'Versione LTI';
 $string['lti:view'] = 'Lanciare attività Tool esterno';
 $string['main_admin'] = 'Help generale';
 $string['main_admin_help'] = 'I tool esterni consentono di interagire con risorse formative ospitate in altri siti. Tramite uno speciale protocollo di lancio, il tool remoto può accedere ad alcune informazioni relative all\'utente, come ad esempio il nome dell\'istituzione, l\'id del corso, l\'id dell\'utente, il nome dell\'utente e l\'email.
@@ -274,13 +282,14 @@ $string['no_tp_pending'] = 'Non sono presenti registrazioni in attesa di tool es
 $string['no_tp_rejected'] = 'Non sono presenti registrazioni rifiutate di tool esterni.';
 $string['notypes'] = 'Non ci sono tool LTI configurati in Moodle. Fai click sul link soprastante per aggiungerli.';
 $string['noviewusers'] = 'Non sono stati trovati utenti con il privilegio di usare questo tool';
+$string['oauthsecurity'] = 'LTI 1.0/1.1';
 $string['optionalsettings'] = 'Impostazioni opzionali';
 $string['organization'] = 'Dettagli dell\'organizzazione';
 $string['organizationdescr'] = 'Descrizione dell\'organizzazione';
 $string['organizationid'] = 'ID dell\'organizzazione';
 $string['organizationid_help'] = 'Un identificativo univoco di questa istanza Moodle. Di solito si utilizza il nome DNS della organizzazione.
 
-Lasciando vuoto il campo, di default verrà utilizzato il nome dell\'host di Moodle.';
+Lasciando vuoto il campo, di default verrà utilizzato il nome del sito Moodle.';
 $string['organizationurl'] = 'URL dell\'organizzazione';
 $string['organizationurl_help'] = 'l\'URL di questa istanza Moodle.
 
@@ -335,6 +344,7 @@ $string['privacy:metadata:timemodified'] = 'Data e ora di modifica del record.';
 $string['privacy:metadata:userid'] = 'ID dell\'utente che accede a LTI Consumer.';
 $string['privacy:metadata:useridnumber'] = 'Codice identificativo dell\'utente che accede a LTI Consumer.';
 $string['privacy:metadata:username'] = 'Username dell\'utente che accede a LTI Consumer.';
+$string['publickey'] = 'Chiave pubblica';
 $string['quickgrade'] = 'Consenti valutazione rapida';
 $string['quickgrade_help'] = 'Consente la valutazione di più tool nella stessa pagina. E\' possibile aggiungere valutazioni e commenti e poi fare click su "Salva tutti i miei feedback" per salvare tutte le modifiche apportate nella pagina.';
 $string['redirect'] = 'Tra pochi secondi verrai reindirizzato, in caso contrario premi il pulsante.';
@@ -431,6 +441,15 @@ $string['tooldescription'] = 'Descrizione del tool';
 $string['tooldescription_help'] = 'La descrizione del tool sarà visualizzata ai docenti nell\'elenco delle attività.
 
 E\' utile per descrivere il tool e le sue funzionalità, assieme ad altre informazioni utili al docente.';
+$string['tooldetailsaccesstokenurl'] = 'URL del token di accesso';
+$string['tooldetailsauthrequesturl'] = 'URL della richiesta di autenticazione';
+$string['tooldetailsclientid'] = 'ID Client';
+$string['tooldetailsmailtosubject'] = 'Configurazione tool LTI';
+$string['tooldetailsmodalemail'] = 'Email';
+$string['tooldetailsmodallink'] = 'Visualizza dettagli della configurazione';
+$string['tooldetailsmodaltitle'] = 'Dettagli della configurazione del tool';
+$string['tooldetailsplatformid'] = 'ID Piattaforma';
+$string['tooldetailspublickeyseturl'] = 'URL del et di chiavi pubbliche';
 $string['toolisbeingused'] = 'Questo tool è stato utilizzato {$a} volte';
 $string['toolisnotbeingused'] = 'Questo tool non è stato utilizzato';
 $string['toolproxy'] = 'Registrazioni tool esterno';

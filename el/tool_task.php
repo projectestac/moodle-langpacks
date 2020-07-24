@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_task', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,6 +52,7 @@ $string['runpattern'] = 'Εκτέλεση μοτίβου';
 $string['scheduledtaskchangesdisabled'] = 'Τροποποιήσεις στη λίστα των προγραμματισμένων εργασιών έχουν αποτραπεί στις ρυθμίσεις του Moodle';
 $string['scheduledtasks'] = 'Προγραμματισμένες εργασίες';
 $string['taskdisabled'] = 'Εργασία απενεργοποιημένη';
+$string['tasklogs'] = 'Καταγραφές εργασιών';
 $string['taskscheduleday'] = 'Ημέρα';
 $string['taskscheduleday_help'] = 'Πεδίο ημέρας του μήνα για χρονοπρογραμματισμό εργασίας. Το πεδίο χρησιμοποιεί τον ίδιο μορφότυπο όπως η εντολή χρονο-προγραμματισμού cron του unix. Μερικά παραδείγματα:
 
@@ -87,3 +88,4 @@ $string['taskschedulemonth_help'] = 'Πεδίο μήνα για χρονοπρο
 * <strong>*/2</strong> Κάθε 2ο μήνα
 * <strong>1</strong> Κάθε Ιανουάριο
 * <strong>1,5</strong> Κάθε Ιανουάριο και Μάιο';
+$string['viewlogs'] = 'Προβολή καταγραφών για {$a}';

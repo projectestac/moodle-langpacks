@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_overview', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,7 @@ $string['err_failedtorecalculateattemptgrades'] = 'Saiakeren kalifikazioak berri
 $string['highlightinggraded'] = 'Erabiltzailearen azken kalifikaziorako erabiliko den saiakera nabarmenduta dago.';
 $string['needed'] = 'Derrigorrezkoa';
 $string['noattemptsonly'] = 'Erakutsi / jaitsi saiakerarik ez dituen {$a}';
-$string['noattemptstoregrade'] = 'Ez da berriz kalifikatu beharreko saiakerarik';
+$string['noattemptstoregrade'] = 'Ez dago berriz kalifikatu beharreko saiakerarik';
 $string['nogradepermission'] = 'Ez duzu galdetegi hau kalifikatzeko baimenik.';
 $string['onlyoneattemptallowed'] = 'Galdetegi honetan erabiltzailearen saiakera bat baino ez da agertzen';
 $string['optallattempts'] = 'saiakera guztiak';
@@ -60,16 +60,18 @@ $string['privacy:metadata:preference:quiz_overview_slotmarks'] = 'Galdera-tarte 
 $string['privacy:preference:slotmarks:no'] = 'Kalifikazioak ez dira galdera-tarte bakoitzarekin batera erakusten.';
 $string['privacy:preference:slotmarks:yes'] = 'Kalifikazioak galdera-tarte bakoitzarekin batera erakusten dira.';
 $string['regrade'] = 'Berriz kalifikatu';
-$string['regradeall'] = 'Berriz kalifikatu guztia';
-$string['regradealldry'] = 'Berriz kalifikatu osorik proba moduan';
-$string['regradealldrydo'] = 'Berriz kalifikatu berriz kalifikatzea behar dutela markatu duten saiakerak ({$a})';
-$string['regradealldrydogroup'] = 'Berriz kalifikatu \'{$a->groupname}\' taldean berriz kalifikatzea behar dutela markatu duten saiakerak  ({$a->countregradeneeded})';
-$string['regradealldrygroup'] = '{$a->groupname}\' talderako guztia berriz kalifikatu proba moduan';
-$string['regradeallgroup'] = 'Berriz kalifikatu guztia \'{$a->groupname}\' taldeari';
+$string['regradeall'] = 'Berriz kalifikatu guztiak';
+$string['regradealldry'] = 'Berriz kalifikatu guztiak proba moduan';
+$string['regradealldrydo'] = 'Berriz kalifikatu berriz kalifikatzea behar dutela markatuta dauden saiakerak ({$a})';
+$string['regradealldrydogroup'] = 'Berriz kalifikatu \'{$a->groupname}\' taldean berriz kalifikatzea behar dutela markatuta dauden saiakerak  ({$a->countregradeneeded})';
+$string['regradealldrygroup'] = 'Berriz kalifikatu {$a->groupname}\' taldeko guztiak proba moduan';
+$string['regradeallgroup'] = 'Berriz kalifikatu \'{$a->groupname}\' taldeko guztiak';
 $string['regradecomplete'] = 'Berriz kalifikatzea ondo egin da';
+$string['regradedsuccessfullyxofy'] = 'Berriz kalifikatzea ondo egin da ({$a->count}/{$a->done})';
 $string['regradeheader'] = 'Berriz kalifikatzen';
 $string['regradeselected'] = 'Berriz kalifikatu aukeratutako saiakerak';
 $string['regradingattemptxofy'] = 'Saiakera berriz kalifikatzen  ({$a->done}/{$a->count})';
+$string['regradingattemptxofywithdetails'] = 'Saiakera berriz kalifikatzen  ({$a->count}/{$a->done}) - {$a->name} erabiltzailearen {$a->attemptnum}. saiakera  (id {$a->attemptid})';
 $string['show'] = 'Erakutsi / jaitsi';
 $string['showattempts'] = 'Soilik erakutsi / jaitsi saiakerak';
 $string['showdetailedmarks'] = 'Puntuak galdera bakoitzerako';

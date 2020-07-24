@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cache', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addstoresuccess'] = 'Ondo gehitu da {$a} biltegi berria.';
 $string['area'] = 'Eremua';
 $string['cacheadmin'] = 'Cachearen kudeaketa';
 $string['cacheconfig'] = 'Ezarpenak';
+$string['cachedef_calculablesinfo'] = 'Analitiken kalkulagarrien informazioa';
 $string['cachedef_calendar_categories'] = 'Erabiltzaile batek sarbidea duen egutegiko ikastaro-kategoriak';
 $string['cachedef_calendar_subscriptions'] = 'Egutegiaren harpidetzak';
 $string['cachedef_capabilities'] = 'Sistemako gaitasunen zerrenda';
@@ -46,21 +47,25 @@ $string['cachedef_coursecattree'] = 'Ikastaro-kategorien zuhaitza';
 $string['cachedef_coursecompletion'] = 'Ikastaro-osaketaren egoera';
 $string['cachedef_coursecontacts'] = 'Ikastaroko kontaktu-zerrenda';
 $string['cachedef_coursemodinfo'] = 'Ikastaro bakoitzeko modulu eta gaien inguruan pilatutako informazioa';
+$string['cachedef_course_user_dates'] = 'Ikastaroetako erabiltzaileen datuak erlatiboak izango dira';
 $string['cachedef_databasemeta'] = 'Datu-basearen metainformazioa';
 $string['cachedef_eventinvalidation'] = 'Ekitaldi-baliogabetzea';
 $string['cachedef_externalbadges'] = 'Erabiltzaile jakin batentzako kanpoko dominak';
 $string['cachedef_fontawesomeiconmapping'] = 'Font awesome-erako ikonoen lotura';
 $string['cachedef_grade_categories'] = 'Kalifikazio-kategorien kontsultak';
+$string['cachedef_grade_letters'] = 'Kalifikazio-letren kontsultak';
 $string['cachedef_groupdata'] = 'Ikastaroko taldeen informazioa';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier - eduki garbitua';
 $string['cachedef_langmenu'] = 'Eskura dauden hizkuntzen zerrenda';
 $string['cachedef_locking'] = 'Blokeatzen';
 $string['cachedef_message_processors_enabled'] = 'Gaitutako mezu-prozesatzaileen egoera';
 $string['cachedef_message_time_last_message_between_users'] = 'Orain dela gutxiko erabiltzaileen arteko mezuen sorrera-unea';
+$string['cachedef_modelfirstanalyses'] = 'Ereduaren lehen analisia eta analizatu daitekeen';
 $string['cachedef_navigation_expandcourse'] = 'Nabigazio hedagarriko ikastaroak';
 $string['cachedef_observers'] = 'Ekitaldi behatzaileak';
 $string['cachedef_plugin_functions'] = 'Pluginen callback eskuragarriak';
 $string['cachedef_plugin_manager'] = 'Pluginen informazio-kudeatzailea';
+$string['cachedef_portfolio_add_button_portfolio_instances'] = 'portfolio_add_button klasearen portfolio-instantziak';
 $string['cachedef_postprocessedcss'] = 'Ondoren prozesatutako CSSa';
 $string['cachedef_presignup'] = 'Erregistratu gabeko erabiltzaile baten izena eman aurretiko datuak';
 $string['cachedef_questiondata'] = 'Galdera-definizioak';
@@ -77,6 +82,7 @@ $string['cachedef_yuimodules'] = 'YUI moduluen definizioak';
 $string['cachelock_file_default'] = 'Lehenetsitako fitxategi-blokeoa';
 $string['cachestores'] = 'Cache-biltegiak';
 $string['caching'] = 'Cacheak';
+$string['canuselocalstore'] = 'Biltegi lokala erabili dezake';
 $string['component'] = 'Osagaia';
 $string['confirmlockdeletion'] = 'Konfirmatu blokeoaren ezabaketa';
 $string['confirmstoredeletion'] = 'Baieztatu biltegiaren ezabaketa';
@@ -138,8 +144,11 @@ $string['plugin'] = 'Plugina';
 $string['pluginsummaries'] = 'Instalatutako cache-biltegiak';
 $string['privacy:metadata:cachestore'] = 'Cache azpisistemak datuak behin behinean gordetzen ditu Moodleko beste osagaien ordez. Datu hauek ez dira errazak identifikatzen, eta bizitza oso motza dute. Moodleko beste kokapenetan gordetako cache gisa funtzionatzen du, eta beraz Moodleko osagai horiek kudeatu beharko lituzkete.';
 $string['purge'] = 'Garbitu';
+$string['purgeagain'] = 'Garbitu berriro';
 $string['purgedefinitionsuccess'] = 'Eskatutako definizioak ondo garbitu dira.';
 $string['purgestoresuccess'] = 'Eskatutako biltegia ondo garbitu dira.';
+$string['purgexdefinitionsuccess'] = '"{$a->name}" cache ({$a->component}/{$a->area}) ondo garbitu da.';
+$string['purgexstoresuccess'] = '"{$a->store}" biltegia ondo garbitu da.';
 $string['requestcount'] = 'Probatu {$a} eskaerekin';
 $string['rescandefinitions'] = 'Berriz eskaneatu definizioak';
 $string['result'] = 'Emaitza';

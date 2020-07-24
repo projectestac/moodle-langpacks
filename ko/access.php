@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'access', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'access', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   access
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,8 +35,6 @@ $string['breadcrumb'] = '방문 경로';
 $string['eventcontextlocked'] = '컨텍스트 잠김';
 $string['eventcontextunlocked'] = '컨텍스트 열림';
 $string['hideblocka'] = '{$a} 블록 감추기';
-$string['monthnext'] = '다음 달';
-$string['monthprev'] = '지난 달';
 $string['showblocka'] = '{$a} 블록 보이기';
 $string['sitemap'] = '사이트 맵';
 $string['skipa'] = '{$a} 건너 뜀';

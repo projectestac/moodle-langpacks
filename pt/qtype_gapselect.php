@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_gapselect', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_gapselect', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_gapselect
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,10 +28,10 @@ defined('MOODLE_INTERNAL') || die();
 $string['addmorechoiceblanks'] = 'Espaços para mais {no} opções';
 $string['answer'] = 'Resposta';
 $string['choices'] = 'Opções';
-$string['choicex'] = 'Opções {no}';
+$string['choicex'] = 'Opção [[{no}]]';
 $string['combinedcontrolnamegapselect'] = 'lista pendente';
 $string['combinedcontrolnamegapselectplural'] = 'listas pendentes';
-$string['correctansweris'] = 'A resposta correta é: {$a}';
+$string['correctansweris'] = 'Resposta correta: {$a}';
 $string['errorblankchoice'] = 'Por favor, verifique as opções: A opção {$a} está vazia.';
 $string['errormissingchoice'] = 'Por favor, verifique o texto da pergunta: {$a} não foi encontrado nas opções! Apenas é permitido que sejam utilizados como espaços reservados, números com opções de resposta especificadas.';
 $string['errornoslots'] = 'O texto da pergunta deve conter espaços reservados como [[1]] para exibir os locais onde faltam as palavras.';

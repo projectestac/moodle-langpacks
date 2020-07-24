@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'book', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addafter'] = 'Ajouter un nouveau chapitre';
+$string['addafterchapter'] = 'Ajouter un chapitre après « {$a->title} »';
 $string['book:addinstance'] = 'Ajouter un livre';
 $string['book:edit'] = 'Modifier des chapitres';
 $string['book:read'] = 'Consulter un livre';
@@ -51,8 +52,12 @@ $string['eventchapterupdated'] = 'Chapitre modifié';
 $string['eventchapterviewed'] = 'Chapitre consulté';
 $string['hidechapter'] = 'Cacher le chapitre « {$a} »';
 $string['indicator:cognitivedepth'] = 'Livre : aspect cognitif';
+$string['indicator:cognitivedepthdef'] = 'Livre : aspect cognitif';
+$string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement cognitif offert par les activités « Livre » (niveaux : pas de vue, vue).';
 $string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une ressource Livre.';
 $string['indicator:socialbreadth'] = 'Livre : aspect social';
+$string['indicator:socialbreadthdef'] = 'Livre : aspect social';
+$string['indicator:socialbreadthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement social offert par les activités « Livre » (niveaux : pas de participation, participant seul).';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Livre.';
 $string['modulename'] = 'Livre';
 $string['modulename_help'] = 'Le module livre permet à l\'enseignant de créer une ressource composée de plusieurs pages, comme un livre, avec des chapitres et des sous-chapitres. Les livres peuvent contenir du texte ainsi que des fichiers médias et sont utiles pour afficher des contenus longs à couper en sections.
@@ -93,6 +98,7 @@ $string['numberingoptions_desc'] = 'Sélectionnez les options de numérotation q
 $string['page-mod-book-x'] = 'Toute page d\'un livre';
 $string['pluginadministration'] = 'Administration du livre';
 $string['pluginname'] = 'Livre';
+$string['previouschapter'] = 'Chapitre précédent';
 $string['privacy:metadata'] = 'Le module d\'activité Livre n\'enregistre aucune donnée personnelle.';
 $string['removeallbooktags'] = 'Retirer tous les tags du livre';
 $string['search:activity'] = 'Livre – information sur la ressource';

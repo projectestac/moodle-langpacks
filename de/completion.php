@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['activityaggregation_all'] = 'Alle ausgewählten Aktivitäten müssen ab
 $string['activityaggregation_any'] = 'Mindestens eine der ausgewählten Aktivitäten muss abgeschlossen sein';
 $string['activitycompletion'] = 'Aktivitätsabschluss';
 $string['activitycompletionupdated'] = 'Änderungen gespeichert';
+$string['activitygradenotrequired'] = 'Bewertung nicht notwendig';
 $string['affectedactivities'] = 'Die Änderungen betreffen die folgenden <b>{$a}</b> Aktivitäten:';
 $string['aggregationmethod'] = 'Methode zur Zusammenfassung';
 $string['all'] = 'Alle';
@@ -42,6 +43,7 @@ $string['any'] = 'Irgendein';
 $string['approval'] = 'Freigabe';
 $string['areyousureoverridecompletion'] = 'Möchten Sie wirklich den aktuellen Abschlussstatus für diese Aktivität und diese Person überschreiben und mit \'{$a}\' markieren?';
 $string['badautocompletion'] = 'Wenn Sie einen automatischen Abschluss wählen, müssen Sie mindestens eine Abschlussbedingung angeben.';
+$string['badcompletiongradeitemnumber'] = 'Erforderliche Note kann für <b>{$a}</b> nicht aktiviert werden, da Benotung mit {$a} nicht aktiviert ist.';
 $string['bulkactivitycompletion'] = 'Bulk-Bearbeitung von Aktivitätsabschlüssen';
 $string['bulkactivitydetail'] = 'Wählen Sie die Aktivitäten, die Sie bearbeiten möchten.';
 $string['bulkcompletiontracking'] = 'Abschlussverfolgung';
@@ -105,8 +107,6 @@ $string['completionondate'] = 'Datum';
 $string['completionondatevalue'] = 'Datum, wann der Kurs als abgeschlossen markiert wird';
 $string['completion-pass'] = 'Abgeschlossen (Bestehensgrenze erreicht)';
 $string['completionsettingslocked'] = 'Abschlusseinstellungen gesperrt';
-$string['completion-title-manual-n'] = 'Als abgeschlossen markieren: {$a}';
-$string['completion-title-manual-y'] = 'Als nicht abgeschlossen markieren: {$a}';
 $string['completionupdated'] = 'Aktualisierter Abschluss für Aktivität <b>{$a}</b>';
 $string['completionusegrade'] = 'Bewertung notwendig';
 $string['completionusegrade_desc'] = 'Teilnehmer/innen müssen eine Bewertung erhalten, um diese Aktivität abzuschließen';
@@ -116,7 +116,7 @@ $string['completionview_desc'] = 'Teilnehmer/innen müssen die Aktivität aufger
 $string['completion-y'] = 'Abgeschlossen';
 $string['completion-y-override'] = 'Abgeschlossen (gesetzt von {$a})';
 $string['configcompletiondefault'] = 'Standardwert für die Abschlussverfolgung beim Erstellen neuer Aktivitäten.';
-$string['configenablecompletion'] = 'Diese Option erlaubt die Abschlussverfolgung auf Kursebene zu benutzen und Abschlussbedingungen für Aktivitäten festzulegen.';
+$string['configenablecompletion'] = 'Diese Option legt fest, dass Abschlussbedingungen für den Kurs und für Aktivitäten festgelegen werden können. Abschlussbedingungen für die Aktivitäten werden empfohlen, um Nutzer/innen in deren Kursübersicht im Dashboard aussagekräftige Daten anzuzeigen.';
 $string['confirmselfcompletion'] = 'Vollständigen Abschluss des Kurses bestätigen';
 $string['courseaggregation'] = 'Bedingung erfordert';
 $string['courseaggregation_all'] = 'Alle ausgewählten Kurse müssen beendet werden';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'user', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'user', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   user
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -128,3 +128,6 @@ $string['privacy:passwordresetpath'] = 'Password resets';
 $string['privacy:privatefilespath'] = 'Private files';
 $string['privacy:profileimagespath'] = 'Profile images';
 $string['privacy:sessionpath'] = 'Session data';
+$string['target:upcomingactivitiesdue'] = 'Upcoming activities due';
+$string['target:upcomingactivitiesdue_help'] = 'This target generates reminders for upcoming activities due.';
+$string['target:upcomingactivitiesdueinfo'] = 'All upcoming activities due insights are listed here. These students have received these insights directly.';

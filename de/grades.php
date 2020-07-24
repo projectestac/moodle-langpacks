@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'grades', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addfeedback'] = 'Feedback hinzufügen';
 $string['addgradeletter'] = 'Notenstufen hinzufügen';
 $string['addidnumbers'] = 'ID-Nummern hinzufügen';
 $string['additem'] = 'Bewertungsaspekt hinzufügen';
+$string['additionalfeedback'] = 'Zusätzliches Feedback';
 $string['addoutcome'] = 'Lernziel hinzufügen';
 $string['addoutcomeitem'] = 'Lernzielaspekt hinzufügen';
 $string['addscale'] = 'Skala hinzufügen';
@@ -51,7 +52,7 @@ Diese Einstellung legt fest, ob leere Bewertungen nicht in die Ermittlung des Ge
 $string['aggregateoutcomes'] = 'Lernziele in die Gesamtergebnisse einbeziehen';
 $string['aggregateoutcomes_help'] = 'Wenn die Option aktiviert ist, werden Lernziele bei der Ermittlung des Gesamtergebnisses berücksichtigt. Diese kann zu einem unerwarteten Gesamtergebnis für die Kategorie führen.';
 $string['aggregatesonly'] = 'Zu den Gesamtwerten wechseln';
-$string['aggregatesubcatsupgradedgrades'] = 'Hinweis: Die Einstellung  \'Aggregation mit Unterkategorien\' wurde beim Upgrade entfernt. Da diese Einstellung in diesem Kurs verwendet wurde, sollten Sie sich die Veränderungen bei den Bewertungen genauer ansehen.';
+$string['aggregatesubcatsupgradedgrades'] = 'Hinweis: Die Einstellung  "Aggregation mit Unterkategorien" wurde bei der Aktualisierung entfernt. Da diese Einstellung in diesem Kurs verwendet wurde, sollten Sie sich die Veränderungen bei den Bewertungen genauer ansehen.';
 $string['aggregatesum'] = 'Natürlich';
 $string['aggregateweightedmean'] = 'Gewichteter Durchschnitt';
 $string['aggregateweightedmean2'] = 'Einfach gewichteter Durchschnitt';
@@ -63,11 +64,20 @@ $string['aggregationcoefextra_help'] = 'Wenn die Ergebnisse \'Natürlich\' oder 
 Wenn die Berechnung auf Basis des \'Durchschnitts (mit Zusatzpunkten)\'  gesetzt ist und Extrapunkte einen Wert größer als Null haben, so wird der Wert für den Extrapunkte erst multipliziert und dann dem Durchschnitt der Bewertungen hinzuaddiert.';
 $string['aggregationcoefextrasum'] = 'Zusatzpunkte';
 $string['aggregationcoefextrasumabbr'] = '+';
-$string['aggregationcoefextrasum_help'] = 'Wenn die Option für Zusatzpunkte aktiviert ist, wird die maximale Note des Bewertungsaspekts nicht zur maximalen Bewertung der Kategorie hinzugefügt, was die Möglichkeit bietet, die maximale Bewertung (oder Bewertungen über der maximalen Bewertung, wenn von der Seiten-Administration aktiviert) in der Kategorie zu erreichen, ohne die maximale Bewertung in allen Bewertungsaspekten erreicht zu haben.';
+$string['aggregationcoefextrasum_help'] = 'Bei der Einstellung "Summe der Bewertungen" als Berechnungsverfahren kann eine Bewertung als Sonderpunkte definiert werden. Das bedeutet, dass die höchste hierbei mögliche Bewertung nicht in die Summe der Bewertungen der Kategorie eingerechnet wird. Die Bewertung selber wird als Bonus dennoch mit berechnet.
+Das folgende Beispiel kann dies verdeutlichen:
+
+<ul>
+    <li>Wert 1 ist bewertet mit 0-100</li>
+    <li>Wert 2 ist bewertet mit 0-75</li>
+    <li>Wert 1 ist als "Extrapunkte" aktiviert, Wert 2 jedoch nicht.</li>
+    <li>Beide Werte gehören zur Kategorie 1. Für diese gilt, dass die Summe der Bewertungen ermittelt werden soll </li>
+    <li>Kategorie 1 wird gesamt mit 0-75 bewertet</li>
+    <li>Ein Teilnehmer erhält nun die Bewertung 20 für Wert 1 und 75 für Wert 2</li>
+    <li>Die Berechnung für Kategorie 1 ist nun 75/75 (20+70 = 95; Wert 1 wird als Extrapunkte gewertet. Der Höchstwert kann jedoch nur 75 sein, daher ist die Endnote 75.)</li>
+</ul>';
 $string['aggregationcoefextraweight'] = 'Gewichtung von Zusatzpunkten';
-$string['aggregationcoefextraweight_help'] = '<h2>Extrapunkteberechnung</h2>
-<p>Bei der Berechnung der Extrapunkte wird folgendes Verfahren angewandt. Bewertungen für die  Extrapunkte vergeben werden werden erst mit dem Multiplikator multipliziert. Dann werden die Einzelwerte addiert und durch die Zahl der Bewertungen dividiert. Die Zahl durch die dividiert wird   umfasst nur die Berwertungen, für die es keine Extrapunkte gibt. Im folgenden Beispiel erfolgt daher nur eine Division durch 2 und nicht durch 3.
-</p>
+$string['aggregationcoefextraweight_help'] = 'Bei der Berechnung der Extrapunkte wird folgendes Verfahren angewandt. Bewertungen für die  Extrapunkte vergeben werden werden erst mit dem Multiplikator multipliziert. Dann werden die Einzelwerte addiert und durch die Zahl der Bewertungen dividiert. Die Zahl durch die dividiert wird   umfasst nur die Berwertungen, für die es keine Extrapunkte gibt. Im folgenden Beispiel erfolgt daher nur eine Division durch 2 und nicht durch 3.
 
 <ul>
     <li>Wert 1 wird bewertet mit 0-100 und "Extrapunkte" Wert wird gesetzt auf 2</li>
@@ -136,6 +146,7 @@ $string['changedefaults'] = 'Grundeinstellungen ändern';
 $string['changereportdefaults'] = 'Voreinstellungen für Berichte ändern';
 $string['chooseaction'] = 'Aktion auswählen ...';
 $string['choosecategory'] = 'Kategorie auswählen';
+$string['collapsecriterion'] = 'Einklappkriterium';
 $string['combo'] = 'Tabs und Dropdown-Menü';
 $string['compact'] = 'Komprimieren';
 $string['componentcontrolsvisibility'] = 'Die Sichtbarkeit dieses Bewertungselements wird in den Aktivitätseinstellungen festgelegt.';
@@ -212,6 +223,8 @@ $string['errorupdatinggradecategoryaggregateoutcomes'] = 'Es ist ein Fehler beim
 $string['errorupdatinggradecategoryaggregation'] = 'Es ist ein Fehler beim Aktualisieren des Typs der Zusammenfassung in der Bewertungskategorie mit der ID {$a->id} aufgetreten.';
 $string['errorupdatinggradeitemaggregationcoef'] = 'Es ist ein Fehler beim Aktualisieren des Summenkoeffizients (Gewichtung oder Zusatzpunkte) des Bewertungselements mit der ID {$a->id} aufgetreten.';
 $string['eventgradedeleted'] = 'Bewertung gelöscht';
+$string['eventgradeitemcreated'] = 'Bewertungselement angelegt';
+$string['eventgradeitemupdated'] = 'Bewertungselement geändert';
 $string['eventgradelettercreated'] = 'Bewertungschreiben erstellt';
 $string['eventgradeletterdeleted'] = 'Bewerbungsschreiben gelöscht';
 $string['eventgradeletterupdated'] = 'Berwertungsschreiben aktualisiert';
@@ -223,6 +236,7 @@ $string['eventusergraded'] = 'Nutzer/in bewertet';
 $string['excluded'] = 'Unberücksichtigt';
 $string['excluded_help'] = 'Wenn diese Option aktiviert ist, wird diese Bewertung bei jeder Ermittlung eines Gesamtergebnisses unberücksichtigt bleiben.';
 $string['expand'] = 'Kategorie erweitern';
+$string['expandcriterion'] = 'Aufklappkriterium';
 $string['export'] = 'Export';
 $string['exportalloutcomes'] = 'Alle Lernziele exportieren';
 $string['exportfeedback'] = 'Feedback mit exportieren';
@@ -284,9 +298,9 @@ $string['gradedisplay'] = 'Bewertungsanzeige';
 $string['gradedisplaytype'] = 'Bewertungsanzeige-Typ';
 $string['gradedisplaytype_help'] = 'Diese Einstellung legt fest, wie Bewertungen in der Bewerterübersicht und in Nutzerberichten angezeigt werden.
 
-* Real - effektive Bewertungen
-* Prozent
-* Buchstabe - Buchstaben (A, B, C,..) oder Wörter werden angezeigt, um eine Auswahl an Bewertungen zu repräsentieren';
+* Buchstabe - Buchstaben (A, B, C,..) oder Wörter werden angezeigt, um eine Auswahl an Bewertungen zu repräsentieren
+* Prozent - relativ zum höchsten/niedrigsten Wert
+* Punktwert - effektive Bewertungen';
 $string['gradedon'] = '{$a} bewertet';
 $string['gradeexport'] = 'Bewertungsexport';
 $string['gradeexportcolumntype'] = '{$a->name} ({$a->extra})';
@@ -302,6 +316,7 @@ $string['gradeexportuserprofilefields_desc'] = 'Die folgenden Nutzerprofilfelder
 $string['gradeforstudent'] = '{$a->student}<br />{$a->item}{$a->feedback}';
 $string['gradegrademinmax'] = 'Anfängliche min. und max. Bewertungen';
 $string['gradehelp'] = 'Hilfe für Bewertungen';
+$string['grade_help'] = 'Die Bewertung, die diese Person für ihre Arbeit erhält.';
 $string['gradehistorylifetime'] = 'Anzeigedauer für den Bewertungsverlauf';
 $string['gradehistorylifetime_help'] = 'Legen Sie fest wie lange die vorgenommenen Veränderungen in den Notentabellen noch verfügbar sein sollen. In manchen Situationen ist es gut, diesen Wert möglichst hoch zu setzen. Sollten Sie Speicherengpässe oder Leistungsprobleme haben, können Sie den Wert wieder niedriger setzen.';
 $string['gradeimport'] = 'Bewertungsimport';
@@ -330,6 +345,8 @@ $string['grademax'] = 'Maximale Bewertung';
 $string['grademax_help'] = 'Wenn der Wert-Typ der Bewertung verwendet wird, kann hier die höchste Bewertung festgesetzt werden. Die höchste Bewertung für einen Aktivitäten-Bewertungsaspekt wird auf der Seite mit den Einstellungen der einzelnen Aktivität festgesetzt.';
 $string['grademin'] = 'Minimale Bewertung';
 $string['grademin_help'] = 'Wenn der Wert-Typ der Bewertung verwendet wird, kann hier die niedrigste Bewertung festgesetzt werden.';
+$string['gradenotificationmessage'] = 'Sie haben ein neues Feedback zu Ihrer Arbeit für "{$a}".';
+$string['gradenotificationsubject'] = 'Sie wurden bewertet';
 $string['gradeoutcomeitem'] = 'Lernziel bewerten';
 $string['gradeoutcomes'] = 'Lernziele';
 $string['gradeoutcomescourses'] = 'Kurs-Lernziele';
@@ -371,6 +388,7 @@ $string['gradevaluetoobig'] = 'Eine der Bewertungen ist größer als der zuläss
 $string['gradeview'] = 'Bewertung ansehen';
 $string['gradewasmodifiedduringediting'] = 'Die Bewertung für {$a-<itemname} für {$a-<username} wurde ignoriert, da diese kürzlich von jemand anderem aktualisiert worden ist.';
 $string['gradeweighthelp'] = 'Hilfe zur Bewertung';
+$string['gradingmodulename'] = 'Bewertung ({$a})';
 $string['groupavg'] = 'Gruppendurchschnitt';
 $string['hidden'] = 'Verborgen';
 $string['hiddenasdate'] = 'Erstellungsdatum für verborgene Bewertungen anzeigen';
@@ -569,6 +587,7 @@ $string['noselecteditems'] = 'keine Werte ausgewählt.';
 $string['notenrolled'] = 'Sie sind in keinem Kurs eingeschrieben.';
 $string['notteachererror'] = 'Diese Funktionen können nur Trainer/innen nutzen';
 $string['nousersloaded'] = 'Es wurden keine Nutzer importiert.';
+$string['nouserstograde'] = 'Keine Nutzer/innen zu bewerten';
 $string['numberofgrades'] = 'Anzahl der Bewertungsstufen';
 $string['onascaleof'] = 'auf einer Skala von {$a->grademin} bis {$a->grademax}';
 $string['operations'] = 'Vorgänge';
@@ -681,7 +700,7 @@ $string['quickgrading_help'] = 'Wenn diese Option aktiviert ist, erscheint bei e
 Beachten Sie, dass bei der Eingabe einer Bewertung in der Bewerterübersicht ein Übersteuerungsflag gesetzt wird, so dass die Bewertung nicht mehr innerhalb der zugehörigen Aktivität geändert werden kann.';
 $string['range'] = 'Bereich';
 $string['rangedecimals'] = 'Dezimalstellen für Bewertungsbereiche';
-$string['rangedecimals_help'] = 'Zahl der Dezimalstellen, um die Spannbreite der Ergebnisse anzuanzeigen ';
+$string['rangedecimals_help'] = 'Zahl der Dezimalstellen, um die Spannbreite der Ergebnisse anzuzeigen';
 $string['rangesdecimalpoints'] = 'Nachkommastellen in Bewertungsbereichen';
 $string['rangesdecimalpoints_help'] = 'Diese Einstellung legt die Anzahl der angezeigten Dezimalstellen fest, die für jeden Bewertungsbereich angezeigt werden sollen, oder ob die übergreifende Dezimalstelleneinstellung der Kategorie oder des Bewertungselements verwendet wird (Vererben).
 Die Einstellung kann für jede einzelne Bewertungsspalte überschrieben werden.';
@@ -738,7 +757,7 @@ $string['showactivityicons_help'] = 'Wenn die Option aktiviert ist, werden Aktiv
 $string['showallhidden'] = 'Verborgene anzeigen';
 $string['showallstudents'] = 'Alle Teilnehmer/innen anzeigen';
 $string['showanalysisicon'] = 'Bewertungssymbole zeigen';
-$string['showanalysisicon_desc'] = 'Soll das Symbol zur Bewertungsanalyse standardmässig angezeigt werden? Wenn die Aktivität die Funktion unterstützt wird ein Link mit einer detaillierten Erläuterung der Bewertung angezeigt.';
+$string['showanalysisicon_desc'] = 'Soll das Symbol zur Bewertungsanalyse in der Regel angezeigt werden? Wenn die Aktivität die Funktion unterstützt wird ein Link mit einer detaillierten Erläuterung der Bewertung angezeigt.';
 $string['showanalysisicon_help'] = 'Wenn die Aktivität die Funktion unterstützt wird ein Link mit einer detaillierten Erläuterung der Bewertung angezeigt.';
 $string['showaverage'] = 'Mittelwert anzeigen';
 $string['showaverage_help'] = 'Spalte mit Durchschnittswertung anzeigen?
@@ -872,7 +891,7 @@ $string['weight_help'] = 'Festlegung zur Berechnung mehrerer Bewertungen innerha
 $string['weightofa'] = 'Gewichtung von {$a}';
 $string['weightorextracredit'] = 'Gewichtung oder Zusatzpunkte';
 $string['weightoverride'] = 'Gewichtungseinstellung';
-$string['weightoverride_help'] = 'Durch das Deaktivieren wird die Gewichtung gelöscht und  wieder die automatische Berechnung der Bewertungen  vorgenommen. Es erfolgt damit keine weitere Korrektur der Bewertungen.';
+$string['weightoverride_help'] = 'Durch das Deaktivieren wird die Gewichtung gelöscht und wieder die automatische Berechnung der Bewertungen vorgenommen. Es erfolgt damit keine weitere Korrektur der Bewertungen.';
 $string['weights'] = 'Gewichtungen';
 $string['weightsadjusted'] = 'Die Gewichtungen wurden auf insgesamt 100 angepasst.';
 $string['weightsedit'] = 'Gewichtungen oder Zusatzpunkte ändern';

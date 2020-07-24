@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'wiki', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -122,8 +122,12 @@ $string['incorrectpageid'] = 'Orriaren IDa ez da egokia.';
 $string['incorrectsubwikiid'] = 'Azpiwikiaren IDa ez da egokia.';
 $string['incorrectwikiid'] = 'Wikiaren IDa ez da egokia.';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa wikietan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa wikietan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek Wikia jarduerak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da, Bidali da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Wikia motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala wikietan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala wikietan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek Wikia jarduerak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Wikia motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['individualpagedoesnotexist'] = 'Norberaren wiki-orria ez da existitzen';
 $string['insertcomment'] = 'Txertatu iruzkina';
@@ -248,8 +252,8 @@ $string['repeatedsection'] = 'Wiki errorea: Atalaren izena ezin da errepikatu: \
 $string['restore'] = 'Berreskuratu';
 $string['restoreconfirm'] = 'Ziur zaude #{$a} bertsioa berreskuratu nahi duzula?';
 $string['restoreerror'] = '#{$a} bertsioa ezin da berreskuratu';
-$string['restorethis'] = 'Bertsio hau berreskuratu';
-$string['restoreversion'] = 'Bertsio zaharra berreskuratu';
+$string['restorethis'] = 'Berreskuratu bertsio hau';
+$string['restoreversion'] = 'Berreskuratu bertsio zaharra';
 $string['restoring'] = '#{$a} bertsioa berreskuratzen';
 $string['return'] = 'Egin atzera';
 $string['save'] = 'Gorde';
@@ -270,7 +274,7 @@ $string['timesrating'] = 'Orri hau kalifikatu da {$a->c} aldiz honako batezbeste
 $string['updatedpages'] = 'Eguneratutako orriak';
 $string['updatedpages_help'] = 'Azken aldian eguneratutako wiki-orriak';
 $string['updatedwikipages'] = 'Eguneratutako wiki-orriak';
-$string['upload'] = 'Eguneratu eta ezabatu';
+$string['upload'] = 'Igo eta ezabatu';
 $string['uploadactions'] = 'Ekintzak';
 $string['uploadfiletitle'] = 'Eraskinak';
 $string['uploadname'] = 'Fitxategiaren izena';

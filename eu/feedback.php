@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'feedback', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -142,9 +142,14 @@ $string['horizontal'] = 'Horizontala';
 $string['importfromthisfile'] = 'Inportatu fitxategi honetatik';
 $string['import_questions'] = 'Inportatu galderak';
 $string['import_successfully'] = 'Ondo inportatu da';
+$string['includeuserinrecipientslist'] = 'Sartu {$a} jasotzaileen zerrendan';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa inkestetan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa inkestetan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek Inkesta jarduerak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da, Bidali da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Inkesta motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala inkestetan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala inkestetan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek Inkesta jarduerak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Parte-hartzerik ez, bakarkako parte-hartzea, parte-hartzea besteekin)';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Inkesta motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['info'] = 'Informazioa';
 $string['infotype'] = 'Informazioa-mota';

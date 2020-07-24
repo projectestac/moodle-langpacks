@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_overview', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,9 +67,11 @@ $string['regradealldrydogroup'] = 'Recalcul des {$a->countregradeneeded} tentati
 $string['regradealldrygroup'] = 'Recalcul pour le groupe « {$a->groupname} » (simulation)';
 $string['regradeallgroup'] = 'Recalcul pour le groupe « {$a->groupname} »';
 $string['regradecomplete'] = 'Ré-évaluation effectuée';
+$string['regradedsuccessfullyxofy'] = 'Ré-évaluation effectuée ({$a->done}/{$a->count})';
 $string['regradeheader'] = 'Ré-évaluation';
 $string['regradeselected'] = 'Ré-évaluer les tentatives sélectionnées';
 $string['regradingattemptxofy'] = 'Ré-évaluation de la tentative ({$a->done}/{$a->count})';
+$string['regradingattemptxofywithdetails'] = 'Ré-évaluation de la tentative ({$a->done}/{$a->count}) - Tentative {$a->attemptnum} de {$a->name} (id {$a->attemptid})';
 $string['show'] = 'Afficher/télécharger';
 $string['showattempts'] = 'N\'afficher/télécharger que les tentatives';
 $string['showdetailedmarks'] = 'Points pour chaque question';

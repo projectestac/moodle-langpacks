@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_grading', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,7 +51,6 @@ $string['gradingall'] = 'Alla {$a} försök på den här frågan.';
 $string['gradingattempt'] = 'Försök nummer {$a->attempt} för {$a->fullname}';
 $string['gradingattemptsxtoyofz'] = 'Bedömnings försök {$a->from} till {$a->to} av {$a->of}';
 $string['gradingattemptwithidnumber'] = 'Försök nummer {$a->attempt} för {$a->fullname} ({$a->idnumber})';
-$string['grading:componentname'] = 'Manuell betygsrapport';
 $string['gradingnextungraded'] = 'Nästa {$a} ej bedömda försök';
 $string['gradingnotallowed'] = 'Du har inte tillstånd att manuellt sätta betyg på svaren på det här testet.';
 $string['gradingquestionx'] = 'Bedömnings fråga {$a->number}: {$a->questionname}';

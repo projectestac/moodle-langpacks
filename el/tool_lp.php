@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_lp', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,7 @@ $string['editthisplan'] = 'Επεξεργασία αυτού του σχεδίο
 $string['editthisuserevidence'] = 'Επεξεργασία αυτού του αποδεικτικού';
 $string['edituserevidence'] = 'Επεξεργασία αποδεικτικού';
 $string['evidence'] = 'Αποδεικτικό';
+$string['filterbyactivity'] = 'Φιλτράρισμα προσόντων κατά πόρους ή δραστηριότητα';
 $string['findcourses'] = 'Βρείτε μαθήματα';
 $string['frameworkcannotbedeleted'] = 'Το πλαίσιο προσόντων «{$a}» δεν μπορεί να διαγραφεί';
 $string['hidden'] = 'Σε απόκρυψη';
@@ -145,9 +146,11 @@ $string['myplans'] = 'Τα σχέδια μάθησής μου';
 $string['nfiles'] = '{$a} αρχείο(-α)';
 $string['noactivities'] = 'Δεν υπάρχουν δραστηριότητες';
 $string['nocompetencies'] = 'Δεν δημιουργήθηκαν καθόλου προσόντα σε αυτό το πλαίσιο.';
+$string['nocompetenciesinactivity'] = 'Δεν έχουν συνδεθεί προσόντα με αυτήν τη δραστηριότητα ή τον πόρο.';
 $string['nocompetenciesincourse'] = 'Δεν συνδέθηκαν καθόλου προσόντα με αυτό το μάθημα.';
 $string['nocompetenciesinevidence'] = 'Δεν συνδέθηκαν καθόλου προσόντα με αυτό το αποδεικτικό.';
 $string['nocompetenciesinlearningplan'] = 'Δεν συνδέθηκαν καθόλου προσόντα σε αυτό το σχέδιο μάθησης.';
+$string['nocompetenciesinlist'] = 'Δεν έχουν επιλεγεί προσόντα.';
 $string['nocompetenciesintemplate'] = 'Δεν συνδέθηκαν καθόλου προσόντα με αυτό το υπόδειγμα σχεδίου μάθησης.';
 $string['nocompetencyframeworks'] = 'Δεν δημιουργήθηκαν πλαίσια προσόντων ακόμη.';
 $string['nocompetencyselected'] = 'Δεν επιλέχθηκε προσόν';

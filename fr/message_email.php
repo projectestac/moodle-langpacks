@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_email', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message_email', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   message_email
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['email'] = 'Envoyer les notifications par courriel à';
+$string['emaildigestsubject'] = 'Récapitulatif des messages';
+$string['emaildigestunreadmessages'] = 'Messages non lus';
+$string['emaildigestviewallmessages'] = 'Afficher tous les messages';
 $string['emailonlyfromnoreplyaddress'] = 'Toujours envoyer les messages à partir de l\'adresse de non-réponse ?';
 $string['ifemailleftempty'] = 'Laisser vide pour envoyer les notifications à {$a}';
 $string['pluginname'] = 'Courriel';
@@ -34,8 +37,13 @@ $string['privacy:metadata:attachname'] = 'Le nom du fichier annexe (l\'extension
 $string['privacy:metadata:externalpurpose'] = 'Ces informations sont envoyées à un serveur SMTP externe, puis délivrées finalement au destinataire comme courriel.';
 $string['privacy:metadata:fullmessage'] = 'La version complète du message dans un format donné.';
 $string['privacy:metadata:fullmessagehtml'] = 'La version complète du message.';
+$string['privacy:metadata:message_email_messages'] = 'La liste des utilisateurs inscrits via un fournisseur LTI';
+$string['privacy:metadata:message_email_messages:conversationid'] = 'L\'identifiant de la conversation envoyée';
+$string['privacy:metadata:message_email_messages:messageid'] = 'L\'identifiant du message envoyé';
+$string['privacy:metadata:message_email_messages:useridto'] = 'L\'identifiant de l\'utilisateur recevant le message';
 $string['privacy:metadata:recipient'] = 'Le destinataire du message.';
 $string['privacy:metadata:replyto'] = 'L\'adresse de courriel à laquelle répondre.';
 $string['privacy:metadata:replytoname'] = 'Le nom auquel répondre, pour le destinataire.';
 $string['privacy:metadata:subject'] = 'L\'objet du message';
 $string['privacy:metadata:userfrom'] = 'L\'utilisateur qui envoie le message.';
+$string['tasksendemail'] = 'Envois des récapitulatifs des messages';

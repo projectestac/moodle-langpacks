@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'error', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -405,7 +405,7 @@ $string['mustbeloggedin'] = 'Heu d\'estar registrat per poder fer això';
 $string['mustbeteacher'] = 'Cal ser professor/a per veure aquesta pàgina';
 $string['myisamproblem'] = 'Les taules de la base de dades estan utilitzant el motor MyISAM. Es recomana utilitzar un motor de compilació ACID amb suport total a les transaccions, com ara InnoDB.';
 $string['needcopy'] = 'Cal que primer copieu alguna cosa.';
-$string['needcoursecategroyid'] = 'S\'ha d\'especificar o l\'ID del curs o la categoria';
+$string['needcoursecategroyid'] = 'S\'ha d\'especificar o l\'identificador (ID) del curs o la categoria';
 $string['needphpext'] = 'Heu d\'afegir a la vostra instal·lació PHP suport {$a}';
 $string['noadmins'] = 'No hi ha cap administrador';
 $string['noblocks'] = 'No s\'ha trobat cap bloc';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'user', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'user', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   user
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -121,10 +121,13 @@ $string['privacy:metadata:user_preferences:userid'] = 'ID do utilizador';
 $string['privacy:metadata:user_preferences:value'] = 'Valor de preferência';
 $string['privacy:metadata:usertablesummary'] = 'Esta tabela armazena os dados pessoais principais sobre o utilizador.';
 $string['privacy:metadata:uuid'] = 'O fornecedor do dispositivo UUID';
-$string['privacy:metadata:version'] = 'A versão do dispositivo, 6.1.2, 4.2.2 etc..';
+$string['privacy:metadata:version'] = 'A versão do dispositivo, 6.1.2, 4.2.2, etc...';
 $string['privacy:metadata:yahoo'] = 'O identificador Yahoo do utilizador';
 $string['privacy:passwordhistorypath'] = 'Histórico de senhas';
 $string['privacy:passwordresetpath'] = 'Reposição de senhas';
 $string['privacy:privatefilespath'] = 'Ficheiros privados';
 $string['privacy:profileimagespath'] = 'Imagens de perfil';
 $string['privacy:sessionpath'] = 'Dados de sessão';
+$string['target:upcomingactivitiesdue'] = 'Atividades com data limite próxima';
+$string['target:upcomingactivitiesdue_help'] = 'Esta meta gera lembretes para as atividades com data limite próxima.';
+$string['target:upcomingactivitiesdueinfo'] = 'Todas as perceções sobre "atividades a terminar brevemente". Estes alunos receberam estas perceções diretamente.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'feedback', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -58,7 +58,7 @@ $string['completed_feedbacks'] = 'Respostas submetidas';
 $string['completedon'] = 'Concluído em {$a}';
 $string['complete_the_form'] = 'Responder às perguntas';
 $string['completionsubmit'] = 'Ver como concluído se o inquérito tiver sido submetido';
-$string['configallowfullanonymous'] = 'Se selecionar \'Sim\', o inquérito pode ser concluído por utilizadores não autenticados. Apenas é aplicável a inquéritos na página de autenticação.';
+$string['configallowfullanonymous'] = 'Se selecionar \'Sim\', os utilizadores poderão concluir uma atividade inquérito na página principal sem estar autenticado.';
 $string['confirmdeleteentry'] = 'Tem a certeza de que pretende apagar esta resposta?';
 $string['confirmdeleteitem'] = 'Tem a certeza de que pretende apagar este item?';
 $string['confirmdeletetemplate'] = 'Tem a certeza de que pretende apagar este modelo?';
@@ -112,7 +112,7 @@ $string['emailteachermail'] = 'O utilizador {$a->username} respondeu ao inquéri
 Pode visuazilar as suas respostas em:
 {$a->url}';
 $string['emailteachermailhtml'] = 'O utilizador {$a->username} completou o inquérito: <i>\'{$a->feedback}\'</i> disponível em <a href="{$a->url}"></a>.';
-$string['entries_saved'] = 'As suas respostas foram gravadas. Obrigado';
+$string['entries_saved'] = 'As suas respostas foram guardadas. Obrigado';
 $string['eventresponsedeleted'] = 'Resposta apagada';
 $string['eventresponsesubmitted'] = 'Resposta submetida';
 $string['export_questions'] = 'Exportar questões';
@@ -142,9 +142,14 @@ $string['horizontal'] = 'Horizontal';
 $string['importfromthisfile'] = 'Importar deste ficheiro';
 $string['import_questions'] = 'Importar questões';
 $string['import_successfully'] = 'A importação foi concluída com sucesso';
+$string['includeuserinrecipientslist'] = 'Incluir {$a} na lista de destinatários';
 $string['indicator:cognitivedepth'] = 'Compreensão do Inquérito';
+$string['indicator:cognitivedepthdef'] = 'Compreensão do Inquérito';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelas atividades Inquérito durante esse intervalo de análise (Níveis = Não visualizado, Visualizado, Submetido)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno na atividade Inquérito.';
 $string['indicator:socialbreadth'] = 'Socialização do Inquérito';
+$string['indicator:socialbreadthdef'] = 'Socialização do Inquérito';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelas atividades Inquérito durante esse intervalo de análise (Níveis = Sem participação, Participante individual, Participante com outros)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno na atividade Inquérito.';
 $string['info'] = 'Informação de sistema';
 $string['infotype'] = 'Tipo de informação';

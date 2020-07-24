@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,36 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['asyncbackupcomplete'] = 'Der Sicherungsvorgang ist abgeschlossen.';
+$string['asyncbackupcompletebutton'] = 'Weiter';
+$string['asyncbackupcompletedetail'] = 'Der Sicherungsvorgang ist erfolgreich abgeschlossen. <br />Sie finden die Sicherung auf der <a href="{$a}">Wiederherstellen-Seite</a>.';
+$string['asyncbackuperror'] = 'Die Hintergrundverarbeitung ist fehlgeschlagen.';
+$string['asyncbackuperrordetail'] = 'Die Hintergrundverarbeitung ist fehlgeschlagen. Wenden Sie sich an die Administrator/innen der Website.';
+$string['asyncbackuppending'] = 'Der Sicherungsvorgang steht aus.';
+$string['asyncbackupprocessing'] = 'Der Sicherungsvorgang läuft.';
+$string['asyncbadexecution'] = 'Fehlerhafte Ausführung des Sicherungs-Controllers. Es ist {$a} und sollte 2 sein.';
+$string['asynccheckprogress'] = 'Sie können den Fortschritt jederzeit auf der Seite <a href="{$a}">Wiederherstellen</a> überprüfen.';
+$string['asyncemailenable'] = 'Systemnachrichten aktivieren';
+$string['asyncemailenabledetail'] = 'Die Option legt fest, ob Mitteilungen versendet werden, wenn eine asynchrone Sicherung oder Wiederherstellung abgeschlossen wird.';
+$string['asyncgeneralsettings'] = 'Asynchrones Sichern/Wiederherstellen';
+$string['asyncmessagebody'] = 'Mitteilung';
+$string['asyncmessagebodydefault'] = 'Hallo {user_firstname},<br/> Ihre {operation} (ID: {backupid}) wurde erfolgreich abgeschlossen. <br/><br/>Sie können über nachfolgende URL darauf zugreifen: {link}.';
+$string['asyncmessagebodydetail'] = 'Zu sendende Mitteilung, wenn eine asynchrone Sicherung oder Wiederherstellung abgeschlossen wird.';
+$string['asyncmessagesubject'] = 'Betreff';
+$string['asyncmessagesubjectdefault'] = 'Moodle {operation} erfolgreich abgeschlossen';
+$string['asyncmessagesubjectdetail'] = 'Betreff der Mitteilung';
+$string['asyncnowait'] = 'Sie müssen hier nicht warten. denn der Prozess wird im Hintergrund ausgeführt.';
+$string['asyncprocesspending'] = 'Vorgang anstehend';
+$string['asyncrestorecomplete'] = 'Der Wiederherstellungsvorgang ist abgeschlossen.';
+$string['asyncrestorecompletebutton'] = 'Weiter';
+$string['asyncrestorecompletedetail'] = 'Der Wiederherstellungsvorgang ist erfolgreich abgeschlossen. Mit Weiter gelangen Sie zum <a href="{$a}">Kurs mit dem wiederhergestellten Element</a>.';
+$string['asyncrestoreerror'] = 'Der Wiederherstellungsvorgang ist fehlgeschlagen.';
+$string['asyncrestoreerrordetail'] = 'Der Wiederherstellungsvorgang ist fehlgeschlagen. Wenden Sie sich an die  Administrator/innen.';
+$string['asyncrestoreinprogress'] = 'Laufende Wiederherstellung';
+$string['asyncrestoreinprogress_help'] = 'Asynchrone Kurswiederherstellungen, die gerade laufen, werden hier angezeigt.';
+$string['asyncrestorepending'] = 'Der Wiederherstellungsvorgang steht an.';
+$string['asyncrestoreprocessing'] = 'Die Wiederherstellung läuft';
+$string['asyncreturn'] = 'Zurück zum Kurs';
 $string['autoactivedescription'] = 'Wählen Sie, ob eine automatische Sicherung durchgeführt werden soll. Falls Sie die Option \'Manuell\' auswählen, sind automatische Sicherungen nur noch über das CLI-Script \'automated backups\' möglich. Dieses CLI-Script kann manuell in der Befehlszeile oder über einen Cronjob gestartet werden.';
 $string['autoactivedisabled'] = 'Deaktiviert';
 $string['autoactiveenabled'] = 'Aktiviert';
@@ -64,6 +94,7 @@ $string['backupmode30'] = 'Hub';
 $string['backupmode40'] = 'Gleiche Website';
 $string['backupmode50'] = 'Automatisiert';
 $string['backupmode60'] = 'Umgewandelt';
+$string['backupmode70'] = 'Asynchron';
 $string['backupsection'] = 'Kursabschnitt sichern: {$a}';
 $string['backupsettings'] = 'Sicherungseinstellungen';
 $string['backupsitedetails'] = 'Details der Website';
@@ -93,6 +124,7 @@ $string['configgeneralblocks'] = 'Standard für die Einbeziehung von Blöcken in
 $string['configgeneralcalendarevents'] = 'Diese Option legt die Standardeinstellung für die Einbeziehung von Kalendereinträgen in Kurssicherungen fest.';
 $string['configgeneralcomments'] = 'Standard für die Einbeziehung von Kommentaren in eine Sicherung';
 $string['configgeneralcompetencies'] = 'Diese Option legt die Standardeinstellung für die Einbeziehung von Kompetenzen in Kurssicherungen fest.';
+$string['configgeneralfiles'] = 'Setzt den Standard für die Aufnahme von Dateien in ein Backup. Hinweis: Wenn Sie diese Einstellung deaktivieren, wird ein Backup erstellt, das nur Verweise auf Dateien enthält. Dies ist kein Problem, wenn die Sicherung auf dem gleichen System wiederhergestellt wird und die Dateien nicht gemäß der Einstellung \'Papierkorb-Dateien bereinigen\' (filescleanupperiod) gelöscht wurden.';
 $string['configgeneralfilters'] = 'Standard für die Einbeziehung von Filtern in eine Sicherung';
 $string['configgeneralgroups'] = 'Diese Option legt die Standardeinstellung für Gruppen und Gruppierungen in Kurssicherungen fest.';
 $string['configgeneralhistories'] = 'Standard für die Einbeziehung von Nutzerverläufen in eine Sicherung';
@@ -139,6 +171,8 @@ $string['currentstage16'] = 'Fertigstellen';
 $string['currentstage2'] = 'Einstellungen';
 $string['currentstage4'] = 'Kontrollieren und bestätigen';
 $string['currentstage8'] = 'Sicherung ausführen';
+$string['enableasyncbackup'] = 'Asynchrone Sicherungen erlauben';
+$string['enableasyncbackup_help'] = 'Wenn diese Option aktiviert ist, werden alle Sicherungs- und Wiederherstellungsvorgänge asynchron durchgeführt. Importe und Exporte sind davon nicht betroffen. Asynchrone Sicherungen und Wiederherstellungen ermöglichen es, während einer Sicherung oder einer Wiederherstellung andere Operationen durchzuführen.';
 $string['enterasearch'] = 'Suche eingeben';
 $string['error_block_for_module_not_found'] = 'Verwaiste Blockinstanz (ID: {$a->bid}) zum Kursmodul (ID {$a->mid}) gefunden. Dieser Block wird nicht gesichert.';
 $string['errorcopyingbackupfile'] = 'Kopieren der Sicherungsdatei in den temporären Ordner vor der Wiederherstellung fehlgeschlagen';
@@ -151,9 +185,10 @@ $string['errorinvalidformatinfo'] = 'Die ausgewählte Datei ist keine gültige M
 $string['errorminbackup20version'] = 'Diese Sicherungsdatei wurde mit einer Entwicklungsversion des Moodle-Backups ({$a->backup}) erstellt. Für die Wiederherstellung ist mindestens {$a->min} notwendig.';
 $string['errorrestorefrontpagebackup'] = 'Sicherungen einer Startseite können nur auf der Startseite wiederhergestellt werden.';
 $string['executionsuccess'] = 'Ihre Sicherung wurde erfolgreich abgeschlossen.';
+$string['failed'] = 'Sicherung fehlgeschlagen';
 $string['filealiasesrestorefailures'] = 'Fehler bei der Alias-Wiederherstellung';
 $string['filealiasesrestorefailures_help'] = 'Aliases sind symbolische Links zu anderen Dateien, auch Dateien in externen Repositories. In einigen Fällen kann Moodle diese Aliases nicht wiederherstellen, z.B. wenn eine Sicherung in einem anderen System wiederhergestellt wird oder die verlinkte Datei nicht existiert.';
-$string['filealiasesrestorefailuresinfo'] = 'Aliases aus der Sicherungsdatei konnten nicht wiederhergestellt werden. Dir nachfolgende Liste enthält deren angenommenen Speicherorte und die Quelldatei aus dem Ursprungssystem.';
+$string['filealiasesrestorefailuresinfo'] = 'Aliases aus der Sicherungsdatei konnten nicht wiederhergestellt werden. Die nachfolgende Liste enthält deren angenommenen Speicherorte und die Quelldatei aus dem Ursprungssystem.';
 $string['filename'] = 'Dateiname';
 $string['filereferencesincluded'] = 'In der Sicherung sind Dateiverweise zu externen Inhalten enthalten. Diese Dateiverweise werden nicht funktionieren, wenn die Sicherung in einer anderen Website wiederhergestellt wird.';
 $string['filereferencesnotsamesite'] = 'Die Sicherung stammt von einer anderen Website. Dateiverweise können nicht wiederhergestellt werden.';
@@ -167,6 +202,7 @@ $string['generalcalendarevents'] = 'Kalender einbeziehen';
 $string['generalcomments'] = 'Kommentare einbeziehen';
 $string['generalcompetencies'] = 'Kompetenzen einbeziehen';
 $string['generalenrolments'] = 'Einschreibemethoden einbeziehen';
+$string['generalfiles'] = 'Dateien einbeziehen';
 $string['generalfilters'] = 'Filter einbeziehen';
 $string['generalgradehistories'] = 'Verlauf einbeziehen';
 $string['generalgroups'] = 'Gruppen und Gruppierungen einbeziehen';
@@ -177,7 +213,7 @@ $string['generalrestoredefaults'] = 'Standardeinstellungen zur Wiederherstellung
 $string['generalrestoresettings'] = 'Einstellungen zur Wiederherstellung';
 $string['generalroleassignments'] = 'Rollenzuweisungen einbeziehen';
 $string['generalsettings'] = 'Grundeinstellungen';
-$string['generalusers'] = 'Nutzer einbeziehen';
+$string['generalusers'] = 'Nutzer/innen einbeziehen';
 $string['generaluserscompletion'] = 'Fortschrittsinformationen einbeziehen';
 $string['hidetypes'] = 'Typ-Optionen verbergen';
 $string['importbackupstage16action'] = 'Fortsetzen';
@@ -205,6 +241,7 @@ $string['includeditems'] = 'Einbezogene Elemente:';
 $string['includefilereferences'] = 'Dateiverweise zu externen Inhalten';
 $string['includesection'] = 'Abschnitt {$a}';
 $string['includeuserinfo'] = 'Nutzerdaten';
+$string['inprogress'] = 'Sicherung läuft';
 $string['jumptofinalstep'] = 'Weitere Einstellungen überspringen';
 $string['keep'] = 'Behalten';
 $string['locked'] = 'Gesperrt';
@@ -223,6 +260,10 @@ $string['nomatchingcourses'] = 'Kein Kurs zum Anzeigen';
 $string['norestoreoptions'] = 'Keine Kategorien oder existierende Kurse, in denen Sie wiederherstellen könnten ';
 $string['originalwwwroot'] = 'URL der Sicherung';
 $string['overwrite'] = 'Überschreiben';
+$string['pendingasyncdeletedetail'] = 'Dieser Kurs hat eine asynchrones Kurssicherung ausstehend. <br/>Kurse können nicht gelöscht werden, bis diese Sicherung abgeschlossen ist.';
+$string['pendingasyncdetail'] = 'Asynchrone Kurssicherungen erlauben es, jeweils nur eine ausstehende Sicherung für eine Ressource durchzuführen. <br/>Mehrere asynchrone Sicherungen derselben Ressource können nicht in die Warteschlange gestellt werden, da dies wahrscheinlich zu mehreren Sicherungen mit demselben Inhalt führen würde.';
+$string['pendingasyncedit'] = 'Für diesen Kurs steht eine asynchrone Sicherung an. Bearbeiten Sie diesen Kurs erst, wenn die Sicherung abgeschlossen ist.';
+$string['pendingasyncerror'] = 'Für diese Ressource anstehende Sicherung';
 $string['preparingdata'] = 'Daten werden vorbereitet';
 $string['preparingui'] = 'Übersicht wird vorbereitet';
 $string['previousstage'] = 'Zurück';
@@ -284,10 +325,12 @@ $string['rootsettingblocks'] = 'Blöcke einbeziehen';
 $string['rootsettingcalendarevents'] = 'Kalender einbeziehen';
 $string['rootsettingcomments'] = 'Kommentare einbeziehen';
 $string['rootsettingcompetencies'] = 'Kompetenzen einbeziehen';
+$string['rootsettingcustomfield'] = 'Kursfelder einbeziehen';
 $string['rootsettingenrolments'] = 'Einschreibemethoden einbeziehen';
 $string['rootsettingenrolments_always'] = 'Ja, immer';
 $string['rootsettingenrolments_never'] = 'Nein, Nutzer/innen als manuelle Einschreibung wiederherstellen';
 $string['rootsettingenrolments_withusers'] = 'Ja, aber nur wenn Nutzer/innen einbezogen sind';
+$string['rootsettingfiles'] = 'Dateien einbeziehen';
 $string['rootsettingfilters'] = 'Filter einbeziehen';
 $string['rootsettinggradehistories'] = 'Bewertungsverlauf einbeziehen';
 $string['rootsettinggroups'] = 'Gruppen und Gruppierungen einbeziehen';
@@ -299,6 +342,7 @@ $string['rootsettingroleassignments'] = 'Rollenzuweisungen einbeziehen';
 $string['rootsettings'] = 'Sicherungseinstellungen';
 $string['rootsettingusers'] = 'Eingeschriebene Nutzer/innen einbeziehen';
 $string['rootsettinguserscompletion'] = 'Nutzerabschlussdetails einbeziehen';
+$string['samesitenotification'] = 'Diese Sicherung wurde nur mit Verweisen auf Dateien erstellt, nicht mit den Dateien selbst. Die Wiederherstellung wird ausschließlich auf dieser Website funktionieren.';
 $string['sectionactivities'] = 'Aktivitäten';
 $string['sectioninc'] = 'In die Sicherung einbezogen (ohne Nutzerinformationen)';
 $string['sectionincanduser'] = 'In die Sicherung einbezogen (mit Nutzerinformationen)';
@@ -321,9 +365,12 @@ $string['skipmodifdays'] = 'Unveränderte Kurse überspringen';
 $string['skipmodifdayshelp'] = 'Wählen Sie, ob Kurse, die sich x Tage nicht verändert haben, gesichert werden sollen oder nicht.';
 $string['skipmodifprev'] = 'Seit der letzten Sicherung unveränderte Kurse überspringen';
 $string['skipmodifprevhelp'] = 'Wählen Sie, ob Kurse, die sich seit der letzten Sicherung nicht geändert haben, gesichert oder übersprungen werden sollen. Dazu ist das Logging erforderlich.';
+$string['status'] = 'Status';
 $string['storagecourseandexternal'] = 'Dateibereich für Kurssicherungen und angegebenes Verzeichnis';
 $string['storagecourseonly'] = 'Dateibereich für Kurssicherungen';
 $string['storageexternalonly'] = 'Angegebenes Verzeichnis für automatisierte Sicherungen';
+$string['successful'] = 'Sicherung erfolgreich';
+$string['successfulrestore'] = 'Wiederherstellung erfolgreich';
 $string['timetaken'] = 'Verbrauchte Zeit';
 $string['title'] = 'Titel';
 $string['totalcategorysearchresults'] = 'Kategorien gesamt: {$a}';

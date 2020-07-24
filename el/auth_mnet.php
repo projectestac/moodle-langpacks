@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_mnet', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_mnet', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,6 +31,7 @@ $string['auth_mnet_roamin'] = 'Οι χρήστες αυτού του κεντρ�
 $string['auth_mnet_roamout'] = 'Οι χρήστες σας μπορούν να συνδέονται και σε αυτούς τους κεντρικούς Η/Υ';
 $string['auth_mnet_rpc_negotiation_timeout'] = 'Το χρονικό όριο σε δευτερόλεπτα για αυθεντικοποίηση κατά τη μεταφορά XMLRPC.';
 $string['auto_add_remote_users'] = 'Αυτόματη προσθήκη απομακρυσμένων χρηστών';
+$string['crontask'] = 'Επεξεργασία παρασκηνίου για την αυθεντικοποίηση MNet';
 $string['pluginname'] = 'Αυθεντικοποίηση στο MNet';
 $string['privacy:metadata:external:mahara'] = 'Αυτό το πρόσθετο μπορεί να στείλει δεδομένα εξωτερικά σε μια συνδεδεμένη εφαρμογή Mahara.';
 $string['privacy:metadata:external:moodle'] = 'Αυτό το πρόσθετο μπορεί να στείλει δεδομένα εξωτερικά σε μια συνδεδεμένη εφαρμογή Mahara.';

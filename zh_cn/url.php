@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'url', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['chooseavariable'] = '选择一个变量...';
 $string['clicktoopen'] = '点击{$a}链接打开资源。';
-$string['configdisplayoptions'] = '选择所有可以使用的选项。已有的设置不会改变。按住CTRL键选择多个域。';
+$string['configdisplayoptions'] = '选择所有可以使用的选项。已有的设置不会改变。按住CTRL键选择多个字段。';
 $string['configframesize'] = '当在框架内显示web页面或上传的文件时，此值为顶层框架（包括导航栏）的高度（单位：像素）。';
 $string['configrolesinparams'] = '如果您希望用本地化过的角色名做可选的参数变量，就启用';
 $string['configsecretphrase'] = '此秘密短语被用来生成加密的代码。此代码可以当做参数发送给某些服务器。加密的代码是当前用户的IP地址和您的秘密短语的md5值。即，code = md5(IP.秘密短语)。请注意，因为IP地址会变化，且经常在不同计算机之间共享，所以并不可靠。';
@@ -49,9 +49,13 @@ $string['displayselect_help'] = '此设置，URL文件的类型，及浏览器�
 $string['externalurl'] = '外部URL';
 $string['framesize'] = '框架高度';
 $string['indicator:cognitivedepth'] = '网页地址资源认知深度';
+$string['indicator:cognitivedepthdef'] = '网页地址资源认知深度';
+$string['indicator:cognitivedepthdef_help'] = '在此分析间隔内，参与者已达到网页地址资源所提供的认知参与百分比(级别=未查看，查看)';
 $string['indicator:cognitivedepth_help'] = '这个指标是基于学生在 网页地址资源中所达到的认知深度。';
-$string['indicator:socialbreadth'] = '网页地址资源社会宽度';
-$string['indicator:socialbreadth_help'] = '这个指标是基于学生在网页地址资源中所达到的社会宽度。';
+$string['indicator:socialbreadth'] = '网页地址资源社会广度';
+$string['indicator:socialbreadthdef'] = '网页地址资源社会广度';
+$string['indicator:socialbreadthdef_help'] = '在这个分析间隔内，参与者已经达到了网页地址资源所提供的社会参与百分比(级别=没有参与，单独参与)';
+$string['indicator:socialbreadth_help'] = '这个指标是基于学生在网页地址资源中所达到的社会广度。';
 $string['invalidstoredurl'] = '不能显示此资源，URL 无效。';
 $string['invalidurl'] = '输入的 URL 无效';
 $string['modulename'] = '网页地址';
@@ -66,11 +70,12 @@ $string['parametersheader_help'] = '可以将一些Moodle内部变量自动附�
 $string['pluginadministration'] = 'URL模块管理';
 $string['pluginname'] = '网页地址';
 $string['popupheight'] = '弹出窗口高度（单位：像素）';
-$string['popupheightexplain'] = '指定弹出窗口的缺省高度。';
+$string['popupheightexplain'] = '指定弹出窗口的默认高度。';
 $string['popupwidth'] = '弹出窗口宽度（单位：像素）';
-$string['popupwidthexplain'] = '指定弹出窗口的缺省宽度。';
+$string['popupwidthexplain'] = '指定弹出窗口的默认宽度。';
 $string['printintro'] = '显示URL描述';
 $string['printintroexplain'] = '在内容下方显示 URL 描述？某些显示类型就算开启此选项也不会显示描述。';
+$string['privacy:metadata'] = '网页地址资源插件不存储任何个人数据。';
 $string['rolesinparams'] = '在参数中包含角色名';
 $string['search:activity'] = '网页地址';
 $string['serverurl'] = '服务器URL';

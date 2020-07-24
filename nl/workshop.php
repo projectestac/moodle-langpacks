@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshop', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -95,7 +95,8 @@ $string['configgradedecimals'] = 'Standaard maximaal aantal decimalen bij het to
 $string['configgradinggrade'] = 'Standaard maximumcijfer voor een beoordeling in Workshops';
 $string['configmaxbytes'] = 'Standaard maximale bestandsgrootte voor taken voor alle Workshops op de site (ook afhankelijk van cursuslimieten en andere lokale instellingen)';
 $string['configstrategy'] = 'Standaard beoordelingsstrategie voor Workshops';
-$string['createsubmission'] = 'Begin met het voorbereiden van je inzending';
+$string['createsubmission'] = 'Voeg inzending toe';
+$string['crontask'] = 'Achtergrondverwerking voor workshop module';
 $string['daysago'] = '{$a} dagen geleden';
 $string['daysleft'] = '{$a} dagen resterend';
 $string['daystoday'] = 'vandaag';
@@ -110,8 +111,6 @@ $string['editingsubmission'] = 'Inzending bewerken';
 $string['editsubmission'] = 'Bewerk inzending';
 $string['err_multiplesubmissions'] = 'Terwijl je op deze pagina aan het werken was, is er een nieuwe versie van de taak bewaard. Meerdere inzendingen per gebruiker zijn niet toegestaan.';
 $string['err_removegrademappings'] = 'Kan de ongebruikte cijferkoppelingen niet verwijderen';
-$string['err_unknownfileextension'] = 'Onbekende bestandsextentie: {$a}';
-$string['err_wrongfileextension'] = 'Sommige bestanden {$a->wrongfiles} kunnen niet geüpload worden. Enkel bestanden met volgende bestandstypes zijn toegestaan: {$a->whitelist}';
 $string['evaluategradeswait'] = 'Wacht tot de beoordelingen geëvalueerd zijn en tot de cijfers berekend zijn.';
 $string['evaluation'] = 'Evaluatie van de beoordeling';
 $string['evaluationmethod'] = 'Methode voor de evaluatie van de beoordeling';
@@ -145,7 +144,7 @@ $string['exampleneedsubmission'] = 'Je moet eerst je eigen werk insturen en alle
 $string['examplesbeforeassessment'] = 'Voorbeelden zijn beschikbaar na je eigen inzending en moeten beoordeeld worden voor de peer beoordeling';
 $string['examplesbeforesubmission'] = 'De voorbeelden moeten beoordeeld worden voor je  eigen taak';
 $string['examplesmode'] = 'Modus voor de beoordeling van voorbeeldtaken';
-$string['examplesubmissions'] = 'Voorbeeldinzendingen';
+$string['examplesubmissions'] = 'Voorbeeldtaken';
 $string['examplesvoluntary'] = 'Het beoordelen van een voorbeeldtaak is op vrijwillige basis';
 $string['exportsubmission'] = 'Exporteer deze pagina';
 $string['feedbackauthor'] = 'Feedback voor de auteur';
@@ -163,12 +162,14 @@ $string['givengrades'] = 'Gegeven cijfers';
 $string['gradecalculated'] = 'Berekende cijfers voor de taak';
 $string['gradedecimals'] = 'Aantal decimalen in cijfers';
 $string['gradegivento'] = '&gt;';
+$string['grade_grading_name'] = 'Beoordeling';
 $string['gradeinfo'] = 'Cijfer: {$a->received} op {$a->max}';
 $string['gradeitemassessment'] = '{$a->workshopname} (Beoordeling)';
 $string['gradeitemsubmission'] = '{$a->workshopname} (taak)';
 $string['gradeover'] = 'Cijfer voor taak overschrijven';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Workshop cijfer rapport';
+$string['grade_submission_name'] = 'Inzending';
 $string['gradetopassgrading'] = 'Beoordelingscijfer om te slagen';
 $string['gradetopasssubmission'] = 'Instuurcijfer om te slagen';
 $string['gradinggrade'] = 'Cijfer voor evaluatie';
@@ -180,8 +181,12 @@ $string['gradingsettings'] = 'Cijferinstellingen';
 $string['groupnoallowed'] = 'Je hebt toegang tot geen enkele groep in deze workshop';
 $string['iamsure'] = 'Ja, ik weet het zeker';
 $string['indicator:cognitivedepth'] = 'Workshop cognitief';
+$string['indicator:cognitivedepthdef'] = 'Workshop cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de workshopactiviteiten tijdens dit analyse-interval bereikt (Niveaus = Geen weergave, Bekijken, Verzenden, Feedback bekijken, Reageren op feedback, Opnieuw verzenden na het bekijken van feedback)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de cognitieve diepte bereikt door de leerling in een Workshop activiteit.';
 $string['indicator:socialbreadth'] = 'Workshop sociaal';
+$string['indicator:socialbreadthdef'] = 'Workshop sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid van de workshopactiviteiten tijdens dit analyse-interval bereikt (Niveaus = geen deelname, alleen deelnemer, deelnemer met anderen)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de sociale breedte bereikt door de leerling in een Workshop activiteit.';
 $string['info'] = 'Info';
 $string['instructauthors'] = 'Instructies voor taak';
@@ -191,13 +196,14 @@ $string['latesubmissions'] = 'Te laat afgegeven';
 $string['latesubmissionsallowed'] = 'Te laat afgeven toegestaan';
 $string['latesubmissions_desc'] = 'Taken aanvaarden na de deadline';
 $string['latesubmissions_help'] = 'Indien ingeschakeld kunnen taken ingestuurd worden na de deadline of tijdens de beoordelingsfase. Te laat ingestuurde taken kunnen niet meer bewerkt worden.';
+$string['legacyallocationplugincron'] = 'Verouderde cron workshop toewijzing';
 $string['maxbytes'] = 'Maximale grootte van de inzending';
 $string['modulename'] = 'Workshop';
 $string['modulename_help'] = 'De workshopmodule maakt het ophalen, nakijken en peer-evaluatie van leerlingenwerk mogelijk.
 
-Leerlingen kunnen gelijk welke digitale inhoud (bestanden) insturen, zoals documenten van tekstverwerkers of rekenbladen en kunnnen ook tekst rechtstreeks intypen in de online tekstverwerker.
+Leerlingen kunnen gelijk welke digitale inhoud (bestanden) insturen, zoals documenten van tekstverwerkers of rekenbladen en kunnen ook tekst rechtstreeks intypen in de online tekstverwerker.
 
-Inzendingen worden beoordeeld via een beoordelingsformulier met meerdere criteria dat opgesteld is door de leraar. Het peerevaluatieproces kan op voorhand geoefend worden door een voorbeeldinzending die de leraar ingestuurd heeft, samen met een referentiebeoordeling. Leerlingen kunnen één of meer taken van hun medeleerlingen beoordelen. De ingestuurde documenten en de beoordelaars kunnen anoniem zijn indien gewenst.
+Inzendingen worden beoordeeld via een beoordelingsformulier met meerdere criteria dat opgesteld is door de leraar. Het peerevaluatieproces kan op voorhand geoefend worden door een voorbeeldtaak die de leraar ingestuurd heeft, samen met een referentiebeoordeling. Leerlingen kunnen één of meer taken van hun medeleerlingen beoordelen. De ingestuurde documenten en de beoordelaars kunnen anoniem zijn indien gewenst.
 
 Leerlingen krijgen twee cijfers voor een workshopactiviteit - een cijfer voor hun ingestuurde taak en een cijfer voor de evaluatie van de taak van de medeleerling. Beide cijfers worden opgenomen in de cijferlijst.';
 $string['modulenameplural'] = 'Workshops';

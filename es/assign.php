@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assign', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,6 +75,7 @@ $string['assign:receivegradernotifications'] = 'Recibir notificaciones de envío
 $string['assign:releasegrades'] = 'Publicación de calificaciones';
 $string['assign:revealidentities'] = 'Mostrar las identidades de los estudiantes';
 $string['assign:reviewgrades'] = 'Revisión de calificaciones';
+$string['assign:showhiddengrader'] = 'Ver la identidad de un evaluador oculto';
 $string['assignsubmission'] = 'Extensión de entregas';
 $string['assignsubmissionpluginname'] = 'Extensión de entregas';
 $string['assign:submit'] = 'Enviar tarea';
@@ -96,6 +97,7 @@ $string['batchoperationconfirmaddattempt'] = '¿Permitir otro intento para las e
 $string['batchoperationconfirmdownloadselected'] = '¿Descargar los envíos seleccionados?';
 $string['batchoperationconfirmgrantextension'] = '¿Ampliar el plazo a todas las seleccionadas?';
 $string['batchoperationconfirmlock'] = '¿Bloquear todas las entregas seleccionadas?';
+$string['batchoperationconfirmremovesubmission'] = '¿Eliminar las entregas seleccionadas?';
 $string['batchoperationconfirmreverttodraft'] = 'Revertir las entregas seleccionadas a borrador?';
 $string['batchoperationconfirmsetmarkingallocation'] = '¿Establecer asignación de evaluadores para todas las entregas seleccionadas?';
 $string['batchoperationconfirmsetmarkingworkflowstate'] = '¿Establecer estado del workflow (flujo de trabajo) de calificaciones para todas las entregas seleccionadas?';
@@ -131,6 +133,7 @@ $string['couldnotconvertsubmission'] = 'No se pudo convertir la calificación de
 $string['couldnotcreatecoursemodule'] = 'No se puede crear módulo de curso';
 $string['couldnotcreatenewassignmentinstance'] = 'No se pudo crear nueva instancia tarea.';
 $string['couldnotfindassignmenttoupgrade'] = 'No se pudo encontrar instancias de tarea anteriores para actualizar.';
+$string['crontask'] = 'Procesamiento en segundo plano para módulo Tarea';
 $string['currentassigngrade'] = 'Calificación actual en tarea';
 $string['currentattempt'] = 'Este es el intento {$a}.';
 $string['currentattemptof'] = 'Este es el intento {$a->attemptnumber} ( {$a->maxattempts} intentos permitidos ).';
@@ -173,6 +176,8 @@ $string['errorquickgradingvsadvancedgrading'] = 'No se guardaron las calificacio
 $string['errorrecordmodified'] = 'Las calificaciones no se guardaron porque alguien acaba de modificar uno o más registros, antes de que usted terminara de cargar la página';
 $string['eventallsubmissionsdownloaded'] = 'Todos los envíos se están descargando.';
 $string['eventassessablesubmitted'] = 'Se ha enviado una entrega';
+$string['eventbatchsetmarkerallocationviewed'] = 'Asignación de marcador de conjunto de lote vista';
+$string['eventbatchsetworkflowstateviewed'] = 'Estado del Flujograma de configuración masiva vista.';
 $string['eventextensiongranted'] = 'Se ha entregado una extensión.';
 $string['eventfeedbackupdated'] = 'Retroalimentación actualizada';
 $string['eventfeedbackviewed'] = 'Retroalimentación vista';
@@ -180,6 +185,10 @@ $string['eventgradingformviewed'] = 'Formulario de calificaciones visto';
 $string['eventgradingtableviewed'] = 'Visualización de las Calificaciones';
 $string['eventidentitiesrevealed'] = 'Se han revelado las identidades.';
 $string['eventmarkerupdated'] = 'El evaluador asignado ha sido actualizado';
+$string['eventoverridecreated'] = 'Anulación de tarea creada';
+$string['eventoverridedeleted'] = 'Anulación de tarea eliminada';
+$string['eventoverrideupdated'] = 'Anulación de tarea  actualizada';
+$string['eventremovesubmissionformviewed'] = 'Borrar la confirmación de envío visualizada.';
 $string['eventrevealidentitiesconfirmationpageviewed'] = 'Página de confirmación de revelación de identidades vista.';
 $string['eventstatementaccepted'] = 'El usuario ha aceptado la declaración del envío.';
 $string['eventsubmissionconfirmationformviewed'] = 'Formulario de confirmación de entrega visto.';
@@ -199,6 +208,14 @@ $string['extensionduedate'] = 'Ampliar plazo';
 $string['extensionnotafterduedate'] = 'La fecha de ampliación de plazo debe ser posterior a la de entrega de la tarea';
 $string['extensionnotafterfromdate'] = 'El plazo extra debe ser posterior a la fecha permitida para el envío';
 $string['feedback'] = 'Comentario';
+$string['feedbackavailableanonhtml'] = 'Tiene un nuevo comentario en su entrega para la tarea \'<i>{$a->assignment}</i>\'<br /><br />
+Puede verla junto a su <a href="{$a->url}">entrega de la tarea</a>.';
+$string['feedbackavailableanonsmall'] = 'Nuevo comentario para la tarea {$a->assignment}';
+$string['feedbackavailableanontext'] = 'Tiene un nuevo comentario en su entrega de la tarea \'{$a->assignment}\'
+
+Puede verlo junto a su envio de la tarea
+
+    {$a->url}';
 $string['feedbackavailablehtml'] = '{$a->username} ha aportado alguna retroalimentación en su entrega de la tarea \'<i>{$a->assignment}</i>\'<br /><br /> Puede verla añadida <a href="{$a->url}">a su entrega</a>.';
 $string['feedbackavailablesmall'] = '{$a->username} ha hecho un comentario en la tarea {$a->assignment}';
 $string['feedbackavailabletext'] = '{$a->username} ha hecho un comentario de  retroalimentación en su entrega de la tarea {$a->assignment}.
@@ -219,6 +236,9 @@ $string['filternone'] = 'Sin filtro';
 $string['filternotsubmitted'] = 'No enviado';
 $string['filterrequiregrading'] = 'Requiere calificación';
 $string['filtersubmitted'] = 'Enviada';
+$string['fixrescalednullgrades'] = 'Esta tarea contiene algunas calificaciones erróneas. Usted puede <a href="{$a->link}">corregir automáticamente estas calificaciones</a>. Esto podría afectar los totales del curso.';
+$string['fixrescalednullgradesconfirm'] = '¿ Está seguro de querer corregir calificaciones erróneas ? Todas las calificaciones afectadas serán eliminadas. Esto podría afectar los totales del curso.';
+$string['fixrescalednullgradesdone'] = 'Calificaciones corregidas.';
 $string['gradeabovemaximum'] = 'La calificación debe ser menor o igual que {$a}';
 $string['gradebelowzero'] = 'La calificación deve ser igual o menos que {$a}';
 $string['gradecanbechanged'] = 'La calificación puede ser cambiada';
@@ -227,6 +247,7 @@ $string['graded'] = 'Calificado';
 $string['gradedby'] = 'Calificado por';
 $string['gradedfollowupsubmit'] = 'Calificado - recibida nueva entrega';
 $string['gradedon'] = 'Calificado sobre';
+$string['gradeitem:submissions'] = 'Entregas';
 $string['gradelocked'] = 'Esta calificación está bloqueada o ha sido modificada en el libro de calificaciones';
 $string['gradeoutof'] = 'Calificación sobre {$a}';
 $string['gradeoutofhelp'] = 'Revisar';
@@ -261,18 +282,26 @@ $string['groupoverridesdeleted'] = 'Excepción de grupo eliminada';
 $string['groupsnone'] = 'No hay grupos en este curso';
 $string['groupsubmissionsettings'] = 'Configuración de entrega por grupo';
 $string['hiddenuser'] = 'Participante';
+$string['hidegrader'] = 'Ocultar la identidad del evaluador a los estudiantes';
+$string['hidegrader_help'] = 'Si está habilitado, la identidad de cualquier usuario que califique una entrega de la tarea no es mostrada, por lo que los estudiantes no pueden ver quien puntúa su trabajo,
+
+Observe que este ajuste no tiene efecto en la caja de comentarios en la página de calificación.';
 $string['hideshow'] = 'Ocultar/Mostrar';
 $string['inactiveoverridehelp'] = '* El estudiante no tiene el grupo o rol correcto para realizar la tarea';
 $string['indicator:cognitivedepth'] = 'Tarea cognitiva';
+$string['indicator:cognitivedepthdef'] = 'Tarea cognitiva';
+$string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso cognitivo ofrecido por las actividades de Tarea durante este intervalo de análisis (Niveles = Sin Ver, Ver, Enviar, Ver realimentación, Comentar en realimentación, Reenviar después de ver realimentación)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad de Tarea.';
 $string['indicator:socialbreadth'] = 'Tarea social';
+$string['indicator:socialbreadthdef'] = 'Tarea social';
+$string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por las actividades de Tarea durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad de Tarea.';
 $string['instructionfiles'] = 'Archivos de instrucciones';
 $string['introattachments'] = 'Archivos adicionales';
 $string['introattachments_help'] = 'Pueden añadirse archivos adicionales para ser utilizados en la tarea, por ejemplo, como plantilla de respuesta. Los enlaces para descargar estos archivos se muestran debajo de la descripción de la tarea.';
 $string['invalidfloatforgrade'] = 'La calificación proporcionada podría no entenderse: {$a}';
 $string['invalidgradeforscale'] = 'La calificación proporcionada no era válida para la escala definida';
-$string['invalidoverrideid'] = 'id de excepción inválido';
+$string['invalidoverrideid'] = 'Id de excepción inválido';
 $string['lastmodifiedgrade'] = 'Última modificación (calificación)';
 $string['lastmodifiedsubmission'] = 'Última modificación (entrega)';
 $string['latesubmissions'] = 'Entrega fuera de plazo';
@@ -332,7 +361,7 @@ $string['nofiles'] = 'Sin archivos';
 $string['nofilters'] = 'Sin filtros';
 $string['nograde'] = 'Sin calificación';
 $string['nolatesubmissions'] = 'No se aceptan entregas fuera de plazo.';
-$string['nomoresubmissionsaccepted'] = 'No se aceptan más entregas';
+$string['nomoresubmissionsaccepted'] = 'Permitido solo para miembros que han recibido una extensión';
 $string['none'] = 'Ninguna';
 $string['noonlinesubmissions'] = 'Esta tarea no requiere que usted envíe nada de forma online';
 $string['noopen'] = 'Sin fecha de apertura';
@@ -379,8 +408,29 @@ $string['preventsubmissions'] = 'Evita que los usuarios realicen más entregas e
 $string['preventsubmissionsshort'] = 'Evitar cambios en la entrega';
 $string['previous'] = 'Anterior';
 $string['privacy:attemptpath'] = 'intento {$a}';
+$string['privacy:blindmarkingidentifier'] = 'El identificador usado para calificar a ciegas';
 $string['privacy:gradepath'] = 'calificación';
+$string['privacy:metadata:assigndownloadasfolders'] = 'Una preferencia del usuario, para que los envíos múltiples sean descargados a carpetas o no';
+$string['privacy:metadata:assignfeedbackpluginsummary'] = 'Datos de realimentación para la Tarea';
+$string['privacy:metadata:assignfilter'] = 'Opciones de filtro como por ejemplo \'Enviado\', No enviado\', \'Necesita calificarse\' y \'Extensión otorgada\'';
+$string['privacy:metadata:assigngrades'] = 'Almacena calificaciones de usuarios para la tarea';
+$string['privacy:metadata:assignmarkerfilter'] = 'Filtrar el resumen de tarea  por el evaluador asignado.';
+$string['privacy:metadata:assignmentid'] = 'ID de la tarea';
+$string['privacy:metadata:assignmessageexplanation'] = 'Los mensajes son enviados a estudiantes mediante el sistema de mensajería.';
+$string['privacy:metadata:assignoverrides'] = 'Almacena información de anulación para la tarea';
+$string['privacy:metadata:assignperpage'] = 'Número de tareas a mostrar por página.';
+$string['privacy:metadata:assignquickgrading'] = 'Una preferencia sobre si se usa o no la calificación rápida.';
+$string['privacy:metadata:assignsubmissiondetail'] = 'Almacena información de envío del usuario';
+$string['privacy:metadata:assignsubmissionpluginsummary'] = 'Datos del envío para la tarea.';
+$string['privacy:metadata:assignuserflags'] = 'Almacena meta datos del usuario como por ejemplo fechas de extensión';
+$string['privacy:metadata:assignusermapping'] = 'El mapeo para calificación a ciegas';
+$string['privacy:metadata:assignworkflowfilter'] = 'Filtrar por las diferentes etapas del flujograma.';
+$string['privacy:metadata:grade'] = 'La calificación numérica para este envío de tarea. Puede estar determinada por Escalas/Métodos avanzados para calificar, etc, pero siempre se convertirá de vuelta a un número de punto flotante.';
+$string['privacy:metadata:grader'] = 'La ID del usuario del evaluador.';
 $string['privacy:metadata:groupid'] = 'Identificador del grupo al que pertenece el usuario.';
+$string['privacy:metadata:latest'] = 'Simplifica enormemente las consultas que esperan saber información acerca de solamente los últimos intentos.';
+$string['privacy:metadata:mailed'] = '¿Ya se le ha enviado correo a este usuario?';
+$string['privacy:metadata:timecreated'] = 'Hora de creación';
 $string['privacy:metadata:userid'] = 'Identificador del usuario.';
 $string['privacy:studentpath'] = 'studentsubmissions';
 $string['privacy:submissionpath'] = 'envío';
@@ -389,8 +439,15 @@ $string['quickgradingchangessaved'] = 'Se guardaron los cambios de las calificac
 $string['quickgrading_help'] = 'Calificación rápida le permite asignar calificaciones (y resultados) directamente en la tabla de entregas. Calificación rápida no es compatible con la calificación avanzada y no se recomienda cuando hay múltiples marcadores.';
 $string['quickgradingresult'] = 'Calificación rápida';
 $string['recordid'] = 'Identificador';
+$string['relativedatessubmissionduedateafter'] = '{$a->datediffstr} después del inicio del curso';
+$string['relativedatessubmissionduedatebefore'] = '{$a->datediffstr} antes del inicio del curso';
+$string['relativedatessubmissiontimeleft'] = 'Calculado para cada estudiante';
 $string['removeallgroupoverrides'] = 'Eliminar todas las excepciones de grupo';
 $string['removealluseroverrides'] = 'Eliminar todas las excepciones de usuario';
+$string['removesubmission'] = 'Borrar entrega';
+$string['removesubmissionconfirm'] = '¿Está seguro de que quiere borrar la información de la entrega?';
+$string['removesubmissionconfirmforstudent'] = '¿Está seguro de que quiere borrar la información de la entrega de estudiante {$a}?';
+$string['removesubmissionforstudent'] = 'Borrar entrega para el estudiante: (id={$a->id}, fullname={$a->fullname}).';
 $string['reopenuntilpassincompatiblewithblindmarking'] = 'La reapertura automática hasta aprobar es incompatible con la ocultación de identidad al calificar, ya que las calificaciones no son publicadas en el libro de calificaciones hasta que se revelen las identidades de los estudiantes.';
 $string['requireallteammemberssubmit'] = 'Se requiere que todos los miembros del grupo entreguen';
 $string['requireallteammemberssubmit_help'] = 'Si está activado, todos los miembros del equipo de estudiantes deben entregar la tarea para que la presentación de la misma se considere como realizada. Si está desactivado, la presentación de la tarea se considerará como entregada para todos los miembros del equipo desde el momento en que cualquiera de sus integrantes lo haga.';
@@ -472,7 +529,6 @@ $string['submissionreceipttext'] = 'Usted ha realizado una entrega en la tarea {
 Puede ver el estado de su entrega en
 
 {$a->url}';
-$string['submissions'] = 'Entregas';
 $string['submissionsclosed'] = 'Entrega cerrada';
 $string['submissionsettings'] = 'Configuración de entrega';
 $string['submissionslocked'] = 'Esta tarea no acepta entregas';
@@ -481,7 +537,13 @@ $string['submissionsnotgraded'] = 'Entregas no calificadas: {$a}';
 $string['submissionstatement'] = 'Declaración de entrega';
 $string['submissionstatementacceptedlog'] = 'Declaración de entrega aceptado por el usuario {$a}';
 $string['submissionstatementdefault'] = 'Confirmo que este trabajo es de elaboración propia, excepto aquellas partes en las que haya reconocido la autoría de la obra o parte de ella a otras personas.';
-$string['submissionstatement_help'] = 'Envío de tarea en estado \'confirmado\'.';
+$string['submissionstatement_help'] = 'Condiciones que cada estudiante debe aceptar para enviar su trabajo.';
+$string['submissionstatementteamsubmission'] = 'Condiciones de entrega de grupo';
+$string['submissionstatementteamsubmissionallsubmit'] = 'Condiciones de entrega de grupo cuando envían todos los miembros del grupo';
+$string['submissionstatementteamsubmissionallsubmitdefault'] = 'Confirmo que este trabajo es de elaboración propia como miembro del grupo, excepto aquellas partes en las que haya reconocido la autoría de la obra o parte de ella a otras personas.';
+$string['submissionstatementteamsubmissionallsubmit_help'] = 'Condiciones que cada estudiante debe aceptar para enviar su trabajo como miembro del grupo.';
+$string['submissionstatementteamsubmissiondefault'] = 'Confirmo que este envío es trabajo de mi grupo, excepto aquellas partes en las que se haya reconocido la autoría de la obra o parte de ella a otras personas.';
+$string['submissionstatementteamsubmission_help'] = 'Condiciones que cada estudiante debe aceptar para enviar el trabajo de su grupo.';
 $string['submissionstatus'] = 'Estado de la entrega';
 $string['submissionstatus_'] = 'Sin entrega';
 $string['submissionstatus_draft'] = 'Borrador (no enviado)';
@@ -516,6 +578,7 @@ $string['timeremaining'] = 'Tiempo restante';
 $string['timeremainingcolon'] = 'Tiempo restante: {$a}';
 $string['togglezoom'] = 'Ampliar/reducir la región';
 $string['ungroupedusers'] = 'Si se activa la configuración "se requiere formar parte de un grupo para realizar la entrega" se evitará que los usuarios no asignados a los grupos realicen entregas.';
+$string['ungroupedusersoptional'] = 'La opción \'Entregar en grupo\' está habilitada y algunos usuarios o no son miembros de ningún grupo o son miembros de más de un grupo. Por favor tener en cuenta que en estos casos los estudiantes entregaran sus trabajos como "Grupo Predeterminado".';
 $string['unlimitedattempts'] = 'Ilimitado';
 $string['unlimitedattemptsallowed'] = 'Se permiten intentos ilimitados';
 $string['unlimitedpages'] = 'Ilimitado';
@@ -532,6 +595,7 @@ $string['useridlistnotcached'] = 'Los cambios de nota NO fueron guardados, pues 
 $string['useroverrides'] = 'Excepciones de usuario';
 $string['useroverridesdeleted'] = 'Excepciones de usuario eliminadas';
 $string['usersnone'] = 'Ningún estudiante tiene acceso a esta tarea.';
+$string['usersubmissioncannotberemoved'] = 'La entrega de {$a} no puede ser eliminada.';
 $string['userswhoneedtosubmit'] = 'Componentes del equipo pendientes de entrega: {$a}';
 $string['validmarkingworkflowstates'] = 'Estados válidos del workflow (flujo de trabajo) de calificaciones';
 $string['viewadifferentattempt'] = 'Ver un intento diferente';

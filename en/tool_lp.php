@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_lp', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -107,6 +107,7 @@ $string['editthisplan'] = 'Edit this learning plan';
 $string['editthisuserevidence'] = 'Edit this evidence';
 $string['edituserevidence'] = 'Edit evidence';
 $string['evidence'] = 'Evidence';
+$string['filterbyactivity'] = 'Filter competencies by resource or activity';
 $string['findcourses'] = 'Find courses';
 $string['frameworkcannotbedeleted'] = 'The competency framework \'{$a}\' cannot be deleted';
 $string['hidden'] = 'Hidden';
@@ -145,9 +146,11 @@ $string['myplans'] = 'My learning plans';
 $string['nfiles'] = '{$a} file(s)';
 $string['noactivities'] = 'No activities';
 $string['nocompetencies'] = 'No competencies have been created in this framework.';
+$string['nocompetenciesinactivity'] = 'No competencies have been linked to this activity or resource.';
 $string['nocompetenciesincourse'] = 'No competencies have been linked to this course.';
 $string['nocompetenciesinevidence'] = 'No competencies have been linked to this evidence.';
 $string['nocompetenciesinlearningplan'] = 'No competencies have been linked to this learning plan.';
+$string['nocompetenciesinlist'] = 'No competencies have been selected.';
 $string['nocompetenciesintemplate'] = 'No competencies have been linked to this learning plan template.';
 $string['nocompetencyframeworks'] = 'No competency frameworks have been created yet.';
 $string['nocompetencyselected'] = 'No competency selected';

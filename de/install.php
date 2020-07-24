@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'install', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,7 +42,7 @@ $string['clialreadyconfigured'] = 'Die Datei config.php existiert bereits. Bitte
 $string['clialreadyinstalled'] = 'Die Datei config.php existiert bereits. Bitte benutzen Sie admin/cli/install_database.php, wenn Sie diese Site aktualisieren möchten.';
 $string['cliinstallfinished'] = 'Die Installation wurde erfolgreich abgeschlossen';
 $string['cliinstallheader'] = 'Installation von Moodle {$a} über die Befehlszeile';
-$string['climustagreelicense'] = 'Im nicht-interaktiven Modus müssen Sie der Lizenz über die Option --agree-license zustimmen';
+$string['climustagreelicense'] = 'Im nicht-interaktiven Modus müssen Sie der Lizenz über die Option --agree-license zustimmen.';
 $string['cliskipdatabase'] = 'Datenbankinstallation überspringen.';
 $string['clitablesexist'] = 'Die Datenbank-Tabellen existieren bereits. Die CLI Installation kann nicht fortgesetzt werden.';
 $string['compatibilitysettings'] = 'PHP-Einstellungen werden geprüft...';
@@ -119,7 +119,7 @@ $string['invaliddbprefix'] = 'Ungültiges Präfix. Das Präfix kann nur aus Klei
 $string['langdownloaderror'] = 'Das Sprachpaket \'{$a}\' konnte nicht heruntergeladen werden. Die Installation wird in englischer Sprache fortgesetzt.';
 $string['langdownloadok'] = 'Das Sprachpaket \'{$a}\' wurde installiert. Der weitere Installationsprozess erfolgt nun in dieser Sprache.';
 $string['memorylimit'] = 'Memory Limit';
-$string['memorylimiterror'] = 'Die PHP-Speichereinstellung memory_limit ist ziemlich niedrig .... dies könnte später zu Problemen führen.';
+$string['memorylimiterror'] = 'Die PHP-Speichereinstellung memory_limit ist ziemlich niedrig ... dies könnte später zu Problemen führen.';
 $string['memorylimithelp'] = '<p>Die PHP-Einstellung memory_limit Ihres Servers ist zur Zeit auf {$a} eingestellt. </p>
 <p>Wenn Sie Moodle mit vielen Aktivitäten oder vielen Nutzer/innen verwenden, wird dies vermutlich zu Problemen führen.</p>
 <p>Wir empfehlen die Einstellung wenn möglich zu erhöhen, z.B. auf 40M oder mehr. Dies können Sie auf verschiedene Arten machen:</p>
@@ -178,15 +178,14 @@ $string['safemodehelp'] = '<p>Moodle kann beim Betrieb im Safe Mode verschiedene
 $string['sessionautostart'] = 'Session Auto Start';
 $string['sessionautostarterror'] = 'Diese Option sollte ausgeschaltet sein';
 $string['sessionautostarthelp'] = '<p>Moodle benötigt den Session Support und kann ohne diese Einstellung nicht arbeiten.</p>
-<p>Sessions sind durch Einstellungen in der Datei php.ini möglich. Bitte suchen Sie nach der Einstellung für session.auto_start </p>';
+<p>Sessions sind durch Einstellungen in der Datei php.ini möglich. Bitte suchen Sie nach der Einstellung für session.auto_start.</p>';
 $string['sqliteextensionisnotpresentinphp'] = 'PHP ist für die PHP-Extension SQLite nicht richtig konfiguriert. Prüfen Sie die Datei php.ini oder übersetzen Sie PHP neu.';
 $string['upgradingqtypeplugin'] = 'Plugin für Frage/Typ aktualisieren';
 $string['welcomep10'] = '{$a->installername} ({$a->installerversion})';
 $string['welcomep20'] = 'Sie haben das Paket <strong>{$a->packname} {$a->packversion}</strong> erfolgreich auf Ihrem Computer installiert.';
 $string['welcomep30'] = 'Diese Version von <strong>{$a->installername}</strong> enthält folgende Anwendungen, mit denen Sie <strong>Moodle</strong> ausführen können:';
 $string['welcomep40'] = 'Das Paket enthält: <strong>Moodle {$a->moodlerelease} ({$a->moodleversion})</strong>.';
-$string['welcomep50'] = 'Die Nutzung dieser Anwendungen ist lizenzrechtlich geprüft. Alle Anwendungen von <strong>{$a->installername}</strong> sind
-<a href="http://www.opensource.org/docs/definition_plain.html"> Open Source </a> und unterliegen der <a href="http://www.gnu.org/copyleft/gpl.html"> GPL</a> Lizenz.';
+$string['welcomep50'] = 'Die Verwendung aller Anwendungen in diesem Paket unterliegt den jeweiligen Lizenzen. Das vollständige Paket <strong>{$a->installername}</strong> ist <a href="https://www.opensource.org/docs/definition_plain.html">Open Source</a> und wird unter mit der Lizenz <a href="https://www.gnu.org/copyleft/gpl.html">GPL</a> angeboten.';
 $string['welcomep60'] = 'Die folgenden Webseiten führen Sie in einfachen Schritten durch die Installation von <strong>Moodle</strong> auf Ihrem Computer. Sie können die vorgeschlagenen Einstellungen übernehmen oder an eigene Bedürfnisse anpassen.';
 $string['welcomep70'] = 'Klicken Sie auf die Taste \'Weiter\', um mit der Installation von Moodle fortzufahren.';
 $string['wwwroot'] = 'Webadresse';

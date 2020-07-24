@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'label', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,8 +34,12 @@ $string['dndresizewidth'] = 'Egokitu hartu eta eraman zabaleran';
 $string['dnduploadlabel'] = 'Gehitu media ikastaroaren orrira';
 $string['dnduploadlabeltext'] = 'Gehitu etiketa ikastaroaren orrira';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa etiketetan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa etiketetan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek Etiketa baliabideak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Etiketa motako baliabideetan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala etiketetan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala etiketetan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek Etiketa baliabideak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Parte-hartzerik ez, bakarkako parte-hartzea)';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Etiketa motako baliabideetan lortutako zabalera sozialean oinarrituta dago.';
 $string['label:addinstance'] = 'Gehitu etiketa berria';
 $string['labeltext'] = 'Etiketaren testua';

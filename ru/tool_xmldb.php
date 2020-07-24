@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_xmldb', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -172,6 +172,9 @@ $string['numberincorrectwholepart'] = 'Слишком большая целая 
 $string['pendingchanges'] = 'Примечание: Вы внесли изменения в этот файл. Они могут быть сохранены в любой момент.';
 $string['pendingchangescannotbesaved'] = 'Изменения в этом файле не могут быть сохранены! Пожалуйста, убедитесь, что файл «install.xml» и его родительский каталог имеют разрешение на запись для веб-сервера.';
 $string['pendingchangescannotbesavedreload'] = 'Изменения в этом файле не могут быть сохранены! Пожалуйста, убедитесь, что файл «install.xml» и его родительский каталог имеют разрешение на запись для веб-сервер. После обновления страницы у Вас должна быть возможность сохранить эти изменения.';
+$string['persistentfieldscomplete'] = 'Были добавлены следующие поля:';
+$string['persistentfieldsconfirm'] = 'Вы хотите добавить следующие поля:';
+$string['persistentfieldsexist'] = 'Следующие поля уже имеются:';
 $string['pluginname'] = 'Редактор XMLDB';
 $string['primarykeyonlyallownotnullfields'] = 'Первичный ключ не может быть нулем';
 $string['reserved'] = 'Зарезервировано';

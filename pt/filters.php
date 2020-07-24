@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filters', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'filters', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   filters
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,7 +53,7 @@ $string['endswith'] = 'termina em';
 $string['filterallwarning'] = 'Aplicar filtros aos cabeçalhos e ao conteúdo pode aumentar significativamente a carga no servidor. Pondere a necessidade da sua utilização. A maior ocupação é do filtro multilingue.';
 $string['filtersettings'] = 'Configuração do filtro';
 $string['filtersettingsforin'] = 'Definições do filtro {$a->filter} em {$a->context}';
-$string['filtersettings_help'] = 'Nesta página pode ativar ou desativar os filtros numa área específica do site. Alguns filtros permitem definições locais, e nesses casos, existirá uma hiperligação ao lado do nome do filtro.';
+$string['filtersettings_help'] = 'Nesta página pode ativar ou desativar os filtros numa área específica do site. Alguns filtros permitem configurações locais, e nesses casos, existirá uma hiperligação ao lado do nome do filtro.';
 $string['filtersettingsin'] = 'Definições de filtros no contexto: {$a}';
 $string['firstaccess'] = 'Primeiro acesso';
 $string['globalrolelabel'] = '{$a->label} é {$a->value}';
@@ -83,7 +83,7 @@ $string['removeall'] = 'Remover todos os filtros';
 $string['removeselected'] = 'Remover os selecionados';
 $string['selectlabel'] = '{$a->label} {$a->operator} {$a->value}';
 $string['startswith'] = 'começa com';
-$string['tablenosave'] = 'As alterações na tabela acima são gravadas automaticamente.';
+$string['tablenosave'] = 'As alterações na tabela acima são guardadas automaticamente.';
 $string['textlabel'] = '{$a->label} {$a->operator} {$a->value}';
 $string['textlabelnovalue'] = '{$a->label} {$a->operator}';
 $string['valuefor'] = 'valor de {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myoverview', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_myoverview', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   block_myoverview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,12 +26,13 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addtofavourites'] = 'Markera kursen som favorit';
-$string['all'] = 'Alla';
-$string['aria:allcourses'] = 'Alla kurser';
+$string['all'] = 'Alla (förutom dolda)';
+$string['allincludinghidden'] = 'Alla';
+$string['aria:allcoursesincludinghidden'] = 'Alla kurser';
 $string['aria:card'] = 'Visa som kort';
 $string['aria:coursesummary'] = 'Text för kurssammanfattning:';
 $string['aria:displaydropdown'] = 'Visa rullgardinsmeny';
-$string['aria:favourites'] = 'Visa favoriter';
+$string['aria:favourites'] = 'Visa favoritmärkta kurser';
 $string['aria:future'] = 'Visa kommande kurser';
 $string['aria:hiddencourses'] = 'Visa dolda kurser';
 $string['aria:hidecourse'] = 'Dölj denna kurs {$a}';
@@ -45,6 +46,7 @@ $string['aria:title'] = 'Sortera efter kursnamn';
 $string['card'] = 'Kort';
 $string['cards'] = 'Kort';
 $string['complete'] = 'Färdig';
+$string['completepercent'] = '{$a}% slutförd';
 $string['defaulttab'] = 'Standardflik';
 $string['defaulttab_desc'] = 'Denn flik kommer att visas vid användarens första besök på Kursöversikten. När hen återkommer till Kursöversikten öppnas alltid den senast aktiva fliken.';
 $string['favourites'] = 'Favoriter';
@@ -56,7 +58,6 @@ $string['inprogress'] = 'Pågående';
 $string['lastaccessed'] = 'Senast besökta';
 $string['list'] = 'Lista';
 $string['morecourses'] = 'Fler kurser';
-$string['myoverview:addinstance'] = 'Lägg till nytt block Kursöversikt';
 $string['myoverview:myaddinstance'] = 'Lägg till nytt block Kursöversikt på Mitt Moodle';
 $string['next30days'] = 'Kommande 30 dagar';
 $string['next7days'] = 'Kommande 7 dagar';

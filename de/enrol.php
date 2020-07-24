@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['addinstance'] = 'Methode hinzufügen';
 $string['addinstanceanother'] = 'Neue Methode hinzufügen und weitere anlegen';
 $string['ajaxnext25'] = 'Weitere 25...';
 $string['ajaxoneuserfound'] = '1 Person gefunden';
+$string['ajaxxmoreusersfound'] = 'Mehr als {$a} Nutzer/innen gefunden';
 $string['ajaxxusersfound'] = '{$a} Personen gefunden';
 $string['assignnotpermitted'] = 'Sie haben nicht das Recht, in diesem Kurs Rollen zuzuweisen.';
 $string['bulkuseroperation'] = 'Nutzerverarbeitung (Bulk)';
@@ -100,6 +101,7 @@ $string['foundxcohorts'] = 'Globale Gruppen gefunden {$a}';
 $string['instanceadded'] = 'Methode hinzugefügt';
 $string['instanceeditselfwarning'] = 'Warnung:';
 $string['instanceeditselfwarningtext'] = 'Sie sind über diese Einschreibemethode in den Kurs eingeschrieben. Änderungen könnten sich auf Ihren Zugriff zum Kurs auswirken.';
+$string['invalidenrolduration'] = 'Ungültige Einschreibedauer';
 $string['invalidenrolinstance'] = 'Falsche Einschreibung';
 $string['invalidrequest'] = 'Ungültige Anfrage';
 $string['invalidrole'] = 'Falsche Rolle';
@@ -147,6 +149,7 @@ $string['testsettings'] = 'Einstellungen prüfen';
 $string['testsettingsheading'] = 'Einschreibeeinstellungen prüfen - {$a}';
 $string['totalenrolledusers'] = '{$a} eingeschriebene Nutzer/innen';
 $string['totalotherusers'] = '{$a} weitere Nutzer/innen';
+$string['totalunenrolledusers'] = '{$a} ausgeschriebene Nutzer/innen';
 $string['unassignnotpermitted'] = 'Sie haben nicht das Recht, in diesem Kurs Rollenzuweisungen zu ändern.';
 $string['unenrol'] = 'Ausschreiben';
 $string['unenrolconfirm'] = 'Möchten Sie wirklich "{$a->user}" (eingeschrieben über "{$a->enrolinstancename}") aus dem Kurs "{$a->course}" ausschreiben?';
@@ -159,3 +162,5 @@ $string['unlimitedduration'] = 'Unbegrenzt';
 $string['userremovedfromselectiona'] = 'Nutzer/in \'{$a}\' wurde aus der Auswahl entfernt.';
 $string['usersearch'] = 'Suchen';
 $string['withselectedusers'] = 'Mit ausgewählten Nutzer/innen';
+$string['youenrolledincourse'] = 'Sie sind in den Kurs eingeschrieben';
+$string['youunenrolledfromcourse'] = 'Sie wurden aus dem Kurs "{$a}" ausgeschrieben';

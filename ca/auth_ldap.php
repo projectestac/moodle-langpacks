@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,6 @@ $string['auth_ldap_contexts_key'] = 'Contextos';
 $string['auth_ldap_create_context'] = 'Si activeu la creació d\'usuaris mitjançant confirmació per correu electrònic, especifiqueu en quin context s\'han de crear els usuaris. Aquest context ha de ser diferent del d\'altres usuaris per tal de prevenir problemes de seguretat. No cal afegir aquest context a ldap_context-variable. Moodle cercarà els usuaris en aquest context automàticament.';
 $string['auth_ldap_create_context_key'] = 'Context per a nous usuaris';
 $string['auth_ldap_create_error'] = 'S\'ha produït un error en crear l\'usuari mitjançant LDAP.';
-$string['auth_ldap_creators'] = 'Llista de grups als membres dels quals els és permès  crear nous cursos. Separeu els grups amb \';\'. Generalment una cosa semblant a \'cn=teachers,ou=staff,o=myorg\'';
-$string['auth_ldap_creators_key'] = 'Creadors';
 $string['auth_ldapdescription'] = 'Aquest mètode proporciona autenticació contra un servidor LDAP extern.
 
 Si un nom d\'usuari i una contrasenya són vàlids, Moodle crea una entrada per a un usuari nou a la seva base de dades. Aquest mòdul pot llegir atributs de l\'usuari del LDAP i omplir els camps corresponents de Moodle. En els inicis de sessió successius només es comproven el nom d\'usuari i la contrasenya.';

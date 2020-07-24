@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,15 +86,13 @@ $string['emailnowexists'] = 'L\'adresse de courriel que vous tentez d\'utiliser 
 $string['emailupdate'] = 'Modification d\'adresse de courriel';
 $string['emailupdatemessage'] = 'Bonjour,
 
-Vous avez demandé la modification de votre adresse de courriel pour votre compte utilisateur sur {$a->site}. Veuillez visiter l\'URL ci-dessous afin de confirmer la modification.
+Vous avez demandé la modification de votre adresse de courriel pour votre compte sur {$a->site}. Veuillez visiter l\'URL ci-dessous afin de confirmer la modification :
 
-Pour toute question, veuillez vous adresser à {$a->supportemail}.
+{$a->url}
 
-{$a->url}';
+{$a->supportemail}';
 $string['emailupdatesuccess'] = 'L\'adresse de courriel de votre compte <em>{$a->fullname}</em> a été modifiée. L\'adresse est maintenant <em>{$a->email}</em>.';
 $string['emailupdatetitle'] = 'Confirmation de modification de courriel sur {$a->site}';
-$string['enterthenumbersyouhear'] = 'Tapez les chiffres que vous entendez';
-$string['enterthewordsabove'] = 'Tapez les mots ci-dessus';
 $string['errormaxconsecutiveidentchars'] = 'Les mots de passe doivent comporter au plus {$a} caractères identiques consécutifs.';
 $string['errorminpassworddigits'] = 'Les mots de passe doivent comporter au moins {$a} chiffre(s).';
 $string['errorminpasswordlength'] = 'Les mots de passe doivent comporter au moins {$a} caractères.';
@@ -111,9 +109,6 @@ $string['forcechangepasswordfirst_help'] = 'Impose aux utilisateurs de changer l
 $string['forcechangepassword_help'] = 'Impose aux utilisateurs de changer leur mot de passe lors de leur première connexion à Moodle.';
 $string['forgottenpassword'] = 'Si vous tapez une URL dans ce champ, elle sera utilisée comme page permettant de récupérer le mot de passe pour ce site. Ce réglage est prévu pour les sites où la gestion des mots de passe est entièrement effectuée en dehors de Moodle. Laissez ce champ vide pour utiliser le mécanisme de récupération de mot de passe de Moodle.';
 $string['forgottenpasswordurl'] = 'URL de récupération de mot de passe';
-$string['getanaudiocaptcha'] = 'Obtenir un CAPTCHA audio';
-$string['getanimagecaptcha'] = 'Obtenir un CAPTCHA visuel';
-$string['getanothercaptcha'] = 'Obtenir un nouveau CAPTCHA';
 $string['getrecaptchaapi'] = 'L\'utilisation de reCAPTCHA nécessite l\'obtention d\'une clef d\'API de <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Bouton de connexion anonyme';
 $string['incorrectpleasetryagain'] = 'Incorrect. Veuillez essayer à nouveau.';

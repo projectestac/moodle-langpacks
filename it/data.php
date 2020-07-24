@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'data', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -209,8 +209,12 @@ $string['includetags'] = 'Includi tag';
 $string['includetime'] = 'Includi data di inserimento/modifica';
 $string['includeuserdetails'] = 'Includi dettagli utente';
 $string['indicator:cognitivedepth'] = 'Database cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Database cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalle attività Database (Livelli: Nessuna visualizzazione, Visualizzazione, Invio)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività Database.';
 $string['indicator:socialbreadth'] = 'Database sociale';
+$string['indicator:socialbreadthdef'] = 'Database sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dall\'attività Database (Livelli: Nessuna partecipazione, Partecipazione da solo)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività Database.';
 $string['insufficiententries'] = 'è necessario inserire un maggior numero di record prima di poter visualizzare questo Database';
 $string['intro'] = 'Descrizione';
@@ -366,6 +370,7 @@ $string['subplugintype_datafield'] = 'Tipo di campo database';
 $string['subplugintype_datafield_plural'] = 'Tipi di campi database';
 $string['subplugintype_datapreset'] = 'Preimpostazione';
 $string['subplugintype_datapreset_plural'] = 'Preimpostazioni';
+$string['tagarea_data_records'] = 'Record';
 $string['tags'] = 'Tag';
 $string['tagsdeleted'] = 'I tag database sono stati eliminati';
 $string['teachersandstudents'] = '{$a->teachers} e {$a->students}';

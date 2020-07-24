@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignsubmission_file', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,8 +36,6 @@ $string['enabled'] = 'Entregas de ficheiros';
 $string['enabled_help'] = 'Se está activado, os alumnos serán quen de enviar un ou máis ficheiros como entrega.';
 $string['eventassessableuploaded'] = 'Foi enviado un ficheiro.';
 $string['file'] = 'Entregas de ficheiros';
-$string['filesofthesetypes'] = 'Os ficheiros destes tipos poden engadirse á entrega:';
-$string['filetypewithexts'] = '{$a->name} &mdash; {$a->extlist}';
 $string['maxbytes'] = 'Tamaño máximo do ficheiro';
 $string['maxfiles'] = 'Número máximo de ficheiros por entrega';
 $string['maxfiles_help'] = 'Se está activada a entrega de ficheiros, cada tarefa pode configurarse para que acepte ata este número de ficheiros para a súa entrega.';
@@ -45,7 +43,6 @@ $string['maxfilessubmission'] = 'Número máximo de ficheiros enviados';
 $string['maxfilessubmission_help'] = 'Se está activada a entrega de ficheiros, cada alumno será quen de enviar ata este número de ficheiros para a súa entrega.';
 $string['maximumsubmissionsize'] = 'Tamaño máximo da entrega';
 $string['maximumsubmissionsize_help'] = 'Os ficheiros enviados polos alumnos poden ter ata este tamaño.';
-$string['nonexistentfiletypes'] = 'Non se recoñeceron os seguintes tipos de ficheiro: {$a}';
 $string['numfilesforlog'] = 'O número de ficheiro(s) : {$a} ficheiro(s).';
 $string['pluginname'] = 'Entregas de ficheiros';
 $string['privacy:metadata:filepurpose'] = 'Os ficheiros cargados para esta entrega de tarefas';

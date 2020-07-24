@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_courseoverview', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_courseoverview', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   report_courseoverview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['courseoverview:view'] = 'Ver relatório resumo da disciplina';
 $string['pluginname'] = 'Resumo da disciplina';
-$string['privacy:metadata'] = 'O módulo Sumário da disciplina não armazena dados pessoais.';
+$string['privacy:metadata'] = 'O módulo Minhas disciplinas não armazena dados pessoais.';

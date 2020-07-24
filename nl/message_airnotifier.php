@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_airnotifier', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message_airnotifier', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   message_airnotifier
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,19 +31,21 @@ $string['airnotifier:managedevice'] = 'Beheer apparaten';
 $string['airnotifiermobileappname'] = 'Naam mobiele app';
 $string['airnotifierport'] = 'Airnotifier poort';
 $string['airnotifierurl'] = 'Airnotifier URL';
-$string['configairnotifieraccesskey'] = 'De toegangssleutel nodig om te verbinden met de Airnotifier server.';
+$string['configairnotifieraccesskey'] = 'De toegangssleutel nodig om te verbinden met de Airnotifier server. Je kunt een sleutel bekomen door te klikken op de "Toeganssleutel aanvragen"-link onderaan (enkel geregistreerde sites) of door het maken van een account op de <a href="https://apps.moodle.com">Moodle Apps Portal</a>.';
 $string['configairnotifierappname'] = 'De app name identifier in Airnotifier';
 $string['configairnotifiermobileappname'] = 'De unieke identificatie (gewoonlijk iets als com.moodle.moodlemobile) voor de mobiele app';
 $string['configairnotifierport'] = 'De te gebruiken poort om te verbinden met de Airnotifier-server';
-$string['configairnotifierurl'] = 'De server url om mee te verbinden om push-meldingen te versturen.';
+$string['configairnotifierurl'] = 'De server-URL om mee te verbinden voor het versturen van push-meldingen.';
 $string['deletecheckdevicename'] = 'Verwijder je toestel: {$a->name}';
 $string['deletedevice'] = 'Verwijder het apparaat. Merk op dat een app het apparaat opnieuw kan registreren. Als het apparaat blijft verschijnen, schakel het dan uit.';
 $string['devicetoken'] = 'Apparaatstoken';
-$string['errorretrievingkey'] = 'Er is een fout opgetreden bij het ontvangen van de sleutel. Jouw Moodle-site moet geregistreerd zijn om deze service te kunnen gebruiken. Als je site al geregistreerd is, probeer deze registratie dan te updaten.';
-$string['keyretrievedsuccessfully'] = 'Sleutel ontvangen';
+$string['errorretrievingkey'] = 'Er is een fout opgetreden bij het ontvangen van de sleutel. Jouw Moodle-site moet geregistreerd zijn om deze service te kunnen gebruiken. Als je site al geregistreerd is, probeer deze registratie dan te updaten.
+Je kunt ook een toegangssleutel bekomen door een account te maken op de <a href="https://apps.moodle.com">Moodle Apps Portal</a>.';
+$string['keyretrievedsuccessfully'] = 'Het ontvangen van de toegangssleutel is gelukt. Om toegang te krijgen tot de Moodle app statistieken moet je een account maken op de <a href="https://apps.moodle.com">Moodle Apps Portal</a>.';
+$string['moodleappsportallimitswarning'] = 'Merk op dat het toegestane aantal toestellen waarmee berichten kunnen ontvangen worden afhangt van je Moodle App abonnement. Bezoek voor meer details de <a href="{$a}" target="_blank">Moodle Apps Portal</a>';
 $string['nodevices'] = 'Geen geregistreerde apparaten. Apparaten zullen automatisch verschijnen nadat de Moodle Mobile app geïnstalleerd hebt en je deze site toegevoegd hebt.';
 $string['nopermissiontomanagedevices'] = 'Je hebt het recht niet om apparaten te beheren.';
-$string['notconfigured'] = 'De Airnotifier server is nog niet geconfigureerd, dus berichten voor Airnotifier kunnen niet verstuurd worden.';
+$string['notconfigured'] = 'De Airnotifier server is nog niet geconfigureerd, dus push-berichten kunnen niet verstuurd worden.';
 $string['pluginname'] = 'Mobiel';
 $string['privacy:appiddescription'] = 'Dit is een identificatie voor de gebruikte applicatie.';
 $string['privacy:enableddescription'] = 'Of dit toestel ingeschakeld is voor airnotifier.';
@@ -64,5 +66,5 @@ $string['privacy:metadata:usersubsystem'] = 'Deze plugin is verbonden met het ge
 $string['privacy:subcontext'] = 'Berichten Airnotifier';
 $string['requestaccesskey'] = 'Toegangssleutel vragen';
 $string['showhide'] = 'Apparaat inschakelen/uitschakelen.';
-$string['sitemustberegistered'] = 'Om de publieke Airnotifier te kunnen gebruiken, moet je je site registreren bij Moodle.';
+$string['sitemustberegistered'] = 'Om de publieke Airnotifier te kunnen gebruiken, moet je je site registreren bij Moodle. Je kunt ook een sleutel bekomen door een account te maken op de <a href="https://apps.moodle.com">Moodle Apps Portal</a>.';
 $string['unknowndevice'] = 'Onbekend apparaat';

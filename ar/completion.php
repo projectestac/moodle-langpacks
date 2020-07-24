@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -105,8 +105,6 @@ $string['completionondate'] = 'التاريخ';
 $string['completionondatevalue'] = 'التاريخ الذي سيتم فيه تحديد المادة على أنها كاملة';
 $string['completion-pass'] = 'اكتمل (حقق درجة النجاح)';
 $string['completionsettingslocked'] = 'إعدادات الإكمال مقفلة';
-$string['completion-title-manual-n'] = 'علّمه بأنه مكتمل';
-$string['completion-title-manual-y'] = 'علّمه بأنه غير مكتمل';
 $string['completionupdated'] = 'اكتمال التحديث للنشاط <b>{$a}</b>';
 $string['completionusegrade'] = 'الدرجة المطلوبة';
 $string['completionusegrade_desc'] = 'يجب أن يحصل الطالب على علامة لكي يستطيع إكمال هذا النشاط';

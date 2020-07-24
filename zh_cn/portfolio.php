@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'portfolio', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   portfolio
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,12 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activeexport'] = '解决活动的导出';
-$string['activeportfolios'] = '可选的云存储';
+$string['activeexport'] = '解决有效的导出';
+$string['activeportfolios'] = '可用的云存储';
 $string['addalltoportfolio'] = '全部导出到云存储';
 $string['addnewportfolio'] = '添加一个新的云存储';
 $string['addtoportfolio'] = '导出到云存储';
-$string['alreadyalt'] = '已经在导出——请点击此处解决传送';
+$string['alreadyalt'] = '已经导出-请点击此处解决此传输';
 $string['alreadyexporting'] = '您此次会话已经有一个活动的云存储导出。在继续之前，您必须完成此导出，或者放弃它。您要继续导出吗？（“否”会放弃它）';
 $string['availableformats'] = '可选的导出格式';
 $string['callbackclassinvalid'] = '给定的回调类无效，或它不是继承自portfolio_caller';
@@ -76,7 +76,7 @@ $string['fileoutputnotsupported'] = '此格式不支持重写文件输出';
 $string['format_document'] = '文档';
 $string['format_file'] = '文件';
 $string['format_image'] = '图片';
-$string['format_leap2a'] = 'Leap2A 公文包格式';
+$string['format_leap2a'] = 'Leap2A 云存储格式';
 $string['format_mbkp'] = 'Moodle备份格式';
 $string['format_pdf'] = 'PDF';
 $string['format_plainhtml'] = 'HTML';
@@ -167,8 +167,25 @@ $string['on'] = '启用且可见';
 $string['plugin'] = 'portfolio插件';
 $string['plugincouldnotpackage'] = '为导出而打包您的数据时出错：原始错误是{$a}';
 $string['pluginismisconfigured'] = '云存储插件配置错误，跳过。错误是：{$a}';
-$string['portfolio'] = '公文包';
+$string['portfolio'] = '云存储';
 $string['portfolios'] = '云存储';
+$string['privacy:metadata'] = '云存储子系统充当一个通道，将请求从插件传递到各种云存储插件。';
+$string['privacy:metadata:instance'] = '云存储标识符';
+$string['privacy:metadata:instancesummary'] = '存储关于云存储实例和首选项的数据。';
+$string['privacy:metadata:name'] = '首选项名称';
+$string['privacy:metadata:portfolio_log'] = '云存储传输日志(用于以后检查副本)';
+$string['privacy:metadata:portfolio_log:caller_class'] = '用于创建传输的类的名称';
+$string['privacy:metadata:portfolio_log:caller_component'] = '负责导出的组件名称';
+$string['privacy:metadata:portfolio_log:time'] = '传输时间（在排队传输的情况下，这是实际传输的时间，而不是用户启动传输的时间）';
+$string['privacy:metadata:portfolio_log:userid'] = '导出内容的用户的ID';
+$string['privacy:metadata:portfolio_tempdata'] = '云存储导出的临时数据。';
+$string['privacy:metadata:portfolio_tempdata:data'] = '导出数据';
+$string['privacy:metadata:portfolio_tempdata:expirytime'] = '此记录将过期的时间';
+$string['privacy:metadata:portfolio_tempdata:instance'] = '正在使用的云存储插件实例';
+$string['privacy:metadata:portfolio_tempdata:userid'] = '用户执行导出';
+$string['privacy:metadata:userid'] = '用户ID';
+$string['privacy:metadata:value'] = '首选项的值';
+$string['privacy:path'] = '云存储实例';
 $string['queuesummary'] = '当前传送队列';
 $string['returntowhereyouwere'] = '回到之前页面';
 $string['save'] = '保存';
@@ -178,7 +195,7 @@ $string['selectplugin'] = '选择目标';
 $string['showhide'] = '显示 / 隐藏';
 $string['singleinstancenomultiallowed'] = '只有一个可用的云存储插件实例，它不支持每次会话多次导出，并且已经有一个处于活动状态的导出正在该插件的会话中！';
 $string['somepluginsdisabled'] = '有些云存储插件已完全禁用，因为它们配置错误或依赖于别的什么：';
-$string['sure'] = '您确信要删除“{$a}”吗？此操作不可逆。';
+$string['sure'] = '您确定要删除“{$a}”吗?此操作无法撤消。';
 $string['thirdpartyexception'] = '云存储导出时抛出了一个第三方异常（{$a}）。已捕获并重新抛出，但这个一定要修复';
 $string['transfertime'] = '传送时间';
 $string['unknownplugin'] = '未知（可能管理员已删除）';

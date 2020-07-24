@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'survey', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -184,8 +184,14 @@ $string['howlong'] = 'Πόση ώρα σας πήρε για να συμπληρ
 $string['howlongoptions'] = 'Κάτω από 1 λεπτό, 1-2 λεπτά, 2-3 λεπτά, 3-4 λεπτά, 4-5-λεπτά, 5-10 λεπτά, περισσότερο από 10 λεπτά';
 $string['ifoundthat'] = 'Ανακάλυψα ότι';
 $string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Έρευνας';
+$string['indicator:cognitivedepthdef'] = 'Βάθος κατανόησης Έρευνας';
+$string['indicator:cognitivedepthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο βάθος κατανόησης που προσφέρεται από τις δραστηριότητες Έρευνας κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία εμφάνιση, Εμφάνιση, Υποβολή)';
+$string['indicator:cognitivedepthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Βάθος_κατανόησης';
 $string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Έρευνας.';
 $string['indicator:socialbreadth'] = 'Κοινωνικό εύρος Έρευνας';
+$string['indicator:socialbreadthdef'] = 'Κοινωνικό εύρος Έρευνας';
+$string['indicator:socialbreadthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο κοινωνικό εύρος που προσφέρεται από τις δραστηριότητες Έρευνας κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία συμμετοχή, Συμμετέχων μόνος)';
+$string['indicator:socialbreadthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Κοινωνικό_εύρος';
 $string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε μια δραστηριότητα Έρευνας.';
 $string['introtext'] = 'Κείμενο εισαγωγής';
 $string['invalidsurveyid'] = 'Εσφαλμένο id έρευνας';

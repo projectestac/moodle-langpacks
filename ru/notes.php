@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'notes', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,7 +45,6 @@ $string['eventnotecreated'] = 'Заметка создана';
 $string['eventnotedeleted'] = 'Заметка удалена';
 $string['eventnotesviewed'] = 'Заметки просмотрены';
 $string['eventnoteupdated'] = 'Заметка обновлена';
-$string['groupaddnewnote'] = 'Добавить общую заметку';
 $string['invalidid'] = 'Указан некорректный идентификатор заметки';
 $string['invaliduserid'] = 'Неверный идентификатор пользователя: {$a}';
 $string['myprofileownnotes'] = 'Мои заметки';
@@ -74,7 +73,6 @@ $string['publishstate_help'] = 'Контекст заметки определя
 * Персональная - заметка будет видна только Вам
 * Курс - заметка будет видна преподавателям этого курса
 * Сайт - заметка будет видна преподавателям всех курсов';
-$string['selectnotestate'] = 'Выберите контекст заметки';
 $string['site'] = 'сайт';
 $string['sitenotes'] = 'Заметки сайта';
 $string['unknown'] = 'неизвестный';

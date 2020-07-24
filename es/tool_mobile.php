@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_mobile', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_mobile', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_mobile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['adodbdebugwarning'] = 'Depuración ADOdb está habilitada. Debería de ser deshabilitada en la configuración del plugin de inscripción por base de datos externa o autenticación de base de datos externa.';
 $string['configmobilecssurl'] = 'Archivo CSS para personalizar su interfaz de aplicaciones móviles.';
 $string['customlangstrings'] = 'Cadenas personalizadas del idioma';
 $string['downloadcourse'] = 'Descargar curso';

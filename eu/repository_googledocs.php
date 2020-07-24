@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_googledocs', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_googledocs', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_googledocs
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['both'] = 'Barrukoa eta kanpokoa';
 $string['cachedef_folder'] = 'Sistemaren kontuan dauden karpetetako Google-ko fitxategien IDak';
-$string['clientid'] = 'Bezeroaren IDa';
 $string['configplugin'] = 'Konfiguratu Google Drive plugina';
 $string['defaultreturntype'] = 'Lehenetsitako itzulera-mota';
 $string['docsformat'] = 'Dokumentuen inportatze-formatu lehenetsia';
@@ -40,7 +39,6 @@ $string['internal'] = 'Barrukoa (fitxategiak Moodlen gordeko dira)';
 $string['issuer'] = 'OAuth 2 zerbitzua';
 $string['issuer_help'] = 'Aukeratu Google Drive API-arekin konektatzeko OAuth 2 zerbitzua. Zerbitzua oraindik existitzen ez bada sortu beharko duzu.';
 $string['oauth2serviceslink'] = '<a href="{$a}" title="OAuth 2 zerbitzuaren konfiguraziorako esteka">OAuth 2 zerbitzuaren konfigurazioa</a>';
-$string['oauthinfo'] = '<p>Plugin hau erabiltzeko zure gunea Google-n erregistratu behar duzu, <a href="{$a->docsurl}">Google OAuth 2.0 setup</a> dokumentazioan azaltzen den moduan.</p><p>Erregistro-prozesuan hurrengo URLa \'Authorized Redirect URIs\' gisa zehaztu beharko duzu:</p><p>{$a->callbackurl}</p><p>Behin erregistroa eginda, bezeroaren ID eta sekretu bat jasoko dituzu, eta horiek erabili ahalko dituzu Google Drive eta Picasa plugin zehatz batzuk konfiguratzeko.</p><p>Kontuan izan ere \'Drive API\' zerbitzua gaitu beharko duzula.</p>';
 $string['owner'] = 'Jabea: {$a}';
 $string['pluginname'] = 'Google Drive';
 $string['presentationformat'] = 'Aurkezpenen inportatze-formatu lehenetsia';
@@ -48,7 +46,6 @@ $string['privacy:metadata:repository_googledocs'] = 'Google Drive biltegi-plugin
 $string['privacy:metadata:repository_googledocs:email'] = 'Google Drive biltegiko erabiltzailearen helbide elektronikoa.';
 $string['privacy:metadata:repository_googledocs:searchtext'] = 'Google Drive biltegiko erabiltzailearen bilaketaren testua.';
 $string['searchfor'] = 'Bilatu {$a}';
-$string['secret'] = 'Sekretua';
 $string['servicenotenabled'] = 'Sarbidea ez dago konfiguratuta. Ziurtatu ezazu \'Drive API\' zerbitzua gaituta dagoela.';
 $string['spreadsheetformat'] = 'Kalkulu-orrien inportatze-formatu lehenetsia';
 $string['supportedreturntypes'] = 'Onartutako fitxategiak';

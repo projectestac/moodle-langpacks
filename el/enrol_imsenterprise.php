@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['categoryseparator'] = 'Χαρακτήρας ως διαχωριστικ
 $string['categoryseparator_desc'] = 'Απαιτείται όταν είναι ενεργοποιημένη η επιλογή «Αναγνωριστικός αριθμός κατηγορίας». Χαρακτήρας για τον διαχωρισμό του ονόματος και του αριθμού κατηγορίας.';
 $string['coursesettings'] = 'Επιλογές δεδομένων μαθήματος';
 $string['createnewcategories'] = 'Δημιουργία νέων (κρυμμένων) κατηγοριών μαθημάτων εάν δεν εντοπίζονται στο Moodle';
-$string['createnewcategories_desc'] = 'Εάν το στοιχείο <org><orgunit> υπάρχει στα εισαγόμενα δεδομένα κάποιου μαθήματος, το περιεχόμενό του θα χρησιμοποιηθεί για να δημιουργηθεί μια νέα κατηγορία μαθημάτων (εφόσον το μάθημα δημιουργηθεί από το μηδέν). Το άρθρωμα αυτό δε θα ξανά-κατηγοριοποιήσει ήδη υπάρχοντα μαθήματα.
+$string['createnewcategories_desc'] = 'Εάν το στοιχείο &lt;org&gt;&lt;orgunit&gt; υπάρχει στα εισαγόμενα δεδομένα κάποιου μαθήματος, το περιεχόμενό του θα χρησιμοποιηθεί για να δημιουργηθεί μια νέα κατηγορία μαθημάτων (εφόσον το μάθημα δημιουργηθεί από το μηδέν). Το άρθρωμα αυτό δε θα ξανά-κατηγοριοποιήσει ήδη υπάρχοντα μαθήματα.
 
 Εάν δεν υπάρχει καμία κατηγορία με το επιθυμητό όνομα, τότε θα δημιουργηθεί μια κρυμμένη κατηγορία.';
 $string['createnewcourses'] = 'Δημιουργία νέων (κρυμμένων) μαθημάτων εάν δεν εντοπίζονται στο Moodle';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_insights', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_insights', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   report_insights
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['calculatedvalue'] = 'Resultado obtido';
+$string['actionsaved'] = 'O seu feedback para \'{$a}\' foi guardado.';
+$string['confirmbulkaction'] = 'Tem a certeza de que pretende sinalizar as {$a->nitems} previsões selecionadas como "{$a->action}"?';
 $string['disabledmodel'] = 'Este modelo foi desativado pelo administrador';
-$string['indicator'] = 'Indicador';
+$string['indicators'] = 'Indicadores';
 $string['insight'] = 'Perceção';
-$string['insightprediction'] = 'Previsão para \'{$a}\'';
 $string['insights'] = 'Perceções';
 $string['justpredictions'] = 'Tenha em atenção que as perceções abaixo apresentadas são apenas previsões. Não é possível prever o futuro a 100%. As perceções são fornecidas para que possam ser tomadas ações conforme necessário para evitar que as previsões negativas se tornem realidade.';
 $string['nodetailsavailable'] = 'Nenhum detalhe de previsão é relevante.';
@@ -42,10 +42,10 @@ $string['outcomeverynegative'] = 'Competência muito negativa';
 $string['outcomeverypositive'] = 'Competência muito positiva';
 $string['pluginname'] = 'Perceções';
 $string['prediction'] = 'Previsão';
-$string['predictioncalculations'] = 'Cálculos dos indicadores';
 $string['predictiondetails'] = 'Detalhes da previsão';
 $string['privacy:metadata'] = 'O módulo Perceções não armazena dados pessoais.';
 $string['selectotherinsights'] = 'Selecione outras perceções...';
+$string['selectprediction'] = 'Selecionar {$a} para processar em massa';
 $string['timecreated'] = 'Data/hora';
-$string['timerange'] = 'Intervalo de tempo';
+$string['timerange'] = 'Intervalo de análise';
 $string['timerangewithdata'] = 'De {$a->timestart} até {$a->timeend}';

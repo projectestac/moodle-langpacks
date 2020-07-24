@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'debug', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,11 +34,13 @@ $string['cannotinitpage'] = 'ページを完全に初期化できません: 無�
 $string['cannotsetuptable'] = '{$a} テーブルを正常に設定できませんでした!';
 $string['codingerror'] = 'コーディングエラーが検出されました。プログラマによって修正される必要があります: {$a}';
 $string['configmoodle'] = 'まだMoodleは設定されていません。あなたは最初にconfig.phpを編集する必要があります。';
+$string['debuginfo'] = 'デバッグ情報';
 $string['erroroccur'] = 'この処理中にエラーが発生しました。';
 $string['invalidarraysize'] = '{$a} の変数内の配列サイズが正しくありません。';
 $string['invalideventdata'] = '正しくないイベントデータが送信されました: {$a}';
 $string['invalidparameter'] = '無効なパラメータ値が検出されました。';
 $string['invalidresponse'] = '無効なレスポンス値が検知されました。';
+$string['line'] = '行';
 $string['missingconfigversion'] = 'configテーブルにバージョンが含まれていません。申し訳ございません、続けることはできません。';
 $string['modulenotexist'] = '{$a} モジュールがありません。';
 $string['morethanonerecordinfetch'] = 'fetch() で2レコード以上のレコードが見つかりました!';
@@ -50,9 +52,11 @@ $string['nomodules'] = 'モジュールが見つかりませんでした!!';
 $string['nopageclass'] = '{$a} がインポートされましたが、ページクラスがありません。';
 $string['noreports'] = 'アクセスできるレポートはありません。';
 $string['notables'] = 'テーブルがありません!';
+$string['outputbuffer'] = '出力バッファ';
 $string['phpvaroff'] = 'PHPサーバ変数「 {$a->name} 」をOffにしてください - {$a->link}';
 $string['phpvaron'] = 'PHPサーバ変数「 {$a->name} 」がOnにされていません - {$a->link}';
 $string['sessionmissing'] = 'セッションに {$a} オブジェクトがありません。';
 $string['sqlrelyonobsoletetable'] = 'このSQLは古いテーブル {$a} を参照しています! あなたのコードは開発者によって修正される必要があります。';
+$string['stacktrace'] = 'スタックトレース';
 $string['withoutversion'] = 'メインversion.phpファイルが存在しないか、読めない、または壊れています。';
 $string['xmlizeunavailable'] = 'xmlize関数を利用できません。';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'access', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'access', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   access
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,9 +34,7 @@ $string['activityprev'] = 'Actividade anterior';
 $string['breadcrumb'] = 'Ronsel';
 $string['eventcontextlocked'] = 'Contexto conxelado';
 $string['eventcontextunlocked'] = 'Contexto desconxelado';
-$string['hideblocka'] = 'Agachar o bloque {$a}';
-$string['monthnext'] = 'Mes seguinte';
-$string['monthprev'] = 'Mes anterior';
+$string['hideblocka'] = 'Agochar o bloque {$a}';
 $string['showblocka'] = 'Amosar o bloque {$a}';
 $string['sitemap'] = 'Mapa do sitio';
 $string['skipa'] = 'Omitir {$a}';

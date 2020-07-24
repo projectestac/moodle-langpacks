@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'langconfig', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'langconfig', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   langconfig
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%d%m%Y-%H%M';
+$string['dateintervaldayshoursmins'] = '%ad %hh %im';
 $string['decsep'] = ',';
 $string['firstdayofweek'] = '1';
 $string['iso6391'] = 'en';
@@ -40,7 +41,9 @@ $string['oldcharset'] = 'ISO-8859-1';
 $string['parentlanguage'] = '';
 $string['strftimedate'] = '%d de %B de %Y';
 $string['strftimedatefullshort'] = '%d/%m/%y';
+$string['strftimedatemonthabbr'] = '%d de %B de %Y';
 $string['strftimedateshort'] = '%d de %B';
+$string['strftimedateshortmonthabbr'] = '%d de %b';
 $string['strftimedatetime'] = '%d de %B de %Y às %H:%M';
 $string['strftimedatetimeshort'] = '%d/%m/%y às %H:%M';
 $string['strftimedaydate'] = '%A, %d de %B de %Y';

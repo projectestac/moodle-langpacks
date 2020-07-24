@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshop', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,6 +96,7 @@ $string['configgradinggrade'] = 'Punteggio massimo di default per le valutazioni
 $string['configmaxbytes'] = 'Dimensione massima di default per i file delle consegne. Influenza tutti i workshop del sito ed è soggetto alle limitazioni dei corsi o altre impostazioni locali';
 $string['configstrategy'] = 'Criterio di valutazione di default per i workshop';
 $string['createsubmission'] = 'Inizia a preparare la tua consegna';
+$string['crontask'] = 'Elaborazione in background: modulo workshop';
 $string['daysago'] = '{$a} giorni fa';
 $string['daysleft'] = '{$a} giorni mancanti';
 $string['daystoday'] = 'oggi';
@@ -110,8 +111,6 @@ $string['editingsubmission'] = 'Modifica consegne';
 $string['editsubmission'] = 'Modifica consegna';
 $string['err_multiplesubmissions'] = 'Durante la modifica di questo form è stata effettuata un\'altra consegna. Le consegne multiple non sono consentite.';
 $string['err_removegrademappings'] = 'Non è possibile rimuovere la mappatura voti non utilizzata';
-$string['err_unknownfileextension'] = 'Estensione file sconosciuta: {$a}';
-$string['err_wrongfileextension'] = 'Non è stato possibile caricare alcuni file ({$a->wrongfiles}). Possono essere caricati solamente file {$a->whitelist}.';
 $string['evaluategradeswait'] = 'Per favore attendi mentre vengono analizzate le valutazioni e calcolati i voti';
 $string['evaluation'] = 'Calcolo dei voti';
 $string['evaluationmethod'] = 'Metodo di calcolo dei voti';
@@ -170,6 +169,7 @@ $string['gradeitemsubmission'] = '{$a->workshopname} (consegna)';
 $string['gradeover'] = 'Modifica il voto per la consegna';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Report dei voti del workshop';
+$string['grade_submission_name'] = 'Consegna';
 $string['gradetopassgrading'] = 'Sufficienza per la valutazione';
 $string['gradetopasssubmission'] = 'Sufficienza per la consegna';
 $string['gradinggrade'] = 'Voto per la valutazione';
@@ -181,8 +181,12 @@ $string['gradingsettings'] = 'Impostazioni voto';
 $string['groupnoallowed'] = 'Non sei autorizzato ad accedere nessun gruppo in questo workshop';
 $string['iamsure'] = 'Si, sono sicuro';
 $string['indicator:cognitivedepth'] = 'Workshop cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Workshop cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalle attività Workshop (Livelli: Nessuna visualizzazione, Visualizzazione, Invio, Visualizzazione feedback, Commento al feedback, Nuovo invio dopo il feedback)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività Workshop.';
 $string['indicator:socialbreadth'] = 'Workshop sociale';
+$string['indicator:socialbreadthdef'] = 'Workshop sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dall\'attività Workshop (Livelli: Nessuna partecipazione, Partecipazione da solo, Partecipazione con altri)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività Workshop.';
 $string['info'] = 'Informazioni';
 $string['instructauthors'] = 'Istruzioni di consegna';
@@ -203,6 +207,7 @@ Gli studenti possono valutare una o più consegne di altri studenti, volendo anc
 
 La valutazione ricevuta degli studenti si compone di due parti, una valutazione per la propria consegna e una valutazione per aver valutato le consegne  degli altri studenti. Entrambe le valutazioni vengono memorizzate nel registro valutatore.';
 $string['modulenameplural'] = 'Workshop';
+$string['myassessments'] = 'Le mie valutazioni';
 $string['mysubmission'] = 'le mie consegne';
 $string['nattachments'] = 'Numero massimo di allegati alla consegna';
 $string['noexamples'] = 'Questo workshop non ha esempi';
@@ -273,7 +278,7 @@ $string['privacy:metadata:timemodified'] = 'Data e ora dell\'ultima modifica del
 $string['privacy:metadata:userid'] = 'ID dell\'utente per cui è stata calcolata la valutazione aggregata.';
 $string['privacy:metadata:weight'] = 'Peso della valutazione.';
 $string['privacy:metadata:workshopaggregations'] = 'Memorizza le valutazioni aggregate per la valutazione.';
-$string['privacy:metadata:workshopassessments'] = 'Informazioni sulle valutazioni assegnate alle consegne del modulo del Workshop.';
+$string['privacy:metadata:workshopassessments'] = 'Memorizza le informazioni sulle valutazioni assegnate alle consegne nel modulo del Workshop.';
 $string['privacy:metadata:workshopgrades'] = 'Memorizza le informazioni sulla compilazione degli schemi di valutazione con voti e commenti.';
 $string['privacy:metadata:workshopid'] = 'ID dell\'attività Workshop.';
 $string['privacy:metadata:workshopsubmissions'] = 'Memorizza le informazioni sulle consegne nel modulo Workshop.';

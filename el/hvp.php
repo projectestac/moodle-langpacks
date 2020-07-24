@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'hvp', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   hvp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,6 +53,7 @@ $string['ccpdd'] = 'Εκχώρηση ως Κοινό Κτήμα (CC0)';
 $string['ccpdm'] = 'Σήμα Κοινού Κτήματος (PDM)';
 $string['changedby'] = 'Άλλαξε από';
 $string['changedescription'] = 'Περιγραφή αλλαγής';
+$string['changelog'] = 'Καταγραφές αλλαγών';
 $string['changeplaceholder'] = 'Περικοπή φωτογραφίας, αλλαγή κειμένου, κλπ.';
 $string['close'] = 'Κλείσιμο';
 $string['confirmdialogbody'] = 'Παρακαλούμε, επιβεβαιώστε ότι επιθυμείτε τη συνέχεια. Αυτή η ενέργεια δεν μπορεί να αναστραφεί.';

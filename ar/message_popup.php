@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_popup', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message_popup', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   message_popup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'الإعلامات المنبثقة';
+$string['pluginname'] = 'إعلام بإطار منبثق';
 $string['privacy:metadata'] = 'المكوّن الإضافي Web messaging Web لا يخزن أي بيانات شخصية.';

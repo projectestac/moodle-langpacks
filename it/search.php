@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'search', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,11 @@ $string['confirm_delete'] = 'Sei sicuro di eliminare l\'indice di {$a}? Fino a q
 $string['confirm_deleteall'] = 'Sei sicuro di eliminare tutti i contenuti indicizzati? Fino a quando il sito non sarà stato nuovamente indicizzato,gli utenti non potranno ottenere risultati dalla ricerca.';
 $string['confirm_indexall'] = 'Sei sicuro di aggiornare i contenuti indicizzati? L\'attività richiederà molto tempo se sarà necessario indicizzare una grande quantità di contenuti. Per i server in produzione normalmente è sufficiente l\'indicizzazione dell\'attività pianificata "Indicizzazione della ricerca globale".';
 $string['confirm_reindexall'] = 'Sei sicuro di re-indicizzare tutti i contenuti del sito? L\'attività richiederà molto tempo se sarà necessario indicizzare una grande quantità di contenuti e gli utenti non otterranno risultati di ricerca completi fino al termine della re-indicizzazione.';
+$string['core-all'] = 'Tutto';
+$string['core-course-content'] = 'Contenuto dei corsi';
+$string['core-courses'] = 'Corsi';
+$string['core-other'] = 'Altro';
+$string['core-users'] = 'Utenti';
 $string['createanindex'] = 'crea un indice';
 $string['createdon'] = 'Data di creazione';
 $string['database'] = 'Database';
@@ -80,6 +85,7 @@ $string['invalidindexerror'] = 'La directory indice contiene un indice non valid
 $string['ittook'] = 'Impiegati';
 $string['matchingfile'] = 'Risultati nel file <span class="filename">{$a}</span>';
 $string['matchingfiles'] = 'Risultati nei file:';
+$string['mycoursesonly'] = 'Solo i miei corsi';
 $string['next'] = 'Successivo';
 $string['noindexmessage'] = 'Admin: Sembra non esistere un indice per la ricerca. Prego';
 $string['noresults'] = 'Nessun risultato';
@@ -99,6 +105,9 @@ $string['runindexertest'] = 'Eseguire il test di indexer';
 $string['score'] = 'Punteggio';
 $string['search'] = 'Ricerca';
 $string['searcharea'] = 'Area di ricerca';
+$string['searchareacategories'] = 'Area di ricerca categorie';
+$string['search:course'] = 'Corsi';
+$string['search:customfield'] = 'Campi personalizzati del corso';
 $string['searching'] = 'Ricerca in ...';
 $string['search:message_received'] = 'Messaggi - ricevuti';
 $string['search:message_sent'] = 'Messaggi - inviati';

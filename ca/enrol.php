@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -100,6 +100,7 @@ $string['foundxcohorts'] = 'S\'han trobat {$a} cohorts';
 $string['instanceadded'] = 'S\'ha afegit el mètode';
 $string['instanceeditselfwarning'] = 'Avís:';
 $string['instanceeditselfwarningtext'] = 'Esteu inscrit en aquest curs mitjançant aquest mètode d\'inscripció. Els canvis poden afectar el vostre accés a aquest curs.';
+$string['invalidenrolduration'] = 'Durada de la inscripció no vàlida';
 $string['invalidenrolinstance'] = 'Instància d\'inscripció invàlida';
 $string['invalidrole'] = 'Rol invàlid';
 $string['manageenrols'] = 'Gestiona els mòduls d\'inscripció';

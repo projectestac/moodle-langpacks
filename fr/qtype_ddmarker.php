@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -80,7 +80,9 @@ $string['pluginnameadding'] = 'Ajouter des marqueurs à glisser-déposer';
 $string['pluginnameediting'] = 'Modifier des marqueurs à glisser-déposer';
 $string['pluginname_help'] = 'Sélectionner un fichier pour l\'image de fond, saisissez des labels pour les marqueurs et définissez des zones de dépôt pour ces marqueurs sur l\'image de fond.';
 $string['pluginname_link'] = 'question/type/ddmarker';
-$string['pluginnamesummary'] = 'Des marqueurs sont glissés et déposés sur une image de fond.';
+$string['pluginnamesummary'] = 'Des marqueurs sont glissés et déposés sur une image de fond.
+
+À noter : ce type de question n\'est pas accessible pour les personnes malvoyantes.';
 $string['previewareaheader'] = 'Prévisualiser';
 $string['previewareamessage'] = 'Sélectionner un fichier pour l\'image de fond, entrez des labels pour les marqueurs et définissez des zones de dépôt pour ces marqueurs sur l\'image de fond.';
 $string['privacy:metadata'] = 'Le plugin de type de question Marqueurs à glisser-déposer n\'enregistre aucune donnée personnelle.';

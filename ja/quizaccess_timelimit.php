@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_timelimit', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quizaccess_timelimit', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   quizaccess_timelimit
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['confirmstart'] = '小テストには {$a} の時間制限があります。あなたが受験を開始した時点から時間が計測されます。あなたは有効期限前に受験を送信する必要があります。今から開始してもよろしいですか?';
-$string['confirmstartheader'] = '時間制限小テスト';
+$string['confirmstart'] = 'あなたの受験には {$a} の時間制限があります。あなたが受験を開始した時点からタイマーがカウントダウンを開始します。タイマーは途中で停止できません。あなたは制限時間内に受験を終了する必要があります。本当に今から開始してもよろしいですか?';
+$string['confirmstartheader'] = '時間制限';
 $string['pluginname'] = '時間制限 - 小テストアクセスルール';
 $string['privacy:metadata'] = '時間制限小テストアクセスルールプラグインはいかなる個人データも保存しません。';
 $string['quiztimelimit'] = '制限時間: {$a}';

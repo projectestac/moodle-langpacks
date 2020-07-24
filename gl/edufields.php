@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'edufields', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'edufields', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   edufields
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -83,7 +83,7 @@ $string['field1020305'] = 'Análise de Sistemas e Deseño';
 $string['field1020307'] = 'Sistemas de Asistencia á Decisión';
 $string['field1020399'] = 'Sistemas de Información (outras)';
 $string['field10299'] = 'Outra Tecnoloxía da Información';
-$string['field1029901'] = 'Ciencias de Seguranza';
+$string['field1029901'] = 'Ciencias da Seguridade';
 $string['field1029999'] = 'Tecnoloxía da Información (outras)';
 $string['field103'] = 'Enxeñaría e Tecnoloxías Relacionadas';
 $string['field10301'] = 'Enxeñaría e Tecnoloxía da Manufactura';
@@ -249,7 +249,7 @@ $string['field1061101'] = 'Ciencia Veterinaria';
 $string['field1061103'] = 'Asistencia Veterinaria';
 $string['field1061199'] = 'Estudos Veterinarios (outros)';
 $string['field10613'] = 'Saúde Pública';
-$string['field1061301'] = 'Saúde e Seguranza Ocupacional';
+$string['field1061301'] = 'Saúde e Seguridade Ocupacional';
 $string['field1061303'] = 'Saúde do Medio';
 $string['field1061305'] = 'Saúde Indíxena';
 $string['field1061307'] = 'Promoción da Saúde';
@@ -370,11 +370,11 @@ $string['field1090909'] = 'Dereito Internacional';
 $string['field1090911'] = 'Dereito de Taxación';
 $string['field1090913'] = 'Práctica Legal';
 $string['field1090999'] = 'Dereito (outro)';
-$string['field10911'] = 'Xustiza e Seguranza Legal';
+$string['field10911'] = 'Xustiza e Seguridade Legal';
 $string['field1091101'] = 'Administración de Xustiza';
 $string['field1091103'] = 'Estudos Legais';
 $string['field1091105'] = 'Estudos de Policía';
-$string['field1091199'] = 'Xustiza e Seguranza Legal (outros)';
+$string['field1091199'] = 'Xustiza e Seguridade Legal (outros)';
 $string['field10913'] = 'Biblioteconomía, Xestión da Información e Estudos de Conservación';
 $string['field1091301'] = 'Biblioteconomía e Xestión da Información';
 $string['field1091303'] = 'Estudos de Conservación';
@@ -405,7 +405,7 @@ $string['field1092199'] = 'Deportes e Actividade Recreativas (outros)';
 $string['field10999'] = 'Sociedade e Cultura Alternativa';
 $string['field1099901'] = 'Familia e Estudos de Consumo';
 $string['field1099903'] = 'Criminoloxía';
-$string['field1099905'] = 'Servizos de Seguranza';
+$string['field1099905'] = 'Servizos de Seguridade';
 $string['field1099999'] = 'Sociedade e Cultura (outros)';
 $string['field110'] = 'Artes Creativas';
 $string['field11001'] = 'Artes Escénicas';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['check_configrw_details'] = '<p>Recoméndase que os permisos do ficheiro config.php se cambien despois da instalación para que este ficheiro non sexa modificado polo servidor web.
-Teña en conta que esta medida non mellora a seguranza do servidor de forma significativa, pero si que pode retrasar ou limitar «exploits» xenéricos.</p>';
+Teña en conta que esta medida non mellora a seguridade do servidor de forma significativa, pero si que pode retrasar ou limitar «exploits» xenéricos.</p>';
 $string['check_configrw_name'] = 'Ficheiro config.php escribíbel';
 $string['check_configrw_ok'] = 'O config.php non pode ser modificado por scripts PHP.';
 $string['check_configrw_warning'] = 'Os scripts PHP poden modificar o config.php.';
@@ -34,6 +34,11 @@ $string['check_cookiesecure_details'] = '<p>De activar a comunicación https, re
 $string['check_cookiesecure_error'] = 'Active as cookies seguras';
 $string['check_cookiesecure_name'] = 'Cookies seguras';
 $string['check_cookiesecure_ok'] = 'As cookies seguras están activadas.';
+$string['check_crawlers_details'] = '<p>A opción Open to Google permítelles aos motores de busca entrar nos cursos nos que se dá acceso a convidados. Se non se permite o acceso a convidados non ten sentido activar esta opción.</p>';
+$string['check_crawlers_error'] = 'Permítese o acceso a motores de busca pero está desactivado o acceso como convidado.';
+$string['check_crawlers_info'] = 'Os motores de busca poden entrar como convidados.';
+$string['check_crawlers_name'] = 'Open to Google';
+$string['check_crawlers_ok'] = 'O acceso dos motores de busca non está activado.';
 $string['check_defaultuserrole_details'] = '<p>Todos os usuarios con sesión iniciada teñen as capacidades do rol de usuario predeterminado. Asegúrese de que este rol non ten permisos arriscados.</p>
 <p>O rol de usuario predeterminado só pode herdar o tipo <em>usuario autenticado</em>. Non se debe activar a capacidade de ver o curso.</p>';
 $string['check_defaultuserrole_error'] = 'O rol do usuario predeterminado «{$a}» está incorrectamente definido!';
@@ -60,11 +65,6 @@ $string['check_frontpagerole_error'] = 'Detectouse un rol de páxina principal �
 $string['check_frontpagerole_name'] = 'Rol de páxina principal';
 $string['check_frontpagerole_notset'] = 'Non está estabelecido un rol para páxina principal.';
 $string['check_frontpagerole_ok'] = 'A definición do rol de páxina principal está conforme.';
-$string['check_google_details'] = '<p>A opción Open to Google permítelles aos motores de busca entrar nos cursos nos que se dá acceso a convidados. Se non se permite o acceso a convidados non ten sentido activar esta opción.</p>';
-$string['check_google_error'] = 'Permítese o acceso a motores de busca pero está desactivado o acceso como convidado.';
-$string['check_google_info'] = 'Os motores de busca poden entrar como convidados.';
-$string['check_google_name'] = 'Open to Google';
-$string['check_google_ok'] = 'O acceso dos motores de busca non está activado.';
 $string['check_guestrole_details'] = '<p>O rol de convidado utilízase para convidados, que non teñan iniciado sesión como usuarios e con acceso temporal de convite ao curso. Asegúrese de que non haxa capacidades arriscadas permitidas neste rol.</p>
 <p>O único tipo herdado permitido para o rol de convidado é <em>Convidado</em>.</p>';
 $string['check_guestrole_error'] = 'O rol do usuario convidado «{$a}» está incorrectamente definido!';
@@ -133,9 +133,9 @@ $string['configuration'] = 'Configuración';
 $string['description'] = 'Descrición';
 $string['details'] = 'Detalles';
 $string['issue'] = 'Incidencia';
-$string['pluginname'] = 'Vista xeral de seguranza';
-$string['privacy:metadata'] = 'O engadido de vista xeral do seguranza non almacena ningún dato persoal.';
-$string['security:view'] = 'Ver informe de seguranza';
+$string['pluginname'] = 'Vista xeral de seguridade';
+$string['privacy:metadata'] = 'O engadido de vista xeral da seguridade non almacena ningún dato persoal.';
+$string['security:view'] = 'Ver informe de seguridade';
 $string['status'] = 'Estado';
 $string['statuscritical'] = 'Crítica';
 $string['statusinfo'] = 'Información';

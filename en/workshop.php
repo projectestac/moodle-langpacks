@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshop', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -97,7 +97,8 @@ $string['configgradedecimals'] = 'Default number of digits that should be shown 
 $string['configgradinggrade'] = 'Default maximum grade for assessment in workshops';
 $string['configmaxbytes'] = 'Default maximum submission file size for all workshops on the site (subject to course limits and other local settings)';
 $string['configstrategy'] = 'Default grading strategy for workshops';
-$string['createsubmission'] = 'Start preparing your submission';
+$string['createsubmission'] = 'Add submission';
+$string['crontask'] = 'Background processing for workshop module';
 $string['daysago'] = '{$a} days ago';
 $string['daysleft'] = '{$a} days left';
 $string['daystoday'] = 'today';
@@ -112,8 +113,6 @@ $string['editingsubmission'] = 'Editing submission';
 $string['editsubmission'] = 'Edit submission';
 $string['err_multiplesubmissions'] = 'While editing this form, another version of the submission has been saved. Multiple submissions per user are not allowed.';
 $string['err_removegrademappings'] = 'Unable to remove the unused grade mappings';
-$string['err_unknownfileextension'] = 'Unknown file extension: {$a}';
-$string['err_wrongfileextension'] = 'Some files ({$a->wrongfiles}) cannot be uploaded. Only file types {$a->whitelist} are allowed.';
 $string['evaluategradeswait'] = 'Please wait until the assessments are evaluated and the grades are calculated';
 $string['evaluation'] = 'Grading evaluation';
 $string['evaluationmethod'] = 'Grading evaluation method';
@@ -165,12 +164,14 @@ $string['givengrades'] = 'Grades given';
 $string['gradecalculated'] = 'Calculated grade for submission';
 $string['gradedecimals'] = 'Decimal places in grades';
 $string['gradegivento'] = '&gt;';
+$string['grade_grading_name'] = 'Assessment';
 $string['gradeinfo'] = 'Grade: {$a->received} of {$a->max}';
 $string['gradeitemassessment'] = '{$a->workshopname} (assessment)';
 $string['gradeitemsubmission'] = '{$a->workshopname} (submission)';
 $string['gradeover'] = 'Override grade for submission';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Workshop grades report';
+$string['grade_submission_name'] = 'Submission';
 $string['gradetopassgrading'] = 'Assessment grade to pass';
 $string['gradetopasssubmission'] = 'Submission grade to pass';
 $string['gradinggrade'] = 'Grade for assessment';
@@ -182,8 +183,14 @@ $string['gradingsettings'] = 'Grading settings';
 $string['groupnoallowed'] = 'You are not allowed to access any group in this workshop';
 $string['iamsure'] = 'Yes, I am sure';
 $string['indicator:cognitivedepth'] = 'Workshop cognitive';
+$string['indicator:cognitivedepthdef'] = 'Workshop cognitive';
+$string['indicator:cognitivedepthdef_help'] = 'The participant has reached this percentage of the cognitive engagement offered by the Workshop activities during this analysis interval (Levels = No view, View, Submit, View feedback, Comment on feedback, Resubmit after viewing feedback)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:cognitivedepth_help'] = 'This indicator is based on the cognitive depth reached by the student in a Workshop activity.';
 $string['indicator:socialbreadth'] = 'Workshop social';
+$string['indicator:socialbreadthdef'] = 'Workshop social';
+$string['indicator:socialbreadthdef_help'] = 'The participant has reached this percentage of the social engagement offered by the Workshop activities during this analysis interval (Levels = No participation, Participant alone, Participant with others)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['indicator:socialbreadth_help'] = 'This indicator is based on the social breadth reached by the student in a Workshop activity.';
 $string['info'] = 'Info';
 $string['instructauthors'] = 'Instructions for submission';
@@ -193,6 +200,7 @@ $string['latesubmissions'] = 'Late submissions';
 $string['latesubmissionsallowed'] = 'Late submissions are allowed';
 $string['latesubmissions_desc'] = 'Allow submissions after the deadline';
 $string['latesubmissions_help'] = 'If enabled, an author may submit their work after the submissions deadline or during the assessment phase. Late submissions cannot be edited though.';
+$string['legacyallocationplugincron'] = 'Legacy cron workshop allocation';
 $string['maxbytes'] = 'Maximum submission attachment size';
 $string['modulename'] = 'Workshop';
 $string['modulename_help'] = 'The workshop activity module enables the collection, review and peer assessment of students\' work.

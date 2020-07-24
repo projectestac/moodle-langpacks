@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -141,8 +141,8 @@ $string['eventuserreportviewed'] = 'Erabiltzailearen txostena ikusi da';
 $string['everyday'] = 'Egunero';
 $string['everytime'] = 'Erabiltzen den bakoitzean';
 $string['exceededmaxattempts'] = 'Gehienezko saiakera-kopurua egin duzu.';
-$string['exit'] = 'Ikastarotik irten';
-$string['exitactivity'] = 'Jarduera utzi';
+$string['exit'] = 'Irten ikastarotik';
+$string['exitactivity'] = 'Irten jardueratik';
 $string['expired'] = 'Sentitzen dugu, jarduera {$a} -n itxi zen eta dagoeneko ez dago eskuragarri';
 $string['external'] = 'Eguneratu kanpoko paketeen denbora-tartea';
 $string['failed'] = 'Gainditu gabea';
@@ -203,8 +203,12 @@ $string['highestattempt'] = 'Saiakera altuena';
 $string['identifier'] = 'Galdera-identifikatzailea';
 $string['incomplete'] = 'Osatu gabea';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa SCORM jardueretan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa SCORM jardueretan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek SCORM jarduerak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da, Bidali da, Feedbacka ikusi da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak SCORM motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala SCORM jardueretan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala SCORM jardueretan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek SCORM jarduerak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak SCORM motako baliabideetan lortutako zabalera sozialean oinarrituta dago.';
 $string['info'] = 'Informazioa';
 $string['interactions'] = 'Interakzioak';
@@ -212,6 +216,7 @@ $string['invalidactivity'] = 'SCORM jarduera ez da egokia';
 $string['invalidhacpsession'] = 'HACP saio ezegokia';
 $string['invalidmanifestname'] = 'Soilik imsmanifest.xml edo .zip fitxategiak aukeratu daitezke';
 $string['invalidmanifestresource'] = 'KONTUZ: baliabide hauek zure manifestuan aipatuak daude baina ezin dira aurkitu:';
+$string['invalidstatus'] = 'Egoera baliogabea';
 $string['invalidurl'] = 'Balio ez duen URLa ezarri da';
 $string['invalidurlhttpcheck'] = 'Balio ez duen URLa ezarri da. Arazketa mezua:<pre>{$a->cmsg}</pre>';
 $string['last'] = 'Azken sarrera hemen';

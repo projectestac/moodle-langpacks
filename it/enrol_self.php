@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_self', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,7 +82,7 @@ $string['longtimenosee_help'] = 'Consente di disiscrivere automaticamente quegli
 $string['maxenrolled'] = 'Numero max. di iscrizioni';
 $string['maxenrolled_help'] = 'Il numero massimo di utenti che potranno iscriversi al corso. Usare 0 per non avere limiti.';
 $string['maxenrolledreached'] = 'E\' stato già raggiunto il numero massimo di iscrizioni.';
-$string['messageprovider:expiry_notification'] = 'Notifica scadenza iscrizione spontanea';
+$string['messageprovider:expiry_notification'] = 'Notifiche di scadenza iscrizioni spontanee';
 $string['newenrols'] = 'Consenti nuove iscrizioni';
 $string['newenrols_desc'] = 'Di default gli utenti possono iscriversi ai corsi spontaneamente.';
 $string['newenrols_help'] = 'L\'impostazione stabilisce se un utente può iscriversi spontaneamente al corso.';

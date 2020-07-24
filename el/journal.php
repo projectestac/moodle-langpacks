@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'journal', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'journal', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   journal
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,9 +59,10 @@ $string['newjournalentries'] = 'Νέες καταχωρήσεις χρονικώ
 $string['nodeadline'] = 'Πάντα ανοικτό';
 $string['noentriesmanagers'] = 'Δεν υπάρχουν διδάσκοντες';
 $string['noentry'] = 'Καμία καταχώρηση';
+$string['noratinggiven'] = 'Δεν δόθηκε καμία αξιολόγηση';
 $string['notopenuntil'] = 'Το χρονικό δεν θα ανοίξει μέχρι';
 $string['notstarted'] = 'Δεν έχετε ξεκινήσει αυτό το χρονικό ακόμη';
-$string['overallrating'] = 'Γενική βαθμολογία';
+$string['overallrating'] = 'Γενική αξιολόγηση';
 $string['pluginadministration'] = 'Διαχείριση αρθρώματος χρονικού';
 $string['pluginname'] = 'Χρονικό';
 $string['privacy:metadata:journal_entries'] = 'Μια εγγραφή καταχώρησης χρονικού';

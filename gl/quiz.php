@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -99,6 +99,8 @@ $string['attemptincomplete'] = 'Este intento (de {$a}) aínda non se rematou.';
 $string['attemptlast'] = 'Último intento';
 $string['attemptnumber'] = 'Intentar';
 $string['attemptquiznow'] = 'Intentar a proba agora';
+$string['attemptreviewtitle'] = '{$a}: Revisión do intento';
+$string['attemptreviewtitlepaged'] = '{$a->name}: Revisión do intento (páxina {$a->currentpage} de {$a->totalpages})';
 $string['attempts'] = 'Intento';
 $string['attemptsallowed'] = 'Intentos permitidos';
 $string['attemptsdeleted'] = 'Elimináronse os intentos de proba';
@@ -111,7 +113,10 @@ $string['attemptsnumyourgroups'] = 'Intentos: {$a->total} ({$a->group} destes gr
 $string['attemptsonly'] = 'Amosar soamente os alumnos con intentos';
 $string['attemptstate'] = 'Estado';
 $string['attemptstillinprogress'] = 'Intento aínda en proceso';
+$string['attemptsummarytitle'] = '{$a}: Resumo do intento';
 $string['attemptsunlimited'] = 'Intentos ilimitados';
+$string['attempttitle'] = '{$a}';
+$string['attempttitlepaged'] = '{$a->name} (páxina {$a->currentpage} de {$a->totalpages})';
 $string['autosaveperiod'] = 'Período de autogardado';
 $string['autosaveperiod_desc'] = 'As respostas dos alumnos pódense gardar automaticamente cada poucos minutos durante os intentos de proba. As respostas gárdanse cando algunha cambia, e despois deste atraso. Isto involucra una concertación/cesión: ao gardar as respostas aumentase a carga do servidor, mais redúcese o risco de que los alumnos perdan o seu traballo. Se vai facer máis curto este atraso, debería cambiar gradualmente o valor e supervisar a carga do servidor. Se a carga se volve moi alta, faga o atraso máis longo. Axustar o atraso a 0 desactiva o gardado automático.';
 $string['back'] = 'Volver á pregunta previa';
@@ -122,7 +127,7 @@ $string['basicideasofquiz'] = 'Ideas básicas para facer probas';
 $string['bestgrade'] = 'A mellor cualificación';
 $string['bothattempts'] = 'Amosar os alumnos con e sen intentos';
 $string['browsersecurity'] = 'Seguranza do navegador';
-$string['browsersecurity_help'] = 'De seleccionar «Xanela emerxente de pantalla completa con algo de seguranza JavaScript»,
+$string['browsersecurity_help'] = 'De seleccionar «Xanela emerxente de pantalla completa con algo de seguridade JavaScript»,
 
 * A proba só comezará se o alumno ten un navegador con JavaScript-web activado
 * A proba aparece nunha xanela emerxente a pantalla completa que cobre todas as outras xanelas e non ten ningún  control de navegación
@@ -441,8 +446,14 @@ $string['importquestions'] = 'Importar preguntas do ficheiro';
 $string['inactiveoverridehelp'] = '* O alumno non ten o grupo correcto ou o rol para intentar a proba';
 $string['incorrect'] = 'Incorrecto';
 $string['indicator:cognitivedepth'] = 'Proba cognitiva';
+$string['indicator:cognitivedepthdef'] = 'Proba cognitiva';
+$string['indicator:cognitivedepthdef_help'] = 'O participante acadou esta porcentaxe do compromiso cognitivo que ofrecen as actividades da Proba durante este intervalo de análise (Niveis = Sen vista, Ver, Entregar, Ver comentarios, Facer comentarios, Reenviar após ver comentarios)';
+$string['indicator:cognitivedepthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Profundidade_cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de proba.';
 $string['indicator:socialbreadth'] = 'Proba social';
+$string['indicator:socialbreadthdef'] = 'Proba social';
+$string['indicator:socialbreadthdef_help'] = 'O participante acadou esta porcentaxe do compromiso social que ofrecen as actividades da Proba durante este intervalo de análise (Niveis = Sen participación, Participante en solitario, Participante con outros)';
+$string['indicator:socialbreadthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Amplitude_social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de proba.';
 $string['indivresp'] = 'As resposta de individuos a cada ítem';
 $string['info'] = 'Info';
@@ -466,6 +477,8 @@ $string['layoutasshown'] = 'Deseño da páxina tal como se amosa.';
 $string['layoutasshownwithpages'] = 'Deseño da páxina como se amosa. <small>(Unha nova páxina automática cada {$a} preguntas.)</small>';
 $string['layoutshuffledandpaged'] = 'Preguntas ao chou baralladas con {$a} preguntas por páxina.';
 $string['layoutshuffledsinglepage'] = 'Preguntas ao chou baralladas, todas nunha páxina.';
+$string['legacyquizaccessrulescron'] = 'Regras de acceso ao exame do cron legado';
+$string['legacyquizreportscron'] = 'Informes do exame do cron legado';
 $string['link'] = 'Ligazón';
 $string['listitems'] = 'Listaxe de ítem na proba';
 $string['literal'] = 'Literal';
@@ -870,6 +883,7 @@ $string['sectionheadingremove'] = 'Retirar a cabeceira «{$a}»';
 $string['seequestions'] = '(Ver as preguntas)';
 $string['select'] = 'Seleccionar';
 $string['selectall'] = 'Seleccionar todo';
+$string['selectattempt'] = 'Seleccionar intento';
 $string['selectcategory'] = 'Escoller unha categoría';
 $string['selectedattempts'] = 'Seleccionar intentos...';
 $string['selectmultipleitems'] = 'Select multiple items';
@@ -971,6 +985,7 @@ $string['unfinished'] = 'abrir';
 $string['ungraded'] = 'Sen cualificar';
 $string['unit'] = 'Unidade';
 $string['unknowntype'] = 'O tipo de pregunta non é compatíbel na liña {$a}. A pregunta ignorarase';
+$string['updateoverdueattemptstask'] = 'Actualizando os intentos de proba atrasadas';
 $string['updatequizslotswithrandomxofy'] = 'Actualizando posicións da proba con datos de preguntas «ao chou» ({$a->done}/{$a->total})';
 $string['updatesettings'] = 'Actualizar a configuración da proba';
 $string['updatingatttemptgrades'] = 'Actualizando as cualificacións do intento.';

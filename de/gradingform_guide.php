@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_guide', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_guide
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,12 +27,15 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addcomment'] = 'Oft benutzten Kommentar hinzufügen';
 $string['addcriterion'] = 'Kriterium hinzufügen';
+$string['additionalcomments'] = 'Zusätzliche Kommentare';
+$string['additionalcommentsforcriterion'] = 'Zusätzliche Kommentare zu Kriterium, {$a}';
 $string['alwaysshowdefinition'] = 'Beschreibung für Teilnehmer/innen anzeigen';
 $string['backtoediting'] = 'Zurück zum Bearbeiten';
 $string['clicktocopy'] = 'Anklicken, um diesen Text in Kriterienfeedback zu kopieren.';
 $string['clicktoedit'] = 'Zum Bearbeiten anklicken';
 $string['clicktoeditname'] = 'Anklicken, um Kriterienbezeichnung zu ändern.';
 $string['comment'] = 'Kommentar';
+$string['commentpickerforcriterion'] = 'Häufig verwendete Kommentarauswahl für {$a} zusätzliche Kommentare';
 $string['comments'] = 'Häufig verwendete Kommentare';
 $string['commentsdelete'] = 'Kommentar löschen';
 $string['commentsempty'] = 'Zum Bearbeiten anklicken';
@@ -70,10 +73,12 @@ $string['guideoptions'] = 'Optionen für Bewertungs-Richtlinien';
 $string['guidestatus'] = 'Derzeitiger Status';
 $string['hidemarkerdesc'] = 'Kriterien für Bewerter/innen verbergen';
 $string['hidestudentdesc'] = 'Kriterien für Teilnehmer/innen verbergen';
+$string['informationforcriterion'] = '{$a} Information';
 $string['insertcomment'] = 'Oft benutzen Kommentar einfügen';
 $string['maxscore'] = 'Höchstbewertung';
 $string['name'] = 'Name';
 $string['needregrademessage'] = 'Die Richtlinie für die Bewertung wurde geändert nachdem diese/r Teilnehmer/in bewertet wurde. Teilnehmer/innen werden die Einstellungen so lange nicht sehen bis Sie den Bewertungsbereich geprüft und die Bewertung aktualisiert haben.';
+$string['outof'] = 'Punkte von {$a}';
 $string['pluginname'] = 'Bewertungsrichtlinie';
 $string['previewmarkingguide'] = 'Vorschau für Bewertungsrichtlinie';
 $string['privacy:metadata:criterionid'] = 'Identifier für ein Kriterium bei der erweiterten Bewertung';
@@ -92,6 +97,8 @@ $string['save'] = 'Sichern';
 $string['saveguide'] = 'Bewertungsrichtlinie speichern und aktivieren.';
 $string['saveguidedraft'] = 'Als Entwurf sichern';
 $string['score'] = 'Punkt';
+$string['scoreforcriterion'] = '{$a} Punktzahl';
+$string['score_help'] = 'Geben Sie einen Wert für {$a->criterion} zwischen 0 und {$a->maxscore} ein.';
 $string['showmarkerdesc'] = 'Kriterien für Bewerter/innen anzeigen';
 $string['showmarkspercriterionstudents'] = 'Bewertung je Kriterium Teilnehmer/innen anzeigen';
 $string['showstudentdesc'] = 'Kriterien für Teilnehmer/innen anzeigen';

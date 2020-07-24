@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'hvp', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   hvp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -126,8 +126,8 @@ $string['hvp:manage'] = 'Edita les activitats H5P existents';
 $string['hvp:restrictlibraries'] = 'Restringeix una biblioteca H5P';
 $string['hvp:savecontentuserdata'] = 'Desa continguts o dades d\'usuari H5P';
 $string['hvp:saveresults'] = 'Desa resultats de continguts H5P';
-$string['hvp:updatelibraries'] = 'Actualitza la versió d\'una biblioteca H5P';
-$string['hvp:userestrictedlibraries'] = 'Utilitza biblioteques H5P restringides';
+$string['hvp:updatelibraries'] = 'Instal·la tipus de contingut H5P nous o actualitza\'n els existents';
+$string['hvp:userestrictedlibraries'] = 'Utilitza tipus de contingut H5P restringits';
 $string['hvp:view'] = 'Visualitza i interactua amb activitats H5P';
 $string['hvp:viewallresults'] = 'Visualitza els resultats d\'altres usuaris del curs';
 $string['hvp:viewresults'] = 'Visualitza els resultats de les preguntes pròpies';
@@ -268,7 +268,7 @@ $string['reportsubmitgradelabel'] = 'Envia la nota';
 $string['resizescript'] = 'Inseriu aquest script al vostre lloc web si voleu que el contingut incrustat s\'ajusti dinàmicament a la mida disponible:';
 $string['reuse'] = 'Reutilitza';
 $string['reveal'] = 'Revela';
-$string['reviseserversetupandretry'] = 'Quan hàgiu revisat la configuració del servidor, proveu a a reactivar la comunicació amb l\'«H5P Hub» a les opcions del mòdul H5P.';
+$string['reviseserversetupandretry'] = 'Quan hàgiu revisat la configuració del servidor, proveu de reactivar la comunicació amb l\'«H5P hub» als paràmetres del mòdul H5P.';
 $string['score'] = 'Puntuació';
 $string['search'] = 'Cerca';
 $string['sendusagestatistics'] = 'Envia les estadístiques d\'ús';

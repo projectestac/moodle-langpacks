@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_file', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignfeedback_file', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   assignfeedback_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['batchoperationconfirmuploadfiles'] = 'Eguneratu feedback-fitxategi bat edo gehiago aukeratutako erabiltzaile guztientzat?';
-$string['batchuploadfiles'] = 'Eguneratu feedback-fitxategiak hainbat erabiltzailerentzat';
+$string['batchoperationconfirmuploadfiles'] = 'Igo feedback-fitxategi bat edo gehiago aukeratutako erabiltzaile guztientzat?';
+$string['batchuploadfiles'] = 'Igo feedback-fitxategiak hainbat erabiltzailerentzat';
 $string['batchuploadfilesforusers'] = 'Bidali feedback fitxategiak aukeratutako {$a} erabiltzaile(r)entzat';
 $string['configmaxbytes'] = 'Fitxategiaren gehienezko tamaina';
 $string['confirmuploadzip'] = 'Zip igoera baieztatu';
@@ -52,7 +52,7 @@ $string['pluginname'] = 'Feedback-fitxategia';
 $string['privacy:metadata:filepurpose'] = 'Irakasleak ikaslearentzako feedback egiteko PDF fitxategiak';
 $string['privacy:path'] = 'Feedback fitxategiak';
 $string['selectedusers'] = 'Aukeratutako erabiltzaileak';
-$string['uploadfiles'] = 'bidali feedback-fitxategiak';
-$string['uploadzip'] = 'Eguneratu hainbat feedback-fitxategi zip batean';
+$string['uploadfiles'] = 'Bidali feedback-fitxategiak';
+$string['uploadzip'] = 'Igo hainbat feedback-fitxategi zip batean';
 $string['uploadzipsummary'] = 'Feedback fitxategiak zip batetik inportatuta';
 $string['userswithnewfeedback'] = 'Eguneratutako feedbacka duten erabiltzaileak: {$a}';

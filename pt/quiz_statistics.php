@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_statistics', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,7 +40,7 @@ $string['attemptsall'] = 'todas as tentativas';
 $string['attemptsfirst'] = 'primeira tentativa';
 $string['backtoquizreport'] = 'Voltar à página principal do relatório de estatísticas.';
 $string['calculatefrom'] = 'Calcular estatísticas a partir de';
-$string['calculatingallstats'] = 'A calcular estatísticas para o Teste, perguntas e análise de dados de resposta';
+$string['calculatingallstats'] = 'A calcular estatísticas para o teste, perguntas e análise de dados de resposta';
 $string['cic'] = 'Coeficiente de consistência interna (para {$a})';
 $string['completestatsfilename'] = 'completestats';
 $string['count'] = 'Contagem';
@@ -55,11 +55,11 @@ $string['duration'] = 'Aberto para';
 $string['effective_weight'] = 'Peso efetivo';
 $string['errordeleting'] = 'Erro ao apagar registos antigos {$a}';
 $string['errormedian'] = 'Ocorreu um erro ao calcular a mediana';
-$string['errorpowerquestions'] = 'Ocorreu um erro ao procurar os dados para calcular a variância das notas da pergunta';
-$string['errorpowers'] = 'Ocorreu um erro ao procurar os dados para calcular a variância das notas do teste';
+$string['errorpowerquestions'] = 'Ocorreu um erro ao tentar obter os dados para calcular a variância das notas da pergunta';
+$string['errorpowers'] = 'Ocorreu um erro ao tentar obter os dados para calcular a variância das notas do teste';
 $string['errorrandom'] = 'Ocorreu um erro ao obter dados dos sub itens';
 $string['errorratio'] = 'Ocorreu um erro no rácio (em {$a})';
-$string['errorstatisticsquestions'] = 'Ocorreu um erro ao procurar os dados para calcular as estatísticas para as notas das perguntas';
+$string['errorstatisticsquestions'] = 'Ocorreu um erro ao tentar obter os dados para calcular as estatísticas das notas da pergunta';
 $string['facility'] = 'Índice de Facilidade';
 $string['firstattempts'] = 'primeiras tentativas';
 $string['firstattemptsavg'] = 'Nota média das primeiras tentativas';
@@ -79,11 +79,11 @@ $string['minimumfacility'] = 'Facilidade mínima';
 $string['modelresponse'] = 'Modelo de resposta';
 $string['nameforvariant'] = 'Variante {$a->variant} de {$a->name}';
 $string['negcovar'] = 'Covariância negativa da nota com a nota total da tentativa';
-$string['negcovar_help'] = 'A nota desta questão para esse conjunto de tentativas no teste varia de forma oposta à nota global da tentativa. Isto significa que a nota global da tentativa tende a estar abaixo da média quando a nota para esta pergunta está acima da média e vice-versa.
+$string['negcovar_help'] = 'A nota desta pergunta para este conjunto de tentativas no teste varia de forma oposta à nota global da tentativa. Isto significa que a nota global da tentativa tende a estar abaixo da média quando a nota para esta pergunta está acima da média e vice-versa.
 
-A nossa equação para o peso efetivo da pergunta não pode ser calculada neste caso. Os cálculos do peso efetivo para as outras perguntas deste teste são o peso efetivo para estas perguntas se for atribuído às perguntas assinaladas com covariância negativa uma nota máxima de zero.
+A nossa equação para o peso efetivo da pergunta não pode ser calculada neste caso. Os cálculos do peso efetivo para as outras perguntas deste teste são o peso efetivo para estas perguntas se for atribuído uma nota máxima de zero às perguntas assinaladas com covariância negativa.
 
-Se editar um teste e atribuir a essas perguntas com covariância negativa a nota máxima de zero, então o peso efetivo dessas perguntas será zero e o peso real efetivo de outras perguntas será como o calculado agora.';
+Se editar um teste e atribuir a estas perguntas com covariância negativa a nota máxima de zero, o peso efetivo destas perguntas será zero e o peso real efetivo das outras perguntas será como o calculado agora.';
 $string['nogradedattempts'] = 'Não existem tentativas de resposta a este teste, ou em todas as tentativas existem questões que precisam de avaliação manual.';
 $string['nostudentsingroup'] = 'Ainda não existem alunos neste grupo';
 $string['optiongrade'] = 'Crédito parcial';
@@ -101,6 +101,7 @@ $string['questiontype'] = 'Tipo de pergunta';
 $string['quizinformation'] = 'Informação do teste';
 $string['quizname'] = 'Nome do teste';
 $string['quizoverallstatistics'] = 'Estatísticas globais do teste';
+$string['quizstatisticscleanuptask'] = 'Limpeza dos registos da cache de estatísticas de teste antigos';
 $string['quizstructureanalysis'] = 'Análise da estrutura do teste';
 $string['random_guess_score'] = 'Pontuação de resposta aleatória';
 $string['rangebetween'] = '{$a->min} − {$a->max}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_ddimageortext', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_ddimageortext
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['addmoreimages'] = 'Espaços para mais {no} itens arrastáveis';
 $string['answer'] = 'Pergunta';
 $string['bgimage'] = 'Imagem de fundo';
 $string['blank'] = 'Em branco';
-$string['correctansweris'] = 'A resposta correta é: {$a}';
+$string['correctansweris'] = 'Resposta correta: {$a}';
 $string['deletedchoice'] = '[Opção apagada]';
 $string['draggableimage'] = 'Imagem arrastável';
 $string['draggableitem'] = 'Item arrastável';
@@ -61,7 +61,9 @@ $string['pluginname'] = 'Arrastar e largar numa imagem';
 $string['pluginnameadding'] = 'Adicionar pergunta do tipo arrastar e largar numa imagem';
 $string['pluginnameediting'] = 'Editar pergunta do tipo arrastar e largar numa imagem';
 $string['pluginname_help'] = 'As perguntas do tipo arrastar e largar numa imagem necessitam que os alunos arrastem as imagens ou quadros de texto, e os larguem numa área para largar predefinida numa imagem de fundo. Os itens arrastáveis podem ser agrupados para que desta forma todos os itens de um grupo em particular fiquem com a mesma cor das áreas para largar. Os itens arrastáveis marcados como ilimitados podem ser largados em mais do que uma zona.';
-$string['pluginnamesummary'] = 'As imagens e quadros de texto podem ser arrastados e largados em zonas predefinidas para largar, numa imagem de fundo.';
+$string['pluginnamesummary'] = 'As imagens e quadros de texto podem ser arrastados e largados em zonas predefinidas para largar, numa imagem de fundo.
+
+Nota: este tipo de pergunta não é acessível a utilizadores com deficiência visual.';
 $string['previewareaheader'] = 'Pré-visualização';
 $string['previewareamessage'] = 'Selecione uma imagem de fundo, indique os itens arrastáveis e defina as áreas para largar, na imagem de fundo, onde estes deverão ser largados.';
 $string['privacy:metadata'] = 'O módulo Pergunta do tipo Arrastar e largar numa imagem não armazena quaisquer dados pessoais.';

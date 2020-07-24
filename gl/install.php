@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'install', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -147,6 +147,7 @@ $string['inputdatadirectory'] = 'Directorio de datos:';
 $string['inputwebadress'] = 'Enderezo web:';
 $string['inputwebdirectory'] = 'Directorio de Moodle:';
 $string['installation'] = 'Instalación';
+$string['invaliddbprefix'] = 'Prefixo non válido. O prefixo só pode consistir en minúsculas e guión baixo.';
 $string['langdownloaderror'] = 'Non foi posíbel descargar o idioma «{$a}». O proceso de instalación continuará en inglés.';
 $string['langdownloadok'] = 'O idioma «{$a}» foi instalado correctamente. O proceso de instalación continuará neste idioma.';
 $string['memorylimit'] = 'Límite de memoria';

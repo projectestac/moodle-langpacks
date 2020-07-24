@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_online_users', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_online_users', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   block_online_users
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,9 @@ $string['configtimetosee'] = 'Número de minutos determinados para detectar que 
 $string['nouser'] = 'Non hai usuarios conectados';
 $string['numuser'] = '{$a} usuario conectado';
 $string['numusers'] = '{$a} usuarios conectados';
-$string['online_status:hide'] = 'Agachar o meu estado en liña a outros usuarios';
+$string['online_status:hide'] = 'Agochar o meu estado en liña a outros usuarios';
+$string['onlinestatushiding'] = 'Agochamento do estado en liña';
+$string['onlinestatushiding_desc'] = 'Se está activado, os usuarios teñen a opción de agochar o seu estado en liña a outros usuarios.';
 $string['online_status:show'] = 'Amosar o meu estado en liña a outros usuarios';
 $string['online_users:addinstance'] = 'Engadir un novo bloque de usuarios conectados';
 $string['online_users:myaddinstance'] = 'Engadir un novo bloque de usuarios conectados ao meu cartafol persoal';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_langimport', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_langimport', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_langimport
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,6 +39,7 @@ $string['langpackupdated'] = 'Language pack \'{$a}\' was successfully updated';
 $string['langpackupdatedevent'] = 'Language pack updated';
 $string['langpackupdateskipped'] = 'Update of \'{$a}\' language pack skipped';
 $string['langpackuptodate'] = 'Language pack \'{$a}\' is up-to-date';
+$string['langunsupported'] = '<p>Your server does not seem to fully support the following languages:</p><ul>{$a->missinglocales}</ul><p>Instead, the global locale ({$a->globallocale}) will be used to format certain strings such as dates or numbers.</p>';
 $string['langupdatecomplete'] = 'Language pack update completed';
 $string['missingcfglangotherroot'] = 'Missing configuration value $CFG->langotherroot';
 $string['missinglangparent'] = 'Missing parent language <em>{$a->parent}</em> of <em>{$a->lang}</em>.';

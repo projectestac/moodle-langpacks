@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_grading', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,7 +53,6 @@ $string['gradingall'] = 'Tots els {$a} intents d\'aquesta pregunta';
 $string['gradingattempt'] = 'Intent número {$a->attempt} de: {$a->fullname}';
 $string['gradingattemptsxtoyofz'] = 'Intents puntuats {$a->from} a {$a->to} de {$a->of}';
 $string['gradingattemptwithidnumber'] = 'Intent número {$a->attempt} de  {$a->fullname} ({$a->idnumber})';
-$string['grading:componentname'] = 'Informe de qualificació manual';
 $string['gradingnextungraded'] = '{$a} intents següents sense qualificar';
 $string['gradingnotallowed'] = 'No teniu permís per a qualificar a mà les respostes d\'aquest qüestionari';
 $string['gradingquestionx'] = 'S\'està qualificant la pregunta {$a->number}: {$a->questionname}';

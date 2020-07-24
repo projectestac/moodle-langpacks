@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'editor_tinymce', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,7 +53,7 @@ $string['advanced_dlg:'] = '';
 $string['advanced_dlg:about_author'] = 'Συγγραφέας';
 $string['advanced_dlg:about_general'] = 'Σχετικά';
 $string['advanced_dlg:about_help'] = 'Βοήθεια';
-$string['advanced_dlg:about_license'] = 'Άδεια';
+$string['advanced_dlg:about_license'] = 'Άδεια χρήσης';
 $string['advanced_dlg:about_loaded'] = 'Φορτωμένα πρόσθετα';
 $string['advanced_dlg:about_plugin'] = 'Σχετικά με το πρόσθετο';
 $string['advanced_dlg:about_plugins'] = 'Σχετικά με τα πρόσθετα';

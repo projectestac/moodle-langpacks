@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'question', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -442,7 +442,7 @@ $string['updatedisplayoptions'] = 'Actualizar opciones de visualización';
 $string['upgradeproblemcategoryloop'] = 'Se ha detectado un problema al actualizar las categorías de preguntas. Hay un bucle (\'loop\') en el árbol de categorías. Las IDs de categorías afectadas son {$a}.';
 $string['upgradeproblemcouldnotupdatecategory'] = 'No se ha podido actualizar la categoría de pregunta {$a->name} ({$a->id}).';
 $string['upgradeproblemunknowncategory'] = 'Se ha detectado un problema al actualizar las categorías de preguntas. La catogoría {$a->id} se refiere al padre {$a->parent}, que no existe. Se ha cambiado el padre para solucionar el problema.';
-$string['whethercorrect'] = 'Si fuese correcta';
+$string['whethercorrect'] = 'Si fue correcta';
 $string['whethercorrect_help'] = 'Esto cubre tanto la descripción textual \'Correcta\' , \'Parcialmente correcta\' o \'Incorrecta\', y cualquier resaltado coloreado que transmita la misma información.';
 $string['whichtries'] = 'Que intentos';
 $string['withselected'] = 'Con seleccionadas';

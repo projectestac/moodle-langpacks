@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_filesystem', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_filesystem', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_filesystem
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['blockedpath'] = '阻断的根目录';
 $string['configplugin'] = '在文件系统上装配容器';
+$string['crontask'] = '后台处理文件系统容器';
 $string['donotusesysdir'] = '不要使用系统目录做容器，包括';
 $string['enablecourseinstances'] = '允许用户向课程添加容器实例（只有管理员可以配置）';
 $string['enableuserinstances'] = '允许用户向用户场景添加容器实例（只有管理员可以配置）';

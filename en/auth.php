@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,15 +86,13 @@ $string['emailnowexists'] = 'The email address you tried to assign to your profi
 $string['emailupdate'] = 'Email address update';
 $string['emailupdatemessage'] = 'Dear {$a->fullname},
 
-You have requested a change of your email address for your user account at {$a->site}. Please open the following URL in your browser in order to confirm this change.
+You have requested a change of your email address for your account on {$a->site}. To confirm this change, please go to the following web address:
 
-If you have any questions please contact support on: {$a->supportemail}
+{$a->url}
 
-{$a->url}';
+{$a->supportemail}';
 $string['emailupdatesuccess'] = 'Email address of user <em>{$a->fullname}</em> was successfully updated to <em>{$a->email}</em>.';
 $string['emailupdatetitle'] = 'Confirmation of email update at {$a->site}';
-$string['enterthenumbersyouhear'] = 'Enter the numbers you hear';
-$string['enterthewordsabove'] = 'Enter the words above';
 $string['errormaxconsecutiveidentchars'] = 'Passwords must have at most {$a} consecutive identical characters.';
 $string['errorminpassworddigits'] = 'Passwords must have at least {$a} digit(s).';
 $string['errorminpasswordlength'] = 'Passwords must be at least {$a} characters long.';
@@ -111,9 +109,6 @@ $string['forcechangepasswordfirst_help'] = 'Force users to change password on th
 $string['forcechangepassword_help'] = 'Force users to change password on their next login to Moodle.';
 $string['forgottenpassword'] = 'If you enter a URL here, it will be used as the lost password recovery page for this site. This is intended for sites where passwords are handled entirely outside of Moodle. Leave this blank to use the default password recovery.';
 $string['forgottenpasswordurl'] = 'Forgotten password URL';
-$string['getanaudiocaptcha'] = 'Get an audio CAPTCHA';
-$string['getanimagecaptcha'] = 'Get an image CAPTCHA';
-$string['getanothercaptcha'] = 'Get another CAPTCHA';
 $string['getrecaptchaapi'] = 'To use reCAPTCHA you must get an API key from <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Guest login button';
 $string['incorrectpleasetryagain'] = 'Incorrect. Please try again.';

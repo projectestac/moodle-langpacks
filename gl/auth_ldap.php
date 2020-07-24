@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,13 +35,11 @@ $string['auth_ldap_bind_pw'] = 'Contrasinal para bind-user.';
 $string['auth_ldap_bind_pw_key'] = 'Contrasinal';
 $string['auth_ldap_bind_settings'] = 'Configuración de «Bind»';
 $string['auth_ldap_changepasswordurl_key'] = 'URL de cambio de contrasinal';
-$string['auth_ldap_contexts'] = 'Lista de contextos onde están localizados os usuarios. Separe contextos diferentes con «;». Por exemplo: «ou=usuarios,o=org; ou=outros,o=org»';
+$string['auth_ldap_contexts'] = 'Lista de contextos onde están localizados os usuarios. Separe contextos diferentes con «;». Por exemplo: «cn=profesores,ou=persoal,o=amiñaorg»';
 $string['auth_ldap_contexts_key'] = 'Contextos';
-$string['auth_ldap_create_context'] = 'Se activa a creación de usuario con confirmación por medio de correo, especifique o contexto no que se crean os usuarios. Este contexto debe ser diferente doutros usuarios para previr problemas de seguranza. Non é necesario engadir este contexto a ldap_context-variable, Moodle buscará automaticamente os usuarios deste contexto.<br /><b>Nota:</b> Ten que modificar o método user_create() no ficheiro auth/ldap/auth.php para facer o traballo de creación de usuarios';
+$string['auth_ldap_create_context'] = 'Se activa a creación de usuario con confirmación por medio de correo, especifique o contexto no que se crean os usuarios. Este contexto debe ser diferente doutros usuarios para previr problemas de seguridade. Non é necesario engadir este contexto a ldap_context-variable, Moodle buscará automaticamente os usuarios deste contexto.<br /><b>Nota:</b> Ten que modificar o método user_create() no ficheiro auth/ldap/auth.php para facer o traballo de creación de usuarios';
 $string['auth_ldap_create_context_key'] = 'Contextos para novos usuarios';
 $string['auth_ldap_create_error'] = 'Produciuse un erro ao crear o usuario en LDAP';
-$string['auth_ldap_creators'] = 'Lista de grupos ou contextos cuxos membros están autorizados para crear cursos novos. Separe os grupos con «,». Por exemplo: «cn=profesores,ou=persoal,o=amiñaorg»';
-$string['auth_ldap_creators_key'] = 'Creadores';
 $string['auth_ldapdescription'] = 'Este método fornece autenticación contra un servidor LDAP externo.
                                   Se o nome de usuario e contrasinal son correctos, Moodle crea unha nova entrada para o usuario
                                   na súa base de datos. Este módulo pode ler atributos de usuario desde LDAP e encher
@@ -60,7 +58,7 @@ $string['auth_ldap_gracelogins_desc'] = 'Activar a  compatibilidade de acceso li
 $string['auth_ldap_gracelogins_key'] = 'Accesos libres';
 $string['auth_ldap_groupecreators'] = 'Lista de grupos ou contextos cuxos membros están autorizados para crear grupos. Separe os grupos con «,». Por exemplo: «cn=profesores,ou=persoal,o=amiñaorg»';
 $string['auth_ldap_groupecreators_key'] = 'Creadores de grupo';
-$string['auth_ldap_host_url'] = 'Especificar o enderezo/máquina LDAP en forma de URL como «ldap://ldap.amiñaorg.com/» ou «ldaps://ldap.amiñaorg.com/\' Separe multiples servidores con «;» para ter compatibilidade coa conmutación por erro.';
+$string['auth_ldap_host_url'] = 'Especificar o enderezo/máquina LDAP en forma de URL como «ldap://ldap.amiñaorg.com/» ou «ldaps://ldap.amiñaorg.com/\' Separe múltiples servidores con «;» para evitar erros.';
 $string['auth_ldap_host_url_key'] = 'URL da máquina';
 $string['auth_ldap_ldap_encoding'] = 'Especifique a codificación empregada polo servidor LDAP. Probabelmente utf-8, MS AD v2 emprega a codificación predeterminada da plataformacomo cp1252, cp1250, etc.';
 $string['auth_ldap_ldap_encoding_key'] = 'Codificación LDAP';
@@ -122,6 +120,11 @@ $string['cannotmaprole'] = 'Non pode ser asignado o rol «{$a->rolename}» porqu
 $string['connectingldap'] = 'Conectando co servidor LDAP...';
 $string['connectingldapsuccess'] = 'A conexión co seu servidor LDAP foi saatisfactoria';
 $string['creatingtemptable'] = 'Creando a táboa temporal {$a}';
+$string['diag_contextnotfound'] = 'O contexto {$a} non existe on non se pode ler mediante ligazón DN.';
+$string['diag_emptycontext'] = 'Atopouse un contexto baleiro.';
+$string['diag_genericerror'] = 'Produciuse un erro en LDAP {$a->code} lendo {$a->subject}: {$a->message}.';
+$string['diag_rolegroupnotfound'] = 'O grupo {$a->group} para o rol {$a->localname} non existe on non se pode ler mediante ligazón DN.';
+$string['diag_toooldversion'] = 'É moi pouco probábel que un servidor LDAP moderno utilice o protocolo LDAPv2. A configuración incorrecta pode estragar os valores nos campos de usuario. Verifíqueo co seu administrador LDAP.';
 $string['didntfindexpiretime'] = 'password_expire() non atopou a data de caducidade.';
 $string['didntgetusersfromldap'] = 'Non foi posíbel obter usuarios desde LDAP. -- erro? -- saíndo';
 $string['gotcountrecordsfromldap'] = 'Obtivéronse {$a} rexistros desde LDAP';

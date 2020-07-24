@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_flatfile', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_flatfile', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_flatfile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['expiredaction'] = '选课到期行动';
 $string['expiredaction_help'] = '当用户选课终止后，选择要执行的操作。请注意：某些用户资料和设置会在撤销选课时清除';
 $string['filelockedmail'] = 'cron 进程无法删除您用于选课的文本文件({$a})。请设置好权限以便 Moodle 能删除这个文件，否则它将被重复处理。';
 $string['filelockedmailsubject'] = '严重错误：选课文件';
+$string['flatfileenrolments'] = '文本文件 (CSV)选课';
 $string['flatfile:manage'] = '手动管理用户选课';
 $string['flatfilesync'] = '以文本文件格式同步选课';
 $string['flatfile:unenrol'] = '手动将已选课用户移出课程';
@@ -62,3 +63,11 @@ $string['pluginname_desc'] = '该方法会反复在您指定的位置检查和�
    del, student, 17, CF101
    add, student, 21, CF101, 1091115000, 1091215000
 </pre>';
+$string['privacy:metadata:enrol_flatfile'] = '文本文件(CSV)选课插件可以将与将来选课有关的个人数据存储在enrol_flatfile表中。';
+$string['privacy:metadata:enrol_flatfile:action'] = '预期在指定日期的选课动作';
+$string['privacy:metadata:enrol_flatfile:courseid'] = '与选课有关的课程ID';
+$string['privacy:metadata:enrol_flatfile:roleid'] = '要分配或未分配的角色的ID';
+$string['privacy:metadata:enrol_flatfile:timeend'] = '选课结束的时间';
+$string['privacy:metadata:enrol_flatfile:timemodified'] = '修改选课的时间';
+$string['privacy:metadata:enrol_flatfile:timestart'] = '选课开始的时间';
+$string['privacy:metadata:enrol_flatfile:userid'] = '与角色分配相关的用户ID';

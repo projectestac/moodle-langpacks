@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_menu', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_blog_menu', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   block_blog_menu
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['blog_menu:addinstance'] = '新增一个博客目录版块';
-$string['pluginname'] = '博客目录';
+$string['pluginname'] = '博客菜单';

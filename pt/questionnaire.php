@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'questionnaire', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,9 +45,9 @@ $string['alreadyfilled'] = 'Já respondeu a este questionário. Muito obrigado.'
 $string['andaveragevalues'] = 'e valores médios';
 $string['anonymous'] = 'Anónimo';
 $string['answer'] = 'Resposta';
-$string['answergiven'] = 'Esta resposta dada';
-$string['answernotgiven'] = 'Esta resposta não dada';
-$string['answerquestions'] = 'Responder ao questionário...';
+$string['answergiven'] = 'Dada esta resposta';
+$string['answernotgiven'] = 'Não dada esta resposta';
+$string['answerquestions'] = 'Responder ao questionário';
 $string['answers'] = 'Respostas';
 $string['attempted'] = 'Questionário submetido com sucesso';
 $string['attemptstillinprogress'] = 'Resposta ao questionário em progresso. Guardado em:';
@@ -59,14 +59,15 @@ $string['autonumberpagesandquestions'] = 'Com numeração automática de questõ
 $string['autonumberquestions'] = 'Com numeração automática de questões';
 $string['average'] = 'Média';
 $string['averageposition'] = 'Posição média';
-$string['averagerank'] = 'Avaliação Média';
+$string['averagerank'] = 'Classificação média';
+$string['averagesrow'] = 'Média (quando aplicável):';
 $string['bodytext'] = 'Corpo da mensagem';
 $string['boxesnbexact'] = 'exatamente {$a} caixa(s).';
 $string['boxesnbmax'] = ' no máximo {$a} caixa(s).';
 $string['boxesnbmin'] = ' no mínimo {$a} caixa(s).';
 $string['boxesnbreq'] = 'Nesta questão deve assinalar';
 $string['by'] = 'por';
-$string['cannotviewpublicresponses'] = 'Não é possível visualizar as respostas deste questionário centralizado.';
+$string['cannotviewpublicresponses'] = 'Não é possível visualizar as respostas deste questionário público.';
 $string['chart:bipolar'] = 'Barras bipolares';
 $string['chart:hbar'] = 'Barras horizontais';
 $string['chart:radar'] = 'Radar';
@@ -86,12 +87,14 @@ $string['checkstarted'] = 'Selecionar iniciado(s)';
 $string['clicktoswitch'] = '(clique para alternar)';
 $string['closed'] = 'O questionário terminou {$a}. Obrigado.';
 $string['closedate'] = 'Data de fecho&nbsp;';
-$string['closedate_help'] = 'Pode escolher uma data de fecho para o questionário. Selecione a caixa de seleção e escolha a data pretendida.
-Os participantes não poderão responder ao questionário após a data selecionada. Se não ativar esta opção, o questionário nunca fecha.';
-$string['closeson'] = 'O questionário termina em {$a}.';
+$string['closedate_help'] = 'Pode escolher uma data de fecho para o questionário. Selecione a caixa de verificação e defina a data e hora pretendida.
+Os participantes não poderão responder ao questionário após a data definida. Se não ativar esta opção, o questionário nunca fecha.';
+$string['closeson'] = 'O questionário termina {$a}.';
 $string['completionsubmit'] = 'Os participantes têm de submeter o questionário para o concluir';
 $string['condition'] = 'Condição';
 $string['confalts'] = '- OU - <br />Página de confirmação';
+$string['configemailreporting'] = 'Permitir relatórios por e-mail';
+$string['configemailreportinglong'] = 'Se ativar esta opção, as opções para que alguns relatórios sejam enviados diretamente por e-mail para endereços de e-mail especificados estarão ativas.';
 $string['configmaxsections'] = 'Máximo de secções de feedback';
 $string['configusergraph'] = 'Mostrar gráficos no feedback de "Teste de personalidade"';
 $string['configusergraphlong'] = 'Usar a biblioteca <a href="http://www.rgraph.net/">Rgraph</a> para mostrar gráficos no feedback de "Teste de Personalidade".';
@@ -110,11 +113,11 @@ Se deixar este campo em branco, será exibida uma mensagem predefinida (**Obriga
 $string['contentoptions'] = 'Opções do questionário';
 $string['couldnotcreatenewsurvey'] = 'Não foi possível criar um novo questionário!';
 $string['couldnotdelresp'] = 'Não foi possível apagar a resposta';
-$string['createcontent'] = 'Conteúdo inicial do Questionário';
+$string['createcontent'] = 'Conteúdo inicial do questionário';
 $string['createcontent_help'] = 'Selecione um dos botões de rádio. \'Criar novo\' questionário é a opção predefinida.';
 $string['createcontent_link'] = 'mod/questionnaire/mod#Content_Options';
 $string['createnew'] = 'Criar novo questionário';
-$string['crontask'] = 'Trabalho de limpeza do Questionário';
+$string['crontask'] = 'Trabalho de limpeza do questionário';
 $string['date'] = 'Data';
 $string['dateformatting'] = 'Use o formato dia/mês/ano (exemplo: 20/07/1969 para Domingo, 20 de julho de 1969)';
 $string['date_help'] = 'Use este tipo de questão se pretende uma resposta na forma de uma data corretamente formatada.';
@@ -135,9 +138,12 @@ $string['didnotrespondtoquestion'] = 'Não respondeu à questão';
 $string['directwarnings'] = 'As dependências diretas para esta questão serão apagadas. Isso afetará:';
 $string['displaymethod'] = 'Método de exibição não definido para a questão.';
 $string['download'] = 'Descarregar';
-$string['downloadtextformat'] = 'Descarregar em formato Texto';
-$string['downloadtextformat_help'] = 'Esta opção permite que guarde todas as respostas do questionário num ficheiro de texto (CSV). Este ficheiro poderá depois ser importado como folha de cálculo (MS Excel ou OpenOffice Calc) ou utilizado num software de estatística para tratamento dos dados.';
+$string['downloadpdf'] = 'Descarregar PDF';
+$string['downloadtextformat'] = 'Descarregar';
+$string['downloadtextformat_help'] = 'Esta opção permite que guarde todas as respostas do questionário num formato de ficheiro suportado e selecionável.
+Pode optar por incluir itens de dados extras na exportação, além de poder enviar automaticamente o ficheiro para utilizadores selecionados.';
 $string['downloadtextformat_link'] = 'mod/questionnaire/report#Download_in_text_format';
+$string['downloadtypes'] = 'Tipo de relatório';
 $string['dropdown'] = 'Lista pendente';
 $string['dropdown_help'] = 'Não existe grande vantagem em usar Listas pendentes em vez de Botões de Rádio, exceto quando as opções de resposta são uma lista grande.';
 $string['dropdown_link'] = 'mod/questionnaire/questions#Dropdown_Box';
@@ -146,6 +152,15 @@ $string['editingfeedback'] = 'A editar as configurações do feedback';
 $string['editingquestionnaire'] = 'Editar configurações';
 $string['editquestion'] = 'Editar questão do tipo: {$a}';
 $string['email'] = 'E-mail';
+$string['emailextra'] = 'Enviar para e-mails';
+$string['emailextra_help'] = 'O ficheiro descarregado será enviado para os endereços de e-mail listados, separados por vírgulas. Tenha em atenção que NÃO é feita nenhuma verificação de segurança ou privacidade.
+A permissão \'allowemailreporting\' deve estar ativada nas configurações do módulo para aceder a esta funcionalidade.';
+$string['emailroles'] = 'Enviar para papéis';
+$string['emailroles_help'] = 'O ficheiro descarregado será enviado por e-mail para os papéis com a permissão "mod/questionnaire:submissionnotification".
+A permissão \'allowemailreporting\' deve estar ativada nas configurações do módulo para aceder a esta funcionalidade.';
+$string['emailsend'] = 'Enviar relatórios';
+$string['emailsnotspecified'] = 'Não foram especificados e-mails.';
+$string['emailssent'] = 'Os ficheiros descarregados foram enviados para o(s) e-mail(s) especificado(s).';
 $string['errnewname'] = 'O nome já existe, escolha um nome diferente.';
 $string['erroropening'] = 'Ocorreu um erro ao abrir o questionário.';
 $string['errortable'] = 'Ocorreu um erro na tabela do sistema.';
@@ -156,7 +171,7 @@ $string['event_all_responses_deleted'] = 'Todas as respostas foram apagadas';
 $string['event_all_responses_saved_as_text'] = 'Todas as respostas foram guardadas como texto';
 $string['event_all_responses_viewed'] = 'Relatório de todas as respostas visualizado';
 $string['event_individual_responses_viewed'] = 'Relatório de respostas individuais visualizado';
-$string['event_non_respondents_viewed'] = 'Utilizadores sem resposta visualizados';
+$string['event_non_respondents_viewed'] = 'Visualizados os utilizadores sem resposta';
 $string['event_previewed'] = 'Questionário pré-visualizado';
 $string['event_question_created'] = 'Questão criada';
 $string['event_question_deleted'] = 'Questão eliminada';
@@ -171,8 +186,8 @@ $string['feedbackdefaultlabel'] = '[Nova secção]';
 $string['feedbackeditingglobal'] = 'Edição do Feedback Global';
 $string['feedbackeditingmessages'] = 'Edição das Mensagens de Feedback';
 $string['feedbackeditingsections'] = 'Edição das Secções de Feedback';
-$string['feedbackeditmessages'] = 'Guardar definições e editar Mensagens de Feedback';
-$string['feedbackeditsections'] = 'Guardar as definições e editar Secções de Feedback';
+$string['feedbackeditmessages'] = 'Guardar as configurações e editar Mensagens de Feedback';
+$string['feedbackeditsections'] = 'Guardar as configurações e editar Secções de Feedback';
 $string['feedbackerrorboundaryformat'] = 'Os limites de pontuação de feedback devem ser uma percentagem ou um número. O valor inserido no limite {$a} não é reconhecido.';
 $string['feedbackerrorboundaryoutofrange'] = 'A pontuação de feedback deve estar entre 0% e 100%. O valor inserido {$a} está fora do intervalo.';
 $string['feedbackerrorjunkinboundary'] = 'Deve preencher todas as caixas de limite de pontuação de feedback sem deixar espaços em branco.';
@@ -206,15 +221,15 @@ $string['feedbacksectionheadingtext'] = 'Título do Feedback';
 $string['feedbacksectionlabel'] = 'Etiqueta';
 $string['feedbacksectionlabel_help'] = 'Esta etiqueta será utilizada nos gráficos/diagramas. Por favor, mantenha-a o mais curto possível!';
 $string['feedbacksectionquestions'] = '{$a} questões da secção';
-$string['feedbacksections'] = '{$a} secções de feedback';
+$string['feedbacksections'] = 'Secções de feedback';
 $string['feedbacksectionsselect'] = 'Secções';
 $string['feedbacksectionsselect_help'] = 'Disponha as questões para as diversas secções';
-$string['feedbacksettingssaved'] = 'Definições de Feedback guardadas';
+$string['feedbacksettingssaved'] = 'Configurações do Feedback guardadas';
 $string['feedbacktype'] = 'Tipos de Feedback';
 $string['field'] = 'Questão {$a}';
 $string['fieldlength'] = 'Tamanho da caixa de texto';
 $string['fieldlength_help'] = 'Para o tipo de questão **Caixa de Texto**, insira o valor do **Comprimento da caixa de texto** e o **Comprimento máximo do texto** permitido.
-Os valores predefinidos são de 20 caracteres para o comprimento da caixa de texto e 25 carateres para o comprimento máximo do texto.';
+Os valores predefinidos são de 20 caracteres para o comprimento da caixa de texto e 25 caracteres para o comprimento máximo do texto.';
 $string['finished'] = 'Respondeu a todas as questões deste questionário!';
 $string['firstrespondent'] = 'Primeira resposta';
 $string['formateditor'] = 'Editor HTML';
@@ -227,6 +242,7 @@ $string['id'] = 'ID';
 $string['includechoicecodes'] = 'Incluir código das opções de escolha';
 $string['includechoicetext'] = 'Incluir designação das opções de escolha';
 $string['includeincomplete'] = 'Incluir respostas incompletas';
+$string['includerankaverages'] = 'Incluir classificação média da pergunta';
 $string['incorrectcourseid'] = 'O ID da disciplina está incorreto';
 $string['incorrectmodule'] = 'O ID do módulo da disciplina está incorreto';
 $string['incorrectquestionnaire'] = 'O questionário está incorreto';
@@ -312,8 +328,8 @@ $string['numeric'] = 'Numérica';
 $string['numeric_help'] = 'Use esta questão se pretende uma resposta na forma de um número formatado corretamente.';
 $string['of'] = 'de';
 $string['opendate'] = 'Data de abertura&nbsp;';
-$string['opendate_help'] = 'Pode indicar uma data de abertura para o questionário. Ative a caixa de verificação e escolha a data pretendida.
-Os participantes não poderão responder o questionário antes da data selecionada. Se não ativar esta opção, o questionário fica disponível de imediato.';
+$string['opendate_help'] = 'Pode indicar uma data de abertura para o questionário. Ative a caixa de verificação e defina a data e hora pretendida.
+Os participantes não poderão responder ao questionário antes da data definida. Se não ativar esta opção, o questionário fica disponível de imediato.';
 $string['option'] = 'opção {$a}';
 $string['optional'] = 'Opcional - pelo menos uma destas dependências deve ser cumprida.';
 $string['optionalname'] = 'Nome da Questão';
@@ -469,7 +485,7 @@ $string['respondents'] = 'Utilizadores';
 $string['respondenttype'] = 'Identificação do utilizador';
 $string['respondenttypeanonymous'] = 'Anónimo';
 $string['respondenttypefullname'] = 'Nome Completo';
-$string['respondenttype_help'] = 'O nome completo pode aparecer junto de cada resposta se escolher a opção "Nome Completo". Para ocultar a identidade dos utilizadores escolha a opção "Anónimo".';
+$string['respondenttype_help'] = 'O nome completo pode aparecer junto de cada resposta se escolher a opção "Nome Completo". Para ocultar a identidade dos utilizadores, escolha a opção "Anónimo".';
 $string['respondenttype_link'] = 'mod/questionnaire/mod#Respondent_Type';
 $string['response'] = 'Resposta';
 $string['responsefieldlines'] = 'Tamanho da caixa';
@@ -507,7 +523,8 @@ $string['sectiontext_help'] = 'Não é propriamente uma questão mas sim um (cur
 $string['selecttheme'] = 'Selecione um tema (CSS) para usar com este questionário.';
 $string['send'] = 'Enviar';
 $string['sendemail'] = 'Enviar e-mail';
-$string['sendemail_help'] = 'Envia uma cópia de cada questionário submetido para o endereço de e-mail aqui indicado. Pode inserir mais que um endereço de e-mail separado por vírgulas (deixe em branco para não enviar e-mail).';
+$string['sendemail_help'] = 'Envia uma cópia de cada questionário submetido para o endereço de e-mail aqui indicado. Pode inserir mais que um endereço de e-mail separado por vírgulas (deixe em branco para não enviar e-mail).
+A permissão \'allowemailreporting\' deve estar ativada nas configurações do módulo para aceder a esta funcionalidade.';
 $string['send_message'] = 'Enviar mensagem aos utilizadores selecionados';
 $string['send_message_to'] = 'Enviar mensagem a:';
 $string['set'] = 'definido';
@@ -517,7 +534,7 @@ $string['show_nonrespondents'] = 'Sem resposta';
 $string['started'] = 'iniciado';
 $string['strfdate'] = '%d/%m/%Y';
 $string['strfdateformatcsv'] = 'd/m/Y H:i:s';
-$string['strictdateformatting'] = 'Use o formato dia-mês-ano, por exemplo, para 4 de março de 1945: <strong>04-03-1945</strong>';
+$string['strictdateformatting'] = 'Use o formato dia-mês-ano, por exemplo, para 4 de Março de 1945: <strong>04-03-1945</strong>';
 $string['subject'] = 'Assunto';
 $string['submissionnotificationhtmlanon'] = 'Existe uma nova <a href="{$a->submissionurl}">submissão</a> do questionário "{$a->name}".';
 $string['submissionnotificationhtmluser'] = '<a href="{$a->profileurl}">{$a->username}</a> fez uma nova <a href="{$a->submissionurl}">submissão</a> do questionário "{$a->name}" na disciplina "{$a->coursename}".';
@@ -532,9 +549,10 @@ $string['submitted'] = 'Data/hora de submissão:';
 $string['subtitle'] = 'Subtítulo';
 $string['subtitle_help'] = 'O subtítulo do questionário aparece apenas abaixo do título na primeira página.';
 $string['summary'] = 'Resumo';
+$string['summaryreportattached'] = 'Relatório de resumo do questionário em anexo';
 $string['surveynotexists'] = 'questionário não existe.';
 $string['surveyowner'] = 'Só o dono do questionário pode realizar esta operação.';
-$string['surveyresponse'] = 'Respostas ao Questionário';
+$string['surveyresponse'] = 'Respostas ao questionário';
 $string['template'] = 'Modelo';
 $string['templatenotviewable'] = 'Os questionários modelo não são visíveis.';
 $string['text'] = 'Texto da Questão';
@@ -545,7 +563,7 @@ $string['textarearows'] = 'Número de linhas';
 $string['textbox'] = 'Caixa de texto';
 $string['textbox_help'] = 'Para o tipo de questão **Caixa de Texto**, insira o valor do **Comprimento da caixa de texto** e o **Comprimento máximo do texto** permitido.
 
-Os valores predefinidos são de 20 carateres para o comprimento da caixa de texto e 25 caracteres para o comprimento máximo do texto.';
+Os valores predefinidos são de 20 caracteres para o comprimento da caixa de texto e 25 caracteres para o comprimento máximo do texto.';
 $string['textdownloadoptions'] = 'Opções de exportação em formato Texto (CSV)';
 $string['thank_head'] = 'Agradecemos a sua colaboração ao responder a este questionário.';
 $string['theme'] = 'Tema';
@@ -571,7 +589,7 @@ $string['usetemplate'] = 'Usar questionário modelo';
 $string['vertical'] = 'Vertical';
 $string['view'] = 'Ver';
 $string['viewallresponses'] = 'Ver TODAS as respostas';
-$string['viewallresponses_help'] = 'Se o questionário está configurado para o **Modo de Grupos**: *Grupos visíveis*, ou definido para *Grupos separados* e o utilizador atual tem a capacidade *moodle/site:accessallgroups* (no contexto atual), e os grupos foram definidos na disciplina atual, o utilizador tem acesso a uma lista pendente com os grupos. Essa lista pendente permite que o utilizador possa "filtrar" as respostas ao questionário por grupos. Se a definição **Modo de Grupos**: *Grupos separados* estiver ativa, os utilizadores que não têm a capacidade *moodle/site:accessallgroups* (normalmente alunos ou professores não editores, etc.) só serão capazes de ver as respostas do(s) grupo(s) a que pertencem.';
+$string['viewallresponses_help'] = 'Se o questionário está configurado para o **Modo de Grupos**: *Grupos visíveis*, ou definido para *Grupos separados* e o utilizador atual tem a permissão *moodle/site:accessallgroups* (no contexto atual), e os grupos foram definidos na disciplina atual, o utilizador tem acesso a uma lista pendente com os grupos. A lista pendente permite que o utilizador possa "filtrar" as respostas ao questionário por grupos. Se a definição **Modo de Grupos**: *Grupos separados* estiver ativa, os utilizadores que não têm a permissão *moodle/site:accessallgroups* (normalmente alunos ou professores não editores, etc.) só serão capazes de ver as respostas do(s) grupo(s) a que pertence(m).';
 $string['viewbyresponse'] = 'Lista de respostas';
 $string['viewindividualresponse'] = 'Respostas individuais';
 $string['viewindividualresponse_help'] = 'Clique no nome de cada participante no questionário para visualizar as respetivas respostas individuais.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -81,7 +81,9 @@ $string['pluginnameadding'] = 'Προσθήκη δείκτη θέσης για �
 $string['pluginnameediting'] = 'Επεξεργασία δείκτη θέσης για μεταφορά & απόθεση';
 $string['pluginname_help'] = 'Οι δείκτες θέσης για μεταφορά & απόθεση απαιτούν από τον αποκρινόμενο να μεταφέρει ταμπέλες κειμένου και να τις αποθέσει σε καθορισμένες ζώνες απόθεσης σε μια εικόνα υπόβαθρου.';
 $string['pluginname_link'] = 'ερώτηση/τύπος/μεταποθδείκτηςθέσης';
-$string['pluginnamesummary'] = 'Οι δείκτες θέσης μεταφέρονται και απορρίπτονται πάνω σε μια εικόνα υπόβαθρου.';
+$string['pluginnamesummary'] = 'Οι δείκτες θέσης μεταφέρονται και αποθέτονται πάνω σε μια εικόνα υπόβαθρου.
+
+Σημείωση: Αυτός ο τύπος ερώτησης δεν είναι προσβάσιμος σε χρήστες με προβλήματα όρασης.';
 $string['previewareaheader'] = 'Προεπισκόπηση';
 $string['previewareamessage'] = 'Επιλέξτε μια εικόνα υπόβαθρου, πληκτρολογήστε ταμπέλες κειμένου για δείκτες θέσης και ορίστε ζώνες απόθεσης στην εικόνα υπόβαθρου μέσα στις οποίες πρέπει να μεταφέρονται.';
 $string['privacy:metadata'] = 'Το πρόσθετο τύπου ερώτησης μεταφοράς & απόθεσης δεικτών θέσης δεν αποθηκεύει κανένα προσωπικό δεδομένο.';

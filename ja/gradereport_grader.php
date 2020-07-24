@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_grader', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradereport_grader', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   gradereport_grader
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,13 +37,13 @@ $string['overriddengrade'] = 'オーバーライド評点';
 $string['pluginname'] = '評定者レポート';
 $string['preferences'] = '評定者レポートプリファレンス';
 $string['privacy:metadata:preference:grade_report_aggregationposition'] = 'カテゴリおよびコース合計カラムを評定表レポートの先頭に表示するか末尾に表示するか指定します。';
-$string['privacy:metadata:preference:grade_report_averagesdecimalpoints'] = 'それぞれの平均点に表示される小数点以下桁数、または全体のカテゴリ設定または評定項目で全体の小数点設定を使用 (継承) するかどうか指定します。';
+$string['privacy:metadata:preference:grade_report_averagesdecimalpoints'] = 'それぞれの平均点に表示される小数位以下桁数、または全体のカテゴリ設定または評定項目で全体の小数位設定を使用 (継承) するかどうか指定します。';
 $string['privacy:metadata:preference:grade_report_averagesdisplaytype'] = '実評点、パーセンテージ、評価文字として平均が表示されるか、またはカテゴリまたは評定項目の表示タイプを使用 (継承) するかどうか指定します。';
 $string['privacy:metadata:preference:grade_report_enableajax'] = 'AJAX機能レイヤーを評定者レポートに追加して一般操作を単純化およびスピードアップするかどうか指定します。';
 $string['privacy:metadata:preference:grade_report_grader_collapsed_categories'] = '折り畳まれる評定表カテゴリ一覧です。';
 $string['privacy:metadata:preference:grade_report_meanselection'] = 'それぞれのカテゴリまたは評定アイテムの平均計算に評定なしのセルを含むかどうか指定します。';
 $string['privacy:metadata:preference:grade_report_quickgrading'] = '多くの評定を同時に編集できるようそれぞれの評定にテキスト入力ボックスを表示するかどうか指定します。';
-$string['privacy:metadata:preference:grade_report_rangesdecimalpoints'] = 'それぞれの範囲に表示する小数点以下桁数、またはカテゴリ全体の小数点以下桁数または評定項目を使用 (継承) するか指定します。';
+$string['privacy:metadata:preference:grade_report_rangesdecimalpoints'] = 'それぞれの範囲に表示する小数位以下桁数、またはカテゴリ全体の小数位以下桁数または評定項目を使用 (継承) するか指定します。';
 $string['privacy:metadata:preference:grade_report_rangesdisplaytype'] = '範囲を実評点、パーセンテージまたは文字として表示するか、またはカテゴリ全体の表示タイプまたは評定項目を使用 (継承) するか指定します。';
 $string['privacy:metadata:preference:grade_report_showactivityicons'] = '活動名の横に活動アイコンを表示するかどうか指定します。';
 $string['privacy:metadata:preference:grade_report_showanalysisicon'] = 'デフォルトで評定アナリティクスアイコンを表示するかどうか指定します。活動モジュールがサポートする場合、評定アナリティクスアイコンがさらなる評定の詳細説明および取得方法に関するページにリンクされます。';

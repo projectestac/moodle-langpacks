@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,6 @@ $string['auth_ldap_contexts_key'] = '문맥';
 $string['auth_ldap_create_context'] = '만약 당신이 이메일 인증으로 사용자를 생성시키려 한다면 어디에 사용자들을 생성시킬지를 명시하라. 이 문맥은 보안상의 문제를 막기위해 다른 사용자들과는 다르게 명기되어야 한다. ldap_context-variable에 작성된 문맥을 포함할 필요는 없다. 무들이 자동적으로 작성된 문맥에서 사용자를 찾아줄 것이다.<br /><b>주의!</b> 사용자 생성을 위해서는 auth/ldap/lib.php에 있는 auth_user_create()를 변경시킬 필요가 있다.';
 $string['auth_ldap_create_context_key'] = '새 사용자를 위한 문맥';
 $string['auth_ldap_create_error'] = 'LDAP 사용자 생성 오류';
-$string['auth_ldap_creators'] = '새 강좌를 생성할 수 있는 모둠 혹은 문맥의 목록. 보통 \'cn=teachers,ou=staff,o=myorg\'형식으로 모둠을 분류한다.';
-$string['auth_ldap_creators_key'] = '생성자';
 $string['auth_ldapdescription'] = '이 방법은 외부 LDAP서버에 대해 인증을 제공해줍니다. 만약 계정과 비밀번호가 유효하다면 무들은 데이터베이스 안에 새로운 사용자를 만듭니다. 이 모듈은 LDAP에서 사용자 속성을 읽어와서 무들에 필요한 항목을 채웁니다. 추후 로그인 이후에는 단지 계정과 비밀번호만 점검합니다.';
 $string['auth_ldap_expiration_desc'] = '만료된 비밀번호 검색을 불가능하게 하거나 LDAP로부터 비밀번호 만료 시간을 직접 읽어오게 하려면, "아니오"를 선택하라.';
 $string['auth_ldap_expiration_key'] = '만료';

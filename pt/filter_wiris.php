@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_wiris', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'filter_wiris', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   filter_wiris
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -83,7 +83,10 @@ $string['onlytextareaeditorinstalled'] = 'Está instalado apenas um módulo de e
 $string['or'] = 'ou ';
 $string['pluginname'] = 'Matemática & Ciência por WIRIS';
 $string['pluginperformance'] = 'Modo de desempenho da imagem';
+$string['pluginperformance_help'] = 'Especifica se a resposta deve ser JSON em vez de um binário que permite que os pedidos sejam armazenados em cache. Ative o desempenho para usar a resposta JSON.';
 $string['privacy:null_reason'] = 'O filtro Matemática & Ciência por WIRIS não afeta nem armazena dados em si.';
+$string['rendertype'] = 'Tipo de renderização';
+$string['rendertype_help'] = 'Especifica como renderizar as fórmulas.<br>- PHP: chama o serviço de renderização Wiris a partir do módulo de filtro<br>- MathJax: delega a renderização ao MathJax para reduzir solicitações aos servidores Wiris';
 $string['securitysettings'] = 'Configurações de segurança';
 $string['tinymce'] = 'TinyMCE';
 $string['title'] = 'Página de teste do filtro Matemática & Ciência por WIRIS';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_multichoice', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,6 +39,7 @@ $string['answersingleno'] = '複数解答を許可する';
 $string['answersingleyes'] = '単一解答のみ';
 $string['choiceno'] = '選択肢 {$a}';
 $string['choices'] = '利用可能な選択肢';
+$string['clearchoice'] = '私の選択をクリアする';
 $string['clozeaid'] = '足りない言葉を入力してください。';
 $string['correctansweris'] = '正答: {$a}';
 $string['correctanswersare'] = '正解は次のとおりです: {$a}';

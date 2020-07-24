@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_wiris', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'filter_wiris', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   filter_wiris
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -89,6 +89,8 @@ $string['pluginname'] = 'MathType by WIRIS';
 $string['pluginperformance'] = 'Image performance mode';
 $string['pluginperformance_help'] = 'Specifies if the response should be a JSON instead of a binary which allows requests be cached. Enable performance to use JSON response.';
 $string['privacy:null_reason'] = 'MathType filter does not effect or store any data itself.';
+$string['rendertype'] = 'Render type';
+$string['rendertype_help'] = 'Specifies how to render the formulas.<br>- PHP: calls the Wiris rendering service from the filter module<br>- MathJax: delegates the rendering to MathJax in order to reduce requests to the Wiris servers';
 $string['securitysettings'] = 'Security settings';
 $string['securitysettings_text'] = '';
 $string['tinymce'] = 'TinyMCE';

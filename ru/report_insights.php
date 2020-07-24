@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_insights', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_insights', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   report_insights
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,10 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['calculatedvalue'] = 'Расчетное значение';
 $string['disabledmodel'] = 'Извините, эта модель была отключена администратором';
-$string['indicator'] = 'Показатель';
-$string['insightprediction'] = 'Прогноз {$a}';
+$string['insight'] = 'Инсайт';
+$string['insights'] = 'Инсайты';
 $string['justpredictions'] = 'Обратите внимание, что следующие идеи являются только предположениями. Невозможно с уверенностью предсказать будущее. Информация предоставляется для того, чтобы можно было предпринять необходимые действия, чтобы любые негативные прогнозы не стали реальностью.';
 $string['nodetailsavailable'] = 'Данные прогноза сомнительны';
 $string['outcome'] = 'Результат';
@@ -38,8 +37,8 @@ $string['outcomeok'] = 'Прекрасный результат';
 $string['outcomepositive'] = 'Положительный результат';
 $string['outcomeverynegative'] = 'Очень отрицательный результат';
 $string['outcomeverypositive'] = 'Очень положительный результат';
+$string['pluginname'] = 'Инсайты';
 $string['prediction'] = 'Прогноз';
-$string['predictioncalculations'] = 'Расчетные показатели';
 $string['predictiondetails'] = 'Данные прогноза';
 $string['timecreated'] = 'Время создания прогноза';
 $string['timerange'] = 'Временной интервал';

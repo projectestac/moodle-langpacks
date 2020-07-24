@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'mnet', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -64,7 +64,7 @@ $string['enterausername'] = 'Veuillez saisir un ou plusieurs noms d\'utilisateur
 $string['error7020'] = 'Cette erreur survient si le site distant a créé pour vous un enregistrement avec un paramètre wwwroot incorrect, par exemple, https://monsite.com au lieu de https://www.monsite.com. Veuillez contacter l\'administrateur du site distant avec votre wwwroot (tel qu\'indiqué dans le fichier config.php) et lui demander de modifier l\'enregistrement de votre serveur.';
 $string['error7022'] = 'Le message que vous avez envoyé au site distant a été chiffré correctement, mais n\'a pas été signé. Ceci est très inhabituel et vous devriez annoncer un bogue si cela arrive (en fournissant autant d\'informations que possible sur les versions des applications utilisées, etc.).';
 $string['error7023'] = 'Le site distant a tenté de déchiffrer votre message avec toutes les clefs qu\'il possède pour votre. Toutes les tentatives ont échoué. Il devrait être possible de corriger ce problème en synchronisant manuellement les clefs avec le site distant. Cette erreur est très improbable, sauf si vous n\'avez pas communiqué avec le site distant depuis plusieurs mois.';
-$string['error7024'] = 'Vous avez envoyé au site distant un message non chiffré, mais le site distant n\'accepte pas de communications non chiffrées depuis votre site. Ceci est très inhabituel. Si ceci arrive, veuillez annoncer un bogue (en fournissant autant d\'information que possible sur les versions des applications utilisées, etc.';
+$string['error7024'] = 'Vous avez envoyé au site distant un message non chiffré, mais le site distant n\'accepte pas de communication non chiffrée depuis votre site. Ceci est très inhabituel. Si ça arrive, vous devriez sans doute annoncer un bogue (en fournissant autant d\'information que possible sur les versions des applications utilisées, etc.).';
 $string['error7026'] = 'La clef avec laquelle votre message a été signé diffère de celle que le serveur distant connaît pour votre serveur. En outre, le serveur distant a essayé de récupérer votre clef actuelle et y a échoué. Veuillez synchroniser manuellement les clefs avec le site distant et essayer à nouveau.';
 $string['error709'] = 'Le site distant n\'a pas pu obtenir de clef SSL depuis votre serveur.';
 $string['eventaccesscontrolcreated'] = 'Contrôle d\'accès créé';

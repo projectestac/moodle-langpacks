@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'question', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,6 +82,9 @@ $string['categoryinfo'] = 'Kategoriebeschreibung';
 $string['categorymove'] = 'Die Kategorie \'{$a->name}\' enthält {$a->count} Fragen (von denen einige als verborgene Fragen oder Zufallsfragen noch irgendwo in einem Test benutzt werden). Wählen Sie eine Kategorie aus, um sie dorthin zu verschieben.';
 $string['categorymoveto'] = 'In der Kategorie sichern';
 $string['categorynamecantbeblank'] = 'Der Kategoriename kann nicht leer bleiben';
+$string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
+$string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
+$string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Optionen ändern';
 $string['changepublishstatuscat'] = 'Die <a href="{$a->caturl}">Kategorie "{$a->name}"</a> im Kurs "{$a->coursename}" wird ihren Freigabestatus von <strong>{$a->changefrom} nach {$a->changeto}</strong> ändern.';
 $string['check'] = 'Prüfen';
@@ -166,11 +169,21 @@ $string['errorsavingcomment'] = 'Fehler beim Speichern des Kommentars für Frage
 $string['errorsavingflags'] = 'Fehler beim Speichern der Markierung';
 $string['errorupdatingattempt'] = 'Fehler beim Speichern des Kommentars zu Frage {$a->id} in der Datenbank.';
 $string['eventquestioncategorycreated'] = 'Fragenkategorie';
+$string['eventquestioncategorydeleted'] = 'Fragenkategorie gelöscht';
+$string['eventquestioncategorymoved'] = 'Fragenkategorie verschoben';
+$string['eventquestioncategoryupdated'] = 'Fragenkategorie aktualisiert';
+$string['eventquestioncategoryviewed'] = 'Fragenkategorie angezeigt';
+$string['eventquestioncreated'] = 'Fragenkategorie angelegt';
+$string['eventquestiondeleted'] = 'Frage gelöscht';
+$string['eventquestionmoved'] = 'Frage verschoben';
+$string['eventquestionsexported'] = 'Frage exportiert';
+$string['eventquestionsimported'] = 'Frage importiert';
+$string['eventquestionupdated'] = 'Frage aktualisiert';
+$string['eventquestionviewed'] = 'Frage angezeigt';
 $string['export'] = 'Export';
+$string['exportasxml'] = 'Als Moodle-XML exportieren';
 $string['exportcategory'] = 'Kategorie exportieren';
-$string['exportcategory_help'] = '<h2>Export von Test-Kategorien</h2>
-
-<p>Das <b>Kategorie:</b> Drop-Down-Auswahlfeld wird genutzt, um die Kategorie auszuwählen in der die Fragen stehen, die exportiert werden sollen.</p>
+$string['exportcategory_help'] = '<p>Das <b>Kategorie:</b> Drop-Down-Auswahlfeld wird genutzt, um die Kategorie auszuwählen in der die Fragen stehen, die exportiert werden sollen.</p>
 
 <p>Einige Importformate (GIFT und XML Format) lassen es zu, dass die Kategorie in die Dateibezeichnung mit aufgenommen wird. Damit kann die Kategorie beim Import mit wiederhergestellt werden. In diesem Fall muss das Feld \'in Datei\' mit markiert werden.</p>';
 $string['exporterror'] = 'Fehler beim Export aufgetreten!';
@@ -178,9 +191,7 @@ $string['exportfilename'] = 'quiz';
 $string['exportnameformat'] = '%Y%m%d-%H%M';
 $string['exportonequestion'] = 'Diese Frage im Moodle-XML-Format herunterladen';
 $string['exportquestions'] = 'Fragen in Datei exportieren';
-$string['exportquestions_help'] = '<h2>Export von Fragen aus einer
-Kategorie</h2>
-<p>Diese Funktion ermöglicht es, alle Fragen einer Kategorie
+$string['exportquestions_help'] = '<p>Diese Funktion ermöglicht es, alle Fragen einer Kategorie
 in eine Textdatei zu exportieren.</p>
 <p>Beim Export und Import von Testfragen können nicht alle Fragetypen bei allen Formaten verarbeitet werden. Das liegt daran, dass nicht alle Formate alle Fragetypen unterstützen. Der Fragenumfang, der aus
 einem Programm exportiert und in ein anderes
@@ -222,13 +233,11 @@ $string['idnumber_help'] = 'Wenn verwendet, muss die ID-Nummer in jeder Fragenka
 $string['ignorebroken'] = 'Ungültige Links ignorieren';
 $string['import'] = 'Import';
 $string['importcategory'] = 'Importkategorien';
-$string['importcategory_help'] = '<h2>Import von Kategorien</h2>
-
-<p>Das <b>Kategorie:</b> Dropdown-Auswahlfeld ermöglicht Ihnen, die Kategorie auszuwählen in die die Fragen importiert werden sollen.</p>
+$string['importcategory_help'] = '<p>Das <b>Kategorie:</b> Dropdown-Auswahlfeld ermöglicht Ihnen, die Kategorie auszuwählen in die die Fragen importiert werden sollen.</p>
 
 <p>Bei einigen Importformaten (GIFT und XML-Format) kann die Importkategorie bereits in der Importdatei festgelegt werden. Um diese Option zu nutzen muss das Häkchen \'aus Datei\' gesetzt werden. Wenn hier keine Markierung erfolgt wird die ausgewählte Kategorie genutzt. Die Anweisung in der Importdatei wird dann ignoriert. </p>
 
-<p>Falls in der Importdatei Kategorien definiert sind, die in Ihrem Kurs nicht existieren ,werden diese beim Import angelegt.</p>';
+<p>Falls in der Importdatei Kategorien definiert sind, die in Ihrem Kurs nicht existieren, werden diese beim Import angelegt.</p>';
 $string['importerror'] = 'Fehler beim Import';
 $string['importerrorquestion'] = 'Fehler beim Import der Frage';
 $string['importfromcoursefiles'] = '... oder eine Datei zum Import auswählen.';
@@ -269,9 +278,7 @@ $string['markoutofmax'] = 'Erreichte Punkte {$a->mark} von {$a->max}';
 $string['marks'] = 'Punkte';
 $string['matchgrades'] = 'Bewertungen abgleichen';
 $string['matchgradeserror'] = 'Fehler wenn Bewertung nicht gelistet';
-$string['matchgrades_help'] = '<h2>Bewertungen zuordnen</h2>
-
-<p>Importierte Bewertungen <b>müssen</b> zu einer der gültigen Bewertungen passen, die in der folgenden Liste aufgeführt sind.</p>
+$string['matchgrades_help'] = '<p>Importierte Bewertungen <b>müssen</b> zu einer der gültigen Bewertungen passen, die in der folgenden Liste aufgeführt sind.</p>
 
 <ul>
   <li>100%</li>
@@ -358,9 +365,7 @@ $string['page-question-import'] = 'Jede Fragen-Importseite';
 $string['page-question-x'] = 'Jede Fragenseite';
 $string['parent'] = 'Übergeordnet';
 $string['parentcategory'] = 'Übergeordnete Kategorie';
-$string['parentcategory_help'] = '<h2>Hierarchieebenen für Fragenkategorien</h2>
-
-<p>Fragenkategorien können hierarchisch strukturiert werden. Eine Kategorie kann eine oder mehrere Unterkategorien enthalten. Sie ist dann für jede dieser Unterkategorien die übergeordnete Kategorie. Es gibt eine spezielle Hierarchiebene "Oben": Das ist die oberste Hierarchieebene, alle Kategorien in dieser Ebene haben keine übergeordneten Kategorien.</p>
+$string['parentcategory_help'] = '<p>Fragenkategorien können hierarchisch strukturiert werden. Eine Kategorie kann eine oder mehrere Unterkategorien enthalten. Sie ist dann für jede dieser Unterkategorien die übergeordnete Kategorie. Es gibt eine spezielle Hierarchiebene "Oben": Das ist die oberste Hierarchieebene, alle Kategorien in dieser Ebene haben keine übergeordneten Kategorien.</p>
 
 <p>Normalerweise sehen Sie verschiedene Kontexte von Fragenkategorien. Beachten Sie, dass jeder Kontext seine eigene Hierarchie von Fragenkategorien enthält. Weiterführende Informationen zu Kontexten von Fragenkategorien finden Sie unten. Wenn Sie nicht mehrere Kontexte von Fragenkategorien sehen, kann das daran liegen, dass Sie keine Berechtigung haben, auf andere Kontexte zuzugreifen.</p>
 
@@ -368,9 +373,9 @@ $string['parentcategory_help'] = '<h2>Hierarchieebenen für Fragenkategorien</h2
 
 <p>Siehe auch:</p>
 <ul>
-  <li><a href="help.php?module=question&amp;file=categories.html">Fragenkategorien</a></li>
-  <li><a href="help.php?module=question&amp;file=categorycontexts.html">Kontexte von Fragenkategorien</a></li>
-  <li><a href="help.php?module=question&amp;file=permissions.html">Berechtigungen für Fragen</a></li>
+  <li><a href="help.php?module=question&file=categories.html">Fragenkategorien</a></li>
+  <li><a href="help.php?module=question&file=categorycontexts.html">Kontexte von Fragenkategorien</a></li>
+  <li><a href="help.php?module=question&file=permissions.html">Berechtigungen für Fragen</a></li>
 </ul>';
 $string['parenthesisinproperclose'] = 'Die Klammer vor ** ist nicht richtig geschlossen bei {$a}**';
 $string['parenthesisinproperstart'] = 'Die Klammer vor ** ist nicht richtig geöffnet bei {$a}**';
@@ -398,7 +403,7 @@ $string['privacy:metadata:database:question_attempts:responsesummary'] = 'Zusamm
 $string['privacy:metadata:database:question_attempt_step_data'] = 'Für den Schritt eines Fragenversuchs können  weitere Daten in der step_data-Tabelle abgelegt sein.';
 $string['privacy:metadata:database:question_attempt_step_data:name'] = 'Name des Datenwerts';
 $string['privacy:metadata:database:question_attempt_step_data:value'] = 'Wert';
-$string['privacy:metadata:database:question_attempt_steps'] = 'Jeder Fragenversuch durchläuft eine Reihe von Schritten vom Beginn bis zum Abschluß und der Bewertung. DieTabelle speichert Informationen für jeden dieser Schritte.';
+$string['privacy:metadata:database:question_attempt_steps'] = 'Jeder Fragenversuch durchläuft eine Reihe von Schritten vom Beginn bis zum Abschluss und der Bewertung. Die Tabelle speichert Informationen für jeden dieser Schritte.';
 $string['privacy:metadata:database:question_attempt_steps:fraction'] = 'Bewertung für diesen Fragenversuch skaliert zu 1';
 $string['privacy:metadata:database:question_attempt_steps:state'] = 'Status des Fragenversuchsschritts am Ende  der Verarbeitung des Schritts';
 $string['privacy:metadata:database:question_attempt_steps:timecreated'] = 'Datum und Zeitpunkt, zu dem die Schrittverarbeitung dieser Frage begann';
@@ -420,9 +425,9 @@ $string['questionaffected'] = '<a href="{$a->qurl}">Die Frage "{$a->name}" ({$a-
 $string['questionbank'] = 'Fragensammlung';
 $string['questionbehaviouradminsetting'] = 'Einstellungen zum Frageverhalten';
 $string['questionbehavioursdisabled'] = 'Frageverhalten deaktivieren';
-$string['questionbehavioursdisabledexplained'] = 'Geben Sie eine Liste der Frageverhalten ein, die nicht im Dropdownmneu erscheinen sollen. Mehrere Werte werden durch ein Komma getrennt.';
+$string['questionbehavioursdisabledexplained'] = 'Geben Sie eine kommagetrennte Liste von Verhaltensweisen ein, die nicht im Dropdown-Menü angezeigt werden sollen.';
 $string['questionbehavioursorder'] = 'Frageverhalten-Reihenfolge';
-$string['questionbehavioursorderexplained'] = 'Geben Sie eine Liste mit den Frageverhalten in der gewünschten Reihenfolge der Darstellung ein. Werte durch Kommas trennen.';
+$string['questionbehavioursorderexplained'] = 'Geben Sie eine kommagetrennte Liste von Verhaltensweisen in der Reihenfolge ein, in der sie im Dropdown-Menü angezeigt werden sollen.';
 $string['questioncategory'] = 'Fragenkategorie';
 $string['questioncatsfor'] = 'Fragenkategorien für \'{$a}\'';
 $string['questiondoesnotexist'] = 'Diese Frage gibt es nicht';
@@ -435,7 +440,7 @@ $string['questionpreviewdefaults'] = 'Standardeinstellungen für die Fragenvorsc
 $string['questionpreviewdefaults_desc'] = 'Diese Standardeinstellungen werden verwendet, wenn jemand eine Frage aus der Fragensammlung erstmalig anzeigt. Sobald eine Frage angezeigt wurde, werden die persönlichen Einstellungen gespeichert.';
 $string['questions'] = 'Fragen';
 $string['questionsaveerror'] = 'Fehler beim Speichern der Frage aufgetreten - ({$a})';
-$string['questionsinuse'] = '(*Fragen, die mit einem Sternchen versehen sind, werden in Tests eingesetzt. Die Fragen werden nicht aus dem Test gelöscht, jedoch in der Kategorienliste nicht angezeigt. )';
+$string['questionsinuse'] = '(* Fragen, die mit einem Sternchen versehen sind, werden irgendwo in Tests eingesetzt. Die Fragen werden nicht richtig gelöscht, jedoch in der Kategorienliste nicht mehr angezeigt.)';
 $string['questionsmovedto'] = 'In Gebrauch befindliche Fragen wurden nach "{$a}" in der Kategorie verschoben.';
 $string['questionsrescuedfrom'] = 'Fragen aus Kontext {$a} gespeichert.';
 $string['questionsrescuedfrominfo'] = 'Diese Fragen (einige mögen verborgen sein) wurden gespeichert als der Kontext {$a} gelöscht wurde, da sie in Tests oder anderen Aktivitäten in Gebrauch sind.';

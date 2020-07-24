@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,15 +33,13 @@ $string['auth_ldap_bind_dn'] = 'Erabiltzaileak bilatzeko bind-user erabili nahi 
 $string['auth_ldap_bind_dn_key'] = 'Izen gorena';
 $string['auth_ldap_bind_pw'] = 'bind-user erabiltzailearen pasahitza.';
 $string['auth_ldap_bind_pw_key'] = 'Pasahitza';
-$string['auth_ldap_bind_settings'] = 'Ezarpenak finkatu';
+$string['auth_ldap_bind_settings'] = 'Bind ezarpenak';
 $string['auth_ldap_changepasswordurl_key'] = 'Pasahitza aldatzeko URLa';
 $string['auth_ldap_contexts'] = 'Erabiltzaileak kokatzen diren testuinguru zerrenda. Testuinguruak \';\' erabiliz banatu. Adibidez: \'ou=users,o=org; ou=others,o=org\'';
 $string['auth_ldap_contexts_key'] = 'Testuinguruak';
 $string['auth_ldap_create_context'] = 'Posta elektroniko bitartez erabiltzailearen sorrera indarrean jartzen baduzu, zehaztu erabiltzaileak sortuko direneko egoera. Egoera horrek beste erabiltzaileenaren desberdina izan behar du arazoak ekiditeko. Egoera hori ez da Idap_context-variable-n itsatsi behar, Moodlek egoera horretako erabiltzaileak automatikoki bilatuko ditu. <br /><b>Oharra!</b> Erabiltzaileak sortzeko, user_create() aldatu behar duzu auth/ldap/auth.php fitxategian';
 $string['auth_ldap_create_context_key'] = 'Erabiltzaile berrientzako testuingurua';
 $string['auth_ldap_create_error'] = 'Errorea erabiltzailea LDAPn sortzean.';
-$string['auth_ldap_creators'] = 'Ikastaro berriak sortzeko baimena duten partaideen taldeak. Taldeak \';\' zeinuaren bidez bana daiteke. Normalki era honetan egingo genuke: \'cn=teachers,ou=staff,o=myorg\'';
-$string['auth_ldap_creators_key'] = 'Sortzaileak';
 $string['auth_ldapdescription'] = 'Metodo honek kanpo LDAP zerbitzari baten aurkako autentifikazioa eskaintzen du. Emandako erabiltzaile izen eta pasahitza baliozkoak badira, Moodlek erabiltzaile-sarrera berri bat sortuko du bere datu-basean. Plugin honek erabiltzaile atributuak LDAP zerbitzaritik irakurri ditzake eta informazio horrekin Moodleko profileko eremuak bete. Hurrengo saio-hasieretan soilik izen eta pasahitza egiaztatuko dira.';
 $string['auth_ldap_expiration_desc'] = 'Aukeratu \'{$a->no}\' pasahitza iraungi ote den indargabetzeko, edo \'{$a->ldapserver}\' pasahitzaren iraungitze-denbora zuzenean LDAPetik irakurtzeko.';
 $string['auth_ldap_expiration_key'] = 'Iraungi';
@@ -118,6 +116,11 @@ $string['cannotmaprole'] = 'Ezin da "{$a->rolename}" rola parekatu bere "{$a->sh
 $string['connectingldap'] = 'LDAP zerbitzarira konektatzen...';
 $string['connectingldapsuccess'] = 'Zure LDAP zerbitzarira konexioa ondo egin da';
 $string['creatingtemptable'] = 'Aldi baterako taula sortzen: {$a}';
+$string['diag_contextnotfound'] = '{$a} testuingurua ez da existitzen edo bind DNak ezin du irakurri.';
+$string['diag_emptycontext'] = 'Hutsik dagoen testuingurua aurkitu da.';
+$string['diag_genericerror'] = '{$a->code} LDAP errorea {$a->subject} irakurtzean: {$a->message}.';
+$string['diag_rolegroupnotfound'] = '{$a->localname} rolarentzako {$a->group} taldea ez da existitzen edo bind DNak ezin du irakurri.';
+$string['diag_toooldversion'] = 'Oso arraroa da LDAP moderno batek LDAPv2 protokoloa erabiltzea. Ezarpen okerrek erabiltzaile-profileko balioak kaltetu ditzakete. Egiaztatu itzazu zure LDAP kudeatzailearekin.';
 $string['didntfindexpiretime'] = 'password_expire()-k ez du iraungitze-data aurkitu.';
 $string['didntgetusersfromldap'] = 'Ez da erabiltzailerik lortu LDAPetik. -- errorea? -- irteten';
 $string['gotcountrecordsfromldap'] = 'Lortu {$a} erregistroa(k) LDAP-etik';

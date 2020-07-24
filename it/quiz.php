@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -149,7 +149,7 @@ $string['cannotsavenumberofquestion'] = 'Non è stato possibile salvare il numer
 $string['cannotsavequestion'] = 'Non è possibile salvare l\'elenco delle domande';
 $string['cannotsetgrade'] = 'Non è possibile impostare un  nuovo voto massimo per il quiz';
 $string['cannotsetsumgrades'] = 'Non è stato possibile impostare la somma dei voti';
-$string['cannotstartgradesmismatch'] = 'Non è possibile avviare un tentativo. Il quiz è valutato con un punteggio di {$a->grade} ma non contiene nessuna domanda che possa dare un punteggio. Puoi risovlere il problema nella pagian di modifica del quiz.';
+$string['cannotstartgradesmismatch'] = 'Non è possibile avviare un tentativo. Il quiz è valutato con un punteggio di {$a->grade} ma non contiene nessuna domanda che possa dare un punteggio. Puoi risolvere il problema nella pagina di modifica del quiz.';
 $string['cannotstartmissingquestion'] = 'Non è possibile avviare tentativi del quiz. Il quiz contiene una domanda che non esiste.';
 $string['cannotstartnoquestions'] = 'Non è possibile avviare un tentativo. Il quiz non è stato impostato. Non è stata aggiunta nessuna domanda.';
 $string['cannotwrite'] = 'Non è possibile scrivere il file da esportare ({$a})';
@@ -160,7 +160,7 @@ L\'impostazione ha effetto solo sulle domande e sui comportamenti delle domande 
 $string['canredoquestions_help'] = 'Consente di visualizzare il pulsante "Riprova" dopo che lo studente ha dato una risposta alla domanda. Gli studenti potranno così rispondere ad un\'altra versione della stessa domanda senza dover terminare il tentativo in svolgimento e cominciarne un altro. L\'impostazione è particolarmente utile per i quiz di prova.
 
 L\'impostazione ha effetto solo sulle domande e sui comportamenti delle domande dove lo studente può rispondere compiutamente senza dover inviare il tentativo. A titolo di esempio, non sono supportati i comportamenti di tipo Feedback immediato e Interattivo con tentativi multipli e le domande di tipo componimento.';
-$string['canredoquestionsyes'] = 'Gli studenti possono riprovare la risposta alle domande';
+$string['canredoquestionsyes'] = 'Gli studenti hanno la possibilità di provare un\'altra domanda';
 $string['caseno'] = 'No, maiuscolo/minuscolo è irrilevante';
 $string['casesensitive'] = 'Rilevanza maiuscolo/minuscolo';
 $string['caseyes'] = 'Si, maiuscolo/minuscolo è rilevante';
@@ -433,8 +433,12 @@ $string['importquestions'] = 'Importa domande da file';
 $string['inactiveoverridehelp'] = '* Gli studenti non appartengono al gruppo corretto oppure non hanno il ruolo giusto per partecipare al quiz';
 $string['incorrect'] = 'Sbagliato';
 $string['indicator:cognitivedepth'] = 'Quiz cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Quiz cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalle attività Quiz (Livelli: Nessuna visualizzazione, Visualizzazione, Invio, Visualizzazione feedback, Commento al feedback, Nuovo invio dopo il feedback)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività Quiz.';
 $string['indicator:socialbreadth'] = 'Quiz sociale';
+$string['indicator:socialbreadthdef'] = 'Quiz sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dall\'attività Quiz (Livelli: Nessuna partecipazione, Partecipazione da solo, Partecipazione con altri)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività Quiz.';
 $string['indivresp'] = 'Risposte di ciascuno ai vari  elementi';
 $string['info'] = 'Info';
@@ -853,6 +857,7 @@ $string['sectionheadingremove'] = 'Elimina intestazione \'{$a}\'';
 $string['seequestions'] = '(Visualizza domande)';
 $string['select'] = 'Seleziona';
 $string['selectall'] = 'Seleziona tutto';
+$string['selectattempt'] = 'Seleziona tentativo';
 $string['selectcategory'] = 'Seleziona categoria';
 $string['selectedattempts'] = 'Tentativi selezionati...';
 $string['selectmultipleitems'] = 'Seleziona più elementi';
@@ -964,7 +969,7 @@ $string['url'] = 'URL';
 $string['usedcategorymoved'] = 'Questa categoria è stata spostata a livello di sito, perché, dopo la cancellazione del corso, le domande in essa contenute erano utilizzate da altri quiz esistenti nel server.';
 $string['useroverrides'] = 'Personalizzazioni individuali';
 $string['useroverridesdeleted'] = 'Personalizzazioni individuali eliminate';
-$string['usersnone'] = 'Nessuno studente ha acceduto il quiz';
+$string['usersnone'] = 'Nessuno studente ha accesso al quiz';
 $string['validate'] = 'Convalida';
 $string['viewallanswers'] = 'Vedi {$a} quiz completati';
 $string['viewallreports'] = 'Vedi risultati per {$a} tentativi';

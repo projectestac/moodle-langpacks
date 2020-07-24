@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'search', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -87,6 +87,7 @@ $string['schemaversionunknown'] = 'El motor de búsqueda no conoce la versión a
 $string['score'] = 'Puntuación';
 $string['search'] = 'Búsqueda';
 $string['searcharea'] = 'Área de búsqueda';
+$string['search:customfield'] = 'Campos personalizados del curso';
 $string['searching'] = 'Buscando en...';
 $string['search:message_received'] = 'Mensajes - recibidos';
 $string['search:message_sent'] = 'Mensajes - enviados';

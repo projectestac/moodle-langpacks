@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,13 +30,14 @@ $string['addinstance'] = 'Adicionar método';
 $string['addinstanceanother'] = 'Adicionar método e criar outro';
 $string['ajaxnext25'] = 'Próximos 25...';
 $string['ajaxoneuserfound'] = 'Um utilizador encontrado';
+$string['ajaxxmoreusersfound'] = 'Mais de {$a} utilizadores encontrados';
 $string['ajaxxusersfound'] = '{$a} utilizadores encontrados';
 $string['assignnotpermitted'] = 'Não tem permissões para atribuir papéis nesta disciplina';
 $string['bulkuseroperation'] = 'Operações de utilizadores em massa';
 $string['configenrolplugins'] = 'Selecione todos os módulos necessários e coloque-os pela ordem correta.';
 $string['custominstancename'] = 'Nome personalizado da instância';
 $string['defaultenrol'] = 'Adicionar a instância a novas disciplinas';
-$string['defaultenrol_desc'] = 'Se esta configuração estiver ativa, este módulo estará ativo por predefinição nas novas disciplinas criadas.';
+$string['defaultenrol_desc'] = 'Se ativar esta opção, este módulo estará ativo por predefinição nas novas disciplinas criadas.';
 $string['deleteinstanceconfirm'] = 'Está prestes a apagar o método de inscrição "{$a->name}". Todos os {$a->users} utilizadores atualmente inscritos através deste método deixarão de estar inscritos e quaisquer informações relacionadas com a disciplina, tais como notas, participação em grupos ou subscrições de fórum, serão apagadas. Tem a certeza de ue pretende continuar?';
 $string['deleteinstanceconfirmself'] = 'Tem a certeza absoluta de que pretende eliminar a instância "{$a->name}" que lhe dá acesso a esta disciplina? Se continuar, é possível que deixe de poder aceder a esta disciplina.';
 $string['deleteinstancenousersconfirm'] = 'Está prestes a apagar o método de inscrição "{$a->name}". Tem a certeza de que pretende continuar?';
@@ -85,7 +86,7 @@ $string['eventuserenrolmentupdated'] = 'Atualização de exclusão do utilizador
 $string['expirynotify'] = 'Notificar antes da inscrição expirar';
 $string['expirynotifyall'] = 'Responsável pela inscrição e utilizador inscrito';
 $string['expirynotifyenroller'] = 'Apenas o responsável pela inscrição';
-$string['expirynotify_help'] = 'Esta configuração determina se as mensagens de notificação de fim da inscrição são ou não enviadas.';
+$string['expirynotify_help'] = 'Esta configuração determina se são enviadas, ou não, as mensagens de notificação de fim da inscrição.';
 $string['expirynotifyhour'] = 'Hora de envio das notificações de fim da inscrição';
 $string['expirythreshold'] = 'Limite de notificação';
 $string['expirythreshold_help'] = 'Os utilizadores devem ser notificados quanto tempo antes de expirar a inscrição?';
@@ -99,7 +100,8 @@ $string['finishenrollingusers'] = 'Terminar inscrições';
 $string['foundxcohorts'] = 'Foram encontrados {$a} Grupos globais';
 $string['instanceadded'] = 'Método adicionado';
 $string['instanceeditselfwarning'] = 'Aviso:';
-$string['instanceeditselfwarningtext'] = 'Está inscrito nesta disciplina através deste método de inscrição, as alterações podem afetar o seu acesso a esta disciplina.';
+$string['instanceeditselfwarningtext'] = 'Está inscrito nesta disciplina através deste método de inscrição e as alterações podem afetar o seu acesso a esta disciplina.';
+$string['invalidenrolduration'] = 'Duração da inscrição inválida';
 $string['invalidenrolinstance'] = 'Instância de inscrição inválida';
 $string['invalidrequest'] = 'Pedido inválido';
 $string['invalidrole'] = 'Papel inválido';
@@ -126,7 +128,7 @@ $string['privacy:metadata:user_enrolments'] = 'Inscrições';
 $string['privacy:metadata:user_enrolments:enrolid'] = 'A instância do módulo de inscrição';
 $string['privacy:metadata:user_enrolments:modifierid'] = 'O ID do utilizador que modificou pela última vez a inscrição do utilizador.';
 $string['privacy:metadata:user_enrolments:status'] = 'O estado da inscrição do utilizador numa disciplina';
-$string['privacy:metadata:user_enrolments:tableexplanation'] = 'O módulo de base de gestão de inscrições armazena os utilizadores inscritos.';
+$string['privacy:metadata:user_enrolments:tableexplanation'] = 'O módulo de base Gestão de inscrições armazena os utilizadores inscritos.';
 $string['privacy:metadata:user_enrolments:timecreated'] = 'A hora em que a inscrição do utilizador foi criada.';
 $string['privacy:metadata:user_enrolments:timeend'] = 'A data/hora em que termina a inscrição do utilizador.';
 $string['privacy:metadata:user_enrolments:timemodified'] = 'A hora em que a inscrição do utilizador foi modificada.';
@@ -147,6 +149,7 @@ $string['testsettings'] = 'Definições de teste';
 $string['testsettingsheading'] = 'Testar configurações da inscrição - {$a}';
 $string['totalenrolledusers'] = '{$a} utilizadores inscritos';
 $string['totalotherusers'] = '{$a} outros utilizadores';
+$string['totalunenrolledusers'] = 'Cancelada a inscrição de {$a} utilizadores';
 $string['unassignnotpermitted'] = 'Não tem permissões para remover atribuições de papéis nesta disciplina';
 $string['unenrol'] = 'Cancelar inscrição';
 $string['unenrolconfirm'] = 'Tem a certeza de que pretende cancelar a inscrição do utilizador "{$a->user}" na disciplina "{$a->course}" (anteriormente inscrito pelo método "{$a->enrolinstancename}") ?';
@@ -159,3 +162,5 @@ $string['unlimitedduration'] = 'Ilimitado';
 $string['userremovedfromselectiona'] = 'O utilizador "{$a}" foi removido da seleção.';
 $string['usersearch'] = 'Procurar';
 $string['withselectedusers'] = 'Com os utilizadores selecionados';
+$string['youenrolledincourse'] = 'Está inscrito na disciplina.';
+$string['youunenrolledfromcourse'] = 'Não está inscrito na disciplina "{$a}".';

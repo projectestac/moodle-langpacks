@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_configlog', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_configlog', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   report_configlog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,9 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configlog'] = '설정 변경';
-$string['oldvalue'] = '원래의 값';
 $string['plugin'] = '플러그인';
 $string['pluginname'] = '설정 변경';
 $string['setting'] = '설정';
 $string['timemodified'] = '날짜';
-$string['value'] = '새로운 값';
+$string['valuenew'] = '새로운 값';
+$string['valueold'] = '원래의 값';

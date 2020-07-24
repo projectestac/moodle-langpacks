@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_filesystem', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_filesystem', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_filesystem
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['blockedpath'] = 'Root-erako bide-izena blokeatuta';
 $string['configplugin'] = 'Ezarpenak fitxategi-sistema biltegirako';
+$string['crontask'] = 'Fitxategi-sistema biltegien atzeko planoko prozesatzea';
 $string['donotusesysdir'] = 'Ez erabili sistemako direktoriorik biltegi gisa, hauek barne:';
 $string['enablecourseinstances'] = 'Baimendu kudeatzaileei fitxategi-sistema biltegien instantziak ikastaro batera gehitzea (soilik kudeatzaileek konfigura dezakete)';
 $string['enableuserinstances'] = 'Baimendu kudeatzaileei fitxategi-sistema biltegiko elementu bat gehitzen norberaren erabilerarako (soilik kudeatzaileek konfigura dezakete)';

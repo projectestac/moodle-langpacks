@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_dataprivacy', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_dataprivacy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,7 @@ $string['contextlevelname70'] = 'Αρθρώματα δραστηριοτήτων
 $string['contextlevelname80'] = 'Μπλοκ';
 $string['contextpurposecategorysaved'] = 'Σκοπός και κατηγορία αποθηκεύτηκαν.';
 $string['createcategory'] = 'Δημιουργία κατηγορίας δεδομένων';
+$string['createdeletedatarequest'] = 'Δημιουργία αιτήματος διαγραφής δεδομένων';
 $string['createnewdatarequest'] = 'Δημιουργία ενός νέου αιτήματος δεδομένων';
 $string['createpurpose'] = 'Δημιουργία σκοπού δεδομένων';
 $string['creationauto'] = 'Αυτόματα';
@@ -78,9 +79,12 @@ $string['datadeletion'] = 'Διαγραφή δεδομένων';
 $string['datadeletionpagehelp'] = 'Τα δεδομένα για τα οποία έχει λήξει η περίοδος διατήρησης παρατίθενται εδώ. Παρακαλούμε, ελέγξτε και επιβεβαιώστε τη διαγραφή δεδομένων, η οποία στη συνέχεια θα εκτελείται από την προγραμματισμένη εργασία «Διαγραφή ληγμένων πλαισίων».';
 $string['dataprivacy:downloadallrequests'] = 'Κατεβάστε τα εξαγόμενα δεδομένα για όλους';
 $string['dataprivacy:downloadownrequest'] = 'Λήψη των δικών σας εξαγόμενων δεδομένων';
+$string['dataprivacy:makedatadeletionrequestsforchildren'] = 'Αίτημα διαγραφής δεδομένων για ανηλίκους';
 $string['dataprivacy:makedatarequestsforchildren'] = 'Κάντε αιτήματα δεδομένων για ανήλικους';
 $string['dataprivacy:managedataregistry'] = 'Διαχείριση μητρώου δεδομένων';
 $string['dataprivacy:managedatarequests'] = 'Διαχείριση αιτημάτων δεδομένων';
+$string['dataprivacy:requestdelete'] = 'Αίτημα διαγραφής δεδομένων για τον εαυτό σας';
+$string['dataprivacy:requestdeleteforotheruser'] = 'Αίτημα διαγραφής δεδομένων για λογαριασμό άλλου χρήστη';
 $string['dataregistry'] = 'Μητρώο δεδομένων';
 $string['dataregistryinfo'] = 'Το μητρώο δεδομένων επιτρέπει να ορίζονται κατηγορίες (τύποι δεδομένων) και σκοποί (οι λόγοι επεξεργασίας των δεδομένων) για όλο το περιεχόμενο του ιστοτόπου - από τους χρήστες και τα μαθήματα έως τις δραστηριότητες και τα μπλοκ. Για κάθε σκοπό, μπορεί να οριστεί περίοδος διατήρησης. Όταν έχει λήξει μια περίοδος διατήρησης, τα δεδομένα σημαιοδοτούνται και παρατίθενται για διαγραφή, αναμένοντας την επιβεβαίωση διαχειριστή.';
 $string['datarequestcreatedforuser'] = 'Δημιουργήθηκε αίτημα δεδομένων για {$a}';
@@ -134,7 +138,8 @@ $string['editpurposes'] = 'Επεξεργασία σκοπών';
 $string['effectiveretentionperiodcourse'] = '{$a} (μετά την ημερομηνία λήξης του μαθήματος)';
 $string['effectiveretentionperioduser'] = '{$a} (από την τελευταία φορά που ο χρήστης πραγματοποίησε πρόσβαση στον ιστότοπο)';
 $string['emailsalutation'] = 'Αγαπητέ/ή {$a},';
-$string['errorcannotdeleteadmin'] = 'Αδυναμία δημιουργίας αιτήματος διαγραφής για τον κύριο διαχειριστή ιστότοπου';
+$string['errorcannotrequestdeleteforother'] = 'Δεν έχετε δικαίωμα δημιουργίας αίτησης διαγραφής για αυτόν τον χρήστη.';
+$string['errorcannotrequestdeleteforself'] = 'Δεν έχετε δικαίωμα δημιουργίας αιτήματος διαγραφής για τον εαυτό σας.';
 $string['errorcontexthasunexpiredchildren'] = 'Το πλαίσιο «{$a}» εξακολουθεί να έχει υπο-πλαίσια που δεν έχουν ακόμη λήξει. Δεν έχουν σημαιοδοτηθεί πλαίσια για διαγραφή.';
 $string['errorinvalidrequestcreationmethod'] = 'Μη έγκυρη μέθοδος δημιουργίας αιτήματος!';
 $string['errorinvalidrequeststatus'] = 'Άκυρη κατάσταση αιτήματος!';

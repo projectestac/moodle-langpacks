@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'feedback', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -135,9 +135,14 @@ $string['horizontal'] = 'Orizzontale';
 $string['importfromthisfile'] = 'Importa da questo file';
 $string['import_questions'] = 'Importa domande';
 $string['import_successfully'] = 'Importazione completata';
+$string['includeuserinrecipientslist'] = 'Includi {$a} nell\'elenco dei destinatari,';
 $string['indicator:cognitivedepth'] = 'Feedback cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Feedback cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalle attività Feedback (Livelli: Nessuna visualizzazione, Visualizzazione, Invio)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività Feedback.';
 $string['indicator:socialbreadth'] = 'Feedback sociale';
+$string['indicator:socialbreadthdef'] = 'Feedback sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dall\'attività Feedback (Livelli: Nessuna partecipazione, Partecipazione da solo, Partecipazione con altri)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività Feedback.';
 $string['info'] = 'Informazione';
 $string['infotype'] = 'Tipo di informazione';
@@ -157,7 +162,7 @@ $string['mappedcourses'] = 'Corsi associati';
 $string['mappingchanged'] = 'Le mappature del corso sono state modificate';
 $string['maximal'] = 'Massimo';
 $string['messageprovider:message'] = 'Promemoria feedback';
-$string['messageprovider:submission'] = 'Notifiche feedback';
+$string['messageprovider:submission'] = 'Notifiche dei feedback';
 $string['minimal'] = 'Minimo';
 $string['mode'] = 'Modalità';
 $string['modulename'] = 'Feedback';

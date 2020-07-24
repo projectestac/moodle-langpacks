@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_self', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_self
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -114,7 +114,7 @@ $string['showhint_desc'] = 'Toon de eerste letter van de gast toegangssleutel';
 $string['status'] = 'Bestaande aanmeldingen toestaan';
 $string['status_desc'] = 'Zelf aanmelden inschakelen in nieuwe cursussen.';
 $string['status_help'] = 'Indien ingeschakeld samen met \'Nieuwe aanmeldingen toestaan\' uitgeschakeld, zullen enkel gebruikers die voorheen zelf aangemeld waren toegang hebben tot de cursus. Indien uitgeschakeld  is deze zelf aanmeldenmethode effectief uitgeschakeld, omdat alle bestaande zelf aangemelde gebruikers geschorst zijn en nieuwe gebruikers niet zelf kunnen aanmelden.';
-$string['syncenrolmentstask'] = 'Zelf aanmelden synchronisatietaak';
+$string['syncenrolmentstask'] = 'Synchronisatietaak voor zelf aanmelden';
 $string['unenrol'] = 'Gebruiker afmelden';
 $string['unenrolselfconfirm'] = 'Wil je jezelf echt afmelden van cursus "{$a}"?';
 $string['unenroluser'] = 'Wil je echt gebruiker "{$a->user}" van cursus "{$a->course}"?';

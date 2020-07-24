@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_overview', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_course_overview', language 'pt', branch 'MOODLE_37_STABLE'
  *
  * @package   block_course_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,8 +31,8 @@ $string['alwaysshowall'] = 'Mostrar sempre todas';
 $string['collapseall'] = 'Contrair todas as listas de disciplinas';
 $string['configotherexpanded'] = 'Se ativar esta opção, as outras disciplinas serão expandidas por predefinição, exceto se o utilizador alterar esta configuração nas suas preferências.';
 $string['configpreservestates'] = 'Se ativar esta opção, o estado contraído/expandido definido pelo utilizador será guardado e utilizado em cada carregamento.';
-$string['course_overview:addinstance'] = 'Adicionar um novo bloco Visão global das disciplinas';
-$string['course_overview:myaddinstance'] = 'Adicionar um novo bloco Visão global das disciplinas ao Painel do utilizador';
+$string['course_overview:addinstance'] = 'Adicionar um novo bloco Minhas disciplinas';
+$string['course_overview:myaddinstance'] = 'Adicionar um novo bloco Minhas disciplinas ao Painel do utilizador';
 $string['courses'] = 'Disciplinas';
 $string['defaulttab'] = 'Separador predefinido';
 $string['defaulttabdesc'] = 'Que separador será mostrado, por predefinição, quando o Painel do utilizador for aberto';
@@ -58,7 +58,7 @@ $string['none'] = 'Nenhum';
 $string['numtodisplay'] = 'Número de disciplinas a mostrar:&nbsp;';
 $string['onlyparentname'] = 'Apenas categoria ascendente';
 $string['otherexpanded'] = 'Outras disciplinas expandidas';
-$string['pluginname'] = 'Visão global da disciplina (antigo)';
+$string['pluginname'] = 'Minhas disciplinas (antigo)';
 $string['preservestates'] = 'Manter os estados expandidos';
 $string['prevpage'] = 'Página anterior';
 $string['privacy:metadata:courseorder'] = 'Lista ordenada das disciplinas mostradas';
@@ -82,11 +82,11 @@ $string['shortnamesufixsingular'] = '(e {$a} restante)';
 $string['showcategories'] = 'Categorias a mostrar';
 $string['showcategoriesdesc'] = 'As categorias deverão ser mostradas abaixo de cada disciplina?';
 $string['sortorder'] = 'Tipo de ordenação';
-$string['title'] = 'Visão global das disciplinas';
+$string['title'] = 'Minhas disciplinas';
 $string['unfavourite'] = 'Remover favorito';
 $string['userchoosezero'] = '(use predefinição)';
 $string['usersetmaxcourses'] = 'Número de disciplinas a mostrar:';
 $string['view_edit_profile'] = '(Ver e editar o seu perfil)';
-$string['welcome'] = 'Bem-vindo(a), {$a}!';
+$string['welcome'] = 'Bem-vindo(a) {$a}';
 $string['youhavemessages'] = 'Tem {$a} por ler';
 $string['youhavenomessages'] = 'Não tem mensagens por ler';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_cas', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_cas', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_cas
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['accesCAS'] = 'CAS erabiltzaileak';
 $string['accesNOCAS'] = 'beste erabiltzaile batzuk';
+$string['auth_cas_auth_logo'] = 'Autentifikazio-metodoaren logoa';
+$string['auth_cas_auth_logo_description'] = 'Eman CAS autentifikazio-metodoko zure erabiltzaileentzat ezaguna den logo bat.';
+$string['auth_cas_auth_name'] = 'Autentifikazio-metodoaren izena';
+$string['auth_cas_auth_name_description'] = 'Eman CAS autentifikazio-metodoko zure erabiltzaileentzat ezaguna den izen bat.';
+$string['auth_cas_auth_service'] = 'CAS';
 $string['auth_cas_auth_user_create'] = 'Sortu erabiltzaileak kanpotik';
 $string['auth_cas_baseuri'] = 'Zerbitzariaren URIa (zuriz Uri oinarririk ez badago)<br />Adibidez, CAS zerbitzariak host.domaine.com/CAS/ helbideari erantzuten badio, orduan<br />cas_baseuri = CAS/';
 $string['auth_cas_baseuri_key'] = 'URI oinarria';

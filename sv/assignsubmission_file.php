@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignsubmission_file', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,14 +36,12 @@ $string['enabled'] = 'Filinlämningar';
 $string['enabled_help'] = 'Om aktiverad, kan studenter ladda upp en eller flera filer som sin inlämningsuppgift';
 $string['eventassessableuploaded'] = 'En fil har laddats upp.';
 $string['file'] = 'Filinlämningar';
-$string['filesofthesetypes'] = 'Dessa filtyper kan bifogas i inlämningsuppgiften';
 $string['maxbytes'] = 'Maximal filstorlek';
 $string['maxfiles'] = 'Maxantal filer per inlämning';
 $string['maxfilessubmission'] = 'Maximalt antal uppladdade filer';
 $string['maxfilessubmission_help'] = 'Om uppladdning av filer är aktiverad, kommer varje student att kunna ladda upp till definierad antal filer för inlämnande';
 $string['maximumsubmissionsize'] = 'Maximal inlämningsstorlek';
 $string['maximumsubmissionsize_help'] = 'Filer som laddas upp av studenter kan vara upp till denna storlek';
-$string['nonexistentfiletypes'] = 'Dessa filtyper kändes inte igen: {$a}';
 $string['numfilesforlog'] = 'Antalet fil (er): {$a} fil (er).';
 $string['pluginname'] = 'Filinlämningar';
 $string['siteuploadlimit'] = 'Webbplatsens uppladningsbegränsning';

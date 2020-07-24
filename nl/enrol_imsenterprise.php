@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,11 +45,9 @@ $string['categoryseparator'] = 'Teken voor categoriescheiding';
 $string['categoryseparator_desc'] = 'Vereist wanneer "categorienummer" ingeschakeld is. een teken om de categorienaam en het ID-nummer van elkaar te scheiden';
 $string['coursesettings'] = 'Data opties van de cursus';
 $string['createnewcategories'] = 'Maak nieuwe (verborgen) cursuscategorieën indien niet gevonden in Moodle';
-$string['createnewcategories_desc'] = '<p>Als het &lt;org&gt;&lt;orgunit&gt; element in de binnenkomende gegevens van een cursus zit, dan zal de inhoud daarvan gebruikt worden om een categorie te kiezen (als een cursus volledig van scratch opgebouwd wordt).</p>
+$string['createnewcategories_desc'] = 'Als het  &lt;org&gt;&lt;orgunit&gt;  element in de binnenkomende gegevens van een cursus zit, dan zal de inhoud daarvan gebruikt worden om een categorie te kiezen als een cursus volledig van scratch opgebouwd wordt. De plugin zal geen bestaande cursussen in andere categorieën zetten.
 
-<p>De plugin zal bestaande cursussen niet in categorieën zetten.</p>
-
-<p>Als er geen categorie met de gewenste naam bestaat, dan zal er een VERBORGEN categorie aangemaakt worden.</p>';
+Als er geen categorie met de gewenste naam bestaat, dan zal er een verborgencategorie aangemaakt worden.';
 $string['createnewcourses'] = 'Maak nieuwe (verborgen) cursussen indien niet gevonden in Moodle';
 $string['createnewcourses_desc'] = '<p>De IMS Enterprise aanmeldingsplugin kan nieuwe cursussen maken als die ze vind in de IMS-gegevens en niet in de databank van Moodle en als je de optie ingeschakeld hebt.</p>
 

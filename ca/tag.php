@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tag', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -80,7 +80,7 @@ $string['inalltagcoll'] = 'Arreu';
 $string['inputstandardtags'] = 'Introduïu la llista separada per comes de les etiquetes noves';
 $string['itemstaggedwith'] = '{$a->tagarea} etiquetada amb «{$a->tag}»';
 $string['lesstags'] = 'menys...';
-$string['managestandardtags'] = 'Gestiona les etiquetes estàndards';
+$string['managestandardtags'] = 'Gestiona les etiquetes estàndard';
 $string['managetagcolls'] = 'Gestiona les col·leccions d\'etiquetes';
 $string['managetags'] = 'Gestiona les etiquetes';
 $string['moretags'] = 'més...';
@@ -120,7 +120,7 @@ $string['selectcoll'] = 'Seleccioneu la col·lecció d\'etiquetes';
 $string['selectmaintag'] = 'Seleccioneu l\'etiqueta que es farà servir després de combinar';
 $string['selectmultipletags'] = 'Seleccioneu més d\'una etiqueta';
 $string['selecttag'] = 'Selecciona l\'etiqueta {$a}';
-$string['settypedefault'] = 'Elimineu de les etiquetes estàndards';
+$string['settypedefault'] = 'Elimineu de les etiquetes estàndard';
 $string['settypestandard'] = 'Feu estàndard';
 $string['showingfirsttags'] = 'S\'estan mostrant les {$a} etiquetes més populars';
 $string['showstandard'] = 'Ús de les etiquetes estàndard';

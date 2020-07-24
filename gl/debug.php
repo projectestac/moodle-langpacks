@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'debug', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,11 +34,13 @@ $string['cannotinitpage'] = 'Non é posíbel inicializar de forma completa a pax
 $string['cannotsetuptable'] = 'As táboas {$a} NON foi posíbel estabelecelas satisfactoriamente.';
 $string['codingerror'] = 'Detectouse un erro no código, debe ser arranxado por un programador: {$a}';
 $string['configmoodle'] = 'Este Moodle non está ben configurado. Debe editar primeiro o ficheiro config.php.';
+$string['debuginfo'] = 'Información da depuración';
 $string['erroroccur'] = 'Produciuse un erro durante este proceso';
 $string['invalidarraysize'] = 'Tamaño incorrecto das matrices nos parámetros de {$a}';
 $string['invalideventdata'] = 'Enviáronse datos incorrectos desde «eventdata»: {$a}';
 $string['invalidparameter'] = 'Detectouse un valor incorrecto de parámetro';
 $string['invalidresponse'] = 'Detectouse un valor incorrecto de resposta';
+$string['line'] = 'Liña';
 $string['missingconfigversion'] = 'A táboa de configuración non contén a versión, non é posíbel continuar.';
 $string['modulenotexist'] = 'O módulo {$a} non existe';
 $string['morethanonerecordinfetch'] = 'Atopouse máis dun rexistro en fetch()';
@@ -50,9 +52,11 @@ $string['nomodules'] = 'Non se atopou ningún módulo.';
 $string['nopageclass'] = 'Importouse {$a} mais non se atoparon clases de páxina';
 $string['noreports'] = 'Non hai informes accesíbeis';
 $string['notables'] = 'Non hai táboas';
+$string['outputbuffer'] = 'Búfer de saída';
 $string['phpvaroff'] = 'A variábel do servidor PHP «{$a->name}» debería estar desactivada - {$a->link}';
 $string['phpvaron'] = 'A variábel do servidor PHP «{$a->name}» non está activada - {$a->link}';
 $string['sessionmissing'] = 'Falta o obxecto {$a} na sesión';
 $string['sqlrelyonobsoletetable'] = 'Este SQL basease na(s) táboa(s) obsoleta(s): {$a}! O código debe ser arranxado por un desenvolvedor.';
+$string['stacktrace'] = 'Traza de chamadas';
 $string['withoutversion'] = 'O ficheiro principal version.php perdeuse, non é lexíbel ou está estragado.';
 $string['xmlizeunavailable'] = 'as funcións «xmlize» non están dispoñíbeis';

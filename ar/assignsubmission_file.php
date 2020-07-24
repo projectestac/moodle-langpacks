@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignsubmission_file', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,8 +36,6 @@ $string['enabled'] = 'تسليم الملف';
 $string['enabled_help'] = 'إذا تم تفعيله، سيكون الطلاب قادرين على تحميل ملف واحد أو أكثر لتسليماتهم';
 $string['eventassessableuploaded'] = 'تم تحميل الملف بنجاح';
 $string['file'] = 'تم تسليم الملف بنجاح';
-$string['filesofthesetypes'] = 'يمكن إضافة ملفات من هذه الأنواع إلى التقديم:';
-$string['filetypewithexts'] = '{$a->name} — {$a->extlist}';
 $string['maxbytes'] = 'تجاوز الحد الاعلى لحجم الملف';
 $string['maxfiles'] = 'الحد الأقصى لعدد الملفات للتسليم الواحد';
 $string['maxfiles_help'] = 'إذا تم تفعيل تسليم الملفات، فلكل  تكليف /مهمة ، يمكن تعيين هذا العدد من الملفات لتسليمها.';
@@ -45,7 +43,6 @@ $string['maxfilessubmission'] = 'تجاوز عدد الملفات المحمله
 $string['maxfilessubmission_help'] = 'إذا تم تمكين تقديم الملفات، سيكون كل طالب قادر على تحميل هذا العدد من الملفات لتقديمها.';
 $string['maximumsubmissionsize'] = 'تجاوز حجم الملف المسلم';
 $string['maximumsubmissionsize_help'] = 'الملفات المحملة من قبل الطلبة يمكن ان تصل الى هذا الحجم';
-$string['nonexistentfiletypes'] = 'لم يتم التعرف على أنواع الملفات التالية: {$a}';
 $string['numfilesforlog'] = 'عدد الملفات  : {$a} ملف(s).';
 $string['pluginname'] = 'الملف المسلم';
 $string['privacy:metadata:filepurpose'] = 'الملفات المحملة لتقديم المهمة هذه';

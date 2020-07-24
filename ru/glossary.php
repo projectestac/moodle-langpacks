@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'glossary', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -271,7 +271,7 @@ $string['importentries'] = 'Импорт записей';
 $string['importentriesfromxml'] = 'Импорт записей из XML-файла';
 $string['includegroupbreaks'] = 'Включить разделение на группы';
 $string['indicator:cognitivedepth'] = 'Глоссарий: познавательный аспект';
-$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на  глубине познания, достигнутой студентом при работе с активным элементом Глоссарий.';
+$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на глубине познания, достигнутой студентом при работе с элементом курса «Глоссарий».';
 $string['indicator:socialbreadth'] = 'Глоссарий: социальный аспект';
 $string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с элементом Глоссарий.';
 $string['isglobal'] = 'Этот глоссарий глобальный?';

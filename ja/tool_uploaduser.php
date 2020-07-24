@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploaduser', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,9 +35,15 @@ $string['deleteerrors'] = '削除エラー';
 $string['encoding'] = 'エンコーディング';
 $string['errormnetadd'] = 'リモートユーザを追加できません。';
 $string['errors'] = 'エラー';
+$string['examplecsv'] = 'テキストファイル例';
+$string['examplecsv_help'] = 'テキストファイル例を使用するにはダウンロードしてテキストまたはスプレッドシートエディタで開いてください。先頭行は変更しないままにしてください。そして、次の行 (レコード) から編集してあなたのユーザデータ、また、必要に応じてさらに行を追加してください。ファイルをCSVとして保存してアップロードしてください。
+
+ユーザデータをプレビューしてユーザアカウント作成前に処理をキャンセルできるため、あなたはテキストファイル例をテスト用にも使用できます。';
+$string['invalidtheme'] = 'テーマ「 {$a} 」はインストールされていないため無視されます。';
 $string['invalidupdatetype'] = '選択されたアップロードタイプでこのオプションは選択できません。';
 $string['invaliduserdata'] = 'ユーザ {$a} に無効なデータが検出されたため自動的に削除されました。';
 $string['nochanges'] = '変更なし';
+$string['notheme'] = 'このユーザに定義されたテーマはありません。';
 $string['pluginname'] = 'ユーザアップロード';
 $string['privacy:metadata'] = 'ユーザアップロードプラグインはいかなる個人データも保存しません。';
 $string['renameerrors'] = 'リネームエラー';
@@ -77,6 +83,7 @@ $string['usersrenamed'] = 'ユーザがリネームされました';
 $string['usersskipped'] = 'ユーザがスキップされました';
 $string['usersupdated'] = 'ユーザが更新されました';
 $string['usersweakpassword'] = '弱いパスワードを持ったユーザ';
+$string['userthemesnotallowed'] = 'ユーザテーマが有効にされていないため、アップロードユーザファイルに含まれるユーザテーマは無視されます。';
 $string['uubulk'] = 'バルクユーザ処理を選択する';
 $string['uubulkall'] = 'すべてのユーザ';
 $string['uubulknew'] = '新しいユーザ';

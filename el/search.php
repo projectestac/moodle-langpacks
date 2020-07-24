@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'search', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,11 @@ $string['confirm_delete'] = 'Είστε βέβαιοι ότι θέλετε να 
 $string['confirm_deleteall'] = 'Είστε βέβαιοι ότι θέλετε να διαγράψετε όλα τα ευρετήρια περιεχομένου τώρα; Μέχρι να γίνει ξανά ευρετηρίαση του ιστοτόπου, οι χρήστες δεν θα λάβουν αποτελέσματα αναζήτησης.';
 $string['confirm_indexall'] = 'Είστε βέβαιοι ότι θέλετε να ενημερώσετε ευρετηριασμένα περιεχόμενα τώρα; Εάν μια μεγάλη ποσότητα περιεχομένου χρειάζεται ευρετηρίαση, αυτό μπορεί να πάρει πολύ χρόνο. Για εξυπηρετητές σε λειτουργία, πρέπει κανονικά να αφήσετε την ευρετηρίαση στην χρονοπρογραμματισμένη εργασία «Ευρετηρίαση καθολικής αναζήτησης».';
 $string['confirm_reindexall'] = 'Είστε βέβαιοι ότι θέλετε να αναδημιουργήσετε το ευρετήριο για όλα τα περιεχόμενα του ιστοτόπου τώρα; Εάν ο ιστότοπός σας περιέχει μεγάλη ποσότητα περιεχομένου, αυτό θα διαρκέσει πολύ και οι χρήστες ενδέχεται να μην έχουν πλήρη αποτελέσματα αναζήτησης μέχρι να ολοκληρωθεί.';
+$string['core-all'] = 'Όλα';
+$string['core-course-content'] = 'Περιεχόμενο μαθήματος';
+$string['core-courses'] = 'Μαθήματα';
+$string['core-other'] = 'Άλλο';
+$string['core-users'] = 'Χρήστες';
 $string['createanindex'] = 'δημιουργία ευρετηρίου';
 $string['createdon'] = 'Δημιουργήθηκε την';
 $string['database'] = 'Βάση δεδομένων';
@@ -84,6 +89,7 @@ $string['invalidindexerror'] = 'Ο κατάλογος ευρετηρίου πε�
 $string['ittook'] = 'Χρειάστηκαν';
 $string['matchingfile'] = 'Αντιστοιχισμένο από το αρχείο <span class="filename">«{$a}»</span>';
 $string['matchingfiles'] = 'Αντιστοίχιση από αρχεία:';
+$string['mycoursesonly'] = 'Τα μαθήματά μου μόνο';
 $string['next'] = 'Επόμενο';
 $string['noindexmessage'] = 'Διαχειριστές: Φαίνεται πως δεν υπάρχει ευρετήριο. Παρακαλούμε (φροντίστε το!)';
 $string['noresults'] = 'Καθόλου αποτελέσματα';
@@ -109,6 +115,9 @@ $string['schemaversionunknown'] = 'Η μηχανή αναζήτησης δεν �
 $string['score'] = 'Σκορ';
 $string['search'] = 'Αναζήτηση';
 $string['searcharea'] = 'Περιοχή αναζήτησης';
+$string['searchareacategories'] = 'Κατηγορίες περιοχών αναζήτησης';
+$string['search:course'] = 'Μαθήματα';
+$string['search:customfield'] = 'Προσαρμοσμένα πεδία μαθήματος';
 $string['searching'] = 'Γίνεται αναζήτηση στο...';
 $string['search:message_received'] = 'Μηνύματα - ληφθέντα';
 $string['search:message_sent'] = 'Μηνύματα - απεσταλμένα';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'grades', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addfeedback'] = 'Engadir comentario';
 $string['addgradeletter'] = 'Engadir unha letra de cualificación';
 $string['addidnumbers'] = 'Engadir números ID';
 $string['additem'] = 'Engadir un elemento de cualificación';
+$string['additionalfeedback'] = 'Comentario adicional';
 $string['addoutcome'] = 'Engadir un resultado';
 $string['addoutcomeitem'] = 'Engadir elemento de resultado';
 $string['addscale'] = 'Engadir unha escala';
@@ -126,6 +127,7 @@ $string['changedefaults'] = 'Cambiar os valores predeterminados';
 $string['changereportdefaults'] = 'Cambiar os valores predeterminados do informe';
 $string['chooseaction'] = 'Escolla unha acción ...';
 $string['choosecategory'] = 'Escoller unha categoría';
+$string['collapsecriterion'] = 'Criterio de colapso';
 $string['combo'] = 'Tabuladores e menú despregábel';
 $string['compact'] = 'Compacto';
 $string['componentcontrolsvisibility'] = 'Se está agochado o elemento de cualificación é controlado pola configuración da actividade.';
@@ -202,6 +204,8 @@ $string['errorupdatinggradecategoryaggregateoutcomes'] = 'Produciuse un erro ao 
 $string['errorupdatinggradecategoryaggregation'] = 'Produciuse un erro ao actualizar o tipo de agregación da categoría de cualificación co ID {$a->id}';
 $string['errorupdatinggradeitemaggregationcoef'] = 'Produciuse un erro ao actualizar o coeficiente de agregación (ponderación ou punto adicional) da categoría de cualificación co ID {$a->id}';
 $string['eventgradedeleted'] = 'Eliminada a cualificación';
+$string['eventgradeitemcreated'] = 'Creouse o elemento de cualificación';
+$string['eventgradeitemupdated'] = 'Actualizouse o elemento de cualificación';
 $string['eventgradelettercreated'] = 'Creada a cualificación con letras';
 $string['eventgradeletterdeleted'] = 'Eliminada a cualificación con letras';
 $string['eventgradeletterupdated'] = 'Actualizada a cualificación con letras';
@@ -213,6 +217,7 @@ $string['eventusergraded'] = 'usuario cualificado';
 $string['excluded'] = 'Excluída';
 $string['excluded_help'] = 'Se esta marcado, a cualificación non será incluída en ningunha agregación.';
 $string['expand'] = 'Expandir a categoría';
+$string['expandcriterion'] = 'Ampliar o criterio';
 $string['export'] = 'Exportar';
 $string['exportalloutcomes'] = 'Exportar todos os resultados';
 $string['exportfeedback'] = 'Incluír comentarios na exportación';
@@ -292,6 +297,7 @@ $string['gradeexportuserprofilefields_desc'] = 'Incluír estes campos de perfil 
 $string['gradeforstudent'] = '{$a->student}<br />{$a->item}{$a->feedback}';
 $string['gradegrademinmax'] = 'Cualificacións mín. e máx. iniciais';
 $string['gradehelp'] = 'Axuda sobre a cualificación';
+$string['grade_help'] = 'A cualificación para premiar o alumno polo seu traballo.';
 $string['gradehistorylifetime'] = 'Duración do historial da cualificación';
 $string['gradehistorylifetime_help'] = 'Isto especifica durante canto tempo quere manter o historial de cambios nas táboas de cualificación relacionadas. Recomendase mantelo o máximo de tempo posíbel. Se experimenta problemas de funcionamento ou ten un espazo limitado na base de datos, probe cun valor máis baixo.';
 $string['gradeimport'] = 'Importar cualificacións';
@@ -320,6 +326,8 @@ $string['grademax'] = 'Cualificación máxima';
 $string['grademax_help'] = 'Este axuste determina a cualificación máxima cando se usa «Valor» como «Tipo de cualificación». A cualificación máxima para unha cualificación baseada na actividade estabelecese na páxina de configuración da actividade.';
 $string['grademin'] = 'Cualificación mínima';
 $string['grademin_help'] = 'Este axuste determina a cualificación mínima cando se usa «Valor» como «Tipo de cualificación».';
+$string['gradenotificationmessage'] = 'Ten novos comentarios sobre o seu traballo «{$a}»';
+$string['gradenotificationsubject'] = 'Vostede foi cualificado';
 $string['gradeoutcomeitem'] = 'Elemento de resultado de cualificación';
 $string['gradeoutcomes'] = 'Resultados';
 $string['gradeoutcomescourses'] = 'Resultados do curso';
@@ -358,6 +366,7 @@ $string['gradevaluetoobig'] = 'Un dos valores de cualificación é maior que a c
 $string['gradeview'] = 'Ver a cualificación';
 $string['gradewasmodifiedduringediting'] = 'A cualificación feita por {$a->itemname} para {$a->username} foi ignorada, porque foi actualizada más recentemente por alguén.';
 $string['gradeweighthelp'] = 'Axuda sobre a ponderación da cualificación';
+$string['gradingmodulename'] = 'Cualificar ({$a})';
 $string['groupavg'] = 'Media do grupo';
 $string['hidden'] = 'Agochado';
 $string['hiddenasdate'] = 'Amosar a data de entrega para as cualificacións agochadas';
@@ -557,6 +566,7 @@ $string['noselecteditems'] = 'non hai elementos seleccionados.';
 $string['notenrolled'] = 'Vostede actualmente non está matriculado en ningún curso.';
 $string['notteachererror'] = 'Só os profesores poden empregar esta opción.';
 $string['nousersloaded'] = 'Non hai usuarios cargados';
+$string['nouserstograde'] = 'Non hai usuarios que cualificar';
 $string['numberofgrades'] = 'Número de cualificacións';
 $string['onascaleof'] = 'nunha escala de {$a->grademin} a {$a->grademax}';
 $string['operations'] = 'Operacións';

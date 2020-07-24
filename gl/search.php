@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'search', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,11 @@ $string['confirm_delete'] = 'Confirma que quere eliminar o índice de {$a}? Ata 
 $string['confirm_deleteall'] = 'Confirma que quere eliminar todos os contidos indexados agora? Ata que o sitio non se indexa de novo, os usuarios non obterán resultados de busca.';
 $string['confirm_indexall'] = 'Confirma que quere actualizar os contidos indexados agora? Se unha gran cantidade de contido precisa de indexación, isto pode levar moito tempo. Para os servidores en directo, normalmente debería deixar a indexación na tarefa programada «Indexado de busca global».';
 $string['confirm_reindexall'] = 'Confirma que quere volver indexar todos os contidos do sitio agora? Se o sitio contén unha gran cantidade de contido, isto levará moito tempo e os usuarios non poderán obter os resultados da busca completa ata que se complete.';
+$string['core-all'] = 'Todos';
+$string['core-course-content'] = 'Contido do curso';
+$string['core-courses'] = 'Cursos';
+$string['core-other'] = 'Outro';
+$string['core-users'] = 'Usuarios';
 $string['createanindex'] = 'crear un índice';
 $string['createdon'] = 'Creado o';
 $string['database'] = 'Base de datos';
@@ -84,6 +89,7 @@ $string['invalidindexerror'] = 'O índice do directorio, ou contén un índice i
 $string['ittook'] = 'Levoulle';
 $string['matchingfile'] = 'Emparellando desde o ficheiro <span class="filename">{$a}</span>';
 $string['matchingfiles'] = 'Emparellando desde os ficheiros:';
+$string['mycoursesonly'] = 'Só os meus cursos';
 $string['next'] = 'Seguinte';
 $string['noindexmessage'] = 'Admin: Semella que non hai ningún índice de busca.';
 $string['noresults'] = 'Sen resultados';
@@ -109,6 +115,9 @@ $string['schemaversionunknown'] = 'O motor de busca non sabe sobre a versión ac
 $string['score'] = 'Puntuación';
 $string['search'] = 'Buscar';
 $string['searcharea'] = 'Área de buscas';
+$string['searchareacategories'] = 'Categorías de área de buscas';
+$string['search:course'] = 'Cursos';
+$string['search:customfield'] = 'Campos personalizados do curso';
 $string['searching'] = 'Buscando en ...';
 $string['search:message_received'] = 'Mensaxes - recibidas';
 $string['search:message_sent'] = 'Mensaxes - enviadas';

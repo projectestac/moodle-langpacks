@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'chat', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   chat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,6 +55,7 @@ $string['configserverip'] = 'Het IP-adres dat hoort bij bovenstaande computernaa
 $string['configservermax'] = 'Maximale aantal toegelaten clients';
 $string['configserverport'] = 'Poort die de server moet gebruiken voor de daemon';
 $string['coursetheme'] = 'Cursusthema';
+$string['crontask'] = 'Achtergrondverwerking voor chatmodule';
 $string['currentchats'] = 'Actieve chatsessies';
 $string['currentusers'] = 'Huidige gebruikers';
 $string['deletesession'] = 'Verwijder de sessie';
@@ -66,13 +67,17 @@ $string['errornousers'] = 'Kon geen gebruikers vinden!';
 $string['eventmessagesent'] = 'Bericht verzonden';
 $string['eventsessionsviewed'] = 'Sessies bekeken';
 $string['explaingeneralconfig'] = 'Deze instellingen worden <strong>altijd</strong> gebruikt';
-$string['explainmethoddaemon'] = 'Deze instellingen worden <strong>alleen maar</strong> gebruikt als je de "Chat server daemon" gekozen hebt bij chat_method';
-$string['explainmethodnormal'] = 'Deze instellingen worden <strong>alleen maar</strong> gebrukt als je "Normale methode" gekozen hebt bij chat_method';
+$string['explainmethoddaemon'] = 'Deze instellingen worden alleen gebruikt als je de "Chat server daemon" gekozen hebt bij Chat methode (chat_method).';
+$string['explainmethodnormal'] = 'Deze instellingen worden alleen gebruikt als je "Normaal" gekozen hebt bij chat methode (chat_method).';
 $string['generalconfig'] = 'Algemene instellingen';
 $string['idle'] = 'Wachtend';
 $string['indicator:cognitivedepth'] = 'Chat cognitief';
+$string['indicator:cognitivedepthdef'] = 'Chat cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de Chat-activiteiten tijdens dit analyse-interval bereikt (Niveaus = Geen weergave, Bekijken, Verzenden, Feedback bekijken, Reageren op feedback)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Chat activiteit.';
 $string['indicator:socialbreadth'] = 'Chat sociaal';
+$string['indicator:socialbreadthdef'] = 'Chat sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid van de Chat-activiteiten tijdens dit analyse-interval bereikt (Niveaus = Geen deelname, Alleen deelnemer, Deelnemer met anderen)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Chat activiteit.';
 $string['inputarea'] = 'Inputvenster';
 $string['invalidid'] = 'Kon chatroom niet vinden!';
@@ -86,9 +91,9 @@ $string['messageexit'] = '{$a} heeft deze chat verlaten';
 $string['messages'] = 'Berichten';
 $string['messageyoubeep'] = 'Je biepte {$a}';
 $string['method'] = 'Chat methode';
-$string['methodajax'] = 'Ajaxmethode';
+$string['methodajax'] = 'AJAX';
 $string['methoddaemon'] = 'Chat server daemon';
-$string['methodnormal'] = 'Gewone methode';
+$string['methodnormal'] = 'Normaal';
 $string['modulename'] = 'Chat';
 $string['modulename_help'] = 'Met de chatmodule kunnen deelnemers een real-time synchrone discussie hebben.
 

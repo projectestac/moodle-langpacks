@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tag', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,6 +36,7 @@ $string['confirmdeletetag'] = '¿Está seguro de que quiere eliminar esta etique
 $string['confirmdeletetags'] = '¿Está seguro de que quiere eliminar las etiquetas seleccionadas?';
 $string['count'] = 'Contar';
 $string['coursetags'] = 'Etiquetas de curso';
+$string['defautltagcoll'] = 'Colección por defecto';
 $string['delete'] = 'Eliminar';
 $string['deleted'] = 'Eliminado';
 $string['deletedcoursetags'] = 'Eliminado - marcas del curso';
@@ -58,6 +59,8 @@ $string['flagasinappropriate'] = 'Señalar como inapropiado';
 $string['flagged'] = 'Etiqueta señalada';
 $string['helprelatedtags'] = 'Marcas relacionadas separadas por comas';
 $string['id'] = 'id';
+$string['inalltagcoll'] = 'En todas partes';
+$string['itemstaggedwith'] = '{$a->tagarea} etiquetado con "{$a->tag}"';
 $string['managestandardtags'] = 'Administrar marcas estándar';
 $string['managetagcolls'] = 'Administrar colecciones de marcas';
 $string['managetags'] = 'Gestionar marcas';
@@ -67,6 +70,7 @@ $string['namesalreadybeeingused'] = 'Los nombres de marca ya se están usando';
 $string['newnamefor'] = 'Nuevo nombre para etiqueta {$a}';
 $string['nextpage'] = 'Más';
 $string['noresultsfor'] = 'No hay resultados para "{$a}"';
+$string['notagsfound'] = 'No se encontraron etiquetas al buscar por "{$a}"';
 $string['nothingtoupdate'] = 'No hay actualizaciones';
 $string['owner'] = 'Propietario';
 $string['page-tag-index'] = 'Página de marca única';

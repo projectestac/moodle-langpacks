@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'editor_tinymce', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,7 @@ $string['advanced:bold_desc'] = 'Negrito (Ctrl+B)';
 $string['advanced:bullist_desc'] = 'Inserir/remover lista com marcas';
 $string['advanced:charmap_delta_height'] = '';
 $string['advanced:charmap_delta_width'] = '';
-$string['advanced:charmap_desc'] = 'Inserir carater especial';
+$string['advanced:charmap_desc'] = 'Inserir caráter especial';
 $string['advanced:cleanup_desc'] = 'Limpar código incorreto';
 $string['advanced:clipboard_msg'] = 'Copiar/cortar/colar não está disponível no Mozilla e Firefox. Pretende obter mais informações sobre este assunto?';
 $string['advanced:code'] = 'Código';
@@ -64,7 +64,7 @@ $string['advanced_dlg:accessibility_usage_title'] = 'Utilização geral';
 $string['advanced_dlg:anchor_invalid'] = 'Por favor, especifique um nome de âncora válido.';
 $string['advanced_dlg:anchor_name'] = 'Nome da âncora';
 $string['advanced_dlg:anchor_title'] = 'Inserir/editar âncora';
-$string['advanced_dlg:charmap_title'] = 'Selecionar carater especial';
+$string['advanced_dlg:charmap_title'] = 'Selecionar caráter especial';
 $string['advanced_dlg:charmap_usage'] = 'Use as setas direita e esquerda para navegar';
 $string['advanced_dlg:code_title'] = 'Editor HTML';
 $string['advanced_dlg:code_wordwrap'] = 'Quebra automática de linha';
@@ -103,7 +103,7 @@ $string['advanced_dlg:link_target_blank'] = 'Abrir hiperligação numa nova jane
 $string['advanced_dlg:link_target_same'] = 'Abrir hiperligação na mesma janela';
 $string['advanced_dlg:link_title'] = 'Inserir/editar hiperligação';
 $string['advanced_dlg:link_titlefield'] = 'Título';
-$string['advanced_dlg:link_url'] = 'Hiperligação para URL';
+$string['advanced_dlg:link_url'] = 'URL da hiperligação';
 $string['advanced:dt'] = 'Termo da definição';
 $string['advanced:fontdefault'] = 'Tipo de fonte';
 $string['advanced:font_size'] = 'Tamanho';
@@ -237,7 +237,7 @@ $string['advlink_dlg:popup_menubar'] = 'Mostrar a barra de menu';
 $string['advlink_dlg:popup_name'] = 'Nome da janela';
 $string['advlink_dlg:popup_opts'] = 'Opções';
 $string['advlink_dlg:popup_position'] = 'Posição (X/Y)';
-$string['advlink_dlg:popup_props'] = 'Propriedades de pop-up';
+$string['advlink_dlg:popup_props'] = 'Propriedades da janela pop-up';
 $string['advlink_dlg:popup_resizable'] = 'Permitir alteração do tamanho da janela';
 $string['advlink_dlg:popup_return'] = 'Inserir "return false"';
 $string['advlink_dlg:popup_scrollbars'] = 'Mostrar as barras de scroll';
@@ -335,7 +335,7 @@ $string['common:invalid_data_number'] = '{#field} tem de ser um número';
 $string['common:invalid_data_size'] = '{#field} tem de ser um número ou percentagem';
 $string['common:more_colors'] = 'Mais cores...';
 $string['common:not_set'] = '-- Não especificado --';
-$string['common:popup_blocked'] = 'Detetamos que o bloqueador de pop-ups impediu uma janela que é essencial para a aplicação. Precisa desativar o bloqueador de janelas de pop-up para utilizar esta ferramenta.';
+$string['common:popup_blocked'] = 'Detetamos que o bloqueador de pop-ups impediu uma janela que é essencial para a aplicação. Tem de desativar o bloqueador de janelas pop-up para utilizar esta ferramenta.';
 $string['common:update'] = 'Atualizar';
 $string['common:value'] = '(valor)';
 $string['contextmenu:align'] = 'Alinhamento';
@@ -544,7 +544,7 @@ $string['media_dlg:play'] = 'Execução automática';
 $string['media_dlg:playcount'] = 'Play count';
 $string['media_dlg:playeveryframe'] = 'Executar todas as frames';
 $string['media_dlg:poster'] = 'Poster';
-$string['media_dlg:prefetch'] = 'Prefetch';
+$string['media_dlg:prefetch'] = 'Pré-procura';
 $string['media_dlg:preload'] = 'Pré-carregar';
 $string['media_dlg:preload_auto'] = 'Permitir que seja o navegador do utilizador a decidir';
 $string['media_dlg:preload_metadata'] = 'Pré-visualizar metadados de vídeo';

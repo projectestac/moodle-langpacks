@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cache', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addstoresuccess'] = 'Entrepôt ajouté pour {$a}';
 $string['area'] = 'Zone';
 $string['cacheadmin'] = 'Administration du cache';
 $string['cacheconfig'] = 'Configuration';
+$string['cachedef_calculablesinfo'] = 'Infos calculées lors des analyses de données';
 $string['cachedef_calendar_categories'] = 'Catégories de calendrier qu\'un utilisateur peut consulter';
 $string['cachedef_calendar_subscriptions'] = 'Abonnements de calendrier';
 $string['cachedef_capabilities'] = 'Liste des capacités système';
@@ -46,21 +47,25 @@ $string['cachedef_coursecattree'] = 'Arbre des catégories de cours';
 $string['cachedef_coursecompletion'] = 'État d\'achèvement de cours';
 $string['cachedef_coursecontacts'] = 'Liste des contacts de cours';
 $string['cachedef_coursemodinfo'] = 'Information accumulée sur les modules et sections de chaque cours';
+$string['cachedef_course_user_dates'] = 'Les dates utilisateurs pour les cours configurés en mode dates relatives';
 $string['cachedef_databasemeta'] = 'Méta-information de base de données';
 $string['cachedef_eventinvalidation'] = 'Invalidation de l\'événement';
 $string['cachedef_externalbadges'] = 'Badges externes pour un utilisateur déterminé';
 $string['cachedef_fontawesomeiconmapping'] = 'Correspondance des icônes pour font awesome';
 $string['cachedef_grade_categories'] = 'Requêtes des catégories de notes';
+$string['cachedef_grade_letters'] = 'Requêtes de notes lettre';
 $string['cachedef_groupdata'] = 'Information du groupe de cours';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier - contenu nettoyé';
 $string['cachedef_langmenu'] = 'Liste des langues disponibles';
 $string['cachedef_locking'] = 'Verrouillage';
 $string['cachedef_message_processors_enabled'] = 'État d\'activation des processeurs de message';
 $string['cachedef_message_time_last_message_between_users'] = 'Durée entre messages les plus récents entre utilisateurs';
+$string['cachedef_modelfirstanalyses'] = 'Première analyse par le modèle et analysable';
 $string['cachedef_navigation_expandcourse'] = 'Navigation des cours dépliables';
 $string['cachedef_observers'] = 'Observateurs d\'événements';
 $string['cachedef_plugin_functions'] = 'Fonctions de rappel des plugins disponibles';
 $string['cachedef_plugin_manager'] = 'Gestionnaire d\'info des plugins';
+$string['cachedef_portfolio_add_button_portfolio_instances'] = 'Instances de portfolio pour la classe portfolio_add_button';
 $string['cachedef_postprocessedcss'] = 'CSS post-traité';
 $string['cachedef_presignup'] = 'Données avant inscription pour un utilisateur particulier sans compte.';
 $string['cachedef_questiondata'] = 'Définitions des questions';
@@ -77,6 +82,7 @@ $string['cachedef_yuimodules'] = 'Modules YUI';
 $string['cachelock_file_default'] = 'Verrouillage de fichier par défaut';
 $string['cachestores'] = 'Entrepôts de cache';
 $string['caching'] = 'Cache';
+$string['canuselocalstore'] = 'Peut utiliser un entrepôt local';
 $string['component'] = 'Composant';
 $string['confirmlockdeletion'] = 'Confirmer la suppression du verrou';
 $string['confirmstoredeletion'] = 'Confirmer la suppression de l\'entrepôt';
@@ -138,8 +144,11 @@ $string['plugin'] = 'Plugin';
 $string['pluginsummaries'] = 'Entrepôts de cache installés';
 $string['privacy:metadata:cachestore'] = 'Le sous-système Cache enregistre temporairement des données pour d\'autres parties de Moodle. Il sert comme cache de données déjà enregistrées ailleurs dans Moodle, et sont donc en principe déjà traitées par ces composants de Moodle. Ces données sont difficilement identifiables et leur durée de vie est très courte.';
 $string['purge'] = 'Purger';
+$string['purgeagain'] = 'Purger à nouveau';
 $string['purgedefinitionsuccess'] = 'La définition requise a été purgée';
 $string['purgestoresuccess'] = 'L\'entrepôt indiqué a été purgé.';
+$string['purgexdefinitionsuccess'] = 'Le cache « {$a->name} » ({$a->component}/{$a->area}) a été purgé correctement.';
+$string['purgexstoresuccess'] = 'Entrepôt « {$a->store} » purgé.';
 $string['requestcount'] = 'Tester avec {$a} requêtes';
 $string['rescandefinitions'] = 'Relire les définitions';
 $string['result'] = 'Résultat';

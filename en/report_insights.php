@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_insights', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_insights', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   report_insights
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['calculatedvalue'] = 'Calculated value';
+$string['actionsaved'] = 'Your feedback of \'{$a}\' has been saved.';
+$string['confirmbulkaction'] = 'Are you sure you want to flag the {$a->nitems} selected predictions as {$a->action}?';
 $string['disabledmodel'] = 'This model has been disabled by an administrator.';
-$string['indicator'] = 'Indicator';
+$string['indicators'] = 'Indicators';
 $string['insight'] = 'Insight';
-$string['insightprediction'] = '{$a} prediction';
 $string['insights'] = 'Insights';
 $string['justpredictions'] = 'Please note that the following insights are only predictions. It is not possible to predict the future with any certainty. The insights are provided so that action can be taken as necessary to prevent any negative predictions becoming reality.';
 $string['nodetailsavailable'] = 'No prediction details are relevant.';
@@ -42,10 +42,10 @@ $string['outcomeverynegative'] = 'Very negative outcome';
 $string['outcomeverypositive'] = 'Very positive outcome';
 $string['pluginname'] = 'Insights';
 $string['prediction'] = 'Prediction';
-$string['predictioncalculations'] = 'Indicator calculations';
 $string['predictiondetails'] = 'Prediction details';
 $string['privacy:metadata'] = 'The Insights plugin does not store any personal data.';
 $string['selectotherinsights'] = 'Select other insights...';
+$string['selectprediction'] = 'Select {$a} for bulk action';
 $string['timecreated'] = 'Time predicted';
-$string['timerange'] = 'Time range';
+$string['timerange'] = 'Analysis interval';
 $string['timerangewithdata'] = '{$a->timestart} to {$a->timeend}';

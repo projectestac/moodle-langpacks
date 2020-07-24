@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_messageinbound', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'Nome da classe';
 $string['component'] = 'Componente';
-$string['configmessageinboundhost'] = 'O endereço do servidor em que o Moodle deve verificar o correio eletrónico. Para especificar uma porta não predefinida, pode usar a sintaxe [server]:[port], como por exemplo \'mail.example.com:587\'. Se deixar o campo vazio, o Moodle usará a porta predefinida para o tipo de servidor de e-mail que especificou.';
+$string['configmessageinboundhost'] = 'O endereço do servidor em que o Moodle deve verificar o correio eletrónico. Para especificar uma porta não predefinida, pode usar a sintaxe [server]:[port], como por exemplo \'mail.example.com:993\'. Se deixar o campo vazio, o Moodle usará a porta predefinida para o tipo de servidor de e-mail que especificou.';
 $string['defaultexpiration'] = 'Período de validade do endereço predefinido';
 $string['defaultexpiration_help'] = 'Quando um endereço de e-mail é gerado pelo handler, pode ser definido para expirar automaticamente após um período de tempo e, por isso, já não pode ser usado novamente. É aconselhável definir um período de validade.';
 $string['description'] = 'Descrição';
@@ -41,7 +41,7 @@ $string['fixedvalidateaddress'] = 'Validar endereço de remetente';
 $string['fixedvalidateaddress_help'] = 'Não é possível alterar o endereço de validação deste handler. Isto pode dever-se ao facto do handler requerer uma configuração específica.';
 $string['handlerdisabled'] = 'O handler de e-mail que tentou contactar foi desativado. Não é possível processar a mensagem neste momento.';
 $string['incomingmailconfiguration'] = 'Configuração de entrada de e-mails';
-$string['incomingmailserversettings'] = 'Definições do servidor de entrada de e-mails';
+$string['incomingmailserversettings'] = 'Configurações do servidor de entrada de e-mails';
 $string['incomingmailserversettings_desc'] = 'O Moodle é capaz de ligar a servidores IMAP devidamente configurados. Pode especificar aqui as definições usadas para ligar ao seu servidor IMAP.';
 $string['invalidrecipientdescription'] = 'A mensagem "{$a->subject}" não pôde ser autenticada, pois foi enviada a partir de um endereço de e-mail diferente do que consta no seu perfil de utilizador.';
 $string['invalidrecipientdescriptionhtml'] = 'A mensagem "{$a->subject}" não pôde ser autenticada, pois foi enviada a partir de um endereço de e-mail diferente do que consta do seu perfil de utilizador. Para que a mensagem seja autenticada, deverá responder a esta mensagem.';

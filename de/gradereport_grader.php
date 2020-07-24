@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_grader', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradereport_grader', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   gradereport_grader
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,7 @@ $string['privacy:metadata:preference:grade_report_enableajax'] = 'Ob ein Layer m
 $string['privacy:metadata:preference:grade_report_grader_collapsed_categories'] = 'Liste der Bewertungskategorien zum Einklappen';
 $string['privacy:metadata:preference:grade_report_meanselection'] = 'Ob Zellen ohne Bewertungen in die Berechnung des Durchschnitts (Mittel) für jede Kategorie oder jedes Bewertungsitem einbezogen wird.';
 $string['privacy:metadata:preference:grade_report_quickgrading'] = 'Ob eine Texteingabe-Box für jede Bewertung angezeigt wird, um eine große Anzahl von Nutzern einfach zu bewerten.';
-$string['privacy:metadata:preference:grade_report_rangesdecimalpoints'] = 'Anzahl der Dezimalzahlen für jede Range oder ob die Einstellung der Kategorie oder des Bewertungsitems genutzt wird (Vererbung)';
+$string['privacy:metadata:preference:grade_report_rangesdecimalpoints'] = 'Anzahl der Dezimalstellen für jeden Bereich oder ob die übergeordnete Einstellung der Kategorie oder des Bewertungsobjekts werden soll (Vererbung).';
 $string['privacy:metadata:preference:grade_report_rangesdisplaytype'] = 'Ob der Bereich als reale Bewertung, Prozenzahl oder Note genutzt wird oder ob der Wert, der für die Kategorie oder das Bewertungsitem gesetzt wurde, angezeigt wird (Vererbung)';
 $string['privacy:metadata:preference:grade_report_showactivityicons'] = 'Hier wird festelegt, ob die Aktivitäts-Icons neben den Aktivitätsnamen angezeigt werden sollen.';
 $string['privacy:metadata:preference:grade_report_showanalysisicon'] = 'Ob das Icon zur Bewertungsanalyse automatisch angezeigt werden soll. Wenn das Aktivitätsplugin die Funktion unterstützt führt der Link zu einer Unterseite, die das Zustandekommen der Bewertung genauer darstellt.';

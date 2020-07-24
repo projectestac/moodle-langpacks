@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_insights', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_insights', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   report_insights
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['calculatedvalue'] = 'Valeur calculée';
+$string['actionsaved'] = 'Votre feedback de « {$a} » a été enregistré.';
+$string['confirmbulkaction'] = 'Voulez-vous vraiment signaler les {$a->nitems} prédictions sélectionnées comme « {$a->action} » ?';
 $string['disabledmodel'] = 'Ce modèle a été désactivé par un administrateur.';
-$string['indicator'] = 'Indicateur';
+$string['indicators'] = 'Indicateurs';
 $string['insight'] = 'Indication';
-$string['insightprediction'] = 'Prédiction {$a}';
 $string['insights'] = 'Indications';
 $string['justpredictions'] = 'Veuillez noter que les indications ci-dessous ne sont que des prédictions. Il n\'est pas possible de prédire l\'avenir avec certitude. Les indications sont fournies afin que des actions puissent être effectuées si nécessaire dans le but d\'empêcher des prédictions négatives de devenir réalité.';
 $string['nodetailsavailable'] = 'Aucun détail de prédiction n\'est pertinent.';
@@ -42,10 +42,10 @@ $string['outcomeverynegative'] = 'Résultat très négatif';
 $string['outcomeverypositive'] = 'Résultat très positif';
 $string['pluginname'] = 'Indications';
 $string['prediction'] = 'Prédiction';
-$string['predictioncalculations'] = 'Calculs de l\'indicateur';
 $string['predictiondetails'] = 'Détails de la prédiction';
 $string['privacy:metadata'] = 'Le plugin Indications n\'enregistre aucune donnée personnelle.';
 $string['selectotherinsights'] = 'Sélectionner d\'autres indications…';
+$string['selectprediction'] = 'Sélectionner {$a} pour action en lots';
 $string['timecreated'] = 'Temps prédit';
-$string['timerange'] = 'Intervalle de temps';
+$string['timerange'] = 'Intervalle d\'analyse';
 $string['timerangewithdata'] = '{$a->timestart} à {$a->timeend}';

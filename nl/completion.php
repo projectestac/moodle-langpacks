@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['activityaggregation_all'] = 'ALLE geselecteerde activiteiten moeten vol
 $string['activityaggregation_any'] = 'EEN geselecteerde activiteit moet voltooid zijn';
 $string['activitycompletion'] = 'Voltooide activiteiten';
 $string['activitycompletionupdated'] = 'Wijzigingen opgeslagen';
+$string['activitygradenotrequired'] = 'Cijfer niet vereist';
 $string['affectedactivities'] = 'De wijzigingen zijn van toepassing op de volgende <b>{$a}</b> activiteiten of bronnen:';
 $string['aggregationmethod'] = 'Aggregatiemethode';
 $string['all'] = 'Alle';
@@ -42,6 +43,7 @@ $string['any'] = 'Alle';
 $string['approval'] = 'Goedkeuring';
 $string['areyousureoverridecompletion'] = 'Weet je zeker dat je de huidige voltooiingsstatus voor deze activiteit van deze gebruiker wil overschrijven en het markeren als  "{$a}"?';
 $string['badautocompletion'] = 'Als je automatisch voltooien kiest, moet je minstens één vereiste inschakelen (zie onder).';
+$string['badcompletiongradeitemnumber'] = 'Cijfer vereist is <b>{$a}</b> omdat beoordelen op {$a} niet is ingeschakeld.';
 $string['bulkactivitycompletion'] = 'Voltooide activiteiten in bulk bewerken';
 $string['bulkactivitydetail'] = 'Selecteer de activiteiten die je in bulk wilt bewerken.';
 $string['bulkcompletiontracking'] = 'Voltooien bijhouden';
@@ -104,8 +106,6 @@ $string['completionondate'] = 'Datum';
 $string['completionondatevalue'] = 'Datum wanneer de cursus als voltooid gemarkeerd zal worden';
 $string['completion-pass'] = 'Voltooid (voldoende cijfer behaald)';
 $string['completionsettingslocked'] = 'Instellingen voor voltooien geblokkeerd';
-$string['completion-title-manual-n'] = 'Markeer als voltooid: {$a}';
-$string['completion-title-manual-y'] = 'Markeer als niet voltooid: {$a}';
 $string['completionupdated'] = 'Voltooiing voor activiteit <b>{$a}</b> geüpdatet';
 $string['completionusegrade'] = 'Cijfer vereist';
 $string['completionusegrade_desc'] = 'De leerling moet een cijfer krijgen om deze activiteit te voltooien';

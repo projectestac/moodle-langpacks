@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'role', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -92,7 +92,6 @@ $string['backup:anonymise'] = 'Anonymisera användardata vid säkerhetskopiering
 $string['backup:backupactivity'] = 'Aktiviteter för säkerhetskopiering';
 $string['backup:backupcourse'] = 'Säkerhetskopiering - kurser';
 $string['backup:backupsection'] = 'Sektioner för säkerhetskopiering';
-$string['backup:backuptargethub'] = 'Säkerhetskopiering för hubb';
 $string['backup:backuptargetimport'] = 'Säkerhetskopiering för import';
 $string['backup:configure'] = 'Konfigurera alternativ för säkerhetskopiering';
 $string['backup:downloadfile'] = 'Ladda ner filer från områden för säkerhetskopiering';
@@ -141,8 +140,6 @@ $string['cohort:view'] = 'Visa kohorter på webbplatsnivå';
 $string['comment:delete'] = 'Ta bort kommentarer';
 $string['comment:post'] = 'Publicera kommentarer';
 $string['comment:view'] = 'Läs kommentarer';
-$string['community:add'] = 'Använd blocket för gemenskap för att söka efter hubbar och hitta kurser';
-$string['community:download'] = 'Ladda ner en kurs från blocket för gemenskap';
 $string['competency:competencygrade'] = 'Ange bedömning av kompetenser';
 $string['competency:competencymanage'] = 'Hantera ramverk för kompetenser';
 $string['competency:competencyview'] = 'Visa ramverk för kompetenser';
@@ -200,7 +197,6 @@ $string['course:managegroups'] = 'Administrera grupper';
 $string['course:managescales'] = 'Administrera skalor';
 $string['course:markcomplete'] = 'Markera användare som färdiga i dokumentation om kursens fullföljande';
 $string['course:movesections'] = 'Flytta sektioner';
-$string['course:publish'] = 'Publicera en kurs i en hubb';
 $string['course:request'] = 'Begär nya kurser';
 $string['course:reset'] = 'Återställ kurs';
 $string['course:sectionvisibility'] = 'Kontrollera huruvuda en sektion är synlig';
@@ -285,8 +281,8 @@ $string['manager'] = 'Administratör';
 $string['manageroles'] = 'Administrera roller';
 $string['morethan'] = 'Mer än {$a}';
 $string['multipleroles'] = 'Flerfaldiga roller';
-$string['my:configsyspages'] = 'Konfigurera systemmallarna för Mitt Moodle-sidorna';
-$string['my:manageblocks'] = 'Administrera sidblock för Mitt Moodle';
+$string['my:configsyspages'] = 'Konfigurera systemmallarna för MittMoodle-sidorna';
+$string['my:manageblocks'] = 'Administrera sidblock för MittMoodle';
 $string['neededroles'] = 'Roller med tillstånd';
 $string['nocapabilitiesincontext'] = 'Det finns inte några tillgängliga kapaciteter i det här sammanhanget.';
 $string['noneinthisx'] = 'Ingen/a i den här {$a}';
@@ -426,7 +422,6 @@ $string['restore:createuser'] = 'Skapa användare i sb m återställande';
 $string['restore:restoreactivity'] = 'Aktiviteter för återställande';
 $string['restore:restorecourse'] = 'Återställ kurser';
 $string['restore:restoresection'] = 'Återställ sektioner';
-$string['restore:restoretargethub'] = 'Återställ från filer som är markerade för hubb';
 $string['restore:restoretargetimport'] = 'Återställ från filer som är markerade som import';
 $string['restore:uploadfile'] = 'Ladda upp filer till områden för säkerhetskopiering';
 $string['restore:userinfo'] = 'Återställ användardata';

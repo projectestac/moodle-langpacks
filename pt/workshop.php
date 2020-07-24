@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshop', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -95,7 +95,8 @@ $string['configgradedecimals'] = 'Número de casas decimais a exibir nas avalia�
 $string['configgradinggrade'] = 'Nota máxima para a avaliação, por predefinição';
 $string['configmaxbytes'] = 'Tamanho máximo dos ficheiros submetidos em todos os workshops do site, por predefinição (sujeito aos limites da disciplina e outras configurações locais)';
 $string['configstrategy'] = 'Tipo de grelha de avaliação, por predefinição';
-$string['createsubmission'] = 'Submeter';
+$string['createsubmission'] = 'Adicionar submissão';
+$string['crontask'] = 'Processamento em segundo plano do módulo Workshop';
 $string['daysago'] = 'há {$a} dias';
 $string['daysleft'] = 'restam {$a} dias';
 $string['daystoday'] = 'hoje';
@@ -110,8 +111,6 @@ $string['editingsubmission'] = 'A editar trabalho';
 $string['editsubmission'] = 'Editar submissão';
 $string['err_multiplesubmissions'] = 'Enquanto editava esta grelha, outra versão do trabalho foi guardada. Não são permitidas submissões múltiplas por utilizador.';
 $string['err_removegrademappings'] = 'Não foi possível apagar alocações de avaliação não utilizadas';
-$string['err_unknownfileextension'] = 'Extensão do ficheiro desconhecida: {$a}';
-$string['err_wrongfileextension'] = 'Alguns ficheiros ({$a->wrongfiles}) não podem ser carregados. Apenas são permitidos ficheiros do tipo {$a->whitelist}.';
 $string['evaluategradeswait'] = 'Por favor, aguarde até que terminem as avaliações e que as notas sejam calculadas.';
 $string['evaluation'] = 'Avaliação dos avaliadores';
 $string['evaluationmethod'] = 'Método de avaliação dos avaliadores';
@@ -163,12 +162,14 @@ $string['givengrades'] = 'Notas atribuídas';
 $string['gradecalculated'] = 'Nota do trabalho';
 $string['gradedecimals'] = 'Casas decimais nas notas';
 $string['gradegivento'] = '&gt;';
+$string['grade_grading_name'] = 'Avaliação';
 $string['gradeinfo'] = 'Nota: {$a->received} em {$a->max}';
 $string['gradeitemassessment'] = '{$a->workshopname} (avaliação)';
 $string['gradeitemsubmission'] = '{$a->workshopname} (trabalho)';
 $string['gradeover'] = 'Substituir nota do trabalho';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Relatório de notas do workshop';
+$string['grade_submission_name'] = 'Submissão';
 $string['gradetopassgrading'] = 'Nota de aprovação da avaliação';
 $string['gradetopasssubmission'] = 'Nota de aprovação da submissão';
 $string['gradinggrade'] = 'Nota máxima da avaliação';
@@ -180,8 +181,12 @@ $string['gradingsettings'] = 'Configurações de avaliação';
 $string['groupnoallowed'] = 'Não tem permissões para aceder a nenhum grupo neste workshop';
 $string['iamsure'] = 'Sim, tenho a certeza';
 $string['indicator:cognitivedepth'] = 'Compreensão do Workshop';
+$string['indicator:cognitivedepthdef'] = 'Compreensão do Workshop';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelas atividades Workshop durante esse intervalo de análise (Níveis = Não visualizado, Visualizado, Submetido, Visualizado feedback, Comentários ao feedback, Voltar a submeter após visualizar feedback)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na profundidade cognitiva alcançada pelo aluno numa atividade de Workshop.';
 $string['indicator:socialbreadth'] = 'Socialização do Workshop';
+$string['indicator:socialbreadthdef'] = 'Socialização do Workshop';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelas atividades Workshop durante esse intervalo de análise (Níveis = Sem participação, Participante individual, Participante com outros)';
 $string['indicator:socialbreadth_help'] = 'Este indicador baseia-se na amplitude social alcançada pelo aluno numa atividade de Workshop.';
 $string['info'] = 'Informação';
 $string['instructauthors'] = 'Instruções para envio do trabalho';
@@ -190,7 +195,8 @@ $string['introduction'] = 'Descrição';
 $string['latesubmissions'] = 'Submissões após data limite';
 $string['latesubmissionsallowed'] = 'O envio de trabalhos após data limite é permitido';
 $string['latesubmissions_desc'] = 'Permitir a submissão de trabalhos após a data limite especificada';
-$string['latesubmissions_help'] = 'Se ativar esta opção, o aluno pode enviar os seus trabalhos após a data limite ou durante a fase de avaliação. Trabalhos submetidos tardiamente, não podem ser editados.';
+$string['latesubmissions_help'] = 'Se ativar esta opção, o aluno pode enviar os seus trabalhos após a data limite ou durante a fase de avaliação. As submissões tardias de trabalhos não podem ser editadas.';
+$string['legacyallocationplugincron'] = 'Cron de retrocompatibildade da alocação do workshop';
 $string['maxbytes'] = 'Tamanho máximo do anexo da submissão';
 $string['modulename'] = 'Workshop';
 $string['modulename_help'] = 'A atividade Workshop permite inserir, analisar e avaliar o trabalho dos alunos pelos seus colegas.
@@ -325,7 +331,7 @@ $string['submissionendevent'] = '{$a} prazo para as submissões';
 $string['submissionendswitch'] = 'Avançar para fase seguinte após data limite das submissões';
 $string['submissionendswitch_help'] = 'Se tiver definido uma data limite de submissão e ativar esta opção, o workshop avançará automaticamente para a fase de avaliação após a data limite das submissões.
 
-Se ativar esta opção, é recomendável que também ative e configure o método de atribuição automática. Se os trabalhos não estiverem atribuidos na data limite de submissão, o workshop passará à fase seguinte mas não poderá ser realizada qualquer avaliação pelos alunos pois não têm trabalhos atribuidos.';
+Se ativar esta opção, é recomendado que também ative e configure o método de atribuição automática. Se os trabalhos não estiverem atribuídos na data limite de submissão, o workshop passará à fase seguinte mas não poderá ser realizada qualquer avaliação pelos alunos pois não têm trabalhos atribuídos.';
 $string['submissiongrade'] = 'Nota máxima do trabalho';
 $string['submissiongrade_help'] = 'Esta configuração específica a nota máxima que pode ser atribuída ao trabalho submetido';
 $string['submissiongradeof'] = 'Nota do trabalho (em {$a})';

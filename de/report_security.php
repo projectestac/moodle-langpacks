@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,11 @@ $string['check_cookiesecure_details'] = '<p>Zusätzlich zur Aktivierung der Date
 $string['check_cookiesecure_error'] = 'Bitte aktivieren Sie sichere Cookies';
 $string['check_cookiesecure_name'] = 'Sichere Cookies';
 $string['check_cookiesecure_ok'] = 'Sichere Cookies aktiviert';
+$string['check_crawlers_details'] = '<p>Die Einstellung \'Offen für Google\' erlaubt es Google und anderen Suchmaschinen, alle für Gäste ohne Gastschlüssel offenen Kurse zu durchsuchen. Es ist nicht sinnvoll, diese Funktion zu aktivieren, wenn der Gastzugang deaktiviert ist.</p>';
+$string['check_crawlers_error'] = 'Der Zugriff für Suchmaschinen ist aktiviert, wobei aber der Gastzugang deaktiviert ist.';
+$string['check_crawlers_info'] = 'Suchmaschinen können auf Kursinhalte als Gäste zugreifen.';
+$string['check_crawlers_name'] = 'Offen für Google';
+$string['check_crawlers_ok'] = 'Gastzugang für Suchmaschinen nicht aktiv.';
 $string['check_defaultuserrole_details'] = '<p>Jeder eingeloggte Nutzer hat zunächst Rechte aus der Standardrolle für Nutzer. Für diese Rolle sollten keine bedenklichen Berechtigungen vergeben worden sein.</p>
 <p>Die einzige Rolle, für die das zunächst zutrifft, ist die Rolle <em>authentifizierte/r Nutzer/in</em>. Die Berechtigung \'Kurse sehen\' (course view) muss dazu nicht aktiviert sein.</p>';
 $string['check_defaultuserrole_error'] = 'Eine falsche Definition der Standardrolle wurde festgestellt! "{$a}"';
@@ -59,11 +64,6 @@ $string['check_frontpagerole_error'] = 'Rolle für die Startseite \'{$a}\' ist f
 $string['check_frontpagerole_name'] = 'Rolle für die Startseite';
 $string['check_frontpagerole_notset'] = 'Keine Rolle für die Startseite angelegt.';
 $string['check_frontpagerole_ok'] = 'Die Rolle für die Startseite ist in Ordnung.';
-$string['check_google_details'] = '<p>Die Einstellung \'Offen für Google\' erlaubt es Google und anderen Suchmaschinen, alle für Gäste ohne Gastschlüssel offenen Kurse zu durchsuchen. Es ist nicht sinnvoll, diese Funktion zu aktivieren, wenn der Gastzugang deaktiviert ist.</p>';
-$string['check_google_error'] = 'Der Zugriff für Suchmaschinen ist aktiviert, wobei aber der Gastzugang deaktiviert ist.';
-$string['check_google_info'] = 'Suchmaschinen können auf Kursinhalte als Gäste zugreifen.';
-$string['check_google_name'] = 'Offen für Google';
-$string['check_google_ok'] = 'Gastzugang für Suchmaschinen nicht aktiv.';
 $string['check_guestrole_details'] = '<p>Die Gastrolle wird für Gäste, nichteingeloggte Nutzer/innen und den temporären Gastzugang zu Kursen verwendet. Achten Sie unbedingt darauf, keine unsicheren Berechtigungen für diese Rolle zuzulassen.<p>
 </p>Der unterstützte Legacytyp für die Gastrolle ist <em>Gast</em>.</p>';
 $string['check_guestrole_error'] = 'Die Definition der Gastrolle "{$a}" ist fehlerhaft!';

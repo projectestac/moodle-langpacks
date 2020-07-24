@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_langimport', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_langimport', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_langimport
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,6 +42,10 @@ $string['langpackupdated'] = 'تم تحديث حزمة اللغة \'{$a}\' بن�
 $string['langpackupdatedevent'] = 'حزمة اللغة المحدثة';
 $string['langpackupdateskipped'] = 'تم تخطي تحديث حزمة اللغة {$a}';
 $string['langpackuptodate'] = 'حزمة اللغة {$a}  محدّثة حتى تاريخه';
+$string['langunsupported'] = 'لا يبدو أن خادمك يدعم اللغات التالية بشكل كامل:
+
+{$a->missinglocales}
+بدلاً من ذلك ، سيتم استخدام الإعدادات المحلية العامة ({$a->globallocale}) لتنسيق سلاسل معينة مثل التواريخ أو الأرقام.';
 $string['langupdatecomplete'] = 'تم تحديث حزمة اللغة';
 $string['missingcfglangotherroot'] = 'قيمة تكوين مفقودة  $CFG->langotherroot';
 $string['missinglangparent'] = 'اللغة الأم مفقودة <em>{$a->parent}</em> من <em>{$a->lang}</em>.';

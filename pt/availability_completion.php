@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_completion', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'availability_completion', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   availability_completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,9 +38,9 @@ $string['option_pass'] = 'deve estar concluída com nota de aprovação';
 $string['pluginname'] = 'Condição de acesso com base em conclusão de atividade';
 $string['privacy:metadata'] = 'O módulo Condição de acesso com base em conclusão de atividade não armazena dados pessoais.';
 $string['requires_complete'] = 'A atividade <strong>{$a}</strong> está concluída.';
-$string['requires_complete_fail'] = 'A atividade <strong>{$a}</strong> está concluída sem nota de aprovação';
-$string['requires_complete_pass'] = 'A atividade <strong>{$a}</strong> está concluída com nota de aprovação';
+$string['requires_complete_fail'] = 'A atividade <strong>{$a}</strong> está concluída sem aprovação';
+$string['requires_complete_pass'] = 'A atividade <strong>{$a}</strong> está concluída com aprovação';
 $string['requires_incomplete'] = 'A atividade <strong>{$a}</strong> não está concluída';
-$string['requires_not_complete_fail'] = 'A atividade <strong>{$a}</strong> não está concluída e não tem nota de aprovação';
-$string['requires_not_complete_pass'] = 'A atividade <strong>{$a}</strong> não está concluída e tem nota de aprovação';
+$string['requires_not_complete_fail'] = 'A atividade <strong>{$a}</strong> não está concluída sem aprovação';
+$string['requires_not_complete_pass'] = 'A atividade <strong>{$a}</strong> não está concluída com aprovação';
 $string['title'] = 'Concluir atividade';

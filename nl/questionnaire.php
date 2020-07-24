@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'questionnaire', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,6 +57,7 @@ $string['autonumberquestions'] = 'Vragen automatisch nummeren';
 $string['average'] = 'Gemiddeld';
 $string['averageposition'] = 'Gemiddeld standpunt';
 $string['averagerank'] = 'Gemiddelde classificatie';
+$string['averagesrow'] = 'Gemiddelde (wanneer van toepassing):';
 $string['bodytext'] = 'Eigenlijke tekst';
 $string['boxesnbexact'] = 'precies {$a} vak(jes).';
 $string['boxesnbmax'] = 'maximaal {$a} vak(jes).';
@@ -88,6 +89,8 @@ $string['closeson'] = 'Vragenlijst sluit op {$a}';
 $string['completionsubmit'] = 'Leerling moet deze enquête insturen om hem te voltooien';
 $string['condition'] = 'Voorwaarde';
 $string['confalts'] = '- OF - <br />Bevestigingspagina';
+$string['configemailreporting'] = 'Start e-mailen van rapportages toe';
+$string['configemailreportinglong'] = 'Maakt het mogelijk om sommige rapporten rechtstreeks of naar gespecificeerde e-mailadressen te sturen.';
 $string['configmaxsections'] = 'Maximum aantal feedback-secties';
 $string['configusergraph'] = 'Toon grafieken voor feedback "Persoonlijkheidstest"';
 $string['configusergraphlong'] = 'Gebruik de <a href="http://www.rgraph.net/">Rgraph</a> library om de "Personaliteitstest" feedback grafieken weer te geven.';
@@ -129,8 +132,10 @@ $string['didnotrespondtoquestion'] = 'Vraag niet beantwoord';
 $string['directwarnings'] = 'Directe afhankelijkheden naar deze vraag zullen worden verwijderd. Dit beïnvloedt:';
 $string['displaymethod'] = 'Vertoningsmethode is niet gedefinieerd voor deze vraag.';
 $string['download'] = 'Downloaden';
-$string['downloadtextformat'] = 'Downloaden in tekstformat';
-$string['downloadtextformat_help'] = 'Hiermee kun je alle antwoorden van een enquête als tekstbestand (CSV) opslaan. Dit bestand kan vervolgens worden geïmporteerd naar een spreadsheet (bijv. MS Excel of OpenOffice Calc) of een statistiekprogramma om de gegevens verder te verwerken.';
+$string['downloadtextformat'] = 'Downloaden';
+$string['downloadtextformat_help'] = 'Hiermee kun je alle antwoorden van een enquête bewaren naar een geselecteerd, en ondersteund file format.
+Je kan eventueel extra data items toevoegen aan een export, en tevens automatisch rapportages als een bestand sturen naar geselecteerde gebruikers.';
+$string['downloadtypes'] = 'Rapport type';
 $string['dropdown'] = 'Rolmenu';
 $string['dropdown_help'] = 'Er is geen werkelijk voordeel voor het gebruiken van het rolmenu  boven keuzerondjes, behalve wellicht de ietwat lange lijsten met opties, om ruimte te besparen.';
 $string['edit'] = 'Bewerk';
@@ -138,6 +143,13 @@ $string['editingfeedback'] = 'Feedbackinstellingen bewerken';
 $string['editingquestionnaire'] = 'Enquête-instellingen bewerken';
 $string['editquestion'] = 'Vraag {$a} bewerken';
 $string['email'] = 'E-mail';
+$string['emailextra'] = 'Stuur download naar e-mailadressen';
+$string['emailextra_help'] = 'Zal een download bestand sturen naar een lijst van e-mailadressen, gescheidde door een komma. Wees je ervan bewust dat er géén veiligheid en/of privacy controle plaatst vindt. De instelling \'allowemailreporting\' moet aangevinkt staan in de module instellingen om deze functie te gebruiken.';
+$string['emailroles'] = 'Stuur download naar rollen';
+$string['emailroles_help'] = 'Zal per e-mail een download bestand sturen naar alle rollen met het recht "mod/questionnaire:submissionnotification". De instelling \'allowemailreporting\' moet aangevinkt staan in de module instellingen om deze functie te gebruiken.';
+$string['emailsend'] = 'Stuur rapportages';
+$string['emailsnotspecified'] = 'Er zijn géén e-mailadressen opgegeven.';
+$string['emailssent'] = 'Download gestuurd naar de opgeven e-mailadres(sen).';
 $string['errnewname'] = 'Sorry, deze naam wordt al gebruikt. Kies een nieuwe naam.';
 $string['erroropening'] = 'Fout bij openen enquête.';
 $string['errortable'] = 'Fout systeemtabel corrupt.';
@@ -457,8 +469,9 @@ $string['sectiontext_help'] = 'Dit is geen vraag maar een korte tekst die wordt 
 $string['selecttheme'] = 'Selecteer een thema (css) om met deze enquête te gebruiken.';
 $string['send'] = 'Verzenden';
 $string['sendemail'] = 'E-mail verzenden';
-$string['sendemail_help'] = 'Dit verstuurt een kopie van elke inzending naar gespecificeerde e-mailadres(sen). Je kunt meer dan één adres invoeren door deze met een komma te scheiden.
-Leeg laten';
+$string['sendemail_help'] = 'Verstuurt een kopie van elke inzending naar een opgegeven mailadres of mailadressen. Je kunt meer dan één adres invoeren door deze met een komma te scheiden.
+Laat het veld leeg voor géén e-mail back-up.
+\'allowemailreporting\' moet aanstaan in de module instelling om deze functie te gebruiken.';
 $string['send_message'] = 'Bericht verzenden aan geselecteerde gebruikers';
 $string['send_message_to'] = 'Bericht verzenden aan:';
 $string['set'] = 'ingesteld';
@@ -468,6 +481,7 @@ $string['show_nonrespondents'] = 'Non-respondenten';
 $string['started'] = 'Begonnen';
 $string['strfdate'] = '%d/%m/%Y';
 $string['strfdateformatcsv'] = 'd/m/Y H:i:s';
+$string['strictdateformatting'] = 'Gebruik de jaar-maand-dag format, bijvoorbeeld voor 4 maart 1945 <strong>1945-03-04</strong>';
 $string['subject'] = 'Onderwerp';
 $string['submissionnotificationhtmlanon'] = 'Er is een nieuwe  <a href="{$a->submissionurl}">inzending</a> in de "{$a->name}" enquête.';
 $string['submissionnotificationhtmluser'] = 'Er is een nieuwe <a href="{$a->submissionurl}">inzending</a> in de "{$a->name}" enquête van "<a href="{$a->profileurl}">{$a->username}</a>".';
@@ -482,6 +496,7 @@ $string['submitted'] = 'Ingestuurd op:';
 $string['subtitle'] = 'Ondertitel';
 $string['subtitle_help'] = 'Ondertitel van deze enquête. Verschijnt alleen onder de titel op de eerste pagina.';
 $string['summary'] = 'Samenvatting';
+$string['summaryreportattached'] = 'Enquête samenvattingsrapport is bijgevoegd';
 $string['surveynotexists'] = 'enquête bestaat niet.';
 $string['surveyowner'] = 'Je moet eigenaar van de enquête zijn om deze handeling uit te voeren.';
 $string['surveyresponse'] = 'Antwoorden van de enquête';
@@ -507,6 +522,8 @@ $string['title'] = 'Titel';
 $string['title_help'] = 'Titel van deze enquête, die boven iedere pagina zal verschijnen. Standaard is de titel ingesteld op de naam van de enquête, maar je kunt dit naar de eigen voorkeur aanpassen.';
 $string['today'] = 'vandaag';
 $string['total'] = 'Totaal';
+$string['totalofnumbers'] = 'Totaal aantal opgegeven cijfers';
+$string['totalresponses'] = 'Totaal aantal antwoorden op een vraag';
 $string['type'] = 'Type';
 $string['undefinedquestiontype'] = 'Niet gedefinieerd vraagtype!';
 $string['unknown'] = 'Onbekend';

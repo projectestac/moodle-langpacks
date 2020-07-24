@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_monitor', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,4 +29,6 @@ $string['allevents'] = 'Todos los eventos';
 $string['deleterule'] = 'Eliminar regla';
 $string['deletesubscription'] = 'Eliminar suscripción';
 $string['managerules'] = 'Reglas para monitorización de eventos';
+$string['messageprovider:notification'] = 'Notificaciones de reglas de suscripción.';
 $string['norules'] = 'No hay reglas para monitorizar eventos.';
+$string['pluginname'] = 'Monitor de eventos';

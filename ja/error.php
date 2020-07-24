@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'error', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -173,6 +173,7 @@ $string['cannotuseadmin'] = 'このページを使用するにはあなたは管
 $string['cannotuseadminadminorteacher'] = 'このページを使用するにはあなたは教師または管理者である必要があります。';
 $string['cannotusepage'] = '教師および管理者のみ、このページを使用できます。';
 $string['cannotusepage2'] = '申し訳ございません、あなたはこのページを使用できません。';
+$string['cannotviewcategory'] = 'あなたにはここでコース一覧を閲覧するパーミッションがありません。';
 $string['cannotviewprofile'] = 'あなたはこのユーザのプロファイルを閲覧できません。';
 $string['cannotviewreport'] = 'あなたはこのレポートを閲覧できません。';
 $string['cannotwritefile'] = 'ファイル「 {$a} 」に書き込めません。';
@@ -311,7 +312,7 @@ $string['invalidcategoryid'] = '正しくないカテゴリIDです!';
 $string['invalidcomment'] = 'コメントが正しくありません。';
 $string['invalidcommentarea'] = '無効なコメントエリアです。';
 $string['invalidcommentid'] = '無効なコメントIDです。';
-$string['invalidcommentitemid'] = '無効なコメントitemidです。';
+$string['invalidcommentitemid'] = '無効なコメントアイテムIDです。';
 $string['invalidcommentparam'] = '無効なコメントパラメータです。';
 $string['invalidcomponent'] = '無効なコンポーネント名です。';
 $string['invalidconfirmdata'] = '無効な確認データです。';
@@ -505,6 +506,7 @@ $string['sessioncookiesdisable'] = 'require_key_login() の使用が正しくあ
 $string['sessiondiskfull'] = 'セッションパーティションがフルになっています。現在、ログインすることはできません。サーバ管理者にご連絡ください。';
 $string['sessionerroruser'] = 'あなたのセッションはタイムアウトしました。再度ログインしてください。';
 $string['sessionerroruser2'] = 'あなたのログインセッションに影響を与えるサーバエラーが検出されました。再度ログインするか、あなたのブラウザを再起動してください。';
+$string['sessionexpired'] = 'セッション有効期限切れ';
 $string['sessionhandlerproblem'] = 'セッションハンドラの設定が正しくありません。';
 $string['sessionipnomatch'] = '申し訳ございません、あなたのIPアドレスは最初のログインから変更されているようです。このセキュリティ機能はあなたがサイトにログインしている間、クラッカーから個人情報を盗むことを防いでいます。通常のユーザはこのメッセージを見ることはありません - 詳細はシステム管理者にお問合せください。';
 $string['sessionipnomatch2'] = '<p>申し訳ございません、あなたのIPアドレスは最初のログインから変更されているようです。このセキュリティ機能はあなたがサイトにログインしている間、クラッカーから個人情報を盗むことを防いでいます。あなたがワイヤレスネットワークまたは異なるネットワーク間のローミングを利用している場合、このエラーが表示されます。詳細はサイト管理者にお問合せください。<p>

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_offline', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignfeedback_offline', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   assignfeedback_offline
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,4 +49,4 @@ $string['processgrades'] = 'Inportatu kalifikazioak';
 $string['skiprecord'] = 'Utzi alde batera erregistroa';
 $string['updatedgrades'] = '{$a} kalifikazioak eta feedbackak eguneratu dira';
 $string['updaterecord'] = 'Eguneratu erregistroa';
-$string['uploadgrades'] = 'Kalifikazio kalkulu-orria igo';
+$string['uploadgrades'] = 'Igo kalifikazio kalkulu-orria';

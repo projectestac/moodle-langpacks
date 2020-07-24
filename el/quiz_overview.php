@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_overview', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,9 +67,11 @@ $string['regradealldrydogroup'] = 'Επαναβαθμολόγηση προσπα
 $string['regradealldrygroup'] = 'Γενική δοκιμή μιας πλήρους επαναβαθμολόγησης για την ομάδα «{$a->groupname}».';
 $string['regradeallgroup'] = 'Πλήρη επαναβαθμολόγηση για την ομάδα «{$a->groupname}».';
 $string['regradecomplete'] = 'Η επανα-βαθμολόγηση ολοκληρώθηκε με επιτυχία';
+$string['regradedsuccessfullyxofy'] = 'Αναβαθμολογήθηκε με επιτυχία ({$a->done}/{$a->count})';
 $string['regradeheader'] = 'Επαναβαθμολόγηση';
 $string['regradeselected'] = 'Επαναβαθμολόγηση των επιλεγμένων προσπαθειών';
 $string['regradingattemptxofy'] = 'Προσπάθεια επανα-βαθμολόγησης ({$a->done}/{$a->count})';
+$string['regradingattemptxofywithdetails'] = 'Αναβαθμολόγηση προσπάθειας ({$a->done}/{$a->count}) - Προσπάθεια {$a->attemptnum} από {$a->name} (αναγνωριστικό {$a->attemptid})';
 $string['show'] = 'Εμφάνιση / λήψη';
 $string['showattempts'] = 'Μόνο εμφάνιση / λήψη προσπαθειών';
 $string['showdetailedmarks'] = 'Βαθμοί για κάθε ερώτηση';

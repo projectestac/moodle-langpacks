@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'plugin', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -123,6 +123,8 @@ $string['type_calendartype'] = 'Calendar type';
 $string['type_calendartype_plural'] = 'Calendar types';
 $string['type_coursereport'] = 'Course report';
 $string['type_coursereport_plural'] = 'Course reports';
+$string['type_customfield'] = 'Custom field';
+$string['type_customfield_plural'] = 'Custom fields';
 $string['type_dataformat'] = 'Data format';
 $string['type_dataformat_plural'] = 'Data formats';
 $string['type_editor'] = 'Editor';
@@ -148,8 +150,8 @@ $string['type_local'] = 'Local plugin';
 $string['type_local_plural'] = 'Local plugins';
 $string['type_media'] = 'Media player';
 $string['type_media_plural'] = 'Media players';
-$string['type_message'] = 'Messaging output';
-$string['type_message_plural'] = 'Messaging outputs';
+$string['type_message'] = 'Notification plugin';
+$string['type_message_plural'] = 'Notification plugins';
 $string['type_mlbackend'] = 'Machine learning backend';
 $string['type_mlbackend_plural'] = 'Machine learning backends';
 $string['type_mnetservice'] = 'MNet service';
@@ -227,6 +229,7 @@ $string['validationmsg_onedir'] = 'Invalid structure of the ZIP package.';
 $string['validationmsg_onedir_help'] = 'The ZIP package must contain just one root directory that holds the plugin code. The name of that root directory must match the name of the plugin.';
 $string['validationmsg_pathwritable'] = 'Write access check';
 $string['validationmsg_pluginversion'] = 'Plugin version';
+$string['validationmsg_pluginversiontoolow'] = 'A higher version of this plugin is already installed';
 $string['validationmsg_release'] = 'Plugin release';
 $string['validationmsg_requiresmoodle'] = 'Required Moodle version';
 $string['validationmsg_rootdir'] = 'Name of the plugin to be installed';

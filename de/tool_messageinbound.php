@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_messageinbound', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'Name der Class';
 $string['component'] = 'Komponente';
-$string['configmessageinboundhost'] = 'Die Adresse des Servers, von dem E-Mails abgeholt werden sollen. Um einen Nicht-Standard-Port zu verwenden erfolgt die Eingabe wie folgt [server]:[port], z.B. mail.example.com:587. Wenn Sie das Feld leer lassen, wird der für den Server-Typ festgelegten Standard-Port verwendet.';
+$string['configmessageinboundhost'] = 'Die Adresse des Servers, von dem E-Mails abgeholt werden sollen. Um einen Nicht-Standard-Port zu verwenden erfolgt die Eingabe wie folgt [server]:[port], z.B. mail.example.com:993. Wenn Sie das Feld leer lassen, wird der für den Server-Typ festgelegten Standard-Port verwendet.';
 $string['defaultexpiration'] = 'Ablaufzeitraum für Standardadresse';
 $string['defaultexpiration_help'] = 'Wenn eine E-Mail-Adresse vom Prozess erzeugt wird, kann eine Gültigkeitsdauer festgelegt werden. Nach Ablauf dieses Zeitraums ist die Nutzung nicht mehr möglich. Diese Einstellung wird empfohlen.';
 $string['description'] = 'Beschreibung';
@@ -92,7 +92,7 @@ $string['messageprovider:messageprocessingsuccess'] = 'Bestätigung, dass eine e
 $string['name'] = 'Name';
 $string['noencryption'] = 'Aus - keine Verschlüsselung';
 $string['noexpiry'] = 'Kein Ablauf';
-$string['oldmessagenotfound'] = 'Sie haben versucht, eine Benachrichtung manuell zu bestätigen.. Die Benachrichtigung konnte jedoch nicht gefunden werden. Das kann passieren wenn die Nachricht bereits bestätigt wurde oder der zulässige Zeitraum abgelaufen ist.';
+$string['oldmessagenotfound'] = 'Sie haben versucht, eine Benachrichtung manuell zu bestätigen. Die Benachrichtigung konnte jedoch nicht gefunden werden. Das kann passieren wenn die Nachricht bereits bestätigt wurde oder der zulässige Zeitraum abgelaufen ist.';
 $string['oneday'] = 'Ein Tag';
 $string['onehour'] = 'Eine Stunde';
 $string['oneweek'] = 'Eine Woche';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'feedback', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -142,9 +142,16 @@ $string['horizontal'] = 'horizontal';
 $string['importfromthisfile'] = 'Importar deste ficheiro';
 $string['import_questions'] = 'Importar preguntas';
 $string['import_successfully'] = 'Importado satisfactoriamente';
+$string['includeuserinrecipientslist'] = 'Incluír {$a} na lista de destinatarios';
 $string['indicator:cognitivedepth'] = 'Comentario cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Comentario cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'O participante acadou esta porcentaxe do compromiso cognitivo que ofrecen as actividades de Comentarios durante este intervalo de análise (Niveis = Sen vista, Ver)';
+$string['indicator:cognitivedepthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Profundidade_cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de comentarios.';
 $string['indicator:socialbreadth'] = 'Comentario social';
+$string['indicator:socialbreadthdef'] = 'Comentario social';
+$string['indicator:socialbreadthdef_help'] = 'O participante acadou esta porcentaxe do compromiso social que ofrecen as actividades de Comentarios durante este intervalo de análise (Niveis = Sen participación, Participante en solitario, Participante con outros)';
+$string['indicator:socialbreadthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Amplitude_social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de comentarios.';
 $string['info'] = 'Información';
 $string['infotype'] = 'Tipo de información';

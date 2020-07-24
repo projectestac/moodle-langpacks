@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'notes', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,6 @@ $string['deleteconfirm'] = 'حذف هذه الملاحظة؟';
 $string['deletenotes'] = 'حذف جميع الملاحظات';
 $string['editnote'] = 'تحرير الملاحظة';
 $string['enablenotes'] = 'تفعيل الملاحظات';
-$string['groupaddnewnote'] = 'إضافة ملاحظة عامة';
 $string['invalidid'] = 'معرّف الملاحظة المحدد غير صالح';
 $string['invaliduserid'] = 'رقم المستخدم غير صحيح  : {$a}';
 $string['nocontent'] = 'لا يمكن أن يكون محتوى الملاحظة فارغاً';

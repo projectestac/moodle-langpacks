@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'install', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   install
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,7 +52,7 @@ $string['clialreadyconfigured'] = 'Το αρχείο ρυθμίσεων config.p
 $string['clialreadyinstalled'] = 'Το αρχείο ρυθμίσεων config.php υπάρχει ήδη. Χρησιμοποιήστε το admin/cli/install_database.php για να αναβαθμίσετε το Moodle για αυτόν τον ιστότοπο.';
 $string['cliinstallfinished'] = 'Η εγκατάσταση ολοκληρώθηκε με επιτυχία.';
 $string['cliinstallheader'] = 'Moodle {$a} πρόγραμμα εγκατάστασης γραμμής εντολών';
-$string['climustagreelicense'] = 'Σε μη διαδραστική κατάσταση λειτουργίας, πρέπει να συμφωνήσετε με την άδεια χρήσης, καθορίζοντας την επιλογή --agree-license option';
+$string['climustagreelicense'] = 'Σε μη διαδραστική κατάσταση λειτουργίας, πρέπει να συμφωνήσετε με την άδεια χρήσης, καθορίζοντας την επιλογή --agree-license';
 $string['cliskipdatabase'] = 'Παράλειψη εγκατάστασης βάσης δεδομένων.';
 $string['clitablesexist'] = 'Οι πίνακες βάσεων δεδομένων υπάρχουν ήδη. Η εγκατάσταση από γραμμή εντολών δεν μπορεί να συνεχιστεί.';
 $string['compatibilitysettings'] = 'Έλεγχος των PHP ρυθμίσεών σας...';

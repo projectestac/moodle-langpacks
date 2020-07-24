@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_statistics', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -112,7 +112,6 @@ $string['standarddeviation'] = '标准偏差（{$a}）';
 $string['standarddeviationq'] = '标准偏差';
 $string['standarderror'] = '标准错误（{$a}）';
 $string['statistics'] = '统计';
-$string['statistics:componentname'] = '测验统计报告';
 $string['statisticsreport'] = '统计报告';
 $string['statisticsreportgraph'] = '每题统计';
 $string['statistics:view'] = '查看统计报表';

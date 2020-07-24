@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,11 @@ $string['check_cookiesecure_details'] = '<p>https를 통한 통신을 활성화�
 $string['check_cookiesecure_error'] = '보안 쿠키를 활성화하시오';
 $string['check_cookiesecure_name'] = '보안 쿠키';
 $string['check_cookiesecure_ok'] = '보안 쿠키 활성';
+$string['check_crawlers_details'] = '<p>구글에 대한 개방 설정은 검색엔진이 손님접속으로 강좌에 들어오는 것을 가능하게 합니다.  손님 접속을 허용하지 않았을 때는 이 설정을 활성화 하는 것에 의미가 없습니다.</p>';
+$string['check_crawlers_error'] = '검색엔진 접속은 허용되지만 및 손님 접속은 금지됩니다.';
+$string['check_crawlers_info'] = '검색엔진이 손님 자격으로 들어올 수 있음';
+$string['check_crawlers_name'] = '구글에 개방';
+$string['check_crawlers_ok'] = '검색엔진 접속은 활성화 되지 않았습니다.';
 $string['check_defaultuserrole_details'] = '<p>모든 로그인 사용자들은 기본 사용자 역할에 대한 능력을 부여 받습니다. 이 역할에 위험 소지가 있는 능력을 부여하지 않토록 하십시요.</p>
 <p>기본 사용자 역할을 지원하는 전통적 유형은 <em>인증된 사용자</em>입니다. 강좌를 볼 수 있는 능력은 활성화되면 안됩니다.</p>';
 $string['check_defaultuserrole_error'] = '기본 사용자 역할 "{$a}" 이 잘못 정의되었습니다!';
@@ -59,11 +64,6 @@ $string['check_frontpagerole_error'] = '잘못 정의된 시작 페이지 역할
 $string['check_frontpagerole_name'] = '시작 페이지 역할';
 $string['check_frontpagerole_notset'] = '시작 페이지 역할이 설정되지 않음';
 $string['check_frontpagerole_ok'] = '시작 페이지 역활 정의는 맞습니다.';
-$string['check_google_details'] = '<p>구글에 대한 개방 설정은 검색엔진이 손님접속으로 강좌에 들어오는 것을 가능하게 합니다.  손님 접속을 허용하지 않았을 때는 이 설정을 활성화 하는 것에 의미가 없습니다.</p>';
-$string['check_google_error'] = '검색엔진 접속은 허용되지만 및 손님 접속은 금지됩니다.';
-$string['check_google_info'] = '검색엔진이 손님 자격으로 들어올 수 있음';
-$string['check_google_name'] = '구글에 개방';
-$string['check_google_ok'] = '검색엔진 접속은 활성화 되지 않았습니다.';
 $string['check_guestrole_details'] = '<p>손님 역할은 사용자로 로그인 하지 않은 손님에게 일시적으로 강좌 접근을 위한 것입니다.  이 역할에 위험부담이 있는 권한을 부여하지 않도록 유의하십시요.</p>
 <p>손님 역할을 지원하는 전통적 유형은 <em>손님</em>입니다.</p>';
 $string['check_guestrole_error'] = '손님 역할 "{$a}"이 잘못 정의되었습니다!';

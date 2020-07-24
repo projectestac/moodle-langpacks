@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'jclic', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'jclic', language 'el', branch 'MOODLE_37_STABLE'
  *
  * @package   jclic
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,35 +27,55 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actions'] = 'Ενέργειες';
 $string['activity'] = 'Δραστηριότητα';
+$string['activitydone'] = 'Ολοκληρωμένες δραστηριότητες';
+$string['activitysolved'] = 'Δραστηριότητες ολοκληρωμένες με επιτυχία';
 $string['attempts'] = 'Προσπάθειες';
 $string['availabledate'] = 'Διαθέσιμο από';
 $string['avaluation'] = 'Κριτήρια αξιολόγησης';
+$string['avaluation_score'] = 'Αρχειοθέτηση αυτού του γενικού σκορ';
+$string['avaluation_solved'] = 'Επίλυση αυτού του αριθμού διαφορετικών δραστηριοτήτων';
 $string['closebeforeopen'] = 'Αδυναμία ενημέρωσης του jclic. Καθορίστηκε μια οφειλόμενη ημερομηνία πριν την ημερομηνία διαθεσιμότητας.';
 $string['contentheader'] = 'Περιεχόμενο';
 $string['deleteallsessions'] = 'Διαγραφή όλων των συνόδων';
 $string['description'] = 'Περιγραφή';
 $string['duedate'] = 'Οφειλόμενη ημερομηνία';
 $string['event_course_module_viewed'] = 'Το άρθρωμα μαθήματος προβλήθηκε';
+$string['event_instances_list_viewed'] = 'Η λίστα στιγμιότυπων εμφανίστηκε';
 $string['exiturl'] = 'Διεύθυνση URL εξόδου';
+$string['expired'] = 'Λυπούμαστε, αυτή η δραστηριότητα έκλεισε στις {$a} και δεν είναι πλέον διαθέσιμη';
 $string['filetype'] = 'Τύπος';
 $string['filetypeexternal'] = 'Εξωτερική διεύθυνση URL';
+$string['filetypelocal'] = 'Ανεβασμένο JClic';
 $string['height'] = 'Ύψος';
+$string['invalidjclicfile'] = 'Καθορίστηκε μη έγκυρο JClic. Πρέπει να έχει επέκταση «.jclic».';
+$string['invalidurl'] = 'Μη έγκυρη διεύθυνση URL. Πρέπει να αρχίζει με http ή https και πρέπει να είναι ένα έγκυρο αρχείο JClic';
 $string['jclic'] = 'JClic';
 $string['jclic:addinstance'] = 'Προσθήκη JClic';
 $string['jclicfile'] = 'Αρχείο JClic';
+$string['jclicfile_help'] = 'Το αρχείο .jclic που περιέχει τα αρχεία JClic.';
 $string['jclic:grade'] = 'Βαθμολόγηση JClic';
+$string['jclicjarbase'] = 'Βάση Jar';
+$string['jclicjarbase_help'] = 'Διεύθυνση ιστού όπου βρίσκονται όλα τα jar αρχεία JClick';
+$string['jclicjs'] = 'Διεύθυνση URL αρχείου jclic.js';
+$string['jclicjs_help'] = 'Διεύθυνση URL στην οποία βρίσκεται το αρχείο jclic.js που απαιτείται για τον μη-Java αναπαραγωγό.';
+$string['jclic:submit'] = 'Υποβολή JClic';
 $string['jclicurl'] = 'Διεύθυνση URL';
+$string['jclic:view'] = 'Εμφάνιση JClic';
 $string['lang'] = 'Γλώσσα';
+$string['lap_help'] = 'Χρόνος μεταξύ συναλλαγών πελάτη-εξυπηρετητή (σε δευτερόλεπτα)';
 $string['lastaccess'] = 'Τελευταία επίσκεψη';
 $string['maxattempts'] = 'Μέγιστος αριθμός δοκιμών';
+$string['maxgrade'] = 'Σκορ/Δραστηριότητες που πρέπει να επιτευχθούν';
 $string['modulename'] = 'JClic';
 $string['modulenameplural'] = 'JClic';
 $string['msg_noattempts'] = 'Δοκιμάσατε αυτή τη δραστηριότητα για τον μέγιστο αριθμό προσπαθειών';
 $string['msg_nosessions'] = 'Αυτή η δραστηριότητα JClic δεν έχει ακόμη κάποια σύνοδο';
 $string['notopenyet'] = 'Λυπούμαστε, αυτή η δραστηριότητα δεν είναι διαθέσιμη έως {$a}';
 $string['pluginadministration'] = 'Διαχείριση JClic';
+$string['pluginjs'] = 'Διεύθυνση URL αρχείου js πρόσθετου JClic';
 $string['pluginname'] = 'JClic';
 $string['preview_jclic'] = 'Προεπισκόπηση δραστηριότητας JClic';
+$string['report_details'] = 'Λεπτομερή αποτελέσματα με όλες τις συνόδους';
 $string['report_normal'] = 'Περίληψη αποτελεσμάτων';
 $string['results'] = 'Αποτελέσματα';
 $string['return_results'] = 'Επιστροφή στα αποτελέσματα';
@@ -63,6 +83,7 @@ $string['score'] = 'Σκορ';
 $string['sessions'] = 'Σύνοδοι';
 $string['show_my_results'] = 'Εμφάνιση των αποτελεσμάτων σας';
 $string['size'] = 'Μέγεθος';
+$string['skin'] = 'Εξωτερική εμφάνιση';
 $string['solved'] = 'Σωστό';
 $string['solveddone'] = 'Δραστηριότητες απαντημένες/ολοκληρωμένες';
 $string['starttime'] = 'Ημερομηνία έναρξης';

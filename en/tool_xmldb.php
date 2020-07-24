@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_xmldb', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actual'] = 'Actual';
+$string['addpersistent'] = 'Add mandatory persistent fields';
 $string['aftertable'] = 'After table:';
 $string['back'] = 'Back';
 $string['backtomainview'] = 'Back to main';
@@ -172,6 +173,9 @@ $string['numberincorrectwholepart'] = 'Too big whole number part for number fiel
 $string['pendingchanges'] = 'Note: You have performed changes to this file. They can be saved at any moment.';
 $string['pendingchangescannotbesaved'] = 'There are changes in this file but they cannot be saved! Please verify that both the directory and the "install.xml" within it have write permissions for the web server.';
 $string['pendingchangescannotbesavedreload'] = 'There are changes in this file but they cannot be saved! Please verify that both the directory and the "install.xml" within it have write permissions for the web server. Then reload this page and you should be able to save those changes.';
+$string['persistentfieldscomplete'] = 'The following fields have been added:';
+$string['persistentfieldsconfirm'] = 'Do you want to add the following fields:';
+$string['persistentfieldsexist'] = 'The following fields already exist:';
 $string['pluginname'] = 'XMLDB editor';
 $string['primarykeyonlyallownotnullfields'] = 'Primary keys cannot be null';
 $string['privacy:metadata'] = 'The XMLDB editor plugin does not store any personal data.';

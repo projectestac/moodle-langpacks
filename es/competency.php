@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'competency', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,6 +108,7 @@ $string['invalidpersistenterror'] = 'Error: {$a}';
 $string['invalidplan'] = 'Plan de aprendizaje inválido';
 $string['invalidtaxonomy'] = 'Taxonomía inválida: {$a}';
 $string['invalidurl'] = 'La URL no es válida. Asegúrese de que comienza con \'http://\' o \'https://\'.';
+$string['nouserplanswithcompetency'] = 'Ningún plan de aprendizaje contiene esta competencia.';
 $string['planstatusactive'] = 'Activo';
 $string['planstatuscomplete'] = 'Completado';
 $string['planstatusdraft'] = 'Borrador';

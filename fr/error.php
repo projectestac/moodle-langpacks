@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'error', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -173,6 +173,7 @@ $string['cannotuseadmin'] = 'Vous devez être administrateur pour utiliser cette
 $string['cannotuseadminadminorteacher'] = 'Vous devez être enseignant ou administrateur pour utiliser cette page';
 $string['cannotusepage'] = 'Seuls les enseignants et les administrateurs peuvent utiliser cette page';
 $string['cannotusepage2'] = 'Vous ne pouvez pas utiliser cette page';
+$string['cannotviewcategory'] = 'Vous n\'avez pas les permissions requises pour voir la liste des cours.';
 $string['cannotviewprofile'] = 'Vous ne pouvez pas consulter le profil de cet utilisateur';
 $string['cannotviewreport'] = 'Vous ne pouvez pas consulter ce rapport';
 $string['cannotwritefile'] = 'Impossible d\'écrire dans le fichier ({$a})';
@@ -189,9 +190,9 @@ $string['couldnotupdatenoexistinguser'] = 'Impossible de modifier l\'utilisateur
 $string['couldnotverifyagedigitalconsent'] = 'Une erreur est survenue lors de la vérification de l\'âge de majorité numérique.<br />Veuillez contacter l\'administrateur de la plateforme.';
 $string['countriesphpempty'] = 'Erreur : le fichier countries.php du paquetage de langue {$a} est vide ou manquant.';
 $string['coursedoesnotbelongtocategory'] = 'Le cours n\'est pas dans cette catégorie';
-$string['courseformatnotfound'] = 'Le format de cours « {$a} » n\'existe pas ou n\'est pas reconnu';
+$string['courseformatnotfound'] = 'Le format de cours « {$a} » n\'existe pas ou n\'est pas reconnu.';
 $string['coursegroupunknown'] = 'Cours correspondant au groupe {$a} non indiqué';
-$string['courseidnotfound'] = 'Identifiant de cours introuvable';
+$string['courseidnotfound'] = 'L\'identifiant de cours n\'existe pas.';
 $string['courseidnumbertaken'] = 'L\'identifiant est déjà utilisé pour un autre cours ({$a})';
 $string['coursemisconf'] = 'Le cours est mal configuré';
 $string['courserequestdisabled'] = 'Désolé, la demande d\'ouverture de cours a été désactivée par l\'administrateur';
@@ -357,7 +358,7 @@ $string['invalidroleid'] = 'Identifiant de rôle incorrect';
 $string['invalidscaleid'] = 'Identifiant de barème incorrect';
 $string['invalidsection'] = 'L\'enregistrement du module de cours contient une section non valide';
 $string['invalidsesskey'] = 'Votre session est vraisemblablement échue. Veuillez vous reconnecter.';
-$string['invalidshortname'] = 'Le nom abrégé du cours n\'est pas valide';
+$string['invalidshortname'] = 'Nom abrégé du cours non valide';
 $string['invalidsourcefield'] = 'Le champ source du fichier brouillon n\'est pas valide';
 $string['invalidstatedetected'] = 'Quelque chose est allé de travers : {$a}. Normalement, ceci ne devrait jamais arriver.';
 $string['invalidurl'] = 'URL non valide';
@@ -500,6 +501,7 @@ $string['sessioncookiesdisable'] = 'Utilisation incorrecte de require_key_login(
 $string['sessiondiskfull'] = 'La partition de session est pleine. Il n\'est actuellement pas possible de se connecter. Veuillez contacter l\'administrateur du serveur.';
 $string['sessionerroruser'] = 'Votre session est échue. Veuillez vous connecter à nouveau.';
 $string['sessionerroruser2'] = 'Une erreur du serveur impactant votre session de connexion a été détectée. Veuillez vous connecter à nouveau ou relancer votre navigateur.';
+$string['sessionexpired'] = 'Session échue';
 $string['sessionhandlerproblem'] = 'Traitement des sessions mal configuré';
 $string['sessionipnomatch'] = 'Votre adresse IP semble avoir changé depuis votre connexion. Ce réglage de sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Les utilisateurs ne devraient en principe pas rencontrer ce message. Veuillez demander de l\'aide à l\'administrateur de ce site';
 $string['sessionipnomatch2'] = '<p>Votre adresse IP semble avoir changé depuis votre première connexion. Ce réglage de sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Cette erreur peut survenir lors de l\'utilisation de réseaux sans fil ou si vous passez d\'un réseau à un autre (itinérance). Pour plus d\'informations, veuillez contacter votre administrateur.</p>

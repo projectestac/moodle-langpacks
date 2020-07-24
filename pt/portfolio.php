@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'portfolio', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   portfolio
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -200,5 +200,5 @@ $string['thirdpartyexception'] = 'Foi lançada uma exceção por parte de um sis
 $string['transfertime'] = 'Tempo de transferência';
 $string['unknownplugin'] = 'Desconhecido (podem ter sido removido pelo administrador)';
 $string['wait'] = 'Esperar';
-$string['wanttowait_high'] = 'Não é recomendável que aguarde que a transferência termine, mas pode fazê-lo se tiver a certeza do que está a fazer';
+$string['wanttowait_high'] = 'Não é recomendado que aguarde que o descarregamento termine, mas pode fazê-lo se tiver a certeza do que está a fazer';
 $string['wanttowait_moderate'] = 'Quer esperar até a transferência estar concluída? Pode demorar alguns minutos.';

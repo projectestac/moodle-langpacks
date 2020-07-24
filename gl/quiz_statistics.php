@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_statistics', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_statistics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,7 +50,7 @@ $string['detailedanalysis'] = 'Análise máis detallada das respostas a esta pre
 $string['detailedanalysisforvariant'] = 'Análise máis detallada das respostas á variante {$a} desta pregunta';
 $string['discrimination_index'] = 'Índice de discriminación';
 $string['discriminative_efficiency'] = 'Eficiencia discriminatoria';
-$string['downloadeverything'] = 'Descargar o informe completo como {$a->formatsmenu} {$a->downloadbutton}';
+$string['downloadeverything'] = 'Descargar o informe completo como';
 $string['duration'] = 'Aberto para';
 $string['effective_weight'] = 'Ponderación efectiva';
 $string['errordeleting'] = 'Produciuse un erro ao borrar {$a} rexistros antigos.';
@@ -101,6 +101,7 @@ $string['questiontype'] = 'Tipo de pregunta';
 $string['quizinformation'] = 'Información da proba';
 $string['quizname'] = 'Nome da proba';
 $string['quizoverallstatistics'] = 'Estatísticas xerais da proba';
+$string['quizstatisticscleanuptask'] = 'Limpar os rexistros de caché de estatísticas de probas antigas';
 $string['quizstructureanalysis'] = 'Análise da estrutura da proba';
 $string['random_guess_score'] = 'Cualificación estimada ao chou';
 $string['rangebetween'] = '{$a->min} − {$a->max}';

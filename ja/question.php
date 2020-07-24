@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'question', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -82,6 +82,9 @@ $string['categoryinfo'] = 'カテゴリ情報';
 $string['categorymove'] = 'カテゴリ {$a->name} には {$a->count} 問の問題があります (いくつかの問題は非表示の問題か小テストで使用中のランダム問題です)。移動するために他のカテゴリを選択してください。';
 $string['categorymoveto'] = 'カテゴリに保存する';
 $string['categorynamecantbeblank'] = 'カテゴリ名は空白にすることができません。';
+$string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
+$string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
+$string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'オプションを変更する';
 $string['changepublishstatuscat'] = 'コース内<a href="{$a->caturl}">カテゴリ「 {$a->name} 」</a>の共有ステータスが<strong>{$a->changefrom}から{$a->changeto}</strong>に変更されます。';
 $string['check'] = 'チェック';
@@ -166,7 +169,19 @@ $string['errorsavingcomment'] = '問題 {$a->name} のコメントのデータ�
 $string['errorsavingflags'] = 'フラグ状態の保存中にエラーが発生しました。';
 $string['errorupdatingattempt'] = 'データベース内の受験結果 {$a->id} 更新中にエラーが発生しました。';
 $string['eventquestioncategorycreated'] = '小テストカテゴリが作成されました。';
+$string['eventquestioncategorydeleted'] = '問題カテゴリが削除されました。';
+$string['eventquestioncategorymoved'] = '問題カテゴリが移動されました。';
+$string['eventquestioncategoryupdated'] = '問題カテゴリが更新されました。';
+$string['eventquestioncategoryviewed'] = '問題カテゴリが閲覧されました。';
+$string['eventquestioncreated'] = '問題が作成されました。';
+$string['eventquestiondeleted'] = '問題が削除されました。';
+$string['eventquestionmoved'] = '問題が移動されました。';
+$string['eventquestionsexported'] = '問題がエクスポートされました。';
+$string['eventquestionsimported'] = '問題がインポートされました。';
+$string['eventquestionupdated'] = '問題が更新されました。';
+$string['eventquestionviewed'] = '問題が閲覧されました。';
 $string['export'] = 'エクスポート';
+$string['exportasxml'] = 'Moodle XMLとしてエクスポートする';
 $string['exportcategory'] = 'エクスポートカテゴリ';
 $string['exportcategory_help'] = 'この設定では問題のエクスポート元カテゴリを決定します。
 
@@ -374,7 +389,7 @@ $string['questionpreviewdefaults'] = '問題プレビューデフォルト';
 $string['questionpreviewdefaults_desc'] = 'これらのデフォルトはユーザが問題バンク内の問題を最初にプレビューする時点で使用されます。ユーザが問題をプレビューした場合、パーソナルプリファレンスがユーザプリファレンスとして保存されます。';
 $string['questions'] = '問題';
 $string['questionsaveerror'] = '問題の保存中にエラーが発生しました - ({$a})';
-$string['questionsinuse'] = '(* アスタリスクでマークされている問題はすでにいくつかの小テストで使用されています。これらの問題は小テストからは削除されませんが、カテゴリリストからのみ削除されます)';
+$string['questionsinuse'] = '(* アスタリスクでマークされている問題は小テストのような場所で使用されます。そのため、あなたが続けた場合、これらの問題は実際には削除されませんが、秘匿されます。)';
 $string['questionsmovedto'] = '使用中の問題が親コースカテゴリの「 {$a} 」に移動されました。';
 $string['questionsrescuedfrom'] = '問題がコンテクスト {$a} より保存されました。';
 $string['questionsrescuedfrominfo'] = 'いくつかの小テストまたは他の活動で使用されているため、これらの問題 (いくつかは非表示) はコンテクスト {$a} 削除時に保存されました。';

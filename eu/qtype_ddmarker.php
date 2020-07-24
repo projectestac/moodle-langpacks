@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -80,7 +80,9 @@ $string['pluginname'] = 'Hartu eta eraman markatzaileak';
 $string['pluginnameadding'] = 'Hartu eta eraman markatzaileak motako galdera gehitzen';
 $string['pluginnameediting'] = 'Hartu eta eraman markatzaileak motako galdera editatzen';
 $string['pluginname_help'] = 'Hartu eta eraman markatzaileak motako galderek ikasleei testu-etiketak hartu eta atzeko planoko irudi batean zehaztutako eramateko tokietara eramatea eskatzen diete.';
-$string['pluginnamesummary'] = 'Markatzaileak hartu eta eraman dira atzeko planoko irudira.';
+$string['pluginnamesummary'] = 'Markatzaileak hartu eta eraman dira atzeko planoko irudira.
+
+Oharra: Galdera-mota hau ez dago ikuspen urritasuna duten erabiltzaileentzako eskuragarri.';
 $string['previewareaheader'] = 'Aurrebista';
 $string['previewareamessage'] = 'Aukeratu atzeko planoko irudia, zehaztu markatzaileen testu-etiketak eta zehaztu testu-etiketa hauek irudiaren gainean kokatzeko eramateko tokiak.';
 $string['privacy:metadata'] = 'Hartu eta eraman markatzaileak galdera-mota pluginak ez du datu pertsonalik biltzen.';

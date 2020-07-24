@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_behat', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_behat', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_behat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['aim'] = 'Kudeaketa erreminta honek garatzaileei eta probatzaileei Moodleko funtzionalitateak zehazten dituzten .feature fitxategiak sortzen eta automatikoki exekutatzen laguntzen die. .feature fitxategietan erabiltzeko eskuragarri dauden urratsen definizioak behean zerrendatzen dira.';
 $string['allavailablesteps'] = 'Eskuragarri dauden urratsen definizio guztiak';
+$string['errorapproot'] = '$CFG->behat_ionic_dirroot ez da zuzentzen Moodle aplikazioaren garatzaile-instalazio baliagarri batera.';
 $string['errorbehatcommand'] = 'Errorea behat CLI komandoa exekutatzean. Saiatu "{$a} --help" CLI bidez eskuz exekutatzen arazoaren inguruan gehiago jakiteko.';
 $string['errorcomposer'] = 'Composer-eko menpekotasunak ez daude instalatuta.';
 $string['errordataroot'] = '$CFG->behat_dataroot ez dago zehaztuta edo baliogabea da.';
@@ -47,7 +48,7 @@ $string['stepsdefinitionscontains'] = 'Barne ditu';
 $string['stepsdefinitionsfilters'] = 'Urratsen definizioak';
 $string['stepsdefinitionstype'] = 'Mota';
 $string['theninfo'] = 'Orduan. Emaitzak espero zirenak direla bermatzeko kontrolak';
-$string['unknownexceptioninfo'] = 'Arazo bat egon da Selenium edo zure nabigatzailearekin. Mesedez, ziurtatu Selenium-eko azken bertsioa erabiltzen ari zarela. Errorea:';
+$string['unknownexceptioninfo'] = 'Arazo bat egon da Selenium edo zure nabigatzailearekin. Mesedez, ziurtatu Selenium-eko bertsio berriena erabiltzen ari zarela. Errorea:';
 $string['viewsteps'] = 'Iragazkia';
 $string['wheninfo'] = 'Noiz. Ekitaldi bat abiarazten duen ekintza';
 $string['wrongbehatsetup'] = 'Arazoren bat dago behat-eko konfigurazioarekin eta urratsen definizioak ezin izan dira zerrendatu: <b>{$a->errormsg}</b><br/><br/>Mesedez egiaztatu:<ul>

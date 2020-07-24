@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'notes', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,7 +41,6 @@ $string['eventnotecreated'] = '노트가 작성됨';
 $string['eventnotedeleted'] = '노트가 삭제됨';
 $string['eventnotesviewed'] = '노트 봄';
 $string['eventnoteupdated'] = '노트 업데이트 됨';
-$string['groupaddnewnote'] = '공통 학습관찰 추가';
 $string['invalidid'] = '잘못된 학습관찰 ID 지정';
 $string['invaliduserid'] = '잘못된 사용자 아이디 {$a}';
 $string['nocontent'] = '내용을 채워 넣으세요';
@@ -62,7 +61,6 @@ $string['publishstate_help'] = '학습 관찰 문맥은 학습관찰을 볼 수 
 * 개인 - 개인(당신)만 볼 수 있음
 * 강좌 - 강좌내 선생님들이 볼 수 있음
 * 사이트 - 모든 강좌의 선생님들이 볼 수 있음';
-$string['selectnotestate'] = '학습관찰 상태를 선택하세요.';
 $string['site'] = '사이트';
 $string['sitenotes'] = '사이트 학습관찰';
 $string['unknown'] = '모름';

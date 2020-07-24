@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_messageinbound', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_messageinbound
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['classname'] = 'Nom de la classe';
 $string['component'] = 'Composant';
-$string['configmessageinboundhost'] = 'L\'adresse du serveur sur lequel Moodle devra vérifier les courriels. Pour indiquer un port non standard, utiliser la syntaxe [serveur]:[port], par exemple mail.exemple.fr:587. Si un port n\'est pas indiqué, le port par défaut pour le type de serveur de courriel sera utilisé.';
+$string['configmessageinboundhost'] = 'L\'adresse du serveur sur lequel Moodle devra vérifier les courriels. Pour indiquer un port non standard, utiliser la syntaxe [serveur]:[port], par exemple mail.exemple.fr:993. Si un port n\'est pas indiqué, le port par défaut pour le type de serveur de courriel sera utilisé.';
 $string['defaultexpiration'] = 'Échéance de l\'adresse par défaut';
 $string['defaultexpiration_help'] = 'Une durée d\'échéance peut être associée à l\'adresse de courriel générée par le gestionnaire, permettant que cette adresse ne puisse plus être utilisée une fois cette durée échue. Il est recommandé de fournir une telle échéance.';
 $string['description'] = 'Description';

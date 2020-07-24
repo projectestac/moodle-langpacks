@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_database', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,5 +75,6 @@ $string['settingsheaderdb'] = 'Connessione al database esterno';
 $string['settingsheaderlocal'] = 'Mappatura campi locali';
 $string['settingsheadernewcourses'] = 'Creazione di nuovi corsi';
 $string['settingsheaderremote'] = 'Sincronizzazione remota iscrizioni';
+$string['syncenrolmentstask'] = 'Sincronizzazione iscrizioni database esterno';
 $string['templatecourse'] = 'Template per nuovo corso';
 $string['templatecourse_desc'] = 'Opzionale: i corsi creati automaticamente possono copiare le impostazioni da un corso template. E\' possibile specificare il nome abbreviato del corso da usare come template.';

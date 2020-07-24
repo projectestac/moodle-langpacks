@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'form', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'form', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   form
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,8 +71,8 @@ $string['othersettings'] = 'Outras configurações';
 $string['passwordunmaskedithint'] = 'Editar senha';
 $string['passwordunmaskinstructions'] = '\'Enter\' para guardar as alterações';
 $string['passwordunmaskrevealhint'] = 'Revelar';
-$string['privacy:metadata:preference:filemanager_recentviewmode'] = 'Modo de visualização recentemente selecionado no selecionador de ficheiros.';
-$string['privacy:preference:filemanager_recentviewmode'] = 'As suas preferências de exibição de ficheiros no selecionador de ficheiro é: {$a}';
+$string['privacy:metadata:preference:filemanager_recentviewmode'] = 'Modo de visualização recentemente selecionado no seletor de ficheiros.';
+$string['privacy:preference:filemanager_recentviewmode'] = 'As suas preferências de exibição de ficheiros no seletor de ficheiros é: {$a}';
 $string['requiredelement'] = 'Campo obrigatório';
 $string['security'] = 'Segurança';
 $string['selectallornone'] = 'Selecionar todos/nenhum';

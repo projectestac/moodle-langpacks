@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'wiki', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -122,8 +122,12 @@ $string['incorrectpageid'] = 'Pagina-ID is fout.';
 $string['incorrectsubwikiid'] = 'Subwiki-ID is fout.';
 $string['incorrectwikiid'] = 'Wiki-ID is fout.';
 $string['indicator:cognitivedepth'] = 'Wiki cognitief';
+$string['indicator:cognitivedepthdef'] = 'Wiki cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de Wiki-activiteiten bereikt tijdens dit analyse-interval (Niveaus = Geen weergave, Bekijken, Verzenden)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Wiki activiteit.';
 $string['indicator:socialbreadth'] = 'Wiki sociaal';
+$string['indicator:socialbreadthdef'] = 'Wiki sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid van de Wiki-activiteiten tijdens dit analyse-interval bereikt (Niveaus = Geen deelname, Alleen deelnemer, Deelnemer met anderen)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Wiki activiteit.';
 $string['individualpagedoesnotexist'] = 'Individuele wiki-pagina bestaat niet';
 $string['insertcomment'] = 'Opmerking invoegen';

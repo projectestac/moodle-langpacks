@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'access', language 'ur', branch 'MOODLE_36_STABLE'
+ * Strings for component 'access', language 'ur', branch 'MOODLE_38_STABLE'
  *
  * @package   access
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,7 +33,6 @@ $string['activitynext'] = 'اگلا کام';
 $string['activityprev'] = 'پچھلا کام';
 $string['breadcrumb'] = 'ھائپر لنکس کے نشانات';
 $string['hideblocka'] = 'بلاک کو چھپا دو {$a}';
-$string['monthprev'] = 'پچھلے ماہ';
 $string['showblocka'] = 'دکھاو';
 $string['sitemap'] = 'سائٹ کا نقشہ';
 $string['skipa'] = 'چھوڑ دو';

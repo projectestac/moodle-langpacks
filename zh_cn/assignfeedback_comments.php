@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_comments', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignfeedback_comments', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   assignfeedback_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,7 +33,7 @@ $string['default'] = '默认开启';
 $string['default_help'] = '如果设置此项，将会为所有新作业默认开启此反馈方法。';
 $string['enabled'] = '评语反馈';
 $string['enabled_help'] = '如果开启此项，评分人可以对每份作业留下评语反馈。';
-$string['pluginname'] = '评语反馈';
+$string['pluginname'] = '反馈意见';
 $string['privacy:commentpath'] = '反馈意见';
 $string['privacy:metadata:assignmentid'] = '作业ID';
 $string['privacy:metadata:commentpurpose'] = '注释文本。';

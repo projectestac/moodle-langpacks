@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myoverview', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_myoverview', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   block_myoverview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,10 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addtofavourites'] = '用标星课程';
-$string['all'] = '所有';
+$string['addtofavourites'] = '标星课程';
+$string['all'] = '全部（隐藏的除外）';
+$string['allincludinghidden'] = '所有';
 $string['aria:addtofavourites'] = '用星号标记';
-$string['aria:allcourses'] = '所有课程';
+$string['aria:allcoursesincludinghidden'] = '所有课程';
 $string['aria:card'] = '切换到卡片视图';
 $string['aria:courseprogress'] = '课程进度：';
 $string['aria:coursesummary'] = '课程摘要文字：';
@@ -47,17 +48,17 @@ $string['aria:title'] = '按课程名称排序';
 $string['card'] = '卡片';
 $string['cards'] = '卡片';
 $string['complete'] = '完成';
+$string['completepercent'] = '{$a}% 已完成';
 $string['courseprogress'] = '课程进度';
-$string['favourites'] = '带标星的';
+$string['favourites'] = '标星的';
 $string['future'] = '尚未开始的';
 $string['hidden'] = '隐藏的课程';
-$string['hiddencourses'] = '隐藏的';
+$string['hiddencourses'] = '已隐藏的';
 $string['hidecourse'] = '隐藏';
 $string['inprogress'] = '进行中';
-$string['lastaccessed'] = '最后访问时间';
+$string['lastaccessed'] = '上次访问';
 $string['list'] = '列表';
 $string['morecourses'] = '更多课程';
-$string['myoverview:addinstance'] = '增加一个新的课程概览区块';
 $string['myoverview:myaddinstance'] = '增加一个新的课程概览区块到仪表板';
 $string['next30days'] = '未来30天';
 $string['next7days'] = '未来7天';
@@ -66,12 +67,12 @@ $string['nocoursesfuture'] = '没有未来的课程';
 $string['nocoursesinprogress'] = '没有进行中的课程';
 $string['nocoursespast'] = '没有过期的课程';
 $string['noevents'] = '没有即将到期的活动';
-$string['past'] = '过期的';
+$string['past'] = '过去的';
 $string['pluginname'] = '课程概览';
 $string['privacy:request:preference:set'] = '设置 \'{$a->name}\' 的值是 \'{$a->value}\'';
 $string['recentlyoverdue'] = '最近逾期的';
 $string['removefromfavourites'] = '撤销标星';
-$string['show'] = '显示课程';
+$string['show'] = '恢复';
 $string['sortbycourses'] = '按课程排序';
 $string['sortbydates'] = '按日期排序';
 $string['summary'] = '摘要';

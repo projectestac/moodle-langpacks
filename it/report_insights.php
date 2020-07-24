@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_insights', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_insights', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   report_insights
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['calculatedvalue'] = 'Valore calcolato';
+$string['actionsaved'] = 'Il tuo feedback su \'{$a}\' è stato salvato';
 $string['disabledmodel'] = 'Il modello è stato disabilitato dall\'amministratore.';
-$string['indicator'] = 'Indicatore';
+$string['indicators'] = 'Indicatori';
 $string['insight'] = 'Considerazione';
-$string['insightprediction'] = '{$a} pronostici';
 $string['insights'] = 'Considerazioni';
 $string['justpredictions'] = 'Da notare che le seguenti considerazioni sono solamente dei pronostici. Non è possibile predire il futuro con certezza. Le considerazioni vengono fornite al fine di intraprendere le azioni atte ad evitare che i pronostici divengano realtà.';
 $string['nodetailsavailable'] = 'Non ci sono dettagli rilevanti del pronostico.';
@@ -42,10 +41,9 @@ $string['outcomeverynegative'] = 'Esito molto negativo';
 $string['outcomeverypositive'] = 'Esito molto positivo';
 $string['pluginname'] = 'Considerazioni';
 $string['prediction'] = 'Pronostico';
-$string['predictioncalculations'] = 'Calcoli dell\'indicatore';
 $string['predictiondetails'] = 'Dettagli pronostico';
 $string['privacy:metadata'] = 'Il plugin \'Considerazioni\' non memorizza dati personali.';
 $string['selectotherinsights'] = 'Seleziona altre considerazioni...';
 $string['timecreated'] = 'Data del pronostico';
-$string['timerange'] = 'Intervallo di tempo';
+$string['timerange'] = 'Intervallo di analisi';
 $string['timerangewithdata'] = 'da {$a->timestart} a {$a->timeend}';

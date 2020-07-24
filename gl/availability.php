@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'availability', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   availability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,17 +33,17 @@ $string['condition_group_info'] = 'Engadir un conxunto de restricións aniñadas
 $string['enableavailability'] = 'Activar o acceso condicional';
 $string['enableavailability_desc'] = 'Cando se activa, permítelle poñer condicións (baseadas en data, cualificación, ou finalización) que controlan se se pode ou non acceder a unha actividade ou recurso.';
 $string['error_list_nochildren'] = 'Os conxuntos de restricións precisan conter polo menos unha condición.';
-$string['hidden_all'] = 'Agachar por completo se o usuario non cumpre as condicións';
-$string['hidden_individual'] = 'Agachar por completo se o usuario non cumpre esta condición';
-$string['hidden_marker'] = '(agachar en caso contrario)';
-$string['hide_verb'] = 'Premer para agachar';
+$string['hidden_all'] = 'Agochar por completo se o usuario non cumpre as condicións';
+$string['hidden_individual'] = 'Agochar por completo se o usuario non cumpre esta condición';
+$string['hidden_marker'] = '(agochar en caso contrario)';
+$string['hide_verb'] = 'Premer para agochar';
 $string['invalid'] = 'Por favor estableza';
 $string['itemheading'] = 'restrición {$a->number} {$a->type}';
 $string['item_unknowntype'] = 'Estas restricións usan un engadido que xa non está dispoñíbel (se é correcto eliminar esta restrición bórrea máis abaixo)';
 $string['label_multi'] = 'Restricións necesarias';
 $string['label_sign'] = 'Tipo de restrición';
 $string['list_and'] = 'Todas de:';
-$string['list_and_hidden'] = 'Todas de (agachar en caso contrario)';
+$string['list_and_hidden'] = 'Todas de (agochar en caso contrario)';
 $string['listheader_multi_after'] = 'das seguintes';
 $string['listheader_multi_and'] = 'todas';
 $string['listheader_multi_before'] = 'coincide';
@@ -53,7 +53,7 @@ $string['listheader_sign_neg'] = 'non debe de';
 $string['listheader_sign_pos'] = 'debe de';
 $string['listheader_single'] = 'coincidir as seguintes';
 $string['list_or'] = 'Calquera das:';
-$string['list_or_hidden'] = 'Calquera de (agachar en caso contrario):';
+$string['list_or_hidden'] = 'Calquera de (agochar en caso contrario):';
 $string['list_root_and'] = 'Non dispoñíbel a non ser que:';
 $string['list_root_and_hidden'] = 'Non dispoñíbel (agachada) a non ser que:';
 $string['list_root_or'] = 'Non dispoñíbel a non ser que calquera de:';

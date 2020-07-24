@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lti', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,7 +69,10 @@ $string['cannot_edit'] = 'Ezin dituzu tresnaren ezarpenak editatu';
 $string['capabilities'] = 'Gaitasunak';
 $string['capabilities_help'] = 'Aukeratu tresna-hornitzaileari eskaini nahi zenizkiokeen gaitasunak. Gaitasun bat baino gehiago aukera daiteke.';
 $string['capabilitiesrequired'] = 'Tresna honek data hauetarako sarbidea eskatzen du gaitu ahal izateko:';
+$string['cleanaccesstokens'] = 'Kanpoko tresnetako iraungitako sarbide-tokenen ezabatzea';
 $string['click_to_continue'] = '<a href="{$a->link}" target="_top">Egin klik jarraitzeko</a>';
+$string['clientidadmin'] = 'Bezeroaren IDa';
+$string['clientidadmin_help'] = 'Bezeroaren IDa erreminta bat identifikatzeko balio bakarra da. LTI 1.3 bertsioan agertutako JWT segurtasun-profila erabiltzen duen erreminta bakoitzarentzat automatikoki sortzen da, eta erremintaren hornitzaileari bidalitako xehetasunekin batera bidali beharko da konexioa beste aldean konfiguratu ahal izateko.';
 $string['comment'] = 'Iruzkina';
 $string['configpassword'] = 'Urrutiko tresnan lehenetsitako pasahitza';
 $string['configpreferheight'] = 'Lehenetsitako altuera';
@@ -184,10 +187,17 @@ $string['icon_url'] = 'Ikonoaren URLa';
 $string['icon_url_help'] = 'Ikonoaren URLak jarduera honetarako ikastaro-zerrendan erakusten den ikonoa aldatzea ahalbidetzen du. Lehenetsitako LTI ikonoa erabili ordez, jarduera-motari dagokion ikono bat zehaz daiteke.';
 $string['id'] = 'ID';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa LTI jardueretan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa LTI jardueretan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek LTI jarduerak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da, Bidali da, Feedbacka ikusi da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak LTI motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala LTI jardueretan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala LTI jardueretan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek LTI jarduerak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Parte-hartzerik ez, bakarkako parte-hartzea, parte-hartzea besteekin)';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak LTI motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
+$string['initiatelogin'] = 'Saio-hasiera abiarazteko URLa';
+$string['initiatelogin_help'] = 'Saio-hasiera abiarazteko bidaliko diren eskaerak bidaliko diren erremintaren URLa. URL hau behar da erremintara mezu bat ondo bidali ahal izateko.';
 $string['invalidid'] = 'LTIren IDa ez zen egokia';
+$string['jwtsecurity'] = 'LTI 1.3';
 $string['launch_in_moodle'] = 'Abiarazi tresna Moodlen';
 $string['launchinpopup'] = 'Abiarazi edukiontzia';
 $string['launch_in_popup'] = 'Abiarazi tresna pop-up-ean';
@@ -227,6 +237,8 @@ $string['ltisettings'] = 'LTIren ezarpenak';
 $string['lti_tool_request_added'] = 'Tresna-ezarpenaren eskaera ondo bidali da. Tresnaren ezarpenekin bukatzeko kudeatzaile batekin harremanetan jarri beharko zenuke.';
 $string['lti_tool_request_existing'] = 'Tresnaren domeinurako tresna-ezarpena dagoeneko bidali da.';
 $string['ltiunknownserviceapicall'] = 'LTI zerbitzu ezezagun baten API deia';
+$string['ltiversion'] = 'LTI bertsioa';
+$string['ltiversion_help'] = 'Mezuak sinatu eta zerbitzu-eskaeretan erabiliko den LTI bertsioa: LTI 1.0/1.1 eta LTI 2.0 bertsioek OAuth 1.0A segurtasun profila erabiltzen dute; LTI 3.0 bertsioak JWTak erabiltzen du.';
 $string['lti:view'] = 'Abiarazi kanpoko tresnaren jarduerak';
 $string['main_admin'] = 'Laguntza orokorra';
 $string['main_admin_help'] = 'Kanpoko tresnek Moodle-ko erabiltzaileek urruneko ikasketa-baliabideekin eragitea ahalbidetzen dute. Abio-protokolo berezi batez, urruneko tresnak abiatzen duen erabiltzailearen informazio orokorrera sarbidea du. Adibidez, erakundearen izena, ikastaroaren IDa, eta erabiltzaile-izen edo helbide elektronikoa bezalako informazioa.
@@ -275,6 +287,8 @@ $string['no_tp_pending'] = 'Ez dago zain kanpoko tresnaren erregistrorik.';
 $string['no_tp_rejected'] = 'Ez da kanpoko tresnen erregistrorik gaitzetsi.';
 $string['notypes'] = 'Une honetan Moodlen ez da LTI tresnarik ezarri. Egin klik goiko instalazio-estekan bat gehitzeko.';
 $string['noviewusers'] = 'Ez da baimendutako erabiltzailerik aurkitu tresna hau erabiltzeko';
+$string['oauthsecurity'] = 'LTI 1.0/1.1';
+$string['opensslconfiginvalid'] = 'LTI 1.3 bertsioak zerbitzarian openssl.cnf baliagarri bat konfiguratuta eta eskuragarri egotea behar du. Mesedez jarri harremanetan zure guneko kudeatzailearekin gune honetarako openssl konfiguratu eta gaitzeko.';
 $string['optionalsettings'] = 'Aukerako ezarpenak';
 $string['organization'] = 'Erakundearen xehetasunak';
 $string['organizationdescr'] = 'Erakundearen deskribapena';
@@ -337,9 +351,13 @@ $string['privacy:metadata:timemodified'] = 'Erregistroa aldatu zeneko unea';
 $string['privacy:metadata:userid'] = 'LTI kontsumitzailera sartzen ari den erabiltzailearen IDa';
 $string['privacy:metadata:useridnumber'] = 'LTI kontsumitzailera sartzen ari den erabiltzailearen ID zenbakia';
 $string['privacy:metadata:username'] = 'LTI kontsumitzailera sartzen ari den erabiltzailearen erabiltzaile-izena';
+$string['publickey'] = 'Gako publikoa';
+$string['publickey_help'] = 'Erremintak eskainitako gako publikoa (PEM formatuan), jasotako mezuen sinadurak baimendu eta zerbitzu eskaerak egiaztatzeko.';
 $string['quickgrade'] = 'Baimendu kalifikazio azkarra';
 $string['quickgrade_help'] = 'Gaituz gero, tresna asko orri batean kalifika daitezke. Gehitu kalifikazio eta iruzkinak. Gero, egin klik "Gorde nire feedback guztiak" botoian orri horretarako aldaketa guztiak gordetzeko.';
 $string['redirect'] = 'Berbidalketa segundu gutxitan gertatuko da. Horren ezean, egin klik botoian.';
+$string['redirectionuris'] = 'Berbideratze-URI(ak)';
+$string['redirectionuris_help'] = 'Erremintak autentifikazio-eskaerak egiteko erabiltzen duen URI zerrenda (bat lerroko). Gutxienez bat erregistratu behar da erremintara mezu bat ondo bidali ahal izateko.';
 $string['register'] = 'Erregistratu';
 $string['registertype'] = 'Konfiguratu kanpoko tresna berri baten erregistroa.';
 $string['register_warning'] = 'Erregistro-orria irekitzea luzeegi irauten ari dela dirudi. Erakusten ez bada, baieztatu konfigurazioan URL egokia sartu duzula. Moodlek https erabiltzen badu, ziurtatu konfiguratzen ari zaren tresnak https onartzen duen eta URLan https erabiltzen ari zaren.';
@@ -432,6 +450,16 @@ $string['tooldescription'] = 'Tresnaren deskribapena';
 $string['tooldescription_help'] = 'Irakasleei jarduera-zerrendan erakutsiko zaien tresnaren deskribapena.
 
 Tresna zertarako den, zer egiten duen eta irakasleak beharko lukeen beste edozein informazio gehigarri deskribatu beharko luke honek.';
+$string['tooldetailsaccesstokenurl'] = 'Sarbide-tokenaren URLa';
+$string['tooldetailsauthrequesturl'] = 'Autentifikazio eskaeraren URLa';
+$string['tooldetailsclientid'] = 'Bezeroaren IDa';
+$string['tooldetailsdeploymentid'] = 'Hedapenaren IDa';
+$string['tooldetailsmailtosubject'] = 'LTI erremintaren konfigurazioa';
+$string['tooldetailsmodalemail'] = 'Posta elektronikoa';
+$string['tooldetailsmodallink'] = 'Ikusi konfigurazioaren xehetasunak';
+$string['tooldetailsmodaltitle'] = 'Erremintaren konfigurazioaren xehetasunak';
+$string['tooldetailsplatformid'] = 'Plataformaren IDa';
+$string['tooldetailspublickeyseturl'] = 'URL publikoen gako-multzoa';
 $string['toolisbeingused'] = 'Tresna {$a} aldiz erabili da';
 $string['toolisnotbeingused'] = 'Tresn hau ez da oraindik erabili';
 $string['toolproxy'] = 'Kanpoko tresnen erregistroak';

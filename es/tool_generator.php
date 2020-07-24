@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_generator', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_generator', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_generator
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,15 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['bigfile'] = 'Fichero grande {$a}';
+$string['courseexplanation'] = 'Esta herramienta crea cursos de prueba estándar que incluyen muchas secciones, actividades , y archivos.
+
+Esto está dirigido a proporcionar una medida estandarizada para revisar la confiablilidad y desempeño de varios componentes del sistema (tales como copia de seguridad y restauración).
+
+Esta prueba es importante porque previamente han habido muchos casos en donde, al encontrarse con casos de uso en la vida real (por ejemplo, cursos con 1000 actividades), el sistema no funciona.
+
+Los cursos creados con esta característica pueden ocupar una gran cantidad de espacio en la base de datos y el sistema de archivos (decenas de gigabytes). Necesitará eliminar los cursos (y esperar varias pasadas de limpieza) para liberar de nuevo este espacio.
+
+**No use esta característica en un sistema en producción**. Úselo solamente en un servidor para desarrollo. (Para prevenir uso accidental, esta característica está deshabilitada a menos que también haya seleccionado el nivel de depuración DESARROLLADOR (DEVELOPER debugging level) .';
 $string['coursesize_0'] = 'XS (~10KB; creado en ~1 segundo)';
 $string['coursesize_1'] = 'S (~10MB; creado en ~30 segundos)';
 $string['coursesize_2'] = 'M (~100MB; creado en ~2 minutos)';

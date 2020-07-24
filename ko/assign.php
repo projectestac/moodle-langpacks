@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assign', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -103,6 +103,7 @@ $string['deleteallsubmissions'] = '모든 제출물 삭제';
 $string['description'] = '설명';
 $string['downloadall'] = '모든 제출물 내려받기';
 $string['duedate'] = '마감 일시';
+$string['duedatecolon'] = '마감 일시: {$a}';
 $string['duedateno'] = '무기한';
 $string['duedatereached'] = '이 과제 제출 마감일이 지났습니다.';
 $string['duedatevalidation'] = '마감일는 제출 시작일 이후여야 합니다.';
@@ -134,7 +135,9 @@ $string['gradeabovemaximum'] = '성적은 {$a} 이하여야 합니다.';
 $string['gradebelowzero'] = '성적은 0 이상이어야 합니다.';
 $string['graded'] = '채점됨';
 $string['gradedby'] = '채점자:';
+$string['gradedfollowupsubmit'] = '채점됨 - 추후 제출 수령됨';
 $string['gradedon'] = '채점일:';
+$string['gradelocked'] = '해당 점수가 채점표에서 잠겼거나 덮어 써졌습니다.';
 $string['gradeoutof'] = '{$a} 중 채점';
 $string['gradeoutofhelp'] = '성적';
 $string['gradeoutofhelp_help'] = '여기에 학생의 제출에 대한 성적을 입력하십시요. 소수점을 사용해도 됩니다.';
@@ -167,6 +170,7 @@ $string['locksubmissionforstudent'] = '다음 학생에 대해 추가 제출을 
 $string['locksubmissions'] = '제출 잠금';
 $string['manageassignfeedbackplugins'] = '과제 피드백 플러그인 관리';
 $string['manageassignsubmissionplugins'] = '과제 제출 플러그인 관리';
+$string['markingworkflowstate'] = '표시 진행 상태';
 $string['markingworkflowstate_help'] = '당신의 권한에 따라, 업무흐름은 다음 중 하나가 될 수 있습니다.
 
 * 아직 채점하지 않음 - 채점자가 아직 시작하지 않음
@@ -175,6 +179,9 @@ $string['markingworkflowstate_help'] = '당신의 권한에 따라, 업무흐름
 * 검토중 - 최종 검토를 담당하는 선생님이 현재 확인 중
 * 발표 대기 - 최종 확인이 끝났으나, 결과를 발표하기 전 대기중
 * 발표 - 학생들이 자신의 점수와 선생님의 의견을 읽을 수 있음.';
+$string['markingworkflowstateinmarking'] = '표시 중';
+$string['markingworkflowstateinreview'] = '검토 중';
+$string['markingworkflowstatenotmarked'] = '표시되지 않음';
 $string['markingworkflowstatereadyforrelease'] = '공개 준비 완료';
 $string['markingworkflowstatereadyforreview'] = '채점 완료';
 $string['markingworkflowstatereleased'] = '공개됨';
@@ -221,6 +228,7 @@ $string['pluginname'] = '과제';
 $string['preventsubmissions'] = '이 과제에 데헤 추가 제출 금지';
 $string['preventsubmissionsshort'] = '제출 변경 금지';
 $string['previous'] = '이전으로';
+$string['privacy:gradepath'] = '성적';
 $string['quickgrading'] = '빠른 채점';
 $string['quickgradingchangessaved'] = '채점 변경이 저장되었습니다.';
 $string['quickgradingresult'] = '빠른 채점';
@@ -232,6 +240,7 @@ $string['reverttodraft'] = '제출을 초안 상태로 돌리기';
 $string['reverttodraftforstudent'] = '제출을 초안으로 되돌림:  (아이디={$a->id}, 성명={$a->fullname})';
 $string['reverttodraftshort'] = '제출을 초안으로 되돌림';
 $string['reviewed'] = '검토했음';
+$string['save'] = '저장';
 $string['saveallquickgradingchanges'] = '모든 빠른 채점 변경 저장';
 $string['savechanges'] = '변경사항 저장';
 $string['savegradingresult'] = '성적';
@@ -262,7 +271,6 @@ $string['submissionreceiptsmall'] = '{$a->assignment}에 대한 과제를 제출
 $string['submissionreceipttext'] = '"{$a->assignment}" 에 대한 과제를 제출하였습니다.
 
 과제 제출 상태를 볼 수 있습니다:  {$a->url}';
-$string['submissions'] = '제출된 과제들';
 $string['submissionsclosed'] = '제출이 마감되었습니다.';
 $string['submissionsettings'] = '제출 설정';
 $string['submissionslocked'] = '이 과제는 제출을 받지 않습니다.';
@@ -295,12 +303,15 @@ $string['subplugintype_assignfeedback'] = '피드백 플러그인';
 $string['subplugintype_assignfeedback_plural'] = '피드백 플러그인';
 $string['subplugintype_assignsubmission'] = '제출 플러그인';
 $string['subplugintype_assignsubmission_plural'] = '제출 플러그인';
+$string['teamname'] = '팀: {$a}';
 $string['teamsubmission'] = '모둠에서 학생 제출';
 $string['teamsubmissiongroupingid'] = '학습 모둠들을 위한 모둠 무리';
 $string['textinstructions'] = '과제 안내';
 $string['timemodified'] = '마지막 수정';
 $string['timeremaining'] = '남은 시간';
+$string['timeremainingcolon'] = '남은 시간: {$a}';
 $string['ungroupedusers'] = '\'제출하기 위해서는 그룹이 요구됨\'이란 설정이 활성화되어 있는데,  사용자가 어느 그룹의 회원도 아니거나 또 두 그룹 이상의 회원이라면 제출할 수 없습니다.';
+$string['ungroupedusersoptional'] = '\'학생들은 그룹으로 제출할 것\'이라는 설정이 활성화되어 있는데 일부 사용자가 그룹의 구성원이 아니거나 둘 이상의 그룹의 구성원입니다. 이런 학생들은 \'기본 그룹\'의 회원으로 제출됨을 유념하십시오.';
 $string['unlimitedattempts'] = '무제한';
 $string['unlimitedattemptsallowed'] = '무제한 시도가 허용됩니다.';
 $string['unlocksubmissionforstudent'] = '학생에게 제출 허용 : (아이디={$a->id}, 전체이름={$a->fullname}).';

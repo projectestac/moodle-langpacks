@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_multichoice', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_multichoice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,6 +37,7 @@ $string['answersingleno'] = 'Es permeten múltiples respostes';
 $string['answersingleyes'] = 'Només una resposta';
 $string['choiceno'] = 'Opció {$a}';
 $string['choices'] = 'Opcions disponibles';
+$string['clearchoice'] = 'Esborra la meva selecció';
 $string['clozeaid'] = 'Introduïu la paraula que falta';
 $string['correctansweris'] = 'La resposta correcta és: {$a}';
 $string['correctanswersare'] = 'Les respostes correctes són: {$a}';
@@ -61,7 +62,7 @@ $string['pleaseselectatleastoneanswer'] = 'Seleccioneu almenys una resposta.';
 $string['pluginname'] = 'Opció múltiple';
 $string['pluginnameadding'] = 'S\'està afegint una pregunta d\'opcions múltiples';
 $string['pluginnameediting'] = 'S\'està editant una pregunta d\'opcions múltiples';
-$string['pluginname_help'] = 'En resposta a la pregunta (que pot contenir una imatge) l\'alumne pot escollir entre diferents opcions. Hi ha dos tipus de preguntes d\'opció múltiple: una resposta i resposta múltiple.';
+$string['pluginname_help'] = 'En resposta a una pregunta (que pot contenir una imatge) l\'alumne pot escollir entre diferents opcions. Una pregunta d\'opció múltiple pot tenir una única resposta correcta o múltiples respostes correctes.';
 $string['pluginnamesummary'] = 'Permet la selecció d\'una o diverses respostes d\'una llista predefinida.';
 $string['selectmulti'] = 'Trieu-ne una o més:';
 $string['selectone'] = 'Trieu-ne una:';

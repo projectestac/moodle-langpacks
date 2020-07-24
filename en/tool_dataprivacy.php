@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_dataprivacy', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_dataprivacy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,7 @@ $string['contextlevelname70'] = 'Activity modules';
 $string['contextlevelname80'] = 'Blocks';
 $string['contextpurposecategorysaved'] = 'Purpose and category saved.';
 $string['createcategory'] = 'Create data category';
+$string['createdeletedatarequest'] = 'Create data deletion request';
 $string['createnewdatarequest'] = 'Create a new data request';
 $string['createpurpose'] = 'Create data purpose';
 $string['creationauto'] = 'Automatically';
@@ -78,9 +79,12 @@ $string['datadeletion'] = 'Data deletion';
 $string['datadeletionpagehelp'] = 'Data for which the retention period has expired are listed here. Please review and confirm data deletion, which will then be executed by the "Delete expired contexts" scheduled task.';
 $string['dataprivacy:downloadallrequests'] = 'Download exported data for everyone';
 $string['dataprivacy:downloadownrequest'] = 'Download your own exported data';
+$string['dataprivacy:makedatadeletionrequestsforchildren'] = 'Request data deletion for minors';
 $string['dataprivacy:makedatarequestsforchildren'] = 'Make data requests for minors';
 $string['dataprivacy:managedataregistry'] = 'Manage data registry';
 $string['dataprivacy:managedatarequests'] = 'Manage data requests';
+$string['dataprivacy:requestdelete'] = 'Request data deletion for yourself';
+$string['dataprivacy:requestdeleteforotheruser'] = 'Request data deletion on behalf of another user';
 $string['dataregistry'] = 'Data registry';
 $string['dataregistryinfo'] = 'The data registry enables categories (types of data) and purposes (the reasons for processing data) to be set for all content on the site - from users and courses down to activities and blocks. For each purpose, a retention period may be set. When a retention period has expired, the data is flagged and listed for deletion, awaiting admin confirmation.';
 $string['datarequestcreatedforuser'] = 'Data request created for {$a}';
@@ -134,7 +138,8 @@ $string['editpurposes'] = 'Edit purposes';
 $string['effectiveretentionperiodcourse'] = '{$a} (after the course end date)';
 $string['effectiveretentionperioduser'] = '{$a} (since the last time the user accessed the site)';
 $string['emailsalutation'] = 'Dear {$a},';
-$string['errorcannotdeleteadmin'] = 'Cannot create deletion request for the primary site admin';
+$string['errorcannotrequestdeleteforother'] = 'You don\'t have permission to create deletion request for this user.';
+$string['errorcannotrequestdeleteforself'] = 'You don\'t have permission to create deletion request for yourself.';
 $string['errorcontexthasunexpiredchildren'] = 'The context "{$a}" still has sub-contexts that have not yet expired. No contexts have been flagged for deletion.';
 $string['errorinvalidrequestcreationmethod'] = 'Invalid request creation method!';
 $string['errorinvalidrequeststatus'] = 'Invalid request status!';

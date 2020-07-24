@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignsubmission_file', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,7 +43,6 @@ $string['maxfilessubmission'] = 'Número máximo de archivos subidos';
 $string['maxfilessubmission_help'] = 'Si la entrega de archivos está habilitada, cada estudiante podrá subir hasta este número de archivos en sus envíos';
 $string['maximumsubmissionsize'] = 'Tamaño máximo de la entrega';
 $string['maximumsubmissionsize_help'] = 'El archivo subido por el alumno no puede estar por encima de este tamaño.';
-$string['nonexistentfiletypes'] = 'Los siguientes tipos de archivo no fueron reconocidos: {$a}';
 $string['numfilesforlog'] = 'El número de archivos: {$a} archivos';
 $string['pluginname'] = 'Archivos enviados';
 $string['siteuploadlimit'] = 'Límite de subida del sitio';

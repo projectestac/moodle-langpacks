@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -84,8 +84,6 @@ Du har begärt en ändring av Din e-postadress för Ditt användarkonto på  {$a
  {$a->url},';
 $string['emailupdatesuccess'] = 'Användaren <em>{$a->fullname}</em>s e-postadress har framgångsrikt uppdaterats till <em>{$a->email}</em>.';
 $string['emailupdatetitle'] = 'Bekräftelse av uppdatering av e-postadress vid {$a->site}';
-$string['enterthenumbersyouhear'] = 'Mat a in de tal du hör';
-$string['enterthewordsabove'] = 'Mata in de ovanstående orden';
 $string['errormaxconsecutiveidentchars'] = 'Lösenord måste ha som mest {$a} på varandra följande identiska tecken.';
 $string['errorminpassworddigits'] = 'Lösenord måste innehålla minst {$a} siff/ror';
 $string['errorminpasswordlength'] = 'Lösenord måste innehålla minst {$a} tecken';
@@ -100,9 +98,6 @@ $string['forcechangepasswordfirst_help'] = 'Tvinga användare att byta lösenord
 $string['forcechangepassword_help'] = 'Tvinga användare att byta lösenord nästa gång de loggar in på Moodle.';
 $string['forgottenpassword'] = 'Om du matar in en URL här så kommer den att användas som sidan för att återvinna förlorade lösenord på den här webbplatsen. Detta är avsett för webbplatser där lösenord hanteras helt och hållet utanför Moodle. Låt detta vara tomt om du vill använda den förvalda standardmetoden för att återvinna lösenord.';
 $string['forgottenpasswordurl'] = 'URL för förlorade lösenord';
-$string['getanaudiocaptcha'] = 'Skaffa en  CAPTCHA i audioformat';
-$string['getanimagecaptcha'] = 'Skaffa en  CAPTCHA i bildformat';
-$string['getanothercaptcha'] = 'Skaffa en  CAPTCHA till';
 $string['guestloginbutton'] = 'Knapp för inlgoggning för gäster';
 $string['incorrectpleasetryagain'] = 'Felaktigt. Var snäll och försök igen.';
 $string['infilefield'] = 'Det måste finnas ett fält i filen';

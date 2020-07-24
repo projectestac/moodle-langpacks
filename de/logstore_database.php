@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_database', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'logstore_database', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   logstore_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,6 +42,8 @@ $string['filters'] = 'Logdaten filtern';
 $string['filters_help'] = 'Diese Option nimmt Aktivitäten aus, die nicht aufgezeichnet werden sollen.';
 $string['includeactions'] = 'Aktivitäten mit diesen Typen einbeziehen';
 $string['includelevels'] = 'Aktivitäten mit diesen Bildungsstufen einbeziehen';
+$string['jsonformat'] = 'JSON-Format';
+$string['jsonformat_desc'] = 'Verwenden Sie das Standard-JSON-Format anstelle von mit PHP serialisierten Daten im Datenbankfeld \'Andere\'.';
 $string['logguests'] = 'Aktionen von Gästen einbeziehen';
 $string['other'] = 'Andere';
 $string['participating'] = 'Teilnehmend';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'feedback', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -140,9 +140,14 @@ $string['horizontal'] = 'Horizontal';
 $string['importfromthisfile'] = 'Importer depuis ce fichier';
 $string['import_questions'] = 'Importer des questions';
 $string['import_successfully'] = 'Importation réussie';
+$string['includeuserinrecipientslist'] = 'Inclure {$a} dans la liste des destinataires';
 $string['indicator:cognitivedepth'] = 'Feedback : aspect cognitif';
+$string['indicator:cognitivedepthdef'] = 'Feedback : aspect cognitif';
+$string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement cognitif offert par les activités « Feedback » (niveaux : pas de vue, vue, envoi).';
 $string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une activité Feedback.';
 $string['indicator:socialbreadth'] = 'Feedback : aspect social';
+$string['indicator:socialbreadthdef'] = 'Feedback : aspect social';
+$string['indicator:socialbreadthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement social offert par les activités « Feedback » (niveaux : pas de participation, participant seul, participant avec d\'autres).';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Feedback.';
 $string['info'] = 'Information';
 $string['infotype'] = 'Type d\'information';
@@ -154,7 +159,7 @@ $string['item_name'] = 'Question';
 $string['label'] = 'Étiquette';
 $string['labelcontents'] = 'Contenu';
 $string['mapcourse'] = 'Associer les feedbacks aux cours';
-$string['mapcourse_help'] = 'Par défaut, les formulaires de feedback créé sur la page d\'accueil sont disponibles sur tout le site et apparaissent dans tous les cours qui utilisent le bloc feedback. Vous pouvez imposer l\'affichage du formulaire de feedback en créant un bloc fixe ou limiter les cours dans lesquels un formulaire de feedback est affiché en associant un feedback à un ou plusieurs cours.';
+$string['mapcourse_help'] = 'Par défaut, les formulaires de feedback créés sur la page d\'accueil sont disponibles sur tout le site et apparaissent dans tous les cours qui utilisent le bloc feedback. Vous pouvez imposer l\'affichage du formulaire de feedback en créant un bloc fixe ou limiter les cours dans lesquels un formulaire de feedback est affiché en associant un feedback à un ou plusieurs cours.';
 $string['mapcourseinfo'] = 'Ce feedback global est disponible pour tous les cours, par l\'intermédiaire du bloc feedback. Vous pouvez cependant limiter les cours où il peut apparaître en les associant explicitement. Rechercher le cours et associez-le à ce feedback.';
 $string['mapcoursenone'] = 'Aucun cours associé. Le feedback est disponible pour tous les cours';
 $string['mapcourses'] = 'Associer le feedback aux cours';

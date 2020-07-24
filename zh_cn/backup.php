@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,36 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['asyncbackupcomplete'] = '备份过程已完成';
+$string['asyncbackupcompletebutton'] = '继续';
+$string['asyncbackupcompletedetail'] = '备份过程已成功完成。<br/>您可以在<a href=“{$a}”>还原页面访问备份</a>';
+$string['asyncbackuperror'] = '备份过程失败';
+$string['asyncbackuperrordetail'] = '备份过程失败。请与系统管理员联系。';
+$string['asyncbackuppending'] = '备份过程挂起';
+$string['asyncbackupprocessing'] = '备份正在进行中';
+$string['asyncbadexecution'] = '备份控制器执行错误。它是{$a}，应该是2。';
+$string['asynccheckprogress'] = '您可以随时在<a href=“{$a}”>恢复页面上查看进度。';
+$string['asyncemailenable'] = '启用消息通知';
+$string['asyncemailenabledetail'] = '如果启用，则当异步备份或还原完成时，用户将收到一条消息。';
+$string['asyncgeneralsettings'] = '异步备份/恢复';
+$string['asyncmessagebody'] = '消息';
+$string['asyncmessagebodydefault'] = '你好{user_firstname}，<br/>您的{operation}（ID:{backupid}）已成功完成。<br/><br/>您可以在此处访问：{link}。';
+$string['asyncmessagebodydetail'] = '异步备份或还原完成时要发送的消息。';
+$string['asyncmessagesubject'] = '主题';
+$string['asyncmessagesubjectdefault'] = 'Moodle{operation}成功完成';
+$string['asyncmessagesubjectdetail'] = '消息主题';
+$string['asyncnowait'] = '您不需要在这里等待，因为该过程将在后台继续。';
+$string['asyncprocesspending'] = '进程挂起';
+$string['asyncrestorecomplete'] = '还原过程已完成';
+$string['asyncrestorecompletebutton'] = '继续';
+$string['asyncrestorecompletedetail'] = '还原过程已成功完成。单击“继续”将带您进入还原项目的<a href=“{$a}”>课程</a>';
+$string['asyncrestoreerror'] = '还原过程失败';
+$string['asyncrestoreerrordetail'] = '还原过程失败。请与系统管理员联系。';
+$string['asyncrestoreinprogress'] = '正在进行恢复';
+$string['asyncrestoreinprogress_help'] = '此处显示正在进行的异步进程恢复。';
+$string['asyncrestorepending'] = '还原过程挂起';
+$string['asyncrestoreprocessing'] = '还原正在进行中';
+$string['asyncreturn'] = '返回到课程中';
 $string['autoactivedescription'] = '选择是否进行自动备份。如果选择人工，那么只能通过命令行的自动备份脚本做自动备份。您可以在命令行或通过cron来调用。';
 $string['autoactivedisabled'] = '禁用';
 $string['autoactiveenabled'] = '启用';
@@ -64,6 +94,7 @@ $string['backupmode30'] = '中心';
 $string['backupmode40'] = '相同网站';
 $string['backupmode50'] = '自动';
 $string['backupmode60'] = '转换';
+$string['backupmode70'] = '异步';
 $string['backupsection'] = '备份课程小节：{$a}';
 $string['backupsettings'] = '备份设置';
 $string['backupsitedetails'] = '网站细节';
@@ -93,6 +124,7 @@ $string['configgeneralblocks'] = '缺省情况下，备份是否包含各个版�
 $string['configgeneralcalendarevents'] = '设置默认在备份中包括日历事件。';
 $string['configgeneralcomments'] = '缺省情况下，备份是否包含评论。';
 $string['configgeneralcompetencies'] = '设置默认在备份中包含能力。';
+$string['configgeneralfiles'] = '设置备份中包含文件的默认值。请注意：禁用此设置将导致只包含对文件的引用的备份。如果备份在同一站点上还原，并且文件没有根据设置“清理垃圾桶文件”（filescanneupperiod）删除，则这不是问题。';
 $string['configgeneralfilters'] = '缺省情况下，备份是否包含过滤器。';
 $string['configgeneralgroups'] = '为包括在分组和备份中的分组设置默认值。';
 $string['configgeneralhistories'] = '缺省情况下，备份是否包含用户的历史记录。';
@@ -141,6 +173,8 @@ $string['currentstage16'] = '完成';
 $string['currentstage2'] = '架构设置';
 $string['currentstage4'] = '确认和审核';
 $string['currentstage8'] = '执行备份';
+$string['enableasyncbackup'] = '启用异步备份';
+$string['enableasyncbackup_help'] = '如果启用，所有备份和还原操作都将异步完成。这并不影响进出口。异步备份和还原允许用户在备份或还原过程中执行其他操作。';
 $string['enterasearch'] = '键入并搜索';
 $string['error_block_for_module_not_found'] = '在课程模块（ID：{$a->mid}）发现无主版块实例（ID：{$a->bid}）。不会备份此版块。';
 $string['errorcopyingbackupfile'] = '在还原前无法将备份文件复制到临时文件夹。';
@@ -153,6 +187,7 @@ $string['errorinvalidformatinfo'] = '所选文件不是有效的Moodle备份文�
 $string['errorminbackup20version'] = '此备份文件由开发版的Moodle备份创建 ({$a->backup})。最低需求是{$a->min}。不能恢复。';
 $string['errorrestorefrontpagebackup'] = '你只能在一个首页上恢复首页备份';
 $string['executionsuccess'] = '成功建立备份文件。';
+$string['failed'] = '备份失败';
 $string['filealiasesrestorefailures'] = '别名恢复失败';
 $string['filealiasesrestorefailures_help'] = '别名是链接到其他文件的符号链接，包括存储在外部容器中的文件。在某些情况下，Moodle 不能恢复它们——例如，在另一个站点恢复此备份文件或引用的文件不存在在时。
 
@@ -171,6 +206,7 @@ $string['generalcalendarevents'] = '包括日历事件';
 $string['generalcomments'] = '包括评论';
 $string['generalcompetencies'] = '包括能力';
 $string['generalenrolments'] = '包括选课方法';
+$string['generalfiles'] = '包括文件';
 $string['generalfilters'] = '包括过滤器';
 $string['generalgradehistories'] = '包括历史';
 $string['generalgroups'] = '包含小组和大组';
@@ -209,6 +245,7 @@ $string['includeditems'] = '包括项目：';
 $string['includefilereferences'] = '文件引用了外部内容';
 $string['includesection'] = '小节{$a}';
 $string['includeuserinfo'] = '用户数据';
+$string['inprogress'] = '正在备份';
 $string['jumptofinalstep'] = '跳到最后一步';
 $string['keep'] = '保留';
 $string['locked'] = '锁定';
@@ -227,6 +264,10 @@ $string['nomatchingcourses'] = '没有可显示的课程';
 $string['norestoreoptions'] = '没有您可以恢复到的分类或已有课程。';
 $string['originalwwwroot'] = '备份的URL';
 $string['overwrite'] = '覆盖';
+$string['pendingasyncdeletedetail'] = '本课程有一个异步备份挂起。<br/>在备份完成之前，无法删除课程。';
+$string['pendingasyncdetail'] = '异步备份只允许用户一次对一个资源进行一次挂起的备份。<br/>同一资源的多个异步备份无法排队，因为这可能会导致具有相同内容的多个备份。';
+$string['pendingasyncedit'] = '此课程有一个挂起的异步备份。在备份完成之前，请不要编辑此课程。';
+$string['pendingasyncerror'] = '备份被挂起因为这个资源';
 $string['preparingdata'] = '数据准备中';
 $string['preparingui'] = '准备显示页面';
 $string['previousstage'] = '上一步';
@@ -288,10 +329,12 @@ $string['rootsettingblocks'] = '包括版块';
 $string['rootsettingcalendarevents'] = '包括日历事件';
 $string['rootsettingcomments'] = '包括评论';
 $string['rootsettingcompetencies'] = '包含能力';
+$string['rootsettingcustomfield'] = '包括自定义字段';
 $string['rootsettingenrolments'] = '包括选课方法';
 $string['rootsettingenrolments_always'] = '是的，总是这样';
 $string['rootsettingenrolments_never'] = '不，将用户恢复为人工选课';
 $string['rootsettingenrolments_withusers'] = '是的，但是仅仅包括选课的用户';
+$string['rootsettingfiles'] = '包括文件';
 $string['rootsettingfilters'] = '包括过滤器';
 $string['rootsettinggradehistories'] = '包括成绩历史';
 $string['rootsettinggroups'] = '包含小组和大组';
@@ -303,6 +346,7 @@ $string['rootsettingroleassignments'] = '包括角色分配';
 $string['rootsettings'] = '备份设置';
 $string['rootsettingusers'] = '包括已选课用户';
 $string['rootsettinguserscompletion'] = '包括用户学习进度细节';
+$string['samesitenotification'] = '创建此备份时仅引用文件，而不是文件本身。恢复只能在此网站上工作。';
 $string['sectionactivities'] = '活动';
 $string['sectioninc'] = '包含在备份中（无用户信息）';
 $string['sectionincanduser'] = '随用户信息一起包含在备份中';
@@ -325,13 +369,16 @@ $string['skipmodifdays'] = '忽略有多少天没有更新的课程';
 $string['skipmodifdayshelp'] = '选择是否要忽略已经有多少天没有更新的课程';
 $string['skipmodifprev'] = '忽略从上次备份以来没有更新的课程';
 $string['skipmodifprevhelp'] = '选择是否跳过从上次自动备份后没有修改的课程。需要启用日志功能。';
+$string['status'] = '状态';
 $string['storagecourseandexternal'] = '课程备份文件区和指定的目录';
 $string['storagecourseonly'] = '课程备份文件区';
 $string['storageexternalonly'] = '指定自动备份的目录';
+$string['successful'] = '备份成功';
+$string['successfulrestore'] = '恢复成功';
 $string['timetaken'] = '耗时';
 $string['title'] = '标题';
 $string['totalcategorysearchresults'] = '分类总数：{$a}';
 $string['totalcoursesearchresults'] = '课程总数：{$a}';
 $string['undefinedrolemapping'] = '未定义"{$A}" 结构原型的角色映射。';
 $string['unnamedsection'] = '未命名的小节';
-$string['userinfo'] = '用户资料';
+$string['userinfo'] = '用户的信息';

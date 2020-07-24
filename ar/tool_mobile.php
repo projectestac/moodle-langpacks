@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_mobile', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_mobile', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_mobile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['androidappid'] = 'المعرف الفريد لتطبيق Android';
 $string['androidappid_desc'] = 'قد يتم ترك هذا الإعداد كإعداد افتراضي إلا إذا كان لديك تطبيق Android مخصص.';
 $string['apppolicy'] = 'رابط سياسة التطبيق';
 $string['apppolicy_help'] = 'رابط السياسة لمستخدمي التطبيق المدرجين في صفحة (حول) في التطبيق. إذا تم ترك الحقل فارغًا ، فسيتم استخدام رابط سياسة الموقع بدلاً من ذلك.';
+$string['apprequired'] = 'تتوفر هذه الوظيفة فقط عند الوصول إليها عبر تطبيق Moodle للهاتف المحمول أو سطح المكتب.';
 $string['autologinkeygenerationlockout'] = 'تم حظر إنشاء مفتاح تسجيل الدخول التلقائي.
 تحتاج إلى الانتظار 6 دقائق بين الطلبات.';
 $string['autologinnotallowedtoadmins'] = 'لا يُسمح بتسجيل الدخول التلقائي لمشرفي الموقع.';
@@ -55,7 +56,6 @@ $string['downloadcourse'] = 'تنزيل المقرر';
 $string['downloadcourses'] = 'تنزيل المقررات';
 $string['enablesmartappbanners'] = 'تمكين لافتات التطبيقات';
 $string['enablesmartappbanners_desc'] = 'في حالة التمكين ، سيتم عرض لافتة تروج لتطبيق الجوال عند الوصول إلى الموقع باستخدام متصفح الجوال.';
-$string['forcedurlscheme'] = 'إذا كنت تريد السماح فقط بفتح تطبيقك ذي العلامات التجارية المخصصة عبر نافذة متصفح ، فحدد مخطط رابط خاص به هنا ؛ و إلا اترك الحقل فارغًا.';
 $string['forcedurlscheme_key'] = 'رابط المخطط';
 $string['forcelogout'] = 'فرض تسجيل الخروج';
 $string['forcelogout_desc'] = 'في حالة التمكين ، يتم استبدال خيار التطبيق "تغيير الموقع" بـ "تسجيل الخروج". ينتج عن هذا تسجيل خروج المستخدم بالكامل. يجب عليهم بعد ذلك إعادة إدخال كلمة المرور الخاصة بهم في المرة القادمة التي يرغبون في الوصول إلى الموقع.';
@@ -88,7 +88,9 @@ $string['pluginname'] = 'أدوات التطبيق Moodle';
 $string['pluginnotenabledorconfigured'] = 'البرنامج المساعد غير مفعل أو مكوّن.';
 $string['privacy:metadata:core_userkey'] = 'مفاتيح المستخدم المستخدمة لإنشاء مفتاح تسجيل الدخول التلقائي للمستخدم الحالي.';
 $string['privacy:metadata:preference:tool_mobile_autologin_request_last'] = 'تاريخ آخر طلب مفتاح تسجيل دخول تلقائي. بين كل طلب مطلوب 6 دقائق.';
+$string['readingthisemailgettheapp'] = 'قراءة هذا في البريد الإلكتروني؟ قم بتنزيل تطبيق الجوال و تلقي الإخطارات على جهازك المحمول .';
 $string['remoteaddons'] = 'الوظائف الإضافية عن بُعد';
+$string['responsivemainmenuitems'] = 'استجابة عناصر القائمة';
 $string['selfsignedoruntrustedcertificatewarning'] = 'يبدو أن شهادة HTTPS موقعة ذاتياً أو غير موثوق بها.
 لن يعمل تطبيق الجوال إلا مع المواقع الموثوق بها.';
 $string['setuplink'] = 'صفحة تنزيل التطبيق';

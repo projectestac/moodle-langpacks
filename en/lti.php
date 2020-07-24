@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lti', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,7 +70,10 @@ $string['cannot_edit'] = 'You may not edit this tool configuration.';
 $string['capabilities'] = 'Capabilities';
 $string['capabilities_help'] = 'Select those capabilities which you wish to offer to the tool provider.  More than one capability can be selected.';
 $string['capabilitiesrequired'] = 'This tool requires access to the following data in order to activate:';
+$string['cleanaccesstokens'] = 'External tool removal of expired access tokens';
 $string['click_to_continue'] = '<a href="{$a->link}" target="_top">Click to continue</a>';
+$string['clientidadmin'] = 'Client ID';
+$string['clientidadmin_help'] = 'The client ID is a unique value used to identify a tool. It is created automatically for each tool which uses the JWT security profile introduced in LTI 1.3 and should be part of the details passed to the tool provider so that they can configure the connection at their end.';
 $string['comment'] = 'Comment';
 $string['configpassword'] = 'Default remote tool password';
 $string['configpreferheight'] = 'Default preferred height';
@@ -191,10 +194,19 @@ $string['icon_url_help'] = 'The icon URL allows the icon that shows up in the co
 LTI icon, an icon which conveys the type of activity may be specified.';
 $string['id'] = 'ID';
 $string['indicator:cognitivedepth'] = 'LTI cognitive';
+$string['indicator:cognitivedepthdef'] = 'LTI cognitive';
+$string['indicator:cognitivedepthdef_help'] = 'The participant has reached this percentage of the cognitive engagement offered by the LTI activities during this analysis interval (Levels = No view, View, Submit, View feedback)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:cognitivedepth_help'] = 'This indicator is based on the cognitive depth reached by the student in an LTI activity.';
 $string['indicator:socialbreadth'] = 'LTI social';
+$string['indicator:socialbreadthdef'] = 'LTI social';
+$string['indicator:socialbreadthdef_help'] = 'The participant has reached this percentage of the social engagement offered by the LTI activities during this analysis interval (Levels = No participation, Participant alone, Participant with others)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['indicator:socialbreadth_help'] = 'This indicator is based on the social breadth reached by the student in an LTI activity.';
+$string['initiatelogin'] = 'Initiate login URL';
+$string['initiatelogin_help'] = 'The tool URL to which requests for initiating a login are to be sent.  This URL is required before a message can be successfully sent to the tool.';
 $string['invalidid'] = 'LTI ID was incorrect';
+$string['jwtsecurity'] = 'LTI 1.3';
 $string['launch_in_moodle'] = 'Launch tool in Moodle';
 $string['launchinpopup'] = 'Launch container';
 $string['launch_in_popup'] = 'Launch tool in a pop-up';
@@ -238,6 +250,8 @@ $string['ltisettings'] = 'LTI settings';
 $string['lti_tool_request_added'] = 'Tool configuration request successfully submitted. You may need to contact an administrator to complete the tool configuration.';
 $string['lti_tool_request_existing'] = 'A tool configuration for the tool domain has already been submitted.';
 $string['ltiunknownserviceapicall'] = 'LTI unknown service API call.';
+$string['ltiversion'] = 'LTI version';
+$string['ltiversion_help'] = 'The version of LTI being used for signing messages and service requests: LTI 1.0/1.1 and LTI 2.0 use the OAuth 1.0A security profile; LTI 1.3.0 uses JWTs.';
 $string['lti:view'] = 'Launch external tool activities';
 $string['main_admin'] = 'General help';
 $string['main_admin_help'] = 'External tools allow Moodle users to interact with learning resources hosted remotely. Through a special launch protocol, the remote tool has access to general information about the launching user. For example, the institution name, course ID, user ID, and other information such as the user\'s name or email address.
@@ -287,14 +301,16 @@ $string['no_tp_pending'] = 'There are no pending external tool registrations.';
 $string['no_tp_rejected'] = 'There are no rejected external tool registrations.';
 $string['notypes'] = 'There are currently no LTI tools set up in Moodle. Click the Install link above to add some.';
 $string['noviewusers'] = 'No users were found with permissions to use this tool';
+$string['oauthsecurity'] = 'LTI 1.0/1.1';
+$string['opensslconfiginvalid'] = 'LTI 1.3 requires a valid openssl.cnf to be configured and available to your web server. Please contact the site administrator to configure and enable openssl for this site.';
 $string['optionalsettings'] = 'Optional settings';
-$string['organization'] = 'Organization details';
-$string['organizationdescr'] = 'Organization description';
-$string['organizationid'] = 'Organization ID';
-$string['organizationid_help'] = 'A unique identifier for this Moodle instance. Typically, the DNS name of the organization is used.
+$string['organization'] = 'Organisation details';
+$string['organizationdescr'] = 'Organisation description';
+$string['organizationid'] = 'Organisation ID';
+$string['organizationid_help'] = 'A unique identifier for this Moodle instance. Typically, the DNS name of the organisation is used.
 
 If this field is left blank, the host name of this Moodle site will be used as the default value.';
-$string['organizationurl'] = 'Organization URL';
+$string['organizationurl'] = 'Organisation URL';
 $string['organizationurl_help'] = 'The base URL of this Moodle instance.
 
 If this field is left blank, a default value will be used based on the site configuration.';
@@ -353,9 +369,13 @@ $string['privacy:metadata:timemodified'] = 'The time when the record was modifie
 $string['privacy:metadata:userid'] = 'The ID of the user accessing the LTI Consumer';
 $string['privacy:metadata:useridnumber'] = 'The ID number of the user accessing the LTI Consumer';
 $string['privacy:metadata:username'] = 'The username of the user accessing the LTI Consumer';
+$string['publickey'] = 'Public key';
+$string['publickey_help'] = 'The public key (in PEM format) provided by the tool to allow signatures of incoming messages and service requests to be verified.';
 $string['quickgrade'] = 'Allow quick grading';
 $string['quickgrade_help'] = 'If enabled, multiple tools can be graded on one page. Add grades and comments then click the "Save all my feedback" button to save all changes for that page.';
 $string['redirect'] = 'You will be redirected in few seconds. If you are not, press the button.';
+$string['redirectionuris'] = 'Redirection URI(s)';
+$string['redirectionuris_help'] = 'A list of URIs (one per line) which the tool uses when making authorisation requests.  At least one must be registered before a message can be successfully sent to the tool.';
 $string['register'] = 'Register';
 $string['registertype'] = 'Configure a new external tool registration';
 $string['register_warning'] = 'The registration page seems to be taking a while to open. If it does not appear, check that you entered the correct URL in the configuration settings. If Moodle is using https, ensure the tool you are configuring supports https and you are using https in the URL.';
@@ -456,6 +476,16 @@ $string['tooldescription'] = 'Tool description';
 $string['tooldescription_help'] = 'The description of the tool that will be displayed to teachers in the activity list.
 
 This should describe what the tool is for and what it does and any additional information the teacher may need to know.';
+$string['tooldetailsaccesstokenurl'] = 'Access token URL';
+$string['tooldetailsauthrequesturl'] = 'Authentication request URL';
+$string['tooldetailsclientid'] = 'Client ID';
+$string['tooldetailsdeploymentid'] = 'Deployment ID';
+$string['tooldetailsmailtosubject'] = 'LTI tool configuration';
+$string['tooldetailsmodalemail'] = 'Email';
+$string['tooldetailsmodallink'] = 'View configuration details';
+$string['tooldetailsmodaltitle'] = 'Tool configuration details';
+$string['tooldetailsplatformid'] = 'Platform ID';
+$string['tooldetailspublickeyseturl'] = 'Public keyset URL';
 $string['toolisbeingused'] = 'This tool is being used {$a} times';
 $string['toolisnotbeingused'] = 'This tool has not yet been used';
 $string['toolproxy'] = 'External tool registrations';

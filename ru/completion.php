@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -103,8 +103,6 @@ $string['completionondate'] = 'Дата';
 $string['completionondatevalue'] = 'Дата, когда курс будет помечен как завершенный';
 $string['completion-pass'] = 'Выполнено (оценка выше проходного балла)';
 $string['completionsettingslocked'] = 'Настройки выполнения заблокированы';
-$string['completion-title-manual-n'] = 'Отметить как выполненное:{$a}';
-$string['completion-title-manual-y'] = 'Отметить как невыполненное: {$a}';
 $string['completionupdated'] = 'Обновлены настройки завершения для элемента курса <b>«{$a}»</b>';
 $string['completionusegrade'] = 'Требуется оценка';
 $string['completionusegrade_desc'] = 'Студент должен получить оценку для выполнения этого элемента';

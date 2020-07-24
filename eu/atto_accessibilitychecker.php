@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_accessibilitychecker', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'atto_accessibilitychecker', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   atto_accessibilitychecker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,10 +30,10 @@ $string['entiredocument'] = 'Dokumentu osoa';
 $string['imagesmissingalt'] = 'Irudiek ordezko testua behar dute. Abisu hau konpontzeko, gehitu alt ezaugarria zure irudiaren etiketei. Alt etiketa hutsa erabil daiteke baina soilik irudia apaingarria denean eta informaziorik ematen ez duenean .';
 $string['needsmorecontrast'] = 'Testuaren eta atzeko koloreek ez dute nahiko kontraste. Abisu hau konpontzeko, aldatu testuaren edo atzeko koloreak eta hartara errazago irakurri ahal izango da.';
 $string['needsmoreheadings'] = 'Izenbururik gabeko testu luzea dago. Izenburuek pantaila-irakurleak erabiltzen dituzten erabiltzaileei orrian zehar modu errazean nabigatzea ahalbidetuko diete, eta orria erabilgarriago egingo dute guztientzat.';
-$string['nowarnings'] = 'Zorionak, ez da erabilerraztasun-arazorik aurkitu!';
-$string['pluginname'] = 'Erabilerraztasun-egiaztatzailea';
+$string['nowarnings'] = 'Zorionak, ez da irisgarritasun-arazorik aurkitu!';
+$string['pluginname'] = 'Irisgarritasun-egiaztatzailea';
 $string['privacy:metadata'] = 'atto_accessibilitychecker pluginak ez du datu pertsonalik biltzen.';
-$string['report'] = 'Erabilerraztasun-txostena:';
+$string['report'] = 'Irisgarritasun-txostena:';
 $string['tablesmissingcaption'] = 'Taulek epigrafea izan beharko lituzkete. Ez da beharrezkoa taula guztiek epigrafea izatea, baina normalean oso lagungarriak dira.';
 $string['tablesmissingheaders'] = 'Taulek lerro eta zutabeen izenburuak erabili beharko lituzkete.';
 $string['tableswithmergedcells'] = 'Taulek ez lituzkete batutako gelaxkak izan behar. Nahiz eta duela urte asko etiketa estandarrak diren arren, pantaila irakurle batzuk oraindik ez dituzte taula konplexuak guztiz onartzen. Posible denean, saiatu taulak "txikitzen eta batutako gelaxkak ekiditen.';

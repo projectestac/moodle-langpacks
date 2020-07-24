@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completion_progress', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_completion_progress', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   block_completion_progress
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -109,9 +109,9 @@ $string['time_expected'] = 'Noizko espero den';
 $string['why_set_the_title'] = 'Zergatik ezarri nahi izan dezakezu bloke instantziaren izenburua?';
 $string['why_set_the_title_help'] = '<p>Osaketaren Jarraipena blokeko instantzia anitz egon daitezke. Osaketaren Jarraipena bloke ezberdinak erabili ditzakezu aktibitate eta baliabide sorta ezberdinak jarraitzeko. Esaterako, zereginak bloke batean eta galdetegiak beste batean jarraitu ditzakezu. Hori dela eta, blokearen berezko izenburua gainidatzi eta instantzia bakoitzarentzat izenburu egokiago bat jarri daiteke.</p>';
 $string['why_show_precentage'] = 'Zergatik erakutsi aurrerapenaren ehunekoa ikasleei?';
-$string['why_show_precentage_help'] = '<p>Ikasleei aurrerapen osoaren portzentajea erakutsi dakieke.</p>
+$string['why_show_precentage_help'] = '<p>Ikasleei aurrerapen osoaren ehunekoa erakutsi dakieke.</p>
 <p>Hau kalkulatzeko osatutako elementu kopurua eta barrako elementu kopuruaren arteko zatiketa egiten da.</p>
-<p>Aurrerapen portzentajea erakusten da ikasleak sagua elementu baten gainean jartzen duen arte.</p>';
+<p>Aurrerapen ehunekoa erakusten da ikasleak sagua elementu baten gainean jartzen duen arte.</p>';
 $string['why_use_icons'] = 'Zergatik erabili nahi izan dezakezu ikonoak?';
 $string['why_use_icons_help'] = '<p>Agian Osaketaren Jarraipena ontzat edo txartzat emateko ikonoak erakutsi nahiko dituzu daltonikoentzat bloke hau eskuragarriagoa egiteko.</p>
 <p>Honek blokea argiagoa eta ulergarriagoa egitea ere ahalbidetu dezake, koloreak intuitiboak ez direla uste baduzu, arrazoi kultural edo pertsonalak direla medio.</p>';

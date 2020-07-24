@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_recentlyaccessedcourses', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_recentlyaccessedcourses', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   block_recentlyaccessedcourses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['displaycategories'] = 'Toon categorieën';
+$string['displaycategories_help'] = 'Geef de cursuscategorie weer op de items van de onlangs geopende cursussen.';
 $string['nocourses'] = 'Geen onlangs geopende cursussen';
 $string['pluginname'] = 'Onlangs geopende cursussen';
 $string['privacy:metadata'] = 'Het Onlangs geopende cursussen-blok slaat geen persoonlijke gegevens op.';
-$string['recentlyaccessedcourses:addinstance'] = 'Voeg een nieuw blok Onlangs gebruikte cursussen toe';
 $string['recentlyaccessedcourses:myaddinstance'] = 'Voeg een nieuw blok Onlangs geopende cursussen toe aan je Mijn startpagina';

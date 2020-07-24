@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_mnet', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_mnet', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_mnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,6 +31,7 @@ $string['auth_mnet_roamin'] = 'Les utilisateurs de ces serveurs peuvent accéder
 $string['auth_mnet_roamout'] = 'Vos utilisateurs peuvent accéder à ces serveurs';
 $string['auth_mnet_rpc_negotiation_timeout'] = 'Délai en secondes pour l\'authentification par transport XMLRPC.';
 $string['auto_add_remote_users'] = 'Ajouter automatiquement les utilisateurs distants';
+$string['crontask'] = 'Traitement en tâche de fond de l\'authentification MNET';
 $string['pluginname'] = 'Authentification MNet';
 $string['privacy:metadata:external:mahara'] = 'Ce plugin peut envoyer des données à une application Mahara externe liée.';
 $string['privacy:metadata:external:moodle'] = 'Ce plugin peut envoyer des données à une application Moodle externe liée.';
@@ -59,7 +60,7 @@ $string['privacy:metadata:mnet_external:lastaccess'] = 'La date et l\'heure à l
 $string['privacy:metadata:mnet_external:lastlogin'] = 'La dernière connexion de l\'utilisateur.';
 $string['privacy:metadata:mnet_external:lastname'] = 'Le nom de famille de l\'utilisateur.';
 $string['privacy:metadata:mnet_external:lastnamephonetic'] = 'Les informations phonétiques sur le nom de l\'utilisateur.';
-$string['privacy:metadata:mnet_external:maildigest'] = 'Un réglage pour les courriels quotidiens de cet utilisateur.';
+$string['privacy:metadata:mnet_external:maildigest'] = 'Un réglage pour les récapitulatifs de messages de cet utilisateur.';
 $string['privacy:metadata:mnet_external:maildisplay'] = 'Une préférence de l\'utilisateur sur l\'affichage de son adresse de courriel à d\'autres utilisateurs.';
 $string['privacy:metadata:mnet_external:middlename'] = 'Le deuxième prénom de l\'utilisateur';
 $string['privacy:metadata:mnet_external:msn'] = 'L\'identifiant MSN de l\'utilisateur';

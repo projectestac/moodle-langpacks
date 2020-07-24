@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_email', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message_email', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   message_email
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['email'] = 'Invia notifiche email a';
+$string['emaildigestsubject'] = 'Raccolta messaggi';
+$string['emaildigestunreadmessages'] = 'Messaggi non letti';
+$string['emaildigestviewallmessages'] = 'Visualizza tutti i messaggi';
 $string['emailonlyfromnoreplyaddress'] = 'Invia sempre email da indirizzo no-reply';
 $string['ifemailleftempty'] = 'Lasciare vuoto per inviare le notifiche a {$a}';
 $string['pluginname'] = 'Email';

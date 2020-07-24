@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'langconfig', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'langconfig', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   langconfig
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,7 +51,7 @@ $string['strftimemonthyear'] = '%Y年%m月';
 $string['strftimerecent'] = '%m月%d日 %H:%M';
 $string['strftimerecentfull'] = '%Y年%m月%d日 %A %H:%M';
 $string['strftimetime'] = '%H:%M';
-$string['thisdirection'] = '符号(ltr)';
+$string['thisdirection'] = 'ltr';
 $string['thisdirectionvertical'] = 'btt';
 $string['thislanguage'] = '简体中文';
 $string['thislanguageint'] = 'Chinese (Simplified)';

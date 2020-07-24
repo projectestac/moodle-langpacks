@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,11 @@ $string['check_cookiesecure_details'] = '<p>Εάν η επικοινωνία htt
 $string['check_cookiesecure_error'] = 'Παρακαλούμε, ενεργοποιήστε τα ασφαλή cookies';
 $string['check_cookiesecure_name'] = 'Ασφαλή cookies';
 $string['check_cookiesecure_ok'] = 'Τα ασφαλή cookies είναι ενεργοποιημένα.';
+$string['check_crawlers_details'] = '<p>Η ρύθμιση Open to Google επιτρέπει στις μηχανές αναζήτησης να συνδέονται σε μαθήματα με δικαιώματα επισκέπτη. Δεν υπάρχει λόγος ενεργοποίησης αυτής της ρύθμισης εάν δεν επιτρέπονται συνδέσεις επισκεπτών.</p>';
+$string['check_crawlers_error'] = 'Η πρόσβαση στις μηχανές αναζήτησης επιτρέπεται παρόλο που δεν επιτρέπεται η σύνδεση επισκεπτών.';
+$string['check_crawlers_info'] = 'Οι μηχανές αναζήτησης μπορούν να συνδέονται σαν επισκέπτες.';
+$string['check_crawlers_name'] = 'Open to Google';
+$string['check_crawlers_ok'] = 'Η πρόσβαση στις μηχανές αναζήτησης δεν επιτρέπεται.';
 $string['check_defaultuserrole_details'] = '<p> Σε όλους τους συνδεδεμένους χρήστες δίνονται οι δυνατότητες του προεπιλεγμένου ρόλου του χρήστη. Επιβεβαιώστε ότι δεν επιτρέπονται επικίνδυνες δυνατότητες σε αυτό το ρόλο.</p><p>Ο μόνος υποστηριζόμενος παλαιότερης έκδοσης τύπος για τον προεπιλεγμένο ρόλο χρήστη είναι ο <em>Αυθεντικοποιημένος χρήστης</em>. Η δυνατότητα προβολής μαθημάτων δεν πρέπει να είναι ενεργοποιημένη.</p>';
 $string['check_defaultuserrole_error'] = 'Ο προεπιλεγμένος ρόλος χρήστη «{$a}» δεν είναι σωστά ορισμένος!';
 $string['check_defaultuserrole_name'] = 'Προεπιλεγμένος ρόλος για όλους τους χρήστες';
@@ -57,11 +62,6 @@ $string['check_frontpagerole_error'] = 'Εντοπίστηκε μη ορθά ο�
 $string['check_frontpagerole_name'] = 'Ρόλος αρχικής σελίδας';
 $string['check_frontpagerole_notset'] = 'Ο ρόλος αρχικής σελίδας δεν έχει οριστεί.';
 $string['check_frontpagerole_ok'] = 'Ο ορισμός του ρόλου αρχικής σελίδας είναι εντάξει.';
-$string['check_google_details'] = '<p>Η ρύθμιση Open to Google επιτρέπει στις μηχανές αναζήτησης να συνδέονται σε μαθήματα με δικαιώματα επισκέπτη. Δεν υπάρχει λόγος ενεργοποίησης αυτής της ρύθμισης εάν δεν επιτρέπονται συνδέσεις επισκεπτών.</p>';
-$string['check_google_error'] = 'Η πρόσβαση στις μηχανές αναζήτησης επιτρέπεται παρόλο που δεν επιτρέπεται η σύνδεση επισκεπτών.';
-$string['check_google_info'] = 'Οι μηχανές αναζήτησης μπορούν να συνδέονται σαν επισκέπτες.';
-$string['check_google_name'] = 'Open to Google';
-$string['check_google_ok'] = 'Η πρόσβαση στις μηχανές αναζήτησης δεν επιτρέπεται.';
 $string['check_guestrole_details'] = '<p>Ο ρόλος επισκέπτη χρησιμοποιείται για επισκέπτες, μη συνδεδεμένους χρήστες και προσωρινή πρόσβαση επισκέπτη σε μαθήματα. Παρακαλούμε, εξασφαλίστε ότι δεν επιτρέπονται επικίνδυνες δυνατότητες για αυτό το ρόλο.</p><p>Ο μόνος παλαιότερης έκδοσης τύπος για ρόλο επισκέπτη είναι ο <em>Guest</em>(επισκέπτης).</p>';
 $string['check_guestrole_error'] = 'Ο ρόλος επισκέπτη «{$a}» δεν είναι σωστά ορισμένος!';
 $string['check_guestrole_name'] = 'Ρόλος Επισκέπτη';

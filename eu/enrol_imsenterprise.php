@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_imsenterprise
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['categoryseparator'] = 'Kategoriako karaktere-banatzailea';
 $string['categoryseparator_desc'] = 'Beharrezkoa "Kategoriako ID zenbakia" gaituta dagoenean. Kategoriaren izena eta ID zenbakia banatzeko karakterea.';
 $string['coursesettings'] = 'Ikastaroaren datuen aukerak';
 $string['createnewcategories'] = 'Sortu ikastaroaren kategoria berriak (ezkutukoak) Moodlen ez badaude';
-$string['createnewcategories_desc'] = '<org><orgunit> elementua ikastaroaren sarrerako datuetan badago, bere edukia ikastaroaren kategoria zehazteko erabiliko da ikastaroa sortu behar bada. Pluginak EZ ditu existitzen diren ikastaroak berriz kategorizatzen.
+$string['createnewcategories_desc'] = '&lt;org&gt;&lt;orgunit&gt; elementua ikastaroaren sarrerako datuetan badago, bere edukia ikastaroaren kategoria zehazteko erabiliko da ikastaroa sortu behar bada. Pluginak EZ ditu existitzen diren ikastaroak berriz kategorizatzen.
 
 Zehaztutako izeneko kategoriarik existitzen ez bada, ezkutuzko kategoria bat sortuko da.';
 $string['createnewcourses'] = 'Sortu ikastaro berriak (ezkutukoak) Moodlen ez badaude';

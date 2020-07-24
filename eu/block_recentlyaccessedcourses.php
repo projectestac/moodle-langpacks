@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_recentlyaccessedcourses', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_recentlyaccessedcourses', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   block_recentlyaccessedcourses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['displaycategories'] = 'Erakutsi kategoriak';
+$string['displaycategories_help'] = 'Erakutsi ikastaro-kategoria duela gutxi bisitatutako ikastaroak blokearen elementuetan.';
 $string['nocourses'] = 'Ez dago duela gutxiko ikastarorik';
 $string['pluginname'] = 'Duela gutxi bisitatutako ikastaroak';
 $string['privacy:metadata'] = 'Duela gutxi bisitatutako ikastaroak blokeak ez du datu pertsonalik biltzen.';
-$string['recentlyaccessedcourses:addinstance'] = 'Gehitu duela gutxi bisitatutako ikastaroak blokea';
 $string['recentlyaccessedcourses:myaddinstance'] = 'Gehitu duela gutxi bisitatutako ikastaroak blokea Aginte-panelera';

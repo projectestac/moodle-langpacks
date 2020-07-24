@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignfeedback_editpdf', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   assignfeedback_editpdf
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -88,6 +88,8 @@ $string['privacy:path'] = 'Feedback PDF';
 $string['rectangle'] = 'Rettangolo';
 $string['red'] = 'Rosso';
 $string['result'] = 'Risultato:';
+$string['rotateleft'] = 'Ruota di 90 gradi a sinistra';
+$string['rotateright'] = 'Ruota di 90 gradi a destra';
 $string['searchcomments'] = 'Cerca commenti';
 $string['select'] = 'Seleziona';
 $string['stamp'] = 'Timbro';

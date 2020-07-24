@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'error', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,12 +57,12 @@ $string['cannotcreatepopupwin'] = 'Odefinierad element - kan inte skapa pop-up f
 $string['cannotcreatesitedir'] = 'Kan inte skapa webbplats-mapp. En administratör kan ändra filrättigheterna.';
 $string['cannotcreatetempdir'] = 'Det går inte att skapa en temp-katalog';
 $string['cannotcreateuploaddir'] = 'Kan inte skapa mapp. En administratör kan ändra filrättigheterna.';
-$string['cannotcustomisefiltersblockuser'] = 'Du kan inte ändra inställningar för filter i sammanhangen för användare eller block';
+$string['cannotcustomisefiltersblockuser'] = 'Du kan inte standardisera inställningar för filter i sammanhangen för användare eller block';
 $string['cannotdeletebackupids'] = 'Kunde inte raderas tidigare backuppers id.';
 $string['cannotdeletecategorycourse'] = 'Det gick inte att ta bort kursen {$a}.';
 $string['cannotdeletecategoryquestions'] = 'Det gick inte att ta bort frågor från kategorin {$a}.';
 $string['cannotdeletecourse'] = 'Du har inte tillstånd att ta bort den här kursen. ';
-$string['cannotdeletecustomfield'] = 'Fel i sb m borttagande av anpassade fältdata';
+$string['cannotdeletecustomfield'] = 'Fel i sb m borttagande av standardiserade fältdata';
 $string['cannotdeletedir'] = 'Kan inte ta bort ({$a})';
 $string['cannotdeletefile'] = 'Det går inte att ta bort den här filen';
 $string['cannotdeleterole'] = 'It cannot be deleted, because {$a}';

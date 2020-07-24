@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ordering', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_ordering', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_ordering
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,14 +31,14 @@ $string['addsingleanswer'] = 'Adicionar mais 1 item';
 $string['allornothing'] = 'Tudo ou nada';
 $string['answer'] = 'Item texto';
 $string['answerheader'] = 'Item arrastável {no}';
-$string['correctorder'] = 'A ordem correta para estes itens é a seguinte:';
+$string['correctorder'] = 'Ordem correta dos itens:';
 $string['defaultanswerformat'] = 'Formato de resposta predefinido';
 $string['defaultquestionname'] = 'Arraste os seguintes itens para a ordem correta.';
 $string['duplicatesnotallowed'] = 'Não é permitida a duplicação de itens arrastáveis. O texto "{$a->text}" já está em uso em \'{$a->item}\'.';
 $string['editingordering'] = 'A editar pergunta de Ordenação';
 $string['gradedetails'] = 'Detalhes da avaliação';
-$string['gradingtype'] = 'Tipos de avaliação';
-$string['gradingtype_help'] = 'Escolha o tipo de avaliação.
+$string['gradingtype'] = 'Método de avaliação';
+$string['gradingtype_help'] = 'Escolha o método de avaliação.
 
 **Tudo ou nada**
 : Se todos os itens estão na posição correta, a pontuação obtida é igual à pontuação máxima, caso contrário, a pontuação é zero.
@@ -106,5 +106,5 @@ $string['selectrandom'] = 'Selecionar um subconjunto aleatório de itens';
 $string['selecttype'] = 'Tipo de seleção de itens';
 $string['selecttype_help'] = 'Escolha se pretender mostrar todos os itens ou apenas um subconjunto de itens.';
 $string['showgrading'] = 'Detalhes da avaliação';
-$string['showgrading_help'] = 'Escolha se pretende mostrar ou ocultar os detalhes do cálculo da nota quando um aluno revê a resposta a esta pergunta de Ordenação.';
+$string['showgrading_help'] = 'Escolha se pretende mostrar, ou não, os detalhes do cálculo da nota quando um aluno revê a resposta a esta pergunta de Ordenação.';
 $string['vertical'] = 'Vertical';

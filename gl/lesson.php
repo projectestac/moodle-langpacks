@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lesson', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,6 +61,9 @@ $string['addnumerical'] = 'Crear unha páxina de pregunta numérica';
 $string['addpage'] = 'Engadir unha páxina';
 $string['addshortanswer'] = 'Crear unha páxina de pregunta de resposta curta';
 $string['addtruefalse'] = 'Crear unha páxina de pregunta tipo Verdadeiro/Falso';
+$string['allotheranswers'] = 'Todas as outras respostas';
+$string['allotheranswersjump'] = 'Chouto para todas as outras respostas';
+$string['allotheranswersscore'] = 'Puntuación para todas as outras respostas';
 $string['allowofflineattempts'] = 'Permitir que a lección sexa tentada fóra de liña usando a aplicación móbil';
 $string['allowofflineattempts_help'] = 'Se está activado, un usuario da aplicación móbil pode descargar a lección e tentala fóra de liña.
 Todas as respostas posíbeis e as respostas correctas tamén se descargarán.
@@ -73,6 +76,8 @@ $string['answersfornumerical'] = 'As respostas das preguntas numéricas deben se
 $string['arrangebuttonshorizontally'] = 'Dispoñer os botóns de contido horizontalmente?';
 $string['attempt'] = 'Intento: {$a}';
 $string['attemptheader'] = 'Intento';
+$string['attemptinfonograde'] = '{$a->timestart} ({$a->duration})';
+$string['attemptinfowithgrade'] = '{$a->grade}% {$a->timestart} ({$a->duration})';
 $string['attempts'] = 'Intentos';
 $string['attemptsdeleted'] = 'Intentos eliminados';
 $string['attemptsremaining'] = 'Ten aínda {$a} intento(s)';
@@ -155,6 +160,7 @@ $string['deletingpage'] = 'Eliminando a páxina: {$a}';
 $string['dependencyon'] = 'Dependente de';
 $string['dependencyon_help'] = 'Este axuste permite que o acceso a esta lección dependa do rendemento do alumno noutra lección do mesmo curso. Pódese utilizar calquera combinación de tempo empregado, completado ou «cualificación superior a».';
 $string['description'] = 'Descrición';
+$string['deselectallattempts'] = 'Desmarcar todos os intentos';
 $string['detailedstats'] = 'Estatísticas detalladas';
 $string['didnotanswerquestion'] = 'Non respondeu esta pregunta.';
 $string['didnotreceivecredit'] = 'Non recibiu crédito';
@@ -205,6 +211,7 @@ $string['eolstudentoutoftime'] = 'Atención: Rematou o tempo. Talvez non se cont
 $string['eolstudentoutoftimenoanswers'] = 'Non respondeu ningunha pregunta. Ten un 0 nesta lección.';
 $string['essay'] = 'Ensaio';
 $string['essayemailmessage2'] = '<p>Pregunta de ensaio:<blockquote>{$a->question}</blockquote></p><p>A súa resposta:<blockquote><em>{$a->response}</em></blockquote></p><p> Comentario de cualificador:<blockquote><em>{$a->comment}</em></blockquote></p><p>Recibiu un {$a->earned} sobre {$a->outof} nesta pregunta do ensaio.</p><p>A súa cualificación nesta lección pasou a ser {$a->newgrade}&#37;.</p>';
+$string['essayemailmessagesmall'] = '<p>Vostede recibiu {$a->earned} dun total de {$a->outof} para esta pregunta de ensaio.</p><p>A súa cualificación para a lección {$a->lesson} foi cambiada a {$a->newgrade}&#37;.</p>';
 $string['essayemailsubject'] = 'A súa cualificación para a pregunta {$a}';
 $string['essaynotgradedyet'] = 'Este ensaio aínda non foi cualificado';
 $string['essayresponses'] = 'Respostas de ensaio';
@@ -259,8 +266,14 @@ $string['importquestions'] = 'Importar preguntas';
 $string['importquestions_help'] = 'Esta funcionalidade activa preguntas nunha variedade de formatos que se importarán por medio dun ficheiro de texto.';
 $string['inactiveoverridehelp'] = '* O alumno non ten o grupo correcto ou o rol para ver/tentar a lección';
 $string['indicator:cognitivedepth'] = 'Lección cognitiva';
+$string['indicator:cognitivedepthdef'] = 'Lección cognitiva';
+$string['indicator:cognitivedepthdef_help'] = 'O participante acadou esta porcentaxe do compromiso cognitivo que ofrecen as actividades da Lección durante este intervalo de análise (Niveis = Sen vista, Ver, Entregar, Ver comentarios, Facer comentarios, Reenviar após ver comentarios)';
+$string['indicator:cognitivedepthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Profundidade_cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de lección.';
 $string['indicator:socialbreadth'] = 'Lección social';
+$string['indicator:socialbreadthdef'] = 'Lección sociañ';
+$string['indicator:socialbreadthdef_help'] = 'O participante acadou esta porcentaxe do compromiso social que ofrecen as actividades da Lección durante este intervalo de análise (Niveis = Sen participación, Participante en solitario, Participante con outros)';
+$string['indicator:socialbreadthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Amplitude_social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de lección.';
 $string['insertedpage'] = 'Páxina inserida';
 $string['invalidfile'] = 'Ficheiro incorrecto';
@@ -373,6 +386,7 @@ $string['nooverridedata'] = 'Debe anular cando menos unha das opcións da lecci�
 $string['noretake'] = 'Non ten permiso para retomar esta lección.';
 $string['normal'] = 'Normal - Seguir o roteiro da lección';
 $string['notcompleted'] = 'Incompleto';
+$string['notcompletedwithdate'] = 'Sen completar ({$a})';
 $string['notdefined'] = 'Sen definir';
 $string['notenoughsubquestions'] = 'Non se definiron suficientes subpreguntas!<br />Quere volver atrás e arranxar esta cuestión?';
 $string['notenoughtimespent'] = 'Vostede completou esta lección en {$a->timespent}, o que é menor que o tempo requirido de {$a->timerequired}. É probábel que Vostede necesite tentar resolver a lección de novo.';
@@ -475,6 +489,7 @@ $string['privacy:metadata:timer:starttime'] = 'O momento no que comezou o intent
 $string['privacy:metadata:timer:timemodifiedoffline'] = 'O último momento no que rexistramos a actividade desde a aplicación móbil';
 $string['privacy:metadata:timer:userid'] = 'O ID do usuario';
 $string['privacy:metadata:userpref:lessonview'] = 'O modo de presentación preferido ao editar as leccións';
+$string['privacy:path:essayanswers'] = 'Respostas de ensaio';
 $string['privacy:path:essayresponses'] = 'Respostas de ensaio';
 $string['privacy:path:pages'] = 'Páxinas';
 $string['processerror'] = 'Produciuse un erro durante o procesamento!';
@@ -518,6 +533,7 @@ $string['score_help'] = 'A puntuación usase só cando se activa a puntuación p
 $string['scores'] = 'Puntuacións';
 $string['search:activity'] = 'Lección - información de actividade';
 $string['secondpluswrong'] = 'Non exactamente. Desexa tentalo de novo?';
+$string['selectallattempts'] = 'Seleccionar todos os intentos';
 $string['selectaqtype'] = 'Seleccionar un tipo de pregunta';
 $string['sent'] = 'Enviado';
 $string['shortanswer'] = 'Resposta curta';
@@ -577,6 +593,7 @@ $string['viewreports2'] = 'Ver {$a} intentos completados';
 $string['warning'] = 'Aviso';
 $string['welldone'] = 'Parabéns!';
 $string['whatdofirst'] = 'Que desexa facer primeiro?';
+$string['withselectedattempts'] = 'Con intentos seleccionados...';
 $string['wronganswerjump'] = 'Salto errado para outra resposta';
 $string['wronganswerscore'] = 'Puntuación da resposta errada';
 $string['wrongresponse'] = 'Resposta errada';

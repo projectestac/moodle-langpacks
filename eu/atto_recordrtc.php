@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_recordrtc', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'atto_recordrtc', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   atto_recordrtc
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,7 +61,7 @@ $string['onlyvideo'] = 'Bideoa baino ez';
 $string['pluginname'] = 'RecordRTC';
 $string['privacy:metadata'] = 'RecordRTC pluginak ez du datu pertsonalik biltzen.';
 $string['recordagain'] = 'Grabatu berriz';
-$string['recordingfailed'] = 'Grabatzeak huts egin du, saiatu berriz';
+$string['recordingfailed'] = 'Grabatzeak kale egin du, saiatu berriz';
 $string['recordrtc:recordaudio'] = 'Grabatu audioa zuzenean testu-editorean';
 $string['recordrtc:recordvideo'] = 'Grabatu bideoa zuzenean testu-editorean';
 $string['settings'] = 'RecordRTC-ren ezarpenak';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_manual', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_manual', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_manual
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['browsecohorts'] = 'Ver a lista de Grupos globais';
 $string['browseusers'] = 'Ver lista de utilizadores';
 $string['confirmbulkdeleteenrolment'] = 'Tem a certeza de que pretende apagar a inscrição destes utilizadores?';
 $string['defaultperiod'] = 'Duração predefinida da inscrição';
-$string['defaultperiod_desc'] = 'Duração predefinida da inscrição.  Se for definida para zero, a validade da inscrição será ilimitada por predefinição.';
+$string['defaultperiod_desc'] = 'Duração predefinida da inscrição.  Se for definida como zero, a validade da inscrição será ilimitada por predefinição.';
 $string['defaultperiod_help'] = 'Tempo predefinido durante o qual as inscrições são válidas a partir do momento em que o aluno é inscrito.';
 $string['defaultstart'] = 'Início das inscrições predefinido';
 $string['deleteselectedusers'] = 'Apagar inscrição dos utilizadores selecionados';
@@ -44,7 +44,7 @@ $string['enrolledincourserole'] = 'Inscrito na disciplina "{$a->course}" como "{
 $string['enrolusers'] = 'Inscrever utilizadores';
 $string['enroluserscohorts'] = 'Inscrever utilizadores e grupos globais selecionados';
 $string['expiredaction'] = 'Ação de expiração da inscrição';
-$string['expiredaction_help'] = 'Selecione a ação a implementar quando a inscrição do utilizador expira. Por favor, note que alguns dados e definições do utilizador são removidos da disciplina durante o cancelamento da inscrição.';
+$string['expiredaction_help'] = 'Selecione a ação a implementar quando a inscrição do utilizador expira. Tenha em atenção que alguns dados e configurações do utilizador são removidos da disciplina durante o cancelamento da inscrição.';
 $string['expirymessageenrolledbody'] = 'Caro(a) {$a->user},
 
 Esta é uma notificação de que a sua inscrição na disciplina \'{$a->course}\' expira em {$a->timeend}.

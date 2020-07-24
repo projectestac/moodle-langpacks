@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['addinstance'] = 'Gehitu metodoa';
 $string['addinstanceanother'] = 'Gehitu metodoa eta sortu beste bat';
 $string['ajaxnext25'] = 'Hurrengo 25ak...';
 $string['ajaxoneuserfound'] = 'Erabiltzaile 1 aurkitu da';
+$string['ajaxxmoreusersfound'] = '{$a} erabiltzaile baino gehiago aurkitu dira';
 $string['ajaxxusersfound'] = '{$a} erabiltzaile aurkitu d(ir)a';
 $string['assignnotpermitted'] = 'Ez duzu baimenik edo ezin duzu rolik esleitu ikastaro honetan.';
 $string['bulkuseroperation'] = 'Erabiltzaile-eragiketa masiboak';
@@ -102,6 +103,7 @@ $string['foundxcohorts'] = 'Aurkitutako {$a} kohorte';
 $string['instanceadded'] = 'Metodoa gehitu da';
 $string['instanceeditselfwarning'] = 'Kontuz:';
 $string['instanceeditselfwarningtext'] = 'Matrikulazio-metodo hau erabilita zaude matrikulatuta ikastaro honetan eta aldaketek eragotzi egin dezakete ikastarorako sarbidea.';
+$string['invalidenrolduration'] = 'Matrikula-iraupen baliogabea';
 $string['invalidenrolinstance'] = 'Matrikulazio-instantziak ez du balio';
 $string['invalidrequest'] = 'Eskari baliogabea';
 $string['invalidrole'] = 'Rolak ez du balio';
@@ -149,6 +151,7 @@ $string['testsettings'] = 'Probatu ezarpenak';
 $string['testsettingsheading'] = 'Matrikulazio-ezarpenen proba - {$a}';
 $string['totalenrolledusers'] = '{$a} matrikulatutako erabiltzaile';
 $string['totalotherusers'] = 'beste {$a} erabiltzaile';
+$string['totalunenrolledusers'] = '{$a} erabiltzaile matrikulatuta';
 $string['unassignnotpermitted'] = 'Ez duzu baimenik rolak kentzeko ikastaro honetan';
 $string['unenrol'] = 'Desmatrikulatu';
 $string['unenrolconfirm'] = 'Benetan desmatrikulatu nahi al duzu  ("{$a->enrolinstancename}" matrikulazio-metodoa erabiliz matrikulatuta dagoen) "{$a->user}" erabiltzailea "{$a->course}" ikastarotik?';
@@ -161,3 +164,5 @@ $string['unlimitedduration'] = 'Mugarik gabea.';
 $string['userremovedfromselectiona'] = '"{$a}" erabiltzailea aukeraketatik kendu da.';
 $string['usersearch'] = 'Bilatu';
 $string['withselectedusers'] = 'Aukeratutako erabiltzaileekin';
+$string['youenrolledincourse'] = 'Ikastaroan matrikulatuta zaude.';
+$string['youunenrolledfromcourse'] = '"{$a}" ikastarotik desmatrikulatua izan zara.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,11 @@ $string['check_cookiesecure_details'] = '<p>Als je https inschakelt, dan kun je 
 $string['check_cookiesecure_error'] = 'Schakel secure cookies in';
 $string['check_cookiesecure_name'] = 'Secure cookies';
 $string['check_cookiesecure_ok'] = 'Secure cookies ingeschakeld.';
+$string['check_crawlers_details'] = '<p>De instelling Open voor Google maakt het voor zoekrobots mogelijk cursussen te doorzoeken met de gastrol. Het is nutteloos deze instelling in te schakelen als aanmelden als gast niet toegelaten is.</p>';
+$string['check_crawlers_error'] = 'Gast-toegang voor zoekrobots toegelaten terwijl gast-toegang is uitgeschakeld.';
+$string['check_crawlers_info'] = 'Zoekrobots mogen binnen als gasten';
+$string['check_crawlers_name'] = 'Open voor Google';
+$string['check_crawlers_ok'] = 'Gast-toegang voor zoekrobots uitgeschakeld';
 $string['check_defaultuserrole_details'] = '<p>Alle aangemelde gebruikers krijgen de mogelijkheden van de standaard rol. Zorg er voor dat er geen gevaarlijke mogelijkheden toegelaten zijn in deze rol.</p>
 <p>De enige ondersteunde rol voor de standaard gebruiker is de rol: <em>geauthenticeerde gebruiker</em>. De bekijk cursusmogelijkheid kan beter niet ingeschakeld zijn.</p>';
 $string['check_defaultuserrole_error'] = 'Fout gedefinieerde standaard rol "{$a}" gedetecteerd!';
@@ -59,11 +64,6 @@ $string['check_frontpagerole_error'] = 'Fout gedefinieerde starpaginarol "{$a}" 
 $string['check_frontpagerole_name'] = 'Startpaginarol';
 $string['check_frontpagerole_notset'] = 'Startpaginarol niet ingeschakeld';
 $string['check_frontpagerole_ok'] = 'Startpaginarol roldefinitie OK';
-$string['check_google_details'] = '<p>De instelling Open voor Google maakt het voor zoekrobots mogelijk cursussen te doorzoeken met de gastrol. Het is nutteloos deze instelling in te schakelen als aanmelden als gast niet toegelaten is.</p>';
-$string['check_google_error'] = 'Gast-toegang voor zoekrobots toegelaten terwijl gast-toegang is uitgeschakeld.';
-$string['check_google_info'] = 'Zoekrobots mogen binnen als gasten';
-$string['check_google_name'] = 'Open voor Google';
-$string['check_google_ok'] = 'Gast-toegang voor zoekrobots uitgeschakeld';
 $string['check_guestrole_details'] = '<p>De gastrol wordt gebruikt voor gasten, niet aangemelde gebruikers en tijdelijke gasttoegang voor cursussen. Zorg er voor dat geen gevaarlijke mogelijkheden toegelaten zijn voor deze rol.</p>
 <p>De enige ondersteunde rol voor dit type gebruiker is <em>Gast</em>.</p>';
 $string['check_guestrole_error'] = 'Fout geconfigureerde gastrol "{$a}" gedetecteerd!';

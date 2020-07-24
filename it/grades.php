@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'grades', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addfeedback'] = 'Aggiungi feedback';
 $string['addgradeletter'] = 'Aggiungi graduatoria letterale';
 $string['addidnumbers'] = 'Aggiungi codici identificativi';
 $string['additem'] = 'Aggiungi elemento di valutazione';
+$string['additionalfeedback'] = 'Feedback aggiuntivo';
 $string['addoutcome'] = 'Aggiungi un obiettivo';
 $string['addoutcomeitem'] = 'Aggiungi elemento raggiungimento obiettivo';
 $string['addscale'] = 'Aggiungi una scala';
@@ -192,6 +193,8 @@ $string['errorupdatinggradecategoryaggregateoutcomes'] = 'Errore durante l\'aggi
 $string['errorupdatinggradecategoryaggregation'] = 'Errore durante l\'aggiornamento del tipo di aggregazione nella categoria ID {$a->id}';
 $string['errorupdatinggradeitemaggregationcoef'] = 'Errore durante l\'aggiornamento del coefficiente di aggregazione (peso o credito extra) nella categoria ID {$a->id}';
 $string['eventgradedeleted'] = 'Eliminata valutazione';
+$string['eventgradeitemcreated'] = 'Creato elemento di valutazione';
+$string['eventgradeitemupdated'] = 'Aggiornato elemento di valutazione';
 $string['eventgradelettercreated'] = 'Creata graduatoria letterale';
 $string['eventgradeletterdeleted'] = 'Eliminata graduatoria letterale';
 $string['eventgradeletterupdated'] = 'Aggiornata graduatoria letterale';
@@ -261,18 +264,18 @@ $string['gradecategoryonmodform_help'] = 'Imposta la categoria del registro valu
 $string['gradecategorysettings'] = 'Impostazioni categorie';
 $string['gradedisplay'] = 'Visualizzazione della valutazione';
 $string['gradedisplaytype'] = 'Visualizza i voti come';
-$string['gradedisplaytype_help'] = 'Imposta la modalità di visualizzazione nel registro valutatore e nella scheda individuale
+$string['gradedisplaytype_help'] = 'Imposta la modalità di visualizzazione delle valutazioni nel registro valutatore e nella scheda individuale
 
-Punteggio - i voti effettivi
-Percentuale
-Graduatoria letterale - lettere o parole che rappresentano un intervallo di valutazioni';
+* Graduatoria letterale - lettere o parole che rappresentano un intervallo di valutazioni, come impostato nel registro delle valutazioni
+* Percentuale - Relativo al valore minimo o massimo
+* Reale - i valori reali dei voti o della scala';
 $string['gradedon'] = 'Valutato: {$a}';
 $string['gradeexport'] = 'Esportazione valutazioni';
 $string['gradeexportcolumntype'] = '{$a->name} ({$a->extra})';
 $string['gradeexportcustomprofilefields'] = 'Campi personalizzati da esportare con le valutazioni';
 $string['gradeexportcustomprofilefields_desc'] = 'Imposta i campi personalizzati del profilo utente da includere quando si esportano le valutazioni. Inserire l\'elenco dei campi personalizzati separati da virgola.';
-$string['gradeexportdecimalpoints'] = 'Cifre decimali da usare nelle esportazioni';
-$string['gradeexportdecimalpoints_desc'] = 'Numero di cifre decimali da usare nelle esportazioni. Questa impostazione può essere modificata durante l\'esportazione.';
+$string['gradeexportdecimalpoints'] = 'Cifre decimali da usare nelle esportazioni delle valutazioni';
+$string['gradeexportdecimalpoints_desc'] = 'Numero di cifre decimali da utilizzare nelle esportazioni. L\'impostazione può essere modificata durante l\'esportazione.';
 $string['gradeexportdisplaytype'] = 'Esporta i voti come';
 $string['gradeexportdisplaytype_desc'] = 'I voti possono essere esportati come punteggio, come percentuali (in riferimento alla valutazione minima e massima) o come graduatoria letterale (A, B, C, ecc.). Questa impostazione può essere modificata quando si configura l\'esportazione.';
 $string['gradeexportdisplaytypes'] = 'Esporta i voti come';
@@ -309,6 +312,7 @@ $string['grademax'] = 'Voto massimo';
 $string['grademax_help'] = '<p>Scegliendo il Tipo di Valutazione \'Valore\', tramite questa impostazione è possibile impostare il Voto massimo. Il voto massimo di un elemento di valutazione basato su una attività si imposta nella pagina di modifica dell\'attività.</p>';
 $string['grademin'] = 'Voto minimo';
 $string['grademin_help'] = '<p>Scegliendo il Tipo di Valutazione \'Valore\', tramite questa impostazione è possibile impostare il Voto minimo.</p>';
+$string['gradenotificationsubject'] = 'Si stato valutato';
 $string['gradeoutcomeitem'] = 'Elemento raggiungimento obiettivo';
 $string['gradeoutcomes'] = 'Obiettivi';
 $string['gradeoutcomescourses'] = 'Obiettivi di corso';
@@ -340,6 +344,7 @@ $string['gradevaluetoobig'] = 'Un voto è più grande del voto massimo consentit
 $string['gradeview'] = 'Vedi valutazione';
 $string['gradewasmodifiedduringediting'] = 'La valutazione inserita per {$a->itemname} e riferita a {$a->username}, è stata ignorata poiché è stata aggiornata da altri più recentemente.';
 $string['gradeweighthelp'] = 'Help peso valutazioni';
+$string['gradingmodulename'] = 'Valutazione ({$a})';
 $string['groupavg'] = 'Media di gruppo';
 $string['hidden'] = 'Nascosto';
 $string['hiddenasdate'] = 'Visualizza la data dei voti nascosti';
@@ -536,6 +541,7 @@ $string['noselecteditems'] = 'nessun elemento selezionato.';
 $string['notenrolled'] = 'Non sei iscritto in nessun corso.';
 $string['notteachererror'] = 'È necessario essere docente per utilizzare questa caratteristica.';
 $string['nousersloaded'] = 'Nessun utente caricato';
+$string['nouserstograde'] = 'Non ci sono utenti da valutare';
 $string['numberofgrades'] = 'Numero di valutazioni';
 $string['onascaleof'] = 'su una scala da {$a->grademin} a {$a->grademax}';
 $string['operations'] = 'Operazioni';
@@ -569,7 +575,7 @@ $string['overridden'] = 'Forzato';
 $string['overridden_help'] = 'Consente di evitare l\'aggiornamento automatico del voto da parte della rispettiva attività.
 
 Quando un voto viene modificato nel registro valutatore, la spunta viene impostata automaticamente. E\' sempre possibile deselezionarla per consentire la modifica del voto da parte dell\'attività.';
-$string['overriddennotice'] = 'La tua valutazione finale da questa attività è stata modificata manualmente.';
+$string['overriddennotice'] = 'La tua valutazione finale di questa attività è stata modificata manualmente.';
 $string['overridecat'] = 'Consenti di sostituire manualmente le valutazioni di categoria';
 $string['overridecat_help'] = 'La disabilitazione di questa impostazione renderà impossibile modificare le valutazioni di categoria.';
 $string['overridesitedefaultgradedisplaytype'] = 'Modifica default del sito';
@@ -643,8 +649,8 @@ $string['quickfeedback'] = 'Feedback rapido';
 $string['quickgrading'] = 'Valutazione rapida';
 $string['quickgrading_help'] = '<p>La valutazione rapida aggiunge una casella di input di testo per ogni elemento presente nel registro valutatore, consentendo di inserire più velocemente i voti. Cliccando sul pulsante Aggiorna tutte le modifiche saranno salvate contemporaneamente.</p>';
 $string['range'] = 'Intervallo';
-$string['rangedecimals'] = 'Cifre decimali intervallo';
-$string['rangedecimals_help'] = 'Il numero di cifre decimali da usare per l\'intervallo';
+$string['rangedecimals'] = 'Cifre decimali dell\'intervallo';
+$string['rangedecimals_help'] = 'Il numero di cifre decimali da usare per l\'intervallo.';
 $string['rangesdecimalpoints'] = 'Decimali negli intervalli';
 $string['rangesdecimalpoints_help'] = 'Imposta il numero di cifre decimali da usare nella visualizzazione degli intervalli dei voti. L\'impostazione può essere modificata per ciascun elemento di valutazione.';
 $string['rangesdisplaytype'] = 'Visualizza intervalli come';

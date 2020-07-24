@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['addinstance'] = 'Aggiungi metodo';
 $string['addinstanceanother'] = 'Aggiungi metodo e creane un altro';
 $string['ajaxnext25'] = 'Successivi 25...';
 $string['ajaxoneuserfound'] = 'Trovato 1 utente';
+$string['ajaxxmoreusersfound'] = 'Sono stati trovati più di {$a} utenti';
 $string['ajaxxusersfound'] = 'Trovati {$a} utenti';
 $string['assignnotpermitted'] = 'Non hai i privilegi o non puoi assegnare ruoli in questo corso.';
 $string['bulkuseroperation'] = 'Operazioni in massa sugli utenti';
@@ -103,6 +104,7 @@ $string['foundxcohorts'] = 'Trovati {$a} gruppi globali';
 $string['instanceadded'] = 'Metodo aggiunto';
 $string['instanceeditselfwarning'] = 'Attenzione:';
 $string['instanceeditselfwarningtext'] = 'Sei iscritto al corso tramite questo metodo di iscrizione, eventuali modifiche possono avere impatti sul tuo accesso al corso.';
+$string['invalidenrolduration'] = 'La durata dell\'iscrizione non è valida';
 $string['invalidenrolinstance'] = 'L\'istanza dell\'iscrizione non è valida';
 $string['invalidrequest'] = 'Richiesta non valida';
 $string['invalidrole'] = 'Ruolo non valido';
@@ -150,6 +152,7 @@ $string['testsettings'] = 'Test impostazioni';
 $string['testsettingsheading'] = 'Test impostazioni di iscrizione - {$a}';
 $string['totalenrolledusers'] = '{$a} utenti iscritti';
 $string['totalotherusers'] = '{$a} altri utenti';
+$string['totalunenrolledusers'] = '{$a} utenti disiscritti';
 $string['unassignnotpermitted'] = 'Non hai i privilegi per togliere ruoli da questo corso';
 $string['unenrol'] = 'Disiscrivi';
 $string['unenrolconfirm'] = 'Sei certo di disiscrivere l\'utente "{$a->user}"  (già iscritto tramite "{$a->enrolinstancename}") dal corso "{$a->course}"?';
@@ -162,3 +165,5 @@ $string['unlimitedduration'] = 'Illimitato';
 $string['userremovedfromselectiona'] = 'L’utente “{$a}” è stato deselezionato.';
 $string['usersearch'] = 'Cerca';
 $string['withselectedusers'] = 'Con gli utenti selezionati';
+$string['youenrolledincourse'] = 'Sei stato iscritto al corso.';
+$string['youunenrolledfromcourse'] = 'Ti sei disiscritto dal corso "{$a}".';

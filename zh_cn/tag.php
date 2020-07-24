@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tag', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -78,7 +78,7 @@ $string['helprelatedtags'] = '相关标签用英文半角逗号分隔';
 $string['id'] = 'ID';
 $string['inalltagcoll'] = '到处';
 $string['inputstandardtags'] = '输入逗号分隔的新标签列表';
-$string['itemstaggedwith'] = '{$a->tagarea}由"{$a->tag}"标记';
+$string['itemstaggedwith'] = '{$a->tagarea}标记为"{$a->tag}"';
 $string['lesstags'] = '更少…';
 $string['managestandardtags'] = '管理标准标签';
 $string['managetagcolls'] = '管理标签集';
@@ -91,7 +91,7 @@ $string['newcollnamefor'] = '标签集的新名称{$a}';
 $string['newnamefor'] = '标签{$a}的新名称';
 $string['nextpage'] = '更多';
 $string['noresultsfor'] = '未找到与“{$a}”相关的结果';
-$string['notagsfound'] = '未发现匹配"{$a}"的标签';
+$string['notagsfound'] = '没有找到与“{$a}”匹配的标签';
 $string['nothingtoupdate'] = '无可更新';
 $string['owner'] = '所有者';
 $string['page-tag-index'] = '单个标签页';

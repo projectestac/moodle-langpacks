@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mimetypes', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'mimetypes', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   mimetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,6 +40,7 @@ $string['archive'] = 'Arkiv ({$a->EXT})';
 $string['audio'] = 'Ljudfil ({$a->EXT})';
 $string['default'] = '{$a->mimetype}';
 $string['document/unknown'] = 'fil';
+$string['group:web_image'] = 'Bildfiler som används på webben';
 $string['image'] = 'Bild ({$a->MIMETYPE2})';
 $string['text/html'] = 'HTML-dokument';
 $string['text/plain'] = 'textfil';

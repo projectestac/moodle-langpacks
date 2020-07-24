@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,6 @@ $string['auth_ldap_contexts_key'] = '场景';
 $string['auth_ldap_create_context'] = '如果您允许通过Email确认创建用户，请指定将用户创建在哪个场景。为了安全起见，该场景应该有别于其他用户。您不需要把场景添加到ldap_context-variable。Moodle会自动在此场景中搜索用户。<br /><b>注意！</b>您必须修改auth/ldap/auth.php文件中的user_create()方法，才能创建用户';
 $string['auth_ldap_create_context_key'] = '新用户默认场景';
 $string['auth_ldap_create_error'] = '在 LDAP 中创建用户发生错误';
-$string['auth_ldap_creators'] = '哪些组或场景中的成员允许创建课程。使用";"分隔多个组。如“cn=teachers,ou=staff,o=myorg”';
-$string['auth_ldap_creators_key'] = '创建者';
 $string['auth_ldapdescription'] = '该方法利用一个外部的 LDAP 服务器进行身份认证。如果用户名和密码是有效的，Moodle会在数据库中创建一个新用户。该模块可以从 LDAP 中读取用户属性，并把指定的字段预先填入Moodle。此后的登录将只检验用户名和密码。';
 $string['auth_ldap_expiration_desc'] = '选择“否”关闭密码过期检查，选择 LDAP 则从 LDAP 中读取密码过期时间。';
 $string['auth_ldap_expiration_key'] = '期限';

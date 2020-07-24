@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'error', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   error
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -92,7 +92,7 @@ $string['cannotfindcategory'] = 'Non foi posíbel atopar o rexistro da categorí
 $string['cannotfindcomponent'] = 'Non foi posíbel atopar o compoñente';
 $string['cannotfindcontext'] = 'Non foi posíbel atopar o contexto';
 $string['cannotfindcourse'] = 'Non foi posíbel atopar o curso';
-$string['cannotfinddocs'] = 'Non foi posíbel atopar os ficheiros doc do idioma «{$a}»';
+$string['cannotfinddocs'] = 'Non é posíbel atopar os ficheiros doc do idioma «{$a}»';
 $string['cannotfindgradeitem'] = 'Non foi posíbel atopar grade_item';
 $string['cannotfindgroup'] = 'Non foi posíbel atopar grupo';
 $string['cannotfindhelp'] = 'Non foi posíbel atopar os ficheiros de axuda do idioma «{$a}»';
@@ -173,6 +173,7 @@ $string['cannotuseadmin'] = 'É necesario que sexa un usuario administrador para
 $string['cannotuseadminadminorteacher'] = 'É necesario ser un profesor ou un usuario administrador para usar esta páxina';
 $string['cannotusepage'] = 'Soamente os profesores ou administradores poden usar esta páxina';
 $string['cannotusepage2'] = 'Mágoa, non pode usar esta páxina';
+$string['cannotviewcategory'] = 'Non ten permiso para ver os cursos aquí';
 $string['cannotviewprofile'] = 'Non é posíbel ver o perfil deste usuario';
 $string['cannotviewreport'] = 'Non é posíbel ver este informe';
 $string['cannotwritefile'] = 'Non é posíbel escribir no ficheiro ({$a})';
@@ -209,7 +210,7 @@ $string['dbdriverproblem'] = '<p>Erro: Detectouse un problema co controlador da 
 <p>O administrador do sitio debería comprobar a configuración do servidor</p><p>{$a}</p>';
 $string['dbsessionbroken'] = 'Detectouse un problema grave coa sesión da base de datos.<br /><br />Notifíquello ao administrador do servidor.';
 $string['dbsessionhandlerproblem'] = 'Produciuse un fallo ao configurar a sesión da base de datos.<br /><br />Notifíquello ao administrador do servidor.';
-$string['dbsessionmysqlpacketsize'] = 'Detectouse un problema grave na sesión. Notifíquellelo  ao administrador do sitio. Este problema, moi probábelmente, é provocado por un valor pequeno na opción max_allowed_packet da configuración de MySQL.';
+$string['dbsessionmysqlpacketsize'] = 'Detectouse un problema grave na sesión. Notifíquello  ao administrador do sitio. Este problema, moi probabelmente, é provocado por un valor pequeno na opción «max_allowed_packet» da configuración de MySQL.';
 $string['dbupdatefailed'] = 'Produciuse un fallo ao actualizar a base de datos';
 $string['ddldependencyerror'] = '{$a->targettype} «{$a->targetname}» non pode ser modificado.
 Atopouse dependencia con {$a->offendingtype} «{$a->offendingname}»';
@@ -267,6 +268,7 @@ $string['filternotactive'] = 'O filtro {$a} non está activo nestes momentos';
 $string['filternotenabled'] = 'Filtro non activado!';
 $string['filternotinstalled'] = 'O filtro {$a} non está instalado nestes momentos';
 $string['forumblockingtoomanyposts'] = 'Excedeu o tempo permitido para enviar mensaxes para este foro.';
+$string['functionalityremoved'] = 'Está a tentar acceder á unha funcionalidade que foi retirada';
 $string['generalexceptionmessage'] = 'Excepción - {$a}';
 $string['gradecantregrade'] = 'Produciuse un erro durante o cálculo da cualificación: {$a}';
 $string['gradepubdisable'] = 'Desactivouse a publicación das cualificacións';
@@ -502,9 +504,10 @@ $string['sendmessage'] = 'Enviar mensaxe';
 $string['serverconnection'] = 'Produciuse un erro ao conectar co servidor';
 $string['servicedonotexist'] = 'Non existe o servizo';
 $string['sessioncookiesdisable'] = 'Uso incorrecto de <b>require_key_login()</b> - as cookies de sesión deben estar desactivadas.';
-$string['sessiondiskfull'] = 'A partición de sesións está chea. Non é posíbel acceder neste momento. Notifíquellelo ao administrador do servidor.';
+$string['sessiondiskfull'] = 'A partición de sesións está chea. Non é posíbel acceder neste momento. Notifíquello ao administrador do servidor.';
 $string['sessionerroruser'] = 'A sesión esgotou o tempo. Identifíquese de novo.';
 $string['sessionerroruser2'] = 'Foi detectado un erro no servidor que afecta á súa sesión. Entre de novo ou reinicie o seu navegador.';
+$string['sessionexpired'] = 'A sesión caducou';
 $string['sessionhandlerproblem'] = 'O manipulador da sesión está mal configurado';
 $string['sessionipnomatch'] = 'Parece que o seu número IP foi modificado desde a primeira vez que entrou no sistema. Esta característica de seguranza prevén que os crackers lle rouben a súa identidade mentres estea neste sitio. Os usuarios normais poderían non estar vendo esta mensaxe. Pida axuda ao administrador do sitio.';
 $string['sessionipnomatch2'] = 'Semella que o seu número IP foi modificado desde a primeira vez que entrou no sistema. Esta característica de seguranza prevén que os crackers lle rouben a súa identidade mentres estea neste sitio. Este error adoita aparecer se utiliza redes sen fíos ou se está en itinerancia (roaming) entre redes diferentes. Pregúntelle ao administrador do sitio para obter máis axuda.</p>

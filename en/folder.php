@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'folder', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   folder
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,9 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['bynameondate'] = 'by {$a->name} - {$a->date}';
 $string['contentheader'] = 'Content';
 $string['display'] = 'Display folder contents';
-$string['display_help'] = 'If you choose to display the folder contents on a course page, there  will be no link to a separate page.
-The description will be displayed only if "Display description on course page" is checked.<br />
-Also note that participants view actions can not be logged in this case.';
+$string['display_help'] = 'If you choose to display the folder contents on a course page, there will be no link to a separate page. The description will be displayed only if \'Display description on course page\' is ticked. Note that participants view actions cannot be logged in this case.';
 $string['displayinline'] = 'Inline on a course page';
 $string['displaypage'] = 'On a separate page';
 $string['dnduploadmakefolder'] = 'Unzip files and create folder';
@@ -42,8 +40,14 @@ $string['foldercontent'] = 'Files and subfolders';
 $string['folder:managefiles'] = 'Manage files in folder module';
 $string['folder:view'] = 'View folder content';
 $string['indicator:cognitivedepth'] = 'Folder cognitive';
+$string['indicator:cognitivedepthdef'] = 'Folder cognitive';
+$string['indicator:cognitivedepthdef_help'] = 'The participant has reached this percentage of the cognitive engagement offered by the Folder resources during this analysis interval (Levels = No view, View)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:cognitivedepth_help'] = 'This indicator is based on the cognitive depth reached by the student in a Folder resource.';
 $string['indicator:socialbreadth'] = 'Folder social';
+$string['indicator:socialbreadthdef'] = 'Folder social';
+$string['indicator:socialbreadthdef_help'] = 'The participant has reached this percentage of the social engagement offered by the Folder resources during this analysis interval (Levels = No participation, Participant alone)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['indicator:socialbreadth_help'] = 'This indicator is based on the social breadth reached by the student in a Folder resource.';
 $string['maxsizetodownload'] = 'Maximum folder download size (MB)';
 $string['maxsizetodownload_help'] = 'The maximum size of folder that can be downloaded as a zip file. If set to zero, the folder size is unlimited.';

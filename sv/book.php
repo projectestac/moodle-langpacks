@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'book', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addafter'] = 'Lägg till ett nytt kapitel';
+$string['addafterchapter'] = 'Lägg till ett nytt kapitel efter "{$a->title}"';
 $string['book:addinstance'] = 'Lägg till ny bok';
 $string['book:edit'] = 'Redigera bokkapitel';
 $string['book:read'] = 'Läs bok';
@@ -85,6 +86,7 @@ $string['numberingoptions_desc'] = 'Inställningsalternativ för att visa kapite
 $string['page-mod-book-x'] = 'Valfri bokmodulsida';
 $string['pluginadministration'] = 'Bok administration';
 $string['pluginname'] = 'Bok';
+$string['previouschapter'] = 'Föregående kapitel';
 $string['privacy:metadata'] = 'Modulen Bok sparar inte personuppgifter.';
 $string['search:chapter'] = 'Bok - kapitel';
 $string['showchapter'] = 'Visa kapitel "{$a}"';

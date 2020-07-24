@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -87,8 +87,8 @@ $string['completed'] = '完了';
 $string['completionscorerequired'] = '必要最小点数';
 $string['completionscorerequireddesc'] = '完了するには最低でも {$a} 点必要です。';
 $string['completionscorerequired_help'] = 'この設定を有効にすることによりユーザがこのSCORM活動を完了するためには他の活動完了必要条件と同じく少なくとも設定された最小点数に到達する必要があります。';
-$string['completionstatusallscos'] = 'すべてのscosに完了ステータスの返信を要求する';
-$string['completionstatusallscos_help'] = 'SCORMパッケージには複数のコンポーネントまたは「scos」を含むものがあります。この設定が有効にされた場合、この活動の完了をフラグするためにパッケージ内のすべてのscosは関連するlesson_statusを返す必要があります。';
+$string['completionstatusallscos'] = 'すべてのSCOに完了ステータスの返信を要求する';
+$string['completionstatusallscos_help'] = 'SCORMパッケージには複数のコンポーネントまたは「SCO」を含むものがあります。この設定が有効にされた場合、この活動の完了をフラグするためにパッケージ内すべてのSCOは関連するlesson_statusを返す必要があります。';
 $string['completionstatus_completed'] = '完了';
 $string['completionstatus_passed'] = '合格';
 $string['completionstatusrequired'] = '必要ステータス';
@@ -202,8 +202,12 @@ $string['highestattempt'] = '最高評点';
 $string['identifier'] = '問題識別子';
 $string['incomplete'] = '不完全';
 $string['indicator:cognitivedepth'] = 'SCORM認知的';
+$string['indicator:cognitivedepthdef'] = 'SCORM認知的';
+$string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がSCORM活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信, フィードバックの閲覧)。';
 $string['indicator:cognitivedepth_help'] = 'この指標はSCORM活動で学生が到達した認識深度に基づきます。';
 $string['indicator:socialbreadth'] = 'SCORM社会的';
+$string['indicator:socialbreadthdef'] = 'SCORM社会的';
+$string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がSCORM活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加)。';
 $string['indicator:socialbreadth_help'] = 'この指標はSCORM活動で学生が到達した社会的広がりに基づきます。';
 $string['info'] = '情報';
 $string['interactions'] = 'インタラクション';
@@ -211,6 +215,7 @@ $string['invalidactivity'] = 'SCORM活動が正しくありません。';
 $string['invalidhacpsession'] = '無効なHACPセッションです。';
 $string['invalidmanifestname'] = 'imsmanifest.xmlまたは.zipファイルのみ選択することができます。';
 $string['invalidmanifestresource'] = '警告: 次のリソースはあなたのマニフェスト内で参照されていますが見つかりませんでした:';
+$string['invalidstatus'] = '無効なステータス';
 $string['invalidurl'] = '無効なURLが指定されました。';
 $string['invalidurlhttpcheck'] = '無効なURLが指定されました。デバッグメッセージ:<pre>{$a->cmsg}</pre>';
 $string['last'] = '最終アクセス日時';

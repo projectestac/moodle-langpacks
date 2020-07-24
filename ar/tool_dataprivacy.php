@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_dataprivacy', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_dataprivacy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,7 @@ $string['contextlevelname70'] = 'وحدات النشاط';
 $string['contextlevelname80'] = 'منصات';
 $string['contextpurposecategorysaved'] = 'الغرض والفئة المحفوظة.';
 $string['createcategory'] = 'إنشاء فئة البيانات';
+$string['createdeletedatarequest'] = 'إنشاء طلب حذف البيانات';
 $string['createnewdatarequest'] = 'إنشاء طلب بيانات جديد';
 $string['createpurpose'] = 'إنشاء غرض البيانات';
 $string['creationauto'] = 'تلقائياً';
@@ -78,9 +79,12 @@ $string['datadeletion'] = 'حذف البيانات';
 $string['datadeletionpagehelp'] = 'البيانات التي انتهت مدة الاحتفاظ بها مدرجة هنا. يرجى مراجعة و تأكيد حذف البيانات ، و التي سيتم تنفيذها بعد ذلك من خلال المهمة المجدولة "حذف السياقات منتهية الصلاحية".';
 $string['dataprivacy:downloadallrequests'] = 'قم بتنزيل البيانات المصدّرة للجميع';
 $string['dataprivacy:downloadownrequest'] = 'قم بتنزيل البيانات المصدّرة الخاصة بك';
+$string['dataprivacy:makedatadeletionrequestsforchildren'] = 'طلب حذف البيانات للقاصرين';
 $string['dataprivacy:makedatarequestsforchildren'] = 'تقديم طلبات البيانات للأطفال';
 $string['dataprivacy:managedataregistry'] = 'إدارة سجل البيانات';
 $string['dataprivacy:managedatarequests'] = 'إدارة طلبات البيانات';
+$string['dataprivacy:requestdelete'] = 'طلب حذف البيانات لنفسك';
+$string['dataprivacy:requestdeleteforotheruser'] = 'طلب حذف البيانات نيابة عن مستخدم آخر';
 $string['dataregistry'] = 'سجل البيانات';
 $string['dataregistryinfo'] = 'يتيح سجل البيانات إمكانية تعيين الفئات (أنواع البيانات) و الأغراض (أسباب معالجة البيانات) لجميع المحتويات على الموقع - من المستخدمين و المقررات وصولاً إلى الأنشطة و الكتل. لكل غرض ، قد يتم تعيين فترة استبقاء.
  عند انتهاء فترة الاستبقاء ، يتم وضع علامة على البيانات و سردها للحذف ، في انتظار تأكيد المسؤول.';
@@ -133,6 +137,8 @@ $string['editpurposes'] = 'تدقيق الأغراض';
 $string['effectiveretentionperiodcourse'] = '{$a} (بعد تاريخ انتهاء الدورة)';
 $string['effectiveretentionperioduser'] = '{$a} (منذ آخر مرة قام فيها المستخدم بالوصول إلى الموقع)';
 $string['emailsalutation'] = 'عزيزي {$a},';
+$string['errorcannotrequestdeleteforother'] = 'ليس لديك إذن لإنشاء طلب الحذف لهذا المستخدم.';
+$string['errorcannotrequestdeleteforself'] = 'ليس لديك إذن لإنشاء طلب الحذف لنفسك.';
 $string['errorcontexthasunexpiredchildren'] = 'لا يزال للسياق "{$a}" سياقات فرعية لم تنته بعد. لم يتم وضع علامة على سياقات للحذف.';
 $string['errorinvalidrequestcreationmethod'] = 'طريقة إنشاء طلب غير صالحة!';
 $string['errorinvalidrequeststatus'] = 'حالة طلب غير صالحة!';

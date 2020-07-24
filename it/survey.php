@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'survey', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -210,8 +210,12 @@ $string['howlong'] = 'Quanto tempo hai impiegato a completare questo sondaggio?'
 $string['howlongoptions'] = 'meno di 1 min,1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,più di 10 min';
 $string['ifoundthat'] = 'Realmente';
 $string['indicator:cognitivedepth'] = 'Sondaggio cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Sondaggio cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalle attività Sondaggio (Livelli: Nessuna visualizzazione, Visualizzazione, Invio)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente svolgendo attività Sondaggio.';
 $string['indicator:socialbreadth'] = 'Sondaggio sociale';
+$string['indicator:socialbreadthdef'] = 'Sondaggio sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dall\'attività Sondaggio (Livelli: Nessuna partecipazione, Partecipazione da solo)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente svolgendo attività Sondaggio.';
 $string['introtext'] = 'Testo di introduzione';
 $string['invalidsurveyid'] = 'ID Sondaggio errata';
@@ -244,7 +248,7 @@ $string['privacy:metadata:answers:answer1'] = 'Campo per memorizzare la risposta
 $string['privacy:metadata:answers:answer2'] = 'Campo aggiuntivo per memorizzare la risposta a una domanda.';
 $string['privacy:metadata:answers:question'] = 'Domanda.';
 $string['privacy:metadata:answers:time'] = 'Ora di pubblicazione della risposta.';
-$string['privacy:metadata:answers:userid'] = 'ID dell\'utente che ha inviato una risposta.';
+$string['privacy:metadata:answers:userid'] = 'ID dell\'utente che ha inviato la risposta.';
 $string['question'] = 'Domanda';
 $string['questions'] = 'Domande';
 $string['questionsnotanswered'] = 'Alcune delle domande a scelta multipla non hanno avuto risposta.';

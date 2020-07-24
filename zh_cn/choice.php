@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,7 +30,7 @@ $string['allowmultiple'] = '允许多选';
 $string['allowupdate'] = '是否允许修改投票';
 $string['answered'] = '已答';
 $string['atleastoneoption'] = '您至少要提供一个可能的答案';
-$string['cannotsubmit'] = '对不起，您的提交有误，请再试一次。';
+$string['cannotsubmit'] = '对不起，在提交您的投票时出现了问题。请再试一次。';
 $string['choice'] = '投票项 {$a}';
 $string['choiceactivityname'] = '投票：{$a}';
 $string['choice:addinstance'] = '添加新投票';
@@ -93,9 +93,9 @@ $string['noguestchoose'] = '很抱歉，访客不允许投票';
 $string['noresultsviewable'] = '结果目前不能查看。';
 $string['notanswered'] = '未答';
 $string['notenrolledchoose'] = '抱歉，只有已选课的用户可以投票。';
-$string['notopenyet'] = '对于起，此活动在 {$a} 之后才可用';
-$string['numberofuser'] = '用户数';
-$string['numberofuserinpercentage'] = '用户数百分比';
+$string['notopenyet'] = '此活动在{$a}之前不可用。';
+$string['numberofuser'] = '投票数量';
+$string['numberofuserinpercentage'] = '投票百分比';
 $string['option'] = '选项';
 $string['optionno'] = '选项{no}';
 $string['options'] = '选项';
@@ -116,18 +116,17 @@ $string['publishinfofullclose'] = '完整的结果，显示每个人的选择，
 $string['publishinfonever'] = '此活动结果将不会在您回答后公布。';
 $string['publishnames'] = '完全公开结果，显示学生姓名及其选择';
 $string['publishnot'] = '不向学生公布结果';
-$string['removemychoice'] = '删除我的选择';
+$string['removemychoice'] = '删除我的投票';
 $string['removeresponses'] = '删除所有回复';
-$string['responses'] = '回复';
-$string['responsesresultgraphheader'] = '图示';
+$string['responses'] = '投票';
+$string['responsesresultgraphheader'] = '图形显示';
 $string['responsesto'] = '回复 {$a}';
 $string['results'] = '投票结果';
-$string['savemychoice'] = '保存我的选择';
+$string['savemychoice'] = '保存我的投票';
 $string['search:activity'] = '投票活动信息';
 $string['showpreview'] = '显示预览';
 $string['showpreview_help'] = '在投票活动开放投票之前，允许学生预览可用选项。';
 $string['showunanswered'] = '是否显示未回答的选项';
-$string['skipresultgraph'] = '跳过结果统计图';
 $string['spaceleft'] = '个可用空间';
 $string['spacesleft'] = '个可用空间';
 $string['taken'] = '已选';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_memcached', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cachestore_memcached', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   cachestore_memcached
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,10 +46,17 @@ $string['hash_hsieh'] = 'Hsieh';
 $string['hash_md5'] = 'MD5';
 $string['hash_murmur'] = 'Murmur';
 $string['isshared'] = '共享缓存';
+$string['isshared_help'] = '您的内存缓存服务器是否也被其他应用程序使用？
+
+如果该缓存由其他应用程序共享，则将分别删除每个键，以确保仅清除此应用程序拥有的数据（保留外部应用程序缓存数据不变）。这可能会导致清除缓存时降低性能，具体取决于您的服务器配置。
+
+如果您正在为此应用程序运行专用的缓存，则可以安全地刷新整个缓存，而不会破坏其他应用程序的缓存数据。这将在清除缓存时提高性能。';
 $string['pluginname'] = 'Memcached';
 $string['prefix'] = '前缀键';
-$string['prefix_help'] = '为你的项目设置专门“域”，使你在一个memcached上建立多个memcached缓存。<be />最多设置16个字符，以确保不会超过最大键长引起问题。';
+$string['prefix_help'] = '这可用于为您的项目键创建一个“域”，从而使您可以在单个memcached安装中创建多个memcached存储。它不能超过16个字符，以确保不会遇到键长度问题。';
 $string['prefixinvalid'] = '无效的前缀。您只能使用A-Z，a-z，0-9和_。';
+$string['privacy:metadata:memcached'] = 'Memcached缓存存储区插件将数据暂时地存储作为其缓存功能的一部分。此数据存储在定期删除数据的Memcache服务器上。';
+$string['privacy:metadata:memcached:data'] = '缓存中存储的各种数据';
 $string['serialiser_igbinary'] = 'igbinary系列化';
 $string['serialiser_json'] = 'JSON系列化';
 $string['serialiser_php'] = '默认PHP系列化';
@@ -69,7 +76,7 @@ servername:port:weight
 如果*启用集群服务器*已被启用，那么这儿必须只能有一个服务器列表，它通常是本地服务器，如127.0.0.1或localhost。';
 $string['sessionhandlerconflict'] = '警告：有一个memcached实例({$a})已经被设置为使用相同的memcached服务器作为会话(sessinos)。清除所有缓存将会导致会话也会被清除。';
 $string['setservers'] = '设置服务器';
-$string['setservers_help'] = '这是一个服务器列表，当缓存中的数据被更改时，它们也会被更改。它们通常是在集群中每个服务器的完整名称。
+$string['setservers_help'] = '这是一个服务器列表，当缓存中的数据被更改时，它们也会被更改。它们通常是集群中每个服务器的完整名称。
 它**必须**包含在以上*服务器*列表中，即使使用不同的主机名称。
 
 应该每一行设置一个服务器，并包含服务器地址和端口。
@@ -84,5 +91,8 @@ $string['testservers'] = '测试服务器';
 $string['testservers_desc'] = '设置用来进行测试的一个或多个服务器。
 若有设置一个服务器，那么memcache的性能表现可能在网站管理的缓存测试性能页面上进行测试。
 例如：127.0.0.1:11211';
+$string['upgrade200recommended'] = '我们建议您将Memcached PHP扩展升级到2.0.0或更高版本。您当前使用的Memcached PHP扩展版本没有提供Moodle用于确保沙箱缓存的功能。在您升级之前，我们建议您不要配置任何其他应用程序来使用配置与Moodle相同的Memcached服务器。';
 $string['usecompression'] = '使用压缩';
 $string['usecompression_help'] = '启用或禁用有效负载压缩。当启用时，文件长度越过一定界线(目前是100字节)，将会在存储时被压缩，且在读取时解压缩。';
+$string['useserialiser'] = '使用串行器';
+$string['useserialiser_help'] = '指定用于序列化非标量值的串行器。有效的串行器是Memcached::SERIALIZER_PHP或Memcached:: SERIALIZER_IGBINARY。只有在memcached配置了——enable-memcached-igbinary选项并加载了igbinary扩展时，才支持后者。';

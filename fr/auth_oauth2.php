@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,6 +69,15 @@ $string['emailconfirmlinksent'] = '<p>Un compte existant avec cette adresse de c
    <p>Un message a été envoyé à votre adresse <b>{$a}</b></p>
    <p>Il contient des instructions simples pour lier vos comptes.</p>
    <p>En cas de difficulté, contactez l\'administrateur de la plateforme.</p>';
+$string['emailpasswordchangeinfo'] = 'Bonjour {$a->firstname},
+
+Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « {$a->sitename} ».
+
+Malheureusement, votre mot de passe ne peut donc pas être réinitialisé, parce que vous utilisez votre compte d\'une autre plateforme pour vous connecter.
+
+Veuillez vous connecter comme précédemment, au moyen du lien sur la page de connexion.
+{$a->admin}';
+$string['emailpasswordchangeinfosubject'] = '{$a} : information sur le changement de mot de passe';
 $string['info'] = 'Compte externe';
 $string['issuer'] = 'Service OAuth 2';
 $string['issuernologin'] = 'Cet fournisseur d\'identité ne peut pas être utilisé pour se connecter';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'survey', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -209,8 +209,12 @@ $string['howlong'] = 'Zenbat denbora behar izan duzu inkesta hau betetzeko?';
 $string['howlongoptions'] = '<1 min, 1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,>10 min';
 $string['ifoundthat'] = 'Hau aurkitu dut';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa hausnarketetan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa hausnarketetan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek Hausnarketa jarduerak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da, Bidali da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Hausnarketa motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala hausnarketetan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala hausnarketetan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek Hausnarketa jarduerak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Hausnarketa motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['introtext'] = 'Sarrera-testua';
 $string['invalidsurveyid'] = 'Hausnarketaren IDa ez zen egokia';

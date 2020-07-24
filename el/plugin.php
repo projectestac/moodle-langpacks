@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'plugin', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -123,6 +123,8 @@ $string['type_calendartype'] = 'Τύπος ημερολογίου';
 $string['type_calendartype_plural'] = 'Τύποι ημερολογίου';
 $string['type_coursereport'] = 'Αναφορά μαθήματος';
 $string['type_coursereport_plural'] = 'Αναφορές μαθήματος';
+$string['type_customfield'] = 'Προσαρμοσμένο πεδίο';
+$string['type_customfield_plural'] = 'Προσαρμοσμένα πεδία';
 $string['type_dataformat'] = 'Μορφότυπος δεδομένων';
 $string['type_dataformat_plural'] = 'Μορφότυποι δεδομένων';
 $string['type_editor'] = 'Επεξεργαστής κειμένου';
@@ -148,8 +150,8 @@ $string['type_local'] = 'Τοπικό πρόσθετο';
 $string['type_local_plural'] = 'Τοπικά πρόσθετα';
 $string['type_media'] = 'Πρόγραμμα αναπαραγωγής πολυμέσων';
 $string['type_media_plural'] = 'Προγράμματα αναπαραγωγής πολυμέσων';
-$string['type_message'] = 'Έξοδος μηνυμάτων';
-$string['type_message_plural'] = 'Έξοδοι μηνυμάτων';
+$string['type_message'] = 'Πρόσθετο ειδοποιήσεων';
+$string['type_message_plural'] = 'Πρόσθετα ειδοποιήσεων';
 $string['type_mlbackend'] = 'Λογισμικό υποστήριξης μάθησης μηχανών';
 $string['type_mlbackend_plural'] = 'Λογισμικά υποστήριξης μάθησης μηχανών';
 $string['type_mnetservice'] = 'Υπηρεσία του MNet';
@@ -227,6 +229,7 @@ $string['validationmsg_onedir'] = 'Μη έγκυρη δομή του πακέτ�
 $string['validationmsg_onedir_help'] = 'Το πακέτο ZIP πρέπει να περιέχει μόνο ένα ριζικό κατάλογο που περιέχει τον κώδικα του πρόσθετου. Το όνομα του ριζικού καταλόγου πρέπει να ταιριάζει με το όνομα του πρόσθετου.';
 $string['validationmsg_pathwritable'] = 'Έλεγχος πρόσβασης εγγραφής';
 $string['validationmsg_pluginversion'] = 'Έκδοση Plugin';
+$string['validationmsg_pluginversiontoolow'] = 'Έχει ήδη εγκατασταθεί μια υψηλότερη έκδοση αυτού του πρόσθετου';
 $string['validationmsg_release'] = 'Διανομή (υποέκδοση) πρόσθετου';
 $string['validationmsg_requiresmoodle'] = 'Απαιτούμενη έκδοση Moodle';
 $string['validationmsg_rootdir'] = 'Όνομα του πρόσθετου προς εγκατάσταση';

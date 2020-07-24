@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotpot', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'hotpot', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   hotpot
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,14 +26,17 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['abandoned'] = 'Εγκαταλελειμμένο';
+$string['abandonhotpot'] = 'Τα αποτελέσματα μέχρι στιγμής θα αποθηκευτούν αλλά δεν θα μπορείτε να συνεχίσετε ή ξαναξεκινήσετε αυτήν την δραστηριότητα αργότερα.';
 $string['activitycloses'] = 'Η δραστηριότητα τελειώνει';
 $string['activitygrade'] = 'Βαθμός δραστηριότητας';
 $string['activityopens'] = 'Η δραστηριότητα ξεκινά';
 $string['added'] = 'Προστέθηκε';
 $string['addquizchain'] = 'Προσθήκη αλυσίδας κουίζ';
+$string['allowpaste'] = 'Επιτρέπεται επικόλληση';
 $string['allowreview'] = 'Επιτρέπεται εξέταση';
 $string['allowreview_help'] = 'Αν ενεργοποιηθεί, οι μαθητές θα μπορούν να ξαναβλέπουν τις προσπάθειές τους, ακόμη και μετά το κλείσιμο του κουίζ.';
 $string['analysisreport'] = 'Ανάλυση στοιχείου';
+$string['attempted'] = 'Με προσπάθεια';
 $string['attemptlimit'] = 'Όριο προσπάθειας';
 $string['attemptnumber'] = 'Αριθμός προσπάθειας';
 $string['attempts'] = 'Προσπάθειες';
@@ -105,7 +108,10 @@ $string['navigation_frame'] = 'Πλαίσιο πλοήγησης Moodle';
 $string['navigation_give_up'] = 'Ένα μοναδικό πλήκτρο «Εγκατάλειψης»';
 $string['navigation_none'] = 'Καμία';
 $string['noactivity'] = 'Καμία δραστηριότητα';
-$string['noresponses'] = 'Δεν βρέθηκαν πληροφορίες για μοναδικές ερωτήσεις και αποκρίσεις.';
+$string['nomoreattempts'] = 'Λυπούμαστε! Δεν έχουν μείνει άλλες προσπάθειες για αυτή τη δραστηριότητα.';
+$string['noresponses'] = 'Δεν βρέθηκαν πληροφορίες για μεμονωμένες ερωτήσεις και αποκρίσεις.';
+$string['notattemptedyet'] = 'Χωρίς προσπάθεια ακόμη';
+$string['notavailable'] = 'Λυπούμαστε! Αυτή η δραστηριότητα δεν είναι αυτή τη στιγμή διαθέσιμη σε εσάς.';
 $string['outputformat'] = 'Μορφή εξόδου';
 $string['outputformat_best'] = 'καλύτερο';
 $string['overviewreport'] = 'Επισκόπηση';

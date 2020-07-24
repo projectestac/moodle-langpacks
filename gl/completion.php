@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['activityaggregation_all'] = 'TODAS as actividades seleccionadas para se
 $string['activityaggregation_any'] = 'CALQUERA actividade seleccionada para seren completada';
 $string['activitycompletion'] = 'Completado da actividade';
 $string['activitycompletionupdated'] = 'Cambios gardados';
+$string['activitygradenotrequired'] = 'Non é obrigatoria a cualificación';
 $string['affectedactivities'] = 'Os cambios afectarán as seguintes <b>{$a}</b> actividades ou recursos:';
 $string['aggregationmethod'] = 'Método de agregación';
 $string['all'] = 'Todos';
@@ -42,6 +43,7 @@ $string['any'] = 'Calquera';
 $string['approval'] = 'Aprobación';
 $string['areyousureoverridecompletion'] = 'Confirma que quere anular o estado de completado actual desta actividade para este usuario e marcalo como «{$a}»?';
 $string['badautocompletion'] = 'Cando selecciona o completado automático, debe activar tamén polo menos un requisito (vid. máis abaixo)';
+$string['badcompletiongradeitemnumber'] = 'Non é posíbel activar a cualificación obrigatoria para <b>{$a}</b> por mor de que a cualificación non está activada.';
 $string['bulkactivitycompletion'] = 'Edición masiva de completado da actividade';
 $string['bulkactivitydetail'] = 'Seleccione as actividades que quere editar de xeito masivo.';
 $string['bulkcompletiontracking'] = 'Seguimento de completado';
@@ -104,8 +106,6 @@ $string['completionondate'] = 'Data';
 $string['completionondatevalue'] = 'O usuario debe permanecer matriculado ata';
 $string['completion-pass'] = 'Completado (acadou a cualificación de aprobado)';
 $string['completionsettingslocked'] = 'Configuración de completado bloqueados';
-$string['completion-title-manual-n'] = 'Marcar como completado: {$a}';
-$string['completion-title-manual-y'] = 'Marcar como sen completar: {$a}';
 $string['completionupdated'] = 'Actualizado o completado para a actividade <b>{$a}</b>';
 $string['completionusegrade'] = 'Require cualificación';
 $string['completionusegrade_desc'] = 'O alumno debe recibir unha cualificación para completar esta actividade';

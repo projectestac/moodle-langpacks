@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -275,10 +275,12 @@ $string['rootsettingblocks'] = 'ضمن الكتل';
 $string['rootsettingcalendarevents'] = 'تضمين أحداث التقويم';
 $string['rootsettingcomments'] = 'ضمن التعليقات';
 $string['rootsettingcompetencies'] = 'تشمل الكفاءات';
+$string['rootsettingcustomfield'] = 'ضمّن الحقول المخصصة';
 $string['rootsettingenrolments'] = 'تضمين طرق التسجيل';
 $string['rootsettingenrolments_always'] = 'نعم دائما';
 $string['rootsettingenrolments_never'] = 'لا ، استعد المستخدمين كأنها تسجيلات اليدوية';
 $string['rootsettingenrolments_withusers'] = 'نعم ، ولكن فقط إذا تم تضمين المستخدمين';
+$string['rootsettingfiles'] = 'ضمّن الملفات';
 $string['rootsettingfilters'] = 'ضمن المرشحات';
 $string['rootsettinggradehistories'] = 'ضمن تاريخ الدرجات';
 $string['rootsettinggroups'] = 'تضمين المجموعات والتجمُّعات';
@@ -290,6 +292,7 @@ $string['rootsettingroleassignments'] = 'ضمن تعيينات أدوار الم
 $string['rootsettings'] = 'إعدادات النسخ الاحتياطي';
 $string['rootsettingusers'] = 'ضمن المستخدمين المسجليين';
 $string['rootsettinguserscompletion'] = 'ضمن تفاصيل المستخدمين التكميلية';
+$string['samesitenotification'] = 'تم إنشاء هذه النسخة الاحتياطية بمسارات الملفات فقط، و ليست الملفات نفسها. ستعمل الاستعادة على هذه المسارات فقط.';
 $string['sectionactivities'] = 'الأنشطة';
 $string['sectioninc'] = 'لم يتم تضمين (معلومات المستخدم) في النسخ الاحتياطي';
 $string['sectionincanduser'] = 'تم التضمين في النسخ الاحتياطي مع معلومات المستخدم';
@@ -312,12 +315,16 @@ $string['skipmodifdays'] = 'تخطي المقررات الدراسية التي 
 $string['skipmodifdayshelp'] = 'اختيار تخطي المقررات الدراسية التي لم يتم تعديلها منذ الأيام المُحدَّدة';
 $string['skipmodifprev'] = 'تخطي المقررات الدراسية التي لم يتم تعديلها منذ النسخ الاحتياطي السابق';
 $string['skipmodifprevhelp'] = 'اختيار إما تضمين أو تخطي المقررات الدراسية التي لم يتم تعديلها منذ النسخ الاحتياطي التلقائي الماضي   في هذا النسخ، وهذا يتطلب التسجيل ليتم التفعيل.';
+$string['status'] = 'الحالة';
 $string['storagecourseandexternal'] = 'منطقة والمجلد المحدد لملفات النسخ الاحتياطي لمقرر';
 $string['storagecourseonly'] = 'منطقة ملفات النسخ الاحتياطي لمقرر';
 $string['storageexternalonly'] = 'المجلد المحدد لنسخ الاحتياطي الآلي المجدول';
+$string['successful'] = 'نجح النسخ الاحتياطي';
+$string['successfulrestore'] = 'استعادة ناجحة';
 $string['timetaken'] = 'الوقت المستغرق';
 $string['title'] = 'عنوان';
 $string['totalcategorysearchresults'] = 'مجموع التصنيفات : {$a}';
 $string['totalcoursesearchresults'] = 'مجموع المقررات: {$a}';
+$string['undefinedrolemapping'] = 'تعيين الأدوار غير معرّف لنموذج \'{$a}\'.';
 $string['unnamedsection'] = 'قسم غير مُسمَّى';
 $string['userinfo'] = 'معلومات المُستخدم';

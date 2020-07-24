@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'debug', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,11 +34,13 @@ $string['cannotinitpage'] = 'Impossible d\'initialiser complètement la page : 
 $string['cannotsetuptable'] = '{$a} tables n\'ont pas pu être configurées correctement !';
 $string['codingerror'] = 'Erreur de programmation détectée. Ceci doit être corrigé par un programmeur : {$a}';
 $string['configmoodle'] = 'Moodle n\'a pas encore été configuré. Vous devez avant tout écrire le fichier config.php.';
+$string['debuginfo'] = 'Info de débogage';
 $string['erroroccur'] = 'Une erreur est survenue durant cette procédure';
 $string['invalidarraysize'] = 'Taille incorrecte des tableaux dans les paramètres de {$a}';
 $string['invalideventdata'] = 'Données d\'événement incorrecte : {$a}';
 $string['invalidparameter'] = 'Valeur incorrecte de paramètre détectée';
 $string['invalidresponse'] = 'Valeur retournée incorrecte détectée';
+$string['line'] = 'Ligne';
 $string['missingconfigversion'] = 'La table Config ne contient pas la version. Impossible de continuer.';
 $string['modulenotexist'] = 'Le module {$a} n\'existe pas';
 $string['morethanonerecordinfetch'] = 'Plus d\'un enregistrement trouvé dans fetch() !';
@@ -50,9 +52,11 @@ $string['nomodules'] = 'Aucun module trouvé !';
 $string['nopageclass'] = '{$a} a été importé, mais aucune classe de page n\'a été trouvée';
 $string['noreports'] = 'Aucun rapport accessible';
 $string['notables'] = 'Pas de table !';
+$string['outputbuffer'] = 'Tampon de sortie';
 $string['phpvaroff'] = 'La variable « {$a->name} » du serveur PHP devrait être sur Off - {$a->link}';
 $string['phpvaron'] = 'La variable « {$a->name} » du serveur PHP n\'est pas sur On - {$a->link}';
 $string['sessionmissing'] = 'L\'objet de session {$a} n\'est pas présent dans la session';
 $string['sqlrelyonobsoletetable'] = 'Ce code SQL présuppose des tables obsolètes : {$a} ! Votre code doit être corrigé par un développeur.';
+$string['stacktrace'] = 'Trace de la pile';
 $string['withoutversion'] = 'Le fichier principal version.php n\'existe pas, n\'est pas accessible ou est corrompu';
 $string['xmlizeunavailable'] = 'Les fonctions xmlize ne sont pas disponibles';

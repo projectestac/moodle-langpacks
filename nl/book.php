@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'book', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   book
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addafter'] = 'Voeg nieuw hoofdstuk toe';
+$string['addafterchapter'] = 'Voeg een nieuw hoofdstuk toe na "{$a->title}"';
 $string['book:addinstance'] = 'Voeg een nieuw boek toe';
 $string['book:edit'] = 'Bewerk hoofdstukken';
 $string['book:read'] = 'Bekijk boek';
@@ -51,8 +52,12 @@ $string['eventchapterupdated'] = 'Hoofdstuk aangepast';
 $string['eventchapterviewed'] = 'Hoofdstuk bekeken';
 $string['hidechapter'] = 'Verberg hoofdstuk  "{$a}"';
 $string['indicator:cognitivedepth'] = 'Boek cognitief';
+$string['indicator:cognitivedepthdef'] = 'Boek cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de boekactiviteiten tijdens dit analyse-interval bereikt (Niveaus = Geen weergave, Weergave)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de sociale breedte die door de leerling is bereikt in een bron Boek.';
 $string['indicator:socialbreadth'] = 'Boek sociaal';
+$string['indicator:socialbreadthdef'] = 'Boek sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid van de boekactiviteiten tijdens dit analyse-interval bereikt (niveaus = geen deelname, alleen deelnemer)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Boek bron.';
 $string['modulename'] = 'Boek';
 $string['modulename_help'] = 'Met de boekmodule kan een leraar bronnen maken met meerdere pagina\'s in een boek-stijl opmaak met hoofdstukken en subtitels. In de boekmodule kunnen mediabestanden en tekst gezet worden en is nuttig voor het tonen van lange passages tekst of informatie die opgedeeld kan worden in delen.
@@ -93,6 +98,7 @@ $string['numberingoptions_desc'] = 'Opties voor het tonen van hoofdstukken en su
 $string['page-mod-book-x'] = 'Om het even welke pagina van de boekmodule';
 $string['pluginadministration'] = 'Boekbeheer';
 $string['pluginname'] = 'Boek';
+$string['previouschapter'] = 'Vorige hoofdstuk';
 $string['privacy:metadata'] = 'De boek activiteitsmodule bewaart geen persoonlijke gegevens.';
 $string['removeallbooktags'] = 'Verwijder alle boek-tags';
 $string['search:activity'] = 'Boek - broninformatie';

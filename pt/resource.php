@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'resource', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['clicktodownload'] = 'Clique na hiperligação {$a} para descarregar o ficheiro.';
 $string['clicktoopen2'] = 'Clique na hiperligação {$a} para ver o ficheiro.';
-$string['configdisplayoptions'] = 'Selecione todas as opções que devem estar disponíveis, as definições existentes não serão alteradas. Prima a tecla CTRL para selecionar múltiplas opções.';
+$string['configdisplayoptions'] = 'Selecione todas as opções que devem estar disponíveis, as definições existentes não serão alteradas. Pressione a tecla CTRL para selecionar múltiplas opções.';
 $string['configframesize'] = 'Quando uma página Web ou um ficheiro são visualizados numa frame, este valor corresponde à altura (em pixeis) da frame superior (que contém a navegação).';
 $string['configparametersettings'] = 'Esta opção define o valor predefinido que é introduzido no painel de configuração de parâmetros quando adiciona um novo recurso. Depois da primeira vez, este valor é substituído pelas preferências individuais do utilizador.';
 $string['configpopup'] = 'Quando se adiciona um recurso que pode ser apresentado numa nova janela, deve ser essa a opção predefinida?';
@@ -42,7 +42,7 @@ $string['configpopuptoolbar'] = 'Devem as janelas de pop-up apresentar, por pred
 $string['configpopupwidth'] = 'Qual deve ser a largura predefinida para as janelas de pop-up?';
 $string['contentheader'] = 'Conteúdo';
 $string['displayoptions'] = 'Opções de visualização disponíveis';
-$string['displayselect'] = 'Exibir em';
+$string['displayselect'] = 'Modo de exibição';
 $string['displayselectexplain'] = 'Escolha a forma de exibição do recurso (nem todos os tipos de exibição são adequados para todos os ficheiros).';
 $string['displayselect_help'] = 'Esta configuração, em conjunto com o tipo de ficheiro e possibilidades do navegador, determina a forma como é exibido o ficheiro. As opções podem ser:
 
@@ -69,8 +69,12 @@ $string['filtername'] = 'Hiperligações automáticas para nomes dos recursos';
 $string['forcedownload'] = 'Forçar descarga';
 $string['framesize'] = 'Largura da frame';
 $string['indicator:cognitivedepth'] = 'Compreensão do Ficheiro';
+$string['indicator:cognitivedepthdef'] = 'Compreensão do Ficheiro';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelos recursos Ficheiro durante esse intervalo de análise (Níveis = Não visualizado, Visualizado)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno no recurso Ficheiro.';
 $string['indicator:socialbreadth'] = 'Socialização do Ficheiro';
+$string['indicator:socialbreadthdef'] = 'Socialização do Ficheiro';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelos recursos Ficheiro durante esse intervalo de análise (Níveis = Sem participação, Participante individual, Participante com outros)';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno no recurso Ficheiro.';
 $string['legacyfiles'] = 'Migração de ficheiro antigo de disciplina';
 $string['legacyfilesactive'] = 'Ativo';

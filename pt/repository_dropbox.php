@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_dropbox', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_dropbox', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_dropbox
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['apikey'] = 'Chave para a API Dropbox';
 $string['cachelimit'] = 'Limite da cache';
 $string['cachelimit_info'] = 'Defina o tamanho máximo dos ficheiros (em bytes) a guardar em cache no servidor para os atalhos para o Dropbox. Os ficheiros em cache serão disponibilizados quando os originais já não estiverem disponíveis. Se deixar em branco ou inserir zero significa que todos os ficheiros são guardados em cache, independentemente do seu tamanho.';
 $string['configplugin'] = 'Configurar repositório "Dropbox"';
+$string['crontask'] = 'Processamento em segundo plano do repositório Dropbox';
 $string['dropbox'] = 'Dropbox';
 $string['dropbox:view'] = 'Ver uma pasta Dropbox';
 $string['instruction'] = 'Para obter a chave e senha de acesso à API consulte a página <a href="https://www.dropbox.com/developers/apps">App console</a>. Ao configurar a sua chave, selecione "Full Dropbox" como o "Type of access".';

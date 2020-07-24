@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'url', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,8 +47,12 @@ $string['displayselect_help'] = 'L\'impostazione, assieme al tipo di URL e ciò 
 $string['externalurl'] = 'URL';
 $string['framesize'] = 'Altezza frame';
 $string['indicator:cognitivedepth'] = 'URL cognitivo';
+$string['indicator:cognitivedepthdef'] = 'URL cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalla risorsa URL (Livelli: Nessuna visualizzazione, Visualizzazione)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente con risorse URL.';
 $string['indicator:socialbreadth'] = 'URL sociale';
+$string['indicator:socialbreadthdef'] = 'URL sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dalle risorse URL (Livelli: Nessuna partecipazione, Partecipazione da solo)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente con risorse URL.';
 $string['invalidstoredurl'] = 'Non è possibile visualizzare la risorsa, l\'URL non è valida';
 $string['invalidurl'] = 'L\'URL inserito non è valido';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -344,6 +344,8 @@ $string['eventattemptsummaryviewed'] = 'Resumen del intento de cuestionario visu
 $string['eventattemptviewed'] = 'Intento de cuestionario visualizado';
 $string['eventeditpageviewed'] = 'Página de edición del cuestionario visitada';
 $string['eventoverridecreated'] = 'Anular cuestionario creado';
+$string['eventoverridedeleted'] = 'Anulación de cuestionario eliminada';
+$string['eventoverrideupdated'] = 'Anulación de cuestionario actualizada';
 $string['eventquestionmanuallygraded'] = 'Pregunta calificada manualmente';
 $string['eventquizattemptabandoned'] = 'Intento abandonado';
 $string['eventquizattemptstarted'] = 'Ha comenzado el intento';
@@ -466,6 +468,8 @@ $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amp
 $string['indivresp'] = 'Respuestas de los individuos a cada ítem';
 $string['info'] = 'Información';
 $string['infoshort'] = 'i';
+$string['initialnumfeedbacks'] = 'Número inicial de campos de realimentación global';
+$string['initialnumfeedbacks_desc'] = 'Al crear un nuevo cuestionario, proporcione este número de cajas de realimentación global vacías. Una vez que el cuestionario haya sido creado, el formulario muestra el número de campos requeridos para el número de realimentaciones en el examen. La configuración debe de ser al menos de 1.';
 $string['inprogress'] = 'En curso';
 $string['introduction'] = 'Descripción';
 $string['invalidattemptid'] = 'No existe un intento con esa ID';
@@ -711,6 +715,7 @@ $string['quiz:deleteattempts'] = 'Eliminar intentos';
 $string['quiz:emailconfirmsubmission'] = 'Recibir un mensaje de confirmación cuando se envíe';
 $string['quiz:emailnotifysubmission'] = 'Recibir un mensaje de confirmación cuando un intento de resolver el cuestionario se presente';
 $string['quiz:emailwarnoverdue'] = 'Recibe un mensaje de notificación cuando se vence el periodo de tiempo de un intento y se informa que debe ser presentado.';
+$string['quizeventopens'] = '{$a} abre';
 $string['quiz:grade'] = 'Calificar cuestionarios manualmente';
 $string['quiz:ignoretimelimits'] = 'Pasa por alto el límite de tiempo en los cuestionarios';
 $string['quizisclosed'] = 'Este cuestionario está cerrado';

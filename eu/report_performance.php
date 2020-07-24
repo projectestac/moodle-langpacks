@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_performance', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_performance', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   report_performance
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,7 +40,7 @@ $string['check_enablestats_comment_enable'] = 'Estatistiken prozesamenduak erren
 $string['check_enablestats_details'] = 'Aukera hau gaituz gero cron-aren bidez erregistroak prozesatuko dira eta hainbat estatistika bilduko dira. Zure gunearen trafikoaren arabera, honek denbora bat eraman dezake.<p>Prozesu honek iraun bitartean zerbitzariaren baliabide gehiago beharko dira eta horrek errendimendua kaltetu dezake.</p>';
 $string['check_themedesignermode_comment_disable'] = 'Gaituz gero, irudiak eta estilo-orriak ez dira cacheatuko, eta ondorioz errendimendua modu nabarmenean kaltetuko da.';
 $string['check_themedesignermode_comment_enable'] = 'Desgaituz gero, irudiak eta estilo-orriak cacheatuko dira, eta ondorioz errendimendua modu nabarmenean hobetuko da.';
-$string['check_themedesignermode_details'] = 'Honek maiz Moodle guneak mantsotzen ditu.<p>Batez beste gutxienez CPU denbora bikoitza beharko da Moodle gune bat exekutatzeak itxura-diseinatzaile modua gaituta dagoenean.</p>';
+$string['check_themedesignermode_details'] = 'Honek maiz Moodle guneak mantsotzen ditu.<p>Batez beste gutxienez CPU denbora bikoitza beharko da Moodle gune bat exekutatzeak azal-diseinatzaile modua gaituta dagoenean.</p>';
 $string['comments'] = 'Iruzkinak';
 $string['disabled'] = 'Desgaituta';
 $string['edit'] = 'Editatu';

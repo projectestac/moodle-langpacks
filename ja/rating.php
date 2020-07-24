@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'rating', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'rating', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   rating
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,6 +45,7 @@ $string['allowratings'] = 'アイテムの評価を許可しますか?';
 $string['allratingsforitem'] = 'すべての送信済み評価';
 $string['capabilitychecknotavailable'] = '活動が保存されるまで、ケイパビリティのチェックは利用できません。';
 $string['couldnotdeleteratings'] = '申し訳ございません、すでに評価されているため、アイテムを削除することはできません。';
+$string['grade_rating_name'] = '評価';
 $string['norate'] = 'アイテムの評価は許可されていません!';
 $string['noratings'] = '送信された評価はありません。';
 $string['noviewanyrate'] = 'あなたは自分で作成したアイテムの結果のみ閲覧することができます。';

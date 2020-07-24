@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploaduser', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,9 +35,11 @@ $string['deleteerrors'] = 'احذف الاخطاء';
 $string['encoding'] = 'التشفير';
 $string['errormnetadd'] = 'لا يمكن إضافة المستخدمين عن بعد';
 $string['errors'] = 'أخطاء';
+$string['invalidtheme'] = 'السمة "{$a}" غير مثبتة وسيتم تجاهلها.';
 $string['invalidupdatetype'] = 'لا يمكن تحديد هذا الخيار بنوع التحميل المختار.';
 $string['invaliduserdata'] = 'تم اكتشاف بيانات غير صالحة للمستخدم {$a} وتم تنظيفها تلقائيًا.';
 $string['nochanges'] = 'لا يوجد تغير';
+$string['notheme'] = 'لا يوجد موضوع محدد لهذا المستخدم.';
 $string['pluginname'] = 'تحميل المستخدم';
 $string['privacy:metadata'] = 'لا يقوم مكون تحميل المستخدم بتخزين أي بيانات شخصية.';
 $string['renameerrors'] = 'أخطاء في إعادة المسميات';
@@ -76,6 +78,7 @@ $string['usersrenamed'] = 'تم تغير اسماء مستخدمين';
 $string['usersskipped'] = 'تم تخطي المستخدمين';
 $string['usersupdated'] = 'تم تحديث المستخدمين';
 $string['usersweakpassword'] = 'المستخدمين الذين لديهم كلمة مرور ضعيفة';
+$string['userthemesnotallowed'] = 'لم يتم تمكين سمات المستخدم ، وبالتالي سيتم تجاهل أي تضمين في ملف تحميل المستخدمين.';
 $string['uubulk'] = 'حدد الجزء الأكبر للعمليات';
 $string['uubulkall'] = 'كل المستخدمين';
 $string['uubulknew'] = 'المستخدمين الجدد';

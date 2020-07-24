@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_dataprivacy', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_dataprivacy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,7 @@ $string['contextlevelname70'] = 'Aktivitätsmodule';
 $string['contextlevelname80'] = 'Blöcke';
 $string['contextpurposecategorysaved'] = 'Zwecke und Kategorien der Speicherung';
 $string['createcategory'] = 'Datenkategorie erstellen';
+$string['createdeletedatarequest'] = 'Datenlöschanforderung erstellen';
 $string['createnewdatarequest'] = 'Neue Datenanfrage erstellen';
 $string['createpurpose'] = 'Zweck neu anlegen';
 $string['creationauto'] = 'Automatisch';
@@ -78,13 +79,16 @@ $string['datadeletion'] = 'Datenlöschung';
 $string['datadeletionpagehelp'] = 'Daten, deren Speicherdatum abgelaufen ist, sind hier aufgeführt. Prüfen Sie, ob diese Daten gelöscht werden können. Nach der Bestätigung wird die Aufgabe im Hintergrund gestartet werden.';
 $string['dataprivacy:downloadallrequests'] = 'Daten aller Personen herunterladen';
 $string['dataprivacy:downloadownrequest'] = 'Ihre eigenen Daten herunterladen';
+$string['dataprivacy:makedatadeletionrequestsforchildren'] = 'Antrag auf Löschung der Daten von Minderjährigen';
 $string['dataprivacy:makedatarequestsforchildren'] = 'Datenanfrage für Kinder erstellen';
 $string['dataprivacy:managedataregistry'] = 'Datenverarbeitung verwalten';
 $string['dataprivacy:managedatarequests'] = 'Datenanfragen verwalten';
+$string['dataprivacy:requestdelete'] = 'Antrag auf Löschung der eigenen Daten';
+$string['dataprivacy:requestdeleteforotheruser'] = 'Antrag auf Löschung der Daten im Namen einer anderen Person';
 $string['dataregistry'] = 'Datenregistrierung';
 $string['dataregistryinfo'] = 'Die Datenregistrierung aktiviert Kategorien (für Datentypen/Datenkategorien) und Zwecke (Gründe für die Verarbeitung von Daten), die dem gesamten Inhalt der Website zugeordnet werden können. Dies kann für Personen, Kurse und bis hinunter zu einzelnen Aktivitäten und Blöcken erfolgen. Für jeden Zweck kann eine Speicherdauer festgelegt werden. Wenn die Speicherdauer abgelaufen ist, wird der Inhalt zum Löschen gekennzeichnet. Ein/e Administrator/in kann den Löschvorgang durchführen.';
 $string['datarequestcreatedforuser'] = 'Datenanfrage für {$a} angelegt';
-$string['datarequestcreatedfromscheduledtask'] = 'Automatisch erzeugt durch geplanten Prozess (bereits gelöschte Person)';
+$string['datarequestcreatedfromscheduledtask'] = 'Automatisch erzeugt durch geplanten Prozess (bereits gelöschtes Nutzerkonto)';
 $string['datarequestcreatedupondelete'] = 'Beim Löschen eines Nutzerkontos automatisch erstellt';
 $string['datarequestemailsubject'] = 'Datenanfrage: {$a}';
 $string['datarequests'] = 'Datenanfragen';
@@ -106,7 +110,7 @@ $string['deletecategory'] = 'Kategorie löschen';
 $string['deletecategorytext'] = 'Möchten Sie die Kategorie \'{$a}\' wirklich löschen?';
 $string['deletedefaults'] = 'Standardeinstellungen löschen: {$a}';
 $string['deletedefaultsconfirmation'] = 'Möchten Sie wirklich die Standardkategorie und den Zweck für {$a} Aktivitäten löschen?';
-$string['deleteexistingdeleteduserstask'] = 'Löschanforderung für bereits gelöschte Personen erzeugen';
+$string['deleteexistingdeleteduserstask'] = 'Löschanforderung für bereits gelöschte Nutzerkonten';
 $string['deleteexpiredcontextstask'] = 'Abgelaufene Kontexte löschen';
 $string['deleteexpireddatarequeststask'] = 'Dateien löschen, wenn der Datenexport abgelaufen ist';
 $string['deletemyaccount'] = 'Meinen Account löschen';
@@ -130,6 +134,8 @@ $string['editpurposes'] = 'Zwecke bearbeiten';
 $string['effectiveretentionperiodcourse'] = '{$a} (nach dem Kursende)';
 $string['effectiveretentionperioduser'] = '{$a} (seit dem letzten Zugriff der Person auf die Website)';
 $string['emailsalutation'] = 'Guten Tag {$a},';
+$string['errorcannotrequestdeleteforother'] = 'Sie haben keine Berechtigung, einen Löschauftrag für diese Person zu erstellen.';
+$string['errorcannotrequestdeleteforself'] = 'Sie haben keine Berechtigung, einen Löschauftrag für sich selbst zu erstellen.';
 $string['errorcontexthasunexpiredchildren'] = 'Der Kontext \'{$a}\' hat Unterkontexte, die noch nicht abgelaufen sind. Es sind derzeit keine Kontexte zum Löschen gekennzeichnet.';
 $string['errorinvalidrequestcreationmethod'] = 'Ungültige Methode zur Anforderungserzeugung';
 $string['errorinvalidrequeststatus'] = 'Ungültiger Abfragestatus!';

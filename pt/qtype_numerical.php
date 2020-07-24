@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_numerical', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_numerical', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_numerical
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -56,9 +56,9 @@ $string['numericalmultiplier_help'] = 'O multiplicador é o fator pelo qual a re
 
 A primeira unidade (Unidade 1) tem um multiplicador predefinido de 1. Assim, se a resposta correta for 5500 e configurar W como unidade na Unidade 1, que tem 1 como multiplicador predefinido, a resposta correta é 5500 W.
 
-Se adicionar a unidade kW com o multiplicador de  0.001, isto irá tornar igualmente correta a resposta 5.5 kW. Significa assim, que a resposta 5500W ou 5.5kW são ambas consideradas corretas.
+Se adicionar a unidade kW com o multiplicador de 0.001, isto irá tornar igualmente correta a resposta 5.5 kW. Significa assim, que a resposta 5500 W ou 5.5 kW são ambas consideradas corretas.
 
-Tenha em conta que o erro aceite é também multiplicado, um erro aceite de 100W equivale a um erro de 0.1kW.';
+Tenha em conta que o erro aceite é também multiplicado. Um erro aceite de 100 W equivale a um erro de 0.1 kW.';
 $string['oneunitshown'] = 'A Unidade 1 será exibida automaticamente junto da caixa destinada à resposta numérica.';
 $string['onlynumerical'] = 'Não se usam as unidades. Apenas é pedida e avaliada a resposta numérica.';
 $string['pleaseenterananswer'] = 'Por favor, introduza uma resposta.';
@@ -71,7 +71,7 @@ $string['pluginname_link'] = 'pergunta/tipo/numérica';
 $string['pluginnamesummary'] = 'Aceita uma resposta numérica, eventualmente com unidades, a qual é avaliada comparando com várias respostas modelo, com eventuais margens de erro.';
 $string['privacy:metadata'] = 'O módulo Pergunta do tipo Numérica não armazena dados pessoais.';
 $string['relative'] = 'Relativa';
-$string['rightexample'] = 'Direita (exemplo: 1.00cm)';
+$string['rightexample'] = 'Direita (exemplo: 1.00 km)';
 $string['selectunit'] = 'Selecione uma unidade';
 $string['selectunits'] = 'Selecione unidades';
 $string['studentunitanswer'] = 'Unidade da resposta é introduzida';

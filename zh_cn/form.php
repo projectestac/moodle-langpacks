@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'form', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'form', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   form
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,7 +62,7 @@ $string['mustbeoverriden'] = '必须覆盖类{$a}中的抽象方法form_definiti
 $string['newvaluefor'] = '{$a}的新值';
 $string['nomethodforaddinghelpbutton'] = '无法对表单元素 {$a->name} (类 {$a->classname})添加帮助按钮';
 $string['nonexistentformelements'] = '试图向不存在的表单元素“{$a}”添加帮助按钮';
-$string['noselection'] = '没有选择';
+$string['noselection'] = '无选择';
 $string['nosuggestions'] = '没有建议';
 $string['novalue'] = '未输入任何内容';
 $string['novalueclicktoset'] = '点击输入密码';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_mobile', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_mobile', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_mobile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['androidappid'] = 'Android app\'s unique identifier';
 $string['androidappid_desc'] = 'This setting may be left as default unless you have a custom Android app.';
 $string['apppolicy'] = 'App policy URL';
 $string['apppolicy_help'] = 'The URL of a policy for app users which is listed on the About page in the app. If the field is left empty, the site policy URL will be used instead.';
+$string['apprequired'] = 'This functionality is only available when accessed via the Moodle mobile or desktop app.';
 $string['autologinkeygenerationlockout'] = 'Auto-login key generation is blocked. You need to wait 6 minutes between requests.';
 $string['autologinnotallowedtoadmins'] = 'Auto-login is not allowed for site admins.';
 $string['cachedef_plugininfo'] = 'This stores the list of plugins with mobile addons';
@@ -47,12 +48,16 @@ $string['custommenuitems_desc'] = 'Additional items can be added to the app\'s m
 
 Link-opening methods are: app (for linking to an activity supported by the app), inappbrowser (for opening a link in a browser without leaving the app), browser (for opening the link in the device default browser outside the app) and embedded (for displaying the link in an iframe in a new page in the app).
 
+When items are missing a translation for a given language, they will use other languages as fallback unless "_only" is appended to the language code.
+
 For example:
 <pre>
 App help|https://someurl.xyz/help|inappbrowser
 My grades|https://someurl.xyz/local/mygrades/index.php|embedded|en
 Mis calificaciones|https://someurl.xyz/local/mygrades/index.php|embedded|es
+You will only see this in English|https://someurl.xyz/english|browser|en_only
 </pre>';
+$string['darkmode'] = 'Dark mode';
 $string['disabledfeatures'] = 'Disabled features';
 $string['disabledfeatures_desc'] = 'Select here the features you want to disable in the Mobile app for your site. Please note that some features listed here could be already disabled via other site settings. You will have to log out and log in again in the app to see the changes.';
 $string['displayerrorswarning'] = 'Display debug messages (debugdisplay) is enabled. It should be disabled.';
@@ -60,11 +65,12 @@ $string['downloadcourse'] = 'Download course';
 $string['downloadcourses'] = 'Download courses';
 $string['enablesmartappbanners'] = 'Enable App Banners';
 $string['enablesmartappbanners_desc'] = 'If enabled, a banner promoting the mobile app will be displayed when accessing the site using a mobile browser.';
-$string['forcedurlscheme'] = 'If you want to allow only your custom branded app to be opened via a browser window, then specify its URL scheme here; otherwise leave the field empty.';
+$string['forcedurlscheme'] = 'If you want to allow only your custom branded app to be opened via a browser window, then specify its URL scheme here. If you want to allow only the official app, then set the default value. Leave the field empty if you want to allow any app.';
 $string['forcedurlscheme_key'] = 'URL scheme';
 $string['forcelogout'] = 'Force log out';
 $string['forcelogout_desc'] = 'If enabled, the app option \'Change site\' is replaced by \'Log out\'. This results in the user being completely logged out. They must then re-enter their password the next time they wish to access the site.';
 $string['getmoodleonyourmobile'] = 'Get the mobile app';
+$string['h5poffline'] = 'View H5P content offline';
 $string['httpsrequired'] = 'HTTPS required';
 $string['insecurealgorithmwarning'] = 'It seems that the HTTPS certificate uses an insecure algorithm for signing (SHA-1). Please try updating the certificate.';
 $string['invalidcertificatechainwarning'] = 'It seems that the certificate chain is invalid.';
@@ -78,6 +84,8 @@ $string['loginintheapp'] = 'Via the app';
 $string['logininthebrowser'] = 'Via a browser window (for SSO plugins)';
 $string['loginintheembeddedbrowser'] = 'Via an embedded browser (for SSO plugins)';
 $string['mainmenu'] = 'Main menu';
+$string['minimumversion'] = 'If an app version is specified (3.8.0 or higher), any users using an older app version will be prompted to upgrade their app before being allowed access to the site.';
+$string['minimumversion_key'] = 'Minimum app version required';
 $string['mobileapp'] = 'Mobile app';
 $string['mobileappconnected'] = 'Mobile app connected';
 $string['mobileappearance'] = 'Mobile appearance';
@@ -87,12 +95,16 @@ $string['mobilecssurl'] = 'CSS';
 $string['mobilefeatures'] = 'Mobile features';
 $string['mobilenotificationsdisabledwarning'] = 'Mobile notifications are not enabled. They should be enabled in Notification settings.';
 $string['mobilesettings'] = 'Mobile settings';
+$string['moodleappsportalfeatureswarning'] = 'Please note that some features may be restricted depending on your Moodle app subscription. For details, visit the <a href="{$a}" target="_blank">Moodle Apps Portal</a>.';
+$string['oauth2identityproviders'] = 'OAuth 2 identity providers';
 $string['offlineuse'] = 'Offline use';
 $string['pluginname'] = 'Moodle app tools';
 $string['pluginnotenabledorconfigured'] = 'Plugin not enabled or configured.';
 $string['privacy:metadata:core_userkey'] = 'User\'s keys used to create auto-login key for the current user.';
 $string['privacy:metadata:preference:tool_mobile_autologin_request_last'] = 'The date of the last auto-login key request. Between each request 6 minutes are required.';
+$string['readingthisemailgettheapp'] = 'Reading this in an email? <a href="{$a}">Download the mobile app and receive notifications on your mobile device</a>.';
 $string['remoteaddons'] = 'Remote add-ons';
+$string['responsivemainmenuitems'] = 'Responsive menu items';
 $string['selfsignedoruntrustedcertificatewarning'] = 'It seems that the HTTPS certificate is self-signed or not trusted. The mobile app will only work with trusted sites.';
 $string['setuplink'] = 'App download page';
 $string['setuplink_desc'] = 'URL of page with options to download the mobile app from the App Store and Google Play. The app download page link is displayed in the page footer and in a user\'s profile. Leave blank to not display a link.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_insights', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_insights', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   report_insights
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['calculatedvalue'] = 'Kalkulatutako balioa';
+$string['actionsaved'] = '\'{$a}\'-(e)rako zure feedback-a gorde da.';
+$string['confirmbulkaction'] = 'Ziur zaude aukeratutako {$a->nitems} aurreikuspenak {$a->action} gisa markatu nahi dituzula?';
 $string['disabledmodel'] = 'Kudeatzaile batek eredu hau desgaitu du.';
-$string['indicator'] = 'adierazlea';
+$string['indicators'] = 'Adierazleak';
 $string['insight'] = 'Pertzepzioa';
-$string['insightprediction'] = '{$a} aurreikuspen';
 $string['insights'] = 'Pertzepzioak';
 $string['justpredictions'] = 'Mesedez kontuan izan pertzepzio hauek aurreikuspenak baino ez direla. Ezin da etorkizuna inolako ziurtasunez aurreikusi. Pertzepzio hauek aurreikuspen negatiboak benetan gertatu aurretik horiek saihesteko hartu beharreko neurriak hartu ahal izateko aurkezten dira.';
 $string['nodetailsavailable'] = 'Aurreikuspen xehetasunak ez dira esanguratsuak.';
@@ -42,10 +42,10 @@ $string['outcomeverynegative'] = 'Oso ikaste-emaitza negatiboa';
 $string['outcomeverypositive'] = 'Oso ikaste-emaitza positiboa';
 $string['pluginname'] = 'Pertzepzioak';
 $string['prediction'] = 'Aurreikuspena';
-$string['predictioncalculations'] = 'Adierazleen kalkuluak';
 $string['predictiondetails'] = 'Aurreikuspenaren xehetasunak';
 $string['privacy:metadata'] = 'Pertzepzioak pluginak ez du datu pertsonalik biltzen.';
 $string['selectotherinsights'] = 'Aukeratu beste pertzepzio batzuk...';
+$string['selectprediction'] = 'Aukeratu {$a} ekintza masiborako';
 $string['timecreated'] = 'Aurreikusitako denbora';
-$string['timerange'] = 'Denbora tartea';
+$string['timerange'] = 'Analisi-tartea';
 $string['timerangewithdata'] = '{$a->timestart}-(e)tatik {$a->timeend}-(e)tara';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'availability', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   availability
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,9 +29,9 @@ $string['accessrestrictions'] = 'Voraussetzungen';
 $string['addrestriction'] = 'Voraussetzung hinzufügen';
 $string['and'] = 'und';
 $string['condition_group'] = 'Zugriffsregeln';
-$string['condition_group_info'] = 'Voraussetzungen können als Zugriffsregel logisch verknüpft werden';
+$string['condition_group_info'] = 'Zugriffsregel können logisch verknüpft sein';
 $string['enableavailability'] = 'Voraussetzungen aktivieren';
-$string['enableavailability_desc'] = 'Diese Option erlaubt Bedingungen festzulegen (z.B. Zeit, Bewertung oder Abschluss), die den Zugriff auf Aktivitäten in Kursen regeln.';
+$string['enableavailability_desc'] = 'Diese Option erlaubt die Festlegung von Bedingungen (z.B. Zeit, Bewertung oder Abschluss), die den Zugriff auf Aktivitäten in Kursen regeln.';
 $string['error_list_nochildren'] = 'Zugriffsregeln müssen mindestens eine Bedingung enthalten.';
 $string['hidden_all'] = 'Verborgen, wenn nicht alle Bedingungen erfüllt sind';
 $string['hidden_individual'] = 'Verborgen, wenn diese Bedingung nicht erfüllt ist';

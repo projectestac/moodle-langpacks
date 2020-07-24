@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignsubmission_file', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,8 +36,6 @@ $string['enabled'] = 'Ingestuurde bestanden.';
 $string['enabled_help'] = 'Indien ingeschakeld, kunnen leerlingen één of meer bestanden uploaden als opdracht';
 $string['eventassessableuploaded'] = 'Er is een bestand geüploaded.';
 $string['file'] = 'Ingestuurde bestanden';
-$string['filesofthesetypes'] = 'Bestanden van volgende types mogen ingestuurd worden.';
-$string['filetypewithexts'] = '{$a->name} &mdash; {$a->extlist}';
 $string['maxbytes'] = 'Maximale bestandsgrootte';
 $string['maxfiles'] = 'Maximaal aantal bestanden per inzending';
 $string['maxfiles_help'] = 'Als bestanden insturen ingeschakeld is, dan kan voor elke opdracht ingesteld worden hoeveel bestanden er per inzending aanvaard worden.';
@@ -45,7 +43,6 @@ $string['maxfilessubmission'] = 'Maximaal aantal geüploade bestanden';
 $string['maxfilessubmission_help'] = 'Indien bestanden insturen is ingeschakeld, dan zal elke leerling tot maximaal dit aantal bestanden kunnen insturen als opdracht.';
 $string['maximumsubmissionsize'] = 'Maximale grootte ingestuurde opdracht';
 $string['maximumsubmissionsize_help'] = 'Bestanden die leerlingen insturen mogen maximaal deze grootte hebben.';
-$string['nonexistentfiletypes'] = 'Volgende bestandstypes werden niet herkend: {$a}';
 $string['numfilesforlog'] = 'aantal bestanden: {$a} bestand(en)';
 $string['pluginname'] = 'Bestanden insturen';
 $string['privacy:metadata:filepurpose'] = 'De ingeladen bestanden voor deze ingestuurde opdracht.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_ldap', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_ldap', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,8 @@ $string['autocreate'] = '<p>Kurse können automatisch in Moodle angelegt werden,
 $string['autocreate_key'] = 'Automatisches Erstellen';
 $string['autocreation_settings'] = 'Einstellungen für automatisch angelegte Kurse';
 $string['autoupdate_settings'] = 'Einstellungen für automatisch aktualisierte Kurse';
-$string['autoupdate_settings_desc'] = '<p>Wählen Sie Felder, die bei der Synchronisierung aktualisiert werden sollen (enrol/ldap/cli/sync.php)</p><p>Sobald mindestens ein Feld gewählt, wird die Aktualisierung durchgeführt.';
+$string['autoupdate_settings_desc'] = '<p>Wählen Sie die Felder aus, die aktualisiert werden sollen, wenn die geplante Aufgabe "LDAP-Einschreibungen synchronisieren" ausgeführt wird.</p>
+<p>Wenn mindestens ein Feld ausgewählt ist, erfolgt die Aktualisierung.</p>';
 $string['bind_dn'] = 'Wenn Sie einen sog. bind-user für die LDAP-Suche nach Nutzer/innen verwenden wollen, geben Sie diesen  hier an, z.B. \'cn=ldapuser,ou=public,o=org\'.';
 $string['bind_dn_key'] = 'Anmeldename des Bind Users';
 $string['bind_pw'] = 'Kennwort für den Bind-User';
@@ -80,7 +81,7 @@ $string['extremovedsuspendnoroles'] = 'Deaktivierte Einschreibung und entfernte 
 $string['extremovedunenrol'] = 'Nutzer/in \'{$a->user_username}\' aus dem Kurs \'{$a->course_shortname}\' (id {$a->course_id}) abmelden';
 $string['failed'] = 'Fehlgeschlagen!';
 $string['general_options'] = 'Allgemeines';
-$string['group_memberofattribute'] = 'Name des Attribut, das die Zugehörigkeit eines Nutzers zu einer Gruppe festlegt (z. B. memberOf, groupMembership, etc)';
+$string['group_memberofattribute'] = 'Name des Attribut, das die Zugehörigkeit eines Nutzers zu einer Gruppe festlegt (z.B. memberOf, groupMembership, etc)';
 $string['group_memberofattribute_key'] = 'Attribut \'Member of\'';
 $string['host_url'] = 'URL des LDAP-Servers, z.B. \'ldap://ldap.meinserver.de\' oder \'ldaps://ldap. meinserver.de\'';
 $string['host_url_key'] = 'Host-URL';
@@ -114,7 +115,8 @@ Dies funktioniert normalerweise sehr gut, wenn Sie LDAP auch zur Nutzerauthentif
 <p>Sie können das LDAP-Anmeldeverfahren auch so konfigurieren, dass automatisch neue Kurse angelegt werden, wenn neue Gruppen in LDAP eingerichtet werden.</p>';
 $string['pluginnotenabled'] = 'Plugin nicht aktiviert!';
 $string['privacy:metadata'] = 'Das LDAP-Einschreibungsplugin speichert keine personenbezogenen Daten.';
-$string['role_mapping'] = '<p>Für jede Rolle, die Sie über LDAP zuweisen möchten, müssen Sie eine Kontextliste angeben, in der die Kursrollen festgelegt sind. Trennen Sie unterschiedliche Kontexte mit einem Semikolon \';\'.</p><p>Zusätzlich müssen Sie das Attribut Ihres LDAP-Servers festlegen, das für Gruppenmitglieder benutzt wird (normalerweise \'member\' or \'memberUid\')</p>';
+$string['role_mapping'] = '<p>Für jede Rolle müssen Sie alle LDAP-Kontexte angeben, in denen sich die Gruppen befinden, die die Kurse repräsentieren.Trennen Sie verschiedene Kontexte mit einem Semikolon (;).</p>
+<p>Sie müssen außerdem das Attribut angeben, das Ihr LDAP-Server verwendet, um die Mitglieder einer Gruppe zu halten (normalerweise \'member\' or \'memberUid\').</p>';
 $string['role_mapping_attribute'] = 'LDAP Member Attribut für {$a}';
 $string['role_mapping_context'] = 'LDAP Kontexte für {$a}';
 $string['role_mapping_key'] = 'Rollen über LDAP zuweisen';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'label', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'label', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   label
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,8 +34,12 @@ $string['dndresizewidth'] = 'Ridimensionamento larghezza per trascina e rilascia
 $string['dnduploadlabel'] = 'Inserisci media nella pagina home del corso';
 $string['dnduploadlabeltext'] = 'Aggiungi un\'etichetta alla pagina home del corso';
 $string['indicator:cognitivedepth'] = 'Etichetta cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Etichetta cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalla risorsa Etichetta  (Livelli: Nessuna visualizzazione, Visualizzazione)';
 $string['indicator:cognitivedepth_help'] = 'L\'indicatore è basato sulla profondità cognitiva toccata dallo studente con risorse Etichetta.';
 $string['indicator:socialbreadth'] = 'Etichetta sociale';
+$string['indicator:socialbreadthdef'] = 'Etichetta sociale';
+$string['indicator:socialbreadthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento sociale offerto dalle risorse Etichetta (Livelli: Nessuna partecipazione, Partecipazione da solo)';
 $string['indicator:socialbreadth_help'] = 'L\'indicatore è basato sulla dimensione sociale raggiunta dallo studente con risorse Etichetta.';
 $string['label:addinstance'] = 'Aggiungere etichette';
 $string['labeltext'] = 'Testo visualizzato dall\'etichetta';

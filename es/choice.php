@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,6 +57,7 @@ $string['chooseoption'] = 'Cambiar a: {$a}';
 $string['closebeforeopen'] = 'Has especificado una fecha de cierre previa a la de la fecha de apertura.';
 $string['completionsubmit'] = 'Mostrar como completada cuando el usuario selecciona una opción';
 $string['description'] = 'Descripción';
+$string['deselectalloption'] = 'Des-seleccionar todos "{$a}"';
 $string['displayhorizontal'] = 'Mostrar horizontalmente';
 $string['displaymode'] = 'Modo de visualización de las opciones';
 $string['displayvertical'] = 'Mostrar verticalmente';
@@ -66,12 +67,17 @@ $string['eventanswersubmitted'] = 'Consulta hecha';
 $string['eventanswerupdated'] = 'Consulta actualizada';
 $string['eventreportdownloaded'] = 'Informe de selección descargado';
 $string['eventreportviewed'] = 'Informe de Consulta visto';
-$string['expired'] = 'Lo sentimos, esta actividad se cerró el {$a} y ya no está disponible';
+$string['expired'] = 'Esta actividad cerró el {$a}.';
 $string['full'] = '(Lleno)';
 $string['havetologin'] = 'Debe entrar antes de remitir su elección';
 $string['includeinactive'] = 'Incluir respuestas de usuarios inactivos/suspendidos';
 $string['indicator:cognitivedepth'] = 'Elección cognitiva';
+$string['indicator:cognitivedepthdef'] = 'Elección cognitiva';
+$string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje de compromiso cognitivo ofrecido por las actividades de Elección durante este intervalo de análisis (Niveles = Sin ver, Ver, Enviar, Ver retroalimentación)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad Elección.';
+$string['indicator:socialbreadth'] = 'Consulta social';
+$string['indicator:socialbreadthdef'] = 'Consulta social';
+$string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por las actividades de Consulta durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad Consulta.';
 $string['limit'] = 'Límite';
 $string['limitanswers'] = 'Limitar el número de respuestas permitidas';
@@ -105,9 +111,10 @@ $string['noguestchoose'] = 'Lo sentimos, los invitados no pueden responder encue
 $string['noresultsviewable'] = 'Los resultados no pueden verse en este momento.';
 $string['notanswered'] = 'Sin contestar aún';
 $string['notenrolledchoose'] = 'Lo sentimos, solo los usuarios matriculados pueden seleccionar una opción.';
-$string['notopenyet'] = 'Lo sentimos, esta actividad no estará disponible hasta {$a}';
+$string['notopenyet'] = 'Esta actividad no estará disponible hasta el {$a}.';
 $string['numberofuser'] = 'Número de respuestas';
 $string['numberofuserinpercentage'] = 'Porcentaje de respuestas';
+$string['openafterclose'] = 'Usted ha especificado una fecha de apertura posterior a  la fecha de cierre.';
 $string['option'] = 'Opción';
 $string['optionno'] = 'Opción {no}';
 $string['options'] = 'Opciones';
@@ -116,6 +123,11 @@ $string['pluginadministration'] = 'Administración';
 $string['pluginname'] = 'Consulta';
 $string['previewonly'] = 'Esta es solamente una previsualización de las opciones disponibles para esta actividad. No podrá enviar su respuesta a la consulta hasta el {$a}.';
 $string['privacy'] = 'Privacidad de los resultados';
+$string['privacy:metadata:choice_answers'] = 'Información acerca de la(s) respuesta(s) elegida(s) por el usuario para una actividad de consulta dada';
+$string['privacy:metadata:choice_answers:choiceid'] = 'La ID de la actividad de Consulta';
+$string['privacy:metadata:choice_answers:optionid'] = 'La ID de la opción que el usuario seleccionó.';
+$string['privacy:metadata:choice_answers:timemodified'] = 'El sello de tiempo que indica cuando fue modificada la Consulta por el usuario';
+$string['privacy:metadata:choice_answers:userid'] = 'La ID del usuario que contesta esta actividad de Consulta';
 $string['publish'] = 'Publicar resultados';
 $string['publishafteranswer'] = 'Mostrar los resultados al estudiante después de su respuesta';
 $string['publishafterclose'] = 'Mostrar los resultados a los estudiantes sólo después de cerrar la consulta';
@@ -136,10 +148,10 @@ $string['responsesto'] = 'Respuestas para {$a}';
 $string['results'] = 'Resultados';
 $string['savemychoice'] = 'Guardar mi elección';
 $string['search:activity'] = 'Consulta - información de actividad';
+$string['selectalloption'] = 'Seleccionar todos "{$a}"';
 $string['showpreview'] = 'Mostrar previsualización';
 $string['showpreview_help'] = 'Permitir a los estudiantes ver las opciones disponibles antes de que la consulta esté abierta para enviar.';
 $string['showunanswered'] = 'Mostrar columna de no respondidas';
-$string['skipresultgraph'] = 'Pasar por alto gráfico de resultados';
 $string['spaceleft'] = 'espacio disponible';
 $string['spacesleft'] = 'espacios disponibles';
 $string['taken'] = 'Tomadas';

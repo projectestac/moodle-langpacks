@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_xmldb', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actual'] = '実値';
+$string['addpersistent'] = '必須存続フィールドを追加する';
 $string['aftertable'] = 'テーブルの後:';
 $string['back'] = '戻る';
 $string['backtomainview'] = 'メインに戻る';
@@ -172,6 +173,9 @@ $string['numberincorrectwholepart'] = 'numberフィールドの整数部分が�
 $string['pendingchanges'] = 'メモ: あなたはこのファイルを変更しました。ファイルはいつでも保存できます。';
 $string['pendingchangescannotbesaved'] = 'このファイルに変更が加えられましたが、保存できません! ディレクトリおよび「install.xml」にウェブサーバの書込み権があるか確認してください。';
 $string['pendingchangescannotbesavedreload'] = 'このファイルに変更が加えられましたが、保存できません! ディレクトリおよび「install.xml」にウェブサーバの書込み権があるか確認してください。確認後、あなたはこのページをリロードして変更を保存できます。';
+$string['persistentfieldscomplete'] = '次のフィールドが追加されました:';
+$string['persistentfieldsconfirm'] = '次のフィールドを追加してもよろしいですか:';
+$string['persistentfieldsexist'] = '次のフィールドはすでに存在します:';
 $string['pluginname'] = 'XMLDBエディタ';
 $string['primarykeyonlyallownotnullfields'] = '主キーはNullにできません。';
 $string['privacy:metadata'] = 'XMLDBエディタプラグインはいかなる個人データも保存しません。';

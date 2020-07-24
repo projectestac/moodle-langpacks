@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'files', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'files', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   files
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['privacy:metadata:files:contenthash'] = 'Hash des Dateiinhalts';
 $string['privacy:metadata:files:filename'] = 'Name der Datei in dem Ablagebereich für Dateien';
 $string['privacy:metadata:files:filepath'] = 'Pfad zur Datei in der Dateiablage';
 $string['privacy:metadata:files:filesize'] = 'Größe der Datei';
-$string['privacy:metadata:files:license'] = 'Lizenz für Dateiinhalt';
+$string['privacy:metadata:files:license'] = 'Lizenz für den Dateiinhalt';
 $string['privacy:metadata:files:mimetype'] = 'MIME-Typ der Datei';
 $string['privacy:metadata:files:source'] = 'Quelle der Datei';
 $string['privacy:metadata:files:timecreated'] = 'Zeit der Dateierstellung';

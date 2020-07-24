@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,36 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['asyncbackupcomplete'] = 'El proceso de copia de seguridad ha sido completado';
+$string['asyncbackupcompletebutton'] = 'Continuar';
+$string['asyncbackupcompletedetail'] = 'El proceso de copia de seguridad ha sido completado exitosamente. <br/> Puede acceder a la copia de seguridad en la  <a href="{$a}">página para restaurar.</a>';
+$string['asyncbackuperror'] = 'El proceso de copia de seguridad ha fallado.';
+$string['asyncbackuperrordetail'] = 'El proceso de copia de seguridad ha fallado. Por favor contacte con el administrador de la plataforma.';
+$string['asyncbackuppending'] = 'El proceso de copia de seguridad está pendiente';
+$string['asyncbackupprocessing'] = 'El proceso de copia de seguridad está en progreso';
+$string['asyncbadexecution'] = 'Ejecución de controlador de copia de seguridad errónea. Es {$a} y debería ser 2.';
+$string['asynccheckprogress'] = 'Puede revisar el progreso en cualquier momento en la <a href="{$a}">página para restaurar.</a>.';
+$string['asyncemailenable'] = 'Habilitar notificaciones de mensajes';
+$string['asyncemailenabledetail'] = 'Cuando se habilita, los usuarios recibirán un mensaje cuando se complete una restauración o copia de seguridad asincrónicos.';
+$string['asyncgeneralsettings'] = 'Copia de seguridad/restauración asincrónicos';
+$string['asyncmessagebody'] = 'Mensaje';
+$string['asyncmessagebodydefault'] = 'Hola {user_firstname} {user_lastname}, <br/> ¡Su {operation} (ID: {backupid}) ha sido completado exitosamente <br/><br/>Puede verla aquí {link}.';
+$string['asyncmessagebodydetail'] = 'Mensaje a enviar cuando se complete una restauración o copia de seguridad asincrónicos.';
+$string['asyncmessagesubject'] = 'Asunto';
+$string['asyncmessagesubjectdefault'] = '{operation} de Moodle se completó exitosamente';
+$string['asyncmessagesubjectdetail'] = 'Asunto del mensaje';
+$string['asyncnowait'] = 'No necesita esperar aquí, el proceso continuará en segundo plano.';
+$string['asyncprocesspending'] = 'Proceso pendiente';
+$string['asyncrestorecomplete'] = 'El proceso de restauración ha sido completado';
+$string['asyncrestorecompletebutton'] = 'Continuar';
+$string['asyncrestorecompletedetail'] = 'El proceso de restauración ha sido completado exitosamente. Seleccionar continuar lo llevará al <a href="{$a}">curso restaurado.</a>';
+$string['asyncrestoreerror'] = 'El proceso de restauración ha fallado';
+$string['asyncrestoreerrordetail'] = 'El proceso de restauración ha fallado. Por favor contacte con el administrador de la plataforma.';
+$string['asyncrestoreinprogress'] = 'Restauraciones en progreso';
+$string['asyncrestoreinprogress_help'] = 'Las restauraciones de curso asincrónicas que están en progreso son mostradas aquí.';
+$string['asyncrestorepending'] = 'El proceso de restauración está pendiente';
+$string['asyncrestoreprocessing'] = 'La restauración está en progreso';
+$string['asyncreturn'] = 'Regresar al curso';
 $string['autoactivedescription'] = 'Escoja si desea o no hacer copias de seguridad automáticas. Si selecciona el modo manual las copias de seguridad automáticas sólo serán posibles mediante el "script" CLI. También se pueden hacer manualmente mediante la línea de comandos o a través del cron.';
 $string['autoactivedisabled'] = 'Desactivado';
 $string['autoactiveenabled'] = 'Activado';
@@ -64,6 +94,7 @@ $string['backupmode30'] = 'Central de cursos';
 $string['backupmode40'] = 'Mismo sitio';
 $string['backupmode50'] = 'Automatizado';
 $string['backupmode60'] = 'Convertido';
+$string['backupmode70'] = 'Asincrónico';
 $string['backupsection'] = 'Copia de seguridad sección de curso: Copia de seguridad curso: {$a}';
 $string['backupsettings'] = 'Copia de seguridad de parámetros de configuración';
 $string['backupsitedetails'] = 'Detalles del sitio';
@@ -140,6 +171,7 @@ $string['currentstage16'] = 'Completar';
 $string['currentstage2'] = 'Ajustes del esquema';
 $string['currentstage4'] = 'Confirmación y revisión';
 $string['currentstage8'] = 'Ejecutar copia de seguridad';
+$string['enableasyncbackup_help'] = 'Si se habilita, todas las operaciones de copia de seguridad y restauración se harán asincrónicamente. Esto no afecta a las importaciones y exportaciones. Las copias de seguridad y restauraciones asincrónicos les permiten a los usuarios el hacer otras operaciones mientras está en progreso una copia de seguridad o una restauración.';
 $string['enterasearch'] = 'Introduzca un criterio de búsqueda';
 $string['error_block_for_module_not_found'] = 'Encontrada instancia de bloque huérfano (id: {$a->bid}) para el módulo del curso (id: {$a->mid}) Este bloque no se copiará';
 $string['errorcopyingbackupfile'] = 'Fallo al copiar el fichero de copia de seguridad al directorio temporal antes de restaurar.';
@@ -152,6 +184,7 @@ $string['errorinvalidformatinfo'] = 'El archivo seleccionado no es un archivo de
 $string['errorminbackup20version'] = 'Este archivo de copia de seguridad ha sido creado con una versión de desarrollo de copia de seguridad de Moodle ({$a->backup}) y se requiere al menos la versión {$a->min}. Por lo tanto, no puede ser restaurado.';
 $string['errorrestorefrontpagebackup'] = 'Sólo puede restaurar respaldos de la página principal en la página principal.';
 $string['executionsuccess'] = 'El archivo de copia de seguridad se creó con éxito';
+$string['failed'] = 'Falló la copia de seguridad';
 $string['filealiasesrestorefailures'] = 'Fallos en la restauración de alias';
 $string['filealiasesrestorefailures_help'] = 'Los alias son enlaces simbólicos a otros archivos, incluyendo aquellos almacenados en repositorios externos. En algunos casos, Moodle no puede restaurarlos - por ejemplo cuando se restaura una copia de seguridad en otro sitio o cuando el archivo al que se hace referencia no existe.';
 $string['filealiasesrestorefailuresinfo'] = 'Algunos alias incluidos en el archivo de copia de seguridad no pudieron restaurarse. La lista siguiente contiene su localización esperada y el archivo origen al que se estaban refiriendo en el sitio original.';
@@ -206,6 +239,7 @@ $string['includeditems'] = 'Elementos incluidos:';
 $string['includefilereferences'] = 'Referencias de archivo a contenidos externos';
 $string['includesection'] = 'Sección {$a}';
 $string['includeuserinfo'] = 'Datos de usuario';
+$string['inprogress'] = 'Copia de seguridad en progreso';
 $string['jumptofinalstep'] = 'Saltar al último paso';
 $string['keep'] = 'Conservar';
 $string['locked'] = 'Bloqueado';
@@ -224,6 +258,10 @@ $string['nomatchingcourses'] = 'No hay cursos para mostrar';
 $string['norestoreoptions'] = 'No hay categorías o cursos que pueda restaurar';
 $string['originalwwwroot'] = 'URL de la copia de seguridad';
 $string['overwrite'] = 'Sobrescribir';
+$string['pendingasyncdeletedetail'] = 'Este curso tiene una copia de seguridad asincrónica pendiente.<br/> Los cursos no pueden ser eliminados hasta que termine esta copia de seguridad.';
+$string['pendingasyncdetail'] = 'Las copias de seguridad asincrónicas solamente le permiten a un usuario el tener un respaldo pendiente para un recurso a la vez. <br/> Las copias de seguridad múltiples asincrónicos del mismo recurso no pueden ser puestas en cola, ya que esto probablemente resultaría en múltiples copias de seguridad con el mismo contenido.';
+$string['pendingasyncedit'] = 'Hay una copia de seguridad asincrónica pendiente para este curso. Por favor no edite este curso hasta después de que esté completada la copia de seguridad.';
+$string['pendingasyncerror'] = 'Copia de seguridad pendiente para este recurso';
 $string['preparingdata'] = 'Preparando datos';
 $string['preparingui'] = 'Preparando para visualizar página';
 $string['previousstage'] = 'Anterior';
@@ -285,6 +323,7 @@ $string['rootsettingblocks'] = 'Incluir bloques';
 $string['rootsettingcalendarevents'] = 'Incluir eventos del calendario';
 $string['rootsettingcomments'] = 'Incluir comentarios';
 $string['rootsettingcompetencies'] = 'Incluir competencias';
+$string['rootsettingcustomfield'] = 'Incluir campos personalizados';
 $string['rootsettingenrolments'] = 'Incluir métodos de matriculación';
 $string['rootsettingenrolments_always'] = 'Sí, siempre';
 $string['rootsettingenrolments_never'] = 'No, restaurar usuarios como cuentas manuales';
@@ -322,9 +361,12 @@ $string['skipmodifdays'] = 'Pasar por alto cursos no modificados desde';
 $string['skipmodifdayshelp'] = 'Seleccione para pasar por alto cursos que no han sido modificados desde un número de días';
 $string['skipmodifprev'] = 'Pasar por alto cursos no modificados desde copia de seguridad anterior';
 $string['skipmodifprevhelp'] = 'Elija si desea o no pasar por alto cursos que no han sido modificados desde la copia de seguridad anterior. Requiere logearse para ser activada.';
+$string['status'] = 'Estado';
 $string['storagecourseandexternal'] = 'Área de ficheros de copia de seguridad y carpeta específica';
 $string['storagecourseonly'] = 'Área de archivos de copia de seguridad';
 $string['storageexternalonly'] = 'Especifique directorio para las copias de seguridad automáticas';
+$string['successful'] = 'Copia de seguridad exitosa';
+$string['successfulrestore'] = 'Restauración exitosa';
 $string['timetaken'] = 'Tiempo empleado';
 $string['title'] = 'Título';
 $string['totalcategorysearchresults'] = 'Total de categorías: {$a}';

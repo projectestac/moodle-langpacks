@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'backup', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   backup
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,36 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['asyncbackupcomplete'] = 'Le processus de sauvegarde s\'est terminé';
+$string['asyncbackupcompletebutton'] = 'Continuer';
+$string['asyncbackupcompletedetail'] = 'Le processus de sauvegarde s\'est terminé correctement.<br />Vous pouvez accéder à la sauvegarde sur la <a href="{$a}">page de restauration</a>.';
+$string['asyncbackuperror'] = 'Le processus de sauvegarde a échoué';
+$string['asyncbackuperrordetail'] = 'Le processus de sauvegarde a échoué. Veuillez contacter l\'administrateur de votre système.';
+$string['asyncbackuppending'] = 'Le processus de sauvegarde est en attente';
+$string['asyncbackupprocessing'] = 'Le processus de sauvegarde est en cours';
+$string['asyncbadexecution'] = 'Erreur d\'exécution du contrôleur de sauvegarde. Devrait être 2, au lieu de {$a}.';
+$string['asynccheckprogress'] = 'Vous pouvez vérifier la progression à tout moment sur la <a href="{$a}">page de restauration</a>.';
+$string['asyncemailenable'] = 'Activer les messages de notification';
+$string['asyncemailenabledetail'] = 'Si ce réglage est activé, les utilisateurs recevront un message lorsqu\'une sauvegarde ou une restauration asynchrone se termine.';
+$string['asyncgeneralsettings'] = 'Sauvegarde/restauration asynchrone';
+$string['asyncmessagebody'] = 'Message';
+$string['asyncmessagebodydefault'] = 'Bonjour {user_firstname},<br />Votre {operation} (ID : {backupid}) s\'est terminée correctement.<br /><br />Vous pouvez la trouver ici : {link}.';
+$string['asyncmessagebodydetail'] = 'Message à envoyer au terme d\'une sauvegarde ou d\'une restauration asynchrone.';
+$string['asyncmessagesubject'] = 'Objet';
+$string['asyncmessagesubjectdefault'] = '{operation} de Moodle terminée correctement';
+$string['asyncmessagesubjectdetail'] = 'Objet du message';
+$string['asyncnowait'] = 'Il n\'est pas nécessaire d\'attendre ici, car le processus continue en tâche de fond.';
+$string['asyncprocesspending'] = 'Processus en attente';
+$string['asyncrestorecomplete'] = 'Le processus de restauration s\'est terminé';
+$string['asyncrestorecompletebutton'] = 'Continuer';
+$string['asyncrestorecompletedetail'] = 'Le processus de restauration s\'est terminé correctement. Après avoir cliqué sur « Continuer », vous serez dirigé vers le <a href="{$a}">cours de l\'élément restauré</a>.';
+$string['asyncrestoreerror'] = 'Le processus de restauration a échoué';
+$string['asyncrestoreerrordetail'] = 'Le processus de restauration a échoué. Veuillez contacter l\'administrateur de votre système.';
+$string['asyncrestoreinprogress'] = 'Restauration en cours';
+$string['asyncrestoreinprogress_help'] = 'Les restaurations de cours asynchrones en cours sont affichées ici.';
+$string['asyncrestorepending'] = 'Le processus de restauration est en attente';
+$string['asyncrestoreprocessing'] = 'La restauration est en cours';
+$string['asyncreturn'] = 'Retourner au cours';
 $string['autoactivedescription'] = 'Ce réglage permet d\'activer ou non les sauvegardes automatiques. Si l\'option « Manuelle » est sélectionnée, les sauvegardes automatiques ne pourront avoir lieu que via le script en ligne de commande, lancé manuellement ou via un cron spécifique.';
 $string['autoactivedisabled'] = 'Désactivée';
 $string['autoactiveenabled'] = 'Activée';
@@ -64,6 +94,7 @@ $string['backupmode30'] = 'Serveur d\'échanges';
 $string['backupmode40'] = 'Même site';
 $string['backupmode50'] = 'Automatisé';
 $string['backupmode60'] = 'Converti';
+$string['backupmode70'] = 'Asynchrone';
 $string['backupsection'] = 'Sauvegarde section de cours : {$a}';
 $string['backupsettings'] = 'Réglages des sauvegardes';
 $string['backupsitedetails'] = 'Détails du site';
@@ -93,6 +124,7 @@ $string['configgeneralblocks'] = 'Détermine le réglage par défaut pour l\'inc
 $string['configgeneralcalendarevents'] = 'Détermine les réglages par défaut pour l\'inclusion des événements de calendrier dans les sauvegardes.';
 $string['configgeneralcomments'] = 'Détermine le réglage par défaut pour l\'inclusion des commentaires dans les sauvegardes.';
 $string['configgeneralcompetencies'] = 'Détermine les réglages par défaut pour l\'inclusion des compétences dans les sauvegardes.';
+$string['configgeneralfiles'] = 'Définit le réglage par défaut pour l\'inclusion des fichiers dans les sauvegardes. Remarque : la désactivation de ce réglage aura pour conséquence que la sauvegarde ne contiendra que des références vers les fichiers. Ceci n\'est pas un problème si la sauvegarde est restaurée sur le même site et si les fichiers n\'ont pas été supprimés selon le réglage « Nettoyer les fichiers supprimés ».';
 $string['configgeneralfilters'] = 'Détermine le réglage par défaut pour l\'inclusion des filtres dans les sauvegardes.';
 $string['configgeneralgroups'] = 'Détermine le réglage par défaut pour l’inclusion des groupes et groupements dans les sauvegardes.';
 $string['configgeneralhistories'] = 'Détermine le réglage par défaut pour l\'inclusion du journal des activités des utilisateurs dans les sauvegardes.';
@@ -141,6 +173,8 @@ $string['currentstage16'] = 'Terminé';
 $string['currentstage2'] = 'Réglages du schéma de sauvegarde';
 $string['currentstage4'] = 'Confirmation';
 $string['currentstage8'] = 'Effectuer la sauvegarde';
+$string['enableasyncbackup'] = 'Activer les sauvegardes asynchrones';
+$string['enableasyncbackup_help'] = 'Si ce réglage est activé, toutes les opérations de sauvegarde et de restauration seront effectuées de manière asynchrone. Ceci n\'impacte pas les importations et exportations. Les sauvegardes et restaurations asynchrones permettent aux utilisateurs d\'effectuer d\'autres opérations pendant qu\'une sauvegarde ou une restauration est en cours.';
 $string['enterasearch'] = 'Saisir une expression à rechercher';
 $string['error_block_for_module_not_found'] = 'Instance de bloc orpheline (id : {$a->bid}) trouvée dans un module de cours (id : {$a->mid}). Ce bloc ne sera pas sauvegardé.';
 $string['errorcopyingbackupfile'] = 'Échec de copie du fichier de sauvegarde vers le dossier temporaire avant restauration.';
@@ -153,6 +187,7 @@ $string['errorinvalidformatinfo'] = 'Le fichier sélectionné n\'est pas un fich
 $string['errorminbackup20version'] = 'Restauration impossible. Ce fichier de sauvegarde a été créé avec une version de développement du moteur de sauvegarde de Moodle ({$a->backup}). La version minimale requise pour la restaurer est {$a->min}.';
 $string['errorrestorefrontpagebackup'] = 'Les sauvegardes de la page d\'accueil ne peuvent être restaurées que sur la page d\'accueil';
 $string['executionsuccess'] = 'Le fichier de sauvegarde a été enregistré correctement.';
+$string['failed'] = 'Sauvegarde échouée';
 $string['filealiasesrestorefailures'] = 'Échec de la restauration des alias';
 $string['filealiasesrestorefailures_help'] = 'Les alias sont des liens vers d\'autres fichiers, y compris ceux qui sont stockés dans des dépôts externes. Dans certains cas, Moodle ne peut pas les restaurer, par exemple lors de la restauration de sauvegardes d\'un autre site ou si le fichier lié n\'existe pas.
 
@@ -171,6 +206,7 @@ $string['generalcalendarevents'] = 'Inclure les événements de calendrier';
 $string['generalcomments'] = 'Inclure les commentaires';
 $string['generalcompetencies'] = 'Inclure les compétences';
 $string['generalenrolments'] = 'Inclure les méthodes d\'inscription';
+$string['generalfiles'] = 'Inclure les fichiers';
 $string['generalfilters'] = 'Inclure les filtres';
 $string['generalgradehistories'] = 'Inclure les historiques';
 $string['generalgroups'] = 'Inclure les groupes et groupements';
@@ -209,6 +245,7 @@ $string['includeditems'] = 'Éléments inclus :';
 $string['includefilereferences'] = 'Liens vers des contenus externes';
 $string['includesection'] = 'Section {$a}';
 $string['includeuserinfo'] = 'Données utilisateur';
+$string['inprogress'] = 'Sauvegarde en cours';
 $string['jumptofinalstep'] = 'Passer à la dernière étape';
 $string['keep'] = 'Conserver';
 $string['locked'] = 'Verrouillé';
@@ -227,6 +264,10 @@ $string['nomatchingcourses'] = 'Aucun cours à afficher';
 $string['norestoreoptions'] = 'Il n\'y a pas de catégorie, ni de cours où effectuer la restauration.';
 $string['originalwwwroot'] = 'URL de la sauvegarde';
 $string['overwrite'] = 'Écraser';
+$string['pendingasyncdeletedetail'] = 'Ce cours a une sauvegarde asynchrone en attente.<br/>Les cours ne peuvent pas être supprimés avant que cette sauvegarde soit terminée.';
+$string['pendingasyncdetail'] = 'Les sauvegardes asynchrones ne permettent à un utilisateur d\'avoir en attente qu\'une sauvegarde pour une ressource à la fois.<br />Il n\'est pas possible de mettre en attente plusieurs sauvegardes asynchrones de la même ressource, car cela aurait pour conséquence probable plusieurs sauvegardes du même contenu.';
+$string['pendingasyncedit'] = 'Une sauvegarde asynchrone de ce cours est en attente. Veuillez ne pas modifier ce cours avant la fin de la sauvegarde.';
+$string['pendingasyncerror'] = 'Sauvegarde de cette ressource en attente';
 $string['preparingdata'] = 'Préparation des données';
 $string['preparingui'] = 'Préparation de l\'affichage de la page';
 $string['previousstage'] = 'Étape précédente';
@@ -288,10 +329,12 @@ $string['rootsettingblocks'] = 'Inclure les blocs';
 $string['rootsettingcalendarevents'] = 'Inclure les événements du calendrier';
 $string['rootsettingcomments'] = 'Inclure les commentaires';
 $string['rootsettingcompetencies'] = 'Inclure les compétences';
+$string['rootsettingcustomfield'] = 'Inclure les champs personnalisés';
 $string['rootsettingenrolments'] = 'Inclure les méthodes d\'inscription';
 $string['rootsettingenrolments_always'] = 'Oui, toujours';
 $string['rootsettingenrolments_never'] = 'Non, restaurer les utilisateurs comme inscrits manuellement';
 $string['rootsettingenrolments_withusers'] = 'Oui, mais seulement si les utilisateurs sont inclus';
+$string['rootsettingfiles'] = 'Inclure les fichiers';
 $string['rootsettingfilters'] = 'Inclure les filtres';
 $string['rootsettinggradehistories'] = 'Inclure les historiques des notes';
 $string['rootsettinggroups'] = 'Inclure les groupes et groupements';
@@ -303,6 +346,7 @@ $string['rootsettingroleassignments'] = 'Inclure les attributions de rôles';
 $string['rootsettings'] = 'Réglages de la sauvegarde';
 $string['rootsettingusers'] = 'Inclure les utilisateurs inscrits';
 $string['rootsettinguserscompletion'] = 'Inclure les données détaillées d\'achèvement d\'activité';
+$string['samesitenotification'] = 'Ce fichier de sauvegarde a été créé avec uniquement les références vers les fichiers, et non les fichiers eux-mêmes. La restauration de cette sauvegarde ne fonctionnera que sur ce site.';
 $string['sectionactivities'] = 'Activités';
 $string['sectioninc'] = 'Inclus dans la sauvegarde (pas de données utilisateur)';
 $string['sectionincanduser'] = 'Inclus dans la sauvegarde avec des données utilisateur';
@@ -325,9 +369,12 @@ $string['skipmodifdays'] = 'Omettre les cours non modifiés depuis';
 $string['skipmodifdayshelp'] = 'Choisir s\'il faut ou non omettre les cours non modifiés depuis un certain nombre de jours';
 $string['skipmodifprev'] = 'Omettre les cours non modifiés depuis la dernière sauvegarde';
 $string['skipmodifprevhelp'] = 'Choisir s\'il faut ou non omettre les cours n\'ayant pas été modifiés depuis la dernière sauvegarde. Requiert l\'activation des journaux.';
+$string['status'] = 'Statut';
 $string['storagecourseandexternal'] = 'Zone de sauvegarde de cours et dossier spécifié';
 $string['storagecourseonly'] = 'Zone de sauvegarde de cours';
 $string['storageexternalonly'] = 'Dossier spécifié pour les sauvegardes automatiques';
+$string['successful'] = 'Sauvegarde effectuée';
+$string['successfulrestore'] = 'Restauration effectuée';
 $string['timetaken'] = 'Temps mis';
 $string['title'] = 'Titre';
 $string['totalcategorysearchresults'] = 'Nombre de catégories : {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'forum', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['activityoverview'] = 'Hi ha missatges nous al fòrum';
 $string['addanewdiscussion'] = 'Afegeix un tema de debat nou';
 $string['addanewquestion'] = 'Afegeix una pregunta nova';
 $string['addanewtopic'] = 'Afegeix un tema nou';
+$string['addtofavourites'] = 'Destaca aquest debat';
 $string['advancedsearch'] = 'Cerca avançada';
 $string['allforums'] = 'Tots els fòrums';
 $string['allowdiscussions'] = 'Pot un {$a} enviar un missatge a aquest fòrum?';
@@ -45,6 +46,7 @@ $string['attachment_help'] = 'Podeu adjuntar un o més fitxers a cada missatge e
 $string['attachmentnopost'] = 'No podeu exportar els adjunts sense l\'ID del missatge';
 $string['attachments'] = 'Fitxers adjunts';
 $string['attachmentswordcount'] = 'Comptador de fitxers adjunts i paraules';
+$string['availability'] = 'Disponibilitat';
 $string['blockafter'] = 'Llindar de missatges per blocar';
 $string['blockafter_help'] = 'Aquest paràmetre especifica el nombre màxim de missatges que un usuari pot enviar al fòrum en el període de temps establert. Aquest límit no afecta els usuaris amb privilegis mod/forum:postwithoutthrottling (usualment els administradors o professors).';
 $string['blockperiod'] = 'Període de temps per blocar';
@@ -120,6 +122,10 @@ $string['couldnotadd'] = 'Un error desconegut ha impedit afegir el vostre missat
 $string['couldnotdeletereplies'] = 'No es pot suprimir perquè ja l\'han contestat altres persones';
 $string['couldnotupdate'] = 'Un error desconegut ha impedit actualitzar el vostre missatge';
 $string['crontask'] = 'Tasques de manteniment i missatgeria del fòrum';
+$string['cutoffdate'] = 'Data límit';
+$string['cutoffdate_help'] = 'Si s\'habilita, el fòrum no acceptarà missatges després d\'aquesta data.';
+$string['cutoffdatereached'] = 'La data límit per enviar missatges al fòrum ha passat, no podeu enviar-ne més.';
+$string['cutoffdatevalidation'] = 'La data límit no pot ser anterior a la data de venciment.';
 $string['delete'] = 'Suprimeix';
 $string['deleteddiscussion'] = 'El tema de debat s\'ha suprimit';
 $string['deletedpost'] = 'El missatge s\'ha suprimit';
@@ -138,6 +144,12 @@ $string['disallowsubscribeteacher'] = 'No es permeten subscripcions (excepte als
 $string['disallowsubscription'] = 'Subscripció';
 $string['disallowsubscription_help'] = 'Aquest fòrum s\'ha configurat de manera que no us podeu subscriure als debats.';
 $string['discussion'] = 'Debat';
+$string['discussionlistsortbycreatedasc'] = 'Ordena per data de creació en ordre ascendent';
+$string['discussionlistsortbycreateddesc'] = 'Ordena per data de creació en ordre descendent';
+$string['discussionlistsortbylastpostasc'] = 'Ordena per data de creació de l\'ultim missatge en ordre ascendent';
+$string['discussionlistsortbylastpostdesc'] = 'Ordena per data de creació de l\'ultim missatge en ordre descendent';
+$string['discussionlistsortbyrepliesasc'] = 'Ordena per nombre de respostes en ordre ascendent';
+$string['discussionlistsortbyrepliesdesc'] = 'Ordena per nombre de respostes en ordre descendent';
 $string['discussionlocked'] = 'Aquest fil de debat ha finalitzat, així que no admet respostes.';
 $string['discussionlockingdisabled'] = 'No bloquegis els debats';
 $string['discussionlockingheader'] = 'Bloqueig del debat';
@@ -167,6 +179,8 @@ $string['displaystart'] = 'Inici de la visualització';
 $string['displaystart_help'] = 'Aquest paràmetre especifica si un missatge del fòrum s\'ha de mostrar només a partir d\'una data determinada. Els administradors, però, sempre podran veure els missatges.';
 $string['displaywordcount'] = 'Mostra el nombre de paraules';
 $string['displaywordcount_help'] = 'Aquest paràmetre especifica si el nombre de paraules de cada missatge s\'ha de mostrar o no.';
+$string['duedate'] = 'Data de venciment';
+$string['duedate_help'] = 'És la data fins a la qual s\'espera que s\'enviïn missatges al fòrum. Tot i que aquesta data es mostra al calendari com a data de venciment per al fòrum, seria possible enviar missatges després d\'aquesta data. Establiu una data límit al fòrum per tal d\'evitar que s\'enviïn missatges després d\'una data determinada.';
 $string['eachuserforum'] = 'Cada persona inicia un debat';
 $string['edit'] = 'Edita';
 $string['editedby'] = 'Editat per {$a->name} - Missatge original enviat el {$a->date}';
@@ -214,6 +228,9 @@ $string['everyoneisnowsubscribed'] = 'Ara tothom està subscrit a aquest fòrum'
 $string['everyoneissubscribed'] = 'Tothom està subscrit a aquest fòrum';
 $string['existingsubscribers'] = 'Subscriptors actuals';
 $string['exportdiscussion'] = 'Exporta el debat sencer al dossier';
+$string['favourites'] = 'Destacat';
+$string['favouriteupdated'] = 'L\'opció de destacat s\'ha actualitzat.';
+$string['firstpost'] = 'Primer missatge';
 $string['forcedreadtracking'] = 'Habilita el seguiment de lectura forçat';
 $string['forcedreadtracking_desc'] = 'Si habiliteu configurar els fòrums per seguir la lectura forçada, disminuireu el rendiment per a alguns usuaris, sobretot en cursos amb molts fòrums i missatges. Si no ho habiliteu, qualsevol fòrum configurat prèviament com a forçat es tractarà com a opcional.';
 $string['forcesubscribed'] = 'Aquest fòrum subscriu obligatòriament a tothom';
@@ -254,11 +271,11 @@ $string['forumtrackednot'] = 'No s\'està fent el seguiment dels missatges no ll
 $string['forumtype'] = 'Tipus de fòrum';
 $string['forumtype_help'] = 'Hi ha 5 tipus de fòrums:
 
-* Un debat únic - És un sol tema de debat al qual tothom pot respondre (no es pot fer servir amb grups separats).
-* Cada persona envia un debat - Cada estudiant pot obrir únicament un tema de debat (i tothom pot enviar-hi respostes).
-* Fòrum P/R (pregunta/resposta) - L\'estudiant ha d\'enviar la seva resposta per a poder veure les respostes dels seus companys.
-* Fòrum estàndard en format de blog - És un fòrum obert en el qual tothom pot iniciar un nou tema de debat en qualsevol moment. I els temes de debat es mostren en una pàgina amb enllaços de «Debateu aquest tema".
-* Fòrum estàndard per a ús general - És un fòrum obert en el qual tothom pot iniciar un nou tema de debat en qualsevol moment.';
+* Cada persona inicia un debat. Cada estudiant pot obrir únicament un tema de debat (i tothom pot enviar-hi respostes).
+* Fòrum de preguntes i respostes. L\'estudiant ha d\'enviar la seva resposta per poder veure les respostes dels seus companys.
+* Fòrum estàndard mostrat com si fos un blog. És un fòrum obert en el qual tothom pot iniciar un tema de debat nou en qualsevol moment. Els seus temes de debat es mostren a una pàgina amb enllaços tipus «Debateu aquest tema».
+* Fòrum estàndard per a ús general. És un fòrum obert en el qual tothom pot iniciar un tema de debat nou en qualsevol moment.
+* Un debat simple. És un sol tema de debat al qual tothom pot respondre (no es pot fer servir amb grups separats).';
 $string['forum:viewallratings'] = 'Visualitza totes les valoracions fetes individualment';
 $string['forum:viewanyrating'] = 'Visualitza les valoracions totals rebudes per tothom';
 $string['forum:viewdiscussion'] = 'Mostra els debats';
@@ -268,6 +285,9 @@ $string['forum:viewrating'] = 'Mostra la valoració total que heu rebut';
 $string['forum:viewsubscribers'] = 'Mostra els subscriptors';
 $string['generalforum'] = 'Fòrum estàndard per a ús general';
 $string['generalforums'] = 'Fòrums generals';
+$string['grade_forum_header'] = 'Qualificació de tot el fòrum';
+$string['grade_forum_title'] = 'Qualificació';
+$string['gradeusers'] = 'Qualifica els usuaris';
 $string['hiddenforumpost'] = 'Amaga el missatge al fòrum';
 $string['inforum'] = 'en {$a}';
 $string['introblog'] = 'Els missatges d\'alguns blogs d\'usuaris d\'aquest curs s\'han copiat automàticament en aquest fòrum perquè les entrades d\'aquests blogs ja no estan disponibles';
@@ -283,10 +303,13 @@ $string['invalidparentpostid'] = 'L\'ID del missatge original és incorrecte';
 $string['invalidpostid'] = 'ID de missatge no vàlid: {$a}';
 $string['lastpost'] = 'Darrer missatge';
 $string['learningforums'] = 'Fòrums d\'aprenentatge';
+$string['lockdiscussion'] = 'Bloqueja aquest debat';
 $string['lockdiscussionafter'] = 'Bloqueja els debats després d\'un període d\'inactivitat';
 $string['lockdiscussionafter_help'] = 'Els debats es poden bloquejar de manera automàtica després que hagi transcorregut un temps indicat des de la darrera resposta.
 
 Els usuaris amb la capacitat de respondre als debats bloquejats poden desbloquejar-los responent-hi.';
+$string['locked'] = 'Bloquejat';
+$string['lockupdated'] = 'La opció de bloqueig s\'ha actualitzat.';
 $string['longpost'] = 'Missatge llarg';
 $string['mailnow'] = 'Envia notificacions dels missatges al fòrum sense període de retard per editar';
 $string['managesubscriptionsoff'] = 'Finalitza la gestió de les subscripcions';
@@ -294,6 +317,7 @@ $string['managesubscriptionson'] = 'Gestiona les subscripcions';
 $string['manydiscussions'] = 'Debats per pàgina';
 $string['markalldread'] = 'Marca com a llegits tots els missatges d\'aquest debat.';
 $string['markallread'] = 'Marca com a llegits tots els missatges d\'aquest fòrum.';
+$string['markasread'] = 'Marca com a llegit';
 $string['markasreadonnotification'] = 'Quan s\'envia la notificació d\'un missatge del fòrum';
 $string['markasreadonnotification_help'] = 'Quan rebeu la notificació d\'un missatge del fòrum, podeu triar si s\'hauria de marcar com a llegit amb el propòsit de fer el seguiment del fòrum.';
 $string['markasreadonnotificationno'] = 'No marquis el missatge com a llegit';
@@ -376,6 +400,7 @@ $string['notexists'] = 'Ja no existeix aquest debat';
 $string['nothingnew'] = 'Res nou per a {$a}';
 $string['notingroup'] = 'Heu de formar part d\'un grup per veure aquest fòrum.';
 $string['notinstalled'] = 'No s\'ha instal·lat el mòdul dels fòrums';
+$string['notlocked'] = 'Bloqueja';
 $string['notpartofdiscussion'] = 'Aquest missatge no forma part d\'un debat';
 $string['notrackforum'] = 'No facis el seguiment de missatges no llegits';
 $string['notsubscribed'] = 'Subscriu';
@@ -386,6 +411,7 @@ $string['nownotsubscribed'] = '{$a->name} NO rebrà còpies de «{$a->forum}» p
 $string['nownottracking'] = '{$a->name} ja no fa el seguiment del fòrum «{$a->forum}».';
 $string['nowsubscribed'] = '{$a->name} rebrà còpies de «{$a->forum}» per correu electrònic.';
 $string['nowtracking'] = '{$a->name} fa el seguiment del fòrum «{$a->forum}».';
+$string['numberofreplies'] = 'Nombre de respostes: {$a}';
 $string['numposts'] = '{$a} missatges';
 $string['olderdiscussions'] = 'Debats anteriors';
 $string['oldertopics'] = 'Temes anteriors';
@@ -398,6 +424,8 @@ $string['page-mod-forum-x'] = 'Qualsevol pàgina del mòdul «fòrum»';
 $string['parent'] = 'Mostra el missatge original';
 $string['parentofthispost'] = 'Missatge original';
 $string['permalink'] = 'Enllaç permanent';
+$string['pindiscussion'] = 'Fixa aquest debat';
+$string['pinupdated'] = 'La opció de fixar s\'ha actualitzat.';
 $string['pluginadministration'] = 'Administració del fòrum';
 $string['pluginname'] = 'Fòrum';
 $string['postadded'] = '<p>S\'ha afegit el vostre missatge.</p> <p>Teniu {$a} per editar-lo si voleu fer algun canvi.</p>';
@@ -407,6 +435,7 @@ $string['postbymailsuccess'] = 'El vostre missatge de fòrum amb l\'assumpte «{
 $string['postbymailsuccess_html'] = 'El vostre missatge de fòrum <a href="{$a->discussionurl}"> amb l\'assumpte «{$a->subject}» s\'ha publicat amb èxit.';
 $string['postbyuser'] = '{$a->post} de {$a->user}';
 $string['postincontext'] = 'Mostra aquest missatge en el seu context';
+$string['postisprivatereply'] = 'Aquesta resposta és privada. Els altres participants no la poden veure.';
 $string['postmailinfolink'] = 'Aquesta és una còpia d\'un missatge enviat al curs {$a->coursename}.
 Per respondre, feu clic en aquest enllaç: {$a->replylink}';
 $string['postmailnow'] = '<p>Aquest missatge s\'enviarà per correu, immediatament, a tots els subscriptors del fòrum.</p>';
@@ -423,6 +452,7 @@ $string['posttomygroups_help'] = 'S\'envia una còpia d\'aquest missatge a tots 
 $string['postupdated'] = 'S\'ha actualitzat el vostre missatge';
 $string['potentialsubscribers'] = 'Subscriptors potencials';
 $string['prevdiscussiona'] = 'Debat anterior: {$a}';
+$string['privatereply'] = 'Respon de forma privada';
 $string['processingdigest'] = 'S\'està processant el resum de correu de l\'usuari {$a}';
 $string['processingpost'] = 'S\'està processant el missatge {$a}';
 $string['prune'] = 'Divideix';
@@ -433,6 +463,7 @@ $string['qandanotify'] = 'Aquest és un fòrum de preguntes i respostes. Per tal
 $string['re'] = 'Re:';
 $string['readtherest'] = 'Mostra la resta d\'aquest tema';
 $string['removeallforumtags'] = 'Suprimeix totes les etiquetes del fòrum';
+$string['removefromfavourites'] = 'No destaquis aquest debat';
 $string['replies'] = 'Respostes';
 $string['repliesmany'] = '{$a} respostes fins ara';
 $string['repliesone'] = '{$a} resposta fins ara';
@@ -440,6 +471,7 @@ $string['reply'] = 'Respon';
 $string['replyforum'] = 'Respon al fòrum';
 $string['reply_handler'] = 'Respon als missatges dels fòrums mitjançant el correu electrònic';
 $string['reply_handler_name'] = 'Respon als missatges del fòrum';
+$string['replyplaceholder'] = 'Escriviu una resposta...';
 $string['replytopostbyemail'] = 'Podeu respondre-hi mitjançant el correu electrònic.
 <strong>Atenció</strong>: cal esborrar tot el text del missatge original abans d\'enviar la resposta; és imprescindible perquè arribi correctament.';
 $string['replytouser'] = 'Utilitza l\'adreça de correu en la resposta';
@@ -483,6 +515,11 @@ $string['searchuserid'] = 'L\'ID de Moodle de l\'autor';
 $string['searchwhichforums'] = 'Trieu quins fòrums voleu cercar';
 $string['searchwords'] = 'Aquests mots poden aparèixer a qualsevol part del missatge';
 $string['seeallposts'] = 'Visualitza tots els missatges d\'aquest usuari';
+$string['sendstudentnotifications'] = 'Notifica als estudiants';
+$string['sendstudentnotificationsdefault'] = 'Paràmetre per defecte per a «Notifica als estudiants»';
+$string['sendstudentnotificationsdefault_help'] = 'Defineix el valor per defecte de la casella de verificació «Notifica als estudiants» al formulari de qualificació.';
+$string['sendstudentnotifications_help'] = 'Si s\'habilita aquesta opció, els estudiants rebran un missatge amb la qualificació actualitzada o la retroacció.';
+$string['settings'] = 'Configuració';
 $string['shortpost'] = 'Missatge curt';
 $string['showsubscribers'] = 'Mostra/edita els subscriptors';
 $string['singleforum'] = 'Un debat simple';
@@ -521,6 +558,8 @@ $string['subscriptionoptional'] = 'Subscripció voluntària';
 $string['subscriptions'] = 'Subscripcions';
 $string['tagarea_forum_posts'] = 'Missatges del fòrum';
 $string['tagsdeleted'] = 'Les etiquetes del fòrum s\'han suprimit';
+$string['thisforumhasduedate'] = 'La data de venciment per enviar missatges a aquest fòrum és {$a}.';
+$string['thisforumisdue'] = 'La data de venciment per enviar missatges a aquest fòrum va ser {$a}.';
 $string['thisforumisthrottled'] = 'Aquest fòrum té limitat el nombre de missatges que podeu enviar-hi en un període de temps determinat. Actualment el límit són {$a->blockafter} missatges en {$a->blockperiod}';
 $string['timedhidden'] = 'Estat actual: Amagat per als estudiants';
 $string['timedposts'] = 'Missatges programats';
@@ -538,6 +577,8 @@ Si es defineix com a opcional, els participants poden triar si activen o desacti
 
 Si s\'habilita «Habilita el seguiment de lectura forçat» a l\'administració del lloc, apareixerà una nova opció —obligat. Això vol dir que el seguiment estarà sempre actiu, malgrat les preferències de fòrum dels usuaris.';
 $string['trackreadposts_header'] = 'Seguiment dels fòrums';
+$string['unlockdiscussion'] = 'Desbloqueja aquest debat';
+$string['unpindiscussion'] = 'No fixis aquest debat';
 $string['unread'] = 'No llegit';
 $string['unreadposts'] = 'Missatges no llegits';
 $string['unreadpostsnumber'] = '{$a} missatges no llegits';

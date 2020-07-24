@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshop', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -96,6 +96,7 @@ $string['configgradinggrade'] = 'ワークショップ評価のデフォルト�
 $string['configmaxbytes'] = 'サイト内ワークショップすべてのデフォルトの最大送信ファイルサイズです (コース制限および他のローカル設定に従います)。';
 $string['configstrategy'] = 'ワークショップのデフォルト評価方法';
 $string['createsubmission'] = 'あなたの送信準備を開始する';
+$string['crontask'] = 'ワークショップモジュールのバックグラウンド処理';
 $string['daysago'] = '{$a} 日前';
 $string['daysleft'] = '残り {$a} 日';
 $string['daystoday'] = '本日';
@@ -110,8 +111,6 @@ $string['editingsubmission'] = '提出の編集';
 $string['editsubmission'] = '提出を編集する';
 $string['err_multiplesubmissions'] = 'このフォームを編集している間に別バージョンの提出が保存されました。1ユーザあたりの複数提出は許可されません。';
 $string['err_removegrademappings'] = '未使用の評定マッピングを削除することはできません。';
-$string['err_unknownfileextension'] = '不明なファイル拡張子: {$a}';
-$string['err_wrongfileextension'] = 'いくつかのファイル ({$a->wrongfiles}) はアップロードすることができません。ファイルタイプ {$a->whitelist} のみ許可されます。';
 $string['evaluategradeswait'] = '評価が評定され評点が計算されるまでお待ちください。';
 $string['evaluation'] = '成績評価';
 $string['evaluationmethod'] = '成績評価方法';
@@ -164,6 +163,7 @@ $string['givengrades'] = '与えた評点';
 $string['gradecalculated'] = '提出に対する計算済み評点';
 $string['gradedecimals'] = '評点の小数位';
 $string['gradegivento'] = '&gt;';
+$string['grade_grading_name'] = '評価';
 $string['gradeinfo'] = '評点: {$a->received} / {$a->max}';
 $string['gradeitemassessment'] = '{$a->workshopname} (評定)';
 $string['gradeitemsubmission'] = '	
@@ -171,6 +171,7 @@ $string['gradeitemsubmission'] = '
 $string['gradeover'] = '提出に対する評点をオーバーライドする';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'ワークショップ評定レポート';
+$string['grade_submission_name'] = '提出';
 $string['gradetopassgrading'] = '評価合格点';
 $string['gradetopasssubmission'] = '提出合格点';
 $string['gradinggrade'] = '評価に対する評点';
@@ -182,8 +183,12 @@ $string['gradingsettings'] = '評定設定';
 $string['groupnoallowed'] = 'あなたはこのワークショップ内のグループにアクセスすることはできません。';
 $string['iamsure'] = 'はい、実行してください';
 $string['indicator:cognitivedepth'] = 'ワークショップ認知的';
+$string['indicator:cognitivedepthdef'] = 'ワークショップ認知的';
+$string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がワークショップ活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信, フィードバックの閲覧, フィードバックへのコメント, フィードバック閲覧後の再送信)。';
 $string['indicator:cognitivedepth_help'] = 'この指標はワークショップ活動で学生が到達した認識深度に基づきます。';
 $string['indicator:socialbreadth'] = 'ワークショップ社会的';
+$string['indicator:socialbreadthdef'] = 'ワークショップ社会的';
+$string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がワークショップ活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加, 他の人と参加)。';
 $string['indicator:socialbreadth_help'] = 'この指標はワークショップ活動で学生が到達した社会的広がりに基づきます。';
 $string['info'] = '情報';
 $string['instructauthors'] = '提出のインストラクション';
@@ -193,6 +198,7 @@ $string['latesubmissions'] = '提出期限後の提出';
 $string['latesubmissionsallowed'] = '提出期限後の提出は許可されています。';
 $string['latesubmissions_desc'] = '提出期限後の提出を許可します。';
 $string['latesubmissions_help'] = 'この設定を有効にした場合、作成者は提出期限後または評価フェーズ時にワークを提出することができます。提出期限後の提出は編集することができません。';
+$string['legacyallocationplugincron'] = 'レガシーcronワークショップ割り当て';
 $string['maxbytes'] = '最大提出添付サイズ';
 $string['modulename'] = 'ワークショップ';
 $string['modulename_help'] = 'ワークショップ活動モジュールでは学生のワークを収集、レビューおよび相互評価することができます。
@@ -302,7 +308,7 @@ $string['search:activity'] = 'ワークショップ - 活動情報';
 $string['selfassessmentdisabled'] = '自己評価は無効にされています。';
 $string['showingperpage'] = '1ページあたり {$a} アイテムの表示';
 $string['showingperpagechange'] = '変更 ...';
-$string['someuserswosubmission'] = 'ワークを提出していない作者が少なくとも1名存在します。';
+$string['someuserswosubmission'] = 'ワークを提出していない作成者が少なくとも1名存在します。';
 $string['sortasc'] = '昇順ソート';
 $string['sortdesc'] = '降順ソート';
 $string['strategy'] = '評定方法';

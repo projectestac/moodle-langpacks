@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_database', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,5 +75,6 @@ $string['settingsheaderdb'] = 'Externedatabank verbinding';
 $string['settingsheaderlocal'] = 'Koppelen lokale velden';
 $string['settingsheadernewcourses'] = 'Aanmaken van nieuwe cursussen';
 $string['settingsheaderremote'] = 'Synchronisatie aanmeldingen';
+$string['syncenrolmentstask'] = 'Synchroniseer externe database aanmeldingstaak';
 $string['templatecourse'] = 'Sjabloon nieuwe cursus';
 $string['templatecourse_desc'] = 'Optioneel: automatisch gemaakte cursussen kunnen hun instellingen kopiëren van een cursussjabloon. Typ hier de korte naam van de sjablooncursus.';

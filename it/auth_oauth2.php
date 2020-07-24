@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,6 +67,7 @@ $string['emailconfirmlinksent'] = '<p>È stato trovato un account con questo ind
    <p>Una mail dovrebbe essere stata spedita al tuo indirizzo <b>{$a}</b>.</p>
    <p>Contiene istruzioni per collegare i tuoi account.</p>
    <p>Se incontri difficoltà, contatta l\'amministratore del sito.</p>';
+$string['emailpasswordchangeinfosubject'] = '{$a}: Informazioni su cambio password';
 $string['info'] = 'Account esterno';
 $string['issuer'] = 'Servizio OAuth 2';
 $string['issuernologin'] = 'Questo fornitore non può essere utilizzato per autenticarsi.';

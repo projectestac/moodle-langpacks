@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   message
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,7 @@ $string['blockuserconfirm'] = 'Sei sicuro di bloccare {$a}?';
 $string['blockuserconfirmbutton'] = 'Blocco';
 $string['canceledit'] = 'Annulla modifica messaggio';
 $string['cancelselection'] = 'Annulla selezione messaggi';
+$string['cantblockuser'] = 'Non è possibile bloccare {$a} poiché possiede un ruolo con il privilegio di inviare messaggi a tutti gli utenti.';
 $string['contactableprivacy'] = 'Accetta messaggi da:';
 $string['contactableprivacy_coursemember'] = 'I miei contatti e i miei compagni di corso';
 $string['contactableprivacy_onlycontacts'] = 'I miei contatti solamente';
@@ -52,11 +53,13 @@ $string['contactrequests'] = 'Richieste di contatto';
 $string['contactrequestsent'] = 'Richiesta di contatto inviata';
 $string['contacts'] = 'Contatti';
 $string['decline'] = 'Rifiuta';
-$string['defaultmessageoutputs'] = 'Instradamento di default dei messaggi';
+$string['defaultmessageoutputs'] = 'Impostazioni notifiche';
 $string['defaults'] = 'Default';
 $string['deleteallconfirm'] = 'Sei sicuro di eliminare l\'intera conversazione? La conversazione non sarà eliminata per gli altri partecipanti.';
 $string['deleteallmessages'] = 'Elimina tutti i messaggi';
+$string['deleteallselfconfirm'] = 'Sei sicuro di eliminare tutta la conversazione personale?';
 $string['deleteconversation'] = 'Elimina conversazione';
+$string['deleteforeveryone'] = 'Elimina per me e per tutti gli altri';
 $string['deleteselectedmessages'] = 'Elimina messaggi selezionati';
 $string['deleteselectedmessagesconfirm'] = 'Sei sicuro di eliminare i messaggi selezionati? I messaggi non saranno eliminati per gli altri partecipanti.';
 $string['disableall'] = 'Disabilita le notifiche';
@@ -96,21 +99,27 @@ $string['loggedin_help'] = 'Configura la modalità preferita di ricezione notifi
 $string['loggedoff'] = 'Offline';
 $string['loggedoffdescription'] = 'Quando non sono collegato';
 $string['loggedoff_help'] = 'Configura la modalità preferita di ricezione notifiche quando non sei autenticato';
-$string['managemessageoutputs'] = 'Gestione instradamento messaggi';
+$string['managemessageoutputs'] = 'Preferenze di default delle notifiche';
 $string['message'] = 'Messaggio';
 $string['messagecontactrequestsnotification'] = '{$a} desidera entrare in contatto.';
 $string['messagecontactrequestsnotificationsubject'] = 'Richiesta di contatto da parte di {$a}';
+$string['messagecontentaudio'] = 'Audio';
+$string['messagecontentimage'] = 'Immagine';
+$string['messagecontentmultimediageneral'] = 'Altri media';
+$string['messagecontentvideo'] = 'Video';
 $string['messagedrawerviewcontact'] = 'Dettagli dell\'utente {$a}';
 $string['messagedrawerviewconversation'] = 'Conversazione con {$a}';
 $string['messagedrawerviewgroupinfo'] = 'Dettagli del gruppo {$a}';
 $string['messagedrawerviewoverview'] = 'Panoramica messaggi';
 $string['messagedrawerviewsettings'] = 'Impostazioni messaggi';
-$string['messageoutputs'] = 'Instradamento messaggi';
+$string['messageoutputs'] = 'Plugin notifiche';
 $string['messagepreferences'] = 'Preferenze messaggi';
 $string['messages'] = 'Messaggi';
 $string['messagesselected:'] = 'Messaggi selezionati:';
 $string['messagingdatahasnotbeenmigrated'] = 'I tuoi messaggi non sono disponibili a causa dell\'aggiornamento dell\'infrastruttura di messaggistica. I messaggi saranno nuovamente disponibili al termine della migrazione.';
 $string['messagingdisabled'] = 'I messaggi saranno inviati via email poiché la messaggistica non è abilitata.';
+$string['muteconversation'] = 'Silenzia';
+$string['mutedconversation'] = 'Conversazione silenziata';
 $string['newmessage'] = 'Nuovo messaggio';
 $string['newmessagesearch'] = 'Per inviare un nuovo messaggio, seleziona o cerca un contatto.';
 $string['newonlymsg'] = 'Visualizza solo i nuovi';
@@ -160,6 +169,7 @@ $string['privacy:metadata:message_contacts'] = 'Elenco dei contatti';
 $string['privacy:metadata:message_contacts:contactid'] = 'ID dell\'utente che è un contatto.';
 $string['privacy:metadata:message_contacts:timecreated'] = 'Data e ora di creazione del contatto.';
 $string['privacy:metadata:message_contacts:userid'] = 'ID dell\'utente del quale si sta visualizzando l\'elenco dei contatti.';
+$string['privacy:metadata:message_conversation_actions:action'] = 'Azione eseguita';
 $string['privacy:metadata:message_conversation_members'] = 'Elenco degli utenti in una conversazione.';
 $string['privacy:metadata:message_conversation_members:conversationid'] = 'ID della conversazione';
 $string['privacy:metadata:message_conversation_members:timecreated'] = 'Data e ora di creazione del membro.';
@@ -211,6 +221,7 @@ $string['searchmessages'] = 'Cerca un messaggio';
 $string['seeall'] = 'Visualizza tutto';
 $string['selectmessagestodelete'] = 'Seleziona i messaggi da eliminare';
 $string['selectnotificationtoview'] = 'Selezionare dalla lista di notifiche a lato per visualizzare maggiori informazioni';
+$string['selfconversation'] = 'Spazio personale';
 $string['send'] = 'Invia';
 $string['sendbulkmessage'] = 'Invia messaggio a {$a} persone';
 $string['sendbulkmessagesent'] = 'Messaggio inviato a {$a} persone';
@@ -250,7 +261,6 @@ $string['userisblockingyou'] = 'Questo utente ha bloccato la tua possibilità di
 $string['userisblockingyounoncontact'] = '{$a} accetta solamente i messaggi provenienti dai suoi contatti.';
 $string['userwouldliketocontactyou'] = '{$a} desidera entrare in contatto';
 $string['viewfullnotification'] = 'Visualizza la notifica per intero';
-$string['viewinganotherusersmessagearea'] = 'Stai visualizzando l\'area messaggi di un altro utente.';
 $string['viewmessageswith'] = 'Visualizza messaggi con {$a}';
 $string['viewnotificationresource'] = 'Vai a: {$a}';
 $string['viewunreadmessageswith'] = 'Visualizza messaggi non letti con {$a}';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'url', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,8 +47,14 @@ $string['displayselect_help'] = 'Αυτή η ρύθμιση, μαζί με το�
 $string['externalurl'] = 'Εξωτερική διεύθυνση URL';
 $string['framesize'] = 'Ύψος πλαισίου';
 $string['indicator:cognitivedepth'] = 'Βάθος κατανόησης διεύθυνσης URL';
+$string['indicator:cognitivedepthdef'] = 'Βάθος κατανόησης διεύθυνσης URL';
+$string['indicator:cognitivedepthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο βάθος κατανόησης που προσφέρεται από τους πόρους Διεύθυνσης URL κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία εμφάνιση, Εμφάνιση)';
+$string['indicator:cognitivedepthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Βάθος_κατανόησης';
 $string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε έναν πόρο URL.';
 $string['indicator:socialbreadth'] = 'Κοινωνικό εύρος διεύθυνσης URL';
+$string['indicator:socialbreadthdef'] = 'Κοινωνικό εύρος διεύθυνσης URL';
+$string['indicator:socialbreadthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο κοινωνικό εύρος που προσφέρεται από τους πόρους Διεύθυνσης URL κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία συμμετοχή, Συμμετέχων μόνος)';
+$string['indicator:socialbreadthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Κοινωνικό_εύρος';
 $string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε έναν πόρο URL.';
 $string['invalidstoredurl'] = 'Αδυναμία προβολής αυτού του πόρου. Η διεύθυνση URL είναι μη έγκυρη.';
 $string['invalidurl'] = 'Η διεύθυνση URL που δόθηκε είναι μη έγκυρη.';

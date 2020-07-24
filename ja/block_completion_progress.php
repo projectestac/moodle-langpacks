@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completion_progress', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_completion_progress', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   block_completion_progress
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,6 +53,7 @@ $string['config_title'] = '代替タイトル';
 $string['config_wrap'] = '折り返し';
 $string['coursenametoshow'] = 'ダッシュボードに表示するコース名';
 $string['defaultlongbars'] = 'ロングバーのデフォルト表示';
+$string['forceiconsinbar'] = 'プログレスバーにアイコンを強制する';
 $string['fullname'] = 'コースフルネーム';
 $string['futureNotCompleted_colour'] = '#025187';
 $string['futureNotCompleted_colour_descr'] = 'まだ完了していない未来のエレメントのHTMLカラーコードです。';
@@ -94,11 +95,13 @@ $string['no_visible_activities_message'] = '現在表示できる監視中の活
 $string['now_indicator'] = '現在';
 $string['overview'] = '学生概要';
 $string['pluginname'] = '完了プログレス';
+$string['privacy:metadata'] = '完了プログレスブロックは既存の完了データのみ表示します。';
 $string['progress'] = '進捗';
 $string['progressbar'] = '完了プログレス';
 $string['shortname'] = 'コース省略名';
 $string['showallinfo'] = 'すべての情報を表示する';
 $string['showinactive'] = '活動していない学生を概要に表示する';
+$string['showlastincourse'] = '学生の最後のコース時間を概要に表示する';
 $string['submitted'] = '送信済み';
 $string['submittednotcomplete_colour'] = '#FFCC00';
 $string['submittednotcomplete_colour_descr'] = 'まだ完了していない送信済みエレメントのHTMLカラーコードです。';

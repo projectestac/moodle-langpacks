@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_overview', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_course_overview', language 'ru', branch 'MOODLE_37_STABLE'
  *
  * @package   block_course_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,7 +40,7 @@ $string['expandall'] = 'Развернуть весь список курсов'
 $string['favourites'] = 'Избранное';
 $string['fullpath'] = 'Все категории и подкатегории';
 $string['help'] = 'Помощь';
-$string['help_help'] = '«Настройте эту страницу», затем перетащите и измените порядок курсов. Нажмите значки активных элементов для обзора';
+$string['help_help'] = '«Настройте эту страницу», затем перетащите и измените порядок курсов. Нажмите значки элементов курса для обзора';
 $string['keepfavourites'] = 'Оставлять избранное в списке курсов';
 $string['keepfavouritesdesc'] = 'Показывать курсы на вкладке основного курса, даже если они также находятся на вкладке «Избранное»';
 $string['makefavourite'] = 'Сделать избранным';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'ltiservice_memberships', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'ltiservice_memberships', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   ltiservice_memberships
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,4 +26,3 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Servei LTI d\'afiliacions';
-$string['servicename'] = 'Afiliacions';

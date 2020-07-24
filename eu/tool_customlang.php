@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_customlang', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['customlang:view'] = 'Ikusi itzulpen lokala';
 $string['filter'] = 'Iragazi kateak';
 $string['filtercomponent'] = 'Erakutsi osagai hauek dituzten kateak';
 $string['filtercustomized'] = 'Pertsonalizatuak soilik';
-$string['filtermodified'] = 'Aldatutakoak soilik';
+$string['filtermodified'] = 'Soilik saio honetan aldatutakoak';
 $string['filteronlyhelps'] = 'Laguntza soilik';
 $string['filtershowstrings'] = 'Erakutsi kateak';
 $string['filterstringid'] = 'Kate-identifikatzailea';

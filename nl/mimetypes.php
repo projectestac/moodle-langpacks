@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mimetypes', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'mimetypes', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   mimetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['application/dash_xml'] = 'Dynamic Adaptive Streaming  via HTTP (MPEG-DASH)';
 $string['application/epub_zip'] = 'EPUB e-book';
 $string['application/json'] = '{$a->MIMETYPE2} tekst';
 $string['application/msword'] = 'Word-document';
@@ -48,6 +49,7 @@ $string['application/x-iwork-keynote-sffkey'] = 'Iwork Keynote-presentatie';
 $string['application/x-iwork-numbers-sffnumbers'] = 'iWork Numbers-rekenblad';
 $string['application/x-iwork-pages-sffpages'] = 'iWorks Pages-document';
 $string['application/x-javascript'] = 'JavaScript-bron';
+$string['application/x-mpegURL'] = 'HTTP Live Streaming (HLS)';
 $string['application/x-mspublisher'] = 'Publisher-document';
 $string['application/x-shockwave-flash'] = 'Flash-animatie';
 $string['archive'] = 'Archief ({$a->EXT})';
@@ -61,6 +63,7 @@ $string['group:html_audio'] = 'Door browsers ondersteunde audiobestanden';
 $string['group:html_track'] = 'HTML track-bestanden';
 $string['group:html_video'] = 'Door browsers ondersteunde videobestanden';
 $string['group:image'] = 'Afbeeldingsbestanden';
+$string['group:media_source'] = 'Streaming media';
 $string['group:presentation'] = 'Presentatiebestanden';
 $string['group:sourcecode'] = 'Broncode';
 $string['group:spreadsheet'] = 'Rekenbladbestanden';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_skydrive', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_skydrive', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_skydrive
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,5 +32,5 @@ $string['deprecatedwarning'] = 'Aviso: Microsoft desactiva a API utilizada por e
 $string['oauthinfo'] = '<p>Para usar este engadido, ten que rexistrar o seu sitio  <a href="https://account.live.com/developers/applications"> na Microsoft</a>.<p>Como parte do proceso de rexistro. necesitará escribir o seguinte URL como «Redirecionamento de dominio»:</p><p>{$a->callbackurl}</p>Unha vez rexistrado, forneceráselle un ID de cliente e a chave secreta cos que poderá acceder aquí.</p>';
 $string['pluginname'] = 'Microsoft OneDrive  (legacy)';
 $string['privacy:metadata'] = 'O engadido de de repositorio Microsoft OneDrive (legado) non almacena datos persoais, pero transmite datos de usuario de Moodle ao sistema remoto.';
-$string['secret'] = 'Secreto';
+$string['secret'] = 'Segredo';
 $string['skydrive:view'] = 'Ver OneDrive (legacy)';

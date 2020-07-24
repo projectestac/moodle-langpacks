@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_paypal', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_paypal', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_paypal
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,9 +42,9 @@ $string['enrolperiod_desc'] = 'Vorgabe zur Teilnahmedauer (in Sekunden). Falls d
 $string['enrolperiod_help'] = 'Teilnahmedauer (in Sekunden), beginnend mit dem Einschreibezeitpunkt. Falls dieser Wert auf Null gesetzt ist, ist die Teilnahmedauer unbegrenzt.';
 $string['enrolstartdate'] = 'Einschreibungsbeginn';
 $string['enrolstartdate_help'] = 'Wenn diese Option aktiviert ist, können Nutzer/innen ab diesem Zeitpunkt eingeschrieben werden.';
-$string['errdisabled'] = 'Die Einschreibemethode \'PayPal\' ist deaktiviert und kann keine Zahlungsnachrichten verarbeiten.';
+$string['errdisabled'] = 'Die Einschreibemethode \'PayPal\' ist deaktiviert und kann keine Zahlungsmitteilungen verarbeiten.';
 $string['erripninvalid'] = 'Die sofortige Zahlung wurde von PayPal nicht bestätigt.';
-$string['errpaypalconnect'] = 'Eine Verbindung zu {$a->url} konnte nicht hergestellt werden, um die Nachricht zur sofortigen Zahlung zu überprüfen: {$a->result}';
+$string['errpaypalconnect'] = 'Eine Verbindung zu {$a->url} konnte nicht hergestellt werden, um die Mitteilung zur sofortigen Zahlung zu überprüfen: {$a->result}';
 $string['expiredaction'] = 'Aktion bei Ablauf der Kurseinschreibung';
 $string['expiredaction_help'] = 'Wählen Sie die Aktionen, die beim Ablauf der Kurseinschreibung ausgeführt werden sollen. Beim Austragen des Nutzers aus dem Kurs werden einige Nutzerdaten und Einstellungen entfernt.';
 $string['mailadmins'] = 'Admin benachrichtigen';

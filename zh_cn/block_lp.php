@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_lp', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_lp', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   block_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,7 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['competenciestoreview'] = '要检查的能力';
 $string['lp:addinstance'] = '新增一个学习计划版块';
 $string['lp:myaddinstance'] = '在个人主页新增一个学习计划版块';
-$string['lp:view'] = '查看学习计划版块';
 $string['planstoreview'] = '要检查的计划';
 $string['pluginname'] = '学习计划';
 $string['viewmore'] = '查看更多……';

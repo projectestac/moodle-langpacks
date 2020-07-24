@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_customlang', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_customlang
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,7 +35,7 @@ $string['customlang:view'] = 'Εμφάνιση τοπικής μετάφραση
 $string['filter'] = 'Φίλτρα συμβολοσειρών';
 $string['filtercomponent'] = 'Εμφάνιση συμβολοσειρών από αυτά τα στοιχεία λογισμικού (php σελίδες)<br />(επιλογή με Click, Shift+Click, Ctrl+Click)';
 $string['filtercustomized'] = 'Μόνο τροποποιημένες & αποθηκευμένες (πράσινο)';
-$string['filtermodified'] = 'Μόνο τροποποιημένες & μη αποθηκευμένες (μπλε)';
+$string['filtermodified'] = 'Tροποποιημένες σε αυτή την σύνοδο μόνο (μπλε)';
 $string['filteronlyhelps'] = 'Μόνο συμβολοσειρές βοήθειας';
 $string['filtershowstrings'] = 'Αναζήτηση';
 $string['filterstringid'] = 'Όνομα συμβολοσειράς';
@@ -43,7 +43,8 @@ $string['filtersubstring'] = 'Μόνο συμβολοσειρές που περ�
 $string['headingcomponent'] = 'Στοιχείο λογισμικού';
 $string['headinglocal'] = 'Τοπική προσαρμογή<br />
 <small><i>Αν πιστεύετε ότι η μετάφρασή σας είναι καλύτερη από την επίσημη (ή δεν υπάρχει άλλη), μπορείτε να συνεισφέρετε μέσω της <a href="https://lang.moodle.org/local/amos/view.php">Εργαλειοθήκης μετάφρασης AMOS</a>.</i></small>';
-$string['headingstandard'] = 'Αρχικό κείμενο';
+$string['headingstandard'] = 'Αρχικό κείμενο<br />
+<small><i>Δείτε το <a href="https://moodle.org/mod/glossary/view.php?id=8542&mode=letter&hook=ALL&sortkey&sortorder=asc&fullsearch=0&page=-1">Γλωσσάριο της επίσημης μετάφρασης</a> πριν κάνετε την δική σας.</i></small>';
 $string['headingstringid'] = 'Συμβολοσειρά';
 $string['markinguptodate'] = 'Σημείωση της τοπικής προσαρμογής μετάφρασης ως ενημερωμένης';
 $string['markinguptodate_help'] = 'Η τοπική προσαρμογή μετάφρασης μπορεί να έχει απαρχαιωθεί, εάν είτε το αρχικό αγγλικό κείμενο ή η επίσημη μετάφραση, έχουν τροποποιηθεί μετά την προσαρμογή στον ιστότοπό σας. Ξανακοιτάξτε την προσαρμογή. Αν την βρείτε ενημερωμένη, ενεργοποιήστε το κουτάκι επιλογής. Διαφορετικά επεξεργαστείτε ξανά την μετάφραση.';

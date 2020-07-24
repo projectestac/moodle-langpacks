@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'role', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -65,7 +65,6 @@ $string['backup:anonymise'] = 'Anonimitza les dades d\'usuari en fer la còpia d
 $string['backup:backupactivity'] = 'Còpia de seguretat d\'activitats';
 $string['backup:backupcourse'] = 'Còpia de seguretat de cursos';
 $string['backup:backupsection'] = 'Còpia de seguretat de seccions';
-$string['backup:backuptargethub'] = 'Còpia de seguretat del hub';
 $string['backup:backuptargetimport'] = 'Còpia de seguretat de la importació';
 $string['backup:configure'] = 'Configura les opcions de còpia de seguretat';
 $string['backup:downloadfile'] = 'Descarregar fitxers de l\'àrea de còpies de seguretat';
@@ -114,8 +113,6 @@ $string['cohort:view'] = 'Mostrar les cohorts globals al lloc';
 $string['comment:delete'] = 'Esborrar comentaris';
 $string['comment:post'] = 'Enviar un comentari';
 $string['comment:view'] = 'Llegir comentaris';
-$string['community:add'] = 'Usar el bloc de comunitat per cercar hubs i trobar cursos';
-$string['community:download'] = 'Descarregar-se un curs des del bloc de comunitat';
 $string['competency:competencygrade'] = 'Fixa la puntuació de la competència';
 $string['competency:competencymanage'] = 'Gestiona els marcs de competències';
 $string['competency:competencyview'] = 'Visualitza els marcs de competències';
@@ -179,7 +176,6 @@ $string['course:managescales'] = 'Gestionar escales';
 $string['course:markcomplete'] = 'Marca usuaris com a completats en la compleció del curs';
 $string['course:movesections'] = 'Moure seccions';
 $string['course:overridecompletion'] = 'Canvia l\'estat de compleció de l\'activitat';
-$string['course:publish'] = 'Publicar un curs a la col·lectivitat';
 $string['course:renameroles'] = 'Canvia el nom dels rols';
 $string['course:request'] = 'Demanar nous cursos';
 $string['course:reset'] = 'Reiniciar un curs';
@@ -259,6 +255,7 @@ $string['grade:unlock'] = 'Desblocar qualificacions o elements';
 $string['grade:view'] = 'Veure les qualificacions pròpies';
 $string['grade:viewall'] = 'Veure les qualificacions d\'altres usuaris';
 $string['grade:viewhidden'] = 'Veure qualificacions ocultes pròpies';
+$string['h5p:updatelibraries'] = 'Gestiona els tipus de contingut H5P';
 $string['highlightedcellsshowdefault'] = 'Les cel·les ressaltades de la taula del dessota mostren els permisos per defecte per a aquest tipus de rol, basat en el «tipus de rol heretat» del damunt.';
 $string['highlightedcellsshowinherit'] = 'Les cel·les ressaltades de la taula del dessota mostren els permisos (si n\'hi ha) que s\'heretaran. Hauríeu de deixar-ho tot establert a «Hereta» llevat d\'aquelles capacitats de les quals voleu alterar els permisos.';
 $string['inactiveformorethan'] = 'inactiu més de {$a->timeperiod}';
@@ -348,7 +345,6 @@ $string['restore:createuser'] = 'Crear usuaris en restaurar';
 $string['restore:restoreactivity'] = 'Restaurar activitats';
 $string['restore:restorecourse'] = 'Restaurar cursos';
 $string['restore:restoresection'] = 'Restaurar seccions';
-$string['restore:restoretargethub'] = 'Restaurar des de fitxers destinats a hub';
 $string['restore:restoretargetimport'] = 'Restaurar des de fitxers destinats a importar';
 $string['restore:rolldates'] = 'Permet recalular les dates de configuració de l\'activitat en restaurar.';
 $string['restore:uploadfile'] = 'Pujar fitxers a les àrees de còpies de seguretat';

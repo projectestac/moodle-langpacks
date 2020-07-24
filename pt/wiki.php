@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'wiki', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   wiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -117,15 +117,19 @@ $string['formatnwiki_help'] = 'Nwiki é a linguagem de markup Mediawiki utilizad
 Para criar uma nova página, digite o nome da nova página entre parêntesis retos, por exemplo [[Página 2]].';
 $string['formatnwiki_link'] = 'mod/wiki/nwiki';
 $string['history'] = 'Histórico';
-$string['history_help'] = 'Histórico de ligações de versões anteriores da página';
+$string['history_help'] = 'O histórico lista as hiperligações para versões anteriores da página';
 $string['html'] = 'HTML';
 $string['incorrectdeleteversions'] = 'As versões a apagar estão incorretas';
 $string['incorrectpageid'] = 'O ID da página está errado.';
 $string['incorrectsubwikiid'] = 'O ID da sub-página da wiki está errado.';
 $string['incorrectwikiid'] = 'O ID do wiki está errado.';
 $string['indicator:cognitivedepth'] = 'Compreensão do Wiki';
+$string['indicator:cognitivedepthdef'] = 'Compreensão do Wiki';
+$string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelas atividades Wiki durante esse intervalo de análise (Níveis = Não visualizado, Visualizado, Submetido)';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na profundidade cognitiva alcançada pelo aluno numa atividade de Wiki.';
 $string['indicator:socialbreadth'] = 'Socialização do Wiki';
+$string['indicator:socialbreadthdef'] = 'Socialização do Wiki';
+$string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelas atividades Wiki durante esse intervalo de análise (Níveis = Sem participação, Participante individual, Participante com outros)';
 $string['indicator:socialbreadth_help'] = 'Este indicador baseia-se na amplitude social alcançada pelo aluno numa atividade de Wiki.';
 $string['individualpagedoesnotexist'] = 'Não existem página de wiki individual';
 $string['insertcomment'] = 'Inserir comentário';

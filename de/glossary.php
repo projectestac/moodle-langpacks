@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'glossary', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -114,7 +114,7 @@ $string['definitions'] = 'Definitionen';
 $string['deletecategory'] = 'Kategorie löschen';
 $string['deleteentry'] = 'Eintrag löschen';
 $string['deleteentrya'] = 'Eintrag löschen: {$a}';
-$string['deletenotenrolled'] = 'Einträge von eingeschriebenen Nutzer/innen löschen';
+$string['deletenotenrolled'] = 'Einträge von nicht eingeschriebenen Nutzer/innen löschen';
 $string['deletingcomment'] = 'Lösche Kommentar';
 $string['deletingnoneemptycategory'] = 'Wenn diese Kategorie gelöscht wird, werden die Einträge daraus nicht gelöscht. Sie werden als \'keiner Kategorie zugeordnet\' gekennzeichnet.';
 $string['descending'] = '(absteigend)';
@@ -168,6 +168,7 @@ $string['entryexported'] = 'Der Eintrag wurde erfolgreich exportiert';
 $string['entryishidden'] = '(Dieser Eintrag ist aktuell nicht sichtbar)';
 $string['entryleveldefaultsettings'] = 'Grundeinstellungen für Einträge';
 $string['entrylink'] = 'Eingabelink: {$a}';
+$string['entrynotapproved'] = 'Eintrag nicht freigegeben';
 $string['entrysaved'] = 'Der Eintrag wurde gespeichert';
 $string['entryupdated'] = 'Der Eintrag wurde geändert';
 $string['entryusedynalink'] = 'Eintrag automatisch verlinken';
@@ -233,8 +234,12 @@ $string['importentries'] = 'Einträge importieren';
 $string['importentriesfromxml'] = 'Einträge aus XML-Datei importieren';
 $string['includegroupbreaks'] = 'Gruppentrennung einbeziehen';
 $string['indicator:cognitivedepth'] = 'Glossar kognitiv';
+$string['indicator:cognitivedepthdef'] = 'Glossar kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die Glossaraktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht, Beiträge).';
 $string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die eine Person in einer Glossaraktivität erreicht hat.';
 $string['indicator:socialbreadth'] = 'Glossar sozial';
+$string['indicator:socialbreadthdef'] = 'Glossar sozial';
+$string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die Glossaraktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein).';
 $string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer Glossaraktivität erreicht hat.';
 $string['isglobal'] = 'Kursübergreifendes Glossar 
 ';

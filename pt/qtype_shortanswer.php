@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_shortanswer', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_shortanswer', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_shortanswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,9 +32,9 @@ $string['answerno'] = 'Resposta {$a}';
 $string['caseno'] = 'Não';
 $string['casesensitive'] = 'Respeitar maiúsculas/minúsculas';
 $string['caseyes'] = 'Sim';
-$string['correctansweris'] = 'A resposta correta é: {$a}';
+$string['correctansweris'] = 'Resposta correta: {$a}';
 $string['correctanswers'] = 'Respostas corretas';
-$string['filloutoneanswer'] = 'Tem de inserir pelo menos uma resposta possível.  As respostas em branco serão ignoradas. O \'*\' pode ser usado como carácter universal. A primeira resposta coincidente será utilizada para determinar a nota e o feedback exibido.';
+$string['filloutoneanswer'] = 'Tem de inserir pelo menos uma resposta possível.  As respostas em branco serão ignoradas. Pode usar o \'*\' como carácter universal. A primeira resposta coincidente será utilizada para determinar a nota e o feedback exibido.';
 $string['notenoughanswers'] = 'Necessita de inserir pelos menos {$a} respostas';
 $string['pleaseenterananswer'] = 'Insira uma resposta.';
 $string['pluginname'] = 'Resposta curta';

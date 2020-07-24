@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mimetypes', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'mimetypes', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   mimetypes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['application/dash_xml'] = 'HTTP bidezko Dynamic Adaptive Streaming-a (MPEG-DASH)';
 $string['application/epub_zip'] = 'EPUB e-liburua';
 $string['application/json'] = '{$a->MIMETYPE2} testua';
 $string['application/msword'] = 'Word dokumentua';
@@ -48,6 +49,7 @@ $string['application/x-iwork-keynote-sffkey'] = 'iWork Keynote aurkezpena';
 $string['application/x-iwork-numbers-sffnumbers'] = 'iWork Numbers kalkulu-orria';
 $string['application/x-iwork-pages-sffpages'] = 'iWork Pages dokumentua';
 $string['application/x-javascript'] = 'JavaScript iturriburua';
+$string['application/x-mpegURL'] = 'HTTP Live Streaming-a (HLS)';
 $string['application/x-mspublisher'] = 'Publisher dokumentua';
 $string['application/x-shockwave-flash'] = 'Flash animazioa';
 $string['archive'] = 'Artxiboa ({$a->EXT})';
@@ -61,6 +63,7 @@ $string['group:html_audio'] = 'Nabigatzaileek berez onartzen dituzten audio fitx
 $string['group:html_track'] = 'HTML pista fitxategia';
 $string['group:html_video'] = 'Nabigatzaileek berez onartzen dituzten bideo-fitxategiak';
 $string['group:image'] = 'Irudi-fitxategiak';
+$string['group:media_source'] = 'Streaming bidezko media';
 $string['group:presentation'] = 'Aurkezpen-fitxategiak';
 $string['group:sourcecode'] = 'Iturburu kodea';
 $string['group:spreadsheet'] = 'Kalkulu-orri fitxategiak';

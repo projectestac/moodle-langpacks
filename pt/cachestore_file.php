@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_file', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cachestore_file', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   cachestore_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,8 +34,11 @@ $string['prescan'] = 'Pré-verificação da diretoria';
 $string['prescan_help'] = 'Se ativado, a diretoria é verificada quando a cache é usada pela primeira vez e os pedidos de ficheiros são verificados primeiro contra os dados de verificação. Isto pode ser útil se tiver um sistema de ficheiros lento e constatar que as operações de ficheiros estão a causar um congestionamento.';
 $string['privacy:metadata'] = 'O armazenamento de cache do módulo arquivo de cache armazena dados temporariamente como parte da sua funcionalidade de armazenamento em cache, mas os dados são limpos regularmente.';
 $string['singledirectory'] = 'Armazenamento único de diretoria';
-$string['singledirectory_help'] = 'Se os ficheiros disponíveis (itens armazenados em cache) forem armazenados numa única diretoria ao invés de serem divididos em várias diretorias. <br />
-Ativar esta funcionalidade irá acelerar as interações de ficheiro, porém causará um aumento do risco de atingir as limitações do sistema de ficheiros. <br />
-É aconselhável que ative esta funcionalidade apenas se: <br />
-   - Souber que o número de itens na cache vai ser suficientemente pequeno para não causar problemas no sistema de ficheiros com que está a executar. <br />
-   - Os dados que estão a ser armazenados em cache não forem dispendiosos de gerar. Se forem, manter a configuração predefinida poderá ser a melhor opção, uma vez que reduz a probabilidade de gerar problemas.';
+$string['singledirectory_help'] = 'Se os ficheiros disponíveis (itens armazenados em cache) forem armazenados numa única diretoria ao invés de serem divididos em várias diretorias.
+
+Ativar esta funcionalidade irá acelerar as interações de ficheiro, no entanto, causará um aumento do risco de atingir as limitações do sistema de ficheiros.
+
+É aconselhável que ative esta funcionalidade apenas se:
+
+* Souber que o número de itens na cache vai ser suficientemente pequeno para não causar problemas no sistema de ficheiros com que está a executar.
+* Os dados que estão a ser armazenados em cache não forem dispendiosos de gerar. Se forem, manter a configuração predefinida poderá ser a melhor opção, uma vez que reduz a probabilidade de gerar problemas.';

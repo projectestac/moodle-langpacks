@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol_database', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol_database
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,5 +75,6 @@ $string['settingsheaderdb'] = 'Kanpoko datu-basearen konexioa';
 $string['settingsheaderlocal'] = 'Eremu lokalen lotura';
 $string['settingsheadernewcourses'] = 'Ikastaro berrien sorkuntza';
 $string['settingsheaderremote'] = 'Urruneko rolen sinkronizazioa';
+$string['syncenrolmentstask'] = 'Sinkronizatu kanpoko datu-baseko matrikulazioak';
 $string['templatecourse'] = 'Ikastaro berrien txantiloia';
 $string['templatecourse_desc'] = 'Aukerakoa: automatikoki sortutako ikastaroek ezarpenak ikastaro-txantiloi batetik kopiatu ditzakete. Idatzi hemen ikastaro-txantiloiaren izen laburra.';

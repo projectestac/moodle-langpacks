@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -201,8 +201,12 @@ $string['highestattempt'] = 'Meilleure tentative';
 $string['identifier'] = 'Identifiant de question';
 $string['incomplete'] = 'Incomplet';
 $string['indicator:cognitivedepth'] = 'SCORM : aspect cognitif';
+$string['indicator:cognitivedepthdef'] = 'SCORM : aspect cognitif';
+$string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement cognitif offert par les activités « SCORM » (niveaux : pas de vue, vue, envoi, vue du feedback).';
 $string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une activité SCORM.';
 $string['indicator:socialbreadth'] = 'SCORM : aspect social';
+$string['indicator:socialbreadthdef'] = 'SCORM : aspect social';
+$string['indicator:socialbreadthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement social offert par les activités « SCORM » (niveaux : pas de participation, participant seul).';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité SCORM.';
 $string['info'] = 'Info';
 $string['interactions'] = 'Interactions';
@@ -210,6 +214,7 @@ $string['invalidactivity'] = 'L\'activité SCORM n\'est pas correcte';
 $string['invalidhacpsession'] = 'Session HACP non valide';
 $string['invalidmanifestname'] = 'Seuls des fichiers imsmanifest.xml ou .zip peuvent être choisis';
 $string['invalidmanifestresource'] = '<strong>Attention !</strong> Les ressources ci-dessous sont référencées dans le manifeste, mais n\'ont pas pu être trouvées :';
+$string['invalidstatus'] = 'Statut non valide';
 $string['invalidurl'] = 'URL spécifié non valide';
 $string['invalidurlhttpcheck'] = 'L\'URL spécifiée n\'est pas valide. Message de débogage : <pre>{$a->cmsg}</pre>';
 $string['last'] = 'Dernier accès le';

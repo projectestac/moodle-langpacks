@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_email', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message_email', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   message_email
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['email'] = 'Enviar notificacións por correo a';
+$string['emaildigestsubject'] = 'Resumo de mensaxes';
+$string['emaildigestunreadmessages'] = 'Mensaxes sen ler';
+$string['emaildigestviewallmessages'] = 'Ver todas as mensaxes';
 $string['emailonlyfromnoreplyaddress'] = 'Enviar sempre os correos dende o enderezo de «sen resposta»?';
 $string['ifemailleftempty'] = 'Deixar baleiro para enviar notificacións a {$a}';
 $string['pluginname'] = 'Correo';
@@ -34,8 +37,13 @@ $string['privacy:metadata:attachname'] = 'O nome do ficheiro anexo (a extensión
 $string['privacy:metadata:externalpurpose'] = 'Esta información é enviada a un servidor SMTP externo para ser entregado finalmente como un correo electrónico ao destinatario.';
 $string['privacy:metadata:fullmessage'] = 'A mensaxe completa nun formato dado.';
 $string['privacy:metadata:fullmessagehtml'] = 'A versión completa da mensaxe';
+$string['privacy:metadata:message_email_messages'] = 'A lista de usuarios matriculados a través dun provedor LTI';
+$string['privacy:metadata:message_email_messages:conversationid'] = 'O ID da conversa enviada a';
+$string['privacy:metadata:message_email_messages:messageid'] = 'O ID da mensaxe enviada';
+$string['privacy:metadata:message_email_messages:useridto'] = 'ID do usuario que recibe a mensaxe';
 $string['privacy:metadata:recipient'] = 'O destinatario da mensaxe.';
 $string['privacy:metadata:replyto'] = 'O enderezo de correo ao que responder.';
 $string['privacy:metadata:replytoname'] = 'Nome da resposta ao destinatario.';
 $string['privacy:metadata:subject'] = 'A liña de asunto da mensaxe.';
 $string['privacy:metadata:userfrom'] = 'O usuario que envía a mensaxe.';
+$string['tasksendemail'] = 'Correos de resumo de mensaxes';

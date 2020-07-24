@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'booktool_importhtml', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'booktool_importhtml', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   booktool_importhtml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,4 +39,4 @@ $string['typeonefile'] = 'Um ficheiro HTML com capítulos definidos como título
 $string['typezipdirs'] = 'Cada diretoria representa um capítulo';
 $string['typezipfiles'] = 'Cada ficheiro HTML representa um capítulo';
 $string['ziparchive'] = 'Ficheiro zip';
-$string['ziparchive_help'] = 'Selecione um ficheiro zip que contenha ficheiros HTML, ficheiros de media e pastas. Os ficheiros ou diretorias em que o nome termina em "_sub" serão convertidos em subcapítulos.';
+$string['ziparchive_help'] = 'Selecione um ficheiro zip que contenha ficheiros HTML, ficheiros multimédia e pastas. Os ficheiros ou diretorias em que o nome termina em "_sub" serão convertidos em subcapítulos.';

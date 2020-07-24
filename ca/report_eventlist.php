@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_eventlist', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_eventlist', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   report_eventlist
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -52,6 +52,7 @@ $string['otherinformation'] = 'Altra informació:';
 $string['parentevent'] = 'Esdeveniment pare';
 $string['participating'] = 'Participen';
 $string['pluginname'] = 'Llista d\'esdeveniments';
+$string['privacy:metadata'] = 'El connector de llista d\'esdeveniments no emmagatzema dades personals.';
 $string['read'] = 'llegeix';
 $string['relatedobservers'] = 'Connectors que observen aquest esdeveniment';
 $string['since'] = 'Des de';

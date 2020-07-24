@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_overview', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -64,12 +64,14 @@ $string['regradeall'] = 'Alle neu bewerten';
 $string['regradealldry'] = 'Probelauf einer vollständigen Neubewertung';
 $string['regradealldrydo'] = 'Versuche neu bewerten, die entsprechend markiert sind ({$a})';
 $string['regradealldrydogroup'] = 'Versuche ({$a->countregradeneeded}) neu bewerten, die entsprechend in der Gruppe \'{$a->groupname}\' markiert sind';
-$string['regradealldrygroup'] = 'Probelauf einer vollständiger Neubewertung für die Gruppe  \'{$a->groupname}\'';
+$string['regradealldrygroup'] = 'Probelauf einer vollständigen Neubewertung für die Gruppe  \'{$a->groupname}\'';
 $string['regradeallgroup'] = 'Vollständige Neubewertung für die Gruppe \'{$a->groupname}\'';
 $string['regradecomplete'] = 'Neubewertung erfolgreich abgeschlossen';
+$string['regradedsuccessfullyxofy'] = 'Erfolgreich neu bewertet ({$a->done}/{$a->count})';
 $string['regradeheader'] = 'Neubewertung';
 $string['regradeselected'] = 'Markierte Versuche neu bewerten';
 $string['regradingattemptxofy'] = 'Neubewertung des Versuchs ({$a->done}/{$a->count})';
+$string['regradingattemptxofywithdetails'] = 'Neubewertung Versuch ({$a->done}/{$a->count}) - Versuch {$a->attemptnum} von {$a->name} (id {$a->attemptid})';
 $string['show'] = 'Anzeigen / Herunterladen';
 $string['showattempts'] = 'Versuche nur anzeigen/downloaden';
 $string['showdetailedmarks'] = 'Bewertungen für jede Frage';

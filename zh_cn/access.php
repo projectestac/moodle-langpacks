@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'access', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'access', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   access
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,13 +30,11 @@ $string['accesshelp'] = '访问帮助';
 $string['accesskey'] = '访问秘钥 {$a}';
 $string['accessstatement'] = '访问声明';
 $string['activitynext'] = '下一个活动';
-$string['activityprev'] = '前一个活动';
+$string['activityprev'] = '上一个活动';
 $string['breadcrumb'] = '导航路径';
 $string['eventcontextlocked'] = '上下文已冻结';
 $string['eventcontextunlocked'] = '上下文解除冻结';
 $string['hideblocka'] = '隐藏{$a}版块';
-$string['monthnext'] = '下月';
-$string['monthprev'] = '上月';
 $string['showblocka'] = '显示 {$a} 版块';
 $string['sitemap'] = '站点地图';
 $string['skipa'] = '跳过 {$a}';

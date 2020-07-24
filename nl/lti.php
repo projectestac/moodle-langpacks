@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lti', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   lti
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,7 +69,11 @@ $string['cannot_edit'] = 'Je mag deze toolconfiguratie niet bewerken.';
 $string['capabilities'] = 'Mogelijkheden';
 $string['capabilities_help'] = 'Kies de mogelijkheden die je wil aanbieden aan de tool provider. Er kan meer dan één mogelijkheid geselecteerd worden.';
 $string['capabilitiesrequired'] = 'Deze tool vereist toegang tot de volgende gegevens om te activeren:';
+$string['cleanaccesstokens'] = 'Externe gereedschapsverwijdering van verlopen toegangstokens';
 $string['click_to_continue'] = '<a href="{$a->link}" target="_top">Klik om verder te gaan</a>';
+$string['clientidadmin'] = 'Client-ID';
+$string['clientidadmin_help'] = 'De client-ID kan worden beschouwd als een unieke waarde die wordt gebruikt om een tool te identificeren.
+Het wordt automatisch gemaakt voor elke tool die het JWT-beveiligingsprofiel gebruikt dat is geïntroduceerd in LTI 1.3 en zou moeten deel uitmaken van de gegevens die aan de leverancier van de tool zijn doorgegeven, zodat ze de verbinding aan het einde kunnen configureren.';
 $string['comment'] = 'Opmerking';
 $string['configpassword'] = 'Standaard externe tool wachtwoord';
 $string['configpreferheight'] = 'Standaard voorkeurshoogte';
@@ -184,10 +188,17 @@ $string['icon_url'] = 'URL icoontje';
 $string['icon_url_help'] = 'Deze icoon-URL maakt het mogelijk om het icoontje dat deze activiteit aanduidt in de cursuslijst te wijzigen. In plaats van gebruik te maken van het standaard LTI icoon, kan een icoontje worden gespecifieerd dat het type activiteit aanduidt.';
 $string['id'] = 'ID';
 $string['indicator:cognitivedepth'] = 'LTI cognitief';
+$string['indicator:cognitivedepthdef'] = 'LTI cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de LTI-activiteiten tijdens dit analyse-interval bereikt (Niveaus = Geen weergave, Bekijken, Verzenden, Feedback bekijken)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een LTI activiteit.';
 $string['indicator:socialbreadth'] = 'LTI sociaal';
+$string['indicator:socialbreadthdef'] = 'LTI sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de maatschappelijke betrokkenheid van de LTI-activiteiten tijdens dit analyse-interval bereikt (Niveaus = Geen deelname, alleen deelnemer, deelnemer met anderen)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een LTI activiteit.';
+$string['initiatelogin'] = 'Inlog-URL initiëren';
+$string['initiatelogin_help'] = 'De tool-URL waarnaar aanvragen voor het starten van een login moeten worden verzonden. Deze URL is vereist voordat een bericht met succes naar de tool kan worden verzonden.';
 $string['invalidid'] = 'LTI ID was foutief';
+$string['jwtsecurity'] = 'LTI 1.3';
 $string['launch_in_moodle'] = 'Starttool in Moodle';
 $string['launchinpopup'] = 'Container voor lancering';
 $string['launch_in_popup'] = 'Tool voor lancering in een pop-up';
@@ -226,6 +237,8 @@ $string['ltisettings'] = 'LTI instellingen';
 $string['lti_tool_request_added'] = 'Het verzoek tot tool configuratie werd succesvol ingediend. Het is misschien nodig om een beheerder  te contacteren om de toolconfiguratie te voltooien.';
 $string['lti_tool_request_existing'] = 'Een tool configuratie voor het tool domein werd al eerder ingediend.';
 $string['ltiunknownserviceapicall'] = 'LTI onbekende service API call';
+$string['ltiversion'] = 'LTI-versie';
+$string['ltiversion_help'] = 'De versie van LTI die wordt gebruikt voor het ondertekenen van berichten en serviceverzoeken: LTI 1.0 / 1.1 en LTI 2.0 gebruiken het beveiligingsprofiel OAuth 1.0A; LTI 1.3.0 maakt gebruik van JWT\'s.';
 $string['lti:view'] = 'Start externe tool-activiteiten';
 $string['main_admin'] = 'Algemene hulp';
 $string['main_admin_help'] = 'Externe tools laten Moodle gebruikers toe om probleemloos om te gaan met leermiddelen die extern gehost worden.  Via een speciaal lanceringsprotocol zal de externe tool toegang hebben tot bepaalde algemene informatie over de gebruiker die de tool lanceert. Bijvoorbeeld de naam van de instelling, cursus ID, gebruikers ID, en andere informatie zoals de naam of het e-mailadres van de gebruiker.
@@ -275,6 +288,8 @@ $string['no_tp_pending'] = 'Er zijn geen wachtende externe tool registraties.';
 $string['no_tp_rejected'] = 'Er zijn geen verworpen extrerne tool registraties.';
 $string['notypes'] = 'Er zijn op dit ogenblik geen LTI tools ingesteld in Moodle. Klik op de installatie link hierboven om er toe te voegen.';
 $string['noviewusers'] = 'Er werden geen gebruikers aangetroffen die toestemming hebben om deze tool te gebruiken.';
+$string['oauthsecurity'] = 'LTI 1.0/1.1';
+$string['opensslconfiginvalid'] = 'LTI 1.3 vereist een geldige openssl.cnf die moet worden geconfigureerd en beschikbaar is voor uw webserver. Neem contact op met de sitebeheerder om openssl voor deze site te configureren en in te schakelen.';
 $string['optionalsettings'] = 'Optionele instellingen';
 $string['organization'] = 'Details van de organisatie';
 $string['organizationdescr'] = 'Beschrijving van de organisatie';
@@ -282,7 +297,7 @@ $string['organizationid'] = 'ID van de organisatie';
 $string['organizationid_help'] = 'Een unieke identificatie voor deze Moodle instantie. Gewoonlijk wordt de DNS naam van de organisatie gebruikt.
 
 Indien je dit veld leeg laat, zal  de hostnaam van de Moodle site worden gebruikt als standaardwaarde.';
-$string['organizationurl'] = 'Organisatie URL';
+$string['organizationurl'] = 'Organisatie-URL';
 $string['organizationurl_help'] = 'De basis URL van deze Moodle instantie.
 
 Indien je dit veld leeg laat, zal een standaardwaarde worden gebruikt gebaseerd op de configuratie van de site.';
@@ -335,9 +350,13 @@ $string['privacy:metadata:timemodified'] = 'Het tijdstip waarop de record gewijz
 $string['privacy:metadata:userid'] = 'De ID van de gebruiker doe toegang kreeg tot de LTI-Consumer';
 $string['privacy:metadata:useridnumber'] = 'D ID-nummer van de gebruiker die toegang kreeg tot de LTI-Consumer';
 $string['privacy:metadata:username'] = 'De gebruikersnaam van de gebruiker die toegang kreeg tot de LTI-Consumer';
+$string['publickey'] = 'Publieke sleutel';
+$string['publickey_help'] = 'De openbare sleutel (in PEM-indeling) die de tool biedt om handtekeningen van inkomende berichten en serviceverzoeken te verifiëren.';
 $string['quickgrade'] = 'Snel beoordelen toestaan';
 $string['quickgrade_help'] = 'Indien ingeschakeld kunnen meerdere tools beoordeeld worden op één pagina. Voeg cijfers en commentaren toe en klik dan op de "Bewaar al mijn feedback"-knop om alle wijzigingen voor die pagina te bewaren.';
 $string['redirect'] = 'Je zult binnen enkele seconden doorverwezen worden. Indien niet, klik dan op de knop.';
+$string['redirectionuris'] = 'Redirect URI (\'s).';
+$string['redirectionuris_help'] = 'Een lijst met URI\'s (één per regel) die de tool gebruikt bij het maken van autorisatieverzoeken. Ten minste één moet worden geregistreerd voordat een bericht met succes naar de tool kan worden verzonden.';
 $string['register'] = 'Registreer';
 $string['registertype'] = 'Configureer een nieuwe externe tool registratie';
 $string['register_warning'] = 'De registratiepagina lijkt nogal wat tijd te nemen om te openen. Als ze niet verschijnt, controleer dan of je de juiste URL in de configuratie hebt ingegeven. Wanneer Moodle https gebruikt, verzeker je dan ervan dat de tool je configureert https ondersteunt en dat je https gebruikt in de URL.';
@@ -427,6 +446,16 @@ $string['tool_config_not_found'] = 'Tool-configuratie niet gevonden voor deze UR
 $string['tooldescription'] = 'Toolbeschrijving';
 $string['tooldescription_help'] = 'De beschrijving van de tool zal aan leraren getoond worden in de activiteitenlijst.
 Die zou moeten beschrijven waarvoor de tool dient, wat het doet en alle andere bijkomende informatie die een leraar zou kunnen nodig hebben.';
+$string['tooldetailsaccesstokenurl'] = 'Toegang token URL';
+$string['tooldetailsauthrequesturl'] = 'Verificatie-aanvraag URL';
+$string['tooldetailsclientid'] = 'Verificatie-aanvraag URL';
+$string['tooldetailsdeploymentid'] = 'Implementatie-ID';
+$string['tooldetailsmailtosubject'] = 'LTI-toolconfiguratie';
+$string['tooldetailsmodalemail'] = 'E-mail';
+$string['tooldetailsmodallink'] = 'Bekijk configuratiegegevens';
+$string['tooldetailsmodaltitle'] = 'Details gereedschapsconfiguratie';
+$string['tooldetailsplatformid'] = 'Platform-ID';
+$string['tooldetailspublickeyseturl'] = 'Publieke sleutelset URL';
 $string['toolisbeingused'] = 'Deze tool is {$a} keer gebruikt';
 $string['toolisnotbeingused'] = 'Deze tool is nog niet gebruikt';
 $string['toolproxy'] = 'Externe tool registraties';
@@ -449,7 +478,7 @@ $string['tooltypes'] = 'Tools';
 $string['tooltypeupdated'] = 'Voorgeconfigureerde tool aangepast';
 $string['toolurl'] = 'Tool-URL';
 $string['toolurl_contentitemselectionrequest'] = 'Toestemmingsselectie-URL';
-$string['toolurl_contentitemselectionrequest_help'] = 'De toestemminsselectie-URL zal gebruikt worden om de inhoudsselectiepagina van de toolprovider te openen. Als die leeg is, dan zaal de Tool-URL gebruikt worden';
+$string['toolurl_contentitemselectionrequest_help'] = 'De toestemmingsselectie-URL zal gebruikt worden om de inhoudsselectiepagina van de toolprovider te openen. Als die leeg is, dan zal de Tool-URL gebruikt worden';
 $string['toolurl_help'] = 'De tool-URL wordt gebruikt om de juiste tool-URL\'s te koppelen aan de juiste tool configuratie. Het voorvoegsel http(s) in de URL is optioneel.
 
 Bijkomend wordt de basis URL gebruikt als tool-URL als er geen tool-URL is opgegeven in de configuratie van de externe tool.

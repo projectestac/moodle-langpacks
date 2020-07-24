@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshop', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,8 +108,6 @@ $string['editingsubmission'] = 'Редактирование работы';
 $string['editsubmission'] = 'Редактировать работу';
 $string['err_multiplesubmissions'] = 'При редактировании этой формы был сохранен еще один вариант работы. Несколько представленных работ одного пользователя не допускается.';
 $string['err_removegrademappings'] = 'Не удалось удалить сопоставления неиспользованных оценок';
-$string['err_unknownfileextension'] = 'Неизвестное расширение файла: {$a}';
-$string['err_wrongfileextension'] = 'Некоторые файлы ({$a->wrongfiles}) не могут быть загружены на сервер. Разрешены только файлы следующих типов: {$a->whitelist}.';
 $string['evaluategradeswait'] = 'Пожалуйста, подождите, пока вычисляются оценки и баллы за оценивание';
 $string['evaluation'] = 'Оценивание оценок';
 $string['evaluationmethod'] = 'Метод оценивания оценок';
@@ -178,7 +176,7 @@ $string['gradingsettings'] = 'Параметры оценивания';
 $string['groupnoallowed'] = 'Вы не можете получить доступ к любой группе в этом семинаре';
 $string['iamsure'] = 'Да, я уверен(а)';
 $string['indicator:cognitivedepth'] = 'Семинар: познавательный аспект';
-$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на  глубине познания, достигнутой студентом при работе с активным элементом Семинар.';
+$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на глубине познания, достигнутой студентом при работе с элементом курса «Семинар».';
 $string['indicator:socialbreadth'] = 'Семинар: социальный аспект';
 $string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с элементом Семинар.';
 $string['info'] = 'Информация';

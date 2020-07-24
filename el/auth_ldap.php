@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,6 @@ $string['auth_ldap_contexts_key'] = 'Πλαίσια';
 $string['auth_ldap_create_context'] = 'Αν ενεργοποιήσετε τη δημιουργία χρηστών με επιβεβαίωση μέσω ηλε.ταχυδρομείου τότε καθορίστε το πλαίσιο στο οποίο θα δημιουργηθούν οι χρήστες. Αυτό θα πρέπει να είναι διαφορετικό από ότι άλλων χρηστών για να αποφευχθούν προβλήματα ασφαλείας. Δεν χρειάζεται να προσθέσετε αυτή την τιμή στη μεταβλητή ldap_context, το Moodle θα αναζητήσει χρήστες αυτού του πλαισίου αυτόματα.<br /><b>Σημείωση!</b> Πρέπει να τροποποιήσετε την μέθοδο user_create() στο αρχείο auth/ldap/auth.php ώστε να λειτουργήσει η δημιουργία χρηστών.';
 $string['auth_ldap_create_context_key'] = 'Πλαίσιο για νέους χρήστες';
 $string['auth_ldap_create_error'] = 'Σφάλμα στη δημιουργία χρήστη στο LDAP.';
-$string['auth_ldap_creators'] = 'Κατάλογος ομάδων των οποίων τα μέλη επιτρέπεται να δημιουργήσουν νέα μαθήματα. Οι ομάδες διαχωρίζονται με «;». Συνήθως κάτι σαν «cn=teachers,ou=staff,o=myorg».';
-$string['auth_ldap_creators_key'] = 'Δημιουργοί';
 $string['auth_ldapdescription'] = 'Αυτή η μέθοδος παρέχει αυθεντικοποίηση μέσω (έναντι) ενός εξωτερικού εξυπηρετητή LDAP (Lightweight Directory Access Protocol). Εάν το όνομα χρήστη και ο κωδικός πρόσβασης που δίνονται, ισχύουν, το Moodle δημιουργεί μια νέα καταχώρηση χρήστη στη βάση δεδομένων του. Αυτό το πρόσθετο μπορεί να διαβάσει τα ιδιοχαρακτηριστικά χρηστών από το LDAP και να συμπληρώσει εκ των προτέρων τα ζητούμενα πεδία στο Moodle. Για τις συνδέσεις στο εξής, ελέγχονται μόνο το όνομα χρήστη και ο κωδικός πρόσβασης.';
 $string['auth_ldap_expiration_desc'] = 'Επιλέξτε «{$a->no}» για να απενεργοποιήσετε τον έλεγχο ληγμένου κωδικού ή «{$a->ldapserver}» για να διαβάζετε την λήξη του κωδικού απευθείας από τον εξυπηρετητή LDAP.';
 $string['auth_ldap_expiration_key'] = 'Λήξη';
@@ -120,6 +118,11 @@ $string['cannotmaprole'] = 'Ο ρόλος «{$a->rolename}» δεν μπορεί
 $string['connectingldap'] = 'Σύνδεση με τον εξυπηρετητή LDAP...';
 $string['connectingldapsuccess'] = 'Η σύνδεση με τον εξυπηρετητή LDAP ήταν επιτυχής';
 $string['creatingtemptable'] = 'Δημιουργία προσωρινού πίνακα «{$a}»';
+$string['diag_contextnotfound'] = 'Το πλαίσιο {$a} δεν υπάρχει ή δεν μπορεί να διαβαστεί κατά την δέσμευση DN.';
+$string['diag_emptycontext'] = 'Εντοπίστηκε κενό πλαίσιο.';
+$string['diag_genericerror'] = 'Σφάλμα LDAP {$a->code} στην ανάγνωση {$a->subject}: {$a->message}.';
+$string['diag_rolegroupnotfound'] = 'Η ομάδα {$a->group} για το ρόλο {$a->localname} δεν υπάρχει ή δεν μπορεί να διαβαστεί κατά την δέσμευση DN.';
+$string['diag_toooldversion'] = 'Είναι πολύ απίθανο ένας σύγχρονος εξυπηρετητής LDAP να χρησιμοποιεί πρωτόκολλο LDAPv2. Οι λανθασμένες ρυθμίσεις ενδέχεται να καταστρέψουν τιμές στα πεδία χρηστών. Ελέγξτε το με τον διαχειριστή του LDAP σας.';
 $string['didntfindexpiretime'] = 'Η password_expire() (λήξη κωδικού πρόσβασης) δεν βρήκε χρόνο λήξης.';
 $string['didntgetusersfromldap'] = 'Δεν επιστράφηκε κανένας χρήστης από το LDAP -- σφάλμα; -- έξοδος...';
 $string['gotcountrecordsfromldap'] = 'Λήφθηκαν {$a} εγγραφές από το LDAP';

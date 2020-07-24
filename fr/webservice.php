@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'webservice', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   webservice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -81,7 +81,7 @@ $string['entertoken'] = 'Veuillez saisir une clef (un jeton) de sécurité';
 $string['error'] = 'Erreur : {$a}';
 $string['errorcatcontextnotvalid'] = 'Vous ne pouvez pas exécuter de fonctions dans le contexte catégorie (category id:{$a->catid}). Le message d\'erreur du contexte est : {$a->message}';
 $string['errorcodes'] = 'Message d\'erreur';
-$string['errorcoursecontextnotvalid'] = 'Vous ne pouvez pas exécuter de focntions dans le contexte du cours (identifiant du cours : {$a->courseid}). Le message d\'erreur du contexte est : {$a->message}.';
+$string['errorcoursecontextnotvalid'] = 'Vous ne pouvez pas exécuter de fonctions dans le contexte du cours (identifiant du cours : {$a->courseid}). Le message d\'erreur du contexte est : {$a->message}.';
 $string['errorinvalidparam'] = 'Le paramètre « {$a} » n\'est pas valide.';
 $string['errornotemptydefaultparamarray'] = 'Le paramètre de description « {$a} » du service web est une structure simple ou multiple. Le défaut ne peut être qu\'un tableau vide. Veuillez vérifier la description du service web.';
 $string['erroroptionalparamarray'] = 'Le paramètre de description « {$a} » du service web est une structure simple ou multiple. Il ne peut pas être défini comme VALUE_OPTIONAL. Veuillez vérifier la description du service web.';

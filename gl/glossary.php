@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'glossary', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   glossary
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -91,7 +91,7 @@ $string['comments'] = 'Comentarios';
 $string['commentson'] = 'Comentarios en funcionamento';
 $string['commentupdated'] = 'Actualizouse o comentario.';
 $string['completionentries'] = 'O alumno debe crear entradas:';
-$string['completionentriesdesc'] = 'O alumno debe crear polo menos {$a} entrada(s)';
+$string['completionentriesdesc'] = 'O alumno debe crear polo menos {$a} entrada/s';
 $string['completionentriesgroup'] = 'Require entradas';
 $string['concept'] = 'Concepto';
 $string['concepts'] = 'Conceptos';
@@ -129,12 +129,12 @@ $string['displayformatfullwithauthor'] = 'Completo con autor';
 $string['displayformatfullwithoutauthor'] = 'Completo sen autor';
 $string['displayformat_help'] = 'Hai 7 formatos de presentación:
 
-* Simple, estilo de dicionario - Non se presentan os autores e as ligazóns preséntanse como ligazóns
+* Simple, estilo de dicionario - Non se presentan os autores e os anexos preséntanse como ligazóns
 * Continuo sen autor - As entradas preséntanse unha despois doutra sen ningunha separación aparte das iconas de edición
 * Completa con autor - Unha presentación estilo foro que amosa a data do autor e os anexos como ligazóns
 * Completo sen autor - Unha presentación estilo foro sen autores e os anexos como ligazóns
-* Enciclopedia - Igual ca "Completo con autor" pero as imaxes anexas amósanse en liña
-* Entrada de lista - Cos conceptos amósanse como ligazóns
+* Enciclopedia - Igual ca «Completo con autor» pero as imaxes anexas amósanse en liña
+* Entrada de lista - Os conceptos amósanse como ligazóns
 * FAQ - As palabras PREGUNTA e RESPOSTA penden do concepto da definción, respectivamente';
 $string['displayformats'] = 'Presentar formatos';
 $string['displayformatssetup'] = 'Presentar a configuración dos formatos';
@@ -158,6 +158,7 @@ $string['entryexported'] = 'Entrada exportada correctamente';
 $string['entryishidden'] = '(esta entrada está actualmente agochada)';
 $string['entryleveldefaultsettings'] = 'Configuración predeterminada de nivel de entrada';
 $string['entrylink'] = 'Ligazón para entrar: {$a}';
+$string['entrynotapproved'] = 'Entrada non aprobada';
 $string['entrysaved'] = 'Gardouse esta entrada';
 $string['entryupdated'] = 'Actualizouse esta entrada';
 $string['entryusedynalink'] = 'Esta entrada debería ser ligada automaticamente';
@@ -221,8 +222,14 @@ $string['importentries'] = 'Importar entradas';
 $string['importentriesfromxml'] = 'Importar entradas do ficheiro XML';
 $string['includegroupbreaks'] = 'Incluír quebras de grupo';
 $string['indicator:cognitivedepth'] = 'Glosario cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Glosario cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'O participante acadou esta porcentaxe do compromiso cognitivo que ofrecen as actividades de Glosario durante este intervalo de análise (Niveis = Sen vista, Ver)';
+$string['indicator:cognitivedepthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Profundidade_cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de glosario.';
 $string['indicator:socialbreadth'] = 'Glosario social';
+$string['indicator:socialbreadthdef'] = 'Glosario social';
+$string['indicator:socialbreadthdef_help'] = 'O participante acadou esta porcentaxe do compromiso social que ofrecen as actividades da Glosario de datos durante este intervalo de análise (Niveis = Sen participación, Participante en solitario)';
+$string['indicator:socialbreadthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Amplitude_social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de glosario.';
 $string['isglobal'] = 'Este glosario, é global?';
 $string['isglobal_help'] = 'Un glosario global ten entradas que están ligadas a través do sitio, antes que soamente desde un curso concreto no que estea o glosario. Soamente os administradores poden estabelecer a globalidade dun glosario.';
@@ -235,18 +242,18 @@ $string['maxtimehaspassed'] = 'Desculpe pero o tempo máximo de edición deste c
 $string['modulename'] = 'Glosario';
 $string['modulename_help'] = 'O módulo de actividade glosario activa para os participantes unha lista de definicións, como un dicionario, ou recoller e organizar recursos ou información.
 
-Un profesor pode permitir anexar ficheiros entradas do glosario. As imaxes anexas preséntanse na entrada. As entradas poden ser buscadas ou vistas por orde alfabética ou por categoría, data ou autor. As entradas poden ser aprobadas de modo predeterminado ou requirir aprobación por parte dun profesor antes de que seren visíbeis para todo o mundo.
+Un profesor pode permitir anexar ficheiros ás entradas do glosario. As imaxes anexas preséntanse na entrada. As entradas poden ser buscadas ou vistas por orde alfabética ou por categoría, data ou autor. As entradas poden ser aprobadas de modo predeterminado ou requirir aprobación por parte dun profesor antes de seren visíbeis para todo o mundo.
 
-Se o filtro de autoligado automático está activo, as entradas estarán automaticamente ligadas cando os termos e/ou as frase aparezan no transcurso do curso.
+Se o filtro de autoligado automático está activo, as entradas estarán automaticamente ligadas cando os termos e/ou as frases aparezan no transcurso do curso.
 
 Un profesor pode permitir comentarios en entradas. As entradas tamén poden ser valoradas por profesores ou alumnos (avaliación por pares). Os índices de ponderación poden engadirse para conformar unha cualificación final que se recolle no libro de cualificacións.
 
-Os glosarios teñen moitos usos, tales como
+Os glosarios teñen moitos usos, tales como:
 
 * Unha base de datos de termos claves
 * Un espazo «para coñecerse» onde os alumnos novos engaden o seu nome e detalles persoais
 * Un recurso con «notas manuais» de boas prácticas en asuntos prácticos
-* Unha área de compartición de vídeos útiles, imaxes ou o ficheiros de son
+* Unha área de compartición de vídeos útiles, imaxes ou ficheiros de son
 * Un recurso de revisión de actividades para lembrar';
 $string['modulename_link'] = 'mod/glossary/vista';
 $string['modulenameplural'] = 'Glosarios';

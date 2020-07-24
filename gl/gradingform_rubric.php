@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_rubric', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'gradingform_rubric', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   gradingform_rubric
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addcriterion'] = 'Engadir criterio';
+$string['additionalfeedback'] = 'Comentario adicional';
 $string['alwaysshowdefinition'] = 'Permitirlle aos usuarios obter unha vista previa da rúbrica empregada no módulo (do contrario a rúbrica só será visíbel despois da cualificación)';
 $string['backtoediting'] = 'Volver á edición';
 $string['confirmdeletecriterion'] = 'Confirma que quere eliminar este criterio?';
@@ -58,7 +59,9 @@ $string['lockzeropoints'] = 'Calcular a cualificación baseándose na rúbrica q
 $string['lockzeropoints_help'] = 'Este axuste só se aplica se a suma do número mínimo de puntos para cada criterio é maior que 0. Se está marcada, a cualificación mínima alcanzable para a rúbrica será maior que 0. Se non está marcada, asignarase a puntuación mínima posíbel para a rúbrica á cualificación mínima dispoñíbel para a actividade (que é 0 a non ser que se use unha escala).';
 $string['name'] = 'Nome';
 $string['needregrademessage'] = 'A definición da rubrica foi cambiada despois de que este alumno fose cualificado. O alumno non pode ver esta rubrica ata que vostede comprobe a rubrica e actualice a cualificación.';
+$string['notset'] = 'Non estabelecido';
 $string['pluginname'] = 'Rúbrica';
+$string['pointsvalue'] = '{$a} puntos';
 $string['previewrubric'] = 'Vista previa da rúbrica';
 $string['privacy:metadata:criterionid'] = 'Un identificador para un criterio específico que está a ser cualificado.';
 $string['privacy:metadata:fillingssummary'] = 'Almacena información sobre a cualificación do usuario creada pola rúbrica.';

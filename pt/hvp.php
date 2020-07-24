@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'hvp', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   hvp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -148,7 +148,7 @@ $string['enablesavecontentstate'] = 'Guardar o estado do conteúdo';
 $string['enablesavecontentstate_help'] = 'Guardar automaticamente o estado atual do conteúdo interativo para cada utilizador. Isto significa que o utilizador pode continuar de onde tinha parado anteriormente.';
 $string['failedtodownloadh5p'] = 'Ocorreu um erro ao descarregar o H5P requerido.';
 $string['fileexceedsmaxsize'] = 'Um dos ficheiros incluídos no pacote excede o tamanho máximo permitido. (%file %used > %max)';
-$string['filenotfoundonserver'] = 'Ficheiro não foi encontrado no servidor. Confira as definições de carregamento de ficheiros.';
+$string['filenotfoundonserver'] = 'Ficheiro não foi encontrado no servidor. Confira as configurações de carregamento de ficheiros.';
 $string['filenotimage'] = 'O ficheiro não é uma imagem';
 $string['filetypenotallowed'] = 'Tipo de ficheiro não permitido.';
 $string['finished'] = 'Terminado';
@@ -243,7 +243,7 @@ $string['messageprovider:confirmation'] = 'Confirmação das suas submissões H5
 $string['messageprovider:submission'] = 'Notificação de submissões H5P';
 $string['missingcontentfolder'] = 'Não foi encontrado uma pasta com conteúdo válido';
 $string['missingcontentuserdata'] = 'Erro: Não foi possível encontrar os dados do conteúdo do utilizador';
-$string['missingcoreversion'] = 'O sistema não conseguiu instalar o componente \'<em>{$a->%component}</em>\' do pacote. É requerida uma versão mais atual do módulo H5P. Neste site está instalada a versão {$a->%current} e é requerida a versão {$a->%required} ou superior. Considere fazer uma atualização e tentar novamente.';
+$string['missingcoreversion'] = 'O sistema não conseguiu instalar o componente "<em>{$a->%component}</em>" do pacote. É requerida uma versão mais atual do módulo H5P. Neste site está atualmente instalada a versão {$a->%current} e é requerida a versão {$a->%required} ou superior. Considere fazer a atualização e tentar novamente.';
 $string['missingdependency'] = 'Dependência {$a->@dep} em falta e requerida por {$a->@lib}.';
 $string['missinglibrary'] = 'Falta a biblioteca requerida {$a->@library}';
 $string['missinglibraryfile'] = 'O ficheiro "{$a->%file}" está em falta na biblioteca: "{$a->%name}"';

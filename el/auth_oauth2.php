@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -78,6 +78,15 @@ $string['createaccountswarning'] = 'Αυτό το πρόσθετο ελέγχο�
 $string['createnewlinkedlogin'] = 'Σύνδεση νέου λογαριασμού ({$a})';
 $string['emailconfirmlink'] = 'Συνδέστε τους λογαριασμούς σας';
 $string['emailconfirmlinksent'] = '<p>Βρέθηκε ένας λογαριασμός με αυτή την διεύθυνση ηλε.ταχυδρομείου αλλά δεν είναι ακόμα συνδεδεμένος.</p><p>Οι λογαριασμοί θα πρέπει να είναι συνδεδεμένοι μεταξύ τους πριν μπορέσετε να συνδεθείτε.</p><p>Ένα μήνυμα ηλε.ταχυδρομείου θα πρέπει να έχει σταλεί στη διεύθυνσή σας <b>{$a}</b>.</p><p>Περιέχει οδηγίες για να συνδέσετε τους λογαριασμούς σας.</p><p>Αν υπάρχει οποιαδήποτε δυσκολία, απευθυνθείτε στο διαχειριστή του ιστοτόπου.</p>';
+$string['emailpasswordchangeinfo'] = 'Γεια σας {$a->firstname},
+
+Κάποιος (πιθανώς εσείς) ζήτησε έναν νέο κωδικό πρόσβασης για το λογαριασμό σας στο «{$a->sitename}».
+
+Ωστόσο, ο κωδικός πρόσβασης δεν μπορεί να επαναρχικοποιηθεί επειδή χρησιμοποιείτε το λογαριασμό σας σε άλλον ιστότοπο για να συνδεθείτε.
+
+Συνδεθείτε όπως πριν, χρησιμοποιώντας το σύνδεσμο στη σελίδα σύνδεσης.
+{$a->admin}';
+$string['emailpasswordchangeinfosubject'] = '{$a}: Αλλαγή πληροφοριών κωδικού πρόσβασης';
 $string['info'] = 'Εξωτερικός λογαριασμός';
 $string['issuer'] = 'Υπηρεσία OAuth 2';
 $string['issuernologin'] = 'Αυτός ο εκδότης δεν μπορεί να χρησιμοποιηθεί για σύνδεση';

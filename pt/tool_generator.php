@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_generator', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_generator', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_generator
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -59,7 +59,7 @@ $string['error_nopageinstances'] = 'A disciplina selecionada não contém instâ
 $string['error_notdebugging'] = 'Não está disponível neste servidor porque a depuração (mensagens de erro) não está definido para o Programador.';
 $string['error_nouserspassword'] = 'Tem de definir $CFG->tool_generator_users_password em \'config.php\' para gerar o plano de teste';
 $string['fullname'] = 'Testar disciplina: {$a->size}';
-$string['maketestcourse'] = 'Criar disciplina de Teste';
+$string['maketestcourse'] = 'Criar disciplina experimental';
 $string['maketestplan'] = 'Criar plano de teste JMeter';
 $string['notenoughusers'] = 'A disciplina selecionada não contém utilizadores suficientes';
 $string['pluginname'] = 'Gerador de dados de desenvolvimento';

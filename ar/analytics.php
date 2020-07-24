@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'analytics', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'analytics', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   analytics
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,17 +32,23 @@ $string['analytics'] = 'تحليلات';
 $string['analyticslogstore'] = 'مخزن السجل المستخدم للتحليلات';
 $string['analyticslogstore_help'] = 'مخزن السجلات الذي سيتم استخدامه بواسطة واجهة برمجة تطبيقات التحليلاتAPI  لقراءة أنشطة المستخدمين';
 $string['analyticssettings'] = 'إعدادات التحليلات';
-$string['coursetoolong'] = 'المساق طويل جداَ';
+$string['analyticssiteinfo'] = 'معلومات الموقع';
 $string['defaultpredictionsprocessor'] = 'معالج التنبؤات الافتراضي';
 $string['defaultpredictoroption'] = 'المعالج الافتراضي ({$a})';
 $string['disabledmodel'] = 'نموذج معطل';
-$string['enabledtimesplittings'] = 'طرق قسمة الوقت';
 $string['erroralreadypredict'] = 'تم استخدام الملف {$ a} سابقا لتوليد التوقعات.';
 $string['errorcannotreaddataset'] = 'ملف البيانات {$a} لا يمكن قراءته';
 $string['errorcannotwritedataset'] = 'ملف البيانات {$a} لا يمكن كتابته';
-$string['errorendbeforestart'] = 'تاريخ الانتهاء ({$a}) يسبق تاريخ بدء المساق.';
+$string['errorexportmodelresult'] = 'لا يمكن تصدير نموذج التعلم الآلي.';
+$string['errorimport'] = 'خطأ في استيراد ملف JSON المقدم.';
+$string['errorimportmissingclasses'] = 'لا تتوفر مكونات التحليلات التالية على هذا الموقع: {$a-> missingclasses}.';
+$string['errorimportmissingcomponents'] = 'يتطلب النموذج المقدم تثبيت الإضافات التالية: {$a}. لاحظ أن الإصدارات لا تحتاج بالضرورة إلى التطابق مع الإصدارات المثبتة على موقعك.
+يجب تثبيت الإصدار نفسه أو إصدار أحدث من المكون الإضافي بشكل جيد في معظم الحالات.';
+$string['errorimportversionmismatches'] = 'يختلف إصدار المكونات التالية عن الإصدار المثبت على هذا الموقع: {$a}. يمكنك استخدام الخيار "تجاهل عدم تطابق الإصدار" لتجاهل هذه الاختلافات.';
 $string['errorinvalidindicator'] = '{$a} مؤشر غير صالح';
+$string['errorinvalidtarget'] = 'هدف {$a} غير صالح';
 $string['errorinvalidtimesplitting'] = 'تقسيم الوقت غير صالح يرجى التأكد من إضافة اسم الفصل المؤهل بالكامل.';
+$string['errornoexportconfig'] = 'كانت هناك مشكلة في تصدير تكوين النموذج.';
 $string['errornoindicators'] = 'هذا النموذج ليس لديه أي مؤشرات.';
 $string['errornopredictresults'] = 'معالج التنبؤات لم يظهر أي نتائج. تأكد من محتويات دليل الإخراج لمزيد من المعلومات.';
 $string['errornoroles'] = 'لم يتم تحديد أدوار الطلاب أو المعلمين. حددهم في صفحة إعدادات التحليلات.';
@@ -61,11 +67,25 @@ $string['errorunknownaction'] = 'إجراء غير معروف';
 $string['eventinsightsviewed'] = 'أفكار تم مشاهدتها';
 $string['eventpredictionactionstarted'] = 'بدأت عملية التنبؤ';
 $string['fixedack'] = 'تم الاقرار به';
-$string['insightinfomessage'] = 'النظام أنتج بعض الافكار لك: {$a}';
 $string['insightinfomessagehtml'] = 'النظام أنتج بعض الافكار لك: <a href="{$a}">{$a}</a>.';
+$string['insightinfomessageplain'] = 'النظام أنتج بعض الافكار لك: {$a}';
 $string['insightmessagesubject'] = 'أفكار جديدة لِ"{$a->contextname}": {$a->insightname}';
 $string['invalidanalysablefortimesplitting'] = 'لا يمكن تحليلها باستخدام طريقة {$a} تقسيم الوقت.';
 $string['invalidtimesplitting'] = 'يحتاج النموذج الذي يحمل المعرّف {$a} إلى طريقة تقسيم الوقت قبل استخدامه للتدرب.';
+$string['levelinstitution'] = 'مستوى التعليم';
+$string['levelinstitutionisced0'] = 'التعليم في مرحلة الطفولة المبكرة (أقل من التعليم الابتدائي) للتحصيل التعليمي';
+$string['levelinstitutionisced1'] = 'التعليم الابتدائي';
+$string['levelinstitutionisced2'] = 'التعليم الثانوي الأدنى';
+$string['levelinstitutionisced3'] = 'التعليم الثانوي العالي';
+$string['levelinstitutionisced4'] = 'التعليم بعد الثانوي غير الجامعي (قد يشمل تدريب الشركات أو المجتمع / المنظمات غير الحكومية)';
+$string['levelinstitutionisced5'] = 'التعليم العالي في دورة قصيرة (قد يشمل تدريب الشركات أو المجتمع / المنظمات غير الحكومية)';
+$string['levelinstitutionisced6'] = 'درجة البكالوريوس أو ما يعادلها';
+$string['levelinstitutionisced7'] = 'مستوى الماجستير أو ما يعادلها';
+$string['levelinstitutionisced8'] = 'الدكتوراه أو ما يعادلها المستوى';
+$string['modeinstruction'] = 'طرق التدريس';
+$string['modeinstructionblendedhybrid'] = 'المخلوطة أو الهجين';
+$string['modeinstructionfacetoface'] = 'وجها لوجه';
+$string['modeinstructionfullyonline'] = 'على الانترنت بالكامل';
 $string['modeloutputdir'] = 'دليل انتاج النماذج';
 $string['modeloutputdirinfo'] = 'الدليل حيث تخزن معالجات التنبؤ جميع معلومات التقييم. مفيد للتصحيح والبحوث.';
 $string['modeltimelimit'] = 'الوقت اللأقصى لتحليل كل نموذج';
@@ -77,7 +97,6 @@ $string['noinsights'] = 'لم يتم الإبلاغ عن أي افكار';
 $string['noinsightsmodel'] = 'هذا النموذج لا يولد افكار';
 $string['nonewdata'] = 'لا توجد بيانات جديدة متاحة';
 $string['nonewranges'] = 'لا توجد تنبؤات جديدة حتى الآن';
-$string['nonewtimeranges'] = 'لا نطاقات زمنية جديدة ؛ لا شيء للتنبؤ.';
 $string['nopredictionsyet'] = 'لا توجد توقعات متاحة حتى الآن';
 $string['noranges'] = 'لا توجد توقعات حتى الآن';
 $string['notrainingbasedassumptions'] = 'لا تحتاج النماذج القائمة على الافتراضات إلى التدريب';
@@ -86,6 +105,8 @@ $string['novaliddata'] = 'لا توجد بيانات صالحة متاحة';
 $string['novalidsamples'] = 'لا توجد عينات صالحة المتاحة';
 $string['onlycli'] = 'تنفيذ معالجة التحليلات من خلال سطر الأوامر فقط';
 $string['onlycliinfo'] = 'يمكن أن تستغرق عمليات التحليلات مثل تقييم النماذج أو تدريب خوارزميات تعلم الآلة أو الحصول على تنبؤات بعض الوقت ، حيث يتم تشغيلها كمهام cron ويمكن فرضها عبر سطر الأوامر. يمكنك تعطيل هذا الإعداد إذا كنت ترغب في أن يتمكن مديرو المواقع من تشغيل هذه العمليات يدويًا عبر واجهة الويب';
+$string['percentonline'] = 'في المئة على الانترنت';
+$string['percentonline_help'] = 'إذا كانت مؤسستك تقدم دورات مختلطة أو مختلطة ، فما هي نسبة عمل الطلاب التي تتم عبر الإنترنت في Moodle؟ أدخل رقمًا بين 0 و 100.';
 $string['predictionsprocessor'] = 'معالج التنبؤات';
 $string['predictionsprocessor_help'] = 'معالج التوقعات هو الخلفية للتعلم الآلي التي تعالج مجموعات البيانات الناتجة عن حساب مؤشرات وأهداف النماذج. سيتم حذف جميع الخوارزميات والتنبؤات المدربة إذا قمت بالتغيير إلى معالج تنبؤات آخر.';
 $string['privacy:metadata:analytics:indicatorcalc'] = 'حسابات المؤشر';
@@ -116,4 +137,9 @@ $string['processingsitecontents'] = 'معالجة محتويات الموقع';
 $string['successfullyanalysed'] = 'تم تحليلها بنجاح';
 $string['timesplittingmethod'] = 'طريقة قسمة الوقت';
 $string['timesplittingmethod_help'] = 'تقسم طريقة تقسيم الوقت مدة المساق إلى أجزاء؛ سيتم تشغيل محرك التنبؤات في نهاية هذه الأجزاء. من المستحسن أن تقوم فقط بتمكين طرق تقسيم الوقت التي قد تكون مهتمًا باستخدامها. سوف تتكرر عملية التقييم من خلال جميع طرق تقسيم الوقت التي تم تمكينها، لذا كلما زادت طرق تقسيم الوقت ، كلما كانت عملية التقييم أبطأ.';
+$string['typeinstitution'] = 'نوع المؤسسة';
+$string['typeinstitutionacademic'] = 'أكاديمي';
+$string['typeinstitutionngo'] = 'منظمة غير حكومية';
+$string['typeinstitutiontraining'] = 'تدريب موظفي الشركات';
+$string['viewdetails'] = 'عرض التفاصيل';
 $string['viewprediction'] = 'مشاهدة تفاصيل التنبؤ';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'url', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   url
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,8 +47,12 @@ $string['displayselect_help'] = 'Ezarpen honek, URL fitxategi-mota kontuan hartu
 $string['externalurl'] = 'Kanpoko URLa';
 $string['framesize'] = 'Markoaren altuera';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa URLetan';
+$string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa URLetan';
+$string['indicator:cognitivedepthdef_help'] = 'Partaide honek URL baliabideak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da)';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak URLa motako baliabideetan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala URLetan';
+$string['indicator:socialbreadthdef'] = 'Gaitasun soziala URLetan';
+$string['indicator:socialbreadthdef_help'] = 'Partaide honek URL baliabideak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan';
 $string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak URLa motako baliabideetan lortutako zabalera sozialean oinarrituta dago.';
 $string['invalidstoredurl'] = 'Ezin da baliabide hau erakutsi. URLak ez du balio.';
 $string['invalidurl'] = 'Gehitutako URLak ez du balio';

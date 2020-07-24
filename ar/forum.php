@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'forum', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   forum
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,6 +41,7 @@ $string['areaattachment'] = 'مرفقات';
 $string['areapost'] = 'رسائل';
 $string['attachment'] = 'ملف مرفق';
 $string['attachments'] = 'مرفقات';
+$string['availability'] = '(الإتاحة (التوفر';
 $string['blockafter'] = 'اعلن بداية المنع';
 $string['blockafter_help'] = 'يمكن هذا الإعداد من تحديد العدد الأعظم لمشاركات الطلاب في المنتدى في فترة زمنية محددة. المستخدمون الذين يتمتعون بصلاحية  mod/forum:postwithoutthrottling هم معفون من حد المشاركات.';
 $string['blockperiod'] = 'فترة المنع الزمنية';
@@ -94,6 +95,7 @@ $string['discussthistopic'] = 'ناقش هذا الموضوع';
 $string['displayend'] = 'اعرض النهائية';
 $string['displayperiod'] = 'اعرض الفترة';
 $string['displaystart'] = 'اعرض البداية';
+$string['duedate'] = 'تاريخ تقديم مهمة';
 $string['eachuserforum'] = 'يستطيع كل مستخدم أن يرسل نقاشا واحدا';
 $string['edit'] = 'حرر';
 $string['editedby'] = 'تم تحريره بواسطة {$a->name} - {$a->date}';

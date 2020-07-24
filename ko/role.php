@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'role', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,7 +67,6 @@ $string['backup:anonymise'] = '백업시 사용자 데이터 익명화';
 $string['backup:backupactivity'] = '활동 백업';
 $string['backup:backupcourse'] = '강좌 백업';
 $string['backup:backupsection'] = '영역 백업';
-$string['backup:backuptargethub'] = '허브 백업';
 $string['backup:backuptargetimport'] = '목적지 백업';
 $string['backup:configure'] = '백업 설정';
 $string['backup:downloadfile'] = '백업 영역에서 파일 내려받기';
@@ -113,8 +112,6 @@ $string['cohort:view'] = '강좌의 수업집단 보기';
 $string['comment:delete'] = '덧글 삭제';
 $string['comment:post'] = '덧글 게시';
 $string['comment:view'] = '덧글 보기';
-$string['community:add'] = '허브를 검색하여 강좌를 찾으려면 커뮤니티 블록을 사용하세요.';
-$string['community:download'] = '커뮤니티 블록에서 강좌 다운로드';
 $string['confirmaddadmin'] = '사용자 <strong>{$a}</strong>를 새 사이트 관리자로 추가하기를 원하십니까?';
 $string['confirmdeladmin'] = '사용자 <strong>{$a}</strong>를 사이트 관리자 목록에서 제거하기를 원하십니까?';
 $string['confirmroleprevent'] = '정말 {$a->context}  문맥에서 능력 {$a->cap} 에 대한 허용된 역할 목록에서 <strong>{$a->role}</strong> 역할을 제거하기를 원하십니까?';
@@ -142,7 +139,6 @@ $string['course:managegroups'] = '모둠 관리';
 $string['course:managescales'] = '척도 관리';
 $string['course:markcomplete'] = '강좌이수완료에 사용자를 완료한 것으로 표기';
 $string['course:movesections'] = '섹션 이동';
-$string['course:publish'] = '허브에 강좌 공개';
 $string['course:request'] = '강좌 개설 요청';
 $string['course:reset'] = '강좌 초기화';
 $string['course:sectionvisibility'] = '영역 보기 조정';
@@ -305,7 +301,6 @@ $string['restore:createuser'] = '복구시 사용자 생성';
 $string['restore:restoreactivity'] = '활동 복구';
 $string['restore:restorecourse'] = '강좌 복구';
 $string['restore:restoresection'] = '영역 복구';
-$string['restore:restoretargethub'] = '허브에서 파일 복구';
 $string['restore:restoretargetimport'] = '목적지에서 파일 복구';
 $string['restore:rolldates'] = '복원시에 활동 구성 일자를 회전 하는 것을 허용';
 $string['restore:uploadfile'] = '백업 영역에서 파일 올리기';

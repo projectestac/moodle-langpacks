@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'role', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   role
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,7 +68,6 @@ $string['backup:anonymise'] = '备份时隐去用户数据';
 $string['backup:backupactivity'] = '备份活动';
 $string['backup:backupcourse'] = '备份课程';
 $string['backup:backupsection'] = '备份小节';
-$string['backup:backuptargethub'] = '在Moodle.net发布的备份';
 $string['backup:backuptargetimport'] = '面向导入备份';
 $string['backup:configure'] = '配置备份选项';
 $string['backup:downloadfile'] = '从备份区下载文件';
@@ -117,8 +116,6 @@ $string['cohort:view'] = '查看全站群';
 $string['comment:delete'] = '删除评论';
 $string['comment:post'] = '发表评论';
 $string['comment:view'] = '查看评论';
-$string['community:add'] = '使用社区版块搜索Moodle.net和寻找课程';
-$string['community:download'] = '从社区版块下载课程';
 $string['competency:competencygrade'] = '设置能力评级';
 $string['competency:competencymanage'] = '管理能力框架';
 $string['competency:competencyview'] = '审查能力框架';
@@ -182,7 +179,6 @@ $string['course:managescales'] = '管理等级';
 $string['course:markcomplete'] = '课程完成时标记用户为完成';
 $string['course:movesections'] = '移动小节';
 $string['course:overridecompletion'] = '优先取代活动完成状态';
-$string['course:publish'] = '发布课程';
 $string['course:renameroles'] = '重命名角色';
 $string['course:request'] = '申请创建新课程';
 $string['course:reset'] = '重置课程';
@@ -363,7 +359,6 @@ $string['restore:createuser'] = '恢复时创建用户';
 $string['restore:restoreactivity'] = '恢复活动';
 $string['restore:restorecourse'] = '恢复课程';
 $string['restore:restoresection'] = '恢复小节';
-$string['restore:restoretargethub'] = '从面向中心服务器的文件恢复';
 $string['restore:restoretargetimport'] = '从面向导入的文件恢复';
 $string['restore:rolldates'] = '允许在恢复时回滚活动配置日期';
 $string['restore:uploadfile'] = '上传文件到备份区';

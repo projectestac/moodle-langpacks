@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'editor_tinymce', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   editor_tinymce
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -54,7 +54,7 @@ $string['advanced_dlg:'] = '';
 $string['advanced_dlg:about_author'] = 'Author';
 $string['advanced_dlg:about_general'] = 'About';
 $string['advanced_dlg:about_help'] = 'Help';
-$string['advanced_dlg:about_license'] = 'License';
+$string['advanced_dlg:about_license'] = 'Licence';
 $string['advanced_dlg:about_loaded'] = 'Loaded plugins';
 $string['advanced_dlg:about_plugin'] = 'Plugin';
 $string['advanced_dlg:about_plugins'] = 'Plugins';

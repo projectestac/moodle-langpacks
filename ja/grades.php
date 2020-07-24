@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'grades', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addfeedback'] = 'フィードバックを追加する';
 $string['addgradeletter'] = '評定文字を追加する';
 $string['addidnumbers'] = 'IDナンバーを追加する';
 $string['additem'] = '評定項目を追加する';
+$string['additionalfeedback'] = '追加フィードバック';
 $string['addoutcome'] = 'アウトカムを追加する';
 $string['addoutcomeitem'] = 'アウトカム項目を追加する';
 $string['addscale'] = '評価尺度を追加する';
@@ -92,7 +93,7 @@ $string['autosort'] = '自動並べ替え';
 $string['availableidnumbers'] = '利用可能なIDナンバー';
 $string['average'] = '平均';
 $string['averagesdecimalpoints'] = 'カラム平均の小数点以下桁数';
-$string['averagesdecimalpoints_help'] = 'この設定ではそれぞれの平均点に表示される小数点以下桁数、または全体のカテゴリ設定または評定項目で全体の小数点設定を使用 (継承) するかどうか決定します。';
+$string['averagesdecimalpoints_help'] = 'この設定ではそれぞれの平均点に表示される小数位以下桁数、または全体のカテゴリ設定または評定項目で全体の小数位設定を使用 (継承) するかどうか決定します。';
 $string['averagesdisplaytype'] = 'カラム平均の表示タイプ';
 $string['averagesdisplaytype_help'] = 'この設定では実評点、パーセンテージ、評価文字として平均が表示されるか、またはカテゴリまたは評定項目の表示タイプを使用 (継承) するかどうか決定します。';
 $string['backupwithoutgradebook'] = 'バックアップには評定表設定を含みません。';
@@ -120,6 +121,7 @@ $string['changedefaults'] = 'デフォルトを変更する';
 $string['changereportdefaults'] = 'レポートデフォルトを変更する';
 $string['chooseaction'] = '処理を選択する ...';
 $string['choosecategory'] = 'カテゴリを選択する';
+$string['collapsecriterion'] = 'クライテリアを折りたたむ';
 $string['combo'] = 'タブおよびドロップダウンメニュー';
 $string['compact'] = 'コンパクト';
 $string['componentcontrolsvisibility'] = 'この評定項目が表示されるかどうか活動設定によりコントロールされます。';
@@ -144,8 +146,8 @@ $string['creatinggradebooksettings'] = '評定表設定の作成';
 $string['csv'] = 'CSV';
 $string['currentparentaggregation'] = '現在の親の総計';
 $string['curveto'] = 'みなし満点';
-$string['decimalpoints'] = '全体の小数点';
-$string['decimalpoints_help'] = 'この設定ではそれぞれの評定に表示する小数点以下桁数を決定します。小数位5桁の精度の評定計算に影響はありません。';
+$string['decimalpoints'] = '全体の小数位';
+$string['decimalpoints_help'] = 'この設定ではそれぞれの評定に表示する小数位以下桁数を決定します。小数位5桁の精度の評定計算に影響はありません。';
 $string['default'] = 'デフォルト';
 $string['defaultprev'] = 'デフォルト ({$a})';
 $string['deletecategory'] = 'カテゴリを削除する';
@@ -196,6 +198,8 @@ $string['errorupdatinggradecategoryaggregateoutcomes'] = '評定カテゴリID {
 $string['errorupdatinggradecategoryaggregation'] = '評定カテゴリID {$a->id} の総計タイプ更新中にエラーが発生しました。';
 $string['errorupdatinggradeitemaggregationcoef'] = '評定カテゴリID {$a->id} の総計係数 (加重または追加点) 更新中にエラーが発生しました。';
 $string['eventgradedeleted'] = '評点が削除されました。';
+$string['eventgradeitemcreated'] = '評定項目が作成されました。';
+$string['eventgradeitemupdated'] = '評定項目が更新されました。';
 $string['eventgradelettercreated'] = '評定文字が作成されました。';
 $string['eventgradeletterdeleted'] = '評定文字が削除されました。';
 $string['eventgradeletterupdated'] = '評定文字が更新されました。';
@@ -207,6 +211,7 @@ $string['eventusergraded'] = 'ユーザが評定されました。';
 $string['excluded'] = '除外';
 $string['excluded_help'] = '除外が有効にされた場合、評点はすべての総計から除外されます。';
 $string['expand'] = 'カテゴリを展開する';
+$string['expandcriterion'] = 'クライテリアを展開する';
 $string['export'] = 'エクスポート';
 $string['exportalloutcomes'] = 'すべてのアウトカムをエクスポートする';
 $string['exportfeedback'] = 'エクスポートにフィードバックを含む';
@@ -266,18 +271,18 @@ $string['gradecategoryonmodform_help'] = 'この設定ではこの活動の評�
 $string['gradecategorysettings'] = '評定カテゴリ設定';
 $string['gradedisplay'] = '評定表示';
 $string['gradedisplaytype'] = '評定表示タイプ';
-$string['gradedisplaytype_help'] = 'この設定では評定者およびユーザレポートにおいて、評点がどのように表示されるか決定します。
+$string['gradedisplaytype_help'] = 'この設定では評定者およびユーザレポートにおいて評点がどのように表示されるか決定します。
 
-* 実データ - 実評点
-* パーセンテージ
-* 文字 - 評点の範囲を表す文字または単語';
+* 文字 - 評定表セットアップで定義された「文字」の評定の範囲を示す文字または言葉です。
+* パーセンテージ - 最大および最小評点間の相対値です。
+* 実 - 実際の評点または尺度値です。';
 $string['gradedon'] = '評定日時: {$a}';
 $string['gradeexport'] = '評定エクスポート';
 $string['gradeexportcolumntype'] = '{$a->name} ({$a->extra})';
 $string['gradeexportcustomprofilefields'] = '評定エクスポート - カスタムプロファイルフィールド';
 $string['gradeexportcustomprofilefields_desc'] = 'これらのカスタムプロファイルフィールド (カンマ区切り) を評定エクスポートに含みます。';
-$string['gradeexportdecimalpoints'] = '評定エクスポート - 小数点';
-$string['gradeexportdecimalpoints_desc'] = 'エクスポートに表示する小数点以下桁数です。この値はエクスポート時にオーバーライドすることができます。';
+$string['gradeexportdecimalpoints'] = '評定エクスポート - 小数位';
+$string['gradeexportdecimalpoints_desc'] = 'エクスポートに表示する小数位以下桁数です。この値はエクスポート時にオーバーライドすることができます。';
 $string['gradeexportdisplaytype'] = '評定エクスポート - 表示タイプ';
 $string['gradeexportdisplaytype_desc'] = '評定を実データ、パーセンテージ (最小および最大評点に関して)、文字 (A、B、C等..) で表示することができます。この値はエクスポート時にオーバーライドすることができます。';
 $string['gradeexportdisplaytypes'] = '評定エクスポート表示タイプ';
@@ -286,6 +291,7 @@ $string['gradeexportuserprofilefields_desc'] = 'これらのユーザプロフ�
 $string['gradeforstudent'] = '{$a->student}<br />{$a->item}$a->feedback';
 $string['gradegrademinmax'] = '初期最小および最大評点';
 $string['gradehelp'] = '評定ヘルプ';
+$string['grade_help'] = 'この学生の取り組みに与えられた評点です。';
 $string['gradehistorylifetime'] = '評定履歴保存期間';
 $string['gradehistorylifetime_help'] = 'ここでは評定に関連するテーブル履歴の保存期間を指定します。可能な限り長い期間の保存をお勧めします。あなたがパフォーマンスに関する問題を経験した場合、またはデータベース領域が制限されている場合、この値を小さくしてください。';
 $string['gradeimport'] = '評定インポート';
@@ -314,6 +320,8 @@ $string['grademax'] = '最大評点';
 $string['grademax_help'] = 'この設定では評定タイプ「値」使用する場合の最大評点を決定します。活動ベースの評定項目の最大評点は活動の更新ページで設定します。';
 $string['grademin'] = '最小評点';
 $string['grademin_help'] = 'この設定では評定タイプ「値」使用する場合の最小評点を決定します。';
+$string['gradenotificationmessage'] = 'あなたの「 {$a} 」の作業に新しいフィードバックがあります。';
+$string['gradenotificationsubject'] = 'あなたは評定されました。';
 $string['gradeoutcomeitem'] = '評定アウトカム項目';
 $string['gradeoutcomes'] = 'アウトカム';
 $string['gradeoutcomescourses'] = 'コースアウトカム';
@@ -352,6 +360,7 @@ $string['gradevaluetoobig'] = '許可された最大評点  {$a} を評点の1�
 $string['gradeview'] = '評定を表示する';
 $string['gradewasmodifiedduringediting'] = '最近他のユーザによって更新されたため、入力された {$a->itemname} に関する {$a->username} の評点は無視されました。';
 $string['gradeweighthelp'] = '評定加重ヘルプ';
+$string['gradingmodulename'] = '評定 ({$a})';
 $string['groupavg'] = 'グループ平均';
 $string['hidden'] = '隠す';
 $string['hiddenasdate'] = '隠し評定項目の登録日付を表示する';
@@ -548,6 +557,7 @@ $string['noselecteditems'] = '項目が選択されていません。';
 $string['notenrolled'] = '現在、あなたが登録しているコースはありません。';
 $string['notteachererror'] = 'この機能を使用する場合、あなたは教師である必要があります。';
 $string['nousersloaded'] = 'ユーザが読み込まれていません。';
+$string['nouserstograde'] = '評定対象ユーザなし';
 $string['numberofgrades'] = '評定数';
 $string['onascaleof'] = '尺度の適用範囲: {$a->grademin} - {$a->grademax}';
 $string['operations'] = '操作';
@@ -659,10 +669,10 @@ $string['quickgrading_help'] = 'この設定を有効にした場合、編集モ
 
 評定者レポート内で評定が編集された場合、オーバーライドフラグが設定され、関連する活動で評定を変更できないようになることに留意してください。';
 $string['range'] = '範囲';
-$string['rangedecimals'] = '小数点範囲';
-$string['rangedecimals_help'] = '表示する小数点の範囲です。';
+$string['rangedecimals'] = '小数位範囲';
+$string['rangedecimals_help'] = '表示する小数位の範囲です。';
 $string['rangesdecimalpoints'] = '範囲で表示する小数点以下桁数';
-$string['rangesdecimalpoints_help'] = 'この設定ではそれぞれの範囲に表示する小数点以下桁数、またはカテゴリ全体の小数点以下桁数または評定項目を使用 (継承) するか決定します。';
+$string['rangesdecimalpoints_help'] = 'この設定ではそれぞれの範囲に表示する小数位以下桁数、またはカテゴリ全体の小数位以下桁数または評定項目を使用 (継承) するか決定します。';
 $string['rangesdisplaytype'] = '範囲表示タイプ';
 $string['rangesdisplaytype_help'] = 'この設定では範囲を実評点、パーセンテージまたは文字として表示するか、またはカテゴリ全体の表示タイプまたは評定項目を使用 (継承) するか決定します。';
 $string['rank'] = 'ランク';

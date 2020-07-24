@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploaduser', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,9 +35,15 @@ $string['deleteerrors'] = 'Apagar erros';
 $string['encoding'] = 'Codificação';
 $string['errormnetadd'] = 'Não é possível adicionar utilizadores remotos';
 $string['errors'] = 'Erros';
+$string['examplecsv'] = 'Ficheiro de texto de exemplo';
+$string['examplecsv_help'] = 'Para usar o ficheiro de texto de exemplo, descarregue-o e abra-o com um editor de texto ou de folha de cálculo. Deixe a primeira linha inalterada, edite as seguintes linhas (registos) e adicione os dados do utilizador, adicionando mais linhas conforme necessário. Guarde o ficheiro como CSV e carregue-o.
+
+O ficheiro de texto de exemplo também pode ser usado para teste, uma vez que pode visualizar os dados do utilizador e optar por cancelar a ação antes da criação de contas de utilizador.';
+$string['invalidtheme'] = 'O tema "{$a}" não está instalado e será ignorado.';
 $string['invalidupdatetype'] = 'Não pode selecionar esta opção com o \'Tipo de carregamento\' escolhido.';
 $string['invaliduserdata'] = 'Foram detetados dados inválidos para o utilizador {$a} que foram apagados automaticamente.';
 $string['nochanges'] = 'Sem alterações';
+$string['notheme'] = 'Nenhum tema está definido para este utilizador.';
 $string['pluginname'] = 'Carregar utilizador';
 $string['privacy:metadata'] = 'O módulo Carregar Utilizadores não armazena dados pessoais.';
 $string['renameerrors'] = 'Renomear erros';
@@ -77,6 +83,7 @@ $string['usersrenamed'] = 'Utilizadores renomeados';
 $string['usersskipped'] = 'Utilizadores ignorados';
 $string['usersupdated'] = 'Utilizadores atualizados';
 $string['usersweakpassword'] = 'Utilizadores com senha fraca';
+$string['userthemesnotallowed'] = 'A escolha do tema pelo utilizador não está ativada, por isso, qualquer utilizador incluído no ficheiro de carregamento de utilizadores será ignorado.';
 $string['uubulk'] = 'Selecione para executar operações de utilizador em massa';
 $string['uubulkall'] = 'Todos os utilizadores';
 $string['uubulknew'] = 'Novos utilizadores';

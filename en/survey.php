@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'survey', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   survey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -210,8 +210,14 @@ $string['howlong'] = 'How long did this survey take you to complete?';
 $string['howlongoptions'] = 'under 1 min,1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,more than 10';
 $string['ifoundthat'] = 'I found that';
 $string['indicator:cognitivedepth'] = 'Survey cognitive';
+$string['indicator:cognitivedepthdef'] = 'Survey cognitive';
+$string['indicator:cognitivedepthdef_help'] = 'The participant has reached this percentage of the cognitive engagement offered by the Survey activities during this analysis interval (Levels = No view, View, Submit)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:cognitivedepth_help'] = 'This indicator is based on the cognitive depth reached by the student in a Survey activity.';
 $string['indicator:socialbreadth'] = 'Survey social';
+$string['indicator:socialbreadthdef'] = 'Survey social';
+$string['indicator:socialbreadthdef_help'] = 'The participant has reached this percentage of the social engagement offered by the Survey activities during this analysis interval (Levels = No participation, Participant alone)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['indicator:socialbreadth_help'] = 'This indicator is based on the social breadth reached by the student in a Survey activity.';
 $string['introtext'] = 'Introduction text';
 $string['invalidsurveyid'] = 'Survey ID was incorrect';

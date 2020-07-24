@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'ur', branch 'MOODLE_36_STABLE'
+ * Strings for component 'moodle', language 'ur', branch 'MOODLE_38_STABLE'
  *
  * @package   moodle
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -203,6 +203,7 @@ $string['senddetails'] = 'مدت منتخب کریں';
 $string['separate'] = 'علیحدہ';
 $string['settings'] = 'سیٹنگز';
 $string['show'] = 'دکھاؤ';
+$string['showadvancededitor'] = 'جدید';
 $string['showallcourses'] = 'تمام {$a} دکھاؤ';
 $string['showallusers'] = 'تمام استعمال کنندگان دکھاؤ';
 $string['showlistofcourses'] = 'کورسز کی فہرست دکھاؤ';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'plugin', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -122,6 +122,8 @@ $string['type_calendartype'] = 'カレンダータイプ';
 $string['type_calendartype_plural'] = 'カレンダータイプ';
 $string['type_coursereport'] = 'コースレポート';
 $string['type_coursereport_plural'] = 'コースレポート';
+$string['type_customfield'] = 'カスタムフィールド';
+$string['type_customfield_plural'] = 'カスタムフィールド';
 $string['type_dataformat'] = 'データフォーマット';
 $string['type_dataformat_plural'] = 'データフォーマット';
 $string['type_editor'] = 'エディタ';
@@ -147,8 +149,8 @@ $string['type_local'] = 'ローカルプラグイン';
 $string['type_local_plural'] = 'ローカルプラグイン';
 $string['type_media'] = 'メディアプレイヤ';
 $string['type_media_plural'] = 'メディアプレイヤ';
-$string['type_message'] = 'メッセージングアウトプット';
-$string['type_message_plural'] = 'メッセージングアウトプット';
+$string['type_message'] = '通知プラグイン';
+$string['type_message_plural'] = '通知プラグイン';
 $string['type_mlbackend'] = '機械学習バックエンド';
 $string['type_mlbackend_plural'] = '機械学習バックエンド';
 $string['type_mnetservice'] = 'MNetサービス';
@@ -225,6 +227,7 @@ $string['validationmsg_onedir'] = 'ZIPパッケージの構造が無効です。
 $string['validationmsg_onedir_help'] = 'ZIPパッケージにはプラグインコードを保持する1つのルートディレクトリのみ含んでください。ルートディレクトリ名はプラグイン名と合致する必要があります。';
 $string['validationmsg_pathwritable'] = '書き込み権チェック';
 $string['validationmsg_pluginversion'] = 'プラグインバージョン';
+$string['validationmsg_pluginversiontoolow'] = 'このプラグインの新しいバージョンがすでにインストールされています。';
 $string['validationmsg_release'] = 'プラグインリリース';
 $string['validationmsg_requiresmoodle'] = '必須Moodleバージョン';
 $string['validationmsg_rootdir'] = 'インストールするプラグイン名';

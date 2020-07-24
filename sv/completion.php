@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -75,8 +75,6 @@ $string['completionondate'] = 'Datum';
 $string['completionondatevalue'] = 'Användare måste vara registrerad tills';
 $string['completion-pass'] = 'Slutfört (uppnått godkänt betyg)';
 $string['completionsettingslocked'] = 'Alternativen för fullföljning är låsta';
-$string['completion-title-manual-n'] = 'Markera som fullföjd';
-$string['completion-title-manual-y'] = 'Markera som inte fullföjd';
 $string['completionusegrade'] = 'Begär ett resultat';
 $string['completionusegrade_desc'] = 'Studenten måste få betyg för att slutföra denna verksamhet';
 $string['completionusegrade_help'] = 'Om denna inställning aktiveras anses aktiviteten fullföljd då kursdeltagare får ett resultat/betyg. Godkänd-/underkändsymboler visas om en godkänd-nivå är inställd.';

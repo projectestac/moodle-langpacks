@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_recentlyaccessedcourses', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_recentlyaccessedcourses', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   block_recentlyaccessedcourses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['nocourses'] = '没有最近访问过的课程';
-$string['pluginname'] = '最近访问过的课程';
+$string['nocourses'] = '没有最近访问的课程';
+$string['pluginname'] = '最近访问的课程';
 $string['privacy:metadata'] = '最近访问过的课程版块不保存任何个人数据';
-$string['recentlyaccessedcourses:addinstance'] = '添加新的最近访问过的课程版块';
 $string['recentlyaccessedcourses:myaddinstance'] = '向个人主页中添加最近访问过的课程版块';

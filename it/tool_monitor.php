@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_monitor', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_monitor
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,7 +62,7 @@ $string['managerules'] = 'Regole monitoraggio eventi';
 $string['manageruleslink'] = 'E\' possibile gestire le regole nella pagina {$a}.';
 $string['managesubscriptions'] = 'Monitoraggio eventi';
 $string['managesubscriptionslink'] = 'E\' possibile sottoscrivere la regola nella pagina {$a}.';
-$string['messageprovider:notification'] = 'Ricevere notifiche delle regole sottoscritte';
+$string['messageprovider:notification'] = 'Notifiche delle regole sottoscritte';
 $string['messagetemplate'] = 'Messaggio di notifica';
 $string['messagetemplate_help'] = 'Il messaggio di notifica che sarà inviato agli utenti quando verrà raggiunta la soglia di notifica. E\' possibile utilizzare i seguenti segnaposto:
 

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_airnotifier', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message_airnotifier', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   message_airnotifier
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,19 +31,20 @@ $string['airnotifier:managedevice'] = 'Gérer les appareils';
 $string['airnotifiermobileappname'] = 'Nom de l\'App mobile';
 $string['airnotifierport'] = 'Port Airnotifier';
 $string['airnotifierurl'] = 'URL Airnotifier';
-$string['configairnotifieraccesskey'] = 'La clef d\'accès à utiliser pour se connecter au serveur Airnotifier.';
+$string['configairnotifieraccesskey'] = 'La clef d\'accès à utiliser pour se connecter au serveur Airnotifier. Une clef d\'accès peut être obtenue en cliquant sur « Demander une clef d\'accès » (uniquement pour les sites enregistrés) ou en créant un compte sur le <a href="https://apps.moodle.com">portail des apps Moodle</a>.';
 $string['configairnotifierappname'] = 'Le nom de l\'app dans Airnotifier';
 $string['configairnotifiermobileappname'] = 'L\'identifiant unique de l\'App mobile (par exemple : com.moodle.moodlemobile).';
 $string['configairnotifierport'] = 'Le port à utiliser pour se connecter au serveur Airnotifier.';
-$string['configairnotifierurl'] = 'L\'URL du serveur sur lequel se connecter pour envoyer des notifications.';
+$string['configairnotifierurl'] = 'L\'URL du serveur auquel se connecter pour envoyer des notifications.';
 $string['deletecheckdevicename'] = 'Supprimer votre appareil : {$a->name}';
 $string['deletedevice'] = 'Supprimer l\'appareil. Une app peut ré-enregistrer l\'appareil. Si l\'appareil persiste à apparaître, veuillez le désactiver.';
 $string['devicetoken'] = 'Jeton d\'appareil';
-$string['errorretrievingkey'] = 'Une erreur est survenue lors de l\'obtention de la clef d\'accès. Votre site Moodle doit être enregistré pour utiliser ce service. S\'il est déjà enregistré, veuillez essayer de mettre à jour votre enregistrement.';
-$string['keyretrievedsuccessfully'] = 'Clef obtenue correctement';
+$string['errorretrievingkey'] = 'Une erreur est survenue lors de l\'obtention de la clef d\'accès. Votre site Moodle doit être enregistré pour utiliser ce service. S\'il est déjà enregistré, veuillez essayer de mettre à jour votre enregistrement. Vous pouvez aussi obtenir une clef d\'accès en créant un compte sur le <a href="https://apps.moodle.com">portail des apps Moodle</a>.';
+$string['keyretrievedsuccessfully'] = 'Clef obtenue correctement. Pour accéder aux statistiques d\'usage de l\'app Moodle, veuillez créer un compte sur le <a href="https://apps.moodle.com">portail des apps Moodle</a>.';
+$string['moodleappsportallimitswarning'] = 'Veuillez prendre note que le nombre d\'appareils pouvant recevoir des notifications dépend de votre abonnement pour l\'app Moodle. Pour plus d\'informations, visitez le <a href="{$a}" target="_blank">portail des apps Moodle</a>.';
 $string['nodevices'] = 'Aucun appareil enregistré. Les appareils apparaîtront automatiquement une fois l\'app Moodle installée et ce site ajouté.';
 $string['nopermissiontomanagedevices'] = 'Vous n\'avez pas les permissions requises pour gérer les appareils.';
-$string['notconfigured'] = 'Le serveur Airnotifier n\'a pas été configuré. Les messages Airnotifier ne peuvent donc pas être envoyés.';
+$string['notconfigured'] = 'Le serveur Airnotifier n\'a pas été configuré. Les notifications « push » ne peuvent donc pas être envoyées.';
 $string['pluginname'] = 'Mobile';
 $string['privacy:appiddescription'] = 'L\'identifiant faisant le lien avec l\'application utilisée.';
 $string['privacy:enableddescription'] = 'Si cet appareil est activé pour utiliser Airnotifier.';
@@ -64,5 +65,5 @@ $string['privacy:metadata:usersubsystem'] = 'Ce plugin est connecté au sous-sys
 $string['privacy:subcontext'] = 'Message Airnotifier';
 $string['requestaccesskey'] = 'Demander une clef d\'accès';
 $string['showhide'] = 'Activer/désactiver l\'appareil';
-$string['sitemustberegistered'] = 'Pour utiliser l\'instance publique de Airnotifier, votre site doit être enregistré auprès de Moodle.';
+$string['sitemustberegistered'] = 'Pour utiliser l\'instance publique de Airnotifier, votre site doit être enregistré. Il est aussi possible d\'obtenir une clef d\'accès en créant un compte sur le <a href="{$a}" target="_blank">portail des apps Moodle</a>.';
 $string['unknowndevice'] = 'Appareil inconnu';

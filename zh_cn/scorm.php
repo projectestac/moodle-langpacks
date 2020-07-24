@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,7 +41,7 @@ $string['apidebugmask'] = 'API 调试捕获掩码——对 &lt;username&gt;:&lt;
 $string['areacontent'] = '内容文件';
 $string['areapackage'] = '包文件';
 $string['asset'] = '资产';
-$string['assetlaunched'] = '资产 - 已浏览';
+$string['assetlaunched'] = '资产 - 查看';
 $string['attempt'] = '学习次数';
 $string['attempt1'] = '1 次';
 $string['attempts'] = '尝试';
@@ -57,11 +57,11 @@ $string['autocommit_help'] = '若启用，SCORM 数据将自动保存到数据�
 $string['autocontinue'] = '自动继续';
 $string['autocontinuedesc'] = '此选项设置活动默认情况下是否会自动继续';
 $string['autocontinue_help'] = '如果启用，后续的学习对象会被自动执行，否则必须使用“继续”按钮。';
-$string['averageattempt'] = '平均尝试次数';
+$string['averageattempt'] = '平均的尝试';
 $string['badarchive'] = '您必须提供一个有效的 zip 文件';
 $string['badmanifest'] = 'Manifest 有错误：请看错误日志';
 $string['browse'] = '预览';
-$string['browsed'] = '已浏览';
+$string['browsed'] = '浏览';
 $string['browsemode'] = '预览模式';
 $string['browserepository'] = '浏览仓库';
 $string['cannotaccess'] = '您不能那样调用脚本';
@@ -178,7 +178,7 @@ $string['interactions'] = '交互';
 $string['invalidactivity'] = 'Scorm 活动不正确';
 $string['invalidhacpsession'] = '无效的 HACP 会话';
 $string['invalidmanifestresource'] = '警告：在您的 manifest 文件中描述了如下资源，但没有找到';
-$string['invalidurl'] = '无效的 URL';
+$string['invalidurl'] = '无效的URL指定';
 $string['last'] = '最后访问时间';
 $string['lastaccess'] = '最后访问';
 $string['lastattempt'] = '最后完成的尝试';
@@ -199,7 +199,7 @@ $string['missing_tag'] = '标签 {$a->tag} 缺失';
 $string['mode'] = '模式';
 $string['modulename'] = 'SCORM 课件';
 $string['modulename_help'] = 'SCORM 和 AICC 是一系列标准，用以创建互操作、易访问和可复用的基于 web 的学习内容。SCORM/AICC 模块可以将 SCORM/AICC 课件包含在课程中。';
-$string['modulenameplural'] = 'SCORM 课件';
+$string['modulenameplural'] = 'SCORM 包';
 $string['nav'] = '显示导航';
 $string['navigation'] = '导航';
 $string['newattempt'] = '开始新尝试';
@@ -215,7 +215,7 @@ $string['noprerequisites'] = '对不起，您还有先修内容没有完成，�
 $string['noreports'] = '无报表可显示';
 $string['normal'] = '普通';
 $string['noscriptnoscorm'] = '您的浏览器不支持 JavaScript 或其 JavaScript 功能被禁用。SCORM 课件可能无法正常播放或保存数据。';
-$string['notattempted'] = '未尝试的';
+$string['notattempted'] = '未尝试';
 $string['not_corr_type'] = '标签 {$a->tag} 类型错误';
 $string['notopenyet'] = '抱歉，这个活动直到{$a}才能进行';
 $string['objectives'] = '目标';
@@ -240,7 +240,7 @@ $string['pagesize'] = '页面大小';
 $string['passed'] = '已通过';
 $string['php5'] = 'PHP 5 (原生 DOMXML 库)';
 $string['pluginadministration'] = 'SCORM/AICC课件管理';
-$string['pluginname'] = 'SCORM 课件';
+$string['pluginname'] = 'SCORM 包';
 $string['popup'] = '新窗口';
 $string['popupmenu'] = '下拉菜单';
 $string['popupopen'] = '在新窗口中显示';
@@ -259,9 +259,9 @@ $string['response'] = '响应';
 $string['result'] = '结果';
 $string['results'] = '结果';
 $string['review'] = '复习';
-$string['reviewmode'] = '复习模式';
+$string['reviewmode'] = '检查模式';
 $string['scoes'] = '正在学习的对象';
-$string['score'] = '成绩';
+$string['score'] = '得分';
 $string['scorm:addinstance'] = '添加一个新的 SCORM 包';
 $string['scormclose'] = '直到';
 $string['scormcourse'] = '正在学习的课程';
@@ -300,7 +300,7 @@ $string['statusbar'] = '显示状态栏';
 $string['student_response'] = '响应';
 $string['subplugintype_scormreport'] = '报表';
 $string['subplugintype_scormreport_plural'] = '报表';
-$string['suspended'] = '已暂停';
+$string['suspended'] = '暂停';
 $string['syntax'] = '语法错误';
 $string['tag_error'] = '未知标签 {$a->tag}，其内容为：{$a->value}';
 $string['time'] = '用时';

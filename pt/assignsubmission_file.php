@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignsubmission_file', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   assignsubmission_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,10 +34,8 @@ $string['defaultacceptedfiletypes'] = 'Tipos de ficheiro permitidos por predefin
 $string['default_help'] = 'Se ativar esta opção, este método estará ativo por predefinição para todos os novos trabalhos.';
 $string['enabled'] = 'Submissão de ficheiros';
 $string['enabled_help'] = 'Se ativo, os alunos podem  submeter um ou mais ficheiros quando submetem o seu trabalho.';
-$string['eventassessableuploaded'] = 'Um ficheiro foi carregado.';
+$string['eventassessableuploaded'] = 'Um ficheiro foi carregado';
 $string['file'] = 'Submissão de ficheiros';
-$string['filesofthesetypes'] = 'Podem ser adicionados à submissão os seguintes tipos de ficheiros:';
-$string['filetypewithexts'] = '{$a->name} &mdash; {$a->extlist}';
 $string['maxbytes'] = 'Tamanho máximo do ficheiro';
 $string['maxfiles'] = 'Número máximo de ficheiros por submissão';
 $string['maxfiles_help'] = 'Se a submissão de ficheiros estiver ativa, é possível definir o número máximo de ficheiros que o aluno pode adicionar ao trabalho.';
@@ -45,7 +43,6 @@ $string['maxfilessubmission'] = 'Número máximo de ficheiros';
 $string['maxfilessubmission_help'] = 'Se a submissão de ficheiros estiver ativa, cada aluno poderá submeter um ou mais ficheiros.';
 $string['maximumsubmissionsize'] = 'Tamanho máximo dos ficheiros';
 $string['maximumsubmissionsize_help'] = 'Os ficheiros enviados pelos alunos não podem exceder este tamanho';
-$string['nonexistentfiletypes'] = 'Os seguintes tipos de ficheiro não foram reconhecidos: {$a}';
 $string['numfilesforlog'] = 'O número de ficheiro(s): {$a} ficheiro(s).';
 $string['pluginname'] = 'Submissão de ficheiros';
 $string['privacy:metadata:filepurpose'] = 'Os ficheiros carregados nesta submissão de trabalho';

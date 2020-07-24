@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -91,8 +91,6 @@ Heu sol·licitat el canvi d\'adreça de correu electrònic del vostre compte d\'
 {$a->url}';
 $string['emailupdatesuccess'] = 'L\'adreça de correu electrònic de l\'usuari <em>{$a->fullname}</em> ha estat actualitzada i ara és <em>{$a->email}</em>.';
 $string['emailupdatetitle'] = 'Confirmació d\'actualització d\'adreça de correu en {$a->site}';
-$string['enterthenumbersyouhear'] = 'Introduïu els nombres que sentiu';
-$string['enterthewordsabove'] = 'Introduïu les paraules de dalt';
 $string['errormaxconsecutiveidentchars'] = 'La contrasenya ha de contenir almenys {$a} caràcters consecutius.';
 $string['errorminpassworddigits'] = 'La contrasenya ha de contenir almenys {$a} dígit/s.';
 $string['errorminpasswordlength'] = 'La longitud mínima de la contrasenya són {$a} caràcters.';
@@ -109,9 +107,6 @@ $string['forcechangepasswordfirst_help'] = 'Obliga els usuaris a canviar la cont
 $string['forcechangepassword_help'] = 'Obliga els usuaris a canviar la contrasenya la propera vegada que iniciïn la sessió a Moodle.';
 $string['forgottenpassword'] = 'Si introduïu un URL aquí, s\'utilitzarà com a pàgina de recuperació de contrasenyes d\'aquest lloc. Aquest paràmetre està pensat per als casos en què les contrasenyes es gestionen totalment fora de Moodle. Deixeu el camp en blanc per utilitzar el mecanisme per defecte de recuperació de contrasenyes.';
 $string['forgottenpasswordurl'] = 'URL de recuperació de contrasenyes';
-$string['getanaudiocaptcha'] = 'Obté un àudio CAPTCHA';
-$string['getanimagecaptcha'] = 'Obté una imatge CAPTCHA';
-$string['getanothercaptcha'] = 'Obté un altre CAPTCHA';
 $string['guestloginbutton'] = 'Botó d\'inici de sessió de visitants';
 $string['incorrectpleasetryagain'] = 'Incorrecte. Torneu a intentar-ho.';
 $string['infilefield'] = 'Camp requerit en el fitxer';

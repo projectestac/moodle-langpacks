@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'question', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,9 +79,12 @@ $string['categorycurrent'] = 'Categoria atual';
 $string['categorycurrentuse'] = 'Usar esta categoria';
 $string['categorydoesnotexist'] = 'Esta categoria não existe';
 $string['categoryinfo'] = 'Informação da categoria';
-$string['categorymove'] = 'A categoria \'{$a->name}\' contém {$a->count} perguntas (algumas podem estar ocultas ou serem perguntas aleatórias ainda em uso em Testes). Por favor, escolha outra categoria de destino.';
+$string['categorymove'] = 'A categoria \'{$a->name}\' contém {$a->count} perguntas (algumas podem estar ocultas ou serem perguntas aleatórias ainda em uso em testes). Por favor, escolha outra categoria de destino.';
 $string['categorymoveto'] = 'Guardar na categoria';
 $string['categorynamecantbeblank'] = 'O nome da categoria não pode estar em branco.';
+$string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
+$string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
+$string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Alterar opções';
 $string['changepublishstatuscat'] = '<a href="{$a->caturl}">A categoria "{$a->name}"</a> na disciplina "{$a->coursename}" mudará o seu estado de partilha de <strong>{$a->changefrom} para {$a->changeto}</strong>.';
 $string['check'] = 'Submeter';
@@ -114,7 +117,7 @@ $string['cwrqpfsinfo'] = '<p>Durante a atualização para o Moodle 1.9, vamos se
 $string['cwrqpfsnoprob'] = 'Nenhuma categoria de perguntas do seu site é afetada pelo problema das \'Perguntas aleatórias escolhidas a partir de subcategorias\'.';
 $string['decimalplacesingrades'] = 'Casas decimais nas notas';
 $string['defaultfor'] = 'Categoria predefinida de {$a}';
-$string['defaultinfofor'] = 'A categoria predefinida para perguntas partilhadas no contexto \'{$a}\'';
+$string['defaultinfofor'] = 'Categoria predefinida para perguntas partilhadas no contexto \'{$a}\'';
 $string['defaultmark'] = 'Nota predefinida';
 $string['defaultmarkmustbepositive'] = 'A nota predefinida tem de ser positiva.';
 $string['deletecoursecategorywithquestions'] = 'Existem perguntas na base de dados de perguntas associadas a esta categoria da disciplina. Se continuar, elas serão apagadas. Poderá primeiro movê-las para outras categorias usando a base de dados de perguntas.';
@@ -156,7 +159,7 @@ $string['errorduringregrade'] = 'Não foi possível reavaliar a pergunta {$a->qi
 $string['errorfilecannotbecopied'] = 'Erro: não é possível copiar o ficheiro {$a}.';
 $string['errorfilecannotbemoved'] = 'Erro: não é possível mover o ficheiro {$a}.';
 $string['errorfileschanged'] = 'Erro: os ficheiros com hiperligações às perguntas de origem mudaram desde a exibição do formulário.';
-$string['erroritemappearsmorethanoncewithdifferentweight'] = 'A pergunta ({$a}) aparece mais que uma vez com pesos diferentes em diferentes posições do Teste. Isto não é suportado pelo relatório de estatísticas e poderá comprometer a fiabilidade das estatísticas para esta pergunta.';
+$string['erroritemappearsmorethanoncewithdifferentweight'] = 'A pergunta ({$a}) aparece mais do que uma vez com pesos diferentes em diferentes posições do teste. Isto não é suportado pelo relatório de estatísticas e poderá comprometer a fiabilidade das estatísticas para esta pergunta.';
 $string['errormanualgradeoutofrange'] = 'A nota {$a->grade} para a pergunta {$a->name} não se encontra entre 0 e {$a->maxgrade}. A avaliação e o feedback não foram guardados.';
 $string['errormovingquestions'] = 'Erro ao mover perguntas com os ID\'s {$a}.';
 $string['errorpostprocess'] = 'Ocorreu um erro durante o pós-processamento!';
@@ -167,7 +170,19 @@ $string['errorsavingcomment'] = 'Ocorreu um erro ao guardar na base de dados o c
 $string['errorsavingflags'] = 'Ocorreu um erro ao guardar a marcação.';
 $string['errorupdatingattempt'] = 'Ocorreu um erro ao atualizar na base de dados a tentativa {$a->id}.';
 $string['eventquestioncategorycreated'] = 'Criada categoria de pergunta';
+$string['eventquestioncategorydeleted'] = 'Apagada categoria de perguntas';
+$string['eventquestioncategorymoved'] = 'Movida categoria de perguntas';
+$string['eventquestioncategoryupdated'] = 'Categoria de perguntas atualizada';
+$string['eventquestioncategoryviewed'] = 'Categoria de perguntas visualizada';
+$string['eventquestioncreated'] = 'Pergunta criada';
+$string['eventquestiondeleted'] = 'Pergunta apagada';
+$string['eventquestionmoved'] = 'Pergunta movida';
+$string['eventquestionsexported'] = 'Perguntas exportadas';
+$string['eventquestionsimported'] = 'Perguntas importadas';
+$string['eventquestionupdated'] = 'Pergunta atualizada';
+$string['eventquestionviewed'] = 'Pergunta visualizada';
 $string['export'] = 'Exportar';
+$string['exportasxml'] = 'Exportar como Moodle XML';
 $string['exportcategory'] = 'Exportar a categoria';
 $string['exportcategory_help'] = 'Esta configuração determina a categoria a partir da qual as perguntas serão exportadas.
 
@@ -320,11 +335,11 @@ $string['partiallycorrect'] = 'Parcialmente correta';
 $string['partiallycorrectfeedback'] = 'Para qualquer resposta parcialmente correta';
 $string['partiallycorrectfeedbackdefault'] = 'A sua resposta está parcialmente correta.';
 $string['penaltyfactor'] = 'Fator de penalização';
-$string['penaltyfactor_help'] = 'Este campo determina a fração da nota obtida que será subtraída por cada resposta errada. Aplica-se unicamente aos Testes que usem o Modo adaptável.
+$string['penaltyfactor_help'] = 'Este campo determina a fração da nota obtida que será subtraída por cada resposta errada. Aplica-se unicamente aos testes que usem o \'Modo adaptável\'.
 
 O fator de penalização poderá ser um número entre 0 e 1. Um fator de penalização de 1 significa que o aluno deverá responder corretamente na primeira tentativa para obter qualquer cotação. Um fator de penalização de 0 implica que o aluno pode tentar quantas vezes quiser de modo a obter a cotação máxima.';
 $string['penaltyforeachincorrecttry'] = 'Fator de penalização';
-$string['penaltyforeachincorrecttry_help'] = 'Esta opção configura qual a penalização por cada resposta errada quando o Teste está definido no modo \'Interativo com múltiplas tentativas\' ou \'Modo adaptável\' e o aluno pode responder várias vezes até obter a resposta correta à pergunta.
+$string['penaltyforeachincorrecttry_help'] = 'Esta opção configura qual a penalização por cada resposta errada quando o teste está definido no modo \'Interativo com múltiplas tentativas\' ou \'Modo adaptável\' e o aluno pode responder várias vezes até obter a resposta correta à pergunta.
 
 A penalização é uma proporção da nota da pergunta, logo, se a pergunta vale 3 pontos, e o fator de penalização é de 0.3333333, então o aluno tem a nota 3 se acertar à primeira, 2 se acertar à segunda e 1 se apenas acertar à terceira.
 
@@ -359,7 +374,7 @@ $string['privacy:metadata:link:qformat'] = 'O subsistema Pergunta utiliza o mód
 $string['privacy:metadata:link:qtype'] = 'O subsistema Pergunta interage com o módulo Tipo de pergunta, que contém os diferentes tipos de pergunta.';
 $string['published'] = 'partilhada';
 $string['qtypeveryshort'] = 'T';
-$string['questionaffected'] = 'A <a href="{$a->qurl}">pergunta "{$a->name}" ({$a->qtype})</a> encontra-se nesta categoria mas também está a ser usada no <a href="{$a->qurl}">Teste "{$a->quizname}"</a> de outra disciplina "{$a->coursename}".';
+$string['questionaffected'] = 'A <a href="{$a->qurl}">pergunta "{$a->name}" ({$a->qtype})</a> está nesta categoria mas também está a ser usada no <a href="{$a->qurl}">teste "{$a->quizname}"</a> da disciplina "{$a->coursename}".';
 $string['questionbank'] = 'Base de dados de perguntas';
 $string['questionbehaviouradminsetting'] = 'Configurações do comportamento das perguntas';
 $string['questionbehavioursdisabled'] = 'Comportamentos das perguntas a desativar';
@@ -378,7 +393,7 @@ $string['questionpreviewdefaults'] = 'Predefinições da pré-visualização da 
 $string['questionpreviewdefaults_desc'] = 'Estas configurações predefinidas são usadas quando o utilizador pré-visualiza pela primeira vez uma pergunta na Base de dados de perguntas. Depois de pré-visualizar a pergunta, as suas preferências pessoais serão guardadas como preferências do utilizador.';
 $string['questions'] = 'Perguntas';
 $string['questionsaveerror'] = 'Ocorreram erros ao guardar a pergunta - ({$a})';
-$string['questionsinuse'] = '(*) As perguntas assinaladas com asterisco ainda estão em uso em alguns testes. Estas perguntas não serão apagadas dos testes mas apenas da categoria.';
+$string['questionsinuse'] = '(* As perguntas assinaladas com asterisco estão a ser usadas em algum lugar, como por exemplo, num teste. Por isso, se prosseguir, essas perguntas não serão realmente apagadas, apenas ficarão ocultas.)';
 $string['questionsmovedto'] = 'As perguntas que ainda se encontram em uso foram movidas para "{$a}" na categoria ascendente da disciplina.';
 $string['questionsrescuedfrom'] = 'Perguntas guardadas do contexto \'{$a}\'.';
 $string['questionsrescuedfrominfo'] = 'Estas perguntas (algumas das quais podem estar ocultas) foram guardadas quando o contexto \'{$a}\' foi apagado, uma vez que ainda se encontravam em uso em alguns Testes ou outras atividades.';
@@ -395,7 +410,7 @@ $string['restartwiththeseoptions'] = 'Recomeçar com estas opções';
 $string['restoremultipletopcats'] = 'O ficheiro da cópia de segurança contém mais do que uma categoria de perguntas de nível de topo para o contexto \'{$a}\'.';
 $string['reviewresponse'] = 'Rever respostas';
 $string['rightanswer'] = 'Resposta correta';
-$string['rightanswer_help'] = 'Um resumo da resposta correta gerado automaticamente pelo Moodle. A informação gerada pode ser insuficiente, por isso, é de considerar a hipótese de incluir a explicação da resposta correta no feedback geral da pergunta e desativar esta opção.';
+$string['rightanswer_help'] = 'Um resumo da resposta correta gerado automaticamente pelo Moodle. A informação gerada pode ser insuficiente, por isso, é de considerar a hipótese de incluir a explicação da resposta correta da pergunta no feedback geral e desativar esta opção.';
 $string['save'] = 'Guardar';
 $string['savechangesandcontinueediting'] = 'Guardar alterações e continuar a editar';
 $string['saved'] = 'Guardado: {$a}';
@@ -415,14 +430,14 @@ $string['shownumpartscorrectwhenfinished'] = 'Mostrar o número de respostas cor
 $string['showquestiontext'] = 'Mostrar texto da pergunta na lista de perguntas';
 $string['specificfeedback'] = 'Feedback específico';
 $string['specificfeedback_help'] = 'Feedback correspondente à resposta que o aluno selecionou ou introduziu.';
-$string['started'] = 'Iniciado';
+$string['started'] = 'Iniciada';
 $string['state'] = 'Estado';
 $string['step'] = 'Passo';
 $string['steps'] = 'Passos';
 $string['stoponerror'] = 'Parar se ocorrer um erro';
 $string['stoponerror_help'] = 'Esta configuração determina se o processo de importação é interrompido quando um erro é detetado parando assim a importação, ou se as perguntas com erros são ignoradas sendo apenas importadas as válidas.';
 $string['submissionoutofsequence'] = 'Acesso fora da sequência. Por favor, não clique no botão Retroceder enquanto trabalha nas perguntas do Teste.';
-$string['submissionoutofsequencefriendlymessage'] = 'Inseriu dados fora da sequência. Este erro pode ocorrer se usar os botões de Avançar e Retroceder do seu navegador. Por favor, não os utilize durante o Teste. Também pode suceder se clicar em algo enquanto uma página está a carregar. Clique em <strong>Continuar</strong>.';
+$string['submissionoutofsequencefriendlymessage'] = 'Inseriu dados fora da sequência. Este erro pode ocorrer se usar os botões de Avançar e Retroceder do seu navegador. Por favor, não os utilize durante o teste. Também pode suceder se clicar em algo enquanto uma página está a carregar. Clique em <strong>Continuar</strong>.';
 $string['submit'] = 'Submeter';
 $string['submitandfinish'] = 'Submeter e finalizar';
 $string['submitted'] = 'Submetido: {$a}';
@@ -462,4 +477,4 @@ $string['wrongprefix'] = 'nameprefix {$a} formatado incorretamente';
 $string['xoutofmax'] = '{$a->mark} em {$a->max}';
 $string['yougotnright'] = 'Selecionou {$a->num} respostas corretas.';
 $string['youmustselectaqtype'] = 'Tem de selecionar um tipo de pergunta';
-$string['yourfileshoulddownload'] = 'A exportação do seu ficheiro deve iniciar brevemente. Se não acontecer dentro de segundos, por favor, <a href="{$a}">clique aqui</a>.';
+$string['yourfileshoulddownload'] = 'A exportação do seu ficheiro deve iniciar dentro de instantes. Se não acontecer nos próximos segundos, por favor, <a href="{$a}">clique aqui</a>.';

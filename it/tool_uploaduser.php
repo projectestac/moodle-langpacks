@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_uploaduser', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_uploaduser
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,9 +35,12 @@ $string['deleteerrors'] = 'Elimina errori';
 $string['encoding'] = 'Codifica';
 $string['errormnetadd'] = 'Non è possibile aggiungere utenti remoti';
 $string['errors'] = 'Errori';
+$string['examplecsv'] = 'File di testo di esempio';
+$string['invalidtheme'] = 'Il tema "{$a}" non è instalalto e sarà ignorato.';
 $string['invalidupdatetype'] = 'Non è possibile utilizzare questa opzione con il \'Tipo di caricamento\' selezionato.';
 $string['invaliduserdata'] = 'Sono stati individuati dati non validi per l\'utente {$a} e sono stati puliti automaticamente.';
 $string['nochanges'] = 'Nessuna modifica';
+$string['notheme'] = 'L\'utente non ha nessun tema impostato.';
 $string['pluginname'] = 'Caricamento utenti';
 $string['privacy:metadata'] = 'Il plugin "Caricamento utenti" non memorizza dati personali.';
 $string['renameerrors'] = 'Errori nel cambiamento del nome';
@@ -81,6 +84,7 @@ $string['usersrenamed'] = 'Utenti rinominati';
 $string['usersskipped'] = 'Utenti saltati';
 $string['usersupdated'] = 'Utenti aggiornati';
 $string['usersweakpassword'] = 'Utenti con password debole';
+$string['userthemesnotallowed'] = 'I temi dell\'utente non sono abilitati e verranno ignorati se sono presenti nel file di caricamento utenti .';
 $string['uubulk'] = 'Seleziona per azioni in massa';
 $string['uubulkall'] = 'Tutti gli utenti';
 $string['uubulknew'] = 'Nuovi utenti';

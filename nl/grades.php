@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'grades', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addfeedback'] = 'Feedback toevoegen';
 $string['addgradeletter'] = 'Voeg een beoordelingsletter toe';
 $string['addidnumbers'] = 'Voeg id-nummers toe';
 $string['additem'] = 'Beoordelingsitem toevoegen';
+$string['additionalfeedback'] = 'Aanvullende feedback';
 $string['addoutcome'] = 'Voeg competentie toe';
 $string['addoutcomeitem'] = 'Voeg competentie-item toe';
 $string['addscale'] = 'Voeg schaal toe';
@@ -109,7 +110,7 @@ $string['autosort'] = 'Auto-sorteer';
 $string['availableidnumbers'] = 'Beschikbare id-nummers';
 $string['average'] = 'Gemiddelde';
 $string['averagesdecimalpoints'] = 'Decimalen in kolom gemiddelden';
-$string['averagesdecimalpoints_help'] = '<p>Specifieert het aantal te tonen decimalen voor elk kolomgemiddelde. Als overerven is geselecteerd, dan wordt deze opmaak voor elke kolom gebruikt.</p>';
+$string['averagesdecimalpoints_help'] = 'Deze instelling specificeert het aantal decimalen dat getoond wordt voor elk bereik en of de algemene decimaal-instellingen voor de  categorie of het beoordelingsitem gebruikt worden (overerven)';
 $string['averagesdisplaytype'] = 'Opmaak kolom gemiddelden';
 $string['averagesdisplaytype_help'] = '<p>Specifieert hoe het gemiddelde voor elke kolom getoond wordt. Als overerven is ingeschakeld dan wordt deze opmaak voor elke kolom gebruikt.</p>';
 $string['backupwithoutgradebook'] = 'De configuratie van de cijferlijst is niet opgenomen in de back-up.';
@@ -137,6 +138,7 @@ $string['changedefaults'] = 'Wijzig standaardinstellingen';
 $string['changereportdefaults'] = 'Wijzig standaardinstellingen rapport';
 $string['chooseaction'] = 'Kies een actie ...';
 $string['choosecategory'] = 'Kies categorie';
+$string['collapsecriterion'] = 'Criterium samenvouwen';
 $string['combo'] = 'Tabbladen en rolmenu';
 $string['compact'] = 'Compact';
 $string['componentcontrolsvisibility'] = 'Of dit cijfer al dan niet verborgen is, wordt gecontroleerd door de activiteitsinstellingen.';
@@ -162,7 +164,7 @@ $string['csv'] = 'CSV';
 $string['currentparentaggregation'] = 'Huidige bovenliggende aggregatie';
 $string['curveto'] = 'Afbuigen naar';
 $string['decimalpoints'] = 'Aantal decimalen';
-$string['decimalpoints_help'] = '<p>Stelt het aantal te tonen decimalen in voor elk cijfer. Deze instelling heeft geen effect op de berekeningen met cijfers. Die worden gemaakt met een nauwkeurigheid van 5 decimalen.</p>';
+$string['decimalpoints_help'] = 'Stelt het aantal te tonen decimalen in voor elk cijfer. Deze instelling heeft geen effect op de berekeningen met cijfers. Die worden gemaakt met een nauwkeurigheid van 5 decimalen.';
 $string['default'] = 'Standaard';
 $string['defaultprev'] = 'Standaard ({$a})';
 $string['deletecategory'] = 'Verwijder categorie';
@@ -213,6 +215,8 @@ $string['errorupdatinggradecategoryaggregateoutcomes'] = 'Fout bij het updaten v
 $string['errorupdatinggradecategoryaggregation'] = 'Fout bij het aanpassen van het aggregatietype van cijfercategorie ID {$a->id}';
 $string['errorupdatinggradeitemaggregationcoef'] = 'Fout bij het updaten van de aggregatiecoëfficiënt (weging of bonus) van beoordelingsitem ID {$a->id}';
 $string['eventgradedeleted'] = 'Cijfer verwijderd';
+$string['eventgradeitemcreated'] = 'Cijfer item gemaakt';
+$string['eventgradeitemupdated'] = 'Grade-item bijgewerkt';
 $string['eventgradelettercreated'] = 'Beoordelingsletter gemaakt';
 $string['eventgradeletterdeleted'] = 'Beoordelingsletter verwijderd';
 $string['eventgradeletterupdated'] = 'Beoordelingsletter aangepast';
@@ -224,6 +228,7 @@ $string['eventusergraded'] = 'Gebruikerscijfer';
 $string['excluded'] = 'Uitgesloten';
 $string['excluded_help'] = '<p>Als -uitgesloten- is ingesloten, dan zal dit cijfer niet gebruikt worden in aggregaties door bovenliggende beoordelingsitems of categorieën.</p>';
 $string['expand'] = 'Categorie uitbreiden';
+$string['expandcriterion'] = 'Criterium uitvouwen';
 $string['export'] = 'Exporteer';
 $string['exportalloutcomes'] = 'Exporteer alle competenties';
 $string['exportfeedback'] = 'Feedback opnemen in export';
@@ -235,7 +240,7 @@ $string['exportplugins'] = 'Exporteerplugins';
 $string['exportsettings'] = 'Exporteer instellingen';
 $string['exportto'] = 'Exporteer naar';
 $string['externalurl'] = 'Externe URL';
-$string['externalurl_desc'] = 'Als je een extern cijferboek gebruikt, kun je hier de URL opgeven.';
+$string['externalurl_desc'] = 'Als je een extern cijferlijst gebruikt, kun je hier de URL opgeven.';
 $string['extracreditvalue'] = 'Extra bonus voor {$a}';
 $string['extracreditwarning'] = 'Opmerking: als je alle items van een categorie als \'Extra krediet\' instelt, haal je ze uit de berekening van de cijfers omdat er geen puntentotaal meer is';
 $string['feedback'] = 'Feedback';
@@ -267,13 +272,13 @@ $string['gradealreadyupdated'] = '{$a} cijfers zijn niet geïmporteerd omdat de 
 $string['gradeanalysis'] = 'Cijferanalyse';
 $string['gradebook'] = 'Cijferlijst';
 $string['gradebookcalculationsfixbutton'] = 'Cijferwijzigingen aanvaarden en berekeningsfouten herstellen';
-$string['gradebookcalculationsuptodate'] = 'De berekeningen in het cijferboek zijn up-to-date. Vernieuw de pagina om de wijzigingen te zien.';
-$string['gradebookcalculationswarning'] = 'Opmerking: er zijn fouten ontdekt in de berekeningen van de cijfers die in het cijferboek getoond worden. Aangeraden wordt om de fouten te herstellen door op onderstaande knop de drukken, maar dat zal er toe leiden dat sommige cijfers wijzigen.  Als je cursus al beëindigd is en je cijfers zijn al ingestuurd, dan wil je dit misschien niet doen.
+$string['gradebookcalculationsuptodate'] = 'De berekeningen in het cijferlijst zijn up-to-date. Vernieuw de pagina om de wijzigingen te zien.';
+$string['gradebookcalculationswarning'] = 'Opmerking: er zijn fouten ontdekt in de berekeningen van de cijfers die in het cijferlijst getoond worden. Aangeraden wordt om de fouten te herstellen door op onderstaande knop de drukken, maar dat zal er toe leiden dat sommige cijfers wijzigen.  Als je cursus al beëindigd is en je cijfers zijn al ingestuurd, dan wil je dit misschien niet doen.
 
-De nieuwe versie is  {$a->currentversion}; Jij gebruikt cijferboekversie {$a->gradebookversion}. Je kunt de wijzigingen zien op <a href="{$a->url}">Gradebook calculation changes</a>.';
+De nieuwe versie is  {$a->currentversion}; Jij gebruikt cijferlijst versie {$a->gradebookversion}. Je kunt de wijzigingen zien op <a href="{$a->url}"> Cijferlijst berekeningswijzigingen</a>.';
 $string['gradebookhiddenerror'] = 'Het cijferlijst is nu ingesteld om alles voor de leerlingen te verbergen.';
 $string['gradebookhistories'] = 'Cijfergeschiedenis';
-$string['gradebooksetup'] = 'Cijferboek instellen';
+$string['gradebooksetup'] = 'Cijferlijst instellen';
 $string['gradeboundary'] = 'Marge cijferbeoordeling';
 $string['gradeboundary_help'] = 'Deze instelling bepaalt het minimale percentage waarboven cijfers de letter zullen toegewezen krijgen.';
 $string['gradecategories'] = 'Beoordelingscategorieën';
@@ -285,15 +290,15 @@ $string['gradedisplay'] = 'Beoordelingen tonen';
 $string['gradedisplaytype'] = 'Hoe beoordelingen tonen';
 $string['gradedisplaytype_help'] = 'Deze instelling bepaalt hoe cijfers getoond worden in beoordeler- en gebruikersrapporten.
 
-* Echt - De echte cijfers
-* Percentage
-* Letter - Er worden letters of woorden gebruikt om een bereik van cijfers voor te stellen';
+* Percentage - relatief tot maximaal en minimaal cijfer
+* Letter - Er worden letters of woorden gebruikt om een bereik van cijfers voor te stellen, zoals gedefinieerd in "Letters" in de instellingen van het cijferlijst
+ Echt - De echte cijfers of schaalwaarden';
 $string['gradedon'] = 'Beoordeeld op {$a}';
 $string['gradeexport'] = 'Export beoordeling';
 $string['gradeexportcolumntype'] = '{$a->name} ({$a->extra})';
 $string['gradeexportcustomprofilefields'] = 'Cijferexport aangepaste profielvelden';
 $string['gradeexportcustomprofilefields_desc'] = 'Geef deze aangepaste profielvelden mee in de cijferexport, gescheiden door komma\'s';
-$string['gradeexportdecimalpoints'] = 'Cijfers exporteren: decimalen';
+$string['gradeexportdecimalpoints'] = 'Aantal decimalen voor het exporteren van cijfers';
 $string['gradeexportdecimalpoints_desc'] = 'Het aantal te tonen decimalen voor export. Deze instelling kan genegeerd worden tijdens de export.';
 $string['gradeexportdisplaytype'] = 'Cijfers exporteren: hoe beoordelingen tonen';
 $string['gradeexportdisplaytype_desc'] = 'Beoordelingen kunnen tijdens de export getoond worden als cijfers, als percentages (zich verhoudend tot het minimum- en het maximumcijfer) of als letters (A,B,C, enz). Dit kan genegeerd worden tijdens de export.';
@@ -303,6 +308,7 @@ $string['gradeexportuserprofilefields_desc'] = 'Geef deze profielvelden mee in d
 $string['gradeforstudent'] = '{$a->student}<br />{$a->item}{$a->feedback}';
 $string['gradegrademinmax'] = 'initiële min- en max-cijfers';
 $string['gradehelp'] = 'Hulp bij cijfers';
+$string['grade_help'] = 'Het cijfer dat aan de leerling toegekend wordt voor zijn werk.';
 $string['gradehistorylifetime'] = 'Levensduur van de cijfergeschiedenis';
 $string['gradehistorylifetime_help'] = 'Met deze instelling bepaal je hoelang je de geschiedenis van de wijzigingen aan de cijfertabellen wil bijhouden. Het is aangewezen dit zo lang mogelijk te doen. Als je performantieproblemen ondervindt of je hebt maar beperkte databaseruimte, dan kun je hier een lagere waarde instellen.';
 $string['gradeimport'] = 'Import beoordeling';
@@ -331,6 +337,8 @@ $string['grademax'] = 'Maximumcijfer';
 $string['grademax_help'] = 'Deze instelling bepaalt het maximumcijfer wanneer je een waarde als cijfer gebruikt. De maximumwaarde voor een activiteitsgebaseerd cijfer wordt ingesteld op de instellingspagina van de activiteit.';
 $string['grademin'] = 'Minimale beoordeling';
 $string['grademin_help'] = 'Deze instelling bepaalt het minimumcijfer wanneer je met cijfers beoordeelt.';
+$string['gradenotificationmessage'] = 'Je hebt nieuwe feedback over je werk voor "{$a}"';
+$string['gradenotificationsubject'] = 'Je bent beoordeeld';
 $string['gradeoutcomeitem'] = 'Item voor beoordeling competentie';
 $string['gradeoutcomes'] = 'Competenties';
 $string['gradeoutcomescourses'] = 'Cursuscompetenties';
@@ -346,7 +354,7 @@ $string['gradepointmax_validateerror'] = 'Deze instelling moet een geheel getal 
 $string['gradepreferences'] = 'Beoordelingsvoorkeuren';
 $string['gradepreferenceshelp'] = 'Help bij voorkeursinstellingen';
 $string['gradepublishing'] = 'Publiceren inschakelen';
-$string['gradepublishing_help'] = 'Cijfers publiceren is een manier van importeren en exporteren van cijfers via een URL zonder aangemeld te zijn in Moodle. Indien ingeschakeld krijgen beheerders en gebruikers met het recht om cijfers te publiceren (standaard enkel gebruikers met de manager rol) cijfer exportinstellingen in het puntenboek van elke cursus.';
+$string['gradepublishing_help'] = 'Cijfers publiceren is een manier van importeren en exporteren van cijfers via een URL zonder aangemeld te zijn in Moodle. Indien ingeschakeld krijgen beheerders en gebruikers met het recht om cijfers te publiceren (standaard enkel gebruikers met de manager rol) cijfer exportinstellingen in het cijferlijst van elke cursus.';
 $string['gradepublishinglink'] = 'Download: {$a}';
 $string['gradereport'] = 'Beoordelingsrapport';
 $string['graderreport'] = 'Rapportage';
@@ -369,6 +377,7 @@ $string['gradevaluetoobig'] = 'Eén van de cijferswaarden is groter dan het maxi
 $string['gradeview'] = 'Bekijk beoordeling';
 $string['gradewasmodifiedduringediting'] = 'Het ingegeven cijfer voor {$a->itemname} van {$a->username} is weggelaten omdat het recent is aangepast door iemand anders.';
 $string['gradeweighthelp'] = 'Help bij gewogen beoordelingen';
+$string['gradingmodulename'] = 'Beoordelen {$a})';
 $string['groupavg'] = 'Groepsgemiddelde';
 $string['hidden'] = 'Verborgen';
 $string['hiddenasdate'] = 'Toon de datum voor verborgen beoordelingen';
@@ -487,11 +496,11 @@ $string['min'] = 'Laagste';
 $string['minimum_show'] = 'Toon het minimumcijfer';
 $string['minimum_show_help'] = 'Het minimumcijfer wordt gebruikt bij het berekenen van cijfers en wegingen. Indien het niet getoond wordt, zal voor het minimumcijfer standaard nul genomen worden en kan niet bewerkt worden.';
 $string['minmaxtouse'] = 'In berekening gebruikte min- en max-cijfers';
-$string['minmaxtouse_desc'] = 'Deze instelling bepaalt of de initiële minimum- en maximumcijfers van wanneer het cijfer gegeven werd moet gebruikt worden de minimum- en maximumcijfers zoals opgegeven in de instellingen van het beoordelingsitem wanneer het cijfer dat in het cijferboek verschijnt berekend moet worden. Het is aanbevolen wordt om deze instelling alleen op een rustig moment aan te passen omdat alle cijfers herberekend zullen worden. Dit kan een hoge serverbelasting veroorzaken.';
-$string['minmaxtouse_help'] = 'Deze instelling bepaalt of de initiële minimum- en maximumcijfers van wanneer het cijfer gegeven werd moet gebruikt worden de minimum- en maximumcijfers zoals opgegeven in de instellingen van het beoordelingsitem wanneer het cijfer dat in het cijferboek verschijnt berekend moet worden.';
-$string['minmaxupgradedgrades'] = 'Opmerking: sommige cijfers zijn gewijzigd om een inconsistentie op te lossen in het cijferboek. Deze wordt veroorzaakt door een wijziging in de minimum- en maximumcijfers die gebruikt werden toen het getoonde cijfer berekend werd. Het is aangewezen om de cijfers na te kijken en te bevestigen.';
+$string['minmaxtouse_desc'] = 'Deze instelling bepaalt of de initiële minimum- en maximumcijfers van wanneer het cijfer gegeven werd moet gebruikt worden de minimum- en maximumcijfers zoals opgegeven in de instellingen van het beoordelingsitem wanneer het cijfer dat in het cijferlijst verschijnt berekend moet worden. Het is aanbevolen wordt om deze instelling alleen op een rustig moment aan te passen omdat alle cijfers herberekend zullen worden. Dit kan een hoge serverbelasting veroorzaken.';
+$string['minmaxtouse_help'] = 'Deze instelling bepaalt of de initiële minimum- en maximumcijfers van wanneer het cijfer gegeven werd moet gebruikt worden de minimum- en maximumcijfers zoals opgegeven in de instellingen van het beoordelingsitem wanneer het cijfer dat in het cijferlijst verschijnt berekend moet worden.';
+$string['minmaxupgradedgrades'] = 'Opmerking: sommige cijfers zijn gewijzigd om een inconsistentie op te lossen in het cijferlijst. Deze wordt veroorzaakt door een wijziging in de minimum- en maximumcijfers die gebruikt werden toen het getoonde cijfer berekend werd. Het is aangewezen om de cijfers na te kijken en te bevestigen.';
 $string['minmaxupgradefixbutton'] = 'Inconsistenties oplossen';
-$string['minmaxupgradewarning'] = 'Opmerking: er is een inconsistentie opgemerkt bij sommige cijfers die veroorzaakt wordt door een wijziging in de minimum- en maximumcijfers die gebruikt werden bij het berekenen van het getoonde cijfer in het cijferboek. Het is aangeraden om de inconsistentie op te lossen door op onderstaande knop te klikken, maar dat kan als gevolg hebben dat sommige cijfers zullen wijzigen.';
+$string['minmaxupgradewarning'] = 'Opmerking: er is een inconsistentie opgemerkt bij sommige cijfers die veroorzaakt wordt door een wijziging in de minimum- en maximumcijfers die gebruikt werden bij het berekenen van het getoonde cijfer in het cijferlijst. Het is aangeraden om de inconsistentie op te lossen door op onderstaande knop te klikken, maar dat kan als gevolg hebben dat sommige cijfers zullen wijzigen.';
 $string['missingitemtypeoreid'] = 'Array key (itemtype of eid) ontbreekt van 2de param van grade_edit_tree_column_select::get_item_cell($item, $params)';
 $string['missingscale'] = 'Je moet een schaal selecteren';
 $string['mode'] = 'Modus';
@@ -504,7 +513,7 @@ $string['modgradecantchangescale'] = 'Je kunt de schaal niet wijzigen omdat er a
 $string['modgradecategorycantchangegradetypemsg'] = 'In deze categorie zitten cijfers die overschreven zijn. Daarom zijn sommige cijfers al toegekend en kan het cijfertype niet meer gewijzigd worden. Als je het maximumcijfer wil wijzigen, met je eerst kieen of je al dan niet de bestaande cijfers wil herschalen.';
 $string['modgradecategorycantchangegradetyporscalemsg'] = 'In deze categorie zitten cijfers die overschreven zijn. Daarom zijn sommige cijfers al toegekend en kan het cijfertype niet meer gewijzigd worden.';
 $string['modgradecategoryrescalegrades'] = 'Herschaal overschreven cijfers';
-$string['modgradecategoryrescalegrades_help'] = 'Wanneer je de maximumcijfers van een item in het puntenboek wijzigt, moet je specificeren of dit al dan niet bestaande percentages moet wijzigen.
+$string['modgradecategoryrescalegrades_help'] = 'Wanneer je de maximumcijfers van een item in het cijferlijst wijzigt, moet je specificeren of dit al dan niet bestaande percentages moet wijzigen.
 
 Als deze optie op \'ja\' gezet wordt, dan zullen alle overschreven cijfers herschaald worden zodat het procentuele cijfer gelijk blijft.
 
@@ -515,7 +524,7 @@ $string['modgradeerrorbadscale'] = 'Ongeldige schaal geselecteerd. Kies een scha
 $string['modgrade_help'] = 'Selecteer het type beoordeling dat wordt gebruikt voor deze activiteit. Als "schaal" wordt gekozen, kun je vervolgens de schaal kiezen uit een rolmenu. Als je punt-beoordeling kiest, dan kun je het maximale cijfer invoeren dat bij deze activiteit behaald kan worden.';
 $string['modgrademaxgrade'] = 'Maximum cijfer';
 $string['modgraderescalegrades'] = 'Herschaal bestaande cijfers';
-$string['modgraderescalegrades_help'] = 'Wanneer je de maximumcijfers van een item in het puntenboek wijzigt, moet je specificeren of dit al dan niet bestaande percentages moet wijzigen.
+$string['modgraderescalegrades_help'] = 'Wanneer je de maximumcijfers van een item in het cijferlijst wijzigt, moet je specificeren of dit al dan niet bestaande percentages moet wijzigen.
 
 Als deze optie op \'ja\' gezet wordt, dan zullen alle bestaande cijfers herschaald worden zodat het procentuele cijfer gelijk blijft.
 
@@ -532,7 +541,7 @@ $string['multfactor_help'] = '<p>Factor waarmee alle cijfers voor dit beoordelin
 $string['multfactorvalue'] = 'Vermenigvuldig waarde voor {$a}';
 $string['mustchooserescaleyesorno'] = 'Je moet kiezen of je bestaande cijfers wil herschalen of niet.';
 $string['mygrades'] = 'Link naar gebruikersmenu voor cijfers';
-$string['mygrades_desc'] = 'Deze instelling geeft de mogelijkheid om een extern cijferboek aan het gebruikersmenu te koppelen';
+$string['mygrades_desc'] = 'Deze instelling geeft de mogelijkheid om een extern cijferlijst aan het gebruikersmenu te koppelen';
 $string['mypreferences'] = 'Mijn voorkeuren';
 $string['myreportpreferences'] = 'Mijn rapport voorkeuren';
 $string['navmethod'] = 'Navigatiemethode';
@@ -566,6 +575,7 @@ $string['noselecteditems'] = 'Je hebt geen items geselecteerd';
 $string['notenrolled'] = 'Je bent in geen enkele cursus aangemeld.';
 $string['notteachererror'] = 'Je moet leraar zijn om deze functie te gebruiken';
 $string['nousersloaded'] = 'Geen gebruikers geladen';
+$string['nouserstograde'] = 'Geen gebruikers om te beoordelen';
 $string['numberofgrades'] = 'Aantal beoordelingen';
 $string['onascaleof'] = 'op een schaal van {$a-grademin} tot {$a->grademax}';
 $string['operations'] = 'Operatie';
@@ -627,7 +637,7 @@ $string['prefrows'] = 'Speciale rijen';
 $string['prefshow'] = 'Toon/verberg schakelaars';
 $string['previewrows'] = 'Voorbeeld rijen';
 $string['privacy:metadata:categorieshistory'] = 'Een record van eerdere versies van cijfer categorieën';
-$string['privacy:metadata:filepurpose'] = 'Feedback-bestanden die zijn opgeslagen in het puntenboek voor een gebruiker.';
+$string['privacy:metadata:filepurpose'] = 'Feedback-bestanden die zijn opgeslagen in het cijferlijst voor een gebruiker.';
 $string['privacy:metadata:grade_import_newitem'] = 'Tijdelijke tabel voor het opslaan van nieuwe cijfer_item-namen uit cijfer-import';
 $string['privacy:metadata:grade_import_newitem:importcode'] = 'Een unieke code voor de identificatie van een lading imports';
 $string['privacy:metadata:grade_import_newitem:importer'] = 'De gebruiker die de gegevens importeert';
@@ -674,9 +684,9 @@ $string['quickgrading'] = 'Snel beoordelen';
 $string['quickgrading_help'] = '<p>Snel beoordelen voegt een tekstveld toe aan elke beoordelingscel op het rapportagescherm, waarmee je tegelijk de feedback kunt geven voor een heel aantal beoordelingen tegelijk. Je kunt dan op de Aanpassen-knop klikken om al deze wijzigingen in één keer door te voeren i.p.v. één voor één.</p>';
 $string['range'] = 'Marge';
 $string['rangedecimals'] = 'Bereik decimale cijfers';
-$string['rangedecimals_help'] = 'Het aantal te tonen decimale cijfers voor bereik';
+$string['rangedecimals_help'] = 'Het aantal te tonen decimale cijfers voor het bereik.';
 $string['rangesdecimalpoints'] = 'Aantal decimalen in marges';
-$string['rangesdecimalpoints_help'] = '<p>Specifieerd het aantal decimalen die voor elke marge getoond worden. Deze instelling kan overschreven worden per beoordelingsitem.</p>';
+$string['rangesdecimalpoints_help'] = 'Specificeert het aantal te tonen decimalen voor elk bereiken of de algemene instelling voor aantal decimalen voor de categorie of beoordelingsitem wordt gebruikt (overerven).';
 $string['rangesdisplaytype'] = 'Hoe marges tonen';
 $string['rangesdisplaytype_help'] = '<p>Specifieerd hoe marges getoond moeten worden. Als je voor overerven kiest, dan wordt dit type voor elke kolom gebruikt.</p>';
 $string['rank'] = 'Ranglijst';
@@ -819,7 +829,7 @@ $string['uncategorised'] = 'Zonder categorie';
 $string['unchangedgrade'] = 'Beoordeling ongewijzigd';
 $string['unenrolledusersinimport'] = 'In deze import zaten cijfers voor gebruikers die niet in de cursus aangemeld zijn: {$a}';
 $string['unlimitedgrades'] = 'Onbeperkte cijfers';
-$string['unlimitedgrades_help'] = 'Standaard worden cijfers beperkt door de minimum- en de maximumwaarden van het beoordelingsitem. Door deze instelling in te schakelen verwijder je deze limiet en laat je toe om cijfers boven de 100% in het puntenboek te zetten.';
+$string['unlimitedgrades_help'] = 'Standaard worden cijfers beperkt door de minimum- en de maximumwaarden van het beoordelingsitem. Door deze instelling in te schakelen verwijder je deze limiet en laat je toe om cijfers boven de 100% in het cijferlijst te zetten.';
 $string['unlock'] = 'deblokkeer';
 $string['unlockverbose'] = '{$a->category} {$a->itemmodule} {$a->itemname} vrijgeven';
 $string['unused'] = 'Ongebruikt';

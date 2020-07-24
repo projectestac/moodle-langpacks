@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multianswer', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_multianswer', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_multianswer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['confirmquestionsaveasedited'] = 'Confirmo que desejo que a pergunta seja guardada como está';
-$string['confirmsave'] = 'Confirmar e guardar {$a}';
+$string['confirmsave'] = 'Confirmar e guardar {$a} pergunta';
 $string['correctanswer'] = 'Resposta correta';
 $string['correctanswerandfeedback'] = 'Resposta correta e feedback';
 $string['decodeverifyquestiontext'] = 'Descodificar e verificar o texto da pergunta';
@@ -52,9 +52,9 @@ $string['qtypenotrecognized'] = 'tipo de pergunta {$a} não reconhecido';
 $string['questiondefinition'] = 'Definição da pergunta';
 $string['questiondeleted'] = 'Pergunta apagada';
 $string['questioninquiz'] = '<ul>
-  <li>adicionar ou apagar perguntas, </li>
-  <li>alterar a ordem das perguntas no texto,</li>
-  <li>alterar o tipo de pergunta (numérica, resposta curta, escolha múltipla). </li></ul>';
+  <li>adicionar ou apagar perguntas</li>
+  <li>alterar a ordem das perguntas no texto</li>
+  <li>alterar o tipo de pergunta (numérica, resposta curta, escolha múltipla)</li></ul>';
 $string['questionnotfound'] = 'Não foi possível encontrar a pergunta da parte da pergunta #{$a}';
 $string['questionsadded'] = 'Pergunta adicionada';
 $string['questionsaveasedited'] = 'A pergunta será guardada como está';
@@ -63,9 +63,9 @@ $string['questionsmissing'] = 'Não existem perguntas válidas, crie pelo menos 
 $string['questionsmore'] = 'Mais {$a} pergunta(s) do que a pergunta de escolha múltipla guardada na base de dados';
 $string['questiontypechanged'] = 'Tipo de pergunta alterado';
 $string['questiontypechangedcomment'] = 'Pelo menos um tipo de pergunta foi alterado.<br />Adicionou, moveu ou apagou uma pergunta?<br />Veja em seguida.';
-$string['questionusedinquiz'] = 'Pergunta usada em {$a->nb_of_quiz} Teste(s), total de tentativas: {$a->nb_of_attempts}';
+$string['questionusedinquiz'] = 'Pergunta usada em {$a->nb_of_quiz} teste(s). Total de tentativas: {$a->nb_of_attempts}';
 $string['storedqtype'] = 'Tipo de pergunta {$a} restaurada';
 $string['subqresponse'] = 'parte {$a->i}: {$a->response}';
 $string['unknownquestiontypeofsubquestion'] = 'Tipo de pergunta desconhecido: {$a->type} da parte da pergunta # {$a->sub}';
 $string['warningquestionmodified'] = '<b>AVISO</b>';
-$string['youshouldnot'] = '<b>NÃO DEVE</b>';
+$string['youshouldnot'] = '<b>NÃO DEVE:</b>';

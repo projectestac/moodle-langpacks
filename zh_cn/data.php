@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'data', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   data
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,7 +32,7 @@ $string['addentries'] = '添加条目';
 $string['addtemplate'] = '添加模板';
 $string['advancedsearch'] = '高级搜索';
 $string['allowcomments'] = '允许评论词条';
-$string['alttext'] = '可替代文本';
+$string['alttext'] = '替代文本';
 $string['approvalstatus'] = '审核结果';
 $string['approve'] = '批准';
 $string['approved'] = '已批准';
@@ -40,8 +40,8 @@ $string['areacontent'] = '字段';
 $string['ascending'] = '升序';
 $string['asearchtemplate'] = '高级搜索模版';
 $string['atmaxentry'] = '您输入的条目数已达到上限！';
-$string['authorfirstname'] = '姓';
-$string['authorlastname'] = '名';
+$string['authorfirstname'] = '作者的名';
+$string['authorlastname'] = '作者的姓';
 $string['autogenallforms'] = '生成所有缺省模板';
 $string['autolinkurl'] = '自动链接 URL';
 $string['availablefromdate'] = '开放时间';
@@ -75,7 +75,7 @@ $string['commentsn'] = '{$a} 条评论';
 $string['commentsoff'] = '未启用评论功能';
 $string['configenablerssfeeds'] = '这个开关会使所有数据库都可以启用RSS种子。您仍需要手工在每个数据库的设置中打开种子功能。';
 $string['confirmdeletefield'] = '您要删除这个字段，确定吗？';
-$string['confirmdeleterecord'] = '您确定要删除这条记录？';
+$string['confirmdeleterecord'] = '您确定要删除此条目吗?';
 $string['confirmdeleterecords'] = '您确定要删除这些记录？';
 $string['csstemplate'] = 'CSS 模板';
 $string['csvfailed'] = '无法从 CSV 文件中读取原始数据';
@@ -125,18 +125,18 @@ $string['editentry'] = '编辑条目';
 $string['editordisable'] = '不可编辑';
 $string['editorenable'] = '可编辑';
 $string['emptyadd'] = '模板为空，按缺省模板生成...';
-$string['emptyaddform'] = '您未填写任何字段';
+$string['emptyaddform'] = '您没有填写任何字段!';
 $string['entries'] = '条目';
-$string['entrieslefttoadd'] = '在完成此活动前，您还需添加更多 {$a->entriesleft} 条目';
-$string['entrieslefttoaddtoview'] = '在查看其他参与者的条目前，您还需添加更多 {$a->entrieslefttoview} 条目';
+$string['entrieslefttoadd'] = '要完成此活动，必须添加{$a->entriesleft}以上条目';
+$string['entrieslefttoaddtoview'] = '您必须添加{$a->entrieslefttoview}以上条目才能查看其他参与者的条目。';
 $string['entry'] = '条目';
 $string['entrysaved'] = '您的条目已保存';
 $string['errormustbeteacher'] = '只有教师能使用此页';
-$string['errormustsupplyvalue'] = '你必须在这里提供一个值。';
+$string['errormustsupplyvalue'] = '您必须在这里提供一个值。';
 $string['errorpresetexists'] = '选择的名字已经被使用';
 $string['example'] = '数据库模块样例';
 $string['excel'] = 'Excel';
-$string['expired'] = '对不起，此活动关闭于{$a}，不再有效';
+$string['expired'] = '对不起，此活动已于{$a}关闭，不再可用';
 $string['export'] = '输出';
 $string['exportaszip'] = '以压缩格式输出';
 $string['exportaszip_help'] = '<p align="center"><strong>以zip格式导出</strong></p>
@@ -249,13 +249,13 @@ $string['nodefinedfields'] = '新的预设值没有定义';
 $string['nofieldcontent'] = '未找到域内容';
 $string['nofieldindatabase'] = '尚未给此数据库定义字段。';
 $string['nolisttemplate'] = '列表模板尚未定义';
-$string['nomatch'] = '未找到匹配的条目';
+$string['nomatch'] = '未找到匹配的条目！';
 $string['nomaximum'] = '无最大数量限制';
 $string['norecords'] = '数据库中无条目';
 $string['nosingletemplate'] = '独立显示模板尚未定义';
 $string['notapproved'] = '条目尚未批准。';
 $string['notinjectivemap'] = '非单项映射';
-$string['notopenyet'] = '抱歉，此活动直到{$a}才可用';
+$string['notopenyet'] = '抱歉，此活动在{$a}之前不可用';
 $string['number'] = '数字';
 $string['numberrssarticles'] = 'RSS 文章';
 $string['numnotapproved'] = '待核准';

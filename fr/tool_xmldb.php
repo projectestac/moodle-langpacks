@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_xmldb', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actual'] = 'Valeur actuelle';
+$string['addpersistent'] = 'Ajouter des champs persistants obligatoires';
 $string['aftertable'] = 'Après la table';
 $string['back'] = 'Retour';
 $string['backtomainview'] = 'Retour à la vue d\'ensemble';
@@ -172,6 +173,9 @@ $string['numberincorrectwholepart'] = 'Nombre entier trop grand pour le champ no
 $string['pendingchanges'] = 'Remarque ! Vous avez effectué des modifications dans ce fichier. Vous pouvez l\'enregistrer quand cela vous convient.';
 $string['pendingchangescannotbesaved'] = 'Ce fichier comprend des modifications, mais ne peut pas être enregistré ! Veuillez vérifier que le dossier, ainsi que le fichier « install.xml » qu\'il contient, disposent des droits d\'accès en écriture par le serveur web.';
 $string['pendingchangescannotbesavedreload'] = 'Ce fichier comprend des modifications, mais ne peut pas être enregistré ! Veuillez vérifier que le dossier, ainsi que le fichier « install.xml » qu\'il contient, disposent des droits d\'accès en écriture par le serveur web. Rafraîchissez ensuite l\'affichage de cette page, et vous pourrez alors enregistrer les modifications.';
+$string['persistentfieldscomplete'] = 'Les champs suivants ont été ajoutés :';
+$string['persistentfieldsconfirm'] = 'Voulez-vous vraiment ajouter les champs suivants :';
+$string['persistentfieldsexist'] = 'Les champs suivants existent déjà :';
 $string['pluginname'] = 'Éditeur XMLDB';
 $string['primarykeyonlyallownotnullfields'] = 'Les clefs primaires ne peuvent pas être nulles';
 $string['privacy:metadata'] = 'Le plugin Éditeur XMLDB n\'enregistre aucune donnée personnelle.';

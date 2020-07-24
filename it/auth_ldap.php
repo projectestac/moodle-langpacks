@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_ldap', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_ldap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -41,8 +41,6 @@ $string['auth_ldap_create_context'] = 'Abilitando la creazione degli utenti con 
 .<br /><b>Nota</b> Affinché la creazione utenti possa funzionare, è necessario modificare la funzione auth_user_create() nel file auth/ldap/lib.php.';
 $string['auth_ldap_create_context_key'] = 'Contesto per i nuovi utenti';
 $string['auth_ldap_create_error'] = 'Si è verificato un errore durante la creazione dell\'utente in LDAP.';
-$string['auth_ldap_creators'] = 'Elenco dei gruppi o dei contesti i cui membri sono autorizzati a creare corsi. Separare i diversi con \';\'. Ad esempio \'cn=teachers,ou=staff,o=myorg\'';
-$string['auth_ldap_creators_key'] = 'Creatori';
 $string['auth_ldapdescription'] = 'Il plugin consente la confiugrazione dell\'autenticazione tramite un server LDAP esterno.
 Autenticandosi in Moodle con credenziali LDAP valide, verrà creato un utente nel database. Il plugin può leggere gli attributi dell\'utente da LDAP e mappare i campi in Moodle.';
 $string['auth_ldap_expiration_desc'] = 'Selezionare \'{$a->no}\' per disabilitare il controllo delle password scadute oppure  \'{$a->ldapserver}\' per ottenere la data di scadenza delle password dal server LDAP';
@@ -123,6 +121,9 @@ $string['cannotmaprole'] = 'Non è possibile mappare Il ruolo  "{$a->rolename}" 
 $string['connectingldap'] = 'Connessione al server LDAP...';
 $string['connectingldapsuccess'] = 'La connessione al server LDAP è avvenuta correttamente';
 $string['creatingtemptable'] = 'Creazione tabella temporanea {$a}';
+$string['diag_contextnotfound'] = 'Il contesto {$a} non esiste oppure il bind DN non può leggerlo';
+$string['diag_emptycontext'] = 'E\' stato trovato un contesto vuoto.';
+$string['diag_genericerror'] = 'Si è verificato l\'errore LDAP {$a->code} durante la lettura di {$a->subject}: {$a->message}.';
 $string['didntfindexpiretime'] = 'password_expire() non ha trovato la data di scadenza.';
 $string['didntgetusersfromldap'] = 'LDAP non ha restituito nessun acccount -- un errore ? --';
 $string['gotcountrecordsfromldap'] = 'LDAP ha restituito {$a} record';

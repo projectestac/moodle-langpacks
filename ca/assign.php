@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assign', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   assign
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -71,6 +71,7 @@ $string['assign:receivegradernotifications'] = 'Rebeu les notificacions de trame
 $string['assign:releasegrades'] = 'Publica les notes';
 $string['assign:revealidentities'] = 'Mostra la identitat dels estudiants';
 $string['assign:reviewgrades'] = 'Revisa les notes';
+$string['assign:showhiddengrader'] = 'Visualitza la identitat d\'un avaluador ocult';
 $string['assignsubmission'] = 'Connector de tramesa';
 $string['assignsubmissionpluginname'] = 'Connector de tramesa';
 $string['assign:submit'] = 'Tramet la tasca';
@@ -97,6 +98,7 @@ $string['batchoperationconfirmaddattempt'] = 'Voleu permetre un altre intent per
 $string['batchoperationconfirmdownloadselected'] = 'Voleu baixar les trameses seleccionades?';
 $string['batchoperationconfirmgrantextension'] = 'Voleu concedir una pròrroga a totes les trameses seleccionades?';
 $string['batchoperationconfirmlock'] = 'Bloca totes les trameses seleccionades';
+$string['batchoperationconfirmremovesubmission'] = 'Suprimeix les trameses seleccionades?';
 $string['batchoperationconfirmreverttodraft'] = 'Reverteix les trameses seleccionades a esborrany?';
 $string['batchoperationconfirmsetmarkingallocation'] = 'Voleu establir l\'assignació d\'avaluador per a les trameses seleccionades?';
 $string['batchoperationconfirmsetmarkingworkflowstate'] = 'Voleu habilitar el flux de l\'avaluació per a totes les trameses seleccionades?';
@@ -114,7 +116,7 @@ $string['calendardue'] = '{$a} venç';
 $string['calendargradingdue'] = '{$a} s\'ha de qualificar';
 $string['changefilters'] = 'Canvia els filtres';
 $string['changeuser'] = 'Canvia l\'usuari';
-$string['choosegradingaction'] = 'Acció de qualificar';
+$string['choosegradingaction'] = 'Acció de qualificació';
 $string['choosemarker'] = 'Tria...';
 $string['chooseoperation'] = 'Tria operació';
 $string['clickexpandreviewpanel'] = 'Cliqueu per expandir el plafó de revisió';
@@ -181,6 +183,7 @@ $string['eventgradingformviewed'] = 'S\'ha visualitzat el formulari de qualifica
 $string['eventgradingtableviewed'] = 'S\'ha visualitzat la taula de notes';
 $string['eventidentitiesrevealed'] = 'Les identitats han estat revelades.';
 $string['eventmarkerupdated'] = 'S\'ha actualitzat l\'avaluador assignat.';
+$string['eventremovesubmissionformviewed'] = 'S\'ha visualitzat la confirmació de la supressió de la tramesa.';
 $string['eventrevealidentitiesconfirmationpageviewed'] = 'S\'ha visualitzat la pàgina de confirmació de revelació d\'identitats.';
 $string['eventstatementaccepted'] = 'L\'usuari ha acceptat la declaració de la tramesa.';
 $string['eventsubmissionconfirmationformviewed'] = 'S\'ha visualitzat el formulari de confirmació de la tramesa.';
@@ -200,6 +203,13 @@ $string['extensionduedate'] = 'Data de venciment de la pròrroga';
 $string['extensionnotafterduedate'] = 'La data de venciment de la pròrroga ha de ser posterior a la data de venciment de les trameses';
 $string['extensionnotafterfromdate'] = 'La data de venciment de la pròrroga ha de ser posterior a la data inicial de les trameses';
 $string['feedback'] = 'Retroacció';
+$string['feedbackavailableanonhtml'] = 'Teniu una retroacció nova per a la vostra tramesa de la tasca «<i>{$a->assignment}</i>».<br /><br /> La podeu veure adjunta a la vostra <a href="{$a->url}">tramesa de la tasca</a>.';
+$string['feedbackavailableanonsmall'] = 'Retroacció nova per a la tasca {$a->assignment}';
+$string['feedbackavailableanontext'] = 'Teniu una retroacció nova per a la vostra tramesa de la tasca «{$a->assignment}».
+
+La podeu veure adjunta a la vostra tramesa de la tasca:
+
+    {$a->url}';
 $string['feedbackavailablehtml'] = '{$a->username} ha enviat una retroacció per a la vostra tramesa de la tasca «<i>{$a->assignment}</i>»<br /><br />
 Podeu veure-la adjunta a la vostra <a href="{$a->url}">tramesa de la tasca</a>.';
 $string['feedbackavailablesmall'] = '{$a->username} ha donat retroacció per a la tasca {$a->assignment}';
@@ -227,7 +237,7 @@ $string['gradecanbechanged'] = 'Es pot canviar la qualificació';
 $string['gradechangessaveddetail'] = 'S\'han desat els canvis a la qualificació i a la retroacció.';
 $string['graded'] = 'Qualificada';
 $string['gradedby'] = 'Qualificat per';
-$string['gradedfollowupsubmit'] = 'Qualificada: s\'ha rebut una tramesa posterior';
+$string['gradedfollowupsubmit'] = 'Qualificada: seguiment de la tramesa rebuda';
 $string['gradedon'] = 'Qualificat el';
 $string['gradelocked'] = 'Aquesta qualificació està bloquejada o rectificada al llibre de qualificacions.';
 $string['gradeoutof'] = 'Qualificació sobre {$a}';
@@ -261,6 +271,8 @@ $string['groupoverridesdeleted'] = 'S\'han esborrat les excepcions de grup';
 $string['groupsnone'] = 'No hi ha grups en aquest curs.';
 $string['groupsubmissionsettings'] = 'Paràmetres de la tramesa en grup';
 $string['hiddenuser'] = 'Participant';
+$string['hidegrader'] = 'Oculta la identitat de qui qualifica als estudiants';
+$string['hidegrader_help'] = 'Oculta la identitat de qualsevol usuari que qualifiqui la tramesa d\'una tasca, de manera que els estudiants no puguin veure qui ha puntuat el seu treball.';
 $string['hideshow'] = 'Mostra/Oculta';
 $string['inactiveoverridehelp'] = '* L\'estudiant no té el grup o el rol correcte per a realitzar la tramesa.';
 $string['indicator:cognitivedepth'] = 'Tasca cognitiva';
@@ -390,6 +402,10 @@ $string['quickgradingresult'] = 'Qualificació ràpida';
 $string['recordid'] = 'Identificador';
 $string['removeallgroupoverrides'] = 'Esborra totes les excepcions de grup';
 $string['removealluseroverrides'] = 'Esborra totes les excepcions d\'usuari';
+$string['removesubmission'] = 'Suprimeix la tramesa';
+$string['removesubmissionconfirm'] = 'Confirmeu que voleu suprimir les dades de la tramesa?';
+$string['removesubmissionconfirmforstudent'] = 'Confirmeu que voleu suprimir les dades de la tramesa per a l\'estudiant {$a}?';
+$string['removesubmissionforstudent'] = 'Suprimeix la tramesa per a l\'estudiant: (id={$a->id}, fullname={$a->fullname}).';
 $string['reopenuntilpassincompatiblewithblindmarking'] = 'L\'opció de reobrir l\'intent fins que s\'aprova és incompatible amb la de qualificació a cegues, perquè les qualificacions no es publiquen al llibre de qualificacions fins que les identitats dels estudiants es mostren.';
 $string['requireallteammemberssubmit'] = 'Requereix la tramesa de tots els membres del grup';
 $string['requireallteammemberssubmit_help'] = 'Si s\'habilita, caldrà que tots els membres del grup d\'estudiants cliquin al botó de trametre per tal que la tasca de grup es consideri tramesa. Si s\'inhabilita, la tasca de grup es considerarà tramesa tan bon punt qualsevol membre del grup cliqui al botó de trametre.';
@@ -466,7 +482,6 @@ $string['submissionreceipts'] = 'Envia confirmacions de la tramesa';
 $string['submissionreceiptsmall'] = 'Heu realitzat la tramesa de la tasca {$a->assignment}';
 $string['submissionreceipttext'] = 'Heu realitzat una tramesa de la tasca »{$a->assignment}»
 Podeu veure l\'estat de la vostra tramesa de la tasca: {$a->url}';
-$string['submissions'] = 'Trameses';
 $string['submissionsclosed'] = 'Trameses tancades';
 $string['submissionsettings'] = 'Paràmetres de la tramesa';
 $string['submissionslocked'] = 'Aquesta tasca no accepta trameses';
@@ -475,7 +490,13 @@ $string['submissionsnotgraded'] = 'Trameses sense qualificar: {$a}';
 $string['submissionstatement'] = 'Compromís de tramesa';
 $string['submissionstatementacceptedlog'] = 'L\'usuari {$a} ha acceptat el compromís de tramesa';
 $string['submissionstatementdefault'] = 'Aquesta tasca conté únicament treball propi, i en el cas que hagi fet servir una font externa o l\'opinió d\'un company, n\'he citat l\'autor.';
-$string['submissionstatement_help'] = 'Sentència de confirmació de la tramesa de la tasca';
+$string['submissionstatement_help'] = 'Declaració que cada estudiant ha d\'acceptar per trametre el seu treball.';
+$string['submissionstatementteamsubmission'] = 'Declaració de la tramesa en grup';
+$string['submissionstatementteamsubmissionallsubmit'] = 'Declaració de la tramesa en grup en la qual tots els membres del grup trameten';
+$string['submissionstatementteamsubmissionallsubmitdefault'] = 'Aquesta tramesa és el meu propi treball com a membre d\'un grup, excepte on he reconegut l\'ús de treballs d\'altres persones.';
+$string['submissionstatementteamsubmissionallsubmit_help'] = 'Declaració que cada estudiant ha d\'acceptar per trametre el seu treball com a membre d\'un grup.';
+$string['submissionstatementteamsubmissiondefault'] = 'Aquesta tramesa és el treball del meu grup, excepte on hem reconegut l\'ús de treballs d\'altres persones.';
+$string['submissionstatementteamsubmission_help'] = 'Declaració que cada estudiant ha d\'acceptar per trametre el treball del seu grup.';
 $string['submissionstatus'] = 'Estat de la tramesa';
 $string['submissionstatus_'] = 'No s\'ha tramès';
 $string['submissionstatus_draft'] = 'Esborrany (no s\'ha tramès la versió definitiva)';
@@ -495,6 +516,7 @@ $string['submitted'] = 'S\'ha tramès';
 $string['submittedearly'] = 'La tasca s\'ha tramès {$a} abans del límit';
 $string['submittedlate'] = 'La tasca s\'ha tramès {$a} tard';
 $string['submittedlateshort'] = '{$a} tard';
+$string['subpagetitle'] = '{$a->contextname} - {$a->subpage}';
 $string['subplugintype_assignfeedback'] = 'Connector de retroacció';
 $string['subplugintype_assignfeedback_plural'] = 'Connectors de retroacció';
 $string['subplugintype_assignsubmission'] = 'Connector de tramesa';
@@ -510,6 +532,7 @@ $string['timeremaining'] = 'Temps restant';
 $string['timeremainingcolon'] = 'Temps restant: {$a}';
 $string['togglezoom'] = 'Amplia/redueix la regió';
 $string['ungroupedusers'] = 'El paràmetre «Cal formar part d\'un grup per fer una tramesa» està activat, i alguns usuaris o no són membres de cap grup o són membres de més d\'un grup, per la qual cosa no poden fer trameses.';
+$string['ungroupedusersoptional'] = 'El paràmetre \'Els estudiants trameten en grups\' està actiu i alguns usuaris o bé no són membres de cap grup, o bé són membres de més d\'un grup. Recordeu que les trameses d\'aquests estudiants es mostraran com a membres del \'Grup per defecte\'.';
 $string['unlimitedattempts'] = 'Il·limitats';
 $string['unlimitedattemptsallowed'] = 'Es permeten intents il·limitats.';
 $string['unlimitedpages'] = 'Sense límit';

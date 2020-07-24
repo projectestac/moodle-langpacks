@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_recentlyaccessedcourses', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_recentlyaccessedcourses', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   block_recentlyaccessedcourses
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['displaycategories'] = 'Mostrar categorías';
 $string['nocourses'] = 'No hay cursos recientes';
 $string['pluginname'] = 'Cursos accedidos recientemente';
 $string['privacy:metadata'] = 'El bloque de cursos accedidos recientemente no almacena ningún dato personal.';
-$string['recentlyaccessedcourses:addinstance'] = 'Añadir un nuevo bloque de Cursos accedidos recientemente';
 $string['recentlyaccessedcourses:myaddinstance'] = 'Añadir un nuevo bloque de Cursos accedidos recientemente al Tablero';

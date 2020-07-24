@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'lesson', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   lesson
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -61,6 +61,9 @@ $string['addnumerical'] = 'Maak een numerieke vraagpagina';
 $string['addpage'] = 'Pagina toevoegen';
 $string['addshortanswer'] = 'Maak een kort antwoordpagina';
 $string['addtruefalse'] = 'Maak een waar-/niet waarpagina';
+$string['allotheranswers'] = 'Alle andere antwoorden';
+$string['allotheranswersjump'] = 'Alle andere antwoorden springen';
+$string['allotheranswersscore'] = 'Alle andere antwoorden scoren';
 $string['allowofflineattempts'] = 'Sta toe lessen offline te proberen met de mobiele app';
 $string['allowofflineattempts_help'] = 'Indien ingeschakeld zal een mobiele app-gebruiker de les kunnen downloaden en offline een poging maken.
 Alle mogelijke antwoorden en juiste antwoorden zullen ook gedownload worden.
@@ -73,6 +76,8 @@ $string['answersfornumerical'] = 'Antwoorden voor numerieke vragen moeten koppel
 $string['arrangebuttonshorizontally'] = 'Inhoudsknoppen horizontaal schikken?';
 $string['attempt'] = 'Poging: {$a}';
 $string['attemptheader'] = 'Poging';
+$string['attemptinfonograde'] = '{$a->timestart} ({$a->duration})';
+$string['attemptinfowithgrade'] = '{$a->grade}% {$a->timestart} ({$a->duration})';
 $string['attempts'] = 'Pogingen';
 $string['attemptsdeleted'] = 'Verwijderde pogingen';
 $string['attemptsremaining'] = 'Je kan nog {$a} poging(en) doen';
@@ -155,6 +160,7 @@ $string['deletingpage'] = 'Bezig met pagina {$a} verwijderen';
 $string['dependencyon'] = 'Deeltaak van';
 $string['dependencyon_help'] = 'Met deze instelling kun je de toegang tot deze les afhankelijk maken van de score van een student voor een andere les in dezelfde cursus. Elke combinatie van gespendeerde tijd, voltooid, of "cijfer hoger dan" kunnen worden gebruikt.';
 $string['description'] = 'Beschrijving';
+$string['deselectallattempts'] = 'Deselecteer alle pogingen';
 $string['detailedstats'] = 'Gedetailleerde statistieken';
 $string['didnotanswerquestion'] = 'Deze vraag niet beantwoord';
 $string['didnotreceivecredit'] = 'Geen cijfers gekregen';
@@ -171,7 +177,7 @@ $string['displayleftmenu'] = 'Toon menu';
 $string['displayleftmenu_help'] = 'Indien ingeschakeld, wordt een menu getoond waarmee de gebruiker door een lijst van pagina\'s kan navigeren.';
 $string['displayofgrade'] = 'Tonen van het cijfer (voor de leerling)';
 $string['displayreview'] = 'Geef de optie om een vraag opnieuw te proberen';
-$string['displayreview_help'] = 'Indien ingeschakeld, zal bij een fout antwoord de student de optie krijgen om ofwel de vraag vrijblijvend opnieuw te proberen (zonder cijfer), ofwel verder te gaan met de les.';
+$string['displayreview_help'] = 'Indien ingeschakeld, zal bij een fout antwoord de leerling de optie krijgen om ofwel de vraag vrijblijvend opnieuw te proberen (zonder cijfer), ofwel verder te gaan met de les. Als de leerling klikt om verder te gaan naar een volgende vraag, dan zal het geselecteerde (foute) antwoord gevolgd worden. Standaard wordt de sprong bij een fout antwoord ingesteld op naar "huidige pagina" met een score van 0. Het is daarom aangeraden om de sprong bij fout antwoord in te stellen op een andere pagina om verwarring bij je leerlingen te vermijden.';
 $string['displayscorewithessays'] = '<p>Je hebt {$a->score} punten op {$a->tempmaxgrade} behaald voor de automatisch beoordeelde vragen.</p><p>Je {$a->essayquestions} open vragen zullen beoordeeld worden op een later moment  toegevoegd worden bij je totaalcijfer.</p><p>Je resultaat op dit ogenblik, zonder de open vragen is {$a->score} op {$a->grade}.</p>';
 $string['displayscorewithoutessays'] = 'Je cijfer is {$a->score} (op {$a->grade}).';
 $string['duplicatepagenamed'] = 'Kopiëer pagina: {$a}';
@@ -208,6 +214,7 @@ $string['eolstudentoutoftime'] = 'Opgelet: je tijd voor deze les is helemaal op.
 $string['eolstudentoutoftimenoanswers'] = 'Je hebt geen enkele vraag beantwoord. Je hebt een 0 voor deze les';
 $string['essay'] = 'Open vraag';
 $string['essayemailmessage2'] = '<p>Open vraag prompt: {$a->question}</p><p>Jouw antwoord:<em>{$a->response}</em></p><p>Commentaar van de beoordeler:<em>{$a->comment}</em></p><p>Je hebt {$a->earned} op {$a->outof} gekregen voor deze open vraag.</p><p>Je cijfer voor deze les is gewijzigd naar {$a->newgrade}%.</p>';
+$string['essayemailmessagesmall'] = '<p>Je hebt {$a->earned} ontvangen van {$a->outof} voor deze open vraag. </p><p> Jouw cijfer voor de les {$a->lesson} is gewijzigd in {$a->newgrade}%.</p>';
 $string['essayemailsubject'] = 'Cijfer beschikbaar voor vraag uit les';
 $string['essaynotgradedyet'] = 'Deze open vraag is nog niet beoordeeld';
 $string['essayresponses'] = 'Antwoord op open vraag';
@@ -254,7 +261,7 @@ $string['gradeis'] = 'Cijfer is {$a}';
 $string['gradeoptions'] = 'Beoordelingsopties';
 $string['groupoverrides'] = 'Groepsoverschrijvingen';
 $string['groupoverridesdeleted'] = 'Groepsoverschrijvingen verwijderd';
-$string['groupsnone'] = 'Er zijn geen groepen in deze cursus';
+$string['groupsnone'] = 'Geen groepen waartoe je toegang hebt.';
 $string['handlingofretakes'] = 'Behandeling van nieuwe pogingen';
 $string['handlingofretakes_help'] = 'Als opnieuw mag geprobeerd worden, dan bepaalt deze instellingen of het eindcijfer voor de les het gemiddelde of het maximum van alle pogingen wordt.';
 $string['havenotgradedyet'] = 'Nog geen cijfer gegeven';
@@ -264,10 +271,14 @@ $string['hightime'] = 'Langste duur';
 $string['importcount'] = '{$a} vragen importeren';
 $string['importquestions'] = 'Importeer vragen';
 $string['importquestions_help'] = 'Met deze functie kun je vragen importeren uit tekstbestanden.';
-$string['inactiveoverridehelp'] = '* Leerling is geen lid van de juiste groep of rol om deze les te bekijken of te proberen';
+$string['inactiveoverridehelp'] = '* Deze overschrijving is niet actief omdat de toegang tot de activiteit beperkt is voor deze gebruiker. Dit kan te wijten zijn aan roltoewijzingen, andere toegangsbeperkingen of de activiteit die verborgen is.';
 $string['indicator:cognitivedepth'] = 'Les cognitief';
+$string['indicator:cognitivedepthdef'] = 'Les cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de lesactiviteiten tijdens dit analyse-interval bereikt (Niveaus = Geen weergave, Bekijken, Verzenden, Feedback bekijken, Reageren op feedback, Opnieuw verzenden na het bekijken van feedback)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Les activiteit.';
 $string['indicator:socialbreadth'] = 'Les sociaal';
+$string['indicator:socialbreadthdef'] = 'Les sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid van de lesactiviteiten tijdens dit analyse-interval bereikt (niveaus = geen deelname, alleen deelnemer, deelnemer met anderen)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Les activiteit.';
 $string['insertedpage'] = 'Pagina ingevoegd';
 $string['invalidfile'] = 'Ingeldig bestand';
@@ -380,6 +391,7 @@ $string['nooverridedata'] = 'Je moet minstens één lesinstelling overschrijven.
 $string['noretake'] = 'Je mag deze les niet opnieuw maken';
 $string['normal'] = 'Normaal - volg het lespad';
 $string['notcompleted'] = 'Nog niet voltooid';
+$string['notcompletedwithdate'] = 'Niet voltooid ({$a})';
 $string['notdefined'] = 'Niet gedefinieerd';
 $string['notenoughsubquestions'] = 'Er zijn onvoldoende deelvragen gedefinieerd!<br />Wil je teruggaan en deze vraag herstellen?';
 $string['notenoughtimespent'] = 'Je hebt deze les voltooid in {$a->timespent}, wat minder is dan de vereiste tijd van {$a->timerequired}. Misschien wil je deze les nog eens overdoen.';
@@ -484,6 +496,7 @@ $string['privacy:metadata:timer:starttime'] = 'De datum waarop de poging startte
 $string['privacy:metadata:timer:timemodifiedoffline'] = 'Het laatste moment waarop we activiteit gezien hebben van de mobiele app';
 $string['privacy:metadata:timer:userid'] = 'De gebruikersID';
 $string['privacy:metadata:userpref:lessonview'] = 'De gekozen displaymodus wanneer lessen bewerkt worden';
+$string['privacy:path:essayanswers'] = 'Open vraag-antwoorden';
 $string['privacy:path:essayresponses'] = 'Antwoorden op open vragen';
 $string['privacy:path:pages'] = 'Pagina\'s';
 $string['processerror'] = 'Fout opgetreden tijdens de verwerking!';
@@ -506,7 +519,7 @@ $string['removeallgroupoverrides'] = 'Verwijder alle groepsoverschrijvingen';
 $string['removealluseroverrides'] = 'Verwijder alle gebruikersoverschrijvingen';
 $string['report'] = 'Rapport';
 $string['reports'] = 'Rapporten';
-$string['response'] = 'Respons';
+$string['response'] = 'Feedback';
 $string['retakesallowed'] = 'Opnieuw doen toegelaten';
 $string['retakesallowed_help'] = '<p>Deze instelling bepaalt of de leerlingen de les meer dan eens kunnen doormaken of slechts één keer. De leraar kan beslissen of deze les materiaal bevat dat de leerlingen erg grondig moeten kennen. In dat geval moet het herhaald bekijken van de les toegelaten worden. Als het materaal eerder gebruikt wordt om te testen, dan kun je er beter voor kiezen de les maar één keer te laten doornemen.</p>
 
@@ -533,6 +546,7 @@ $string['score_help'] = 'Score wordt alleen gebruikt als aangepaste score is ing
 $string['scores'] = 'Cijfers';
 $string['search:activity'] = 'Les - activiteitsinformatie';
 $string['secondpluswrong'] = 'Niet echt. Wil je nog eens proberen?';
+$string['selectallattempts'] = 'Selecteer alle pogingen';
 $string['selectaqtype'] = 'Kies een vraagtype';
 $string['sent'] = 'Verstuurd';
 $string['shortanswer'] = 'Kort antwoord';
@@ -593,6 +607,7 @@ $string['viewreports2'] = 'Bekijk {$a} volledige pogingen';
 $string['warning'] = 'Waarschuwing';
 $string['welldone'] = 'Goed gedaan!';
 $string['whatdofirst'] = 'Wat wil je eerst doen?';
+$string['withselectedattempts'] = 'Met geselecteerde pogingen';
 $string['wronganswerjump'] = 'Verkeerde antwoordsprong';
 $string['wronganswerscore'] = 'Verkeerd antwoordcijfer';
 $string['wrongresponse'] = 'Verkeerd antwoord';

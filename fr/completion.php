@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'completion', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   completion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['activityaggregation_all'] = 'TOUTES les activités sélectionnées doiv
 $string['activityaggregation_any'] = 'UNE des activités sélectionnées doit être achevée';
 $string['activitycompletion'] = 'Achèvement d\'activité';
 $string['activitycompletionupdated'] = 'Modifiations enregistrées';
+$string['activitygradenotrequired'] = 'Note non requise';
 $string['affectedactivities'] = 'Les modifications vont toucher les <b>{$a}</b> activités ou ressources :';
 $string['aggregationmethod'] = 'Méthode de combinaison';
 $string['all'] = 'Tous';
@@ -42,6 +43,7 @@ $string['any'] = 'Un au moins';
 $string['approval'] = 'Approbation';
 $string['areyousureoverridecompletion'] = 'Voulez-vous vraiment écraser l\'état d\'achèvement actuel de cette activité pour cet utilisateur et le marquer comme « {$a} » ?';
 $string['badautocompletion'] = 'Lorsque vous utilisez le suivi automatique de l\'achèvement, vous devez activer au moins une exigence (ci-dessous).';
+$string['badcompletiongradeitemnumber'] = 'Impossible d\'exiger une note pour <b>{$a}</b> parce que l\'évaluation pour {$a} n\'est pas activée.';
 $string['bulkactivitycompletion'] = 'Modification en lot de l\'achèvement d\'activité';
 $string['bulkactivitydetail'] = 'Sélectionner les activités à modifier en lot.';
 $string['bulkcompletiontracking'] = 'Suivi de l\'achèvement';
@@ -103,8 +105,6 @@ $string['completionondate'] = 'Date';
 $string['completionondatevalue'] = 'Date à laquelle le cours sera marqué comme terminé';
 $string['completion-pass'] = 'Terminé (note pour passer atteinte)';
 $string['completionsettingslocked'] = 'Réglages d\'achèvement verrouillés';
-$string['completion-title-manual-n'] = 'Marquer comme terminé : {$a}';
-$string['completion-title-manual-y'] = 'Marquer comme non terminé : {$a}';
 $string['completionupdated'] = 'Achèvement modifié pour l\'activité <b>{$a}</b>';
 $string['completionusegrade'] = 'Note requise';
 $string['completionusegrade_desc'] = 'Les étudiants doivent recevoir une note pour terminer cette activité';

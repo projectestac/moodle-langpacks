@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,7 +34,7 @@ $string['auth_changepasswordhelp'] = 'Axuda para cambiar o contrasinal';
 $string['auth_changepasswordhelp_expl'] = 'Presenta axuda aos usuarios que perderon o seu contrasinal {$a}. Esta opción pode presentarse ademais de ou no canto do <strong>URL para cambiar o contrasinal</strong> ou como un cambio de contrasinal interno de Moodle.';
 $string['auth_changepasswordurl'] = 'URL para cambiar o contrasinal';
 $string['auth_changepasswordurl_expl'] = 'Especifique o URL ao que remitir aos usuarios que perderon o seu contrasinal {$a}. Seleccione <strong>Non</strong> na páxina <strong>Empregar a páxina estándar de cambio de contrasinal</strong>.';
-$string['auth_changingemailaddress'] = 'Vostede solicitou un cambio de enderezo de correo  desde {$a->oldemail} cara {$a->newemail}. Por razóns de seguranza, témoslle enviada unha mensaxe por correo ao novo enderezo para confirmar que é vostede o titular. O seu novo enderezo será actualizado unha vez que abra a ligazón que lle enviamos nesa mensaxe.';
+$string['auth_changingemailaddress'] = 'Vostede solicitou un cambio de enderezo de correo  desde {$a->oldemail} cara {$a->newemail}. Por razóns de seguridade, témoslle enviada unha mensaxe por correo ao novo enderezo para confirmar que é vostede o titular. O seu novo enderezo será actualizado unha vez que abra a ligazón que lle enviamos nesa mensaxe.';
 $string['auth_common_settings'] = 'Configuración común';
 $string['auth_data_mapping'] = 'Asignación de datos';
 $string['authenticationoptions'] = 'Opcións de autenticación';
@@ -91,8 +91,6 @@ Solicitou un cambio do seu enderezo de correo na súa conta de {$a->site}. Abra 
 {$a->url}';
 $string['emailupdatesuccess'] = 'O enderezo de correo do usuario <em>{$a->fullname}</em> foi actualizado satisfactoriamente a <em>{$a->email}</em>.';
 $string['emailupdatetitle'] = 'Confirmación da actualización de correo en {$a->site}';
-$string['enterthenumbersyouhear'] = 'Introduza os números que escoite';
-$string['enterthewordsabove'] = 'Introduza as palabras de enriba';
 $string['errormaxconsecutiveidentchars'] = 'Os contrasinais deben ter como máximo {$a} caracteres consecutivos idénticos.';
 $string['errorminpassworddigits'] = 'Os contrasinais deben ter polo menos {$a} díxito(s).';
 $string['errorminpasswordlength'] = 'Os contrasinais deben ter polo menos unha lonxitude de {$a} caracteres.';
@@ -109,9 +107,6 @@ $string['forcechangepasswordfirst_help'] = 'Forzar que os usuarios cambien o con
 $string['forcechangepassword_help'] = 'Forzar que os usuarios cambien o contrasinal a próxima vez que accedan a Moodle.';
 $string['forgottenpassword'] = 'Se escribe aquí un URL, empregarase como páxina de recuperación do contrasinal perdido para este sitio. Isto está pensado para sitios nos que os contrasinais adminístranse totalmente fora de Moodle. Déixeo en branco para empregar a recuperación predeterminada do contrasinal.';
 $string['forgottenpasswordurl'] = 'URL de contrasinal esquecido';
-$string['getanaudiocaptcha'] = 'Obter un CAPTCHA de son';
-$string['getanimagecaptcha'] = 'Obter un CAPTCHA de imaxe';
-$string['getanothercaptcha'] = 'Obter outro CAPTCHA';
 $string['getrecaptchaapi'] = 'Para usar reCAPTCHA necesita obter unha chave API de <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Botón de acceso para convidados';
 $string['incorrectpleasetryagain'] = 'Incorrecto. Ténteo de novo.';
@@ -164,7 +159,7 @@ $string['stdchangepassword_expl'] = 'Se o sistema externo de autenticación perm
 $string['stdchangepassword_explldap'] = 'NOTA: recomendase que empregue LDAP sobre un túnel cifrado SSL (ldaps://) se o servidor LDAP é remoto.';
 $string['suspended'] = 'Conta suspendida';
 $string['suspended_help'] = 'As contas de usuario suspendidas non poden acceder ou empregar os servizos web, e todas as mensaxes saíntes desbotaranse.';
-$string['testsettings'] = 'Proba das configuracións';
+$string['testsettings'] = 'Proba dos axustes';
 $string['testsettingsheading'] = 'Proba da configuración da autenticación - {$a}';
 $string['unlocked'] = 'Desbloqueado';
 $string['unlockedifempty'] = 'Desbloqueado se está baleiro';

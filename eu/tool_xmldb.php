@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_xmldb', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_xmldb
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actual'] = 'Oraingoa';
+$string['addpersistent'] = 'Gehitu derrigorrezko eremu iraunkorrak';
 $string['aftertable'] = 'Taularen ondoren:';
 $string['back'] = 'Atzera';
 $string['backtomainview'] = 'Itzuli orri nagusira';
@@ -47,33 +48,33 @@ $string['confirmcheckbigints'] = 'Funtzionalitate honek <a href="https://tracker
 
 Behin adierazpen horiek sortuta zure SQL interfaze gogokoenean kopiatu eta modu seguruan exekuta ditzakezu (ez ahaztu hori egin aurretik zure datuen segurtasun-kopia bat egitea).
 
-Irmoki gomendatzen da eskuragarri dagoen zure Moodle bertsioaren azken kaleratzea instalatuta izatea zenbaki oso ezegokiak bilatu baino lehen.
+Irmoki gomendatzen da eskuragarri dagoen zure Moodle bertsioaren azken kaleratzea (bertsiorik altuena) instalatuta izatea zenbaki oso ezegokiak bilatu baino lehen.
 
 Funtzionalitate honek ez du datu-basean inolako ekintzarik egiten (bertatik irakurri baino ez), eta beraz arazorik gabe edozein unetan exekuta daiteke.';
 $string['confirmcheckdefaults'] = 'Funtzionalitate honek zure Moodle zerbitzarian sendotasunik ez duten lehenetsitako balioak bilatuko ditu, eta sortuko ditu (exekutatu gabe!) lehenetsitako balio horiek guztiak modu egokian zehazteko beharrezkoak diren SQL adierazpenak.
 
 Behin adierazpen horiek sortuta zure SQL interfaze gogokoenean kopiatu eta modu seguruan exekuta ditzakezu (ez ahaztu hori egin aurretik zure datuen segurtasun-kopia bat egitea).
 
-Irmoki gomendatzen da eskuragarri dagoen zure Moodle bertsioaren azken kaleratzea instalatuta izatea sendotasunik gabeko lehenetsitako balioak bilatu baino lehen.
+Irmoki gomendatzen da eskuragarri dagoen zure Moodle bertsioaren azken kaleratzea (bertsiorik altuena) instalatuta izatea sendotasunik gabeko lehenetsitako balioak bilatu baino lehen.
 
 Funtzionalitate honek ez du datu-basean inolako ekintzarik egiten (bertatik irakurri baino ez), eta beraz arazorik gabe edozein unetan exekuta daiteke.';
 $string['confirmcheckforeignkeys'] = 'Funtzionalitate honek install.xml definizioetan zehaztutako kanpoko gakoen urraketa potentzialen bilaketa egingo du. (Moodlek une honetan ez du kanpoko gakorik sortzen datu-basean, eta horregatik ager daitezke datu baliogabeak.)
 
-Irmoki gomendatzen da eskuragarri dagoen zure Moodle bertsioaren azken kaleratzea instalatuta izatea kanpoko gakoen urraketa potentzialen bilaketa exekutatu baino lehen.
+Irmoki gomendatzen da eskuragarri dagoen zure Moodle bertsioaren azken kaleratzea (bertsiorik altuena) instalatuta izatea kanpoko gakoen urraketa potentzialen bilaketa exekutatu baino lehen.
 
 Funtzionalitate honek ez du datu-basean inolako ekintzarik egiten (bertatik irakurri baino ez), eta beraz arazorik gabe edozein unetan exekuta daiteke.';
 $string['confirmcheckindexes'] = 'Funtzionalitate honek falta daitezkeen indizeak bilatuko ditu zure Moodle zerbitzarian, eta sortuko ditu (exekutatu gabe!) dena eguneratuta izateko beharrezkoak diren SQL adierazpenak.
 
 Behin adierazpen horiek sortuta zure SQL interfaze gogokoenean kopiatu eta modu seguruan exekuta ditzakezu (ez ahaztu hori egin aurretik zure datuen segurtasun-kopia bat egitea).
 
-Irmoki gomendatzen da eskuragarri dagoen zure Moodle bertsioaren azken kaleratzea instalatuta izatea falta diren indizeak bilatu baino lehen.
+Irmoki gomendatzen da eskuragarri dagoen zure Moodle bertsioaren azken kaleratzea (bertsiorik altuena) instalatuta izatea falta diren indizeak bilatu baino lehen.
 
 Funtzionalitate honek ez du datu-basean inolako ekintzarik egiten (bertatik irakurri baino ez), eta beraz arazorik gabe edozein unetan exekuta daiteke.';
 $string['confirmcheckoraclesemantics'] = 'Funtzionalitate honek <a href="https://tracker.moodle.org/browse/MDL-29322">BYTE semantika erabiltzen duten Oracle varchar2 zutabeak</a> bilatuko ditu zure Moodle zerbitzarian, eta sortuko ditu (exekutatu gabe!) zutabe guztiek horren ordez CHAR semantika (datu-baseen arteko bateragarritasunerako hobea eta edukien gehienezko luzera handitzen duena) erabil dezaten beharrezkoak diren SQL adierazpenak.
 
 Behin adierazpen horiek sortuta zure SQL interfaze gogokoenean kopiatu eta modu seguruan exekuta ditzakezu (ez ahaztu hori egin aurretik zure datuen segurtasun-kopia bat egitea).
 
-Irmoki gomendatzen da eskuragarri dagoen zure Moodle bertsioaren azken kaleratzea instalatuta izatea BYTE semantika erabiltzen duten zutabeak bilatu baino lehen.
+Irmoki gomendatzen da eskuragarri dagoen zure Moodle bertsioaren azken kaleratzea (bertsiorik altuena) instalatuta izatea BYTE semantika erabiltzen duten zutabeak bilatu baino lehen.
 
 Funtzionalitate honek ez du datu-basean inolako ekintzarik egiten (bertatik irakurri baino ez), eta beraz arazorik gabe edozein unetan exekuta daiteke.';
 $string['confirmdeletefield'] = 'Ziur zaude ondoko eremua ezabatu nahi duzula:';
@@ -172,6 +173,9 @@ $string['numberincorrectwholepart'] = 'Zenbakizko eremuaren zenbaki-atal handieg
 $string['pendingchanges'] = 'Oharra: Fitxategi honi aldaketak egin dizkiozu. Edozein unetan gorde daitezke.';
 $string['pendingchangescannotbesaved'] = 'Fitxategi honetan aldaketak daude baina ezin dira gorde! Mesedez egiaztatu web zerbitzariak bai direktorioa baita bertako "install.xml" fitxategia ere idazteko baimenak dituela.';
 $string['pendingchangescannotbesavedreload'] = 'Fitxategi honetan aldaketak daude baina ezin dira gorde! Mesedez egiaztatu web zerbitzariak bai direktorioa baita bertako "install.xml" fitxategiak ere idazteko baimenak dituztela. Orduan orri hau freskatu eta aldaketa horiek gorde ahal izango dituzu.';
+$string['persistentfieldscomplete'] = 'Hurrengo eremuak gehitu dira:';
+$string['persistentfieldsconfirm'] = 'Hurrengo eremuak gehitu nahi dituzu:';
+$string['persistentfieldsexist'] = 'Hurrengo eremuak dagoeneko existitzen dira:';
 $string['pluginname'] = 'XMLDB editorea';
 $string['primarykeyonlyallownotnullfields'] = 'Gako nagusiak (primary key) ezin dira hutsik egon';
 $string['privacy:metadata'] = 'XMLDB editorea pluginak ez du datu pertsonalik biltzen.';

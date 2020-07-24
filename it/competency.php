@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'competency', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   competency
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -108,6 +108,7 @@ $string['invalidpersistenterror'] = 'Errore: {$a}';
 $string['invalidplan'] = 'Piano di formazione non valido';
 $string['invalidtaxonomy'] = 'Tassonomia non valida: {$a}';
 $string['invalidurl'] = 'L\'URL non è valida. Accertati che inizi per \'http://\' o \'https://\'.';
+$string['nouserplanswithcompetency'] = 'Nessun piano di formazione contiene la competenza.';
 $string['planstatusactive'] = 'Attivo';
 $string['planstatuscomplete'] = 'Raggiunta';
 $string['planstatusdraft'] = 'Bozza';
@@ -165,7 +166,7 @@ $string['privacy:path:relatedtome'] = 'Relative alla persona';
 $string['privacy:path:userevidence'] = 'Attestazione della formazione pregressa';
 $string['pushcourseratingstouserplans'] = 'Aggiorna i piani formativi individuali con le valutazioni del corso';
 $string['pushcourseratingstouserplans_desc'] = 'Di default le impostazioni del corso prevedono l\'aggiornamento dei piani formativi individuali quando vengono valutate le competenze.';
-$string['syncplanscohorts'] = 'Sincronizza i piani dai modelli dei piani formativi dei gruppi globali';
+$string['syncplanscohorts'] = 'Sincronizzazione piani dai modelli dei piani formativi dei gruppi globali';
 $string['taxonomy_behaviour'] = 'Comportamento';
 $string['taxonomy_competency'] = 'Competenza';
 $string['taxonomy_concept'] = 'Concetto';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_scheduled', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshopallocation_scheduled', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   workshopallocation_scheduled
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['crontask'] = '后台处理计划分配';
 $string['currentstatus'] = '当前状态';
 $string['currentstatusexecution'] = '状态';
 $string['currentstatusexecution1'] = '执行于 {$a->datetime}';

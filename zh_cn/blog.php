@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'blog', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   blog
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,7 +45,7 @@ $string['blogaboutthismodule'] = '写篇关于此{$a}的博客';
 $string['blogadministration'] = '博客管理';
 $string['blogdeleteconfirm'] = '删除这篇博客\'{$a}\'吗？';
 $string['blogdisable'] = '博客被禁用！';
-$string['blogentries'] = '博客文章';
+$string['blogentries'] = '博客条目';
 $string['blogentriesabout'] = '关于{$a}的博客';
 $string['blogentriesbygroupaboutcourse'] = '{$a->group}发表的关于{$a->course}的博客';
 $string['blogentriesbygroupaboutmodule'] = '{$a->group}发表的关于{$a->mod}的博客';
@@ -109,12 +109,12 @@ $string['incorrectblogfilter'] = '不正确的博客过滤类型';
 $string['intro'] = 'RSS 种子会自动通过一个或多个博客产生。';
 $string['invalidgroupid'] = '无效的组ID';
 $string['invalidurl'] = 'URL无法访问';
-$string['linktooriginalentry'] = '文章原始链接';
+$string['linktooriginalentry'] = '链接到原始的博客条目';
 $string['maxexternalblogsperuser'] = '每用户最多可有几个外部博客';
 $string['myprofileuserblogs'] = '查看所有博客条目';
 $string['name'] = '博客名';
 $string['name_help'] = '输入您的外部博客的名字。（如果不提供名字，会直接使用外部博客的标题）。';
-$string['noentriesyet'] = '这里没有可见的文章';
+$string['noentriesyet'] = '这里没有可见条目';
 $string['noguestpost'] = '访客不能发布博客';
 $string['nopermissionstodeleteentry'] = '您没有删除此博文的权限';
 $string['norighttodeletetag'] = '您不能删除这个分类- {$a}';
@@ -152,7 +152,7 @@ $string['publishto_help'] = '有三个选择：
 * 网站里的所有人——所有在此网站注册的人都能阅读此博客
 * 世界上的任何人——任何人，包括访客，都能阅读此博客';
 $string['publishtonoone'] = '自己(草稿)';
-$string['publishtosite'] = '网站里的所有人';
+$string['publishtosite'] = '网站上的任何人';
 $string['publishtoworld'] = '世界上的任何人';
 $string['readfirst'] = '请先读这个';
 $string['relatedblogentries'] = '相关博客';

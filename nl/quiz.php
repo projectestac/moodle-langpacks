@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -158,13 +158,13 @@ $string['cannotstartmissingquestion'] = 'Kan geen poging voor deze test starten.
 $string['cannotstartnoquestions'] = 'Kan de poging voor deze test niet starten. De test is nog niet klaar. Er zijn nog geen vragen toegevoegd.';
 $string['cannotwrite'] = 'Kan exportbestand niet wegschrijven ({$a})';
 $string['canredoquestions'] = 'Opnieuw doen toestaan binnen een poging';
-$string['canredoquestions_desc'] = 'Indien ingeschakeld zullen leerlingen die een bepaalde vraag voltooid hebben een \'Vraag opnieuw beantwoorden\'-knop zien. Hiermee kunnen ze een andere versie van dezelfde vraag proberen, zonder de hele testpoging te moeten insturen en een nieuwe poging te starten. Deze optie is vooral nuttig voor oefentesten.
+$string['canredoquestions_desc'] = 'Indien ingeschakeld zullen leerlingen die een bepaalde vraag voltooid hebben een \'Probeer een andere vraag zoals deze\'-knop zien. Hiermee kunnen ze een gelijkaardige, willekeurig gekozen vraag proberen, zonder de hele testpoging te moeten insturen en een nieuwe poging te starten. Deze optie is vooral nuttig voor oefentesten.
 
-Deze instelling is enkel van toepassing voor vragen (bijvoorbeeld niet de open vraag) en vraaggedrag (bijvoorbeeld onmiddellijke feedback of interactief met meerdere pogingen) waar het mogelijk is voor leerlingen om een vraag te beëindigen voor de poging is ingestuurd.';
-$string['canredoquestions_help'] = 'Indien ingeschakeld zullen leerlingen die een bepaalde vraag voltooid hebben een \'Vraag opnieuw beantwoorden\'-knop zien. Hiermee kunnen ze een andere versie van dezelfde vraag proberen, zonder de hele testpoging te moeten insturen en een nieuwe poging te starten. Deze optie is vooral nuttig voor oefentesten.
+Deze instelling is enkel van toepassing voor vragen en vraaggedrag (bijvoorbeeld onmiddellijke feedback of interactief met meerdere pogingen) waar het mogelijk is om een vraag te beëindigen voor de poging is ingestuurd.';
+$string['canredoquestions_help'] = 'Indien ingeschakeld zullen leerlingen die een bepaalde vraag voltooid hebben een \'Probeer een andere vraag zoals deze\'-knop zien. Hiermee kunnen ze een gelijkaardige, willekeurig gekozen vraag proberen, zonder de hele testpoging te moeten insturen en een nieuwe poging te starten. Deze optie is vooral nuttig voor oefentesten.
 
-Deze instelling is enkel van toepassing voor vragen (bijvoorbeeld niet de open vraag) en vraaggedrag (bijvoorbeeld onmiddellijke feedback of interactief met meerdere pogingen) waar het mogelijk is voor leerlingen om een vraag te beëindigen voor de poging is ingestuurd.';
-$string['canredoquestionsyes'] = 'Leerlingen kunnen een andere versie van een vraag krijgen van een vraag die ze al beantwoord hebben.';
+Deze instelling is enkel van toepassing voor vragen en vraaggedrag (bijvoorbeeld onmiddellijke feedback of interactief met meerdere pogingen) waar het mogelijk is om een vraag te beëindigen voor de poging is ingestuurd.';
+$string['canredoquestionsyes'] = 'Ja, geef de mogelijkheid om een andere vraag te proberen';
 $string['caseno'] = 'Nee, hoofd/kleine letters zijn niet belangrijk';
 $string['casesensitive'] = 'Gevoeligheid voor hoofd/kleine letters';
 $string['caseyes'] = 'Ja, hoofd/kleine letters moeten exact hetzelfde zijn';
@@ -347,6 +347,7 @@ $string['eventoverridedeleted'] = 'Test overschrijven verwijderd';
 $string['eventoverrideupdated'] = 'Test overschrijven aangepast';
 $string['eventquestionmanuallygraded'] = 'Vraag manueel beoordeeld';
 $string['eventquizattemptabandoned'] = 'Testpoging verlaten';
+$string['eventquizattemptregraded'] = 'Test-poging opnieuw beoordeeld';
 $string['eventquizattemptstarted'] = 'Testpoging gestart';
 $string['eventquizattemptsubmitted'] = 'Testpoging ingestuurd';
 $string['eventquizattempttimelimitexceeded'] = 'Tijdslimiet testpoging overschreden';
@@ -460,11 +461,15 @@ $string['importingquestions'] = '{$a} vragen uit een bestand aan het importeren'
 $string['importmax10error'] = 'Er zit een fout in de vraag. Je mag niet meer dan tien mogelijke antwoorden geven.';
 $string['importmaxerror'] = 'Er zit een fout in de vraag. Er zijn te veel antwoorden.';
 $string['importquestions'] = 'Importeer vragen uit bestand';
-$string['inactiveoverridehelp'] = '* Leerling zit niet in de juiste groep of heeft niet de juiste rol om de test te doen';
+$string['inactiveoverridehelp'] = '* Deze overschrijving is niet actief omdat de toegang tot de activiteit beperkt is voor deze gebruiker. Dit kan te wijten zijn aan roltoewijzingen, andere toegangsbeperkingen of de activiteit die verborgen is.';
 $string['incorrect'] = 'Niet juist';
 $string['indicator:cognitivedepth'] = 'Test cognitief';
+$string['indicator:cognitivedepthdef'] = 'Test cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de Test-activiteiten bereikt tijdens dit analyse-interval (Niveaus = Geen weergave, Bekijken, Verzenden, Feedback bekijken, Reageren op feedback, Opnieuw verzenden na het bekijken van feedback)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Test activiteit.';
 $string['indicator:socialbreadth'] = 'Test sociaal';
+$string['indicator:socialbreadthdef'] = 'Test sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid van de Test-activiteiten bereikt tijdens dit analyse-interval (Niveaus = geen deelname, alleen deelnemer, deelnemer met anderen)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Test activiteit.';
 $string['indivresp'] = 'Antwoorden van ieder afzonderlijk op elk item';
 $string['info'] = 'Info';
@@ -488,6 +493,8 @@ $string['layoutasshown'] = 'Paginaopmaak zoals hier.';
 $string['layoutasshownwithpages'] = 'Paginaopmaak zoals hier <small>(automatisch nieuwe pagina elke {$a} vragen.</small>';
 $string['layoutshuffledandpaged'] = 'Vragen in willekeurige volgorde met {$a} vragen per pagina';
 $string['layoutshuffledsinglepage'] = 'Vragen in willekeurige volgorde, allemaal op één pagina.';
+$string['legacyquizaccessrulescron'] = 'Verouderde cron test toegangsregels';
+$string['legacyquizreportscron'] = 'Verouderde cron testrapporten';
 $string['link'] = 'Link';
 $string['listitems'] = 'Lijst van items in de test';
 $string['literal'] = 'Jokertekens';
@@ -727,7 +734,7 @@ $string['quizavailable'] = 'De test is beschikbaar tot: {$a}';
 $string['quizclose'] = 'Sluit de test';
 $string['quizclosed'] = 'Deze test  wordt op {$a} gesloten';
 $string['quizcloses'] = 'Test gaat dicht';
-$string['quizcloseson'] = 'Deze test sluit op {$a}';
+$string['quizcloseson'] = 'Deze test sluit op {$a}.';
 $string['quiz:deleteattempts'] = 'Verwijder pogingen voor test';
 $string['quiz:emailconfirmsubmission'] = 'Stuur een e-mailbevestiging wanneer ik de test instuur';
 $string['quiz:emailnotifysubmission'] = 'Stuur e-mailnotificaties wanneer de test ingestuurd wordt';
@@ -754,6 +761,7 @@ $string['quizordernotrandom'] = 'Volgorde van de vragen niet door elkaar gehaald
 $string['quizorderrandom'] = '* Volgorde van de vragen door elkaar gehaald';
 $string['quiz:preview'] = 'Testen bekijken';
 $string['quiz:regrade'] = 'Testpogingen opnieuw nakijken';
+$string['quizreport'] = 'Testrapport';
 $string['quiz:reviewmyattempts'] = 'Herlees je eigen pogingen';
 $string['quizsettings'] = 'Instellingen van de test';
 $string['quiztimer'] = 'Test timer';
@@ -908,6 +916,7 @@ $string['sectionheadingremove'] = 'Verwijder kop \'{$a}\'';
 $string['seequestions'] = '(zie vragen)';
 $string['select'] = 'Selecteer';
 $string['selectall'] = 'Selecteer alle';
+$string['selectattempt'] = 'Selecteer poging';
 $string['selectcategory'] = 'Selecteer categorie';
 $string['selectedattempts'] = 'Selecteer pogingen...';
 $string['selectmultipleitems'] = 'Selecteer meerdere items';
@@ -1017,6 +1026,7 @@ $string['unfinished'] = 'open';
 $string['ungraded'] = 'Nog geen cijfer';
 $string['unit'] = 'Eenheid';
 $string['unknowntype'] = 'Vraagtype op lijn {$a} niet ondersteund. De vraag zal genegeerd worden';
+$string['updateoverdueattemptstask'] = 'Achterstallige testpogingen bijwerken';
 $string['updatequizslotswithrandomxofy'] = 'Testslots met data van "willekeurige" vragen ({$a->done}/{$a->total})';
 $string['updatesettings'] = 'Instellingen test bijwerken';
 $string['updatingatttemptgrades'] = 'Cijfers updaten';

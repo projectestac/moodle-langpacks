@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_random', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshopallocation_random', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   workshopallocation_random
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,23 +31,24 @@ $string['allocationdeallocategraded'] = '不能解除分配已评分的评价：
 $string['allocationreuseddetail'] = '重用评价：<strong>{$a->reviewername}</strong>继续做 <strong>{$a->authorname}</strong>的评价人';
 $string['allocationsettings'] = '分配设置';
 $string['assessmentdeleteddetail'] = '已解除分配的评价: <strong>{$a->reviewername}</strong> 不再评价 <strong>{$a->authorname} 的作业';
-$string['assesswosubmission'] = '不交作业也可以评价';
-$string['confignumofreviews'] = '默认随机分配作业的个数';
+$string['assesswosubmission'] = '参与者无需提交作业也可进行评价';
+$string['confignumofreviews'] = '随机分配的默认作业数量';
 $string['excludesamegroup'] = '防止在同一组的同学互相评价';
 $string['noallocationtoadd'] = '不需添加分配';
 $string['nogroupusers'] = '<p>警告：如果互动评价处在“可视小组”模式或者“分隔小组”模式，那么用户必须至少属于一个组，才能用此工具向他们分配评价任务。不属于任何组的用户仍然可以做自我评价或者删除已有的评价。</p> <p>这些用户目前还未被加入任何组：{$a}</p>';
 $string['numofdeallocatedassessment'] = '解除分配 {$a} 个评价';
-$string['numofrandomlyallocatedsubmissions'] = '随机分配 {$a} 个作品';
+$string['numofrandomlyallocatedsubmissions'] = '随机分配{$a}个作业';
 $string['numofreviews'] = '评价次数';
 $string['numofselfallocatedsubmissions'] = '自我分配 {$a} 个作业';
 $string['numperauthor'] = '每个作业';
 $string['numperreviewer'] = '每个评价人';
 $string['pluginname'] = '随机分配';
+$string['privacy:metadata'] = '随机分配插件不会存储任何个人数据。谁将评价谁的个人数据由互动评价模块本身存储，并成为导出评价细节的基础。';
 $string['randomallocationdone'] = '随机分配完成';
 $string['removecurrentallocations'] = '删除当前分配方案';
-$string['resultnomorepeers'] = '没有可用的人员';
-$string['resultnomorepeersingroup'] = '在此分隔小组中没有足够的人员可用';
-$string['resultnotenoughpeers'] = '没有足够的人员可用';
+$string['resultnomorepeers'] = '没有更多可用的互评人员';
+$string['resultnomorepeersingroup'] = '在此分隔小组中没有足够的互评人员可用';
+$string['resultnotenoughpeers'] = '没有足够的互评人员可用';
 $string['resultnumperauthor'] = '尝试为每个作者分配 {$a} 个评价人';
 $string['resultnumperreviewer'] = '尝试为每个评价人分配 {$a} 个评价任务';
-$string['stats'] = '当前分配情况';
+$string['stats'] = '当前分配统计';

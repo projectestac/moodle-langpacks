@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cache', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addstoresuccess'] = 'Lo store {$a} è stato aggiunto correttamente';
 $string['area'] = 'Area';
 $string['cacheadmin'] = 'Amministrazione cache';
 $string['cacheconfig'] = 'Configurazione';
+$string['cachedef_calculablesinfo'] = 'Informazioni calcolabili dall\'analitica';
 $string['cachedef_calendar_categories'] = 'Categorie del calendario del corso accessibili dagli utenti';
 $string['cachedef_calendar_subscriptions'] = 'Sottoscrizioni calendario';
 $string['cachedef_capabilities'] = 'Elenco privilegi del sistema';
@@ -46,6 +47,7 @@ $string['cachedef_coursecattree'] = 'Alberatura delle categorie di corso';
 $string['cachedef_coursecompletion'] = 'Stati di completamento corso';
 $string['cachedef_coursecontacts'] = 'Elenco dei gestori dei corsi';
 $string['cachedef_coursemodinfo'] = 'Informazioni accumulate sui moduli e delle sezioni di ciascun corso';
+$string['cachedef_course_user_dates'] = 'Date visualizzate agli utenti nei corsi con date relative';
 $string['cachedef_databasemeta'] = 'Meta informazioni database';
 $string['cachedef_eventinvalidation'] = 'Invalidazione eventi';
 $string['cachedef_externalbadges'] = 'Badge esterni per utente specifico';
@@ -57,10 +59,12 @@ $string['cachedef_langmenu'] = 'Elenco delle lingue disponibili';
 $string['cachedef_locking'] = 'Locking';
 $string['cachedef_message_processors_enabled'] = 'Stato abilitazione gestori messaggi';
 $string['cachedef_message_time_last_message_between_users'] = 'Data di creazione dei messaggi più recenti di una conversazione';
+$string['cachedef_modelfirstanalyses'] = 'Prima analisi per modello e analizzabili';
 $string['cachedef_navigation_expandcourse'] = 'Navigazione espandibile dei corsi';
 $string['cachedef_observers'] = 'Event observer';
 $string['cachedef_plugin_functions'] = 'Callback offerti dai plugin';
 $string['cachedef_plugin_manager'] = 'Gestore informazioni plugin';
+$string['cachedef_portfolio_add_button_portfolio_instances'] = 'Istanze di portfolio per la classe portfolio_add_button';
 $string['cachedef_postprocessedcss'] = 'CSS post processati';
 $string['cachedef_presignup'] = 'Dati di pre-registrazione per utenti non ancora registrati';
 $string['cachedef_questiondata'] = 'Definizioni domanda';
@@ -68,7 +72,7 @@ $string['cachedef_repositories'] = 'Dati delle istanze dei repository';
 $string['cachedef_roledefs'] = 'Definizioni dei ruoli';
 $string['cachedef_string'] = 'Cache stringhe della lingua';
 $string['cachedef_suspended_userids'] = 'Elenco degli utenti sospesi nei corsi';
-$string['cachedef_tagindexbuilder'] = 'Risultati della ricerca per elementi con tag';
+$string['cachedef_tagindexbuilder'] = 'Risultati della ricerca degli elementi con tag';
 $string['cachedef_tags'] = 'Aree e raccolte di tag';
 $string['cachedef_temp_tables'] = 'Cache delle tabelle temporanee';
 $string['cachedef_user_group_groupings'] = 'Gruppi e raggruppamenti dell\'utente suddivisi per corso';
@@ -77,6 +81,7 @@ $string['cachedef_yuimodules'] = 'Definizioni moduli YUI';
 $string['cachelock_file_default'] = 'File locking di default';
 $string['cachestores'] = 'Cache store';
 $string['caching'] = 'Caching';
+$string['canuselocalstore'] = 'Utilizza store locale';
 $string['component'] = 'Componente';
 $string['confirmlockdeletion'] = 'Conferma eliminazione lock';
 $string['confirmstoredeletion'] = 'Conferma eliminazione store';
@@ -138,8 +143,11 @@ $string['plugin'] = 'Plugin';
 $string['pluginsummaries'] = 'Cache store installati';
 $string['privacy:metadata:cachestore'] = 'Il sottosistema di cache memorizza temporaneamente dei dati provenienti da altre componenti di Moodle. Tali dati non sono facilmente identificabili e hanno una persistenza breve. Funge da cache dei dati memorizzati altrove su Moodle ed è già gestito da tali componenti di Moodle.';
 $string['purge'] = 'Svuota';
+$string['purgeagain'] = 'Svuota di nuovo';
 $string['purgedefinitionsuccess'] = 'La definizione è stata svuotata come da richiesta.';
 $string['purgestoresuccess'] = 'Lo store è stato svuotato correttamente';
+$string['purgexdefinitionsuccess'] = 'La cache "{$a->name}" è stata svuotata correttamente ({$a->component}/{$a->area}).';
+$string['purgexstoresuccess'] = 'Lo store "{$a->store}" è stato svuotato correttamente.';
 $string['requestcount'] = 'Test con {$a} request';
 $string['rescandefinitions'] = 'Rileggi le definizioni';
 $string['result'] = 'Risultato';

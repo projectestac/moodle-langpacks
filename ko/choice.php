@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'choice', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   choice
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -101,7 +101,6 @@ $string['responsesto'] = '{$a} 에 대한 응답';
 $string['results'] = '결과';
 $string['savemychoice'] = '응답내용 저장';
 $string['showunanswered'] = '응답 없는 항목 보기';
-$string['skipresultgraph'] = '도표 생략';
 $string['spaceleft'] = '여유 있음';
 $string['spacesleft'] = '여유 있음';
 $string['taken'] = '선택';

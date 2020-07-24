@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'resource', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   resource
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,8 +62,14 @@ $string['filtername'] = 'Αυτόματη σύνδεση ονομάτων πηγ
 $string['forcedownload'] = 'Επιβολή λήψης αρχείου';
 $string['framesize'] = 'Ύψος πλαισίου';
 $string['indicator:cognitivedepth'] = 'Βάθος κατανόησης Αρχείου';
+$string['indicator:cognitivedepthdef'] = 'Βάθος κατανόησης Αρχείου';
+$string['indicator:cognitivedepthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο βάθος κατανόησης που προσφέρεται από τις δραστηριότητες Αρχείου κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία εμφάνιση, Εμφάνιση)';
+$string['indicator:cognitivedepthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Βάθος_κατανόησης';
 $string['indicator:cognitivedepth_help'] = 'Αυτός ο δείκτης βασίζεται στο βάθος κατανόησης που επιτεύχθηκε από τον μαθητή σε έναν πόρο Αρχείου.';
 $string['indicator:socialbreadth'] = 'Κοινωνικό εύρος Αρχείου';
+$string['indicator:socialbreadthdef'] = 'Κοινωνικό εύρος Αρχείου';
+$string['indicator:socialbreadthdef_help'] = 'Ο συμμετέχων έχει φτάσει αυτό το ποσοστό αφοσίωσης στο κοινωνικό εύρος που προσφέρεται από τις δραστηριότητες Αρχείου κατά τη διάρκεια αυτού του διαστήματος ανάλυσης (Επίπεδα = Καμία συμμετοχή, Συμμετέχων μόνος)';
+$string['indicator:socialbreadthdef_link'] = 'Δείκτες_μαθησιακής_αναλυτικής#Κοινωνικό_εύρος';
 $string['indicator:socialbreadth_help'] = 'Αυτός ο δείκτης βασίζεται στο κοινωνικό εύρος που επιτεύχθηκε από τον μαθητή σε έναν πόρο Αρχείου.';
 $string['legacyfiles'] = 'Μετεγκατάσταση (μεταφορά/μετατροπή) παλαιού αρχείου μαθήματος';
 $string['legacyfilesactive'] = 'Ενεργό';

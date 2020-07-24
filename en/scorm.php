@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -202,8 +202,14 @@ $string['highestattempt'] = 'Highest attempt';
 $string['identifier'] = 'Question identifier';
 $string['incomplete'] = 'Incomplete';
 $string['indicator:cognitivedepth'] = 'SCORM cognitive';
+$string['indicator:cognitivedepthdef'] = 'SCORM cognitive';
+$string['indicator:cognitivedepthdef_help'] = 'The participant has reached this percentage of the cognitive engagement offered by the SCORM activities during this analysis interval (Levels = No view, View, Submit, View feedback)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:cognitivedepth_help'] = 'This indicator is based on the cognitive depth reached by the student in a SCORM activity.';
 $string['indicator:socialbreadth'] = 'SCORM social';
+$string['indicator:socialbreadthdef'] = 'SCORM social';
+$string['indicator:socialbreadthdef_help'] = 'The participant has reached this percentage of the social engagement offered by the SCORM activities during this analysis interval (Levels = No participation, Participant alone)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['indicator:socialbreadth_help'] = 'This indicator is based on the social breadth reached by the student in a SCORM activity.';
 $string['info'] = 'Info';
 $string['interactions'] = 'Interactions';

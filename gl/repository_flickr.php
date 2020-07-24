@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_flickr', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_flickr', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_flickr
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,7 +31,7 @@ $string['callbackurltext'] = '<ol>
 <li>Visite <a href="http://www.flickr.com/services/api/keys/">Chaves de API de Flickr</a> de novo.</li>
 <li>Asegúrese de configurar o enderezo URL de devolución de chamada para esta chave de Flickr <strong>{$a}</strong></li></ol>';
 $string['callbackwarning'] = '<ol>
-<li>Obteña unha <a href="http://www.flickr.com/services/api/keys/">Chave e secreto da API de Flickr</a> para este sitio Moodle.</li>
+<li>Obteña unha <a href="http://www.flickr.com/services/api/keys/">Chave e segredo da API de Flickr</a> para este sitio Moodle.</li>
 <li>Introduza aquí os datos, prema en Gardar e volva a esta páxina. Verá que Moodle xerou un URL de devolución de chamada para vostede.</li>
 <li>Edite a chave e os seus datos de <a href="http://www.flickr.com/services/api/keys/">Flickr</a> de novo e estabeleza o URL de devolución de chamada.</li></ol>';
 $string['configplugin'] = 'Configuración de Flickr';

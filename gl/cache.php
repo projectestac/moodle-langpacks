@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cache', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   cache
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,7 @@ $string['addstoresuccess'] = 'Engadido satisfactoriamente un novo almacén {$a}'
 $string['area'] = 'Área';
 $string['cacheadmin'] = 'Administración da caché';
 $string['cacheconfig'] = 'Configuración';
+$string['cachedef_calculablesinfo'] = 'Información dos cálculos analíticos';
 $string['cachedef_calendar_categories'] = 'Categorías do curso de calendario ás que un usuario pode acceder';
 $string['cachedef_calendar_subscriptions'] = 'Subscricións ao calendario';
 $string['cachedef_capabilities'] = 'Listado de prestacións do sistema';
@@ -46,6 +47,7 @@ $string['cachedef_coursecattree'] = 'Árbore de categorías de cursos';
 $string['cachedef_coursecompletion'] = 'Estado do completado do curso';
 $string['cachedef_coursecontacts'] = 'Lista de contactos do curso';
 $string['cachedef_coursemodinfo'] = 'Información acumulada sobre os módulos e seccións para cada curso';
+$string['cachedef_course_user_dates'] = 'As datas do usuario dos cursos definidas no modo de datas relativas';
 $string['cachedef_databasemeta'] = 'Meta Información da base de datos';
 $string['cachedef_eventinvalidation'] = 'Invalidación de evento';
 $string['cachedef_externalbadges'] = 'Insignias externas dun usuario concreto';
@@ -57,10 +59,12 @@ $string['cachedef_langmenu'] = 'Lista de idiomas dispoñíbeis';
 $string['cachedef_locking'] = 'Bloqueo';
 $string['cachedef_message_processors_enabled'] = 'Estado activado dos procesadores de mensaxes';
 $string['cachedef_message_time_last_message_between_users'] = 'Momento de creación para a mensaxe máis recente entre os usuarios';
+$string['cachedef_modelfirstanalyses'] = 'Primeira análise por modelo e analizábel';
 $string['cachedef_navigation_expandcourse'] = 'Cursos expansibles na navegación';
 $string['cachedef_observers'] = 'Observadores do evento';
 $string['cachedef_plugin_functions'] = 'Chamadas de retorno de engadidos dispoñíbeis';
 $string['cachedef_plugin_manager'] = 'Xestor de información de engadido';
+$string['cachedef_portfolio_add_button_portfolio_instances'] = 'Instancias de portafolios para a clase «portfolio_add_button»';
 $string['cachedef_postprocessedcss'] = 'CSS postprocesado';
 $string['cachedef_presignup'] = 'Datos de prerexistro para usuario particular non rexistrado';
 $string['cachedef_questiondata'] = 'Definicións de preguntas';
@@ -77,6 +81,7 @@ $string['cachedef_yuimodules'] = 'Definicións do Módulo YUI';
 $string['cachelock_file_default'] = 'Bloqueo predeterminado de ficheiro';
 $string['cachestores'] = 'Almacéns de caché';
 $string['caching'] = 'Almacenamento na caché';
+$string['canuselocalstore'] = 'Pode usar o almacén local';
 $string['component'] = 'Compoñente';
 $string['confirmlockdeletion'] = 'Confirmar a eliminación do bloqueo';
 $string['confirmstoredeletion'] = 'Confirmar a eliminación do almacén';
@@ -138,8 +143,11 @@ $string['plugin'] = 'Engadido';
 $string['pluginsummaries'] = 'Almacén de caché instalados';
 $string['privacy:metadata:cachestore'] = 'O subsistema Caché almacena datos temporalmente en nome doutras partes de Moodle. Este dato non é fácil de identificar e é moi curto. Serve como unha caché de datos almacenados noutro sitio de Moodle e, xa que logo, xa deben ser manexados por eses compoñentes do Moodle.';
 $string['purge'] = 'Purgar';
+$string['purgeagain'] = 'Purgar de novo';
 $string['purgedefinitionsuccess'] = 'A definición solicitada foi purgada satisfactoriamente.';
 $string['purgestoresuccess'] = 'O almacén solicitado foi purgado satisfactoriamente.';
+$string['purgexdefinitionsuccess'] = 'Purgada satisfactoriamente a caché de «{$a->name}» ({$a->component}/{$a->area}).';
+$string['purgexstoresuccess'] = 'Purgada satisfactoriamente o almacén «{$a->store}».';
 $string['requestcount'] = 'Probar con {$a} solicitudes';
 $string['rescandefinitions'] = 'Volver revisar as definicións';
 $string['result'] = 'Resultado';

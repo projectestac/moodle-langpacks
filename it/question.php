@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'question', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   question
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -80,6 +80,9 @@ $string['categoryinfo'] = 'Informazioni categoria';
 $string['categorymove'] = 'La categoria \'{$a->name}\' contiene {$a->count} domande (alcune possono essere domande nascoste o casuali ancora in uso in qualche quiz esistente). Per favore scegli un\'altra categoria per trasferirle in essa.';
 $string['categorymoveto'] = 'Salva nella categoria';
 $string['categorynamecantbeblank'] = 'Il nome della categoria deve essere compilato';
+$string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
+$string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
+$string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Cambia opzioni';
 $string['changepublishstatuscat'] = '<a href="{$a->caturl}">La categoria "{$a->name}"</a> nel corso "{$a->coursename}" avrà il suo stato di condivisione cambiato da <strong>{$a->changefrom} a {$a->changeto}</strong>.';
 $string['check'] = 'Verifica risposta';
@@ -164,7 +167,19 @@ $string['errorsavingcomment'] = 'Errore durante il salvataggio nel database del 
 $string['errorsavingflags'] = 'Si è verificato un errore durante il salvataggio del flag di stato';
 $string['errorupdatingattempt'] = 'Errore durante l\'aggiornamento del tentativo {$a->id} nel database.';
 $string['eventquestioncategorycreated'] = 'Creata categoria domande';
+$string['eventquestioncategorydeleted'] = 'Eliminata categoria di domande';
+$string['eventquestioncategorymoved'] = 'Spostata categoria di domande';
+$string['eventquestioncategoryupdated'] = 'Aggiornata categoria di domande';
+$string['eventquestioncategoryviewed'] = 'Visualizzata categoria di domande';
+$string['eventquestioncreated'] = 'Creata domanda';
+$string['eventquestiondeleted'] = 'Eliminata domanda';
+$string['eventquestionmoved'] = 'Spostata domanda';
+$string['eventquestionsexported'] = 'Esportata domanda';
+$string['eventquestionsimported'] = 'Importata domanda';
+$string['eventquestionupdated'] = 'Aggiornata domanda';
+$string['eventquestionviewed'] = 'Visualizzata domanda';
 $string['export'] = 'Esporta';
+$string['exportasxml'] = 'Esporta in formato Moodle XML';
 $string['exportcategory'] = 'Esporta categoria';
 $string['exportcategory_help'] = 'L\'impostazione determina la categoria dalla quale esportare le domande.
 
@@ -216,7 +231,7 @@ $string['importerror'] = 'Si è verificato un errore durante il processo di impo
 $string['importerrorquestion'] = 'Errore durante l\'importazione delle domande';
 $string['importfromcoursefiles'] = '... oppure scegli un file da importare';
 $string['importfromupload'] = 'Seleziona un file da caricare...';
-$string['importingquestions'] = 'importazione di {$a} domande da file';
+$string['importingquestions'] = 'Importazione di {$a} domande da file';
 $string['importparseerror'] = 'Sono stati riscontrati errori durante la lettura del file da importare. Per importare comunque le domande senza errori prova ad impostare \'Fermati in presenza di errori\' a \'No\'';
 $string['importquestions'] = 'Importa le domande da un file';
 $string['importquestions_help'] = 'Consente l\'importazione delle domande usando file di testo in vari tipi di formato. I file di testo devono essere codificati UTF-8.';

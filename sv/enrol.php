@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'sv', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol', language 'sv', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['addinstance'] = 'Lägg till metod';
 $string['addinstanceanother'] = 'Lägg till metod och skapa en ny';
 $string['ajaxnext25'] = 'Nästa 25...';
 $string['ajaxoneuserfound'] = 'Det finns 1 användare';
+$string['ajaxxmoreusersfound'] = 'Det hittades fler än {$a} användare.';
 $string['ajaxxusersfound'] = '{$a} användare hittade';
 $string['assignnotpermitted'] = 'Du har inte tillstånd eller kan inte tilldela roller i den här kursen';
 $string['bulkuseroperation'] = 'Bulk användarhantering';
@@ -37,7 +38,9 @@ $string['configenrolplugins'] = 'Var snäll och välj alla de obligatoriska plug
 $string['custominstancename'] = 'Förvalt standardnamn på instans';
 $string['defaultenrol'] = 'Lägg till instans till nya kurser';
 $string['defaultenrol_desc'] = 'Det är möjligt att lägga till det här plugin-programmet till alla nya kurser som standard.';
-$string['deleteinstanceconfirm'] = 'Vill Du verkligen ta bort instansen "{$a->name}" av plugin-programmet för registrering och som innehåller {$a->users} registrerade användare?';
+$string['deleteinstanceconfirm'] = 'OBS! Du håller på ta bort registreringsmetoden "{$a->name}". Alla {$a->users} användare som registrerats med denna metod kommer att avregistreras och all kursrelaterad data såsom användarnas betyg, grupptillhörighet eller forumsprenumerationer kommer att raderas.
+
+Vill du verkligen fortsätta?';
 $string['deleteinstanceconfirmself'] = 'Vill du verkligen ta bort registreringsmetoden "{$a->name}" som ger dig åtkomst till denna kurs? Risken är att du inte längre kommer in i kursen om du fortsätter.';
 $string['deleteinstancenousersconfirm'] = 'Du håller på att ta bort registreringsmetoden "{$a->name}". Är du säker på att du vill fortsätta?';
 $string['disableinstanceconfirmself'] = 'Vill du verkligen stänga av registreringsmetoden "{$a->name}" som ger dig åtkomst till denna kurs? Risken är att du inte längre kommer in i kursen om du fortsätter.';
@@ -100,6 +103,7 @@ $string['foundxcohorts'] = '{$a} kohorter har hittats';
 $string['instanceadded'] = 'Metod har lagts till';
 $string['instanceeditselfwarning'] = 'Varning:';
 $string['instanceeditselfwarningtext'] = 'Du är registrerad på denna kurs genom denna registreringsmetod. Ändringar kan påverka din åtkomst till kursen.';
+$string['invalidenrolduration'] = 'Ogiltig varaktighet för registrering.';
 $string['invalidenrolinstance'] = 'Felaktig registreringsinstans';
 $string['invalidrequest'] = 'Ogiltig begäran';
 $string['invalidrole'] = 'Felaktig roll';
@@ -109,7 +113,7 @@ $string['migratetomanual'] = 'Migrera till manuella registreringar';
 $string['nochange'] = 'Ingen förändring';
 $string['noexistingparticipants'] = 'Inga befintliga deltagare';
 $string['nogroup'] = 'Ingen grupp';
-$string['noguestaccess'] = 'Gäster inte kan komma åt den här kursen, försök att logga in';
+$string['noguestaccess'] = 'Gäster inte kan komma i denna kurs, försök att logga in';
 $string['none'] = 'Inga';
 $string['notenrollable'] = 'Det går inte att registrera sig på den här kursen';
 $string['notenrolledusers'] = 'Andra användare';
@@ -144,3 +148,5 @@ $string['unlimitedduration'] = 'Obegränsad';
 $string['userremovedfromselectiona'] = 'Användare "{$a->user}" har tagits bort från urvalet.';
 $string['usersearch'] = 'Sök';
 $string['withselectedusers'] = 'Med utvalda användare';
+$string['youenrolledincourse'] = 'Du är registrerad på kursen.';
+$string['youunenrolledfromcourse'] = 'Du är avregistrerad från kursen "{$a}".';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'imscp', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'imscp', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   imscp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,8 +32,12 @@ $string['deploymenterror'] = 'Inhoud pakket fout!';
 $string['imscp:addinstance'] = 'Voeg een IMS content package toe';
 $string['imscp:view'] = 'Bekijk IMS inhoud';
 $string['indicator:cognitivedepth'] = 'IMS pkg cognitief';
+$string['indicator:cognitivedepthdef'] = 'IMS pkg cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid bereikt die door de IMS-pakketbronnen wordt aangeboden tijdens dit analyse-interval (Niveaus = Geen weergave, Weergave)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een IMS Inhoudspakket bron.';
 $string['indicator:socialbreadth'] = 'IMS pkg sociaal';
+$string['indicator:socialbreadthdef'] = 'IMS pkg sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid die door de IMS-pakketbronnen wordt aangeboden tijdens dit analyse-interval bereikt (Niveaus = Geen deelname, alleen deelnemer)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een IMS Inhoudspakket bron.';
 $string['keepold'] = 'Archiefpakketten';
 $string['keepoldexplain'] = 'Hoeveel pakketten moeten gearchiveerd worden?';

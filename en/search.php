@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'search', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,11 @@ $string['confirm_delete'] = 'Are you sure you want to delete the index for {$a}?
 $string['confirm_deleteall'] = 'Are you sure you want to delete all indexed contents now? Until the site is indexed again, users will not get search results.';
 $string['confirm_indexall'] = 'Are you sure you want to update indexed contents now? If a large amount of content needs indexing, this can take a long time. For live servers, you should normally leave indexing to the \'Global search indexing\' scheduled task.';
 $string['confirm_reindexall'] = 'Are you sure you want to reindex all site contents now? If your site contains a large amount of content, this will take a long time, and users may not get full search results until it completes.';
+$string['core-all'] = 'All';
+$string['core-course-content'] = 'Course content';
+$string['core-courses'] = 'Courses';
+$string['core-other'] = 'Other';
+$string['core-users'] = 'Users';
 $string['createanindex'] = 'create an index';
 $string['createdon'] = 'Created on';
 $string['database'] = 'Database';
@@ -84,6 +89,7 @@ $string['invalidindexerror'] = 'Index directory either contains an invalid index
 $string['ittook'] = 'It took';
 $string['matchingfile'] = 'Matched from file <span class="filename">{$a}</span>';
 $string['matchingfiles'] = 'Matched from files:';
+$string['mycoursesonly'] = 'My courses only';
 $string['next'] = 'Next';
 $string['noindexmessage'] = 'Admin: There appears to be no search index. Please';
 $string['noresults'] = 'No results';
@@ -109,6 +115,9 @@ $string['schemaversionunknown'] = 'Search engine does not know about the current
 $string['score'] = 'Score';
 $string['search'] = 'Search';
 $string['searcharea'] = 'Search area';
+$string['searchareacategories'] = 'Search area categories';
+$string['search:course'] = 'Courses';
+$string['search:customfield'] = 'Course custom fields';
 $string['searching'] = 'Searching in ...';
 $string['search:message_received'] = 'Messages - received';
 $string['search:message_sent'] = 'Messages - sent';

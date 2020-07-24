@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,6 +69,15 @@ $string['emailconfirmlinksent'] = '<p>Существующая учетная з
 <p>На ваш адрес <b>{$a}</b> должно быть отправлено письмо. </p>
 <p>Оно содержит простые инструкции по связыванию ваших учетных записей. </p>
 <p>Если у Вас возникли трудности, обратитесь к администратору сайта. </p>';
+$string['emailpasswordchangeinfo'] = 'Здравствуйте, {$a->fullname}.
+
+Кто-то (возможно, Вы) запросил новый пароль для вашей учетной записи на сайте «{$a->sitename}» .
+
+Однако пароль не может быть сброшен, потому что Вы используете свою учетную запись для входа в систему на другом сайте.
+
+Пожалуйста, войдите на сайт как и прежде, используя ссылку на страницу входа.
+{$a->admin}';
+$string['emailpasswordchangeinfosubject'] = '{$a}: Информация об изменении пароля';
 $string['info'] = 'Внешняя учетная запись';
 $string['issuer'] = 'Служба OAuth 2';
 $string['issuernologin'] = 'Этот эмитент не может использоваться для входа в систему';

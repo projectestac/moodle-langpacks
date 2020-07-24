@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_media', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'atto_media', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   atto_media
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -51,7 +51,7 @@ $string['default'] = 'Lehenetsitakoa';
 $string['descriptions'] = 'Deskribapenak';
 $string['descriptions_help'] = 'Audio deskribapenak gehitu daitezke audioarekin soilik nabari ez diren zehaztasun bisualen narrazioa emateko.';
 $string['descriptionssourcelabel'] = 'Deskribapenaren pistaren URLa';
-$string['displayoptions'] = 'Erakutsi aukerak';
+$string['displayoptions'] = 'Erakusteko aukerak';
 $string['entername'] = 'Idatzi izena';
 $string['entersource'] = 'Iturburuaren URLa';
 $string['entertitle'] = 'Idatzi izenburua';

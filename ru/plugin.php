@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'plugin', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -124,6 +124,7 @@ $string['type_calendartype'] = 'Тип календаря';
 $string['type_calendartype_plural'] = 'Типы календарей';
 $string['type_coursereport'] = 'Отчет по курсу';
 $string['type_coursereport_plural'] = 'Отчеты по курсам';
+$string['type_customfield_plural'] = 'Пользовательские поля';
 $string['type_dataformat'] = 'Формат данных';
 $string['type_dataformat_plural'] = 'Форматы данных';
 $string['type_editor'] = 'Редактор';

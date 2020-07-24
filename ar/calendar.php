@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'calendar', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   calendar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -35,6 +35,7 @@ $string['calendarheading'] = '{$a} تقويم';
 $string['calendarpreferences'] = 'إعدادات التقويم';
 $string['calendartypes'] = 'أنواع التقويم';
 $string['calendarurl'] = 'تقويم URL: {$a}';
+$string['category'] = 'التصنيف';
 $string['categoryevent'] = '';
 $string['categoryevents'] = 'أحداث الفئة';
 $string['clickhide'] = 'أنقر للاخفاء';
@@ -122,14 +123,14 @@ $string['eventspersonal'] = 'أحداثي الشخصية';
 $string['eventsrelatedtocategories'] = 'الأحداث المتعلقة بالفئات';
 $string['eventsrelatedtocourses'] = 'الأحدات المتعلقة بمنهج دراسي';
 $string['eventsrelatedtogroups'] = 'الأحداث المتعلقة بالمجموعات';
-$string['eventstarttime'] = 'وقت البداء';
+$string['eventstarttime'] = 'وقت البدء';
 $string['eventstoexport'] = 'أحداث للتصدير';
 $string['eventsubscriptioncreated'] = 'تم إنشاء اشتراك التقويم';
 $string['eventsubscriptiondeleted'] = 'تم حذف اشتراك التقويم';
 $string['eventsubscriptioneditwarning'] = 'هذا التقويم هو جزء من الاشتراك. سيتم فقد أية تغييرات تجريها على هذا الحدث في حالة حذف الاشتراك.';
 $string['eventsubscriptionupdated'] = 'تم تحديث اشتراك التقويم';
 $string['eventsupdated'] = 'أحداث تم تحديثها :  {$a}';
-$string['eventtime'] = 'وقت';
+$string['eventtime'] = 'الوقت';
 $string['eventtype'] = 'نوع الحدث';
 $string['eventtypecategory'] = 'فئة';
 $string['eventtypecourse'] = 'مقرر';
@@ -157,13 +158,8 @@ $string['gotocalendar'] = 'إذهب إلى التقويم';
 $string['group'] = 'مجموعة';
 $string['groupevent'] = 'حدث مجموعة';
 $string['groupevents'] = 'أحداث مجموعة';
-$string['hidecourseevents'] = 'إخفاء أحداث مقرر دراسي';
 $string['hideeventtype'] = 'إخفاء  {$a} حدث';
-$string['hideglobalevents'] = 'إخفاء الأحداث العامة';
-$string['hidegroupsevents'] = 'إخفاء أحداث المجموعة';
-$string['hideuserevents'] = 'إخفاء أحداث المستخدم';
 $string['hourly'] = 'بالساعة';
-$string['ical'] = 'التقويم الإلكتروني';
 $string['importcalendar'] = 'استيراد التقويم';
 $string['importcalendarfrom'] = 'استيراد من';
 $string['importcalendarheading'] = 'استيراد تقويم...';
@@ -218,7 +214,6 @@ $string['privacy:metadata:calendar:event_subscriptions:url'] = 'عنوان url �
 $string['privacy:metadata:calendar:event:timeduration'] = 'مدة الحدث التقويم.';
 $string['privacy:metadata:calendar:event:timestart'] = 'وقت بدء حدث التقويم.';
 $string['privacy:metadata:calendar:preferences:calendar_savedflt'] = 'نوع الحدث التقويم تكوين عرض تفضيل المستخدم.';
-$string['quickdownloadcalendar'] = 'تنزيل السريع للملفات/ اشتراك في التقويم';
 $string['recentupcoming'] = 'الحدث و الـ 60 يوم المقبلة';
 $string['repeatedevents'] = 'أحداث متكررة';
 $string['repeateditall'] = 'نفذ التغيرات على كل {$a} الأحداث في هذه السلسة المتكررة.';
@@ -229,12 +224,9 @@ $string['repeatweeksl'] = 'كرر اسبوعياً، أنشئ الجميع';
 $string['repeatweeksr'] = 'أحداث';
 $string['sat'] = 'السبت';
 $string['saturday'] = 'يوم السبت';
-$string['showcourseevents'] = 'عرض أحداث المقرر';
 $string['showeventtype'] = 'عرض {$a} حدث';
-$string['showglobalevents'] = 'عرض الأحداث العامة';
-$string['showgroupsevents'] = 'عرض أحداث المجموعة';
 $string['shown'] = 'عُرض';
-$string['showuserevents'] = 'عرض أحداث المستخدم';
+$string['site'] = 'الموقع';
 $string['siteevents'] = 'أحداث الموقع';
 $string['spanningevents'] = 'الأحدث القادمة';
 $string['subscriptionname'] = 'اسم التقويم';
@@ -242,7 +234,6 @@ $string['subscriptionremoved'] = 'اشتراك التقويم {$a} حذف';
 $string['subscriptions'] = 'الاشتراكات';
 $string['subscriptionsource'] = 'مصدر الحدث: {$a}';
 $string['subscriptionupdated'] = 'اشتراك التقويم {$a} محدثة';
-$string['subsource'] = 'مصدر الحدث: {$a->name}';
 $string['sun'] = 'الاحد';
 $string['sunday'] = 'يوم الاحد';
 $string['thu'] = 'الخميس';
@@ -255,14 +246,6 @@ $string['todayplustitle'] = 'اليوم {$a}';
 $string['tomorrow'] = 'غداً';
 $string['tt_deleteevent'] = 'احذف حدث';
 $string['tt_editevent'] = 'تحرير حدث';
-$string['tt_hidecourse'] = 'أحداث المنهج الدراسي معروضة (أنقر للإخفائها)';
-$string['tt_hideglobal'] = 'الأحداث الشاملة معروضة (أنقر للإخفائها)';
-$string['tt_hidegroups'] = 'أحداث المجموعة معروضة (أنقر للإخفائها)';
-$string['tt_hideuser'] = 'أحداث المستخدم معروضة (أنقر للإخفائها)';
-$string['tt_showcourse'] = 'أحداث المنهج الدراسي مخفيه (أنقر لعرضها)';
-$string['tt_showglobal'] = 'الأحداث الشاملة مخفيه (أنقر لعرضها)';
-$string['tt_showgroups'] = 'أحداث المجموعة  مخفيه (أنقر لعرضها)';
-$string['tt_showuser'] = 'أحداث المستخدم مخفيه (أنقر لعرضها)';
 $string['tue'] = 'الثلاثاء';
 $string['tuesday'] = 'يوم الثلاثاء';
 $string['typecategory'] = 'حدث الفئة';

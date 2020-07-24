@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'debug', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   debug
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,11 +34,13 @@ $string['cannotinitpage'] = 'Ezin da orria abiarazi: {$a->name}-(r)en  {$a->id} 
 $string['cannotsetuptable'] = '{$a} taulak EZIN izan dira sortu!';
 $string['codingerror'] = 'Kode-errore bat antzeman da, programatzaile batek konpondu behar du: {$a}';
 $string['configmoodle'] = 'Moodle ez da oraindik konfiguratu. Lehenik config.php editatu behar duzu.';
+$string['debuginfo'] = 'Arazketa';
 $string['erroroccur'] = 'Errorea gertatu da prozesu honetan zehar';
 $string['invalidarraysize'] = 'Array-en tamaina ezegokia {$a}-(e)ko parametroetan';
 $string['invalideventdata'] = 'Ekitaldi-datu ezegokiak bidali dira: {$a}';
 $string['invalidparameter'] = 'Parametroaren balio ezegokia antzeman da';
 $string['invalidresponse'] = 'Erantzunaren balio ezegokia antzeman da';
+$string['line'] = 'Errenkada';
 $string['missingconfigversion'] = 'Config taulak ez dauka bertsiorik, ezin da jarraitu, sentitzen dugu.';
 $string['modulenotexist'] = '{$a} modulua ez da existitzen';
 $string['morethanonerecordinfetch'] = 'Erregistro bat baino gehiago aurkitu da fetch()-en!';
@@ -50,9 +52,11 @@ $string['nomodules'] = 'Ez da modulurik aurkitu!';
 $string['nopageclass'] = '{$a} inportatu da baina ez da klase-orririk aurkitu';
 $string['noreports'] = 'Txostenak ez daude eskuragarri';
 $string['notables'] = 'Ez dago taularik!';
+$string['outputbuffer'] = 'Irteera-buffer-a';
 $string['phpvaroff'] = 'PHP zerbitzariaren aldagaiak \'{$a->name}\'  izan behar luke - {$a->link}';
 $string['phpvaron'] = 'PHP zerbitzariaren aldagaia \'{$a->name}\'  ez da On jarri - {$a->link}';
 $string['sessionmissing'] = '{$a} objektua falta da saio honetatik';
 $string['sqlrelyonobsoletetable'] = 'SQL hau zaharkitutako taul(et)an oinarrituta dago: {$a}! Programatzaile batek zure kodea konpondu behar du.';
+$string['stacktrace'] = 'Stack trace';
 $string['withoutversion'] = 'version.php fitxategi nagusia falta da, ezin da bertan idatzi edo apurtuta dago.';
 $string['xmlizeunavailable'] = 'xmlize funtzioak ez daude eskuragarri';

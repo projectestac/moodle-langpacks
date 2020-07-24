@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['addinstance'] = 'Engadir método';
 $string['addinstanceanother'] = 'Engadir método e crear outro';
 $string['ajaxnext25'] = 'Seguintes 25...';
 $string['ajaxoneuserfound'] = 'Atopouse 1 usuario';
+$string['ajaxxmoreusersfound'] = 'Atopáronse máis de {$a} usuarios';
 $string['ajaxxusersfound'] = 'Atopáronse {$a} usuarios';
 $string['assignnotpermitted'] = 'Non ten permiso ou non pode asignar roles neste curso.';
 $string['bulkuseroperation'] = 'Operación masiva de usuario';
@@ -102,6 +103,7 @@ $string['foundxcohorts'] = 'Atopáronse {$a} grupos';
 $string['instanceadded'] = 'O método foi engadido';
 $string['instanceeditselfwarning'] = 'Aviso:';
 $string['instanceeditselfwarningtext'] = 'Vostede está matriculado neste curso mediante este método de matriculación, os cambios poden afectar ao seu acceso a este curso.';
+$string['invalidenrolduration'] = 'Duración de matriculación incorrecta';
 $string['invalidenrolinstance'] = 'Instancia de matriculación incorrecta';
 $string['invalidrequest'] = 'Solicitude incorrecta';
 $string['invalidrole'] = 'Rol incorrecto';
@@ -149,6 +151,7 @@ $string['testsettings'] = 'Proba das configuracións';
 $string['testsettingsheading'] = 'Probar as configuración de matriculación - {$a}';
 $string['totalenrolledusers'] = '{$a} usuarios matriculados';
 $string['totalotherusers'] = '{$a} outros usuarios';
+$string['totalunenrolledusers'] = '{$a} usuarios desmatriculados';
 $string['unassignnotpermitted'] = 'Non ten permiso para desasignar roles neste curso';
 $string['unenrol'] = 'Desmatricular';
 $string['unenrolconfirm'] = 'Confirma que quere desmatricular o usuario "{$a->user}" do curso "{$a->course}"?';
@@ -161,3 +164,5 @@ $string['unlimitedduration'] = 'Sen límite';
 $string['userremovedfromselectiona'] = 'O usuario «{$a}» foi retirado da selección.';
 $string['usersearch'] = 'Buscar';
 $string['withselectedusers'] = 'Con usuarios seleccionados';
+$string['youenrolledincourse'] = 'Vostede está matriculado no curso';
+$string['youunenrolledfromcourse'] = 'Vostede foi desmatriculado do curso «{$a}».';

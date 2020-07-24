@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -86,16 +86,14 @@ $string['emailnowexists'] = 'O endereço de e-mail que está a tentar definir no
 $string['emailupdate'] = 'Atualização do endereço de e-mail';
 $string['emailupdatemessage'] = 'Caro(a) {$a->fullname},
 
-Foi pedida uma alteração de e-mail na sua conta de utilizador em {$a->site}.
-Por favor, abra o URL recebido no seu navegador para confirmar a mudança.
+Foi pedida uma alteração do e-mail da sua conta de utilizador em {$a->site}.
+Para confirmar esta alteração aceda ao seguinte endereço web:
 
-Para qualquer questão, por favor, contacte o suporte através de: {$a->supportemail}
+{$a->url}
 
-{$a->url}';
+{$a->supportemail}';
 $string['emailupdatesuccess'] = 'O e-mail do utilizador <em>{$a->fullname}</em> foi atualizado com sucesso para <em>{$a->email}</em>.';
 $string['emailupdatetitle'] = 'Confirmação de atualização de e-mail em {$a->site}';
-$string['enterthenumbersyouhear'] = 'Insira os números que ouvir';
-$string['enterthewordsabove'] = 'Insira as palavras indicadas acima';
 $string['errormaxconsecutiveidentchars'] = 'As senhas só podem ter, no máximo, {$a} caracteres iguais consecutivos.';
 $string['errorminpassworddigits'] = 'A senha deverá ter, pelo menos, {$a} algarismo(s).';
 $string['errorminpasswordlength'] = 'A senha deverá ter, pelo menos, {$a} caracteres.';
@@ -112,9 +110,6 @@ $string['forcechangepasswordfirst_help'] = 'Obrigar os utilizadores a alterar a 
 $string['forcechangepassword_help'] = 'Obrigar os utilizadores a alterar a senha na sua próxima autenticação no Moodle.';
 $string['forgottenpassword'] = 'Se inserir um URL aqui, será usado neste site como página para recuperação de senha. Este campo foi criado para sites onde a totalidade das senhas é gerida externamente e não pelo Moodle. Deixe em branco se pretende usar a página de recuperação de senha predefinida do Moodle.';
 $string['forgottenpasswordurl'] = 'URL para recuperação de senha';
-$string['getanaudiocaptcha'] = 'Versão áudio do CAPTCHA';
-$string['getanimagecaptcha'] = 'Versão gráfica do CAPTCHA';
-$string['getanothercaptcha'] = 'Gerar outro CAPTCHA';
 $string['getrecaptchaapi'] = 'Para usar o reCAPTCHA, tem de obter uma chave da API em <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Botão de entrada como visitante';
 $string['incorrectpleasetryagain'] = 'Incorreto. Por favor, tente novamente.';
@@ -152,7 +147,7 @@ $string['privacy:metadata:userpref:loginlockout'] = 'Se a conta de utilizador es
 $string['privacy:metadata:userpref:loginlockoutignored'] = 'Indica que a conta de um utilizador nunca deverá ser sujeita a bloqueio';
 $string['privacy:metadata:userpref:loginlockoutsecret'] = 'Quando bloqueada, o \'segredo\' que o utilizador deve usar para desbloquear a sua conta';
 $string['recaptcha'] = 'reCAPTCHA';
-$string['recaptcha_help'] = 'O CAPTCHA serve para evitar ações indevidas por parte de programas automáticos. Siga as instruções para confirmar que é uma pessoa. Pode ser uma caixa, com caracteres apresentados numa imagem que deve inserir, ou um conjunto de imagens para selecionar.
+$string['recaptcha_help'] = 'O CAPTCHA serve para evitar ações indevidas por parte de programas automáticos. Siga as instruções para confirmar que é uma pessoa. Pode ser uma caixa com caracteres apresentados numa imagem que deve inserir ou um conjunto de imagens para selecionar.
 
 Se não tiver a certeza de quais são as imagens, tente obter outro CAPTCHA ou um CAPTCHA de áudio.';
 $string['recaptcha_link'] = 'link';

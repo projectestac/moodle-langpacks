@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'feedback', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -142,9 +142,16 @@ $string['horizontal'] = 'Horizontal';
 $string['importfromthisfile'] = 'Import from this file';
 $string['import_questions'] = 'Import questions';
 $string['import_successfully'] = 'Import successfully';
+$string['includeuserinrecipientslist'] = 'Include {$a} in the list of recipients';
 $string['indicator:cognitivedepth'] = 'Feedback cognitive';
+$string['indicator:cognitivedepthdef'] = 'Feedback cognitive';
+$string['indicator:cognitivedepthdef_help'] = 'The participant has reached this percentage of the cognitive engagement offered by the Feedback activities during this analysis interval (Levels = No view, View, Submit)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:cognitivedepth_help'] = 'This indicator is based on the cognitive depth reached by the student in a Feedback activity.';
 $string['indicator:socialbreadth'] = 'Feedback social';
+$string['indicator:socialbreadthdef'] = 'Feedback social';
+$string['indicator:socialbreadthdef_help'] = 'The participant has reached this percentage of the social engagement offered by the Feedback activities during this analysis interval (Levels = No participation, Participant alone, Participant with others)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['indicator:socialbreadth_help'] = 'This indicator is based on the social breadth reached by the student in a Feedback activity.';
 $string['info'] = 'Information';
 $string['infotype'] = 'Information type';

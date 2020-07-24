@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -92,8 +92,6 @@ $string['emailupdatemessage'] = '亲爱的{$a->fullname}您好,
 {$a->url}';
 $string['emailupdatesuccess'] = '用户 <em>{$a->fullname}</em> 的email地址已成功更新为 <em>{$a->email}</em>。';
 $string['emailupdatetitle'] = '{$a->site}的email更新确认';
-$string['enterthenumbersyouhear'] = '输入你听到的数字';
-$string['enterthewordsabove'] = '输入上面的字母';
 $string['errormaxconsecutiveidentchars'] = '密码必须包含最多{$a}个连续的相同字符。';
 $string['errorminpassworddigits'] = '密码中至少要有 {$a} 个数字。';
 $string['errorminpasswordlength'] = '密码中至少要有 {$a} 个字符。';
@@ -110,9 +108,6 @@ $string['forcechangepasswordfirst_help'] = '强制用户在第一次登录时修
 $string['forcechangepassword_help'] = '强制用户在下次登录时修改密码。';
 $string['forgottenpassword'] = '如果您在这里键入一个URL地址，该地址将会用来丢失密码的查找页面。';
 $string['forgottenpasswordurl'] = '忘记的密码 URL';
-$string['getanaudiocaptcha'] = '获取音频 CAPTCHA 验证';
-$string['getanimagecaptcha'] = '获取图像 CAPTCHA 验证';
-$string['getanothercaptcha'] = '获取另一个 CAPTCHA';
 $string['getrecaptchaapi'] = '要使用reCAPTCHA图片验证码，您必须从以下网址获得编程接口注册码<a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = '访客登录按钮';
 $string['incorrectpleasetryagain'] = '错误，请重试';
@@ -140,7 +135,7 @@ $string['passwordhandling'] = '如何处理密码字段';
 $string['plaintext'] = '纯文本';
 $string['pluginnotenabled'] = '认证插件“{$a}”不可用';
 $string['pluginnotinstalled'] = '认证插件“{$a}”没有安装';
-$string['potentialidps'] = '使用您在别处的账号登录：';
+$string['potentialidps'] = '使用您的帐户登录：';
 $string['privacy:metadata:userpref:createpassword'] = '表示应该为用户生成一个密码';
 $string['privacy:metadata:userpref:forcepasswordchange'] = '表示是否用户在登录时需要修改密码';
 $string['privacy:metadata:userpref:loginfailedcount'] = '用户登录失败次数';

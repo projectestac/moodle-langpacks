@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'notes', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   notes
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,7 +45,6 @@ $string['eventnotecreated'] = 'Nota criada';
 $string['eventnotedeleted'] = 'Nota apagada';
 $string['eventnotesviewed'] = 'Notas visualizadas';
 $string['eventnoteupdated'] = 'Nota atualizada';
-$string['groupaddnewnote'] = 'Adicionar anotação comum';
 $string['invalidid'] = 'ID de anotação inválido';
 $string['invaliduserid'] = 'ID do utilizador inválido: {$a}';
 $string['myprofileownnotes'] = 'As minhas notas';
@@ -74,7 +73,6 @@ $string['publishstate_help'] = 'O contexto de uma anotação determina quem pode
 * Pessoal - A anotação fica visível apenas para si
 * Disciplina - A anotação fica visível para os professores da disciplina
 * Site - A anotação fica visível para os professores de todas as disciplinas';
-$string['selectnotestate'] = 'Selecione um estado de anotação';
 $string['site'] = 'site';
 $string['sitenotes'] = 'Anotações do site';
 $string['unknown'] = 'desconhecido';

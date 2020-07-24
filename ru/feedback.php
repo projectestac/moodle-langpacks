@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'feedback', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -145,7 +145,7 @@ $string['importfromthisfile'] = 'импорт из файла';
 $string['import_questions'] = 'импорт вопросов';
 $string['import_successfully'] = 'импорт прошел успешно';
 $string['indicator:cognitivedepth'] = 'Обратная связь: познавательный аспект';
-$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на  глубине познания, достигнутой студентом при работе с активным элементом Обратная связь.';
+$string['indicator:cognitivedepth_help'] = 'Этот показатель основан на глубине познания, достигнутой студентом при работе с элементом курса «Обратная связь».';
 $string['indicator:socialbreadth'] = 'Обратная связь: социальный аспект';
 $string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с элементом Обратная связь.';
 $string['info'] = 'информация';

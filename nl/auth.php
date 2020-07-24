@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   auth
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -90,11 +90,9 @@ $string['emailupdatemessage'] = 'Beste {$a->fullname},
 Je hebt gevraagd om je e-mailadres te wijzigen voor je account op {$a->site}. Open volgende URL in je browser om deze wijziging te bevestigen:
 {$a->url}
 
-Als je hierover vragen hebt, contacteer dan de helpdesk via {$a->supportemail}';
+{$a->supportemail}';
 $string['emailupdatesuccess'] = 'Het e-mail adres van gebruiker <em>{$a->fullname}</em> is gewijzigd naar <em>{$a->email}</em>.';
 $string['emailupdatetitle'] = 'Bevestiging van wijziging e-mailadres op  {$a->site}';
-$string['enterthenumbersyouhear'] = 'Vul hier de cijfers in die je hoort';
-$string['enterthewordsabove'] = 'Vul hier bovenstaande woorden in';
 $string['errormaxconsecutiveidentchars'] = 'Wachtwoorden mogen maximaal {$a} opeenvolgende gelijke tekens hebben';
 $string['errorminpassworddigits'] = 'Wachtwoorden moeten minstens {$a} cijfers hebben.';
 $string['errorminpasswordlength'] = 'Wachtwoorden moeten minstens {$a} tekens lang zijn.';
@@ -111,9 +109,6 @@ $string['forcechangepasswordfirst_help'] = 'Verplicht gebruikers om hun wachtwoo
 $string['forcechangepassword_help'] = 'Verplicht gebruikers om hun wachtwoord te wijzigen bij hun volgende aanmelding bij Moodle';
 $string['forgottenpassword'] = 'Als je hier een URL ingeeft, dan zal die gebruikt worden als pagina voor verloren wachtwoorden voor deze site. Dit is bedoeld voor sites waar de wachtwoorden volledig buiten Moodle afgehandeld worden. Laat leeg om de standaardprocedure voor vergeten wachtwoorden te gebruiken.';
 $string['forgottenpasswordurl'] = 'URL voor vergeten wachtwoorden';
-$string['getanaudiocaptcha'] = 'Vraag een audio CAPTCHA';
-$string['getanimagecaptcha'] = 'Vraag een afbeelding CAPTCHA';
-$string['getanothercaptcha'] = 'Vraag een andere CAPTCHA';
 $string['getrecaptchaapi'] = 'Als u reCAPTCHA wilt gebruiken, moet u een API-sleutel ophalen van <a href=\'https://www.google.com/recaptcha/admin\'> https://www.google.com/recaptcha/admin </a>';
 $string['guestloginbutton'] = 'Knop om in te loggen als gast';
 $string['incorrectpleasetryagain'] = 'Fout. Probeer opnieuw';
@@ -164,7 +159,7 @@ $string['stdchangepassword'] = 'Gebruik de standaardpagina om het wachtwoord te 
 $string['stdchangepassword_expl'] = 'Zet dit op ja als het externe systeem toelaat om wachtwoorden via Moodle te wijzigen. Deze instelling gaat voor op de "Wijzig wachtwoord-URL"';
 $string['stdchangepassword_explldap'] = 'Merk op: het is aan te raaden om LDAP te gebruiken met een SSL geëncrypteerde tunnel (ldaps://) als de LDAP-server op afstand staat.';
 $string['suspended'] = 'Geschorste account';
-$string['suspended_help'] = 'Geschorste gebruikersaccounts kunnne niet inloggen via webservices en uitgaande berichten worden verworpen.';
+$string['suspended_help'] = 'Geschorste gebruikersaccounts kunnen niet inloggen via webservices en uitgaande berichten worden verworpen.';
 $string['testsettings'] = 'Test instellingen';
 $string['testsettingsheading'] = 'Test authenticatie-instellingen - {$a}';
 $string['unlocked'] = 'Niet geblokkeerd';

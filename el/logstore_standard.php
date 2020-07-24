@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_standard', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'logstore_standard', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   logstore_standard
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['buffersize'] = 'Μέγεθος ενδιάμεσης μνήμης εγγραφής';
+$string['jsonformat'] = 'Μορφότυπος JSON';
+$string['jsonformat_desc'] = 'Χρησιμοποιήστε τον τυπικό μορφότυπο JSON αντί για τα σειριοποιημένα δεδομένα PHP στο πεδίο της «άλλης» βάσης δεδομένων.';
 $string['pluginname'] = 'Τυπικές καταγραφές';
 $string['pluginname_desc'] = 'Ένα πρόσθετο καταγραφών αποθηκεύει καταγραφές σε έναν πίνακα της βάσης δεδομένων του Moodle';
 $string['privacy:metadata:log'] = 'Μια συλλογή από παρελθόντα γεγονότα';

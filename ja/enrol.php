@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'ja', branch 'MOODLE_36_STABLE'
+ * Strings for component 'enrol', language 'ja', branch 'MOODLE_38_STABLE'
  *
  * @package   enrol
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,6 +30,7 @@ $string['addinstance'] = '登録方法を追加する';
 $string['addinstanceanother'] = '登録方法を追加して、もう1つ作成する';
 $string['ajaxnext25'] = '次の25 ...';
 $string['ajaxoneuserfound'] = '1名のユーザが見つかりました。';
+$string['ajaxxmoreusersfound'] = '{$a} 名以上のユーザが見つかりました。';
 $string['ajaxxusersfound'] = '{$a} 名のユーザが見つかりました。';
 $string['assignnotpermitted'] = 'あなたにはこのコースでロールを割り当てるパーミッションがありません。または割り当てることができません。';
 $string['bulkuseroperation'] = 'バルクユーザ操作';
@@ -102,6 +103,7 @@ $string['foundxcohorts'] = '{$a} 件のコーホートが見つかりました�
 $string['instanceadded'] = '登録方法が追加されました。';
 $string['instanceeditselfwarning'] = '警告:';
 $string['instanceeditselfwarningtext'] = 'あなたはこの登録方法により、このコースに登録されています。変更することにより、このコースに対するあなたのアクセスに影響する場合があります。';
+$string['invalidenrolduration'] = '無効な登録期間です。';
 $string['invalidenrolinstance'] = '無効な登録インスタンスです。';
 $string['invalidrequest'] = '無効なリクエスト';
 $string['invalidrole'] = '無効なロール';
@@ -149,6 +151,7 @@ $string['testsettings'] = '設定テスト';
 $string['testsettingsheading'] = 'テスト登録設定 - {$a}';
 $string['totalenrolledusers'] = '登録済みユーザ数: {$a}';
 $string['totalotherusers'] = '他のユーザ数: {$a} ';
+$string['totalunenrolledusers'] = '{$a} 登録解除ユーザ';
 $string['unassignnotpermitted'] = 'あなたにはこのコース内のロール割り当てを解除するパーミッションがありません。';
 $string['unenrol'] = '登録解除';
 $string['unenrolconfirm'] = '本当に「 {$a->user} 」 (「 {$a->enrolinstancename} 」経由で登録済み) を「 {$a->course} 」から登録解除してもよろしいですか?';
@@ -161,3 +164,5 @@ $string['unlimitedduration'] = '無制限';
 $string['userremovedfromselectiona'] = '選択したものからユーザ「 {$a} 」が削除されました。';
 $string['usersearch'] = '検索';
 $string['withselectedusers'] = '選択したユーザに対して';
+$string['youenrolledincourse'] = 'あなたはコースに登録されています。';
+$string['youunenrolledfromcourse'] = 'あなたはコース「 {$a} 」から登録解除されます。';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_jabber', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'message_jabber', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   message_jabber
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['configjabberhost'] = 'De server waarmee verbinding moet gemaakt worden 
 $string['configjabberpassword'] = 'Het wachtwoord dat gebruikt moet worden om verbinding te maken met de jabber server';
 $string['configjabberport'] = 'De poort die gebruikt moet worden om verbinding te maken met de jabber server';
 $string['configjabberserver'] = 'XMPP host ID (kan leeg gelaten worden als het hetzelfde is als de jabber host)';
-$string['configjabberusername'] = 'De gebruikersnaam om te gebruiken om verbinding te maken met de jabber server';
+$string['configjabberusername'] = 'De te gebruiken gebruikersnaam om verbinding te maken met de jabber server';
 $string['jabberhost'] = 'Jabber host';
 $string['jabberid'] = 'Jabber ID';
 $string['jabberpassword'] = 'Jabber wachtwoord';

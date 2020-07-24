@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_grading', language 'ko', branch 'MOODLE_36_STABLE'
+ * Strings for component 'quiz_grading', language 'ko', branch 'MOODLE_38_STABLE'
  *
  * @package   quiz_grading
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,7 +53,6 @@ $string['gradingall'] = '이 질문에는 모두 {$a} 시도가 있습니다.';
 $string['gradingattempt'] = '{$a->fullname} 의 {$a->attempt} 번째 시도';
 $string['gradingattemptsxtoyofz'] = '시도 채점 {$a->from} 부터  {$a->of}의 {$a->to} 까지';
 $string['gradingattemptwithidnumber'] = '{$a->fullname} ({$a->idnumber})에 대한 시도 수  {$a->attempt}';
-$string['grading:componentname'] = '수동 채점 보고서';
 $string['gradingnextungraded'] = '다음 {$a} 미채점 시도';
 $string['gradingnotallowed'] = '이 퀴즈의 응답을 수동으로 채점할 권한이 없습니다.';
 $string['gradingquestionx'] = '질문 채점 {$a->number}: {$a->questionname}';

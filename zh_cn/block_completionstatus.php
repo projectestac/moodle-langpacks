@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completionstatus', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_completionstatus', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   block_completionstatus
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -30,5 +30,5 @@ $string['completionstatus:addinstance'] = '添加一个课程进度版块';
 $string['criteriagroup'] = '条件组';
 $string['firstofsecond'] = '{$a->second}中的{$a->first}';
 $string['pluginname'] = '课程进度状态';
-$string['requirement'] = '前提';
+$string['requirement'] = '前提条件';
 $string['returntocourse'] = '返回课程';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_feedback', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_feedback', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   block_feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['feedback'] = 'Retroacció';
-$string['feedback:addinstance'] = 'Afegir un nou bloc nou de retroacció';
-$string['pluginname'] = 'Retroacció';
+$string['feedback'] = 'Retroalimentació';
+$string['feedback:addinstance'] = 'Afegir un nou bloc nou de retroalimentació';
+$string['pluginname'] = 'Retroalimentació';

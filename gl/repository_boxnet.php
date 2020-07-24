@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_boxnet', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_boxnet', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_boxnet
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,7 +29,7 @@ $string['apikey'] = 'Chave da API';
 $string['boxnet:view'] = 'Ver o repositorio de box.net';
 $string['cannotcreatereference'] = 'Non é posíbel crear unha referencia, non hai permisos abondo para compartir o ficheiro en Box.';
 $string['clientid'] = 'ID do cliente';
-$string['clientsecret'] = 'Secreto do cliente';
+$string['clientsecret'] = 'Segredo do cliente';
 $string['configplugin'] = 'Configuración de Box.net';
 $string['filesourceinfo'] = 'Box ({$a->fullname}): {$a->filename}';
 $string['information'] = 'Obteña unha chave para a API da <a href="http://www.box.net/developers/services">páxina de desenvolvemento de Box.net</a> para o seu sitio Moodle.';

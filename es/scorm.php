@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'scorm', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   scorm
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -79,6 +79,7 @@ $string['browsed'] = 'Navegado';
 $string['browsemode'] = 'Modo de presentación preliminar';
 $string['browserepository'] = 'Navegar por el repositorio';
 $string['calculatedweight'] = 'Peso calculado';
+$string['calendarstart'] = '{$a} abre';
 $string['cannotaccess'] = 'No se puede llamar a este script de esa manera';
 $string['cannotfindsco'] = 'No se ha encontrado SCO';
 $string['chooseapacket'] = 'Elegir o actualizar un paquete SCORM';

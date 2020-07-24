@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_overview', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_course_overview', language 'gl', branch 'MOODLE_37_STABLE'
  *
  * @package   block_course_overview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,14 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activityoverview'] = 'Ten {$a}s que requiren da súa atención';
+$string['activityoverview'] = 'Ten {$a} módulo(s) que require(n) da súa atención';
 $string['addfavourite'] = 'Engadir favorito';
 $string['alwaysshowall'] = 'Amosar sempre todo';
 $string['collapseall'] = 'Contraer todas as listas de cursos';
 $string['configotherexpanded'] = 'Se está activado, expándese a lista de Outros cursos de xeito predeterminado, a non ser que estea anulado polas preferencias do usuario.';
-$string['configpreservestates'] = 'Se está activado, os estados contraida/expandida estabelecidos polo usuario almacenaranse e empregaranse en cada carga.';
+$string['configpreservestates'] = 'Se está activado, os estados contraída/expandida estabelecidos polo usuario almacenaranse e empregaranse en cada carga.';
 $string['course_overview:addinstance'] = 'Engadir un novo bloque de vista xeral do curso';
-$string['course_overview:myaddinstance'] = 'Engadir un novo bloque de vista xeral ao meu cartafol persoal';
+$string['course_overview:myaddinstance'] = 'Engadir un novo bloque de vista xeral ao Taboleiro';
 $string['courses'] = 'Cursos';
 $string['defaulttab'] = 'Lapela predeterminada';
 $string['defaulttabdesc'] = 'A lapela que se amosará de xeito predeterminado cando se abra o Taboleiro';
@@ -40,7 +40,7 @@ $string['expandall'] = 'Expandirá todas as listas de cursos';
 $string['favourites'] = 'Favoritos';
 $string['fullpath'] = 'Todas as categorías e subcategorías';
 $string['help'] = 'Axuda';
-$string['help_help'] = '«Personalizar esta páxina», despois arrastrar e soltar para reordenar os cursos. Prema nas iconas de actividade para obter información xeral';
+$string['help_help'] = '«Personalizar esta páxina», após arrastrar e soltar para reordenar os cursos. Prema nas iconas de actividade para obter información xeral';
 $string['keepfavourites'] = 'Manter favoritos en lista de cursos';
 $string['keepfavouritesdesc'] = 'Amosar os cursos na lapela do curso principal aínda que tamén estean na lapela de favoritos';
 $string['makefavourite'] = 'Facer favorito';
@@ -55,7 +55,7 @@ $string['movingcourse'] = 'Está movendo: {$a->fullname} ({$a->cancellink})';
 $string['nextpage'] = 'Páxina seguinte';
 $string['nocourses'] = 'Non hai cursos que amosar.';
 $string['none'] = 'Ningún';
-$string['numtodisplay'] = 'Número de cursos a presentar:';
+$string['numtodisplay'] = 'Número de cursos que amosar:';
 $string['onlyparentname'] = 'Só a categoría principal';
 $string['otherexpanded'] = 'Outros cursos expandidos';
 $string['pluginname'] = 'Vista xeral das lapelas do curso';
@@ -71,7 +71,7 @@ $string['reorderfullname'] = 'Nome completo do curso';
 $string['reorderid'] = 'ID do curso';
 $string['reorderiddesc'] = 'Descrición da ID do curso';
 $string['reordernone'] = 'Orde para arrastrar e soltar';
-$string['reordershortname'] = 'Nome curto do curso';
+$string['reordershortname'] = 'Nome abreviado do curso';
 $string['setmaxcourses'] = 'Estabelecer o máximo de cursos';
 $string['setmaxcoursesdesc'] = 'Estabeleza o número máximo predeterminado de cursos do usuario que se amosarán de vez no Bloque resumo do curso.';
 $string['setmaxcoursesmax'] = 'Estabelecer o máximo posíbel de cursos';

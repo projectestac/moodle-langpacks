@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'it', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tag', language 'it', branch 'MOODLE_38_STABLE'
  *
  * @package   tag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -125,7 +125,7 @@ $string['rsstitle'] = 'Feed RSS dei tag del corso per l\'utente: {$a}';
 $string['search'] = 'Cerca';
 $string['searchable'] = 'Cercabile';
 $string['searchable_help'] = 'I tag presenti nella raccolta potranno essere cercati tramite la pagina "Cerca tag". Se l\'opzione non è impostata, i tag potranno essere cercati tramite altre pagine di ricerca.';
-$string['searchresultsfor'] = 'Risultati della ricerca per "{$a}"';
+$string['searchresultsfor'] = 'Risultati della ricerca di "{$a}"';
 $string['searchtags'] = 'Cerca tag';
 $string['seeallblogs'] = 'Visualizza tutti i blog che hanno tag "{$a}"';
 $string['select'] = 'Seleziona';

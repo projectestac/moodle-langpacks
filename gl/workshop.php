@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshop', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -98,6 +98,7 @@ $string['configgradinggrade'] = 'Cualificación máxima predeterminada para a av
 $string['configmaxbytes'] = 'O tamaño máximo predeterminado do ficheiro entregado para todos os obradoiros (suxeito ao límite do curso e a outra configuración local)';
 $string['configstrategy'] = 'Estratexia de cualificación predeterminada para os obradoiros';
 $string['createsubmission'] = 'Comezar a preparación da súa entrega';
+$string['crontask'] = 'Procesamento en segundo plano para o módulo de obradoiro';
 $string['daysago'] = 'vai {$a} días';
 $string['daysleft'] = 'restan {$a} días';
 $string['daystoday'] = 'hoxe';
@@ -112,8 +113,6 @@ $string['editingsubmission'] = 'Editando a entrega';
 $string['editsubmission'] = 'Editar envío';
 $string['err_multiplesubmissions'] = 'Mentres se estaba a editar este formulario, gardouse outra versión da entrega. Non se permiten entregas múltiples por usuario.';
 $string['err_removegrademappings'] = 'Non é posíbel retirar as asignacións de cualificacións non usadas';
-$string['err_unknownfileextension'] = 'Extensión de ficheiro descoñecida: {$a}';
-$string['err_wrongfileextension'] = 'Algúns ficheios ({$a->wrongfiles}) non poden ser enviados. Só se admiten os tipos de ficheiro {$a->whitelist}.';
 $string['evaluategradeswait'] = 'Agarde ata que se teñan feito as avaliacións e calculado as cualificacións';
 $string['evaluation'] = 'Cualificación das avaliacións';
 $string['evaluationmethod'] = 'Método de cualificación das avaliacións';
@@ -193,6 +192,7 @@ $string['latesubmissions'] = 'Entregas atrasadas';
 $string['latesubmissionsallowed'] = 'Permítense entregas atrasadas';
 $string['latesubmissions_desc'] = 'Permitir entregas fora de prazo';
 $string['latesubmissions_help'] = 'De estar activado, un autor pode entregar o seu traballo despois da data límite de entrega ou durante a fase de avaliación. As entregas posteriores non se poden editar.';
+$string['legacyallocationplugincron'] = 'Asignación de obradoiro por cron legado';
 $string['maxbytes'] = 'Tamaño máximo de anexo na entrega';
 $string['modulename'] = 'Obradoiro';
 $string['modulename_help'] = 'O módulo de actividade obradoiro activa a recollida, revisión e avaliación por pares do traballo dos alumnos.

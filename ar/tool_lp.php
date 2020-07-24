@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_lp', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_lp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -109,6 +109,7 @@ $string['editthisplan'] = 'تحرير خطة التعلم هذه';
 $string['editthisuserevidence'] = 'تحرير هذا الشاهد';
 $string['edituserevidence'] = 'تحرير الشواهد';
 $string['evidence'] = 'شاهد';
+$string['filterbyactivity'] = 'تصفية الكفاءات حسب المورد أو النشاط';
 $string['findcourses'] = 'البحث عن المقررات';
 $string['frameworkcannotbedeleted'] = 'لا يمكن حذف إطار الكفاءات \'{$a}\\';
 $string['hidden'] = 'مخفي';
@@ -147,9 +148,11 @@ $string['myplans'] = 'خطط التعلم الخاصة بي';
 $string['nfiles'] = '{$a} ملف (ملفات)';
 $string['noactivities'] = 'لا توجد أنشطة';
 $string['nocompetencies'] = 'لم يتم إنشاء كفاءات في هذا الإطار.';
+$string['nocompetenciesinactivity'] = 'لم يتم ربط أي كفاءات بهذا النشاط أو المورد.';
 $string['nocompetenciesincourse'] = 'لا توجد كفاءات مرتبطة بهذه المادة.';
 $string['nocompetenciesinevidence'] = 'لم يتم ربط الكفاءات بهذا الشاهد.';
 $string['nocompetenciesinlearningplan'] = 'لم يتم ربط أي كفاءات بخطة التعلم هذه.';
+$string['nocompetenciesinlist'] = 'لم يتم اختيار كفاءات.';
 $string['nocompetenciesintemplate'] = 'لم يتم ربط أي كفاءات بقالب خطة التعلم هذا.';
 $string['nocompetencyframeworks'] = 'لم يتم إنشاء أطر للكفاءة بعد.';
 $string['nocompetencyselected'] = 'لم يتم اختيار الكفاءة';

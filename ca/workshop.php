@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshop', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   workshop
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -92,7 +92,7 @@ $string['configgradedecimals'] = 'Nombre de dígits que cal mostrar després del
 $string['configgradinggrade'] = 'Qualificació màxima per defecte de les avaluacions en els tallers.';
 $string['configmaxbytes'] = 'Mida de fitxer de la tramesa màxima per defecte a tots els tallers del lloc (subjecta als límits establerts per al curs i a altres paràmetres locals)';
 $string['configstrategy'] = 'Estratègia de qualificació per defecte en els tallers.';
-$string['createsubmission'] = 'Comenceu a editar la vostra tramesa';
+$string['createsubmission'] = 'Afegeix una tramesa';
 $string['daysago'] = 'Fa {$a} dies';
 $string['daysleft'] = 'Queden {$a} dies';
 $string['daystoday'] = 'avui';
@@ -107,8 +107,6 @@ $string['editingsubmission'] = 'S\'està editant la tramesa';
 $string['editsubmission'] = 'Edita la tramesa';
 $string['err_multiplesubmissions'] = 'Mentre s\'estava editant aquest formulari, s\'ha desat una altra versió de la tramesa. No es permeten trameses múltiples per usuari.';
 $string['err_removegrademappings'] = 'No s\'han pogut esborrar els mapatges de qualificacions no utilitzats';
-$string['err_unknownfileextension'] = 'Extensió de fitxer desconeguda: {$a}';
-$string['err_wrongfileextension'] = 'Alguns fitxers ({$a->wrongfiles}) no s\'han pogut enviar. Només les extensions del tipus {$a->whitelist} estan permeses.';
 $string['evaluategradeswait'] = 'Espereu mentre s\'avaluen les avaluacions i es calculen les qualificacions.';
 $string['evaluation'] = 'Càlcul de les qualificacions';
 $string['evaluationmethod'] = 'Mètode de càlcul de les qualificacions';

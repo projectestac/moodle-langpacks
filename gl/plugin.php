@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'plugin', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   plugin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,9 +68,7 @@ $string['notdownloadable_help'] = 'Non foi posíbel descargar automaticamente o 
 $string['notdownloadable_link'] = 'admin/mdeploy/notdownloadable';
 $string['notes'] = 'Notas';
 $string['notwritable'] = 'Os ficheiros de engadidos non son escribíbeis';
-$string['notwritable_help'] = 'Vostede activou o despregue de actualizacións automáticas e hai unha actualización dispoñíbel para este engadido. Porén, os ficheiros do engadido non son escribíbeis para o servidor web, polo que, polo momento, non foi posíbel instalar automaticamente a actualización.
-
-Faga que o cartafol do engadido e todos os seus contidos sexan escribíbeis para poder instalar automaticamente a actualización dispoñíbel.';
+$string['notwritable_help'] = 'O servidor web non pode escribir ficheiros de engadidos. O proceso do servidor web debe ter acceso por escrito ao cartafol de complementos e a todo o seu contido. Tamén pode ser necesario o acceso de escritura ao cartafol raíz do tipo de complemento dado.';
 $string['otherplugin'] = '{$a->component}';
 $string['otherpluginversion'] = '{$a->component} ({$a->version})';
 $string['overviewall'] = 'Todos os engadidos';
@@ -125,6 +123,8 @@ $string['type_calendartype'] = 'Tipo de calendario';
 $string['type_calendartype_plural'] = 'Tipos de calendario';
 $string['type_coursereport'] = 'Informe do curso';
 $string['type_coursereport_plural'] = 'Informes do curso';
+$string['type_customfield'] = 'Campo personalizado';
+$string['type_customfield_plural'] = 'Campos personalizados';
 $string['type_dataformat'] = 'Formato de datos';
 $string['type_dataformat_plural'] = 'Formatos de datos';
 $string['type_editor'] = 'Editor';
@@ -151,7 +151,7 @@ $string['type_local_plural'] = 'Engadidos locais';
 $string['type_media'] = 'Reprodutor multimedia';
 $string['type_media_plural'] = 'Reprodutores multimedia';
 $string['type_message'] = 'Procesador de mensaxes';
-$string['type_message_plural'] = 'Procesadores de mensaxes';
+$string['type_message_plural'] = 'Engadidos de notificación';
 $string['type_mlbackend'] = 'Infraestrutura da máquina de aprendizaxe';
 $string['type_mlbackend_plural'] = 'Infraestruturas da máquina de aprendizaxe';
 $string['type_mnetservice'] = 'Servizo MNet';

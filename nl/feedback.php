@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'feedback', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   feedback
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -95,7 +95,7 @@ $string['do_not_analyse_empty_submits'] = 'Analyseer geen lege inzendingen';
 $string['downloadresponseas'] = 'Download alle antwoorden als:';
 $string['dropdown'] = 'Meerkeuzevraag - één antwoord toegelaten (rolmenu)';
 $string['dropdownlist'] = 'Meerkeuzevraag - één antwoord (rolmenu)';
-$string['dropdownrated'] = 'Rolmenu (beoordeling)';
+$string['dropdownrated'] = 'Rolmenu (beoordeeld)';
 $string['dropdown_values'] = 'Antwoorden';
 $string['drop_feedback'] = 'Verwijder uit deze cursus';
 $string['edit_item'] = 'Bewerk vraag';
@@ -139,9 +139,14 @@ $string['horizontal'] = 'Horizontaal';
 $string['importfromthisfile'] = 'Importeer van dit bestand';
 $string['import_questions'] = 'Importeer vragen';
 $string['import_successfully'] = 'Import gelukt';
+$string['includeuserinrecipientslist'] = 'Neem {$a} op in de lijst met ontvangers';
 $string['indicator:cognitivedepth'] = 'Feedbackformulier cognitief';
+$string['indicator:cognitivedepthdef'] = 'Feedback cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de Feedback-activiteiten tijdens dit analyse-interval bereikt (Niveaus = Geen weergave, Bekijken, Verzenden)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Feedbackformulier activiteit.';
 $string['indicator:socialbreadth'] = 'Feedbackformulier sociaal';
+$string['indicator:socialbreadthdef'] = 'Feedback sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid van de Feedback-activiteiten tijdens dit analyse-interval bereikt (Niveaus = Geen deelname, Alleen deelnemer, Deelnemer met anderen)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Feedbackformulier activiteit.';
 $string['info'] = 'Informatie';
 $string['infotype'] = 'Informatietype';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_file', language 'de', branch 'MOODLE_36_STABLE'
+ * Strings for component 'cachestore_file', language 'de', branch 'MOODLE_38_STABLE'
  *
  * @package   cachestore_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -38,4 +38,4 @@ $string['singledirectory_help'] = 'Nach der Aktivierung werden Dateien (gecachte
 Dateitransaktionen können dadurch beschleunigt werden. Es kann jedoch auch an die Grenzen des Dateisystems stossen.<br />
 Empfohlen wird dies nunmehr nur wenn folgendes zutrifft:<br />
 - Wenn Sie sich sicher sind, das die Zahl der Werte im Cache gering genug ist, um nicht das Dateisystem zu sehr zu beanspruchen. <br />
--  Die gecachten Daten sind nicht zu umfangreich. Solte dies jedoch der Fall sein, ist die Standardeinstellung (default) die bessere Option, um Probleme zu vermeiden.';
+- Die gecachten Daten sind nicht zu umfangreich. Solte dies jedoch der Fall sein, ist die Standardeinstellung (default) die bessere Option, um Probleme zu vermeiden.';

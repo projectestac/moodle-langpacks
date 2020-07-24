@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'ru', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository', language 'ru', branch 'MOODLE_38_STABLE'
  *
  * @package   repository
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -36,22 +36,22 @@ $string['addplugin'] = 'Добавить плагин хранилища';
 $string['allowexternallinks'] = 'Разрешить внешние ссылки';
 $string['areacategoryintro'] = 'Введение категории';
 $string['areacourseintro'] = 'Введение курса';
-$string['areacourseoverviewfiles'] = 'Файлы описания курса';
+$string['areacourseoverviewfiles'] = 'Изображение курса';
 $string['areamainfile'] = 'Основной файл';
 $string['arearoot'] = 'Система';
 $string['areauserbackup'] = 'Резервные копии пользователя';
-$string['areauserdraft'] = 'Проекты';
+$string['areauserdraft'] = 'Черновики';
 $string['areauserpersonal'] = 'Личные файлы';
 $string['areauserprofile'] = 'Профиль';
 $string['attachedfiles'] = 'Прикрепленные файлы';
 $string['attachment'] = 'Вложение:';
 $string['author'] = 'Автор:';
 $string['automatedbackup'] = 'Автоматические резервные копии';
-$string['back'] = '&laquo; Назад';
-$string['backtodraftfiles'] = '&laquo; Вернуться к управлению файлами-проектами';
+$string['back'] = 'Назад';
+$string['backtodraftfiles'] = 'Вернуться к управлению файлами-черновиками';
 $string['cachecleared'] = 'Кэшированные файлы были удалены';
 $string['cacheexpire'] = 'Время жизни кэша';
-$string['cannotaccessparentwin'] = 'Если родительское окно - HTTPS, тогда у нас нет доступа к объекту window.opener. Таким образом, мы не можем автоматически обновить хранилище, но Ваша сессия уже существует - просто перейдите назад к выбору файлов и выберите хранилище вновь. Это должно сработать.';
+$string['cannotaccessparentwin'] = 'При использовании HTTPS хранилище не обновляется автоматически. Вместо этого вам необходимо вернуться к средству выбора файлов и снова выбрать хранилище.';
 $string['cannotdelete'] = 'Не удается удалить этот файл.';
 $string['cannotdownload'] = 'Невозможно загрузить этот файл';
 $string['cannotdownloaddir'] = 'Невозможно загрузить эту папку';
@@ -113,7 +113,7 @@ $string['entername'] = 'Введите имя папки';
 $string['enternewname'] = 'Введите новое имя файла';
 $string['error'] = 'Произошла неизвестная ошибка!';
 $string['errordoublereference'] = 'Невозможно перезаписать файл с ярлыка/псевдонима, потому что ссылки на тот файл уже существуют.';
-$string['errornotyourfile'] = 'Вы не можете выбрать файл, добавленный не Вами';
+$string['errornotyourfile'] = 'Вы можете выбрать только те файлы, которые вы добавили.';
 $string['errorpostmaxsize'] = 'Файл, который вы пытались загрузить, слишком большой для обработки на сервере.';
 $string['erroruniquename'] = 'Имя экземпляра хранилища должно быть уникальным';
 $string['errorwhilecommunicatingwith'] = 'Ошибка при установлении связи с хранилищем «{$a}».';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_langimport', language 'el', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_langimport', language 'el', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_langimport
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -39,6 +39,7 @@ $string['langpackupdated'] = 'Το πακέτο γλώσσας «{$a}» ενημ
 $string['langpackupdatedevent'] = 'Το πακέτο γλώσσας ενημερώθηκε.';
 $string['langpackupdateskipped'] = 'Παράλειψη ενημέρωσης πακέτου γλώσσας «{$a}».';
 $string['langpackuptodate'] = 'Το πακέτο γλώσσας «{$a}» είναι ενημερωμένο.';
+$string['langunsupported'] = '<p>Ο εξυπηρετητής σας δεν φαίνεται να υποστηρίζει πλήρως τις ακόλουθες γλώσσες:</p><ul>{$a->missinglocales}</ul><p>Αντ\' αυτού, η γενική τοπική ρύθμιση ({$a->globallocale}) θα χρησιμοποιηθεί για τη διαμόρφωση ορισμένων συμβολοσειρών, όπως ημερομηνιών ή αριθμών.</p>';
 $string['langupdatecomplete'] = 'Η ενημέρωση του πακέτου γλώσσας ολοκληρώθηκε.';
 $string['missingcfglangotherroot'] = 'Λείπει η τιμή $CFG->langotherroot στις ρυθμίσεις.';
 $string['missinglangparent'] = 'Απούσα γλώσσα-γονέας <em>{$a->parent}</em> του <em>{$a->lang}</em>.';

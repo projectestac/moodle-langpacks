@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myoverview', language 'es', branch 'MOODLE_36_STABLE'
+ * Strings for component 'block_myoverview', language 'es', branch 'MOODLE_38_STABLE'
  *
  * @package   block_myoverview
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,12 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addtofavourites'] = 'Destacar este curso';
-$string['all'] = 'Todos';
-$string['aria:addtofavourites'] = 'Estrella para';
-$string['aria:allcourses'] = 'Todos los cursos';
-$string['aria:card'] = 'Cambiar a vista de tarjeta';
+$string['all'] = 'Todos (a excepción de los eliminados de la vista)';
+$string['allincludinghidden'] = 'Todo';
+$string['aria:addtofavourites'] = 'Destacar para';
+$string['aria:allcourses'] = 'Todos los cursos excepto los cursos ocultos';
+$string['aria:allcoursesincludinghidden'] = 'Todos los cursos';
+$string['aria:card'] = 'Cambiar a la vista de tarjetas';
 $string['aria:controls'] = 'Controles de vista general de curso';
-$string['aria:courseactions'] = 'Acciones para curso actual';
+$string['aria:courseactions'] = 'Acciones para el curso actual';
 $string['aria:courseprogress'] = 'Progreso del curso:';
 $string['aria:coursesummary'] = 'Texto del resumen del curso:';
 $string['aria:displaydropdown'] = 'Mostrar desplegable';
@@ -41,30 +43,32 @@ $string['aria:groupingdropdown'] = 'Desplegable de agrupamiento';
 $string['aria:hiddencourses'] = 'Mostrar cursos ocultos';
 $string['aria:hidecourse'] = 'Ocultar {$a} de la vista';
 $string['aria:inprogress'] = 'Mostrar en cursos activos';
-$string['aria:lastaccessed'] = 'Ordenar cursos por última fecha de acceso';
-$string['aria:list'] = 'Cambiar a vista de lista';
+$string['aria:lastaccessed'] = 'Ordenar cursos por la última fecha de acceso';
+$string['aria:list'] = 'Cambiar a la vista de lista';
 $string['aria:past'] = 'Mostrar cursos pasados';
 $string['aria:removefromfavourites'] = 'Quitar estrella para';
 $string['aria:showcourse'] = 'Mostrar {$a} en vista';
 $string['aria:sortingdropdown'] = 'Ordenando desplegable';
-$string['aria:summary'] = 'Cambiar a vista resumen';
+$string['aria:summary'] = 'Cambiar a la vista de resumen';
 $string['aria:title'] = 'Ordenar cursos por nombre de curso';
 $string['card'] = 'Tarjeta';
 $string['cards'] = 'Tarjetas';
 $string['complete'] = 'Completo';
+$string['completepercent'] = '{$a}% completado';
 $string['courseprogress'] = 'Progreso del curso:';
 $string['defaulttab'] = 'Pestaña por defecto';
 $string['defaulttab_desc'] = 'La pestaña que será mostrada cuando un usuario vea por primera vez su vista general del curso. Al regresar a su vista general del curso, la pestaña activa del usuario es recordada.';
+$string['displaycategories'] = 'Mostrar categorías';
+$string['displaycategories_help'] = 'Mostrar la Categoría del curso en ítems del curso del Área personal incluyendo tarjetas, ítems de la lista e ítems de resumen.';
 $string['favourites'] = 'Destacados';
 $string['future'] = 'Futuros';
 $string['hidden'] = 'Cursos ocultos';
-$string['hiddencourses'] = 'Ocultos';
-$string['hidecourse'] = 'Ocultar de este panel';
+$string['hiddencourses'] = 'Eliminados de la vista';
+$string['hidecourse'] = 'Eliminados de la vista';
 $string['inprogress'] = 'En progreso';
 $string['lastaccessed'] = 'Último accedido';
 $string['list'] = 'Lista';
 $string['morecourses'] = 'Más cursos';
-$string['myoverview:addinstance'] = 'Añadir un nuevo bloque de vista general de cursos';
 $string['myoverview:myaddinstance'] = 'Añadir un nuevo bloque de vista general de cursos al Área personal';
 $string['next30days'] = 'Próximos 30 días';
 $string['next7days'] = 'Próximos 7 días';
@@ -83,7 +87,7 @@ $string['privacy:metadata:overviewviewpreference'] = 'La preferencia de vista de
 $string['privacy:request:preference:set'] = 'El valor de la configuración \'{$a->name}\' era \'{$a->value}\'';
 $string['recentlyoverdue'] = 'Recientemente vencidas';
 $string['removefromfavourites'] = 'Quitar estrella a este curso';
-$string['show'] = 'Mostrar este curso';
+$string['show'] = 'Mostrar vista';
 $string['sortbycourses'] = 'Ordenar por curso';
 $string['sortbydates'] = 'Ordenar por fecha';
 $string['summary'] = 'Resumen';

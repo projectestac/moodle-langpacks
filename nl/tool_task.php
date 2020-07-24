@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_task', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_task
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,7 @@ $string['disabled'] = 'Uitgeschakeld';
 $string['disabled_help'] = 'Uitgeschakelde geplande taken worden niet uitgevoerd via cron, maar ze knnen wel nog manueel uitgevoerd worden via de CLI-tool';
 $string['edittaskschedule'] = 'Taakschema bewerken: {$a}';
 $string['enablerunnow'] = '\'Nu starten\' toestaan voor geplande taken';
-$string['enablerunnow_desc'] = 'Sta beheerders toe om één enkele geplande taak onmiddellijk uit te voeren, eerder dan te wachten tot de volgende cron-taak loopt. De taken lopen op de webserver, dus sommige sites willen deze mogelijkheid misschien uitschakelen om mogelijke performantieproblemen te voorkomen.';
+$string['enablerunnow_desc'] = 'Sta beheerders toe om één enkele geplande taak onmiddellijk uit te voeren, eerder dan te wachten tot de volgende geplande taak loopt. Voor deze functie moet \'Pad naar PHP CLI (pathtophp) ingesteld zijn in systeempaden. De taken lopen op de webserver, dus sommige sites willen deze mogelijkheid misschien uitschakelen om mogelijke performantieproblemen te voorkomen.';
 $string['faildelay'] = 'Uitstel bij mislukt';
 $string['lastruntime'] = 'Laatste keer uitgevoerd';
 $string['nextruntime'] = 'Volgende keer';
@@ -52,6 +52,7 @@ $string['runpattern'] = 'Start patroon';
 $string['scheduledtaskchangesdisabled'] = 'De Moodleconfiguratie verhindert het maken van wijzigingen aan de lijst met geplande taken.';
 $string['scheduledtasks'] = 'Geplande taken';
 $string['taskdisabled'] = 'Taak uitgeschakeld';
+$string['tasklogs'] = 'Taken log';
 $string['taskscheduleday'] = 'Dag';
 $string['taskscheduleday_help'] = 'Dag van de maand-veld voor taakschema. Het veld maakt gebruik van hetzelfde formaat als unix cron. Enkele voorbeelden zijn:
 
@@ -87,3 +88,4 @@ $string['taskschedulemonth_help'] = 'Maand-veld voor taakschema. Het veld maakt 
 * <strong>* / 2</strong> Elke tweede maand
 * <strong>1</strong> Elk jaar in januari
 * <strong>1,5</strong> Elk jaar in januari en mei';
+$string['viewlogs'] = 'Bekijk log voor {$a}';

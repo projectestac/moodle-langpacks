@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignment_offline', language 'ar', branch 'MOODLE_36_STABLE'
+ * Strings for component 'assignment_offline', language 'ar', branch 'MOODLE_38_STABLE'
  *
  * @package   assignment_offline
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'خارج التغطية';
+$string['pluginname'] = 'دون اتصال';
 $string['privacy:metadata'] = 'لا يقوم المكون الإضافي Offline assignment  بتخزين أيّ بيانات شخصية.';

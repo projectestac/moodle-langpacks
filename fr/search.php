@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'search', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   search
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,6 +43,11 @@ $string['confirm_delete'] = 'Voulez-vous vraiment supprimer l\'index pour {$a} 
 $string['confirm_deleteall'] = 'Voulez-vous vraiment supprimer tous les index maintenant ? Tant que le site n\'est pas indexé à nouveau, les utilisateurs n\'obtiendront aucun résultat de recherche.';
 $string['confirm_indexall'] = 'Voulez-vous vraiment mettre à jour les index maintenant ? Si une grande quantité de contenus nécessite une indexation, ceci peut prendre un temps considérable. Pour les serveurs en production, il est plus judicieux de laisser faire l\'indexation au moyen de la tâche programmée « Indexation pour recherche globale ».';
 $string['confirm_reindexall'] = 'Voulez-vous vraiment reconstruire l\'index de tous les contenus du site maintenant ? Si votre site contient une grande quantité de contenus, ceci peut prendre un temps considérable, et les utilisateurs n\'obtiendront pas des résultats complets avant la fin de l\'indexation.';
+$string['core-all'] = 'Tout';
+$string['core-course-content'] = 'Contenu de cours';
+$string['core-courses'] = 'Cours';
+$string['core-other'] = 'Autre';
+$string['core-users'] = 'Utilisateurs';
 $string['createanindex'] = 'créer un index';
 $string['createdon'] = 'Créé le';
 $string['database'] = 'Base de données';
@@ -84,6 +89,7 @@ $string['invalidindexerror'] = 'Le répertoire d\'index contient un index non va
 $string['ittook'] = 'Il a fallu';
 $string['matchingfile'] = 'Trouvé dans le fichier <span class="filename">{$a}</span>';
 $string['matchingfiles'] = 'Trouvé dans les fichiers :';
+$string['mycoursesonly'] = 'Mes cours seulement';
 $string['next'] = 'Suite';
 $string['noindexmessage'] = 'Administrateur : il semble qu\'il n\'y a pas d\'index de recherche. Merci de';
 $string['noresults'] = 'Pas de résultat';
@@ -109,6 +115,9 @@ $string['schemaversionunknown'] = 'Le moteur de recherche n\'a pas d\'informatio
 $string['score'] = 'Score';
 $string['search'] = 'Recherche';
 $string['searcharea'] = 'Zone de recherche';
+$string['searchareacategories'] = 'Catégories de zones de recherche';
+$string['search:course'] = 'Cours';
+$string['search:customfield'] = 'Champs personnalisés de cours';
 $string['searching'] = 'Recherche dans…';
 $string['search:message_received'] = 'Messages – reçus';
 $string['search:message_sent'] = 'Messages – envoyés';

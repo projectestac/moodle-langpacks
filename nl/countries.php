@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'countries', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'countries', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   countries
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,8 +53,8 @@ $string['BJ'] = 'Benin';
 $string['BL'] = 'Saint Barthélemy';
 $string['BM'] = 'Bermuda';
 $string['BN'] = 'Brunei';
-$string['BO'] = 'Bolivië, Plurinationale Staat';
-$string['BQ'] = 'Bonaire';
+$string['BO'] = 'Bolivia';
+$string['BQ'] = 'Bonaire, Sint Eustatius en Saba';
 $string['BR'] = 'Brazilië';
 $string['BS'] = 'Bahamas';
 $string['BT'] = 'Bhutan';
@@ -168,7 +168,7 @@ $string['ME'] = 'Montenegro';
 $string['MF'] = 'Saint Martin (Frans deel)';
 $string['MG'] = 'Madagascar';
 $string['MH'] = 'Marchall eilanden';
-$string['MK'] = 'Macedonië (Republiek)';
+$string['MK'] = 'Noord-Macedonië';
 $string['ML'] = 'Mali';
 $string['MM'] = 'Myanmar';
 $string['MN'] = 'Mongolië';
@@ -223,9 +223,9 @@ $string['SC'] = 'Seychellen';
 $string['SD'] = 'Soedan';
 $string['SE'] = 'Zweden';
 $string['SG'] = 'Singapore';
-$string['SH'] = 'Saint Helena';
+$string['SH'] = 'Sint Helena, Ascension en Tristan da Cunha';
 $string['SI'] = 'Slovenië';
-$string['SJ'] = 'Spitsbergen en Jan Mayeneilanden';
+$string['SJ'] = 'Spitsbergen en Jan Mayen-eilanden';
 $string['SK'] = 'Slovakije';
 $string['SL'] = 'Sierra Leone';
 $string['SM'] = 'San Marino';
@@ -253,7 +253,7 @@ $string['TR'] = 'Turkije';
 $string['TT'] = 'Trinidad en Tobago';
 $string['TV'] = 'Tuvalu';
 $string['TW'] = 'Taiwan';
-$string['TZ'] = 'Tanzanië';
+$string['TZ'] = 'Tanzania';
 $string['UA'] = 'Oekraïne';
 $string['UG'] = 'Uganda';
 $string['UM'] = 'Kleine Pacifische eilanden van de Verenigde Staten';
@@ -261,7 +261,7 @@ $string['US'] = 'Verenigde Staten';
 $string['UY'] = 'Uruguay';
 $string['UZ'] = 'Uzbekistan';
 $string['VA'] = 'Vaticaanstad';
-$string['VC'] = 'Saint Vincent en de Grenadines';
+$string['VC'] = 'Sint Vincent en de Grenadines';
 $string['VE'] = 'Venezuela';
 $string['VG'] = 'Maagdeneilanden (Brits)';
 $string['VI'] = 'Maagdeneilanden (VS)';

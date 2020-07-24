@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_dropbox', language 'zh_cn', branch 'MOODLE_36_STABLE'
+ * Strings for component 'repository_dropbox', language 'zh_cn', branch 'MOODLE_38_STABLE'
  *
  * @package   repository_dropbox
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,7 @@ $string['apikey'] = 'Dropbox API密钥';
 $string['cachelimit'] = '缓存限制';
 $string['cachelimit_info'] = '输入要在服务器上缓存的文件的最大大小（以字节为单位），作为 Dropbox 的别名/简称。当资源不再可用时，缓存的文件将会被使用。空值或零意味着不考虑文件大小而缓存所有的文件。';
 $string['configplugin'] = 'Dropbox配置';
+$string['crontask'] = '后台处理Dropbox容器';
 $string['dropbox'] = 'Dropbox';
 $string['dropbox:view'] = '查看一个Dropbox文件夹';
 $string['instruction'] = '您可以从<a href="http://www.dropbox.com/developers/apps">Dropbox developers</a>获得您的 API Key 和 secret。设置 key 的时候，请为“Access level”选择“Full Dropbox”。';

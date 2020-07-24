@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'grades', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   grades
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,6 +33,7 @@ $string['addfeedback'] = 'Ajouter un feedback';
 $string['addgradeletter'] = 'Ajouter une note lettre';
 $string['addidnumbers'] = 'Ajouter les identifiants';
 $string['additem'] = 'Ajouter un élément d\'évaluation';
+$string['additionalfeedback'] = 'Feedback supplémentaire';
 $string['addoutcome'] = 'Ajouter un objectif';
 $string['addoutcomeitem'] = 'Ajouter un élément d\'objectif';
 $string['addscale'] = 'Ajouter un barème';
@@ -120,6 +121,7 @@ $string['changedefaults'] = 'Modifier les réglages par défaut';
 $string['changereportdefaults'] = 'Modifier les rapports par défaut';
 $string['chooseaction'] = 'Choisir une action…';
 $string['choosecategory'] = 'Choisir une catégorie';
+$string['collapsecriterion'] = 'Replier le critère';
 $string['combo'] = 'Onglets et menu déroulant';
 $string['compact'] = 'Compact';
 $string['componentcontrolsvisibility'] = 'La visibilité de cet élément d\'évaluation est contrôlée par les réglages de l\'activité.';
@@ -196,6 +198,8 @@ $string['errorupdatinggradecategoryaggregateoutcomes'] = 'Erreur lors de la modi
 $string['errorupdatinggradecategoryaggregation'] = 'Erreur lors de la modification du type de tendance centrale de la catégorie de note d\'identifiant {$a->id}';
 $string['errorupdatinggradeitemaggregationcoef'] = 'Erreur lors de la modification du coefficient (pondération ou bonus) de l\'élément d\'évaluation d\'identifiant {$a->id}';
 $string['eventgradedeleted'] = 'Note supprimée';
+$string['eventgradeitemcreated'] = 'Élément d\'évaluation créé';
+$string['eventgradeitemupdated'] = 'Élément d\'évaluation modifié';
 $string['eventgradelettercreated'] = 'Note lettre créée';
 $string['eventgradeletterdeleted'] = 'Note lettre supprimée';
 $string['eventgradeletterupdated'] = 'Note lettre modifiée';
@@ -207,6 +211,7 @@ $string['eventusergraded'] = 'Utilisateur évalué';
 $string['excluded'] = 'Exclue';
 $string['excluded_help'] = 'Si ce réglage est activé, la note ne sera prise en compte dans aucun calcul de tendance centrale.';
 $string['expand'] = 'Déplier la catégorie';
+$string['expandcriterion'] = 'Déplier le critère';
 $string['export'] = 'Exporter';
 $string['exportalloutcomes'] = 'Exporter tous les objectifs';
 $string['exportfeedback'] = 'Inclure les feedbacks dans l\'exportation';
@@ -268,9 +273,9 @@ $string['gradedisplay'] = 'Affichage des notes';
 $string['gradedisplaytype'] = 'Type d\'affichage des notes';
 $string['gradedisplaytype_help'] = 'Ce réglage détermine comment les notes sont affichées dans les rapports de l\'évaluateur et du participant.
 
-* Réel – Note elle-même
+* Réel – Note elle-même ou valeur dans le barème
 * Pourcentage – Pourcentage relativement aux notes maximale et minimale
-* Lettre – Une lettre (ou un mot) est utilisée pour représenter un intervalle de notes';
+* Lettre – Lettre (ou mot) représentant un intervalle de notes, spécifié dans l\'onglet Lettres de la configuration du carnet de notes';
 $string['gradedon'] = 'Évalué le {$a}';
 $string['gradeexport'] = 'Exportation de notes';
 $string['gradeexportcolumntype'] = '{$a->name} ({$a->extra})';
@@ -286,6 +291,7 @@ $string['gradeexportuserprofilefields_desc'] = 'Inclure ces champs de profil dan
 $string['gradeforstudent'] = '{$a->student}<br />{$a->item}{$a->feedback}';
 $string['gradegrademinmax'] = 'Notes initiales minimale et maximale';
 $string['gradehelp'] = 'Aide sur les notes';
+$string['grade_help'] = 'La note à donner à l\'étudiant pour son travail.';
 $string['gradehistorylifetime'] = 'Durée de l\'historique des notes';
 $string['gradehistorylifetime_help'] = 'Ce réglage permet d\'indiquer la durée pendant laquelle vous voulez conserver le suivi des modifications des tables concernant les notes. Il est recommandé de les conserver le plus longtemps possible. Si vous avez des problèmes de performance ou un espace disque limité pour votre base de données, essayez d\'indiquer une durée plus basse.';
 $string['gradeimport'] = 'Importation de notes';
@@ -314,6 +320,8 @@ $string['grademax'] = 'Note maximale';
 $string['grademax_help'] = 'Ce réglage détermine la note maximale lorsque le type de note est une valeur. La note maximale pour un élément d\'évaluation basé sur une activité est gérée dans les paramètres de l\'activité.';
 $string['grademin'] = 'Note minimale';
 $string['grademin_help'] = 'Ce réglage détermine la note minimale lorsque le type de note est une valeur.';
+$string['gradenotificationmessage'] = 'Vous avez un nouveau feedback pour votre travail dans « {$a} »';
+$string['gradenotificationsubject'] = 'Vous avez été évalué';
 $string['gradeoutcomeitem'] = 'Évaluer élément d\'objectif';
 $string['gradeoutcomes'] = 'Objectifs';
 $string['gradeoutcomescourses'] = 'Objectifs du cours';
@@ -352,6 +360,7 @@ $string['gradevaluetoobig'] = 'Une des notes dépasse la note maximale autorisé
 $string['gradeview'] = 'Afficher la note';
 $string['gradewasmodifiedduringediting'] = 'La note saisie donnée à {$a->username} pour {$a->itemname} a été ignorée, car elle a été mise à jour ultérieurement par quelqu\'un d\'autre.';
 $string['gradeweighthelp'] = 'Aide sur les coefficients des notes';
+$string['gradingmodulename'] = 'Évaluation ({$a})';
 $string['groupavg'] = 'Moyenne du groupe';
 $string['hidden'] = 'Caché';
 $string['hiddenasdate'] = 'Afficher la date de remise pour les notes cachées';
@@ -548,6 +557,7 @@ $string['noselecteditems'] = 'Aucun élément sélectionné.';
 $string['notenrolled'] = 'Vous n\'êtes inscrit à aucun cours sur ce site.';
 $string['notteachererror'] = 'Vous devez être enseignant pour utiliser cette fonctionnalité.';
 $string['nousersloaded'] = 'Aucun utilisateur chargé';
+$string['nouserstograde'] = 'Aucun utilisateur à évaluer';
 $string['numberofgrades'] = 'Nombre de notes';
 $string['onascaleof'] = 'sur un barème de {$a->grademin} à {$a->grademax}';
 $string['operations'] = 'Opérations';
@@ -660,9 +670,9 @@ $string['quickgrading_help'] = 'Si ce réglage est activé, lorsque le mode de m
 Quand une note est modifiée dans le rapport de l\'évaluateur, elle ne peut plus être modifiée par le résultat de l\'activité d\'où elle provient.';
 $string['range'] = 'Valeurs possibles';
 $string['rangedecimals'] = 'Décimales de l\'intervalle';
-$string['rangedecimals_help'] = 'Nombre de décimales à afficher pour l\'intervalle';
+$string['rangedecimals_help'] = 'Nombre de décimales à afficher pour l\'intervalle.';
 $string['rangesdecimalpoints'] = 'Décimales des valeurs possibles';
-$string['rangesdecimalpoints_help'] = 'Ce réglage spécifie le nombre de décimales à afficher pour les valeurs possibles, ou si le réglage de la catégorie ou de l\'élément d\'évaluation est utilisé (par héritage).';
+$string['rangesdecimalpoints_help'] = 'Ce réglage spécifie le nombre de décimales à afficher pour chaque intervalle valeurs possibles, ou si le réglage de la catégorie ou de l\'élément d\'évaluation est utilisé (par héritage).';
 $string['rangesdisplaytype'] = 'Type d\'affichage des valeurs possibles';
 $string['rangesdisplaytype_help'] = 'Ce réglage spécifie comment afficher les valeurs possibles : comme notes réelles, pourcentages ou lettres, ou si l\'affichage défini au niveau de la catégorie ou de l\'élément d\'évaluation est utilisé (par héritage).';
 $string['rank'] = 'Rang';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_essay', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'qtype_essay', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   qtype_essay
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -37,7 +37,7 @@ $string['formatmonospaced'] = 'Texto simples, fonte monoespaçada';
 $string['formatnoinline'] = 'Sem texto online';
 $string['formatplain'] = 'Texto simples';
 $string['graderinfo'] = 'Informação sobre a avaliação';
-$string['graderinfoheader'] = 'Informação do Avaliador';
+$string['graderinfoheader'] = 'Informação do avaliador';
 $string['mustattach'] = 'Quando é selecionada a opção "Sem texto online" ou as respostas são opcionais, tem de permitir pelo menos um anexo.';
 $string['mustrequire'] = 'Quando é selecionada a opção "Sem texto online" ou as respostas são opcionais, tem de exigir pelo menos um anexo.';
 $string['mustrequirefewer'] = 'Não pode exigir mais anexos do que aqueles que permite.';
@@ -54,7 +54,7 @@ $string['responsefieldlines'] = 'Tamanho da caixa de resposta';
 $string['responseformat'] = 'Formato da resposta';
 $string['responseisrequired'] = 'Requerer que o aluno insira texto';
 $string['responsenotrequired'] = 'A introdução de texto é opcional';
-$string['responseoptions'] = 'Opções de Resposta';
+$string['responseoptions'] = 'Opções de resposta';
 $string['responserequired'] = 'Exigir texto';
 $string['responsetemplate'] = 'Modelo de resposta';
 $string['responsetemplateheader'] = 'Modelo de resposta';

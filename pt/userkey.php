@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'userkey', language 'pt', branch 'MOODLE_36_STABLE'
+ * Strings for component 'userkey', language 'pt', branch 'MOODLE_38_STABLE'
  *
  * @package   userkey
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,5 +45,5 @@ $string['privacy:metadata:user_private_key:userid'] = 'O utilizador associado à
 $string['privacy:metadata:user_private_key:validuntil'] = 'A data/hora até quando a chave é válida';
 $string['privacy:metadata:user_private_key:value'] = 'O valor da chave.';
 $string['userkey'] = 'Chave de utilizador';
-$string['userkey_help'] = 'Selecione uma das chaves gravadas para dar acesso aos utilizadores à informação publicada por este módulo de exportação. Estes utilizadores não terão que iniciar sessão no Moodle para terem acesso a esta informação. Selecione "Criar uma nova chave de utilizador" para gerar uma nova chave quando submeter este formulário.';
+$string['userkey_help'] = 'Selecione uma das chaves guardadas para dar acesso aos utilizadores à informação publicada por este módulo de exportação. Estes utilizadores não terão que iniciar sessão no Moodle para terem acesso a esta informação. Selecione "Criar uma nova chave de utilizador" para gerar uma nova chave quando submeter este formulário.';
 $string['userkeys'] = 'Chaves de utilizador';

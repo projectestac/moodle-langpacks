@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopallocation_scheduled', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'workshopallocation_scheduled', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   workshopallocation_scheduled
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['crontask'] = 'Esleipen programatuaren atzeko planoko prozesatzea';
 $string['currentstatus'] = 'Oraingo egoera';
 $string['currentstatusexecution'] = 'Egoera';
 $string['currentstatusexecution1'] = 'Exekuzio denbora: {$a->datetime}';

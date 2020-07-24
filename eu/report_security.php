@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'eu', branch 'MOODLE_36_STABLE'
+ * Strings for component 'report_security', language 'eu', branch 'MOODLE_38_STABLE'
  *
  * @package   report_security
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -34,6 +34,11 @@ $string['check_cookiesecure_details'] = '<p>HTTPS komunikazioak gaituta badaude 
 $string['check_cookiesecure_error'] = 'Mesedez, gaitu cookie seguruak';
 $string['check_cookiesecure_name'] = 'Cookie seguruak';
 $string['check_cookiesecure_ok'] = 'Cookie seguruak gaituta.';
+$string['check_crawlers_details'] = '<p>"Ireki bilaketa-motorrei" ezarpenak bilaketa-motorrei ikastaroetan bisitari gisa sartzen uzten die. Honek ez du zentzurik bisitariek sarbidea baimenduta ez badute.</p>';
+$string['check_crawlers_error'] = 'Bilaketa-motoreen sarbidea baimenduta dago baina bisitarien sarbidea desgaituta dago.';
+$string['check_crawlers_info'] = 'Bilaketa-motoreak bisitari gisa sar daitezke';
+$string['check_crawlers_name'] = 'Ireki bilaketa-motorrei';
+$string['check_crawlers_ok'] = 'Bilaketa-motoreen sarbidea ez dago gaituta.';
 $string['check_defaultuserrole_details'] = '<p>Saioa hasten duten erabiltzaile guztiei lehenetsitako erabiltzaile-rola esleitzen zaie. Mesedez ziurtatu rol honi ez zaizkiola arriskutsuak izan daitezkeen gaitasunak esleitzen.</p>
 <p>Lehenetsitako erabiltzaile rolarentzat onartzen den modu zaharkitu bakarra <em>Autentifikatutako erabiltzailea</em> da. Ikastaroak ikusteko gaitasuna ez litzateke gaitu beharko.</p>';
 $string['check_defaultuserrole_error'] = '"{$a}" izeneko lehenetsitako erabiltzaile-rola modu ezegokian definituta dago!';
@@ -60,11 +65,6 @@ $string['check_frontpagerole_error'] = 'Modu ezegokian definitutako hasiera-orri
 $string['check_frontpagerole_name'] = 'Hasiera-orriko rola';
 $string['check_frontpagerole_notset'] = 'Hasiera-orriko rola ez da ezarri.';
 $string['check_frontpagerole_ok'] = 'Hasiera-orriko rolaren definizioa ONDO dago.';
-$string['check_google_details'] = '<p>Zabaldu Google-ri ezarpenak bilaketa-motorei ikastaroetan bisitari gisa sartzen uzten die. Honek ez du zentzurik bisitariek sarbidea baimenduta ez badute.</p>';
-$string['check_google_error'] = 'Bilaketa-motoreen sarbidea baimenduta dago baina bisitarien sarbidea desgaituta dago.';
-$string['check_google_info'] = 'Bilaketa-motoreak bisitari gisa sar daitezke';
-$string['check_google_name'] = 'Zabaldu Google-ri';
-$string['check_google_ok'] = 'Bilaketa-motoreen sarbidea ez dago gaituta.';
 $string['check_guestrole_details'] = '<p>Bisitari-rola bisitariekin erabiltzen da, saio hasi gabeko erabiltzaileak eta behin-behineko ikastaroetako gonbidatu-sarbidea. Ziurtatu ezazu rol honi ez zaizkiola arriskutsuak izan daitezkeen gaitasunak esleitzen.</p>
 <p></p>';
 $string['check_guestrole_error'] = '"{$a}" bisitari-rola ez dago modu egokian definituta!';

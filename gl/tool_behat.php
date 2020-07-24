@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_behat', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_behat', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_behat
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['aim'] = 'Esta ferramenta de administración permítelle aos desenvolvedores e creadores de probas xerar ficheiros .feature que describen as funcionalidades de Moodle e execútanse automaticamente. As definicións dispoñíbeis dos pasos para o seu uso nos ficheiros .feature enuméranse a seguir.';
 $string['allavailablesteps'] = 'Todas as definicións de pasos dispoñíbeis';
+$string['errorapproot'] = '$CFG->behat_ionic_dirroot non está apuntando a unha instalación de desenvolvedores Moodle Mobile válida.';
 $string['errorbehatcommand'] = 'Produciuse un erro durante a execución da orde behat na liña de ordes. Execute manualmente «{$a} --help» desde a liña de ordes para saber máis sobre este erro.';
 $string['errorcomposer'] = 'Non están instaladas as dependencias do compositor (composer).';
 $string['errordataroot'] = '$CFG->behat_datarootno non está estabelecido ou é incorrecto.';

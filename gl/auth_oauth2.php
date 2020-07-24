@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'gl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'auth_oauth2', language 'gl', branch 'MOODLE_38_STABLE'
  *
  * @package   auth_oauth2
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,6 +69,15 @@ $string['emailconfirmlinksent'] = '<p>Atopouse unha conta existente con este end
    <p>Debería terse enviado un correo ao seu enderezo en<b>{$a}</b></p>
    <p>Contén instrucións sinxelas para ligar as súas contas.</p>
    <p>Se Vostede segue a ter dificultades, contacte co administrador do sitio.</p>';
+$string['emailpasswordchangeinfo'] = 'Ola {$a->firstname},
+
+Alguén (probabelmente vostede) solicitou un novo contrasinal para a súa conta en «{$a->sitename}».
+
+Non obstante o seu contrasinal non se pode restablecer porque está a usar a súa conta noutro sitio para iniciar sesión.
+
+Inicia sesión como antes, usando a ligazón na páxina de acceso.
+{$a->admin}';
+$string['emailpasswordchangeinfosubject'] = '{$a}: información sobre o cambio de contrasinal';
 $string['info'] = 'Conta externa';
 $string['issuer'] = 'Servizo OAuth 2';
 $string['issuernologin'] = 'O emisor non pode ser usado para acceder';

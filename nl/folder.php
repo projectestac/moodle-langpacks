@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'nl', branch 'MOODLE_36_STABLE'
+ * Strings for component 'folder', language 'nl', branch 'MOODLE_38_STABLE'
  *
  * @package   folder
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,8 +40,12 @@ $string['foldercontent'] = 'Bestanden en submappen';
 $string['folder:managefiles'] = 'Beheer bestanden in mappenmodule';
 $string['folder:view'] = 'Bekijk mapinhoud';
 $string['indicator:cognitivedepth'] = 'Map cognitief';
+$string['indicator:cognitivedepthdef'] = 'Map cognitief';
+$string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid van de mapresources bereikt tijdens dit analyse-interval (Niveaus = Geen weergave, Weergave)';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een Map bron.';
 $string['indicator:socialbreadth'] = 'Map sociaal';
+$string['indicator:socialbreadthdef'] = 'Map sociaal';
+$string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid bereikt die door de mapresources wordt geboden tijdens dit analyse-interval (niveaus = geen deelname, alleen deelnemer)';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een Map bron.';
 $string['maxsizetodownload'] = 'Maximum map downloadgrootte (MB)';
 $string['maxsizetodownload_help'] = 'De maximale grootte van een map die gedownload kan worden als een zip-bestand. Als dit op nul gezet wordt, dan is de mapgrootte onbeperkt.';

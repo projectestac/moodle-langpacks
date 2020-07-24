@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'fr', branch 'MOODLE_36_STABLE'
+ * Strings for component 'tool_dataprivacy', language 'fr', branch 'MOODLE_38_STABLE'
  *
  * @package   tool_dataprivacy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,6 +70,7 @@ $string['contextlevelname70'] = 'Modules d\'activité';
 $string['contextlevelname80'] = 'Bloc';
 $string['contextpurposecategorysaved'] = 'Finalité et catégorie enregistrées.';
 $string['createcategory'] = 'Créer une catégorie de données';
+$string['createdeletedatarequest'] = 'Créer une demande de suppression de données';
 $string['createnewdatarequest'] = 'Créer une nouvelle demande de données';
 $string['createpurpose'] = 'Créer une finalité de données';
 $string['creationauto'] = 'Automatiquement';
@@ -78,9 +79,12 @@ $string['datadeletion'] = 'Suppression de données';
 $string['datadeletionpagehelp'] = 'Les données dont la période de conservation est échue sont énumérées ici. Veuillez vérifier et confirmer la suppression des données, qui sera effectuée lors du prochain lancement de la tâche programmée « Supprimer les contextes échus ».';
 $string['dataprivacy:downloadallrequests'] = 'Télécharger les données exportées de tout le monde';
 $string['dataprivacy:downloadownrequest'] = 'Télécharger mes propres données exportées';
+$string['dataprivacy:makedatadeletionrequestsforchildren'] = 'Demander la suppression de données pour des mineurs';
 $string['dataprivacy:makedatarequestsforchildren'] = 'Faire des demandes de données pour mineurs';
 $string['dataprivacy:managedataregistry'] = 'Gérer le registre des données';
 $string['dataprivacy:managedatarequests'] = 'Gérer les demandes de données';
+$string['dataprivacy:requestdelete'] = 'Demander la suppression de données pour soi-même';
+$string['dataprivacy:requestdeleteforotheruser'] = 'Demander la suppression de données au nom d\'un autre utilisateur';
 $string['dataregistry'] = 'Registre des données';
 $string['dataregistryinfo'] = 'Le registre des données permet de définir des catégories (types de données) et des finalités (les raisons du traitement des données) pour tous les contenus du site — depuis les utilisateurs et les cours jusqu\'aux activités et aux blocs. Pour chaque finalité, une période de conservation peut être fixée. Lorsqu\'une période de conservation est échue, les données sont marquées et listées pour suppression, dans l\'attente d\'une confirmation de l\'administrateur.';
 $string['datarequestcreatedforuser'] = 'Demande de données créée pour {$a}';
@@ -134,7 +138,8 @@ $string['editpurposes'] = 'Modifier les finalités';
 $string['effectiveretentionperiodcourse'] = '{$a} (après la date de fin du cours)';
 $string['effectiveretentionperioduser'] = '{$a} (depuis le dernier accès de l\'utilisateur au site)';
 $string['emailsalutation'] = 'Cher {$a},';
-$string['errorcannotdeleteadmin'] = 'Impossible de créer une demande de suppression de données pour l\'administrateur principal du site';
+$string['errorcannotrequestdeleteforother'] = 'Vous n\'avez pas les permissions requises pour créer une demande de suppression de données pour cet utilisateur.';
+$string['errorcannotrequestdeleteforself'] = 'Vous n\'avez pas les permissions requises pour créer une demande de suppression de données pour vous-même.';
 $string['errorcontexthasunexpiredchildren'] = 'Le contexte « {$a} » comporte des sous-contextes qui ne sont pas encore échus. Aucun contexte n\'a été confirmé pour suppression.';
 $string['errorinvalidrequestcreationmethod'] = 'Méthode de création de demande non valide !';
 $string['errorinvalidrequeststatus'] = 'Statut de la demande non valide !';
