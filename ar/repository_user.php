@@ -25,7 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['configplugin'] = 'تهيئة مستودع ملفات المستخدم الخاصة';
 $string['emptyfilelist'] = 'لا يوجد ملفات ليتم اظهارها';
-$string['pluginname'] = 'ملفات خاصة';
+$string['pluginname'] = 'الملفات الخاصة';
 $string['pluginname_help'] = 'ملفات في منطقة المستخدم الخاصة';
+$string['privacy:metadata'] = 'إن ملحق مستودع ملفات المستخدم الخاصة لا يخزن أو يرسل أي بيانات شخصية.';
 $string['user:view'] = 'معاينة الملفات الخاصة بمستخدم';

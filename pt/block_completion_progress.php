@@ -89,6 +89,7 @@ $string['pluginname'] = 'Barra de Progresso';
 $string['privacy:metadata'] = 'O bloco Barra de Progresso mostra apenas dados de conclusão existentes.';
 $string['progress'] = 'Progresso';
 $string['progressbar'] = 'Barra de Progresso';
+$string['selectitem'] = 'Selecionar \'{$a}\'';
 $string['shortname'] = 'Nome curto da disciplina';
 $string['showallinfo'] = 'Mostrar todas as informações';
 $string['showinactive'] = 'Mostrar alunos inativos na Visão global';

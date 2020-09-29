@@ -164,12 +164,14 @@ $string['givengrades'] = 'Cualificacións outorgadas';
 $string['gradecalculated'] = 'Cualificación calculada para a entrega';
 $string['gradedecimals'] = 'Posicións decimais nas cualificacións';
 $string['gradegivento'] = '&gt;';
+$string['grade_grading_name'] = 'Avaliación';
 $string['gradeinfo'] = 'Cualificación: {$a->received} de {$a->max}';
 $string['gradeitemassessment'] = '{$a->workshopname} (avaliación)';
 $string['gradeitemsubmission'] = '{$a->workshopname} (entrega)';
 $string['gradeover'] = 'Anular a cualificación da entrega';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Informe de cualificacións do obradoiro';
+$string['grade_submission_name'] = 'Entrega';
 $string['gradetopassgrading'] = 'Cualificación aprobatoria de avaliación';
 $string['gradetopasssubmission'] = 'Cualificación aprobatoria de entregas';
 $string['gradinggrade'] = 'Cualificación para avaliación';
@@ -181,8 +183,14 @@ $string['gradingsettings'] = 'Axustes da cualificación';
 $string['groupnoallowed'] = 'Non se lle permite acceder a ningún grupo neste obradoiro';
 $string['iamsure'] = 'Si, confirmo';
 $string['indicator:cognitivedepth'] = 'Obradoiro cognitivo';
+$string['indicator:cognitivedepthdef'] = 'Obradoiro cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'O participante acadou esta porcentaxe do compromiso cognitivo que ofrecen as actividades de Obradoiro durante este intervalo de análise (Niveis = Sen vista, Ver, Entregar, Ver comentarios, Facer comentarios, Reenviar após ver comentarios)';
+$string['indicator:cognitivedepthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Profundidade_cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nunha actividade de obradoiro.';
 $string['indicator:socialbreadth'] = 'Obradoiro social';
+$string['indicator:socialbreadthdef'] = 'Obradoiro social';
+$string['indicator:socialbreadthdef_help'] = 'O participante acadou esta porcentaxe do compromiso social que ofrecen as actividades de Obradoiro durante este intervalo de análise (Niveis = Sen participación, Participante en solitario, Participante con outros)';
+$string['indicator:socialbreadthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Amplitude_social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nunha actividade de obradoiro.';
 $string['info'] = 'Información';
 $string['instructauthors'] = 'Instrucións para a entrega';
@@ -195,13 +203,13 @@ $string['latesubmissions_help'] = 'De estar activado, un autor pode entregar o s
 $string['legacyallocationplugincron'] = 'Asignación de obradoiro por cron legado';
 $string['maxbytes'] = 'Tamaño máximo de anexo na entrega';
 $string['modulename'] = 'Obradoiro';
-$string['modulename_help'] = 'O módulo de actividade obradoiro activa a recollida, revisión e avaliación por pares do traballo dos alumnos.
+$string['modulename_help'] = 'O módulo de actividade Obradoiro activa a recollida, revisión e avaliación por pares do traballo dos alumnos.
 
 Os alumnos poden entregar calquera contido dixital (ficheiros) tales como documentos procesados por palabras ou follas de cálculo e tamén poden escribir directamente dentro dun campo utilizando o editor de texto.
 
 As entregas son avaliadas utilizando un formulario de avaliación multicriterio definido polo profesor. O proceso de avaliación por pares e a comprensión do formulario de avaliación pódese practicar previamente con exemplos de entregas fornecidas polo profesor, xunto cunha avaliación de referencia. Aos alumnos dáselles a oportunidade de avaliar unha ou máis das entregas dos seus pares. As entregas e os revisores poden ser anónimos se se require.
 
-Os alumnos obteñen dúas cualificacións nunha actividade de seminario - unha cualificación pola súa entrega e outra pola avaliación das entregas dos seus pares. Ambas cualificacións gárdanse no libro de cualificacións.';
+Os alumnos obteñen dúas cualificacións nunha actividade de seminario, unha cualificación pola súa entrega e outra pola avaliación das entregas dos seus pares. Ámbalas cualificacións gárdanse no libro de cualificacións.';
 $string['modulename_link'] = 'mod/workshop/view';
 $string['modulenameplural'] = 'Obradoiros';
 $string['myassessments'] = 'As miñas avaliacións';

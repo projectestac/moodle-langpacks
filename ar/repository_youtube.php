@@ -25,5 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'فيديو يوتيوب (Youtube)';
+$string['apierror'] = '{$a}';
+$string['apikey'] = 'مفتاح واجهة برمجة التطبيق';
+$string['configplugin'] = 'تهيئة نوع مستودع يوتيوب';
+$string['information'] = 'Get a <a href="https://developers.google.com/youtube/v3/getting-started">مفتاح واجهة برمجة تطبيق Google</a> لموقع مودل الخاص بك.';
+$string['pluginname'] = 'فيديوهات يوتيوب';
+$string['privacy:metadata:repository_youtube'] = 'إن ملحق مستودع فيديوهات يوتيوب لا يخزن أي بيانات شخصية، ولكنه ينقل بيانات المستخدمين من مودل إلى نظام خارجي.';
+$string['privacy:metadata:repository_youtube:searchtext'] = 'استعلام البحث النصي للمستخدم في مستودع فيديوهات يوتيوب.';
 $string['search'] = 'ابحث عن فيديو';
+$string['sortby'] = 'إفرز حسب';
+$string['sortpublished'] = 'تاريخ النشر';
+$string['sortrating'] = 'التقييم';
+$string['sortrelevance'] = 'مدى الصلة';
+$string['sortviewcount'] = 'عدد المشاهدات';
+$string['youtube:view'] = 'استعمال يوتيوب في منتقي الملفات';

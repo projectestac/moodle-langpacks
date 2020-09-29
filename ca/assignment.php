@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['assignment:addinstance'] = 'Afegeix una tasca nova';
 $string['assignmentdisabled'] = 'L\'activitat antiga «Tasca 2.2» està inhabilitada.';
 $string['assignment:exportownsubmission'] = 'Exporta les trameses pròpies';
-$string['assignment:exportsubmission'] = 'Exporta tramesa';
+$string['assignment:exportsubmission'] = 'Exporta la tramesa';
 $string['assignment:grade'] = 'Qualificar tasca';
 $string['assignmentneedsupgrade'] = 'L\'activitat antiga «Tasca 2.2» ha estat inhabilitada. Demaneu a l\'administració del lloc que executi l\'eina d\'actualització de tasques per a totes les tasques antigues d\'aquest lloc.';
 $string['assignment:submit'] = 'Trametre tasca';

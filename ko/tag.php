@@ -74,6 +74,7 @@ $string['searchtags'] = '태그 검색';
 $string['seeallblogs'] = '"{$a}" 태그를 사용한 모든 블로그 보기';
 $string['select'] = '선택';
 $string['tag'] = '태그';
+$string['tagarea_course'] = '강좌';
 $string['tagdescription'] = '태그 설명';
 $string['tags'] = '태그';
 $string['tagsaredisabled'] = '태그를 사용할 수 없음';

@@ -64,6 +64,7 @@ $string['group:html_track'] = 'HTML trackファイル';
 $string['group:html_video'] = 'ブラウザでネイティブにサポートされるビデオオファイル';
 $string['group:image'] = 'イメージファイル';
 $string['group:media_source'] = 'ストリーミングメディア';
+$string['group:optimised_image'] = '最適化するイメージファイル (バッジ等)';
 $string['group:presentation'] = 'プレゼンテーションファイル';
 $string['group:sourcecode'] = 'ソースコード';
 $string['group:spreadsheet'] = 'スプレッドシートファイル';

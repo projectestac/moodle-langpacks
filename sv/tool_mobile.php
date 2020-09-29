@@ -31,6 +31,7 @@ $string['getmoodleonyourmobile'] = 'Hämta mobilappen';
 $string['mobileapp'] = 'Mobilapp';
 $string['mobileappconnected'] = 'Kopplat till mobilapp';
 $string['mobileappearance'] = 'Mobilvy';
+$string['mobileappenabled'] = 'Denna sajt är åtkomlig via mobilappen. <br /><a href="{$a}">Ladda ned appen här.</a>';
 $string['mobilecssurl'] = 'CSS';
 $string['mobilenotificationsdisabledwarning'] = 'Mobilnotifieringar är inte påslagna. De borde aktiveras i Inställningar för notifieringar.';
 $string['mobilesettings'] = 'Mobilinställningar';

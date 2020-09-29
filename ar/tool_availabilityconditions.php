@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['manageplugins'] = 'إدارة القيود';
-$string['pluginname'] = 'إدارة حالة التوفر';
-$string['privacy:metadata'] = 'لا يقوم المكون الإضافي Availability condition management  بتخزين أيّ بيانات شخصية.';
+$string['manageplugins'] = 'إدارة التقييدات';
+$string['pluginname'] = 'إدارة حالة التوافر';
+$string['privacy:metadata'] = 'إن ملحق إدارة حالة التوافر لا يخزن أي بيانات شخصية.';

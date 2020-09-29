@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filtername'] = 'الربط الآلي لسماء النشاط';
+$string['filtername'] = 'الربط التلقائي لأسماء النشاطات';
+$string['privacy:metadata'] = 'ملحق الربط التلقائي لأسماء النشاطات لا يخزن أي بيانات شخصية.';

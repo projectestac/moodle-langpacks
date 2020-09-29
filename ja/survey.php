@@ -277,7 +277,7 @@ $string['surveytype_help'] = '調査には以下の3つのタイプがありま�
 
 * 考え方と学び方に対する姿勢の調査 (ATTLS - Attitudes to Thinking and Learning Survey) - どの人が「関連認識者」 (学ぶことに楽しみを感じ、多くの場合、協力的であり愛想がよく、他の人とアイデアを構築することを望む傾向があります) または「分離認識者」 (学習に対して批判的および論争的なスタンスをとる傾向があります) であるか程度を測定します。
 * クリティカルインシデント調査
-* 構成主義オンライン学習環境調査 (COLLES - On-line Learning Environment Survey) - ワールドワイドウェブの相互作用的な性質が学生の動的学習の実践に興味を持たせる効果の程度を測定します。';
+* 構成主義オンライン学習環境調査 (COLLES - On-line Learning Environment Survey) - ワールドワイドウェブの双方向性が学生の動的学習の実践に興味を持たせる効果の程度を測定します。';
 $string['thanksforanswers'] = '{$a} さん、調査にご回答頂きましてありがとうございます';
 $string['time'] = '時間';
 $string['viewsurveyresponses'] = '{$a} 件の調査結果を表示する';

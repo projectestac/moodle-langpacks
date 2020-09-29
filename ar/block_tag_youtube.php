@@ -26,11 +26,28 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['anycategory'] = 'أي تصنيف';
+$string['apierror'] = 'لم يتم تعيين مفتاح واجهة برمجة التطبيق ليوتيوب. تواصل مع مشرفك.';
+$string['apikey'] = 'مفتاح واجهة برمجة التطبيق';
+$string['apikeyinfo'] = 'إحصل على <a href="https://developers.google.com/youtube/v3/getting-started">مفتاح واجهة برمجة التطبيق من Google </a> لموقع مودل الخاص بك.';
+$string['autosvehicles'] = 'السيارات والمركبات';
 $string['category'] = 'تصنيف';
+$string['comedy'] = 'كوميديا';
 $string['configtitle'] = 'عنوان';
 $string['education'] = 'تعليم';
 $string['entertainment'] = 'ترفية';
+$string['filmsanimation'] = 'الأفلام والرسوم المتحركة';
+$string['gadgetsgames'] = 'الأدوات والألعاب';
+$string['howtodiy'] = 'كيف واصنعها بنفسك';
+$string['includeonlyvideosfromplaylist'] = 'إقتصر على تضمين الفيديوات من قائمة التشغيل ذات المُعرَّف';
 $string['music'] = 'موسيقى';
+$string['newspolitics'] = 'الأخبار والسياسة';
 $string['numberofvideos'] = 'عدد الفيديو';
+$string['peopleblogs'] = 'الأشخاص والمدونات';
+$string['petsanimals'] = 'الحيوانات الأليفة وغيرها';
 $string['pluginname'] = 'يو تيوب';
+$string['privacy:metadata'] = 'كتلة يوتيوب تظهر فقط البيانات المخزونة في مواضع أخرى.';
+$string['requesterror'] = 'تعذر الحصول على البيانات من المخدم. تواصل مع مشرفك إذا تفاقمت المشكلة.';
+$string['scienceandtech'] = 'العلوم والتقنيات';
 $string['sports'] = 'رياضة';
+$string['tag_youtube:addinstance'] = 'إضافة كتلة جديدة من يوتيوب';
+$string['travel'] = 'السفر والأماكن';

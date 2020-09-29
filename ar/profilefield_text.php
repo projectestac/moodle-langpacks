@@ -25,4 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'أدخال النص';
+$string['pluginname'] = 'إدخال نصي';
+$string['privacy:metadata:profilefield_text:data'] = 'بيانات المستخدم لحقل الملف الشخصي بشكل إدخال نصي';
+$string['privacy:metadata:profilefield_text:dataformat'] = 'تنسيق الإدخال النصي لبيانات المستخدم لحقل الملف الشخصي';
+$string['privacy:metadata:profilefield_text:fieldid'] = 'مُعرَّف حقل الملف الشخصي';
+$string['privacy:metadata:profilefield_text:tableexplanation'] = 'بيانات الملف الشخصي الإضافية';
+$string['privacy:metadata:profilefield_text:userid'] = 'مُعرَّف المستخدم الذي تحفظ بياناته بواسطة إدخال النص لحقل الملف الشخصي';

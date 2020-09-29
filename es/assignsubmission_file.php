@@ -45,5 +45,6 @@ $string['maximumsubmissionsize'] = 'Tamaño máximo de la entrega';
 $string['maximumsubmissionsize_help'] = 'El archivo subido por el alumno no puede estar por encima de este tamaño.';
 $string['numfilesforlog'] = 'El número de archivos: {$a} archivos';
 $string['pluginname'] = 'Archivos enviados';
+$string['privacy:metadata:filepurpose'] = 'Los archivos cargados para la entrega de esta tarea';
 $string['siteuploadlimit'] = 'Límite de subida del sitio';
 $string['submissionfilearea'] = 'Archvios subidos en el el envío';

@@ -26,4 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['auth_manualdescription'] = 'يعطل هذا الاسلوب جميع الطرق التي تمكن المستخدمين من انشاء حساباتهم. جميع الحسابات لا بد ان تنشاء يدوياً من قبل المدير';
+$string['expiration'] = 'تمكين انتهاء صلاحية كلمة المرور';
+$string['expiration_desc'] = 'إسمح بانتهاء صلاحية كلمات المرور بعد فترة معينة.';
+$string['expiration_warning'] = 'عتبة الإشعار';
+$string['expiration_warning_desc'] = 'عدد الأيام قبل موعد انتهاء صلاحية كلمة المرور لإطلاق الإشعار.';
+$string['passwdexpire_settings'] = 'إعدادات انتهاء صلاحية كلمة المرور';
+$string['passwdexpiretime'] = 'مدة كلمة المرور';
+$string['passwdexpiretime_desc'] = 'المدة الزمنية التي تبقى فيها كلمة المرور نافذة.';
 $string['pluginname'] = 'الحسابات اليدوية';
+$string['privacy:metadata:preference:passwordupdatetime'] = 'تاريخ آخر تغيير في كلمة المرور.';

@@ -26,6 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['completionprogressdetails'] = 'تفاصيل تقدم عملية الإتمام';
+$string['completionstatus:addinstance'] = 'إضافة كتلة جديدة لحالة إكمال المساق';
 $string['criteriagroup'] = 'معايير مجموعة';
-$string['pluginname'] = 'وضع إتمام المقرر الدراسي';
+$string['firstofsecond'] = '{$a->first} من {$a->second}';
+$string['pluginname'] = 'حالة إكمال المساق';
+$string['privacy:metadata'] = 'إن كتلة حالة إكمال المساق تظهر فقط بيانات عن إكمال المساق ولا تخزن أي بيانات بحد ذاتها.';
 $string['requirement'] = 'متطلبات';
+$string['returntocourse'] = 'عودة إلى المساق';

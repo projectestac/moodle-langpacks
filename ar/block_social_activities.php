@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'الأنشطة الاجتماعية';
+$string['privacy:metadata'] = 'كتلة الأنشطة الاجتماعية تظهر فقط البيانات المخزونة في مواضع أخرى.';
+$string['social_activities:addinstance'] = 'إضافة كتلة جديدة للأنشطة الاجتماعية';

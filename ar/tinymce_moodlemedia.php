@@ -28,5 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['moodlemedia:browsemedia'] = 'ابحث عن أو حمل صوت، فيديو أو أبلت';
 $string['moodlemedia:desc'] = 'أدرج وسائط مودل';
 $string['nopreview'] = 'لا يمكن استعرض الوسائط.';
-$string['pluginname'] = 'أدرج الوسائط';
-$string['privacy:metadata'] = 'لا يخزن البرنامج المساعد TinyMCE Moodle Media أي بيانات شخصية.';
+$string['pluginname'] = 'إدراج الوسائط';
+$string['privacy:metadata'] = 'إن ملحق وسائط مودل في TinyMCE لا يخزن أي بيانات شخصية.';

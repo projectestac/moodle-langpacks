@@ -630,14 +630,15 @@ $string['emailcharset'] = 'Encodage des courriels';
 $string['emailconfirm'] = 'Confirmer votre enregistrement';
 $string['emailconfirmation'] = 'Bonjour {$a->firstname},
 
-La création d\'un compte pour « {$a->sitename} » a été demandée en utilisant votre adresse de courriel. Pour confirmer votre enregistrement, veuillez visiter la page web suivante :
+Un nouveau compte a été demandé sur « {$a->sitename} » avec votre adresse de courriel.
+
+Pour confirmer votre nouveau compte, veuillez vous rendre à cette adresse web :
 
 {$a->link}
 
-Dans la plupart des logiciels de courriel, cette adresse devrait apparaître comme un lien de couleur bleue qu\'il vous suffit de cliquer. Si cela ne fonctionne pas, copiez ce lien et collez-le dans la barre d\'adresse de votre navigateur web.
+Dans la plupart des programmes de courriel, ce lien devrait apparaître sous la forme d\'un lien bleu sur lequel vous pouvez simplement cliquer. Si cela ne fonctionne pas, veuillez couper et coller l\'adresse dans la barre d\'adresse en haut de la fenêtre de votre navigateur web.
 
-Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site,
-{$a->admin}';
+Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site, {$a->admin}';
 $string['emailconfirmationresend'] = 'Renvoyer le courriel de confirmation';
 $string['emailconfirmationsubject'] = '{$a} : confirmation de l\'ouverture du compte';
 $string['emailconfirmsent'] = '<p>Un message vous a été envoyé à l\'adresse de courriel <strong>{$a}</strong>.</p><p>Il contient les instructions pour terminer votre enregistrement.</p><p>Si vous rencontrez des difficultés, veuillez contacter l\'administrateur du site.</p>';

@@ -25,4 +25,15 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addmorechoiceblanks'] = 'Blankt för {no} fler svar';
+$string['answer'] = 'Svar';
+$string['blank'] = 'tom';
 $string['correctansweris'] = 'Det rätta svaret är: {$a}';
+$string['infinite'] = 'Obegränsat';
+$string['pleaseputananswerineachbox'] = 'Vänligen ange ett svar i varje textruta.';
+$string['pluginname'] = 'Dra och släpp i texten';
+$string['pluginnameadding'] = 'Lägger till dra och släpp i texten';
+$string['pluginnameediting'] = 'Redigerar dra och släpp i texten';
+$string['pluginname_help'] = 'Dra och släpp i text-frågor kräver att användaren drar ord eller fraser till rätt mellanrum i frågetexten. [[1]], [[2]], [[3]], ... används som platshållare i frågetexten, med de rätta svaren angivna som svarsalternativ 1, 2, 3, ... Svarsalternativen kan grupperas så att alla svar i en viss grupp färgas likadant som luckorna för dem i frågetexten. De svarsalternativ som markerats som obegränsade får användas i mer än ett mellanrum.';
+$string['pluginnamesummary'] = 'Saknade ord i frågetexten fylls i genom att dra och släppa svar på den tomma platsen.';
+$string['privacy:metadata'] = 'Dra och släpp-frågeplugintypen lagrar ingen personlig data.';

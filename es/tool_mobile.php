@@ -31,6 +31,7 @@ $string['customlangstrings'] = 'Cadenas personalizadas del idioma';
 $string['downloadcourse'] = 'Descargar curso';
 $string['getmoodleonyourmobile'] = 'Descargar la app para dispositivos móviles';
 $string['httpsrequired'] = 'HTTPS requerido';
+$string['invaliduserquotawarning'] = 'La cuota del usuario (userquota) está configurada a un número inválido. Debería de configurarse a un número válido (un valor entero) en las Configuraciones de seguridad del sitio.';
 $string['mobileapp'] = 'App para dispositivos móviles';
 $string['mobileappconnected'] = 'App para dispositivos móviles conectada.';
 $string['mobileappenabled'] = 'Este sitio tiene activado el acceso desde la app.<br /><a href="{$a}">Descargar la app</a>.';

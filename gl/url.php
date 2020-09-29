@@ -47,8 +47,14 @@ $string['displayselect_help'] = 'Este axuste, xunto co tipo de URL, e sempre que
 $string['externalurl'] = 'URL externo';
 $string['framesize'] = 'Altura do marco';
 $string['indicator:cognitivedepth'] = 'URL cognitivo';
+$string['indicator:cognitivedepthdef'] = 'URL cognitivo';
+$string['indicator:cognitivedepthdef_help'] = 'O participante acadou esta porcentaxe do compromiso cognitivo que ofrecen os recursos de URL durante este intervalo de análise (Niveis = Sen vista, Ver)';
+$string['indicator:cognitivedepthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Profundidade_cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está baseado na profundidade cognitiva acadada polo alumno nun recurso URL.';
 $string['indicator:socialbreadth'] = 'URL social';
+$string['indicator:socialbreadthdef'] = 'URL social';
+$string['indicator:socialbreadthdef_help'] = 'O participante acadou esta porcentaxe do compromiso social que ofrecen os recursos de URL durante este intervalo de análise (Niveis = Sen participación, Participante en solitario)';
+$string['indicator:socialbreadthdef_link'] = 'Indicadores_de_aprendizaxe_analítico#Amplitude_social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está baseado na amplitude social acadada polo alumno nun recurso URL.';
 $string['invalidstoredurl'] = 'Non é posíbel presentar este recurso, o URL non é correcto.';
 $string['invalidurl'] = 'O URL introducido non é correcto';

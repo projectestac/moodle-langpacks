@@ -27,5 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['email'] = 'Enviar notificacions per correu electrònic a';
 $string['emailonlyfromnoreplyaddress'] = 'Enviar sempre el correu electrònic des de l\'adreça no-reply?';
-$string['ifemailleftempty'] = 'Deixa buit per a enviar notificacions a {$a}';
+$string['ifemailleftempty'] = 'Deixa-ho buit per enviar notificacions a {$a}';
 $string['pluginname'] = 'Correu electrònic';

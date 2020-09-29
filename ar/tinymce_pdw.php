@@ -26,5 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pdw:desc'] = 'شريط الأدوات البديل';
-$string['pluginname'] = 'شريط الأدوات البديل';
-$string['privacy:metadata'] = 'البرنامج المساعد The TinyMCE Toolbar toggle لا يخزن أيّ بيانات شخصية.';
+$string['pluginname'] = 'تبديل شريط الأدوات';
+$string['privacy:metadata'] = 'إن ملحق تبديل شريط أدوات TinyMCE لا يخزن أيّ بيانات شخصية.';

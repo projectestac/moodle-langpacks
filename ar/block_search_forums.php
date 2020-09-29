@@ -26,4 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['advancedsearch'] = 'بحث متقدم';
-$string['pluginname'] = 'بحث في المنتديات';
+$string['pluginname'] = 'البحث في المنتديات';
+$string['privacy:metadata'] = 'كتلة البحث في المنتديات تظهر فقط البيانات المخزونة في مواضع أخرى.';
+$string['search_forums:addinstance'] = 'إضافة كتلة جديدة للبحث في المنتديات';

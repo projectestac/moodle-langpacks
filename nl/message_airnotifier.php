@@ -31,7 +31,7 @@ $string['airnotifier:managedevice'] = 'Beheer apparaten';
 $string['airnotifiermobileappname'] = 'Naam mobiele app';
 $string['airnotifierport'] = 'Airnotifier poort';
 $string['airnotifierurl'] = 'Airnotifier URL';
-$string['configairnotifieraccesskey'] = 'De toegangssleutel nodig om te verbinden met de Airnotifier server. Je kunt een sleutel bekomen door te klikken op de "Toeganssleutel aanvragen"-link onderaan (enkel geregistreerde sites) of door het maken van een account op de <a href="https://apps.moodle.com">Moodle Apps Portal</a>.';
+$string['configairnotifieraccesskey'] = 'De toegangssleutel nodig om te verbinden met de Airnotifier server. Je kunt een sleutel bekomen door te klikken op de "Toegangssleutel aanvragen"-link onderaan (enkel geregistreerde sites) of door het maken van een account op de <a href="https://apps.moodle.com">Moodle Apps Portal</a>.';
 $string['configairnotifierappname'] = 'De app name identifier in Airnotifier';
 $string['configairnotifiermobileappname'] = 'De unieke identificatie (gewoonlijk iets als com.moodle.moodlemobile) voor de mobiele app';
 $string['configairnotifierport'] = 'De te gebruiken poort om te verbinden met de Airnotifier-server';

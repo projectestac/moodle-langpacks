@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addmoredropzones'] = '添加 {no} 个空白拖放区域';
 $string['addmoreimages'] = '添加 {no} 个可拖放项目';
 $string['bgimage'] = '背景图片';
+$string['correctansweris'] = '正确答案是:{$a}';
 $string['draggableimage'] = '可拖放图片';
 $string['draggableitem'] = '可拖放项目';
 $string['draggableitemheader'] = '可拖放项目 {$a}';

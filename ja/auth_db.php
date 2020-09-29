@@ -71,6 +71,7 @@ $string['auth_dbtableempty'] = '外部テーブルが空です。';
 $string['auth_dbtable_key'] = 'テーブル';
 $string['auth_dbtype'] = 'データベースタイプです (詳細はドキュメンテーション<a href="http://adodb.org/dokuwiki/doku.php" target="_blank">ADOdb - PHPのためのデータベース抽象化レイヤー</a>をご覧ください)。';
 $string['auth_dbtype_key'] = 'データベース';
+$string['auth_dbupdateerror'] = '外部データベースの更新中にエラーが発生しました。';
 $string['auth_dbupdateusers'] = 'ユーザを更新する';
 $string['auth_dbupdateusers_description'] = '新しいユーザを追加および既存のユーザを更新します。';
 $string['auth_dbupdatinguser'] = '更新ユーザ {$a->name} id {$a->id}';

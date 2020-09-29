@@ -57,6 +57,6 @@ $string['phpvaroff'] = 'PHP zerbitzariaren aldagaiak \'{$a->name}\'  izan behar 
 $string['phpvaron'] = 'PHP zerbitzariaren aldagaia \'{$a->name}\'  ez da On jarri - {$a->link}';
 $string['sessionmissing'] = '{$a} objektua falta da saio honetatik';
 $string['sqlrelyonobsoletetable'] = 'SQL hau zaharkitutako taul(et)an oinarrituta dago: {$a}! Programatzaile batek zure kodea konpondu behar du.';
-$string['stacktrace'] = 'Stack trace';
+$string['stacktrace'] = 'Pilaren arrastoa';
 $string['withoutversion'] = 'version.php fitxategi nagusia falta da, ezin da bertan idatzi edo apurtuta dago.';
 $string['xmlizeunavailable'] = 'xmlize funtzioak ez daude eskuragarri';

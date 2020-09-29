@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addafter'] = '章を追加する';
-$string['addafterchapter'] = '新しい章を「 $a->title} 」の後に追加する';
+$string['addafterchapter'] = '新しい章を「 {$a->title} 」の後に追加する';
 $string['book:addinstance'] = '新しいブックを追加する';
 $string['book:edit'] = 'ブックの章を編集する';
 $string['book:read'] = 'ブックを表示する';

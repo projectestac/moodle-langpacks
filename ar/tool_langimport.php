@@ -25,36 +25,30 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['downloadnotavailable'] = 'غير قادر على الاتصال بخادم التنزيل. لم يمكن تثبيت حزم اللغات أو تحديثها تلقائيًا.
-يرجى تنزيل ملف ZIP المناسب من {$a->src} و فك ضغطها يدويًا إلى دليل البيانات الخاص بك{$a->dest}';
-$string['install'] = 'ثبت حزمة اللغة المختارة';
-$string['installedlangs'] = 'ثبت حزم اللغات المختارة';
+$string['downloadnotavailable'] = 'تعذر الاتصال بمخدم التنزيل. ليس من الممكن تنصيب حزم اللغات أو تحديثها تلقائياً. يرجى تنزيل ملف ZIP المناسبة من <a href="{$a->src}">{$a->src}</a> وفك ضغطها يدوياً في مجلد البيانات الخاص بك <code>{$a->dest}</code>';
+$string['install'] = 'تنصيب حزم اللغة المختارة';
+$string['installedlangs'] = 'حزم اللغات المنصبة';
 $string['langimport'] = 'أداة استيراد اللغة';
-$string['langimportdisabled'] = 'تم تعطيل ميزت إستراد اللغة. يجب عليك تحديث حزمة لغتك عن طريق مستوى ملف النظام';
-$string['langpackinstalled'] = 'تم تثبيت حزمة اللغة {$a} بنجاح';
+$string['langimportdisabled'] = 'تم تعطيل ميزة استيراد اللغة. ينبغي عليك تحديث حزم لغاتك يدوياً على مستوى نظام الملفات. لا تنسَ تطهير مخبوءات النصوص بعد قيامك بذلك.';
+$string['langpackinstalled'] = 'تم تنصيب حزمة اللغة \'{$a}\' بنجاح';
 $string['langpackinstalledevent'] = 'حزمة اللغة المثبتة';
-$string['langpacknotremoved'] = 'حدث خطأ؛
-حزمة اللغة \'{$a}\' لم يتم إلغاء تثبيتها بالكامل.
-يرجى التحقق من أذونات الملف.';
-$string['langpackremoved'] = 'تم حذف حزمة اللغة';
+$string['langpacknotremoved'] = 'وقع خطأ؛ حزمة اللغة \'{$a}\' لم يتم إلغاء تنصيبها بالكامل. يرجى التحقق من صلاحيات الملفات.';
+$string['langpackremoved'] = 'تم إلغاء تنصيب حزمة اللغة \'{$a}\\';
 $string['langpackremovedevent'] = 'تم إلغاء تثبيت حزمة اللغة';
 $string['langpackupdated'] = 'تم تحديث حزمة اللغة \'{$a}\' بنجاح';
-$string['langpackupdatedevent'] = 'حزمة اللغة المحدثة';
-$string['langpackupdateskipped'] = 'تم تخطي تحديث حزمة اللغة {$a}';
-$string['langpackuptodate'] = 'حزمة اللغة {$a}  محدّثة حتى تاريخه';
-$string['langunsupported'] = 'لا يبدو أن خادمك يدعم اللغات التالية بشكل كامل:
-
-{$a->missinglocales}
-بدلاً من ذلك ، سيتم استخدام الإعدادات المحلية العامة ({$a->globallocale}) لتنسيق سلاسل معينة مثل التواريخ أو الأرقام.';
+$string['langpackupdatedevent'] = 'تم تحديث حزمة اللغة';
+$string['langpackupdateskipped'] = 'تم تخطي تحديث حزمة اللغة \'{$a}\\';
+$string['langpackuptodate'] = 'حزمة اللغة \'{$a}\' محدّثة إلى آخر إصدار';
+$string['langunsupported'] = 'لا يبدو أن مخدمك يدعم اللغات التالية بشكل كامل:</p><ul>{$a->missinglocales}</ul><p>بدلاً من ذلك، سيتم استعمال اللغة العالمية ({$a->globallocale}) لتنسيق سلاسل معينة مثل التواريخ أو الأرقام.</p>';
 $string['langupdatecomplete'] = 'تم تحديث حزمة اللغة';
 $string['missingcfglangotherroot'] = 'قيمة تكوين مفقودة  $CFG->langotherroot';
 $string['missinglangparent'] = 'اللغة الأم مفقودة <em>{$a->parent}</em> من <em>{$a->lang}</em>.';
 $string['noenglishuninstall'] = 'لا يمكن إلغاء تثبيت حزمة اللغة الإنجليزية.';
-$string['nolangupdateneeded'] = 'كل حزم اللغة الخاصة بك محدثة ولا تحتاج أي تحديث.';
-$string['pluginname'] = 'حزم اللغة';
-$string['privacy:metadata'] = 'لا يخزن المكون الإضافي Language packs أيّ بيانات شخصية.';
-$string['purgestringcaches'] = 'تطهير الذاكرة المؤقتة من الجُمل';
-$string['selectlangs'] = 'حدد اللغات لإلغاء التثبيت';
-$string['uninstall'] = 'حذف حزمة اللغة المختارة';
-$string['uninstallconfirm'] = 'أنت على وشك القيام بحذف حزمة اللغة {$a}، هل أنت متأكد؟';
-$string['updatelangs'] = 'حدث جميع حزم اللغة المحليه';
+$string['nolangupdateneeded'] = 'كل حزم اللغات الخاصة بك محدثة ولا تحتاج أي تحديث';
+$string['pluginname'] = 'حزم اللغات';
+$string['privacy:metadata'] = 'إن ملحق حزم اللغات لا يخزن أي بيانات شخصية.';
+$string['purgestringcaches'] = 'تطهير مخبوءات الجُمل';
+$string['selectlangs'] = 'حدد اللغات المزمع إلغاء تنصيبها';
+$string['uninstall'] = 'إلغاء تنصيب حزم اللغات المحددة';
+$string['uninstallconfirm'] = 'أنت على وشك إلغاء تنصيب حزم اللغات هذه: <strong>{$a}</strong>. هل أنت متأكد؟';
+$string['updatelangs'] = 'تحديث كل حزم اللغات المنصبة';

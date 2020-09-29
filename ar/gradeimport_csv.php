@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['csv:view'] = 'استورد درجات من CSV';
+$string['csv:view'] = 'استيراد العلامات من CSV';
 $string['pluginname'] = 'ملف CSV';
 $string['privacy:metadata'] = 'لا يخزن المكون  الإضافي   import grades from CSV  أيّ بيانات شخصية.';

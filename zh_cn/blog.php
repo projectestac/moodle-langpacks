@@ -114,7 +114,7 @@ $string['maxexternalblogsperuser'] = '每用户最多可有几个外部博客';
 $string['myprofileuserblogs'] = '查看所有博客条目';
 $string['name'] = '博客名';
 $string['name_help'] = '输入您的外部博客的名字。（如果不提供名字，会直接使用外部博客的标题）。';
-$string['noentriesyet'] = '这里没有可见条目';
+$string['noentriesyet'] = '此处没有可见条目';
 $string['noguestpost'] = '访客不能发布博客';
 $string['nopermissionstodeleteentry'] = '您没有删除此博文的权限';
 $string['norighttodeletetag'] = '您不能删除这个分类- {$a}';
@@ -151,8 +151,8 @@ $string['publishto_help'] = '有三个选择：
 * 自己（草稿）——只有您和管理员能查看此博客
 * 网站里的所有人——所有在此网站注册的人都能阅读此博客
 * 世界上的任何人——任何人，包括访客，都能阅读此博客';
-$string['publishtonoone'] = '自己(草稿)';
-$string['publishtosite'] = '网站上的任何人';
+$string['publishtonoone'] = '您自己(草稿)';
+$string['publishtosite'] = '站点上的任何人';
 $string['publishtoworld'] = '世界上的任何人';
 $string['readfirst'] = '请先读这个';
 $string['relatedblogentries'] = '相关博客';

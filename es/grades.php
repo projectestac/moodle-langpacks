@@ -519,6 +519,7 @@ $string['modgrade'] = 'Calificación';
 $string['modgradecantchangegradetype'] = 'No puedes cambiar el tipo, ya que hay calificaciones para este elemento.';
 $string['modgradecantchangegradetypemsg'] = 'Algunas calificaciones ya se han adjudicado, por lo que el tipo de calificación no se puede cambiar. Si desea cambiar la calificación máxima, primero debe elegir si desea o no recalcular el valor de las calificaciones existentes.';
 $string['modgradecantchangegradetyporscalemsg'] = 'Algunas calificaciones han sido premiadas, de modo que el tipo y la escala no pueden ser cambiados.';
+$string['modgradecantchangeratingmaxgrade'] = 'No se puede modificar la máxima calificación cuando ya se ha calificado una actividad que utiliza valoraciones.';
 $string['modgradecantchangescale'] = 'No puedes cambiar la escala, ya que hay calificaciones existentes para este elemento.';
 $string['modgradecategorycantchangegradetypemsg'] = 'Esta categoría tiene asociados items de calificación que han sido sobreescritos. Por lo tanto algunas calificaciones ya han sido asignadas, por lo que el tipo de calificación no puede ser variado. Si desea cambiar el valor máximo de la calificación, primero debe elegir entre recalcular o no las calificaciones existentes.';
 $string['modgradedonotmodify'] = 'No modificar calificaciones existentes.';

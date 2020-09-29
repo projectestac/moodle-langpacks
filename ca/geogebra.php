@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'geogebra', language 'ca', branch 'MOODLE_36_STABLE'
+ * Strings for component 'geogebra', language 'ca', branch 'MOODLE_38_STABLE'
  *
  * @package   geogebra
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -66,7 +66,7 @@ $string['geogebrafile_help'] = 'El fitxer .GGB que conté l\'activitat GeoGebra.
 $string['geogebra:grade'] = 'Avalua GeoGebra';
 $string['geogebra:submit'] = 'Envia GeoGebra';
 $string['geogebraurl'] = 'URL';
-$string['geogebraurl_help'] = 'Aquest paràmetre permet especificar l\'URL de l\'activitat GeoGebra en lloc de seleccionar-la mitjançant el selector de fitxers.';
+$string['geogebraurl_help'] = 'Localitzeu la construcció a <a href="https://www.geogebra.org/" target="_blank">geogebra.org</a>, aneu a <strong>Detalls</strong>, feu clic amb el botó dret del ratolí al botó <strong>Descarrega</strong> i seleccioneu <strong>Copia l\'adreça de l\'enllaç</strong>. Finalment, situeu-vos al camp URL i enganxeu-hi l\'enllaç amb <strong>Ctrl+V</strong>.<br/>Per a un exemple pas a pas d\'aquesta operació, vegeu: <a href="https://youtu.be/qbp-RuM4NpU" target="_blank">https://youtu.be/qbp-RuM4NpU</a>.';
 $string['geogebra:view'] = 'Visualitza GeoGebra';
 $string['grade'] = 'Qualificació';
 $string['gradeit'] = 'Qualificació';

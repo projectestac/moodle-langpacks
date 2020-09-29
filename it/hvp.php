@@ -115,12 +115,28 @@ $string['download'] = 'Scarica';
 $string['downloadfailed'] = 'Scaricamento della libreria richiesta non riuscito';
 $string['downloadtitle'] = 'Scarica questo contenuto come file H5P.';
 $string['editor'] = 'Editor';
+$string['emailconfirmbody'] = 'Gentile {$a->username},
+
+grazie per aver inviato le risposte dell\'attività \'{$a->hvpname}\' presente nel corso \'{$a->coursename}\'.
+
+Questo messaggio conferma che le risposte sono state salvate.
+
+Puoi accedere all\'attività H5P in argomento visualizzando la pagina {$a->hvpurl}.';
+$string['emailconfirmsmall'] = 'Grazie per aver inviato le risposte dell\'attività \'{$a->hvpname}\\';
+$string['emailconfirmsubject'] = 'Conferma di invio: {$a->hvpname}';
+$string['emailnotifybody'] = 'Gentile {$a->username},
+
+{$a->studentname} ha completato l\'attività \'{$a->hvpname}\' ({$a->hvpurl}) presente nel corso \'{$a->coursename}\'.
+
+E\' possibile rivedere il tentativo andando alla pagina {$a->hvpreporturl}.';
+$string['emailnotifysmall'] = '{$a->studentname} ha completato l\'attività {$a->hvpname}. Per visualizzare: {$a->hvpreporturl}';
+$string['emailnotifysubject'] = '{$a->studentname} ha completato l\'attività {$a->hvpname}';
 $string['embed'] = 'Incorpora';
 $string['embedloginfailed'] = 'Non hai accesso a questo contenuto. Prova ad autenticarti.';
 $string['embedtitle'] = 'Visualizza il codice incorporato per questo contenuto.';
 $string['empty'] = 'Nessun risultato disponibile';
 $string['enableabout'] = 'Pulsante informazioni su H5P';
-$string['enablecopyright'] = 'Pulsante  copyright';
+$string['enablecopyright'] = 'Pulsante copyright';
 $string['enabledlrscontenttypes'] = 'Abilita i tipi di contenuto dipendenti da LRS';
 $string['enabledlrscontenttypes_help'] = 'Rende possibile l\'utilizzo di tipi di contenuto che si basano su un Learning Record Store per funzionare correttamente, come il tipo di contenuto di Questionnaire.';
 $string['enabledownload'] = 'Consenti download';
@@ -147,6 +163,8 @@ $string['hubisdisabled'] = 'L\'Hub è disabilitato. Puoi abilitarlo nuovamente n
 $string['hubisdisableduploadlibraries'] = 'L\'hub H5P rimane disabilitato fino a quando questo problema sarà stato risolto. Puoi comunque caricare delle librerie dalla pagina "Librerie H5P".';
 $string['hubsettingsheader'] = 'Tipi di contenuto';
 $string['hvp:addinstance'] = 'Aggiungere nuove attività H5P';
+$string['hvp:emailconfirmsubmission'] = 'Ricevere un messaggio di conferma dopo l\'invio';
+$string['hvp:emailnotifysubmission'] = 'Ricevere un messaggio di notifica quanto un tentativo è stato inviato';
 $string['hvp:getcachedassets'] = 'Visualizzare attività H5P';
 $string['hvp:getembedcode'] = 'Visualizzare il codice H5P incorporato quando è impostata l\'opzione \'controllato da autorizzazione\'';
 $string['hvp:getexport'] = 'Scaricare il file .h5p quando è impostata l\'opzione \'Gestito da autorizzazione\'';
@@ -221,6 +239,8 @@ $string['maximumgradeerror'] = 'Inserisci un numero intero positivo valido da ut
 $string['maxpostsizetoosmall'] = 'La dimensione massima del post è limitata dalla configurazione del PHP. Con la configurazione attuale non sarà possibile caricare file più grandi di {$a->%number} MB. Potrebbe diventare un problema quando si caricano H5P, immagini e video. Si consiglia di aumentare tale valore oltre i 5MB';
 $string['maxscore'] = 'Punteggio massimo';
 $string['maxuploadsizetoosmall'] = 'La dimensione massima di caricamento de dei file è limitata dalla configurazione del PHP. Con la configurazione attuale non sarà possibile caricare file più grandi di {$a->%number} MB. Potrebbe diventare un problema quando si caricano H5P, immagini e video. Si consiglia di aumentare tale valore oltre i 5MB';
+$string['messageprovider:confirmation'] = 'Conferma dei propri invii di risposte H5P';
+$string['messageprovider:submission'] = 'Notifica degli invii di risposte H5P';
 $string['missingcontentfolder'] = 'Manca una cartella di contenuto valida';
 $string['missingcontentuserdata'] = 'Errore: impossibile trovare dati dell\'utente';
 $string['missingcoreversion'] = 'Il sistema non è risucito ad installare il componente <em>{$a->%component}</em> perché è richiesta una versione più aggiornata del plugin H5P. Il sito attualmente sta utilizzando la versione  {$a->%current}, mentre la versione richiesta è {$a->%required} o superiore. Si consiglia di eseguire un aggiornamento e riprovare in seguito.';

@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['news_items:addinstance'] = 'Afegir un bloc nou d\'últimes noticíes';
-$string['news_items:myaddinstance'] = 'Afegeix un bloc nou d\'últimes notícies a la pàgina del Tauler';
+$string['news_items:addinstance'] = 'Afegeix un nou bloc de darrers anuncis';
+$string['news_items:myaddinstance'] = 'Afegeix un nou bloc de darrers anuncis a la pàgina del Tauler';
 $string['pluginname'] = 'Darrers anuncis';
+$string['privacy:metadata'] = 'El bloc Darrers anuncis només mostra les dades emmagatzemades al fòrum i no emmagatzema les dades en si.';

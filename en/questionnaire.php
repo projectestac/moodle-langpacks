@@ -86,10 +86,9 @@ $string['checkbreaksremoved'] = 'Removed {$a} extra Page break(s).';
 $string['checknotstarted'] = 'Select not started';
 $string['checkstarted'] = 'Select started';
 $string['clicktoswitch'] = '(click to switch)';
+$string['closebeforeopen'] = 'You have specified a close date before the open date.';
 $string['closed'] = 'The questionnaire was closed on {$a}. Thanks.';
-$string['closedate'] = 'Use Close Date';
-$string['closedate_help'] = 'You can specify a date to close the questionnaire here. Check the check box, and select the date and time you want.
- Users will not be able to fill out the questionnaire after that date. If this is not selected, it will never be closed.';
+$string['closedate'] = 'Allow responses until';
 $string['closeson'] = 'Questionnaire closes on {$a}';
 $string['completionsubmit'] = 'Student must submit this questionnaire to complete it';
 $string['condition'] = 'Condition';
@@ -353,9 +352,8 @@ $string['numberscaleitems_help'] = 'Nb of scale items is the *number of items* t
 $string['numeric'] = 'Numeric';
 $string['numeric_help'] = 'Use this question type if you expect the response to be a correctly formatted number.';
 $string['of'] = 'of';
-$string['opendate'] = 'Use Open Date';
-$string['opendate_help'] = 'You can specify a date to open the questionnaire here. Check the check box, and select the date and time you want.
- Users will not be able to fill out the questionnaire before that date. If this is not selected, it will be open immediately.';
+$string['openafterclose'] = 'You have specified an open date after the close date';
+$string['opendate'] = 'Allow responses from';
 $string['option'] = 'option {$a}';
 $string['optional'] = 'Optional - At least one of this dependencies has to be fulfilled.';
 $string['optionalname'] = 'Question Name';
@@ -443,6 +441,10 @@ $string['privacy:metadata:questionnaire_resp_single:choice_id'] = 'The ID of the
 $string['privacy:metadata:questionnaire_resp_single:question_id'] = 'The ID of the question record for this response.';
 $string['privacy:metadata:questionnaire_resp_single:response_id'] = 'The ID of the response record for this response.';
 $string['private'] = 'Private';
+$string['progressbar'] = 'Show progress bar';
+$string['progressbar_info'] = 'Questionnaire {$a} complete.';
+$string['progresshelp'] = 'Progress Bar';
+$string['progresshelp_help'] = 'Move on to the next page to fill up the progress bar';
 $string['public'] = 'Public';
 $string['publiccopy'] = 'Copy:';
 $string['publicoriginal'] = 'Original:';
@@ -566,7 +568,7 @@ $string['show_nonrespondents'] = 'Non-respondents';
 $string['started'] = 'started';
 $string['strfdate'] = '%d/%m/%Y';
 $string['strfdateformatcsv'] = 'd/m/Y H:i:s';
-$string['strictdateformatting'] = 'Use the year-month-day format, e.g. for March 4th, 1945:&nbsp; <strong>1945-03-04</strong>';
+$string['strictdateformatting'] = 'Enter the date using the date picker below, or by using the \'YYYY-MM-DD\' format.';
 $string['subject'] = 'Subject';
 $string['submissionnotificationhtmlanon'] = 'There is a new <a href="{$a->submissionurl}">submission</a> to the "{$a->name}" questionnaire.';
 $string['submissionnotificationhtmluser'] = '<a href="{$a->profileurl}">{$a->username}</a> has a new <a href="{$a->submissionurl}">submission</a> to the "{$a->name}" questionnaire in the course "{$a->coursename}".';

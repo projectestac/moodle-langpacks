@@ -37,5 +37,6 @@ $string['pluginnameadding'] = 'Lägger till en fråga av typen Sant/Falskt';
 $string['pluginnameediting'] = 'Redigerar en sant/falskt-fråga';
 $string['pluginname_help'] = 'Som svar på en fråga (som kan innehålla en bild) väljer den som svarar från sant eller falskt.';
 $string['pluginnamesummary'] = 'En enkel form av flervalsfråga med bara två val \'Sant\' och \'Falskt\'.';
+$string['privacy:metadata'] = 'Pluginmodulen för Sant/Falskt-frågetypen lagrar ingen personinformation.';
 $string['selectone'] = 'Välj en:';
 $string['true'] = 'Sant';

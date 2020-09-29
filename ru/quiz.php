@@ -309,9 +309,9 @@ $string['emailconfirmsmall'] = 'Спасибо за отправку ответ�
 $string['emailconfirmsubject'] = 'Подтверждение выполнения: {$a->quizname}';
 $string['emailnotifybody'] = 'Уважаемый(ая) {$a->username}.
 
-{$a->studentname} выполнил(а) «{$a->quizname}» ({$a->quizurl}) в курсе «{$a->coursename}»
+{$a->studentname} выполнил(а) «{$a->quizname}» ({$a->quizurl}) в курсе «{$a->coursename}».
 
-Вы можете ознакомиться с его ответами: {$a->quizreviewurl}.';
+Вы можете ознакомиться с ответами: {$a->quizreviewurl}.';
 $string['emailnotifysmall'] = '{$a->studentname} выполнил(а) тест {$a->quizname}. Подробности по ссылке {$a->quizreviewurl}';
 $string['emailnotifysubject'] = '{$a->studentname} завершил(а) {$a->quizname}';
 $string['emailoverduebody'] = 'Уважаемый(ая) {$a->studentname}.

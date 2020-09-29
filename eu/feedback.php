@@ -193,6 +193,7 @@ $string['multichoice_values'] = 'Aukera anitzen balioak';
 $string['multiplesubmit'] = 'Baimendu bidalketa anitzak';
 $string['multiplesubmit_help'] = 'Inkesta anonimoak gaituz gero, erabiltzaileek erantzunak nahi beste aldiz bidal ditzakete.';
 $string['name'] = 'Izena';
+$string['nameandlabelformat'] = '({$a->label}) {$a->name}';
 $string['name_required'] = 'Izena ezinbestekoa da';
 $string['next_page'] = 'Hurrengo orria';
 $string['no_handler'] = 'Ez dago honentzako kudeatzalerik';

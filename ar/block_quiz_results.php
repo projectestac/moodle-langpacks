@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'نتائج الأختبار';
+$string['pluginname'] = 'نتائج الاختبار (مُعطلة)';
+$string['privacy:metadata'] = 'كتلة نتائج الاختبار تظهر فقط بيانات مخزونة في مواضع أخرى.';
 $string['quiz_results:addinstance'] = 'إضافة كتلة نتائج اختبار جديدة';

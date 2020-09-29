@@ -64,6 +64,7 @@ $string['group:html_track'] = 'HTML pista fitxategia';
 $string['group:html_video'] = 'Nabigatzaileek berez onartzen dituzten bideo-fitxategiak';
 $string['group:image'] = 'Irudi-fitxategiak';
 $string['group:media_source'] = 'Streaming bidezko media';
+$string['group:optimised_image'] = 'Optimizatu beharreko irudiak, esaterako dominak';
 $string['group:presentation'] = 'Aurkezpen-fitxategiak';
 $string['group:sourcecode'] = 'Iturburu kodea';
 $string['group:spreadsheet'] = 'Kalkulu-orri fitxategiak';

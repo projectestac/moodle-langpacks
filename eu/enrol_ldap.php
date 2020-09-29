@@ -31,7 +31,7 @@ $string['autocreate'] = '<p>Ikastaroak era automatikoan sor daitezke oraindik er
 $string['autocreate_key'] = 'Sortu automatikoki';
 $string['autocreation_settings'] = 'Ikastaroak era automatikoan sortzeko ezarpenak';
 $string['autoupdate_settings'] = 'Ikastaroak era automatikoan eguneratzeko ezarpenak';
-$string['autoupdate_settings_desc'] = '<p>Aukeratu \'Sinkronizatu LDAP matrikulazioak\' programatutako zeregina exekutatzean eguneratuko diren eremuak.</p><p>Gutxienez eremu bat aukeratzen bada eguneratzea egingo da.</p>';
+$string['autoupdate_settings_desc'] = '<p>Aukeratu \'Sinkronizatu LDAP matrikulazioak\' programatutako ataza exekutatzean eguneratuko diren eremuak.</p><p>Gutxienez eremu bat aukeratzen bada eguneratzea egingo da.</p>';
 $string['bind_dn'] = 'Erabiltzaileak bilatzeko \'bind-user\' bat erabili nahi baduzu, zehaztu hemen. Horrelako zerbait \'cn=ldapuser,ou=public,o=org\'';
 $string['bind_dn_key'] = '\'Bind-user\'aren izen gorena (distinguished name)';
 $string['bind_pw'] = '\'Bind-user\'aren pasahitza';
@@ -115,7 +115,7 @@ $string['role_mapping_key'] = 'Lotu rolak LDAPetik';
 $string['roles'] = 'Rolen lotura';
 $string['server_settings'] = 'LDAP zerbitzariaren ezarpenak';
 $string['synccourserole'] = '== \'{$a->idnumber}\' ikastaroaren \'{$a->role_shortname}\' rola sinkronizatzen';
-$string['syncenrolmentstask'] = 'Sinkronizatu LDAP matrikulazioak zeregina';
+$string['syncenrolmentstask'] = 'Sinkronizatu LDAP matrikulazioak ataza';
 $string['template'] = 'Aukerakoa: era automatikoan sortutako ikastaroak ikastaro-txantiloi batetik kopia ditzakete beren zehaztasunak.';
 $string['template_key'] = 'Txantiloia';
 $string['unassignrole'] = '\'{$a->user_username}\' erabiltzaileari \'{$a->role_shortname}\' rola kentzen \'{$a->course_shortname}\' ikastarotik (id {$a->course_id})';

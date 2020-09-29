@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['confirmstart'] = '您的尝试将有一个{$a}的时间限制。当您开始时，计时器将开始倒数，不能暂停。您必须在它到期之前完成尝试。您确定现在开始吗?';
+$string['confirmstart'] = '您的试答限时{$a}。当您开始时，计时器将开始倒计时，且不能暂停。您必须在它结束之前结束试答。您确定现在开始吗?';
 $string['confirmstartheader'] = '时间限制';
 $string['pluginname'] = '使用倒计时的测验的访问规则';
 $string['privacy:metadata'] = '时间限制访问规则插件不会保存任何个人信息。';

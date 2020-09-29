@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['moodlenolink:desc'] = 'امنع الربط الآلي';
-$string['pluginname'] = 'امنع الربط الآلي';
+$string['moodlenolink:desc'] = 'مانع الارتباط التلقائي';
+$string['pluginname'] = 'مانع الارتباط التلقائي';
 $string['privacy:metadata'] = 'لا يقوم المكون الإضافي The TinyMCE Automatic link prevention بتخزين أيّ بيانات شخصية.';

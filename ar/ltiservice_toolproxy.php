@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['pluginname'] = 'أداة وكيل الخدمة';
 $string['privacy:metadata'] = 'لا يخزن المكون الإضافي Tool Proxy Service أي بيانات شخصية.';

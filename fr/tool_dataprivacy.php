@@ -141,6 +141,7 @@ $string['emailsalutation'] = 'Cher {$a},';
 $string['errorcannotrequestdeleteforother'] = 'Vous n\'avez pas les permissions requises pour créer une demande de suppression de données pour cet utilisateur.';
 $string['errorcannotrequestdeleteforself'] = 'Vous n\'avez pas les permissions requises pour créer une demande de suppression de données pour vous-même.';
 $string['errorcontexthasunexpiredchildren'] = 'Le contexte « {$a} » comporte des sous-contextes qui ne sont pas encore échus. Aucun contexte n\'a été confirmé pour suppression.';
+$string['errorinvalidrequestcomments'] = 'Le champ commentaires ne peut contenir que du texte pur.';
 $string['errorinvalidrequestcreationmethod'] = 'Méthode de création de demande non valide !';
 $string['errorinvalidrequeststatus'] = 'Statut de la demande non valide !';
 $string['errorinvalidrequesttype'] = 'Type de demande non valide !';

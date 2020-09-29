@@ -186,6 +186,7 @@ $string['multichoice_values'] = 'Valori da scegliere';
 $string['multiplesubmit'] = 'Compilazioni multiple';
 $string['multiplesubmit_help'] = 'Nei feedback anonimi gli utenti potranno compilare il feedback quante volte vorranno.';
 $string['name'] = 'Titolo';
+$string['nameandlabelformat'] = '({$a->label}) {$a->name}';
 $string['name_required'] = 'Il titolo è obbligatorio';
 $string['next_page'] = 'Pagina successiva';
 $string['no_handler'] = 'Non esiste un "action handler" per';

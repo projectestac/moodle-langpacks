@@ -25,6 +25,18 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['configtimetosee'] = 'عدد الدقائق التي تحدد فترة الخمول والتي بعدها لا يُعتبر المستخدم متصلاً بالموقع';
+$string['nouser'] = 'لا مستخدمين متصلين';
+$string['numuser'] = '{$a} مستخدم متصل';
+$string['numusers'] = '{$a} مستخدمين متصلين';
+$string['online_status:hide'] = 'إخفاء حالة اتصالي عن باقي المستخدمين';
+$string['onlinestatushiding'] = 'إخفاء حالة الاتصال';
+$string['onlinestatushiding_desc'] = 'عند تمكينه، سيكون للمستخدمين خيار إخفاء حالة اتصالهم عن باقي المستخدمين.';
+$string['online_status:show'] = 'أظهر حالة اتصالي لباقي المستخدمين';
+$string['online_users:addinstance'] = 'إضافة كتلة جديدة للمستخدمين المتصلين';
+$string['online_users:myaddinstance'] = 'إضافة كتلة جديدة للمستخدمين المتصلين إلى دفة القيادة';
 $string['online_users:viewlist'] = 'معاينة قائمة المستخدمين الموجدين على الموقع الآن';
 $string['periodnminutes'] = 'الدقائق الاخيرة {$a} ';
 $string['pluginname'] = 'المستخدمين الموجدين على الموقع الآن';
+$string['privacy:metadata:preference:uservisibility'] = 'حالة الاتصال مرئية للمستخدمين الآخرين في كتلة المستخدمين المتصلين';
+$string['timetosee'] = 'أزل بعد فترة الخمول (بالدقائق)';

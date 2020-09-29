@@ -302,7 +302,7 @@ $string['error:invalidexpireperiod'] = 'La période avant échéance ne peut pas
 $string['error:invalidparambadge'] = 'Le badge n\'existe pas.';
 $string['error:invalidparamcohort'] = 'La cohorte n\'existe pas.';
 $string['error:noactivities'] = 'Il n\'y a pas d\'activité avec des critères d\'achèvement dans ce cours.';
-$string['error:nobadges'] = 'Il n\'y a pas de badge de cours ou de site accessible pour être ajouté comme critère.';
+$string['error:nobadges'] = 'Il n\'y a actuellement pas de badge à ajouter comme critère. Un badge de site ne peut avoir comme critère que d\'autres badges de site. Un badge de cours peut avoir comme critère des badges d\'autres cours ou du site.';
 $string['error:nocohorts'] = 'Aucune cohorte.';
 $string['error:nocourses'] = 'L\'achèvement de cours n\'est activé pour aucun cours de ce site. Aucun cours n\'est donc affiché ici. L\'achèvement de cours peut être activé dans les réglages du cours.';
 $string['error:nogroups'] = '<p>Il n\'y a pas de collection publique de badges dans votre sac à badges.</p> <p>Seules les collections publiques sont affichées. Veuillez <a href="https://backpack.openbadges.org">visiter votre sac à badges</a> pour créer une collection publique.</p>';

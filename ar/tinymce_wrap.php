@@ -26,5 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['moodlewrap:desc'] = 'تغليف';
-$string['pluginname'] = 'تغليف';
-$string['privacy:metadata'] = 'البرنامج المساعد TinyMCE Wrap لا يخزن أي بيانات شخصية.';
+$string['pluginname'] = 'إلتفاف النص';
+$string['privacy:metadata'] = 'إن ملحق إلتفاف TinyMCE لا يخزن أي بيانات شخصية.';

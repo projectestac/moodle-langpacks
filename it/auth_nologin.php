@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['auth_nologindescription'] = 'Plugin ausiliario che impedisce a un utente di fare login nel sistema e annulla ogni email inviata allo stesso. Può essere usato per <em>sospendere</em> la registrazione di uno o più utenti.';
+$string['auth_nologindescription'] = 'Plugin ausiliario che impedisce a un utente di autenticarsi nel sistema e annulla ogni email inviata allo stesso. Può essere usato per <em>sospendere</em> la registrazione di uno o più utenti.';
 $string['pluginname'] = 'Account disabilitato';
 $string['privacy:metadata'] = 'Il plugin di autenticazione "Account disabilitato" non memorizza dati personali.';

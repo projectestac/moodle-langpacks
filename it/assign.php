@@ -287,7 +287,7 @@ $string['hidegrader_help'] = 'Gli studenti non potranno visualizzare chi ha valu
 
 Da notare che l\'impostazione non si applica al riquadro commenti nella pagina di valutazione.';
 $string['hideshow'] = 'Nascondi/Visualizza';
-$string['inactiveoverridehelp'] = '* Gli studenti non appartengono al gruppo corretto o non hanno un ruolo idoneo per consegnare il compito.';
+$string['inactiveoverridehelp'] = '* La personalizzazione non è attiva poiché gli studenti non possono accedervi. Può avvenire in funzione di assegnazioni a gruppi o a ruoli, condizioni di accesso, oppure perché l\'attività è nascosta.';
 $string['indicator:cognitivedepth'] = 'Compito cognitivo';
 $string['indicator:cognitivedepthdef'] = 'Compito cognitivo';
 $string['indicator:cognitivedepthdef_help'] = 'Durante l\'intervallo di analisi, il partecipante ha raggiunto questa percentuale di coinvolgimento cognitivo offerto dalle attività Compito (Livelli: Nessuna visualizzazione, Visualizzazione, Invio, Visualizzazione feedback, Commento al feedback, Nuovo invio dopo il feedback)';

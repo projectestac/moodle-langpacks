@@ -25,7 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['blog_recent:addinstance'] = 'إضافة كتلة جديدة لأحدث مدخلات المدونة';
 $string['norecentblogentries'] = 'لا مدخلات حديثة';
 $string['numentriestodisplay'] = 'عدد المدخلات الحديثة التي سيتم عرضها';
 $string['pluginname'] = 'مدخلات المدونة الحديثة';
+$string['privacy:metadata'] = 'كتلة أحدث مدخلات المدونة تظهر فقط البيانات المخزنة في مواضع أخرى.';
 $string['recentinterval'] = 'المدة الزمنية التي تعتبر "حديثة"';

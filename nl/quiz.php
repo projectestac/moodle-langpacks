@@ -404,29 +404,12 @@ $string['gradeboundary'] = 'Cijfermarge';
 $string['gradeessays'] = 'Beoordeel open vragen';
 $string['gradehighest'] = 'Hoogste cijfer';
 $string['grademethod'] = 'Beoordelingsmethode';
-$string['grademethod_help'] = '<p>
-Wanneer je meerdere pogingen toelaat, zijn er verschillende manieren waarop je de cijfers kunt gebruiken
-om het totaalcijfer op de test te berekenen.
+$string['grademethod_help'] = 'Wanneer je meerdere pogingen toelaat, zijn er verschillende manieren waarop je de beschikbare cijfers kunt gebruiken om het totaalcijfer op de test te berekenen.
 
-<p><b>Hoogste cijfer</b><p>
-<blockquote>
-<p>Het eindcijfer op is het hoogste cijfer bij elke poging.
-</blockquote>
-
-<p><b>Gemiddelde cijfer</b><p>
-<blockquote>
-<p>Het eindcijfer is het gemiddelde cijfer van alle pogingen.
-</blockquote>
-
-<p><b>Eerste poging</b><p>
-<blockquote>
-<p>Het eindcijfer is het cijfer behaald bij de eerste poging. Alle andere pogingen worden niet in rekening gebracht.
-</blockquote>
-
-<p><b>Laatste poging</b><p>
-<blockquote>
-<p>Het eindcijfer is het cijfer behaald bij de laatste poging die de leerling gedaan heeft om de vraag te beantwoorden.
-</blockquote>';
+* Hoogste cijfer van alle pogingen
+* Gemiddelde cijfer van alle pogingen
+* Eerste poging (Alle andere pogingen worden genegeerd)
+* Laatste poging (Alle andere pogingen worden genegeerd)';
 $string['gradesdeleted'] = 'Cijfers van de test verwijderd';
 $string['gradesofar'] = '{$a->method}: {$a->mygrade} / {$a->quizgrade}';
 $string['gradetopassmustbeset'] = 'Slaagcijfer kan geen nul zijn omdat de test is ingesteld om een slaagcijfer te behalen als voltooiingsmethode. Geef hier een andere waarde dan een nul.';

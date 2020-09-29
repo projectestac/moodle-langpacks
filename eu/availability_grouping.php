@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['description'] = 'Baimendu soilik taldekatze zehatz bateko taldeetako kideak diren ikasleak';
-$string['error_selectgrouping'] = 'Taldekatzea aukeratu behar duzu.';
-$string['missing'] = '(Taldekatzea falta da)';
-$string['pluginname'] = 'Taldekatzearen araberako baldintza';
-$string['privacy:metadata'] = 'Taldekatzearen araberako baldintza pluginak ez du datu pertsonalik biltzen.';
-$string['requires_grouping'] = '<strong>{$a}</strong> taldekatzeko talde bateko kide zara';
-$string['requires_notgrouping'] = 'Ez zara <strong>{$a}</strong> taldekatzeko talde bateko kide';
-$string['title'] = 'Taldekatzea';
+$string['description'] = 'Baimendu soilik talde-multzo zehatz bateko taldeetako kideak diren ikasleak';
+$string['error_selectgrouping'] = 'Talde-multzoa aukeratu behar duzu.';
+$string['missing'] = '(Talde-multzoa falta da)';
+$string['pluginname'] = 'Talde-multzoaren araberako baldintza';
+$string['privacy:metadata'] = 'Talde-multzoaren araberako baldintza pluginak ez du datu pertsonalik biltzen.';
+$string['requires_grouping'] = '<strong>{$a}</strong> talde-multzoko talde bateko kide zara';
+$string['requires_notgrouping'] = 'Ez zara <strong>{$a}</strong> talde-multzoko talde bateko kide';
+$string['title'] = 'Talde-multzoa';

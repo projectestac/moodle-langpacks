@@ -25,7 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = '文本文件';
-$string['timeexported'] = '上次下载';
-$string['txt:publish'] = '发布 TXT 导出成绩';
-$string['txt:view'] = '使用文本导出成绩';
+$string['eventgradeexported'] = 'TXT 成绩导出';
+$string['pluginname'] = '纯文本文件';
+$string['privacy:metadata'] = '纯文本文件成绩导出插件不存储任何个人数据。';
+$string['timeexported'] = '最近从本课程下载的';
+$string['txt:publish'] = '发布 TXT 成绩导出';
+$string['txt:view'] = '使用文本成绩导出';

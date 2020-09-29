@@ -43,6 +43,7 @@ $string['numofselfallocatedsubmissions'] = 'Autoasignada(s) {$a} entrega(s)';
 $string['numperauthor'] = 'por entrega';
 $string['numperreviewer'] = 'por revisor';
 $string['pluginname'] = 'Asignación ao chou';
+$string['privacy:metadata'] = 'O engadido de Asignación ao chou non almacena datos persoais. Os datos persoais reais sobre quen vai avaliar a quen están almacenados polo propio módulo de Obradoiro e son a base para exportar os detalles das avaliacións.';
 $string['randomallocationdone'] = 'Feita a asignación ao chou';
 $string['removecurrentallocations'] = 'Retirar as asignacións actuais';
 $string['resultnomorepeers'] = 'Non hai máis pares dispoñíbeis';

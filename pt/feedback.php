@@ -194,6 +194,7 @@ $string['multichoice_values'] = 'Opções de escolha múltipla';
 $string['multiplesubmit'] = 'Permitir múltiplas submissões';
 $string['multiplesubmit_help'] = 'Se ativar esta opção, os utilizadores poderão responder a inquéritos anónimos um número ilimitado de vezes.';
 $string['name'] = 'Designação';
+$string['nameandlabelformat'] = '({$a->label}) {$a->name}';
 $string['name_required'] = 'O preenchimento do nome é obrigatório';
 $string['next_page'] = 'Página seguinte';
 $string['no_handler'] = 'Não existe ação designada para';

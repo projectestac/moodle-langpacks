@@ -26,12 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['privacy:descriptionpath'] = 'Descripció del perfil';
+$string['privacy:draftfilespath'] = 'Esborrany de fitxers';
 $string['privacy:lastaccesspath'] = 'Darrer accés als cursos';
 $string['privacy:metadata:address'] = 'L\'adreça de l\'usuari.';
 $string['privacy:metadata:alternatename'] = 'Un nom alternatiu per l\'usuari.';
 $string['privacy:metadata:calendartype'] = 'La preferència de l\'usuari sobre el tipus de calendari a utilitzar.';
 $string['privacy:metadata:category'] = 'L\'identificador de la categoria';
 $string['privacy:metadata:city'] = 'La ciutat de l\'usuari.';
+$string['privacy:metadata:confirmed'] = 'Si és un usuari actiu o no.';
 $string['privacy:metadata:courseid'] = 'ID del curs';
 $string['privacy:metadata:currentlogin'] = 'L\'autenticació actual d\'aquest usuari.';
 $string['privacy:metadata:description'] = 'Detalls general sobre aquest usuari.';

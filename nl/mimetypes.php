@@ -64,6 +64,7 @@ $string['group:html_track'] = 'HTML track-bestanden';
 $string['group:html_video'] = 'Door browsers ondersteunde videobestanden';
 $string['group:image'] = 'Afbeeldingsbestanden';
 $string['group:media_source'] = 'Streaming media';
+$string['group:optimised_image'] = 'Te optimaliseren afbeeldingsbestanden, zoals badges';
 $string['group:presentation'] = 'Presentatiebestanden';
 $string['group:sourcecode'] = 'Broncode';
 $string['group:spreadsheet'] = 'Rekenbladbestanden';

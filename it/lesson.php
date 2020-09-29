@@ -398,6 +398,7 @@ $string['numberofpagesviewed'] = 'Numero di domande risposte: {$a}';
 $string['numberofpagesviewedheader'] = 'Numero di risposte date';
 $string['numberofpagesviewednotice'] = 'Numero di domande dove hai risposto: {$a->nquestions}; (Devi rispondere ad almeno: {$a->minquestions} domande)';
 $string['numerical'] = 'Numerica';
+$string['numericanswer'] = 'Risposta numerica';
 $string['offlinedatamessage'] = 'Hai svolto offline un tentativo della lezione. L\'ultimo salvataggio dei dati risale a {$a}. Per favore verifica di non avere tentativi non salvati.';
 $string['ongoing'] = 'Visualizza il punteggio ottenuto durante lo svolgimento';
 $string['ongoingcustom'] = 'Finora hai ottenuto {$a->score} punti su {$a->currenthigh}.';

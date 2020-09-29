@@ -25,20 +25,29 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addbulknote'] = 'أضف ملاحظة جديدة إلى {$a} شخص/أشخاص';
+$string['addbulknotedone'] = 'الملاحظة أضيفت إلى {$a} شخص/أشخاص';
+$string['addbulknotedonesingle'] = 'الملاحظة أضيفت إلى شخص واحد';
+$string['addbulknotesingle'] = 'أضف ملاحظة جديدة إلى شخص واحد';
 $string['addnewnote'] = 'إضافة ملاحظة جديدة';
 $string['addnewnoteselect'] = 'حدد المستخدمين لكتابة ملاحظات عنهم';
 $string['bynameondate'] = 'بواسطة {$a->name} في {$a->date}';
-$string['configenablenotes'] = 'تمكين تخزين ملاحظات حول المستخدمين';
+$string['configenablenotes'] = 'تمكين تخزين الملاحظات عن المستخدمين.';
 $string['content'] = 'المحتوى';
-$string['course'] = 'المقرر الدراسي';
+$string['course'] = 'المساق';
 $string['coursenotes'] = 'ملاحظات المقرر الدراسي';
 $string['created'] = 'تم إنشاؤه';
 $string['deleteconfirm'] = 'حذف هذه الملاحظة؟';
 $string['deletenotes'] = 'حذف جميع الملاحظات';
 $string['editnote'] = 'تحرير الملاحظة';
 $string['enablenotes'] = 'تفعيل الملاحظات';
+$string['eventnotecreated'] = 'تم إنشاء الملاحظة';
+$string['eventnotedeleted'] = 'تم حذف الملاحظة';
+$string['eventnotesviewed'] = 'تمت معاينة الملاحظات';
+$string['eventnoteupdated'] = 'تم تحديث الملاحظة';
 $string['invalidid'] = 'معرّف الملاحظة المحدد غير صالح';
 $string['invaliduserid'] = 'رقم المستخدم غير صحيح  : {$a}';
+$string['myprofileownnotes'] = 'ملاحظاتي';
 $string['nocontent'] = 'لا يمكن أن يكون محتوى الملاحظة فارغاً';
 $string['nonotes'] = 'لا يوجد إلى الآن أي ملاحظات من هذا النوع';
 $string['nopermissiontodelete'] = 'لا يمكنك حذف هذه الملاحظة';
@@ -51,12 +60,19 @@ $string['page-notes-index'] = 'صفحة الملاحظات الرئيسية';
 $string['page-notes-x'] = 'أي صفحات خاصة بالملاحظات';
 $string['personal'] = 'شخصي';
 $string['personalnotes'] = 'ملاحظات شخصية';
+$string['privacy:metadata:core_notes'] = 'مكون الملاحظات يحفظ ملاحظات المستخدم ضمن نواة النظام الفرعية.';
+$string['privacy:metadata:core_notes:content'] = 'محتوى الملاحظة.';
+$string['privacy:metadata:core_notes:courseid'] = 'مُعرَّف المساق المتعلق بالملاحظة';
+$string['privacy:metadata:core_notes:created'] = 'وقت وتاريخ إنشاء الملاحظة';
+$string['privacy:metadata:core_notes:lastmodified'] = 'وقت وتاريخ آخر تحديث للملاحظة';
+$string['privacy:metadata:core_notes:publishstate'] = 'حالة نشر الملاحظة';
+$string['privacy:metadata:core_notes:userid'] = 'مُعرَّف المستخدم المرتبط بالملاحظة';
 $string['publishstate'] = 'السياق';
-$string['publishstate_help'] = 'سياق الملاحظة يحدد من يمكنه رؤيتها.
+$string['publishstate_help'] = 'سياق الملاحظة يحدد من يمكنه رؤيتها في الاستعمالات اليومية. على المستخدمين أن يدركوا بأن كل الملاحظات، بضمنها الشخصية، قد تكون عرضة للكشف عنها وفقاً لقوانين سلطاتهم القضائية.
 
 * شخصي - ستكون الملاحظة مرئية بالنسبة لك فقط
-* المقرر الدراسي - ستكون الملاحظة مرئية للمدرسين في هذا المقرر الدراسي
-* الموقع - ستكون الملاحظة مرئية للمدرسين في جميع المقررات';
+* المساق - ستكون الملاحظة مرئية للمعلمين في هذا المساق
+* الموقع - ستكون الملاحظة مرئية للمعلمين في جميع المساقات';
 $string['site'] = 'الموقع';
 $string['sitenotes'] = 'ملاحظات الموقع';
 $string['unknown'] = 'غير معروف';

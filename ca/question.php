@@ -83,6 +83,8 @@ $string['categoryinfo'] = 'Informació de la categoria';
 $string['categorymove'] = 'La categoria «{$a->name}» conté {$a->count} preguntes (algunes d\'aquestes poden estar ocultes, o ser preguntes aleatòries que encara estan en ús en algun qüestionari). Escolliu a quina altra categoria voleu moure-les.';
 $string['categorymoveto'] = 'Desa a la categoria';
 $string['categorynamecantbeblank'] = 'El nom de la categoria no pot estar buit.';
+$string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
+$string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Canvia les opcions';
 $string['changepublishstatuscat'] = 'Es canviarà l\'estat de publicació de la categoria <a href="{$a->caturl}">"{$a->name}"</a>, en el curs "{$a->coursename}", de <strong>{$a->changefrom} a {$a->changeto}</strong>.';
 $string['check'] = 'Comprova';
@@ -104,7 +106,7 @@ $string['contexterror'] = 'No haurieu d\'haver arribat aquí fora que mogueu una
 $string['copy'] = 'Copia des de: {$a} i canvia enllaços';
 $string['correct'] = 'Correcte';
 $string['correctfeedback'] = 'Per a qualsevol resposta correcta';
-$string['correctfeedbackdefault'] = 'La teva resposta és correcta.';
+$string['correctfeedbackdefault'] = 'La resposta és correcta.';
 $string['created'] = 'Creació';
 $string['createdby'] = 'Creada per ';
 $string['createdmodifiedheader'] = 'Creació / darrera modificació';
@@ -113,7 +115,7 @@ $string['cwrqpfs'] = 'Preguntes aleatòries que seleccionen preguntes de subcate
 $string['cwrqpfsinfo'] = '<p>Durant l\'actualització a Moodle 1.9 se separaran les categories de preguntes en diferents contextos. Caldrà canviar l\'estat de publicació d\'algunes preguntes i categories de preguntes del vostre lloc. Això és necessari en casos com el vostre, quan hi ha preguntes «aleatòries» en un qüestionari definides de manera que trien preguntes de subcategories i alguna d\'aquestes subcategories té un estat de publicació diferent de l\'estat de la categoria mare on està creada la pregunta aleatòria.</p>
 <p>Es canviarà l\'estat de publicació de les categories següents, d\'on treuen preguntes les preguntes «aleatòries» de categories mare, a l\'estat de publicació de la categoria que conté la pregunta aleatòria. Les preguntes afectades continuaran funcionant en tots els qüestionaris existents.</p>';
 $string['cwrqpfsnoprob'] = 'El vostre lloc no conté categories afectades pel problema de les "preguntes aleatòries que seleccionen preguntes de subcategories".';
-$string['decimalplacesingrades'] = 'Decimals en graus';
+$string['decimalplacesingrades'] = 'Xifres decimals en les puntuacions';
 $string['defaultfor'] = 'Categoria per defecte en {$a}';
 $string['defaultinfofor'] = 'La categoria per defecte per a preguntes compartides en el context «{$a}».';
 $string['defaultmark'] = 'Puntuació per defecte';
@@ -205,6 +207,8 @@ $string['howquestionsbehave_help'] = 'Els estudiants poden interactuar amb les p
 Alternativament, podeu voler que els estudiants responguin cada pregunta i obtinguin una retroacció immediata i, si no contesten correctament de manera immediata, tinguin una altra oportunitat amb menor puntuació. Aquest mode seria «interactiu amb diversos intents».
 
 Aquests probablement són els dos modes de comportament usats més comunament.';
+$string['idnumber'] = 'Nombre ID';
+$string['idnumber_help'] = 'Si l\'utilitzeu, el nombre ID ha de ser únic dins de cada categoria de preguntes. Ofereix una manera alternativa d\'identificar la pregunta que us pot ser útil, però que usualment podeu deixar en blanc.';
 $string['ignorebroken'] = 'Ignora enllaços trencats';
 $string['import'] = 'Importa';
 $string['importcategory'] = 'Importació d\'una categoria';
@@ -223,7 +227,7 @@ $string['impossiblechar'] = 'Un caràcter inviable {$a} detectat com a caràcter
 $string['includesubcategories'] = 'Mostra també les preguntes de les subcategories.';
 $string['incorrect'] = 'Incorrecte';
 $string['incorrectfeedback'] = 'Per a qualsevol resposta incorrecta';
-$string['incorrectfeedbackdefault'] = 'La teva resposta és incorrecta.';
+$string['incorrectfeedbackdefault'] = 'La resposta és incorrecta.';
 $string['information'] = 'Informació';
 $string['invalidanswer'] = 'Resposta no vàlida o incompleta';
 $string['invalidarg'] = 'Arguments proporcionats invàlids o configuració incorrecta del servidor';
@@ -311,7 +315,7 @@ $string['parenthesisinproperstart'] = 'El parèntesi de després de ** no queda 
 $string['parsingquestions'] = 'Analitza i inclou preguntes d\'un fitxer d\'importació.';
 $string['partiallycorrect'] = 'Parcialment correcte';
 $string['partiallycorrectfeedback'] = 'Per a qualsevol resposta parcialment correcta';
-$string['partiallycorrectfeedbackdefault'] = 'La teva resposta és parcialment correcta.';
+$string['partiallycorrectfeedbackdefault'] = 'La resposta és parcialment correcta.';
 $string['penaltyfactor'] = 'Factor de penalització';
 $string['penaltyfactor_help'] = '<p>Podeu especificar quina fracció de la puntuació aconseguida cal restar per cada resposta incorrecta. Això només és rellevant si el qüestionari funciona en mode adaptatiu, de manera que l\'estudiant pugui donar respostes repetides a una pregunta. El factor de penalització ha de ser un número entre 0 i 1. Un factor de penalització d\'1 vol dir que l\'estudiant ha d\'aconseguir la resposta correcta la primera vegada per tal d\'obtenir-hi crèdit. Un factor de penalització de 0 vol dir que l\'estudiant pot provar tantes vegades com vulgui i encara obté la puntuació completa.
 </p';

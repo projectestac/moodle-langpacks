@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addtofavourites'] = '标星课程';
+$string['addtofavourites'] = '标星此课程';
 $string['all'] = '全部（隐藏的除外）';
 $string['allincludinghidden'] = '所有';
 $string['aria:addtofavourites'] = '用星号标记';
@@ -51,12 +51,12 @@ $string['complete'] = '完成';
 $string['completepercent'] = '{$a}% 已完成';
 $string['courseprogress'] = '课程进度';
 $string['favourites'] = '标星的';
-$string['future'] = '尚未开始的';
+$string['future'] = '还未开始的';
 $string['hidden'] = '隐藏的课程';
-$string['hiddencourses'] = '已隐藏的';
+$string['hiddencourses'] = '隐藏的';
 $string['hidecourse'] = '隐藏';
 $string['inprogress'] = '进行中';
-$string['lastaccessed'] = '上次访问';
+$string['lastaccessed'] = '最后访问';
 $string['list'] = '列表';
 $string['morecourses'] = '更多课程';
 $string['myoverview:myaddinstance'] = '增加一个新的课程概览区块到仪表板';
@@ -71,7 +71,7 @@ $string['past'] = '过去的';
 $string['pluginname'] = '课程概览';
 $string['privacy:request:preference:set'] = '设置 \'{$a->name}\' 的值是 \'{$a->value}\'';
 $string['recentlyoverdue'] = '最近逾期的';
-$string['removefromfavourites'] = '撤销标星';
+$string['removefromfavourites'] = '撤销标星此课程';
 $string['show'] = '恢复';
 $string['sortbycourses'] = '按课程排序';
 $string['sortbydates'] = '按日期排序';

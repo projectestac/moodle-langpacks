@@ -26,18 +26,18 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actlogshdr'] = 'مخازن السجل المتاحة';
-$string['configlogplugins'] = 'يرجى تمكين جميع الإضافات المطلوبة و ترتيبها بالترتيب المناسب.';
+$string['configlogplugins'] = 'يرجى تمكين جميع الملاحق المطلوبة وترتيبها بالترتيب المناسب.';
 $string['exportlog'] = 'تضمين السجلات عند التصدير.';
-$string['exportlogdetail'] = 'قم بتضمين السجلات المتعلقة بالمستخدم عند التصدير.';
-$string['logging'] = 'التسجيل';
-$string['managelogging'] = 'إدارة مخازن السجل';
-$string['pluginname'] = 'سجل مدير المتجر';
-$string['privacy:metadata:logstore'] = 'سجل المخازن';
+$string['exportlogdetail'] = 'تضمين السجلات المتعلقة بالمستخدم عند التصدير.';
+$string['logging'] = 'تسجيل الوقوعات';
+$string['managelogging'] = 'إدارة مخازن سجل الوقوعات';
+$string['pluginname'] = 'مدير مخزن سجل الوقوعات';
+$string['privacy:metadata:logstore'] = 'مخازن سجلات الوقوعات';
 $string['privacy:path:logs'] = 'السجلات';
 $string['privacy:request:origin:cli'] = 'أداة سطر الأوامر';
-$string['privacy:request:origin:restore'] = 'النسخ الاحتياطي يجري استعادتها';
+$string['privacy:request:origin:restore'] = 'الحفظ الاحتياطي الذي تتم استعادته';
 $string['privacy:request:origin:web'] = 'طلب الويب القياسي';
-$string['privacy:request:origin:ws'] = 'تطبيق جوال أو خدمة ويب';
+$string['privacy:request:origin:ws'] = 'تطبيق الجوال أو خدمة الويب';
 $string['reportssupported'] = 'التقارير المدعومة';
 $string['subplugintype_logstore'] = 'مخزن السجل';
-$string['subplugintype_logstore_plural'] = 'مخازن السجل';
+$string['subplugintype_logstore_plural'] = 'مخازن سجلات الوقوعات';

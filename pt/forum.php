@@ -160,7 +160,7 @@ $string['deletesureplural'] = 'Tem a certeza de cque pretende apagar esta mensag
 $string['digestmailheader'] = 'Este é o seu resumo diário de novas mensagens nos fóruns de {$a->sitename}. Pode alterar as suas preferências de e-mail em {$a->userprefs}.';
 $string['digestmailpost'] = 'Alterar as suas preferências do resumo de fóruns';
 $string['digestmailpostlink'] = 'Alterar tipo de resumo de fóruns: {$a}';
-$string['digestmailprefs'] = 'o seu perfil de utilizador';
+$string['digestmailprefs'] = 'o seu perfil do utilizador';
 $string['digestmailsubject'] = '{$a}: resumo do fórum';
 $string['digestmailtime'] = 'Hora para enviar e-mails com resumo do fórum';
 $string['digestsentusers'] = 'Resumo do fórum enviado com sucesso para {$a} utilizadores.';
@@ -232,7 +232,7 @@ $string['emaildigestsubjectsshort'] = 'Assuntos';
 $string['emaildigesttype'] = 'Opções do resumo de fóruns';
 $string['emaildigesttype_help'] = 'Tipos de resumos que vai receber diariamente para cada fórum:
 
-*Predefinido: de acordo com a configuração do resumo de fóruns do seu perfil de utilizador. Se atualizar o seu perfil, essa alteração também se vai refletir aqui;
+*Predefinido: de acordo com a configuração do resumo de fóruns do seu perfil do utilizador. Se atualizar o seu perfil, essa alteração também se vai refletir aqui;
 
 *Sem resumo: irá receber um e-mail por cada mensagem publicada no fórum;
 
@@ -487,7 +487,7 @@ $string['nopostforum'] = 'Lamentamos, mas não tem permissão para submeter mens
 $string['noposts'] = 'Nenhuma mensagem';
 $string['nopostsmadebyuser'] = '{$a} não inseriu mensagens';
 $string['nopostsmadebyyou'] = 'Ainda não publicou nenhuma mensagem';
-$string['noquestions'] = 'Ainda não há perguntas neste fórum.';
+$string['noquestions'] = 'Ainda não existem perguntas neste fórum.';
 $string['nosubscribers'] = 'Ainda não existem subscritores neste fórum';
 $string['notexists'] = 'O tópico já não existe';
 $string['notgraded'] = 'Não avaliado';
@@ -528,7 +528,7 @@ $string['pluginadministration'] = 'Administração do Fórum';
 $string['pluginname'] = 'Fórum';
 $string['postadded'] = '<p>A sua mensagem foi submetida com sucesso.</p><p>Tem {$a} para a editar, caso pretenda fazer alterações.</p>';
 $string['postaddedsuccess'] = 'A sua mensagem foi submetida com sucesso.';
-$string['postaddedtimeleft'] = 'Tem {$a} para editar se desejar fazer alterações.';
+$string['postaddedtimeleft'] = 'Tem {$a} para editar, se pretender fazer alterações.';
 $string['postbymailsuccess'] = 'A sua resposta "{$a->subject}" foi publicada com sucesso: {$a->discussionurl}.';
 $string['postbymailsuccess_html'] = 'A sua resposta <a href="{$a->discussionurl}">{$a->subject}</a> foi publicada com sucesso.';
 $string['postbyuser'] = '{$a->post} por {$a->user}';

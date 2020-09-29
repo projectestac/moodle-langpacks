@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['moodleemoticon:desc'] = 'أدرج التعبيرات';
-$string['pluginname'] = 'أدرج التعبيرات';
-$string['privacy:metadata'] = 'البرنامج المساعد Moodle Emoticon TinyMCE لا يخزن أي بيانات شخصية.';
+$string['pluginname'] = 'إدراج التعبيرات';
+$string['privacy:metadata'] = 'إن ملحق الرموز التعبيرية لمودل في TinyMCE لا يخزن أي بيانات شخصية.';
 $string['requireemoticon'] = 'يتطلب تصفية التعبيرات';
 $string['requireemoticon_desc'] = 'إذا مكّن، سيكون زر التعبيرات مرئيا فقط عندما يتم تمكين تصفية التعبيرات في سياق المحرر.';

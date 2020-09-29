@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['eventreportviewed'] = 'Visualizzato report partecipazione al corso';
 $string['nologreaderenabled'] = 'Nessun log reader abilitato';
-$string['page-report-participation-index'] = 'Report partecipazione al corso';
+$string['page-report-participation-index'] = 'Report della partecipazione al corso';
 $string['page-report-participation-x'] = 'Qualsiasi report della partecipazione';
 $string['participation:view'] = 'Visualizzare il report della partecipazione al corso';
 $string['pluginname'] = 'Partecipazione al corso';

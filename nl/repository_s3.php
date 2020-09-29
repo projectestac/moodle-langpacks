@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['access_key'] = 'Toeganssleutel';
+$string['access_key'] = 'Toegangssleutel';
 $string['configplugin'] = 'Amazon S3 instellingen';
 $string['endpoint'] = 'Amazon S3 eindpunt';
 $string['needaccesskey'] = 'Je moet een toegangssleutel geven';

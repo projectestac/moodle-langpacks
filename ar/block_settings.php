@@ -25,4 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'إعدادات';
+$string['enabledock'] = 'إسمح للمستخدم بإرساء هذه الكتلة';
+$string['pluginname'] = 'الإدارة';
+$string['privacy:metadata'] = 'كتلة الإدارة تظهر فقط البيانات المخزونة في مواضع أخرى.';
+$string['settings:addinstance'] = 'إضافة كتلة جديدة للإدارة';
+$string['settings:myaddinstance'] = 'إضافة كتلة جديدة للإدارة إلى دفة القيادة';

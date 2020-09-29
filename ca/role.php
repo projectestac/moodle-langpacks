@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addinganewrole'] = 'S\'està afegint un nou rol';
+$string['addinganewrole'] = 'S\'està afegint un rol nou';
 $string['addrole'] = 'Afegeix un rol nou';
 $string['advancedoverride'] = 'Redefinició avançada de rols';
 $string['allow'] = 'Permet';

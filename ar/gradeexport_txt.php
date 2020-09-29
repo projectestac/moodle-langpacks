@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventgradeexported'] = 'تصدير العلامات النصي';
 $string['pluginname'] = 'ملف نص عادي';
-$string['txt:publish'] = 'أنشر نص تصدير الدرجة';
-$string['txt:view'] = 'استخدم نص تصدير الدرجة';
+$string['privacy:metadata'] = 'إن ملحق تصدير العلامات بشكل نصي لا يخزن أي بيانات شخصية.';
+$string['timeexported'] = 'آخر ما تم تنزيله من هذا المساق';
+$string['txt:publish'] = 'نشر تصدير العلامات بصيغة TXT';
+$string['txt:view'] = 'استعمال تصدير العلامة بشكل نص';

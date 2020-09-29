@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actual'] = 'Real';
+$string['addpersistent'] = 'Add mandatory persistent fields';
 $string['aftertable'] = 'Despois da táboa:';
 $string['back'] = 'Volver';
 $string['backtomainview'] = 'Volver ao principal';
@@ -164,11 +165,16 @@ $string['nowrongintsfound'] = 'Non se atoparon enteiros errados; a súa BD non r
 $string['nowrongoraclesemanticsfound'] = 'Non se atoparon columnas de Oracle que empregaran semánticas BYTE; a súa BD non require accións adicionais.';
 $string['numberincorrectdecimals'] = 'Número incorrecto de decimais para un campo numérico';
 $string['numberincorrectlength'] = 'Lonxitude incorrecta para un campo numérico';
+$string['numberincorrectwholepart'] = 'Too big whole number part for number field';
 $string['pendingchanges'] = 'Nota: Realizou cambios neste ficheiro. Pode gardalos en calquera momento.';
 $string['pendingchangescannotbesaved'] = 'Hai cambios neste ficheiro mais non é posíbel gardalos. Comprobe que o directorio e o «install.xml» que hai dentro teñen permisos de escritura para o servidor web.';
 $string['pendingchangescannotbesavedreload'] = 'Hai cambios neste ficheiro mais non é posíbel gardalos. Comprobe que o directorio e o «install.xml» que hai dentro teñen permisos de escritura para o servidor web. A seguir, cargue de novo esta páxina e xa poderá gardar os cambios.';
+$string['persistentfieldscomplete'] = 'The following fields have been added:';
+$string['persistentfieldsconfirm'] = 'Do you want to add the following fields:';
+$string['persistentfieldsexist'] = 'The following fields already exist:';
 $string['pluginname'] = 'Editor XMLDB';
 $string['primarykeyonlyallownotnullfields'] = 'As chaves primarias non poden ser nulas';
+$string['privacy:metadata'] = 'The XMLDB editor plugin does not store any personal data.';
 $string['reserved'] = 'Reservadas';
 $string['reservedwords'] = 'Palabras reservadas';
 $string['revert'] = 'Desfacer';

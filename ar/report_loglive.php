@@ -25,5 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['livelogs'] = 'تقارير عن الساعة الأخيرة';
-$string['pluginname'] = 'سجلات نشطة';
+$string['eventcomponent'] = 'المكون';
+$string['eventcontext'] = 'سياق الحدث';
+$string['eventloggedas'] = '{$a->realusername} بمثابة {$a->asusername}';
+$string['eventorigin'] = 'الأصل';
+$string['eventrelatedfullnameuser'] = 'المستخدم المتأثر';
+$string['eventreportviewed'] = 'تمت معاينة تقرير الوقوعات الآنية';
+$string['livelogs'] = 'الوقوعات الآنية للساعة الأخيرة';
+$string['loglive:view'] = 'معاينة الوقوعات الآنية';
+$string['nologreaderenabled'] = 'لا قارئ مُمَكَّن لسجل الوقوعات';
+$string['pause'] = 'أوقف التحديثات الآنية';
+$string['pluginname'] = 'سجلات الوقوعات الآنية';
+$string['privacy:metadata'] = 'إن ملحق سجلات الوقوعات الآنية لا يخزن أي بيانات شخصية.';
+$string['resume'] = 'استأنف التحديات الآنية';
+$string['selectlogreader'] = 'إختر قارئ سجل الوقوعات';

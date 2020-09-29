@@ -25,5 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['participation:view'] = 'معاينة تقرير مشاركات مقرر دراسي';
-$string['pluginname'] = ' مشاركات مقرر دراسي';
+$string['eventreportviewed'] = 'تمت معاينة تقرير المشاركة';
+$string['nologreaderenabled'] = 'لا قارئ مُمَكَّن لسجل الوقوعات';
+$string['page-report-participation-index'] = 'تقرير المشاركة في المساق';
+$string['page-report-participation-x'] = 'أي تقرير للمشاركة';
+$string['participation:view'] = 'معاينة تقرير مشاركات المساق';
+$string['pluginname'] = 'مشاركات المساق';
+$string['privacy:metadata'] = 'إن ملحق مشاركات المساق لا يخزن أي بيانات شخصية.';

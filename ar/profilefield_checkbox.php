@@ -25,4 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'مربع اختيار';
+$string['pluginname'] = 'مربع الاختيار';
+$string['privacy:metadata:profilefield_checkbox:data'] = 'بيانات حقل الملف الشخصي للمستخدم بشكل خانة اختيار';
+$string['privacy:metadata:profilefield_checkbox:dataformat'] = 'تنسيق خانة اختيار بيانات حقل الملف الشخصي للمستخدم';
+$string['privacy:metadata:profilefield_checkbox:fieldid'] = 'مُعرَّف حقل الملف الشخصي';
+$string['privacy:metadata:profilefield_checkbox:tableexplanation'] = 'بيانات الملف الشخصي الإضافية';
+$string['privacy:metadata:profilefield_checkbox:userid'] = 'مُعرَّف المستخدم الذي يتم حفظ بياناته بواسطة خانة اختيار لحقل البيانات الشخصية';

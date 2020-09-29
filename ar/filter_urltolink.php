@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filtername'] = 'حول العناوين إلى روابط';
+$string['embedimages'] = 'الصور المضمنة';
+$string['embedimages_desc'] = 'استبدل روابط الصور بصور في تنسيقات نصية محددة.';
+$string['filtername'] = 'تحويل عناوين الإنترنت إلى روابط وصور';
+$string['privacy:metadata'] = 'ملحق تحويل عناوين الإنترنت إلى روابط وصور لا يخزن أي بيانات شخصية.';
 $string['settingformats'] = 'طبق إلى تنسيقات';
 $string['settingformats_desc'] = 'سيتم تطبيق المنقح اذا كان النص الأصليقد ادخل حسب احد التنسيقات المختارة';

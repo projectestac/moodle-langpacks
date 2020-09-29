@@ -28,5 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['bestgrade'] = 'Det h&ouml;gsta betyget:';
 $string['bestgrades'] = 'Det {$a} h&ouml;gsta betygen:';
 $string['config_format_percentage'] = 'Procent';
+$string['pluginname'] = 'Resultat från aktiviteter';
 $string['worstgrade'] = 'Det l&auml;gsta betyget/omd&ouml;met:';
 $string['worstgrades'] = 'De {$a} l&auml;gsta betygen/omd&ouml;mena:';

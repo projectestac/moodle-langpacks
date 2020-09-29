@@ -137,6 +137,7 @@ $string['emailsalutation'] = 'Guten Tag {$a},';
 $string['errorcannotrequestdeleteforother'] = 'Sie haben keine Berechtigung, einen Löschauftrag für diese Person zu erstellen.';
 $string['errorcannotrequestdeleteforself'] = 'Sie haben keine Berechtigung, einen Löschauftrag für sich selbst zu erstellen.';
 $string['errorcontexthasunexpiredchildren'] = 'Der Kontext \'{$a}\' hat Unterkontexte, die noch nicht abgelaufen sind. Es sind derzeit keine Kontexte zum Löschen gekennzeichnet.';
+$string['errorinvalidrequestcomments'] = 'Das Kommentarfeld darf nur unformatierten Text enthalten.';
 $string['errorinvalidrequestcreationmethod'] = 'Ungültige Methode zur Anforderungserzeugung';
 $string['errorinvalidrequeststatus'] = 'Ungültiger Abfragestatus!';
 $string['errorinvalidrequesttype'] = 'Ungültiger Abfragetyp!';

@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['accuracy'] = 'Precisió';
 $string['accuracyandbonus'] = 'Precisió + Bonificació';
-$string['assumingcertainty'] = 'No heu escollit una certesa. S\'assumeix {$a}.';
+$string['assumingcertainty'] = 'No heu escollit una certesa. S\'assumirà {$a}.';
 $string['averagecbmmark'] = 'Puntuació QBC (CBM) mitjana';
 $string['basemark'] = 'Qualificació base {$a}';
 $string['breakdownbycertainty'] = 'Desglossament per certesa';
@@ -43,17 +43,17 @@ $string['cbmmark'] = 'Puntuació QBC (CBM) {$a}';
 $string['certainty'] = 'Certesa';
 $string['certainty1'] = 'C=1 (Indecís: <67% )';
 $string['certainty-1'] = 'Ni idea';
-$string['certainty2'] = 'C=2 (Mitjana: > 67%)';
+$string['certainty2'] = 'C=2 (Mitjà: > 67%)';
 $string['certainty3'] = 'C=3 (Força segur: > 80%)';
 $string['certainty_help'] = 'L\'avaluació basada en la certesa requereix que indiqueu el grau de confiança que teniu en la vostra resposta. Els nivells disponibles són:
 
-Nivell de Certesa         | C = 1 (Indecís)  | C = 2 (Mitjà)   | C = 3 (Força segur)
---------------------------| ---------------- | ------------- | -------------------
-Puntuació si la resposta és correcta  |        1         |       2       |       3
-Puntuació si és errònia      |        0         |      -2       |      -6
-Probabilitat que sigui correcta     |       <67%       |     67%-80%    |     > 80%
+Nivell de Certesa                | C=1 (Indecís)  | C=2 (Mitjà) | C=3 (Força segur)
+---------------------------------| -------------- | ----------- | ------------------
+Puntuació si és correcta         |      1         |      2      |        3
+Puntuació si és errònia          |      0         |     -2      |       -6
+Probabilitat que sigui correcta  |     <67%       |   67%-80%   |      >80%
 
-Les millors qualificacions s\'aconsegueixen reconeixent la incertesa. Per exemple, si us sembla que la probabilitat d\'equivocar-se és més alta d\'1/3, s\'ha d\'introduir C = 1, i evitar el risc d\'una qualificació negativa.';
+Les millors qualificacions s\'aconsegueixen reconeixent la incertesa. Per exemple, si us sembla que la probabilitat d\'equivocar-vos és més alta d\'1 entre 3, heu d\'introduir C = 1 i evitar així el risc d\'una qualificació negativa.';
 $string['certaintyshort1'] = 'C=1';
 $string['certaintyshort-1'] = 'Ni idea';
 $string['certaintyshort2'] = 'C=2';

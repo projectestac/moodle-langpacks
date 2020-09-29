@@ -339,17 +339,15 @@ $string['modattempts'] = 'Permettre la relecture par les étudiants';
 $string['modattempts_help'] = 'Si ce réglage est activé, les étudiants peuvent reprendre la leçon depuis le début.';
 $string['modattemptsnoteacher'] = 'La critique par les étudiants ne fonctionne que pour les étudiants.';
 $string['modulename'] = 'Leçon';
-$string['modulename_help'] = 'Le module d\'activité leçon permet à l\'enseignant de proposer des contenus et/ou des activités d\'exercice d\'une façon intéressante et flexible.
+$string['modulename_help'] = 'Le module d\'activité leçon permet à l\'enseignant de proposer des contenus et/ou des activités d\'exercice d\'une façon intéressante et flexible. L\'enseignant peut utiliser la leçon pour créer un plusieurs pages qui se suivent linéairement ou qui offrent plusieurs chemins à l\'étudiant. L\'enseignant peut augmenter l\'engagement et s\'assurer de la compréhension en incluant divers types de questions : à choix multiple, d\'appariement et à réponse courte. Selon la réponse de l\'étudiant et la créativité de la personne qui crée la leçon, les étudiants poursuivent vers la page suivante, reviennent à une page précédente ou sont redirigé vers un tout autre chemin.
 
-Une leçon est créée par l\'enseignant et se compose de plusieurs pages qui chacune se termine normalement par une question et un choix de réponses. Les types de questions comprennent les questions à choix multiple, d\'appariement et à réponse courte. Selon la réponse du participant, la leçon peut se poursuivre par la page suivante ou par une autre page.
+Une leçon peut être sanctionnée par une note. La note est alors enregistrée dans le carnet de notes.
 
-Une leçon peut si désiré être sanctionnée par une note. La note est alors enregistrée dans le carnet de notes.
+Les leçons peuvent être utilisées par exemple :
 
-Les leçons peuvent être utilisées :
-
-* pour l\'apprentissage auto-géré d\'un nouveau sujet
+* pour l\'apprentissage autonome d\'un nouveau sujet
 * pour des simulations ou des jeux de rôles exerçant la prise de décision
-* comme un moyen de profiter des différents styles d\'apprentissage, en offrant au participant une page vidéo, une page podcast ou une page de texte suivant sa préférence
+* comme un moyen de combiner plusieurs canaux différents, permettant ainsi de renforcer l\'apprentissage
 * pour des supports de révision différenciés, avec plusieurs jeux de questions de révision suivant les réponses précédemment données';
 $string['modulenameplural'] = 'Leçons';
 $string['move'] = 'Déplacer la page';
@@ -405,6 +403,8 @@ $string['numberofpagesviewed'] = 'Nombre de questions répondues : {$a}';
 $string['numberofpagesviewedheader'] = 'Nombre de questions répondues';
 $string['numberofpagesviewednotice'] = 'Nombre de questions répondues : {$a->nquestions} (vous devez répondre au moins à {$a->minquestions})';
 $string['numerical'] = 'Numérique';
+$string['numericanswer'] = 'Réponse numérique';
+$string['numericanswer_help'] = 'Vous pouvez indiquer un simple nombre ou un intervalle de nombres au moyen d\'un caractère « deux-points ». Par exemple, 2:5 signifie que n\'importe quelle réponse entre 2 et 5 (y compris) est correcte.';
 $string['offlinedatamessage'] = 'Vous avez travaillé à cette tentative à l\'aide d\'un appareil mobile. Les données ont été enregistrées sur ce site il y a {$a}. Veuillez vérifier que vous n\'avez pas de données non enregistrées.';
 $string['ongoing'] = 'Afficher le score actuel';
 $string['ongoingcustom'] = 'Vous avez jusqu\'ici reçu {$a->score} sur un maximum de {$a->currenthigh} point(s).';

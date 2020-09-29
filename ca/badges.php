@@ -338,8 +338,8 @@ $string['makeprivate'] = 'Fes privada';
 $string['makepublic'] = 'Fes pública';
 $string['managebadges'] = 'Gestiona les insígnies';
 $string['message'] = 'Cos del missatge';
-$string['messagebody'] = '<p>Heu guanyat una insígnia "%badgename%"! </p>
-<p>Podeu trobar més informació sobre aquesta insígnia a la pàgina %badgelink%. /p>
+$string['messagebody'] = '<p>Heu guanyat una insígnia "%badgename%"!</p>
+<p>Podeu trobar més informació sobre aquesta insígnia a la pàgina %badgelink%.</p>
 <p>Podeu gestionar i descarregar la insígnia des de la vostra pàgina {$a}.</p>';
 $string['messagesubject'] = 'Enhorabona! Heu guanyat una insígnia!';
 $string['method'] = 'Aquest criteri es completa quan...';

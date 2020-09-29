@@ -130,3 +130,4 @@ $string['privacy:profileimagespath'] = 'Imaxes do perfil';
 $string['privacy:sessionpath'] = 'Datos da sesión';
 $string['target:upcomingactivitiesdue'] = 'Actividades pendentes de entrega';
 $string['target:upcomingactivitiesdue_help'] = 'Este obxectivo xera recordatorios para as actividades pendentes de entrega.';
+$string['target:upcomingactivitiesdueinfo'] = 'Aquí están listadas todas as actividades vindeiras estimadas. Estes alumnos recibiron estas estimacións directamente.';

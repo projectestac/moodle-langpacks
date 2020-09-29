@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['accessdenied'] = '访问被拒绝';
-$string['accounts'] = '帐户';
+$string['accounts'] = '帐号';
 $string['addcategory'] = '添加一个分类';
 $string['additionalhtml'] = '附加的HTML';
 $string['additionalhtml_desc'] = '您可以通过这些设置为每页指定HTML代码。可将HTML代码加入HEAD标签间，紧接在BODY开始标签之后或紧接在标签关闭之前。<br /> 这样您就可以自定义每个页面标题和页脚，或是轻松地把支持服务加入例如Google Analytics页不用考虑采用了什么主题风格。';

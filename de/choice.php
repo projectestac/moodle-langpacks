@@ -44,8 +44,8 @@ $string['choice:downloadresponses'] = 'Antworten herunterladen';
 $string['choicefull'] = 'Eine oder mehrere von Ihnen gewählte Optionen sind bereits voll. Ihre Auswahl wurde nicht gespeichert. Wählen Sie etwas anderes.';
 $string['choicename'] = 'Abstimmungsname';
 $string['choiceopen'] = 'Antworten zulassen ab';
-$string['choiceoptions'] = 'Abstimmoptionen';
-$string['choiceoptions_help'] = 'Tragen Sie die Abstimmoptionen ein, zwischen denen sich die Teilnehmer/innen entscheiden sollen.
+$string['choiceoptions'] = 'Abstimmungsoptionen';
+$string['choiceoptions_help'] = 'Tragen Sie die Abstimmungsoptionen ein, zwischen denen sich die Teilnehmer/innen entscheiden sollen.
 
 Sie können jedes der vorhandenen Felder ausfüllen, Sie dürfen aber auch nicht benötigte Felder leer lassen, die dann in der Abstimmung nicht angezeigt werden. Weitere Optionsfelder erhalten Sie über den Knopf "Optionen hinzufügen".';
 $string['choice:readresponses'] = 'Antworten anzeigen';
@@ -90,7 +90,13 @@ $string['limitno'] = 'Obergrenze {no}';
 $string['modulename'] = 'Abstimmung';
 $string['modulename_help'] = 'Mit der Abstimmung können Sie im Kurs eine Frage mit vordefinierten Antwortmöglichkeiten stellen.
 
-Die Ergebnisse werden direkt angezeigt oder erst später veröffentlicht. Wählen Sie, ob das Abstimmungsverhalten sichtbar oder anonym sein soll.';
+Die Ergebnisse können direkt nachdem die Teilnehmer/innen geantwortet haben, ab einem bestimmten Zeitpunkt oder gar nicht angezeigt werden. Wählen Sie, ob das Abstimmungsverhalten sichtbar oder anonym sein soll (wobei Trainer/innen die Namen der Teilnehmer/innen und ihre Antworten stets sehen können).
+
+Eine Abstimmungs-Aktivität kann verwendet werden
+
+* Als schnelle Umfrage, um das Nachdenken über ein Thema anzuregen
+* Um das Verständnis der Teilnehmer/innen schnell zu testen
+* Um den Teilnehmer/innen die Entscheidungsfindung zu erleichtern, z.B. die Möglichkeit, über eine Richtung für den Kurs abzustimmen';
 $string['modulenameplural'] = 'Abstimmungen';
 $string['moveselectedusersto'] = 'Ausgewählte Nutzer/innen bewegen nach...';
 $string['multiplenotallowederror'] = 'In dieser Auswahl ist nur eine Antwort erlaubt.';

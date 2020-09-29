@@ -143,6 +143,7 @@ $string['rssfeed'] = 'RSS-flöde för Blogg';
 $string['searchterm'] = 'Sök: {$a}';
 $string['settingsupdatederror'] = 'Ett fel har hänt, blogginställningar kunde inte uppdateras';
 $string['siteblogdisable'] = 'Blogg på webbplatsnivå är inte aktiverad';
+$string['siteblogheading'] = 'Sajtblogg';
 $string['siteblogs'] = 'Användare på sajten kan se alla inlägg';
 $string['tagdatelastused'] = 'Datum för senaste användning av etikett';
 $string['tagparam'] = 'Etikett: {$a}';

@@ -191,6 +191,7 @@ $string['multichoice_values'] = 'Valeurs du choix multiple';
 $string['multiplesubmit'] = 'Permettre plusieurs remises';
 $string['multiplesubmit_help'] = 'Si ce réglage est activé pour les questionnaires anonymes, les utilisateurs peuvent remplir un feedback indéfiniment.';
 $string['name'] = 'Nom';
+$string['nameandlabelformat'] = '({$a->label}) {$a->name}';
 $string['name_required'] = 'Nom requis';
 $string['next_page'] = 'Page suivante';
 $string['no_handler'] = 'Aucun action n\'existe pour';

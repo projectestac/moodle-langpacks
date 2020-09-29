@@ -83,8 +83,9 @@ $string['checkbreaksremoved'] = '{$a} zusätzliche(n) Seitenumbruch/Seitenumbrü
 $string['checknotstarted'] = 'Auswahl nicht gestartet';
 $string['checkstarted'] = 'Auswahl gestartet';
 $string['clicktoswitch'] = '(klicken, um zu wechseln)';
+$string['closebeforeopen'] = 'Das Enddatum muss nach dem Startdatum sein.';
 $string['closed'] = 'Die Befragung wurde am {$a} beendet. Danke.';
-$string['closedate'] = 'Enddatum verwenden';
+$string['closedate'] = 'Antworten erlauben bis';
 $string['closedate_help'] = 'Sie können hier ein Abgabedatum für den Fragebogen bestimmen. Markieren Sie das Feld und wählen Sie Datum und Uhrzeit aus.
 Teilnehmer/innen können den Fragebogen nach diesem Zeitpunkt nicht mehr ausfüllen. Wenn hier keine Angabe gemacht wird, wird der Fragebogen nie geschlossen.';
 $string['closeson'] = 'Befragung schließt am {$a}';
@@ -322,7 +323,8 @@ $string['numberscaleitems_help'] = 'Skalenstufen bezeichnet die Anzahl der Einhe
 $string['numeric'] = 'Nummerisch';
 $string['numeric_help'] = 'Wählen Sie diesen Fragetyp, wenn Sie eine korrekt formatierte Zahl als Antwort erwarten.';
 $string['of'] = 'von';
-$string['opendate'] = 'Startdatum verwenden';
+$string['openafterclose'] = 'Das Startdatum muss vor dem Enddatum sein.';
+$string['opendate'] = 'Antworten erlauben ab';
 $string['opendate_help'] = 'Wenn Sie einen Anfangszeitpunkt für den Fragebogen festlegen möchten, markieren Sie das Feld und wählen Sie das gewünschte Datum und die Uhrzeit.
 Teilnehmer/innen können vor dem angegebenen Zeitpunkt den Fragebogen nicht ausfüllen. Ohne Angabe steht der Fragebogen sofort zur Verfügung.';
 $string['option'] = 'Option {$a}';
@@ -407,6 +409,10 @@ $string['privacy:metadata:questionnaire_resp_single:choice_id'] = 'Die ID eines 
 $string['privacy:metadata:questionnaire_resp_single:question_id'] = 'Die ID des Fragendatensatzes für diese Antwort.';
 $string['privacy:metadata:questionnaire_resp_single:response_id'] = 'Die ID des Antwortdatensatzes für diese Antwort.';
 $string['private'] = 'Privat';
+$string['progressbar'] = 'Fortschritt anzeigen';
+$string['progressbar_info'] = 'Befragung {$a} abgeschlossen.';
+$string['progresshelp'] = 'Fortschrittsanzeige';
+$string['progresshelp_help'] = 'Gehen Sie zur nächsten Seite, um die Fortschrittsanzeige zu aktualisieren.';
 $string['public'] = 'Öffentlich';
 $string['publiccopy'] = 'Kopie:';
 $string['publicoriginal'] = 'Orginal:';
@@ -451,7 +457,7 @@ $string['ratescale'] = 'Bewertung (Skala 1 .. 5)';
 $string['ratescale_help'] = 'Beachten Sie die Moodle-Dokumentation';
 $string['realm'] = 'Befragungstyp';
 $string['realm_help'] = '* **Es gibt 3 Typen von Befragungen:**
- * Privat - gehört ausschliesslich zum Kurs in dem sie erstellt wurde.
+ * Privat - gehört ausschließlich zum Kurs in dem sie erstellt wurde.
  * Vorlage - kopierbar und editierbar.
  * Öffentlich - kann in verschiedenen Kursen mehrfach eingesetzt werden.';
 $string['redirecturl'] = 'URL, zu der Teilnehmer/innen nach Abschluss der Befragung weiter geleitet werden.';

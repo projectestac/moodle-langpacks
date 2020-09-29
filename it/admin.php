@@ -208,13 +208,13 @@ http://site.example.com/admin/cron.php?password=opensesame</pre>In assenza di im
 $string['configcurlcache'] = 'Time-to-live, espresso in secondi, della cache cURL';
 $string['configcustommenuitems'] = 'E\' possibile configurare un menu orizzontale personalizzato. Ciascuna linea è composta da testo, un URL (opzionale), un testo per il tooltip (opzionale) e un codice lingua o elenco di codici lingua separati da virgola (opzionale, per visualizzare il testo in base alla lingua dell\'utente). Ciascun elemento è separato dal carattere “|” (pipe). E\' possibile anche indicare sotto menù anteponendo uno o più caratteri "#". Esempio:
 <pre>
-Moodle community|https://moodle.org
--Moodle free support|https://moodle.org/support
--Moodle Docs|http://docs.moodle.org|Moodle Docs
--German Moodle Docs|http://docs.moodle.org/de|Documentation in German|de
+Courses
+-All courses|/course/
+-Course search|/course/search.php
 -###
--Moodle development|https://moodle.org/development
-Moodle.com|http://moodle.com/
+-FAQ|https://someurl.xyz/faq
+-Preguntas más frecuentes|https://someurl.xyz/pmf||es
+Mobile app|https://someurl.xyz/app|Download our app
 </pre>';
 $string['configcustomusermenuitems'] = 'E\' possibile configurare i contenuti del menu utente (ad eccezione del link di logout che verrà inserito automaticamente). Gli elementi su ciascuna linea devono essere separati dal carattere | e contengono 1) una stringa del tipo "langstringname, componentname" oppure una stringa di testo semplice, 2) un URL e 3) un\'icona specificata come icona pix (inserita nella cartella pix con la struttura [subfoldername]/[iconname], ad esempio i/publish) oppure come URL. E\' anche possibile utilizzare separatori aggiungendo una linea con uno più caratteri #.';
 $string['configdbsessions'] = 'E\' possibile memorizzare le informazioni delle sessioni nel database. L\'impostazione è particolarmente utile per siti molto grandi, con molto traffico o per siti in cluster. Attenzione: cambiare questa impostazione provoca il logout dal sito di tutti gli utenti collegati, tu compreso.
@@ -264,7 +264,7 @@ $string['configextramemorylimit'] = 'Alcuni script, come la ricerca globale, il 
 $string['configfilterall'] = 'Filtra tutte le stringhe, incluse le intestazioni, titoli, barre di navigazione ecc.
 E\' utile solo se si usa il filtro multilingua, in mancanza del quale si creerà solo carico supplementare sul sito senza vantaggi apprezzabili.';
 $string['configfiltermatchoneperpage'] = 'Il filtro di creazione automatica dei link (auto-link) genererà solo il collegamento alla prima occorrenza del testo trovato nella pagina. Tutte le altre saranno ignorate.';
-$string['configfiltermatchonepertext'] = 'Il filtro di creazione automatica dei link (auto-link) genererà solo il collegamento alla prima occorrenza del testo trovata in ogni elemento di testo (es. risorsa, blocco) della pagina. Tutte le altre saranno ignorate. Questa impostazione non viene tenuta in considerazione se Filtra occorrenze una volta per pagina è impostato a <i>si</i>.';
+$string['configfiltermatchonepertext'] = 'Il filtro di creazione automatica dei link (auto-link) genererà un solo il collegamento corrispondente alla prima occorrenza di testo trovata (es. risorsa, blocco) nella pagina. Tutte le altre saranno ignorate. L\'impostazione non viene tenuta in considerazione se Filtra occorrenze una volta per pagina è impostato a <i>si</i>.';
 $string['configfilteruploadedfiles'] = 'Imposta il filtraggio antecedente alla visualizzazione dei file caricati: Tutti i file, Solo file HTML oppure Nessuno.';
 $string['configforcelogin'] = 'L\'elenco dei corsi e la pagina home del sito di default sono visibili senza doversi autenticare. Se si desidera obbligare i visitatori ad autenticarsi  prima che possano vedere la pagina home o svolgere una qualsiasi attività sul sito, abilitare questa opzione.';
 $string['configforceloginforprofiles'] = 'Rende obbligatoria l\'autenticazione con credenziali valide (non ospite) per  visualizzare i profili di altri utenti. Disabilitando questa impostazione, alcuni utenti potrebbero usare il proprio profilo, visibile pubblicamente, per inserire pubblicità (spam) o altri tipi di contenuti inappropriati.';
@@ -597,7 +597,7 @@ $string['fatalsessionautostart'] = '<p>E\' stato rilevato un grave errore di con
 $string['fileconversioncleanuptask'] = 'Pulizia file temporanei della conversione file.';
 $string['filecreated'] = 'Nuovo file creato';
 $string['filescleanupperiod'] = 'Pulizia file eliminati';
-$string['filescleanupperiod_help'] = 'La frequenza della pulizia dei file eliminati. Si tratta di file associati a contesti non più esistenti, ad esempio un corso che è stato eliminato. Nota: l\'impostazione può provocare la perdita di file in quei corsi che sono stati oggetto di backup, poi eliminati ed infine ripristinati dal backup dopo l\'eliminazione nel caso in cui l\'impostazione "Includi file" (backup_auto_files) sia stata disabilitata nelle impostazioni di backup automatico.';
+$string['filescleanupperiod_help'] = 'La frequenza della pulizia dei file eliminati. Si tratta di file associati a contesti non più esistenti, ad esempio un corso che è stato eliminato. Nota: l\'impostazione può provocare la perdita di file in quei corsi che sono stati oggetto di backup, poi eliminati ed infine ripristinati dal backup dopo l\'eliminazione nel caso in cui l\'impostazione \'Includi file\' (backup_auto_files) sia stata disabilitata nelle impostazioni di backup automatico.';
 $string['filesizeunits'] = 'unità dimensione file';
 $string['filestoredin'] = 'Salva il file nella cartella:';
 $string['filestoredinhelp'] = 'Dove sarà memorizzato il file';
@@ -646,7 +646,7 @@ $string['groupenrolmentkeypolicy'] = 'Regole chiavi iscrizione ai gruppi';
 $string['groupenrolmentkeypolicy_desc'] = 'Attiva le stesse regole delle password per le chiavi di iscrizione ai gruppi.';
 $string['guestroleid'] = 'Ruolo per gli ospiti';
 $string['guestroleid_help'] = 'Questo ruolo viene assegnato automaticamente agli ospiti. Viene anche assegnato temporaneamente a quegli utenti che pur non iscritti ad un corso vi accedono tramite il plugin iscrizione ospiti.';
-$string['h5pgetcontenttypestask'] = 'Scarica contenuti H5P dal h5p.org';
+$string['h5pgetcontenttypestask'] = 'Scaricamento contenuti H5P da h5p.org';
 $string['helpadminseesall'] = 'Gli amministratori potranno visualizzare nel calendario tutti gli eventi anziché i soli eventi che li riguardano. Da notare che indipendentemente dall\'impostazione selezionata gli amministratori potranno gestire qualsisia evento di calendario accedendo prima al corso e poi al calendario.';
 $string['helpcalendarcustomexport'] = 'Consente la configurazione di intervalli di date personalizzate per l\'esportazione del calendario. L\'impostazione funziona solo se è abilitata anche l\'esportazione del calendario';
 $string['helpexportlookahead'] = 'Il numero di giorni futuri da includere nell\'esportazione:';
@@ -734,6 +734,7 @@ $string['lockoutthreshold'] = 'Soglia per il blocco del profilo utente';
 $string['lockoutthreshold_desc'] = 'E\' possibile impostare la soglia di login errati oltre la quale il profilo utente sarà bloccato. Un attacco Denial of Service potrebbe abusare di questa impostazione.';
 $string['lockoutwindow'] = 'Finestra temporale di osservazione per il blocco del profilo utente';
 $string['lockoutwindow_desc'] = 'Il tempo di osservazione per la soglia di blocco, in assenza di login errati il contatore della soglia viene azzerato non appena trascorso il tempo impostato';
+$string['lockrequestcategory'] = 'Evita la selezione delle categorie';
 $string['log'] = 'Log';
 $string['logguests'] = 'Log accesso ospite';
 $string['logguests_help'] = 'L\'impostazione abilita il log delle azioni svolte dall\'account ospite e dagli utenti non autenticati. Siti molto trafficati possono disabilitare il logo di queste azioni per motivi di performance. Nei siti di produzione si raccomanda di mantenere log accesso ospite abilitato.';
@@ -907,11 +908,11 @@ $string['pathtogs_help'] = 'Generalmente su installazioni Linux è possibile usa
 $string['pathtopgdump'] = 'Percorso di pg_dump';
 $string['pathtopgdumpdesc'] = 'E\' nescessario solo se hai più di un pg_dump sul sistema (per esempio hai più versioni di postgresql installate)';
 $string['pathtopgdumpinvalid'] = 'Il percorso di pg_dump non è valido, è errato o punta ad un file non eseguibile';
-$string['pathtophp'] = 'Percorso del CLI PHP';
+$string['pathtophp'] = 'Percorso di PHP CLI';
 $string['pathtopsql'] = 'Percorso di psql';
 $string['pathtopsqldesc'] = 'E\' nescessario solo se hai più di un psql sul sistema (per esempio hai più versioni di postgresql installate)';
 $string['pathtopsqlinvalid'] = 'Il percorso di psql non è valido, è errato o punta ad un file non eseguibile';
-$string['pathtopython'] = 'Percorso del Python';
+$string['pathtopython'] = 'Percorso di Python';
 $string['pathtopythondesc'] = 'Il percorso dell’eseguibile binario Python (sono supportati sia Python 2 sia Python 3).';
 $string['pathtosassc'] = 'Percorso di SassC';
 $string['pcreunicodewarning'] = 'Si raccomanda di utilizzare l\'estensione PHP PCRE che è compatibile con i caratteri Unicode.';
@@ -997,11 +998,11 @@ $string['profilingautofrec_help'] = 'L\'impostazione attiverà il profiling auto
 $string['profilingenabled'] = 'Abilita profiling';
 $string['profilingenabled_help'] = 'L\'impostazione abilita le funzioni di profiling, il cui comportamento può essere regolato con le impostazioni che seguono';
 $string['profilingexcluded'] = 'Escludi profiling';
-$string['profilingexcluded_help'] = 'Elenco di URL (separato da virgole, esclusi wwwroot assoluti, richiamabili) che saranno escluse dal profiling rispetto a quelle definite nell\'impostazione "Profila questi"';
+$string['profilingexcluded_help'] = 'Elenco di URL (separato da virgole o da a capo, esclusi wwwroot assoluti, raggiungibili) che saranno esclusi dalla profilazione rispetto a quelle definite nell\'impostazione "Profila questi"';
 $string['profilingimportprefix'] = 'Prefisso importazione profiling';
 $string['profilingimportprefix_desc'] = 'Per una più facile identificazione, tutti i profiling run importati avranno il prefisso specificato.';
 $string['profilingincluded'] = 'Profila questi';
-$string['profilingincluded_help'] = 'Elenco di URL (assolute, senza wwwroot, raggiungibili) separato da virgole da profilare automaticamente. Esempio: /index.php, /course/view.php. E\' anche possibile specificare il carattere jolly * in qualsiasi posizione. Esempio: mod/forum/*, /mod/*/view.php.';
+$string['profilingincluded_help'] = 'Elenco di URL (separato da virgole o da a capo, esclusi wwwroot assoluti, raggiungibili) separato da virgole da profilare automaticamente. Esempio: /index.php, /course/view.php. E\' anche possibile specificare il carattere jolly * in qualsiasi posizione. Esempio: mod/forum/*, /mod/*/view.php.';
 $string['profilinglifetime'] = 'Mantieni profiling run';
 $string['profilinglifetime_help'] = 'Imposta il periodo di conservazione dei profiling run precedenti. I run più vecchi saranno periodicamente eliminati. Da notare che i run di riferimento non saranno eliminati.';
 $string['profilingslow'] = 'Profila pagine lente';
@@ -1230,7 +1231,7 @@ $string['taskglobalsearchindex'] = 'Indicizzazione della ricerca globale';
 $string['taskglobalsearchoptimize'] = 'Ottimizzazione indici della ricerca globale';
 $string['taskgradecron'] = 'Elaborazione in background: registro valutatore';
 $string['taskgradehistorycleanup'] = 'Elaborazione in background: pulizia tabelle dello storico delle valutazioni';
-$string['tasklegacycron'] = 'Elaborazione cron legacy dei plugin';
+$string['tasklegacycron'] = 'Elaborazione cron obsoleti dei pluign';
 $string['tasklogcleanup'] = 'Pulizia log delle elaborazioni';
 $string['tasklogging'] = 'Configurazione log delle elaborazioni';
 $string['task_logmode'] = 'Utilizzo del log';
@@ -1245,14 +1246,14 @@ $string['task_logretention_desc'] = 'Il tempo massimo di conservazione del log. 
 $string['tasklogs'] = 'Log delle elaborazioni pianificate';
 $string['taskmessagingcleanup'] = 'Elaborazione in background: messaggistica';
 $string['taskpasswordresetcleanup'] = 'Pulizia tentativi recupero password';
-$string['taskplagiarismcron'] = 'Elaborazione in background: cron legacy dei plugin prevenzione plagio';
+$string['taskplagiarismcron'] = 'Elaborazione in background: cron obsoleti dei plugin prevenzione plagio';
 $string['taskportfoliocron'] = 'Elaborazione in background: plugin portfolio';
 $string['taskprocessing'] = 'Impostazione elaborazioni';
 $string['taskquestioncron'] = 'Elaborazione in background: pulizia anteprime delle domande';
 $string['taskquestionstatscleanupcron'] = 'Elaborazione in background: pulizia cache delle statistiche delle domande';
 $string['taskrefreshsystemtokens'] = 'Aggiornamento token OAuth per gli account di servizio';
 $string['taskregistrationcron'] = 'Registrazione del sito';
-$string['task_result'] = 'Risultato';
+$string['task_result'] = 'Esito';
 $string['task_result:failed'] = 'Errore';
 $string['task_scheduled_concurrency_limit'] = 'Numero massimo di elaborazione pianificate contemporanee';
 $string['task_scheduled_concurrency_limit_desc'] = 'Il numero massimo consentito di elaborazione pianificate contemporanee. Se il numero è alto, il server potrà subire degrado di prestazioni. Impostando il valore a zero si disabilitano le elaborazioni pianificate. Impostando il valore a zero si disabilita l\'elaborazione ad hoc.';

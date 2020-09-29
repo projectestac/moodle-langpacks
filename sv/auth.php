@@ -126,6 +126,7 @@ $string['recaptcha'] = 'reCAPTCHA';
 $string['recaptcha_help'] = 'CAPATCHA är till för att förhindra missbruk av automatiserade program. Ange orden i rutan i rätt ordning och separerade med ett mellanslag.
 
 Om du inte är säker på vilka ord det är kan du försöka med att få en ny CAPATCHA eller en audio CAPATCHA.';
+$string['security_question'] = 'Säkerhetsfråga';
 $string['selfregistration'] = 'Själv-registrering';
 $string['selfregistration_help'] = 'Välj vilket plugin-program för autenticering som ska hantera själv-registrering.';
 $string['sha1'] = 'SHA-1 grind (hash)';

@@ -444,8 +444,8 @@ $string['creatingcoursemodules'] = 'Ikastaro-moduluak sortzen';
 $string['creatingcourseroles'] = 'Ikastaro mailako rol ezarpenak eta baliogabetzeak sortzen';
 $string['creatingevents'] = 'Ekitaldiak sortzen';
 $string['creatinggradebook'] = 'Kalifikazio-liburua sortzen';
-$string['creatinggroupings'] = 'Taldekatzeak sortzen';
-$string['creatinggroupingsgroups'] = 'Taldeak taldekatzeetara gehitzen';
+$string['creatinggroupings'] = 'Talde-multzoak sortzen';
+$string['creatinggroupingsgroups'] = 'Taldeak talde-multzoetara gehitzen';
 $string['creatinggroups'] = 'Taldeak sortzen';
 $string['creatinglogentries'] = 'Erregistro-sarrerak sortzen';
 $string['creatingmessagesinfo'] = 'Informazio-mezuak sortzen';
@@ -933,9 +933,9 @@ edo ASMO PARTIKULAR BATEN EGOKITZAPENAren bermerik ere.
 Ikusi Moodle Lizentziaren informazio orria xehetasunetarako: https://docs.moodle.org/eu/Lizentzia';
 $string['gpl3'] = 'Copyright (C) 1999tik aurrera Martin Dougiamas (https://moodle.com)
 
-Programa hau software librea da: banatu edota aldatu egin dezakezu Free Software Foundation-ek GNU Lizentzia Publiko Orokorra argitaratutako baldintzetan, edo Lizentziaren 3. bertsioaren, edo (zeuk aukeratu) beste edozein bertsioarenean.
+Programa hau software librea da: banatu edota aldatu egin dezakezu Free Software Foundation-ek argitaratutako GNU Lizentzia Publiko Orokorraren (GPL) baldintzen arabera, Lizentziaren 3. bertsioaren baldintzetan edo edozein bertsio berriagorenetan (zeuk aukeratu).
 
-Programa hau erabilgarri izateko helburuarekin banatzen da, baina INONGO BERMERIK GABE; baita KOMERTZIALIZATU edo BESTE EDOZEIN HELBURU baterako BERMERIK GABE ere.
+Programa hau erabilgarri izateko helburuarekin baina INONGO BERMERIK GABE banatzen da, baita KOMERTZIALIZATU edo BESTE EDOZEIN HELBURU baterako BERMERIK GABE ere.
 
 Ikusi Moodle Lizentziaren informazio-orria zehaztasun gehiagorako: https://docs.moodle.org/eu/Lizentzia';
 $string['gpllicense'] = 'GPL Lizentzia';
@@ -1019,8 +1019,8 @@ $string['idnumbercoursecategory_help'] = 'Ikastaro kategoriaren ID zenbakia soil
 $string['idnumbercourse_help'] = 'Ikastaro baten ID zenbakia ikastaro hori kanpo-sistema batekin erkatzen denean baino ez da erabiltzen - hau ez da inoiz Moodle barruan erakusten. Ikastaroak kode ofiziala baldin badu, hemen erabili; bestela, eremua hutsik utz dezakezu.';
 $string['idnumbergroup'] = 'Taldearen ID zenbakia';
 $string['idnumbergroup_help'] = 'Soilik taldearen ID zenbakia erabiltzen da taldea parekatzeko kanpoko sistemetan, eta gunean ez da inon erakusten. Taldeak kode ofiziala badu, hemen sar dezakezu; bestela, eremua hutsik utz dezakezu.';
-$string['idnumbergrouping'] = 'Taldekatzearen ID zenbakia';
-$string['idnumbergrouping_help'] = 'Soilik taldekatzearen ID zenbakia erabiltzen da taldekatzea parekatzeko kanpoko sistemetan, eta gunean ez da inon erakusten. Taldekatzeak kode ofiziala badu, hemen sar dezakezu; bestela, eremua hutsik utz dezakezu.';
+$string['idnumbergrouping'] = 'Talde-multzoaren ID zenbakia';
+$string['idnumbergrouping_help'] = 'Soilik talde-multzoaren ID zenbakia erabiltzen da talde-multzoa parekatzeko kanpoko sistemetan, eta gunean ez da inon erakusten. Talde-multzoak kode ofiziala badu, hemen sar dezakezu; bestela, eremua hutsik utz dezakezu.';
 $string['idnumbermod'] = 'ID zenbakia';
 $string['idnumbermod_help'] = 'ID zenbaki bat ezarrita kalifikazioak kalkulatzean edo txosten pertsonalizatuetan jarduera identifikatzeko modua izango duzu. Gainerakoan, ID zenbakiaren eremua hutsik utzi daiteke.
 
@@ -1582,7 +1582,7 @@ $string['privacy:metadata:config_log:userid'] = 'Aldaketa egin zuen erabiltzaile
 $string['privacy:metadata:config_log:value'] = 'Ezarpenaren balio berria.';
 $string['privacy:metadata:events_queue'] = 'Ilaran prozesatzeko zai dauden erabiltzaile-ekitaldiak.';
 $string['privacy:metadata:events_queue:eventdata'] = 'Ekitaldian gordetako datuak.';
-$string['privacy:metadata:events_queue:stackdump'] = 'Ekitaldi honen egoerakin lotutako edozein arrasto.';
+$string['privacy:metadata:events_queue:stackdump'] = 'Ekitaldi honen egoerarekin lotutako pilaren edozein arrasto.';
 $string['privacy:metadata:events_queue:timecreated'] = 'Ekitaldi hau sortu zeneko unea.';
 $string['privacy:metadata:events_queue:userid'] = 'Ekitaldi hau sortu zuen erabiltzailearen IDa';
 $string['privacy:metadata:log'] = 'Igarotako ekitaldien bilduma';
@@ -1595,15 +1595,15 @@ $string['privacy:metadata:log:module'] = 'Modulua';
 $string['privacy:metadata:log:time'] = 'Ekintza gertatu zeneko unea';
 $string['privacy:metadata:log:url'] = 'Ekitaldiarekin lotutako URLa';
 $string['privacy:metadata:log:userid'] = 'Ekintza egin zuen erabiltzailearen IDa';
-$string['privacy:metadata:task_adhoc'] = 'Ad hoc zereginen egoera.';
-$string['privacy:metadata:task_adhoc:component'] = 'Zereginaren jabea den osagaia.';
-$string['privacy:metadata:task_adhoc:nextruntime'] = 'Zeregina exekutatzeko lehenbiziko unea.';
-$string['privacy:metadata:task_adhoc:userid'] = 'Zeregina exekutatuko duen erabiltzailea.';
+$string['privacy:metadata:task_adhoc'] = 'Ad hoc atazen egoera.';
+$string['privacy:metadata:task_adhoc:component'] = 'Atazaren jabea den osagaia.';
+$string['privacy:metadata:task_adhoc:nextruntime'] = 'Ataza exekutatzeko lehenbiziko unea.';
+$string['privacy:metadata:task_adhoc:userid'] = 'Ataza exekutatuko duen erabiltzailea.';
 $string['privacy:metadata:task_log'] = 'Erregistro batentzako irteera';
-$string['privacy:metadata:task_log:component'] = 'Zereginaren jabea den osagaia.';
-$string['privacy:metadata:task_log:userid'] = 'Zereginari dagokion erabiltzailea.';
+$string['privacy:metadata:task_log:component'] = 'Atazaren jabea den osagaia.';
+$string['privacy:metadata:task_log:userid'] = 'Atazari dagokion erabiltzailea.';
 $string['privacy:metadata:upgrade_log'] = 'Eguneraketen erregistroa.';
-$string['privacy:metadata:upgrade_log:backtrace'] = 'Eguneraketa-pauso honekin lotutako edozein arrasto.';
+$string['privacy:metadata:upgrade_log:backtrace'] = 'Eguneraketa-pauso honekin lotutako pilaren edozein arrasto.';
 $string['privacy:metadata:upgrade_log:details'] = 'Eguneraketarekin lotutako informazio gehigarria.';
 $string['privacy:metadata:upgrade_log:info'] = 'Eguneraketa-pauso honekin lotutako informazio nagusia.';
 $string['privacy:metadata:upgrade_log:plugin'] = 'Eguneratu den plugina.';
@@ -2211,8 +2211,8 @@ $string['writingcoursedata'] = 'Ikastaroaren informazioa idazten';
 $string['writingeventsinfo'] = 'Ekitaldiaren informazioa idazten';
 $string['writinggeneralinfo'] = 'Informazio orokorra idazten';
 $string['writinggradebookinfo'] = 'Kalifikazio-liburuaren informazioa idazten';
-$string['writinggroupingsgroupsinfo'] = 'Taldekatzeen eta taldeen informazioa idazten';
-$string['writinggroupingsinfo'] = 'Taldekatzeen informazioa idazten';
+$string['writinggroupingsgroupsinfo'] = 'Talde-multzoen eta taldeen informazioa idazten';
+$string['writinggroupingsinfo'] = 'Talde-multzoen informazioa idazten';
 $string['writinggroupsinfo'] = 'Taldeen informazioa idazten';
 $string['writingheader'] = 'Izenburua idazten';
 $string['writingloginfo'] = 'Erregistroen informazioa idazten';

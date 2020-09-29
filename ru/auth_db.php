@@ -72,6 +72,7 @@ $string['auth_dbtableempty'] = 'Внешняя таблица пуста.';
 $string['auth_dbtable_key'] = 'Таблица';
 $string['auth_dbtype'] = 'Тип базы данных (подробнее в <a href="http://adodb.org/dokuwiki/doku.php" target="_blank">ADOdb - Database Abstraction Layer for PHP</a>).';
 $string['auth_dbtype_key'] = 'База данных';
+$string['auth_dbupdateerror'] = 'Ошибка обновления внешней базы данных.';
 $string['auth_dbupdateusers'] = 'Обновить пользователей';
 $string['auth_dbupdateusers_description'] = 'Помимо добавления новых пользователей обновляются существующие пользователи.';
 $string['auth_dbupdatinguser'] = 'Обновление пользователя «{$a->name}» id {$a->id}';

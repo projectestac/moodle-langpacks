@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['courseoverview:view'] = 'عرض نظرة عامة على تقرير المقرر';
-$string['pluginname'] = 'معاينة مقرر دراسي';
+$string['courseoverview:view'] = 'معاينة تقرير استعراض المساق';
+$string['pluginname'] = 'استعراض المساق';
+$string['privacy:metadata'] = 'إن ملحق استعراض المساق لا يخزن أي بيانات شخصية.';

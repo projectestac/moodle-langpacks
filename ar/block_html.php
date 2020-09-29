@@ -25,7 +25,15 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['allowadditionalcssclasses'] = 'إسمح بصنوف CSS إضافية';
+$string['configallowadditionalcssclasses'] = 'أضف خياراً لتهيئة عينة كتلة HTML يسمح بوضع صنوف CSS إضافية.';
+$string['configclasses'] = 'صنوف CSS إضاقية';
+$string['configclasses_help'] = 'الغرض من هذه التهيئة هو لإعانة التنميط عبر المساعدة في التمييز ما بين كتل HTML المختلفة. أي صنوف CSS يتم إدخالها هنا (مفصولة بفراغات) سيتم إلحاقها بالصنوف الافتراضية للكتلة.';
 $string['configcontent'] = 'المحتوى';
-$string['configtitle'] = 'عنوان الكتلة';
-$string['newhtmlblock'] = '(كتلة أتش تي ام ال جديدة)';
-$string['pluginname'] = ' أتش تي ام ال';
+$string['configtitle'] = 'عنوان كتلة HTML';
+$string['html:addinstance'] = 'إضافة كتلة جديدة من HTML';
+$string['html:myaddinstance'] = 'إضافة كتلة جديدة من HTML إلى دفة القيادة';
+$string['newhtmlblock'] = '(كتلة HTML جديدة)';
+$string['pluginname'] = 'HTML';
+$string['privacy:metadata:block'] = 'إن كتلة HTML تخزن كل بياناتها ضمن النظام الفرعي للكتل.';
+$string['search:content'] = 'محتوى كتلة HTML';

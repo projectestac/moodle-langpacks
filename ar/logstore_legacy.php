@@ -25,13 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['eventlegacylogged'] = 'تم تسجيل الحدث القديم';
-$string['loglegacy'] = 'تسجيل البيانات القديمة';
+$string['eventlegacylogged'] = 'تم توثيق الحدث القديم';
+$string['loglegacy'] = 'توثيق البيانات القديمة';
 $string['loglegacy_help'] = 'يسجل هذا البرنامج المساعد بيانات السجل إلى جدول السجل القديم (mdl_log). تم استبدال هذه الوظيفة بمكونات إضافية لتسجيل الدخول أكثر ثراءً و فعالية ، لذا يجب عليك تشغيل هذا المكون الإضافي فقط إذا كان لديك تقارير مخصصة قديمة تستعلم مباشرة عن جدول السجل القديم. ستؤدي الكتابة إلى السجلات القديمة إلى زيادة الحمل ، لذلك يوصى بتعطيل هذا المكون الإضافي لأسباب تتعلق بالأداء عندما لا تكون هناك حاجة إليه.';
 $string['pluginname'] = 'السجل القديم';
 $string['pluginname_desc'] = 'المكون الإضافي log يقوم بتخزين إدخالات السجل في جدول السجل القديم.';
 $string['privacy:metadata:log'] = 'مجموعة من الأحداث الماضية';
-$string['privacy:metadata:log:action'] = 'وصف للإجراء';
+$string['privacy:metadata:log:action'] = 'وصف الإجراء';
 $string['privacy:metadata:log:info'] = 'معلومة إضافية';
 $string['privacy:metadata:log:ip'] = 'عنوان IP المستخدم في وقت الحدث';
 $string['privacy:metadata:log:time'] = 'الوقت الذي حدث فيه الإجراء';

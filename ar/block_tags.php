@@ -25,6 +25,19 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['anycollection'] = 'أي';
+$string['anytype'] = 'الكل';
 $string['configtitle'] = 'عنوان الكتلة';
+$string['defaultdisplay'] = 'إعرض الوسوم';
 $string['disabledtags'] = 'الوسوم غير مفعّلة';
 $string['pluginname'] = 'وسوم';
+$string['privacy:metadata'] = 'كتلة الوسوم تظهر فقط البيانات المخزونة في مواضع أخرى.';
+$string['recursivecontext'] = 'تضمين السياقات الفرعية';
+$string['recursivecontext_help'] = 'عند عدم تأشيرها، وسوم العناصر في السياق المحدد أعلاه سيتم عرضها، ولكن ليس الوسوم في السياقات الأدنى. على سبيل المثال، قد تظهر وسوم المساق، ولكن ليس وسوم النشاطات فيه.';
+$string['standardonly'] = 'القياسية فقط';
+$string['tagcollection'] = 'مجموعة الوسوم';
+$string['tagcollection_help'] = 'إختر مجموعة الوسوم التي تريد عرض الوسوم منها. إذا اخترت "أي"، فإن وسوم كل المجموعات باستثناء تلك المعلمة بـ * سيتم عرضها';
+$string['taggeditemscontext'] = 'سياق العناصر الموسومة';
+$string['taggeditemscontext_help'] = 'بإمكانك جعل غيمة الوسوم مقتصرة على تلك الموجودة في تصنيف المساق الحالي، أو المساق، أو الوحدة';
+$string['tags:addinstance'] = 'إضافة كتلة جديدة من الوسوم';
+$string['tags:myaddinstance'] = 'إضافة كتلة جديدة من الوسوم إلى دفة القيادة';

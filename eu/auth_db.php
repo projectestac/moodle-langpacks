@@ -64,12 +64,13 @@ $string['auth_dbsuspenduser'] = 'Kontua etendako erabiltzailea ({$a->name}) eta 
 $string['auth_dbsuspendusererror'] = 'Errorea {$a} erabiltzailea suspenditzean';
 $string['auth_dbsybasequoting'] = 'Erabili sybase kakotxak (quotes)';
 $string['auth_dbsybasequotinghelp'] = 'Sybase motako kakotx sinpleen ihesbidea - beharrezkoa Oracle, MS SQL eta beste datu-base batzuetan. Ez erabil MySQL-rentzat!';
-$string['auth_dbsyncuserstask'] = 'Sinkronizatu erabiltzaileak zeregina';
+$string['auth_dbsyncuserstask'] = 'Sinkronizatu erabiltzaileak ataza';
 $string['auth_dbtable'] = 'Taularen izena datu-basean';
 $string['auth_dbtableempty'] = 'Kanpoko taula hutsik dago.';
 $string['auth_dbtable_key'] = 'Taula';
 $string['auth_dbtype'] = 'Datu-base mota (ikusi dokumentazioa <a href="http://adodb.org/dokuwiki/doku.php" target="_blank">ADOdb - Database Abstraction Layer for PHP</a> zehaztasun gehiagorako).';
 $string['auth_dbtype_key'] = 'Datu-basea';
+$string['auth_dbupdateerror'] = 'Errorea kanpoko datu-basea eguneratzean.';
 $string['auth_dbupdateusers'] = 'Eguneratu erabiltzaileak';
 $string['auth_dbupdateusers_description'] = 'Erabiltzaile berriak sortzeaz gain, lehendik daudenak eguneratu.';
 $string['auth_dbupdatinguser'] = '{$a->name} id {$a->id} erabiltzailea eguneratzen';

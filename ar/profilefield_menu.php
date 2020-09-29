@@ -25,4 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'قائمة الخيارات';
+$string['pluginname'] = 'قائمة منسدلة';
+$string['privacy:metadata:profilefield_menu:data'] = 'بيانات المستخدم لحقل الملف الشخصي بشكل قائمة منسدلة';
+$string['privacy:metadata:profilefield_menu:dataformat'] = 'تنسيق القائمة المنسدلة لبيانات المستخدم لحقل الملف الشخصي';
+$string['privacy:metadata:profilefield_menu:fieldid'] = 'مُعرَّف حقل الملف الشخصي';
+$string['privacy:metadata:profilefield_menu:tableexplanation'] = 'بيانات الملف الشخصي الإضافية';
+$string['privacy:metadata:profilefield_menu:userid'] = 'مُعرَّف المستخدم الذي تحفظ بياناته بواسطة القائمة المنسدلة لحقل الملف الشخصي';

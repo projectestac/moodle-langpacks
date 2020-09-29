@@ -25,39 +25,51 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['configdisplayoptions'] = 'إختر كل الخيارات التي تنبغي إتاحتها. الإعدادات الموجودة لا يتم تعديلها. استمر بالضغط على مفتاح CTRL لتحديد حقول متعددة.';
 $string['content'] = 'محتوى الصفحة';
-$string['contentheader'] = 'محتوى';
+$string['contentheader'] = 'المحتوى';
 $string['createpage'] = 'إنشاء مصدر صفحة جديد';
 $string['displayoptions'] = 'عرض الخيارات المتاحة';
 $string['displayselect'] = 'عرض';
-$string['displayselectexplain'] = 'اختر نوع العرض';
-$string['legacyfiles'] = 'ترحيل ملفات المقرر الدراسي القديمة';
+$string['displayselectexplain'] = 'إختر نوع العرض.';
+$string['indicator:cognitivedepth'] = 'الصفحة معرفياً';
+$string['indicator:cognitivedepthdef'] = 'الصفحة معرفياً';
+$string['indicator:cognitivedepthdef_help'] = 'لقد وصل المشارك إلى هذه النسبة المئوية من المشاركة المعرفية التي وفرتها موارد الصفحة خلال فترة التحليل هذه (المستويات = لا معاينة، معاينة)';
+$string['indicator:cognitivedepth_help'] = 'هذا المؤشر مبني على عمق الحالة المعرفية التي وصلها الطالب في مورد الصفحة.';
+$string['indicator:socialbreadth'] = 'الصفحة إجتماعياً';
+$string['indicator:socialbreadthdef'] = 'الصفحة إجتماعياً';
+$string['indicator:socialbreadthdef_help'] = 'لقد وصل المشارك إلى هذه النسبة المئوية من المشاركة الاجتماعية التي وفرتها موارد الصفحة خلال فترة التحليل هذه (المستويات = لا مشاركة، المشاركة منفرداً)';
+$string['indicator:socialbreadth_help'] = 'هذا المؤشر مبني على عمق التوسع الاجتماعي الذي وصله الطالب في مورد الصفحة.';
+$string['legacyfiles'] = 'ترحيل ملف المساق القديم';
 $string['legacyfilesactive'] = 'نشط';
 $string['legacyfilesdone'] = 'انتهى';
 $string['modulename'] = 'صفحة';
-$string['modulename_help'] = 'المقرروحدة الصفحة تمكن المعلم لإنشاء مصدر كصفحة ويب باستخدام محرر النصوص. يمكن أن تعرض الصفحة  النصوص والصور والصوت والفيديو، وكذلك وصلات الإنترنت والتعليمات البرمجية المضمنة، مثل خرائط جوجل.
+$string['modulename_help'] = 'وحدة الصفحة تمكن المعلم من إنشاء مورد كصفحة ويب باستعمال محرر النصوص. يمكن أن تعرض الصفحة النصوص والصور والصوت والفيديو، وكذلك روابط الإنترنت والتعليمات البرمجية المضمنة، مثل خرائط Google.
 
-وتشمل مزايا استخدام وحدة الصفحة بدلاً من وحدة الملف  كونها مصدر أكثر سهولة (على سبيل المثال لمستخدمي الأجهزة النقالة) وأسهل للتحديث.
+وتشمل مزايا استعمال وحدة الصفحة بدلاً من وحدة الملف كونها مورد أكثر سهولة للوصول إليه (على سبيل المثال لمستخدمي الأجهزة النقالة) وأسهل للتحديث.
 
-لكميات كبيرة من المحتوى، من المستحسن أن يتم استخدام الكتاب كمصدر بدلاً من الصفحة.
+لكميات كبيرة من المحتوى، من المستحسن أن يتم استخدام الكتاب كمورد بدلاً من الصفحة.
 
-يمكن استخدام مصدر الصفحة
+يمكن استعمال مصدر الصفحة:
 
-* لعرض بنود وشروط المقرر الدراسي أو لعرض وصف المقرر
+* لعرض بنود وشروط المساق أو لعرض ملخص المنهج الدراسي
 * لتضمين العديد من أشرطة الفيديو أو ملفات الصوت مع بعض النصوص التوضيحية';
 $string['modulenameplural'] = 'صفحات';
-$string['optionsheader'] = 'خيارات';
+$string['optionsheader'] = 'خيارات العرض';
 $string['page:addinstance'] = 'إضافة مصدر صفحة جديد';
 $string['page-mod-page-x'] = 'أي صفحة لوحدة الصفحة';
-$string['page:view'] = 'عاين محتوى الصفحة';
-$string['pluginadministration'] = 'إدارة وحدة الصفحات';
-$string['pluginname'] = 'صفحة';
+$string['page:view'] = 'معاينة محتوى الصفحة';
+$string['pluginadministration'] = 'إدارة وحدة الصفحة';
+$string['pluginname'] = 'الصفحة';
 $string['popupheight'] = 'ارتفاع النوافذ المنبثقة (بالبكسل)';
 $string['popupheightexplain'] = 'يحدد الارتفاع الافتراضي للنوافذ المنبثقة.';
 $string['popupwidth'] = 'عرض النوافذ المنبثقة (بالبكسل)';
 $string['popupwidthexplain'] = 'يحدد العرض الافتراضي للنوافذ المنبثقة.';
 $string['printheading'] = 'عرض اسم الصفحة';
 $string['printheadingexplain'] = 'عرض اسم الصفحة فوق المحتوى؟';
-$string['printintro'] = 'اعرص وصف الصفحة';
-$string['printintroexplain'] = 'اعرض وصف الصفحة فوق المحتوى';
-$string['search:activity'] = 'صفحة';
+$string['printintro'] = 'عرض وصف الصفحة';
+$string['printintroexplain'] = 'أتريد عرض وصف الصفحة فوق المحتوى؟';
+$string['printlastmodified'] = 'إعرض تاريخ آخر تعديل';
+$string['printlastmodifiedexplain'] = 'أتريد عرض تاريخ آخر تعديل أسفل المحتوى؟';
+$string['privacy:metadata'] = 'إن ملحق مورد الصفحة لا يخزن أي بيانات شخصية.';
+$string['search:activity'] = 'الصفحة';

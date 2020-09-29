@@ -25,10 +25,18 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['incby1'] = 'زِدهُ بمقدار';
+$string['incby1_help'] = 'هذه قيمة زيادة المقطع عند كل مرة يتم فيها عرض رابط مقطع بدءاً من 1.';
+$string['incby2'] = 'بدلاً، زِدهُ بمقدار';
+$string['incby2_help'] = 'هذه قيمة زيادة المقطع عند كل مرة يتم فيها عرض رابط مقطع بدءاً من 1.';
 $string['jumptocurrenttopic'] = 'الأنتقال إلى الموضوع الحالي';
 $string['jumptocurrentweek'] = 'الأنتقال إلى الأسبوع الحالي';
-$string['numsections1'] = 'عدد الاقسام';
-$string['numsections2'] = 'عدد الاقسام البديل';
-$string['pluginname'] = 'روابط القسم';
+$string['numsections1'] = 'عدد المقاطع';
+$string['numsections1_help'] = 'بمجرد وصول عدد المقاطع في المساق إلى هذا العدد، فسيتم استعمال الزيادة حسب القيم.';
+$string['numsections2'] = 'عدد المقاطع البديل';
+$string['numsections2_help'] = 'بمجرد وصول عدد المقاطع في المساق إلى هذا العدد، فسيتم استعمال الزيادة حسب القيم البديلة.';
+$string['pluginname'] = 'روابط المقطع';
+$string['privacy:metadata'] = 'كتلة روابط المقاطع تظهر فقط البيانات المخزونة في مواضع أخرى.';
+$string['section_links:addinstance'] = 'إضافة كتلة جديدة لروابط المقاطع';
 $string['topics'] = 'مواضيع';
 $string['weeks'] = 'أسابيع';

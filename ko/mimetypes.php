@@ -36,10 +36,12 @@ $string['application/vnd.openxmlformats-officedocument.presentationml.slideshow'
 $string['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'] = '엑셀 스프레드쉬트';
 $string['application/vnd.openxmlformats-officedocument.spreadsheetml.template'] = '엑셀 템플릿';
 $string['application/vnd.openxmlformats-officedocument.wordprocessingml.document'] = '워드 문서';
+$string['application/x-javascript'] = 'JavaScript 소스';
 $string['archive'] = '아카이브 ({$a->EXT})';
 $string['audio'] = '오디오 파일 ({$a->EXT})';
 $string['default'] = '{$a->mimetype}';
 $string['document/unknown'] = '파일';
+$string['group:video'] = '비디오 파일';
 $string['image'] = '이미지 ({$a->MIMETYPE2})';
 $string['text/html'] = 'HTML 문서';
 $string['text/plain'] = '텍스트 파일';

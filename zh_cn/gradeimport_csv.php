@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['csv:view'] = '从 CSV 文件导入成绩';
+$string['csv:view'] = '从 CSV 导入成绩';
 $string['pluginname'] = 'CSV 文件';
+$string['privacy:metadata'] = '从 CSV 导入成绩插件不存储任何个人数据。';

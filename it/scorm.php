@@ -215,6 +215,7 @@ $string['invalidactivity'] = 'L\'attività SCORM è errata';
 $string['invalidhacpsession'] = 'La sessione HACP non è valida';
 $string['invalidmanifestname'] = 'E\' possibile selezionare solamente file imsmanifest.xml oppure .zip';
 $string['invalidmanifestresource'] = 'ATTENZIONE: le seguenti risorse sono presenti nel manifest ma non è stato possibile trovarle:';
+$string['invalidstatus'] = 'Stato non valido';
 $string['invalidurl'] = 'La URL specificata non è valida';
 $string['invalidurlhttpcheck'] = 'E\' stato specificato un URL non valido: Messaggio di debug: <pre> {$a->cmsg} </pre>';
 $string['last'] = 'Accesso più recente il';

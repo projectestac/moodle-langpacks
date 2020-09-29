@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['crontask'] = 'Procesamento en segundo plano para asignación programada';
 $string['currentstatus'] = 'Estado actual';
 $string['currentstatusexecution'] = 'Estado';
 $string['currentstatusexecution1'] = 'Executado o {$a->datetime}';
@@ -40,6 +41,7 @@ $string['currentstatusresult'] = 'Resultado da execución recente';
 $string['enablescheduled'] = 'Activar a asignación programada';
 $string['enablescheduledinfo'] = 'Asignar automaticamente as entregas ao final da fase de entregas.';
 $string['pluginname'] = 'Asignación programada';
+$string['privacy:metadata'] = 'O engadido de Asignación programada non almacena datos persoais. Os datos persoais reais sobre quen vai avaliar a quen están almacenados polo propio módulo de Obradoiro e son a base para exportar os detalles das avaliacións.';
 $string['randomallocationsettings'] = 'Axustes da asignación';
 $string['randomallocationsettings_help'] = 'Aquí defínense os parámetros para o método de asignación ao chou. Serán usados polo engadido de asignación ao chou para facer a asignación das entregas.';
 $string['resultdisabled'] = 'Desactivada a asignación programada';

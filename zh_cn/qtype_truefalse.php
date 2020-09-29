@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['correctanswer'] = '正确答案';
-$string['correctanswerfalse'] = '正确的答案是“错”。';
-$string['correctanswertrue'] = '正确的答案是“对”。';
+$string['correctanswerfalse'] = '正确答案是“错”。';
+$string['correctanswertrue'] = '正确答案是“对”。';
 $string['false'] = '错';
 $string['feedbackfalse'] = '选择“错”时的反馈。';
 $string['feedbacktrue'] = '选择“对”时的反馈。';

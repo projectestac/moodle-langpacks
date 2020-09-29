@@ -25,7 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['eventcomponent'] = 'عنصر';
+$string['allsources'] = 'كل المصادر';
+$string['cli'] = 'واجهة سطر الأوامر';
+$string['eventcomponent'] = 'المُكوِّن';
 $string['eventcontext'] = 'سياق الحدث';
 $string['eventloggedas'] = '{$a->realusername} كـ {$a->asusername}';
 $string['eventorigin'] = 'المصدر';
@@ -33,10 +35,19 @@ $string['eventrelatedfullnameuser'] = 'المستخدم المتأثر';
 $string['eventreportviewed'] = 'تم استعراض تقرير السجل';
 $string['eventuserreportviewed'] = 'تم استعراض تقرير سجل المستخدم';
 $string['logsformat'] = 'تنسيق السجلات';
-$string['log:view'] = 'معاينة السجلات مقرر دراسي';
-$string['log:viewtoday'] = 'السجلات النشطة لهذا اليوم';
+$string['log:view'] = 'معاينة سجلات وقوعات المساق';
+$string['log:viewtoday'] = 'معاينة سجلات الوقوعات لهذا اليوم';
+$string['nocapability'] = 'تعذر الوصول إلى تقرير سجل وقوعات المستخدم';
+$string['nologreaderenabled'] = 'لا قارئ مُمَكَّن لسجل الوقوعات';
+$string['origin'] = 'المصدر';
+$string['other'] = 'غيره';
 $string['page'] = 'صفحة {$a}';
 $string['page-report-log-index'] = 'تقرير سجل المقرر الدراسي';
 $string['page-report-log-user'] = 'تقرير سجل المستخدم للمقرر الدراسي';
 $string['page-report-log-x'] = 'تقرير أي من السجلات';
-$string['pluginname'] = 'سجلات نشطة';
+$string['pluginname'] = 'سجلات الوقوعات';
+$string['privacy:metadata'] = 'إن ملحقسجلات الوقوعات لا يخزن أي بيانات شخصية.';
+$string['restore'] = 'استعادة';
+$string['selectlogreader'] = 'إختر قارئ سجل الوقوعات';
+$string['web'] = 'الويب';
+$string['ws'] = 'خدمة الويب';

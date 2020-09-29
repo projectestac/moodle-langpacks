@@ -284,6 +284,7 @@ $string['gradeexportuserprofilefields_desc'] = 'Imposta i campi del profilo uten
 $string['gradeforstudent'] = '{$a->student}<br />{$a->item}{$a->feedback}';
 $string['gradegrademinmax'] = 'Valutazione minima e massima iniziale';
 $string['gradehelp'] = 'Help valutazioni';
+$string['grade_help'] = 'Il punteggio da dare allo studente per il suo lavoro.';
 $string['gradehistorylifetime'] = 'Durata storico delle valutazioni';
 $string['gradehistorylifetime_help'] = 'Specifica per quanto tempo si vuole conservare lo storico delle modifiche nelle tabelle relative alle valutazioni. Si raccomanda di definire un tempo più lungo possibile. Se si manifestano problemi di performance o si dispone di spazio limitato per il database, impostare un valore più basso.';
 $string['gradeimport'] = 'Importazione valutazioni';

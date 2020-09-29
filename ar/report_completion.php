@@ -25,7 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['clicktomarkusercomplete'] = 'أنقر لتأشير المستخدم على أنه مكتمل';
 $string['completiondate'] = 'تاريخ الإتمام';
-$string['completion:view'] = 'معاينة تقرير إتمام مقرر دراسي';
+$string['completion:view'] = 'معاينة تقرير إكمال المساق';
+$string['eventreportviewed'] = 'تمت معاينة تقرير الإكمال';
+$string['eventuserreportviewed'] = 'تمت معاينة تقرير إكمال المستخدم';
+$string['id'] = 'المُعرَّف';
 $string['name'] = 'الاسم';
-$string['pluginname'] = 'إتمام مقرر دراسي';
+$string['nocapability'] = 'تعذر الوصول إلى تقرير إكمال المستخدم';
+$string['page-report-completion-index'] = 'تقرير إكمال المساق';
+$string['page-report-completion-user'] = 'تقرير إكمال المستخدم للمساق';
+$string['page-report-completion-x'] = 'أي تقرير إكمال';
+$string['pluginname'] = 'إكمال المساق';
+$string['privacy:metadata'] = 'تقرير إكمال المساق يظهر فقط البيانات المحفوظة في مواضع أخرى.';

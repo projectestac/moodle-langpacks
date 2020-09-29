@@ -26,6 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['incomingmailconfiguration'] = 'Inställningar för inkommande mejl';
+$string['messageprocessingsuccess'] = '{$a->plain}
+
+Om du inte vill fortsätta få dessa notiser kan du ändra dina personliga meddelandeinställningar genom att gå till  {$a->messagepreferencesurl} i din webbläsare.';
+$string['messageprocessingsuccesshtml'] = '{$a->html}
+<p>Om du inte vill fortsätta få dessa notiser kan du <a href="{$a->messagepreferencesurl}">ändra dina personliga meddelandeinställningar</a>.</p>';
 $string['messageprovider:invalidrecipienthandler'] = 'Meddelande för att bekräfta att ett inkommande meddelande kom från dig';
 $string['messageprovider:messageprocessingerror'] = 'Varning när ett inkommande meddelande inte kunnat bearbetas.';
 $string['messageprovider:messageprocessingsuccess'] = 'Bekräftelse att ett meddelande har bearbetats framgångsrikt.';

@@ -378,9 +378,9 @@ $string['graceperiod_desc'] = 'Si està definit què fer quan el temps expira co
 $string['graceperiod_help'] = 'Si està definit què fer quan el temps expira com a \'Permet un període de gràcia per a l\'enviament, però no canvies les respostes\', s\'estableix la quantitat predeterminada de temps extra que es permet.';
 $string['graceperiodmin'] = 'Últim període de gràcia per a la tramesa';
 $string['graceperiodmin_desc'] = 'Hi ha un problema potencial just al final del qüestionari.
-D\'una banda, volem permetre que l\'estudiantat continuï treballant fins l\'últim segon - amb l\'ajuda del temporitzador que automàticament envia el qüestionari quan s\'esgota el temps.
-D\'altra banda, el servidor pot estar sobrecarregat i prendre\'s un temps per acabar de processar les respostes.
-Per tant, acceptarem les respostes fins a aquesta quantitat de segons després que el temps expiri, perquè no siguin sancionats per un servidor lent.
+D\'una banda, volem permetre que els estudiants continuïn treballant fins a l\'últim segon, amb l\'ajuda del cronòmetre, que, de manera automàtica, tramet el qüestionari quan el temps s\'acaba.
+D\'altra banda, el servidor pot estar sobrecarregat, i potser es prengui un temps per acabar de processar les respostes.
+Per tant, acceptarem les respostes fins a aquesta quantitat de segons després que el temps s\'acabi, perquè els estudiants no siguin sancionats per mor d\'un servidor lent.
 No obstant això, l\'estudiant podria fer trampa i obtenir aquesta quantitat de segons per contestar el qüestionari. Heu de fer una compensació basada en la fiabilitat del rendiment del vostre servidor durant els qüestionaris.';
 $string['graceperiodtoosmall'] = 'El període de gràcia ha de ser més gran que {$a}.';
 $string['grade'] = 'Qualificació';
@@ -582,7 +582,7 @@ $string['overduehandlingautoabandon'] = 'Els intents s\'han d\'enviar abans que 
 $string['overduehandlingautosubmit'] = 'Els intents oberts s\'envien automàticament';
 $string['overduehandling_desc'] = 'Què hauria de passar per defecte si un estudiant no envia el qüestionari abans que expiri el temps.';
 $string['overduehandlinggraceperiod'] = 'Hi ha un període de gràcia durant el qual els intents oberts es poden enviar, però no es poden contestar més preguntes';
-$string['overduehandling_help'] = 'Aquest paràmetre controla què ocorre si l\'estudiantat no envia el seu intent del qüestionari abans que el temps expiri. Si l\'estudiant està treballant activament en el qüestionari fins al moment, el temporitzador de compte enrere enviarà l\'intent per ell, però si ha tancat la sessió, aquest paràmetre controla què passa.';
+$string['overduehandling_help'] = 'Aquest paràmetre controla què ocorre si un estudiant no envia el seu intent del qüestionari abans que el temps s\'acabi. Si l\'estudiant treballa de manera activa en el qüestionari en aquell moment, el cronòmetre de compte enrere tramet sempre l\'intent de manera automàtica, però si l\'estudiant ha tancat la sessió, aleshores aquest paràmetre controla què passa.';
 $string['overduemustbesubmittedby'] = 'Aquest intent ha arribat al termini de venciment. Ja s\'hauria d\'haver tramès. Si voleu que aquest qüestionari us sigui qualificat, l\'heu de trametre abans de {$a}. Si no el trameteu llavors, no es comptabilitzarà cap qualificació d\'aquest intent.';
 $string['override'] = 'Excepció';
 $string['overridedeletegroupsure'] = 'Segur que voleu sborrar l\'excepció pel grup {$a}?';
@@ -794,15 +794,15 @@ $string['reviewofquestion'] = 'Revisió de la pregunta {$a->question} en {$a->qu
 $string['reviewopen'] = 'Més tard, mentre encara estigui obert el qüestionari';
 $string['reviewoptions'] = 'Els estudiants poden revisar';
 $string['reviewoptionsheading'] = 'Opcions de revisió';
-$string['reviewoptionsheading_help'] = 'Aquestes opcions controlen quina informació pot veure l\'estudiantat quan revise un intent del qüestionari o quan veu els informes del qüestionari.
+$string['reviewoptionsheading_help'] = 'Aquestes opcions controlen quina informació poden veure els estudiants quan revisen un intent del qüestionari o quan veuen els informes del qüestionari.
 
-**Durant l\'intent**, només rellevant per a alguns comportaments, com ara \'interactiu amb múltiples intents\', el qual pot mostrar retroaccions durant l\'intent.
+**Durant l\'intent**, els paràmetres només són rellevants per a alguns comportaments, com ara «interactiu amb múltiples intents», el qual pot mostrar retroaccions durant l\'intent.
 
-**Immediatament després de cada intent**, durant els dos minuts següents després de fer clic en el botó "Envia i acaba".
+**Immediatament després de cada intent**, els paràmetres s\'apliquen durant els dos minuts següents després d\'haver fet clic al botó «Envia-ho tot i acaba».
 
-**Més tard, mentre encara estigui obert el qüestionari**, després de passar els primers dos minuts i abans de la data de tancament del qüestionari.
+**Més tard, mentre encara estigui obert el qüestionari**, els paràmetres s\'apliquen després de passar els primers dos minuts i abans de la data de tancament del qüestionari.
 
-**Després que es tanqui el qüestionari**, després que hagi passat la data de tancament del qüestionari. Si el qüestionari no té data de tancament, no s\'arribarà mai a aquest punt.';
+**Després que es tanqui el qüestionari**, els paràmetres s\'apliquen després que hagi passat la data de tancament del qüestionari. Si el qüestionari no té data de tancament, no s\'arribarà mai a aquest punt.';
 $string['reviewoverallfeedback'] = 'Retroacció global';
 $string['reviewoverallfeedback_help'] = 'La retroacció donada al final de l\'intent, depenent de la puntuació total de l\'estudiant.';
 $string['reviewresponse'] = 'Revisa la resposta';
@@ -897,7 +897,7 @@ $string['stateoverdue'] = 'Venciment';
 $string['stateoverduedetails'] = 'Ha d\'enviar-se en {$a}';
 $string['status'] = 'Estat';
 $string['stoponerror'] = 'Atura si es produeix un error';
-$string['submitallandfinish'] = 'Envia i acaba';
+$string['submitallandfinish'] = 'Envia-ho tot i acaba';
 $string['subneterror'] = 'Aquest qüestionari ha estat blocat i només és accessible des de certes ubicacions. A hores d\'ara el vostre ordinador no és un dels que han estat autoritzats.';
 $string['subnetnotice'] = 'Aquest qüestionari ha estat blocat de manera que només sigui accessible des de certes ubicacions. El vostre ordinador no es troba en una subxarxa autoritzada. Tanmateix com a professor podeu previsualitzar-lo.';
 $string['subplugintype_quiz'] = 'Informe';

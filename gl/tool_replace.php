@@ -36,6 +36,7 @@ $string['notimplemented'] = 'Esta característica non está incorporada no seu c
 $string['notsupported'] = 'Este script debería de ser considerado como experimental. Os cambios que faga non poden ser revertidos, polo que debería de facerse unha copia de seguridade completa antes de executar o script!';
 $string['pageheader'] = 'Buscar e substituír texto dentro de toda a base de datos';
 $string['pluginname'] = 'Buscar e substituír en bases de datos';
+$string['privacy:metadata'] = 'O engadido de Buscar e substituír en bases de datos non almacena ningunha información persoal.';
 $string['replacewith'] = 'Substituír con esta cadea';
 $string['replacewithhelp'] = 'usualmente o URL do novo servidor';
 $string['searchwholedb'] = 'Buscar en toda a base de datos para';

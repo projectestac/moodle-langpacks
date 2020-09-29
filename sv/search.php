@@ -64,6 +64,7 @@ $string['runindexer'] = 'Kör indexeraren (real)';
 $string['runindexertest'] = 'Kör test av indexeraren';
 $string['score'] = 'Resultat';
 $string['search'] = 'Sök';
+$string['search:customfield'] = 'Anpassade kursfält';
 $string['searching'] = 'Söker i...';
 $string['searchnotpermitted'] = 'Du är inte tillåten att göra en sökning';
 $string['seconds'] = 'sekunder';

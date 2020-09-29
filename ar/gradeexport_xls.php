@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'صفحات إكسل';
-$string['xls:publish'] = 'أنشر تصدير الدرجة بتنسيق إكسل';
-$string['xls:view'] = 'استخدم تصدير الدرجة بتنسيق إكسل';
+$string['eventgradeexported'] = 'تصدير العلامات بصيغة XLS';
+$string['pluginname'] = 'جداول Excel';
+$string['privacy:metadata'] = 'إن ملحق تصدير العلامات بصيغة جداول Excel لا يخزن أي بيانات شخصية.';
+$string['timeexported'] = 'آخر ما تم تنزيله من هذا المساق';
+$string['xls:publish'] = 'نشر تصدير العلامات بصيغة XLS';
+$string['xls:view'] = 'استعمال تصدير العلامات بصيغة Excel';

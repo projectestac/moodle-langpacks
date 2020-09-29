@@ -43,10 +43,10 @@ $string['handlerdisabled'] = 'O handler de e-mail que tentou contactar foi desat
 $string['incomingmailconfiguration'] = 'Configuração de entrada de e-mails';
 $string['incomingmailserversettings'] = 'Configurações do servidor de entrada de e-mails';
 $string['incomingmailserversettings_desc'] = 'O Moodle é capaz de ligar a servidores IMAP devidamente configurados. Pode especificar aqui as definições usadas para ligar ao seu servidor IMAP.';
-$string['invalidrecipientdescription'] = 'A mensagem "{$a->subject}" não pôde ser autenticada, pois foi enviada a partir de um endereço de e-mail diferente do que consta no seu perfil de utilizador.';
-$string['invalidrecipientdescriptionhtml'] = 'A mensagem "{$a->subject}" não pôde ser autenticada, pois foi enviada a partir de um endereço de e-mail diferente do que consta do seu perfil de utilizador. Para que a mensagem seja autenticada, deverá responder a esta mensagem.';
-$string['invalidrecipientfinal'] = 'A mensagem "{$a->subject}" não pôde ser autenticada. Verifique se está a enviar a mensagem a partir do mesmo endereço de e-mail que consta no seu perfil de utilizador.';
-$string['invalid_recipient_handler'] = 'Se uma mensagem válida é recebida mas o remetente não pode ser autenticado, a mensagem é armazenada no servidor de e-mail e o utilizador é contactado usando o endereço de e-mail que consta no seu perfil de utilizador. O utilizador terá assim oportunidade de responder para confirmar a autenticidade da mensagem original.
+$string['invalidrecipientdescription'] = 'A mensagem "{$a->subject}" não pôde ser autenticada, pois foi enviada a partir de um endereço de e-mail diferente do que consta no seu perfil do utilizador.';
+$string['invalidrecipientdescriptionhtml'] = 'A mensagem "{$a->subject}" não pôde ser autenticada, pois foi enviada a partir de um endereço de e-mail diferente do que consta do seu perfil do utilizador. Para que a mensagem seja autenticada, deverá responder a esta mensagem.';
+$string['invalidrecipientfinal'] = 'A mensagem "{$a->subject}" não pôde ser autenticada. Verifique se está a enviar a mensagem a partir do mesmo endereço de e-mail que consta no seu perfil do utilizador.';
+$string['invalid_recipient_handler'] = 'Se uma mensagem válida é recebida mas o remetente não pode ser autenticado, a mensagem é armazenada no servidor de e-mail e o utilizador é contactado usando o endereço de e-mail que consta no seu perfil do utilizador. O utilizador terá assim oportunidade de responder para confirmar a autenticidade da mensagem original.
 
 Este handler processa essas respostas.
 
@@ -114,8 +114,8 @@ $string['taskpickup'] = 'Captação de e-mails recebidos';
 $string['tls'] = 'TLS (TLS; iniciado através do nível de protocolo de negociação em canal não encriptado; forma recomendada de iniciar a ligação segura)';
 $string['tlsv1'] = 'TLSv1 (ligação direta ao servidor TLS versão 1.x)';
 $string['validateaddress'] = 'Validar endereço de e-mail do remetente';
-$string['validateaddress_help'] = 'Quando uma mensagem é recebida de um utilizador, o Moodle tenta validar a mensagem através da comparação do endereço de e-mail do remetente com o endereço de e-mail no seu perfil de utilizador.
+$string['validateaddress_help'] = 'Quando uma mensagem é recebida de um utilizador, o Moodle tenta validar a mensagem através da comparação do endereço de e-mail do remetente com o endereço de e-mail no seu perfil do utilizador.
 
-Se o remetente não corresponder, então é enviada ao utilizador uma notificação para confirmar que realmente enviou o e-mail.
+Se o remetente não corresponder, é enviada ao utilizador uma notificação para confirmar que realmente enviou o e-mail.
 
 Se esta configuração estiver desativada, o endereço de e-mail do remetente não é verificado.';

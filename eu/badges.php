@@ -150,7 +150,7 @@ Zure dominen orrian kontrola ditzakezu banakako dominen pribatutasunaren ezarpen
 $string['badgeprivacysetting_str'] = 'Erakutsi automatikoki nire profil-orrian irabazi ditudan dominak.';
 $string['badges'] = 'Dominak';
 $string['badgesalt'] = 'Eraldaketa jasotzailearen helbide elektronikoa zifratzeko';
-$string['badgesalt_desc'] = 'Zifratzea erabilita motxila-zerbitzuek dominaren jatorriaren berri izan dezakete horren helbide elektronikoa erakutsi gabe. Ezarpen honek zenbakiak eta hizkiak baino ez ditu erabili behar.
+$string['badgesalt_desc'] = 'Hash bat erabilita motxila-zerbitzuek dominaren jatorriaren berri izan dezakete horren helbide elektronikoa erakutsi gabe. Ezarpen honek zenbakiak eta hizkiak baino ez ditu erabili behar.
 
 Oharra: jasotzaileak egiaztatzeko, ez aldatu ezarpen hau behin dominak ematen hasita.';
 $string['badgesdisabled'] = 'Dominak ez daude gaituta gune honetan';
@@ -304,7 +304,7 @@ $string['error:invalidexpireperiod'] = 'Iraungitze data ezin da negatiboa edo 0 
 $string['error:invalidparambadge'] = 'Domina ez da existitzen.';
 $string['error:invalidparamcohort'] = 'Ez da kohortea existitzen.';
 $string['error:noactivities'] = 'Ikastaro honetan ez dago osaketa-irizpideak gaituta dituen jarduerarik.';
-$string['error:nobadges'] = 'Ez dago irizpide gisa gehitzeko sarbidea gaituta duen ikastaroko edo guneko dominarik.';
+$string['error:nobadges'] = 'Ez dago irizpide gisa gehitzeko sarbidea gaituta duen dominarik. Guneko domina batek soilik guneko beste dominak izan ditzake irizpide gisa. Ikastaroko domina batek ikastaroko beste dominak zein guneko dominak izan ditzake irizpide gisa.';
 $string['error:nocohorts'] = 'Ez dago kohorterik';
 $string['error:nocourses'] = 'Ikastaro-osaketa ez dago gaituta gune honetako inongo ikastarotan, beraz ezin da bat ere erakutsi. Ikastaro-osaketa gaitu egin behar da ikastaroaren ezarpenetan.';
 $string['error:nogroups'] = '<p>Zure motxilan ez dago domina-bilduma publikorik eskuragarri. </p>

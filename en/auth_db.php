@@ -70,6 +70,7 @@ $string['auth_dbtableempty'] = 'External table is empty.';
 $string['auth_dbtable_key'] = 'Table';
 $string['auth_dbtype'] = 'The database type (see the documentation <a href="http://adodb.org/dokuwiki/doku.php" target="_blank">ADOdb - Database Abstraction Layer for PHP</a> for details).';
 $string['auth_dbtype_key'] = 'Database';
+$string['auth_dbupdateerror'] = 'Error updating external database.';
 $string['auth_dbupdateusers'] = 'Update users';
 $string['auth_dbupdateusers_description'] = 'As well as inserting new users, update existing users.';
 $string['auth_dbupdatinguser'] = 'Updating user {$a->name} id {$a->id}';

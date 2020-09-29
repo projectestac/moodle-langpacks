@@ -58,6 +58,7 @@ $string['answeredcorrectly'] = '정답을 맞췄음';
 $string['answersfornumerical'] = '수치형 질문에 대한 답은 최소 값과 최대 값 쌍으로 이루어져야 합니다.';
 $string['arrangebuttonshorizontally'] = '콘텐츠 버튼을 수평으로 배열할까요?';
 $string['attempt'] = '{$a} 번째 시도';
+$string['attemptheader'] = '시도';
 $string['attempts'] = '시도';
 $string['attemptsdeleted'] = '삭제된 시도';
 $string['attemptsremaining'] = '{$a} 번의 시도 남음';

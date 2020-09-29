@@ -71,6 +71,7 @@ $string['auth_dbtableempty'] = 'Externe tabel is leeg.';
 $string['auth_dbtable_key'] = 'Tabel';
 $string['auth_dbtype'] = 'Het type database (Bekijk  <a href="http://adodb.org/dokuwiki/doku.php" target="_blank">ADOdb - Database Abstraction Layer for PHP</a> voor meer informatie).';
 $string['auth_dbtype_key'] = 'Databank';
+$string['auth_dbupdateerror'] = 'Fout bij updaten van externe database.';
 $string['auth_dbupdateusers'] = 'Gebruikers bijwerken';
 $string['auth_dbupdateusers_description'] = 'Evenals het invoegen van nieuwe gebruikers, update bestaande gebruikers';
 $string['auth_dbupdatinguser'] = 'Gebruiker {$a->name} id {$a->id} aan het updaten';

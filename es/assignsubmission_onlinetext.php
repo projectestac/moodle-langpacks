@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['allowonlinetextsubmissions'] = 'HAbilitado';
+$string['allowonlinetextsubmissions'] = 'Habilitado';
 $string['default'] = 'Habilitado por defecto';
 $string['default_help'] = 'Si se activa la opción, este método de retroalimentación estará habilitado por omisión para todas las tareas nuevas.';
 $string['enabled'] = 'Texto en línea';
@@ -36,8 +36,10 @@ $string['numwords'] = '({$a} palabras)';
 $string['numwordsforlog'] = 'Número de palabras en el envío: {$a} palabras';
 $string['onlinetext'] = 'Texto en línea';
 $string['onlinetextfilename'] = 'onlinetext.html';
-$string['onlinetextsubmission'] = 'Permmite entregas de texto en línea';
+$string['onlinetextsubmission'] = 'Permite entregas de texto en línea';
 $string['pluginname'] = 'Entregas de texto en línea';
+$string['privacy:metadata:assignmentid'] = 'Identificador de tarea';
+$string['privacy:metadata:filepurpose'] = 'Archivos incrustados en el texto de entrega.';
 $string['wordlimit'] = 'Límite de palabras';
 $string['wordlimitexceeded'] = 'El límite de palabras para esta entrada es de {$a->limit} palabras y estas intentando de enviar {$a->count} palabras. Por favor, revisa el contenido e inténtalo de nuevo.';
 $string['wordlimit_help'] = 'Si se habilitan las entregas de texto en línea, este es el número máximo de palabras que a cada estudiante se le permitirá entregar.';

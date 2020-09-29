@@ -43,6 +43,7 @@ $string['lastrunof'] = 'Resumo da última execución de {$a}';
 $string['markreferencerun'] = 'Marcar como execución/comentario de referencia';
 $string['memory'] = 'Memoria usada';
 $string['pluginname'] = 'Execucións de perfilado';
+$string['privacy:metadata'] = 'O engadido Execucións de perfilado non almacena ningún dato persoal.';
 $string['profilingfocusscript'] = 'Foco na execución de perfilado para o script: {$a}';
 $string['profilingruns'] = 'Execucións de perfilado';
 $string['profilingrunsfor'] = 'Execucións de perfilado para {$a}';

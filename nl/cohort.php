@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addcohort'] = 'Voeg een nieuwe site groep toe';
 $string['allcohorts'] = 'Alle site-groepen';
-$string['anycohort'] = 'Alle';
+$string['anycohort'] = 'Gelijk welke';
 $string['assign'] = 'Wijs toe';
 $string['assigncohorts'] = 'Site-groepsleden toewijzen';
 $string['assignto'] = 'Site groep \'{$a}\' leden';

@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['acohortroleassignmentssaved'] = '{$a} kohorteko rol-esleipenak gorde dira.';
 $string['assign'] = 'Esleitu';
 $string['assignroletocohort'] = 'Esleitu erabiltzaile-testuinguruko rolak kohorteko partaide guztiei';
-$string['backgroundsync'] = 'Oharra: Kohorte berrietako rol-esleipenak ez dira esleitu eta berehala indarrean sartzen. Rol-esleipenetako aldaketak programatutako zeregin batek egingo ditu.';
+$string['backgroundsync'] = 'Oharra: Kohorte berrietako rol-esleipenak ez dira esleitu eta berehala indarrean sartzen. Rol-esleipenetako aldaketak programatutako ataza batek egingo ditu.';
 $string['cohortroleassignmentnotremoved'] = 'Kohorteko rol-esleipena ez da ezabatu.';
 $string['cohortroleassignmentremoved'] = 'Kohorteko rol-esleipena ezabatu da.';
 $string['cohortroles'] = 'Kohorteko rolak';

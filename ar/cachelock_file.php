@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'تأمين الملف';
-$string['privacy:metadata'] = 'البرنامج المساعد File locking  لا يخزن أيّ بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق قفل الملفات لا يخزن أيّ بيانات شخصية.';

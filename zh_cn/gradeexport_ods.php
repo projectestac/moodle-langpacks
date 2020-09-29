@@ -25,7 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['ods:publish'] = '发布 ODS 导出成绩';
-$string['ods:view'] = '使用 OpenDocument 导出成绩';
+$string['eventgradeexported'] = 'OpenDocument 成绩已导出';
+$string['ods:publish'] = '发布 ODS 成绩导出';
+$string['ods:view'] = '使用 OpenDocument 成绩导出';
 $string['pluginname'] = 'OpenDocument 电子表格';
+$string['privacy:metadata'] = 'OpenDocument 电子表格成绩导出插件不存储任何个人数据。';
 $string['timeexported'] = '上次下载';

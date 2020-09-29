@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addtodock'] = 'Mover para a consola';
 $string['anypagematchingtheabove'] = 'Qualquer página que corresponda à de cima';
-$string['appearsinsubcontexts'] = 'Aparecer nos sub-contextos';
+$string['appearsinsubcontexts'] = 'Aparecer nos subcontextos';
 $string['assignrolesinblock'] = 'Atribuir papéis no bloco {$a}';
 $string['blocksdrawertoggle'] = 'Ocultar/Mostrar a caixa de blocos';
 $string['blocksettings'] = 'Configuração do bloco';

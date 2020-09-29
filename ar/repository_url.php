@@ -25,4 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['configplugin'] = 'تهيئة نوع مستودع URL';
+$string['download'] = 'تنزيل';
+$string['pluginname'] = 'مُنزِّل URL';
+$string['privacy:metadata'] = 'إن ملحق مستودع URL لا يخزن أو يرسل أي بيانات شخصية.';
 $string['rename'] = 'الاسم';
+$string['url'] = 'عنوان الرابط';
+$string['url:view'] = 'استعمال مُنزِّل URL في منتقي الملفات';
+$string['validfiletype'] = 'عليك إعطاء رابط يؤدي إلى ملف صورة أو صفحة تحتوي صوراً.';
+$string['validname'] = 'عليك تقديم اسم ملف صحيح';

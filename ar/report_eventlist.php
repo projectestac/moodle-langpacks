@@ -25,5 +25,38 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['abstractclass'] = 'صنف الخلاصة';
+$string['action'] = 'الإجراء';
+$string['affectedtable'] = 'الجدول المتأثر';
+$string['all'] = 'الكل';
+$string['clear'] = 'إخلاء';
+$string['component'] = 'المكون';
+$string['create'] = 'أنشئ';
+$string['crud'] = 'نوع استعلام قاعدة البيانات';
+$string['delete'] = 'إحذف';
+$string['details'] = 'التفاصيل';
 $string['dname'] = 'الاسم';
+$string['edulevel'] = 'المستوى التعليمي';
+$string['errorinvaliddirectory'] = 'مجلد الحدث غير موجود أو غير صحيح.';
+$string['errorinvalidevent'] = 'الحدث المعطى ليس صحيحاً.';
+$string['eventcode'] = 'رمز الحدث';
+$string['eventexplanation'] = 'تفسير الحدث';
+$string['eventname'] = 'اسم الحدث';
+$string['filter'] = 'المرشح';
+$string['legacyevent'] = 'حدث موروث';
 $string['name'] = 'الاسم';
+$string['objecttable'] = 'جدول المكون';
+$string['other'] = 'غيره';
+$string['othereventparameters'] = 'عوامل الحدث الأخرى';
+$string['otherinformation'] = 'معلومات أخرى:';
+$string['parentevent'] = 'الحدث الأعلى';
+$string['participating'] = 'المشاركة';
+$string['pluginname'] = 'قائمة الأحداث';
+$string['privacy:metadata'] = 'إن ملحق قائمة الأحداث لا يخزن أي بيانات شخصية.';
+$string['read'] = 'إقرأ';
+$string['relatedobservers'] = 'الملاحق المراقبة لهذا الحدث';
+$string['since'] = 'منذ';
+$string['teaching'] = 'التدريس';
+$string['typedeclaration'] = 'عوامل الحدث الأخرى';
+$string['update'] = 'تحديث';
+$string['yes'] = 'نعم';

@@ -25,4 +25,19 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'ملف إكس إم إل ';
+$string['errbadxmlformat'] = 'خطأ - تنسيق XML خاطئ';
+$string['errduplicategradeidnumber'] = 'خطأ - هناك مفردتا تقييم تحملان الرمز التعريفي \'{$a}\' في هذا المساق. ينبغي أن يكون ذلك مستحيلاً.';
+$string['errduplicateidnumber'] = 'خطأ - تكرار في الرمز التعريفي';
+$string['errincorrectgradeidnumber'] = 'خطأ - الرمز التعريفي \'{$a}\' من ملف الاستيراد لا يطابق أي مفردة تقييم.';
+$string['errincorrectidnumber'] = 'خطأ - رمز تعريفي خاطئ';
+$string['errincorrectuseridnumber'] = 'خطأ - الرمز التعريفي \'{$a}\' من ملف الاستيراد لا يطابق أي مستخدم.';
+$string['error'] = 'وقعت أخطاء';
+$string['errorduringimport'] = 'وقع خطأ عند محاولة الاستيراد: {$a}';
+$string['fileurl'] = 'رابط الملف البعيد';
+$string['fileurl_help'] = 'حقل رابط الملف البعيد هو من أجل إحضار البيانات من مخدم بعيد، مثل أنظمة معلومات الطلبة.';
+$string['importxml'] = 'استيراد XML';
+$string['importxml_help'] = 'يمكن استيراد العلامات بواسطة ملف XML يحتوي على مُعرَّفات المستخدمين ومُعرَّفات النشاطات. للحصول على التنسيق الصحيح، قم أولاً بتصدير بعض العلامات إلى ملف XML ثم عاينه.';
+$string['pluginname'] = 'ملف XML';
+$string['privacy:metadata'] = 'إن ملحق استيراد العلامات من XML لا يخزن أي بيانات شخصية.';
+$string['xml:publish'] = 'نشر العلامات المستوردة من XML';
+$string['xml:view'] = 'استيراد العلامات من XML';

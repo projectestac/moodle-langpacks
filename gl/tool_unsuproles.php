@@ -30,3 +30,4 @@ $string['contextlevel'] = 'Nivel de contexto';
 $string['count'] = 'Número';
 $string['noprolbems'] = 'Non se atoparon asignacións de rol non compatíbeis';
 $string['pluginname'] = 'Asignacións de rol non compatíbeis';
+$string['privacy:metadata'] = 'O engadido de Asignacións de rol non compatíbeis non almacena ningunha información persoal.';

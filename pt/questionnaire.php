@@ -85,8 +85,9 @@ $string['checkbreaksremoved'] = 'Removida(s) {$a} quebra(s) de página extra.';
 $string['checknotstarted'] = 'Selecionar não iniciado(s)';
 $string['checkstarted'] = 'Selecionar iniciado(s)';
 $string['clicktoswitch'] = '(clique para alternar)';
+$string['closebeforeopen'] = 'Especificou uma data/hora de fecho antes da data de abertura';
 $string['closed'] = 'O questionário terminou {$a}. Obrigado.';
-$string['closedate'] = 'Data de fecho&nbsp;';
+$string['closedate'] = 'Permitir respostas até';
 $string['closedate_help'] = 'Pode escolher uma data de fecho para o questionário. Selecione a caixa de verificação e defina a data e hora pretendida.
 Os participantes não poderão responder ao questionário após a data definida. Se não ativar esta opção, o questionário nunca fecha.';
 $string['closeson'] = 'O questionário termina {$a}.';
@@ -327,7 +328,8 @@ $string['numberscaleitems_help'] = 'Número de itens é o *número de itens de c
 $string['numeric'] = 'Numérica';
 $string['numeric_help'] = 'Use esta questão se pretende uma resposta na forma de um número formatado corretamente.';
 $string['of'] = 'de';
-$string['opendate'] = 'Data de abertura&nbsp;';
+$string['openafterclose'] = 'Especificou uma data/hora de abertura após a data de fecho';
+$string['opendate'] = 'Permitir respostas desde';
 $string['opendate_help'] = 'Pode indicar uma data de abertura para o questionário. Ative a caixa de verificação e defina a data e hora pretendida.
 Os participantes não poderão responder ao questionário antes da data definida. Se não ativar esta opção, o questionário fica disponível de imediato.';
 $string['option'] = 'opção {$a}';
@@ -415,6 +417,10 @@ $string['privacy:metadata:questionnaire_resp_single:choice_id'] = 'ID do registo
 $string['privacy:metadata:questionnaire_resp_single:question_id'] = 'ID do registo da questão para esta resposta.';
 $string['privacy:metadata:questionnaire_resp_single:response_id'] = 'ID do registo desta resposta.';
 $string['private'] = 'Privado';
+$string['progressbar'] = 'Mostrar barra de progresso';
+$string['progressbar_info'] = 'O questionário está \'{$a}\' completo.';
+$string['progresshelp'] = 'Barra de progresso';
+$string['progresshelp_help'] = 'Prossiga para a próxima página para preencher a barra de progresso';
 $string['public'] = 'Centralizado';
 $string['publiccopy'] = 'Cópia:';
 $string['publicoriginal'] = 'Original:';
@@ -534,7 +540,7 @@ $string['show_nonrespondents'] = 'Sem resposta';
 $string['started'] = 'iniciado';
 $string['strfdate'] = '%d/%m/%Y';
 $string['strfdateformatcsv'] = 'd/m/Y H:i:s';
-$string['strictdateformatting'] = 'Use o formato dia-mês-ano, por exemplo, para 4 de Março de 1945: <strong>04-03-1945</strong>';
+$string['strictdateformatting'] = 'Introduza a data utilizando o seletor de data abaixo, ou usando o formato \'DD/MM/AAAA\'.';
 $string['subject'] = 'Assunto';
 $string['submissionnotificationhtmlanon'] = 'Existe uma nova <a href="{$a->submissionurl}">submissão</a> do questionário "{$a->name}".';
 $string['submissionnotificationhtmluser'] = '<a href="{$a->profileurl}">{$a->username}</a> fez uma nova <a href="{$a->submissionurl}">submissão</a> do questionário "{$a->name}" na disciplina "{$a->coursename}".';

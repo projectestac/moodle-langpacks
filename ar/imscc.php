@@ -25,7 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['cc2moodle_checking_schema'] = 'نسق CC! جاري التحقق من المخطط...';
+$string['cc2moodle_checking_schema'] = 'نسق CC! جارٍ التحقق من المخطط...';
 $string['cc2moodle_invalid_schema'] = 'المخطط غير صالح.';
-$string['cc2moodle_valid_schema'] = 'المخطط غير صالح!';
-$string['enable_cc_import'] = 'تمكين استيراد CC';
+$string['cc2moodle_manifest_dont_load'] = 'تعذر تحميل مظهر XML.';
+$string['cc2moodle_req_auth'] = 'خطأ: حزمة الخرطوش العامة تتطلب التفويض.';
+$string['cc2moodle_valid_schema'] = 'المخطط صالح!';
+$string['cc_import_req_dom'] = 'خطأ: استيراد الخرطوش المشترك يتطلب امتداد DOM.';
+$string['cc_import_req_libxml'] = 'خطأ: استيراد الخرطوش المشترك يتطلب امتداد LIBXML.';
+$string['cc_import_req_libxmlminversion'] = 'خطأ: استيراد الخرطوش المشترك يتطلب امتداد LIBXML، الإصدار 2.6.30 أو أحدث.';
+$string['cc_import_req_php5'] = 'خطأ: استيراد الخرطوش المشترك يتطلب PHP 5 أو أحدث.';
+$string['cc_import_req_xsl'] = 'خطأ: استيراد الخرطوش المشترك يتطلب XSL.';
+$string['checkingforimscc'] = 'جارٍ التحقق من IMS-CC...';
+$string['enable_cc_import'] = 'تمكين استيراد النسخ الكربونية';
+$string['enable_cc_import_description'] = 'هذا الإعداد يتيح استيراد حزم الخرطوش المشترك (IMS-CC) باستعمال وظيفة الاستعادة القياسية. لاحظ أنه يتطلب وجود تنصيبات كل من PHP5، DOM، XSL و LIBXML (2.6.30 أو أحدث) في المخدم.';

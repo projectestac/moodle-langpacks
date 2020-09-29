@@ -25,14 +25,29 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['alertdeleted'] = '\'{$a->name}\' har tagits bort.';
 $string['alertemptied'] = 'Papperskorgen har tömts.';
+$string['alertrestored'] = '\'{$a->name}\' har återställts.';
+$string['autohide'] = 'Dölj automatiskt';
 $string['autohide_desc'] = 'Dölj länken till papperskorgen automatiskt när papperskorgen är tom.';
 $string['categorybinenable'] = 'Aktivera papperskorgen på kategorinivå.';
+$string['categorybinexpiry'] = 'Livslängd för kurs';
 $string['categorybinexpiry_desc'] = 'Hur länge ska en raderad kurs ligga kvar i papperskorgen?';
 $string['coursebinenable'] = 'Aktivera papperskorgen på kursnivå.';
+$string['coursebinexpiry'] = 'Livslängd för objekt';
 $string['coursebinexpiry_desc'] = 'Hur länge ska ett raderat objekt ligga kvar i papperskorgen?';
+$string['datedeleted'] = 'Datum borttaget';
+$string['deleteall'] = 'Ta bort allt';
 $string['deleteallconfirm'] = 'Är du säker på att du vill radera alla objekt i papperskorgen?';
 $string['deleteconfirm'] = 'Är du säker på att du vill radera det valda objektet från papperskorgen?';
+$string['deleteexpirywarning'] = 'Innehållet tas bort permanent efter {$a}.';
+$string['eventitemcreated'] = 'Objekt skapat';
+$string['eventitemcreated_desc'] = 'Objekt med ID {$a->objectid} skapat.';
+$string['eventitemdeleted'] = 'Objekt borttaget';
+$string['eventitemdeleted_desc'] = 'Objekt med ID {$a->objectid} borttaget.';
+$string['eventitemrestored'] = 'Objekt återställt';
+$string['eventitemrestored_desc'] = 'Objekt med ID {$a->objectid} återställt.';
+$string['invalidcontext'] = 'Ogiltigt kontext tillhandahölls.';
 $string['noitemsinbin'] = 'Det finns inga objekt i papperskorgen.';
 $string['notenabled'] = 'Tyvärr. Papperskorgen har avaktiverats av administratören.';
 $string['pluginname'] = 'Papperskorg';

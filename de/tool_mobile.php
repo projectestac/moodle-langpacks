@@ -43,7 +43,7 @@ Beispiel:<pre>
 mm.user.student|Learner|en
 mm.user.student|Aprendiz|es
 </pre>
-Die vollständige Liste der Text-IDs und weitere Infos finden Sie in der <a href="https://github.com/moodlehq/moodlemobile-phonegapbuild/blob/master/assets/lang/de.json" target="_blank">Dokumentation</a>.';
+Die vollständige Liste der Text-IDs und weitere Infos finden Sie in der Dokumentation.';
 $string['custommenuitems'] = 'Benutzerdefinierte Menüpunkte';
 $string['custommenuitems_desc'] = 'Im Hauptmenü der App können zusätzliche Punkte hinzugefügt werden. Geben Sie jeden benutzerdefinierten Menüpunkt in eine neue Zeile mit folgendem Format ein: Menütext, Link-URL, Link-Öffnungsmethode und Sprachcode (optional zum Anzeigen in der angegebenen Sprache), jeweils getrennt durch Pipe-Zeichen.
 
@@ -101,7 +101,7 @@ $string['pluginname'] = 'Moodle App Tools';
 $string['pluginnotenabledorconfigured'] = 'Das Plugin ist nicht aktiviert oder nicht richtig konfiguriert.';
 $string['privacy:metadata:core_userkey'] = 'Nutzerschlüssel zum Erstellen eines Auto-Login für die aktuelle Person';
 $string['privacy:metadata:preference:tool_mobile_autologin_request_last'] = 'Datum der letzten Auto-Login-Schlüsselanforderung. Zwischen jeder Anfrage sind 6 Minuten erforderlich.';
-$string['readingthisemailgettheapp'] = 'Lesen Sie dies in einer E-Mail? <a href="{$a}"> Laden Sie die mobile App und empfangen Sie alle Mitteilungen auf Ihrem mobilen Endgerät.</a>.';
+$string['readingthisemailgettheapp'] = 'Lesen Sie dies in einer E-Mail? <a href="{$a}">Laden Sie die mobile App und empfangen Sie alle Mitteilungen auf Ihrem mobilen Endgerät</a>.';
 $string['remoteaddons'] = 'Remote Add-ons';
 $string['responsivemainmenuitems'] = 'Responsive Menüelemente';
 $string['selfsignedoruntrustedcertificatewarning'] = 'Das HTTPS-Zertifikat scheint selbst erstellt und nicht vertrauenswürdig zu sein. Die mobile App funktioniert nur mit vertrauenswürdigen Websites.';

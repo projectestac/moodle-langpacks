@@ -43,6 +43,7 @@ $string['customwelcomemessage_help'] = '自定义的欢迎信息可以加入纯�
 * 用户的完整姓名{$a->fullname}';
 $string['defaultrole'] = '缺省分配的角色';
 $string['defaultrole_desc'] = '选择用户自助选课后被分配的角色';
+$string['deleteselectedusers'] = '删除被选中用户的选课';
 $string['editselectedusers'] = '编辑选中用户的选课';
 $string['enrolenddate'] = '结束时间';
 $string['enrolenddate_help'] = '如果启用，用户只能在此日期前自行加入此课程。';

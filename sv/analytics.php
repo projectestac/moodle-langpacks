@@ -25,7 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['analytics'] = 'Analysfunktioner';
+$string['analyticsdisabled'] = 'Analysfunktionerna är inaktiverade. Du kan aktivera dem under ”Administration av webbplats > Avancerade inställningar”.';
+$string['analyticslogstore'] = 'Lagringsplats för log som används av analysfunktionerna';
+$string['analyticslogstore_help'] = 'Lagringsplatsen som kommer användas av analysfunktionens API för att läsa användaraktiviteter.';
+$string['analyticssettings'] = 'Inställningar för analysfunktionen';
+$string['errorimportmissingclasses'] = 'Dessa analyskomponenter är inte tillgängliga på denna webbplats: {$a->missingclasses}.';
+$string['errornoroles'] = 'Lärar- eller elevroller har inte definierats. Du kan definiera dessa på sidan för inställningar av analysfunktionen.';
 $string['fixedack'] = 'Acceptera';
 $string['incorrectlyflagged'] = 'Felaktigt flaggad';
 $string['noinsights'] = 'Inga insikter rapporterade';
 $string['notapplicable'] = 'Inte tillämpligt';
+$string['onlycli'] = 'Analysfunktionens processer körs endast via kommandoraden.';
+$string['onlycliinfo'] = 'Analysprocesser, såsom att utvärdera modeller, träna algoritmer för maskininlärning eller hämta förutsägelser kan vara tidskrävande. Dessa körs som cron-aktiviteter eller kan köras manuellt via kommandoraden. Om inaktiverat kan analysprocesserna köras via webbgränssnittet.';

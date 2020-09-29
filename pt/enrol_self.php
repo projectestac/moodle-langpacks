@@ -123,5 +123,5 @@ $string['usepasswordpolicy_desc'] = 'Se ativar esta opção, a senha de inscriç
 $string['welcometocourse'] = 'Bem-vindo(a) a "{$a}"';
 $string['welcometocoursetext'] = 'Bem-vindo(a) à disciplina "{$a->coursename}"!
 
-Se ainda não o fez, edite o seu perfil de utilizador para sabermos mais a seu respeito:
+Se ainda não o fez, edite o seu perfil do utilizador para sabermos mais a seu respeito:
 {$a->profileurl}';

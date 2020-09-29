@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['category:config'] = 'Konfiguratu kategoria-matrikulazio instantziak';
 $string['category:synchronised'] = 'Rol-esleipen sinkronizatuak ikastaro-matrikulaziorako';
-$string['enrolcategorysynctask'] = 'Kategoria-matrikulazioen sinkronizazio zeregina';
+$string['enrolcategorysynctask'] = 'Kategoria-matrikulazioen sinkronizazio ataza';
 $string['pluginname'] = 'Kategoria-matrikulazioak';
 $string['pluginname_desc'] = 'Kategoria-matrikulazioko plugina ikastaro-kategorietan rol esleipenak egitea ahalbidetzen die enrol/category:synchronised gaitasuna duten rolei.';
 $string['privacy:metadata'] = 'Kategoria-matrikulazioak pluginak ez du datu pertsonalik biltzen.';

@@ -25,10 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['availableplugins'] = 'الإضافات المتوافرة';
+$string['availableplugins'] = 'الملاحق المتاحة';
 $string['configenableplagiarism'] = 'هذا سيسمح للمسؤولين بإعداد إضافات الانتحال (إن كانت مركبة)';
 $string['configplagiarismplugins'] = 'رجاءً حدد إضافة الانتحال التي ترغب بإعدادها';
-$string['enableplagiarism'] = 'تمكين إضافات الانتحال';
+$string['enableplagiarism'] = 'تمكين ملاحق الانتحال';
 $string['manageplagiarism'] = 'إدارة إضافات الانتحال';
-$string['nopluginsinstalled'] = 'لا يوجد إضافات انتحال مركبة';
+$string['nopluginsinstalled'] = 'لا توجد ملاحق منع انتحال منصبة';
 $string['plagiarism'] = 'منع الانتحال';
+$string['privacy:metadata:plagiarism'] = 'نظام منع الانتحال الفرعي يعمل بمثابة قناة تبادل للطلبات ما بين الملاحق المختلفة وملاحق فحص الاقتباس.';

@@ -27,20 +27,40 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['aggregateavg'] = 'متوسط التقييمات';
 $string['aggregatecount'] = 'عدد التقييمات';
-$string['aggregatemax'] = 'الحد الأقصى للتقييمات';
-$string['aggregatemin'] = 'الحد الأدنى للتقييمات';
-$string['aggregatenone'] = 'لا توجد تقييمات';
+$string['aggregatemax'] = 'أعلى التقييمات';
+$string['aggregatemin'] = 'أدنى التقييمات';
+$string['aggregatenone'] = 'بلا تقييم';
 $string['aggregatesum'] = 'مجموع التقييمات';
-$string['aggregatetype'] = 'إجمالي نوع';
+$string['aggregatetype'] = 'نوعية التجميع';
+$string['aggregatetype_help'] = 'نوع التجميع يحدد كيفية تجميع التقييمات لتشكيل العلامة النهائية في سجل العلامات.
+
+* متوسط التقييمات - معدل كل التقييمات
+* عدد التقييمات - عدد الفقرات المقيمة سيصير العلامة النهائية. لاحظ أن الإجمالي لا يمكن أن يتجاوز العلامة الكاملة للنشاط.
+* الأعلى - التقييم الأعلى سيصير العلامة النهائية
+* الأدنى - التقييم الأدنى سيصير العلامة النهائية
+* المجموع - كل التقييمات تجمع مع بعض. لاحظ أن الإجمالي لا يمكن أن يتجاوز العلامة الكاملة للنشاط.
+
+إذا تم اختيار "بلا تقييم"، فعندها لن يظهر النشاط في سجل العلامات.';
 $string['allowratings'] = 'هل سيسمح بتقييم العناصر';
 $string['allratingsforitem'] = 'جميع التقييمات المسلمة';
 $string['capabilitychecknotavailable'] = 'التحقق من الإمكانات غير متوفر حتى يتم حفظ هذا النشاط';
+$string['couldnotdeleteratings'] = 'عذراً، لا يمكن حذفه لأن الآخرين سبق وأن قاموا بتقييمه';
 $string['grade_rating_name'] = 'تقييم';
+$string['norate'] = 'تقييم الفقرات غير مسموح به!';
 $string['noratings'] = 'لم يتم تسليم أي تقييمات';
 $string['noviewanyrate'] = 'يمكن فقط معاينة نتائج عناصر التي قمت بها';
+$string['noviewrate'] = 'ليست لديك صلاحية معاينة تقييمات الفقرات';
+$string['privacy:metadata:rating'] = 'التقييم المقدم من قبل المستخدمين يُخزن مع تفصيل عن الفقرة التي تم تقييمها.';
+$string['privacy:metadata:rating:rating'] = 'التقييم الرقمي الذي أدخله المستخدم.';
+$string['privacy:metadata:rating:timecreated'] = 'وقت وضع التقييم أول مرة.';
+$string['privacy:metadata:rating:timemodified'] = 'وقت آخر تحديث للتقييم.';
+$string['privacy:metadata:rating:userid'] = 'المستخدم الذي وضع التقييم.';
 $string['rate'] = 'قييم';
 $string['ratepermissiondenied'] = 'ليس لديك الصلاحية لتقييم هذا العنصر';
 $string['rating'] = 'تقييم';
-$string['ratings'] = 'تقييمات';
+$string['ratinginvalid'] = 'التقييم غير صحيح';
+$string['ratings'] = 'التقييمات';
 $string['ratingtime'] = 'حصر التقييم بالعناصر ضمن المجال الزمني هذا:';
-$string['rolewarning'] = 'الادور المصرح لها للقيام بتقييم';
+$string['rolewarning'] = 'الأدوار التي تمتلك صلاحية التقييم';
+$string['rolewarning_help'] = 'لتقديم التقييمات، على المستخدمين أن يمتلكوا الإمكانية moodle/rating:rate مع أي إمكانيات خاصة بالوحدة. المستخدمون ذوو الأدوار الآتية ينبغي أن تكون لديهم إمكانية وضع التقييمات. قائمة الأدوار قد تكون عرضة لتغيير عبر رابط الصلاحيات في قائمة الإجراءات أو كتلة الإدارة، اعتماداً على المظهر المستعمل في الموقع.';
+$string['scaleselectionrequired'] = 'عند اختيار نوع تجميع التقييمات عليك ايضاً أن تحدد فيما إذا كنت ستستعمل مقياساً معيناً أو تضع الدرجة العظمى.';

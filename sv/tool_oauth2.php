@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['issuershowonloginpage'] = 'Visa på inloggningssidan';
+$string['savechanges'] = 'Spara ändringar';

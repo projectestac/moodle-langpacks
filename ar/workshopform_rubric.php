@@ -25,18 +25,18 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addmoredimensions'] = 'الفراغات لـ {$a} معايير أخرى';
-$string['configuration'] = 'تكوين نموذج التقييم';
-$string['criteria'] = 'مقياس';
-$string['dimensiondescription'] = 'وصف';
-$string['dimensionnumber'] = 'القياسي {$a}';
-$string['layout'] = 'تخطيط نموذج التقييم';
+$string['addmoredimensions'] = 'فراغات لـ {$a} معايير أخرى';
+$string['configuration'] = 'تهيئة سلم التقييم';
+$string['criteria'] = 'المعيار';
+$string['dimensiondescription'] = 'الوصف';
+$string['dimensionnumber'] = 'المعيار {$a}';
+$string['layout'] = 'تخطيط سلم التقييم';
 $string['layoutgrid'] = 'الشبكة';
 $string['layoutlist'] = 'قائمة';
-$string['levelgroup'] = 'تعريف المستوى و درجاته';
-$string['levels'] = 'مستويات';
+$string['levelgroup'] = 'درجة المستوى وتعريفه';
+$string['levels'] = 'المستويات';
 $string['mustbeunique'] = 'يجب أن تكون درجات المستوى فريدة داخل المعيار';
-$string['mustchooseone'] = 'لقد قمت باختيار هذه البنود';
-$string['mustdefinelevel'] = 'مطلوب مستوى واحد على الأقل';
-$string['pluginname'] = 'نموذج التقييم';
-$string['privacy:metadata'] = 'يقوم المكون الإضافي Rubric بتخزين تفاصيل نموذج التقييم فقط. يتم تخزين البيانات الشخصية الفعلية لكيفية ملىء النموذج بواسطة وحدة ورشة العمل نفسها ويتم إرفاقها بالتقييمات المصدرة.';
+$string['mustchooseone'] = 'ينبغي عليك اختيار أحد هذه العناصر';
+$string['mustdefinelevel'] = 'يتطلب مستوى واحد على الأقل';
+$string['pluginname'] = 'سلم التقييم';
+$string['privacy:metadata'] = 'يخزن ملحق سلم التقييم فقط تفاصيل نموذج التقييم. يتم تخزين البيانات الشخصية الفعلية لكيفية ملء النموذج بواسطة وحدة ورشة العمل نفسها ويتم إرفاقها بالتقييمات المصدرة.';

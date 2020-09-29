@@ -201,6 +201,7 @@ $string['csvfewcolumns'] = 'Non ci sono abbastanza colonne, per favore controlla
 $string['csvinvalidcols'] = '<b>File CVS non valido:</b> la prima riga deve contenere "Header fields" ed il file deve essere di tipo <br />"Expanded Fields/Comma Separated" <br />oppure<br /> "Expanded Fields with CAVV Result Code/Comma Separated"';
 $string['csvinvalidcolsnum'] = 'File CSV non valido - Ciascuna linea deve contenere 49 o 70 campi.';
 $string['csvloaderror'] = 'Si è verificato un errore durante il caricamento del file: {$a}';
+$string['csvnodata'] = 'Il file CSV non è valido, sono presenti le intestazioni ma non ci sono dati.';
 $string['csvweirdcolumns'] = 'Il formato del file CSV non è valido - il numero delle colonne non è uniforme.';
 $string['dbconnectionfailed'] = '<p>Errore: la connessione al Database non è andata a buon fine</p>
 <p>E\' possibile che il database sia sovraccarico oppure non stia funzionando correttamente.</p>
@@ -437,7 +438,7 @@ $string['noparticipants'] = 'In questo corso non sono stati trovati partecipanti
 $string['noparticipatorycms'] = 'Spiacente, ma il report di partecipazione dei moduli del corso non è attivato.';
 $string['nopermissions'] = 'Non sei autorizzato a svolgere questa azione ({$a})';
 $string['nopermissiontocomment'] = 'Non puoi aggiungere commenti';
-$string['nopermissiontodelentry'] = 'Non puoi eliminare gli inserimenti di altre persone!';
+$string['nopermissiontodelentry'] = 'Non puoi eliminare questo commento.';
 $string['nopermissiontoeditcomment'] = 'Non puoi eliminare i commenti di altre persone!';
 $string['nopermissiontohide'] = 'Non ci sono autorizzazioni da nascondere!';
 $string['nopermissiontoimportact'] = 'Non avete i privilegi necessari per importare attività in questo corso';

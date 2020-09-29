@@ -41,4 +41,4 @@ $string['pluginname'] = 'Meta-Einschreibung';
 $string['pluginname_desc'] = 'Das Plugin \'Meta-Einschreibung\' synchronisiert die Einschreibungen und Rollen in zwei unterschiedlichen Kursen.';
 $string['privacy:metadata:core_group'] = 'Das Plugin zur Meta-Einschreibung kann eine neue Gruppe anlegen oder eine bereits vorhandene Gruppe verwenden, um alle Mitglieder der globalen Gruppe hinzuzufügen.';
 $string['syncall'] = 'Eingeschriebene Nutzer/innen synchronisieren';
-$string['syncall_desc'] = 'Wenn diese Option aktiviert ist, werden alle Nutzer/innen synchronisiert, auch wenn sie im Hauptkurs keine Rolle haben. Wenn diese Option deaktiviert ist, werden nur Nutzer/innen in Metakurse synchronisiert, die im Hauptkurs mindestens eine Rolle besitzen.';
+$string['syncall_desc'] = 'Wenn diese Option aktiviert ist, werden alle Nutzer/innen synchronisiert, auch wenn sie im Quellkurs keine Rolle haben. Wenn diese Option deaktiviert ist, werden nur Nutzer/innen in die Zielkurse synchronisiert, die im Quellkurs mindestens eine Rolle besitzen.';

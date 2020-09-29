@@ -34,3 +34,4 @@ $string['comparisonlevel7'] = 'lasa';
 $string['comparisonlevel9'] = 'moi lasa';
 $string['configcomparison'] = 'Valor predeterminado do factor que determina a avaliación das cualificacións.';
 $string['pluginname'] = 'Comparanza coa mellor avaliación';
+$string['privacy:metadata'] = 'O engadido de Comparanza coa mellor avaliación non almacena datos persoais. Os datos persoais relacionados coas cualificacións dos usuarios son almacenadas polo propio módulo de Obradoiro e únense aos datos das entregas e das avaliacións exportadas.';

@@ -26,9 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configtimetosee'] = 'Antal minuter som beh&ouml;vs f&ouml;r att uppt&auml;cka en anv&auml;ndare som &auml;r online just nu.';
+$string['nouser'] = 'Inga inloggade användare';
+$string['numuser'] = '{$a} inloggad användare';
+$string['numusers'] = '{$a} inloggade användare';
+$string['online_status:hide'] = 'Dölj min inloggningsstatus för andra användare.';
 $string['online_users:addinstance'] = 'Lägg till blocket Inloggad användare';
 $string['online_users:myaddinstance'] = 'Lägg till blocket Inloggad användare på Mitt Moodle';
 $string['online_users:viewlist'] = 'Visa en lista över inloggade användare';
 $string['periodnminutes'] = 'De senaste {$a} minuterna';
 $string['pluginname'] = 'Användare som är <br />inloggade just nu';
+$string['privacy:metadata:preference:uservisibility'] = 'Inloggningsstatus synlig för andra användare i blocket Inloggade användare';
 $string['timetosee'] = 'Ta bort efter det att användare har varit inaktiv (minuter)';

@@ -331,6 +331,7 @@ $string['noprobs'] = 'Non è stato trovato nessun problema nel database delle do
 $string['noquestions'] = 'Non sono state trovate domande da esportare. Accertati di aver selezionato per l\'esportazione una categoria che contenga domande.';
 $string['noquestionsinfile'] = 'Nel file da importare non ci sono domande';
 $string['noresponse'] = '[Nessuna risposta]';
+$string['notagfiltersapplied'] = 'Non è stato usato nessun filtro basato su tag';
 $string['notanswered'] = 'Risposta non data';
 $string['notchanged'] = 'Non modificato dopo l\'ultimo tentativo';
 $string['notenoughanswers'] = 'Questo tipo di domanda richiede almeno {$a} risposte';

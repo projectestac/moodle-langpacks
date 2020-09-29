@@ -234,7 +234,7 @@ $string['importerrorquestion'] = 'Errorea galdera inportatzean';
 $string['importfromcoursefiles'] = '... edo aukeratu ikastaroko fitxategia inportatzeko.';
 $string['importfromupload'] = 'Aukeratu igotzeko fitxategia...';
 $string['importingquestions'] = 'Inportatzen {$a} galderak fitxategitik';
-$string['importparseerror'] = 'Errorea(k) izan d(ir)a inportazio-fitxategia analizatzean. Ez dira galderak inporttau. Inportatzeko, saiatu berriz eta ezarri EZ ondoko ezarpenean \'Gelditu errorean\'\'';
+$string['importparseerror'] = 'Errorea(k) izan d(ir)a inportazio-fitxategia aztertzean. Ez dira galderak inportatu. Inportatzeko, saiatu berriz eta ezarri EZ ondoko ezarpenean \'Gelditu errorean\'\'';
 $string['importquestions'] = 'Inportatu galderak fitxategitik';
 $string['importquestions_help'] = 'Funtzio honi esker hainbat formatutako galderak inporta ditzakegu testu-fitxategi baten bidez. Kontuan hartu fitxategiak UTF-8 kodifikazioa izan behar duela.';
 $string['importwrongfiletype'] = 'Aukeratu duzun fitxategi-mota ({$a->actualtype}) ez dator bat espero zen inportatze-formatuarekin ({$a->expectedtype}).';
@@ -329,7 +329,7 @@ $string['parenthesisinproperstart'] = '**-ren aurretiko parentesia ez da ondo ir
 $string['parsingquestions'] = 'Inportatutako fitxategiaren galderak aztertzen.';
 $string['partiallycorrect'] = 'Zuzena zati batean';
 $string['partiallycorrectfeedback'] = 'Edozein erantzun erdi zuzenetarako';
-$string['partiallycorrectfeedbackdefault'] = 'Zure galdera zuzena da neurri batean.';
+$string['partiallycorrectfeedbackdefault'] = 'Zure erantzuna zuzena da neurri batean.';
 $string['penaltyfactor'] = 'Penalizazio-faktorea';
 $string['penaltyfactor_help'] = 'Ezarpen honek erantzun oker bakoitzagatik puntuaziotik kenduko zen zatia zehazten du. Galdetegia egokitze-moduan konfiguratuta dagoenean soilik du eragina.
 

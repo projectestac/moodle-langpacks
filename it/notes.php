@@ -68,9 +68,9 @@ $string['privacy:metadata:core_notes:lastmodified'] = 'Data e ora dell\'ultima m
 $string['privacy:metadata:core_notes:publishstate'] = 'Stato di pubblicazione della nota.';
 $string['privacy:metadata:core_notes:userid'] = 'ID dell\'utente associato alla nota.';
 $string['publishstate'] = 'Contesto';
-$string['publishstate_help'] = 'Il contesto delle annotazioni determina chi le può leggere:
+$string['publishstate_help'] = 'Il contesto delle annotazioni determina chi le potrà leggere. Gli utenti devono essere a conoscenza che le loro note, in base alle leggi vigenti, potrebbero essere divulgate.
 
-* Personali: visibile solo a te
+* Personali: l\'annotazione visibile solo all\'utente che l\'ha scritta
 * Corso: l\'annotazione sarà visibile ai docenti del corso
 * Sito: l\'annotazione sarà visibile a qualsiasi docente in tutti i corsi.';
 $string['site'] = 'sito';

@@ -44,7 +44,7 @@ $string['eventjournalviewed'] = 'Journal viewed';
 $string['feedbackupdated'] = 'Feedback updated for {$a} entries';
 $string['gradeingradebook'] = 'Current grade in gradebook';
 $string['journal:addentries'] = 'Add journal entries';
-$string['journal:addinstance'] = 'Add journal instances';
+$string['journal:addinstance'] = 'Add a new journal';
 $string['journalmail'] = '{$a->teacher} has posted some feedback on your
 journal entry for \'{$a->journal}\'
 
@@ -61,6 +61,7 @@ $string['mailsubject'] = 'Journal feedback';
 $string['modulename'] = 'Journal';
 $string['modulename_help'] = 'The journal activity enables teachers to obtain students feedback
  about a specific topic';
+$string['modulename_link'] = 'mod/journal/view';
 $string['modulenameplural'] = 'Journals';
 $string['needsregrade'] = 'Entry has changed since last feedback was saved.';
 $string['newjournalentries'] = 'New journal entries';

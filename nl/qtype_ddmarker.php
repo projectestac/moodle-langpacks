@@ -57,7 +57,7 @@ Ter informatie: de drie vormen gebruiken coördinaten op volgende manieren:
 
 Het selecteren van een markeertekst zal die tekst toevoegen aan de vorm in het voorbeeld.';
 $string['followingarewrong'] = 'Volgende woorden staan in de foute zone: {$a}';
-$string['followingarewrongandhighlighted'] = 'Volgende woorden zijn fout geplaatst:  {$a}. De oplichtende woorden worden nu getoond met de juiste parameters.<br /> Klik op het woord om de toegestane zone aan te geven.';
+$string['followingarewrongandhighlighted'] = 'Volgende woorden zijn fout geplaatst:  {$a}. De gemarkeerde woorden worden nu getoond op de juiste plaats.<br /> Klik op het gemarkeerde woord om de toegestane zone aan te geven.';
 $string['formerror_nobgimage'] = 'Je moet een afbeelding selecteren om als achtergrond te gebruiken in de zone voor slepen en neerzetten.';
 $string['formerror_noitemselected'] = 'Je hebt een neerzetzone gedefinieerd maar niets gekozen dat naar die zone moet gesleept worden.';
 $string['formerror_nosemicolons'] = 'Er staan geen puntkomma\'s in je coördinaten. Je coördinaten voor een {$a->shape} moeten geschreven worden als  - {$a->coordsstring}.';

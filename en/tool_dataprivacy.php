@@ -141,6 +141,7 @@ $string['emailsalutation'] = 'Dear {$a},';
 $string['errorcannotrequestdeleteforother'] = 'You don\'t have permission to create deletion request for this user.';
 $string['errorcannotrequestdeleteforself'] = 'You don\'t have permission to create deletion request for yourself.';
 $string['errorcontexthasunexpiredchildren'] = 'The context "{$a}" still has sub-contexts that have not yet expired. No contexts have been flagged for deletion.';
+$string['errorinvalidrequestcomments'] = 'The comments field may contain plain text only.';
 $string['errorinvalidrequestcreationmethod'] = 'Invalid request creation method!';
 $string['errorinvalidrequeststatus'] = 'Invalid request status!';
 $string['errorinvalidrequesttype'] = 'Invalid request type!';

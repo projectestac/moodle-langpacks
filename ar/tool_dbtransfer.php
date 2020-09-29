@@ -30,19 +30,19 @@ $string['cliheading'] = 'ترحيل قاعدة البيانات - تأكد من 
 $string['climigrationnotice'] = 'ترحيل قاعدة البيانات في تقدم، يرجى الانتظار حتى اكتمال الترحيل و تكوين الخادم لتحديثات المسؤول و حذف ملف $CFG->dataroot/climaintenance.html.';
 $string['convertinglogdisplay'] = 'تحويل سجل عرض الإجراءات';
 $string['dbexport'] = 'تصدير قاعدة البيانات';
-$string['dbtransfer'] = 'نقل قاعدة البيانات';
+$string['dbtransfer'] = 'ترحيل قاعدة البيانات';
 $string['enablemaintenance'] = 'مكّن وضع الصيانة';
 $string['enablemaintenance_help'] = 'هذا الخيار يتيح وضع الصيانة أثناء و بعد ترحيل قاعدة البيانات، فإنه يمنع وصول جميع المستخدمين حتى يتم الانتهاء من الترحيل. يرجى ملاحظة أن المسؤول يجب أن يحذف يدويا الملف
 $CFG->dataroot/climaintenance.html
 بعد تحديث إعدادات ملف config.php لاستئناف التشغيل العادي.';
 $string['exportdata'] = 'تصدير البيانات';
-$string['notargetconectexception'] = 'لا يمكن الاتصال بقاعدة البيانات الهدف، عذراً.';
+$string['notargetconectexception'] = 'لا يمكن الاتصال بقاعدة البيانات المقصودة، عذراً.';
 $string['options'] = 'الخيارات';
-$string['pluginname'] = 'تصدير قاعدة البيانات';
-$string['privacy:metadata'] = 'البرنامج المساعد  Database transfer لا يخزن أيّ بيانات شخصية.';
-$string['targetdatabase'] = 'قاعدة البيانات الهدف';
+$string['pluginname'] = 'نقل قاعدة البيانات';
+$string['privacy:metadata'] = 'إن ملحق نقل قاعدة البيانات لا يخزن أي بيانات شخصية.';
+$string['targetdatabase'] = 'قاعدة البيانات المقصودة';
 $string['targetdatabasenotempty'] = 'يجب أن تكون قاعدة البيانات الهدف لا تحتوي على أيّ جداول مع إعطاء البادئة !';
 $string['transferdata'] = 'نقل البيانات';
-$string['transferdbintro'] = 'سيقوم هذا السكريبت بنقل كامل محتويات قاعدة البيانات هذه إلى مخدم قواعد بيانات آخر.';
-$string['transferdbtoserver'] = 'انقل قاعدة بيانات مودل هذه إلى مخدم آخر';
-$string['transferringdbto'] = 'جاري نقل قاعدة البيانات هذه إلى قاعدة بيانات {$a->dbtype}  {$a->dbname} على {$a->dbhost}';
+$string['transferdbintro'] = 'سيقوم هذا النص البرمجي بنقل كامل محتويات قاعدة البيانات هذه إلى مخدم قواعد بيانات آخر. غالباً ما يتم استعماله لترحيل البيانات إلى نوع مختلف من قواعد البيانات.';
+$string['transferdbtoserver'] = 'أنقل قاعدة بيانات مودل هذه إلى مخدم آخر';
+$string['transferringdbto'] = 'يجري نقل قاعدة البيانات هذه {$a->dbtypefrom} إلى قاعدة بيانات {$a->dbtype} اسمها "{$a->dbname}" في "{$a->dbhost}"';

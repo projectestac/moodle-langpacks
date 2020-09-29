@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'ملف إكس إم إلـ';
-$string['xml:publish'] = 'أنشر تصدير الدرجة بتنسيق  إكس إم إلـ';
-$string['xml:view'] = 'استخدم تصدير الدرجة بتنسيق  إكس إم إلـ';
+$string['eventgradeexported'] = 'تصدير العلامات بصيغة XML';
+$string['pluginname'] = 'ملف XML';
+$string['privacy:metadata'] = 'إن ملحق تصدير العلامات بصيغة ملف XML لا يخزن أي بيانات شخصية.';
+$string['xml:publish'] = 'نشر تصدير العلامات بصيغة XML';
+$string['xml:view'] = 'استعمال تصدير العلامات بصيغة XML';

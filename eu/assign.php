@@ -340,7 +340,7 @@ $string['maxperpage'] = 'Gehienezko zereginak orriko';
 $string['maxperpage_help'] = 'Kalifikatzaile batek kalifikazio orrian gehienez erakutsi ditzakeen zeregin kopurua. Ezarpen hau erabilgarria da partaide asko dituzten ikastaroetan kargatzeko gehienezko denbora-atalasea ekiditeko.';
 $string['messageprovider:assign_notification'] = 'Zereginaren jakinarazpenak';
 $string['modulename'] = 'Zeregina';
-$string['modulename_help'] = 'Zeregin jarduera moduluaren bidez irakasleak komunikatu ditzake atazak, jaso ditzake ikasleen lanak eta eman ditzake kalifikazioak eta feedbackak.
+$string['modulename_help'] = 'Zeregina jarduera moduluaren bidez irakasleak komunikatu ditzake atazak, jaso ditzake ikasleen lanak eta eman ditzake kalifikazioak eta feedbackak.
 
 Ikasleek eduki digitalak bidal ditzakete (fitxategiak), testu-dokumentuak kalkulu orriak, irudiak, audio-klipak edo bideo-klipak. Halaber, ikasleek zeregina egiteko garaian, idatz dezakete testu bat zuzenean testu-editorean. Zereginaren beste erabilera posible bat da \'mundu errealeko\' ataza bat ikasleei gogoraraztea, adibidez, arte-lan bat edo eduki digitalik eskatzen ez duen edozein lan. Ikasleek lana bidal dezakete banaka edo talde baten izenean.
 
@@ -567,9 +567,9 @@ $string['subplugintype_assignsubmission'] = 'Bidalketa-plugina';
 $string['subplugintype_assignsubmission_plural'] = 'Bidalketa-pluginak';
 $string['teamname'] = 'Taldea: {$a}';
 $string['teamsubmission'] = 'Ikasleek taldeka bidaliko dute';
-$string['teamsubmissiongroupingid'] = 'Ikasle-taldeen taldekatzea';
-$string['teamsubmissiongroupingid_help'] = 'Zereginak taldekatze hau erabiliko du ikasle-taldeak aurkitzeko. Zehazten ez bada, lehenetsitako talde multzoa erabiliko da.';
-$string['teamsubmission_help'] = 'Gaituz gero, ikasleak lehenetsitako talde-multzoaren arabera edo taldekatze jakin baten arabera banatuko dira. Taldeko bidalketa bat taldeko kide guztien artean partekatuko da eta taldekide guztiek ikusiko dute bidalketari beste taldekideek egindako aldaketak.';
+$string['teamsubmissiongroupingid'] = 'Ikasle-taldeen talde-multzoa';
+$string['teamsubmissiongroupingid_help'] = 'Zereginak talde-multzo hau erabiliko du ikasle-taldeak aurkitzeko. Zehazten ez bada, lehenetsitako talde multzoa erabiliko da.';
+$string['teamsubmission_help'] = 'Gaituz gero, ikasleak lehenetsitako talde-multzoaren arabera edo talde-multzo jakin baten arabera banatuko dira. Taldeko bidalketa bat taldeko kide guztien artean partekatuko da eta taldekide guztiek ikusiko dute bidalketari beste taldekideek egindako aldaketak.';
 $string['textinstructions'] = 'Zereginerako argibideak';
 $string['timemodified'] = 'Azken aldaketa';
 $string['timeremaining'] = 'Geratzen den denbora';

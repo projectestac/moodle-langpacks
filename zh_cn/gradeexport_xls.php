@@ -25,7 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventgradeexported'] = 'XLS 成绩已导出';
 $string['pluginname'] = 'Excel 电子表格';
-$string['timeexported'] = '上次下载';
-$string['xls:publish'] = '发布 XLS 导出成绩';
-$string['xls:view'] = '使用Excel成绩导出插件';
+$string['privacy:metadata'] = 'Excel 电子表格成绩导出插件不存储任何个人数据。';
+$string['timeexported'] = '最近从本课程下载的';
+$string['xls:publish'] = '发布 XLS 成绩导出';
+$string['xls:view'] = '使用 Excel 成绩导出';

@@ -70,6 +70,7 @@ $string['auth_dbtableempty'] = 'La table externe est vide.';
 $string['auth_dbtable_key'] = 'Table';
 $string['auth_dbtype'] = 'Type de la base de données (pour des détails, voir la documentation <a href="http://adodb.org/dokuwiki/doku.php" target="_blank"> ADOdb - Couche d\'abstraction de base de données pour PHP</a>).';
 $string['auth_dbtype_key'] = 'Base de données';
+$string['auth_dbupdateerror'] = 'Erreur lors de la modification de la base de données externe.';
 $string['auth_dbupdateusers'] = 'Modifier les utilisateurs';
 $string['auth_dbupdateusers_description'] = 'Insérer les nouveaux utilisateurs et modifier les utilisateurs existants.';
 $string['auth_dbupdatinguser'] = 'Modification de l\'utilisateur {$a->name} id {$a->id}';

@@ -31,12 +31,29 @@ $string['configdndresizewidth'] = 'عند إنشاء ملصق عن طريق سح
 $string['dndmedia'] = 'وسائط السحب والإفلات';
 $string['dndresizeheight'] = 'تغيير ارتفاع منطقة السحب والإفلات';
 $string['dndresizewidth'] = 'تغيير عرض منطقة السحب والإفلات';
+$string['dnduploadlabel'] = 'أضف وسائط إلى صفحة المساق';
 $string['dnduploadlabeltext'] = 'إضافة ملصق إلى صفحة المقرر الدراسي';
+$string['indicator:cognitivedepth'] = 'الملصق معرفياً';
+$string['indicator:cognitivedepthdef'] = 'الملصق معرفياً';
+$string['indicator:cognitivedepthdef_help'] = 'لقد وصل المشارك إلى هذه النسبة المئوية من المشاركة المعرفية التي وفرتها موارد الملصق خلال فترة التحليل هذه (المستويات = لا معاينة، معاينة)';
+$string['indicator:cognitivedepth_help'] = 'هذا المؤشر مبني على عمق الحالة المعرفية التي وصلها الطالب في مورد الملصق.';
+$string['indicator:socialbreadth'] = 'الملصق إجتماعياً';
+$string['indicator:socialbreadthdef'] = 'الملصق إجتماعياً';
+$string['indicator:socialbreadthdef_help'] = 'لقد وصل المشارك إلى هذه النسبة المئوية من المشاركة الاجتماعية التي وفرتها موارد الملصق خلال فترة التحليل هذه (المستويات = لا مشاركة، المشاركة منفرداً)';
+$string['indicator:socialbreadth_help'] = 'هذا المؤشر مبني على عمق التوسع الاجتماعي الذي وصله الطالب في مورد الملصق.';
 $string['label:addinstance'] = 'إضافة ملصق جديد';
 $string['labeltext'] = 'نص الملصق';
+$string['label:view'] = 'معاينة الملصق';
 $string['modulename'] = 'ملصق';
-$string['modulename_help'] = 'الملصق يفعل إدراج النصوص والصور ضمن روابط النشاط في صفحة المقرر الدراسي';
+$string['modulename_help'] = 'وحدة الملصق تتيح إدراج النصوص والوسائط المتعددة في صفحة المساق فيما بين روابط النشاطات والموارد الأخرى. الملصقات لها نواح استعمال عديدة ويمكنها المساعدة في تحسين مظهر المساق إذا استُعمِلت بروية.
+
+يمكن استعمال الملصقات:
+
+* للفصل ما بين قائمة طويلة من النشاطات بعنوان فرعي أو صورة
+* لعرض ملف صوت أو فيديو مضمَّنين مباشرة في صفحة المساق
+* لإضافة وصف موجز لمقطع المساق';
 $string['modulenameplural'] = 'ملصقات';
-$string['pluginadministration'] = 'إدارة الملصقات';
-$string['pluginname'] = 'ملصق';
-$string['search:activity'] = 'ملصق';
+$string['pluginadministration'] = 'إدارة الملصق';
+$string['pluginname'] = 'الملصق';
+$string['privacy:metadata'] = 'إن ملحق مورد الملصق لا يخزن أي بيانات شخصية.';
+$string['search:activity'] = 'الملصق';

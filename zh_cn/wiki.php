@@ -158,7 +158,7 @@ Wikis 有很多用途，诸如
 * 学生进行合作出版在线书目，针对他们导师设置的主题创作内容
 * 用来合作创作故事或诗歌，其中每个参与者写一行或者一节诗。
 * 作为个人的日志，记录考试笔记或复习内容（使用个人 wiki）';
-$string['modulenameplural'] = 'Wiki';
+$string['modulenameplural'] = 'Wiki 协作';
 $string['navigation'] = '导航';
 $string['navigationfrom'] = '此页面来自';
 $string['navigationfrom_help'] = '链接到此页的wiki页面';
@@ -207,10 +207,10 @@ $string['page-mod-wiki-history'] = 'Wiki历史页';
 $string['page-mod-wiki-map'] = 'Wiki地图页';
 $string['page-mod-wiki-view'] = 'Wiki模块主页';
 $string['page-mod-wiki-x'] = '任意wiki模块页';
-$string['pagename'] = '页名';
+$string['pagename'] = '页面名';
 $string['peerreview'] = '同级评议';
 $string['pluginadministration'] = 'Wiki管理';
-$string['pluginname'] = 'Wiki协作';
+$string['pluginname'] = 'Wiki 协作';
 $string['prettyprint'] = '适合打印的版本';
 $string['previewwarning'] = '这只是预览。修改还未保存。';
 $string['print'] = '打印';
@@ -239,7 +239,7 @@ $string['searchterms'] = '搜索词';
 $string['searchwikis'] = '搜索wiki';
 $string['special'] = '特例';
 $string['tableofcontents'] = '目录';
-$string['tagarea_wiki_pages'] = 'Wiki页面';
+$string['tagarea_wiki_pages'] = 'Wiki 页面';
 $string['tagsdeleted'] = 'Wiki标签已被删除';
 $string['teacherrating'] = '教师评分';
 $string['timesrating'] = '此页已评分 {$a->c} 次，平均分：{$a->s}';
@@ -292,5 +292,5 @@ $string['wikisettings'] = 'Wiki设置';
 $string['wikiunorderedlist'] = '项目列表';
 $string['wiki:viewcomment'] = '查看页面评论';
 $string['wiki:viewpage'] = '查看wiki页面';
-$string['wrongversionlock'] = '当您正在编辑时，另一个用户已编辑此页面，而您的内容已过时。';
+$string['wrongversionlock'] = '其他用户在您编辑时编辑了此页面，并且您的内容已过时。';
 $string['wrongversionsave'] = '在您正编辑时，另一个用户创建了一个新版本，而您覆盖了他的修改。请检查页面历史。';

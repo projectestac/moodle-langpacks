@@ -27,8 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['add'] = 'Gehitu';
 $string['add_group'] = 'Gehitu Taldea';
-$string['add_grouping'] = 'Gehitu Taldekatzea';
-$string['add_groupings'] = 'Gehitu Taldekatzeak';
+$string['add_grouping'] = 'Gehitu Talde-multzoa';
+$string['add_groupings'] = 'Gehitu Talde-multzoak';
 $string['add_groups'] = 'Gehitu Taldeak';
 $string['addmorechoices'] = 'Gehitu aukera gehiago';
 $string['afterresultsviewable'] = 'Emaitzak zure aukeraketa egin ondoren erakutsiko dira.';
@@ -54,7 +54,7 @@ $string['choicegroupopen'] = 'Hasiera-data';
 $string['choicegroupoptions'] = 'Aukeraketaren aukerak';
 $string['choicegroupoptions_help'] = 'Hemen da partaideek hautatu ditzaketen taldeak zehazten den lekua.
 
-Ezkerreko zerrendan eskuragarri dauden talde eta taldekatzeak erakusten dira. Taldeak gehitzeko zerrendatik aukeratu itzazu eta "Gehitu" botoian klik egin ezazu. Taldekatze bateko talde guztiak gehitzeko taldekatzea aukeratu eta "Gehitu" botoian klik egin ezazu.
+Ezkerreko zerrendan eskuragarri dauden talde eta talde-multzoak erakusten dira. Taldeak gehitzeko zerrendatik aukeratu itzazu eta "Gehitu" botoian klik egin ezazu. Talde-multzo bateko talde guztiak gehitzeko talde-multzoa aukeratu eta "Gehitu" botoian klik egin ezazu.
 
 Aukeratutako taldeak eskuineko zerrendan erakusten dira.
 
@@ -64,7 +64,7 @@ $string['choicegroupsaved'] = 'Zure aukera gorde da';
 $string['choicetext'] = 'Aukeraren testua';
 $string['chooseaction'] = 'Aukeratu ekintza bat...';
 $string['choosegroup'] = 'Aukeratu talde bat';
-$string['collapse_all_groupings'] = 'Tolestu Taldekatze Guztiak';
+$string['collapse_all_groupings'] = 'Tolestu Talde-multzo Guztiak';
 $string['completionsubmit'] = 'Erakutsi osatu gisa erabiltzaileak aukeratzen duenean';
 $string['createdate'] = 'Taldearen sortze-data';
 $string['defaultsettings'] = 'Ezarpen lehenetsiak';
@@ -74,7 +74,7 @@ $string['del_groups'] = 'Kendu Taldeak';
 $string['displayhorizontal'] = 'Erakutsi horizontalki';
 $string['displaymode'] = 'Erakuste-modua';
 $string['displayvertical'] = 'Erakutsi bertikalki';
-$string['double_click_grouping_legend'] = 'Egin klik bikoitza taldekatze batean banaka zabaldu edo tolesteko.';
+$string['double_click_grouping_legend'] = 'Egin klik bikoitza talde-multzo batean banaka zabaldu edo tolesteko.';
 $string['double_click_group_legend'] = 'Egin klik bikoitza talde batean talde hori gehitzeko.';
 $string['event:answered'] = 'Aukeraketa egin da';
 $string['event:answered_desc'] = '\'{$a->userid}\' IDa duen erabiltzaileak talde-aukeraketako \'{$a->contextinstanceid}\' ikastaro-moduluan taldea aukeratu du.';
@@ -82,7 +82,7 @@ $string['event:removed'] = 'Aukera ezabatu da';
 $string['event:removed_desc'] = '\'{$a->userid}\' IDa duen erabiltzaileak talde-aukeraketako \'{$a->contextinstanceid}\' ikastaro-moduluan egindako aukeraketa ezabatu du.';
 $string['event:reportviewed'] = 'Txostena ikusi da';
 $string['event:reportviewed_desc'] = '\'{$a->userid}\' IDa duen erabiltzaileak talde-aukeraketako \'{$a->contextinstanceid}\' ikastaro-moduluan egindako aukeraketaren txostena du.';
-$string['expand_all_groupings'] = 'Zabaldu Taldekatze Guztiak';
+$string['expand_all_groupings'] = 'Zabaldu Talde-multzo Guztiak';
 $string['expired'] = 'Sentitzen dugu, jarduera hau {$a} itxi zen eta jada ez dago eskuragarri';
 $string['fillinatleastoneoption'] = 'Gutxienez erantzun posible bat eskaini behar duzu.';
 $string['fillinatleasttwooptions'] = 'Gutxienez bi erantzun posible eskaini behar dituzu.';

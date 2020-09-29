@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventgradereportviewed'] = '成绩概览报表已查看';
 $string['gradesoverview'] = '成绩概览';
-$string['overview:view'] = '查看总体报表';
-$string['pluginname'] = '总体报表';
+$string['overview:view'] = '查看概览报表';
+$string['pluginname'] = '概览报表';
+$string['privacy:metadata'] = '成绩概览报表只显示存储在其他位置的数据。';

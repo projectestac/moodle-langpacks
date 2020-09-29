@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addmorechoiceblanks'] = '添加 {no} 个空白选项';
 $string['answer'] = '答案';
 $string['blank'] = '空白';
-$string['correctansweris'] = '正确的答案是： {$a}';
+$string['correctansweris'] = '正确答案是： {$a}';
 $string['infinite'] = '无限制';
 $string['pleaseputananswerineachbox'] = '请在每个盒子里放一个答案。';
 $string['pluginname'] = '拖放填空题';

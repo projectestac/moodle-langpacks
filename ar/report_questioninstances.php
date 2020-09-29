@@ -25,4 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['editquestionshere'] = 'تحرير الأسئلة في هذا السياق';
+$string['eventreportviewed'] = 'تمت معاينة التقرير';
+$string['getreport'] = 'إجلب التقرير';
+$string['hiddenquestions'] = 'مخفي';
+$string['intro'] = 'هذا التقرير يدرج كل السياقات في النظام حيثما توجد أسئلة من نوع معين.';
+$string['pluginname'] = 'عينات الأسئلة';
+$string['privacy:metadata'] = 'إن ملحق عينات الأسئلة لا يخزن أي بيانات شخصية.';
+$string['questioninstances:view'] = 'معاينة تقرير عينات الأسئلة';
+$string['reportforallqtypes'] = 'تقرير كل أنواع الأسئلة';
+$string['reportformissingqtypes'] = 'تقرير الأنواع المجهولة من الأسئلة';
+$string['reportforqtype'] = 'تقرير بالأسئلة من نوع \'{$a}\'';
 $string['reportsettings'] = 'إعدادات التقرير';
+$string['totalquestions'] = 'الإجمالي';
+$string['visiblequestions'] = 'مرئي';

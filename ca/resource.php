@@ -30,7 +30,7 @@ $string['clicktoopen2'] = 'Feu clic en l\'enllaç {$a} per veure el fitxer.';
 $string['configdisplayoptions'] = 'Selecciona totes les opcions que estiguin disponibles, els paràmetres que ja existeixen no es modificaran. Prem la tecla CTRL per seleccionar múltiples camps.';
 $string['configframesize'] = 'Quan una pàgina web o un fitxer penjat es visualitzen dins d\'un marc, aquest valor és l\'altura (en píxels) del marc superior (el que conté la navegació).';
 $string['configparametersettings'] = 'Defineix el valor per defecte de la secció de configuració de Paràmetres quan s\'afegeixen alguns nous recursos. Després de la primera vegada esdevé una preferència individual de l\'usuari.';
-$string['configpopup'] = 'Quan s\'està afegint un nou recurs que es pugui visualitzar en una finestra emergent, aquesta opció ha d\'estar habilitada per defecte?';
+$string['configpopup'] = 'Quan s\'està afegint un recurs nou que es pot visualitzar en una finestra emergent, aquesta opció hauria d\'estar habilitada per defecte?';
 $string['configpopupdirectories'] = 'Les finestres emergents han de mostrar per defecte la barra d\'enllaços del navegador?';
 $string['configpopupheight'] = 'Quina alçada han de tenir per defecte les noves finestres emergents?';
 $string['configpopuplocation'] = 'Les finestres emergents han de mostrar per defecte la barra d\'ubicació?';
@@ -72,15 +72,15 @@ $string['legacyfilesactive'] = 'Actiu';
 $string['legacyfilesdone'] = 'Finalitzat';
 $string['modifieddate'] = 'Modificat {$a}';
 $string['modulename'] = 'Fitxer';
-$string['modulename_help'] = 'El mòdul de fitxer permet a un professor proporcionar un fitxer com un recurs del curs. Sempre que sigui possible, es mostrarà el fitxer en la interfície de curs; en cas contrari, a l\'estudiantat se li presentarà l\'opció de baixar-lo. El fitxer pot incloure altres fitxers de suport, per exemple una pàgina HTML pot incloure imatges o objectes Flash.
+$string['modulename_help'] = 'El mòdul de fitxer permet a un professor proporcionar un fitxer com un recurs del curs. Sempre que sigui possible, es mostrarà el fitxer a la interfície de curs; en cas contrari, es demanarà als estudiants que el baixin. El fitxer pot incloure altres fitxers de suport; per exemple, una pàgina d\'HTML pot tenir imatges incrustades.
 
-Teniu en compte que l\'estudiantat necessita tenir el programari adequat en els seus equips per tal d\'obrir el fitxer.
+Teniu en compte que els estudiants necessiten tenir el programari adequat als seus equips per tal d\'obrir el fitxer.
 
-Un fitxer pot servir per a:
+Un fitxer pot servir per:
 
-* Compartir presentacions utilitzades en classe.
-* Incloure un mini lloc web com un recurs dins del curs
-* Proporcionar plantilles o esborranys de documents de certes aplicacions (per exemple .psd de Photoshop) de manera que l\'estudiantat pugui editar-les i trametre-les per avaluar-les.';
+* Compartir presentacions utilitzades a classe.
+* Incloure un minilloc web com un recurs dins del curs
+* Proporcionar plantilles o esborranys de documents de certes aplicacions (per exemple, .psd de Photoshop) de manera que els estudiants puguin editar-les i trametre-les perquè siguin avaluades.';
 $string['modulenameplural'] = 'Fitxers';
 $string['notmigrated'] = 'Aquest tipus de recurs heretat ({$a}) encara no s\'ha migrat.';
 $string['optionsheader'] = 'Opcions';

@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['event_assessable_uploaded'] = 'قد تم تحميل نص عبر الانترنت.';
+$string['event_assessable_uploaded'] = 'قد تم رفع نص عبر الإنترنت.';
 $string['pluginname'] = 'عبر الإنترنت';
 $string['privacy:metadata'] = 'لا يقوم المكون الإضافي Online assignment  بتخزين أيّ بيانات شخصية.';

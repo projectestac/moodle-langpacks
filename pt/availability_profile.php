@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['conditiontitle'] = 'Campo de perfil de utilizador';
+$string['conditiontitle'] = 'Campo de perfil do utilizador';
 $string['description'] = 'Condição de acesso com base em campos de perfil do aluno.';
 $string['error_selectfield'] = 'Tem de selecionar um campo de perfil.';
 $string['error_setvalue'] = 'Tem de digitar um valor.';
@@ -51,4 +51,4 @@ $string['requires_notendswith'] = 'O campo <strong>{$a->field}</strong> não ter
 $string['requires_notisequalto'] = 'O campo <strong>{$a->field}</strong> não é <strong>{$a->value}</strong>';
 $string['requires_notstartswith'] = 'O campo <strong>{$a->field}</strong> não começa com <strong>{$a->value}</strong>';
 $string['requires_startswith'] = 'O campo <strong>{$a->field}</strong> começa com <strong>{$a->value}</strong>';
-$string['title'] = 'Perfil de utilizador';
+$string['title'] = 'Perfil do utilizador';

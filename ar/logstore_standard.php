@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['buffersize'] = 'اكتب حجم المخزن المؤقت';
+$string['buffersize'] = 'أكتب حجم المخزن الوسيط';
 $string['jsonformat'] = 'تنسيق JSON';
 $string['jsonformat_desc'] = 'استخدم تنسيق JSON القياسي بدلاً من البيانات التسلسلية لـ PHP في حقل قاعدة البيانات "الآخر".';
-$string['pluginname'] = 'سجل قياسي';
+$string['pluginname'] = 'السجل القياسي';
 $string['pluginname_desc'] = 'يخزن المكون الإضافي للسجل إدخالات السجل في جدول قاعدة بيانات Moodle.';
 $string['privacy:metadata:log'] = 'مجموعة من الأحداث الماضية';
 $string['privacy:metadata:log:anonymous'] = 'ما إذا كان قد تم الإبلاغ عن الحدث على أنه مجهول';
@@ -40,4 +40,4 @@ $string['privacy:metadata:log:realuserid'] = 'معرف المستخدم الحق
 $string['privacy:metadata:log:relateduserid'] = 'معرف المستخدم المتعلق بهذا الحدث';
 $string['privacy:metadata:log:timecreated'] = 'الوقت الذي وقع فيه الحدث';
 $string['privacy:metadata:log:userid'] = 'معرف المستخدم الذي قام بتشغيل هذا الحدث';
-$string['taskcleanup'] = 'تنظيف سجل الجدول';
+$string['taskcleanup'] = 'تنظيف سجل وقوعات الجدول';

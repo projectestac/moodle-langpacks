@@ -25,16 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['commentinline'] = 'تعليق متضمن';
-$string['commentinlinedefault'] = 'افتراضياً سيكون التعليق متضمن';
-$string['commentinlinedefault_help'] = 'إذا تم  تفعيله فإن  وظيفة التعليق المتضمن ستكون مفعّله تلقائياً لكل المهمات الجديدة';
+$string['commentinline'] = 'تعليق ضمني';
+$string['commentinlinedefault'] = 'التعليق ضمني إفتراضياً';
+$string['commentinlinedefault_help'] = 'إذا تم تفعيله فإن وظيفة التعليق الضمني ستكون مفعّلة تلقائياً لكل الواجبات الجديدة';
 $string['commentinline_help'] = 'إذا تم تفعيل هذا الخيار فإن النص المُرسل سيتم نسخه إلى حقل التعليق خلال التقييم مما يُسهّل تضمين التعليق (ربما باستخدام ألوان مختلفة للنص) أو بتحرير النص الأساسي';
 $string['default'] = 'مُفعّل تلقائياً';
-$string['default_help'] = 'إذا تم تفعيل هذا الخيار فإن طريقة اتغذية الراجعة هذه ستكون مفُعّلة افتراضياً لكل المهمات الجديدة.';
+$string['default_help'] = 'إذا تم تفعيل هذا الخيار فإن طريقة الإفادة هذه ستكون مفُعّلة إفتراضياً لكل الواجبات الجديدة.';
 $string['enabled'] = 'تعليقات الإفادة';
 $string['enabled_help'] = 'إذا تم تفعيل هذا الخيار فإن المُصحح يستطيع ترك تعليقات الإفادة لكل مهمة مرسلة';
 $string['pluginname'] = 'تعليقات الإفادة';
-$string['privacy:commentpath'] = 'تعليقات ردود الفعل';
+$string['privacy:commentpath'] = 'تعليقات الإفادة';
 $string['privacy:metadata:assignmentid'] = 'معرّف الواجب';
 $string['privacy:metadata:commentpurpose'] = 'نص التعليق.';
 $string['privacy:metadata:filepurpose'] = 'ملفات الملاحظات من المعلم للطالب.';

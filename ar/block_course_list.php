@@ -25,12 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['adminview'] = 'معياينة المدير';
+$string['adminview'] = 'معاينة المشرف';
 $string['allcourses'] = 'مدير الموقع يستطيع مشاهدة جميع المقررات الدراسية';
-$string['configadminview'] = 'ماذا يجب على المدير معاينته في قائمة كتل المقرر الدراسي؟';
-$string['confighideallcourseslink'] = 'إخفاء روابط "جميع المقررات الدراسي" في اخر الكتلة. هذا لا يؤثر على صلاحيات المدير';
-$string['course_list:addinstance'] = 'إضافة كتلة مقررات دراسية جديدة';
-$string['course_list:myaddinstance'] = 'إضافة كتلة مقررات دراسية جديدة في الصفحة الشخصية';
-$string['hideallcourseslink'] = 'اخفي جميع روابط المقررات الدراسية';
+$string['configadminview'] = 'فيما إذا كان ينبغي عرض كل المساقات في كتلة المساقات، أو تلك المنضم إليها المشرف فقط.';
+$string['confighideallcourseslink'] = 'إزالة رابط \'كل المساقات\' أسفل قائمة المساقات. (هذا الإعداد لا يؤثر على معاينة المشرف).';
+$string['course_list:addinstance'] = 'إضافة كتلة مساقات جديدة';
+$string['course_list:myaddinstance'] = 'إضافة كتلة مساقات جديدة إلى دفة القيادة';
+$string['hideallcourseslink'] = 'إخفاء رابط \'كل المساقات\'';
 $string['owncourses'] = 'مدير الموقع يستطيع مشاهدة مقرراته الدراسية';
-$string['pluginname'] = 'المقررات الدراسية';
+$string['pluginname'] = 'المساقات';
+$string['privacy:metadata'] = 'كتلة المساقات تظهر فقط معلومات عن المساقات ولا تخزن أي بيانات بحد ذاتها.';

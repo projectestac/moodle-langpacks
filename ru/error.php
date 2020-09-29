@@ -219,6 +219,7 @@ $string['ddsequenceerror'] = 'Некорректное определение т
 $string['destinationcmnotexit'] = 'Модуль курса назначения не существует';
 $string['detectedbrokenplugin'] = 'Плагин «{$a}» дефектный или устаревший. Продолжение невозможно.';
 $string['dmlexceptiononinstall'] = '<p>Произошла ошибка базы данных [{$a->errorcode}].<br />{$a->debuginfo}</p>';
+$string['dmlparseexception'] = 'Ошибка синтаксического анализа SQL-запроса';
 $string['dmlreadexception'] = 'Ошибка чтения из базы данных';
 $string['dmltransactionexception'] = 'Ошибка транзакции базы данных';
 $string['dmlwriteexception'] = 'Ошибка записи в базу данных';

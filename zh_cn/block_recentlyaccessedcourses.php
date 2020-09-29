@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['nocourses'] = '没有最近访问的课程';
+$string['nocourses'] = '没有最近的课程';
 $string['pluginname'] = '最近访问的课程';
 $string['privacy:metadata'] = '最近访问过的课程版块不保存任何个人数据';
 $string['recentlyaccessedcourses:myaddinstance'] = '向个人主页中添加最近访问过的课程版块';

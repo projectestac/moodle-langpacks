@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['login:addinstance'] = 'إضافة كتلة تسجيل دخول جديدة';
-$string['pluginname'] = 'دخول';
+$string['pluginname'] = 'تسجيل الدخول';
+$string['privacy:metadata'] = 'كتلة الدخول تعتبر فقط وسيلة لتسجيل الدخول ولا تخزن أي بيانات بحد ذاتها.';

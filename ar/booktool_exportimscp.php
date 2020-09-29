@@ -29,5 +29,5 @@ $string['eventbookexported'] = 'تصدير كتاب';
 $string['exportimscp:export'] = 'تصدير الكتاب كحزمة محتوى IMS';
 $string['generateimscp'] = 'توليد IMS CP';
 $string['nochapters'] = 'لا يوجد فصول للكتاب، فغير قادر على التصدير إلى CP IMS.';
-$string['pluginname'] = 'كتاب IMS CP تم تصديره';
+$string['pluginname'] = 'تصدير كتاب IMS CP';
 $string['privacy:metadata'] = 'لا يقوم ملحق The Book IMS CP export  بتخزين أيّ بيانات شخصية.';

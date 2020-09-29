@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['healthnoproblemsfound'] = 'لم نجد أية مشكلة صحية!';
-$string['healthproblemsdetected'] = 'تم العثور على مشاكل';
-$string['healthproblemsolution'] = 'حل المشاكل';
+$string['healthnoproblemsfound'] = 'لم يتم العثور على أية مشاكل صحية!';
+$string['healthproblemsdetected'] = 'تم العثور على مشاكل صحية!';
+$string['healthproblemsolution'] = 'حل المشاكل الصحية';
 $string['healthreturntomain'] = 'إستمر';
-$string['healthsolution'] = 'حل';
+$string['healthsolution'] = 'الحل';
 $string['pluginname'] = 'المركز الصحي';
-$string['privacy:metadata'] = 'لا يخزن المكون الإضافي لـ Health Center أيّ بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق المركز الصحي لا يخزن أي بيانات شخصية.';

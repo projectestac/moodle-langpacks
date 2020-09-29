@@ -107,6 +107,7 @@ $string['invalidgrade'] = 'Felaktig bedömning';
 $string['invalidplan'] = 'Felaktig studieplan';
 $string['invalidtaxonomy'] = 'Felaktig taxonomi: {$a}';
 $string['invalidurl'] = 'URL:en är felaktig.  Se till att den börjar med \'http://\' eller \'https://\'.';
+$string['nouserplanswithcompetency'] = 'Det finns inga användare vars läroplaner som innehåller denna kompetens';
 $string['planstatusactive'] = 'Aktiv';
 $string['planstatuscomplete'] = 'Komplett';
 $string['planstatusdraft'] = 'Utkast';

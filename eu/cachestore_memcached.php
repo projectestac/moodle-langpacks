@@ -34,7 +34,7 @@ $string['clustered_help'] = 'Ezarpen hau behin-irakurri guztietan-ezarri funtzio
 Nahitako erabilera-kasua karga-banatze konfigurazioetan biltegi hobetu bat sortzea da. Biltegiak zerbitzari batetik jasoko du datua (normalean localhost), baina anitzetan ezarriko du (karga-banatze guneko zerbitzari guztietan). Irakurketa-ratio handiko cacheetarako, ezarpen honek sare-gainkarga esanguratsua aurrezten du.
 
 Ezarpen hau gaituta dagoenean, datuak eskuratzeko goiko zerrendan zehaztutako zerbitzariak erabiliko dira.';
-$string['hash'] = 'Zifratze-metodoa';
+$string['hash'] = 'Hash metodoa';
 $string['hash_crc'] = 'CRC';
 $string['hash_default'] = 'Lehenetsitakoa (banaka)';
 $string['hash_fnv1_32'] = 'FNV1_32';

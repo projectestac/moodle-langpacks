@@ -198,6 +198,7 @@ $string['multichoice_values'] = '多肢選択値';
 $string['multiplesubmit'] = '複数回答を許可する';
 $string['multiplesubmit_help'] = '匿名調査を有効にした場合、ユーザは無制限でフィードバックを送信することができます。';
 $string['name'] = '名称';
+$string['nameandlabelformat'] = '({$a->label}) {$a->name}';
 $string['name_required'] = '名称を入力してください。';
 $string['next_page'] = '次のページ';
 $string['no_handler'] = 'アクションハンドラがありません:';

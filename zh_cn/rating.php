@@ -32,30 +32,35 @@ $string['aggregatemin'] = '最低分';
 $string['aggregatenone'] = '无评分';
 $string['aggregatesum'] = '评分总和';
 $string['aggregatetype'] = '汇总类型';
-$string['aggregatetype_help'] = '汇总类型定义了各个评分如何在成绩单中汇总为最终成绩。
+$string['aggregatetype_help'] = '汇总类型定义了各个评分如何在成绩册中汇总为最终成绩。
 
 * 平均分 - 所有评分的平均值
-* 评分总数 - 被评分的项目数成为最终成绩。注意，该成绩不会超过活动设定的最高分。
+* 评分数 - 被评分的项目数成为最终成绩。注意，该总成绩不能超过活动设定的最高分。
 * 最大值 - 最高的评分成为最终成绩
 * 最小值 - 最低的评分成为最终成绩
-* 总和 - 所有评分被加到一起。注意，该成绩不会超过活动设定的最高分。
+* 总和 - 所有评分被加到一起。注意，该总成绩不能超过活动设定的最高分。
 
-如果选择“无评分”，那么此活动不会出现在成绩单中。';
+如果选择“无评分”，那么此活动不会出现在成绩册中。';
 $string['allowratings'] = '可以给项目评分吗？';
-$string['allratingsforitem'] = '所以已提交的评分';
-$string['capabilitychecknotavailable'] = '在活动被保存之前，不能检查权限';
-$string['couldnotdeleteratings'] = '抱歉，因为已经有人参与了评分，所以不能删除';
+$string['allratingsforitem'] = '所有已提交的评分';
+$string['capabilitychecknotavailable'] = '在保存活动之前，能力检查不可用';
+$string['couldnotdeleteratings'] = '抱歉，无法删除，因为有人已经对其进行了评分';
 $string['grade_rating_name'] = '评分';
-$string['norate'] = '项目评分功能没有打开！';
-$string['noratings'] = '没有提交的评分';
-$string['noviewanyrate'] = '您只能查看您创造的条目的结果';
-$string['noviewrate'] = '您没有查看评分的权限';
+$string['norate'] = '不允许对项目评分！';
+$string['noratings'] = '没有提交评分';
+$string['noviewanyrate'] = '您只能查看您自己的项目的结果';
+$string['noviewrate'] = '您没有查看项目评分的权限';
+$string['privacy:metadata:rating'] = '用户输入的评分与被评分项目的映射一起存储。';
+$string['privacy:metadata:rating:rating'] = '用户输入的数值评分。';
+$string['privacy:metadata:rating:timecreated'] = '首次评分的时间。';
+$string['privacy:metadata:rating:timemodified'] = '上次更新评分的时间。';
+$string['privacy:metadata:rating:userid'] = '进行评分的用户。';
 $string['rate'] = '评分';
-$string['ratepermissiondenied'] = '您没有对此项评分的权限';
+$string['ratepermissiondenied'] = '您没有对此项目评分的权限';
 $string['rating'] = '评分';
 $string['ratinginvalid'] = '评分无效';
 $string['ratings'] = '评分';
-$string['ratingtime'] = '限制只能在此时间段内评分：';
-$string['rolewarning'] = '有评分权的角色';
+$string['ratingtime'] = '将评分项目限制在此日期范围内：';
+$string['rolewarning'] = '具有评分权限的角色';
 $string['rolewarning_help'] = '要提交评分的用户必须具有moodle/rating:rate权限和模块定义的相关权限。分配到如下角色的用户应该能评分。在管理版块页面里的权限链接里可以修改这个角色列表。';
-$string['scaleselectionrequired'] = '当选择了一个评分评价类型，还必须选择使用一个标准或设置一个最高分。';
+$string['scaleselectionrequired'] = '当选择一个评分汇总类型时，您还必须选择使用一个量表或设置一个最高分。';

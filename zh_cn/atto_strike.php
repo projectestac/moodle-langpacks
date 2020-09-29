@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = '删除';
+$string['pluginname'] = '删除线';
 $string['privacy:metadata'] = 'atto_strike 插件不储存任何私人数据。';

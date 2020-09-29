@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'ذاكرة الجلسة';
-$string['privacy:metadata:core_user'] = 'يخزن البرنامج المساعد Session cachestore البيانات لفترة وجيزة كجزء من وظائف التخزين المؤقت. يتم تخزين هذه البيانات في جلسة المستخدم قصيرة الأجل.';
+$string['pluginname'] = 'خبأ الجلسة';
+$string['privacy:metadata:core_user'] = 'يخزن ملحق مخزن خبأ اللسة؛ البيانات لفترة وجيزة كجزء من وظائف التخزين المؤقت. يتم تخزين هذه البيانات في جلسة المستخدم قصيرة الأجل.';

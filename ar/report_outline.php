@@ -25,6 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventactivityreportviewed'] = 'تمت معاينة تقرير النشاط';
+$string['eventoutlinereportviewed'] = 'تمت معاينة تقرير الملامح العامة';
 $string['neverseen'] = 'لم يتم رؤيتها';
-$string['outline:view'] = 'معاينة تقرير نشاط مقرر دراسي';
-$string['pluginname'] = ' نشاط مقرر دراسي';
+$string['nocapability'] = 'تعذر الوصول إلى تقرير الملامح العامة للمستخدم';
+$string['nologreaderenabled'] = 'لا قارئ مُمَكَّن لسجل الوقوعات';
+$string['numviews'] = '{$a->numviews} معاينات من قبل {$a->distinctusers} مستخدم/مستخدمين';
+$string['outline:view'] = 'معاينة تقرير النشاط';
+$string['outline:viewuserreport'] = 'معاينة تقرير النشاط لمستخدم';
+$string['page-report-outline-index'] = 'تقرير الملامح العامة للمساق';
+$string['page-report-outline-user'] = 'تقرير الملامح العامة للمستخدم في المساق';
+$string['page-report-outline-x'] = 'أي تقرير للملامح العامة';
+$string['pluginname'] = 'تقرير النشاط';
+$string['privacy:metadata'] = 'إن ملحق تقرير النشاط لا يخزن أي بيانات شخصية.';

@@ -59,7 +59,7 @@ $string['confirmlinkedloginemail'] = '{$a->fullname} さん
 
 あなたがこれを完了しない場合、他の誰かがあなたのアカウントの情報取得を試みる場合があります。すぐにサイト管理者にご連絡ください。';
 $string['confirmlinkedloginemailsubject'] = '{$a}: リンクログイン確認';
-$string['createaccountswarning'] = 'このプラグインによりユーザはあなたのサイトでアカウントを作成することができます。このプラグインを使用する場合、よろしければ、「authpreventaccountcreation」設定を有効にしてください。';
+$string['createaccountswarning'] = 'このプラグインによりユーザはあなたのサイトでアカウントを作成することができます。このプラグインを使用する場合、アカウント作成を禁止したいならば、「authpreventaccountcreation」設定を有効にしてください。';
 $string['createnewlinkedlogin'] = '新しいアカウント ({$a}) のリンク';
 $string['emailconfirmlink'] = 'あなたのアカウントのリンク';
 $string['emailconfirmlinksent'] = 'このメールアドレスで既存のアカウントが見つかりましたが、まだリンクされていません。あなたがログインできるようにするにはアカウントをリンクする必要があります。

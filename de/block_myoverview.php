@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addtofavourites'] = 'Diesen Kurs markieren';
+$string['addtofavourites'] = 'Diesen Kurs als Favorit markieren';
 $string['all'] = 'Alle (außer aus Darstellung entfernte)';
 $string['allincludinghidden'] = 'Alle';
 $string['aria:addtofavourites'] = 'Markierung für';
@@ -47,7 +47,7 @@ $string['aria:inprogress'] = 'Laufende Kurse anzeigen';
 $string['aria:lastaccessed'] = 'Kurse nach letztem Zugriffsdatum anzeigen';
 $string['aria:list'] = 'Zur Listenansicht wechseln';
 $string['aria:past'] = 'Vergangene Kurse anzeigen';
-$string['aria:removefromfavourites'] = 'Markierung für Kurs entfernen';
+$string['aria:removefromfavourites'] = 'Markierung als favorisierten Kurs entfernen';
 $string['aria:showcourse'] = '{$a} anzeigen';
 $string['aria:sortingdropdown'] = 'Dropdown-Menü für die Sortierung';
 $string['aria:summary'] = 'Zur Beschreibungsansicht wechseln';
@@ -95,7 +95,7 @@ $string['privacy:metadata:overviewsortpreference'] = 'Präferenz zur Sortierung 
 $string['privacy:metadata:overviewviewpreference'] = 'Präferenz zur Anzeige in Kursübersicht';
 $string['privacy:request:preference:set'] = 'Der Wert der Einstellung \'{$a->name}\' war \'{$a->value}\'';
 $string['recentlyoverdue'] = 'Kürzlich überfällig';
-$string['removefromfavourites'] = 'Kursmarkierung entfernen';
+$string['removefromfavourites'] = 'Kurs aus den Favoriten entfernen';
 $string['show'] = 'Erneut anzeigen';
 $string['sortbycourses'] = 'Nach Kursen sortieren';
 $string['sortbydates'] = 'Nach Datum sortieren';

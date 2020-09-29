@@ -25,7 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['deleteselected'] = 'إحذف الملفات المحددة';
 $string['filemanager'] = 'مدير الملفات';
+$string['hasmissingfiles'] = 'تحذير! الملفات الآتية المشار إليها في منطقة النص يبدو أنها مفقودة:';
 $string['managefiles'] = 'إدارة الملفات';
+$string['missingfiles'] = 'الملفات المفقودة';
 $string['pluginname'] = 'مدير الملفات';
+$string['privacy:metadata'] = 'إن ملحق atto_managefiles لا يخزن أي بيانات شخصية.';
+$string['unusedfilesdesc'] = 'الملفات المضمنة الآتية غير مستعملة في منطقة النص:';
 $string['unusedfilesheader'] = 'الملفات غير المستخدمة';
+$string['unusedfilesremovalnotice'] = 'أي ملفات غير مستعملة سيتم حذفها تلقائياً عند حفظ التغييرات.';

@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configtitle'] = 'علامات عنوان كتلة بلوق';
-$string['pluginname'] = 'علامات المدونة';
+$string['blog_tags:addinstance'] = 'إضافة كتلة جديدة لوسوم المدونة';
+$string['configtitle'] = 'عنوان كتلة وسوم المدونة';
+$string['pluginname'] = 'وسوم المدونة';
+$string['privacy:metadata'] = 'كتلة وسوم المدونة تظهر فقط البيانات المخزنة في مواضع أخرى.';

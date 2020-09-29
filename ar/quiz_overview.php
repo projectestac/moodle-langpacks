@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['allattempts'] = 'اظهار جميع المحاولات';
 $string['allattemptscontributetograde'] = 'كل المحاولات ساهمت في الدرجة النهائية للمستخدم.';
 $string['allstudents'] = 'اظهار الكل {$a}';
-$string['attemptsonly'] = 'أظهار {$a} مع المحاولات فقط';
+$string['attemptsonly'] = 'إظهار {$a} مع المحاولات فقط';
 $string['attemptsprepage'] = 'المحاولات المعروضة في كل صفحة';
 $string['deleteselected'] = 'حذف المحاولات المحددة';
 $string['done'] = 'تم';
@@ -36,10 +36,10 @@ $string['err_failedtodeleteregrades'] = 'فشل حذف درجات المحاول
 $string['err_failedtorecalculateattemptgrades'] = 'فشل إعادة حساب درجات المحاولة';
 $string['highlightinggraded'] = 'محاولة المستخدم و التي تسهم في الدرجة النهائية يتم تمييزها.';
 $string['needed'] = 'لازم';
-$string['noattemptsonly'] = 'أظهار {$a} بدون المحاولات فقط';
+$string['noattemptsonly'] = 'إظهار / تنزيل {$a} فقط الذين بلا محاولات';
 $string['noattemptstoregrade'] = 'لا محاولات تحتاج إعادة تصحيح';
-$string['nogradepermission'] = 'ليست من صلاحياتك تقييم هذا الاختبار.';
-$string['onlyoneattemptallowed'] = 'يسمح لكل مستخدم بمحاولة واحدة في هذه المسابقة';
+$string['nogradepermission'] = 'ليست لديك صلاحية تقييم هذا الاختبار.';
+$string['onlyoneattemptallowed'] = 'يُسمح لكل مستخدم بمحاولة واحدة في هذا الاختبار.';
 $string['optallattempts'] = 'كل المحاولات';
 $string['optallstudents'] = 'كل {$a} حاول أو لم يحاول في الاختبار';
 $string['optattemptsonly'] = '{$a} الذين قاموا بالإجابة على الاختبار';
@@ -52,7 +52,7 @@ $string['overviewreport'] = 'تقرير العلامات';
 $string['overviewreportgraph'] = 'عدد الطلاب الكلي الذي حقق نطاقات الدرجة';
 $string['overviewreportgraphgroup'] = 'عدد الطلاب في المجموعة \'{$a}\' الذين حققوا درجة في النطاقات';
 $string['pagesize'] = 'حجم الصفحة';
-$string['pluginname'] = 'درجات';
+$string['pluginname'] = 'العلامات';
 $string['preferencespage'] = 'الإعدادات الخاصة بهذه الصفحة فقط';
 $string['preferencessave'] = 'عرض التقرير';
 $string['preferencesuser'] = 'إعداداتك لهذا التقرير';
@@ -67,9 +67,11 @@ $string['regradealldrydogroup'] = 'إعادة تقييم المحاولات و �
 $string['regradealldrygroup'] = 'إعادة تقدير الدرجات بالكامل للمجموعة \'{$a->groupname}\\';
 $string['regradeallgroup'] = 'إعادة تصحيح كاملة لمجموعة  \'{$a->groupname}\'';
 $string['regradecomplete'] = 'إعادة التصحيح تمت بنجاح';
+$string['regradedsuccessfullyxofy'] = 'تمت إعادة التقييم بنجاح ({$a->done}/{$a->count})';
 $string['regradeheader'] = 'إعادة التصحيح';
 $string['regradeselected'] = 'إعادة تصحيح المحاولات المُحدَّدة';
 $string['regradingattemptxofy'] = 'إعادة تصحيح المحاولات  ({$a->done}/{$a->count})';
+$string['regradingattemptxofywithdetails'] = 'تجري إعادة التقييم ({$a->done}/{$a->count}) - المحاولة {$a->attemptnum} من قِبل {$a->name} (المُعرَّف {$a->attemptid})';
 $string['show'] = 'استعراض/ تنزيل';
 $string['showattempts'] = 'فقط أظهر / حمّل المحاولات';
 $string['showdetailedmarks'] = 'درجات كل سؤال';

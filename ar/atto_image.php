@@ -25,4 +25,26 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['alignment'] = 'المحاذاة';
+$string['alignment_bottom'] = 'أسفل';
+$string['alignment_left'] = 'يسار';
+$string['alignment_middle'] = 'وسط';
+$string['alignment_right'] = 'يمين';
+$string['alignment_top'] = 'أعلى';
+$string['browserepositories'] = 'تصفح المستودعات...';
+$string['constrain'] = 'تحجيم تلقائي';
+$string['createimage'] = 'إدراج صورة';
+$string['customstyle'] = 'نمط مخصص';
+$string['enteralt'] = 'أعط وصفاً لهذه الصورة لمن لا يستطيع مشاهدتها';
+$string['enterurl'] = 'أدخل عنوان الرابط';
+$string['height'] = 'الارتفاع';
+$string['imageproperties'] = 'خصائص الصورة';
+$string['pluginname'] = 'إدراج صورة أو تعديلها';
+$string['presentation'] = 'هذه صورة للتزيين فقط';
+$string['presentationoraltrequired'] = 'لا بد من إعطاء وصف للصورة، إلا إذا كانت مؤشرة للتزيين فقط.';
+$string['preview'] = 'استعراض';
+$string['privacy:metadata'] = 'إن ملحق atto_image لا يخزن أي بيانات شخصية.';
+$string['saveimage'] = 'إحفظ الصورة';
 $string['size'] = 'الحجم';
+$string['uploading'] = 'الرفع جارٍ، إنتظر لطفاً...';
+$string['width'] = 'العرض';

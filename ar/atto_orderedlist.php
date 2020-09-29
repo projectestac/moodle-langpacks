@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'قائمة مرتبة';
+$string['pluginname'] = 'قائمة مرقمة';
 $string['privacy:metadata'] = 'لا يقوم الملحق الإضافي atto_orderedlist بتخزين أي بيانات شخصية.';

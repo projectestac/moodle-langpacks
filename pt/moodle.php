@@ -409,9 +409,9 @@ $string['courses'] = 'Disciplinas';
 $string['coursesearch'] = 'Procurar disciplinas';
 $string['coursesearch_help'] = 'Pode procurar várias palavras de uma só vez e especificar a pesquisa de várias formas:
 
-*palavra - encontrar qualquer correspondência da palavra no texto
-*+palavra - encontrar apenas as correspondências exatas das palavras
-*-palavra - não incluir resultados que contenham a palavra';
+palavra - encontrar qualquer correspondência da palavra no texto
++palavra - encontrar apenas as correspondências exatas da palavra
+-palavra - não incluir resultados que contenham a palavra';
 $string['coursesectionsummaries'] = 'Secção de sumários da disciplina';
 $string['coursesectiontitle'] = 'Disciplina: {$a->course}, {$a->sectionname}: {$a->sectiontitle}';
 $string['coursesettings'] = 'Configuração predefinida das disciplinas';
@@ -812,11 +812,11 @@ $string['eventsearchresultsviewed'] = 'Resultados da pesquisa visualizados';
 $string['eventunknownlogged'] = 'Evento desconhecido';
 $string['eventusercreated'] = 'Utilizador criado';
 $string['eventuserdeleted'] = 'Utilizador apagado';
-$string['eventuserinfocategorycreated'] = 'Criada categoria de campos de perfil de utilizador';
-$string['eventuserinfocategorydeleted'] = 'Apagada categoria de campos de perfil de utilizador';
-$string['eventuserinfocategoryupdated'] = 'Atualizada categoria de campos de perfil de utilizador';
-$string['eventuserinfofieldcreated'] = 'Criado campo de perfil de utilizador';
-$string['eventuserinfofielddeleted'] = 'Apagado campo de perfil de utilizador';
+$string['eventuserinfocategorycreated'] = 'Criada categoria de campos de perfil do utilizador';
+$string['eventuserinfocategorydeleted'] = 'Apagada categoria de campos de perfil do utilizador';
+$string['eventuserinfocategoryupdated'] = 'Atualizada categoria de campos de perfil do utilizador';
+$string['eventuserinfofieldcreated'] = 'Criado campo de perfil do utilizador';
+$string['eventuserinfofielddeleted'] = 'Apagado campo de perfil do utilizador';
 $string['eventuserinfofieldupdated'] = 'Atualizado campo de perfil do utilizador';
 $string['eventuserlistviewed'] = 'Lista de utilizadores visualizada';
 $string['eventuserloggedout'] = 'Utilizador saiu';
@@ -1007,7 +1007,7 @@ $string['hours'] = 'horas';
 $string['howtomakethemes'] = 'Como criar temas novos';
 $string['htmleditor'] = 'Usar o editor HTML';
 $string['htmleditoravailable'] = 'O editor HTML está disponível';
-$string['htmleditordisabled'] = 'O editor HTML foi desativado no seu perfil de utilizador';
+$string['htmleditordisabled'] = 'O editor HTML foi desativado no seu perfil do utilizador';
 $string['htmleditordisabledadmin'] = 'O administrador desativou o editor HTML neste site';
 $string['htmleditordisabledbrowser'] = 'O editor HTML não está disponível por não ser compatível com o seu navegador.';
 $string['htmlfilesonly'] = 'Só ficheiros HTML';
@@ -1065,7 +1065,7 @@ $string['indicator:anywriteincourse_help'] = 'Este indicador mostra qualquer aç
 $string['indicator:completeduserprofile'] = 'O perfil do utilizador está completo';
 $string['indicator:completeduserprofiledef'] = 'O perfil do utilizador está completo';
 $string['indicator:completeduserprofiledef_help'] = 'As políticas do site foram aceites e o utilizadoro preencheu os seguintes campos: Instituição, Departamento, Endereço, Cidade, País, URL.';
-$string['indicator:completeduserprofile_help'] = 'Este indicador mostra que o aluno completou seu perfil de utilizador.';
+$string['indicator:completeduserprofile_help'] = 'Este indicador mostra que o aluno completou seu perfil do utilizador.';
 $string['indicator:completionenabled'] = 'Verificação da conclusão ativada';
 $string['indicator:completionenabled_help'] = 'Este indicador mostra que a verificação da conclusão está ativa para esta disciplina.';
 $string['indicator:nostudent'] = 'Inscrições de alunos';
@@ -1682,7 +1682,7 @@ $string['resendemail'] = 'Reenviar e-mail';
 $string['reset'] = 'Limpar';
 $string['resetcomponent'] = 'Componente';
 $string['resetcourse'] = 'Reiniciar disciplina';
-$string['resetinfo'] = 'Esta página permite-lhe limpar os dados de utilizadores numa disciplina, mantendo as atividades e outras configurações. Por favor, tenha em atenção que após submeter o seu pedido nesta página, os dados apagados serão perdidos para sempre!';
+$string['resetinfo'] = 'Esta página permite-lhe limpar os dados dos utilizadores numa disciplina, mantendo as atividades e outras configurações. Por favor, tenha em atenção que após submeter o seu pedido nesta página, os dados apagados serão perdidos definitivamente!';
 $string['resetnotimplemented'] = 'Reiniciação não implementada';
 $string['resetrecordexpired'] = 'A hiperligação que usou para repor a senha foi gerada há mais de {$a} minutos e expirou. Por favor, inicie um novo pedido de reposição de senha.';
 $string['resetstartdate'] = 'Reiniciar data de início';

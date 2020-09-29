@@ -47,6 +47,7 @@ $string['card'] = 'Kort';
 $string['cards'] = 'Kort';
 $string['complete'] = 'Färdig';
 $string['completepercent'] = '{$a}% slutförd';
+$string['customfiltergrouping_nofields'] = 'Detta alternativ kräver att anpassade kursfält har skapats och är synliga för alla.';
 $string['defaulttab'] = 'Standardflik';
 $string['defaulttab_desc'] = 'Denn flik kommer att visas vid användarens första besök på Kursöversikten. När hen återkommer till Kursöversikten öppnas alltid den senast aktiva fliken.';
 $string['favourites'] = 'Favoriter';

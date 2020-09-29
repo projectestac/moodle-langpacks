@@ -26,3 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'منطقة النص';
+$string['privacy:metadata:profile_field_textarea:data'] = 'بيانات المستخدم لحقل الملف الشخصي بشكل منطقة نص';
+$string['privacy:metadata:profile_field_textarea:dataformat'] = 'تنسيق منطقة النص لبيانات المستخدم لحقل الملف الشخصي';
+$string['privacy:metadata:profile_field_textarea:fieldid'] = 'مُعرَّف حقل الملف الشخصي';
+$string['privacy:metadata:profile_field_textarea:tableexplanation'] = 'بيانات الملف الشخصي الإضافية';
+$string['privacy:metadata:profile_field_textarea:userid'] = 'مُعرَّف المستخدم الذي تحفظ بياناته بواسطة منطقة النص لحقل الملف الشخصي';

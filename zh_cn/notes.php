@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addbulknote'] = '向 {$a} 人增加一个新备注';
 $string['addnewnote'] = '添加新备注';
 $string['addnewnoteselect'] = '选择用户撰写备注';
 $string['bynameondate'] = '由{$a->name} - {$a->date}';
@@ -37,8 +38,8 @@ $string['deleteconfirm'] = '删除该备注吗？';
 $string['deletenotes'] = '删除所有备注';
 $string['editnote'] = '编辑备注';
 $string['enablenotes'] = '启用备注';
-$string['eventnotecreated'] = '创建备注';
-$string['eventnotedeleted'] = '删除备注';
+$string['eventnotecreated'] = '备注已创建';
+$string['eventnotedeleted'] = '备注已删除';
 $string['eventnotesviewed'] = '查看了笔记';
 $string['eventnoteupdated'] = '修改了笔记';
 $string['invalidid'] = '错误的备注 ID';
@@ -63,5 +64,5 @@ $string['publishstate_help'] = '备注的上下文决定了谁能看到这个备
 * 课程 - 该课程中的所有教师都可以看见
 * 网站 - 所有课程的教师都可以看见';
 $string['site'] = '全站';
-$string['sitenotes'] = '网站备注';
+$string['sitenotes'] = '站点备注';
 $string['unknown'] = '未知';

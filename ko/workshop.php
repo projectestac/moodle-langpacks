@@ -96,6 +96,7 @@ $string['daystoday'] = '오늘';
 $string['daystomorrow'] = '내일';
 $string['daysyesterday'] = '어제';
 $string['deadlinesignored'] = '당신에게는 시간 제한이 적용되지 않습니다. ';
+$string['deletesubmission'] = '제출 삭제';
 $string['editassessmentform'] = '평가양식 수정';
 $string['editassessmentformstrategy'] = '{$a} 평가양식 수정';
 $string['editingassessmentform'] = '평가양식 수정';

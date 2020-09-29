@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventgradeexported'] = 'XML 成绩 已导出';
 $string['pluginname'] = 'XML 文件';
-$string['xml:publish'] = '发布 XML 导出成绩';
-$string['xml:view'] = '使用 XML 导出成绩';
+$string['privacy:metadata'] = 'XML 文件成绩导出插件不存储任何个人数据。';
+$string['xml:publish'] = '发布 XML 成绩导出';
+$string['xml:view'] = '使用 XML 成绩导出';

@@ -25,5 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'رفع ملف';
+$string['configplugin'] = 'تهيئة ملحق الرفع';
+$string['pluginname'] = 'رفع الملف';
 $string['pluginname_help'] = 'رفع ملف لمودل';
+$string['privacy:metadata'] = 'إن ملحق مستودع رفع الملف لا يخزن أو يرسل أي بيانات شخصية.';
+$string['upload_error_cant_write'] = 'فشلت كتابة الملف في القرص.';
+$string['upload_error_extension'] = 'أحد إمتدادات PHP أوقف رفع الملف.';
+$string['upload_error_form_size'] = 'الملف المرفوع يتجاوز موجه MAX_FILE_SIZE الذي تم تحديده في نموذج HTML.';
+$string['upload_error_ini_size'] = 'الملف المرفوع يتجاوز موجه upload_max_filesize في php.ini.';
+$string['upload_error_invalid_file'] = 'إما أن الملف \'{$a}\' فارغ أو هو مجلد. لرفع المجلدات، قم بضغطها بصيغة zip أولاً.';
+$string['upload_error_no_file'] = 'لم يتم رفع أي ملف.';
+$string['upload_error_no_tmp_dir'] = 'PHP ينقصه مجلد مؤقت.';
+$string['upload_error_partial'] = 'تم رفع الملف جزئياً فقط.';
+$string['upload:view'] = 'استعمال الرفع في منتقِ الملفات';

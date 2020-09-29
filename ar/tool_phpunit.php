@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'آلية اختبار وحدة PHP';
-$string['privacy:metadata'] = 'لا يخزن البرنامج المساعد لاختبارات PHPUnit أي بيانات شخصية.';
+$string['pluginname'] = 'إختبارات PHPUnit';
+$string['privacy:metadata'] = 'إن ملحق اختبارات PHPUnit لا يخزن أي بيانات شخصية.';

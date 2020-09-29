@@ -56,6 +56,7 @@ $string['cannotdelete'] = 'Non è possibile eliminare questo file.';
 $string['cannotdownload'] = 'Non è possibile scaricare il file';
 $string['cannotdownloaddir'] = 'Non è possibile scaricare il folder';
 $string['cannotinitplugin'] = 'La chiamata plugin_init non è andata a buon fine';
+$string['cannotunzipcontentunreadable'] = 'Non è possibile decomprimere il file poiché non è stato possibile leggere il contenuto.';
 $string['choosealink'] = 'Scegli link...';
 $string['chooselicense'] = 'Tipo di licenza';
 $string['cleancache'] = 'Elimina i miei file dalla cache';

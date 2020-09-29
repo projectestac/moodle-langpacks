@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['blog_menu:addinstance'] = 'إضافة كتلة جديدة لقائمة المدونة';
 $string['pluginname'] = 'قائمة المدونة';
+$string['privacy:metadata'] = 'كتلة قائمة المدونة تظهر فقط البيانات المخزنة في مواضع أخرى.';

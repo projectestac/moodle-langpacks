@@ -25,4 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'مفضلات المدير';
+$string['admin_bookmarks:addinstance'] = 'إضافة كتلة جديدة من الإشارات المرجعية للمشرف';
+$string['admin_bookmarks:myaddinstance'] = 'إضافة كتلة جديدة من الإشارات المرجعية للمشرف إلى دفة القيادة';
+$string['pluginname'] = 'الإشارات المرجعية للمشرف';
+$string['privacy:metadata'] = 'كتلة الإشارات المرجعية للمشرف تظهر فقط البيانات المخزونة في مواضع أخرى.';

@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['filtername'] = 'مؤنِّق HTML';
 $string['privacy:metadata'] = 'لا يخزن المكون الإضافي لترتيب HTML أي بيانات شخصية.';

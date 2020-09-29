@@ -25,12 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['currentdatedefault'] = 'اختر لاستخدام التاريخ الحالي كتاريخ أفتراضي';
+$string['currentdatedefault'] = 'قم بالتأشير لاستعمال التاريخ الحالي كتاريخ إفتراضي';
 $string['defaultdate'] = 'التاريخ الافتراضي';
-$string['endyear'] = 'نهاية العام';
-$string['notset'] = 'لم يعد';
+$string['endyear'] = 'عام الانتهاء';
+$string['notset'] = 'غير مُعد';
 $string['pluginname'] = 'تاريخ/وقت';
+$string['privacy:metadata:profilefield_datetime:data'] = 'بيانات المستخدم لحقل الملف الشخصي بشكل تاريخ/وقت';
+$string['privacy:metadata:profilefield_datetime:dataformat'] = 'تنسيق تاريخ/وقت بيانات المستخدم لحقل الملف الشخصي';
+$string['privacy:metadata:profilefield_datetime:fieldid'] = 'مُعرَّف حقل الملف الشخصي';
+$string['privacy:metadata:profilefield_datetime:tableexplanation'] = 'بيانات الملف الشخصي الإضافية';
+$string['privacy:metadata:profilefield_datetime:userid'] = 'مُعرَّف المستخدم الذي تحفظ بياناته بواسطة تاريخ/وقت حقل الملف الشخصي';
 $string['specifydatedefault'] = 'أو حدد تاريخ';
-$string['startyear'] = 'بداية العام';
-$string['startyearafterend'] = 'لا يمكن بداية العام تكونبعد نهايته';
+$string['startyear'] = 'عام البدء';
+$string['startyearafterend'] = 'عام البدء لا يمكن أن يقع بعد عام الانتهاء';
 $string['wanttime'] = 'هل يتم تضمين الوقت؟';

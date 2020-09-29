@@ -26,6 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configplugin'] = 'إعدادات مخزن الملفات الأخيرة';
+$string['emptyfilelist'] = 'لا ملفات لمعاينتها';
+$string['notitle'] = 'بلا عنوان';
 $string['pluginname'] = 'الملفات الأخيرة';
+$string['pluginname_help'] = 'الملفات المستعملة مؤخراً من قبل المستخدم الحالي';
+$string['privacy:metadata'] = 'إن ملحق مستودع الملفات المستعملة مؤخراً لا يخزن أو يرسل أي بيانات شخصية.';
 $string['recentfilesnumber'] = 'عدد الملفات الأخيرة';
-$string['recent:view'] = 'مشاهدة إضافة الملفات الأخيرة';
+$string['recent:view'] = 'معاينة ملحق الملفات الأخيرة في المستودع';

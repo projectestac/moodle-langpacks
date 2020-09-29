@@ -28,8 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['action'] = 'إجراء';
 $string['activityoverview'] = 'لديك استبيانات قائمة';
 $string['additionalinfo'] = 'معلومات إضافية';
-$string['additionalinfo_help'] = 'النص الذي سيتم عرضه في الجزء العلوي من الصفحة الأولى من هذا الاستبيان.
- (أيْ التعليمات ، معلومات الخلفية ، و ما إلى ذلك)';
+$string['additionalinfo_help'] = 'النص الذي سيتم عرضه في الجزء العلوي من الصفحة الأولى لهذا الاستبيان. (أيْ التعليمات، معلومات الخلفية، و ما إلى ذلك).';
 $string['addnewquestion'] = 'أضف {$a} سؤال';
 $string['addnewsection'] = 'أضف قسم جديد';
 $string['addquestion'] = 'أضف سؤال ...';
@@ -47,7 +46,7 @@ $string['anonymous'] = 'مجهول';
 $string['answer'] = 'الإجابة';
 $string['answergiven'] = 'هذه الإجابة المقدمة';
 $string['answernotgiven'] = 'هذا الجواب لم يعط';
-$string['answerquestions'] = 'الآن .. أجب عن هذا الاستبيان و ستحصل على التقدير ...';
+$string['answerquestions'] = 'أجب عن هذا الاستبيان...';
 $string['answers'] = 'الأجوبة';
 $string['attempted'] = 'تم تقديم هذا الاستبيان.';
 $string['attemptstillinprogress'] = 'قيد التفيذ. تم الحفظ في:';
@@ -262,7 +261,7 @@ $string['missingnameandrequired'] = 'لا يمكن استخدام السؤال {
 $string['missingquestion'] = 'الرجاء الإجابة عن السؤال المطلوب';
 $string['missingquestions'] = 'الرجاء الإجابة على الأسئلة جميع المطلوبة:';
 $string['missingrequired'] = 'لا يمكن استخدام السؤال {$a} في قسم ردود الفعل هذا ,, لأنه غير مطلوب.';
-$string['modulename'] = 'الاستبيان';
+$string['modulename'] = 'استبيان';
 $string['modulename_help'] = 'تتيح لك وحدة الاستبيان إنشاء استبيانات باستخدام مجموعة متنوعة من أنواع الأسئلة ، بغرض جمع البيانات من المستجيبين.';
 $string['modulenameplural'] = 'الاستبيانات';
 $string['movedisabled'] = 'لا يمكن نقل هذا العنصر';

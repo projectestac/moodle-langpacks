@@ -88,13 +88,13 @@ $string['limitno'] = 'Limite {no}';
 $string['modulename'] = 'Scelta';
 $string['modulename_help'] = 'Il modulo di attività scelta consente al docente di formulare una domanda offrendo una serie di alternative.
 
-I risultati delle scelte possono essere pubblicati dopo che gli studenti hanno risposto, dopo una data impostata oppure possono rimanere privati. I risultati possono essere resi noti sia assieme al nome dello studente sia in forma anonima.
+I risultati delle scelte possono essere pubblicati dopo che gli studenti hanno risposto, dopo una data definita oppure possono rimanere privati. I risultati possono essere resi noti sia assieme al nome dello studente sia in forma anonima (anche se il docente potrà dempre visualizzare i nomi degli studenti e le risposte date).
 
 E\' possibile usare la scelta per:
 
-* Sondaggi veloci per stimolare la riflessione su un dato argomento
-* Valutare rapidamente cosa hanno capito  gli studenti
-* Facilitare le decisioni degli studenti, ad esempio consentendogli di esprimere preferenze sullo svolgimento del corso.';
+* sondaggi veloci per stimolare la riflessione su un dato argomento;
+* valutare rapidamente cosa hanno capito  gli studenti;
+* facilitare le decisioni degli studenti, ad esempio consentendogli di esprimere preferenze sullo svolgimento del corso.';
 $string['modulenameplural'] = 'Scelte';
 $string['moveselectedusersto'] = 'Sposta gli utenti selezionati in...';
 $string['multiplenotallowederror'] = 'Le scelte multiple non sono consentite';

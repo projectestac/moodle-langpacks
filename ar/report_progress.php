@@ -28,5 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['page-report-progress-index'] = 'تقرير لنشاط مكتمل';
 $string['page-report-progress-user'] = 'تقرير لنشاط مكتمل للمستخدم';
 $string['page-report-progress-x'] = 'أي تقرير لنشاط مكتمل';
-$string['pluginname'] = 'أتمام نشاط';
-$string['progress:view'] = 'معاينة تقارير أتمام نشاط';
+$string['pluginname'] = 'إكمال النشاط';
+$string['privacy:metadata'] = 'تقرير إكمال النشاط يظهر فقط البيانات المحفوظة في مواضع أخرى.';
+$string['progress:view'] = 'معاينة تقارير إكمال النشاط';

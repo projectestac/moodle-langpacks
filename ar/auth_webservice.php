@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['auth_webservicedescription'] = 'على وجه الحصر يجب استخدام طريقة التوثيق هذه للحسابات العملاء خدمة الويب';
-$string['pluginname'] = 'توثيق خدمات الويب';
+$string['pluginname'] = 'مصادقة خدمات الويب';
+$string['privacy:metadata'] = 'إن ملحق مصادقة خدمات الويب لا يخزن أي بيانات شخصية.';

@@ -141,6 +141,7 @@ $string['emailsalutation'] = '{$a} さん';
 $string['errorcannotrequestdeleteforother'] = 'あなたにはこのユーザの削除リクエストを作成するパーミッションはありません。';
 $string['errorcannotrequestdeleteforself'] = 'あなたにはあなた自身の削除リクエストを作成するパーミッションはありません。';
 $string['errorcontexthasunexpiredchildren'] = 'コンテクスト「 {$a} 」にはまだ有効期限切れではないサブコンテクストがあります。コンテクストには削除のための削除フラグは付けられませんでした。';
+$string['errorinvalidrequestcomments'] = 'コメントフィールドにはプレインテキストのみ含めます。';
 $string['errorinvalidrequestcreationmethod'] = '無効なリクエスト作成方法です!';
 $string['errorinvalidrequeststatus'] = '無効なリクエストステータスです!';
 $string['errorinvalidrequesttype'] = '無効なリクエストタイプです!';

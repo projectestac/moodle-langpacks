@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['feedback'] = 'إفادة';
-$string['pluginname'] = 'إفادة';
+$string['feedback'] = 'الإفادة';
+$string['feedback:addinstance'] = 'إضافة كتلة جديدة للإفادة';
+$string['pluginname'] = 'الإفادة';
+$string['privacy:metadata'] = 'كتلة الإفادة تظهر فقط البيانات المخزونة في مواضع أخرى.';

@@ -64,6 +64,7 @@ $string['group:html_track'] = 'HTML Track Dateien';
 $string['group:html_video'] = 'Videodateien, die von Browsern unterstützt werden';
 $string['group:image'] = 'Bilddateien';
 $string['group:media_source'] = 'Streaming-Medien';
+$string['group:optimised_image'] = 'Bilddateien zur Optimierung, z.B. Badges';
 $string['group:presentation'] = 'Präsentationsdateien';
 $string['group:sourcecode'] = 'Quelltext';
 $string['group:spreadsheet'] = 'Tabellendateien';

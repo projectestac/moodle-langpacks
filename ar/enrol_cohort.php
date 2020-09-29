@@ -25,4 +25,15 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'مزامنة فوج';
+$string['addgroup'] = 'أضف إلى المجموعة';
+$string['assignrole'] = 'تعيين الدور';
+$string['cohort:config'] = 'تهيئة عينات الأفواج';
+$string['cohort:unenrol'] = 'إلغاء انضمام المستخدمين المعلقة حساباتهم';
+$string['creategroup'] = 'أنشئ مجموعة جديدة';
+$string['defaultgroupnametext'] = 'الفوج {$a->name} {$a->increment}';
+$string['enrolcohortsynctask'] = 'مهمة مزامنة الانضمام إلى الفوج';
+$string['instanceexists'] = 'الفوج سبقت مزامنته مع الدور المحدد';
+$string['pluginname'] = 'مزامنة الفوج';
+$string['pluginname_desc'] = 'يقوم ملحق الانضمام إلى الفوج بمزامنة أعضاء الفوج مع الانضمامات إلى المساقات.';
+$string['privacy:metadata:core_group'] = 'يمكن لملحق الانضمام إلى الفوج إنشاء مجموعة جديدة أو استعمال مجموعة موجودة لإضافة كل أعضاء الفوج.';
+$string['status'] = 'فَعَّال';

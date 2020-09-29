@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'geogebra', language 'en', branch 'MOODLE_36_STABLE'
+ * Strings for component 'geogebra', language 'en', branch 'MOODLE_38_STABLE'
  *
  * @package   geogebra
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -69,7 +69,7 @@ $string['geogebrafile_help'] = 'The .ggb file.';
 $string['geogebra:grade'] = 'Grade GeoGebra';
 $string['geogebra:submit'] = 'Submit GeoGebra';
 $string['geogebraurl'] = 'URL';
-$string['geogebraurl_help'] = 'This setting enables a URL for the GeoGebra file to be specified, rather than choosing a file via the file picker.';
+$string['geogebraurl_help'] = 'Find the construction on <a href="https://www.geogebra.org/" target="_blank">geogebra.org</a>, go to <strong>Details</strong>, right click on <strong>Download</strong> and select <strong>Copy link address</strong>. Finally, go to the URL field and paste the link with <strong>Ctrl+V</strong>.<br/>See a step-by-step example in: <a href="https://youtu.be/qbp-RuM4NpU" target="_blank">https://youtu.be/qbp-RuM4NpU</a>.';
 $string['geogebra:view'] = 'View GeoGebra';
 $string['grade'] = 'Grade';
 $string['gradeit'] = 'Grade';
@@ -112,7 +112,7 @@ $string['previewtab'] = 'Preview';
 $string['privacy'] = 'Privacy of results';
 $string['privacy:metadata:geogebra_attempts'] = 'Information about the user\'s results attempt(s) for a given geogebra activity';
 $string['privacy:metadata:geogebra_attempts:datestudent'] = 'The timestamp indicating when the attempt was finished by the student';
-$string['privacy:metadata:geogebra_attempts:dateteacher'] = 'The timestamp indicating when the attempt was finished by the treacher';
+$string['privacy:metadata:geogebra_attempts:dateteacher'] = 'The timestamp indicating when the attempt was finished by the teacher';
 $string['privacy:metadata:geogebra_attempts:finished'] = 'The timestamp indicating when the attempt was finished by the user';
 $string['privacy:metadata:geogebra_attempts:geogebra'] = 'The ID of the choice activity';
 $string['privacy:metadata:geogebra_attempts:gradecomment'] = 'The comment of the grade for the attempt of the geogebra activity.';
