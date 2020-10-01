@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['filetypelocal'] = 'Uppladdad fil';
 $string['save'] = 'Spara';
