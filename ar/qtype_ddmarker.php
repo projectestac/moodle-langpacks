@@ -71,7 +71,7 @@ $string['markers'] = 'علامات';
 $string['nolabel'] = 'نص التسمية مفقود';
 $string['noofdrags'] = 'الرقم';
 $string['pleasedragatleastonemarker'] = 'إجابتك ليست كاملة؛ ينبغي وضع علامة واحدة على الأقل على الصورة.';
-$string['pluginname'] = 'سحب وأفلات العلامات';
+$string['pluginname'] = 'سحب وإفلات العلامات';
 $string['pluginnameadding'] = 'إضافة علامات السحب و الإفلات';
 $string['pluginnameediting'] = 'تحرير علامات السحب و الإفلات';
 $string['pluginname_help'] = 'تتطلب علامات السحب و الإفلات من المستجيب سحب علامات النص و إفلاتها في مناطق الإسقاط المحددة في صورة خلفية.';
@@ -80,7 +80,7 @@ $string['pluginnamesummary'] = 'يتم سحب العلامات وإفلاتها 
 ملاحظة: نوع السؤال هذا لا يمكن التعامل معه من قبل ذوي الإعاقة البصرية.';
 $string['previewareaheader'] = 'المعاينة';
 $string['previewareamessage'] = 'حدد ملف صورة الخلفية ، و أدخل علامات نصية للعلامات و حدد مناطق الإسقاط على صورة الخلفية التي يجب سحبها إليها.';
-$string['privacy:metadata'] = 'لا يخزن المكون الإضافي Drag and drop markers question type أيّ بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق نوع السؤال، السحب والإفلات للعلامات لا يخزن أي بيانات شخصية.';
 $string['refresh'] = 'تحديث المعاينة';
 $string['shape'] = 'الشكل';
 $string['shape_circle'] = 'الدائرة';

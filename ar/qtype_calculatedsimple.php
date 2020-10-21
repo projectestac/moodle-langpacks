@@ -47,4 +47,4 @@ $string['wildcardrole'] = 'البطاقات البديلة <strong>{x..}</strong
 $string['wildcardvalues'] = 'قيم البطاقات البديلة';
 $string['wildcardvaluesgenerated'] = 'توليد قيم البطاقات البديلة';
 $string['willconverttocalculated'] = 'إذا تم و<strong> حفظ كسؤال جديد </strong> ما سيوفر سؤال حسابي جديد';
-$string['youmustaddatleastonevalue'] = 'يجب إضافة مجموعة واحدة على الأقل من بطاقات القيم البديلة قبل أن تتمكن من حفظ هذه المسألة.';
+$string['youmustaddatleastonevalue'] = 'يجب إضافة مجموعة واحدة على الأقل من بطاقات القيم البديلة قبل أن تتمكن من حفظ هذا السؤال.';

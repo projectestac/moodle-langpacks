@@ -1798,6 +1798,7 @@ $string['search'] = 'Search';
 $string['searchagain'] = 'Search again';
 $string['searchbyemail'] = 'Search by email address';
 $string['searchbyusername'] = 'Search by username';
+$string['searchcoursecategories'] = 'Search categories';
 $string['searchcourses'] = 'Search courses';
 $string['search_help'] = 'For basic searching of one or more words anywhere in the text, just type them separated by spaces. All words longer than two characters are used.
 

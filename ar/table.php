@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['downloadas'] = 'تحميل بيانات الجدول كـ  {$a->formatsmenu} {$a->downloadbutton}';
+$string['downloadas'] = 'تنزيل بيانات الجدول بصيغة';

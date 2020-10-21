@@ -317,6 +317,7 @@ $string['invalidcommentparam'] = 'Paramètres de commentaire non valides';
 $string['invalidcomponent'] = 'Nom de composant non valide';
 $string['invalidconfirmdata'] = 'Données de confirmation non valides';
 $string['invalidcontext'] = 'Contexte non valide';
+$string['invalidcountrycode'] = 'Code de pays non valide : {$a}';
 $string['invalidcourse'] = 'Cours non valide';
 $string['invalidcourseformat'] = 'Format de cours non valide';
 $string['invalidcourseid'] = 'Vous essayez d\'utiliser un identifiant de cours non valable';
@@ -388,6 +389,7 @@ $string['loginasnoenrol'] = 'Vous ne pouvez pas vous inscrire ou vous désinscri
 $string['loginasonecourse'] = 'Vous ne pouvez pas entrer dans ce cours.<br />Vous devez d\'abord terminer la session dans laquelle vous êtes « Connecté sous le nom » d\'un autre participant';
 $string['maxareabytes'] = 'Le fichier dépasse l\'espace disponible dans cette zone.';
 $string['maxbytesfile'] = 'La taille du fichier {$a->file} est trop grande. La taille maximale d\'un fichier à déposer est de {$a->size}.';
+$string['messageundeliveredbynotificationsettings'] = 'Le message n\'a pas pu être envoyé, car l\'échange de messages personnels entre utilisateurs (dans les réglages de notification) a été désactivé par un administrateur du site.';
 $string['messagingdisable'] = 'La messagerie est désactivée sur ce site';
 $string['mimetexisnotexist'] = 'Votre serveur n\'est pas configuré pour lancer mimeTeX. Veuillez télécharger les sources en C du programme ici <a href="https://www.forkosh.com/mimetex.zip"> https://www.forkosh.com/mimetex.zip</a>, les compiler et placer le programme dans le dossier moodle/filter/tex/.';
 $string['mimetexnotexecutable'] = 'Votre programme <i>mimetex</i> n\'est pas exécutable !';

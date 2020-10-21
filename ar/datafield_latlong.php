@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'حقل خطّ العرض/خط الطول';
 $string['pluginname'] = 'خط الطول و العرض';
-$string['privacy:metadata'] = 'لا يخزن Latitude/longitude field  أي بيانات شخصية ، بل يستخدم جداول معرفة في mod_data.';
+$string['privacy:metadata'] = 'إن مكون حقل خطي الطول والعرض لا يخزن أي بيانات شخصية بحد ذاته، بل يستعمل جداول معرفة في mod_data.';

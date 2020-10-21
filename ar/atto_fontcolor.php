@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'لون الخط';
-$string['privacy:metadata'] = 'لا يقوم الملحق الإضافي atto_fontcolor بتخزين أي بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق atto_fontcolor لا يخزن أيّ بيانات شخصية.';

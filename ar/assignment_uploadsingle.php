@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'رفع واحد';
-$string['privacy:metadata'] = 'لا يقوم المكون الإضافي لUpload single assignment   بتخزين أي بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق رفع الواجب المنفرد لا يخزن أي بيانات شخصية.';

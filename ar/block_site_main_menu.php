@@ -26,5 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'القائمة الرئيسية';
-$string['privacy:metadata'] = 'القائمة الرئيسية تعرض فقط عناصر محفوظة في مواقع أخرى.';
-$string['site_main_menu:addinstance'] = 'إضافة عنصر جديد في القائمة الرئيسية';
+$string['privacy:metadata'] = 'كتلة القائمة الرئيسية تعرض فقط عناصر محفوظة في مواقع أخرى.';
+$string['site_main_menu:addinstance'] = 'إضافة كتلة قائمة رئيسية جديدة';

@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'حقل الملف';
 $string['pluginname'] = 'الملف';
-$string['privacy:metadata'] = 'لا يخزن مكون File field  أي بيانات شخصية ، فهو يستخدم الجداول المعرفة في mod_data.';
+$string['privacy:metadata'] = 'إن مكون حقل الملف لا يخزن أي بيانات شخصية بحد ذاته، بل يستعمل الجداول المعرفة في mod_data.';

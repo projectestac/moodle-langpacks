@@ -33,5 +33,6 @@ $string['erroractivitytype'] = 'El tipus d\'activitat no està definit en els pa
 $string['orphaned'] = 'Òrfena';
 $string['orphanedwarning'] = 'Els usuaris no podran arribar a aquestes activitats.';
 $string['pluginname'] = 'Format d\'activitat única';
+$string['privacy:metadata'] = 'El connector del format d\'activitat única no emmagatzema cap dada personal.';
 $string['sectionname'] = '';
-$string['warningchangeformat'] = 'Quan canvieu el format del curs actual a «Activitat única», comproveu que heu suprimit totes les activitats extra del curs, inclosos els «Anuncis». Fixeu-vos que l\'estructura de les seccions pot haver-se modificat.';
+$string['warningchangeformat'] = 'Quan canvieu el format del curs actual a «Activitat única», comproveu que heu suprimit totes les activitats extra del curs, inclosos els «Anuncis». Tingueu en compte que l\'estructura del curs por veure\'s modificada.';

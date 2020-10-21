@@ -30,4 +30,4 @@ $string['ltiservice_toolsettings'] = 'إعدادات الأداة';
 $string['ltiservice_toolsettings_help'] = 'اسمح للأداة بحفظ و استرداد قيم الإعداد.';
 $string['notallow'] = 'لا تستخدم هذه الخدمة';
 $string['pluginname'] = 'خدمة إعدادات الأداة';
-$string['privacy:metadata'] = 'المكون الإضافي Tool Settings Service لا بخزّن  أي بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق خدمة إعدادات الأداة لا يخزن أي بيانات شخصية.';

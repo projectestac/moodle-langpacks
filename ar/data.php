@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['action'] = 'إجراء';
+$string['action'] = 'الإجراء';
 $string['add'] = 'أضف مدخل';
 $string['addcomment'] = 'أضف تعليق';
 $string['addentries'] = 'أضف مدخلات';
@@ -151,7 +151,7 @@ $string['eventrecorddeleted'] = 'تم حذف السجل';
 $string['eventrecordupdated'] = 'تم تحديث السجل';
 $string['eventtemplateupdated'] = 'تم تحديث القالب';
 $string['eventtemplateviewed'] = 'تمت معاينة القوالب';
-$string['example'] = 'مثل وحدة قاعدة بيانات';
+$string['example'] = 'مثال وحدة قاعدة بيانات';
 $string['excel'] = 'Excel';
 $string['expired'] = 'عذراً، تم إغلاق هذا النشاط في {$a} وهو غير متوفر الآن.';
 $string['export'] = 'تصدير';
@@ -239,7 +239,7 @@ $string['longitude'] = 'خط الطول';
 $string['manageapproved'] = 'إسمح بتحرير المدخلات الموافق عليها';
 $string['manageapproved_help'] = 'عند تعطيله، لن تكون المدخلات الموافق عليها قابلة للتحرير أو الحذف من قبل المستخدم الذي أضافها. هذا الإعداد لا تأثير له ما لم يتم تمكين \'الموافقة مطلوبة\'.';
 $string['mapexistingfield'] = 'التعيين إلى {$a}';
-$string['mapnewfield'] = 'أنشئ حقل جديد';
+$string['mapnewfield'] = 'إنشاء حقل جديد';
 $string['mappingwarning'] = 'جميع الحقول القديمة التي تم تعينها إلى حقول جديدة ستفقد وكل بيانات هذه الحقول سوف تنقل.';
 $string['maxentries'] = 'الحد الاقصى للمدخلات';
 $string['maxentries_help'] = 'أقصى عدد من المدخلات يسمح للطالب بتقديمها لهذا النشاط.';
@@ -293,7 +293,7 @@ $string['ods'] = '<acronym title="جدول OpenDocument">ODS</acronym> (OpenOffi
 $string['openafterclose'] = 'لقد قمت بجعل تاريخ الفتح بعد تاريخ الإغلاق';
 $string['optionaldescription'] = 'وصف قصير (اختياري)';
 $string['optionalfilename'] = 'اسم الملف (اختياري)';
-$string['other'] = 'اخر';
+$string['other'] = 'أخرى';
 $string['overrwritedesc'] = 'قم بالكتابة فوق التحضير المسبق إن كان موجوداً سلفاً';
 $string['overwrite'] = 'الكتابة فوق';
 $string['overwritesettings'] = 'أكتب فوق الإعدادات الحالية';
@@ -303,7 +303,7 @@ $string['participants'] = 'مشاركون';
 $string['picture'] = 'صورة';
 $string['pleaseaddsome'] = 'لطفاً، أنشئ بعضاً منها أدناه، أو <a href="{$a}">إختر مجموعة سبق تعريفها</a> للبدء.';
 $string['pluginadministration'] = 'إدارة نشاط قاعدة البيانات';
-$string['pluginname'] = 'قاعدة بيانات';
+$string['pluginname'] = 'قاعدة البيانات';
 $string['portfolionotfile'] = 'التصدير إلى محفظة بدلاً من ملف (csv و leap2a حصراً)';
 $string['presetinfo'] = 'سيتم نشر القالب إذا تم حفظه كتحضير مسبق. المستخدمون الآخرون سيتمكنون من استعماله في قواعد بياناتهم.';
 $string['presets'] = 'إعدادات مسبقة';
@@ -326,7 +326,7 @@ $string['privacy:metadata:filepurpose'] = 'الملف المرفق بسجل قا
 $string['privacy:metadata:ratingpurpose'] = 'التقييمات لسجلات قاعدة البيانات';
 $string['privacy:metadata:tagpurpose'] = 'الوسوم لسجلات قاعدة البيانات';
 $string['radiobutton'] = 'أزاريراختياريه دائرية';
-$string['recordapproved'] = 'تم الموافقه على السجل';
+$string['recordapproved'] = 'تمت الموافقة على المصطلح';
 $string['recorddeleted'] = 'تم حذف السجل';
 $string['recorddisapproved'] = 'المدخل غير موافق عليه';
 $string['recordsnotsaved'] = 'لم يتم حفظ اي سجل، الرجاء التأكد من تنسيق الملف المحمل';

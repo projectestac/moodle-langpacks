@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['commentsubcontext'] = 'التعليقات';
-$string['privacy:metadata:comment'] = 'تخزين تعليقات المستخدم.';
-$string['privacy:metadata:comment:content'] = 'تخزين نص التعليق.';
-$string['privacy:metadata:comment:timecreated'] = 'وقت كتابة التعليق.';
+$string['privacy:metadata:comment'] = 'يخزن تعليقات المستخدمين';
+$string['privacy:metadata:comment:content'] = 'يخزن نص التعليق';
+$string['privacy:metadata:comment:timecreated'] = 'وقت إنشاء التعليق';
 $string['privacy:metadata:comment:userid'] = 'المستخدم الذي أدلى بالتعليق';

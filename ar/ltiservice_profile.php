@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'أداة ملف المستفيد من خدمة أدوات التعلم المشترك (LTI)';
-$string['privacy:metadata'] = 'المكون الإضافي  Tool Consumer Profile LTI Service  لا يخزن  أيّ بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق خدمة الملف التعريفي لمستهلك أداة LTI لا يخزن أي بيانات شخصية.';

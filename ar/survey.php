@@ -33,7 +33,7 @@ $string['allquestions'] = 'كل الأسئلة بالترتيب، كل الطل�
 $string['allscales'] = 'كل الموازين, كل الدارسين';
 $string['alreadysubmitted'] = 'أنت بالفعل سلمت الاستبيان';
 $string['analysisof'] = 'تحليل لـ {$a}';
-$string['answers'] = 'إجابات';
+$string['answers'] = 'الإجابات';
 $string['attls1'] = 'عندما أقوم بتقييم كلام شخص ما فإنني أهتم بمقالته أكثر من ذاته.';
 $string['attls10'] = 'أرى من الأهمية بمكان أن أحتفظ بالموضوعية قدر الإمكان عندما أقوم بتحليل شيء ما.';
 $string['attls10short'] = 'الاحتفاظ بالموضوعية';
@@ -187,7 +187,7 @@ $string['collespintro'] = 'يكمن الغرض من هذا الاستبيان ف
 $string['collespname'] = 'COLLES (الفعلي)';
 $string['completionsubmit'] = 'ينبغي على الطلبة تسليم عملهم في هذا النشاط لإكماله';
 $string['customintro'] = 'الوصف';
-$string['deleteallanswers'] = 'أحذف كل إجابات الاستبانه';
+$string['deleteallanswers'] = 'حذف كل إجابات الاستبيان';
 $string['deleteanalysis'] = 'أحذف تحليل الإجابات';
 $string['done'] = 'تم';
 $string['download'] = 'تنزيل';
@@ -226,7 +226,7 @@ $string['newsurveyresponses'] = 'إجابة استبيان جديد';
 $string['nobodyyet'] = 'لا يوجد من أكمل هذا الاستبيان';
 $string['notdone'] = 'لم يتم';
 $string['notes'] = 'تحليلك وملاحظاتك الخاصة';
-$string['notyetanswered'] = 'لم يتم الاجابة بعد';
+$string['notyetanswered'] = 'غير مجاب عليه بعد';
 $string['othercomments'] = 'هل لديك تعليقات أخرى؟';
 $string['page-mod-survey-x'] = 'أي صفحة لوحدة الاستبيان';
 $string['peoplecompleted'] = '{$a} من الناس قد أكمل هذا الاستبيان حتى الآن';
@@ -235,15 +235,15 @@ $string['pluginname'] = 'استبيان';
 $string['preferred'] = 'يفضل';
 $string['preferredclass'] = 'الفصل المأمول';
 $string['preferredstudent'] = '{$a} مأمول';
-$string['privacy:metadata:analysis'] = 'سجل لتحليل إجابات الاستبيان.';
-$string['privacy:metadata:analysis:notes'] = 'الملاحظات المحفوظة إزاء إجابات المستخدم.';
-$string['privacy:metadata:analysis:userid'] = 'مُعرَّف المستخدم الذي يجيب على الاستبيان.';
-$string['privacy:metadata:answers'] = 'مجموعة من إجابات الاستبيانات.';
-$string['privacy:metadata:answers:answer1'] = 'حقل خزن إجابة السؤال.';
-$string['privacy:metadata:answers:answer2'] = 'حقل إضافي لخزن إجابة السؤال.';
-$string['privacy:metadata:answers:question'] = 'السؤال.';
-$string['privacy:metadata:answers:time'] = 'وقت تقديم الإجابة.';
-$string['privacy:metadata:answers:userid'] = 'مُعرَّف المستخدم الذي قدم إجابته.';
+$string['privacy:metadata:analysis'] = 'سجل لتحليل إجابات الاستبيان';
+$string['privacy:metadata:analysis:notes'] = 'الملاحظات المحفوظة إزاء إجابات المستخدم';
+$string['privacy:metadata:analysis:userid'] = 'مُعرَّف المستخدم الذي يجيب على الاستبيان';
+$string['privacy:metadata:answers'] = 'مجموعة من إجابات الاستبيانات';
+$string['privacy:metadata:answers:answer1'] = 'حقل خزن إجابة السؤال';
+$string['privacy:metadata:answers:answer2'] = 'حقل إضافي لخزن إجابة السؤال';
+$string['privacy:metadata:answers:question'] = 'السؤال';
+$string['privacy:metadata:answers:time'] = 'وقت تقديم الإجابة';
+$string['privacy:metadata:answers:userid'] = 'مُعرَّف المستخدم الذي قدم إجابته';
 $string['question'] = 'سؤال';
 $string['questions'] = 'أسئلة';
 $string['questionsnotanswered'] = 'لم يتم الإجابة على بعض الأسئلة ذات الخيارات المتعددة.';

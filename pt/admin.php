@@ -1376,7 +1376,7 @@ Isto podetá causar problemas significativos mais tarde. Para prosseguir deverá
 Recomenda-se o seguinte procedimento para limpar a sua pasta do Moodle:<br>
 * atribua um novo nome à pasta atual do Moodle (por exemplo: "moodle_antiga");<br>
 * crie uma nova pasta do Moodle que contenha apenas os ficheiros extraídos de um pacote Moodle ou a partir do repositório Moodle Git;<br>
-* mova o ficheiro original \'config.php\' e qualquer outro módulo não padrão da pasta "moodle_antiga" para a nova pasta do Moodle.
+* mova o ficheiro original \'config.php\' e todos os outros módulos não padrão da pasta "moodle_antiga" para a nova pasta do Moodle.
 
 Quando tiver uma pasta do Moodle limpa, recarregue esta página para retomar o processo de atualização do Moodle.
 
@@ -1384,7 +1384,7 @@ Este aviso é frequentemente causado quando um pacote do Moodle é extraído de 
 
 Este aviso também pode ser causado por uma verificação incompleta ou por uma operação de atualização a partir do repositório Git. Neste caso, terá de aguardar que a operação termine, ou talvez correr o comando adequado de limpeza e repetir a operação.
 
-Poderá obter mais informações na documentação sobre atualizações em <a href="{$a}">{$a}</a>.';
+Pode obter mais informações na documentação sobre atualizações em <a href="{$a}">{$a}</a>.';
 $string['upgradestart'] = 'Atualizar agora a base de dados do Moodle';
 $string['upgradesure'] = 'Os seus ficheiros Moodle foram alterados e está prestes a proceder à atualização do seu servidor para a nova versão:<br /><br /><strong>{$a}</strong>.<br /><br />Assim que efetuar esta operação não será possível voltar atrás.<br /><br />Tenha em atenção que este processo pode demorar algum tempo.<br /><br />Tem a certeza de que pretende atualizar o seu servidor para a nova versão?';
 $string['upgradetimedout'] = 'Expirou o tempo para atualização. Por favor, reinicie o processo.';

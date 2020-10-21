@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['gradesoverview'] = 'Betygsöversikt';
 $string['overview:view'] = 'Visa den översiktliga rapporten';
 $string['pluginname'] = 'Översiktlig rapport';

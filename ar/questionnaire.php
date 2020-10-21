@@ -354,7 +354,7 @@ $string['pleasecomplete'] = 'يرجى استكمال هذا الاختيار.';
 $string['pluginadministration'] = 'إدارة الاستبيان';
 $string['pluginname'] = 'الاستبيان';
 $string['position'] = 'موضع';
-$string['possibleanswers'] = 'إجابات مُمْكنة';
+$string['possibleanswers'] = 'الإجابات المُمْكنة';
 $string['posteddata'] = 'الصفحة التي تم الوصول إليها مع البيانات المنشورة:';
 $string['previewing'] = 'معاينة الاستبيان';
 $string['preview_label'] = 'المعاينة';
@@ -365,42 +365,42 @@ $string['print'] = 'طباعة هذه الاستجابة';
 $string['printblank'] = 'طباعة نسخة فارغة';
 $string['printblanktooltip'] = 'يفتح نافذة طباعة سهلة لإستبيان فارغ';
 $string['printtooltip'] = 'يفتح نافذة طباعة سهلة لإستبيان الاستجابة الحالية';
-$string['privacy:metadata:questionnaire_resp_multiple'] = 'استجابة سؤال الاختيار من متعدد.';
-$string['privacy:metadata:questionnaire_resp_multiple:choice_id'] = 'معرّف سجل الاختيار لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_resp_multiple:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_resp_multiple:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة.';
+$string['privacy:metadata:questionnaire_resp_multiple'] = 'استجابة سؤال الاختيار من متعدد';
+$string['privacy:metadata:questionnaire_resp_multiple:choice_id'] = 'معرّف سجل الاختيار لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_resp_multiple:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_resp_multiple:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة';
 $string['privacy:metadata:questionnaire_response'] = 'الاستجابة في تقدم أو المقدّمة';
-$string['privacy:metadata:questionnaire_response_bool'] = 'إجابة سؤال منطقي (نعم/لا).';
-$string['privacy:metadata:questionnaire_response_bool:choice_id'] = 'الإجابة المنطقية المحددة.';
-$string['privacy:metadata:questionnaire_response_bool:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response_bool:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response:complete'] = 'حال اكتمال الاستجابة.';
-$string['privacy:metadata:questionnaire_response_date'] = 'تاريخ الإستجابة لهذا السؤال.';
-$string['privacy:metadata:questionnaire_response_date:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response_date:response'] = 'تاريخ الجواب المحدد.';
-$string['privacy:metadata:questionnaire_response_date:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response:grade'] = 'تقدير هذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response_other'] = 'استجابة نصية  "أخرى".';
-$string['privacy:metadata:questionnaire_response_other:choice_id'] = 'معرّف سجل الاختيار لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response_other:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response_other:response'] = 'نص الجواب  المحدد.';
-$string['privacy:metadata:questionnaire_response_other:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response:questionnaireid'] = 'معرّف سجل الاستبيان لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response_rank'] = 'ترتيب الإستجابة على هذا السؤال.';
-$string['privacy:metadata:questionnaire_response_rank:choice_id'] = 'معرّف سجل الاختيار لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response_rank:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response_rank:rankvalue'] = 'الرتبة المحددة للجواب.';
-$string['privacy:metadata:questionnaire_response_rank:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response:submitted'] = 'الطابع الزمني لحفظ الأحدث لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response_text'] = 'إستجابة سؤال نصّي.';
-$string['privacy:metadata:questionnaire_response_text:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response_text:response'] = 'جواب النص المحدد.';
-$string['privacy:metadata:questionnaire_response_text:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_response:userid'] = 'معرّف المستخدم لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_resp_single'] = 'إستجابة سؤال الاختيار الواحد.';
-$string['privacy:metadata:questionnaire_resp_single:choice_id'] = 'معرّف سجل الاختيار لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_resp_single:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة.';
-$string['privacy:metadata:questionnaire_resp_single:response_id'] = 'معرّف سجل الاستجابة للهذه الاستجابة.';
+$string['privacy:metadata:questionnaire_response_bool'] = 'إجابة سؤال منطقي (نعم/لا)';
+$string['privacy:metadata:questionnaire_response_bool:choice_id'] = 'الإجابة المنطقية المحددة';
+$string['privacy:metadata:questionnaire_response_bool:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response_bool:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response:complete'] = 'حال اكتمال الاستجابة';
+$string['privacy:metadata:questionnaire_response_date'] = 'تاريخ الإستجابة لهذا السؤال';
+$string['privacy:metadata:questionnaire_response_date:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response_date:response'] = 'تاريخ الجواب المحدد';
+$string['privacy:metadata:questionnaire_response_date:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response:grade'] = 'علامة هذه الاستجابة';
+$string['privacy:metadata:questionnaire_response_other'] = 'الاستجابة النصية على الخيار \'أخرى\'';
+$string['privacy:metadata:questionnaire_response_other:choice_id'] = 'معرّف سجل الاختيار لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response_other:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response_other:response'] = 'نص الجواب المحدد';
+$string['privacy:metadata:questionnaire_response_other:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response:questionnaireid'] = 'معرّف سجل الاستبيان لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response_rank'] = 'رتبة الاستجابة لهذا السؤال';
+$string['privacy:metadata:questionnaire_response_rank:choice_id'] = 'معرّف سجل الاختيار لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response_rank:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response_rank:rankvalue'] = 'إجابة الرتبة المحددة';
+$string['privacy:metadata:questionnaire_response_rank:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response:submitted'] = 'الطابع الزمني لحفظ الأحدث لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response_text'] = 'استجابة سؤال نصي';
+$string['privacy:metadata:questionnaire_response_text:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response_text:response'] = 'جواب النص المحدد';
+$string['privacy:metadata:questionnaire_response_text:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_response:userid'] = 'معرّف المستخدم لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_resp_single'] = 'إستجابة سؤال الاختيار الواحد';
+$string['privacy:metadata:questionnaire_resp_single:choice_id'] = 'معرّف سجل الاختيار لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_resp_single:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة';
+$string['privacy:metadata:questionnaire_resp_single:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة';
 $string['private'] = 'خاص';
 $string['public'] = 'عام';
 $string['publiccopy'] = 'نسخ:';
@@ -445,10 +445,10 @@ $string['rank'] = 'الرتيب';
 $string['ratescale'] = 'معدل (مقياس 1..5)';
 $string['ratescale_help'] = 'راجع وثائق Moodle أدناه';
 $string['realm'] = 'نوع الاستبيان';
-$string['realm_help'] = 'هناك ثلاثة أنواع من الاستبيانات:
-* خاص - ينتمي إلى المادة التي يتم تعريفه بها فقط.
-* قالب - يمكن نسخها و تحريرها.
-* العام - يمكن تقاسمها بين المواد.';
+$string['realm_help'] = '* **هناك ثلاثة أنواع من الاستبيانات:**
+* خاص - ينتمي إلى المساق الذي تم إنشاؤه فيه فقط.
+* قالب - يمكن نسخه وتحريره.
+* عمومي - يمكن مشاركته بين المساقات.';
 $string['redirecturl'] = 'عنوان الرابط الذي تتم إعادة توجيه المستخدم إليه بعد الانتهاء من هذا الاستبيان.';
 $string['remove'] = 'احذف';
 $string['removeallquestionnaireattempts'] = 'احذف جميع ردود الاستبيان';
@@ -501,8 +501,8 @@ $string['sectiontext_help'] = 'هذا ليس سؤالًا و لكن نصًا (ق
 $string['selecttheme'] = 'حدد المظهر (CSS) لاستخدامه مع هذا الاستبيان.';
 $string['send'] = 'أنقر هنا لتظهر لك نتيجة القياس (ارسل)';
 $string['sendemail'] = 'ارسل بريد';
-$string['sendemail_help'] = 'ارسل نسخة من كل عملية  إرسال إلى العنوان أو العناوين المحددة. يمكنك تقديم أكثر من عنوان واحد بفصلهم بفواصل.
-اتركه فارغًا للحصول على نسخة احتياطية للبريد الإلكتروني.';
+$string['sendemail_help'] = 'يرسل نسخة من كل تسليم إلى العنوان أو العناوين المحددة. يمكنك تقديم أكثر من عنوان واحد عبر الفصل بينها بفوارز.
+أتركه فارغاً إذا كنت لا ترغب بنسخة احتياطية في البريد الالكتروني. سنيغي تمكين \'allowemailreporting\' في إعدادات الوحدة لإتاحة هذا الخيار.';
 $string['send_message'] = 'ارسل رسالة إلى المستخدمين المحددين';
 $string['send_message_to'] = 'ارسل رسالة إلى:';
 $string['set'] = 'أعدّ';
@@ -548,7 +548,7 @@ $string['thisweek'] = 'هذا الاسبوع';
 $string['thousands'] = 'لا تستخدم فواصل الآلاف .';
 $string['title'] = 'العنوان';
 $string['title_help'] = 'عنوان هذا الاستبيان ، الذي سيظهر في الجزء العلوي من كل صفحة. يتم تعيين العنوان افتراضيًا على اسم الاستبيان ، و لكن يمكنك تعديله كما تريد.';
-$string['today'] = 'اليوم';
+$string['today'] = 'هذا اليوم';
 $string['total'] = 'المجموع';
 $string['totalofnumbers'] = 'مجموع الأرقام المدخلة';
 $string['totalresponses'] = 'مجموع الاستجابات على السؤال';
@@ -574,7 +574,7 @@ $string['viewindividualresponse_help'] = 'انقر على أسماء المشا�
 $string['viewresponses'] = 'كل الردود ({$a})';
 $string['viewyourresponses'] = 'ردودكم - عرض {$a}';
 $string['warning'] = 'تحذير ، واجه خطأ.';
-$string['wronganswers'] = 'يوجد خطأ ما في إجاباتك (انظر أدناه)';
+$string['wronganswers'] = 'يوجد خطأ ما في إجاباتك (أنظر أدناه)';
 $string['wrongdateformat'] = 'التاريخ الذي تم إدخاله: {$a} لا يتوافق مع التنسيق الموضح في المثال.';
 $string['wrongdaterange'] = 'خطأ! يجب تعيين السنة في نطاق 1902 إلى 2037.';
 $string['wrongformat'] = 'يوجد خطأ ما في إجابتك على السؤال:';

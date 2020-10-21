@@ -43,7 +43,7 @@ $string['aggregatetype_help'] = 'O tipo de avaliação define a forma como as no
 Se selecionar \'Sem avaliação\', a atividade não aparece na pauta.';
 $string['allowratings'] = 'Permitir avaliação?';
 $string['allratingsforitem'] = 'Todas as avaliações submetidas';
-$string['capabilitychecknotavailable'] = 'Não pode verificar as permissões enquanto a atividade não for gravada';
+$string['capabilitychecknotavailable'] = 'Não é possível verificar as permissões enquanto a atividade não for guardada';
 $string['couldnotdeleteratings'] = 'Não é possível ser apagado pois já existem avaliações';
 $string['grade_rating_name'] = 'Avaliação';
 $string['norate'] = 'Não é permitido avaliar!';

@@ -34,4 +34,4 @@ $string['passwdexpire_settings'] = 'إعدادات انتهاء صلاحية ك�
 $string['passwdexpiretime'] = 'مدة كلمة المرور';
 $string['passwdexpiretime_desc'] = 'المدة الزمنية التي تبقى فيها كلمة المرور نافذة.';
 $string['pluginname'] = 'الحسابات اليدوية';
-$string['privacy:metadata:preference:passwordupdatetime'] = 'تاريخ آخر تغيير في كلمة المرور.';
+$string['privacy:metadata:preference:passwordupdatetime'] = 'تاريخ آخر تغيير في كلمة المرور';

@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'حقل الرقم';
 $string['pluginname'] = 'الرقم';
-$string['privacy:metadata'] = 'لا يخزن مكون Number field  أي بيانات شخصية ، فهو يستخدم الجداول المعرفة في mod_data.';
+$string['privacy:metadata'] = 'إن مكون حقل الرقم لا يخزن أي بيانات شخصية بحد ذاته، بل يستعمل الجداول المعرفة في mod_data.';

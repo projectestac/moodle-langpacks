@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['filtername'] = 'حماية البريد الالكتروني';
-$string['privacy:metadata'] = 'لا يقوم المكون الإضافي لEmail protection  بتخزين أي بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق حماية البريد الالكتروني لا يخزن أي بيانات شخصية.';

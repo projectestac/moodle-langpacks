@@ -36,7 +36,7 @@ $string['enabled_help'] = 'إذا تم تفعيل هذا الخيار فإن ا�
 $string['pluginname'] = 'تعليقات الإفادة';
 $string['privacy:commentpath'] = 'تعليقات الإفادة';
 $string['privacy:metadata:assignmentid'] = 'معرّف الواجب';
-$string['privacy:metadata:commentpurpose'] = 'نص التعليق.';
-$string['privacy:metadata:filepurpose'] = 'ملفات الملاحظات من المعلم للطالب.';
-$string['privacy:metadata:gradepurpose'] = 'معرّف الدرجة المرتبط بالتعليق.';
-$string['privacy:metadata:tablesummary'] = 'هذا يخزن التعليقات التي أدلى بها طلاب الصف كملاحظات للطالب على تقديمه.';
+$string['privacy:metadata:commentpurpose'] = 'نص التعليق';
+$string['privacy:metadata:filepurpose'] = 'ملفات الملاحظات من المعلم للطالب';
+$string['privacy:metadata:gradepurpose'] = 'معرّف الدرجة المرتبط بالتعليق';
+$string['privacy:metadata:tablesummary'] = 'هذا يخزن التعليقات التي أدلى بها طلاب الصف كملاحظات للطالب على تقديمه';

@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['ajaxerror'] = 'خطأ في الاتصال بالخادم لتحويل الأوقات';
-$string['description'] = 'منع الوصول حتى (أو من) تاريخ و وقت محددين.';
+$string['ajaxerror'] = 'خطأ عند الاتصال بالمخدم لتحويل الأوقات';
+$string['description'] = 'منع الوصول حتى (أو من) تاريخ ووقت محددين.';
 $string['direction_before'] = 'التاريخ';
 $string['direction_from'] = 'من عند';
 $string['direction_label'] = 'الاتجاه';

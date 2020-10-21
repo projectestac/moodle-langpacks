@@ -27,6 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addsections'] = 'Lägg till sektioner/ämnen';
 $string['currentsection'] = 'Det här ämnet';
+$string['deletesection'] = 'Radera sektion/ämne';
+$string['editsection'] = 'Redigera sektion/ämne';
+$string['editsectionname'] = 'Redigera namn på sektion/ämne';
+$string['hidefromothers'] = 'Dölj sektion/ämne';
+$string['newsectionname'] = 'Nytt namn för sektion/ämne {$a}';
 $string['page-course-view-topics'] = 'Vilken ingångssida (för kurs) som helst i  ämnesformat';
 $string['pluginname'] = 'Ämnesformat';
 $string['section0name'] = 'Allmänt';

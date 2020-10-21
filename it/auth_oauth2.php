@@ -67,7 +67,15 @@ $string['emailconfirmlinksent'] = '<p>È stato trovato un account con questo ind
    <p>Una mail dovrebbe essere stata spedita al tuo indirizzo <b>{$a}</b>.</p>
    <p>Contiene istruzioni per collegare i tuoi account.</p>
    <p>Se incontri difficoltà, contatta l\'amministratore del sito.</p>';
-$string['emailpasswordchangeinfosubject'] = '{$a}: Informazioni su cambio password';
+$string['emailpasswordchangeinfo'] = 'Gentile {$a->firstname},
+
+è stata richiesta una nuova password per l\'account \'{$a->username}\' su \'{$a->sitename}\'.
+
+Purtroppo la password non può essere reimpostata perché per autenticati utilizzi un account di un altro sito.
+
+Per favore autenticati come in precedenza utilizzando il collegamento presente nella pagina di autenticazione.
+{$a->admin}';
+$string['emailpasswordchangeinfosubject'] = '{$a}: Informazioni sul cambio password';
 $string['info'] = 'Account esterno';
 $string['issuer'] = 'Servizio OAuth 2';
 $string['issuernologin'] = 'Questo fornitore non può essere utilizzato per autenticarsi.';

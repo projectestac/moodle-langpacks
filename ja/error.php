@@ -320,6 +320,7 @@ $string['invalidcommentparam'] = '無効なコメントパラメータです。'
 $string['invalidcomponent'] = '無効なコンポーネント名です。';
 $string['invalidconfirmdata'] = '無効な確認データです。';
 $string['invalidcontext'] = '無効なコンテクストです。';
+$string['invalidcountrycode'] = '無効な国コードです: {$a}';
 $string['invalidcourse'] = '無効なコースです。';
 $string['invalidcourseformat'] = '無効なコースフォーマットです。';
 $string['invalidcourseid'] = 'あなたは無効なコースIDの使用を試みています。';
@@ -391,6 +392,7 @@ $string['loginasnoenrol'] = 'コースに「... としてログイン」して�
 $string['loginasonecourse'] = 'あなたはこのコースに入ることはできません。<br />他のコースに入る前に現在の「... としてログイン」セッションを終了する必要があります。';
 $string['maxareabytes'] = 'ファイルがこのエリアの空き容量を超えています。';
 $string['maxbytesfile'] = 'ファイル {$a->file} は大きすぎます。あなたがアップロードできる最大サイズは {$a->size} です。';
+$string['messageundeliveredbynotificationsettings'] = 'サイト管理者によりユーザ間のパーソナルメッセージが無効にされているため、メッセージを送信できませんでした。';
 $string['messagingdisable'] = 'このサイトではメッセージングが無効にされています。';
 $string['mimetexisnotexist'] = 'あなたのシステムはmimeTeXを実行できるよう設定されていません。あなたはC言語のソースを<a href="https://www.forkosh.com/mimetex.zip">https://www.forkosh.com/mimetex.zip</a>から取得する必要があります。ダウンロードしたファイルをコンパイルした後、 あなたの「moodle/filter/tex/」ディレクトリに入れてください。';
 $string['mimetexnotexecutable'] = 'カスタムmimetexを実行できません!';

@@ -37,4 +37,4 @@ $string['upload_error_invalid_file'] = 'إما أن الملف \'{$a}\' فارغ
 $string['upload_error_no_file'] = 'لم يتم رفع أي ملف.';
 $string['upload_error_no_tmp_dir'] = 'PHP ينقصه مجلد مؤقت.';
 $string['upload_error_partial'] = 'تم رفع الملف جزئياً فقط.';
-$string['upload:view'] = 'استعمال الرفع في منتقِ الملفات';
+$string['upload:view'] = 'استعمال الرفع في منتقي الملفات';

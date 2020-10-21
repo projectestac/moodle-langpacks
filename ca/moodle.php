@@ -887,13 +887,13 @@ $string['forgotteninvalidurl'] = 'L\'URL de canvi de contrasenya no és vàlid';
 $string['format'] = 'Format';
 $string['format_help'] = 'El format del curs determina la disposició de la pàgina del curs.
 
-* Format d\'activitat única - Per mostrar una activitat o un recurs únics (com ara un qüestionari o un paquet SCORM) a la pàgina del curs.
+* Format d\'activitat única: per mostrar una activitat o un recurs únics (com ara un qüestionari o un paquet SCORM) a la pàgina del curs.
 
-* Format social - Es mostra un fòrum a la pàgina del curs.
+* Format social: es mostra un fòrum a la pàgina del curs.
 
-* Format per temes - La pàgina del curs s\'organitza en seccions temàtiques.
+* Format per temes: la pàgina del curs s\'organitza en seccions temàtiques.
 
-* Format setmanal - La pàgina del curs s\'organitza en seccions setmanals, en les quals la primera setmana comença en la data d\'inici del curs.';
+* Format setmanal: la pàgina del curs s\'organitza en seccions setmanals, en les quals la primera setmana comença en la data d\'inici del curs.';
 $string['formathtml'] = 'Format HTML';
 $string['formatmarkdown'] = 'Format Markdown';
 $string['formatplain'] = 'Format text';
@@ -2074,7 +2074,7 @@ $string['update'] = 'Actualitza';
 $string['updated'] = 'S\'ha actualitzat {$a}';
 $string['updatemymoodleoff'] = 'Atura l\'edició d\'aquesta pàgina';
 $string['updatemymoodleon'] = 'Personalitza aquesta pàgina';
-$string['updatemyprofile'] = 'Actualitza perfil';
+$string['updatemyprofile'] = 'Actualitza el perfil';
 $string['updatesevery'] = 'S\'actualitza cada {$a} segons';
 $string['updatethis'] = 'Actualitza {$a}';
 $string['updatethiscourse'] = 'Actualitza aquest curs';

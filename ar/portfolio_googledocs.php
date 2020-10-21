@@ -33,6 +33,6 @@ $string['nosessiontoken'] = 'ترميز الجلسة غير موجود مما ي
 $string['oauthinfo'] = '<p>لاستعمال هذا الملحق، عليك تسجيل موقعك في Google، كما هو موصوف في التوثيقات <a href="{$a->docsurl}">Google OAuth 2.0 setup</a>.</p><p>كجزء من عملية التسجيل، عليك إدخال الرابط الآتي بمثابة \'Authorized Redirect URIs\':</p><p>{$a->callbackurl}</p><p>بمجرد التسجيل، سيتم تزويدك بمُعرَّف الزبون وكلمة السر وبهما يمكنك تهيئة كل ملاحق Google Drive و Picasa.</p>';
 $string['pluginname'] = 'Google Drive';
 $string['privacy:metadata'] = 'هذا الملحق يرسل البيانات خارجياً إلى حساب Google مرتبط. هو لا يحفظ البيانات محلياً.';
-$string['privacy:metadata:data'] = 'البيانات الشخصية المُمرَّرة عبر نظام المحفظة الفرعي.';
+$string['privacy:metadata:data'] = 'البيانات الشخصية المُمرَّرة عبر نظام المحفظة الفرعي';
 $string['secret'] = 'كلمة السر';
 $string['sendfailed'] = 'فشل نقل الملف {$a} إلى Google';

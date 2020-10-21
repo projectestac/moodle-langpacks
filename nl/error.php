@@ -320,6 +320,7 @@ $string['invalidcommentparam'] = 'Ongeldige commentaarparameters';
 $string['invalidcomponent'] = 'Ongeldige componentnaam';
 $string['invalidconfirmdata'] = 'Ongeldige bevestingingsgegevens';
 $string['invalidcontext'] = 'Context is niet geldig';
+$string['invalidcountrycode'] = 'Ongeldige landcode: {$a}';
 $string['invalidcourse'] = 'Ongeldige cursus';
 $string['invalidcourseformat'] = 'Ongeldig cursusformaat';
 $string['invalidcourseid'] = 'Je probeert een ongeldig cursus ID te geven';

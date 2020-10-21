@@ -681,7 +681,7 @@ $string['emailnotfound'] = 'L\'indirizzo email non è stato trovato nella base d
 $string['emailonlyallowed'] = 'Questo indirizzo email non è uno di quelli ammessi ({$a})';
 $string['emailpasswordchangeinfo'] = 'Gentile {$a->firstname},
 
-è stata richiesta una nuova password per l\'account account \'{$a->username}\' su \'{$a->sitename}\'.
+è stata richiesta una nuova password per l\'account \'{$a->username}\' su \'{$a->sitename}\'.
 
 Per cambiare la password devi cliccare sul link seguente:
 
@@ -695,12 +695,12 @@ $string['emailpasswordchangeinfodisabled'] = 'Gentile {$a->firstname},
 
 è stata richiesta una nuova password per il tuo account su \'{$a->sitename}\'.
 
-Sfortunatamente il tuo account su questo sito è disabilitato, pertanto la password non può essere reimpostata. Se hai bisogno di aiuto, contatta l\'amministratore del sito: {$a->admin}';
+Purtroppo su questo sito il tuo account  è disabilitato, pertanto la password non può essere reimpostata. Se hai bisogno di aiuto, contatta l\'amministratore del sito: {$a->admin}';
 $string['emailpasswordchangeinfofail'] = 'Gentile {$a->firstname},
 
 è stata richiesta una nuova password per il tuo account su \'{$a->sitename}\'.
 
-Purtroppo su questo sito le password non possono essere cambiate.Se hai bisogno di aiuto, contatta l\'amministratore del sito: {$a->admin}';
+Purtroppo su questo sito le password non possono essere cambiate. Se hai bisogno di aiuto, contatta l\'amministratore del sito: {$a->admin}';
 $string['emailpasswordchangeinfosubject'] = '{$a}: Informazioni su cambio password';
 $string['emailpasswordconfirmation'] = 'Gentile {$a->firstname},
 

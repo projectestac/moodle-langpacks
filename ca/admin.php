@@ -1007,7 +1007,7 @@ $string['requestcategoryselection'] = 'Habilita la selecció de categories';
 $string['requiredentrieschanged'] = '<strong>IMPORTANT: LLEGIU-HO<br/>(Aquest avís sols es mostra durant aquesta actualització)</strong><br/> A causa de la correcció d\'un error, el comportament de les activitats quan s\'utilitzen els paràmetres «Entrades requerides» i «Entrades requerides abans de veure els paràmetres» han canviat. Podeu llegir una explicació més detallada dels canvis al <a href="http://moodle.org/mod/forum/discuss.php?d=110928" target="_blank">mòdul fòrum de la base de dades</a>. El comportament esperat d\'aquests canvis pot llegir-se als <a href="http://docs.moodle.org/en/Adding/editing_a_database#Required_entries" target="_blank">documents de Moodle</a>. <br/><br/>Aquest canvi afecta les bases de dades següents del vostre sistema: (Anomeneu i deseu aquesta llista ara i, després de l\'actualització, comproveu que aquestes activitats encara funcionen de la forma en què els professors esperen.) <br/><strong>{$a->text}</strong><br/>';
 $string['requiremodintro'] = 'Requereix una descripció de l\'activitat';
 $string['requiremodintro_desc'] = 'Si s\'habilita, els usuaris hauran d\'introduir una descripció per cada activitat.';
-$string['requires'] = 'Requereix';
+$string['requires'] = 'Demana';
 $string['restorecourse'] = 'Restaura un curs';
 $string['restorernewroleid'] = 'Rol de Restaurador als cursos';
 $string['restorernewroleid_help'] = 'Si l\'usuari no té el permís per administrar el curs acabat de restaurar, se li assigna automàticament aquesta funció i se l\'inscriu al curs si és necessari. Seleccioneu «Cap» si no voleu que els restauradors puguin gestionar tots els cursos restaurats.';

@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configjabberhost'] = 'الخادم الذي ستم الاتصال به لإرسال رسائل إشعارات خدمة جابر (Jabber)';
-$string['configjabberpassword'] = 'كلمة المرور التي ستستخدم عند الدخول إلى خادم خدمة جابر  (Jabber)';
-$string['configjabberport'] = 'المنفذ الذي سيستخدم عند الأتصال بخادم خدمة جابر  (Jabber)';
+$string['configjabberhost'] = 'المخدم الذي سيتم الاتصال به لإرسال رسائل إشعارات Jabber';
+$string['configjabberpassword'] = 'كلمة المرور التي ستستعمل عند الاتصال بمخدم Jabber';
+$string['configjabberport'] = 'المنفذ المستعمل للاتصال بمخدم Jabber';
 $string['configjabberserver'] = 'مُعرَّف مضيف XMPP (يمكن تركه فارغاً إن كان نفسه مضيف Jabber)';
 $string['configjabberusername'] = 'اسم المستخدم المستعمل عند الاتصال بمخدم Jabber';
 $string['jabberhost'] = 'مضيف Jabber';
@@ -36,10 +36,10 @@ $string['jabberpassword'] = 'كلمة مرور Jabber';
 $string['jabberport'] = 'منفذ Jabber';
 $string['jabberserver'] = 'مخدم Jabber';
 $string['jabberusername'] = 'اسم مستخدم Jabber';
-$string['notconfigured'] = 'لم يتم إعداد مخدم جابر (Jabber)، لذلك فإنه لا يمكن إرسال رسائل جابر.';
+$string['notconfigured'] = 'لم تتم تهيئة مخدم Jabber، لذلك لا يمكن إرسال رسائله';
 $string['pluginname'] = 'Jabber';
 $string['privacy:metadata:contexturl'] = 'رابط معاينة الحدث';
-$string['privacy:metadata:externalpurpose'] = 'هذه المعلومات ترسل إلى مخدم Jabber خارجي لنقلها بشكل نهائي إلى المستلم بشكل إشعار.';
-$string['privacy:metadata:smallmessage'] = 'مقطع من الرسالة.';
-$string['privacy:metadata:userfrom'] = 'المستخدم المرسل للإشعار.';
-$string['privacy:metadata:userto'] = 'مستلم الإشعار.';
+$string['privacy:metadata:externalpurpose'] = 'هذه المعلومات ترسل إلى مخدم Jabber خارجي لنقلها بشكل نهائي إلى المستلم بشكل إشعار';
+$string['privacy:metadata:smallmessage'] = 'مقطع من الرسالة';
+$string['privacy:metadata:userfrom'] = 'المستخدم المرسل للإشعار';
+$string['privacy:metadata:userto'] = 'مستلم الإشعار';

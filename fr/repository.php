@@ -57,6 +57,7 @@ $string['cannotdownload'] = 'Impossible de télécharger ce fichier';
 $string['cannotdownloaddir'] = 'Impossible de télécharger ce dossier';
 $string['cannotinitplugin'] = 'Échec de l\'initialisation du plugin';
 $string['cannotunzipcontentunreadable'] = 'Impossible de décompresser le fichier, car son contenu ne peut pas être lu.';
+$string['cannotunzipextractfileerror'] = 'Impossible de décompresser cette archive, car un ou plusieurs de ses fichiers sont ne peuvent pas être lus.';
 $string['cannotunzipquotaexceeded'] = 'Impossible de décompresser le fichier, car la taille maximale de la zone de brouillon sera dépassée.';
 $string['choosealink'] = 'Choisir un lien…';
 $string['chooselicense'] = 'Choisir une licence';

@@ -46,7 +46,7 @@ $string['clialreadyinstalled'] = 'Il file config.php è già presente.
 Utilizzare admin/cli/install_database.php per aggiornare Moodle.';
 $string['cliinstallfinished'] = 'L\'installazione è stata completata correttamente';
 $string['cliinstallheader'] = 'Programma di installazione Moodle {$a} via linea di comando';
-$string['climustagreelicense'] = 'In modalità linea di comando devi accettare la licenza specificando il parametro --agree-license';
+$string['climustagreelicense'] = 'In modalità non interattiva + necessario accettare la licenza specificando il parametro --agree-license';
 $string['cliskipdatabase'] = 'Salto dell\'installazione del database.';
 $string['clitablesexist'] = 'Le tabelle del database sono già presenti, l\'installazione via linea di comando non può proseguire.';
 $string['compatibilitysettings'] = 'Verifica impostazioni PHP...';

@@ -71,6 +71,6 @@ $string['selectmulti'] = 'Veuillez choisir au moins une réponse :';
 $string['selectone'] = 'Veuillez choisir une réponse :';
 $string['shuffleanswers'] = 'Mélanger les réponses possibles ?';
 $string['shuffleanswers_desc'] = 'Ce réglage détermine si par défaut les réponses proposées doivent être mélangées à chaque tentative.';
-$string['shuffleanswers_help'] = 'Si vous cochez cette option, l\'ordre des réponses proposées sera mélangé aléatoirement au début de chaque tentative d\'un test contenant cette question, étant entendu que l\'option « Mélanger les réponses possibles » soit également activée dans les réglages du test.';
+$string['shuffleanswers_help'] = 'Si vous cochez cette option, l\'ordre des réponses proposées sera mélangé aléatoirement au début de chaque tentative d\'un test contenant cette question, à condition que l\'option « Mélanger les réponses possibles » soit également activée dans les réglages du test.';
 $string['singleanswer'] = 'Choisir une réponse.';
 $string['toomanyselected'] = 'Vous avez sélectionné trop d\'options.';

@@ -36,12 +36,12 @@ $string['courseexplanation'] = 'تقوم هذه الأداة بإنشاء مسا
 
 **لا تستعمل هذه الميزة على نظام فعلي**. استعملها فقط على مخدم قيد التطوير.
 (لتجنب الاستعمال غير المقصود، هذه الميزة معطلة ما لم تكن قد حددت أيضاً مستوى تصحيح أخطاء DEVELOPER).';
-$string['coursesize_0'] = 'XS (حوالي 10 كيلو بايت ؛ أنشئ في ثانية واحدة تقريبًا)';
+$string['coursesize_0'] = 'XS (حوالي 10 كيلو بايت؛ ينشأ في ثانية واحدة تقريباً)';
 $string['coursesize_1'] = 'S (حوالي 10 ميغا بايت؛ يُنشأ في حوالي 30 ثانية)';
-$string['coursesize_2'] = 'M (حوالي 100 ميجابايت ؛ أنشئ في دقيقتين تقريبًا)';
+$string['coursesize_2'] = 'M (حوالي 100 ميجابايت؛ ينشأ في دقيقتين تقريباً)';
 $string['coursesize_3'] = 'L (حوالي 1 جيجابايت ؛ أنشئ في حوالي 30 دقيقة)';
-$string['coursesize_4'] = 'XL (حوالي 10 جيجابايت ؛ أنشئ خلال ساعتين تقريبًا)';
-$string['coursesize_5'] = 'XXL (حوالي 20 جيجابايت ؛ أنشئ خلال 4 ساعات تقريبًا)';
+$string['coursesize_4'] = 'XL (حوالي 10 جيجابايت؛ ينشأ خلال ساعتين تقريباً)';
+$string['coursesize_5'] = 'XXL (حوالي 20 جيجابايت؛ ينشأ خلال 4 ساعات تقريباً)';
 $string['coursewithoutusers'] = 'المساق المحدد لا يوجد فيه مستخدمون';
 $string['createcourse'] = 'أنشئ المساق';
 $string['createtestplan'] = 'أنشئ خطة اختبار';
@@ -66,7 +66,7 @@ $string['privacy:metadata'] = 'إن ملحق مولد بيانات المطور 
 $string['progress_checkaccounts'] = 'التحقق من حسابات المستخدمين ({$a})';
 $string['progress_coursecompleted'] = 'اكتمل المساق ({$a})';
 $string['progress_createaccounts'] = 'يجري إنشاء حسابات المستخدمين ({$a->from} - {$a->to})';
-$string['progress_createassignments'] = 'إنشاء مهام ({$a})';
+$string['progress_createassignments'] = 'إنشاء الواجبات ({$a})';
 $string['progress_createbigfiles'] = 'إنشاء ملفات كبيرة ({$a})';
 $string['progress_createcourse'] = 'إنشاء مقرر {$a}';
 $string['progress_createforum'] = 'إنشاء منتدى ({$a} منشورات)';

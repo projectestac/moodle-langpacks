@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['action'] = 'إجراء';
+$string['action'] = 'الإجراء';
 $string['addanotherhint'] = 'إضافة تلميح آخر';
 $string['addcategory'] = 'إضافة صنف';
 $string['addmorechoiceblanks'] = 'أضف {no} خيارات فارغة';
@@ -33,7 +33,7 @@ $string['adminreport'] = 'رفع تقرير بمشاكل محتملة في قا�
 $string['advancedsearchoptions'] = 'خيارات البحث';
 $string['alltries'] = 'جميع محاولات';
 $string['answer'] = 'إجابة';
-$string['answers'] = 'إجابات';
+$string['answers'] = 'الإجابات';
 $string['answersaved'] = 'تم حفظ الإجابة';
 $string['attemptfinished'] = 'انتهت المحاولة';
 $string['attemptfinishedsubmitting'] = 'انتهت المحاولة وسيتم التسليم';
@@ -44,7 +44,7 @@ $string['behaviour'] = 'سلوك';
 $string['behaviourbeingused'] = 'السلوك المُستخدم حالياً:  {$a}';
 $string['broken'] = 'هذا الرابط غير صحيح ويشير إلى ملف غير موجود.';
 $string['byandon'] = 'بواسطة <em>{$a->user}</em> في <em>{$a->time}</em>';
-$string['cannotcopybackup'] = 'لا يمكن نسخ ملف النسخة الاحتياطية';
+$string['cannotcopybackup'] = 'تعذر نسخ ملف النسخة الاحتياطية';
 $string['cannotcreate'] = 'لم يتمكن من إضافة مدخل جديد في جدول question_attempts';
 $string['cannotcreatepath'] = 'لا يمكن إنشاء المسار: {$a}';
 $string['cannotdeletebehaviourinuse'] = 'لا يمكنك حذف السلوك  \'{$a}\'.يتم استخدامه من قبل محاولات السؤال.';
@@ -265,7 +265,7 @@ $string['invalidcontextinhasanyquestions'] = 'سياق غير صحيح مُمر�
 $string['invalidgrade'] = 'الدرجات ({$a}) لا تتطابق مع خيارات الدرجة -تم  تخطي السؤال.';
 $string['invalidpenalty'] = 'غرامة غير صحيحة';
 $string['invalidwizardpage'] = 'صفحة برنامج إعداد خاطئة أو لم يتم تحديدها!';
-$string['lastmodifiedby'] = 'اخر تعديل بواسطة';
+$string['lastmodifiedby'] = 'آخر تعديل بواسطة';
 $string['lasttry'] = 'آخر محاولة';
 $string['linkedfiledoesntexist'] = 'الملف المرتبط {$a} غير موجود';
 $string['makechildof'] = 'إجعله تابعاً إلى \'{$a}\'';
@@ -278,23 +278,25 @@ $string['mark'] = 'درجة';
 $string['markedoutof'] = 'الدرجة من';
 $string['markedoutofmax'] = 'الدرجة من {$a}';
 $string['markoutofmax'] = 'درجة {$a->mark} من {$a->max}';
-$string['marks'] = 'علامات';
-$string['matchgrades'] = 'طابق الدرجات';
-$string['matchgradeserror'] = 'خطأ إذا لم يتم إدراج الدرجة';
+$string['marks'] = 'العلامات';
+$string['matchgrades'] = 'مطابقة العلامات';
+$string['matchgradeserror'] = 'خطأ إذا لم تكن العلامة مدرجة';
 $string['matchgrades_help'] = 'الدرجات المستوردة يجب أن تتطابق مع واحدة من القائمة الثابتة من الدرجات صالحة -100, 90, 80, 75, 70, 66.666, 60, 50, 40, 33.333, 30, 25, 20, 16.666, 14.2857, 12.5, )11.111, 10, 5, 0 (وكذلك القيم السالبة. إذا لم تتطابق فيوجد خيارين:
 
 * خطأ إذا لم يتم إدراج الدرجة - إذا كان السؤال لا يتضمن أي من الدرجات من القائمة فسيتم عرض خطأ ولن يتم استيراد هذا السؤال
 *  إذا لم يتم إدراج أقرب درجة  - إذا تم العثور على الدرجة التي لا تتطابق مع القيم المُدرجة في القائمة، فسيتم تغيير الدرجة إلى أقرب قيمة مطابقة في القائمة';
-$string['matchgradesnearest'] = 'إذا لم يتم إدراج أقرب درجة';
+$string['matchgradesnearest'] = 'أقرب علامة إذا لم تكن مدرجة';
+$string['missingcourseorcmid'] = 'ينبغي تزويد المعامل print_question بمُعرَّف المساق أو مفتاحه الأساسي.';
+$string['missingcourseorcmidtolink'] = 'ينبغي تزويد المعامل get_question_edit_link بمُعرَّف المساق أو مفتاحه الأساسي.';
 $string['missingimportantcode'] = 'نوع السؤال هذا يفقد كود مهم: {$a}.';
 $string['missingoption'] = 'سؤال cloze {$a} تنقصه خياراته';
-$string['modified'] = 'اخر حفظ';
+$string['modified'] = 'آخر حفظ';
 $string['move'] = 'الانتقال من {$a} وتغيير الروابط.';
 $string['movecategory'] = 'أنقل الصنف';
 $string['movedquestionsandcategories'] = 'الأسئلة وأصناف الأسئلة المنقولة من {$a->oldplace} إلى {$a->newplace}.';
 $string['movelinksonly'] = 'فقط قم بتتغيير الأماكن التي تشير لها الروابط، لاتقم بنقل أو نسخ الملفات';
 $string['moveq'] = 'أنقل السؤال/الأسئلة';
-$string['moveqtoanothercontext'] = 'أنقل السؤال إلى سياق اخر';
+$string['moveqtoanothercontext'] = 'نقل السؤال إلى سياق آخر.';
 $string['moveto'] = 'انقل إلي >>';
 $string['movingcategory'] = 'يتم نقل الصنف';
 $string['movingcategoryandfiles'] = 'هل أنت متأكد أنك تريد نقل الصنف {$a->name} وكل أصنافه الفرعية إلى السياق في "{$a->contextto}"؟<br />لقد اكتشفنا {$a->urlcount} ملفات مرتبطة من الأسئلة في {$a->fromareaname}، هل ترغب في نسخ أو نقل هذه الملفات إلى {$a->toareaname}؟';
@@ -311,7 +313,7 @@ $string['noquestions'] = 'لم يتم العثور على الأسئلة لتص�
 $string['noquestionsinfile'] = 'لم تكن هناك أسئلة في ملف الاستيراد';
 $string['noresponse'] = 'لا توجد إجابة';
 $string['notagfiltersapplied'] = 'لم يتم تطبيق مرشحات الوسوم';
-$string['notanswered'] = 'لم يتم الاجابة عليه';
+$string['notanswered'] = 'غير مجاب عليه';
 $string['notchanged'] = 'لم تتغير منذ آخر محاولة';
 $string['notenoughanswers'] = 'هذا النوع من الأسئلة يتطلب على الأقل {$a} إجابات';
 $string['notenoughdatatoeditaquestion'] = 'لم يتم تحديد مُعرِّف السؤال، ولامُعرِّف التصنيف ولا نوع السؤال .';
@@ -319,7 +321,7 @@ $string['notenoughdatatomovequestions'] = 'ينبغي عليك تقديم مُع
 $string['notflagged'] = 'غير مُؤشَّرة';
 $string['notgraded'] = 'لم يتم التقييم';
 $string['notshown'] = 'غير ظاهر';
-$string['notyetanswered'] = 'لم يتم الاجابة عليه بعد';
+$string['notyetanswered'] = 'غير مجاب عليه بعد';
 $string['notyourpreview'] = 'هذه المعاينة ليست لك';
 $string['novirtualquestiontype'] = 'لا توجد أنواع عملية للسؤال ذي النوع {$a}';
 $string['numqas'] = 'عدد محاولات السؤال';
@@ -337,7 +339,7 @@ $string['parentcategory_help'] = 'الصنف الأعلى هو الصنف الذ
 $string['parenthesisinproperclose'] = 'الأقواس قبل ** لم يتم إغلاقها بشكل صحيح في {$a}**';
 $string['parenthesisinproperstart'] = 'الأقواس قبل ** لم يتم افتتاحها بشكل صحيح في {$a}**';
 $string['parsingquestions'] = 'تحليل الأسئلة من ملف الاستيراد.';
-$string['partiallycorrect'] = 'إجابة جزئية';
+$string['partiallycorrect'] = 'صحيحة جزئياً';
 $string['partiallycorrectfeedback'] = 'لأي إجابة صحيحة جزئياً';
 $string['partiallycorrectfeedbackdefault'] = 'إجابتك صحيحة بشكل جزئي';
 $string['penaltyfactor'] = 'عامل جزاء';
@@ -355,31 +357,31 @@ $string['permissionmove'] = 'أنقل هذا السؤال';
 $string['permissionsaveasnew'] = 'أحفظ هذا السؤال كسؤال جديد';
 $string['permissionto'] = 'لديك صلاحية لـ:';
 $string['previewquestion'] = 'معاينة السؤال: {$a}';
-$string['privacy:metadata:database:question'] = 'التفاصيل بشأن سؤال محدد.';
-$string['privacy:metadata:database:question_attempts'] = 'معلومات بشأن محاولة معينة لسؤال محدد.';
-$string['privacy:metadata:database:question_attempts:flagged'] = 'مؤشر على أن المستخدم قد وضع علامة على هذا السؤال في أثناء المحاولة.';
-$string['privacy:metadata:database:question_attempts:responsesummary'] = 'ملخص عن استجابة السؤال.';
-$string['privacy:metadata:database:question_attempt_step_data'] = 'خطوات محاولة السؤال قد ترافقها بيانات إضافية متعلقة بكل من تلك الخطوات. تلك البيانات تُخزن في الجدول step_data.';
-$string['privacy:metadata:database:question_attempt_step_data:name'] = 'اسم عنصر البيانات.';
-$string['privacy:metadata:database:question_attempt_step_data:value'] = 'قيمة عنصر البيانات.';
-$string['privacy:metadata:database:question_attempt_steps'] = 'لكل محاولة سؤال عدد من الخطوات لتؤشر الأطوار المختلفة من البدء ثم الإكمال ثم منح العلامة. هذا الجدول يخزن المعلومات المتعلقة بكل من تلك الخطوات.';
-$string['privacy:metadata:database:question_attempt_steps:fraction'] = 'العلامة الممنوحة لمحاولة السؤال هذه مقايسة نسبة إلى الواحد.';
-$string['privacy:metadata:database:question_attempt_steps:state'] = 'حالة خطوة محاولة السؤال عند نهاية الانتقال من الخطوة.';
-$string['privacy:metadata:database:question_attempt_steps:timecreated'] = 'تاريخ ووقت بدء الخطوة الانتقالية هذه.';
-$string['privacy:metadata:database:question_attempt_steps:userid'] = 'المستخدم الذي نفذ الخطوة الانتقالية.';
-$string['privacy:metadata:database:question_attempts:timemodified'] = 'وقت تحديث محاولة السؤال.';
-$string['privacy:metadata:database:question:createdby'] = 'الشخص الذي أنشأ السؤال.';
-$string['privacy:metadata:database:question:generalfeedback'] = 'الإفادة العامة لهذا السؤال.';
-$string['privacy:metadata:database:question:modifiedby'] = 'الشخص الذي أجرى التحديث الأخير للسؤال.';
-$string['privacy:metadata:database:question:name'] = 'اسم السؤال.';
-$string['privacy:metadata:database:question:questiontext'] = 'نص السؤال.';
+$string['privacy:metadata:database:question'] = 'التفاصيل بشأن سؤال محدد';
+$string['privacy:metadata:database:question_attempts'] = 'معلومات بشأن محاولة معينة لسؤال محدد';
+$string['privacy:metadata:database:question_attempts:flagged'] = 'مؤشر على أن المستخدم قد وضع علامة على هذا السؤال في أثناء المحاولة';
+$string['privacy:metadata:database:question_attempts:responsesummary'] = 'ملخص عن استجابة السؤال';
+$string['privacy:metadata:database:question_attempt_step_data'] = 'خطوات محاولة السؤال قد ترافقها بيانات إضافية متعلقة بكل من تلك الخطوات. تلك البيانات تُخزن في الجدول step_data';
+$string['privacy:metadata:database:question_attempt_step_data:name'] = 'اسم عنصر البيانات';
+$string['privacy:metadata:database:question_attempt_step_data:value'] = 'قيمة عنصر البيانات';
+$string['privacy:metadata:database:question_attempt_steps'] = 'لكل محاولة سؤال عدد من الخطوات لتؤشر الأطوار المختلفة من البدء ثم الإكمال ثم منح العلامة. هذا الجدول يخزن المعلومات المتعلقة بكل من تلك الخطوات';
+$string['privacy:metadata:database:question_attempt_steps:fraction'] = 'العلامة الممنوحة لمحاولة السؤال هذه مقايسة نسبة إلى الواحد';
+$string['privacy:metadata:database:question_attempt_steps:state'] = 'حالة خطوة محاولة السؤال عند نهاية الانتقال من الخطوة';
+$string['privacy:metadata:database:question_attempt_steps:timecreated'] = 'تاريخ ووقت بدء الخطوة الانتقالية هذه';
+$string['privacy:metadata:database:question_attempt_steps:userid'] = 'المستخدم الذي نفذ الخطوة الانتقالية';
+$string['privacy:metadata:database:question_attempts:timemodified'] = 'وقت تحديث محاولة السؤال';
+$string['privacy:metadata:database:question:createdby'] = 'الشخص الذي أنشأ السؤال';
+$string['privacy:metadata:database:question:generalfeedback'] = 'الإفادة العامة لهذا السؤال';
+$string['privacy:metadata:database:question:modifiedby'] = 'الشخص الذي أجرى التحديث الأخير للسؤال';
+$string['privacy:metadata:database:question:name'] = 'اسم السؤال';
+$string['privacy:metadata:database:question:questiontext'] = 'نص السؤال';
 $string['privacy:metadata:database:question:timecreated'] = 'تاريخ ووقت إنشاء هذا السؤال';
-$string['privacy:metadata:database:question:timemodified'] = 'تاريخ ووقت تحديث هذا السؤال.';
-$string['privacy:metadata:link:qbehaviour'] = 'نظام الأسئلة الفرعي يستعمل ملحق سلوك الأسئلة.';
-$string['privacy:metadata:link:qformat'] = 'نظام الأسئلة الفرعي يستعمل ملحق تنسيق الأسئلة لأغراض استيراد وتصدير الأسئلة بتنسيقات مختلفة.';
-$string['privacy:metadata:link:qtype'] = 'نظام الأسئلة الفرعي يتعامل مع ملحق أنواع الأسئلة والذي يضم كل أنواعها المختلفة.';
+$string['privacy:metadata:database:question:timemodified'] = 'تاريخ ووقت تحديث هذا السؤال';
+$string['privacy:metadata:link:qbehaviour'] = 'نظام الأسئلة الفرعي يستعمل ملحق سلوك الأسئلة';
+$string['privacy:metadata:link:qformat'] = 'نظام الأسئلة الفرعي يستعمل ملحق تنسيق الأسئلة لأغراض استيراد وتصدير الأسئلة بتنسيقات مختلفة';
+$string['privacy:metadata:link:qtype'] = 'نظام الأسئلة الفرعي يتعامل مع ملحق أنواع الأسئلة والذي يضم كل أنواعها المختلفة';
 $string['published'] = 'مشترك';
-$string['qtypeveryshort'] = 'صح';
+$string['qtypeveryshort'] = 'النوع';
 $string['questionaffected'] = '<a href="{$a->qurl}">السؤال "{$a->name}" ({$a->qtype})</a> موجود ضمن صنف الأسئلة هذا ولكنه قيد الاستعمال أيضاً في <a href="{$a->qurl}">الاختبار "{$a->quizname}"</a> في مساق آخر "{$a->coursename}".';
 $string['questionbank'] = 'بنك الأسئلة';
 $string['questionbehaviouradminsetting'] = 'إعدادات سلوك الأسئلة';
@@ -392,7 +394,7 @@ $string['questioncatsfor'] = 'أصناف الأسئلة لـ \'{$a}\'';
 $string['questiondoesnotexist'] = 'هذا السؤال غير موجود';
 $string['questionformtagheader'] = 'وسوم {$a}';
 $string['questionidmismatch'] = 'عدم تطابق مُعرِّفات السؤال';
-$string['questionname'] = 'أسم السؤال';
+$string['questionname'] = 'اسم السؤال';
 $string['questionnamecopy'] = '{$a} (نسخ)';
 $string['questionno'] = 'سؤال {$a}';
 $string['questionpreviewdefaults'] = 'الإعدادات الافتراضية لمعاينة السؤال';
@@ -410,9 +412,9 @@ $string['questionuse'] = 'استخدم السؤال في هذا النشاط';
 $string['questionvariant'] = 'السؤال البديل';
 $string['questionx'] = 'سؤال {$a}';
 $string['requiresgrading'] = 'يتطلب التصحيح';
-$string['responsehistory'] = 'الأرشيف التأريخي للإجابة';
-$string['restart'] = 'ابداء من جديد';
-$string['restartwiththeseoptions'] = 'ابداء من جديد بهذه الخيارات';
+$string['responsehistory'] = 'التوثيق التاريخي للاستجابة';
+$string['restart'] = 'البدء مجدداً';
+$string['restartwiththeseoptions'] = 'البدء مجدداً مع هذه الخيارات';
 $string['restoremultipletopcats'] = 'ملف الحفظ الاحتياطي يحتوي على أكثر من صنف أسئلة ذي مستوى رئيسي ضمن السياق {$a}.';
 $string['reviewresponse'] = 'مراجعة الاجابة';
 $string['rightanswer'] = 'إجابة صحيحة';
@@ -437,8 +439,8 @@ $string['showquestiontext'] = 'أظهر نص السؤال ضمن قائمة ال
 $string['specificfeedback'] = 'الإفادة الخاصة';
 $string['specificfeedback_help'] = 'الإفادة التي تعتمد على إجابة الطالب.';
 $string['started'] = 'بدأ';
-$string['state'] = 'حالة';
-$string['step'] = 'خطوة';
+$string['state'] = 'الحالة';
+$string['step'] = 'الخطوة';
 $string['steps'] = 'الخطوات';
 $string['stoponerror'] = 'توقف عند الخطأ';
 $string['stoponerror_help'] = 'يحدد هذا الإعداد ما إذا كانت عملية الاستيراد تتوقف عند الكشف عن خطأ، مما يؤدي إلى عدم استيراد أي أسئلة ،  أو أن يتم تجاهل أي أسئلة تحتوي على أخطاء و استيراد أي أسئلة صالحة.';
@@ -481,6 +483,6 @@ $string['whichtries'] = 'أي محاولة';
 $string['withselected'] = 'مع ما تم اختياره';
 $string['wrongprefix'] = 'بادئة اسم ذات تنسيق خاطئ {$a}';
 $string['xoutofmax'] = '{$a->mark} من {$a->max}';
-$string['yougotnright'] = 'لقد قمت بإختيار إجابة صحيحة';
+$string['yougotnright'] = 'لقد حددتَ {$a->num} بشكل صحيح.';
 $string['youmustselectaqtype'] = 'لا بد من اختيار نوع السؤال';
 $string['yourfileshoulddownload'] = 'ينبغي أن يبدأ تحميل ملف التصدير الخاص بك قريباً. إذا لم يبدأ التحميل، يرجى <a href="{$a}">الضغط هنا</a>.';

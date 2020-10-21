@@ -409,9 +409,9 @@ $string['successfullyfetchedtoolconfigurationfromcontent'] = 'Tool-Konfiguration
 $string['toggle_debug_data'] = 'Debug-Modus umschalten';
 $string['tool_config_not_found'] = 'Tool-Konfiguration für diese URL nicht gefunden';
 $string['tooldescription'] = 'Tool-Beschreibung';
-$string['tooldescription_help'] = 'Die Beschreibung des Tools, die Lehrern in der Aktivitätsliste angezeigt wird.
+$string['tooldescription_help'] = 'Die Beschreibung des Tools, die Trainer/innen in der Aktivitätsliste angezeigt wird.
 
-Sie sollte beschreiben, wofür das Tool ist, was es tut und jede weitere Information enthalten, die der Lehrer haben muss.';
+Die Beschreibung sollte darstellen, wofür das Tool ist und was es tut. Außerdem sollte sie alle zusätzlichen Information enthalten, die die Trainer/innen kennen müssen.';
 $string['tooldetailsaccesstokenurl'] = 'URL für Zugriffstoken';
 $string['tooldetailsauthrequesturl'] = 'URL der Authentifizierungsanforderung';
 $string['tooldetailsclientid'] = 'Client-ID';

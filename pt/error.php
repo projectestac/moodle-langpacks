@@ -253,7 +253,7 @@ $string['error_question_answers_missing_in_db'] = 'Não foi possível encontrar 
 $string['errorreadingfile'] = 'Erro na leitura do ficheiro "{$a}"';
 $string['errorsavingrequest'] = 'Ocorreu um erro ao salvar o seu pedido.';
 $string['errorsettinguserpref'] = 'Ocorreu um erro de configuração das preferências de utilizador';
-$string['errorunzippingfiles'] = 'Erro ao descomprimir ficheiros ZIP';
+$string['errorunzippingfiles'] = 'Erro ao descompactar os ficheiros';
 $string['expiredkey'] = 'Chave expirada';
 $string['externalauthpassworderror'] = 'Senha não-vazia para autenticação externa';
 $string['externalfilenolocation'] = 'Os ficheiros externos não possuem caminho';
@@ -318,6 +318,7 @@ $string['invalidcommentparam'] = 'Os parâmetros são inválidos';
 $string['invalidcomponent'] = 'O nome é inválido';
 $string['invalidconfirmdata'] = 'Informação de confirmação inválida';
 $string['invalidcontext'] = 'Contexto inválido';
+$string['invalidcountrycode'] = 'Código de país inválido: {$a}';
 $string['invalidcourse'] = 'Disciplina não válida';
 $string['invalidcourseformat'] = 'Formato da disciplina inválido';
 $string['invalidcourseid'] = 'Está a tentar usar ID de disciplina inválido';
@@ -389,6 +390,7 @@ $string['loginasnoenrol'] = 'Não pode realizar nem anular inscrições quando s
 $string['loginasonecourse'] = 'Não pode entrar nesta disciplina.<br /> Tem de terminar a sessão "Entrar como" antes de entrar em qualquer outra disciplina.';
 $string['maxareabytes'] = 'Este ficheiro é maior do que o espaço restante nesta área.';
 $string['maxbytesfile'] = 'O ficheiro \'{$a->file}\' é muito grande. Apenas pode carregar ficheiros com um tamanho máximo de {$a->size}.';
+$string['messageundeliveredbynotificationsettings'] = 'A mensagem não foi enviada porque as mensagens pessoais entre utilizadores (nas configurações de Notificação) foram desativadas por um administrador do site.';
 $string['messagingdisable'] = 'A troca de mensagens está desativada neste site';
 $string['mimetexisnotexist'] = 'O seu sistema não está configurado para executar mimeTeX. É necessário  obter o código fonte em C a partir de <a href="http://www.forkosh.com/mimetex.zip">http://www.forkosh.com/mimetex.zip</a>, compilá-lo e colocar o executável na pasta moodle/filter/tex/.';
 $string['mimetexnotexecutable'] = 'Mimetex Custom não é executável!';
@@ -484,7 +486,7 @@ $string['redirecterrordetected'] = 'Não há suporte para redirecionar, a execu�
 $string['refoundto'] = 'Pode ser reembolsado para {$a}';
 $string['refoundtoorigi'] = 'Reembolsado para o valor original: {$a}';
 $string['registrationdisabled'] = 'O registo está desativado neste site';
-$string['remotedownloaderror'] = 'Não foi possível descarregar o componente para o servidor. Verifique as configurações do proxy. A instalação da extensão cURL do PHP é muito recomendada.<br /><br />Terá de descarregar manualmente o ficheiro <a href="{$a->url}">{$a->url}</a>, copiá-lo para a pasta "{$a->dest}" no seu servidor e descompactá-lo';
+$string['remotedownloaderror'] = 'Não foi possível descarregar o componente para o servidor. Verifique as configurações do proxy. É altamente recomendado a instalação da extensão cURL do PHP.<br /><br />Terá de descarregar manualmente o ficheiro <a href="{$a->url}">{$a->url}</a>, copiá-lo para a pasta "{$a->dest}" no seu servidor e descompactá-lo.';
 $string['remotedownloadnotallowed'] = 'Não é permitido descarregar para este servidor  (o parâmetro allow_url_fopen está desativado).<br /><br />Terá que fazer descarregar o ficheiro <a href="{$a->url}">{$a->url}</a> manualmente, copiá-lo para a pasta "{$a->dest}" no servidor e descompactá-lo.';
 $string['reportnotavailable'] = 'Este tipo de relatório está disponível somente para a disciplina do site';
 $string['requirecorrectaccess'] = 'URL ou porta inválido';

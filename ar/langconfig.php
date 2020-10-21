@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['alphabet'] = 'أ،ب،ت،ث،ج،ح،خ،د،ذ،ر،ز،س،ش،ص،ض،ط،ظ،ع،غ،ف،ق،ك،ل،م،ن،هـ،و،ي،';
-$string['backupnameformat'] = 'نوع تنسيق ملف النسخة الإحتياطية';
+$string['backupnameformat'] = '%Y%m%d-%H%M';
 $string['dateintervaldayshoursmins'] = '%ad %hh %im';
 $string['decsep'] = '.';
 $string['firstdayofweek'] = '1';
@@ -56,6 +56,7 @@ $string['strftimetime'] = '%I:%M %p';
 $string['strftimetime12'] = '%I:%M %p';
 $string['strftimetime24'] = '%H:%M';
 $string['thisdirection'] = 'rtl';
+$string['thisdirectionvertical'] = 'btt';
 $string['thislanguage'] = 'عربي';
 $string['thislanguageint'] = 'Arabic';
 $string['thousandssep'] = ',';

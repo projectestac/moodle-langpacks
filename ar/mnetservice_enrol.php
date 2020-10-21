@@ -43,6 +43,6 @@ $string['privacy:metadata:mnetservice_enrol_enrolments:enroltype'] = 'نوع ا�
 $string['privacy:metadata:mnetservice_enrol_enrolments:hostid'] = 'مُعرَّف المضيف البعيد لشبكة مودل';
 $string['privacy:metadata:mnetservice_enrol_enrolments:remotecourseid'] = 'مُعرَّف المساق في المخدم البعيد';
 $string['privacy:metadata:mnetservice_enrol_enrolments:rolename'] = 'اسم الدور في المخدم البعيد';
-$string['privacy:metadata:mnetservice_enrol_enrolments:tableexplanation'] = 'خدمة الانضمام البعيد تخزن معلومات عن انضمامات المستخدمين المحليين في المساقات عند مضيفين بعيدين.';
+$string['privacy:metadata:mnetservice_enrol_enrolments:tableexplanation'] = 'خدمة الانضمام البعيد تخزن معلومات عن انضمامات المستخدمين المحليين في المساقات عند مضيفين بعيدين';
 $string['privacy:metadata:mnetservice_enrol_enrolments:userid'] = 'مُعرَّف المستخدم المحلي في هذا المخدم';
 $string['refetch'] = 'أعد إحضار الحالة المحدثة من المضيفين البعيدين';

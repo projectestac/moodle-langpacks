@@ -35,7 +35,7 @@ $string['autologinkeygenerationlockout'] = 'تم حظر إنشاء مفتاح ت
 تحتاج إلى الانتظار 6 دقائق بين الطلبات.';
 $string['autologinnotallowedtoadmins'] = 'لا يُسمح بتسجيل الدخول التلقائي لمشرفي الموقع.';
 $string['cachedef_plugininfo'] = 'هذا يخزن قائمة الملاحق مع إضافات الجوال';
-$string['clickheretolaunchtheapp'] = 'انقر هنا إذا لم يفتح التطبيق تلقائيًا.';
+$string['clickheretolaunchtheapp'] = 'أنقر هنا إذا لم يفتح التطبيق تلقائياً.';
 $string['configmobilecssurl'] = 'ملف CSS لتخصيص واجهة تطبيق الجوال.';
 $string['customlangstrings'] = 'سلاسل لغة مخصصة';
 $string['customlangstrings_desc'] = 'يمكن تخصيص الكلمات والعبارات المعروضة في التطبيق هنا. أدخل كل نص مخصص للغة في سطر جديد بصيغة: معرف النص، نص اللغة المخصصة ورمز اللغة، مفصولاً بينها بحرف الأنبوب. مثلاً:
@@ -43,7 +43,7 @@ $string['customlangstrings_desc'] = 'يمكن تخصيص الكلمات والع
 mm.user.student|Learner|en
 mm.user.student|Aprendiz|es
 </pre>
-للحصول على قائمة كاملة بمعرفات النصوص، انظر التوثيقات.';
+للحصول على قائمة كاملة بمعرفات النصوص، أنظر التوثيقات.';
 $string['custommenuitems'] = 'عناصر القائمة المخصصة';
 $string['custommenuitems_desc'] = 'يمكن إضافة عناصر إضافية إلى القائمة الرئيسية للتطبيق عن طريق تحديدها هنا. أدخل كل عنصر من عناصر القائمة المخصصة في سطر جديد بتنسيق: نص العنصر، الرابط، طريقة فتح الرابط، رمز اللغة (اختياري، لعرض العنصر لمستخدمي اللغة المحددة فقط)، مفصولاً بينها بأحرف الأنبوب.
 
@@ -102,8 +102,8 @@ $string['oauth2identityproviders'] = 'مزودو هوية OAuth 2';
 $string['offlineuse'] = 'استخدام بدون اتصال';
 $string['pluginname'] = 'أدوات تطبيق مودل';
 $string['pluginnotenabledorconfigured'] = 'الملحق غير مُمَكَّن أو غير مهيأ.';
-$string['privacy:metadata:core_userkey'] = 'مفاتيح المستخدم المستعملة لإنشاء مفتاح تسجيل الدخول التلقائي للمستخدم الحالي.';
-$string['privacy:metadata:preference:tool_mobile_autologin_request_last'] = 'تاريخ آخر طلب مفتاح تسجيل دخول تلقائي. بين كل طلب مطلوب 6 دقائق.';
+$string['privacy:metadata:core_userkey'] = 'مفاتيح المستخدم المستعملة لإنشاء مفتاح تسجيل الدخول التلقائي للمستخدم الحالي';
+$string['privacy:metadata:preference:tool_mobile_autologin_request_last'] = 'تاريخ آخر طلب مفتاح تسجيل دخول تلقائي. بين كل طلب مطلوب 6 دقائق';
 $string['readingthisemailgettheapp'] = 'أتريد قراءة هذا في البريد الإلكتروني؟ <a href="{$a}">قم بتنزيل تطبيق الجوال وتلقى الإشعارات على جهازك المحمول</a>.';
 $string['remoteaddons'] = 'الوظائف الإضافية عن بُعد';
 $string['responsivemainmenuitems'] = 'استجابة عناصر القائمة';

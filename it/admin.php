@@ -259,7 +259,7 @@ $string['configenablewsdocumentation'] = 'Abilita la generazione automatica dell
 $string['configerrorlevel'] = 'Imposta il numero di messaggi di errore di PHP che si desidera visualizzare. \'Normale\' è solitamente l\'opzione migliore.';
 $string['configexportlookahead'] = 'Giorni futuri da esportare:';
 $string['configexportlookback'] = 'Giorni passati da esportare:';
-$string['configextendedusernamechars'] = 'Gli utenti potranno utilizzare qualsiasi carattere per il proprio username (da notare che l\'impostazione non ha effetti sui loro nomi reali). L\'impostazione di default consente l\'uso dei soli caratteri alfanumerici minuscoli, carattere di sottolineatura (_), segno meno (-), punto (.) o il simbolo "at" (@).';
+$string['configextendedusernamechars'] = 'Gli utenti potranno utilizzare qualsiasi carattere per il proprio username. L\'impostazione di default consente l\'uso dei soli caratteri alfanumerici minuscoli, carattere di sottolineatura (_), segno meno (-), punto (.) e il simbolo "at" (@).';
 $string['configextramemorylimit'] = 'Alcuni script, come la ricerca globale, il backup/ripristino o il cron, richiedono maggiore memoria. Aumentare questo valore per siti di grandi dimensioni.';
 $string['configfilterall'] = 'Filtra tutte le stringhe, incluse le intestazioni, titoli, barre di navigazione ecc.
 E\' utile solo se si usa il filtro multilingua, in mancanza del quale si creerà solo carico supplementare sul sito senza vantaggi apprezzabili.';

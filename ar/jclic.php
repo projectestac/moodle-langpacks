@@ -26,3 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['attempts'] = 'محاولات';
+$string['avaluation_score'] = 'تحقيق هذه الدرجة العمومية';
+$string['maxgrade'] = 'الدرجات/النشاطات التي ينبغي تحقيقها';
+$string['score'] = 'الدرجة';

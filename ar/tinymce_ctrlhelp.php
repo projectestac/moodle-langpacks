@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['ctrlhelp:desc'] = 'CTRL + النقر بزر الماوس الأيمن لمزيد من الخيارات';
 $string['pluginname'] = 'CTRL + النقر بزر الماوس الأيمن المساعد';
-$string['privacy:metadata'] = 'المكوّن الإضافي Ctrl + TinyMCE الأيمن لا يخزن أي بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق Ctrl+right TinyMCE لا يخزن أي بيانات شخصية.';

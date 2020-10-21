@@ -251,11 +251,21 @@ $string['linking'] = 'Autoverlinkung';
 $string['mainglossary'] = 'Hauptglossar';
 $string['maxtimehaspassed'] = 'Die maximale Bearbeitungszeit für den Kommentar wurde überschritten! ({$a})';
 $string['modulename'] = 'Glossar';
-$string['modulename_help'] = 'Mit Glossaren erstellen Sie Wörterbücher oder FAQ-Listen. Zuerst legen Sie das Glossar an, danach tragen Sie die Begriffe und die Erläuterungen ein.
+$string['modulename_help'] = 'Das Glossar ermöglicht es den Teilnehmer/innen, eine Liste von Definitionen, wie ein Wörterbuch, zu erstellen und zu pflegen oder Ressourcen oder Informationen zu sammeln und zu organisieren. Zuerst legen Sie das Glossar an, danach werden die Begriffe und die Erläuterungen eingetragen.
 
-Glossare können von Trainer/innen eingestellt oder als Lernaktivität von Teilnehmer/innen erarbeitet werden.
+Trainer/innen können zulassen, dass Dateien an Glossareinträge angehängt werden. Angehängte Bilder werden im Eintrag angezeigt. Einträge können alphabetisch oder nach Kategorie, Datum oder Autor dargestellt oder durchsucht werden. Einträge können standardmäßig genehmigt werden oder müssen von einer/m Trainer/in genehmigt werden, bevor sie von allen angezeigt werden können.
 
-Tipp: Wenn die Autoverlinkung für Glossare aktiviert ist, werden Glossarbegriffe in allen Texten Ihres Kurses direkt verlinkt. Diese Funktion ist z.B. für Tests abschaltbar.';
+Tipp: Wenn die Autoverlinkung für Glossare aktiviert ist, werden Glossarbegriffe in allen Texten Ihres Kurses direkt verlinkt. Diese Funktion ist z.B. für Tests abschaltbar.
+
+Trainer/innen können Kommentare zu den Einträgen zulassen. Die Einträge können auch von Trainer/innen oder Teilnehmer/innen bewertet werden (Peer-Bewertung). Die Bewertungen können zu einer Endnote aggregiert werden, die in den Bewertungen festgehalten wird.
+
+Die Glossar-Aktivität hat viele Verwendungsmöglichkeiten, wie z.B.
+
+* Eine kollaborative Sammlung von Schlüsselbegriffen
+* Ein Bereich zum Kennenlernen, in welchem neue Teilnehmer/innen ihren Namen und ihre persönlichen Daten eingeben
+* Eine Ressource mit praktischen Tipps für good practices in einem Arbeitsgebiet
+* Ein Bereich zur gemeinsamen Sammlung von nützlichen Videos, Bildern oder Audiodateien
+* Eine Sammlung für die Repetition von Dingen, die Sie sich merken sollten';
 $string['modulenameplural'] = 'Glossare';
 $string['newentries'] = 'Neue Einträge im Glossar';
 $string['newglossary'] = 'Neues Glossar';

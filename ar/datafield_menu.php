@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'حقل قائمة الأوامر';
 $string['pluginname'] = 'القائمة';
-$string['privacy:metadata'] = 'لا يخزن  Menu field أي بيانات شخصية ، فهو يستخدم الجداول المحددة في mod_data.';
+$string['privacy:metadata'] = 'إن مكون حقل القائمة لا يخزن أي بيانات شخصية بحد ذاته، بل يستعمل الجداول المعرفة في mod_data.';

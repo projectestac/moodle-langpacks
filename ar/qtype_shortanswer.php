@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addmoreanswerblanks'] = 'أضف {no} خانات لإجابات إضافية';
+$string['addmoreanswerblanks'] = 'إضافة {no} إجابات أخرى';
 $string['answer'] = 'الجواب: {$a}';
 $string['answermustbegiven'] = 'عليك إدخال الإجابة إذا كانت هناك علامة أو إفادة.';
 $string['answerno'] = 'الجواب {$a}';

@@ -74,7 +74,7 @@ $string['messagetemplate_help'] = 'يتم إرسال رسالة إعلام لل�
 * الحدث {eventname}';
 $string['moduleinstance'] = 'العينة';
 $string['monitordisabled'] = 'تم تعطيل مراقبة الأحداث حاليًا.';
-$string['monitorenabled'] = 'تم تمكين مراقبة الأحداث حاليًا.';
+$string['monitorenabled'] = 'مراقبة الأحداث مُمكَّنة حالياً.';
 $string['monitor:managerules'] = 'إدارة قواعد مراقبة الحدث';
 $string['monitor:managetool'] = 'تمكين / تعطيل مراقبة الأحداث';
 $string['monitor:subscribe'] = 'الاشتراك في قواعد مراقبة الحدث';
@@ -85,22 +85,22 @@ $string['privacy:metadata:description'] = 'وصف القاعدة';
 $string['privacy:metadata:eventname'] = 'اسم مؤهل بالكامل لهذا الحدث';
 $string['privacy:metadata:frequency'] = 'تواتر الإخطارات';
 $string['privacy:metadata:historysummary'] = 'يخزن تاريخ رسالة الإخطارات المرسلة';
-$string['privacy:metadata:inactivedate'] = 'الفترة الزمنية ، بالأيام ، وبعد ذلك سيتم إزالة اشتراك غير نشط بالكامل';
-$string['privacy:metadata:lastnotificationsent'] = 'عندما تم إرسال إشعار آخر لهذا الاشتراك.';
-$string['privacy:metadata:messagesummary'] = 'يتم إرسال الإشعارات إلى نظام الرسائل.';
+$string['privacy:metadata:inactivedate'] = 'الفترة الزمنية، بالأيام، وبعد ذلك تتم إزالة الاشتراك غير النشط بالكامل';
+$string['privacy:metadata:lastnotificationsent'] = 'عندما تم إرسال إشعار آخر لهذا الاشتراك';
+$string['privacy:metadata:messagesummary'] = 'يتم إرسال الإشعارات إلى نظام الرسائل';
 $string['privacy:metadata:name'] = 'اسم القاعدة';
-$string['privacy:metadata:plugin'] = 'Frankenstlye اسم البرنامج المساعد';
-$string['privacy:metadata:rulessummary'] = 'هذا يخزن قواعد الشاشة.';
+$string['privacy:metadata:plugin'] = 'الاسم الفرانكستلي للملحق';
+$string['privacy:metadata:rulessummary'] = 'هذا يخزن قواعد المراقبة';
 $string['privacy:metadata:subscriptionssummary'] = 'يخزن اشتراكات المستخدم للقواعد المختلفة';
 $string['privacy:metadata:template'] = 'قالب الرسالة';
-$string['privacy:metadata:timecreatedrule'] = 'عندما تم إنشاء هذه القاعدة';
-$string['privacy:metadata:timecreatedsub'] = 'عندما تم إنشاء هذا الاشتراك';
-$string['privacy:metadata:timemodifiedrule'] = 'عندما تم تعديل هذه القاعدة آخر مرة';
-$string['privacy:metadata:timesent'] = 'عندما تم إرسال الرسالة';
-$string['privacy:metadata:timewindow'] = 'نافذة الوقت في الثوان';
-$string['privacy:metadata:userid'] = 'معرف المستخدم الذي أنشأ القاعدة.';
-$string['privacy:metadata:useridhistory'] = 'معرف المستخدم الذي تم إرسال هذا الإشعار إليه';
-$string['privacy:metadata:useridsub'] = 'معرف المشترك.';
+$string['privacy:metadata:timecreatedrule'] = 'متى تم إنشاء هذه القاعدة';
+$string['privacy:metadata:timecreatedsub'] = 'متى تم إنشاء هذا الاشتراك';
+$string['privacy:metadata:timemodifiedrule'] = 'متى تم تعديل هذه القاعدة آخر مرة';
+$string['privacy:metadata:timesent'] = 'متى تم إرسال الرسالة';
+$string['privacy:metadata:timewindow'] = 'نافذة الوقت بالثواني';
+$string['privacy:metadata:userid'] = 'مُعرَّف المستخدم الذي أنشأ القاعدة';
+$string['privacy:metadata:useridhistory'] = 'مُعرَّف المستخدم الذي تم إرسال هذا الإشعار إليه';
+$string['privacy:metadata:useridsub'] = 'مُعرَّف المشترك';
 $string['privacy:subscriptions'] = 'اشتراكات مراقب الأحداث الخاصة بي';
 $string['processevents'] = 'أحداث العملية';
 $string['ruleareyousure'] = 'هل أنت متأكد أنك تريد حذف القاعدة "{$a}"؟';

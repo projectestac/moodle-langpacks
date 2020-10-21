@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addinganewrole'] = 'إضافة دور جديد';
 $string['addrole'] = 'إضافة دور جديد';
-$string['advancedoverride'] = 'تخطي المتقدم للدور';
+$string['advancedoverride'] = 'التجاوز المتقدم للأدوار';
 $string['allow'] = 'سماح';
 $string['allowassign'] = 'السماح بتعيين الأدوار';
 $string['allowed'] = 'مسموح';
@@ -43,28 +43,28 @@ $string['analytics:listinsights'] = 'استعراض الرؤى';
 $string['analytics:listowninsights'] = 'استعراض رؤاه الخاصة';
 $string['analytics:managemodels'] = 'إدارة النماذج';
 $string['archetype'] = 'النموذج الأصلي للدور';
-$string['archetypecoursecreator'] = 'نموذج أصل: منشيء مقرر';
-$string['archetypeeditingteacher'] = 'نموذج أصل: مدرس (يحرر)';
-$string['archetypefrontpage'] = 'نموذج أصل: مستخدم معروف على الصفحة الرئيسية';
+$string['archetypecoursecreator'] = 'نموذج أصل: منشيء المساق';
+$string['archetypeeditingteacher'] = 'نموذج أصل: معلم (يحرر)';
+$string['archetypefrontpage'] = 'نموذج أصل: مستخدم مصادق عليه في الصفحة الأمامية';
 $string['archetypeguest'] = 'نموذج أصل: ضيف';
 $string['archetype_help'] = 'النموذج الأصلي للدور يحدد الصلاحيات عند إعادة تعيين الدور إلى وضعه الافتراضي. هو أيضاً يحدد أي صلاحيات جديدة للدور عند ترقية الموقع.';
 $string['archetypemanager'] = 'نموذج أصل: مدير';
 $string['archetypestudent'] = 'نموذج أصل: طالب';
-$string['archetypeteacher'] = 'نموذج أصل: مدرس (لا يحرر)';
-$string['archetypeuser'] = 'نموذج أصل: مستخدم معروف';
-$string['assignanotherrole'] = 'عيين دور اخر';
-$string['assignedroles'] = 'الدوار التي تم تعيينها';
+$string['archetypeteacher'] = 'نموذج أصل: معلم (لا يحرر)';
+$string['archetypeuser'] = 'نموذج أصل: مستخدم مصادق عليه';
+$string['assignanotherrole'] = 'تعيين دور آخر';
+$string['assignedroles'] = 'الأدوار التي تم تعيينها';
 $string['assignerror'] = 'وقع خطأ عند تعيين دور {$a->role} إلى المستخدم {$a->user}.';
 $string['assignglobalroles'] = 'تعيين أدوار النظام';
 $string['assignmentcontext'] = 'سياق التعيين';
 $string['assignmentoptions'] = 'خيارات التعيين';
-$string['assignrole'] = 'عيين دور';
-$string['assignrolenameincontext'] = 'عين دور \'{$a->role}\' في {$a->context}';
+$string['assignrole'] = 'تعيين الدور';
+$string['assignrolenameincontext'] = 'تعيين دور \'{$a->role}\' في {$a->context}';
 $string['assignroles'] = 'تعيين الأدوار';
 $string['assignroles_help'] = 'عند تعيين الدور إلى مستخدم ضمن سياق، أنت تمنحه الصلاحيات المضمنة في ذلك الدور عند السياق الحالي وكل السياقات التابعة له. على سبيل المثال، إذا تم تعيين دور الطالب لمستخدم ما في مساق، سيكون له أيضاً دور الطالب في كل النشاطات والكتل داخل ذلك المساق.';
-$string['assignrolesin'] = 'تعيين دور في {$a}';
-$string['assignrolesrelativetothisuser'] = 'عيِّن الأدوار المتعلقة بهذا المستخدم';
-$string['backtoallroles'] = 'العودة ‘لى قائمة كل الأدوار';
+$string['assignrolesin'] = 'تعيين الأدوار في {$a}';
+$string['assignrolesrelativetothisuser'] = 'تعيين الأدوار المتعلقة بهذا المستخدم';
+$string['backtoallroles'] = 'عودة إلى قائمة كل الأدوار';
 $string['backup:anonymise'] = 'إخفاء هويات المستخدمين عند حفظ بياناتهم احتياطياً';
 $string['backup:backupactivity'] = 'الحفظ الاحتياطي للأنشطة';
 $string['backup:backupcourse'] = 'الحفظ الاحتياطي للمساقات';
@@ -97,15 +97,15 @@ $string['blog:viewdrafts'] = 'معاينة مسودة مدخلات المدون�
 $string['calendar:manageentries'] = 'إدارة أي مدخلات في التقويم';
 $string['calendar:managegroupentries'] = 'إدارة المدخلات الجماعية في التقويم';
 $string['calendar:manageownentries'] = 'إدارة مدخلات التقويم العائدة له';
-$string['capabilities'] = 'قدرات';
-$string['capability'] = 'قدرة';
+$string['capabilities'] = 'الإمكانيات';
+$string['capability'] = 'الإمكانية';
 $string['category:create'] = 'أنشاء تصنيفات ';
 $string['category:delete'] = 'حذف تصنيفات ';
 $string['category:manage'] = 'إدارة التصنيفات';
 $string['category:update'] = 'تحديث التصنيفات ';
 $string['category:viewcourselist'] = 'معاينة قائمة المساقات غير المُنضَمِّ إليها';
 $string['category:viewhiddencategories'] = 'معاينة التصنيفات المخفية';
-$string['category:visibility'] = 'عاين التصنيفات المخفية';
+$string['category:visibility'] = 'مشاهدة التصنيفات المخفية';
 $string['checkglobalpermissions'] = 'فحص صلاحيات النظام';
 $string['checkpermissions'] = 'فحص الصلاحيات';
 $string['checkpermissionsin'] = 'فحص الصلاحيات في [{$a}]';
@@ -242,10 +242,10 @@ $string['eventroledeleted'] = 'تم حذف الدور';
 $string['eventroleunassigned'] = 'تم إلغاء تعيين الدور';
 $string['eventroleupdated'] = 'تم تحديث الدور';
 $string['existingadmins'] = 'مشرفو الموقع الحاليون';
-$string['existingusers'] = '{$a} المستخدمين الموجودين';
+$string['existingusers'] = '{$a} من المستخدمين موجودون';
 $string['explanation'] = 'تفسير';
 $string['export'] = 'تصدير';
-$string['extusers'] = 'المستخدمين الموجودين';
+$string['extusers'] = 'المستخدمون الموجودون';
 $string['extusersmatching'] = 'المستخدمون الموجودون المطابقون \'{$a}\'';
 $string['filter:manage'] = 'إدارة إعدادات المنقحات المحلية';
 $string['frontpageuser'] = 'المستخدم المصادق عليه عند الصفحة الرئيسية';
@@ -293,7 +293,7 @@ $string['mainadmin'] = 'المشرف الرئيسي';
 $string['mainadminset'] = 'حدد المشرف الرئيسي';
 $string['manageadmins'] = 'إدارة مشرفي الموقع';
 $string['manager'] = 'مدير';
-$string['managerdescription'] = 'بمكن للمشرفين الوصول إلى المساقات والتعديل فيها، لكنهم عادة ما لا يكونون مشاركين فيها.';
+$string['managerdescription'] = 'يمكن للمشرفين الوصول إلى المساقات والتعديل فيها، لكنهم عادة ما لا يكونون مشاركين فيها.';
 $string['manageroles'] = 'إدارة الأدوار';
 $string['maybeassignedin'] = 'أنواع السياقات التي يمكن فيها إسناد هذا الدور';
 $string['morethan'] = 'أكثر من {$a}';
@@ -301,8 +301,8 @@ $string['multipleroles'] = 'أدوار متعددة';
 $string['my:configsyspages'] = 'تهيئة قوالب النظام لصفحات دفة القيادة';
 $string['my:manageblocks'] = 'إدارة كتل صفحة دفة القيادة';
 $string['neededroles'] = 'الأدوار ذات الصلاحية';
-$string['nocapabilitiesincontext'] = 'لا يوجد قدرات متاحة في هذا السياق';
-$string['noneinthisx'] = 'لا أحد في هذا العنصر من نوع {$a}';
+$string['nocapabilitiesincontext'] = 'لا توجد إمكانيات متاحة في هذا السياق';
+$string['noneinthisx'] = 'لا أحد من نوع {$a}';
 $string['noneinthisxmatching'] = 'لا مستخدمين يطابقون \'{$a->search}\' في هذا {$a->contexttype}';
 $string['norole'] = 'بلا دور';
 $string['noroleassignments'] = 'هذا المستخدم لا يمتلك أي دور في أي مكان من هذا الموقع.';
@@ -319,11 +319,11 @@ $string['overridepermissions'] = 'تجاوز الصلاحيات';
 $string['overridepermissionsforrole'] = 'تجاوز صلاحيات دور \'{$a->role}\' في {$a->context}';
 $string['overridepermissions_help'] = 'تجاوز الصلاحيات يسمح بتمكين أو منع إمكانيات مختارة في سياق معين.';
 $string['overridepermissionsin'] = 'تجاوز الصلاحيات في {$a}';
-$string['overrideroles'] = 'تخطي  الأدوار';
+$string['overrideroles'] = 'تجاوز الأدوار';
 $string['overriderolesin'] = 'تجاوز الأدوار في {$a}';
-$string['overrides'] = 'تخطيات';
+$string['overrides'] = 'التجاوزات';
 $string['overridesbycontext'] = 'التجاوزات (حسب السياق)';
-$string['permission'] = 'صلاحية';
+$string['permission'] = 'الصلاحية';
 $string['permission_help'] = 'الصلاحيات هي إعدادات الإمكانيات. هناك 4 خيارات:
 
 * غير مطروق
@@ -332,20 +332,20 @@ $string['permission_help'] = 'الصلاحيات هي إعدادات الإمك�
 * الحظر - الصلاحية مرفوضة بالكامل ولا يمكن تجاوزها عند أي سياق أدنى (أكثر تحديداً)';
 $string['permissions'] = 'الصلاحيات';
 $string['permissionsforuser'] = 'صلاحيات المستخدم {$a}';
-$string['permissionsincontext'] = 'صلاحيات للسياق [{$a}]';
+$string['permissionsincontext'] = 'الصلاحيات في {$a}';
 $string['portfolio:export'] = 'التصدير إلى المحافظ';
 $string['potentialusers'] = '{$a} مستخدمين محتملين';
 $string['potusers'] = 'المستخدمون المحتملون';
-$string['potusersmatching'] = 'المستخدمون المحتملين المطابقون \'{$a}\'‏';
+$string['potusersmatching'] = 'المستخدمون المحتملون الذين يطابقون \'{$a}\'‏';
 $string['prevent'] = 'منع';
-$string['privacy:metadata:preference:showadvanced'] = 'معاملة زر تبديل النمط المتقدم.';
+$string['privacy:metadata:preference:showadvanced'] = 'معاملة زر تبديل النمط المتقدم';
 $string['privacy:metadata:role_assignments'] = 'تعيينات الدور';
 $string['privacy:metadata:role_assignments:component'] = 'الملحق المسؤول عن تعيين الدور، يكون فارغاً عند التعيين اليدوي';
 $string['privacy:metadata:role_assignments:itemid'] = 'مُعرَّف عينة الانضمام/المصادقة المسؤولة عن تعيين الدور هذا';
 $string['privacy:metadata:role_assignments:modifierid'] = 'مُعرَّف المستخدم الذي أنشأ أو عدل تعيين الدور';
 $string['privacy:metadata:role_assignments:roleid'] = 'مُعرَّف الدور';
-$string['privacy:metadata:role_assignments:tableexplanation'] = 'هذا الجدول يخزن الأدوار المعينة عند كل سياق.';
-$string['privacy:metadata:role_assignments:timemodified'] = 'تاريخ إنشاء تعيين الدور أو تعديله.';
+$string['privacy:metadata:role_assignments:tableexplanation'] = 'هذا الجدول يخزن الأدوار المعينة عند كل سياق';
+$string['privacy:metadata:role_assignments:timemodified'] = 'تاريخ إنشاء تعيين الدور أو تعديله';
 $string['privacy:metadata:role_assignments:userid'] = 'مُعرَّف المستخدم';
 $string['privacy:metadata:role_capabilities'] = 'إمكانيات الدور';
 $string['privacy:metadata:role_capabilities:capability'] = 'اسم الإمكانية';
@@ -355,8 +355,8 @@ $string['privacy:metadata:role_capabilities:roleid'] = 'مُعرَّف الدو�
 $string['privacy:metadata:role_capabilities:tableexplanation'] = 'الإمكانيات وإمكانيات التجاوز لدور معين ضمن سياق معين';
 $string['privacy:metadata:role_capabilities:timemodified'] = 'تاريخ إنشاء الإمكانية أو تعديلها';
 $string['privacy:metadata:role_cohortroles'] = 'الأدوار إلى الفوج';
-$string['prohibit'] = 'تحريم';
-$string['prohibitedroles'] = 'تم تحريمه';
+$string['prohibit'] = 'حظر';
+$string['prohibitedroles'] = 'محظور';
 $string['question:add'] = 'إضافة أسئلة جديدة';
 $string['question:config'] = 'تهيئة أنواع الأسئلة';
 $string['question:editall'] = 'تحرير كل الأسئلة';
@@ -387,16 +387,16 @@ $string['restore:rolldates'] = 'تدوير تواريخ تهيئة النشاط 
 $string['restore:uploadfile'] = 'رفع الملفات إلى مناطق الحفظ الاحتياطي';
 $string['restore:userinfo'] = 'استعادة بيانات المستخدم';
 $string['restore:viewautomatedfilearea'] = 'استعادة المساقات من الحفظ الاحتياطي التلقائي';
-$string['risks'] = 'مجازفات';
+$string['risks'] = 'المخاطر';
 $string['roleallowheader'] = 'السماح بدور:';
 $string['roleallowinfo'] = 'إختر الدور الذي تريد إضافته إلى قائمة الإدوار المسموح لها في السياق "{$a->context}"، بالإمكانية "{$a->cap}":';
 $string['role:assign'] = 'تعيين الأدوار للمستخدمين';
 $string['roleassignments'] = 'تعيين الدور';
 $string['roledefinitions'] = 'تعريف الدور';
-$string['rolefullname'] = 'الاسم';
+$string['rolefullname'] = 'تسمية الدور';
 $string['roleincontext'] = '{$a->role} في {$a->context}';
-$string['role:manage'] = 'إنشاء وإدارة  الأدوار';
-$string['role:override'] = 'تجاوز صلاحيات الأخرين';
+$string['role:manage'] = 'إنشاء وإدارة الأدوار';
+$string['role:override'] = 'تجاوز صلاحيات الآخرين';
 $string['roleprohibitheader'] = 'حظر الدور';
 $string['roleprohibitinfo'] = 'إختر الدور الذي تريد إضافته إلى قائمة الأدوار المحظور لها في السياق {$a->contect}، الإمكانية {$a->cap}:';
 $string['rolerepreset'] = 'استعمال الضبط المسبق للدور';
@@ -407,7 +407,7 @@ $string['rolerisks'] = 'مخاطر الدور';
 $string['roles'] = 'الأدوار';
 $string['role:safeoverride'] = 'تجاوز الصلاحيات الآمنة للآخرين';
 $string['roleselect'] = 'إختر الدور';
-$string['rolesforuser'] = 'أدوار المستخدم: {$a}';
+$string['rolesforuser'] = 'أدوار المستخدم {$a}';
 $string['roles_help'] = 'الدور هو مجموعة من الصلاحيات المُعرَّفة على مستوى النظام بأكمله والتي يمكنك تعيينها إلى مستخدمين معينين ضمن سياقات معينة.';
 $string['roleshortname'] = 'الاسم المختصر';
 $string['roleshortname_help'] = 'الاسم المختصر للدور هو مُعرَّف واطئ المستوى ينبغي أن تقتصر حروفه على الأرقام والمحارف اللاتينية بترميز ASCII. لا تقم بتغيير الأسماء المختصرة للأدوار القياسية.';
@@ -420,7 +420,7 @@ $string['selectanotheruser'] = 'إختر مستخدماً آخر';
 $string['selectauser'] = 'إختر المستخدم';
 $string['selectrole'] = 'اختر دور';
 $string['showallroles'] = 'أظهار جميع الدوار';
-$string['showthisuserspermissions'] = 'أظهر صلاحيات هذا المستخدم';
+$string['showthisuserspermissions'] = 'إظهار صلاحيات هذا المستخدم';
 $string['site:accessallgroups'] = 'الوصول إلى كل المجموعات';
 $string['siteadministrators'] = 'مشرفو الموقع';
 $string['site:approvecourse'] = 'الموافقة على إنشاء المساق';
@@ -429,7 +429,7 @@ $string['site:config'] = 'تغيير إعدادات الموقع';
 $string['site:configview'] = 'معاينة شجرة إشراف الموقع (لكن ليس كل الصفحات فيه)';
 $string['site:deleteanymessage'] = 'حذف أي رسائل في الموقع';
 $string['site:deleteownmessage'] = 'حذف الرسائل المرسلة إلى المستخدم أو المرسلة منه';
-$string['site:doanything'] = 'السماح بالقيام عمل كل شئ';
+$string['site:doanything'] = 'مسموح له بعمل أي شيء';
 $string['site:doclinks'] = 'إظهار الروابط لوثائق خارج الموقع';
 $string['site:forcelanguage'] = 'تجاوز لغة المساق';
 $string['site:import'] = 'استيراد مساقات أخرى إلى المساق';

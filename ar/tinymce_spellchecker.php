@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'المدقق الإملائي الموروث';
-$string['privacy:metadata'] = 'لا يخزن المكون الإضافي The TinyMCE Legacy spell checker  أيّ بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق التدقيق الإملائي القديم في TinyMCE لا يخزن أيّ بيانات شخصية.';

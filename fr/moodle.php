@@ -1747,6 +1747,7 @@ $string['search'] = 'Rechercher';
 $string['searchagain'] = 'Rechercher de nouveau';
 $string['searchbyemail'] = 'Récupération par adresse de courriel';
 $string['searchbyusername'] = 'Récupération par nom d\'utilisateur';
+$string['searchcoursecategories'] = 'Rechercher les catégories';
 $string['searchcourses'] = 'Rechercher des cours';
 $string['search_help'] = 'Pour une recherche simple d\'un ou de plusieurs mots n\'importe où dans le texte, il suffit de les taper, en les séparant par des espaces. Les mots de moins de 3 caractères sont ignorés.
 

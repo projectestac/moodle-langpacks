@@ -27,6 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['attempt'] = 'محاولة';
 $string['attempts'] = 'محاولات';
+$string['enableRightClick'] = 'تمكين النقر بزر الفأرة الأيمن';
+$string['interfaceoptionsgrp'] = 'واجهة المستخدم';
 $string['modulename'] = 'جيوجبرا';
 $string['modulenameplural'] = 'جيوجبرا';
 $string['pluginname'] = 'جيوجبرا';

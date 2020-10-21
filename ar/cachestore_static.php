@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'خبأ الطلبات الثابتة';
-$string['privacy:metadata'] = 'يقوم المكون الإضافي Static request cachestore  بتخزين بعض البيانات ، و لكن هذا موجود فقط طوال عمر طلب HTTP الواحد.';
+$string['pluginname'] = 'خبء الطلبات الثابتة';
+$string['privacy:metadata'] = 'يقوم ملحق مخزن خبء الطلب الثابت بتخزين بعض البيانات، ولكنها تكون حاضرة فقط خلال عمر طلبية HTTP واحدة.';

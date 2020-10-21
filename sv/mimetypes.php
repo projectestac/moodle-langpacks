@@ -40,6 +40,7 @@ $string['archive'] = 'Arkiv ({$a->EXT})';
 $string['audio'] = 'Ljudfil ({$a->EXT})';
 $string['default'] = '{$a->mimetype}';
 $string['document/unknown'] = 'fil';
+$string['group:optimised_image'] = 'Bildfiler som ska optimeras, som badges';
 $string['group:web_image'] = 'Bildfiler som används på webben';
 $string['image'] = 'Bild ({$a->MIMETYPE2})';
 $string['text/html'] = 'HTML-dokument';

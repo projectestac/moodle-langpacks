@@ -57,6 +57,7 @@ $string['cannotdownload'] = 'Não é possível descarregar este ficheiro';
 $string['cannotdownloaddir'] = 'Não é possível descarregar esta pasta';
 $string['cannotinitplugin'] = 'A invocação da função plugin_init falhou';
 $string['cannotunzipcontentunreadable'] = 'Não é possível descompactar este arquivo porque o conteúdo do arquivo não pode ser lido.';
+$string['cannotunzipextractfileerror'] = 'Não é possível descompactar este arquivo porque um, ou mais, dos seus ficheiros não podem ser lidos.';
 $string['cannotunzipquotaexceeded'] = 'Não é possível descompactar este arquivo porque o tamanho máximo permitido nesta área de rascunho será excedido.';
 $string['choosealink'] = 'Escolha uma hiperligação...';
 $string['chooselicense'] = 'Tipo de licença:';

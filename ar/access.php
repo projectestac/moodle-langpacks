@@ -41,6 +41,6 @@ $string['skipa'] = 'تخطي {$a}';
 $string['skipblock'] = 'تجاوز كتلة';
 $string['skipnavigation'] = 'تجاوز قائمة التصفح';
 $string['skipto'] = 'التخطي إلى {$a}';
-$string['tocontent'] = 'تخطي إلى المحتوى الرئيسي';
+$string['tocontent'] = 'تخطى إلى المحتوى الرئيسي';
 $string['tonavigation'] = 'الذهاب إلى قائمة التصفح';
 $string['youarehere'] = 'أنت هنا';

@@ -49,7 +49,7 @@ $string['errorchapter'] = 'خطأ في قراءة فصل من فصول الكت�
 $string['eventchaptercreated'] = 'تم إنشاء الفصل';
 $string['eventchapterdeleted'] = 'تم حذف الفصل';
 $string['eventchapterupdated'] = 'تم تحديث الفصل';
-$string['eventchapterviewed'] = 'تم استعراض الفصل';
+$string['eventchapterviewed'] = 'تمت معاينة الفصل';
 $string['hidechapter'] = 'إخفاء الفصل "{$a}"';
 $string['indicator:cognitivedepth'] = 'الكتاب معرفياً';
 $string['indicator:cognitivedepthdef'] = 'الكتاب معرفياً';
@@ -99,7 +99,7 @@ $string['page-mod-book-x'] = 'أي صفحة لوحدة كتاب';
 $string['pluginadministration'] = 'إدارة الكتاب';
 $string['pluginname'] = 'الكتاب';
 $string['previouschapter'] = 'الفصل السابق';
-$string['privacy:metadata'] = 'وحدة book activity module  لا تخزن أيّ بيانات شخصية.';
+$string['privacy:metadata'] = 'وحدة مورد الكتاب لا تخزن أيّ بيانات شخصية.';
 $string['removeallbooktags'] = 'إزالة جميع علامات الكتاب';
 $string['search:activity'] = 'الكتاب - معلومات المورد';
 $string['search:chapter'] = 'الكتاب - الفصول';

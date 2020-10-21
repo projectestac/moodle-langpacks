@@ -29,8 +29,8 @@ $string['actionsforgraderinterface'] = 'إجراءات واجهة المقيِّ
 $string['actionsforpost'] = 'إجراءات النشر';
 $string['activityoverview'] = 'هناك منشورات جديدة في المنتدى';
 $string['addanewdiscussion'] = 'أضف موضوعاً جديداً للمناقشة';
-$string['addanewquestion'] = 'أضف سؤال جديد';
-$string['addanewtopic'] = 'أضف موضوع جديد';
+$string['addanewquestion'] = 'إضافة سؤال جديد';
+$string['addanewtopic'] = 'إضافة موضوع جديد';
 $string['addtofavourites'] = 'إبدأ هذه المناقشة';
 $string['advancedsearch'] = 'بحث متقدم';
 $string['alldiscussions'] = 'كل المناقشات';
@@ -57,7 +57,7 @@ $string['authorreplyingtoauthor'] = '{$a->respondant} يرد على {$a->author}
 $string['availability'] = 'التوقيتات';
 $string['blockafter'] = 'عتبة النشر للمنع';
 $string['blockafter_help'] = 'هذا الإعداد يحدد العدد الأقصى لمنشورات الطلاب في المنتدى خلال فترة زمنية محددة. المستخدمون الذين يتمتعون بالإمكانية mod/forum:postwithoutthrottling هم معفون من عتبة النشر.';
-$string['blockperiod'] = 'فترة المنع الزمنية';
+$string['blockperiod'] = 'الفترة الزمنية للمنع';
 $string['blockperioddisabled'] = 'لا تمنع';
 $string['blockperiod_help'] = 'يمكن منع الطلاب من النشر إذا وصلت منشوراتهم في المنتدى إلى عدد محدد ضمن فترة زمنية معينة. المستخدمون الذين يتمتعون بالإمكانية mod/forum:postwithoutthrottling هم معفون من عتبة النشر.';
 $string['blogforum'] = 'منتدى قياسي يظهر بشكل مدونة';
@@ -129,7 +129,7 @@ $string['configmanydiscussions'] = 'الحد الاقصى لعدد للمناق�
 $string['configmaxattachments'] = 'أقصى عدد من المرفقات إفتراضياً يُسمح به لكل منشور.';
 $string['configmaxbytes'] = 'الحجم الافتراضي الاقصى لجميع مرفقات المنتدى في هذا الموقع (عرضة لمحددات المساق وبعض الإعدادات الإخرى)';
 $string['configoldpostdays'] = 'بعد كم يوم يكمن اعتبار المشاركات القديم على أنها مقرؤة';
-$string['configreplytouser'] = 'هل يجب تضميين عنوان البريد الإلكتروني الخاص بالمشارك في المنتدى عند إرسال المشاركة بالبريد الإلكتروني؟ يتستطع المستخدمون من خلال الخيارات المتوفرة في صفحة السير الذاتية جعل عناوين بريدهم سرية حتى لو تم أعداد هذه الخدمة بـ (نعم)';
+$string['configreplytouser'] = 'هل ينبغي تضمين عنوان البريد الإلكتروني الخاص بالمشارك في المنتدى عند إرسال المشاركة بالبريد الالكتروني؟ هذا سيسمح لمتلقي الرسالة بالرد على صاحب المشاركة شخصياً عبر البريد الالكتروني بدلاً من استعمال المنتدى. حتى لو تم ضبطه على \'نعم\'، يستطيع المستخدمون من خلال الخيارات المتاحة في ملفهم الشخصي جعل عناوين بريدهم سرية.';
 $string['configrssarticlesdefault'] = 'إذا كانت خدمة مغذيات الأخبار مُمَكَّنة، فهذا الإعداد يحدد العدد الافتراضي للمقالات (إما مناقشات أو منشورات).';
 $string['configrsstypedefault'] = 'إذا كانت خدمة مغذيات الأخبار مُمَكَّنة، فهذا الإعداد يحدد نوع النشاط الافتراضي.';
 $string['configshortpost'] = 'أي مقالة تحث هذا الحد (بدون إضافة HTML)  تعتبر قصيره';
@@ -555,57 +555,57 @@ $string['privacy:digesttypenone'] = 'لا نحتفظ بأي بيانات تتع�
 $string['privacy:digesttypepreference'] = 'لقد اخترتَ تلقي هذا النوع من إيجاز المنتدى: "{$a->type}".';
 $string['privacy:discussionsubscriptionpreference'] = 'لقد اخترتَ هذا التفضيل من الاشتراك في المناقشات لهذا المنتدى: "{$a->preference}".';
 $string['privacy:metadata:core_rating'] = 'إن المنتدى يستعمل نظام التقييم الفرعي لدعم تقييم المنشورات.';
-$string['privacy:metadata:core_tag'] = 'إن المنتدى يستعمل نظام الوسوم الفرعي لدعم وضع الوسوم في المنشورات.';
-$string['privacy:metadata:forum_digests'] = 'معلومات عن تفضيلات الإيجاز لكل منتدى.';
-$string['privacy:metadata:forum_digests:forum'] = 'المنتدى المشترَك فيه.';
-$string['privacy:metadata:forum_digests:maildigest'] = 'تفضيل الإيجاز.';
-$string['privacy:metadata:forum_digests:userid'] = 'مُعرَّف المستخدم ذي تفضيل الإيجاز.';
+$string['privacy:metadata:core_tag'] = 'إن المنتدى يستعمل نظام الوسوم الفرعي لدعم وضع الوسوم في المنشورات';
+$string['privacy:metadata:forum_digests'] = 'معلومات عن تفضيلات الإيجاز لكل منتدى';
+$string['privacy:metadata:forum_digests:forum'] = 'المنتدى المشترَك فيه';
+$string['privacy:metadata:forum_digests:maildigest'] = 'تفضيل الإيجاز';
+$string['privacy:metadata:forum_digests:userid'] = 'مُعرَّف المستخدم ذي تفضيل الإيجاز';
 $string['privacy:metadata:forum_discussions'] = 'معلومات عن مناقشات المنتدى الفردية التي أنشأها المستخدم';
 $string['privacy:metadata:forum_discussions:assessed'] = 'TODOD - ماذا يخزن هذا الحقل';
 $string['privacy:metadata:forum_discussions:name'] = 'اسم المناقشة، كما اختاره المؤلف.';
-$string['privacy:metadata:forum_discussions:timemodified'] = 'وقت آخر تعديل في المناقشة.';
+$string['privacy:metadata:forum_discussions:timemodified'] = 'وقت آخر تعديل في المناقشة';
 $string['privacy:metadata:forum_discussion_subs'] = 'معلومات عن الاشتراكات في مناقشات المنتدى الفردية';
-$string['privacy:metadata:forum_discussion_subs:discussionid'] = 'مُعرَّف المناقشة التي تم الاشتراك فيها.';
-$string['privacy:metadata:forum_discussion_subs:preference'] = 'وقت بدء الاشتراك.';
-$string['privacy:metadata:forum_discussion_subs:userid'] = 'مُعرَّف المستخدم ذي اشتراك المناقشة.';
-$string['privacy:metadata:forum_discussions:userid'] = 'مُعرَّف المستخدم الذي أنشأ المناقشة.';
-$string['privacy:metadata:forum_discussions:usermodified'] = 'مُعرَّف المستخدم الأخير الذي عدَّل المناقشة بطريقة ما.';
+$string['privacy:metadata:forum_discussion_subs:discussionid'] = 'مُعرَّف المناقشة التي تم الاشتراك فيها';
+$string['privacy:metadata:forum_discussion_subs:preference'] = 'وقت بدء الاشتراك';
+$string['privacy:metadata:forum_discussion_subs:userid'] = 'مُعرَّف المستخدم ذي اشتراك المناقشة';
+$string['privacy:metadata:forum_discussions:userid'] = 'مُعرَّف المستخدم الذي أنشأ المناقشة';
+$string['privacy:metadata:forum_discussions:usermodified'] = 'مُعرَّف المستخدم الأخير الذي عدَّل المناقشة بطريقة ما';
 $string['privacy:metadata:forum_grades'] = 'بيانات العلامة للمنتدى';
 $string['privacy:metadata:forum_grades:forum'] = 'المنتدى الذي تم منح علاماته';
 $string['privacy:metadata:forum_grades:grade'] = 'العلامة الممنوحة';
 $string['privacy:metadata:forum_grades:userid'] = 'المستخدم الذي تم منحه العلامة';
-$string['privacy:metadata:forum_posts'] = 'معلومات عن تفضيلات الإيجاز لكل منتدى.';
-$string['privacy:metadata:forum_posts:created'] = 'وقت إنشاء المنشور.';
-$string['privacy:metadata:forum_posts:discussion'] = 'المناقشة التي فيها المنشور.';
-$string['privacy:metadata:forum_posts:message'] = 'رسالة منشور المنتدى.';
-$string['privacy:metadata:forum_posts:modified'] = 'وقت آخر تعديل في المنشور.';
-$string['privacy:metadata:forum_posts:parent'] = 'المنشور ذو الرتبة الأعلى الذي تم الرد عليه.';
-$string['privacy:metadata:forum_posts:privatereplyto'] = 'مُعرَّف المستخدم الذي تم إرسال هذا الرد إليه.';
-$string['privacy:metadata:forum_posts:subject'] = 'موضوع منشور المنتدى.';
-$string['privacy:metadata:forum_posts:totalscore'] = 'رسالة منشور المنتدى.';
-$string['privacy:metadata:forum_posts:userid'] = 'مُعرَّف المستخدم الذي ألَّف منشور المنتدى.';
+$string['privacy:metadata:forum_posts'] = 'معلومات عن تفضيلات الإيجاز لكل منتدى';
+$string['privacy:metadata:forum_posts:created'] = 'وقت إنشاء المنشور';
+$string['privacy:metadata:forum_posts:discussion'] = 'المناقشة التي فيها المنشور';
+$string['privacy:metadata:forum_posts:message'] = 'رسالة منشور المنتدى';
+$string['privacy:metadata:forum_posts:modified'] = 'وقت آخر تعديل في المنشور';
+$string['privacy:metadata:forum_posts:parent'] = 'المنشور ذو الرتبة الأعلى الذي تم الرد عليه';
+$string['privacy:metadata:forum_posts:privatereplyto'] = 'مُعرَّف المستخدم الذي تم إرسال هذا الرد إليه';
+$string['privacy:metadata:forum_posts:subject'] = 'موضوع منشور المنتدى';
+$string['privacy:metadata:forum_posts:totalscore'] = 'رسالة منشور المنتدى';
+$string['privacy:metadata:forum_posts:userid'] = 'مُعرَّف المستخدم الذي ألَّف منشور المنتدى';
 $string['privacy:metadata:forum_queue'] = 'السجل المؤقت للمنشورات التي سيتم إرسالها بريدياً بشكل موجز';
 $string['privacy:metadata:forum_queue:discussionid'] = 'مُعرَّف مناقشة المنتدى';
 $string['privacy:metadata:forum_queue:postid'] = 'مُعرَّف منشور المنتدى';
 $string['privacy:metadata:forum_queue:timemodified'] = 'وقت تعديل المنشور الأصلي';
 $string['privacy:metadata:forum_queue:userid'] = 'المستخدم الذي ينبغي إشعاره بشأن المنشور';
-$string['privacy:metadata:forum_read'] = 'معلومات عن أي من المنشورات تمت قراءتها من قبل المستخدم.';
-$string['privacy:metadata:forum_read:discussionid'] = 'المناقشة التي يوجد فيها المنشور.';
-$string['privacy:metadata:forum_read:firstread'] = 'وقت أول قراءة للمنشور.';
-$string['privacy:metadata:forum_read:lastread'] = 'وقت أحدث قراءة للمنشور.';
+$string['privacy:metadata:forum_read'] = 'معلومات عن أي من المنشورات تمت قراءتها من قبل المستخدم';
+$string['privacy:metadata:forum_read:discussionid'] = 'المناقشة التي يوجد فيها المنشور';
+$string['privacy:metadata:forum_read:firstread'] = 'وقت أول قراءة للمنشور';
+$string['privacy:metadata:forum_read:lastread'] = 'وقت أحدث قراءة للمنشور';
 $string['privacy:metadata:forum_read:postid'] = 'المنشور الذي تمت قراءته';
 $string['privacy:metadata:forum_read:userid'] = 'مُعرَّف المستخدم العائد له هذا السجل';
-$string['privacy:metadata:forum_subscriptions'] = 'معلومات عن أي من المنتديات التي اشترك فيها المستخدم.';
+$string['privacy:metadata:forum_subscriptions'] = 'معلومات عن أي من المنتديات التي اشترك فيها المستخدم';
 $string['privacy:metadata:forum_subscriptions:forum'] = 'المنتدى المشترَك فيه';
 $string['privacy:metadata:forum_subscriptions:userid'] = 'مُعرَّف المستخدم العائد له الاشتراك في هذا المنتدى';
-$string['privacy:metadata:forum_track_prefs'] = 'معلومات عن أي من المنتديات التي اختار فيها المستخدم تعقب قراءة المنشورات.';
+$string['privacy:metadata:forum_track_prefs'] = 'معلومات عن أي من المنتديات التي اختار فيها المستخدم تعقب قراءة المنشورات';
 $string['privacy:metadata:forum_track_prefs:forumid'] = 'المنتدى الذي تم فيه تمكين تعقب القراءة';
 $string['privacy:metadata:forum_track_prefs:userid'] = 'مُعرَّف المستخدم العائد له تفضيل تعقب القراءة في هذا المنتدى';
-$string['privacy:metadata:preference:autosubscribe'] = 'فيما إذا كان ينبغي الاشتراك في المناقشات عند الرد على المنشورات فيها.';
+$string['privacy:metadata:preference:autosubscribe'] = 'فيما إذا كان ينبغي الاشتراك في المناقشات عند الرد على المنشورات فيها';
 $string['privacy:metadata:preference:forum_discussionlistsortorder'] = 'اتجاه الفرز المفضل لقائمة المناقشات';
 $string['privacy:metadata:preference:maildigest'] = 'تفضيل إيجاز البريد على مستوى عموم الموقع';
-$string['privacy:metadata:preference:markasreadonnotification'] = 'فيما إذا كان ينبغي اعتبار منشورات المنتدى مقروءة عند تلقيها بشكل رسائل.';
-$string['privacy:metadata:preference:trackforums'] = 'فيما إذا كان ينبغي تفعيل تعقب القراءة.';
+$string['privacy:metadata:preference:markasreadonnotification'] = 'فيما إذا كان ينبغي اعتبار منشورات المنتدى مقروءة عند تلقيها بشكل رسائل';
+$string['privacy:metadata:preference:trackforums'] = 'فيما إذا كان ينبغي تفعيل تعقب القراءة';
 $string['privacy:postwasread'] = 'هذا المنشور تمت قراءته لأول مرة في {$a->firstread} وأحدث قراءة كانت في {$a->lastread}';
 $string['privacy:readtrackingdisabled'] = 'لقد اخترت عدم تعقب قراءة المنشورات في هذا المنتدى.';
 $string['privacy:request:delete:discussion:name'] = 'الحذف عند طلب المؤلف';
@@ -638,7 +638,7 @@ $string['replyplaceholder'] = 'أكتب ردك...';
 $string['replytopostbyemail'] = 'يمكنك الرد عليها عبر البريد الالكتروني.';
 $string['replytouser'] = 'استخدم عنوان البريد الإلكتروني في الرد';
 $string['resetdigests'] = 'حذف كل تفضيلات إيجاز المنتدى على مستوى المستخدمين';
-$string['resetforums'] = 'إحذف المنشورات من';
+$string['resetforums'] = 'حذف المنشورات من';
 $string['resetforumsall'] = 'حذف جميع المنشورات';
 $string['resetsubscriptions'] = 'حذف كل اشتراكات المنتدى';
 $string['resettrackprefs'] = 'حذف كل تفضيلات تعقب المنتدى';

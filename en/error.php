@@ -320,6 +320,7 @@ $string['invalidcommentparam'] = 'Invalid comment parameters';
 $string['invalidcomponent'] = 'Invalid component name';
 $string['invalidconfirmdata'] = 'Invalid confirmation data';
 $string['invalidcontext'] = 'Invalid context';
+$string['invalidcountrycode'] = 'Invalid country code: {$a}';
 $string['invalidcourse'] = 'Invalid course';
 $string['invalidcourseformat'] = 'Invalid course format';
 $string['invalidcourseid'] = 'You are trying to use an invalid course ID';
@@ -391,6 +392,7 @@ $string['loginasnoenrol'] = 'You cannot use enrol or unenrol when in course "Log
 $string['loginasonecourse'] = 'You cannot enter this course.<br /> You have to terminate the "Login as" session before entering any other course.';
 $string['maxareabytes'] = 'The file is larger than the space remaining in this area.';
 $string['maxbytesfile'] = 'The file {$a->file} is too large. The maximum size you can upload is {$a->size}.';
+$string['messageundeliveredbynotificationsettings'] = 'The message could not be sent because personal messages between users (in Notification settings) has been disabled by a site administrator.';
 $string['messagingdisable'] = 'Messaging is disabled on this site';
 $string['mimetexisnotexist'] = 'Your system is not configured to run mimeTeX. You need to obtain the C source from <a href="https://www.forkosh.com/mimetex.zip">https://www.forkosh.com/mimetex.zip</a>, compile it and put the executable into your moodle/filter/tex/ directory.';
 $string['mimetexnotexecutable'] = 'Custom mimetex is not executable!';

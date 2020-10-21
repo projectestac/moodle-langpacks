@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['privacy:metadata:core_userkey'] = 'تم توليد رمز شخصي وخزنه. هذا الرمز يمكن استعماله للوصول إلى ملفات مودل دون حاجة منك لتسجيل الدخول.';
+$string['privacy:metadata:core_userkey'] = 'يتم توليد رمز شخصي وخزنه. هذا الرمز يمكن استعماله للوصول إلى ملفات مودل دون حاجة منك لتسجيل الدخول';
 $string['privacy:metadata:files'] = 'سِجل للملفات المرفوعة أو المشارَكة من قبل المستخدمين';
 $string['privacy:metadata:files:author'] = 'مؤلف محتويات الملف';
 $string['privacy:metadata:files:contenthash'] = 'ترميز رقمي فريد لمحتويات الملف';

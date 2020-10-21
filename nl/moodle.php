@@ -1785,6 +1785,7 @@ $string['search'] = 'Zoek';
 $string['searchagain'] = 'Zoek nog een keer';
 $string['searchbyemail'] = 'Zoek op e-mailadres';
 $string['searchbyusername'] = 'Zoek op gebruikersnaam';
+$string['searchcoursecategories'] = 'Zoek-categorieën';
 $string['searchcourses'] = 'Zoek cursussen';
 $string['search_help'] = 'Voor het standaard zoeken met één of meer worden in de tekst, geef je je zoektermen in gescheiden door spaties. Alle woorden, langer dan twee tekens worden gebruikt.
 

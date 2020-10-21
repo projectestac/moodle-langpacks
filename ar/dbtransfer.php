@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['checkingsourcetables'] = 'جاري التحقق من بنية جداول المصدر';
 $string['copyingtable'] = 'جاري نسخ الجدول {$a}';
 $string['copyingtables'] = 'جاري نسخ محتويات الجدول';
-$string['creatingtargettables'] = 'جاري إنشاء الجداول في قاعدة بيانات الهدف';
+$string['creatingtargettables'] = 'يجري إنشاء الجداول في قاعدة البيانات المقصودة';
 $string['dbexport'] = 'تصدير قاعدة البيانات';
 $string['dbtransfer'] = 'نقل قاعدة البيانات';
 $string['differenttableexception'] = 'بنية الجدول {$a} غير مطابقة';
@@ -38,4 +38,4 @@ $string['importschemaexception'] = 'بنية قاعدة البيانات الح�
 $string['importversionmismatchexception'] = 'الإصدار الحالي {$a->currentver} لا يطابق الإصدار الذي تم تصديره {$a->schemaver}.';
 $string['malformedxmlexception'] = 'تم العثور على XML غير سليم، لا يمكن الاستمرار.';
 $string['tablex'] = 'الجدول {$a}:';
-$string['unknowntableexception'] = 'تم إيجاد جدول غير معروف {$a} في ملف التصدير.';
+$string['unknowntableexception'] = 'تم العثور على جدول غير معروف {$a} في ملف التصدير.';

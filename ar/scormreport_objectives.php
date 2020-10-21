@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['objectivescore'] = 'إظهار النتيجة الموضوعية';
+$string['objectivescore'] = 'إظهار الدرجة الموضوعية';
 $string['objectivex'] = 'الهدف {$a}';
 $string['pluginname'] = 'تقرير الأهداف';
 $string['privacy:metadata:preference:scorm_report_objectives_score'] = 'ما إذا كان سيتم عرض النتيجة الموضوعية في تقرير سكورم';
 $string['privacy:metadata:preference:scorm_report_pagesize'] = 'عدد المستخدمين المراد عرضها في تقارير سكورم';
-$string['score'] = 'النتيجة';
+$string['score'] = 'الدرجة';
 $string['status'] = 'الحالة';

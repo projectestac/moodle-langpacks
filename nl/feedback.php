@@ -190,6 +190,7 @@ $string['multichoice_values'] = 'Meerkeuzewaarden';
 $string['multiplesubmit'] = 'Meerdere inzendingen toestaan';
 $string['multiplesubmit_help'] = 'Indien er gekozen is voor anonieme onderzoeken, dan kunnen gebruikers een onbeperkt aantal keer het formulier insturen';
 $string['name'] = 'Naam';
+$string['nameandlabelformat'] = '({$a->label}) {$a->name}';
 $string['name_required'] = 'Naam verplicht';
 $string['next_page'] = 'Volgende pagina';
 $string['no_handler'] = 'Er is geen actionhandler voor';

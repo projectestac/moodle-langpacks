@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['add'] = 'أضف';
 $string['addcaptionstrack'] = 'أدخل مسار التسمية التوضيحية';
-$string['addchapterstrack'] = 'أدخل مسار الفصل';
+$string['addchapterstrack'] = 'إضافة مسار الفصل';
 $string['adddescriptionstrack'] = 'أدخل مسار الوصف';
 $string['addmetadatatrack'] = 'أدخل مسار البيانات الوصفية';
 $string['addsource'] = 'أدخل المصدر البديل';
@@ -69,7 +69,7 @@ $string['metadatasourcelabel'] = 'رابط مسار البيانات الوصف�
 $string['mute'] = 'مكتوم';
 $string['pluginname'] = 'أدخل ملف صوت/فيديو أو عدله';
 $string['poster'] = 'رابط الصورة المصغرة';
-$string['privacy:metadata'] = 'إن ملحق atto_media لا يخزن أي بيانات وصفية.';
+$string['privacy:metadata'] = 'إن ملحق atto_media لا يخزن أي بيانات شخصية.';
 $string['remove'] = 'إزالة';
 $string['size'] = 'الحجم';
 $string['srclang'] = 'اللغة';

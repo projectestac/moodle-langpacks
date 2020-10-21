@@ -32,5 +32,5 @@ $string['allocationexists'] = 'التوزيع موجود مسبقاً';
 $string['areyousuretodeallocate'] = 'هل أنت متأكد من رغبتك في إلغاء توزيع التقييم المحدد؟';
 $string['areyousuretodeallocategraded'] = 'أنت على وشك إزالة التقييم الذي سبق أن أعطي درجات. هل أنت متأكد حقا أنك تريد أن تفعل ذلك؟';
 $string['pluginname'] = 'التوزيع اليدوي';
-$string['privacy:metadata:preference:perpage'] = 'عدد التقييمات المخصصة التي يفضل المستخدم رؤيتها على صفحة واحدة.';
+$string['privacy:metadata:preference:perpage'] = 'عدد التقييمات المخصصة التي يفضل المستخدم رؤيتها على صفحة واحدة';
 $string['showallparticipants'] = 'أظهر كل المشاركين';

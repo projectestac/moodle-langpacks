@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['asap'] = 'في أقرب وقت ممكن';
-$string['backtoscheduledtasks'] = 'العودة إلى المهام المجدولة';
+$string['backtoscheduledtasks'] = 'عودة إلى المهام المجدولة';
 $string['blocking'] = 'حجب';
 $string['cannotfindthepathtothecli'] = 'تعذر العثور على المسار إلى واجهة سطر الأوامر القابل للتنفيذ لـ PHP لذلك تم إحباط تنفيذ المهمة. قم بتعيين إعداد "المسار إلى واجهة سطر الأوامر لـ PHP" في إدارة الموقع / المخدم / مسارات النظام.';
 $string['clearfaildelay_confirm'] = 'هل أنت متأكد من رغبتك في إخلاء تأخير الفشل للمهمة \'{$a}\'؟ بعد إخلاء التأخير، ستعمل المهمة وفقاً لجدولها الطبيعي.';
@@ -49,7 +49,7 @@ $string['resettasktodefaults_help'] = 'سيؤدي ذلك إلى تجاهل أي 
 $string['runnow'] = 'إشتغل الآن';
 $string['runnow_confirm'] = 'هل أنت متأكد من رغبتك في تشغيل هذه المهمة \'{$a}\' الآن؟ ستعمل المهمة على مخدم الويب وقد تستغرق بعض الوقت حتى تكتمل.';
 $string['runpattern'] = 'نمط التشغيل';
-$string['scheduledtaskchangesdisabled'] = 'تم منع التعديلات على قائمة المهام المجدولة في تكوين Moodle';
+$string['scheduledtaskchangesdisabled'] = 'تم منع التعديلات في قائمة المهام المجدولة في تهيئة مودل';
 $string['scheduledtasks'] = 'المهام المجدولة';
 $string['taskdisabled'] = 'تم تعطيل المهمة';
 $string['tasklogs'] = 'سجلات المهام';

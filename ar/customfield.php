@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['action'] = 'إجراء';
+$string['action'] = 'الإجراء';
 $string['addingnewcustomfield'] = 'إضافة {$a} جديد';
 $string['addnewcategory'] = 'إضافة فئة جديدة';
 $string['afterfield'] = 'بعد حقل {$a}';
@@ -74,13 +74,13 @@ $string['nopermissionconfigure'] = 'ليس لديك صلاحية تكوين حق
 $string['notchecked'] = 'لم يتم اختباره';
 $string['otherfields'] = 'الحقول الأخرى';
 $string['otherfieldsn'] = 'الحقول الأخرى {$a}';
-$string['privacy:metadata:customfield_data'] = 'يمثل بيانات الحقل المخصصة المحفوظة في النص';
+$string['privacy:metadata:customfield_data'] = 'يمثل بيانات الحقل المخصص المحفوظة في السياق';
 $string['privacy:metadata:customfield_data:charvalue'] = 'قيمة البيانات عندما تكون حرفية';
-$string['privacy:metadata:customfield_data:contextid'] = 'الرقم التعريفي للنص مكان حفظ البيانات';
-$string['privacy:metadata:customfield_data:decvalue'] = 'قيمة البيانات ، عندما تكون عشرية';
-$string['privacy:metadata:customfield_data:fieldid'] = 'الرقم التعريفي للحقل';
-$string['privacy:metadata:customfield_data:instanceid'] = 'الرقم التعريفي المرتبط بالبيانات';
-$string['privacy:metadata:customfield_data:intvalue'] = 'قيمة البيانات، عندما تكون رقمية';
+$string['privacy:metadata:customfield_data:contextid'] = 'مُعرَّف السياق حيث تم حفظ البيانات';
+$string['privacy:metadata:customfield_data:decvalue'] = 'قيمة البيانات، عندما تكون عشرية';
+$string['privacy:metadata:customfield_data:fieldid'] = 'مُعرَّف تعريف الحقل';
+$string['privacy:metadata:customfield_data:instanceid'] = 'مُعرَّف العينة المرتبطة بالبيانات';
+$string['privacy:metadata:customfield_data:intvalue'] = 'قيمة البيانات، عندما تكون رقماً صحيحاً';
 $string['privacy:metadata:customfield_data:shortcharvalue'] = 'قيمة البيانات عندما تكون حرفية قصيرة';
 $string['privacy:metadata:customfield_data:timecreated'] = 'وقت إنشاء البيانات';
 $string['privacy:metadata:customfield_data:timemodified'] = 'وقت آخر تعديل للبيانات';

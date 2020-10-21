@@ -1768,6 +1768,7 @@ $string['search'] = 'Procurar';
 $string['searchagain'] = 'Procurar novamente';
 $string['searchbyemail'] = 'Procurar por endereço de e-mail';
 $string['searchbyusername'] = 'Procurar por nome de utilizador';
+$string['searchcoursecategories'] = 'Procurar categorias';
 $string['searchcourses'] = 'Procurar disciplinas';
 $string['search_help'] = 'Para fazer uma pesquisa básica de uma ou mais palavras no texto, digite as palavras a pesquisar separadas por espaços. São consideradas para pesquisa todas as palavras com mais de dois caracteres.
 

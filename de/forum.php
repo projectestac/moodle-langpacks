@@ -453,7 +453,7 @@ Die Forums-Aktivität hat viele Verwendungsmöglichkeiten, wie z.B.
 * Für die Online-Fortsetzung eines Problems, das zuvor in einer persönlichen Sitzung angesprochen wurde
 * Für Diskussionen nur für Trainer/innen (über ein verborgenes Forum)
 * Ein Hilfezentrum, in dem Tutoren/innen und Teilnehmer/innen Ratschläge geben können
-* Ein persönlicher Unterstützungsbereich für die private Schüler-Lehrer-Kommunikation (über ein Forum mit separaten Gruppen und mit einer/m Teilnehmer/in pro Gruppe)
+* Als Bereich für eine 1:1-Unterstützung zwischen Teilnehmer/in und Trainer/in (über ein Forum mit separaten Gruppen und mit 1 Teilnehmer/in pro Gruppe)
 * Für Erweiterungsaktivitäten, zum Beispiel „Denksportaufgaben“, über die die Teilnehmer/innen nachdenken und Lösungen vorschlagen können';
 $string['modulenameplural'] = 'Foren';
 $string['more'] = 'weiter';

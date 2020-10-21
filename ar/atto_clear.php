@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'مسح التنسيق';
-$string['privacy:metadata'] = 'لا يقوم الملحق الإضافي atto_italic بتخزين أي بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق atto_clear لا يخزن أيّ بيانات شخصية.';

@@ -42,9 +42,9 @@ $string['oauth2serviceslink'] = '<a href="{$a}" title="رابط تهيئة خد�
 $string['owner'] = 'مملوكة من قبل: {$a}';
 $string['pluginname'] = 'Google Drive';
 $string['presentationformat'] = 'الصيغة الافتراضية لاستيراد العروض التقديمية';
-$string['privacy:metadata:repository_googledocs'] = 'إن ملحق مستودع Google Drive لا يخزن أي بيانات شخصية، ولكنه ينقل بيانات المستخدمين من مودل إلى نظام خارجي.';
-$string['privacy:metadata:repository_googledocs:email'] = 'عنوان البريد الالكتروني لمستخدم مستودع Google Drive.';
-$string['privacy:metadata:repository_googledocs:searchtext'] = 'استعلام البحث النصي للمستخدم في مستودع Google Drive.';
+$string['privacy:metadata:repository_googledocs'] = 'إن ملحق مستودع Google Drive لا يخزن أي بيانات شخصية، ولكنه ينقل بيانات المستخدمين من مودل إلى نظام خارجي';
+$string['privacy:metadata:repository_googledocs:email'] = 'عنوان البريد الالكتروني لمستخدم مستودع Google Drive';
+$string['privacy:metadata:repository_googledocs:searchtext'] = 'استعلام البحث النصي للمستخدم في مستودع Google Drive';
 $string['searchfor'] = 'إبحث عن {$a}';
 $string['servicenotenabled'] = 'لم تتم تهيئة الوصول. تحقق من كون الخدمة \'Drive API\' مُمَكَّنة.';
 $string['spreadsheetformat'] = 'الصيغة الافتراضية لاستيراد الجداول';

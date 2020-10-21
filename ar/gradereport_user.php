@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['eventgradereportviewed'] = 'تم استعراض تقريردرجات المُستخدم';
+$string['eventgradereportviewed'] = 'تمت معاينة تقرير علامات المُستخدم';
 $string['myself'] = 'نفسي';
 $string['otheruser'] = 'المستخدم';
 $string['pluginname'] = 'تقرير المستخدم';
 $string['privacy:metadata:preference:gradereport_user_view_user'] = 'فيما إذا كان عرض التقرير هو للمستخدم الحالي أو لمستخدم آخر في سجل العلامات';
-$string['tablesummary'] = 'يتم ترتيب الجدول كقائمة من عناصرأو بنود الدرجات بما في ذلك التصنيفات لتلك البنود. إذا كان أي من البنود تنتمي إلى تصنيف سيتم الإشارة لذلك.';
+$string['tablesummary'] = 'يتم ترتيب الجدول كقائمة من مفردات التقييم متضمنة تصنيفات تلك المفردات. إذا كانت أي مفردة تقييم تنتمي إلى تصنيف، ستتم الإشارة لذلك.';
 $string['user:view'] = 'معاينة تقرير علاماته';
 $string['viewas'] = 'معاينة التقرير بمثابة';

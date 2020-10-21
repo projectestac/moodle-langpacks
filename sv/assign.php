@@ -32,6 +32,7 @@ $string['addnewattemptfromprevious'] = 'Lägg till ett nytt försök baserat på
 $string['addnewattemptfromprevious_help'] = 'Detta kommer att kopiera innehållet i din tidigare inlämning till en ny inlämning som du kan arbeta med.';
 $string['addnewattempt_help'] = 'Detta kommer att skapa en ny tom inlämning för dig att arbeta på.';
 $string['addsubmission'] = 'Lägg till inskickat bidrag';
+$string['addsubmission_help'] = 'Du har inte gjort någon inlämning ännu.';
 $string['allocatedmarker'] = 'Tilldelade Bedömare';
 $string['allocatedmarker_help'] = 'Bedömare som är tilldelad för denna uppgift';
 $string['allowsubmissions'] = 'Tillåt användaren att göra inlämningar till denna inlämningsuppgift.';

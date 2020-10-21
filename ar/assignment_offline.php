@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'دون اتصال';
-$string['privacy:metadata'] = 'لا يقوم المكون الإضافي Offline assignment  بتخزين أيّ بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق الواجب بدون الاتصال لا يخزن أي بيانات شخصية.';

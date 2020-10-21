@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['cachedef_foldername'] = 'خبأ اسم المجلد';
+$string['cachedef_foldername'] = 'خبء اسم المجلد';
 $string['clientid'] = 'مُعرَّف الزبون';
 $string['configplugin'] = 'تهيئة مايكروسوفت OneDrive (موروث)';
 $string['deprecatedwarning'] = 'تحذير: لقد تم التخلي عن واجهة برمجة التطبيق المستعملة من قبل ملحق المستودع هذا من طرف مايكروسوفت وسيتم إيقافه عن العمل فعلياً. لطفاً، إنتقل إلى المستودع الجديد "مايكروسوفت OneDrive".';

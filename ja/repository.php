@@ -57,6 +57,7 @@ $string['cannotdownload'] = 'このファイルをダウンロードできませ
 $string['cannotdownloaddir'] = 'このフォルダをダウンロードできません。';
 $string['cannotinitplugin'] = 'plugin_initのコールに失敗しました。';
 $string['cannotunzipcontentunreadable'] = 'コンテンツのファイルを読めないため、このファイルを展開できません。';
+$string['cannotunzipextractfileerror'] = '1つまたはそれ以上のファイルを読めないため、このファイルを展開できません。';
 $string['cannotunzipquotaexceeded'] = '下書きエリアの最大許可サイズを越えたため、このファイルを展開できません。';
 $string['choosealink'] = 'リンクを選択する ...';
 $string['chooselicense'] = 'ライセンスを選択する';
