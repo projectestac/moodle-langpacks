@@ -32,3 +32,5 @@ $string['interfaceoptionsgrp'] = 'واجهة المستخدم';
 $string['modulename'] = 'جيوجبرا';
 $string['modulenameplural'] = 'جيوجبرا';
 $string['pluginname'] = 'جيوجبرا';
+$string['privacy:metadata:geogebra_attempts:userid'] = 'مُعرَّف المستخدم المجيب على نشاط geogebra هذا';
+$string['showAlgebraInput'] = 'إظهار شريط الإدخال';

@@ -26,5 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'حقل النص';
-$string['pluginname'] = 'النص المدخل';
+$string['pluginname'] = 'إدخال النص';
 $string['privacy:metadata'] = 'إن مكون حقل النص لا يخزن أي بيانات شخصية بحد ذاته، بل يستعمل الجداول المعرفة في mod_data.';

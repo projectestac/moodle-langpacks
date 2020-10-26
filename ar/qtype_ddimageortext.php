@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addmoredropzones'] = 'الفراغات لـ {no} مناطق إفلات أخرى';
-$string['addmoreimages'] = 'فراغات لـ {no} عناصر قابلة للسحب';
+$string['addmoreimages'] = 'فراغات لـ {no} عناصر أخرى قابلة للسحب';
 $string['answer'] = 'الإجابة';
 $string['bgimage'] = 'الصورة الخلفية';
 $string['blank'] = 'فراغ';

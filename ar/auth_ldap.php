@@ -161,7 +161,7 @@ $string['updateremfailamb'] = 'فشل تحديث LDAP بالحقل الغامض 
 $string['updateremfailfield'] = 'فشل تحديث LDAP بحقل غير موجود (\'{$a->ldapkey}\'). المفتاح ({$a->key}) - قيمة مودل القديمة: \'{$a->ouvalue}\' القيمة الجديدة: \'{$a->nuvalue}\\';
 $string['updateusernotfound'] = 'تعذر العثور على المستخدم في أثناء التحديث الخارجي. التفاصيل تتبع: أساس البحث: \'{$a->userdn}\'؛ مرشح البحث: \'(objectClass=*)\'؛ سمات البحث: {$a->attribs}';
 $string['useracctctrlerror'] = 'وقع خطأ عند الحصول على userAccountControl لـ {$a}';
-$string['user_activatenotsupportusertype'] = 'الدالة auth: ldap user_activate() لا تدعم usertype المحدد: {$a}';
+$string['user_activatenotsupportusertype'] = 'الدالة auth: ldap user_activate() لا تدعم نوع المستخدم المحدد: {$a}';
 $string['user_disablenotsupportusertype'] = 'الدالة auth: ldap user_disable() لا تدعم usertype المحدد: {$a}';
 $string['userentriestoadd'] = 'إدخالات المستخدم التي بصدد الإضافة: {$a}';
 $string['userentriestoremove'] = 'إدخالات المستخدم التي بصدد الإزالة: {$a}';

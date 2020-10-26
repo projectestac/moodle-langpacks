@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addmoredimensions'] = 'فراغات لـ {$a} تأكيدات إضافية';
+$string['addmoredimensions'] = 'إضافة {$a} تأكيدات أخرى';
 $string['configgrade0'] = 'الكلمة الافتراضية التي تصف التقييم السلبي للتأكيد.';
 $string['configgrade1'] = 'الكلمة الافتراضية التي تصف تقييماً إيجابياً للتأكيد.';
 $string['dimensioncommentfor'] = 'تعليق لـ {$a}';

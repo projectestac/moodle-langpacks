@@ -97,6 +97,7 @@ $string['modeinstructionfacetoface'] = '対面';
 $string['modeinstructionfullyonline'] = 'フルオンライン';
 $string['modeloutputdir'] = 'モデルアウトプットディレクトリ';
 $string['modeloutputdirinfo'] = '予測プロセッサがすべての評価情報を保存するディレクトリです。デバッグおよび調査に有用です。';
+$string['modeloutputdirwithdefaultinfo'] = '予測プロセッサがすべての評価情報を保存するディレクトリです。デバックおよび調査に有用です。空白の場合、デフォルトとして「 <strong>{$a}</strong> 」が使用されます。';
 $string['modeltimelimit'] = 'モデルごとの分析制限時間';
 $string['modeltimelimitinfo'] = 'この設定ではそれぞれのモデルがサイトコンテンツの分析に費やすことのできる時間を制限します。';
 $string['neutral'] = '中立';

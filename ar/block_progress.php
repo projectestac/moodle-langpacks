@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['answered'] = 'مجاب عنه';
 $string['config_orderby_due_time'] = '"متوقعة بحلول" التاريخ-الوقت';
 $string['geogebra'] = 'جيوجبرا';
 $string['questionnaire'] = 'الاستبيان';

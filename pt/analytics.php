@@ -96,6 +96,7 @@ $string['modeinstructionfacetoface'] = 'Presencial';
 $string['modeinstructionfullyonline'] = 'E-Learning';
 $string['modeloutputdir'] = 'Diretoria dos modelos';
 $string['modeloutputdirinfo'] = 'Diretoria onde o processador de previsões guarda toda a informação da avaliação. Útil para análise e pesquisa.';
+$string['modeloutputdirwithdefaultinfo'] = 'Diretoria onde os processadores de previsões guardam todas as informações de avaliação. Útil para análise e pesquisa. Se estiver vazio, \'<strong>{$a}</strong>\' será usado como predefinição.';
 $string['modeltimelimit'] = 'Duração máxima de análise por modelo';
 $string['modeltimelimitinfo'] = 'Esta configuração limita o tempo que cada modelo gasta a analisaro o conteúdo do site.';
 $string['neutral'] = 'Neutro';

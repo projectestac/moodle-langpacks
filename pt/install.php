@@ -112,7 +112,7 @@ $string['memorylimithelp'] = '<p>O limite de memória para o PHP definido atualm
 $string['mysqliextensionisnotpresentinphp'] = 'O PHP não foi corretamente configurado com a extensão MySQLi para que possa comunicar com MySQL. Verifique o ficheiro php.ini ou recompile o PHP.';
 $string['nativemariadb'] = 'MariaDB (native/mariadb)';
 $string['nativemariadbhelp'] = '<p>A base de dados é onde a maioria das configurações e dos dados do Moodle são armazenados e deverá ser configurada aqui.</p>
-<p>O nome da base de dados, o nome de utilizador e a senha são campos obrigatórios; o prefixo da tabela é opcional.</p>
+<p>O nome da base de dados, o nome de utilizador e a senha são campos obrigatórios. O prefixo da tabela é opcional.</p>
 <p>O nome da base de dados apenas pode conter caracteres alfanuméricos, o símbolo do dólar ($) e underscore (_).</p>
 <p>Se a base de dados ainda não existir, e se o utilizador que especificar tiver permissão para tal, o Moodle tentará criar uma nova base de dados com as permissões e configurações corretas.</p>
 <p>Este driver não é compatível com o mecanismo legado MyISAM.</p>';

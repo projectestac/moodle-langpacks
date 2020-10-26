@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['additem'] = 'أضف عنصر';
-$string['addmoreanswerblanks'] = 'أضف إجابة أخرى فارغة';
+$string['addmoreanswerblanks'] = 'إضافة فراغ لإجابة أخرى';
 $string['addsets'] = 'أضف مجموعة / مجموعات';
 $string['answerdisplay'] = 'عرض الإجابة';
 $string['answerformula'] = 'أجب بصيغة {$a}';

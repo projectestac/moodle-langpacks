@@ -340,6 +340,7 @@ $string['invalidgroupid'] = 'Identifiant de groupe incorrect';
 $string['invalidipformat'] = 'Format d\'adresse IP non valide';
 $string['invaliditemid'] = 'Identifiant d\'élément incorrect !';
 $string['invalidkey'] = 'Clef incorrecte';
+$string['invalidlanguagecode'] = 'Code de langue non valide : {$a}';
 $string['invalidlegacy'] = 'Définition de rôle historique incorrect pour le type {$a}';
 $string['invalidmd5'] = 'Le code de contrôle md5 n\'est pas valide';
 $string['invalidmode'] = 'Mode non valide ({$a})';

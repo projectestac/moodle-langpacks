@@ -96,6 +96,7 @@ $string['modeinstructionfacetoface'] = 'Face-to-face';
 $string['modeinstructionfullyonline'] = 'Volledig online';
 $string['modeloutputdir'] = 'Output-map voor modellen';
 $string['modeloutputdirinfo'] = 'De map waar voorspellingsprocessoren al hun evaluatie-informatie opslaan. Nuttig voor foutopsporing en onderzoek.';
+$string['modeloutputdirwithdefaultinfo'] = 'Directory waar voorspellingsprocessors alle evaluatie-informatie opslaan. Handig voor foutopsporing en onderzoek. Indien leeg, wordt \'<strong> {$ a} </strong>\' als standaard gebruikt.';
 $string['modeltimelimit'] = 'Tijdslimiet analyse per model';
 $string['modeltimelimitinfo'] = 'Deze instelling beperkt de tijd voor ieder model om de inhoud van de site te analyseren.';
 $string['neutral'] = 'Neutrale';

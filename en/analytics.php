@@ -96,6 +96,7 @@ $string['modeinstructionfacetoface'] = 'Face to face';
 $string['modeinstructionfullyonline'] = 'Fully online';
 $string['modeloutputdir'] = 'Models output directory';
 $string['modeloutputdirinfo'] = 'Directory where prediction processors store all evaluation info. Useful for debugging and research.';
+$string['modeloutputdirwithdefaultinfo'] = 'Directory where prediction processors store all evaluation info. Useful for debugging and research. If empty, then \'<strong>{$a}</strong>\' will be used as default.';
 $string['modeltimelimit'] = 'Analysis time limit per model';
 $string['modeltimelimitinfo'] = 'This setting limits the time each model spends analysing the site contents.';
 $string['neutral'] = 'Neutral';

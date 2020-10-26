@@ -343,6 +343,7 @@ $string['invalidgroupid'] = 'المُعرَّف المحدد للمجموعة خ
 $string['invalidipformat'] = 'تنسيق برتوكول عنوان الإنترنت غير صحيح';
 $string['invaliditemid'] = 'مُعرَّف العنصر خاطئ';
 $string['invalidkey'] = 'المفتاح غير صحيح';
+$string['invalidlanguagecode'] = 'رمز لغة غير صالح: {$a}';
 $string['invalidlegacy'] = 'تعريف الدور من النسخ القديمة لمودل غير صحيح لنوع: {$a}';
 $string['invalidmd5'] = 'المتغير المُختار خاطئ - حاول مرة أخرى';
 $string['invalidmode'] = 'نمط غير صحيح  ({$a})';

@@ -341,6 +341,7 @@ $string['invalidgroupid'] = 'Especificado ID de grupo incorreto';
 $string['invalidipformat'] = 'Formato inválido de endereço IP';
 $string['invaliditemid'] = 'ID de item incorreto';
 $string['invalidkey'] = 'Chave incorreta';
+$string['invalidlanguagecode'] = 'Código de idioma inválido: {$a}';
 $string['invalidlegacy'] = 'Definição incorreta de papel para o tipo de legado: {$a}';
 $string['invalidmd5'] = 'A variável de verificação está errada - tente novamente.';
 $string['invalidmode'] = 'Modo ({$a}) inválido';

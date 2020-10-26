@@ -402,6 +402,7 @@ $string['privacy:metadata:questionnaire_resp_single:choice_id'] = 'معرّف س
 $string['privacy:metadata:questionnaire_resp_single:question_id'] = 'معرّف سجل السؤال لهذه الاستجابة';
 $string['privacy:metadata:questionnaire_resp_single:response_id'] = 'معرّف سجل الاستجابة لهذه الاستجابة';
 $string['private'] = 'خاص';
+$string['progresshelp_help'] = 'إنتقل إلى الصفحة التالية لإملاء شريط التقديم';
 $string['public'] = 'عام';
 $string['publiccopy'] = 'نسخ:';
 $string['publicoriginal'] = 'أصلي:';

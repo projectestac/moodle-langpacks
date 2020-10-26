@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addmoredimensions'] = 'فراغات لاوجه   {$a} الدولار';
+$string['addmoredimensions'] = 'إضافة {$a} جوانب أخرى';
 $string['dimensioncommentfor'] = 'تعليق لـ {$a}';
 $string['dimensiondescription'] = 'الوصف';
 $string['dimensionnumber'] = '{$a} اوجه الدولار';

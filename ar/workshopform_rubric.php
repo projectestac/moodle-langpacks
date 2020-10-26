@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addmoredimensions'] = 'فراغات لـ {$a} معايير أخرى';
+$string['addmoredimensions'] = 'إضافة {$a} معايير أخرى';
 $string['configuration'] = 'تهيئة سلم التقييم';
 $string['criteria'] = 'المعيار';
 $string['dimensiondescription'] = 'الوصف';

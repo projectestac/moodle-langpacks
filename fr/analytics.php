@@ -96,6 +96,7 @@ $string['modeinstructionfacetoface'] = 'Présentiel';
 $string['modeinstructionfullyonline'] = 'Complètement en ligne';
 $string['modeloutputdir'] = 'Dossier des sorties de modèles';
 $string['modeloutputdirinfo'] = 'Le dossier où les processeurs de prédictions enregistrent toutes les informations d\'évaluation. Utile pour le débogage et la recherche.';
+$string['modeloutputdirwithdefaultinfo'] = 'Dossier dans lequel les processeurs de prédictions enregistrent toutes les informations d\'évaluation. Si laissé vide, la valeur « <strong>{$a}</strong> » est utilisée par défaut.';
 $string['modeltimelimit'] = 'Limite de durée d\'analyse par modèle';
 $string['modeltimelimitinfo'] = 'Ce réglage limite la durée utilisée par chaque modèle lors de l\'analyse des contenus de la plateforme.';
 $string['neutral'] = 'Neutre';

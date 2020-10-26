@@ -343,6 +343,7 @@ $string['invalidgroupid'] = '不正なグループIDが指定されました。'
 $string['invalidipformat'] = '無効なIPアドレスフォーマットです。';
 $string['invaliditemid'] = 'アイテムIDが正しくありません。';
 $string['invalidkey'] = 'キーが正しくありません。';
+$string['invalidlanguagecode'] = '無効な言語コード: {$a}';
 $string['invalidlegacy'] = '正しくないタイプのレガシーロール定義: {$a}';
 $string['invalidmd5'] = 'チェック変数が正しくありません - 再度お試しください。';
 $string['invalidmode'] = '無効なモード ({$a}) です。';

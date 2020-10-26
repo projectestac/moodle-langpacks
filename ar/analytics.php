@@ -96,6 +96,7 @@ $string['modeinstructionfacetoface'] = 'وجهاً لوجه';
 $string['modeinstructionfullyonline'] = 'على الانترنت بالكامل';
 $string['modeloutputdir'] = 'مجلد تخريج النماذج';
 $string['modeloutputdirinfo'] = 'الدليل حيث تخزن معالجات التنبؤ جميع معلومات التقييم. مفيد للتصحيح والبحوث.';
+$string['modeloutputdirwithdefaultinfo'] = 'المجلد الذي تحفظ فيه معالجات التنبؤ كل بيانات التقييم. مفيد لأغراض تصحيح الأخطاء والبحث. إذا كان خالياً، سيتم استعمال  \'<strong>{$a}</strong>\' بمثابة الافتراضي.';
 $string['modeltimelimit'] = 'الوقت الأقصى لتحليل كل نموذج';
 $string['modeltimelimitinfo'] = 'يحدد هذا الإعداد الوقت الذي يقضيه كل نموذج في تحليل محتويات الموقع.';
 $string['neutral'] = 'طبيعي';

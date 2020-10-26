@@ -343,6 +343,7 @@ $string['invalidgroupid'] = 'Foute groe- ID opgegeven.';
 $string['invalidipformat'] = 'IP-adres heeft een ongeldige vorm';
 $string['invaliditemid'] = 'Fout item-ID';
 $string['invalidkey'] = 'Foute sleutel';
+$string['invalidlanguagecode'] = 'Ongeldige taal code: {$a}';
 $string['invalidlegacy'] = 'Ongeldige standaard roldefinitie voor type :{$a}';
 $string['invalidmd5'] = 'De controlevariable was fout - probeer nog eens';
 $string['invalidmode'] = 'Ongeldige modus ({$a})';
@@ -392,6 +393,7 @@ $string['loginasnoenrol'] = 'Je kunt aanmelden en afmelden bij een cursus niet g
 $string['loginasonecourse'] = 'Je kunt deze cursus niet openen.<br />Je moet je "Login als"-sessie beëindigen voor je een andere cursus opent.';
 $string['maxareabytes'] = 'Het bestand is groter dan de beschikbare plaats.';
 $string['maxbytesfile'] = 'Het bestand {$a->file} is te groot. De maximale grootte die je kunt uploaden is {$a->size}.';
+$string['messageundeliveredbynotificationsettings'] = 'Het bericht kon niet worden verzonden omdat persoonlijke berichten tussen gebruikers (in de meldingsinstellingen) zijn uitgeschakeld door een site-beheerder.';
 $string['messagingdisable'] = 'Berichten zijn uitgeschakeld op deze site';
 $string['mimetexisnotexist'] = 'Je systeem is niet geconfigureerd om mimeTeX te gebruiken. Je moet de C bronbestanden verkrijgen van  <a href="https://www.forkosh.com/mimetex.zip"> https://www.forkosh.com/mimetex.zip</a>, ze compileren en het uitvoerbaar bestand in je moodle/filter/tex/ map zetten.';
 $string['mimetexnotexecutable'] = 'Aangepast mimetex bestand is niet uitvoerbaar!';

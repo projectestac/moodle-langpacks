@@ -34,6 +34,7 @@ $string['copyrighttitle'] = 'معاينة معلومات الحقوق الفكر
 $string['ctcachebuttonlabel'] = 'تحديث خبء نوع المحتوى';
 $string['ctcachenolibraries'] = 'لم يتم تلقي أي أنواع محتوى من مركز H5P. يرجى المحاولة لاحقاً.';
 $string['ctcachetaskname'] = 'تحديث خبء نوع المحتوى';
+$string['dataviewreportlabel'] = 'معاينة الإجابات';
 $string['downloadtitle'] = 'تنزيل هذا المحتوى بشكل ملف H5P.';
 $string['embedtitle'] = 'معاينة الترميز البرمجي المضمن لهذا المحتوى.';
 $string['enablecopyright'] = 'زر الحقوق الفكرية';

@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['blankentry'] = 'مُدخل فارغ';
 $string['daysavailable'] = 'الأيام المتاحة';

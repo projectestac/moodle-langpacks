@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['absent'] = 'غائب';
-$string['addmoredimensions'] = 'الفراغات لـ {$a}  أكثر من جوانب أخرى';
+$string['addmoredimensions'] = 'إضافة {$a} جوانب أخرى';
 $string['correct'] = 'صحيح';
 $string['dimensioncommentfor'] = 'تعليق لـ {$a}';
 $string['dimensiondescription'] = 'الوصف';

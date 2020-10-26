@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['displaycategories'] = 'Mostrar categorías';
+$string['displaycategories_help'] = 'Mostrar la categoría del curso en los elementos del bloque de cursos a los que se ha accedido recientemente';
 $string['nocourses'] = 'No hay cursos recientes';
 $string['pluginname'] = 'Cursos accedidos recientemente';
 $string['privacy:metadata'] = 'El bloque de cursos accedidos recientemente no almacena ningún dato personal.';
