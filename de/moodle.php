@@ -1804,6 +1804,7 @@ $string['search'] = 'Suchen';
 $string['searchagain'] = 'Erneut suchen';
 $string['searchbyemail'] = 'Über die E-Mail-Adresse suchen';
 $string['searchbyusername'] = 'Über den Anmeldenamen suchen';
+$string['searchcoursecategories'] = 'Kursbereiche suchen';
 $string['searchcourses'] = 'Kurse suchen';
 $string['search_help'] = 'Einfache Suche von einem oder mehreren Wörtern, die im Text vorkommen. Zwischen den Suchwörtern bitte Leerzeichen eingeben. Gesuchte Begriffe müssen mindestens drei Zeichen lang sein. ';
 $string['searchoptions'] = 'Suchoptionen';

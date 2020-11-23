@@ -152,7 +152,7 @@ Ziur ez bazaude zein irudi diren, beste CAPTCHA bat eska dezakezu edo audio CAPT
 $string['security_question'] = 'Segurtasun-galdera';
 $string['selfregistration'] = 'Auto-erregistroa';
 $string['selfregistration_help'] = 'Autentifikazio-plugin bat, posta elektronikoan oinarritutako auto-erregistroa adibidez, aukeratzen bada aukera ematen die ustezko erabiltzaileei beren buruak erregistratu eta kontuak sortzeko. Horrela, spam sortzaileek kontuak sor ditzakete eta foroetako mezuak, blog sarrerak, e.a. spamerako erabili. Arrisku horri aurre egiteko, auto-erregistroa desgaitu edo mugatu egin behar da <em>Baimendutako posta elektronikoko domeinuak </em> ezarpena erabilita.';
-$string['settingmigrationmismatch'] = 'Pluginaren ezarpenen izenak zuzentzerakoan desadostasuna aurkitu da. \'{$a->plugin}\' autentikazio-pluginak \'{$a->setting}\' ezarpena dauka \'{$a->legacy}\'(e)rako terminologia zaharrarekin eta \'{$a->current}\'(e)rako terminologia berriarekin. Azken balioa mantendu da. Baieztatu horrela izan behar duela, mesedez.';
+$string['settingmigrationmismatch'] = 'Pluginaren ezarpenen izenak zuzentzerakoan desadostasuna aurkitu da. \'{$a->plugin}\' autentifikazio-pluginak \'{$a->setting}\' ezarpena dauka \'{$a->legacy}\'(e)rako terminologia zaharrarekin eta \'{$a->current}\'(e)rako terminologia berriarekin. Azken balioa mantendu da. Baieztatu horrela izan behar duela, mesedez.';
 $string['sha1'] = 'SHA-1 hash-a';
 $string['showguestlogin'] = 'Bisitariek saioa hasteko botoia erakuts edo ezkuta dezakezu sarbide-orrian.';
 $string['stdchangepassword'] = 'Erabili pasahitza aldatzeko orri estandarra';
@@ -171,4 +171,4 @@ $string['update_onupdate'] = 'Eguneratzean';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate()-k ez du onartzen aukeratutako erabiltzaile-mota: {$a}';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable()-k ez du onartzen aukeratutako erabiltzaile-mota (..oraingoz)';
 $string['username'] = 'Erabiltzaile-izena';
-$string['username_help'] = 'Kontuan izan autentikazio-plugin batzuek ez dutela erabiltzaile-izenaren aldaketa onartuko.';
+$string['username_help'] = 'Kontuan izan autentifikazio-plugin batzuek ez dutela erabiltzaile-izenaren aldaketa onartuko.';

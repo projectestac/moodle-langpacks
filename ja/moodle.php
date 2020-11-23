@@ -577,13 +577,13 @@ $string['doyouagree'] = 'これらの要件を読んで理解できましたか?
 $string['droptoupload'] = 'アップロードするファイルをここにドロップする';
 $string['duplicate'] = '複製';
 $string['duplicatedmodule'] = '{$a} (コピー)';
-$string['edhelpaspellpath'] = 'エディタでスペルチェックを利用するには<strong>aspell 0.50</strong>またはそれ以上をサーバにインストールしてください。また、aspellバイナリの正しいパスを指定する必要があります。Unix/Linux システムでは通常このパスは<strong>/usr/bin/aspell</strong>となりますが、他のパスになる場合もあります。';
+$string['edhelpaspellpath'] = 'エディタでスペルチェックを利用するには<strong>aspell 0.50</strong>またはそれ以上をサーバにインストールしてください。また、aspellバイナリの正しいパスを指定する必要があります。Unix/Linuxシステムでは通常このパスは<strong>/usr/bin/aspell</strong>となりますが、他のパスになる場合もあります。';
 $string['edhelpbgcolor'] = '編集領域の背景色を設定します。<br />正しい値の例: #FFFFFFまたはwhite';
 $string['edhelpcleanword'] = 'ここではWord特有のフォーマットをフィルタするかどうか設定します。';
-$string['edhelpenablespelling'] = 'ここではスペルチェックするかどうか設定します。有効にする場合、サーバに<strong>aspell</strong>をインストールする必要があります。2番目の設定値は<strong>デフォルト辞書</strong>です。aspellがユーザ言語の辞書を持っていない場合、この設定値が使用されます。';
+$string['edhelpenablespelling'] = 'ここではスペルチェックするかどうか設定します。有効にした場合、サーバに<strong>aspell</strong>をインストールする必要があります。2番目の設定値は<strong>デフォルト辞書</strong>です。aspellにユーザ言語辞書がない場合、この設定値が使用されます。';
 $string['edhelpfontfamily'] = 'フォントファミリ属性はフォントファミリのリストおよび総称フォントファミリ名です。フォントファミリ名はカンマで区切ってください。';
 $string['edhelpfontlist'] = 'エディタのドロップダウンメニューで使用されるフォントを設定します。';
-$string['edhelpfontsize'] = 'ここではデフォルトのフォントサイズを設定します。<br />有効な設定値の例: medium, large, smaller, larger, 10pt, 11px.';
+$string['edhelpfontsize'] = 'ここではデフォルトのフォントサイズを設定します。<br />有効な設定値の例: medium, large, smaller, larger, 10pt, 11px';
 $string['edit'] = '編集';
 $string['edita'] = '{$a} を編集する';
 $string['editcategorysettings'] = 'カテゴリ設定を編集する';
@@ -636,13 +636,14 @@ $string['emailconfirmation'] = '{$a->firstname} さん
 
 {$a->link}
 
-ほとんどのメールプログラムではあなたがクリックできる青いリンクとして表示されているはずです。クリックできない場合、あなたのウェブブラウザウィンドウのアドレス欄にアドレスをコピー＆ペーストしてください。
+ほとんどのメールプログラムではあなたがクリックできる青いリンクとして表示されています。クリックできない場合、あなたのウェブブラウザウィンドウ上部のアドレス欄にアドレスをコピー＆ペーストしてください。
 
-分からない場合、サイト管理者 ( {$a->admin}) にご連絡ください。';
+分からない場合、サイト管理者にご連絡ください。
+{$a->admin}';
 $string['emailconfirmationresend'] = '確認メールを再送する';
 $string['emailconfirmationsubject'] = '{$a}: アカウントの確定';
 $string['emailconfirmsent'] = '<p>あなたの <b>{$a}</b> のメールアドレス宛にメールが送信されました。</p>
-<p>メールには登録を確認するための簡単な説明が記載されています。</p>
+<p>あなたの登録を確認するための簡単な説明がメールに記載されています。</p>
 <p>分からない場合、サイト管理者にご連絡ください。</p>';
 $string['emailconfirmsentfailure'] = '確認メールの送信に失敗しました。';
 $string['emailconfirmsentsuccess'] = '確認メールが正常に送信されました。';
@@ -801,7 +802,7 @@ $string['eventdatabasetextfieldcontentreplaced'] = 'データベースグロー�
 $string['eventemailfailed'] = 'メール送信に失敗しました。';
 $string['eventname'] = 'イベント名';
 $string['eventrecentactivityviewed'] = '最近の活動が閲覧されました。';
-$string['eventsearchindexed'] = '検索データがインデックスされました。';
+$string['eventsearchindexed'] = '検索データがインデックス化されました。';
 $string['eventsearchresultsviewed'] = '検索結果が閲覧されました。';
 $string['eventunknownlogged'] = '不明なイベント';
 $string['eventusercreated'] = 'ユーザが作成されました。';
@@ -838,13 +839,13 @@ $string['failedloginattempts'] = 'あなたの最終ログインより {$a->atte
 $string['favourites'] = '星付き';
 $string['feedback'] = 'フィードバック';
 $string['file'] = 'ファイル';
-$string['fileexists'] = 'ファイル名「 {$a} 」のファイルがすでに存在します。';
+$string['fileexists'] = 'ファイル名「 {$a} 」のファイルはすでに存在します。';
 $string['filemissing'] = '{$a} が見つかりません。';
-$string['filereaderror'] = 'ファイル「 {$a} 」を読み込むことができません。これが本当にフォルダではなくファイルであることを確認してください。';
+$string['filereaderror'] = 'ファイル「 {$a} 」を読み込めません。これが本当にフォルダではなくファイルであることを確認してください。';
 $string['files'] = 'ファイル';
 $string['filesanduploads'] = 'ファイルおよびアップロード';
 $string['filesfolders'] = 'ファイル/フォルダ';
-$string['fileuploadwithcontent'] = 'ファイルアップロードにコンテンツパラメータを含むことはできません。';
+$string['fileuploadwithcontent'] = 'ファイルアップロードにコンテンツパラメータは含めません。';
 $string['filloutallfields'] = 'このフォームのフィールドすべてに入力してください。';
 $string['filter'] = 'フィルタ';
 $string['filteroption'] = '{$a->criteria}: {$a->value}';
@@ -867,8 +868,8 @@ $string['force'] = '強制';
 $string['forcelanguage'] = '言語の強制';
 $string['forceno'] = '強制しない';
 $string['forcepasswordchange'] = 'パスワード変更を強制する';
-$string['forcepasswordchangecheckfull'] = '本当に {$a} に対してパスワードの変更を強制してもよろしいですか?';
-$string['forcepasswordchange_help'] = 'この設定を有効にした場合、次回ログイン時にユーザに対してパスワードの変更を促します。';
+$string['forcepasswordchangecheckfull'] = '本当に {$a} にパスワードの変更を強制してもよろしいですか?';
+$string['forcepasswordchange_help'] = 'この設定を有効にした場合、次回ログイン時、ユーザにパスワードの変更を促します。';
 $string['forcepasswordchangenot'] = '{$a} のパスワード変更を強制できませんでした。';
 $string['forcepasswordchangenotice'] = '続けるにはパスワードを変更してください。';
 $string['forcetheme'] = 'テーマを強制する';
@@ -882,7 +883,7 @@ $string['format_help'] = 'コースフォーマットではコースページの
 * 単一活動フォーマット - コースページに単一の活動またはリース (小テストまたはSCORM パッケージ等) が表示されます。
 * ソーシャルフォーマット - コースページにフォーラムが表示されます。
 * トピックフォーマット - コースページはトピックセクションにより構成されます。
-* ウィークリーフォーマット- 最初の週がコース開始日時となるようコースページはウィークリーセクションにより構成されます。';
+* ウィークリーフォーマット - 最初の週がコース開始日となるようコースページはウィークリーセクションにより構成されます。';
 $string['formathtml'] = 'HTMLフォーマット';
 $string['formatmarkdown'] = 'Markdownフォーマット';
 $string['formatplain'] = 'プレインテキストフォーマット';

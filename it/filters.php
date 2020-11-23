@@ -29,6 +29,7 @@ $string['actfilterhdr'] = 'Filtri attivi';
 $string['addfilter'] = 'Aggiungi filtro';
 $string['anycategory'] = 'qualsiasi categoria';
 $string['anycourse'] = 'qualsiasi corso';
+$string['anycourses'] = 'Iscritto in qualsiasi corso';
 $string['anyfield'] = 'qualsiasi campo';
 $string['anyrole'] = 'qualsiasi ruolo';
 $string['anyvalue'] = 'qualsiasi valore';
@@ -40,7 +41,7 @@ $string['contentandheadings'] = 'Contenuto ed intestazioni';
 $string['coursecategory'] = 'categoria di corso';
 $string['courserole'] = 'Ruolo di corso';
 $string['courserolelabel'] = '{$a->label} è {$a->rolename} in {$a->coursename} da {$a->categoryname}';
-$string['courserolelabelerror'] = '{$a->label} errore: il corso {$a->coursename} non esiste';
+$string['courserolelabelerror'] = 'Errore {$a->label}: il corso {$a->coursename} non esiste';
 $string['coursevalue'] = 'valore del corso';
 $string['datelabelisafter'] = '{$a->label} è dopo di {$a->after}';
 $string['datelabelisbefore'] = '{$a->label} è prima di {$a->before}';
@@ -49,12 +50,12 @@ $string['defaultx'] = 'Default ({$a})';
 $string['disabled'] = 'Disabilitato';
 $string['doesnotcontain'] = 'non contiene';
 $string['endswith'] = 'termina con';
-$string['filterallwarning'] = 'Applicare filtri alle intestazioni oltre che al contenuto potrebbe aumentare notevolmente il carico sul server. Si raccomanda di utilizzare l\'impostazione "Applica a" con moderazione, il suo uso principale è relativo al filtro multilingua.';
+$string['filterallwarning'] = 'Applicare filtri alle intestazioni oltre che al contenuto aumenta notevolmente il carico sul server. Si raccomanda di utilizzare l\'impostazione "Applica a" con moderazione, il suo uso principale è relativo al filtro multilingua.';
 $string['filtersettings'] = 'Impostazioni filtro';
 $string['filtersettingsforin'] = 'Impostazione di {$a->filter} in {$a->context}';
-$string['filtersettings_help'] = 'In questa pagina è possibile attivare o disattivare i filtri per specifiche parti del sito.
+$string['filtersettings_help'] = 'In questa pagina è possibile attivare o disattivare i filtri in specifiche parti del sito.
 
-Alcuni filtri possono avere impostazioni locali, nel qual caso sarà presente un link \'Impostazioni\' accanto al nome dl filtro.';
+Alcuni filtri possono avere impostazioni locali, nel qual caso sarà presente un collegamento \'Impostazioni\' accanto al nome dl filtro.';
 $string['filtersettingsin'] = 'Impostazione filtri {$a}';
 $string['firstaccess'] = 'Primo accesso';
 $string['globalrolelabel'] = '{$a->label} è {$a->value}';

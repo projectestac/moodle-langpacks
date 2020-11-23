@@ -103,6 +103,7 @@ $string['category:create'] = 'Creare categorie';
 $string['category:delete'] = 'Eliminare categorie';
 $string['category:manage'] = 'Gestire categorie';
 $string['category:update'] = 'Modificare categorie';
+$string['category:viewcourselist'] = 'Visualizzare elenco dei corsi dove l\'utente non è iscirtto';
 $string['category:viewhiddencategories'] = 'Visualizzare categorie nascoste';
 $string['category:visibility'] = 'Visualizzare categorie nascoste';
 $string['checkglobalpermissions'] = 'Verifica autorizzazioni';

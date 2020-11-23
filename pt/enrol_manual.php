@@ -85,4 +85,4 @@ $string['unenroluser'] = 'Tem a certeza de que pretende remover a inscrição de
 $string['unenrolusers'] = 'Cancelar inscrição dos utilizadores';
 $string['wscannotenrol'] = 'O módulo não permite inscrever manualmente um utilizador na disciplina id = {$a->courseid}';
 $string['wsnoinstance'] = 'O módulo de inscrição manual não existe ou está desativado para a disciplina (id = {$a->courseid})';
-$string['wsusercannotassign'] = 'Não tem permissão para atribuir o papel ({$a->roleid}) ao utilizador ({$a->userid}) na disciplina ({$a->courseid}).';
+$string['wsusercannotassign'] = 'Não tem permissão para atribuir o papel ({$a->roleid}) ao utilizador ({$a->userid}) nesta disciplina ({$a->courseid}).';

@@ -85,4 +85,4 @@ $string['unenroluser'] = 'هل ترغب حقاً في إلغاء انضمام "{
 $string['unenrolusers'] = 'إلغاء تسجيل المستخدمين';
 $string['wscannotenrol'] = 'عينة الملحق لا يمكنها يدوياً ضم المستخدم إلى المساق ذي المُعرَّف = {$a->courseid}';
 $string['wsnoinstance'] = 'عينة ملحق الانضمام اليدوي غير موجودة أو معطلة في المساق (المُعرَّف = {$a->courseid})';
-$string['wsusercannotassign'] = 'ليست لديك صلاحية لتعيين هذا الدور ({$a->roleid}) إلى هذا المستخدم ({$a->userid}) في هذا المساق ({$a->courseid}).';
+$string['wsusercannotassign'] = 'ليست لديك صلاحية تعيين هذا الدور ({$a->roleid}) إلى هذا المستخدم ({$a->userid}) في هذا المساق ({$a->courseid}).';

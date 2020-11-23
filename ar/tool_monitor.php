@@ -66,7 +66,8 @@ $string['managesubscriptions'] = 'رصد الأحداث';
 $string['managesubscriptionslink'] = 'يمكنك الاشتراك في القواعد من صفحة {$a}.';
 $string['messageprovider:notification'] = 'إشعارات اشتراكات القاعدة';
 $string['messagetemplate'] = 'رسالة الإشعار';
-$string['messagetemplate_help'] = 'يتم إرسال رسالة إعلام للمشتركين بمجرد الوصول إلى حد الإخطار. يمكن أن يشمل أيًا أو كلًا من العناصر النائبة التالية:
+$string['messagetemplate_help'] = 'يتم إرسال رسالة إشعار إلى المشتركين بمجرد الوصول إلى عتبة الإشعار. يمكن للرسالة أن تشمل أياً أو كلاً من العناصر النائبة التالية:
+
 * رابط إلى موقع الحدث {link}
 * رابط إلى المنطقة المراقبة {modulelink}
 * اسم القاعدة {rulename}

@@ -72,6 +72,7 @@ $string['passwordunmaskedithint'] = 'Modifica password';
 $string['passwordunmaskinstructions'] = 'Premere invio per salvare i cambiamenti';
 $string['passwordunmaskrevealhint'] = 'Visualizza';
 $string['privacy:metadata:preference:filemanager_recentviewmode'] = 'Modalità di visualizzazione del file picker selezionata più recentemente.';
+$string['privacy:preference:filemanager_recentviewmode'] = 'Preferenza di visualizzazione dei file nel file picker: {$a}';
 $string['requiredelement'] = 'Compilazione obbligatoria';
 $string['security'] = 'Sicurezza';
 $string['selectallornone'] = 'Seleziona tutti/nessuno';

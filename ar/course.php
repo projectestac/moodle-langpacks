@@ -45,16 +45,24 @@ $string['customfield_visibletoteachers'] = 'المعلمون';
 $string['errorendbeforestart'] = 'تاريخ النهاية ({$a}) يسبق تاريخ بداية المقرر';
 $string['favourite'] = 'المقررات المميزة بنجمه';
 $string['gradetopassnotset'] = 'لم يتم تحديد علامة النجاح لهذا المساق. قد يُصار إلى وضعها في مفردة التقييم للمساق (إعداد سجل العلامات).';
+$string['noaccesssincestartinfomessage'] = 'مرحباً {$a->userfirstname}،
+<p>عدد من الطلبة في {$a->coursename} لم يدخلوا إلى المساق على الإطلاق.</p>';
 $string['nocourseactivity'] = 'لا يوجد نشاط كافي بين بداية ونهاية المقرر';
 $string['nocourseendtime'] = 'المقرر لا يحتوي على تاريخ نهاية';
 $string['nocoursesections'] = 'لا توجد أقسام بالمقرر';
 $string['nocoursestudents'] = 'لا يوجد طلاب';
+$string['norecentaccessesinfomessage'] = 'مرحباً {$a->userfirstname}،
+<p>عدد من الطلبة في {$a->coursename} لم يدخلوا إلى المساق مؤخراً.</p>';
+$string['noteachinginfomessage'] = 'مرحباً {$a->userfirstname}،
+<p>هناك مساقات موعد بدئها سيحل في الأسبوع القادم، قد تم تشخيصها بأنها تفتقر إلى انضمام المعلمين أو الطلبة إليها.</p>';
 $string['privacy:completionpath'] = 'إكتمال مقرر دراسي';
 $string['privacy:favouritespath'] = 'معلومات المساقات المميزة بنجمة';
 $string['privacy:metadata:completionsummary'] = 'يحتوي المساق على معلومات الإكمال عن المستخدم';
 $string['privacy:metadata:favouritessummary'] = 'يحتوي المساق على معلومات تتعلق بتمييزه بنجمة من قبل المستخدم';
 $string['privacy:perpage'] = 'عدد المساقات التي تظهر الصفحة الواحدة.';
 $string['studentsatriskincourse'] = 'الطالب في خطر في مقرر {$a}';
+$string['studentsatriskinfomessage'] = 'مرحباً {$a->userfirstname}،
+<p>الطلبة في المساق {$a->coursename} تم تشخيصهم بأنهم معرضون إلى خطر.</p>';
 $string['target:coursecompetencies'] = 'الطلاب المعرضون لخطر عدم تحقيق الكفاءات المعينة للمساق';
 $string['target:coursecompetencies_help'] = 'يصف هذا المقصد ما إذا كان الطالب معرضاً لخطر عدم تحقيق الكفاءات المعينة للمساق. يعتبر هذا المقصد أن جميع الكفاءات المعينة للمساق يجب أن تتحقق بحلول نهاية المساق.';
 $string['target:coursecompletion'] = 'الطلاب المعرضون لخطر عدم استيفاء شروط اكمال المقرر';

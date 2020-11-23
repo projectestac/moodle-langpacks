@@ -86,7 +86,7 @@ $string['emailnowexists'] = 'O endereço de e-mail que está a tentar definir no
 $string['emailupdate'] = 'Atualização do endereço de e-mail';
 $string['emailupdatemessage'] = 'Caro(a) {$a->fullname},
 
-Foi pedida uma alteração do e-mail da sua conta de utilizador em {$a->site}.
+Foi pedida uma alteração do e-mail da sua conta de utilizador na plataforma de e-learning {$a->site}.
 Para confirmar esta alteração aceda ao seguinte endereço web:
 
 {$a->url}

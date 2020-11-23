@@ -479,6 +479,7 @@ $string['selectrole'] = 'Välj en roll';
 $string['showallroles'] = 'Visa alla roller';
 $string['showthisuserspermissions'] = 'Visa denna användares rättigheter';
 $string['site:accessallgroups'] = 'Tillträde till alla grupper';
+$string['siteadministrators'] = 'Webbplatsadministratörer';
 $string['site:approvecourse'] = 'Godkänn skapande av kurs';
 $string['site:backup'] = 'Säkerhetskopiera kurser';
 $string['site:config'] = 'Ändra konfigurationen för webbplatsen';

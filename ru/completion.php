@@ -35,6 +35,7 @@ $string['activityaggregation_all'] = 'ВСЕ выбранные элементы
 $string['activityaggregation_any'] = 'ЛЮБОЙ из выбранных элементов курса должен быть завершен';
 $string['activitycompletion'] = 'Выполнение элемента курса';
 $string['activitycompletionupdated'] = 'Изменения сохранены';
+$string['activitygradenotrequired'] = 'Оценка не требуется';
 $string['affectedactivities'] = 'Изменения повлияют на следующие элементы курса или ресурсы (<b>{$a}</b>):';
 $string['aggregationmethod'] = 'Способ объединения';
 $string['all'] = 'Соответствие всем критериям';

@@ -81,9 +81,9 @@ $string['attlsm2'] = 'Taldean ikasi';
 $string['attlsm3'] = 'Bakarka ikasi';
 $string['attlsmintro'] = 'Eztabaidatuz ...';
 $string['attlsname'] = 'Jarrerak (20 elementuko bertsioa)';
-$string['cannotfindanswer'] = 'Ez dago oraindik inkesta honetarako erantzunik';
+$string['cannotfindanswer'] = 'Ez dago oraindik hausnarketa honetarako erantzunik';
 $string['cannotfindquestion'] = 'Ez dago galdera';
-$string['cannotfindsurveytmpt'] = 'Ez da aurkitu inkesta-txantiloirik!';
+$string['cannotfindsurveytmpt'] = 'Ez da aurkitu hausnarketa-txantiloirik!';
 $string['ciq1'] = 'Ikastaroko zein unetan sentitu zara inplikatuen?';
 $string['ciq1short'] = 'Inplikatuen';
 $string['ciq2'] = 'Ikastaroko zein unetan sentitu zara urrunen?';
@@ -196,7 +196,7 @@ $string['deleteanalysis'] = 'Ezabatu erantzunen analisiak';
 $string['done'] = 'Eginda';
 $string['download'] = 'Jaitsi';
 $string['downloadexcel'] = 'Datuak Excel kalkulu-orri gisa jaitsi';
-$string['downloadinfo'] = 'Inkesta honen datu gordin guztiak Excel, SPSS edo beste paketeren batekin aztertzeko, formatu egokian deskargatu ditzakezu.';
+$string['downloadinfo'] = 'Hausnarketa honen datu gordin guztiak Excel, SPSS edo beste paketeren batekin aztertzeko, formatu egokian deskargatu ditzakezu.';
 $string['downloadresults'] = 'Emaitzak jaitsi';
 $string['downloadtext'] = 'Datuak testu arrunt fitxategi gisa jaitsi';
 $string['editingasurvey'] = 'Hausnarketa bat editatzen';
@@ -205,7 +205,7 @@ $string['eventreportdownloaded'] = 'Hausnarketaren txostena jaitsi da';
 $string['eventreportviewed'] = 'Hausnarketaren txostena ikusi da';
 $string['eventresponsesubmitted'] = 'Hausnarketa-erantzuna bidalita';
 $string['guestsnotallowed'] = 'Soilik matrikulatutako erabiltzaileak bidali ditzakete hausnarketak';
-$string['howlong'] = 'Zenbat denbora behar izan duzu inkesta hau betetzeko?';
+$string['howlong'] = 'Zenbat denbora behar izan duzu hausnarketa hau betetzeko?';
 $string['howlongoptions'] = '<1 min, 1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,>10 min';
 $string['ifoundthat'] = 'Hau aurkitu dut';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa hausnarketetan';
@@ -221,9 +221,9 @@ $string['invalidsurveyid'] = 'Hausnarketaren IDa ez zen egokia';
 $string['invalidtmptid'] = 'Txantiloiaren IDa ez da baliozkoa';
 $string['ipreferthat'] = 'Nahiago dut';
 $string['modulename'] = 'Hausnarketa';
-$string['modulename_help'] = 'Hausnarketa jarduerak on-line inguruneetan ikasketa eta ebaluazioa sustatzeko baliagarriak diren egiaztatutako hainbat hausnarketa erreminta erabiltzeko aukera ematen du. Irakasleak erreminta hauek bere ikasleak eta bere irakasteko modua hobeto ezagutzen laguntzeko erabili ditzake.
+$string['modulename_help'] = 'Hausnarketa jarduerak online inguruneetan ikasketa eta ebaluazioa sustatzeko baliagarriak diren egiaztatutako hainbat hausnarketa erreminta erabiltzeko aukera ematen du. Irakasleak erreminta hauek bere ikasleak eta bere irakasteko modua hobeto ezagutzen laguntzeko erabili ditzake.
 
-Kontuan izan hausnarketa erreminta hauetako galderak aurrez definiturik daudela. Norbere inkestak egin nahi dituen irakasleak feedback jarduera erabili behar du.';
+Kontuan izan hausnarketa erreminta hauetako galderak aurrez definiturik daudela. Norbere hausnarketak egin nahi dituen irakasleak feedback jarduera erabili behar du.';
 $string['modulenameplural'] = 'Hausnarketak';
 $string['name'] = 'Izena';
 $string['newsurveyresponses'] = 'Hausnarketaren erantzun berriak';
@@ -272,11 +272,11 @@ $string['survey:participate'] = 'Hausnarketari erantzun';
 $string['survey:readresponses'] = 'Ikusi erantzunak';
 $string['surveysaved'] = 'Hausnarketa gordeta';
 $string['surveytype'] = 'Hausnarketa mota';
-$string['surveytype_help'] = '3 inkesta mota daude eskuragarri:
+$string['surveytype_help'] = '3 hausnarketa mota daude eskuragarri:
 
-* Pentsatzeko eta Ikasteko Jarrerarako Inkesta (ATTS inglesezko hitzetatik) - pertsona bat zein neurrira arte \'konektatutako ikaslea\' den (ikastea gustagarriago aurkitzen du, eta askotan lagunkoiagoa, atseginagoa eta besteekin ideiak eraikitzeko prestutasun handiagoa izaten du) edo \'ikasle bereizia\' den (ikastean kritikoagoa eta jarrera eztabaidatsuagoa izateko joera du) neurtzeko.
+* Pentsatzeko eta Ikasteko Jarrerarako Inkesta (ATTS ingelesezko hitzetatik) - pertsona bat zein neurrira arte \'konektatutako ikaslea\' den (ikastea gustagarriago aurkitzen du, eta askotan lagunkoiagoa, atseginagoa eta besteekin ideiak eraikitzeko prestutasun handiagoa izaten du) edo \'ikasle bereizia\' den (ikastean kritikoagoa eta jarrera eztabaidatsuagoa izateko joera du) neurtzeko.
 * Gertakari kritikoetarako inkesta
-* On-line-ko Ikaste Ingurune Konstruktibistarako Inkesta (COLLES inglesezko hitzetatik) - World Wide Web-eko gaitasun interaktiboa ikasteko praktika dinamikoetan ikasleen parte-hartzea areagotzeko esplotatzeko gaitasuna monitorizatzeko.';
+* On-line-ko Ikaste Ingurune Konstruktibistarako Inkesta (COLLES ingelesezko hitzetatik) - World Wide Web-eko gaitasun interaktiboa ikasteko praktika dinamikoetan ikasleen parte-hartzea areagotzeko esplotatzeko gaitasuna monitorizatzeko.';
 $string['thanksforanswers'] = 'Eskerrik asko erantzuteagatik, {$a}';
 $string['time'] = 'Denbora';
 $string['viewsurveyresponses'] = 'Ikusi hausnarketaren {$a} erantzun';

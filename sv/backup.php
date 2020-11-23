@@ -134,6 +134,7 @@ $string['configgeneraluserscompletion'] = 'Om valet aktiverats kommer spårning 
 $string['config_keep_groups_and_groupings'] = 'Som standard, behåll nuvarande grupper och gruppindelningar.';
 $string['config_keep_roles_and_enrolments'] = 'Som standard, behåll nuvarande roller och registreringar.';
 $string['configloglifetime'] = 'Detta anger hur lång tid du vill behålla logginformation för säkerhetskopiering. Loggar som är äldre än angiven ålder raderas automatiskt. Rekommendationen är att hålla detta värde lågt eftersom logginformationen kan vara enorm.';
+$string['config_overwrite_conf'] = 'Tillåter att användaren skriver över nuvarande kursinställningar';
 $string['confirmcancel'] = 'Avbryt säkerhetskopiering';
 $string['confirmcancelimport'] = 'Avbryt import';
 $string['confirmcancelno'] = 'Stanna';

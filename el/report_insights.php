@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['actionsaved'] = 'Η αντατροφοδότησή σας του \'{$a}\' έχει αποθηκευτεί.';
+$string['actionsaved'] = 'Η αντατροφοδότησή σας του «{$a}» έχει αποθηκευτεί.';
 $string['confirmbulkaction'] = 'Σίγουρα θέλετε να σημαιοδοτήσετε τις {$a->nitems} επιλεγμένες προβλέψεις ως {$a->action};';
 $string['disabledmodel'] = 'Το μοντέλο αυτό έχει απενεργοποιηθεί από έναν διαχειριστή';
 $string['indicators'] = 'Δείκτες';

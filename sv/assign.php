@@ -200,6 +200,7 @@ $string['gradecanbechanged'] = 'Betyg kan ändras';
 $string['gradechangessaveddetail'] = 'Ändringar av betyg och återkoppling har sparats.';
 $string['graded'] = 'Betygssatt';
 $string['gradedby'] = 'Betygssatt av';
+$string['gradedfollowupsubmit'] = 'Betygssatt - uppföljning av inlämningen mottagen';
 $string['gradedon'] = 'Betygssatt den';
 $string['gradelocked'] = 'Detta betyg är låst eller skrevs över i betygsboken/betygsrapporten.';
 $string['gradeoutof'] = 'Betyg ur {$a}';

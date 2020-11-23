@@ -630,14 +630,14 @@ $string['emailcharset'] = 'Charset do e-mail';
 $string['emailconfirm'] = 'Confirme a sua conta';
 $string['emailconfirmation'] = 'Caro(a) {$a->firstname},
 
-Foi criada uma nova conta com este endereço de e-mail em \'{$a->sitename}\'.
+Foi criada uma nova conta com este endereço de e-mail na plataforma de e-learning \'{$a->sitename}\'.
 
 Para confirmar a sua conta, clique em:
 {$a->link}
 
 Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de internet.
 
-Se necessitar de ajuda, contacte o administrador do site:
+Se necessitar de ajuda, contacte o(a) administrador(a) da plataforma:
 {$a->admin}';
 $string['emailconfirmationresend'] = 'Reenviar e-mail de confirmação';
 $string['emailconfirmationsubject'] = '{$a}: Confirmação da conta';
@@ -677,7 +677,7 @@ $string['emailnotfound'] = 'O e-mail não foi encontrado na base de dados';
 $string['emailonlyallowed'] = 'Este e-mail não está entre os permitidos ({$a})';
 $string['emailpasswordchangeinfo'] = 'Caro(a) {$a->firstname},
 
-Foi pedida uma nova senha para a sua conta em \'{$a->sitename}\'.
+Foi pedida uma nova senha para a sua conta na plataforma de e-learning  \'{$a->sitename}\'.
 
 Para mudar a sua senha, aceda a:
 
@@ -685,20 +685,20 @@ Para mudar a sua senha, aceda a:
 
 Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de internet.
 
-Se necessitar de ajuda, contacte o administrador do site:
+Se necessitar de ajuda, contacte o(a) administrador(a) da plataforma:
 {$a->admin}';
 $string['emailpasswordchangeinfodisabled'] = 'Caro(a) {$a->firstname},
 
-Foi pedida uma nova senha para a sua conta em \'{$a->sitename}\'.
+Foi pedida uma nova senha para a sua conta na plataforma de e-learning \'{$a->sitename}\'.
 
-Infelizmente, a sua conta neste site está desativada logo a senha não pode ser reposta. Por favor, contacte o administrador do site {$a->admin}.';
+Infelizmente, a sua conta neste site está desativada logo a senha não pode ser reposta. Por favor, contacte o(a) administrador(a) da plataforma {$a->admin}.';
 $string['emailpasswordchangeinfofail'] = 'Caro(a) {$a->firstname},
 
-Foi pedida uma nova senha para a sua conta em \'{$a->sitename}\'.
+Foi pedida uma nova senha para a sua conta na plataforma de e-learning \'{$a->sitename}\'.
 
 Infelizmente as senhas não podem ser redefinidas neste site.
 
-Por favor, contacte o administrador do site:
+Por favor, contacte o(a) administrador(a) da plataforma:
 {$a->admin}';
 $string['emailpasswordchangeinfosubject'] = '{$a}: Informação para alteração de senha';
 $string['emailpasswordconfirmation'] = 'Caro(a) {$a->firstname},
@@ -711,7 +711,7 @@ Para confirmar este pedido e receber a nova senha por e-mail, aceda ao seguinte 
 
 Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de internet.
 
-Se necessitar de ajuda, contacte o administrador do site:
+Se necessitar de ajuda, contacte o(a) administrador(a) da plataforma:
 {$a->admin}';
 $string['emailpasswordconfirmationsubject'] = '{$a}:  Confirmação de alteração da senha';
 $string['emailpasswordconfirmmaybesent'] = '<p>Se indicou um nome de utilizador ou endereço de e-mail correto, deverá receber um e-mail.</p>
@@ -736,7 +736,7 @@ Para confirmar este pedido e definir uma nova senha, aceda ao seguinte endereço
 
 Se não fez um pedido de reposição da senha ignore esta mensagem.
 
-Se precisar de ajuda, por favor, contacte o administrador do site:
+Se precisar de ajuda, por favor, contacte o(a) administrador(a) da plataforma:
 {$a->admin}.';
 $string['emailresetconfirmationsubject'] = '{$a}: Pedido de reposição de senha';
 $string['emailresetconfirmsent'] = 'Foi enviado um e-mail para o seu endereço em <b>{$a}</b>.<br />Este contém instruções para confirmar e concluir a alteração da sua senha. Se precisar de ajuda, por favor, contacte o administrador do site, {$a->admin}.';
@@ -1342,7 +1342,7 @@ $string['newpasswordfromlost'] = '<strong>Atenção</strong>: A sua <strong>senh
 $string['newpassword_help'] = 'Insira uma nova senha ou deixe em branco para manter a atual.';
 $string['newpasswordtext'] = 'Caro(a) {$a->firstname},
 
-A senha da sua conta no site \'{$a->sitename}\' foi substituída por uma nova senha provisória.
+A senha da sua conta na plataforma de e-learning \'{$a->sitename}\' foi substituída por uma nova senha provisória.
 
 Os seus dados de acesso atuais são:
    Nome de utilizador: {$a->username}
@@ -1352,8 +1352,7 @@ Por favor, visite esta página, para modificar a sua senha: {$a->link}
 
 Se não conseguir seguir esta hiperligação, copie o URL e cole na barra de endereço do seu navegador.
 
-Cumprimentos do administrador do site \'{$a->sitename}\',
-{$a->signoff}';
+Cumprimentos do(a) administrador(a) da plataforma de e-learning  \'{$a->sitename}\',{$a->signoff}';
 $string['newpicture'] = 'Nova imagem';
 $string['newpicture_help'] = 'Para adicionar uma nova imagem, procure e selecione uma imagem (formato JPG ou PNG) e clique em "Atualizar Perfil". A imagem será recortada na forma de um quadrado e redimensionada para 100x100 píxeis.';
 $string['newpictureusernotsetup'] = 'A imagem de perfil só pode ser adicionada depois de guardar todas as informações de perfil obrigatórias.';
@@ -1370,18 +1369,18 @@ $string['newuser'] = 'Novo utilizador';
 $string['newusernewpasswordsubj'] = 'Nova conta de utilizador';
 $string['newusernewpasswordtext'] = 'Caro(a) {$a->firstname},
 
-Foi criada uma nova conta de utilizador em seu nome no site \'{$a->sitename}\' e foi-lhe atribuída uma senha temporária.
+Foi criada uma nova conta de utilizador em seu nome na plataforma de e-learning \'{$a->sitename}\' e foi-lhe atribuída uma senha temporária.
 
 Os seus dados de acesso atuais são:
      Nome de utilizador: {$a->username}
      Senha: {$a->newpassword}
      (terá de alterar a senha quando entrar pela primeira vez)
 
-Para começar a usar o site \'{$a->sitename}\' aceda a {$a->link}.
+Para começar a usar na plataforma de e-learning \'{$a->sitename}\' aceda a {$a->link}.
 
 Se não conseguir seguir esta hiperligação, copie o URL e cole na barra de endereço do seu navegador.
 
-Cumprimentos do administrador do site \'{$a->sitename}\',
+Cumprimentos do(a) administrador(a) da plataforma de e-learning  \'{$a->sitename}\',
 {$a->signoff}';
 $string['newusers'] = 'Novos utilizadores';
 $string['newwindow'] = 'Nova janela';

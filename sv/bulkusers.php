@@ -32,6 +32,7 @@ $string['allselectedusers'] = 'Alla valda ({$a->count}/{$a->total})';
 $string['allusers'] = 'Alla användare';
 $string['available'] = 'Tillgänglig';
 $string['confirmmessage'] = 'Vill du verkligen skicka det ovanstående meddelandet till alla dessa användare?<br />{$a}';
+$string['deleteduser'] = 'Borttagen användare';
 $string['nofilteredusers'] = 'Det gick inte att hitta några användare(0/{$a})';
 $string['noselectedusers'] = 'Inga användare är valda';
 $string['removeall'] = 'Ta bort alla ';

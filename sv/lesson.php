@@ -67,6 +67,7 @@ $string['answeredcorrectly'] = 'besvarad korrekt';
 $string['answersfornumerical'] = 'Svar på numeriska frågor bör vara matchade par av minimala och maximala värden';
 $string['arrangebuttonshorizontally'] = 'Vill Du ordna knapparna till innehåll horisontellt?';
 $string['attempt'] = 'Försök: {$a}';
+$string['attemptheader'] = 'Försök';
 $string['attempts'] = 'Försök';
 $string['attemptsdeleted'] = 'Tog bort försök';
 $string['attemptsremaining'] = 'Du har {$a} återstående försök';
@@ -170,6 +171,7 @@ $string['description'] = 'Beskrivning';
 $string['detailedstats'] = 'Detaljerad statistik';
 $string['didnotanswerquestion'] = 'Besvarade inte den här frågan';
 $string['didnotreceivecredit'] = 'Fick inte tillgodoräkna sig resultat';
+$string['disabled'] = 'Inaktiverad';
 $string['displaydefaultfeedback'] = 'Visa förinställd återkoppling';
 $string['displaydefaultfeedback_help'] = '<p align="center"><strong>Visa standardiserad återkoppling </strong></p>
 

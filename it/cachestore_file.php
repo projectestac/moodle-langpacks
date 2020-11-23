@@ -34,8 +34,11 @@ $string['prescan'] = 'Prescansione della cartella';
 $string['prescan_help'] = 'Consente di eseguire una scansione della cartella al primo utilizzo della cache in modo da usare i risultati della scansione per soddisfare le richieste di file già presenti in cache. Può essere di aiuto in presenza di file system lenti e che possano rappresentare un collo di bottiglia.';
 $string['privacy:metadata'] = 'Il plugin cachestore "File cache" memorizza dati per breve tempo in quanto può fungere da cache. Tali dati vengono eliminati regolarmente.';
 $string['singledirectory'] = 'Cartella unica per lo store';
-$string['singledirectory_help'] = 'I file presenti nella cache saranno immagazzinati in una cartella unica, senza suddividerli in diverse sotto cartelle.<br />
-L\'aumento di velocità ottenibile è però limitato dal rischio di raggiungere i limiti del file system.<br />
-Si consiglia di attivare l\'impostazione solo nei seguenti casi:<br />
-- è certo che il numero di elementi in cache sarà sufficientemente piccolo da non raggiungere i limiti del file system in uso
-- i dati da inserire nella cache non richiedono troppe risorse per essere generati, nel qual caso per evitare problemi è preferibile lasciare l\'impostazione al suo default.';
+$string['singledirectory_help'] = 'I file presenti nella cache saranno immagazzinati in una cartella unica, senza suddividerli in diverse sotto cartelle.
+
+L\'aumento di velocità ottenibile è però controbilanciato dal rischio di raggiungere i limiti del file system.
+
+Si consiglia di attivare l\'impostazione solo nei seguenti casi:
+
+* è certo che il numero di elementi in cache sarà sufficientemente piccolo da non raggiungere i limiti del file system in uso
+* i dati da inserire nella cache non richiedono troppe risorse per essere generati, nel qual caso per evitare problemi è preferibile lasciare l\'impostazione al suo default.';

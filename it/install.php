@@ -34,8 +34,8 @@ $string['admindirsettingsub'] = 'Alcuni web host utilizzano la cartella /admin c
 Tutti i link che puntano ai file di amministrazione di Moodle terranno conto di questa variazione.';
 $string['availablelangs'] = 'Elenco delle lingue disponibili';
 $string['caution'] = 'Attenzione';
-$string['chooselanguage'] = 'Scegli la lingua';
-$string['chooselanguagehead'] = 'Scegli la lingua';
+$string['chooselanguage'] = 'Seleziona lingua';
+$string['chooselanguagehead'] = 'Seleziona lingua';
 $string['chooselanguagesub'] = 'Scegli la lingua da usare durante l\'installazione. La lingua usata nel sito e dagli utenti potrà essere modificata in seguito.';
 $string['cliadminemail'] = 'Nuovo indirizzo email dell\'amministratore';
 $string['cliadminpassword'] = 'Password per l\'amministratore';
@@ -121,21 +121,21 @@ $string['installation'] = 'Installazione';
 $string['invaliddbprefix'] = 'Il prefisso non è valido. Può contenere solamente lettere minuscole d il trattino basso.';
 $string['langdownloaderror'] = 'Purtroppo non è stato possibile scaricare la lingua "{$a}". L\'installazione proseguirà in lingua Inglese.';
 $string['langdownloadok'] = 'La lingua "{$a}" è stata installata. L\'installazione proseguirà in questa lingua.';
-$string['memorylimit'] = 'Memory Limit';
+$string['memorylimit'] = 'Limite di memoria';
 $string['memorylimiterror'] = 'Il limite di memoria del PHP è impostato a un valore troppo basso ... potrebbero verificarsi problemi in futuro.';
 $string['memorylimithelp'] = '<p>Il limite di memoria assegnata al PHP attualmente è {$a}.</p>
 
-<p>Tale limite potrà causare problemi nel funzionamento di Moodle, specialmente se usi molti moduli di attività con molti utenti.</p>
+<p>Tale limite potrà causare problemi nel funzionamento di Moodle, specialmente se si utilizzano molti moduli di attività con molti utenti.</p>
 
-<p>Ti raccomandiamo di impostare il PHP con un limite più alto, ad esempio 40M, usando uno dei modi seguenti:
+<p>Raccomandiamo di impostare il PHP con un limite più alto, ad esempio 40M, usando uno dei modi seguenti:
 <ol>
-<li>Se possibile, ricompila il PHP con l\'opzione <i>--enable-memory-limit</i>.
+<li>Se possibile, ricompilare il PHP con l\'opzione <i>--enable-memory-limit</i>.
 Questo consentirà a Moodle di impostare in autonomia il limite di memoria.</li>
-<li>Se hai accesso al file php.ini, è possibile modificare la variabile <b>memory_limit</b> a un valore più alto, ad esempio 40M. Se non hai accesso, puoi chiedere all\'amministratore di sistema di farlo.</li>
+<li>Se si ha accesso al file php.ini, è possibile modificare la variabile <b>memory_limit</b> a un valore più alto, ad esempio 40M. Se non hai accesso, puoi chiedere all\'amministratore di sistema di farlo.</li>
 <li>Su alcuni server con il PHP è possibile creare un file .htaccess nella cartella di Moodle contenente questa linea:
 <blockquote>php_value memory_limit 40M</blockquote>
-<p>Tuttavia, su alcuni server la direttiva potrebbe impedire a <b>tutte</b> le pagine PHP di funzionare (appariranno degli errori durante la visualizzazione delle pagine), in tal caso dovrai rimuovere il file .htaccess.</li></ol>';
-$string['mysqliextensionisnotpresentinphp'] = 'Il PHP non è stato configurato correttamente con l\'estensione MySQLi e non può comunicare con MySQL. Controlla il file php.ini o ricompila il PHP.';
+<p>Tuttavia, su alcuni server la direttiva potrebbe impedire a <b>tutte</b> le pagine PHP di funzionare (appariranno degli errori durante la visualizzazione delle pagine), in tal caso si dovrà rimuovere il file .htaccess.</li></ol>';
+$string['mysqliextensionisnotpresentinphp'] = 'Il PHP non è stato configurato correttamente con l\'estensione MySQLi e non può comunicare con MySQL. Controllare il file php.ini o ricompilare il PHP.';
 $string['nativemariadb'] = 'MariaDB (native/mariadb)';
 $string['nativemariadbhelp'] = '<p>Devi ora configurare il database dove Moodle memorizzerà la maggior parte dei dati e delle impostazioni.</p>
 <p>Il nome del database, il nome utente e la password sono campi obbligatori, il prefisso delle tabelle è facoltativo.</p>

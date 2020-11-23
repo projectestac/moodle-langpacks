@@ -16,16 +16,19 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'jclic', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'report_backups', language 'sv', branch 'MOODLE_38_STABLE'
  *
- * @package   jclic
+ * @package   report_backups
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['attempts'] = 'محاولات';
-$string['avaluation_score'] = 'تحقيق هذه الدرجة العمومية';
-$string['maxgrade'] = 'الدرجات/النشاطات التي ينبغي تحقيقها';
-$string['score'] = 'الدرجة';
+$string['backupofcourselogs'] = 'Loggposter för säkerhetskopiering av {$a}';
+$string['logsofbackupexecutedon'] = 'Loggposter för säkerhetskopiering utförd {$a}';
+$string['nobackupsfound'] = 'Inga säkerhetskopior hittades.';
+$string['nologsfound'] = 'Inga loggposter hittades för denna säkerhetskopiering.';
+$string['pluginname'] = 'Rapporter för säkerhetskopieringar';
+$string['privacy:metadata'] = 'Pluginmodulen för rapporter för säkerhetskopieringar lagrar ingen personinformation.';
+$string['viewlogs'] = 'Visa loggposter';

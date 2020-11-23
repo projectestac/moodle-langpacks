@@ -229,6 +229,7 @@ $string['typecourse'] = 'Händelse för kurs';
 $string['typedue'] = '';
 $string['typegradingdue'] = '';
 $string['typegroup'] = 'Händelse för grupp';
+$string['typeopen'] = 'Öppen händelse';
 $string['typesite'] = 'Händelse för webbplats';
 $string['typeuser'] = 'Händelse för användare';
 $string['upcomingevents'] = 'Kommande händelser';

@@ -514,6 +514,7 @@ $string['usernotdeletedadmin'] = 'Användare inte raderad - kan inte ta bort adm
 $string['usernotdeletederror'] = 'Användaren togs inte bort - okänt fel';
 $string['usernotdeletedmissing'] = 'Användaren togs inte bort - det gick inte att hitta användarnamnet.';
 $string['usernotdeletedoff'] = 'Användaren har inte tagits bort - det är inte tillåtet att ta bort';
+$string['usernotfullysetup'] = 'Användare inte färdigkonfigurerad';
 $string['usernotincourse'] = 'Denna användare finns inte i den här kursen!';
 $string['usernotrenamedadmin'] = 'Det går inte att byta namn på ett konto för administratörer';
 $string['usernotrenamedexists'] = 'Användarnamnet har inte ändrats eftersom det angivna namnet redan används.';

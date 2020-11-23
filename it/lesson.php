@@ -34,7 +34,7 @@ $string['actionaftercorrectanswer_help'] = 'Dopo aver risposto correttamente ad 
 * Visualizza una pagina dove non è stata data una risposta - Le pagine vengono visualizzate casualmente e le pagine dove non è stata data una risposta vengono visualizzate di nuovo';
 $string['actions'] = 'Azioni';
 $string['activitylink'] = 'Collegamento ad una attività';
-$string['activitylink_help'] = 'Per fornire un collegamento ad un\'altra attività del corso quando si raggiunge la fine della lezione, seleziona il collegamento con il menu a discesa.';
+$string['activitylink_help'] = 'Per fornire un collegamento ad un\'altra attività del corso quando si raggiunge la fine della lezione, selezionare il collegamento tramite il menu a discesa.';
 $string['activitylinkname'] = 'Vai a {$a}';
 $string['activityoverview'] = 'Ci sono lezioni che devi svolgere';
 $string['addabranchtable'] = 'Aggiungi pagina con contenuto';

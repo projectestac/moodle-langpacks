@@ -57,6 +57,7 @@ $string['cannotdownload'] = 'Datei kann nicht herunter geladen werden';
 $string['cannotdownloaddir'] = 'Verzeichnis kann nicht herunter geladen werden';
 $string['cannotinitplugin'] = 'Aufruf plugin_init fehlgeschlagen';
 $string['cannotunzipcontentunreadable'] = 'Diese Datei kann nicht entpackt werden, weil der Dateiinhalt nicht gelesen werden kann.';
+$string['cannotunzipextractfileerror'] = 'Diese Datei kann nicht entpackt werden, weil eine oder mehrere seiner Dateien nicht gelesen werden können.';
 $string['cannotunzipquotaexceeded'] = 'Diese Datei kann nicht entpackt werden, weil die maximal erlaubte Größe in diesem entwurfsbereich überschritten würde.';
 $string['choosealink'] = 'Link wählen...';
 $string['chooselicense'] = 'Lizenz';

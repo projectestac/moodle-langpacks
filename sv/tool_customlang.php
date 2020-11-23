@@ -54,5 +54,6 @@ $string['placeholder'] = 'Platshållare';
 $string['placeholder_help'] = 'Platshållare är speciella uttryck som `{$a}` eller `{$a->something}` innuti strängen. De ersätts med ett värde när strängen skrivs ut på skärmen. Det är viktigt att kopiera dem exakt som de är i den ursprungliga strängen. Översätt inte dessa eller ändra deras vänster till-höger orientering.';
 $string['placeholderwarning'] = 'strängen innehåller en platshållare';
 $string['pluginname'] = 'Språkanpassning';
+$string['privacy:metadata'] = 'Pluginmodulen för språkanpassningar lagrar ingen personinformation.';
 $string['savecheckin'] = 'Spara ändringar till språkpaketet';
 $string['savecontinue'] = 'Använd ändringarna och fortsätt redigering';

@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['confirmstart'] = 'Il quiz ha un limite di tempo di {$a}. Il tempo sarà conteggiato a partire dall\'inizio del tentativo, il quiz deve essere inviato prima della scadenza. Sei sicuro di iniziare?';
+$string['confirmstart'] = 'Il quiz ha un limite di tempo di {$a}. Il tempo sarà conteggiato a partire dall\'inizio del tentativo senza possibilità di metterlo in pausa e il quiz dovrà essere inviato prima della scadenza. Sei sicuro di iniziare?';
 $string['confirmstartheader'] = 'Tempo limite';
 $string['pluginname'] = 'Regola di accesso quiz Tempo massimo';
 $string['privacy:metadata'] = 'Il plugin \'Regola di accesso quiz Tempo massimo\' non memorizza dati personali.';

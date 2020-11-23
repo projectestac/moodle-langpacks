@@ -33,6 +33,6 @@ $string['pluginname'] = 'Taldearen araberako baldintza';
 $string['privacy:metadata'] = 'Taldearen araberako baldintza pluginak ez du datu pertsonalik biltzen.';
 $string['requires_anygroup'] = 'Edozein taldeetako kide zara';
 $string['requires_group'] = '<strong>{$a}</strong> taldeko kide zara';
-$string['requires_notanygroup'] = 'Ez zara talde bateko kide';
+$string['requires_notanygroup'] = 'Ez zara talderen bateko kide';
 $string['requires_notgroup'] = 'Ez zara <strong>{$a}</strong> taldeko kidea';
 $string['title'] = 'Taldea';

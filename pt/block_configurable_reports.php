@@ -70,7 +70,7 @@ $string['comp_customsql'] = 'SQL personalizado';
 $string['comp_customsql_help'] = '<p>Adicione uma consulta SQL funcional. Não use o prefixo da base de dados Moodle $CFG->prefix. Use "prefix_" sem aspas </p>
 <p>Exemplo: SELECT * FROM prefix_disciplina </p>
 
-<p>Pode encontrar muitos relatórios SQL aqui: <a href="http://docs.moodle.org/pt/ad-hoc_contributed_reports" target="_blank">relatórios ad-hoc de terceiros</a> < / p>
+<p>Pode encontrar muitos relatórios SQL aqui: <a href="http://docs.moodle.org/pt/ad-hoc_contributed_reports" target="_blank">relatórios ad hoc de terceiros</a> < / p>
 
 <p>Uma estrutura atualizada das tabelas do Moodle e as suas relações interligadas: <a href="https://docs.moodle.org/dev/Database_Schema" target="_blank">esquema da base de dados</a></p>
 

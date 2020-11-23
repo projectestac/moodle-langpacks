@@ -125,4 +125,6 @@ $string['privacy:passwordresetpath'] = 'Reimpostazioni password';
 $string['privacy:privatefilespath'] = 'File privati';
 $string['privacy:profileimagespath'] = 'Immagini del profilo';
 $string['privacy:sessionpath'] = 'Dati della sessione';
-$string['target:upcomingactivitiesdue_help'] = 'L\'obiettivo genera promemoria per le scadenze delle prossime attività.';
+$string['target:upcomingactivitiesdue'] = 'Prossime attività da svolgere';
+$string['target:upcomingactivitiesdue_help'] = 'L\'obiettivo genera promemoria per prossime attività da svolgere.';
+$string['target:upcomingactivitiesdueinfo'] = 'Di seguito sono elencate tutte le considerazioni relative alle prossime attività da svolgere. Gli studenti hanno ricevuto le considerazioni direttamente.';

@@ -429,7 +429,7 @@ $string['notacceptedrole'] = 'Je huidige rol behoort niet tot die rollen die een
 Als je wil zien wie al een badge verdient heeft, dan kan je volgende pagina bezoeken: {$a}';
 $string['notconnected'] = 'Niet verbonden';
 $string['notealignment'] = 'Externe vaardigheden of standaarden die onder deze badge vallen kunnen hier opgegeven worden. Elke vaardigheid of standaard wordt op de badge-pagina getoond.';
-$string['noteendorsement'] = 'Goedkeuring door een dered partij kan gebuikt worde om de badge meer waardevol te maken. Zo kan bijvoorbeeld een badge, uitgereikt door een leraar, goedgekeurd worden door de school, of kan een badge die uitgereikt wordt door een lokale entiteit goedgekeurd worden door een nationale entiteit.';
+$string['noteendorsement'] = 'Goedkeuring door een derde partij kan gebruikt worden om de badge meer waardevol te maken. Zo kan bijvoorbeeld een badge, uitgereikt door een leraar, goedgekeurd worden door de school, of kan een badge die uitgereikt wordt door een lokale entiteit goedgekeurd worden door een nationale entiteit.';
 $string['noterelated'] = 'Badges met een connectie kunnen als gerelateerd gemarkeerd worden. Bijvoorbeeld badges met dezelfde criteria die in verschillende talen getoond worden, kunnen als gerelateerd aangeduid worden. Alle gerelateerde badges worden op de badge-pagina getoond.';
 $string['nothingtoadd'] = 'Er zijn geen criteria beschikbaar om toe te voegen';
 $string['notification'] = 'Waarschuw uitgever van de badge';

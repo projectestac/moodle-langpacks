@@ -68,7 +68,7 @@ $string['addingdatatoexisting'] = 'Aggiungi a dati esistenti';
 $string['additionalnames'] = 'Nomi aggiuntivi';
 $string['addlinkhere'] = 'Aggiungi collegamento qui';
 $string['addnewcategory'] = 'Aggiungi una nuova categoria';
-$string['addnewcourse'] = 'Aggiungi un corso';
+$string['addnewcourse'] = 'Aggiungi corso';
 $string['addnewuser'] = 'Nuovo utente';
 $string['addnousersrecip'] = 'Aggiungi all\'elenco dei destinatari gli utenti che non hanno mai acceduto {$a}';
 $string['addpagehere'] = 'Aggiungi testo qui';
@@ -331,7 +331,7 @@ $string['courseavailablenot'] = 'Corso non disponibile agli studenti';
 $string['coursebackup'] = 'Backup del corso';
 $string['coursebulkaction'] = 'Azioni per tutti i corsi selezionati';
 $string['coursecategories'] = 'Categorie di corso';
-$string['coursecategory'] = 'Categoria del corso';
+$string['coursecategory'] = 'Categoria di corsi';
 $string['coursecategorydeleted'] = 'La categoria di corsi {$a} è stata eliminata';
 $string['coursecategory_help'] = '<p>L\'amministratore di questo sito Moodle dovrebbe aver predisposto diverse categorie di corsi</p>
 

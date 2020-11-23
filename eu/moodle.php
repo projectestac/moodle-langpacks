@@ -109,7 +109,7 @@ $string['adminhelpsitesettings'] = 'Zehaztu webgunearen lehen orriaren itxura';
 $string['adminhelpstickyblocks'] = 'Konfiguratu bloke finkoak Moodleren bidez';
 $string['adminhelpthemes'] = 'Erabaki webgune osoaren itxura (koloreak, letra-tipoak, ...)';
 $string['adminhelpuploadusers'] = 'Inportatu erabiltzaile berrien kontuak testu-fitxategi batetik';
-$string['adminhelpusers'] = 'Zehaztu erabiltzaileak eta egiaztatzeko modua';
+$string['adminhelpusers'] = 'Zehaztu erabiltzaileak eta autentifikazio-modua';
 $string['adminhelpxmldbeditor'] = 'XMLDB fitxategiak editatzeko interfazea. Soilik garatzaileentzat.';
 $string['administration'] = 'Kudeaketa';
 $string['administrationsite'] = 'Gunearen kudeaketa';
@@ -1769,6 +1769,7 @@ $string['search'] = 'Bilatu';
 $string['searchagain'] = 'Berriz bilatu';
 $string['searchbyemail'] = 'Bilatu helbide elektronikoaren arabera';
 $string['searchbyusername'] = 'Bilatu erabiltzaile-izenaren arabera';
+$string['searchcoursecategories'] = 'Bilatu kategoriak';
 $string['searchcourses'] = 'Bilatu Ikastaroak';
 $string['search_help'] = 'Testuko edozein tokitan hitz bat edo biko oinarrizko bilaketetarako, idatzi horiek tarte bat utzita. Bi karaktere baino gehiagoko hitz guztiak erabiltzen dira.
 

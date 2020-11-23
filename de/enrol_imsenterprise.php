@@ -35,7 +35,7 @@ $string['categoryseparator'] = 'Trennzeichen für Kategorien';
 $string['categoryseparator_desc'] = 'Erforderlich, falls "Kategorie-ID-Nummer" aktiviert ist. Zeichen zum Trennen des Kategorienamens und der ID-Nummer.';
 $string['coursesettings'] = 'Kurseinstellungen';
 $string['createnewcategories'] = 'Neue (verborgene) Kurskategorien anlegen, wenn nicht in Moodle gefunden';
-$string['createnewcategories_desc'] = 'Wenn das <org><orgunit> Element in der importierten Datei enthalten ist, wird es benutzt um einen Kurs einer Kurskategorie zuzuordnen, sofern der Kurs neu angelegt wird. Bereits bestehende Kurse werden dadurch NICHT verschoben.
+$string['createnewcategories_desc'] = 'Wenn das &lt;org&gt;&lt;orgunit&gt;-Element in der importierten Datei enthalten ist, wird es benutzt um einen Kurs einer Kurskategorie zuzuordnen, sofern der Kurs neu angelegt wird. Bereits bestehende Kurse werden dadurch NICHT verschoben.
 Wenn keine Kategorie mit dem Namen existiert, wird diese neu als verborgene Kategorie angelegt.';
 $string['createnewcourses'] = 'Erstelle neue (verborgene) Kurse, wenn nicht in Moodle gefunden';
 $string['createnewcourses_desc'] = 'Funktion: Das IMS-Einschreibungsplugin kann neue Kurse anlegen wenn es diese in der IMS Datei, nicht aber in der Moodle-Datenbank findet. Jeder neue Kurs wird so angelegt, dasser für Teilnehmer nicht verfügbar ist. ';
@@ -78,7 +78,7 @@ $string['settingfullnamedescription'] = 'Der Langtitel des Kurses ist ein Pflich
 $string['settingshortname'] = 'IMS Beschreibungs-Tag für den kurzen Kursnamen';
 $string['settingshortnamedescription'] = 'Der Kurztitel des Kurses ist ein Pflichtfeld. Das diesen enthaltende Beschreibungsfeld inder IMS Enterprise-Datei ist festzulegen.';
 $string['settingsummary'] = 'IMS Beschreibungs-Tag für die Kursbeschreibung';
-$string['settingsummarydescription'] = 'Dies ist ein optionales Feld. Es kann auf Wunsch leer bleiben.';
+$string['settingsummarydescription'] = 'Dies ist ein optionales Feld. Es kann auf Wunsch leer bleiben, wenn Sie keine Kursbeschreibung angeben möchten.';
 $string['sourcedidfallback'] = '"sourcedid" statt "userid" für die Nutzer-ID verwenden, wenn das Feld "userid" nicht gefunden wird';
 $string['sourcedidfallback_desc'] = 'Im IMS Datensatz wird im <sourceid>-Feld die dauerhafte persönliche ID-Bezeichnung des Nutzers aus dem Ursprungssystem hinterlegt.  Das <userid>-Feld ist ein zusätzliches Feld und enthält einen ID-Code, mit dem der Nutzer sich einloggen kann. Manchmal – jedoch nicht immer – sind die Einträge identisch.
 

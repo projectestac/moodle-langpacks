@@ -96,6 +96,7 @@ $string['modeinstructionfacetoface'] = 'Aurrez aurrekoa';
 $string['modeinstructionfullyonline'] = 'Guztiz online';
 $string['modeloutputdir'] = 'Modeloaren irteera-direktorioa';
 $string['modeloutputdirinfo'] = 'Aurreikuspen-prozesatzaileek ebaluazio informazio guztia gordetzeko erabiliko duten direktorioa. Arazketarako eta ikerketarako baliagarria.';
+$string['modeloutputdirwithdefaultinfo'] = 'Aurreikuspen-prozesatzaileak egindako ebaluazio guztien informazioa gordeko duen direktorioa. Arazketa eta ikerketarako baliagarria. Hutsik utziz gero, {$a} erabiliko da modu lehenetsian.';
 $string['modeltimelimit'] = 'Analizatzeko denbora-muga modeloko';
 $string['modeltimelimitinfo'] = 'Ezarpen honek modelo bakoitzak guneko edukiak analizatzen ematen duen denbora mugatzen du.';
 $string['neutral'] = 'Neutrala';

@@ -57,6 +57,7 @@ $string['cannotdownload'] = 'Ezin da fitxategi hau jaitsi';
 $string['cannotdownloaddir'] = 'Ezin da karpeta hau jaitsi';
 $string['cannotinitplugin'] = 'Errorea plugin_init-era deia egitean';
 $string['cannotunzipcontentunreadable'] = 'Ezin da fitxategi hau erauzi bere edukiak ezin direlako irakurri.';
+$string['cannotunzipextractfileerror'] = 'Ezin da fitxategia deskonprimatu fitxategiren bat ezin delako irakurri.';
 $string['cannotunzipquotaexceeded'] = 'Ezin da fitxategia erauzi eremu honetako gehienezko tamaina gaindituko litzatekeelako.';
 $string['choosealink'] = 'Aukeratu esteka bat...';
 $string['chooselicense'] = 'Aukeratu lizentzia';
