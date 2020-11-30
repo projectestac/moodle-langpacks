@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,18 +12,24 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'mnet', language 'ar', version '3.8'.
  *
- * @package   mnet
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     mnet
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (مُوَقَّع ذاتياً)';
+$string['RPC_HTTPS_VERIFIED'] = 'HTTPS (مُوَقَّع)';
+$string['RPC_HTTP_PLAINTEXT'] = 'HTTP غير مشفر';
+$string['RPC_HTTP_SELF_SIGNED'] = 'HTTP (مُوَقَّع ذاتياً)';
+$string['RPC_HTTP_VERIFIED'] = 'HTTP (مُوَقَّع)';
 $string['aboutyourhost'] = 'حول خادمك';
 $string['accesslevel'] = 'مستوى الوصول';
 $string['addhost'] = 'إضافة مستضيف';
@@ -45,8 +50,8 @@ $string['couldnotgetcert'] = 'لا توجد شهادة مصادقة في <br />{
 $string['couldnotmatchcert'] = 'هذا لا يطابق شهادة المصادقة المنشورة حالياً من قبل مخدم الويب.';
 $string['courses'] = 'المساقات';
 $string['courseson'] = 'المساقات في';
-$string['currentkey'] = 'المفتاح العام الحالي';
 $string['current_transport'] = 'النقل الحالي';
+$string['currentkey'] = 'المفتاح العام الحالي';
 $string['databaseerror'] = 'تعذرت كتابة التفاصيل في قاعدة البيانات.';
 $string['deleteaserver'] = 'حذف المخدم';
 $string['deletedhostinfo'] = 'لقد تم حذف هذا المضيف. إذا إردت إلغاء حذفه، إقلب حالة الحذف إلى \'لا\'.';
@@ -92,9 +97,9 @@ $string['hostnamehelp'] = 'اسم المجال المؤهل بالكامل لل�
 $string['hostnotconfiguredforsso'] = 'هذا المخدم غير مهيأ لتسجيل الدخول عن بُعد.';
 $string['hostsettings'] = 'إعدادات المضيف';
 $string['http_self_signed_help'] = 'إسمح بالاتصالات مستعملاً شهادة مصادقة SSL موقعة ذاتياً (إصنعها بنفسك) في المضيف البعيد.';
+$string['http_verified_help'] = 'إسمح بالاتصالات مستعملاً شهادة مصادقة SSL موثوقة لـ PHP في المضيف البعيد، ولكن عبر http (وليس https).';
 $string['https_self_signed_help'] = 'إسمح بالاتصالات مستعملاً شهادة مصادقة SSL موقعة ذاتياً (إصنعها بنفسك) لـ PHP في المضيف البعيد عبر http.';
 $string['https_verified_help'] = 'إسمح بالاتصالات مستعملاً شهادة مصادقة SSL موثوقة في المضيف البعيد.';
-$string['http_verified_help'] = 'إسمح بالاتصالات مستعملاً شهادة مصادقة SSL موثوقة لـ PHP في المضيف البعيد، ولكن عبر http (وليس https).';
 $string['id'] = 'المُعرَّف';
 $string['idhelp'] = 'هذه القيمة معينة تلقائياً ولا يمكن تغييرها';
 $string['importfields'] = 'الحقول المطلوب استيرادها';
@@ -129,6 +134,7 @@ $string['methodsavailableonhostinservice'] = 'الطرق المتاحة لـ {$a
 $string['methodsignature'] = 'توقيع الطريقة لـ {$a}';
 $string['mnet'] = 'شبكة مودل';
 $string['mnet_concatenate_strings'] = 'أَتْبِع (حتى) 3 نصوص وأعط الناتج';
+$string['mnet_session_prohibited'] = 'المستخدمون من مخدمك ليس مسموحاً لهم حالياً بالتجوال في {$a}.';
 $string['mnetdisabled'] = 'شبكة مودل <strong>معطلة</strong>.';
 $string['mnetidprovider'] = 'مزود مُعرَّف شبكة مودل';
 $string['mnetidproviderdesc'] = 'يمكنك استعمال هذه المزية للحصول على رابط يمكنك تسجيل الدخول عبره، لو كنت تستطيع تقديم عنوان البريد الالكتروني الصحيح المطابق لما يمتلكه اسم المستخدم الذي سبق وأَن حاولتَ الدخول به.';
@@ -136,7 +142,6 @@ $string['mnetidprovidermsg'] = 'ينبغي أن تكون قادراً على ت�
 $string['mnetidprovidernotfound'] = 'عذراً، ولكن تعذر العثور على مزيد من المعلومات.';
 $string['mnetpeers'] = 'النظراء';
 $string['mnetservices'] = 'خدمات';
-$string['mnet_session_prohibited'] = 'المستخدمون من مخدمك ليس مسموحاً لهم حالياً بالتجوال في {$a}.';
 $string['mnetsettings'] = 'إعدادات شبكة مودل';
 $string['moodle_home_help'] = 'مسار الصفحة الرئيسية لتطبيق شبكة مودل في المخدم البعيد، بعبارة أخرى، /moodle/.';
 $string['name'] = 'الاسم';
@@ -159,11 +164,11 @@ $string['nosuchpublickey'] = 'تعذر الحصول على المفتاح الع
 $string['nosuchservice'] = 'إن خدمة RPC غير شغالة في هذا المضيف.';
 $string['nosuchtransport'] = 'لا يوجد ناقل بهذا المُعرَّف.';
 $string['notBASE64'] = 'هذا النص ليس بالترميز المبني على تنسيق base64. لا يمكن أن يكون مفتاحاً صحيحاً.';
-$string['notenoughidpinfo'] = 'مزود الهوية الخاص بك لا يعطينا معلومات كافية لإنشاء أو تحديث حسابك محلياً. عذراً!';
+$string['notPEM'] = 'المفتاح ليس بتنسيق PEM. لن يعمل.';
 $string['not_in_range'] = 'عنوان IP <code>{$a}</code> لا يمثل مضيفاً صحيحاً موثوقاً منه.';
+$string['notenoughidpinfo'] = 'مزود الهوية الخاص بك لا يعطينا معلومات كافية لإنشاء أو تحديث حسابك محلياً. عذراً!';
 $string['notinxmlrpcserver'] = 'حاول الوصول إلى وكيل بعيد لشبكة مودل، ليس في أثناء تنفيذ XMLRPC للمخدم';
 $string['notmoodleapplication'] = 'تحذير: هذا ليس تطبيق مودل، لذلك فإن بعض طرق الفحص قد لا تعمل بشكل صحيح.';
-$string['notPEM'] = 'المفتاح ليس بتنسيق PEM. لن يعمل.';
 $string['notpermittedtojump'] = 'ليست لديك صلاحية بدء جلسة بعيدة من مخدم مودل هذا.';
 $string['notpermittedtojumpas'] = 'لا يمكنك بدء جلسة بعيدة طالما تسجل دخولك بمثابة مستخدم آخر.';
 $string['notpermittedtoland'] = 'ليست لديك صلاحية بدء جلسة بعيدة.';
@@ -203,11 +208,6 @@ $string['restore'] = 'استعادة';
 $string['returnvalue'] = 'القيمة المعادة';
 $string['reviewhostdetails'] = 'تقييم تفاصيل المضيف';
 $string['reviewhostservices'] = 'مراجعة خدمات المضيف';
-$string['RPC_HTTP_PLAINTEXT'] = 'HTTP غير مشفر';
-$string['RPC_HTTP_SELF_SIGNED'] = 'HTTP (مُوَقَّع ذاتياً)';
-$string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (مُوَقَّع ذاتياً)';
-$string['RPC_HTTPS_VERIFIED'] = 'HTTPS (مُوَقَّع)';
-$string['RPC_HTTP_VERIFIED'] = 'HTTP (مُوَقَّع)';
 $string['selectaccesslevel'] = 'لطفاً، إختر مستوى الوصول من القائمة.';
 $string['selectahost'] = 'لطفاً، إختر المضيف البعيد.';
 $string['service'] = 'اسم الخدمة';

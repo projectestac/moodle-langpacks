@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'data', language 'sv', version '3.8'.
  *
- * @package   data
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     data
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -61,8 +61,8 @@ $string['cannotdeletepreset'] = 'Fel vid borttagande av en förinställd mall!';
 $string['cannotoverwritepreset'] = 'Fel vid överskrivning av förinställning';
 $string['cannotunziptopreset'] = 'Det går inte att packa upp den förinställda mallen';
 $string['checkbox'] = 'Kryssruta';
-$string['chooseexportfields'] = 'Välj de fält som Du vill exportera:';
-$string['chooseexportformat'] = 'Välj det format som Du vill exportera till:';
+$string['chooseexportfields'] = 'Välj de fält som du vill exportera:';
+$string['chooseexportformat'] = 'Välj det format som du vill exportera till:';
 $string['chooseorupload'] = 'Välj en fil';
 $string['columns'] = 'Kolumner';
 $string['comment'] = 'Kommentar';
@@ -73,8 +73,8 @@ $string['commentsaved'] = 'Kommentaren har sparats';
 $string['commentsn'] = '{$a} kommentarer';
 $string['commentsoff'] = 'Kommentarsfunktionen är avaktiverad.';
 $string['configenablerssfeeds'] = 'Den här omkopplaren kommer att aktivera möjligheten att välja RSS-matningar för alla databaser. Du måste ändå aktivera matningar manuellt i inställningarna för varje enskild databas.';
-$string['confirmdeletefield'] = 'Du håller på att ta bort det här fältet, är Du säker?';
-$string['confirmdeleterecord'] = 'Är Du säker på att Du vill ta bort det här bidraget?';
+$string['confirmdeletefield'] = 'Du håller på att ta bort det här fältet, är du säker?';
+$string['confirmdeleterecord'] = 'Är Du säker på att du vill ta bort det här bidraget?';
 $string['csstemplate'] = 'CSS-mall';
 $string['csvfailed'] = 'Det går inte att läsa rådata från CSV-filen';
 $string['csvfile'] = 'CVS-fil';
@@ -107,7 +107,7 @@ $string['data:approve'] = 'Godkänn icke-godkända bidrag';
 $string['data:comment'] = 'Skriv kommentar';
 $string['data:exportallentries'] = 'Exportera alla bidrag till databasen';
 $string['data:exportentry'] = 'Exportera ett bidrag till databasen';
-$string['data:exportownentry'] = 'Exportera Ditt eget bidrag till databasen';
+$string['data:exportownentry'] = 'Exportera ditt eget bidrag till databasen';
 $string['data:exportuserinfo'] = 'Exportera information om användare';
 $string['data:managecomments'] = 'Administrera kommentarer';
 $string['data:manageentries'] = 'Administrera bidrag';
@@ -119,7 +119,7 @@ $string['data:viewallratings'] = 'Visa alla \'råa\' bedömningar/värderingar s
 $string['data:viewalluserpresets'] = 'Visa förinställda från alla användare';
 $string['data:viewanyrating'] = 'Visa de sammanlagda bedömningar/värderingar som någon har fått';
 $string['data:viewentry'] = 'Visa bidrag';
-$string['data:viewrating'] = 'Visa de sammanlagda bedömningar/värderingar som Du har fått';
+$string['data:viewrating'] = 'Visa de sammanlagda bedömningar/värderingar som du har fått';
 $string['data:writeentry'] = 'Skriv bidrag';
 $string['date'] = 'Datum';
 $string['dateentered'] = 'Datum för bidrag';
@@ -128,11 +128,11 @@ $string['defaultfieldenclosure'] = '(standard är ingen)';
 $string['defaultsortfield'] = 'Standardfält för sortering';
 $string['delete'] = 'Ta bort';
 $string['deleteallentries'] = 'Ta bort alla bidrag';
-$string['deletecomment'] = 'Är Du säker på att Du vill ta bort den här kommentaren?';
+$string['deletecomment'] = 'Är du säker på att du vill ta bort den här kommentaren?';
 $string['deleted'] = 'Borttaget';
 $string['deletefield'] = 'Ta bort ett befintligt fält';
 $string['deletenotenrolled'] = 'Ta bort bidrag som kommer från användare som inte är registrerade';
-$string['deletewarning'] = 'Är Du säker på att Du vill ta bort den här förinställningen?';
+$string['deletewarning'] = 'Är du säker på att du vill ta bort den här förinställningen?';
 $string['descending'] = 'Fallande';
 $string['directorynotapreset'] = '{$a->directory} Inte en förinställning: saknade filer: {$a->missing_files}';
 $string['disapprove'] = 'Ta tillbaka godkännande';
@@ -146,7 +146,7 @@ $string['emptyadd'] = 'Mallen Lägg till är tom, skapar ett standardformulär..
 $string['emptyaddform'] = 'Du fyllde inte i alla fält!';
 $string['entries'] = 'Bidrag';
 $string['entrieslefttoadd'] = 'Du måste lägga till {$a->entriesleft} fler bidrag för att fullfölja den här aktiviteten.';
-$string['entrieslefttoaddtoview'] = 'Du måste lägga till {$a->entrieslefttoview} fler bidrag innan Du kan få se de andra deltagarnas bidrag.';
+$string['entrieslefttoaddtoview'] = 'Du måste lägga till {$a->entrieslefttoview} fler bidrag innan du kan få se de andra deltagarnas bidrag.';
 $string['entry'] = 'Bidrag';
 $string['entrysaved'] = 'Ditt bidrag har sparats';
 $string['errormustbeteacher'] = 'Du måste vara lärare för att få använda den här sidan!';
@@ -163,7 +163,7 @@ Senare kan du ladda upp dem till en annan databas med hjälp av egenskapen
 Importera från Zip.</p>';
 $string['exportedtozip'] = 'Exporterade som tillfällig zip...';
 $string['exportentries'] = 'Exportera inlägg';
-$string['exportownentries'] = 'Exportera endast Dina egna bidrag?
+$string['exportownentries'] = 'Exportera endast dina egna bidrag?
 ({$a->mine}/{$a->all})';
 $string['failedpresetdelete'] = 'Fel i samband med att en förinställning skulle tas bort';
 $string['fieldadded'] = 'Det har lagts till ett fält';
@@ -193,13 +193,13 @@ för ett gammalt fält som ska leda till mer än ett nytt fält.
 
 </p>';
 $string['fieldname'] = 'Fältnamn';
-$string['fieldnotmatched'] = 'Följande fält i Din fil saknas i den här databasen:{$a}';
+$string['fieldnotmatched'] = 'Följande fält i din fil saknas i den här databasen:{$a}';
 $string['fieldoptions'] = 'Alternativ (ett per rad)';
 $string['fields'] = 'Fält';
 $string['fieldupdated'] = 'Fält uppdaterat';
-$string['fieldwidth'] = 'Vidd';
-$string['fieldwidthlistview'] = 'Vidd vid visning av lista';
-$string['fieldwidthsingleview'] = 'Vidd vid visning av enskilt bidrag';
+$string['fieldwidth'] = 'Bredd';
+$string['fieldwidthlistview'] = 'Bredd vid visning av lista';
+$string['fieldwidthsingleview'] = 'Bredd vid visning av enskilt bidrag';
 $string['file'] = 'Fil';
 $string['fileencoding'] = 'Inkodning';
 $string['filesnotgenerated'] = 'Alla filer skapades inte: {$a}';
@@ -209,8 +209,7 @@ $string['forcelinkname'] = 'Tvinga fram ett namn för länken';
 $string['foundnorecords'] = 'Inga poster funna (<a href="{$a->reseturl}">Filter för återställning</a>)';
 $string['foundrecords'] = 'Funna poster: {$a->num}/{$a->max} (<a href="{$a->reseturl}">Filter för återställning</a>)';
 $string['fromfile'] = 'Importera från .zip-fil.';
-$string['fromfile_help'] = '<p align=\'center\'><strong>Att importera förinställda mallar från Zip</strong></p>
-<p>Använd detta för att ladda upp förinställda mallar som har sparats  till din dator med hjälp av egenskapen exportera.</p>';
+$string['fromfile_help'] = 'Importera från zip-filen gör att du kan leta efter och ladda upp en förinställd zip-fil av mallar och fält.';
 $string['generateerror'] = 'Alla filer skapades inte!';
 $string['header'] = 'Sidhuvud';
 $string['headeraddtemplate'] = 'Definierar det gränssnitt som ska användas för att redigera bidrag';
@@ -226,7 +225,7 @@ $string['includeapproval'] = 'Ta med status ang acceptans';
 $string['includetime'] = 'Ange tidpunkt för tillägg/modifiering';
 $string['includeuserdetails'] = 'Ange även detaljinfo om användare';
 $string['insufficiententries'] = 'det behövs fler bidrag för att visa den här databasen';
-$string['intro'] = 'Introduktion';
+$string['intro'] = 'Beskrivning';
 $string['invalidaccess'] = 'Den här sidan visades inte på ett giltigt sätt';
 $string['invalidfieldid'] = 'Fält-ID är felaktigt';
 $string['invalidfieldname'] = 'Var snäll och välj ett annat namn för det här fältet';
@@ -234,30 +233,28 @@ $string['invalidfieldtype'] = 'Fälttypen är felaktig';
 $string['invalidid'] = 'Data-ID är felaktigt';
 $string['invalidpreset'] = '{$a} är inte en förinställning.';
 $string['invalidrecord'] = 'Felaktig post';
-$string['invalidurl'] = 'Den URL som Du just matade in är inte giltig';
+$string['invalidurl'] = 'Den URL som du just matade in är inte giltig';
 $string['jstemplate'] = 'Mall för Javascript';
 $string['latitude'] = 'Latitud';
 $string['latlong'] = 'Latitud/longitud';
 $string['latlongboth'] = 'Både latitud och longitud krävs.';
 $string['latlongdownloadallhint'] = 'Ladda ner länk för alla bidrag i form av KML';
-$string['latlongkmllabelling'] = 'Hur Du sätter etiketter på komponenter i KML-filer (Google Earth)';
+$string['latlongkmllabelling'] = 'Hur du sätter etiketter på komponenter i KML-filer (Google Earth)';
 $string['latlonglinkservicesdisplayed'] = 'Visning av tjänster som är länkade utåt';
 $string['latlongotherfields'] = 'Andra fält';
 $string['list'] = 'Visa lista';
 $string['listtemplate'] = 'Mall för lista';
 $string['longitude'] = 'Longitud';
-$string['mapexistingfield'] = 'Kartlägg till {$a}';
+$string['mapexistingfield'] = 'Koppla till {$a}';
 $string['mapnewfield'] = 'Skapa ett nytt fält';
 $string['mappingwarning'] = 'Alla gamla fält som inte är kartlagda till ett nytt fält kommer försvinna och alla data i det fältet kommer att tas bort.';
 $string['maxentries'] = 'Maximalt antal bidrag';
-$string['maxentries_help'] = '<p align="center"><strong>Maximalt antal bidrag</strong></p>
-
-<p>Det maximala antalet bidrag som en deltagare kan skicka in för den här aktiviteten. </p>';
+$string['maxentries_help'] = 'Det maximala antalet bidrag som en deltagare kan skicka in för den här aktiviteten.';
 $string['maxsize'] = 'Maximal storlek';
 $string['menu'] = 'Meny';
 $string['menuchoose'] = 'Välj...';
 $string['missingdata'] = 'Det måste finnas ett data-ID eller objekt som tilldelas klassen för fältet';
-$string['missingfield'] = 'Programmerarfel: Du måste ange fält och/eller data när Du definierar klassen för fältet. ';
+$string['missingfield'] = 'Programmerarfel: Du måste ange fält och/eller data när du definierar klassen för fältet.';
 $string['modulename'] = 'Databas';
 $string['modulename_help'] = 'Modulen för aktiviteten databas gör det möjligt för deltagare att skapa, underhålla och söka en bank av inlagda poster. Formatet och strukturen på dessa bidrag kan vara nästan vilket som helst, som t ex bilder, filer, URLer, tal, texter osv.';
 $string['modulenameplural'] = 'Databaser';
@@ -271,7 +268,7 @@ $string['newentry'] = 'Nytt bidrag';
 $string['newfield'] = 'Skapa ett nytt fält';
 $string['newfield_help'] = '<p align="center"><strong>Fält</strong></p>
 
-<p>På den här skärmen kan Du skapa de fält som kommer att vara del av Din databas. </p>
+<p>På den här skärmen kan du skapa de fält som kommer att vara del av din databas. </p>
 
 <p>Varje fält tillåter olika typer av data med olika gränssnitt.</p>';
 $string['noaccess'] = 'Du har inte tillträde till den här sidan';
@@ -305,19 +302,19 @@ $string['pleaseaddsome'] = 'Var snäll och skapa något/några här nedan eller 
 $string['pluginadministration'] = 'Administration av aktivitet av typ databas';
 $string['pluginname'] = 'Databas';
 $string['portfolionotfile'] = 'Exportera hellre till en portfolio än till en fil (endast csv och leap2)';
-$string['presetinfo'] = 'Om Du sparar detta som en förinställning så kommer mallen att göras öppet tillgänglig. Andra användare kommer att kunna använda den i sina databaser.';
+$string['presetinfo'] = 'Om du sparar detta som en förinställning så kommer mallen att göras öppet tillgänglig. Andra användare kommer att kunna använda den i sina databaser.';
 $string['presets'] = 'Förinställda mallar';
 $string['radiobutton'] = 'Radioknappar';
 $string['recordapproved'] = 'Bidraget har godkänts';
 $string['recorddeleted'] = 'Bidraget har tagits bort';
 $string['recorddisapproved'] = 'Bidraget har inte godkänts';
 $string['recordsnotsaved'] = 'Inget bidrag sparades. Var snäll och kontrollera vilket format den uppladdade filen har.';
-$string['recordssaved'] = 'bidragen har sparats';
-$string['requireapproval'] = 'Kräva godkännande?';
+$string['recordssaved'] = 'Bidragen har sparats.';
+$string['requireapproval'] = 'Godkännande obligatoriskt';
 $string['requireapproval_help'] = '<p align="center"><strong>Kräv godkännande</strong></p>
 
-<p>Ska bidrag godkännas av en lärare innan de kan visas för studenterna/eleverna/deltagarna/de lärande? Detta är användbart när Du vill moderera innehåll som skulle kunna vara olämpligt eller provocerande.</p>';
-$string['requiredentries'] = 'Obligatoriska bidrag';
+<p>Ska bidrag godkännas av en lärare innan de kan visas för studenterna/eleverna/deltagarna/de lärande? Detta är användbart när du vill moderera innehåll som skulle kunna vara olämpligt eller provocerande.</p>';
+$string['requiredentries'] = 'Bidrag som är obligatoriska för fullföljande';
 $string['requiredentries_help'] = '<p align="center"><strong>Obligatoriska bidrag</strong></p>
 
 <p>Det antal bidrag som varje deltagare förväntas skicka in. Om de inte har skickat in de obligatoriska bidragen kommer deltagarna att få se en påminnelse om detta i samband med att de använder databasen.
@@ -338,7 +335,7 @@ $string['rsstitletemplate'] = 'Mall för titel på RSS';
 $string['save'] = 'Spara';
 $string['saveandadd'] = 'Spara och lägg till ett annat bidrag';
 $string['saveandview'] = 'Spara och visa';
-$string['saveaspreset'] = 'Spara som en förinställd mall';
+$string['saveaspreset'] = 'Spara som en förinställning';
 $string['saveaspreset_help'] = '<p align="center"><strong>Spara som en förinställd mall</strong></p>
 <p>Detta publicerar den aktuella mallen som en förinställd sådan som vem som helst på webbplatsen kan visa och använda. Den kommer att dyka upp i listan över förinställda mallar. Du kommer att kunna ta bort den när du vill. </p>';
 $string['savesettings'] = 'Spara inställningar';
@@ -352,12 +349,12 @@ $string['singletemplate'] = 'Mall för enskilda bidrag';
 $string['subplugintype_datafield'] = 'Fälttyp i databas';
 $string['subplugintype_datafield_plural'] = 'Fälttyper i databas';
 $string['subplugintype_datapreset'] = 'Förinställning';
-$string['subplugintype_datapreset_plural'] = 'Förinställda mallar';
+$string['subplugintype_datapreset_plural'] = 'Förinställingar';
 $string['tagarea_data_records'] = 'Databasposter';
 $string['tags'] = 'etiketter';
 $string['teachersandstudents'] = '{$a->teachers} och  {$a->students}';
 $string['templates'] = 'Mallar';
-$string['templatesaved'] = 'Mallen har sparats';
+$string['templatesaved'] = 'Mallen har sparats.';
 $string['text'] = 'Text';
 $string['textarea'] = 'Textyta';
 $string['timeadded'] = 'Tillagd när';

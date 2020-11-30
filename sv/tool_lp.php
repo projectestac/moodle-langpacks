@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'tool_lp', language 'sv', version '3.8'.
  *
- * @package   tool_lp
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     tool_lp
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -34,7 +34,7 @@ $string['addcoursecompetencies'] = 'Lägg till kompetenser till kurs';
 $string['addcrossreferencedcompetency'] = 'Lägg till korsrefererad kompetens';
 $string['addingcompetencywillresetparentrule'] = 'Lägg till en kompetens kommer att ta bort regeln gällande  \'{$a}\'. Vill du fortsätta?';
 $string['addnewcompetency'] = 'Lägg till en ny kompetens';
-$string['addnewcompetencyframework'] = 'Lägg till ett nytt ramverk för kompetenser';
+$string['addnewcompetencyframework'] = 'Lägg till nytt kompetensramverk';
 $string['addnewplan'] = 'Lägg till ny studieplan';
 $string['addnewtemplate'] = 'Lägg till ny studieplansmall';
 $string['addnewuserevidence'] = 'Lägg till ny verifiering';
@@ -57,11 +57,11 @@ $string['competenciesmostoftennotproficientincourse'] = 'Kompetenser som oftast 
 $string['competencycannotbedeleted'] = 'Kompetensen \'{$a}\' kan inte raderas';
 $string['competencycreated'] = 'Kompetens skapad';
 $string['competencycrossreferencedcompetencies'] = '{$a} korsrefererade kompetenser';
-$string['competencyframework'] = 'Ramverk för kompetenser';
+$string['competencyframework'] = 'Kompetensramverk';
 $string['competencyframeworkcreated'] = 'Ramverk för kompetenser skapad.';
 $string['competencyframeworkname'] = 'Namn';
 $string['competencyframeworkroot'] = 'Ingen nivå ovan (högsta nivån av kompetenser)';
-$string['competencyframeworks'] = 'Ramverk för kompetenser';
+$string['competencyframeworks'] = 'Kompetensramverk';
 $string['competencyframeworksrepository'] = 'Marknadsplats för kompetensramverk';
 $string['competencyframeworkupdated'] = 'Ramverk för kompetenser uppdaterad';
 $string['competencyoutcome_complete'] = 'Markera som fullgjord';
@@ -99,7 +99,7 @@ $string['description'] = 'Beskrivning';
 $string['duedate'] = 'Sista datum';
 $string['duedate_help'] = 'Datumet som en studieplan ska vara genomförd';
 $string['editcompetency'] = 'Redigera kompetens';
-$string['editcompetencyframework'] = 'Redigera ramverk för kompetenser';
+$string['editcompetencyframework'] = 'Redigera kompetensramverk';
 $string['editplan'] = 'Redigera en studieplan';
 $string['editrating'] = 'Redigera bedömning';
 $string['edittemplate'] = 'Redigera mall för studieplan';
@@ -113,7 +113,7 @@ $string['frameworkcannotbedeleted'] = 'Kompetensramverket \'{$a}\' kan inte tas 
 $string['hidden'] = 'Gömd';
 $string['hiddenhint'] = '(gömd)';
 $string['idnumber'] = 'ID-nummer';
-$string['inheritfromframework'] = 'Ärv från ramverk för studieplan (standard)';
+$string['inheritfromframework'] = 'Ärv från kompetensramverk (standard)';
 $string['itemstoadd'] = 'Punkter att tillägga';
 $string['jumptocompetency'] = 'Hoppa till kompetens';
 $string['jumptouser'] = 'Hoppa till användare';
@@ -125,7 +125,7 @@ $string['linkcompetency'] = 'Länka kompetens';
 $string['linkedcompetencies'] = 'Länkade kompetenser';
 $string['linkedcourses'] = 'Länkade kurser';
 $string['linkedcourseslist'] = 'Länkade kurser:';
-$string['listcompetencyframeworkscaption'] = 'Lista med ramverk för kompetenser';
+$string['listcompetencyframeworkscaption'] = 'Kompetensramverk';
 $string['listofevidence'] = 'Lista med verifieringar';
 $string['listplanscaption'] = 'Lista med studieplaner';
 $string['listtemplatescaption'] = 'Lista med mallar för studieplaner';
@@ -137,10 +137,10 @@ $string['modcompetencies_help'] = 'Kurskompetenser länkade till denna aktivitet
 $string['move'] = 'Flytta';
 $string['movecompetency'] = 'Flytta kompetens';
 $string['movecompetencyafter'] = 'Flytta kompetens efter \'{$a}\'';
-$string['movecompetencyframework'] = 'Flytta ramverk för kompetenser';
+$string['movecompetencyframework'] = 'Flytta kompetensramverk';
 $string['movecompetencytochildofselfwillresetrules'] = 'Flyttande av kompetensen kommer ta bort dess egen regel och regler satta för ovanliggande nivå och målet för kompetensen. Vill du fortsätta?';
 $string['movecompetencywillresetrules'] = 'Flyttande av kompetensen kommer ta bort regler satta för ovanliggande nivå och målet för kompetensen. Vill du fortsätta?';
-$string['moveframeworkafter'] = 'Flytta ramverk för kompetens efter \'{$a}\'';
+$string['moveframeworkafter'] = 'Flytta kompetensramverk efter \'{$a}\'';
 $string['movetonewparent'] = 'Omlokalisera';
 $string['myplans'] = 'Mina studieplaner';
 $string['nfiles'] = '{$a} fil(er)';
@@ -184,7 +184,7 @@ $string['points'] = 'Poäng';
 $string['pointsgivenfor'] = 'Poäng tilldelade för {$a}\'';
 $string['privacy:metadata'] = 'Studieplans-pluginen lagrar ingen personinformation.';
 $string['proficient'] = 'Kunnig';
-$string['progress'] = 'Utveckling';
+$string['progress'] = 'Förlopp';
 $string['rate'] = 'Bedöm';
 $string['ratecomment'] = 'Noteringar verifiering';
 $string['rating'] = 'Bedömning';
@@ -291,7 +291,7 @@ $string['userevidenceurl'] = 'URL';
 $string['userevidenceurl_help'] = 'URL måste börja med \'http://\' eller \'https://\'.';
 $string['viewdetails'] = 'Visa detaljer';
 $string['visible'] = 'Synlig';
-$string['visible_help'] = 'Ett ramverk för kompetenser kan gömas medan den skapas eller uppdateras till en ny version.';
+$string['visible_help'] = 'Ett kompetensramverk kan döljas medan det skapas eller uppdateras till en ny version.';
 $string['when'] = 'När';
 $string['xcompetencieslinkedoutofy'] = '{$a->x} av {$a->y} kompetenser länkade till kurser';
 $string['xcompetenciesproficientoutofy'] = '{$a->x} av {$a->y} kompetenser är uppnådda';

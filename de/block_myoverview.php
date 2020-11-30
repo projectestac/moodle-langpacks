@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myoverview', language 'de', branch 'MOODLE_38_STABLE'
+ * Strings for component 'block_myoverview', language 'de', version '3.8'.
  *
- * @package   block_myoverview
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     block_myoverview
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -63,7 +63,7 @@ $string['customfield'] = 'Kursfeld';
 $string['customfiltergrouping'] = 'Kursfeld';
 $string['customfiltergrouping_nofields'] = 'Für diese Option muss ein benutzerdefiniertes Kursfeld eingerichtet und für alle sichtbar sein.';
 $string['defaulttab'] = 'Standard-Tab';
-$string['defaulttab_desc'] = 'Der ausgewählte Tab wird Nutzer/innen angezeigt, wenn sie zum ersten Mal ihre Kursübersicht sehen. Der zuletzt geöffnete Tab wird angezeigt, wenn Nutzer/innen zu ihrer Kursübersicht zurückkehren.';
+$string['defaulttab_desc'] = 'Der ausgewählte Tab wird Nutzer/innen standardmäßig angezeigt, wenn sie zum ersten Mal ihre Kursübersicht sehen. Der zuletzt geöffnete Tab wird angezeigt, wenn Nutzer/innen zu ihrer Kursüberricht zurückkehren.';
 $string['displaycategories'] = 'Kursbereiche anzeigen';
 $string['displaycategories_help'] = 'Zeige die Kurskategorie auf den Kurspositionen des Dashboards, einschließlich Karten, Listen- und Übersichteinträgen an.';
 $string['favourites'] = 'Favoriten';

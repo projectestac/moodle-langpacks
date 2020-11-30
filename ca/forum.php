@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'ca', branch 'MOODLE_38_STABLE'
+ * Strings for component 'forum', language 'ca', version '3.8'.
  *
- * @package   forum
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     forum
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -58,8 +58,8 @@ $string['availability'] = 'Disponibilitat';
 $string['blockafter'] = 'Llindar de missatges per blocar';
 $string['blockafter_help'] = 'Aquest paràmetre especifica el nombre màxim de missatges que un usuari pot enviar al fòrum en el període de temps establert. Aquest límit no afecta els usuaris amb privilegis mod/forum:postwithoutthrottling (usualment els administradors o professors).';
 $string['blockperiod'] = 'Període de temps per blocar';
-$string['blockperioddisabled'] = 'No bloquis';
 $string['blockperiod_help'] = 'Es pot limitar el nombre de missatges que l\'estudiant envia a un fòrum en un temps determinat. Aquest límit no afecta els usuaris amb privilegis mod/forum:postwithoutthrottling (usualment els administradors o professors).';
+$string['blockperioddisabled'] = 'No bloquis';
 $string['blogforum'] = 'Fòrum estàndard mostrat com si fos un blog';
 $string['bynameondate'] = 'per {$a->name} - {$a->date}';
 $string['cachedef_forum_is_tracked'] = 'Estat del seguiment del fòrum per a l\'usuari';
@@ -124,7 +124,7 @@ $string['configdigestmailtime'] = 'Les persones que triïn rebre el correu elect
 $string['configdisplaymode'] = 'El mode de visualització per defecte dels debats si no se n\'especifica un.';
 $string['configenablerssfeeds'] = 'Aquest commutador habilitarà la possibilitat de tenir agregats RSS en tots els fòrums. Tot i això, haureu d\'activar els agregats en els paràmetres de cada fòrum.';
 $string['configenabletimedposts'] = 'Aquesta opció permet definir un període de visualització quan es crea un debat nou en un fòrum.';
-$string['configlongpost'] = 'Qualsevol missatge per damunt d\'aquesta mida (exclòs l\'HTML) es considera massa llarg.';
+$string['configlongpost'] = 'Qualsevol missatge per damunt d\'aquesta mida (exclòs l\'HTML) es considera massa llarg. Els missatges que es mostren a la pàgina principal del lloc, a les pàgines d\'un curs amb format social o als perfils d\'usuari s\'escurcen fins a un tall natural en algun punt entre els valors forum_shortpost i forum_longpost.';
 $string['configmanydiscussions'] = 'Nombre màxim de debats per pàgina';
 $string['configmaxattachments'] = 'El nombre màxim per defecte de fitxers adjunts admesos per cada missatge.';
 $string['configmaxbytes'] = 'Mida màxima per defecte per a tots els fitxers adjuntats als fòrums d\'aquest lloc (subjecta als límits de cada curs i a altres paràmetres locals)';
@@ -208,13 +208,13 @@ $string['discussionunsubscribed'] = 'Ara no esteu subscrit a aquest debat';
 $string['discussthistopic'] = 'Debateu aquest tema';
 $string['discusstopicname'] = 'Debat el tema: {$a}';
 $string['displayend'] = 'Fi de la visualització';
-$string['displayenddate'] = 'La visualització acaba: {$a}';
 $string['displayend_help'] = 'Aquest paràmetre especifica si un missatge del fòrum s\'ha d\'amagar a partir d\'una data determinada. Els administradors, però, sempre podran veure els missatges.';
+$string['displayenddate'] = 'La visualització acaba: {$a}';
 $string['displaymode'] = 'Mode de visualització';
 $string['displayperiod'] = 'Període de visualització';
 $string['displaystart'] = 'Inici de la visualització';
-$string['displaystartdate'] = 'La visualització comença: {$a}';
 $string['displaystart_help'] = 'Aquest paràmetre especifica si un missatge del fòrum s\'ha de mostrar només a partir d\'una data determinada. Els administradors, però, sempre podran veure els missatges.';
+$string['displaystartdate'] = 'La visualització comença: {$a}';
 $string['displaywordcount'] = 'Mostra el nombre de paraules';
 $string['displaywordcount_help'] = 'Aquest paràmetre especifica si el nombre de paraules de cada missatge s\'ha de mostrar o no.';
 $string['duedate'] = 'Data de venciment';
@@ -269,7 +269,7 @@ $string['everyoneissubscribed'] = 'Tothom està subscrit a aquest fòrum';
 $string['existingsubscribers'] = 'Subscriptors actuals';
 $string['export'] = 'Exporta';
 $string['exportattachmentname'] = 'Exporta el fitxer adjunt {$a} al portafolis';
-$string['exportdiscussion'] = 'Exporta el debat sencer al portafolis';
+$string['exportdiscussion'] = 'Exporta el debat sencer al dossier';
 $string['exporthumandates'] = 'Dates intel·ligibles per a humans';
 $string['exporthumandates_help'] = 'Si cal exportar les dates en un format intel·ligible pels humans o bé com a una marca horària (seqúència de nombres).';
 $string['exportoptions'] = 'Exporta les opcions';
@@ -287,10 +287,6 @@ $string['forum:addinstance'] = 'Afegeix un fòrum nou';
 $string['forum:addnews'] = 'Afegeix anuncis';
 $string['forum:addquestion'] = 'Afegeix una pregunta';
 $string['forum:allowforcesubscribe'] = 'Permet imposar la subscripció';
-$string['forumauthorhidden'] = 'Autor (ocult)';
-$string['forumblockingalmosttoomanyposts'] = 'Us esteu apropant al llindar de missatges. Heu enviat {$a->numposts} missatges en {$a->blockperiod} i el límit són {$a->blockafter} missatges.';
-$string['forumbodydeleted'] = 'El contingut d\'aquest missatge del fòrum s\'ha esborrat i no és possible d\'accedir-hi.';
-$string['forumbodyhidden'] = 'No podeu veure aquest missatge, probablement perquè: encara no heu enviat un missatge en aquest debat, encara no ha conclòs el temps màxim d\'edició, el debat encara no ha començat o el debat ja ha acabat.';
 $string['forum:canoverridecutoff'] = 'Publica als fòrums més enllà de la seva data límit';
 $string['forum:canoverridediscussionlock'] = 'Respon a debats tancats';
 $string['forum:canposttomygroups'] = 'Envia missatges a tots els grups als quals tinc accés';
@@ -304,24 +300,35 @@ $string['forum:exportforum'] = 'Exporta el fòrum';
 $string['forum:exportownpost'] = 'Exporta les contribucions pròpies';
 $string['forum:exportpost'] = 'Exporta les contribucions';
 $string['forum:grade'] = 'Puntua el fòrum';
-$string['forumgrader'] = 'Qualificador del fòrum';
-$string['forumgradingnavigation'] = 'Navegació de la qualificació del fòrum';
-$string['forumgradingpanel'] = 'Panell de la qualificació del fòrum';
-$string['forumintro'] = 'Descripció';
 $string['forum:managesubscriptions'] = 'Gestiona els subscriptors';
 $string['forum:movediscussions'] = 'Trasllada els debats';
-$string['forumname'] = 'Nom del fòrum';
 $string['forum:pindiscussions'] = 'Fixa les discussions';
 $string['forum:postprivatereply'] = 'Respon a les publicacions de forma privada';
-$string['forumposts'] = 'Missatges al fòrum';
 $string['forum:postwithoutthrottling'] = 'Exempt del llindar de missatges';
 $string['forum:rate'] = 'Valora els missatges';
 $string['forum:readprivatereplies'] = 'Mostra les respostes privades';
 $string['forum:replynews'] = 'Respon als anuncis';
 $string['forum:replypost'] = 'Respondre els missatges';
-$string['forums'] = 'Fòrums';
 $string['forum:splitdiscussions'] = 'Divideix els debats';
 $string['forum:startdiscussion'] = 'Comença debats nous';
+$string['forum:viewallratings'] = 'Visualitza totes les valoracions fetes individualment';
+$string['forum:viewanyrating'] = 'Visualitza les valoracions totals rebudes per tothom';
+$string['forum:viewdiscussion'] = 'Visualitza els debats';
+$string['forum:viewhiddentimedposts'] = 'Mostra els missatges temporitzats ocults';
+$string['forum:viewqandawithoutposting'] = 'Mostra sempre les contribucions de preguntes i respostes';
+$string['forum:viewrating'] = 'Mostra la valoració total que heu rebut';
+$string['forum:viewsubscribers'] = 'Mostra els subscriptors';
+$string['forumauthorhidden'] = 'Autor (ocult)';
+$string['forumblockingalmosttoomanyposts'] = 'Us esteu apropant al llindar de missatges. Heu enviat {$a->numposts} missatges en {$a->blockperiod} i el límit són {$a->blockafter} missatges.';
+$string['forumbodydeleted'] = 'El contingut d\'aquest missatge del fòrum s\'ha esborrat i no és possible d\'accedir-hi.';
+$string['forumbodyhidden'] = 'No podeu veure aquest missatge, probablement perquè: encara no heu enviat un missatge en aquest debat, encara no ha conclòs el temps màxim d\'edició, el debat encara no ha començat o el debat ja ha acabat.';
+$string['forumgrader'] = 'Qualificador del fòrum';
+$string['forumgradingnavigation'] = 'Navegació de la qualificació del fòrum';
+$string['forumgradingpanel'] = 'Panell de la qualificació del fòrum';
+$string['forumintro'] = 'Descripció';
+$string['forumname'] = 'Nom del fòrum';
+$string['forumposts'] = 'Missatges al fòrum';
+$string['forums'] = 'Fòrums';
 $string['forumsubjectdeleted'] = 'Aquest missatge del fòrum s\'ha eliminat';
 $string['forumsubjecthidden'] = 'Assumpte (ocult)';
 $string['forumtracked'] = 'S\'està fent el seguiment dels missatges no llegits';
@@ -334,27 +341,20 @@ $string['forumtype_help'] = 'Hi ha 5 tipus de fòrums:
 * Fòrum estàndard mostrat com si fos un blog. És un fòrum obert en el qual tothom pot iniciar un tema de debat nou en qualsevol moment. Els seus temes de debat es mostren a una pàgina amb enllaços tipus «Debateu aquest tema».
 * Fòrum estàndard per a ús general. És un fòrum obert en el qual tothom pot iniciar un tema de debat nou en qualsevol moment.
 * Un debat simple. És un sol tema de debat al qual tothom pot respondre (no es pot fer servir amb grups separats).';
-$string['forum:viewallratings'] = 'Visualitza totes les valoracions fetes individualment';
-$string['forum:viewanyrating'] = 'Visualitza les valoracions totals rebudes per tothom';
-$string['forum:viewdiscussion'] = 'Visualitza els debats';
-$string['forum:viewhiddentimedposts'] = 'Mostra els missatges temporitzats ocults';
-$string['forum:viewqandawithoutposting'] = 'Mostra sempre les contribucions de preguntes i respostes';
-$string['forum:viewrating'] = 'Mostra la valoració total que heu rebut';
-$string['forum:viewsubscribers'] = 'Mostra els subscriptors';
 $string['generalforum'] = 'Fòrum estàndard per a ús general';
 $string['generalforums'] = 'Fòrums generals';
-$string['graded'] = 'Qualificat';
-$string['gradeforrating'] = 'Qualificació per la valoració: {$a->str_long_grade}';
-$string['gradeforratinghidden'] = 'Qualificació per la valoració oculta';
 $string['grade_forum_header'] = 'Qualificació de tot el fòrum';
 $string['grade_forum_name'] = 'Fòrum sencer';
 $string['grade_forum_title'] = 'Qualificació';
+$string['grade_rating_name'] = 'Valoració';
+$string['graded'] = 'Qualificat';
+$string['gradeforrating'] = 'Qualificació per la valoració: {$a->str_long_grade}';
+$string['gradeforratinghidden'] = 'Qualificació per la valoració oculta';
 $string['gradeforwholeforum'] = 'Qualificació pel fòrum: {$a->str_long_grade}';
 $string['gradeforwholeforumhidden'] = 'Qualificació pel fòrum oculta';
 $string['gradeitem:forum'] = 'Fòrum';
 $string['gradeitemnameforrating'] = 'Qualificació de les valoracions per a {$a->name}';
 $string['gradeitemnameforwholeforum'] = 'Qualificació del fòrum sencer per a {$a->name}';
-$string['grade_rating_name'] = 'Valoració';
 $string['grades:gradesavedfor'] = 'S\'ha desat la qualificació de {$a->fullname}';
 $string['grades:gradesavefailed'] = 'No s\'ha pogut desat la qualificació de {$a->fullname}: {$a->error}';
 $string['gradeusers'] = 'Qualifica els usuaris';
@@ -365,13 +365,13 @@ $string['hidepreviousrepliescount'] = 'Oculta les respostes prèvies ({$a})';
 $string['hideusersearch'] = 'Amaga la cerca d\'usuaris';
 $string['indexoutoftotal'] = '{$a->index} de {$a->total}';
 $string['indicator:cognitivedepth'] = 'Fòrum cognitiu';
+$string['indicator:cognitivedepth_help'] = 'Aquest indicador es basa en la profunditat cognitiva que ha assolit l\'estudiant en una activitat de fòrum.';
 $string['indicator:cognitivedepthdef'] = 'Fòrum cognitiu';
 $string['indicator:cognitivedepthdef_help'] = 'El participant ha assolit aquest percentatge de la implicació cognitiva oferta per les activitats del fòrum en el decurs d\'aquest interval d\'anàlisi (Nivells = No visualització, Visualització, Enviament, Visualització de retroalimentacions, Comenaris a les retroalimentacions, Reenviament després de veure les retroalimentacions)';
-$string['indicator:cognitivedepth_help'] = 'Aquest indicador es basa en la profunditat cognitiva que ha assolit l\'estudiant en una activitat de fòrum.';
 $string['indicator:socialbreadth'] = 'Fòrum social';
+$string['indicator:socialbreadth_help'] = 'Aquest indicador es basa en l\'abast social que ha assolit l\'estudiant en una activitat de fòrum.';
 $string['indicator:socialbreadthdef'] = 'Fòrum social';
 $string['indicator:socialbreadthdef_help'] = 'El participant ha assolit aquest percentatge de la implicació social oferta per les activitats del fòrum en el decurs d\'aquest interval d\'anàlisi (Nivells = No participació, Participant solitari, Participant amb altres)';
-$string['indicator:socialbreadth_help'] = 'Aquest indicador es basa en l\'abast social que ha assolit l\'estudiant en una activitat de fòrum.';
 $string['inforum'] = 'en {$a}';
 $string['inpagereplysubject'] = 'Re: {$a}';
 $string['inreplyto'] = 'En resposta a {$a}';
@@ -555,13 +555,13 @@ $string['privacy:metadata:forum_digests'] = 'Informació sobre les preferències
 $string['privacy:metadata:forum_digests:forum'] = 'El fòrum al qual s\'ha subscrit.';
 $string['privacy:metadata:forum_digests:maildigest'] = 'La preferència de resum.';
 $string['privacy:metadata:forum_digests:userid'] = 'L\'ID de l\'usuari amb la preferència de resum.';
-$string['privacy:metadata:forum_discussions'] = 'Informació sobre els debats individuals que ha creat un usuari';
-$string['privacy:metadata:forum_discussions:name'] = 'El nom del debat, tal com l\'ha escollit l\'autor.';
-$string['privacy:metadata:forum_discussions:timemodified'] = 'L\'instant de la darrera modificació al debat.';
 $string['privacy:metadata:forum_discussion_subs'] = 'Informació sobre les subscripcions als debats individuals del fòrum';
 $string['privacy:metadata:forum_discussion_subs:discussionid'] = 'L\'ID del debat al qual s\'ha subscrit.';
 $string['privacy:metadata:forum_discussion_subs:preference'] = 'L\'instant inicial de la subscripció.';
 $string['privacy:metadata:forum_discussion_subs:userid'] = 'L\'ID de l\'usuari amb la subscripció al debat.';
+$string['privacy:metadata:forum_discussions'] = 'Informació sobre els debats individuals que ha creat un usuari';
+$string['privacy:metadata:forum_discussions:name'] = 'El nom del debat, tal com l\'ha escollit l\'autor.';
+$string['privacy:metadata:forum_discussions:timemodified'] = 'L\'instant de la darrera modificació al debat.';
 $string['privacy:metadata:forum_discussions:userid'] = 'L\'ID de l\'usuari que inicià el debat.';
 $string['privacy:metadata:forum_discussions:usermodified'] = 'L\'ID de l\'usuari que modificà d\'alguna manera el debat per darrera vegada.';
 $string['privacy:metadata:forum_grades'] = 'Dades de qualificació del fòrum';
@@ -623,10 +623,10 @@ $string['replies'] = 'Respostes';
 $string['repliesmany'] = '{$a} respostes fins ara';
 $string['repliesone'] = '{$a} resposta fins ara';
 $string['reply'] = 'Respon';
-$string['replyauthorself'] = '{$a} (vós)';
-$string['replyforum'] = 'Respon al fòrum';
 $string['reply_handler'] = 'Respon als missatges dels fòrums mitjançant el correu electrònic';
 $string['reply_handler_name'] = 'Respon als missatges del fòrum';
+$string['replyauthorself'] = '{$a} (vós)';
+$string['replyforum'] = 'Respon al fòrum';
 $string['replyingtoauthor'] = 'Responent a {$a}...';
 $string['replyplaceholder'] = 'Escriviu una resposta...';
 $string['replytopostbyemail'] = 'Podeu respondre-hi mitjançant el correu electrònic.
@@ -644,7 +644,6 @@ $string['rssarticles_help'] = '<p>Aquesta opció us permet triar el nombre d\'ar
 $string['rsssubscriberssdiscussions'] = 'Canal RSS dels debats';
 $string['rsssubscriberssposts'] = 'Canal RSS dels missatges';
 $string['rsstype'] = 'Canal RSS d\'aquesta activitat';
-$string['rsstypedefault'] = 'Tipus de canal de continguts RSS';
 $string['rsstype_help'] = '<p>Aquesta opció us permet habilitar l\'RSS en aquest fòrum.</p>
 
 <p>Podeu triar dues modalitats:</p>
@@ -653,8 +652,10 @@ $string['rsstype_help'] = '<p>Aquesta opció us permet habilitar l\'RSS en aques
 <li><b>Debats:</b> l\'RSS inclourà els nous debats que s\'encetin en el fòrum, amb el missatge inicial.</li>
 <li><b>Missatges:</b> l\'RSS inclourà cada missatge nou que s\'enviï al fòrum.</li>
 </ul>';
+$string['rsstypedefault'] = 'Tipus de canal de continguts RSS';
 $string['search'] = 'Cerca';
 $string['search:activity'] = 'Fòrum: informació de l\'activitat';
+$string['search:post'] = 'Fòrum - missatges';
 $string['searchdatefrom'] = 'Missatges posteriors a aquesta data';
 $string['searchdateto'] = 'Missatges anteriors a aquesta data';
 $string['searchforumintro'] = 'Introduïu els termes de la cerca en els camps següents:';
@@ -663,7 +664,6 @@ $string['searchfullwords'] = 'Aquests mots haurien d\'aparèixer com a mots comp
 $string['searchnotwords'] = 'Aquests mots NO s\'hi haurien d\'incloure';
 $string['searcholderposts'] = 'Cerca missatges anteriors...';
 $string['searchphrase'] = 'Aquesta frase exacta ha d\'aparèixer al missatge';
-$string['search:post'] = 'Fòrum - missatges';
 $string['searchresults'] = 'Resultats de la cerca';
 $string['searchsubject'] = 'Aquests mots haurien de ser a l\'assumpte';
 $string['searchtags'] = 'S\'ha etiquetat com a';
@@ -673,10 +673,8 @@ $string['searchusers'] = 'Cerca usuaris';
 $string['searchwhichforums'] = 'Trieu quins fòrums voleu cercar';
 $string['searchwords'] = 'Aquests mots poden aparèixer a qualsevol part del missatge';
 $string['seeallposts'] = 'Visualitza tots els missatges d\'aquest usuari';
-$string['sendstudentnotifications'] = 'Notifica als estudiants';
 $string['sendstudentnotificationsdefault'] = 'Paràmetre per defecte per a «Notifica als estudiants»';
 $string['sendstudentnotificationsdefault_help'] = 'Defineix el valor per defecte de la casella de verificació «Notifica als estudiants» al formulari de qualificació.';
-$string['sendstudentnotifications_help'] = 'Si s\'habilita aquesta opció, els estudiants rebran un missatge amb la qualificació actualitzada o la retroacció.';
 $string['sendstudentnotificationsno'] = 'No';
 $string['sendstudentnotificationsyes'] = 'Sí, envia una notificació a l\'estudiant';
 $string['settings'] = 'Configuració';
@@ -704,11 +702,11 @@ $string['subscriberstowithcount'] = 'Subscriptors de «{$a->name}» ({$a->count}
 $string['subscribestart'] = 'Envia\'m notificacions dels missatges nous d\'aquest fòrum';
 $string['subscribestop'] = 'No vull rebre notificacions dels nous missatges d\'aquest fòrum';
 $string['subscription'] = 'Subscripció';
+$string['subscription_help'] = 'La subscripció a un fòrum significa que la persona rebrà notificacions dels missatges nous del fòrum. Normalment, la gent pot triar si vol subscriure\'s a un fòrum o no. A vegades, la subscripció a un fòrum pot ser obligatòria, de manera que tots els membres del curs rebran notificacions.';
 $string['subscriptionandtracking'] = 'Subscripció i seguiment';
 $string['subscriptionauto'] = 'Subscripció automàtica (l\'usuari la podrà canceŀlar)';
 $string['subscriptiondisabled'] = 'No es permet la subscripció';
 $string['subscriptionforced'] = 'Subscripció obligatòria';
-$string['subscription_help'] = 'La subscripció a un fòrum significa que la persona rebrà notificacions dels missatges nous del fòrum. Normalment, la gent pot triar si vol subscriure\'s a un fòrum o no. A vegades, la subscripció a un fòrum pot ser obligatòria, de manera que tots els membres del curs rebran notificacions.';
 $string['subscriptionmode'] = 'Mode de subscripció';
 $string['subscriptionmode_help'] = 'La subscripció a un fòrum significa que la persona rebrà còpies per correu electrònic dels missatges del fòrum.
 

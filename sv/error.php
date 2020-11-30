@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,20 +12,22 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'error', language 'sv', version '3.8'.
  *
- * @package   error
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     error
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['TODO'] = 'Att göra';
 $string['activityisscheduledfordeletion'] = 'Borttagning av aktivitet pågår';
-$string['alreadyloggedin'] = 'Du är redan inloggad som {$a} så Du måste logga ut innan Du kan logga in som en annan användare.';
+$string['alreadyloggedin'] = 'Du är redan inloggad som {$a} så du måste logga ut innan du kan logga in som en annan användare.';
 $string['blockcannotconfig'] = 'Det här blocket stöder inte global konfiguration';
 $string['blockcannotinistantiate'] = 'Svårigheter med att instantiera objekt av typ block';
 $string['blockcannotread'] = 'Det gick inte att läsa data för blockid={$a}';
@@ -52,17 +53,17 @@ $string['cannotcreatedboninstall'] = '<p>Kan inte skapa databasen.</p>
 <p>Administratören för webbplatsen bör verifiera databaskonfigurationen.</p>';
 $string['cannotcreategroup'] = 'Fel vid skapande av grupp';
 $string['cannotcreatelangdir'] = 'Det går inte att skapa en lang-katalog';
-$string['cannotcreateorfindstructs'] = 'Fel i sb m sökning eller skapande av sektionsstrukturer för den här kursen';
+$string['cannotcreateorfindstructs'] = 'Fel i samband med sökning efter eller skapande av sektionsstrukturer för den här kursen';
 $string['cannotcreatepopupwin'] = 'Odefinierad element - kan inte skapa pop-up fönster';
 $string['cannotcreatesitedir'] = 'Kan inte skapa webbplats-mapp. En administratör kan ändra filrättigheterna.';
 $string['cannotcreatetempdir'] = 'Det går inte att skapa en temp-katalog';
 $string['cannotcreateuploaddir'] = 'Kan inte skapa mapp. En administratör kan ändra filrättigheterna.';
-$string['cannotcustomisefiltersblockuser'] = 'Du kan inte standardisera inställningar för filter i sammanhangen för användare eller block';
+$string['cannotcustomisefiltersblockuser'] = 'Du kan inte ändra inställningar för filter i sammanhangen för användare eller block';
 $string['cannotdeletebackupids'] = 'Kunde inte raderas tidigare backuppers id.';
 $string['cannotdeletecategorycourse'] = 'Det gick inte att ta bort kursen {$a}.';
 $string['cannotdeletecategoryquestions'] = 'Det gick inte att ta bort frågor från kategorin {$a}.';
 $string['cannotdeletecourse'] = 'Du har inte tillstånd att ta bort den här kursen. ';
-$string['cannotdeletecustomfield'] = 'Fel i sb m borttagande av standardiserade fältdata';
+$string['cannotdeletecustomfield'] = 'Fel i sb m borttagande av anpassade fältdata';
 $string['cannotdeletedir'] = 'Kan inte ta bort ({$a})';
 $string['cannotdeletefile'] = 'Det går inte att ta bort den här filen';
 $string['cannotdeleterole'] = 'It cannot be deleted, because {$a}';
@@ -76,7 +77,7 @@ $string['cannoteditcomment'] = 'Denna kommentar är inte din egen och du kan int
 $string['cannoteditcommentexpired'] = 'Du kan inte redigera detta, tidgränsen har löpt ut.';
 $string['cannoteditpostorblog'] = 'Du kan inte posta eller redigera bloggar';
 $string['cannoteditsiteform'] = 'Du kan inte redigera kursen på webbplatsnivå med hjälp av det här formuläret';
-$string['cannotedityourprofile'] = 'Du kan tyvärr inte redigera Din egen profil.';
+$string['cannotedityourprofile'] = 'Du kan tyvärr inte redigera din egen profil.';
 $string['cannotexecduringupgrade'] = 'Kan inte utföras under uppgradering';
 $string['cannotfindcategory'] = 'Det går inte att hitta kategoripost från databasen genom ID - {$a}';
 $string['cannotfindcomponent'] = 'Det går inte att hitta komponent';
@@ -86,7 +87,7 @@ $string['cannotfindgradeitem'] = 'Det går inte att hitta grade-item';
 $string['cannotfindgroup'] = 'Kunde inte hitta gruppen';
 $string['cannotfindinfo'] = 'Kan inte hitta information för: "{$a}"';
 $string['cannotfindlang'] = 'Kan inte hitta &quot;{$a}&quot; språkpaketet!';
-$string['cannotfindteacher'] = 'Det går inte att hitta (distans)lärare';
+$string['cannotfindteacher'] = 'Det går inte att hitta lärare';
 $string['cannotfinduser'] = 'Det går inte att hitta någon användare vid namn "{$a}"';
 $string['cannotgeoplugin'] = 'Kan inte ansluta till geoPlugin server på http://www.geoplugin.com, kontrollera proxyinställningarna eller ännu bättre installera MaxMind GeoLite City datafilen';
 $string['cannotgetblock'] = 'Kund inte hämta block från databasen';
@@ -98,7 +99,7 @@ $string['cannotimportformat'] = 'Funktionen att importera det här formatet är 
 $string['cannotimportgrade'] = 'Fel vid import av betyg/omdöme';
 $string['cannotinsertgrade'] = 'Det går inte att foga in en betygskomponent utan kursID!';
 $string['cannotinsertrecord'] = 'Det gick inte att infoga ny post-ID {$a}';
-$string['cannotmailconfirm'] = 'Fel i sb m att e-post om bekräftelse av ändring av lösenord skickades ut';
+$string['cannotmailconfirm'] = 'Fel vid skickande av e-postbekräftelse för lösenordsändring';
 $string['cannotmanualctrack'] = 'Den här aktiviteten erbjuder inte manuell spårning av fullföljande';
 $string['cannotmapfield'] = 'En kollision vid kartläggning har upptäckts - två fält leder till samma betygskomponent {$a}';
 $string['cannotmovecategory'] = 'Kan inte flytta kategori';
@@ -115,7 +116,7 @@ $string['cannotreadtmpfile'] = 'Fel vid läsning av en temporär fil';
 $string['cannotreaduploadfile'] = 'Det gick inte att läsa den uppladdade filen';
 $string['cannotremovefrommeta'] = 'Kunde inte ta bort den valda kursen från den här metakursen!';
 $string['cannotresetguestpwd'] = 'Du kan inte återställa lösenordet för gäster';
-$string['cannotresetmail'] = 'Fel i sb m återställande av lösenord och e-post till Dig';
+$string['cannotresetmail'] = 'Fel i sb m återställande av lösenord och e-post till dig';
 $string['cannotresetthisrole'] = 'Kan inte återställa denna roll';
 $string['cannotrestore'] = 'Ett fel har uppstått och det gick inte att fullfölja återställningen';
 $string['cannotrestoreadminorcreator'] = 'Du behöver vara administratör för att återställa till ny kurs!';
@@ -156,8 +157,8 @@ $string['categorynamerequired'] = 'Kategorinamn krävs';
 $string['categorytoolong'] = 'Kategorinamnet är för långt';
 $string['commentmisconf'] = 'Kommentar ID är felkonfigurerad';
 $string['componentisuptodate'] = 'Komponenten är av en aktuell version';
-$string['confirmsesskeybad'] = 'Beklagar, men det gick inte att bekräfta Din nyckel för sessionen vilket är nödvändigt för att fullfölja den här handlingen. Det här är en säkerhetsåtgärd för att förebygga att viktiga funktioner utförs på felaktiga eller illasinnade sätt i Ditt namn. Var snäll och kontrollera noga att Du verkligen vill fullfölja detta.';
-$string['couldnotassignrole'] = 'Ett allvarligt men odefinierat fel inträffade när en roll skulle tilldelas till Dig.';
+$string['confirmsesskeybad'] = 'Beklagar, men det gick inte att bekräfta din nyckel för sessionen vilket är nödvändigt för att fullfölja den här handlingen. Det här är en säkerhetsåtgärd för att förebygga att viktiga funktioner utförs på felaktiga eller illasinnade sätt i ditt namn. Var god och kontrollera noga att du verkligen vill fullfölja detta.';
+$string['couldnotassignrole'] = 'Ett allvarligt men odefinierat fel inträffade när en roll skulle tilldelas till dig.';
 $string['couldnotupdatenoexistinguser'] = 'Kan inte uppdatera användaren - användaren finns inte';
 $string['countriesphpempty'] = 'Fel: Filen countries.php i språkpaketet {$a} är tom eller saknas.';
 $string['coursedoesnotbelongtocategory'] = 'Kursen tillhör inte den här kategorin';
@@ -193,7 +194,7 @@ $string['detectedbrokenplugin'] = 'Plugin "{$a}" är defekt eller föråldrat, k
 $string['dmlexceptiononinstall'] = '<p>Ett databasfel har inträffat [{$a->errorcode}].<br />{$a->debuginfo}</p>';
 $string['dmlreadexception'] = 'Fel vid läsning av databas';
 $string['dmltransactionexception'] = 'Fel vid överföring till databas';
-$string['dmlwriteexception'] = 'Fel i sb m att data skulle skrivas till databas';
+$string['dmlwriteexception'] = 'Fel vid skrivning till databasen';
 $string['downgradedcore'] = 'FEL! Koden som du använder är äldre än den version som skapade dessa databaser!';
 $string['downloadedfilecheckfailed'] = 'Det gick inte att kontrollera den nedladdade filen';
 $string['duplicatefieldname'] = 'Duplicerat fältnamn "{$a}" upptäcktes';
@@ -210,7 +211,7 @@ $string['errorcopyingfiles'] = 'Fel i samband med kopiering av filer';
 $string['errorcreatingdirectory'] = 'Fel i samband med skapandet av katalogen  "{$a}"';
 $string['errorcreatingfile'] = 'Fel i samband med skapandet av filen  "{$a}"';
 $string['errorcreatingrole'] = 'Fel vid skapande av roll';
-$string['errorfetchingrssfeed'] = 'Det uppstod ett fel i sb m hämtning av RSS-inflöde';
+$string['errorfetchingrssfeed'] = 'Fel vid hämtning av RSS-flöde.';
 $string['erroronline'] = 'Fel på rad {$a}';
 $string['errorparsingxml'] = 'Fel vid tolkning XML: {$a->errorstring} på rad {$a->errorline}, tecken {$a->errorchar}';
 $string['errorreadingfile'] = 'Fel i samband med läsningen av filen  "{$a}"';
@@ -340,15 +341,16 @@ $string['listnoitem'] = 'Det gick inte att hitta komponenten';
 $string['listnopeers'] = 'Det gick inte att hitta några jämikar på samma nivå till komponenten';
 $string['listupdatefail'] = 'DB-operationen misslyckades när listans hierarki skulle redigeras.';
 $string['logfilenotavailable'] = 'Loggar ej tillgängliga';
-$string['loginasnoenrol'] = 'Du kan inte använda \'registrera\' eller \'avregistrera\' när Du är i en session för \'logga in som\' för kurs.';
-$string['loginasonecourse'] = 'Du har inte tillträde till den här kursen.<br/ > Du måste avsluta sessionen \'Logga in som\' innan Du kan få tillträde till någon annan kurs.';
+$string['loginasnoenrol'] = 'Du kan inte använda \'registrera\' eller \'avregistrera\' när du är i en session för \'logga in som\' för kurs.';
+$string['loginasonecourse'] = 'Du har inte tillträde till den här kursen.<br/ > Du måste avsluta sessionen \'Logga in som\' innan du kan få tillträde till någon annan kurs.';
 $string['maxareabytes'] = 'Filen är större än det kvarvarande utrymmet i den här arean.';
+$string['messageundeliveredbynotificationsettings'] = 'Det gick inte att skicka meddelandet eftersom personliga meddelanden mellan användare (i \'Inställningar för notiser\') har inaktiverats av en webbplatsadministratör.';
 $string['messagingdisable'] = 'Meddelanden har inaktiverats på den här webbplatsen';
 $string['mimetexisnotexist'] = 'Ditt system är inte konfigurerat för att köra mimeTeX. Du måste ladda ned lämplig exekverbar fil för din PHP_OS-plattform från <a href="http://moodle.org/download/mimetex/">http://moodle.org/download/mimetex/</a> eller hämta C-källkoden från <a href="http://www.forkosh.com/mimetex.zip"> http://www.forkosh.com/mimetex.zip</a>, kompilera samt lägga den exekverbara filen i din moodle/filter/tex/-folder.';
 $string['mimetexnotexecutable'] = 'Anpassad mimetex är inte körbar!';
+$string['missing_moodle_backup_xml_file'] = 'Säkerhetskopian saknar XML-fil: {$a}';
 $string['missingfield'] = 'Fältet "{$a}" saknas';
 $string['missingkeyinsql'] = 'FEL: parameter "{$a}" saknas i frågan';
-$string['missing_moodle_backup_xml_file'] = 'Säkerhetskopian saknar XML-fil: {$a}';
 $string['missingparam'] = 'En obligatorisk parameter ({$a}) saknades';
 $string['missingparameter'] = 'Parameter saknas';
 $string['missingrequiredfield'] = 'Det saknas några obligatoriska fält';
@@ -363,7 +365,7 @@ $string['modulemissingcode'] = 'Modulen {$a} saknar den kod som behövs för den
 $string['movecatcontentstoroot'] = 'Att flytta kategoriinnehåll till roten är inte tillåtet. Du måste flytta innehållet till en existerande kategori!';
 $string['multiplerecordsfound'] = 'Flera poster hittades, endast en post förväntades.';
 $string['mustbeloggedin'] = 'Du måste vara inloggad för att göra detta';
-$string['mustbeteacher'] = 'Du måste vara (distans)lärare för få tillgång till den här sidan.';
+$string['mustbeteacher'] = 'Du måste vara lärare för få tillgång till den här sidan.';
 $string['myisamproblem'] = 'Databastabellerna använder MyISAM databasmotorn, det är rekommenderat att använda en ACID-kompatibel databasmotor med fullt transaktionsstöd som InnoDB.';
 $string['needcopy'] = 'Du måste kopiera något först!';
 $string['needcoursecategroyid'] = 'Antingen kurs-id eller kategori måste anges';
@@ -410,12 +412,12 @@ $string['notownerofkey'] = 'Du är inte ägare till denna nyckel';
 $string['nousers'] = 'Ingen sådan användare!';
 $string['onlyadmins'] = 'Det är bara administratörer som kan göra detta.';
 $string['onlyeditingteachers'] = 'Det är bara lärare som kan göra det.';
-$string['onlyeditown'] = 'Du kan bara redigera Din egen information.';
+$string['onlyeditown'] = 'Du kan bara redigera din egen information.';
 $string['orderidnotfound'] = 'Ordernummer {$a} hittades inte';
 $string['pagenotexist'] = 'Ett ovanligt fel inträffade (ett försök att nå en sida som inte finns).';
 $string['pathdoesnotstartslash'] = 'Inga giltiga argument tillhandahölls, sökvägen börjar inte med snedstreck!';
-$string['pleasereport'] = 'Om Du har tid, var då snäll och låt oss få veta när felet uppträdde.';
-$string['pluginrequirementsnotmet'] = 'Det gick inte att installera "{$a->pluginname}" ({$a->pluginversion}). Den kräver en nyare version av Moodle. Du använder f.n. {$a->currentmoodle} och Du behöver {$a->requiremoodle} .';
+$string['pleasereport'] = 'Om du har tid, var då snäll och låt oss få veta när felet uppträdde.';
+$string['pluginrequirementsnotmet'] = 'Det gick inte att installera "{$a->pluginname}" ({$a->pluginversion}). Den kräver en nyare version av Moodle. Du använder f.n. {$a->currentmoodle} och du behöver {$a->requiremoodle} .';
 $string['prefixcannotbeempty'] = '<p>Fel: prefix för databastabell får inte vara tomt ({$a})</p>
 <p>Administratören för webbplatsen måste åtgärda det här problemet.</p>';
 $string['prefixtoolong'] = '<p>Fel: prefix för databastabell är för långt ({$a->dbfamily})</p>
@@ -426,7 +428,7 @@ $string['redirecterrordetected'] = 'Omdirigering utan stöd upptäcktes, skripte
 $string['refoundto'] = 'Kan återbetalas till {$a}';
 $string['refoundtoorigi'] = 'Återbetalas till ursprungligt belopp: {$a}';
 $string['remotedownloaderror'] = 'Nedladdningen av en komponent till din server misslyckades, var snäll och verifiera inställningar för proxy. <br /><br />Du måste ladda ner <a href="{$a->url}">{$a->url}</a> filen manuellt, kopiera den till "{$a->dest}" på din server och packa upp den där.';
-$string['remotedownloadnotallowed'] = 'De är inte tillåtet att ladda upp komponenter till Din server (allow_url_fopen är avaktiverad). Du måste ladda ner filen <a href="{$a->url}">{$a->url}</a> manuellt, kopiera den till "{$a->dest}" på Din server och packa upp den där.';
+$string['remotedownloadnotallowed'] = 'De är inte tillåtet att ladda upp komponenter till din server (allow_url_fopen är avaktiverad). Du måste ladda ner filen <a href="{$a->url}">{$a->url}</a> manuellt, kopiera den till "{$a->dest}" på din server och packa upp den där.';
 $string['reportnotavailable'] = 'Den här typen av rapport är endast tillgänglig för webbplatskursen';
 $string['requirecorrectaccess'] = 'Ogiltig webbadress eller port.';
 $string['requireloginerror'] = 'Kurs eller aktivitet inte tillgänglig.';
@@ -444,9 +446,9 @@ $string['serverconnection'] = 'Fel vid anslutning till servern';
 $string['servicedonotexist'] = 'Tjänsten finns inte';
 $string['sessioncookiesdisable'] = 'Felaktig användning av require_key_login() - sessions-cookies måste inaktiveras!';
 $string['sessiondiskfull'] = 'Partitionen för sessioner är full. Just nu är det inte möjligt att logga in.<br /><br />Var god notifiera administratören för servern.';
-$string['sessionerroruser'] = 'Tiden för Din session har tagit slut eller stötte på ett fel. Var snäll och logga in igen.';
-$string['sessionerroruser2'] = 'Ett fel på servernivå som påverkar Din session för inloggning har upptäckts. Var snäll och logga in igen och starta om Din webbläsare.';
-$string['sessionipnomatch'] = 'Beklagar, men Ditt IP-nummer tycks ha ändrats sedan Du först loggade in. Det här är en säkerhetsåtgärd för att förebygga att \'crackers\' stjäl Din identitet medan Du är inloggad på den här webbplatsen. Vanliga användare bör inte få se detta meddelande - var snäll och be administratören för Din webbplats om hjälp.';
+$string['sessionerroruser'] = 'Tiden för din session har tagit slut eller stötte på ett fel. Var snäll och logga in igen.';
+$string['sessionerroruser2'] = 'Ett fel på servernivå som påverkar din session för inloggning har upptäckts. Var snäll och logga in igen och starta om din webbläsare.';
+$string['sessionipnomatch'] = 'Beklagar, men ditt IP-nummer tycks ha ändrats sedan du först loggade in. Det här är en säkerhetsåtgärd för att förebygga att \'crackers\' stjäl din identitet medan du är inloggad på den här webbplatsen. Vanliga användare bör inte få se detta meddelande - var snäll och be administratören för din webbplats om hjälp.';
 $string['sessionipnomatch2'] = 'Tyvärr, ditt ip-nummer verkar att ha ändrats sedan du först loggade in. Den här säkerhetsfunktionen förhindrar crackers att stjäla din identitet medan du är inloggad på den här webbplatsen. Du kan se det här felmeddelandet ifall du använder trådlösa nätverk eller om du roamar mellan olika nätverk. Var god fråga webbplatsens administratör för mer hjälp.<br /><br />Om du vill fortsätta, var god tryck F5 för att ladda om den här sidan.';
 $string['sessionwaiterr'] = 'Timeout i väntan på sessionslås.<br />Vänta till din nuvarande förfrågan avslutats och försök igen senare.';
 $string['shortnametaken'] = 'Kortnamnet används redan för en annan kurs';
@@ -466,11 +468,10 @@ $string['tagnotfound'] = 'Den specificerade etiketten gick inte att hitta i data
 $string['targetdatabasenotempty'] = 'Destinationsdatabasen är inte tom. Flytt avbruten av säkerhetsskäl.';
 $string['textconditionsnotallowed'] = 'Jämförelser av textkolumner är inte tillåtna. Var god använd sql_compare_text() i din fråga.';
 $string['themenotinstall'] = 'Detta tema är inte installerat!';
-$string['TODO'] = 'Att göra';
 $string['tokengenerationfailed'] = 'Det går inte att skapa en ny token.';
 $string['transactionvoid'] = 'Transaktionen kan inte annulleras eftersom den redan har annullerats';
 $string['unenrolerror'] = 'Ett fel uppstod vid avregistrering sv personen';
-$string['unicodeupgradeerror'] = 'Din databas är tyvärr ännu inte i Unicode och den här versionen av Moodle kan inte överföra Din databas till Unicode. Var snäll och uppgradera till Moodle 1.7.x först och genomför övergången till Unicode  via sidan för administration. Därefter bör Du kunna överföra databasen till Moodle {$a}.';
+$string['unicodeupgradeerror'] = 'Din databas är tyvärr ännu inte i Unicode och den här versionen av Moodle kan inte överföra din databas till Unicode. Var snäll och uppgradera till Moodle 1.7.x först och genomför övergången till Unicode  via sidan för administration. Därefter bör du kunna överföra databasen till Moodle {$a}.';
 $string['unknowaction'] = 'Okänd åtgärd!';
 $string['unknowcategory'] = 'Kategori inte känd!';
 $string['unknowcontext'] = 'Det här är en okänd kontext ({$a}) i get_child_contexts!';
@@ -509,7 +510,7 @@ $string['useremailduplicate'] = 'Dublett av adress';
 $string['usermustbemnet'] = 'Användare i MNET åtkomstlistan måste vara fjärr MNET-användare';
 $string['usernotaddederror'] = 'Användaren har inte lagts till, detta p.g. a. ett okänt fel.';
 $string['usernotaddedregistered'] = 'Användaren har inte lagts till eftersom denne/a redan är registrerad';
-$string['usernotavailable'] = 'Detaljerna kring denne användare är inte tillgängliga för Dig.';
+$string['usernotavailable'] = 'Detaljerna kring denne användare är inte tillgängliga för dig.';
 $string['usernotdeletedadmin'] = 'Användare inte raderad - kan inte ta bort administratörskonton';
 $string['usernotdeletederror'] = 'Användaren togs inte bort - okänt fel';
 $string['usernotdeletedmissing'] = 'Användaren togs inte bort - det gick inte att hitta användarnamnet.';

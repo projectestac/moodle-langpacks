@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_mobile', language 'eu', branch 'MOODLE_37_STABLE'
+ * Strings for component 'local_mobile', language 'eu', version '3.8'.
  *
- * @package   local_mobile
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     local_mobile
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -34,6 +34,8 @@ $string['enableadditionalservice'] = 'Gaitu Moodle Mobile ezaugarri gehigarrien 
 $string['enableadditionalservicedescription'] = 'Zerbitzu hau gaituta egon behar da.';
 $string['local_mobiledescription'] = 'Mobile zerbitzuaren ezaugarriak hedatzen dituen plugina';
 $string['local_mobilesettings'] = 'Ezarpenak';
+$string['local_mobiletypeoflogin_key'] = 'Sarbide-mota';
+$string['loginintheapp'] = 'App bidez';
 $string['pluginname'] = 'Moodle Mobile ezaugarri gehigarriak';
 $string['pluginnotenabledorconfigured'] = 'Moodle Mobile plugin lokala gaituta eta konfiguratuta egon behar da aplikazioa irekitzeko';
 $string['privacy:metadata'] = 'Moodle Mobile ezaugarri gehigarriak pluginak ez du datu pertsonalik biltzen';

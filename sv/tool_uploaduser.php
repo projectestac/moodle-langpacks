@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'tool_uploaduser', language 'sv', version '3.8'.
  *
- * @package   tool_uploaduser
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     tool_uploaduser
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -43,15 +43,15 @@ $string['uploadpicture_cannotsave'] = 'Det går inte att spara bilden för anvä
 $string['uploadpicture_cannotunzip'] = 'Det går inte att packa upp filen med bilder.';
 $string['uploadpicture_invalidfilename'] = 'Bildfilen {$a} s namn innehåller ogiltiga tecken. Hoppar över.';
 $string['uploadpicture_overwrite'] = 'Vill du skriva över de befintliga användarbilderna?';
-$string['uploadpictures'] = 'Ladda upp bilder för användare';
-$string['uploadpictures_help'] = '<p>Det går att ladda upp användarbilder som zippade bildfiler. Man bör ge bildfilerna ett namn <i>chosen-user-attribute.extension</i>. Om t.ex. det valda användarattribut som används för att matcha  bilder är användarnamn och detta namn är pelle1234, då bör filnamnet på bilden vara pelle1234.jpg.</p>
-<p>De bildformat som  stödjs är gif, jpg, och png.</p>
-<p>Namn på bildfiler är inte skiftlägeskänsliga.</p>';
 $string['uploadpicture_userfield'] = 'Attribut för användare som kan användas för att matcha bilder:';
 $string['uploadpicture_usernotfound'] = 'Det finns ingen användare med ett \'{$a->userfield}\' värde av \'{$a->uservalue}\'. Hoppar över.';
 $string['uploadpicture_userskipped'] = 'Hoppar över användare {$a} (det finns redan en bild).';
 $string['uploadpicture_userupdated'] = 'Bilden för användare {$a} har uppdaterats.';
-$string['uploadusers'] = 'Ladda upp användare';
+$string['uploadpictures'] = 'Ladda upp användarbilder';
+$string['uploadpictures_help'] = '<p>Det går att ladda upp användarbilder som zippade bildfiler. Man bör ge bildfilerna ett namn <i>chosen-user-attribute.extension</i>. Om t.ex. det valda användarattribut som används för att matcha  bilder är användarnamn och detta namn är pelle1234, då bör filnamnet på bilden vara pelle1234.jpg.</p>
+<p>De bildformat som  stödjs är gif, jpg, och png.</p>
+<p>Namn på bildfiler är inte skiftlägeskänsliga.</p>';
+$string['uploadusers'] = 'Ladda upp användare från fil';
 $string['uploadusers_help'] = '<p>Lägg till att börja med märke till att <strong>det i de flesta fall inte är nödvändigt att importera användare i bulk</strong>. För att minimera ditt underhållsarbete bör du istället först och främst undersöka de olika inte-manuella alternativen för autenticering, som t.ex. att koppla till befintliga externa databaser eller att låta användarna skapa sina konton själva. För mer info se sektionen för autenticering i menyerna för administration.</p>
 <p>Om du är säker på att du vill importera ett flertal användarkonton från en textfil då behöver du formatera din textfil enligt följande:</p>
 
@@ -131,8 +131,8 @@ att tas bort. I det här fallet kan alla fält undantas utom det för <code>user
 jand, Johan, Andersson, 0<br />
 kurtnilsson, , , 1
 </code></p>';
-$string['uploaduserspreview'] = 'Ladda upp förhandsgranskning av användare';
-$string['uploadusersresult'] = 'Ladda upp resultat för användare';
+$string['uploaduserspreview'] = 'Förgranska uppladdning av användare';
+$string['uploadusersresult'] = 'Resultat uppladdning av användare';
 $string['useraccountupdated'] = 'Användare har uppdaterats';
 $string['userdeleted'] = 'Användare borttagen';
 $string['userrenamed'] = 'Användare  har fått nya namn';

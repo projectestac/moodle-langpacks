@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_rss_client', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'block_rss_client', language 'sv', version '3.8'.
  *
- * @package   block_rss_client
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     block_rss_client
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -29,15 +29,15 @@ $string['addfeed'] = 'Lägg till en URL för inmatning av nyheter:';
 $string['addheadlineblock'] = 'Lägg till ett block med RSS rubriker';
 $string['addnew'] = 'Lägg till  Ny';
 $string['addnewfeed'] = 'Lägg till ett nytt flöde';
-$string['choosefeedlabel'] = 'Välj vilka inmatningar som Du vill göra tillgängliga i det här blocket:';
+$string['choosefeedlabel'] = 'Välj vilka inmatningar som du vill göra tillgängliga i det här blocket:';
 $string['clientchannellink'] = 'Den webbplats som är källa';
 $string['clientnumentries'] = 'Standardantal bidrag att visa per inmatning';
-$string['clientshowchannellinklabel'] = 'Vill Du visa en länk till den ursprungliga webbplatsen (kanallänk)? (OBS! Om det inte finns någon inmatningslänk i nyhetsinmatningen så kommer ingen länk att visas):';
+$string['clientshowchannellinklabel'] = 'Vill du visa en länk till den ursprungliga webbplatsen (kanallänk)? (OBS! Om det inte finns någon inmatningslänk i nyhetsinmatningen så kommer ingen länk att visas):';
 $string['clientshowimagelabel'] = 'Visa kanalens bild om den är tillgänglig:';
 $string['configblock'] = 'Konfigurera det här blocket';
 $string['couldnotfindfeed'] = 'Det gick inte att hitta någon inmatning med id';
 $string['customtitlelabel'] = 'Standardtitel (lämna detta tomt för att använda den titel som kommer med inmatningen):';
-$string['deletefeedconfirm'] = 'Är Du säker på att Du vill ta bort den här inmatningen?';
+$string['deletefeedconfirm'] = 'Är du säker på att du vill ta bort den här inmatningen?';
 $string['disabledrssfeeds'] = 'RSS-flöden är avaktiverat';
 $string['displaydescriptionlabel'] = 'Visa beskrivningen av varje länk?';
 $string['editafeed'] = 'Redigera ett flöde';
@@ -49,7 +49,7 @@ $string['enableautodiscovery_help'] = 'Om detta är aktiverat så kommer inflöd
 $string['feed'] = 'Inmatning';
 $string['feedadded'] = 'En nyhetsinmatning har lagts till';
 $string['feeddeleted'] = 'En nyhetsinmatning har tagits bort';
-$string['feeds'] = 'Nyhetsinmatningar';
+$string['feeds'] = 'Nyhetsflöden';
 $string['feedsaddedit'] = 'Lägg till/redigera inmatningar';
 $string['feedsconfigurenewinstance'] = 'Klicka här för att konfigurera detta block så att det visar RSS-inmatningar.';
 $string['feedsconfigurenewinstance2'] = 'Klicka på ikonen för att redigera här ovan för att konfigurera det här blocket så att det kan visa RSS-flöden';
@@ -61,7 +61,7 @@ $string['nofeeds'] = 'Det finns inga RSS-inmatningar som har definierats för de
 $string['numentries'] = 'Bidrag per matning';
 $string['pickfeed'] = 'Välj en nyhetsinmatning';
 $string['pluginname'] = 'RSS-klient';
-$string['remotenewsfeed'] = 'Fjärrinmatning av nyheter';
+$string['remotenewsfeed'] = 'Fjärrnyhetsflöde';
 $string['rss_client:createprivatefeeds'] = 'Skapa privata RSS-matningar';
 $string['rss_client:createsharedfeeds'] = 'Skapa gemensamma RSS-matningar';
 $string['rss_client:manageanyfeeds'] = 'Administrera alla typer av RSS-matningar';
@@ -69,7 +69,7 @@ $string['rss_client:manageownfeeds'] = 'Administrera egna RSS-matningar';
 $string['seeallfeeds'] = 'Visa alla inmatningar';
 $string['sharedfeed'] = 'Gemensam inmatning';
 $string['shownumentrieslabel'] = 'Maximalt antal bidrag att visa per block.';
-$string['submitters'] = 'Vem ska behörighet att definiera nya RSS-flöden? Definierade flöden finns tillgängliga för vilken sida som helst på Din webbplats.';
+$string['submitters'] = 'Vem ska behörighet att definiera nya RSS-flöden? Definierade flöden finns tillgängliga för vilken sida som helst på din webbplats.';
 $string['submitters2'] = 'Inskickare';
 $string['timeout'] = 'Tid i minuter innan ett RSS-flöde tas bort från cachen. OBS! Den här tiden definierar minitiden innan den går ut; flödet kommer att återställas i cachen vid nästa körning av cron efter att tiden har gått ut. 30 minuter eller mer rekommenderas. ';
 $string['timeout2'] = 'Timeout';

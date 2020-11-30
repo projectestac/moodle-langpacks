@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_imsenterprise', language 'el', branch 'MOODLE_38_STABLE'
+ * Strings for component 'enrol_imsenterprise', language 'el', version '3.8'.
  *
- * @package   enrol_imsenterprise
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     enrol_imsenterprise
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -40,14 +40,14 @@ $string['createnewcategories_desc'] = 'Εάν το στοιχείο &lt;org&gt;&
 Εάν δεν υπάρχει καμία κατηγορία με το επιθυμητό όνομα, τότε θα δημιουργηθεί μια κρυμμένη κατηγορία.';
 $string['createnewcourses'] = 'Δημιουργία νέων (κρυμμένων) μαθημάτων εάν δεν εντοπίζονται στο Moodle';
 $string['createnewcourses_desc'] = 'Εάν ενεργοποιηθεί, το πρόσθετο εγγραφής Enterprise IMS μπορεί να δημιουργήσει νέα μαθήματα για όσα εντοπίζονται στα δεδομένα IMS, αλλά όχι στη βάση δεδομένων του Moodle. Οποιαδήποτε νέα μαθήματα αρχικά κρύβονται.';
-$string['createnewusers'] = 'Δημιουργία λογαριασμών χρηστών για χρήστες που δεν έχουν ήδη καταχωρηθεί στο Moodle';
+$string['createnewusers'] = 'Δημιουργία λογαριασμών χρηστών για χρήστες που δεν έχουν ήδη εγγραφεί στο Moodle';
 $string['createnewusers_desc'] = 'Τα δεδομένα εγγραφής Enterprise IMS συνήθως περιγράφουν ένα σετ χρηστών. Εάν ενεργοποιηθεί, μπορεί να γίνει δημιουργία λογαριασμού για όποιο χρήστη δεν υπάρχει στη βάση δεδομένων του Moodle. Η αναζήτηση χρηστών γίνεται αρχικά με τον «αναγνωριστικό αριθμό» και στη συνέχεια με το «όνομα χρήστη» στο Moodle. Οι κωδικοί πρόσβασης δεν εισάγονται από το πρόσθετο IMS Enterprise. Η χρήση ενός πρόσθετου αυθεντικοποίησης συνιστάται για την αυθεντικοποίηση χρηστών.';
 $string['cronfrequency'] = 'Συχνότητα επεξεργασίας';
 $string['deleteusers'] = 'Διαγραφή λογαριασμών χρηστών όταν δηλώνεται στα IMS δεδομένα';
 $string['deleteusers_desc'] = 'Εάν ενεργοποιηθεί, τα δεδομένα εγγραφής <b>IMS Enterprise</b> μπορούν να καθορίσουν τη διαγραφή λογαριασμών χρηστών (αν η σημαιοδότηση «recstatus» τεθεί σε 3, που ορίζει διαγραμμένους λογαριασμούς). Στο Moodle, τυπικά, τα στοιχεία των χρηστών δεν διαγράφονται πραγματικά από τη βάση δεδομένων, αλλά οι λογαριασμοί επισημαίνονται με σημαιοδότηση ως διαγραμμένοι.';
 $string['doitnow'] = 'εκτέλεση μιας εισαγωγής IMS Enterprise τώρα';
 $string['emptyattribute'] = 'Αφήστε το κενό';
-$string['filelockedmail'] = 'Το αρχείο κειμένου που χρησιμοποιείτε για εγγραφές βασισμένες σε IMS αρχείο ({$a}) δεν μπορεί να διαγραφεί από τη διαδικασία χρονοπρογραμματισμού cron. Αυτό συνήθως σημαίνει ότι τα δικαιώματα σε αυτήν είναι λάθος. Παρακαλούμε διορθώστε τα δικαιώματα ώστε το Moodle να μπορεί να διαγράψει το αρχείο αυτό, ειδάλλως μπορεί να το επεξεργάζεται επανειλημμένα.';
+$string['filelockedmail'] = 'Το αρχείο κειμένου που χρησιμοποιείτε για εγγραφές βασισμένες στο IMS αρχείο ({$a}) δεν μπορεί να διαγραφεί από την διεργασία χρονοπρογραμματισμού cron. Αυτό συνήθως σημαίνει ότι τα δικαιώματα είναι λάθος ορισμένα σε αυτό. Παρακαλούμε διορθώστε τα δικαιώματα ώστε το Moodle να μπορεί να διαγράψει το αρχείο, ειδάλλως μπορεί να το επεξεργάζεται επανειλημμένα.';
 $string['filelockedmailsubject'] = 'Σημαντικό σφάλμα: Αρχείο εγγραφής';
 $string['fixcasepersonalnames'] = 'Αλλαγή προσωπικών ονομάτων σε Γράμματα Τίτλου';
 $string['fixcaseusernames'] = 'Αλλαγή ονομάτων χρηστών σε μικρά γράμματα';

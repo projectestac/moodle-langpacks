@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_mobile', language 'sv', branch 'MOODLE_37_STABLE'
+ * Strings for component 'local_mobile', language 'sv', version '3.8'.
  *
- * @package   local_mobile
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     local_mobile
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -28,5 +28,9 @@ defined('MOODLE_INTERNAL') || die();
 $string['cannotcreatetoken'] = 'Att generera token automatiskt är inte tillgänglig för administratörer (de måste skapa en token manuellt på webbplatsen)';
 $string['local_mobiledescription'] = 'Plugin som utökar funktionen för mobila tjänster';
 $string['local_mobilesettings'] = 'Inställningar';
+$string['local_mobiletypeoflogin'] = 'Välj vilken typ av inloggning';
+$string['local_mobiletypeoflogin_key'] = 'Typ av inloggning';
+$string['loginintheapp'] = 'Via appen';
+$string['logininthebrowser'] = 'Via ett webbläsarfönster (för SSO plugins)';
 $string['pluginname'] = 'Moodle Mobile ytterligare funktioner';
 $string['pluginnotenabledorconfigured'] = 'Moodle Mobile lokala plugin måste aktiveras och konfigureras för att starta appen';

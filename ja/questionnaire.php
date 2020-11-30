@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'ja', branch 'MOODLE_38_STABLE'
+ * Strings for component 'questionnaire', language 'ja', version '3.8'.
  *
- * @package   questionnaire
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     questionnaire
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -82,7 +82,6 @@ $string['checkstarted'] = '開始する';
 $string['clicktoswitch'] = '（クリックして変更する）';
 $string['closed'] = 'アンケートは、{$a} に終了しました。ありがとうございます。';
 $string['closedate'] = '終了日';
-$string['closedate_help'] = 'あなたはここにアンケートの回答期限となる日付を指定することができます。チェックボックスをオンにして，希望する日時を選択します。ユーザーは、その日付を過ぎるとアンケートに記入することができません。これが選択されていない場合、アンケートに回答期限はなく，終了することはありません。';
 $string['closeson'] = 'アンケートは {$a} に終了しました。';
 $string['completionsubmit'] = '学生はこれを完了するためには，このアンケートを提出しなければなりません';
 $string['condition'] = '条件';
@@ -96,8 +95,8 @@ $string['confirmdelquestion'] = '{$a} で質問を削除してもよろしいで
 $string['confirmdelquestionresps'] = 'これは，すでにその質問に寄せられた回答 {$a} も削除します。';
 $string['confirmdelresp'] = '{$a} の回答を消去してよろしいですか？';
 $string['confpage'] = '表題';
-$string['confpagedesc'] = 'ユーザがこの調査を完了した後、「確認」ページで表示される表題 (太字) および本文です。(URLが入力されている場合、確認テキストに優先します。)';
 $string['confpage_help'] = '見出し（太字）および「確認」ページ（ユーザーがこのアンケートを完了した後に表示される）の本文テキスト。 （特定のURLが存在する場合には、確認のテキストよりも優先されます。）このフィールドを空のままにすると、次のようなメッセージが、アンケート終了時に表示されます（このアンケートに回答していただきありがとうございます）。';
+$string['confpagedesc'] = 'ユーザがこの調査を完了した後、「確認」ページで表示される表題 (太字) および本文です。(URLが入力されている場合、確認テキストに優先します。)';
 $string['contentoptions'] = '設定オプション';
 $string['couldnotcreatenewsurvey'] = '新規サーベイを作成できません！';
 $string['couldnotdelresp'] = '回答を消去できません';
@@ -105,8 +104,8 @@ $string['createcontent'] = '新しいコンテンツの定義';
 $string['createcontent_help'] = 'オプションをどれか一つ選択してください。\'新規作成\' が初期値です。';
 $string['createnew'] = 'アンケートの新規作成';
 $string['date'] = '日付';
-$string['dateformatting'] = '「年/月/日」形式を使用してください。例：1945年3月14日　<strong>1945/3/14</strong>';
 $string['date_help'] = '正しくフォーマットされた日付の回答を期待する場合は、この質問タイプを使用してください。';
+$string['dateformatting'] = '「年/月/日」形式を使用してください。例：1945年3月14日　<strong>1945/3/14</strong>';
 $string['deleteallresponses'] = 'すべての回答の消去';
 $string['deletecurrentquestion'] = '質問 {$a} の消去';
 $string['deletedallgroupresp'] = 'グループ {$a} のすべての回答の消去';
@@ -149,6 +148,7 @@ $string['event_resumed'] = '企画がまとめられました。';
 $string['event_saved'] = '回答が保存されました。';
 $string['event_submitted'] = '回答が提出されました。';
 $string['feedback'] = 'フィードバック';
+$string['feedback_help'] = 'フィードバックのヘルプ';
 $string['feedbackaddmorefeedbacks'] = 'フィードバックフィールドを追加する/追加しない';
 $string['feedbackbysection'] = 'フィードバックセクション';
 $string['feedbackeditingglobal'] = 'グローバルフィードバックの編集';
@@ -167,7 +167,6 @@ $string['feedbackglobalmessages'] = 'グローバルフィードバックのメ�
 $string['feedbackhdr'] = 'フィードバック';
 $string['feedbackheading'] = 'フィードバックの見出し';
 $string['feedbackheading_help'] = 'フィードバックの見出しフィールドには、次の2つの変数を使用することができます：$scorepercent と $oppositescorepercent。';
-$string['feedback_help'] = 'フィードバックのヘルプ';
 $string['feedbackmessages'] = 'セクション {$a} のフィードバックメッセージ';
 $string['feedbacknextsection'] = '次のセクション {$a}';
 $string['feedbacknone'] = 'フィードバックメッセージはありません';
@@ -254,12 +253,13 @@ $string['noattempts'] = 'このアンケートはまだ実行されていませ�
 $string['nodata'] = 'データがありません。';
 $string['noduplicates'] = '重複選択なし';
 $string['noduplicateschoiceserror'] = '「重複選択なし」のオプション設定用に，少なくとも2つの選択候補を入力する必要があります！';
-$string['noneinuse'] = 'このアンケートには，質問がありません。';
 $string['non_respondents'] = 'まだこのアンケートへの回答を提出していないユーザー';
+$string['noneinuse'] = 'このアンケートには，質問がありません。';
 $string['nopublicsurveys'] = '公開アンケートはありません';
 $string['noresponsedata'] = 'この質問には回答はありません。';
 $string['noresponses'] = '回答なし';
 $string['normal'] = 'ノーマル';
+$string['not_started'] = '開始されていない';
 $string['notanumber'] = '<strong>{$a}</strong> は受け入れ可能な数値フォーマットではありません。';
 $string['notapplicable'] = 'N/A';
 $string['notapplicablecolumn'] = 'N/A カラム';
@@ -274,7 +274,6 @@ $string['notificationsimple'] = '通知のみ';
 $string['notopen'] = 'このアンケートは、{$a} まで開始されません。';
 $string['notrequired'] = '回答の必要はありません';
 $string['notset'] = 'と設定されていない';
-$string['not_started'] = '開始されていない';
 $string['nousersselected'] = '選択されたユーザがいません';
 $string['num'] = '#';
 $string['numattemptsmade'] = 'このアンケートで行われた試み {$a}';
@@ -286,7 +285,6 @@ $string['numeric'] = '数値形式';
 $string['numeric_help'] = '回答が正しくフォーマットされた数値であることが予想される場合、この質問タイプを使用してください。';
 $string['of'] = '／';
 $string['opendate'] = '開始日';
-$string['opendate_help'] = 'あなたがここにアンケートを開始する日付を指定することができます。チェックボックスをチェックして、希望する日時を選択します。ユーザーは、それより前にアンケートに記入することはできません。チェックされていない場合は、すぐにアンケートが開始されます。';
 $string['option'] = 'オプション {$a}';
 $string['optional'] = '任意 - 一つ以上の依存関係を満たす必要があります。';
 $string['optionalname'] = '項目名';
@@ -322,9 +320,9 @@ $string['pluginname'] = 'アンケート';
 $string['position'] = 'ポジション';
 $string['possibleanswers'] = '回答の選択肢';
 $string['posteddata'] = 'ポストされたデータでの到達ページ：';
-$string['previewing'] = 'アンケートのプレビュー';
 $string['preview_label'] = 'プレビュー';
 $string['preview_questionnaire'] = 'アンケートのプレビュー';
+$string['previewing'] = 'アンケートのプレビュー';
 $string['previous'] = '前へ';
 $string['previouspage'] = '前のページ';
 $string['print'] = 'この回答を印刷する';
@@ -338,15 +336,13 @@ $string['public'] = '公開型';
 $string['publiccopy'] = 'コピー：';
 $string['publicoriginal'] = 'オリジナル：';
 $string['qtype'] = 'タイプ';
-$string['qtypedaily'] = '毎日回答';
 $string['qtype_help'] = '一度しか回答できないのか，定期的に繰り返し回答するのか，何度でも無制限に回答できるのかを指定します。';
+$string['qtypedaily'] = '毎日回答';
 $string['qtypemonthly'] = '毎月回答';
 $string['qtypeonce'] = '１回のみ回答';
 $string['qtypeunlimited'] = '何回でも回答';
 $string['qtypeweekly'] = '毎週回答';
 $string['questionnaire:addinstance'] = '新しいアンケートの追加';
-$string['questionnaireadministration'] = 'アンケートモジュールの管理';
-$string['questionnairecloses'] = 'アンケート終了';
 $string['questionnaire:copysurveys'] = 'テンプレート型およびコース限定型のアンケートをコピーする';
 $string['questionnaire:createpublic'] = '公開型のアンケートを作成する';
 $string['questionnaire:createtemplates'] = 'テンプレート型のアンケートを作成する';
@@ -355,16 +351,18 @@ $string['questionnaire:downloadresponses'] = 'CSVファイルで回答データ�
 $string['questionnaire:editquestions'] = '質問項目の作成・編集';
 $string['questionnaire:manage'] = 'アンケートの作成・編集';
 $string['questionnaire:message'] = '非回答者にメッセージを送信';
-$string['questionnaireopens'] = 'アンケート開始';
 $string['questionnaire:preview'] = 'アンケートをプレビューする';
 $string['questionnaire:printblank'] = '空白のアンケートの印刷';
 $string['questionnaire:readallresponseanytime'] = '随時すべての回答を閲覧する';
 $string['questionnaire:readallresponses'] = '回答概要を閲覧する';
 $string['questionnaire:readownresponses'] = '自分の回答だけを閲覧する';
-$string['questionnairereport'] = 'アンケートのリポート';
 $string['questionnaire:submit'] = '回答をすべて完了し，送信する';
 $string['questionnaire:view'] = 'アンケートの閲覧';
 $string['questionnaire:viewsingleresponse'] = '完了した回答を個々に閲覧する';
+$string['questionnaireadministration'] = 'アンケートモジュールの管理';
+$string['questionnairecloses'] = 'アンケート終了';
+$string['questionnaireopens'] = 'アンケート開始';
+$string['questionnairereport'] = 'アンケートのリポート';
 $string['questionnum'] = '質問 #';
 $string['questions'] = 'アンケート項目';
 $string['questionsinsection'] = 'このセクションの質問：';
@@ -383,6 +381,7 @@ $string['realm_help'] = '* **アンケートには、次の3種類がありま�
 $string['redirecturl'] = 'この調査完了後、ユーザがリダイレクトされるURLです。';
 $string['remove'] = '削除';
 $string['removeallquestionnaireattempts'] = 'アンケートの回答をすべて削除します。';
+$string['removenotinuse'] = 'このアンケートは，すでに削除されたパブリックアンケートに依存しています。それはもはや使用することができませんので，削除する必要があります。';
 $string['required'] = '必須回答';
 $string['required_help'] = '***Yes***を選択した場合は，この質問への回答が必須となります。つまり，この質問に回答するまで，アンケートを提出し終えることができません。';
 $string['requiredparameter'] = '必要なパラメータが欠如してます。';
@@ -394,9 +393,9 @@ $string['respondenteligiblestudents'] = '学生のみ';
 $string['respondenteligibleteachers'] = '教師のみ';
 $string['respondents'] = '回答者';
 $string['respondenttype'] = '回答者タイプ';
+$string['respondenttype_help'] = 'ここを「フルネーム」に設定すれば，各回答にそれぞれ回答者の名前を表示することができます。「匿名」に設定すれば，各回答からユーザー名を隠すことができます。';
 $string['respondenttypeanonymous'] = '匿名';
 $string['respondenttypefullname'] = 'フルネーム';
-$string['respondenttype_help'] = 'ここを「フルネーム」に設定すれば，各回答にそれぞれ回答者の名前を表示することができます。「匿名」に設定すれば，各回答からユーザー名を隠すことができます。';
 $string['response'] = '回答';
 $string['responsefieldlines'] = '入力欄のサイズ';
 $string['responseformat'] = '回答形式';
@@ -427,10 +426,10 @@ $string['sectiontext'] = 'ラベル';
 $string['sectiontext_help'] = 'これは質問ではありませんが，一連の質問を紹介するときに表示される（短い）テキストです。';
 $string['selecttheme'] = 'この調査で使用するテーマ (CSS) を選択してください。';
 $string['send'] = '送信する';
-$string['sendemail'] = '各送信内容のコピーを送信するアドレスです (メールバックアップ不要の場合、空白)。';
-$string['sendemail_help'] = '指定されたメールアドレスに提出された回答の写しを一つ一つ送信します。あなたはカンマで区切って2つ以上のメールアドレスを指定することもできます。電子メールのバックアップが必要ないときは，空欄のままにしてください。';
 $string['send_message'] = '選択したユーザー宛てにメッセージを送信';
 $string['send_message_to'] = 'メッセージを送信する：';
+$string['sendemail'] = '各送信内容のコピーを送信するアドレスです (メールバックアップ不要の場合、空白)。';
+$string['sendemail_help'] = '指定されたメールアドレスに提出された回答の写しを一つ一つ送信します。あなたはカンマで区切って2つ以上のメールアドレスを指定することもできます。電子メールのバックアップが必要ないときは，空欄のままにしてください。';
 $string['set'] = 'と設定された';
 $string['settings'] = '設定';
 $string['settingssaved'] = '設定が保存されました。';
@@ -465,7 +464,7 @@ $string['theme'] = 'テーマ';
 $string['thismonth'] = '今月';
 $string['thisresponse'] = 'この回答';
 $string['thisweek'] = '今週';
-$string['thousands'] = '区切り文字を多用しないでください。';
+$string['thousands'] = 'カンマなど3桁ごとの桁区切り文字を使用しないでください。';
 $string['title'] = 'タイトル';
 $string['title_help'] = 'このアンケートのタイトルは，各ページの上部に常に表示されます。デフォルトのタイトル名は，アンケート名で設定されていますが、あなたが好きなようにそれを編集することができます。';
 $string['today'] = '本日';

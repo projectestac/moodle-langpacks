@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'glossary', language 'ar', version '3.8'.
  *
- * @package   glossary
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     glossary
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -95,7 +95,7 @@ $string['completionentriesdesc'] = 'ينبغي على الطلبة إنشاء {$
 $string['completionentriesgroup'] = 'يتطلب مصطلحات';
 $string['concept'] = 'المفهوم';
 $string['concepts'] = 'المفاهيم';
-$string['configenablerssfeeds'] = 'هذا المفتاح سيمكن احتمالية خدمة تغذية المعلومات لجميع المسردات. كما سيجب عليك أن تمكن خدمة تغذية المعلومات يدوياً من خلال إعدادات كل مسرد.';
+$string['configenablerssfeeds'] = 'هذا المفتاح سيسمح بإمكانية وضع خدمة التغذية الإخبارية في جميع المسارد. مع ذلك، سينبغي عليك تمكين تلك التغذيات يدوياً في كل مسرد من خلال إعداداته.';
 $string['current'] = 'حالياً مفروز {$a}';
 $string['currentglossary'] = 'المسرد الحالي';
 $string['date'] = 'التاريخ';
@@ -119,14 +119,6 @@ $string['destination'] = 'مقصد المصطلحات المستوردة';
 $string['destination_help'] = 'يمكن استيراد المصطلحات إما إلى المسرد الحالي أو إلى مسرد جديد، وعندها سيتم إنشاء مسرد آخر بناءً على المعلومات في ملف XML.';
 $string['disapprove'] = 'إلغاء الموافقة';
 $string['displayformat'] = 'تنسيق العرض';
-$string['displayformatcontinuous'] = 'مستمر بدون الكاتب';
-$string['displayformatdefault'] = 'إفتراضياً كما هو تنسيق العرض';
-$string['displayformatdictionary'] = 'نمط قاموسي بسيط';
-$string['displayformatencyclopedia'] = 'دائرة معارف';
-$string['displayformatentrylist'] = 'قائمة مصطلحات';
-$string['displayformatfaq'] = 'أسئلة متكررة';
-$string['displayformatfullwithauthor'] = 'كامل مع الكاتب';
-$string['displayformatfullwithoutauthor'] = 'كامل بدون الكاتب';
 $string['displayformat_help'] = 'هناك 7 تنسيقات للعرض:
 
 * بسيط، نمط القاموس - لا يتم عرض الكُتَّاب والمرفقات تظهر بشكل روابط
@@ -136,8 +128,16 @@ $string['displayformat_help'] = 'هناك 7 تنسيقات للعرض:
 * موسوعة - كما في "كامل مع الكاتب" لكن مع إظهار الصور المرفقة مع النص
 * قائمة مصطلحات - المفاهيم تُدرج كروابط
 * أسئلة شائعة - يتم إلحاق كلمتي سؤال وجواب إلى المفهوم والتعريف على التوالي';
+$string['displayformatcontinuous'] = 'مستمر بدون الكاتب';
+$string['displayformatdefault'] = 'إفتراضياً كما هو تنسيق العرض';
+$string['displayformatdictionary'] = 'نمط قاموسي بسيط';
+$string['displayformatencyclopedia'] = 'دائرة معارف';
+$string['displayformatentrylist'] = 'قائمة مصطلحات';
+$string['displayformatfaq'] = 'أسئلة متكررة';
+$string['displayformatfullwithauthor'] = 'كامل مع الكاتب';
+$string['displayformatfullwithoutauthor'] = 'كامل بدون الكاتب';
 $string['displayformats'] = 'تنسيقات العرض';
-$string['displayformatssetup'] = 'إعداد تنسيقات العرض';
+$string['displayformatssetup'] = 'عرض إعدادات صيغ العرض';
 $string['duplicatecategory'] = 'تكرار التصنيف';
 $string['duplicateentry'] = 'تكرار المصطلح';
 $string['editalways'] = 'إسمح دائماً بالتحرير';
@@ -203,18 +203,18 @@ $string['glossary:export'] = 'تصدير المصطلحات';
 $string['glossary:exportentry'] = 'تصدير مصطلح منفرد';
 $string['glossary:exportownentry'] = 'تصدير مصطلح منفرد مما هو لك';
 $string['glossary:import'] = 'استيراد المصطلحات';
-$string['glossaryleveldefaultsettings'] = 'الإعدادات الإفتراضية على مستوى المسرد';
 $string['glossary:managecategories'] = 'إدارة التصنيفات';
 $string['glossary:managecomments'] = 'إدارة التعليقات';
 $string['glossary:manageentries'] = 'إدارة المصطلحات';
 $string['glossary:rate'] = 'تقييم المصطلحات';
-$string['glossarytype'] = 'نوع المسرد';
-$string['glossarytype_help'] = 'المسرد الرئيسي هو المسرد الذي يمكن استيراد المصطلحات إليه من المسارد الثانوية. يمكن أن يكون هناك مسرد رئيسي واحد في المساق. إذا لم تكن هناك حاجة لاستيراد المصطلحات، يمكن جعل كل المسارد في المساق ثانوية.';
 $string['glossary:view'] = 'معانية المسرد';
 $string['glossary:viewallratings'] = 'معاينة كل التقييمات الخام المقدمة من قبل الأفراد';
 $string['glossary:viewanyrating'] = 'معاينة إجمالي التقييمات التي تلقاها كل شخص';
 $string['glossary:viewrating'] = 'معاينة إجمالي التقييم الذي تلقاه';
 $string['glossary:write'] = 'إنشاء مصطلحات جديدة';
+$string['glossaryleveldefaultsettings'] = 'الإعدادات الإفتراضية على مستوى المسرد';
+$string['glossarytype'] = 'نوع المسرد';
+$string['glossarytype_help'] = 'المسرد الرئيسي هو المسرد الذي يمكن استيراد المصطلحات إليه من المسارد الثانوية. يمكن أن يكون هناك مسرد رئيسي واحد في المساق. إذا لم تكن هناك حاجة لاستيراد المصطلحات، يمكن جعل كل المسارد في المساق ثانوية.';
 $string['guestnoedit'] = 'الضيوف لا يسمح لهم بتحرير المسارد';
 $string['importcategories'] = 'استيراد التصنيفات';
 $string['importedcategories'] = 'التصنيفات المستوردة';
@@ -223,13 +223,13 @@ $string['importentries'] = 'استيراد المصطلحات';
 $string['importentriesfromxml'] = 'استيراد المصطلحات من ملف XML';
 $string['includegroupbreaks'] = 'تضمين فواصل المجموعات';
 $string['indicator:cognitivedepth'] = 'المسرد معرفياً';
+$string['indicator:cognitivedepth_help'] = 'هذا المؤشر مبني على عمق الحالة المعرفية التي وصلها الطالب في نشاط المسرد.';
 $string['indicator:cognitivedepthdef'] = 'المسرد معرفياً';
 $string['indicator:cognitivedepthdef_help'] = 'لقد وصل المشارك إلى هذه النسبة المئوية من المشاركة المعرفية التي وفرتها نشاطات المسرد خلال فترة التحليل هذه (المستويات = لا معاينة، معاينة، تقديم)';
-$string['indicator:cognitivedepth_help'] = 'هذا المؤشر مبني على عمق الحالة المعرفية التي وصلها الطالب في نشاط المسرد.';
 $string['indicator:socialbreadth'] = 'المسرد إجتماعياً';
+$string['indicator:socialbreadth_help'] = 'هذا المؤشر مبني على عمق التوسع الاجتماعي الذي وصله الطالب في نشاط المسرد.';
 $string['indicator:socialbreadthdef'] = 'المسرد إجتماعياً';
 $string['indicator:socialbreadthdef_help'] = 'لقد وصل المشارك إلى هذه النسبة المئوية من المشاركة الاجتماعية التي وفرتها نشاطات المسرد خلال فترة التحليل هذه (المستويات = لا مشاركة، المشاركة منفرداً)';
-$string['indicator:socialbreadth_help'] = 'هذا المؤشر مبني على عمق التوسع الاجتماعي الذي وصله الطالب في نشاط المسرد.';
 $string['isglobal'] = 'هل هذا المسرد عمومي؟';
 $string['isglobal_help'] = 'المسرد العمومي فيه مصطلحات يُرتبط بها من أرجاء الموقع بدلاً من مجرد المساق الذي يتواجد فيه المسرد. المشرفون وحدهم يمكنهم جعل المسرد عمومياً.';
 $string['letter'] = 'حرف';

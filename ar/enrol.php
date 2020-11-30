@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'enrol', language 'ar', version '3.8'.
  *
- * @package   enrol
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     enrol
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -84,9 +84,9 @@ $string['eventuserenrolmentcreated'] = 'المستخدم منضم إلى الم�
 $string['eventuserenrolmentdeleted'] = 'المستخدم أُلغي انضمامه إلى المساق';
 $string['eventuserenrolmentupdated'] = 'تم تحديث إلغاء انضمام المستخدم';
 $string['expirynotify'] = 'أرسل إشعاراً قبل انتهاء فترة الانضمام';
+$string['expirynotify_help'] = 'هذا الإعداد يحدد فيما إذا كان يتم إرسال الإشعارات بشأن انتهاء فترة الانضمام.';
 $string['expirynotifyall'] = 'من قام بالضم والمستخدم المنضم';
 $string['expirynotifyenroller'] = 'من قام بالضم فقط';
-$string['expirynotify_help'] = 'هذا الإعداد يحدد فيما إذا كان يتم إرسال الإشعارات بشأن انتهاء فترة الانضمام.';
 $string['expirynotifyhour'] = 'الساعة المزمع أن يتم فيها إرسال إشعارات انتهاء الانضمام';
 $string['expirythreshold'] = 'عتبة الإشعار';
 $string['expirythreshold_help'] = 'ما هي المدة التي تسبق انتهاء فترة الانضمام والتي ينبغي عندها إشعار المستخدمين؟';
@@ -115,11 +115,11 @@ $string['noguestaccess'] = 'لا يمكن للضيوف الوصول إلى هذ�
 $string['none'] = 'لا أحد';
 $string['notenrollable'] = 'لا يمكنك التسجيل في هذا المقرر الدراسي.';
 $string['notenrolledusers'] = 'مستخدمين آخرون';
-$string['otheruserdesc'] = 'المستخدمون التالية أسماؤهم غير مسجلين في هذا المساق، ولكن لهم أدوار موروثة أو معينة ضمنه.';
+$string['otheruserdesc'] = 'المستخدمين التاليين غير مسجلين في هذا المقرر، ولكن لهم أدوار موروثة أو معينة ضمن المقرر.';
 $string['participationactive'] = 'نشط';
 $string['participationnotcurrent'] = 'ليس جارياً';
 $string['participationstatus'] = 'حالة';
-$string['participationsuspended'] = 'مُعلَّق';
+$string['participationsuspended'] = 'معلّق';
 $string['periodend'] = 'حتى {$a}';
 $string['periodnone'] = 'منضم {$a}';
 $string['periodstart'] = 'من {$a}';

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'availability', language 'sv', version '3.8'.
  *
- * @package   availability
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     availability
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -38,12 +38,18 @@ $string['hidden_individual'] = 'Dold helt om användaren inte uppfyller detta vi
 $string['hidden_marker'] = '(annars dolt)';
 $string['hide_verb'] = 'Klicka för att dölja';
 $string['invalid'] = 'Vänligen ange';
-$string['itemheading'] = '{$a->number} {$a->type} villkor';
 $string['item_unknowntype'] = 'Dessa villkor använder en plugin som inte längre finns (om det är okej att ta bort denna begränsning bort den nedan)';
+$string['itemheading'] = '{$a->number} {$a->type} villkor';
 $string['label_multi'] = 'Nödvändiga villkor';
 $string['label_sign'] = 'Villkor typ';
 $string['list_and'] = 'Samtliga:';
 $string['list_and_hidden'] = 'Samtliga (dold på annat sätt):';
+$string['list_or'] = 'Vilken som helst av:';
+$string['list_or_hidden'] = 'Vilken som helst av (dold på annat sätt):';
+$string['list_root_and'] = 'Inte tillgängligt om inte:';
+$string['list_root_and_hidden'] = 'Ej tillgänglig (dold) om inte:';
+$string['list_root_or'] = 'Inte tillgängligt om inte någon av:';
+$string['list_root_or_hidden'] = 'Ej tillgänglig (dold), om inte något av följande:';
 $string['listheader_multi_after'] = 'av följande';
 $string['listheader_multi_and'] = 'alla';
 $string['listheader_multi_before'] = 'match';
@@ -52,19 +58,13 @@ $string['listheader_sign_before'] = 'Student';
 $string['listheader_sign_neg'] = 'måste inte';
 $string['listheader_sign_pos'] = 'måste';
 $string['listheader_single'] = 'matchar följande';
-$string['list_or'] = 'Vilken som helst av:';
-$string['list_or_hidden'] = 'Vilken som helst av (dold på annat sätt):';
-$string['list_root_and'] = 'Inte tillgängligt om inte:';
-$string['list_root_and_hidden'] = 'Ej tillgänglig (dold) om inte:';
-$string['list_root_or'] = 'Inte tillgängligt om inte någon av:';
-$string['list_root_or_hidden'] = 'Ej tillgänglig (dold), om inte något av följande:';
 $string['manageplugins'] = 'Hantera villkor/begränsningar';
 $string['missingplugin'] = 'Plugin för villkor/begränsningar saknas';
 $string['or'] = 'eller';
-$string['restrictaccess'] = 'Begränsa tillgänglighet';
+$string['restrictaccess'] = 'Begränsa/villkora tillgänglighet';
 $string['restrictbygroup'] = 'Lägg till grupp / gruppindelning åtkomstbegränsning';
 $string['setheading'] = '{$a->number} Uppsättning {$a->count} begränsning (ar)';
+$string['show_verb'] = 'Klicka för att visa';
 $string['shown_all'] = 'Visas nedtonade om användaren inte uppfyller villkoren';
 $string['shown_individual'] = 'Visas nedtonade om användaren inte uppfyller detta villkor';
-$string['show_verb'] = 'Klicka för att visa';
 $string['unknowncondition'] = 'Okänt villkor (villkorplugin finns inte)';

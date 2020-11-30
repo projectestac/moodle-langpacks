@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_ldap', language 'ru', branch 'MOODLE_38_STABLE'
+ * Strings for component 'enrol_ldap', language 'ru', version '3.8'.
  *
- * @package   enrol_ldap
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     enrol_ldap
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -54,7 +54,6 @@ $string['course_fullname_updateonsync'] = 'Обновить полное имя 
 $string['course_fullname_updateonsync_key'] = 'Полное имя обновляемого курса';
 $string['course_idnumber'] = 'Атрибут LDAP для получения ID курса. Обычно «CN» или «UID».';
 $string['course_idnumber_key'] = 'ID курса';
-$string['coursenotexistskip'] = 'Курс «{$a}» не существует и автоматическое создание отключено; пропущено';
 $string['course_search_sub'] = 'Искать членство в группе на уровне подконтекстов';
 $string['course_search_sub_key'] = 'Поиск в подконтекстах';
 $string['course_settings'] = 'Настройки зачисления на курс';
@@ -66,6 +65,7 @@ $string['course_summary'] = 'Дополнительно: атрибут LDAP д�
 $string['course_summary_key'] = 'Описание';
 $string['course_summary_updateonsync'] = 'Обновить краткое описание курса во время синхронизации';
 $string['course_summary_updateonsync_key'] = 'Краткое описание обновляемого курса';
+$string['coursenotexistskip'] = 'Курс «{$a}» не существует и автоматическое создание отключено; пропущено';
 $string['courseupdated'] = 'Курс с ID-номером «{$a->idnumber}» успешно обновлен.';
 $string['courseupdateskipped'] = 'Курс с ID-номером «{$a->idnumber}» не требует обновления. Пропущен…';
 $string['createcourseextid'] = 'Создать зачисленного пользователя в несуществующем курсе «{$a->courseextid}»';
@@ -90,9 +90,9 @@ $string['host_url'] = 'Укажите сервер LDAP в формате URL, �
 $string['host_url_key'] = 'URL сервера';
 $string['idnumber_attribute'] = 'Если членство в группе содержит различающиеся имена, то использовать тот же атрибут «ID-номер», который сопоставлен в параметрах LDAP-аутентификации';
 $string['idnumber_attribute_key'] = 'Атрибут «ID-номер»';
+$string['ldap:manage'] = 'Управлять зачислением из LDAP';
 $string['ldap_encoding'] = 'Укажите кодировку LDAP сервера. Скорее всего это UTF-8, MS AD v2 использует платформенную кодировку по умолчанию, такую как cp1252, cp1250 и т. д.';
 $string['ldap_encoding_key'] = 'Кодировка LDAP';
-$string['ldap:manage'] = 'Управлять зачислением из LDAP';
 $string['memberattribute'] = 'Атрибут пользователя LDAP';
 $string['memberattribute_isdn'] = 'Если членство в группе  содержит различающиеся имена, то необходимо указать их здесь. При этом Вы также должны настроить остальные параметры этого раздела.';
 $string['memberattribute_isdn_key'] = 'Участник использует атрибут DN';

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,18 +12,20 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'fr', branch 'MOODLE_38_STABLE'
+ * Strings for component 'error', language 'fr', version '3.8'.
  *
- * @package   error
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     error
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['TODO'] = 'TODO';
 $string['activityisscheduledfordeletion'] = 'Suppression d\'activité en cours…';
 $string['agedigitalconsentmapinvalidage'] = '« {$a} » n\'est pas une valeur valide pour l\'âge.';
 $string['agedigitalconsentmapinvalidcomma'] = '« {$a} » comporte plus ou moins d\'une virgule comme séparateur.';
@@ -195,7 +196,7 @@ $string['coursegroupunknown'] = 'Cours correspondant au groupe {$a} non indiqué
 $string['courseidnotfound'] = 'L\'identifiant de cours n\'existe pas.';
 $string['courseidnumbertaken'] = 'L\'identifiant est déjà utilisé pour un autre cours ({$a})';
 $string['coursemisconf'] = 'Le cours est mal configuré';
-$string['courserequestdisabled'] = 'Désolé, la demande d\'ouverture de cours a été désactivée par l\'administrateur';
+$string['courserequestdisabled'] = 'Désolé, la demande d\'ouverture de cours a été désactivée par l\'administrateur.';
 $string['csvcolumnduplicates'] = 'Colonnes identiques détectées';
 $string['csvemptyfile'] = 'Le fichier CSV est vide';
 $string['csvfewcolumns'] = 'Pas assez de colonnes. Veuillez vérifier le réglage du séparateur';
@@ -238,6 +239,7 @@ $string['duplicateusername'] = 'Nom d\'utilisateur à double : ligne ignorée';
 $string['emailfail'] = 'Échec de l\'envoi par courriel';
 $string['enddatebeforestartdate'] = 'La date de fin doit être postérieure à la date de début.';
 $string['error'] = 'Une erreur est survenue';
+$string['error_question_answers_missing_in_db'] = 'Impossible de trouver une réponse correspondant à « {$a->answer} » dans la table question_answers database de la base de données. Cette erreur est survenue lors de la restauration de la question d\'identifiant {$a->filequestionid} dans le fichier de sauvegarde, qui a été mis en correspondance avec la question existante d\'identifiant {$a->dbquestionid} dans la base de données.';
 $string['errorcleaningdirectory'] = 'Erreur lors du nettoyage du dossier « {$a} »';
 $string['errorcopyingfiles'] = 'Erreur lors de la copie de fichiers';
 $string['errorcreatingdirectory'] = 'Erreur lors de la création du dossier « {$a} »';
@@ -248,7 +250,6 @@ $string['erroronline'] = 'Erreur à la ligne {$a}';
 $string['erroroutput'] = 'Erreur de sortie. La redirection automatique a été désactivée.';
 $string['errorparsingxml'] = 'Erreur d\'analyse XML : {$a->errorstring} à la ligne {$a->errorline}, caractère {$a->errorchar}';
 $string['errorprocessingarchive'] = 'Erreur lors du traitement du fichier d\'archive';
-$string['error_question_answers_missing_in_db'] = 'Impossible de trouver une réponse correspondant à « {$a->answer} » dans la table question_answers database de la base de données. Cette erreur est survenue lors de la restauration de la question d\'identifiant {$a->filequestionid} dans le fichier de sauvegarde, qui a été mis en correspondance avec la question existante d\'identifiant {$a->dbquestionid} dans la base de données.';
 $string['errorreadingfile'] = 'Erreur lors de la lecture du fichier « {$a} »';
 $string['errorsavingrequest'] = 'Erreur lors de l\'enregistrement de votre demande';
 $string['errorsettinguserpref'] = 'Erreur lors de l\'enregistrement de la préférence utilisateur';
@@ -394,9 +395,9 @@ $string['messageundeliveredbynotificationsettings'] = 'Le message n\'a pas pu ê
 $string['messagingdisable'] = 'La messagerie est désactivée sur ce site';
 $string['mimetexisnotexist'] = 'Votre serveur n\'est pas configuré pour lancer mimeTeX. Veuillez télécharger les sources en C du programme ici <a href="https://www.forkosh.com/mimetex.zip"> https://www.forkosh.com/mimetex.zip</a>, les compiler et placer le programme dans le dossier moodle/filter/tex/.';
 $string['mimetexnotexecutable'] = 'Votre programme <i>mimetex</i> n\'est pas exécutable !';
+$string['missing_moodle_backup_xml_file'] = 'Fichier de sauvegarde XML manquant : {$a}';
 $string['missingfield'] = 'Le champ « {$a} » est manquant';
 $string['missingkeyinsql'] = 'Erreur : paramètre « {$a} » manquant dans la requête';
-$string['missing_moodle_backup_xml_file'] = 'Fichier de sauvegarde XML manquant : {$a}';
 $string['missingparam'] = 'Un paramètre requis ({$a}) est manquant';
 $string['missingparameter'] = 'Paramètre manquant';
 $string['missingrequiredfield'] = 'Un champ obligatoire n\'est pas renseigné';
@@ -439,7 +440,7 @@ $string['nologinas'] = 'Vous n\'avez pas les permissions requises pour vous conn
 $string['nonmeaningfulcontent'] = 'Le contenu ne fait pas de sens';
 $string['noparticipants'] = 'Aucun participant trouvé dans ce cours';
 $string['noparticipatorycms'] = 'Désolé, aucun module de participation pour lequel faire un rapport';
-$string['nopermissions'] = 'Désolé, vous n\'avez actuellement pas les permissions requises pour effectuer ceci ({$a})';
+$string['nopermissions'] = 'Désolé, vous n\'avez actuellement pas les permissions pour effectuer ceci ({$a})';
 $string['nopermissiontocomment'] = 'Vous n\'avez pas les permissions requises pour ajouter des commentaires !';
 $string['nopermissiontodelentry'] = 'Vous ne pouvez pas supprimer ce commentaire !';
 $string['nopermissiontoeditcomment'] = 'Vous n\'avez pas les permissions requises pour modifier les commentaires d\'autres utilisateurs !';
@@ -450,7 +451,7 @@ $string['nopermissiontomanagegroup'] = 'Vous n\'avez pas les permissions requise
 $string['nopermissiontorate'] = 'Vous n\'avez pas les permissions requises pour évaluer des articles !';
 $string['nopermissiontoshow'] = 'Vous n\'avez pas les permissions requises pour voir ceci !';
 $string['nopermissiontounlock'] = 'Vous n\'avez pas les permissions requises pour déverrouiller !';
-$string['nopermissiontoupdatecalendar'] = 'Vous n\'avez pas les permissions requises pour modifier un événement de calendrier.';
+$string['nopermissiontoupdatecalendar'] = 'Vous n\'avez pas les permissions pour modifier un événement de calendrier.';
 $string['nopermissiontoviewgrades'] = 'Vous n\'avez pas les permissions requises pour voir les notes.';
 $string['nopermissiontoviewletergrade'] = 'Vous n\'avez pas les permissions requises pour voir les notes lettres';
 $string['nopermissiontoviewpage'] = 'Vous n\'avez pas les permissions requises pour voir cette page';
@@ -490,9 +491,9 @@ $string['remotedownloadnotallowed'] = 'Le téléchargement de composants sur vot
 $string['reportnotavailable'] = 'Ce type de rapport n\'est disponible que pour le cours de site';
 $string['requirecorrectaccess'] = 'Port ou URL non valide.';
 $string['requireloginerror'] = 'Cours ou activité pas accessible.';
-$string['restorechecksumfailed'] = 'Un problème est survenu avec les informations de restauration stockées dans votre session. Veuillez vérifier la mémoire PHP et/ou les limites de taille de la base de données. La restauration a été interrompue.';
 $string['restore_path_element_missingmethod'] = 'La méthode de restauration {$a} est manquante. Elle doit être définie par un développeur.';
 $string['restore_path_element_noobject'] = 'L\'objet de restauration {$a} n\'est pas un objet.';
+$string['restorechecksumfailed'] = 'Un problème est survenu avec les informations de restauration stockées dans votre session. Veuillez vérifier la mémoire PHP et/ou les limites de taille de la base de données. La restauration a été interrompue.';
 $string['restrictedcontextexception'] = 'L\'exécution de fonctions externes viole la restriction de contexte.';
 $string['restricteduser'] = 'Votre compte utilisateur « {$a} » ne vous permet pas d\'effectuer cette opération';
 $string['reverseproxyabused'] = 'Le proxy inverse est activé. Il n\'est pas possible d\'accéder au serveur de manière directe.<br />Veuillez contacter l\'administrateur du serveur.';
@@ -532,7 +533,6 @@ $string['tagnotfound'] = 'Le tag indiqué n\'a pas été trouvé dans la base de
 $string['targetdatabasenotempty'] = 'La base de données choisie n\'est pas vide. Le transfert a été interrompu par sécurité.';
 $string['textconditionsnotallowed'] = 'La comparaison des conditions de texte par colonne n\'est pas permise. Veuillez utiliser sql_compare_text() dans votre requête.';
 $string['themenotinstall'] = 'Ce thème n\'est pas installé !';
-$string['TODO'] = 'TODO';
 $string['tokengenerationfailed'] = 'Impossible de générer un nouveau jeton';
 $string['transactionvoid'] = 'La transaction ne peut pas être annulée, car cela a déjà été fait';
 $string['unenrolerror'] = 'Une erreur est survenue lors de la tentative de désinscription de cet utilisateur';

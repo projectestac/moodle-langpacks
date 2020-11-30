@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,25 +12,26 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'block', language 'sv', version '3.8'.
  *
- * @package   block
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     block
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $string['addtodock'] = 'Flytta det här till dockan';
-$string['anypagematchingtheabove'] = 'Alla sidor som matchar den ovanstående';
-$string['appearsinsubcontexts'] = 'Förekommer i underliggande sammanhang';
+$string['anypagematchingtheabove'] = 'Alla sidor matchar den ovanstående';
+$string['appearsinsubcontexts'] = 'Visas i underliggande sammanhang';
 $string['assignrolesinblock'] = 'Tilldela roller i {$a} block';
 $string['blocksettings'] = 'Inställningar för block';
-$string['bracketfirst'] = '{$a} (första)';
-$string['bracketlast'] = '{$a} (sista)';
+$string['bracketfirst'] = '{$a} (överst)';
+$string['bracketlast'] = '{$a} (nederst)';
 $string['configureblock'] = 'Konfigurera {$a} block';
 $string['contexts'] = 'Sammanhang för sida';
 $string['createdat'] = 'Original block plats';
@@ -45,9 +45,9 @@ $string['deleteblockcheck'] = 'Är du säker att du vill radera denna block med 
 $string['deleteblockwarning'] = '<p> Du håller på att radera ett block som finns någon annanstans. </p><p> Original blocket plats: {$a->location} <br /> Visning på sidtyper: {$a->pagetype} </p><p> Är du säker på att du vill fortsätta? </p>';
 $string['deletecheck'] = 'Ta bort {$a} block?';
 $string['dockblock'] = 'Docka {$a} blocket';
-$string['hideblock'] = 'Göm {$a} block';
-$string['hidedockpanel'] = 'Göm dockpanelen';
-$string['hidepanel'] = 'Göm panel';
+$string['hideblock'] = 'Dölj {$a} block';
+$string['hidedockpanel'] = 'Dölj dockpanelen';
+$string['hidepanel'] = 'Dölj panel';
 $string['moveblock'] = 'Flytta {$a} block';
 $string['moveblockafter'] = 'Flytta blocket efter {$a} blocket';
 $string['moveblockbefore'] = 'Flytta blocket framför {$a} blocket';
@@ -56,16 +56,18 @@ $string['myblocks'] = 'Mina block';
 $string['onthispage'] = 'På den här sidan';
 $string['pagetypes'] = 'Typer av sidor';
 $string['pagetypewarning'] = 'Den tidigare angivna sidtypen är inte längre valbar. Välj den lämpligaste sidtypen nedan.';
+$string['privacy:metadata:userpref:hiddenblock'] = 'Registrerar när användaren komprimerade/dolde ett block';
+$string['privacy:request:blockishidden'] = 'Visar om blocket doldes/komprimerades';
 $string['region'] = 'Region';
-$string['restrictpagetypes'] = 'Begränsa till den här typen av sidor';
+$string['restrictpagetypes'] = 'Visa på sidor av typern';
 $string['showblock'] = 'Visa {$a} block';
 $string['showoncontextandsubs'] = 'Visa på \'{$a}\' och alla sidor inom den';
 $string['showoncontextonly'] = 'Visa bara på \'{$a}\' ';
 $string['showonentiresite'] = 'Visa över hela webbplatsen';
 $string['showonfrontpageandsubs'] = 'Visa på hemsidan och på alla sidor som läggs till ingångssidan';
 $string['showonfrontpageonly'] = 'Visa bara på ingångssidan';
-$string['subpages'] = 'Specifik underliggande sida';
-$string['thisspecificpage'] = 'Den här specifika sidan (sida {$a})';
+$string['subpages'] = 'Välj sidor';
+$string['thisspecificpage'] = 'Den här specifika sidan';
 $string['undockall'] = 'Frigör samtliga från dockning';
 $string['undockblock'] = 'Docka av {$a} blocket';
 $string['undockitem'] = 'Frigör den här komponenten från dockning';

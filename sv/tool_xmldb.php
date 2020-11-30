@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'tool_xmldb', language 'sv', version '3.8'.
  *
- * @package   tool_xmldb
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     tool_xmldb
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -32,14 +32,14 @@ $string['backtomainview'] = 'Tillbaka till huvud';
 $string['cannotuseidfield'] = 'Det går inte att infoga \'id\'-fältet. Det är en autonumerisk kolumn.';
 $string['change'] = 'ändra';
 $string['charincorrectlength'] = 'Felaktig längd på  fält av typen tecken';
-$string['checkbigints'] = 'Kontrollera stora heltal (BigInts)';
 $string['check_bigints'] = 'Leta efter felaktiga heltal för DB';
-$string['checkdefaults'] = 'Kontrollera standardvärden';
 $string['check_defaults'] = 'Leta efter standardvärden som inte verkar passa in i sammanhanget';
-$string['checkforeignkeys'] = 'Leta efter främmande nycklar';
 $string['check_foreign_keys'] = 'Leta efter felanvändningar av  främmande nycklar';
-$string['checkindexes'] = 'Kontrollera index';
 $string['check_indexes'] = 'Leta efter  index för DB som saknas';
+$string['checkbigints'] = 'Kontrollera stora heltal (BigInts)';
+$string['checkdefaults'] = 'Kontrollera standardvärden';
+$string['checkforeignkeys'] = 'Leta efter främmande nycklar';
+$string['checkindexes'] = 'Kontrollera index';
 $string['completelogbelow'] = '(se den kompletta loggen för sökningen här nedan)';
 $string['confirmcheckbigints'] = 'Den här funktionaliteten kommer att söka efter <a href="http://tracker.moodle.org/browse/MDL-11038"> potentiellt felaktiga fält för heltal (integer) </a> på Din Moodle-server som automatiskt genererar (men inte utför!) de nödvändiga SQL-satser (statements) som innehåller alla de korrekt definierade heltalen (integers) i Din DB. <br /><br />När de väl har genererats kan Du kopiera sådana satser säkert och utföra dem genom det gränssnitt för SQL som Du trivs bäst med (glöm inte att säkerhetskopiera Dina data innan Du gör det).<br /><br />Vi rekommenderar starkt att Du kör den senaste  tillgängliga versionen av Moodle innan du utför sökningen av felaktiga heltal (integers).<br /><br />Den här funktionaliteten utför inga åtgärder i förhållande till databasen (den bara läser den) så Du kan använda den när Du vill på ett säkert sätt.';
 $string['confirmcheckindexes'] = 'Den här funktionaliteten kommer att söka efter potentiellt felaktiga index på Din Moodle-server, som automatiskt genererar (men inte utför!) de SQL-satser (statements) som är nödvändiga för att allt ska bevaras uppdaterat. <br /><br />När de väl har genererats kan Du kopiera sådana satser säkert och utföra dem genom det gränssnitt för SQL som Du trivs bäst med (glöm inte att säkerhetskopiera Dina data innan Du gör det).<br /><br />Vi rekommenderar starkt att Du kör den senaste tillgängliga versionen av Moodle innan du utför sökningen index som saknas.<br /><br />Den här funktionaliteten utför inga åtgärder i förhållande till databasen (den bara läser den) så Du kan använda den när Du vill på ett säkert sätt.';
@@ -102,12 +102,12 @@ $string['missingindexes'] = 'De saknade indexen har återfunnits';
 $string['mustselectonefield'] = 'Du måste välja ett fält för att se de åtgärder som berör fält.';
 $string['mustselectoneindex'] = 'Du måste välja ett index för att se de åtgärder som berör index.';
 $string['mustselectonekey'] = 'Du måste välja en nyckel för att se de åtgärder som berör nycklar.';
+$string['new_table_from_mysql'] = 'Ny tabell från MySQL';
 $string['newfield'] = 'Nytt fält';
 $string['newindex'] = 'Nytt index';
 $string['newkey'] = 'Ny nyckel';
 $string['newtable'] = 'Ny tabell';
 $string['newtablefrommysql'] = 'Ny tabell från MySQL';
-$string['new_table_from_mysql'] = 'Ny tabell från MySQL';
 $string['nomissingindexesfound'] = 'Det gick inte att hitta några saknade index så Du behöver inte göra något mer med Din databas.';
 $string['noviolatedforeignkeysfound'] = 'Det fanns inga främmande nycklar som har felanvänts';
 $string['nowrongintsfound'] = 'Det gick inte att hitta några felaktiga heltal  (integers) så Du behöver inte göra något mer med Din databas.';
@@ -132,15 +132,15 @@ $string['tables'] = 'Tabeller';
 $string['unload'] = 'Avladda';
 $string['up'] = 'Upp';
 $string['view'] = 'Visa';
-$string['viewedited'] = 'Visa redigerad';
-$string['vieworiginal'] = 'Visa ursprunglig';
-$string['viewphpcode'] = 'Visa PHP-kod';
 $string['view_reserved_words'] = 'Visa reserverade ord';
-$string['viewsqlcode'] = 'Visa SQL-kod';
 $string['view_structure_php'] = 'Visa PHP-struktur';
 $string['view_structure_sql'] = 'Visa SQL-struktur';
 $string['view_table_php'] = 'Visa tabell för PHP';
 $string['view_table_sql'] = 'Visa tabell för SQL';
+$string['viewedited'] = 'Visa redigerad';
+$string['vieworiginal'] = 'Visa ursprunglig';
+$string['viewphpcode'] = 'Visa PHP-kod';
+$string['viewsqlcode'] = 'Visa SQL-kod';
 $string['viewxml'] = 'XML';
 $string['violatedforeignkeys'] = 'Främmande nycklar som har felanvänts';
 $string['violatedforeignkeysfound'] = 'Det finns felanvändning av främmande nycklar';

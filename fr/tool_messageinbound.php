@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'fr', branch 'MOODLE_38_STABLE'
+ * Strings for component 'tool_messageinbound', language 'fr', version '3.8'.
  *
- * @package   tool_messageinbound
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     tool_messageinbound
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -43,15 +43,15 @@ $string['handlerdisabled'] = 'Le gestionnaire de courriel que vous tentez de con
 $string['incomingmailconfiguration'] = 'Configuration du courriel entrant';
 $string['incomingmailserversettings'] = 'Configuration du serveur de courriel entrant';
 $string['incomingmailserversettings_desc'] = 'Moodle peut se connecter aux serveurs IMAP configurés adéquatement. Veuillez spécifier ici les réglages permettant de se connecter à votre serveur IMAP.';
-$string['invalidrecipientdescription'] = 'Le message « {$a->subject} » n\'a pas pu être validé, car il a été envoyé à partir d\'une adresse différente de celle qui est indiquée dans votre profil utilisateur. Pour le valider, veuillez répondre à ce message.';
-$string['invalidrecipientdescriptionhtml'] = 'Le message « {$a->subject} » n\'a pas pu être validé, car il a été envoyé à partir d\'une adresse différente de celle qui est indiquée dans votre profil utilisateur. Pour le valider, veuillez répondre à ce message.';
-$string['invalidrecipientfinal'] = 'Le message « {$a->subject} » n\'a pas pu être authentifié. Veuillez vous assurer que vous l\'envoyez avec la même adresse de courriel que celle qui est indiquée dans votre profil.';
 $string['invalid_recipient_handler'] = 'Si un message valide est reçu, mais que l\'expéditeur ne peut pas être vérifié, le message est stocké sur le serveur de courriel et l\'expéditeur est contacté au moyen de l\'adresse de courriel indiquée dans son profil utilisateur. L\'expéditeur peut alors répondre afin de confirmer l\'authenticité du message d\'origine.
 
 Ce gestionnaire traite ces réponses.
 
 Il n\'est pas possible de désactiver la vérification de l\'expéditeur de ce gestionnaire, car un utilisateur pourrait alors répondre à partir d\'une adresse incorrecte, si la configuration de son client de courriel est incorrecte.';
 $string['invalid_recipient_handler_name'] = 'Gestionnaire d\'expédition non valide';
+$string['invalidrecipientdescription'] = 'Le message « {$a->subject} » n\'a pas pu être validé, car il a été envoyé à partir d\'une adresse différente de celle qui est indiquée dans votre profil utilisateur. Pour le valider, veuillez répondre à ce message.';
+$string['invalidrecipientdescriptionhtml'] = 'Le message « {$a->subject} » n\'a pas pu être validé, car il a été envoyé à partir d\'une adresse différente de celle qui est indiquée dans votre profil utilisateur. Pour le valider, veuillez répondre à ce message.';
+$string['invalidrecipientfinal'] = 'Le message « {$a->subject} » n\'a pas pu être authentifié. Veuillez vous assurer que vous l\'envoyez avec la même adresse de courriel que celle qui est indiquée dans votre profil.';
 $string['mailbox'] = 'Nom de la boîte à lettres';
 $string['mailboxconfiguration'] = 'Configuration de la boîte à lettres';
 $string['mailboxdescription'] = '[boîte]+adresse@[domaine]';

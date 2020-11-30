@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_mobile', language 'ca', branch 'MOODLE_37_STABLE'
+ * Strings for component 'local_mobile', language 'ca', version '3.8'.
  *
- * @package   local_mobile
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     local_mobile
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -34,5 +34,12 @@ $string['enableadditionalservice'] = 'Activa el servei Característiques addicio
 $string['enableadditionalservicedescription'] = 'Cal activar aquest servei.';
 $string['local_mobiledescription'] = 'Connector que amplia les característiques dels serveis de Moodle Mobile';
 $string['local_mobilesettings'] = 'Configuració';
+$string['local_mobiletypeoflogin'] = 'Tria tipus d\'accés';
+$string['local_mobiletypeoflogin_key'] = 'Tipus d\'accés';
+$string['local_mobileurlscheme_key'] = 'Esquema d\'URL';
+$string['loginintheapp'] = 'Mitjançant l\'aplicació';
+$string['logininthebrowser'] = 'Mitjançant una finestra del navegador (per a connectors SSO)';
+$string['loginintheinappbrowser'] = 'Mitjançant un navegador incrustat';
+$string['mod_scorm_settings'] = 'Característiques específiques del mòdul SCORM';
 $string['pluginname'] = 'Característiques addicionals de Moodle Mobile';
 $string['pluginnotenabledorconfigured'] = 'El connector local de Moodle Mobile ha d\'estar habilitat i configurat per a poder llançar l\'aplicació';

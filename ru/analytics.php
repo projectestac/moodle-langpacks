@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'analytics', language 'ru', branch 'MOODLE_38_STABLE'
+ * Strings for component 'analytics', language 'ru', version '3.8'.
  *
- * @package   analytics
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     analytics
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -31,7 +31,7 @@ $string['analysisinprogress'] = 'Всё еще анализируется про
 $string['analytics'] = 'Аналитика';
 $string['analyticsdisabled'] = 'Аналитика отключена. Вы можете включить его в «Администрирование сайта > Расширенные возможности».';
 $string['analyticslogstore'] = 'Журнал событий, используемый для аналитики';
-$string['analyticslogstore_help'] = 'Журнал событий, который будет использоваться API аналитики для считывания активности пользователей';
+$string['analyticslogstore_help'] = 'Журнал событий, который будет использоваться API аналитики для чтения активности пользователей';
 $string['analyticssettings'] = 'Настройки аналитики';
 $string['analyticssiteinfo'] = 'Информация о сайте';
 $string['defaultpredictionsprocessor'] = 'Процессор прогнозов по умолчанию';
@@ -40,9 +40,9 @@ $string['defaulttimesplittingmethods'] = 'Интервалы анализа по
 $string['defaulttimesplittingmethods_help'] = 'Интервал анализа определяет, когда система будет рассчитывать прогнозы и порции записей журналов, которые будут учитываться для этих прогнозов. Процесс оценки модели будет повторяться через эти интервалы анализа, если не указан конкретный интервал анализа.';
 $string['disabledmodel'] = 'Модель отключена';
 $string['erroralreadypredict'] = 'Файл {$a} уже используется для генерации прогнозов.';
-$string['errorcannotreaddataset'] = 'Файл набора данных {$a} не может быть прочитан';
+$string['errorcannotreaddataset'] = 'Файл данных {$a} не может быть прочитан.';
 $string['errorcannotusetimesplitting'] = 'Указанный интервал анализа не может быть использован в этой модели.';
-$string['errorcannotwritedataset'] = 'Файл набора данных {$a} не может быть записан';
+$string['errorcannotwritedataset'] = 'Файл данных {$a} не может быть записан.';
 $string['errorexportmodelresult'] = 'Модель машинного обучения не может быть экспортирована.';
 $string['errorimport'] = 'Ошибка импорта предоставленного JSON-файла.';
 $string['errorimportmissingclasses'] = 'Следующие аналитические компоненты на данном сайте недоступны: {$a->missingclasses}.';
@@ -60,13 +60,13 @@ $string['errornopredictresults'] = 'Процессор прогнозов не �
 $string['errornoroles'] = 'Роли студента или учителя не определены. Определите их на странице настроек аналитики.';
 $string['errornotarget'] = 'У этой модели нет цели.';
 $string['errornotimesplittings'] = 'У этой модели нет интервала анализа.';
-$string['errorpredictioncontextnotavailable'] = 'Контекст этого прогноза больше не доступен.';
+$string['errorpredictioncontextnotavailable'] = 'Этот контекст прогнозирования больше недоступен.';
 $string['errorpredictionformat'] = 'Неверный формат расчета прогноза';
 $string['errorpredictionnotfound'] = 'Прогноз не найден';
 $string['errorpredictionsprocessor'] = 'Ошибка процессора прогнозов: {$a}';
 $string['errorpredictwrongformat'] = 'Результат процессора прогнозов нельзя декодировать: «{$a}»';
 $string['errorprocessornotready'] = 'Выбранный процессор прогнозов не готов: {$a}';
-$string['errorsamplenotavailable'] = 'Образец прогноза больше не доступен';
+$string['errorsamplenotavailable'] = 'Прогнозируемая выборка больше недоступна.';
 $string['errorunexistingmodel'] = 'Модель {$a} не существует';
 $string['errorunexistingtimesplitting'] = 'Выбранный интервал анализа недоступен.';
 $string['errorunknownaction'] = 'Неизвестное действие';

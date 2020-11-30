@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotpot', language 'el', branch 'MOODLE_38_STABLE'
+ * Strings for component 'hotpot', language 'el', version '3.8'.
  *
- * @package   hotpot
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     hotpot
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -62,22 +62,23 @@ $string['delay1'] = 'Καθυστέρηση 1';
 $string['delay2'] = 'Καθυστέρηση 2';
 $string['delay3'] = 'Καθυστέρηση 3';
 $string['delay3summary'] = 'Χρονική καθυστέρηση στο τέλος του κουίζ';
+$string['deleteallattempts'] = 'Διαγραφή όλων των προσπαθειών';
 $string['duration'] = 'Διάρκεια';
 $string['enableobfuscate'] = 'Ενεργοποίηση σύγχυσης κειμένου και προγραμμάτων αναπαραγωής πολυμέσου';
 $string['enableswf'] = 'Να επιτρέπεται ενσωμάτωση αρχείων SWF σε δραστηριότητες HotPot';
 $string['entry_attempts'] = 'Προσπάθειες';
+$string['entry_dates'] = 'Ημερομηνίες';
+$string['entry_grading'] = 'Βαθμολόγηση';
+$string['entry_title'] = 'Όνομα ενότητας ως τίτλος';
 $string['entrycm'] = 'Προηγούμενη δραστηριότητα';
 $string['entrycmcourse'] = 'Προηγούμενη δραστηριότητα σε αυτό το μάθημα';
 $string['entrycmsection'] = 'Προηγούμενη δραστηριότητα σε αυτό το τμήμα μαθήματος';
 $string['entrycompletionwarning'] = 'Πριν ξεκινήσετε αυτή τη δραστηριότητα, πρέπει να δείτε το {$a}.';
-$string['entry_dates'] = 'Ημερομηνίες';
 $string['entrygrade'] = 'Βαθμός προηγούμενης δραστηριότητας';
-$string['entry_grading'] = 'Βαθμολόγηση';
 $string['entryoptions'] = 'Επιλογές σελίδας εισαγωγής';
 $string['entrypage'] = 'Εμφάνιση σελίδας εισαγωγής';
 $string['entrypagehdr'] = 'Σελίδα εισαγωγής';
 $string['entrytext'] = 'Κείμενο σελίδας εισαγωγής';
-$string['entry_title'] = 'Όνομα ενότητας ως τίτλος';
 $string['event_attempt_started'] = 'Η προσπάθεια HotPot ξεκίνησε';
 $string['exit_course'] = 'Μάθημα';
 $string['exit_grades'] = 'Βαθμοί';
@@ -99,8 +100,8 @@ $string['ignored'] = 'Αγνοήθηκε';
 $string['inprogress'] = 'Εκτελείται';
 $string['lastaccess'] = 'Τελευταία πρόσβαση';
 $string['mediafilter_moodle'] = 'Τυπικά φίλτρα πολυμέσων του Moodle';
-$string['modulename'] = 'Το Hot Potatoes Κουίζ';
-$string['modulenameplural'] = 'Τα Hot Potatoes Κουίζ';
+$string['modulename'] = 'HotPot';
+$string['modulenameplural'] = 'HotPots';
 $string['nameadd'] = 'Όνομα';
 $string['nameedit'] = 'Όνομα';
 $string['navigation'] = 'Πλοήγηση';
@@ -113,10 +114,10 @@ $string['noresponses'] = 'Δεν βρέθηκαν πληροφορίες για 
 $string['notattemptedyet'] = 'Χωρίς προσπάθεια ακόμη';
 $string['notavailable'] = 'Λυπούμαστε! Αυτή η δραστηριότητα δεν είναι αυτή τη στιγμή διαθέσιμη σε εσάς.';
 $string['outputformat'] = 'Μορφή εξόδου';
-$string['outputformat_best'] = 'καλύτερο';
+$string['outputformat_best'] = 'Το καλύτερο';
 $string['overviewreport'] = 'Επισκόπηση';
 $string['penalties'] = 'Ποινές';
-$string['pluginname'] = 'Το Hot Potatoes Κουίζ';
+$string['pluginname'] = 'Το άρθρωμα Hot Potatoes';
 $string['questionshort'] = 'Ε-{$a}';
 $string['quizzes'] = 'Κουίζ';
 $string['responses'] = 'Αποκρίσεις';
@@ -138,8 +139,8 @@ $string['subplugintype_hotpotattempt'] = 'Μορφότυπος εξόδου';
 $string['subplugintype_hotpotattempt_plural'] = 'Μορφότυποι εξόδου';
 $string['subplugintype_hotpotreport'] = 'Αναφορά';
 $string['subplugintype_hotpotreport_plural'] = 'Αναφορές';
-$string['textsourcefilename'] = 'Χρήση ονόματος αρχείου';
-$string['textsourcefilepath'] = 'Χρήση διεύθυνσης αρχείου';
+$string['textsourcefilename'] = 'Χρήση ονόματος πηγαίου αρχείου';
+$string['textsourcefilepath'] = 'Χρήση μονοπατιού πηγαίου αρχείου';
 $string['textsourcequiz'] = 'Λήψη από το κουίζ';
 $string['textsourcespecific'] = 'Συγκεκριμένο κείμενο';
 $string['timeclose'] = 'Διαθέσιμο έως';

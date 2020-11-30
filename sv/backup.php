@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'backup', language 'sv', version '3.8'.
  *
- * @package   backup
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     backup
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -32,6 +32,9 @@ $string['asyncbackuperror'] = 'Säkerhetskopieringen misslyckades';
 $string['asyncbackuperrordetail'] = 'Säkerhetskopieringen har misslyckats. Kontakta systemadministratören.';
 $string['asyncbackuppending'] = 'Väntande säkerhetskopiering';
 $string['asyncbackupprocessing'] = 'Säkerhetskopieringen pågår';
+$string['asyncbadexecution'] = 'Felaktig backupcontrollerkörning. Den är {$a} men de borde vara 2.';
+$string['asynccheckprogress'] = 'Du kan kontrollera förloppet när som helst på <a href="{$a}">sidan för återställning</a>.';
+$string['asyncemailenable'] = 'Aktivera notiser';
 $string['asyncemailenabledetail'] = 'Om detta alternativ är aktivt kommer användare att få ett meddelande då en asynkron säkerhetskopiering eller återställning slutförts.';
 $string['asyncgeneralsettings'] = 'Asynkron säkerhetskopiering/återställning';
 $string['asyncmessagebody'] = 'Meddelande';
@@ -115,6 +118,12 @@ $string['choosefilefromcoursebackup'] = 'Område för säkerhetskopiering av kur
 $string['choosefilefromcoursebackup_help'] = 'När kurser säkerhetskopieras med standardinställningar kommer säkerhetskopiorna att sparas här';
 $string['choosefilefromuserbackup'] = 'Område för privat säkerhetskopiering för användare';
 $string['choosefilefromuserbackup_help'] = 'När säkerhetskopiering görs med "Anonymisera användarinformation" valet aktiverat kommer säkerhetskopiorna att sparas här';
+$string['config_keep_groups_and_groupings'] = 'Som standard, behåll nuvarande grupper och gruppindelningar.';
+$string['config_keep_roles_and_enrolments'] = 'Som standard, behåll nuvarande roller och registreringar.';
+$string['config_overwrite_conf'] = 'Tillåter att användaren skriver över nuvarande kursinställningar';
+$string['config_overwrite_course_fullname'] = 'Som standard skriv över kursens fullständiga namn med det från backup-filen. Detta kräver att "Skriv över kurskonfiguration" är ikryssad och att aktuell användare har behörighet att ändra kursens fullständiga namn (moodle/course:changefullname)';
+$string['config_overwrite_course_shortname'] = 'Som standard skriv över kursens kortnamn med det från backup-filen. Detta kräver att "Skriv över kurskonfiguration" är ikryssad och att aktuell användare har behörighet att ändra kursens kortnamn (moodle/course:changeshortname)';
+$string['config_overwrite_course_startdate'] = 'Som standard skriv över kursens startdatum med det från backup-filen. Detta kräver att "Skriv över kurskonfiguration" är ikryssad och att aktuell användare har behörighet att ändra kursens startdatum vid återställningar (moodle/restore:rolldates)';
 $string['configgeneralactivities'] = 'Anger grundinställningen för att inkludera aktiviteter i en säkerhetskopia.';
 $string['configgeneralanonymize'] = 'Om det är aktiverat alla uppgifter om användare kommer att anonymiseras som standard.';
 $string['configgeneralbadges'] = 'Definierar standardinställningen för "märken" (badges) i säkerhetskopior';
@@ -131,14 +140,22 @@ $string['configgeneralquestionbank'] = 'Om aktiverat kommer frågebanken att ing
 $string['configgeneralroleassignments'] = 'Om valet aktiverats kommer rolltilldelning att säkerhetskopieras.';
 $string['configgeneralusers'] = 'Anger grundinställningen för om du vill inkludera användare i säkerhetskopior.';
 $string['configgeneraluserscompletion'] = 'Om valet aktiverats kommer spårning av fullföljande att ingå i säkerhetskopior som standard.';
-$string['config_keep_groups_and_groupings'] = 'Som standard, behåll nuvarande grupper och gruppindelningar.';
-$string['config_keep_roles_and_enrolments'] = 'Som standard, behåll nuvarande roller och registreringar.';
 $string['configloglifetime'] = 'Detta anger hur lång tid du vill behålla logginformation för säkerhetskopiering. Loggar som är äldre än angiven ålder raderas automatiskt. Rekommendationen är att hålla detta värde lågt eftersom logginformationen kan vara enorm.';
-$string['config_overwrite_conf'] = 'Tillåter att användaren skriver över nuvarande kursinställningar';
+$string['configrestoreactivities'] = 'Ställer in standardvärdena för att återställa aktiviteter.';
+$string['configrestorebadges'] = 'Ställer in standardvärdena för att återställa märken.';
+$string['configrestoreblocks'] = 'Ställer in standardvärdena för att återställa block.';
+$string['configrestorecalendarevents'] = 'Ställer in standardvärdena för att återställa kalenderhändelser.';
+$string['configrestorecomments'] = 'Ställer in standardvärdena för att återställa kommentarer.';
+$string['configrestorecompetencies'] = 'Ställer in standardvärdena för att återställa kompetenser.';
+$string['configrestoreenrolments'] = 'Ställer in standardvärdena för att återställa anmälningsmetoder.';
+$string['configrestorefilters'] = 'Ställer in standardvärdena för att återställa filter.';
+$string['configrestoregroups'] = 'Ställer in standardvärdena för att återställa grupper och gruppindelningar om de inkluderats i backupen.';
+$string['configrestorehistories'] = 'Ställer in standardvärdena för att återställa användarhistorik om den inkluderats i backupen.';
+$string['configrestorelogs'] = 'Om aktiverad kommer loggar att återställas om de fanns med i säkerhetskopian.';
 $string['confirmcancel'] = 'Avbryt säkerhetskopiering';
 $string['confirmcancelimport'] = 'Avbryt import';
 $string['confirmcancelno'] = 'Stanna';
-$string['confirmcancelquestion'] = 'Är Du säker på att Du vill avbryta? All information som Du har matat in kommer att försvinna.';
+$string['confirmcancelquestion'] = 'Är du säker på att du vill avbryta? All information som du har matat in kommer att försvinna.';
 $string['confirmcancelrestore'] = 'Avbryt återställning';
 $string['confirmcancelyes'] = 'Avbryt';
 $string['confirmnewcoursecontinue'] = 'Nykurs varning';
@@ -156,12 +173,12 @@ $string['enableasyncbackup'] = 'Aktivera asynkrona säkerhetskopieringar';
 $string['enableasyncbackup_help'] = 'Om detta alternativ är aktiverat kommer alla säkerhetskopieringar och återställningar göras asynkront (i bakgrunden). Detta påverkar inte importer eller exporter. Asynkrona säkerhetskopieringar och återställningar gör det möjligt för användare att göra andra saker under tiden som säkerhetskopieringen eller återställningen pågår.';
 $string['enterasearch'] = 'Ange en sökning';
 $string['error_block_for_module_not_found'] = 'Den övergivna block-instansen (ID: {$a->bid}) för delkurs (ID: {$a->mid}) hittades. Detta block kommer inte att säkerhetskopieras';
-$string['errorcopyingbackupfile'] = 'Misslyckades med att kopiera filen med säkerhetskopian till den tillfälliga mappen innan återställningen.';
 $string['error_course_module_not_found'] = 'Den övergivna kursen (ID: {$a}) hittades. Denna modul kommer inte att säkerhetskopieras.';
+$string['errorcopyingbackupfile'] = 'Misslyckades med att kopiera filen med säkerhetskopian till den tillfälliga mappen innan återställningen.';
 $string['errorfilenamemustbezip'] = 'Filnamnet du anger måste vara en ZIP-fil och har .mbz förlängning';
 $string['errorfilenamerequired'] = 'Du måste ange ett giltigt filnamn för denna säkerhetskopia';
 $string['errorfilenametoolong'] = 'Filnamnet måste innehålla mindre än 255 tecken.';
-$string['errorinvalidformat'] = 'Ogiltigt format för säkerhetskopiering';
+$string['errorinvalidformat'] = 'Okänd backup format';
 $string['errorinvalidformatinfo'] = 'Den valda filen är inte en giltig Moodle backupfil och kan inte återställas.';
 $string['errorminbackup20version'] = 'Denna säkerhetskopia har skapats med en utvecklingsversion av Moodle backup ({$a->backup}). Minimikravet är {$a->min}. Säkerhetskopian kan inte återställas.';
 $string['errorrestorefrontpagebackup'] = 'Säkerhetskopior från ingångssidan kan endast återställas på ingångssidan';
@@ -223,7 +240,7 @@ $string['includefilereferences'] = 'Filreferenser till externt innehåll';
 $string['includesection'] = 'Sektion {$a}';
 $string['includeuserinfo'] = 'Användardata';
 $string['inprogress'] = 'Säkerhetskopiering pågår';
-$string['jumptofinalstep'] = 'Gå direkt till sista steget';
+$string['jumptofinalstep'] = 'Hoppa till sista steget';
 $string['keep'] = 'Behåll';
 $string['locked'] = 'Låst';
 $string['lockedbyconfig'] = 'Den här inställningen har låsts av standardinställningarna för säkerhetskopiering';

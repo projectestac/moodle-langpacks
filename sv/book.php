@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'book', language 'sv', version '3.8'.
  *
- * @package   book
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     book
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -35,10 +35,10 @@ $string['chapterandsubchaptersdeleted'] = 'Kapitel "{$a->title}" och dess underk
 $string['chapterdeleted'] = 'Kapitel "{$a->title}" har tagits bort.';
 $string['chapters'] = 'Kapitel';
 $string['chaptertitle'] = 'Titel på kapitel';
-$string['confchapterdelete'] = 'Är Du säker på att vill ta bort det här kapitlet?';
-$string['confchapterdeleteall'] = 'Är Du säker på att vill ta bort det här kapitlet och alla underavdelningar?';
+$string['confchapterdelete'] = 'Är du säker på att vill ta bort det här kapitlet?';
+$string['confchapterdeleteall'] = 'Är Du säker på att vill ta bort det här kapitlet och alla underkapitlar?';
 $string['content'] = 'Innehåll';
-$string['customtitles'] = 'Standardtitlar';
+$string['customtitles'] = 'Anpassa titlar';
 $string['customtitles_help'] = 'Normalt visas kapitelrubriken i innehållsförteckningen och som rubrik ovanför innehållet. Om kryssrutan för att kunna anpassa titlar är markerad, visas kapitelrubriken inte som rubrik ovanför innehållet.
 En annan titel (kanske längre än kapitelrubriken) kan anges som en del av innehållet.';
 $string['deletechapter'] = 'Radera kapitel "{$a}"';
@@ -58,7 +58,7 @@ $string['modulename_help'] = 'Bok-modulen möjliggör för en lärare att skapa 
 $string['modulenameplural'] = 'Böcker';
 $string['movechapterdown'] = 'Flytta kapitel ner "{$a}"';
 $string['movechapterup'] = 'Flytta kapitel upp "{$a}"';
-$string['navexit'] = 'Exit Book';
+$string['navexit'] = 'Lämna Bok';
 $string['navimages'] = 'Bilder';
 $string['navnext'] = 'Nästa';
 $string['navnexttitle'] = 'Nästa: {$a}';
@@ -90,7 +90,7 @@ $string['previouschapter'] = 'Föregående kapitel';
 $string['privacy:metadata'] = 'Modulen Bok sparar inte personuppgifter.';
 $string['search:chapter'] = 'Bok - kapitel';
 $string['showchapter'] = 'Visa kapitel "{$a}"';
-$string['subchapter'] = 'Underavdelning';
+$string['subchapter'] = 'Underkapitel';
 $string['subchapternotice'] = '(Endast tillgängligt när det första kapitlet har skapats)';
 $string['subplugintype_booktool'] = 'Bok verktyg';
 $string['subplugintype_booktool_plural'] = 'Bok verktyg';

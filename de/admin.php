@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'admin', language 'de', branch 'MOODLE_38_STABLE'
+ * Strings for component 'admin', language 'de', version '3.8'.
  *
- * @package   admin
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     admin
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -30,12 +30,12 @@ $string['accounts'] = 'Nutzerkonten';
 $string['addcategory'] = 'Kursbereich hinzufügen';
 $string['additionalhtml'] = 'Zusätzliches HTML';
 $string['additionalhtml_desc'] = 'Die folgenden Felder erlauben die Eingabe von HTML-Code, der automatisch auf jeder Seite eingefügt wird. Vorgesehen sind Anweisungen innerhalb des &lt;head&gt;-Bereichs, direkt am Anfang des &lt;body&gt;-Bereichs und direkt am Ende des &lt;body&gt;-Bereichs. <br /><br />Auf diese Weise können benutzerdefinierte Kopf- oder Fußzeilen auf jeder Seite eingefügt werden. Zur Einbindung von externen Diensten wie Google Analytics ist es sehr einfach, die notwendigen Anweisungen einzutragen und unabhängig vom gewählten Design zu benutzen.';
+$string['additionalhtml_heading'] = 'Zusätzlicher HTML-Code für jede Seite
+';
 $string['additionalhtmlfooter'] = 'Vor dem Schließen von BODY';
 $string['additionalhtmlfooter_desc'] = 'Dieser HTML-Code wird auf jeder Seite direkt vor dem Ende des BODY-Bereichs eingefügt';
 $string['additionalhtmlhead'] = 'Innerhalb von HEAD';
 $string['additionalhtmlhead_desc'] = 'Dieser HTML-Code wird auf jeder Seite innerhalb des HEAD-Bereichs eingefügt';
-$string['additionalhtml_heading'] = 'Zusätzlicher HTML-Code für jede Seite
-';
 $string['additionalhtmltopofbody'] = 'Nach dem Öffnen von BODY';
 $string['additionalhtmltopofbody_desc'] = 'Dieser HTML-Code wird auf jeder Seite direkt am Anfang des BODY-Bereichs eingefügt';
 $string['admincategory'] = 'Bereich: {$a}';
@@ -88,9 +88,9 @@ $string['autologinguests'] = 'Auto-Login für Gäste';
 $string['availablelicenses'] = 'Verfügbare Lizenzen';
 $string['availableto'] = 'Verfügbar für';
 $string['backgroundcolour'] = 'LaTeX Transparenzfarbe';
-$string['backups'] = 'Sicherung';
 $string['backup_shortname'] = 'Kurstitel als Name für Sicherungsdatei verwenden';
 $string['backup_shortnamehelp'] = 'Den Kurstitel und nicht die Kurs-ID-Nummer als Teil der Bezeichnung der Sicherungsdatei verwenden.';
+$string['backups'] = 'Sicherung';
 $string['badwordsconfig'] = 'Geben Sie eine kommagetrennte Liste der Wörter ein, die zensiert werden sollen.';
 $string['badwordsdefault'] = 'Wenn die eigene Liste leer ist, wird die Wörterliste aus dem Sprachpaket verwendet.';
 $string['badwordslist'] = 'Wortzensurliste';
@@ -105,7 +105,7 @@ $string['blocksettings'] = 'Übersicht';
 $string['blockunprotect'] = 'Schutz aufheben';
 $string['bloglevel'] = 'Blogsichtbarkeit';
 $string['bookmarkadded'] = 'Lesezeichen hinzugefügt';
-$string['bookmarkalreadyexists'] = 'Sie haben für diese Seite bereits ein Lesezeichen gesetzt.';
+$string['bookmarkalreadyexists'] = 'Sie haben diese Seite bereits als Lesezeichen gespeichert.';
 $string['bookmarkdeleted'] = 'Lesezeichen gelöscht';
 $string['bookmarkthispage'] = 'Seite als Lesezeichen speichern';
 $string['cacheapplication'] = 'Anwendungs-Cache';
@@ -120,11 +120,11 @@ $string['cachesettings'] = 'Cache-Einstellungen';
 $string['cachetemplates'] = 'Cache-Templates';
 $string['cachetemplates_help'] = 'Das Template-Caching verbessert das Ladeverhalten und ist für produktive Seite dringlich empfohlen.  Entwickler werden es ggfs. deaktivieren.';
 $string['caching'] = 'Caching';
+$string['calendar_weekend'] = 'Tage am Wochenende';
 $string['calendarexportsalt'] = 'Exportschlüssel für den Kalender';
 $string['calendarsettings'] = 'Kalender';
 $string['calendartype'] = 'Kalendertyp';
 $string['calendartype_desc'] = 'Wählen Sie einen Kalendertyp für die gesamte Website. Diese Einstellung kann in den Kurseinstellungen oder in den persönlichen Nutzerprofilen geändert werden.';
-$string['calendar_weekend'] = 'Tage am Wochenende';
 $string['cannotdeletemodfilter'] = 'Der Filter \'{$a->filter}\' kann nicht deinstalliert werden, weil er Teil des Moduls \'{$a->module}\' ist.';
 $string['cannotuninstall'] = '{$a} kann nicht deinstalliert werden.';
 $string['categoryemail'] = 'E-Mail';
@@ -210,9 +210,9 @@ $string['configcourserequestnotify2'] = 'Nutzer/innen, die benachrichtigt werden
 $string['configcoursesperpage'] = 'Geben Sie die Kursanzahl an, die pro Seite in einer Kursliste gezeigt werden soll.';
 $string['configcourseswithsummarieslimit'] = 'Diese Option legt fest, wie viele Kurse mit Beschreibung in einer Kursübersicht maximal angezeigt werden. Bei einer größeren Kursanzahl wird eine andere Darstellung gewählt.';
 $string['configcronclionly'] = 'Die Ausführung von Cron im Webbrowser könnte vertrauliche Informationen anzeigen. Sie sollten deswegen Cron ausschließlich über die Befehlszeile erlauben oder im Webbrowser zusätzlich ein Cron-Kennwort zu verlangen.';
-$string['configcronremotepassword'] = 'Dies bedeutet, dass das Script cron.php nicht im Webbrowser aufgerufen werden kann, ohne das Kennwort folgendermaßen an die URL anzuhängen: <pre>
+$string['configcronremotepassword'] = 'Diese Option legt fest, dass das Script cron.php nicht im Webbrowser aufgerufen werden kann, ohne das Kennwort folgendermaßen an die URL anzuhängen: <pre>
 http://www.beispiel.de/admin/cron.php?password=geheim
-</pre>Falls das Feld leer bleibt, wird kein Kennwort benötigt.';
+</pre>Falls das Feld leer ist, wird kein Kennwort benötigt.';
 $string['configcurlcache'] = 'Speicherzeit für cURL Cache (in Sekunden)';
 $string['configcustommenuitems'] = 'Das eigene Menü wird auf allen Seiten in der Kopfzeile angezeigt.
 
@@ -280,12 +280,12 @@ $string['configfilterall'] = 'Filter über alle Begriffe (inkl. aller Überschri
 $string['configfiltermatchoneperpage'] = 'Der Filter für die automatische Verlinkung soll nur das erste Vorkommen eines Begriffes auf einer Seite verlinken. Wiederholt auf einer Seite auftretende Begriffe werden nur einmal verlinkt.';
 $string['configfiltermatchonepertext'] = 'Automatische Verknüpfungsfilter generieren einen einzigen Link für die erste passende Textinstanz, die in den Textelementen auf der Seite gefunden wird. Alle weiteren werden ignoriert. Die Einstellung hat keine Auswirkung, wenn "Filterausführung einmal pro Seite" aktiviert ist.';
 $string['configfilteruploadedfiles'] = 'Beim Aktivieren dieser Option werden alle hochgeladenen HTML- und Textdateien über den Filter bearbeitet, bevor sie angezeigt werden.';
-$string['configforcelogin'] = 'Normalerweise können die Startseite und die Kursübersicht (nicht jedoch die Kurse) angezeigt werden, ohne dass man angemeldet ist. Aktivieren Sie diese Option, wenn eine Anmeldung zwingend sein soll, um IRGENDETWAS auf der Website sehen zu können.';
+$string['configforcelogin'] = 'Normalerweise können die Startseite und die Kursübersicht (nicht jedoch die Kurse) angezeigt werden, ohne dass man angemeldet ist. Aktivieren Sie diese Option, wenn eine Anmeldung zwingend sein soll, um irgendetwas auf der Website sehen zu können.';
 $string['configforceloginforprofiles'] = 'Diese Option legt fest, dass Nutzerprofile ausschließlich für angemeldete Personen sichtbar sind, nicht für Gäste oder Suchmaschinen. Wenn Sie die Option ausschalten, sind die Nutzerprofile und deren Inhalte weltweit abrufbar und könnten zur Veröffentlichung von anstößigen Inhalten oder Werbung (Spam) missbraucht werden.';
 $string['configfrontpage'] = 'Die ausgewählten Elemente werden auf der Startseite angezeigt.';
 $string['configfrontpagecourselimit'] = 'Max. Anzahl von Kursen';
 $string['configfrontpagecourselimithelp'] = 'Maximale Anzahl von Kursen, die in der Kursliste auf der Startseite gezeigt werden.';
-$string['configfrontpageloggedin'] = 'Die ausgewählten Elemente werden auf der Startseite angezeigt, nachdem Nutzer/innen eingeloggt sind.';
+$string['configfrontpageloggedin'] = 'Die ausgewählten Elemente werden auf der Startseite angezeigt, wenn Nutzer/innen angemeldet sind.';
 $string['configfullnamedisplay'] = 'Diese Option legt fest, wie vollständige Namen angezeigt werden. Der Standardwert \'language\' verwendet den Eintrag \'fullnamedisplay\' aus dem jeweiligen Sprachpaket. Für die meisten Websites ist die Standardeinstellung \'firstname lastname\' geeignet, aber Sie könnten auch den Vor- oder den Nachnamen ausblenden.
 
 Mögliche Platzhalter sind: firstname, lastname, firstnamephonetic, lastnamephonetic, middlename, alternatename.';
@@ -337,7 +337,7 @@ $string['confignoreplyaddress'] = 'E-Mails werden manchmal auf Veranlassung eine
 $string['confignotifyloginfailures'] = 'Systemnachrichten zu Login-Fehlern können an ausgewählte Nutzer/innen gesendet werden. Dazu muss ein interner Logstore (z.B. Standard-Logstore) aktiviert sein.';
 $string['confignotifyloginthreshold'] = 'Nach wie vielen erfolglosen Anmeldeversuchen hintereinander für ein Nutzerkonto oder über eine IP-Adresse soll eine Systemnachricht gesendet werden?';
 $string['confignotloggedinroleid'] = 'Nicht auf der Website eingeloggte Nutzer/innen werden behandelt, als ob sie diese Rolle hätten. Die Rolle \'Gast\' ist in der Regel brauchbar. Sie können aber auch neue Rollen erstellen, die mehr oder weniger Einschränkungen vornehmen. Viele Aktivitäten, z.B. Beiträge schreiben oder Tests durchführen, erfordern aber immer eine richtige Anmeldung.';
-$string['configopentowebcrawlers'] = 'Wenn diese Option aktiviert ist, kann Google Ihre Website als Gast besuchen. Außerdem wird jeder automatisch als Gast eingeloggt, der über die Google-Suche auf Ihre Website kommt. Dies gilt natürlich ausschließlich für Kurse, die einen Gastzugang (ohne Gastschlüssel) zulassen.';
+$string['configopentowebcrawlers'] = 'Wenn diese Option aktiviert ist, können Suchmaschinen Ihre Website als Gast besuchen. Außerdem wird jeder automatisch als Gast eingeloggt, der über eine Suchmaschine auf Ihre Website kommt. Dies gilt natürlich ausschließlich für Kurse, die einen Gastzugang (ohne Gastschlüssel) zulassen.';
 $string['configoverride'] = 'In der config.php festgelegt';
 $string['configpasswordpolicy'] = 'Diese Option legt fest, dass die Kennwörter hinsichtlich der Kennwortregeln überprüft werden. Nutzen Sie die folgenden Parameter, um die Kennwortregeln anzupassen. Die Parameter werden ignoriert, falls Sie hier "Nein" setzen. Die Einstellung wirkt sich nur auf vorhandene Nutzerkonten aus, wenn deren Kennwort geändert wird.';
 $string['configpasswordresettime'] = 'Diese Option legt die maximale Zeitdauer fest, um die Anforderung einer Kennwortrücksetzung zu bestätigen, bevor diese verfällt. Normalerweise sind 30 Minuten ausreichend.';
@@ -348,7 +348,7 @@ $string['configprofileroles'] = 'Liste der Rollen, die in Nutzerprofilen und auf
 $string['configprofilesforenrolledusersonly'] = 'Um eine unerwünschte Nutzung durch Spammer zu vermeiden, sind die Profilbeschreibungen von Nutzer/innen ohne vorhandene Kurseinschreibung gesperrt. Neue Nutzer/innen müssen sich in mindestens einem Kurs eingeschrieben haben, um eine Profilbeschreibung hinzufügen zu können.';
 $string['configprotectusernames'] = 'Diese Option legt fest, dass keine Hinweise für vergessene Anmeldenamen und Kennwörter angezeigt werden.';
 $string['configproxybypass'] = 'Liste von Servernamen oder IP-Adressen (auch Teile davon), die ohne Proxy geladen werden (Komma getrennt, z.B. 192.168., .meineseite.de)';
-$string['configproxyhost'] = 'Wenn dieser <b>Moodle-Server</b> einen Proxy für den Internetzugriff (z.B. eine Firewall) benötigt, dann tragen Sie hier den Namen und den Port des Proxys ein. Andernfalls lassen Sie das Feld leer.';
+$string['configproxyhost'] = 'Wenn dieser <b>Server</b> für den Internetzugriff einen Proxy (z.B. eine Firewall) benötigt, tragen Sie hier den Hostnamen und den Port des Proxys ein. Andernfalls lassen Sie das Feld leer.';
 $string['configproxypassword'] = 'Für den Internetzugang ist eventuell ein Kennwort nötig. Lassen Sie das Feld leer, falls der Proxy kein Kennwort verlangt. Die PHP-Extension cURL ist notwendig!';
 $string['configproxyport'] = 'Falls dieser Server einen Proxy benutzt, geben Sie hier bitte den Proxy-Port an.';
 $string['configproxytype'] = 'Typ des Web-Proxys. Für die Unterstützung von SOCKS5 ist PHP5 und die PHP-Extension cURL notwendig!';
@@ -365,7 +365,7 @@ $string['configsectioninterface'] = 'Gestaltung';
 $string['configsectionmail'] = 'E-Mail';
 $string['configsectionmaintenance'] = 'Wartung';
 $string['configsectionmisc'] = 'Verschiedenes';
-$string['configsectionoperatingsystem'] = 'Arbeitsweise';
+$string['configsectionoperatingsystem'] = 'Betriebssystem';
 $string['configsectionpermissions'] = 'Rechte ändern';
 $string['configsectionrequestedcourse'] = 'Kursanträge';
 $string['configsectionsecurity'] = 'Sicherheit';
@@ -385,7 +385,7 @@ $string['configshowicalsource'] = 'Quelleninformationen bei iCal-Terminen anzeig
 $string['configshowsiteparticipantslist'] = 'Alle Teilnehmer/innen und Trainer/innen der Website werden in der Nutzergesamtliste geführt. Wer soll diese Liste sehen dürfen?';
 $string['configsitedefaultlicense'] = 'Standardlizenz';
 $string['configsitedefaultlicensehelp'] = 'Die Standardlizenz regelt die Veröffentlichung von Inhalte auf dieser Website';
-$string['configsitemailcharset'] = 'Diese Option legt fest, ob alle E-Mails mit dem Standard-Zeichensatz versandt werden.';
+$string['configsitemailcharset'] = 'Diese Option legt fest, ob alle E-Mails mit dem standardmäßigen Zeichensatz gesendet werden.';
 $string['configsitemaxcategorydepth'] = 'Maximale Bereichstiefe';
 $string['configsitemaxcategorydepthhelp'] = 'Diese Option legt die maximale Verschachtelungstiefe von Kursunterbereichen fest, die in der Kursliste angezeigt werden. Tiefere Kursunterbereiche können über Links aufgeklappt werden.';
 $string['configslasharguments'] = '\'Slash-Parameter\' (unter Benutzung von <em>PATH_INFO</em>) sind notwendig für Lernpakete (SCORM) und für alle Ressourcen, die aus mehreren Dateien bestehen. Wenn Ihr Browser keine \'Slash-Parameter\' unterstützt und Sie das auch nicht ändern können, deaktivieren Sie die Option, wobei dann einige Dinge nicht funktionieren.
@@ -437,6 +437,7 @@ $string['contextlocking_desc'] = 'Diese Option sperrt den Schreibzugriff (read-o
 $string['cookiehttponly'] = 'Nur HTTP-Cookies';
 $string['cookiesecure'] = 'Nur sichere Cookies';
 $string['country'] = 'Land';
+$string['course_customfield'] = 'Kursfelder';
 $string['coursecolor'] = 'Farbe {$a}';
 $string['coursecolorheading_desc'] = 'Im Dashboard wird jeder Kurs mit einem Bild angezeigt. Wenn in den Kurseinstellungen kein Bild hinterlegt ist, wird ein Farbmuster zufällig gesetzt. Hier kann die Farbe gewählt werden.';
 $string['coursecolorsettings'] = 'Kurskartenfarben';
@@ -444,7 +445,6 @@ $string['coursecontact'] = 'Kursverwaltung';
 $string['coursecontact_desc'] = 'Diese Einstellung legt fest, wer zur Verwaltung eines Kurses angezeigt wird. Wem eine der hier angekreuzten Rollen für den Kurs zugewiesen wurde, dessen Name wird in der Beschreibung aufgelistet.';
 $string['coursecontactduplicates'] = 'Alle Rollen des Kontakts für Kurse anzeigen';
 $string['coursecontactduplicates_desc'] = 'Wenn die Funktion aktiv ist werden bei Nutzern, die in den Kursen mehrere Rollen innehaben alle Rollen angezeigt, sofern sie als Kontakt ausgewiesen werden. Wenn Sie die Funktion nicht nutzen wird nur diejenige Rolle angezeigt, die in der Auflistung der Rollen an der ersten Stelle steht.';
-$string['course_customfield'] = 'Kursfelder';
 $string['coursegraceperiodafter'] = 'Frist bei beendeten Kursen';
 $string['coursegraceperiodbefore'] = 'Frist bei künftigen Kursen';
 $string['courselistshortnames'] = 'Lange Kursnamen anzeigen';
@@ -465,10 +465,10 @@ $string['courseswithsummarieslimit'] = 'Maximale Kursanzahl mit Beschreibung';
 $string['creatornewroleid'] = 'Rolle für Kursersteller/in in neuen Kursen';
 $string['creatornewroleid_help'] = 'Falls ein/e Nutzer/in nicht bereits das Recht besitzt, den neuen Kurs zu verwalten, wird die Person mit dieser Rolle automatisch in den Kurs eingeschrieben.';
 $string['cron'] = 'Cron';
+$string['cron_help'] = 'Der Cronjob gewährleistet, dass alle Moodle-Module ihre ausstehenden Aufgaben regelmäßig ausführen, z.B. arbeitet der Versand der E-Mails aus Moodle-Foren über diesen Mechanismus. Das Script sollte möglichst jede Minute ausgeführt werden.';
 $string['cronclionly'] = 'Cron nur über die Befehlszeile ausführen';
 $string['cronerrorclionly'] = 'Der Internetzugriff für diese Seite wurde deaktiviert.';
 $string['cronerrorpassword'] = 'Sie haben kein gültiges Kennwort angegeben.';
-$string['cron_help'] = 'Der Cronjob gewährleistet, dass alle Moodle-Module ihre ausstehenden Aufgaben regelmäßig ausführen, z.B. arbeitet der Versand der E-Mails aus Moodle-Foren über diesen Mechanismus. Das Script sollte möglichst jede Minute ausgeführt werden.';
 $string['croninfrequent'] = 'Die Zeit zwischen den letzten beiden Aufrufen von cron.php war über {$a} Sekunden. Es wird empfohlen, die Konfiguration zu ändern und cron.php in kürzeren Abständen zu starten.';
 $string['cronremotepassword'] = 'Kennwort für cron';
 $string['cronwarning'] = 'Das <a href="{$a}">Cron-Script</a> wurde in den letzten 24 Stunden nicht ausgeführt.';
@@ -647,9 +647,9 @@ $string['forceloginforprofiles'] = 'Anmeldung notwendig, um Profile anzuzeigen';
 $string['forcetimezone'] = 'Zeitzone festlegen';
 $string['formatuninstallwithcourses'] = 'Das Format \'{$a->format}\' wird in {$a->count} Kursen verwendet. Das Format dieser Kurse wird auf \'{$a->defaultformat}\' (Standardformat dieser Website) geändert, wobei formatspezifische Daten verloren gehen könnten. Möchten Sie den Vorgang fortsetzen?';
 $string['frontpage'] = 'Startseite';
-$string['frontpagebackup'] = 'Sicherung';
+$string['frontpagebackup'] = 'Sicherung der Startseite';
 $string['frontpagedefaultrole'] = 'Standardrolle für Startseite';
-$string['frontpagefilters'] = 'Filter der Startseite';
+$string['frontpagefilters'] = 'Filter für Startseite';
 $string['frontpageloggedin'] = 'Startseite nach Anmeldung';
 $string['frontpageoverrides'] = 'Rechteänderungen für Startseite';
 $string['frontpagequestions'] = 'Testfragen';
@@ -772,11 +772,11 @@ $string['loginpageautofocus'] = 'Autofokus auf Login';
 $string['loginpageautofocus_help'] = 'Das Aktivieren dieser Option verbessert die Benutzbarkeit der Loginseite, aber ein Autofokus auf bestimmte Felder könnte Probleme hinsichtlich der Barrierefreiheit verursachen.';
 $string['loglifetime'] = 'Logdaten speichern';
 $string['logo'] = 'Logo';
+$string['logo_desc'] = 'Ein großformatiges Logo kann zur Dekoration der Startseite verwendet werden. Dieses Bild darf durchaus hochauflösend sein, da es für die Verwendung skaliert und zur Steigerung der Leistung zwischengespeichert wird. Logos, die breiter als hoch sind, geben meist bessere Ergebnisse. Zulässige Formate sind PNG und JPG.';
 $string['logocompact'] = 'Kleines Logo';
 $string['logocompact_desc'] = 'Eine kompakte Version des obigen Logos wird hier hochgeladen, z.B. Emblem, Schild oder Symbol. Das Bild sollte auch bei kleinen Abmessungen klar erkennbar sein. Zulässige Formate sind PNG und JPG.';
-$string['logo_desc'] = 'Ein großformatiges Logo kann zur Dekoration der Startseite verwendet werden. Dieses Bild darf durchaus hochauflösend sein, da es für die Verwendung skaliert und zur Steigerung der Leistung zwischengespeichert wird. Logos, die breiter als hoch sind, geben meist bessere Ergebnisse. Zulässige Formate sind PNG und JPG.';
 $string['logossettings'] = 'Logos';
-$string['logstorenotrequired'] = 'Logdatenspeicherung nicht nötig';
+$string['logstorenotrequired'] = 'Logdatenspeicherung nicht notwendig';
 $string['logstoressupported'] = 'Logdaten für diesen Bericht';
 $string['longtimewarning'] = '<b>Bitte beachten Sie, dass dieser Vorgang sehr lange dauern kann.</b>';
 $string['mailnewline'] = 'Zeichen für die Zeilenschaltung';
@@ -918,7 +918,7 @@ $string['onlynoreply'] = 'Nur falls von einer No-Reply-Adresse';
 $string['opcacherecommended'] = 'PHP Opcode Caching verbessert die Leistung und senkt den Speicherbedarf. Die PHP-Extension OPcache wird voll unterstützt.';
 $string['opensslrecommended'] = 'Die optionale Installation der OpenSSL Bibliothek wird dringend empfohlen. Dadurch wird die Moodle-Netzwerk-Funktionalität ermöglicht.';
 $string['opensslrequired'] = 'Die PHP Extension OpenSSL ist für Moodle notwendig, um stärkere Krypto-Dienste bereit zu stellen.';
-$string['opentowebcrawlers'] = 'Offen für Google';
+$string['opentowebcrawlers'] = 'Offen für Suchmaschinen';
 $string['optionalmaintenancemessage'] = 'Wartungsinformationen';
 $string['order1'] = 'Erstens';
 $string['order2'] = 'Zweitens';
@@ -968,13 +968,13 @@ $string['pluginschecktodo'] = 'Bevor Sie die Installation dieser Version fortfü
 $string['pluginsoverview'] = 'Plugin-Übersicht';
 $string['pluginsoverviewsee'] = 'Weitere Details in der <a href="{$a->url}">Plugin-Übersicht</a>.';
 $string['policysettings'] = 'Richtlinieneinstellungen';
-$string['privacyandpolicies'] = 'Datenschutz und Richtlinien';
 $string['privacy:metadata'] = 'Das Administrations-Plugin speichert keine personenbezogenen Daten.';
+$string['privacyandpolicies'] = 'Datenschutz und Richtlinien';
 $string['privacysettings'] = 'Datenschutzeinstellungen';
 $string['profilecategory'] = 'Kategorie';
 $string['profilecategoryname'] = 'Name der Kategorie (muss eindeutig sein)';
 $string['profilecategorynamenotunique'] = 'Dieser Name wird bereits benutzt';
-$string['profilecommonsettings'] = 'Standardeinstellungen';
+$string['profilecommonsettings'] = 'Grundeinstellungen';
 $string['profileconfirmcategorydeletion'] = 'In dieser Kategorie gibt es {$a} Feld(er), die in die Kategorie darüber (oder darunter) verschoben werden. <br />Möchten Sie die Kategorie wirklich löschen?';
 $string['profileconfirmfielddeletion'] = 'Für das zu löschende Feld gibt es {$a} Nutzereinträge. <br />Möchten Sie das Feld wirklich löschen?';
 $string['profilecreatecategory'] = 'Neue Profilkategorie anlegen';
@@ -989,7 +989,7 @@ $string['profiledeletefield'] = 'Feld \'{$a}\' wird gelöscht';
 $string['profiledescription'] = 'Beschreibung eines Feldes';
 $string['profiledscript'] = 'Dieses Script wird gerade analysiert';
 $string['profiledscriptview'] = 'Analyseinformationen für dieses Script anzeigen';
-$string['profileeditcategory'] = 'Bearbeite Kategorie: {$a}';
+$string['profileeditcategory'] = 'Kategorie {$a} bearbeiten';
 $string['profileeditfield'] = 'Profilfeld {$a} bearbeiten';
 $string['profilefield'] = 'Profilfeld';
 $string['profilefieldcolumns'] = 'Spalten';
@@ -1019,11 +1019,11 @@ $string['profileshortnamenotunique'] = 'Diese Kurzbezeichnung wird bereits benut
 $string['profilesignup'] = 'Auf der Anmeldeseite zeigen?';
 $string['profilespecificsettings'] = 'Weitere Einstellungen';
 $string['profilevisible'] = 'Für wen ist dieses Feld sichtbar?';
-$string['profilevisibleall'] = 'Sichtbar für alle';
 $string['profilevisible_help'] = 'Jedem Einstellungsfeld kann eine von drei Sichtbarkeitseinstellungen gegeben werden: unsichtbar, alle und Nutzer/in.
 * unsichtbar – Die Einstellung "unsichtbar" wird normalerweise von Administrator/innen gesetzt, der private Aufzeichnungen über die Nutzer/innen notieren möchte
 * Nutzer/in – Die Einstellung "Nutzer/in" wird für ein Feld ausgewählt, das personenbezogene Daten enthält.
 * alle – Für alle anderen Informationen kann die Einstellung "alle" benutzt werden.';
+$string['profilevisibleall'] = 'Sichtbar für alle';
 $string['profilevisiblenone'] = 'Nicht sichtbar';
 $string['profilevisibleprivate'] = 'Sichtbar für Teilnehmer/innen';
 $string['profiling'] = 'Analyse';
@@ -1089,7 +1089,7 @@ $string['registermoodlenet'] = '<p>Wir möchten gerne mit Ihnen in Kontakt bleib
 $string['registermoodleorg'] = 'Website registrieren';
 $string['registermoodleorgli1'] = 'Sie werden in eine Mailing-Liste eingetragen. Sie erhalten Informationen über sicherheitsrelevante Updates und neue Versionen.';
 $string['registermoodleorgli2'] = 'Statistiken werden unter {$a} auf der internationalen Moodle-Seite dargestellt. Statistische Informationen aus Ihrer Seite werden dazu ausgewertet.';
-$string['registerwithmoodleorg'] = 'Website registrieren';
+$string['registerwithmoodleorg'] = 'Ihre Website registrieren';
 $string['registration'] = 'Registrierung';
 $string['registration_help'] = 'Mit der Registrierung Ihrer Website:
 
@@ -1133,10 +1133,10 @@ $string['scssinvalid'] = 'Der SCSS-Code ist nicht gültig. Folgender Fehler ist 
 $string['search'] = 'Suchen';
 $string['searchablecourses'] = 'Durchsuchbare Kurse';
 $string['searchallavailablecourses'] = 'Durchsuchbare Kurse';
-$string['searchallavailablecoursesdesc'] = 'Wenn die Suche nur in Kursen, in denen die Person eingeschrieben ist aktiviert ist, werden Kursinformationen (Name und Beschreibung) und Kursinhalte nur in Kursen gesucht, in denen der/die Nutzer/in eingeschrieben ist. Andernfalls werden Kursinformationen und Kursinhalte in allen Kursen gesucht, auf die der/die Nutzer/in Zugriff hat, wie z.B. Kurse mit aktiviertem Gastzugang.';
 $string['searchallavailablecourses_desc'] = 'In einigen Situationen kann die Suchmaschine nicht bei der Suche über eine große Anzahl von Kursen arbeiten. Suchen Sie nur nach  Kursen in denen sie eingeschrieben sind, wenn Sie die Anzahl der gesuchten Kurse einschränken müssen.';
 $string['searchallavailablecourses_off'] = 'Suche in Kursen, in denen die Person eingeschrieben ist';
 $string['searchallavailablecourses_on'] = 'Suche in Kursen, auf die die Person zugreifen kann';
+$string['searchallavailablecoursesdesc'] = 'Wenn die Suche nur in Kursen, in denen die Person eingeschrieben ist aktiviert ist, werden Kursinformationen (Name und Beschreibung) und Kursinhalte nur in Kursen gesucht, in denen der/die Nutzer/in eingeschrieben ist. Andernfalls werden Kursinformationen und Kursinhalte in allen Kursen gesucht, auf die der/die Nutzer/in Zugriff hat, wie z.B. Kurse mit aktiviertem Gastzugang.';
 $string['searchalldeleted'] = 'Alle indizierten Inhalte wurden gelöscht';
 $string['searchareadisabled'] = 'Suchbereich deaktiviert';
 $string['searchareaenabled'] = 'Suchbereich aktiviert';
@@ -1205,13 +1205,13 @@ $string['sitemaintenancewarning2'] = 'Die Website ist momentan im Wartungsmodus.
 $string['sitemenubar'] = 'Site-Navigation';
 $string['sitepolicies'] = 'Sicherheitseinstellungen der Website';
 $string['sitepolicy'] = 'URL zur Datenschutzinformation';
+$string['sitepolicy_help'] = 'Wenn Sie eine Datenschutzinformation verwenden, die alle Personen vor der Nutzung der Website akzeptieren müssen, können Sie hier die URL angeben. Die Einstellungen sind nur wirksam wenn die Methode Standard (core) gewählt wurde.';
 $string['sitepolicyguest'] = 'URL zur Datenschutzinformation für Gäste';
 $string['sitepolicyguest_help'] = 'Wenn Sie eine Datenschutzinformation verwenden, die alle Gäste vor der Nutzung der Website akzeptieren müssen, können Sie hier die URL angeben. Diese Einstellung kann jede öffentliche URL enthalten. Probleme könnte es mit der Option \'Anmeldung notwendig\' geben, weil nicht angemeldete Personen keinen Zugriff auf Dateien der Website haben.';
 $string['sitepolicyhandler'] = 'Datenschutz der Website';
-$string['sitepolicyhandlercore'] = 'Standard (Core)';
 $string['sitepolicyhandler_desc'] = 'Wählen Sie die Komponente aus, um die Bestätigung der  Datenschutzvorgaben der Website einzuholen. Die Standardverarbeitung bietet eine einfache Funktionalität, gesteuert durch die beiden weiteren Einstellungen \'sitepolicy\' und \'sitepolicyguest\'. Die erweiterte Funktion ermöglich die Bestimmungen besser zu verwalten, die Nutzer zu informieren, ihre Einwilligung einzuholen und die Zustimmung bei Kindern (unter 16 Jahre) zu verwalten.';
+$string['sitepolicyhandlercore'] = 'Standard (Core)';
 $string['sitepolicyhandlerplugin'] = '{$a->name} ({$a->component})';
-$string['sitepolicy_help'] = 'Wenn Sie eine Datenschutzinformation verwenden, die alle Personen vor der Nutzung der Website akzeptieren müssen, können Sie hier die URL angeben. Die Einstellungen sind nur wirksam wenn die Methode Standard (core) gewählt wurde.';
 $string['sitesectionhelp'] = 'Mit dieser Option wird ein Textabschnitt auf der Startseite angezeigt.';
 $string['sixtyfourbitswarning'] = 'Es wurde festgestellt, dass Ihre Site nicht die 64-Bit PHP-Version verwendet. Sie sollten damit kein Upgrade auf eine künftige Moodle-Version vornehmen.';
 $string['slasharguments'] = 'Slash-Parameter benutzen';
@@ -1227,7 +1227,7 @@ $string['smtpsecure'] = 'SMTP-Sicherheit';
 $string['smtpuser'] = 'SMTP-Anmeldename';
 $string['soaprecommended'] = 'Die PHP-Extension soap sollte für Webservices und einige Plugins installiert sein.';
 $string['sort_fullname'] = 'Vollständiger Kursname';
-$string['sort_idnumber'] = 'ID-Nummer';
+$string['sort_idnumber'] = 'Kurs-ID';
 $string['sort_shortname'] = 'Kurzer Kursname';
 $string['sort_sortorder'] = 'Sortierung';
 $string['spellengine'] = 'Rechtschreibprüfung';
@@ -1262,6 +1262,30 @@ $string['task_adhoc_concurrency_limit'] = 'Limit für gleichzeitige Adhoc-Tasks'
 $string['task_adhoc_concurrency_limit_desc'] = 'Anzahl der zeitgleich laufenden Adhoc-Tasks. Wenn der Wert zu hoch gesetzt wird und viele Adhoc-Tasks abgearbeitet werden müssen, könnten reguläre Tasks verzögert ausgeführt werden. Der Wert \'0\' verhindert das Ausführen von Adhoc-Tasks vollständig.';
 $string['task_adhoc_max_runtime'] = 'Laufzeit für Adhoc-Tasks';
 $string['task_adhoc_max_runtime_desc'] = 'Die Zeit, während der ein Adhoc-Task lebt, bevor er freigegeben wird. Eine niedrige Laufzeit wird empfohlen falls keine Begrenzung der Zahl festgelegt wurde. Wenn die Zahl zu hoch ist und sehr viele Adhoc-Tasks ausgeführt werden sollen, kann die Ausführung der geplanten Vorgänge verzögert werden.';
+$string['task_dbstats'] = 'Datenbank';
+$string['task_duration'] = 'Dauer';
+$string['task_logmode'] = 'Wann geloggt wird';
+$string['task_logmode_all'] = 'Ausgabe aller Vorgänge loggen';
+$string['task_logmode_desc'] = 'Sie können auswählen wann Log-Prozesse erfolgen sollen.  In der Standardeinstellung werden Logs immer erzeugt. Sie können Logs gänzlich unterbinden oder nur Logs bei Fehlerhaften Einlogprozessen nutzen.';
+$string['task_logmode_failonly'] = 'Nur fehlgeschlagene Vorgänge loggen';
+$string['task_logmode_none'] = 'Gar nichts loggen';
+$string['task_logretainruns'] = 'Wiederholungsdurchläufe';
+$string['task_logretainruns_desc'] = 'Zahl der erneuten Versuche für einen Task. Die Einstellung korrespondiert mit der Aufbewahrungsfrist, gültig ist was zuerst eintritt.';
+$string['task_logretention'] = 'Aufbewahrungsfrist';
+$string['task_logretention_desc'] = 'Höchstdauer der Aufbewahrung von Logs. Die Einstellung korrespondiert mit der Einstellung für Wiederholungsdurchläufe.';
+$string['task_logtostdout'] = 'Logdaten anzeigen';
+$string['task_logtostdout_desc'] = 'Wenn Prozesse laufen und die Ausgabe erfasst wird, wird festgelegt, ob die erfasste Ausgabe auch in den Tasks angezeigt werden soll.';
+$string['task_result'] = 'Ergebnis';
+$string['task_result:failed'] = 'Fehlgeschlagen';
+$string['task_scheduled_concurrency_limit'] = 'Beschränkung für zeitgleiche terminierte Aufträge';
+$string['task_scheduled_concurrency_limit_desc'] = 'Die Anzahl zeitgleich ausführbarer Aufträge. Eine hohe Anzahl kann zu hohen Belastungen des Servers führen. Dadurch können andere Anfragen verzögert werden. Der Wert \'0\' bedeutet, dass terminierte Aufträge deaktiviert werden.';
+$string['task_scheduled_max_runtime'] = 'Laufzeit für zeitgleich ausführbare Aufträge';
+$string['task_scheduled_max_runtime_desc'] = 'Die Zeit, während der ein zeitgleich ausführbarer Auftrag lebt, bevor er freigegeben wird.';
+$string['task_starttime'] = 'Anfangszeit';
+$string['task_stats:dbreads'] = '{$a} Lesevorgänge';
+$string['task_stats:dbwrites'] = '{$a} Schreibvorgänge';
+$string['task_type:adhoc'] = 'Ad hoc';
+$string['task_type:scheduled'] = 'Terminiert';
 $string['taskadmintitle'] = 'Tasks';
 $string['taskanalyticscleanup'] = 'Analytics-Bereinigung';
 $string['taskautomatedbackup'] = 'Automatische Sicherungen';
@@ -1277,11 +1301,9 @@ $string['taskcompletiondaily'] = 'Abschlussmarkierung wenn begonnen';
 $string['taskcompletionregular'] = 'Normale Abschlussdaten berechnen';
 $string['taskcontextcleanup'] = 'Kontexte bereinigen';
 $string['taskcreatecontexts'] = 'Fehlende Kontexte erzeugen';
-$string['task_dbstats'] = 'Datenbank';
 $string['taskdeletecachetext'] = 'Alte Datensätze text_cache löschen';
 $string['taskdeleteincompleteusers'] = 'Unvollständige Nutzerprofile löschen';
 $string['taskdeleteunconfirmedusers'] = 'Unbestätigte Nutzerprofile löschen';
-$string['task_duration'] = 'Dauer';
 $string['taskeventscron'] = 'Hintergrundprozess für Ereignisse';
 $string['taskfiletrashcleanup'] = 'Dateien endgültig löschen';
 $string['taskglobalsearchindex'] = 'Indizierung für die globale Suche';
@@ -1291,18 +1313,7 @@ $string['taskgradehistorycleanup'] = 'Hintergrundprozess zur Bereinigung alter B
 $string['tasklegacycron'] = 'Cron-Verarbeitung für Plugins';
 $string['tasklogcleanup'] = 'Bereinigung der Task-Logdaten';
 $string['tasklogging'] = 'Task-Logkonfiguration';
-$string['task_logmode'] = 'Wann geloggt wird';
-$string['task_logmode_all'] = 'Ausgabe aller Vorgänge loggen';
-$string['task_logmode_desc'] = 'Sie können auswählen wann Log-Prozesse erfolgen sollen.  In der Standardeinstellung werden Logs immer erzeugt. Sie können Logs gänzlich unterbinden oder nur Logs bei Fehlerhaften Einlogprozessen nutzen.';
-$string['task_logmode_failonly'] = 'Nur fehlgeschlagene Vorgänge loggen';
-$string['task_logmode_none'] = 'Gar nichts loggen';
-$string['task_logretainruns'] = 'Wiederholungsdurchläufe';
-$string['task_logretainruns_desc'] = 'Zahl der erneuten Versuche für einen Task. Die Einstellung korrespondiert mit der Aufbewahrungsfrist, gültig ist was zuerst eintritt.';
-$string['task_logretention'] = 'Aufbewahrungsfrist';
-$string['task_logretention_desc'] = 'Höchstdauer der Aufbewahrung von Logs. Die Einstellung korrespondiert mit der Einstellung für Wiederholungsdurchläufe.';
 $string['tasklogs'] = 'Task-Logdaten';
-$string['task_logtostdout'] = 'Logdaten anzeigen';
-$string['task_logtostdout_desc'] = 'Wenn Prozesse laufen und die Ausgabe erfasst wird, wird festgelegt, ob die erfasste Ausgabe auch in den Tasks angezeigt werden soll.';
 $string['taskmessagingcleanup'] = 'Hintergrundprozess für Mitteilungen';
 $string['taskpasswordresetcleanup'] = 'Kennwortanforderungen löschen';
 $string['taskplagiarismcron'] = 'Hintergrundprozess für den Legacy Cron in Plagiat-Plugins';
@@ -1312,24 +1323,13 @@ $string['taskquestioncron'] = 'Hintergrundprozess um Fragen-Vorschauen zu lösch
 $string['taskquestionstatscleanupcron'] = 'Hintergrundprozess zum Löschen von Fragestatistik-Caches';
 $string['taskrefreshsystemtokens'] = 'OAuth-Token für Servicekonten erneuern';
 $string['taskregistrationcron'] = 'Website-Registrierung';
-$string['task_result'] = 'Ergebnis';
-$string['task_result:failed'] = 'Fehlgeschlagen';
-$string['task_scheduled_concurrency_limit'] = 'Beschränkung für zeitgleiche terminierte Aufträge';
-$string['task_scheduled_concurrency_limit_desc'] = 'Die Anzahl zeitgleich ausführbarer Aufträge. Eine hohe Anzahl kann zu hohen Belastungen des Servers führen. Dadurch können andere Anfragen verzögert werden. Der Wert \'0\' bedeutet, dass terminierte Aufträge deaktiviert werden.';
-$string['task_scheduled_max_runtime'] = 'Laufzeit für zeitgleich ausführbare Aufträge';
-$string['task_scheduled_max_runtime_desc'] = 'Die Zeit, während der ein zeitgleich ausführbarer Auftrag lebt, bevor er freigegeben wird.';
 $string['tasksendfailedloginnotifications'] = 'Systemnachricht zu fehlgeschlagenen Anmeldeversuchen senden';
 $string['tasksendnewuserpasswords'] = 'Neues Nutzerkennwort senden';
 $string['tasksessioncleanup'] = 'Alte Sessions bereinigen';
-$string['task_starttime'] = 'Anfangszeit';
 $string['taskstatscron'] = 'Hintergrundprozess für Statistiken';
-$string['task_stats:dbreads'] = '{$a} Lesevorgänge';
-$string['task_stats:dbwrites'] = '{$a} Schreibvorgänge';
 $string['tasktagcron'] = 'Hintergrundprozess für Tags';
 $string['tasktempfilecleanup'] = 'Veraltete temporäre Dateien löschen';
 $string['tasktype'] = 'Typ';
-$string['task_type:adhoc'] = 'Ad hoc';
-$string['task_type:scheduled'] = 'Terminiert';
 $string['tempdatafoldercleanup'] = 'Temporäre Dateien löschen, wenn älter als';
 $string['templates'] = 'Vorlagen';
 $string['testoutgoingmailconf'] = 'Test ausgehende E-Mails';
@@ -1389,16 +1389,16 @@ $string['updateaccounts'] = 'Update bestehender Accounts';
 $string['updateautocheck'] = 'Aktualisierungen prüfen';
 $string['updateautocheck_desc'] = 'Wenn diese Option aktiviert ist, wird für Ihrer Website automatisch geprüft, ob für Moodle oder ein zusätzliches Plugin aktuellere Versionen verfügbar sind. Falls eine Aktualisierung vorhanden ist, werden die Administrator/innen benachrichtigt.';
 $string['updateavailable'] = 'Ein neueres Moodle ist verfügbar!';
+$string['updateavailable_moreinfo'] = 'Weitere Infos';
+$string['updateavailable_release'] = 'Moodle {$a}';
+$string['updateavailable_version'] = 'Version {$a}';
 $string['updateavailabledetailslink'] = 'Weitere Details: {$a->url}';
 $string['updateavailableforplugin'] = 'Für Plugins sind Aktualisierungen verfügbar.';
 $string['updateavailableinstall'] = 'Aktualisierung ausführen';
 $string['updateavailableinstallall'] = 'Aktualisierungen ausführen ({$a})';
 $string['updateavailableinstallallhead'] = 'Verfügbare Aktualisierungen werden installiert.';
-$string['updateavailable_moreinfo'] = 'Weitere Infos';
 $string['updateavailablenot'] = 'Dieses Moodle ist aktuell!';
 $string['updateavailablerecommendation'] = 'Um alle aktuellen Sicherheits- und Fehlerkorrekturen zu erhalten, sollten Sie die Software der Website aktualisieren.';
-$string['updateavailable_release'] = 'Moodle {$a}';
-$string['updateavailable_version'] = 'Version {$a}';
 $string['updatecomponent'] = 'Komponente aktualisieren';
 $string['updateminmaturity'] = 'Entwicklungsstand prüfen';
 $string['updateminmaturity_desc'] = 'Auf Aktualisierungen wird hingewiesen, sobald der verfügbare Code den ausgewählten Entwicklungsstand erreicht. Wenn Plugins Ihren Entwicklungsstand nicht dokumentieren, werden Aktualisierungen von Plugins unabhängig von dieser Einstellung trotzdem aufgeführt.';

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'install', language 'sv', version '3.8'.
  *
- * @package   install
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     install
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -78,17 +78,7 @@ Ange den fullständiga sökvägen till den här installationen. Kontrollera att 
 <p><b>Katalogen för data</b>
 Du behöver ett utrymme där Moodle kan spara uppladdade filer. Till denna katalog bör det finnas läs- OCH SKRIV-rättigheter för användaren av webbservern (vanligtvis \'nobody\' eller  \'apache\') men katalogen bör inte vara tillgänglig direkt via webben.';
 $string['directorysettingshead'] = 'Var snäll och bekräfta placeringen av Din installation av Moodle.';
-$string['directorysettingssub'] = '<b>Webbadress:</b>
-Ange den fullständiga webbadressen till Moodle.
-Om det går att nå Din via flerfaldiga URLer så ska Du välja den som det ligger närmast till hands för Dina studenter/elever/deltagare/lärande att använda. Ta inte med något högerlutat snedstreck.
-<br />
-<br />
-<b>Katalogen för Moodle:</b>
-Ange den fullständiga sökvägen till den här installationen. Se till att hänsyn tas till stor/liten bokstav.
-<br />
-<br />
-<b>Katalogen för data:</b>
-Du behöver en plats där Moodle kan lagra de filer som laddas upp till systemet. Denna katalog bör vara läs- och SKRIVBAR för användaren av webbservern (vanligen \'nobody\' eller \'apache\'), men denna katalog bör inte vara tillgänglig  direkt via webben.';
+$string['directorysettingssub'] = '<b>Webbadress:</b> Ange den fullständiga webbadressen till Moodle. Om det går att nå Din via flerfaldiga URLer så ska Du välja den som det ligger närmast till hands för Dina studenter att använda. Ta inte med något högerlutat snedstreck. <br /> <br /> <b>Katalogen för Moodle:</b> Ange den fullständiga sökvägen till den här installationen. Se till att hänsyn tas till stor/liten bokstav. <br /> <br /> <b>Katalogen för data:</b> Du behöver en plats där Moodle kan lagra de filer som laddas upp till systemet. Denna katalog bör vara läs- och SKRIVBAR för användaren av webbservern (vanligen \'nobody\' eller \'apache\'), men denna katalog bör inte vara tillgänglig direkt via webben.';
 $string['dirroot'] = 'Katalogen för Moodle';
 $string['dirrooterror'] = 'Inställningarna för "Katalogen för Moodle" tycks vara felaktiga - det går inte att hitta någon installation av Moodle där. Värdet här nedan har återställts.';
 $string['download'] = 'Ladda ner';
@@ -97,26 +87,26 @@ $string['downloadlanguagehead'] = 'Ladda ner språkpaket';
 $string['downloadlanguagenotneeded'] = 'Du kan fullfölja installationsprocessen samtidigt som Du använder standardpaketet för språk, "{$a}".';
 $string['downloadlanguagesub'] = 'Du har nu möjligheten att ladda ner ett språkpaket och fortsätta installationen av det här språket.<br /><br />Om Du inte kan ladda ner språkpaketet så kommer installationen att fortsätta på engelska. Så snart installationen är klar så kan Du ladda ner och installera ytterligare språkpaket.';
 $string['doyouagree'] = 'Accepterar Du? (ja/nej)';
-$string['environmenthead'] = 'Undersöker Din miljö...';
+$string['environmenthead'] = 'Undersöker din miljö...';
 $string['environmentsub'] = 'Vi kontrollerar om de olika komponenterna i Ditt system svarar upp mot systemkraven.';
 $string['errorsinenvironment'] = 'Kontrollen av miljön misslyckades';
 $string['fail'] = 'Misslyckas';
 $string['fileuploads'] = 'Uppladdningar av filer';
 $string['fileuploadserror'] = 'Detta bör vara aktiverat (on)';
-$string['fileuploadshelp'] = '<p>Uppladdning av filer verkar vara avaktiverat på Din server.</p>
-<p>Det kan fortfarande vara så att Moodle är installerat, men utan denna funktionalitet så kommer Du inte att kunna ladda upp kursfiler eller nya bilder till användarprofilerna. </p>
-<p>För att aktivera uppladdning av filer så måste Du (eller Din systemadministratör) redigera den övergripande php.ini-filen på Ert system och ändra inställningen för <b>uppladdning av filer (file uploads)</b> till \'1\'.</p>';
+$string['fileuploadshelp'] = '<p>Uppladdning av filer verkar vara avaktiverat på din server.</p>
+<p>Det kan fortfarande vara så att Moodle är installerat, men utan denna funktionalitet så kommer du inte att kunna ladda upp kursfiler eller nya bilder till användarprofilerna. </p>
+<p>För att aktivera uppladdning av filer så måste du (eller din systemadministratör) redigera den övergripande php.ini-filen på Ert system och ändra inställningen för <b>uppladdning av filer (file uploads)</b> till \'1\'.</p>';
 $string['installation'] = 'Installation';
 $string['langdownloaderror'] = 'Språket "{$a}" gick tyvärr inte att ladda ner. Installationen kommer att fullföljas på engelska.';
 $string['langdownloadok'] = 'Språket "{$a}" installerades framgångsrikt. Installationen kommer att fullföljas på detta språk.';
 $string['memorylimit'] = 'Minnesbegränsning';
 $string['memorylimiterror'] = 'Minnesbegränsningen för PHP på Din server är f n inställt till ett ganska lågt värde... Detta kan leda till problem senare.';
-$string['memorylimithelp'] = '<p>Den aktuella minnesbegränsningen för PHP på Din server är  inställt till {$a}.</p>
-<p>Detta kan förorsaka att Moodle får minnesproblem senare, särskilt om Du har aktiverat många moduler och/eller har många användare.</p>
-<p>Vi rekommenderar att Du konfigurerar PHP med en högre begränsning, som t ex 16M. Det finns flera sätt att göra detta som Du kan pröva med:</p> <ol>
-<li>Om Du har möjlighet till det så kan Du kompilera om PHP med<i>--enable-memory-limit </i>Detta gör det möjligt för Moodle att ställa in minnesbegränsningen själv. </li>
-<li>Om Du har tillgång till Din php.ini-fil så kan Du ändra inställningen för <b>memory limit</b> till något i stil med 16M. Om Du inte har tillgång själv så kan Du kanske be Din systemadministratör att göra detta åt Dig.</li>
-<li>På en del PHP-servrar kan Du skapa en .htaccess-fil i Moodle-katalogen som innehåller den här raden: <blockquote>php_value memory_limit 16M</blockquote>.<br />Detta kan dock på en del servrar leda till att <b>inga</b> PHP-sidor fungerar. (Du får Error-sidor istället för de riktiga) så då får Du ta bort .htaccess-filen.</li>
+$string['memorylimithelp'] = '<p>Den aktuella minnesbegränsningen för PHP på din server är  inställt till {$a}.</p>
+<p>Detta kan förorsaka att Moodle får minnesproblem senare, särskilt om du har aktiverat många moduler och/eller har många användare.</p>
+<p>Vi rekommenderar att du konfigurerar PHP med en högre begränsning, som t ex 16M. Det finns flera sätt att göra detta som du kan pröva med:</p> <ol>
+<li>Om du har möjlighet till det så kan du kompilera om PHP med<i>--enable-memory-limit </i>Detta gör det möjligt för Moodle att ställa in minnesbegränsningen själv. </li>
+<li>Om du har tillgång till din php.ini-fil så kan du ändra inställningen för <b>memory limit</b> till något i stil med 16M. Om du inte har tillgång själv så kan du kanske be din systemadministratör att göra detta åt dig.</li>
+<li>På en del PHP-servrar kan du skapa en .htaccess-fil i Moodle-katalogen som innehåller den här raden: <blockquote>php_value memory_limit 16M</blockquote>.<br />Detta kan dock på en del servrar leda till att <b>inga</b> PHP-sidor fungerar. (Du får Error-sidor istället för de riktiga) så då får du ta bort .htaccess-filen.</li>
 </ol>';
 $string['mysqliextensionisnotpresentinphp'] = 'PHP har inte konfigurerats på ettt korrekt sätt i förhållande till MySQLi extensionen så att den kan kommunicera med PHP. Det finns ingen MySQLi extension för PHP4.';
 $string['nativemysqli'] = 'Förbättrad MySQL (native/mysqli)';
@@ -134,7 +124,7 @@ $string['pathserrcreatedataroot'] = 'Datakatalogen ({$a->dataroot}) går inte at
 $string['pathshead'] = 'Bekräfta vägar';
 $string['pathsrodataroot'] = 'Det går inte att skriva till katalogen för dataroot';
 $string['pathsroparentdataroot'] = 'Det går inte att skriva till föräldrakatalogen ({$a->parent}). Det går inte att installera datakatalogen ({$a->dataroot}) med hjälp av installeraren. ';
-$string['pathssubdirroot'] = 'Full sökväg till installationen av moodle.';
+$string['pathssubdirroot'] = 'Full sökväg till installationen av Moodle.';
 $string['pathsunsecuredataroot'] = 'Placeringen av dataroot är inte säker';
 $string['pathswrongadmindir'] = 'Katalogen för admin saknas';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHP har inte konfigurerats på rätt sätt med tillägget PGSQL. Därför kan det inte kommunicera med PostgreSQL. Var snäll och kontrollera Din php.ini-fil eller kompilera om PHP.';
@@ -156,12 +146,12 @@ $string['sessionautostarthelp'] = '<p>Moodle kräver stöd för sessioner och ko
 <p>Sessioner kan vara aktiverade i php.ini-filen... kontrollera parametern för session.auto_start. </p>';
 $string['sqliteextensionisnotpresentinphp'] = 'PHP har inte konfigurerats korrekt med tillägget för SQLite. Var snäll och kontrollera Din php.ini-fil för att kompilera om PHP.';
 $string['welcomep10'] = '{$a->installername} ({$a->installerversion})';
-$string['welcomep20'] = 'Du ser detta eftersom Du framgångsrikt har installerat och börjat använda språkpaketet <strong>{$a->packname} {$a->packversion}</strong> på Din dator. Gratulerar!';
+$string['welcomep20'] = 'Du ser detta eftersom du framgångsrikt har installerat och börjat använda språkpaketet <strong>{$a->packname} {$a->packversion}</strong> på din dator. Gratulerar!';
 $string['welcomep30'] = 'I den här versionen av <strong>{$a->installername}</strong> ingår de applikationer som kan skapa en miljö som <strong>Moodle</strong> kan fungera i, nämligen:';
 $string['welcomep40'] = 'I paketet ingår även <strong>Moodle {$a->moodlerelease} ({$a->moodleversion})</strong>.';
 $string['welcomep50'] = 'Användningen av alla applikationerna i det här paketet regleras av deras respektive licenser. Det kompletta paketet <strong>{$a->installername}</strong>  är <a href="http://www.opensource.org/docs/definition_plain.html">Öppen källkod </a> och distribueras
 under <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a> licensen.';
-$string['welcomep60'] = 'De följande sidorna leder Dig genom några enkla steg för att konfigurera och installera <strong>Moodle</strong> på Din dator, Du kan acceptera standardinställningarna eller, alternativt, modifiera dem som det passar Dina egna behov.';
+$string['welcomep60'] = 'De följande sidorna leder dig genom några enkla steg för att konfigurera och installera <strong>Moodle</strong> på din dator, du kan acceptera standardinställningarna eller, alternativt, modifiera dem som det passar dina egna behov.';
 $string['welcomep70'] = 'Klicka på knappen "Nästa" här nedan för att fortsätta installationen av <strong>Moodle</strong>';
 $string['wwwroot'] = 'Webbadress';
 $string['wwwrooterror'] = 'Webbadressen verkar inte vara giltig - den här installationen av Moodle verkar inte att finnas där.

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'fr', branch 'MOODLE_38_STABLE'
+ * Strings for component 'assign', language 'fr', version '3.8'.
  *
- * @package   assign
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     assign
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -28,9 +28,9 @@ defined('MOODLE_INTERNAL') || die();
 $string['activityoverview'] = 'Vous avez des devoirs qui requièrent votre attention';
 $string['addattempt'] = 'Autoriser une autre tentative';
 $string['addnewattempt'] = 'Ajouter une tentative';
+$string['addnewattempt_help'] = 'Ceci créera un travail vide pour vous permettre d\'y travailler.';
 $string['addnewattemptfromprevious'] = 'Ajouter une tentative basée sur le travail remis précédemment';
 $string['addnewattemptfromprevious_help'] = 'Ceci copiera le contenu du travail remis précédemment pour vous permettre d\'y travailler.';
-$string['addnewattempt_help'] = 'Ceci créera un travail vide pour vous permettre d\'y travailler.';
 $string['addnewgroupoverride'] = 'Ajouter une dérogation de groupe';
 $string['addnewuseroverride'] = 'Ajouter une dérogation utilisateur';
 $string['addsubmission'] = 'Ajouter un travail';
@@ -49,13 +49,22 @@ $string['applytoteam'] = 'Appliquer les notes et le feedback à tout le groupe';
 $string['assign:addinstance'] = 'Ajouter un devoir';
 $string['assign:editothersubmission'] = 'Modifier le travail d\'un autre étudiant';
 $string['assign:exportownsubmission'] = 'Exporter ses propres devoirs remis';
-$string['assignfeedback'] = 'Plugin feedback';
-$string['assignfeedbackpluginname'] = 'Plugin feedback';
 $string['assign:grade'] = 'Évaluer un devoir';
 $string['assign:grantextension'] = 'Octroyer des prolongations';
 $string['assign:manageallocations'] = 'Gérer les évaluateurs attribués à des travaux remis';
 $string['assign:managegrades'] = 'Relire et publier les notes';
 $string['assign:manageoverrides'] = 'Gérer les dérogations de devoir';
+$string['assign:receivegradernotifications'] = 'Recevoir les notifications des envois des évaluateurs';
+$string['assign:releasegrades'] = 'Publier les notes';
+$string['assign:revealidentities'] = 'Révéler l’identité des étudiants';
+$string['assign:reviewgrades'] = 'Relire les notes';
+$string['assign:showhiddengrader'] = 'Voir l\'identité d\'un évaluateur caché';
+$string['assign:submit'] = 'Envoyer un devoir';
+$string['assign:view'] = 'Accéder à un devoir';
+$string['assign:viewblinddetails'] = 'Voir les identités des étudiants quand l\'évaluation à l\'aveugle est activée';
+$string['assign:viewgrades'] = 'Affichage des notes';
+$string['assignfeedback'] = 'Plugin feedback';
+$string['assignfeedbackpluginname'] = 'Plugin feedback';
 $string['assignmentisdue'] = 'Devoir à effectuer';
 $string['assignmentmail'] = '{$a->grader} a donné un feedback pour le travail remis pour « {$a->assignment} ».
 
@@ -66,17 +75,8 @@ $string['assignmentmailsmall'] = '{$a->grader} a donné un feedback pour le trav
 $string['assignmentname'] = 'Nom du devoir';
 $string['assignmentplugins'] = 'Plugins de devoir';
 $string['assignmentsperpage'] = 'Devoirs par page';
-$string['assign:receivegradernotifications'] = 'Recevoir les notifications des envois des évaluateurs';
-$string['assign:releasegrades'] = 'Publier les notes';
-$string['assign:revealidentities'] = 'Révéler l’identité des étudiants';
-$string['assign:reviewgrades'] = 'Relire les notes';
-$string['assign:showhiddengrader'] = 'Voir l\'identité d\'un évaluateur caché';
 $string['assignsubmission'] = 'Plugin de remise';
 $string['assignsubmissionpluginname'] = 'Plugin de remise';
-$string['assign:submit'] = 'Envoyer un devoir';
-$string['assign:view'] = 'Accéder à un devoir';
-$string['assign:viewblinddetails'] = 'Voir les identités des étudiants quand l\'évaluation à l\'aveugle est activée';
-$string['assign:viewgrades'] = 'Affichage des notes';
 $string['attemptheading'] = 'Tentative {$a->attemptnumber} : {$a->submissionsummary}';
 $string['attempthistory'] = 'Tentatives précédentes';
 $string['attemptnumber'] = 'Numéro de tentative';
@@ -108,8 +108,8 @@ $string['batchoperationunlock'] = 'déverrouiller les travaux remis';
 $string['batchsetallocatedmarker'] = 'Évaluateur attribué pour {$a} utilisateurs sélectionnés.';
 $string['batchsetmarkingworkflowstateforusers'] = 'Statut d\'évaluation défini pour {$a} utilisateurs sélectionnés.';
 $string['blindmarking'] = 'Évaluation à l\'aveugle';
-$string['blindmarkingenabledwarning'] = 'L\'évaluation à l\'aveugle est activée pour cette activité.';
 $string['blindmarking_help'] = 'L\'évaluation à l\'aveugle cache aux évaluateurs l\'identité des étudiants. Les réglages de l\'évaluation à l\'aveugle seront verrouillés dès qu\'un travail aura été remis ou une note donnée pour ce devoir.';
+$string['blindmarkingenabledwarning'] = 'L\'évaluation à l\'aveugle est activée pour cette activité.';
 $string['calendardue'] = '{$a} doit être rendu';
 $string['calendargradingdue'] = '{$a} doit être évalué';
 $string['changefilters'] = 'Modifier les filtres';
@@ -138,9 +138,9 @@ $string['currentattempt'] = 'Ceci est la tentative {$a}.';
 $string['currentattemptof'] = 'Ceci est la tentative {$a->attemptnumber} ({$a->maxattempts} tentatives permises).';
 $string['currentgrade'] = 'Note actuelle dans le carnet de notes';
 $string['cutoffdate'] = 'Date limite';
+$string['cutoffdate_help'] = 'Si cette date est indiquée, le devoir n\'autorisera aucune remise de travail après ce délai, sauf octroi d\'une prolongation.';
 $string['cutoffdatecolon'] = 'Date limite : {$a}';
 $string['cutoffdatefromdatevalidation'] = 'La date limite ne doit pas être antérieure à la date après laquelle la remise des devoirs est permise.';
-$string['cutoffdate_help'] = 'Si cette date est indiquée, le devoir n\'autorisera aucune remise de travail après ce délai, sauf octroi d\'une prolongation.';
 $string['cutoffdatevalidation'] = 'La date limite ne peut pas être antérieure au délai de remise.';
 $string['defaultlayout'] = 'Restaurer la disposition par défaut';
 $string['defaultsettings'] = 'Réglages par défaut des devoirs';
@@ -154,8 +154,8 @@ $string['downloadasfolders'] = 'Télécharger les travaux remis dans des dossier
 $string['downloadasfolders_help'] = 'Les travaux remis peuvent être téléchargés dans des dossiers. Les fichiers de chaque étudiant sont placés dans un dossier séparé, avec les éventuels sous-dossiers, et ne sont pas renommés.';
 $string['downloadselectedsubmissions'] = 'Télécharger les travaux remis sélectionnés';
 $string['duedate'] = 'Date de remise';
-$string['duedatecolon'] = 'Date de remise : {$a}';
 $string['duedate_help'] = 'Cette date est celle du délai de remise du devoir. La remise des devoirs sera permise après cette date, mais les devoirs remis après cette date seront marqués en retard. Pour empêcher la remise de travaux après une certaine date, veuillez indiquer une date limite de remise.';
+$string['duedatecolon'] = 'Date de remise : {$a}';
 $string['duedateno'] = 'Pas de date de remise';
 $string['duedatereached'] = 'La date de remise de ce devoir est passée';
 $string['duedatevalidation'] = 'La date de remise ne doit pas être antérieure à la date à partir de laquelle les remises sont permises.';
@@ -282,13 +282,13 @@ Remarque : ce réglage n\'a pas d\'effet sur le champ de commentaires sur la pa
 $string['hideshow'] = 'Cacher/afficher';
 $string['inactiveoverridehelp'] = '* Cette dérogation est inactive, car l\'accès de l\'utilisateur à l\'activité est restreinte. Ceci peut être dû à des attributions de groupe ou de rôles, à d\'autres restrictions d\'accès ou au fait que l\'activité est cachée.';
 $string['indicator:cognitivedepth'] = 'Devoir : aspect cognitif';
+$string['indicator:cognitivedepth_help'] = 'Cet indicateur se base sur le niveau cognitif atteint par l\'étudiant dans une activité devoir.';
 $string['indicator:cognitivedepthdef'] = 'Devoir : aspect cognitif';
 $string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement cognitif offert par les activités « Devoir » (niveaux : pas de vue, vue, envoi, vue du feedback, commentaire du feedback, nouvel envoi après vue du feedback).';
-$string['indicator:cognitivedepth_help'] = 'Cet indicateur se base sur le niveau cognitif atteint par l\'étudiant dans une activité devoir.';
 $string['indicator:socialbreadth'] = 'Devoir : aspect social';
+$string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité devoir.';
 $string['indicator:socialbreadthdef'] = 'Devoir : aspect social';
 $string['indicator:socialbreadthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement social offert par les activités « Devoir » (niveaux : pas de participation, participant seul, participant avec d\'autres).';
-$string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité devoir.';
 $string['instructionfiles'] = 'Fichiers d\'instructions';
 $string['introattachments'] = 'Fichiers supplémentaires';
 $string['introattachments_help'] = 'Des fichiers supplémentaires à utiliser dans le devoir peuvent être ajoutés, par exemple des modèles de réponse. Les liens de téléchargement de ces fichiers seront affichés sur la page du devoir, sous la description.';
@@ -425,8 +425,8 @@ $string['privacy:metadata:userid'] = 'Identifiant de l\'utilisateur';
 $string['privacy:studentpath'] = 'Devoirs des étudiants';
 $string['privacy:submissionpath'] = 'Devoir remis';
 $string['quickgrading'] = 'Évaluation rapide';
-$string['quickgradingchangessaved'] = 'Les modifications de notes ont été enregistrées';
 $string['quickgrading_help'] = 'L\'évaluation rapide vous permet d\'attribuer des notes (et compétences) directement dans le tableau des travaux remis. L\'évaluation rapide n\'est pas compatible avec l\'évaluation avancée et n\'est pas recommandée si plusieurs utilisateurs effectuent l\'évaluation.';
+$string['quickgradingchangessaved'] = 'Les modifications de notes ont été enregistrées';
 $string['quickgradingresult'] = 'Évaluation rapide';
 $string['recordid'] = 'Identifiant';
 $string['relativedatessubmissionduedateafter'] = '{$a->datediffstr} après le début du cours';
@@ -468,9 +468,9 @@ $string['sendlatenotifications_help'] = 'Si ce réglage est activé, les évalua
 $string['sendnotifications'] = 'Informer les évaluateurs des travaux remis';
 $string['sendnotifications_help'] = 'Si ce réglage est activé, les évaluateurs (en principe les enseignants) recevront un message chaque fois qu\'un étudiant remet un travail pour ce devoir, qu\'il soit en avance, à temps ou en retard. La méthode d\'envoi des messages est configurable.';
 $string['sendstudentnotifications'] = 'Notifier les étudiants';
+$string['sendstudentnotifications_help'] = 'Si ce réglage est activé, les étudiants reçoivent un message lors de la modification d\'une note ou d\'un feedback. Si un flux d\'évaluation est activé pour ce devoir, les notifications ne seront pas envoyés avant que la note ne soit « Publiée ».';
 $string['sendstudentnotificationsdefault'] = 'Réglages par défaut pour « Notifier les étudiants »';
 $string['sendstudentnotificationsdefault_help'] = 'Définit la valeur par défaut de la case à cocher « Notifier les étudiants » sur le formulaire d\'évaluation.';
-$string['sendstudentnotifications_help'] = 'Si ce réglage est activé, les étudiants reçoivent un message lors de la modification d\'une note ou d\'un feedback. Si un flux d\'évaluation est activé pour ce devoir, les notifications ne seront pas envoyés avant que la note ne soit « Publiée ».';
 $string['sendsubmissionreceipts'] = 'Envoyer aux étudiants un accusé de réception';
 $string['sendsubmissionreceipts_help'] = 'Ce réglage active les accusés de réception pour les étudiants. Les étudiants recevront alors une notification chaque fois qu\'ils remettent un travail pour un devoir.';
 $string['setmarkerallocationforlog'] = 'Définition de l\'évaluateur : (id={$a->id}, nom={$a->fullname}, évaluateur={$a->marker}).';
@@ -490,7 +490,7 @@ $string['submissioncopiedtext'] = 'Vous avez copié votre travail remis précéd
 Vous pouvez consulter l\'état de votre travail remis&nbsp;:
 
  {$a->url}';
-$string['submissiondrafts'] = 'Exiger que les étudiants cliquent sur le bouton « Envoyer le devoir »';
+$string['submissiondrafts'] = 'Exiger que les étudiants cliquent sur le bouton envoyer';
 $string['submissiondrafts_help'] = 'Si ce réglage est activé, les étudiants devront explicitement cliquer sur un bouton de remise pour confirmer que leur devoir est terminé. Cela permet aux étudiants de conserver dans le système une version brouillon de leur travail avant de l\'envoyer. Si le réglage est activé après que des étudiants ont déjà remis leur travaux, ceux-ci seront considérés comme définitifs.';
 $string['submissioneditable'] = 'L\'étudiant peut modifier ce travail remis';
 $string['submissionempty'] = 'Rien n\'a été remis';
@@ -522,23 +522,23 @@ $string['submissionslocked'] = 'L\'ajout, la modification et la suppression de t
 $string['submissionslockedshort'] = 'Devoir verrouillé';
 $string['submissionsnotgraded'] = 'Travaux non évalués {$a}';
 $string['submissionstatement'] = 'Énoncé de remise';
+$string['submissionstatement_help'] = 'Énoncé que chaque étudiant doit accepter avant de remettre son travail';
 $string['submissionstatementacceptedlog'] = 'Énoncé de remise accepté par l\'utilisateur {$a}';
 $string['submissionstatementdefault'] = 'Ce document est le fruit de mon propre travail, excepté les extraits dûment cités de travaux d\'autres personnes.';
-$string['submissionstatement_help'] = 'Énoncé que chaque étudiant doit accepter avant de remettre son travail';
 $string['submissionstatementteamsubmission'] = 'Énoncé de remise de groupe';
-$string['submissionstatementteamsubmissionallsubmit'] = 'Énoncé de remise lorsque tous les membres du groupe remettent un travail';
-$string['submissionstatementteamsubmissionallsubmitdefault'] = 'Ce document est le fruit de mon propre travail en tant que membre du groupe, excepté les extraits dûment cités de travaux d\'autres personnes.';
-$string['submissionstatementteamsubmissionallsubmit_help'] = 'Énoncé que chaque étudiant doit accepter avant de remettre un travail en tant que membre d\'un groupe.';
-$string['submissionstatementteamsubmissiondefault'] = 'Ce document est le fruit du travail de mon groupe, excepté les extraits dûment cités de travaux d\'autres personnes.';
 $string['submissionstatementteamsubmission_help'] = 'Énoncé que chaque étudiant doit accepter avant de remettre le travail de leur groupe';
+$string['submissionstatementteamsubmissionallsubmit'] = 'Énoncé de remise lorsque tous les membres du groupe remettent un travail';
+$string['submissionstatementteamsubmissionallsubmit_help'] = 'Énoncé que chaque étudiant doit accepter avant de remettre un travail en tant que membre d\'un groupe.';
+$string['submissionstatementteamsubmissionallsubmitdefault'] = 'Ce document est le fruit de mon propre travail en tant que membre du groupe, excepté les extraits dûment cités de travaux d\'autres personnes.';
+$string['submissionstatementteamsubmissiondefault'] = 'Ce document est le fruit du travail de mon groupe, excepté les extraits dûment cités de travaux d\'autres personnes.';
 $string['submissionstatus'] = 'Statut des travaux remis';
 $string['submissionstatus_'] = 'Pas de travail remis';
 $string['submissionstatus_draft'] = 'Brouillon (non remis)';
-$string['submissionstatusheading'] = 'Statut de remise';
 $string['submissionstatus_marked'] = 'Noté';
 $string['submissionstatus_new'] = 'Non remis';
 $string['submissionstatus_reopened'] = 'Rouvert';
 $string['submissionstatus_submitted'] = 'Remis pour évaluation';
+$string['submissionstatusheading'] = 'Statut de remise';
 $string['submissionsummary'] = '{$a->status}. Dernière modification le {$a->timemodified}';
 $string['submissionteam'] = 'Groupe';
 $string['submissiontypes'] = 'Types de remise';
@@ -557,9 +557,9 @@ $string['subplugintype_assignsubmission'] = 'Plugin de remise';
 $string['subplugintype_assignsubmission_plural'] = 'Plugins de remise';
 $string['teamname'] = 'Équipe : {$a}';
 $string['teamsubmission'] = 'Les étudiants remettent leur travail en groupe';
+$string['teamsubmission_help'] = 'Si ce réglage est activé, les étudiants seront répartis en groupes, sur la base du jeu de groupes par défaut ou d\'un groupement choisi. Un travail remis en groupe sera partagé par tous les membres du groupe et tous les membres du groupe verront les modifications du devoir effectuées par les autres membres.';
 $string['teamsubmissiongroupingid'] = 'Groupement pour les groupes d\'étudiants';
 $string['teamsubmissiongroupingid_help'] = 'Les groupes de ce groupement seront utilisés pour former les groupes d\'étudiants de ce devoir. Si non renseigné, le jeu de groupes par défaut sera utilisé.';
-$string['teamsubmission_help'] = 'Si ce réglage est activé, les étudiants seront répartis en groupes, sur la base du jeu de groupes par défaut ou d\'un groupement choisi. Un travail remis en groupe sera partagé par tous les membres du groupe et tous les membres du groupe verront les modifications du devoir effectuées par les autres membres.';
 $string['textinstructions'] = 'Instructions pour le devoir';
 $string['timemodified'] = 'Dernière modification';
 $string['timeremaining'] = 'Temps restant';

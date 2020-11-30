@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'ru', branch 'MOODLE_38_STABLE'
+ * Strings for component 'search', language 'ru', version '3.8'.
  *
- * @package   search
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     search
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -64,8 +64,8 @@ $string['enginenotinstalled'] = 'Поисковая машина «{$a}» не �
 $string['enginenotselected'] = 'Вы не выбрали ни одну поисковую систему.';
 $string['engineserverstatus'] = 'Поисковая машина не доступна. Пожалуйста, свяжитесь с вашим администратором.';
 $string['enteryoursearchquery'] = 'Введите ваш поисковый запрос';
-$string['errorareanotavailable'] = 'Область поиска «{$a}» не доступна.';
 $string['error_indexing'] = 'Во время индексации произошла ошибка';
+$string['errorareanotavailable'] = 'Область поиска «{$a}» не доступна.';
 $string['errors'] = 'Ошибки';
 $string['everywhere'] = 'В любом месте, куда у вас есть доступ';
 $string['filesinindexdirectory'] = 'Файлы в индексной папке';
@@ -106,16 +106,16 @@ $string['schemanotupdated'] = 'Схема поиска устарела.';
 $string['schemaversionunknown'] = 'Поисковая машина не знает о текущей версии схемы.';
 $string['score'] = 'Очки';
 $string['search'] = 'Поиск';
-$string['searcharea'] = 'Область поиска';
 $string['search:customfield'] = 'Пользовательские поля курса';
-$string['searching'] = 'Поиск в...';
 $string['search:message_received'] = 'Полученные сообщения';
 $string['search:message_sent'] = 'Отправленные сообщения';
 $string['search:mycourse'] = 'Мои курсы';
-$string['searchnotpermitted'] = 'Вам не разрешено использовать поиск';
 $string['search:section'] = 'Разделы курса';
-$string['searchsetupdescription'] = 'Следующие шаги помогут Вам настроить глобальный поиск в Moodle.';
 $string['search:user'] = 'Пользователи';
+$string['searcharea'] = 'Область поиска';
+$string['searching'] = 'Поиск в...';
+$string['searchnotpermitted'] = 'Вам не разрешено использовать поиск';
+$string['searchsetupdescription'] = 'Следующие шаги помогут Вам настроить глобальный поиск в Moodle.';
 $string['searchwithin'] = 'Искать в';
 $string['seconds'] = 'секунд';
 $string['solutions'] = 'Решения';

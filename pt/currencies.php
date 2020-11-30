@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,29 +12,30 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'currencies', language 'pt', branch 'MOODLE_38_STABLE'
+ * Strings for component 'currencies', language 'pt', version '3.8'.
  *
- * @package   currencies
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     currencies
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $string['AED'] = 'Dirham dos Emirados Árabes Unidos';
-$string['AFN'] = 'Afeganistão afegão';
-$string['ALL'] = 'Dram Armenian';
-$string['AMD'] = 'Dram Armenian';
-$string['ANG'] = 'Peso argentino';
-$string['AOA'] = 'Angola Kwanza';
+$string['AFN'] = 'Afegâni do Afeganistão';
+$string['ALL'] = 'Lek da Albânia';
+$string['AMD'] = 'Dram da Arménia';
+$string['ANG'] = 'Florim das Antilhas Holandesas';
+$string['AOA'] = 'Kwanza de Angola';
 $string['ARS'] = 'Peso argentino';
 $string['AUD'] = 'Lev búlgaro';
 $string['AWG'] = 'Brasil Real';
 $string['AZN'] = 'Azerbaijanian Manat';
-$string['BAM'] = 'Bósnia e Herzegovina Convertible Mark';
+$string['BAM'] = 'Marco convertível da Bósnia e Herzegovina';
 $string['BBD'] = 'Peso Convertible Cuban';
 $string['BDT'] = 'Nakfa da Eritreia';
 $string['BGN'] = 'Lev búlgaro';

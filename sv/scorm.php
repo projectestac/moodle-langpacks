@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'scorm', language 'sv', version '3.8'.
  *
- * @package   scorm
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     scorm
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -52,12 +52,12 @@ $string['attempts'] = 'Försök';
 $string['attemptsx'] = '{$a} försök';
 $string['attr_error'] = 'Olämpligt värde för attributet ({$a->attr}) i taggen {$a->tag}.';
 $string['autocontinue'] = 'Fortsätt automatiskt';
-$string['autocontinuedesc'] = 'Det här alternativet anger standard för automatisk fortsättning för aktiviteten. ';
 $string['autocontinue_help'] = '<p><b>Forts&auml;tt automatiskt</b></p>
 
 <p>Om "Forts&auml;tt automatiskt" &auml;r aktiverat (Ja) s&aring; kommer n&auml;sta tillg&auml;ngliga SCORM att automatiskt startas n&auml;r  den f&ouml;reg&aring;ende &auml;r slutf&ouml;rd.</p>
 
 <p>Om detta inte &auml;r aktiverat (Nej) m&aring;ste anv&auml;ndaren sj&auml;lv anv&auml;nda knappen "Forts&auml;tt" f&ouml;r att g&aring; vidare. </p>';
+$string['autocontinuedesc'] = 'Det här alternativet anger standard för automatisk fortsättning för aktiviteten. ';
 $string['averageattempt'] = 'Medel av försök';
 $string['badmanifest'] = 'Några fel med manifestet: se loggarna över fel';
 $string['browse'] = 'Bläddra';
@@ -84,11 +84,11 @@ $string['directories'] = 'Visa katalogens länkar';
 $string['disabled'] = 'Avaktiverat';
 $string['display'] = 'Visa';
 $string['displayattemptstatus'] = 'Visa status angående försök';
-$string['displayattemptstatusdesc'] = 'Det här alternativet anger hur status angående försök ska visas. ';
 $string['displayattemptstatus_help'] = 'Om detta är aktiverat så kommer resultat och betyg för försök att visas på "outline"-sidan för SCORM. ';
+$string['displayattemptstatusdesc'] = 'Det här alternativet anger hur status angående försök ska visas. ';
 $string['displaycoursestructure'] = 'Visa kursens struktur på ingångssidan';
-$string['displaycoursestructuredesc'] = 'Det här alternativet anger hur(uvida) kursstrukturen ska visas på ingångssidan (eller inte). ';
 $string['displaycoursestructure_help'] = 'Om detta är aktiverat så kommer tabellen över innehåll att visas på "outline"-sidan för SCORM. ';
+$string['displaycoursestructuredesc'] = 'Det här alternativet anger hur(uvida) kursstrukturen ska visas på ingångssidan (eller inte). ';
 $string['displaydesc'] = 'Det här alternativet anger huruvida paketet för en viss aktivitet ska ska visas eller inte.';
 $string['displaysettings'] = 'Visa inställningar';
 $string['domxml'] = 'DOMXML externt bibliotek';
@@ -110,8 +110,8 @@ $string['finishscormlinkname'] = 'klicka här för att återgå till kurssidan';
 $string['firstaccess'] = 'Första tillfället att använda';
 $string['firstattempt'] = 'Första försöket';
 $string['forcecompleted'] = 'Framtvinga ett fullföljande';
-$string['forcecompleteddesc'] = 'Det här alternativet anger huruvida framtvingande av fullföljande ska gälla eller inte';
 $string['forcecompleted_help'] = 'Om aktiverat kommer statusen för aktuellt försök tvingas till fullföljd. Denna inställning är endast applicerbar för SCORM 1.2 paket. Det är användbart om SCORM paketet inte kan hantera återbesök för ett försök korrekt, i förhandsgranskning eller bläddringsmod, eller på annat sätt inkorrekt avger fullföljandestatus.';
+$string['forcecompleteddesc'] = 'Det här alternativet anger huruvida framtvingande av fullföljande ska gälla eller inte';
 $string['forcejavascript'] = 'Tvinga användarna att aktivera JavaScript';
 $string['forcejavascript_desc'] = 'Om aktiverat (rekomenderat) förhindrar detta åtkomst till SCORM objekt när JavaScript inte stöds eller är aktiverat i en användares webbläsare. Om detta är avaktiverat kan användaren kanske se SCORM paketet men API kommunikationen kommer misslyckas och ingen betygsinformation kommer sparas.';
 $string['forcejavascriptmessage'] = 'JavaScript krävs för att se detta objekt, aktivera JavaScript i din webbläsare och försök igen.';
@@ -125,13 +125,13 @@ $string['gradeaverage'] = 'Medelbetyg/omdöme';
 $string['gradeforattempt'] = 'Betyg/omdöme för försök';
 $string['gradehighest'] = 'Högsta betyg/omdöme';
 $string['grademethod'] = 'Metod för betyg/omdömen';
-$string['grademethoddesc'] = 'Det här alternativet anger vilken metod för betygssättning som ska gälla för en aktivitet.';
 $string['grademethod_help'] = 'De resultat av en SCORM/AICC aktivitet som visas på sidan för betyg kan graderas med många olika mått:
 
 * Lärobjekt - Antalet genomförda/godkända lärobjekt för aktiviteten. Maxvärdet är det totala antalet lärobjekt.
 * Högsta betyget - Det högsta resultat som har uppnåtts av användare i alla godkända lärobjekt.
 * Medelbetyg - Medelvärdet av alla resultat.
 * Sammanlagt betyg - Alla resultat läggs ihop. ';
+$string['grademethoddesc'] = 'Det här alternativet anger vilken metod för betygssättning som ska gälla för en aktivitet.';
 $string['gradereported'] = 'Betyg rapporterat';
 $string['gradescoes'] = 'Lärobjekt ';
 $string['gradesettings'] = 'Betygsinställningar';
@@ -139,17 +139,17 @@ $string['gradesum'] = 'Summera betyg/omdöme(n)';
 $string['height'] = 'Höjd';
 $string['hidden'] = 'Dold';
 $string['hidebrowse'] = 'Dölj knappen för förhandsgranskning';
-$string['hidebrowsedesc'] = 'Det här alternativet anger huruvida läget för förhandsgranskning ska aktiveras eller inte.';
 $string['hidebrowse_help'] = '<p>Om det här alternativet är inställt till "Ja" så kommer  knappen Förhandsgranska sidan för visning av ett SCORM/AICC-paket att döljas.</p>
 
 <p>Studenterna/eleverna/deltagarna/de lärande kan välja att förhandsgranska aktiviteten eller försöka att genomföra den på normalt sätt. </p>
 
 <p>När ett lärobjekt är förhandsgranskat så kommer det att markeras med  <img src="<?php echo $CFG->wwwroot.\'/mod/scorm/pix/browsed.gif\' ?>" alt="<?php print_string(\'browsed\',\'scorm\') ?>" title="<?php print_string(\'browsed\',\'scorm\') ?>" /> ikonen för "förhandsgranskat".</p>';
+$string['hidebrowsedesc'] = 'Det här alternativet anger huruvida läget för förhandsgranskning ska aktiveras eller inte.';
 $string['hideexit'] = 'Dölj länken \'avsluta\'';
 $string['hidereview'] = 'Dölj knappen \'Visa igen\'';
 $string['hidetoc'] = 'Visa inte kursstrukturen i spelarens fönster';
-$string['hidetocdesc'] = 'Det här alternativet anger huruvida kursstrukturen (Innehållet) ska visas i SCORM-spelaren eller inte. ';
 $string['hidetoc_help'] = 'Denna inställning specifiserar hur innehållsförteckningen visas i SCORM spelaren.';
+$string['hidetocdesc'] = 'Det här alternativet anger huruvida kursstrukturen (Innehållet) ska visas i SCORM-spelaren eller inte. ';
 $string['highestattempt'] = 'Högsta försöket';
 $string['identifier'] = 'Identifierare för fråga';
 $string['incomplete'] = 'Inte komplett';
@@ -163,8 +163,8 @@ $string['last'] = 'Senaste åtkomst den';
 $string['lastaccess'] = 'Senaste tillfället att använda';
 $string['lastattempt'] = 'Senaste försöket';
 $string['lastattemptlock'] = 'Lås efter det sista försöket';
-$string['lastattemptlockdesc'] = 'Det här alternativet anger standardvärdet för låsningen efter det avslutande försöket. ';
 $string['lastattemptlock_help'] = 'Om aktiverat förhindras elever att starta SCORM spelaren efter att de använt alla sina tilldelade försök.';
+$string['lastattemptlockdesc'] = 'Det här alternativet anger standardvärdet för låsningen efter det avslutande försöket. ';
 $string['location'] = 'Visa en rad som visar placeringen';
 $string['max'] = 'Max resultat';
 $string['maximumattempts'] = 'Antal försök';
@@ -173,27 +173,28 @@ $string['maximumgradedesc'] = 'Det här alternativet anger maxbetyget för en ak
 $string['menubar'] = 'Visa menyraden';
 $string['min'] = 'Min resultat';
 $string['missing_attribute'] = 'Saknat attribut {$a->attr} i taggen {$a->tag}';
-$string['missingparam'] = 'Ett element som är obligatoriskt saknas eller felaktigt.';
 $string['missing_tag'] = 'Saknad tagg {$a->tag}';
+$string['missingparam'] = 'Ett element som är obligatoriskt saknas eller felaktigt.';
 $string['mode'] = 'Läge';
 $string['modulename'] = 'Scormpaket';
+$string['modulename_help'] = 'SCORM och AICC är en samling av specifikationer som möjliggör interoperabilitet, tillgänglighet och återanvändbarhet av webbaserat utbildningsinnehåll. SCORM/AICC modulen tillåter SCORM/AICC paket att inkluderas i kursen.';
 $string['modulenameplural'] = 'Scormpaket (flera)';
 $string['navigation'] = 'Navigation';
 $string['newattempt'] = 'Påbörja ett nytt försök';
 $string['next'] = 'Fortsätt';
+$string['no_attributes'] = 'Taggen {$a->tag} måste ha attribut';
+$string['no_children'] = 'Taggen {$a->tag} måste ha barn';
 $string['noactivity'] = 'Inget att rapportera';
 $string['noattemptsallowed'] = 'Antal tillåtna försök';
 $string['noattemptsmade'] = 'Antal försök som Du har genomfört';
-$string['no_attributes'] = 'Taggen {$a->tag} måste ha attribut';
-$string['no_children'] = 'Taggen {$a->tag} måste ha barn';
 $string['nolimit'] = 'Obegränsade försök';
 $string['nomanifest'] = 'Kunde inte hitta manifest';
 $string['noprerequisites'] = 'Du har tyvärr inte uppnått tillräckligt många av förkunskapskraven för att få tillgång till det här lärobjektet.';
 $string['noreports'] = 'Ingen rapport att visa';
 $string['normal'] = 'Normal';
 $string['noscriptnoscorm'] = 'Din webbläsare stödjer inte javaskript eller så är javaskript inte aktiverat. Därför är det inte säkert att data från det här SCORM-paketet kommer att spelas upp eller sparas på ett korrekt sätt.';
-$string['notattempted'] = 'Inget försök';
 $string['not_corr_type'] = 'Felaktig matchning av datatyp för taggen  {$a->tag}';
+$string['notattempted'] = 'Inget försök';
 $string['objectives'] = 'Mål';
 $string['optallstudents'] = 'alla användare';
 $string['optattemptsonly'] = 'endast användare som gjort försök';
@@ -205,8 +206,6 @@ $string['organization'] = 'Organisation';
 $string['organizations'] = 'Organisationer';
 $string['othersettings'] = 'Kompletterande inställningar';
 $string['package'] = 'Paketfil';
-$string['packagedir'] = 'Fel i filsystemet: det går inte att skapa en katalog för paketet';
-$string['packagefile'] = 'Ingen paketfil har angivits';
 $string['package_help'] = '<p><b>Paketfiler</b></p>
 
 <p>Paketet &auml;r en specifik fil med ett <b>zip</b> (eller pif) som filnamnstill&auml;gg och som inneh&aring;ller giltiga filer som definierar kurser av typen AICC eller SCORM.</p>
@@ -224,6 +223,8 @@ $string['package_help'] = '<p><b>Paketfiler</b></p>
 	<li>PRE - \'Prerequisites file\' - fil f&ouml;r f&ouml;rkunskaper (valfritt)</li>
 	<li>CMP - \'Completition Requirements file\' - fil som inneh&aring;ller krav p&aring; fullf&ouml;ljande  (valfritt)</li>
    </ul>';
+$string['packagedir'] = 'Fel i filsystemet: det går inte att skapa en katalog för paketet';
+$string['packagefile'] = 'Ingen paketfil har angivits';
 $string['packageurl'] = 'URL';
 $string['packageurl_help'] = 'Denna inställning att en URL för SCORM paketet kan anges, istället för att välja en fil med filväljaren.';
 $string['page-mod-scorm-x'] = 'Vilken SCORM modulsida som helst';
@@ -237,8 +238,8 @@ $string['popupmenu'] = 'I en nedrulllningsmeny';
 $string['popupopen'] = 'Öppna paketet i ett nytt fönster';
 $string['popupsblocked'] = 'Det verkar som om popupfönster är blocketat vilket stoppar denna scormmodul från att spelas upp. Kontrollera dina webbläsarinställningar innan du försöker starta igen.';
 $string['position_error'] = '{$a->tag} taggen kan inte vara "child" till {$a->parent} taggen';
-$string['preferencespage'] = 'Preferenser endast för denna sida';
-$string['preferencesuser'] = 'Preferenser för den här rapporten';
+$string['preferencespage'] = 'Inställningar endast för denna sida';
+$string['preferencesuser'] = 'Inställningar för den här rapporten';
 $string['prev'] = 'Föregående';
 $string['raw'] = 'Råa data för resultat';
 $string['regular'] = 'Normalt manifest';
@@ -251,16 +252,18 @@ $string['review'] = 'Visa igen';
 $string['reviewmode'] = 'Läge för granskning';
 $string['scoes'] = 'Lärobjekt';
 $string['score'] = 'Resultat';
-$string['scormclose'] = 'Tills';
-$string['scormcourse'] = 'Lärokurs';
 $string['scorm:deleteownresponses'] = 'Radera egna försök';
 $string['scorm:deleteresponses'] = 'Ta bort försök med SCORM';
+$string['scorm:savetrack'] = 'Spara spårning';
+$string['scorm:skipview'] = 'Hoppa över översikten';
+$string['scorm:viewreport'] = 'Visa rapporter';
+$string['scorm:viewscores'] = 'Visa resultat';
+$string['scormclose'] = 'Tills';
+$string['scormcourse'] = 'Lärokurs';
 $string['scormloggingoff'] = 'Loggning av API är avaktiverat';
 $string['scormloggingon'] = 'Loggning av API är aktiverat';
 $string['scormopen'] = 'Öppen';
 $string['scormresponsedeleted'] = 'Tog bort försök  av användare';
-$string['scorm:savetrack'] = 'Spara spårning';
-$string['scorm:skipview'] = 'Hoppa över översikten';
 $string['scormtype'] = 'Typ';
 $string['scormtype_help'] = 'Denna inställning avgör hur paketet inkluderas i kursen. Det finns upp till fyra alternativ:
 
@@ -269,8 +272,6 @@ $string['scormtype_help'] = 'Denna inställning avgör hur paketet inkluderas i 
 * Nedladdat paket - Medger att ett pakets URL anges. Paketet kommer att packas upp (unzip) och sparas lokalt, och uppdateras när det externa SCORM paketet blir uppdaterat.
 * Lokalt IMS förråd - Medger att ett paket väljs från ett IMS förråd
 * Extern AICC URL - denna URL är start URL för en enskild AICC aktivitet. Ett pseudo paket kommer att konstrueras runt detta.';
-$string['scorm:viewreport'] = 'Visa rapporter';
-$string['scorm:viewscores'] = 'Visa resultat';
 $string['scrollbars'] = 'Tillåt användaren att rulla fönstret';
 $string['selectall'] = 'Välj alla';
 $string['selectnone'] = 'Avmarkera alla';
@@ -301,9 +302,9 @@ $string['tag_error'] = 'Okänd tagg ({$a->tag}) med detta innehåll: {$a->value}
 $string['time'] = 'Tid';
 $string['title'] = 'Titel';
 $string['toc'] = 'Innehåll';
-$string['toolbar'] = 'Visa verktygsraden';
 $string['too_many_attributes'] = 'Taggen {$a->tag} har för många attribut';
 $string['too_many_children'] = 'Taggen {$a->tag} har för många barn';
+$string['toolbar'] = 'Visa verktygsraden';
 $string['totaltime'] = 'Tid';
 $string['trackcorrectcount_help'] = 'Antalet korrekta resultat för frågan';
 $string['trackingloose'] = 'VARNING: spårningsdata till detta SCORM-paket kommer att försvinna!';
@@ -321,9 +322,9 @@ $string['typeexternal'] = 'Externt SCORM manifest';
 $string['typelocal'] = 'Uppladdat paket';
 $string['typelocalsync'] = 'Nedladdat paket';
 $string['unziperror'] = 'Ett fel inträffade i samband med att paketet skulle packas upp.';
-$string['updatefreq'] = 'Intervall då automatisk uppdatering ska ske';
-$string['updatefreqdesc'] = 'Denna inställning anger den förvalda automatiska uppdateringsfrekvensen för en aktivitet';
+$string['updatefreq'] = 'Intervall för automatisk uppdatering';
 $string['updatefreq_help'] = 'Detta medger det externa paketet att bli automatiskt nedladdat och uppdaterat';
+$string['updatefreqdesc'] = 'Denna inställning anger den förvalda automatiska uppdateringsfrekvensen för en aktivitet';
 $string['validateascorm'] = 'Validera ett SCORM-paket';
 $string['validation'] = 'Resultat av validering';
 $string['validationtype'] = 'Den här inställningen innebär att  DOMXML-biblioteket används för att validera SCORM-manifesten. Om Du inte vet hur du ska göra så behåll det markerade valet.';
@@ -332,7 +333,13 @@ $string['versionwarning'] = 'Den här versionen av manifestet är äldre än 1.3
 $string['viewallreports'] = 'Visa rapporter för {$a} försök';
 $string['viewalluserreports'] = 'Visa rapporter för {$a} användare';
 $string['whatgrade'] = 'Bedömning/betygssättning av försök';
+$string['whatgrade_help'] = 'Om multipla försök tillåts specifiserar denna inställning om det högsta, medel, första eller sista försöket sparas i betygsboken.
+
+Hantering av multipla försök
+
+* Alternativet att starta ett nytt försök tillhandahålls av en kryssruta ovanför Gå knappen på innehållsstruktursidan, så säkerställ att du tillhandahåller tillgång till den sidan om du vill tillåta mer än ett försök.
+* Vissa scormpaket är intelligenta angående nya försök, många är det inte. Med detta menas att om eleven återinträder i ett existerande försök, om SCORM innehållet inte har intern logik för att undvika överskrivning av tidigare försök kan dessa bli överskrivna, även om försöken var fullföljda eller godkända.
+* Inställningarna Tvinga fullföljande, Tvinga nytt försök och Lås efter slutligt försök tillhandahåller även ytterligare hantering av multipla försök.';
 $string['whatgradedesc'] = 'Denna inställning anger de förvalda inställningarna för betygsättning av försök';
-$string['whatgrade_help'] = '<p>När du tillåter att användare att göra flera försök så kan du välja hur du ska använda resultatet av försöken när de ska infogas i betygskatalogen.</p>';
 $string['width'] = 'Bredd';
 $string['window'] = 'ram/fönster';

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myoverview', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'block_myoverview', language 'sv', version '3.8'.
  *
- * @package   block_myoverview
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     block_myoverview
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -30,6 +30,7 @@ $string['all'] = 'Alla (förutom dolda)';
 $string['allincludinghidden'] = 'Alla';
 $string['aria:allcoursesincludinghidden'] = 'Alla kurser';
 $string['aria:card'] = 'Visa som kort';
+$string['aria:courseprogress'] = 'Kursförlopp:';
 $string['aria:coursesummary'] = 'Text för kurssammanfattning:';
 $string['aria:displaydropdown'] = 'Visa rullgardinsmeny';
 $string['aria:favourites'] = 'Visa favoritmärkta kurser';
@@ -47,6 +48,7 @@ $string['card'] = 'Kort';
 $string['cards'] = 'Kort';
 $string['complete'] = 'Färdig';
 $string['completepercent'] = '{$a}% slutförd';
+$string['courseprogress'] = 'Kursförlopp:';
 $string['customfiltergrouping_nofields'] = 'Detta alternativ kräver att anpassade kursfält har skapats och är synliga för alla.';
 $string['defaulttab'] = 'Standardflik';
 $string['defaulttab_desc'] = 'Denn flik kommer att visas vid användarens första besök på Kursöversikten. När hen återkommer till Kursöversikten öppnas alltid den senast aktiva fliken.';

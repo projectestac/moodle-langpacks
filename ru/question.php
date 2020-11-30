@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'ru', branch 'MOODLE_38_STABLE'
+ * Strings for component 'question', language 'ru', version '3.8'.
  *
- * @package   question
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     question
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -262,11 +262,11 @@ $string['markedoutofmax'] = 'Балл: {$a}';
 $string['markoutofmax'] = 'Баллов: {$a->mark} из {$a->max}';
 $string['marks'] = 'Баллы';
 $string['matchgrades'] = 'Сопоставление оценок';
-$string['matchgradeserror'] = 'Если оценки нет в списке, выводить сообщение об ошибке';
 $string['matchgrades_help'] = 'Импортируемые оценки должны совпадать с одной допустимой оценкой из фиксированного списка - 100; 90; 80; 75; 70; 66.666; 60; 50; 40; 33.333; 30; 25; 20; 16.666; 14.2857; 12.5; 11.111; 10; 5; 0 (и такие же отрицательные значения). Если оценка не соответствует ни одному из вариантов в списке, то возможно два варианта действия:
 
 * Если оценки нет в списке, выводить сообщение об ошибке - если вопрос содержит любую оценку, не перечисленную в списке, то выводится сообщение об ошибке и вопрос не импортируется.
 * Если оценки нет в списке, выбирать ближайшую - если оценка не соответствует ни одному из значений в списке, то она заменяется на наиболее близкую из списка.';
+$string['matchgradeserror'] = 'Если оценки нет в списке, выводить сообщение об ошибке';
 $string['matchgradesnearest'] = 'Если оценки нет в списке, выбирать ближайшую';
 $string['missingcourseorcmid'] = 'Для функции print_question необходимо указать courseid или cmid.';
 $string['missingcourseorcmidtolink'] = 'Для функции get_question_edit_link указать courseid или cmid.';
@@ -341,8 +341,13 @@ $string['permissionsaveasnew'] = 'Сохранять вопрос как нов�
 $string['permissionto'] = 'У вас есть права:';
 $string['previewquestion'] = 'Просмотр вопроса: {$a}';
 $string['privacy:metadata:database:question'] = 'Подробности о конкретном вопросе.';
-$string['privacy:metadata:database:question_attempts'] = 'Информация о попытке для конкретного вопроса.';
-$string['privacy:metadata:database:question_attempts:flagged'] = 'Отметка, что пользователь пометил флажком вопрос во время попытки.';
+$string['privacy:metadata:database:question:createdby'] = 'Пользователь, создавший вопрос.';
+$string['privacy:metadata:database:question:generalfeedback'] = 'Общий отзыв для этого вопроса.';
+$string['privacy:metadata:database:question:modifiedby'] = 'Пользователь, последним обновлявший вопрос.';
+$string['privacy:metadata:database:question:name'] = 'Название вопроса.';
+$string['privacy:metadata:database:question:questiontext'] = 'Текст вопроса.';
+$string['privacy:metadata:database:question:timecreated'] = 'Дата и время создания вопроса.';
+$string['privacy:metadata:database:question:timemodified'] = 'Дата и время обновления вопроса.';
 $string['privacy:metadata:database:question_attempt_step_data'] = 'Шаги попытки для вопроса могут содержать дополнительные данные, связанные с конкретным шагом. Данные хранятся в таблице step_data.';
 $string['privacy:metadata:database:question_attempt_step_data:name'] = 'Название элемента данных.';
 $string['privacy:metadata:database:question_attempt_step_data:value'] = 'Значение элемента данных.';
@@ -351,14 +356,9 @@ $string['privacy:metadata:database:question_attempt_steps:fraction'] = 'Оцен
 $string['privacy:metadata:database:question_attempt_steps:state'] = 'Состояние шага этой попытки для вопроса в конце перехода к следующему шагу.';
 $string['privacy:metadata:database:question_attempt_steps:timecreated'] = 'Дата и время начала перехода к следующему шагу.';
 $string['privacy:metadata:database:question_attempt_steps:userid'] = 'Пользователь, выполнивший переход к следующему шагу.';
+$string['privacy:metadata:database:question_attempts'] = 'Информация о попытке для конкретного вопроса.';
+$string['privacy:metadata:database:question_attempts:flagged'] = 'Отметка, что пользователь пометил флажком вопрос во время попытки.';
 $string['privacy:metadata:database:question_attempts:timemodified'] = 'Время, когда попытка для вопроса была обновлена.';
-$string['privacy:metadata:database:question:createdby'] = 'Пользователь, создавший вопрос.';
-$string['privacy:metadata:database:question:generalfeedback'] = 'Общий отзыв для этого вопроса.';
-$string['privacy:metadata:database:question:modifiedby'] = 'Пользователь, последним обновлявший вопрос.';
-$string['privacy:metadata:database:question:name'] = 'Название вопроса.';
-$string['privacy:metadata:database:question:questiontext'] = 'Текст вопроса.';
-$string['privacy:metadata:database:question:timecreated'] = 'Дата и время создания вопроса.';
-$string['privacy:metadata:database:question:timemodified'] = 'Дата и время обновления вопроса.';
 $string['privacy:metadata:link:qbehaviour'] = 'Подсистема вопросов использует типы плагинов «Поведение вопроса».';
 $string['privacy:metadata:link:qformat'] = 'Подсистема вопросов использует типы плагинов «Формат вопроса» для импорта и экспорта вопросов в разных форматах.';
 $string['privacy:metadata:link:qtype'] = 'Подсистема вопросов взаимодействует с типом плагинов «Тип вопроса», который содержит разные типы вопросов.';

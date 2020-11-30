@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'enrol_database', language 'sv', version '3.8'.
  *
- * @package   enrol_database
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     enrol_database
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -31,6 +31,8 @@ $string['dbpass'] = 'Lösenord för server';
 $string['dbtype'] = 'Typ av databas';
 $string['dbuser'] = 'Serveranvändare';
 $string['defaultcategory_desc'] = 'Förinställd kategori för automatiskt skapade kurser. Används om ingen ny kategori anges eller om den saknas.';
+$string['ignorehiddencourses'] = 'Ignorera dolda kurser';
+$string['ignorehiddencourses_desc'] = 'Om aktiverat kommer användare inte att registreras på kurser som är inställda för att vara otillgängliga för deltagare.';
 $string['localcoursefield'] = 'Det namn på fältet i tabellen för kurser som vi använder för att matcha inmatningar i fjärrdatabasen (t.ex. idnummer).';
 $string['localrolefield'] = 'Det namn på fältet i tabellen för roller som vi använder för att matcha inmatningar i fjärrdatabasen (t.ex. kortnamn).';
 $string['localuserfield'] = 'Det namn på fältet i tabellen för användare som vi använder för att matcha inmatningar i fjärrdatabasen (t.ex. idnummer).';

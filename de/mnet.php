@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,18 +12,24 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'de', branch 'MOODLE_38_STABLE'
+ * Strings for component 'mnet', language 'de', version '3.8'.
  *
- * @package   mnet
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     mnet
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (selbstsigniert)';
+$string['RPC_HTTPS_VERIFIED'] = 'HTTPS (signiert)';
+$string['RPC_HTTP_PLAINTEXT'] = 'HTTP unverschlüsselt';
+$string['RPC_HTTP_SELF_SIGNED'] = 'HTTP (selbstsigniert)';
+$string['RPC_HTTP_VERIFIED'] = 'HTTP (signiert)';
 $string['aboutyourhost'] = 'Über Ihren Server';
 $string['accesslevel'] = 'Access-Level';
 $string['addhost'] = 'Host hinzufügen';
@@ -45,8 +50,8 @@ $string['couldnotgetcert'] = 'Kein Zertifikat gefunden bei:<br />{$a}. <br />Der
 $string['couldnotmatchcert'] = 'Das Zertifikat stimmt nicht mit dem aktuell auf dem Webserver veröffentlichter überein.';
 $string['courses'] = 'Kurse';
 $string['courseson'] = 'Kurse auf';
-$string['currentkey'] = 'Aktueller Public Key';
 $string['current_transport'] = 'Aktuelle Verbindung';
+$string['currentkey'] = 'Aktueller Public Key';
 $string['databaseerror'] = 'Die Details konnten nicht in die Datenbank eingetragen werden.';
 $string['deleteaserver'] = 'Host löschen';
 $string['deletedhostinfo'] = 'Der Host wurde gelöscht. Um den Vorgang rückgängig zu machen, setzen Sie den Löschstatus auf "Nein".';
@@ -94,9 +99,9 @@ $string['hostnamehelp'] = 'Vollständiger Domainname des Remote-Rechners, z.B. w
 $string['hostnotconfiguredforsso'] = 'Dieser Moodle-Remote-Knoten ist nicht für ein Remote-Login konfiguriert.';
 $string['hostsettings'] = 'Rechnereinstellungen';
 $string['http_self_signed_help'] = 'Erlauben Sie Verbindungen, die auf dem Remote-Rechner ein selbstsigniertes DIY-SSL-Zertifikat benutzen.';
+$string['http_verified_help'] = 'Erlauben Sie Verbindungen über http (nicht https), die auf dem Remote-Rechner ein geprüftes SSL-Zertifikat in PHP benutzen.';
 $string['https_self_signed_help'] = 'Erlauben Sie Verbindungen über http, die auf dem Remote-Rechner ein selbstsigniertes DIY-SSL-Zertifikat in PHP benutzen.';
 $string['https_verified_help'] = 'Erlauben Sie Verbindungen, die auf dem Remote-Rechner ein geprüftes SSL-Zertifikat benutzen.';
-$string['http_verified_help'] = 'Erlauben Sie Verbindungen über http (nicht https), die auf dem Remote-Rechner ein geprüftes SSL-Zertifikat in PHP benutzen.';
 $string['id'] = 'ID';
 $string['idhelp'] = 'Dieser Wert wurde automatisch vergeben und kann nicht geändert werden.';
 $string['importfields'] = 'Felder zum Import';
@@ -131,6 +136,7 @@ $string['methodsavailableonhostinservice'] = 'Verfügbare Methoden für  {$a->se
 $string['methodsignature'] = 'Signatur für Methode {$a}';
 $string['mnet'] = 'MNet';
 $string['mnet_concatenate_strings'] = '(Bis zu) 3 Textteile verbinden und als Ergebnis zurückliefern';
+$string['mnet_session_prohibited'] = 'Teilnehmer/innen Ihres Moodle-Servers sind aktuell nicht für einen Wechsel auf {$a} zugelassen.';
 $string['mnetdisabled'] = 'MNet ist <strong>ausgeschaltet</strong>.';
 $string['mnetidprovider'] = 'MNet ID Provider';
 $string['mnetidproviderdesc'] = 'Falls Sie die richtige, zum eben eingegebenen Anmeldenamen passende E-Mail-Adresse übermitteln, könnten Sie umgehend einen Link zum Einloggen erhalten.';
@@ -138,9 +144,8 @@ $string['mnetidprovidermsg'] = 'Das Login bei Ihrem Provider {$a} sollte möglic
 $string['mnetidprovidernotfound'] = 'Weitere Informationen konnten nicht gefunden werden.';
 $string['mnetpeers'] = 'Peers';
 $string['mnetservices'] = 'Dienste';
-$string['mnet_session_prohibited'] = 'Teilnehmer/innen Ihres Moodle-Servers sind aktuell nicht für einen Wechsel auf {$a} zugelassen.';
 $string['mnetsettings'] = 'MNet-Einstellungen';
-$string['moodle_home_help'] = 'Der Pfad zur Moodle-Startseite aud dem Remote-Rechner, z.B. /moodle/';
+$string['moodle_home_help'] = 'Pfad zur Moodle-Startseite auf dem Remote-Rechner, z.B. /moodle/';
 $string['name'] = 'Name';
 $string['net'] = 'Netzwerk';
 $string['networksettings'] = 'Netzwerk-Einstellungen';
@@ -160,11 +165,11 @@ $string['nosuchpublickey'] = 'Es war nicht möglich, einen PublicKey zur Signatu
 $string['nosuchservice'] = 'Auf diesem Rechner läuft kein RPC-Dienst.';
 $string['nosuchtransport'] = 'Kein Übertragungsprotokoll mit dieser ID';
 $string['notBASE64'] = 'Diese Textpassage ist nicht im Base64-Encoded-Format. Sie kann kein gültiger Schlüssel sein.';
-$string['notenoughidpinfo'] = 'Ihr Server (identity provider) liefert nicht genügend Informationen, um Ihr Nutzerkonto lokal zu erstellen oder zu aktualisieren.';
+$string['notPEM'] = 'Dieser Schlüssel ist nicht im PEM-Format. Er wird nicht funktionieren.';
 $string['not_in_range'] = 'Die IP-Adresse  <code>{$a}</code>  gehört nicht zu einem vertrauenswürdigen Rechner.';
+$string['notenoughidpinfo'] = 'Ihr Server (identity provider) liefert nicht genügend Informationen, um Ihr Nutzerkonto lokal zu erstellen oder zu aktualisieren.';
 $string['notinxmlrpcserver'] = 'Der Verbindungsversuch zum MNET-Remote-Client ist während einer XMLRPC-Server-Ausführung nicht möglich';
 $string['notmoodleapplication'] = 'Achtung: Dies ist kein Moodle-Programm, weswegen einige der Prüfungen nicht ordentlich ablaufen könnten.';
-$string['notPEM'] = 'Dieser Schlüssel ist nicht im PEM-Format. Er wird nicht funktionieren.';
 $string['notpermittedtojump'] = 'Sie haben nicht das Recht, eine Remote-Session von diesem Server aus zu beginnen.';
 $string['notpermittedtojumpas'] = 'Sie können keine Remote Session starten, solange Sie mit einem fremden Nutzerkonto angemeldet sind.';
 $string['notpermittedtoland'] = 'Sie haben nicht das Recht, eine Remote-Session zu beginnen.';
@@ -204,11 +209,6 @@ $string['restore'] = 'Wiederherstellen';
 $string['returnvalue'] = 'Rückgabewert';
 $string['reviewhostdetails'] = 'Rechner-Details prüfen';
 $string['reviewhostservices'] = 'Rechner-Dienste prüfen';
-$string['RPC_HTTP_PLAINTEXT'] = 'HTTP unverschlüsselt';
-$string['RPC_HTTP_SELF_SIGNED'] = 'HTTP (selbstsigniert)';
-$string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (selbstsigniert)';
-$string['RPC_HTTPS_VERIFIED'] = 'HTTPS (signiert)';
-$string['RPC_HTTP_VERIFIED'] = 'HTTP (signiert)';
 $string['selectaccesslevel'] = 'Wählen Sie eine Zugriffsart';
 $string['selectahost'] = 'Bitte wählen Sie einen Remote-Rechner.';
 $string['service'] = 'Dienst-Name';

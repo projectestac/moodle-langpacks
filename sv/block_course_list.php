@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_list', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'block_course_list', language 'sv', version '3.8'.
  *
- * @package   block_course_list
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     block_course_list
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -30,7 +30,7 @@ $string['allcourses'] = 'Administratören ser alla kurser';
 $string['configadminview'] = 'Vad ska systemadministratören se i blocket med listan över kurser?';
 $string['confighideallcourseslink'] = 'Dölj länken \'Alla kurser\' längst ner på blocket. Detta påverkar inte det som administratören kan se.';
 $string['course_list:addinstance'] = 'Lägg till en ny Kursblock';
-$string['course_list:myaddinstance'] = 'Lägg till en ny Kursblock till Mitt Moodle';
+$string['course_list:myaddinstance'] = 'Lägg till en ny Kursblock på Mitt Moodle';
 $string['hideallcourseslink'] = 'Dölj alla länkar till kurser';
 $string['owncourses'] = 'Administratören ser sina egna  kurser';
-$string['pluginname'] = 'Lista över kurser';
+$string['pluginname'] = 'Kurser';

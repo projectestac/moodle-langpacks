@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'repository', language 'sv', version '3.8'.
  *
- * @package   repository
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     repository
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -59,7 +59,7 @@ $string['close'] = 'Stäng';
 $string['commonrepositorysettings'] = 'Allmänna inställningar för arkiv';
 $string['configsaved'] = 'Konfigurationen har sparats';
 $string['confirmdelete'] = 'Är Du säker på att Du vill ta bort det här arkivet - {$a}?';
-$string['confirmdeletefile'] = 'Är Du säker på att Du vill ta bort den här filen?';
+$string['confirmdeletefile'] = 'Är Du säker på att du vill ta bort den här filen?';
 $string['confirmdeletefolder'] = 'Är du säker på att du vill ta bort den här mappen? Alla filer och undermappar kommer att raderas.';
 $string['confirmremove'] = 'Är Du säker på att Du vill ta bort det här plugin-programmet för arkiv, dess alternativ och <strong>alla dess instanser</strong> - {$a}?';
 $string['continueuninstall'] = 'Fortsätt';
@@ -96,7 +96,7 @@ $string['entername'] = 'Var snäll och skriv in namnet på katalogen';
 $string['enternewname'] = 'Var snäll och skriv in det nya namnet på
 filen ';
 $string['error'] = 'Det inträffade ett okänt fel!';
-$string['errornotyourfile'] = 'Du kan inte ta en fil som inte har lagts till av Din ';
+$string['errornotyourfile'] = 'Du kan inte ta en fil som inte har lagts till av din';
 $string['errorpostmaxsize'] = 'Den uppladdade filen kan överstiga max_post_size inställningen som tillåts enligt php.ini.';
 $string['erroruniquename'] = 'Namnet på instansen av ett arkiv bör vara unikt';
 $string['errorwhiledownload'] = 'Ett fel uppstod vid nerladdning av filen: {$a}';
@@ -145,7 +145,7 @@ $string['moving'] = 'Flytta';
 $string['newfolder'] = 'Ny mapp';
 $string['newfoldername'] = 'Nytt namn för mappen:';
 $string['noenter'] = 'Ingenting skrevs in';
-$string['nofilesattached'] = 'Det finns inga befogade filer';
+$string['nofilesattached'] = 'Inga bifogade filer';
 $string['nofilesavailable'] = 'Det finns inga tillgängliga filer';
 $string['nomorefiles'] = 'Det är inte tillåtet med bilagor';
 $string['nopathselected'] = 'Det har inte valts någon sökväg ännu (dubbelklicka på noden för att välja)';
@@ -161,11 +161,11 @@ $string['plugin'] = 'Plugin-program för arkiv';
 $string['pluginerror'] = 'Fel i plugin-program för arkiv';
 $string['pluginname'] = 'Namn  på plugin-program för arkiv';
 $string['popup'] = 'Klicka på knappen \'Logga in\' för att logga in';
-$string['popupblockeddownload'] = 'Det nedladdande fönstret är blockerat, var snäll och till popup-fönster och försök igen.';
+$string['popupblockeddownload'] = 'Det nedladdande fönstret är blockerat, v.g. tillåt popup-fönstret och försök igen.';
 $string['preview'] = 'Förhandsgranska';
 $string['privatefilesof'] = '{$a} privata filer';
 $string['readonlyinstance'] = 'Du kan inte redigera/ta bort en instans som bara är läsbar';
-$string['refresh'] = 'Återställ';
+$string['refresh'] = 'Uppdatera';
 $string['refreshnonjsfilepicker'] = 'Var snäll och ta bort det här fönstret och återställ den filväljare som inte använder javascript.';
 $string['removed'] = 'Arkivet har tagits bort';
 $string['renameall'] = 'Byta namn på alla';

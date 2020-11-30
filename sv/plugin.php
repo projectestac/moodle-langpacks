@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'plugin', language 'sv', version '3.8'.
  *
- * @package   plugin
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     plugin
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -62,7 +62,7 @@ $string['status_uptodate'] = 'Installerad';
 $string['supportedmoodleversions'] = 'Moodle-versioner som stöds';
 $string['systemname'] = 'Identifierare';
 $string['type_auth'] = 'Autentiseringsmetod';
-$string['type_auth_plural'] = 'Plugin-program för autenticering';
+$string['type_auth_plural'] = 'Plugin-program för autentisering';
 $string['type_block'] = 'Block';
 $string['type_block_plural'] = 'Block';
 $string['type_coursereport'] = 'Kursrapport';
@@ -74,8 +74,8 @@ $string['type_editor_plural'] = 'Redigerare';
 $string['type_enrol'] = 'Registreringsmetod';
 $string['type_enrol_plural'] = 'Registreringsmetod';
 $string['type_fileconverter'] = 'Dokumentkonverterare';
-$string['type_fileconvertermanage'] = 'Hantera dokumentkonverterare';
 $string['type_fileconverter_plural'] = 'Dokumentkonverterare';
+$string['type_fileconvertermanage'] = 'Hantera dokumentkonverterare';
 $string['type_filter'] = 'Filter';
 $string['type_filter_plural'] = 'Textfilter';
 $string['type_format'] = 'Kursformat';
@@ -121,10 +121,10 @@ $string['uninstallextraconfirmenrol'] = 'Det finns {$a->enrolments} användarreg
 $string['uninstalling'] = 'Avinstallerar {$a->name}';
 $string['updateavailable'] = 'Det finns en ny version {$a} tillgänglig!';
 $string['updateavailable_moreinfo'] = 'Mer info ...';
-$string['validationmsglevel_error'] = 'Fel';
 $string['validationmsg_missingversionphp'] = 'Hittar inte filen version.php';
 $string['validationmsg_pluginversion'] = 'Insticksmodulens version';
 $string['validationmsg_requiresmoodle'] = 'Moodle version som krävs';
+$string['validationmsglevel_error'] = 'Fel';
 $string['version'] = 'Version';
 $string['versiondb'] = 'Aktuell version';
 $string['versiondisk'] = 'Ny version';

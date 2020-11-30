@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'de', branch 'MOODLE_38_STABLE'
+ * Strings for component 'data', language 'de', version '3.8'.
  *
- * @package   data
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     data
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -85,7 +85,7 @@ $string['confirmdeletefield'] = 'Möchten Sie dieses Feld wirklich in der Datenb
 $string['confirmdeleterecord'] = 'Möchten Sie diesen Datensatz in der Datenbank wirklich löschen?';
 $string['confirmdeleterecords'] = 'Möchten Sie diese Einträge wirklich löschen?';
 $string['csstemplate'] = 'CSS-Vorlage';
-$string['csvfailed'] = 'Die Daten aus der CSV-Datei konnten nicht gelesen werden.';
+$string['csvfailed'] = 'Aus der CSV-Datei konnten keine Daten gelesen werden';
 $string['csvfile'] = 'CSV-Datei';
 $string['csvimport'] = 'CSV-Dateiimport';
 $string['csvimport_help'] = 'Daten können über eine CSV-Datei importiert werden, wobei die erste Zeile eine Liste von Feldnamen enthalten muss, gefolgt von den Daten mit jeweils einem Datensatz pro Zeile.';
@@ -111,7 +111,7 @@ $string['data:viewentry'] = 'Einträge anzeigen';
 $string['data:viewrating'] = 'Eigene Gesamtwertung anzeigen';
 $string['data:writeentry'] = 'Einträge schreiben';
 $string['date'] = 'Datum';
-$string['dateentered'] = 'Daten eingetragen';
+$string['dateentered'] = 'Datum eingetragen';
 $string['defaultfielddelimiter'] = '(Vorgabe: Komma)';
 $string['defaultfieldenclosure'] = '(Vorgabe: kein Zeichen)';
 $string['defaultsortfield'] = 'Standard-Sortierfeld';
@@ -159,7 +159,7 @@ $string['exportaszip'] = 'Export als ZIP-Datei';
 $string['exportaszip_help'] = 'Mit dem Export als ZIP-Datei können Sie den Vorlagensatz auf Ihren Computer herunterladen, um ihn später als "Import aus einer ZIP-Datei" in einem anderen Kurs hochzuladen und zu nutzen.';
 $string['exportedtozip'] = 'In eine temporäre ZIP-Datei exportiert...';
 $string['exportentries'] = 'Einträge exportieren';
-$string['exportownentries'] = 'Nur die eigenen Einträge exportieren? ({$a->mine}/{$a->all})';
+$string['exportownentries'] = 'Nur eigene Einträge exportieren? ({$a->mine}/{$a->all})';
 $string['failedpresetdelete'] = 'Fehler beim Löschen eines Vorlagensatzes';
 $string['fieldadded'] = 'Feld hinzugefügt';
 $string['fieldallowautolink'] = 'Autolink erlauben';
@@ -208,13 +208,13 @@ $string['includetags'] = 'Tags einbeziehen';
 $string['includetime'] = 'Zeitpunkt hinzugefügt/geändert einfügen';
 $string['includeuserdetails'] = 'Nutzerdetails einfügen';
 $string['indicator:cognitivedepth'] = 'Datenbank kognitiv';
+$string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die eine Person in einer Datenbankaktivität erreicht hat.';
 $string['indicator:cognitivedepthdef'] = 'Datenbank kognitiv';
 $string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die Datenbankaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht, Beiträge).';
-$string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die eine Person in einer Datenbankaktivität erreicht hat.';
 $string['indicator:socialbreadth'] = 'Datenbank sozial';
+$string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer Datenbankaktivität erreicht hat.';
 $string['indicator:socialbreadthdef'] = 'Datenbank sozial';
 $string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die Datenbankaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein).';
-$string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer Datenbankaktivität erreicht hat.';
 $string['insufficiententries'] = 'Weitere Einträge sind erforderlich, um die Datenbank einzusehen.';
 $string['intro'] = 'Beschreibung';
 $string['invalidaccess'] = 'Seite wurde nicht richtig aufgerufen';
@@ -233,7 +233,7 @@ $string['latlongboth'] = 'Längen- und Breitengrad müssen eingetragen werden.';
 $string['latlongdownloadallhint'] = 'Download aller Einträge als KML';
 $string['latlongkmllabelling'] = 'Wie sollen Ziele in KML-Dateien bezeichnet werden? (Google Earth)';
 $string['latlonglinkservicesdisplayed'] = 'Links zum Anzeigen geografischer Daten';
-$string['latlongotherfields'] = 'Andere Felder';
+$string['latlongotherfields'] = 'Weitere Felder';
 $string['list'] = 'Listenansicht';
 $string['listtemplate'] = 'Vorlage für Liste';
 $string['longitude'] = 'Längengrad';
@@ -247,7 +247,7 @@ $string['maxentries_help'] = 'Die maximale Zahl der Einträge begrenzt die Eintr
 $string['maxsize'] = 'Größe (max)';
 $string['menu'] = 'Menü';
 $string['menuchoose'] = 'Auswählen ...';
-$string['missingdata'] = 'Daten-ID bzw. Daten-Objekt müssen zur Feldklasse passen';
+$string['missingdata'] = 'Daten-ID bzw. Datenobjekt müssen zur Feldklasse passen';
 $string['missingfield'] = 'Programmierfehler: Sie müssen Feld und Daten angeben, wenn Sie eine Feldklasse definieren.';
 $string['modulename'] = 'Datenbank';
 $string['modulename_help'] = 'Sammeln Sie mit Ihren Teilnehmer/innen Informationen in einer Datenbank. Legen Sie eine Struktur für die Felder der Datenbank fest und definieren Sie, was später in der Übersicht (Listenansicht) oder einer Detailansicht angezeigt werden soll.
@@ -298,7 +298,7 @@ $string['picture'] = 'Bild';
 $string['pleaseaddsome'] = 'Bitte erzeugen Sie ein Feld oder <a href="{$a}">wählen Sie einen Vorlagensatz</a>, um zu beginnen';
 $string['pluginadministration'] = 'Datenbank-Administration';
 $string['pluginname'] = 'Datenbank';
-$string['portfolionotfile'] = 'In ein Portfolio und nicht als Datei exportieren (csv und leap2a)';
+$string['portfolionotfile'] = 'In ein Portfolio und nicht als Datei exportieren (nur csv und leap2a)';
 $string['presetinfo'] = 'Durch das Sichern als Vorlagensatz wird Ihre Datenbank-Gestaltung für die gesamte Moodle-Installation veröffentlicht. Andere Nutzer/innen können dann diesen Vorlagensatz für ihre Datenbank nutzen.';
 $string['presets'] = 'Vorlagensätze';
 $string['privacy:metadata:commentpurpose'] = 'Kommentar zum Datenbankeintrag';
@@ -309,13 +309,13 @@ $string['privacy:metadata:data_content:content2'] = 'Zusätzlicher Inhalt 2';
 $string['privacy:metadata:data_content:content3'] = 'Zusätzlicher Inhalt 3';
 $string['privacy:metadata:data_content:content4'] = 'Zusätzlicher Inhalt 4';
 $string['privacy:metadata:data_content:fieldid'] = 'Felddefinitons-ID';
-$string['privacy:metadata:datafieldnpluginsummary'] = 'Felder der Datenbankaktivität';
 $string['privacy:metadata:data_records'] = 'Steht für Einträge in der Datenbank';
 $string['privacy:metadata:data_records:approved'] = 'Bestätigungsstatus';
 $string['privacy:metadata:data_records:groupid'] = 'Gruppe';
 $string['privacy:metadata:data_records:timecreated'] = 'Zeitpunkt, an dem Eintrag erstellt wurde';
 $string['privacy:metadata:data_records:timemodified'] = 'Zeitpunkt, zu dem Eintrag verändert wurde';
 $string['privacy:metadata:data_records:userid'] = 'Nutzer, der den Eintrag erstellt hat';
+$string['privacy:metadata:datafieldnpluginsummary'] = 'Felder der Datenbankaktivität';
 $string['privacy:metadata:filepurpose'] = 'Datei, die Datenbankeintrag zugeordnet wurde';
 $string['privacy:metadata:ratingpurpose'] = 'Bewertung für Datenbankeintrag';
 $string['privacy:metadata:tagpurpose'] = 'Tags für Datenbankeintrag';

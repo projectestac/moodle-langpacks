@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'qtype_calculated', language 'sv', version '3.8'.
  *
- * @package   qtype_calculated
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     qtype_calculated
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -75,7 +75,7 @@ $string['itemtoadd'] = 'Objekt att lägga till';
 $string['keptcategory1'] = 'kommer att använda samma redan befintliga gemensammma dataset som tidigare';
 $string['keptcategory2'] = 'en fil från samma kategori återanvändbara fileruppsättningar som tidigare';
 $string['keptcategory3'] = 'en länk från samma kategori återanvändbara länkar som tidigare';
-$string['keptlocal1'] = 'kommer att använda samma redan befintliga privata dataset som tidigare';
+$string['keptlocal1'] = 'kommer att använda samma redan befintliga privata datauppsättning som tidigare';
 $string['keptlocal2'] = 'en fil från samma fråga med privata uppsättningar filer som tidigare';
 $string['keptlocal3'] = 'en länk från samma fråga med privata uppsättningar flänkar som tidigare';
 $string['lengthoption'] = 'Välj alternativ för längd';
@@ -107,10 +107,10 @@ $string['notvalidnumber'] = 'Wildcard värdet är inte ett giltigt nummer';
 $string['oneanswertrueansweroutsidelimits'] = 'Åtminstone ett korrekt svar utanför värdegränsen. <br /> Ändra svarstoleransen i  inställningarna som finns  i avancerade parametrar';
 $string['param'] = 'Parameter <strong>{{$a}}</strong>';
 $string['partiallycorrectfeedback'] = 'För alla delvis korrekta svar';
-$string['pluginname'] = 'Beräknat';
-$string['pluginnameadding'] = 'Lägga till en beräknad fråga';
-$string['pluginnameediting'] = 'Redigera en beräknat fråga';
+$string['pluginname'] = 'Beräknad';
 $string['pluginname_help'] = 'Beräknade frågor möjliggör att enskilda numeriska frågor kan skapas med hjälp av wildcard i klammerparenteser som substituerar individuella värden när testet tas. Till exempel frågan "Vad är arean av en rektangel med längden {L} och bredd {W}?" Rätt svarsformel skulle vara "{L} * {w}" (där * betecknar multiplikation).';
+$string['pluginnameadding'] = 'Lägga till en beräknad fråga';
+$string['pluginnameediting'] = 'Redigerar en Beräknad fråga';
 $string['pluginnamesummary'] = 'Beräknade frågor är som numeriska frågor,  med skillnaden att siffror som används väljs slumpmässigt från en datamängd när testet tas.';
 $string['possiblehdr'] = 'Möjliga \'wild cards\' finns endast med i frågetexten';
 $string['questiondatasets'] = 'Frågans datamängd';

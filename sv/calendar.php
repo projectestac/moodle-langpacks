@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'calendar', language 'sv', version '3.8'.
  *
- * @package   calendar
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     calendar
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -33,7 +33,7 @@ $string['calendar'] = 'Kalender';
 $string['calendarheading'] = '{$a} Kalender';
 $string['calendarpreferences'] = 'Välj inställningar för kalendern';
 $string['calendartypes'] = 'Kalander typer';
-$string['calendarurl'] = 'Kalender URL: {$a}';
+$string['calendarurl'] = 'Kalender-URL: {$a}';
 $string['category'] = 'Kategori';
 $string['categoryevent'] = 'Händelse i kategori';
 $string['categoryevents'] = 'Händelser i kategori';
@@ -42,38 +42,38 @@ $string['clickshow'] = 'Klicka för att visa';
 $string['colactions'] = 'Åtgärder';
 $string['colcalendar'] = 'Kalender';
 $string['collastupdated'] = 'Senast uppdaterad';
-$string['colpoll'] = 'Poll';
+$string['colpoll'] = 'Uppdatera';
 $string['commontasks'] = 'Inställningar';
-$string['confirmeventdelete'] = 'Är Du säker på att Du vill ta bort den här händelsen?';
+$string['confirmeventdelete'] = 'Är du säker på att du vill ta bort den här händelsen?';
 $string['confirmeventseriesdelete'] = 'Händelsen "{$a->name}" ingår i en serie av händelser. Vill du ta bort bara denna händelse, eller alla händelser i serien {$a->count}?';
 $string['course'] = 'Kurs';
-$string['courseevent'] = 'Händelse i kurs';
-$string['courseevents'] = 'Händelser i kursen';
+$string['courseevent'] = 'Kurshändelse';
+$string['courseevents'] = 'Kurshändelser';
 $string['courses'] = 'Kurser';
 $string['customexport'] = 'Eget intervall ({$a->timestart} - {$a->timeend})';
 $string['daily'] = 'Dagligen';
 $string['daynext'] = 'Nästa dag';
 $string['dayprev'] = 'Dagen före';
 $string['dayviewfor'] = 'Vy över dag för:';
-$string['dayviewtitle'] = 'Vy över dag {$a}';
-$string['daywithnoevents'] = 'Det finns inga händelser för den här dagen';
+$string['dayviewtitle'] = 'Vy över dag: {$a}';
+$string['daywithnoevents'] = 'Det finns inga händelser för den här dagen.';
 $string['default'] = 'Aktuell';
 $string['deleteallevents'] = 'Ta bort alla händelser';
 $string['deleteevent'] = 'Ta bort händelse';
 $string['deleteevents'] = 'Ta bort händelser';
 $string['deleteoneevent'] = 'Ta bort denna händelse';
 $string['detailedmonthviewfor'] = 'Detaljerad månadsvy för:';
-$string['detailedmonthviewtitle'] = 'Detaljerad vy över månad {$a}';
+$string['detailedmonthviewtitle'] = 'Detaljerad vy över månad: {$a}';
 $string['durationminutes'] = 'Varaktighet i minuter';
 $string['durationnone'] = 'Utan varaktighet';
 $string['durationuntil'] = 'Till';
 $string['editevent'] = 'Redigerar händelse';
 $string['erroraddingevent'] = 'Det gick inte att lägga till händelse';
-$string['errorbadsubscription'] = 'Kalender prenumeration hittades inte';
+$string['errorbadsubscription'] = 'Kalenderprenumeration hittades inte.';
 $string['errorbeforecoursestart'] = 'Det går inte att skriva in en händelse som ligger före kursens startdatum';
-$string['errorcannotimport'] = 'Du kan inte skapa en kalender prenumeration just nu';
+$string['errorcannotimport'] = 'Du kan inte skapa en kalenderprenumeration just nu.';
 $string['errorinvaliddate'] = 'Ogiltigt datum';
-$string['errorinvalidicalurl'] = 'Den angivna iCal webbadressen är ogiltig';
+$string['errorinvalidicalurl'] = 'Den angivna iCal webbadressen är ogiltig.';
 $string['errorinvalidminutes'] = 'Ange varaktighet i minuter genom att skriva in ett tal mellan 1 och 999.';
 $string['errorinvalidrepeats'] = 'Ange antalet händlelser genom att skriva in ett tal mellan 1 och 999.';
 $string['errornodescription'] = 'Beskrivningen måste vara med';
@@ -89,14 +89,14 @@ $string['eventendtime'] = 'Sluttid/datum';
 $string['eventendtimewrapped'] = '{$a} (Sluttid)';
 $string['eventinstanttime'] = 'Tid';
 $string['eventkind'] = 'Typ av händelse';
-$string['eventname'] = 'Namn';
+$string['eventname'] = 'Namn för händelse';
 $string['eventnone'] = 'Inga händelser';
 $string['eventrepeat'] = 'Upprepningar';
 $string['events'] = 'Händelser';
 $string['eventsall'] = 'Alla händelser';
 $string['eventsdeleted'] = 'Händelser borttagna';
 $string['eventsfor'] = '{$a} händelser';
-$string['eventsimported'] = 'Händelser importerad {$a}';
+$string['eventsimported'] = 'Importerade händelser: {$a}';
 $string['eventskey'] = 'Nyckel till händelser';
 $string['eventsource'] = 'Källa för händelser';
 $string['eventspersonal'] = 'Mina personliga händelser';
@@ -108,7 +108,7 @@ $string['eventsubscriptioncreated'] = 'Kalenderprenumeration skapad';
 $string['eventsubscriptiondeleted'] = 'Kalenderprenumeration borttagen';
 $string['eventsubscriptioneditwarning'] = 'Denna kalender ingår i en prenumeration. Alla ändringar som du gör i denna händelse kommer att försvinna om prenumerationen tas bort.';
 $string['eventsubscriptionupdated'] = 'Kalenderprenumeration uppdaterad';
-$string['eventsupdated'] = 'Händelser uppdaterad {$a}';
+$string['eventsupdated'] = 'Händelser uppdaterade {$a}';
 $string['eventtime'] = 'Tid';
 $string['eventtype'] = 'Typ av händelse';
 $string['eventtypecategory'] = 'kategori';
@@ -120,7 +120,7 @@ $string['eventtypesite'] = 'webbplats';
 $string['eventtypeuser'] = 'användare';
 $string['eventview'] = 'Detaljer om händelse';
 $string['expired'] = 'Utgick';
-$string['explain_site_timeformat'] = 'Du kan välja att se tiden i antingen 12-timmars eller 24-timmarsformat för hela webbplatsen. Om Du väljer det förvalda standardvärdet då kommer formatet att styras automatiskt av det språk som Du använder på webbplatsen. Den här inställningen kan överskridas av enskilda användare.';
+$string['explain_site_timeformat'] = 'Du kan välja att se tiden i antingen 12-timmars eller 24-timmarsformat för hela webbplatsen. Om du väljer det förvalda standardvärdet då kommer formatet att styras automatiskt av det språk som du använder på webbplatsen. Den här inställningen kan överskridas av enskilda användare.';
 $string['export'] = 'Exportera';
 $string['exportbutton'] = 'Exportera';
 $string['exportcalendar'] = 'Exportera kalender';
@@ -135,18 +135,18 @@ $string['globalevents'] = 'Globala händelser';
 $string['gotoactivity'] = 'Gå till aktivitete';
 $string['gotocalendar'] = 'Gå till Kalender';
 $string['group'] = 'Grupp';
-$string['groupevent'] = 'Händelse för grupp';
-$string['groupevents'] = 'Händelser för grupp';
+$string['groupevent'] = 'Grupphändelse';
+$string['groupevents'] = 'Grupphändelser';
 $string['hideeventtype'] = 'Dölj {$a} händelser';
 $string['hourly'] = 'Per timme';
 $string['importcalendar'] = 'Importera kalender';
 $string['importcalendarfrom'] = 'Importera från';
-$string['importcalendarheading'] = 'Importera kalender';
-$string['importfromfile'] = 'Kalender fil (.ics)';
+$string['importcalendarheading'] = 'Importera kalender...';
+$string['importfromfile'] = 'Kalenderfil (.ics)';
 $string['importfrominstructions'] = 'Bifoga antingen en webbadress till en annan kalender eller ladda upp en fil.';
-$string['importfromurl'] = 'Kalender webbadress';
+$string['importfromurl'] = 'Kalender-webbadress';
 $string['invalideventtype'] = 'Den typ av händelse som du har valt är ogiltig.';
-$string['invalidtimedurationminutes'] = 'Varaktigheten i minuter som du har angett är ogiltig. Ange tiden i minuter större än 0 eller välj någon varaktighet';
+$string['invalidtimedurationminutes'] = 'Varaktigheten i minuter som du har angett är ogiltig. Ange tiden i minuter större än 0 eller välj ingen varaktighet.';
 $string['invalidtimedurationuntil'] = 'Datum och tid du valt för tid till är före starttiden för händelsen. Vänligen korrigera detta innan du fortsätter.';
 $string['iwanttoexport'] = 'Exportera';
 $string['less'] = 'Mindre';
@@ -163,39 +163,39 @@ $string['more'] = 'Mer';
 $string['namewithsource'] = '{$a->name}({$a->source})';
 $string['never'] = 'Aldrig';
 $string['newevent'] = 'Ny händelse';
-$string['nocalendarsubscriptions'] = 'Du har inga kalender prenumerationer.';
+$string['nocalendarsubscriptions'] = 'Du har inga kalenderprenumerationer.';
 $string['notitle'] = 'ingen titel';
 $string['noupcomingevents'] = 'Det finns inga kommande händelser';
 $string['oneevent'] = '1 händelse';
-$string['pollinterval'] = 'Uppdatera intervall';
+$string['pollinterval'] = 'Uppdateringsintervall';
 $string['pollinterval_help'] = 'Hur ofta ska kalendern uppdateras med nya händelser.';
-$string['preferences'] = 'Inställningar';
-$string['preferences_available'] = 'Dina personliga preferenser';
 $string['pref_lookahead'] = 'Visa kommande händelser';
 $string['pref_lookahead_help'] = 'Det antal dagar som en händelse måste starta inom för att visas som en kommande händelse. Händelser som startar bortom gränsen kommer inte visas som kommande. Vad god notera att det <strong>inte finns någon garanti</strong> för att alla händelser som startar inom tidsspannet visas; om det finns för många (mer än inställningen för "Maximalt antal kommande händelser") så visas inte de mest avlägsna händelserna.';
-$string['pref_maxevents'] = 'Max antal kommande händelser';
-$string['pref_maxevents_help'] = 'Detta ställer in maximalt antal kommande evenemang som kan visas. Om du väljer ett stort antal det möjligt att kommande evenemang kommer att ta upp mycket plats på skärmen.';
+$string['pref_maxevents'] = 'Maximalt antal kommande händelser';
+$string['pref_maxevents_help'] = 'Detta ställer in det maximala antalet kommande händelser som kan visas. Om du väljer ett stort antal är det möjligt att kommande händelser kommer att ta upp mycket utrymme på din skärm.';
 $string['pref_persistflt'] = 'Kom ihåg inställningarna för filtret';
-$string['pref_persistflt_help'] = 'Om detta är aktiverat, så kommer Moodle ihåg dina senaste inställningar för händelsefiltret och automatiskt återställa dem varje gång du loggar in.';
+$string['pref_persistflt_help'] = 'Om detta är aktiverat så kommer Moodle ihåg dina senaste inställningar för händelsefiltret och återställer dem automatiskt varje gång du loggar in.';
 $string['pref_startwday'] = 'Första dagen i veckan';
 $string['pref_startwday_help'] = 'Kalenderveckor startar på dagen som du väljer här.';
-$string['pref_timeformat'] = 'Sätt att visa tid';
-$string['pref_timeformat_help'] = 'Du kan välja att se tider i antingen 12 eller 24 timmars format. Om du väljer "standard", då väljs formatet automatiskt beroende på vilket språk du använder på webbplatsen.';
+$string['pref_timeformat'] = 'Format för tidvisning';
+$string['pref_timeformat_help'] = 'Du kan välja att se tider i antingen 12- eller 24-timmars format. Om du väljer "standard" så väljs formatet automatiskt beroende på vilket språk du använder på webbplatsen.';
+$string['preferences'] = 'Inställningar';
+$string['preferences_available'] = 'Dina personliga inställningar';
 $string['privacy:metadata:calendar:event:description'] = 'Beskrivning av kalenderhändelsen';
 $string['privacy:metadata:calendar:event:eventtype'] = 'Händelsetyp för kalenderhändelsen';
 $string['privacy:metadata:calendar:event:name'] = 'Namn för kalenderhändelsen';
+$string['privacy:metadata:calendar:event:timeduration'] = 'Varaktighet för kalenderhändelsen';
+$string['privacy:metadata:calendar:event:timestart'] = 'Starttid för kalenderhändelsen';
 $string['privacy:metadata:calendar:event_subscriptions:eventtype'] = 'Händelsetyp för kalenderprenumerationen';
 $string['privacy:metadata:calendar:event_subscriptions:name'] = 'Namn för kalenderprenumerationen';
 $string['privacy:metadata:calendar:event_subscriptions:url'] = 'URL för kalenderprenumerationen';
-$string['privacy:metadata:calendar:event:timeduration'] = 'Varaktighet för kalenderhändelsen';
-$string['privacy:metadata:calendar:event:timestart'] = 'Starttid för kalenderhändelsen';
 $string['recentupcoming'] = 'Nyliga och kommande 60 dagar';
 $string['repeatedevents'] = 'Upprepade händelser';
-$string['repeateditall'] = 'Tillämpa ändringar för alla {$a} händelser i den här serien av upprepningar';
+$string['repeateditall'] = 'Tillämpa också ändringar på de andra {$a} händelserna i den här serien av upprepningar';
 $string['repeateditthis'] = 'Tillämpa ändringar bara för den här händelsen';
 $string['repeatevent'] = 'Upprepa denna händelse';
 $string['repeatnone'] = 'Inga upprepningar';
-$string['repeatweeksl'] = 'Upprepa veckovis, skapa';
+$string['repeatweeksl'] = 'Upprepa veckovis, antal tillfällen att skapa:';
 $string['repeatweeksr'] = 'händelser';
 $string['sat'] = 'Lör';
 $string['saturday'] = 'Lördag';
@@ -225,19 +225,19 @@ $string['tue'] = 'Tis';
 $string['tuesday'] = 'Tisdag';
 $string['typecategory'] = 'Händelse för kategori';
 $string['typeclose'] = 'Stäng händelse';
-$string['typecourse'] = 'Händelse för kurs';
+$string['typecourse'] = 'Kurshändelse';
 $string['typedue'] = '';
 $string['typegradingdue'] = '';
-$string['typegroup'] = 'Händelse för grupp';
+$string['typegroup'] = 'Grupphändelse';
 $string['typeopen'] = 'Öppen händelse';
-$string['typesite'] = 'Händelse för webbplats';
-$string['typeuser'] = 'Händelse för användare';
+$string['typesite'] = 'Webbplatshändelse';
+$string['typeuser'] = 'Användarhändelse';
 $string['upcomingevents'] = 'Kommande händelser';
 $string['upcomingeventsfor'] = 'Kommande händelser för:';
-$string['urlforical'] = 'URL för att exportera iCalendar, för att prenumerera på kalender.';
+$string['urlforical'] = 'URL för iCalendar-export, för att prenumerera på kalender';
 $string['user'] = 'Användare';
-$string['userevent'] = 'Händelse för användare';
-$string['userevents'] = 'Händelser för användare';
+$string['userevent'] = 'Användarhändelse';
+$string['userevents'] = 'Användarhändelser';
 $string['wed'] = 'Ons';
 $string['wednesday'] = 'Onsdag';
 $string['weekly'] = 'Varje vecka';

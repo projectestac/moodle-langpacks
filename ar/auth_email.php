@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_email', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'auth_email', language 'ar', version '3.8'.
  *
- * @package   auth_email
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     auth_email
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -30,5 +30,5 @@ $string['auth_emailnoemail'] = 'تمت محاولة إرسال بريد إلكت
 $string['auth_emailrecaptcha'] = 'يضيف عنصر تأكيد بشكل مرئي/مسموع إلى صفحة تسجيل الدخول بالنسبة إلى المستخدمين الراغبين بالتسجيل الشخصي المبني على أساس البريد الالكتروني. هذا من شأنه حماية موقعك من المزعجين ويرفع من أدائه بشكل عام. أنظر https://www.google.com/recaptcha للمزيد من التفاصيل.';
 $string['auth_emailrecaptcha_key'] = 'تمكين عنصر ريكاباتشا';
 $string['auth_emailsettings'] = 'الإعدادات';
-$string['pluginname'] = 'التسجيل الذاتي عن طريق البريد الالكتروني';
+$string['pluginname'] = 'تسجيل ذاتي عن طريق البريد الإلكتروني';
 $string['privacy:metadata'] = 'إن ملحق التسجيل الشخصي المبني على أساس البريد الالكتروني لا يخزن أي بيانات شخصية.';

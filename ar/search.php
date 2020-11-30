@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'search', language 'ar', version '3.8'.
  *
- * @package   search
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     search
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -69,8 +69,8 @@ $string['enginenotinstalled'] = 'المحرك {$a} غير منصب.';
 $string['enginenotselected'] = 'لم تحدد أي محرك بحث.';
 $string['engineserverstatus'] = 'محرك البحث غير متاح. لطفاً، تواصل من المشرف.';
 $string['enteryoursearchquery'] = 'ادخل استفسار بحثك';
-$string['errorareanotavailable'] = 'منطقة البحث {$a} غير متاحة.';
 $string['error_indexing'] = 'وقع خطأ في أثناء الفهرسة';
+$string['errorareanotavailable'] = 'منطقة البحث {$a} غير متاحة.';
 $string['errors'] = 'الأخطاء';
 $string['everywhere'] = 'حيثما يمكنك الوصول';
 $string['filesinindexdirectory'] = 'الملفات في مجلد الفهرس';
@@ -114,18 +114,18 @@ $string['schemanotupdated'] = 'مخطط البحث منته الصلاحية.';
 $string['schemaversionunknown'] = 'محرك البحث لا يعرف الإصدار الحالي للمخطط.';
 $string['score'] = 'الدرجة';
 $string['search'] = 'بحث';
-$string['searcharea'] = 'منطقة البحث';
-$string['searchareacategories'] = 'تصنيفات منطقة البحث';
 $string['search:course'] = 'المساقات';
 $string['search:customfield'] = 'الحقول المخصصة للمساقات';
-$string['searching'] = 'البحث في';
 $string['search:message_received'] = 'الرسائل - المتلقاة';
 $string['search:message_sent'] = 'الرسائل - المرسلة';
 $string['search:mycourse'] = 'مساقاتي';
-$string['searchnotpermitted'] = 'لا يسمح لك بالبحث';
 $string['search:section'] = 'مقاطع المساقات';
-$string['searchsetupdescription'] = 'الخطوات الآتية تساعدك في إعداد بحث مودل العمومي.';
 $string['search:user'] = 'المستخدمون';
+$string['searcharea'] = 'منطقة البحث';
+$string['searchareacategories'] = 'تصنيفات منطقة البحث';
+$string['searching'] = 'البحث في';
+$string['searchnotpermitted'] = 'لا يسمح لك بالبحث';
+$string['searchsetupdescription'] = 'الخطوات الآتية تساعدك في إعداد بحث مودل العمومي.';
 $string['searchwithin'] = 'البحث ضمن';
 $string['seconds'] = 'ثواني';
 $string['solutions'] = 'حلول';

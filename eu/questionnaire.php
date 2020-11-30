@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'eu', branch 'MOODLE_38_STABLE'
+ * Strings for component 'questionnaire', language 'eu', version '3.8'.
  *
- * @package   questionnaire
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     questionnaire
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -31,6 +31,7 @@ $string['addnewquestion'] = '{$a} galdera gehitzen';
 $string['addquestions'] = 'Gehitu galderak';
 $string['addselqtype'] = 'Gehitu aukeratutako galdera-mota';
 $string['all'] = 'Guztiak';
+$string['alreadyfilled'] = 'Hausnarketa burutu duzu. Eskerrik asko.';
 $string['anonymous'] = 'Anonimoa';
 $string['answerquestions'] = 'Erantzun galderei...';
 $string['attempted'] = 'Galdeketa bidali da.';
@@ -60,6 +61,7 @@ $string['nextpage'] = 'Hurrengo orria';
 $string['nlines'] = '{$a} lerro';
 $string['noanswer'] = 'Erantzunik gabe';
 $string['not_started'] = 'Hasi gabea';
+$string['notavail'] = 'Inkesta hau ez dago indarrean oraindik. Beranduago saia zaitez, mesedez.';
 $string['num'] = '#';
 $string['optionalname'] = 'Galderaren izena';
 $string['page'] = 'Orria';
@@ -72,15 +74,16 @@ $string['previouspage'] = 'Aurreko orria';
 $string['private'] = 'Pribatua';
 $string['public'] = 'Publikoa';
 $string['qtype'] = 'Mota';
-$string['questionnairereport'] = 'Galdeketaren txostena';
 $string['questionnaire:submit'] = 'Osatu eta bidali galdeketa';
 $string['questionnaire:view'] = 'Ikusi galdeketa';
+$string['questionnairereport'] = 'Galdeketaren txostena';
 $string['questionnum'] = '# galdera';
 $string['questions'] = 'Galderak';
 $string['questiontypes'] = 'Galdera-motak';
 $string['realm'] = 'Galdeketa-mota';
 $string['remove'] = 'Ezabatu';
 $string['respondenteligibleall'] = 'guztiak';
+$string['respondenttype'] = 'Erantzun dezaketenen motak';
 $string['responseviewstudentsalways'] = 'Beti';
 $string['responseviewstudentsnever'] = 'Inoiz ez';
 $string['save'] = 'Gorde';

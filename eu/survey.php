@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'eu', branch 'MOODLE_38_STABLE'
+ * Strings for component 'survey', language 'eu', version '3.8'.
  *
- * @package   survey
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     survey
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -50,7 +50,7 @@ $string['attls15short'] = 'Besteen lekuan jarri';
 $string['attls16'] = 'Nire aztertzeko moduari \'gauzak auzitan jartzea\' deitu dakioke, proba guztiak arretaz aztertzen ditudalako.';
 $string['attls16short'] = 'Auzitan jarri';
 $string['attls17'] = 'Arazoak konpontzeko, nire kezkak edo usteak eranstea baino gehiago balioesten dut logika eta arrazoitzearen erabilera.';
-$string['attls17short'] = 'Logika baliosten dut gehien';
+$string['attls17short'] = 'Logika balioesten dut gehien';
 $string['attls18'] = 'Nire iritziaren desberdinak direnak hobetu uler ditzazket enpatiaren bitartez.';
 $string['attls18short'] = 'Ulermena enpatiari esker';
 $string['attls19'] = 'Iritzi desberdinak dituen pertsonekin topo egiten dudanean, horiengana hurbiltzen ahalegin berezia egiten dut, iritzi horiek dituen jakiteko.';
@@ -168,8 +168,8 @@ Eskerrik asko.';
 $string['collesapname'] = 'COLLES (Lehenetsia eta Benetakoa)';
 $string['collesm1'] = 'Garrantzia';
 $string['collesm1short'] = 'Garrantzia';
-$string['collesm2'] = 'Gogoetazko pentsaera';
-$string['collesm2short'] = 'Gogoetazko pentsaera';
+$string['collesm2'] = 'Gogoeta-pentsaera';
+$string['collesm2short'] = 'Gogoeta-pentsaera';
 $string['collesm3'] = 'Elkarreragina';
 $string['collesm3short'] = 'Elkarreragina';
 $string['collesm4'] = 'Tutorearen laguntza';
@@ -209,13 +209,13 @@ $string['howlong'] = 'Zenbat denbora behar izan duzu hausnarketa hau betetzeko?'
 $string['howlongoptions'] = '<1 min, 1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,>10 min';
 $string['ifoundthat'] = 'Hau aurkitu dut';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa hausnarketetan';
+$string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Hausnarketa motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa hausnarketetan';
 $string['indicator:cognitivedepthdef_help'] = 'Partaide honek Hausnarketa jarduerak eskaintzen duen gaitasun kognitiboaren ehuneko hau lortu du analisi-tarte honetan (Mailak = Ikusi gabe, Ikusi da, Bidali da)';
-$string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Hausnarketa motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:socialbreadth'] = 'Gaitasun soziala hausnarketetan';
+$string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Hausnarketa motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['indicator:socialbreadthdef'] = 'Gaitasun soziala hausnarketetan';
 $string['indicator:socialbreadthdef_help'] = 'Partaide honek Hausnarketa jarduerak eskaintzen duen gaitasun sozialaren ehuneko hau lortu du analisi-tarte honetan';
-$string['indicator:socialbreadth_help'] = 'Helburu hau ikasleak Hausnarketa motako jardueretan lortutako zabalera sozialean oinarrituta dago.';
 $string['introtext'] = 'Sarrera-testua';
 $string['invalidsurveyid'] = 'Hausnarketaren IDa ez zen egokia';
 $string['invalidtmptid'] = 'Txantiloiaren IDa ez da baliozkoa';
@@ -263,20 +263,20 @@ $string['seemoredetail'] = 'Egin klik hemen xehetasun gehiago ikusteko';
 $string['selectedquestions'] = 'Eskala batetik aukeratutako galderak, ikasle guztiak';
 $string['summary'] = 'Laburpena';
 $string['survey:addinstance'] = 'Gehitu hausnarketa berria';
-$string['surveycompleted'] = 'Hausnarketa hau osatu duzu. Beheko grafikoak zure erantzunen eta klasearen erantzunen batez bestekoen arteko konparaketa da.';
-$string['surveycompletednograph'] = 'Bete duzu hausnarketa hau';
 $string['survey:download'] = 'Erantzunak jaitsi';
-$string['surveygraph'] = 'Hausnarketaren grafikoa';
-$string['surveyname'] = 'Hausnarketaren izena';
 $string['survey:participate'] = 'Hausnarketari erantzun';
 $string['survey:readresponses'] = 'Ikusi erantzunak';
+$string['surveycompleted'] = 'Hausnarketa hau osatu duzu. Beheko grafikoak zure erantzunen eta klasearen erantzunen batez bestekoen arteko konparaketa da.';
+$string['surveycompletednograph'] = 'Bete duzu hausnarketa hau';
+$string['surveygraph'] = 'Hausnarketaren grafikoa';
+$string['surveyname'] = 'Hausnarketaren izena';
 $string['surveysaved'] = 'Hausnarketa gordeta';
 $string['surveytype'] = 'Hausnarketa mota';
-$string['surveytype_help'] = '3 hausnarketa mota daude eskuragarri:
+$string['surveytype_help'] = '3 inkesta mota daude eskuragarri:
 
-* Pentsatzeko eta Ikasteko Jarrerarako Inkesta (ATTS ingelesezko hitzetatik) - pertsona bat zein neurrira arte \'konektatutako ikaslea\' den (ikastea gustagarriago aurkitzen du, eta askotan lagunkoiagoa, atseginagoa eta besteekin ideiak eraikitzeko prestutasun handiagoa izaten du) edo \'ikasle bereizia\' den (ikastean kritikoagoa eta jarrera eztabaidatsuagoa izateko joera du) neurtzeko.
+* Pentsatzeko eta Ikasteko Jarrerarako Inkesta (ATTS inglesezko hitzetatik) - pertsona bat zein neurrira arte \'konektatutako ikaslea\' den (ikastea gustagarriago aurkitzen du, eta askotan lagunkoiagoa, atseginagoa eta besteekin ideiak eraikitzeko prestutasun handiagoa izaten du) edo \'ikasle bereizia\' den (ikastean kritikoagoa eta jarrera eztabaidatsuagoa izateko joera du) neurtzeko.
 * Gertakari kritikoetarako inkesta
-* On-line-ko Ikaste Ingurune Konstruktibistarako Inkesta (COLLES ingelesezko hitzetatik) - World Wide Web-eko gaitasun interaktiboa ikasteko praktika dinamikoetan ikasleen parte-hartzea areagotzeko esplotatzeko gaitasuna monitorizatzeko.';
+* On-line-ko Ikaste Ingurune Konstruktibistarako Inkesta (COLLES inglesezko hitzetatik) - World Wide Web-eko gaitasun interaktiboa ikasteko praktika dinamikoetan ikasleen parte-hartzea areagotzeko esplotatzeko gaitasuna monitorizatzeko.';
 $string['thanksforanswers'] = 'Eskerrik asko erantzuteagatik, {$a}';
 $string['time'] = 'Denbora';
 $string['viewsurveyresponses'] = 'Ikusi hausnarketaren {$a} erantzun';

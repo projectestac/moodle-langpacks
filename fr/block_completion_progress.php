@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completion_progress', language 'fr', branch 'MOODLE_38_STABLE'
+ * Strings for component 'block_completion_progress', language 'fr', version '3.8'.
  *
- * @package   block_completion_progress
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     block_completion_progress
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -73,11 +73,11 @@ $string['no_activities_config_message'] = 'Aucune activité/ressource n\'a de co
 $string['no_activities_message'] = 'Aucune activité ou ressource n\'est surveillée. Configurez le bloc pour mettre en place le suivi dans la barre de progression.';
 $string['no_blocks'] = 'Aucun bloc de progression n\'est défini dans vos cours.';
 $string['no_courses'] = 'Vous n\'êtes inscrit à aucun cours. Seules les barres de progression des cours dans lesquels vous êtes inscrit seront affichées.';
-$string['not_all_expected_set'] = 'Certaines activités n\'ont pas de date « {$a} » définie.';
+$string['no_visible_activities_message'] = 'Aucune des activités surveillées n\'est actuellement visible.';
 $string['notCompleted_colour'] = '#C71C22';
 $string['notCompleted_colour_descr'] = 'Code couleur utilisé pour les activités non terminées';
 $string['notCompleted_colour_title'] = 'Couleur des activités non terminées';
-$string['no_visible_activities_message'] = 'Aucune des activités surveillées n\'est actuellement visible.';
+$string['not_all_expected_set'] = 'Certaines activités n\'ont pas de date « {$a} » définie.';
 $string['now_indicator'] = 'MAINTENANT';
 $string['overview'] = 'Vue d\'ensemble des étudiants';
 $string['pluginname'] = 'Progression';

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hub', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'hub', language 'ar', version '3.8'.
  *
- * @package   hub
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     hub
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -29,22 +29,22 @@ $string['addscreenshots'] = '';
 $string['advertise'] = 'قم بمشاركة هذا المساق لينضم إليه الناس';
 $string['advertised'] = 'لينضم إليه الناس';
 $string['advertiseon'] = 'مشاركة هذا المساق في {$a}';
-$string['advertisepublication_help'] = 'سيتم إدراج هذا المساق في Moodle.net بمثابة مساق يمكن للناس الانضمام إليه والمشاركة فيه. ينبغي تمكين الانضمام الذاتي المبني على البريد الالكتروني في الموقع، كما ينبغي تمكين الانضمام الذاتي في هذا المساق.';
+$string['advertisepublication_help'] = 'الإعلان عن المواد الخاصة بك على الخادم الجماعي .. مركزاً يتيح للناس العثور على هذا المواد و يأتون إلى هنا للتسجيل.';
 $string['analyticsactions'] = 'عدد الإجراءات المتخذة بشأن التنبؤات المولدة ({$a})';
-$string['analyticsactionsnotuseful'] = 'عدد الإجراءات التي تشير إلى التنبؤ على أنه غير مفيد ({$a})';
+$string['analyticsactionsnotuseful'] = 'عدد الإجراءات التي تشير إلى التنبؤ على أنها غير مفيدة  ({$a})';
 $string['analyticsenabledmodels'] = 'عدد نماذج التنبؤ الممكنة ({$a})';
 $string['analyticspredictions'] = 'عدد التنبؤات التي تم إنشاؤها ({$a})';
 $string['audience'] = 'الجمهور';
+$string['audience_help'] = 'قم بتحديد المستهدفين من هذا المقرر.';
 $string['audienceadmins'] = 'المسؤولون عن مودل';
 $string['audienceeducators'] = 'المعلمون';
-$string['audience_help'] = 'قم بتحديد المستهدفين من هذا المقرر.';
 $string['audiencestudents'] = 'الطلاب';
 $string['badgesnumber'] = 'عدد الشارات ({$a})';
 $string['communityremoved'] = 'لقد تم إزالة رابط هذا المقرر الذراسي من قائمتك';
 $string['completeregistration'] = 'التسجيل الكامل مع Moodle.net';
 $string['confirmregistration'] = 'تأكيد التسجيل';
 $string['contributornames'] = 'المساهمين الآخرين';
-$string['contributornames_help'] = 'يمكنك استعمال هذا الحقل لسرد أسماء أيّ أشخاص آخرين ساهموا في هذا المساق.';
+$string['contributornames_help'] = 'يمكنك استخدام هذا الحقل لسرد أسماء لأيّ شخص آخر ساهم في هذا المقرر.';
 $string['coursename'] = 'الاسم';
 $string['coursepublished'] = 'تمت مشاركة هذا المساق بنجاح في \'{$a}\'.';
 $string['courseshortname'] = 'الاسم القصير';
@@ -63,9 +63,9 @@ $string['demourl'] = 'رابط تجريبي';
 $string['demourl_help'] = 'أدخل رابط تجريبي لمادتك، بشكل افتراضي هو رابط المادة .
 يتم عرض العنوان التجريبي كرابط في نتيجة البحث .';
 $string['description'] = 'الوصف';
-$string['description_help'] = 'سيتم عرض هذا النص الوصفي في قائمة المساقات لموقع Moodle.net.';
+$string['description_help'] = 'سيتم عرض نص الوصف هذا في قائمة الدورات التدريبية على Moodle.net.';
 $string['detectednotexistingpublication'] = '{$a->hubname} تسرد قائمة من المقررات لم يعد لها وجود. أشعر مسؤول المركز بضرورة إزالة المنشور برقم {$a->id}.';
-$string['downloadable'] = 'قابل للتنزيل';
+$string['downloadable'] = 'يمكن تحميله';
 $string['educationallevel'] = 'المستوى التعليمي';
 $string['educationallevel_help'] = 'حدد أنسب مستوى تعليمي ينسجم مع المقرر .';
 $string['edulevelassociation'] = 'الجمعية';
@@ -141,15 +141,14 @@ $string['registereduserdevices'] = 'عدد المستخدمين الحائزين
 $string['registersite'] = 'سَجِّل في {$a}';
 $string['registerwithmoodleorg'] = 'تسجيل موقعك';
 $string['registerwithmoodleorgcomplete'] = 'أكمل تسجيل موقعك';
-$string['registerwithmoodleorginfo'] = 'يسعدنا البقاء على اتصال وتزويدك بأشياء مهمة لموقع مودل الخاص بك! عن طريق التسجيل:
-
-* يمكنك الاشتراك لتلقي إشعارات عن إصدارات مودل الجديدة، تنبيهات الأمان، والأخبار الهامة الأخرى.
-* يمكنك الوصول إلى الإشعارات المدفعوعة إلى الجوالات وتنشيطها من موقع مودل الخاص بك ومن خلال تطبيق مودل المجاني.
-* أنت تساهم في إحصائيات مودل الخاصة بمجتمعه العلمي، مما يساعدنا في تحسينه وتحسين مواقع مجتمعنا.
-* إذا كنت ترغب في ذلك، يمكن إدراج موقعك في قائمة مواقع مودل المسجلة في بلدك.';
-$string['registerwithmoodleorginfoapp'] = 'حول تطبيق مودل';
+$string['registerwithmoodleorginfo'] = 'يسعدنا البقاء على اتصال و تزويدك بأشياء مهمة لموقع Moodle الخاص بك! عن طريق التسجيل:
+* يمكنك الاشتراك لتلقي إخطارات بإصدارات Moodle الجديدة و تنبيهات الأمان و الأخبار الهامة الأخرى.
+* يمكنك الوصول إلى إشعارات الدفع عبر الهاتف المحمول و تنشيطها من موقع Moodle الخاص بك من خلال تطبيق Moodle المجاني.
+* أنت تساهم في إحصائيات Moodle الخاصة بالمجتمع في جميع أنحاء العالم ، و التي تساعدنا في تحسين Moodle ومواقع مجتمعنا.
+* إذا كنت ترغب في ذلك ، يمكن إدراج موقعك في قائمة مواقع Moodle المسجلة في بلدك.';
+$string['registerwithmoodleorginfoapp'] = 'حول تطبيق Moodle';
 $string['registerwithmoodleorginfosites'] = 'مواقع أخرى في بلدي';
-$string['registerwithmoodleorginfostats'] = 'إحصائيات مودل';
+$string['registerwithmoodleorginfostats'] = 'إحصائيات Moodle';
 $string['registerwithmoodleorgremove'] = 'أنت تقوم بإلغاء تسجيل موقعك. في حالة المتابعة، لن تتمكن من الوصول إلى الإشعارات وتنبيهات الأمان الهامة.
 لن يتمكن مستخدموك من تلقي الإشعارات المدفعوعة من موقعك إلى تطبيق مودل للجوالات.
 هل أنت متأكد من أنك تريد إلغاء تسجيل موقعك؟';

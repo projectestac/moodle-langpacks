@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hub', language 'el', branch 'MOODLE_38_STABLE'
+ * Strings for component 'hub', language 'el', version '3.8'.
  *
- * @package   hub
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     hub
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -29,15 +29,15 @@ $string['addscreenshots'] = 'Προσθήκη στιγμιότυπων οθόν�
 $string['advertise'] = 'Μοιραστείτε αυτό το μάθημα για να συμμετάσχουν χρήστες';
 $string['advertised'] = 'Για να συμμετάσχουν χρήστες';
 $string['advertiseon'] = 'Μοιραστείτε αυτό το μάθημα με {$a}';
-$string['advertisepublication_help'] = 'Αυτό το μάθημα θα εμφανιστεί στο Moodle.net ως ένα μάθημα όπου άτομα μπορούν να εγγραφούν και να συμμετάσχουν. Η αυτο-καταχώρηση με χρήση ηλε.ταχυδρομείου θα πρέπει να είναι ενεργοποιημένη στον ιστότοπο και θα πρέπει επίσης να ενεργοποιήσετε την αυτο-καταχώρηση σε αυτό το μάθημα.';
+$string['advertisepublication_help'] = 'Αυτό το μάθημα θα εμφανιστεί στο Moodle.net ως ένα μάθημα όπου άτομα μπορούν να εγγραφούν και να συμμετάσχουν. Η αυτο-καταχώρηση με χρήση ηλε.ταχυδρομείου θα πρέπει να είναι ενεργοποιημένη στον ιστότοπο και θα πρέπει να ενεργοποιήσετε την αυτο-εγγραφή σε αυτό το μάθημα.';
 $string['analyticsactions'] = 'Αριθμός ενεργειών που πραγματοποιήθηκαν στις δημιουργηθείσες προβλέψεις ({$a})';
 $string['analyticsactionsnotuseful'] = 'Αριθμός ενεργειών που επισημαίνουν μια πρόβλεψη ως μη χρήσιμη ({$a})';
 $string['analyticsenabledmodels'] = 'Αριθμός ενεργοποιημένων προγνωστικών μοντέλων ({$a})';
 $string['analyticspredictions'] = 'Αριθμός προβλέψεων που δημιουργήθηκαν ({$a})';
 $string['audience'] = 'Ακροατήριο (Κοινό)';
+$string['audience_help'] = 'Επιλέξτε το επιθυμητό ακροατήριο για το μάθημα.';
 $string['audienceadmins'] = 'Διαχειριστές του Moodle';
 $string['audienceeducators'] = 'Εκπαιδευτές, Διδάσκοντες, κλπ.';
-$string['audience_help'] = 'Επιλέξτε το επιθυμητό ακροατήριο για το μάθημα.';
 $string['audiencestudents'] = 'Μαθητές, Φοιτητές, Σπουδαστές, Εκπαιδευόμενοι';
 $string['badgesnumber'] = 'Αριθμός διακριτικών ({$a})';
 $string['communityremoved'] = 'Εκείνος ο σύνδεσμος έχει απομακρυνθεί από τη λίστα σας';
@@ -58,7 +58,7 @@ $string['creatorname_help'] = 'Δημιουργός είναι ο δημιουρ
 $string['creatornotes'] = 'Σημειώσεις δημιουργού';
 $string['creatornotes_help'] = 'Οι σημειώσεις δημιουργού είναι ένας οδηγός για τους διδάσκοντες σχετικά με τον τρόπο χρήσης του μαθήματος.';
 $string['deletescreenshots'] = 'Διαγράψτε αυτά τα στιγμιότυπα οθόνης';
-$string['deletescreenshots_help'] = 'Διαγραφή όλων των ήδη ανεβασμένων στιγμιότυπων οθόνης.';
+$string['deletescreenshots_help'] = 'Διαγραφή όλων των ήδη ανεβασμένων στιγμιοτύπων οθόνης.';
 $string['demourl'] = 'Διεύθυνση URL επίδειξης';
 $string['demourl_help'] = 'Καταχωρήστε τη URL διεύθυνση επίδειξης του μαθήματος. Από προεπιλογή, είναι η διεύθυνση του μαθήματός σας. Η διεύθυνση επίδειξης εμφανίζεται ως σύνδεσμος σε ένα αποτέλεσμα αναζήτησης.';
 $string['description'] = 'Περιγραφή';
@@ -81,7 +81,7 @@ $string['errorbadimageheightwidth'] = 'Η εικόνα θα πρέπει να έ
 $string['errorcourseinfo'] = 'Παρουσιάστηκε σφάλμα κατά την ανάκτηση μεταδεδομένων μαθήματος από {$a}. Παρακαλούμε, δοκιμάστε ξανά να ανακτήσετε τα μεταδεδομένα του μαθήματος ξαναφορτώνοντας αυτή τη σελίδα αργότερα. Διαφορετικά, μπορείτε να αποφασίσετε να συνεχίσετε τη διαδικασία καταχώρησης με τα ακόλουθα προεπιλεγμένα μεταδεδομένα.';
 $string['errorcoursepublish'] = 'Παρουσιάστηκε σφάλμα κατά τη δημοσίευση του μαθήματος ({$a}). Παρακαλώ προσπαθήστε ξανά αργότερα.';
 $string['errorcoursewronglypublished'] = 'Ένα σφάλμα δημοσίευσης έχει επιστραφεί από το Moodle.net. Παρακαλώ προσπαθήστε ξανά αργότερα.';
-$string['errorotherhubsnotsupported'] = 'Αυτή η σελίδα δεν μπορεί πλέον να χρησιμοποιηθεί για καταχώρηση σε προσαρμοσμένους καταλόγους ιστοτόπων.';
+$string['errorotherhubsnotsupported'] = 'Αυτή η σελίδα δεν μπορεί πλέον να χρησιμοποιηθεί για εγγραφή σε άλλους ιστοτόπους εκτός του Moodle.net,,';
 $string['errorregistration'] = 'Παρουσιάστηκε σφάλμα κατά την καταχώρηση. Παρακαλούμε δοκιμάστε ξανά αργότερα. ({$a})';
 $string['errorregistrationupdate'] = 'Παρουσιάστηκε σφάλμα κατά την ενημέρωση καταχώρησης ({$a})';
 $string['errorunpublishcourses'] = 'Λόγω μη αναμενόμενου σφάλματος, τα μαθήματα δεν ήταν δυνατό να διαγραφούν από το Moodle.net. Δοκιμάστε ξανά αργότερα (συνιστάται) ή επικοινωνήστε με τον διαχειριστή του Moodle.net.';
@@ -118,7 +118,7 @@ $string['notregisteredonhub'] = 'Ο διαχειριστής του ιστοτό
 $string['operation'] = 'Ενέργειες';
 $string['participantnumberaverage'] = 'Μέσος όρος αριθμού συμμετεχόντων ({$a})';
 $string['policyagreed'] = 'Ειδοποίηση περί απορρήτου και συμφωνία επεξεργασίας δεδομένων';
-$string['policyagreeddesc'] = 'Συμφωνώ με την <a href="{$a}" target="_blank">Ειδοποίηση περί απορρήτου και συμφωνία για επεξεργασία δεδομένων</a>';
+$string['policyagreeddesc'] = 'Συμφωνώ με την <a href="{$a}" target="_blank"> ειδοποίηση περί απορρήτου και συμφωνία επεξεργασίας δεδομένων</a> για το Moodle.net,,';
 $string['postaladdress'] = 'Ταχυδρομική διεύθυνση';
 $string['postaladdress_help'] = 'Ταχυδρομική διεύθυνση αυτού του ιστοτόπου, ή της οντότητας που αντιπροσωπεύεται από αυτόν τον ιστότοπο.';
 $string['postsnumber'] = 'Αριθμός αναρτήσεων ({$a})';
@@ -173,7 +173,7 @@ $string['shared'] = 'Για να μπορεί να γίνει λήψη από χ
 $string['shareon'] = 'Ανεβάστε αυτό το μάθημα στο {$a}';
 $string['sharepublication_help'] = 'Ένα αντίγραφο αυτού του μαθήματος θα είναι διαθέσιμο στο Moodle.net για να επαναφερθεί και να χρησιμοποιηθεί από τους χρήστες στο δικό τους ιστότοπο.';
 $string['siteadmin'] = 'Διαχειριστής';
-$string['siteadmin_help'] = 'Το πλήρες όνομα του διαχειριστή του ιστοτόπου.';
+$string['siteadmin_help'] = 'Το πλήρες όνομα του διαχειριστή του ιστοτόπου';
 $string['sitecommnews'] = 'Ενημερωτικό δελτίο Moodle';
 $string['sitecommnews_help'] = 'Έχετε την επιλογή να εγγραφείτε στο ενημερωτικό δελτίο του Moodle. Μπορείτε να εγγραφείτε οποιαδήποτε στιγμή.';
 $string['sitecommnewsno'] = 'Όχι, δεν θέλω να λαμβάνω οποιαδήποτε μηνύματα ηλε.ταχυδρομείου';
@@ -224,7 +224,7 @@ $string['unpublishalluploadedcourses'] = 'Αφαιρέστε όλα τα μαθ�
 $string['unpublishconfirmation'] = 'Θέλετε πραγματικά να αφαιρεθεί το μάθημα «{$a->courseshortname}» από τον κεντρικό κόμβο «{$a->hubname}»;';
 $string['unpublishcourse'] = 'Διακοπή διαμοιρασμού {$a}';
 $string['unregister'] = 'Διαγραφή καταχώρησης';
-$string['unregisterexplained'] = 'Αν ο ιστότοπος με διεύθυνση URL {$a} έχει καταχωρηθεί, η καταχώρησή του θα καταργηθεί.';
+$string['unregisterexplained'] = 'Αν ο ιστότοπος με διεύθυνση URL {$a} έχει εγγραφεί στο Moodle.net, η εγγραφή του θα καταργηθεί.,,';
 $string['unregisterfrom'] = 'Διαγραφή καταχώρησης από {$a}';
 $string['unregistrationerror'] = 'Ένα σφάλμα παρουσιάστηκε κατά την προσπάθεια διαγραφής της καταχώρησης του ιστοτόπου: {$a}';
 $string['update'] = 'Ενημέρωση';

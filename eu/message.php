@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'eu', branch 'MOODLE_38_STABLE'
+ * Strings for component 'message', language 'eu', version '3.8'.
  *
- * @package   message
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     message
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -98,11 +98,11 @@ $string['info'] = 'Erabiltzailearen informazioa';
 $string['isnotinyourcontacts'] = '{$a} ez dago zure kontaktuetan';
 $string['loadmore'] = 'Kargatu gehiago';
 $string['loggedin'] = 'On-line';
-$string['loggedindescription'] = 'On-line nagoenean';
 $string['loggedin_help'] = 'Konfiguratu nola jaso nahi dituzun jakinarazpenak Moodlen on-line zaudenean';
+$string['loggedindescription'] = 'On-line nagoenean';
 $string['loggedoff'] = 'Lineaz kanpo';
-$string['loggedoffdescription'] = 'On-line ez nagoenean';
 $string['loggedoff_help'] = 'Konfiguratu nola jaso nahi dituzun jakinarazpenak Moodlen on-line ez zaudenean';
+$string['loggedoffdescription'] = 'On-line ez nagoenean';
 $string['managemessageoutputs'] = 'Lehenetsitako jakinarazpenak';
 $string['message'] = 'Mezua';
 $string['messagecontactrequestsnotification'] = '{$a} kontaktu gisa gehitua izatea eskatzen ari da.';
@@ -164,7 +164,6 @@ $string['participants'] = 'Partaideak';
 $string['pendingcontactrequests'] = 'Itxaron-zerrendan {$a} kontaktu-eskaera daude';
 $string['permitted'] = 'Baimendua';
 $string['privacy'] = 'Pribatutasuna';
-$string['privacy_desc'] = 'Mezuak nork bidal ahalko dizkizun zehaztu dezakezu';
 $string['privacy:export:conversationprefix'] = 'Elkarrizketa:';
 $string['privacy:metadata:core_favourites'] = 'Erabiltzaileak nabarmendutako elkarrizketak';
 $string['privacy:metadata:message_contact_requests'] = 'Kontaktu-eskarien zerrenda';
@@ -184,6 +183,15 @@ $string['privacy:metadata:message_conversation_members'] = 'Elkarrizketan dauden
 $string['privacy:metadata:message_conversation_members:conversationid'] = 'Elkarrizketaren IDa';
 $string['privacy:metadata:message_conversation_members:timecreated'] = 'Partaidea sortu zeneko unea';
 $string['privacy:metadata:message_conversation_members:userid'] = 'Elkarrizketan dagon erabiltzailearen IDa';
+$string['privacy:metadata:message_user_actions'] = 'Mezuetako erabiltzaile-ekintzen zerrenda';
+$string['privacy:metadata:message_user_actions:action'] = 'Egindako ekintza';
+$string['privacy:metadata:message_user_actions:messageid'] = 'Ekintza honi dagokion erabiltzailearen IDa';
+$string['privacy:metadata:message_user_actions:timecreated'] = 'Ekintza sortu zeneko unea';
+$string['privacy:metadata:message_user_actions:userid'] = 'Ekintza egin zuen erabiltzailearen IDa';
+$string['privacy:metadata:message_users_blocked'] = 'Blokeatutako erabiltzaileen zerrenda';
+$string['privacy:metadata:message_users_blocked:blockeduserid'] = 'Blokeatutako erabiltzailearen IDa';
+$string['privacy:metadata:message_users_blocked:timecreated'] = 'Blokeoa sortu zeneko ordua';
+$string['privacy:metadata:message_users_blocked:userid'] = 'Blokeoa egin zuen erabiltzailearen IDa';
 $string['privacy:metadata:messages'] = 'Mezuak';
 $string['privacy:metadata:messages:conversationid'] = 'Elkarrizketaren IDa';
 $string['privacy:metadata:messages:customdata'] = 'Datu pertsonalizatuak, normalean barruko IDak eta bidaltzailearen (erabiltzaile edo taldearen) irudiaren URL publikoa';
@@ -194,21 +202,12 @@ $string['privacy:metadata:messages:smallmessage'] = 'Mezuaren bertsio laburra';
 $string['privacy:metadata:messages:subject'] = 'Mezuaren gaia';
 $string['privacy:metadata:messages:timecreated'] = 'Mezua sortu zeneko unea';
 $string['privacy:metadata:messages:useridfrom'] = 'Mezua bidali zuen erabiltzailearen IDa';
-$string['privacy:metadata:message_user_actions'] = 'Mezuetako erabiltzaile-ekintzen zerrenda';
-$string['privacy:metadata:message_user_actions:action'] = 'Egindako ekintza';
-$string['privacy:metadata:message_user_actions:messageid'] = 'Ekintza honi dagokion erabiltzailearen IDa';
-$string['privacy:metadata:message_user_actions:timecreated'] = 'Ekintza sortu zeneko unea';
-$string['privacy:metadata:message_user_actions:userid'] = 'Ekintza egin zuen erabiltzailearen IDa';
-$string['privacy:metadata:message_users_blocked'] = 'Blokeatutako erabiltzaileen zerrenda';
-$string['privacy:metadata:message_users_blocked:blockeduserid'] = 'Blokeatutako erabiltzailearen IDa';
-$string['privacy:metadata:message_users_blocked:timecreated'] = 'Blokeoa sortu zeneko ordua';
-$string['privacy:metadata:message_users_blocked:userid'] = 'Blokeoa egin zuen erabiltzailearen IDa';
 $string['privacy:metadata:notifications'] = 'Jakinarazpenak';
 $string['privacy:metadata:notifications:component'] = 'Jakinarazpena bidaltzeaz arduratzen den osagaia';
 $string['privacy:metadata:notifications:contexturl'] = 'Jakinarazpen honekin lotutako URLa';
 $string['privacy:metadata:notifications:contexturlname'] = 'Testuinguruaren izena';
 $string['privacy:metadata:notifications:customdata'] = 'Datu pertsonalizatuak, normalean barruko IDak eta bidaltzailearen irudiaren URL publikoa (egotekotan)';
-$string['privacy:metadata:notifications:eventtype'] = 'Ekitaldi-mota';
+$string['privacy:metadata:notifications:eventtype'] = 'Ekitaldi mota';
 $string['privacy:metadata:notifications:fullmessage'] = 'Jakinarazpen osoa';
 $string['privacy:metadata:notifications:fullmessageformat'] = 'Jakinarapenaren formatua';
 $string['privacy:metadata:notifications:fullmessagehtml'] = 'Jakinarapenaren HTMLa';
@@ -220,6 +219,7 @@ $string['privacy:metadata:notifications:useridfrom'] = 'Jakinarapena bidali zuen
 $string['privacy:metadata:notifications:useridto'] = 'Jakinarapena jaso zuen erabiltzailearen IDa';
 $string['privacy:metadata:preference:core_message_settings'] = 'Mezularitzarekin lotutako ezarpenak';
 $string['privacy:request:preference:set'] = '\'{$a->name}\' ezarpenaren balioa \'{$a->value}\' da';
+$string['privacy_desc'] = 'Mezuak nork bidal ahalko dizkizun zehaztu dezakezu';
 $string['processorsettings'] = 'Prozesatzailearen ezarpenak';
 $string['removecontact'] = 'Ezabatu kontaktua';
 $string['removecontactconfirm'] = 'Ziur zaude {$a} kendu nahi duzula zure kontaktuetatik?';
@@ -274,7 +274,7 @@ $string['unreadnotifications'] = 'Irakurri gabeko {$a} jakinarazpen daude';
 $string['useentertosend'] = 'Erabili ENTER bidaltzeko';
 $string['usercantbemessaged'] = 'Ezin diozu {$a}-(r)i mezurik bidali bere mezularitza-hobespenak direla-eta. Saiatu zure kontaktuetara gehitzen.';
 $string['userisblockingyou'] = 'Erabiltzaile honek blokeatu egin zaitu eta ezin diozu mezurik bidali.';
-$string['userisblockingyounoncontact'] = '{$a}-k soilik bere kontaktu-zerrendan daudenen mezuak onartzen ditu.';
+$string['userisblockingyounoncontact'] = '{$a}-k bere kontaktu-zerrendan daudenen mezuak bakarrik onartzen ditu.';
 $string['userwouldliketocontactyou'] = '{$a}-(e)k zurekin jarri nahi du harremanetan';
 $string['viewfullnotification'] = 'Ikusi jakinarazpen osoa';
 $string['viewmessageswith'] = 'Ikusi mezuak honekin: {$a}';
@@ -283,5 +283,5 @@ $string['viewunreadmessageswith'] = 'Ikusi irakurri gabeko mezuak honekin: {$a}'
 $string['wouldliketocontactyou'] = 'Zurekin harremanetan jarri nahi luke';
 $string['writeamessage'] = 'Idatzi mezua...';
 $string['you'] = 'Zu:';
-$string['youhaveblockeduser'] = 'Iraganean erabiltzaile hau blokeatu duzu';
+$string['youhaveblockeduser'] = 'Erabiltzaile hau blokeatu duzu.';
 $string['yourcontactrequestpending'] = '{$a}-(r)en kontaktua izateko eskaria zain dago';

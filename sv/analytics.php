@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,23 +12,28 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'analytics', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'analytics', language 'sv', version '3.8'.
  *
- * @package   analytics
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     analytics
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['analysisinprogress'] = 'Analyseras fortfarande av en tidigare körning';
 $string['analytics'] = 'Analysfunktioner';
 $string['analyticsdisabled'] = 'Analysfunktionerna är inaktiverade. Du kan aktivera dem under ”Administration av webbplats > Avancerade inställningar”.';
 $string['analyticslogstore'] = 'Lagringsplats för log som används av analysfunktionerna';
 $string['analyticslogstore_help'] = 'Lagringsplatsen som kommer användas av analysfunktionens API för att läsa användaraktiviteter.';
 $string['analyticssettings'] = 'Inställningar för analysfunktionen';
+$string['analyticssiteinfo'] = 'Inställningar för webbplats';
+$string['disabledmodel'] = 'Inaktiverad modell';
+$string['errorexportmodelresult'] = 'Maskininlärningsmodellen kan inte exporteras';
 $string['errorimportmissingclasses'] = 'Dessa analyskomponenter är inte tillgängliga på denna webbplats: {$a->missingclasses}.';
 $string['errornoroles'] = 'Lärar- eller elevroller har inte definierats. Du kan definiera dessa på sidan för inställningar av analysfunktionen.';
 $string['fixedack'] = 'Acceptera';

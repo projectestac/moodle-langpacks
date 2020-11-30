@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'ru', branch 'MOODLE_38_STABLE'
+ * Strings for component 'chat', language 'ru', version '3.8'.
  *
- * @package   chat
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     chat
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -36,13 +36,13 @@ $string['chat:chat'] = 'Входить в чат';
 $string['chat:deletelog'] = 'Очищать журнал сообщений чата';
 $string['chat:exportparticipatedsession'] = 'Экспортировать сессии чатов, в которых пользователь принимал участие';
 $string['chat:exportsession'] = 'Экспортировать любые сессии чатов';
+$string['chat:readlog'] = 'Просматривать журнал сообщений чата';
+$string['chat:talk'] = 'Высказываться в чате';
+$string['chat:view'] = 'Просматривать элемент курса «Чат»';
 $string['chatintro'] = 'Вступление';
 $string['chatname'] = 'Название чата';
-$string['chat:readlog'] = 'Просматривать журнал сообщений чата';
 $string['chatreport'] = 'Сессии чата';
-$string['chat:talk'] = 'Высказываться в чате';
 $string['chattime'] = 'Следующее время чата';
-$string['chat:view'] = 'Просматривать элемент курса «Чат»';
 $string['compact'] = 'Компактный';
 $string['composemessage'] = 'Написать сообщение';
 $string['configmethod'] = 'В режиме чата AJAX используется интерфейс, который автоматически соединяется с сервером для обновления сообщений.
@@ -107,8 +107,8 @@ $string['modulename_help'] = 'Модуль «Чат» позволяет уча�
 $string['modulenameplural'] = 'Чаты';
 $string['neverdeletemessages'] = 'Никогда не удалять сообщения';
 $string['nextsession'] = 'Следующая запланированная сессия';
-$string['nochat'] = 'Нет ни одного чата';
 $string['no_complete_sessions_found'] = 'Сессии не найдены.';
+$string['nochat'] = 'Нет ни одного чата';
 $string['noguests'] = 'Данный чат недоступен для гостей';
 $string['nomessages'] = 'Нет ни одного сообщения';
 $string['nopermissiontoseethechatlog'] = 'У Вас нет прав для просмотра истории чата.';

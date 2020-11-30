@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'de', branch 'MOODLE_38_STABLE'
+ * Strings for component 'lesson', language 'de', version '3.8'.
  *
- * @package   lesson
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     lesson
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -40,7 +40,7 @@ $string['activitylinkname'] = 'Zu \'{$a}\' gehen';
 $string['activityoverview'] = 'Eine oder mehrere Lektionen sind fällig';
 $string['addabranchtable'] = 'Inhaltsseite einfügen';
 $string['addanendofbranch'] = 'Verzweigungsende einfügen';
-$string['addanewpage'] = 'Neue Seite einfügen';
+$string['addanewpage'] = 'Weitere Seite einfügen';
 $string['addaquestionpage'] = 'Frageseite einfügen';
 $string['addaquestionpagehere'] = 'Frageseite hier einfügen';
 $string['addbranchtable'] = 'Inhaltsseite einfügen';
@@ -128,7 +128,7 @@ $string['completiontimespentdesc'] = 'Teilnehmer muss diese Aktivität für mind
 $string['completiontimespentgroup'] = 'Geforderte Zeit erbracht';
 $string['conditionsfordependency'] = 'Bedingungen für Abhängigkeit';
 $string['configintro'] = 'Die hier festgelegten Werte werden als Vorgaben beim Anlegen einer neuen Lektion verwendet. Einstellungen, die als erweitert bezeichnet sind, sind nur dann sichtbar, wenn der Link \'Mehr anzeigen ...\' angeklickt wird.';
-$string['configmaxanswers'] = 'Maximale Anzahl von Antworten pro Seite';
+$string['configmaxanswers'] = 'Maximalzahl von Antworten pro Seite';
 $string['configmediaclose'] = 'Taste \'Schließen\' im Popup-Fenster für eine verlinkte Mediendatei anzeigen';
 $string['configmediaheight'] = 'Höhe des Popup-Fensters für eine verlinkte Mediendatei';
 $string['configmediawidth'] = 'Breite des Popup-Fensters für eine verlinkte Mediendatei';
@@ -276,13 +276,13 @@ $string['importquestions'] = 'Fragen importieren';
 $string['importquestions_help'] = 'Diese Option ermöglicht den Import von Fragen in unterschiedlichen Formaten über eine Textdatei.';
 $string['inactiveoverridehelp'] = '* Diese Nutzeränderung ist inaktiv, da der Zugriff des Benutzers auf die Aktivität eingeschränkt ist. Dies kann durch Gruppen- oder Rollenzuordnungen, andere Zugriffsbeschränkungen oder durch das Verbergen der Aktivität bedingt sein.';
 $string['indicator:cognitivedepth'] = 'Lektion kognitiv';
+$string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die ein/e Teilnehmer/in in einer Lektionsaktivität erreicht hat.';
 $string['indicator:cognitivedepthdef'] = 'Lektion kognitiv';
 $string['indicator:cognitivedepthdef_help'] = 'Die Person hat diesen Prozentsatz des kognitiven Engagements erreicht, das die Lektionsaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Ansicht, Ansicht, Beiträge, Feedback anzeigen, Feedback kommentieren, Beiträge nach Feedback überarbeiten).';
-$string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die ein/e Teilnehmer/in in einer Lektionsaktivität erreicht hat.';
 $string['indicator:socialbreadth'] = 'Lektion sozial';
+$string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer Lektionsaktivität erreicht hat.';
 $string['indicator:socialbreadthdef'] = 'Lektion sozial';
 $string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die Lektionsaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein, Teilnahme mit anderen).';
-$string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozialen Breite, die eine Person in einer Lektionsaktivität erreicht hat.';
 $string['insertedpage'] = 'Seite eingefügt';
 $string['invalidfile'] = 'Ungültige Datei';
 $string['invalidid'] = 'Keine Kursmodul-ID oder Lektions-ID angegeben';
@@ -297,16 +297,18 @@ $string['leftduringtimed'] = 'Sie haben die Lektion abgebrochen. Die Bearbeitung
 $string['leftduringtimednoretake'] = 'Sie haben die Lektion abgebrochen. Die Bearbeitung der Lektion ist zeitlich begrenzt. <br />Sie können diese Lektion nicht mehr bearbeiten.';
 $string['leftduringtimedsession'] = 'Sie haben eine zeitbegrenzte Lektion abgebrochen.';
 $string['lesson:addinstance'] = 'Neue Lektion hinzufügen';
-$string['lessonclosed'] = 'Die Lektion war verfügbar bis {$a}';
-$string['lessoncloses'] = 'Verfügbarkeit der Lektion endet';
-$string['lessoncloseson'] = 'Verfügbarkeit der Lektion endet: {$a}';
 $string['lesson:edit'] = 'Lektion bearbeiten';
-$string['lessoneventcloses'] = '{$a} endet';
-$string['lessoneventopens'] = '{$a} beginnt';
-$string['lessonformating'] = 'Lektion wird formatiert';
 $string['lesson:grade'] = 'Freitextfragen in Lektionen bewerten';
 $string['lesson:manage'] = 'Lektion verwalten';
 $string['lesson:manageoverrides'] = 'Lektionsüberschreibungen verwalten';
+$string['lesson:view'] = 'Lektionsaktivität anzeigen';
+$string['lesson:viewreports'] = 'Lektionsbericht anzeigen';
+$string['lessonclosed'] = 'Die Lektion war verfügbar bis {$a}';
+$string['lessoncloses'] = 'Verfügbarkeit der Lektion endet';
+$string['lessoncloseson'] = 'Verfügbarkeit der Lektion endet: {$a}';
+$string['lessoneventcloses'] = '{$a} endet';
+$string['lessoneventopens'] = '{$a} beginnt';
+$string['lessonformating'] = 'Lektion wird formatiert';
 $string['lessonmenu'] = 'Inhaltsverzeichnis';
 $string['lessonname'] = 'Lektion: {$a}';
 $string['lessonnotready'] = 'Diese Lektion ist noch nicht verfügbar. Nehmen Sie bitte mit {$a} Kontakt auf.';
@@ -315,8 +317,6 @@ $string['lessonopen'] = 'Diese Lektion ist ab {$a} verfügbar.';
 $string['lessonopens'] = 'Lektion verfügbar';
 $string['lessonpagelinkingbroken'] = 'Die erste Seite wurde nicht gefunden. Die Verlinkung der Seite weist einen Fehler auf. Sprechen Sie die Administrator/innen an.';
 $string['lessonstats'] = 'Statistik';
-$string['lesson:view'] = 'Lektionsaktivität anzeigen';
-$string['lesson:viewreports'] = 'Lektionsbericht anzeigen';
 $string['linkedmedia'] = 'Verlinkte Medien';
 $string['loginfail'] = 'Der Login ist gescheitert. Bitte versuchen Sie es noch einmal.';
 $string['lowscore'] = 'Schlechteste Bewertung';
@@ -390,7 +390,7 @@ $string['nooverridedata'] = 'Sie müssen mindestens eine Lektionseinstellung au�
 $string['noretake'] = 'Sie können diese Lektion nicht wiederholen.';
 $string['normal'] = 'Dem Pfad der Lektion folgen';
 $string['notcompleted'] = 'Nicht beendet';
-$string['notcompletedwithdate'] = 'Nicht abgeschossen ({$a})';
+$string['notcompletedwithdate'] = 'Nicht abgeschlossen ({$a})';
 $string['notdefined'] = 'Nicht definiert';
 $string['notenoughsubquestions'] = 'Es wurden noch nicht genügend Unterfragen definiert! <br />Möchten Sie zurückgehen und diese Frage korrigieren?';
 $string['notenoughtimespent'] = 'Sie haben diese Lektion erledigt in {$a->timespent}, also weniger als die gefordert Zeit {$a->timerequired}. Möglicherweise müssen Sie die Lektion erneut versuchen.';
@@ -412,8 +412,8 @@ $string['numericanswer'] = 'Numerische Antwort';
 $string['numericanswer_help'] = 'Sie können eine Zahl oder einen Zahlenbereich mit einem Doppelpunkt angeben. Beispielsweise bedeutet 2:5, dass jede Antwort zwischen 2 und 5 einschließlich dieser richtig ist.';
 $string['offlinedatamessage'] = 'Sie haben an diesem Versuch mit einem mobilen Gerät gearbeitet. Die Daten wurden gespeichert, und zwar auf der Website zuletzt vor {$a}. Prüfen Sie, dass Sie keine ungespeicherten Arbeiten mehr auf dem mobilen Gerät haben.';
 $string['ongoing'] = 'Aktuelle Bewertung anzeigen';
-$string['ongoingcustom'] = 'Gesamtpunktzahl: {$a->score} / {$a->currenthigh}';
 $string['ongoing_help'] = 'Wenn diese Option aktiviert ist, wird den Teilnehmer/innen auf jeder Seite ihre aktuelle Bewertung zusammen mit der maximal erreichbaren Bewertung angezeigt.';
+$string['ongoingcustom'] = 'Gesamtpunktzahl: {$a->score} / {$a->currenthigh}';
 $string['ongoingnormal'] = 'Richtige Antworten: {$a->correct} / {$a->viewed}';
 $string['onpostperpage'] = 'Nur eine Mitteilung pro Bewertung';
 $string['openafterclose'] = 'Sie haben ein offenes Datum nach dem Abschlussdatum angegeben.';
@@ -437,11 +437,11 @@ Eine Seite stellt den Lerninhalt bereit und endet normalerweise mit einer Frage.
 
 Eine Inhaltsseite enthält eine ganze Reihe von Links zu anderen Seiten der Lektion, wie beispielsweise ein Inhaltsverzeichnis.';
 $string['page'] = 'Seite: {$a}';
-$string['pageanswers'] = 'Seitenantworten';
-$string['pagecontents'] = 'Seiteninhalt';
 $string['page-mod-lesson-edit'] = 'Lektionsbearbeitungsseite';
 $string['page-mod-lesson-view'] = 'Lektionsansichtsseite';
 $string['page-mod-lesson-x'] = 'Jede Lektionsseite';
+$string['pageanswers'] = 'Seitenantworten';
+$string['pagecontents'] = 'Seiteninhalt';
 $string['pageresponses'] = 'Seitenantworten';
 $string['pages'] = 'Seiten';
 $string['pagetitle'] = 'Seitentitel';
@@ -553,9 +553,9 @@ $string['showanunseenpage'] = 'Noch nicht angezeigte Seite anzeigen';
 $string['singleanswer'] = 'Einzelne Antwort';
 $string['skip'] = 'Keine Navigation';
 $string['slideshow'] = 'Slideshow';
+$string['slideshow_help'] = 'Wenn diese Option aktiviert ist, wird die Lektion als Diashow mit einer festgelegten Breite und Höhe gezeigt.';
 $string['slideshowbgcolor'] = 'Hintergrundfarbe für Slideshow';
 $string['slideshowheight'] = 'Höhe für Slideshow';
-$string['slideshow_help'] = 'Wenn diese Option aktiviert ist, wird die Lektion als Diashow mit einer festgelegten Breite und Höhe gezeigt.';
 $string['slideshowwidth'] = 'Breite für Slideshow';
 $string['startlesson'] = 'Lektion bearbeiten';
 $string['studentattemptlesson'] = '{$a->lastname}, {$a->firstname}: Versuch Nr. {$a->attempt}';

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'search', language 'sv', version '3.8'.
  *
- * @package   search
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     search
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -49,7 +49,7 @@ $string['documentsindatabase'] = 'Dokument i databasen';
 $string['documentsinindex'] = 'Dokument i index';
 $string['duration'] = 'Varaktighet';
 $string['emptydatabaseerror'] = 'Det finns ingen databastabell eller så innehåller den inga poster för index.';
-$string['enteryoursearchquery'] = 'Skriv in Din sökfråga';
+$string['enteryoursearchquery'] = 'Skriv in din sökfråga';
 $string['errors'] = 'Fel';
 $string['filesinindexdirectory'] = 'Filer i indexkatalogen';
 $string['globalsearchdisabled'] = 'Global sökning är inte aktiverat';
@@ -59,12 +59,15 @@ $string['next'] = 'Nästa';
 $string['noindexmessage'] = 'Admin: Det förefaller inte att finnas någo t sökindex. Var snäll och';
 $string['normalsearch'] = 'Normal sökning';
 $string['openedon'] = 'öppnad den';
+$string['progress'] = 'Förlopp';
 $string['resultsreturnedfor'] = 'resultat som har returnerats för';
 $string['runindexer'] = 'Kör indexeraren (real)';
 $string['runindexertest'] = 'Kör test av indexeraren';
 $string['score'] = 'Resultat';
 $string['search'] = 'Sök';
 $string['search:customfield'] = 'Anpassade kursfält';
+$string['search:message_received'] = 'Meddelanden - mottagna';
+$string['search:message_sent'] = 'Meddelanden - skickade';
 $string['searching'] = 'Söker i...';
 $string['searchnotpermitted'] = 'Du är inte tillåten att göra en sökning';
 $string['seconds'] = 'sekunder';
@@ -75,7 +78,7 @@ $string['thesewordsmustappear'] = 'De här orden måste visa sig';
 $string['thesewordsmustnotappear'] = 'De här orden får inte visa sig';
 $string['title'] = 'Titel';
 $string['tofetchtheseresults'] = 'för att hämta dessa resultat';
-$string['totalsize'] = 'Samlad storlek';
+$string['totalsize'] = 'Totalstorlek';
 $string['type'] = 'Typ';
 $string['uncompleteindexingerror'] = 'Indexeringen avslutades inte fullständigt, var snäll och starta om den.';
 $string['versiontoolow'] = 'Global sökning kräver tyvärr PHP 5.0.0+ (använder f.n. version)';

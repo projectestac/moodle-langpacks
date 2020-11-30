@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,19 +12,20 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_textarea', language 'de', branch 'MOODLE_38_STABLE'
+ * Strings for component 'profilefield_textarea', language 'de', version '3.8'.
  *
- * @package   profilefield_textarea
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     profilefield_textarea
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Textbereich';
+$string['pluginname'] = 'Textbereicj';
 $string['privacy:metadata:profile_field_textarea:data'] = 'Gespeicherte Nutzerdaten im Textfeld des Nutzerprofils';
 $string['privacy:metadata:profile_field_textarea:dataformat'] = 'Format der gespeicherten Nutzerdaten';
 $string['privacy:metadata:profile_field_textarea:fieldid'] = 'ID des Profilfeldes';

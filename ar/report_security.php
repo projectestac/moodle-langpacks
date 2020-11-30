@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'report_security', language 'ar', version '3.8'.
  *
- * @package   report_security
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     report_security
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -98,10 +98,10 @@ $string['check_riskadmin_name'] = 'المشرفون';
 $string['check_riskadmin_ok'] = 'تم العثور على {$a} مشرف/مشرفين للمخدم.';
 $string['check_riskadmin_unassign'] = '<a href="{$a->url}">{$a->fullname} ({$a->email}) تعيين بدور المراجعة</a>';
 $string['check_riskadmin_warning'] = 'تم العثور على {$a->admincount} مشرف/مشرفين للمخدم مع {$a->unsupcount} تعيينات غير مدعومة لدور المشرف.';
-$string['check_riskbackup_detailsok'] = 'لا توجد أدوار تسمح صراحة بالحفظ الاحتياطي لبيانات المستخدمين. مع ذلك، لاحظ أن المشرفين الذين لهم إمكانية "doanything" يبقى مرجحاً قدرتهم على القيام بذلك.';
 $string['check_riskbackup_details_overriddenroles'] = '<p>تجاوزات النشاط هذه تعطي المستخدمين إمكانية تضمين بيانات المستخدمين في الحفظ الاحتياطي. لطفاً، تأكد من أن هذه الصلاحية ضرورية.</p> {$a}';
 $string['check_riskbackup_details_systemroles'] = '<p>تسمح أدوار النظام الآتية بتضمين بيانات المستخدمين في الحفظ الاحتياطي. لطفاً، تأكد من أن هذه الصلاحية ضرورية.</p> {$a}';
 $string['check_riskbackup_details_users'] = '<p>بسبب الأدوار أعلاه أو التجاوزات المحلية، يمتلك أصحاب الحسابات الآتية صلاحية إجراء الحفظ الاحتياطي المتضمن لبيانات المستخدمين الشخصية ولأي من المنضمين إلى مساقاتهم. تأكد من كونهم أهل للثقة وأن حساباتهم محمية بكلمات مرور قوية:</p> {$a}';
+$string['check_riskbackup_detailsok'] = 'لا توجد أدوار تسمح صراحة بالحفظ الاحتياطي لبيانات المستخدمين. مع ذلك، لاحظ أن المشرفين الذين لهم إمكانية "doanything" يبقى مرجحاً قدرتهم على القيام بذلك.';
 $string['check_riskbackup_editoverride'] = '<a href="{$a->url}">{$a->name} في {$a->contextname}</a>';
 $string['check_riskbackup_editrole'] = '<a href="{$a->url}">{$a->name}</a>';
 $string['check_riskbackup_name'] = 'الحفظ الاحتياطي لبيانات المستخدم';

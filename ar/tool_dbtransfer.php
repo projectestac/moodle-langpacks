@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dbtransfer', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'tool_dbtransfer', language 'ar', version '3.8'.
  *
- * @package   tool_dbtransfer
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     tool_dbtransfer
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -39,10 +39,11 @@ $string['exportdata'] = 'تصدير البيانات';
 $string['notargetconectexception'] = 'لا يمكن الاتصال بقاعدة البيانات المقصودة، عذراً.';
 $string['options'] = 'الخيارات';
 $string['pluginname'] = 'نقل قاعدة البيانات';
-$string['privacy:metadata'] = 'إن ملحق نقل قاعدة البيانات لا يخزن أي بيانات شخصية.';
-$string['targetdatabase'] = 'قاعدة البيانات المقصودة';
+$string['privacy:metadata'] = 'البرنامج المساعد  Database transfer لا يخزن أيّ بيانات شخصية.';
+$string['targetdatabase'] = 'قاعدة البيانات الهدف';
 $string['targetdatabasenotempty'] = 'يجب أن تكون قاعدة البيانات الهدف لا تحتوي على أيّ جداول مع إعطاء البادئة !';
 $string['transferdata'] = 'نقل البيانات';
-$string['transferdbintro'] = 'سيقوم هذا النص البرمجي بنقل كامل محتويات قاعدة البيانات هذه إلى مخدم قواعد بيانات آخر. غالباً ما يتم استعماله لترحيل البيانات إلى نوع مختلف من قواعد البيانات.';
-$string['transferdbtoserver'] = 'أنقل قاعدة بيانات مودل هذه إلى مخدم آخر';
-$string['transferringdbto'] = 'يجري نقل قاعدة البيانات هذه {$a->dbtypefrom} إلى قاعدة بيانات {$a->dbtype} اسمها "{$a->dbname}" في "{$a->dbhost}"';
+$string['transferdbintro'] = 'هذا البرنامج النصي سوف ينقل محتويات قاعدة البيانات هذه إلى خادم قاعدة بيانات أخرى.
+و غالبا ما يستخدم لنقل البيانات لمختلف أنواع قواعد البيانات.';
+$string['transferdbtoserver'] = 'انقل قاعدة بيانات مودل هذه إلى خادم آخر';
+$string['transferringdbto'] = 'جاري نقل قاعدة البيانات هذه إلى قاعدة بيانات {$a->dbtype} {$a->dbname} على {$a->dbhost}';

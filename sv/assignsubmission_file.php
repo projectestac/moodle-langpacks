@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_file', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'assignsubmission_file', language 'sv', version '3.8'.
  *
- * @package   assignsubmission_file
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     assignsubmission_file
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -30,16 +30,16 @@ $string['acceptedfiletypes_help'] = 'Du kan begränsa vilja filtyper som kan lä
 $string['configmaxbytes'] = 'Maximal filstorlek';
 $string['countfiles'] = '{$a} filer';
 $string['default'] = 'Aktiverad som förval';
-$string['defaultacceptedfiletypes'] = 'Filtyper som accepteras som standard.';
 $string['default_help'] = 'Om valt kommer denna inlämningsmetod vara aktiverad som förval för alla nya uppgifter.';
+$string['defaultacceptedfiletypes'] = 'Filtyper som accepteras som standard.';
 $string['enabled'] = 'Filinlämningar';
 $string['enabled_help'] = 'Om aktiverad, kan studenter ladda upp en eller flera filer som sin inlämningsuppgift';
 $string['eventassessableuploaded'] = 'En fil har laddats upp.';
-$string['file'] = 'Filinlämningar';
+$string['file'] = 'Fil inlämningar';
 $string['maxbytes'] = 'Maximal filstorlek';
 $string['maxfiles'] = 'Maxantal filer per inlämning';
 $string['maxfilessubmission'] = 'Maximalt antal uppladdade filer';
-$string['maxfilessubmission_help'] = 'Om uppladdning av filer är aktiverad, kommer varje student att kunna ladda upp till definierad antal filer för inlämnande';
+$string['maxfilessubmission_help'] = 'Om uppladdning av filer är aktiverad, kommer varje student att kunna ladda upp till definierat antal filer för inlämnande';
 $string['maximumsubmissionsize'] = 'Maximal inlämningsstorlek';
 $string['maximumsubmissionsize_help'] = 'Filer som laddas upp av studenter kan vara upp till denna storlek';
 $string['numfilesforlog'] = 'Antalet fil (er): {$a} fil (er).';

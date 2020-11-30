@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_essay', language 'ru', branch 'MOODLE_38_STABLE'
+ * Strings for component 'qtype_essay', language 'ru', version '3.8'.
  *
- * @package   qtype_essay
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     qtype_essay
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -42,9 +42,9 @@ $string['mustrequire'] = 'Когда выбрано "Нет встроенног
 $string['mustrequirefewer'] = 'Вы не можете требовать больше вложений, чем разрешили.';
 $string['nlines'] = '{$a} строк';
 $string['pluginname'] = 'Эссе';
+$string['pluginname_help'] = 'В качестве ответа на вопрос студент может загрузить один или несколько файлов и/или ввести текст. Может быть предоставлен шаблон ответа. Ответы должны оцениваться вручную.';
 $string['pluginnameadding'] = 'Добавление вопроса «Эссе»';
 $string['pluginnameediting'] = 'Редактирование вопроса «Эссе»';
-$string['pluginname_help'] = 'В качестве ответа на вопрос студент может загрузить один или несколько файлов и/или ввести текст. Может быть предоставлен шаблон ответа. Ответы должны оцениваться вручную.';
 $string['pluginnamesummary'] = 'Допускает в ответе загрузить файл и/или ввести текст. Ответ должен быть оценен преподавателем вручную.';
 $string['privacy:metadata'] = 'Плагин «Тип вопроса Эссе» не хранит никаких персональных данных.';
 $string['responsefieldlines'] = 'Размер поля';
@@ -54,5 +54,5 @@ $string['responsenotrequired'] = 'Ввод текста не обязателе�
 $string['responseoptions'] = 'Опции отзыва';
 $string['responserequired'] = 'Требовать текст';
 $string['responsetemplate'] = 'Шаблон ответа';
-$string['responsetemplateheader'] = 'Шаблон отзыва';
 $string['responsetemplate_help'] = 'Любой написанный здесь текст будет введен в поле ответа при начале новой попытки.';
+$string['responsetemplateheader'] = 'Шаблон отзыва';

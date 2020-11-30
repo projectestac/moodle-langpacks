@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'ca', branch 'MOODLE_38_STABLE'
+ * Strings for component 'badges', language 'ca', version '3.8'.
  *
- * @package   badges
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     badges
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -87,11 +87,11 @@ L\'únic URL necessari per la verificació és [URL-del-lloc]/badges/assertion.p
 $string['backpackbadges'] = 'Es mostren {$a->totalbadges} insígnia(es) de {$a->totalcollections} col·lecció(ons). <a href="mybackpack.php">Canvia la configuració de la motxilla</a>.';
 $string['backpackcannotsendverification'] = 'No es pot enviar un correu de verificació';
 $string['backpackconnection'] = 'Connexió a la motxilla';
-$string['backpackconnectioncancelattempt'] = 'Connecta utilitzant una adreça de correu diferent';
-$string['backpackconnectionconnect'] = 'Connecta a la motxilla';
 $string['backpackconnection_help'] = 'Aquesta pàgina us permet configurar la connexió a un proveïdor extern de motxilles. Si us hi connecteu, podreu mostrar insígnies externes en aquest lloc i pujar a la motxilla les insígnies que guanyeu aquí.
 
 Actualment només s\'admet per a la motxilla de Mozilla la <a href="http://backpack.openbadges.org">Mozilla OpenBadges Backpack</a>. Cal que us  registreu en aquest servei de motxilles abans de provar d\'establir la connexió des d\'aquesta pàgina.';
+$string['backpackconnectioncancelattempt'] = 'Connecta utilitzant una adreça de correu diferent';
+$string['backpackconnectionconnect'] = 'Connecta a la motxilla';
 $string['backpackconnectionresendemail'] = 'Torna a enviar el correu de verificació';
 $string['backpackconnectionunexpectedresult'] = 'Hi ha hagut un problema en connectar amb la vostra motxilla. Torneu a intentar-ho. <br><br>Si el problema persisteix, contacteu amb el vostre administrador.';
 $string['backpackdetails'] = 'Configuració de la motxilla';
@@ -188,8 +188,6 @@ $string['criteria_6'] = 'Compleció del perfil';
 $string['criteria_6_help'] = 'Permet concedir una insígnia als usuaris que hagin completat determinats camps en el seu perfil. Podeu triar entre els camps de perfil personalitzats que estan disponibles per als usuaris per defecte.';
 $string['criteria_7'] = 'Insígnies guanyades';
 $string['criteria_8'] = 'Membres de la cohort';
-$string['criteriacreated'] = 'Els criteris de la insígnia s\'han creat amb èxit.';
-$string['criteriadeleted'] = 'Els criteris de la insígnia s\'han esborrat amb èxit.';
 $string['criteria_descr'] = 'Els usuaris guanyaran aquesta insígnia quan completin el següent requisit:';
 $string['criteria_descr_0'] = 'Els usuaris guanyaran aquesta insígnia quan completin <strong>{$a}</strong>  de la llista de requisits.';
 $string['criteria_descr_1'] = 'S\'han completat <strong>{$a}</strong> de les següents activitats:';
@@ -216,6 +214,8 @@ $string['criteria_descr_single_short4'] = 'Completeu el curs';
 $string['criteria_descr_single_short5'] = 'Completeu:';
 $string['criteria_descr_single_short6'] = 'Completeu:';
 $string['criteria_descr_single_short7'] = 'Acabat:';
+$string['criteriacreated'] = 'Els criteris de la insígnia s\'han creat amb èxit.';
+$string['criteriadeleted'] = 'Els criteris de la insígnia s\'han esborrat amb èxit.';
 $string['criteriasummary'] = 'Resum de criteris';
 $string['criteriaupdated'] = 'Els criteris de la insígnia s\'han actualitzat amb èxit.';
 $string['criterror'] = 'Paràmetres de les característiques actuals';
@@ -313,6 +313,7 @@ $string['externalbadges_help'] = 'Aquesta àrea mostra insígnies de la vostra m
 $string['externalbadgesp'] = 'Insígnies d\'altres llocs web:';
 $string['externalconnectto'] = 'Per mostrar les insígnies externes necessiteu <a href="{$a}">connectar-vos a una motxilla</a>.';
 $string['fixed'] = 'Data fixa';
+$string['hidden'] = 'Oculta';
 $string['hiddenbadge'] = 'Malauradament, el propietari de la insígnia no ha fet disponible aquesta informació.';
 $string['imageauthoremail'] = 'Correu de l\'autor de la imatge';
 $string['imageauthorname'] = 'Nom de l\'autor de la imatge';
@@ -338,8 +339,8 @@ $string['makeprivate'] = 'Fes privada';
 $string['makepublic'] = 'Fes pública';
 $string['managebadges'] = 'Gestiona les insígnies';
 $string['message'] = 'Cos del missatge';
-$string['messagebody'] = '<p>Heu guanyat una insígnia "%badgename%"!</p>
-<p>Podeu trobar més informació sobre aquesta insígnia a la pàgina %badgelink%.</p>
+$string['messagebody'] = '<p>Heu guanyat una insígnia "%badgename%"! </p>
+<p>Podeu trobar més informació sobre aquesta insígnia a la pàgina %badgelink%. </p>
 <p>Podeu gestionar i descarregar la insígnia des de la vostra pàgina {$a}.</p>';
 $string['messagesubject'] = 'Enhorabona! Heu guanyat una insígnia!';
 $string['method'] = 'Aquest criteri es completa quan...';

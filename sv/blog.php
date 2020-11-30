@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'blog', language 'sv', version '3.8'.
  *
- * @package   blog
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     blog
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -42,9 +42,9 @@ $string['blogaboutthis'] = 'Blogga om det här {$a->type}';
 $string['blogaboutthiscourse'] = 'Lägg till ett inlägg om den här kursen';
 $string['blogaboutthismodule'] = 'Lägg till ett inlägg om det här  {$a}';
 $string['blogadministration'] = 'Administration av blogg';
-$string['blogdeleteconfirm'] = 'Ta bort den här bloggen?';
+$string['blogdeleteconfirm'] = 'Ta bort det här blogginlägget?';
 $string['blogdisable'] = 'Bloggande är avaktiverat';
-$string['blogentries'] = 'Inlägg i blogg/ar';
+$string['blogentries'] = 'Blogginlägg';
 $string['blogentriesabout'] = 'Inlägg i blogg/ar om {$a}';
 $string['blogentriesbygroupaboutcourse'] = 'Inlägg i blogg/ar om {$a->course} av {$a->group}';
 $string['blogentriesbygroupaboutmodule'] = 'Blogginlägg om {$a->mod} av {$a->group}';
@@ -54,8 +54,8 @@ $string['blogentrybyuser'] = 'Inlägg i blogg av {$a}';
 $string['blogpreferences'] = 'Blogginställningar';
 $string['blogs'] = 'Bloggar';
 $string['blogscourse'] = 'Kursbloggar';
-$string['blogssite'] = 'Site bloggar';
-$string['blogtags'] = 'Bloggetiketter';
+$string['blogssite'] = 'Webbplatsens bloggar';
+$string['blogtags'] = 'Blogg-taggar';
 $string['cannotviewcourseblog'] = 'Du har inte behörighet att visa bloggar i denna kurs';
 $string['cannotviewcourseorgroupblog'] = 'Du har inte behörighet att visa bloggar i denna kurs/grupp';
 $string['cannotviewsiteblog'] = 'Du har inte behörighet att visa alla site-bloggar';
@@ -70,7 +70,7 @@ $string['courseblogs'] = 'Användare kan endast se bloggar av kursdeltagare';
 $string['deleteblogassociations'] = 'Ta bort kopplingar mellan bloggar';
 $string['deleteblogassociations_help'] = 'Om ikryssad så kommer blogginlägg inte längre vara associerade med den här kursen, några kursaktiviteter eller resurser.  Själva blogginläggen kommer inte tas bort.';
 $string['deleteexternalblog'] = 'Avregistrera den här externa bloggen';
-$string['deleteotagswarn'] = 'Är Du säker på att Du vill ta bort den/de här etiketten/erna från alla inlägg i bloggen och ta bort den/dem från systemet?';
+$string['deleteotagswarn'] = 'Är du säker på att du vill ta bort den/de här etiketten/erna från alla inlägg i bloggen och ta bort den/dem från systemet?';
 $string['description'] = 'Beskrivning';
 $string['description_help'] = 'Skriv in en mening eller två som sammanfattar innehållet i din externa blogg. (Om ingen beskrivning tillhandahålls så kommer beskrivningen från din externa blogg användas).';
 $string['donothaveblog'] = 'Du har tyvärr ingen egen blogg.';
@@ -118,22 +118,22 @@ $string['page-blog-x'] = 'Alla bloggsidor';
 $string['pagesize'] = 'Antal inlägg per sida';
 $string['permalink'] = 'Permalänk';
 $string['personalblogs'] = 'Användare kan endast se deras egen blogg';
-$string['preferences'] = 'Preferenser';
+$string['preferences'] = 'Välj inställningar för bloggar';
 $string['publishto'] = 'Publicera för';
-$string['publishtocourse'] = 'Användare som delar en kurs med Dig';
-$string['publishtocourseassoc'] = 'Deltagare i den kopplade kursen';
-$string['publishtocourseassocparam'] = 'Deltagare i {$a}';
-$string['publishtogroup'] = 'Användare som delar en grupp med Dig';
-$string['publishtogroupassoc'] = 'Dina gruppmedlemmar i den kopplade kursen';
-$string['publishtogroupassocparam'] = 'Dina gruppmedlemmar i {$a}';
 $string['publishto_help'] = '<p>Det finns tre möjliga inställningar här</p>
 
-<p><b>Dig själv (utkast)</b> - Bara du och administratörer kan se inlägget.</p>
+<p><b>Du själv (utkast)</b> - Bara du och administratörer kan se inlägget.</p>
 
 <p><b>Vem som helst på denna webbplats</b> - Alla som är registrerade användare på sajten kan se inlägget.</p>
 
 <p><b>Vem som helst (Även för gäster)</b> - Alla, inklusive gäster, kan se inlägget.</p>';
-$string['publishtonoone'] = 'Dig själv (utkast)';
+$string['publishtocourse'] = 'Användare som delar en kurs med dig';
+$string['publishtocourseassoc'] = 'Deltagare i den kopplade kursen';
+$string['publishtocourseassocparam'] = 'Deltagare i {$a}';
+$string['publishtogroup'] = 'Användare som delar en grupp med dig';
+$string['publishtogroupassoc'] = 'Dina gruppmedlemmar i den kopplade kursen';
+$string['publishtogroupassocparam'] = 'Dina gruppmedlemmar i {$a}';
+$string['publishtonoone'] = 'Du själv (utkast)';
 $string['publishtosite'] = 'Vem som helst på denna sajt';
 $string['publishtoworld'] = 'Vem som helst (även för gäster)';
 $string['readfirst'] = 'Läs detta först';
@@ -153,8 +153,8 @@ $string['tagtext'] = 'Etikettnamn';
 $string['timefetched'] = 'Tidpunkt för senaste synk';
 $string['timewithin'] = 'Visa etiketter som använts inom detta antal dagar';
 $string['updateentrywithid'] = 'Uppdaterar inlägg';
-$string['url'] = 'URL';
-$string['url_help'] = 'Skriv in URLen för RSS inflöde från Din externa blogg.';
+$string['url'] = 'URL för RSS-flöde';
+$string['url_help'] = 'Skriv in URLen för RSS inflöde från din externa blogg.';
 $string['useblogassociations'] = 'Aktivera kopplingar mellan bloggar';
 $string['useexternalblogs'] = 'Aktivera externa bloggar';
 $string['userblog'] = 'Användarblogg: {$a}';

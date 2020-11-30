@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hub', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'hub', language 'sv', version '3.8'.
  *
- * @package   hub
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     hub
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -29,29 +29,29 @@ $string['addscreenshots'] = 'Lägg till skärmbilder';
 $string['advertise'] = 'Påannonsera att den här kursen nu går att ansluta sig till';
 $string['advertised'] = 'Påannonserad';
 $string['advertiseon'] = 'Påannonsera den här kursen på {$a}';
-$string['advertisepublication_help'] = 'Om du påannonserar Din kurs på en hubbserver för gemenskapen så gör detta det möjligt för folk att hitta den här kursen och komma hit och registrera sig.';
+$string['advertisepublication_help'] = 'Om du annonserar din kurs på en hubbserver för gemenskapen så gör detta det möjligt för folk att hitta den här kursen och komma hit och registrera sig.';
 $string['audience'] = 'Målgrupp';
+$string['audience_help'] = 'Välj den tänkta målgruppen för den här kursen.';
 $string['audienceadmins'] = 'Moodle administratörer';
 $string['audienceeducators'] = 'Utbildare';
-$string['audience_help'] = 'Välj den tänkta målgruppen för den här kursen.';
-$string['audiencestudents'] = 'Studenter/elever/deltagare/lärande';
+$string['audiencestudents'] = 'Studenter';
 $string['badgesnumber'] = 'Antal märken ({$a})';
-$string['communityremoved'] = 'Den kurslänken har tagits bort från Din lista.';
+$string['communityremoved'] = 'Den kurslänken har tagits bort från din lista.';
 $string['confirmregistration'] = 'Bekräfta registrering';
 $string['contributornames'] = 'Övriga bidragsgivare';
 $string['contributornames_help'] = 'Du kan använda detta fält för att lista namnen på vem som helst som bidragit till denna kurs.';
 $string['coursename'] = 'Namn';
 $string['coursepublished'] = 'Den här kursen har framgångsrikt publicerats på "{$a}".';
 $string['courseshortname'] = 'Kortnamn';
-$string['courseshortname_help'] = 'Skriv in ett kort namn på Din kurs. Det behöver inte vara unikt.';
+$string['courseshortname_help'] = 'Skriv in ett kort namn på din kurs. Det behöver inte vara unikt.';
 $string['coursesnumber'] = 'Antal kurser  ({$a})';
 $string['courseunpublished'] = 'Kursen {$a->courseshortname} är inte längre publicerad på {$a->hubname}.';
 $string['courseurl'] = 'URL till kurs';
-$string['courseurl_help'] = 'Det är URLen till Din kurs, den visas som en länk i ett sökresultat.';
+$string['courseurl_help'] = 'Det är URLen till din kurs, den visas som en länk i ett sökresultat.';
 $string['creatorname'] = 'Upphovsman';
 $string['creatorname_help'] = 'Upphovsman är kursutvecklaren';
 $string['creatornotes'] = 'Anteckningar av upphovsmannen';
-$string['creatornotes_help'] = 'Upphovsmannens anteckningar är vägledning för (distans)lärare ang hur man ska använda kursen.';
+$string['creatornotes_help'] = 'Upphovsmannens anteckningar är vägledning för lärare ang hur man ska använda kursen.';
 $string['deletescreenshots'] = 'Ta bort de här skärmbilderna';
 $string['deletescreenshots_help'] = 'Ta bort alla de aktuella uppladdade skärmbilderna';
 $string['demourl'] = 'Demo URL';
@@ -69,7 +69,7 @@ $string['edulevelother'] = 'Övriga';
 $string['edulevelprimary'] = 'Primär';
 $string['edulevelsecondary'] = 'Sekundär';
 $string['eduleveltertiary'] = '';
-$string['emailalert'] = 'Meddelanden via e-post';
+$string['emailalert'] = 'Notiser via e-post';
 $string['emailalert_help'] = 'Om detta är aktiverat kommer hubadministratören skicka e-post till dig om säkerhetsfrågor och andra viktiga nyheter.';
 $string['enrollable'] = 'Möjlig att registrera sig på';
 $string['errorbadimageheightwidth'] = 'Bilden bör ha en maximal storlek av {$a->width} X {$a->height}';
@@ -145,7 +145,7 @@ $string['shared'] = 'Delad';
 $string['shareon'] = 'Ladda upp denna kurs till {$a}';
 $string['sharepublication_help'] = 'Uppladdning av denna kurs till en hubserver kommer att medge att andra kan ladda ner kursen och installera den på deras Moodleplats.';
 $string['siteadmin'] = 'Administratör';
-$string['siteadmin_help'] = 'Det fulla namnet för webbplatsadministratören.';
+$string['siteadmin_help'] = 'Webbplatsadministratörens fullständiga namn.';
 $string['sitecountry'] = 'Land';
 $string['sitecountry_help'] = 'Det land din organisation är i.';
 $string['sitedesc'] = 'Beskrivning';
@@ -160,13 +160,13 @@ $string['sitename'] = 'Namn';
 $string['sitename_help'] = 'Webbplatsens namn kommer att visas i listningen över webbplatser om hubbeb tillåter det.';
 $string['sitephone'] = 'Telefon';
 $string['sitephone_help'] = 'Ditt telefonnummer kommer bara att kunna ses av hubadministratören.';
-$string['siteprivacy'] = 'Intergitet';
+$string['siteprivacy'] = 'Webbplatslistning';
 $string['siteprivacylinked'] = 'Publicera webbplatsnamnet med en länk';
 $string['siteprivacynotpublished'] = 'Publicera inte denna webbplats';
 $string['siteprivacypublished'] = 'Publicera endast webbplatsens namn';
 $string['siteregistrationcontact'] = 'Kontaktformulär';
 $string['siteregistrationcontact_help'] = 'Om du tillåter det kommer andra personer kanske kunna kontakta dig via ett kontaktformulär på hubben. De kommer aldrig att kunna se din e-postadress.';
-$string['siteregistrationemail'] = 'E-postmeddelanden';
+$string['siteregistrationemail'] = 'E-postnotiser';
 $string['siteregistrationemail_help'] = 'Om du aktiverar detta kan hubadministratören kontakta dig via e-post med viktiga nyheter som tex säkerhetsfrågor.';
 $string['siteregistrationupdated'] = 'Webbplatsregistrering uppdaterad';
 $string['siterelease'] = '';

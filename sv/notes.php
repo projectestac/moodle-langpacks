@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,27 +12,28 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'notes', language 'sv', version '3.8'.
  *
- * @package   notes
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     notes
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $string['addnewnote'] = 'Lägg till en ny anteckning';
-$string['addnewnoteselect'] = 'Välj vilka användare som Du vill skriva anteckningar om';
+$string['addnewnoteselect'] = 'Välj de användare som du vill skriva anteckningar om';
 $string['bynameondate'] = 'av {$a->name} - {$a->date}';
 $string['configenablenotes'] = 'Aktivera lagring av anteckningar om individuella användare';
 $string['content'] = 'Innehåll';
 $string['course'] = 'kurs';
-$string['coursenotes'] = 'Anteckningar för kurs';
+$string['coursenotes'] = 'Anteckningar för kurs (kan läsas av alla lärare i kursen)';
 $string['created'] = 'skapad';
-$string['deleteconfirm'] = 'Vill Du ta bort den här anteckningen?';
+$string['deleteconfirm'] = 'Vill du ta bort den här anteckningen?';
 $string['deletenotes'] = 'Ta bort alla anteckningar';
 $string['editnote'] = 'Redigera anteckning';
 $string['enablenotes'] = 'Aktivera anteckningar';
@@ -45,10 +45,10 @@ $string['nopermissiontodelete'] = 'Du kan inte ta bort den här anteckningen';
 $string['note'] = 'Anteckning';
 $string['notes'] = 'Anteckningar';
 $string['notesdisabled'] = 'Anteckningar är tyvärr avaktiverat';
-$string['notesnotvisible'] = 'Du har inte tillstånd att visa anteckningarna';
+$string['notesnotvisible'] = 'Du har inte tillstånd att se anteckningarna';
 $string['nouser'] = 'Du måste välja en användare';
 $string['personal'] = 'personlig';
-$string['personalnotes'] = 'Personliga anteckningar';
+$string['personalnotes'] = 'Personliga anteckningar (kan bara läsas av dig)';
 $string['publishstate'] = 'Sammanhang';
 $string['publishstate_help'] = '<p>Det finns tre möjliga inställningar här</p>
 <ul>
@@ -57,5 +57,5 @@ $string['publishstate_help'] = '<p>Det finns tre möjliga inställningar här</p
 <li><strong>Webbplats</strong> - anteckningen kommer att vara synlig för lärarna på alla kurser.</li>
 </ul>';
 $string['site'] = 'webbplats';
-$string['sitenotes'] = 'Anteckningar på webbplatsnivå';
+$string['sitenotes'] = 'Anteckningar på webbplatsnivå (kan läsas av alla lärare)';
 $string['unknown'] = 'okänd';

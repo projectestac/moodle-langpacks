@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'ja', branch 'MOODLE_38_STABLE'
+ * Strings for component 'moodle', language 'ja', version '3.8'.
  *
- * @package   moodle
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     moodle
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -181,7 +181,6 @@ $string['backtopageyouwereon'] = '元のページに戻る';
 $string['backtoparticipants'] = '参加者リストに戻る';
 $string['backup'] = 'バックアップ';
 $string['backupactivehelp'] = '自動バックアップを実行するかどうか選択してください。';
-$string['backupadhocpending'] = 'コースバックアップ特別タスク保留';
 $string['backupcancelled'] = 'バックアップが中止されました。';
 $string['backupcoursefileshelp'] = 'この設定を有効にした場合、自動バックアップにコースファイルが含まれます。';
 $string['backupdate'] = 'バックアップ日付';
@@ -333,8 +332,8 @@ $string['coursebackup'] = 'コースバックアップ';
 $string['coursebulkaction'] = '選択されたコースのバルク処理';
 $string['coursecategories'] = 'コースカテゴリ';
 $string['coursecategory'] = 'コースカテゴリ';
-$string['coursecategorydeleted'] = 'コースカテゴリ {$a} を削除しました。';
 $string['coursecategory_help'] = 'この設定ではコース一覧内のコースが表示されるカテゴリを決定します。';
+$string['coursecategorydeleted'] = 'コースカテゴリ {$a} を削除しました。';
 $string['coursecatmanagement'] = 'コースおよびカテゴリ管理';
 $string['coursecompletion'] = 'コース完了';
 $string['coursecompletions'] = 'コース完了';
@@ -379,8 +378,8 @@ $string['coursemessage'] = 'コースユーザにメッセージを送信する'
 $string['coursenotaccessible'] = 'このコースはパブリックアクセスを許可していません。';
 $string['courseoverview'] = 'コース概要';
 $string['courseoverviewfiles'] = 'コースイメージ';
-$string['courseoverviewfilesext'] = 'コースイメージファイル拡張子';
 $string['courseoverviewfiles_help'] = 'コースイメージはダッシュボードのコース概要に表示されます。追加で許可されるファイルタイプおよび2つ以上のファイルはサイト管理者により有効にできます。その場合、これらのファイルはコースページ一覧のコース概要の隣に表示されます。';
+$string['courseoverviewfilesext'] = 'コースイメージファイル拡張子';
 $string['courseoverviewfileslimit'] = 'コースイメージファイル制限';
 $string['courseoverviewgraph'] = 'コース概要グラフ';
 $string['coursepreferences'] = 'コースプリファレンス';
@@ -648,7 +647,6 @@ $string['emailconfirmsent'] = '<p>あなたの <b>{$a}</b> のメールアドレ
 $string['emailconfirmsentfailure'] = '確認メールの送信に失敗しました。';
 $string['emailconfirmsentsuccess'] = '確認メールが正常に送信されました。';
 $string['emaildigest'] = 'メール要約タイプ';
-$string['emaildigestcomplete'] = 'すべて (投稿すべてを含む日次メール)';
 $string['emaildigest_help'] = 'これはフォーラムにデフォルトとして使用される日次要約設定です。
 
 * 要約なし - あなたはフォーラム投稿ごとに1通のメールを受信します。
@@ -656,13 +654,14 @@ $string['emaildigest_help'] = 'これはフォーラムにデフォルトとし�
 * 要約 - 件名のみ - あなたはそれぞれのフォーラム投稿の件名を含むメールダイジェストを1日1通受信します。
 
 必要であれば、あなたはそれぞれのフォーラムで異なる設定を選択することもできます。';
+$string['emaildigestcomplete'] = 'すべて (投稿すべてを含む日次メール)';
 $string['emaildigestoff'] = '要約なし (フォーラム投稿ごとのメール)';
 $string['emaildigestsubjects'] = '件名 (件名のみを含む日次メール)';
 $string['emaildisable'] = 'このメールアドレスは無効です';
 $string['emaildisableclick'] = 'このメールアドレス宛にすべてのメールが送信されないようにする';
 $string['emaildisplay'] = 'メールアドレス公開';
-$string['emaildisplaycourse'] = '同じコースのメンバーにだけ私のメールアドレスを公開します';
 $string['emaildisplay_help'] = '権限のあるユーザ (教師およびマネージャ等) は常にあなたのメールアドレスを閲覧することができます。';
+$string['emaildisplaycourse'] = '同じコースのメンバーにだけ私のメールアドレスを公開します';
 $string['emaildisplayhidden'] = 'メールアドレス非表示';
 $string['emaildisplayno'] = '権限のないユーザから私のメールアドレスを隠します';
 $string['emaildisplayyes'] = 'すべてのユーザに私のメールアドレスを公開します';
@@ -868,8 +867,8 @@ $string['force'] = '強制';
 $string['forcelanguage'] = '言語の強制';
 $string['forceno'] = '強制しない';
 $string['forcepasswordchange'] = 'パスワード変更を強制する';
-$string['forcepasswordchangecheckfull'] = '本当に {$a} にパスワードの変更を強制してもよろしいですか?';
 $string['forcepasswordchange_help'] = 'この設定を有効にした場合、次回ログイン時、ユーザにパスワードの変更を促します。';
+$string['forcepasswordchangecheckfull'] = '本当に {$a} にパスワードの変更を強制してもよろしいですか?';
 $string['forcepasswordchangenot'] = '{$a} のパスワード変更を強制できませんでした。';
 $string['forcepasswordchangenotice'] = '続けるにはパスワードを変更してください。';
 $string['forcetheme'] = 'テーマを強制する';
@@ -897,7 +896,7 @@ $string['frontpagecategorynames'] = 'カテゴリ一覧';
 $string['frontpagecourselist'] = 'コース一覧';
 $string['frontpagecoursesearch'] = 'コース検索ボックス';
 $string['frontpagedescription'] = 'フロントページ概要';
-$string['frontpagedescriptionhelp'] = 'この概要は「コース/サイト概要」ブロックを使用してフロントページに表示することができます。';
+$string['frontpagedescriptionhelp'] = 'この概要は「コース/サイト概要」ブロックを使用してフロントページに表示できます。';
 $string['frontpageenrolledcourselist'] = '登録済みコース';
 $string['frontpageformat'] = 'フロントページフォーマット';
 $string['frontpageformatloggedin'] = 'フロントページフォーマット (ログイン後)';
@@ -922,15 +921,14 @@ $string['gpl'] = 'Copyright (C) 1999 onwards Martin Dougiamas (https://moodle.co
 
 このプログラムは有用であることを願って頒布されますが、*全くの無保証*です。商業可能性の保証や特定の目的への適合性は言外に示されたものも含め全く存在しません。
 
-詳しくはMoodleライセンス情報をご覧ください： https://docs.moodle.org/dev/License';
+詳細はMoodleライセンス情報をご覧ください: https://docs.moodle.org/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9';
 $string['gpl3'] = 'Copyright (C) 1999 onwards Martin Dougiamas (https://moodle.com)
 
 このプログラムはフリーソフトウェアです。あなたはこれをフリーソフトウェア財団によって発行された GNU 一般公衆利用許諾契約書 (バージョン2か、希望によってはそれ以降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができます。
 
 このプログラムは有用であることを願って頒布されますが*全くの無保証*です。商業可能性の保証や特定の目的への適合性は言外に示されたものも含め全く存在しません。
 
-詳しくはMoodleライセンス情報をご覧ください：
-https://docs.moodle.org/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9';
+詳細はMoodleライセンス情報をご覧ください: https://docs.moodle.org/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9';
 $string['gpllicense'] = 'GPLライセンス';
 $string['grade'] = '評点';
 $string['grades'] = '評定';
@@ -973,8 +971,8 @@ $string['hiddenassign'] = '割り当て非表示';
 $string['hiddenfromstudents'] = '学生から秘匿';
 $string['hiddenoncoursepage'] = '利用可、しかしコースページに表示しない';
 $string['hiddensections'] = 'コースセクションの非表示';
-$string['hiddensectionscollapsed'] = '非表示コースセクションを折りたたんで表示する';
 $string['hiddensections_help'] = 'ここでは学生に非表示セクションを折りたたんだ形で (恐らくウィークリーフォーマットのコースで休日を示すため) 表示するか完全に隠すか指定します。';
+$string['hiddensectionscollapsed'] = '非表示コースセクションを折りたたんで表示する';
 $string['hiddensectionsinvisible'] = '非表示のコースセクションを完全に見えなくする';
 $string['hiddenwithbrackets'] = '(非表示)';
 $string['hide'] = '非表示';
@@ -1007,9 +1005,9 @@ $string['icon'] = 'アイコン';
 $string['icqnumber'] = 'ICQナンバー';
 $string['idnumber'] = 'IDナンバー';
 $string['idnumbercourse'] = 'コースIDナンバー';
+$string['idnumbercourse_help'] = 'コースIDナンバーは外部のシステムのコースとマッチングする場合にのみ使用され、サイト内のどこにも表示されることはありません。このコースに関する公式のコードがある場合はここに入力してください。それ以外は空白のままにすることができます。';
 $string['idnumbercoursecategory'] = 'カテゴリIDナンバー';
 $string['idnumbercoursecategory_help'] = 'コースカテゴリIDナンバーは外部のシステムのカテゴリとマッチングする場合にのみ使用され、サイト内のどこにも表示されることはありません。このカテゴリに関する公式のコードがある場合はここに入力してください。それ以外は空白のままにすることができます。';
-$string['idnumbercourse_help'] = 'コースIDナンバーは外部のシステムのコースとマッチングする場合にのみ使用され、サイト内のどこにも表示されることはありません。このコースに関する公式のコードがある場合はここに入力してください。それ以外は空白のままにすることができます。';
 $string['idnumbergroup'] = 'グループIDナンバー';
 $string['idnumbergroup_help'] = 'グループIDナンバーは外部のシステムのコースとマッチングする場合にのみ使用され、サイト内のどこにも表示されることはありません。このグループに関する公式のコードがある場合はここに入力してください。それ以外は空白のままにすることができます。';
 $string['idnumbergrouping'] = 'グルーピングIDナンバー';
@@ -1053,9 +1051,9 @@ $string['indicator:anywrite_help'] = 'この指標は学生による執筆 (送�
 $string['indicator:anywriteincourse'] = 'コースにおけるすべての執筆活動';
 $string['indicator:anywriteincourse_help'] = 'この指標はすべてのコースにおける学生による執筆 (送信) 活動を示します。';
 $string['indicator:completeduserprofile'] = 'ユーザプロファイル完了';
+$string['indicator:completeduserprofile_help'] = 'この指標は学生がユーザプロファイルを完了したことを示します。';
 $string['indicator:completeduserprofiledef'] = 'ユーザプロファイル完了';
 $string['indicator:completeduserprofiledef_help'] = 'サイトポリシーに同意してユーザが次のフィールドを入力した場合: 所属組織, 部署, 住所, 都道府県, 国, URL';
-$string['indicator:completeduserprofile_help'] = 'この指標は学生がユーザプロファイルを完了したことを示します。';
 $string['indicator:completionenabled'] = '完了トラッキング有効';
 $string['indicator:completionenabled_help'] = 'この指標はこのコースで完了トラッキングが有効にされたことを示します。';
 $string['indicator:nostudent'] = '学生登録';
@@ -1063,13 +1061,13 @@ $string['indicator:nostudent_help'] = 'この指標はコースへの学生参�
 $string['indicator:noteacher'] = '教師参加可否';
 $string['indicator:noteacher_help'] = 'この指標はコースへの教師参加可否を反映します。';
 $string['indicator:potentialcognitive'] = 'コース潜在的認識深度';
+$string['indicator:potentialcognitive_help'] = 'この指標はコース活動で学生が到達することのできた潜在的認識深度に基づきます。';
 $string['indicator:potentialcognitivedef'] = 'コース潜在的認識深度';
 $string['indicator:potentialcognitivedef_help'] = 'コースが提供する「深い」認知的関与の度合いです。例) フィードバックのための作成物の提出、他の人の作成物をレビューする機会、作成物を見直しおよび再提出する機会';
-$string['indicator:potentialcognitive_help'] = 'この指標はコース活動で学生が到達することのできた潜在的認識深度に基づきます。';
 $string['indicator:potentialsocial'] = 'コース潜在的社会的広がり';
+$string['indicator:potentialsocial_help'] = 'この指標はコース活動で学生が到達することのできた潜在的社会的広がりに基づきます。';
 $string['indicator:potentialsocialdef'] = 'コース潜在的社会的広がり';
 $string['indicator:potentialsocialdef_help'] = 'コースが提供する「広範囲」の社会的関与、他の参加者との関係およびクラスを超えた参加者コミュニティとの関係の度合いです。';
-$string['indicator:potentialsocial_help'] = 'この指標はコース活動で学生が到達することのできた潜在的社会的広がりに基づきます。';
 $string['indicator:readactions'] = 'すべての読む動作';
 $string['indicator:readactions_help'] = 'この指標は学生による読書 (閲覧) 活動を示します。';
 $string['indicator:userforumstracking'] = 'ユーザはフォーラム未読管理中';
@@ -1129,11 +1127,11 @@ $string['loggedinas'] = 'あなたは {$a} としてログインしています'
 $string['loggedinasguest'] = 'あなたは現在ゲストアクセスを利用しています';
 $string['loggedinnot'] = 'あなたはログインしていません。';
 $string['login'] = 'ログイン';
+$string['login_failure_logs'] = 'ログイン失敗ログ';
 $string['loginactivity'] = 'ログイン活動';
 $string['loginalready'] = 'あなたはすでにログインしています';
 $string['loginas'] = 'このユーザとしてログインする';
 $string['loginaspasswordexplain'] = '<p>この機能を使用するには特別な「ログインパスワード」を入力する必要があります。<br />パスワードが分からない場合、サーバ管理者にお聞きください。</p>';
-$string['login_failure_logs'] = 'ログイン失敗ログ';
 $string['loginguest'] = 'ゲストとしてログインする';
 $string['loginsite'] = 'サイトにログインする';
 $string['loginsteps'] = 'このサイトにフルアクセスするため、あなたは最初にアカウントを作成する必要があります。';
@@ -1327,8 +1325,8 @@ $string['newaccount'] = '新しいアカウント';
 $string['newactivityname'] = '活動 {$a} の新しい名称';
 $string['newcourse'] = '新しいコース';
 $string['newpassword'] = '新しいパスワード';
-$string['newpasswordfromlost'] = '<strong>注意:</strong> 喪失パスワードリカバリ処理の一環として送信される2通のメールの<strong>2番目</strong>に、あなたの<strong>現在のパスワード</strong>が送信されます。この画面を続ける前に、あなたの新しいパスワードが記載されたメールを受信したことを確認してください。';
 $string['newpassword_help'] = '新しいパスワードを入力、または現在のパスワードを使用する場合は空白にしてください。';
+$string['newpasswordfromlost'] = '<strong>注意:</strong> 喪失パスワードリカバリ処理の一環として送信される2通のメールの<strong>2番目</strong>に、あなたの<strong>現在のパスワード</strong>が送信されます。この画面を続ける前に、あなたの新しいパスワードが記載されたメールを受信したことを確認してください。';
 $string['newpasswordtext'] = '{$a->firstname} さん
 
 「 {$a->sitename} 」のパスワードリセットおよび仮パスワードの作成が完了しました。
@@ -1602,9 +1600,9 @@ $string['privacy:metadata:upgrade_log:timemodified'] = 'アップグレードが
 $string['privacy:metadata:upgrade_log:type'] = 'ログエントリのタイプです。';
 $string['privacy:metadata:upgrade_log:userid'] = 'アップグレードを実行したユーザです。';
 $string['privacy:metadata:upgrade_log:version'] = 'プラグインの古いバージョンです。';
-$string['privatefiles'] = 'プライベートファイル';
 $string['private_files_handler'] = 'メールの添付をユーザのプライベートファイル保存スペースに保存します。';
 $string['private_files_handler_name'] = 'プライベートファイルにメール送信する';
+$string['privatefiles'] = 'プライベートファイル';
 $string['privatefilesmanage'] = 'プライベートファイルを管理する';
 $string['proceed'] = '進む';
 $string['profile'] = 'プロファイル';
@@ -1615,7 +1613,6 @@ $string['publicsitefileswarning2'] = '注意: ここに置いたファイルはU
 $string['publicsitefileswarning3'] = '注意: ここに置いたファイルはURLを知っている (または推測できる) 誰でもアクセスすることができます。<br />セキュリティ上の理由から、バックアップファイルは安全なbackupdataフォルダにのみ保存してください。';
 $string['question'] = '問題';
 $string['questionsinthequestionbank'] = '問題バンクの問題';
-$string['queued'] = 'キュー';
 $string['quotausage'] = '現在、あなたは  {$a->total} 制限のうち {$a->used} を使用しています。';
 $string['readinginfofrombackup'] = 'バックアップより情報を読取り中';
 $string['readme'] = 'README';
@@ -1753,14 +1750,14 @@ $string['scalestip2'] = 'カスタム評価尺度を作成するにはコース�
 $string['schedule'] = 'スケジュール';
 $string['screenshot'] = 'スクリーンショット';
 $string['search'] = '検索';
+$string['search_help'] = 'テキスト中に存在する1つまたはそれ以上の言葉を検索する基本的な検索では空白で区切られた言葉を入力してください。半角2文字より大きな言葉が検索に使用されます。
+
+高度な検索では検索ボックス内に文字を入力せずに検索ボタンをクリックしてください。高度な検索フォームが表示されます。';
 $string['searchagain'] = '再検索';
 $string['searchbyemail'] = 'メールアドレスで検索する';
 $string['searchbyusername'] = 'ユーザ名で検索する';
 $string['searchcoursecategories'] = '検索カテゴリ';
 $string['searchcourses'] = 'コースを検索する';
-$string['search_help'] = 'テキスト中に存在する1つまたはそれ以上の言葉を検索する基本的な検索では空白で区切られた言葉を入力してください。半角2文字より大きな言葉が検索に使用されます。
-
-高度な検索では検索ボックス内に文字を入力せずに検索ボタンをクリックしてください。高度な検索フォームが表示されます。';
 $string['searchoptions'] = '検索オプション';
 $string['searchresults'] = '検索結果';
 $string['sec'] = '秒';
@@ -2006,9 +2003,9 @@ $string['thiscategorycontains'] = 'このカテゴリは以下のコンテンツ
 $string['time'] = '時間';
 $string['timecreatedcourse'] = 'コース作成日時';
 $string['timesplitting:deciles'] = '直近の10分割';
+$string['timesplitting:deciles_help'] = 'この分析間隔はコースを10分割 (10等分) します。それぞれの予測は直近の10分割のデータのみを基にします。';
 $string['timesplitting:decilesaccum'] = '前のすべての10分割';
 $string['timesplitting:decilesaccum_help'] = 'この分析間隔はコースを10分割 (10等分) します。それぞれの予測は前のすべての10分割のデータを基にします。';
-$string['timesplitting:deciles_help'] = 'この分析間隔はコースを10分割 (10等分) します。それぞれの予測は直近の10分割のデータのみを基にします。';
 $string['timesplitting:nosplitting'] = '時間制限なし';
 $string['timesplitting:nosplitting_help'] = 'このモデルには分析間隔が定義されていません。';
 $string['timesplitting:onemonthafterstart'] = '開始1ヶ月後';
@@ -2021,10 +2018,10 @@ $string['timesplitting:pastmonth'] = '過去1ヶ月間';
 $string['timesplitting:pastmonth_help'] = 'この分析間隔では1ヶ月ごとの予測を生成します。指標計算は過去1ヶ月間に基づきます。';
 $string['timesplitting:pastweek'] = '過去1週間';
 $string['timesplitting:pastweek_help'] = 'この分析間隔では1週間ごとの予測を生成します。指標計算は過去1週間に基づきます。';
-$string['timesplitting:quarters'] = '前のすべての4分割';
+$string['timesplitting:quarters'] = '直近の4分割';
+$string['timesplitting:quarters_help'] = 'この分析間隔はコースを4分割 (4等分) します。それぞれの予測は直近の4分割のデータのみを基にします。';
 $string['timesplitting:quartersaccum'] = '前のすべての4分割';
 $string['timesplitting:quartersaccum_help'] = 'この分析間隔はコースを4分割 (4等分) します。それぞれの予測は前のすべての4分割のデータを基にします。';
-$string['timesplitting:quarters_help'] = 'この分析間隔はコースを4分割 (4等分) します。それぞれの予測は直近の4分割のデータのみを基にします。';
 $string['timesplitting:singlerange'] = '開始から終了まで';
 $string['timesplitting:singlerange_help'] = 'この分析間隔はコース全体を単一期間とみなします。';
 $string['timesplitting:tenpercentafterstart'] = '開始後10%';

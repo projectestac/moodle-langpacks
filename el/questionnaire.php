@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'el', branch 'MOODLE_38_STABLE'
+ * Strings for component 'questionnaire', language 'el', version '3.8'.
  *
- * @package   questionnaire
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     questionnaire
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -81,7 +81,7 @@ $string['dependencies'] = 'Εξαρτήσεις';
 $string['dependquestion'] = 'Γονική Ερώτηση';
 $string['didnotrespondtoquestion'] = 'Δεν αποκρίθηκε στην ερώτηση';
 $string['download'] = 'Λήψη';
-$string['downloadtextformat'] = 'Λήψη ως CSV (κείμενο με κόμματα)';
+$string['downloadtextformat'] = 'Λήψη';
 $string['edit'] = 'Επεξεργασία';
 $string['editquestion'] = 'Επεξεργασία ερώτησης {$a}';
 $string['email'] = 'Διεύθυνση ηλε.ταχυδρομείου';
@@ -108,12 +108,13 @@ $string['nlines'] = '{$a} γραμμές';
 $string['noanswer'] = 'Καμιά απάντηση';
 $string['noattempts'] = 'Δεν έχουν γίνει καθόλου προσπάθειες σε αυτό το ερωτηματολόγιο';
 $string['nodata'] = 'Δεν στάλθηκαν καθόλου δεδομένα.';
-$string['noneinuse'] = 'Αυτό το ερωτηματολόγιο δεν περιέχει καθόλου ερωτήσεις.';
 $string['non_respondents'] = 'Χρήστες που δεν έχουν ακόμη υποβάλει τις αποκρίσεις τους σε αυτό το ερωτηματολόγιο';
+$string['noneinuse'] = 'Αυτό το ερωτηματολόγιο δεν περιέχει καθόλου ερωτήσεις.';
 $string['nopublicsurveys'] = 'Κανένα δημόσιο ερωτηματολόγιο.';
 $string['noresponsedata'] = 'Καμία απόκριση για αυτή την ερώτηση.';
 $string['noresponses'] = 'Καμία απόκριση';
 $string['normal'] = 'Κανονικό';
+$string['not_started'] = 'δεν ξεκίνησε';
 $string['notanumber'] = '<strong>{$a}</strong> δεν είναι ένας αποδεκτός μορφότυπος αριθμού.';
 $string['notapplicable'] = 'Δ/Υ';
 $string['notapplicablecolumn'] = 'Δ/Υ στήλη';
@@ -124,7 +125,6 @@ $string['notifications'] = 'Αποστολή ειδοποιήσεων υποβο
 $string['notificationsimple'] = 'Μόνο ειδοποίηση';
 $string['notopen'] = 'Το ερωτηματολόγιο αυτό δεν θα ανοίξει μέχρι {$a}.';
 $string['notrequired'] = 'Δεν απαιτείται απόκριση';
-$string['not_started'] = 'δεν ξεκίνησε';
 $string['nousersselected'] = 'Δεν επιλέχθηκαν χρήστες';
 $string['num'] = '#';
 $string['numattemptsmade'] = 'Έγιναν {$a} προσπάθειες σε αυτό το ερωτηματολόγιο';
@@ -155,26 +155,26 @@ $string['pluginadministration'] = 'Διαχείριση ερωτηματολογ
 $string['pluginname'] = 'Ερωτηματολόγιο';
 $string['position'] = 'θέση';
 $string['possibleanswers'] = 'Πιθανές απαντήσεις';
-$string['previewing'] = 'Προεπισκόπηση ερωτηματολογίου...';
 $string['preview_label'] = 'Προεπισκόπηση';
 $string['preview_questionnaire'] = 'Προεπισκόπηση Ερωτηματολογίου';
+$string['previewing'] = 'Προεπισκόπηση ερωτηματολογίου...';
 $string['previous'] = 'Προηγούμενο';
 $string['previouspage'] = 'Προηγούμενη σελίδα';
 $string['print'] = 'Εκτύπωση αυτής της απόκρισης';
 $string['printblank'] = 'Εκτύπωση κενού';
 $string['privacy:metadata:questionnaire_resp_multiple'] = 'Μια απόκριση ερώτησης πολλαπλής επιλογής.';
+$string['privacy:metadata:questionnaire_resp_single'] = 'Μια απόκριση ερώτησης απλής επιλογής.';
 $string['privacy:metadata:questionnaire_response'] = 'Μια απόκριση σε εξέλιξη ή που υποβλήθηκε';
+$string['privacy:metadata:questionnaire_response:complete'] = 'Η κατάσταση ολοκλήρωσης απόκρισης.';
+$string['privacy:metadata:questionnaire_response:grade'] = 'Ο βαθμός για αυτή την απόκριση.';
+$string['privacy:metadata:questionnaire_response:userid'] = 'Το αναγνωριστικό του χρήστη για αυτή την απόκριση.';
 $string['privacy:metadata:questionnaire_response_bool'] = 'Μια απόκριση ερώτησης αληθείας (boolean) (ναι/όχι).';
 $string['privacy:metadata:questionnaire_response_bool:choice_id'] = 'Η συγκεκριμένη απάντηση αληθείας (boolean).';
-$string['privacy:metadata:questionnaire_response:complete'] = 'Η κατάσταση ολοκλήρωσης απόκρισης.';
 $string['privacy:metadata:questionnaire_response_date'] = 'Μια απόκριση ερώτησης ημερομηνίας.';
 $string['privacy:metadata:questionnaire_response_date:response'] = 'Η συγκεκριμένη απάντηση ημερομηνίας.';
-$string['privacy:metadata:questionnaire_response:grade'] = 'Ο βαθμός για αυτή την απόκριση.';
 $string['privacy:metadata:questionnaire_response_other:response'] = 'Η συγκεκριμένη απάντηση κειμένου.';
 $string['privacy:metadata:questionnaire_response_text'] = 'Μια απόκριση ερώτησης κειμένου.';
 $string['privacy:metadata:questionnaire_response_text:response'] = 'Η συγκεκριμένη απάντηση κειμένου.';
-$string['privacy:metadata:questionnaire_response:userid'] = 'Το αναγνωριστικό του χρήστη για αυτή την απόκριση.';
-$string['privacy:metadata:questionnaire_resp_single'] = 'Μια απόκριση ερώτησης απλής επιλογής.';
 $string['private'] = 'Ιδιωτικό';
 $string['public'] = 'Δημόσιο';
 $string['publiccopy'] = 'Αντίγραφο:';
@@ -186,8 +186,6 @@ $string['qtypeonce'] = 'απόκριση μία φορά';
 $string['qtypeunlimited'] = 'απόκριση πολλές φορές';
 $string['qtypeweekly'] = 'απόκριση εβδομαδιαίως';
 $string['questionnaire:addinstance'] = 'Προσθήκη νέου ερωτηματολογίου';
-$string['questionnaireadministration'] = 'Διαχείριση Ερωτηματολογίου';
-$string['questionnairecloses'] = 'Το ερωτηματολόγιο κλείνει';
 $string['questionnaire:createpublic'] = 'Δημιουργία δημοσίων ερωτηματολογίων';
 $string['questionnaire:createtemplates'] = 'Δημιουργία υποδειγμάτων ερωτηματολογίων';
 $string['questionnaire:deleteresponses'] = 'Διαγραφή της απόκρισής μου';
@@ -195,11 +193,13 @@ $string['questionnaire:downloadresponses'] = 'Διαγραφή αποκρίσε�
 $string['questionnaire:editquestions'] = 'Δημιουργία και τροποποίηση ερωτήσεων ερωτηματολογίων';
 $string['questionnaire:manage'] = 'Δημιουργία και τροποποίηση ερωτηματολογίων';
 $string['questionnaire:message'] = 'Αποστολή μηνύματος σε μη απαντήσαντες';
-$string['questionnaireopens'] = 'Το ερωτηματολόγιο ανοίγει';
 $string['questionnaire:preview'] = 'Προεπισκόπηση ερωτηματολογίων';
 $string['questionnaire:printblank'] = 'Εκτύπωση κενού ερωτηματολογίου';
-$string['questionnairereport'] = 'Αναφορά Ερωτηματολογίου';
 $string['questionnaire:view'] = 'Εμφάνιση ενός ερωτηματολογίου';
+$string['questionnaireadministration'] = 'Διαχείριση Ερωτηματολογίου';
+$string['questionnairecloses'] = 'Το ερωτηματολόγιο κλείνει';
+$string['questionnaireopens'] = 'Το ερωτηματολόγιο ανοίγει';
+$string['questionnairereport'] = 'Αναφορά Ερωτηματολογίου';
 $string['questionnum'] = 'Ερώτηση #';
 $string['questions'] = 'Ερωτήσεις';
 $string['questionsinsection'] = 'Ερωτήσεις σε αυτό το τμήμα:';
@@ -254,9 +254,9 @@ $string['sectionbreak_help'] = '--- Αλλαγή Σελίδας --';
 $string['sectiontext'] = 'Ταμπέλα';
 $string['selecttheme'] = 'Επιλογή ενός αισθητικού θέματος (css) προς χρήση με αυτό το ερωτηματολόγιο.';
 $string['send'] = 'Αποστολή';
-$string['sendemail'] = 'Αποστολή μηνύματος ηλε.ταχυδρομείου';
 $string['send_message'] = 'Αποστολή μηνύματος σε επιλεγμένους χρήστες';
 $string['send_message_to'] = 'Αποστολή μηνύματος προς:';
+$string['sendemail'] = 'Αποστολή μηνύματος ηλε.ταχυδρομείου';
 $string['settings'] = 'Ρυθμίσεις';
 $string['settingssaved'] = 'Οι ρυθμίσεις αποθηκεύτηκαν';
 $string['strfdate'] = '%d/%m/%Y';

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'tag', language 'ar', version '3.8'.
  *
- * @package   tag
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     tag
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -54,7 +54,7 @@ $string['editcollname'] = 'تحرير اسم مجموعة الوسوم';
 $string['editisstandard'] = 'تغيير استعمال الوسم القياسي';
 $string['editname'] = 'تحرير اسم الوسم';
 $string['editsearchable'] = 'تغيير ما هو قابل للبحث';
-$string['edittag'] = 'تحرير هذا الوسم';
+$string['edittag'] = 'حرر هذا الوسم';
 $string['edittagcoll'] = 'تحرير مجموعة الوسوم {$a}';
 $string['edittagcollection'] = 'تغيير مجموعة الوسوم';
 $string['entertags'] = 'أدخل الوسوم...';
@@ -95,23 +95,23 @@ $string['notagsfound'] = 'تعذر العثور على وسوم تطابق "{$a}
 $string['nothingtoupdate'] = 'لا شيء لتحديثه';
 $string['owner'] = 'المالك';
 $string['page-tag-index'] = 'صفحة وسم مفردة';
-$string['page-tag-manage'] = 'صفحة إدارة الوسوم';
+$string['page-tag-manage'] = 'إدارة صفحة الوسوم';
 $string['page-tag-search'] = 'صفحة البحث في الوسوم';
 $string['page-tag-x'] = 'كافة صفحات الوسوم';
 $string['prevpage'] = 'عودة';
 $string['privacy:metadata:tag'] = 'تفاصل كل وسم فريد محفوظة جنباً إلى جنب مع وصفه وغيرها من المعلومات ذات الصلة';
 $string['privacy:metadata:tag:description'] = 'وصف الوسم';
 $string['privacy:metadata:tag:flag'] = 'فيما إذا تم تعليم الوسم على أنه غير لائق';
+$string['privacy:metadata:tag:name'] = 'اسم الوسم - هذه هي الصيغة المعدلة من الاسم';
+$string['privacy:metadata:tag:rawname'] = 'اسم الوسم - هذا هو الاسم المعروض';
+$string['privacy:metadata:tag:timemodified'] = 'وقت آخر تعديل في الوسم';
+$string['privacy:metadata:tag:userid'] = 'مُعرَّف المستخدم الذي أنشأ الوسم';
 $string['privacy:metadata:taginstance'] = 'الرابط ما بين كل وسم وموضع استعماله';
 $string['privacy:metadata:taginstance:ordering'] = 'الترتيب النسبي لهذا الوسم';
 $string['privacy:metadata:taginstance:tagid'] = 'الرابط إلى الوسم';
 $string['privacy:metadata:taginstance:timecreated'] = 'وقت ربط هذا الوسم بالمقصد';
 $string['privacy:metadata:taginstance:timemodified'] = 'وقت تعديل هذا الوسم للمقصد';
 $string['privacy:metadata:taginstance:tiuserid'] = 'حيثما يكون بالإمكان وضع الوسوم على المحتوى المشترك من قبل الأفراد، يتم خزن مالك عينة الوسم';
-$string['privacy:metadata:tag:name'] = 'اسم الوسم - هذه هي الصيغة المعدلة من الاسم';
-$string['privacy:metadata:tag:rawname'] = 'اسم الوسم - هذا هو الاسم المعروض';
-$string['privacy:metadata:tag:timemodified'] = 'وقت آخر تعديل في الوسم';
-$string['privacy:metadata:tag:userid'] = 'مُعرَّف المستخدم الذي أنشأ الوسم';
 $string['ptags'] = 'وسوم المستخدم (بينها فواصل)';
 $string['relatedblogs'] = 'منشورات المدونة الأخيرة';
 $string['relatedtags'] = 'وسوم ذات صلة';
@@ -147,16 +147,16 @@ $string['tag'] = 'الوسم';
 $string['tagarea_blog_external'] = 'منشورات المدونة الخارجية';
 $string['tagarea_course'] = 'المساقات';
 $string['tagarea_course_modules'] = 'النشاطات والموارد';
+$string['tagarea_post'] = 'منشورات المدونة';
+$string['tagarea_user'] = 'إهتمامات المستخدم';
 $string['tagareaenabled'] = 'مُمَكَّنة';
 $string['tagareaname'] = 'الاسم';
-$string['tagarea_post'] = 'منشورات المدونة';
 $string['tagareas'] = 'مناطق الوسم';
-$string['tagarea_user'] = 'إهتمامات المستخدم';
 $string['tagcollection'] = 'مجموعة الوسوم';
 $string['tagcollection_help'] = 'مجموعات الوسوم هي حزم من الوسوم لمناطق مختلفة. على سبيل المثال، مجموعة من الوسوم القياسية يمكن استعمالها لوسم المساقات، مع الإبقاء على وسوم إهتمامات المستخدمين ومنشورات المدونات ضمن مجموعة أخرى. عندما ينقر المستخدم على وسم، فإن صفحة الوسوم ستعرض له فقط العناصر التي معه ضمن نفس المجموعة. يمكن إضافة الوسوم تلقائياً إلى مجموعة وفقاً للمنطقة الموسومة أو يمكن إضافتها يدوياً بمثابة وسوم قياسية.';
 $string['tagcollections'] = 'مجموعات الوسوم';
 $string['tagdescription'] = 'وصف الوسم';
-$string['tags'] = 'الوسوم';
+$string['tags'] = 'وسوم';
 $string['tagsaredisabled'] = 'الوسوم معطّلة';
 $string['thingstaggedwith'] = '"{$a->name}" مستعمل {$a->count} مرة/مرات';
 $string['thingtaggedwith'] = '"{$a->name}" مستعمل مرة واحدة';

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnetservice_enrol', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'mnetservice_enrol', language 'ar', version '3.8'.
  *
- * @package   mnetservice_enrol
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     mnetservice_enrol
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -29,7 +29,7 @@ $string['availablecourseson'] = 'المساقات المتوافرة في {$a}';
 $string['availablecoursesonnone'] = 'المضيف البعيد <a href="{$a->hosturl}">{$a->hostname}</a> لا يقدم أي مساقات لمستخدميك.';
 $string['clientname'] = 'عميل الانضمامات البعيد';
 $string['clientname_help'] = 'هذه الأداة تسمح لك بضم مستخدميك المحليين أو إلغاء انضمامهم في مضيفات بعيدة تسمح لك بإجراء ذلك عبر ملحق \'الانضمام البعيد لشبكة مودل\'.';
-$string['editenrolments'] = 'تحرير الانضمامات';
+$string['editenrolments'] = 'تحرير التسجيلات';
 $string['hostappname'] = 'التطبيق';
 $string['hostname'] = 'اسم المضيف';
 $string['hosturl'] = 'رابط المضيف البعيد';

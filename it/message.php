@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'it', branch 'MOODLE_38_STABLE'
+ * Strings for component 'message', language 'it', version '3.8'.
  *
- * @package   message
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     message
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -97,11 +97,11 @@ $string['individualconversations'] = 'privato';
 $string['info'] = 'Informazioni utente';
 $string['isnotinyourcontacts'] = '{$a} non è nei tuoi contatti';
 $string['loggedin'] = 'Online';
-$string['loggedindescription'] = 'Quando sono collegato';
 $string['loggedin_help'] = 'Configura la modalità preferita di ricezione notifiche quando sei autenticato';
+$string['loggedindescription'] = 'Quando sono collegato';
 $string['loggedoff'] = 'Offline';
-$string['loggedoffdescription'] = 'Quando non sono collegato';
 $string['loggedoff_help'] = 'Configura la modalità preferita di ricezione notifiche quando non sei autenticato';
+$string['loggedoffdescription'] = 'Quando non sono collegato';
 $string['managemessageoutputs'] = 'Preferenze di default delle notifiche';
 $string['message'] = 'Messaggio';
 $string['messagecontactrequestsnotification'] = '{$a} desidera entrare in contatto.';
@@ -161,7 +161,6 @@ $string['participants'] = 'Partecipanti';
 $string['pendingcontactrequests'] = 'Hai {$a} richieste di contatto in attesa';
 $string['permitted'] = 'Consentito';
 $string['privacy'] = 'Privacy';
-$string['privacy_desc'] = 'E\' possibile definire quali utenti possono inviarti messaggi';
 $string['privacy:export:conversationprefix'] = 'Conversazione:';
 $string['privacy:metadata:core_favourites'] = 'Conversazioni contrassegnate dall\'utente';
 $string['privacy:metadata:message_contact_requests'] = 'Elenco delle richieste di contatto';
@@ -181,6 +180,15 @@ $string['privacy:metadata:message_conversation_members'] = 'Elenco degli utenti 
 $string['privacy:metadata:message_conversation_members:conversationid'] = 'ID della conversazione';
 $string['privacy:metadata:message_conversation_members:timecreated'] = 'Data e ora di creazione del membro.';
 $string['privacy:metadata:message_conversation_members:userid'] = 'ID dell\'utente in una conversazione.';
+$string['privacy:metadata:message_user_actions'] = 'Elenco delle azioni dell\'utente del messaggio.';
+$string['privacy:metadata:message_user_actions:action'] = 'Azione svolta.';
+$string['privacy:metadata:message_user_actions:messageid'] = 'ID del messaggio di cui fa parte l\'azione.';
+$string['privacy:metadata:message_user_actions:timecreated'] = 'Data e ora di creazione del messaggio.';
+$string['privacy:metadata:message_user_actions:userid'] = 'ID dell\'utente che ha svolto l\'azione.';
+$string['privacy:metadata:message_users_blocked'] = 'Elenco degli utenti bloccati.';
+$string['privacy:metadata:message_users_blocked:blockeduserid'] = 'ID dell\'utente che è stato bloccato.';
+$string['privacy:metadata:message_users_blocked:timecreated'] = 'Data e ora di creazione dell\'azione di blocco.';
+$string['privacy:metadata:message_users_blocked:userid'] = 'ID dell\'utente che ha svolto l\'azione di blocco.';
 $string['privacy:metadata:messages'] = 'Messaggi';
 $string['privacy:metadata:messages:conversationid'] = 'ID della conversazione';
 $string['privacy:metadata:messages:customdata'] = 'Dati personalizzati, solitamente ID interne e un URL pubblica della immagine del mittente (Utente o gruppo)';
@@ -191,15 +199,6 @@ $string['privacy:metadata:messages:smallmessage'] = 'Messaggio abbreviato.';
 $string['privacy:metadata:messages:subject'] = 'Oggetto del messaggio';
 $string['privacy:metadata:messages:timecreated'] = 'Data e ora di creazione del messaggio.';
 $string['privacy:metadata:messages:useridfrom'] = 'ID dell\'utente che ha inviato il messaggio.';
-$string['privacy:metadata:message_user_actions'] = 'Elenco delle azioni dell\'utente del messaggio.';
-$string['privacy:metadata:message_user_actions:action'] = 'Azione svolta.';
-$string['privacy:metadata:message_user_actions:messageid'] = 'ID del messaggio di cui fa parte l\'azione.';
-$string['privacy:metadata:message_user_actions:timecreated'] = 'Data e ora di creazione del messaggio.';
-$string['privacy:metadata:message_user_actions:userid'] = 'ID dell\'utente che ha svolto l\'azione.';
-$string['privacy:metadata:message_users_blocked'] = 'Elenco degli utenti bloccati.';
-$string['privacy:metadata:message_users_blocked:blockeduserid'] = 'ID dell\'utente che è stato bloccato.';
-$string['privacy:metadata:message_users_blocked:timecreated'] = 'Data e ora di creazione dell\'azione di blocco.';
-$string['privacy:metadata:message_users_blocked:userid'] = 'ID dell\'utente che ha svolto l\'azione di blocco.';
 $string['privacy:metadata:notifications'] = 'Notifiche';
 $string['privacy:metadata:notifications:component'] = 'Componente responsabile dell\'invio della notifica.';
 $string['privacy:metadata:notifications:contexturl'] = 'URL relativo alla notifica.';
@@ -217,6 +216,7 @@ $string['privacy:metadata:notifications:useridfrom'] = 'ID dell\'utente che ha i
 $string['privacy:metadata:notifications:useridto'] = 'ID dell\'utente che ha ricevuto la notifica.';
 $string['privacy:metadata:preference:core_message_settings'] = 'Impostazioni della messaggistica.';
 $string['privacy:request:preference:set'] = 'Valore dell\'impostazione \'{$a->name}\', che era \'{$a->value}\'';
+$string['privacy_desc'] = 'E\' possibile definire quali utenti possono inviarti messaggi';
 $string['processorsettings'] = 'Impostazioni gestore';
 $string['removecontact'] = 'Elimina contatto';
 $string['removecontactconfirm'] = 'Sei sicuro di eliminare {$a} dai contatti?';

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'wiki', language 'sv', version '3.8'.
  *
- * @package   wiki
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     wiki
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -49,18 +49,15 @@ $string['commentscount'] = 'Kommentarer ({$a})';
 $string['comparesel'] = 'Jämför vald/a';
 $string['comparewith'] = 'Jämför version {$a->old} med version {$a->new}';
 $string['contributions'] = 'Bidrag';
-$string['contributions_help'] = 'Lista över sidor som Du har redigerat';
+$string['contributions_help'] = 'Lista över sidor som du har redigerat';
 $string['createcomment'] = 'Skapar kommentar';
 $string['createddate'] = 'Skapad: {$a->date} av {$a->username}';
 $string['createpage'] = 'Skapa sida';
 $string['creating'] = 'Skapar en wiki-sida';
 $string['creole'] = 'Kreol';
 $string['defaultformat'] = 'Standardformat';
-$string['defaultformat_help'] = 'Denna inställning avgör vilket förinställt format som används när wikisidor editeras.
-
-* HTML - HTML redigeraren är tillgänglig
-* Creole - Ett gemensamt wikispråk vilken har ett enkelt verktygsfält
-* Nwiki - Ett Mediawikiliknande språk som används i Nwikimodulen och har ett enkelt verktygsfält';
+$string['defaultformat_help'] = 'Denna inställning bestämmer formatet när wikisidor redigeras. <BR>
+* HTML - HTML-editorn används<BR>* Creole - ett vanligt wikiformat för vilket ett verktygsfält används.<BR>* Nwiki - Mediawiki-liknande format som normalt används i den modul som följer med Moodle.';
 $string['deletecomment'] = 'Tar bort kommentar';
 $string['deletecommentcheck'] = 'Ta bort kommentar';
 $string['deletecommentcheckfull'] = 'Är du säker på att du vill ta bort kommentaren?';
@@ -84,15 +81,14 @@ $string['filtername'] = 'Auto-länkning av wikisida';
 $string['firstpagetitle'] = 'Namn på första sidan';
 $string['firstpagetitle_help'] = 'Titel på den första sidan i wikin.';
 $string['forceformat'] = 'Framtvinga format';
-$string['forceformat_help'] = 'Om formatet är tvingande (förkryssat i rutan), finns det ingen möjlighet att välja format vid redigering av wikisida.';
+$string['forceformat_help'] = 'Om formatet är tvingat (kryssboxen är markerad) kan inte användaren välja ett annat format för att redigera wikin.';
 $string['format'] = 'Format';
+$string['format_help'] = 'Denna inställning bestämmer formatet när wikisidor redigeras. <BR>
+* HTML - HTML-editorn används<BR>* Creole - ett vanligt wikiformat för vilket ett verktygsfält används.<BR>* Nwiki - Mediawiki-liknande format som normalt används i den modul som följer med Moodle.';
 $string['formatcreole'] = 'Format av typ Creole';
 $string['formatcreole_help'] = 'Creole är ett vanligen använt märkspråk för wiki med ett redigeringsverktygsfält för infogning av innehåll med rätt märkspråk.
 
 För att skapa en ny sida, skriv den nya sidans namn omgivet av dubbla hakparenteser, tex [[Sida 2]].';
-$string['format_help'] = '* HTML - HTML redigeraren är tillgänglig
-* Creole - Ett gemensamt wikispråk vilken har ett enkelt verktygsfält
-* Nwiki - Ett Mediawikiliknande språk som används i Nwikimodulen och har ett enkelt verktygsfält';
 $string['formathtml'] = 'HTML-format';
 $string['formathtml_help'] = 'HTML redigeraren kan användas för att formatera innehåll.
 
@@ -163,17 +159,17 @@ $string['orphaned'] = 'Föräldralösa sidor';
 $string['orphaned_help'] = 'Lista över sidor som inte länkas från någon annan sida';
 $string['overridelocks'] = 'Överskrida låsningar';
 $string['overridinglocks'] = 'Överskrider låsningar';
+$string['page-mod-wiki-comments'] = 'Wikimodulens kommentarssida';
+$string['page-mod-wiki-history'] = 'Wikimodulens historiksida';
+$string['page-mod-wiki-map'] = 'Wiki översiktssida';
+$string['page-mod-wiki-view'] = 'Wikimodulens huvudsida';
+$string['page-mod-wiki-x'] = 'Vilken sida som helst i wikimodulen';
 $string['pageexists'] = 'Den här sidan finns redan, länkning dit pågår';
 $string['pageindex'] = 'Index för sida';
 $string['pageindex_help'] = 'Sidträdet för den här wikin';
 $string['pageislocked'] = 'Någon redigerar denna sida just nu. Försök igen om några minuter.';
 $string['pagelist'] = 'Lista över sidor';
 $string['pagelist_help'] = 'Lista över sidor i alfabetisk ordning';
-$string['page-mod-wiki-comments'] = 'Wikimodulens kommentarssida';
-$string['page-mod-wiki-history'] = 'Wikimodulens historiksida';
-$string['page-mod-wiki-map'] = 'Wiki översiktssida';
-$string['page-mod-wiki-view'] = 'Wikimodulens huvudsida';
-$string['page-mod-wiki-x'] = 'Vilken sida som helst i wikimodulen';
 $string['pagename'] = 'Namn på sida';
 $string['pluginadministration'] = 'Administration av Wiki';
 $string['pluginname'] = 'Wiki';
@@ -185,7 +181,7 @@ $string['removeallwikitags'] = 'Ta bort all wiki-taggar';
 $string['removepages'] = 'Ta bort sidor';
 $string['repeatedsection'] = 'Wiki fel: sektionsnamn går inte att använda flera gånger  \'{$a}\'';
 $string['restore'] = 'Återställ';
-$string['restoreconfirm'] = 'Är Du säker på att Du vill återställa version #{$a}?';
+$string['restoreconfirm'] = 'Är Du säker på att du vill återställa version #{$a}?';
 $string['restoreerror'] = 'Det gick inte att återställa version #{$a}.';
 $string['restorethis'] = 'Återställ den här versionen';
 $string['restoreversion'] = 'Återställ äldre version';
@@ -220,11 +216,17 @@ $string['viewperpage'] = 'Visa {$a} versioner per sida';
 $string['viewversion'] = 'Visar version #{$a} av sida';
 $string['wiki'] = 'Wiki';
 $string['wiki:addinstance'] = 'Lägg till en ny wiki';
-$string['wikiattachments'] = 'Bilagor till wiki';
-$string['wikiboldtext'] = 'Fet stil';
 $string['wiki:createpage'] = 'Skapa nya wiki-sidor';
 $string['wiki:editcomment'] = 'Lägg till kommentarer till sidor';
 $string['wiki:editpage'] = 'Spara wiki-sidor';
+$string['wiki:managecomment'] = 'Administrera wiki-kommentarer';
+$string['wiki:managefiles'] = 'Hantera wikifiler';
+$string['wiki:managewiki'] = 'Administrera inställningar för wiki';
+$string['wiki:overridelock'] = 'Överskrid låsta sidor';
+$string['wiki:viewcomment'] = 'Visa kommentarer till sida';
+$string['wiki:viewpage'] = 'Visa wiki-sidor';
+$string['wikiattachments'] = 'Bilagor till wiki';
+$string['wikiboldtext'] = 'Fet stil';
 $string['wikiexternalurl'] = 'Extern URL';
 $string['wikifiles'] = 'Wikifiler';
 $string['wikifiletable'] = 'Lista över uppladdade filer';
@@ -234,21 +236,15 @@ $string['wikiimage'] = 'Bild';
 $string['wikiinternalurl'] = 'Intern länk';
 $string['wikiintro'] = 'Beskrivning av wiki';
 $string['wikiitalictext'] = 'Kursiv stil';
-$string['wiki:managecomment'] = 'Administrera wiki-kommentarer';
-$string['wiki:managefiles'] = 'Hantera wikifiler';
-$string['wiki:managewiki'] = 'Administrera inställningar för wiki';
 $string['wikimode'] = 'Läge för wiki';
+$string['wikimode_help'] = 'Läget för wikin bestämmer om alla kan ändra i wikin eller om var och en ska ha en egen wiki. Om grupper ska samarbeta i olika wikis, välj Wiki för samarbet och ställ in gruppläge nedan.';
 $string['wikimodecollaborative'] = 'Wiki för samarbete';
-$string['wikimode_help'] = 'Läge för wiki avgör om alla kan redigera wikin - en wiki för sammarbete - eller om alla har sin egen wiki som endast de kan redigera i - individuella wikis.';
 $string['wikimodeindividual'] = 'Individuell wiki';
 $string['wikiname'] = 'Namn på wiki';
 $string['wikinowikitext'] = 'Ingen wiki-text';
 $string['wikiorderedlist'] = 'Ordnad lista';
-$string['wiki:overridelock'] = 'Överskrid låsta sidor';
 $string['wikipages'] = 'Wiki-sidor';
 $string['wikisettings'] = 'Inställningar för wiki';
 $string['wikiunorderedlist'] = 'Oorganiserad lista';
-$string['wiki:viewcomment'] = 'Visa kommentarer till sida';
-$string['wiki:viewpage'] = 'Visa wiki-sidor';
 $string['wrongversionlock'] = 'En annan användare har redigerat denna sida samtidigt som du redigerade och ditt innehåll är inte längre användbart.';
 $string['wrongversionsave'] = 'En annan användare har skapat en version samtidigt som du redigerade och du har skrivit över dennes ändringar, kontrollera i sidhistoriken.';

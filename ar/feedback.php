@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'feedback', language 'ar', version '3.8'.
  *
- * @package   feedback
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     feedback
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -48,15 +48,15 @@ $string['cannotsavetempl'] = 'حفظ القوالب غير مسموح به';
 $string['captcha'] = 'كلمة التحقق';
 $string['captchanotset'] = 'لم يتم إعداد كلمة التحقق.';
 $string['check'] = 'متعدد الخيارات - متعدد الاجابات';
-$string['checkbox'] = 'متعدد الخيارات - يسمح بإجابات متعددة (خانات تأشير)';
 $string['check_values'] = 'الاجابات المحتمله';
+$string['checkbox'] = 'متعدد الخيارات - يسمح بإجابات متعددة (خانات تأشير)';
 $string['choosefile'] = 'إختر الملف';
 $string['chosen_feedback_response'] = 'استجابة الإفادة المختارة';
 $string['closebeforeopen'] = 'لقد جعلت تاريخ الإنهاء قبل تاريخ البدء.';
+$string['complete_the_form'] = 'أجب على الأسئلة';
 $string['completed'] = 'مكتمل';
 $string['completed_feedbacks'] = 'الاجابات المسلمة';
 $string['completedon'] = 'مكتمل في {$a}';
-$string['complete_the_form'] = 'أجب على الأسئلة';
 $string['completionsubmit'] = 'المعاينة بمثابة مكتمل إذا تم تسليم الإفادة';
 $string['configallowfullanonymous'] = 'عند ضبطه على \'نعم\'، يمكن للمستخدمين إكمال نشاط الإفادة من الصفحة الرئيسية دون الحاجة إلى تسجيل دخولهم.';
 $string['confirmdeleteentry'] = 'هل أنت متأكد من رغبتك في حذف هذا الادخال؟';
@@ -96,20 +96,16 @@ $string['dependvalue'] = 'القيمة المعتَمَد عليها';
 $string['description'] = 'الوصف';
 $string['do_not_analyse_empty_submits'] = 'لا تقم بتحليل التسليمات الفارغة';
 $string['downloadresponseas'] = 'قم بتنزيل كل الإجابات بشكل:';
+$string['drop_feedback'] = 'أحذف من المقرر الدراسي هذا';
 $string['dropdown'] = 'خيارات متعددة - إجابة واحدة مسموح بها (قائمة منسدلة)';
+$string['dropdown_values'] = 'إجابات';
 $string['dropdownlist'] = 'خيارات متعددة - إجابة واحدة (قائمة منسدلة)';
 $string['dropdownrated'] = 'قائمة منسدلة (مقيَّم)';
-$string['dropdown_values'] = 'إجابات';
-$string['drop_feedback'] = 'أحذف من المقرر الدراسي هذا';
 $string['edit_item'] = 'تحرير السؤال';
 $string['edit_items'] = 'تحرير الأسئلة';
 $string['email_notification'] = 'تمكين إشعارات التسليم';
 $string['email_notification_help'] = 'عند تمكينه، سيتلقى المعلمون إشعاراً بشأن تسليمات الإفادة.';
-$string['emailteachermail'] = 'لقد أكمل {$a->username} نشاط الإفادة: \'{$a->feedback}\'
-
-يمكنك مشاهدتها هنا:
-
- {$a->url}';
+$string['emailteachermail'] = 'أتم {$a->username} الإفادة: \'{$a->feedback}\' يمكنك مشاهدتها هنا: {$a->url}';
 $string['emailteachermailhtml'] = '<p>لقد أكمل {$a->username} نشاط الإفادة: <i>\'{$a->feedback}\'</i>.
 </p>
 <p>إنه <a href="{$a->url}">متاح في الموقع</a>.</p>';
@@ -119,39 +115,39 @@ $string['eventresponsesubmitted'] = 'تم تقديم الإجابة';
 $string['export_questions'] = 'تصدير الأسئلة';
 $string['export_to_excel'] = 'تصدير إلى Excel';
 $string['feedback:addinstance'] = 'إضافة إفادة جديدة';
-$string['feedbackclose'] = 'السماح بالإجابات إلى';
-$string['feedback:complete'] = 'إكمال الإفادة';
-$string['feedbackcompleted'] = '{$a->username} قد أكمل {$a->feedbackname}';
+$string['feedback:complete'] = 'إكمال إفادة';
 $string['feedback:createprivatetemplate'] = 'إنشاء قالب خاص';
 $string['feedback:createpublictemplate'] = 'إنشاء قالب عام';
 $string['feedback:deletesubmissions'] = 'حذف التسليمات المكتملة';
 $string['feedback:deletetemplate'] = 'حذف القالب';
 $string['feedback:edititems'] = 'تحرير العناصر';
-$string['feedback_is_not_for_anonymous'] = 'الإفادة ليست لمجهولي الهوية';
-$string['feedback_is_not_open'] = 'الإفادة ليست مفتوحة';
 $string['feedback:mapcourse'] = 'تعيين المساقات للإفادات العمومية';
-$string['feedbackopen'] = 'السماح بالإجابات من';
 $string['feedback:receivemail'] = 'تلقي إشعار البريد الالكتروني';
 $string['feedback:view'] = 'معاينة الإفادة';
-$string['feedback:viewanalysepage'] = 'معاينة صفحة التحليل بعد الإرسال';
-$string['feedback:viewreports'] = 'معاينة التقارير';
+$string['feedback:viewanalysepage'] = 'شاهد صفحة التحليل بعد الإرسال';
+$string['feedback:viewreports'] = 'عاين التقارير';
+$string['feedback_is_not_for_anonymous'] = 'الإفادة ليست لمجهولي الهوية';
+$string['feedback_is_not_open'] = 'الإفادة ليست مفتوحة';
+$string['feedbackclose'] = 'السماح بالإجابات إلى';
+$string['feedbackcompleted'] = '{$a->username} قد أكمل {$a->feedbackname}';
+$string['feedbackopen'] = 'السماح بالإجابات من';
 $string['file'] = 'الملف';
 $string['filter_by_course'] = 'الترشيح حسب المساق';
 $string['handling_error'] = 'وقع خطأ عند معاملة إجراء وحدة الإفادة';
 $string['hide_no_select_option'] = 'إخفِ خيار "غير محدد"';
 $string['horizontal'] = 'أفقي';
-$string['importfromthisfile'] = 'استورد من هذا الملف';
 $string['import_questions'] = 'استيراد الأسئلة';
 $string['import_successfully'] = 'تم الاستيراد بنجاح';
+$string['importfromthisfile'] = 'استورد من هذا الملف';
 $string['includeuserinrecipientslist'] = 'قم بتضمين {$a} في قائمة المستلمين';
 $string['indicator:cognitivedepth'] = 'الإفادة معرفياً';
+$string['indicator:cognitivedepth_help'] = 'هذا المؤشر مبني على عمق الحالة المعرفية التي وصلها الطالب في نشاط الإفادة.';
 $string['indicator:cognitivedepthdef'] = 'الإفادة معرفياً';
 $string['indicator:cognitivedepthdef_help'] = 'لقد وصل المشارك إلى هذه النسبة المئوية من المشاركة المعرفية التي وفرتها نشاطات الإفادة خلال فترة التحليل هذه (المستويات = لا معاينة، معاينة، تقديم)';
-$string['indicator:cognitivedepth_help'] = 'هذا المؤشر مبني على عمق الحالة المعرفية التي وصلها الطالب في نشاط الإفادة.';
 $string['indicator:socialbreadth'] = 'الإفادة إجتماعياً';
+$string['indicator:socialbreadth_help'] = 'هذا المؤشر مبني على عمق التوسع الاجتماعي الذي وصله الطالب في نشاط الإفادة.';
 $string['indicator:socialbreadthdef'] = 'الإفادة إجتماعياً';
 $string['indicator:socialbreadthdef_help'] = 'لقد وصل المشارك إلى هذه النسبة المئوية من المشاركة الاجتماعية التي وفرتها نشاطات الإفادة خلال فترة التحليل هذه (المستويات = لا مشاركة، المشاركة منفرداً، المشاركة مع الآخرين)';
-$string['indicator:socialbreadth_help'] = 'هذا المؤشر مبني على عمق التوسع الاجتماعي الذي وصله الطالب في نشاط الإفادة.';
 $string['info'] = 'المعلومات';
 $string['infotype'] = 'نوع المعلومات';
 $string['insufficient_responses'] = 'إجابات غير كافية';
@@ -169,7 +165,7 @@ $string['mapcourses'] = 'قم بتعيين الإفادة إلى المساقا�
 $string['mappedcourses'] = 'المساقات المعينة';
 $string['mappingchanged'] = 'تعيين المساقات قد تغير';
 $string['maximal'] = 'الأقصى';
-$string['messageprovider:message'] = 'تذكير بتقديم الإفادة';
+$string['messageprovider:message'] = 'تذكير إفادة';
 $string['messageprovider:submission'] = 'إعلامات الإفادة';
 $string['minimal'] = 'الأدنى';
 $string['mode'] = 'نمط';
@@ -187,25 +183,25 @@ $string['modulename_help'] = 'وحدة نشاط الإفادة تُمكن الم
 $string['modulenameplural'] = 'إفادات';
 $string['move_item'] = 'أنقل هذا السؤال ';
 $string['multichoice'] = 'متعدد الخيارات';
+$string['multichoice_values'] = 'قيم متعدد الخيارات';
 $string['multichoiceoption'] = '<span class="weight">({$a->weight}) </span>{$a->name}';
 $string['multichoicerated'] = 'متعدد الخيارات (مقيَّم)';
 $string['multichoicetype'] = 'نوع متعدد الخيارات';
-$string['multichoice_values'] = 'قيم متعدد الخيارات';
-$string['multiplesubmit'] = 'إرسالات متعددة';
+$string['multiplesubmit'] = 'السماح بتسليمات متعددة';
 $string['multiplesubmit_help'] = 'عند تمكينه للاستطلاعات غير المشخصنة، يمكن للمستخدمين تقديم إفاداتهم لعدد غير محدد من المرات.';
 $string['name'] = 'اسم';
-$string['nameandlabelformat'] = '({$a->label}) {$a->name}';
 $string['name_required'] = 'الاسم مطلوب';
+$string['nameandlabelformat'] = '({$a->label}) {$a->name}';
 $string['next_page'] = 'الصفحة التالية';
 $string['no_handler'] = 'لا يتوفر معامل إجراء لـ';
 $string['no_itemlabel'] = 'بلا ملصق';
 $string['no_itemname'] = 'لا يوجد اسم عنصر';
 $string['no_items_available_yet'] = 'لم يتم وضع أي أسئلة بعد';
+$string['no_templates_available_yet'] = 'لا قوالب متاحة بعد';
 $string['non_anonymous'] = 'سيتم تسجيل اسم المستخدم وعرضه مع الإجابات';
 $string['non_anonymous_entries'] = 'الإدخالات مكشوفة الهوية ({$a})';
 $string['non_respondents_students'] = 'الطلاب غير المتجاوبين ({$a})';
 $string['not_completed_yet'] = 'لم يكتمل بعد';
-$string['no_templates_available_yet'] = 'لا قوالب متاحة بعد';
 $string['not_selected'] = 'غير محددة';
 $string['not_started'] = 'لم يبدأ';
 $string['numberoutofrange'] = 'العدد خارج المدى';
@@ -219,9 +215,9 @@ $string['only_one_captcha_allowed'] = 'يُسمح بكلمة تحقق واحدة
 $string['openafterclose'] = 'لقد جعلتَ تاريخ الفتح بعد تاريخ الإغلاق';
 $string['overview'] = 'نظرة عامة';
 $string['page'] = 'صفحة';
-$string['page_after_submit'] = 'الصفحة بعد الإرسال';
-$string['pagebreak'] = 'فاصل صفحات';
 $string['page-mod-feedback-x'] = 'أي صفحة لوحدة نشاط الإفادة';
+$string['page_after_submit'] = 'رسالة الإكمال';
+$string['pagebreak'] = 'فاصل صفحات';
 $string['pluginadministration'] = 'إدارة الإفادة';
 $string['pluginname'] = 'الإفادة';
 $string['position'] = 'موضع';
@@ -229,11 +225,11 @@ $string['previous_page'] = 'صفحة سابقة';
 $string['privacy:metadata:completed'] = 'سِجل بالتسليمات المقدمة إلى الإفادة';
 $string['privacy:metadata:completed:anonymousresponse'] = 'فيما إذا كان التسليم معداً لإخفاء هوية صاحبه';
 $string['privacy:metadata:completed:timemodified'] = 'وقت آخر تعديل في التسليم';
-$string['privacy:metadata:completedtmp'] = 'سِجل بالتسليمات التي لا تزال جارية';
 $string['privacy:metadata:completed:userid'] = 'مُعرَّف المستخدم الذي أكمل نشاط الإفادة';
+$string['privacy:metadata:completedtmp'] = 'سِجل بالتسليمات التي لا تزال جارية';
 $string['privacy:metadata:value'] = 'سِجل بإجابة السؤال';
-$string['privacy:metadata:valuetmp'] = 'سِجل بإجابة السؤال بالنسبة إلى تسليم لا يزال جارياً';
 $string['privacy:metadata:value:value'] = 'الإجابة المختارة';
+$string['privacy:metadata:valuetmp'] = 'سِجل بإجابة السؤال بالنسبة إلى تسليم لا يزال جارياً';
 $string['public'] = 'عام';
 $string['question'] = 'السؤال';
 $string['questionandsubmission'] = 'إعدادات السؤال والتسليم';
@@ -261,7 +257,7 @@ $string['selected_dump'] = 'الفهارس المختارة لمتغير $SESSIO
 $string['send'] = 'أرسل';
 $string['send_message'] = 'أرسل الرسالة';
 $string['show_all'] = 'إظهار الكل';
-$string['show_analysepage_after_submit'] = 'عرض صفحة التحليل بعد الإرسال';
+$string['show_analysepage_after_submit'] = 'إظهار صفحة التحليل';
 $string['show_entries'] = 'عرض الردود';
 $string['show_entry'] = 'إظهار إجابة';
 $string['show_nonrespondents'] = 'معاينة غير المستجيبين';
@@ -274,8 +270,8 @@ $string['switch_item_to_not_required'] = 'إجعله غير مطلوب';
 $string['switch_item_to_required'] = 'إجعله مطلوباً';
 $string['template'] = 'قالب';
 $string['template_deleted'] = 'تم حذف القالب';
-$string['templates'] = 'قوالب';
 $string['template_saved'] = 'القالب الذي تم حفظه';
+$string['templates'] = 'قوالب';
 $string['textarea'] = 'إجابة بنص أطول';
 $string['textarea_height'] = 'عدد الأسطر';
 $string['textarea_width'] = 'العرض';

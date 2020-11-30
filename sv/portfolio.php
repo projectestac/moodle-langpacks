@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'portfolio', language 'sv', version '3.8'.
  *
- * @package   portfolio
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     portfolio
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -31,7 +31,7 @@ $string['addnewportfolio'] = 'Lägg till en ny portfolio';
 $string['addtoportfolio'] = 'Exportera till portfolio';
 $string['availableformats'] = 'Tillgängliga format för export';
 $string['callbackclassinvalid'] = 'Den klass \'callback\' som angavs var ogiltig eller inte del av hierarkin för \'portfolio_caller\'';
-$string['callercouldnotpackage'] = 'Det gick inte att packa upp Dina data för export: det ursprungliga felet var {$a}';
+$string['callercouldnotpackage'] = 'Det gick inte att packa upp dina data för export: det ursprungliga felet var {$a}';
 $string['cannotsetvisible'] = 'Det går inte att ställa in det här till synlig - plugin-programmet har avaktiverats helt p g a felaktig konfiguration';
 $string['commonportfoliosettings'] = 'Vanliga inställningar för portfolio';
 $string['commonsettingsdesc'] = '<p>Om en överföring anses ta godtagbar eller lång tid beror på om användaren kan vänta eller inte tills överföringen är klar.</p><p>Storlekar upp till värdet för godtagbar tid händer direkt utan att användaren tillfrågas, och godtagbar resp. lång överföringstid innebär att de erbjuds möjligheten men varnas för att det kan ta lite tid.</p><p>Dessutom kan vissa portfolioplugins ignorera denna inställning totalt och tvinga alla överföringar att ställas i kö.</p>';
@@ -40,8 +40,8 @@ $string['configplugin'] = 'Konfigurera plugin-program för portfolio';
 $string['configure'] = 'Konfigurera';
 $string['confirmcancel'] = 'Är Du säker på att Du vill avbryta den här exporten?';
 $string['confirmexport'] = 'Var snäll och bekräfta den här exporten';
-$string['confirmsummary'] = 'Sammanfattning av Din export';
-$string['continuetoportfolio'] = 'Fortsätt till Din portfolio';
+$string['confirmsummary'] = 'Sammanfattning av din export';
+$string['continuetoportfolio'] = 'Fortsätt till din portfolio';
 $string['deleteportfolio'] = 'Ta bort instans av portfolio';
 $string['destination'] = 'Destination';
 $string['disabled'] = 'Export av portfolio är inte aktiverade på den här webbplatsen';
@@ -76,7 +76,7 @@ $string['format_plainhtml'] = 'HTML';
 $string['format_presentation'] = 'Presentation';
 $string['format_richhtml'] = 'HTML med bilagor';
 $string['format_spreadsheet'] = 'Kalkylblad';
-$string['format_text'] = 'Vanlig text';
+$string['format_text'] = 'Enkel text';
 $string['format_video'] = 'Video';
 $string['highdbsizethreshold'] = 'Hög överföring dbstorlek';
 $string['highdbsizethresholddesc'] = 'Antal db poster vilka kommer att anses ta lång tid att överföra';
@@ -121,6 +121,7 @@ $string['moderatefilesizethresholddesc'] = 'Filstorlekar över detta tröskelvä
 $string['multipleinstancesdisallowed'] = 'Försöker skapa en ny instans av en plugin som inte tillåter multipla instanser ({$a})';
 $string['noavailableplugins'] = 'Tyvärr, det finns inga tillgängliga portfolios för dig att exportera till';
 $string['nocallbackclass'] = 'Kunde inte hitta klassen för callback som ska användas ({$a})';
+$string['nocallbackfile'] = 'Något i modulen du försöker exportera från är fel - kunde inte hitta någon lämplig fil ({$a})';
 $string['noclassbeforeformats'] = 'Du måste ställa in callback klassen före anrop av set_formats in portfolio_button';
 $string['noinstanceyet'] = 'Ännu inte valt';
 $string['nologs'] = 'Det finns inga loggar att visa!';

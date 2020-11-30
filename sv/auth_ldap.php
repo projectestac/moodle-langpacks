@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'sv', branch 'MOODLE_38_STABLE'
+ * Strings for component 'auth_ldap', language 'sv', version '3.8'.
  *
- * @package   auth_ldap
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     auth_ldap
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -40,14 +40,12 @@ $string['auth_ldap_contexts_key'] = 'Sammanhang';
 $string['auth_ldap_create_context'] = 'Om Du aktiverar \'Skapa användare\' med e-postbekräftelse så ska Du specifiera den kontext där användare skapas. Denna kontext bör vara en annan än den vanliga för att undvika säkerhetsrisker. Du behöver inte lägga till denna kontext till variabeln \'ldap_context\'. Moodle letar automatiskt efter användare från den här kontexten.<br /><b>OBS!</b> Du måste modifiera metoden \'ser_create\' i filen \'auth/ldap/auth.php för att se till att \'skapa användare\' fungerar.';
 $string['auth_ldap_create_context_key'] = 'Sammanhang för nya användare';
 $string['auth_ldap_create_error'] = 'Fel i samband med en användare skulle skapas i LDAP';
-$string['auth_ldapdescription'] = 'Denna metod ger autenticering mot en extern LDAP-server. Om det givna användarnamnet och lösenordet är giltiga skapar Moodle en plats för en ny användare i databasen. Denna modul kan läsa användarattribut från LDAP och fylla i på förhand önskade fält i Moodle. För följande inloggning är endast användarnamn och lösenord kontrollerade.';
 $string['auth_ldap_expiration_desc'] = 'Välj \'Nej\' för att avaktivera kontroll av lösenord som har gått ut eller LDAP för att läsa \'passwordexpiration time\' direkt från LDAP. Kom ihåg att fylla i namnet på attributet, nämligen \'ldap_expireattr\'.';
 $string['auth_ldap_expiration_key'] = 'Giltighetstiden går ut';
 $string['auth_ldap_expiration_warning_desc'] = 'Antal dagar innan det skickas en varning om att giltighetstiden för lösenordet går ut.';
 $string['auth_ldap_expiration_warning_key'] = 'Varning om att  giltighetstiden går ut.';
 $string['auth_ldap_expireattr_desc'] = 'Valfritt: detta överskrider det LDAP-attribut som lagrar den giltighetstid då lösenordet går ut.';
 $string['auth_ldap_expireattr_key'] = 'Attribut för att giltighetstiden går ut';
-$string['auth_ldapextrafields'] = 'Dessa fält är valfria. Du kan välja att på förhand fylla i några användarfält för Moodle med information från <b>LDAP-fält</b> som Du kan specificera här. <p>Om Du lämnar dessa fält tomma, så kommer inget att föras över från LDAP och standardvärden för Moodle kommer att användas istället. I vilket fall som helst, kommer användaren kunna redigera alla dessa fält efter det att de loggat in.</p>';
 $string['auth_ldap_graceattr_desc'] = 'Valfritt: Överskrider LDAP-attributet  \'gracelogin\'';
 $string['auth_ldap_gracelogin_key'] = 'Attribut för \'grace\' inloggning';
 $string['auth_ldap_gracelogins_desc'] = 'Aktivera stöd för LDAP \'gracelogin\'. När tiden för ett lösenord har gått ut så kan användaren logga in tills räknaren för \'gracelogin\' är 0. Att aktivera denna inställning visar ett \'grace login\'-meddelande om lösenordet har gått ut.';
@@ -63,11 +61,10 @@ $string['auth_ldap_memberattribute'] = 'Specificera en medlems egenskaper när a
 $string['auth_ldap_memberattribute_isdn'] = 'Valfritt: Detta överskrider hantering av värden för medlemmars attribut, antingen 0 eller 1.';
 $string['auth_ldap_memberattribute_isdn_key'] = 'medlems attribut använder dn';
 $string['auth_ldap_memberattribute_key'] = 'medlems attribut';
+$string['auth_ldap_no_mbstring'] = 'Du behöver komplementeringen mbstring för att skapa användare i den aktiva katalogen.';
 $string['auth_ldap_noconnect'] = 'Det gick inte att ansluta LDAP-modulen till server: {$a}';
 $string['auth_ldap_noconnect_all'] = 'Det gick inte att ansluta LDAP-modulen till några servrar: {$a}';
 $string['auth_ldap_noextension'] = 'Varning! Det verkar som om det inte finns någon PHP LDAP-modul. Var snäll och säkerställ att den är installerad och aktiverad.';
-$string['auth_ldap_no_mbstring'] = 'Du behöver komplementeringen mbstring för att skapa användare i den aktiva katalogen.';
-$string['auth_ldapnotinstalled'] = 'Det går inte att använda autenticering via LDAP. PHP-modulen för LDAP är inte installerad.';
 $string['auth_ldap_objectclass'] = 'Valfritt: Detta överskrider det \'objectClass\' som används för att namnge/söka användare på \'ldap_user_type\'. Normalt sett så behöver Du inte ändra på detta.';
 $string['auth_ldap_objectclass_key'] = 'Klass på objekt';
 $string['auth_ldap_opt_deref'] = 'Detta avgör hur alias hanteras under sökning. Markera ett av det följande värdena: "No" (LDAP_DEREF_NEVER) eller "Yes" (LDAP_DEREF_ALWAYS)';
@@ -90,22 +87,25 @@ $string['auth_ldap_user_type'] = 'Välj hur användare ska lagras i LDAP. Den h�
 $string['auth_ldap_user_type_key'] = 'Typ av användare';
 $string['auth_ldap_usertypeundefined'] = '\'config.user_type\' är inte definierad eller också stödjer funktionen \'ldap_expirationtime2unix\' inte den valda typen!';
 $string['auth_ldap_usertypeundefined2'] = '\'config.user_type\' är inte definierad eller också stödjer funktionen \'ldap_unixi2expirationtime\' inte den valda typen!';
-$string['auth_ldap_version'] = 'Detta är den version av LDAP-protokollet som Din server använder.';
+$string['auth_ldap_version'] = 'Detta är den version av LDAP-protokollet som din server använder.';
 $string['auth_ldap_version_key'] = 'Version';
+$string['auth_ldapdescription'] = 'Denna metod ger autentisering mot en extern LDAP-server. Om det givna användarnamnet och lösenordet är giltiga skapar Moodle en plats för en ny användare i databasen. Denna modul kan läsa användarattribut från LDAP och fylla i på förhand önskade fält i Moodle. För följande inloggning är endast användarnamn och lösenord kontrollerade.';
+$string['auth_ldapextrafields'] = 'Dessa fält är valfria. Du kan välja att på förhand fylla i några användarfält för Moodle med information från <b>LDAP-fält</b> som Du kan specificera här. <p>Om Du lämnar dessa fält tomma, så kommer inget att föras över från LDAP och standardvärden för Moodle kommer att användas istället. I vilket fall som helst, kommer användaren kunna redigera alla dessa fält efter det att de loggat in.</p>';
+$string['auth_ldapnotinstalled'] = 'Det går inte att använda autentisering via LDAP. PHP-modulen för LDAP är inte installerad.';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = 'Ställ in detta till Ja för att försöka Enkel inloggning med hjälp av domänen NTLM. <strong>OBS!</strong>Detta kräver en kompletterande inställning på webbservern för att det ska fungera, se <a href="http://docs.moodle.org/en/NTLM_authentication">http://docs.moodle.org/en/NTLM_authentication</a>';
 $string['auth_ntlmsso_enabled_key'] = 'Aktivera';
 $string['auth_ntlmsso_ie_fastpath_key'] = 'Snabbväg till MS IE?';
 $string['auth_ntlmsso_subnet'] = 'Om detta är inställt så kommer det bara att försöka med SSO med klienter i det här undernätet. Format: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = 'Undernät';
-$string['auth_ntlmsso_type_key'] = 'Typ av autenticering';
+$string['auth_ntlmsso_type_key'] = 'Typ av autentisering';
 $string['connectingldap'] = 'Ansluter till en LDAP-server';
 $string['creatingtemptable'] = 'Skapar en tillfällig tabell {$a} ';
 $string['didntfindexpiretime'] = 'password_expire() kunde inte hitta någon utgående tid';
 $string['didntgetusersfromldap'] = 'Hittade inga användare från LDAP - fel? - avslutar';
 $string['gotcountrecordsfromldap'] = 'Hittade {$a} datauppgifter som kommer från LDAP';
 $string['morethanoneuser'] = 'Konstigt!?! Mer än en datauppgift för användare hittades i LDAP. Endast den första används.';
-$string['noemail'] = 'Vi försökte att skicka e-post till Dig men det misslyckades!';
+$string['noemail'] = 'Vi försökte att skicka e-post till dig men det misslyckades!';
 $string['notcalledfromserver'] = 'Detta borde inte anropas från webbservern!';
 $string['noupdatestobedone'] = 'Det finns inga uppdateringar att göra';
 $string['nouserentriestoremove'] = 'Det finns inga inlägg från användare att ta bort';

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,19 +12,20 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_paypal', language 'ar', branch 'MOODLE_38_STABLE'
+ * Strings for component 'enrol_paypal', language 'ar', version '3.8'.
  *
- * @package   enrol_paypal
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     enrol_paypal
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['assignrole'] = 'تعيين دور';
+$string['assignrole'] = 'إسناد دور';
 $string['businessemail'] = 'رسالة عمل PayPal';
 $string['businessemail_desc'] = 'عنوان البريد الالكتروني لحساب العمل الخاص بك في PayPal';
 $string['cost'] = 'تكلفة الانضمام';
@@ -52,11 +52,11 @@ $string['mailstudents'] = 'أبلغ الطلبة';
 $string['mailteachers'] = 'أبلغ المعلمين';
 $string['messageprovider:paypal_enrolment'] = 'رسائل انضمام PayPal';
 $string['nocost'] = 'لا تكاليف مالية مفروضة على الانضمام إلى هذا المساق!';
-$string['paypalaccepted'] = 'تم قبول التبرع المدفوع';
 $string['paypal:config'] = 'تهيئة عينة انضمام PayPal';
 $string['paypal:manage'] = 'إدارة المستخدمين المنضمين';
-$string['paypal:unenrol'] = 'إلغاء انضمام المستخدمين إلى المساق';
+$string['paypal:unenrol'] = 'إلغاء تسجيل المستخدمين من مقرر';
 $string['paypal:unenrolself'] = 'إلغاء انضمامه إلى المساق';
+$string['paypalaccepted'] = 'تم قبول التبرع المدفوع';
 $string['pluginname'] = 'PayPal';
 $string['pluginname_desc'] = 'تسمح وحدة PayPal لك بإعداد بيع المساقات. إذا كانت كلفة اي مساق صفراً، فلن تتم مطالبة الطلبة بالدفع مقابل الدخول. هناك تكلفة عامة على مستوى الموقع يمكنك تحديدها هنا على أنها المبلغ الافتراضي، ومن ثم هناك إعداد على مستوى المساق يمكنك ضبطه لكل مساق على حدة. تكلفة المساق تتجاوز تكلفة الموقع.';
 $string['privacy:metadata:enrol_paypal:enrol_paypal'] = 'معلومات عن معاملات PayPal المالية لانضمامات PayPal';
