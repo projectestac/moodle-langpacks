@@ -60,8 +60,12 @@ Som tillägg, alla webservice förfrågningar från verktygsleverantören kommer
 Om detta alternativ används kontrollera att denna Moodleplats och verktygsleverantören stödjer SSL.';
 $string['forced_help'] = 'Denna inställning har tvingats i en kursnivå eller webbplatsnivå konfiguration för verktyg. Du kan inte ändra den från detta gränssnitt.';
 $string['global_tool_types'] = 'Globala verktygstyper';
+$string['modulenameplural'] = 'Externa verktyg';
+$string['pluginname'] = 'Externa verktyg';
 $string['return_to_course'] = 'Klicka <a href="{$a->link}" target="_top">here</a> för att återgå till kursen.';
+$string['saveallfeedback'] = 'Spara all återkoppling';
 $string['submissions'] = 'Inskickningar';
+$string['successfullycreatedtooltype'] = 'Skapade nytt verktyg!';
 $string['toolproxy_help'] = 'Externa verktygsregistreringar gör att Moodle-webbplatsadministratörer kan konfigurera externa verktyg från en verktygsproxy som erhållits från en verktygsleverantör som stöder LTI 2.0. En registrerings-URL som tillhandahålls av verktygsleverantören är allt som krävs för att initiera processen. De funktioner och tjänster som erbjuds verktygsleverantören väljs vid konfigurering av en ny registrering.
 
 Verktygsregistreringar som anges på denna sida är uppdelade i fyra kategorier:

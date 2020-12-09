@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['incomingmailconfiguration'] = 'Inställningar för inkommande mejl';
+$string['incomingmailserversettings'] = 'Inställningar för inkommande E-post server';
 $string['message_handlers'] = 'Meddelandehanterare';
 $string['messageinbound'] = 'Inkommande meddelande';
 $string['messageinboundenabled'] = 'Aktivera bearbetning av inkommande E-post';
@@ -67,3 +68,4 @@ $string['privacy:metadata:messagelist:address'] = 'Adressen dit meddelandet skic
 $string['privacy:metadata:messagelist:messageid'] = 'Meddelande-ID';
 $string['privacy:metadata:messagelist:timecreated'] = 'Tidpunkten då posten skapades';
 $string['privacy:metadata:messagelist:userid'] = 'ID för användaren som behöver godkänna meddelandet';
+$string['taskcleanup'] = 'Städa upp overifierad inkommande e-post';

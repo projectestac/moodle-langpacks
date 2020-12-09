@@ -29,5 +29,5 @@ $string['pluginname'] = 'Textbereicj';
 $string['privacy:metadata:profile_field_textarea:data'] = 'Gespeicherte Nutzerdaten im Textfeld des Nutzerprofils';
 $string['privacy:metadata:profile_field_textarea:dataformat'] = 'Format der gespeicherten Nutzerdaten';
 $string['privacy:metadata:profile_field_textarea:fieldid'] = 'ID des Profilfeldes';
-$string['privacy:metadata:profile_field_textarea:tableexplanation'] = 'Format der gespeicherten Nutzerdaten';
+$string['privacy:metadata:profile_field_textarea:tableexplanation'] = 'Zusätzliche Profildaten';
 $string['privacy:metadata:profile_field_textarea:userid'] = 'ID des Nutzers dessen Daten im Textbereichs-Plugin gespeichert werden';

@@ -51,7 +51,7 @@ $string['uploadpictures'] = 'Ladda upp användarbilder';
 $string['uploadpictures_help'] = '<p>Det går att ladda upp användarbilder som zippade bildfiler. Man bör ge bildfilerna ett namn <i>chosen-user-attribute.extension</i>. Om t.ex. det valda användarattribut som används för att matcha  bilder är användarnamn och detta namn är pelle1234, då bör filnamnet på bilden vara pelle1234.jpg.</p>
 <p>De bildformat som  stödjs är gif, jpg, och png.</p>
 <p>Namn på bildfiler är inte skiftlägeskänsliga.</p>';
-$string['uploadusers'] = 'Ladda upp användare från fil';
+$string['uploadusers'] = 'Ladda upp användare';
 $string['uploadusers_help'] = '<p>Lägg till att börja med märke till att <strong>det i de flesta fall inte är nödvändigt att importera användare i bulk</strong>. För att minimera ditt underhållsarbete bör du istället först och främst undersöka de olika inte-manuella alternativen för autenticering, som t.ex. att koppla till befintliga externa databaser eller att låta användarna skapa sina konton själva. För mer info se sektionen för autenticering i menyerna för administration.</p>
 <p>Om du är säker på att du vill importera ett flertal användarkonton från en textfil då behöver du formatera din textfil enligt följande:</p>
 
@@ -110,8 +110,8 @@ reznort, lite_hemligt, Trent, Reznor, reznort@skaane.edu, sv, 6736733, 0, Advanc
 <li>http://www.example.com/~%u/ = http://www.example.com/~jdoe/ (om användarnamnet är jdoe eller %-1f%-l)</li>
 </ul>
 <p>Denna behandling av mallarna tillämpas bara på standardvärdena och inte på den värden som hämtas från den (kommaseparerade) CSV-filen.</p>
-<p>För att du ska kunna skapa riktiga användarnamn för Moodle så omvandlas användarnamnen alltid till minuskler (små bokstäver). Dessutom är det så att om alternativet &quot;Tillåt specialtecken i användarnamn&quot; på sidan Regler för användning är avaktiverat så kommer tecken som inte är bokstäver, siffror, bindestreck (-) och punkt (.) att tas bort. </p>
-<p>Om t.ex. förnamnet är Johan Jr. och efternamnet är Andersson då kommer användarnamnet %-f_%-l att  resultera i johan jr._andersson när  &quot;Tillåt specialtecken i användarnamn&quot; är aktiverat och  johanjr.andersson när det är avaktiverat.</p>
+<p>För att du ska kunna skapa riktiga användarnamn för Moodle så omvandlas användarnamnen alltid till minuskler (små bokstäver). Dessutom är det så att om alternativet &quot;Tillåt specialtecken i användarnamn&quot; på sidan Regler för användning är inaktiverat så kommer tecken som inte är bokstäver, siffror, bindestreck (-) och punkt (.) att tas bort. </p>
+<p>Om t.ex. förnamnet är Johan Jr. och efternamnet är Andersson då kommer användarnamnet %-f_%-l att  resultera i johan jr._andersson när  &quot;Tillåt specialtecken i användarnamn&quot; är aktiverat och  johanjr.andersson när det är inaktiverat.</p>
 <p>När &quot;Lägg till räknare&quot; i &quot;Hantering av nya användarnamn som är dubbletter&quot; är aktiverat så kommer en räknare att automatiskt lägga till ett tal till de dubbletter av användarnamn som skapas av mallen.</p><p> Om t.ex. CSV-filen innehåller användarna Johan Andersson, Janna Andersson och Johanna Andersson utan uttryckliga användarnamn så kommer det standardmässiga användarnamnet att vara %-1f%-l.</p><p> Och om dessutom &quot;Lägg till räknare&quot; i &quot;Hantering av nya användarnamn som är dubbletter&quot; är aktiverat då kommer de resulterande användarnamnen att bli jandersson, jandersson2 och jandersson3.
 </p>
 
@@ -131,8 +131,8 @@ att tas bort. I det här fallet kan alla fält undantas utom det för <code>user
 jand, Johan, Andersson, 0<br />
 kurtnilsson, , , 1
 </code></p>';
-$string['uploaduserspreview'] = 'Förgranska uppladdning av användare';
-$string['uploadusersresult'] = 'Resultat uppladdning av användare';
+$string['uploaduserspreview'] = 'Förhandsgranska uppladdning av användare';
+$string['uploadusersresult'] = 'Resultat av uppladdning av användare';
 $string['useraccountupdated'] = 'Användare har uppdaterats';
 $string['userdeleted'] = 'Användare borttagen';
 $string['userrenamed'] = 'Användare  har fått nya namn';
@@ -158,6 +158,7 @@ $string['uuoptype_addupdate'] = 'Lägg till nya och uppdatera befintliga använd
 $string['uuoptype_update'] = 'Uppdatera endast befintliga användare';
 $string['uupasswordnew'] = 'Nytt lösenord för användare';
 $string['uupasswordold'] = 'Befintligt lösenord för användare';
+$string['uustandardusernames'] = 'Standardisera användarnamn';
 $string['uuupdateall'] = 'Överskrid med fil och standardmässiga förval';
 $string['uuupdatefromfile'] = 'Överskrid med fil';
 $string['uuupdatemissing'] = 'Fyll i det som saknas från fil och standardmässiga förval';

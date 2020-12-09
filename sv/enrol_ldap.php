@@ -38,6 +38,7 @@ $string['course_shortname'] = 'Valfritt: LDAP-fält att hämta kortnamnet från.
 $string['course_summary'] = 'Valfritt: LDAP-fält att hämta sammanfattningen från.';
 $string['editlock'] = 'Låsets värde';
 $string['enrolname'] = 'LDAP';
+$string['explodegroupusertypenotsupported'] = 'ldap_explode_group() stödjer inte vald användartyp: {$a}';
 $string['general_options'] = 'Allmänna alternativ';
 $string['host_url'] = 'Ange LDAP-värden i URL-form som \'ldap://ldap.myorg.com/\'
 eller \'ldaps://ldap.myorg.com/\'';
@@ -47,6 +48,7 @@ $string['pluginname_desc'] = '<p>Du kan använda en LDAP-server för att styra D
 <p>Denna plugin kan också ställas in så att den automatiskt skapar nya kurser när det dyker upp nya grupper i LDAP.</p>';
 $string['roles'] = 'Kartläggning av roller';
 $string['server_settings'] = 'Inställningar för LDAP-server';
+$string['syncenrolmentstask'] = 'Synkronisera kursregistreringar via LDAP';
 $string['template'] = 'Valfritt: automatiskt skapade kurser kan kopiera sina inställningar från en kursmall.';
 $string['updatelocal'] = 'Uppdatera lokala data';
 $string['version'] = 'Detta är den version av LDAP-protokollet som DIn server använder.';

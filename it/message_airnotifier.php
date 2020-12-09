@@ -45,6 +45,7 @@ $string['nodevices'] = 'Non sono presenti dispositivi registrati. I dispositivi 
 $string['nopermissiontomanagedevices'] = 'Non sei autorizzato a gestire dispositivi.';
 $string['notconfigured'] = 'Il server Airnotifier non è stato configurato, non è possibile inviare notifiche push.';
 $string['pluginname'] = 'Mobile';
+$string['privacy:enableddescription'] = 'Abilitazione Airnotifier del dispositivo';
 $string['privacy:metadata:date'] = 'La data di invio del messaggio.';
 $string['privacy:metadata:enabled'] = 'Scelta di abilitare il dispositivo Airnotifier.';
 $string['privacy:metadata:externalpurpose'] = 'Informazioni inviate a un sito esterno per essere poi inviate sul dispositivo mobile dell\'utente.';

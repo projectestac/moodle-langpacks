@@ -25,5 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['noimages'] = 'Inga bilder';
+$string['nolinks'] = 'Inga länkar';
+$string['nostyles'] = 'Inga stilar';
+$string['pluginname'] = 'Hjälpmodul för skärmläsare';
 $string['selectimage'] = 'Välj bild';
 $string['selectlink'] = 'Välj länk';

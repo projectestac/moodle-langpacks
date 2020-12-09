@@ -177,7 +177,7 @@ $string['displayscorewithessays'] = '<p>Automatikoki kalifikatutako galderetan h
 posible zen gehienezko puntuazio honetatik: {$a->tempmaxgrade}.</p>
 <p> {$a->essayquestions} entsegu motako galdera(k) beranduago kalifikatuko dira eta zure azken emaitzari erantsiko zaizkio aurrerago.</p>
 <p>Oraingoz, eta entsegu-galdera(k) kontuan hartu gabe, zure emaitza {$a->score} (e)koa da {$a->grade} (e)tik</p>';
-$string['displayscorewithoutessays'] = 'Zure puntuazioa hau da: {$a->score} (gehienezkoa {$a->grade}-(e)tik).';
+$string['displayscorewithoutessays'] = 'Zure puntuazioa hau da: {$a->score} (gehienezkoa {$a->grade}(e)tik).';
 $string['duplicatepagenamed'] = 'Bikoiztu orria: {$a}';
 $string['edit'] = 'Editatu';
 $string['editbranchtable'] = 'Eduki-orri bat editatzen';
@@ -212,8 +212,8 @@ $string['eolstudentoutoftime'] = 'Kontuz: Ikasgai hau egiteko finkatu zen denbor
 $string['eolstudentoutoftimenoanswers'] = 'Ez duzu erantzunik eman. Ikasgai honetan 0 puntu lortu duzu.';
 $string['essay'] = 'Entsegua';
 $string['essayemailmessage2'] = '<p>Entsegu-galderaren emaitza: {$a->question}</p><p>Zure erantzuna:<em>{$a->response}</em></p>
-<p>{$a->teacher} iruzkinak:<em>{$a->comment}</em></p><p>Zuk {$a->outof}-(e)tik {$a->earned} jaso duzu entsegu-galdera honetako.</p><p>Ikasgai honetan zure kalifikazioa aldatu egin da eta orain hau da: {$a->newgrade}%.</p>';
-$string['essayemailmessagesmall'] = '<p>Entseguaren erantzun honengatik {$a->outof}-(e)tik {$a->earned} lortu dituzu.</p><p>{$a->lesson} ikasgaiaren zure kalifikazioa %{$a->newgrade}-(e)ra aldatu da.</p>';
+<p>{$a->teacher} iruzkinak:<em>{$a->comment}</em></p><p>Zuk {$a->outof}(e)tik {$a->earned} jaso duzu entsegu-galdera honetako.</p><p>Ikasgai honetan zure kalifikazioa aldatu egin da eta orain hau da: {$a->newgrade}%.</p>';
+$string['essayemailmessagesmall'] = '<p>Entseguaren erantzun honengatik {$a->outof}(e)tik {$a->earned} lortu dituzu.</p><p>{$a->lesson} ikasgaiaren zure kalifikazioa %{$a->newgrade}(e)ra aldatu da.</p>';
 $string['essayemailsubject'] = 'Ikasgai galderarako zure kalifikazioa eskuragarri dago';
 $string['essaynotgradedyet'] = 'Saiakera hau ez da oraindik kalifikatu';
 $string['essayresponses'] = 'Entseguaren erantzunak';
@@ -495,7 +495,7 @@ $string['privacy:path:pages'] = 'Orriak';
 $string['processerror'] = 'Errorea gertatu da prozesamenduan!';
 $string['progressbar'] = 'Aurrerapen-barra';
 $string['progressbar_help'] = 'Gaituz gero, ikasgaiaren orrien beheko aldean osatze-mailaren gutxi gorabeherako ehunekoaren barra bat erakutsiko da.';
-$string['progressbarteacherwarning'] = '{$a} -(e)k ez du aurrerapen-barra ikusten';
+$string['progressbarteacherwarning'] = '{$a}(e)k ez du aurrerapen-barra ikusten';
 $string['progressbarteacherwarning2'] = 'Ikasgaia editatzeko baimena duzunez, zuk ez duzu aurrerapen-barra ikusiko';
 $string['progresscompleted'] = 'Ikasgai honen % {$a} osatu duzu';
 $string['qtype'] = 'Orri mota';
@@ -601,5 +601,5 @@ $string['xattempts'] = '{$a} saiakera';
 $string['youhaveseen'] = 'Ikasgai honetako orri bat edo gehiago ikusi duzu jadanik.<br />Ikusitako azken orritik hasi nahi al duzu?';
 $string['youranswer'] = 'Zure erantzuna';
 $string['yourcurrentgradeis'] = 'Oraingo zure kalifikazioa {$a} da';
-$string['yourcurrentgradeisoutof'] = 'Zure oraingo kalifikazioa {$a->grade} da gehienezko {$a->total}-(e)tik.';
+$string['yourcurrentgradeisoutof'] = 'Zure oraingo kalifikazioa {$a->grade} da gehienezko {$a->total}(e)tik.';
 $string['youshouldview'] = 'Gutxienez hau ikusi beharko zenuke: {$a}';

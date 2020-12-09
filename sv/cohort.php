@@ -54,6 +54,7 @@ $string['removeuserwarning'] = 'Vid borttagning av en användare från en kohort
 $string['search'] = 'Sök';
 $string['searchcohort'] = 'Sök kohort';
 $string['selectfromcohort'] = 'Välj deltagare ur kohort';
+$string['systemcohorts'] = 'Systemkohorter';
 $string['unknowncohort'] = 'Okänd kohort ({$a})!';
 $string['useradded'] = 'Användare har lagts till kohort "{$a}"';
 $string['visible'] = 'Synlig';

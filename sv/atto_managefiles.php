@@ -30,5 +30,6 @@ $string['filemanager'] = 'Filhanteraren';
 $string['managefiles'] = 'Hantera filer';
 $string['missingfiles'] = 'Saknade filer';
 $string['pluginname'] = 'Hantera filer';
+$string['privacy:metadata'] = 'Plugin-modulen atto_managefiles lagrar ingen personlig information.';
 $string['unusedfilesdesc'] = 'Följande filer används inte i textområdet';
 $string['unusedfilesheader'] = 'Oanvända filer';

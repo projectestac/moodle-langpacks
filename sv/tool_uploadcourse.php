@@ -31,6 +31,7 @@ $string['allowrenames'] = 'Tillåt namnbyten';
 $string['allowrenames_help'] = 'Anger huruvida det är tillåtet att byta namn på ett fält, eller ej.';
 $string['allowresets'] = 'Tillåt återställningar';
 $string['allowresets_help'] = 'Anger huruvida det är tillåtet att återställa ett fält, eller ej.';
+$string['cachedef_helper'] = 'Stödcachning';
 $string['cannotdeletecoursenotexist'] = 'Kan inte ta bort en kurs som inte finns';
 $string['cannotforcelang'] = 'Ingen behörighet att tvinga språk för denna kurs';
 $string['cannotgenerateshortnameupdatemode'] = 'Kan inte generera ett kortnamn när uppdateringar är tillåtna';

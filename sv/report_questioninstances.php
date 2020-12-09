@@ -25,4 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['editquestionshere'] = 'Redigera frågor i detta kontext';
+$string['eventreportviewed'] = 'Rapport visad';
+$string['getreport'] = 'Hämta rapporten';
 $string['hiddenquestions'] = 'Dold';
+$string['intro'] = 'Denna rapport visar alla sammanhang där det finns frågor av en viss typ.';
+$string['pluginname'] = 'Frågeinstanser';
+$string['privacy:metadata'] = 'Plugin-modulen Frågeinstanser lagrar ingen personlig information.';
+$string['questioninstances:view'] = 'Visa rapport';
+$string['reportforallqtypes'] = 'Rapport för alla frågetyper';
+$string['reportformissingqtypes'] = 'Rapport för okända frågetyper';
+$string['reportforqtype'] = 'Rapport för frågetyp \'{$a}\'';
+$string['reportsettings'] = 'Rapportinställningar';
+$string['totalquestions'] = 'Totalt';
+$string['visiblequestions'] = 'Synlig';

@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['cleanuptask'] = 'Städa upp blocket senaste aktiviteter';
 $string['pluginname'] = 'Senaste aktivitet';
 $string['recent_activity:addinstance'] = 'Lägg till blocket Senaste aktivitet';
 $string['recent_activity:viewaddupdatemodule'] = 'Visa nya och uppdaterade moduler i blocket Senaste aktivitet';

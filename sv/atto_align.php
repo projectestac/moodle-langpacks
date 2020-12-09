@@ -25,7 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['center'] = 'Mitten';
-$string['leftalign'] = 'Vänster';
-$string['pluginname'] = 'Justera text';
-$string['rightalign'] = 'Höger';
+$string['center'] = 'Centrera';
+$string['leftalign'] = 'Vänsterjustera';
+$string['pluginname'] = 'Textjustering';
+$string['privacy:metadata'] = 'Plugin-modulen atto_align lagrar ingen personlig information.';
+$string['rightalign'] = 'Högerjustera';

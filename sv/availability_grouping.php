@@ -27,7 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['description'] = 'Tillåt endast studenter som tillhör en grupp inom en viss gruppindelning';
 $string['error_selectgrouping'] = 'Du måste välja en gruppindelning';
-$string['pluginname'] = 'Begränsning utifrån gruppindelning';
+$string['missing'] = '(Grupp saknas)';
+$string['pluginname'] = 'Begränsning via gruppindelning';
 $string['requires_grouping'] = 'Du tillhör en grupp i <strong>{$a}</strong>';
 $string['requires_notgrouping'] = 'Du tillhör inte en grupp i <strong>{$a}</strong>';
 $string['title'] = 'Gruppindelning';

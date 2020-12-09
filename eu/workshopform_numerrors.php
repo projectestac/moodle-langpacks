@@ -41,5 +41,5 @@ $string['grademapping'] = 'Kalifikazioen lotura-taula';
 $string['maperror'] = 'Garrantzia duten errore kopurua berdina edo txikiagoa da';
 $string['mapgrade'] = 'Bidalketaren kalifikazioa';
 $string['pluginname'] = 'Errore-kopurua';
-$string['privacy:export:metadata:map'] = 'Garrantzia duten errore kopurua {$a->nonegative}-(e)ra heltzen bada kalifikazioaren ehunekoa {$a->grade} da.';
+$string['privacy:export:metadata:map'] = 'Garrantzia duten errore kopurua {$a->nonegative}(e)ra heltzen bada kalifikazioaren ehunekoa {$a->grade} da.';
 $string['privacy:metadata'] = 'Errore-kopurua pluginak ebaluazio-formularioko datuak baino ez ditu gordetzen. Formularioa betetzeko moduari buruzko informazio pertsonala Tailerra moduluak berak gordetzen du eta esportatutako ebaluazioetara txertatzen da.';

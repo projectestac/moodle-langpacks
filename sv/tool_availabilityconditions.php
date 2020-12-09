@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['manageplugins'] = 'Hantera begränsningar/villkor';
+$string['manageplugins'] = 'Hantera begränsningar';
 $string['pluginname'] = 'Tillgänglighet condition management';

@@ -38,8 +38,7 @@ $string['locale'] = 'pt_PT.UTF-8';
 $string['localewin'] = 'Portuguese_Portugal.1252';
 $string['localewincharset'] = 'WINDOWS-1252';
 $string['oldcharset'] = 'ISO-8859-1';
-// Warning: this parentlanguage value is not a valid language code!
-// $string['parentlanguage'] = '';
+$string['parentlanguage'] = '';
 $string['strftimedate'] = '%d de %B de %Y';
 $string['strftimedatefullshort'] = '%d/%m/%y';
 $string['strftimedatemonthabbr'] = '%d de %B de %Y';

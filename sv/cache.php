@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actions'] = 'Åtgärder';
+$string['addlocksuccess'] = 'Lade till ny låsningsinstans';
+$string['addstoresuccess'] = 'Lade till nytt {$a}-arkiv.';
 $string['cacheconfig'] = 'Konfiguration';
 $string['cachedef_calculablesinfo'] = 'Beräkningsbar information';
 $string['cachedef_config'] = 'Konfigurationsinställningar';
@@ -34,8 +36,18 @@ $string['cachedef_yuimodules'] = 'Definitioner för YUI modul';
 $string['component'] = 'Komponent';
 $string['definition'] = 'Definition';
 $string['delete'] = 'Ta bort';
+$string['deletelocksuccess'] = 'Tog bort låsningen';
+$string['deletestoresuccess'] = 'Tog bort cache-arkivet';
+$string['editstoresuccess'] = 'Redigerade cache-arkivet';
 $string['lockname'] = 'Namn';
 $string['purge'] = 'Rensa';
+$string['purgedefinitionsuccess'] = 'Tömde begärd definition';
+$string['purgestoresuccess'] = 'Tömde det önskade arkivet.';
+$string['purgexstoresuccess'] = 'Tömde "{$a->store}"-arkivet.';
 $string['storeready'] = 'Klar';
+$string['supports'] = 'Stödjer';
+$string['supports_dataguarantee'] = 'datagaranti';
+$string['supports_nativelocking'] = 'låsning';
 $string['supports_nativettl'] = 'ttl';
 $string['tested'] = 'Testad';
+$string['unsupportedmode'] = 'Läget stöds inte';

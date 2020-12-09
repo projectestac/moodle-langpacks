@@ -161,6 +161,7 @@ $string['formatpeergradeover'] = '<span class="grade">{$a->grade}</span> <span c
 $string['formatpeergradeoverweighted'] = '<span class="grade">{$a->grade}</span> <span class="gradinggrade">(<del>{$a->gradinggrade}</del> / <ins>{$a->gradinggradeover}</ins>)</span> @ <span class="weight">{$a->weight}</span>';
 $string['formatpeergradeweighted'] = '<span class="grade">{$a->grade}</span> <span class="gradinggrade">({$a->gradinggrade})</span> @ <span class="weight">{$a->weight}</span>';
 $string['givengrades'] = 'Voti dati';
+$string['grade_grading_name'] = 'Valutazione';
 $string['grade_submission_name'] = 'Consegna';
 $string['gradecalculated'] = 'Voto calcolato per la consegna';
 $string['gradedecimals'] = 'Cifre decimali del voto';

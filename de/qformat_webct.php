@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['errorsdetected'] = '{$a} Fehler gefunden';
-$string['missinganswer'] = 'Zu wenig Anweisungen :ANSWER, :Lx, :Rx in Fragezeile {$a}. Sie müssen mindestens 2 mögliche Antworten angeben.';
+$string['missinganswer'] = 'Zu wenig Angaben :ANSWER, :Lx, :Rx in Fragezeile {$a}. Sie müssen mindestens 2 mögliche Antworten angeben.';
 $string['missingquestion'] = 'Fehlendes Fragefeld nach Zeile {$a}';
 $string['pluginname'] = 'WebCT-Format';
 $string['pluginname_help'] = 'Das WebCT-Format erlaubt den Import von Kurzantwort- und Multiple-Choice-Fragen, die im Textformat von WebCT gespeichert wurden.';

@@ -25,5 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['connectsystemaccount'] = 'Koppla till ett systemkonto';
 $string['issuershowonloginpage'] = 'Visa på inloggningssidan';
+$string['loginissuer'] = 'Tillåt inloggning';
+$string['notloginissuer'] = 'Tillåt inte inloggning';
 $string['savechanges'] = 'Spara ändringar';
+$string['systemaccountconnected'] = 'Systemkonto kopplat';
+$string['systemaccountnotconnected'] = 'Systemkonto inte kopplat';
+$string['systemauthstatus'] = 'Systemkonto kopplat';

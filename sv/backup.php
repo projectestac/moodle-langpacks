@@ -57,7 +57,7 @@ $string['asyncrestoreprocessing'] = 'Återställningen pågår';
 $string['asyncreturn'] = 'Återgå till kurs';
 $string['autoactivedescription'] = 'Välj om det skall göras automatisk säkerhetskopiering eller inte. Om manuell säkerhetskopiering väljs kommer automatisk säkerhetskopiering endast vara möjlig via CLI skript för automatiserad backup.
 Säkerhetskopiering kan då göras manuellt på kommando prompten eller genom cron.';
-$string['autoactivedisabled'] = 'Avaktiverad';
+$string['autoactivedisabled'] = 'Inaktiverad';
 $string['autoactiveenabled'] = 'Aktiverad';
 $string['autoactivemanual'] = 'Manuell';
 $string['automatedbackupschedule'] = 'Schema';
@@ -193,7 +193,7 @@ $string['filereferencesnotsamesite'] = 'Säkerhetskopian är från en annan plat
 $string['filereferencessamesite'] = 'Säkerhetskopian är från samma webbplats, filreferenser kan återställas';
 $string['generalactivities'] = 'Ta med aktiviteter';
 $string['generalanonymize'] = 'Anonymisera informationen';
-$string['generalbackdefaults'] = 'Allmänna standardvärden för säkerhetskopieringar';
+$string['generalbackdefaults'] = 'Standardinställningar för säkerhetskopiering';
 $string['generalbadges'] = 'Inkludera märken';
 $string['generalblocks'] = 'Ta med block';
 $string['generalcalendarevents'] = 'Inkludera kalenderhändelser';

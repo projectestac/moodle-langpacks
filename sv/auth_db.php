@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['auth_dbcannotconnect'] = 'Kan inte ansluta till extern databas';
 $string['auth_dbcantconnect'] = 'Det gick inte att ansluta till den angivna databasen för autentisering.';
 $string['auth_dbchangepasswordurl_key'] = 'URL till sida för att ändra lösenord';
 $string['auth_dbdebugauthdb'] = 'Felsök ADOdb';
@@ -61,6 +62,7 @@ $string['auth_dbtable'] = 'Namn på tabellen i databasen';
 $string['auth_dbtable_key'] = 'Tabell';
 $string['auth_dbtype'] = 'Databastyp (se <a href=../lib/adodb/readme.htm#drivers>ADOdb dokumentation</a> för detaljer)';
 $string['auth_dbtype_key'] = 'Databas';
+$string['auth_dbupdateerror'] = 'Fel vid uppdatering av extern databas';
 $string['auth_dbupdatinguser'] = 'Uppdaterar användare {$a->name} id {$a->id}';
 $string['auth_dbuser'] = 'Användarnamn med läsbehörighet till databasen';
 $string['auth_dbuser_key'] = 'DB-användare';

@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addcriterion'] = 'Lägg till kriterium';
+$string['additionalfeedback'] = 'Ytterligare återkoppling';
 $string['alwaysshowdefinition'] = 'Tillåt användare att förhandsgranska bedömningsmatrisen som används i modulen (annars visas matrisen endast efter betygsättning)';
 $string['backtoediting'] = 'Tillbaka till redigering';
 $string['confirmdeletecriterion'] = 'Är du säker på att du vill radera detta kriterium?';

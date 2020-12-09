@@ -26,11 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addtofavourites'] = 'Diesen Kurs als Favorit markieren';
-$string['all'] = 'Alle (außer aus Darstellung entfernte)';
+$string['all'] = 'Alle (außer aus Ansicht entfernte)';
 $string['allincludinghidden'] = 'Alle';
 $string['aria:addtofavourites'] = 'Markierung für';
 $string['aria:allcourses'] = 'Alle Kurse außer den aus der Darstellung entfernten Kursen';
-$string['aria:allcoursesincludinghidden'] = 'Alle Kurse';
+$string['aria:allcoursesincludinghidden'] = 'Alle Kurse anzeigen';
 $string['aria:card'] = 'Kacheln anzeigen';
 $string['aria:controls'] = 'Steuerungen der Kursübersicht';
 $string['aria:courseactions'] = 'Aktion für derzeitigen Kurs';
@@ -68,8 +68,8 @@ $string['displaycategories'] = 'Kursbereiche anzeigen';
 $string['displaycategories_help'] = 'Zeige die Kurskategorie auf den Kurspositionen des Dashboards, einschließlich Karten, Listen- und Übersichteinträgen an.';
 $string['favourites'] = 'Favoriten';
 $string['future'] = 'Künftige';
-$string['hidden'] = 'Verborgene Kurse';
-$string['hiddencourses'] = 'Aus Darstellung entfernte';
+$string['hidden'] = 'Aus der Ansicht entfernte Kurse';
+$string['hiddencourses'] = 'Aus Ansicht entfernte';
 $string['hidecourse'] = 'Aus Darstellung entfernen';
 $string['inprogress'] = 'Laufende';
 $string['lastaccessed'] = 'Letzter Zugriff';

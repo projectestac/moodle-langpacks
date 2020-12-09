@@ -34,3 +34,4 @@ $string['randomqname'] = 'Slumpmässig ({$a})';
 $string['randomqplusname'] = 'Slumpmässig ({$a} och underkategorier)';
 $string['selectedby'] = '{$a->questionname} vald av {$a->randomname}';
 $string['selectmanualquestions'] = 'Slumpmässiga frågor kan använda manuellt rättade frågor';
+$string['taskunusedrandomscleanup'] = 'Ta bort oanvända slumpmässiga frågor';

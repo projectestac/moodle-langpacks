@@ -64,6 +64,7 @@ $string['framesize'] = 'Storlek på ram';
 $string['legacyfiles'] = 'Migration av gammal kursfil';
 $string['legacyfilesactive'] = 'Aktiv';
 $string['legacyfilesdone'] = 'Avslutad';
+$string['modifieddate'] = 'Ändrad {$a}';
 $string['modulename'] = 'Fil';
 $string['modulename_help'] = 'Filmodulen möjliggör läraren att tillhandahålla en fil som en resurs för kursen. Där det är möjligt kommer filen att visas inom gränssnittet för kursen, annars kommer eleverna uppmanas att ladda ner filen. Filen kan inkludera stödfiler, till exempel kan en HTML-sida ha inbäddade bilder eller flashobjekt.
 
@@ -100,3 +101,4 @@ $string['showsize_help'] = 'Visar filstorleken, t.ex. "3.1 MB ", bredvid länkar
 $string['showtype'] = 'Visa typ';
 $string['showtype_desc'] = 'Visa filtyp (t.ex. "Word" eller "PDF") på kurssidan?';
 $string['showtype_help'] = 'Visar filtyp, till exempel "Word" eller "PDF" förutom länkar till filen. Om det finns flera filer i denna resurs är det första filtypen som visas. Om filtypen är okänd för systemet, kommer den inte att visas.';
+$string['uploadeddate'] = 'Uppladdad {$a}';

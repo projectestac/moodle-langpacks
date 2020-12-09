@@ -38,4 +38,8 @@ Det kan omfatta någon eller alla av följande platshållare:
 * Beskrivning {description}
 * Händelse {eventname}';
 $string['privacy:metadata:messagesummary'] = 'Notiser skickas till meddelandesystemet.';
+$string['rulecopysuccess'] = 'Regel duplicerad';
+$string['ruledeletesuccess'] = 'Regel borttagen';
+$string['subcreatesuccess'] = 'Prenumeration skapades';
+$string['subdeletesuccess'] = 'Prenumeration togs bort';
 $string['unsubscribe'] = 'Avbeställ prenumerationen';

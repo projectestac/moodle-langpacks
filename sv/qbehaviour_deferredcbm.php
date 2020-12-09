@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['assumingcertainty'] = 'Du har inte valt säkerhetsgrad. Förutsatt att: {$a}.';
+$string['certainty'] = 'Övertygelse';
 $string['certainty-1'] = 'Ingen aning';
 $string['certainty1'] = 'Inte mycket (mindre än 67%)';
 $string['certainty2'] = 'Ganska (mer än 67%)';

@@ -143,7 +143,7 @@ I detta område kan du välja samlingar av märken från din ryggsäck som du vi
 $string['backpackneedsupdate'] = 'Ryggsäcken som anslutits till denna profil stämmer inte överens med ryggsäcken på webbplatsen. Du behöver koppla ifrån och ansluta ryggsäcken på nytt.';
 $string['backpacksettings'] = 'Inställningar för ryggsäck';
 $string['backpackweburl'] = 'URL till ryggsäck';
-$string['badgedetails'] = 'Detaljer för märke';
+$string['badgedetails'] = 'Märkesdetaljer';
 $string['badgeimage'] = 'Bild';
 $string['badgeimage_help'] = 'Det här är en bild som kommer användas när det här märket utfärdas.
 
@@ -370,7 +370,7 @@ $string['imageauthorurl_help'] = 'Om angiven visas en länk till bildens upphovs
 $string['imagecaption'] = 'Bildtitel';
 $string['imagecaption_help'] = 'Om bildtiteln angivits kommer denna visas på sidan för märken.';
 $string['invalidurl'] = 'Ogiltig URL';
-$string['issuancedetails'] = 'Förfallande av märke';
+$string['issuancedetails'] = 'Hantera förfallande';
 $string['issuedbadge'] = 'Information för utfärdat märke';
 $string['issuerdetails'] = 'Utfärdarens detaljer';
 $string['issueremail'] = 'E-post';
@@ -408,7 +408,7 @@ $string['month'] = 'Månad(er)';
 $string['mybackpack'] = 'Mina inställningar för ryggsäck';
 $string['mybadges'] = 'Mina märken';
 $string['never'] = 'Aldrig';
-$string['newbadge'] = 'Lägg till ett nytt märke';
+$string['newbadge'] = 'Lägg till nytt märke';
 $string['newimage'] = 'Ny bild';
 $string['noalignment'] = 'Det finns inga externa färdigheter eller kvaliteter angivna för detta märke.';
 $string['noawards'] = 'Det här märket har inte tagits ännu.';
@@ -456,7 +456,7 @@ $string['openbadgesv1'] = 'Open Badges v1.0';
 $string['openbadgesv2'] = 'Open Badges v2.0';
 $string['overallcrit'] = 'av de valda kriterierna är slutförda.';
 $string['potentialrecipients'] = 'Potentiella mottagare av märket';
-$string['preferences'] = 'Välj inställningar för märken (badges)';
+$string['preferences'] = 'Välj inställningar för märken';
 $string['privacy:metadata:backpack'] = 'En förteckning över användarens ryggsäckar';
 $string['privacy:metadata:backpack:backpackuid'] = 'Unik identifierare för ryggsäcken';
 $string['privacy:metadata:backpack:email'] = 'E-postadress associerad med ryggsäcken';
@@ -525,6 +525,7 @@ $string['variablesubstitution_help'] = 'I ett meddelande för ett märke kan vis
 %badgelink%
 :   Det här kommer ersättas med den publika URL som leder till informationen runt det utfärdade märket.';
 $string['version'] = 'Version';
+$string['version_help'] = 'Versionsfältet kan användas för att hålla reda på märkets utveckling. Om det anges visas versionen på sidan för märket.';
 $string['viewbadge'] = 'Visa utfärdat märke';
 $string['visible'] = 'Synlig';
 $string['warnexpired'] = '(Det här märket har förfallit!)';

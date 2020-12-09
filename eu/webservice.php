@@ -205,7 +205,7 @@ $string['testclient'] = 'Web-zerbitzuaren proba-bezeroa';
 $string['testclientdescription'] = '* Web-zerbitzuaren proba-bezeroak funtzioak <strong>BENETAN exekutatzen ditu</strong>. Ez probatu ezagutzen ez dituzun funtzioak. <br/>
 * Existitzen diren web-zerbitzuko funtzio guztiak oraindik ez dira proba-bezeroan implementatu.<br/>
 * Erabiltzaile batek funtzio batzuk erabili ezin dituela egiaztatzeko, baimentzen ez dituzun funtzio batzuk probatu ditzakezu.<br/>
-* Errore-mezu argiagoak ikusteko <strong>{$a->mode}</strong> arazketa-modua {$a->atag}-(e)ra ezarri.';
+* Errore-mezu argiagoak ikusteko <strong>{$a->mode}</strong> arazketa-modua {$a->atag}(e)ra ezarri.';
 $string['testwithtestclient'] = 'Probatu zerbitzua';
 $string['testwithtestclientdescription'] = 'Simulatu kanpotiko zerbitzurako sarbidea web-zerbitzuaren proba-bezeroa erabilita. Erabil ezazu token bidezko autentifikazioa gaituta duen gaitutako protokolo bat. <strong>KONTUZ: Probatuko dituzun funtziok erabiltzaile honentzako EXEKUTATUKO DIRA, beraz probatuko duzuna kontuz aukeratu!</strong>';
 $string['token'] = 'Token-a';
@@ -224,7 +224,7 @@ $string['usernameorid'] = 'Erabiltzaile-izena / Erabiltzailearen IDa';
 $string['usernameorid_help'] = 'Idatzi erabiltzaile-izena edo erabiltzailearen IDa.';
 $string['usernameoridnousererror'] = 'Ez da aurkitu erabiltzaile-izen/ erabiltzailearen ID hori duen erabiltzailerik.';
 $string['usernameoridoccurenceerror'] = 'Erabiltzaile-izen hori duen erabiltzaile bat baino gehiago aurkitu da. Mesedez, idatzi erabiltzaile IDa.';
-$string['usernotallowed'] = 'Erabiltzaileak ez du zerbitzu hau erabiltzeko baimenik. Aurretik erabiltzaile honi sarbidea eman behar diozu {$a}-(e)ko baimendutako erabiltzaileen kudeaketa-orrian.';
+$string['usernotallowed'] = 'Erabiltzaileak ez du zerbitzu hau erabiltzeko baimenik. Aurretik erabiltzaile honi sarbidea eman behar diozu {$a}(e)ko baimendutako erabiltzaileen kudeaketa-orrian.';
 $string['userservices'] = 'Erabiltzailearen zerbitzuak: {$a}';
 $string['usersettingssaved'] = 'Erabiltzailearen ezarpenak gorde dira';
 $string['validuntil'] = 'Noiz arte indarrean';

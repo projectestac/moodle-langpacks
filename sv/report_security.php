@@ -31,3 +31,4 @@ $string['check_mediafilterswf_error'] = 'Mediafilter för Flash är aktiverat - 
 $string['check_mediafilterswf_ok'] = 'Mediafilter för Flash är inte aktiverat.';
 $string['check_noauth_name'] = 'Ingen autentisering';
 $string['check_noauth_ok'] = 'Inget plugin-program för autentisering är avaktiverat';
+$string['details'] = 'Detaljer';

@@ -26,5 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Visa/Dölj knappar';
+$string['settings'] = 'Fäll ihop';
 $string['showfewer'] = 'Visa färre knappar';
 $string['showmore'] = 'Visa fler knappar';

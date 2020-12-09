@@ -32,6 +32,7 @@ $string['auth_mnet_rpc_negotiation_timeout'] = 'Timeout räknat i sekunder för 
 $string['auth_mnetdescription'] = 'Användare autenticeras i enlighet med det nät av tillförlitlighet som har definierats i dina inställningar för nätverk för Moodle.';
 $string['auto_add_remote_users'] = 'Lägg till fjärranvändare automatiskt';
 $string['pluginname'] = 'Autentisering i MNet';
+$string['privacy:metadata:mnet_external:lastaccess'] = 'Tidpunkten för senaste inloggningen';
 $string['rpc_negotiation_timeout'] = 'Tiden för RPC-förhandling har gått ut';
 $string['sso_idp_description'] = 'Offentliggör den här tjänsten för att tillåta att Dina användare navigerar vidare till {$a} webbplatsen för Moodle utan att behöva logga in där igen. <ul><li><em>Beroende</em>: Du måste också  <strong>prenumerera</strong> på SSO-tjänsten hos {$a}.</li></ul>Prenumerera på den tjänsten för att tillåta att autenticerade användare från {$a} får tillgång till Din webbplats utan att behöva logga in igen. <ul><li><em>Beroende</em>: Du måste också  <strong>offentliggöra</strong> SSO-tjänsten hos {$a}.</li></ul><br />';
 $string['sso_idp_name'] = 'SSO (Tillhandahållare av identiteter)';

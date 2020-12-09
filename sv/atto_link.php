@@ -30,4 +30,5 @@ $string['createlink'] = 'Skapa länk';
 $string['enterurl'] = 'Infoga URL';
 $string['openinnewwindow'] = 'Öppnas i nytt fönster';
 $string['pluginname'] = 'Länk';
+$string['privacy:metadata'] = 'Plugin-modulen atto_link lagrar ingen personlig information.';
 $string['unlink'] = 'Ta bort länk';

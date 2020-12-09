@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['courseoverview:view'] = 'Visa översiktsrapport för kurs';
 $string['pluginname'] = 'Kursöversikt';
+$string['privacy:metadata'] = 'Plugin-modulen Kursöversikt lagrar ingen användarinformation.';

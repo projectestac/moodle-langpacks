@@ -25,12 +25,37 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['add'] = 'Lägg till';
+$string['advancedsettings'] = 'Avancerade inställningar';
+$string['audio'] = 'Ljud';
+$string['autoplay'] = 'Spela upp automatiskt';
 $string['browserepositories'] = 'Bläddra genom arkiv...';
+$string['captions'] = 'Beskrivningar';
+$string['chapters'] = 'Kapitel';
+$string['controls'] = 'Visa kontroller';
 $string['createmedia'] = 'Infoga media';
+$string['default'] = 'Standard';
 $string['descriptions'] = 'Beskrivningar';
 $string['displayoptions'] = 'Visningsalternativ';
 $string['entername'] = 'Infoga namn';
+$string['entertitle'] = 'Ange titel';
 $string['enterurl'] = 'Ange URL';
 $string['height'] = 'Höjd';
-$string['pluginname'] = 'Media';
+$string['kind'] = 'Typ';
+$string['label'] = 'Etikett';
+$string['languagesavailable'] = 'Tillgängliga språk';
+$string['languagesinstalled'] = 'Installerade språk';
+$string['link'] = 'Länk';
+$string['loop'] = 'Loop';
+$string['metadata'] = 'Metadata';
+$string['mute'] = 'Tystad';
+$string['pluginname'] = 'Infoga eller redigera mediafil';
+$string['remove'] = 'Ta bort';
+$string['size'] = 'Storlek';
+$string['srclang'] = 'Språk';
+$string['subtitles'] = 'Undertexter';
+$string['tracks'] = 'Undertexter och rubriker';
+$string['video'] = 'Video';
+$string['videoheight'] = 'Videohöjd';
+$string['videowidth'] = 'Videobredd';
 $string['width'] = 'Bredd';

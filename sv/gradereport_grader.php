@@ -33,4 +33,5 @@ $string['ajaxfieldchanged'] = 'Det fält som Du f n redigerar har ändrats, vill
 $string['grader:manage'] = 'Administrera betygsrapport';
 $string['grader:view'] = 'Visa betygsrapporten';
 $string['pluginname'] = 'Betygsrapport';
-$string['preferences'] = 'Inställningar för rapporter från \'betygssättaren\'';
+$string['preferences'] = 'Inställningar för rapporter från betygsättare';
+$string['useractivityfeedback'] = '{$a} återkoppling';

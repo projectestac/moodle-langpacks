@@ -28,7 +28,8 @@ defined('MOODLE_INTERNAL') || die();
 $string['CASform'] = 'Val angående autentisering';
 $string['accesCAS'] = 'CAS-användare';
 $string['accesNOCAS'] = 'andra användare';
-$string['auth_cas_auth_user_create'] = 'Skapa användare med externa metoder';
+$string['auth_cas_auth_service'] = 'CAS';
+$string['auth_cas_auth_user_create'] = 'Skapa användare externt';
 $string['auth_cas_baseuri'] = 'Serverns URI (ingenting om det inte är en baseURI)<br />IF t.ex. CAS-servern svarar mot
 värd.domän.se/CAS/ THEN <br />cas_baseuri=CAS/';
 $string['auth_cas_baseuri_key'] = 'Bas-URI';
@@ -64,4 +65,5 @@ $string['auth_cas_use_cas'] = 'Använd CAS';
 $string['auth_cas_version'] = 'CAS version';
 $string['auth_casdescription'] = 'Den här metoden använder en CAS-server (Central Authentication Service) för att autentisera användare i en Single Sign On environment (SSO). Du kan också använda enkel LDAP autenticering. Om ett visst givet annvändarnamn och lösenord är giltigt enligt CAS så lägger Moodle in en ny användare i sin databas, och hämtar användarens egenskaper (attribut) från LDAP om så krävs. Vid nästföljande inloggningar så kontrolleras bara användarnamnet och lösenordet.';
 $string['auth_casnotinstalled'] = 'Det går inte att använda autentisering med  CAS. PHP modulen för LDAP är inte installerad.';
-$string['pluginname'] = 'Använd en CAS-server (SSO)';
+$string['pluginname'] = 'CAS-server (SSO)';
+$string['synctask'] = 'Synkronisera CAS-användare';

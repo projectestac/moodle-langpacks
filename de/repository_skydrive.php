@@ -33,5 +33,5 @@ $string['oauthinfo'] = '<p>Zur Nutzung dieses Plugins muss Ihre Seite bei <a hre
 Nach der Registrierung erhalten Sie eine Client-ID, die Sie hier eintragen müssen.</p>';
 $string['pluginname'] = 'Microsoft OneDrive (veraltet)';
 $string['privacy:metadata'] = 'Das Microsoft OneDrive Repository Plugin speichert keine personenbezogenen Daten. Es überträgt jedoch Daten von Moodle an das externe System.';
-$string['secret'] = 'Kennwort';
+$string['secret'] = 'Secret';
 $string['skydrive:view'] = 'Microsoft OneDrive (veraltet) anzeigen';

@@ -49,7 +49,7 @@ $string['confirmationinvalid'] = 'Berrespen-esteka baliogabea da edo iraungi da.
 $string['confirmationpending'] = 'Kontu hau posta elektroniko bidezko berrespenaren zain dago.';
 $string['confirmlinkedloginemail'] = 'Kaixo, {$a->fullname}:
 
-Eskaera bat egin da {$a->issuername}-(e)ko {$a->linkedemail} helbidea zure helbide elektronikoa erabiliz zure \'{$a->sitename}\' guneko kontuarekin lotzeko.
+Eskaera bat egin da {$a->issuername}(e)ko {$a->linkedemail} helbidea zure helbide elektronikoa erabiliz zure \'{$a->sitename}\' guneko kontuarekin lotzeko.
 
 Eskaera hau baieztatu eta sarbide horiek lotzeko, mesedez sartu hurrengo helbidean:
 

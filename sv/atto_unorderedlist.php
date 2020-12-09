@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Punktlista';
+$string['privacy:metadata'] = 'Plugin-modulen atto_unorderedlist lagrar ingen personlig information.';

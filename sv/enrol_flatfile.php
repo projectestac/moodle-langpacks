@@ -27,4 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['filelockedmail'] = 'Den textfil som Du använder för filbaserade registreringar ({$a}) kan inte tas bort av cronprocessen. Detta innebär vanligtvis att det är något fel med rättigheterna på den. Var snäll och modifiera rättigheterna så att Moodle kan ta bort filen annars kan den komma att bli återkommande bearbetad.';
 $string['filelockedmailsubject'] = 'Viktigt fel: registreringsfilen';
+$string['flatfilesync'] = 'Synkronisera kursregistreringar via flatfil';
 $string['location'] = 'Placering av fil';

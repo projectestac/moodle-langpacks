@@ -71,7 +71,7 @@ $string['assignmentmail'] = '{$a->grader}-k feedbacka bidali du zure \'{$a->assi
 Zure zereginaren bidalketaren eranskin gisa ikus dezakezu:
 
  {$a->url}';
-$string['assignmentmailhtml'] = '<p>{$a->grader}-(e)k feedbacka bidali du zure \'<i>{$a->assignment}</i>\' zereginaren bidalketarako.</p>
+$string['assignmentmailhtml'] = '<p>{$a->grader}(e)k feedbacka bidali du zure \'<i>{$a->assignment}</i>\' zereginaren bidalketarako.</p>
 <p>Zure <a href="{$a->url}">zereginaren bidalketaren eranskin gisa ikus dezakezu</a>.</p>';
 $string['assignmentmailsmall'] = '{$a->grader}-k feedbacka bidali du zure \'{$a->assignment}\' zereginaren bidalketarako. Zure zereginaren bidalketaren eranskin gisa ikus dezakezu.';
 $string['assignmentname'] = 'Zereginaren izena';
@@ -165,7 +165,7 @@ $string['duedatevalidation'] = 'Entregatze-data ezin da irekitze-data baino lehe
 $string['duplicateoverride'] = 'Bikoiztu salbuespena';
 $string['editaction'] = 'Ekintzak...';
 $string['editattemptfeedback'] = 'Editatu {$a} saiakeraren kalifikazioa eta feedbacka.';
-$string['editingpreviousfeedbackwarning'] = 'Saiakera zahar baten feedbacka editatzen ari zara. Saiakera hau {$a->totalattempts}-(e)tik {$a->attemptnumber}.a da.';
+$string['editingpreviousfeedbackwarning'] = 'Saiakera zahar baten feedbacka editatzen ari zara. Saiakera hau {$a->totalattempts}(e)tik {$a->attemptnumber}.a da.';
 $string['editingstatus'] = 'Editatze-egoera';
 $string['editonline'] = 'Editatu on-line';
 $string['editoverride'] = 'Editatu salbuespena';
@@ -218,9 +218,9 @@ $string['feedbackavailableanontext'] = 'Feedback berri bat daukazu \'{$a->assign
 Zereginaren zure bidalketarekin batera ikusi dezakezu:
 
  {$a->url}';
-$string['feedbackavailablehtml'] = '{$a->username}-(e)k feedbacka bidali du zure zereginaren bidalketarako: \'<i>{$a->assignment}</i>\'<br /><br /> Feedback hau ikusi dezakezu <a href="{$a->url}">zeregineko bidalketaren eranskin gisa</a>.';
-$string['feedbackavailablesmall'] = '{$a->username}-(e)k feedbacka bidali du {$a->assignment} zereginerako';
-$string['feedbackavailabletext'] = '{$a->username}-(e)k feedbacka bidali du zure \'{$a->assignment}\' zereginaren bidalketarako.
+$string['feedbackavailablehtml'] = '{$a->username}(e)k feedbacka bidali du zure zereginaren bidalketarako: \'<i>{$a->assignment}</i>\'<br /><br /> Feedback hau ikusi dezakezu <a href="{$a->url}">zeregineko bidalketaren eranskin gisa</a>.';
+$string['feedbackavailablesmall'] = '{$a->username}(e)k feedbacka bidali du {$a->assignment} zereginerako';
+$string['feedbackavailabletext'] = '{$a->username}(e)k feedbacka bidali du zure \'{$a->assignment}\' zereginaren bidalketarako.
 
 Zure zereginaren bidalketaren eranskin gisa ikus dezakezu:
 
@@ -251,7 +251,7 @@ $string['gradedfollowupsubmit'] = 'Kalifikatuta - bidalketaren jakinarazpena jas
 $string['gradedon'] = 'Noiz kalifikatua';
 $string['gradeitem:submissions'] = 'Bidalketak';
 $string['gradelocked'] = 'Kalifikazio hau blokeatu edo aldatu da kalifikazio-liburuan.';
-$string['gradeoutof'] = 'Kalifikazioa (gehienezko {$a}-(e)tik)';
+$string['gradeoutof'] = 'Kalifikazioa (gehienezko {$a}(e)tik)';
 $string['gradeoutofhelp'] = 'Kalifikazioa';
 $string['gradeoutofhelp_help'] = 'Idatzi hemen ikasleak egindako bidalketaren kalifikazioa. Hamartarrak ere sar ditzakezu.';
 $string['gradersubmissionupdatedhtml'] = '{$a->username}(e)k bidalketa eguneratu du ondorengo zereginean: <i>\'{$a->assignment}\'</i><br/><br/>
@@ -383,7 +383,7 @@ $string['numberofteams'] = 'Taldeak';
 $string['offline'] = 'Ez du on-line bidalketarik eskatzen';
 $string['open'] = 'Irekita';
 $string['outlinegrade'] = 'Kalifikazioa: {$a}';
-$string['outof'] = '{$a->current}.a {$a->total}-(e)tik';
+$string['outof'] = '{$a->current}.a {$a->total}(e)tik';
 $string['overdue'] = '<font color="red">Zeregina bidaltzeko epea amaitu da orain dela {$a}</font>';
 $string['override'] = 'Gehitu salbuespena';
 $string['overridedeletegroupsure'] = 'Ziur zaude {$a} taldearen salbuespena ezabatu nahi duzula?';
@@ -615,4 +615,4 @@ $string['viewsubmissionforuser'] = 'Ikusi ikasle honen erabiltzailea: {$a}';
 $string['viewsubmissiongradingtable'] = 'Ikusi bidalketen kalifikazio-orria.';
 $string['viewsummary'] = 'Ikusi laburpena';
 $string['workflowfilter'] = 'Lan-fluxu iragazkia';
-$string['xofy'] = '{$a->y}-(e)tik {$a->x}.a';
+$string['xofy'] = '{$a->y}(e)tik {$a->x}.a';

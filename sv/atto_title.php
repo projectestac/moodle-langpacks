@@ -31,4 +31,5 @@ $string['h5'] = 'Rubrik (liten)';
 $string['p'] = 'Avsnitt';
 $string['pluginname'] = 'Avsnittsformat';
 $string['pre'] = 'För-formaterat';
+$string['privacy:metadata'] = 'Plugin-modulen atto_title lagrar ingen personlig information.';
 $string['title'] = 'Avsnittsformat';

@@ -27,6 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['autosavefailed'] = 'Kan inte kontakta servern. Om du klickar Spara/Skicka nu riskerar du att förlora de ändringar du gjort.';
 $string['autosavesucceeded'] = 'Ditt utkast har sparats.';
-$string['taskautosavecleanup'] = 'Ta bort gamla utkast som sparats automatiskt';
+$string['editor_command_keycode'] = 'Cmd + {$a}';
+$string['editor_control_keycode'] = 'Ctrl + {$a}';
+$string['infostatus'] = 'Information';
+$string['taskautosavecleanup'] = 'Städa upp gamla utkast som sparats automatiskt';
 $string['textrecovered'] = 'Ett utkast av denna text har återställts automatiskt.';
+$string['toolbarconfig'] = 'Inställningar för verktygsfält';
 $string['warningstatus'] = 'Varning';

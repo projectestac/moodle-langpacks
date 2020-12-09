@@ -93,7 +93,7 @@ $string['errorsinenvironment'] = 'Kontrollen av miljön misslyckades';
 $string['fail'] = 'Misslyckas';
 $string['fileuploads'] = 'Uppladdningar av filer';
 $string['fileuploadserror'] = 'Detta bör vara aktiverat (on)';
-$string['fileuploadshelp'] = '<p>Uppladdning av filer verkar vara avaktiverat på din server.</p>
+$string['fileuploadshelp'] = '<p>Uppladdning av filer verkar vara inaktiverat på din server.</p>
 <p>Det kan fortfarande vara så att Moodle är installerat, men utan denna funktionalitet så kommer du inte att kunna ladda upp kursfiler eller nya bilder till användarprofilerna. </p>
 <p>För att aktivera uppladdning av filer så måste du (eller din systemadministratör) redigera den övergripande php.ini-filen på Ert system och ändra inställningen för <b>uppladdning av filer (file uploads)</b> till \'1\'.</p>';
 $string['installation'] = 'Installation';
@@ -133,7 +133,7 @@ $string['phpversion'] = 'PHP-version';
 $string['phpversionhelp'] = '<p>Moodle kräver minst PHP 4.3.0 eller 5.1.0 (det finns ett antal kända problem med 5.0.x)</p>
 <p>Du använder f n version {$a}</p>
 <p>Du måste uppgradera PHP eller flytta till en värd som har en nyare version av PHP! Om Du har 5.0.x så bör Du nedgradera till 4.4.x.</p>';
-$string['releasenoteslink'] = 'För information om den här versionen av Moodle, var snäll och se utgivningsnoteringarna vid {$a}';
+$string['releasenoteslink'] = 'För information om den här versionen av Moodle, läs viktig information vid {$a}';
 $string['safemode'] = 'Säkert läge';
 $string['safemodeerror'] = 'Moodle kan få problem om \'säkert läge\' (safe mode) är aktiverat';
 $string['safemodehelp'] = '<p>Moodle kan få ett antal problem om \'säkert

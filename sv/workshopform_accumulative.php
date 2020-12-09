@@ -28,5 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['dimensioncommentfor'] = 'Kommentar till {$a}';
 $string['dimensiongradefor'] = 'Betyg för {$a}';
 $string['dimensionmaxgrade'] = 'Högsta möjliga betyg / Skala att använda';
+$string['dimensionnumber'] = 'Aspekt {$a}';
 $string['dimensionweight'] = 'Viktning';
+$string['mustchoosegrade'] = 'Du måste välja ett betyg för denna aspekt';
 $string['pluginname'] = 'Ackumulerande betygssättning';

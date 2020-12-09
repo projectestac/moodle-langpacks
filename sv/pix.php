@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['angry'] = 'arg';
 $string['approve'] = 'håller med';
 $string['biggrin'] = 'stort leende';
-$string['blackeye'] = 'blåöga';
+$string['blackeye'] = 'blått öga';
 $string['blush'] = 'rodnar';
 $string['clown'] = 'pajas';
 $string['cool'] = 'lugn';

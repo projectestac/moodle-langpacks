@@ -53,6 +53,7 @@ $string['filelockedmail'] = 'Det går inte att radera den textfil (som baserar s
 $string['filelockedmailsubject'] = 'Viktigt fel: fil för registreringar';
 $string['fixcasepersonalnames'] = 'Ändra personnamn till stora bokstäver';
 $string['fixcaseusernames'] = 'Ändra användarnamn till små bokstäver';
+$string['imsenterprisecrontask'] = 'Bearbeta kursregistreringsfil';
 $string['imsrolesdescription'] = 'Specifikationen för IMS Enterprise inkluderar 8 olika specifika typer av roller. Var snäll och välj hur du vill att de ska tilldelas i Moodle, inklusive huruvida någon av dem inte ska användas.';
 $string['location'] = 'Placering av fil';
 $string['logtolocation'] = 'Loggfil för placering av output (tom om det inte finns några loggar)';

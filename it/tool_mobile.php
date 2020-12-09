@@ -103,4 +103,4 @@ $string['setuplink'] = 'Pagina di scaricamento app';
 $string['setuplink_desc'] = 'URL della pagina contenente i link per scaricare l\'app mobile dall\'App Store e Google Play.';
 $string['smartappbanners'] = 'App Banner';
 $string['typeoflogin'] = 'Tipo di autenticazione';
-$string['typeoflogin_desc'] = 'Se un sito utilizza un\'autenticazione SSO, selezionare finestra browser o browser incorporato. Un browser incorporato fornisce un\'esperienza utente migliore sebbene non funzioni con tutti i tipi di plugin SSO. Quando si utilizza un SSO, il login automatico per gli ospiti deve essere disabilitato.';
+$string['typeoflogin_desc'] = 'Se un sito utilizza un\'autenticazione SSO, selezionare finestra browser o browser incorporato. Un browser incorporato fornisce un\'esperienza utente migliore sebbene non funzioni con tutti i tipi di plugin SSO.';

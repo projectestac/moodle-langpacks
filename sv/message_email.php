@@ -26,4 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['email'] = 'Skicka meddelande via e-post till ';
+$string['emaildigestsubject'] = 'Meddelandesammandrag';
 $string['pluginname'] = 'E-post';
+$string['tasksendemail'] = 'Skicka meddelandesammandrag';

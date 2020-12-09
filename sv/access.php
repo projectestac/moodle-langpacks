@@ -41,6 +41,6 @@ $string['skipa'] = 'Hoppa över {$a}';
 $string['skipblock'] = 'Hoppa över block';
 $string['skipnavigation'] = 'Hoppa över navigation';
 $string['skipto'] = 'Hoppa till {$a}';
-$string['tocontent'] = 'Gå till huvudinnehåll';
+$string['tocontent'] = 'Gå vidare till huvudinnehåll';
 $string['tonavigation'] = 'Gå till navigation';
 $string['youarehere'] = 'Du är här';

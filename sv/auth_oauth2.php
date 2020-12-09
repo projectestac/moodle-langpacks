@@ -95,6 +95,7 @@ $string['notwhileloggedinas'] = 'Länkade konton kan inte hanteras när du är i
 $string['oauth2:managelinkedlogins'] = 'Hantera dina länkade konton';
 $string['pluginname'] = 'OAuth 2';
 $string['privacy:metadata:auth_oauth2'] = 'OAuth 2-autenticering';
+$string['privacy:metadata:auth_oauth2:authsubsystem'] = 'Denna pluginmodul är kopplad till autenticeringssystemet';
 $string['privacy:metadata:auth_oauth2:confirmtoken'] = 'Bekräftelsetoken';
 $string['privacy:metadata:auth_oauth2:confirmtokenexpires'] = 'Tidstämpel för när bekräftelsetoken löper ut';
 $string['privacy:metadata:auth_oauth2:email'] = 'Externt konto som är kopplat till detta konto.';

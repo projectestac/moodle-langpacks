@@ -107,11 +107,11 @@ $string['check_riskbackup_details_overriddenroles'] = '<p>Aktibo dauden baliogab
 $string['check_riskbackup_details_systemroles'] = '<p>Sistemako hurrengo rol hauek erabiltzaileei segurtasun-kopietan erabiltzaile-datuak gehitzeko aukera ematen diete. Mesedez ziurtatu ezazu baimen hau beharrezkoa dela.</p> {$a}';
 $string['check_riskbackup_details_users'] = '<p>Goiko roletako edo baliogabetze-lokalak direla eta, une honetan hurrengo erabiltzaileek segurtasun-kopietan euren ikastaroetan matrikulatutako edozein erabiltzaileren erabiltzaile-datuak gehitzeko baimena dute. Ziurtatu ezazu (a) konfiantzazkoak direla eta (b) pasahitz sendoekin babestuta daudela:</p> {$a}';
 $string['check_riskbackup_detailsok'] = 'Ezein rolek ez du esplizituki erabiltzaile-datuen segurtasun-kopia baimentzen. Halere, kontuan izan "doanything" gaitasuna duten kudeatzaileek hori egiteko aukera izango dutela.';
-$string['check_riskbackup_editoverride'] = '<a href="{$a->url}">{$a->name} {$a->contextname}-(e)an</a>';
+$string['check_riskbackup_editoverride'] = '<a href="{$a->url}">{$a->name} {$a->contextname}(e)an</a>';
 $string['check_riskbackup_editrole'] = '<a href="{$a->url}">{$a->name}</a>';
 $string['check_riskbackup_name'] = 'Erabiltzaile-datuen segurtasun-kopia';
 $string['check_riskbackup_ok'] = 'Ezein rolek ez du esplizituki erabiltzaile-datuen segurtasun-kopia baimentzen';
-$string['check_riskbackup_unassign'] = '<a href="{$a->url}">{$a->fullname} ({$a->email}) {$a->contextname}-(e)an</a>';
+$string['check_riskbackup_unassign'] = '<a href="{$a->url}">{$a->fullname} ({$a->email}) {$a->contextname}(e)an</a>';
 $string['check_riskbackup_warning'] = '{$a->rolecount} rol, {$a->overridecount} baliogabetze eta erabiltzaile-datuen segurtasun-kopiak egiteko baimena duen {$a->usercount} erabiltzaile aurkitu dira.';
 $string['check_riskxss_details'] = '<p>RISK_XSS soilik konfiantzazko erabiltzaileek izan beharko luketen gaitasun arriskutsuak biltzen ditu.</p>
 <p>Egiaztatu hurrengo erabiltzaile-zerrenda eta ziurtatu zerbitzari honetan erabiltzaileok konfiantzazkoak direla:</p>

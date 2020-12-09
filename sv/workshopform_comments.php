@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['dimensioncommentfor'] = 'Kommentar till {$a}';
+$string['dimensionnumber'] = 'Aspekt {$a}';
 $string['pluginname'] = 'Kommentarer';

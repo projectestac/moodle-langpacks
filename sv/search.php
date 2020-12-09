@@ -43,6 +43,7 @@ $string['databasestate'] = 'Indexerar tillståndet för databas';
 $string['datadirectory'] = 'Datakatalog';
 $string['deletionsinindex'] = 'Raderingar i ndex';
 $string['doctype'] = 'Typ av doc';
+$string['doctypenotsupported'] = 'Den angivna dokumenttypen stöds ännu inte';
 $string['documents'] = 'dokument';
 $string['documentsfor'] = 'Dokument för';
 $string['documentsindatabase'] = 'Dokument i databasen';

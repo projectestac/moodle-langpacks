@@ -38,8 +38,7 @@ $string['locale'] = 'nl_NL.UTF-8';
 $string['localewin'] = 'Dutch_Netherlands.1252';
 $string['localewincharset'] = 'WINDOWS-1252';
 $string['oldcharset'] = 'ISO-8859-1';
-// Warning: this parentlanguage value is not a valid language code!
-// $string['parentlanguage'] = '';
+$string['parentlanguage'] = '';
 $string['strftimedate'] = '%d %B %Y';
 $string['strftimedatefullshort'] = '%d/%m/%y';
 $string['strftimedatemonthabbr'] = '%d %b %Y';

@@ -37,8 +37,7 @@ $string['locale'] = 'zh_CN.UTF-8';
 $string['localewin'] = 'Chinese_China.54936';
 $string['localewincharset'] = 'GBK';
 $string['oldcharset'] = 'UTF-8';
-// Warning: this parentlanguage value is not a valid language code!
-// $string['parentlanguage'] = '';
+$string['parentlanguage'] = '';
 $string['strftimedate'] = '%Y年%m月%d日';
 $string['strftimedatefullshort'] = '%y/%m/%d';
 $string['strftimedateshort'] = '%m月%d日';

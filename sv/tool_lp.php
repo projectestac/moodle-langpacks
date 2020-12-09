@@ -37,7 +37,7 @@ $string['addnewcompetency'] = 'Lägg till en ny kompetens';
 $string['addnewcompetencyframework'] = 'Lägg till nytt kompetensramverk';
 $string['addnewplan'] = 'Lägg till ny studieplan';
 $string['addnewtemplate'] = 'Lägg till ny studieplansmall';
-$string['addnewuserevidence'] = 'Lägg till ny verifiering';
+$string['addnewuserevidence'] = 'Lägg till nytt bevis';
 $string['addtemplatecompetencies'] = 'Lägg till kompetenser i en mall för studieplaner';
 $string['aisrequired'] = '\'{$a}\' krävs';
 $string['aplanswerecreated'] = '{$a} studieplan skapades.';
@@ -195,7 +195,7 @@ $string['reopenplanconfirm'] = 'Återöppna studieplanen \'{$a}\'? Om så, statu
 $string['requestreview'] = 'Begär bedömning';
 $string['reviewer'] = 'Bedömare';
 $string['reviewstatus'] = 'Granska status';
-$string['savechanges'] = 'Spara ändringar';
+$string['savechanges'] = 'Spara';
 $string['scale'] = 'Skala';
 $string['scale_help'] = 'En skala bestämmer hur kunnighet i en kompetens mäts. Efter val av skala måste den konfigureras.
 

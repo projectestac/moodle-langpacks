@@ -26,5 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configtitle'] = 'Titel på block';
-$string['disabledtags'] = 'Taggar är avaktiverat';
+$string['disabledtags'] = 'Taggar är inaktiverade';
 $string['pluginname'] = 'Rubriker för intressen';

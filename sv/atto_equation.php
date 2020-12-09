@@ -25,4 +25,19 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['cursorinfo'] = 'En pil anger den position som nya element från elementbiblioteket kommer att infogas på.';
+$string['editequation'] = 'Använd <a href="{$a}" target="_blank">TeX</a> för att redigera ekvationen.';
+$string['librarygroup1'] = 'Operatorer';
+$string['librarygroup1_desc'] = 'TeX-kommandon på Operatorer-fliken.';
+$string['librarygroup2'] = 'Pilar';
+$string['librarygroup2_desc'] = 'TeX-kommandon på Pilar-fliken.';
+$string['librarygroup3'] = 'Grekiska symboler';
+$string['librarygroup3_desc'] = 'TeX-kommandon på Grekiska symboler-fliken.';
+$string['librarygroup4'] = 'Avancerat';
+$string['librarygroup4_desc'] = 'TeX-kommandon på avancerat-fliken.';
+$string['pluginname'] = 'Ekvationsredigerare';
+$string['preview'] = 'Förhandsgranska ekvation';
+$string['privacy:metadata'] = 'Plugin-modulen atto_equation lagrar ingen personlig information.';
 $string['saveequation'] = 'Spara ekvationen';
+$string['settings'] = 'Inställningar för ekvationsredigeraren';
+$string['update'] = 'Uppdatera';

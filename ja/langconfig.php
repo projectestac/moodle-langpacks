@@ -38,8 +38,7 @@ $string['locale'] = 'ja_JP.UTF-8';
 $string['localewin'] = 'Japanese_Japan.932';
 $string['localewincharset'] = 'CP932';
 $string['oldcharset'] = 'EUC-JP';
-// Warning: this parentlanguage value is not a valid language code!
-// $string['parentlanguage'] = '';
+$string['parentlanguage'] = '';
 $string['strftimedate'] = '%Y年 %m月 %d日';
 $string['strftimedatefullshort'] = '%y/%m/%d';
 $string['strftimedatemonthabbr'] = '%Y年 %m月 %d日';

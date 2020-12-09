@@ -26,9 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['conditiontitle'] = 'Fält för användarprofil';
-$string['description'] = 'Styr åtkomst baserad på fält i studentenprofilen';
+$string['description'] = 'Styr åtkomst via fält i användarprofil.';
 $string['error_selectfield'] = 'Du måste välja ett profilfält';
 $string['error_setvalue'] = 'Du måste skriva in ett värde';
+$string['label_operator'] = 'Jämförelsemetod';
+$string['label_value'] = 'Jämförelsevärde';
+$string['missing'] = '(Saknar anpassade fält: {$a})';
 $string['op_contains'] = 'innehåller';
 $string['op_doesnotcontain'] = 'innehåller inte';
 $string['op_endswith'] = 'slutar med';
@@ -36,5 +39,5 @@ $string['op_isempty'] = 'är tom';
 $string['op_isequalto'] = 'är lika med';
 $string['op_isnotempty'] = 'är inte tomt';
 $string['op_startswith'] = 'inleds med';
-$string['pluginname'] = 'Begränsning genom profil';
+$string['pluginname'] = 'Begränsning via profil';
 $string['title'] = 'Användarprofil';

@@ -50,10 +50,7 @@ $string['allowduplicatedentries_help'] = '<p>Du kan ange om det ska vara till&ar
 l&auml;gga till dubletter av bidrag till den aktuella
 ord- och begreppslistan.</p>';
 $string['allowprintview'] = 'Tillåt visning av utskrift';
-$string['allowprintview_help'] = '<p>Studenter/elever/deltagare/lärande kan få tillåtelse att
-använda förhandsgranskning för utskrift av ord- och begreppslista</p>
-<p>Du kan välja om du vill aktivera eller avaktivera detta alternativ</p>
-<p>Distanslärare kan alltid använda förhandsgranskning för utskrift.</p>';
+$string['allowprintview_help'] = 'Om detta är aktiverat får deltagarna en länk till en utskriftsvänlig version av ordlistan. Länken är alltid tillgänglig för lärare.';
 $string['andmorenewentries'] = 'och ytterligare {$a} nya bidrag.';
 $string['answer'] = 'Svar';
 $string['approve'] = 'Godkänn';
@@ -121,7 +118,7 @@ $string['completionentriesdesc'] = 'Deltagaren måste skapa minst {$a} uppslagso
 $string['completionentriesgroup'] = 'Gör bidrag obligatoriska';
 $string['concept'] = 'Begrepp';
 $string['concepts'] = 'Begrepp';
-$string['configenablerssfeeds'] = 'Den här omkopplaren kommer att aktivera RSS-inmatning för alla ord- och begreppslistor. Du  måste fortfarande aktivera inmatningarna manuellt i inställningarna för varje enskild ord- och begreppslista.';
+$string['configenablerssfeeds'] = 'Den här omkopplaren kommer att aktivera RSS-flöde för alla ord- och begreppslistor. Du  måste fortfarande aktivera flödet manuellt i inställningarna för varje enskild ord- och begreppslista.';
 $string['current'] = 'För närvarande sorterad {$a}';
 $string['currentglossary'] = 'Aktuell ord- och begreppslista';
 $string['date'] = 'datum';
@@ -338,17 +335,17 @@ $string['resetglossaries'] = 'Ta bort bidrag från';
 $string['resetglossariesall'] = 'Ta bort bidrag från alla ord- och begreppslistor';
 $string['rssarticles'] = 'Antal aktuella RSS-artiklar';
 $string['rssarticles_help'] = '<p>Det här alternativet gör det möjligt för dig att markera det antal
-artiklar som du vill ta med i RSS-matningen.</p>
+artiklar som du vill ta med i RSS-flödet.</p>
 <p>Ett antal mellan 5 och 20 bör vara lagom för de flesta ord- och begreppslistor.
  Öka detta antal om ord- och begreppslistan används mycket flitigt.</p>';
-$string['rsssubscriberss'] = 'Visa RSS-inmatningen för  \'{$a}\' koncept';
+$string['rsssubscriberss'] = 'Visa RSS-flöden för \'{$a}\' koncept';
 $string['rsstype'] = 'RSS-flöde för den här aktiviteten';
-$string['rsstype_help'] = '<p>Det här alternativet låter dig aktivera RSS-matningar till denna ord- och begreppslista.</p>
+$string['rsstype_help'] = '<p>Det här alternativet låter dig aktivera RSS-flödentill denna ord- och begreppslista.</p>
 <p>Du kan välja mellan två sorters matningar:</p>
 <ul>
-<li><b>Med författare:</b>Om du använder detta, så kommer de genererade matningarna att ta med
+<li><b>Med författare:</b>Om du använder detta, så kommer de genererade flödena att ta med
 namnet på författaren i varje artikel.</li>
-<li><b>Utan författare:</b>Om du använder detta, så kommer de genererade matningarna INTE att ta med
+<li><b>Utan författare:</b>Om du använder detta, så kommer de genererade flödena INTE att ta med
 namnet på författaren i varje artikel.</li>
 </ul>';
 $string['search:entry'] = 'Ordbok - uppslagsord/inlägg';
@@ -361,14 +358,14 @@ Att söka på kategorier och datum går alltid.
 Du kan dock ange ytterligare tre alternativ:</p>
 <p><b>VISA SPECIAL</b>
 <br />
-Aktivera eller avaktivera sökning med hjälp av
+Aktivera eller inaktivera sökning med hjälp av
 specialtecken som @, #, etc.</p>
 <p><b>VISA ALFABETET</b>
 <br />
-Aktivera eller avaktivera sökning med hjälp av bokstäver.</p>
+Aktivera eller inaktivera sökning med hjälp av bokstäver.</p>
 <p><b>VISA ALLA</b>
 <br />
-Aktivera eller avaktivera sökning med hjälp av att
+Aktivera eller inaktivera sökning med hjälp av att
 visa alla bidrag på en gång.</p>';
 $string['showalphabet'] = 'Visa alfabetet';
 $string['showalphabet_help'] = '<p>Du kan ställa in de sätt man kan använda
@@ -377,14 +374,14 @@ Att söka på kategorier och datum går alltid.
 Du kan dock ange ytterligare tre alternativ:</p>
 <p><b>VISA SPECIAL</b>
 <br />
-Aktivera eller avaktivera sökning med hjälp av
+Aktivera eller inaktivera sökning med hjälp av
 specialtecken som @, #, etc.</p>
 <p><b>VISA ALFABETET</b>
 <br />
-Aktivera eller avaktivera sökning med hjälp av bokstäver.</p>
+Aktivera eller inaktivera sökning med hjälp av bokstäver.</p>
 <p><b>VISA ALLA</b>
 <br />
-Aktivera eller avaktivera sökning med hjälp av att
+Aktivera eller inaktivera sökning med hjälp av att
 visa alla bidrag på en gång.</p>';
 $string['showspecial'] = 'Visa länken \'Special\'';
 $string['showspecial_help'] = '<p>Du kan ställa in de sätt man kan använda
@@ -393,14 +390,14 @@ Att söka på kategorier och datum går alltid.
 Du kan dock ange ytterligare tre alternativ:</p>
 <p><b>VISA SPECIAL</b>
 <br />
-Aktivera eller avaktivera sökning med hjälp av
+Aktivera eller inaktivera sökning med hjälp av
 specialtecken som @, #, etc.</p>
 <p><b>VISA ALFABETET</b>
 <br />
-Aktivera eller avaktivera sökning med hjälp av bokstäver.</p>
+Aktivera eller inaktivera sökning med hjälp av bokstäver.</p>
 <p><b>VISA ALLA</b>
 <br />
-Aktivera eller avaktivera sökning med hjälp av att
+Aktivera eller inaktivera sökning med hjälp av att
 visa alla bidrag på en gång.</p>';
 $string['sortby'] = 'Sortera efter';
 $string['sortbycreation'] = 'Enligt datum för tillkomst';

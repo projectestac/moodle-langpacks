@@ -88,4 +88,4 @@ $string['taskschedulemonth_help'] = 'Programatutako zereginerako hilabeteentzako
 <strong>*/2</strong> Bi hilean behin
 <strong>1</strong> Urtarrila guztietan
 <strong>1,5</strong> Urtarrilean eta maiatza guztietan';
-$string['viewlogs'] = 'Ikusi {$a}-(e)rako erregistroak';
+$string['viewlogs'] = 'Ikusi {$a}(e)rako erregistroak';

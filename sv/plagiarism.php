@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['availableplugins'] = 'Tillgängliga plugin-program';
+$string['availableplugins'] = 'Tillgängliga pluginmoduler';
 $string['configenableplagiarism'] = 'Det här kommer att tillåta administratörer att konfigurera plugin-program mot fusk (om de är installerade)';
 $string['configplagiarismplugins'] = 'Var snäll och välj det plugin-program mot fusk som Du vill konfigurera';
 $string['enableplagiarism'] = 'Aktivera plugin-program mot fusk';
 $string['manageplagiarism'] = 'Administrera plugins för plagiatkontroll';
-$string['nopluginsinstalled'] = 'Det finns inga installerade plugin-program mot fusk.';
+$string['nopluginsinstalled'] = 'Det finns inga installerade pluginmoduler mot fusk.';
 $string['plagiarism'] = 'Åtgärder för att förhindra fusk';

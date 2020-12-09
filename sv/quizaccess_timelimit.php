@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['confirmstart'] = 'Det här testet har en tidsbegränsning på {$a}. Tiden startar då du öppnar testet och du måste lämna in dina svar innan tiden är slut. Är du säker på att du vill börja nu?';
-$string['confirmstartheader'] = 'Test med tidsbegränsning';
+$string['confirmstartheader'] = 'Tidgräns';
 $string['pluginname'] = 'Tidsbaserad regel för åtkoms till testet';
 $string['quiztimelimit'] = 'Tidsbegränsning: {$a}';

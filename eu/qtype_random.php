@@ -45,6 +45,6 @@ $string['randomqplusnamemoduletags'] = 'Ausazkoa (galdetegi honen edozein katego
 $string['randomqplusnamesystem'] = 'Ausaz (sistema mailako edozein kategoria)';
 $string['randomqplusnamesystemtags'] = 'Ausaz (sistema mailako edozein kategoria, etiketak: {$a->tags})';
 $string['randomqplusnametags'] = 'Ausazkoa ({$a->category} eta azpikategoriak, etiketak: {$a->tags})';
-$string['selectedby'] = '{$a->randomname}-(e)k {$a->questionname} aukeratu du';
+$string['selectedby'] = '{$a->randomname}(e)k {$a->questionname} aukeratu du';
 $string['selectmanualquestions'] = 'Ausazko galderak eskuz kalifikatutako galderak erabil ditzake';
 $string['taskunusedrandomscleanup'] = 'Ezabatu erabili gabeko ausazko galderak';

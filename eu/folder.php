@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['bynameondate'] = '{$a->name}-(e)k - {$a->date}';
+$string['bynameondate'] = '{$a->name}(e)k - {$a->date}';
 $string['contentheader'] = 'Edukia';
 $string['display'] = 'Erakutsi karpetaren edukiak';
 $string['display_help'] = 'Karpetako edukiak ikastaroaren orrian erakustea aukeratzen baduzu ez da agertuko aparteko orri baterako esteka eta izenburua ere ez da erakutsiko. Deskribapena soilik agertuko da \'Erakutsi deskribapena ikastaroaren orriaren pantailan\' aukeratzen bada. Kontuan izan kasu honetan ezin dela erabiltzaileen ekintzarik erregistratu.';

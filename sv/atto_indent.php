@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['indent'] = 'Indrag';
 $string['outdent'] = 'Minska indrag';
 $string['pluginname'] = 'Indrag';
+$string['privacy:metadata'] = 'Plugin-modulen atto_indent lagrar ingen personlig information.';

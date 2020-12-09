@@ -27,7 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['configuration'] = 'Inställningar för bedömningsmatris';
 $string['criteria'] = 'Kriterier';
+$string['dimensionnumber'] = 'Kriteria {$a}';
 $string['layout'] = 'Utvärderingsmatrisens utseende';
+$string['layoutgrid'] = 'Rutnät';
 $string['layoutlist'] = 'Lista';
 $string['mustbeunique'] = 'Betygen måste vara entydiga inom ett kriterium';
+$string['mustchooseone'] = 'Du måste välja ett av dessa';
 $string['pluginname'] = 'Bedömningsmatris';

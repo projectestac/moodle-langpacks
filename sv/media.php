@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['mediaformats'] = 'Tillgängliga spelare';
 $string['mediaformats_desc'] = '<p>När spelare aktiveras i dessa inställningar kan filer bäddas in med mediafiltret (om aktiverat) eller genom att använda fil eller URL resurser med embed. Om ej aktiverat bäddas dessa format inte in och användarna kan manuellt ladda ner eller följa länkar till dessa resurser.</p><br />
 <p>När två spelare stödjer samma format kommer aktivering av båda att öka kompatibliteten för olika apparater som mobiltelefoner. Om det är möjligt att öka kompatibliteten ytterligare genom att tillhandahålla flera filer med olika format för samma videoklipp.</p>';
+$string['supports'] = 'Stödjer';

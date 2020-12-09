@@ -65,7 +65,7 @@ $string['assign:viewblinddetails'] = 'ブラインド評定が有効にされた
 $string['assign:viewgrades'] = '評定を表示する';
 $string['assignfeedback'] = 'フィードバックプラグイン';
 $string['assignfeedbackpluginname'] = 'フィードバックプラグイン';
-$string['assignmentisdue'] = '課題の提出期限が近づいています';
+$string['assignmentisdue'] = '課題の提出期限が到来しました。';
 $string['assignmentmail'] = 'あなたの「 {$a->assignment} 」への提出課題に関して {$a->grader} がフィードバックを投稿しました。
 
 あなたの提出課題に追加されたフィードバックをご覧ください:

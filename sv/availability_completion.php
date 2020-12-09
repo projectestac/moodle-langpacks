@@ -25,20 +25,20 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['description'] = 'Kräver studenterna att slutföra (eller ej slutföra) en annan aktivitet.';
+$string['description'] = 'Kräv att studenter slutför eller inte slutför en annan aktivitet';
 $string['error_selectcmid'] = 'Du måste välja en aktivitet för villkor';
 $string['label_cm'] = 'Aktivitet eller resurs';
-$string['label_completion'] = 'Erforderlig status för slutförande';
+$string['label_completion'] = 'Nödvändig slutförandestatus';
 $string['missing'] = '(aktivitet saknas)';
 $string['option_complete'] = 'måste vara markerad som fullföljd';
 $string['option_fail'] = 'ska vara genomförd och <strong>underkänd</strong>';
 $string['option_incomplete'] = 'behöver inte vara markerad som fullföljd';
 $string['option_pass'] = 'måste vara fullföljd och godkänd';
-$string['pluginname'] = 'Villkor av slutförande av aktivitet';
+$string['pluginname'] = 'Begränsning via slutförande av aktivitet';
 $string['requires_complete'] = 'Aktiviteten <strong>{$a}</strong> markeras som genomförd';
 $string['requires_complete_fail'] = 'Aktiviteten <strong>{$a}</strong> är genomförd och är underkänd';
 $string['requires_complete_pass'] = 'Aktiviteten <strong>{$a}</strong> är genomförd och godkänd';
 $string['requires_incomplete'] = 'Aktiviteten <strong>{$a}</strong> är ofullständig';
 $string['requires_not_complete_fail'] = 'Aktiviteten <strong>{$a}</strong> är inte genomförd och underkändes';
 $string['requires_not_complete_pass'] = 'Aktiviteten <strong>{$a}</strong> är inte genomförd och godkändes';
-$string['title'] = 'Activity completion';
+$string['title'] = 'Slutförande av aktivitet';

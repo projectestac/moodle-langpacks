@@ -38,8 +38,7 @@ $string['locale'] = 'el_GR.UTF-8';
 $string['localewin'] = 'Greek_Greece.1253';
 $string['localewincharset'] = 'WINDOWS-1253';
 $string['oldcharset'] = 'WINDOWS-1253';
-// Warning: this parentlanguage value is not a valid language code!
-// $string['parentlanguage'] = '';
+$string['parentlanguage'] = '';
 $string['strftimedate'] = '%d %B %Y';
 $string['strftimedatefullshort'] = '%d/%m/%y';
 $string['strftimedatemonthabbr'] = '%d %b %Y';

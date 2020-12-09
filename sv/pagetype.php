@@ -25,14 +25,22 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['page-admin-current'] = 'Nuvarande sida för webbplatsadministration';
+$string['page-admin-x'] = 'Valfri sida för webbplatsadministration';
+$string['page-course-index'] = 'Visningssida för översta kategorin';
+$string['page-course-index-category'] = 'Nuvarande sida för visning av kategorier';
+$string['page-course-index-x'] = 'Valfri sida för visning av kategorier';
 $string['page-course-report-x'] = 'Vilken kursrapport som helst';
+$string['page-course-search'] = 'Söksida för kurser';
 $string['page-course-view-x'] = 'Vilken typ av kurs-startsida som helst';
 $string['page-course-x'] = 'Vilken kurssida som helst';
 $string['page-mod-x'] = 'Vilken sida som helst för aktivitetsmodul';
 $string['page-mod-x-view'] = 'Vilken ingångssida som helst för aktivitetsmodul';
 $string['page-my-index'] = 'Användarnas *Min hem\' sida';
+$string['page-report-x'] = 'Valfri rapportsida';
 $string['page-site-index'] = 'Endast ingångssidan';
 $string['page-site-x'] = 'Vilken sida som helst på toppnivå på webbplatsen';
-$string['page-user-view'] = 'Endast sidor med användarnas profiler';
-$string['page-user-x'] = 'Alla sidor för användare';
+$string['page-user-profile'] = 'Endast användarprofilssidor';
+$string['page-user-view'] = 'Endast användarprofilssidor';
+$string['page-user-x'] = 'Alla användarsidor';
 $string['page-x'] = 'Vilken sida som helst';

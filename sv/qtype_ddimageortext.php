@@ -26,3 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['correctansweris'] = 'Det rätta svaret är: {$a}';
+$string['draggableimage'] = 'Släpbar bild';
+$string['draggableitem'] = 'Släpbart objekt';
+$string['draggableitemheader'] = 'Släpbart objekt {$a}';
+$string['draggableitems'] = 'Släpbara objekt';
+$string['draggableitemtype'] = 'Typ';
+$string['pluginname'] = 'Dra och släpp på bild';
+$string['pluginnameadding'] = 'Lägger till dra och släpp på bild';
+$string['previewareaheader'] = 'Förhandsgranska';
+$string['refresh'] = 'Uppdatera förhandsgranskning';

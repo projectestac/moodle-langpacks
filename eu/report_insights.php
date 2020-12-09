@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['actionsaved'] = '\'{$a}\'-(e)rako zure feedback-a gorde da.';
+$string['actionsaved'] = '\'{$a}\'(e)rako zure feedback-a gorde da.';
 $string['confirmbulkaction'] = 'Ziur zaude aukeratutako {$a->nitems} aurreikuspenak {$a->action} gisa markatu nahi dituzula?';
 $string['disabledmodel'] = 'Kudeatzaile batek eredu hau desgaitu du.';
 $string['indicators'] = 'Adierazleak';
@@ -48,4 +48,4 @@ $string['selectotherinsights'] = 'Aukeratu beste pertzepzio batzuk...';
 $string['selectprediction'] = 'Aukeratu {$a} ekintza masiborako';
 $string['timecreated'] = 'Aurreikusitako denbora';
 $string['timerange'] = 'Analisi-tartea';
-$string['timerangewithdata'] = '{$a->timestart}-(e)tatik {$a->timeend}-(e)tara';
+$string['timerangewithdata'] = '{$a->timestart}(e)tatik {$a->timeend}(e)tara';

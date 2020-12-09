@@ -25,4 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['browserepositories'] = 'Bläddra bland lagringsplatser...';
 $string['copyrightbutton'] = 'Copyright-knapp';
+$string['downloadbutton'] = 'Tillåt nedladdning';
+$string['either'] = 'Antingen';
+$string['embedbutton'] = 'Bädda in knapp';
+$string['h5p:addembed'] = 'Lägg till inbäddad H5P';
+$string['h5poptions'] = 'H5P-alternativ';
+$string['h5pproperties'] = 'H5P-egenskaper';
+$string['h5purl'] = 'H5P URL';
+$string['invalidh5purl'] = 'Ogiltig URL';
+$string['noh5pcontent'] = 'Inget H5P-innehåll tillagt';
+$string['or'] = 'eller';
+$string['pluginname'] = 'Infoga H5P';

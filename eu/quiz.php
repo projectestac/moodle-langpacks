@@ -101,7 +101,7 @@ $string['attemptlast'] = 'Azken saiakera';
 $string['attemptnumber'] = 'Saiakera';
 $string['attemptquiznow'] = 'Saiatu orain galdetegia egiten';
 $string['attemptreviewtitle'] = '{$a}: Saiakeraren berrikuspena';
-$string['attemptreviewtitlepaged'] = '{$a->name}: Saiakeraren berrikuspena ({$a->currentpage}. orria {$a->totalpages}-(e)tik)';
+$string['attemptreviewtitlepaged'] = '{$a->name}: Saiakeraren berrikuspena ({$a->currentpage}. orria {$a->totalpages}(e)tik)';
 $string['attempts'] = 'Saiakerak';
 $string['attempts_help'] = 'Onartutako saiakera-kopuru osoa (aparteko saiakerak kontuan hartu gabe).';
 $string['attemptsallowed'] = 'Baimendutako saiakerak';
@@ -117,7 +117,7 @@ $string['attemptstillinprogress'] = 'Saiakera egiten ari da oraindik';
 $string['attemptsummarytitle'] = '{$a}: Saiakeraren laburpena';
 $string['attemptsunlimited'] = 'Saiakera-kopuru mugagabea';
 $string['attempttitle'] = '{$a}';
-$string['attempttitlepaged'] = '{$a->name} ({$a->currentpage}. orria {$a->totalpages}-(e)tik)';
+$string['attempttitlepaged'] = '{$a->name} ({$a->currentpage}. orria {$a->totalpages}(e)tik)';
 $string['autosaveperiod'] = 'Automatikoki gordetzeko denbora-tartea';
 $string['autosaveperiod_desc'] = 'Saiakera egin den bitartean erantzunak automatikoki gorde daitezke. Erantzunak aldatzen direnean gordetzen dira, eta bestela denbora-tarte hau igarotzean. Aukera honek zeharkako eragin bat dauka: denbora-tarte txiki batek zerbitzariaren karga handitu dezake, baina ikasleen erantzunak galtzeko arriskua txikitzen du. Denbora-tartea asko txikitu nahi baduzu, hobe duzu gutxika jaisten joatea eta bitartean zerbitzariaren karga ikustea. Karga asko igotzen bada, denbora-tartea luzatu ezazu. Denbora-tartean 0 jarriz gero gordetze automatikoa desgaituko da.';
 $string['back'] = 'Itzuli aurreko galderara';
@@ -312,8 +312,8 @@ $string['emailnotifybody'] = 'Kaixo, {$a->username}:
 {$a->studentname} -k \'{$a->quizname}\' ({$a->quizurl}) galdetegia osatu du \'{$a->coursename}\' ikastaroan.
 
 Saiakera hau hemen berrikusi ahal duzu: {$a->quizreviewurl}';
-$string['emailnotifysmall'] = '{$a->studentname}-(e)k {$a->quizname} osatu du. Ikusi {$a->quizreviewurl}';
-$string['emailnotifysubject'] = '{$a->studentname} -(e)k {$a->quizname} osatu du';
+$string['emailnotifysmall'] = '{$a->studentname}(e)k {$a->quizname} osatu du. Ikusi {$a->quizreviewurl}';
+$string['emailnotifysubject'] = '{$a->studentname}(e)k {$a->quizname} osatu du';
 $string['emailoverduebody'] = 'Kaixo {$a->studentname},
 
 Saiakera bat hasi zenuen \'{$a->coursename}\' ikastaroko \'{$a->quizname}\' galdetegian, baina ez duzu bidali. Bidalita egon beharko litzateke {$a->attemptduedate}-rako.
@@ -589,8 +589,8 @@ Galderak orri-kopuru jakin baten artean banatzeko, egin klik "Berriz orrikatu" b
 $string['orderingquiz'] = 'Ordena eta orrikatzea';
 $string['orderingquizx'] = 'Ordena eta orrikatzea: {$a}';
 $string['outcomesadvanced'] = 'Ikaste-emaitzak ezarpen aurreratuak dira';
-$string['outof'] = '{$a->grade} gehienezko {$a->maxgrade}-(e)tik';
-$string['outofpercent'] = '{$a->grade} gehienezko {$a->maxgrade}-(e)tik (%{$a->percent})';
+$string['outof'] = '{$a->grade} gehienezko {$a->maxgrade}(e)tik';
+$string['outofpercent'] = '{$a->grade} gehienezko {$a->maxgrade}(e)tik (%{$a->percent})';
 $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';
 $string['overallfeedback'] = 'Galdetegiko feedback orokorra';
 $string['overallfeedback_help'] = 'Galdetegiko feedback orokorra galdetegiaren saiakera bat osatu ondoren ikasleari erakutsiko zaion testua da. Kalifikazio-muga gehiago zehaztuta (zenbakia edo ehunekoa adieraziz), erakutsitako testua ikasleak lortutako kalifikazioaren araberakoa izan daiteke.';
@@ -601,7 +601,7 @@ $string['overduehandling_help'] = 'Ezarpen honek kontrolatzen du zer gertatzen d
 $string['overduehandlingautoabandon'] = 'Saiakerak denbora agortu aurretik bidali behar dira; bestela, ez dira aintzat hartuko';
 $string['overduehandlingautosubmit'] = 'Denbora agortzean saiakera irekiak automatikoki bidaltzen dira.';
 $string['overduehandlinggraceperiod'] = 'Denbora agortzean hasitako saiakerak bidaltzeko epe gehigarria dago, baina epe horretan ezin da galdera gehiago erantzun';
-$string['overduemustbesubmittedby'] = 'Saiakera hau epez kanpo dago. Dagoeneko bidalita egon beharko luke. Galdetegia kalifikatua izatea nahi baduzu, {$a}-(e)rako bidali behar duzu. Ez baduzu data horretarako bidaltzen, saiakera hau ez da aintzat hartuko.';
+$string['overduemustbesubmittedby'] = 'Saiakera hau epez kanpo dago. Dagoeneko bidalita egon beharko luke. Galdetegia kalifikatua izatea nahi baduzu, {$a}(e)rako bidali behar duzu. Ez baduzu data horretarako bidaltzen, saiakera hau ez da aintzat hartuko.';
 $string['override'] = 'Gehitu salbuespena';
 $string['overridedeletegroupsure'] = 'Ziur zaude {$a} talderako talde-salbuespena ezabatu nahi duzula?';
 $string['overridedeleteusersure'] = 'Ziur zaude {$a} erabiltzailearentzako salbuespena ezabatu nahi duzula?';
@@ -930,7 +930,7 @@ $string['statefinisheddetails'] = '{$a} bidali da';
 $string['stateinprogress'] = 'Abian';
 $string['statenotloaded'] = '{$a} galderaren egoera ez da datu-basetik kargatu';
 $string['stateoverdue'] = 'Atzeratuta';
-$string['stateoverduedetails'] = '{$a}-(e)rako bidali behar da';
+$string['stateoverduedetails'] = '{$a}(e)rako bidali behar da';
 $string['status'] = 'Egoera';
 $string['stoponerror'] = 'Gelditu errorea gertatzen bada';
 $string['submitallandfinish'] = 'Bidali dena eta amaitu';

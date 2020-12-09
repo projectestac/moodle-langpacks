@@ -197,7 +197,7 @@ $string['latesubmissions_desc'] = 'Erlaube verspätete Einreichungen';
 $string['latesubmissions_help'] = 'Wenn diese Option aktiviert ist, können Einreichungen auch nach dem festgelegten Abgabezeitpunkt oder während der Beurteilungsphase noch abgegeben werden. Diese können danach jedoch nicht mehr bearbeitet werden.';
 $string['latesubmissionsallowed'] = 'Verspätete Einreichungen sind zugelassen';
 $string['legacyallocationplugincron'] = 'Alte Cron-Zuteilung für gegenseitige Beurteilungen';
-$string['maxbytes'] = 'Maximale Dateigröße';
+$string['maxbytes'] = 'Maximale Dateigröße zur Abgabe';
 $string['modulename'] = 'Gegenseitige Beurteilung';
 $string['modulename_help'] = 'Die gegenseitige Beurteilung (Peer Assessment, früher Workshop) ist ein besonderer mehrstufiger Aufgabentyp:
 
@@ -328,7 +328,7 @@ $string['submissiondeleteconfirmassess'] = 'Möchten Sie wirklich die folgende E
 $string['submissionend'] = 'Einreichungen bis';
 $string['submissionendbeforestart'] = 'Der Abgabetermin für Einreichungen kann nicht vor dem Beginn der Einreichungphase liegen';
 $string['submissionenddatetime'] = 'Einreichungen sind möglich bis {$a->daydatetime} ({$a->distanceday})';
-$string['submissionendevent'] = '{$a} (Abgabetermin für Einreichungen)';
+$string['submissionendevent'] = '{$a} Abgabetermin';
 $string['submissionendswitch'] = 'Nach Abgabetermin automatisch zur nächsten Phase wechseln';
 $string['submissionendswitch_help'] = 'Wenn diese Option aktiviert und ein Abgabetermin für Einreichungen festgelegt sind, wechselt die gegenseitige Beurteilung automatisch in die Beurteilungsphase.
 
@@ -343,7 +343,7 @@ $string['submissionsettings'] = 'Einstellungen Einreichungen';
 $string['submissionsreport'] = 'Einreichungsübersicht für gegenseitige Beurteilung';
 $string['submissionstart'] = 'Einreichungen ab';
 $string['submissionstartdatetime'] = 'Einreichungen sind möglich ab {$a->daydatetime} ({$a->distanceday})';
-$string['submissionstartevent'] = '{$a} (Start für Einreichungen)';
+$string['submissionstartevent'] = '{$a} Abgabebeginn';
 $string['submissiontitle'] = 'Titel';
 $string['submissiontypedisabled'] = 'Der Einreichungstyp ist für diese Gegenseitige Beurteilung deaktiviert.';
 $string['submissiontypefileavailable'] = 'Dateianhang <span class="accesshide">verfügbar</span>';

@@ -49,5 +49,5 @@ $string['modulename_help'] = 'Ein Textfeld wird auf der Kursseite angezeigt, z.B
 $string['modulenameplural'] = 'Textfelder';
 $string['pluginadministration'] = 'Textfeld-Administration';
 $string['pluginname'] = 'Textfeld';
-$string['privacy:metadata'] = 'Das Plugin Textfeld speichert keine personenbezogenen Daten.';
+$string['privacy:metadata'] = 'Das Plugin \'Textfeld\' speichert keine personenbezogenen Daten.';
 $string['search:activity'] = 'Textfeld';

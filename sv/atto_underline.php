@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Understruken';
+$string['privacy:metadata'] = 'Plugin-modulen atto_underline lagrar ingen personlig information.';

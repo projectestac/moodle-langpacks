@@ -178,26 +178,26 @@ $string['taxonomy_practice'] = 'Praktika';
 $string['taxonomy_proficiency'] = 'Trebezia';
 $string['taxonomy_skill'] = 'Trebetasuna';
 $string['taxonomy_value'] = 'Balioa';
-$string['usercommentedonacompetency'] = '{$a->fullname}-(e)k iruzkina egin du "{$a->competency}" konpetentzian:
+$string['usercommentedonacompetency'] = '{$a->fullname}(e)k iruzkina egin du "{$a->competency}" konpetentzian:
 
 {$a->comment}
 
 Ikusi: {$a->url}';
-$string['usercommentedonacompetencyhtml'] = '<p>{$a->fullname}-(e)k iruzkina egin du "{$a->competency}" konpetentzian:</p>
+$string['usercommentedonacompetencyhtml'] = '<p>{$a->fullname}(e)k iruzkina egin du "{$a->competency}" konpetentzian:</p>
 <div>{$a->comment}</div>
 <p>Ikusi: <a href="{$a->url}">{$a->urlname}</a>.</p>';
-$string['usercommentedonacompetencysmall'] = '{$a->fullname}-(e)k iruzkina egin du "{$a->competency}" konpetentzian.';
-$string['usercommentedonacompetencysubject'] = '{$a}-(e)k iruzkina egin du konpetentzian.';
-$string['usercommentedonaplan'] = '{$a->fullname}-(e)k iruzkina egin du  "{$a->plan}" ikasketa-planean:
+$string['usercommentedonacompetencysmall'] = '{$a->fullname}(e)k iruzkina egin du "{$a->competency}" konpetentzian.';
+$string['usercommentedonacompetencysubject'] = '{$a}(e)k iruzkina egin du konpetentzian.';
+$string['usercommentedonaplan'] = '{$a->fullname}(e)k iruzkina egin du  "{$a->plan}" ikasketa-planean:
 
 {$a->comment}
 
 Ikusi: {$a->url}';
-$string['usercommentedonaplanhtml'] = '<p>{$a->fullname}-(e)k iruzkina egin du "{$a->plan}" ikasketa-planean:</p>
+$string['usercommentedonaplanhtml'] = '<p>{$a->fullname}(e)k iruzkina egin du "{$a->plan}" ikasketa-planean:</p>
 <div>{$a->comment}</div>
 <p>Ikusi: <a href="{$a->url}">{$a->urlname}</a>.</p>';
-$string['usercommentedonaplansmall'] = '{$a->fullname}-(e)k iruzkina egin du "{$a->plan}" ikasketa-planean.';
-$string['usercommentedonaplansubject'] = '{$a}-(e)k iruzkina egin du ikasketa-planean.';
+$string['usercommentedonaplansmall'] = '{$a->fullname}(e)k iruzkina egin du "{$a->plan}" ikasketa-planean.';
+$string['usercommentedonaplansubject'] = '{$a}(e)k iruzkina egin du ikasketa-planean.';
 $string['usercompetencystatus_idle'] = 'Ez dago aktiboa';
 $string['usercompetencystatus_inreview'] = 'Berrikusten';
 $string['usercompetencystatus_waitingforreview'] = 'Berrikusketaren zain';

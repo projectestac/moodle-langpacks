@@ -122,7 +122,7 @@ $string['deletequestionscheck'] = 'Är du helt säker på att du vill ta bort de
 $string['deletingbehaviour'] = 'Radera frågebeteende "{$a}"';
 $string['deletingqtype'] = 'Raderar frågetyp \'{$a}';
 $string['didnotmatchanyanswer'] = '[Matchade inte något svar]';
-$string['disabled'] = 'Avaktiverad';
+$string['disabled'] = 'Inaktiverad';
 $string['displayoptions'] = 'Visa alternativ';
 $string['disterror'] = 'Distributionen {$a} förorsakade problem';
 $string['donothing'] = 'Kopiera inte eller flytta filer eller ändra länkar.';
@@ -261,7 +261,7 @@ $string['flagged'] = 'Flaggad';
 $string['flagthisquestion'] = 'Flagga denna fråga';
 $string['formquestionnotinids'] = 'Formuläret innehåll en fråga som saknar frågeID';
 $string['fractionsnomax'] = 'Ett av svaren bör ha ett resultat på 100% så att det blir möjligt att få full poäng på den här frågan.';
-$string['generalfeedback'] = 'Generell återkoppling';
+$string['generalfeedback'] = 'Allmän återkoppling';
 $string['generalfeedback_help'] = 'Generell återkoppling visas för eleven efter att denne har svarat på frågan. Till skillnad från specifik återkoppling, som beror på frågetyp och vilket svar eleven gav, visas samma generella återkoppling för alla elever.
 
 Du kan använda generell återkoppling för att ge elever ett bearbetat svar och eventuellt en länk till mer information som de kan använda om de inte förstod frågorna.';
@@ -436,7 +436,7 @@ $string['questionidmismatch'] = 'Identiteten för frågan stämmer inte överren
 $string['questionname'] = 'Frågenamn';
 $string['questionnamecopy'] = '{$a} (kopia)';
 $string['questionno'] = 'Fråga {$a}';
-$string['questionpreviewdefaults'] = 'Förvalda värden för förhandsgranskning av frågan';
+$string['questionpreviewdefaults'] = 'Standardinställningar för förhandsgranskning av frågor';
 $string['questionpreviewdefaults_desc'] = 'Dessa förvalda värden används när en användare för första gången förhandsgranskar en fråga i frågebanken. När en användare har förhandsgranskat en fråga lagras deras personliga preferenser som användarinställningar.';
 $string['questions'] = 'Frågor';
 $string['questionsaveerror'] = 'Ett fel uppstod när frågan - ({$a}) sparades';

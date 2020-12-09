@@ -60,6 +60,7 @@ $string['grade'] = 'Bewertung';
 $string['gradeit'] = 'Bewertung';
 $string['grademethod'] = 'Bewertungsmethode';
 $string['height'] = 'Höhe';
+$string['httpnotallowed'] = 'Externe Dateien dürfen im Moment nicht benutzt werden.';
 $string['language'] = 'Sprache';
 $string['lastattempt'] = 'Letzter Versuch';
 $string['lastattemptremaining'] = 'Dies ist der letzte Versuch für diese Aktivität.';

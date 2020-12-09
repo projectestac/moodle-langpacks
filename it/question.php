@@ -221,6 +221,7 @@ In alternativa puoi consentire agli studenti di dare una risposta a ciascuna dom
 
 Le due modalità sono probabilmente quelle  più comunemente utilizzate.';
 $string['idnumber'] = 'Codice identificativo';
+$string['idnumber_help'] = 'Se utilizzato, il codice identificativo deve essere univoco all\'interno di ciascuna categoria di domande. Fornisce un modo alternativo per identificare una domanda che può risultare utile in alcuni scenari d\'uso, è tuttavia possibile lasciarlo vuoto.';
 $string['ignorebroken'] = 'Ignora link interrotti';
 $string['import'] = 'Importa';
 $string['importcategory'] = 'Importa categoria';
@@ -444,7 +445,7 @@ $string['selectcategoryabove'] = 'Scegli una delle categorie sopra elencate';
 $string['selectquestionsforbulk'] = 'Seleziona le domande per azioni su elenchi';
 $string['settingsformultipletries'] = 'Tentativi multipli';
 $string['shareincontext'] = 'Condividi in contesto per {$a}';
-$string['showhidden'] = 'Visualizza anche le domande vecchie';
+$string['showhidden'] = 'Visualizza anche le domande già valutate';
 $string['showmarkandmax'] = 'Visualizza punteggio e max.';
 $string['showmaxmarkonly'] = 'Visualizza solo punteggio massimo';
 $string['shown'] = 'Visualizzato';

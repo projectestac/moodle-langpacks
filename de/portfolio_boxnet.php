@@ -53,4 +53,4 @@ $string['sharefolder'] = 'Dieses Verzeichnis freigeben?';
 $string['targetfolder'] = 'Zielverzeichnis';
 $string['tobecreated'] = 'Erstellen';
 $string['username'] = 'Ihr Anmeldename für box.net (wird nicht gespeichert)';
-$string['warninghttps'] = 'box.net erfordert, dass Ihre Seite unter HTTPS betrieben wird, um das Portfolio zu verwenden.';
+$string['warninghttps'] = 'Box erfordert HTTPS für Ihre Website, um das Portfolio verwenden zu können.';
