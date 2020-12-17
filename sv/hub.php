@@ -107,6 +107,7 @@ $string['nosearch'] = 'Publicera inte hubb eller kurser';
 $string['notregisteredonhub'] = 'Din administratör måste registrera denna webbplats på åtminstone en hub innan du kan publicera någon kurs. Kontakta din webbplatsadministratör.';
 $string['operation'] = 'Åtgärder';
 $string['participantnumberaverage'] = 'Genomsnittsligt antal deltagare ({$a})';
+$string['policyagreeddesc'] = 'Jag godkänner <a href="{$a}" target="_blank">Privacy notice and data processing agreement</a>';
 $string['postaladdress'] = 'Postadress';
 $string['postaladdress_help'] = 'Postadress för denna webbplats eller för den enhet som representeras av webbplatsen.';
 $string['postsnumber'] = 'Antal poster ({$a})';
@@ -124,6 +125,16 @@ $string['readvertiseon'] = 'Uppdatera annonseringsinformation på {$a}';
 $string['registeredsites'] = 'Registrerade webbplatser';
 $string['registersite'] = 'Registrera på {$a}';
 $string['registerwithmoodleorg'] = 'Registrera hos moodle.org';
+$string['registerwithmoodleorginfo'] = 'Vi vill gärna hålla kontakten och förse dig med viktiga saker som gäller din Moodle-webbplats! Genom att registrera kan du:
+
+* Få meddelanden om nya Moodle-utgåvor, säkerhetsvarningar och andra viktiga nyheter.
+* Komma åt och aktivera mobila push-meddelanden från din Moodle-webbplats genom vår kostnadsfria Moodle-app.
+* Bidra till vår Moodle-statistik över hela världen, som hjälper oss att förbättra Moodle och våra webbplatser.
+* Din webbplats ingå i listan över registrerade Moodle-webbplatser i ditt land.';
+$string['registerwithmoodleorginfoapp'] = 'Om Moodle-appen';
+$string['registerwithmoodleorginfosites'] = 'Andra webbplatser i mitt land';
+$string['registerwithmoodleorginfostats'] = 'Moodle-statistik';
+$string['registerwithmoodleorgupdate'] = 'Uppdatera webbplatsregistrering';
 $string['registrationconfirmed'] = 'Webbplatsregistrering bekräftad';
 $string['registrationconfirmedon'] = 'Du är nu registrerad på hubben {$a}. Du kan nu publicera kurser på denna hub med hjälp av länken "Offentliggör" i kursadministrationsmenyn.';
 $string['registrationinfo'] = 'Registreringsinformation';
@@ -146,6 +157,10 @@ $string['shareon'] = 'Ladda upp denna kurs till {$a}';
 $string['sharepublication_help'] = 'Uppladdning av denna kurs till en hubserver kommer att medge att andra kan ladda ner kursen och installera den på deras Moodleplats.';
 $string['siteadmin'] = 'Administratör';
 $string['siteadmin_help'] = 'Webbplatsadministratörens fullständiga namn.';
+$string['sitecommnews'] = 'Moodle nyhetsbrev';
+$string['sitecommnews_help'] = 'Du har möjlighet att prenumerera på nyhetsbrev från Moodle. Du kan avbryta din prenumeration när somhelst.';
+$string['sitecommnewsno'] = 'Nej, jag vill inte få nyhetsbrev';
+$string['sitecommnewsyes'] = 'Ja, jag vill få Moodle nyhetsbrev';
 $string['sitecountry'] = 'Land';
 $string['sitecountry_help'] = 'Det land din organisation är i.';
 $string['sitedesc'] = 'Beskrivning';
@@ -193,7 +208,9 @@ $string['unregisterfrom'] = 'Avregistrera från {$a}';
 $string['unregistrationerror'] = 'Ett fel inträffade vid försök att avregistrera webbplstsen från hub: {$a}';
 $string['update'] = 'Uppdatera';
 $string['updatesite'] = 'Uppdatera registrering på {$a}';
+$string['updatesiteregistration'] = 'Uppdatera registreringsinformationen';
 $string['updatestatus'] = 'Kontrollera detta nu.';
 $string['urlalreadyregistered'] = 'Din webbplats verkar redan vara registrerad på denna hub vilket innebär att något har gått fel. Kontakta hubadministratören för att återställa din registrering så att du kan försöka igen.';
+$string['usedifferentemail'] = 'Använd annan e-postadress';
 $string['usersnumber'] = 'Antal användare ({$a})';
 $string['wrongtoken'] = 'Registreringen misslyckades av någon okänd anledning (nätverk?) Försök igen.';

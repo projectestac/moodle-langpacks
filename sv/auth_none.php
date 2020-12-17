@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['auth_nonedescription'] = 'Användare kan logga in och skapa giltiga konton omedelbart, utan autentisering mot extern server och heller ingen bekräftelse via e-post.  Var försiktig med användning av detta val - tänk på säkerheten och de administrativa problem som detta kan orsaka.';
 $string['pluginname'] = 'Ingen autentisering';
+$string['privacy:metadata'] = 'Pluginmodulen Ingen autentisering lagrar ingen personlig information.';

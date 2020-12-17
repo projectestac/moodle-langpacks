@@ -25,5 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['emailsubject'] = '{$a} :: Clam AV meddelande';
+$string['actantivirushdr'] = 'Tillgängliga Antivirus-plugins';
+$string['antiviruses'] = 'Antivirus-plugins';
+$string['antivirussettings'] = 'Hantera Antivirus-plugins';
+$string['configantivirusplugins'] = 'Vänligen välj de antivirus-plugins du vill använda och arrangera dem i den ordning du vill att de ska tillämpas.';
+$string['datastream'] = 'Data';
+$string['emailsubject'] = '{$a} :: Antivirusnotis';
+$string['privacy:metadata'] = 'Antivirussystemet lagrar inga personliga data.';
+$string['virusfound'] = '{$a->item} har sökts igenom av antivirusprogrammet och har konstaterats vara infekterad!';
 $string['virusfounduser'] = 'Den fil som du laddade upp med namnet, {$a->filename}, har skannats med ett antivirusprogram och det visade sig att den innehöll ett virus! Din fil laddades INTE upp på rätt sätt.';

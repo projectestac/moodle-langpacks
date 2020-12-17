@@ -30,4 +30,5 @@ $string['badges:myaddinstance'] = 'Lägg till ett nytt block för Mina senaste
 märken på Mitt Moodle';
 $string['nothingtodisplay'] = 'Du har inga märken att visa';
 $string['numbadgestodisplay'] = 'Antal senaste märken att visa';
-$string['pluginname'] = 'Mina senaste märken';
+$string['pluginname'] = 'Senaste märken';
+$string['privacy:metadata'] = 'Blocket Mina senaste märken visar endast data som lagrats på andra platser.';

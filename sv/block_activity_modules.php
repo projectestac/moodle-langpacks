@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['activity_modules:addinstance'] = 'Lägg till en ny block "aktiviteter"';
 $string['pluginname'] = 'Aktiviteter och resurser';
+$string['privacy:metadata'] = 'Aktivitetsblocket visar endast information som lagrats på andra platser.';

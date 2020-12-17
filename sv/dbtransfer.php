@@ -37,4 +37,5 @@ $string['exportschemaexception'] = 'Den aktuella strukturen på databasen matcha
 $string['importschemaexception'] = 'Den aktuella strukturen på databasen matchar inte alla install.xml filer. <br /> {$a}';
 $string['importversionmismatchexception'] = 'Den aktuella versionen {$a->currentver}  matchar inte den exporterade versionen {$a->schemaver}.';
 $string['malformedxmlexception'] = 'Felaktigt utformad XML hittades, det går inte att fortsätta.';
+$string['tablex'] = 'Tabell {$a}:';
 $string['unknowntableexception'] = 'En okänd tabell {$a} hittades i exportfilen.';

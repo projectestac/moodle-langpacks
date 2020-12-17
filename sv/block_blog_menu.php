@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['blog_menu:addinstance'] = 'Lägg till ett nytt block för bloggmenyer';
 $string['pluginname'] = 'Bloggmeny';
+$string['privacy:metadata'] = 'Bloggmenyblocket visar endast data som lagrats på andra platser.';

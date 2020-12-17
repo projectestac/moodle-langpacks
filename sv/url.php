@@ -45,7 +45,7 @@ $string['externalurl'] = 'Extern URL';
 $string['framesize'] = 'Höjd på ram';
 $string['invalidstoredurl'] = 'Kan inte visa, angiven URL är ogiltig.';
 $string['invalidurl'] = 'Angiven URL är ogiltig';
-$string['modulename'] = 'URL/Webbadress';
+$string['modulename'] = 'URL';
 $string['modulename_help'] = 'Med URL-(uniform resource locater) eller webbadress-modulen kan en lärare skapa en en webblänk som en kursresurs.
 
 Allt som är fritt tillgängliga på nätet, såsom dokument eller bilder, kan länkas. URL/webbadressen behöver inte vara startsidan på en webbplats. Webbadressen till önskat webbsida kan kopieras och klistras eller en lärare kan använda "filepicker" och välja en länk från ett arkiv som Flickr, YouTube eller Wikimedia (beroende på vilka förråd är aktiverade för webbplatsen).
@@ -57,19 +57,20 @@ Det finns även avancerade inställningsalternativ som gör det möjligt att def
 Observera att URL/webbadresser även kan läggas till andra resurser eller aktiviteter genom att använda sig av textredigeraren i respektive element.';
 $string['modulenameplural'] = 'URLer';
 $string['page-mod-url-x'] = 'Valfri URL modulsida';
-$string['parameterinfo'] = 'parameter=variabel';
+$string['parameterinfo'] = '&amp;parameter=variabel';
 $string['parametersheader'] = 'Parametrar';
 $string['parametersheader_help'] = 'Vissa interna Moodlevariabler kan bli automatiskt bifogade till URL:en. Skriv ditt namn för parametern i varje textruta(or) och välj sedan den nödvändiga matchande variabeln.';
 $string['pluginadministration'] = 'Administration av modulen URL';
-$string['pluginname'] = 'URL/Webbadress';
+$string['pluginname'] = 'URL';
 $string['popupheight'] = 'Höjd på popup-fönster (i pixlar)';
 $string['popupheightexplain'] = 'Anger standardhöjden på popup-fönster';
 $string['popupwidth'] = 'Bredd på popup-fönster (i pixlar)';
 $string['popupwidthexplain'] = 'Anger standardbredden på popup-fönster';
 $string['printintro'] = 'Visa beskrivning för URL';
 $string['printintroexplain'] = 'Visa URL beskrivning nedanför innehållet? Vissa visningstyper kanske inte visas beskrivningen även om detta är valt.';
+$string['privacy:metadata'] = 'Plugin-modulen URL lagrar ingen personlig information.';
 $string['rolesinparams'] = 'Ta med namn på roller i parametrar';
 $string['search:activity'] = 'URL';
 $string['serverurl'] = 'URL till server';
-$string['url:addinstance'] = 'Lägg till en ny URL/webbadress';
-$string['url:view'] = 'Visa URL/Webbadress';
+$string['url:addinstance'] = 'Lägg till en ny URL';
+$string['url:view'] = 'Visa URL';

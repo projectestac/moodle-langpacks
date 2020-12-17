@@ -27,10 +27,12 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['attempt'] = 'محاولة';
 $string['attempts'] = 'محاولات';
+$string['attemptsremaining'] = 'المحاولات المتبقية لهذا النشاط:';
 $string['enableRightClick'] = 'تمكين النقر بزر الفأرة الأيمن';
 $string['interfaceoptionsgrp'] = 'واجهة المستخدم';
 $string['modulename'] = 'جيوجبرا';
 $string['modulenameplural'] = 'جيوجبرا';
+$string['nomoreattempts'] = 'لم تبقَ أي محاولات لهذا النشاط';
 $string['pluginname'] = 'جيوجبرا';
 $string['privacy:metadata:geogebra_attempts:userid'] = 'مُعرَّف المستخدم المجيب على نشاط geogebra هذا';
 $string['showAlgebraInput'] = 'إظهار شريط الإدخال';

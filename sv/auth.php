@@ -126,6 +126,7 @@ $string['plaintext'] = 'Ren text';
 $string['pluginnotenabled'] = 'Plugin-programmet för autentisering \'{$a}\' är inte aktiverat.';
 $string['pluginnotinstalled'] = 'Plugin-programmet för autentisering \'{$a}\' är inte installerat.';
 $string['potentialidps'] = 'Logga in med ditt konto på:';
+$string['privacy:metadata:userpref:createpassword'] = 'Indikerar att ett lösenord ska genereras för användaren';
 $string['recaptcha'] = 'reCAPTCHA';
 $string['recaptcha_help'] = 'CAPATCHA är till för att förhindra missbruk av automatiserade program. Ange orden i rutan i rätt ordning och separerade med ett mellanslag.
 

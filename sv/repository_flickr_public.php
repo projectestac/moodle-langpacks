@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['pluginname'] = 'Flickr public';
 $string['watermark'] = 'Lägg till vattenmärke i foton';

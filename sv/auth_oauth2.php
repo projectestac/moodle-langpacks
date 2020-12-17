@@ -62,6 +62,7 @@ Om du behöver hjälp kan du kontakta administratören,
 
 Om det inte är du som begärt detta konto kan det vara så att någon annan än du försöker logga in på ditt konto. Kontakta i så fall administratören omedelbart.';
 $string['confirmlinkedloginemailsubject'] = '{$a}: bekräftade länkad inloggningsinformation';
+$string['createaccountswarning'] = 'Denna autentisering plugin tillåter användare att skapa konton på din webbplats. Du kanske vill aktivera inställningen "authpreventaccountcreation" om du använder denna plugin.';
 $string['createnewlinkedlogin'] = 'Länka ett nytt konto ({$a})';
 $string['emailconfirmlink'] = 'Länka dina konton';
 $string['emailconfirmlinksent'] = '<p>An existing account was found with this email address but it is not linked yet.</p>
@@ -90,13 +91,21 @@ $string['loginerror_invaliddomain'] = 'E-postadressen är inte tillåten på den
 $string['loginerror_nouserinfo'] = 'Ingen användarinformation returnerades. OAuth 2-tjänsten kanske inte är korrekt konfigurerad.';
 $string['loginerror_userincomplete'] = 'Användarinformationen som returnerades innehöll inget användarnamn eller e-postadress. OAuth 2-tjänsten kanske inte är korrekt konfigurerad.';
 $string['noissuersavailable'] = 'Ingen av de konfigurerade OAuth 2-tjänsterna tillåter att du länkar konton';
+$string['notenabled'] = 'OAuth 2 autentiserings-pluginen är inte aktiverad';
 $string['notloggedindebug'] = 'Inloggningsförsöket misslyckades. Orsak: {$a}';
 $string['notwhileloggedinas'] = 'Länkade konton kan inte hanteras när du är inloggad som annan användare.';
 $string['oauth2:managelinkedlogins'] = 'Hantera dina länkade konton';
+$string['plugindescription'] = 'Denna plugin för autentisering visar en lista över de konfigurerade identitetsleverantörerna på inloggningssidan. Om du väljer en identitetsleverantör kan användare logga in med sina autentiseringsuppgifter från en OAuth 2-leverantör.';
 $string['pluginname'] = 'OAuth 2';
 $string['privacy:metadata:auth_oauth2'] = 'OAuth 2-autenticering';
 $string['privacy:metadata:auth_oauth2:authsubsystem'] = 'Denna pluginmodul är kopplad till autenticeringssystemet';
 $string['privacy:metadata:auth_oauth2:confirmtoken'] = 'Bekräftelsetoken';
 $string['privacy:metadata:auth_oauth2:confirmtokenexpires'] = 'Tidstämpel för när bekräftelsetoken löper ut';
 $string['privacy:metadata:auth_oauth2:email'] = 'Externt konto som är kopplat till detta konto.';
+$string['privacy:metadata:auth_oauth2:issuerid'] = 'ID:t för OAuth 2-utfärdaren för denna OAuth 2-inloggning.';
+$string['privacy:metadata:auth_oauth2:tableexplanation'] = 'OAuth 2-konton länkade till en användares Moodle-konto.';
+$string['privacy:metadata:auth_oauth2:timecreated'] = 'Tidstämpel för när användarkontot länkades till OAuth 2-inloggningen.';
+$string['privacy:metadata:auth_oauth2:timemodified'] = 'Tidstämpel för när denna post ändrades.';
+$string['privacy:metadata:auth_oauth2:userid'] = 'ID:t för användarkontot som OAuth 2-inloggningen är länkad till.';
+$string['privacy:metadata:auth_oauth2:usermodified'] = 'ID:t för användaren som ändrade detta konto.';
 $string['privacy:metadata:auth_oauth2:username'] = 'Externt användarnamn kopplat till detta konto.';

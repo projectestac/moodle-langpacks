@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['modulename'] = 'Bildarkiv';
+$string['modulename'] = 'Bildgalleri';
+$string['pluginname'] = 'Bildgalleri';
+$string['privacy:metadata'] = 'Pluginmodulen Bildgalleri dataformatet lagrar ingen personlig information.';

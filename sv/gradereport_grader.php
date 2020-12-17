@@ -26,12 +26,21 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['ajaxchoosescale'] = 'Välj';
-$string['ajaxclicktoclose'] = 'Klicka på den här boxen för att ta bort den';
+$string['ajaxclicktoclose'] = 'Klicka på den här rutan om du vill ta bort den';
 $string['ajaxerror'] = 'Fel';
 $string['ajaxfailedupdate'] = 'Det går inte att uppdatera [1] för [2]';
-$string['ajaxfieldchanged'] = 'Det fält som Du f n redigerar har ändrats, vill Du använda det uppdaterade värdet?';
+$string['ajaxfieldchanged'] = 'Fältet du just nu redigerar har ändrats, vill du använda det uppdaterade värdet?';
 $string['grader:manage'] = 'Administrera betygsrapport';
 $string['grader:view'] = 'Visa betygsrapporten';
+$string['overriddengrade'] = 'Åsidosatt betyg';
 $string['pluginname'] = 'Betygsrapport';
 $string['preferences'] = 'Inställningar för rapporter från betygsättare';
+$string['privacy:metadata:preference:grade_report_aggregationposition'] = 'Om kolumnerna för kategori och kurssumma visas först eller sist i resultatboksrapporterna';
+$string['privacy:metadata:preference:grade_report_grader_collapsed_categories'] = 'Lista över betygsbokskategorier som ska fällas ihop';
+$string['privacy:metadata:preference:grade_report_showactivityicons'] = 'Om aktivitetsikonerna bredvid aktivitetsnamnen ska visas';
+$string['privacy:metadata:preference:grade_report_showlocks'] = 'Om en lås-/upplåsningsikon ska visas för varje resultat för styrning av om betyget automatiskt kan uppdateras av den relaterade aktiviteten när redigering slås på';
+$string['privacy:metadata:preference:grade_report_shownumberofgrades'] = 'Om antalet betyg som används vid beräkning av medelvärde ska visas inom hakparenteser efter varje medelvärde';
+$string['privacy:metadata:preference:grade_report_showonlyactiveenrol'] = 'Om endast aktiva registrerade användare ska visas (inte avstängda) i resultatboksrapporten eller om alla registrerade användare ska visas';
+$string['privacy:metadata:preference:grade_report_showranges'] = 'Om en ytterligare rad ska visas med intervallet för varje kategori och betygsobjekt';
 $string['useractivityfeedback'] = '{$a} återkoppling';
+$string['useractivitygrade'] = '{$a} betyg';

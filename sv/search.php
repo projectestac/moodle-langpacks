@@ -60,6 +60,7 @@ $string['next'] = 'Nästa';
 $string['noindexmessage'] = 'Admin: Det förefaller inte att finnas någo t sökindex. Var snäll och';
 $string['normalsearch'] = 'Normal sökning';
 $string['openedon'] = 'öppnad den';
+$string['order'] = 'Resultatordning';
 $string['progress'] = 'Förlopp';
 $string['resultsreturnedfor'] = 'resultat som har returnerats för';
 $string['runindexer'] = 'Kör indexeraren (real)';

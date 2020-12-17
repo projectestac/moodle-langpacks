@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addgroup'] = 'Zu Gruppe hinzufügen';
 $string['assignrole'] = 'Rolle zuordnen';
 $string['cohort:config'] = 'Globale Gruppen konfigurieren';
-$string['cohort:unenrol'] = 'Gesperrte Nutzer/innen aus Kursen abmelden';
+$string['cohort:unenrol'] = 'Gesperrte Nutzer/innen abmelden';
 $string['creategroup'] = 'Neue Gruppe anlegen';
 $string['defaultgroupnametext'] = '{$a->name} Globale Gruppe {$a->increment}';
 $string['enrolcohortsynctask'] = 'Synchronisierungsaufgabe der Einschreibung über Globale Gruppen';

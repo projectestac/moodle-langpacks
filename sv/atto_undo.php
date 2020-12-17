@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Ånga/Gör om';
+$string['pluginname'] = 'Ångra/Gör om';
 $string['privacy:metadata'] = 'Plugin-modulen atto_undo lagrar ingen personlig information.';
 $string['redo'] = 'Gör om';
 $string['undo'] = 'Ångra';

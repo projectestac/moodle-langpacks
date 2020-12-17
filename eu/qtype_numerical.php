@@ -82,7 +82,7 @@ $string['unitedit'] = 'Editatu unitatea';
 $string['unitgraded'] = 'Unitatea derrigorrezkoa da, eta kalifikatuko da.';
 $string['unithandling'] = 'Unitatearen erabilera';
 $string['unitincorrect'] = 'Ez duzu unitate zuzena eman.';
-$string['unitmandatory'] = 'Beharrezkoa';
+$string['unitmandatory'] = 'Derrigorrezkoa';
 $string['unitmandatory_help'] = '* Erantzuna idatzitako unitatea erabilita kalifikatuko da.
 
 * Unitatearen penalizazioa aplikatuko da unitatearen eremua hutsik utziz gero.';

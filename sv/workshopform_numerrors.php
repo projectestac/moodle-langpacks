@@ -26,8 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['dimensioncommentfor'] = 'Kommentar till {$a}';
+$string['dimensiondescription'] = 'Beskrivning';
+$string['dimensiongrade'] = 'Betyg';
 $string['dimensionnumber'] = 'Försäkran {$a}';
 $string['dimensionweight'] = 'Viktning';
+$string['grade0default'] = 'Nej';
+$string['grade1default'] = 'Ja';
 $string['maperror'] = 'Det viktade antalet fel är lägre eller lika med';
 $string['mapgrade'] = 'Inlämningens betyg';
 $string['pluginname'] = 'Antal fel';

@@ -26,4 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Fält för textyta';
+$string['maxbytes'] = 'Maximal storlek för inbäddad fil (bytes)';
+$string['maxbytes_desc'] = 'Om satt till noll är storleken obegränsad som standard';
 $string['pluginname'] = 'Textyta';
+$string['privacy:metadata'] = 'Komponenten för fältet Textområde lagrar ingen personlig information.';

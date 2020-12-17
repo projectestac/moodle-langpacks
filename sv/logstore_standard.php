@@ -25,4 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['buffersize'] = 'Storlek på skrivbuffert';
+$string['jsonformat'] = 'JSON-format';
+$string['pluginname'] = 'Standardlogg';
+$string['privacy:metadata:log'] = 'En samling tidigare händelser';
+$string['privacy:metadata:log:eventname'] = 'Händelsenamnet';
+$string['privacy:metadata:log:origin'] = 'Händelsens ursprungskälla';
+$string['privacy:metadata:log:other'] = 'Ytterligare information om händelsen';
 $string['taskcleanup'] = 'Städa upp loggtabell';

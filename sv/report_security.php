@@ -25,10 +25,26 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['check_configrw_name'] = 'Skrivbar config.php';
+$string['check_cookiesecure_name'] = 'Säkra cookies';
 $string['check_defaultuserrole_details'] = '<p>Alla inloggade användare ges förmågorna från rollen standardanvändare. Var god se till att inga riskabla förmågor tillåts i denna roll.</p>
 <p>Den enda äldre typen för rollen standardanvändare som stöds är <em>Autentiserad användare</em>. Förmågan att se kurser ska inte vara aktiverad.</p>';
+$string['check_defaultuserrole_name'] = 'Standardroll för alla användare';
+$string['check_defaultuserrole_notset'] = 'Standardroll ej angiven.';
+$string['check_defaultuserrole_ok'] = 'Standardrollen för alla användardefinitioner är OK.';
+$string['check_guestrole_name'] = 'Gästroll';
 $string['check_mediafilterswf_error'] = 'Mediafilter för Flash är aktiverat - detta är mycket farligt för de flesta servrar.';
 $string['check_mediafilterswf_ok'] = 'Mediafilter för Flash är inte aktiverat.';
 $string['check_noauth_name'] = 'Ingen autentisering';
 $string['check_noauth_ok'] = 'Inget plugin-program för autentisering är avaktiverat';
+$string['check_openprofiles_name'] = 'Öppna användarprofiler';
+$string['check_passwordpolicy_name'] = 'Lösenordspolicy';
+$string['check_preventexecpath_name'] = 'Sökvägar till programfiler';
+$string['check_riskadmin_name'] = 'Administratörer';
+$string['check_unsecuredataroot_name'] = 'Osäker rotkatalog';
+$string['configuration'] = 'Konfiguration';
+$string['description'] = 'Beskrivning';
 $string['details'] = 'Detaljer';
+$string['issue'] = 'Problem';
+$string['security:view'] = 'Visa säkerhetsrapport';
+$string['timewarning'] = 'Databearbetningen kan ta tid, ha tålamod...';

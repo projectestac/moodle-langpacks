@@ -121,7 +121,7 @@ $string['last_connect_time_help'] = 'Det senaste tillfället som Du kontaktade d
 $string['last_transport_help'] = 'Den transport som Du använde för den senaste anslutningen till den här värden.';
 $string['leavedefault'] = 'Använd de förvalda standardinställningarna istället';
 $string['listservices'] = 'Lista tjänster';
-$string['loginlinkmnetuser'] = '<br />Om du är fjärranvändare av ett nätverk för Moodle och kan <a href="{$a}">bekräfta din e-postadress här</a> så kan du bli omdirigerad till din sida för inloggning.';
+$string['loginlinkmnetuser'] = '<br />Om du är fjärranvändare av ett nätverk för Moodle och kan <a href="{$a}">bekräfta din e-postadress här</a> så kan du bli omdirigerad inloggningssidan.';
 $string['logs'] = 'Loggar';
 $string['managemnetpeers'] = 'Administrera jämbördiga (peers)';
 $string['method'] = 'Metod';

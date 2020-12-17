@@ -25,4 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['apierror'] = '{$a}';
+$string['apikey'] = 'API-nyckel';
+$string['pluginname'] = 'YouTube-videor';
+$string['search'] = 'Sök videor';
 $string['sortby'] = 'Sortera efter';
+$string['sortpublished'] = 'Publiceringsdatum';
+$string['sortrating'] = 'Betyg';
+$string['sortrelevance'] = 'Relevans';
+$string['sortviewcount'] = 'Visningar';
+$string['youtube:view'] = 'Använd YouTube i filväljaren';

@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['ccpdd'] = 'توجه المجال العام (CC0)';
+$string['ccpdm'] = 'علامة المجال العام (PDM)';
 $string['contentchanged'] = 'لقد تغير هذا المحتوى منذ آخر استعمالك له.';
 $string['contentstatefrequency'] = 'معدل تكرار حفظ حالة المحتوى';
 $string['copyright'] = 'حقوق الاستعمال';
@@ -45,6 +47,7 @@ $string['hvp:userestrictedlibraries'] = 'استعمل أنواع محتوى H5P 
 $string['installdenied'] = 'ليست لديك صلاحية تنصيب أنواع المحتوى. تواصل مع مشرف موقعك.';
 $string['invalidcontentfolder'] = 'مجلد محتوى غير صالح';
 $string['invalidlibrarynamed'] = 'مكتبة H5P {$a->%library} المستعملة في المحتوى غير صالحة';
+$string['invalidmainjson'] = 'يفتقد ملف h5p.json رئيسي صالح';
 $string['librarynotselected'] = 'ينبغي عليك اختيار نوع المحتوى.';
 $string['maxscore'] = 'الدرجة القصوى';
 $string['missingcontentfolder'] = 'المجلد الصحيح للمحتوى مفقود';
@@ -55,12 +58,17 @@ $string['nocontent'] = 'تعذر العثور على ملف content.json أو ت
 $string['nocontenttype'] = 'لم يتم تحديد نوع المحتوى.';
 $string['nocopyright'] = 'لا توجد معلومات الحقوق الفكرية لهذا المحتوى.';
 $string['noh5ps'] = 'لا يوجد هناك محتوى تفاعلي في هذا المساق.';
+$string['nojson'] = 'ملف h5p.json الرئيسي غير صالح';
+$string['noparse'] = 'تعذر تحليل ملف h5p.json الرئيسي';
 $string['nopermissiontosavecontentuserdata'] = 'ليست لديك صلاحية حفظ بيانات مستخدم المحتوى.';
 $string['nopermissiontosaveresult'] = 'ليست لديك صلاحية حفظ النتائج لهذا المحتوى.';
 $string['nopermissiontouploadcontent'] = 'ليست لديك صلاحية رفع المحتوى هنا.';
 $string['nopermissiontoviewcontenttypes'] = 'ليست لديك صلاحية معاينة أنواع المحتوى.';
 $string['nopermissiontoviewresult'] = 'ليست لديك صلاحية معاينة نتائج هذا المحتوى.';
 $string['noziparchive'] = 'إصدار PHP عندك لا يدعم ZipArchive.';
+$string['pd'] = 'المجال العام';
+$string['pddl'] = 'توجه المجال العام ورخصته';
+$string['pdm'] = 'علامة المجال العام';
 $string['privacy:metadata:core_files'] = 'يخزن نشاط H5P الملفات التي تم رفعها كجزء من محتوى H5P';
 $string['privacy:metadata:core_grades'] = 'يخزن نشاط H5P علامات المستخدمين الذين أجابوا على محتوى H5P';
 $string['privacy:metadata:hvp_events:content_title'] = 'عنوان المحتوى';

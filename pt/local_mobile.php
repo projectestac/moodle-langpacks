@@ -31,12 +31,12 @@ $string['cannotcreatetoken'] = 'A funcionalidade gerar token automaticamente nã
 $string['checkpluginconfiguration'] = 'Verifique as configurações do módulo';
 $string['clickheretolaunchtheapp'] = 'Clique aqui se a aplicação não abrir automaticamente';
 $string['customlangstrings'] = 'Strings personalizadas do idioma';
-$string['customlangstrings_desc'] = 'As palavras e frases mostradas na aplicação podem ser personalizadas aqui. Digite em cada nova linha a string personalizada do idioma no formato: identificador da string, string personalizada do idioma e código do idioma, separados por uma barra vertical. Por exemplo:
+$string['customlangstrings_desc'] = 'As palavras e as frases mostradas na aplicação podem ser personalizadas aqui. Digite cada string do idioma personalizada numa nova linha no formato: identificador da string, string personalizada do idioma e código do idioma, separados por uma barra vertical. Por exemplo:
 <pre>
 mm.user.student|Learner|en
 mm.user.student|Aluno|et
 </pre>
-Para uma lista completa de identificadores de strings consulte <a href="https://github.com/moodlehq/moodlemobile-phonegapbuild/blob/master/build/lang/en.json">esta lista</a>.';
+Para obter a lista completa de identificadores de string, consulte <a href="https://github.com/moodlehq/moodlemobile-phonegapbuild/blob/master/build/lang/en.json">esta lista</a>.';
 $string['custommenuitems'] = 'Itens personalizados do menu';
 $string['custommenuitems_desc'] = 'Itens adicionais podem ser adicionados ao menu principal da aplicação, se os especificar aqui. Digite cada item de menu personalizado em cada nova linha no formato: texto do item, endereço da hiperligação, método de abertura da hiperligação (inappbrowser, browser or embedded) e código de idioma (opcional, para mostrar o item apenas a utilizadores do idioma especificado), separados por barras verticais. Por exemplo:
 <pre>

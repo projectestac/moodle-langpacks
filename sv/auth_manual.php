@@ -26,4 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['auth_manualdescription'] = 'Den här metoden gör det omöjligt för användare att skapa sina egna konton. Alla konton måste skapas manuellt av administratören.';
+$string['expiration'] = 'Aktivera tidsbegränsade lösenord';
+$string['expiration_desc'] = 'Tillåt att lösenord förfaller efter en specificerad tid.';
+$string['expiration_warning'] = 'Tröskel för notifiering';
+$string['expiration_warning_desc'] = 'Antalet dagar innan giltighetstiden löper ut som en notis ska skickas till användaren.';
+$string['passwdexpire_settings'] = 'Inställningar för giltighetstid';
+$string['passwdexpiretime'] = 'Giltighetstid';
+$string['passwdexpiretime_desc'] = 'Lösenordets giltighetstid.';
 $string['pluginname'] = 'Manuella konton';
+$string['privacy:metadata:preference:passwordupdatetime'] = 'Datum för senaste lösenordsbyte.';

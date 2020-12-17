@@ -714,8 +714,8 @@ Se o endereço acima não for apresentado como uma hiperligação em que basta c
 Se necessitar de ajuda, contacte o(a) administrador(a) da plataforma:
 {$a->admin}';
 $string['emailpasswordconfirmationsubject'] = '{$a}:  Confirmação de alteração da senha';
-$string['emailpasswordconfirmmaybesent'] = '<p>Se indicou um nome de utilizador ou endereço de e-mail correto, deverá receber um e-mail.</p>
-<p>Este e-mail contém as instruções para confirmar e concluir o processo de alteração de senha. Se continuar a ter dificuldades, por favor, contacte o administrador do site.</p>';
+$string['emailpasswordconfirmmaybesent'] = '<p>Se indicou um nome de utilizador ou um endereço de e-mail correto, deverá receber um e-mail.</p>
+<p>O e-mail contém as instruções para confirmar e concluir o processo de alteração da senha. Se continuar a ter dificuldades, por favor, contacte o administrador do site.</p>';
 $string['emailpasswordconfirmnoemail'] = '<p>A conta de utilizador que especificou não possui um endereço de e-mail guardado.</p>
 <p>Por favor, contacte o administrador do site.</p>';
 $string['emailpasswordconfirmnotsent'] = '<p>O detalhe de utilizador que forneceu não identifica nenhuma conta de utilizador existente.</p>

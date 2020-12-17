@@ -26,4 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['filtername'] = 'Automatisk länkning av ord som finns i ordboken';
+$string['glossarycategory'] = '{$a->glossary}: Kategori {$a->category}';
+$string['glossaryconcept'] = '{$a->glossary}: {$a->concept}';
 $string['privacy:metadata'] = 'Modulen Automatisk länkning till ordboken sparar inte personuppgifter';

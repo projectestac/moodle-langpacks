@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['availablecourseson'] = 'Verfügbare Kurse in {$a}';
 $string['availablecoursesonnone'] = 'Externer Host <a href="{$a->hosturl}">{$a->hostname}</a> bietet unseren Nutzern keine Kurse an';
 $string['clientname'] = 'Client für externe Einschreibungen ';
-$string['clientname_help'] = 'An- und Abmelden von Nutzern Ihrer Moodle-Instanz bei anderen Moodle-Servern, die dies über das Anmelde-Plugin für das Moodle-Netzwerk zulassen.';
+$string['clientname_help'] = 'Einschreiben und Abmelden von Nutzer/innen Ihrer Website bei anderen Remote-Servern, die dies über die \'Externe MNET-Einschreibung\' zulassen.';
 $string['editenrolments'] = 'Rollen bearbeiten';
 $string['hostappname'] = 'Anwendung';
 $string['hostname'] = 'Rechner-Name';

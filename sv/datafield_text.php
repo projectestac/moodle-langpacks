@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Fält för text';
+$string['pluginname'] = 'Textinmatning';
+$string['privacy:metadata'] = 'Komponenten för fältet Textinmatning lagrar ingen personlig information.';

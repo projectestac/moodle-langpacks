@@ -764,7 +764,7 @@ $string['logstoressupported'] = 'سجل المخازن التي تدعم هذا 
 $string['longtimewarning'] = '<b>فضلاً مراعاة أن هذه العملية ستأخذ وقتاً طويلاً .</b>';
 $string['mailnewline'] = 'أحرف السطر الجديد في البريد';
 $string['maintenancemode'] = 'في وضع الصيانة';
-$string['maintenancemodeisscheduled'] = 'سيتم تبديل هذا الموقع إلى وضع الصيانة في {$a->min} دقيقة {$a->sec}';
+$string['maintenancemodeisscheduled'] = 'سيتم تبديل هذا الموقع إلى وضع الصيانة في {$a->min} دقيقة {$a->sec} ثانية';
 $string['maintenancemodeisscheduledlong'] = 'سيتم تبديل هذا الموقع إلى وضع الصيانة في {$a->hour} ساعة {$a->min} دقيقة {$a->sec} ثانية';
 $string['maintfileopenerror'] = 'خطأ في فتح ملفات الصيانة !';
 $string['maintinprogress'] = 'الصيانة قيد التنفيذ...';
@@ -1196,7 +1196,7 @@ $string['sitemaintenancemode'] = 'وضع الصيانة';
 $string['sitemaintenanceoff'] = 'تم تعطيل وضع الصيانة و الموقع يعمل بشكل طبيعي مرة أخرى .';
 $string['sitemaintenanceon'] = 'موقعك حالياً في وضع الصيانة (فقط المدراء يستطيعون الدخول إلى الموقع أو استخدامه) .';
 $string['sitemaintenanceoncli'] = 'موقعك حاليا في وضع الصيانة عبر واجهة سطر الأوامر، لا يُسمح بالوصول إليه عبر الويب.';
-$string['sitemaintenancewarning'] = 'موقعك حاليا في وضع الصيانة (المدراء فقط يستطيعون الدخول إلى الموقع) . لإعادة الموقع إلى وضع التشغيل العادي href="maintenance.php"> عطّل وضع الصيانة </a>.';
+$string['sitemaintenancewarning'] = 'موقعك حالياً في وضع الصيانة (المشرفون فقط يستطيعون الدخول إلى الموقع). لإعادة الموقع إلى وضع التشغيل العادي، <a href="maintenance.php">عطّل وضع الصيانة</a>.';
 $string['sitemaintenancewarning2'] = 'موقعك حاليا في وضع الصيانة (فقط المدراء يستطيعون الدخول) . لإعادة الموقع إلى وضع التشغيل العادي ، <a href="{$a}"> عطّل وضع الصيانة </a>.';
 $string['sitemenubar'] = 'التنقل في الموقع';
 $string['sitepolicies'] = 'إعدادات أمان الموقع';

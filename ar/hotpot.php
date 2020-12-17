@@ -48,6 +48,7 @@ $string['bodystylescolor'] = 'لون النص';
 $string['completed'] = 'تم';
 $string['correct'] = 'صح';
 $string['exit_attemptscore'] = 'إن درجتك لتلك المحاولة كانت {$a}';
+$string['exit_course_text'] = 'عودة إلى صفحة المساق الرئيسية';
 $string['exit_hotpotgrade_highest_zero'] = 'لم تحرز أعلى من {$a} لهذا النشاط بعد';
 $string['feedbackformmail'] = 'نموذج المعلومات';
 $string['feedbackmoodleforum'] = 'منتدى مودل';

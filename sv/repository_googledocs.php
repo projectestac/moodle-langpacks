@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['pluginname'] = 'Google Drive';
 $string['supportedreturntypes'] = 'Filer som stöds';

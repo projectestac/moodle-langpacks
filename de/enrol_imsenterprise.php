@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['aftersaving...'] = 'Nachdem Sie die Einstellungen gespeichert haben, können Sie folgendes tun:';
-$string['allowunenrol'] = 'IMS-Datei das <strong>Löschen</string> von Teilnehmer/innen bzw. Trainer/innen erlauben';
+$string['allowunenrol'] = 'IMS-Datei erlauben, Teilnehmer/innen bzw. Trainer/innen abzumelden';
 $string['allowunenrol_desc'] = 'Wenn diese Option aktiviert ist, werden Kurseineinschreibungen aufgehoben, wenn dies in der IMS-Enterprise-Datei eingetragen ist. ';
 $string['basicsettings'] = 'Grundeinstellungen';
 $string['categoryidnumber'] = 'Kategorie-ID-Nummer zulassen';

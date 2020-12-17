@@ -52,6 +52,7 @@ $string['contactblocked'] = 'Kontakt blockerad';
 $string['contactrequests'] = 'Kontaktförfrågan';
 $string['contactrequestsent'] = 'Kontaktförfrågan skickad';
 $string['contacts'] = 'Kontakter';
+$string['conversationactions'] = 'Åtgärdsmeny för konversationer';
 $string['decline'] = 'Avböj';
 $string['defaultmessageoutputs'] = 'Inställningar för notiser';
 $string['defaults'] = 'Standardvärden';

@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (auto-signé)';
 $string['RPC_HTTPS_VERIFIED'] = 'HTTPS (signé)';
-$string['RPC_HTTP_PLAINTEXT'] = 'HTTP non crypté';
+$string['RPC_HTTP_PLAINTEXT'] = 'HTTP non chiffré';
 $string['RPC_HTTP_SELF_SIGNED'] = 'HTTP (auto-signé)';
 $string['RPC_HTTP_VERIFIED'] = 'HTTP (signé)';
 $string['aboutyourhost'] = 'À propos de votre serveur';

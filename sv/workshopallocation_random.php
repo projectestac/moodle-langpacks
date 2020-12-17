@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addselfassessment'] = 'Lägg till egenbedömningar';
 $string['allocationdeallocategraded'] = 'Det går inte att ta bort redan betygsatt bedömning
 : utvärderare <strong>{$a->reviewername}</strong>, inlämnare: <strong>{$a->authorname}</strong>';
 $string['allocationreuseddetail'] = 'Återanvände utvärdering: <strong>{$a->reviewername}</strong> behölls som utvärderare av <strong>{$a->authorname}</strong>';
@@ -39,6 +40,7 @@ $string['nogroupusers'] = '<p>Varning: Om workshopen är i läget \'synliga grup
 $string['numofdeallocatedassessment'] = 'Raderar {$a} utvärderingstilldelning(ar)';
 $string['numofrandomlyallocatedsubmissions'] = 'Tilldela slumpmässigt {$a} tilldelningar';
 $string['numofreviews'] = 'Antalet givna utvärderingar';
+$string['numperauthor'] = 'per inlämning';
 $string['numperreviewer'] = 'per utvärderare';
 $string['pluginname'] = 'Slumpmässig fördelning';
 $string['randomallocationdone'] = 'Slumpmässig fördelning gjord';

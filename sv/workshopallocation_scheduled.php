@@ -25,11 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['currentstatus'] = 'Nuvarande status';
+$string['currentstatusexecution'] = 'Status';
 $string['currentstatusexecution1'] = 'Utförd {$a->datetime}';
 $string['currentstatusexecution2'] = 'Utförs igen {$a->datetime}';
 $string['currentstatusexecution3'] = 'Utförs {$a->datetime}';
 $string['currentstatusexecution4'] = 'Väntar på utförande';
 $string['currentstatusnext'] = 'Nästa utförande';
+$string['currentstatusreset'] = 'Återställ';
 $string['currentstatusresetinfo'] = 'Kryssa i rutan och spara formuläret för att nollställa resultatet';
 $string['currentstatusresult'] = 'Färskt resultat';
 $string['enablescheduled'] = 'Aktivera schemalagd allokering';
@@ -38,6 +41,7 @@ $string['pluginname'] = 'Schemalagd allokering';
 $string['randomallocationsettings'] = 'Inställningar för tilldelning';
 $string['resultdisabled'] = 'Schemalagd allokering inaktiverad';
 $string['resultenabled'] = 'Schemalagd allokering aktiverad';
+$string['resultexecuted'] = 'Lyckades';
 $string['resultfailed'] = 'Utlottningen av utvärderare misslyckades';
 $string['resultfailedconfig'] = 'Schemalagd allokering felkonfigurerad';
 $string['resultfaileddeadline'] = 'Workshopens inlämningstid är inte angiven';

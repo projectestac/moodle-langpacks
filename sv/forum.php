@@ -534,6 +534,7 @@ $string['searchuserid'] = 'Författarens Moodle-ID';
 $string['searchwhichforums'] = 'Välj vilket/vilka forum du vill söka i';
 $string['searchwords'] = 'De här orden kan förekomma var som helst i inlägget';
 $string['seeallposts'] = 'Visa alla inlägg som den här användaren har gjort';
+$string['sendstudentnotificationsno'] = 'Nej';
 $string['settings'] = 'Inställningar';
 $string['shortpost'] = 'Kort inlägg';
 $string['showingcountoftotaldiscussions'] = 'Visar {$a->count} av {$a->total} diskussioner';

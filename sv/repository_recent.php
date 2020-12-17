@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configplugin'] = 'Konfiguration för källa för nyligen använda filer';
-$string['pluginname'] = 'Nyligen använda filer';
+$string['pluginname'] = 'Senaste filer';
 $string['recent:view'] = 'Visa plugin för nyligen använda filer';
 $string['recentfilesnumber'] = 'Antal nyligen använda filer';

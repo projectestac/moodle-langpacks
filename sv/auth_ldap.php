@@ -30,7 +30,7 @@ $string['auth_ldap_attrcreators'] = 'Lista över grupper eller sammanhang vars m
 $string['auth_ldap_attrcreators_key'] = 'Attribut för skapare';
 $string['auth_ldap_auth_user_create_key'] = 'Skapa användare externt';
 $string['auth_ldap_bind_dn'] = 'Om Du vill bruka \'bind\'-användare för att söka användare, så ska Du specificera det här. Något som \'cn=ldapuser,ou=public,o=org\'';
-$string['auth_ldap_bind_dn_key'] = 'Urskiljt namn';
+$string['auth_ldap_bind_dn_key'] = 'Unikt namn';
 $string['auth_ldap_bind_pw'] = 'Lösenord för \'bind\'-användare.';
 $string['auth_ldap_bind_pw_key'] = 'Lösenord';
 $string['auth_ldap_bind_settings'] = 'Inställningar för \'bind\'';
@@ -78,6 +78,7 @@ $string['auth_ldap_rolecontext'] = '{$a->localname}-kontext';
 $string['auth_ldap_search_sub'] = 'Sätt in ett värde <> 0 om Du vill söka användare från subkontexter.';
 $string['auth_ldap_search_sub_key'] = 'Sök i lägre sammanhang';
 $string['auth_ldap_server_settings'] = 'Inställningar för LDAP-server';
+$string['auth_ldap_suspended_attribute_key'] = 'Avstängd-attribut';
 $string['auth_ldap_unsupportedusertype'] = 'auth: ldap user_create() stödjer inte den valda användartypen: \'{$a}\'';
 $string['auth_ldap_update_userinfo'] = 'Uppdatera användarinformation (förnamn, efternamn, adress..) från LDAP till Moodle.  Se \'/auth/ldap/attr_mappings.php\' för mappnings-information';
 $string['auth_ldap_user_attribute'] = 'Attributet som används för namn/sökning av användare. Vanligtvis \'cn\'.';

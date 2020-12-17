@@ -37,12 +37,12 @@ $string['cachedef_plugininfo'] = 'Armazena a lista de módulos com suplementos m
 $string['clickheretolaunchtheapp'] = 'Clique aqui se a aplicação não abrir automaticamente.';
 $string['configmobilecssurl'] = 'Um ficheiro CSS para personalizar a interface da sua Aplicação móvel.';
 $string['customlangstrings'] = 'Strings de idioma personalizadas';
-$string['customlangstrings_desc'] = 'Palavras e frases mostradas na aplicação podem ser personalizadas aqui. Digite cada string de idioma personalizado numa nova linha no formato: string identifier, custom language string e language code, separados por uma barra vertical. Por exemplo:
+$string['customlangstrings_desc'] = 'As palavras e as frases mostradas na aplicação podem ser personalizadas aqui. Digite cada string de idioma personalizada numa nova linha no formato: identificador da string, string do idioma personalizada e código do idioma, separados por uma barra vertical. Por exemplo:
 <pre>
 mm.user.student|Learner|en
 mm.user.student|Aluno|pt
 </pre>
-Para obter uma lista completa de identificadores de string, consulte a documentação.';
+Para obter a lista completa de identificadores de string, consulte a documentação.';
 $string['custommenuitems'] = 'Itens de menu personalizados';
 $string['custommenuitems_desc'] = 'Itens adicionais podem ser adicionados ao menu principal da aplicação, especificando-os aqui. Digite cada item de menu personalizado numa nova linha no formato: texto do item, URL, método de abertura da hiperligação e o código do idioma (opcional, para mostrar o item apenas aos utilizadores do idioma especificado), separados por barras verticais.
 

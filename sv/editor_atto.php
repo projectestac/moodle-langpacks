@@ -26,10 +26,17 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['autosavefailed'] = 'Kan inte kontakta servern. Om du klickar Spara/Skicka nu riskerar du att förlora de ändringar du gjort.';
+$string['autosavefrequency'] = 'Autospar-frekvens';
 $string['autosavesucceeded'] = 'Ditt utkast har sparats.';
 $string['editor_command_keycode'] = 'Cmd + {$a}';
 $string['editor_control_keycode'] = 'Ctrl + {$a}';
 $string['infostatus'] = 'Information';
+$string['pluginname'] = 'Atto HTML-redigerare';
+$string['privacy:metadata:database:atto_autosave:drafttext'] = 'Texten som sparades.';
+$string['recover'] = 'Återställ';
+$string['settings'] = 'Inställningar för Atto-verktygsrad';
+$string['subplugintype_atto'] = 'Atto-plugin';
+$string['subplugintype_atto_plural'] = 'Atto-plugins';
 $string['taskautosavecleanup'] = 'Städa upp gamla utkast som sparats automatiskt';
 $string['textrecovered'] = 'Ett utkast av denna text har återställts automatiskt.';
 $string['toolbarconfig'] = 'Inställningar för verktygsfält';

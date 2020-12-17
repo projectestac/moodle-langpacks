@@ -36,3 +36,4 @@ $string['nodata'] = 'No hi ha dades per analitzar';
 $string['noinsights'] = 'No s\'ha informat de cap predicció';
 $string['noinsightsmodel'] = 'Aquest model no genera prediccions';
 $string['viewdetails'] = 'Mostra els detalls';
+$string['washelpful'] = 'Això us ha semblat útil?';

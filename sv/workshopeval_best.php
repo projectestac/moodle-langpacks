@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['comparison_help'] = 'Den här inställningen specificerar hur sträng jämförelsen av bedömningar ska vara. Ju strängare inställningen är, desto mera måste utvärderingarna likna varandra för att ett högre visord ska ges';
+$string['comparisonlevel1'] = 'mycket strikt';
+$string['comparisonlevel3'] = 'strikt';
 $string['comparisonlevel5'] = 'medel';
 $string['comparisonlevel7'] = 'mild';
 $string['comparisonlevel9'] = 'mycket mild';

@@ -44,7 +44,7 @@ $string['enrolledincourserole'] = 'In \'{$a->course}\' als \'{$a->role}\' einges
 $string['enrolusers'] = 'Nutzer/innen einschreiben';
 $string['enroluserscohorts'] = 'Ausgewählte Nutzer/innen und globale Gruppen einschreiben';
 $string['expiredaction'] = 'Aktion bei Einschreibungsablauf';
-$string['expiredaction_help'] = 'Legen Sie fest was nach dem Ablauf der Einschreibung in einem Kurs erfolgt. Denken Sie daran, dass bei der Austragung des Nutzers aus dem Kurs einige Daten nicht mehr verfügbar sind.';
+$string['expiredaction_help'] = 'Wählen Sie, welche Aktion ausgeführt werden soll, wenn die Nutzereinschreibung abläuft. Bitte beachten Sie bitte, dass bei der Kursabmeldung Nutzerdaten und -einstellungen gelöscht werden.';
 $string['expirymessageenrolledbody'] = 'Guten Tag {$a->user},
 
 Sie sind derzeit im Kurs \'{$a->course}\' eingeschrieben. Die Teilnahmedauer lauft am {$a->timeend} ab. Danach ist ein Zugriff auf den Kurs nicht mehr möglich.
@@ -66,8 +66,8 @@ $string['expirymessageenrollersubject'] = 'Benachrichtigung zum Teilnahmeende';
 $string['manual:config'] = 'Manuelle Einschreibung verwalten';
 $string['manual:enrol'] = 'Nutzer/innen einschreiben';
 $string['manual:manage'] = 'Nutzereinschreibung verwalten';
-$string['manual:unenrol'] = 'Nutzer/innen aus dem Kurs abmelden';
-$string['manual:unenrolself'] = 'Selbst aus dem Kurs abmelden';
+$string['manual:unenrol'] = 'Nutzer/innen vom Kurs abmelden';
+$string['manual:unenrolself'] = 'Selbst vom Kurs abmelden';
 $string['manualpluginnotinstalled'] = 'Das Plugin \'Manuelle Einschreibung\' ist nicht installiert.';
 $string['messageprovider:expiry_notification'] = 'Systemnachricht beim Ablauf von manuellen Einschreibungen';
 $string['now'] = 'Jetzt';
@@ -86,8 +86,8 @@ $string['statusenabled'] = 'Aktiviert';
 $string['syncenrolmentstask'] = 'Manuelle Einschreibung synchronisieren';
 $string['unenrol'] = 'Nutzer/in abmelden';
 $string['unenrolselectedusers'] = 'Ausgewählte Nutzer/innen abmelden';
-$string['unenrolselfconfirm'] = 'Möchten Sie sich wirklich selbst aus dem Kurs \'{$a}\' abmelden?';
-$string['unenroluser'] = 'Möchten Sie wirklich \'{$a->user}\' aus dem Kurs \'{$a->course}\' abmelden?';
+$string['unenrolselfconfirm'] = 'Möchten Sie sich selbst wirklich vom Kurs \'{$a}\' abmelden?';
+$string['unenroluser'] = 'Möchten Sie \'{$a->user}\' wirklich vom Kurs \'{$a->course}\' abmelden?';
 $string['unenrolusers'] = 'Nutzer/innen abmelden';
 $string['wscannotenrol'] = 'Die Plugins können Nutzer/innen nicht manuell in den Kurs \'{$a->courseid}\' einschreiben
  ';
