@@ -34,10 +34,10 @@ $string['availablelangs'] = 'Tillgängliga språkpaket';
 $string['caution'] = 'Varning';
 $string['chooselanguage'] = 'Välj ett språk';
 $string['chooselanguagehead'] = 'Välj ett språk';
-$string['chooselanguagesub'] = 'Var snäll och välj ett språk  för installationen. Du kommer att ha möjlighet att välja språk för webbplatsen och användarna på en senare skärm.';
+$string['chooselanguagesub'] = 'Vänligen välj ett språk för installationen. Du kommer att ha möjlighet att välja språk för webbplatsen och användarna på en senare skärm.';
 $string['cliadminpassword'] = 'Nytt lösenord för användare med rättigheter som administratör';
 $string['cliadminusername'] = 'Användarnamn för administratörskonto';
-$string['clialreadyinstalled'] = 'Filen config.php finns redan, var snäll och använd admin/cli/upgrade.php om Du vill uppgradera Din webbplats.';
+$string['clialreadyinstalled'] = 'Filen config.php finns redan. Vänligen använd admin/cli/upgrade.php om Du vill uppgradera Din webbplats.';
 $string['cliinstallfinished'] = 'Installationen fullföljde framgångsrikt. ';
 $string['cliinstallheader'] = 'Installationsprogram av typ kommandorad {$a} för Moodle ';
 $string['climustagreelicense'] = 'I icke-interaktivt läge måste Du godkänna licens genom att ange -- alternativ för godkänner - licens';
@@ -45,7 +45,7 @@ $string['clitablesexist'] = 'Databastabellerna är redan på plats, cli-installa
 $string['compatibilitysettings'] = 'Kontrollerar Dina PHP-inställningar...';
 $string['compatibilitysettingshead'] = 'Kontrollerar Dina PHP-inställningar...';
 $string['compatibilitysettingssub'] = 'Den server bör klara alla dessa test för att Moodle ska fungera friktionsfritt.';
-$string['configfilenotwritten'] = 'Skriptet för installationen kunde inte automatiskt skapa en config.php som innehåller de inställningar som Du har valt. Var snäll och kopiera den följande koden till en fil med namnet config.php i Moodles "root"-katalog.';
+$string['configfilenotwritten'] = 'Skriptet för installationen kunde inte automatiskt skapa en config.php som innehåller de inställningar som du valt. Vänligen kopiera följande kod till en fil med namnet config.php i Moodles "root"-katalog.';
 $string['configfilewritten'] = 'config.php har skapats framgångsrikt';
 $string['configurationcomplete'] = 'Konfigurationen är  genomförd';
 $string['configurationcompletehead'] = 'Konfigurationen är  genomförd';
@@ -57,19 +57,19 @@ $string['databasename'] = 'Namn på databas';
 $string['databasepass'] = 'Lösenord för databas';
 $string['databasesocket'] = 'Unix socket';
 $string['databasetypehead'] = 'Välj drivrutin för databasen';
-$string['databasetypesub'] = 'Moodle stödjer ett flertal typer av databasservrar. Var snäll och kontakta serveradministratören om Du inte vet vilken typ Du ska använda. ';
+$string['databasetypesub'] = 'Moodle stödjer ett flertal typer av databasservrar. Vänligen kontakta serveradministratören om du inte vet vilken typ du ska använda.';
 $string['databaseuser'] = 'Databasanvändare';
 $string['dataroot'] = 'katalog för data';
 $string['datarooterror'] = 'Den "katalog för data" som Du har angivit gick inte att hitta eller skapa. Du får antingen korrigera sökvägen eller skapa katalogen manuellt.';
-$string['dbconnectionerror'] = 'Det gick inte att ansluta till den databas som Du har angivit. Var snäll och kontrollera inställningarna till Din databas.';
+$string['dbconnectionerror'] = 'Det gick inte att ansluta till den databas som du har angivit. Vänligen kontrollera inställningarna till din databas.';
 $string['dbcreationerror'] = 'Fel (error) när databasen skulle skapas. Det gick tyvärr inte att skapa det namn (och med de inställningar) på databasen som Du har angivit';
 $string['dbhost'] = 'Värdserver';
 $string['dbpass'] = 'Lösenord';
 $string['dbprefix'] = 'Prefix för tabeller';
 $string['dbtype'] = 'Typ';
-$string['directorysettings'] = '<p>Var snäll och bekräfta placeringarna av denna installation av Moodle</p>
+$string['directorysettings'] = '<p> Vänligen bekräfta placeringarna av denna installation av Moodle</p>
 <p><b>Webbadress</b>
-Ange den fullständiga adressen till Moodle. Om Din webbplats går att nå via flerfaldiga (ett antal olika) URL:er så bör Du välja den som är mest naturlig för Dina användare (studenter etc).
+Ange den fullständiga adressen till Moodle. Om din webbplats går att nå via flera (ett antal olika) URL:er så bör du välja den som är mest naturlig för dina användare (studenter etc).
 Ta inte inte med något avslutande vänsterlutat snedstreck "/".</p>
 
 <p><b>Katalogen för Moodle</b>
@@ -77,7 +77,7 @@ Ange den fullständiga sökvägen till den här installationen. Kontrollera att 
 </p>
 <p><b>Katalogen för data</b>
 Du behöver ett utrymme där Moodle kan spara uppladdade filer. Till denna katalog bör det finnas läs- OCH SKRIV-rättigheter för användaren av webbservern (vanligtvis \'nobody\' eller  \'apache\') men katalogen bör inte vara tillgänglig direkt via webben.';
-$string['directorysettingshead'] = 'Var snäll och bekräfta placeringen av Din installation av Moodle.';
+$string['directorysettingshead'] = 'Vänligen bekräfta platsen för denna Moodle-installation.';
 $string['directorysettingssub'] = '<b>Webbadress:</b> Ange den fullständiga webbadressen till Moodle. Om det går att nå Din via flerfaldiga URLer så ska Du välja den som det ligger närmast till hands för Dina studenter att använda. Ta inte med något högerlutat snedstreck. <br /> <br /> <b>Katalogen för Moodle:</b> Ange den fullständiga sökvägen till den här installationen. Se till att hänsyn tas till stor/liten bokstav. <br /> <br /> <b>Katalogen för data:</b> Du behöver en plats där Moodle kan lagra de filer som laddas upp till systemet. Denna katalog bör vara läs- och SKRIVBAR för användaren av webbservern (vanligen \'nobody\' eller \'apache\'), men denna katalog bör inte vara tillgänglig direkt via webben.';
 $string['dirroot'] = 'Katalogen för Moodle';
 $string['dirrooterror'] = 'Inställningarna för "Katalogen för Moodle" tycks vara felaktiga - det går inte att hitta någon installation av Moodle där. Värdet här nedan har återställts.';
@@ -117,7 +117,7 @@ $string['nativepgsql'] = 'PostgreSQL (native/pgsql)';
 $string['nativepgsqlhelp'] = 'Nu måste Du konfigurera databasen där större delen av Moodles data kommer att lagras. Du måste först skapa databasen liksom ett användarnamn och ett lösenord för att få tillgång till den. Ett prefix för tabeller är obligatoriskt. ';
 $string['nativesqlsrv'] = 'SQL*Server Microsoft (native/sqlsrv)';
 $string['nativesqlsrvhelp'] = 'Nu måste Du konfigurera databasen där större delen av Moodles data kommer att lagras. Du måste först skapa databasen liksom ett användarnamn och ett lösenord för att få tillgång till den. Ett prefix för tabeller är obligatoriskt. ';
-$string['ociextensionisnotpresentinphp'] = 'PHP har inte konfigurerats på rätt sätt med tillägget OCI8. Därför kan det inte kommunicera med Oracle. Var snäll och kontrollera Din php.ini-fil eller kompilera om PHP.';
+$string['ociextensionisnotpresentinphp'] = 'PHP har inte konfigurerats på rätt sätt med tillägget OCI8. Därför kan det inte kommunicera med Oracle. Vänligen kontrollera din php.ini-fil eller kompilera om PHP.';
 $string['pass'] = 'Pass';
 $string['paths'] = 'Vägar';
 $string['pathserrcreatedataroot'] = 'Datakatalogen ({$a->dataroot}) går inte att skapa med hjälp av installeraren.';
@@ -127,7 +127,7 @@ $string['pathsroparentdataroot'] = 'Det går inte att skriva till föräldrakata
 $string['pathssubdirroot'] = 'Full sökväg till installationen av Moodle.';
 $string['pathsunsecuredataroot'] = 'Placeringen av dataroot är inte säker';
 $string['pathswrongadmindir'] = 'Katalogen för admin saknas';
-$string['pgsqlextensionisnotpresentinphp'] = 'PHP har inte konfigurerats på rätt sätt med tillägget PGSQL. Därför kan det inte kommunicera med PostgreSQL. Var snäll och kontrollera Din php.ini-fil eller kompilera om PHP.';
+$string['pgsqlextensionisnotpresentinphp'] = 'PHP har inte konfigurerats på rätt sätt med tillägget PGSQL. Därför kan det inte kommunicera med PostgreSQL. Vänligen kontrollera din php.ini-fil eller kompilera om PHP.';
 $string['phpextension'] = '{$a} PHP tillägg';
 $string['phpversion'] = 'PHP-version';
 $string['phpversionhelp'] = '<p>Moodle kräver minst PHP 4.3.0 eller 5.1.0 (det finns ett antal kända problem med 5.0.x)</p>
@@ -144,7 +144,7 @@ $string['sessionautostart'] = 'Automatisk start av session';
 $string['sessionautostarterror'] = 'De här bör vara inställt till \'off\'.';
 $string['sessionautostarthelp'] = '<p>Moodle kräver stöd för sessioner och kommer inte att fungera utan det.</p>
 <p>Sessioner kan vara aktiverade i php.ini-filen... kontrollera parametern för session.auto_start. </p>';
-$string['sqliteextensionisnotpresentinphp'] = 'PHP har inte konfigurerats korrekt med tillägget för SQLite. Var snäll och kontrollera Din php.ini-fil för att kompilera om PHP.';
+$string['sqliteextensionisnotpresentinphp'] = 'PHP har inte konfigurerats korrekt med tillägget för SQLite. Vänligen kontrollera din php.ini-fil för att kompilera om PHP.';
 $string['welcomep10'] = '{$a->installername} ({$a->installerversion})';
 $string['welcomep20'] = 'Du ser detta eftersom du framgångsrikt har installerat och börjat använda språkpaketet <strong>{$a->packname} {$a->packversion}</strong> på din dator. Gratulerar!';
 $string['welcomep30'] = 'I den här versionen av <strong>{$a->installername}</strong> ingår de applikationer som kan skapa en miljö som <strong>Moodle</strong> kan fungera i, nämligen:';

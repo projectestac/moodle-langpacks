@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['displaycategories'] = 'Отображать категории';
+$string['displaycategories_help'] = 'Отображать категории курса в элементах блока недавно посещенных курсов.';
 $string['nocourses'] = 'Нет недавно посещенных курсов';
 $string['pluginname'] = 'Недавно посещенные курсы';
 $string['privacy:metadata'] = 'Блок «Недавно посещенные курсы» не сохраняет никаких личных данных';

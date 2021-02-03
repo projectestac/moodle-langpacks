@@ -25,6 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventcomponent'] = 'Komponent';
+$string['eventcontext'] = 'Kontext';
+$string['eventorigin'] = 'Ursprung';
+$string['eventrelatedfullnameuser'] = 'Berörd användare';
 $string['livelogs'] = 'Loggar från senaste timmen';
 $string['loglive:view'] = 'Visa live loggar';
+$string['pause'] = 'Pausa uppdateringar';
 $string['pluginname'] = 'Live loggar';

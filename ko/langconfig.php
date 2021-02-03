@@ -37,8 +37,7 @@ $string['locale'] = 'ko_KR.UTF-8';
 $string['localewin'] = 'Korean_Korea.949';
 $string['localewincharset'] = 'EUC-KR';
 $string['oldcharset'] = 'EUC-KR';
-// Warning: this parentlanguage value is not a valid language code!
-// $string['parentlanguage'] = '';
+$string['parentlanguage'] = '';
 $string['strftimedate'] = '%Y년 %B %d일';
 $string['strftimedatefullshort'] = '%y/%m/%d';
 $string['strftimedateshort'] = '%B%d일';

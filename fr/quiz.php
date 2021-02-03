@@ -220,7 +220,7 @@ $string['confirmremovesectionheading'] = 'Voulez-vous vraiment supprimer le titr
 $string['confirmserverdelete'] = 'Voulez-vous vraiment supprimer le serveur <b>{$a}</b> de la liste ?';
 $string['connectionerror'] = 'Connexion réseau perdue (échec de l\'enregistrement automatique).
 
-Veuillez prendre note de toutes les réponses que vous avez saisies sur cette page au cours des quelques dernières minutes, puis essayez de vous reconnecter.
+Veuillez prendre note de toutes les réponses que vous avez saisies sur cette page au cours des dernières minutes, puis essayez de vous reconnecter.
 
 Une fois la connexion rétablie, vos réponses devraient être enregistrées et ce message disparaîtra.';
 $string['connectionok'] = 'Connexion réseau rétablie. Vous pouvez continuer.';

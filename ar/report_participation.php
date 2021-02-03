@@ -27,8 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['eventreportviewed'] = 'تمت معاينة تقرير المشاركة';
 $string['nologreaderenabled'] = 'لا قارئ مُمَكَّن لسجل الوقوعات';
-$string['page-report-participation-index'] = 'تقرير المشاركة في المساق';
+$string['page-report-participation-index'] = 'تقرير المشاركة في المقرر الدراسي';
 $string['page-report-participation-x'] = 'أي تقرير للمشاركة';
-$string['participation:view'] = 'معاينة تقرير مشاركات المساق';
-$string['pluginname'] = 'مشاركات المساق';
-$string['privacy:metadata'] = 'إن ملحق مشاركات المساق لا يخزن أي بيانات شخصية.';
+$string['participation:view'] = 'معاينة تقرير مشاركات المقرر الدراسي';
+$string['pluginname'] = 'مشاركات المقرر الدراسي';
+$string['privacy:metadata'] = 'إن ملحق مشاركات المقرر الدراسي لا يخزن أي بيانات شخصية.';

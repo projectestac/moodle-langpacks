@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filtername'] = 'Multispråkligt innehåll';
+$string['filtername'] = 'Flerspråkigt innehåll';
+$string['privacy:metadata'] = 'Pluginmodulen Flerspråkigt innehåll lagrar ingen personlig information.';

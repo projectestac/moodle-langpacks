@@ -28,5 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['page-report-progress-index'] = 'Rapport över avslutade aktiviteter';
 $string['page-report-progress-user'] = 'Användarrapport över avslutade aktiviteter';
 $string['page-report-progress-x'] = 'Alla';
-$string['pluginname'] = 'Fullföljande av aktivitet';
+$string['pluginname'] = 'Aktivitetsslutförande';
 $string['progress:view'] = 'Visa rapporter över avslutade aktiviteter';

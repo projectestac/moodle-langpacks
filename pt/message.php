@@ -73,6 +73,7 @@ $string['emailtagline'] = 'Este e-mail é uma cópia automática de uma mensagem
 $string['enabled'] = 'Ativado';
 $string['errorcallingprocessor'] = 'Erro ao chamar método de envio definido';
 $string['errorconversationdoesnotexist'] = 'Conversação não existe';
+$string['errormessagetoolong'] = 'A mensagem é mais longa do que o máximo permitido.';
 $string['errortranslatingdefault'] = 'Ocorreu um erro na tradução dada pelo módulo, irá usar as configurações predefinidas do site.';
 $string['eventgroupmessagesent'] = 'Enviada mensagem para grupo';
 $string['eventmessagecontactadded'] = 'Contacto de mensagem adicionado';

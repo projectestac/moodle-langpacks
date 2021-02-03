@@ -25,6 +25,38 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['bigfile'] = 'Stor fil {$a}';
+$string['courseexplanation'] = 'Det här verktyget skapar standardtestkurser som omfattar många
+avsnitt, aktiviteter och filer.
+
+Detta är avsett att erbjuda ett standardiserat sätt att kontrollera tillförlitligheten
+och prestandan hos olika systemkomponenter (till exempel säkerhetskopiering och återställning).
+
+Detta test är viktigt eftersom det tidigare har förekommit många fall där systemet inte fungerat vid praktisk användning (t.ex. för en kurs med 1, 000 aktiviteter).
+
+Kurser som skapas med hjälp av den här funktionen kan uppta en stor mängd databas- och
+filsystems-utrymme (tiotals gigabyte). Du kommer att behöva ta bort kurserna
+(och vänta på olika rensningskörningar) för att frigöra det här utrymmet igen.
+
+**Använd inte den här funktionen i ett produktionssystem**. Använd endast på en utvecklingsserver.
+(För att undvika oavsiktlig användning inaktiveras denna funktion om du inte också har valt
+felsökningsnivån <code>UTVECKLARE</code> under <em>Hantera webbplats -> Utveckling -> Felsökning -> Felsökningsmeddelanden</em>).';
+$string['coursewithoutusers'] = 'Det finns inga användare i den valda kursen';
+$string['createcourse'] = 'Skapa kurs';
+$string['createtestplan'] = 'Skapa testplan';
+$string['creating'] = 'Skapar kurs';
+$string['done'] = 'klar ({$a} sek.)';
+$string['downloadtestplan'] = 'Ladda ned testplan';
+$string['downloadusersfile'] = 'Ladda ned användarfil';
+$string['error_nocourses'] = 'Det finns ingen kurser att använda för att skapa testplan';
+$string['error_noforumdiscussions'] = 'Det finns inga forumdiskussioner i de valda kurserna';
+$string['error_noforuminstances'] = 'Det finns inga forum i de valda kurserna';
+$string['error_noforumreplies'] = 'Det finns inga forumsvar i de valda kurserna';
+$string['error_nonexistingcourse'] = 'Kursen finns inte';
+$string['error_nopageinstances'] = 'Det finns inga sidor i kursen';
+$string['error_notdebugging'] = 'Inte tillgängligt på denna server eftersom <em>Felsökningsmeddelanden</em> inte är inställt på <code>UTVECKLARE</code>';
+$string['fullname'] = 'Testkurs: {$a->size}';
+$string['maketestcourse'] = 'Skapa en testkurs';
 $string['progress_checkaccounts'] = 'Kontrollerar användarkonton ({$a})';
 $string['progress_coursecompleted'] = 'Kurs slutförd ({$a})';
 $string['progress_createaccounts'] = 'Skapar användarkonton ({$a->from} - {$a->to})';
@@ -36,3 +68,7 @@ $string['progress_createpages'] = 'Skapar sidor ({$a})';
 $string['progress_createsmallfiles'] = 'Skapar små filer ({$a})';
 $string['progress_enrol'] = 'Registrerar deltagare på kurs ({$a})';
 $string['progress_sitecompleted'] = 'Webbplats klar ({$a}s)';
+$string['size'] = 'Kursstorlek';
+$string['smallfiles'] = 'Små filer';
+$string['targetcourse'] = 'Testa målkurs';
+$string['updateuserspassword'] = 'Uppdatera användarlösenord';

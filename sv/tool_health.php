@@ -25,9 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['healthnoproblemsfound'] = 'Det gick inte att hitta några häsloproblem!';
-$string['healthproblemsdetected'] = 'Systemet har upptäckt hälsoproblem';
+$string['healthnoproblemsfound'] = 'Inga problem hittades!';
+$string['healthproblemsdetected'] = 'Hälsoproblem har upptäckts!';
 $string['healthproblemsolution'] = 'Lösning på hälsoproblem';
 $string['healthreturntomain'] = 'Fortsätt';
 $string['healthsolution'] = 'Lösning';
-$string['pluginname'] = 'Hälsocentralen';
+$string['pluginname'] = 'Hälsocenter';
+$string['privacy:metadata'] = 'Pluginmodulen Hälsocenter lagrar ingen personlig information.';

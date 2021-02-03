@@ -27,13 +27,12 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['clidriverlist'] = 'برامج تشغيل قاعدة البيانات المتوفرة للترحيل';
 $string['cliheading'] = 'ترحيل قاعدة البيانات - تأكد من أن لا أحد يدخل إلى الخادم أثناء الترحيل!';
-$string['climigrationnotice'] = 'ترحيل قاعدة البيانات في تقدم، يرجى الانتظار حتى اكتمال الترحيل و تكوين الخادم لتحديثات المسؤول و حذف ملف $CFG->dataroot/climaintenance.html.';
+$string['climigrationnotice'] = 'ترحيل قاعدة البيانات قيد التنفيذ، يرجى الانتظار حتى اكتمال الترحيل وقيام مشرف المخدم بتحديث الإعدادات وحذف ملف $CFG->dataroot/climaintenance.html.';
 $string['convertinglogdisplay'] = 'تحويل سجل عرض الإجراءات';
 $string['dbexport'] = 'تصدير قاعدة البيانات';
 $string['dbtransfer'] = 'ترحيل قاعدة البيانات';
 $string['enablemaintenance'] = 'مكّن وضع الصيانة';
-$string['enablemaintenance_help'] = 'هذا الخيار يتيح وضع الصيانة أثناء و بعد ترحيل قاعدة البيانات، فإنه يمنع وصول جميع المستخدمين حتى يتم الانتهاء من الترحيل. يرجى ملاحظة أن المسؤول يجب أن يحذف يدويا الملف
-$CFG->dataroot/climaintenance.html
+$string['enablemaintenance_help'] = 'هذا الخيار يتيح وضع الصيانة أثناء وبعد ترحيل قاعدة البيانات، وهو يمنع وصول أي من المستخدمين حتى يتم الانتهاء من الترحيل. يرجى ملاحظة أن على المشرف حذف الملف $CFG->dataroot/climaintenance.html يدويًا
 بعد تحديث إعدادات ملف config.php لاستئناف التشغيل العادي.';
 $string['exportdata'] = 'تصدير البيانات';
 $string['notargetconectexception'] = 'لا يمكن الاتصال بقاعدة البيانات المقصودة، عذراً.';

@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Checkbox';
+$string['privacy:metadata:profilefield_checkbox:tableexplanation'] = 'Ytterligare profilinformation';

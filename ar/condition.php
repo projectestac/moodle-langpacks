@@ -30,7 +30,7 @@ $string['addgrades'] = 'أضف {no} شروط علامات للنموذج';
 $string['adduserfields'] = '{لا} تضف شروطاً إلى حقل المستخدم في النموذج';
 $string['availabilityconditions'] = 'تقييد الوصول';
 $string['availablefrom'] = 'يمكن الوصول له من';
-$string['availablefrom_help'] = 'تاريخي البدء/الانتهاء تحدد الفترة الزمينة التي يمكن بها للطلاب الدخول على النشاط عبر رابط في صفحة المساق.
+$string['availablefrom_help'] = 'تاريخي البدء/الانتهاء تحدد الفترة الزمينة التي يمكن بها للطلاب الدخول على النشاط عبر رابط في صفحة المقرر الدراسي.
 
 الفرق بين تاريخي البدء/الانتهاء وإعدادات التوافر للنشاط هو أنه خارج تلك الفترة، تاريخا البدء/الانتهاء يمنعان الوصول تماماً، في حين أن التوافر يتيح للطلبة معاينة وصف النشاط.';
 $string['availableuntil'] = 'يمكن الدخول حتى';
@@ -94,7 +94,7 @@ $string['requires_user_field_isequalto'] = 'ليست متاحة ما لم يكن
 $string['requires_user_field_isnotempty'] = 'ليست متاحة إذا كان حقل <strong>{$a->field}</strong> لديك خالياً.';
 $string['requires_user_field_startswith'] = 'ليست متاحة ما لم يكن حقل <strong>{$a->field}</strong> لديك بادئاً بـ <strong>{$a->value}</strong>.';
 $string['showavailability'] = 'طالما كان الوصول ممنوعاً';
-$string['showavailability_hide'] = 'إخفاء النشاط بالكامل في المساق وفي سجل العلامات';
+$string['showavailability_hide'] = 'إخفاء النشاط بالكامل في المقرر الدراسي وفي سجل التقديرات';
 $string['showavailability_show'] = 'إعرض النشاط غير مفعلاً (بلون رمادي)، مع معلومات عن سبب التقييد';
 $string['showavailabilitysection'] = 'قبل إتاحة الوصول إلى المقطع';
 $string['showavailabilitysection_hide'] = 'إخفاء المقطع بالكامل';

@@ -313,6 +313,7 @@ $string['forumtype_help'] = 'Hay cinco tipos diferentes de foros:
 * Foro para uso general. -  Es un foro abierto donde cualquiera puede empezar un nuevo tema de debate cuando quiera. Este es el foro más adecuado, para uso general.';
 $string['generalforum'] = 'Foro para uso general';
 $string['generalforums'] = 'Foros generales';
+$string['grade_forum_header'] = 'Evaluación del foro completo';
 $string['gradeforratinghidden'] = 'Calificación por valoraciones oculta';
 $string['grades:gradesavedfor'] = 'Calificación guardada para {$a->fullname}';
 $string['grades:gradesavefailed'] = 'No se puede guardar la calificación para {$a->fullname}: {$a->error}';

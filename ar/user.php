@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['privacy:courserequestpath'] = 'المساقات المطلوبة';
+$string['privacy:courserequestpath'] = 'المقررات الدراسية المطلوبة';
 $string['privacy:descriptionpath'] = 'وصف الملف الشخصي';
 $string['privacy:devicespath'] = 'أجهزة المستخدم';
 $string['privacy:draftfilespath'] = 'الملفات المسودة';
-$string['privacy:lastaccesspath'] = 'آخر وصول إلى المساقات';
+$string['privacy:lastaccesspath'] = 'آخر وصول إلى المقررات الدراسية';
 $string['privacy:metadata:address'] = 'عنوان المستخدم';
 $string['privacy:metadata:aim'] = 'مُعرَّف AIM للمستخدم';
 $string['privacy:metadata:alternatename'] = 'الاسم البديل للمستخدم';
@@ -41,7 +41,7 @@ $string['privacy:metadata:category'] = 'مُعرَّف التصنيف';
 $string['privacy:metadata:city'] = 'مدينة المستخدم';
 $string['privacy:metadata:confirmed'] = 'فيما إذا كان هذا المستخدم فعالاً أم لا';
 $string['privacy:metadata:country'] = 'البلد التي يتواجد فيه المستخدم';
-$string['privacy:metadata:courseid'] = 'مُعرَّف المساق';
+$string['privacy:metadata:courseid'] = 'مُعرَّف المقرر الدراسي';
 $string['privacy:metadata:currentlogin'] = 'تسجيل الدخول الحالي للمستخدم';
 $string['privacy:metadata:data'] = 'البيانات المتعلقة بحقل المستخدم المخصص والمأخوذة من المستخدم';
 $string['privacy:metadata:deleted'] = 'علم لبيان ما إذا تم حذف المستخدم أم لا';
@@ -57,7 +57,7 @@ $string['privacy:metadata:firstaccess'] = 'وقت أول دخول لهذا ال�
 $string['privacy:metadata:firstip'] = 'أول عنوان IP مسجل';
 $string['privacy:metadata:firstname'] = 'الاسم الأول للمستخدم';
 $string['privacy:metadata:firstnamephonetic'] = 'التفاصيل الصوتية عن الاسم الأول للمستخدم';
-$string['privacy:metadata:fullname'] = 'الاسم الكامل لهذا المساق';
+$string['privacy:metadata:fullname'] = 'الاسم الكامل لهذا المقرر الدراسي';
 $string['privacy:metadata:hash'] = 'خلطة مشفرة لكلمة المرور السابقة';
 $string['privacy:metadata:icq'] = 'رقم حساب ICQ للمستخدم';
 $string['privacy:metadata:id'] = 'مُعرَّف المستخدم';
@@ -67,7 +67,7 @@ $string['privacy:metadata:infotablesummary'] = 'يخزن معلومات المس
 $string['privacy:metadata:institution'] = 'المؤسسة التي ينتمي إليها هذا المستخدم';
 $string['privacy:metadata:lang'] = 'تفضيل المستخدم للغة عرض الموقع';
 $string['privacy:metadata:lastaccess'] = 'وقت آخِر دخول للمستخدم إلى الموقع';
-$string['privacy:metadata:lastaccesstablesummary'] = 'معلومات عن آخر وصول للمستخدم إلى المساق';
+$string['privacy:metadata:lastaccesstablesummary'] = 'معلومات عن آخر وصول للمستخدم إلى المقرر الدراسي';
 $string['privacy:metadata:lastip'] = 'آخر عنوان IP للمستخدم';
 $string['privacy:metadata:lastlogin'] = 'آخر تسجيل دخول للمستخدم';
 $string['privacy:metadata:lastname'] = 'اسم العائلة للمستخدم';
@@ -78,9 +78,9 @@ $string['privacy:metadata:middlename'] = 'الاسم الأوسط للمستخد
 $string['privacy:metadata:mnethostid'] = 'مُعرَّف لمضيف شبكة مودل إن كان مستعملاً';
 $string['privacy:metadata:model'] = 'اسم الجهاز، تلفزيون ذكي أو أيفون... إلخ';
 $string['privacy:metadata:msn'] = 'مُعرَّف حساب MSN للمستخدم';
-$string['privacy:metadata:my_pages'] = 'صفحات المستخدم - دفة القيادة والملف الشخصي. هذا الجدول لا يحتوي على بيانات شخصية ويستعمل فقط لربط كتل دفة القيادة بالمستخدمين';
+$string['privacy:metadata:my_pages'] = 'صفحات المستخدم - لوحة التحكم والملف الشخصي. هذا الجدول لا يحتوي على بيانات شخصية ويستعمل فقط لربط كتل لوحة التحكم بالمستخدمين';
 $string['privacy:metadata:my_pages:name'] = 'اسم الصفحة';
-$string['privacy:metadata:my_pages:private'] = 'فيما إذا كانت الصفحة خاصة (دفة القيادة) أو عمومية (ملف شخصي)';
+$string['privacy:metadata:my_pages:private'] = 'فيما إذا كانت الصفحة خاصة (لوحة التحكم) أو عمومية (ملف شخصي)';
 $string['privacy:metadata:my_pages:userid'] = 'المستخدم المالك لهذه الصفحة أو 0 لافتراضات النظام';
 $string['privacy:metadata:password'] = 'كلمة مرور المستخدم لدخول النظام';
 $string['privacy:metadata:passwordresettablesummary'] = 'جدول لمتابعة رموز تأكيدات إعادة تعيين كلمة المرور';
@@ -90,20 +90,20 @@ $string['privacy:metadata:picture'] = 'تفاصيل الصورة المتعلق�
 $string['privacy:metadata:platform'] = 'منصة الجهاز، أندرويد، iOS... إلخ.';
 $string['privacy:metadata:policyagreed'] = 'علم لتأشير فيما إذا كان المستخدم قد وافق على سياسة الموقع';
 $string['privacy:metadata:pushid'] = 'مُعرَّف عملية PUSH لـ token/key/identifier/registration الخاصة بالجهاز';
-$string['privacy:metadata:reason'] = 'سبب طلب هذا المساق';
-$string['privacy:metadata:requester'] = 'مُعرَّف المستخدم الذي طلب المساق';
-$string['privacy:metadata:requestsummary'] = 'يخزن معلومات عن طلبات المساقات التي يقدمها المستخدمون';
+$string['privacy:metadata:reason'] = 'سبب طلب هذا المقرر الدراسي';
+$string['privacy:metadata:requester'] = 'مُعرَّف المستخدم الذي طلب المقرر الدراسي';
+$string['privacy:metadata:requestsummary'] = 'يخزن معلومات عن طلبات المقررات الدراسية التي يقدمها المستخدمون';
 $string['privacy:metadata:secret'] = 'سري.. غير متأكد';
 $string['privacy:metadata:sessdata'] = 'محتوى الجلسة';
 $string['privacy:metadata:sessiontablesummary'] = 'مخزون الجلسة المستند إلى قاعدة البيانات';
-$string['privacy:metadata:shortname'] = 'اسم مختصر للمساق';
+$string['privacy:metadata:shortname'] = 'اسم مختصر للمقرر الدراسي';
 $string['privacy:metadata:sid'] = 'مُعرَّف الجلسة';
 $string['privacy:metadata:skype'] = 'مُعرَّف Skype للمستخدم';
 $string['privacy:metadata:state'] = '0 معناها جلسة عادية';
-$string['privacy:metadata:summary'] = 'وصف المساق';
+$string['privacy:metadata:summary'] = 'وصف المقرر الدراسي';
 $string['privacy:metadata:suspended'] = 'علم لبيان ما إذا تم تعليق حساب المستخدم في هذا النظام';
 $string['privacy:metadata:theme'] = 'تفضيل المستخدم لمظهر العرض';
-$string['privacy:metadata:timeaccess'] = 'وقت الوصول إلى المساق';
+$string['privacy:metadata:timeaccess'] = 'وقت الوصول إلى المقرر الدراسي';
 $string['privacy:metadata:timecreated'] = 'وقت إنشاء هذا السجل';
 $string['privacy:metadata:timemodified'] = 'وقت تعديل هذا السجل';
 $string['privacy:metadata:timerequested'] = 'أول وقت طالب فيه المستخدم بإعادة التعيين هذا لكلمة المرور';

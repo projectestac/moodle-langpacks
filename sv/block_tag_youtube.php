@@ -26,22 +26,29 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['anycategory'] = 'Valfri kategori';
-$string['autosvehicles'] = 'Bilar &amp;, fordon';
+$string['apierror'] = 'API-nyckeln till YouTube är inte angiven. Kontakta administratören.';
+$string['apikey'] = 'API-nyckel';
+$string['apikeyinfo'] = 'Hämta en <a href="https://developers.google.com/youtube/v3/getting-started">Google API-nyckel</a> för din Moodle-webbplats.';
+$string['autosvehicles'] = 'Bilar & Fordon';
 $string['category'] = 'Kategori';
 $string['comedy'] = 'Komedi';
 $string['configtitle'] = 'Titel';
 $string['education'] = 'Utbildning';
 $string['entertainment'] = 'Underhållning';
-$string['filmsanimation'] = 'Filmer &amp; Animation';
-$string['gadgetsgames'] = 'Gadgets  &amp; Spel';
-$string['howtodiy'] = 'HurGörMan &amp; DIY';
+$string['filmsanimation'] = 'Filmer & Animation';
+$string['gadgetsgames'] = 'Prylar & Spel';
+$string['howtodiy'] = 'Hur gör man & Gör det själv';
 $string['includeonlyvideosfromplaylist'] = 'Ta bara med videor med id från spellistan';
 $string['music'] = 'Musik';
-$string['newspolitics'] = 'Nyheter &amp; Politik';
+$string['newspolitics'] = 'Nyheter & Politik';
 $string['numberofvideos'] = 'Antal videor';
-$string['peopleblogs'] = 'Människor &amp; Bloggar';
-$string['petsanimals'] = 'Husdjur &amp; Djur';
+$string['peopleblogs'] = 'Människor & Bloggar';
+$string['petsanimals'] = 'Husdjur & Djur';
 $string['pluginname'] = 'Youtube';
+$string['privacy:metadata'] = 'Blocket YouTube visar enbart data som lagras på andra platser.';
+$string['requesterror'] = 'Kunde inte hämta data från servern.
+Kontakta administratören om problemen kvarstår.';
 $string['scienceandtech'] = 'Vetenskap & teknik';
 $string['sports'] = 'Sport';
-$string['travel'] = 'Resor &amp; Platser';
+$string['tag_youtube:addinstance'] = 'Lägg till nytt YouTube-block';
+$string['travel'] = 'Resor & Platser';

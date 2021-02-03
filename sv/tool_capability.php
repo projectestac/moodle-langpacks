@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['capabilitylabel'] = 'Funktion:';
+$string['capabilitylabel'] = 'Funktionsbehörighet:';
 $string['capabilityreport'] = 'Funktionsbehörigheter';
-$string['changeoverrides'] = 'Ändra åsidosättanden i denna kontext';
+$string['changeoverrides'] = 'Ändra åsidosättanden i detta kontext';
 $string['changeroles'] = 'Ändra rolldefinitioner';
 $string['eventreportviewed'] = 'Rapport visad';
 $string['forroles'] = 'För roller {$a}';

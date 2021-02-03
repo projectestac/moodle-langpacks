@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['courseoverview:view'] = 'معاينة تقرير استعراض المساق';
-$string['pluginname'] = 'استعراض المساق';
-$string['privacy:metadata'] = 'إن ملحق استعراض المساق لا يخزن أي بيانات شخصية.';
+$string['courseoverview:view'] = 'معاينة تقرير استعراض المقرر الدراسي';
+$string['pluginname'] = 'استعراض المقرر الدراسي';
+$string['privacy:metadata'] = 'إن ملحق استعراض المقرر الدراسي لا يخزن أي بيانات شخصية.';

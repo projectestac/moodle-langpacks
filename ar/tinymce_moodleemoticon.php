@@ -29,4 +29,4 @@ $string['moodleemoticon:desc'] = 'أدرج التعبيرات';
 $string['pluginname'] = 'أدرج التعبيرات';
 $string['privacy:metadata'] = 'البرنامج المساعد Moodle Emoticon TinyMCE لا يخزن أي بيانات شخصية.';
 $string['requireemoticon'] = 'يتطلب تصفية التعبيرات';
-$string['requireemoticon_desc'] = 'إذا مكّن، سيكون زر التعبيرات مرئيا فقط عندما يتم تمكين تصفية التعبيرات في سياق المحرر.';
+$string['requireemoticon_desc'] = 'إذا مكّن، سيكون زر التعبيرات مرئيًا فقط عند تمكين منقح التعبيرات في سياق المحرر.';

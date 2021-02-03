@@ -73,6 +73,7 @@ $string['emailtagline'] = 'Deze e-mail is een kopie van een bericht dat naar jou
 $string['enabled'] = 'Ingeschakeld';
 $string['errorcallingprocessor'] = 'Fout bij het aanroepen van de opgegeven output';
 $string['errorconversationdoesnotexist'] = 'Gesprek bestaat niet';
+$string['errormessagetoolong'] = 'Het bericht is langer dan het toegestane maximum.';
 $string['errortranslatingdefault'] = 'Fout bij het vertalen van de standaardinstelling van de plugin. Systeemstandaarden worden gebruikt.';
 $string['eventgroupmessagesent'] = 'Groepsbericht verzonden';
 $string['eventmessagecontactadded'] = 'Berichtcontact toegevoegd';

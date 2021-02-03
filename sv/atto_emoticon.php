@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['insertemoticon'] = 'Infoga emoticon';
+$string['insertemoticon'] = 'Infoga emoji';
 $string['pluginname'] = '';

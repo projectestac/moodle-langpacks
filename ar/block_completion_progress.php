@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['showlastincourse'] = 'إظهار آخر وقت للطالب في المساق في النظرة العامة';
+$string['showlastincourse'] = 'إظهار آخر وقت للطالب في المقرر الدراسي في النظرة العامة';

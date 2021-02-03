@@ -42,6 +42,7 @@ $string['collastupdated'] = '마지막 업데이트';
 $string['colpoll'] = '업데이트';
 $string['commontasks'] = '선택사항들';
 $string['confirmeventdelete'] = '이 일정을 삭제할까요?';
+$string['confirmeventseriesdelete'] = '"{$a->name}"일정은 반복 일정의 일부입니다. 이 일정만 지우겠습니까, 아니면 모든 {$a->count} 반복 일정을 지우겠습니까?';
 $string['course'] = '강좌';
 $string['courseevent'] = '강좌행사';
 $string['courseevents'] = '강좌일정';

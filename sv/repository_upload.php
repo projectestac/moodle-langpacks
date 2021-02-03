@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configplugin'] = 'Konfiguration för insticksmodul ladda upp';
+$string['configplugin'] = 'Konfiguration för pluginmodulen ladda upp';
 $string['pluginname'] = 'Ladda upp fil';
 $string['pluginname_help'] = 'Ladda upp fil till Moodle';
 $string['upload:view'] = 'Använd uppladdning i filväljaren';

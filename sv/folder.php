@@ -35,11 +35,21 @@ $string['displayinline'] = 'På kurssidan';
 $string['displaypage'] = 'På en separat sida';
 $string['dnduploadmakefolder'] = 'Packa upp filer och skapa mapp';
 $string['downloadfolder'] = 'Ladda ned mapp';
+$string['eventallfilesdownloaded'] = 'ZIP-fil eller mapp nedladdad';
 $string['eventfolderupdated'] = 'Mappen har uppdaterats';
 $string['folder:addinstance'] = 'Lägg till en ny mapp';
-$string['folder:managefiles'] = 'Administrera filer i modulen för mappar';
+$string['folder:managefiles'] = 'Hantera filer i modulen för mappar';
 $string['folder:view'] = 'Visa mappinnehåll';
 $string['foldercontent'] = 'Filer och undermappar';
+$string['indicator:cognitivedepth'] = 'Mapp kognitiv';
+$string['indicator:cognitivedepth_help'] = 'Denna indikator baseras på det kognitiva djup som uppnåtts av studenten i en Mappresurs.';
+$string['indicator:cognitivedepthdef'] = 'Folder kognitivt';
+$string['indicator:socialbreadth'] = 'Mapp social';
+$string['indicator:socialbreadth_help'] = 'Denna indikator baseras på den sociala bredd som uppnåtts av studenten i en Mappaktivitet.';
+$string['indicator:socialbreadthdef'] = 'Mapp socialt';
+$string['indicator:socialbreadthdef_help'] = 'Deltagaren har nått denna procentandel av det sociala engagemanget som erbjuds av Mappresurserna under detta analysintervall (Nivåer = Inget deltagande, Deltagaren ensamt)';
+$string['maxsizetodownload'] = 'Maximal nedladdningsstorlek (MB)';
+$string['maxsizetodownload_help'] = 'Den maximala mappstorleken som kan laddas ner som en zip-fil. Om den är inställd på noll är mappstorleken obegränsad.';
 $string['modulename'] = 'Mapp';
 $string['modulename_help'] = 'Med modulen för mappar kan en lärare visa ett antal relaterade filer i en enda mapp, vilket minskar scrollande och långa listor på kurssidan. En packad mapp kan laddas upp och packas upp för visning eller så kan en tom mapp skapas och filer laddas upp till den.
 

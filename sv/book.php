@@ -29,27 +29,35 @@ $string['addafter'] = 'Lägg till ett nytt kapitel';
 $string['addafterchapter'] = 'Lägg till ett nytt kapitel efter "{$a->title}"';
 $string['book:addinstance'] = 'Lägg till ny bok';
 $string['book:edit'] = 'Redigera bokkapitel';
-$string['book:read'] = 'Läs bok';
-$string['book:viewhiddenchapters'] = 'Visa dolda bokkapitel';
+$string['book:read'] = 'Visa bok';
+$string['book:viewhiddenchapters'] = 'Visa dolda kapitel';
 $string['chapterandsubchaptersdeleted'] = 'Kapitel "{$a->title}" och dess underkapitel  {$a->subchapters} har tagits bort.';
 $string['chapterdeleted'] = 'Kapitel "{$a->title}" har tagits bort.';
 $string['chapters'] = 'Kapitel';
-$string['chaptertitle'] = 'Titel på kapitel';
+$string['chaptertitle'] = 'Kapitelrubrik';
 $string['confchapterdelete'] = 'Är du säker på att vill ta bort det här kapitlet?';
-$string['confchapterdeleteall'] = 'Är Du säker på att vill ta bort det här kapitlet och alla underkapitlar?';
+$string['confchapterdeleteall'] = 'Är du säker på att vill ta bort det här kapitlet och alla dess underkapitel?';
 $string['content'] = 'Innehåll';
-$string['customtitles'] = 'Anpassa titlar';
+$string['customtitles'] = 'Anpassade rubriker';
 $string['customtitles_help'] = 'Normalt visas kapitelrubriken i innehållsförteckningen och som rubrik ovanför innehållet. Om kryssrutan för att kunna anpassa titlar är markerad, visas kapitelrubriken inte som rubrik ovanför innehållet.
 En annan titel (kanske längre än kapitelrubriken) kan anges som en del av innehållet.';
-$string['deletechapter'] = 'Radera kapitel "{$a}"';
+$string['deletechapter'] = 'Ta bort kapitel "{$a}"';
 $string['editchapter'] = 'Redigera kapitel "{$a}"';
 $string['editingchapter'] = 'Redigerar kapitel';
-$string['errorchapter'] = 'Fel vid läsning av bokkapitel';
+$string['errorchapter'] = 'Fel vid läsning av kapitel';
 $string['eventchaptercreated'] = 'Kapitel skapat';
-$string['eventchapterdeleted'] = 'Kapitel raderat';
+$string['eventchapterdeleted'] = 'Kapitel borttaget';
 $string['eventchapterupdated'] = 'Kapitel uppdaterat';
 $string['eventchapterviewed'] = 'Kapitel visat';
 $string['hidechapter'] = 'Dölj kapitel "{$a}"';
+$string['indicator:cognitivedepth'] = 'Bok kognitivt';
+$string['indicator:cognitivedepth_help'] = 'Denna indikator är baserad på det kognitiva djup som studenten nått i en Bok-resurs.';
+$string['indicator:cognitivedepthdef'] = 'Bok kognitivt';
+$string['indicator:cognitivedepthdef_help'] = 'Deltagaren har nått denna procentandel av det kognitiva engagemang som erbjuds av Bokaktiviteterna under detta analysintervall (Nivåer = Ingen visning, Visa)';
+$string['indicator:socialbreadth'] = 'Bok socialt';
+$string['indicator:socialbreadth_help'] = 'Denna indikator baseras på den sociala bredd användaren nått i en Bok-resurs.';
+$string['indicator:socialbreadthdef'] = 'Bok socialt';
+$string['indicator:socialbreadthdef_help'] = 'Deltagaren har nått denna procentandel av det sociala engagemanget som erbjuds av Bokaktiviteterna under detta analysintervall (Nivåer = Inget deltagande, Deltagaren ensamt)';
 $string['modulename'] = 'Bok';
 $string['modulename_help'] = 'Bok-modulen möjliggör för en lärare att skapa en flersidig resurs i ett bok-liknande format inklusive kapitel och underkapitel. Böcker kan innehålla media och text och är användbara för att visa långa passager av information som kan delas in i sektioner. En bok kan t.ex. användas
 * För att visa litteratur för enskilda studiemoment
@@ -58,7 +66,7 @@ $string['modulename_help'] = 'Bok-modulen möjliggör för en lärare att skapa 
 $string['modulenameplural'] = 'Böcker';
 $string['movechapterdown'] = 'Flytta kapitel ner "{$a}"';
 $string['movechapterup'] = 'Flytta kapitel upp "{$a}"';
-$string['navexit'] = 'Lämna Bok';
+$string['navexit'] = 'Lämna bok';
 $string['navimages'] = 'Bilder';
 $string['navnext'] = 'Nästa';
 $string['navnexttitle'] = 'Nästa: {$a}';
@@ -72,28 +80,31 @@ $string['navstyle_help'] = '* Bilder - ikoner (bilder) används för navigering
 $string['navtext'] = 'Text';
 $string['navtoc'] = 'Endast innehållsförteckning';
 $string['nocontent'] = 'Inget innehåll har lagts till den här boken än.';
-$string['numbering'] = 'Numrering av kapitel';
+$string['numbering'] = 'Kapitelformatering';
 $string['numbering0'] = 'Ingen';
-$string['numbering1'] = 'Tal';
-$string['numbering2'] = 'Bullets';
-$string['numbering3'] = 'Indragen';
-$string['numbering_help'] = '* Ingen - kapitel och titlar på underkapitel är inte formaterade alls. Använda detta om du vill definiera särskilda numreringsstilar. t.ex.: "A kapitel 1", "A.1 några underkapitel", ...
-* Siffror - kapitel och titlar på underkapitel numreras (1, 1,1, 1,2, 2, ...)
-* Bullets - underkapitel är indragna och visas med kulor
-* Indragna - underkapitel är indragna';
-$string['numberingoptions'] = 'Tillgängliga alternativ för kapitel formatering';
-$string['numberingoptions_desc'] = 'Inställningsalternativ för att visa kapitel och underkapitel i innehållsförteckningen';
+$string['numbering1'] = 'Numrerade';
+$string['numbering2'] = 'Punkter';
+$string['numbering3'] = 'Indragna';
+$string['numbering_help'] = '* Ingen - Kapitel- och underkapitelrubriker har ingen formatering
+* Numrerade - Kapitel- och underkapitelrubriker är numrerade 1, 1.1, 1.2, 2, ...
+* Punkter - Underkapitel är indragna och visas med punkter i innehållsförteckningen
+* Indragna - Underkapitel är indragna i innehållsförteckningen';
+$string['numberingoptions'] = 'Tillgängliga alternativ för kapitelformatering';
+$string['numberingoptions_desc'] = 'Alternativ för visning av kapitel och underkapitel i innehållsförteckningen';
 $string['page-mod-book-x'] = 'Valfri bokmodulsida';
 $string['pluginadministration'] = 'Bok administration';
 $string['pluginname'] = 'Bok';
 $string['previouschapter'] = 'Föregående kapitel';
 $string['privacy:metadata'] = 'Modulen Bok sparar inte personuppgifter.';
+$string['removeallbooktags'] = 'Ta bort alla boketiketter';
+$string['search:activity'] = 'Bok - resursinformation';
 $string['search:chapter'] = 'Bok - kapitel';
 $string['showchapter'] = 'Visa kapitel "{$a}"';
 $string['subchapter'] = 'Underkapitel';
 $string['subchapternotice'] = '(Endast tillgängligt när det första kapitlet har skapats)';
-$string['subplugintype_booktool'] = 'Bok verktyg';
-$string['subplugintype_booktool_plural'] = 'Bok verktyg';
+$string['subplugintype_booktool'] = 'Bokverktyg';
+$string['subplugintype_booktool_plural'] = 'Bokverktyg';
 $string['tagarea_book_chapters'] = 'Bokkapitel';
+$string['tagsdeleted'] = 'Boketiketter har tagits bort';
 $string['toc'] = 'Innehållsförteckning';
-$string['top'] = 'Upp';
+$string['top'] = 'upp';

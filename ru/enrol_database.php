@@ -75,5 +75,6 @@ $string['settingsheaderdb'] = 'Подключение к внешней базе
 $string['settingsheaderlocal'] = 'Соответствие локального поля';
 $string['settingsheadernewcourses'] = 'Создание новых курсов';
 $string['settingsheaderremote'] = 'Синхронизация записи на курсы со внешней системой';
+$string['syncenrolmentstask'] = 'Синхронизация зачисления из внешней базы данных';
 $string['templatecourse'] = 'Шаблон нового курса';
 $string['templatecourse_desc'] = 'Не обязательно: автоматически создаваемые курсы могут скопировать  настройки из шаблона курса. Введите здесь Короткое имя шаблона курса.';

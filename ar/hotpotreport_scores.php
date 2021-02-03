@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'تقرير الدرجات';
+$string['privacy:metadata'] = 'إن ملحق وحدة تقرير الدرجات لا يخزن أي بيانات شخصية.';

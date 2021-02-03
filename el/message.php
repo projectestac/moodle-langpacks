@@ -73,6 +73,7 @@ $string['emailtagline'] = 'Αυτό είναι ένα αντίγραφο ενό�
 $string['enabled'] = 'Ενεργοποιημένο';
 $string['errorcallingprocessor'] = 'Σφάλμα κατά την κλήση του ορισμένου μέσου ειδοποίησης';
 $string['errorconversationdoesnotexist'] = 'Η συζήτηση δεν υπάρχει';
+$string['errormessagetoolong'] = 'Το μήνυμα είναι μεγαλύτερο από το μέγιστο επιτρεπόμενο.';
 $string['errortranslatingdefault'] = 'Σφάλμα μετάφρασης της προεπιλεγμένης ρύθμισης που παρέχεται από το πρόσθετο. Αντ\' αυτού γίνεται χρήση της προεπιλογής του συστήματος.';
 $string['eventgroupmessagesent'] = 'Το ομαδικό μήνυμα στάλθηκε';
 $string['eventmessagecontactadded'] = 'Η επαφή μηνυμάτων προστέθηκε';

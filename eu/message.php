@@ -73,6 +73,7 @@ $string['emailtagline'] = 'Zuretzat "{$a->sitename}"-ra bidalitako mezuaren kopi
 $string['enabled'] = 'Gaituta';
 $string['errorcallingprocessor'] = 'Errorea definitutako irteera-prozesatzaileari deitzean';
 $string['errorconversationdoesnotexist'] = 'Elkarrizketa ez da existitzen';
+$string['errormessagetoolong'] = 'Mezua baimendutakoa baino luzeagoa da.';
 $string['errortranslatingdefault'] = 'Errorea pluginak emandako lehenetsitako konfigurazioa itzultzean. Sistemaren ezarpen lehenetsiak erabiliko dira.';
 $string['eventgroupmessagesent'] = 'Talde-mezua bidali da';
 $string['eventmessagecontactadded'] = 'Mezularitza-kontaktua gehitu da';

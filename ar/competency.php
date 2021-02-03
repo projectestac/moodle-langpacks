@@ -45,9 +45,9 @@ $string['enablecompetencies_desc'] = 'الكفاءات تسمح بتقييم ا�
 $string['errorcannotchangeapastduedate'] = 'موعد الاستحقاق قد انقضى؛ لا يمكن تغييره حالياً.';
 $string['errorcannotsetduedateinthepast'] = 'لا يمكن أن يكون تاريخ الاستحقاق في الماضي.';
 $string['errorcannotsetduedatetoosoon'] = 'موعد الاستحقاق قريب جداً.';
-$string['errorcompetencyrule'] = 'قاعدة كفاءة المساق \'{$a}\' مجهولة';
-$string['errorcoursecompetencyrule'] = 'قاعدة كفاءة المساق \'{$a}\' مجهولة';
-$string['errorinvalidcourse'] = 'مساق غير صحيح.';
+$string['errorcompetencyrule'] = 'قاعدة كفاءة المقرر الدراسي \'{$a}\' مجهولة';
+$string['errorcoursecompetencyrule'] = 'قاعدة كفاءة المقرر الدراسي \'{$a}\' مجهولة';
+$string['errorinvalidcourse'] = 'مقرر غير صحيح.';
 $string['errornocompetency'] = 'تعذر العثور على كفاءة \'{$a}\'';
 $string['errorplanstatus'] = 'حالة خطط التعلم \'{$a}\' غير معلومة';
 $string['errorscalealreadyused'] = 'تعذر تغيير المقياس نظراً لكونه قيد الاستعمال حالياً.';
@@ -81,26 +81,26 @@ $string['eventtemplateupdated'] = 'تم تحديث قالب خطة التعلم.
 $string['eventtemplateviewed'] = 'تمت معاينة قالب خطة التعلم.';
 $string['eventusercompetencyplanviewed'] = 'تمت معاينة خطة كفاءة المستخدم.';
 $string['eventusercompetencyrated'] = 'تم تقييم كفاءة المستخدم.';
-$string['eventusercompetencyratedincourse'] = 'تم تقييم كفاءة المستخدم في المساق.';
+$string['eventusercompetencyratedincourse'] = 'تم تقييم كفاءة المستخدم في المقرر الدراسي.';
 $string['eventusercompetencyratedinplan'] = 'تم تقييم كفاءة المستخدم في خطة التعلم.';
 $string['eventusercompetencyreviewrequestcancelled'] = 'تم إلغاء إلتماس مراجعة كفاءة المستخدم.';
 $string['eventusercompetencyreviewrequested'] = 'تم إلتماس مراجعة كفاءة المستخدم.';
 $string['eventusercompetencyreviewstarted'] = 'تمت المباشرة بمراجعة كفاءة المستخدم.';
 $string['eventusercompetencyreviewstopped'] = 'تم التوقف عن مراجعة كفاءة المستخدم.';
 $string['eventusercompetencyviewed'] = 'تمت معاينة كفاءة المستخدم.';
-$string['eventusercompetencyviewedincourse'] = 'تمت معاينة كفاءة المستخدم في المساق.';
+$string['eventusercompetencyviewedincourse'] = 'تمت معاينة كفاءة المستخدم في المقرر الدراسي.';
 $string['eventusercompetencyviewedinplan'] = 'تمت معاينة كفاءة المستخدم في خطة التعلم.';
 $string['eventuserevidencecreated'] = 'تم إنشاء الدليل على التعلم السابق.';
 $string['eventuserevidencedeleted'] = 'تم حذف الدليل على التعلم السابق.';
 $string['eventuserevidenceupdated'] = 'تم تحديث الدليل على التعلم السابق.';
 $string['evidence_competencyrule'] = 'تمت تلبية قاعدة الكفاءة.';
-$string['evidence_coursecompleted'] = 'تم إكمال المساق \'{$a}\'.';
+$string['evidence_coursecompleted'] = 'تم إكمال المقرر الدراسي \'{$a}\'.';
 $string['evidence_coursemodulecompleted'] = 'تم إكمال النشاط \'{$a}\'.';
-$string['evidence_courserestored'] = 'تمت استعادة التقييم مع المساق \'{$a}\'.';
+$string['evidence_courserestored'] = 'تمت استعادة التقييم مع المقرر الدراسي \'{$a}\'.';
 $string['evidence_evidenceofpriorlearninglinked'] = 'تم ربط الدليل على التعلم السابق \'{$a}\'.';
 $string['evidence_evidenceofpriorlearningunlinked'] = 'تم فك ارتباط الدليل على التعلم السابق \'{$a}\'.';
 $string['evidence_manualoverride'] = 'تقييم الكفاءة تم وضعه يدوياً.';
-$string['evidence_manualoverrideincourse'] = 'تقييم الكفاءة تم وضعه يدوياً للمساق \'{$a}\'.';
+$string['evidence_manualoverrideincourse'] = 'تقييم الكفاءة تم وضعه يدوياً للمقرر \'{$a}\'.';
 $string['evidence_manualoverrideinplan'] = 'تقييم الكفاءة تم وضعه يدوياً لخطة التعلم \'{$a}\'.';
 $string['invalidevidencedesc'] = 'وصف الدليل غير صحيح.';
 $string['invalidgrade'] = 'تقييم غير صحيح.';
@@ -119,8 +119,8 @@ $string['privacy:evidence:action:complete'] = 'أكمل الكفاءة إن كا
 $string['privacy:evidence:action:log'] = 'إجراء سجل التوثيق';
 $string['privacy:evidence:action:override'] = 'تجاوز تقييم الكفاءة';
 $string['privacy:metadata:competency'] = 'سِجل عن الكفاءات';
-$string['privacy:metadata:competency_coursecomp'] = 'سِجل عن الكفاءات المرتبطة بمساق';
-$string['privacy:metadata:competency_coursecompsetting'] = 'سِجل عن إعدادات الكفاءة في مساق';
+$string['privacy:metadata:competency_coursecomp'] = 'سِجل عن الكفاءات المرتبطة بمقرر';
+$string['privacy:metadata:competency_coursecompsetting'] = 'سِجل عن إعدادات الكفاءة في مقرر دراسي';
 $string['privacy:metadata:competency_evidence'] = 'سِجل عن الدليل المؤثر على حالة الكفاءة';
 $string['privacy:metadata:competency_framework'] = 'سِجل عن إطار عمل الكفاءة';
 $string['privacy:metadata:competency_modulecomp'] = 'سِجل عن الكفاءات المرتبطة بوحدة';
@@ -131,7 +131,7 @@ $string['privacy:metadata:competency_template'] = 'سِجل عن قوالب خط
 $string['privacy:metadata:competency_templatecohort'] = 'سِجل عن الأفواج ذات الصلة بقالب خطة التعلم';
 $string['privacy:metadata:competency_templatecomp'] = 'سِجل عن الكفاءات في قالب خطة التعلم';
 $string['privacy:metadata:competency_usercomp'] = 'سِجل عن حالة كفاءات المستخدم';
-$string['privacy:metadata:competency_usercompcourse'] = 'سِجل عن حالة كفاءات المستخدم في مساق';
+$string['privacy:metadata:competency_usercompcourse'] = 'سِجل عن حالة كفاءات المستخدم في مقرر دراسي';
 $string['privacy:metadata:competency_usercompplan'] = 'سِجل عن حالة كفاءات المستخدم في خطة تعلم';
 $string['privacy:metadata:competency_userevidence'] = 'سِجل عن الدليل على التعلم السابق';
 $string['privacy:metadata:competency_userevidencecomp'] = 'سِجل عن الكفاءات ذات الصلة بالدليل على التعلم السابق';
@@ -164,8 +164,8 @@ $string['privacy:metadata:usermodified'] = 'المستخدم الذي أنشأ �
 $string['privacy:path:plans'] = 'خطط التعلم';
 $string['privacy:path:relatedtome'] = 'عائد لي';
 $string['privacy:path:userevidence'] = 'الدليل على التعلم السابق';
-$string['pushcourseratingstouserplans'] = 'أقحِم تقييمات المساق في خطط التعلم الفردي';
-$string['pushcourseratingstouserplans_desc'] = 'القيمة الافتراضية في إعدادات المساق لتحديث خطط التعلم الفردي عند تقييم كفاءات المساق';
+$string['pushcourseratingstouserplans'] = 'أقحِم تقييمات المقرر الدراسي في خطط التعلم الفردي';
+$string['pushcourseratingstouserplans_desc'] = 'القيمة الافتراضية في إعدادات المقرر الدراسي لتحديث خطط التعلم الفردي عند تقييم كفاءات المقرر الدراسي';
 $string['syncplanscohorts'] = 'مزامنة الخطط من أفواج قالب خطة التعلم';
 $string['taxonomy_behaviour'] = 'سلوك';
 $string['taxonomy_competency'] = 'كفاءة';

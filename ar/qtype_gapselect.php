@@ -44,7 +44,7 @@ $string['pluginnameadding'] = 'إضافة سؤال اختيار الكلمات �
 $string['pluginnameediting'] = 'تحرير سؤال تحديد الكلمات المفقودة';
 $string['pluginnamesummary'] = 'يتم ملء الكلمات المفقودة في نص السؤال باستخدام القوائم المنسدلة.';
 $string['privacy:metadata'] = 'لا يخزن مكون Select missing words أي بيانات شخصية.';
-$string['shuffle'] = 'خلط';
+$string['shuffle'] = 'الخلط';
 $string['tagsnotallowed'] = '{$a->tag} غير مسموح به.
 (فقط {$a->allowed}  مسموح به.)';
 $string['tagsnotallowedatall'] = '{$a->tag} غير مسموح به.

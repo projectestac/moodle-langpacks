@@ -31,24 +31,24 @@ $string['activitycloses'] = 'Activiteit sluit';
 $string['activitygrade'] = 'Activiteitscijfer';
 $string['activityopens'] = 'Activiteit opent';
 $string['added'] = 'Toegevoegd';
-$string['addquizchain'] = 'Voeg een ketting testen toe';
-$string['addquizchain_help'] = 'Moeten alle activiteiten in een testenketting toegevoegd worden?
+$string['addquizchain'] = 'Voeg een reeks testen toe';
+$string['addquizchain_help'] = 'Moeten alle activiteiten in een testenreeks toegevoegd worden?
 
 **Nee**
 : slechts één test zal aan de cursus toegevoegd worden.
 
 **Ja**
-: als het bronbestand een **testbestand** is, dan wordt het behandeld als de start van een testenketting en alle testen in de ketting zullen met dezelfde instellingen toegevoegd worden aan de cursus. Elke test moet een link hebben naar het volgende bestand in de ketting.
+: als het bronbestand een **testbestand** is, dan wordt het behandeld als de start van een testenreeks en alle testen in de reeks zullen met dezelfde instellingen toegevoegd worden aan de cursus. Elke test moet een link hebben naar het volgende bestand in de reeks.
 
-Als het bronbestand een **map** is, dan zullen alle herkenbare testen in de map toegevoegd worden aan de cursus om een testenketting te vormen met identieke instellingen.
+Als het bronbestand een **map** is, dan zullen alle herkenbare testen in de map toegevoegd worden aan de cursus om een testenreeks te vormen met identieke instellingen.
 
-Als het bronbestand een **unit file** is, zoals een Hot Potatoes masher bestand of index.html, dan zullen te testen die opgelijst zijn in het unit-bestand toegevoegd worden aan de cursus als een testenketting met identieke instellingen.';
+Als het bronbestand een **unit file** is, zoals een Hot Potatoes masher bestand of index.html, dan zullen te testen die in de lijst staan in het unit-bestand toegevoegd worden aan de cursus als een testenreeks met identieke instellingen.';
 $string['allowpaste'] = 'Sta plakken toe';
 $string['allowpaste_help'] = 'Als deze instelling is geactiveerd, kunnen studenten tekst kopiëren, plakken en slepen naar tekst-input-boxen.';
-$string['allowreview'] = 'Herbekijken toestaan';
-$string['allowreview_help'] = 'Indien ingeschakeld kunnen leerlingen hun testen herbekijken nadat ze gesloten zijn.';
+$string['allowreview'] = 'Opnieuw bekijken toestaan';
+$string['allowreview_help'] = 'Indien ingeschakeld kunnen leerlingen hun testen opnieuw bekijken nadat ze gesloten zijn.';
 $string['analysisreport'] = 'Itemanalyse';
-$string['attempted'] = 'Gepoogd';
+$string['attempted'] = 'Geprobeerd';
 $string['attemptlimit'] = 'Limiet aantal pogingen';
 $string['attemptlimit_help'] = 'Het maximale aantal pogingen die een leerling mag proberen met deze HotPot-activiteit.';
 $string['attemptnumber'] = 'Pogingnummer';
@@ -65,7 +65,7 @@ $string['bodystylesmargin'] = 'Linker- en rechtermarge';
 $string['cacherecords'] = 'HotPot cache records';
 $string['canrestarthotpot'] = 'Jouw resultaten tot nu toe worden bewaard en je kunt "{$a}" later opnieuw beginnen';
 $string['canresumehotpot'] = 'Jouw resultaten tot nu toe worden bewaard en je kunt "{$a}" later verder gaan';
-$string['checks'] = 'controles';
+$string['checks'] = 'Controles';
 $string['checksomeboxes'] = 'Zet vinkjes';
 $string['clearcache'] = 'HotPot cache leegmaken';
 $string['cleardetails'] = 'HotPot-details verwijderen';
@@ -396,8 +396,13 @@ $string['pressoktocontinue'] = 'Klik OK om verder te gaan of Annuleer om op de h
 $string['questionshort'] = 'Vr-{$a}';
 $string['quizname_help'] = 'helptekst voor Test naam';
 $string['quizzes'] = 'Testen';
+$string['responses'] = 'Antwoorden';
 $string['responsesreport'] = 'Antwoorden';
-$string['score'] = 'cijfer';
+$string['reviewafterattempt'] = 'Sta opnieuw bekijken toe na een poging';
+$string['reviewafterclose'] = 'Sta opnieuw bekijken toe nadat HotPot gesloten is';
+$string['reviewduringattempt'] = 'Sta opnieuw bekijken toe tijdens een poging';
+$string['reviewoptions'] = 'Opties voor het opnieuw bekijken';
+$string['score'] = 'Cijfer';
 $string['scoresreport'] = 'Cijfers';
 $string['selectattempts'] = 'Selecteer pogingen';
 $string['showerrormessage'] = 'HotPot-fout: {$a}';

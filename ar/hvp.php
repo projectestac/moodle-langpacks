@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['additionalinfo'] = 'معلومات إضافية';
+$string['additionallicenseinfo'] = 'أي معلومات إضافية عن الرخصة';
 $string['ccpdd'] = 'توجه المجال العام (CC0)';
 $string['ccpdm'] = 'علامة المجال العام (PDM)';
 $string['contentchanged'] = 'لقد تغير هذا المحتوى منذ آخر استعمالك له.';
@@ -57,7 +59,7 @@ $string['modulenameplural'] = 'محتوى تفاعلي';
 $string['nocontent'] = 'تعذر العثور على ملف content.json أو تحليله';
 $string['nocontenttype'] = 'لم يتم تحديد نوع المحتوى.';
 $string['nocopyright'] = 'لا توجد معلومات الحقوق الفكرية لهذا المحتوى.';
-$string['noh5ps'] = 'لا يوجد هناك محتوى تفاعلي في هذا المساق.';
+$string['noh5ps'] = 'لا يوجد هناك محتوى تفاعلي في هذا المقرر الدراسي.';
 $string['nojson'] = 'ملف h5p.json الرئيسي غير صالح';
 $string['noparse'] = 'تعذر تحليل ملف h5p.json الرئيسي';
 $string['nopermissiontosavecontentuserdata'] = 'ليست لديك صلاحية حفظ بيانات مستخدم المحتوى.';
@@ -72,16 +74,18 @@ $string['pdm'] = 'علامة المجال العام';
 $string['privacy:metadata:core_files'] = 'يخزن نشاط H5P الملفات التي تم رفعها كجزء من محتوى H5P';
 $string['privacy:metadata:core_grades'] = 'يخزن نشاط H5P علامات المستخدمين الذين أجابوا على محتوى H5P';
 $string['privacy:metadata:hvp_events:content_title'] = 'عنوان المحتوى';
+$string['privacy:metadata:hvp_xapi_results:additionals'] = 'معلومات إضافية يمكن إرسال H5P فيها.';
 $string['privacy:metadata:hvp_xapi_results:correct_responses_pattern'] = 'نمط الإجابة الصحيحة';
 $string['privacy:metadata:hvp_xapi_results:max_score'] = 'أقصى درجة ممكن تحقيقها للحدث';
 $string['privacy:metadata:hvp_xapi_results:raw_score'] = 'الدرجة الممكن تحقيقها للحدث';
 $string['question'] = 'السؤال';
 $string['reportingquestionsremaininglabel'] = 'الأسئلة المتبقية لوضع علاماتها';
-$string['reportingscaledscorelabel'] = 'درجة سجل العلامات:';
+$string['reportingscaledscorelabel'] = 'درجة سجل التقديرات:';
 $string['reportingscorelabel'] = 'الدرجة:';
 $string['reportnotsupported'] = 'غير مدعوم';
 $string['reusedescription'] = 'إعادة استعمال المحتوى.';
 $string['score'] = 'الدرجة';
+$string['sendusagestatistics'] = 'مشارَكة إحصائيات الاستعمال';
 $string['sitekey'] = 'مفتاح الموقع';
 $string['sitekeydescription'] = 'مفتاح الموقع هو رمز سري فريد لتمييز هذا الموقع بالنسبة إلى المركز الرئيسي.';
 $string['upgradedone'] = 'لقد قمت بترقية عينة/عينات محتوى {$a} بنجاح.';

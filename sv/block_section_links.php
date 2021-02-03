@@ -26,11 +26,17 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['incby1'] = 'Öka med';
-$string['incby2'] = 'Alternativ ökning med';
-$string['jumptocurrenttopic'] = 'Hoppa till aktuellt &auml;mne';
+$string['incby1_help'] = 'Detta är det värde som avsnittet ökas varje gång en avsnittslänk visas, med början på 1.';
+$string['incby2'] = 'Öka alternativt med';
+$string['incby2_help'] = 'Detta är det värde som avsnittet ökas varje gång en avsnittslänk visas, med början på 1.';
+$string['jumptocurrenttopic'] = 'Hoppa till aktuellt ämne';
 $string['jumptocurrentweek'] = 'Hoppa till aktuell vecka';
 $string['numsections1'] = 'Antal sektioner';
+$string['numsections1_help'] = 'När antalet avsnitt i kursen når detta antal används \'Öka med\'-värdet.';
 $string['numsections2'] = 'Alternativt antal sektioner';
-$string['pluginname'] = 'Länkar till sektioner';
+$string['numsections2_help'] = 'När antalet avsnitt i kursen når detta antal används \'Öka alternativt med\'-värdet.';
+$string['pluginname'] = 'Sektionslänkar';
+$string['privacy:metadata'] = 'Blocket Sektionslänkar visar enbart data som lagrats på andra platser.';
+$string['section_links:addinstance'] = 'Lägg till nytt Sektionslänkar-block';
 $string['topics'] = 'Ämnen';
 $string['weeks'] = 'Veckor';

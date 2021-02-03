@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['mysessions'] = 'Aktiva sessioner';
 $string['navigationlink'] = 'Webbläsarsessioner';
+$string['thissession'] = 'Nuvarande session';

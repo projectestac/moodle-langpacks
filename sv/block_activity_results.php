@@ -25,8 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['bestgrade'] = 'Det h&ouml;gsta betyget:';
-$string['bestgrades'] = 'Det {$a} h&ouml;gsta betygen:';
+$string['activity_results:addinstance'] = 'Lägg till nytt Aktivitetsresultat-block';
+$string['bestgrade'] = 'Det högsta betyget:';
+$string['bestgrades'] = 'De {$a} högsta betygen:';
 $string['bestgroupgrade'] = 'Gruppen med högst genomsnitt:';
 $string['bestgroupgrades'] = 'De {$a} grupperna med högst genomsnitt:';
 $string['config_decimalplaces'] = 'Antal decimaler att visa';
@@ -64,7 +65,7 @@ $string['notyetgraded'] = 'Ännu ej bedömd';
 $string['pluginname'] = 'Resultat från aktiviteter';
 $string['privacy:metadata'] = 'I aktivitetsresultatblocket visas endast data som lagras på andra platser.';
 $string['unknown'] = 'Okänd skala';
-$string['worstgrade'] = 'Det l&auml;gsta betyget/omd&ouml;met:';
-$string['worstgrades'] = 'De {$a} l&auml;gsta betygen/omd&ouml;mena:';
+$string['worstgrade'] = 'Det lägsta betyget:';
+$string['worstgrades'] = 'De {$a} lägsta betygen:';
 $string['worstgroupgrade'] = 'Gruppen med lägst genomsnitt:';
 $string['worstgroupgrades'] = 'De {$a} grupperna med lägst genomsnitt:';

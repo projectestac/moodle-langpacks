@@ -25,4 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['coresubsystem'] = 'Subsystem ({$a})';
+$string['all'] = 'Alla komponenter';
+$string['component'] = 'Komponent';
+$string['coresubsystem'] = 'Undersystem ({$a})';
+$string['documentation'] = 'Dokumentation';
+$string['example'] = 'Exempel';
+$string['noresults'] = 'Inga resultat';
+$string['notemplateselected'] = 'Ingen mall vald';
+$string['pluginname'] = 'Mallbibliotek';
+$string['privacy:metadata'] = 'Pluginmodulen Mallbibliotek lagrar ingen personlig information.';
+$string['search'] = 'Sök';
+$string['searchtemplates'] = 'Sök mallar';
+$string['templatehasnoexample'] = 'Den här mallen har inget exempelkontext, så den kan inte visas här. Om du vill lägga till ett exempelkontext i den här mallen, infoga i en <em>Mustaschkommentar</em> "Exempelkontext (json):", följt av den json-kodade exempelkontexten för mallen.';
+$string['templates'] = 'Mallar';
+$string['templateselected'] = 'Mall: {$a}';

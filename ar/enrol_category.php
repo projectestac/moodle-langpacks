@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['category:config'] = 'تهيئة عينات الانضمام إلى التصنيفات';
-$string['category:synchronised'] = 'تعيينات الأدوار المزامَنة مع الانضمام إلى المساق';
+$string['category:synchronised'] = 'تعيينات الأدوار المزامَنة مع الانضمام إلى المقرر الدراسي';
 $string['enrolcategorysynctask'] = 'مهمة مزامنة الانضمام إلى التصنيفات';
 $string['pluginname'] = 'الانضمامات إلى التصنيف';
 $string['pluginname_desc'] = 'يقوم ملحق الانضمام إلى التصنيف بمزامنة أي أدوار معينة ضمن سياق التصنيف مع الأدوار التي تمتلك الإمكانية enrol/category:synchronised.';

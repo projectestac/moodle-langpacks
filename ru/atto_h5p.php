@@ -29,6 +29,7 @@ $string['browserepositories'] = 'Обзор репозиториев ...';
 $string['copyrightbutton'] = 'Кнопка авторских прав';
 $string['downloadbutton'] = 'Разрешить скачивание';
 $string['either'] = 'Либо';
+$string['embedbutton'] = 'Кнопка «Вставить»';
 $string['enterurl'] = 'URL или встроенный код';
 $string['h5p:addembed'] = 'Добавлять встроенный H5P';
 $string['h5pfile'] = 'Загрузка файла H5P';

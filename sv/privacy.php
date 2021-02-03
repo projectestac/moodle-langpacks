@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['navigation'] = 'Navigering';
 $string['privacy:subsystem:empty'] = 'Detta subsystem lagrar ingen information.';

@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['acceptandaddcontact'] = '수락하고 연락처에 추가';
 $string['addcontact'] = '연락 추가';
+$string['addcontactconfirm'] = '연락처에 {$a}을(를) 추가 하시겠습니까?';
 $string['addtoyourcontacts'] = '연락처에 추가';
 $string['ago'] = '{$a} 이전';
 $string['allusers'] = '모든 사용자들로부터의 모든 쪽지';
@@ -106,7 +107,10 @@ $string['sendmessagetopopup'] = '{$a} 에게 쪽지 보내기 - 새 창';
 $string['settings'] = '설정';
 $string['touserdoesntexist'] = '존재하지 않은 사용자 아이디 ({$a}) 에게 메세지를 전달할 수 없습니다.';
 $string['unblockcontact'] = '차단되지 않은 연락처';
+$string['unblockuserconfirm'] = '{$a} 차단을 해제하시겠습니까?';
 $string['unreadmessages'] = '읽지않은 쪽지 ({$a}) ';
 $string['unreadnewmessage'] = '{$a} 에게서 온 새 쪽지';
 $string['userisblockingyou'] = '이 사용자는 쪽지 수신을 거부했음';
 $string['userisblockingyounoncontact'] = '{$a}는 자신의 연락처에 있는 사람들로부터만 메세지를 받습니다.';
+$string['userwouldliketocontactyou'] = '{$a}이(가) 연락을 원합니다';
+$string['yourcontactrequestpending'] = '연락 요청이 {$a}에 대기 중 입니다.';

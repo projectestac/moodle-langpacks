@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['field101'] = 'العلوم الطبيعية والفيزيائية';
 $string['field10101'] = 'العلوم الرياضية';
 $string['field1010101'] = 'الرياضيات';
-$string['field1010103'] = 'إحصاء';
+$string['field1010103'] = 'الإحصائيات';
 $string['field1010199'] = 'العلوم الرياضية (أخرى)';
 $string['field10103'] = 'الفيزياء وعلم الفلك';
 $string['field1010301'] = 'الفيزياء';

@@ -35,6 +35,6 @@ $string['getreport'] = 'Bericht aufrufen';
 $string['intro'] = 'Der Bericht zeigt für ein einzelnes Recht, welche Erlaubnisse sich in allen Rollen (oder in einer Rollenauswahl) daraus ergeben und wo überall das Recht geändert wurde.';
 $string['pluginname'] = 'Rechteübersicht';
 $string['privacy:metadata'] = 'Das Plugin für den Berechtigungsüberblick speichert keine personenbezogenen Daten';
-$string['reportforcapability'] = 'Übersicht für das Recht \'{$a}\':';
+$string['reportforcapability'] = 'Übersicht für das Recht \'{$a}\'';
 $string['reportsettings'] = 'Einstellungen';
 $string['roleslabel'] = 'Rollen:';

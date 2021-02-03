@@ -68,7 +68,7 @@ $string['cannot_delete'] = 'Não pode apagar a configuração desta ferramenta';
 $string['cannot_edit'] = 'Não pode editar a configuração desta ferramenta';
 $string['capabilities'] = 'Permissões';
 $string['capabilities_help'] = 'Selecione as permissões que pretende disponibilizar ao fornecedor da ferramenta. Podem ser selecionadas mais do que uma permissão.';
-$string['capabilitiesrequired'] = 'Esta ferramenta requer acesso aos seguintes dados, para que possa ser ativada:';
+$string['capabilitiesrequired'] = 'Para que possa ser ativada, esta ferramenta requer acesso aos seguintes dados:';
 $string['cleanaccesstokens'] = 'Remoção de tokens de acesso expirados da ferramenta externa';
 $string['click_to_continue'] = '<a href="{$a->link}" target="_top">Clique para continuar</a>';
 $string['clientidadmin'] = 'ID do cliente';
@@ -314,21 +314,18 @@ $string['parameter'] = 'Parâmetros da ferramenta';
 $string['parameter_help'] = 'Os parâmetros da ferramenta são configurações que requerem a aprovação do fornecedor da ferramenta LTI no proxy de ferramenta aceite.';
 $string['password'] = 'Senha partilhada';
 $string['password_admin'] = 'Senha partilhada';
-$string['password_admin_help'] = 'A senha partilhada pode ser visto como uma senha usada para autenticar o acesso à ferramenta. Esta deve ser dada
+$string['password_admin_help'] = 'A senha partilhada pode ser vista como uma senha usada para autenticar o acesso à ferramenta. Esta deve ser fornecida juntamente com a chave do consumidor pelo fornecedor de ferramenta.
+
+Ferramentas que não requerem comunicação segura desde o Moodle e não fornecem serviços adicionais (tais como relatórios de notas) podem não requerer uma senha partilhada.';
+$string['password_help'] = 'Para ferramentas pré-configuradas não é necessário inserir uma senha partilhada aqui, sendo fornecida no processo de configuração.
+
+Este campo deve ser preenchido caso pretenda criar uma hiperligação para um fornecedor de ferramenta que ainda não está configurado.
+Se o fornecedor de ferramenta for para ser usado mais que uma vez nesta disciplina, é recomendado adicionar uma configuração da ferramenta na disciplina.
+
+A senha partilhada pode ser pensada como uma senha usada para autenticar o acesso à ferramenta. Deve ser fornecida
 juntamente com a chave do consumidor pelo fornecedor de ferramenta.
 
-Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de nota)
-podem não requerer uma senha partilhada.';
-$string['password_help'] = 'Para ferramentas pré-configuradas, não é necessário inserir uma senha partilhada aqui, sendo dada no processo de configuração.
-
-Este campo deve ser preenchido se desejar criar uma hiperligação para um fornecedor de ferramenta que não está já configurado.
-Se o fornecedor de ferramenta for para ser usada mais que uma vez nesta disciplina, adicionar uma configuração de disciplina à ferramenta é uma boa ideia.
-
-A senha partilhada pode ser pensada como uma senha usada para autenticar o acesso à ferramenta. Deve ser fornecido
-juntamente com a chave do consumidor pelo fornecedor de ferramenta.
-
-Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de nota)
-podem não requerer uma senha partilhada.';
+Ferramentas que não requerem comunicação segura desde o Moodle e não fornecem serviços adicionais (tais como relatórios de notas) podem não requerer uma senha partilhada.';
 $string['pending'] = 'Pendente';
 $string['pluginadministration'] = 'Administração da Ferramenta externa';
 $string['pluginname'] = 'Ferramenta externa';
@@ -383,24 +380,22 @@ $string['rejected'] = 'Rejeitado';
 $string['resource'] = 'Recurso';
 $string['resourcekey'] = 'Chave do consumidor';
 $string['resourcekey_admin'] = 'Chave do consumidor';
-$string['resourcekey_admin_help'] = 'A chave do consumidor é um nome de utilizador usado para a autenticação no acesso á ferramenta. Pode ser usada pelo fornecedor da ferramenta para identificar exclusivamente o site Moodle a partir do qual os utilizadores arranca,m a ferramenta.
-A chave do consumidor deve ser dada pelo fornecedor de ferramenta. O método de obtenção de uma chave do consumidor varia entre os fornecedores de ferramentas. Pode ser um processo automatizado, ou pode requerer um diálogo com o fornecedor.
+$string['resourcekey_admin_help'] = 'A chave do consumidor é um nome de utilizador usado para a autenticação no acesso à ferramenta. Pode ser usada pelo fornecedor da ferramenta para identificar exclusivamente o site Moodle a partir do qual os utilizadores iniciaram a ferramenta.
 
-Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de nota)
-podem não requerer uma chave.';
-$string['resourcekey_help'] = 'Para ferramentas pré-configuradas, não é necessário inserir uma chave do recurso, tal como a chave do consumidor que são dadas no processo de configuração.
+A chave do consumidor deve ser fornecida pelo fornecedor de ferramenta. O método de obtenção de uma chave do consumidor varia entre os fornecedores de ferramenta. Pode ser um processo automatizado ou pode requerer conversação com o fornecedor de ferramenta.
 
-Este campo deve ser preenchido se desejar criar uma hiperligação para um fornecedor de ferramenta que não está já configurado.
-Se o fornecedor de ferramenta for para ser usada mais que uma vez nesta disciplina, adicionar uma configuração de disciplina à ferramenta é uma boa ideia.
+Ferramentas que não requerem comunicação segura desde o Moodle e não fornecem serviços adicionais (tais como relatórios de notas) podem não requerer uma chave.';
+$string['resourcekey_help'] = 'Para ferramentas pré-configuradas não é necessário inserir uma chave do recurso, tal como a chave do consumidor que são fornecidas no processo de configuração.
 
-A chave do consumidor pode ser pensado como um nome utilizado para autenticar o acesso à ferramenta.
-Ele pode ser usado pelo prestador de ferramenta para identificar exclusivamente o site Moodle a partir do qual os utilizadores arrancaram a ferramenta.
+Este campo deve ser preenchido caso pretenda criar uma hiperligação para um fornecedor de ferramenta que ainda não está configurado.
+Se o fornecedor de ferramenta for para ser usado mais que uma vez nesta disciplina, é recomendado adicionar uma configuração da ferramenta na disciplina.
 
-A chave consumidor deve ser fornecido pelo fornecedor de ferramenta. O método de obtenção de uma chave do consumidor varia entre
-provedores de ferramentas. Pode ser um processo automatizado, ou pode requerer um diálogo com o fornecedor de ferramenta.
+A chave do consumidor pode ser pensada como um nome de utilizador para autenticar o acesso à ferramenta.
+Pode ser usado pelo fornecedor de ferramenta para identificar exclusivamente o site Moodle a partir do qual os utilizadores iniciaram a ferramenta.
 
-Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de nota)
-podem não requerer uma chave.';
+A chave do consumidor deve ser fornecida pelo fornecedor de ferramenta. O método de obtenção de uma chave do consumidor varia de fornecedor para fornecedor de ferramenta. Pode ser um processo automatizado ou pode requerer conversação com o fornecedor de ferramenta.
+
+Ferramentas que não requerem comunicação segura desde o Moodle e não fornecem serviços adicionais (tais como relatórios de notas) podem não requerer uma chave.';
 $string['resourceurl'] = 'URL do recurso';
 $string['return_to_course'] = 'Clique <a href="{$a->link}" target="_top">aqui</a> para voltar à disciplina.';
 $string['saveallfeedback'] = 'Guardar todas as alterações';

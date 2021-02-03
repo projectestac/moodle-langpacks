@@ -25,5 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['category:config'] = 'Konfigurera kategoriregistreringsinstanser';
+$string['category:synchronised'] = 'Rolltilldelningar synkroniserade med kursregistrering';
 $string['enrolcategorysynctask'] = 'Synkronisera kursregistreringar via kategori';
 $string['pluginname'] = 'Kategoriregistreringar';
+$string['pluginname_desc'] = 'Pluginmodulen Kategoriregistrering synkroniserar eventuella rolltilldelningar i kategorikontexten för roller med funktionsbehörigheten <code> enrol/category:synchronised</code>.';
+$string['privacy:metadata'] = 'Pluginmodulen Kategoriregistrering lagrar ingen personlig information.';

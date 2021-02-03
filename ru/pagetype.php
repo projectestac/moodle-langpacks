@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['page-admin-current'] = 'Текущая страница сайта';
-$string['page-admin-x'] = 'Любая страница сайта';
+$string['page-admin-current'] = 'Текущая страница администрирования сайта';
+$string['page-admin-x'] = 'Любая страница администрирования сайта';
 $string['page-course-index'] = 'Страница просмотра верхней категории';
 $string['page-course-index-category'] = 'Страница просмотра текущей категории';
 $string['page-course-index-x'] = 'Страница просмотра любой категории';

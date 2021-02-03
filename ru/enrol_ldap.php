@@ -117,7 +117,7 @@ $string['role_mapping_key'] = 'Карта ролей из LDAP';
 $string['roles'] = 'Сопоставление роли';
 $string['server_settings'] = 'Параметры сервера LDAP';
 $string['synccourserole'] = '== Синхронизация курса «{$a->idnumber}» для роли «{$a->role_shortname}»';
-$string['syncenrolmentstask'] = 'Задача синхронизировать регистрацию';
+$string['syncenrolmentstask'] = 'Синхронизации зачисления из LDAP';
 $string['template'] = 'Дополнительно: автоматически создаваемые курсы могут копировать свои настройки из шаблона курса';
 $string['template_key'] = 'Шаблон';
 $string['unassignrole'] = 'Отмена назначения роли «{$a->role_shortname}» пользователя «{$a->user_username}» из курса «{$a->course_shortname}» (ID {$a->course_id})';

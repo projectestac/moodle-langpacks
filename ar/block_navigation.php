@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['courseactivities'] = 'التصنيفات، المساقات، وأنشطة المساقات';
+$string['courseactivities'] = 'التصنيفات، المقررات الدراسية، وأنشطة المقررات الدراسية';
 $string['courses'] = 'الفئات، المقررات الدراسية';
 $string['coursestructures'] = 'الفئات، المقررات الدراسية، وتراكيب المقرر الدراسي';
 $string['enabledockdesc'] = 'إسمح للمستخدم بإرساء هذه الكتلة';
@@ -33,7 +33,7 @@ $string['everything'] = 'كُلّ شيء';
 $string['expansionlimit'] = 'التنقل العام لما يأتي';
 $string['linkcategoriesdesc'] = 'أعرض التصنيفات كروابط';
 $string['navigation:addinstance'] = 'إضافة كتلة جديدة للتنقل';
-$string['navigation:myaddinstance'] = 'إضافة كتلة جديدة للتنقل إلى دفة القيادة';
+$string['navigation:myaddinstance'] = 'إضافة كتلة جديدة للتنقل إلى لوحة التحكم';
 $string['pluginname'] = 'التنقل';
 $string['privacy:metadata'] = 'كتلة التنقل تعرض فقط البيانات المخزونة في مواضع أخرى.';
 $string['trimlength'] = 'عدد الحروف الذي يتم القطع عنده';

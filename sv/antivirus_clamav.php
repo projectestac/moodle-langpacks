@@ -26,5 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['clamfailed'] = 'Det gick inte att köra Clam AV. Felmeddelandet var {$a}. Här är felbeskrivningen:';
+$string['configclamactlikevirus'] = 'Betrakta filer som virus';
+$string['configclamdonothing'] = 'Betrakta filer som OK';
 $string['invalidpathtoclam'] = 'Moodle är inställt så att clam ska köras när någon laddar upp filer men den sökväg som är angiven för Clam AV, {$a}, är inte giltig.';
+$string['pathtoclam'] = 'Kommandorad';
+$string['pluginname'] = 'ClamAV Antivirus';
+$string['privacy:metadata'] = 'Pluginmodulen ClamAV lagrar ingen personlig information.';
+$string['quarantinedir'] = 'Karantänmapp';
+$string['runningmethodcommandline'] = 'Kommandorad';
 $string['unknownerror'] = 'Det uppstod ett okänt fel med Clam.';

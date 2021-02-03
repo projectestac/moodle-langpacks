@@ -25,9 +25,27 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['log:view'] = 'Visa loggar för kurser';
+$string['allsources'] = 'Alla källor';
+$string['cli'] = 'CLI';
+$string['eventcomponent'] = 'Komponent';
+$string['eventcontext'] = 'Händelsekontext';
+$string['eventloggedas'] = '{$a->realusername} som {$a->asusername}';
+$string['eventorigin'] = 'Ursprung';
+$string['eventrelatedfullnameuser'] = 'Berörd användare';
+$string['eventreportviewed'] = 'Loggrapport visad';
+$string['eventuserreportviewed'] = 'Användarlogg-rapport visad';
+$string['log:view'] = 'Visa kursloggar';
 $string['log:viewtoday'] = 'Visa dagens loggar';
+$string['logsformat'] = 'Loggformat';
+$string['origin'] = 'Källa';
+$string['other'] = 'Övrigt';
+$string['page'] = 'Sida {$a}';
 $string['page-report-log-index'] = 'Kursloggrapport';
 $string['page-report-log-user'] = 'Kursloggrapport användare';
 $string['page-report-log-x'] = 'Valfri loggrapport';
 $string['pluginname'] = 'Loggar';
+$string['privacy:metadata'] = 'Denna plugin lagrar ingen personlig information.';
+$string['restore'] = 'Återställ';
+$string['selectlogreader'] = 'Välj loggläsare';
+$string['web'] = 'Webb';
+$string['ws'] = 'Webbtjänst';

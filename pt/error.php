@@ -475,7 +475,7 @@ $string['orderidnotfound'] = 'ID ordem {$a} não foi encontrado';
 $string['pagenotexist'] = 'Ocorreu um erro pouco frequente (tentativa de acesso a página não existente)';
 $string['pathdoesnotstartslash'] = 'Sem argumentos válidos fornecidos, o caminho não começa com a barra!';
 $string['pleasereport'] = 'Se tiver tempo, diga-nos o que estava a tentar fazer quando ocorreu esse erro:';
-$string['pluginrequirementsnotmet'] = 'O módulo "{$a->pluginname}"  ({$a->pluginversion}) não pôde ser instalado porque requer uma versão mais recente do Moodle (atualmente está a utilizar a versão {$a->currentmoodle}, mas precisa da {$a->requiremoodle}).';
+$string['pluginrequirementsnotmet'] = 'O módulo "{$a->pluginname}" ({$a->pluginversion}) não pôde ser instalado porque requer uma versão mais recente do Moodle (atualmente está a utilizar a versão {$a->currentmoodle} mas é requerida a versão {$a->requiremoodle}).';
 $string['prefixcannotbeempty'] = '<p> Erro: O prefixo da tabela da base de dados não pode estar vazio ({$a}) </p>
  <p> O administrador do site deve corrigir esse problema.</p>';
 $string['prefixtoolong'] = '<p>Erro: O prefixo da tabela da base de dados é muito longo ({$a->dbfamily})</p>

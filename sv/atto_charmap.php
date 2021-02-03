@@ -64,6 +64,7 @@ $string['cedilla'] = 'cedilj';
 $string['centsign'] = 'centsymbol';
 $string['chi'] = 'chi';
 $string['chi_caps'] = 'Chi';
+$string['circumflexaccent'] = 'cirkumflex accent';
 $string['copyrightsign'] = 'copyrightsymbol';
 $string['currencysign'] = 'valutasymbol';
 $string['degreesign'] = 'gradtecken';

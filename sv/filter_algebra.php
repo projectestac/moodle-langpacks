@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filtername'] = 'Notation för algebra';
+$string['algebraicexpression'] = 'Algebraiskt uttryck';
+$string['filtername'] = 'Algebraisk notation';
+$string['privacy:metadata'] = 'Pluginmodulen Algebraisk notation lagrar ingen personlig information.';

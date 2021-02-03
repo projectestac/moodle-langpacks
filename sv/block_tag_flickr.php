@@ -26,16 +26,19 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configtitle'] = 'Titel';
-$string['date-posted-asc'] = 'Datum för publicering Stigande';
-$string['date-posted-desc'] = 'Datum för publicering Fallande';
-$string['date-taken-asc'] = 'Datum för tagning Stigande';
-$string['date-taken-desc'] = 'Darum för tagning Fallande';
+$string['date-posted-asc'] = 'Publiceringsdatum (stigande)';
+$string['date-posted-desc'] = 'Publiceringsdatum (fallande)';
+$string['date-taken-asc'] = 'Tagningsdatum (stigande)';
+$string['date-taken-desc'] = 'Tagningsdatum (fallande)';
 $string['defaulttile'] = 'Flickr';
 $string['getfromphotoset'] = 'Hämta foton från fotouppsättning med ID';
 $string['includerelatedtags'] = 'Ta med relaterade etiketter i förfrågan';
-$string['interestingness-asc'] = 'Intresse Stigande';
-$string['interestingness-desc'] = 'Intresse Fallande';
-$string['numberofphotos'] = 'Antal foton';
+$string['interestingness-asc'] = 'Popularitet (stigande)';
+$string['interestingness-desc'] = 'Popularitet (fallande)';
+$string['numberofphotos'] = 'Antal bilder';
 $string['pluginname'] = 'Flickr';
+$string['privacy:metadata:block_tag_flickr'] = 'Blocket Flickr lagrar ingen personlig information, men det överför användardata från Moodle till fjärrsystemet.';
+$string['privacy:metadata:block_tag_flickr:tags'] = 'Etiketter skickade i CSV-format för att söka efter Flickr-bilder.';
 $string['relevance'] = 'Relevans';
 $string['sortby'] = 'Sortera efter';
+$string['tag_flickr:addinstance'] = 'Lägg till nytt Flickr-block';

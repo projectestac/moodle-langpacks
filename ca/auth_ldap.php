@@ -94,7 +94,7 @@ $string['auth_ldap_version_key'] = 'Versió';
 $string['auth_ldapdescription'] = 'Aquest mètode proporciona autenticació contra un servidor LDAP extern.
 
 Si un nom d\'usuari i una contrasenya són vàlids, Moodle crea una entrada per a un usuari nou a la seva base de dades. Aquest mòdul pot llegir atributs de l\'usuari del LDAP i omplir els camps corresponents de Moodle. En els inicis de sessió successius només es comproven el nom d\'usuari i la contrasenya.';
-$string['auth_ldapextrafields'] = 'Aquests camps són opcionals. Podeu triar d\'omplir alguns camps d\'usuari de Moodle amb informació dels <b>camps LDAP</b> especificats aquí. <p>Si els deixeu en blanc, aleshores s\'utilitzaran valors per defecte.<p>En tot cas, l\'usuari podrà editar tots aquests camps quan es connecti.';
+$string['auth_ldapextrafields'] = 'Aquests camps són opcionals. Podeu triar d\'emplenar prèviament alguns camps d\'usuari del Moodle amb informació dels <b>camps LDAP</b> especificats aquí. <p>Si els deixeu en blanc, no s\'importarà res de l\'LDAP i s\'utilitzaran els valors per defecte.</p><p>En tot cas, l\'usuari podrà editar tots aquests camps després d\'iniciar la sessió.</p>';
 $string['auth_ldapnotinstalled'] = 'No es pot utilitzar l\'autenticació LDAP. El mòdul PHP LDAP no està instal·lat.';
 $string['auth_ntlmsso'] = 'Autenticació única per NTLM';
 $string['auth_ntlmsso_enabled'] = 'Si l\'habiliteu, s\'intentarà l\'autenticació única dins el domini NTLM. <strong>Nota:</strong> per funcionar, requereix una  configuració addicional del servidor web. Veg. <a href="http://docs.moodle.org/en/NTLM_authentication">http://docs.moodle.org/en/NTLM_authentication</a>';

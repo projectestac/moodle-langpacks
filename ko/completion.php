@@ -47,6 +47,7 @@ $string['completion'] = '이수상황 추적';
 $string['completion-alt-auto-enabled'] = '시스템이  항목을 완료한 것으로 표시합니다. 근거 조건: {$a}';
 $string['completion-alt-auto-fail'] = '완료함: {$a} (통과 성적을 획득하지 못함)';
 $string['completion-alt-auto-n'] = '완료하지 못함: {$a}';
+$string['completion-alt-auto-n-override'] = '미이수: {$a-> modname} ({$a-> overrideuser}에 의해 설정됨)';
 $string['completion-alt-auto-pass'] = '완료함: {$a} (통과 성적 획득)';
 $string['completion-alt-auto-y'] = '완료함: {$a}';
 $string['completion-alt-manual-enabled'] = '학생들이 이 항목을  완료한 것으로 수동으로 표시할 수 있습니다: {$a}';

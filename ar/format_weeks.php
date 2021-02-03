@@ -27,14 +27,14 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addsections'] = 'أضف أسابيع';
 $string['automaticenddate'] = 'إحسب تاريخ الانتهاء من عدد المقاطع';
-$string['automaticenddate_help'] = 'عند تمكينه، فتاريخ انتهاء المساق سيتم احتسابه تلقائياً من عدد مقاطعه وتاريخ بدئه.';
+$string['automaticenddate_help'] = 'عند تمكينه، فتاريخ انتهاء المقرر الدراسي سيتم احتسابه تلقائياً من عدد مقاطعه وتاريخ بدئه.';
 $string['currentsection'] = 'هذا الأسبوع';
 $string['deletesection'] = 'حذف أسبوع';
 $string['editsection'] = 'تحرير الأسبوع';
 $string['editsectionname'] = 'تعديل اسم الأسبوع';
 $string['hidefromothers'] = 'إخفاء الأسبوع';
 $string['newsectionname'] = 'الاسم الجديد للأسبوع {$a}';
-$string['page-course-view-weeks'] = 'أي صفحة رئيسية لمساق بالتنسيق الأسبوعي';
+$string['page-course-view-weeks'] = 'أي صفحة رئيسية لمقرر بالتنسيق الأسبوعي';
 $string['page-course-view-weeks-x'] = 'أي صفحة مقرر دراسي في تنسيق الأسابيع';
 $string['pluginname'] = 'التنسيق الأسبوعي';
 $string['privacy:metadata'] = 'إن ملحق التنسيق الأسبوعي لا يخزن أي بيانات شخصية.';

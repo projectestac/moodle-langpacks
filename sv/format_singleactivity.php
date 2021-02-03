@@ -26,7 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activitytype'] = 'Aktivitetstyp';
+$string['activitytype_help'] = 'Välj aktivitet eller resurs att använda i denna kurs';
 $string['defactivitytype'] = 'Standardvärde för aktivitetstyp';
+$string['defactivitytypedesc'] = 'Välj standardaktivitetstypen som används vid skapande av ny kurs';
 $string['erroractivitytype'] = 'Aktivitetstyp är inte konfigurerad i kursinställningarna';
 $string['orphaned'] = 'Föräldralös';
 $string['orphanedwarning'] = 'Dessa aktiviteter kan inte nås av användare!';
+$string['pluginname'] = 'Ensam aktivitet';
+$string['privacy:metadata'] = 'Pluginmodulen Ensam aktivitet lagrar ingen personlig information.';

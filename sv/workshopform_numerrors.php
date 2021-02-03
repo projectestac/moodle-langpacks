@@ -25,13 +25,18 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['configgrade0'] = 'Standardord som beskriver den negativa bedömningen av utvärderingen.';
+$string['configgrade1'] = 'Standardord som beskriver den positiva bedömningen av utvärderingen.';
 $string['dimensioncommentfor'] = 'Kommentar till {$a}';
 $string['dimensiondescription'] = 'Beskrivning';
 $string['dimensiongrade'] = 'Betyg';
 $string['dimensionnumber'] = 'Försäkran {$a}';
 $string['dimensionweight'] = 'Viktning';
+$string['grade0'] = 'Ord för fel';
 $string['grade0default'] = 'Nej';
+$string['grade1'] = 'Ord för rätt';
 $string['grade1default'] = 'Ja';
+$string['grademapping'] = 'Betygstabell';
 $string['maperror'] = 'Det viktade antalet fel är lägre eller lika med';
 $string['mapgrade'] = 'Inlämningens betyg';
 $string['pluginname'] = 'Antal fel';

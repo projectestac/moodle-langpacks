@@ -94,7 +94,7 @@ $string['completionenabled'] = 'Disponível, via configurações de conclusão e
 $string['completionexpected'] = 'Data prevista de conclusão';
 $string['completionexpected_help'] = 'Esta configuração especifica a data em que a atividade deve estar concluída.';
 $string['completionexpecteddesc'] = 'Conclusão prevista em {$a}';
-$string['completionexpectedfor'] = '\'{$a->instancename}\' deve estar concluída';
+$string['completionexpectedfor'] = '{$a->instancename} deve ser concluída';
 $string['completionicons'] = 'Caixas de verificação da conclusão';
 $string['completionicons_help'] = 'Um visto junto ao nome de uma atividade serve para indicar que a atividade está concluída.
 

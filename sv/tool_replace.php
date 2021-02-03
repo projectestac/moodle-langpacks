@@ -26,18 +26,18 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['cannotfit'] = 'Ersättningen är längre än originalet och förkortning är inte tillåtet; kan inte fortsätta.';
-$string['disclaimer'] = 'Jag förstår riskerna med denna åtgärd:';
+$string['disclaimer'] = 'Jag förstår riskerna med denna åtgärd';
 $string['doit'] = 'Ja, gör det!';
 $string['excludedtables'] = 'Flera tabeller uppdateras inte som en del av textersättningen. Dessa inkluderar konfiguration, logg, händelser och sessionstabeller.';
 $string['invalidcharacter'] = 'Ogiltiga tecken hittades i sök- eller ersättningstexten.';
 $string['notifyfinished'] = '...slutförd';
-$string['notifyrebuilding'] = 'Återskapar kurs cache';
-$string['notimplemented'] = 'Tyvärr, denna funktion är implementerad endast för databaser av typ MySQL och PostgreSQL';
-$string['notsupported'] = 'Detta script stöds inte, gör alltid en komplett säkerhetskopia innan du fortsätter!<br />Denna åtgärd kan inte återställas!';
+$string['notifyrebuilding'] = 'Återskapar kurscache...';
+$string['notimplemented'] = 'Denna funktion stöds inte av databasdrivrutinen för din databas.';
+$string['notsupported'] = 'Detta skript bör betraktas som experimentellt. Ändringar som görs kan inte rullas tillbaka. Därför bör en komplett backup göras innan du kör skriptet!';
 $string['pageheader'] = 'Sök och ersätt text i hela databasen';
 $string['pluginname'] = 'DB sök och ersätt';
 $string['privacy:metadata'] = 'DB sök och ersätt-pluginen lagrar inte några personuppgifter.';
-$string['replacewith'] = 'Ersätt med denna sträng:';
+$string['replacewith'] = 'Ersätt med denna sträng';
 $string['replacewithhelp'] = 'vanligtvis ny server-URL';
 $string['searchwholedb'] = 'Sök i hela databasen efter';
 $string['searchwholedbhelp'] = 'vanligtvis föregående server-URL';

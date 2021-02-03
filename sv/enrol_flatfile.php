@@ -25,7 +25,15 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filelockedmail'] = 'Den textfil som Du använder för filbaserade registreringar ({$a}) kan inte tas bort av cronprocessen. Detta innebär vanligtvis att det är något fel med rättigheterna på den. Var snäll och modifiera rättigheterna så att Moodle kan ta bort filen annars kan den komma att bli återkommande bearbetad.';
+$string['encoding'] = 'Filkodning';
+$string['filelockedmail'] = 'Den textfil du använder för filbaserade registreringar ({$a}) kan inte tas bort av cronprocessen. Detta innebär vanligtvis att det är något fel med rättigheterna på den. Vänligen modifiera rättigheterna så att Moodle kan ta bort filen annars kan den komma att bli återkommande bearbetad.';
 $string['filelockedmailsubject'] = 'Viktigt fel: registreringsfilen';
-$string['flatfilesync'] = 'Synkronisera kursregistreringar via flatfil';
-$string['location'] = 'Placering av fil';
+$string['flatfile:manage'] = 'Hantera användaregistreringar manuellt';
+$string['flatfile:unenrol'] = 'Avregistrera användare manuellt från kursen';
+$string['flatfileenrolments'] = 'Filbaserad (CSV) kursregistrering';
+$string['flatfilesync'] = 'Synkronisera filbaserade kursregistreringar';
+$string['location'] = 'Sökväg till fil';
+$string['notifyadmin'] = 'Meddela administratör';
+$string['notifyenrolled'] = 'Meddela registrerade användare';
+$string['pluginname'] = 'Filbaserad (CSV) kursregistrering';
+$string['privacy:metadata:enrol_flatfile'] = 'Pluginmodulen Filbaserad (CSV) kursregistrering kan lagra personlig information i enrol_flatfile-tabellen relaterad till framtida registreringar.';

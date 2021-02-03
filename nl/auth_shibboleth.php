@@ -33,6 +33,7 @@ $string['auth_shib_changepasswordurl'] = 'URL om wachtwoord te wijzigen';
 $string['auth_shib_contact_administrator'] = 'Als je niet geassocieerd bent met de opgegeven organisaties en je hebt toegang nodig tot cursussen op deze server, neem dan contact op met de <a href="mailto:{$a}">Moodle beheerder</a>.';
 $string['auth_shib_convert_data'] = 'Data wijzigings-API';
 $string['auth_shib_convert_data_description'] = 'Je kunt deze API gebruiken om de gegevens die Shibboleth geeft verder aan te passen. Lees <a href="../auth/shibboleth/README.txt" target="_blank">README</a> voor verder instructies.';
+$string['auth_shib_convert_data_filepath_warning'] = 'je kunt een bestand dat zich in de huidige site-gegevensmap ($CFG->dataroot) bevindt, niet gebruiken als de API voor gegevenswijziging.';
 $string['auth_shib_convert_data_warning'] = 'Het bestand bestaat niet of is niet leesbaar voor het webserverproces!';
 $string['auth_shib_idp_list'] = 'Identiteitsproviders';
 $string['auth_shib_idp_list_description'] = 'Geef een lijst met Provider entityID\'s om een gebruiker een loginpagina te laten kiezen.<br /> Op elke lijn moet er een kommagescheiden tuple komen voor entityID van de IdP (zie Shibboleth metadatabestand) en Name of IdP zoals het getoond zal worden in het rolmenu.<br />Als optionele derde parameter kun je de locatie van een Shibboleth sessie initiator geven die gebruikt zal worden in het geval dat jouw Moodleinstallatie deel is van een multifederatie setup.';

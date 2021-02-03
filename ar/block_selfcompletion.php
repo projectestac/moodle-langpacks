@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['alreadyselfcompleted'] = 'لقد سبق وأن أشرت بأنك قد أكملت هذا المساق';
+$string['alreadyselfcompleted'] = 'لقد سبق وأن أشرت بأنك قد أكملت هذا المقرر الدراسي';
 $string['completecourse'] = 'قم بإتمام المقرر الدراسي';
 $string['pluginname'] = 'الإتمام الذاتي';
 $string['privacy:metadata'] = 'كتلة الإكمال الذاتي تظهر فقط البيانات المخزونة في مواضع أخرى.';
 $string['selfcompletion:addinstance'] = 'إضافة كتلة جديدة من الإكمال الذاتي';
-$string['selfcompletionnotenabled'] = 'معايير الإكمال الذاتي لم يتم تمكينها في هذا المساق';
+$string['selfcompletionnotenabled'] = 'معايير الإكمال الذاتي لم يتم تمكينها في هذا المقرر الدراسي';

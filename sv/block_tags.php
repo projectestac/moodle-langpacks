@@ -25,6 +25,19 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configtitle'] = 'Titel på block';
-$string['disabledtags'] = 'Taggar är inaktiverade';
-$string['pluginname'] = 'Rubriker för intressen';
+$string['anycollection'] = 'Valfri';
+$string['anytype'] = 'Alla';
+$string['configtitle'] = 'Blocktitel';
+$string['defaultdisplay'] = 'Visa etiketter';
+$string['disabledtags'] = 'Etiketter inaktiverade';
+$string['pluginname'] = 'Etiketter';
+$string['privacy:metadata'] = 'Blocket Etiketter visa enbart data som lagras på andra platser.';
+$string['recursivecontext'] = 'Inkludera underkontext';
+$string['recursivecontext_help'] = 'Om den är omarkerad kommer etiketter för objekt i det sammanhang som anges ovan att visas, men inte etiketter för objekt i lägre sammanhang. Till exempel kan kursetiketter visas, men inte etiketter för kursaktiviteter.';
+$string['standardonly'] = 'Enbart standard';
+$string['tagcollection'] = 'Etikettsamling';
+$string['tagcollection_help'] = 'Välj etikettsamling att visa etiketter från. Om du väljer "Valfri" visas etiketter från alla samlingar förutom de som markerats med "*"';
+$string['taggeditemscontext'] = 'Kontext för taggade objekt';
+$string['taggeditemscontext_help'] = 'Du kan avgränsa etikettmolnet till att enbart omfatta etiketter i den aktuella kurskategorin, kursen eller modulen.';
+$string['tags:addinstance'] = 'Lägg till nytt etikettsblock';
+$string['tags:myaddinstance'] = 'Lägg till nytt etikettsblock på Mitt Moodle';

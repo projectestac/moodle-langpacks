@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['displaycategories'] = 'عرض التصنيفات';
-$string['displaycategories_help'] = 'إعرض تصنيف المساق ضمن عناصر كتلة المساقات التي تم الوصول إليها مؤخراً.';
-$string['nocourses'] = 'لا مساقات تم الوصول إليها مؤخراً';
-$string['pluginname'] = 'مساقات تم الوصول إليها مؤخراً';
-$string['privacy:metadata'] = 'كتلة المساقات التي تم الوصول إليها مؤخراً لا تخزن أي بيانات شخصية.';
-$string['recentlyaccessedcourses:myaddinstance'] = 'إضافة كتلة جديدة من المساقات التي تم الوصول إليها مؤخراً إلى دفة القيادة';
+$string['displaycategories_help'] = 'إعرض تصنيف المقرر ضمن عناصر كتلة المقررات الدراسية التي تم الوصول إليها مؤخراً.';
+$string['nocourses'] = 'لا مقررات دراسية تم الوصول إليها مؤخراً';
+$string['pluginname'] = 'مقررات دراسية تم الوصول إليها مؤخراً';
+$string['privacy:metadata'] = 'كتلة المقررات الدراسية التي تم الوصول إليها مؤخراً لا تخزن أي بيانات شخصية.';
+$string['recentlyaccessedcourses:myaddinstance'] = 'إضافة كتلة جديدة من المقررات الدراسية التي تم الوصول إليها مؤخراً إلى لوحة التحكم';

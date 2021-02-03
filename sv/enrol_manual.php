@@ -54,11 +54,11 @@ $string['expirymessageenrollerbody'] = 'Registreringen på kursen \'{$a->course}
 För att förlänga deras registrering, gå till  {$a->extendurl}';
 $string['manual:config'] = 'Konfigurera instanser för manuell registrering av användare i kurs';
 $string['manual:enrol'] = 'Lägg till användare';
-$string['manual:manage'] = 'Hantera tilläggning av användare';
+$string['manual:manage'] = 'Hantera användarregistreringar';
 $string['manual:unenrol'] = 'Koppla bort användare från kursen';
 $string['manual:unenrolself'] = 'Koppla bort dig själv från kursen';
 $string['now'] = 'Nu';
-$string['pluginname'] = 'Registrera användare manuellt';
+$string['pluginname'] = 'Manuell registrering';
 $string['selectcohorts'] = 'Välj kohorter';
 $string['selection'] = 'Urval';
 $string['selectusers'] = 'Välj användare';

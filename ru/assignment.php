@@ -52,6 +52,7 @@ $string['privacy:metadata:assignment_submissions:numfiles'] = 'Максимал�
 $string['privacy:metadata:assignment_submissions:submissioncomment'] = 'Комментарий к ответу на задание.';
 $string['privacy:metadata:assignment_submissions:teacher'] = 'ID пользователя - учителя, оценивающего ответ на задание.';
 $string['privacy:metadata:assignment_submissions:timecreated'] = 'Дата и время создания ответа на задание.';
+$string['privacy:metadata:assignment_submissions:timemarked'] = 'Отметка даты / времени подачи ответа на задание.';
 $string['privacy:metadata:assignment_submissions:timemodified'] = 'Дата/время изменения ответа.';
 $string['privacy:metadata:assignment_submissions:userid'] = 'ID пользователя, отправляющего ответ на задание.';
 $string['privacy:metadata:assignmentfilter'] = 'Фильтр предпочтений при ответах на задания.';

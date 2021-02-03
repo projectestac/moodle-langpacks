@@ -43,6 +43,7 @@ $string['default'] = '{$a->mimetype}';
 $string['document/unknown'] = '파일';
 $string['group:video'] = '비디오 파일';
 $string['image'] = '이미지 ({$a->MIMETYPE2})';
+$string['text/csv'] = '쉼표로 구분된 값';
 $string['text/html'] = 'HTML 문서';
 $string['text/plain'] = '텍스트 파일';
 $string['text/rtf'] = 'RTF 문서';

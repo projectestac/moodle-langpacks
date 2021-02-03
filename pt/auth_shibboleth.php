@@ -33,6 +33,7 @@ $string['auth_shib_changepasswordurl'] = 'URL para alteração da senha:';
 $string['auth_shib_contact_administrator'] = 'Caso não esteja associado às organizações indicadas e precise de aceder a uma disciplina neste servidor, por favor, contacte o <a href="mailto:{$a}">Administrador Moodle</a>.';
 $string['auth_shib_convert_data'] = 'API de modificação de dados';
 $string['auth_shib_convert_data_description'] = 'Pode utilizar esta API para modificar os dados provenientes do servidor Shibboleth. Para mais informações, consulte a página <a href="{$a}">README</a>.';
+$string['auth_shib_convert_data_filepath_warning'] = 'Não pode usar um ficheiro que está localizado na diretoria dos dados do site atual ($CFG->dataroot) como a API de modificação de dados.';
 $string['auth_shib_convert_data_warning'] = 'O ficheiro não existe ou não está disponível para leitura pelo processo do servidor web!';
 $string['auth_shib_idp_list'] = 'Fornecedores de identidade';
 $string['auth_shib_idp_list_description'] = 'Indique uma lista de fornecedores de identidade para que os utilizadores possam escolher um ao se autenticar.<br />Em cada linha devem ser indicados, separados por vírgulas, o identificador do fornecedor de identidade (consultar o ficheiro Shibboleth de metadados) e o seu nome (tal como deve ser apresentado aos utilizadores).<br />Opcionalmente pode ainda ser indicada a localização do iniciador de sessão Shibboleth que será usado pelo Moodle caso faça parte de uma federação.';

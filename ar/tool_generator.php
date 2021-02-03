@@ -66,7 +66,7 @@ $string['progress_createcourse'] = 'إنشاء مقرر {$a}';
 $string['progress_createforum'] = 'إنشاء منتدى ({$a} منشورات)';
 $string['progress_createpages'] = 'إنشاء صفحات ({$a})';
 $string['progress_createsmallfiles'] = 'إنشاء ملفات صغيرة ({$a})';
-$string['progress_enrol'] = 'تسجيل المستخدمين في المقرر ({$a})';
+$string['progress_enrol'] = 'ضم المستخدمين إلى المقرر ({$a})';
 $string['progress_sitecompleted'] = 'اكتمل الموقع ({$a} s)';
 $string['shortsize_0'] = 'XS';
 $string['shortsize_1'] = 'S';
@@ -91,10 +91,10 @@ $string['testplanexplanation'] = 'تقوم هذه الأداة بإنشاء مل
 **. تقوم هذه الميزة فقط بإنشاء الملفات لتغذية JMeter ، لذا فهي ليست خطيرة بحد ذاتها ، لكن يجب عليك
 ** NEVER ** تشغيل خطة الاختبار هذه في موقع الإنتاج.';
 $string['testplansize_0'] = 'XS ({$a->users} من المستخدمين ، {$a->loops} وحلقات {$a->rampup}';
-$string['testplansize_1'] = 'S ({$a->users} المستخدمين ، {$a->loops} حلقات و {$a->rampup} فترة';
-$string['testplansize_2'] = 'M ({$a->users} من المستخدمين ، {$a->loops} حلقات و {$a->rampup} فترة';
+$string['testplansize_1'] = 'S ({$a->users} من المستخدمين، {$a->loops} من الجولات و {$a->rampup} فترة التوليد';
+$string['testplansize_2'] = 'M ({$a->users} من المستخدمين، {$a->loops} من الجولات و {$a->rampup} فترة التوليد';
 $string['testplansize_3'] = 'L ({$a->users} المستخدمين ، {$a->loops} وحلقات {$a->rampup}';
-$string['testplansize_4'] = 'XL ({$a->users} المستخدمين ، {$a->loops} حلقات و {$a->rampup} فترة';
+$string['testplansize_4'] = 'XL ({$a->users} من المستخدمين، {$a->loops} من الجولات و {$a->rampup} فترة التوليد';
 $string['testplansize_5'] = 'XXL ({$a->users} من المستخدمين ، {$a->loops} وحلقات {$a->rampup})';
 $string['updateuserspassword'] = 'تحديث كلمة مرور مستخدمي المادة';
 $string['updateuserspassword_help'] = 'يحتاج JMeter إلى تسجيل الدخول كمستخدمين للمادة، يمكنك تعيين كلمة مرور المستخدمين باستخدام $CFG-> tool_generator_users_password في config.php؛ يقوم هذا الإعداد بتحديث كلمة مرور مستخدم المادة وفقًا لـ $CFG-> tool_generator_users_password. قد يكون ذلك مفيدًا إذا كنت تستخدم مادة لم يتم إنشاؤها بواسطة tool_generator أو لم يتم تعيين $CFG-> tool_generator_users_password عند إنشاء دورات الاختبار.';

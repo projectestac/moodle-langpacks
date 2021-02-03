@@ -27,8 +27,13 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addgroup'] = 'Lägg till grupp';
 $string['assignrole'] = 'Tilldela roll';
-$string['cohort:config'] = 'Konfigurera kohorter';
-$string['instanceexists'] = 'Kohorten är redan redan kopplat till markerade rollen';
-$string['pluginname'] = 'Koppla kohort';
-$string['pluginname_desc'] = 'Registrering av kohort kopplar medlemmar i kohorten som kursdeltagare.';
+$string['cohort:config'] = 'Konfigurera kohortinstanser';
+$string['cohort:unenrol'] = 'Avregistrera avstängda användare';
+$string['creategroup'] = 'Ny grupp';
+$string['defaultgroupnametext'] = '{$a->name} kohort {$a->increment}';
+$string['enrolcohortsynctask'] = 'Synkronisera kohortregistreringar';
+$string['instanceexists'] = 'Kohorten är redan synkroniserad med vald roll';
+$string['pluginname'] = 'Kohortregistrering';
+$string['pluginname_desc'] = 'Pluginmodulen Kohortregistrering synkroniserar kohortmedlemmar med kursdeltagare.';
+$string['privacy:metadata:core_group'] = 'Pluginmodulen Kohortregistrering kan skapa en ny grupp eller använda en befintlig grupp för att lägga till alla medlemmar från kohorten.';
 $string['status'] = 'Aktiv';

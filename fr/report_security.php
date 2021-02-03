@@ -105,7 +105,7 @@ $string['check_riskbackup_name'] = 'Sauvegarde des données des utilisateurs.';
 $string['check_riskbackup_ok'] = 'Aucun rôle ne permet explicitement la sauvegarde des données des utilisateurs.';
 $string['check_riskbackup_unassign'] = '<a href="{$a->url}">{$a->fullname} ({$a->email}) dans {$a->contextname}</a>';
 $string['check_riskbackup_warning'] = '{$a->rolecount} rôles, {$a->overridecount} dérogations et {$a->usercount} utilisateurs ont la capacité de sauvegarder les données des utilisateurs.';
-$string['check_riskxss_details'] = '<p>Le terme RISK_XSS assortit toutes les capacités dangereuses qui ne devraient être autorisées que par des utilisateurs fiables.</p><p>Veuillez vérifier la liste d\'utilisateurs ci-dessous et vous assurer que vous leur faites totalement confiance sur ce site :</p><p>{$a}</p>';
+$string['check_riskxss_details'] = '<p>Le terme RISK_XSS assortit toutes les capacités dangereuses qui ne doivent être autorisées que par des utilisateurs fiables.</p><p>Veuillez vérifier la liste d\'utilisateurs ci-dessous et vous assurer que vous leur faites totalement confiance sur ce site :</p><p>{$a}</p>';
 $string['check_riskxss_name'] = 'Utilisateurs XSS fiables';
 $string['check_riskxss_warning'] = 'RISK_XSS, {$a} utilisateurs dont vous devez être sûr.';
 $string['check_unsecuredataroot_details'] = '<p>Le dossier de données ne doit pas être accessible via le web. La meilleure façon de s\'assurer que ce dossier n\'est pas accessible est de le placer en dehors du dossier web public.</p><p>Si vous déplacez ce dossier, vous devrez modifier en conséquence la variable <code>$CFG->dataroot</code> dans votre fichier <code>config.php</code>.</p>';

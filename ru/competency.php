@@ -108,6 +108,7 @@ $string['invalidpersistenterror'] = 'Ошибка: {$a}';
 $string['invalidplan'] = 'Неправильный учебный план';
 $string['invalidtaxonomy'] = 'Неправильная таксономия: {$a}';
 $string['invalidurl'] = 'Проверьте адрес! Он должен начинаться с «http://» или  «https://».';
+$string['nouserplanswithcompetency'] = 'Никакие учебные планы не содержат эту компетенцию.';
 $string['planstatusactive'] = 'Активно';
 $string['planstatuscomplete'] = 'Выполнено';
 $string['planstatusdraft'] = 'Черновик';

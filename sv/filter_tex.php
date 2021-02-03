@@ -26,10 +26,15 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configconvertformat'] = 'Om <i>latex, dvips</i> och <i>konvertera</i> är tillgängliga, visas bilderna skapas med det angivna formatet. Om det inte är aktiverat kommer mimetex att användas och det kommer att skapa GIF-bilder.';
-$string['convertformat'] = '<i>omvandla</i> formatet för output';
-$string['filtername'] = 'TeX notation';
+$string['convertformat'] = 'Bildformat';
+$string['filtername'] = 'TeX-notation';
 $string['latexpreamble'] = 'LaTeX utkast';
 $string['latexsettings'] = 'Inställningar för LaTeX Renderer';
 $string['pathconvert'] = 'Sökväg för <i>convert</i> binär';
 $string['pathdvips'] = 'Sökväg för <i>dvips</i> binär';
+$string['pathdvisvgm'] = 'Sökväg för <i>dvisvgm</i>-fil';
 $string['pathlatex'] = 'Sökväg för <i>latex</i> binär';
+$string['pathmimetex'] = 'Sökväg för <i>mimetex</i>-fil';
+$string['pathmimetexdesc'] = 'Moodle kommer att använda den egna minetex-filen såvida inte en annan sökväg anges.';
+$string['privacy:metadata'] = 'Pluginmodulen TeX-notation lagrar ingen personlig information.';
+$string['source'] = 'TeX-källa';

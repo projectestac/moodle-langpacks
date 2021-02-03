@@ -37,3 +37,4 @@ $string['auth_pop3port_key'] = 'منفذ';
 $string['auth_pop3type'] = 'نوع المزود. إذا كان مزودك يستخدم حماية الشهادة، قم باختيار pop3cert.';
 $string['auth_pop3type_key'] = 'نوع';
 $string['pluginname'] = 'POP3 خادم الـ';
+$string['privacy:metadata'] = 'إن ملحق مصادقة مخدم POP3 لا يخزن أي بيانات شخصية.';

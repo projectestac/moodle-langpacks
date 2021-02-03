@@ -33,6 +33,7 @@ $string['auth_shib_changepasswordurl'] = 'パスワード変更URL';
 $string['auth_shib_contact_administrator'] = 'あなたが組織との関係がなく、このサーバのコースにアクセスする必要がある場合、<a href="mailto:{$a}">Moodle管理者</a>にご連絡ください。';
 $string['auth_shib_convert_data'] = 'データ修正API';
 $string['auth_shib_convert_data_description'] = 'あなたがShibbolethから提供されるデータを修正したい場合、このAPIを使用できます。詳細は<a href="{$a}">README</a>をご覧ください。';
+$string['auth_shib_convert_data_filepath_warning'] = 'あなたは現在のサイトデータディレクトリ ($CFG->dataroot) にあるファイルをデータ修正APIとして使用できません。';
 $string['auth_shib_convert_data_warning'] = 'ファイルが存在しないかウェブサーバプロセスで読み取れません!';
 $string['auth_shib_idp_list'] = 'アイデンティティプロバイダ';
 $string['auth_shib_idp_list_description'] = 'ログインページでユーザが選択できるようアイデンティティプロバイダのエンティティIDリストを入力してください。<br />それぞれの行ではアイデンティティプロバイダのエンティティIDにカンマ区切りのタプル (tuple) を追加してください (詳細はShibbolethメタデータファイルをご覧ください)。アイデンティティプロバイダ名がドロップダウンリストに表示されます。<br />あなたのMoodleが複数フェデレーション設定の一部にある場合、任意の第3パラメータとしてShibbolethセッションイニシエータのロケーションを追加することができます。';

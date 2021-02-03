@@ -26,7 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configlog'] = 'Konfigurationsändringar';
-$string['plugin'] = 'Insticksmodul';
+$string['plugin'] = 'Plugin';
 $string['pluginname'] = 'Konfigurationsändringar';
+$string['privacy:metadata'] = 'Pluginmodulen Konfigurationsändringar lagrar ingen personlig information.';
 $string['setting'] = 'Inställning';
 $string['timemodified'] = 'Datum';

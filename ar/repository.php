@@ -36,8 +36,8 @@ $string['addplugin'] = 'أضف موصل للمخزن';
 $string['allowexternallinks'] = 'اسمح بالروابط الخارجية';
 $string['areacategoryintro'] = 'مقدمة الفتئة';
 $string['areacourseintro'] = 'مقدمة المقرر الدراسي';
-$string['areacourseoverviewfiles'] = 'صورة المساق';
-$string['areamainfile'] = 'الملف الرئيس';
+$string['areacourseoverviewfiles'] = 'صورة المقرر الدراسي';
+$string['areamainfile'] = 'الملف الرئيسي';
 $string['arearoot'] = 'النظام';
 $string['areauserbackup'] = 'الحفظ الاحتياطي الخاص بالمستخدم';
 $string['areauserdraft'] = 'مسودات';
@@ -80,7 +80,7 @@ $string['confirmrenamefolder'] = 'هل أنت متأكد من رغبتك في ن
 $string['continueuninstall'] = 'استمر';
 $string['continueuninstallanddownload'] = 'استمر وقم بالتنزيل';
 $string['copying'] = 'نسخ';
-$string['coursebackup'] = 'المحفوظات الاحتياطية للمساقات';
+$string['coursebackup'] = 'النسخ الاحتياطية للمقررات الدراسية';
 $string['create'] = 'أنشئ';
 $string['createfolder'] = 'إنشاء مجلد';
 $string['createfolderfail'] = 'فشل إنشاء هذا المجلد';
@@ -109,7 +109,7 @@ $string['draftareanofiles'] = 'تعذر تنزيله لعدم إرفاق أي م
 $string['editrepositoryinstance'] = 'تحرير نسخة المخزن';
 $string['emptylist'] = 'قائمة فارغة';
 $string['emptytype'] = 'تعذر إنشاء نوع المستودع؛ اسم النوع فارغ';
-$string['enablecourseinstances'] = 'إسمح للمستخدمين بإضافة عينة مستودع في المساق';
+$string['enablecourseinstances'] = 'إسمح للمستخدمين بإضافة عينة مستودع في المقرر الدراسي';
 $string['enableuserinstances'] = 'إسمح للمستخدمين بإضافة عينة مستودع في سياق المستخدم';
 $string['enter'] = 'ادخل';
 $string['entername'] = 'الرجاء إدخال اسم المجلد';
@@ -143,7 +143,7 @@ $string['imagesize'] = '{$a->width} × {$a->height} بكسل';
 $string['instance'] = 'نسخة';
 $string['instancedeleted'] = 'تم حذف العينة';
 $string['instances'] = 'عينات المستودع';
-$string['instancesforcourses'] = 'العينة/العينات الشائعة على مستوى المساق من {$a}';
+$string['instancesforcourses'] = 'العينة/العينات الشائعة على مستوى المقرر الدراسي من {$a}';
 $string['instancesforsite'] = 'العينة/العينات الشائعة على مستوى الموقع من {$a}';
 $string['instancesforusers'] = 'عينات المستخدم الخاصة من {$a}';
 $string['invalidfiletype'] = 'نوع الملف لـ {$a} لا يمكن قبوله.';
@@ -169,7 +169,7 @@ $string['makefilereference'] = 'أنشئ اسماً مستعاراً/اختصا�
 $string['manage'] = 'إدارة المستودعات';
 $string['manageinstances'] = 'إدارة العينات';
 $string['manageurl'] = 'إدارة';
-$string['manageuserrepository'] = 'أدر مخزن فردي';
+$string['manageuserrepository'] = 'إدارة مستودع فردي';
 $string['missingsourcekey'] = 'مفتاح المصدر مفقود. لا بد من توفير هذا المفتاح أيضاً لاستعادة الملف.';
 $string['moving'] = 'نقل';
 $string['name'] = 'الاسم';
@@ -220,7 +220,7 @@ $string['renameall'] = 'أعد تسمية الكل';
 $string['renameto'] = 'أعد التسمية إلى "{$a}"';
 $string['repositories'] = 'المستودعات';
 $string['repository'] = 'مخزن';
-$string['repositorycourse'] = 'مستودعات المساقات';
+$string['repositorycourse'] = 'مستودعات المقررات الدراسية';
 $string['repositoryerror'] = 'المستودع البعيد أرجع خطأً: {$a}';
 $string['repositoryicon'] = 'إيقونة المستودع';
 $string['save'] = 'حفظ';

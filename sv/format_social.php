@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['numberdiscussions'] = 'Antal diskussioner';
 $string['pluginname'] = 'Gemenskaps- format';
 $string['sectionname'] = 'Sektion';

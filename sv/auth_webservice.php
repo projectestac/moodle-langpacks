@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Autentisering av webbtjänster';
+$string['auth_webservicedescription'] = 'Denna autentiseringsmetod ska användas uteslutande för konton som används av webbtjänstklienter.';
+$string['pluginname'] = 'Webbtjänstautentisering';
+$string['privacy:metadata'] = 'Pluginmodulen Webbtjänstautentisering lagrar ingen personlig information.';

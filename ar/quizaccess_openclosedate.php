@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['notavailable'] = 'عذراً ! هذا الاختبار غير متاح';
-$string['pluginname'] = 'نظام الوصول بتاريخ الفتح و الإغلاق';
+$string['pluginname'] = 'قاعدة الوصول عبر تاريخي الفتح والإغلاق';
 $string['privacy:metadata'] = 'المكون الإضافي Open and close date quiz access rule لا يخزن  أيّ بيانات شخصية.';
 $string['quiznotavailable'] = 'الامتحان لن يكون متاحاً حتى: {$a}';

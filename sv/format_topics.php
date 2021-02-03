@@ -34,6 +34,7 @@ $string['hidefromothers'] = 'Dölj sektion/ämne';
 $string['newsectionname'] = 'Nytt namn för sektion/ämne {$a}';
 $string['page-course-view-topics'] = 'Vilken ingångssida (för kurs) som helst i  ämnesformat';
 $string['pluginname'] = 'Ämnesformat';
+$string['privacy:metadata'] = 'Pluginmodulen Ämnesformat lagrar ingen personlig information.';
 $string['section0name'] = 'Allmänt';
 $string['sectionname'] = 'Ämne';
 $string['showfromothers'] = 'Visa ämne';

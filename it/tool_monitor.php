@@ -73,7 +73,7 @@ $string['messagetemplate_help'] = 'Il messaggio di notifica che sarà inviato ag
 * Nome dell\'evento {eventname}';
 $string['moduleinstance'] = 'Istanza';
 $string['monitor:managerules'] = 'Gestione regole monitoraggio eventi';
-$string['monitor:managetool'] = 'Abilita/disabilita monitoraggio eventi';
+$string['monitor:managetool'] = 'Abilitare/disabilitare monitoraggio eventi';
 $string['monitor:subscribe'] = 'Sottoscrizione regole monitoraggio eventi';
 $string['monitordisabled'] = 'Il monitoraggio eventi è disabilitato.';
 $string['monitorenabled'] = 'Il monitoraggio eventi è abilitato.';

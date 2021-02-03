@@ -34,3 +34,4 @@ $string['auth_imapport_key'] = 'منفذ';
 $string['auth_imaptype'] = 'نوع مزود IMAP . من الممكن لمزودات IMAP أن تكون لديها أنواع مختلفة من التوثيق والتفاوض.';
 $string['auth_imaptype_key'] = 'نوع';
 $string['pluginname'] = 'استخدم مزود IMAP';
+$string['privacy:metadata'] = 'إن ملحق مصادقة مخدم IMAP لا يخزن أي بيانات شخصية.';

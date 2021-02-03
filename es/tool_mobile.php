@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['adodbdebugwarning'] = 'Depuración ADOdb está habilitada. Debería de ser deshabilitada en la configuración del plugin de inscripción por base de datos externa o autenticación de base de datos externa.';
 $string['configmobilecssurl'] = 'Archivo CSS para personalizar su interfaz de aplicaciones móviles.';
 $string['customlangstrings'] = 'Cadenas personalizadas del idioma';
+$string['disabledfeatures'] = 'Características deshabilitadas';
 $string['downloadcourse'] = 'Descargar curso';
 $string['getmoodleonyourmobile'] = 'Descargar la app para dispositivos móviles';
 $string['httpsrequired'] = 'HTTPS requerido';

@@ -184,6 +184,7 @@ $string['configallowusermailcharset'] = 'Si habiliteu aquesta opció, cada usuar
 $string['configallowuserswitchrolestheycantassign'] = 'Per defecte, moodle/role:assign és necessari per als usuaris per canviar rols. Activar aquest paràmetre treu aquest requisit, i això fa que els rols disponibles al menú desplegable «Canvia els rols de» depenguin sols dels paràmetres de la taula «Permet assignació de rols».
 És recomanable que els paràmetres de la taula «Permet l\'assignació de rols» no permetin als usuaris canviar cap a rols amb més capacitats que el que tenen en aqueix moment.';
 $string['configallowuserthemes'] = 'Si habiliteu aquesta opció, els usuaris podran definir els seus temes. Els temes dels usuaris tenen més prioritat sobre el tema del lloc (però no sobre els temes dels cursos).';
+$string['configallowview'] = 'Selecciona quins rols poden veure els usuaris, per quins poden filtrar, etc. basat en els rols que actualment ja tenen.';
 $string['configallusersaresitestudents'] = 'Cal considerar com a estudiants TOTS els usuaris en les activitats de la pàgina inicial d\'aquest lloc? Si la resposta és «Sí», llavors qualsevol usuari amb un compte confirmat podrà participar com a estudiant en aquestes activitats. Si la resposta és «No», llavors només els usuaris que ja siguin membres d\'almenys un curs podran participar en aquestes activitats de la pàgina inicial. Només els administradors i els professors que hi hagin estat assignats poden actuar com a professors d\'aquestes activitats.';
 $string['configauthenticationplugins'] = 'Trieu els connectors d\'autenticació que vulgueu utilitzar i disposeu-los per ordre de preferència.';
 $string['configautolang'] = 'Configura l\'idioma per defecte segons el del navegador. Si inhabiliteu aquest paràmetre s\'utilitzarà l\'idioma per defecte del lloc.';
@@ -194,45 +195,37 @@ $string['configcalendarexportsalt'] = 'Aquest text aleatori és utilitzat per pr
 $string['configcookiehttponly'] = 'Habilita una característica nova del PHP 5.2.0. Es demana als navegadors que només enviïn la galeta amb sol·licituds HTTP reals: els llenguatges script no haurien de tenir accés a les galetes. Tanmateix això no funciona en tots els navegadors i pot no ser compatible amb el codi actual. Ajuda a impedir alguns tipus d\'atacs XSS.';
 $string['configcookiesecure'] = 'Si el servidor només accepta connexions HTTPS, es recomana habilitar l\'enviament de galetes segures. En cas que habiliteu aquest paràmetre, assegureu-vos que el servidor web no accepta http:// o configureu una redirecció permanent a adreces https:// i, idealment, que enviï capçaleres HSTS. Si l\'adreça <em>wwwroot</em> no comença per https:// aquest paràmetre es desactiva automàticament.';
 $string['configcountry'] = 'Si definiu un país aquí, llavors aquest país quedarà seleccionat per defecte en els nous comptes d\'usuari. Si voleu que els usuaris triïn obligatòriament un país, no n\'especifiqueu cap aquí.';
-$string['configcourseoverviewfilesext'] = 'Una llista separada per comes d\'extensions de fitxers permeses per als resums de cursos.';
-$string['configcourseoverviewfileslimit'] = 'El nombre màxim de fitxers que poden adjuntar-se al resum del curs.';
+$string['configcoursegraceperiodafter'] = 'Classifica els cursos acabats com a en progrés durant aquests dies posteriors a la data de finalització del curs.';
+$string['configcoursegraceperiodbefore'] = 'Classifica els cursos futurs com a en progrés durant aquests dies previs a la data d\'inici del curs.';
+$string['configcourseoverviewfilesext'] = 'Una llista separada per comes d\'extensions de fitxers d\'imatges permeses per als resums de cursos.';
+$string['configcourseoverviewfileslimit'] = 'El nombre màxim de fitxers que es poden mostrar al costat del resum del curs a la llista de la pàgina de cursos. El primer fitxer d\'imatge que s\'afegeixi es farà servir com a imatge del curs en el resum dels cursos en el tauler dels usuaris; qualsevol fitxer addicional es mostrarà només a la llista de la pàgina de cursos.';
 $string['configcourserequestnotify'] = 'Escriviu el nom d\'usuari de l\'usuari a qui s\'ha de notificar la sol·licitud d\'un nou curs.';
 $string['configcourserequestnotify2'] = 'Usuaris que seran notificats quan es demani un nou curs. Sols els usuaris que poden aprovar peticions de cursos són aquí.';
 $string['configcoursesperpage'] = 'Introduïu el nombre de cursos que es visualitzaran per pàgina en una llista de cursos.';
 $string['configcourseswithsummarieslimit'] = 'El nombre màxim de cursos que es mostren en una llista de cursos amb resums abans de retornar a la llista simple.';
 $string['configcronclionly'] = 'Si habiliteu aquest paràmetre, la seqüència de cron només podrà executar-se des de la línia d\'ordres i no via web. En aquest cas s\'ignorarà la contrasenya de cron definida al dessota.';
-$string['configcronremotepassword'] = 'La seqüència cron.php no es podrà executar des d\'una interfície web sense proporcionar aquesta contrasenya en un URL d\'aquesta forma:<pre>
-http://www.exemple.com/admin/cron.php?password=sesamobret
-</pre>Si deixeu la contrasenya en blanc, no caldrà utilitzar-ne cap.';
+$string['configcronremotepassword'] = 'Això vol dir que l\'script cron.php no es podrà executar des d\'una interfície web sense proporcionar aquesta contrasenya en un URL d\'aquesta forma:<pre>https://lloc.example.com/admin/cron.php?password=sesamobret</pre>. Si deixeu la contrasenya en blanc, no se\'n demanarà cap.';
 $string['configcurlcache'] = 'Temps de vida per al cau de cURL, en segons.';
-$string['configcustommenuitems'] = 'Podeu preparar un menú personalitzat que es mostrarà per temes. Cada línia consisteix en un text de menú, un enllaç URL (opcional), un consell (opcional) i un codi de llengua o llista de codis separada per comes (opcional, per tal de mostrar-ho només als usuaris d\'aquell idioma), tot això separat per barres verticals. Podeu marcar l\'estructura amb guions, i podeu afegir una línia divisòria afegint una línia amb un o més caràcters #. Per exemple:
+$string['configcustommenuitems'] = 'Aquí podeu preparar un menú personalitzat. Introduïu els elements del menú amb el format següent: Text del menú, un enllaç (opcional, no aplica si es tracta un element principal amb subelements), un consell (opcional) i un codi d\'idioma o llista de codis separats per comes (opcional, serveix per mostrar-lo només als usuaris d\'aquell idioma), tot això separat per barres verticals. Les línies que comencin amb un guió es mostraran com a subelements de l\'element previ de primer nivell. Podeu afegir una línia divisòria amb els caràcters ###. Per exemple:
 <pre>
-Comunitat Moodle|http://moodle.org
--Suport gratuït de Moodle|http://moodle.org/support
+Cursos
+-Tots els cursos|/course/
+-Cerca cursos|/course/search.php
 -###
--Desenvolupament de Moodle|http://moodle.org/development
---Seguiment de Moodle|https://tracker.moodle.org
---Documentació de Moodle|http://docs.moodle.org|Moodle Docs
---Documentació en català de Moodle|http://docs.moodle.org/ca|Documentació|ca
--Novetats de Moodle|http://moodle.org/news
-#####
-Moodle.com|http://moodle.com/
+-PMF|https://algunurl.xyz/pmf
+-Aplicació mòbil|https://algunurl.xyz/app|Descarrega la nostra aplicació
 </pre>';
-$string['configcustomusermenuitems'] = 'Podeu configurar els continguts del menú d\'usuari (tret de l\'enllaç de fi de sessió, que s\'hi afegeix de manera automàtica). Cada línia se separa amb un caràcter de barra vertical | i consisteix en:
-1) una cadena amb la forma «nom de la cadena d\'idioma, nom del component» o com a text net,
-2) un URL  i
-3) una icona, ja sigui indicant el nom de l\'arxiu (que estaria la carpeta pix/t  o a la ruta que s\'indiqui si el nom de la icona comença per ../) o indicant la seva URL.
-Es poden emprar separadors afegint-hi una línia d\'un o més caràcters de coixinet # allà on vulguem.';
+$string['configcustomusermenuitems'] = 'Podeu configurar els continguts del menú d\'usuari (tret de l\'enllaç de fi de sessió, que s\'hi afegeix de manera automàtica). Cada línia se separa amb un caràcter de barra vertical | i consisteix en 1) una cadena amb la forma "nom de la cadena d\'idioma, nom del component" o com a text net, 2) un URL, i 3) una icona, ja sigui indicant el nom del fitxer (que estaria a la carpeta pix amb l\'estructura [nom del subdirectori/nom de la icona], per exemple, i/publish) o indicant el seu URL. Es poden emprar separadors afegint-hi una línia d\'un o més caràcters de coixinet # allà on es vulgui.';
 $string['configdbsessions'] = 'Si habiliteu aquest paràmetre, la base de dades emmagatzemarà la informació de les sessions dels usuaris. Teniu en compte que, si canvieu ara aquest paràmetre, tancareu les sessions de tots els usuaris (la vostra inclosa). Si utilitzeu MySQL, assegureu-vos que el paràmetre «max_allowed_packet» de my.cnf (o my.ini) és, com a mínim, 4M. Altres controladors de sessió es poden configurar directament a config.php; vegeu config-dist.php per a més informació. Aquesta opció desapareix si especifiqueu un controlador de sessió a config.php file.';
 $string['configdebug'] = 'Si activeu aquest paràmetre s\'incrementarà l\'error_reporting del PHP, de manera que es visualitzaran més avisos. Útil només per a desenvolupadors.';
 $string['configdebugdisplay'] = 'Si activeu aquest paràmetre els informes d\'errors s\'inclouran a la pàgina HTML. Això pot ser pràctic, però espatlla l\'XHTML, el Javascript, les galetes i les capçaleres HTTP. Si està desactivat, la sortida s\'enviarà als registres del servidor per facilitar la depuració. El paràmetre del PHP error_log controla a quin registre s\'envia.';
 $string['configdebugpageinfo'] = 'Activeu-lo si voleu presentar informació de la pàgina al peu.';
 $string['configdebugvalidators'] = 'Habiliteu aquesta opció si voleu tenir enllaços a servidors externs de validació a peu de pàgina. Potser us caldrà crear un usuari nou amb nom d\'usuari <em>w3cvalidator</em> i habilitar l\'accés per a visitants. Aquests canvis poden facilitar accessos no autoritzats al servidor, així que és millor no habilitar l\'opció en llocs en producció.';
-$string['configdefaulthomepage'] = 'Això determina la pàgina inicial per als usuaris que han iniciat sessió.';
-$string['configdefaultrequestcategory'] = 'Els cursos sol·licitats per usuaris es col·locaran automàticament en aquesta categoria.';
+$string['configdefaulthomepage'] = 'Això determina el primer enllaç a la navegació per als usuaris que han iniciat sessió.';
+$string['configdefaultrequestcategory'] = 'Els cursos sol·licitats per usuaris amb la capacitat per demanar cursos nous en el context de sistema es col·locaran en aquesta categoria a no ser que puguin triar una categoria diferent.';
 $string['configdefaultrequestedcategory'] = 'Categoria per defecte on es posen els cursos sol·licitats, si s\'aprova la sol·licitud.';
 $string['configdefaultuserroleid'] = 'A tots els usuaris que hagin iniciat sessió se\'ls assignaran les capacitats del rol que especifiqueu aquí, al nivell del lloc, A MÉS A MÉS de qualsevol altre rol que se\'ls hagi assignat. El valor per defecte és el rol d\'usuari autenticat. Fixeu-vos que aquest rol per defecte no entrarà en conflicte amb cap altre rol que tinguin; assegura que tots els usuaris tenen unes capacitats no assignables en el nivell de curs (p. ex.: publicar entrades al seu blog, gestionar el seu calendari propi, etc.).';
-$string['configdeleteincompleteusers'] = 'Després d\'aquest període, se suprimiran els comptes vells que romanguin incomplets.';
+$string['configdeleteincompleteusers'] = 'Després d\'aquest període, s\'esborrarà qualsevol compte que no tingui el nom, els cognoms o l\'adreça electrònica.';
 $string['configdeleteunconfirmed'] = 'Per alguns mètodes d\'autenticació, com l\'autoregistre per correu electrònic, els usuaris han de confirmar el nou compte dins untermini. Després d\'aquest període, els comptes no confirmats es suprimiran.';
 $string['configdenyemailaddresses'] = 'Per refusar les adreces de correu de certs dominis, especifiqueu-les aquí precedides d\'un punt \'.\' . Tots els altres dominis seran acceptats. P. ex. <strong>.hotmail.com .yahoo.com .live.com</strong>';
 $string['configdisableuserimages'] = 'Inhabilita la possibilitat que els usuaris canviïn les seves imatges al perfil.';
@@ -245,7 +238,9 @@ $string['configeditordictionary'] = 'Aquest valor s\'utilitzarà si aspell no t�
 $string['configeditorfontlist'] = 'Seleccioneu els tipus de lletra que haurien d\'aparèixer en la llista desplegable de l\'editor.';
 $string['configemailchangeconfirmation'] = 'Requereix un correu de confirmació quan els usuaris canviïn la seva adreça de correu al perfil.';
 $string['configemailfromvia'] = 'Afegeix la informació de «via» a la secció «De:» del correu sortint. Aquesta informació informa el destinatari d\'on prové el correu alhora que ajuda a impedir que el destinatari respongui accidentalment a adreces de No-resposta.';
+$string['configemailsubjectprefix'] = 'Text que s\'ha de posar de prefix de l\'assumpte de tots els missatges de correu de sortida.';
 $string['configenableactivitychooser'] = 'El selector d\'activitat és un quadre de diàleg amb una breu descripció de cada activitat i recurs. Si està inhabilitat, apareixen dos menús desplegables separats per a recursos i activitats.';
+$string['configenableanalytics'] = 'Els models analítics, com ara "Estudiants en risc d\'abandonar" o "Properes activitats pendents", poden generar prediccions, enviar notificacions d\'introspeccions i oferir accions addicionals, com l\'enviament de missatges als usuaris.';
 $string['configenableblogs'] = 'Aquesta opció proporciona a tots els usuaris del lloc el seu propi blog.';
 $string['configenablecalendarexport'] = 'Habiliteu l\'exportació o subscripció a calendaris.';
 $string['configenablecomments'] = 'Habiliteu els comentaris';
@@ -408,11 +403,19 @@ $string['configvisiblecourses'] = 'Visualitza de la manera normal els cursos en 
 $string['configwarning'] = 'Aneu amb compte amb aquests paràmetres: uns valors incorrectes podrien causar problemes.';
 $string['configyuicomboloading'] = 'Aquesta opció habilita la càrrega de fitxers combinats per les llibreries YUI. Aquest paràmetre hauria d\'estar habilitat en llocs de producció per raons de funcionament òptim.';
 $string['confirmation'] = 'Confirmació';
+$string['confirmcontextlock'] = '{$a->contextname} actualment està descongelat. Congelar-lo farà que sigui de només lectura i evitarà que els usuaris hi puguin fer canvis. Confirmeu que voleu continuar?';
+$string['confirmcontextunlock'] = '{$a->contextname} actualment està congelat. Descongelar-lo permetrà que els usuaris hi facin canvis. Confirmeu que voleu continuar?';
 $string['confirmdeletecomments'] = 'Ara esborrareu comentaris, segur que voleu fer-ho?';
 $string['confirmed'] = 'Confirmat';
+$string['contextlockappliestoadmin'] = 'La congelació del context aplica als administradors';
+$string['contextlockappliestoadmin_desc'] = 'Si està deshabilitat, els administradors seguiran tenint accés d\'escriptura als contextos congelats';
+$string['contextlocking'] = 'Congelació del context';
+$string['contextlocking_desc'] = 'Aquest paràmetre permet que es pugui activar l\'accés de només lectura a categories, cursos, activitats o blocs seleccionats.';
 $string['cookiehttponly'] = 'Només galetes HTTP';
 $string['cookiesecure'] = 'Només galetes segures';
 $string['country'] = 'País per defecte';
+$string['course_customfield'] = 'Camps personalitzats del curs';
+$string['coursecolor'] = 'Color {$a}';
 $string['coursecontact'] = 'Administradors de curs';
 $string['coursecontact_desc'] = 'Aquest paràmetre us permet controlar qui apareix a la descripció dels cursos. Els usuaris que tinguin almenys un d\'aquests rols en un curs apareixeran en la descripció d\'aquest curs.';
 $string['coursegraceperiodafter'] = 'Període de gràcia per cursos passats.';

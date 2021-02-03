@@ -71,7 +71,7 @@ $string['addnewcategory'] = '新しいカテゴリを追加する';
 $string['addnewcourse'] = '新しいコースを追加する';
 $string['addnewuser'] = '新しいユーザを追加する';
 $string['addnousersrecip'] = 'この {$a} にアクセスしていないユーザを取得者リストに追加する';
-$string['addpagehere'] = 'テキストをここに追加する';
+$string['addpagehere'] = 'ここにテキストを追加する';
 $string['addresource'] = 'リソースを追加する ...';
 $string['addresourceoractivity'] = '活動またはリソースを追加する';
 $string['addresourcetosection'] = 'セクション「 {$a} 」にリソースを追加する';
@@ -1076,10 +1076,10 @@ $string['info'] = '情報';
 $string['institution'] = '所属組織';
 $string['instudentview'] = ': 学生モード使用中';
 $string['interests'] = '興味のあること';
-$string['interestslist'] = '興味リスト';
+$string['interestslist'] = '興味のあることリスト';
 $string['interestslist_help'] = 'あなたの興味のあることを1つずつ入力してください。あなたの興味のあることはプロファイルページにタグとして表示されます。';
 $string['invalidemail'] = '無効なメールアドレスです。';
-$string['invalidlogin'] = '不正なログインです、再度ログインしてください。';
+$string['invalidlogin'] = '不正なログインです。再度ログインしてください。';
 $string['invalidusername'] = 'ユーザ名には半角英数小文字 (文字および数字)、アンダースコア (_)、ハイフン (-)、ピリオド (.) またはアットマーク (@) のみ含むことができます。';
 $string['invalidusernameupload'] = '無効なユーザ名です。';
 $string['ip_address'] = 'IPアドレス';
@@ -1131,14 +1131,14 @@ $string['login_failure_logs'] = 'ログイン失敗ログ';
 $string['loginactivity'] = 'ログイン活動';
 $string['loginalready'] = 'あなたはすでにログインしています';
 $string['loginas'] = 'このユーザとしてログインする';
-$string['loginaspasswordexplain'] = '<p>この機能を使用するには特別な「ログインパスワード」を入力する必要があります。<br />パスワードが分からない場合、サーバ管理者にお聞きください。</p>';
+$string['loginaspasswordexplain'] = '<p>この機能を使用するには特別な「ログインパスワード」を入力する必要があります。<br />パスワードが分からない場合、サーバ管理者にお尋ねください。</p>';
 $string['loginguest'] = 'ゲストとしてログインする';
 $string['loginsite'] = 'サイトにログインする';
-$string['loginsteps'] = 'このサイトにフルアクセスするため、あなたは最初にアカウントを作成する必要があります。';
+$string['loginsteps'] = 'このサイトを利用するにはあなたは最初にアカウントを作成する必要があります。';
 $string['loginstepsnone'] = '<p>こんにちは!</p>
-<p>コースを利用するためにはアカウントを開設する必要があります。</p>
+<p>コースを利用するにはあなた自身でアカウントを作成する必要があります。</p>
 <p>あなたに必要なことはこのページのフォームを使用してユーザ名およびパスワードを作成するだけです!</p>
-<p>すでに他の人が同じユーザ名を使用している場合、異なるユーザ名をお試しください。</p>';
+<p>すでに誰か他の人が同じユーザ名を使用している場合、別のユーザ名をお試しください。</p>';
 $string['loginto'] = '{$a} にログインする';
 $string['logout'] = 'ログアウト';
 $string['logoutconfirm'] = '本当にログアウトしてもよろしいですか?';
@@ -1152,7 +1152,7 @@ $string['mailteachers'] = '教師に通知する';
 $string['maincoursepage'] = 'メインコースページ';
 $string['makeafolder'] = 'フォルダを作成する';
 $string['makeavailable'] = '利用可にする';
-$string['makeeditable'] = '「 {$a} 」をサーバ上 (例 apache) で編集可能にした場合、あなたはこのファイルを直接このページで編集することができます。';
+$string['makeeditable'] = '「 {$a} 」をサーバ上 (例 apache) で編集可能にした場合、あなたはこのファイルを直接このページで編集できます。';
 $string['makethismyhome'] = 'これを私のデフォルトホームページにする';
 $string['makeunavailable'] = '利用不可にする';
 $string['manageblocks'] = 'ブロック';
@@ -1170,19 +1170,19 @@ $string['markthistopic'] = 'このトピックを最新トピックとして強�
 $string['matchingsearchandrole'] = '「 {$a->search} 」および「 {$a->role} 」に合致';
 $string['maxareabytesreached'] = 'ファイル (または複数ファイルの合計サイズ) がこのエリアの空き容量を超えています。';
 $string['maxfilesize'] = '新しいファイルの最大サイズ: {$a}';
-$string['maxfilesreached'] = 'あなたはこのアイテムに最大 {$a} 個のファイルを添付することができます。';
+$string['maxfilesreached'] = 'あなたはこのアイテムに最大 {$a} 個のファイルを添付できます。';
 $string['maximumchars'] = '{$a} の最大文字数';
 $string['maximumgrade'] = '最大評点';
 $string['maximumgradex'] = '最大評点: {$a}';
 $string['maximumshort'] = '最大';
 $string['maximumupload'] = '最大アップロードサイズ';
-$string['maximumupload_help'] = 'ここではコース内で学生がアップロードできるファイルの最大サイズを設定します。このサイズは管理者がサイト全体に設定したファイルの最大サイズに制限されます。さらに活動モジュールでこのサイズを制限することが可能です。';
+$string['maximumupload_help'] = 'ここではコース内で学生がアップロードできるファイルの最大サイズを設定します。このサイズは管理者がサイト全体に設定したファイルの最大サイズに制限されます。さらにファイルサイズを制限するため、活動モジュールには最大アップロードサイズ設定もあります。';
 $string['maxnumberweeks'] = 'セクション最大数';
 $string['maxnumberweeks_desc'] = 'ドロップダウンメニューに表示されるセクション数の最大値です (特定のコースフォーマットにのみ適用されます)。';
 $string['maxnumcoursesincombo'] = '<a href="{$a->link}">{$a->numberofcourses} 件のコース</a>を閲覧します。';
 $string['maxsectionslimit'] = 'このコース ({$a}) に許可された最大セクション数を超過したため、新しいセクションを作成することができません。';
 $string['maxsize'] = '最大サイズ: {$a}';
-$string['maxsizeandareasize'] = '新しいファイルの最大サイズ: {$a->size} - 全体の制限: {$a->areasize}';
+$string['maxsizeandareasize'] = '新しいファイルの最大サイズ: {$a->size} / 全体の制限: {$a->areasize}';
 $string['maxsizeandattachments'] = '最大ファイルサイズ: {$a->size} / 最大ファイル数: {$a->attachments}';
 $string['maxsizeandattachmentsandareasize'] = '最大ファイルサイズ: {$a->size} / 最大ファイル数: {$a->attachments} / 最大合計サイズ: {$a->areasize}';
 $string['memberincourse'] = 'コースに属するユーザ';
@@ -1190,7 +1190,7 @@ $string['messagebody'] = 'メッセージ本文';
 $string['messagedselectedcountusersfailed'] = '問題が発生したため、{$a} 件のメッセージが送信されませんでした。';
 $string['messagedselecteduserfailed'] = 'メッセージはユーザ {$a->fullname} に送信されませんでした。';
 $string['messagedselectedusers'] = '選択されたユーザにメッセージが送信されました。同時に受信者リストがリセットされました。';
-$string['messagedselectedusersfailed'] = '選択されたユーザへのメッセージ送信中に問題が発生しました。数名のユーザにはメールが送信されました。';
+$string['messagedselectedusersfailed'] = '選択されたユーザへのメッセージ送信中に問題が発生しました。一部のユーザにはメールが送信されました。';
 $string['messageprovider:asyncbackupnotification'] = '非同期バックアップ/リストア通知';
 $string['messageprovider:availableupdate'] = '利用可能な更新に関する通知';
 $string['messageprovider:backup'] = 'バックアップ通知';
@@ -1206,7 +1206,7 @@ $string['messageprovider:errors_help'] = '管理者が知る必要のある重�
 $string['messageprovider:gradenotifications'] = '評定通知';
 $string['messageprovider:insights'] = '予測モデルから生成された洞察';
 $string['messageprovider:instantmessage'] = 'ユーザ間のパーソナルメッセージ';
-$string['messageprovider:instantmessage_help'] = 'このセクションではこのサイトのほかのユーザからあなた宛に直接メッセージ送信された場合の動作を設定します。';
+$string['messageprovider:instantmessage_help'] = 'このセクションではこのサイトの他のユーザからあなた宛に直接メッセージ送信された場合の動作を設定します。';
 $string['messageprovider:messagecontactrequests'] = 'メッセージコンタクトリクエスト通知';
 $string['messageprovider:notices'] = '小さな問題に関する警告';
 $string['messageprovider:notices_help'] = 'これらは管理者にとって興味深い内容の通知です。';
@@ -1239,9 +1239,9 @@ $string['missingstrings'] = '未翻訳ストリングを確認する';
 $string['missingstudent'] = '何か選択してください。';
 $string['missingsummary'] = '概要が入力されていません。';
 $string['missingteacher'] = '何か選択してください。';
-$string['missingurl'] = 'リンク切れ';
+$string['missingurl'] = 'URLが入力されていません。';
 $string['missingusername'] = 'ユーザ名が入力されていません。';
-$string['moddoesnotsupporttype'] = 'モジュール「 {$a->modname} 」はアップロードタイプ「 {$a->type} 」をサポートしていません。';
+$string['moddoesnotsupporttype'] = 'モジュール「 {$a->modname} 」はタイプ「 {$a->type} 」のアップロードをサポートしていません。';
 $string['modhide'] = '非表示';
 $string['modified'] = '更新日時';
 $string['modshow'] = '表示';
@@ -1256,13 +1256,13 @@ $string['modvisible_help'] = '「利用」に「コースページに表示す�
 $string['modvisiblehiddensection'] = '利用';
 $string['modvisiblehiddensection_help'] = '「利用」に「学生から秘匿する」が設定された場合、非表示活動を閲覧できるパーミッションが割り当てられたユーザのみ活動またはリソースを利用できます (デフォルトでは教師または編集権限のない教師です)。
 
-コースに多くの活動またはリソースが含まれる場合、「利用」を「コースページに表示せずに利用可能にする」に設定することでコースページをシンプルにできます。この場合、ページリソース等のどこかで活動またはリソースへのリンクを提供する必要があります。活動は評定表および他のレポートには一覧表示されます。';
+コースに多くの活動またはリソースが含まれる場合、「利用」を「コースページに表示せずに利用可能にする」に設定してコースページをシンプルにできます。この場合、ページリソース等のどこかで活動またはリソースへのリンクを提供する必要があります。活動は評定表および他のレポートには一覧表示されます。';
 $string['modvisiblewithstealth'] = '利用';
 $string['modvisiblewithstealth_help'] = '「利用」に「コースページに表示する」が設定された場合、学生が活動またはリソースを利用することができます (設定可能なアクセス制限に依存します)。
 
 「利用」に「学生から秘匿する」が設定された場合、非表示活動を閲覧できるパーミッションが割り当てられたユーザのみ活動またはリソースを利用できます (デフォルトでは教師または編集権限のない教師です)。
 
-コースに多くの活動またはリソースが含まれる場合、「利用」を「コースページに表示せずに利用可能にする」に設定することでコースページをシンプルにすることができます。この場合、ページリソース等のどこかで活動またはリソースへのリンクを提供する必要があります。活動は評定表および他のレポートには一覧表示されます。';
+コースに多くの活動またはリソースが含まれる場合、「利用」を「コースページに表示せずに利用可能にする」に設定してコースページをシンプルにできます。この場合、ページリソース等のどこかで活動またはリソースへのリンクを提供する必要があります。活動は評定表および他のレポートには一覧表示されます。';
 $string['month'] = '月';
 $string['months'] = '月';
 $string['moodledocs'] = 'Moodle Docs';
@@ -1290,7 +1290,7 @@ $string['movecontentstoanothercategory'] = 'コンテンツを別のカテゴリ
 $string['movecontenttothetop'] = 'リストのトップ';
 $string['movecoursemodule'] = 'リソースを移動する';
 $string['movecoursesection'] = 'セクションを移動する';
-$string['movecourseto'] = 'コースの移動:';
+$string['movecourseto'] = 'コースを移動する:';
 $string['movedown'] = '下へ';
 $string['movefilestohere'] = 'ファイルをここに移動する';
 $string['movefull'] = '{$a} をこの場所に移動する';
@@ -1317,7 +1317,7 @@ $string['nameforlink'] = 'このリンクを何と呼びますか?';
 $string['nameforpage'] = '名称';
 $string['navigation'] = 'ナビゲーション';
 $string['needed'] = '必要';
-$string['networkdropped'] = 'あなたのインターネット接続が確立していない、または中断されていることを検出しました。<br />接続が回復されるまで、変更が適切に保存されない場合があることに留意してください。';
+$string['networkdropped'] = 'あなたのインターネット接続の未確立または中断を検出しました。<br />あなたの接続が改善するまで変更が適切に保存されない場合があることに留意してください。';
 $string['never'] = 'なし';
 $string['neverdeletelogs'] = 'ログを削除しない';
 $string['new'] = '新規';
@@ -1325,8 +1325,8 @@ $string['newaccount'] = '新しいアカウント';
 $string['newactivityname'] = '活動 {$a} の新しい名称';
 $string['newcourse'] = '新しいコース';
 $string['newpassword'] = '新しいパスワード';
-$string['newpassword_help'] = '新しいパスワードを入力、または現在のパスワードを使用する場合は空白にしてください。';
-$string['newpasswordfromlost'] = '<strong>注意:</strong> 喪失パスワードリカバリ処理の一環として送信される2通のメールの<strong>2番目</strong>に、あなたの<strong>現在のパスワード</strong>が送信されます。この画面を続ける前に、あなたの新しいパスワードが記載されたメールを受信したことを確認してください。';
+$string['newpassword_help'] = '新しいパスワードを入力してください。現在のパスワードを使用する場合は空白にしてください。';
+$string['newpasswordfromlost'] = '<strong>注意:</strong> 喪失パスワードリカバリ処理の一環として送信される2通のメールの<strong>2番目</strong>にあなたの<strong>現在のパスワード</strong>が送信されます。この画面を続ける前にあなたの新しいパスワードが記載されたメールを受信したことを確認してください。';
 $string['newpasswordtext'] = '{$a->firstname} さん
 
 「 {$a->sitename} 」のパスワードリセットおよび仮パスワードの作成が完了しました。
@@ -1336,7 +1336,6 @@ $string['newpasswordtext'] = '{$a->firstname} さん
 パスワード: password: {$a->newpassword}
 
 パスワードを変更する場合は次のページにアクセスしてください:
-
 {$a->link}
 
 ほとんどのメールプログラムではあなたがクリックできる青いリンクとして表示されているはずです。クリックできない場合、あなたのウェブブラウザウィンドウのアドレス欄にアドレスをコピー＆ペーストしてください。
@@ -1345,16 +1344,16 @@ $string['newpasswordtext'] = '{$a->firstname} さん
 {$a->signoff}';
 $string['newpicture'] = '新しい画像';
 $string['newpicture_help'] = '新しい画像を追加するにはイメージ (JPGまたはPNGフォーマット) を閲覧および選択して「プロファイルを更新する」をクリックしてください。イメージは正方形にトリミングおよび100x100ピクセルにリサイズされます。';
-$string['newpictureusernotsetup'] = 'すべての必須プロファイル情報が保存された場合のみプロファイル画像を追加することができます。';
+$string['newpictureusernotsetup'] = 'すべての必須プロファイル情報が保存された場合のみプロファイル画像を追加できます。';
 $string['newsectionname'] = 'セクション {$a} の新しい名称';
 $string['newsitem'] = 'ニュースアイテム';
 $string['newsitems'] = 'アナウンスメント';
 $string['newsitemsnumber'] = 'アナウンスメントの表示件数';
-$string['newsitemsnumber_help'] = 'アナウンスメントフォーラムはコース内に自動的に作成されてデフォルトで購読が強制される特別なフォーラムです。適切なパーミッションを持つユーザ (デフォルトでは教師) のみが投稿できます。
+$string['newsitemsnumber_help'] = 'アナウンスメントフォーラムはコース内に自動作成およびデフォルトで購読強制される特別なフォーラムです。適切なパーミッションを持つユーザ (デフォルトでは教師) のみが投稿できます。
 
-この設定では何件の最近のアナウンスメントが最新アナウンスメントブロック内に表示させるか決定します。
+この設定では何件の最近のアナウンスメントが最新アナウンスメントブロック内に表示されるか決定します。
 
-コース内にアナウンスメントフォーラムが必要ではない場合、ゼロに設定してください。';
+コース内にアナウンスメントフォーラムが必要ではない場合、この設定はゼロにしてください。';
 $string['newuser'] = '新しいユーザ';
 $string['newusernewpasswordsubj'] = '新しいユーザアカウント';
 $string['newusernewpasswordtext'] = '{$a->firstname} さん
@@ -1756,7 +1755,7 @@ $string['search_help'] = 'テキスト中に存在する1つまたはそれ以�
 $string['searchagain'] = '再検索';
 $string['searchbyemail'] = 'メールアドレスで検索する';
 $string['searchbyusername'] = 'ユーザ名で検索する';
-$string['searchcoursecategories'] = '検索カテゴリ';
+$string['searchcoursecategories'] = 'カテゴリを検索する';
 $string['searchcourses'] = 'コースを検索する';
 $string['searchoptions'] = '検索オプション';
 $string['searchresults'] = '検索結果';

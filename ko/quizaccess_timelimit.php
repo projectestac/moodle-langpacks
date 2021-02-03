@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['confirmstart'] = '시도에는  {$a}의 시간 제한이 있습니다. 시작과 동시에 타이머가 작동되고 멈출 수 없습니다. 제한 시간 내에 시도를 완료해야 합니다. 시작하시겠습니까?';
 $string['pluginname'] = '시간 제한 퀴즈 접근 규칙';
 $string['quiztimelimit'] = '시간제한: {$a}';

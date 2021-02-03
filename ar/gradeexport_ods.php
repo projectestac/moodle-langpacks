@@ -30,4 +30,4 @@ $string['ods:publish'] = 'نشر علامات OpenDocument المصدرة';
 $string['ods:view'] = 'استخد تصدير العلامات لـOpenDocument';
 $string['pluginname'] = 'جدول OpenDocument';
 $string['privacy:metadata'] = 'إن ملحق تصدير العلامات بشكل جداول OpenDocument لا يخزن أي بيانات شخصية.';
-$string['timeexported'] = 'آخر ما تم تنزيله من هذا المساق';
+$string['timeexported'] = 'آخر ما تم تنزيله من هذا المقرر الدراسي';

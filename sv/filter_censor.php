@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filtername'] = 'Censur av ord';
+$string['badwords'] = 'shit,fucked,fucker,fuck,dickhead,dick,cockhead,cock,cunt,asshole,arsehole,,bitch,jism,whore,wanker,wank,bastard,dildo,masturbate,orgasm,penis,nigger,pussy,kuk,fitta,neger,blatte,spagge,skäggbarn,svarting,svartskalle,hora,invandrarjävel,negerhora,invandrarhora,blattehora,blattejävel';
+$string['filtername'] = 'Ordcensur';
+$string['privacy:metadata'] = 'Pluginmodulen Ordcensur lagrar ingen personlig data.';

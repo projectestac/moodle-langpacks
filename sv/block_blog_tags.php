@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['blog_tags:addinstance'] = 'Lägg till ett nytt block för etiketter för blogg';
-$string['configtitle'] = 'Blockrubrik för bloggetiketter';
+$string['blog_tags:addinstance'] = 'Lägg till ett nytt block för bloggetiketter';
+$string['configtitle'] = 'Rubrik';
 $string['pluginname'] = 'Bloggetiketter';
+$string['privacy:metadata'] = 'Blocket Bloggetiketter visa enbart data som lagras på andra platser.';

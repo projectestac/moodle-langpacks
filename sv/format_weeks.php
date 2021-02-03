@@ -25,7 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addsections'] = 'Lägg till veckor';
+$string['automaticenddate'] = 'Beräkna slutdatum utifrån antal sektioner';
 $string['currentsection'] = 'Den här veckan';
+$string['deletesection'] = 'Ta bort vecka';
+$string['editsection'] = 'Redigera vecka';
+$string['editsectionname'] = 'Redigera namn';
+$string['hidefromothers'] = 'Dölj vecka';
+$string['newsectionname'] = 'Nytt namn på {$a}';
 $string['page-course-view-weeks'] = 'Vilken ingångssida (för kurs) som helst i  veckoformat';
 $string['pluginname'] = 'Veckoformat';
-$string['sectionname'] = 'vecka';
+$string['section0name'] = 'Allmänt';
+$string['sectionname'] = 'Vecka';
+$string['showfromothers'] = 'Visa vecka';

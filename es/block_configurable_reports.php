@@ -201,6 +201,7 @@ $string['excludedeletedusers'] = 'Excluir usuarios eliminados (sólo para inform
 $string['executeat'] = 'Ejecutarse a';
 $string['executeatinfo'] = 'El CRON de Moodle se ejecutará sobre las consultas SQL a la hora especificada. Una vez cada 24 horas.';
 $string['export_csv'] = 'Exportar en formato CSV';
+$string['export_json'] = 'Exportar en formato JSON';
 $string['export_ods'] = 'Exportar en formato ODS';
 $string['export_xls'] = 'Exportar en formato XLS';
 $string['exportoptions'] = 'Opciones para exportar';

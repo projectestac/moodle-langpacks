@@ -38,6 +38,7 @@ $string['locale'] = 'ar_SA.UTF-8';
 $string['localewin'] = 'Arabic_Saudi Arabia.1256';
 $string['localewincharset'] = 'WINDOWS-1256';
 $string['oldcharset'] = 'WINDOWS-1256';
+$string['parentlanguage'] = '';
 $string['strftimedate'] = '%d %B %Y';
 $string['strftimedatefullshort'] = '%d/%m/%y';
 $string['strftimedatemonthabbr'] = '%d %b %Y';

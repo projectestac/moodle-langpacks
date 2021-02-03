@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addtofavourites'] = 'Пометить этот курс';
 $string['all'] = 'Все (кроме скрытых)';
 $string['allincludinghidden'] = 'Все';
+$string['aria:allcourses'] = 'Все курсы, кроме скрытых';
 $string['aria:allcoursesincludinghidden'] = 'Все курсы';
 $string['aria:favourites'] = 'Показать избранные курсы';
 $string['aria:lastaccessed'] = 'Сортировать курсы по дате последнего посещения';

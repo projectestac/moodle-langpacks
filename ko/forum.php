@@ -113,6 +113,7 @@ $string['couldnotadd'] = '알 수 없는 오류로 인해 게시할 수 없음';
 $string['couldnotdeletereplies'] = '죄송, 사람들이 벌써 답변하였기에 지울 수 없음';
 $string['couldnotupdate'] = '알 수 없는 오류로 인해 업데이트 할 수 없음';
 $string['cutoffdate'] = '최종 마감일';
+$string['cutoffdatereached'] = '게시 시한이 지나 이 포럼에 올릴 수 없습니다.';
 $string['cutoffdatevalidation'] = '최종 마감일은 마감일 보다 먼저일 수 없습니다.';
 $string['delete'] = '삭제';
 $string['deleteddiscussion'] = '토론 주제가 삭제되었음';

@@ -25,20 +25,21 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['acceptedfiletypes'] = 'Разрешенные типы файлов';
 $string['acceptedfiletypes_help'] = 'Принимаемые типы файлов могут быть ограничены путем ввода списка их расширений. При пустом поле разрешены все типы файлов.';
 $string['allowattachments'] = 'Разрешить вложения';
 $string['attachmentsoptional'] = 'Вложения не обязательны';
-$string['attachmentsrequired'] = 'Вложения обязательны';
+$string['attachmentsrequired'] = 'Требуемое число вложений';
 $string['attachmentsrequired_help'] = 'Этот параметр определяет минимальное количество вложений, необходимых для оценивания ответа.';
 $string['formateditor'] = 'HTML-редактор';
 $string['formateditorfilepicker'] = 'HTML-редактор с выбором файлов';
 $string['formatmonospaced'] = 'Обычный текст, моноширинный шрифт';
-$string['formatnoinline'] = 'Нет встроенного текста';
+$string['formatnoinline'] = 'Без области для ввода текста';
 $string['formatplain'] = 'Обычный текст';
 $string['graderinfo'] = 'Информация для оценивающих';
-$string['graderinfoheader'] = 'Информация об оценщике';
+$string['graderinfoheader'] = 'Информация для оценивающего';
 $string['mustattach'] = 'Когда выбрано "Нет встроенного текста" или ответы не являются обязательными, Вы должны разрешить хотя бы одно вложение.';
-$string['mustrequire'] = 'Когда выбрано "Нет встроенного текста" или ответы не являются обязательными, необходимо потребовать хотя бы одно вложение.';
+$string['mustrequire'] = 'Когда выбран режим «Без области для ввода текста» или ответы не являются обязательными, необходимо потребовать хотя бы одно вложение.';
 $string['mustrequirefewer'] = 'Вы не можете требовать больше вложений, чем разрешили.';
 $string['nlines'] = '{$a} строк';
 $string['pluginname'] = 'Эссе';

@@ -87,6 +87,7 @@ $string['field1029901'] = 'Säkerhet (vetenskaper)';
 $string['field1029999'] = 'Informationsteknologi (övriga)';
 $string['field103'] = 'Ingeniörsvetenskap och relaterade teknologier';
 $string['field1030103'] = 'Tryck';
+$string['field1030105'] = 'Textiltillverkning';
 $string['field1030503'] = 'Fordonsmekanik';
 $string['field1030703'] = 'Industriell ekonomi';
 $string['field106'] = 'Hälsa';

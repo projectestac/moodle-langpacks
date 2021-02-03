@@ -25,18 +25,31 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['areabackup'] = 'Arkiv för paket';
+$string['areabackup'] = 'Paketarkiv';
 $string['areacontent'] = 'Innehåll';
 $string['contentheader'] = 'Innehåll';
-$string['deploymenterror'] = 'Fel med innehållspaket!';
+$string['deploymenterror'] = 'Fel i innehållspaket!';
+$string['imscp:addinstance'] = 'Lägg till nytt IMS-innehållspaket';
 $string['imscp:view'] = 'Visa IMS-innehåll';
-$string['keepold'] = 'Arkiverade paket';
-$string['keepoldexplain'] = 'Hur många paket ska paketeras?';
-$string['modulename'] = 'Innehållspaket av typ IMS';
-$string['modulename_help'] = 'Ett innehållspaket av typ IMS gör det möjligt att i kursen visa paket som har skapats i enlighet med specifikationen för paketering av innehåll.';
-$string['modulenameplural'] = 'Innehållspaket av typ IMS';
-$string['navigation'] = 'Navigation';
+$string['indicator:cognitivedepth'] = 'IMS-paket kognitiv';
+$string['indicator:cognitivedepth_help'] = 'Denna indikator baseras på det kognitiva djup som uppnåtts av studenten i en IMS innehållspaket-resurs.';
+$string['indicator:socialbreadth'] = 'IMS-paket social';
+$string['indicator:socialbreadth_help'] = 'Denna indikator baseras på den sociala bredd som uppnåtts av studenten i en IMS innehållspaket-resurs.';
+$string['indicator:socialbreadthdef_help'] = 'Deltagaren har nått denna procentandel av det sociala engagemanget som erbjuds av IMS paket-resurserna under detta analysintervall (Nivåer = Inget deltagande, Deltagaren ensamt)';
+$string['keepold'] = 'Arkivera paket';
+$string['keepoldexplain'] = 'Hur många paket ska arkiveras?';
+$string['modulename'] = 'IMS-innehållspaket';
+$string['modulename_help'] = 'Ett IMS-innehållspaket är en samling filer som är förpackade enligt en överenskommen standard så att de kan återanvändas i olika system. Modulen för IMS-innehållspaket gör det möjligt att överföra sådana innehållspaket som en zip-fil och lägga till dem i en kurs som en resurs.
+
+Innehåll visas vanligtvis över flera sidor, med navigering mellan sidorna. Det finns olika alternativ för att visa innehåll i ett popup-fönster, med en navigeringsmeny eller knappar etc.
+
+Ett IMS-innehållspaket kan användas för att presentera multimediainnehåll och -animeringar.';
+$string['modulenameplural'] = 'IMS-innehållspaket';
+$string['navigation'] = 'Navigering';
 $string['packagefile'] = 'Paketfil';
-$string['pluginadministration'] = 'Administration av IMSCP';
+$string['page-mod-imscp-x'] = 'Modulsida för IMS-innehållspaket';
+$string['pluginadministration'] = 'Administrera IMSCP';
 $string['pluginname'] = 'Innehållspaket av typ IMS';
-$string['toc'] = 'Index över innehåll';
+$string['privacy:metadata'] = 'Pluginmodulen IMS-innehållspaket lagrar ingen personlig information.';
+$string['search:activity'] = 'IMS-innehållspaket - resursinformation';
+$string['toc'] = 'Innehållsförteckning';

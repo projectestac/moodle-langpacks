@@ -25,8 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['completionprogressdetails'] = 'Detaljer kring hur fullföljandet fortskrider';
-$string['criteriagroup'] = 'Kriterier för grupp';
+$string['completionprogressdetails'] = 'Förloppsdetaljer';
+$string['completionstatus:addinstance'] = 'Lägg till nytt Slutförandestatus-block';
+$string['criteriagroup'] = 'Kriteriegrupp';
 $string['firstofsecond'] = '{$a->first} av {$a->second}';
-$string['pluginname'] = 'Status för fullföljande av kurs';
-$string['requirement'] = 'Förhandskrav';
+$string['pluginname'] = 'Kursslutförandestatus';
+$string['privacy:metadata'] = 'Blocket Kursslutförandestatus visar enbart information om kursslutförande och lagrar ingen egen information.';
+$string['requirement'] = 'Krav';
+$string['returntocourse'] = 'Tillbaka till kurs';

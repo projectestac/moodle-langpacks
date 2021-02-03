@@ -525,7 +525,7 @@ $string['postbymailsuccess_html'] = 'Il tuo intervento su "{$a->subject}" è sta
 $string['postbyuser'] = '{$a->post} di {$a->user}';
 $string['postincontext'] = 'Visualizza questo intervento nel contesto';
 $string['postisprivatereply'] = 'Questo intervento è una risposta in privato e non è visibile ad altri utenti.';
-$string['postmailinfolink'] = 'Questa è una copia del messaggio inserito nei forum del del corso {$a->coursename}.
+$string['postmailinfolink'] = 'Questa è una copia del messaggio inserito nel forum del corso {$a->coursename}.
 
 Per rispondere, utilizza il link seguente: {$a->replylink}';
 $string['postmailnow'] = '<p>L\' intervento sarà inviato immediatamente nelle email dei sottoscrittori.</p>';

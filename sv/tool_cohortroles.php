@@ -25,4 +25,31 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['acohortroleassignmentssaved'] = '{$a} kohortrolltilldelningar sparades.';
+$string['assign'] = 'Tilldela';
+$string['assignroletocohort'] = 'Tilldela användarkontext-roller till alla kohortmedlemmar.';
+$string['backgroundsync'] = 'Observera: Nya kohortrolltilldelningar börjar inte gälla omedelbart. Ändringar i rolltilldelningen kommer att göras av en schemalagd aktivitet.';
+$string['cohortroleassignmentnotremoved'] = 'Kohortrolltilldelningen togs inte bort.';
+$string['cohortroleassignmentremoved'] = 'Kohortrolltilldelningen togs bort.';
+$string['cohortroles'] = 'Kohortroller';
+$string['existingcohortroles'] = 'Nuvarande kohortrolltilldelningar';
 $string['managecohortroles'] = 'Hantera kohortroller';
+$string['noassignableroles'] = 'Det finns inga roller som kan tilldelas i användarkontexten. <a href="../../roles/manage.php">Hantera roller</a>';
+$string['nocohortroleassignmentssaved'] = 'Inga kohortrolltilldelningar sparades.';
+$string['onecohortroleassignmentsaved'] = 'En kohortrolltilldelning sparades.';
+$string['pluginname'] = 'Hantera kohortroller';
+$string['privacy:metadata:tool_cohortroles'] = 'Pluginmodulen Hantera kohortroller lagrar ingen personlig information.';
+$string['privacy:metadata:tool_cohortroles:cohortid'] = 'Kohort-ID';
+$string['privacy:metadata:tool_cohortroles:id'] = 'ID för rollmappningsposten';
+$string['privacy:metadata:tool_cohortroles:roleid'] = 'Roll-ID';
+$string['privacy:metadata:tool_cohortroles:timecreated'] = 'Tidpunkt då kohortrollmappningen skapades.';
+$string['privacy:metadata:tool_cohortroles:timemodified'] = 'Tidpunkt då kohortrollmappningen ändrades';
+$string['privacy:metadata:tool_cohortroles:userid'] = 'Användar-ID';
+$string['privacy:metadata:tool_cohortroles:usermodified'] = 'ID för användaren som senast ändrade rollmappningen.';
+$string['removecohortroleassignment'] = 'Ta bort kohortrolltilldelningar';
+$string['removecohortroleassignmentconfirm'] = 'Är du säker på att du vill ta bort denna rolltilldelning? Denna roll kommer tas bort för denna användare i samtliga användarkontext.';
+$string['selectcohorts'] = 'Välj kohorter';
+$string['selectrole'] = 'Välj roll';
+$string['selectusers'] = 'Välj användare att tilldela rollen';
+$string['taskname'] = 'Synkronisera kohortrolltilldelningar';
+$string['thisuserroles'] = 'Roller tilldelade denna användare';

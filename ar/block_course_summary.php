@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['course_summary:addinstance'] = 'إضافة كتلة ملخص المقررالدراسي/الموقع جديدة';
-$string['coursesummary'] = 'ملخص المساق';
+$string['coursesummary'] = 'ملخص المقرر الدراسي';
 $string['pluginname'] = 'ملخص المقررالدراسي/الموقع';
-$string['privacy:metadata'] = 'إن كتلة ملخص المساق/الموقع تظهر فقط معلومات عن المساقات ولا تخزن البيانات بحد ذاتها.';
+$string['privacy:metadata'] = 'إن كتلة ملخص المقرر/الموقع تظهر فقط معلومات عن المقررات الدراسية ولا تخزن البيانات بحد ذاتها.';

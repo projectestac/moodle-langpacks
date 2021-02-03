@@ -27,11 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['encoding'] = 'ترميز الملف';
 $string['expiredaction'] = 'إجراء انتهاء صلاحية الانضمام';
-$string['expiredaction_help'] = 'إختر الإجراء المطلوب اتخاذه عند انتهاء صلاحية انضمامات المستخدمين. لطفاً لاحظ أن بعض بيانات المستخدمين وإعداداتهم ستتم إزالتها من المساق عند إلغاء الانضمام فيه.';
+$string['expiredaction_help'] = 'إختر الإجراء المطلوب اتخاذه عند انتهاء صلاحية انضمامات المستخدمين. لطفاً لاحظ أن بعض بيانات المستخدمين وإعداداتهم ستتم إزالتها من المقرر الدراسي عند إلغاء الانضمام فيه.';
 $string['filelockedmail'] = 'الملف النصي الذي تستعمله للإنشاء الانضمامات المبنية على ملف ({$a}) لا يمكن حذفه من قبل مشغل الوظائف المجدولة. هذا عادة معناه وجود خطأ في صلاحياته. لطفاً، قم بإصلاح الصلاحيات ليتمكن مودل من حذف الملف، أو بخلافه، قد تعاد محاولة معالجته مراراً.';
 $string['filelockedmailsubject'] = 'خطأ هام: ملف الانضمام';
 $string['flatfile:manage'] = 'إدارة انضمامات المستخدمين يدوياً';
-$string['flatfile:unenrol'] = 'إلغاء انضمام المستخدمين في المساق يدوياً';
+$string['flatfile:unenrol'] = 'إلغاء انضمام المستخدمين في المقرر الدراسي يدوياً';
 $string['flatfileenrolments'] = 'انضمامات ملف منبسط بصيغة (CSV)';
 $string['flatfilesync'] = 'مزامنة ملف الانضمامات المنبسط';
 $string['location'] = 'موضع الملف';
@@ -52,7 +52,7 @@ $string['pluginname_desc'] = 'هذه الطريقة ستقوم بالتحقق د
 * operation - add | del
 * role - student | teacher | teacheredit
 * user idnumber - idnumber في جدول المستخدمين NB وليس المُعرَّف
-* course idnumber - idnumber في جدول المساقات NB وليس المُعرَّف
+* course idnumber - idnumber في جدول المقررات الدراسية NB وليس المُعرَّف
 * starttime - start time (بالثواني مقاسة منذ epoch) - إختياري
 * endtime - end time (بالثواني مقاسة منذ epoch) - إختياري
 
@@ -67,7 +67,7 @@ $string['pluginname_desc'] = 'هذه الطريقة ستقوم بالتحقق د
 </pre>';
 $string['privacy:metadata:enrol_flatfile'] = 'إن ملحق الانضمام بالملف المنبسط (CSV) قد يخزن بيانات شخصية تتعلق بالانضمامات المستقبلية في جدول enrol_flatfile.';
 $string['privacy:metadata:enrol_flatfile:action'] = 'إجراء الانضمام المتوقع عند التاريخ المعطى';
-$string['privacy:metadata:enrol_flatfile:courseid'] = 'مُعرَّف المساق الذي يتعلق به الانضمام';
+$string['privacy:metadata:enrol_flatfile:courseid'] = 'مُعرَّف المقرر الذي يتعلق به الانضمام';
 $string['privacy:metadata:enrol_flatfile:roleid'] = 'مُعرَّف الدور الذي سيتم تعيينه أو إلغاء تعيينه';
 $string['privacy:metadata:enrol_flatfile:timeend'] = 'وقت انتهاء الانضمام';
 $string['privacy:metadata:enrol_flatfile:timemodified'] = 'وقت تعديل الانضمام';

@@ -271,11 +271,11 @@ $string['hintn'] = 'Ledtråd {no}';
 $string['hintnoptions'] = 'Alternativ för ledtråd {no}';
 $string['hinttext'] = 'Ledtrådstext';
 $string['howquestionsbehave'] = 'Hur frågor beter sig';
-$string['howquestionsbehave_help'] = 'Elever kan interagera med frågorna i ett test på flera olika sätt. Till exempel vill du kanske att eleverna ska svara på alla frågor och sedan lämna in hela testet innan de får några poäng eller någon återkoppling. Detta motsvarar inställningen \'Uppskjuten återkoppling\'.
+$string['howquestionsbehave_help'] = 'Eleverna kan interagera med frågorna i testet på olika sätt. Du vill kanske vill att eleverna anger ett svar på varje fråga och sedan skickar in hela testet innan något blir betygsatt, eller innan de får återkoppling. I detta fall skulle inställningen vara "Fördröjd återkoppling".
 
-Alternativt vill du att eleverna skickar in varje fråga för sig medan de genomför testet för att de ska få omedelbar återkoppling samt, om de inte svarar rätt, kunna prova att svara igen med sänkt poäng. Detta motsvarar inställningen \'Interaktivt med multipla försök\'.
+Alternativt kan du vilja att studenter skickar in varje fråga efterhand för att få omedelbar återkoppling om de inte svarar rätt. De kan sedan försöka igen, dock med ett poängavdrag. I detta fall skulle inställningen vara "Interaktivt med flera försök".
 
-Dessa två lägen är troligen de mest vanligen använda för frågebeteenden.';
+Detta är förmodligen de två vanligaste inställningarna.';
 $string['idnumber'] = 'ID-nummer';
 $string['idnumber_help'] = 'Om ID-nummer används måste ID-numret vara unikt inom varje frågekategori. Det möjliggör ett annat sätt att identifiera en fråga som ibland är användbar, men kan oftast lämnas tomt.';
 $string['ignorebroken'] = 'Ta inte hänsyn till brutna länkar';

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['check_backup'] = 'Sauvegarde automatique';
-$string['check_backup_comment_disable'] = 'La performance peut être dégradée durant le processus de sauvegarde. Si les sauvegardes automatiques sont activées, elles devraient être planifiées en dehors des heures de pointe.';
+$string['check_backup_comment_disable'] = 'La performance peut être dégradée durant le processus de sauvegarde. Si les sauvegardes automatiques sont activées, elles doivent être planifiées en dehors des heures de pointe.';
 $string['check_backup_comment_enable'] = 'La performance peut être dégradée durant le processus de sauvegarde. Elles doivent être planifiées en dehors des heures de pointe.';
 $string['check_backup_details'] = 'L\'activation des sauvegardes automatiques créera des archives de tous les cours de ce site à l\'heure que vous indiquez.<p>Durant cette opération, des ressources serveur supplémentaires seront utilisées, qui pourraient dégrader la performance.</p>';
 $string['check_cachejs_comment_disable'] = 'Si ce réglage est activé, la performance de chargement des pages est améliorée.';

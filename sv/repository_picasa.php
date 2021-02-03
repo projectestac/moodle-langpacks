@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['clientid'] = 'Klient-ID';
 $string['pluginname'] = 'Picasa webbalbum';
+$string['secret'] = 'Hemlighet';

@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['crontask'] = 'Bakgrundsbearbetning av schemalagd fördelning';
 $string['currentstatus'] = 'Nuvarande status';
 $string['currentstatusexecution'] = 'Status';
 $string['currentstatusexecution1'] = 'Utförd {$a->datetime}';

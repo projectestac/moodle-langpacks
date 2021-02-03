@@ -94,7 +94,7 @@ $string['numbering_help'] = '* Aucun - Les titres des chapitres et sous-chapitre
 * Puces - Les sous-chapitres sont indentés et affichés au moyen de puces
 * Indentations - les sous-chapitres sont indentés dans la table des matières';
 $string['numberingoptions'] = 'Options disponibles pour le format des titres de chapitre';
-$string['numberingoptions_desc'] = 'Sélectionnez les options de numérotation qui devraient être disponibles lors de la création d\'un nouveau livre.';
+$string['numberingoptions_desc'] = 'Options d\'affichage des chapitres et sous-chapitres dans la table des matières';
 $string['page-mod-book-x'] = 'Toute page d\'un livre';
 $string['pluginadministration'] = 'Administration du livre';
 $string['pluginname'] = 'Livre';

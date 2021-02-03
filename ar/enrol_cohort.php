@@ -34,6 +34,6 @@ $string['defaultgroupnametext'] = 'الفوج {$a->name} {$a->increment}';
 $string['enrolcohortsynctask'] = 'مهمة مزامنة الانضمام إلى الفوج';
 $string['instanceexists'] = 'الفوج سبقت مزامنته مع الدور المحدد';
 $string['pluginname'] = 'مزامنة فوج';
-$string['pluginname_desc'] = 'يقوم ملحق الانضمام إلى الفوج بمزامنة أعضاء الفوج مع الانضمامات إلى المساقات.';
+$string['pluginname_desc'] = 'يقوم ملحق الانضمام إلى الفوج بمزامنة أعضاء الفوج مع الانضمامات إلى المقررات الدراسية.';
 $string['privacy:metadata:core_group'] = 'يمكن لملحق الانضمام إلى الفوج إنشاء مجموعة جديدة أو استعمال مجموعة موجودة لإضافة كل أعضاء الفوج.';
 $string['status'] = 'فَعَّال';

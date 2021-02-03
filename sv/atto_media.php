@@ -26,6 +26,13 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['add'] = 'Lägg till';
+$string['addcaptionstrack'] = 'Lägg till titelspår';
+$string['addchapterstrack'] = 'Lägg till kapitelspår';
+$string['adddescriptionstrack'] = 'Lägg till beskrivningsspår';
+$string['addmetadatatrack'] = 'Lägg till metadataspår';
+$string['addsource'] = 'Lägg till alternativ källa';
+$string['addsubtitlestrack'] = 'Lägg till undertext';
+$string['addtrack'] = 'Lägg till spår';
 $string['advancedsettings'] = 'Avancerade inställningar';
 $string['audio'] = 'Ljud';
 $string['autoplay'] = 'Spela upp automatiskt';

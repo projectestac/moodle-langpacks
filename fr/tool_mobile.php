@@ -95,7 +95,7 @@ $string['mobileappenabled'] = 'L\'accès à ce site au moyen de l\'app mobile es
 $string['mobileauthentication'] = 'Authentification mobile';
 $string['mobilecssurl'] = 'CSS';
 $string['mobilefeatures'] = 'Fonctionnalités pour mobiles';
-$string['mobilenotificationsdisabledwarning'] = 'Les notifications mobiles ne sont pas activées. Elles devraient être activées dans les Réglages de notification.';
+$string['mobilenotificationsdisabledwarning'] = 'Les notifications mobiles ne sont pas activées. Elles doivent être activées dans les Réglages de notification.';
 $string['mobilesettings'] = 'Réglages pour mobiles';
 $string['moodleappsportalfeatureswarning'] = 'Certaines fonctionnalités peuvent être restreintes, selon votre abonnement à l\'app Moodle. Pour plus d\'information, visiter le <a href="{$a}" target="_blank">portail des apps Moodle</a>.';
 $string['oauth2identityproviders'] = 'Fournisseurs d\'identité OAuth 2';

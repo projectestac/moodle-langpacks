@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filtername'] = 'Automatisk länkning av namn på aktiviteter';
+$string['filtername'] = 'Automatisk länkning av aktivitetsnamn';
+$string['privacy:metadata'] = 'Pluginmodulen Automatisk länkning av aktivitetsnamn lagrar ingen personlig information.';

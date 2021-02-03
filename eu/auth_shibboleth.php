@@ -33,6 +33,7 @@ $string['auth_shib_changepasswordurl'] = 'Pasahitza aldatzeko URLa';
 $string['auth_shib_contact_administrator'] = 'Zerrendako erakundeekin inolako loturarik ez baduzu eta zerbitzari honetako ikastaro baterako sarbide behar baduzu, mesedez jarri harremanetan guneko <a href="mailto:{$a}">Moodle kudeatzailearekin</a>.';
 $string['auth_shib_convert_data'] = 'Datuen aldaketarako APIa';
 $string['auth_shib_convert_data_description'] = 'API hau aurrerago Shibboleth-ek emandako datuak aldatzeko erabil dezakezu. <a href="{$a}">IRAKUR NAZAZU</a> dokumentua irakurri ezazu argibide gehigarriak ikusteko.';
+$string['auth_shib_convert_data_filepath_warning'] = 'Ezin duzu guneko oraingo datu-direktorioan ($CFG->dataroot) dagoen fitxategi bat datuen aldaketarako API gisa erabili.';
 $string['auth_shib_convert_data_warning'] = 'Fitxategirik ez dago, edo zerbitzariaren prozesuak ezin du irakurri.';
 $string['auth_shib_idp_list'] = 'Nortasun-hornitzaileak';
 $string['auth_shib_idp_list_description'] = 'Sartu erabiltzaileari sarbide-orrian aukeran emateko Identitate-Hornitzaileen entityID-ak.<br />Errenkada bakoitzean komaz banatuta IdP-aren entityID-a (ikusi Shibboleth metadatuen fitxategia) eta IdP-aren izena agertu behar dira menuaren zerrendan erakutsiko diren moduan.<br />Aukerazko hirugarren parametro gisa erabiliko den Shibboleth saioaren abiarazlearen kokapena gehitu dezakezu zure Moodle instalazioa multi-federazio konfigurazio baten parte bada.';

@@ -26,29 +26,51 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['autocreate'] = 'Kurser kan skapas automatiskt om det finns registreringar på en kurs som ännu inte finns i Moodle.';
+$string['autocreate_key'] = 'Skapa automatiskt';
 $string['autocreation_settings'] = 'Inställningar för att skapa kurser automatiskt.';
 $string['bind_dn'] = 'Om Du vill använda "bind"-användare för att söka användare så ska du ange detta här. Någonting i stil med \'cn=ldapuser,ou=public,o=org\'';
 $string['bind_pw'] = 'Lösenord för \'bind\'-användare';
+$string['bind_pw_key'] = 'Lösenord';
 $string['category'] = 'Kategorin för automatiskt skapade kurser';
-$string['contexts'] = 'Sammanhang för LDAP';
+$string['category_key'] = 'Kategori';
+$string['contexts'] = 'LDAP-kontext';
 $string['course_fullname'] = 'Valfritt: LDAP-fält för att hämta det kompletta namnet från';
+$string['course_fullname_key'] = 'Fullständigt namn';
+$string['course_fullname_updateonsync_key'] = 'Uppdatera fullständigt namn';
 $string['course_idnumber'] = 'Karta som visar var den unika identifieraren i LDAP finns, vanligtvis <em>cn</em> or <em>uid</em>. Du rekommenderas att låsa detta  värde om Du använder automatiskt skapande av kurser.';
+$string['course_search_sub_key'] = 'Sök underkontext';
 $string['course_settings'] = 'Inställningar för registrering på kurser';
 $string['course_shortname'] = 'Valfritt: LDAP-fält att hämta kortnamnet från.';
+$string['course_shortname_key'] = 'Kortnamn';
+$string['course_shortname_updateonsync_key'] = 'Uppdatera kortnamn';
 $string['course_summary'] = 'Valfritt: LDAP-fält att hämta sammanfattningen från.';
-$string['editlock'] = 'Låsets värde';
+$string['course_summary_key'] = 'Sammanfattning';
+$string['course_summary_updateonsync_key'] = 'Uppdatera sammanfattning';
+$string['editlock'] = 'Lås värde';
 $string['enrolname'] = 'LDAP';
 $string['explodegroupusertypenotsupported'] = 'ldap_explode_group() stödjer inte vald användartyp: {$a}';
+$string['failed'] = 'Misslyckades!';
 $string['general_options'] = 'Allmänna alternativ';
 $string['host_url'] = 'Ange LDAP-värden i URL-form som \'ldap://ldap.myorg.com/\'
 eller \'ldaps://ldap.myorg.com/\'';
+$string['ldap:manage'] = 'Hantera LDAP-registreringsinstanser';
+$string['ldap_encoding_key'] = 'LDAP-kodning';
 $string['memberattribute'] = 'Attribut för medlem i LDAP';
+$string['nested_groups_key'] = 'Nästlade grupper';
 $string['objectclass'] = 'objectClass som används för att söka kurser. Vanligtvis \'posixGroup\'.';
-$string['pluginname_desc'] = '<p>Du kan använda en LDAP-server för att styra Dina registreringar. Utgångspunkten är att Ditt LDAP-träd innehåller grupper som visar en karta till kurserna och att var och en av dessa grupper/kurser har kartor över medlemsdata som visar vägen till studenterna/eleverna/deltagarna/de lärande</p><p>Utgångspunkten är att kurser är definierade som grupper i LDAP där varje grupp har ett flertal fält för medlemsskap (<em>member</em> eller <em>memberUid</em>) som innehåller en unik identifiering av användaren.</p><p>För att använda LDAP-registrering <strong>måste</strong> Dina användare ha giltiga fält för ID-nummer. LDAP-grupperna måste ha detta ID-nummer i fältet för medlemmar för att man ska kunna registrera en användare på en kurs. Detta kommer i normalfallet att fungera bra om Du redan använder autenticering via LDAP.</p><p>Registreringarna kommer att uppdateras när användaren loggar in. Du kan också köra ett skript för att synkronisera registreringarna. Titta i <em>enrol/ldap/enrol_ldap_sync.php</em>.</p>
+$string['objectclass_key'] = 'Objektklass';
+$string['ok'] = 'OK!';
+$string['pluginname'] = 'LDAP-registreringar';
+$string['pluginname_desc'] = '<p>Du kan använda en LDAP-server för att styra dina registreringar. Utgångspunkten är att ditt LDAP-träd innehåller grupper som visar en karta till kurserna och att var och en av dessa grupper/kurser har kartor över medlemsdata som visar vägen till studenterna</p><p>Utgångspunkten är att kurser är definierade som grupper i LDAP där varje grupp har ett flertal fält för medlemsskap (<em>member</em> eller <em>memberUid</em>) som innehåller en unik identifiering av användaren.</p><p>För att använda LDAP-registrering <strong>måste</strong> dina användare ha giltiga fält för ID-nummer. LDAP-grupperna måste ha detta ID-nummer i fältet för medlemmar för att man ska kunna registrera en användare på en kurs. Detta kommer i normalfallet att fungera bra om du redan använder autentisering via LDAP.</p><p>Registreringarna kommer att uppdateras när användaren loggar in. Du kan också köra ett skript för att synkronisera registreringarna. Titta i <em>enrol/ldap/enrol_ldap_sync.php</em>.</p>
 <p>Denna plugin kan också ställas in så att den automatiskt skapar nya kurser när det dyker upp nya grupper i LDAP.</p>';
-$string['roles'] = 'Kartläggning av roller';
+$string['roles'] = 'Rollmappning';
 $string['server_settings'] = 'Inställningar för LDAP-server';
 $string['syncenrolmentstask'] = 'Synkronisera kursregistreringar via LDAP';
 $string['template'] = 'Valfritt: automatiskt skapade kurser kan kopiera sina inställningar från en kursmall.';
+$string['template_key'] = 'Mall';
 $string['updatelocal'] = 'Uppdatera lokala data';
+$string['user_contexts_key'] = 'Kontext';
+$string['user_search_sub_key'] = 'Sök i underliggande kontext';
+$string['user_type_key'] = 'Användartyp';
 $string['version'] = 'Detta är den version av LDAP-protokollet som DIn server använder.';
+$string['version_key'] = 'Version';

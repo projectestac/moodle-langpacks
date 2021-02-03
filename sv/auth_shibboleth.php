@@ -25,29 +25,35 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['auth_shib_auth_method'] = 'Namn på metoden för autentisering';
-$string['auth_shib_changepasswordurl'] = 'URL  till sida för att ändra lösenord';
+$string['auth_shib_auth_logo'] = 'Logotyp';
+$string['auth_shib_auth_method'] = 'Namn på autentiseringsmetod';
+$string['auth_shib_changepasswordurl'] = 'URL till sida för ändring av lösenord';
 $string['auth_shib_convert_data'] = 'API för modifiering av data';
 $string['auth_shib_convert_data_description'] = 'Du kan använda denna API för fortsatt modifiering av data som kommer via Shibboleth. Läs <a href="../auth/shibboleth/README.txt" target="_blank">README</a> för vidare instruktioner.';
 $string['auth_shib_convert_data_warning'] = 'Filen finns inte eller så kan den inte läsas av webbserver-processen.';
-$string['auth_shib_idp_list'] = 'Leverantörer av identiteter';
+$string['auth_shib_idp_list'] = 'Identitetsleverantörer';
 $string['auth_shib_instructions'] = 'Använd <a href="{$a}">logga in med Shibboleth</a>
  för att få tillgång via Shibboleth om Din institution stödjer det.<br />Annars får Du använda det vanliga formuläret(som visas här) för att logga in';
-$string['auth_shib_instructions_help'] = 'Här bör Du tillhandahålla instruktioner för hur man använder Shibboleth. Detta kommer att visas på sektionen för instruktioner på sidan för att logga in. Detta bör innehålla en länk till "<b>{$a}</b>" så att Shibboleth-användare kan logga in på ett enkelt sätt. Om Du lämnar detta tomt så kommer standardinstruktioner (som inte är Shibboleth-specifika) att användas.';
-$string['auth_shib_integrated_wayf'] = 'Moodle WAYF Service';
-$string['auth_shib_logout_return_url'] = 'Alternativ retur-URL för utloggning';
+$string['auth_shib_instructions_help'] = 'Här bör du ange anpassade instruktioner för dina användare för att förklara Shibboleth. De kommer att visas på inloggningssidan i avsnittet instruktioner. Instruktionerna måste innehålla en länk till "<b>{$a}</b>" som användarna klickar på när de vill logga in.';
+$string['auth_shib_instructions_key'] = 'Inloggningsinstruktioner';
+$string['auth_shib_integrated_wayf'] = 'Moodle WAYF-tjänst';
+$string['auth_shib_integrated_wayf_description'] = 'Om du aktiverar detta kommer Moodle att använda sin egen WAYF-tjänst i stället för den som konfigurerats för Shibboleth. Moodle kommer att visa en listruta på denna alternativa inloggningssida där användaren måste välja sin Identitetsleverantör.';
+$string['auth_shib_logout_return_url'] = 'Alternativ omdirigerings-URL vid utloggning';
+$string['auth_shib_logout_return_url_description'] = 'Ange URL:en som Shibboleth-användare ska omdirigeras till efter utloggning.<br />Om den lämnas tom kommer användarna att omdirigeras till den plats som moodle normalt omdirigerar användare till';
 $string['auth_shib_no_organizations_warning'] = 'Om du vill använda den integrerade WAYF-tjänsten så måste du tillhandahålla en kommaseparerad lista över Identity Provider entityIDs, deras namn och alternativt en initierare för sessioner.';
 $string['auth_shib_only'] = 'Endast Shibboleth';
-$string['auth_shib_only_description'] = 'Markera det här alternativet om Du vill aktivera autentisering med Shibboleth.';
+$string['auth_shib_only_description'] = 'Markera det här alternativet om du vill aktivera Shibboleth-autentisering.';
 $string['auth_shib_username_description'] = 'Namnet på den webbserver miljövariabel för Shibboleth som ska användas som användarnamn för Moodle.';
 $string['auth_shibboleth_errormsg'] = 'Var snäll och markera vilken organisation du tillhör!';
 $string['auth_shibboleth_login'] = 'Logga in med Shibboleth';
-$string['auth_shibboleth_login_long'] = 'Logga in på Moodle med Shibboleth';
+$string['auth_shibboleth_login_long'] = 'Logga in till Moodle med Shibboleth';
 $string['auth_shibboleth_manual_login'] = 'Manuell inloggning';
 $string['auth_shibboleth_select_member'] = 'Jag är medlem av...';
-$string['auth_shibboleth_select_organization'] = 'För autentisering med Shibboleth, var snäll och markera i nedrullningamenyn den organisation du tillhör:';
-$string['auth_shibbolethdescription'] = 'Genom att använda den här metoden kan Du ansluta till en befintlig Shibboleth-server för att kontrollera och skapa nya konton.';
+$string['auth_shibboleth_select_organization'] = 'För autentisering via Shibboleth, vänligen välj din organisation i rullgardinsmenyn:';
+$string['auth_shibbolethdescription'] = 'Med den här metoden skapas och autentiseras användare med hjälp av Shibboleth. För att läsa mer om hur du konfigurerar detta, se <a href="{$a}">Shibboleth README</a>.';
 $string['pluginname'] = 'Shibboleth';
-$string['shib_no_attributes_error'] = 'Du verkar vara autenticerad via Shibboleth men Moodle fick inga data om egenskaper för användare: Var snäll och kontrollera att den som tillhandahåller din identitet vidarebefordrar de nödvändiga egenskaperna ({$a}) till den som står för de tjänster (Services) som Moodle körs på eller informera webmaster på den här servern.';
-$string['shib_not_all_attributes_error'] = 'Moodle behöver vissa Shibboleth-egenskaper som inte får att påträffa för Din Del. Egenskaperna är:{$a}<br />Var snäll och kontakta webmaster på den här servern eller den som tillhandahåller de tjänster som Moodle körs på.';
-$string['shib_not_set_up_error'] = 'Autentisering via Shibboleth verkar inte att fungera  korrekt. Var snäll och konsultera <a href="README.txt">README</a> för vidare instruktioner om hur man sätter upp autentisering via Shibboleth.';
+$string['privacy:metadata'] = 'Pluginmodulen Shibboleth-autentisering lagrar ingen personlig information.';
+$string['shib_invalid_account_error'] = 'Du verkar vara Shibboleth-autentiserad men Moodle har inget giltigt konto för ditt användarnamn. Ditt konto kanske inte finns eller så kan det ha stängts av.';
+$string['shib_no_attributes_error'] = 'Du verkar vara autenticerad via Shibboleth men Moodle fick inga data om egenskaper för användare: Vänligen kontrollera att den som tillhandahåller din identitet vidarebefordrar de nödvändiga egenskaperna ({$a}) till den som står för de tjänster (Services) som Moodle körs på eller informera webmaster på den här servern.';
+$string['shib_not_all_attributes_error'] = 'Moodle behöver vissa Shibboleth-egenskaper som inte får att påträffa för Din Del. Egenskaperna är:{$a}<br /> Vänligen kontakta webmaster på den här servern eller den som tillhandahåller de tjänster som Moodle körs på.';
+$string['shib_not_set_up_error'] = 'Autentisering via Shibboleth verkar inte att fungera  korrekt. Vänligen konsultera <a href="README.txt">README</a> för vidare instruktioner om hur man sätter upp autentisering via Shibboleth.';

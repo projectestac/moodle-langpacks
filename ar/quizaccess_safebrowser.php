@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'نظام فحص أمن المتصفح للوصول إلى الاختبار';
-$string['privacy:metadata'] = 'المكون الإضافي Safe Exam Browser quiz access rule لا يخزن أيّ بيانات شخصية.';
+$string['privacy:metadata'] = 'إن ملحق قاعدة الوصول إلى الاختبار بمستعرض الاختبار الآمن لا يخزن أي بيانات شخصية.';
 $string['requiresafeexambrowser'] = 'يتطلب استخدام فحص أمن المتصفح';
 $string['safebrowsererror'] = 'تم تعيين هذا الاختبار بأن يؤخذ باستخدام فحص أمن المتصفح .
 لا يمكنك محاولة ذلك من هذا المتصفح.';

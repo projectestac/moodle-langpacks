@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['ajaxerror'] = 'Fel kontakt server för att konvertera tider';
+$string['ajaxerror'] = 'Ett fel inträffade då servern kontaktades för att konvertera tider';
 $string['description'] = 'Förhindra åtkomst till (eller från) ett visst datum och tid.';
 $string['direction_before'] = 'Datum';
 $string['direction_from'] = 'from';
@@ -36,6 +36,7 @@ $string['full_from_date'] = 'Det är på <strong>{$a}</strong> eller efter';
 $string['full_until'] = 'Det är före <strong>{$a}</strong>';
 $string['full_until_date'] = 'Det är före utgången av <strong>{$a}</strong>';
 $string['pluginname'] = 'Begränsning via datum';
+$string['privacy:metadata'] = 'Pluginmodulen Begränsning via datum lagrar ingen personlig information.';
 $string['short_from'] = 'Tillgänglig från <strong>{$a}</strong>';
 $string['short_from_date'] = 'Tillgänglig från <strong>{$a}</strong>';
 $string['short_until'] = 'Tillgängligt till <strong>{$a}</strong>';

@@ -42,7 +42,7 @@ $string['configpopuptoolbar'] = 'Ska det förinställda standardvalet vara att n
 $string['configpopupwidth'] = 'Vilket ska det förinställda standardvalet för bredden på nya \'popup\'-fönster vara?';
 $string['contentheader'] = 'Innehåll';
 $string['displayoptions'] = 'Alternativ som är tillgängliga för visning';
-$string['displayselect'] = 'Visa';
+$string['displayselect'] = 'Visningsläge';
 $string['displayselect_help'] = 'Denna inställning bestämmer tillsammans med typen av fil hur filen ska öppnas och visas.
 
 * Automatisk – systemet och din webbläsare väljer själva hur filen ska visas. Exempelvis kan PDF-filer visas med verktyg för bl.a. utskrift direkt på moodlesidan. (Rekommenderas!)
@@ -52,15 +52,20 @@ $string['displayselect_help'] = 'Denna inställning bestämmer tillsammans med t
 * I pop-up – filen visas i ett pop-up fönster vars egenskaper kan ställas in.
 * I ram – filen visas i en inbäddad ram på moodlesidan
 * Nytt fönster – filen visas i webbläsaren i ett nytt fönster';
-$string['displayselectexplain'] = 'Välj typ av visning, tyvärr passar inte alla typer för alla filer. ';
+$string['displayselectexplain'] = 'Välj visningsläge. Dessvärre passar inte alla lägen för alla filer.';
 $string['dnduploadresource'] = 'Skapa filresurs';
 $string['encryptedcode'] = 'Krypterad kod';
 $string['filenotfound'] = 'Det gick tyvärr inte att hitta filen.';
-$string['filterfiles'] = 'Filtrera innehåll i fil';
+$string['filterfiles'] = 'Filtrera filinnehåll';
 $string['filterfilesexplain'] = 'Välj typ av filter för filinnehåll. Notera att det kan orsaka problem för vissa flash- och javaapplets. Var god kontrollera att alla textfiler är UTF-8-kodade.';
 $string['filtername'] = 'Automatisk länkning av namn på resurs';
 $string['forcedownload'] = 'Framtvinga nedladdning';
-$string['framesize'] = 'Storlek på ram';
+$string['framesize'] = 'Ramstorlek';
+$string['indicator:cognitivedepth'] = 'Fil kognitiv';
+$string['indicator:cognitivedepth_help'] = 'Denna indikator baseras på det kognitiva djup som uppnåtts av studenten i en Filresurs.';
+$string['indicator:socialbreadth'] = 'Fil social';
+$string['indicator:socialbreadth_help'] = 'Denna indikator baseras på den sociala bredd som uppnåtts av studenten i en Filresurs.';
+$string['indicator:socialbreadthdef_help'] = 'Deltagaren har nått denna procentandel av det sociala engagemanget som erbjuds av Filresurserna under detta analysintervall (Nivåer = Inget deltagande, Deltagaren ensamt)';
 $string['legacyfiles'] = 'Migration av gammal kursfil';
 $string['legacyfilesactive'] = 'Aktiv';
 $string['legacyfilesdone'] = 'Avslutad';
@@ -81,12 +86,12 @@ $string['optionsheader'] = 'Visa alternativ';
 $string['pluginadministration'] = 'Administration av modul för filer';
 $string['pluginname'] = 'Resurs';
 $string['popupheight'] = 'Höjd på popup-fönster (i pixlar)';
-$string['popupheightexplain'] = 'Anger standardhöjden på "popup"-fönster.';
+$string['popupheightexplain'] = 'Anger standardhöjden på popup-fönster.';
 $string['popupresource'] = 'Den här resursen bör dyka upp i ett snabbfönster.';
 $string['popupresourcelink'] = 'Om den inte gjorde det, klicka här: {$a}';
 $string['popupwidth'] = 'Bredd på popup-fönster (i pixlar)';
-$string['popupwidthexplain'] = 'Anger standardbredden på "popup"-fönster.';
-$string['printintro'] = 'Visa beskrivning av resurs';
+$string['popupwidthexplain'] = 'Anger standardbredden på popup-fönster.';
+$string['printintro'] = 'Visa kursbeskrivning';
 $string['printintroexplain'] = 'Vill Du visa beskrivningen av resursen under innehållet? En del visningstyper kommer inte att visa beskrivningen även om detta är aktiverat.';
 $string['resource:addinstance'] = 'Lägg till en ny resurs';
 $string['resource:exportresource'] = 'Exportera resurs';
@@ -94,7 +99,9 @@ $string['resource:view'] = 'Visa resurs';
 $string['resourcecontent'] = 'Filer och undermappar';
 $string['resourcedetails_sizetype'] = '{$a->size} {$a->type}';
 $string['search:activity'] = 'Fil';
-$string['selectmainfile'] = 'Var snäll och välj huvudfilen genom att klicka på ikonen bredvid filnamnet. ';
+$string['selectmainfile'] = 'Vänligen välj huvudfilen genom att klicka på ikonen bredvid filnamnet.';
+$string['showdate'] = 'Visa uppladdnings-/ändringsdatum';
+$string['showdate_desc'] = 'Visa uppladdnings-/ändringsdatum på kurssidan?';
 $string['showsize'] = 'Visa storlek';
 $string['showsize_desc'] = 'Visa filstorleken på kurssidan?';
 $string['showsize_help'] = 'Visar filstorleken, t.ex. "3.1 MB ", bredvid länkar till filen. Om det finns flera filer i denna resurs, är den totala storleken på alla filer som visas';

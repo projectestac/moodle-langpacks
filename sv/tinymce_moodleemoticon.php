@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['moodleemoticon:desc'] = 'Infoga smiley';
+$string['moodleemoticon:desc'] = 'Infoga emoji';
 $string['pluginname'] = 'Infoga smiley';
+$string['requireemoticon'] = 'Kräv emoji-filter';
+$string['requireemoticon_desc'] = 'Om aktiverat visas emoji-knappen enbart om emoji-filtret är aktivt i texteditor-kontextet.';

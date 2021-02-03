@@ -42,19 +42,20 @@ $string['displayselect_help'] = 'Denna inställning bestämmer hur webblänken s
 * Pop-up – Öppnar ett mindre fönster med webbadressen. Fönstrets storlek och andra egenskaper kan ställas in.';
 $string['displayselectexplain'] = 'Välj visningstyp, tyvärr är inte alla typer lämpliga för alla URL:er.';
 $string['externalurl'] = 'Extern URL';
-$string['framesize'] = 'Höjd på ram';
+$string['framesize'] = 'Ramstorlek';
+$string['indicator:cognitivedepth'] = 'URL kognitiv';
+$string['indicator:cognitivedepth_help'] = 'Denna indikator baseras på det kognitiva djup som uppnåtts av studenten i en URL-resurs.';
+$string['indicator:socialbreadth'] = 'URL social';
+$string['indicator:socialbreadth_help'] = 'Denna indikator baseras på den sociala bredd som uppnåtts av studenten i en URL-resurs.';
+$string['indicator:socialbreadthdef_help'] = 'Deltagaren har nått denna procentandel av det sociala engagemanget som erbjuds av URL-resurserna under detta analysintervall (Nivåer = Inget deltagande, Deltagaren ensamt)';
 $string['invalidstoredurl'] = 'Kan inte visa, angiven URL är ogiltig.';
 $string['invalidurl'] = 'Angiven URL är ogiltig';
 $string['modulename'] = 'URL';
-$string['modulename_help'] = 'Med URL-(uniform resource locater) eller webbadress-modulen kan en lärare skapa en en webblänk som en kursresurs.
+$string['modulename_help'] = 'URL-modulen gör det möjligt för en lärare att tillhandahålla en webblänk som kursresurs. Det går att länka till allt som är fritt tillgängligt online, till exempel dokument eller bilder.  Webbadressen behöver inte vara startsidan för en webbplats. Webbadressen till en viss webbsida kan kopieras och klistras in eller en lärare kan använda filväljaren och välja en länk från en lagringsplats som Flickr, YouTube eller Wikimedia (beroende på vilka lagringsplatser som är aktiverade på webbplatsen).
 
-Allt som är fritt tillgängliga på nätet, såsom dokument eller bilder, kan länkas. URL/webbadressen behöver inte vara startsidan på en webbplats. Webbadressen till önskat webbsida kan kopieras och klistras eller en lärare kan använda "filepicker" och välja en länk från ett arkiv som Flickr, YouTube eller Wikimedia (beroende på vilka förråd är aktiverade för webbplatsen).
+Det finns ett antal visningsalternativ för webbadressen, till exempel inbäddad eller att den öppnas i ett nytt fönster och avancerade alternativ för att skicka information, till exempel en deltagares namn, till webbadressen om det behövs.
 
-Det finns ett antal visningsalternativ för URL, till exempel "inbäddad" eller "öppna i ett nytt fönster".
-
-Det finns även avancerade inställningsalternativ som gör det möjligt att definiera informationsöverföring till webbadressen (t.ex. elevs namn) om det behövs eller önskas.
-
-Observera att URL/webbadresser även kan läggas till andra resurser eller aktiviteter genom att använda sig av textredigeraren i respektive element.';
+Observera att webbadresser även kan läggas till i någon annan resurs eller aktivitetstyp via textredigeraren.';
 $string['modulenameplural'] = 'URLer';
 $string['page-mod-url-x'] = 'Valfri URL modulsida';
 $string['parameterinfo'] = '&amp;parameter=variabel';

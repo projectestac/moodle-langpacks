@@ -44,4 +44,4 @@ $string['privacy:metadata:repository_boxnet:query'] = 'Pesquisa de texto no repo
 $string['saved'] = 'A informação box foi gravada';
 $string['shareurl'] = 'Partilhar URL';
 $string['username'] = 'Nome de utilizador para box';
-$string['warninghttps'] = 'O Box requer que o seu site use HTTPS para que o repositório funcione.';
+$string['warninghttps'] = 'Para que o repositório Box funcione é necessário que o seu site use HTTPS .';

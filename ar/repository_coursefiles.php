@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configplugin'] = 'تهيئة مستودع ملفات المساق الموروثة';
-$string['coursefiles:view'] = 'استعمال ملحق مستودع ملفات المساق';
+$string['configplugin'] = 'تهيئة مستودع ملفات المقرر الموروثة';
+$string['coursefiles:view'] = 'استعمال ملحق مستودع ملفات المقرر الدراسي';
 $string['emptyfilelist'] = 'لا ملفات لمعاينتها';
 $string['notitle'] = 'بلا عنوان';
-$string['pluginname'] = 'ملفات المساق الموروثة';
-$string['pluginname_help'] = 'ملفات المساق الموروثة';
-$string['privacy:metadata'] = 'إن ملحق مستودع ملفات المساق الموروثة لا يخزن أي بيانات شخصية.';
+$string['pluginname'] = 'ملفات المقرر الموروثة';
+$string['pluginname_help'] = 'ملفات المقرر الموروثة';
+$string['privacy:metadata'] = 'إن ملحق مستودع ملفات المقرر الموروثة لا يخزن أي بيانات شخصية.';
 $string['remember'] = 'تذكرني';

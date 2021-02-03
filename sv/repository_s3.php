@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['access_key'] = 'Åtkomstnyckel';
+$string['needaccesskey'] = 'Åtkomstnyckel måste anges';
 $string['pluginname'] = 'Amazon S3';

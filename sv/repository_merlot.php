@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['licensekey'] = 'Licensnyckel';
 $string['pluginname'] = 'Merlot.org';

@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['disregardedwithoutpenalty'] = 'Inlämningen var ogiltig och har åsidosatts utan påföljd.';
 $string['gradingdetails'] = 'Betyg för den här inlämningen:  {$a->raw}/{$a->max}.';
 $string['gradingdetailsadjustment'] = 'Räknar med tidigare försök, vilket ger <strong>{$a->cur}/{$a->max}.</strong>';
-$string['gradingdetailspenalty'] = 'Den här inlämningen fick ett straff på {$a}.';
+$string['gradingdetailspenalty'] = 'Det här inlämnade testet innehåller ett poängavdrag på {$a}.';
 $string['gradingdetailspenaltytotal'] = 'Totalt straff hittills: $a}.';
 $string['gradingdetailswithadjustment'] = 'Betyg för den här inlämningen: {$a->raw}/{$a->max}. Medräkning av tidigare försök, ger <strong>{$a->cur}/{$a->max}.</strong>';
 $string['gradingdetailswithadjustmentpenalty'] = 'Betyg för den här inlämningen: {$a->raw}/{$a->max}. Medräkning av tidigare försök, ger <strong>{$a->cur}/{$a->max}.</strong> Denna inlämning gav ett straff på {$a->penalty}.';

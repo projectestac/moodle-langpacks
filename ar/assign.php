@@ -87,7 +87,7 @@ $string['attemptreopenmethod_help'] = 'يُحدِّد كيفية إعادة فت
 
 * أبداً - التسليم لا يمكن إعادة فتحه.
 * يدوياً - التسليم يمكن إعادة فتحه من قبل المعلم.
-* تلقائياً حتى النجاح - يتم إعادة فتح التسليم للطالب تلقائياً حتى يحقق الطالب درجة النجاح المُحدَّدة في سجل العلامات لهذا الواجب.';
+* تلقائياً حتى النجاح - يتم إعادة فتح التسليم للطالب تلقائياً حتى يحقق الطالب درجة النجاح المُحدَّدة في سجل التقديرات لهذا الواجب.';
 $string['attemptreopenmethod_manual'] = 'يدوياً';
 $string['attemptreopenmethod_none'] = 'أبداً';
 $string['attemptreopenmethod_untilpass'] = 'تلقائياً حتى النجاح';
@@ -114,7 +114,7 @@ $string['blindmarking_help'] = 'التصحيح الأعمى يخفي هوية ا
 $string['blindmarkingenabledwarning'] = 'تصحيح بدون عرض الأسماء (تصحيح أعمى) مُفعَّل لهذا النشاط';
 $string['calendardue'] = '{$a} مستحق';
 $string['calendargradingdue'] = '{$a} مستحق لمنح العلامة';
-$string['changefilters'] = 'تغيير المرشحات';
+$string['changefilters'] = 'تغيير المنقحات';
 $string['changeuser'] = 'غيِّر المستخدم';
 $string['choosegradingaction'] = 'إجراء التصحيح';
 $string['choosemarker'] = 'اختر...';
@@ -226,8 +226,8 @@ $string['feedbackavailabletext'] = '{$a->username} قد أعطى إفادة بش
 
     {$a->url}';
 $string['feedbackplugin'] = 'ملحق الإفادة';
-$string['feedbackpluginforgradebook'] = 'ملحق الإفادة الذي سيضع التعليقات في سجل العلامات';
-$string['feedbackpluginforgradebook_help'] = 'يمكن لملحق إفادة واحد فقط للواجبات أن يضع الإفادات في سجل العلامات.';
+$string['feedbackpluginforgradebook'] = 'ملحق الإفادة الذي سيضع التعليقات في سجل التقديرات';
+$string['feedbackpluginforgradebook_help'] = 'يمكن لملحق إفادة واحد فقط للواجبات أن يضع الإفادات في سجل التقديرات.';
 $string['feedbackplugins'] = 'ملاحق الإفادات';
 $string['feedbacksettings'] = 'إعدادات الإفادة';
 $string['feedbacktypes'] = 'أنواع الإفادات';
@@ -238,8 +238,8 @@ $string['filternone'] = 'بلا ترشيح';
 $string['filternotsubmitted'] = 'غير مُسَلِّم';
 $string['filterrequiregrading'] = 'يتطلب التقييم';
 $string['filtersubmitted'] = 'مسلمة';
-$string['fixrescalednullgrades'] = 'يحتوي هذا الواجب على بعض العلامات الخاطئة. يمكنك <a href="{$a->link}">إصلاح هذه العلامات تلقائياً</a>. هذا قد يؤثر على إجماليات المساق.';
-$string['fixrescalednullgradesconfirm'] = 'هل أنت متأكد من رغبتك في إصلاح العلامات الخاطئة؟ ستتم إزالة كل العلامات المتأثرة. هذا قد يؤثر على إجماليات المساق.';
+$string['fixrescalednullgrades'] = 'يحتوي هذا الواجب على بعض العلامات الخاطئة. يمكنك <a href="{$a->link}">إصلاح هذه العلامات تلقائياً</a>. هذا قد يؤثر على إجماليات المقرر.';
+$string['fixrescalednullgradesconfirm'] = 'هل أنت متأكد من رغبتك في إصلاح العلامات الخاطئة؟ ستتم إزالة كل الدرجات المتأثرة. هذا قد يؤثر على إجماليات المقرر الدراسي.';
 $string['fixrescalednullgradesdone'] = 'تم إصلاح العلامات.';
 $string['gradeabovemaximum'] = 'العلامة ينبغي أن تكون مساوية أو أقل من {$a}.';
 $string['gradebelowzero'] = 'العلامة ينبغي أن تكون مساوية أو أكبر من الصفر.';
@@ -266,7 +266,7 @@ $string['gradeuser'] = 'منح علامة {$a}';
 $string['grading'] = 'منح العلامات';
 $string['gradingchangessaved'] = 'تم حفظ تغييرات العلامة';
 $string['gradingduedate'] = 'ذكِّرني بمنح العلامات في';
-$string['gradingduedate_help'] = 'التاريخ المتوقع لإكمال تصحيح التسليمات. هذا التاريخ يستعمل لمنح الأولوية في إشعارات دفة القيادة للمعلمين.';
+$string['gradingduedate_help'] = 'التاريخ المتوقع لإكمال تصحيح التسليمات. هذا التاريخ يستعمل لمنح الأولوية في إشعارات لوحة التحكم للمعلمين.';
 $string['gradingdueduedatevalidation'] = 'تاريخ ذكِّرني بمنح العلامات لا يمكن أن يكون سابقاً لتاريخ الاستحقاق.';
 $string['gradingduefromdatevalidation'] = 'تاريخ ذكِّرني بمنح العلامات لا يمكن أن يكون سابقاً لتاريخ إسمح بالتسليم ابتداءً من.';
 $string['gradingmethodpreview'] = 'معيار التقييم';
@@ -336,7 +336,7 @@ $string['maxattempts'] = 'أقصى عدد من المحاولات';
 $string['maxattempts_help'] = 'أقصى عدد من محاولات التسليم يمكن القيام بها من قبل الطالب. بعد الوصول إلى هذا العدد، لن يعاد فتح المجال للتسليم مجدداً.';
 $string['maxgrade'] = 'أقصى علامة';
 $string['maxperpage'] = 'أقصى عدد من الواجبات في الصفحة';
-$string['maxperpage_help'] = 'أقصى عدد من الواجبات التي يمكن للمُقيِّم إظهارها في صفحة تقييم الواجبات. هذا الإعداد مفيد في منع استنفاذ مهلة الجلسة للمساقات ذات الأعداد الكبيرة من المشاركين.';
+$string['maxperpage_help'] = 'أقصى عدد من الواجبات التي يمكن للمُقيِّم إظهارها في صفحة تقييم الواجبات. هذا الإعداد مفيد في منع استنفاذ مهلة الجلسة للمقررات الدراسية ذات الأعداد الكبيرة من المشاركين.';
 $string['messageprovider:assign_notification'] = 'إشعارات الواجب';
 $string['modulename'] = 'الواجب';
 $string['modulename_help'] = 'تمكن وحدة نشاط الواجب  المدرس من إيصال الواجبات، وجمع التسليمات ووضع الدرجات والإفادات.
@@ -355,7 +355,7 @@ $string['newsubmissions'] = 'واجبات تم تسليمها';
 $string['noattempt'] = 'لا توجد محاولات';
 $string['noclose'] = 'لا تاريخ إغلاق';
 $string['nofiles'] = 'لا ملفات.';
-$string['nofilters'] = 'لا مرشحات';
+$string['nofilters'] = 'لا منقحات';
 $string['nograde'] = 'لا علامة.';
 $string['nolatesubmissions'] = 'التسليمات المتأخرة غير مقبولة.';
 $string['nomoresubmissionsaccepted'] = 'مسموح به فقط للمشاركين الذين تم منحهم تمديداً';
@@ -409,7 +409,7 @@ $string['privacy:blindmarkingidentifier'] = 'المُعرَّف المستعمل
 $string['privacy:gradepath'] = 'العلامة';
 $string['privacy:metadata:assigndownloadasfolders'] = 'تفضيل المستخدم فيما إذا كانت التسليمات المتعددة الملفات ينبغي تنزيلها في مجلدات';
 $string['privacy:metadata:assignfeedbackpluginsummary'] = 'بيانات الإفادة للواجب';
-$string['privacy:metadata:assignfilter'] = 'خيارات المرشح مثل \'مُسَلم\'، \'غير مُسَلم\'، \'يتطلب التقييم\'، و \'مُنِح تمديداً\'';
+$string['privacy:metadata:assignfilter'] = 'خيارات المرشح مثل \'مُسَلم\'، \'غير مُسَلم\'، \'يتطلب التقييم\'، و\'مُنِح تمديداً\'';
 $string['privacy:metadata:assigngrades'] = 'يخزن علامات المستخدم للواجب';
 $string['privacy:metadata:assignmarkerfilter'] = 'ترشيح ملخص التعيين حسب المصحح المُعيَّن';
 $string['privacy:metadata:assignmentid'] = 'مُعرَّف الواجب';
@@ -436,8 +436,8 @@ $string['quickgrading_help'] = 'التقييم السريع يسمح لك بمن
 $string['quickgradingchangessaved'] = 'تم حفظ تغييرات العلامة';
 $string['quickgradingresult'] = 'التقييم السريع';
 $string['recordid'] = 'المُعرَّف';
-$string['relativedatessubmissionduedateafter'] = '{$a->datediffstr} بعد بدء المساق';
-$string['relativedatessubmissionduedatebefore'] = '{$a->datediffstr} قبل بدء المساق';
+$string['relativedatessubmissionduedateafter'] = '{$a->datediffstr} بعد بدء المقرر';
+$string['relativedatessubmissionduedatebefore'] = '{$a->datediffstr} قبل بدء المقرر';
 $string['relativedatessubmissiontimeleft'] = 'محسوب لكل طالب';
 $string['removeallgroupoverrides'] = 'حذف كل تجاوزات المجموعة';
 $string['removealluseroverrides'] = 'حذف كل تجاوزات المستخدم';
@@ -445,13 +445,13 @@ $string['removesubmission'] = 'إزالة التسليم';
 $string['removesubmissionconfirm'] = 'هل أنت متأكد من رغبتك في إزالة بيانات التسليم؟';
 $string['removesubmissionconfirmforstudent'] = 'هل أنت متأكد من رغبتك في إزالة بيانات التسليم للطالب {$a}؟';
 $string['removesubmissionforstudent'] = 'إزالة التسليم للطالب: (المُعرَّف={$a->id}، الاسم الكامل={$a->fullname}).';
-$string['reopenuntilpassincompatiblewithblindmarking'] = 'خيار أعِد الفتح حتى النجاح غير متوافق مع التصحيح الأعمى، لأن العلامات لا تُطلق إلى سجل العلامات ما لم يتم كشف هويات الطلبة.';
+$string['reopenuntilpassincompatiblewithblindmarking'] = 'خيار أعِد الفتح حتى النجاح غير متوافق مع التصحيح الأعمى، لأن التقديرات لا تُطلق إلى سجل التقديرات ما لم يتم كشف هويات الطلبة.';
 $string['requireallteammemberssubmit'] = 'يتطلب التسليم من كل أعضاء المجموعة';
 $string['requireallteammemberssubmit_help'] = 'عند تمكينه، ينبغي على كل أعضاء مجموعة الطلاب النقر على زر التسليم لهذا الواجب قبل اعتبار تسليم المجموعة مكتملاً. عند تعطيله، سيعتبر تسليم المجموعة مكتملاً بمجرد قيام أي عضو فيها بالنقر على زر التسليم.';
 $string['requiresubmissionstatement'] = 'ينبغي على الطلاب قبول بيان التسليم';
 $string['requiresubmissionstatement_help'] = 'ينبغي على الطلاب قبول بيان التسليم لكل التسليمات في هذا الواجب .';
 $string['revealidentities'] = 'إكشف هويات الطلاب';
-$string['revealidentitiesconfirm'] = 'هل أنت متأكد من رغبتك في كشف هويات الطلاب لهذا الواجب؟ لا يمكن التراجع عن هذه العملية. بمجرد الكشف عن هويات الطلاب، ستُطلق العلامات إلى سجل العلامات.';
+$string['revealidentitiesconfirm'] = 'هل أنت متأكد من رغبتك في كشف هويات الطلاب لهذا الواجب؟ لا يمكن التراجع عن هذه العملية. بمجرد الكشف عن هويات الطلاب، ستُطلق الدرجات إلى سجل التقديرات.';
 $string['reverttodefaults'] = 'الرجوع إلى افتراضات الواجب';
 $string['reverttodraft'] = 'إرجاع التسليم إلى وضع المسودة.';
 $string['reverttodraftforstudent'] = 'إرجاع التسليم إلى مسودة للطالب: (المُعرَّف={$a->id}، الاسم الكامل={$a->fullname}).';
@@ -475,7 +475,7 @@ $string['sendlatenotifications_help'] = 'عند تمكينه، سيتلقى ال
 $string['sendnotifications'] = 'أبلغ المقيمين عن التسليمات';
 $string['sendnotifications_help'] = 'عند تمكينه، سيتلقى المقيمون (المعلمون عادة) رسالة كلما قام طالب بالتسليم باكراً، في الموعد أو متأخراً. طرق المراسلة قابلة للتهيئة.';
 $string['sendstudentnotifications'] = 'أبلغ الطلاب';
-$string['sendstudentnotifications_help'] = 'عند تمكينه، سيتلقى الطلاب رسالة عن التحديث في سجل العلامات أو الإفادة. إذا كان سير عمل التصحيح مُمَكَّناً في هذا الواجب، لن يتم إرسال الإشعارات حتى "إطلاق" العلامات.';
+$string['sendstudentnotifications_help'] = 'عند تمكينه، سيتلقى الطلاب رسالة عن التحديث في سجل التقديرات أو الإفادة. إذا كان سير عمل التصحيح مُمَكَّناً في هذا الواجب، لن يتم إرسال الإشعارات حتى "إطلاق" الدرجات.';
 $string['sendstudentnotificationsdefault'] = 'الإعداد الافتراضي لـ "أبلغ الطلاب"';
 $string['sendstudentnotificationsdefault_help'] = 'حدد القيمة الافتراضية  لخانة تأشير "أبلغ الطلاب" في نموذج التقييم.';
 $string['sendsubmissionreceipts'] = 'أرسل إيصالات التسليم إلى الطلاب';

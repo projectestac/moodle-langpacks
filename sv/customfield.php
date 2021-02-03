@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['action'] = 'Åtgärd';
 $string['addingnewcustomfield'] = 'Lägger till ny(tt) {$a}';
-$string['addnewcategory'] = 'Lägg till ny kategori';
+$string['addnewcategory'] = 'Ny kategori';
 $string['afterfield'] = 'Efter fältet {$a}';
 $string['categorynotfound'] = 'Hittade inte kategorin';
 $string['checked'] = 'Markerad';
@@ -35,7 +35,7 @@ $string['commonsettings'] = 'Allmänt';
 $string['componentsettings'] = 'Komponentinställningar';
 $string['confirmdeletecategory'] = 'Vill du ta bort den här kategorin? Alla fält inne i kategorin kommer också att tas bort tillsammans med alla data som är associerad med dem. Den här åtgärden kan inte ångras.';
 $string['confirmdeletefield'] = 'Vill du ta bort det här fältet och alla tillhörande data? Den här åtgärden kan inte ångras.';
-$string['createnewcustomfield'] = 'Lägg till nytt anpassat fält';
+$string['createnewcustomfield'] = 'Nytt anpassat fält';
 $string['customfield'] = 'Anpassat fält';
 $string['customfielddata'] = 'Data för anpassat fält';
 $string['customfields'] = 'Anpassade fält';

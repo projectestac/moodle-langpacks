@@ -69,6 +69,6 @@ $string['printheadingexplain'] = 'Exibir nome da página acima do conteúdo?';
 $string['printintro'] = 'Mostrar descrição da página';
 $string['printintroexplain'] = 'Mostrar descrição da página por cima do conteúdo?';
 $string['printlastmodified'] = 'Mostrar data da última modificação';
-$string['printlastmodifiedexplain'] = 'Mostrar data da última modificação abaixo do conteúdo?';
+$string['printlastmodifiedexplain'] = 'Mostrar a data da última modificação abaixo do conteúdo?';
 $string['privacy:metadata'] = 'O módulo do recurso Página não armazena quaisquer dados pessoais.';
 $string['search:activity'] = 'Página';

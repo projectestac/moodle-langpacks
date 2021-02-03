@@ -73,6 +73,7 @@ $string['emailtagline'] = 'Ce courriel est la copie d\'un message personnel qui 
 $string['enabled'] = 'Activé';
 $string['errorcallingprocessor'] = 'Erreur lors de l\'appel de la notification définie';
 $string['errorconversationdoesnotexist'] = 'La conversation n\'existe pas';
+$string['errormessagetoolong'] = 'Le message est plus long que le maximum autorisé.';
 $string['errortranslatingdefault'] = 'Erreur lors de la conversion d\'un réglage par défaut fourni par le plugin. Utilisation des réglages par défaut du système.';
 $string['eventgroupmessagesent'] = 'Message de groupe envoyé';
 $string['eventmessagecontactadded'] = 'Contact de messagerie personnelle ajouté';

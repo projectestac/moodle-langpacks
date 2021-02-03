@@ -25,7 +25,15 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['assignrole'] = 'Tilldela roll';
 $string['costorkey'] = 'Var snäll och välj ett av de följande sätten att registrera sig.';
+$string['currency'] = 'Valuta';
+$string['enrolenddate'] = 'Slutdatum';
+$string['enrolstartdate'] = 'Startdatum';
+$string['mailstudents'] = 'Meddela studenter';
+$string['mailteachers'] = 'Meddela lärare';
+$string['paypal:manage'] = 'Hantera registrerade användare';
 $string['paypalaccepted'] = 'Betalningar via Paypal accepterade';
+$string['pluginname'] = 'PayPal';
 $string['sendpaymentbutton'] = 'Skicka betalning via Paypal';
 $string['unenrolselfconfirm'] = 'Vill du verkligen koppla bort dig från "{$a}"?';

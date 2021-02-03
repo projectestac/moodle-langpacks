@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['conditiontitle'] = 'Fält för användarprofil';
+$string['conditiontitle'] = 'Fält i användarprofil';
 $string['description'] = 'Styr åtkomst via fält i användarprofil.';
 $string['error_selectfield'] = 'Du måste välja ett profilfält';
 $string['error_setvalue'] = 'Du måste skriva in ett värde';
@@ -35,9 +35,20 @@ $string['missing'] = '(Saknar anpassade fält: {$a})';
 $string['op_contains'] = 'innehåller';
 $string['op_doesnotcontain'] = 'innehåller inte';
 $string['op_endswith'] = 'slutar med';
-$string['op_isempty'] = 'är tom';
+$string['op_isempty'] = 'är tomt';
 $string['op_isequalto'] = 'är lika med';
 $string['op_isnotempty'] = 'är inte tomt';
-$string['op_startswith'] = 'inleds med';
+$string['op_startswith'] = 'börjar med';
 $string['pluginname'] = 'Begränsning via profil';
+$string['privacy:metadata'] = 'Pluginmodulen Begränsning via profil lagrar ingen personlig information.';
+$string['requires_contains'] = 'Fältet <strong>{$a->field}</strong> innehåller <strong>{$a->value}</strong>';
+$string['requires_doesnotcontain'] = 'Fältet <strong>{$a->field}</strong> innehåller inte <strong>{$a->value}</strong>';
+$string['requires_endswith'] = 'Fältet <strong>{$a->field}</strong> slutar med <strong>{$a->value}</strong>';
+$string['requires_isempty'] = 'Fältet <strong>{$a->field}</strong> är tomt';
+$string['requires_isequalto'] = 'Fältet <strong>{$a->field}</strong> är <strong>{$a->value}</strong>';
+$string['requires_isnotempty'] = 'Fältet <strong>{$a->field}</strong> är inte tomt';
+$string['requires_notendswith'] = 'Fältet <strong>{$a->field}</strong> slutar inte med <strong>{$a->value}</strong>';
+$string['requires_notisequalto'] = 'Fältet <strong>{$a->field}</strong> är inte <strong>{$a->value}</strong>';
+$string['requires_notstartswith'] = 'Fältet <strong>{$a->field}</strong> börjar inte med <strong>{$a->value}</strong>';
+$string['requires_startswith'] = 'Fältet <strong>{$a->field}</strong> börjar med <strong>{$a->value}</strong>';
 $string['title'] = 'Användarprofil';

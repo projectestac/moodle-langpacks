@@ -82,6 +82,6 @@ $string['title'] = 'Titel';
 $string['tofetchtheseresults'] = 'för att hämta dessa resultat';
 $string['totalsize'] = 'Totalstorlek';
 $string['type'] = 'Typ';
-$string['uncompleteindexingerror'] = 'Indexeringen avslutades inte fullständigt, var snäll och starta om den.';
+$string['uncompleteindexingerror'] = 'Indexeringen avslutades inte fullständigt. Vänligen starta om den.';
 $string['versiontoolow'] = 'Global sökning kräver tyvärr PHP 5.0.0+ (använder f.n. version)';
 $string['wordsintitle'] = 'Ord i titel';

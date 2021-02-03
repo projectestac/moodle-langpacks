@@ -510,7 +510,7 @@ $string['sessionerroruser'] = 'Votre session est échue. Veuillez vous connecter
 $string['sessionerroruser2'] = 'Une erreur du serveur impactant votre session de connexion a été détectée. Veuillez vous connecter à nouveau ou relancer votre navigateur.';
 $string['sessionexpired'] = 'Session échue';
 $string['sessionhandlerproblem'] = 'Traitement des sessions mal configuré';
-$string['sessionipnomatch'] = 'Votre adresse IP semble avoir changé depuis votre connexion. Ce réglage de sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Les utilisateurs ne devraient en principe pas rencontrer ce message. Veuillez demander de l\'aide à l\'administrateur de ce site';
+$string['sessionipnomatch'] = 'Votre adresse IP semble avoir changé depuis votre connexion. Cette sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Les utilisateurs ne rencontrent en principe pas message. Veuillez demander de l\'aide à l\'administrateur de ce site.';
 $string['sessionipnomatch2'] = '<p>Votre adresse IP semble avoir changé depuis votre première connexion. Ce réglage de sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Cette erreur peut survenir lors de l\'utilisation de réseaux sans fil ou si vous passez d\'un réseau à un autre (itinérance). Pour plus d\'informations, veuillez contacter votre administrateur.</p>
 <p>Si vous voulez continuer, veuillez actualiser l\'affichage de cette page.</p>';
 $string['sessionwaiterr'] = 'Durée dépassée au cours de l\'attente pour un verrouillage de session.<br />Veuillez attendre que vos requêtes actuelles se terminent et essayer plus tard.';

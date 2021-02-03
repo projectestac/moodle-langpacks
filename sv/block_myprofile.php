@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['contentsettings'] = 'Visa inställningar för område med innehåll.';
+$string['contentsettings'] = 'Visa inställningar för innehåll';
 $string['display_address'] = 'Visa adress';
 $string['display_aim'] = 'Visa AIM';
 $string['display_city'] = 'Visa stad';
@@ -43,7 +43,8 @@ $string['display_phone2'] = 'Visa mobiltelefon';
 $string['display_picture'] = 'Visa bild';
 $string['display_skype'] = 'Visa Skype';
 $string['display_yahoo'] = 'Visa Yahoo';
-$string['myprofile:addinstance'] = 'Lägg till blocket Personer som är inloggade just nu';
-$string['myprofile:myaddinstance'] = 'Lägg till blocket Personer som är inloggade just nu på Mitt Moodle';
+$string['myprofile:addinstance'] = 'Lägg till';
+$string['myprofile:myaddinstance'] = 'Lägg till blocket Min profil på Mitt Moodle';
 $string['myprofile_settings'] = 'Synlig information';
-$string['pluginname'] = 'Inloggad användare';
+$string['pluginname'] = 'Min profil';
+$string['privacy:metadata'] = 'Blocket Min profil visar information om den inloggade användaren och lagrar i sig ingen personlig information.';

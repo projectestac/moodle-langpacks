@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['completion:view'] = 'Visa rapport om fullföljande av kurs';
+$string['completion:view'] = 'Visa kursslutföranderapport';
 $string['completiondate'] = 'Datum för fullföljande';
-$string['page-report-completion-index'] = 'Rapport om fullföljande av kurs';
-$string['page-report-completion-user'] = 'Rapport över användares fullföljande av kurs';
+$string['page-report-completion-index'] = 'Kursslutföranderapport';
+$string['page-report-completion-user'] = 'Kursslutföranderapport för användare';
 $string['page-report-completion-x'] = 'Vilken fullföljanderapport somhelst';
-$string['pluginname'] = 'Fullföljande av kurs';
+$string['pluginname'] = 'Kursslutförande';
