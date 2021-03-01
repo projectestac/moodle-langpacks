@@ -29,8 +29,9 @@ $string['activemethodinfo'] = '\'{$a->method}\' är vald som den aktiva betygsme
 $string['activemethodinfonone'] = 'Ingen avancerad betygssättningsmetod är vald för området \'{$a->area}\'. Enkel betygssättning kommer att användas.';
 $string['changeactivemethod'] = 'Ändra betygssättningsmetod till';
 $string['clicktoclose'] = 'klicka för att välja';
+$string['error:notinrange'] = 'Ogiltigt betyg \'{$a->grade}\' angavs. Betyg måste vara mellan 0 och {$a->maxgrade}.';
 $string['exc_gradingformelement'] = 'Kunde inte instansiera betygsformulärselement';
-$string['formnotavailable'] = 'Avancerade betygsmetoder valdes men betygsformuläret är inte tillgängligt ännu. Du kanske måste definiera detta först via en länk i blocket Inställningar.';
+$string['formnotavailable'] = 'En avancerad bedömningsmetod valdes men bedömningsformuläret är inte tillgängligt ännu. Du kan behöva definiera det först via en länk i åtgärdsmenyn eller administrationsblocket.';
 $string['gradingformunavailable'] = 'OBS! Formuläret för den avancerade betygssättningen är inte klart ännu. Enkel betygssättning kommer att användas tills dess att det finns ett giltigt formulär.';
 $string['gradingmanagement'] = 'Avancerad betygssättning';
 $string['gradingmanagementtitle'] = 'Avancerad betygssättning: {$a->component} ({$a->area})';
@@ -51,14 +52,15 @@ $string['manageactionshareconfirm'] = 'Du kommer att spara en kopia av betygssä
 $string['manageactionsharedone'] = 'Formuläret sparades som en mall.';
 $string['noitemid'] = 'Betygssättning är inte möjligt. Den betygssatta delen existerar inte.';
 $string['nosharedformfound'] = 'Ingen mall hittades';
+$string['privacy:metadata:grading_definitions'] = 'Grundläggande information om ett avancerat bedömningsformulär som definierats i ett bedömningsbart område.';
 $string['privacy:metadata:grading_instances:feedback'] = 'Återkoppling från användaren';
 $string['searchownforms'] = 'inkludera mina egna formulär';
 $string['searchtemplate'] = 'Sök betygssättningsfomulär';
-$string['searchtemplate_help'] = 'Du kan här söka efter ett betygssättningsfomulär och använda det som mall för nya formulär. Skriv de ord som borde finnas någonstans i formulärets namn, beskrivning eller i formulärtexten. För att söka efter en fras omge hela frågan med dubbla citationstecken.
+$string['searchtemplate_help'] = 'Du kan söka efter ett bedömningsformulär och använda det som en mall för det nya bedömningsformuläret här. Skriv helt enkelt ord som ska förekomma någonstans i formulärsnamnet, dess beskrivning eller i själva innehållet. Om du vill söka efter en fras, radbryt hela frågan med dubbla citationstecken.
 
-Som förval kommer endast de formulär som  sparats som delade mallar att inkluderas i sökresultatet. Du kan även inkludera alla dina egna betygssättningsformulär i sökresultatet. På detta sätt kan du enkelt återanvända dina betygssättningsformulär utan att dela dem. Endast formulär som markerats \'Klar för användning\' kan återanvändas på detta sätt.';
+Som standard ingår endast de bedömningsformulär som har sparats som delade mallar i sökresultaten. Du kan också inkludera alla dina egna bedömningsformulär i sökresultaten. På så sätt kan du helt enkelt återanvända dina bedömningsformulär utan att dela dem. Endast formulär som är markerade som \'Klart att användas\' kan användas på detta sätt.';
 $string['statusdraft'] = 'Utkast';
-$string['statusready'] = 'Klar för användning';
+$string['statusready'] = 'Klart att användas';
 $string['templatedelete'] = 'Radera';
 $string['templatedeleteconfirm'] = 'Du kommer att radera den delade mallen \'{$a}\'. Radering av en mall påverkar inte existerande formulär som skapades från den.';
 $string['templateedit'] = 'Ändra';

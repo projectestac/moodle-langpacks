@@ -218,8 +218,8 @@ $string['errornocourse'] = 'Keine Kursinformation!';
 $string['errorreprintheadersnonnumeric'] = 'Nicht-numerischer Wert für Kopfzeile!';
 $string['errorsavegrade'] = 'Die Bewertung konnte nicht gespeichert werden.';
 $string['errorsettinggrade'] = 'Fehler beim Speichern "{$a->itemname}" der Bewertung für Nutzer (userid) {$a->userid}';
-$string['errorupdatinggradecategoryaggregateonlygraded'] = 'Es ist ein Fehler beim Aktualisieren der Einstellungen "Zusammenfassung nur bewerteter Elemente" in der Bewertungskategorie mit der ID {$a->id} aufgetreten.';
-$string['errorupdatinggradecategoryaggregateoutcomes'] = 'Es ist ein Fehler beim Aktualisieren der Einstellungen "Zusammenfassen der Ergebnisse" in der Bewertungskategorie mit der ID {$a->id} aufgetreten.';
+$string['errorupdatinggradecategoryaggregateonlygraded'] = 'Fehler beim Aktualisieren von "Nur nichtleere Bewertungen zusammenfassen" in der Bewertungskategorie {$a->id}';
+$string['errorupdatinggradecategoryaggregateoutcomes'] = 'Fehler beim Aktualisieren von "Ergebnisse in die Zusammenfassung einbeziehen" in der Bewertungskategorie {$a->id}';
 $string['errorupdatinggradecategoryaggregation'] = 'Es ist ein Fehler beim Aktualisieren des Typs der Zusammenfassung in der Bewertungskategorie mit der ID {$a->id} aufgetreten.';
 $string['errorupdatinggradeitemaggregationcoef'] = 'Es ist ein Fehler beim Aktualisieren des Summenkoeffizients (Gewichtung oder Zusatzpunkte) des Bewertungselements mit der ID {$a->id} aufgetreten.';
 $string['eventgradedeleted'] = 'Bewertung gelöscht';
@@ -302,7 +302,7 @@ $string['gradedisplaytype_help'] = 'Diese Einstellung legt fest, wie Bewertungen
 * Buchstabe - Buchstaben (A, B, C,..) oder Wörter werden angezeigt, um eine Auswahl an Bewertungen zu repräsentieren
 * Prozent - relativ zum höchsten/niedrigsten Wert
 * Punktwert - effektive Bewertungen';
-$string['gradedon'] = '{$a} bewertet';
+$string['gradedon'] = 'Bewertet: {$a}';
 $string['gradeexport'] = 'Bewertungsexport';
 $string['gradeexportcolumntype'] = '{$a->name} ({$a->extra})';
 $string['gradeexportcustomprofilefields'] = 'Individuelle Nutzerprofilfelder für Bewertungsexport';
@@ -641,7 +641,7 @@ $string['plusfactor_help'] = 'Der Offset ist ein Zuschlag, der zu jeder Bewertun
 $string['plusfactorvalue'] = 'Offset für {$a}';
 $string['points'] = 'Punkte';
 $string['pointsascending'] = 'sortieren, Punkte aufsteigend';
-$string['pointsdescending'] = 'sortieren, Punkte absteigend';
+$string['pointsdescending'] = 'Sortieren, Punkte absteigend';
 $string['positionfirst'] = 'Erste';
 $string['positionlast'] = 'Letzte';
 $string['preferences'] = 'Grundeinstellungen';
@@ -748,7 +748,7 @@ $string['septab'] = 'Tab';
 $string['setcategories'] = 'Kategorien einrichten';
 $string['setcategorieserror'] = 'Sie müssen Kategorien anlegen, bevor diese gewichtet werden können.';
 $string['setgradeletters'] = 'Notenstufen definieren';
-$string['setpreferences'] = 'Grundeinstellungen';
+$string['setpreferences'] = 'Grundeinstellungen setzen';
 $string['setting'] = 'Einstellung';
 $string['settings'] = 'Einstellungen';
 $string['setweights'] = 'Kategorien gewichten';

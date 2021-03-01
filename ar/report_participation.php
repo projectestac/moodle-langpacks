@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['eventreportviewed'] = 'تمت معاينة تقرير المشاركة';
+$string['eventreportviewed'] = 'تقرير مشاركة تمت معاينته';
 $string['nologreaderenabled'] = 'لا قارئ مُمَكَّن لسجل الوقوعات';
 $string['page-report-participation-index'] = 'تقرير المشاركة في المقرر الدراسي';
 $string['page-report-participation-x'] = 'أي تقرير للمشاركة';

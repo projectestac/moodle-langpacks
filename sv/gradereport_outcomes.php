@@ -26,8 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addoutcome'] = 'Lägg till ett resultat';
-$string['courseoutcomes'] = 'Resultat på kurs';
-$string['coursespecoutcome'] = 'Resultat på kurs';
-$string['outcomes:view'] = 'Visa rapport om resultat';
-$string['pluginname'] = 'Rapport om resultat';
-$string['usedgradeitem'] = 'Antal betygskomponenter';
+$string['courseoutcomes'] = 'Kursresultat';
+$string['coursespecoutcome'] = 'Kursresultat';
+$string['eventgradereportviewed'] = 'Kursresultatsrapport visad';
+$string['outcomes:view'] = 'Visa resultatrapport';
+$string['pluginname'] = 'Resultatrapport';
+$string['privacy:metadata'] = 'Betygsresultatrapporten visar enbart data som lagras på andra platser.';
+$string['usedgradeitem'] = 'Antal betygsobjekt';

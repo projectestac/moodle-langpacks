@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['batchoperationconfirmuploadfiles'] = 'Carregar um ou mais ficheiros de feedback para todos os utilizadores selecionados?';
 $string['batchuploadfiles'] = 'Carregar ficheiros de feedback para múltiplos utilizadores';
 $string['batchuploadfilesforusers'] = 'Enviar ficheiros de feedback aos {$a} utilizadores selecionados';
-$string['configmaxbytes'] = 'Tamanho máximo do ficheiro';
+$string['configmaxbytes'] = 'Tamanho máximo do ficheiro a anexar';
 $string['confirmuploadzip'] = 'Confirme que pretende carregar o ficheiro zip';
 $string['countfiles'] = '{$a} ficheiros';
 $string['default'] = 'Ativo por predefinição';

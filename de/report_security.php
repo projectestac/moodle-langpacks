@@ -29,7 +29,7 @@ $string['check_configrw_details'] = '<p>Nach der Installation sollten die Zugrif
 $string['check_configrw_name'] = ' config.php';
 $string['check_configrw_ok'] = 'PHP-Skripte können die config.php nicht verändern';
 $string['check_configrw_warning'] = 'PHP-Skripte könnten die Datei config.php verändern';
-$string['check_cookiesecure_details'] = '<p>Zusätzlich zur Aktivierung der Datenübertragung über https sollte auch die Funktion sichere Cookies aktiviert werden. Die permanente Umleitung von http nach https sollte eingerichtet sein. Idealerweise werden auch HSTS-Header angeboten. </p>';
+$string['check_cookiesecure_details'] = '<p> Wenn die Kommunikation über https aktiviert ist, sollte auch das Senden sicherer Cookies aktiviert sein. Sie sollten eine Weiterleitung von http zu https haben und idealerweise auch HSTS-Header bedienen.</p>';
 $string['check_cookiesecure_error'] = 'Bitte aktivieren Sie sichere Cookies';
 $string['check_cookiesecure_name'] = 'Sichere Cookies';
 $string['check_cookiesecure_ok'] = 'Sichere Cookies aktiviert';
@@ -43,7 +43,7 @@ $string['check_defaultuserrole_details'] = '<p>Jeder eingeloggte Nutzer hat zun�
 $string['check_defaultuserrole_error'] = 'Eine falsche Definition der Standardrolle wurde festgestellt! "{$a}"';
 $string['check_defaultuserrole_name'] = 'Standardrolle für alle Nutzer';
 $string['check_defaultuserrole_notset'] = 'Die Standardrolle ist nicht gesetzt';
-$string['check_defaultuserrole_ok'] = 'Die Rollendefinition für registrierte Nutzer ist OK';
+$string['check_defaultuserrole_ok'] = 'Standardrolle für alle Nutzer/innen sind richtig definiert.';
 $string['check_displayerrors_details'] = '<p>Die Aktivierung der PHP-Einstellung <code>display_errors</code> wird auf produktiven Websites nicht empfohlen, weil die Fehlermeldungen u. U. sensible Informationen zu Ihrem Server preisgeben könnten. Setzen Sie also <code>display_errors=off</code>.</p>';
 $string['check_displayerrors_error'] = 'Die PHP-Einstellung für die Anzeige von Fehlern ist aktiviert. Es wird empfohlen, dies zu deaktivieren';
 $string['check_displayerrors_name'] = 'Anzeige von PHP-Fehlern';

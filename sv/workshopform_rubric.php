@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addmoredimensions'] = 'Blanksteg för ytterligare {$a} villkor';
 $string['configuration'] = 'Inställningar för bedömningsmatris';
 $string['criteria'] = 'Kriterier';
 $string['dimensiondescription'] = 'Beskrivning';
@@ -32,8 +33,10 @@ $string['dimensionnumber'] = 'Kriteria {$a}';
 $string['layout'] = 'Utvärderingsmatrisens utseende';
 $string['layoutgrid'] = 'Rutnät';
 $string['layoutlist'] = 'Lista';
+$string['levelgroup'] = 'Nivåbetyg och -definition';
 $string['levels'] = 'Nivåer';
 $string['mustbeunique'] = 'Betygen måste vara entydiga inom ett kriterium';
 $string['mustchooseone'] = 'Du måste välja ett av dessa';
 $string['mustdefinelevel'] = 'Minst en nivå krävs';
 $string['pluginname'] = 'Bedömningsmatris';
+$string['privacy:metadata'] = 'Pluginmodulen Bedömningsmatris lagrar bara detaljerna i bedömningsformuläret. Faktiska personuppgifter om hur blanketten har fyllts lagras av själva workshopmodulen och bifogas exporterade bedömningar.';

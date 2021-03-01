@@ -27,9 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['dbexport'] = 'Export av databas';
 $string['dbtransfer'] = 'Överföring av databas';
+$string['enablemaintenance'] = 'Aktivera underhållsläge';
 $string['exportdata'] = 'Exportera data';
 $string['notargetconectexception'] = 'Det går tyvärr inte att kontakta måldatabasen.';
 $string['pluginname'] = 'Export av databas';
+$string['targetdatabase'] = 'Måldatabas';
 $string['transferdata'] = 'Överför data';
 $string['transferdbintro'] = 'Det här skriptet kommer att överföra hela innehållet i den här databasen till en annan databasserver.';
 $string['transferdbtoserver'] = 'Överför den här Moodle-databasen till en annan server';

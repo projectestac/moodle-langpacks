@@ -27,51 +27,62 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['advanced'] = 'Avancerat';
 $string['alterstatus'] = 'Ändra status';
-$string['altertimeend'] = 'Ändra stopptid';
+$string['altertimeend'] = 'Ändra sluttid';
 $string['altertimestart'] = 'Ändra starttid';
 $string['assignrole'] = 'Tilldela roll';
 $string['assignroles'] = 'Tilldela roller';
 $string['browsecohorts'] = 'Bläddra genom kohorter';
 $string['browseusers'] = 'Bläddra genom användare';
-$string['confirmbulkdeleteenrolment'] = 'Vill du verkligen ta bort dessa deltagare i kursen?';
-$string['defaultperiod'] = 'Förinställd period som användare är kopplad till kursen';
-$string['defaultperiod_desc'] = 'Förinställd tid som deltagarens koppling till kursen gäller (i sekunder).';
-$string['defaultperiod_help'] = 'Förinställd tid som användaren är kopplad till kursen, med start från då användaren läggs till. Om denna är "0" är tiden obegränsad.';
-$string['deleteselectedusers'] = 'Ta bort valda deltagare från kursen';
-$string['editselectedusers'] = 'Ändra valda användarregistreringar';
+$string['confirmbulkdeleteenrolment'] = 'Vill du verkligen ta bort dessa användarregistreringar?';
+$string['defaultperiod'] = 'Standardvaraktighet för registrering';
+$string['defaultperiod_desc'] = 'Standarvaraktighet för registreringens giltighet. 0 = obegränsad.';
+$string['defaultperiod_help'] = 'Standarvaraktighet för registreringens giltighet. 0 = obegränsad.';
+$string['defaultstart'] = 'Standardvärde för då registreringen startar';
+$string['deleteselectedusers'] = 'Ta bort valda användarregistreringar';
+$string['editselectedusers'] = 'Redigera valda användarregistreringar';
 $string['enrolledincourserole'] = 'Registrerad på "{$a->course}" som "{$a->role}"';
 $string['enrolusers'] = 'Registrera användare';
 $string['enroluserscohorts'] = 'Registrera valda användare och kohorter';
+$string['expiredaction'] = 'Åtgärd vid förfallen registrering';
+$string['expiredaction_help'] = 'Välj den åtgärd som ska utföras då registreringen förfaller. Vänligen tänk på att viss användardata och vissa inställningar tas bort från kursen vid avregistreringen.';
 $string['expirymessageenrolledbody'] = 'Hej {$a->user},
 
-din registrering på kursen \'{$a->course}\' kommer att upphöra {$a->timeend}.
+Din registrering på kursen \'{$a->course}\' kommer att upphöra {$a->timeend}.
 
-Behöver du hjälp kontakta gärna {$a->enroller}.';
+Behöver du hjälp, kontakta gärna {$a->enroller}.';
+$string['expirymessageenrolledsubject'] = 'Notis om förfallen kursregistrering';
 $string['expirymessageenrollerbody'] = 'Registreringen på kursen \'{$a->course}\' upphör inom de kommande {$a->threshold} för följande användare:
 
 {$a->users}
 
 För att förlänga deras registrering, gå till  {$a->extendurl}';
-$string['manual:config'] = 'Konfigurera instanser för manuell registrering av användare i kurs';
-$string['manual:enrol'] = 'Lägg till användare';
+$string['expirymessageenrollersubject'] = 'Notis om förfallen kursregistrering';
+$string['manual:config'] = 'Konfigurera instanser för manuell kursregistrering';
+$string['manual:enrol'] = 'Registrera användare';
 $string['manual:manage'] = 'Hantera användarregistreringar';
-$string['manual:unenrol'] = 'Koppla bort användare från kursen';
-$string['manual:unenrolself'] = 'Koppla bort dig själv från kursen';
+$string['manual:unenrol'] = 'Avregistrera användare från kursen';
+$string['manual:unenrolself'] = 'Avregistrera dig själv från kursen';
+$string['manualpluginnotinstalled'] = 'Pluginmodulen "Manuell kursregistrering" har inte installerats ännu';
+$string['messageprovider:expiry_notification'] = 'Notiser om förfallna manuella kursregistreringar';
 $string['now'] = 'Nu';
-$string['pluginname'] = 'Manuell registrering';
+$string['pluginname'] = 'Manuell kursregistrering';
+$string['pluginname_desc'] = 'Pluginmodulen för manuella kursregistreringar tillåter att användare registreras manuellt via en länk i kursinställningarna av en användare med lämpliga behörigheter. Pluginmodulen bör normalt vara aktiverad eftersom vissa andra registreringsplugin-moduler, såsom självregistrering, kräver det.';
+$string['privacy:metadata'] = 'Pluginmodulen Manuell kursregistrering lagrar ingen personlig information.';
 $string['selectcohorts'] = 'Välj kohorter';
 $string['selection'] = 'Urval';
 $string['selectusers'] = 'Välj användare';
-$string['status'] = 'Tillåt lägga till användare manuellt';
-$string['status_help'] = 'Denna inställning bestämmer om användare kan läggas till manuellt av exempelvis kursansvarig eller andra med sådana rättigheter.';
+$string['sendexpirynotificationstask'] = 'Skicka notiser om förfallna manuella kursregistreringar';
+$string['status'] = 'Tillåt manuell registrering';
+$string['status_desc'] = 'Tillåt kursåtkomst för internt registrerade användare. Detta alternativ bör vara aktiverat i de flesta fall.';
+$string['status_help'] = 'Denna inställning bestämmer om användare kan läggas till manuellt, via en länk i kursen, av exempelvis kursansvarig eller andra med sådana rättigheter.';
 $string['statusdisabled'] = 'Inaktiverad';
 $string['statusenabled'] = 'Aktiverad';
 $string['syncenrolmentstask'] = 'Synkronisera manuella kursregistreringar';
-$string['unenrol'] = 'Koppla bort deltagaren från kursen';
-$string['unenrolselectedusers'] = 'Koppla bort valda deltagare från kursen';
-$string['unenrolselfconfirm'] = 'Vill du verkligen koppla bort dig själv från kursen "{$a}"?';
-$string['unenroluser'] = 'Vill du verkligen koppla bort "{$a->user}" från kursen "{$a->course}"?';
+$string['unenrol'] = 'Avregistrera användare';
+$string['unenrolselectedusers'] = 'Avregistrera valda användare';
+$string['unenrolselfconfirm'] = 'Vill du verkligen avregistrera dig själv från kursen "{$a}"?';
+$string['unenroluser'] = 'Vill du verkligen avregistrera "{$a->user}" från kursen "{$a->course}"?';
 $string['unenrolusers'] = 'Avregistrera användare';
-$string['wscannotenrol'] = 'Det gick inte att manuellt registrera en användare i kursen id = {$a->courseid}';
-$string['wsnoinstance'] = 'Instansen för manuell registrering av användare finns inte eller är inaktiverad i kursen (id = {$a->courseid})';
+$string['wscannotenrol'] = 'Det gick inte att manuellt registrera en användare i kursen med id = {$a->courseid}';
+$string['wsnoinstance'] = 'Instansen för manuella kursregistreringar finns inte eller är inaktiverad i kursen (id = {$a->courseid})';
 $string['wsusercannotassign'] = 'Du har inte tillstånd att tilldela rollen ({$a->roleid}) till användaren ({$a->userid}) i den här kursen ({$a->courseid}).';

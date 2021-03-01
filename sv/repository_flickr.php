@@ -25,4 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['apikey'] = 'API-nyckel';
+$string['callbackurl'] = 'Callback-URL';
+$string['configplugin'] = 'Flickr-konfiguration';
+$string['emailaddress'] = 'E-post';
+$string['flickr:view'] = 'Visa Flickr-filer';
+$string['invalidemail'] = 'Ogiltig Flickr e-postadress';
+$string['notitle'] = 'utantitel';
+$string['nullphotolist'] = 'Det finns inga foton i detta kontot';
 $string['pluginname'] = 'Flickr';
+$string['pluginname_help'] = 'Lagring på flickr.com';
+$string['remember'] = 'Kom ihåg mig';
+$string['secret'] = 'Hemlighet';
+$string['username'] = 'Flickr e-postadress';

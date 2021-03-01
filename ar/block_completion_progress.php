@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['config_title'] = 'العنوان البديل';
 $string['showlastincourse'] = 'إظهار آخر وقت للطالب في المقرر الدراسي في النظرة العامة';
+$string['why_set_the_title'] = 'لماذا قد ترغب بتعيين عنوان عيِّنة الكتلة؟';

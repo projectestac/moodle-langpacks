@@ -25,7 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addmoredimensions'] = 'Blanksteg för ytterligare {$a} aspekter';
 $string['dimensioncommentfor'] = 'Kommentar till {$a}';
 $string['dimensiondescription'] = 'Beskrivning';
 $string['dimensionnumber'] = 'Aspekt {$a}';
 $string['pluginname'] = 'Kommentarer';
+$string['privacy:metadata'] = 'Pluginmodulen Kommentarsbedömning lagrar bara detaljerna från bedömningsformuläret. Faktiska personuppgifter om hur blanketten har fyllts lagras av själva workshopmodulen och bifogas exporterade bedömningar.';

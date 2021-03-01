@@ -25,8 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['beginanswernotfound'] = 'Det gick inte att hitta ett önskat \'{\' tecken i den importerade filens innehåll.';
-$string['endanswernotfound'] = 'Det gick inte att hitta ett önskat \'}\' tecken i den importerade filens innehåll.';
+$string['beginanswernotfound'] = 'Det gick inte att hitta ett obligatoriskt "{"-tecken i den importerade filens innehåll.';
+$string['endanswernotfound'] = 'Det gick inte att hitta ett obligatoriskt "}"-tecken i den importerade filens innehåll.';
 $string['noanswerfound'] = 'Inga svar hittades i frågan';
-$string['pluginname'] = 'Saknat ordformat';
-$string['pluginname_help'] = 'Saknat ordformat möjliggör import av frågor via en textfil.';
+$string['pluginname'] = 'Saknat ord-format';
+$string['pluginname_help'] = 'Saknat ord-format möjliggör import av frågor via en textfil.';
+$string['privacy:metadata'] = 'Pluginmodulen för frågeformat Saknat ord lagrar ingen personlig information.';

@@ -201,6 +201,7 @@ $string['generalcalendarevents'] = 'Incluir eventos de calendario';
 $string['generalcomments'] = 'Incluir comentarios';
 $string['generalcompetencies'] = 'Incluir competencias';
 $string['generalenrolments'] = 'Incluir métodos de matriculación';
+$string['generalfiles'] = 'Incluir archivos';
 $string['generalfilters'] = 'Incluir filtros';
 $string['generalgradehistories'] = 'Incluir historiales';
 $string['generalgroups'] = 'Incluir grupos y agrupamientos';

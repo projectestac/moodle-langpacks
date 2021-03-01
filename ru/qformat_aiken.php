@@ -28,3 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['pluginname'] = 'Формат Aiken';
 $string['pluginname_help'] = 'Это - простой формат для импортирования вопросов множественного выбора из текстового файла.';
 $string['privacy:metadata'] = 'Плагин «Формат Aiken» не хранит никаких персональных данных.';
+$string['questionmissinganswers'] = 'Вопрос должен иметь не менее 2 ответов в строке {$a}';
+$string['questionnotcomplete'] = 'Не заполнен вопрос  в строке {$a} до начала следующего вопроса';
+$string['questionnotstarted'] = 'Не начат вопрос в строке {$a}';

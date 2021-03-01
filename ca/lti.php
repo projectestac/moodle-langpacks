@@ -294,7 +294,7 @@ Si deixeu aquest camp en blanc, s\'utilitzarà el valor per defecte en la config
 $string['pagesize'] = 'Enviaments mostrats a la pàgina';
 $string['parameter'] = 'Paràmetres de l\'eina';
 $string['parameter_help'] = 'Els paràmetres de l\'eina són paràmetres necessaris per a ser aprovada pel proveïdor d\'eines en el servidor intermediari d\'eines acceptades.';
-$string['password'] = 'Contrasenya';
+$string['password'] = 'Contrasenya secreta compartida';
 $string['password_admin'] = 'Contrasenya (admin)';
 $string['password_admin_help'] = 'La contrasenya s\'utilitza per autenticar l\'usuari en l\'accés a l\'eina. Se sol proporcionar amb una clau per al proveïdor de l\'eina.
 

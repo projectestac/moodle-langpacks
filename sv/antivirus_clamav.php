@@ -26,12 +26,22 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['clamfailed'] = 'Det gick inte att köra Clam AV. Felmeddelandet var {$a}. Här är felbeskrivningen:';
+$string['clamfailureonupload'] = 'Vid ClamAV-fel';
 $string['configclamactlikevirus'] = 'Betrakta filer som virus';
 $string['configclamdonothing'] = 'Betrakta filer som OK';
+$string['errorcantopensocket'] = 'Anslutningen till Unix domain socket resulterade i felet {$a}';
+$string['errorclamavnoresponse'] = 'ClamAV svarar inte. Kontrollera status för daemon.';
+$string['errornounixsocketssupported'] = 'Unix domän socket transport stöds inte av det här systemet. Använd kommandoradsalternativet i stället.';
 $string['invalidpathtoclam'] = 'Moodle är inställt så att clam ska köras när någon laddar upp filer men den sökväg som är angiven för Clam AV, {$a}, är inte giltig.';
 $string['pathtoclam'] = 'Kommandorad';
+$string['pathtoclamdesc'] = 'Om körningsmetoden är inställd på "kommandorad" anger du sökvägen till ClamAV här. På Linux blir detta /usr/bin/clamscan eller /usr/bin/clamdscan.';
+$string['pathtounixsocket'] = 'Unix domain socket';
+$string['pathtounixsocketdesc'] = 'Om körningsmetoden är inställd på "Unix domain socket" anger du sökvägen till ClamAV Unix-socket här. På Debian Linux kommer detta att vara /var/run/clamav/clamd.ctl. Se till att clamav daemon har läsåtkomst till uppladdade filer. Det enklaste sättet att säkerställa att detta är att lägga till "clamav" -användare i din webbservergrupp ("www-data" på Debian Linux).';
 $string['pluginname'] = 'ClamAV Antivirus';
 $string['privacy:metadata'] = 'Pluginmodulen ClamAV lagrar ingen personlig information.';
 $string['quarantinedir'] = 'Karantänmapp';
+$string['runningmethod'] = 'Körningsmetod';
 $string['runningmethodcommandline'] = 'Kommandorad';
+$string['runningmethoddesc'] = 'Metod för att köra ClamAV. Kommandorads-baserad körning används som standard, men på Unix-system kan bättre prestanda erhållas med hjälp av system socketar.';
+$string['runningmethodunixsocket'] = 'Unix domain socket';
 $string['unknownerror'] = 'Det uppstod ett okänt fel med Clam.';

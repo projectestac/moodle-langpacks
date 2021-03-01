@@ -30,6 +30,7 @@ $string['defaultdate'] = 'Förvalt datum';
 $string['endyear'] = 'Slutår';
 $string['notset'] = 'Inte satt';
 $string['pluginname'] = 'Datum/Tid';
+$string['privacy:metadata:profilefield_datetime:tableexplanation'] = 'Ytterligare profildata';
 $string['specifydatedefault'] = 'eller specificera ett datum';
 $string['startyear'] = 'Startår';
 $string['startyearafterend'] = 'Startåret kan inte inträffa efter slutåret';

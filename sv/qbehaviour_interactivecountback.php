@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Interaktiv med flera försök (poäng för tidigare försök)';
+$string['pluginname'] = 'Interaktivt med flera försök (poäng för tidigare försök)';

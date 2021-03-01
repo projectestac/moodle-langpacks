@@ -26,3 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'EQUELLA-lagring';
+$string['restrictionattachmentsonly'] = 'Enbart bifogad resurs';
+$string['restrictionitemsonly'] = 'Enbart filsammanfattning';
+$string['restrictionnone'] = 'Ingen begränsning';
+$string['search'] = 'Sök i EQUELLA';
+$string['selectrestriction'] = 'Begränsa urval';
+$string['selectrestriction.desc'] = 'Välj om kursredigerare endast ska kunna välja en artikelsammanfattning, en bifogad resurs eller både ock';
+$string['sharedid'] = 'Delat hemligt ID';
+$string['sharedidtitle'] = 'Delat hemligt ID';
+$string['sharedsecrets'] = 'Delad hemlighet';
+$string['sharedsecretsheading'] = 'Inställningar för delad hemlighet';
+$string['sharedsecrettitle'] = 'Delad hemlighet';

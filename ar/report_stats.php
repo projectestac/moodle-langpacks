@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['eventreportviewed'] = 'تمت معاينة تقرير الإحصائيات';
-$string['eventuserreportviewed'] = 'تمت معاينة تقرير إحصائيات المستخدم';
+$string['eventreportviewed'] = 'تقرير إحصائيات تمت معاينته';
+$string['eventuserreportviewed'] = 'تقرير إحصائيات مستخدم تمت معاينته';
 $string['nocapability'] = 'تعذر الوصول إلى تقرير إحصائيات المستخدم';
 $string['page-report-stats-index'] = 'تقرير إحصائيات المقرر الدراسي';
 $string['page-report-stats-user'] = 'تقرير إحصائيات المستخدم في المقرر الدراسي';

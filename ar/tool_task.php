@@ -53,7 +53,7 @@ $string['runpattern'] = 'نمط التشغيل';
 $string['scheduledtaskchangesdisabled'] = 'تم منع التعديلات على قائمة المهام المجدولة في تكوين Moodle';
 $string['scheduledtasks'] = 'المهام المجدولة';
 $string['taskdisabled'] = 'تم تعطيل المهمة';
-$string['tasklogs'] = 'سجلات المهام';
+$string['tasklogs'] = 'سجلات وقوعات المهمة';
 $string['taskscheduleday'] = 'اليوم';
 $string['taskscheduleday_help'] = 'حقل يوم من الشهر لجدول المهام. يستخدم الحقل نفس تنسيق يونكس كرون. بعض الأمثلة هي:
 * * كل يوم

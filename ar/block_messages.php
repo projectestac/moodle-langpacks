@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['messages:addinstance'] = 'إضافة كتلة رسائل جديدة';
+$string['messages:myaddinstance'] = 'إضافة كتلة رسائل جديدة إلى دفة القيادة';
 $string['pluginname'] = 'رسائل';

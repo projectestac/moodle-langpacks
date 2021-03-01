@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Visa/Dölj knappar';
+$string['privacy:metadata'] = 'Pluginmodulen atto_collapse lagrar ingen personlig information.';
 $string['settings'] = 'Fäll ihop';
 $string['showfewer'] = 'Visa färre knappar';
 $string['showmore'] = 'Visa fler knappar';

@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['eventbookprinted'] = 'كتاب مطبوع';
-$string['eventchapterprinted'] = 'الفصل المطبوع';
+$string['eventbookprinted'] = 'كتاب تمت طباعته';
+$string['eventchapterprinted'] = 'فصل تمت طباعته';
 $string['pluginname'] = 'طباعة الكتاب';
 $string['print:print'] = 'اطبع الكتاب';
 $string['printbook'] = 'اطبع الكتاب';

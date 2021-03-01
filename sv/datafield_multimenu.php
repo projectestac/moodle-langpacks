@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['fieldtypelabel'] = 'Fält för flervalsmeny';
-$string['pluginname'] = 'Meny (välj flera)';
+$string['fieldtypelabel'] = 'Flervalsmeny';
+$string['pluginname'] = 'Flervalsmeny';
+$string['privacy:metadata'] = 'Fältkomponenten Flervalsmeny lagrar ingen personlig information. Den använder tabeller definierade i <code>mod_data</code>.';

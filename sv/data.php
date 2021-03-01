@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['action'] = 'Handling';
 $string['add'] = 'Lägg till bidrag';
 $string['addcomment'] = 'Lägg till kommentarer';
-$string['addentries'] = 'Lägg till bidrag';
+$string['addentries'] = 'Lägg till poster';
 $string['addtemplate'] = 'Lägg till en mall';
 $string['advancedsearch'] = 'Avancerad sökning';
 $string['allowcomments'] = 'Tillåt kommentarer till bidrag';
@@ -52,17 +52,18 @@ $string['availabletags_help'] = '<p align="center"><strong>Tillgängliga etikett
 <p>Knappar har följande format: ##somebutton##</p>
 <p>Endast de etiketter som finns in listan "Tillgängliga etiketter" kan användas för den aktuella mallen.</p>';
 $string['availabletodate'] = 'Tillgänglig till';
+$string['availabletodatevalidation'] = 'Tillgänglig till-datum kan inte vara före tillgänglig-från datum.';
 $string['blank'] = 'Tom';
 $string['buttons'] = 'Åtgärder';
 $string['bynameondate'] = 'av {$a->name} - {$a->date}';
 $string['calendarend'] = '{$a} stänger';
 $string['calendarstart'] = '{$a} öppnar';
 $string['cancel'] = 'Avbryt';
-$string['cannotaccesspresentsother'] = 'Du har inte tillstånd att läsa andra användares förinställningar ';
-$string['cannotadd'] = 'Det går inte att lägga till bidrag';
-$string['cannotdeletepreset'] = 'Fel vid borttagande av en förinställd mall!';
+$string['cannotaccesspresentsother'] = 'Du har inte behörighet att läsa andra användares förinställningar';
+$string['cannotadd'] = 'Det går inte att lägga till poster';
+$string['cannotdeletepreset'] = 'Fel vid borttagning av förinställning!';
 $string['cannotoverwritepreset'] = 'Fel vid överskrivning av förinställning';
-$string['cannotunziptopreset'] = 'Det går inte att packa upp den förinställda mallen';
+$string['cannotunziptopreset'] = 'Det går inte att packa upp till den förinställda katalogen';
 $string['checkbox'] = 'Kryssruta';
 $string['chooseexportfields'] = 'Välj de fält som du vill exportera:';
 $string['chooseexportformat'] = 'Välj det format som du vill exportera till:';
@@ -81,66 +82,46 @@ $string['completionentriescount'] = 'Antal poster';
 $string['completionentriesdesc'] = 'Minsta antal poster som krävs: {$a}';
 $string['configenablerssfeeds'] = 'Denna inställningen aktiverar möjligheten för RSS-flöden för alla databaser. Du kommer fortfarande att behöva aktivera flöden manuellt i inställningarna för varje databas.';
 $string['confirmdeletefield'] = 'Du håller på att ta bort det här fältet, är du säker?';
-$string['confirmdeleterecord'] = 'Är Du säker på att du vill ta bort det här bidraget?';
+$string['confirmdeleterecord'] = 'Är du säker på att du vill ta bort den här posten?';
 $string['confirmdeleterecords'] = 'Är du säker på att du vill ta bort dessa poster?';
 $string['csstemplate'] = 'CSS-mall';
 $string['csvfailed'] = 'Det går inte att läsa rådata från CSV-filen';
 $string['csvfile'] = 'CVS-fil';
 $string['csvimport'] = 'Import av CVS-fil';
-$string['csvimport_help'] = '<p align="center"><strong>Importera från en CSV-fil</strong></p>
-
-<p>CSV betyder (C)komma-Separarerade-Värden och det är ett vanligt format för textutbyte.</p>
-
-<p>Det förväntade filfomatet är en vanlig textfil med en lista över fältnamn
-som den första posten. Därefter följer data i form av en post per rad.</p>
-
-<p>Fältavgränsaren är normalt sett ett kommatecken medan det inte finns någon standard (t.ex. parenteser) för att omsluta varje fält i varje post. </p>
-
-<p>Posterna ska vara avskilda med nya rader (vanligtvis genererade genom att man trycker på RETURN
-   eller ENTER i ordbehandlingsprogrammet). Tabbar kan anges genom att man använder t och nya rader med n. </p>
-
-<p>Exempel på fil:</p>
-
-<pre>
-  namn,längd,vikt
-  Kai,180cm,80kg
-  Kim,170cm,60kg
-  Koo,190cm,20kg
-</pre>
-
-<p>OBS! Det kanske inte finns stöd för alla fälttyper.</p>';
+$string['csvimport_help'] = 'Poster kan importeras via en vanlig textfil innehållandes en lista med fältnamn som första rad, sedan data, med en post per rad.';
 $string['csvwithselecteddelimiter'] = '<acronym title="Comma Separated Values">CSV</acronym> text med vald avskiljare:';
 $string['data:addinstance'] = 'Lägg till en ny databas';
 $string['data:approve'] = 'Godkänn och ångra godkända poster';
 $string['data:comment'] = 'Skriv kommentar';
 $string['data:exportallentries'] = 'Exportera alla bidrag till databasen';
-$string['data:exportentry'] = 'Exportera ett bidrag till databasen';
-$string['data:exportownentry'] = 'Exportera ditt eget bidrag till databasen';
+$string['data:exportentry'] = 'Exportera databaspost';
+$string['data:exportownentry'] = 'Exportera egna databasposter';
 $string['data:exportuserinfo'] = 'Exportera information om användare';
 $string['data:managecomments'] = 'Hantera kommentarer';
-$string['data:manageentries'] = 'Hantera bidrag';
+$string['data:manageentries'] = 'Hantera poster';
 $string['data:managetemplates'] = 'Hantera mallar';
 $string['data:manageuserpresets'] = 'Hantera förinställningar för mallar';
-$string['data:rate'] = 'Betygssätt bidrag';
-$string['data:readentry'] = 'Läs bidrag';
+$string['data:rate'] = 'Betygssätt poster';
+$string['data:readentry'] = 'Läs poster';
 $string['data:view'] = 'Visa databasaktivitet';
-$string['data:viewallratings'] = 'Visa alla \'råa\' bedömningar/värderingar som individer har avgivit';
+$string['data:viewallratings'] = 'Visa alla \'råa\' bedömningar från enskilda';
 $string['data:viewalluserpresets'] = 'Visa förinställda från alla användare';
-$string['data:viewanyrating'] = 'Visa de sammanlagda bedömningar/värderingar som någon har fått';
-$string['data:viewentry'] = 'Visa bidrag';
-$string['data:viewrating'] = 'Visa de sammanlagda bedömningar/värderingar som du har fått';
-$string['data:writeentry'] = 'Skriv bidrag';
+$string['data:viewanyrating'] = 'Visa de sammanlagda bedömningar som någon har fått';
+$string['data:viewentry'] = 'Visa poster';
+$string['data:viewrating'] = 'Visa de sammanlagda bedömningar som du har fått';
+$string['data:writeentry'] = 'Skriv post';
 $string['date'] = 'Datum';
-$string['dateentered'] = 'Datum för bidrag';
+$string['dateentered'] = 'Datum';
 $string['defaultfielddelimiter'] = '(standard är kommatecknet)';
 $string['defaultfieldenclosure'] = '(standard är ingen)';
 $string['defaultsortfield'] = 'Standardfält för sortering';
+$string['delcheck'] = 'Kryssruta för massborttagning';
 $string['delete'] = 'Ta bort';
-$string['deleteallentries'] = 'Ta bort alla bidrag';
+$string['deleteallentries'] = 'Ta bort alla poster';
 $string['deletecomment'] = 'Är du säker på att du vill ta bort den här kommentaren?';
-$string['deleted'] = 'Borttaget';
+$string['deleted'] = 'borttagen';
 $string['deletefield'] = 'Ta bort ett befintligt fält';
-$string['deletenotenrolled'] = 'Ta bort bidrag som kommer från användare som inte är registrerade';
+$string['deletenotenrolled'] = 'Ta bort poster som kommer från användare som inte är registrerade';
 $string['deletewarning'] = 'Är du säker på att du vill ta bort den här förinställningen?';
 $string['descending'] = 'Fallande';
 $string['directorynotapreset'] = '{$a->directory} Inte en förinställning: saknade filer: {$a->missing_files}';
@@ -153,9 +134,10 @@ $string['editordisable'] = 'Inaktivera redigerare';
 $string['editorenable'] = 'Aktivera redigerare';
 $string['emptyadd'] = 'Mallen Lägg till är tom, skapar ett standardformulär...';
 $string['emptyaddform'] = 'Du fyllde inte i alla fält!';
+$string['enabletemplateeditorcheck'] = 'Är du säker på att du vill aktivera redigeraren? Detta kan resultera i att innehållet ändras då mallen sparas.';
 $string['entries'] = 'Bidrag';
-$string['entrieslefttoadd'] = 'Du måste lägga till {$a->entriesleft} fler bidrag för att fullfölja den här aktiviteten.';
-$string['entrieslefttoaddtoview'] = 'Du måste lägga till {$a->entrieslefttoview} fler bidrag innan du kan få se de andra deltagarnas bidrag.';
+$string['entrieslefttoadd'] = 'Du måste lägga till {$a->entriesleft} fler poster för att slutföra den här aktiviteten.';
+$string['entrieslefttoaddtoview'] = 'Du måste lägga till {$a->entrieslefttoview} fler poster innan du kan få se de andra deltagarnas poster.';
 $string['entry'] = 'Bidrag';
 $string['entrysaved'] = 'Ditt bidrag har sparats';
 $string['errormustbeteacher'] = 'Du måste vara lärare för att få använda den här sidan!';
@@ -224,7 +206,7 @@ $string['filtername'] = 'Auto-länkning av databas';
 $string['footer'] = 'Sidfot';
 $string['forcelinkname'] = 'Tvinga fram ett namn för länken';
 $string['foundnorecords'] = 'Inga poster funna (<a href="{$a->reseturl}">Filter för återställning</a>)';
-$string['foundrecords'] = 'Funna poster: {$a->num}/{$a->max} (<a href="{$a->reseturl}">Filter för återställning</a>)';
+$string['foundrecords'] = 'Funna poster: {$a->num}/{$a->max} (<a href="{$a->reseturl}">Återställ filter</a>)';
 $string['fromfile'] = 'Importera från .zip-fil.';
 $string['fromfile_help'] = 'Importera från zip-filen gör att du kan leta efter och ladda upp en förinställd zip-fil av mallar och fält.';
 $string['generateerror'] = 'Alla filer skapades inte!';
@@ -244,8 +226,11 @@ $string['includetime'] = 'Ange tidpunkt för tillägg/modifiering';
 $string['includeuserdetails'] = 'Ange även detaljinfo om användare';
 $string['indicator:cognitivedepth'] = 'Databas kognitiv';
 $string['indicator:cognitivedepth_help'] = 'Denna indikator baseras på det kognitiva djup som uppnåtts av studenten i en Databasaktivitet.';
+$string['indicator:cognitivedepthdef'] = 'Databas kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Deltagaren har nått denna procentandel av det kognitiva engagemang som erbjuds av Databas-aktiviteterna under detta analysintervall (Nivåer = Ingen visning, Visa, Skicka in)';
 $string['indicator:socialbreadth'] = 'Databas social';
 $string['indicator:socialbreadth_help'] = 'Denna indikator baseras på den sociala bredd som uppnåtts av studenten i en Databasaktivitet.';
+$string['indicator:socialbreadthdef'] = 'Databas social';
 $string['indicator:socialbreadthdef_help'] = 'Deltagaren har nått denna procentandel av det sociala engagemanget som erbjuds av Databasaktiviteterna under detta analysintervall (Nivåer = Inget deltagande, Deltagaren ensamt)';
 $string['insufficiententries'] = 'det behövs fler bidrag för att visa den här databasen';
 $string['intro'] = 'Beskrivning';
@@ -269,6 +254,7 @@ $string['list'] = 'Visa lista';
 $string['listtemplate'] = 'Mall för lista';
 $string['longitude'] = 'Longitud';
 $string['manageapproved'] = 'Tillåt redigering av godkända poster';
+$string['manageapproved_help'] = 'Om inaktiverat kan godkända poster inte längre redigeras eller tas bort av användaren som lade till dem. Den här inställningen har ingen effekt om inte "Godkännande krävs" är aktiverat.';
 $string['mapexistingfield'] = 'Koppla till {$a}';
 $string['mapnewfield'] = 'Skapa ett nytt fält';
 $string['mappingwarning'] = 'Alla gamla fält som inte är kartlagda till ett nytt fält kommer försvinna och alla data i det fältet kommer att tas bort.';
@@ -295,7 +281,7 @@ $string['newfield_help'] = '<p align="center"><strong>Fält</strong></p>
 <p>På den här skärmen kan du skapa de fält som kommer att vara del av din databas. </p>
 
 <p>Varje fält tillåter olika typer av data med olika gränssnitt.</p>';
-$string['noaccess'] = 'Du har inte tillträde till den här sidan';
+$string['noaccess'] = 'Du har inte åtkomst till den här sidan';
 $string['nodefinedfields'] = 'Den nya förinställningen har inga definierade fält!';
 $string['nofieldcontent'] = 'Det gick inte att hitta innehållet i fältet';
 $string['nofieldindatabase'] = 'Det finns inga fält definierade för den här databasen';
@@ -312,6 +298,7 @@ $string['numberrssarticles'] = 'Poster i RSS-flödet';
 $string['numnotapproved'] = 'Avvaktar';
 $string['numrecords'] = '{$a} bidrag';
 $string['ods'] = '<acronym title="OpenDocument Spreadsheet">ODS</acronym> (OpenOffice)';
+$string['openafterclose'] = 'Du har angivit ett startdatum som infaller efter slutdatum';
 $string['optionaldescription'] = 'Kort beskrivning (valfri)';
 $string['optionalfilename'] = 'Filnamn (valfritt)';
 $string['other'] = 'Övrigt';
@@ -328,8 +315,24 @@ $string['pluginname'] = 'Databas';
 $string['portfolionotfile'] = 'Exportera hellre till en portfolio än till en fil (endast csv och leap2)';
 $string['presetinfo'] = 'Om du sparar detta som en förinställning så kommer mallen att göras öppet tillgänglig. Andra användare kommer att kunna använda den i sina databaser.';
 $string['presets'] = 'Förinställda mallar';
+$string['privacy:metadata:commentpurpose'] = 'Kommentarer för databasposter';
+$string['privacy:metadata:data_content'] = 'Representerar ett svar på ett fält i databas-aktivitetsmodulen';
 $string['privacy:metadata:data_content:content'] = 'Innehåll';
+$string['privacy:metadata:data_content:content1'] = 'Ytterligare kommentar 1';
+$string['privacy:metadata:data_content:content2'] = 'Ytterligare kommentar 2';
+$string['privacy:metadata:data_content:content3'] = 'Ytterligare kommentar 3';
+$string['privacy:metadata:data_content:content4'] = 'Ytterligare kommentar 4';
+$string['privacy:metadata:data_content:fieldid'] = 'Fältdefinitions-ID';
+$string['privacy:metadata:data_records'] = 'Representerar poster i databasaktivitetsmodulen';
+$string['privacy:metadata:data_records:approved'] = 'Godkännandestatus';
 $string['privacy:metadata:data_records:groupid'] = 'Grupp';
+$string['privacy:metadata:data_records:timecreated'] = 'Tid då posten skapades';
+$string['privacy:metadata:data_records:timemodified'] = 'Tid då posten senast ändrades';
+$string['privacy:metadata:data_records:userid'] = 'Användare som skapade posten';
+$string['privacy:metadata:datafieldnpluginsummary'] = 'Fält för databasaktivitetsmodulen';
+$string['privacy:metadata:filepurpose'] = 'Fil bifogad till posten';
+$string['privacy:metadata:ratingpurpose'] = 'Poäng för databasposten';
+$string['privacy:metadata:tagpurpose'] = 'Etiketter på databasposter';
 $string['radiobutton'] = 'Radioknappar';
 $string['recordapproved'] = 'Bidraget har godkänts';
 $string['recorddeleted'] = 'Bidraget har tagits bort';
@@ -353,8 +356,9 @@ $string['requiredentriestoview'] = 'Det krävs att man gör bidrag innan man få
 $string['requiredentriestoview_help'] = '<p align="center"><strong>Obligatoriska bidrag för att få visa databasen</strong></p>
 
 <p>Det antal obligatoriska bidrag som en deltagare måste skicka in innan han/hon får lov att se några bidrag överhuvudtaget i aktiviteten databas.</p>';
+$string['requiredentrieswarning'] = 'Denna inställning har ersatts av en Aktivitetsslutförandeinställning "Kräv poster"';
 $string['requiredfield'] = 'Obligatoriskt fält';
-$string['resetsettings'] = 'Filter för återställning';
+$string['resetsettings'] = 'Återställ filter';
 $string['resettemplate'] = 'Återställ mall';
 $string['resizingimages'] = 'Återställer storleken på minibilder';
 $string['rows'] = 'Rader';
@@ -371,10 +375,11 @@ $string['savesettings'] = 'Spara inställningar';
 $string['savesuccess'] = 'Förinställningar sparades. Den kommer nu att vara tillgänglig på hela webbplatsen.';
 $string['savetemplate'] = 'Spara mall';
 $string['search'] = 'Sök';
+$string['search:activity'] = 'Databas - aktivitetsinformation';
 $string['search:entry'] = 'Databas - poster';
-$string['selectedrequired'] = 'Alla de valda är obligatoriska';
+$string['selectedrequired'] = 'Alla valda är obligatoriska';
 $string['showall'] = 'Visa alla bidrag';
-$string['single'] = 'Visa enskilt bidrag';
+$string['single'] = 'Visa enskild post';
 $string['singletemplate'] = 'Mall för enskilda bidrag';
 $string['subplugintype_datafield'] = 'Fälttyp i databas';
 $string['subplugintype_datafield_plural'] = 'Fälttyper i databas';
@@ -388,8 +393,8 @@ $string['templates'] = 'Mallar';
 $string['templatesaved'] = 'Mallen har sparats.';
 $string['text'] = 'Text';
 $string['textarea'] = 'Textyta';
-$string['timeadded'] = 'Tillagd när';
-$string['timemodified'] = 'Modifierad när';
+$string['timeadded'] = 'Tillagd';
+$string['timemodified'] = 'Modifierad';
 $string['todatabase'] = 'till den här databasen';
 $string['type'] = 'Typ av fält';
 $string['undefinedprocessactionmethod'] = 'Ingen metod för händelser har definierats i Data_Preset för att hantera händelsen "{$a}".';
@@ -412,4 +417,5 @@ $string['usestandard_help'] = '<p align="center"><strong>Använd en förinställ
 <p> Om du dessutom har sparat mallen till en databas med hjälp av \'Spara som förinställd mall\' så kan du ta bort den när du vill.</p>';
 $string['viewfromdate'] = 'Möjlig att endast läsa fr.o.m.';
 $string['viewtodate'] = 'Möjlig att endast läsa t.o.m.';
+$string['viewtodatevalidation'] = 'Till-datum kan inte komma före från-datum.';
 $string['wrongdataid'] = 'Det data-id som har angivits är felaktigt';

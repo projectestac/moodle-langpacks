@@ -25,5 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Checkbox';
-$string['privacy:metadata:profilefield_checkbox:tableexplanation'] = 'Ytterligare profilinformation';
+$string['pluginname'] = 'Kryssruta';
+$string['privacy:metadata:profilefield_checkbox:data'] = 'Användardata för kryssrutefältet';
+$string['privacy:metadata:profilefield_checkbox:dataformat'] = 'Formatet på användardata i kryssruta';
+$string['privacy:metadata:profilefield_checkbox:fieldid'] = 'ID för profilfält';
+$string['privacy:metadata:profilefield_checkbox:tableexplanation'] = 'Ytterligare profildata';
+$string['privacy:metadata:profilefield_checkbox:userid'] = 'ID för användare vars data lagras av kryssrutefältet';

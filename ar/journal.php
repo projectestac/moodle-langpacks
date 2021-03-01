@@ -31,6 +31,8 @@ $string['daysavailable'] = 'الأيام المتاحة';
 $string['editingended'] = 'انتهت فترة التعديل';
 $string['editingends'] = 'تنتهي فترة التعديل';
 $string['entries'] = 'مدخلات';
+$string['evententriesviewed'] = 'إدخالات دفتر يوميات تمت معاينتها';
+$string['eventjournalviewed'] = 'دفتر يوميات تمت معاينته';
 $string['feedbackupdated'] = 'تصحيح محدث {$a} للمدخلات';
 $string['journalmail'] = '{$a->teacher} قام يوضع بعض التصحيحات على مادة مذكرتك المسلمة لـ \'{$a->journal}\'
 تستطيع مشاهدتها مرفقة مع مادة مذكرتك: {$a->url}';

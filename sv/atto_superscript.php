@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Upphöjd text';
+$string['privacy:metadata'] = 'Pluginmodulen atto_superscript lagrar ingen personlig information.';

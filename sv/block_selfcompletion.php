@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['alreadyselfcompleted'] = 'Du har redan markerat dig själv som slutförd i denna kurs';
 $string['completecourse'] = 'Fullföljd kurs';
 $string['pluginname'] = 'Eget fullföljande';
+$string['selfcompletion:addinstance'] = 'Lägg till nytt block för självregistrering';

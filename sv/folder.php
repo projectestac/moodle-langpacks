@@ -44,6 +44,7 @@ $string['foldercontent'] = 'Filer och undermappar';
 $string['indicator:cognitivedepth'] = 'Mapp kognitiv';
 $string['indicator:cognitivedepth_help'] = 'Denna indikator baseras på det kognitiva djup som uppnåtts av studenten i en Mappresurs.';
 $string['indicator:cognitivedepthdef'] = 'Folder kognitivt';
+$string['indicator:cognitivedepthdef_help'] = 'Deltagaren har nått denna procentandel av det kognitiva engagemang som erbjuds av Mapp-aktiviteterna under detta analysintervall (Nivåer = Ingen visning, Visa)';
 $string['indicator:socialbreadth'] = 'Mapp social';
 $string['indicator:socialbreadth_help'] = 'Denna indikator baseras på den sociala bredd som uppnåtts av studenten i en Mappaktivitet.';
 $string['indicator:socialbreadthdef'] = 'Mapp socialt';

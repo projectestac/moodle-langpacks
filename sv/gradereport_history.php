@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['allgradeitems'] = 'Alla betygskomponenter';
+$string['allgradeitems'] = 'Alla betygsobjekt';
 $string['allgraders'] = 'Alla betygsättare';
 $string['datefrom'] = 'Datum från';
 $string['datetime'] = 'Datum och tid';
@@ -33,16 +33,29 @@ $string['dateto'] = 'Datum till';
 $string['deleteditemid'] = 'Ta bort post med id {$a}';
 $string['errajaxsearch'] = 'Fel vid sökning av användare';
 $string['eventgradereportviewed'] = 'Rapport av betygshistorik har setts';
-$string['excluded'] = 'Exkluderar från beräkningar';
-$string['exportfilename'] = 'betygs_historia';
+$string['excluded'] = 'Exkluderad från beräkningar';
+$string['exportfilename'] = 'betygs_historik';
 $string['feedbacktext'] = 'Text för återkoppling';
 $string['finishselectingusers'] = 'Avsluta väljande av användare';
-$string['foundnusers'] = '{$a} användare hittade';
+$string['foundnusers'] = 'hittade {$a} användare';
 $string['foundoneuser'] = '1 användare hittad';
 $string['gradenew'] = 'Reviderat betyg';
 $string['gradeold'] = 'Originalbetyg';
 $string['grader'] = 'Betygsättare';
 $string['history:view'] = 'Visa betygshistorik';
+$string['historyperpage'] = 'Antal poster per sida';
+$string['historyperpage_help'] = 'Denna inställningar anger hur många historikposter per sida som ska visas i rapporten.';
+$string['loadmoreusers'] = 'Hämta fler användare...';
 $string['pluginname'] = 'Betygshistorik';
 $string['preferences'] = 'Inställningar för betygshistorik';
+$string['privacy:metadata'] = 'Betygshistorikrapporten visar enbart data som lagras på andra platser.';
+$string['revisedonly'] = 'Enbart reviderade betyg';
+$string['revisedonly_help'] = 'Visa enbart betyg som reviderats.
+
+Detta betyder att enbart poster med betyg som har ändrats visas.';
+$string['selectedusers'] = 'Valda användare';
+$string['selectuser'] = 'Välj användare';
+$string['selectusers'] = 'Välj användare';
+$string['source'] = 'Källa';
 $string['useractivityfeedback'] = '{$a} återkoppling';
+$string['useractivitygrade'] = '{$a} betyg';

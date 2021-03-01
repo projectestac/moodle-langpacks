@@ -28,4 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['indent'] = 'Einrücken';
 $string['outdent'] = 'Ausrücken';
 $string['pluginname'] = 'Einrücken';
-$string['privacy:metadata'] = 'Das Plugin atto_accessibilityhelper speichert keine personenbezogenen Daten.';
+$string['privacy:metadata'] = 'Das Plugin atto_indent speichert keine personenbezogenen Daten.';

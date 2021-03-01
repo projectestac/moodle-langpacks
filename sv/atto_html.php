@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'HTML';
+$string['privacy:metadata'] = 'Pluginmodulen atto_html lagrar ingen personlig information.';

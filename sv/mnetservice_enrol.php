@@ -25,5 +25,24 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['clientname_help'] = 'Registrera och avregistrera användare från din Moodle-installation hos Moodlevärdar som tillåter dig att göra detta via plugin-programmet för registreringar inom ett nätverk för Moodle.';
-$string['otherenrolledusers'] = 'Andra registrerade användare';
+$string['availablecourseson'] = 'Tillgängliga kurser på {$a}';
+$string['availablecoursesonnone'] = 'Fjärrservern <a href="{$a->hosturl}">{$a->hostname}</a> erbjuder inga kurser för våra användare.';
+$string['clientname'] = 'Fjärregistreringsklient';
+$string['clientname_help'] = 'Detta verktyg låter dig registrera och avregistrera lokala användare på fjärrservrar som gör att du kan göra detta via Pluginmodulen \'MNet fjärregistrering\'.';
+$string['editenrolments'] = 'Redigera kursregistreringar';
+$string['hostappname'] = 'Applikation';
+$string['hostname'] = 'Servernamn';
+$string['hosturl'] = 'URL till fjärrserver';
+$string['nopublishers'] = 'Inga fjärrkollegor tillgängliga';
+$string['noroamingusers'] = 'Användare behöver funktionsbehörigheten <code>{$a}</code> i systemkontexten för att kunna registreras på fjärrkurser, men, det finns för närvarande inga användare med den här behörigheten. Klicka på fortsätt-knappen för att tilldela den nödvändiga behörigheten till en eller flera roller på din webbplats.';
+$string['otherenrolledusers'] = 'Övriga registrerade användare';
+$string['pluginname'] = 'Tjänst för fjärregistrering';
+$string['privacy:metadata:mnetservice_enrol_enrolments'] = 'Tjänst för fjärregistrering';
+$string['privacy:metadata:mnetservice_enrol_enrolments:enroltime'] = 'Tidpunkt då registreringen ändrades';
+$string['privacy:metadata:mnetservice_enrol_enrolments:enroltype'] = 'Fjärrserverns registreringstyp som används för att registrera användare på deras kurs';
+$string['privacy:metadata:mnetservice_enrol_enrolments:hostid'] = 'ID för MNet-fjärrservern';
+$string['privacy:metadata:mnetservice_enrol_enrolments:remotecourseid'] = 'ID för kursen på fjärrservern';
+$string['privacy:metadata:mnetservice_enrol_enrolments:rolename'] = 'Namn på rollen på fjärrservern';
+$string['privacy:metadata:mnetservice_enrol_enrolments:tableexplanation'] = 'Pluginmodulen Tjänst för fjärregistrering lagrar information om lokala användares kursregistreringar på fjärrservrar.';
+$string['privacy:metadata:mnetservice_enrol_enrolments:userid'] = 'ID för lokal användare på denna server';
+$string['refetch'] = 'Uppdatera aktuell status från fjärrservrar';

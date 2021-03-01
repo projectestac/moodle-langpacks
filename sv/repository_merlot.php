@@ -26,4 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['licensekey'] = 'Licensnyckel';
+$string['merlot:view'] = 'Visa innehåll i Merlot';
 $string['pluginname'] = 'Merlot.org';
+$string['pluginname_help'] = 'Merlot.org';

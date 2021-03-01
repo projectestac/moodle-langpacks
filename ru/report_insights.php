@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['confirmbulkaction'] = 'Вы действительно хотите отметить выбранные прогнозы ({$a->nitems}) как «{$a->action}»?';
 $string['disabledmodel'] = 'Извините, эта модель была отключена администратором';
 $string['insight'] = 'Инсайт';
 $string['insights'] = 'Инсайты';

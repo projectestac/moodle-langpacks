@@ -49,7 +49,7 @@ $string['displayselect_help'] = 'Denna inställning bestämmer tillsammans med t
 * Bädda in – filen visas inbäddad på moodlesidan
 * Tvingad nedladdning – användaren måste spara filen på sin dator och öppna den därifrån
 * Öppna – filen visas direkt, vilket kan innebära att användaren måste backa i webbläsaren för att komma tillbaka till Moodle.
-* I pop-up – filen visas i ett pop-up fönster vars egenskaper kan ställas in.
+* Öppna i popupfönster – filen visas i ett popupfönster vars egenskaper kan ställas in.
 * I ram – filen visas i en inbäddad ram på moodlesidan
 * Nytt fönster – filen visas i webbläsaren i ett nytt fönster';
 $string['displayselectexplain'] = 'Välj visningsläge. Dessvärre passar inte alla lägen för alla filer.';
@@ -63,8 +63,11 @@ $string['forcedownload'] = 'Framtvinga nedladdning';
 $string['framesize'] = 'Ramstorlek';
 $string['indicator:cognitivedepth'] = 'Fil kognitiv';
 $string['indicator:cognitivedepth_help'] = 'Denna indikator baseras på det kognitiva djup som uppnåtts av studenten i en Filresurs.';
+$string['indicator:cognitivedepthdef'] = 'Fil kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Deltagaren har nått denna procentandel av det kognitiva engagemang som erbjuds av Fil-resurserna under detta analysintervall (Nivåer = Ingen visning, Visa)';
 $string['indicator:socialbreadth'] = 'Fil social';
 $string['indicator:socialbreadth_help'] = 'Denna indikator baseras på den sociala bredd som uppnåtts av studenten i en Filresurs.';
+$string['indicator:socialbreadthdef'] = 'Fil social';
 $string['indicator:socialbreadthdef_help'] = 'Deltagaren har nått denna procentandel av det sociala engagemanget som erbjuds av Filresurserna under detta analysintervall (Nivåer = Inget deltagande, Deltagaren ensamt)';
 $string['legacyfiles'] = 'Migration av gammal kursfil';
 $string['legacyfilesactive'] = 'Aktiv';
@@ -84,7 +87,7 @@ $string['modulenameplural'] = 'Filer';
 $string['notmigrated'] = 'Den här "legacy"-typen av resurs ({$a}) har tyvärr ännu inte migrerats. ';
 $string['optionsheader'] = 'Visa alternativ';
 $string['pluginadministration'] = 'Administration av modul för filer';
-$string['pluginname'] = 'Resurs';
+$string['pluginname'] = 'Fil';
 $string['popupheight'] = 'Höjd på popup-fönster (i pixlar)';
 $string['popupheightexplain'] = 'Anger standardhöjden på popup-fönster.';
 $string['popupresource'] = 'Den här resursen bör dyka upp i ett snabbfönster.';

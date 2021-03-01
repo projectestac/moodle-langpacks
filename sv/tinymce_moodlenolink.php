@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['moodlenolink:desc'] = 'Förhindra automatisk länkning';
 $string['pluginname'] = 'Förhindra automatisk länkning';
+$string['privacy:metadata'] = 'Pluginmodulen Förhindra automatisk länkning lagrar ingen personlig information.';

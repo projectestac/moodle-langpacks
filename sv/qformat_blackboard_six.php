@@ -29,6 +29,7 @@ $string['defaultname'] = 'Importerad fråga {$a}';
 $string['errormanifest'] = 'Fel vid analys av IMS deklarationsdokumentet';
 $string['filenothandled'] = 'Detta arkiv innehåller referenser till  fil material {$a} som iför närvarande inte hanteras av import';
 $string['imagenotfound'] = 'Sökvägen för bildfilen {$a} hittades inte vid importen';
+$string['importedcategory'] = 'Importerad kategori {$a}';
 $string['importnotext'] = 'Saknad frågetext i XML filen';
 $string['notenoughtsubans'] = 'Kunde inte importera matchande fråga \'{$a}\' eftersom en matchande fråga måste bestå av minst två frågor och tre svar.';
 $string['pluginname'] = 'Blackboard V6+';

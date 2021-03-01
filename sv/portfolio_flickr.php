@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['apikey'] = 'API-nyckel';
-$string['contenttype'] = 'Typer av innehåll';
+$string['contenttype'] = 'Innehållstyper';
 $string['err_noapikey'] = 'Ingen API-nyckel';
 $string['err_noapikey_help'] = 'Det finns ingen API-nyckel som har konfigurerats för det här plugin-programmet. Du kan hämta en sådan på Flickrs sida för tjänster.';
 $string['hidefrompublicsearches'] = 'Vill Du dölja dessa bilder för offentliga sökningar?';

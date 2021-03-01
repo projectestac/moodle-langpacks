@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['displaycategories'] = 'Visa kategorier';
 $string['displaycategories_help'] = 'Visa kurskategorier för posterna i blocket för de senast besökta kurserna.';
-$string['nocourses'] = 'Det finns inga senast besökta kurser';
+$string['nocourses'] = 'Det finns inga senaste kurser';
 $string['pluginname'] = 'Senast besökta kurser';
 $string['privacy:metadata'] = 'Blocket Senast besökta kurser sparar inga personuppgifter.';
 $string['recentlyaccessedcourses:myaddinstance'] = 'Lägg till blocket Senast besökta kurser till Mitt Moodle';

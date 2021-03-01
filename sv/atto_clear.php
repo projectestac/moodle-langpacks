@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Radera formatering';
+$string['pluginname'] = 'Rensa formatering';
+$string['privacy:metadata'] = 'Pluginmodulen atto_clear lagrar ingen personlig information.';

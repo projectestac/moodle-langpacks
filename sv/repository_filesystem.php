@@ -26,10 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['blockedpath'] = 'Sökvägen till rotkatalogen är blockerad';
-$string['configplugin'] = 'Inställning för arkiv på filsystemet';
+$string['configplugin'] = 'Konfiguration av fillagring';
+$string['crontask'] = 'Bakgrundsbearbetning av filsystemslagringsplats';
 $string['donotusesysdir'] = 'Använd inte systemkataloger som arkiv, inklusive';
-$string['enablecourseinstances'] = 'Tillåt användare att lägga till en arkiv instans till kursen (kan konfigureras endast av administratörer)';
-$string['enableuserinstances'] = 'Tillåt användare att lägga till en arkivinstans i användarkontexten (kan konfigureras endast av administratörer)';
+$string['enablecourseinstances'] = 'Tillåt administratörer att lägga till en lagringsplatsinstans för filsystem till en kurs (endast konfigurerbar av administratörer)';
+$string['enableuserinstances'] = 'Tillåt administratörer att lägga till en lagringsplatsinstans för filsystem för en användare (endast konfigurerbar av administratörer)';
 $string['filesystem:view'] = 'Visa lagringsplats för filsystem';
 $string['information'] = 'Dessa mappar ligger inom <b>{$a}</b> katalogen.';
 $string['invalidpath'] = 'Felaktig sökväg till rotkatalogen';
@@ -37,4 +38,8 @@ $string['nosubdir'] = 'Du måste skapa minst en katalog inuti <b>{$a}</b> så du
 $string['path'] = 'Välj en underkatalog';
 $string['pluginname'] = 'Filsystem';
 $string['pluginname_help'] = 'Skapa arkiv från lokal katalog';
+$string['privacy:metadata'] = 'Pluginmodulen Fillagringsplats varken lagrar eller överför personlig data';
+$string['relativefiles'] = 'Tillåt relativa filer';
+$string['relativefiles_desc'] = 'Möjliggör för alla filer på lagringsplatsen att kunna nås via relativa länkar.';
 $string['root'] = 'Rot';
+$string['searchresults'] = 'Sökresultat';

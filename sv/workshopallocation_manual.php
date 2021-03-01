@@ -25,10 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addreviewee'] = 'Lägg till granskningsobjekt';
 $string['addreviewer'] = 'Lägg till bedömare';
-$string['allocationadded'] = 'Inlämningen har framgångsrikt tilldelats';
-$string['allocationexists'] = 'Tilldelningen finns redan';
-$string['areyousuretodeallocate'] = 'Är du säker på att du vill ta bort tilldelningen av den valda bedömningen?';
-$string['areyousuretodeallocategraded'] = 'Du håller på att radera en utvärdering som redan har betygsatts. Är du säker på att du vill göra det?';
-$string['pluginname'] = 'Manuell tilldelning';
+$string['allocationadded'] = 'Inlämningen har fördelats';
+$string['allocationexists'] = 'Fördelningen finns redan';
+$string['areyousuretodeallocate'] = 'Är du säker på att du vill ta bort fördelningen av den valda bedömningen?';
+$string['areyousuretodeallocategraded'] = 'Du håller på att ta bort en bedömning som redan har betygsatts. Är du säker på att du vill göra det?';
+$string['pluginname'] = 'Manuell fördelning';
+$string['privacy:metadata:preference:perpage'] = 'Antalet fördelade bedömningar användaren vill se per sida.';
 $string['showallparticipants'] = 'Visa alla deltagare';

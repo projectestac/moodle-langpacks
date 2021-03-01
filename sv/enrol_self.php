@@ -41,7 +41,7 @@ Följande platshållare kan inkluderas i meddelandet:
 * Länk till användarens profilsida {$a->profileurl}
 * Användar e-post {$a->email}
 * Användarens fullständiga namn {$a->fullname}';
-$string['defaultrole'] = 'Standardroll för användare';
+$string['defaultrole'] = 'Standardroll';
 $string['defaultrole_desc'] = 'Bestäm vilken roll användare som anger en registreringsnyckel ska få i kursen.';
 $string['deleteselectedusers'] = 'Ta bort registreringar för valda deltagare';
 $string['editselectedusers'] = 'Editera valda användarregistreringar';
@@ -49,13 +49,13 @@ $string['enrolenddate'] = 'Slutdatum';
 $string['enrolenddate_help'] = 'Om aktiverat, kan användare inte registrera sig på kursen med registreringsnyckel efter det angivna datumet.';
 $string['enrolenddaterror'] = 'Datum för registrering kan inte vara senare än startdatumet.';
 $string['enrolme'] = 'Registrera mig';
-$string['enrolperiod'] = 'Varaktighet för registreringen';
-$string['enrolperiod_desc'] = 'Standard tidslängd som registreringen är giltig (i sekunder). Om satt till noll, kommer registreringens varaktighet att vara obegränsad som standard.';
+$string['enrolperiod'] = 'Registreringens varaktighet';
+$string['enrolperiod_desc'] = 'Standarvaraktighet för registreringens giltighet. 0 = obegränsad.';
 $string['enrolperiod_help'] = 'Tidslängd som inskrivningen är giltig, med början i det ögonblick användaren registrerar sig. Om inaktiverad, kommer inskrivning varaktigheten vara obegränsad.';
 $string['enrolstartdate'] = 'Startdatum';
 $string['enrolstartdate_help'] = 'Om aktiverat, kan användare registrera sig på kursen med registreringsnyckel från och med det angivna datumet.';
-$string['expiredaction'] = 'Åtgärd vid utgången registreringsnyckel';
-$string['expiredaction_help'] = 'Välj åtgärd som ska utföras när registreringen av användare upphör att gälla. Observera att vissa användardata och inställningar rensas från kursen kursen vid avregistreringen.';
+$string['expiredaction'] = 'Åtgärd vid förfallen registrering';
+$string['expiredaction_help'] = 'Välj den åtgärd som ska utföras då registreringen förfaller. Vänligen tänk på att viss användardata och vissa inställningar tas bort från kursen vid avregistreringen.';
 $string['expirymessageenrolledbody'] = 'Hej {$a->user},
 
 Din registrering till kursen \'{$a->course}\' upphör den {$a->timeend}. Efter detta datum kommer du inte längre kunna logga in till kursen.

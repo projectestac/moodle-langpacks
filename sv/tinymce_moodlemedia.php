@@ -26,3 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['moodlemedia:browsemedia'] = 'Hitta eller ladda upp ett ljud, video eller en applet...';
+$string['moodlemedia:desc'] = 'Infoga Moodle-media';
+$string['nopreview'] = 'Kan inte förhandsgranska media.';
+$string['pluginname'] = 'Infoga media';
+$string['privacy:metadata'] = 'Pluginmodulen TinyMCE Infoga media lagrar ingen personlig information.';

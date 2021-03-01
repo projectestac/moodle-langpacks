@@ -44,6 +44,7 @@ $string['invalidgradeimport'] = 'Moodle kunde inte läsa det uppladdade arbetsbl
 $string['nochanges'] = 'Inga ändrade betyg funna i det uppladdade arbetsbladet';
 $string['offlinegradingworksheet'] = 'Betyg';
 $string['pluginname'] = 'Arbetsblad för betygsättning offline';
+$string['privacy:nullproviderreason'] = 'Denna pluginmodul har ingen databas i vilken personinformation sparas. Den använder enbart API:er i mod_assign som stöd för visningen av bedömningsgränssnittet.';
 $string['processgrades'] = 'Importera betyg';
 $string['skiprecord'] = 'Hoppa över post';
 $string['updatedgrades'] = 'Uppdaterade {$a} betyg och återkoppling';

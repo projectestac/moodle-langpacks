@@ -73,7 +73,7 @@ $string['delete_old_items'] = 'Alte Elemente löschen';
 $string['delete_pagebreak'] = 'Seitenumbruch löschen';
 $string['delete_template'] = 'Vorlage löschen';
 $string['delete_templates'] = 'Vorlage löschen...';
-$string['depending'] = 'Abhängige Elemente';
+$string['depending'] = 'Abhängigkeiten';
 $string['depending_help'] = 'Abhängige Elemente erlauben es Ihnen zu zeigen, wie Elemente mit den Werten anderer Elemente zusammenhängen<br /><br />
 <strong>Beispiel für abhängige Elemente:</strong>
 <ul>

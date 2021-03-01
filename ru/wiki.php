@@ -125,6 +125,8 @@ $string['indicator:cognitivedepth'] = 'Вики: познавательный а
 $string['indicator:cognitivedepth_help'] = 'Этот показатель основан на глубине познания, достигнутой студентом при работе с элементом курса «Вики».';
 $string['indicator:socialbreadth'] = 'Вики: социальный аспект';
 $string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с элементом Вики.';
+$string['indicator:socialbreadthdef'] = 'Вики: социальный аспект';
+$string['indicator:socialbreadthdef_help'] = 'Участник достиг этого процента социальной активности, предлагаемой элементами Вики в течение этого интервала анализа (Уровни = нет участия, единственный участник, участник с другими)';
 $string['individualpagedoesnotexist'] = 'Нет отдельной страницы Вики';
 $string['insertcomment'] = 'Вставить комментарий';
 $string['insertimage'] = 'Вставить изображение...';

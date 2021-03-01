@@ -29,7 +29,7 @@ $string['addbulknote'] = 'Lägg till ny anteckning till {$a} personer';
 $string['addbulknotedone'] = 'Anteckning tillagd till {$a} personer';
 $string['addbulknotedonesingle'] = 'Anteckning tillagd till 1 person';
 $string['addbulknotesingle'] = 'Lägg till ny anteckning till 1 person';
-$string['addnewnote'] = 'Lägg till ny anteckning';
+$string['addnewnote'] = 'Ny anteckning';
 $string['addnewnoteselect'] = 'Välj de användare du vill skriva anteckningar om';
 $string['bynameondate'] = 'av {$a->name} - {$a->date}';
 $string['configenablenotes'] = 'Aktivera lagring av anteckningar om individuella användare';
@@ -75,5 +75,5 @@ $string['publishstate_help'] = '<p>Det finns tre möjliga inställningar här</p
 <li><strong>Webbplats</strong> - Anteckningen kommer att vara synlig för lärarna på alla kurser.</li>
 </ul>';
 $string['site'] = 'webbplats';
-$string['sitenotes'] = 'Anteckningar på webbplatsnivå (kan läsas av alla lärare)';
+$string['sitenotes'] = 'Webbplatsanteckningar';
 $string['unknown'] = 'okänd';

@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['adminview'] = 'Vy för administratörer';
 $string['allcourses'] = 'Administratören ser alla kurser';
 $string['configadminview'] = 'Om alla kurser i blocket Kurser ska visas, eller bara kurser som administratören är inskriven i.';
-$string['confighideallcourseslink'] = 'Dölj länken \'Alla kurser\' längst ner på blocket. Detta påverkar inte det som administratören kan se.';
+$string['confighideallcourseslink'] = 'Dölj länken \'Alla kurser\' nedanför kurslistan. Detta påverkar inte det administratören ser.';
 $string['course_list:addinstance'] = 'Lägg till en ny Kursblock';
 $string['course_list:myaddinstance'] = 'Lägg till en ny Kursblock på Mitt Moodle';
 $string['hideallcourseslink'] = 'Dölj \'Alla kurser\'-länken';

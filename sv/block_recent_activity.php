@@ -27,6 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['cleanuptask'] = 'Städa upp blocket senaste aktiviteter';
 $string['pluginname'] = 'Senaste aktivitet';
+$string['privacy:metadata:block_recent_activity:action'] = 'Åtgärd: skapad, uppdaterad eller borttagen.';
+$string['privacy:metadata:block_recent_activity:cmid'] = 'Kursaktiviteter-ID';
+$string['privacy:metadata:block_recent_activity:courseid'] = 'Kurs-ID';
+$string['privacy:metadata:block_recent_activity:timecreated'] = 'Tidpunkt då åtgärden utfördes';
+$string['privacy:metadata:block_recent_activity:userid'] = 'Användare som utför åtgärden';
 $string['recent_activity:addinstance'] = 'Lägg till blocket Senaste aktivitet';
 $string['recent_activity:viewaddupdatemodule'] = 'Visa nya och uppdaterade moduler i blocket Senaste aktivitet';
 $string['recent_activity:viewdeletemodule'] = 'Visa borttagna moduler i blocket Senaste aktivitet';

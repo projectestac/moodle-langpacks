@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['invaliddata'] = 'Inte tillräckligt med data';
 $string['participants'] = 'Deltagarantal';

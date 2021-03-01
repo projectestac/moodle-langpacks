@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['cc2moodle_checking_schema'] = 'CC-format! Kontrollerar schemat...';
+$string['cc2moodle_checking_schema'] = 'CC-format! Kontrollerar schema...';
 $string['cc2moodle_invalid_schema'] = 'Schemat är inte giltigt.';
 $string['cc2moodle_manifest_dont_load'] = 'Det går inte att ladda XML-manifestet.';
 $string['cc2moodle_req_auth'] = 'FEL: Common Cartridge-paketetet kräver auktorisation.';
@@ -35,5 +35,6 @@ $string['cc_import_req_libxml'] = 'FEL: Importen av Common Cartridge-paketetet k
 $string['cc_import_req_libxmlminversion'] = 'FEL: Importen av Common Cartridge-paketetet kräver LIBXML version 2.6.30 eller nyare.';
 $string['cc_import_req_php5'] = 'FEL: Importen av Common Cartridge-paketetet kräver PHP 5 eller högre.';
 $string['cc_import_req_xsl'] = 'FEL: Importen av Common Cartridge-paketetet kräver XSL.';
-$string['enable_cc_import'] = 'Aktivera CC import';
+$string['checkingforimscc'] = 'Söker efter IMS-CC...';
+$string['enable_cc_import'] = 'Aktivera CC-import';
 $string['enable_cc_import_description'] = 'Den här inställningen aktiverar import av Common Cartridge (IMS-CC) paket genom att använda den vanliga funktionen för återställande. Lägg märke till att det krävs tillägg av typen PHP5, DOM, XSL och LIBXML (2.6.30 eller nyare) för att det ska gå att installera detta på servern.';

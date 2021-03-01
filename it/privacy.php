@@ -25,8 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['broughtbymoodle'] = 'Questa esportazione dati è fornita da Moodle.';
 $string['exportfrom'] = 'Esportato da {$a}';
 $string['exporttime'] = 'Esportato il {$a}';
+$string['exportuser'] = 'Dati di {$a}';
 $string['navigation'] = 'Navigazione';
 $string['privacy:metadata'] = 'Il sottosistema privacy non memorizza dati personali ed è progettato per fungere da canale tra i componenti e l\'interfaccia utilizzata per descrivere, esportare e rimuovere i dati.';
 $string['privacy:subsystem:empty'] = 'Il sottosistema non memorizza dati.';

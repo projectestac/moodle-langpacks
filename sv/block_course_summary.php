@@ -27,5 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['course_summary:addinstance'] = 'Lägg till ett kursöversikts block.';
 $string['coursesummary'] = 'Sammanfattning av kurs';
-$string['pluginname'] = 'Beskrivning av kurs/webbplats';
+$string['pluginname'] = 'Kurs-/webbplatssammanfattning';
 $string['privacy:metadata'] = 'Blocket Kurs-/webbplatsbeskrivning endast visar information om kurser och lagrar i sig ingen information.';

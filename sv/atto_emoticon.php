@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['insertemoticon'] = 'Infoga emoji';
-$string['pluginname'] = '';
+$string['insertemoticon'] = 'Infoga uttrycksikon';
+$string['pluginname'] = 'Uttrycksikon';
+$string['privacy:metadata'] = 'Pluginmodulen atto_emoticon lagrar ingen personlig information.';

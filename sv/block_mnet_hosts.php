@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['mnet_hosts:addinstance'] = 'Lägg till nytt Nätverksservrar-block';
+$string['mnet_hosts:myaddinstance'] = 'Lägg till nytt Nätverksservrar-block till Mitt Moodle';
 $string['pluginname'] = 'Nätverksservrar';
 $string['server'] = 'Server';

@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['err_invalidhost'] = 'Ogiltig MNet-värd';
 $string['err_invalidhost_help'] = '';
 $string['err_networkingoff'] = 'MNet är avstängt';
+$string['err_nomnetauth'] = 'Autentiseringsmodulen MNet är du inaktiverad';
 $string['err_nomnethosts'] = 'Beror på MNet';
 $string['failedtojump'] = 'Det gick inte att få igång någon kommunikation med distansservern';
 $string['failedtoping'] = 'Det gick inte att få igång någon kommunikation med distansservern: {$a}';

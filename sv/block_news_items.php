@@ -27,4 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['news_items:addinstance'] = 'Lägg till ett nytt block för senaste nyheter';
 $string['news_items:myaddinstance'] = 'Lägg till ett nytt block för senaste nyheter på Mitt Moodle';
-$string['pluginname'] = 'Senaste nytt';
+$string['pluginname'] = 'Senaste meddelandena';
+$string['privacy:metadata'] = 'Blocket Senaste nytt visar enbart data lagrad i själva forumet och lagrar i sig ingen data.';

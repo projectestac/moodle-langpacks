@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['moodleimage:browseimage'] = 'Hitta eller ladda upp en bild...';
+$string['pluginname'] = 'Infoga bild';
+$string['privacy:metadata'] = 'Pluginmodulen TinyMCE Infoga bild lagrar ingen personlig information.';

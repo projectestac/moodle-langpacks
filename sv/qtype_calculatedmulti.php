@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['answeroptions'] = 'Svarsalternativ';
 $string['pluginname'] = 'Beräknad flervalsfråga';
 $string['pluginname_help'] = 'Beräknade flervalsfrågor fungerar som flervalsfrågor där valet av svarsalternativ baseras på resultatet av en numerisk formel där wildcard inom klammerparanteraser fungerar som substituerande av individuella värden när testet tas. Till exempel  frågan "Vad är arean av en rektangel med längden {L} och bredd {W}?"  valet är {= {L} * {W}} (där * betecknar multiplikation).';
 $string['pluginnameadding'] = 'Lägg till en beräknad flervalsfråga';

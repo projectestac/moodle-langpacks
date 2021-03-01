@@ -27,9 +27,15 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['eventcomponent'] = 'Komponent';
 $string['eventcontext'] = 'Kontext';
+$string['eventloggedas'] = '{$a->realusername} som {$a->asusername}';
 $string['eventorigin'] = 'Ursprung';
 $string['eventrelatedfullnameuser'] = 'Berörd användare';
+$string['eventreportviewed'] = 'Livelogg visad';
 $string['livelogs'] = 'Loggar från senaste timmen';
 $string['loglive:view'] = 'Visa live loggar';
+$string['nologreaderenabled'] = 'Ingen aktiv loggläsare';
 $string['pause'] = 'Pausa uppdateringar';
 $string['pluginname'] = 'Live loggar';
+$string['privacy:metadata'] = 'Pluginmodulen Live loggar lagrar ingen personlig information.';
+$string['resume'] = 'Återuppta realtidsuppdateringar';
+$string['selectlogreader'] = 'Välj loggläsare';

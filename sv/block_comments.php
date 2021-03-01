@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['comments:addinstance'] = 'Lägg till ett nytt block för kommentarer';
 $string['comments:myaddinstance'] = 'Lägg till ett nytt block för kommentarer på Mitt Moodle';
 $string['pluginname'] = 'Kommentarer';
+$string['privacy:metadata:core_comment'] = 'En post med tillagda kommentarer.';

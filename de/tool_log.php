@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actlogshdr'] = 'Verfügbare Logdatenspeicher';
 $string['configlogplugins'] = 'Aktivieren Sie die notwendigen Plugins und wählen Sie anschließend die bevorzugte Reihenfolge.';
-$string['exportlog'] = 'Logs in den Export einbeziehen';
+$string['exportlog'] = 'Logdaten in den Export einbeziehen';
 $string['exportlogdetail'] = 'Mit dem Nutzer verbundene Logs in den Export einbeziehen';
 $string['logging'] = 'Logdaten';
 $string['managelogging'] = 'Überblick';

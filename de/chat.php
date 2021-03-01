@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activityoverview'] = 'Es gibt einen angekündigten Chat.';
+$string['activityoverview'] = 'Sie haben angekündigte Chatsitzungen';
 $string['ajax'] = 'Version mit Ajax';
 $string['autoscroll'] = 'Automatisch scrollen';
 $string['beep'] = 'Beep';
@@ -39,7 +39,7 @@ $string['chat:exportsession'] = 'Alle Chat-Sitzungen exportieren';
 $string['chat:readlog'] = 'Chat-Logdaten anzeigen';
 $string['chat:talk'] = 'Im Chat sprechen';
 $string['chat:view'] = 'Chataktivität anzeigen';
-$string['chatintro'] = 'Anleitungstext';
+$string['chatintro'] = 'Beschreibung';
 $string['chatname'] = 'Name des Chats';
 $string['chatreport'] = 'Chat-Protokolle';
 $string['chattime'] = 'Nächster Chat';
@@ -137,7 +137,7 @@ $string['refreshuserlist'] = 'Nutzerliste aktualisieren';
 $string['removemessages'] = 'Alle Mitteilungen entfernen';
 $string['repeatdaily'] = 'Täglich zur gleichen Zeit';
 $string['repeatnone'] = 'Nur zum angegebenen Termin';
-$string['repeattimes'] = 'Wiederholungen';
+$string['repeattimes'] = 'Chat-Termine veröffentlichen';
 $string['repeatweekly'] = 'Wöchentlich zur gleichen Zeit';
 $string['saidto'] = 'sagte zu';
 $string['savemessages'] = 'Sitzungen speichern';

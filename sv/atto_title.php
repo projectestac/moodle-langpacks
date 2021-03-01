@@ -26,10 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['h3'] = 'Rubrik (stor)';
-$string['h4'] = 'Rubrik (mellan)';
+$string['h4'] = 'Rubrik (medium)';
 $string['h5'] = 'Rubrik (liten)';
-$string['p'] = 'Avsnitt';
-$string['pluginname'] = 'Avsnittsformat';
+$string['p'] = 'Stycke';
+$string['pluginname'] = 'Styckeformat';
 $string['pre'] = 'För-formaterat';
 $string['privacy:metadata'] = 'Plugin-modulen atto_title lagrar ingen personlig information.';
-$string['title'] = 'Avsnittsformat';
+$string['title'] = 'Styckeformat';

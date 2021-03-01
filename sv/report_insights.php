@@ -25,12 +25,21 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['actionsaved'] = 'Din återkoppling för \'{$a}\' har sparats.';
 $string['confirmbulkaction'] = 'Är du säker på att du vill flagga dessa {$a->nitems} valda prognoser som {$a->action}?';
+$string['disabledmodel'] = 'Denna modell har inaktiverats av administratören.';
 $string['indicators'] = 'Indikatorer';
 $string['insight'] = 'Insikt';
 $string['insights'] = 'Insikter';
 $string['justpredictions'] = 'OBS att följande insikter endast är prognoser. Det är inte möjligt att göra säkra förutsägelser om framtiden. Insikterna tillhandahålls för att man kunna vidta lämpliga åtgärder och därmed undvika att eventuella negativa prognoser blir verklighet.';
 $string['nodetailsavailable'] = 'Inga detaljer i prognosen är relevanta.';
+$string['outcome'] = 'Utfall';
+$string['outcomenegative'] = 'Negativt utfall';
+$string['outcomeneutral'] = 'Neutralt utfall';
+$string['outcomeok'] = 'OK utfall';
+$string['outcomepositive'] = 'Positivt utfall';
+$string['outcomeverynegative'] = 'Mycket negativt utfall';
+$string['outcomeverypositive'] = 'Mycket positivt utfall';
 $string['pluginname'] = 'Insikter';
 $string['prediction'] = 'Prognos';
 $string['predictiondetails'] = 'Prognosdetaljer';
@@ -38,3 +47,5 @@ $string['privacy:metadata'] = 'Pluginen Insikter sparar inga personuppgifter.';
 $string['selectotherinsights'] = 'Välj andra insikter...';
 $string['selectprediction'] = 'Välj en';
 $string['timecreated'] = 'Välj {$a} för hantering i "bulk"';
+$string['timerange'] = 'Analysintervall';
+$string['timerangewithdata'] = '{$a->timestart} till {$a->timeend}';

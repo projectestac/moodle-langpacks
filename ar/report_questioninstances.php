@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['editquestionshere'] = 'تحرير الأسئلة في هذا السياق';
-$string['eventreportviewed'] = 'تمت معاينة التقرير';
+$string['eventreportviewed'] = 'تقرير تمت معاينته';
 $string['getreport'] = 'إجلب التقرير';
 $string['hiddenquestions'] = 'مخفي';
 $string['intro'] = 'هذا التقرير يدرج كل السياقات في النظام حيثما توجد أسئلة من نوع معين.';

@@ -270,7 +270,7 @@ $string['delaylater_help'] = 'عند تمكينه، على الطالب انتظ
 $string['deleteattemptcheck'] = 'هل انت متأكد تماما من القيام بالحذف الكامل لهذه المحاولات.';
 $string['deleteselected'] = 'أحذ المختار';
 $string['deletingquestionattempts'] = 'حذف محاولات السؤال';
-$string['description'] = 'وصف';
+$string['description'] = 'الوصف';
 $string['disabled'] = 'معطل';
 $string['displayoptions'] = 'أعرض الخيارات';
 $string['donotuseautosave'] = 'لا تستعمل الحفظ التلقائي';
@@ -334,10 +334,10 @@ $string['essay'] = 'مقالة';
 $string['essayquestions'] = 'أسئلة مقالية';
 $string['eventattemptdeleted'] = 'محاولة الاختبار تم حذفها';
 $string['eventattemptpreviewstarted'] = 'بدأ استعراض محاولة الاختبار';
-$string['eventattemptreviewed'] = 'تمت مراجعة محاولة الاختبار';
-$string['eventattemptsummaryviewed'] = 'تمت معاينة ملخص محاولة الاختبار';
-$string['eventattemptviewed'] = 'تمت معاينة محاولة الاختبار';
-$string['eventeditpageviewed'] = 'تمت معاينة صفحة تحرير الاختبار';
+$string['eventattemptreviewed'] = 'محاولة اختبار تمت مراجعتها';
+$string['eventattemptsummaryviewed'] = 'ملخص محاولة اختبار تمت معاينته';
+$string['eventattemptviewed'] = 'محاولة اختبار تمت معاينتها';
+$string['eventeditpageviewed'] = 'صفحة تحرير اختبار تمت معاينتها';
 $string['eventoverridecreated'] = 'تم إنشاء تجاوز الاختبار';
 $string['eventoverridedeleted'] = 'تم حذف تجاوز الاختبار';
 $string['eventoverrideupdated'] = 'تم تحديث تجاوز الاختبار';
@@ -347,7 +347,7 @@ $string['eventquizattemptregraded'] = 'تمت إعادة منح علامات ا�
 $string['eventquizattemptstarted'] = 'تم البدء بمحاولة الاختبار';
 $string['eventquizattemptsubmitted'] = 'تم تسليم محاولة الاختبار';
 $string['eventquizattempttimelimitexceeded'] = 'تم تجاوز وقت محاولة الاختبار';
-$string['eventreportviewed'] = 'تمت معاينة تقرير الاختبار';
+$string['eventreportviewed'] = 'تقرير اختبار تمت معاينته';
 $string['everynquestions'] = 'كل {$a} سؤال/أسئلة';
 $string['everyquestion'] = 'كل سؤال';
 $string['everythingon'] = 'كل شيء في';

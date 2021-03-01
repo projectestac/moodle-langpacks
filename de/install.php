@@ -96,7 +96,7 @@ Geben Sie den absoluten Pfad für Ihre Moodle-Installation an. Stellen Sie siche
 <b>Datenverzeichnis:</b>
 Moodle benötigt ein Verzeichnis, in dem hochgeladene Dateien abgelegt werden. Dieses Verzeichnis muss Lese- und Schreibrechte für das Nutzerkonto besitzen, mit dem Ihr Webservers arbeitet (üblicherweise \'nobody\' oder \'apache\'). Außerdem darf das Verzeichnis nicht direkt aus dem Internet erreichbar sein. Das Intallationsskript wird versuchen, ein solches Verzeichnis zu erstellen, falls es nicht schon existiert.';
 $string['dirroot'] = 'Moodle-Verzeichnis';
-$string['dirrooterror'] = 'Die Einstellungen für das Moodle-Verzeichnis sind nicht korrekt.  Es wurde an dieser Stelle keine Moodle-Installation gefunden. Der nachfolgende Wert wurden zurückgesetzt.';
+$string['dirrooterror'] = 'Die Einstellungen für das Moodle-Verzeichnis nicht richtig zu sein.  An dieser Stelle wurde keine Moodle-Installation gefunden. Der nachfolgende Wert wurde zurückgesetzt.';
 $string['download'] = 'Herunterladen';
 $string['downloadlanguagebutton'] = 'Sprachpaket \'{$a}\' herunterladen';
 $string['downloadlanguagehead'] = 'Sprachpaket herunterladen';
@@ -167,7 +167,7 @@ $string['pgsqlextensionisnotpresentinphp'] = 'PHP ist nicht richtig konfiguriert
 $string['phpextension'] = 'PHP-Extension {$a}';
 $string['phpversion'] = 'PHP-Version';
 $string['phpversionhelp'] = '<p>Moodle benötigt mindestens die PHP-Version 5.6.5. oder 7.1 (7.0.x weist einige Einschränkungen auf).</p>
-<p>Sie nutzen im Moment die Version {$a}.</p>
+<p>Sie verwenden im Moment die Version {$a}.</p>
 <p>Sie müssen Ihre PHP-Version aktualisieren oder auf einen Server mit einer neueren PHP-Version wechseln.<br />';
 $string['releasenoteslink'] = 'Um Informationen über diese Moodle-Version zu erhalten, lesen Sie bitte in die Versionshinweise auf {$a}';
 $string['safemode'] = 'Safe Mode';

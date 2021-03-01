@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Meny över val';
+$string['pluginname'] = 'Nedrullningsmeny';

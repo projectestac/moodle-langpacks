@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addmoredimensions'] = 'Blanksteg för ytterligare {$a} försäkranden';
 $string['configgrade0'] = 'Standardord som beskriver den negativa bedömningen av utvärderingen.';
 $string['configgrade1'] = 'Standardord som beskriver den positiva bedömningen av utvärderingen.';
 $string['dimensioncommentfor'] = 'Kommentar till {$a}';
@@ -38,5 +39,7 @@ $string['grade1'] = 'Ord för rätt';
 $string['grade1default'] = 'Ja';
 $string['grademapping'] = 'Betygstabell';
 $string['maperror'] = 'Det viktade antalet fel är lägre eller lika med';
-$string['mapgrade'] = 'Inlämningens betyg';
+$string['mapgrade'] = 'Betyg för inlämning';
 $string['pluginname'] = 'Antal fel';
+$string['privacy:export:metadata:map'] = 'Om det viktade antalet fel uppnår {$a->nonegative} är betyget {$a->grade} procent.';
+$string['privacy:metadata'] = 'Pluginmodulen Antal fel lagrar endast detaljerna i bedömningsformuläret. Faktiska personuppgifter om hur formuläret har fyllts i lagras av själva Workshopmodulen och bifogas till exporterade bedömningar.';

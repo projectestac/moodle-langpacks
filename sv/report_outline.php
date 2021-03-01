@@ -25,6 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventactivityreportviewed'] = 'Aktivitetsrapport visad';
+$string['eventoutlinereportviewed'] = 'Översiktsrapport visad';
 $string['neverseen'] = 'Har aldrig visats';
+$string['nocapability'] = 'Ingen åtkomst till översiktsrapport';
+$string['nologreaderenabled'] = 'Ingen aktiv loggläsare';
+$string['numviews'] = '{$a->numviews} visningar av {$a->distinctusers} användare';
 $string['outline:view'] = 'Visa rapport över aktivitet i kursen';
+$string['outline:viewuserreport'] = 'Visa användares aktivitetsrapport';
+$string['page-report-outline-index'] = 'Kursöversiktsrapport';
+$string['page-report-outline-user'] = 'Kursöversiktsrapport (användare)';
+$string['page-report-outline-x'] = 'Valfri översiktsrapport';
 $string['pluginname'] = 'Aktivitet i kursen';
+$string['privacy:metadata'] = 'Pluginmodulen Aktivitetsrapport lagrar ingen personlig information.';

@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['direct:view'] = 'Bewertungen aus CSV importieren';
+$string['direct:view'] = 'Bewertungen aus Tabellenkalkulation importieren';
 $string['pluginname'] = 'Aus Tabellenkalkulation einfügen';
 $string['privacy:metadata'] = 'Das Tabellenimport-Plugin für Bewertungen speichert keine personenbezogenen Daten.';
 $string['userdata'] = 'Hilfe zum Kopieren von Daten in dieses Formular.';

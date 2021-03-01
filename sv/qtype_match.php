@@ -29,6 +29,7 @@ $string['answer'] = 'Svar {$a}';
 $string['availablechoices'] = 'Tillgängliga val';
 $string['blanksforxmorequestions'] = '{no}  fler uppsättningar av tomma';
 $string['correctansweris'] = 'Det rätta svaret är: {$a}';
+$string['deletedchoice'] = '[Borttaget alternativ]';
 $string['filloutthreeqsandtwoas'] = 'Du måste ange minst två frågor och tre svar. Du kan ange ytterligare fel svar genom att ge ett svar med en tom fråga. Poster där både fråga och svar är tomma kommer att ignoreras.';
 $string['nomatchinganswer'] = 'Du måste ange ett svar som matchar frågan \'{$a}\'.';
 $string['nomatchinganswerforq'] = 'Du måste ange ett svar på den här frågan.';

@@ -33,3 +33,4 @@ $string['pluginname'] = 'Hantera filer';
 $string['privacy:metadata'] = 'Plugin-modulen atto_managefiles lagrar ingen personlig information.';
 $string['unusedfilesdesc'] = 'Följande filer används inte i textområdet';
 $string['unusedfilesheader'] = 'Oanvända filer';
+$string['unusedfilesremovalnotice'] = 'Eventuella oanvända filer tas bort då ändringarna sparas.';

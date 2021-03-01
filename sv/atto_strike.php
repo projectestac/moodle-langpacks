@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Genomstruken';
+$string['privacy:metadata'] = 'Pluginmodulen atto_strike lagrar ingen personlig information.';

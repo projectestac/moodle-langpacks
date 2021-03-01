@@ -25,12 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['aggregateavg'] = 'Genomsnitt av bedömningar';
-$string['aggregatecount'] = 'Antal omdömen';
-$string['aggregatemax'] = 'Maxbetyg';
+$string['aggregateavg'] = 'Genomsnitt av betyg';
+$string['aggregatecount'] = 'Antal betyg';
+$string['aggregatemax'] = 'Högsta betyg';
 $string['aggregatemin'] = 'Lägsta betyg';
 $string['aggregatenone'] = 'Inga betyg';
-$string['aggregatesum'] = 'Summa betyg';
+$string['aggregatesum'] = 'Summa av betyg';
 $string['aggregatetype'] = 'Typ av aggregation';
 $string['aggregatetype_help'] = 'Aggregationstypen (sammanställningstypen) bestämmer hur bedömningar/poäng samlas ihop till modulens betyg i Betygsrapporten.<BR>
 * Betyg/omdömen i genomsnitt - Medelresultatet av alla satta poäng<BR>

@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['event_assessable_submitted'] = 'التسليم المُحمَّل تمَّ إرساله';
-$string['event_assessable_uploaded'] = '.تم رفع الملف';
+$string['event_assessable_submitted'] = 'تسليم مرفوع تمَّ تقديمه';
+$string['event_assessable_uploaded'] = 'ملف تم رفعه';
 $string['pluginname'] = 'تحميل';
 $string['privacy:metadata'] = 'لا يخزن المكون الإضافي  Upload assignment أيّ بيانات شخصية.';

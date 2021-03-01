@@ -25,5 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['defaultreturntype'] = 'Standardreturtyp';
+$string['docsformat'] = 'Standardformat för dokumentimport';
+$string['drawingformat'] = 'Standardformat för bildimport';
+$string['external'] = 'Externt (endast länkarna lagras i Moodle)';
+$string['googledocs:view'] = 'Visa innehåll på Google Drive';
+$string['internal'] = 'Internt (filer lagras i Moodle)';
+$string['issuer'] = 'OAuth 2-tjänst';
+$string['owner'] = 'Ägs av: {$a}';
 $string['pluginname'] = 'Google Drive';
+$string['searchfor'] = 'Sök efter {$a}';
 $string['supportedreturntypes'] = 'Filer som stöds';

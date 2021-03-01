@@ -28,5 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['blog_recent:addinstance'] = 'Lägg till ett nytt block för aktuella blogginlägg';
 $string['norecentblogentries'] = 'Inga aktuella inlägg';
 $string['numentriestodisplay'] = 'Antal aktuella inlägg som ska visas';
-$string['pluginname'] = 'Aktuella inlägg i bloggar';
+$string['pluginname'] = 'Senaste blogginlägg';
+$string['privacy:metadata'] = 'Blocket Senaste blogginlägg visa enbart data som lagras på andra platser.';
 $string['recentinterval'] = 'Tidsinterval för vad som ska anses "aktuellt"';

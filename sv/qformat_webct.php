@@ -31,6 +31,6 @@ $string['missingquestion'] = 'Saknad fråga etikett efter linje {$a}';
 $string['pluginname'] = 'WebCT format';
 $string['pluginname_help'] = 'WebCT formatet möjliggör import av flervalsfrågor och korttext frågor sparade i WebCT:s text-baserade format.';
 $string['questionnametoolong'] = 'Frågenamnet är för långt i rad {$a} (255 tecken. Max). Det har kortats.';
-$string['unknowntype'] = 'Okänd typ';
+$string['unknowntype'] = 'Okänd frågetyp efter rad {$a}';
 $string['warningsdetected'] = '{$a} varning (ar) upptäckta';
 $string['wronggrade'] = 'Fel betyg (efter rad {$a}):';

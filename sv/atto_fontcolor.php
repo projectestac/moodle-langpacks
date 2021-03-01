@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Textfärg';
+$string['privacy:metadata'] = 'Pluginmodulen atto_fontcolor lagrar ingen personlig information.';

@@ -27,5 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['email'] = 'Skicka meddelande via e-post till ';
 $string['emaildigestsubject'] = 'Meddelandesammandrag';
+$string['emaildigestunreadmessages'] = 'Olästa meddelanden';
+$string['emaildigestviewallmessages'] = 'Visa alla meddelanden';
+$string['emailonlyfromnoreplyaddress'] = 'Vill du alltid skicka e-post från no-reply adressen?';
+$string['ifemailleftempty'] = 'Lämna tomt för att skicka notiser till {$a}';
 $string['pluginname'] = 'E-post';
+$string['privacy:metadata:attachment'] = 'En fil i filsystemet.';
+$string['privacy:metadata:recipient'] = 'Meddelandemottagaren';
 $string['tasksendemail'] = 'Skicka meddelandesammandrag';

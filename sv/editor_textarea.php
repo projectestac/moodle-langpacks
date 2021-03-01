@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Område för ren text';
+$string['pluginname'] = 'Oformaterad text';
+$string['privacy:metadata'] = 'Pluginmodulen Oformaterad text lagrar ingen personlig information.';

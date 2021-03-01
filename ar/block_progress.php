@@ -27,6 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['answered'] = 'مجاب عنه';
 $string['config_orderby_due_time'] = '"متوقعة بحلول" التاريخ-الوقت';
+$string['config_title'] = 'العنوان البديل';
 $string['geogebra'] = 'جيوجبرا';
+$string['no_events_config_message'] = 'ليست هناك نشاطات أو موراد لمراقبة تقدمها. قم بإنشاء بعض النشاطات و/أو الموارد ثم قم بتهيئة هذه الكتلة.';
+$string['no_events_message'] = 'لا نشاطات أو موارد تتم مراقبتها. استعمل التهيئة لتحضير المراقبة.';
+$string['no_visible_events_message'] = 'لا أحداث مراقَبة مرئية حاليًا.';
 $string['questionnaire'] = 'الاستبيان';
 $string['quiz'] = 'الاختبار';
+$string['why_set_the_title'] = 'لماذا قد ترغب بتعيين عنوان عيِّنة الكتلة؟';

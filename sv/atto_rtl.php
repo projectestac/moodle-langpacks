@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['ltr'] = 'Vänster till höger';
+$string['privacy:metadata'] = 'Pluginmodulen atto_rtl lagrar ingen personlig information.';
 $string['rtl'] = 'Höger till vänster';

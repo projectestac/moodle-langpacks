@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['login:addinstance'] = 'Lägg till nytt inloggningsblock';
 $string['pluginname'] = 'Logga in';

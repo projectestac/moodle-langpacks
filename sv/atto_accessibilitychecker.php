@@ -27,5 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['emptytext'] = 'Töm text';
 $string['entiredocument'] = 'Hela dokumentet';
+$string['nowarnings'] = 'Gratulerar! Inga tillgänglighetsproblem hittades.';
 $string['pluginname'] = 'Tillgänglighetskontroll';
 $string['report'] = 'Tillgänglighetsrapport:';

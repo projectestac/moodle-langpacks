@@ -148,7 +148,7 @@ $string['type_gradingform_plural'] = 'طرق متقدمة لتوزيع الدر�
 $string['type_local'] = 'مكون إضافي محلي';
 $string['type_local_plural'] = 'مكونات إضافية محلية';
 $string['type_media'] = 'مشغل وسائط';
-$string['type_media_plural'] = 'مشغلات وسائط';
+$string['type_media_plural'] = 'مشغلات الوسائط';
 $string['type_message'] = 'ملحق إشعارات';
 $string['type_message_plural'] = 'ملاحق إشعارات';
 $string['type_mlbackend'] = 'خلفية تعلم الآلة';

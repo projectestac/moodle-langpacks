@@ -114,7 +114,7 @@ $string['auth_ntlmsso_subnet_key'] = 'Subnet';
 $string['auth_ntlmsso_type'] = 'Diese Methode ist beim Webserver eingestellt, um Nutzer/innen zu authentifizieren. Falls Sie sich nicht sicher sind, wählen Sie bitte NTLM.';
 $string['auth_ntlmsso_type_key'] = 'Authentifizierungsart';
 $string['cannotmaprole'] = 'Die Rolle \'{$a->rolename}\' kann nicht zugeordnet werden, weil der Kurzname \'{$a->shortname}\' zu lang ist oder Bindestriche enthält. Um die Rolle zuordnen zu können, müssen Sie den Kurznamen auf maximal {$a->charlimit} Zeichen reduzieren und die Bindestriche entfernen. <a href="{$a->link}">Rolle bearbeiten</a>';
-$string['connectingldap'] = 'Verbindung zum LDAP-Server aufbauen...';
+$string['connectingldap'] = 'Zum LDAP-Server verbinden ...';
 $string['connectingldapsuccess'] = 'Die Verbindung zum LDAP-Server wurde erfolgreich hergestellt.';
 $string['creatingtemptable'] = 'Temporäre Tabelle {$a} erstellen';
 $string['diag_contextnotfound'] = 'Kontext {$a} existiert nicht oder kann nicht von Bind-DN gelesen werden.';

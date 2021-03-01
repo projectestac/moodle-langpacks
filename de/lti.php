@@ -359,7 +359,7 @@ $string['return_to_course'] = 'Klicken Sie <a href="{$a->link}" target="_top">hi
 $string['saveallfeedback'] = 'Alle Feedbacks speichern';
 $string['search:activity'] = 'Externes Tool - Beschreibung';
 $string['secure_icon_url'] = 'Sichere Icon-URL';
-$string['secure_icon_url_help'] = 'Ähnlich wie Icon URL. Die Funktion wird bei verschlüsselter Datenübertragung genutzt, um einen Warnhinweis zu verhindern, falls ein Icon unverschlüsselt aufgerufen wird.';
+$string['secure_icon_url_help'] = 'Ähnlich wie die Icon-URL. Die Funktion wird bei verschlüsselter Datenübertragung genutzt, um einen Warnhinweis zu verhindern, falls ein Icon unverschlüsselt aufgerufen wird.';
 $string['secure_launch_url'] = 'Sichere Tool-URL';
 $string['secure_launch_url_help'] = 'Ähnlich wie Tool URL. Wird verwendet um höhere Sicherheistanforderungen umzusetzen. Moodle verwendet die sichere Start URL anstelle der Standard URL, falls die Moodleseite über SSL abegrufen wird oder wenn die Tool Konfiguration auf immer über SSL starten gestellt ist.
 
@@ -392,7 +392,7 @@ $string['show_in_course_lti1'] = 'Verwendung der Toolkonfiguration';
 $string['show_in_course_lti1_help'] = 'Dieses Tool kann in der Aktivitätsauswahl für Trainer/innen angezeigt werden, um es zu einem Kurs hinzuzufügen. Alternativ kann es ist im vorkonfigurierten Tool-Menü angezeigt werden, wenn ein externes Tool zu einem Kurs hinzugefügt wird. Des Weiteren kann die Tool-Konfiguration auch verwendet werden, um die genaue Tool-URL zu erfahren, wenn ein externes Tool zu einem Kurs hinzugefügt wird.';
 $string['show_in_course_lti2'] = 'Verwendung der Toolkonfiguration';
 $string['show_in_course_lti2_help'] = 'Dieses Tool kann für Trainer/innen in der Aktivitätsauswahl angezeigt werden, um es zu einem Kurs hinzuzufügen. Alternativ kann es ist im vorkonfigurierten Tool-Menü angezeigt werden, wenn ein externes Tool zu einem Kurs hinzugefügt wird.';
-$string['show_in_course_no'] = 'Nicht anzeigen; nur benutzen, wenn eine passende Start URL eingetragen ist';
+$string['show_in_course_no'] = 'Nicht anzeigen. Nur verwenden, wenn eine passende Start URL eingetragen ist';
 $string['show_in_course_preconfigured'] = 'Als vorkonfiguriertes Tool anzeigen, wenn ein externes Tool hinzugefügt wird';
 $string['size'] = 'Größenparameter';
 $string['submission'] = 'Leistungen';

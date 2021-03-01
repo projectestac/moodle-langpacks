@@ -25,8 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configplugin'] = 'Konfiguration av plats för användarens privata filer';
+$string['configplugin'] = 'Konfiguration av lagringsplats för användarens privata filer';
 $string['emptyfilelist'] = 'Det fins inga filer att visa';
 $string['pluginname'] = 'Privata filer';
-$string['pluginname_help'] = 'Filer på användarens privata filyta';
+$string['pluginname_help'] = 'Filer på användarens privata lagringsyta';
+$string['privacy:metadata'] = 'Pluginmodulen Privata filer varken lagrar eller överför personlig information.';
 $string['user:view'] = 'Visa privata filer för användare';

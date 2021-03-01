@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['clientid'] = 'Klient-ID';
 $string['pluginname'] = 'Picasa';
-$string['sendfailed'] = 'Det gick inte att överföra filen {$a} till picasa';
+$string['secret'] = 'Hemlighet';
+$string['sendfailed'] = 'Det gick inte att överföra filen {$a} till Picasa';

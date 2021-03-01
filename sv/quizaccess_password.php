@@ -28,4 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['passworderror'] = 'Fel lösenord';
 $string['pluginname'] = 'Lösenordsskyddat test';
 $string['quizpassword'] = 'Lösenord för test';
-$string['requirepasswordmessage'] = 'För att få göra testet måste Du ha tillgång tilll lösenordet';
+$string['requirepasswordmessage'] = 'För att få göra testet måste du ha tillgång tilll lösenordet';

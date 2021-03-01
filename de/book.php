@@ -84,12 +84,12 @@ $string['numbering'] = 'Kapitelgliederung';
 $string['numbering0'] = 'Keine';
 $string['numbering1'] = 'Zahlen';
 $string['numbering2'] = 'Punkte';
-$string['numbering3'] = 'Einrückung';
+$string['numbering3'] = 'Eingerückt';
 $string['numbering_help'] = 'Überschriften der Kapitel und Unterkapitel können im Buch automatisch gegliedert werden.
 * Keine - Kapitel und Unterkapitel werden nicht automatisch nummeriert. Hiermit sind eigene Formate möglich, z.B. mit Buchstaben und Ziffern (A, A.1, A.2, B, B.1,...)
 * Zahlen - Kapitel und Unterkapitel werden nummeriert (1, 1.1, 1.2, 2, 2.1,...)
 * Punkte - Unterkapitel werden eingerückt und mit Punkten markiert
-* Einrückung - Unterkapitel werden eingerückt';
+* Eingerückt - Unterkapitel werden eingerückt';
 $string['numberingoptions'] = 'Optionen zur Kapitelgliederung';
 $string['numberingoptions_desc'] = 'Wählen Sie die Kapitelgliederungen aus, die in den Bucheinstellungen verfügbar sein sollen';
 $string['page-mod-book-x'] = 'Jede Seite des Moduls \'Buch\'';

@@ -25,4 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['logo'] = 'الشعار';
 $string['privacy:metadata'] = 'مظهر More لا يخزن أي بيانات شخصية عن أيّ مستخدم.';
+$string['sitelogo'] = 'شعار الموقع';
+$string['smalllogo'] = 'الشعار الصغير';

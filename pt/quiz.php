@@ -306,7 +306,7 @@ Obrigado por ter respondido ao teste \'{$a->quizname}\' na disciplina \'{$a->cou
 Este e-mail serve para confirmar que as suas respostas foram guardadas.
 
 Pode consultar o teste em {$a->quizurl}.';
-$string['emailconfirmsmall'] = 'Obrigado por submeter as suas respostas ao teste {$a->quizname}';
+$string['emailconfirmsmall'] = 'Obrigado por submeter as suas respostas ao teste \'{$a->quizname}\'';
 $string['emailconfirmsubject'] = 'Confirmação de submissão do teste: {$a->quizname}';
 $string['emailnotifybody'] = 'Caro(a) {$a->username},
 

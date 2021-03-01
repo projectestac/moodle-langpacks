@@ -25,8 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['audioextensions'] = 'Ljud: {$a}';
+$string['defaultheight'] = 'Standardhöjd';
+$string['defaultheightdesc'] = 'Mediaspelarens höjd om en höjd inte anges och den faktiska höjden inte kan bestämmas av spelaren.';
+$string['defaultwidth'] = 'Standardbredd';
+$string['defaultwidthdesc'] = 'Mediaspelarens bredd om en bredd inte anges och den faktiska bredden inte kan bestämmas av spelaren.';
+$string['extensions'] = 'Tillägg: {$a}';
 $string['managemediaplayers'] = 'Hantera mediaspelare';
 $string['mediaformats'] = 'Tillgängliga spelare';
 $string['mediaformats_desc'] = '<p>När spelare aktiveras i dessa inställningar kan filer bäddas in med mediafiltret (om aktiverat) eller genom att använda fil eller URL resurser med embed. Om ej aktiverat bäddas dessa format inte in och användarna kan manuellt ladda ner eller följa länkar till dessa resurser.</p><br />
 <p>När två spelare stödjer samma format kommer aktivering av båda att öka kompatibliteten för olika apparater som mobiltelefoner. Om det är möjligt att öka kompatibliteten ytterligare genom att tillhandahålla flera filer med olika format för samma videoklipp.</p>';
+$string['privacy:metadata'] = 'Mediainbäddning lagrar ingen personlig information.';
 $string['supports'] = 'Stödjer';
+$string['videoextensions'] = 'Video: {$a}';

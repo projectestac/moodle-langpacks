@@ -40,7 +40,7 @@ Nom de l\'événement : {eventname}';
 $string['deleterule'] = 'Supprimer la règle';
 $string['deletesubscription'] = 'Résilier l\'abonnement';
 $string['description'] = 'Description';
-$string['disablefieldswarning'] = 'Certains champs ne peuvent pas être modifié, car cette règle a des abonnés.';
+$string['disablefieldswarning'] = 'Certains champs ne peuvent pas être modifiés, car cette règle a des abonnés.';
 $string['duplicaterule'] = 'Dupliquer la règle';
 $string['editrule'] = 'Modifier la règle';
 $string['enablehelp'] = 'Activer/désactiver la surveillance d\'événements';

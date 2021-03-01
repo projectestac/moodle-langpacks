@@ -126,6 +126,7 @@ $string['MYR'] = 'Ringgit';
 $string['MZN'] = 'Metical';
 $string['NOK'] = 'Norska kronor';
 $string['SEK'] = 'Svenska kronor';
+$string['SYP'] = 'Syriska pund';
 $string['THB'] = 'Thai baht';
 $string['TND'] = 'Tunisiska dinarer';
 $string['TWD'] = 'Taiwanesiska dollar';

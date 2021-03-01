@@ -42,5 +42,5 @@ $string['requires_complete_fail'] = 'Aktiviteten <strong>{$a}</strong> är slutf
 $string['requires_complete_pass'] = 'Aktiviteten <strong>{$a}</strong> är slutförd och godkänd';
 $string['requires_incomplete'] = 'Aktiviteten <strong>{$a}</strong> är ofullständig';
 $string['requires_not_complete_fail'] = 'Aktiviteten <strong>{$a}</strong> är ej slutförd och underkänd';
-$string['requires_not_complete_pass'] = 'Aktiviteten <strong>{$a}</strong> är ej slutförd men godkänd';
+$string['requires_not_complete_pass'] = 'Aktiviteten <strong>{$a}</strong> är ej slutförd och ej godkänd';
 $string['title'] = 'Aktivitetsslutförande';

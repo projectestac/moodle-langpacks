@@ -68,6 +68,7 @@ $string['pluginname'] = 'RSS-klient';
 $string['privacy:metadata:block_rss_client:description'] = 'Beskrivning för RSS-flödet.';
 $string['privacy:metadata:block_rss_client:preferredtitle'] = 'Föredragen (anpassad) rubrik för RSS-flödet.';
 $string['privacy:metadata:block_rss_client:shared'] = 'Om RSS-flödet är tillgängligt i alla kurser.';
+$string['privacy:metadata:block_rss_client:title'] = 'Titel på RSS-flöde.';
 $string['refreshfeedstask'] = 'Uppdatera RSS-flöden';
 $string['remotenewsfeed'] = 'Externt nyhetsflöde';
 $string['rss_client:addinstance'] = 'Lägg till nytt RSS-flödesblock';

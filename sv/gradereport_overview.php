@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventgradereportviewed'] = 'Betygsöversikt visad';
 $string['gradesoverview'] = 'Betygsöversikt';
-$string['overview:view'] = 'Visa den översiktliga rapporten';
-$string['pluginname'] = 'Översiktlig rapport';
+$string['overview:view'] = 'Visa översiktsrapporten';
+$string['pluginname'] = 'Översiktsrapport';
+$string['privacy:metadata'] = 'Översiktsrapporten visar endast data lagrad på andra platser.';

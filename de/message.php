@@ -73,6 +73,7 @@ $string['emailtagline'] = 'Dies ist die Kopie einer Mitteilung von \'{$a->sitena
 $string['enabled'] = 'Aktiviert';
 $string['errorcallingprocessor'] = 'Fehler bei der angegebenen Ausgabe';
 $string['errorconversationdoesnotexist'] = 'Diese Kommunikation gibt es nicht.';
+$string['errormessagetoolong'] = 'Die Mitteilung ist länger als erlaubt.';
 $string['errortranslatingdefault'] = 'Fehler in der Plugin-Einstellung. Es werden die Standardeinstellungen benutzt.';
 $string['eventgroupmessagesent'] = 'Gruppenmitteilung gesendet';
 $string['eventmessagecontactadded'] = 'Kontakt hinzugefügt';

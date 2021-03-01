@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['blog_tags:addinstance'] = 'Añadir un nuevo bloque de etiquetas de blog';
 $string['configtitle'] = 'Título de bloque de marcas del blog';
-$string['pluginname'] = 'Marcas Blog';
+$string['pluginname'] = 'Marcas de Blog';

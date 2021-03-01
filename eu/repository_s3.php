@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['access_key'] = 'Sarbide-gakoa';
 $string['configplugin'] = 'Amazon S3-ren ezarpenak';
-$string['endpoint'] = 'Amazon S3  amaiera-puntua';
+$string['endpoint'] = 'Amazon S3ko amaiera-puntua';
 $string['needaccesskey'] = 'Sarbide-gakoa lortu behar da';
 $string['pluginname'] = 'Amazon S3';
 $string['privacy:metadata'] = 'Amazon S3 biltegi-pluginak ez du datu pertsonalik biltzen, baina erabiltzaile-datuak Moodle-tik urruneko sistemara bidaltzen ditu.';

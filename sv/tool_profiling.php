@@ -33,6 +33,7 @@ $string['cputime'] = 'CPU-tid';
 $string['differencesbetween2runsof'] = 'Skillnaderna mellan 2 körningar av {$a}';
 $string['executiontime'] = 'Exekveringstid';
 $string['export'] = 'Exportera';
+$string['exportproblem'] = 'Ett problem uppstod när profilkörningen {$a->runid}" skulle exporteras för denna begäran {$a->listurl}.';
 $string['exportthis'] = 'Exportera denna profileringskörning';
 $string['import'] = 'Importera';
 $string['importok'] = '"{$a}" importerades.';

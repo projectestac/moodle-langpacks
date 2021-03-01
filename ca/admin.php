@@ -1287,6 +1287,7 @@ $string['userbulkdownload'] = 'Exporta els usuaris com a';
 $string['userdefaultpreferences'] = 'Preferències per defecte de l\'usuari';
 $string['userimagesdisabled'] = 'Les imatges d\'usuari del perfil estan inhabilitades';
 $string['userlist'] = 'Explora la llista d\'usuaris';
+$string['usermanagement'] = 'Gestió d\'usuaris';
 $string['userpolicies'] = 'Política d\'usuaris';
 $string['userpreference'] = 'Preferència d\'usuari';
 $string['userquota'] = 'Quota d\'usuari';

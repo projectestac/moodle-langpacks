@@ -136,7 +136,7 @@ $string['alldays'] = 'كل الأيام';
 $string['allfieldsrequired'] = 'كل الحقول مطلوبة';
 $string['allfiles'] = 'كل الملفات';
 $string['allgroups'] = 'كل المجموعات';
-$string['alllogs'] = 'كل ملفات التقارير';
+$string['alllogs'] = 'كل الوقوعات';
 $string['allmods'] = 'كل {$a}';
 $string['allow'] = 'إسمح';
 $string['allowinternal'] = 'السماح بالطرق الداخلية';
@@ -299,7 +299,7 @@ $string['content'] = 'المحتوى';
 $string['continue'] = 'استمر';
 $string['continuetocourse'] = 'أنقر هناء للدخول إلى مقررك الدراسي';
 $string['convertingwikitomarkdown'] = 'تحويل ويكي (Wiki) إلى مارك داون (Markdown)';
-$string['cookiesenabled'] = 'هذا المتصفح يجب أن يدعم  الـ Cookies';
+$string['cookiesenabled'] = 'ينبغي تمكين ملفات تعريف الارتباط في متصفحك';
 $string['cookiesenabled_help'] = 'يستعمل الموقع نوعين من ملفات تعريف الارتباط:
 
 الأساسي منها هو ما يتعلق بجلسة العمل الحالية، عادة ما تدعى MoodleSession.
@@ -308,9 +308,9 @@ $string['cookiesenabled_help'] = 'يستعمل الموقع نوعين من مل
 مودل أو إغلاقك للمتصفح ستحذف هذه الملفات (من متصفحك ومن المخدم).
 
 النوع الآخر من ملفات تعريف الارتباط هي فقط لإعطاء نوع من الراحة للمستخدمين، وعادة ما تدعى MOODLEID أو تسمية مشابهة. مهامه تتلخص بتذكر اسم المستخدم وكلمة المرور من خلال متصفحك. هذا يعني أنه كلما رغبت في الدخول إلى مودل ستجد اسم المستخدم وكلمة المرور محفوظة في متصفحك. من الآمن لك رفض، أوعدم تمكين هذا النوع من ملفات تعريف الارتباط - قد تحتاج عندها إلى إعادة كتابة اسم المستخدم وكلمة المرور عند دخولك إلى مودل كل مرة.';
-$string['cookiesenabledonlysession'] = 'هذا المتصفح يجب أن يدعم  الـ Cookies';
+$string['cookiesenabledonlysession'] = 'ينبغي تمكين ملفات تعريف الارتباط في متصفحك';
 $string['cookiesenabledonlysession_help'] = 'يستخدم هذا الموقع ملف تعريف ارتباط لجلسة واحدة ، يُطلق عليه عادةً MoodleSession. يجب أن تسمح لملف تعريف الارتباط هذا في المستعرض الخاص بك بتوفير الاستمرارية و البقاء مسجلًا عند تصفح الموقع. عندما تقوم بتسجيل الخروج أو إغلاق المتصفح ، يتم إتلاف ملف تعريف الارتباط هذا (في المستعرض و على الخادم).';
-$string['cookiesnotenabled'] = 'لسو الحظ، لم تمكن خاصية الكوكيز في متصفحك.';
+$string['cookiesnotenabled'] = 'لسوء الحظ، ملفات تعريف الارتباط غير مُمَكَّنة في متصفحك';
 $string['copy'] = 'نسخ';
 $string['copyasnoun'] = 'نسخ';
 $string['copyingcoursefiles'] = 'نسخ ملفات مقرر دراسي';
@@ -632,21 +632,9 @@ $string['emailagain'] = 'إعادة إدخال البريد الإلكتروني
 $string['emailalreadysent'] = 'قد تم بالفعل إرسال بريد إلكتروني لإعادة تعيين كلمة المرور. تفقد بريدك الالكتروني من فضلك.';
 $string['emailcharset'] = 'أحرف البريد الإلكتروني';
 $string['emailconfirm'] = 'قم بتأكيد اشتراكك';
-$string['emailconfirmation'] = 'مرحبًا {$a->firstname}،
-
-تم طلب حساب جديد في \'{$a->sitename}\'
-باستعمال عنوانك البريدي.
-
-لتأكيد حسابك الجديد، يرجى الانتقال إلى عنوان الويب الآتي:
-
-{$a->link}
-
-في معظم برامج البريد، ينبغي أن يظهر هذا كرابط أزرق اللون
-يمكنك النقر عليه. إذا لم ذلك متأتِّياً، قم بنسخ العنوان ولصقه
-في شريط العنوان أعلى نافذة المتصفح.
-
-إذا كنت بحاجة إلى مساعدة، يرجى الاتصال بمسؤول الموقع،
-{$a->admin}';
+$string['emailconfirmation'] = 'مرحبا {$a->firstname}, تم طلب اشتراك جديد في \'{$a->sitename}\' باستخدام عنوانك البريدي. لتأكيد اشتراكك الجديد يرجى الانتقال إلى عنوان الإنترنت التالي:
+{<p><a href="{$a->link}">{$a->link}</a></p>}
+ في أغلب برامج البريد يظهر ذلك في شكل رابط أزرق، وما عليك إلا الضغط عليه. فإذا لم يعمل ذلك، قم بقص العنوان والصقه في خانة العنوان أعلى متصفح الإنترنت. تحيات من \'{$a->sitename}\' المدير, {$a->admin}';
 $string['emailconfirmationresend'] = 'اعد إرسال رسالة التأكيد الإلكترونية';
 $string['emailconfirmationsubject'] = '{$a} تأكيد الحساب:';
 $string['emailconfirmsent'] = '<p>تم إرسال بريد إلى <b>{$a}</b></p>
@@ -739,17 +727,18 @@ $string['emailpasswordsent'] = 'شكراً لتأكيد تغيير كلمة ال
 تم إرسال رسالة تحتوي على كلمة المرور الجديدة إلى عنوان بريدك الالكتروني<br /><b>{$a->email}</b>.<br />
 كلمة المرور الجديدة تم إنشاؤها تلقائياً - ربما ترغب في
 <a href="{$a->link}">تغيير كلمة مرورك</a> إلى شيء أقرب إلى ذاكرتك.';
-$string['emailresetconfirmation'] = 'مرحبا {$a->firstname},
-تم طلب إعادة تعيين كلمة المرور الخاصة بحسابك {$a->username}\'
+$string['emailresetconfirmation'] = 'مرحبًا {$a->firstname}،
+
+تم طلب إعادة تعيين كلمة المرور الخاصة بحسابك \'{$a->username}\'
 في {$a->sitename}.
 
 لتأكيد هذا الطلب، وتعيين كلمة مرور جديدة لحسابك، يرجى
-الانتقال إلى العنوان التالي على شبكة الإنترنت:
+الذهاب إلى عنوان الويب:
 
 {$a->link}
-(هذا الرابط هو صالح ل  {$a->resetminutes} دقيقة من الوقت الذي طلبت هذا إعادة لأول مرة)
+(هذا الرابط صالح لـ {$a->resetminutes} دقيقة من وقت تقديم الطلب)
 
-إذا لم تقم بطلب إعادة تعيين كلمة المرور ،  لا حاجة لأي إجراء تقوم به.
+إذا لم تقم بطلب إعادة تعيين كلمة المرور، لا حاجة لأي إجراء آخر.
 
 إذا كنت بحاجة إلى مساعدة، يرجى الاتصال بمسؤول الموقع،
 {$a->admin}';
@@ -790,23 +779,23 @@ $string['errornouploadrepo'] = 'لا يوجد مستودع لرفع الملفا
 $string['errorwhenconfirming'] = 'لم تتم عملية التأكيد بعد وذلك لحصول خطأ ما. لوأنك نقرت على رابط مُرسل لعنوان بريدك الإلكتروني لنقلك إلى هنا، تأكد من أنك نقرت على العنوان كاملا، يمكنك نسخ ولصق العنوان للقيام بعملية النقل إلى الموقع بشكل أفضل';
 $string['eventcommentcreated'] = 'تم إنشاء التعليق';
 $string['eventcommentdeleted'] = 'تم حذف التعليق';
-$string['eventcommentsviewed'] = 'تمت معاينة التعليقات';
+$string['eventcommentsviewed'] = 'تعليقات تمت معاينتها';
 $string['eventconfiglogcreated'] = 'تم إنشاء سجل إعدادت';
-$string['eventcontentviewed'] = 'تمت معاينة المحتوى';
+$string['eventcontentviewed'] = 'محتوى تمت معاينته';
 $string['eventcoursebackupcreated'] = 'تم إنشاء نسخة إحتياطية للمقرر الدراسي';
 $string['eventcoursecategorycreated'] = 'تم إنشاء التصنيف';
 $string['eventcoursecategorydeleted'] = 'تم حذف التصنيف';
 $string['eventcoursecategoryupdated'] = 'تم تحديث التصنيف';
-$string['eventcoursecategoryviewed'] = 'تم معاينة التصنيف';
+$string['eventcoursecategoryviewed'] = 'تصنيف تمت معاينته';
 $string['eventcoursecontentdeleted'] = 'تم حذف محتوى المقرر الدراسي';
 $string['eventcoursecreated'] = 'تم إنشاء المقرر الدراسي';
 $string['eventcoursedeleted'] = 'تم حذف المقرر الدراسي';
-$string['eventcourseinformationviewed'] = 'تمت معاينة ملخص المقرر';
+$string['eventcourseinformationviewed'] = 'ملخص مقرر تمت معاينته';
 $string['eventcoursemodulecreated'] = 'تم إنشاء وحدة مقرر دراسي';
 $string['eventcoursemoduledeleted'] = 'تم حذف وحدة المقرر الدراسي';
-$string['eventcoursemoduleinstancelistviewed'] = 'تمت معاينة قائمة عينات وحدات المقررات الدراسية';
+$string['eventcoursemoduleinstancelistviewed'] = 'قائمة عيِّنات وحدات المقررات الدراسية تمت معاينتها';
 $string['eventcoursemoduleupdated'] = 'تم تحديث وحدة المقرر الدراسي';
-$string['eventcoursemoduleviewed'] = 'تمت معاينة وحدة المقرر الدراسي';
+$string['eventcoursemoduleviewed'] = 'وحدة مقرر دراسي تمت معاينتها';
 $string['eventcourseresetended'] = 'انتهت عملية إعادة تعيين المقرر الدراسي';
 $string['eventcourseresetstarted'] = 'بدأت عملية إعادة تعيين المقرر الدراسي';
 $string['eventcourserestored'] = 'تم استرجاع مقرر دراسي';
@@ -815,17 +804,17 @@ $string['eventcoursesectiondeleted'] = 'تم حذف المقطع من المقر
 $string['eventcoursesectionupdated'] = 'تم تحديث مقطع المقرر الدراسي';
 $string['eventcoursessearched'] = 'تم بحث المقررات';
 $string['eventcourseupdated'] = 'تم تحديث المقرر الدراسي';
-$string['eventcourseuserreportviewed'] = 'تمت معاينة تقرير المُستخدم في المقرر الدراسي';
-$string['eventcourseviewed'] = 'تمت معاينة المقرر الدراسي';
+$string['eventcourseuserreportviewed'] = 'تقرير مُستخدم في مقرر دراسي تمت معاينته';
+$string['eventcourseviewed'] = 'مقرر دراسي تمت معاينته';
 $string['eventdashboardreset'] = 'إعادة تعيين لوحة التحكم';
 $string['eventdashboardsreset'] = 'إعادة تعيين صفحات دفات القيادة';
-$string['eventdashboardviewed'] = 'تمت معاينة لوحة التحكم';
+$string['eventdashboardviewed'] = 'لوحة تحكم تمت معاينتها';
 $string['eventdatabasetextfieldcontentreplaced'] = 'البحث والاستبدال في عموم قاعدة البيانات';
 $string['eventemailfailed'] = 'فشل إرسال البريد الإلكتروني';
 $string['eventname'] = 'اسم الحدث';
-$string['eventrecentactivityviewed'] = 'تمت معاينة أحدث النشاطات';
+$string['eventrecentactivityviewed'] = 'نشاطات أخيرة تمت معاينتها';
 $string['eventsearchindexed'] = 'تم فهرست بيانات البحث';
-$string['eventsearchresultsviewed'] = 'تم معاينة نتائج البحث';
+$string['eventsearchresultsviewed'] = 'نتائج بحث تمت معاينتها';
 $string['eventunknownlogged'] = 'حدث غير معروف';
 $string['eventusercreated'] = 'تم إنشاء المُستخدم';
 $string['eventuserdeleted'] = 'تم حذف المُستخدم';
@@ -835,10 +824,10 @@ $string['eventuserinfocategoryupdated'] = 'تم تجديد فئة حقل ملف 
 $string['eventuserinfofieldcreated'] = 'تم إنشاء ملف تعريف المستخدم';
 $string['eventuserinfofielddeleted'] = 'تم إلغاء ملف تعريف المستخدم';
 $string['eventuserinfofieldupdated'] = 'تم تعديل ملف تعريف المستخدم';
-$string['eventuserlistviewed'] = 'تمت معاينة قائمة المُستخدمين';
+$string['eventuserlistviewed'] = 'قائمة مُستخدمين تمت معاينتها';
 $string['eventuserloggedout'] = 'المستخدم سجَّل خروجه';
 $string['eventuserpasswordupdated'] = 'تحديث كلمة مرور المستخدم';
-$string['eventuserprofileviewed'] = 'تمت معاينة الملف الشخصي للمُستخدم';
+$string['eventuserprofileviewed'] = 'ملف شخصي لمُستخدم تمت معاينته';
 $string['eventuserupdated'] = 'تحديث المُستخدم';
 $string['everybody'] = 'الكل';
 $string['executeat'] = 'التنفيذ عند';
@@ -1163,7 +1152,7 @@ $string['loginstepsnone'] = '<p>مرحبا!</p><p>للاتصال الكامل ب
 $string['loginto'] = 'الدخول إلى {$a}';
 $string['logout'] = 'تسجيل الخروج';
 $string['logoutconfirm'] = 'هل في نيتك فعلاً تسجيل الخروج؟';
-$string['logs'] = 'تقارير';
+$string['logs'] = 'سجلات الوقوعات';
 $string['logtoomanycourses'] = '[ <a href="{$a->url}">المزيد</a> ]';
 $string['logtoomanyusers'] = '[ <a href="{$a->url}">المزيد</a> ]';
 $string['lookback'] = 'أنظر إلى الخلف';
@@ -1883,7 +1872,7 @@ $string['showrecent'] = 'اعرض النشاط الحالي';
 $string['showreports'] = 'أظهر تقارير النشاط';
 $string['showreports_help'] = 'تقارير النشاطِ متوفرة لكُلّ مشارك وهي ستُظهر أنشطة الطلبة في المقرر الدراسي. بالإضافة إلى قوائم بمساهماتِهم، مثل منشوراتهم في المنتدى أَو تسليمهم للواجبات، كما تَتضمّنُ هذه تقاريرِ سجلاتِ الوقوعات. هذا الإعداد يحدد ما إذا كان الطلبة يستطيعون معاينة التقارير الخاصةِ بأنشطتهم عن طريق صفحةِ ملفهم الشخصي.';
 $string['showsettings'] = 'عرض الإعدادات';
-$string['showtheselogs'] = 'عرض التقارير';
+$string['showtheselogs'] = 'إظهار تلك السجلات';
 $string['showthishelpinlanguage'] = 'إعرض هذه المساعدة باللغة: {$a}';
 $string['sidepanel'] = 'واجهة جانبية';
 $string['signoutofotherservices'] = 'تسجيل خروج شامل';
@@ -1897,7 +1886,7 @@ $string['sitefiles'] = 'ملفات الموقع';
 $string['sitefilesused'] = 'ملفات الموقع المستخدمة في هذا المقرر';
 $string['sitehome'] = 'الصفحة الرئيسية للموقع';
 $string['sitelegacyfiles'] = 'ملفات الموقع السابقة';
-$string['sitelogs'] = 'تقرير أنشطة الموقع';
+$string['sitelogs'] = 'سجلات وقوعات الموقع';
 $string['sitemessage'] = 'راسل المُستخدمين';
 $string['sitenews'] = 'إعلانات الموقع';
 $string['sitepages'] = 'صفحات الموقع';
@@ -1909,10 +1898,10 @@ $string['sitesection'] = 'تضمين مقطع الموضوع';
 $string['sitesettings'] = 'إعدادات الصفحة الرئيسية';
 $string['siteteachers'] = 'معلمين الموقع';
 $string['size'] = 'الحجم';
-$string['sizeb'] = 'بايتز';
-$string['sizegb'] = 'غيغابايت';
-$string['sizekb'] = 'كيلو بايت';
-$string['sizemb'] = 'ميغا بايت';
+$string['sizeb'] = 'بايت';
+$string['sizegb'] = '&nbsp;غيغا بايت';
+$string['sizekb'] = '&nbsp;كيلو بايت';
+$string['sizemb'] = '&nbsp;ميغا بايت';
 $string['skipped'] = 'تم التخطي';
 $string['skiptocategorylisting'] = 'انتقل إلى قوائم التصنيف';
 $string['skiptocoursedetails'] = 'تخطى إلى المعلومات المُفصلة للمقرر';
@@ -2063,7 +2052,7 @@ $string['to'] = 'إلى';
 $string['tocontent'] = 'إلى العنصر "{$a}"';
 $string['tocreatenewaccount'] = 'تخطى لتنشيء حسابًا جديدًا';
 $string['today'] = 'اليوم';
-$string['todaylogs'] = 'تقارير اليوم';
+$string['todaylogs'] = 'سجلات وقوعات اليوم';
 $string['toeveryone'] = 'للجميع';
 $string['toggleemojipicker'] = 'تبديل منتقي الرموز التعبيرية';
 $string['toomanybounces'] = 'ذلك البريد الإلكتروني تسبب في الكثير من الرسائل المعادة <b>يجب</b> تغييره للإستمرار';
@@ -2115,7 +2104,7 @@ $string['uploadafile'] = 'رفع الملف';
 $string['uploadcantwrite'] = 'لم يتمكن من كتابة الملفات للقرص';
 $string['uploadedfile'] = 'تم رفع الملف بنجاح';
 $string['uploadedfileto'] = 'تم تحميل {$a->file} إلى {$a->directory}';
-$string['uploadedfiletoobig'] = 'عذرا، أن حجم الملف أمبر مما هو مسموح به(الحدهو{$a} بايت)';
+$string['uploadedfiletoobig'] = 'عذرًا، لكن هذا الملف كبير جدًا (حد الحجم هو {$a} بايت)';
 $string['uploadextension'] = 'تم إيقاف رفع الملف من قبل أحد إمتدادات PHP';
 $string['uploadfailednotrecovering'] = 'لقد فشل تحميل ملفك وذلك لوجود مشكلة في أحد الملفات، {$a->name}. <br /> هناء سجل المشاكل: <br />{$a->problem}<br /> لم يتم حلها.';
 $string['uploadfilelog'] = 'سجل وقوعات رفع الملف {$a}';
@@ -2231,7 +2220,7 @@ $string['writinggroupingsinfo'] = 'القيام بكتابة معلومات ال
 $string['writinggroupsinfo'] = 'القيام بكتابة معلومات مجموعات';
 $string['writingheader'] = 'القيام بكتابة راس الصفحة';
 $string['writingloginfo'] = 'القيام بكتابة معلومات السجلات';
-$string['writingmessagesinfo'] = 'القيام بكتابة معلومات الرسائل';
+$string['writingmessagesinfo'] = 'كتابة معلومات الرسائل';
 $string['writingmoduleinfo'] = 'القيام بكتابة معلومات الوحدات';
 $string['writingscalesinfo'] = 'القيام بكتابة معلومات المقاييس';
 $string['writinguserinfo'] = 'القيام بكتابة معلومات المستخدمين';

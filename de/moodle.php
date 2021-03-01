@@ -1681,7 +1681,7 @@ WARNUNG: Dies ist eine experimentelle Funktion, die möglicherweise nicht von al
 $string['relativedatesmode_warning'] = '<b>Warnung:</b> Der relative Datumsmodus kann nach dem Anlegen des Kurses nicht mehr geändert werden.';
 $string['reload'] = 'Neu laden';
 $string['remoteappuser'] = 'Fernnutzer {$a}';
-$string['remove'] = 'Löschen';
+$string['remove'] = 'Entfernen';
 $string['removeadmin'] = 'Administrator/in löschen';
 $string['removecreator'] = 'Kursersteller/in löschen';
 $string['removestudent'] = 'Teilnehmer/in löschen';
@@ -2019,7 +2019,7 @@ $string['switchrolereturn'] = 'Zurück zur Ausgangsrolle';
 $string['switchroleto'] = 'Rolle wechseln …';
 $string['switchroleto_help'] = 'Wählen Sie eine Rolle um eine Vorstellung davon zu bekommen, wie jemand mit dieser Rolle diesen Kurs sehen wird.
 
-Beachten Sie, dass diese Ansicht nicht immer perfekt ist. (<a href="https://docs.moodle.org/en/Switch_roles">Details anzeigen</a>)';
+Beachten Sie, dass diese Ansicht nicht immer perfekt ist. (<a href="https://docs.moodle.org/de/Rollen_wechseln">Details anzeigen</a>)';
 $string['tag'] = 'Tag';
 $string['tagalready'] = 'Dieser Tag gibt es bereits';
 $string['tagmanagement'] = 'Tags hinzufügen/löschen ...';

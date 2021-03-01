@@ -120,7 +120,7 @@ $string['numberofuser'] = 'Nombre d\'utilisateurs';
 $string['option'] = 'Groupe';
 $string['page-mod-choice-x'] = 'Toutes les pages du module Choix du groupe';
 $string['pleaseselectonegroup'] = 'Veuillez sélectionner au moins un groupe comme choix pour les utilisateurs.';
-$string['pleasesetgroups'] = 'Veuillez créer au moins deux groupes dans ce cours.';
+$string['pleasesetgroups'] = 'Veuillez créer au moins un groupe dans ce cours.';
 $string['pleasesetonegroupor'] = 'Veuillez créer au moins un groupe dans ce cours.<br /><br />
 <ul>
 <li><a href="{$a->linkgroups}">gérer les groupes</a></li>

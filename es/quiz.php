@@ -994,4 +994,4 @@ $string['withsummary'] = 'con estadísticas resumidas';
 $string['wronguse'] = 'Usted no puede usar esta página así';
 $string['xhtml'] = 'XHTML';
 $string['youneedtoenrol'] = 'Necesita matricularse en este curso antes de responder al cuestionario';
-$string['yourfinalgradeis'] = 'Su calificación final en este cuestionario es {$a}';
+$string['yourfinalgradeis'] = 'Su calificación final en este cuestionario es {$a}.';

@@ -27,5 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['noauthtoken'] = 'Det har inte kommit någon "token" för autentisering från google. Var snäll och se till att Du medger att moodle får tillgång till Ditt googlekonto.';
 $string['nosessiontoken'] = 'Det finns inte någon "token" för session som förhindrar export till google.';
-$string['pluginname'] = 'Google Docs';
+$string['pluginname'] = 'Google Drive';
+$string['secret'] = 'Hemlighet';
 $string['sendfailed'] = 'Det gick inte att överföra filen {$a} till google';

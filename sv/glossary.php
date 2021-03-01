@@ -25,12 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addcategory'] = 'Lägg till en kategori';
+$string['addcategory'] = 'Lägg till kategori';
 $string['addcomment'] = 'Lägg till kommentarer';
 $string['addentry'] = 'Nytt uppslagsord';
-$string['addingcomment'] = 'Lägg till en kommentar';
+$string['addingcomment'] = 'Lägg till kommentar';
 $string['alias'] = 'Nyckelord';
-$string['aliases'] = 'Synonymer';
+$string['aliases'] = 'Alias';
 $string['aliases_help'] = 'Varje uppslagsord kan ha en associerad lista med sökord (eller alias). Om posten är auto-länkad kommer sökorden också vara auto-länkade.
 
 Ange varje sökord på en ny rad (inte avgränsat med kommatecken).';
@@ -45,7 +45,7 @@ $string['allowprintview_help'] = 'Om detta är aktiverat ser deltagarna en länk
 $string['andmorenewentries'] = 'och ytterligare {$a} nya uppslagsord.';
 $string['answer'] = 'Svar';
 $string['approvaldisplayformat'] = 'Visningsformat för godkännande';
-$string['approvaldisplayformat_help'] = 'När du godkänner uppslagsord kanske vill använda ett annat visningsformat';
+$string['approvaldisplayformat_help'] = 'När du godkänner uppslagsord kanske du vill använda ett annat visningsformat';
 $string['approve'] = 'Godkänn';
 $string['areaattachment'] = 'Bilagor';
 $string['areaentry'] = 'Definitioner';
@@ -56,19 +56,19 @@ $string['ascending'] = 'stigande';
 $string['attachment'] = 'Bilaga';
 $string['attachment_help'] = 'Du kan valfritt bifoga en eller flera filer till ett uppslagsord.';
 $string['author'] = 'författare';
-$string['authorview'] = 'Sök på författare';
+$string['authorview'] = 'Bläddra efter författare';
 $string['back'] = 'Tillbaka';
 $string['cachedef_concepts'] = 'Begreppslänkning';
 $string['cantinsertcat'] = 'Kan inte infoga kategori';
 $string['cantinsertrec'] = 'Kan inte infoga post';
-$string['cantinsertrel'] = 'Det går inte att infoga relationskategori-post';
+$string['cantinsertrel'] = 'Det går inte att infoga relation kategori-post';
 $string['casesensitive'] = 'Det här bidraget gör <br />gör skillnad på stor och liten bokstav';
-$string['casesensitive_help'] = 'Den här inställningen anger om auto-länkningen är skiftlägeskänslig för detta uppslagsord.';
+$string['casesensitive_help'] = 'Den här inställningen anger om auto-länkningen av ett uppslagsord är skiftlägeskänslig.';
 $string['cat'] = 'kategori';
 $string['categories'] = 'Kategorier';
 $string['category'] = 'Kategori';
 $string['categorydeleted'] = 'Kategori borttagen';
-$string['categoryview'] = 'Efter kategori';
+$string['categoryview'] = 'Bläddra efter kategori';
 $string['changeto'] = 'ändra till {$a}';
 $string['cnfallowcomments'] = 'Ange om en ordlista tillåter kommentarer på uppslagsord som standard.';
 $string['cnfallowdupentries'] = 'Ange om en ordlista tillåter dubbletter som standard.';
@@ -78,7 +78,7 @@ $string['cnfdefaulthook'] = 'Välj standardurvalet som ska visas när ordlistan 
 $string['cnfdefaultmode'] = 'Välj standardramen som ska visad när ordlistan visas första gången';
 $string['cnffullmatch'] = 'Ange om ett uppslagsord som standard är skiftlägeskänsligt då det matchas mot måltexten';
 $string['cnflinkentry'] = 'Ange om ett uppslagsord som standard ska auto-länkas';
-$string['cnflinkglossaries'] = 'Ange om en ordlista som standard ska auto-länkas';
+$string['cnflinkglossaries'] = 'Ange om en ordlista ska auto-länkas som standard';
 $string['cnfrelatedview'] = 'Välj visningsformat för visning av auto-länkning och uppslagsord.';
 $string['cnfshowgroup'] = 'Ange om grupp-brytningen ska visas eller ej';
 $string['cnfsortkey'] = 'Välj sorteringsnyckeln som standard';
@@ -90,8 +90,8 @@ $string['commentdeleted'] = 'Kommentaren har tagits bort';
 $string['comments'] = 'Kommentarer';
 $string['commentson'] = 'Kommentarer för';
 $string['commentupdated'] = 'Kommentaren har uppdaterats';
-$string['completionentries'] = 'Studenter måste bidra med uppslagsord:';
-$string['completionentriesdesc'] = 'Deltagaren måste bidra med minst {$a} uppslagsord';
+$string['completionentries'] = 'Studenten måste skapa uppslagsord:';
+$string['completionentriesdesc'] = 'Studenten måste skapa minst {$a} uppslagsord';
 $string['completionentriesgroup'] = 'Kräv uppslagsord';
 $string['concept'] = 'Begrepp';
 $string['concepts'] = 'Begrepp';
@@ -99,7 +99,7 @@ $string['configenablerssfeeds'] = 'Denna inställningen aktiverar möjligheten f
 $string['current'] = 'För närvarande sorterad {$a}';
 $string['currentglossary'] = 'Aktuell ordlista';
 $string['date'] = 'datum';
-$string['dateview'] = 'Bläddra enligt datum';
+$string['dateview'] = 'Bläddra efter datum';
 $string['defaultapproval'] = 'Godkänt som standard';
 $string['defaultapproval_help'] = 'Om inställt på nej kräver uppslagsorden godkännande av en lärare innan de kan visas för alla.';
 $string['defaulthook'] = 'Förvald \'krok\'';
@@ -138,8 +138,8 @@ $string['displayformatfullwithauthor'] = 'Fullständigt, med författare';
 $string['displayformatfullwithoutauthor'] = 'Fullständigt, utan författare';
 $string['displayformats'] = 'Visningsformat';
 $string['displayformatssetup'] = 'Inställningar för visningsformat';
-$string['duplicatecategory'] = 'Dubblera kategori';
-$string['duplicateentry'] = 'Dubblerat bidrag';
+$string['duplicatecategory'] = 'Dubblettkategori';
+$string['duplicateentry'] = 'Dubblettpost';
 $string['editalways'] = 'Tillåt alltid redigering';
 $string['editalways_help'] = '<p>Det här alternativet låter dig avgöra om studenterna/eleverna/deltagarna/de lärande
 ska kunna redigera sina bidrag när som helst.</p>
@@ -151,7 +151,7 @@ ska kunna redigera sina bidrag när som helst.</p>
 $string['editcategories'] = 'Redigera kategorier';
 $string['editcategory'] = 'Redigera kategori';
 $string['editentry'] = 'Redigera uppslagsord';
-$string['editentrya'] = 'Redigera uppslagsord/inlägg: {$a}';
+$string['editentrya'] = 'Redigera uppslagsord: {$a}';
 $string['editingcomment'] = 'Redigerar kommentar';
 $string['entbypage'] = 'Antal uppslagsord per sida';
 $string['entries'] = 'Uppslagsord';
@@ -183,12 +183,12 @@ $string['evententrydeleted'] = 'Uppslagsord borttaget';
 $string['evententrydisapproved'] = 'Uppslagsordet godkändes ej';
 $string['evententryupdated'] = 'Uppslagsordet har uppdaterats';
 $string['evententryviewed'] = 'Uppslagsordet har visats';
-$string['explainaddentry'] = 'Lägg till ett nytt uppslagsord till den aktuella ordlistan.<br />\'Begrepp\' och \'Definition\' är obligatoriska fält.';
+$string['explainaddentry'] = 'Lägg till ett nytt uppslagsord till den aktuella ordlistan.<br /><b>Begrepp</b> och <b>Definition</b> är obligatoriska fält.';
 $string['explainall'] = 'Visar ALLA uppslagsord på en sida';
-$string['explainalphabet'] = 'Sök i ordlistan';
+$string['explainalphabet'] = 'Bläddra i ordlistan med hjälp av detta index';
 $string['explainexport'] = 'En fil har skapats.<br />Ladda ned den och spara den på ett säkert ställe. Du kan importera den när helst du vill, i den här kursen eller i någon annan.';
 $string['explainimport'] = 'Du måste ange vilken fil som ska importeras och villkoren för processen.<p>Skicka in din förfrågan och titta på resultaten igen.</p>';
-$string['explainspecial'] = 'Visa alla uppslagsord som inte börjar med en bokstav';
+$string['explainspecial'] = 'Visa uppslagsord som inte börjar med en bokstav';
 $string['exportedentry'] = 'Exporterat uppslagsord';
 $string['exportentries'] = 'Exportera uppslagsord';
 $string['exportentriestoxml'] = 'Exportera uppslagsorden till en XML-fil';
@@ -196,29 +196,29 @@ $string['exportfile'] = 'Exportera uppslagsord till fil';
 $string['exportglossary'] = 'Exportera ordlista';
 $string['exporttomainglossary'] = 'Exportera till den övergripande ordlistan';
 $string['filetoimport'] = 'Fil att importera';
-$string['filetoimport_help'] = '<p>Markera den XML-fil på din dator som innehåller de uppslagsord du vill importera.</p>';
+$string['filetoimport_help'] = 'Bläddra efter och välj den XML-fil på din dator som innehåller de uppslagsord du vill importera.';
 $string['fillfields'] = '\'Begrepp\' och \'Definition\' är obligatoriska fält';
-$string['filtername'] = 'Auto-länkning';
+$string['filtername'] = 'Auto-länkning av ordlista';
 $string['fullmatch'] = 'Matcha endast hela ord';
 $string['fullmatch_help'] = 'Den här inställningen anger om endast hela ord kommer att länkas. Till exempel kommer inte uppslagsordet "Kaffe" skapa en länk i "Kaffebryggare".';
-$string['glossary:addinstance'] = 'Lägg till ny ordbok';
+$string['glossary:addinstance'] = 'Lägg till ny ordlista';
 $string['glossary:approve'] = 'Godkänn och ångra godkända uppslagsord';
 $string['glossary:comment'] = 'Skapa kommentarer';
 $string['glossary:export'] = 'Exportera uppslagsord';
-$string['glossary:exportentry'] = 'Exportera ett enskilt uppslagsord';
-$string['glossary:exportownentry'] = 'Exportera ett enskilt eget uppslagsord';
+$string['glossary:exportentry'] = 'Exportera enskilt uppslagsord';
+$string['glossary:exportownentry'] = 'Exportera enskilt eget uppslagsord';
 $string['glossary:import'] = 'Importera uppslagsord';
 $string['glossary:managecategories'] = 'Hantera kategorier';
 $string['glossary:managecomments'] = 'Hantera kommentarer';
 $string['glossary:manageentries'] = 'Hantera uppslagsord';
-$string['glossary:rate'] = 'Bedöm inlägg';
+$string['glossary:rate'] = 'Bedöm uppslagsord';
 $string['glossary:view'] = 'Visa ordlista';
 $string['glossary:viewallratings'] = 'Visa alla betyg som har avgivits av individer';
-$string['glossary:viewanyrating'] = 'Visa alla betyg/omdömen som någon har fått.';
-$string['glossary:viewrating'] = 'Visa de sammanlagda bedömningar som du har fått';
+$string['glossary:viewanyrating'] = 'Visa alla betyg som någon har erhållit';
+$string['glossary:viewrating'] = 'Visa det sammanlagda betyget du fått';
 $string['glossary:write'] = 'Skapa nya uppslagsord';
 $string['glossaryleveldefaultsettings'] = 'Standardinställningar på ordlistenivå';
-$string['glossarytype'] = 'Typ av ordlista';
+$string['glossarytype'] = 'Ordlistetyp';
 $string['glossarytype_help'] = 'En huvudordlista är en ordlista till vilken uppslagsord från sekundära ordlistor kan importeras. Det kan bara finnas en huvudordlista i en kurs. Om import av uppslagsord inte är nödvändigt kan samtliga ordlistor i kursen vara sekundära.';
 $string['guestnoedit'] = 'Gäster kan inte redigera ordlistor';
 $string['importcategories'] = 'Importera kategorier';
@@ -235,7 +235,7 @@ $string['indicator:socialbreadth'] = 'Ordlista socialt';
 $string['indicator:socialbreadth_help'] = 'Denna indikator baserad på den sociala bredd som uppnåtts av studenten i en Ordliste-aktivitet.';
 $string['indicator:socialbreadthdef'] = 'Ordlista socialt';
 $string['indicator:socialbreadthdef_help'] = 'Deltagaren har uppnått denna procentandel av det sociala engagemanget i Ordlisteaktiviteterna under detta analysintervall (Nivåer = Inget deltagande, Deltagaren ensamt)';
-$string['isglobal'] = 'Är detta en global ordlista?';
+$string['isglobal'] = 'Detta är en global ordlista';
 $string['isglobal_help'] = 'En global ordlista har uppslagsord som är länkade till från hela webbplatsen, snarare än bara i den kurs som ordlistan är definierad i. Endast administratörer kan ange en ordlista som global.';
 $string['letter'] = 'bokstav';
 $string['linkcategory'] = 'Länka den här kategorin automatiskt';
@@ -244,13 +244,21 @@ $string['linking'] = 'Automatisk länkning';
 $string['mainglossary'] = 'Huvudordlista';
 $string['maxtimehaspassed'] = 'Maxtiden för att redigera den här kommentaren har tyvärr gått ut ({$a})';
 $string['modulename'] = 'Ordlista';
-$string['modulename_help'] = 'Med hjälp av aktivitetsmodulen ordlista kan deltagarna skapa och underhålla en lista över definitioner, som entydigt lexikon, eller att samla in och organisera resurser eller information.
+$string['modulename_help'] = 'Med hjälp av aktivitetsmodulen <em>Ordlista</em> kan deltagarna skapa och underhålla en lista över definitioner, som en uppslagsbok, eller att samla in och organisera resurser eller information.
 
-En lärare kan tillåta att filer bifogas till ordlistan. Bifogade bilder visas i posten. Uppslagsord kan sökas eller bläddras alfabetiskt eller efter kategori, datum eller författare. Uppslagsord kan godkännas som standard eller kräva godkännande av en lärare innan de kan visas för alla.
+En lärare kan tillåta att filer bifogas till uppslagsord. Bifogade bilder visas i artikeln. Det går att söka på uppslagsord. Det går att bläddra i ordlistan, efter alfabetisk ordning, efter kategori eller efter datum eller författare. Nya uppslagsord kan godkännas som standard eller kräva godkännande av en lärare innan de kan visas för alla.
 
-Om filtret för automatisk länkning av ordlistan är aktiverat, kommer poster att länkas automatiskt dit konceptorden och/eller fraserna visas inom kursen.
+Om filtret för automatisk länkning av ordlistan är aktiverat kommer uppslagsord att länkas automatiskt där begreppet visas i kursen.
 
-En lärare kan tillåta kommentarer på poster. Uppslagsorden kan också betygsättas av lärare eller elever (peer-utvärdering). Betyg kan aggregeras för att bilda ett slutbetyg som registreras i betygsboken.';
+En lärare kan tillåta kommentarer på uppslagsord. Uppslagsorden kan också betygsättas av lärare eller elever (peer evaluation). Betyg kan aggregeras för att bilda ett slutbetyg som registreras i betygsboken.
+
+Ordlistor har många användningsområden, som till exempel
+
+* En samarbetsbank för viktiga termer
+* Ett \'lära känna dig\'-utrymme där nya studenter lägger till sina namn och personliga detaljer
+* En "praktiska tips"-resurs i för ämne
+* En delad yta med användbara videor, bilder eller ljudfiler
+* En reviderbar resurs med fakta att komma ihåg';
 $string['modulenameplural'] = 'Ordlistor';
 $string['newentries'] = 'Nya uppslagsord';
 $string['newglossary'] = 'Ny ordlista';
@@ -278,6 +286,10 @@ $string['print'] = 'Skriv ut';
 $string['printerfriendly'] = 'Utskriftsvänlig version';
 $string['printviewnotallowed'] = 'Visning av utskrift är inte tillåten.';
 $string['privacy'] = 'Resultatsekretess';
+$string['privacy:metadata:core_comments'] = 'Kommentarer för ordlistans definitioner lagras med hjälp av <code>core_comment</code>-systemet.';
+$string['privacy:metadata:core_files'] = 'Filer länkade till ordlistans definitioner lagras med hjälp av <code>core_files</code>-systemet.';
+$string['privacy:metadata:core_rating'] = 'Bedömningar som läggs till för ordlistans definitioner lagras med hjälp av <code>core_rating</code>-systemet.';
+$string['privacy:metadata:core_tag'] = 'Etiketter som adderas till ordlistans definitioner lagras med hjälp av <code>core_tag</code>-systemet.';
 $string['privacy:metadata:glossary_entries'] = 'Information om användarens ord för en given ordliste-aktivitet';
 $string['privacy:metadata:glossary_entries:attachment'] = 'Den bilaga till uppslagsordet som användaren lade till';
 $string['privacy:metadata:glossary_entries:concept'] = 'Konceptet för uppslagsordet användare lade till';

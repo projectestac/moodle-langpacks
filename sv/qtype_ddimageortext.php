@@ -25,15 +25,31 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['answer'] = 'Svar';
+$string['bgimage'] = 'Bakgrundsbild';
+$string['blank'] = 'tom';
 $string['correctansweris'] = 'Det rätta svaret är: {$a}';
 $string['draggableimage'] = 'Släpbar bild';
 $string['draggableitem'] = 'Släpbart objekt';
 $string['draggableitemheader'] = 'Släpbart objekt {$a}';
 $string['draggableitems'] = 'Släpbara objekt';
 $string['draggableitemtype'] = 'Typ';
+$string['draggableword'] = 'Släpbar text';
+$string['dropzone'] = 'Släppzon {$a}';
+$string['dropzoneheader'] = 'Släppzoner';
 $string['formerror_disallowedtags'] = 'Endast "{$a}"-etiketter tillåts i denna text.';
+$string['formerror_multipledraginstance'] = 'Du har markerat den här bilden {$a} mer än en gång som rätt val för en släppzon, men den är inte markerad som ett obegränsat drag- och släppbart objekt.';
+$string['formerror_multipledraginstance2'] = 'Du har markerat den här bilden mer än en gång som rätt val för en släppzon, men den är inte markerad som ett obegränsat drag- och släppbart objekt.';
 $string['formerror_noallowedtags'] = 'HTML-taggar är inte tillåtna i denna text, som är alternativtexten för den släpbara bilden.';
+$string['infinite'] = 'Obegränsat';
+$string['label'] = 'Text';
+$string['nolabel'] = 'Ingen etikett-text';
 $string['pluginname'] = 'Dra och släpp på bild';
 $string['pluginnameadding'] = 'Lägger till dra och släpp på bild';
 $string['previewareaheader'] = 'Förhandsgranska';
 $string['refresh'] = 'Uppdatera förhandsgranskning';
+$string['summarisechoiceno'] = 'Objekt {$a}';
+$string['summariseplace'] = '{$a->no}. {$a->text}';
+$string['summariseplaceno'] = 'Släppzon {$a}';
+$string['xleft'] = 'Vänster';
+$string['ytop'] = 'Från toppen';

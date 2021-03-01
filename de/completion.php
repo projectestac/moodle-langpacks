@@ -60,7 +60,6 @@ $string['completedunlocked'] = 'Abschlussoptionen verfügbar';
 $string['completedunlockedtext'] = 'Wenn Sie Ihre Änderungen speichern, wird der Abschlussstatus für alle Nutzer/innen gelöscht. Wenn Sie dies nicht möchten, speichern Sie bitte nicht!';
 $string['completedwarning'] = 'Abschlussoptionen gesperrt';
 $string['completedwarningtext'] = 'Eine oder mehrere Personen ({$a}) haben diese Aktivität bereits als abgeschlossen markiert.
-
 Die Änderung der Abschlussoptionen löscht alle Daten zum Abschlussstatus und könnte zu Verwirrungen führen. Deswegen wurden die Optionen gesperrt und sollten auch nicht freigegeben werden, außer es ist unbedingt notwendig.';
 $string['completion'] = 'Abschlussverfolgung';
 $string['completion-alt-auto-enabled'] = 'Das System markiert dieses Element entsprechend den Bedingungen als abgeschlossen: {$a}';
@@ -145,7 +144,7 @@ $string['dependenciescompleted'] = 'Abschluss von anderen Kursen';
 $string['editcoursecompletionsettings'] = 'Abschlusseinstellungen bearbeiten';
 $string['enablecompletion'] = 'Abschlussverfolgung aktivieren';
 $string['enablecompletion_help'] = 'Diese Option legt fest, ob die Einstellung zur Abschlussverfolgung in den Einstellungen der Aktivität und/oder der Übersichtsseite zur Abschlussverfolgung angezeigt wird. Es wird empfohlen diese Einstellung zu verwenden, damit im Dashboard sinnvolle Informationen zum Kursfortschritt angezeigt werden können.';
-$string['enrolmentduration'] = 'Tage noch verfügbar';
+$string['enrolmentduration'] = 'Einschreibedauer';
 $string['enrolmentdurationlength'] = 'Nutzer/in muss eingeschrieben bleiben';
 $string['err_noactivities'] = 'Die Abschlussinformation ist nicht für jede Aktivität eingeschaltet, daher kann keine angezeigt werden. Sie können die Abschlussinformation einschalten, indem Sie die Einstellungen einer Aktivität bearbeiten.';
 $string['err_nocourses'] = 'Die Abschlussverfolgung ist für keinen Kurs aktiviert, so dass kein Kurs angezeigt werden kann. Sie können die Abschlussverfolgung in den Kurseinstellungen aktivieren.';

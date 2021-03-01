@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['feedback'] = 'Återkoppling';
 $string['feedback:addinstance'] = 'Lägg till ett nytt block för återkoppling';
 $string['pluginname'] = 'Återkoppling';
+$string['privacy:metadata'] = 'Blocket Återkoppling endast visar data som lagrats på andra platser.';

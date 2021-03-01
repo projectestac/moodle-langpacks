@@ -25,5 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventreportviewed'] = 'Deltagarrapport visad';
+$string['nologreaderenabled'] = 'Ingen aktiv loggläsare';
+$string['page-report-participation-index'] = 'Kursdeltaganderapport';
+$string['page-report-participation-x'] = 'Valfri deltaganderapport';
 $string['participation:view'] = 'Visa rapport över deltagande i kurs';
 $string['pluginname'] = 'Deltagande i kurs';
+$string['privacy:metadata'] = 'Pluginmodulen Kursdeltagande lagrar ingen personlig information.';

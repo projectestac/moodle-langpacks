@@ -27,5 +27,9 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['attempts'] = 'محاولات';
 $string['avaluation_score'] = 'تحقيق هذه الدرجة العمومية';
+$string['description'] = 'الوصف';
+$string['event_course_module_viewed'] = 'وحدة مساق تمت معاينتها';
+$string['event_instances_list_viewed'] = 'قائمة عيِّنات تمت معاينتها';
 $string['maxgrade'] = 'الدرجات/النشاطات التي ينبغي تحقيقها';
 $string['score'] = 'الدرجة';
+$string['size'] = 'الحجم';

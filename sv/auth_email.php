@@ -30,4 +30,4 @@ $string['auth_emailnoemail'] = 'Vi försökte att skicka e-post till dig men det
 $string['auth_emailrecaptcha'] = 'Lägger till ett audio/visuellt formulärelement till sidan där användare kan registrera sig själva med hjälp av e-post. Det här skyddar din webbplats mot de som skickar ut skräppost och bidrar till något som är värt att ta vara på. Se http://recaptcha.net/learnmore.html för mer detaljer.';
 $string['auth_emailrecaptcha_key'] = 'Aktivera reCAPTCHA-elementet';
 $string['auth_emailsettings'] = 'Inställningar';
-$string['pluginname'] = 'E-postbaserad autentisering';
+$string['pluginname'] = 'E-postbaserad självregistrering';

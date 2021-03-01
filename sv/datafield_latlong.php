@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Fält för latitud/longitud';
 $string['pluginname'] = 'Latitud/longitud';
+$string['privacy:metadata'] = 'Fältkomponenten Latitud/longitud lagrar ingen personlig information. Den använder tabeller definierade i mod_data.';

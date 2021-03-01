@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Kursivt';
+$string['pluginname'] = 'Kursiv';
 $string['privacy:metadata'] = 'Plugin-modulen atto_italic lagrar ingen personlig information.';

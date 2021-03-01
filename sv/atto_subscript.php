@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Nedsänkt text';
+$string['privacy:metadata'] = 'Pluginmodulen atto_subscript lagrar ingen personlig information.';

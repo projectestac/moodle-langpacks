@@ -79,7 +79,7 @@ $string['settingshortname'] = 'IMS Beschreibungs-Tag für den kurzen Kursnamen';
 $string['settingshortnamedescription'] = 'Der Kurztitel des Kurses ist ein Pflichtfeld. Das diesen enthaltende Beschreibungsfeld inder IMS Enterprise-Datei ist festzulegen.';
 $string['settingsummary'] = 'IMS Beschreibungs-Tag für die Kursbeschreibung';
 $string['settingsummarydescription'] = 'Dies ist ein optionales Feld. Es kann auf Wunsch leer bleiben, wenn Sie keine Kursbeschreibung angeben möchten.';
-$string['sourcedidfallback'] = '"sourcedid" statt "userid" für die Nutzer-ID verwenden, wenn das Feld "userid" nicht gefunden wird';
+$string['sourcedidfallback'] = '"sourcedid" für die Nutzer-ID verwenden, wenn das Feld "userid" nicht gefunden wird';
 $string['sourcedidfallback_desc'] = 'Im IMS Datensatz wird im <sourceid>-Feld die dauerhafte persönliche ID-Bezeichnung des Nutzers aus dem Ursprungssystem hinterlegt.  Das <userid>-Feld ist ein zusätzliches Feld und enthält einen ID-Code, mit dem der Nutzer sich einloggen kann. Manchmal – jedoch nicht immer – sind die Einträge identisch.
 
 Einige Nutzerverwaltungssysteme haben Probleme beim Export des <userid>-Feldes. In solch einem Fall aktivieren Sie diese Einstellung, damit Moodle den Inhalt des Feldes <sourceid> als Moodle-Nutzer-ID verwendet. Ist das nicht der Fall, lassen Sie die Funktion deaktiviert.';
@@ -89,7 +89,7 @@ $string['updatecourses'] = 'Kurs aktualisieren';
 $string['updatecourses_desc'] = 'Bei Aktivierung kann das IMS Enterprise Einschreibungs-Plugin die vollständigen und kurzen Namen aktualisieren (wenn die "recstatus"-Markierung auf 2 steht, was ein Update signalisiert).';
 $string['updateusers'] = 'Nutzeraccounts aktualisieren, falls dies in IMS Daten festgelegt ist';
 $string['updateusers_desc'] = 'Bei Aktivierung können IMS Enterprise Enschreibungs-Daten Veränderungen in Nutzer Accounts festlegen (wenn die "recstatus"-Markierung durch \'2\' ein Update signalisiert).';
-$string['usecapitafix'] = 'Box anklicken, wenn "Großbuchstaben" verwendet werden (XML-Format ist fehlerhaft)';
+$string['usecapitafix'] = 'Haken setzen, wenn "Großbuchstaben" verwendet werden (XML-Format ist fehlerhaft)';
 $string['usecapitafix_desc'] = 'Nur für Nutzer des Teilnehmerverwaltungssystem CAPITA: Der XML Output von Capita enthält einen Fehler. Bei Verwendung von Capita sollte diese Einstellung deaktiviert sein.';
 $string['usersettings'] = 'Nutzerdateneinstellungen';
 $string['zeroisnotruncation'] = '0 bedeutet nicht abschneiden';

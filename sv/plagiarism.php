@@ -31,4 +31,5 @@ $string['configplagiarismplugins'] = 'Var snäll och välj det plugin-program mo
 $string['enableplagiarism'] = 'Aktivera plugin-program mot fusk';
 $string['manageplagiarism'] = 'Administrera plugins för plagiatkontroll';
 $string['nopluginsinstalled'] = 'Det finns inga installerade pluginmoduler mot fusk.';
-$string['plagiarism'] = 'Åtgärder för att förhindra fusk';
+$string['plagiarism'] = 'Plagierings-skydd';
+$string['privacy:metadata:plagiarism'] = 'Plagieringsundersystemet fungerar som en kanal och skickar förfrågningar från pluginmoduler till de olika plagieringstjänsterna.';

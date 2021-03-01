@@ -42,6 +42,8 @@ $string['allowunenrol_desc'] = '<p>Enterprise data kan lägga till eller ta bort
   <li>Det finns en &lt;medlems&gt;-komponent som anger en &lt;tidsram> för registreringen och som kan specificera start- och slutdatum för registrering av just denne/a student/ elev/ deltagare/ lärande. Dessa datum laddas in i Moodles datatabell för registrering om det finns en sådan och efter det angivna slutdatumet kommer studenten/ eleven/ deltagaren/ den lärande inte längre att kunna få tillgång till just den kursen.</li>
 </ul>';
 $string['basicsettings'] = 'Grundläggande inställlningar';
+$string['categoryidnumber'] = 'Tillåt id-nummer för kategori';
+$string['categoryseparator'] = 'Kategoriavgränsare';
 $string['coursesettings'] = 'Alternativ för kursdata';
 $string['createnewcategories'] = 'Skapa nya (dolda) kurskategorier om det inte går att hitta några i Moodle.';
 $string['createnewcourses'] = 'Skapa nya (dolda) kurser om det inte går att hitta några i Moodle.';

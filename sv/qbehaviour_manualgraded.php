@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Manuellt rättad/betygsatt';
+$string['pluginname'] = 'Manuellt betygsatt';
+$string['privacy:metadata'] = 'Pluginmodulen för frågebeteende Manuellt betygsatt lagrar ingen personlig information.';

@@ -25,5 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['exportfrom'] = 'Exporterat från {$a}';
+$string['exporttime'] = 'Exporterat den {$a}';
+$string['exportuser'] = 'Data för {$a}';
 $string['navigation'] = 'Navigering';
 $string['privacy:subsystem:empty'] = 'Detta subsystem lagrar ingen information.';
+$string['trace:done'] = 'Slutförd';
+$string['trace:exportcomplete'] = 'Export slutförd';
+$string['trace:finalisingexport'] = 'Slutför export';

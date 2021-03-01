@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['eventactivityreportviewed'] = 'تمت معاينة تقرير النشاط';
-$string['eventoutlinereportviewed'] = 'تمت معاينة تقرير الملامح العامة';
+$string['eventactivityreportviewed'] = 'تقرير نشاط تمت معاينته';
+$string['eventoutlinereportviewed'] = 'تقرير ملامح عامة تمت معاينته';
 $string['neverseen'] = 'لم يتم رؤيتها';
 $string['nocapability'] = 'تعذر الوصول إلى تقرير الملامح العامة للمستخدم';
 $string['nologreaderenabled'] = 'لا قارئ مُمَكَّن لسجل الوقوعات';

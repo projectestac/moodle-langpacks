@@ -26,9 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['healthnoproblemsfound'] = 'Non è stato rilevato nessun problema di salute.';
-$string['healthproblemsdetected'] = 'Sono stati rilevati problemi di salute!';
-$string['healthproblemsolution'] = 'Soluzione problema di salute';
+$string['healthproblemsdetected'] = 'Sono stati rilevati problemi di integrità';
+$string['healthproblemsolution'] = 'Soluzione al problema di integrità';
 $string['healthreturntomain'] = 'Continua';
 $string['healthsolution'] = 'Soluzione';
-$string['pluginname'] = 'Centro salute';
+$string['pluginname'] = 'Centro integrità';
 $string['privacy:metadata'] = 'Il plugin "Centro salute" non memorizza dati personali.';

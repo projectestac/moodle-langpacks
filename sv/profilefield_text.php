@@ -25,4 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Inmatning av text';
+$string['pluginname'] = 'Textfält';
+$string['privacy:metadata:profilefield_text:data'] = 'Profilfält-användardata för textfält';
+$string['privacy:metadata:profilefield_text:dataformat'] = 'Formatet på användardata i textfältet';
+$string['privacy:metadata:profilefield_text:fieldid'] = 'ID för profilfältet';
+$string['privacy:metadata:profilefield_text:tableexplanation'] = 'Ytterligare profildata';
+$string['privacy:metadata:profilefield_text:userid'] = 'ID för användare vars data är lagrad i textfältet';

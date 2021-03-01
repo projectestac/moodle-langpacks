@@ -34,5 +34,5 @@ $string['giftqtypenotset'] = 'Frågetyp är inte inställd';
 $string['giftrightbraceerror'] = 'Det gick inte att hitta en }';
 $string['importminerror'] = 'Det finns ett fel i frågan. Det finns inte tillräckligt många svarsalternativ på denna fråga typ';
 $string['nohandler'] = 'Ingen hanterare för frågetyp {$a}';
-$string['pluginname'] = 'Giftformat';
-$string['pluginname_help'] = 'Gift formatet gör det möjligt att använda flervalsfrågor, sant-falskt, matchning, saknade ord, numeriska och essäfrågor och importera eller exportera dessa via en textfil';
+$string['pluginname'] = 'GIFT-format';
+$string['pluginname_help'] = 'GIFT-formatet gör det möjligt att använda flervalsfrågor, sant-falskt, matchning, saknade ord, numeriska och essäfrågor och importera eller exportera dessa via en textfil';

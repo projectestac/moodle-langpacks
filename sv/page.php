@@ -26,27 +26,40 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configdisplayoptions'] = 'Välj alla de alternativ som ska vara tillgängliga, de befintliga inställningarna har inte modifierats. Håll nere CRTL-tangenten för att välja flera fält samtidigt.';
-$string['content'] = 'Innehåll för sida';
+$string['content'] = 'Sidinnehåll';
 $string['contentheader'] = 'Innehåll';
 $string['createpage'] = 'Skapa ny sida';
-$string['displayoptions'] = 'Tillgängliga alternativ för visning';
+$string['displayoptions'] = 'Visningsalternativ';
 $string['displayselect'] = 'Visa';
-$string['displayselectexplain'] = 'Välj visningstyp';
+$string['displayselectexplain'] = 'Välj visningstyp.';
 $string['indicator:cognitivedepth'] = 'Sida kognitiv';
 $string['indicator:cognitivedepth_help'] = 'Denna indikator baseras på det kognitiva djup som uppnåtts av studenten i en Sidresurs.';
+$string['indicator:cognitivedepthdef'] = 'Sida kognitiv';
+$string['indicator:cognitivedepthdef_help'] = 'Deltagaren har uppnått denna procentandel av det kognitiva engagemanget som tillhandahållits av Sidresurserna under detta analysintervall (Nivåer = Ingen visning, Visning)';
 $string['indicator:socialbreadth'] = 'Sida social';
 $string['indicator:socialbreadth_help'] = 'Denna indikator baseras på den sociala bredd som uppnåtts av studenten i en Sidresurs.';
+$string['indicator:socialbreadthdef'] = 'Sida social';
 $string['indicator:socialbreadthdef_help'] = 'Deltagaren har nått denna procentandel av det sociala engagemanget som erbjuds av Sidresurserna under detta analysintervall (Nivåer = Inget deltagande, Deltagaren ensamt)';
 $string['legacyfiles'] = 'Migration av en gammal kursfil';
 $string['legacyfilesactive'] = 'Aktiv';
 $string['legacyfilesdone'] = 'Avslutad';
 $string['modulename'] = 'Sida';
-$string['modulename_help'] = 'En sida gör det möjligt att visa och redigera en webbsida i kursen';
+$string['modulename_help'] = 'Sidmodulen gör det möjligt för en lärare att skapa webbsidor med hjälp av textredigeraren. En sida kan visa text, bilder, ljud, video, webblänkar och inbäddad kod, till exempel Google Maps.
+
+Fördelar med att använda sidmodulen snarare än filmodulen inkluderar att resursen är mer tillgänglig (till exempel för användare av mobila enheter) och lättare att uppdatera.
+
+För stora mängder innehåll rekommenderas att en bok används snarare än en sida.
+
+En sida kan användas för att
+
+* Presentera villkoren för en kurs eller en sammanfattning av kursplanen
+* Bädda in flera videor eller ljudfiler tillsammans med förklarande text';
 $string['modulenameplural'] = 'Sidor';
-$string['optionsheader'] = 'Alternativ';
+$string['optionsheader'] = 'Visningsalternativ';
+$string['page-mod-page-x'] = 'Valfri sida i sidmodulen';
 $string['page:addinstance'] = 'Skapa ny sida';
 $string['page:view'] = 'Visa sidinnehåll';
-$string['pluginadministration'] = 'Administration av modulen för sida';
+$string['pluginadministration'] = 'Administrera sidmodulen';
 $string['pluginname'] = 'Sida';
 $string['popupheight'] = 'Höjd på popup-fönster i pixlar';
 $string['popupheightexplain'] = 'Anger standardhöjden på popup-fönster';
@@ -54,6 +67,9 @@ $string['popupwidth'] = 'Bredd på popup-fönster i pixlar';
 $string['popupwidthexplain'] = 'Anger standardbredden på popup-fönster';
 $string['printheading'] = 'Visa sidans namn';
 $string['printheadingexplain'] = 'Visa sidans namn ovanför sidans innehåll';
-$string['printintro'] = 'Visa beskrivning för sida';
+$string['printintro'] = 'Visa sidbeskrivning';
 $string['printintroexplain'] = 'Visa beskrivning för sida ovanför innehållet?';
+$string['printlastmodified'] = 'Visa senast ändrad datum';
+$string['printlastmodifiedexplain'] = 'Visa senaste ändringsdatum nedanför innehållet?';
+$string['privacy:metadata'] = 'Pluginmodulen Sida lagrar ingen personlig information.';
 $string['search:activity'] = 'Sida';

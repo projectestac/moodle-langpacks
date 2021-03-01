@@ -25,17 +25,19 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['courseactivities'] = 'Kategorier, kurser och aktiviteter i kurser';
+$string['courseactivities'] = 'Kategorier, kurser och kursaktiviteter';
 $string['courses'] = 'Kategorier och kurser';
-$string['coursestructures'] = 'Kategorier, kurser och strukturer i kurser';
+$string['coursestructures'] = 'Kategorier, kurser och kursstrukturer';
+$string['enabledockdesc'] = 'Tillåt att användaren dockar detta block';
 $string['everything'] = 'Allt';
-$string['expansionlimit'] = 'Generera navigation för det följande';
+$string['expansionlimit'] = 'Generera navigering för följande';
 $string['linkcategoriesdesc'] = 'Visa kategorier som länkar';
-$string['navigation:addinstance'] = 'Lägg till nytt navigationsblock';
-$string['navigation:myaddinstance'] = 'Lägg till nytt navigationsblock på Mitt Moodle';
-$string['pluginname'] = 'Navigation';
+$string['navigation:addinstance'] = 'Lägg till nytt navigeringsblock';
+$string['navigation:myaddinstance'] = 'Lägg till nytt navigeringsblock på Mitt Moodle';
+$string['pluginname'] = 'Navigering';
+$string['privacy:metadata'] = 'Blocket Navigering visar endast data lagrad på andra platser.';
 $string['trimlength'] = 'Antal tecken att trimma till';
-$string['trimmode'] = 'Läge för trimning';
+$string['trimmode'] = 'Trimningsläge';
 $string['trimmodecenter'] = 'Trimma tecken från mitten';
 $string['trimmodeleft'] = 'Trimma tecken från vänster';
 $string['trimmoderight'] = 'Trimma tecken från höger';

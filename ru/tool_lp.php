@@ -107,6 +107,7 @@ $string['editthisplan'] = 'Редактировать этот учебный п
 $string['editthisuserevidence'] = 'Редактировать это доказательство';
 $string['edituserevidence'] = 'Редактировать доказательство';
 $string['evidence'] = 'Доказательство';
+$string['filterbyactivity'] = 'Фильтровать компетентности по ресурсу или элементу';
 $string['findcourses'] = 'Найти курсы';
 $string['frameworkcannotbedeleted'] = 'Фреймворк компетенций «{$a}» не может быть удален';
 $string['hidden'] = 'Скрытый';

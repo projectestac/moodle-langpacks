@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Fält för kryssruta';
 $string['pluginname'] = 'Kryssruta';
+$string['privacy:metadata'] = 'Fältkomponenten Kryssruta lagrar ingen personlig information. Den använder tabeller definierade i mod_data.';

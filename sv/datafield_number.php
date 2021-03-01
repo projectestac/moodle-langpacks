@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['fieldtypelabel'] = 'Fält för tal';
-$string['pluginname'] = 'Tal';
+$string['fieldtypelabel'] = 'Nummerfält';
+$string['pluginname'] = 'Nummer';
+$string['privacy:metadata'] = 'Fältkomponenten Nummer lagrar ingen personlig information. Den använder tabeller definierade i <code>mod_data</code>.';

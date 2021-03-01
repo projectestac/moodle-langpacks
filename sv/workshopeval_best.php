@@ -25,11 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['comparison_help'] = 'Den här inställningen specificerar hur sträng jämförelsen av bedömningar ska vara. Ju strängare inställningen är, desto mera måste utvärderingarna likna varandra för att ett högre visord ska ges';
+$string['comparison'] = 'Bedömningsjämförelse';
+$string['comparison_help'] = 'Den här inställningen specificerar hur strikt jämförelsen av bedömningar ska vara. Ju strängare inställningen är, desto mer måste utvärderingarna likna varandra för att ett högt betyg ska ges.';
 $string['comparisonlevel1'] = 'mycket strikt';
 $string['comparisonlevel3'] = 'strikt';
 $string['comparisonlevel5'] = 'medel';
 $string['comparisonlevel7'] = 'mild';
 $string['comparisonlevel9'] = 'mycket mild';
-$string['configcomparison'] = 'Förvalt värde för faktorn som inverkar på bedömningen.';
+$string['configcomparison'] = 'Standardinställningen för hur strikt jämförelsen av bedömningar ska vara.';
 $string['pluginname'] = 'Jämfärelse med de bästa utvärderingarna';
+$string['privacy:metadata'] = 'Pluginmodulen Jämförelse med bästa bedömning lagrar bara detaljerna från bedömningsformuläret. Faktiska personuppgifter om hur blanketten har fyllts lagras av själva workshopmodulen och bifogas exporterade bedömningar.';

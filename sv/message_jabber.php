@@ -36,4 +36,4 @@ $string['jabberport'] = 'Jabber port';
 $string['jabberserver'] = 'Jabber server';
 $string['jabberusername'] = 'Jabber-användarnamn';
 $string['notconfigured'] = 'Jabber-servern har inte konfigurerats så Jabber-meddelanden kan inte skickas. (Denna används för närvarande inte.)';
-$string['pluginname'] = 'Jabber-meddelande';
+$string['pluginname'] = 'Jabber';

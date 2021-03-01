@@ -66,6 +66,8 @@ $string['indicator:cognitivedepth'] = 'Файл: познавательный а
 $string['indicator:cognitivedepth_help'] = 'Этот показатель основан на глубине познания, достигнутой студентом при работе с ресурсом Файл.';
 $string['indicator:socialbreadth'] = 'Файл: социальный аспект';
 $string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с ресурсом Файл.';
+$string['indicator:socialbreadthdef'] = 'Файл: социальный аспект';
+$string['indicator:socialbreadthdef_help'] = 'Участник достиг этого процента социальной активности, предлагаемой ресурсами Файл в течение этого интервала анализа (Уровни = нет участия, единственный участник)';
 $string['legacyfiles'] = 'Миграция файла из старого курса';
 $string['legacyfilesactive'] = 'Активно';
 $string['legacyfilesdone'] = 'Завершено';

@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Sorterad lista';
+$string['privacy:metadata'] = 'Pluginmodulen atto_orderedlist lagrar ingen personlig information.';

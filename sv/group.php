@@ -59,6 +59,7 @@ $string['deletegroupsconfirm'] = 'Är Du säker på att Du vill ta bort de följ
 $string['deleteselectedgroup'] = 'Ta bort markerad grupp';
 $string['editgroupingsettings'] = 'Redigera gruppindelningsinställningar';
 $string['editgroupsettings'] = 'Redigera inställningar för grupp';
+$string['editusersgroupsa'] = 'Redigera grupper för "{$a}"';
 $string['enablemessaging'] = 'Gruppmeddelanden';
 $string['enablemessaging_help'] = 'Om detta alternativ är aktivt kan användare skicka meddelanden till andra gruppmedlemmar';
 $string['encoding'] = 'Teckenkodning';
@@ -155,6 +156,8 @@ $string['importgroups_help'] = 'Grupper kan importeras via testfiler. Formatet f
 * Den första posten innehåller en lista över fältnamn och definierar formatet på resten av filen.
 * Obligatoriska fältnamn är groupname (gruppnamn)
 * Valfria fältnamn är description, enrolmentkey, picture, hidepicture (beskrivning, kursnyckel, offentlig bild, dold bild)';
+$string['includeonlyactiveenrol'] = 'Inkludera endast aktiva registreringar';
+$string['includeonlyactiveenrol_help'] = 'Om aktiverat inkluderas inte avstängda användare i grupper.';
 $string['javascriptrequired'] = 'Den här sidan kräver Javascript för att aktiveras.';
 $string['memberofgroup'] = 'Medlem i: {$a}';
 $string['members'] = 'Medlemmar per grupp';
@@ -186,6 +189,7 @@ $string['overview'] = 'Översikt';
 $string['potentialmembers'] = 'Potentiella medlemmar: {$a}';
 $string['potentialmembs'] = 'Möjliga medlemmar';
 $string['printerfriendly'] = 'Utskriftsvänlig visning';
+$string['privacy:metadata:core_message'] = 'Gruppkonversationerna';
 $string['random'] = 'Slumpmässig';
 $string['removefromgroup'] = 'Ta bort användare från grupp {$a}';
 $string['removefromgroupconfirm'] = 'Vill du verkligen ta bort användaren "{$a->user}" från gruppen  "{$a->group}"?';
