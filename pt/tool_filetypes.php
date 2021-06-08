@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_filetypes', language 'pt', version '3.8'.
+ * Strings for component 'tool_filetypes', language 'pt', version '3.11'.
  *
  * @package     tool_filetypes
  * @category    string
@@ -37,7 +37,7 @@ $string['description'] = 'Descrição personalizada';
 $string['description_help'] = 'Descrição de um tipo de ficheiro simples, por exemplo \'Kindle ebook\'. Se o seu site suporta vários idiomas e utiliza um filtro de multi-idioma, pode introduzir tags de multi-idioma neste campo para fornecer uma descrição em vários idiomas.';
 $string['descriptiontype'] = 'Tipo de descrição';
 $string['descriptiontype_custom'] = 'Descrição personalizada especificada neste formulário';
-$string['descriptiontype_default'] = 'Predefinido (<i>MIME type</i> ou idioma correspondente da string, caso esteja disponível)';
+$string['descriptiontype_default'] = 'Predefinido (<i>tipo MIME</i> ou idioma correspondente da string, caso esteja disponível)';
 $string['descriptiontype_help'] = 'Existem três formas possíveis de especificar a descrição.
 
 * Por predefinição é utilizado o <i>MIME type</i>. Se existir um pacote linguístico em mimetypes.php que corresponda ao <i>MIME type</i> em questão, este será usado; caso contrário o <i>MIME type</i> predefinido será apresentado aos utilizadores.

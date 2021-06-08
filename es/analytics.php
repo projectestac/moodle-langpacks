@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'analytics', language 'es', version '3.8'.
+ * Strings for component 'analytics', language 'es', version '3.11'.
  *
  * @package     analytics
  * @category    string
@@ -29,29 +29,32 @@ $string['analysablenotused'] = 'Analizable {$a->analysableid} no usado: {$a->err
 $string['analysablenotvalidfortarget'] = 'Analizable {$a->analysableid} no es válido para este destino: {$a->result}';
 $string['analysisinprogress'] = 'Todavía está siendo analizado por una ejecución previa';
 $string['analytics'] = 'Analítica';
-$string['analyticsdisabled'] = 'Analítica está deshabilitada. Puede habilitarla en "Administración del sitio  > Características avanzadas".';
+$string['analyticsdisabled'] = 'Analítica esta deshabilitada. Puede activarla en "Administración del sitio > Características Avanzadas".';
 $string['analyticslogstore'] = 'Almacén de bitácora usado para analítica';
 $string['analyticslogstore_help'] = 'El almacén de bitácora que será usado para la API de analítica para leer la actividad de los usuarios';
 $string['analyticssettings'] = 'Configuraciones de Analítica';
 $string['analyticssiteinfo'] = 'Información del sitio';
 $string['defaultpredictionsprocessor'] = 'Procesador de predicciones por defecto';
 $string['defaultpredictoroption'] = 'Procesador por defecto ({$a})';
-$string['defaulttimesplittingmethods'] = 'Métodos por defecto para división del tiempo para evaluación del modelo';
-$string['defaulttimesplittingmethods_help'] = 'El método de división del tiempo divide la duración del curso en partes; el motor de predicción se ejecutará al final de estas partes. El proceso de evaluación del modelo iterará por estos métodos de división del tiempo a menos que sea especificado un método específico para división del tiempo. (La habilidad para especificar un método para división del tiempo solamente está disponible cuando se evalúan modelos usando el script por línea de comando).';
+$string['defaulttimesplittingmethods'] = 'Intervalos de análisis predeterminados para la evaluación del modelo.';
+$string['defaulttimesplittingmethods_help'] = 'El intervalo de análisis define cuándo el sistema calculará las predicciones y la parte de los registros de actividad que se considerarán para esas predicciones. El proceso de evaluación del modelo iterará a través de estos intervalos de análisis a menos que se indique un intervalo de análisis específico.';
 $string['disabledmodel'] = 'Modelo deshabilitado';
 $string['erroralreadypredict'] = 'El archivo {$a} ya ha sido usado para generar predicciones.';
 $string['errorcannotreaddataset'] = 'El archivo de datos {$a} no puede leerse';
+$string['errorcannotusetimesplitting'] = 'El intervalo de análisis proporcionado no se puede usar en este modelo.';
 $string['errorcannotwritedataset'] = 'El archivo de datos {$a} no puede escribirse';
 $string['errorexportmodelresult'] = 'El modelo de aprendizaje de máquina no puede ser exportado.';
 $string['errorimport'] = 'Error al importar el archivo JSON proporcionado.';
 $string['errorimportmissingclasses'] = 'Los siguientes componentes analíticos no están disponibles en este sitio: {$a->missingclasses}.';
 $string['errorimportmissingcomponents'] = 'El modelo proporcionado necesita que sean instalados los siguientes plugins: {$a}. Tenga en cuenta que las versiones no necesitan forzosamente coincidir con las versiones instaladas en su sitio. Instalar la misma versión o una versión más nueva del plugin debería de ser suficiente en la mayoría de los casos.';
 $string['errorimportversionmismatches'] = 'La versión de los siguientes componentes difiere de la versión instalada en este sitio: {$a}. Puede usar la opción "Ignorar discrepancias de versiones" para ignorar estas diferencias.';
+$string['errorinvalidcontexts'] = 'Algunos de los contextos seleccionados no se pueden usar en este objetivo.';
 $string['errorinvalidindicator'] = 'Indicador {$a} inválido';
 $string['errorinvalidtarget'] = 'Objetivo {$a} inválido';
 $string['errorinvalidtimesplitting'] = 'División del tiempo inválida; por favor asegúrese de que añadió el nombre de clase completamente calificado.';
+$string['errornocontextrestrictions'] = 'El objetivo seleccionado no admite restricciones de contexto.';
 $string['errornoexportconfig'] = 'Hubo un  problema al exportar la configuración del modelo.';
-$string['errornoexportconfigrequirements'] = 'Solamente pueden ser exportados modelos no estáticos con métodos para división del tiempo.';
+$string['errornoexportconfigrequirements'] = 'Solo se pueden exportar modelos no estáticos con un intervalo de análisis.';
 $string['errornoindicators'] = 'Este modelo no tiene ningun indicador.';
 $string['errornopredictresults'] = 'No se obtuvieron resultados del procesador de predicciones. Revise los contenidos del directorio de salida para más información.';
 $string['errornoroles'] = 'No se han definido roles de estudiante o profesor. Defínalos en la página de configuraciones de analítica.';
@@ -70,6 +73,7 @@ $string['errorunknownaction'] = 'Acción desconocida';
 $string['eventinsightsviewed'] = 'Intuiciones (predicciones) vistas';
 $string['eventpredictionactionstarted'] = 'Proceso de predicción iniciado';
 $string['fixedack'] = 'Admitido';
+$string['incorrectlyflagged'] = 'Marcado incorrectamente';
 $string['insightinfomessageaction'] = '{$a->text}: {$a->url}';
 $string['insightinfomessagehtml'] = 'El sistema generó una predicción para usted.';
 $string['insightinfomessageplain'] = 'El sistema generó algunas ideas para usted: {$a}';
@@ -94,15 +98,17 @@ $string['modeloutputdir'] = 'Directorio de salida del modelo';
 $string['modeloutputdirinfo'] = 'Directorio en donde los procesadores de predicción guardan toda la información de la evaluación. Útil para depuración y desarrollo.';
 $string['modeltimelimit'] = 'Límite de tiempo de análisis por modelo';
 $string['modeltimelimitinfo'] = 'Esta configuración limita el tiempo que cada modelo gasta analizando los contenidos del sitio.';
+$string['neutral'] = 'Neutro';
 $string['nocourses'] = 'Sin cursos para analizar';
 $string['nodata'] = 'Sin datos para analizar';
 $string['noevaluationbasedassumptions'] = 'Los modelos baados en suposiciones no pueden ser evaluados.';
-$string['noinsights'] = 'Sin intuiciones reportadas';
-$string['noinsightsmodel'] = 'Este modelo no genera intuiciones';
+$string['noinsights'] = 'Sin predicciones reportadas';
+$string['noinsightsmodel'] = 'Este modelo no genera predicciones';
 $string['nonewdata'] = 'Sin nuevos datos disponibles';
 $string['nonewranges'] = 'Todavía sin nuevas predicciones';
 $string['nopredictionsyet'] = 'Todavía sin predicciones disponibles';
 $string['noranges'] = 'Todavía sin predicciones';
+$string['notapplicable'] = 'No es aplicable';
 $string['notrainingbasedassumptions'] = 'Los modelos basados en suposiciones no necesitan entrenamiento';
 $string['notuseful'] = 'No útil';
 $string['novaliddata'] = 'Sin datos válidos disponibles';
@@ -146,6 +152,7 @@ $string['typeinstitution'] = 'Tipo de institución';
 $string['typeinstitutionacademic'] = 'Académica';
 $string['typeinstitutionngo'] = 'Organización No Gubernamental (ONG)';
 $string['typeinstitutiontraining'] = 'Entrenamiento corporativo';
+$string['useful'] = 'Útil';
 $string['viewdetails'] = 'Ver detalles';
 $string['viewinsight'] = 'Ver predicción';
 $string['viewinsightdetails'] = 'Ver detalles de predicción';

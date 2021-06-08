@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'eu', version '3.8'.
+ * Strings for component 'questionnaire', language 'eu', version '3.11'.
  *
  * @package     questionnaire
  * @category    string
@@ -40,7 +40,7 @@ $string['alignment_help'] = 'Aukeratu botoien lerrokadura: bertikala (lehenetsia
 $string['all'] = 'Guztiak';
 $string['allnameddegrees'] = 'Izendatutako mailak';
 $string['allnameddegrees_help'] = 'Zehaztu balioak ebaluatzeko zenbakiaren ordez erakutsiko den testua. Hutsik utzi ezazu aukera hau ez erabiltzeko.';
-$string['alreadyfilled'] = '{$a} galdeketa hau bete duzu. Eskerrik asko.';
+$string['alreadyfilled'] = 'Galdeketa hau dagoeneko bete duzu{$a}. Eskerrik asko.';
 $string['andaveragevalues'] = 'eta batez besteko balioak';
 $string['anonymous'] = 'Anonimoa';
 $string['answer'] = 'Erantzuna';

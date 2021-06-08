@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'es', version '3.8'.
+ * Strings for component 'cache', language 'es', version '3.11'.
  *
  * @package     cache
  * @category    string
@@ -39,6 +39,8 @@ $string['cachedef_calendar_subscriptions'] = 'Suscripciones al calendario';
 $string['cachedef_capabilities'] = 'Listado de prestaciones del sistema';
 $string['cachedef_completion'] = 'Estado de finalización de la actividad';
 $string['cachedef_config'] = 'Ajustes de configuración';
+$string['cachedef_contentbank_context_extensions'] = 'Extensiones permitidas y sus plugins que las soportan en un contexto de banco de contenido';
+$string['cachedef_contentbank_enabled_extensions'] = 'Extensiones permitidas y sus plugins que las soportan en banco de contenido';
 $string['cachedef_contextwithinsights'] = 'Contexto con intuiciones (predicciones)';
 $string['cachedef_coursecat'] = 'Listas de categorías de cursos para un usuario en particular';
 $string['cachedef_coursecatrecords'] = 'Registros de categorías de cursos';
@@ -66,6 +68,7 @@ $string['cachedef_portfolio_add_button_portfolio_instances'] = 'Instancias de po
 $string['cachedef_postprocessedcss'] = 'CSS post procesado';
 $string['cachedef_presignup'] = 'Preinscribir datos para un usuario no registrado determinado';
 $string['cachedef_questiondata'] = 'Definiciones de preguntas';
+$string['cachedef_recommendation_favourite_course_content_items'] = 'Recomendaciones de elementos de contenido del curso';
 $string['cachedef_repositories'] = 'Datos de repositorios';
 $string['cachedef_roledefs'] = 'Definiciones de roles';
 $string['cachedef_string'] = 'Caché de cadenas de idioma';
@@ -73,6 +76,7 @@ $string['cachedef_suspended_userids'] = 'Listado de usuarios suspendidos por cur
 $string['cachedef_tagindexbuilder'] = 'Resultados de la búsqueda de elementos etiquetados';
 $string['cachedef_tags'] = 'Etiquetas de colecciones y áreas';
 $string['cachedef_temp_tables'] = 'Tabla temporal de caché';
+$string['cachedef_user_favourite_course_content_items'] = 'Elementos destacados del usuario';
 $string['cachedef_user_group_groupings'] = 'Grupos y agrupamientos de usuarios por curso';
 $string['cachedef_userselections'] = 'Información empleada para mantener las selecciones del usuario en Moodle';
 $string['cachedef_yuimodules'] = 'Definiciones de módulos YUI';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_mobile', language 'es', version '3.8'.
+ * Strings for component 'tool_mobile', language 'es', version '3.11'.
  *
  * @package     tool_mobile
  * @category    string
@@ -38,3 +38,4 @@ $string['mobileappconnected'] = 'App para dispositivos móviles conectada.';
 $string['mobileappenabled'] = 'Este sitio tiene activado el acceso desde la app.<br /><a href="{$a}">Descargar la app</a>.';
 $string['mobilecssurl'] = 'CSS';
 $string['mobilenotificationsdisabledwarning'] = 'Las notificaciones Mobile no están habilitadas. Deberían de ser habilitadas en Gestionar salidas de mensaje.';
+$string['subscriptionfeatures'] = 'Características de suscripción';

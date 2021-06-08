@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'antivirus', language 'zh_cn', version '3.8'.
+ * Strings for component 'antivirus', language 'zh_cn', version '3.11'.
  *
  * @package     antivirus
  * @category    string
@@ -33,4 +33,3 @@ $string['datastream'] = '数据';
 $string['emailsubject'] = '{$a} :: 防病毒通知';
 $string['privacy:metadata'] = '反病毒系统不会存储任何个人信息。';
 $string['virusfound'] = '病毒检查器发现{$a->item}已被病毒感染！';
-$string['virusfounduser'] = '您上传的文件，{$a->filename}，已经过病毒检查工具检查，发现感染病毒！文件上传并未成功。';

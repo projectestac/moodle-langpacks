@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'es', version '3.8'.
+ * Strings for component 'badges', language 'es', version '3.11'.
  *
  * @package     badges
  * @category    string
@@ -98,7 +98,6 @@ Si su sitio no está activo aún, puede crear y suministrar insignias de prueba,
 ## ¿Qué pasa si no puedo dar acceso público a mi sitio completo?
 
 El único URL necesario para la verificación es [su-sitio-url]/badges/assertion.php, por lo que si usted puede modificar el firewall para permitir el acceso externo a ese archivo, la verificación de las insignias seguirá funcionando.';
-$string['backpackbadges'] = 'Usted tiene {$a->totalbadges} insignias que se muestran desde {$a->totalcollections} colecciones. <a href="mybackpack.php">Cambiar la configuración de la mochila</a> .';
 $string['backpackbadgessettings'] = 'Cambiar configuraciones de mochila';
 $string['backpackbadgessummary'] = 'Usted tiene {$a->totalbadges} insignia(s) mostrada(s) de  {$a->totalcollections} colección(es).';
 $string['backpackcannotsendverification'] = 'No puede enviarse email de verificación';
@@ -294,7 +293,6 @@ $string['error:connectionunknownreason'] = 'La conexión no tuvo éxito, pero no
 $string['error:duplicatename'] = 'Una insignia con ese nombre ya existe en el sistema.';
 $string['error:externalbadgedoesntexist'] = 'Insignia no encontrada';
 $string['error:guestuseraccess'] = 'Usted está empleando un acceso de invitado. Para poder ver las insignias necesita entrar con su cuenta de usuario.';
-$string['error:invalidbadgeurl'] = 'Formato de URL de emisor de insignia inválido. La URL debería tener un prefijo http:// o https://.';
 $string['error:invalidcriteriatype'] = 'Tipo de criterio no válido';
 $string['error:invalidexpiredate'] = 'La fecha de expiración deberá ser una fecha futura';
 $string['error:invalidexpireperiod'] = 'El periodo de expiración no puede ser negativo o igual a cero';
@@ -304,7 +302,6 @@ $string['error:noactivities'] = 'No hay actividades con criterios de finalizaci�
 $string['error:nobadges'] = 'No hay insignias de curso o de sitio habilitadas para ser añadidas como criterio.';
 $string['error:nocohorts'] = 'Sin cohortes';
 $string['error:nocourses'] = 'La finalización del curso no está habilitada en ninguno de los cursos de este sitio, por lo que ninguno se mostrará. Puede habilitar la finalización del curso en la configuración del curso.';
-$string['error:nogroups'] = '<p> No hay colecciones públicas de insignias disponibles en su mochila. </p><p> Sólo se muestran las colecciones públicas, <a href="http://backpack.openbadges.org">visite la mochila</a> para crear algunas colecciones públicas. </p>';
 $string['error:nogroupslink'] = '<p>Solamente son mostradas colecciones públicas, <a href="{$a}" target="_blank" rel="nofollow">Visite su mochila</a> para crear algunas colecciones públicas.</p>';
 $string['error:nogroupssummary'] = '<p>No hay colecciones públicas de insignias disponibles en su mochila. </p>';
 $string['error:nopermissiontoview'] = 'No tiene permisos para ver los destinatarios de la insignia';
@@ -407,9 +404,7 @@ $string['newimage'] = 'Nueva imagen';
 $string['noalignment'] = 'Esta insignia no tiene ninguna habilidad externa o estándar especificado.';
 $string['noawards'] = 'Esta insignia aún no se ha ganado.';
 $string['nobackpack'] = 'No hay servicio de mochila conectada a esta cuenta. <br/>';
-$string['nobackpackbadges'] = 'No hay insignias en la colección que ha seleccionado. <a href="mybackpack.php">Añadir más colecciones</a>';
 $string['nobackpackbadgessummary'] = 'No hay insignias en las colecciones que Usted ha seleccionado.';
-$string['nobackpackcollections'] = 'No se ha seleccionado una colección de insignias. <a href="mybackpack.php">Añadir colección</a>.';
 $string['nobackpackcollectionssummary'] = 'No ha sido seleccionada ninguna colección de insignias.';
 $string['nobackpacks'] = 'No hay mochilas disponibles';
 $string['nobadges'] = 'No hay insignias disponibles';

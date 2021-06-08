@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'it', version '3.8'.
+ * Strings for component 'completion', language 'it', version '3.11'.
  *
  * @package     completion
  * @category    string
@@ -121,6 +121,7 @@ $string['courseaggregation_any'] = 'Deve essere completato ALMENO UNO dei corsi 
 $string['coursealreadycompleted'] = 'Hai già completato questo corso';
 $string['coursecomplete'] = 'Criteri di completamento';
 $string['coursecompleted'] = 'Corso completato';
+$string['coursecompletedmessage'] = '<p>Congratulazioni!</p><p>Hai appena completato il corso <a href="{$a->courselink}">{$a->coursename}</a>.</p>';
 $string['coursecompletion'] = 'Criteri di completamento';
 $string['coursecompletioncondition'] = 'Criterio: {$a}';
 $string['coursegrade'] = 'Valutazione del corso';

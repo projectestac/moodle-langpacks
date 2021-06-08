@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'pt', version '3.8'.
+ * Strings for component 'qtype_calculated', language 'pt', version '3.11'.
  *
  * @package     qtype_calculated
  * @category    string
@@ -100,7 +100,7 @@ $string['newlocal1'] = 'terá por base uma nova série numérica privada';
 $string['newlocal2'] = 'um ficheiro de um novo conjunto de ficheiros que só será usado nesta pergunta';
 $string['newlocal3'] = 'uma hiperligação de um novo conjunto de hiperligações que só será usada nesta pergunta';
 $string['newsetwildcardvalues'] = 'novo(s) conjunto(s) de valores das variáveis';
-$string['nextitemtoadd'] = 'Próximo \'Conjunto a adicionar';
+$string['nextitemtoadd'] = 'Próximo \'Conjunto a adicionar\'';
 $string['nextpage'] = 'Página seguinte';
 $string['nocoherencequestionsdatyasetcategory'] = 'Para a pergunta com o ID {$a->qid}, a categoria com o id {$a->qcat} não é idêntica à da variável partilhada {$a->name} da categoria com o id {$a->sharedcat}. Edite a pergunta.';
 $string['nocommaallowed'] = 'A , não pode ser usada, use o . como em 0.013 ou 1.3e-2';

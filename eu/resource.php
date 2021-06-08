@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'eu', version '3.8'.
+ * Strings for component 'resource', language 'eu', version '3.11'.
  *
  * @package     resource
  * @category    string
@@ -43,11 +43,11 @@ $string['configpopupwidth'] = 'Popup leihoei zein zabalera lehenetsi behar zaie?
 $string['contentheader'] = 'Edukia';
 $string['displayoptions'] = 'Eskura dauden erakusteko aukerak';
 $string['displayselect'] = 'Erakutsi';
-$string['displayselect_help'] = 'Ezarpen honek, fitxategi mota kontuan hartuta eta web-nabigatzaileak edukiak txertatzea baimentzen badu, fitxategia nola erakutsiko den zehazten du. Aukerak hurrengoak izan daitezke:
+$string['displayselect_help'] = 'Ezarpen honek, fitxategi-mota kontuan hartuta eta web-nabigatzaileak edukiak txertatzea baimentzen badu, fitxategia nola erakutsiko den zehazten du. Aukerak hurrengoak izan daitezke:
 
-* Automatikoa - Fitxategi mota erakusteko aukerarik onena automatikoki aukeratuko da.
+* Automatikoa - Fitxategi-mota erakusteko aukerarik onena automatikoki aukeratuko da.
 * Enbotatu - Fitxategia orriaren barruan erakutsiko da, nabigazio-barraren azpian eta fitxategiaren deskribapena eta blokeen ondoan.
-* Jaistera behartu - Erabiltzaileari fitxategia jaisteko mezua erakutsiko zaio
+* Behartu jaistera - Erabiltzaileari fitxategia jaisteko mezua erakutsiko zaio
 * Ireki - Web-nabigatzailearen orrian fitxategia soilik erakutsiko da.
 * Pop-up-ean - Fitxategia web-nabigatzailearen leiho berri batean erakutsiko da, menu eta helbide-barrarik gabe.
 * Markoan - Fitxategia marko baten barruan erakutsiko da, nabigazio-barraren eta fitxategiaren deskribapenaren azpian.

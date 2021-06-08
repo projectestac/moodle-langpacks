@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'es', version '3.8'.
+ * Strings for component 'calendar', language 'es', version '3.11'.
  *
  * @package     calendar
  * @category    string
@@ -265,6 +265,7 @@ $string['urlforical'] = 'URL para exportar a iCalendar, para suscribirse al cale
 $string['user'] = 'Usuario';
 $string['userevent'] = 'Evento de usuario';
 $string['userevents'] = 'Eventos de usuario';
+$string['viewupcomingactivitiesdue'] = 'Ver las actividades próximas pendientes';
 $string['wed'] = 'Mié';
 $string['wednesday'] = 'Miércoles';
 $string['weekly'] = 'Semanal';

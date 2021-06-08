@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'pt', version '3.8'.
+ * Strings for component 'auth', language 'pt', version '3.11'.
  *
  * @package     auth
  * @category    string
@@ -110,7 +110,7 @@ $string['forcechangepassword_help'] = 'Obrigar os utilizadores a alterar a senha
 $string['forcechangepasswordfirst_help'] = 'Obrigar os utilizadores a alterar a senha na sua primeira autenticação no Moodle.';
 $string['forgottenpassword'] = 'Se inserir um URL aqui, será usado neste site como página para recuperação de senha. Este campo foi criado para sites onde a totalidade das senhas é gerida externamente e não pelo Moodle. Deixe em branco se pretende usar a página de recuperação de senha predefinida do Moodle.';
 $string['forgottenpasswordurl'] = 'URL para recuperação de senha';
-$string['getrecaptchaapi'] = 'Para poder usar o reCAPTCHA, tem de obter uma chave de API em <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
+$string['getrecaptchaapi'] = 'Para usar o reCAPTCHA, tem de obter uma chave da API em <a href=\'https://www.google.com/recaptcha/admin\'>https://www.google.com/recaptcha/admin</a>';
 $string['guestloginbutton'] = 'Botão de entrada como visitante';
 $string['incorrectpleasetryagain'] = 'Incorreto. Por favor, tente novamente.';
 $string['infilefield'] = 'Campo necessário no ficheiro';
@@ -124,7 +124,7 @@ $string['informpasswordpolicy'] = 'A senha tem que ter {$a}';
 $string['instructions'] = 'Instruções';
 $string['internal'] = 'Interno';
 $string['limitconcurrentlogins'] = 'Limitar sessões simultâneas';
-$string['limitconcurrentlogins_desc'] = 'Se ativar esta opção, o número de sessões iniciadas em simultâneo por cada utilizador passará a ser limitado. A sessão iniciada há mais tempo será terminada após o limite de tempo ser atingido. Por favor, tenha em atenção que os utilizadores poderão perder toda a informação ainda não guardada. Esta configuração não é compatível com módulos de autenticação \'Single Sign On\' (SSO).';
+$string['limitconcurrentlogins_desc'] = 'Se ativar esta opção, o número de sessões iniciadas em simultâneo por cada utilizador passará a ser limitado. A sessão iniciada há mais tempo será terminada após o limite de tempo ser atingido. Tenha em atenção que os utilizadores poderão perder toda a informação ainda não guardada. Esta configuração não é compatível com módulos de autenticação \'Single Sign On\' (SSO).';
 $string['locked'] = 'Bloqueado';
 $string['md5'] = 'Criptografia MD5';
 $string['nopasswordchange'] = 'A senha não pode ser modificada.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'es', version '3.8'.
+ * Strings for component 'hvp', language 'es', version '3.11'.
  *
  * @package     hvp
  * @category    string
@@ -422,7 +422,7 @@ $string['validationfailed'] = 'El H5P solicitado no era válido.';
 $string['viewreportlabel'] = 'Informe';
 $string['welcomecommunity'] = 'Esperamos que disfrute de H5P y se involucre en nuestra creciente comunidad a través de nuestros <a {$a->forums}> foros </a>.';
 $string['welcomecontactus'] = 'Si tiene algún comentario, no dude en <a {$a}> contactarnos </a>. ¡Nos tomamos muy en serio los comentarios y nos dedicamos a mejorar H5P cada día!';
-$string['welcomegettingstarted'] = 'Para empezar con H5P y Moodle échale un vistazo a nuestro <a {$a->moodle_tutorial}>tutorial</a> y revisa el <a {$a->example_content}>contenido de ejemplo</a> en H5P.org para que te sirva de guía.<br>¡Para su comodidad ya se han instalado los contenidos más populares!';
+$string['welcomegettingstarted'] = 'Para empezar con H5P y Moodle échale un vistazo a nuestro <a {$a->moodle_tutorial}>tutorial</a> y revisa el <a {$a->example_content}>contenido de ejemplo</a> en H5P.org para que te sirva de guía.';
 $string['welcomeheader'] = '¡Bienvenido al mundo de H5P!';
 $string['wrongversion'] = 'La versión de la biblioteca H5P {$a->%machineName} utilizada en este contenido no es válida. El contenido contiene {$a->%contentLibrary}, pero debe ser {$a->%semanticsLibrary}.';
 $string['year'] = 'Año';

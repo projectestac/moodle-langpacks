@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'pt', version '3.8'.
+ * Strings for component 'scorm', language 'pt', version '3.11'.
  *
  * @package     scorm
  * @category    string
@@ -84,6 +84,11 @@ $string['collapsetocwinsize'] = 'Contrair índice quando o tamanho da janela é 
 $string['collapsetocwinsizedesc'] = 'Esta configuração permite especificar o tamanho da janela, abaixo da qual o índice deverá contrair automaticamente.';
 $string['compatibilitysettings'] = 'Configurações de compatibilidade';
 $string['completed'] = 'Concluído';
+$string['completiondetail:allscos'] = 'Realizar todas as partes desta atividade';
+$string['completiondetail:completionscore'] = 'Receber pontuação de {$a} ou mais';
+$string['completiondetail:completionstatuscompleted'] = 'Concluir a atividade';
+$string['completiondetail:completionstatuscompletedandpassed'] = 'Concluir e ficar aprovado na atividade';
+$string['completiondetail:completionstatuspassed'] = 'Ficar aprovado na atividade';
 $string['completionscorerequired'] = 'Exigir nota mínima';
 $string['completionscorerequired_help'] = 'Ativar esta configuração vai exigir que o utilizador tenha pelo menos a pontuação mínima inserida para marcar como concluída atividade SCORM, bem como quaisquer outros requisitos de conclusão de atividade.';
 $string['completionscorerequireddesc'] = 'É necessária uma nota mínima de {$a} para concluir';
@@ -115,7 +120,7 @@ $string['display'] = 'Exibir pacote de conteúdos';
 $string['displayactivityname'] = 'Exibir nome da atividade';
 $string['displayactivityname_help'] = 'Esta opção define se o nome da atividade é ou não exibido acima da janela de reprodução do SCORM.';
 $string['displayattemptstatus'] = 'Exibir estado das tentativas';
-$string['displayattemptstatus_help'] = 'Esta opção define se é mostrado, ou não, um resumo das tentativas do utilizador no bloco Minhas disciplinas no Painel do utilizador e/ou na página de entrada do SCORM';
+$string['displayattemptstatus_help'] = 'Esta opção define se é mostrado, ou não, um resumo das tentativas do utilizador no bloco \'Minhas disciplinas\' no Painel do utilizador e/ou na página de entrada do SCORM';
 $string['displayattemptstatusdesc'] = 'Se é mostrado, ou não, um resumo das tentativas do utilizador no bloco Minhas disciplinas no Painel do utilizador e/ou na página de entrada do SCORM';
 $string['displaycoursestructure'] = 'Exibir índice na página de entrada';
 $string['displaycoursestructure_help'] = 'Se ativar esta opção, o índice é exibido na página de entrada do SCORM';
@@ -232,7 +237,7 @@ $string['max'] = 'Pontuação máxima';
 $string['maximumattempts'] = 'Número de tentativas';
 $string['maximumattempts_help'] = 'Esta opção permite que o número de tentativas seja limitado. Apenas é aplicável a SCORM 1.2 e pacotes AICC.';
 $string['maximumattemptsdesc'] = 'Esta opção define o valor predefinido para a configuração \'Número de tentativas';
-$string['maximumgradedesc'] = 'Esta opção define o valor predefinido da configuração \'Nota máxima';
+$string['maximumgradedesc'] = 'Esta opção define o valor predefinido da configuração \'Nota máxima\'';
 $string['menubar'] = 'Mostrar barra de menu';
 $string['min'] = 'Nota mínima';
 $string['missing_attribute'] = 'Falta o atributo {$a->attr} na tag {$a->tag}';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'fr', version '3.8'.
+ * Strings for component 'forum', language 'fr', version '3.11'.
  *
  * @package     forum
  * @category    string
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actionsforgraderinterface'] = 'Action d\'interface pour l\'évaluateur';
 $string['actionsforpost'] = 'Actions sur le message';
+$string['activitydate:due'] = 'À terminer :';
 $string['activityoverview'] = 'Il y a de nouveaux messages de forum';
 $string['addanewdiscussion'] = 'Ajouter une discussion';
 $string['addanewquestion'] = 'Ajouter une nouvelle question';
@@ -107,6 +108,9 @@ $string['clicktounlockdiscussion'] = 'Cliquer pour déverrouiller cette discussi
 $string['clicktounsubscribe'] = 'Vous êtes abonné à cette discussion. Cliquez pour vous désabonner.';
 $string['close'] = 'Fermer';
 $string['closegrader'] = 'Fermer l\'interface d\'évaluation';
+$string['completiondetail:discussions'] = 'Commencer des discussions : {$a}';
+$string['completiondetail:posts'] = 'Écrire des messages de forum : {$a}';
+$string['completiondetail:replies'] = 'Écrire des réponses : {$a}';
 $string['completiondiscussions'] = 'Le participant doit créer des discussions :';
 $string['completiondiscussionsdesc'] = 'L\'étudiant doit créer au moins {$a} discussions';
 $string['completiondiscussionsgroup'] = 'Discussions requises';
@@ -348,13 +352,14 @@ $string['grade_forum_name'] = 'Tout le forum';
 $string['grade_forum_title'] = 'Note';
 $string['grade_rating_name'] = 'Évaluation';
 $string['graded'] = 'Évalué';
+$string['gradedby'] = 'Évalué par';
 $string['gradeforrating'] = 'Note de l\'évaluation : {$a->str_long_grade}';
 $string['gradeforratinghidden'] = 'Note de l\'évaluation cachée';
 $string['gradeforwholeforum'] = 'Note du forum : {$a->str_long_grade}';
 $string['gradeforwholeforumhidden'] = 'Note du forum cachée';
 $string['gradeitem:forum'] = 'Forum';
-$string['gradeitemnameforrating'] = 'Note d\'évaluation de {$a->name}';
-$string['gradeitemnameforwholeforum'] = 'Note de tout le forum de {$a->name}';
+$string['gradeitemnameforrating'] = 'Évaluation de {$a->name}';
+$string['gradeitemnameforwholeforum'] = 'Tout le forum {$a->name}';
 $string['grades:gradesavedfor'] = 'Note enregistrée de {$a->fullname}';
 $string['grades:gradesavefailed'] = 'Impossible d\'enregistrer la note de {$a->fullname} : {$a->error}';
 $string['gradeusers'] = 'Évaluer utilisateurs';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_meta', language 'eu', version '3.8'.
+ * Strings for component 'enrol_meta', language 'eu', version '3.11'.
  *
  * @package     enrol_meta
  * @category    string
@@ -41,4 +41,4 @@ $string['pluginname'] = 'Ikastaroaren meta-esteka';
 $string['pluginname_desc'] = 'Ikastaroaren meta-esteka izeneko matrikulazio-pluginak bi ikastaro ezberdinetan matrikulazioak eta rolak sinkronizatzen ditu.';
 $string['privacy:metadata:core_group'] = 'Ikastaroaren meta-esteka pluginak talde berri bat sortu edo existitzen den talde bat erabil dezake lotutako ikastaroko partaideak bertara sartzeko.';
 $string['syncall'] = 'Sinkronizatu matrikulatutako erabiltzaile guztiak';
-$string['syncall_desc'] = 'Gaituz gero matrikulatutako erabiltzaile guztiak sinkronizatuko dira, goragok ikastaroan inolako rolik ez izanda ere, desgaituz gero soilik goragok ikastaroan rolen bat esleituta duten erabiltzaileak sinkronizatuko dira beheragoko ikastaroetan.';
+$string['syncall_desc'] = 'Gaituz gero matrikulatutako erabiltzaile guztiak sinkronizatuko dira, goragoko ikastaroan inolako rolik ez badute ere, desgaituz gero soilik goragoko ikastaroan rolen bat esleituta duten erabiltzaileak sinkronizatuko dira beheragoko ikastaroetan.';

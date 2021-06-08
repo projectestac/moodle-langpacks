@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'pt', version '3.8'.
+ * Strings for component 'enrol_self', language 'pt', version '3.11'.
  *
  * @package     enrol_self
  * @category    string
@@ -33,7 +33,7 @@ $string['cohortonly'] = 'Apenas membros do grupo global';
 $string['cohortonly_help'] = 'A autoinscrição pode ser restrita apenas a membros de um grupo global específico. Note que a alteração desta configuração não tem efeito sobre as inscrições existentes.';
 $string['confirmbulkdeleteenrolment'] = 'Tem a certeza de que pretende apagar essas inscrições do utilizador?';
 $string['customwelcomemessage'] = 'Mensagem personalizada de boas-vindas';
-$string['customwelcomemessage_help'] = 'Pode definir uma mensagem personalizada em texto simples ou Autoformatação-Moodle, incluíndo código HTML e tags multi-lang .
+$string['customwelcomemessage_help'] = 'Pode definir uma mensagem personalizada em texto simples ou autoformatação-Moodle, incluindo código HTML e tags multilingues .
 
 Os seguintes espaços reservados podem ser incluídos na mensagem:
 
@@ -101,6 +101,7 @@ $string['requirepassword'] = 'Pedir senha de inscrição';
 $string['requirepassword_desc'] = 'Esta configuração faz com que as novas disciplinas criadas peçam sempre senha de inscrição e evita que as disciplinas que já existem possam deixar de pedir a senha.';
 $string['role'] = 'Atribuir papel';
 $string['self:config'] = 'Configurar instâncias de autoinscrição';
+$string['self:enrolself'] = 'Autoinscrever-se na disciplina';
 $string['self:holdkey'] = 'Aparecer como titular da chave de inscrição';
 $string['self:manage'] = 'Gerir utilizadores inscritos';
 $string['self:unenrol'] = 'Remover inscrições de alunos desta disciplina';
@@ -123,4 +124,5 @@ $string['usepasswordpolicy_desc'] = 'Se ativar esta opção, a senha de inscriç
 $string['welcometocourse'] = 'Bem-vindo(a) a "{$a}"';
 $string['welcometocoursetext'] = 'Bem-vindo(a) à disciplina "{$a->coursename}"!
 
-Se ainda não o fez, complete aqui o seu perfil de utilizador para que possamos conhecê-lo(a) melhor: {$a->profileurl}';
+Se ainda não o fez, edite o seu perfil do utilizador para sabermos mais a seu respeito:
+{$a->profileurl}';

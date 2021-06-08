@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'de', version '3.8'.
+ * Strings for component 'question', language 'de', version '3.11'.
  *
  * @package     question
  * @category    string
@@ -76,7 +76,7 @@ $string['cannotwriteto'] = 'Die exportierten Fragen können nicht nach "{$a}" ge
 $string['categories'] = 'Kategorien';
 $string['category'] = 'Kategorie';
 $string['categorycurrent'] = 'Aktuelle Kategorie';
-$string['categorycurrentuse'] = 'Diese Kategorie benutzen';
+$string['categorycurrentuse'] = 'Diese Kategorie verwenden';
 $string['categorydoesnotexist'] = 'Diese Kategorie gibt es nicht';
 $string['categoryinfo'] = 'Kategoriebeschreibung';
 $string['categorymove'] = 'Die Kategorie \'{$a->name}\' enthält {$a->count} Fragen (von denen einige als verborgene Fragen oder Zufallsfragen noch irgendwo in einem Test benutzt werden). Wählen Sie eine Kategorie aus, um sie dorthin zu verschieben.';
@@ -91,7 +91,7 @@ $string['check'] = 'Prüfen';
 $string['chooseqtypetoadd'] = 'Markieren Sie den gewünschten Fragetyp';
 $string['clearwrongparts'] = 'Falsche Antworten löschen';
 $string['clickflag'] = 'Frage markieren';
-$string['clicktoflag'] = 'Klicken um die Frage zu markieren';
+$string['clicktoflag'] = 'Diese Frage als Referenz markieren';
 $string['clicktounflag'] = 'Markierung entfernen';
 $string['clickunflag'] = 'Markierung entfernen';
 $string['closepreview'] = 'Vorschau schließen';
@@ -148,7 +148,7 @@ $string['editingquestion'] = 'Frage bearbeiten';
 $string['editquestion'] = 'Frage bearbeiten';
 $string['editquestions'] = 'Fragen bearbeiten';
 $string['editthiscategory'] = 'Diese Kategorie bearbeiten';
-$string['emptyxml'] = 'Unbekannter Fehler- leere imsmanifest.xml-Datei.';
+$string['emptyxml'] = 'Unbekannter Fehler - leere Datei imsmanifest.xml.';
 $string['enabled'] = 'aktiv';
 $string['erroraccessingcontext'] = 'Kein Zugriff auf den Kontext';
 $string['errordeletingquestionsfromcategory'] = 'Fehler beim Löschen von Fragen in der Kategorie {$a}.';

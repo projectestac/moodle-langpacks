@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'de', version '3.8'.
+ * Strings for component 'availability', language 'de', version '3.11'.
  *
  * @package     availability
  * @category    string
@@ -43,9 +43,9 @@ $string['itemheading'] = 'Voraussetzung {$a->number} {$a->type}';
 $string['label_multi'] = 'Erforderliche Voraussetzungen';
 $string['label_sign'] = 'Voraussetzungstyp';
 $string['list_and'] = 'Alle Bedingungen:';
-$string['list_and_hidden'] = 'Alle Bedingungen (ansonsten verborgen):';
+$string['list_and_hidden'] = 'Alle Bedingungen (sonst verborgen):';
 $string['list_or'] = 'Mindestens eine Bedingung:';
-$string['list_or_hidden'] = 'Mindestens eine Bedingung (ansonsten verborgen):';
+$string['list_or_hidden'] = 'Mindestens eine Bedingung (sonst verborgen):';
 $string['list_root_and'] = 'Nicht verfügbar, es sei denn:';
 $string['list_root_and_hidden'] = 'Nicht verfügbar (verborgen), es sei denn:';
 $string['list_root_or'] = 'Nicht verfügbar, außer mindestens eine Bedingung ist erfüllt:';

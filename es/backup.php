@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'es', version '3.8'.
+ * Strings for component 'backup', language 'es', version '3.11'.
  *
  * @package     backup
  * @category    string
@@ -130,6 +130,7 @@ $string['configgeneralblocks'] = 'Ajusta los valores por defecto para incluir bl
 $string['configgeneralcalendarevents'] = 'Establece el valor predeterminado para la inclusión de los eventos del calendario en una copia de seguridad.';
 $string['configgeneralcomments'] = 'Ajusta los valores por defecto para incluir comentarios en la copia de seguridad.';
 $string['configgeneralcompetencies'] = 'Establece el valor predeterminado para la inclusión de los eventos del calendario en una copia de seguridad.';
+$string['configgeneralcontentbankcontent'] = 'Configurar las opciones predeterminadas para incluir contenido del banco de contenido en un respaldo.';
 $string['configgeneralfilters'] = 'Ajusta los valores por defecto para incluir filtros en la copia de seguridad.';
 $string['configgeneralgroups'] = 'Establece el valor por defecto en la inclusión de grupos y agrupamientos en una copia de seguridad.';
 $string['configgeneralhistories'] = 'Ajusta los valores por defecto para incluir el historial del usuario dentro de una copia de seguridad.';
@@ -138,6 +139,7 @@ $string['configgeneralquestionbank'] = 'Si está habilitado el banco de pregunta
 $string['configgeneralroleassignments'] = 'Si se habilita, los roles asignados por defecto serán también copiados.';
 $string['configgeneralusers'] = 'Ajusta los valores por defecto para incluir a los usuarios en las copias de seguridad.';
 $string['configgeneraluserscompletion'] = 'Si se activa, la información del grado de avance de los usuarios se incluirá por defecto en las copias de seguridad.';
+$string['configlegacyfiles'] = 'Establece el valor predeterminado para incluir archivos de cursos heredados en una copia de seguridad. Los archivos de cursos heredados son de versiones de Moodle anteriores a la 2.0.';
 $string['configloglifetime'] = 'Especifica el periodo de tiempo durante el que desea mantener la información de los registros de copia de seguridad. Los registros más antiguos que el establecido se borrarán automáticamente. Se recomienda mantener este valor lo más bajo posible, ya que el volumen de la información sobre las  copias de seguridad puede llegar a se muy grande.';
 $string['configrestoreactivities'] = 'Configurar el ajuste por defecto para restaurar actividades.';
 $string['configrestorebadges'] = 'Configurar el ajuste por defecto para restaurar insignias.';
@@ -145,6 +147,7 @@ $string['configrestoreblocks'] = 'Configurar el ajuste por defecto para restaura
 $string['configrestorecalendarevents'] = 'Configurar el ajuste por defecto para restaurar eventos del calendario.';
 $string['configrestorecomments'] = 'Configurar el ajuste por defecto para restaurar comentarios.';
 $string['configrestorecompetencies'] = 'Configurar el ajuste por defecto para restaurar competencias.';
+$string['configrestorecontentbankcontent'] = 'Configurar las opciones predeterminadas para restaurar contenido del banco de contenido.';
 $string['configrestoreenrolments'] = 'Configurar el ajuste por defecto para restaurar métodos de matriculación.';
 $string['configrestorefilters'] = 'Configurar el ajuste por defecto para restaurar filtros.';
 $string['configrestoregroups'] = 'Configura los valores por defecto  para restaurar grupos y agrupamientos si fueron incluidos en la copia de seguridad.';
@@ -162,6 +165,11 @@ $string['confirmcancelrestore'] = 'Cancelar restauración';
 $string['confirmcancelyes'] = 'Cancelar';
 $string['confirmnewcoursecontinue'] = 'Alerta de curso nuevo';
 $string['confirmnewcoursecontinuequestion'] = 'Se creará un curso temporal (oculto) en el proceso de restauración de cursos. Para cancelar la restauración pulse en Cancelar. No cierre el navegador mientras se restaura.';
+$string['copiesinprogress'] = 'Este curso tiene copias en progreso. <a href="{$a}">Ver copias en progreso.</a>';
+$string['copycoursedesc'] = 'Este curso se duplicará y se incluirá en la categoría de curso seleccionada.';
+$string['copycourseheading'] = 'Copiar un curso';
+$string['copycoursetitle'] = 'Copiar curso: {$a}';
+$string['copydest'] = 'Destino';
 $string['coursecategory'] = 'Categoría en la que se restaurará el curso';
 $string['courseid'] = 'ID original';
 $string['coursesettings'] = 'Ajustes del curso';
@@ -200,6 +208,7 @@ $string['generalblocks'] = 'Incluir bloques';
 $string['generalcalendarevents'] = 'Incluir eventos de calendario';
 $string['generalcomments'] = 'Incluir comentarios';
 $string['generalcompetencies'] = 'Incluir competencias';
+$string['generalcontentbankcontent'] = 'Incluir contenido del banco de contenido';
 $string['generalenrolments'] = 'Incluir métodos de matriculación';
 $string['generalfiles'] = 'Incluir archivos';
 $string['generalfilters'] = 'Incluir filtros';
@@ -231,7 +240,7 @@ $string['importgeneralduplicateadminallowed'] = 'Permitir la resolución de conf
 $string['importgeneralduplicateadminallowed_desc'] = 'Si la página cuenta con un nombre de usuario \'admin\', tratar de restaurar una copia de seguridad que contenga un usuario \'admin\' puede causar conflicto. Si esta opción está habilitada, el conflicto puede resolverse cambiando el nombre de usuario en la copia de seguridad a \'admin_xyz\'.';
 $string['importgeneralmaxresults'] = 'Número máximo de cursos listados para importación';
 $string['importgeneralmaxresults_desc'] = 'Controla el número de cursos que son listados durante el primer paso del proceso de importación';
-$string['importgeneralsettings'] = 'Ajustes por defecto de importación';
+$string['importgeneralsettings'] = 'Valores generales predeterminados de importación';
 $string['importrootsettings'] = 'Importar configuraciones';
 $string['importsettings'] = 'Configuraciones generales de importación';
 $string['importsuccess'] = 'Importación completada. Pulse para volver al curso.';
@@ -324,6 +333,7 @@ $string['rootsettingblocks'] = 'Incluir bloques';
 $string['rootsettingcalendarevents'] = 'Incluir eventos del calendario';
 $string['rootsettingcomments'] = 'Incluir comentarios';
 $string['rootsettingcompetencies'] = 'Incluir competencias';
+$string['rootsettingcontentbankcontent'] = 'Incluir contenido del banco de contenido';
 $string['rootsettingcustomfield'] = 'Incluir campos personalizados';
 $string['rootsettingenrolments'] = 'Incluir métodos de matriculación';
 $string['rootsettingenrolments_always'] = 'Sí, siempre';

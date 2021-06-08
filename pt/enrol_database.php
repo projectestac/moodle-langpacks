@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'pt', version '3.8'.
+ * Strings for component 'enrol_database', language 'pt', version '3.11'.
  *
  * @package     enrol_database
  * @category    string
@@ -47,7 +47,7 @@ $string['defaultcategory_desc'] = 'Categoria predefinida para disciplinas criada
 $string['defaultrole'] = 'Papel predefinido';
 $string['defaultrole_desc'] = 'Papel que será atribuído se não houver nenhum definido na tabela externa.';
 $string['ignorehiddencourses'] = 'Ignorar disciplinas ocultas';
-$string['ignorehiddencourses_desc'] = 'Se esta configuração estiver ativa os utilizadores não serão inscritos em disciplinas que não estiverem disponíveis para alunos.';
+$string['ignorehiddencourses_desc'] = 'Se ativar esta opção, os utilizadores não serão inscritos em disciplinas não disponíveis para os alunos.';
 $string['localcategoryfield'] = 'Campo da categoria local';
 $string['localcoursefield'] = 'Nome do campo "Disciplina" na tabela do Moodle';
 $string['localrolefield'] = 'Nome do campo "Papel" na tabela do Moodle';

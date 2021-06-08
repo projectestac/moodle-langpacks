@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'en', version '3.8'.
+ * Strings for component 'forum', language 'en', version '3.11'.
  *
  * @package     forum
  * @category    string
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actionsforgraderinterface'] = 'Actions for the grader interface';
 $string['actionsforpost'] = 'Actions for post';
+$string['activitydate:due'] = 'Due:';
 $string['activityoverview'] = 'There are new forum posts';
 $string['addanewdiscussion'] = 'Add a new discussion topic';
 $string['addanewquestion'] = 'Add a new question';
@@ -107,6 +108,9 @@ $string['clicktounlockdiscussion'] = 'Click to unlock this discussion';
 $string['clicktounsubscribe'] = 'You are subscribed to this discussion. Click to unsubscribe.';
 $string['close'] = 'Close';
 $string['closegrader'] = 'Close grader';
+$string['completiondetail:discussions'] = 'Start discussions: {$a}';
+$string['completiondetail:posts'] = 'Make forum posts: {$a}';
+$string['completiondetail:replies'] = 'Post replies: {$a}';
 $string['completiondiscussions'] = 'Student must create discussions:';
 $string['completiondiscussionsdesc'] = 'Student must create at least {$a} discussion(s)';
 $string['completiondiscussionsgroup'] = 'Require discussions';
@@ -348,13 +352,14 @@ $string['grade_forum_name'] = 'Whole forum';
 $string['grade_forum_title'] = 'Grade';
 $string['grade_rating_name'] = 'Rating';
 $string['graded'] = 'Graded';
+$string['gradedby'] = 'Graded by';
 $string['gradeforrating'] = 'Grade for rating: {$a->str_long_grade}';
 $string['gradeforratinghidden'] = 'Grade for rating hidden';
 $string['gradeforwholeforum'] = 'Grade for forum: {$a->str_long_grade}';
 $string['gradeforwholeforumhidden'] = 'Grade for forum hidden';
 $string['gradeitem:forum'] = 'Forum';
-$string['gradeitemnameforrating'] = 'Rating grade for {$a->name}';
-$string['gradeitemnameforwholeforum'] = 'Whole forum grade for {$a->name}';
+$string['gradeitemnameforrating'] = '{$a->name} rating';
+$string['gradeitemnameforwholeforum'] = '{$a->name} whole forum';
 $string['grades:gradesavedfor'] = 'Grade saved for {$a->fullname}';
 $string['grades:gradesavefailed'] = 'Unable to save grade for {$a->fullname}: {$a->error}';
 $string['gradeusers'] = 'Grade users';

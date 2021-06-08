@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'it', version '3.8'.
+ * Strings for component 'forum', language 'it', version '3.11'.
  *
  * @package     forum
  * @category    string
@@ -348,6 +348,7 @@ $string['grade_forum_name'] = 'Valutazione del forum';
 $string['grade_forum_title'] = 'Valutazione';
 $string['grade_rating_name'] = 'Valutazione intervento/discussione';
 $string['graded'] = 'Valutato';
+$string['gradedby'] = 'Valutato da';
 $string['gradeitem:forum'] = 'Forum';
 $string['gradeitemnameforwholeforum'] = 'Valutazione del forum per {$a->name}';
 $string['grades:gradesavedfor'] = 'La valutazione di {$a->fullname} è stata salvata';

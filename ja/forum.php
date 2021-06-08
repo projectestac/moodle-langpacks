@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'ja', version '3.8'.
+ * Strings for component 'forum', language 'ja', version '3.11'.
  *
  * @package     forum
  * @category    string
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actionsforgraderinterface'] = '評定者インターフェース操作';
 $string['actionsforpost'] = '投稿へのアクション';
+$string['activitydate:due'] = '終了日時:';
 $string['activityoverview'] = '新しいフォーラム投稿があります。';
 $string['addanewdiscussion'] = '新しいディスカッショントピックを追加する';
 $string['addanewquestion'] = '新しい質問を追加する';
@@ -107,6 +108,9 @@ $string['clicktounlockdiscussion'] = 'クリックしてこのディスカッシ
 $string['clicktounsubscribe'] = 'あなたはこのディスカッションを購読しています。購読解除するにはクリックしてください。';
 $string['close'] = '閉じる';
 $string['closegrader'] = '評定者を閉じる';
+$string['completiondetail:discussions'] = 'ディスカッションを開始する: {$a}';
+$string['completiondetail:posts'] = 'フォーラム投稿を作成する: {$a}';
+$string['completiondetail:replies'] = '返信を投稿する: {$a}';
 $string['completiondiscussions'] = '学生はディスカッションを作成する必要があります:';
 $string['completiondiscussionsdesc'] = '学生は少なくとも {$a} 件のディスカッションを作成する必要があります。';
 $string['completiondiscussionsgroup'] = '必須ディスカッション数';
@@ -348,13 +352,14 @@ $string['grade_forum_name'] = 'フォーラム全体';
 $string['grade_forum_title'] = '評定';
 $string['grade_rating_name'] = 'レーティング';
 $string['graded'] = '評定済み';
+$string['gradedby'] = '評定者';
 $string['gradeforrating'] = 'レーティングの評点: {$a->str_long_grade}';
 $string['gradeforratinghidden'] = '非表示レーティングの評点';
 $string['gradeforwholeforum'] = 'フォーラムの評定: {$a->str_long_grade}';
 $string['gradeforwholeforumhidden'] = '非表示フォーラムの評定';
 $string['gradeitem:forum'] = 'フォーラム';
-$string['gradeitemnameforrating'] = '{$a->name} の評定レーティング';
-$string['gradeitemnameforwholeforum'] = '{$a->name} のフォーラム全体の評定';
+$string['gradeitemnameforrating'] = '{$a->name} レーティング';
+$string['gradeitemnameforwholeforum'] = '{$a->name} フォーラム全体';
 $string['grades:gradesavedfor'] = '{$a->fullname} の評定が保存されました。';
 $string['grades:gradesavefailed'] = '{$a->fullname} の評定を保存できません: {$a->error}';
 $string['gradeusers'] = 'ユーザを評定する';

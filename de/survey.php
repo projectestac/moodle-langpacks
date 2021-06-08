@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'de', version '3.8'.
+ * Strings for component 'survey', language 'de', version '3.11'.
  *
  * @package     survey
  * @category    string
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['actual'] = 'Tatsächlich';
 $string['actualclass'] = 'Aktuelle Erfahrungen der Lerngruppe';
 $string['actualstudent'] = 'tatsächliche Erfahrungen des/der {$a}';
-$string['allquestionrequireanswer'] = 'Alle Fragen sind erforderlich und müssen beantwortet werden';
+$string['allquestionrequireanswer'] = 'Alle Fragen sind erforderlich und müssen beantwortet werden.';
 $string['allquestions'] = 'Alle Fragen geordnet, alle Kursteilnehmer/innen';
 $string['allscales'] = 'Alle Ränge, alle Kursteilnehmer/innen';
 $string['alreadysubmitted'] = 'Sie haben diese Umfrage bereits eingereicht';
@@ -190,6 +190,7 @@ Ihre Antworten können uns helfen, zukünftig die Präsentation und das Lernange
 
 Herzlichen Dank!';
 $string['collespname'] = 'COLLES (bevorzugt)';
+$string['completiondetail:submit'] = 'Antworten einreichen';
 $string['completionsubmit'] = 'Teilnehmer/innen müssen für die Aktivität etwas abgeben, um sie zu beenden.';
 $string['customintro'] = 'Beschreibung';
 $string['deleteallanswers'] = 'Alle Umfrageeinträge löschen';
@@ -259,7 +260,7 @@ $string['savednotes'] = 'Ihre Anmerkungen wurden gespeichert';
 $string['scaleagree5'] = 'Vollständige Ablehnung, überwiegende Ablehnung, geringe Ablehnung, geringe Zustimmung, überwiegende Zustimmung, völlige Zustimmung';
 $string['scales'] = 'Skalen';
 $string['scaletimes5'] = 'fast nie, selten, manchmal, oft, fast immer';
-$string['search:activity'] = 'Umfrage - Beschreibung';
+$string['search:activity'] = 'Umfrage - Aktivitätsinfo';
 $string['seemoredetail'] = 'Hier klicken, um weitere Details sichtbar zu machen';
 $string['selectedquestions'] = 'Ausgewählte Fragen aus einer Skala, alle Teilnehmer/innen';
 $string['summary'] = 'Zusammenfassung';

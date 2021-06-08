@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_singleview', language 'eu', version '3.8'.
+ * Strings for component 'gradereport_singleview', language 'eu', version '3.11'.
  *
  * @package     gradereport_singleview
  * @category    string
@@ -52,6 +52,7 @@ $string['override'] = 'Baliogabetu';
 $string['overrideall'] = 'Baliogabetu kalifikazio guztiak';
 $string['overridefor'] = 'Salbuespena ondokoarentzat: {$a}';
 $string['overridenone'] = 'Ez baliogabetu kalifikaziorik';
+$string['overridenoneconfirm'] = 'Kalifikazio-baliogabetzeak desgaitzera zoaz. Honek aurretik baliogabetutako kalifikazio guztiak ezabatuko ditu. Ziur zaude?';
 $string['pluginname'] = 'Ikuspegi sinplea';
 $string['privacy:metadata'] = 'Kalifikazio-elementua txostenak soilik beste kokapenetan gordetako datuak erakusten ditu.';
 $string['save'] = 'Gorde';

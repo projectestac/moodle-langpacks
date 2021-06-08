@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'antivirus', language 'es', version '3.8'.
+ * Strings for component 'antivirus', language 'es', version '3.11'.
  *
  * @package     antivirus
  * @category    string
@@ -33,4 +33,3 @@ $string['datastream'] = 'Datos';
 $string['emailsubject'] = '{$a} :: Notificación Clam AV';
 $string['privacy:metadata'] = 'El sistema de Antivirus no almacena información personal.';
 $string['virusfound'] = '¡{$a->item} ha sido escaneado por un antivirus y ha sido marcado como infectado!';
-$string['virusfounduser'] = 'El archivo subido, {$a->filename}, ha sido escaneado por un antivirus y está infectado. NO se ha podido subir.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'pt', version '3.8'.
+ * Strings for component 'question', language 'pt', version '3.11'.
  *
  * @package     question
  * @category    string
@@ -71,7 +71,7 @@ $string['cannotpreview'] = 'Não pode pré-visualizar estas perguntas!';
 $string['cannotread'] = 'Não é possível ler o ficheiro importado (ou está vazio)';
 $string['cannotretrieveqcat'] = 'Não foi possível recuperar a categoria da pergunta';
 $string['cannotunhidequestion'] = 'Ocorreu um erro ao mostrar a pergunta';
-$string['cannotunzip'] = 'Não foi possível comprimir o ficheiro.';
+$string['cannotunzip'] = 'Não foi possível compactar o ficheiro.';
 $string['cannotwriteto'] = 'Não é possível editar perguntas exportadas para \'{$a}\'';
 $string['categories'] = 'Categorias';
 $string['category'] = 'Categoria';
@@ -79,14 +79,14 @@ $string['categorycurrent'] = 'Categoria atual';
 $string['categorycurrentuse'] = 'Usar esta categoria';
 $string['categorydoesnotexist'] = 'Esta categoria não existe';
 $string['categoryinfo'] = 'Informação da categoria';
-$string['categorymove'] = 'A categoria \'{$a->name}\' contém {$a->count} perguntas (algumas podem estar ocultas ou serem perguntas aleatórias ainda em uso em Testes). Por favor, escolha outra categoria de destino.';
+$string['categorymove'] = 'A categoria \'{$a->name}\' contém {$a->count} perguntas (algumas podem estar ocultas ou serem perguntas aleatórias ainda em uso em testes). Por favor, escolha outra categoria de destino.';
 $string['categorymoveto'] = 'Guardar na categoria';
 $string['categorynamecantbeblank'] = 'O nome da categoria não pode estar em branco.';
 $string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
 $string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
 $string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Alterar opções';
-$string['changepublishstatuscat'] = '<a href="{$a->caturl}">A categoria "{$a->name}"</a> na disciplina "{$a->coursename}" mudará o seu estado de partilha de <strong>{$a->changefrom} para {$a->changeto}</strong>.';
+$string['changepublishstatuscat'] = '<a href="{$a->caturl}">A categoria "{$a->name}"</a> na disciplina "{$a->coursename}" mudará o seu estado de partilha de {$a->changefrom} para {$a->changeto}.';
 $string['check'] = 'Submeter';
 $string['chooseqtypetoadd'] = 'Escolha o tipo de pergunta para adicionar';
 $string['clearwrongparts'] = 'Limpar respostas incorretas';
@@ -186,7 +186,7 @@ $string['exportasxml'] = 'Exportar como Moodle XML';
 $string['exportcategory'] = 'Exportar a categoria';
 $string['exportcategory_help'] = 'Esta configuração determina a categoria a partir da qual as perguntas serão exportadas.
 
-Alguns formatos de importação, como o GIFT e Moodle XML, permitem guardar a categoria e o seu contexto sendo mais tarde possível recuperá-los no processo de importação (opcional). Se o desejar, deverá escolher as opções necessárias.';
+Alguns formatos de importação, como o GIFT e Moodle XML, permitem guardar a categoria e o seu contexto sendo mais tarde possível recuperá-los no processo de importação (opcional). Se necessário, deverá escolher as opções necessárias.';
 $string['exporterror'] = 'Ocorreram erros durante a exportação!';
 $string['exportfilename'] = 'perguntas';
 $string['exportnameformat'] = '%Y%m%d-%H%M';
@@ -262,7 +262,7 @@ $string['makecopy'] = 'Guardar como nova pergunta';
 $string['maketoplevelitem'] = 'Tornar categoria de topo';
 $string['manualgradeinvalidformat'] = 'Esse número não é válido.';
 $string['manualgradeoutofrange'] = 'Esta nota está fora do intervalo válido.';
-$string['manuallygraded'] = 'Avaliada manualmente {$a->mark} com o comentário: {$a->comment}';
+$string['manuallygraded'] = 'Avaliada manualmente com "{$a->mark}" e com o comentário: {$a->comment}';
 $string['mark'] = 'Nota';
 $string['markedoutof'] = 'Nota';
 $string['markedoutofmax'] = 'Nota: {$a}';
@@ -374,7 +374,7 @@ $string['privacy:metadata:link:qformat'] = 'O subsistema Pergunta utiliza o mód
 $string['privacy:metadata:link:qtype'] = 'O subsistema Pergunta interage com o módulo Tipo de pergunta, que contém os diferentes tipos de pergunta.';
 $string['published'] = 'partilhada';
 $string['qtypeveryshort'] = 'T';
-$string['questionaffected'] = 'A <a href="{$a->qurl}">pergunta "{$a->name}" ({$a->qtype})</a> encontra-se nesta categoria mas também está a ser usada no <a href="{$a->qurl}">Teste "{$a->quizname}"</a> de outra disciplina "{$a->coursename}".';
+$string['questionaffected'] = 'A <a href="{$a->qurl}">pergunta "{$a->name}" ({$a->qtype})</a> está nesta categoria mas também está a ser usada no <a href="{$a->qurl}">teste "{$a->quizname}"</a> da disciplina "{$a->coursename}".';
 $string['questionbank'] = 'Base de dados de perguntas';
 $string['questionbehaviouradminsetting'] = 'Configurações do comportamento das perguntas';
 $string['questionbehavioursdisabled'] = 'Comportamentos das perguntas a desativar';
@@ -408,7 +408,7 @@ $string['responsehistory'] = 'Histórico da resposta';
 $string['restart'] = 'Recomeçar';
 $string['restartwiththeseoptions'] = 'Recomeçar com estas opções';
 $string['restoremultipletopcats'] = 'O ficheiro da cópia de segurança contém mais do que uma categoria de perguntas de nível de topo para o contexto \'{$a}\'.';
-$string['reviewresponse'] = 'Rever respostas';
+$string['reviewresponse'] = 'Rever resposta';
 $string['rightanswer'] = 'Resposta correta';
 $string['rightanswer_help'] = 'Um resumo da resposta correta gerado automaticamente pelo Moodle. A informação gerada pode ser insuficiente, por isso, é de considerar a hipótese de incluir a explicação da resposta correta da pergunta no feedback geral e desativar esta opção.';
 $string['save'] = 'Guardar';
@@ -437,7 +437,7 @@ $string['steps'] = 'Passos';
 $string['stoponerror'] = 'Parar se ocorrer um erro';
 $string['stoponerror_help'] = 'Esta configuração determina se o processo de importação é interrompido quando um erro é detetado parando assim a importação, ou se as perguntas com erros são ignoradas sendo apenas importadas as válidas.';
 $string['submissionoutofsequence'] = 'Acesso fora da sequência. Por favor, não clique no botão Retroceder enquanto trabalha nas perguntas do Teste.';
-$string['submissionoutofsequencefriendlymessage'] = 'Inseriu dados fora da sequência. Este erro pode ocorrer se usar os botões de Avançar e Retroceder do seu navegador. Por favor, não os utilize durante o teste. Também pode suceder se clicar em algo enquanto uma página está a carregar. Clique em <strong>Continuar</strong>.';
+$string['submissionoutofsequencefriendlymessage'] = 'Inseriu dados fora da sequência. Este erro pode ocorrer se usar os botões de Avançar e Retroceder do seu navegador. Por favor, não os utilize durante o teste. Também pode suceder se clicar em algo enquanto uma página está a carregar. Clique no botão \'Continuar\' para prosseguir.';
 $string['submit'] = 'Submeter';
 $string['submitandfinish'] = 'Submeter e finalizar';
 $string['submitted'] = 'Submetido: {$a}';
@@ -477,4 +477,4 @@ $string['wrongprefix'] = 'nameprefix {$a} formatado incorretamente';
 $string['xoutofmax'] = '{$a->mark} em {$a->max}';
 $string['yougotnright'] = 'Selecionou {$a->num} respostas corretas.';
 $string['youmustselectaqtype'] = 'Tem de selecionar um tipo de pergunta';
-$string['yourfileshoulddownload'] = 'A exportação do seu ficheiro deve iniciar brevemente. Se não acontecer dentro de segundos, por favor, <a href="{$a}">clique aqui</a>.';
+$string['yourfileshoulddownload'] = 'A exportação do seu ficheiro deve iniciar dentro de instantes. Se não acontecer nos próximos segundos, por favor, <a href="{$a}">clique aqui</a>.';

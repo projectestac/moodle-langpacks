@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'admin', language 'zh_cn', version '3.8'.
+ * Strings for component 'admin', language 'zh_cn', version '3.11'.
  *
  * @package     admin
  * @category    string
@@ -132,10 +132,13 @@ $string['cfgwwwrootwarning'] = 'config.php文件中定义的$CFG->wwwroot不正�
 $string['change'] = '修改';
 $string['checkboxno'] = '否';
 $string['checkboxyes'] = '是';
+$string['checkupgradepending'] = '升级';
 $string['choosefiletoedit'] = '选择要编辑的文件';
 $string['cleanup'] = '清理';
 $string['clianswerno'] = 'n';
 $string['cliansweryes'] = 'y';
+$string['cliexitgraceful'] = '顺利退出中，请稍等';
+$string['cliexitnow'] = '即刻退出中';
 $string['cliincorrectvalueerror'] = '错误，将“{$a->option}”的值设为“{$a->value}”是不正确的';
 $string['cliincorrectvalueretry'] = '不正确的值，请重试';
 $string['clistatusdisabled'] = '状态：禁止';
@@ -254,7 +257,6 @@ $string['configenablemobilewebservice'] = '为官方 Moodle 应用或其它应�
 $string['configenablerssfeeds'] = '此开关将启用全站的RSS种子，诸如博客、论坛、数据库活动、词汇表等。但您还要为每个模块单独启用RSS种子。';
 $string['configenablerssfeedsdisabled'] = '由于RSS种子已经在整个站点关闭了，因此无法使用。要开启它，访问管理中的变量设置。';
 $string['configenablerssfeedsdisabled2'] = '默认RSS种子功能在服务器层面是禁用的，要启用该功能首先要激活服务器/RSS功能。';
-$string['configenablesafebrowserintegration'] = '启用后，在测验设置表单的“浏览器安全”域中可以选择“必须使用Safe Exam Browser”。查看http://www.safeexambrowser.org/了解详情。';
 $string['configenablestats'] = '如果选择“是”，则Moodle的cronjob会处理日志并做一些统计。根据您网站流量的不同，所消耗的时间也不同。如果启用这个选项，您就可以看到关于每个课程或整个网站的一些有趣的图表及统计。';
 $string['configenabletrusttext'] = '默认情况下，Moodle总会全面清理来自用户的文本，移除任何可能带来安全问题的不良脚本、媒体等。如果您信任某些特定的用户使用这些高级特性的能力，可以通过可信内容系统取消对他们的干涉。为了使此系统有效，您需要首先使此设置有效，然后给指定的Moodle角色授予可信内容权限。由此类用户建立或上传的文本将被标记为可信任的，在显示前不会被清理。';
 $string['configenablewebservices'] = '其它系统可以通过网络服务登录到此 Moodle 并做各种操作。出于安全考量，您应该禁用这个特性，除非您真的要使用它。';
@@ -329,6 +331,8 @@ $string['confignotloggedinroleid'] = '未登陆的用户将被当作此角色。
 $string['configopentowebcrawlers'] = '如果使用该设置，Google将能够以访客的身份进入网站。通过Google搜索而来的访问者也可以以访客的身份登陆网站。这个选项仅对允许访客访问的课程有效。';
 $string['configoverride'] = '已在config.php中定义';
 $string['configpasswordpolicy'] = '启用该功能，Moodle将检查用户密码是否符合密码使用规则。选中将启用密码规则（选否将忽略密码规则）。';
+$string['configpasswordpolicycheckonlogin'] = '启用时，用户每次登陆，密码都将根据密码策略进行核对检查。如果检查失败，用户将被要求修改密码。
+此功能适用于系统更新密码策略后开启。';
 $string['configpasswordresettime'] = '在多长时间之内，用户必须验证重置密码请求，否则过期失效。通常设为30分钟。';
 $string['configpathtodu'] = 'du的路径，如/usr/bin/du。如果您设定了这个选项，则那些显示目录内容的脚本在目录中有很多文件时，可以运行得稍快些。';
 $string['configpathtophp'] = 'PHP CLI 的路径。通常会是/usr/bin/php。如果输入此项，则可以从管理员Web界面执行cron脚本。';
@@ -449,8 +453,9 @@ $string['cronerrorclionly'] = 'Sorry，访问这页的权限已经被管理员�
 $string['cronerrorpassword'] = 'Sorry，要访问该页，您必须输入一个密码！';
 $string['croninfrequent'] = '最后两次后台维护脚本运行于{$a}秒前。推荐将其配置为更频繁地运行。';
 $string['cronremotepassword'] = '访问远程Cron的密码';
-$string['cronwarning'] = '已经有至少24个小时没运行<a href="{$a}">cron.php维护脚本</a>了。';
+$string['cronwarning'] = '<a href="{$a->url}“>admin/cron.php脚本</a>已经{$a->actual}未运行了。它应该每{$a->expected}运行一次。';
 $string['cronwarningcli'] = 'cli/cron.php 维护脚本超过 24 个小时没有运行';
+$string['cronwarningnever'] = '<code>admin/cli/cron.php</code> 脚本从未运行，应该每 {$a->expected}运行一次。';
 $string['ctyperequired'] = 'Moodle需要ctype PHP扩展，以便改善性能和提高多种语言的兼容性。';
 $string['curlcache'] = 'cURL缓存TTL';
 $string['curlrequired'] = 'Moodle现在需要PHP的cURL扩展来和Moodle容器通信。';
@@ -502,6 +507,7 @@ $string['devicedetectregexexpression'] = '正则表达式';
 $string['devicedetectregexvalue'] = '返回值';
 $string['devicetype'] = '设备类型';
 $string['devlibdirpresent'] = '含有开发库的目录，尤其是<em>/vendor</em>和<em>/node_modules</em>，不应出现在公共站点上。有关详细信息，请参阅<a href="{$a-> moreinfourl}“>安全概述报告</a>。';
+$string['disabled'] = '关闭';
 $string['disableuserimages'] = '禁用自定义头像功能';
 $string['displayerrorswarning'] = '建议不要在站点中设置PHP的<em>display_errors</em>，因为这可能会暴露敏感资料。';
 $string['displayloginfailures'] = '显示登录失败信息';
@@ -558,7 +564,6 @@ $string['enablegravatar_help'] = '启用后，如果用户未上传头像，Mood
 $string['enablemobilewebservice'] = '为移动设备启用网络服务';
 $string['enablerecordcache'] = '允许记录缓存';
 $string['enablerssfeeds'] = '启用RSS种子';
-$string['enablesafebrowserintegration'] = '打开安全考试浏览器的集成';
 $string['enablesearchareas'] = '搜索区域';
 $string['enablestats'] = '启用统计';
 $string['enabletrusttext'] = '启用可信内容';
@@ -700,6 +705,8 @@ $string['langcache'] = '缓存语言菜单';
 $string['langcache_desc'] = '缓存语言菜单。如果启用缓存语言菜单，那么可用的翻译列表将会被缓存。当您通过内置的语言包管理工具安装或删除语言包时，缓存会自动更新。如果您手动安装一个新的语言包时，您需要使用“清除缓存”来更新已缓存的语言包列表。';
 $string['langlist'] = '语言菜单中的语言';
 $string['langmenu'] = '显示语言菜单';
+$string['langmenuinsecurelayout'] = '在安全布局中显示语言菜单';
+$string['langmenuinsecurelayout_desc'] = '如果启用，则用户可以在使用安全布局试答测验或进行其他活动时更改其语言。';
 $string['langpackwillbeupdated'] = '注意：在升级期间，Moodle将尝试更新语言包。';
 $string['langstringcache'] = '缓存所有语言字符串';
 $string['languagesettings'] = '语言设置';
@@ -741,6 +748,8 @@ $string['lockoutwindow_desc'] = '为帐号锁定阀值设置的监视时间，�
 $string['log'] = '日志';
 $string['logguests'] = '日志包含访客的访问';
 $string['logguests_help'] = '此设置启用后，访客账号的行为会被记入日志。高知名度的网站出于性能考虑，可能要禁用此功能。建议正式使用的网站打开此功能。';
+$string['logininfoinsecurelayout'] = '在安全布局中显示登录用户';
+$string['logininfoinsecurelayout_desc'] = '如果启用，在使用安全布局试答测验或进行其他活动时，登录用户的全名将显示在导航条中。';
 $string['loginpageautofocus'] = '登录页面焦点自动移到表单';
 $string['loginpageautofocus_help'] = '启用此选项可以让登录页面更方便，但自动移动焦点可能会给无障碍访问带来问题。';
 $string['loglifetime'] = '保留多久的日志';

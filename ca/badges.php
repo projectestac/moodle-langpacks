@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'ca', version '3.8'.
+ * Strings for component 'badges', language 'ca', version '3.11'.
  *
  * @package     badges
  * @category    string
@@ -96,10 +96,10 @@ Si teniu planejat lliurar insígnies des d\'un lloc en producció, haureu de sol
 ##Què passa si no puc fer públicament  accessible el lloc sencer?
 
 L\'únic URL necessari per la verificació és [URL-del-lloc]/badges/assertion.php, així que, si podeu modificar el tallafoc per tal de permetre l\'accés extern a aquest fitxer, la verificació podrà funcionar.';
-$string['backpackbadges'] = 'Es mostren {$a->totalbadges} insígnia(es) de {$a->totalcollections} col·lecció(ons). <a href="mybackpack.php">Canvia la configuració de la motxilla</a>.';
 $string['backpackbadgessettings'] = 'Canvia la configuració de la motxilla';
 $string['backpackbadgessummary'] = 'Teniu {$a->totalbadges} insígnia(es) que es mostra(en) a partir de {$a->totalcollections} col·lecció(ons).';
 $string['backpackcannotsendverification'] = 'No es pot enviar un correu de verificació';
+$string['backpackconnected'] = 'La motxilla està connectada';
 $string['backpackconnection'] = 'Connexió a la motxilla';
 $string['backpackconnection_help'] = 'Connectar-vos a una motxilla us permetrà compartir les vostres insígnies des d\'aquest lloc i mostrar col·leccions d\'insígnies públiques de la vostra motxilla a la pàgina del perfil d\'aquest lloc.';
 $string['backpackconnectioncancelattempt'] = 'Connecta utilitzant una adreça de correu diferent';
@@ -110,6 +110,7 @@ $string['backpackconnectionresendemail'] = 'Torna a enviar el correu de verifica
 $string['backpackconnectionunexpectedmessage'] = 'La motxilla ha retornat l\'error: "{$a}".';
 $string['backpackconnectionunexpectedresult'] = 'Hi ha hagut un problema en connectar a la motxilla. Si us plau, comproveu les credencials i torneu-ho a provar.';
 $string['backpackdetails'] = 'Configuració de la motxilla';
+$string['backpackdisconnected'] = 'La motxilla està desconnectada';
 $string['backpackemail'] = 'Adreça de correu';
 $string['backpackemail_help'] = 'Adreça electrònica associada a la vostra motxilla.
 Mentre esteu connectat, qualsevol insígnia guanyada en aquest lloc quedarà associada amb aquesta adreça electrònica.';
@@ -130,11 +131,13 @@ $string['backpackemailverifyemailsubject'] = '{$a}: Verificació del correu elec
 $string['backpackemailverifypending'] = 'S\'ha enviat un correu de verificació a <strong>{$a}</strong>. Feu clic sobre l\'enllaç de verificació del correu per tal d\'activar la connexió a la vostra motxilla.';
 $string['backpackemailverifysuccess'] = 'Gràcies per verificar la vostra adreça de correu electrònic. Ja esteu connectats a la vostra motxilla.';
 $string['backpackemailverifytokenmismatch'] = 'El testimoni (<em>token</em>) de l\'enllaç on heu fet clic no coincideix amb el testimoni desat. Assegureu-vos que heu fet clic a l\'enllaç del correu més recent que heu rebut.';
+$string['backpackexporterror'] = 'No es pot exportar la insígnia a la motxilla';
 $string['backpackimport'] = 'Configuració de la importació d\'insígnies';
 $string['backpackimport_help'] = 'Un cop s\'hagi establert correctament la connexió amb la motxilla, les insígnies de la vostra motxilla es podran veure a la pàgina «Les meves insígnies» i a la del vostre perfil.
 
 En aquesta àrea podeu seleccionar les col·leccions d\'insígnies de la vostra motxilla que voleu mostrar al vostre perfil.';
 $string['backpackneedsupdate'] = 'La motxilla connectada a aquest perfil no coincideix amb la motxilla del lloc. Cal desconnectar i tornar a connectar la motxilla.';
+$string['backpackprovider'] = 'Proveïdor de la motxilla';
 $string['backpacksettings'] = 'Paràmetres de la motxilla';
 $string['backpackweburl'] = 'URL de la motxilla';
 $string['badgedetails'] = 'Detalls de la insígnia';
@@ -274,6 +277,7 @@ $string['deletehelp'] = '<p>Suprimir completament una insígnia vol dir que tots
 <p>
 Nota: Els usuaris que hagin guanyat aquesta insígnia i l\'hagin promoguda a la seva motxilla externa, conservaran aquesta insígnia en la motxilla externa. No obstant això, no funcionaran els enllaços a les pàgines de criteris i evidències en aquest lloc web.
 </p>';
+$string['delexternalbackpack'] = 'Esborra la motxilla del lloc';
 $string['delexternalbackpackconfirm'] = 'Voleu suprimir la motxilla del lloc «{$a}»?';
 $string['delparamconfirm'] = 'Confirmeu que voleu suprimir aquest paràmetre?';
 $string['description'] = 'Descripció';
@@ -297,7 +301,6 @@ $string['error:connectionunknownreason'] = 'La connexió no ha prosperat, però 
 $string['error:duplicatename'] = 'Ja existeix al sistema una insígnia amb el mateix nom.';
 $string['error:externalbadgedoesntexist'] = 'No s\'ha trobat la insígnia';
 $string['error:guestuseraccess'] = 'Esteu utilitzant l\'accés de visitants. Per veure les insígnies, cal que inicieu sessió amb el vostre compte d\'usuari.';
-$string['error:invalidbadgeurl'] = 'El format d\'URL de l\'emissor de la insígnia no és vàlid.';
 $string['error:invalidcriteriatype'] = 'Tipus de criteri invàlid.';
 $string['error:invalidexpiredate'] = 'La data de caducitat ha d\'estar en el futur.';
 $string['error:invalidexpireperiod'] = 'El període de caducitat no pot ser negatiu o igual a zero.';
@@ -306,8 +309,6 @@ $string['error:invalidparamcohort'] = 'La cohort no existeix.';
 $string['error:noactivities'] = 'No hi ha activitats amb els criteris de compleció habilitats en aquest curs.';
 $string['error:nocohorts'] = 'No hi ha cap cohort';
 $string['error:nocourses'] = 'La compleció del  curs no està habilitada per a cap dels cursos en aquest lloc, així que no es poden mostrar. La compleció del curs es pot activar en els paràmetres del curs.';
-$string['error:nogroups'] = '<p>No hi ha col·leccions públiques d\'insígnies disponibles a la vostra motxilla. </p>
-<p> Només es mostren les col·leccions públiques, <a href="http://backpack.openbadges.org">visiteu la vostra motxilla</a> per crear alguna col·lecció pública. </p>';
 $string['error:nopermissiontoview'] = 'No teniu permisos per veure els destinataris de la insígnia';
 $string['error:nosuchbadge'] = 'La insígnia amb l\'identificador {$a} no existeix.';
 $string['error:nosuchcohort'] = 'Atenció: aquesta cohort ja no està disponible.';
@@ -378,8 +379,8 @@ $string['makeprivate'] = 'Fes privada';
 $string['makepublic'] = 'Fes pública';
 $string['managebadges'] = 'Gestiona les insígnies';
 $string['message'] = 'Cos del missatge';
-$string['messagebody'] = '<p>Heu guanyat una insígnia "%badgename%"! </p>
-<p>Podeu trobar més informació sobre aquesta insígnia a la pàgina %badgelink%. </p>
+$string['messagebody'] = '<p>Heu guanyat una insígnia "%badgename%"!</p>
+<p>Podeu trobar més informació sobre aquesta insígnia a la pàgina %badgelink%.</p>
 <p>Podeu gestionar i descarregar la insígnia des de la vostra pàgina {$a}.</p>';
 $string['messagesubject'] = 'Enhorabona! Heu guanyat una insígnia!';
 $string['method'] = 'Aquest criteri es completa quan...';
@@ -393,8 +394,6 @@ $string['newimage'] = 'Imatge nova';
 $string['noalignment'] = 'Aquesta insígnia no té associats cap habilitat externa ni cap estàndard.';
 $string['noawards'] = 'Aquesta insígnia encara no s\'ha guanyat.';
 $string['nobackpack'] = 'No hi ha cap servei de motxilla connectat amb aquest compte.<br />';
-$string['nobackpackbadges'] = 'No hi ha insígnies en les col·leccions que heu seleccionat. <a href="mybackpack.php">Afegiu més col·leccions</a>.';
-$string['nobackpackcollections'] = 'No hi ha col·leccions d\'insígnia seleccionades. <a href="mybackpack.php">Afegiu col·leccions</a>.';
 $string['nobadges'] = 'No hi ha insígnies disponibles.';
 $string['nocriteria'] = 'Els criteris per a aquesta insígnia no s\'han creat encara.';
 $string['noexpiry'] = 'Aquesta insígnia no té una data d\'expiració.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'es', version '3.8'.
+ * Strings for component 'grades', language 'es', version '3.11'.
  *
  * @package     grades
  * @category    string
@@ -33,7 +33,7 @@ $string['addfeedback'] = 'Agregar retroalimentación';
 $string['addgradeletter'] = 'Añadir letra de calificación';
 $string['addidnumbers'] = 'Añadir números ID';
 $string['additem'] = 'Añadir ítem de calificación';
-$string['additionalfeedback'] = 'Realimentación adicional';
+$string['additionalfeedback'] = 'Retroalimentación adicional';
 $string['addoutcome'] = 'Agregar un resultado';
 $string['addoutcomeitem'] = 'Agregar ítem de resultado';
 $string['addscale'] = 'Agregar una escala';
@@ -99,7 +99,7 @@ $string['autosort'] = 'Ordenación automática';
 $string['availableidnumbers'] = 'Números ID disponibles';
 $string['average'] = 'Promedio';
 $string['averagesdecimalpoints'] = 'Nº de decimales en el promedio de las columnas';
-$string['averagesdecimalpoints_help'] = '<p>Especifica el número de decimales a mostrar en la media de cada columna. Si se selecciona Heredar, se usará el tipo de vista para cada columna.</p>';
+$string['averagesdecimalpoints_help'] = 'Esta configuración determina el número de decimales a mostrar para cada promedio, o si es que la configuración global de decimales para la categoría o el ítem de calificación es usada (heredar).';
 $string['averagesdisplaytype'] = 'Modo de visualización en el promedio de las columnas';
 $string['averagesdisplaytype_help'] = '<o>Especifica como se presenta la media para cada columna. Si se selecciona Heredar, se usará el tipo de vista para cada columna.</p>';
 $string['backupwithoutgradebook'] = 'La copia de seguridad no contiene la configuración del Libro de Calificaciones';
@@ -153,7 +153,7 @@ $string['csv'] = 'CSV';
 $string['currentparentaggregation'] = 'Agregación padre actual.';
 $string['curveto'] = 'Curvar a';
 $string['decimalpoints'] = 'Puntos decimales globales';
-$string['decimalpoints_help'] = '<p>Especifica el número de decimales a mostrar para cada calificación. Este ajuste no tiene efecto en los cálculos de las calificaciones, que se hacen con una precisión de 5 decimales. </p>';
+$string['decimalpoints_help'] = 'Esta configuración determina el número de decimales a mostrar para cada calificación. Este ajuste no tiene efecto en los cálculos de las calificaciones, que se hacen con una precisión de 5 decimales.';
 $string['default'] = 'Por defecto';
 $string['defaultprev'] = 'Valor por defecto ({$a})';
 $string['deletecategory'] = 'Eliminar categoría';
@@ -171,6 +171,7 @@ $string['droplowestvalues'] = 'Descartar {$a} valores más bajos';
 $string['dropped'] = 'Descartadas';
 $string['dropxlowest'] = 'Descartar X más bajas';
 $string['dropxlowestwarning'] = 'Nota: Si usa \'descartar x más bajas\', la calificación asume que todos los ítems de la categoría tienen el mismo valor en puntos. Si dichos valores difieren, los resultados serán impredecibles';
+$string['duplicatedgradeitem'] = '{$a} (copia)';
 $string['duplicatescale'] = 'Duplicar escala';
 $string['edit'] = 'Editar';
 $string['editcalculation'] = 'Editar cálculo';
@@ -496,8 +497,8 @@ $string['mode'] = 'Moda';
 $string['modgrade'] = 'Calificación';
 $string['modgrade_help'] = 'Seleccione el tipo de calificación que desea utilizar para esta actividad. Si elige "escala", a continuación podrá elegirla de una lista desplegable. Si prefiere "puntuación", podrá elegir la puntuación máxima para esta actividad.';
 $string['modgradecantchangegradetype'] = 'No puedes cambiar el tipo, ya que hay calificaciones para este elemento.';
-$string['modgradecantchangegradetypemsg'] = 'Algunas calificaciones ya se han adjudicado, por lo que el tipo de calificación no se puede cambiar. Si desea cambiar la calificación máxima, primero debe elegir si desea o no recalcular el valor de las calificaciones existentes.';
-$string['modgradecantchangegradetyporscalemsg'] = 'Algunas calificaciones han sido premiadas, de modo que el tipo y la escala no pueden ser cambiados.';
+$string['modgradecantchangegradetypemsg'] = 'Algunas calificaciones ya se han asignado, por lo que el tipo de calificación no se puede cambiar. Si desea cambiar la calificación máxima, primero debe elegir si desea o no recalcular el valor de las calificaciones existentes.';
+$string['modgradecantchangegradetyporscalemsg'] = 'Algunas calificaciones han sido asignadas, de modo que el tipo y la escala no pueden ser cambiados.';
 $string['modgradecantchangeratingmaxgrade'] = 'No se puede modificar la máxima calificación cuando ya se ha calificado una actividad que utiliza valoraciones.';
 $string['modgradecantchangescale'] = 'No puedes cambiar la escala, ya que hay calificaciones existentes para este elemento.';
 $string['modgradecategorycantchangegradetypemsg'] = 'Esta categoría tiene asociados items de calificación que han sido sobreescritos. Por lo tanto algunas calificaciones ya han sido asignadas, por lo que el tipo de calificación no puede ser variado. Si desea cambiar el valor máximo de la calificación, primero debe elegir entre recalcular o no las calificaciones existentes.';
@@ -849,7 +850,7 @@ $string['verbosescales'] = 'Escalas de texto';
 $string['verbosescales_help'] = 'La escala verbal usa palabras en lugar de números. Seleccione "sí" si desea importar las escalas numéricas y verbales. Seleccione "No" si solo desea importar las escalas numéricas.';
 $string['viewbygroup'] = 'Grupo';
 $string['viewgrades'] = 'Ver calificaciones';
-$string['weight'] = 'Peso';
+$string['weight'] = 'Ponderación';
 $string['weight_help'] = 'Un valor utilizado para determinar el valor relativo de elementos de calificación múltiple en un curso o categoría.';
 $string['weightcourse'] = 'Usar calificaciones no ponderadas para el curso';
 $string['weightedascending'] = 'Clasificar por porcentaje ponderado ascendente';
@@ -863,7 +864,7 @@ $string['weightoverride_help'] = 'Desmarcar esta opción para reestablecer el pe
 $string['weights'] = 'Ponderaciones';
 $string['weightsadjusted'] = 'Sus pesos han sido ajustado a un total de 100.';
 $string['weightsedit'] = 'Editar ponderaciones y créditos extra';
-$string['weightuc'] = 'Peso calculado';
+$string['weightuc'] = 'Ponderación calculada';
 $string['writinggradebookinfo'] = 'Escribiendo ajustes del libro de calificaciones';
 $string['xml'] = 'XML';
 $string['yes'] = 'Sí';

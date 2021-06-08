@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'en', version '3.8'.
+ * Strings for component 'question', language 'en', version '3.11'.
  *
  * @package     question
  * @category    string
@@ -86,7 +86,7 @@ $string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
 $string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
 $string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Change options';
-$string['changepublishstatuscat'] = '<a href="{$a->caturl}">Category "{$a->name}"</a> in course "{$a->coursename}" will have it\'s sharing status changed from <strong>{$a->changefrom} to {$a->changeto}</strong>.';
+$string['changepublishstatuscat'] = '<a href="{$a->caturl}">Category "{$a->name}"</a> in course "{$a->coursename}" will have its sharing status changed from {$a->changefrom} to {$a->changeto}.';
 $string['check'] = 'Check';
 $string['chooseqtypetoadd'] = 'Choose a question type to add';
 $string['clearwrongparts'] = 'Clear incorrect responses';
@@ -156,7 +156,7 @@ $string['editingquestion'] = 'Editing a question';
 $string['editquestion'] = 'Edit question';
 $string['editquestions'] = 'Edit questions';
 $string['editthiscategory'] = 'Edit this category';
-$string['emptyxml'] = 'Unkown error - empty imsmanifest.xml';
+$string['emptyxml'] = 'Unknown error - empty imsmanifest.xml';
 $string['enabled'] = 'Enabled';
 $string['erroraccessingcontext'] = 'Cannot access context';
 $string['errordeletingquestionsfromcategory'] = 'Error deleting questions from category {$a}.';

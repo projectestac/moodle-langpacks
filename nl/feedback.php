@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'nl', version '3.8'.
+ * Strings for component 'feedback', language 'nl', version '3.11'.
  *
  * @package     feedback
  * @category    string
@@ -57,6 +57,7 @@ $string['complete_the_form'] = 'Beantwoord de vragen';
 $string['completed'] = 'Voltooid';
 $string['completed_feedbacks'] = 'Ingevulde antwoorden';
 $string['completedon'] = 'Voltooid op {$a}';
+$string['completiondetail:submit'] = 'Feedback insturen';
 $string['completionsubmit'] = 'Bekijk als voltooid als de feedback verstuurd is';
 $string['configallowfullanonymous'] = 'Als deze optie op ja staat, dan kan de feedback op de startpagina ingevuld worden zonder aangemeld te zijn.';
 $string['confirmdeleteentry'] = 'Ben je zeker dat je dit wil verwijderen?';

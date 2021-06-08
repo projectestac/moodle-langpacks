@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'ca', version '3.8'.
+ * Strings for component 'folder', language 'ca', version '3.11'.
  *
  * @package     folder
  * @category    string
@@ -40,6 +40,7 @@ $string['folder:addinstance'] = 'Afegeix una carpeta nova';
 $string['folder:managefiles'] = 'Gestiona fitxers al mòdul Carpeta';
 $string['folder:view'] = 'Visualitza el contingut de la carpeta';
 $string['foldercontent'] = 'Fitxers i subcarpetes';
+$string['forcedownload'] = 'Imposa la descàrrega de fitxers';
 $string['indicator:cognitivedepth'] = 'Carpeta cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Aquest indicador es basa en la profunditat cognitiva assolida per l\'estudiant en un recurs de carpeta.';
 $string['indicator:socialbreadth'] = 'Carpeta social';

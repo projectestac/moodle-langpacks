@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_eventlist', language 'sv', version '3.8'.
+ * Strings for component 'report_eventlist', language 'sv', version '3.11'.
  *
  * @package     report_eventlist
  * @category    string
@@ -41,7 +41,7 @@ $string['errorinvaliddirectory'] = 'Katalogen för händelsen finns inte eller �
 $string['errorinvalidevent'] = 'Den tillhandahållna händelsen är inte en giltig händelse.';
 $string['eventcode'] = 'Händelsekod';
 $string['eventexplanation'] = 'Förklaring av händelsen';
-$string['eventname'] = 'Händelsenamn';
+$string['eventname'] = 'Händelse';
 $string['filter'] = 'Filter';
 $string['legacyevent'] = 'Gammal händelsetyp';
 $string['name'] = 'Namn';

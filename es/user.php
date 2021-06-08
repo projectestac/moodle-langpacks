@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'user', language 'es', version '3.8'.
+ * Strings for component 'user', language 'es', version '3.11'.
  *
  * @package     user
  * @category    string
@@ -25,4 +25,20 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addcondition'] = 'Agregar condición';
+$string['adverbfor_and'] = 'y';
+$string['adverbfor_andnot'] = 'y';
+$string['adverbfor_or'] = 'o';
+$string['applyfilters'] = 'Aplicar filtros';
+$string['clearfilters'] = 'Limpiar filtros';
+$string['countparticipantsfound'] = '{$a} participantes encontrados';
+$string['filterbykeyword'] = 'Palabra clave';
+$string['match'] = 'Coincidir';
+$string['matchofthefollowing'] = 'de los siguientes:';
+$string['placeholdertype'] = 'Escriba...';
+$string['placeholdertypeorselect'] = 'Escriba o seleccione...';
 $string['privacy:privatefilespath'] = 'Archivos privados';
+$string['selectfiltertype'] = 'Seleccionar';
+$string['target:upcomingactivitiesdue'] = 'Actividades próximas pendientes';
+$string['target:upcomingactivitiesdue_help'] = 'Este destino genera recordatorios para actividades próximas pendientes.';
+$string['target:upcomingactivitiesdueinfo'] = 'Aquí se lista todo lo relacionado con las actividades próximas pendientes. Estos estudiantes han sido avisados directamente.';

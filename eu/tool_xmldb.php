@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_xmldb', language 'eu', version '3.8'.
+ * Strings for component 'tool_xmldb', language 'eu', version '3.11'.
  *
  * @package     tool_xmldb
  * @category    string
@@ -115,6 +115,7 @@ $string['edit_xml_file'] = 'Editatu XML fitxategia';
 $string['enumvaluesincorrect'] = 'Enum eremuaren balio ezegokiak';
 $string['expected'] = 'Espero zena';
 $string['extensionrequired'] = 'Sentitzen dugu - ekintza honetarako \'{$a}\' PHP hedapena beharrezkoa da. Mesedez hedapena instalatu ezazu funtzionalitate hau erabili nahi baduzu.';
+$string['extraindexesfound'] = 'Indize gehigarriak aurkitu dira';
 $string['field'] = 'Eremua';
 $string['fieldnameempty'] = 'Eremuaren izena hutsik';
 $string['fields'] = 'Eremuak';
@@ -160,7 +161,7 @@ $string['newtable'] = 'Taula berria';
 $string['newtablefrommysql'] = 'Taula berria MySQL-etik';
 $string['nofieldsspecified'] = 'Ez da eremurik zehaztu';
 $string['nomasterprimaryuniquefound'] = 'Zure kanpoko gakoak erakusten dituen zutabeak aipatzen den taularen gako nagusian (PRIMARY KEY) edo gako bakar batean (UNIQUE KEY) egon behar dira. Kontuan izan zutabea UNIQUE INDEX batean egotea ez dela nahikoa.';
-$string['nomissingindexesfound'] = 'Ez da antzeman falta den indizerik, zure datu-baseak ez du bestelako ekintzarik behar.';
+$string['nomissingorextraindexesfound'] = 'Ez da aurkitu falta den indize edo indize gehigarririk, beraz ez dago bestelako ekintzen beharrik.';
 $string['noreffieldsspecified'] = 'Ez da aipatutako eremurik zehaztu';
 $string['noreftablespecified'] = 'Ez da aipatutako taula aurkitu';
 $string['noviolatedforeignkeysfound'] = 'Ez da urratutako kanpoko gakorik aurkitu';
@@ -219,10 +220,11 @@ $string['wronglengthforenum'] = 'Enum eremuaren luzera ez da egokia';
 $string['wrongnumberofreffields'] = 'Zenbaki ezegokia erakutsitako eremuan';
 $string['wrongoraclesemantics'] = 'Oracle-ko BYTE semantika ezegokia aurkitu da';
 $string['wrongreservedwords'] = 'Une honetan erabilitako Hitz Erreserbatuak<br />(kontuan izan taularen izenak ez direla garrantzizkoak $CFG->prefix erabiltzen bada)';
-$string['yesmissingindexesfound'] = '<p>Zure datu-basean hainbat indize falta direla atzeman da. Hemen dituzu horien xehetasunak eta arazoa konpontzeko zure SQL interfaz gogokoenean exekutatu behar diren SQL komandoak. Gogoratu aurretik zure datuen segurtasun-kopia bat egitea!</p>
+$string['yesextraindexesfound'] = 'Hurrengo indize gehigarriak aurkitu dira.';
+$string['yesmissingindexesfound'] = '<p>Zure datu-basean hainbat indize falta direla atzeman da. Hemen dituzu horien xehetasunak eta arazoa konpontzeko zure SQL interfaz gogokoenean exekutatu behar diren SQL adierazpenak. Gogoratu aurretik zure datuen segurtasun-kopia bat egitea!</p>
 <p>Behin hori egindakoan, funtzio hau berriz ere exekutatzea gomendatzen da indize gehiagorik ez dela falta egiaztatzeko.</p>';
-$string['yeswrongdefaultsfound'] = '<p>Zure datu-basean sendotasunik gabeko berezko balio batzuk aurkitu dira. Hemen dituzu horien xehetasunak eta arazoa konpontzeko zure SQL interfaze gogokoenean exekutatu behar diren SQL komandoak. Gogoratu aurretik zure datuen segurtasun-kopia bat egitea!</p>
-<p>Behin hori egindakoan, funtzio hau berriz ere exekutatzea gomendatzen da arazoak sortzen duen berezko beste baliorik ez dagoela ziurtatzeko.</p>';
+$string['yeswrongdefaultsfound'] = '<p>Zure datu-basean sendotasunik gabeko lehenetsitako balio batzuk aurkitu dira. Hemen dituzu horien xehetasunak eta arazoa konpontzeko zure SQL interfaze gogokoenean exekutatu behar diren SQL adierazpenak. Gogoratu aurretik zure datuen segurtasun-kopia bat egitea!</p>
+<p>Behin hori egindakoan, funtzio hau berriz ere exekutatzea gomendatzen da arazoak sortzen dituen lehenetsitako beste baliorik ez dagoela ziurtatzeko.</p>';
 $string['yeswrongintsfound'] = '<p>Zure datu-basean hainbat integer oker aurkitu dira. Hemen dituzu horien xehetasunak eta arazoa konpontzeko zure SQL interfaz gogokoenean exekutatu behar diren SQL adierazpenak. Gogoratu aurretik zure datuen segurtasun-kopia bat egitea!</p>
 <p>Arazoak konpondu ondoren, funtzio hau berriz ere exekutatzea gomendatzen da beste zenbaki okerrik ez dagoela ziurtatzeko.</p>';
 $string['yeswrongoraclesemanticsfound'] = '<p>Zure datu-basean BYTE semantika erabiltzen duten Oracle zutabeak aurkitu dira. Hemen dituzu horien zehaztasunak eta zutabeak eraldatzeko zure SQL interfaz gogokoenean exekutatu behar diren SQL adierazpenak. Gogoratu aurretik zure datuen segurtasun-kopia bat egitea!</p>

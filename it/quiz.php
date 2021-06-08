@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'it', version '3.8'.
+ * Strings for component 'quiz', language 'it', version '3.11'.
  *
  * @package     quiz
  * @category    string
@@ -342,6 +342,7 @@ $string['eventoverridedeleted'] = 'Eliminata personalizzazione quiz';
 $string['eventoverrideupdated'] = 'Eliminata personalizzazione quiz';
 $string['eventquestionmanuallygraded'] = 'Valutata domanda manualmente';
 $string['eventquizattemptabandoned'] = 'Abbandonato tentativo quiz';
+$string['eventquizattemptregraded'] = 'Rivalutato tentativo quiz';
 $string['eventquizattemptstarted'] = 'Avviato tentativo quiz';
 $string['eventquizattemptsubmitted'] = 'Inviato tentativo quiz';
 $string['eventquizattempttimelimitexceeded'] = 'Superato tempo limite tentativo quiz';
@@ -605,6 +606,8 @@ $string['overridedeleteusersure'] = 'Sei sicuro di eliminare la personalizzazion
 $string['overridegroup'] = 'Personalizzazione per il gruppo';
 $string['overridegroupeventname'] = '{$a->quiz} - {$a->group}';
 $string['overrides'] = 'Personalizzazioni';
+$string['overridessummarygroup'] = 'Gruppi: {$a}';
+$string['overridessummaryuser'] = 'Utenti: {$a}';
 $string['overrideuser'] = 'Personalizzazione per l\'utente';
 $string['overrideusereventname'] = '{$a->quiz} - Personalzizzazione';
 $string['page-mod-quiz-attempt'] = 'Pagina del tentativo del quiz';
@@ -731,6 +734,7 @@ $string['quizopens'] = 'Quiz disponibile';
 $string['quizopenwillclose'] = 'Questo quiz è aperto, sarà chiuso il {$a} alle';
 $string['quizordernotrandom'] = 'Ordinamento del quiz non casuale';
 $string['quizorderrandom'] = '* Ordinamento del quiz casuale';
+$string['quizreport'] = 'Report del quiz';
 $string['quizsettings'] = 'Impostazioni quiz';
 $string['quiztimer'] = 'Quiz Timer';
 $string['quizwillopen'] = 'Questo quiz sarà aperto il {$a}';

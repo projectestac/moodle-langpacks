@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'fr', version '3.8'.
+ * Strings for component 'question', language 'fr', version '3.11'.
  *
  * @package     question
  * @category    string
@@ -86,7 +86,7 @@ $string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
 $string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
 $string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Modifier les options';
-$string['changepublishstatuscat'] = 'La <a href="{$a->caturl}">catégorie « {$a->name} »</a> du cours « {$a->coursename} » verra son état modifié de <strong>{$a->changefrom} à {$a->changeto}</strong>.';
+$string['changepublishstatuscat'] = 'La <a href="{$a->caturl}">catégorie « {$a->name} »</a> du cours « {$a->coursename} » verra son état modifié de {$a->changefrom} à {$a->changeto}.';
 $string['check'] = 'Vérifier';
 $string['chooseqtypetoadd'] = 'Choisir un type de question à ajouter';
 $string['clearwrongparts'] = 'Effacer les réponses incorrectes';
@@ -157,7 +157,7 @@ $string['errorduringregrade'] = 'Impossible de ré-évaluer la question {$a->qid
 $string['errorfilecannotbecopied'] = 'Impossible de copier le fichier {$a}.';
 $string['errorfilecannotbemoved'] = 'Impossible de déplacer le fichier {$a}.';
 $string['errorfileschanged'] = 'Erreur : certains fichiers liés dans des questions ont été modifiés depuis l\'affichage du formulaire.';
-$string['erroritemappearsmorethanoncewithdifferentweight'] = 'La question ({$a}) apparaît plusieurs fois avec des coefficients différents en divers endroits du test. Une telle fonctionnalité n\'est pas supportée par le rapport statistique et pourrait rendre des statistiques de cette question incorrectes.';
+$string['erroritemappearsmorethanoncewithdifferentweight'] = 'La question ({$a}) apparaît plusieurs fois avec des coefficients différents en divers endroits du test. Une telle fonctionnalité n\'est pas supportée par le rapport de statistiques et pourrait rendre des statistiques de cette question incorrectes.';
 $string['errormanualgradeoutofrange'] = 'La note {$a->grade} n\'est pas entre 0 et {$a->maxgrade} pour la question {$a->name}. Le score et le commentaire n\'ont pas été enregistrés.';
 $string['errormovingquestions'] = 'Erreur lors du déplacement des questions d\'identifiants {$a}.';
 $string['errorpostprocess'] = 'Erreur lors du post-traitement !';

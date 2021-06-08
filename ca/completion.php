@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'ca', version '3.8'.
+ * Strings for component 'completion', language 'ca', version '3.11'.
  *
  * @package     completion
  * @category    string
@@ -66,7 +66,7 @@ $string['completion-alt-auto-n-override'] = 'No completada: {$a->modname} (estab
 $string['completion-alt-auto-pass'] = 'Completada: {$a} (han assolit la qualificació)';
 $string['completion-alt-auto-y'] = 'Completat: {$a}';
 $string['completion-alt-auto-y-override'] = 'Completada: {$a->modname} (establert per {$a->overrideuser})';
-$string['completion-alt-manual-enabled'] = 'L\'estudiantat pot marcar de forma manual aquest ítem com completat: {$a}';
+$string['completion-alt-manual-enabled'] = 'Els estudiants poden marcar aquest apartat com a completat de manera manual: {$a}';
 $string['completion-alt-manual-n'] = 'No completada: {$a}. Seleccioneu-la per marcar-ho com a completada.';
 $string['completion-alt-manual-n-override'] = 'No completada: {$a->modname} (establert per {$a->overrideuser}). Seleccioneu-ho per a marcar-ho com a completada.';
 $string['completion-alt-manual-y'] = 'Completada: {$a}. Seleccioneu-lo per marcar-ho com a no completada.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'ca', version '3.8'.
+ * Strings for component 'data', language 'ca', version '3.11'.
  *
  * @package     data
  * @category    string
@@ -343,6 +343,7 @@ $string['rows'] = 'files';
 $string['rssglobaldisabled'] = 'Inhabilitat. Vegeu les variables de configuració del lloc.';
 $string['rsstemplate'] = 'Plantilla RSS';
 $string['rsstitletemplate'] = 'Plantilla títol RSS';
+$string['rsstype'] = 'Canal RSS d\'aquesta activitat';
 $string['save'] = 'Desa';
 $string['saveandadd'] = 'Desa i afegeix-ne un altre';
 $string['saveandview'] = 'Desa i visualitza';

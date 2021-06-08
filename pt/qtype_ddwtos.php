@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddwtos', language 'pt', version '3.8'.
+ * Strings for component 'qtype_ddwtos', language 'pt', version '3.11'.
  *
  * @package     qtype_ddwtos
  * @category    string
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addmorechoiceblanks'] = 'Espaços para mais {no} escolhas';
 $string['answer'] = 'Pergunta';
 $string['blank'] = 'Em branco';
-$string['correctansweris'] = 'A resposta correta é: {$a}';
+$string['correctansweris'] = 'Resposta correta: {$a}';
 $string['infinite'] = 'Ilimitado';
 $string['pleaseputananswerineachbox'] = 'Por favor, coloque uma resposta em cada caixa.';
 $string['pluginname'] = 'Arrastar e largar num texto';
@@ -36,4 +36,7 @@ $string['pluginname_help'] = 'As perguntas do tipo arrastar e largar num texto n
 $string['pluginnameadding'] = 'Adicionar pergunta do tipo arrastar e largar num texto';
 $string['pluginnameediting'] = 'Editar pergunta do tipo arrastar e largar num texto';
 $string['pluginnamesummary'] = 'Palavras em falta num texto de uma pergunta são preenchidas utilizando a opção arrastar e largar.';
-$string['privacy:metadata'] = 'O módulo Pergunta do tipo Arrastar e largar num texto não armazena quaisquer dados pessoais.';
+$string['privacy:metadata'] = 'O módulo Pergunta do tipo Arrastar e largar num texto permite que os autores das perguntas definam opções predefinidas como preferências do utilizador.';
+$string['privacy:preference:defaultmark'] = 'A avaliação predefinida para uma determinada pergunta.';
+$string['privacy:preference:penalty'] = 'A penalização para cada tentativa incorreta quando o comportamento das é o \'Interativo com múltiplas tentativas\' ou \'Modo adaptável \'.';
+$string['privacy:preference:shuffleanswers'] = 'Se as respostas devem, ou não, ser baralhadas automaticamente.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'eu', version '3.8'.
+ * Strings for component 'message', language 'eu', version '3.11'.
  *
  * @package     message
  * @category    string
@@ -77,9 +77,7 @@ $string['errormessagetoolong'] = 'Mezua baimendutakoa baino luzeagoa da.';
 $string['errortranslatingdefault'] = 'Errorea pluginak emandako lehenetsitako konfigurazioa itzultzean. Sistemaren ezarpen lehenetsiak erabiliko dira.';
 $string['eventgroupmessagesent'] = 'Talde-mezua bidali da';
 $string['eventmessagecontactadded'] = 'Mezularitza-kontaktua gehitu da';
-$string['eventmessagecontactblocked'] = 'Mezularitza-kontaktua blokeatu da';
 $string['eventmessagecontactremoved'] = 'Mezularitza-kontaktua ezabatu da';
-$string['eventmessagecontactunblocked'] = 'Mezularitza-kontaktua desblokeatu da';
 $string['eventmessagedeleted'] = 'Mezua ezabatu da';
 $string['eventmessagesent'] = 'Mezua bidali da';
 $string['eventmessageuserblocked'] = 'Erabiltzailea blokeatu da';
@@ -106,8 +104,10 @@ $string['loggedoff_help'] = 'Konfiguratu nola jaso nahi dituzun jakinarazpenak M
 $string['loggedoffdescription'] = 'On-line ez nagoenean';
 $string['managemessageoutputs'] = 'Lehenetsitako jakinarazpenak';
 $string['message'] = 'Mezua';
+$string['messagecontactrequest'] = '{$a->user} erabiltzaileak kontaktu gisa gehitzea eskatzen ari da. Eskaerari erantzuteko joan zaitez zure <a href="{$a->url}">kontaktu-eskaeren orrira</a> .';
 $string['messagecontactrequestsnotification'] = '{$a} kontaktu gisa gehitua izatea eskatzen ari da.';
 $string['messagecontactrequestsnotificationsubject'] = '{$a}(e)k egindako kontaktu-eskaera';
+$string['messagecontactrequestsubject'] = '{$a->sitename}: {$a->user} erabiltzailearen kontaktu-eskaera';
 $string['messagecontentaudio'] = 'Audioa';
 $string['messagecontentimage'] = 'Irudia';
 $string['messagecontentmultimediageneral'] = 'Bestelako media';
@@ -119,12 +119,12 @@ $string['messagedrawerviewgroupinfo'] = '{$a}-ren talde-xehetasunak';
 $string['messagedrawerviewoverview'] = 'Mezuen ikuspegi orokorra';
 $string['messagedrawerviewsearch'] = 'Mezu-bilaketaren emaitzak ondokorako: {$a}';
 $string['messagedrawerviewsettings'] = 'Mezuaren ezarpenak';
-$string['messageoutputs'] = 'Jakinarazpen-gehigarriak';
+$string['messageoutputs'] = 'Jakinarazpen-pluginak';
 $string['messagepreferences'] = 'Mezuen hobespenak';
 $string['messages'] = 'Mezuak';
 $string['messagesselected:'] = 'Aukeratutako mezuak:';
+$string['messagetextrequired'] = 'Idatzi mesedez mezuaren testua';
 $string['messagingdatahasnotbeenmigrated'] = 'Zure mezuak behin behinean ez daude eskuragarri mezularitza sistemaren eguneraketak direla-eta. Mesez itxaron ezazu migratuak izan arte.';
-$string['messagingdisabled'] = 'Mezularitza ez dago gaituta gune honetan, mezuen ordez e-mailak bidaliko dira';
 $string['muteconversation'] = 'Isilarazi';
 $string['mutedconversation'] = 'Mutututako eztabaida';
 $string['newmessage'] = 'Mezu berria';
@@ -258,7 +258,7 @@ $string['shownotificationwindowwithcount'] = 'Erakutsi jakinarazpen leihoa {$a} 
 $string['togglemessagemenu'] = 'Joan mezuen nabigazio-kutxara';
 $string['togglenotificationmenu'] = 'Joan jakinarazpenen menura';
 $string['totalconversations'] = 'Guztira {$a} elkarrizketa';
-$string['touserdoesntexist'] = 'Ezin diozu mezurik bidali ({$a}) id-a duen erabiltzaileari ez baitago horrelakorik.';
+$string['touserdoesntexist'] = 'Ezin diozu mezurik bidali existitzen ez den IDa duen erabiltzaileari ({$a}).';
 $string['unabletomessage'] = 'Erabiltzaile honi ezin diozu mezurik bidali';
 $string['unblock'] = 'Desblokeatu';
 $string['unblockcontact'] = 'Desblokeatu kontaktua';
@@ -274,8 +274,6 @@ $string['unreadnotification'] = 'Irakurri gabeko jakinarazpena: {$a}';
 $string['unreadnotifications'] = 'Irakurri gabeko {$a} jakinarazpen daude';
 $string['useentertosend'] = 'Erabili ENTER bidaltzeko';
 $string['usercantbemessaged'] = 'Ezin diozu {$a}-(r)i mezurik bidali bere mezularitza-hobespenak direla-eta. Saiatu zure kontaktuetara gehitzen.';
-$string['userisblockingyou'] = 'Erabiltzaile honek blokeatu egin zaitu eta ezin diozu mezurik bidali.';
-$string['userisblockingyounoncontact'] = '{$a}-k bere kontaktu-zerrendan daudenen mezuak bakarrik onartzen ditu.';
 $string['userwouldliketocontactyou'] = '{$a}(e)k zurekin jarri nahi du harremanetan';
 $string['viewfullnotification'] = 'Ikusi jakinarazpen osoa';
 $string['viewmessageswith'] = 'Ikusi mezuak honekin: {$a}';

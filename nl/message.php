@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'nl', version '3.8'.
+ * Strings for component 'message', language 'nl', version '3.11'.
  *
  * @package     message
  * @category    string
@@ -77,9 +77,7 @@ $string['errormessagetoolong'] = 'Het bericht is langer dan het toegestane maxim
 $string['errortranslatingdefault'] = 'Fout bij het vertalen van de standaardinstelling van de plugin. Systeemstandaarden worden gebruikt.';
 $string['eventgroupmessagesent'] = 'Groepsbericht verzonden';
 $string['eventmessagecontactadded'] = 'Berichtcontact toegevoegd';
-$string['eventmessagecontactblocked'] = 'Berichtcontact geblokkeerd';
 $string['eventmessagecontactremoved'] = 'Berichtcontact verwijderd';
-$string['eventmessagecontactunblocked'] = 'Berichtcontact blokkering verwijderd';
 $string['eventmessagedeleted'] = 'Bericht verwijderd';
 $string['eventmessagesent'] = 'Bericht verzonden';
 $string['eventmessageuserblocked'] = 'Gebruiker geblokkeerd';
@@ -106,8 +104,10 @@ $string['loggedoff_help'] = 'Configureren hoe ik de meldingen zou willen ontvang
 $string['loggedoffdescription'] = 'Wanneer ik niet aangemeld ben in Moodle';
 $string['managemessageoutputs'] = 'Standaard berichtenvoorkeuren';
 $string['message'] = 'Bericht';
+$string['messagecontactrequest'] = '{$a->user} vraagt om toegevoegd te worden als contactpersoon. Bezoek je pagina met <a href="{$a->url}">contactaanvragen</a> om hierop te reageren';
 $string['messagecontactrequestsnotification'] = '{$a} wil als contact worden toegevoegd.';
 $string['messagecontactrequestsnotificationsubject'] = '{$a} wil als contact worden toegevoegd';
+$string['messagecontactrequestsubject'] = '{$a->sitename}: Contactaanvraag van {$a->user}';
 $string['messagecontentaudio'] = 'Audio';
 $string['messagecontentimage'] = 'Afbeelding';
 $string['messagecontentmultimediageneral'] = 'Andere media';
@@ -123,8 +123,8 @@ $string['messageoutputs'] = 'Berichten-plugins';
 $string['messagepreferences'] = 'Berichten voorkeuren';
 $string['messages'] = 'Berichten';
 $string['messagesselected:'] = 'Berichten geselecteerd:';
+$string['messagetextrequired'] = 'Voer de berichttekst in';
 $string['messagingdatahasnotbeenmigrated'] = 'Je berichten zijn tijdelijk niet beschikbaar door een upgrade van het berichtensysteem. Wacht tot ze gemigreerd zijn.';
-$string['messagingdisabled'] = 'Berichten zijn uitgeschakeld op deze site, de boodschap zal per e-mail verstuurd worden.';
 $string['muteconversation'] = 'Dempen';
 $string['mutedconversation'] = 'Gedempt gesprek';
 $string['newmessage'] = 'Nieuw bericht';
@@ -258,7 +258,7 @@ $string['shownotificationwindowwithcount'] = 'Toon meldingenvenster met {$a} nie
 $string['togglemessagemenu'] = 'Berichten menu aan / uit zetten';
 $string['togglenotificationmenu'] = 'Meldingen menu aan / uit zetten';
 $string['totalconversations'] = '{$a} conversaties';
-$string['touserdoesntexist'] = 'Je kunt geen bericht sturen naar gebruikersID ({$a}) dat niet bestaat';
+$string['touserdoesntexist'] = 'Je kunt geen bericht sturen naar gebruikersID ({$a}) dat niet bestaat.';
 $string['unabletomessage'] = 'Je kunt geen berichten sturen naar deze gebruiker';
 $string['unblock'] = 'Deblokkeren';
 $string['unblockcontact'] = 'deblokkeer deze contactpersoon';
@@ -274,8 +274,6 @@ $string['unreadnotification'] = 'Ongelezen meldingen: {$a}';
 $string['unreadnotifications'] = 'Er zijn {$a} ongelezen meldingen';
 $string['useentertosend'] = 'Gebruik entertoets om te verzenden';
 $string['usercantbemessaged'] = 'Je kunt {$a} geen berichten sturen vanwege hun berichtvoorkeuren. Probeer ze als contact toe te voegen.';
-$string['userisblockingyou'] = 'Deze gebruiker heeft je geblokkeerd om berichten naar hem te sturen.';
-$string['userisblockingyounoncontact'] = '{$a} aanvaardt alleen berichten van mensen uit zijn lijst met contactpersonen.';
 $string['userwouldliketocontactyou'] = '{$a} wil graag contact met je opnemen';
 $string['viewfullnotification'] = 'Bekijk het volledige bericht';
 $string['viewmessageswith'] = 'Bekijk berichten met {$a}';

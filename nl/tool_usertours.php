@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'nl', version '3.8'.
+ * Strings for component 'tool_usertours', language 'nl', version '3.11'.
  *
  * @package     tool_usertours
  * @category    string
@@ -63,12 +63,20 @@ $string['event_tour_ended'] = 'Rondleiding beëindigd';
 $string['event_tour_reset'] = 'Rondleiding terug instellen';
 $string['event_tour_started'] = 'Rondleiding gestart';
 $string['exporttour'] = 'Rondleiding exporteren';
+$string['filter_accessdate'] = 'Toegangsdatum';
+$string['filter_accessdate_enabled'] = 'Filter voor toegangsdatum inschakelen';
+$string['filter_accessdate_enabled_help'] = 'Laat de tour alleen zien aan nieuwe gebruikers of gebruikers die de site onlangs hebben bezocht.';
 $string['filter_category'] = 'Categorie';
 $string['filter_category_help'] = 'Toon de rondleiding op een pagina die geassocieerd is met een cursus binnen de geselecteerde categorie.';
 $string['filter_course'] = 'Cursussen';
 $string['filter_course_help'] = 'Toon de rondleiding op een pagina die geassocieerd is met de geselecteerde cursus.';
 $string['filter_courseformat'] = 'Cursusindeling';
 $string['filter_courseformat_help'] = 'Toon de rondleiding op een pagina die geassocieerd is met een cursus die de geselecteerde cursusindeling gebruikt.';
+$string['filter_cssselector'] = 'CSS-selector';
+$string['filter_cssselector_help'] = 'Geef de tour alleen weer als de opgegeven CSS-selector op de pagina is gevonden.';
+$string['filter_date_account_creation'] = 'Aanmaakdatum van gebruikersaccount binnen';
+$string['filter_date_first_login'] = 'Eerste toegangsdatum van de gebruiker binnen';
+$string['filter_date_last_login'] = 'Laatste toegangsdatum van gebruiker binnen';
 $string['filter_header'] = 'Rondleidingsfilters';
 $string['filter_help'] = 'Selecteer de voorwaarden waaronder de rondleiding getoond zal worden. Alle filters moeten overeenkomen om een rondleiding aan een gebruiker te kunnen laten zien.';
 $string['filter_role'] = 'Rol';
@@ -86,6 +94,7 @@ $string['name'] = 'Naam';
 $string['newstep'] = 'Nieuwe stap';
 $string['newtour'] = 'Maak een nieuwe rondleiding';
 $string['next'] = 'Volgende';
+$string['nextstep'] = 'Volgende';
 $string['options_heading'] = 'Opties';
 $string['orphan'] = 'Toon als het doel niet gevonden wordt';
 $string['orphan_help'] = 'Toon deze stap als het doel niet gevonden wordt op de pagina.';
@@ -106,6 +115,7 @@ $string['placement_help'] = 'Een stap kan boven, onder links of rechts van het d
 
 Als de stap niet past op een bepaalde pagina op de opgegeven plaats, dan zal die automatisch ergens anders weergegeven worden.';
 $string['pluginname'] = 'Rondleidingen';
+$string['previousstep'] = 'Vorige';
 $string['privacy:metadata:preference:completed'] = 'Het tijdstip waarop een gebruiker laatst een gebruikersrondleiding voltooide.';
 $string['privacy:metadata:preference:requested'] = 'Het tijdstip waarop een gebruiker laatst manueel op een gebruikersrondleiding vroeg';
 $string['privacy:request:preference:completed'] = 'Je hebt de "{$a->name}" gebruikersrondleiding als voltooid gemarkeerd op {$a->time}';
@@ -206,6 +216,16 @@ $string['tour4_title_icon'] = 'Berichten';
 $string['tour4_title_messaging'] = 'Nieuwe berichteninterface';
 $string['tour4_title_settings'] = 'Instellingen berichten';
 $string['tour4_title_starred'] = 'Met ster';
+$string['tour_activityinfo_activity_student_content'] = 'Data van activiteiten en de voorwaarden om de activiteiten te voltooien, worden op de cursuspagina getoond.';
+$string['tour_activityinfo_activity_student_title'] = 'Nieuw: Activiteitsinformatie';
+$string['tour_activityinfo_activity_teacher_content'] = 'Data en voltooiingsvoorwaarden van activiteiten worden nu aan leerlingen getoond op iedere activiteitenpagina (en optioneel op de cursuspagina).
+
+Voor activiteiten die leerlingen manueel kunnen voltooien, wordt een \'Markeer als voltooid\' knop getoond op de activiteitenpagina.';
+$string['tour_activityinfo_activity_teacher_title'] = 'Nieuw: Activiteitsinformatie';
+$string['tour_activityinfo_course_student_content'] = 'Data van activiteiten en/of de voorwaarden om de activiteiten te voltooien, worden op de cursuspagina getoond.';
+$string['tour_activityinfo_course_student_title'] = 'Nieuw: Activiteitsinformatie';
+$string['tour_activityinfo_course_teacher_content'] = 'De nieuwe cursusinstellingen \'Toon voltooiingsvoorwaarden\' en \'Toon data van activiteiten\' stellen je in staat te kiezen of voltooiingsvoorwaarden (indien ingesteld) en/of data van activiteiten op de cursuspagina aan leerlingen worden getoond.';
+$string['tour_activityinfo_course_teacher_title'] = 'Nieuw: Activiteitsinformatie';
 $string['tour_final_step_content'] = 'Dit is het einde van je rondleiding. Je zult dit niet meer zien, tenzij je opnieuw start via de link onderaan de pagina.';
 $string['tour_final_step_title'] = 'Einde van de rondleiding';
 $string['tour_resetforall'] = 'De status van de rondleiding is teruggezet. Ze zal opnieuw getoond worden aan alle gebruikers.';

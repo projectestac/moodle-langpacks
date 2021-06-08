@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_mnet', language 'pt', version '3.8'.
+ * Strings for component 'auth_mnet', language 'pt', version '3.11'.
  *
  * @package     auth_mnet
  * @category    string
@@ -71,7 +71,7 @@ $string['privacy:metadata:mnet_external:policyagreed'] = 'A marca para determina
 $string['privacy:metadata:mnet_external:skype'] = 'O identificador Skype do utilizador';
 $string['privacy:metadata:mnet_external:suspended'] = 'A marca para exibir se o utilizador foi suspenso deste sistema.';
 $string['privacy:metadata:mnet_external:timezone'] = 'O fuso horário do utilizador';
-$string['privacy:metadata:mnet_external:trackforums'] = 'A preferência por fóruns e sinalização de mensagens não lidas.';
+$string['privacy:metadata:mnet_external:trackforums'] = 'A preferência para fóruns e sinalização de mensagens não lidas.';
 $string['privacy:metadata:mnet_external:trustbitmask'] = 'Máscara de bits de confiança';
 $string['privacy:metadata:mnet_external:url'] = 'O URL relacionado com este utilizador.';
 $string['privacy:metadata:mnet_external:username'] = 'O nome de utilizador para este utilizador.';

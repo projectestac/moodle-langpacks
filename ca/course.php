@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'course', language 'ca', version '3.8'.
+ * Strings for component 'course', language 'ca', version '3.11'.
  *
  * @package     course
  * @category    string

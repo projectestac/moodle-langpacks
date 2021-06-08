@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'it', version '3.8'.
+ * Strings for component 'repository', language 'it', version '3.11'.
  *
  * @package     repository
  * @category    string
@@ -57,9 +57,10 @@ $string['cannotdownload'] = 'Non è possibile scaricare il file';
 $string['cannotdownloaddir'] = 'Non è possibile scaricare il folder';
 $string['cannotinitplugin'] = 'La chiamata plugin_init non è andata a buon fine';
 $string['cannotunzipcontentunreadable'] = 'Non è possibile decomprimere il file poiché non è stato possibile leggere il contenuto.';
+$string['cannotunzipextractfileerror'] = 'Non è possibile decomprimere il file poiché alcuni file al suo interno non sono leggibili.';
 $string['cannotunzipquotaexceeded'] = 'Non è possibile decomprimere il file poiché supererebbero la dimensione massima di questa area bozze.';
 $string['choosealink'] = 'Scegli link...';
-$string['chooselicense'] = 'Tipo di licenza';
+$string['chooselicense'] = 'Seleziona la licenza';
 $string['cleancache'] = 'Elimina i miei file dalla cache';
 $string['close'] = 'Chiudi';
 $string['commonrepositorysettings'] = 'Impostazioni comuni repository';
@@ -74,8 +75,9 @@ Se scegli "Prosegui e scarica", i file esterni collegati saranno copiati in Mood
 $string['confirmdeletefile'] = 'Sei sicuro di eliminare questo file?';
 $string['confirmdeletefilewithhref'] = 'Sei sicuro di voler eliminare questo file? Sono presenti {$a} alias/scorciatoie che utilizzano il file. Proseguendo, gli alias saranno convertiti in copie del file.';
 $string['confirmdeletefolder'] = 'Sei sicuro di voler eliminare questa cartella? Saranno eliminati anche i file e le cartelle ivi contenute.';
+$string['confirmdeleteselectedfile'] = 'Sei sicuro di voler eliminare i file selezionati?';
 $string['confirmremove'] = 'Sei sicuro di voler eliminare questo repository plugin, le sue opzioni e <strong style=color:red>tutte le sue istanze</strong> - {$a}? Se scegli "Prosegui e scarica", i file esterni collegati saranno copiati in Moodle. Tieni presente che il processo può durare molto tempo.';
-$string['confirmrenamefile'] = 'Sei sicuro di voler rinominare/spostare questo file? Sono presenti {$a} alias/scorciatoie che utilizzano il file. Proseguendo, gli alias saranno convertiti in copie del file.';
+$string['confirmrenamefile'] = 'Sei sicuro di voler rinominare/spostare questo file?';
 $string['confirmrenamefolder'] = 'Sei sicuro di voler rinominare/spostare questa cartella? Tutti gli alias/scorciatoie collegati ai file contenuti nella cartella saranno convertiti in copie dei file.';
 $string['continueuninstall'] = 'Prosegui';
 $string['continueuninstallanddownload'] = 'Prosegui e scarica';
@@ -164,7 +166,7 @@ $string['logout'] = 'Logout';
 $string['lostsource'] = 'Errore. Manca il sorgente. {$a}';
 $string['makefilecontrolledlink'] = 'Crea un link al file sotto controllo';
 $string['makefileinternal'] = 'Copia il file';
-$string['makefilelink'] = 'Collega direttamente il file';
+$string['makefilelink'] = 'Collega il file esterno';
 $string['makefilereference'] = 'Crea un alias/scorciatoia al file';
 $string['manage'] = 'Gestione repository';
 $string['manageinstances'] = 'Gestione istanze';
@@ -177,6 +179,8 @@ $string['newfoldername'] = 'Nuovo nome cartella';
 $string['noenter'] = 'Non è stato inserito niente';
 $string['nofilesattached'] = 'Non sono presenti file allegati';
 $string['nofilesavailable'] = 'Non sono presenti file';
+$string['nofilesselected'] = 'Nessun file selezionato';
+$string['nolicenses'] = 'Non ci sono licenze disponibili';
 $string['nomorefiles'] = 'Non sono consentiti altri allegati';
 $string['nopathselected'] = 'Il percorso di destinazione non è stato specificato. (Doppio click sul nodo per selezionarlo)';
 $string['nopermissiontoaccess'] = 'Non ci sono privilegi d\'accesso al repository';

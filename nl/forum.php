@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'nl', version '3.8'.
+ * Strings for component 'forum', language 'nl', version '3.11'.
  *
  * @package     forum
  * @category    string
@@ -25,8 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['actionsforgraderinterface'] = 'Acties voor de beoordelingsinterface';
+$string['actionsforgraderinterface'] = 'Acties voor de beoordeel-interface';
 $string['actionsforpost'] = 'Acties voor bericht';
+$string['activitydate:due'] = 'Tegen:';
 $string['activityoverview'] = 'Er zijn nieuwe forumberichten';
 $string['addanewdiscussion'] = 'Voeg een nieuw discussieonderwerp toe';
 $string['addanewquestion'] = 'Voeg een nieuwe vraag toe';
@@ -106,7 +107,10 @@ $string['clicktounfavourite'] = 'Jij hebt deze discussie als favoriet gemarkeerd
 $string['clicktounlockdiscussion'] = 'Klik om deze discussie te ontgrendelen';
 $string['clicktounsubscribe'] = 'Je bent ingeschreven op deze discussie. Klik om uit te schrijven.';
 $string['close'] = 'Sluiten';
-$string['closegrader'] = 'Beoordeling sluiten';
+$string['closegrader'] = 'Beoordeler sluiten';
+$string['completiondetail:discussions'] = 'Start discussies: {$a}';
+$string['completiondetail:posts'] = 'Maak forumberichten: {$a}';
+$string['completiondetail:replies'] = 'Post antwoorden: {$a}';
 $string['completiondiscussions'] = 'Leerling moet discussies starten:';
 $string['completiondiscussionsdesc'] = 'Leerling moet minstens {$a} discussie(s) maken';
 $string['completiondiscussionsgroup'] = 'Discussies vereist';
@@ -356,13 +360,14 @@ $string['grade_forum_name'] = 'Hele forum';
 $string['grade_forum_title'] = 'Cijfer';
 $string['grade_rating_name'] = 'Beoordeling';
 $string['graded'] = 'Beoordeeld';
+$string['gradedby'] = 'Beoordeeld door';
 $string['gradeforrating'] = 'Cijfer voor beoordeling: {$a->str_long_grade}';
 $string['gradeforratinghidden'] = 'Cijfer voor beoordeling verborgen';
 $string['gradeforwholeforum'] = 'Cijfer voor forum: {$a->str_long_grade}';
 $string['gradeforwholeforumhidden'] = 'Cijfer voor forum verborgen';
 $string['gradeitem:forum'] = 'Forum';
-$string['gradeitemnameforrating'] = 'Beoordelingscijfer voor {$a->name}';
-$string['gradeitemnameforwholeforum'] = 'Volledig forumcijfer voor {$a->name}';
+$string['gradeitemnameforrating'] = 'Beoordeling voor {$a->name}';
+$string['gradeitemnameforwholeforum'] = 'Volledige forumbeoordeling voor {$a->name}';
 $string['grades:gradesavedfor'] = 'Cijfer bewaard voor  {$a->fullname}';
 $string['grades:gradesavefailed'] = 'Kon cijfer voor {$a->fullname} niet bewaren: {$a->error}';
 $string['gradeusers'] = 'Beoordeel gebruikers';
@@ -404,7 +409,7 @@ Gebruikers met de mogelijkheid om te antwoorden op gesloten discussies kunnen ee
 $string['locked'] = 'Vergrendeld';
 $string['lockupdated'] = 'De vergrendelingsoptie is bijgewerkt.';
 $string['longpost'] = 'Lang bericht';
-$string['mailnow'] = 'Stuur e-mail onmiddellijk';
+$string['mailnow'] = 'Verstuur meldingen over dit forumbericht zonder vertraging voor bewerken';
 $string['managesubscriptionsoff'] = 'Beëindig het beheren van inschrijvingen';
 $string['managesubscriptionson'] = 'Beheer abonnementen';
 $string['manydiscussions'] = 'Discussies per pagina';
@@ -463,7 +468,7 @@ $string['more'] = 'meer';
 $string['movedmarker'] = '(Verplaatst)';
 $string['movethisdiscussionlabel'] = 'Verplaats de huidige discussie naar het opgegeven forum';
 $string['movethisdiscussionto'] = 'Verplaats deze discussie naar ...';
-$string['mustprovidediscussionorpost'] = 'You moet ofwel een discussie ID of een bericht ID geven om te exporteren';
+$string['mustprovidediscussionorpost'] = 'Je moet ofwel een discussie ID of een bericht ID geven om te exporteren';
 $string['myprofileotherdis'] = 'Forumdiscussies';
 $string['myprofileowndis'] = 'Mijn forumdiscussies';
 $string['myprofileownpost'] = 'Mijn forumberichten';

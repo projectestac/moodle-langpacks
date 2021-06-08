@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'nl', version '3.8'.
+ * Strings for component 'question', language 'nl', version '3.11'.
  *
  * @package     question
  * @category    string
@@ -86,7 +86,7 @@ $string['categorynamewithcount'] = '{$a->name} ({$a->questioncount})';
 $string['categorynamewithidnumber'] = '{$a->name} [{$a->idnumber}]';
 $string['categorynamewithidnumberandcount'] = '{$a->name} [{$a->idnumber}] ({$a->questioncount})';
 $string['changeoptions'] = 'Wijzig opties';
-$string['changepublishstatuscat'] = 'De instelling voor het delen van <a href="{$a->caturl}">categorie "{$a->name}"</a> in cursus "{$a->coursename}" zal gewijzigd worden van <strong>{$a->changefrom} naar {$a->changeto}</strong>.';
+$string['changepublishstatuscat'] = 'De status voor het delen van <a href="{$a->caturl}">categorie "{$a->name}"</a> in cursus "{$a->coursename}" zal gewijzigd worden van {$a->changefrom} naar {$a->changeto}.';
 $string['check'] = 'Controleer';
 $string['chooseqtypetoadd'] = 'Kies een vraagtype om toe te voegen';
 $string['clearwrongparts'] = 'Verwijder de foute antwoorden';
@@ -384,7 +384,7 @@ $string['questionpreviewdefaults'] = 'Standaardinstellingen vraagvoorbeeld';
 $string['questionpreviewdefaults_desc'] = 'Deze standaardwaarden worden gebruikt wanneer een gebruiker vragen bekijkt in de vragenpool. Wanneer een gebruiker een vraag bekeken heeft, worden deze instellingen bewaard als persoonlijke gebruikersvoorkeuren.';
 $string['questions'] = 'Vragen';
 $string['questionsaveerror'] = 'Fouten opgetreden tijdens het bewaren van de vraag - ({$a})';
-$string['questionsinuse'] = '(* Vragen, gemerkt met een asterisk zijn al in gebruik in sommige testen. Deze vragen zullen niet uit de testen gewist worden, enkel uit de categorielijst.)';
+$string['questionsinuse'] = '(* Vragen, gemerkt met een asterisk zijn al in gebruik, bijvoorbeeld in een test. Daarom zullen deze vragen niet verwijderd worden, enkel verborgen.)';
 $string['questionsmovedto'] = 'De nog gebruikte vragen zijn verplaatst naar "{$a}" in de bovenliggende cursuscategorie.';
 $string['questionsrescuedfrom'] = 'Vragen bewaard vanuit context {$a}.';
 $string['questionsrescuedfrominfo'] = 'Deze vragen (waarvan sommigen verborgen kunnen zijn) werden bewaard wanneer context {$a} is verwijderd omdat ze nog gebruikt worden door sommige testen of andere activiteiten.';
