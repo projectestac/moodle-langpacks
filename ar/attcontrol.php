@@ -51,5 +51,6 @@ $string['statusdesc7'] = 'وصف الحالة 7';
 $string['statusdesc8'] = 'وصف الحالة 8';
 $string['student'] = 'الطالب';
 $string['studentid'] = 'مُعرَّف الطالب';
+$string['tablerenamefailed'] = 'فشلت إعادة تسمية جدول attforblock القديم إلى تسمية attendance';
 $string['thiscourse'] = 'هذا المقرر الدراسي';
 $string['time'] = 'الوقت';

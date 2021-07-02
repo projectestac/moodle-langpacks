@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addfiletypes'] = 'Adicionar um novo tipo de ficheiro';
 $string['corestring'] = 'String de idioma alternativa';
-$string['corestring_help'] = 'Esta configuração pode ser usada para selecionar uma string de idioma diferente a partir do ficheiro de idioma mimetypes.php. Geralmente deve ser deixada em branco. Para os tipos personalizados, use o campo de descrição.';
+$string['corestring_help'] = 'Esta configuração pode ser usada para selecionar uma string de idioma diferente a partir do ficheiro de idioma mimetypes.php. Geralmente deve ficar em branco. Para os tipos personalizados, use o campo de descrição.';
 $string['defaulticon'] = 'Ícone predefinido para o tipo MIME';
 $string['defaulticon_help'] = 'Caso existam múltiplas extensões de ficheiros do tipo MIME, selecione esta opção para uma das extensões de forma a que este ícone possa vir a ser utilizado para ficheiros do tipo MIME.';
 $string['delete_confirmation'] = 'Tem a certeza absoluta que pretende eliminar \'<strong>{$a}</strong>\'?';
@@ -46,7 +46,7 @@ $string['descriptiontype_help'] = 'Existem três formas possíveis de especifica
 $string['descriptiontype_lang'] = 'String de idioma alternativa (a partir de mimetypes.php)';
 $string['displaydescription'] = 'Descrição';
 $string['editfiletypes'] = 'Editar um tipo de ficheiro já existente';
-$string['emptylist'] = 'Não existem tipos de ficheiros definidos.';
+$string['emptylist'] = 'Não existem tipos de ficheiro definidos.';
 $string['error_addentry'] = 'A extensão do tipo de ficheiro, descrição, <i>MIME type</i> e o ícone não devem conter espaço nem ponto-e-vírgula.';
 $string['error_defaulticon'] = 'Outra extensão do ficheiro com o mesmo <i>MIME type</i> já está marcada como o ícone padrão.';
 $string['error_extension'] = 'O tipo de extensão do ficheiro <strong>{$a}</strong> já existe ou é inválido. As extensões de ficheiros devem ser únicas e não podem conter caracteres especiais.';

@@ -509,6 +509,8 @@ $string['doctonewwindow'] = 'Obre en una finestra nova';
 $string['doesnotfit'] = 'Paràmetres de visualització del correu-e';
 $string['doesnotfitdetail'] = 'Paràmetres de visualització del correu electrònic que surt de Moodle.';
 $string['download'] = 'Baixa';
+$string['downloadcoursecontentallowed'] = 'Característica de baixada de contingut del curs disponible';
+$string['downloadcoursecontentallowed_desc'] = 'Estableix si la característica de baixada del contingut del curs està disponible o no per als cursos. Quan estigui disponible, es poden activar/desactivar les baixades de contingut del curs mitjançant l\'opció «Habilita la baixada del contingut del curs» al menú d\'edició del curs (el valor predeterminat es pot establir a <a href={$a} target="_blank"> Paràmetres per defecte del curs</a>).';
 $string['durationunits'] = 'unitats de durada';
 $string['edithelpdocs'] = 'Edita documents d\'ajuda';
 $string['editlang'] = '<b>Edita</b>';
@@ -763,6 +765,8 @@ Si això no és el que voleu, assegureu-vos d\'actualitzar a partir d\'una branc
 $string['maxbytes'] = 'Mida màxima de fitxer penjat';
 $string['maxconsecutiveidentchars'] = 'Caràcters consecutius idèntics';
 $string['maxeditingtime'] = 'Límit de temps per editar missatges';
+$string['maxsizeperdownloadcoursefile'] = 'Mida màxima per fitxer';
+$string['maxsizeperdownloadcoursefile_desc'] = 'La mida màxima de cada fitxer en baixar el contingut del curs. Els fitxers que superin aquesta mida s\'ometran de la baixada.';
 $string['maxtimelimit'] = 'Límit màxim de temps';
 $string['maxtimelimit_desc'] = 'Per restringir el temps màxim d\'execució de PHP que Moodle permetrà sense que es visualitzi cap sortida, introduïu aquí un valor en segons. 0 significa que s\'utilitzen les restriccions per defecte de Moodle. Si disposeu d\'un servidor amb el seu propi límit de temps, definiu un valor més baix per rebre els errors de PHP en els registres. No s\'aplica als scripts CLI.';
 $string['maxusersperpage'] = 'Nombre màxim d\'usuaris per pàgina';

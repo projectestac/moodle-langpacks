@@ -76,6 +76,7 @@ $string['modulename_help'] = 'هذه الوحدة تسمح بالتوليد ال
 $string['modulenameplural'] = 'الشهادات المخصصة';
 $string['mycertificates'] = 'شهاداتي';
 $string['mycertificatesdescription'] = 'تلك هي الشهادات التي منحتها إما عبر البريد الالكتروني أو التنزيل اليدوي.';
+$string['name'] = 'الاسم';
 $string['nocustomcerts'] = 'لا توجد شهادات في هذا المساق';
 $string['page'] = 'صفحة {$a}';
 $string['pluginadministration'] = 'إدارة الشهادة المخصصة';

@@ -43,6 +43,7 @@ $string['makepage'] = 'إنشاء صفحة جديدة';
 $string['missingpages'] = 'الصفحات التي بلا محتوى';
 $string['mypages'] = 'صفحاتي';
 $string['mypages_empty'] = 'لم تقم بإنشاء أي صفحات.';
+$string['name'] = 'الاسم';
 $string['newpages'] = 'إصدارات الصفحة الجديدة';
 $string['newpagetitle'] = 'عنوان الصفحة الجديدة';
 $string['nocontent'] = 'ليس هناك محتوى لهذه الصفحة';

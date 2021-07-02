@@ -37,6 +37,7 @@ $string['firstattempt'] = 'المحاولة الأولى';
 $string['interfaceoptionsgrp'] = 'واجهة المستخدم';
 $string['modulename'] = 'جيوجبرا';
 $string['modulenameplural'] = 'جيوجبرا';
+$string['name'] = 'الاسم';
 $string['nomoreattempts'] = 'لم تبقَ أي محاولات لهذا النشاط';
 $string['pluginname'] = 'جيوجبرا';
 $string['privacy:metadata:geogebra_attempts:userid'] = 'مُعرَّف المستخدم المجيب على نشاط geogebra هذا';

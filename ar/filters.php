@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['actfilterhdr'] = 'المنقحات المفعلة';
+$string['actfilterhdr'] = 'المرشحات المفعلة';
 $string['addfilter'] = 'إضافة المرشح';
 $string['anycategory'] = 'أي تصنيف';
 $string['anycourse'] = 'أي مقرر دراسي';

@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['activitydate:hasopened'] = 'Geöffnet:';
+$string['activitydate:willclose'] = 'Schließt:';
+$string['activitydate:willopen'] = 'Öffnet:';
 $string['add'] = 'Hinzufügen';
 $string['add_group'] = 'Gruppe hinzufügen';
 $string['add_grouping'] = 'Gruppierung hinzufügen';

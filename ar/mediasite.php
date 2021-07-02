@@ -39,6 +39,7 @@ $string['nosites'] = 'ليست هناك مواقع مهيئة.';
 $string['openaspopup'] = 'إفتح المحتوى بنافذة جديدة';
 $string['openaspopup_my_mediasite'] = 'إفتح المحتوى بنافذة جديدة';
 $string['openpopup_integration_catalog'] = 'إفتح المحتوى بنافذة جديدة';
+$string['privacy:metadata:group_member:userfirstname'] = 'اسمك الأول أُرسل إلى النظام البعيد للسماح بتجربة أفضل للمستخدم';
 $string['requiredsitename'] = 'اسم الموقع مطلوب حتماً';
 $string['resourcetitle'] = 'العنوان';
 $string['showdescription'] = 'عَرض الوصف في صفحة المساق';

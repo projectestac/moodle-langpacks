@@ -32,6 +32,7 @@ $string['deletetemplate'] = 'حذف القالب';
 $string['duplicatetemplate'] = 'تكرار القالب';
 $string['edittemplates'] = 'تحرير القوالب';
 $string['enabled_help'] = 'هذا سيسمح بالتسليم والتجميع التلقائي لملفات PDF من الطلاب. هو مصمم لاستعماله مقترنًا مع نوع التصحيحات في ملفات PDF.';
+$string['itemsettingmore'] = 'اسم الحقل (للحقول النصية) أو تنسيق التاريخ (مثل d/m/Y)';
 $string['missingfield'] = 'ينبغي عليك إملاء حقل \'{$a}\' في نموذج التسليم.';
 $string['newtemplate'] = 'قالب جديد';
 $string['notemplate'] = 'لا قالب';

@@ -54,6 +54,7 @@ $string['event_view_viewed'] = 'معاينة تم الوصول إليها';
 $string['events'] = 'الأحداث';
 $string['fielddefaultvalue'] = 'القيمة الافتراضية';
 $string['fielddescription'] = 'وصف الحقل';
+$string['fieldname'] = 'اسم الحقل';
 $string['fieldrequired'] = 'عليك إعطاء قيمة هنا.';
 $string['filemaxsize'] = 'الحجم الإجمالي للملفات المرفوعة';
 $string['filesmax'] = 'أقصى عدد من الملفات المرفوعة';

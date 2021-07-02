@@ -103,6 +103,7 @@ $string['issuerusein_help'] = 'Os serviços OAuth 2 podem ser usados em serviço
 $string['issueruseineverywhere'] = 'Página de autenticação e serviços internos';
 $string['issueruseininternalonly'] = 'Apenas serviços internos';
 $string['issueruseinloginonly'] = 'Apenas na página de autenticação';
+$string['linkedin_service'] = 'LinkedIn';
 $string['logindisplay'] = 'Mostrar na página de autenticação com';
 $string['loginissuer'] = 'Permitir autenticação';
 $string['microsoft_service'] = 'Microsoft';

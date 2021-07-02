@@ -31,5 +31,6 @@ $string['colourblackwhite'] = 'الخلفية: سوداء، النص: أبيض';
 $string['colourwhiteblack'] = 'الخلفية: بيضاء، النص: أسود';
 $string['copyrightyear'] = 'سنة الحقوق الفكرية';
 $string['public'] = 'مجال عمومي';
+$string['rename'] = 'الاسم';
 $string['size'] = 'حجم الصورة';
 $string['small'] = 'صغير: 240 × 180 كحد أقصى';

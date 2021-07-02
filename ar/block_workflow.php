@@ -46,6 +46,7 @@ $string['invalidmissingvalue'] = 'أمر غير صالح، القيمة مفقو
 $string['invalidobsoletesetting'] = 'تم تحديد قيمة قديمة غير صالحة. إعدادات القيمة هي 0 أو 1.';
 $string['invalidpermission'] = 'تم تحديد صلاحية خاطئة. الصلاحيات الصائبة هي وراثة، سماح، منع، حظر.';
 $string['invalidvisibilitysetting'] = 'تم تحديد خيار إظهار غير صحيح. الخيارات الصحيحة هي مرئي ومخفي. لقد اخترتَ {$a}.';
+$string['name'] = 'الاسم';
 $string['nomorestepsleft'] = 'لقد تم إكمال مخطط سير العمل.';
 $string['notallowedtodothisstep'] = 'ليست لديك صلاحية إجراء تغييرات لهذه الخطوة في الوقت الحاضر';
 $string['overviewtitle'] = 'استعراض سير عمل {$a->workflowname} في {$a->contexttitle}';

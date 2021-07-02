@@ -52,6 +52,7 @@ $string['cronunhidedayshelp'] = 'هذا هو عدد الأيام التي يُر
 $string['ignoredomaincase'] = 'تجاهل الحروف الكبيرة للمجال';
 $string['ignoredomaincasehelp'] = 'إجعل مقارنة المجال حساسة لحالة الأحرف.';
 $string['logtolocation'] = 'موضع مخرجات ملف الوقوعات (فارغ ليكون بلا تسجيل للوقوعات)';
+$string['nicknamehelp'] = 'إذا كان اسم العائلة متضمنًا لنصوص XML، استعمله بدلاً من الاسم الأول للاسم الصحيح.';
 $string['page_backfillenddates'] = 'إعادة إملاء تواريخ إنتهاء المقررات الدراسية';
 $string['whitelist'] = 'القائمة البيضاء';
 $string['xlstitledividerhelp'] = 'هذه هي الجملة التي سيتم وضعها بين كل جملة للأعضاء المعرفين في \'مكرر الاسم الكامل\'.

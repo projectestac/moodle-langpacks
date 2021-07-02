@@ -198,6 +198,7 @@ $string['newsectionname'] = 'Izen berria {$a} atalarentzat';
 $string['notanswered'] = 'Erantzun gabea';
 $string['notattempted'] = 'Saiatu gabea';
 $string['notcontributed'] = 'Ekarpenik gabe';
+$string['notopen'] = 'Ireki gabe';
 $string['notsubmitted'] = 'Bidali gabea';
 $string['numbersections'] = 'Gai kopurua';
 $string['off'] = 'Itzalita';

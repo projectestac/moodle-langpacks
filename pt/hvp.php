@@ -92,12 +92,12 @@ $string['contactpersondescription'] = 'O H5P entrará em contacto com a pessoa r
 $string['contentavailable'] = 'Normalmente, o seu conteúdo estará disponível no Hub dentro de um dia útil.';
 $string['contentchanged'] = 'Este conteúdo foi alterado desde que o usou pela última vez.';
 $string['contentcopied'] = 'O conteúdo foi copiado para a área de transferência';
-$string['contenthub:changesettings'] = 'Altere as configurações da conta <a href="/mod/hvp/content_hub_registration.php">aqui</a>';
+$string['contenthub:changesettings'] = 'Altere as configurações da conta <a href="{$a}">aqui</a>';
 $string['contenthub:licenseagreementdescription'] = 'Leia as condições do acordo antes de prosseguir com o';
 $string['contenthub:licenseagreementmaintext'] = 'AFAZER';
 $string['contenthub:licenseagreementtitle'] = 'Contrato de licença de utilizador final (EULA)';
 $string['contenthub:nopermissions'] = 'Não tem permissão para registar o site no Hub de conteúdos.';
-$string['contenthub:register'] = 'Registe uma conta no <a href="/mod/hvp/content_hub_registration.php">Hub H5P</a>';
+$string['contenthub:register'] = 'Registe uma conta no <a href="{$a}">Hub H5P</a>';
 $string['contenthub:settings:box'] = 'Conta do Hub de conteúdos';
 $string['contenthub:settings:heading'] = 'Configurações da conta no Hub H5P';
 $string['contenthubeditsharing'] = 'Editar informações da partilha';

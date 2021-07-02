@@ -54,3 +54,4 @@ $string['si'] = 'مُعرَّف الطالب';
 $string['student'] = 'الطالب';
 $string['student_transfer'] = 'مزامنة الطلاب';
 $string['tt'] = 'العنوان';
+$string['un'] = 'اسم المستخدم';

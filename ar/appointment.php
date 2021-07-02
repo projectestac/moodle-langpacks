@@ -118,6 +118,7 @@ $string['setting:defaultrequestsubjectdefault'] = 'طلب حجز الموعد: [
 $string['setting:defaultvalue'] = 'القيمة الافتراضية';
 $string['setting:oneemailperday_caption'] = 'رسالة واحدة في اليوم:';
 $string['setting:possiblevalues'] = 'قائمة القيم الممكنة';
+$string['shortname'] = '# الاسم المختصر';
 $string['status_partially_attended'] = 'حضور جزئي';
 $string['time'] = 'الوقت';
 $string['timecancelled'] = 'وقت الإلغاء';

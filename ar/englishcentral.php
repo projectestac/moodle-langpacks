@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activetime'] = 'وقت الفعالية';
+$string['activityname'] = 'اسم النشاط';
 $string['compositescore'] = 'الدرجة النهائية';
 $string['copyright'] = 'المصدر';
 $string['description'] = 'الوصف';

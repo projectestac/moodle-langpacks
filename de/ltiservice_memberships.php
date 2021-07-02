@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['allow'] = 'Service nutzen, um Mitgliedsinformationen aus Datenschutzgründen zurückzuholen';
 $string['ltiservice_memberships'] = 'IMS LTI Namen und Rollenbereitstellung';
-$string['ltiservice_memberships_help'] = 'Dem Tool ermöglichen Mitglederinformationen aus dem Kurs zurückzuholen. Dazu wird der IMS LTI Mitgliedschaftssevice verwendet. Datenschutzeinstellungen werden verwendet.';
+$string['ltiservice_memberships_help'] = 'Erlauben Sie dem Tool, die Informationen von Teilnehmer/innen aus dem Kurs mithilfe des IMS LTI Names and Role Provisioning Service abzurufen. Es gelten die Datenschutzeinstellungen. Bei Anfragen auf Kursebene basieren diese auf den Konfigurationseinstellungen des Tools. Wenn Sie solche Details immer senden möchten, delegieren Sie die Auswahl nicht an die Trainer/innen. Anfragen auf Link-Ebene verwenden immer die Datenschutzeinstellungen, die für den Link gelten.';
 $string['notallow'] = 'Diesen Service nicht nutzen';
 $string['pluginname'] = 'Webservice für IMS LTI Namen und Rollenbereitstellung';
 $string['privacy:metadata:email'] = 'E-Mail des Nutzers, der LTI-Consumer nutzte';

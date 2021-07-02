@@ -378,7 +378,7 @@ $string['noonlinesubmissions'] = 'Este trabalho não requer que submeta nada onl
 $string['noopen'] = 'Sem data de início';
 $string['nooverridedata'] = 'Tem de definir uma exceção em pelo menos uma opção da configuração do Trabalho.';
 $string['nosavebutnext'] = 'Seguinte';
-$string['nosubmission'] = 'Sem submissão';
+$string['nosubmission'] = 'Nenhuma submissão efetuada';
 $string['nosubmissionsacceptedafter'] = 'Não serão aceites submissões depois de';
 $string['noteam'] = 'Não está inscrito em nenhum grupo';
 $string['noteam_desc'] = 'Este trabalho requer submissão em grupos. Como não é membro de qualquer grupo, não é possível criar uma submissão. Por favor, contacte o seu professor para ser adicionado a um grupo.';
@@ -504,7 +504,7 @@ $string['status'] = 'Estado';
 $string['studentnotificationworkflowstateerror'] = 'O estado do processo de avaliação tem de ser "Lançada" para que os alunos sejam notificados.';
 $string['submission'] = 'Trabalho';
 $string['submissioncopiedhtml'] = '<p>Efetuou uma cópia da sua anterior submissão do trabalho na atividade \'<i>{$a->assignment}</i>\'.</p>
-<p>Pode ver o estado da <a href="{$a->url}">submissão do seu trabalho</a>.</p>';
+<p>Pode ver o <a href="{$a->url}">estado da submissão</a> do seu trabalho.</p>';
 $string['submissioncopiedsmall'] = 'Copiou a sua anterior submissão do trabalho na atividade {$a->assignment}';
 $string['submissioncopiedtext'] = 'Efetuou uma cópia da sua anterior submissão do trabalho na atividade \'{$a->assignment}\'.
 
@@ -543,7 +543,7 @@ Pode consultar o estado do seu trabalho em:
 $string['submissionsclosed'] = 'Submissões encerradas';
 $string['submissionsettings'] = 'Configurações da submissão do trabalho';
 $string['submissionslocked'] = 'Este trabalho não está a aceitar submissões';
-$string['submissionslockedshort'] = 'Não é permitido alterar os trabalhos';
+$string['submissionslockedshort'] = 'Não é permitido alterar a submissão dos trabalhos';
 $string['submissionsnotgraded'] = '{$a} trabalhos não avaliados';
 $string['submissionstatement'] = 'Declaração de submissão';
 $string['submissionstatement_help'] = 'Declaração que o aluno tem de aceitar para enviar o seu trabalho.';

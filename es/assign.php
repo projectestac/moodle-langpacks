@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['activitydate:submissionsdue'] = 'Presentaciones pendientes:';
+$string['activitydate:submissionsopen'] = 'Presentaciones abiertas:';
+$string['activitydate:submissionsopened'] = 'Envíos abiertos:';
 $string['activityoverview'] = 'Hay tareas que requieren atención';
 $string['addattempt'] = 'Permitir otro intento';
 $string['addnewattempt'] = 'Añadir una nueva entrega';
@@ -87,7 +90,11 @@ $string['attemptheading'] = 'Intento {$a->attemptnumber}: {$a->submissionsummary
 $string['attempthistory'] = 'Intentos previos';
 $string['attemptnumber'] = 'Número del intento';
 $string['attemptreopenmethod'] = 'Permitir reapertura';
-$string['attemptreopenmethod_help'] = 'Determina cómo se configura la reapertura de intentos de entrega de la tarea de los estudiantes. Las opciones disponibles son las siguientes: <ul> <li> Nunca - La tarea no se puede modificar. </li> <li> Manual - El profesor puede permitir manualmente el reenvío </li> <li> Automática hasta aprobar - el envío del estudiante se vuelve a abrir automáticamente hasta que alcance la calificación para aprobar establecida en el libro de calificaciones para esta tarea.';
+$string['attemptreopenmethod_help'] = 'Determina cómo se reabren los intentos de envío de los estudiantes. Las opciones disponibles son:
+
+* Nunca: el envío no se puede volver a abrir.
+* Manualmente: un profesor puede volver a abrir el envío.
+* Automáticamente hasta aprobar: el envío se reabre automáticamente hasta que el estudiante alcanza la calificación para aprobar establecida en el libro de calificaciones para esta tarea.';
 $string['attemptreopenmethod_manual'] = 'Manual';
 $string['attemptreopenmethod_none'] = 'Nunca';
 $string['attemptreopenmethod_untilpass'] = 'Automática hasta aprobar';
@@ -109,9 +116,10 @@ $string['batchoperationsdescription'] = 'Con las seleccionadas...';
 $string['batchoperationunlock'] = 'desbloquear entregas';
 $string['batchsetallocatedmarker'] = 'Establecer evaluador asignado para {$a} usuario(s) seleccionado(s)';
 $string['batchsetmarkingworkflowstateforusers'] = 'Establecer estado del workflow (flujo de trabajo) de calificaciones para {$a} usuario(s) seleccionado(s)';
-$string['blindmarking'] = 'Ocultar identidad';
-$string['blindmarking_help'] = 'La ocultación de identidad al calificar oculta a los evaluadores la identidad de los estudiantes. En el momento en que exista alguna entrega o calificación en la tarea, esta opción se bloqueará y no podrá ser cambiada.';
-$string['blindmarkingenabledwarning'] = 'En esta actividad está activada la ocultación de identidad al calificar.';
+$string['blindmarking'] = 'Envíos anónimos';
+$string['blindmarking_help'] = 'Los envíos anónimos ocultan la identidad de los estudiantes de los marcadores. La configuración de envío anónimo se bloqueará una vez que se haya realizado un envío o calificación en relación con esta tarea.';
+$string['blindmarkingenabledwarning'] = 'Los envíos anónimos están habilitados para esta actividad. Las calificaciones no se agregarán al libro de calificaciones hasta que se revelen las identidades de los estudiantes a través del menú de acciones de calificación.';
+$string['cachedef_overrides'] = 'Información de anulación de usuarios y grupos';
 $string['calendardue'] = 'Vencimiento de {$a}';
 $string['calendargradingdue'] = '{$a} se debe calificar';
 $string['changefilters'] = 'Cambiar filtros';
@@ -154,14 +162,14 @@ $string['description'] = 'Descripción';
 $string['disabled'] = 'Desactivado';
 $string['downloadall'] = 'Descargar todas las entregas';
 $string['downloadasfolders'] = 'Descargar envíos en carpetas';
-$string['downloadasfolders_help'] = 'Si la entrega de la tarea consiste en más de un fichero, es posible descargar las entregas en carpetas. Cada entrega es colocada en una carpeta separada, manteniendo la estructura de todas las subcarpetas y los nombres originales de los archivos.';
+$string['downloadasfolders_help'] = 'Los envíos de tareas se pueden descargar en carpetas. Luego, cada envío se coloca en una carpeta separada, con la estructura de carpetas que se mantiene para las subcarpetas y no se cambia el nombre de los archivos.';
 $string['downloadselectedsubmissions'] = 'Descargar los envíos seleccionados';
 $string['duedate'] = 'Fecha de entrega';
 $string['duedate_help'] = 'Esta es la fecha cuando se debería de entregar la tarea. Los envíos seguirán siendo permitidos aún después de esta fecha de entrega, pero cualquier envío mandado después de esta fecha será marcado como \'retrasado\'. Configure una fecha límite  para evitar envíos después de una cierta fecha.';
 $string['duedatecolon'] = 'Fecha de vencimiento: {$a}';
 $string['duedateno'] = 'No hay fecha de entrega';
 $string['duedatereached'] = 'La fecha de vencimiento de esta tarea ya ha pasado';
-$string['duedatevalidation'] = 'La fecha de vencimiento debe ser posterior a la fecha de inicio de las entregas.';
+$string['duedatevalidation'] = 'La fecha de vencimiento no puede ser anterior a la fecha permitida para las entregas.';
 $string['duplicateoverride'] = 'Anular el duplicado';
 $string['editaction'] = 'Acciones...';
 $string['editattemptfeedback'] = 'Edite la calificación y la retroalimentación para el intento número {$a}.';
@@ -170,7 +178,7 @@ $string['editingstatus'] = 'Edición de estado';
 $string['editonline'] = 'Editar online';
 $string['editoverride'] = 'Editar excepción';
 $string['editsubmission'] = 'Editar entrega';
-$string['editsubmission_help'] = 'Realizar cambios en la entrega';
+$string['editsubmission_help'] = 'Aún puede realizar cambios en su envío.';
 $string['editsubmissionother'] = 'Editar entrega para {$a}';
 $string['enabled'] = 'Habilitado';
 $string['errornosubmissions'] = 'No hay entregas que descargar';
@@ -233,6 +241,7 @@ $string['feedbacksettings'] = 'Ajustes de la retroalimentación';
 $string['feedbacktypes'] = 'Tipos de retroalimentación';
 $string['filesubmissions'] = 'Ficheros de entrega';
 $string['filter'] = 'Filtro';
+$string['filterdraft'] = 'Borrador';
 $string['filtergrantedextension'] = 'Plazo ampliado';
 $string['filternone'] = 'Sin filtro';
 $string['filternotsubmitted'] = 'No enviado';

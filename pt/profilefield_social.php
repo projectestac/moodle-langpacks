@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['aimid'] = 'ID do AIM';
-$string['icqnumber'] = 'Número de ICQ';
+$string['icqnumber'] = 'Número do ICQ';
 $string['invalidnetwork'] = 'Rede social inválida';
 $string['msnid'] = 'ID do MSN';
 $string['networkinuse'] = 'Rede social já foi adicionada';

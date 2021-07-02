@@ -32,6 +32,7 @@ $string['eventreportviewed'] = 'تقرير واجب تمت معاينته';
 $string['feedback'] = 'الإفادة';
 $string['feedbackcomments'] = 'تعليقات الإفادة';
 $string['feedbackfiles'] = 'ملفات الإفادة';
+$string['name'] = 'الاسم';
 $string['notallowed'] = 'ليست لديك صلاحية معاينة النشاط المحدد';
 $string['title'] = 'العنوان';
 $string['urkund'] = 'Urkund';

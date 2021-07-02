@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['courseoverview:view'] = 'Ver relatório resumo da disciplina';
 $string['pluginname'] = 'Resumo da disciplina';
-$string['privacy:metadata'] = 'O módulo Minhas disciplinas não armazena quaisquer dados pessoais.';
+$string['privacy:metadata'] = 'O módulo Resumo da disciplina não armazena quaisquer dados pessoais.';

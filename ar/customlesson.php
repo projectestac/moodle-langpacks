@@ -135,6 +135,7 @@ $string['shortanswer'] = 'إجابة قصيرة';
 $string['showanunansweredpage'] = 'إظهار صفحة غير المجاب عليها';
 $string['singleanswer'] = 'إجابة منفردة';
 $string['slideshowbgcolor'] = 'لون خلفية عرض الشرائح';
+$string['studentname'] = 'اسم {$a}';
 $string['teacherongoingwarning'] = 'يتم عرض الدرجة الحالية فقط للطلبة. سجل دخولك بمثابة طالب لفحص الدرجة الحالية.';
 $string['teachertimerwarning'] = 'المؤقت يعمل فقط إزاء الطلاب. إختبر المؤقت عبر تسجيل الدخول بصفة طالب.';
 $string['thatsthecorrectanswer'] = 'هذه هي الإجابة الصحيحة';

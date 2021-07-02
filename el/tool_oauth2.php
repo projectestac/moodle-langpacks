@@ -104,6 +104,7 @@ $string['issuerusein_help'] = 'Οι υπηρεσίες OAuth 2 μπορούν ν
 $string['issueruseineverywhere'] = 'Σελίδα σύνδεσης και εσωτερικές υπηρεσίες';
 $string['issueruseininternalonly'] = 'Μόνο εσωτερικές υπηρεσίες';
 $string['issueruseinloginonly'] = 'Μόνο σελίδα σύνδεσης';
+$string['linkedin_service'] = 'LinkedIn';
 $string['logindisplay'] = 'Εμφάνιση στη σελίδα σύνδεσης ως';
 $string['loginissuer'] = 'Να επιτρέπεται η σύνδεση';
 $string['microsoft_service'] = 'Microsoft';

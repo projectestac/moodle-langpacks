@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['anygroup'] = '(أيّ مجموعة)';
-$string['description'] = 'السماح فقط للطلاب الذين ينتمون إلى مجموعة محددة ، أو جميع المجموعات.';
+$string['description'] = 'السماح فقط للطلاب الذين ينتمون إلى مجموعة محددة، أو كل المجموعات.';
 $string['error_selectgroup'] = 'يجب عليك اختيار مجموعة.';
 $string['missing'] = '(مجموعة مفقودة)';
 $string['pluginname'] = 'التقييد حسب المجموعة';

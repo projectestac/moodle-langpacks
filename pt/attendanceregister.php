@@ -95,7 +95,7 @@ $string['modulename'] = 'Registo de Presenças';
 $string['modulename_help'] = 'O Registo de Presenças calcula o tempo que os utilizadores estiveram a trabalhar online nas disciplinas.<br />
 Opcionalmente, permite o registo de atividades offline dos utilizadores.<br />
 Dependendo do modo de registo, o Registo de Presenças pode monitorizar atividades numa só disciplina, em todas as disciplinas de uma categoria ou em todas as disciplinas "Meta-ligadas" à disciplina na qual o Registo de Presenças foi adicionado.<br />
-As sessões de trabalho online são calculadas através das entradas do registo gravadas pelo Moodle.<br />
+As sessões de trabalho online são calculadas através das entradas do registo guardadas pelo Moodle.<br />
 <b>As novas sessões online são adicionadas pelo Cron, com algum atraso, após o utilizador terminar sessão.</b>';
 $string['modulenameplural'] = 'Registos de Presenças';
 $string['myattendanceregisteraggregates'] = 'O meu registo de presença agrega valores';
@@ -142,8 +142,8 @@ $string['participants_attendance_report_viewed'] = 'Visualizado o relatório de 
 $string['pluginadministration'] = 'Administração do Registo de Presenças';
 $string['pluginname'] = 'Registo de Presenças';
 $string['prev_site_login'] = 'Penúltimo início de sessão no site';
-$string['recalc_already_pending'] = '(programado para a próxima execução do Cron)';
-$string['recalc_complete'] = 'O recalculo das sessões está concluído';
+$string['recalc_already_pending'] = '(agendado para a próxima execução do Cron)';
+$string['recalc_complete'] = 'Recalculo das sessões concluído com sucesso';
 $string['recalc_scheduled'] = 'O recalculo das sessões foi agendado. Será executado na próxima execução do Cron';
 $string['recalc_scheduled_on_next_cron'] = 'O recalculo das sessões está agendado para a próxima execução do Cron';
 $string['ref_course'] = 'Disciplina Ref.';
@@ -159,7 +159,7 @@ $string['select_a_course_if_any'] = '- Selecione uma disciplina (se alguma) -';
 $string['session_added_by_another_user'] = 'Adicionada por: {$a}';
 $string['sessions_grandtotal_duration'] = 'Tempo Total';
 $string['sessiontimeout'] = 'Tempo limite de sessão online';
-$string['sessiontimeout_help'] = '2O tempo limite de sessão é usado para estimar a duração da sessão online.<br />As sessões online terão pelo menos <b>metade</b> do tempo limite de sessão.<br />
+$string['sessiontimeout_help'] = 'O tempo limite de sessão é usado para estimar a duração da sessão online.<br />As sessões online terão pelo menos <b>metade</b> do tempo limite de sessão.<br />
 Tenha em atenção que, se o tempo limite da sessão for muito longo, o Registo tende a super-estimar a duração das sessões online.<br />Se for muito curto, sessões reais serão divididas em muitas sessões mais curtas.<br />
 <h4>Explicação longa</h4>
 As sessões de trabalho online são <b>estimadas</b> de acordo com as entradas no registo do utilizador nas disciplinas monitorizadas (ver <i>Modo de registo de presenças</i>).<br/>

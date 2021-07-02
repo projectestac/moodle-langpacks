@@ -159,7 +159,7 @@ $string['errorduringregrade'] = 'Frage {$a->qid} konnte nicht neu bewertet werde
 $string['errorfilecannotbecopied'] = 'Fehler: Datei {$a} kann nicht kopiert werden.';
 $string['errorfilecannotbemoved'] = 'Fehler: Datei {$a} kann nicht verschoben werden.';
 $string['errorfileschanged'] = 'Fehler: Dateien, die in Fragen verwendet werden, haben sich seit der letzten Anzeige geändert. ';
-$string['erroritemappearsmorethanoncewithdifferentweight'] = 'Frage ({$a}) erscheint mehrfach im Test mit unterschiedlichen Gewichtungen. Dies wird bei der Erstellung der Statistik nicht unterstützt und kann zu unzuverlässigen Auswertungen führen.';
+$string['erroritemappearsmorethanoncewithdifferentweight'] = 'Die Frage ({$a}) erscheint mehrfach im Test mit unterschiedlichen Gewichtungen. Dies wird für der Erstellung der Statistik nicht unterstützt und könnte zu unzuverlässigen Auswertungen führen.';
 $string['errormanualgradeoutofrange'] = 'Die Bewertung {$a->grade} für die Frage {$a->name} liegt nicht zwischen \'0\' und {$a->maxgrade}. Punkte und Kommentare wurde nicht gespeichert.';
 $string['errormovingquestions'] = 'Fehler beim Verschieben von Fragen mit Ids {$a}.';
 $string['errorpostprocess'] = 'Fehler beim Post-Processing';
@@ -389,9 +389,11 @@ $string['penaltyfactor_help'] = 'Diese Option legt fest, welcher Anteil der erre
 
 Der Wert sollte zwischen 0 und 1 liegen. Der Wert "1" bedeutet: Nur bei einer richtigen Antwort im ersten Versuch gibt es Punkte. Der Wert "0" bedeutet: Bei jedem Versuch – auch dem wiederholten – kann die volle Punktzahl erreicht werden. Der Wert "0,1" bedeutet: Beim zweiten Versuch werden für die richtige Antwort nur 90 % der maximal erreichbaren Punktzahl des ersten Versuchs gewertet.';
 $string['penaltyforeachincorrecttry'] = 'Abzug für jeden falschen Versuch';
-$string['penaltyforeachincorrecttry_help'] = 'Sofern der Test im Modus \'Mehrfachbeantwortung (mit Hinweisen)\' oder im Modus \'Mehrfachbeantwortung (mit Abzügen)\' durchgeführt wird, bei dem die Teilnehmer/innen mehrere Versuche zur richtigen Beantwortung haben, kontrolliert diese Option die Höhe des Abzugs für jeden falschen Versuch.
+$string['penaltyforeachincorrecttry_help'] = 'Sofern der Test im Modus \'Mehrfachbeantwortung (mit Hinweisen)\' oder im Modus \'Mehrfachbeantwortung (mit Abzügen)\' durchgeführt wird, bei dem die Teilnehmer/innen mehrere Versuche zur Beantwortung haben, steuert diese Option die Abzüge für jeden falschen Versuch.
 
-Der Abzug wird dabei als Prozentzahl zur erreichbaren Punktzahl angegeben: Gäbe es beispielsweise 3 Punkte und der Abzug wäre 0.3333333, würde eine richtige Antwort im ersten Versuch mit 3 Punkten gewertet, im zweiten Versuch mit 2 Punkten und im dritten Versuch nur noch mit einem Punkt.';
+Der Abzug ist ein Anteil der erreichbaren Punktzahl.  Wenn die Frage z.B. drei Punkte wert ist und der Abzug 0,3333333 beträgt, würde eine richtige Antwort im ersten Versuch mit 3 Punkten gewertet, im zweiten Versuch mit 2 Punkten und im dritten Versuch nur noch mit einem Punkt.
+
+Bei einigen mehrteiligen Fragen wird diese Bewertungslogik separat auf jeden Teil der Frage angewendet. Die Details hängen von der Art der Frage ab und können kompliziert sein, aber das Prinzip besteht darin, den Teilnehmer/innen ihr Wissen so fair wie möglich anzuerkennen.';
 $string['permissionedit'] = 'Diese Frage bearbeiten';
 $string['permissionmove'] = 'Diese Frage verschieben';
 $string['permissionsaveasnew'] = 'Diese Frage  als neue Frage speichern';

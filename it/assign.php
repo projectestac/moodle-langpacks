@@ -123,6 +123,7 @@ $string['clickexpandreviewpanel'] = 'Click per ingrandire il pannello di revisio
 $string['collapsegradepanel'] = 'Click per ridurre il pannello di revisione';
 $string['collapsereviewpanel'] = 'Riduci il pannello di revisione';
 $string['comment'] = 'Commento';
+$string['completiondetail:submit'] = 'Consegnare';
 $string['completionsubmit'] = 'Lo studente deve consegnare per completare l\'attività';
 $string['configshowrecentsubmissions'] = 'Consente a tutti di visualizzare la notifica delle consegne nei report dell\'attività recente.';
 $string['confirmbatchgradingoperation'] = 'Sei sicuro di eseguire {$a->operation} per {$a->count} studenti?';

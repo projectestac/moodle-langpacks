@@ -38,6 +38,7 @@ $string['addposterror'] = 'Συνέβη ένα σφάλμα κατά την πρ
 $string['addstdcat'] = 'εισαγωγή τυπικών κατηγοριών';
 $string['attachincluded'] = 'Συνημμένο;';
 $string['attachment'] = 'Συνημμένο';
+$string['autofillview'] = 'Προσθέστε αυτόματα όλα τα διαθέσιμα αντικείμενα σε αυτήν την προβολή';
 $string['awaiting'] = '($a awaiting)';
 $string['back'] = 'Πίσω';
 $string['back_to_desp'] = 'πίσω στο χαρτοφυλάκιο γλώσσας';

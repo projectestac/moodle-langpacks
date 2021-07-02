@@ -29,3 +29,4 @@ $string['addcohort'] = 'إضافة فوج جديد';
 $string['backtocohorts'] = 'عودة إلى الأفواج';
 $string['description'] = 'الوصف';
 $string['duplicateidnumber'] = 'فوج بنفس رقم المُعرَّف موجود مسبقاً';
+$string['name'] = 'الاسم';

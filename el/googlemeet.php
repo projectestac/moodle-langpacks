@@ -27,6 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['name'] = 'Όνομα';
 $string['or'] = 'ή';
+$string['play'] = 'Αναπαραγωγή';
+$string['pluginadministration'] = 'Google Meet™ για διαχείριση του Moodle';
+$string['pluginname'] = 'Google Meet™ για το Moodle';
+$string['privacy:metadata:googlemeet_notify_done:eventid'] = 'Το αναγνωριστικό συμβάντος';
 $string['privacy:metadata:googlemeet_notify_done:timesent'] = 'Η χρονοσήμανση που δείχνει πότε έλαβε ο χρήστης μια ειδοποίηση.';
 $string['privacy:metadata:googlemeet_notify_done:userid'] = 'Το αναγνωριστικό χρήστη';
 $string['recording'] = 'Εγγραφή';

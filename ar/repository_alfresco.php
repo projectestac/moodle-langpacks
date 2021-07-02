@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['notitle'] = 'بلا عنوان';
+$string['username'] = 'اسم المستخدم';

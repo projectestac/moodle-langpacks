@@ -104,6 +104,7 @@ $string['issuerusein_help'] = 'يمكن استعمال خدمات OAuth 2 في �
 $string['issueruseineverywhere'] = 'صفحة تسجيل الدخول والخدمات الداخلية';
 $string['issueruseininternalonly'] = 'الخدمات الداخلية فقط';
 $string['issueruseinloginonly'] = 'صفحة تسجيل الدخول فقط';
+$string['linkedin_service'] = 'LinkedIn';
 $string['logindisplay'] = 'العرض في صفحة تسجيل الدخول بمثابة';
 $string['loginissuer'] = 'السماح بتسجيل الدخول';
 $string['microsoft_service'] = 'مايكروسوفت';

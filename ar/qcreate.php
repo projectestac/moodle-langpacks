@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['activityname'] = 'اسم النشاط';
 $string['addmorerequireds'] = 'إضافة المزيد من أنوع الأسئلة المطلوبة';
 $string['completionquestions'] = 'على الطالب إنشاء:';
 $string['completionquestionsdesc'] = 'على الطالب إنشاء {$a} من الأسئلة على الأقل';
@@ -39,3 +40,5 @@ $string['saveallfeedback'] = 'حفظ كل إفاداتي';
 $string['saveallfeedbackandgrades'] = 'حفظ كل التقديرات والإفادات';
 $string['studentaccessheader'] = 'الوصول إلى سؤال الطالب';
 $string['studentshavedone'] = 'لقد أنشأ الطالب {$a} من الأسئلة.';
+$string['synchronizeqaccesstask'] = 'مزامنة إمكانيات الوصول إلى أسئلة الطلاب';
+$string['username'] = 'اسم المستخدم لمنشئ السؤال';

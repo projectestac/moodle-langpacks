@@ -39,6 +39,7 @@ $string['actiondelete'] = 'Διαγραφή υπάρχοντος ιστοτόπ�
 $string['actionedit'] = 'Τροποποίηση υπάρχοντος ιστοτόπου';
 $string['actiontblhder'] = 'Ενέργεια';
 $string['admin_settings_header'] = 'Σελίδα ρυθμίσεων';
+$string['advanced_header'] = 'Για προχωρημένους';
 $string['assignment_submission_enabled'] = 'Ενεργοποίηση ανάθεσης εργασίας';
 $string['assignment_submission_header'] = 'Υποβολή εργασίας';
 $string['catalog_link'] = 'Σύνδεσμος';

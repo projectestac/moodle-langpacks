@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['name'] = 'الاسم';
 $string['privacy:metadata'] = 'إن ملحق مستودع Poodll لا يخزن أي بيانات شخصية.';
 $string['unexpectedevent'] = 'تم الكشف عن حدث غير متوقع. يرجى الأخذ بالحسبان إبلاغ مطوري مودل بهذه المشكلة.';
 $string['whiteboard'] = 'سبورة Poodll';

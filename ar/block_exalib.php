@@ -30,6 +30,7 @@ $string['back'] = 'رجوع';
 $string['exalib:creator'] = 'إنشاء المحتوى وإدارة المحتوى الخاص به';
 $string['linktitle'] = 'عنوان الرابط';
 $string['maincat'] = 'التصنيف الرئيسي';
+$string['name'] = 'الاسم';
 $string['newentry'] = 'إضافة مُدخل جديد';
 $string['online'] = 'متصل بالإنترنت';
 $string['onlinefrom'] = 'متصل بالإنترنت منذ';

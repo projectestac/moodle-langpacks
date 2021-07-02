@@ -45,6 +45,7 @@ $string['conflict_no_overwrite'] = 'Keep the current section name and settings <
 $string['conflict_overwrite_title'] = 'Overwrite section name and settings to <strong>"{$a}"</strong>';
 $string['conflict_submit'] = 'Continue';
 $string['copy_section'] = 'Copy section';
+$string['copy_section_title'] = 'Copy selected section';
 $string['copyhere'] = 'Copy here';
 $string['define_required_capabilities'] = 'Please define the required capabilities';
 $string['delete_folder'] = 'and all it\'s content';
@@ -111,4 +112,5 @@ $string['sharing_cart_help'] = '<div>
             Which will be replaced with an input box if you click "Edit" icon.</p>
 </div>';
 $string['unexpectederror'] = 'An unexpected error occurred';
+$string['uninstalled_plugin_warning_title'] = 'This plugin is uninstalled. Trying to recover this without reinstalling the plugin: {$a} will cause errors. Restoration is disabled';
 $string['variouscourse'] = 'from various courses';

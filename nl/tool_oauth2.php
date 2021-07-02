@@ -103,6 +103,7 @@ $string['issuerusein_help'] = 'OAuth 2 services kunnen voor interne services geb
 $string['issueruseineverywhere'] = 'Login-pagina en interne services';
 $string['issueruseininternalonly'] = 'Enkel interne services';
 $string['issueruseinloginonly'] = 'Enkel login-pagina';
+$string['linkedin_service'] = 'LinkedIn';
 $string['logindisplay'] = 'Toon login-pagina als';
 $string['loginissuer'] = 'Login toestaan';
 $string['microsoft_service'] = 'Microsoft';

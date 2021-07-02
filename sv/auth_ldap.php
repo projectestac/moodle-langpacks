@@ -54,7 +54,7 @@ $string['auth_ldap_groupecreators'] = 'Lista över grupper eller sammanhang vars
 $string['auth_ldap_groupecreators_key'] = 'Grupp-skapare';
 $string['auth_ldap_host_url'] = 'Ange URL till LDAP-server enligt formatet "ldap://ldap.myorg.com/" eller "ldaps://ldap.myorg.com/". Separera flera servrar med \';\' för att få stöd för redundans.';
 $string['auth_ldap_host_url_key'] = 'LDAP-server';
-$string['auth_ldap_ldap_encoding'] = 'Specificera den teckenuppsättning som används av LDAP-servern. Det är mest sannolikt utf-8 men MS AD v2 använder förvald standard för teckenuppsättning som t.ex. cp1252, cp1250 etc.';
+$string['auth_ldap_ldap_encoding'] = 'Teckenkodning som används av LDAP-servern, troligtvis UTF-8. Om LDAP v2 är markerat använder Active Directory sin konfigurerade kodning, till exempel cp1252 eller cp1250.';
 $string['auth_ldap_ldap_encoding_key'] = 'LDAP-teckenkodning';
 $string['auth_ldap_login_settings'] = 'Inloggningsinställningar';
 $string['auth_ldap_memberattribute'] = 'Valfritt: Åsidosätter medlemsattributet när användaren tillhör en grupp. Vanligtvis \'member\'';
@@ -75,7 +75,7 @@ $string['auth_ldap_passwdexpire_settings'] = 'Inställningar för giltighetstide
 $string['auth_ldap_preventpassindb'] = 'Markera "Ja" för att förhindra lösenord från att lagras i Moodles databas.';
 $string['auth_ldap_preventpassindb_key'] = 'Förhindra cachelagring av lösenord';
 $string['auth_ldap_rolecontext'] = '{$a->localname}-kontext';
-$string['auth_ldap_rolecontext_help'] = 'LDAP-kontext som används för <i>{$a->localname}</i>-mappning. Separera flera grupper med \';\'. Vanligtvis något liknande som "cn={$a->shortname},ou=staff,o=myorg".';
+$string['auth_ldap_rolecontext_help'] = 'LDAP-kontext som används för <i>{$a->localname}</i>-mappning. Separera flera grupper med \';\'. Vanligtvis något liknande som "cn={$a->shortname},ou=first-ou-with-role-groups,o=myorg; cn={$a->shortname},ou=second-ou-with-role-groups,o=myorg".';
 $string['auth_ldap_search_sub'] = 'Sök användare i underkontext';
 $string['auth_ldap_search_sub_key'] = 'Sök i lägre sammanhang';
 $string['auth_ldap_server_settings'] = 'Inställningar för LDAP-server';
@@ -108,7 +108,7 @@ $string['auth_ntlmsso_maybeinvalidformat'] = 'Det gick inte att extrahera använ
 $string['auth_ntlmsso_missing_username'] = 'Du måste ange minst % username% i fjärranvändarnamnsformatet';
 $string['auth_ntlmsso_remoteuserformat'] = 'Om du har valt \'NTLM\' i \'Autentiseringstyp\' kan du ange fjärranvändarnamnsformatet här. Om du lämnar detta tomt används standardformatet DOMAIN\\användarnamn. Du kan använda den valfria platshållaren <b>%domain%</b> för att ange var domännamnet ska visas och den obligatoriska platshållaren <b>%username%</b> för att ange var användarnamnet ska visas. br /><br />Några vanliga format är <tt>%domain%\\%username%</tt> (MS Windows standard), <tt>%domain%/%username%</tt>, <tt>%domain%+%username%</tt> eller bara <tt>%username%</tt> (om det inte finns någon domändel).';
 $string['auth_ntlmsso_remoteuserformat_key'] = 'Fjärranvändarnamnformat';
-$string['auth_ntlmsso_subnet'] = 'Om detta är inställt så kommer det bara att försöka med SSO med klienter i det här undernätet. Format: xxx.xxx.xxx.xxx/bitmask';
+$string['auth_ntlmsso_subnet'] = 'Om detta är inställt så kommer den bara att försöka med SSO med klienter i det här undernätet. Format: xxx.xxx.xxx.xxx/bitmask. Separera multipla undernät med \',\' (komma).';
 $string['auth_ntlmsso_subnet_key'] = 'Subnät';
 $string['auth_ntlmsso_type'] = 'Autentiseringsmetoden som konfigurerats på webbservern för att autentisera användarna (om du är osäker väljer du NTLM)';
 $string['auth_ntlmsso_type_key'] = 'Autentiseringstyp';

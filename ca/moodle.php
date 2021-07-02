@@ -959,7 +959,7 @@ $string['gpllicense'] = 'Llicència GPL';
 $string['grade'] = 'Qualificació';
 $string['gradenoun'] = 'Qualificació';
 $string['grades'] = 'Qualificacions';
-$string['gradeverb'] = 'Qualificació';
+$string['gradeverb'] = 'Qualificar';
 $string['gravatarenabled'] = 'El <a href="https://www.gravatar.com/">Gravatar</a> s\'ha habilitat per a aquest lloc. Si no carregueu una imatge al perfil, el Moodle provarà de carregar una imatge per a vós des del Gravatar.';
 $string['group'] = 'Grup';
 $string['groupadd'] = 'Afegeix nou grup';

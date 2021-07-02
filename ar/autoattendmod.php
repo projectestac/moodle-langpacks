@@ -35,6 +35,7 @@ $string['feedback_title'] = 'رابط الإفادة';
 $string['firstinstallblock'] = 'يرجى أولاً تنصيب كتلة الحضور التلقائي.';
 $string['firstinstanceblock'] = 'يرجى أولاً إنشاء عيِّنة من كتلة الحضور التلقائي في هذا المساق.';
 $string['modincorrect'] = 'وحدة المساق ليست صالحة<br /> من الممكن أن كتلة الحضور التلقائي غير منصبة';
+$string['name'] = 'الاسم';
 $string['permit_homeroom'] = 'السماح بالوصول من وحدة غرفة المنزل';
 $string['permit_homeroom_help'] = 'إذا أزلت التأشير منه، لن تصل وحدة غرفة المنزل إلى الوحدة/الكتلة العائدة إلى الحضور الذاتي هذه';
 $string['permit_homeroom_title'] = 'لوحدة غرفة المنزل';

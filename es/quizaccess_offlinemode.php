@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['answerchanged'] = 'Se ha cambiado la respuesta';
 $string['backtothequiz'] = 'Volver al cuestionario';
 $string['changesmadereallygoaway'] = 'No se han guardado sus respuestas en el servidor. ¿Seguro que quiere abandonar este intento?';
 $string['dataprocessedsuccessfully'] = 'Los datos se han procesado con éxito ({$a}).';

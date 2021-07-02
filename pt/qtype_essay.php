@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['acceptedfiletypes'] = 'Tipos de ficheiro permitidos';
-$string['acceptedfiletypes_help'] = 'Os tipos de ficheiros permitidos podem ser restringidos se indicar uma lista de extensões de ficheiros. Se deixar o campo vazio, todos os tipos de ficheiro serão permitidos.';
+$string['acceptedfiletypes_help'] = 'Os tipos de ficheiro permitidos podem ser restringidos se indicar uma lista de extensões de ficheiros. Se deixar o campo vazio, todos os tipos de ficheiro serão permitidos.';
 $string['allowattachments'] = 'Permitir anexos';
 $string['attachedfiles'] = 'Anexos: {$a}';
 $string['attachmentsoptional'] = 'Anexos são opcionais';
@@ -55,7 +55,7 @@ $string['mustattach'] = 'Quando é selecionada a opção "Sem texto online" ou a
 $string['mustrequire'] = 'Quando é selecionada a opção "Sem texto online" ou as respostas são opcionais, tem de exigir pelo menos um anexo.';
 $string['mustrequirefewer'] = 'Não pode exigir mais anexos do que aqueles que permite.';
 $string['nlines'] = '{$a} linhas';
-$string['nonexistentfiletypes'] = 'Os seguintes tipos de ficheiros não foram reconhecidos: {$a}';
+$string['nonexistentfiletypes'] = 'Os seguintes tipos de ficheiro não foram reconhecidos: {$a}';
 $string['pluginname'] = 'Desenvolvimento';
 $string['pluginname_help'] = 'Ao responder a uma pergunta, o aluno pode carregar um ou mais ficheiros e/ou inserir texto online. Pode ser fornecido um modelo de resposta. As respostas devem ser avaliadas manualmente.';
 $string['pluginname_link'] = 'pergunta/tipo/desenvolvimento';

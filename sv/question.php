@@ -188,7 +188,7 @@ Vissa importformat, som GIFT och Moodle XML, tillåter att kategori- och kontext
 $string['exporterror'] = 'Ett fel inträffade vid exporten!';
 $string['exportfilename'] = 'frågor';
 $string['exportnameformat'] = '%Y%m%d-%H%M';
-$string['exportonequestion'] = 'Ladda ner frågor i Moodle XML-format';
+$string['exportonequestion'] = 'Ladda ner denna fråga i Moodle XML-format';
 $string['exportquestions'] = 'Exportera frågor till fil';
 $string['exportquestions_help'] = 'Med den här funktionen kan du exportera en fullständig kategori (och eventuella underkategorier) till fil. Observera att vissa frågedata och vissa frågetyper kanske inte exporteras beroende på vilket filformat som valts.';
 $string['feedback'] = 'Återkoppling';

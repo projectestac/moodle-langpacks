@@ -28,4 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['atag'] = 'الترشيح حسب وسوم &lt; a &gt;';
 $string['cachelifespan_desc'] = 'الفترة الزمنية التي ينبغي عندها تنشيط قائمة المزودين.';
 $string['divtag'] = 'الترشيح حسب وسوم &lt; div  &gt;';
+$string['providername'] = 'اسم المزود';
 $string['providersallowed_desc'] = 'القائمة البيضاء للمزود المزمع استعمالها مع هذا الملحق';

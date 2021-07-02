@@ -45,6 +45,7 @@ $string['invalidurl'] = 'على الرابط أن يبدأ بحرف لاتيني
 $string['meethost_desc'] = 'المجال الذي فيه مخدم Adobe منصب';
 $string['meetingend'] = 'وقت انتهاء الاجتماع';
 $string['meetinghost'] = 'مجال الاجتماع';
+$string['meetingname'] = 'اسم الاجتماع';
 $string['meetingstart'] = 'وقت بدء الاجتماع';
 $string['meettemplates'] = 'قوالب الاجتماع';
 $string['meeturl_help'] = '<p>يمكنك تخصيص الرابط المستعمل للاتصال مع اجتماع اتصال Adobe. مجال مخدم Adobe سيبقى دائماً هو نفسه.

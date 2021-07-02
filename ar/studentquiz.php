@@ -82,6 +82,7 @@ $string['reportquiz_total_questions_right'] = 'إجمالي الإجابات ا�
 $string['reportrank_table_column_correctanswers'] = 'الإجابات الصحيحة';
 $string['reportrank_table_column_description'] = 'الوصف';
 $string['reportrank_table_column_incorrectanswers'] = 'الإجابات الخاطئة';
+$string['reportrank_table_column_quantifier_name'] = 'الاسم';
 $string['reportrank_table_column_value'] = 'القيمة';
 $string['reportrank_table_column_yourstatus'] = 'الإحصائيات الشخصية';
 $string['reportrank_table_title_for_manager'] = 'تسلسل الطالب';

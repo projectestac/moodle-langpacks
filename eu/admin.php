@@ -558,7 +558,7 @@ $string['editorspellinghelp'] = 'Gaitu edo desgaitu ortografia-zuzentzailea. Gai
 $string['editstrings'] = 'Editatu hitzak edo esaldiak';
 $string['emailchangeconfirmation'] = 'Helbide elektronikoaren aldaketaren berrespena';
 $string['emaildkim'] = 'DomainKeys Identified Mail (DKIM) posta elektronikoen sinatzea';
-$string['emaildkiminfo'] = 'DKIM hautatzailea konfiguratuta badago eta $CFG->dataroot/dkim/[domain]/[selector].private kokapenean e-mailaren "Igorlea" eremuko helbide elektronikoarekin bat datorren ziurtagiri pribatuaren fitxategia aurkitzen bada e-maila sinatu egingo da. Kasu gehienetan (allowedemaildomains hutsik badago adibidez) <pre>{$a->path}</pre> kokapenean ziurtagiri bakarra izatea nahikoa da. Konfigurazioaren xehetasun gehiagorako, ikusi dokumentazioaren <a href="{$a->docs}">Posta elektronikoaren konfigurazioa</a> atala.';
+$string['emaildkiminfo'] = 'DKIM hautatzailea konfiguratuta badago eta $CFG->dataroot/dkim/[domain]/[selector].private kokapenean e-mailaren "Igorlea" eremuko helbide elektronikoarekin bat datorren ziurtagiri pribatuaren fitxategia aurkitzen bada e-maila sinatu egingo da. Kasu gehienetan (allowedemaildomains hutsik badago adibidez) hurrengo kokapenean ziurtagiri bakarra izatea nahikoa da: <pre>{$a->path}</pre>. Konfigurazioaren xehetasun gehiagorako, ikusi dokumentazioaren <a href="{$a->docs}">Posta elektronikoaren konfigurazioa</a> atala.';
 $string['emaildkimselector'] = 'DKIM hautatzailea';
 $string['emailfromvia'] = 'E-mailaren igorlearen informazioa';
 $string['emailheaders'] = 'E-mail goiburuak';
@@ -1036,7 +1036,7 @@ $string['profilerequired'] = 'Beharrezkoa al da eremu hau?';
 $string['profileroles'] = 'Ikus daitezkeen profilen rolak';
 $string['profilesforenrolledusersonly'] = 'Profilak soilik matrikulatutako erabiltzaileentzako';
 $string['profileshortname'] = 'Izen laburra (bakarra izan behar du)';
-$string['profileshortnameinvalid'] = 'Izen labur honek soilik karaktere alfanumerikoak (letra eta zenbakiak) eta marratxo baxua (_) eduki ditzake.';
+$string['profileshortnameinvalid'] = 'Izen labur honek soilik karaktere alfanumerikoak (letra eta zenbakiak) eta beheko gidoia (_) eduki ditzake.';
 $string['profileshortnamenotunique'] = 'Izen labur hau dagoeneko erabiltzen ari da';
 $string['profilesignup'] = 'Orria erakutsi behar da saioa hastean?';
 $string['profilespecificsettings'] = 'Ezarpen espezifikoak';

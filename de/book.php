@@ -75,11 +75,11 @@ $string['movechapterup'] = 'Kapitel "{$a}" nach oben verschieben';
 $string['navexit'] = 'Buch schließen';
 $string['navimages'] = 'Navigationsicons';
 $string['navnext'] = 'Weiter';
-$string['navnexttitle'] = 'Nächster: {$a}';
+$string['navnexttitle'] = 'Nächster Titel: {$a}';
 $string['navoptions'] = 'Optionen für Navigationslinks';
 $string['navoptions_desc'] = 'Optionen zur Navigationsanzeige auf den Buchseiten';
 $string['navprev'] = 'Zurück';
-$string['navprevtitle'] = 'Vorheriger: {$a}';
+$string['navprevtitle'] = 'Vorheriger Titel: {$a}';
 $string['navstyle'] = 'Stil der Navigation';
 $string['navstyle_help'] = '* Bilder - Icons zur Navigation verwenden
 * Text - Kapitelüberschriften zur Navigation verwenden';

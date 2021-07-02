@@ -26,6 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['appid'] = 'Αναγνωριστικό εφαρμογής κινητού';
+$string['callbackurl'] = 'Διεύθυνση URL συνάρτησης επανάκλησης (callback)';
+$string['course_publish:addinstance'] = 'Προσθήκη ενός μπλοκ δημοσίευσης μαθημάτων';
+$string['course_publish:myaddinstance'] = 'Προσθήκη ενός μπλοκ δημοσίευσης μαθημάτων στην αρχική μου σελίδα';
 $string['descconfig'] = 'Περιγραφή του τμήματος διαμόρφωσης/ρυθμίσεων';
 $string['descfoo'] = 'Περιγραφή διαμόρφωσης/ρυθμίσεων';
 $string['description'] = 'Περιγραφή';
@@ -34,6 +37,7 @@ $string['labelfoo'] = 'Ταμπέλα διαμόρφωσης/ρυθμίσεων'
 $string['link'] = 'Σύνδεσμος';
 $string['loginwithfacebook'] = 'Σύνδεση με Facebook';
 $string['message'] = 'Μήνυμα';
+$string['pageaccesstoken'] = 'ΚουπόνιΠρόσβασηςΣελίδας';
 $string['pageid'] = 'Αναγνωριστικόσελίδας';
 $string['pluginname'] = 'Δημοσίευση μαθήματος';
 $string['secretkey'] = 'Μυστικό κλειδί';

@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['defaultname'] = 'Pergunta importada {$a}';
 $string['errormanifest'] = 'Erro durante a leitura do manifesto IMS';
-$string['filenothandled'] = 'Este arquivo contém referência a um material de ficheiro {$a} que de momento não é aceite pela importação';
+$string['filenothandled'] = 'Este ficheiro contém referência a um material de ficheiro {$a} que, de momento, não é aceite pela importação';
 $string['imagenotfound'] = 'O ficheiro de imagem {$a} não foi encontrado na importação.';
 $string['importedcategory'] = 'Categoria importada {$a}';
 $string['importnotext'] = 'Falta texto da pergunta no ficheiro XML';

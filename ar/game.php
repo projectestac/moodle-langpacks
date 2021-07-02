@@ -64,6 +64,7 @@ $string['html_snakes_wrong'] = 'إجابتك ليست صحيحة. إبقَ في 
 $string['html_title'] = 'عنوان html:';
 $string['introduction'] = 'الوصف';
 $string['javame_description'] = 'الوصف:';
+$string['javame_name'] = 'الاسم';
 $string['millionaire_also_multichoice'] = 'إجابات متعددة دون أن يكون أحدها صحيحاً';
 $string['millionaire_background'] = 'لون الخلفية';
 $string['millionaire_info_telephone'] = 'أظن بأن الإجابة الصحيحة هي &nbsp';
@@ -71,6 +72,7 @@ $string['millionaire_info_wrong_answer'] = 'إجابتك خاطئة<br>الإج�
 $string['millionaire_must_select_quiz'] = 'ينبغي عليك اختيار إختبار واحد';
 $string['must_select_questioncategory'] = 'ينبغي عليك اختيار صنف السؤال';
 $string['must_select_quiz'] = 'ينبغي عليك اختيار الاختبار';
+$string['name'] = 'الاسم:';
 $string['no_questions'] = 'لا توجد أسئلة';
 $string['pagesize'] = 'عدد الأسئلة لكل صفحة:';
 $string['privacy:metadata:game_attempts:bookquiz_lastchapter'] = 'الفصل الأخير من الكتاب';

@@ -27,5 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['downloadfile'] = 'Ladda ner din exportfil för portfolio';
 $string['downloading'] = 'Laddar ner...';
-$string['pluginname'] = 'Ladda ner fil';
+$string['pluginname'] = 'Filnedladdning';
 $string['privacy:metadata'] = 'Detonation pluginmodul lagrar inga personuppgifter och exporterar heller inte personuppgifter till en extern plats.';

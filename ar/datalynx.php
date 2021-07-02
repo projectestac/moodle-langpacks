@@ -55,6 +55,7 @@ $string['event_team_updated'] = 'فريق تم تحديثه';
 $string['eventsettings'] = 'إعدادات الحدث';
 $string['exportadd'] = 'إضافة معاينة تصدير جديدة';
 $string['fielddescription'] = 'وصف الحقل';
+$string['fieldname'] = 'اسم الحقل';
 $string['fieldoptionsdefault'] = 'القيم الافتراضية (واحدة لكل سطر)';
 $string['fieldrequired'] = 'عليك إعطاء قيمة هنا.';
 $string['filemaxsize'] = 'الحجم الإجمالي للملفات المرفوعة';

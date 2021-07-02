@@ -297,6 +297,7 @@ $string['recui_waitwaitstilluploading'] = 'Your file is still uploading. Do you 
 $string['refreshtoken'] = 'Refresh license information';
 $string['registrationkey'] = 'Registration Key';
 $string['registrationkey_explanation'] = 'Enter your Poodll registration key here only if you have not entered an API key and secret above. You can obtain a key from <a href=\'https://poodll.com/pricing\'>https://poodll.com/pricing</a>';
+$string['screen_recorder'] = 'Screen Recorder';
 $string['serverhttpport'] = 'Poodll Red5 Server Port (HTTP)';
 $string['serverid'] = 'Poodll Red5 Server Id';
 $string['servername'] = 'Poodll Red5 Server Address';

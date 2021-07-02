@@ -41,4 +41,5 @@ $string['errorupdatevalue'] = 'تعذر تحديث القيمة الجديدة';
 $string['metadata'] = 'قيم البيانات الوصفية';
 $string['metadataset'] = 'قِيَم التصنيف';
 $string['novalues'] = 'لا توجد قيمة مسجلة';
+$string['typename'] = 'الاسم';
 $string['value'] = 'القيمة';

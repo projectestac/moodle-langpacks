@@ -387,4 +387,4 @@ $string['viewquestions'] = 'Посмотреть вопросы';
 $string['viewquiz'] = 'Посмотреть викторину <b>{$a}</b>';
 $string['win'] = 'Поздравляем !!!';
 $string['withselected'] = 'С выделенным';
-$string['yourfinalgradeis'] = 'Ваша итоговая оценка за эту игру: $a.';
+$string['yourfinalgradeis'] = 'Ваша итоговая оценка за эту игру: {$a}.';

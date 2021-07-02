@@ -140,11 +140,14 @@ $string['grademethod_help'] = 'هذا الإعداد يعرف كيفية إحت�
 $string['highestscore'] = 'الدرجة الأعلى';
 $string['hotpot:addinstance'] = 'إضافة نشاط HotPot جديد';
 $string['hotpot:view'] = 'استخدم الاختبار';
+$string['hotpotname'] = 'اسم نشاط HotPot';
 $string['ignored'] = 'تجاهل';
 $string['inprogress'] = 'قيد التنفيذ';
 $string['maxeventlength'] = 'أقصى عدد من الأيام لحدث واحد في التقويم';
 $string['modulename'] = 'اختبار هوت بوتيتو';
 $string['modulenameplural'] = 'اختبارات هوت بوتيتو';
+$string['nameadd'] = 'الاسم';
+$string['nameedit'] = 'الاسم';
 $string['navigation_none'] = 'لا شيء';
 $string['noactivity'] = 'لا يوجد نشاط';
 $string['noreview'] = 'عذرًا، ليس مسموحًا لك بمعاينة تفاصيل محاولة الاختبار هذه.';

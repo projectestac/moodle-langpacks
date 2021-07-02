@@ -36,8 +36,8 @@ Por definição, Marklar é usado no auto-formato do Moodle e campos de texto si
 $string['previewloading'] = 'A carregar pré-visualização';
 $string['previewoff'] = 'Editar';
 $string['previewon'] = 'Pré-visualização';
-$string['privacy:export:preferences:format'] = 'Se prefere usar o Marklar para editar textos com a sintaxe {$a->format}.';
-$string['syntax-format0'] = '<p>O auto-formato do Moodle permite escrever texto normalmente, como se estivesse a enviar um e-mail de texto simples. Quebras de linha serão mantidas. Pode incorporar código HTML, se pretender, e ele será aplicado.</p>';
+$string['privacy:export:preferences:format'] = 'Se prefere, ou não, usar o Marklar para editar textos com a sintaxe {$a->format}.';
+$string['syntax-format0'] = '<p>O auto-formato do Moodle permite escrever texto normalmente, como se estivesse a enviar um e-mail de texto simples. As quebras de linha serão mantidas. Pode incorporar código HTML, se pretender, e ele será aplicado.</p>';
 $string['syntax-format1'] = '<dl>
 <dt> Hiperligações</dt>
 <dd><code><a href="https://example.com">Texto da ligação</a></code></dd>
@@ -52,7 +52,7 @@ $string['syntax-format1'] = '<dl>
 <dd><code>Quebra<br>de linha</code></dd>
 </dl>';
 $string['syntax-format2'] = '<p>Este formato é útil quando precisa de incluir muito código ou HTML que pretende mostrar exatamente como o escreveu. Irá traduzir espaços e novas linhas, mas, caso contrário, o texto não será alterado.</p>';
-$string['syntax-format4'] = 'Item da lista de marcadores<dl>
+$string['syntax-format4'] = '<dl>
 <dt>Hiperligações</dt>
 <dd><code>[texto da ligação](https://example.com)</code></dd>
 <dd><code>[texto da ligação](https://example.com "Título")</code></dd>
@@ -67,20 +67,20 @@ $string['syntax-format4'] = 'Item da lista de marcadores<dl>
 <dt>Parágrafos e quebras de linha</dt>
 <dd>Os parágrafos são separados por uma linha em branco. Para uma quebra de linha, finalize uma linha com dois ou mais espaços.</dd>
 <dt>Bloco de citações</dt>
-<dd><code>> Bloco de citações tipo Email</code></dd>
+<dd><code>> Bloco de citações tipo e-mail</code></dd>
 <dt>Listas</dt>
-<dd><code>* Item da lista de marcadores</code></dd>
+<dd><code>* Item da lista de marcas</code></dd>
 <dd><code>1. Item da lista numerada</code></dd>
 <dt>Pré-formatado</dt>
 <dd><code>`function_name()`</code> (inline)</dd>
-<dd><code>   code_block()</code> (avanço com quatro espaços)</dd>
-<dt>Regra horizontal</dt>
+<dd><code>&nbsp;&nbsp;&nbsp;code_block()</code> (avanço com quatro espaços)</dd>
+<dt>Régua horizontal</dt>
 <dd><code>---</code></dd>
 <dd><code>***</code></dd>
 <dt>HTML</dt>
-<dd>Para qualquer marcação que não esteja abrangida pela sintaxe de Markdown, use apenas HTML em bruto.</dd>
-<dd><code><span class="label label-info">Aviso</span></code></dd>
-<dd><code><img class="img-responsive" src="…" alt="…" /></code></dd>
+<dd>Para qualquer marcação que não esteja abrangida pela sintaxe de Markdown, use apenas HTML simples.</dd>
+<dd><code>&lt;span class="badge badge-info"&gt;Aviso&lt;/span&gt;</code></dd>
+<dd><code>&lt;img class="img-responsive" src="…" alt="…" /&gt;</code></dd>
 </dl>
 <hr>
 <p><a target="_blank" href="https://daringfireball.net/projects/markdown/syntax">Documentação completa sobe a sintaxe Markdown</a></p>';

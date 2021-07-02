@@ -36,6 +36,7 @@ $string['attributes:unenrol'] = 'Unenrol users from the course';
 $string['attributes:unenrolself'] = 'Unenrol self from the course';
 $string['attrsyntax'] = 'User profile fields rules';
 $string['attrsyntax_help'] = '<p>These rules can only use custom user profile fields.</p>';
+$string['cachedef_dbquerycache'] = 'DB query cache';
 $string['confirmforce'] = 'This will (re)enrol all users corresponding to this rule.';
 $string['confirmpurge'] = 'This will remove all enrolments corresponding to this rule.';
 $string['defaultrole'] = 'Default role';

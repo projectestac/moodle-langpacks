@@ -714,8 +714,8 @@ $string['subscriptionforced'] = 'Subscrição obrigatória';
 $string['subscriptionmode'] = 'Modo de subscrição';
 $string['subscriptionmode_help'] = 'Quando um participante tem a subscrição ativa num fórum, significa que irá receber notificações dos tópicos desse fórum. Existem 4 opções de subscrição:
 
-* Subscrição opcional - Os participantes podem escolher se desejam ativar a subscrição;
-* Subscrição obrigatória - Todos ficam com a subscrição ativa e não podem cancelar;
+* Subscrição opcional - Os participantes podem escolher se pretendem ativar a subscrição;
+* Subscrição obrigatória - Todos estão a subscrição ativa e não podem cancelar;
 * Subscrição opcional (ativa no início) - Todos estão com a subscrição ativa no início mas podem cancelá-la a qualquer momento;
 * Subscrição desativada - Não é permitido subscrever o fórum.';
 $string['subscriptionoptional'] = 'Subscrição opcional';

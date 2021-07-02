@@ -54,6 +54,7 @@ $string['bim_cmiderror'] = 'Το αναγνωριστικό αρθρώματος
 $string['bim_configuration_details'] = 'Τρέχουσες ρυθμίσεις';
 $string['bim_configuration_grade'] = '{$a} Γίνεται προσθήκη των αποτελεσμάτων στο βαθμολόγιο;';
 $string['bim_configuration_intro'] = '{$a} Σχετικά:';
+$string['bim_configuration_mirror'] = '{$a} Ενημερώνονται αντίγραφα των αναρτήσεων;:';
 $string['bim_configuration_name'] = '{$a} Όνομα BIM:';
 $string['bim_configuration_registration'] = '{$a} Μπορούν οι μαθητές να καταχωρηθούν;';
 $string['bim_configuration_settings'] = 'Ρυθμίσεις';

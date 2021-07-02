@@ -69,7 +69,7 @@ $string['indicator:socialbreadth'] = 'Fil social';
 $string['indicator:socialbreadth_help'] = 'Denna indikator baseras på den sociala bredd som uppnåtts av studenten i en Filresurs.';
 $string['indicator:socialbreadthdef'] = 'Fil social';
 $string['indicator:socialbreadthdef_help'] = 'Deltagaren har nått denna procentandel av det sociala engagemanget som erbjuds av Filresurserna under detta analysintervall (Nivåer = Inget deltagande, Deltagaren ensamt)';
-$string['legacyfiles'] = 'Migration av gammal kursfil';
+$string['legacyfiles'] = 'Migrering av gammal kursfil';
 $string['legacyfilesactive'] = 'Aktiv';
 $string['legacyfilesdone'] = 'Avslutad';
 $string['modifieddate'] = 'Ändrad {$a}';

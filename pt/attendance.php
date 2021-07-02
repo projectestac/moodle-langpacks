@@ -127,9 +127,9 @@ $string['coursesummary'] = 'Resumo por disciplina';
 $string['createmultiplesessions'] = 'Criar várias sessões';
 $string['createmultiplesessions_help'] = 'Se ativar esta opção, pode criar várias sessões num único e simples passo. As sessões começam na \'Data da sessão\' e continuam até à data \'Repetir até\'.
 
--<strong> Repetir nos dias</strong>: Selecione os dias da semana em que ocorre a sessão (por exemplo, segunda/quarta/sexta).<br />
--<Strong> Repetir a cada</strong>: Permite definir a frequência com que ocorre. Se a sessão ocorre a cada semana, selecione 1; se ocorre a cada duas semanas, selecione 2; a cada 3 semanas, selecione 3, etc.<br />
--<Strong> Repetir até</strong>: Selecione o último dia em que ocorre a sessão (o último dia que pretende registar a assiduidade).';
+- <strong>Repetir nos dias</strong>: Selecione os dias da semana em que ocorre a sessão (por exemplo, segunda/quarta/sexta).<br />
+- <Strong>Repetir a cada</strong>: Permite definir a frequência com que ocorre. Se a sessão ocorre a cada semana, selecione 1, se ocorre a cada duas semanas, selecione 2, a cada 3 semanas, selecione 3, etc.<br />
+- <Strong>Repetir até</strong>: Selecione o último dia em que ocorre a sessão (o último dia que pretende registar a assiduidade).';
 $string['createonesession'] = 'Criar uma sessão para a disciplina';
 $string['csvdelimiter'] = 'Delimitador CSV';
 $string['currentlyselectedusers'] = 'Utilizadores selecionados';
@@ -337,7 +337,7 @@ $string['noautomark'] = 'Desativado';
 $string['nocapabilitytotakethisattendance'] = 'Tentou alterar a assiduidade de uma sessão com o cmid: {$a} para o qual não tem permissão para modificar.';
 $string['nodescription'] = 'Sessão de aula normal';
 $string['noeventstoreset'] = 'Não existem eventos no calendário que exijam atualização.';
-$string['nogroups'] = 'Não pode adicionar sessões de grupo, uma vez que não existem grupos nesta disciplina.';
+$string['nogroups'] = 'Esta atividade foi configurada para usar grupos, mas não existem grupos nesta disciplina.';
 $string['noguest'] = 'Visitantes não podem consultar a assiduidade';
 $string['noofdaysabsent'] = 'N.º dias que faltou';
 $string['noofdaysexcused'] = 'N.º dias dispensado';
@@ -591,7 +591,7 @@ $string['thiscourse'] = 'Esta disciplina';
 $string['time'] = 'Horário';
 $string['timeahead'] = 'Não podem ser criadas múltiplas sessões que excedem um ano. Deve ajustar as datas de início e de fim.';
 $string['to'] = 'às:&nbsp;';
-$string['todate'] = 'até à data';
+$string['todate'] = '(até à data)';
 $string['triggered'] = 'Primeira notificação';
 $string['tuseremail'] = 'E-mail';
 $string['tusername'] = 'Nome completo';

@@ -316,7 +316,7 @@ $string['noattempts'] = 'Não foram realizadas tentativas nesta ferramenta';
 $string['noltis'] = 'Não existem instâncias de ferramentas LTI';
 $string['noprofileservice'] = 'Serviço de Perfil não encontrado';
 $string['noservers'] = 'Não foram encontrados servidores';
-$string['notypes'] = 'De momento não existem ferramentas LTI configuradas no Moodle. Clique na hiperligação acima para adicionar algumas.';
+$string['notypes'] = 'De momento, não existem ferramentas LTI configuradas no Moodle. Clique na hiperligação acima para adicionar algumas.';
 $string['noviewusers'] = 'Não foram encontrados utilizadores com permissões para usar esta ferramenta';
 $string['oauthsecurity'] = 'LTI 1.0/1.1';
 $string['opensslconfiginvalid'] = 'O LTI 1.3 requer um \'openssl.cnf\' válido para ser configurado e disponibilizado para o seu servidor web. Entre em contacto com o administrador do site para ativar e configurar o openssl para este site.';
@@ -328,15 +328,15 @@ $string['organizationid_default'] = 'ID predefinido da organização';
 $string['organizationid_default_help'] = 'O valor predefinido a ser usado para o ID da organização. O ID do site identifica esta instalação do Moodle.';
 $string['organizationid_help'] = 'Identificador exclusivo para esta instância Moodle. Normalmente, o nome DNS da organização é o usado.
 
-Se este campo for deixado em branco, o nome do servidor deste site Moodle será utilizado como o valor predefinido.';
+Se deixar este campo em branco, o nome do servidor deste site Moodle será utilizado como o valor predefinido.';
 $string['organizationidguid'] = 'ID da organização';
 $string['organizationidguid_help'] = 'Identificador exclusivo para esta instância do Moodle que passou para a ferramenta como o GUID da instância da plataforma.
 
-Se este campo for deixado em branco, será usado o valor predefinido.';
+Se deixar este campo em branco, será usado o valor predefinido.';
 $string['organizationurl'] = 'URL da organização';
 $string['organizationurl_help'] = 'O URL de base desta instância Moodle.
 
-Se este campo for deixado em branco, um valor predefinido será utilizado com base na configuração do site.';
+Se este campo for deixado vazio, o valor predefinido será utilizado com base na configuração do site.';
 $string['pagesize'] = 'Submissões por página';
 $string['parameter'] = 'Parâmetros da ferramenta';
 $string['parameter_help'] = 'Os parâmetros da ferramenta são configurações que requerem a aprovação do fornecedor da ferramenta LTI no proxy de ferramenta aceite.';
@@ -433,9 +433,9 @@ $string['search:activity'] = 'Ferramenta externa - informações da atividade';
 $string['secure_icon_url'] = 'URL do Ícone seguro';
 $string['secure_icon_url_help'] = 'Similar ao URL do ícone, mas usado quando o acesso ao site é feito de forma segura através de SSL. Este campo serve para impedir que o navegador exiba um aviso acerca de uma imagem insegura.';
 $string['secure_launch_url'] = 'URL da ferramenta segura';
-$string['secure_launch_url_help'] = 'Similar ao URL de arranque, mas usado caso seja necessária uma segurança elevada. O Moodle irá usar o URL de arranque seguro invés do URL de arranque se o Moodle for acedido partir de SSL, ou se as configurações da ferramenta estão definidas para iniciar sempre com SSL.
+$string['secure_launch_url_help'] = 'Similar ao URL de arranque mas usado caso seja necessária uma segurança elevada. O Moodle irá usar o URL de arranque seguro ao invés do URL de arranque se o Moodle for acedido partir de SSL, ou se as configurações da ferramenta estão definidas para iniciar sempre com SSL.
 
-O URL de arranque também pode ser definido para um endereço https que force a entrada através de SSL, e este campo pode ser deixado em branco.';
+O URL de arranque também pode ser definido para um endereço https que force a entrada através de SSL, e este campo pode ficar em branco.';
 $string['selectcontent'] = 'Selecionar conteúdo';
 $string['send'] = 'Enviar';
 $string['services'] = 'Serviços';

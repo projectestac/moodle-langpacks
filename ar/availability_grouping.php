@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['description'] = 'السماح فقط للطلاب الذين ينتمون إلى مجموعة داخل مجموعة محددة.';
+$string['description'] = 'السماح فقط للطلاب الذين ينتمون إلى مجموعة تقع ضمن تجميع محدد.';
 $string['error_selectgrouping'] = 'يجب عليك اختيار مجموعة.';
 $string['missing'] = '(تجمع مفقود)';
 $string['pluginname'] = 'التقييد حسب التجميع';

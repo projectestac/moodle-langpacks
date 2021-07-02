@@ -179,6 +179,7 @@ $string['commentmisconf'] = 'L\'ID del comentari està mal configurat';
 $string['componentisuptodate'] = 'El component està actualitzat';
 $string['confirmationnotenabled'] = 'La confirmació de l\'usuari no està habilitada en aquest lloc';
 $string['confirmsesskeybad'] = 'No s\'ha pogut confirmar la vostra clau de sessió per portar a terme aquesta acció. Aquesta característica de seguretat impedeix que s\'executin funcions importants en el vostre nom de manera accidental o fraudulenta. Confirmeu que volíeu realment executar aquesta funció.';
+$string['contenttypenotfound'] = 'El tipus de banc de contingut «{$a}»  no existeix o no es reconeix.';
 $string['couldnotassignrole'] = 'S\'ha produït un error greu sense especificar mentre se us intentava assignar un rol';
 $string['couldnotupdatenoexistinguser'] = 'No s\'ha pogut actualitzar l\'usuari perquè no existeix.';
 $string['countriesphpempty'] = 'Error: falta o està buit el fitxer de països countries.php del paquet d\'idioma {$a}';

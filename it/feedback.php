@@ -57,6 +57,7 @@ $string['complete_the_form'] = 'Compila il feedback';
 $string['completed'] = 'Completato';
 $string['completed_feedbacks'] = 'Risposte inviate';
 $string['completedon'] = 'Completato il {$a}';
+$string['completiondetail:submit'] = 'Inviare feedback';
 $string['completionsubmit'] = 'Completato all\'atto della consegna del feedback';
 $string['configallowfullanonymous'] = 'L\'impostazione consente di completare un feedback senza  autenticarsi. E\' valida solo per feedback presenti nella pagina home.';
 $string['confirmdeleteentry'] = 'Confermi l\'eliminazione di questo elemento?';

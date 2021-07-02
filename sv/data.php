@@ -156,11 +156,8 @@ $string['example'] = 'Exempel för modulen databas';
 $string['excel'] = 'Excel';
 $string['expired'] = 'Den här aktiviteten stängdes tyvärr den {$a} och är inte längre tillgänglig.';
 $string['export'] = 'Exportera';
-$string['exportaszip'] = 'Exportera som zip';
-$string['exportaszip_help'] = '<p align="center"><strong>Exportera som Zip</strong></p>
-<p>Det här gör det möjligt för dig att ladda ner mallarna till din egen dator.
-Senare kan du ladda upp dem till en annan databas med hjälp av egenskapen
-Importera från Zip.</p>';
+$string['exportaszip'] = 'Exportera som ZIP';
+$string['exportaszip_help'] = 'Med funktionen <em>Exportera som ZIP</em> kan du spara mallarna och fälten som en förinställning för nedladdning. ZIP-filen kan sedan importeras till en annan kurs.';
 $string['exportedtozip'] = 'Exporterade som tillfällig zip...';
 $string['exportentries'] = 'Exportera poster';
 $string['exportformat'] = 'Exportformat';
@@ -198,7 +195,7 @@ $string['footer'] = 'Sidfot';
 $string['forcelinkname'] = 'Framtvingat länknamn';
 $string['foundnorecords'] = 'Inga poster funna (<a href="{$a->reseturl}">Återställ filter</a>)';
 $string['foundrecords'] = 'Funna poster: {$a->num}/{$a->max} (<a href="{$a->reseturl}">Återställ filter</a>)';
-$string['fromfile'] = 'Importera från .zip-fil.';
+$string['fromfile'] = 'Importera från ZIP';
 $string['fromfile_help'] = 'Importera från zip-filen gör att du kan leta efter och ladda upp en förinställd zip-fil av mallar och fält.';
 $string['generateerror'] = 'Inte alla filer kunde skapas!';
 $string['header'] = 'Sidhuvud';

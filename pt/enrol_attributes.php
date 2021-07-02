@@ -36,6 +36,7 @@ $string['attributes:unenrol'] = 'Cancelar a inscrição de utilizadores da disci
 $string['attributes:unenrolself'] = 'Cancelar a própria inscrição da disciplina';
 $string['attrsyntax'] = 'Regras dos campos de perfil do utilizador';
 $string['attrsyntax_help'] = '<p>Estas regras só podem usar campos de perfil de utilizador personalizados.</p>';
+$string['cachedef_dbquerycache'] = 'Cache da consulta à base de dados';
 $string['confirmforce'] = '(Re)inscrever todos os utilizadores correspondentes a esta regra.';
 $string['confirmpurge'] = 'Cancelar todas as inscrições correspondentes a esta regra.';
 $string['defaultrole'] = 'Papel predefinido';

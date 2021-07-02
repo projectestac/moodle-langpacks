@@ -62,6 +62,7 @@ $string['auth_saml_missed_data'] = 'Τα ακόλουθα δεδομένα πε�
 $string['auth_saml_role_mapping_dsn'] = 'Ρόλος dsn';
 $string['auth_saml_role_mapping_sql'] = 'Ρόλος sql';
 $string['auth_saml_rolemapping'] = 'Αντιστοίχιση ρόλων';
+$string['auth_saml_samlhookfile'] = 'Μονοπάτι αρχείου άγκιστρου';
 $string['auth_saml_samllib'] = 'Μονοπάτι βιβλιοθήκης SimpleSAMLphp';
 $string['auth_saml_samllib_description'] = 'Μονοπάτι βιβλιοθήκης για το περιβάλλον SimpleSAMLphp που θέλετε να χρησιμοποιήσετε. Π.χ.: /var/www/sp/simplesamlphp/lib.';
 $string['auth_saml_sucess_creating_course_mapping'] = 'Ο πίνακας course_mapping δημιουργήθηκε στη βάση δεδομένων του moodle';

@@ -29,8 +29,10 @@ $string['backup_heavy_load_warning_message'] = 'إذا كان المقطع مح�
 $string['conflict_description'] = 'هل ترغب بالكتابة على عنوان المقطع في المساق؟';
 $string['conflict_no_overwrite'] = 'الإبقاء على العنوان الحالي للمقطع <strong>"{$a}"</strong>';
 $string['conflict_overwrite_title'] = 'تغيير عنوان المقطع إلى <strong>"{$a}"</strong>';
+$string['define_required_capabilities'] = 'يرجى تعريف الإمكانيات المطلوبة';
 $string['delete_folder'] = 'وكل محتوياته';
 $string['forbidden'] = 'ليست لديك أي صلاحيات للوصول إلى هذا العنصر المشترك';
+$string['missing_capabilities'] = 'الإمكانيات المطلوبة مفقودة: {$a}';
 $string['no_backup_support'] = 'لا يوجد دعم للحفظ الاحتياطي لهذه الوحدة';
 $string['privacy:metadata:block_sharing_cart:ctime'] = 'وقت الإنشاء';
 $string['privacy:metadata:block_sharing_cart:modtext'] = 'عنوان وحدة النشاط';

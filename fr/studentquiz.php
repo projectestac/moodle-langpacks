@@ -45,6 +45,8 @@ $string['before_answering_end_date'] = 'La possibilité de répondre à cette ac
 $string['before_answering_start_date'] = 'Ouvert aux réponses à partir du {$a}.';
 $string['before_submission_end_date'] = 'La possibilité de soumettre des questions dans cette activité StudentQuiz se termine le {$a}.';
 $string['before_submission_start_date'] = 'Ouvert à la soumission de questions à partir du {$a}.';
+$string['cachedef_permissionssync'] = 'Suivi de la synchronisation des autorisations StudentQuiz';
+$string['cannotcapturecommenthistory'] = 'Impossible de créer un événement d\'historique pour ce commentaire';
 $string['changeselectedsstate'] = 'Modifier l\'état des questions suivantes : <br /><br />{$a}';
 $string['collapseall'] = 'Réduire tous les commentaires';
 $string['collapsecomment'] = 'Réduire le commentaire';
@@ -78,6 +80,7 @@ $string['editcomment'] = 'Éditer le commentaire';
 $string['editedcommenthistory'] = 'Modifié par {$a->lastesteditedcommentauthorname} à {$a->lastededitedcommenttime}';
 $string['editedcommenthistorylinktext'] = 'Historique';
 $string['editorplaceholder'] = 'Saisissez votre commentaire ici...';
+$string['emailautomationnote'] = 'Veuillez prendre note qu\'il s\'agit d\'un message automatisé – cette adresse courriel n\'est pas vérifiée.';
 $string['emailcommentaddedbody'] = 'Bonjour {$a->recepientname},
 
 Votre question « {$a->questionname} » du cours « {$a->coursename} » dans l\'activité StudentQuiz « {$a->modulename} » a été commentée par « {$a->actorname} » à « {$a->timestamp} ».
@@ -96,7 +99,10 @@ Le commentaire était le suivant : « {$a->commenttext} »
 Vous pouvez examiner cette question à : {$a->questionurl}.';
 $string['emailcommentdeletedsmall'] = 'Le commentaire à votre question « {$a->questionname} » a été supprimé par {$a->actorname}.';
 $string['emailcommentdeletedsubject'] = 'Commentaire supprimé pour la question : {$a->questionname}';
+$string['emaildigestbody'] = 'Ceci est votre récapitulatif {$a->digesttype} de notifications pour l\'activité StudentQuiz <b>{$a->modulename}</b> disponible ici&nbsp;:';
 $string['emaildigestbody_section_content'] = 'Votre question <b>{$a->questionname}</b> a été <b>{$a->actiontype}</b> par <b>{$a->actorname}</b>';
+$string['emaildigestbody_section_title'] = 'Notification {$a->seq}, {$a->timestamp';
+$string['emaildigestsubject'] = 'Récapitulatif de notifications StudentQuiz';
 $string['emailminecommentdeletedbody'] = 'Bonjour {$a->recepientname},
 
 Le commentaire « {$a->commenttime} » à la question « {$a->questionname} » du cours « {$a->coursename} » dans l\'activité StudentQuiz « {$a->modulename} » a été supprimée par « {$a->actorname} » à « {$a->timestamp} ».
@@ -108,6 +114,7 @@ $string['emailminecommentdeletedsmall'] = 'Votre commentaire sur la question «�
 $string['emailminecommentdeletedsubject'] = 'Commentaire supprimé pour la question : {$a->questionname}';
 $string['emailsalutation'] = 'Cher {$a},';
 $string['emailsinglebody'] = 'Votre question <b>{$a->questionname}</b> dans l\'activité StudentQuiz <b>{$a->modulename}</b> du cours <b>{$a->coursename}</b> a été {$a->eventname} par <b>{$a->actorname}</b> le <b>{$a->timestamp}</b>.';
+$string['emailsinglebody_reviewlink'] = 'Vous pouvez réviser cette question ici&nbsp;:';
 $string['error_form_validation'] = '{$a}';
 $string['error_sendalert'] = 'Il y a eu une erreur lors de l\'envoi de votre rapport à {$a}.
 Le rapport n\'a pas pu être envoyé.';
@@ -252,7 +259,7 @@ $string['rate_all_column_name'] = 'Classement de tous';
 $string['rate_column_name'] = 'Évaluation';
 $string['rate_error'] = 'Merci d\'évaluer';
 $string['rate_help'] = 'Évaluer la question';
-$string['rate_help_help'] = 'Évaluer la question. \\n1 étoile est très mauvais, et 5 étoiles est très bon';
+$string['rate_help_help'] = 'Évaluer la question.<br />1 étoile est très mauvais, et 5 étoiles est très bon';
 $string['rate_multi_stars_desc'] = '{$a} étoiles sélectionnées';
 $string['rate_one_star_desc'] = '1 étoile sélectionnée';
 $string['rate_points'] = 'Points';
@@ -352,6 +359,7 @@ $string['reportrank_table_title_for_manager'] = 'Classement de l\'étudiant';
 $string['reportrank_title'] = 'Classement';
 $string['review_button'] = 'Bilan';
 $string['savechanges'] = 'Enregistrer les changements';
+$string['scheduled_task_send_digest_notification'] = 'Envoi d\'un récapitulatif de notifications';
 $string['setting_question_publishing'] = 'Publication des questions';
 $string['setting_question_publishing_automatic'] = 'Publier automatiquement les nouvelles questions';
 $string['setting_question_publishing_help'] = 'Les questions publiées apparaissent dans la banque de questions pour que les autres étudiants puissent les jouer. Vous pouvez soit autoriser la publication automatique de toutes les questions, soit demander une approbation avant de les publier. <br>Notez que ce paramètre ne peut pas être modifié une fois qu\'une question a été créée dans le StudentQuiz.';
@@ -372,6 +380,12 @@ $string['settings_availability_open_submission_from'] = 'Ouvrir la possibilité 
 $string['settings_commentdeletionperiod'] = 'Période de modification/suppression des commentaires (minutes)';
 $string['settings_commentdeletionperiod_help'] = 'Définissez la durée (en minutes) pendant laquelle le bouton Modifier/Supprimer sera disponible pour les étudiants pour modifier/supprimer leur propre commentaire (ou la réponse à un commentaire) une fois qu\'il est publié. Des valeurs comprises entre 0 et 60 minutes sont autorisées. Si la période de suppression est fixée à 0, les étudiants ne peuvent pas modifier/supprimer leurs propres commentaires. Notez que les enseignants et les administrateurs pourront toujours modifier/supprimer les commentaires des étudiants, et voir également le contenu de tout commentaire supprimé.';
 $string['settings_email_digest_first_day'] = 'Premier jour de la semaine ?';
+$string['settings_email_digest_first_day_help'] = 'Si vous avez sélectionné un récapitulatif hebdomadaire, cette option vous permet de définir le premier jour (à partir de 00h:00m:00 de ce jour) de la période de sept jours. Ceci est particulièrement utile si l\'activité commence à mi-semaine, par exemple.';
+$string['settings_email_digest_type'] = 'Type de récapitulatif par courriel';
+$string['settings_email_digest_type_daily_digest'] = 'Récapitulatif quotidien';
+$string['settings_email_digest_type_help'] = 'StudentQuiz a diverses notifications que vous pouvez activer, comme informer l\'auteur de la question d\'un changement d\'état (par exemple, un enseignant a approuvé l\'une de ses questions). Vous pouvez utiliser ce paramètre pour spécifier la fréquence de ces notifications. Les courriels de résumé ne seront envoyés que lorsqu\'il y aura au moins une notification dans la période définie';
+$string['settings_email_digest_type_no_digest'] = 'Aucun récapitulatif (un courriel par action)';
+$string['settings_email_digest_type_weekly_digest'] = 'Récapitulatif hebdomadaire';
 $string['settings_excluderoles'] = 'Exclure les rôles dans le classement';
 $string['settings_excluderoles_help'] = 'Les rôles sélectionnés sont cachés dans les classements, les utilisateurs inscrits dans ces rôles peuvent toujours participer normalement à l\'activité';
 $string['settings_excluderoles_label'] = 'Rôles dans le classement à exclure';

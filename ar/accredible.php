@@ -32,8 +32,7 @@ $string['accredible:view'] = 'معاينة الشهادة أو الشارة';
 $string['achievementid'] = 'رقم الإنجازات \\ أسم الجماعة';
 $string['activitydescription'] = 'هذه الوحدة تقوم تلقائياً بإنشاء وتحديث مجموعة اعتماد عند Accredible. أي شهادات أو شارات تم إصدارها ستكون موجودة في هذه المجموعة ويمكن تحديث شكلها ومعلوماتها على الرابط: <a href="https://dashboard.accredible.com" target="_blank">لوحة التحكم</a>.';
 $string['activityname'] = 'اسم النشاط';
-$string['additionalactivitiesone'] = 'تحذير : أنت تضيف أكثر من نشاط لمقرر دراسي واحد
-<br/>  كلا النشاطين مُشاهدة من قبل الطلاب، لذلك تأكد من منحهم أسماء مختلفة .';
+$string['additionalactivitiesone'] = 'تحذير: أنت تضيف أكثر من نشاط لمقرر دراسي واحد<br/> كلا النشاطين مُشاهدة من قبل الطلاب، لذلك تأكد من منحهما اسمين مختلفين.';
 $string['additionalactivitiesthree'] = 'هذا هو الاسم الذي سيظهر في الشهادة.';
 $string['additionalactivitiestwo'] = 'الشهادات\\الشارات ستكون مدرجة على صفحة النشاط فقط إذا تم إصدارها باستخدام معرف الإنجاز هذا';
 $string['apikeyhelp'] = 'أدخل مفتاح API من accredible.com';

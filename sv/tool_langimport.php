@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['downloadnotavailable'] = 'Det går inte att ansluta till hämtningsservern. Det är inte möjligt att installera eller uppdatera språkpaketen automatiskt. Ladda ner lämplig ZIP-fil(er) från <a href="{$a->src}">{$a->src}</a> och packa upp dem manuellt till din datakatalog <code>{$a->dest}</code>';
+$string['downloadnotavailable'] = 'Det går inte att ansluta till nedladdningsservern. Det är inte möjligt att installera eller uppdatera språkpaketen automatiskt. Ladda ner lämplig ZIP-fil(er) från <a href="{$a->src}">{$a->src}</a> och packa upp dem manuellt till din datakatalog <code>{$a->dest}</code>';
 $string['install'] = 'Installera valda språkpaket';
 $string['installedlangs'] = 'Installerade språkpaket';
 $string['installfailed'] = 'Installationen av språkpaket misslyckades!';

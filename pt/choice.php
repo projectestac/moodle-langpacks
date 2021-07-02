@@ -49,7 +49,7 @@ $string['choiceopen'] = 'Permitir respostas a partir de';
 $string['choiceoptions'] = 'Opções de resposta';
 $string['choiceoptions_help'] = 'Especifique as opções de resposta que os participantes podem escolher.
 
-Pode preencher o número de opções que pretender, sendo que as que deixar em branco não serão apresentadas. Se necessitar mais do que 8 opções, clique no botão "Adicionar 3 campo(s) ao formulário".';
+Pode preencher o número de opções que pretender. As opções que deixar em branco não serão apresentadas. Se necessitar mais do que 8 opções, clique no botão "Adicionar 3 campo(s) ao formulário".';
 $string['choicesaved'] = 'A sua resposta foi guardada';
 $string['choicetext'] = 'Questão da sondagem';
 $string['chooseaction'] = 'Selecione uma ação...';

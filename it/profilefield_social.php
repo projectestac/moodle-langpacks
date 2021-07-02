@@ -27,7 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['aimid'] = 'AIM ID';
 $string['icqnumber'] = 'Numero ICQ';
+$string['invalidnetwork'] = 'Social network non valido';
 $string['msnid'] = 'MSN ID';
+$string['networkinuse'] = 'Social network già aggiunto';
+$string['networktype'] = 'Tipo di social network';
+$string['pluginname'] = 'Social';
 $string['skypeid'] = 'Skype ID';
 $string['webpage'] = 'Pagina web';
 $string['yahooid'] = 'Yahoo ID';

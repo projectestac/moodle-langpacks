@@ -93,7 +93,7 @@ $string['clearaggregatedgrades'] = 'Garbitu kalifikazio batura guztiak';
 $string['clearaggregatedgrades_help'] = 'Berrezarri egingo dira bidalketetan batutako kalifikazioak eta baita ebaluazioetakoak ere. Kalifikazio hauek hasieratik berriz kalkulatu ditzakezu, kalifikazioen ebaluazio-fasean.';
 $string['clearaggregatedgradesconfirm'] = 'Ziur zaude kalkulatutako kalifikazioak eta ebaluazioaren kalifikazioak ezabatu nahi dituzula?';
 $string['clearassessments'] = 'Garbitu ebaluazioak';
-$string['clearassessments_help'] = 'Bidalketen eta ebaluazioen kalifikazioak berrabiaraziko dira. Ebaluazio-formularioen informazioa gorde egingo da, baina aztertzaile guztiek ebaluazio-formularioa berriro zabaldu eta gorde beharko dute emandako kalifikazioak berriro kalkulatzeko.';
+$string['clearassessments_help'] = 'Bidalketen eta ebaluazioen kalifikazioak berrabiaraziko dira. Ebaluazio-formularioen informazioa gorde egingo da, baina ebaluatzaile guztiek ebaluazio-formularioa berriro zabaldu eta gorde beharko dute emandako kalifikazioak berriro kalkulatzeko.';
 $string['clearassessmentsconfirm'] = 'Ziur zaude ebaluazioaren kalifikazio guztiak ezabatu nahi dituzula? Ezin izango duzu berriz informazio hau eskuratu, ebaluatzaileek esleitutako lanak berriz kalifikatu beharko dituzte.';
 $string['conclusion'] = 'Ondorioak';
 $string['conclusion_help'] = 'Erabiltzaileari ondorioak agertuko zaizkio zeregina amaitutakoan.';
@@ -211,7 +211,7 @@ $string['modulename_help'] = 'Tailerra jarduerak ikasleen lanak jaso, berrikusi 
 
 Ikasleak edozein eduki digital bidal dezake (fitxategiak), hala nola testu-fitxategiak, eta Moodlen zuzenean ere idatz dezake testu editorea erabilita.
 
-Bidalitako lanak irakasleak zehazturiko irizpide anitzeko ebaluazio-formulario bat erabilita kalifikatzen dira. Aurretik parekoen arteko ebaluazio prozesua eta ebaluazio formularioa ulertzeko praktikak egin daitezke irakasleak emandako adibiderako bidalketak erabilita, ebaluazio-erreferentzia batekin batera. Ikasleek kide baten edo gehiagoren ebaluazioa egiteko aukera du. Bidalketak eta berrikusketak anonimoak izan daitezke nahi izanez gero.
+Bidalitako lanak irakasleak zehazturiko irizpide anitzeko ebaluazio-formulario bat erabilita kalifikatzen dira. Aurretik parekoen arteko ebaluazio prozesua eta ebaluazio formularioa ulertzeko praktikak egin daitezke irakasleak emandako adibiderako bidalketak erabilita, ebaluazio-erreferentzia batekin batera. Ikasleek kide baten edo gehiagoren ebaluazioa egiteko aukera du. Bidalketak eta ebaluatzaileak anonimoak izan daitezke nahi izanez gero.
 
 Ikasleak bi kalifikazio lortuko ditu tailerra jardueran, bat bere bidalketarena eta bestea beste kideei eginiko kalifikazioarena. Biak kalifikatzailean gordetzen dira.';
 $string['modulenameplural'] = 'Tailerrak';
@@ -346,7 +346,7 @@ $string['submissionattachment'] = 'Eranskina';
 $string['submissionby'] = '{$a} -ren bidalketa';
 $string['submissioncontent'] = 'Bidalketaren edukia';
 $string['submissiondeleteconfirm'] = 'Ziur zaude hurrengo bidalketa ezabatu nahi duzula?';
-$string['submissiondeleteconfirmassess'] = 'Ziur zaude hurrengo bidalketa ezabatu nahi duzula? Kontuan izan honek bidalketarekin lotutako {$a->count} ebaluazio ere ezabatuko dituela, eta honek berrikuslearen kalifikazioan eragina izan dezakela.';
+$string['submissiondeleteconfirmassess'] = 'Ziur zaude hurrengo bidalketa ezabatu nahi duzula? Kontuan izan honek bidalketarekin lotutako {$a->count} ebaluazio ere ezabatuko dituela, eta honek ebaluatzailearen kalifikazioan eragina izan dezakeela.';
 $string['submissionend'] = 'Bidalketetarako amaiera-data';
 $string['submissionendbeforestart'] = 'Bidalketetarako amaiera-data ezin da bidalketak egiteko hasiera baino lehenagokoa izan';
 $string['submissionenddatetime'] = 'Bidalketetarako amaiera-data: {$a->daydatetime} ({$a->distanceday})';

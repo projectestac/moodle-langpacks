@@ -133,7 +133,7 @@ $string['browsersecurity_help'] = '"JavaScript segurtasuna duen pantaila osoko p
 * Galdetegia soilik hasiko da ikaslearen nabigatzaileak JavaScript-a gaituta badauka
 * Galdetegia pantaila osoko popup leihoan zabalduko da, eta ez du nabigazio-kontrolik izango
 * Ahal den neurrian, ikasleei ez zaie utziko copy paste moduko laguntza tresnarik erabiltzea.';
-$string['cachedef_overrides'] = 'Erabiltzaile eta taldeen baliogabetzeen informazioa';
+$string['cachedef_overrides'] = 'Erabiltzaile eta talde-salbuespenen informazioa';
 $string['calculated'] = 'Kalkulatutakoa';
 $string['calculatedquestion'] = 'Kalkulatutako galdera ezin erabili ondorengo lerroan: {$a}. Galdera ez da kontuan hartuko.';
 $string['cannotcreatepath'] = 'Ezin da bidea sortu ({$a})';
@@ -443,7 +443,7 @@ $string['importingquestions'] = 'Fitxategitik {$a} galdera inportatzen';
 $string['importmax10error'] = 'Galderan errore bat dago. Ezin duzu hamar erantzun baino gehiago izan.';
 $string['importmaxerror'] = 'Galderan errore bat dago. Erantzun gehiegi dago.';
 $string['importquestions'] = 'Inportatu galderak fitxategi batetik';
-$string['inactiveoverridehelp'] = '* Baliogabetze hau ez-aktibo dago erabiltzailearen jarduerarako sarbidea murriztuta dagoelako. Honen arrazoia taldeko edo rol-esleipena izan daiteke, bestelako eskuragarritasun baldintzak edo jarduera ezkutuan egotea.';
+$string['inactiveoverridehelp'] = '* Salbuespen hau ez-aktibo dago erabiltzailearen jarduerarako sarbidea murriztuta dagoelako. Honen arrazoia taldeko edo rol-esleipena izan daiteke, bestelako eskuragarritasun baldintzak edo jarduera ezkutuan egotea.';
 $string['incorrect'] = 'Ez zuzena';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa galdetegietan';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak Galdetegia motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
@@ -648,7 +648,7 @@ $string['pleaseclose'] = 'Zure eskaria prozesatu da. Orain leihoa itxi dezakezu'
 $string['pluginadministration'] = 'Galdetegiaren kudeaketa';
 $string['pluginname'] = 'Galdetegia';
 $string['popup'] = 'Erakutsi galdetegia leiho \'seguru\' batean';
-$string['popupblockerwarning'] = 'Galdetegiaren zati hau modu seguruan dago eta horrek esan nahi du leiho seguru batean osatu behar duzula galdetegia. Mesedez, desaktibatu irekitzen diren leihoen blokeoa. Eskerrik asko.';
+$string['popupblockerwarning'] = 'Galdetegiaren zati hau modu seguruan dago eta horrek esan nahi du leiho seguru batean osatu behar duzula galdetegia. Mesedez, desaktibatu popup leihoen blokeoa. Eskerrik asko.';
 $string['popupnotice'] = 'Ikasleek galdetegi hau modu seguruan ikusiko dute';
 $string['preprocesserror'] = 'Errorea gertatu da prozesamenduaren aurretik!';
 $string['preview'] = 'Aurreikusi';

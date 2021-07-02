@@ -65,6 +65,7 @@ $string['question_will_start_now'] = 'السؤال سيبدأ الآن';
 $string['questions'] = 'الأسئلة';
 $string['quiz_not_running'] = '<p>إنتظر قيام المعلم ببدء الاختبار.</p><p>استعمل زر إعادة التحميل للتحقق من بدئه.</p>';
 $string['save_question'] = 'حفظ السؤال';
+$string['session_name_required'] = 'اسم الجولة مطلوب حتماً';
 $string['short_answer'] = 'إجابة قصيرة';
 $string['short_math_answer'] = 'إجابة رياضية قصيرة';
 $string['startquiz'] = 'بدء الاختبار';

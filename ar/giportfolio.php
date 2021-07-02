@@ -39,6 +39,7 @@ $string['eventchapterupdated'] = 'فصل تم تحديثه';
 $string['eventchapterviewed'] = 'فصل تمت معاينته';
 $string['feedbackupdated'] = '...الإفادات تم تحديثها...';
 $string['giportfolio:addinstance'] = 'إضافة محفظة جديدة';
+$string['name'] = 'الاسم:';
 $string['page-mod-giportfolio-x'] = 'أي صفحة لوحدة المحفظة';
 $string['pagesize'] = 'التسليمات الظاهرة لكل صفحة';
 $string['quickgrade_help'] = 'إذا مُكّن، واجبات متعددة يمكن تقييمها في صفحة واحدة. أضف التقديرات والتعليقات ثم انقر زر "حفظ كل إفاداتي" لحفظ كل التغييرات لهذه الصفحة.';

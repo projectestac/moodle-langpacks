@@ -48,6 +48,7 @@ $string['bim_register_timeout_heading'] = 'انتهت مهلة الوقت خلا
 $string['bim_release_manage_any'] = 'مع أي منشورات.</p>';
 $string['bim_release_manage_criteria'] = 'مع المنشورات المطابقة لهذه المعايير:</p><ul>';
 $string['bim_table_live_blog'] = 'مدونة الطالب';
+$string['bim_table_name'] = 'الاسم';
 $string['bim_table_questions'] = 'الأسئلة';
 $string['bim_tabs_details'] = 'طلابك';
 $string['bim_tabs_find'] = 'إبحث عن الطالب';

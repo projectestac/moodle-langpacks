@@ -48,5 +48,5 @@ $string['privacy:preference:defaultmark'] = 'A avaliação predefinida para uma 
 $string['privacy:preference:penalty'] = 'A penalização para cada tentativa incorreta quando o comportamento das é o \'Interativo com múltiplas tentativas\' ou \'Modo adaptável \'.';
 $string['privacy:preference:shuffleanswers'] = 'Se as respostas devem, ou não, ser baralhadas automaticamente.';
 $string['shuffle'] = 'Baralhar';
-$string['tagsnotallowed'] = '{$a->tag} não é permitido. (Apenas {$a->allowed} é permitido.)';
-$string['tagsnotallowedatall'] = '{$a->tag} não é permitido. (Aqui não é permitida a utilização de HTML.)';
+$string['tagsnotallowed'] = '\'{$a->tag}\' não é permitida. (Apenas é permitida \'{$a->allowed}\')';
+$string['tagsnotallowedatall'] = '\'{$a->tag\'} não é permitida. (Não é permitida a utilização de HTML)';

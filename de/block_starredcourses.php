@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['displaycategories'] = 'Kursbereiche anzeigen';
 $string['displaycategories_help'] = 'Zeigt die Kurskategorie bei den markierten Kursen im Block Kursübersicht an.';
-$string['nocourses'] = 'Keine favorisierte Kurse';
+$string['nocourses'] = 'Keine favorisierten Kurse';
 $string['pluginname'] = 'Favorisierte Kurse';
 $string['privacy:metadata'] = 'Der Block \'Favorisierte Kurse\' speichert keine personenbezogenen Daten.';
 $string['starredcourses:myaddinstance'] = 'Neuen Block \'Favorisierte Kurse\' zum Dashboard hinzufügen';

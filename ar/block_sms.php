@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addpage'] = 'إضافة صفحة';
 $string['block_sms_api_password'] = 'block_sms_api_password';
+$string['name'] = 'الاسم';
 $string['pagetitle'] = 'أدخل نصاً';
 $string['picturedesc'] = 'الوصف';
 $string['sms_api_password'] = 'كلمة المرور';

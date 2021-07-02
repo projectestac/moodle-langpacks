@@ -96,6 +96,7 @@ $string['modulenameplural'] = 'H5P';
 $string['myattempts'] = 'Els meus intents';
 $string['no_compatible_track'] = 'La interacció ({$a}) no té informació de seguiment o bé el seguiment no és compatible amb la versió actual de l\'activitat.';
 $string['noparticipants'] = 'No hi ha cap participant per mostrar';
+$string['opencontentbank'] = '<a href="{$a}" target="_blank">Accedeix al fitxer H5P al banc de continguts</a> (s\'obre a una finestra nova).';
 $string['outcome'] = 'Competència';
 $string['package'] = 'Fitxer del paquet';
 $string['package_help'] = 'El fitxer del paquet és un fitxer h5p amb contingut interactiu H5P.';

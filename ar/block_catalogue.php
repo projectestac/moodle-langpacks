@@ -135,6 +135,7 @@ $string['question_move'] = 'ماذا تريد أن تنقل؟';
 $string['question_picture'] = 'ما هو المقطع الذي تريد تحرير صورته؟';
 $string['question_roles'] = 'ما هي الوحدة التي تريد إدارة أدوارها المحلية؟';
 $string['question_unindent'] = 'ما هو عنوان الوحدة الذي تريد نقله يساراً؟';
+$string['reports_description_report_roster'] = 'قائمة الطلاب. يمكن إخفاء الأسماء لمساعدتك في تعلمها.';
 $string['sections_description_add'] = 'إضافة مقطع جديد إلى المساق';
 $string['sections_description_edit'] = 'تحرير عنوان المقطع أو وصفه.';
 $string['sections_description_hideshow'] = 'تغيير إعداد إظهار المقطع.';

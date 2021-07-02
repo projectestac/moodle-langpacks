@@ -45,6 +45,7 @@ $string['before_answering_end_date'] = 'Ikasle Galdetegi hau erantzuteko amaiera
 $string['before_answering_start_date'] = 'Ikasle Galdetegi hau erantzuteko hasiera-data: {$a}';
 $string['before_submission_end_date'] = 'Ikasle Galdetegi honetan galderak bidaltzeko amaiera-data: {$a}';
 $string['before_submission_start_date'] = 'Ikasle Galdetegi honetan galderak bidaltzeko hasiera-data: {$a}';
+$string['cachedef_permissionssync'] = 'IkasleGaldetegia baimenen sinkronizazioaren jarraipena';
 $string['cannotcapturecommenthistory'] = 'Ezin izan da iruzkinen historia eskuratu';
 $string['changeselectedsstate'] = 'Aldatu ezazu hurrengo galderen egoera:<br /><br />{$a}';
 $string['collapseall'] = 'Tolestu iruzkin guztiak';

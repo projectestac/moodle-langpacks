@@ -37,5 +37,7 @@ $string['dockable_help'] = 'يقرر ما إذا كان بالإمكان إرس�
 $string['flexpagenav:addinstance'] = 'إضافة كتلة جديدة من قائمة Flexpage';
 $string['flexpagewithchildren'] = '{$a} مع الأطفال';
 $string['flexpagewithoutchildren'] = '{$a} بدون الأطفال';
+$string['formnamerequired'] = 'اسم القائمة مطلوب حتماً.';
+$string['name'] = 'الاسم';
 $string['pluginname'] = 'قائمة Flexpage';
 $string['urlmuststartwith'] = 'عنوان الرابط المُدخل ينبغي أن يبدأ بـ http:// أو https://';

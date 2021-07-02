@@ -271,7 +271,7 @@ $string['jsordering_help'] = 'JavaScript-sortering låter dig sortera rapporttab
 $string['label_field'] = 'Ettikettfält';
 $string['label_field_help'] = 'Fältet som namnger objekt i grafen';
 $string['lastexecutiontime'] = 'Körningstid = {$a} (sek)';
-$string['legacylognotenabled'] = 'Loggning i det gamla formatet måste vara aktiverad. Gå till <em>Administrera webbplats &#10132; Pluginmoduler &#10132; Loggning &#10132; Gammalt loggformat &#10132; Logga i gammalt format</em>';
+$string['legacylognotenabled'] = 'Loggning i det gamla formatet måste vara aktiverad. Gå till <em>Administrera webbplats &#10132; Pluginmoduler &#10132; Loggning &#10132; Äldre loggformat &#10132; Logga i äldre format</em>';
 $string['limitcategories'] = 'Begränsa antalet kategorier i en graf';
 $string['line'] = 'Linjegraf';
 $string['linesummary'] = 'En linjegraf med flera dataserier';
@@ -354,7 +354,7 @@ $string['reporttable_help'] = '<p>Detta är bredden på tabellen som ska visa ra
 $string['reporttableui'] = 'Användargränssnitt för rapporttabell';
 $string['reporttableuiinfo'] = 'Visa rapporttabellen som: Enkel rullningsbar HTML-tabell, jQuery med kolumnsortering eller DataTables JS-bibliotek (Kolumnsortering, fast sidhuvud, sökning, personsökning...)';
 $string['repository'] = 'Lagringsplats för rapporter';
-$string['repository_help'] = 'Du kan importera exempelrapporter från ett offentligt delad lagringsplats.
+$string['repository_help'] = 'Du kan importera exempelrapporter från en publikt delad lagringsplats.
 
 Vänligen lägg märke till att det finns en daglig gräns för antalet anrop till lagringsplatsen.
 

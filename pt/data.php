@@ -53,7 +53,7 @@ Os marcadores para os campos são definidos no formato <b>[[nomedocampo]]</b>. T
 Apenas os marcadores que estão na lista <b>Marcadores disponíveis</b> podem ser usados no modelo atual.';
 $string['availabletodate'] = 'Disponível até';
 $string['availabletodatevalidation'] = '"Disponível até" não pode ser anterior a "Disponível a partir de".';
-$string['blank'] = 'Vazio';
+$string['blank'] = 'Em branco';
 $string['buttons'] = 'Botões';
 $string['bynameondate'] = 'por  {$a->name} - {$a->date}';
 $string['calendarend'] = 'Fecha \'{$a}\'';
@@ -175,7 +175,7 @@ $string['fieldheightlistview'] = 'Altura no modo de lista';
 $string['fieldheightsingleview'] = 'Altura no modo registo';
 $string['fieldids'] = 'Identificadores de campo';
 $string['fieldmappings'] = 'Mapeamentos dos campos';
-$string['fieldmappings_help'] = 'Este menu permite-lhe manter os dados da base de dados existente. Para preservar os dados de um campo, este deverá ser mapeado para um novo campo. Os campos podem ser deixados em branco, caso em que não será copiada informação. Todos os campos que não sejam mapeados para novos campos serão apagados e a sua informação perdida.
+$string['fieldmappings_help'] = 'Este menu permite-lhe manter os dados da base de dados existente. Para preservar os dados de um campo, este deverá ser mapeado para um novo campo. Os campos podem ser deixados em branco, caso em que não será copiada a informação. Todos os campos que não sejam mapeados para novos campos serão apagados e a sua informação perdida.
 Apenas podem ser mapeados campos do mesmo tipo, pelo que cada lista pendente apresentará os tipos permitidos. Não é permitido o mapeamento de um campo para mais do que um novo campo.';
 $string['fieldname'] = 'Nome do campo';
 $string['fieldnametype'] = '{$a->name} ({$a->type})';

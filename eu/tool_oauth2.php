@@ -103,6 +103,7 @@ $string['issuerusein_help'] = 'OAuth 2 zerbitzuak zenbait barne-zerbitzutan, sar
 $string['issueruseineverywhere'] = 'Sarrera-orria eta barne-zerbitzuak';
 $string['issueruseininternalonly'] = 'Barne-zerbitzuak soilik';
 $string['issueruseinloginonly'] = 'Sarrera-orria soilik';
+$string['linkedin_service'] = 'LinkedIn';
 $string['logindisplay'] = 'Erakutsi sarrera-orrian honela:';
 $string['loginissuer'] = 'Baimendu saioa hastea';
 $string['microsoft_service'] = 'Microsoft';

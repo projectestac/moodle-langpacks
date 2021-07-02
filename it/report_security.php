@@ -91,6 +91,7 @@ $string['check_preventexecpath_details'] = '<p>Consentire la configurazione degl
 $string['check_preventexecpath_name'] = 'Percorsi degli eseguibili';
 $string['check_preventexecpath_ok'] = 'I percorsi degli eseguibili sono configurabili solamente nel file config.php';
 $string['check_preventexecpath_warning'] = 'I percorsi degli eseguibili sono configurabili tramite GUI amministrata.';
+$string['check_publicpaths_403'] = '(E\' stato restituito un 403, dovrebbe essere un 404)';
 $string['check_riskadmin_detailsok'] = '<p>Per favore verifica il seguente elenco di amministratori:</p>{$a}';
 $string['check_riskadmin_detailswarning'] = '<p>Per favore verifica il seguente elenco di amministratori:
 </p>{$a->admins}

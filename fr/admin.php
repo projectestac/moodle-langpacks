@@ -189,9 +189,7 @@ $string['configallowview'] = 'Sélectionner les rôles qu\'un utilisateur verra,
 $string['configallusersaresitestudents'] = 'Pour les activités affichées sur la page d\'accueil du site, TOUS les utilisateurs doivent-ils être considérés comme des étudiants ? Si vous choisissez « Oui », tout utilisateur possédant un compte confirmé pourra participer à ces activités en tant qu\'étudiant. Si vous choisissez « Non », seuls les participants d\'au moins un cours pourront accéder aux activités de la page d\'accueil.';
 $string['configauthenticationplugins'] = 'Veuillez choisir les plugins d\'authentification que vous voulez utiliser et les arranger dans l\'ordre de vérification désiré.';
 $string['configautolang'] = 'Détecter automatiquement la langue par défaut d\'après les réglages du navigateur, si la langue par défaut du site est désactivée.';
-$string['configautolangusercreation'] = 'Si ce réglage est activé, lorsqu\'un compte utilisateur est automatiquement créé lors de sa première connexion (par exemple avec l\'authentification LDAP ou OAuth 2), la langue du navigateur de l\'utilisateur est définie comme sa langue préférée. Sinon, la langue par défaut du site est utilisée pour cela.
-
-Utiliser durant la création des utilisateurs la langue du navigateur des utilisateurs';
+$string['configautolangusercreation'] = 'Si ce réglage est activé, lorsqu\'un compte utilisateur est automatiquement créé lors de sa première connexion (par exemple avec l\'authentification LDAP ou OAuth 2), la langue du navigateur de l\'utilisateur est définie comme sa langue préférée. Sinon, la langue par défaut du site est utilisée pour cela.';
 $string['configautologinguests'] = 'Connecter automatiquement en tant que visiteur anonyme les utilisateurs accédant directement à un cours ouvert aux visiteurs anonymes.';
 $string['configbloglevel'] = 'Ce réglage permet de restreindre le niveau auquel les blogs des utilisateurs peuvent être consultés sur ce site. Veuillez noter que ce réglage indique le contexte maximal de la personne qui <em>consulte</em> le blog, et non l\'auteur, ni le type des messages de blog. Les blogs peuvent également être désactivés, si vous ne les voulez pas du tout.';
 $string['configcalendarcustomexport'] = 'Activer intervalle de dates personnalisé dans l\'exportation des calendriers';
@@ -380,7 +378,7 @@ $string['configsitedefaultlicensehelp'] = 'La licence par défaut sera utilisée
 $string['configsitemailcharset'] = 'Ce réglage définit l\'encodage de caractères par défaut des courriels envoyés depuis ce site.';
 $string['configsitemaxcategorydepth'] = 'Nombre maximum de niveaux de catégories';
 $string['configsitemaxcategorydepthhelp'] = 'Ce réglage détermine le nombre maximal de niveaux de catégories filles affichés dans les listes de catégories ou listes combinées. Les niveaux de catégories plus profonds apparaîtront sous forme de liens et pourront être dépliés par l\'utilisateur.';
-$string['configslasharguments'] = 'Les « <em>slash arguments</em> » (qui utilisent <em>PATH_INFO</em>) sont requis pour un affichage correct des paquetages SCORM et des ressources multi-fichiers. Si votre serveur web ne supporte pas les « <em>slash arguments<em> » et que vous ne pouvez pas les configurer, ce réglage peut être désactivé, mais alors certains éléments de Moodle ne fonctionneront plus.<br />Remarque : l\'utilisation des « <em>slash arguments</em> » sera requise dans les prochaines versions de Moodle.';
+$string['configslasharguments'] = 'Les « <em>slash arguments</em> » (qui utilisent <em>PATH_INFO</em>) sont requis pour un affichage correct des paquetages SCORM et des ressources multi-fichiers. Si votre serveur web ne supporte pas les « <em>slash arguments</em> » et que vous ne pouvez pas les configurer, ce réglage peut être désactivé, mais alors certains éléments de Moodle ne fonctionneront plus.<br />Remarque : l\'utilisation des « <em>slash arguments</em> » sera requise dans les prochaines versions de Moodle.';
 $string['configsmartpix'] = 'Lorsque ce réglage est activé, les icônes sont affichées via un script PHP, qui les cherche dans le thème actuel, puis dans tous les thèmes parents, et finalement dans le dossier /pix de Moodle. Ainsi il n\'est plus nécessaire de dupliquer les images dans les thèmes, pour un léger coût de performance.';
 $string['configsmtpauthtype'] = 'Ce réglage détermine le type d\'authentification à utiliser sur le serveur SMTP.';
 $string['configsmtphosts'] = 'Indiquer le nom complet d\'un ou plusieurs serveurs SMTP locaux que Moodle devra utiliser pour envoyer des courriels (par exemple, « mail.a.com » ou « mail.a.com;mail.b.com »). Pour indiquer un port non standard (c\'est-à-dire autre que le port 25), utiliser la syntaxe [server]:[port], par exemple « mail.a.com:587 ». Pour des connexions sécurisées, le port 465 est habituellement utilisé avec SSL, et le port 587 est habituellement utilisé avec TLS ; veuillez si nécessaire indiquer le protocole sécurisé ci-dessous. Si ce paramètre est laissé vide, Moodle utilisera la méthode par défaut de PHP pour envoyer des courriels.';
@@ -525,7 +523,7 @@ $string['displayloginfailures'] = 'Afficher les échecs de connexion';
 $string['divertallemails'] = 'Déviation des courriels';
 $string['divertallemailsdetail'] = 'À utiliser en environnement de développement lors des tests de l\'envoi de courriels. Ne doit pas être utilisé en production.';
 $string['divertallemailsexcept'] = 'Exceptions de la déviation de courriels';
-$string['divertallemailsexcept_desc'] = 'Une liste de règles d\'exceptions d\'adresses de courriel, séparés soit par des virgules, soit par des fins de ligne. Chaque règle est interprétée comme une expression régulière, par exemple
+$string['divertallemailsexcept_desc'] = 'Une liste de règles d\'exceptions d\'adresses de courriel, séparées soit par des virgules, soit par des fins de ligne. Chaque règle est interprétée comme une expression régulière, par exemple :
 <pre>simone@acme.com
 .*@acme.com
 fred(\\+.*)?@acme.com
@@ -634,7 +632,7 @@ $string['feedbacksettings'] = 'Réglages de feedback';
 $string['fileconversioncleanuptask'] = 'Nettoyage des enregistrements temporaires des conversions de fichiers';
 $string['filecreated'] = 'Nouveau fichier créé';
 $string['filescleanupperiod'] = 'Nettoyer les fichiers supprimés';
-$string['filescleanupperiod_help'] = 'Ce réglage détermine la fréquence de nettoyage des fichiers supprimés. Ces fichiers sont associés à des contextes qui n\'existent plus, par exemple lorsqu\'un cours est supprimé. Remarque : ce réglage peut conduire a des fichiers manquants dans un cours qui a été sauvegardé, supprimé, puis est restauré, si le réglages « Inclure les fichiers » est désactivé dans les « Réglages des sauvegardes automatiques ».';
+$string['filescleanupperiod_help'] = 'Ce réglage détermine la fréquence de nettoyage des fichiers supprimés. Ces fichiers sont associés à des contextes qui n\'existent plus, par exemple lorsqu\'un cours est supprimé. Remarque : ce réglage peut conduire à des fichiers manquants dans un cours qui a été sauvegardé, supprimé, puis est restauré, si le réglage « Inclure les fichiers » est désactivé dans les « Réglages des sauvegardes automatiques ».';
 $string['filesizeunits'] = 'unités de taille de fichiers';
 $string['filestoredin'] = 'Enregistre le fichier dans le dossier :';
 $string['filestoredinhelp'] = 'Où le fichier doit être stocké';
@@ -1313,7 +1311,7 @@ $string['task_logretainruns_desc'] = 'Le nombre d\'exécutions de chaque tâche 
 $string['task_logretention'] = 'Période de conservation';
 $string['task_logretention_desc'] = 'La durée maximale de conservation des journaux. Ce réglage est complémentaire du réglage « Exécutions conservées » : celui qui est atteint en premier sera utilisé.';
 $string['task_logtostdout'] = 'Afficher l\'output des journaux';
-$string['task_logtostdout_desc'] = 'Ce réglage spécifie si l\'output des tâches doit être affichée quand les tâches sont en cours d\'exécution.';
+$string['task_logtostdout_desc'] = 'Ce réglage spécifie si l\'output des tâches doit être affiché quand les tâches sont en cours d\'exécution.';
 $string['task_result'] = 'Résultat';
 $string['task_result:failed'] = 'Échec';
 $string['task_scheduled_concurrency_limit'] = 'Limite du nombre de tâches programmées simultanées';

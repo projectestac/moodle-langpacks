@@ -161,6 +161,7 @@ $string['organizationname'] = 'Organisation';
 $string['passivemode'] = 'Passive mode';
 $string['phone1'] = 'Phone';
 $string['phone2'] = 'Mobile phone';
+$string['plugindisabled'] = 'SAML2 authentication plugin is disabled';
 $string['pluginname'] = 'SAML2';
 $string['privacy:no_data_reason'] = 'The Saml2 authentication plugin does not store any personal data.';
 $string['privatekeypass'] = 'Private certificate key password';

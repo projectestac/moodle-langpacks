@@ -682,7 +682,7 @@ $string['emaildisable'] = 'La dirección de correo no está habilitada';
 $string['emaildisableclick'] = 'Haga clic aquí para desactivar el envío de correo a esta dirección';
 $string['emaildisplay'] = 'Mostrar correo';
 $string['emaildisplay_help'] = 'Usuarios privilegiados (como profesores y gestores) siempre podrán ver su dirección de correo.';
-$string['emaildisplaycourse'] = 'Mostrar mi dirección de correo sólo a mis compañeros de curso';
+$string['emaildisplaycourse'] = 'Permitir que sólo otros participantes del curso vean mi dirección de correo';
 $string['emaildisplaycoursemembersonly'] = '(Visible para otros participantes del curso)';
 $string['emaildisplayeveryone'] = '(Visible para todos)';
 $string['emaildisplayhide'] = '(Oculto a todos los usuarios no-privilegiados)';
@@ -829,7 +829,7 @@ $string['eventdashboardreset'] = 'Restablecimiento del tablero de eventos';
 $string['eventdashboardsreset'] = 'Restablecimiento del tablero de eventos';
 $string['eventdashboardviewed'] = 'Tablero de eventos vistos';
 $string['eventdatabasetextfieldcontentreplaced'] = 'Búsqueda y reemplazo en base de datos global';
-$string['eventemailfailed'] = '';
+$string['eventemailfailed'] = 'No se pudo enviar el correo electrónico';
 $string['eventname'] = 'Nombre evento';
 $string['eventrecentactivityviewed'] = 'Actividad reciente vista';
 $string['eventsearchindexed'] = 'Datos de búsqueda indexados';
@@ -1056,8 +1056,9 @@ $string['idnumbergroup_help'] = 'El número ID de un grupo sólo se usa cuando s
 $string['idnumbergrouping'] = 'Número de identificación del agrupamiento';
 $string['idnumbergrouping_help'] = 'El número ID de un agrupamiento sólo se usa cuando se compara al agrupamiento contra un sistema externo y no se muestra en ningún otro lugar en el sitio. Si el agrupamiento tiene un código oficial se pueden introducir, de lo contrario el campo se puede dejar en blanco.';
 $string['idnumbermod'] = 'Número ID';
-$string['idnumbermod_help'] = 'El número ID proporciona una forma de identificar la actividad a fin de poder calcular la calificación. Si la actividad no está incluida en ningún cálculo de calificación, el campo Número ID puede dejarse en blanco. El Número ID puede asimismo ajustarse en la página de edición del cálculo de calificaciones, si bien únicamente
-puede editarse en la página de actualización de la actividad.';
+$string['idnumbermod_help'] = 'La configuración de un número de ID proporciona una forma de identificar la actividad o el recurso para fines como el cálculo de calificaciones o informes personalizados. De lo contrario, el campo se puede dejar en blanco.
+
+Para las actividades calificables, el número de ID también se puede configurar en el libro de calificaciones, aunque solo se puede editar en la página de configuración de la actividad.';
 $string['idnumbertaken'] = 'Este número ID ya está ocupado';
 $string['imagealt'] = 'Descripción de la imagen';
 $string['import'] = 'Importar';
@@ -1184,6 +1185,7 @@ $string['loginstepsnone'] = '<p>¡Hola!</p>
 <p>Todo lo que tiene que hacer es inscribirse en esta página.</p>
 <p>Si alguna otra persona hubiera elegido su nombre de usuario o su contraseña, deberá elegir un nombre de usuario diferente.</p>';
 $string['loginto'] = 'Entrar a {$a}';
+$string['logoof'] = 'Logo de {$a}';
 $string['logout'] = 'Cerrar sesión';
 $string['logoutconfirm'] = '¿Realmente desea salir?';
 $string['logs'] = 'Registros';
@@ -1235,7 +1237,7 @@ $string['maxsizeandattachments'] = 'Tamaño máximo de archivo: {$a->size}, núm
 $string['maxsizeandattachmentsandareasize'] = 'El tamaño máximo para los archivos nuevos es: {$a->size}, el número máximo de archivos adjuntos es: {$a->attachments}, el límite global es: {$a->areasize}';
 $string['memberincourse'] = 'Personas en el curso';
 $string['messagebody'] = 'Cuerpo del mensaje';
-$string['messagedselectedusers'] = 'Se ha enviado un mensaje a los usuarios seleccionados y se ha reajustado la lista de receptores.';
+$string['messagedselectedusers'] = 'Se ha enviado un mensaje a los usuarios seleccionados y se ha restablecido la lista de destinatarios.';
 $string['messagedselectedusersfailed'] = 'Algo ha ido mal al enviar mensajes a los usuarios seleccionados. Algunos pueden haber recibido el mensaje.';
 $string['messageprovider:asyncbackupnotification'] = 'Notificaciones de copia de seguridad/restauración asíncronas';
 $string['messageprovider:availableupdate'] = 'Notificaciones de actualización disponibles';
@@ -1298,15 +1300,16 @@ $string['modulesetup'] = 'Instalando el módulo de tablas';
 $string['modulesuccess'] = 'El módulo de tablas {$a} se instaló correctamente';
 $string['modulesused'] = 'Módulos utilizados';
 $string['modvisible'] = 'Disponibilidad';
-$string['modvisible_help'] = 'Si la disponibilidad es configurada como \'Mostrar en la página del curso\', la actividad o recurso estará disponible para los estudiantes (sujeta a las restricciones que haya dispuesto).<br><br>
-Si la disponibilidad es configurada como \'Ocultar a los estudiantes\', la actividad o recurso estará solo disponible para usuarios con permiso para ver las actividades ocultas (por defecto, usuarios con el rol de profesor o profesor sin permiso de edición)';
+$string['modvisible_help'] = 'Si la disponibilidad se establece en \'Mostrar en la página del curso\', la actividad o el recurso está disponible para los estudiantes (sujeto a las restricciones de acceso que se puedan establecer).
+
+Si la disponibilidad se establece en \'Ocultar a los estudiantes\', la actividad o el recurso sólo está disponible para los usuarios con permiso para ver actividades ocultas (de forma predeterminada, los usuarios con el rol de profesor o profesor no editor).';
 $string['modvisiblehiddensection'] = 'Disponibilidad';
 $string['modvisiblehiddensection_help'] = 'Si la disponibilidad es configurada como \'Ocultar a los estudiantes\', la actividad o recurso estará solo disponible para usuarios con permiso para ver las actividades ocultas (por defecto, usuarios con el rol de profesor o profesor sin permiso de edición).<br><br>
 Si el curso contiene muchas actividades o recursos, la página del curso puede simplificarse al configurar la disponibilidad como \'Hacer disponible pero no mostrar en la página del curso\'. En este caso, un link a la actividad o recurso debe ser facilitado desde otro lugar, como por ejemplo desde el recurso página. La actividad aún estaría listada en el libro de calificaciones y otros informes.';
 $string['modvisiblewithstealth'] = 'Disponibilidad';
-$string['modvisiblewithstealth_help'] = 'Si la disponibilidad es configurada como \'Mostrar en la página del curso\', la actividad o recurso estará disponible para los estudiantes (sujeta a las restricciones que haya dispuesto).<br><br>
+$string['modvisiblewithstealth_help'] = 'Si la disponibilidad es configurada como \'Mostrar en la página del curso\', la actividad o recurso estará disponible para los estudiantes (sujeta a las restricciones de acceso que haya establecido).<br><br>
 Si la disponibilidad es configurada como \'Ocultar a los estudiantes\', la actividad o recurso estará solo disponible para usuarios con permiso para ver las actividades ocultas (por defecto, usuarios con el rol de profesor o profesor sin permiso de edición).<br><br>
-Si el curso contiene muchas actividades o recursos, la página del curso puede simplificarse al configurar la disponibilidad como \'Hacer disponible pero no mostrar en la página del curso\'. En este caso, un link a la actividad o recurso debe ser facilitado desde otro lugar, como por ejemplo desde el recurso página. La actividad aún estaría listada en el libro de calificaciones y otros informes.';
+Si el curso contiene muchas actividades o recursos, la página del curso puede simplificarse al configurar la disponibilidad como \'Hacer disponible pero no mostrar en la página del curso\'. En este caso, un link a la actividad o recurso debe ser facilitado desde otro lugar, como por ejemplo desde una página de recursos. La actividad aún estaría listada en el libro de calificaciones y otros informes.';
 $string['month'] = 'Mes';
 $string['months'] = 'Meses';
 $string['moodledocs'] = 'Moodle Docs';
@@ -1879,7 +1882,7 @@ $string['separateandconnected'] = 'Vías de conocimiento separadas y conectadas'
 $string['separateandconnectedinfo'] = 'La escala está basada en la teoría de las vías de conocimiento separadas (aprendizaje individual)  y conectadas (aprendizaje colaborativo). Esta teoría describe dos maneras diferentes con las que podemos evaluar y aprender a partir de lo que vemos y oímos. <li><strong> Conocedores separados (individulaistas) </strong> se mantiene lo la más objetivso posible, sin incluir sentimientos y emociones. En una discusión con otras personas, les gusta defender sus propias ideas, usando la lógica para encontrar fisuras en las ideas del adversario. </li> <li> <strong> Conocedores conectados (colaborativos) </strong> son más sensibles a otras personas. Son expertos en empatía y tienden a escuchar y hacer preguntas hasta que sienten que pueden conectar y "entender las cosas desde otros punto de vista". Aprenden tratando de compartir experiencias lo que les permite encontrar el conocimiento en las demás personas.';
 $string['servererror'] = 'Se produjo un error mientras se comunicaba con el servidor';
 $string['serverlocaltime'] = 'Hora local del servidor';
-$string['sessionforceclean'] = 'Como medida de seguridad, se han deshabilitado los scripts de usuario en esta sesión';
+$string['sessionforceclean'] = 'Como medida de seguridad, los scripts generados por el usuario se han desactivado dentro de esta sesión.';
 $string['sessiontimeoutsoon'] = 'Su sesión está a punto de caducar. ¿Quiere extender su sesión actual?';
 $string['setcategorytheme'] = 'Ajustar el tema de la categoría';
 $string['setpassword'] = 'Establecer contraseña';
@@ -1898,6 +1901,8 @@ $string['shortnameuser'] = 'Nombre corto del usuario';
 $string['shortsitename'] = 'Nombre corto para el sitio (una palabra)';
 $string['show'] = 'Mostrar';
 $string['showactions'] = 'Mostrar acciones';
+$string['showactivitydates'] = 'Mostrar fechas de actividad';
+$string['showactivitydates_help'] = 'Las fechas de las actividades se muestran en la lista de actividades en la página del curso.';
 $string['showadvancededitor'] = 'Avanzada';
 $string['showadvancedsettings'] = 'Mostrar ajustes avanzados';
 $string['showall'] = 'Mostrar {$a}';
@@ -2091,7 +2096,7 @@ $string['timesplitting:deciles_help'] = 'Este método de división del tiempo di
 $string['timesplitting:decilesaccum'] = 'Décimas acumuladas';
 $string['timesplitting:decilesaccum_help'] = 'Este método de división del tiempo divide el curso en décimas (10 partes iguales), y cada predicción se basa en los datos de todas las décimas anteriores.';
 $string['timesplitting:nosplitting'] = 'Sin límite de tiempo';
-$string['timesplitting:nosplitting_help'] = 'No se define ningún método de división de tiempo para este modelo.';
+$string['timesplitting:nosplitting_help'] = 'No se define ningún intervalo de análisis para este modelo.';
 $string['timesplitting:onemonthafterstart'] = 'Un mes después del inicio';
 $string['timesplitting:onemonthafterstart_help'] = 'Este intérvalo de análisis genera una predicción 1 mes después del inicio analizable.';
 $string['timesplitting:oneweekafterstart'] = 'Una semana después del inicio';
@@ -2102,10 +2107,10 @@ $string['timesplitting:pastmonth'] = 'Mes pasado';
 $string['timesplitting:pastmonth_help'] = 'Este intérvalo de análisis genera predicciones cada mes. Los cálculos de los indicadores se basarán en el último mes.';
 $string['timesplitting:pastweek'] = 'Semana pasada';
 $string['timesplitting:pastweek_help'] = 'Este intérvalo de análisis genera predicciones cada semana. Los cálculos de los indicadores se basarán en la semana anterior.';
-$string['timesplitting:quarters'] = 'Cuartiles';
-$string['timesplitting:quarters_help'] = 'Este método de división del tiempo divide el curso en cuartos (4 partes iguales), y cada predicción se basa en los datos del cuarto anterior más reciente.';
+$string['timesplitting:quarters'] = 'Último cuarto';
+$string['timesplitting:quarters_help'] = 'Este intervalo de análisis divide el curso en cuartos (4 partes iguales), y cada predicción se basa únicamente en los datos del cuarto anterior más reciente.';
 $string['timesplitting:quartersaccum'] = 'Todos los trimestres anteriores';
-$string['timesplitting:quartersaccum_help'] = 'Este método de división del tiempo divide el curso en cuartos (4 partes iguales), y cada predicción se basa en los datos de todos los cuartos anteriores.';
+$string['timesplitting:quartersaccum_help'] = 'Este intervalo de análisis divide el curso en cuartos (4 partes iguales), y cada predicción se basa en los datos acumulados de todos los cuartos anteriores.';
 $string['timesplitting:singlerange'] = 'Desde el principio hasta el final';
 $string['timesplitting:singlerange_help'] = 'Este análisis de intervalos de tiempo considera todo el curso como un único lapso.';
 $string['timesplitting:tenpercentafterstart'] = '10% después del inicio';

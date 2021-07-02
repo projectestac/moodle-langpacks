@@ -25,6 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['activityorder'] = 'Ordinamento attività';
+$string['allactivitiesandresources'] = 'Tutte le attività e le risorse';
+$string['alphabetical'] = 'Alfabetico';
+$string['include'] = 'Includi';
+$string['orderincourse'] = 'Ordine del corso';
 $string['page-report-progress-index'] = 'Report completamento attività';
 $string['page-report-progress-user'] = 'Report completamento attività dell\'utente';
 $string['page-report-progress-x'] = 'Qualsiasi report di completamento attività';

@@ -31,5 +31,5 @@ $string['auth_emailnoemail'] = 'Der Versuch, Ihnen eine E-Mail zu senden, ist ge
 $string['auth_emailrecaptcha'] = 'Diese Option fügt bei der Selbstregistierung per E-Mail ein Kontrollelement hinzu (Bild oder Audio), um die Website gegen Spambots zu schützen. Weitere Infos finden Sie unter <a href="https://www.google.com/recaptcha" target="_blank">https://www.google.com/recaptcha</a>.';
 $string['auth_emailrecaptcha_key'] = 'ReCaptcha aktivieren';
 $string['auth_emailsettings'] = 'Einstellungen';
-$string['pluginname'] = 'E-Mail basierte Selbstregistrierung';
+$string['pluginname'] = 'E-Mail-basierte Selbstregistrierung';
 $string['privacy:metadata'] = 'Das Plugin \'Authentifizierung E-Mail-Selbstregistrierung\' speichert keine personenbezogenen Daten.';

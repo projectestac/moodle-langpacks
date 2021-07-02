@@ -110,7 +110,7 @@ $string['correctfeedbackdefault'] = 'A sua resposta está correta.';
 $string['created'] = 'Criada';
 $string['createdby'] = 'Criada por';
 $string['createdmodifiedheader'] = 'Criada / Atualizada';
-$string['createnewquestion'] = 'Criar uma nova pergunta…';
+$string['createnewquestion'] = 'Criar uma nova pergunta';
 $string['cwrqpfs'] = 'Perguntas aleatórias escolhidas a partir de subcategorias.';
 $string['cwrqpfsinfo'] = '<p>Durante a atualização para o Moodle 1.9, vamos separar as categorias das perguntas em diferentes contextos. O estado de partilha de algumas categorias de perguntas e suas perguntas terá de ser alterado. Isso será necessário nos casos em que uma ou mais perguntas \'aleatórias\' num teste se encontrem em diferentes  categorias partilhadas e não partilhadas (que é o caso neste site). Isso acontece quando uma pergunta aleatória é configurada para selecionar perguntas de subcategorias e algumas dessas subcategorias têm uma configuração de partilha diferente da configuração da categoria ascendente onde a pergunta aleatória foi criada.</p>
 <p>Durante a atualização para o Moodle 1.9, o estado de partilha das seguintes categorias de onde são selecionadas perguntas aleatórias de categorias ascendentes, será alterado para o mesmo estado da categoria em que se encontra a pergunta que seleciona perguntas aleatórias. As perguntas afetadas continuarão a funcionar em todos os testes existentes, enquanto não sejam apagadas.</p>';
@@ -222,7 +222,7 @@ $string['howquestionsbehave_help'] = 'Os alunos podem interagir com as perguntas
 Em alternativa, pode configurar de modo a que os alunos obtenham feedback imediato à medida que vão submetendo as respostas a cada pergunta, e se não acertarem, possam responder de novo (modo interativo com múltiplas tentativas).
 Estes são provavelmente os dois modos de comportamento mais usados.';
 $string['idnumber'] = 'Número ID';
-$string['idnumber_help'] = 'Se usado, o número ID deve ser único dentro de cada categoria de perguntas. É outro modo de identificar uma pergunta, que às vezes é útil, mas geralmente pode ser deixada em branco.';
+$string['idnumber_help'] = 'Se usado, o número de identificação (ID) deve ser único dentro de cada categoria de perguntas. É outro modo de identificar uma pergunta, que às vezes é útil, mas geralmente pode ficar em branco.';
 $string['ignorebroken'] = 'Ignorar ligações quebradas';
 $string['import'] = 'Importar';
 $string['importcategory'] = 'Importar para a categoria';

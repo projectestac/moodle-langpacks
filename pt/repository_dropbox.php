@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['apikey'] = 'Chave para a API Dropbox';
 $string['cachelimit'] = 'Limite da cache';
-$string['cachelimit_info'] = 'Defina o tamanho máximo dos ficheiros (em bytes) a guardar em cache no servidor para os atalhos para o Dropbox. Os ficheiros em cache serão disponibilizados quando os originais já não estiverem disponíveis. Se deixar em branco ou inserir zero significa que todos os ficheiros são guardados em cache, independentemente do seu tamanho.';
+$string['cachelimit_info'] = 'Defina o tamanho máximo dos ficheiros (em bytes) a guardar em cache no servidor para os atalhos para o Dropbox. Os ficheiros em cache serão disponibilizados quando os originais já não estiverem disponíveis. Se deixar o campo em branco ou inserir zero, todos os ficheiros são guardados em cache, independentemente do seu tamanho.';
 $string['configplugin'] = 'Configurar repositório "Dropbox"';
 $string['crontask'] = 'Processamento em segundo plano do repositório Dropbox';
 $string['dropbox'] = 'Dropbox';

@@ -353,12 +353,13 @@ $string['externalbadges_help'] = 'Aquesta àrea mostra insígnies de la vostra m
 $string['externalbadgesp'] = 'Insígnies d\'altres llocs web:';
 $string['externalconnectto'] = 'Per mostrar les insígnies externes necessiteu <a href="{$a}">connectar-vos a una motxilla</a>.';
 $string['fixed'] = 'Data fixa';
-$string['hidden'] = 'Oculta';
+$string['hidden'] = 'Ocult';
 $string['hiddenbadge'] = 'Malauradament, el propietari de la insígnia no ha fet disponible aquesta informació.';
 $string['imageauthoremail'] = 'Correu de l\'autor de la imatge';
 $string['imageauthorname'] = 'Nom de l\'autor de la imatge';
 $string['imageauthorurl'] = 'URL de l\'autor de la imatge';
 $string['imagecaption'] = 'Títol de la imatge';
+$string['includeauthdetails'] = 'Inclou els detalls d\'autenticació amb la motxilla';
 $string['invalidurl'] = 'URL no vàlid';
 $string['issuancedetails'] = 'Expiració de la insígnia';
 $string['issuedbadge'] = 'Informació de la insígnia emesa';
@@ -368,6 +369,7 @@ $string['issuername'] = 'Nom de l\'atorgador';
 $string['issuername_help'] = 'Nom de l\'agent o autoritat atorgadora.';
 $string['issuerurl'] = 'URL de l\'atorgador';
 $string['language'] = 'Idioma';
+$string['listbackpacks'] = 'Llista de motxilles';
 $string['localbadges'] = 'Les meves insígnies del lloc web {$a}';
 $string['localbadgesh'] = 'Les meves insígnies d\'aquest lloc web';
 $string['localbadgesh_help'] = 'Totes les insígnies guanyades en aquest lloc web per completar els cursos, activitats de curs i altres requisits.
@@ -377,6 +379,7 @@ $string['localbadgesp'] = 'Insígnies de {$a}:';
 $string['localconnectto'] = 'Per compartir aquestes insígnies fora d\'aquest lloc web cal <a href="{$a}">connectar-se a una motxilla</a> .';
 $string['makeprivate'] = 'Fes privada';
 $string['makepublic'] = 'Fes pública';
+$string['managebackpacks'] = 'Gestiona les motxilles';
 $string['managebadges'] = 'Gestiona les insígnies';
 $string['message'] = 'Cos del missatge';
 $string['messagebody'] = '<p>Heu guanyat una insígnia "%badgename%"!</p>
@@ -389,6 +392,7 @@ $string['month'] = 'Mes(os)';
 $string['mybackpack'] = 'Configuració de la meva motxilla';
 $string['mybadges'] = 'Les meves insígnies';
 $string['never'] = 'Mai';
+$string['newbackpack'] = 'Afegeix una motxilla nova';
 $string['newbadge'] = 'Afegeix una insígnia nova';
 $string['newimage'] = 'Imatge nova';
 $string['noalignment'] = 'Aquesta insígnia no té associats cap habilitat externa ni cap estàndard.';
@@ -443,6 +447,7 @@ $string['selectgroup_end'] = 'Només es mostren les col·leccions públiques, <a
 $string['selectgroup_start'] = 'Seleccioneu col·leccions de la vostra motxilla per mostrar en aquest lloc:';
 $string['selecting'] = 'Amb les insígnies seleccionades ...';
 $string['setup'] = 'Configura la connexió';
+$string['sitebackpackwarning'] = 'No s\'ha pogut connectar a la motxilla. <br/><br/> Comproveu que a la configuració d\'administració l\'«Adreça electrònica de l\'emissor de la insígnia» sigui el correu electrònic vàlid d\'un compte al lloc web de la motxilla. <br/><br/> Comproveu que la «Contrasenya de l\'emissor de la insígnia» a la <a href="{$a-> url} "> pàgina de configuració de la motxilla</a> sigui la contrasenya correcta per al compte del lloc web de motxilles. <br/> <br/> La motxilla ha retornat: «{$a->warning}»';
 $string['sitebadges'] = 'Insígnies del lloc';
 $string['sitebadges_help'] = 'Les insígnies del lloc només es poden concedir als usuaris per les activitats relacionades amb el lloc. Aquestes inclouen completar una sèrie de cursos o parts dels perfils d\'usuari. Les insígnies del lloc també poden emetre\'s manualment d\'un usuari a un altre.
 Les insígnies per a les activitats relacionades amb els cursos s\'han de crear a nivell de curs. Les insígnies de curs es poden trobar en l\'Administració del curs > Insígnies.';
@@ -473,6 +478,9 @@ $string['targetname'] = 'Nom de la competència';
 $string['targetname_help'] = 'Indica a quines habilitats externes o a quins estàndards és equivalent la insígnia.';
 $string['targeturl'] = 'URL';
 $string['targeturl_help'] = 'És un enllaç a una pàgina que descriu l\'habilitat externa o l\'estàndard. L\'URL hauria de tenir un prefix http:// o https://.';
+$string['testbackpack'] = 'Prova la motxilla «{$a}»';
+$string['testsettings'] = 'Prova la configuració';
+$string['type'] = 'Tipus';
 $string['variablesubstitution'] = 'Substitució de variables en els missatges.';
 $string['variablesubstitution_help'] = 'En un missatge d\'insígnia, determinades variables es poden inserir en l\'assumpte i/o en el cos d\'un missatge de manera que es reemplaçaran per valors reals quan s\'envii el missatge. Les variables s\'han d\'inserir en el el text exactament tal i com es mostren a continuació. Es poden utilitzar les següents variables:
 

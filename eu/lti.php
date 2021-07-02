@@ -115,9 +115,9 @@ $string['default_launch_container_help'] = 'Hasierako edukiontziak tresnaren itx
 
 * **Lehenetsi ** - Erabili tresnaren ezarpenek zehaztutako  hasierako edukiontzia.
 * **Enbotatu ** - Tresna Moodleren leihoan bertan agertzen da, jarduera-mota gehienek egiten duten antzeko moduan.
-* **Blokerik gabe enbotatu ** - resna Moodleren leihoan bertan agertzen da, orrialdearen goialdeko nabigazio-kontrolekin.
+* **Blokerik gabe enbotatu ** - Tresna Moodleren leihoan bertan agertzen da, orrialdearen goialdeko nabigazio-kontrolekin.
 * *Leiho berria ** - Tresna leiho berri batean irekitzen da, espazio osoa betez.
-Nabigatzailearen arabera, fitxa edo leiho berria batean irekiko da.
+Nabigatzailearen arabera, fitxa edo popup leiho berria batean irekiko da.
 Baliteke nabigatzaileak leiho berria irekiera eragoztea.';
 $string['delegate'] = 'Utzi irakaslearen esku';
 $string['delegate_tool'] = 'Estekatze Sakonean zehaztutakoa edo Utzi irakaslearen eskuetan';
@@ -231,9 +231,9 @@ $string['launchinpopup_help'] = 'Hasierako edukiontziak tresnaren itxurari eragi
 
 * **Lehenetsi ** - Erabili tresnaren ezarpenek zehaztutako  hasierako edukiontzia.
 * **Enbotatu ** - Tresna Moodleren leihoan bertan agertzen da, jarduera-mota gehienek egiten duten antzeko moduan.
-* **Blokerik gabe enbotatu ** - resna Moodleren leihoan bertan agertzen da, orrialdearen goialdeko nabigazio-kontrolekin.
+* **Blokerik gabe enbotatu ** - Tresna Moodleren leihoan bertan agertzen da, orrialdearen goialdeko nabigazio-kontrolekin.
 * *Leiho berria ** - Tresna leiho berri batean irekitzen da, espazio osoa betez.
-Nabigatzailearen arabera, fitxa edo leiho berria batean irekiko da.
+Nabigatzailearen arabera, fitxa edo popup leiho berri batean irekiko da.
 Baliteke nabigatzaileak leiho berria irekiera eragoztea.';
 $string['launchoptions'] = 'Abiarazte-aukerak';
 $string['leaveblank'] = 'Hutsik utzi behar ez badituzu';

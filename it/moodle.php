@@ -675,7 +675,7 @@ $string['emaildisable'] = 'Questo indirizzo email è disabilitato.';
 $string['emaildisableclick'] = 'Clicca qui per disabilitare tutte le email dall\'essere spedite a questo indirizzo';
 $string['emaildisplay'] = 'Visibilità email';
 $string['emaildisplay_help'] = 'Gli utenti con ruoli privilegiati (ad esempio docenti e manager) potranno sempre visualizzare l\'indirizzo email.';
-$string['emaildisplaycourse'] = 'Consenti solo agli altri iscritti al corso di vedere il mio indirizzo email';
+$string['emaildisplaycourse'] = 'Consenti solo agli altri iscritti al corso di visualizzare il mio indirizzo email';
 $string['emaildisplaycoursemembersonly'] = '(visibile ad altri partecipanti al corso)';
 $string['emaildisplayeveryone'] = '(visibile a tutti)';
 $string['emaildisplayhide'] = '(Nascosto per tutti gli utenti senza privilegi)';
@@ -727,8 +727,9 @@ di blu ed è sufficiente cliccarlo. Se il link non dovesse essere attivo, copia 
 
 Se hai bisogno di aiuto, contatta l\'amministratore del sito: {$a->admin}';
 $string['emailpasswordconfirmationsubject'] = '{$a}: Conferma cambiamento password';
-$string['emailpasswordconfirmmaybesent'] = '<p> Se hai fornito uno username corretto o un indirizzo corretto, dovresti ricevere una email.</p>
-<p>Nel messaggio troverai le istruzioni per confermare e completare la modifica della password. Se continui ad avere difficoltà, contatta l\'amministratore del sito.</p>';
+$string['emailpasswordconfirmmaybesent'] = '<p> Se hai fornito uno username corretto o un indirizzo email corretto, riceverai una email.</p>
+<p>Nel messaggio troverai le istruzioni per confermare e completare la modifica della password.
+Se continui ad avere difficoltà, contatta l\'amministratore del sito.</p>';
 $string['emailpasswordconfirmnoemail'] = '<p>L\'account specificato non ha un indirizzo di posta elettronica.</p><p>Per favore contatta l\'amministratore del sito.</p>';
 $string['emailpasswordconfirmnotsent'] = '<p>I dati inseriti non corrispondono a nessun account utente.</p>
 <p>Per favore verifica i dati inseriti e riprova.
@@ -1461,7 +1462,7 @@ $string['normalfilter'] = 'Filtro normale';
 $string['nosite'] = 'Non si trova corso a livello di sito';
 $string['nostudentsfound'] = 'Nessun {$a} trovato';
 $string['nostudentsingroup'] = 'In questo gruppo non ci sono ancora studenti';
-$string['nostudentsyet'] = 'Non ci sono ancora studenti iscritti in questo corso';
+$string['nostudentsyet'] = 'In questo corso non ci sono studenti iscritti.';
 $string['nosuchemail'] = 'Nessun indirizzo email';
 $string['notavailable'] = 'Non disponibile';
 $string['notavailablecourse'] = '{$a} non è disponibile';

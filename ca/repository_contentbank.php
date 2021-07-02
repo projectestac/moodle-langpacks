@@ -27,6 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['configplugin'] = 'Configuració per al dipòsit del banc de contingut';
 $string['contentbank:accesscoursecategorycontent'] = 'Accedeix als fitxers del banc de contingut de la categoria del curs';
+$string['contentbank:accesscoursecontent'] = 'Accés als fitxers del banc de continguts del curs';
+$string['contentbank:accessgeneralcontent'] = 'Accés als fitxers del banc de continguts del sistema';
 $string['contentbank:view'] = 'Mostra el dipòsit del banc de contingut';
 $string['emptyfilelist'] = 'No hi ha fitxers a mostrar';
 $string['pluginname'] = 'Banc de contingut';

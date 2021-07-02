@@ -68,6 +68,7 @@ $string['maximumquestions'] = 'أقصى عدد من الأسئلة';
 $string['maximumquestions_help'] = 'أقصى عدد من الأسئلة يمكن للطالب محاولته';
 $string['minimumquestions'] = 'أدنى عدد من الأسئلة';
 $string['minimumquestions_help'] = 'أدنى عدد من الأسئلة ينبغي للطالب محاولته';
+$string['name'] = 'الاسم';
 $string['nopermission'] = 'ليست لديك صلاحية معاينة هذا المورد';
 $string['question_report'] = 'تحليل السؤال';
 $string['questionanalysisbtn'] = 'تحليل السؤال';

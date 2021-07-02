@@ -77,6 +77,7 @@ $string['comments'] = 'Commenti ai record';
 $string['commentsaved'] = 'Il commento è stato salvato';
 $string['commentsn'] = '{$a} commento(i)';
 $string['commentsoff'] = 'I commenti non sono abilitati';
+$string['completiondetail:entries'] = 'Inserire record: {$a}';
 $string['completionentries'] = 'Record  richiesti';
 $string['completionentriescount'] = 'Numero di record';
 $string['completionentriesdesc'] = 'Numero minimo di record da inserire: {$a}';

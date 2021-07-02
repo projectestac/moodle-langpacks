@@ -29,6 +29,7 @@ $string['all_students'] = 'كل الطلاب';
 $string['blockinfo'] = 'معلومات الكتلة';
 $string['blockname'] = 'اسم الكتلة';
 $string['completionnotenabled'] = '<p>تعقب الإكمال غير مُمَكَّن في هذا المساق.</p>';
+$string['firstname'] = 'الاسم الأول';
 $string['fn_mentor:viewblock'] = 'معاينة الكتلة';
 $string['idnumber'] = 'رقم المُعرَّف';
 $string['linktomentorpage'] = 'رابط التقرير عبر الإنترنت: <a href="{$a}">{$a}</a>';
@@ -39,6 +40,7 @@ $string['mentees_without_mentor'] = 'التلاميذ الذين بلا مرشد
 $string['mentors_without_groups'] = 'المرشدون الذين بلا مجموعات';
 $string['mentors_without_mentee'] = 'المرشدون الذين بلا تلاميذ';
 $string['messagesprocessing'] = 'تجري معالجة الرسائل.<br>يرجى انتظار التأكيد.';
+$string['name'] = 'الاسم';
 $string['nomessagessent'] = 'لم يتم إرسال أي رسائل.';
 $string['pagelayout'] = 'تخطيط الصفحة';
 $string['permission_error'] = 'خطأ في الصلاحية!';

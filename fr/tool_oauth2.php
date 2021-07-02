@@ -103,6 +103,7 @@ $string['issuerusein_help'] = 'Les services OAuth 2 peuvent être utilisés pour
 $string['issueruseineverywhere'] = 'Page de connexion et services internes';
 $string['issueruseininternalonly'] = 'Services internes uniquement';
 $string['issueruseinloginonly'] = 'Page de connexion uniquement';
+$string['linkedin_service'] = 'LinkedIn';
 $string['logindisplay'] = 'Afficher sur la page de connexion comme';
 $string['loginissuer'] = 'Permettre la connexion';
 $string['microsoft_service'] = 'Microsoft';

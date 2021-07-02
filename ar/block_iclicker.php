@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addpage'] = 'إضافة صفحة';
 $string['admin.config.domainurl'] = 'رابط المجال';
 $string['admin.config.workspacepagetitle'] = 'عنوان أداة مساحة العمل';
+$string['admin.username.header'] = 'اسم المستخدم';
 $string['app.activate'] = 'تفعيل';
 $string['config_domain_url'] = 'رابط المجال';
 $string['config_max_courses_desc'] = 'يتحكم بالعدد الأقصى من المساقات التي يتم إحضارها للمرشد من قبل تطبيق iclicker.
@@ -42,6 +43,7 @@ $string['iclicker:addinstance'] = 'إضافة كتلة جديدة من i>clicker
 $string['iclicker:myaddinstance'] = 'إضافة كتلة جديدة من i>clicker إلىى صفحة مودل الخاصة بي';
 $string['inst.course.view.students'] = 'معاينة الطلاب';
 $string['inst.courses.table.summary'] = 'يستعرض المساقات المقدمة من قبل هذا المرشد؛ العنوان، رابط إلى قائمة الطلاب';
+$string['inst.student.name.header'] = 'الاسم';
 $string['inst.students'] = 'الطلاب';
 $string['leaveblanktohide'] = 'أتركه فارغاً لإخفائه';
 $string['reg.reactivate.submit.alt'] = 'إعادة تفعيل هذا التسجيل';

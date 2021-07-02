@@ -75,7 +75,7 @@ $string['processphotowarning'] = 'Aviso: o processamento de imagens tende a aume
 $string['restricttarget'] = 'Os dados apenas devem ser processados se for especificado';
 $string['restricttarget_desc'] = 'Um ficheiro IMS Enterprise pode ser criado para diferentes destinos (LMSs distintos ou diferentes departamento de uma instituição). É possível especificar nestes ficheiros um ou mais sistemas de destino. Isto é feito através da inclusão da tag <strong>target</strong> dentro da tag <strong>properties</strong>.
 
-Normalmente não terá que se preocupar com esta informação. Se deixar este campo em branco o Moodle fará sempre o processamento deste ficheiro, independentemente do destino indicado no ficheiro. Em alternativa, indique o nome do destino a processar que se encontra referido no ficheiro.';
+Normalmente não terá que se preocupar com esta informação. Se deixar este campo vazio o Moodle fará sempre o processamento deste ficheiro, independentemente do destino indicado no ficheiro. Em alternativa, indique o nome do destino a processar que se encontra referido no ficheiro.';
 $string['roles'] = 'Papéis';
 $string['settingfullname'] = 'Descrição da etiqueta IMS para o nome completo da disciplina';
 $string['settingfullnamedescription'] = 'O nome completo é um campo obrigatório da disciplina e, por isso, tem de definir a descrição da etiqueta selecionada no seu ficheiro IMS da empresa';

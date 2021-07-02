@@ -34,6 +34,7 @@ $string['dayscertificable'] = 'الأيام إلى الوراء';
 $string['dayscertificable_exceeded'] = 'ينبغي أن لا يزيد على {$a} من الأيام الماضية';
 $string['force_recalc_all_session'] = 'إعادة احتساب كل الجلسات المتصلة بالإنترنت';
 $string['force_recalc_user_session'] = 'إعادة إحتساب جلسات هذا المستخدم عبر الإنترنت';
+$string['fullname'] = 'الاسم';
 $string['grandtotal_time'] = 'الوقت الإجمالي';
 $string['last_calc_online_session_logout'] = 'نهاية آخر جلسة تسجيل عبر الإنترنت (مع استبعاد الجلسة الحالية)';
 $string['last_site_access'] = 'آخر نشاط في الموقع';

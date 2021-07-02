@@ -68,7 +68,7 @@ $string['modulenameplural'] = 'URL:er';
 $string['page-mod-url-x'] = 'Valfri URL modulsida';
 $string['parameterinfo'] = '&amp;parameter=variabel';
 $string['parametersheader'] = 'URL-variabler';
-$string['parametersheader_help'] = 'Vissa interna Moodlevariabler kan bli automatiskt bifogade till URL:en. Skriv ditt namn för parametern i varje textruta(or) och välj sedan den nödvändiga matchande variabeln.';
+$string['parametersheader_help'] = 'I det här avsnittet kan du skicka intern information som en del av URL:en. Detta är användbart om URL:en är en interaktiv webbsida som tar parametrar och du till exempel vill skicka något som t.ex. namnet på den aktuella användaren. Ange namnet på URL:ns parameter i textrutan och välj sedan motsvarande webbplatsvariabel.';
 $string['pluginadministration'] = 'Administration av modulen URL';
 $string['pluginname'] = 'URL';
 $string['popupheight'] = 'Höjd på popup-fönster (i pixlar)';

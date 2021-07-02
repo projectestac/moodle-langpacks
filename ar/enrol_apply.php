@@ -25,6 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['applyuser'] = 'الاسم الأول / اسم العائلة';
+$string['cancelmailcontent_desc'] = 'يرجى استعمال العلامات الخاصة الآتية لاستبدال محتوى الرسالة الالكترونية بمعلومات من مودل.<br/>{firstname}: الاسم الأول للمستخدم؛ {content}: اسم المساق؛ {lastname}:الاسم الأخير للمستخدم؛ {username}: اسم التسجيل للمستخدم';
+$string['confirmmailcontent_desc'] = 'يرجى استعمال العلامات الخاصة الآتية لاستبدال محتوى الرسالة الالكترونية بمعلومات من مودل.<br/>{firstname}: الاسم الأول للمستخدم؛ {content}: اسم المساق؛ {lastname}:الاسم الأخير للمستخدم؛ {username}: اسم التسجيل للمستخدم؛ {timeend}: تاريخ انتهاء الانضمام';
 $string['editdescription'] = 'وصف منطقة النص';
 $string['maxenrolledreached_left'] = 'أقصى عدد مسموح به من المستخدمين';
 $string['maxenrolledreached_right'] = 'تم الوصول إليه مسبقاً.';
+$string['waitmailcontent_desc'] = 'يرجى استعمال العلامات الخاصة الآتية لاستبدال محتوى الرسالة الالكترونية بمعلومات من مودل.<br/>{firstname}: الاسم الأول للمستخدم؛ {content}: اسم المساق؛ {lastname}:الاسم الأخير للمستخدم؛ {username}: اسم التسجيل للمستخدم';

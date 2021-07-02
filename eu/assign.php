@@ -116,7 +116,7 @@ $string['batchsetmarkingworkflowstateforusers'] = 'Aukeratutako {$a} erabiltzail
 $string['blindmarking'] = 'Bidalketa anonimoak';
 $string['blindmarking_help'] = 'Bidalketa anonimoak kalifikatzaileei ikasleen identitatea ezkutatzen die. Bidalketa anonimoen ezarpenak blokeatuko dira zeregin horretan bidalketa edo kalifikazio bat egiterakoan.';
 $string['blindmarkingenabledwarning'] = 'Bidalketa anonimoak gaituta daude jarduera honetan. Kalifikazio-ekintzen menutik ikasleen identitatea ezagutarazi arte kalifikazioak ez dira kalifikazio-liburura gehituko.';
-$string['cachedef_overrides'] = 'Erabiltzaile eta taldeen baliogabetzeen informazioa';
+$string['cachedef_overrides'] = 'Erabiltzaile eta talde-salbuespenen informazioa';
 $string['calendardue'] = '{$a}-(r)en entregatze-data';
 $string['calendargradingdue'] = '{$a}-(r)en kalifikazio-data';
 $string['changefilters'] = 'Aldatu iragazkiak';
@@ -260,10 +260,10 @@ $string['gradelocked'] = 'Kalifikazio hau blokeatu edo aldatu da kalifikazio-lib
 $string['gradeoutof'] = 'Kalifikazioa (gehienezko {$a}(e)tik)';
 $string['gradeoutofhelp'] = 'Kalifikazioa';
 $string['gradeoutofhelp_help'] = 'Idatzi hemen ikasleak egindako bidalketaren kalifikazioa. Hamartarrak ere sar ditzakezu.';
-$string['gradersubmissionupdatedhtml'] = '{$a->username}(e)k bidalketa eguneratu du ondorengo zereginean: <i>\'{$a->assignment}\'</i><br/><br/>
-Web-gune honetan ikusgai: <a href="{$a->url}"></a>.';
-$string['gradersubmissionupdatedsmall'] = '{$a->username}(e)k bidalketa eguneratu du  zeregin honetan: {$a->assignment}.';
-$string['gradersubmissionupdatedtext'] = '{$a->username}(e)k bidalketa eguneratu du zeregin honetan: \'{$a->assignment}\'  {$a->timeupdated} orduan
+$string['gradersubmissionupdatedhtml'] = '{$a->username}(e)k bidalketa eguneratu du <i>\'{$a->assignment}\' zereginean ({$a->timeupdated})</i><br/><br/>
+Ikusgai dago <a href="{$a->url}">webgune honetan</a>.';
+$string['gradersubmissionupdatedsmall'] = '{$a->username}(e)k bidalketa eguneratu du {$a->assignment} zereginean.';
+$string['gradersubmissionupdatedtext'] = '{$a->username}(e)k bidalketa eguneratu du z{$a->assignment} zereginean ({$a->timeupdated})
 
 Hemen ikusgai:
 
@@ -293,7 +293,7 @@ $string['hidegrader_help'] = 'Gaituz gero, zereginaren bidalketen kalifikazioak 
 
 Kontuan izan ezarpen honek ez duela eraginik ebaluazio-orriko iruzkinen kutxan.';
 $string['hideshow'] = 'Ezkutatu/Erakutsi';
-$string['inactiveoverridehelp'] = '* Baliogabetze hau ez-aktibo dago erabiltzailearen jarduerarako sarbidea murriztuta dagoelako. Honen arrazoia taldeko edo rol-esleipena izan daiteke, bestelako eskuragarritasun baldintzak edo jarduera ezkutuan egotea.';
+$string['inactiveoverridehelp'] = '* Salbuespen hau ez-aktibo dago erabiltzailearen jarduerarako sarbidea murriztuta dagoelako. Honen arrazoia taldeko edo rol-esleipena izan daiteke, bestelako eskuragarritasun baldintzak edo jarduera ezkutuan egotea.';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa zereginetan';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak zeregina motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa zereginetan';

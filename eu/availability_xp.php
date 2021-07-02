@@ -27,9 +27,16 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['description'] = 'Ukatu sarbidea erabiltzailearen mailaren arabera.';
 $string['invalidlevel'] = 'Maila baliogabea';
+$string['levelconditionoperator'] = 'Maila-baldintzaren operadorea';
 $string['levelgreaterorequalto'] = 'Maila hurrengoaren berdina edo altuagoa da:';
+$string['levelis'] = 'Maila hurrengoa da:';
+$string['levelnexactlynotrequiredtoaccess'] = 'Ez duzu {$a} maila.';
+$string['levelnexactlyrequiredtoaccess'] = '{$a} maila zehatza duzu.';
 $string['levelnnotrequiredtoaccess'] = 'Ez zaude {$a}. mailan edo maila altuago batean.';
 $string['levelnrequiredtoaccess'] = '{$a}. mailan edo maila altuago batean zaude.';
+$string['levelnumber'] = 'Mailaren zenbakia';
+$string['opequalto'] = 'Zehazki honen berdina';
+$string['opgreaterorequalto'] = 'Honen handiagoa edo berdina';
 $string['pluginname'] = 'Mailaren araberako eskuragarritasuna';
 $string['privacy:metadata'] = 'Plugin honek ez du datu pertsonalik biltzen.';
 $string['title'] = 'Maila';

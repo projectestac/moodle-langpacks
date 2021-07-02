@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activitydate:submissionsdue'] = 'Inlämningar förfaller:';
-$string['activitydate:submissionsopen'] = 'Inlämningar öppnar:';
-$string['activitydate:submissionsopened'] = 'Inlämningar öppnades:';
+$string['activitydate:submissionsdue'] = 'Senaste inlämningsdatum:';
+$string['activitydate:submissionsopen'] = 'Öppnar:';
+$string['activitydate:submissionsopened'] = 'Öppnades:';
 $string['activityoverview'] = 'Du har inlämningsuppgifter som behöver hanteras';
 $string['addattempt'] = 'Tillåt ett nytt försök';
 $string['addnewattempt'] = 'Lägg till ett nytt försök';
@@ -171,7 +171,7 @@ $string['duplicateoverride'] = 'Dubblettåsidosättande';
 $string['editaction'] = 'Åtgärder...';
 $string['editattemptfeedback'] = 'Redigera betyg och feedback för försök nr {$a}.';
 $string['editingpreviousfeedbackwarning'] = 'Du redigerar feedback av ett tidigare försök. Detta är försök nr {$a->attemptnumber} av totalt{$a->totalattempts}.';
-$string['editingstatus'] = 'Redigerar status';
+$string['editingstatus'] = 'Redigeringsstatus';
 $string['editonline'] = 'Redigera on-line';
 $string['editoverride'] = 'Redigera åsidosättande';
 $string['editsubmission'] = 'Redigera inlämning';
@@ -571,7 +571,7 @@ $string['togglezoom'] = 'Zooma in/zooma ut området';
 $string['ungroupedusers'] = 'Inställningen \'Kräv grupp för att göra inlämning\' är aktiverad och vissa användare är antingen inte medlem i någon grupp, eller är medlem i mer än en grupp och kan inte lämna in uppgifter.';
 $string['ungroupedusersoptional'] = 'Inställningen \'Studenter skickar in i grupp\' är inaktiverad och vissa användare är antingen inte medlem i någon grupp, eller är medlem i mer än en grupp. Var medveten om att dessa studenter kommer att lämna in som medlemmar i \'Standardgruppen\'.';
 $string['unlimitedattempts'] = 'Obegränsad';
-$string['unlimitedattemptsallowed'] = 'Obegränsad försök tillåtet.';
+$string['unlimitedattemptsallowed'] = 'Obegränsat antal försök tillåtna.';
 $string['unlimitedpages'] = 'Obegränsat';
 $string['unlocksubmissionforstudent'] = 'Tillåt inlämning för elev: (id={$a->id}, fulltnamn={$a->fullname}).';
 $string['unlocksubmissions'] = 'Lås upp inlämningar';

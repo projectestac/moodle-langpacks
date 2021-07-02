@@ -55,6 +55,7 @@ $string['choicetext'] = 'Testo della domanda';
 $string['chooseaction'] = 'Scegli un\'azione...';
 $string['chooseoption'] = 'Scegli: {$a}';
 $string['closebeforeopen'] = 'Hai specificato una data di chiusura successiva alla data di apertura.';
+$string['completiondetail:submit'] = 'Effettuare una scelta';
 $string['completionsubmit'] = 'Completata all\'atto della scelta';
 $string['description'] = 'Descrizione';
 $string['deselectalloption'] = 'Deseleziona tutti "{$a}"';

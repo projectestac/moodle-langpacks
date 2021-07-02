@@ -103,6 +103,7 @@ $string['issuerusein_help'] = 'OAuth 2 Services können für interne Dienste, au
 $string['issueruseineverywhere'] = 'Anmeldeseite und interne Services';
 $string['issueruseininternalonly'] = 'Nur interne Services';
 $string['issueruseinloginonly'] = 'Nur Anmeldeseite';
+$string['linkedin_service'] = 'LinkedIn';
 $string['logindisplay'] = 'Auf der Anmeldeseite anzeigen als';
 $string['loginissuer'] = 'Login erlauben';
 $string['microsoft_service'] = 'Microsoft';

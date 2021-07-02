@@ -40,7 +40,7 @@ $string['indicator:socialbreadth'] = 'Sida social';
 $string['indicator:socialbreadth_help'] = 'Denna indikator baseras på den sociala bredd som uppnåtts av studenten i en Sidresurs.';
 $string['indicator:socialbreadthdef'] = 'Sida social';
 $string['indicator:socialbreadthdef_help'] = 'Deltagaren har nått denna procentandel av det sociala engagemanget som erbjuds av Sidresurserna under detta analysintervall (Nivåer = Inget deltagande, Deltagaren ensamt)';
-$string['legacyfiles'] = 'Migration av en gammal kursfil';
+$string['legacyfiles'] = 'Migrering av gammal kursfil';
 $string['legacyfilesactive'] = 'Aktiv';
 $string['legacyfilesdone'] = 'Avslutad';
 $string['modulename'] = 'Sida';

@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['alternativename'] = 'اسم النشاط';
 $string['csv_help'] = 'كل سطر مكون من العنوان؛ الأماكن؛ التاريخ؛ الوصف';
 $string['forceregister'] = 'فرض التسجيل';
 $string['optionintro'] = 'الوصف';

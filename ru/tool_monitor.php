@@ -88,6 +88,7 @@ $string['privacy:metadata:inactivedate'] = 'Период времени в дн�
 $string['privacy:metadata:lastnotificationsent'] = 'Когда в последний раз было отправлено уведомление об этой подписке.';
 $string['privacy:metadata:messagesummary'] = 'Уведомления отправляются в систему сообщений.';
 $string['privacy:metadata:name'] = 'Название правила';
+$string['privacy:metadata:plugin'] = 'Плагин Frankenstlye';
 $string['privacy:metadata:rulessummary'] = 'Хранит правила отслеживания';
 $string['privacy:metadata:subscriptionssummary'] = 'Хранит подписки пользователей на различные правила';
 $string['privacy:metadata:template'] = 'Шаблон сообщения';

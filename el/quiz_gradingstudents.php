@@ -25,6 +25,24 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['attemptstograde'] = 'Προσπάθειες βαθμολόγησης';
+$string['automaticallygraded'] = 'Αυτόματη βαθμολόγηση';
+$string['backtothelistofstudentattempts'] = 'Επιστροφή στη λίστα των μαθητικών προσπαθειών';
+$string['grade'] = 'βαθμός';
+$string['gradeall'] = 'βαθμολόγηση όλων';
+$string['graded'] = '(βαθμολογημένο)';
+$string['grading:viewidnumber'] = 'Δείτε τους αναγνωριστικούς αριθμούς μαθητών κατά τη βαθμολόγηση';
+$string['grading:viewstudentnames'] = 'Δείτε τα ονόματα των μαθητών κατά τη βαθμολόγηση';
+$string['gradingstudents'] = 'Χειροκίνητη βαθμολόγηση ανά μαθητή';
 $string['gradingungraded'] = '{$a} αβαθμολόγητες προσπάθειες';
+$string['nothingfound'] = 'Τίποτα προς εμφάνιση';
+$string['personalidentifier'] = '<strong>Προσωπικό αναγνωριστικό</strong> {$a}';
+$string['pluginname'] = 'Χειροκίνητη βαθμολόγηση ανά μαθητή';
+$string['privacy:metadata'] = 'Το πρόσθετο «Χειροκίνητη βαθμολόγηση ανά μαθητή» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
+$string['questionsthatneedgrading'] = 'Ερωτήσεις που χρειάζονται βαθμολόγηση';
+$string['saveandgotothelistofattempts'] = 'Αποθήκευση και μετάβαση στη λίστα των προσπαθειών';
+$string['showstudentnames'] = 'Εμφάνιση ονομάτων μαθητή';
 $string['student'] = 'Μαθητής';
+$string['tograde'] = 'Προς βαθμολόγηση';
 $string['total'] = 'Σύνολο';
+$string['updategrade'] = 'ενημέρωση βαθμών';

@@ -76,7 +76,7 @@ $string['archiveconfirm'] = 'Ta bort och behåll befintliga utdelade märken';
 $string['archivehelp'] = '<p>Detta alternativ betyder att märket kommer att markeras som "pensionerat" och därför inte längre kommer att synas i listan med märken. Användare kommer inte längre kunna erhålla detta märke. Befintliga mottagare av märket kommer dock kunna visa det i sin profil och de kommer att kunna ladda upp det till sin externa ryggsäck.<p>
 <p>Om du vill att dina användare ska kunna behålla tillgången till sina intjänade märken är det viktigt att du väljer detta alternativ istället för att helt radera märkena.<p>';
 $string['attachment'] = 'Bifoga märke till meddelande';
-$string['attachment_help'] = 'Om ikryssad kommer ett utfärdat märke bifogas till mottagarens e-post för nedladdning. (Bilagor måste vara aktiverade i Site administration / Server / Email / Outgoing mail configuration för att denna funktion ska vara möjlig att använda.)';
+$string['attachment_help'] = 'Om ikryssad kommer ett utfärdat märke bifogas till mottagarens e-post för nedladdning. (Bilagor måste vara aktiverade under <em>Administrera webbplats / Server / E-post / Konfiguration av utgående E-post</em> för att denna funktion ska vara möjlig att använda.)';
 $string['award'] = 'Tilldela märke';
 $string['awardedtoyou'] = 'Utfärdade till mig';
 $string['awardoncron'] = 'Aktivering av åtkomst till märken lyckades. Det här märket kan omedelbart tas av för många användare, för att säkerställa webbplatsens prestanda så kommer denna åtgärd att ta lite tid att bearbeta.';
@@ -181,7 +181,7 @@ $string['clearsettings'] = 'Rensa inställningar';
 $string['completioninfo'] = 'Det här märket utfärdades för slutförandet av:';
 $string['completionnotenabled'] = 'Slutförande av kurs är inte aktiverad för den här kursen så den kan inte inkluderas i kriterierna för märket. Slutförande av kurs kan aktiveras i inställningarna för kurser.';
 $string['configenablebadges'] = 'Om aktiverad låter den här funktionen dig skapa märken och tilldela dem till användare på webbplatsen.';
-$string['configuremessage'] = 'Meddelande för märke';
+$string['configuremessage'] = 'Märkesmeddelande';
 $string['connect'] = 'Anslut';
 $string['connected'] = 'Ansluten';
 $string['connecting'] = 'Ansluter ...';

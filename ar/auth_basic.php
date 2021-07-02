@@ -39,3 +39,4 @@ $string['privacy:metadata:masterpassword'] = 'كلمة المرور الرئيس
 $string['regeneratepassword'] = 'إعادة توليد  كلمة المرور';
 $string['savepassword'] = 'حفظ  كلمة المرور';
 $string['send401_cancel'] = 'ينبغي عليك إدخال اسم مستخدم وكلمة مرور صحيحين';
+$string['username'] = 'الاسم';

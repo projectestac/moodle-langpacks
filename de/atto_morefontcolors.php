@@ -26,13 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['availablecolors'] = 'Verfügbare Farben';
-$string['availablecolors_desc'] = 'Sie können die verfügbaren Farben hier genauso definieren, wie sie im Menü \'Schriftfarbe\' dargestellt werden sollen. Wenn Sie eine 4x4 Matrix von Farben anbieten möchten, geben Sie 4 Hexcodes in 4 Zeilen, getrennt von Leerzeichen, an.<br><br>Beachten Sie, dass eine Änderung der Werte sich nur auf das Menü \'Schriftfarbe\' auswirkt, aber keinen Einfluss auf bereits bestehende farbige Texte hat.';
-$string['custom'] = 'Eigene Schriftfarbe (als Hexcode)';
+$string['availablecolors_desc'] = 'Sie können die verfügbaren Farben definieren, so wie sie im Dropdown-Menü "Schriftfarbe" angezeigt werden sollen. Wenn Sie eine 4x4-Farbmatrix anzeigen möchten, geben Sie 4 Zeilen mit 4 Hex-Farbcodes ein, getrennt durch Leerzeichen.<br><br>Beachten Sie, dass sich eine Änderung der Werte nur auf das Menü "Schriftfarbe" auswirkt, , jedoch nicht auf bereits vorhandene farbige Texte.';
+$string['custom'] = 'Eigene Schriftfarbe';
 $string['customcolor'] = 'Eigene Schriftfarbe';
 $string['hexadecimal'] = 'Hex:';
 $string['hsl'] = 'HSL:';
 $string['luminance'] = 'Luminanz: ';
 $string['pluginname'] = 'Schriftfarbe';
+$string['privacy:metadata'] = 'Das Plugin atto_morefontcolors speichert keine personenbezogenen Daten.';
 $string['rgb'] = 'RGB:';
 $string['saturation'] = 'Sättigung:';
 $string['setting_custom'] = 'Eigene Schriftfarbe erlauben';

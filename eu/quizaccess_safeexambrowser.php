@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allowedbrowserkeys'] = 'Baimendutako "browser exam key" gakoak';
-$string['allowedbrowserkeys_help'] = 'Kutxa honetan baimendutako Safe Exam Browser-eko "browser exam key" gakoak zehaztu ditzakezu galdetegian soilik horiei sartzea baimentzeko. Gakorik zehazten ez bada galdetegi honetan sartzeko ez da gako zehatz bat erabiltzeko beharrik izango.';
+$string['allowedbrowserkeys_help'] = 'Kutxa honetan baimendutako Safe Exam Browser-eko "browser exam key" gakoak zehaztu ditzakezu galdetegian soilik horiei sartzea baimentzeko. Gakorik zehazten ez bada galdetegi honetan sartzeko ez da nabigatzaileko azterketa-gako zehatz bat erabiltzeko beharrik izango.';
 $string['allowedbrowserkeysdistinct'] = 'Gako guztiak ezberdinak izan behar dira.';
 $string['allowedbrowserkeyssyntax'] = 'Errenkada bakoitzean baimendutako gako bat idatzi behar duzu. Gakoa 64 karaktereko kate hamaseitarra izan behar da.';
 $string['allowedkeys_adv'] = 'Gakoak ezarpen aurreratua dira';

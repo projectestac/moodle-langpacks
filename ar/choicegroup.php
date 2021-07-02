@@ -65,6 +65,7 @@ $string['modulename_help'] = 'يسمح هذا النشاط للطلاب باخت
 $string['modulenameplural'] = 'الاختيارات';
 $string['moveselectedusersto'] = 'أنقل المستخدمين الذين تم اختيارهم إلى';
 $string['mustchooseone'] = 'ينبغي عليك اختيار الإجابة قبل الحفظ. لم يُحفظ شيء.';
+$string['name'] = 'الاسم';
 $string['noguestchoose'] = 'عذراً، لا يحق للضيوف القيام بإختيارات';
 $string['noresultsviewable'] = 'حالياً لا يمكن معاينة النتائج';
 $string['notanswered'] = 'غير مجاب بعد';

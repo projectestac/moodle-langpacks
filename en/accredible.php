@@ -47,6 +47,8 @@ $string['dashboardlink'] = 'Accredible dashboard link';
 $string['dashboardlinktext'] = 'To delete or style credentials, log in to the <a href="https://dashboard.accredible.com" target="_blank">dashboard</a>';
 $string['datecreated'] = 'Date created';
 $string['description'] = 'Description';
+$string['euhelp'] = 'Select if you would like to host data in the EU (Frankfurt) instead of the USA';
+$string['eulabel'] = 'EU (Frankfurt) Server';
 $string['eventcertificatecreated'] = 'A credential was posted to Accredible';
 $string['gotodashboard'] = 'To update the appearance of your badges and certificates, visit: <a href="https://dashboard.accredible.com" target="_blank">https://dashboard.accredible.com</a>';
 $string['gradeissueheader'] = 'Auto-issue criteria: by final quiz grade';

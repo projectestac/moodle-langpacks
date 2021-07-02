@@ -32,6 +32,7 @@ $string['invalideventendtime'] = 'وقت الانتهاء ينبغي أن يكو
 $string['jstableperpage'] = '{select} من التسجيلات لكل صفحة';
 $string['multieventdateexpanded'] = 'تكرار تاريخ حدث تم تمديده';
 $string['multieventdateexpanded_desc'] = 'إظهار إعدادات "تكرار تاريخ الحدث" ممددة إفتراضية عند إنشاء غرفة جديدة.';
+$string['name'] = 'الاسم';
 $string['privacy:metadata:googlemeet_notify_done:eventid'] = 'مُعرَّف الحدث';
 $string['recurrenceeventdate'] = 'تكرار تاريخ الحدث';
 $string['recurrenceeventdate_help'] = 'هذه الدالة تجعل من الممكن إنشاء تكرارات متعددة من تاريخ الحدث.

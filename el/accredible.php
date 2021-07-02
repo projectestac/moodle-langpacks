@@ -47,6 +47,8 @@ $string['dashboardlink'] = 'Σύνδεσμος ταμπλό Accredible';
 $string['dashboardlinktext'] = 'Για να διαγράψετε ή να πιστοποιήσετε τα διαπιστευτήρια, συνδεθείτε στο <a href="https://dashboard.accredible.com" target="_blank">ταμπλό</a>';
 $string['datecreated'] = 'Ημερομηνία δημιουργίας';
 $string['description'] = 'Περιγραφή';
+$string['euhelp'] = 'Επιλέξτε αν θέλετε να φιλοξενήσετε δεδομένα στην ΕΕ (Φρανκφούρτη) αντί για τις ΗΠΑ';
+$string['eulabel'] = 'Εξυπηρετητής ΕΕ (Φρανκφούρτη)';
 $string['eventcertificatecreated'] = 'Ένα διαπιστευτήριο αναρτήθηκε στο Accredible';
 $string['gotodashboard'] = 'Για την επεξεργασία της εμφάνισης των διακριτικών και πιστοποιητικών σας, επισκεφτείτε: <a href="https://www.accredible.com/issuer/dashboard" target="_blank">https://www.accredible.com/issuer/dashboard</a>';
 $string['gradeissueheader'] = 'Κριτήρια αυτόματης έκδοσης: με την τελική βαθμολογία του κουίζ';

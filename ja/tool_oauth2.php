@@ -103,6 +103,7 @@ $string['issuerusein_help'] = 'OAuth 2サービスは必要であれば内部サ
 $string['issueruseineverywhere'] = 'ログインページおよび内部サービス';
 $string['issueruseininternalonly'] = '内部サービスのみ';
 $string['issueruseinloginonly'] = 'ログインページのみ';
+$string['linkedin_service'] = 'LinkedIn';
 $string['logindisplay'] = '以下のログインページに表示する';
 $string['loginissuer'] = 'ログイン許可';
 $string['microsoft_service'] = 'Microsoft';
