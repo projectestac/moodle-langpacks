@@ -1185,7 +1185,7 @@ $string['loginstepsnone'] = '<p>¡Hola!</p>
 <p>Todo lo que tiene que hacer es inscribirse en esta página.</p>
 <p>Si alguna otra persona hubiera elegido su nombre de usuario o su contraseña, deberá elegir un nombre de usuario diferente.</p>';
 $string['loginto'] = 'Entrar a {$a}';
-$string['logoof'] = 'Logo de {$a}';
+$string['logoof'] = 'Logotipo de {$a}';
 $string['logout'] = 'Cerrar sesión';
 $string['logoutconfirm'] = '¿Realmente desea salir?';
 $string['logs'] = 'Registros';
@@ -1902,7 +1902,7 @@ $string['shortsitename'] = 'Nombre corto para el sitio (una palabra)';
 $string['show'] = 'Mostrar';
 $string['showactions'] = 'Mostrar acciones';
 $string['showactivitydates'] = 'Mostrar fechas de actividad';
-$string['showactivitydates_help'] = 'Las fechas de las actividades se muestran en la lista de actividades en la página del curso.';
+$string['showactivitydates_help'] = 'Las fechas de actividades siempre se muestran en la página de actividades. Esta configuración determina si las fechas de las actividades también se muestran debajo de cada actividad en la página del curso.';
 $string['showadvancededitor'] = 'Avanzada';
 $string['showadvancedsettings'] = 'Mostrar ajustes avanzados';
 $string['showall'] = 'Mostrar {$a}';

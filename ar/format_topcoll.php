@@ -25,7 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['answered'] = 'مجاب عليه';
 $string['coursesectionactivityfurtherinformation'] = 'المعلومات الإضافية لصفحة المساق';
 $string['coursesectionactivityfurtherinformationfeedback'] = 'إظهار معلومات الإفادة';
 $string['coursesectionactivityfurtherinformationfeedbackdesc'] = 'إظهار معلومات الإفادة، مثل حالة التسليم. بالنسبة إلى المعلمين / المشرفين، إظهار عدد التسليمات.';
@@ -38,7 +37,6 @@ $string['feedbackavailable'] = 'الإفادة متاحة';
 $string['layoutstructuredays'] = 'أيام';
 $string['left'] = 'اليسار';
 $string['maincoursepage'] = 'الصفحة الرئيسية للمقرر الدراسي';
-$string['notanswered'] = 'غير مجاب عليه';
 $string['page-course-view-topcoll'] = 'أي صفحة رئيسية لمقرر ذي تنسيق المواضيع المطوية';
 $string['page-course-view-topcoll-x'] = 'أي صفحة لمساق ذي تنسيق المواضيع المطوية';
 $string['privacy:request:preference:toggle'] = 'مُعرَّف المساق "{$a->name}" قيمته "{$a->value}" والتي تمثل "{$a->decoded}" لأغراض أدوات التبديل.';

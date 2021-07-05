@@ -320,7 +320,7 @@ $string['configmessagingallowemailoverride'] = 'Tillåt att aviseringar om nya m
 $string['configmessagingallusers'] = 'Om aktiverad kan användare se listan över alla användare på webbplatsen när de väljer någon att skicka meddelanden till. Användarens meddelandeinställningar behöver också innehålla alternativet att acceptera meddelanden från vem som helst på webbplatsen. Om inaktiverat kan användarna bara se listan över användare i sina kurser, och de har bara två alternativ i meddelandeinställningarna - att acceptera meddelanden från sina kontakter, eller,  deras kontakter och vem som helst i deras kurser.';
 $string['configmessagingdefaultpressenter'] = 'Huruvida \'Använd Returtangenten för att skicka\' är aktiverat som standard i användarnas meddelandeinställningar.';
 $string['configmessagingdeleteallnotificationsdelay'] = 'Lästa och olästa meddelanden kan tas bort för att spara utrymme. Hur lång tid efter det att en avisering har skapats kan den tas bort?';
-$string['configmessagingdeletereadnotificationsdelay'] = 'Notiser som är lästa kan tas bort för att spara utrymme. Hur lång tid efter att en notis har lästs kan det tas bort?';
+$string['configmessagingdeletereadnotificationsdelay'] = 'Notiser som är lästa kan tas bort för att spara utrymme. Hur lång tid efter det att en notis har lästs kan det tas bort?';
 $string['configminpassworddigits'] = 'Lösenord måste ha åtminstone så här många siffror.';
 $string['configminpasswordlength'] = 'Lösenord måste innehålla åtminstone så här många tecken.';
 $string['configminpasswordlower'] = 'Lösenord måste innehålla åtminstone så här många små bokstäver.';
@@ -1113,8 +1113,7 @@ $string['registration_help'] = 'Genom att registrera dig får du:
 
 * Säkerhetsnotiser
 * Möjlighet att på din webbplats aktivera pushnotiser till mobilappen
-
-Du bidrar även till den gemensamma statistiken över världens Moodle-användande.';
+* Möjlighet att bidra till den gemensamma statistiken över Moodle-användningen i världen.';
 $string['registrationwarning'] = 'Din webbplats är inte registrerad.';
 $string['registrationwarningcontactadmin'] = 'Din webbplats är inte registrerad ännu. Kontakta administratören.';
 $string['releasenoteslink'] = 'För information om den här versionen av Moodle, se <a target="_blank" href="{$a}">Viktig information</a>';
@@ -1271,7 +1270,7 @@ $string['sort_idnumber'] = 'Kurs ID-nummer';
 $string['sort_shortname'] = 'Kursens kortnamn';
 $string['sort_sortorder'] = 'Sorteringsordning';
 $string['spellengine'] = 'Stavningskontroll';
-$string['spelllanguagelist'] = 'Rättstavningsspråk';
+$string['spelllanguagelist'] = 'Språk för stavningskontroll';
 $string['splrequired'] = ' SPL PHP-tillägget är nu obligatoriskt i Moodle';
 $string['stats'] = 'Statistik';
 $string['statsfirstrun'] = 'Maximalt bearbetningsintervall';

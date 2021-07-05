@@ -711,6 +711,7 @@ $string['unsubscribediscussion'] = 'Dar de baja mi suscripción a esta discusió
 $string['unsubscribediscussionlink'] = 'Dar de baja mi suscripción a la discusión: {$a}';
 $string['unsubscribelink'] = 'Dar de baja mi suscripción al foro: {$a}';
 $string['unsubscribeshort'] = 'Dar de baja';
+$string['useexperimentalui'] = 'Usar la vista experimental de discusión anidada';
 $string['usermarksread'] = 'Marcar lectura de mensaje manual';
 $string['usernavigation'] = 'Navegación del usuario';
 $string['usersforumposts'] = 'Mensajes del usuario en el foro';

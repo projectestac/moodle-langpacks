@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Protocolo REST';
+$string['privacy:metadata'] = 'El complemento del protocolo REST no almacena ningún dato personal.';
 $string['rest:use'] = 'Usar protocolo REST';

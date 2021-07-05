@@ -632,12 +632,12 @@ $string['simple:striketrough_desc'] = 'Genomstruken';
 $string['simple:underline_desc'] = 'Understruken (Ctrl+U)';
 $string['simple:undo_desc'] = 'Å
 ngra (Ctrl+Z)';
-$string['spellchecker:desc'] = 'Slå av/på rättstavningskontroll';
+$string['spellchecker:desc'] = 'Slå av/på stavningskontroll';
 $string['spellchecker:ignore_word'] = 'Ignorera ord';
 $string['spellchecker:ignore_words'] = 'Ignorera alla';
 $string['spellchecker:langs'] = 'Språk';
 $string['spellchecker:learn_word'] = 'Lär in ord';
-$string['spellchecker:menu'] = 'Inställningar för rättstavningskontroll';
+$string['spellchecker:menu'] = 'Inställningar för stavningskontroll';
 $string['spellchecker:no_mpell'] = 'Inga felstavningar funna.';
 $string['spellchecker:no_sug'] = 'Inga förslag';
 $string['spellchecker:sug'] = 'Förslag';

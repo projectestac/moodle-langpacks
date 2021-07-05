@@ -330,7 +330,7 @@ $string['confignotifyloginthreshold'] = 'Si las notificaciones de intentos de id
 $string['confignotloggedinroleid'] = 'Los usuarios que no están identificados en el sitio serán tratados como si tuvieran este rol en el contexto del sitio. \'Invitado\' es aquí casi siempre lo que usted quiera, pero quizás desee crear roles que sean más o menos restrictivos. Cosas como colorar mensajes requieren aún que el usuario se autentifique adecuadamente.';
 $string['configopentowebcrawlers'] = 'Si activa esta opción, se permitirá a Google entrar al sitio como Invitado. Además, quien acceda al sitio vía búsqueda en Google accederá automáticamente como Invitado. Note que esta opción sólo proporciona acceso transparente a los cursos que ya permiten el acceso a invitados.';
 $string['configoverride'] = 'Definido en config.php';
-$string['configpasswordpolicy'] = 'Si está habilitado, las contraseñas de los usuarios se compararán con la política de contraseñas como se especifica en la configuración a continuación. Habilitar la política de contraseñas no afectará a los usuarios existentes hasta que decidan, o se les solicite, cambiar su contraseña, o hasta que se habilite la configuración \'Comprobar contraseña al iniciar sesión\'.';
+$string['configpasswordpolicy'] = 'Si está habilitado, las contraseñas de usuario se compararán con la política de contraseñas como se especifica en la configuración a continuación. Habilitar la política de contraseñas no afectará a los usuarios existentes hasta que decidan, o se les solicite, cambiar su contraseña, o hasta que se habilite la configuración \'Comprobar contraseña al iniciar sesión\'.';
 $string['configpasswordpolicycheckonlogin'] = 'Si se habilita, las contraseñas del usuario serán revisadas contra la política de contraseña cada vez que los usuarios ingresen al sitio. Si la revisión falla, se le pedirá al usuario que cambie su contraseña antes de proceder. Resulta útil el habilitar esta configuración después de actualizar la política de contraseña.';
 $string['configpasswordresettime'] = 'Especifica de cuánto tiempo se dispone para validar una solicitud de restablecimiento de contraseña antes de que caduque. En general 30 minutos es un buen valor.';
 $string['configpathtodu'] = 'Ruta a du (probablemente algo parecido a /usr/bin/du). Si escribe esto, las páginas que muestran el contenido del directorio se ejecutarán mucho más rápidamente cuando los directorios contengan muchos archivos.';
@@ -368,7 +368,7 @@ $string['configsessioncookie'] = 'Esta opción personaliza el nombre de la \'coo
 $string['configsessioncookiedomain'] = 'Le permite cambiar el dominio donde están disponibles las cookies de Moodle. Es útil para la personalización de Moodle (por ejemplo, extensiones de identificación o de matriculación) que necesitan compartir información de la sesión de Moodle con una aplicación web en otro subdominio. <strong> ADVERTENCIA: se recomienda dejar este ajuste en el valor por defecto (vacío) - un valor incorrecto impedirá todos los accesos al sitio </strong>.';
 $string['configsessioncookiepath'] = 'Si necesita cambiar el lugar al que los navegadores envían las \'cookies\' de Moodle, cambie esta opción para especifirar un subdirectorio de su sitio web. En caso contrario, \'/\' por defecto funcionará correctamente..';
 $string['configsessiontimeout'] = 'Si los usuarios conectados al sitio están inactivos durante mucho tiempo (i.e., sin cargar páginas), serán desconectados automáticamente (i.e., terminará la sesión). Esta variable especifica el tiempo de inactividad antes de la desconexión.';
-$string['configsessiontimeoutwarning'] = 'Si las personas que inician sesión en este sitio están inactivas durante mucho tiempo (sin cargar páginas), se les advierte que su sesión está a punto de finalizar. Esta variable especifica cuánto debe ser este tiempo.';
+$string['configsessiontimeoutwarning'] = 'Si las personas que inician sesión en este sitio están inactivas durante mucho tiempo (sin cargar páginas), se les advierte que su sesión está a punto de finalizar. Esta variable especifica cuánto tiempo debe durar ese intervalo.';
 $string['configsessiontimeoutwarningcheck'] = 'La advertencia de tiempo de espera de la sesión debe ser menor que el tiempo de espera de la sesión';
 $string['configshowcommentscount'] = 'Mostrar el número de comentarios. Supone una consulta más cuando se muestre el enlace a los comentarios';
 $string['configshowicalsource'] = 'Mostrar información del origen de eventos iCal';
@@ -595,7 +595,7 @@ $string['enableuserfeedback_desc'] = 'Si está habilitado se muestra un enlace \
 $string['enablewebservices'] = 'Habilitar servicios web';
 $string['enablewsdocumentation'] = 'Documentación de servicios web';
 $string['encryptedpassword_edit'] = 'Introduzca nuevo valor';
-$string['encryptedpassword_set'] = '(Configurado y encriptado)';
+$string['encryptedpassword_set'] = '(Modificado y encriptado)';
 $string['enrolinstancedefaults'] = 'Valores por defecto de la matriculacion';
 $string['enrolinstancedefaults_desc'] = 'Ajustes predeterminados de matriculación en nuevos cursos.';
 $string['enrolmultipleusers'] = 'Matricular a los usuarios';
@@ -676,11 +676,11 @@ $string['gradeexport'] = 'Principales métodos de exportación de calificaciones
 $string['gravatardefaulturl'] = 'URL para imagen por defecto de Gravatar';
 $string['gravatardefaulturl_help'] = 'Gravatar necesita una imagen por defecto para utilizar en caso de que no se pueda localizar la imagen de un determinado usuario. Si dejas esta opción vacía, Moodle intentará usar la imagen por defecto más adecuada para la página que estés viendo. Ten en cuenta que Gravatar dispone de una serie de parámetros que pueden ser usados para <a href="https://es.gravatar.com/site/implement/images/#default-image">generar imágenes por defecto</a>.';
 $string['groupenrolmentkeypolicy'] = 'Política de matriculación de grupos';
-$string['groupenrolmentkeypolicy_desc'] = 'Activando esta opción hará que Moodle compruebe que la clave de matriculación de grupo cumple la política de claves de acceso válidas.';
+$string['groupenrolmentkeypolicy_desc'] = 'Si está habilitado, las claves de inscripción de grupo se compararán con la política de contraseñas como se especifica en la configuración anterior.';
 $string['guestroleid'] = 'Rol para invitado';
 $string['guestroleid_help'] = 'Este rol se le asigna automáticamente a los invitados. También se asigna, temporalmente, por medio del plugin de matriculación de invitados a los usuarios que no están inscritos en un curso.';
 $string['h5pgetcontenttypestask'] = 'Descargar tipos de contenido disponibles desde h5p.org';
-$string['helpadminseesall'] = '¿Pueden los administradores ver todos los eventos del calendario o sólo los que les conciernen?';
+$string['helpadminseesall'] = 'En el calendario del sitio, ¿los administradores ven y filtran eventos de todos los calendarios de cursos o solo de los cursos en los que están inscritos? Independientemente de la opción elegida, los administradores siempre podrán administrar los eventos para cada calendario de cursos navegando primero al curso y luego accediendo directamente al calendario de cursos.';
 $string['helpcalendarcustomexport'] = 'Habilitar la opción de periodo personalizado en las exportaciones del calendario. Las opciones de exportación del calendario deben estar activas para que sea efectivo.';
 $string['helpexportlookahead'] = '¿Cuántos días hacia delante buscará el calendario de eventos durante la exportación en la opción de exportación personalizada?';
 $string['helpexportlookback'] = '¿Cuántos días hacia atrás buscará el calendario de eventos durante la exportación en la opción de exportación personalizada?';
@@ -708,7 +708,7 @@ $string['incompleteunicodesupport'] = 'La configuración actual de MySQL o Maria
 $string['indexdata'] = 'Indexar datos';
 $string['indexinginfo'] = 'La forma recomendada para indexar el contenido de tu sitio es utilizar la tarea programada "Indexación de búsqueda global".';
 $string['installhijacked'] = 'La instalación debe finalizarse desde la misma dirección IP original';
-$string['installsessionerror'] = 'No se puede inicializar sesión de PHP, por favor, verifique que su navegador acepta \'cookies\'.';
+$string['installsessionerror'] = 'No se puede inicializar la sesión PHP. Verifique que su navegador acepta cookies.';
 $string['intlrecommended'] = 'La extensión internacional se utiliza para mejorar el soporte a la internacionalización, como en el caso de la ordenación de localidades.';
 $string['intlrequired'] = 'La extensión Intl es necesaria para mejorar el soporte de internacionalización, como la clasificación local y los dominios internacionales.';
 $string['invalidagedigitalconsent'] = 'La edad de consentimiento digital no es válida: {$a}';
@@ -718,18 +718,13 @@ $string['invalidthemepreset'] = 'La opción seleccionada no es compatible con es
 $string['invaliduserchangeme'] = 'El nombre de usuario "changeme" es reservado: no puede crear una cuenta con ese nombre.';
 $string['ipblocked'] = 'Actualmente este sitio no está disponible.';
 $string['ipblocker'] = 'Bloqueador de IP';
-$string['ipblockersyntax'] = 'Ponga cada entrada en una sola línea. Son entradas válidas cada una de las siguientes:
-<br>*direcciones IP completas (como <B>192.168.10.1</B> ) que coinciden con un solo host
-<br>*las direcciones parciales (como <B>192.168 .</B>), que coinciden con cualquier dirección que 	comienza con estos números
-<br>*las notación CIDR (por ejemplo, <B>231.54.211.0/20</B>)
-<br>*los rangos de direcciones IP (como <B>231.3.56.10-20</B>) donde el rango se aplica a la última parte de la dirección
-<br>Los nombres de dominio (como \'example.com\') no son compatibles. Las líneas en blanco se ignoran.';
+$string['ipblockersyntax'] = 'Ponga cada entrada en una línea. Las entradas válidas son la dirección IP completa (como <b>192.168.10.1</b>) que coincide con un solo host; o dirección parcial (como <b>192.168</b>) que coincida con cualquier dirección que comience con esos números; o notación CIDR (como <b>231.54.211.0/20</b>); o un rango de direcciones IP (como <b>231.3.56.10-20</b>) donde el rango se aplica a la última parte de la dirección. Los nombres de dominio de texto (como \'ejemplo.com\') no son compatibles. Las líneas en blanco y el texto que sigue al carácter "#" se ignoran.';
 $string['iplookup'] = 'Búsqueda de dirección IP';
-$string['iplookupgeoplugin'] = 'El servicio <a href="http://www.geoplugin.com">geoPlugin</a> se emplea actualmente para buscar información geográfica. Para tener resultados más exactos, le recomendamos instalar una copia local de la base de datos MaxMind GeoLite.';
+$string['iplookupgeoplugin'] = 'El servicio <a href="https://www.geoplugin.com">geoPlugin</a> se emplea actualmente para buscar información geográfica. Para tener resultados más exactos le recomendamos instalar una copia local de la base de datos MaxMind GeoLite.';
 $string['iplookupinfo'] = 'Por defecto Moodle utiliza el servidor gratuito en línea NetGeo (The Internet Geographic Database) para buscar la ubicación de las direcciones IP. Desafortunadamente, ha cesado el mantenimiento de esta base de datos, y puede devolver información <em>totalmente errónea</em>.
 Se recomienda instalar una copia local de la base de datos GeoLite2 City, desde MaxMind.<br />
 La ubicación de la dirección IP se muestra en un mapa simple, o usando Google Maps. Para activar los mapas interactivos necesita tener una cuenta Google y aplicar la clave API de Google Maps.';
-$string['iplookupmaxmindnote'] = 'Este producto incluye datos de GeoLite2 creado por MaxMind, disponible en <a href="http://www.maxmind.com/">http://www.maxmind.com/</a>.';
+$string['iplookupmaxmindnote'] = 'Este producto incluye datos de GeoLite2 creado por MaxMind, disponible en <a href="https://www.maxmind.com">https://www.maxmind.com</a>.';
 $string['ishttpswarning'] = 'Se ha detectado que su sitio no se comunica a través de HTTPS. Se recomienda migrar su sitio a HTTPS para incrementar la seguridad y mejorar la integración con otros sistemas.';
 $string['keeptagnamecase'] = 'Mantener minús/MAYÚS de nombre de marca';
 $string['lang'] = 'Idioma por defecto';
@@ -868,8 +863,9 @@ $string['modeditdefaults'] = 'Valores predeterminados para la configuración de 
 $string['modsettings'] = 'Gestionar actividades';
 $string['modulesecurity'] = 'Seguridad del módulo';
 $string['moodleapp'] = 'App de Moodle';
-$string['moodleapp_help'] = '<p>Si tiene una cuenta en un sitio Moodle, puede acceder a todos sus cursos en sus dispositivos móviles con nuestra App móvil gratuita para Moodle.</p>
-<a href="https://moodle.com/mobile-app">Obtenga la App Moodle</a>';
+$string['moodleapp_help'] = '<p>La aplicación gratuita Moodle permite a los usuarios acceder a sus cursos en dispositivos móviles. Las funciones adicionales de la aplicación están disponibles con un plan de aplicación Pro o Premium.</p>
+<a href="https://moodle.com/mobile-app">Obtenga la aplicación Moodle </a><br />
+<a href="https://apps.moodle.com"> Portal de aplicaciones de Moodle </a>';
 $string['moodlebrandedapp'] = 'App Moodle de marca';
 $string['moodlebrandedapp_help'] = '<p>La App Moodle de marca tiene toda la funcionalidad de nuestra App móvil gratuita para Moodle combinada con las características de su marca personalizada propia.</p>
 <a href="https://moodle.com/branded-app">Acerca de la App Moodle de marca</a>';
@@ -886,7 +882,7 @@ $string['mycoursesperpage'] = 'Número de cursos';
 $string['mydashboard'] = 'Panel por defecto del sistema';
 $string['mymoodle'] = 'Área personal';
 $string['mymoodleredirect'] = 'Forzar a los usuarios a usar Mi Moodle';
-$string['mypage'] = 'Página de Área personal por defecto';
+$string['mypage'] = 'Área personal predeterminada';
 $string['mypagelocked'] = 'Bloquear página por defecto';
 $string['myprofile'] = 'Página de perfil por defecto';
 $string['navadduserpostslinks'] = 'Añada enlaces para ver los mensajes del usuario';
@@ -957,7 +953,7 @@ $string['pathtodu'] = 'Ruta a du';
 $string['pathtogs'] = 'Ruta del ghostcript';
 $string['pathtogs_help'] = 'En la mayoría de las instalaciones de Linux, esto se puede dejar como \'/usr/bin/gs\'. En Windows, será algo así como \'c:\\gs\\bin\\gswin32c.exe\' (asegúrese de que no haya espacios en la ruta; si es necesario, copie los archivos \'gswin32c.exe\' y \'gsdll32.dll\' en una nueva carpeta sin espacio en la ruta)';
 $string['pathtopdftoppm'] = 'Ruta a pdftoppm';
-$string['pathtopdftoppm_help'] = '<a href="https://poppler.freedesktop.org/"> Poppler </a> es una biblioteca de renderizado de PDF que incluye la herramienta pdftoppm para convertir archivos PDF a PNG. El rendimiento es generalmente mejor que cuando se usa Ghostscript, particularmente para archivos grandes. Si está disponible, se utilizará pdftoppm en lugar de Ghostscript. En la mayoría de las instalaciones de Linux, la ruta se puede dejar como /usr/bin/pdftoppm. De lo contrario, debe instalar el paquete poppler-utils o poppler, según su distribución de Linux. En Windows, lo proporcionan las instalaciones Cygwin.';
+$string['pathtopdftoppm_help'] = '<a href="https://poppler.freedesktop.org/">Poppler</a>es una biblioteca de renderizado de PDF que incluye la herramienta pdftoppm para convertir archivos PDF a PNG. El rendimiento es generalmente mejor que cuando se usa Ghostscript, particularmente para archivos grandes. Si está disponible, se utilizará pdftoppm en lugar de Ghostscript. En la mayoría de las instalaciones de Linux, la ruta se puede dejar como /usr/bin/pdftoppm. De lo contrario, debe instalar el paquete poppler-utils o poppler, según su distribución de Linux. En Windows, lo proporciona la instalación Cygwin.';
 $string['pathtopgdump'] = 'Ruta a pg_dump';
 $string['pathtopgdumpdesc'] = 'Sólo es necesario entrar si usted tiene má de un pg_dump en su sistema (por ejemplo, si tiene instalada más de una versión de postgresql)';
 $string['pathtopgdumpinvalid'] = 'Ruta no válida a pg_dump: o bien es errónea, o bien no es ejecutable';
@@ -1211,9 +1207,11 @@ $string['sessioncookiedomain'] = 'Dominio de las \'cookies\'';
 $string['sessioncookiepath'] = 'Ruta de las \'cookies\'';
 $string['sessionhandling'] = 'Gestión de la sesión';
 $string['sessiontimeout'] = 'Tiempo límite';
-$string['sessiontimeoutwarning'] = 'Advertencia de tiempo de espera';
+$string['sessiontimeoutwarning'] = 'Aviso de tiempo de espera';
 $string['settingdependenton'] = 'Dependiendo del valor de <strong>{$a}</strong>, este ajuste puede estar oculto.';
 $string['settingfileuploads'] = 'La subida de archivos es necesaria para el funcionamiento normal, por favor, actívela en la configuración PHP.';
+$string['settingmaxinputvars'] = 'Se recomienda que la configuración de PHP max_input_vars sea al menos 5000.';
+$string['settingmaxinputvarsrequired'] = 'La configuración de PHP max_input_vars debe ser al menos 5000.';
 $string['settingmemorylimit'] = 'Memoria insuficiente, defina un valor mayor de la memoria en la configuración de PHP (memory_limit)';
 $string['settingsafemode'] = 'Moodle no es totalmente compatible con el modo seguro, por favor, pida al administrador del servidor que lo desactive. La ejecución de Moodle en modo seguro no es compatible, se producirán diversos problemas si lo hace.';
 $string['setupsearchengine'] = 'Configurar el motor de búsqueda';
@@ -1341,7 +1339,7 @@ $string['taskglobalsearchindex'] = 'Indexado de búsqueda global';
 $string['taskglobalsearchoptimize'] = 'Optimización del indexado de búsqueda global';
 $string['taskgradecron'] = 'Procesamiento en segundo plano del libro de calificaciones';
 $string['taskgradehistorycleanup'] = 'Procesamiento en segundo plano para limpiar tablas de historia de calificación';
-$string['taskh5pcleanup'] = 'Limpieza de archivos H5P no utilizados';
+$string['taskh5pcleanup'] = 'Limpieza de ficheros H5P no utilizados';
 $string['tasklegacycron'] = 'Procesamiento heredado de extensiones';
 $string['tasklogcleanup'] = 'Limpieza de logs de tareas';
 $string['tasklogging'] = 'Configuración de logs de tareas';

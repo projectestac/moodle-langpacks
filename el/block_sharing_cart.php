@@ -57,6 +57,6 @@ $string['privacy:metadata:block_sharing_cart:modtext'] = 'Ο τίτλος του
 $string['privacy:metadata:block_sharing_cart:userid'] = 'Το αναγνωριστικό του χρήστη';
 $string['privacy:metadata:block_sharing_cart:weight'] = 'Σειρά των στοιχείων, με αύξουσα ταξινόμηση';
 $string['restore'] = 'Αντιγραφή στο μάθημα';
-$string['section_name_conflict'] = 'Διένεξη τίτλου ενότητας';
+$string['section_name_conflict'] = 'Διένεξη (τίτλου) ενότητας';
 $string['unexpectederror'] = 'Παρουσιάστηκε ένα μη αναμενόμενο σφάλμα';
 $string['variouscourse'] = 'από διάφορα μαθήματα';

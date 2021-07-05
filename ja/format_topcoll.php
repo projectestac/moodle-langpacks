@@ -26,7 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['arrow'] = '鏃 (三角型)';
-$string['attempted'] = '受験済';
 $string['bulb'] = '電球';
 $string['cloud'] = '雲';
 $string['columnhorizontal'] = '水平 (横方向)';
@@ -57,9 +56,7 @@ $string['defaulttoggleiconset'] = 'トグルのアイコンの初期値 (コー�
 $string['defaulttoggleiconset_desc'] = '<table><tbody><tr><td>鏃 (三角型)</td><td>{$a->arrow}</td></tr><tr><td>電球</td><td>{$a->bulb}</td></tr><tr><td>雲</td><td>{$a->cloud}</td></tr><tr><td>瞳</td><td>{$a->eye}</td></tr><tr><td>フォルダ</td><td>{$a->folder}</td></tr><tr><td>信号機</td><td>{$a->groundsignal}</td></tr><tr><td>LEC (発光ダイオード)</td><td>{$a->led}</td></tr><tr><td>ポイント (三角型)</td><td>{$a->point}</td></tr><tr><td>電源</td><td>{$a->power}</td></tr><tr><td>ラジオボタン</td><td>{$a->radio}</td></tr><tr><td>スマイリー</td><td>{$a->smiley}</td></tr><tr><td>四角</td><td>{$a->square}</td></tr><tr><td>太陽 / 月</td><td>{$a->sunmoon}</td></tr><tr><td>スイッチ</td><td>{$a->switch}</td></tr></tbody></table>';
 $string['deletesection'] = 'トピックを削除する';
 $string['displayinstructions'] = '説明の表示';
-$string['due'] = '{$a} まで';
 $string['editsection'] = 'トピックを編集する';
-$string['expired'] = '期限切れ';
 $string['eye'] = '瞳';
 $string['feedbackavailable'] = 'フィードバックの確認';
 $string['folder'] = 'フォルダ';
@@ -68,10 +65,6 @@ $string['groundsignal'] = '信号機';
 $string['hidefromothers'] = 'トピックを隠す';
 $string['instructions'] = '解説 : セクション名をクリックすることでセクションを展開したり折りたたんだりすることができます。';
 $string['led'] = 'LED (発光ダイオード)';
-$string['notanswered'] = '未回答';
-$string['notattempted'] = '未受験';
-$string['notopen'] = '提出可能期間の開始前';
-$string['notsubmitted'] = '未提出';
 $string['numbersections'] = 'セクション数';
 $string['one'] = '1列';
 $string['onesection'] = '拡げるセクションを最大1つに限定';
@@ -100,7 +93,6 @@ $string['settoggleiconset'] = 'トグルのアイコン';
 $string['showfromothers'] = 'トピックを表示する';
 $string['smiley'] = 'スマイリー (😀/🙁)';
 $string['square'] = '四角';
-$string['submitted'] = '提出済';
 $string['sunmoon'] = '太陽 / 月';
 $string['switch'] = 'スイッチ';
 $string['three'] = '3列';

@@ -47,6 +47,8 @@ $string['dashboardlink'] = 'Link zum Accredible-Dashboard';
 $string['dashboardlinktext'] = 'Melden Sie sich auf dem <a href="https://dashboard.accredible.com" target="_blank"> Accredible-Dashboard</a> an, um Credentials zu löschen oder zu gestalten.';
 $string['datecreated'] = 'Erstellungsdatum';
 $string['description'] = 'Beschreibung';
+$string['euhelp'] = 'Wählen Sie, ob Sie Daten in der EU (Frankfurt) hosten möchten statt in den USA.';
+$string['eulabel'] = 'EU-Server (Frankfurt)';
 $string['eventcertificatecreated'] = 'Ein Credential wurde auf Accredible gepostet';
 $string['gotodashboard'] = 'Bearbeiten Sie das Aussehen Ihrer Badges und Zertifikate unter <a href="https://dashboard.accredible.com" target="_blank">https://dashboard.accredible.com</a>';
 $string['gradeissueheader'] = 'Automatische Vergabekriterien: nach endgültiger Quiz-Note';

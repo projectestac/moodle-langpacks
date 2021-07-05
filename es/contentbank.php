@@ -64,6 +64,7 @@ $string['nocontenttypes'] = 'No hay tipos de contenido disponibles';
 $string['nopermissiontodelete'] = 'No tienes permiso para eliminar contenido';
 $string['nopermissiontomanage'] = 'No tiene permiso para administrar contenido';
 $string['notavailable'] = 'Lo sentimos, este contenido no está disponible.';
+$string['notvalidpackage'] = 'Disculpe, este fichero no es válido.';
 $string['privacy:metadata:content:contenttype'] = 'El plugin contenttype del contenido en el banco de contenido.';
 $string['privacy:metadata:content:name'] = 'Nombre del contenido en el banco de contenido.';
 $string['privacy:metadata:content:timecreated'] = 'Hora en la cual el contenido fue creado.';

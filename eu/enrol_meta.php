@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addgroup'] = 'Gehitu taldera';
 $string['coursesort'] = 'Ordenatu ikastaro-zerrenda';
-$string['coursesort_help'] = 'Honek zehazten du esteka daitekeen ikastaro-zerrenda ikastaroen ordenaren arabera ordenatzen diren (Gunearen Kudeaketa > Ikastaroak > Kudeatu ikastaroak eta kategoriak atalean zehaztutako ordena) edo alfabetikoki ordenatzen diren ikastaroen ezarpenen arabera.';
+$string['coursesort_help'] = 'Honek zehazten du esteka daitekeen ikastaro-zerrenda ikastaroen ordenatze-irizpidearen arabera ordenatzen diren (Gunearen Kudeaketa > Ikastaroak > Kudeatu ikastaroak eta kategoriak atalean zehaztutako ordena) edo alfabetikoki ordenatzen diren ikastaroen ezarpenen arabera.';
 $string['creategroup'] = 'Sortu talde berri bat';
 $string['defaultgroupnametext'] = '{$a->name} ikastaroa {$a->increment}';
 $string['enrolmetasynctask'] = 'Ikastaroen meta-esteka matrikulazioen sinkronizazio ataza';

@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Protocolo SOAP';
+$string['privacy:metadata'] = 'El complemento del protocolo SOAP no almacena ningún dato personal.';
 $string['soap:use'] = 'Usar protocolo SOAP';

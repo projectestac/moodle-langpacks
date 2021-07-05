@@ -59,4 +59,4 @@ $string['sessionmissing'] = 'الغرض {$a} مفقود من الجلسة';
 $string['sqlrelyonobsoletetable'] = 'هذه الـ SQL تعتمد على جداول متقادمة : {$a} ! يجب إصلاح النص البرمجي من قبل مبرمج .';
 $string['stacktrace'] = 'تتبع المكدس';
 $string['withoutversion'] = 'ملف version.php الرئيسي مفقود أو غير مقروء أو تم نقله .';
-$string['xmlizeunavailable'] = 'توابع التحويل إلى xml غير متوافرة';
+$string['xmlizeunavailable'] = 'وظائف xmlize غير متوافرة';

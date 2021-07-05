@@ -43,6 +43,7 @@ $string['numofselfallocatedsubmissions'] = 'Auto-asignando {$a} envíos(s)';
 $string['numperauthor'] = 'por envío';
 $string['numperreviewer'] = 'por revisor';
 $string['pluginname'] = 'Asignación aleatoria';
+$string['privacy:metadata'] = 'El complemento de asignación aleatoria no almacena ningún dato personal. Los datos personales reales sobre quién va a evaluar a quién son almacenados por el módulo de Taller y forman la base para exportar los detalles de las evaluaciones.';
 $string['randomallocationdone'] = 'Asignación aleatoria realizada';
 $string['removecurrentallocations'] = 'Eliminar asignaciones actuales';
 $string['resultnomorepeers'] = 'No hay más pares disponibles';

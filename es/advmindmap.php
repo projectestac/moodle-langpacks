@@ -25,12 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['advmindmap:givecomment'] = 'Dejar comentario';
 $string['advmindmap:submit'] = 'Enviar';
 $string['advmindmap:view'] = 'Ver';
 $string['advmindmap:viewother'] = 'Ver otro';
 $string['class'] = 'Clase';
 $string['classno'] = 'Número de la clase';
 $string['copylink'] = '(Ctrl+C para copiar)';
+$string['coursemisconf'] = 'Curso está desconfigurado';
 $string['editable'] = 'Editable';
 $string['errorcannotunlockadvmindmap'] = 'No se puede desbloquear este mindmap, la instancia no es correcta.';
 $string['errorcannotviewgroupmindmap'] = 'No tiene permisos para ver los mindmap de otros grupos.';
