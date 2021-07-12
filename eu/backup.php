@@ -43,7 +43,7 @@ $string['asyncmessagebodydefault'] = 'Kaixo, {user_firstname}: <br/>
 Hemen ikus dezakezu {link}.';
 $string['asyncmessagebodydetail'] = 'Segurtasun-kopia eta berreskuratze asinkronoa amaitutakoan bidali beharreko mezua.';
 $string['asyncmessagesubject'] = 'Gaia';
-$string['asyncmessagesubjectdefault'] = 'Moodle {operation} eragiketa ondo amaitu da';
+$string['asyncmessagesubjectdefault'] = 'Moodleko {operation} eragiketa ondo amaitu da';
 $string['asyncmessagesubjectdetail'] = 'Mezuaren gaia';
 $string['asyncnowait'] = 'Ez duzu zertan hemen itxaron, prozesamenduak atzeko planoan jarraituko du-eta.';
 $string['asyncprocesspending'] = 'Prozesamenduaren zain';

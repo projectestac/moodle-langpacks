@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Avaliação Manual';
-$string['privacy:metadata'] = 'O módulo Comportamento das perguntas Avaliação manual não armazena dados pessoais.';
+$string['privacy:metadata'] = 'O módulo Comportamento das perguntas Avaliação manual não armazena quaisquer dados pessoais.';

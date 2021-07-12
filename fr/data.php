@@ -263,7 +263,7 @@ L\'enseignant peut autoriser les commentaires sur les articles. Les articles peu
 Une activité de base de données peut être utilisée pour :
 
 * construire de façon collaborative une collection de références (liens web, livres, journaux)
-* afficher des travaux d\'élèves (photos, posters, sites web, poèmes) pour une évaluation par les pairs';
+* afficher des travaux d\'étudiants (photos, posters, sites web, poèmes) pour une évaluation par les pairs';
 $string['modulenameplural'] = 'Bases de données';
 $string['more'] = 'Plus';
 $string['moreurl'] = 'Plus d\'infos';

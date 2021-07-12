@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['advancedfilter'] = 'Προχωρημένο φίλτρο';
+$string['apply'] = 'Εφαρμογή';
 $string['atleastonecomment'] = 'Σχέδια μάθησης με τουλάχιστον ένα σχόλιο';
 $string['atleasttwoplans'] = 'Χρήστες με τουλάχιστον δύο σχέδια μάθησης';
 $string['colorconfiguration'] = 'Χρώματα κλιμάκων προσόντων';
@@ -63,8 +65,32 @@ $string['nopermissionsplanview'] = 'Λυπούμαστε, αλλά προς το
 $string['nopermissionsusercompetencyview'] = 'Λυπούμαστε, αλλά προς το παρόν δεν έχετε δικαιώματα προβολής των προσόντων χρήστη για {$a}';
 $string['noscaleavailable'] = 'Δεν υπάρχει διαθέσιμη κλίμακα';
 $string['notemplateselected'] = 'Δεν έχει επιλεγεί υπόδειγμα';
+$string['notproficient'] = 'Μη επαρκές';
+$string['notproficientcompetencies'] = 'Προσόντα μη επαρκή';
+$string['notrated'] = 'Μη αξιολογημένο';
+$string['notratedcompetencies'] = 'Προσόντα μη αξιολογημένα';
 $string['nouserselected'] = 'Δεν επιλέχθηκε κανένας χρήστης';
 $string['plansnumber'] = '<strong>({$a})</strong> μαθησιακό(-α) σχέδιο(-α)';
+$string['pluginname'] = 'Παρακολούθηση σχεδίων μάθησης';
 $string['previoususer'] = 'Προηγούμενος χρήστης';
+$string['privacy:metadata'] = 'Το πρόσθετο «Παρακολούθηση σχεδίων μάθησης» δεν αποθηκεύει κανένα προσωπικό δεδομένο.';
+$string['proficient'] = 'Επαρκής';
+$string['proficientcompetencies'] = 'Προσόντα επαρκή';
+$string['rated'] = 'Αξιολογημένα';
+$string['ratingnumber'] = '<strong>({$a})</strong> αξιολόγηση';
+$string['resetallratings'] = 'Επαναρχικοποίηση όλων των αξιολογήσεων';
+$string['searchincompetencies'] = 'Αναζήτηση στα προσόντα';
+$string['searchincourses'] = 'Αναζήτηση στα μαθήματα';
 $string['searchplaceholder'] = 'Αναζήτηση';
+$string['tabreport'] = 'Αναφορά';
+$string['tabsummary'] = 'Περίληψη';
+$string['tag'] = 'Ετικέτα';
+$string['tagarea_competency_plan'] = 'Σχέδια μάθησης';
+$string['tags'] = 'Ετικέτα/-ες';
+$string['tagsedit'] = 'Επεξεργασία ετικετών';
 $string['tagseditshort'] = 'Επεξεργασία';
+$string['totalnumberrating'] = 'Συνολικός αριθμός αξιολογήσεων';
+$string['totalnumberratingincms'] = 'Συνολικός αριθμός αξιολογήσεων σε δραστηριότητες';
+$string['totalnumberratingincourses'] = 'Συνολικός αριθμός αξιολογήσεων σε μαθήματα';
+$string['totalusers'] = 'Σύνολο χρηστών';
+$string['usersfromtemplate'] = 'Χρήστες από αυτό το υπόδειγμα';

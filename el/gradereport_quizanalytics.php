@@ -25,11 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['accuaracyrate'] = 'Ποσοστό ακρίβειας :';
 $string['action'] = 'Ενέργεια';
 $string['apiversion'] = 'Εισαγάγετε την έκδοση API';
+$string['apiversiondes'] = 'Παρακαλούμε, εισαγάγετε την έκδοση API σας.';
+$string['attemptsummarydes'] = 'Αυτό το γράφημα απεικονίζει πώς τα πήγατε στην προσπάθειά σας.';
 $string['avgscore'] = 'Μέσος όρος';
 $string['bestscore'] = 'Το καλύτερο σκορ';
 $string['correct'] = 'Σωστό';
+$string['enterfbappid'] = 'Εισαγάγετε το αναγνωριστικό εφαρμογής FaceBook';
+$string['fbsharetitle'] = 'Προσθέστε έναν τίτλο';
 $string['gradeanalysisdes'] = 'Αριθμός χρηστών σε κάθε ομάδα ποσοστών (ποσοστό βαθμολογίας).';
 $string['gradeboundary'] = 'Όρια βαθμού';
 $string['gradeboundarydes'] = 'Όρια βαθμού είναι διαστήματα (range: πεδίο, εύρος, διάστημα) που ορίζονται από το διαχειριστή, τα οποία θα εμφανίζονται στο γράφημα στατιστικών αποτελεσμάτων.';
@@ -37,6 +42,7 @@ $string['hardcatalluser'] = 'Σταθερές κατηγορίες (Όλοι ο�
 $string['hardcatlogginuser'] = 'Σταθερές κατηγορίες (συνδεδεμένος χρήστης)%';
 $string['hardestquestion'] = 'Οι πιο δύσκολες ερωτήσεις';
 $string['hardness'] = 'Δυσκολία (%)';
+$string['impandpredicanalysis'] = 'Καμπύλη Βελτίωσης & Προγνωστική Ανάλυση';
 $string['incorrect'] = 'Ανακριβής';
 $string['lastattemptsummary'] = 'Περίληψη προσπάθειας';
 $string['lastattemptsummarydes'] = 'Αυτό το γράφημα απεικονίζει πώς τα πήγατε στην τελευταία προσπάθεια.';

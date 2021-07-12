@@ -25,6 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['alreadygraded'] = 'Ήδη βαθμολογημένο';
+$string['alsoshowautomaticallygraded'] = 'Επίσης, εμφάνιση ερωτήσεων που έχουν βαθμολογηθεί αυτόματα';
+$string['attempt'] = 'Προσπάθεια';
+$string['attemptid'] = 'Προσπάθεια {$a}';
 $string['attemptstograde'] = 'Προσπάθειες βαθμολόγησης';
 $string['automaticallygraded'] = 'Αυτόματη βαθμολόγηση';
 $string['backtothelistofstudentattempts'] = 'Επιστροφή στη λίστα των μαθητικών προσπαθειών';

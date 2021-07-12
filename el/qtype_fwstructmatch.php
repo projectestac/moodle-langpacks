@@ -27,6 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addmoreanswerblanks'] = 'Κενά πεδία για {no} ακόμα απαντήσεις';
 $string['answer'] = 'Απάντηση: {$a}';
+$string['answermustbegiven'] = 'Πρέπει να δώσετε μια απάντηση αν υπάρχει βαθμός ή ανατροφοδότηση.';
 $string['answerno'] = 'Απάντηση {$a}';
+$string['correctanswers'] = 'Σωστές απαντήσεις';
 $string['notenoughanswers'] = 'Αυτός ο τύπος ερώτησης απαιτεί τουλάχιστον {$a} απαντήσεις';
 $string['pleaseenterananswer'] = 'Παρακαλούμε, δώστε μια απάντηση.';

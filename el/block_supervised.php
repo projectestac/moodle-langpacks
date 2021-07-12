@@ -77,6 +77,10 @@ $string['emaileditedsessionsubject'] = '{$a->sitename}: η σύνοδος έχε
 $string['emaileditsessionurl'] = 'Μπορείτε να τροποποιήσετε αυτή τη σύνοδο: {$a}';
 $string['emailnewsessionsubject'] = '{$a->sitename}: νέα σύνοδος για τις {$a->timestart}';
 $string['emailremovedsessionsubject'] = '{$a->sitename}: η σύνοδος έχει διαγραφεί για τις {$a->timestart}';
+$string['emailsessioncomment'] = 'Σχόλιο συνόδου:
+--------------------------------------------------
+{$a}
+--------------------------------------------------';
 $string['eventaddclassroom'] = 'Προστέθηκε νέα τάξη';
 $string['eventaddlessontype'] = 'Προστέθηκε νέος τύπος διδασκαλίας';
 $string['eventaddsession'] = 'Προστέθηκε νέα σύνοδος';
@@ -102,6 +106,7 @@ $string['increaseduration'] = 'Το τέλος της συνόδου πρέπε�
 $string['insertclassroomerror'] = 'Σφάλμα βάσης δεδομένων! Δεν είναι δυνατή η εισαγωγή της τάξης στη βάση δεδομένων.';
 $string['insertlessontypeerror'] = 'Σφάλμα βάσης δεδομένων! Δεν είναι δυνατή η εισαγωγή του τύπου διδασκαλίας στη βάση δεδομένων.';
 $string['insertsessionerror'] = 'Σφάλμα βάσης δεδομένων! Δεν είναι δυνατή η εισαγωγή της συνόδου στη βάση δεδομένων.';
+$string['internship'] = 'Ομάδα πρακτικής άσκησης';
 $string['invalidclassroomid'] = 'Προσπαθείτε να χρησιμοποιήσετε ένα μη έγκυρο αναγνωριστικό τάξης';
 $string['invalidlessontypeid'] = 'Προσπαθείτε να χρησιμοποιήσετε ένα μη έγκυρο αναγνωριστικό τύπου διδασκαλίας';
 $string['invalidsessionid'] = 'Προσπαθείτε να χρησιμοποιήσετε ένα μη έγκυρο αναγνωριστικό συνόδου';
@@ -116,6 +121,7 @@ $string['logsbreadcrumb'] = 'Καταγραφές συνόδου';
 $string['logspagetitle'] = 'Καταγραφές συνόδου';
 $string['logsview'] = 'Καταγραφές συνόδου';
 $string['messageforteacher'] = 'Μήνυμα για τον επιτηρητή';
+$string['newinternship'] = 'Νέα ομάδα πρακτικής άσκησης';
 $string['nosessionsstudenttitle'] = 'Δεν έχετε καμία ενεργή σύνοδο...';
 $string['notifyteacher'] = 'Ειδοποίηση για τον επιτηρητή μέσω ηλε.ταχυδρομείου';
 $string['notspecified'] = 'Μη καθορισμένο';
@@ -123,6 +129,7 @@ $string['pagesizevalidationerror'] = 'Το μέγεθος σελίδας πρέ�
 $string['plannedsessiontitle'] = 'Έχετε μια σχεδιασμένη σύνοδο';
 $string['plannedstate'] = 'Σχεδιασμένη';
 $string['plansession'] = 'Σχεδίαση μιας νέας συνόδου...';
+$string['plansession_forInter'] = 'Σχεδιάστε μια νέα σύνοδο για πρακτική άσκηση...';
 $string['plansessionnavbar'] = 'Σχεδίαση συνόδου';
 $string['pluginname'] = 'Επιτήρηση';
 $string['sessiondeleteerror'] = 'Δεν μπορεί να διαγραφεί ενεργή σύνοδος. Τερματίστε την σύνοδο πρώτα.';

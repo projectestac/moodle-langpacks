@@ -25,6 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['activitychooseractivefooter'] = 'Peu de pàgina del selector d\'activitats';
+$string['activitychooseractivefooter_desc'] = 'El selector d\'activitats pot admetre connectors que afegeixen elements al peu de pàgina.';
+$string['activitychoosercategory'] = 'Selector d\'activitats';
+$string['activitychooserhidefooter'] = 'Sense peu';
+$string['activitychoosersettings'] = 'Configuració del selector d\'activitats';
+$string['activitychoosertabmode'] = 'Pestanyes del selector d\'activitats';
+$string['activitychoosertabmode_desc'] = 'El selector d’activitats permet al professor seleccionar fàcilment activitats i recursos per afegir al seu curs. Aquest paràmetre determina quines pestanyes s’hi han de mostrar. Tingueu en compte que la pestanya de destacats només es mostra per a un usuari si ha destacat una o més activitats i la pestanya de recomanats només es mostra si un administrador del lloc ha especificat algunes activitats recomanades.';
+$string['activitychoosertabmodeone'] = 'Destacats, Tots, Activitats, Recursos, Recomanats';
+$string['activitychoosertabmodethree'] = 'Destacats, Activitats, Recursos, Recomanats';
+$string['activitychoosertabmodetwo'] = 'Destacats, Tots, Recomanats';
 $string['aria:coursecategory'] = 'Categoria de curs';
 $string['aria:courseimage'] = 'Imatge de curs';
 $string['aria:coursename'] = 'Nom del curs';
@@ -46,6 +56,8 @@ $string['enabledownloadcoursecontent'] = 'Habilita la baixada de contingut del c
 $string['errorendbeforestart'] = 'La data de finalització del curs {$a}) és anterior a la data d\'inici del curs.';
 $string['favourite'] = 'Curs destacat';
 $string['gradetopassnotset'] = 'El curs no té habilitada cap qualificació per aprovar. Es pot habilitar en l\'element de qualificació del curs (Configuració del llibre de qualificacions).';
+$string['informationformodule'] = 'Informació sobre l\'activitat {$a}';
+$string['module'] = 'Activitat';
 $string['nocourseactivity'] = 'No hi ha hagut prou activitat al curs entre l\'inici i el final del curs.';
 $string['nocourseendtime'] = 'El curs no té una data de finalització';
 $string['nocoursesections'] = 'No hi ha cap secció al curs';
@@ -54,3 +66,4 @@ $string['privacy:completionpath'] = 'Compleció del curs';
 $string['privacy:metadata:completionsummary'] = 'El curs conté informació de compleció sobre l\'usuari.';
 $string['privacy:metadata:favouritessummary'] = 'El curs conté informació relacionada amb el curs destacat per l\'usuari.';
 $string['privacy:perpage'] = 'El nombre de cursos a mostrar per pàgina.';
+$string['recommendcheckbox'] = 'Activitat recomanada: {$a}';

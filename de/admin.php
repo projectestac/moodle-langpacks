@@ -253,8 +253,8 @@ $string['configdisableuserimages'] = 'Nutzer/innen verbieten, ihre Profilbilder 
 $string['configdisplayloginfailures'] = 'Erfolglose Anmeldeversuche anzeigen';
 $string['configdndallowtextandlinks'] = 'Mit dieser Option kann Drag-and-drop für Texte und Links auf eine Kursseite aktiviert werden. Beachten Sie, dass das Verschieben von Texten zwischen verschiedenen Browsern unzulässig ist. Daten könnten verloren gehen oder Texte beschädigt werden.';
 $string['configdoclang'] = 'Diese Spracheinstellung wird in den Links zu Dokumentationsseiten verwendet.';
-$string['configdocroot'] = 'Diese Angabe legt den Pfad zur offiziellen Moodle-Dokumentation fest. Über den Link \'Dokumentation zu dieser Seite\' wird eine kontextspezifische Dokumentation zu jeder Seite angeboten. Wenn das Feld leer ist, wird der Link nicht angezeigt.';
-$string['configdoctonewwindow'] = 'Wenn diese Option aktiviert ist, werden alle Links zur Moodle-Dokumentation in einem neuen Fenster angezeigt';
+$string['configdocroot'] = 'Diese Angabe legt den Pfad zur offiziellen Moodle-Dokumentation fest. Über den Link \'Hilfe und Dokumentation\' wird eine kontextspezifische Dokumentation zu jeder Seite angeboten. Wenn das Feld leer ist, wird der Link nicht angezeigt.';
+$string['configdoctonewwindow'] = 'Wenn diese Option aktiviert ist, werden die Links zur Moodle-Dokumentation in einem neuen Fenster angezeigt';
 $string['configeditordictionary'] = 'Dieser Wert wird verwendet, wenn aspell kein Wörterbuch für die nutzergewählte Sprache hat.';
 $string['configeditorfontlist'] = 'Zeichensätze auswählen, die im Editormenü erscheinen sollen';
 $string['configemailchangeconfirmation'] = 'Wenn Nutzer/innen in ihrem Profil die E-Mail-Adresse ändern, dann ist eine E-Mail-Bestätigung notwendig';
@@ -1123,8 +1123,7 @@ $string['purgethemecache'] = 'Design';
 $string['query'] = 'Abfrage';
 $string['question'] = 'Fragen';
 $string['questionbehaviours'] = 'Frageverhalten';
-$string['questioncwqpfscheck'] = 'Im Test sind eine oder mehrere \'Zufallsfragen\' so konfiguriert, dass
-Fragen aus einem Mix von freigegebenen und nichtfreigegebenen Fragenkategorien ausgewählt werden sollen. Lesen Sie dazu bitte den <a href="{$a->reporturl}"> ausführlicheren Bericht</a> und die
+$string['questioncwqpfscheck'] = 'Im Test sind eine oder mehrere \'Zufallsfragen\' so konfiguriert, dass Fragen aus einem Mix von freigegebenen und nichtfreigegebenen Fragenkategorien ausgewählt werden sollen. Lesen Sie dazu bitte den <a href="{$a->reporturl}"> Bericht zu den Zufallsfragen</a> und die
 <a href="{$a->docsurl}"> Moodle Dokumentation</a>.';
 $string['questioncwqpfsok'] = 'Gut. Keine der \'Zufallsfragen\' in Ihren Tests ist so konfiguriert, dass
 Fragen aus einem Mix von freigegebenen und nicht freigegebenen Fragenkategorien ausgewählt werden könnten.';

@@ -641,9 +641,7 @@ $string['emailagain'] = 'メールアドレス (もう一度)';
 $string['emailalreadysent'] = 'パスワードリセットメールはすでに送信されています。あなたのメールを確認してください。';
 $string['emailcharset'] = 'メール文字コード';
 $string['emailconfirm'] = 'アカウントの確定';
-$string['emailconfirmation'] = '{$a->firstname} さん
-
-「 {$a->sitename} 」であなたのメールアドレスによる新しいアカウントの作成が依頼されました。
+$string['emailconfirmation'] = '「 {$a->sitename} 」であなたのメールアドレスによる新しいアカウントの作成が依頼されました。
 
 あなたの新しいアカウントを確定するには以下のウェブアドレスにアクセスしてください:
 
@@ -1294,7 +1292,7 @@ $string['modvisiblewithstealth_help'] = '「利用」に「コースページに
 $string['month'] = '月';
 $string['months'] = '月';
 $string['moodledocs'] = 'Moodle Docs';
-$string['moodledocslink'] = 'このページのMoodle Docs';
+$string['moodledocslink'] = 'ヘルプおよびドキュメンテーション';
 $string['moodlelogo'] = 'Moodleロゴ';
 $string['moodlerelease'] = 'Moodleリリース';
 $string['moodleversion'] = 'Moodleバージョン';

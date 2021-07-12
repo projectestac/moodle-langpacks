@@ -27,7 +27,9 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addmoreanswerblanks'] = 'Κενά πεδία για {no} ακόμα απαντήσεις';
 $string['answer'] = 'Απάντηση: {$a}';
+$string['answermustbegiven'] = 'Πρέπει να δώσετε μια απάντηση αν υπάρχει βαθμός ή ανατροφοδότηση.';
 $string['answerno'] = 'Απάντηση {$a}';
+$string['caseshowproducts'] = 'Εμφάνιση (ευκολότερο)';
 $string['correctansweris'] = 'Η σωστή απάντηση είναι: {$a}.';
 $string['correctanswers'] = '<b>Ιδρύματα</b>';
 $string['insert'] = 'Εισαγωγή από τον επεξεργαστή κειμένου';
@@ -38,3 +40,4 @@ $string['notenoughanswers'] = 'Αυτός ο τύπος ερώτησης απα�
 $string['orderimportant'] = 'Ναι';
 $string['ordernotimportant'] = 'Όχι';
 $string['pleaseenterananswer'] = 'Παρακαλούμε, δώστε μια απάντηση.';
+$string['youranswer'] = 'Η απάντησή σας: {$a}';

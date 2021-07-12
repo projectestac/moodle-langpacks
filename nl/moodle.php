@@ -642,10 +642,10 @@ $string['emailagain'] = 'E-mail (nogmaals)';
 $string['emailalreadysent'] = 'Er is al een e-mail verstuurd om je wachtwoord te resetten. Controleer je e-mail.';
 $string['emailcharset'] = 'Tekenset voor e-mail';
 $string['emailconfirm'] = 'Bevestig je account';
-$string['emailconfirmation'] = 'Beste {$a->firstname},
+$string['emailconfirmation'] = 'Beste,
 
 Er is een nieuwe account aangevraagd bij \'{$a->sitename}\' met gebruik van dit e-mailadres.
-Klik op de onderstaande link om de account in werking te stellen:
+Ga naar onderstaande link om de account te bevestigen:
 
 {$a->link}
 
@@ -1305,7 +1305,7 @@ Als de cursus vele activiteiten of bronnen bevat, dan kan de pagina vereenvoudig
 $string['month'] = 'Maand';
 $string['months'] = 'Maanden';
 $string['moodledocs'] = 'Moodle Docs';
-$string['moodledocslink'] = 'Hulp uit Moodle Docs voor deze pagina';
+$string['moodledocslink'] = 'Hulp en documentatie';
 $string['moodlelogo'] = 'Moodle logo';
 $string['moodlerelease'] = 'Moodle release';
 $string['moodleversion'] = 'Moodleversie';

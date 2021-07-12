@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addmoreanswerblanks'] = 'Κενά πεδία για {no} ακόμα απαντήσεις';
 $string['answer'] = 'Απάντηση: {$a}';
+$string['answermustbegiven'] = 'Πρέπει να δώσετε μια απάντηση αν υπάρχει βαθμός ή ανατροφοδότηση.';
 $string['answerno'] = 'Απάντηση {$a}';
 $string['correct_answer'] = 'Σωστή απάντηση';
 $string['correctansweris'] = 'Η σωστή απάντηση είναι: {$a}.';
@@ -35,5 +36,8 @@ $string['insert'] = 'Εισαγωγή από τον επεξεργαστή κε�
 $string['insertfromeditor'] = 'Εισαγωγή από τον επεξεργαστή κειμένου';
 $string['instructions'] = 'Η αναπαράσταση ChemAxon «mrv» του μοντέλου σας πρέπει να αποθηκευτεί στο ακόλουθο πεδίο για να βαθμολογηθεί:';
 $string['javaneeded'] = 'Για να χρησιμοποιήσετε αυτή τη σελίδα χρειάζεστε έναν περιηγητή με δυνατότητα Java. Κάντε λήψη του πιο πρόσφατου πρόσθετου Java από {$a}.';
+$string['my_response'] = 'Η απόκρισή μου';
 $string['notenoughanswers'] = 'Αυτός ο τύπος ερώτησης απαιτεί τουλάχιστον {$a} απαντήσεις';
 $string['pleaseenterananswer'] = 'Παρακαλούμε, δώστε μια απάντηση.';
+$string['view'] = 'Προβολή στο πρόγραμμα επεξεργασίας';
+$string['youranswer'] = 'Η απάντησή σας: {$a}';

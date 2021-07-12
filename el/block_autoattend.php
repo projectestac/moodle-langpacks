@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['Adesc'] = 'Όλες οι παρουσίες';
+$string['Amethod'] = 'A';
 $string['Amethodfull'] = 'Αυτόματα';
 $string['Cstate'] = 'C';
 $string['Cstatefull'] = 'Κλειστό';

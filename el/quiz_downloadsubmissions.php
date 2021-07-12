@@ -29,3 +29,7 @@ $string['downloadsubmissions'] = 'Λήψη υποβολών εκθέσεων';
 $string['downloadsubmissionsreport'] = 'Λήψη αναφοράς υποβολών';
 $string['noattempts'] = 'Δεν βρέθηκαν προσπάθειες.';
 $string['noessayquestion'] = 'Το κουίζ δεν περιέχει ερωτήσεις για δοκίμια/έκθεση.';
+$string['noquestions'] = 'Δεν έχουν προστεθεί ακόμη ερωτήσεις.';
+$string['nosubmission'] = 'Δεν βρέθηκαν υποβολές.';
+$string['pluginname'] = 'Λήψη υποβολών εκθέσεων';
+$string['reportdownloadsubmissions'] = 'Λήψη αναφοράς υποβολών';

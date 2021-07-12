@@ -74,7 +74,7 @@ $string['grade_grademethod_help'] = 'Lors de l\'utilisation de l\'évaluation pa
 * Première tentative (les autres tentatives sont ignorées)
 * Dernière tentative (les autres tentatives sont ignorées)
 * Ne pas utiliser les tentatives pour l\'évaluation (désactiver le calcul des notes)';
-$string['grade_highest_attempt'] = 'Note la plus élèvée';
+$string['grade_highest_attempt'] = 'Note la plus élevée';
 $string['grade_last_attempt'] = 'Dernière tentative';
 $string['grade_manual'] = 'Ne pas calculer une note';
 $string['h5pactivity:addinstance'] = 'Ajouter un H5P';

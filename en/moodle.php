@@ -643,7 +643,7 @@ $string['emailagain'] = 'Email (again)';
 $string['emailalreadysent'] = 'A password reset email has already been sent. Please check your email.';
 $string['emailcharset'] = 'Email charset';
 $string['emailconfirm'] = 'Confirm your account';
-$string['emailconfirmation'] = 'Hi {$a->firstname},
+$string['emailconfirmation'] = 'Hi,
 
 A new account has been requested at \'{$a->sitename}\'
 using your email address.
@@ -1322,7 +1322,7 @@ If the course contains many activities or resources, the course page may be simp
 $string['month'] = 'Month';
 $string['months'] = 'Months';
 $string['moodledocs'] = 'Moodle Docs';
-$string['moodledocslink'] = 'Moodle Docs for this page';
+$string['moodledocslink'] = 'Help and documentation';
 $string['moodlelogo'] = 'Moodle logo';
 $string['moodlerelease'] = 'Moodle release';
 $string['moodleversion'] = 'Moodle version';

@@ -1323,7 +1323,7 @@ Wenn der Kurs viele Aktivitäten und Materialien enthält, kann die Kursseite ü
 $string['month'] = 'Monat';
 $string['months'] = 'Monate';
 $string['moodledocs'] = 'Dokumentation';
-$string['moodledocslink'] = 'Dokumentation zu dieser Seite';
+$string['moodledocslink'] = 'Hilfe und Dokumentation';
 $string['moodlelogo'] = 'Moodle-Logo';
 $string['moodlerelease'] = 'Moodle-Release';
 $string['moodleversion'] = 'Moodle-Version';

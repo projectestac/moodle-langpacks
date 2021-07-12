@@ -25,8 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['actualresponse'] = 'Πραγματική απόκριση';
 $string['allattempts'] = 'όλες οι προσπάθειες';
 $string['allattemptsavg'] = 'Μέσος όρος βαθμολογίας όλων των προσπαθειών';
+$string['allattemptscount'] = 'Συνολικός αριθμός ολοκληρωμένων βαθμολογημένων αποτελεσμάτων';
 $string['analysisofresponses'] = 'Ανάλυση των αποκρίσεων';
 $string['analysisofresponsesfor'] = 'Ανάλυση των αποκρίσεων για τον/την {$a}';
 $string['attempts'] = 'Προσπάθειες';

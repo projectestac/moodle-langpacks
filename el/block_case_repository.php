@@ -134,6 +134,7 @@ $string['feedback_none'] = 'Δεν έχω κάποια ιδιαίτερη παρ
 $string['feedback_social_requirement_high'] = 'Ευχαριστήθηκα πολύ την ομαδική εργασία';
 $string['feedback_social_requirement_low'] = 'Σχεδόν δεν μπορούσα να εργαστώ μαζί με άλλα μέλη της ομάδας';
 $string['footer'] = '';
+$string['formatilms'] = 'Προσαρμόσιμο μάθημα iLMS';
 $string['header_results'] = 'Περιπτώσεις που βρέθηκαν';
 $string['header_searchform'] = 'Κριτήρια/φίλτρα αναζήτησης';
 $string['headline_alternate_activities'] = 'Εναλλακτικές δραστηριότητες';

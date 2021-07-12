@@ -25,7 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['ParentPortal'] = 'Γονική πύλη';
 $string['access'] = 'Microsoft Access';
+$string['addassessment'] = 'Προσθήκη αξιολόγησης';
 $string['addexam'] = 'Προσθήκη εξέτασης';
 $string['approvedfrom'] = 'Εγκρίθηκε από';
 $string['approvedto'] = 'Έγκριση για';
@@ -35,6 +37,7 @@ $string['attCalendar'] = 'Επιλογή ενός μήνα για εμφάνισ
 $string['attChart'] = 'Δεδομένα παρουσιών για';
 $string['attTable'] = 'Παρουσίες για';
 $string['attendanceTab'] = 'Παρουσίες';
+$string['blockname'] = 'Γονική πύλη';
 $string['calendarTab'] = 'Ημερολόγιο';
 $string['classroom'] = 'Δωμάτιο';
 $string['code'] = 'Κωδικός';
@@ -80,8 +83,11 @@ $string['mis:viewown'] = 'Εμφάνιση του εαυτού σας';
 $string['mis:viewstudent'] = 'Εμφάνιση μαθητή';
 $string['module'] = 'Θέμα';
 $string['mssql'] = 'Microsoft SQL Server';
+$string['newmisblock'] = 'Γονική πύλη';
 $string['noaccess'] = 'Σφάλμα - Απαγόρευση πρόσβασης';
+$string['pluginname'] = 'Γονική πύλη';
 $string['profileTab'] = 'Προφίλ';
+$string['sqldanger'] = 'Σφάλμα - Παρουσιάστηκε επικίνδυνη έκφραση sql: $a';
 $string['start'] = 'Έναρξη';
 $string['student'] = 'Μαθητής';
 $string['targetTab'] = 'Στόχοι';

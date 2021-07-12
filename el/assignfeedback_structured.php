@@ -79,6 +79,7 @@ $string['privacy:metadata:commentpurpose'] = 'Το κείμενο σχολίου
 $string['privacy:metadata:critdescpurpose'] = 'Η περιγραφή του κριτηρίου με το οποίο σχετίζεται το σχόλιο.';
 $string['privacy:metadata:criterionpurpose'] = 'Το όνομα του κριτηρίου με το οποίο σχετίζεται το σχόλιο.';
 $string['privacy:metadata:gradepurpose'] = 'Το αναγνωριστικό βαθμού που σχετίζεται με την ανατροφοδότηση.';
+$string['privacy:metadata:tablesummary'] = 'Αυτό αποθηκεύει σχόλια από τους βαθμολογητές ως ανατροφοδότηση για τον μαθητή πάνω σε συγκεκριμένες πτυχές/διαστάσεις της υποβολής του.';
 $string['privacy:path'] = 'Δομημένη ανατροφοδότηση';
 $string['structured:manageowncriteriasets'] = 'Διαχείριση δικών σας αποθηκευμένων συνόλων κριτηρίων';
 $string['structured:publishcriteriasets'] = 'Να γίνουν τα αποθηκευμένα σύνολα κριτηρίων διαθέσιμα στους άλλους χρήστες';

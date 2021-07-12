@@ -48,6 +48,7 @@ $string['days_by_week'] = 'Αριθμός ημερών ανά εβδομάδα �
 $string['days_with_access'] = 'Ημέρες με πρόσβαση';
 $string['displayhidden'] = 'Εμφάνιση στοιχείων σε απόκρυψη';
 $string['event_send_email'] = 'LA - Αποστολή μηνύματος ηλε.ταχυδρομείου';
+$string['event_view_graph'] = 'LA - Προβολή γραφήματος';
 $string['forumchart_notposted'] = 'Θέματα ομάδας συζητήσεων χωρίς συμμετοχές';
 $string['forumchart_notread'] = 'Μη αναγνωσμένα θέματα ομάδας συζητήσεων';
 $string['forumchart_posted'] = 'Θέματα ομάδας συζητήσεων με συμμετοχές';

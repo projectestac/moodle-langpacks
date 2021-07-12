@@ -27,8 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addmoreanswerblanks'] = 'Κενά πεδία για {no} ακόμα απαντήσεις';
 $string['answer'] = 'Απάντηση: {$a}';
+$string['answermustbegiven'] = 'Πρέπει να δώσετε μια απάντηση αν υπάρχει βαθμός ή ανατροφοδότηση.';
 $string['answerno'] = 'Απάντηση {$a}';
+$string['author'] = 'από τους Peter Ertl και Bruno Bienfait';
 $string['correctansweris'] = 'Η σωστή απάντηση είναι: {$a}.';
+$string['correctanswers'] = 'Σωστές απαντήσεις';
 $string['height'] = 'Ύψος';
 $string['insert'] = 'Εισαγωγή από τον επεξεργαστή κειμένου';
 $string['insertfromeditor'] = 'Εισαγωγή από τον επεξεργαστή κειμένου';

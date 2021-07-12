@@ -75,20 +75,22 @@ $string['delete_pagebreak'] = 'Verwijder paginascheiding';
 $string['delete_template'] = 'Sjabloon wissen';
 $string['delete_templates'] = 'Sjablonen wissen...';
 $string['depending'] = 'Afhankelijke vragen';
-$string['depending_help'] = 'Met afhankelijke vragen kun je vragen tonen die afhankelijk zijn van antwoorden op andere vragen.
-
-Een voorbeeld om te tonen hoe het werkt:
-* Maak een vraag waarvan andere vragen zullen afhankelijk zijn.
-* Voeg een paginascheiding toe.
-* Voeg dan de vragen toe die afhankelijk zijn van het antwoord op de vorige vraag.
-Kies in het formulier waarmee je de vraag maakt de vraag in de lijst "afhankelijke vraag" en zet de benodigde waarde in het tekstvak "afhankelijke waarde".
-
-De structuur zou er dan als volgt moeten uitzien:
-* Vraag 1: Heb je een auto? Ja/Nee
-* Paginascheiding
-* Vraag 2: Welke kleur heeft jouw auto? (deze vraag hangt af van vraag 1 met antwoord=Ja)
-* Vraag 3: Waarom heb je geen auto? (deze vraag hangt af van vraag 1 met antwoord=Nee)
-* ... andere vragen';
+$string['depending_help'] = 'Met afhankelijke vragen kun je vragen tonen die afhankelijk zijn van een antwoord op een andere vraag.<br />
+<strong>Een voorbeeld om te tonen hoe het werkt:</strong><br />
+<ul>
+<li>Maak een vraag waarvan andere vragen zullen afhankelijk zijn.</li>
+<li>Voeg een paginascheiding toe.</li>
+<li>Voeg dan de vragen toe die afhankelijk zijn van het antwoord op de vorige vraag.
+Kies in het formulier waarmee je de nieuwe vraag maakt de vraag in de lijst "Hangt af van vraag" en zet in het tekstvak bij "Hangt af van waarde" het gewenste antwoord waarbij deze vraag getoond moet worden.</li>
+</ul>
+<strong>De structuur zou er dan als volgt moeten uitzien:</strong>
+<ol>
+<li>Vraag 1: Heb je een auto? Ja/Nee</li>
+<li>Paginascheiding</li>
+<li>Vraag 2: Welke kleur heeft jouw auto? (deze vraag hangt af van vraag 1 met antwoord=Ja)</li>
+<li>Vraag 3: Waarom heb je geen auto? (deze vraag hangt af van vraag 1 met antwoord=Nee)</li>
+<li>... andere vragen</li>
+</ol>';
 $string['dependitem'] = 'Hangt af van vraag';
 $string['dependvalue'] = 'Hangt af van waarde';
 $string['description'] = 'Beschrijving';

@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['activitydate:submissionsdue'] = 'Data limite';
+$string['activitydate:submissionsopen'] = 'Apre';
+$string['activitydate:submissionsopened'] = 'Aperto';
 $string['activityoverview'] = 'Ci sono compiti che richiedono la tua attenzione';
 $string['addattempt'] = 'Consenti tentativo ulteriore';
 $string['addnewattempt'] = 'Aggiungi tentativo';

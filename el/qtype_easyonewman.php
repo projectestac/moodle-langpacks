@@ -27,7 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addmoreanswerblanks'] = 'Κενά πεδία για {no} ακόμα απαντήσεις';
 $string['answer'] = 'Απάντηση: {$a}';
+$string['answermustbegiven'] = 'Πρέπει να δώσετε μια απάντηση αν υπάρχει βαθμός ή ανατροφοδότηση.';
 $string['answerno'] = 'Απάντηση {$a}';
+$string['author'] = 'Από τον Carl LeBlond';
+$string['caseconformfalse'] = 'Λάθος';
 $string['caseconformtrue'] = 'Σωστό';
 $string['caseorientfalse'] = 'Λάθος';
 $string['caseorientimportant'] = 'Σημαντικό προοπτικά';
@@ -40,3 +43,5 @@ $string['instructions'] = '<b>Ιδρύματα</b>';
 $string['javaneeded'] = 'Για να χρησιμοποιήσετε αυτή τη σελίδα χρειάζεστε έναν περιηγητή με δυνατότητα Java. Κάντε λήψη του πιο πρόσφατου πρόσθετου Java από {$a}.';
 $string['notenoughanswers'] = 'Αυτός ο τύπος ερώτησης απαιτεί τουλάχιστον {$a} απαντήσεις';
 $string['pleaseenterananswer'] = 'Παρακαλούμε, δώστε μια απάντηση.';
+$string['staggered'] = 'Τμηματικά';
+$string['youranswer'] = 'Η απάντησή σας: {$a}';

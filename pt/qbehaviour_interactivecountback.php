@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Interativo com múltiplas tentativas (crédito para tentativas anteriores)';
-$string['privacy:metadata'] = 'O módulo Comportamento das perguntas Interativo com múltiplas tentativas (crédito em respostas anteriores) não armazena dados pessoais.';
+$string['privacy:metadata'] = 'O módulo Comportamento das perguntas Interativo com múltiplas tentativas (crédito em respostas anteriores) não armazena quaisquer dados pessoais.';

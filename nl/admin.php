@@ -1097,7 +1097,7 @@ $string['purgethemecache'] = 'Thema\'s';
 $string['query'] = 'Zoekopdracht';
 $string['question'] = 'Vragen';
 $string['questionbehaviours'] = 'Gedrag vragen';
-$string['questioncwqpfscheck'] = 'Eén of meer willekeurige vragen in een test zijn insgesteld om vragen te kiezen uit gedeelde en niet gedeelde vragencategorieën. Er is een meer gedetailleerd rapport <a href="{$a->reporturl}">hier</a> en je kunt de Moodle Docs-pagina <a href="{$a->docsurl}">hier</a> bekijken.';
+$string['questioncwqpfscheck'] = 'Eén of meer willekeurige vragen in een test zijn ingesteld om vragen te kiezen uit gedeelde en niet gedeelde vragencategorieën. Zie <a href="{$a->reporturl}">willekeurige vragenrapport</a> en <a href="{$a->docsurl}">de Moodle Docs-pagina</a>.';
 $string['questioncwqpfsok'] = 'Goed. Er zijn geen willekeurige vragen in je testen die opgemaakt zijn om vragen uit zowel gedeelde als niet gedeelde vragencategorieën te kiezen.';
 $string['questiontype'] = 'Vraagtype';
 $string['questiontypes'] = 'Vraagtypes';

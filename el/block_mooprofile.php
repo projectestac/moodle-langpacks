@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addmoreusers'] = 'Προσθήκη {no} ακόμη χρηστών/-η';
 $string['configheader_settings'] = 'Πληροφορίες μπλοκ';
+$string['configheader_user'] = 'Ορατές πληροφορίες χρήστη {no}';
 $string['configheader_users'] = 'Εισαγωγή χρηστών';
 $string['displayemail'] = 'Εμφάνιση διεύθυνσης ηλε.ταχυδρομείου';
 $string['displayemail_help'] = 'Αυτή η ρύθμιση εξαρτάται από τη ρύθμιση του συγκεκριμένου χρήστη για «Εμφάνιση διεύθυνσης ηλε.ταχυδρομείου».';
@@ -38,8 +39,12 @@ $string['displayphone2'] = 'Εμφάνιση τηλεφωνικού αριθμο
 $string['displaypicture'] = 'Εμφάνιση εικόνας';
 $string['displaysendmessage'] = 'Εμφάνιση απεσταλμένου μηνύματος';
 $string['loadusers'] = 'Φόρτωση χρηστών';
+$string['mooprofile:addinstance'] = 'Προσθήκη ενός νέου μπλοκ MooProfile';
+$string['mooprofile:myaddinstance'] = 'Προσθήκη ενός νέου μπλοκ MooProfile στην αρχική μου σελίδα';
+$string['online'] = 'Ο χρήστης είναι συνδεδεμένος';
 $string['or'] = 'ή,';
 $string['orrole'] = 'ή Ρόλο';
+$string['pluginname'] = 'Μπλοκ MooProfile';
 $string['sendmessage'] = 'απεσταλμένο μήνυμα';
 $string['title'] = 'Τίτλος μπλοκ';
 $string['username'] = 'Όνομα χρήστη';

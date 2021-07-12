@@ -775,8 +775,8 @@ $string['showquickfeedback'] = 'Erakutsi feedback azkarra';
 $string['showquickfeedback_help'] = 'Gaituz gero, edizioa aktibatuta dagoenean kalifikazio bakoitzarekin batera feedbackaren testurako puntutxoak dituen testu-eremu kutxa bat agertuko da, eta horrela hainbat kalifikazioren feedbackak batera editatzea ahalbidetzen da. Egindako aldaketak gorde eta nabarmentzen dira gorde botoian klik egitean.
 
 Kontuan izan feedbacka kalifikatzaile-txostenean editatzen denean baliogabetu marka jartzen zaiola, eta horrek esan nahi du ondoren ezingo dela feedback hori dagokion jardueratik aldatu.';
-$string['showrange'] = 'Erakutsi ibilarteak';
-$string['showrange_help'] = 'Ibilarteen zutabea erakutsi ala ez';
+$string['showrange'] = 'Erakutsi ibiltarteak';
+$string['showrange_help'] = 'Ibiltarteen zutabea erakutsi ala ez';
 $string['showranges'] = 'Erakutsi ibiltarteak';
 $string['showranges_help'] = 'Gaituz gero, kalifikatzaile-txostenean kategoria eta elementu bakoitzerako kalifikazio-mailak erakusten dituen beste lerro bat erakusten du.';
 $string['showrank'] = 'Erakutsi sailkapena';

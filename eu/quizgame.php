@@ -27,7 +27,9 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['achievedhighscoreof'] = 'Lortutako puntuazio altuena {$a}';
 $string['attempt'] = 'Saiakera #{$a}';
+$string['completiondetail:score'] = 'Lortu gutxienezko kalifikazio hau: {$a}';
 $string['completionscore'] = 'Ikasleak lortu beharreko gutxieneko puntuazioa:';
+$string['completionscoredesc'] = 'Ikasleak hurrengo gutxienezko kalifikazioa lortu behar du: {$a}';
 $string['completionscoregroup'] = 'Eskatutako puntuazioa';
 $string['completionscoregroup_help'] = 'Gaituz gero, jarduera osatuta dagoela markatzeko gutxieneko puntuazioa eska dezakezu.
 
@@ -46,6 +48,7 @@ $string['howtoplay_help'] = 'Ontzia geziak erabiliz edo saguarekin arrastatuz mu
 Espazio-barra sakatuz edo saguarekin klikatuz jaurti daiteke, edo sakatu bi hatzez jolasean edonon.
 
 Asmatu ahalik eta galdera gehien erantzun zuzenak tirokatuz. Zorte on!';
+$string['invalidcmorid'] = 'Errorea: ikastaro-moduluaren IDa edo instantziaren IDa zehaztu behar duzu';
 $string['modulename'] = 'Galdeketabentura';
 $string['modulename_help'] = 'Zure ikasleak prokrastinatzen ari al dira? Ikasi ordez jolasten ari al dira? Orain bi gauzak batera eginez motiba ditzakezu!
 
@@ -58,7 +61,7 @@ $string['playedxtimeswithhighscore'] = '{$a->times} alditan jolastu da. Azken jo
 $string['playerscores'] = 'Jokalarien puntuazioak';
 $string['pluginadministration'] = 'Galdeketabenturaren kudeaketa';
 $string['pluginname'] = 'Galdeketabentura';
-$string['privacy:metadata:quizgame_scores'] = 'Jarduera batean erabiltzaileak hautatutako aukerez informazioa';
+$string['privacy:metadata:quizgame_scores'] = 'Galdeketabentura jarduera batean erabiltzaileak hautatutako erantzunen inguruko informazioa';
 $string['privacy:metadata:quizgame_scores:quizgameid'] = 'Erabiltzailea erantzuten ari den galdeketabentura-jardueraren IDa';
 $string['privacy:metadata:quizgame_scores:score'] = 'Erabiltzailearen puntuazioa jolasean zehar';
 $string['privacy:metadata:quizgame_scores:timecreated'] = 'Erabiltzaileak galdeketabentura-jarduera noiz egin zuen';

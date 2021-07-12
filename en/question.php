@@ -378,9 +378,9 @@ $string['privacy:metadata:database:question_attempts'] = 'The information about 
 $string['privacy:metadata:database:question_attempts:flagged'] = 'An indication that the user has flagged this question within the attempt.';
 $string['privacy:metadata:database:question_attempts:responsesummary'] = 'A summary of the question response.';
 $string['privacy:metadata:database:question_attempts:timemodified'] = 'The time that the question attempt was updated.';
-$string['privacy:metadata:link:qbehaviour'] = 'The Question subsystem makes use of the Question Behaviour plugintype.';
-$string['privacy:metadata:link:qformat'] = 'The Question subsystem makes use of the Question Format plugintype for the purpose of importing and exporting questions in different formats.';
-$string['privacy:metadata:link:qtype'] = 'The Question subsystem interacts with the Question Type plugintype which contains the different types of questions.';
+$string['privacy:metadata:link:qbehaviour'] = 'The question subsystem makes use of the Question behaviours plugin type.';
+$string['privacy:metadata:link:qformat'] = 'The question subsystem makes use of the Question import/export formats plugin type for the purpose of importing and exporting questions in different formats.';
+$string['privacy:metadata:link:qtype'] = 'The question subsystem interacts with the Question types plugin type which contains the different types of questions.';
 $string['published'] = 'shared';
 $string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = '<a href="{$a->qurl}">Question "{$a->name}" ({$a->qtype})</a> is in this question category but is also being used in <a href="{$a->qurl}">quiz "{$a->quizname}"</a> in another course "{$a->coursename}".';

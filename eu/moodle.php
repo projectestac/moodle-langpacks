@@ -641,7 +641,7 @@ $string['emailagain'] = 'Helbide elektronikoa (berriro)';
 $string['emailalreadysent'] = 'Pasahitza berrezartzeko e-mail bat bidali da jada. Mesedez begiratu zure posta elektronikoa.';
 $string['emailcharset'] = 'Posta elektronikorako karaktere-multzoa';
 $string['emailconfirm'] = 'Zure kontua berretsi';
-$string['emailconfirmation'] = 'Kaixo, {$a->firstname}:
+$string['emailconfirmation'] = 'Kaixo:
 
 \'{$a->sitename}\' gunean kontu berri baten eskaera bat jaso dugu zure helbide elektronikotik.
 
@@ -1163,7 +1163,7 @@ $string['login'] = 'Sartu';
 $string['login_failure_logs'] = 'Sarrera okerren agerraldiak';
 $string['loginactivity'] = 'Saio-hasieren jarduera';
 $string['loginagain'] = 'Berriz sartu';
-$string['loginalready'] = 'Honez gero sisteman zaude';
+$string['loginalready'] = 'Dagoeneko saioa hasi duzu';
 $string['loginas'] = 'Sartu erabiltzaile hau bezala';
 $string['loginaspasswordexplain'] = '<p> "loginas password" berezia sartu behar duzu ezaugarri hau erabiltzeko.<br />Ez badakizu, galdetu zerbitzari-administratzaileari.</p>';
 $string['loginguest'] = 'Sartu bisitari gisa';
@@ -1303,7 +1303,7 @@ Ikastaroak jarduera edota baliabide asko baditu, hasiera-orria sinplifikatu dait
 $string['month'] = 'Hilabetea';
 $string['months'] = 'Hilabeteak';
 $string['moodledocs'] = 'Moodle Doc-ak';
-$string['moodledocslink'] = 'Moodle Doc-ak orri honetarako';
+$string['moodledocslink'] = 'Laguntza eta dokumentazioa';
 $string['moodlelogo'] = 'Moodleren logoa';
 $string['moodlerelease'] = 'Moodleren ezaugarriak';
 $string['moodleversion'] = 'Moodle bertsioa';

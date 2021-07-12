@@ -242,6 +242,7 @@ $string['report_comment_reporter_detail'] = '{$a->fullname} ({$a->username}; {$a
 $string['report_comment_reporter_info'] = '<strong>Λεπτομέρειες αναφέροντος</strong>:';
 $string['report_comment_submit'] = 'Αποστολή αναφοράς';
 $string['reportcomment'] = 'Αναφορά';
+$string['reportcomment_title'] = 'Αναφορά σχολίου ως απαράδεκτο';
 $string['reportquiz_admin_title'] = 'Στατιστικά μαθητή';
 $string['reportquiz_stats_all_last_attempt_correct'] = 'Μέσος όρος κοινότητας των τελευταίων σωστών απαντήσεων';
 $string['reportquiz_stats_all_last_attempt_incorrect'] = 'Μέσος όρος κοινότητας των τελευταίων λανθασμένων απαντήσεων';

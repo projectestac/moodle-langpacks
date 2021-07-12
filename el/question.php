@@ -364,9 +364,9 @@ $string['privacy:metadata:database:question_attempts'] = 'Οι πληροφορ�
 $string['privacy:metadata:database:question_attempts:flagged'] = 'Μια ένδειξη ότι ο χρήστης έχει σημαιοδοτήσει αυτή την ερώτηση κατά την προσπάθεια.';
 $string['privacy:metadata:database:question_attempts:responsesummary'] = 'Μια περίληψη της απόκρισης στην ερώτηση.';
 $string['privacy:metadata:database:question_attempts:timemodified'] = 'Πότε ενημερώθηκε η προσπάθεια ερώτησης.';
-$string['privacy:metadata:link:qbehaviour'] = 'Το υποσύστημα Ερώτηση κάνει χρήση του τύπου πρόσθετου «Συμπεριφορά Ερώτησης».';
-$string['privacy:metadata:link:qformat'] = 'Το υποσύστημα Ερώτηση κάνει χρήση του τύπου πρόσθετου «Μορφότυπος ερώτησης» για την εισαγωγή και την εξαγωγή ερωτήσεων σε διαφορετικούς μορφότυπους.';
-$string['privacy:metadata:link:qtype'] = 'Το υποσύστημα Ερώτηση αλληλεπιδρά με τον τύπο πρόσθετου «Τύπος ερώτησης» που περιέχει τους διαφορετικούς τύπους ερωτήσεων.';
+$string['privacy:metadata:link:qbehaviour'] = 'Το υποσύστημα Ερώτησης κάνει χρήση του τύπου πρόσθετου «Συμπεριφορές Ερώτησης».';
+$string['privacy:metadata:link:qformat'] = 'Το υποσύστημα Ερώτησης κάνει χρήση του τύπου πρόσθετου «Μορφότυποι εισαγωγής/εξαγωγής ερωτήσεων» για την εισαγωγή και την εξαγωγή ερωτήσεων σε διαφορετικούς μορφότυπους.';
+$string['privacy:metadata:link:qtype'] = 'Το υποσύστημα Ερώτηση αλληλεπιδρά με το πρόσθετο «Τύποι ερωτήσεων» που περιέχει τους διαφορετικούς τύπους ερωτήσεων.';
 $string['published'] = 'διαμοιραζόμενη';
 $string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = '<a href="{$a->qurl}">Η ερώτηση «{$a->name}» ({$a->qtype})</a> είναι σε αυτή την κατηγορία ερωτήσεων αλλά χρησιμοποιείται επίσης στο <a href="{$a->qurl}">κουίζ «{$a->quizname}»</a> σε άλλο μάθημα ({$a->coursename}).';

@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['accordion_open'] = 'Άνοιγμα';
 $string['activeblogs'] = 'Ενεργός';
 $string['addcomment'] = 'Προσθήκη σχολίου';
+$string['alpha'] = 'Α έως Ω';
 $string['attachments'] = 'Συνημμένα';
 $string['cancel'] = 'Άκυρο';
 $string['comments'] = 'Σχόλια';

@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Αναφορά επισκόπησης';
+$string['privacy:metadata'] = 'Το άρθρωμα αναφοράς επισκόπησης δεν αποθηκεύει καθόλου προσωπικά δεδομένα.';
