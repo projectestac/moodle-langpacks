@@ -364,9 +364,9 @@ $string['privacy:metadata:database:question_attempts'] = 'Les informations sur u
 $string['privacy:metadata:database:question_attempts:flagged'] = 'Une indication que l\'utilisateur a signalé cette question durant la tentative.';
 $string['privacy:metadata:database:question_attempts:responsesummary'] = 'Un résumé de la réponse.';
 $string['privacy:metadata:database:question_attempts:timemodified'] = 'La date et l\'heure de la modification de la tentative de la question.';
-$string['privacy:metadata:link:qbehaviour'] = 'Le sous-système Question utilise le type de plugin Comportement de question.';
-$string['privacy:metadata:link:qformat'] = 'Le sous-système Question utilise le type de plugin format de question pour importer et exporter les questions dans différents formats.';
-$string['privacy:metadata:link:qtype'] = 'Le sous-système Question interagit avec le type de plugin Type de question, qui contient les différentes types de question.';
+$string['privacy:metadata:link:qbehaviour'] = 'Le sous-système question utilise le type de plugin Comportement de question.';
+$string['privacy:metadata:link:qformat'] = 'Le sous-système question utilise le type de plugin Format d\'importation/exportation de questions afin d\'importer/exporter des questions dans différents formats.';
+$string['privacy:metadata:link:qtype'] = 'Le sous-système question interagit avec le type de plugin Type de question, qui contient les différentes types de question.';
 $string['published'] = 'partagée';
 $string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = '<a href="{$a->qurl}">La question « {$a->name} » ({$a->qtype})</a> est dans cette catégorie, mais est aussi utilisée dans le <a href="{$a->qurl}">test « {$a->quizname} »</a> dans le cours « {$a->coursename} ».';

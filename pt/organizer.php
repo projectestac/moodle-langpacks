@@ -580,6 +580,7 @@ $string['messageprovider:register_notify_teacher_register'] = 'Notificação de 
 $string['messageprovider:register_notify_teacher_reregister'] = 'Notificação de reinscrição do organizador';
 $string['messageprovider:register_notify_teacher_unqueue'] = 'Notificação de saída da fila de espera do organizador';
 $string['messageprovider:register_notify_teacher_unregister'] = 'Notificação de cancelamento do organizador';
+$string['messageprovider:register_promotion_student'] = 'Organizador promovido da notificação de fila';
 $string['messageprovider:register_reminder_student'] = 'Notificação de inscrição do organizador';
 $string['messageprovider:slotdeleted_notify_student'] = 'Vagas do organizador canceladas';
 $string['messageprovider:test'] = 'Mensagem de teste do organizador';

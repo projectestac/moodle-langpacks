@@ -647,12 +647,12 @@ $string['emailconfirmation'] = 'Caro(a) {$a->firstname},
 Foi criada uma nova conta com este endereço de e-mail na plataforma de e-learning \'{$a->sitename}\'.
 
 Para confirmar a sua conta, clique em:
+
 {$a->link}
 
-Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de Internet.
 
-Se necessitar de ajuda, contacte o(a) administrador(a) da plataforma:
-{$a->admin}';
+Se necessitar de ajuda, contacte o administrador da plataforma, {$a->admin}';
 $string['emailconfirmationresend'] = 'Reenviar e-mail de confirmação';
 $string['emailconfirmationsubject'] = '{$a}: Confirmação da conta';
 $string['emailconfirmsent'] = '<p>Acaba de ser enviada uma mensagem para o seu endereço de e-mail <strong>{$a}</strong>, com instruções fáceis para completar a sua inscrição.</p><p>Se tiver alguma dificuldade em completar o registo, contacte o administrador do site.</p>';
@@ -699,22 +699,23 @@ Para mudar a sua senha, aceda a:
 
 {$a->link}
 
-Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de Internet.
 
-Se necessitar de ajuda, contacte o(a) administrador(a) da plataforma:
+Se necessitar de ajuda, contacte o administrador da plataforma,
 {$a->admin}';
 $string['emailpasswordchangeinfodisabled'] = 'Caro(a) {$a->firstname},
 
 Foi pedida uma nova senha para a sua conta na plataforma de e-learning \'{$a->sitename}\'.
 
-Infelizmente, a sua conta neste site está desativada logo a senha não pode ser reposta. Por favor, contacte o(a) administrador(a) da plataforma {$a->admin}.';
+Infelizmente, a sua conta neste site está desativada logo a senha não pode ser reposta. Por favor, contacte o administrador da plataforma,
+$a->admin}.';
 $string['emailpasswordchangeinfofail'] = 'Caro(a) {$a->firstname},
 
 Foi pedida uma nova senha para a sua conta na plataforma de e-learning \'{$a->sitename}\'.
 
 Infelizmente as senhas não podem ser redefinidas neste site.
 
-Por favor, contacte o(a) administrador(a) da plataforma:
+Por favor, contacte o administrador da plataforma,
 {$a->admin}';
 $string['emailpasswordchangeinfosubject'] = '{$a}: Informação para alteração de senha';
 $string['emailpasswordconfirmation'] = 'Caro(a) {$a->firstname},
@@ -725,9 +726,9 @@ Para confirmar este pedido e receber a nova senha por e-mail, aceda ao seguinte 
 
 {$a->link}
 
-Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de Internet.
 
-Se necessitar de ajuda, contacte o(a) administrador(a) da plataforma:
+Se necessitar de ajuda, contacte o administrador da plataforma,
 {$a->admin}';
 $string['emailpasswordconfirmationsubject'] = '{$a}:  Confirmação de alteração da senha';
 $string['emailpasswordconfirmmaybesent'] = '<p>Se indicou um nome de utilizador correto ou um endereço de e-mail exclusivo, deverá receber um e-mail.</p>
@@ -752,7 +753,7 @@ Para confirmar este pedido e definir uma nova senha, aceda ao seguinte endereço
 
 Se não fez um pedido de reposição da senha ignore esta mensagem.
 
-Se precisar de ajuda, por favor, contacte o(a) administrador(a) da plataforma:
+Se precisar de ajuda, por favor, contacte o administrador da plataforma,
 {$a->admin}.';
 $string['emailresetconfirmationsubject'] = '{$a}: Pedido de reposição de senha';
 $string['emailresetconfirmsent'] = 'Foi enviado um e-mail para o seu endereço em <b>{$a}</b>.<br />Este contém instruções para confirmar e concluir a alteração da sua senha. Se precisar de ajuda, por favor, contacte o administrador do site, {$a->admin}.';
@@ -1305,8 +1306,8 @@ Se a disponibilidade estiver configurada para "Oculto para os alunos", a ativida
 Se a disciplina contiver muitas atividades ou recursos, a página da disciplina pode ser simplificada, definindo a disponibilidade para "Disponível mas oculto na página da disciplina". Neste caso, uma hiperligação para a atividade ou recurso deve ser fornecida noutro local, como por exemplo, o recurso Página. A atividade aparece na pauta e em outros relatórios.';
 $string['month'] = 'Mês';
 $string['months'] = 'Meses';
-$string['moodledocs'] = 'Documentação';
-$string['moodledocslink'] = 'Documentação Moodle para esta página';
+$string['moodledocs'] = 'Documentação do Moodle';
+$string['moodledocslink'] = 'Ajuda e documentação';
 $string['moodlelogo'] = 'Logótipo Moodle';
 $string['moodlerelease'] = 'Versão do Moodle';
 $string['moodleversion'] = 'Versão do Moodle';

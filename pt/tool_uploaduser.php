@@ -56,7 +56,7 @@ $string['linex'] = 'Linha {$a}';
 $string['nochanges'] = 'Sem alterações';
 $string['notheme'] = 'Nenhum tema está definido para este utilizador.';
 $string['pluginname'] = 'Carregar utilizador';
-$string['privacy:metadata'] = 'O módulo Carregar utilizadores não armazena dados pessoais.';
+$string['privacy:metadata'] = 'O módulo Carregar utilizador não armazena quaisquer dados pessoais.';
 $string['renameerrors'] = 'Renomear erros';
 $string['requiredtemplate'] = 'Obrigatório. Pode usar a sintaxe modelo (%l = lastname, %f = firstname, %u = username). Consulte a ajuda para mais detalhes e exemplos.';
 $string['rowpreviewnum'] = 'Número de linhas a pré-visualizar';

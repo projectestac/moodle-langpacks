@@ -67,6 +67,7 @@ $string['filterfilesexplain'] = 'Selecciona el tipus de filtratge de contingut d
 $string['filtername'] = 'Enllaços automàtics a recursos';
 $string['forcedownload'] = 'Imposa que es baixi';
 $string['framesize'] = 'Altura del marc';
+$string['indicator:cognitivedepthdef_help'] = 'El participant ha assolit aquest percentatge de la implicació cognitiva oferta per les activitats de Fitxer en el decurs d\'aquest interval d\'anàlisi (Nivells = No visualització, Visualització)';
 $string['legacyfiles'] = 'Migració d\'un fitxer de curs antic';
 $string['legacyfilesactive'] = 'Actiu';
 $string['legacyfilesdone'] = 'Finalitzat';

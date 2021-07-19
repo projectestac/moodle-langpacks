@@ -641,7 +641,7 @@ $string['emailagain'] = 'Indirizzo email (ripeti)';
 $string['emailalreadysent'] = 'L\'email di recupero password è già stata inviata. Per favore controlla la tua casella di posta.';
 $string['emailcharset'] = 'Codifica caratteri delle email';
 $string['emailconfirm'] = 'Conferma il tuo account';
-$string['emailconfirmation'] = 'Gentile {$a->firstname},
+$string['emailconfirmation'] = 'Ciao,
 
 è stata richiesta la creazione di un nuovo account su \'{$a->sitename}\' con il tuo indirizzo di posta elettronica.
 
@@ -1303,7 +1303,7 @@ Se il corso contiene numerose attività o risorse, la pagina del corso può esse
 $string['month'] = 'Mese';
 $string['months'] = 'Mesi';
 $string['moodledocs'] = 'Moodle Doc';
-$string['moodledocslink'] = 'Documentazione Moodle di questa pagina';
+$string['moodledocslink'] = 'Aiuto e documentazione';
 $string['moodlelogo'] = 'Logo Moodle';
 $string['moodlerelease'] = 'Release di Moodle';
 $string['moodleversion'] = 'Versione Moodle';

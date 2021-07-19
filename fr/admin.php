@@ -237,7 +237,7 @@ $string['configdisableuserimages'] = 'Désactiver la modification de l\'image de
 $string['configdisplayloginfailures'] = 'Active l\'affichage aux utilisateurs des informations sur les échecs de connexion antérieurs.';
 $string['configdndallowtextandlinks'] = 'Activer ou désactiver le glisser-déposer de textes et de liens sur la page du cours, en plus du glisser-déposer des fichiers. Le glisser-déposer de textes avec Firefox ou entre différents navigateurs ne fonctionne pas de manière fiable et pourra avoir comme conséquence le dépôt de textes corrompus ou pas de dépôt du tout.';
 $string['configdoclang'] = 'Cette langue sera utilisée pour les liens vers les pages de documentation.';
-$string['configdocroot'] = 'Définit l\'URL du site de documentation Moodle pour la documentation contextuelle signalée par « Documentation Moodle pour cette page » dans le bas de chaque page du site. Si le champ n\'est pas renseigné, les liens ne seront pas affichés.';
+$string['configdocroot'] = 'Définit l\'URL de Moodle Docs pour la documentation contextuelle signalée par le lien « Aide et documentation » au bas de chaque page. Si le champ n\'est pas renseigné, les liens ne seront pas affichés.';
 $string['configdoctonewwindow'] = 'Si ce réglage est activé, les liens vers Moodle Docs s\'ouvriront dans une nouvelle fenêtre.';
 $string['configeditordictionary'] = 'Cette valeur sera utilisée si aucun dictionnaire dans la langue de l\'utilisateur n\'est disponible pour aspell.';
 $string['configeditorfontlist'] = 'Sélectionner les polices à afficher dans le menu déroulant de l\'éditeur.';
@@ -1085,7 +1085,7 @@ $string['purgethemecache'] = 'Thèmes';
 $string['query'] = 'Requête';
 $string['question'] = 'Question';
 $string['questionbehaviours'] = 'Comportements de question';
-$string['questioncwqpfscheck'] = 'Une ou plusieurs questions aléatoires d\'un test tire ses questions de catégories partagées et de catégories non partagées. Un rapport plus détaillé est visible <a href="{$a->reporturl}">ici</a>. Veuillez consulter Moodle Docs sur <a href="{$a->docsurl}">cette page</a>.';
+$string['questioncwqpfscheck'] = 'Une ou plusieurs questions aléatoires d\'un test tire ses questions de catégories partagées et de catégories non partagées. Pour ne savoir plus, consulter le <a href="{$a->reporturl}">rapport des questions aléatoires</a> et la <a href="{$a->docsurl}">documentation</a>.';
 $string['questioncwqpfsok'] = 'Il n\'y a dans vos tests aucune question aléatoire tirant ses questions de catégories partagées et de catégories non partagées.';
 $string['questiontype'] = 'Type de question';
 $string['questiontypes'] = 'Types de question';

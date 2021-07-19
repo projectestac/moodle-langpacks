@@ -130,4 +130,4 @@ $string['timesignedup'] = 'وقت التسجيل';
 $string['timestart'] = 'وقت البدء';
 $string['timestart_help'] = 'وقت البدء هو الوقت الذي بدأت فيه الجلسة.';
 $string['unknowntime'] = '(وقت مجهول)';
-$string['upgradeprocessinggrades'] = 'تجري معالجة علامات المواعيد، هذا قد يستغرق وقتاً إذا كانت هناك جلسات عديدة...';
+$string['upgradeprocessinggrades'] = 'تجري معالجة درجات المواعيد، هذا قد يستغرق وقتاً إذا كانت هناك جلسات عديدة...';

@@ -43,7 +43,7 @@ $string['customlangstrings_desc'] = 'As palavras e as frases mostradas na aplica
 mm.user.student|Learner|en
 mm.user.student|Aluno|pt
 </pre>
-Para obter a lista completa de identificadores de string, consulte a documentação.';
+Consulte a documentação para obter a lista completa dos identificadores de string.';
 $string['custommenuitems'] = 'Itens de menu personalizados';
 $string['custommenuitems_desc'] = 'Itens adicionais podem ser adicionados ao menu principal da aplicação, especificando-os aqui. Digite cada item de menu personalizado numa nova linha no formato: texto do item, URL, método de abertura da hiperligação e o código do idioma (opcional, para mostrar o item apenas aos utilizadores do idioma especificado), separados por barras verticais.
 
@@ -72,7 +72,7 @@ $string['filetypeexclusionlistplaceholder'] = 'Lista de exclusão de tipos de fi
 $string['forcedurlscheme'] = 'Se pretende permitir que apenas a sua Aplicação móvel Moodle Personalizada seja aberta numa janela do navegador, especifique o esquema de URL aqui. Se pretende permitir apenas a Aplicação móvel oficial, defina o valor predefinido. Deixe o campo vazio se pretende permitir qualquer aplicação.';
 $string['forcedurlscheme_key'] = 'Esquema de URL';
 $string['forcelogout'] = 'Forçar terminar sessão';
-$string['forcelogout_desc'] = 'Se ativar esta opção, na aplicação, a opção \'Alterar site\' é substituída por \'Terminar sessão\'. Isso faz com que o utilizador fique totalmente desligado. Deverão voltar a digitar a senha na próxima vez que desejarem aceder ao site.';
+$string['forcelogout_desc'] = 'Se ativar esta opção, na aplicação, a opção \'Alterar site\' é substituída por \'Terminar sessão\'. Faz com que o utilizador fique totalmente desligado. O utilizador tem de voltar a digitar a senha na próxima vez que pretender aceder ao site.';
 $string['getmoodleonyourmobile'] = 'Obter a Aplicação móvel';
 $string['h5poffline'] = 'Visualizar offline conteúdo H5P';
 $string['httpsrequired'] = 'HTTPS necessário';
@@ -100,7 +100,7 @@ $string['mobileappenabled'] = 'Pode aceder a este site com a Aplicação móvel.
 $string['mobileappsubscription'] = 'Subscrição da Aplicação móvel Moodle';
 $string['mobileauthentication'] = 'Autenticação em dispositivos móveis';
 $string['mobilecssurl'] = 'CSS';
-$string['mobilefeatures'] = 'Funcionalidades da aplicacão móvel';
+$string['mobilefeatures'] = 'Funcionalidades da Aplicação móvel';
 $string['mobilenotificationsdisabledwarning'] = 'As notificações móveis não estão ativas. Têm de ser ativadas nas configurações de Notificação.';
 $string['mobilesettings'] = 'Configurações para dispositivos móveis';
 $string['moodleappsportalfeatureswarning'] = 'Tenha em atenção que algumas funcionalidades podem ser limitadas, dependendo da sua subscrição da Aplicação móvel Moodle. Para mais detalhes, consulte o <a href="{$a}" target="_blank">Portal das Aplicações móveis Moodle</a>.';

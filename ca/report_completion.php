@@ -37,3 +37,4 @@ $string['page-report-completion-index'] = 'Informe de compleció del curs';
 $string['page-report-completion-user'] = 'Informe de compleció del curs de l\'usuari';
 $string['page-report-completion-x'] = 'Qualsevol informe de compleció';
 $string['pluginname'] = 'Compleció del curs';
+$string['privacy:metadata'] = 'L\'informa de compleció del curs mostra només dades emmagatzemades en altres ubicacions.';

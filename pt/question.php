@@ -369,9 +369,9 @@ $string['privacy:metadata:database:question_attempts'] = 'Informação sobre uma
 $string['privacy:metadata:database:question_attempts:flagged'] = 'Uma indicação de que o utilizador marcou esta questão durante uma tentativa.';
 $string['privacy:metadata:database:question_attempts:responsesummary'] = 'Resumo da resposta à pergunta.';
 $string['privacy:metadata:database:question_attempts:timemodified'] = 'A hora em que a tentativa foi atualizada.';
-$string['privacy:metadata:link:qbehaviour'] = 'O subsistema Pergunta utiliza o módulo Comportamento das perguntas.';
-$string['privacy:metadata:link:qformat'] = 'O subsistema Pergunta utiliza o módulo Formato da questão com a finalidade de importar e exportar perguntas em diferentes formatos.';
-$string['privacy:metadata:link:qtype'] = 'O subsistema Pergunta interage com o módulo Tipo de pergunta, que contém os diferentes tipos de pergunta.';
+$string['privacy:metadata:link:qbehaviour'] = 'O subsistema pergunta utiliza o módulo Comportamento das perguntas.';
+$string['privacy:metadata:link:qformat'] = 'O subsistema pergunta utiliza o módulo Formato de importação/exportação de pergunta com a finalidade de importar e exportar perguntas em diferentes formatos.';
+$string['privacy:metadata:link:qtype'] = 'O subsistema pergunta interage com o módulo Tipos de pergunta que contém os diferentes tipos de pergunta.';
 $string['published'] = 'partilhada';
 $string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = 'A <a href="{$a->qurl}">pergunta "{$a->name}" ({$a->qtype})</a> está nesta categoria mas também está a ser usada no <a href="{$a->qurl}">teste "{$a->quizname}"</a> da disciplina "{$a->coursename}".';

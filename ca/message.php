@@ -154,6 +154,7 @@ $string['outputdoesnotexist'] = 'La sortida de missatges no existeix';
 $string['outputenabled'] = 'S\'ha habilitat la sortida';
 $string['outputnotavailable'] = 'No disponible';
 $string['outputnotconfigured'] = 'No configurat';
+$string['page-message-x'] = 'Qualsevol pàgina de missatges';
 $string['participants'] = 'Participants';
 $string['pendingcontactrequests'] = 'Hi ha {$a} sol·licituds de contacte pendents';
 $string['permitted'] = 'Permès';

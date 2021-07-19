@@ -152,7 +152,7 @@ $string['tour1_content_addingblocks'] = 'Denk goed na over het plaatsen van blok
 $string['tour1_content_blockregion'] = 'Er is hier nog een blok-zone. We raden aan om het navigatie- en instellingenblok volledig te verwijderen omdat alle functionaliteit op andere plaatsen zit in het Boost thema.';
 $string['tour1_content_customisation'] = 'Om het uiterlijk van je site en je startpagina aan te passen kun je het instellingenmenu gebruiken in de hoek van deze kopregel. Probeer nu bewerken in te schakelen.';
 $string['tour1_content_end'] = 'Dit is het einde van jouw rondleiding. Dit zal niet meer getoond worden, tenzij je deze opnieuw instelt door de link te gebruiken onderaan de pagina. Als beheerder kun je ook rondleidingen zoals deze maken!';
-$string['tour1_content_navigation'] = 'De belangrijkste navigatie gebeurt nu door deze navigatiebalk. De inhoud past zich aan afhankelijk van jouw positie op de site. Gebruik de knoppen bovenaan om te verbergen of te tonen.';
+$string['tour1_content_navigation'] = 'De belangrijkste navigatie gebeurt nu door dit navigatiepaneel. De inhoud past zich aan afhankelijk van jouw positie op de site. Gebruik de knoppen bovenaan om te verbergen of te tonen.';
 $string['tour1_content_welcome'] = 'Welkom in het Boost thema. Als je Moodle vroeger al gebruikt hebt, dan zul je opmerken dat sommige zaken er nu wat anders uitzien.';
 $string['tour1_title_addingblocks'] = 'Blokken toevoegen';
 $string['tour1_title_blockregion'] = 'Blokkenzone';
@@ -160,12 +160,12 @@ $string['tour1_title_customisation'] = 'Aanpassing';
 $string['tour1_title_end'] = 'Einde van de rondleiding';
 $string['tour1_title_navigation'] = 'Navigatie';
 $string['tour1_title_welcome'] = 'Welkom';
-$string['tour2_content_addblock'] = 'Als je bewerken inschakelt, dan kun je blokken toevoegen vanaf de navigatiebalk. Wees echter voorzichtig met het toevoegen van blokken aan je pagina\'s. Blokken worden niet getoond op Mobiele app. Voor de beste gebruikerservaring kun je er dus best voor zorgen dat je cursus goed werkt zonder blokken.';
+$string['tour2_content_addblock'] = 'Als je bewerken inschakelt, dan kun je blokken toevoegen vanaf het navigatiepaneel. Wees echter voorzichtig met het toevoegen van blokken aan je pagina\'s. Blokken worden niet getoond op Mobiele app. Voor de beste gebruikerservaring kun je er dus best voor zorgen dat je cursus goed werkt zonder blokken.';
 $string['tour2_content_addingblocks'] = 'Met deze knop kun je blokken toevoegen aan deze pagina. Wees echter voorzichtig met het toevoegen van blokken aan je pagina\'s. Blokken worden niet getoond op Mobiele app. Voor de beste gebruikerservaring kun je er dus best voor zorgen dat je cursus goed werkt zonder blokken.';
 $string['tour2_content_customisation'] = 'Om de cursusinstellingen te wijzigen kun je het instellingenmenu gebruiken in de hoek van deze balk. Je zult gelijkaardige instellingenmenu\'s vinden op de startpagina van elke activiteit. Probeer nu bewerken in te schakelen.';
 $string['tour2_content_end'] = 'Dit is het einde van jouw rondleiding,. Dit zal niet meer getoond worden, tenzij je deze opnieuw instelt door de link te gebruiken onderaan de pagina. De site-beheerder kan ook rondleidingen zoals deze maken, specifiek voor deze site, indien nodig.';
-$string['tour2_content_navigation'] = 'De belangrijkste navigatie gebeurt vanaf nu via deze navigatiebalk. Gebruik de knop bovenaan om deze te tonen of te verbergen. Je zult zien dat er links zijn voor de secties van je cursus.';
-$string['tour2_content_opendrawer'] = 'Probeer nu de navigatiebalk te openen.';
+$string['tour2_content_navigation'] = 'De belangrijkste navigatie gebeurt vanaf nu via dit navigatiepaneel. Gebruik de knop bovenaan om deze te tonen of te verbergen. Je zult zien dat er links zijn voor de secties van je cursus.';
+$string['tour2_content_opendrawer'] = 'Probeer nu het navigatiepaneel te openen.';
 $string['tour2_content_participants'] = 'Bekijk hier je deelnemers. Dit is ook de plek waar je leerlingen gaat toevoegen of verwijderen.';
 $string['tour2_content_welcome'] = 'Welkom bij het Boost-thema. Als je site geüpgraded is van een oudere versie, dan zul je opmerken dat de cursuspagina er nu wat anders uit ziet.';
 $string['tour2_title_addblock'] = 'Voeg een blok toe';
@@ -173,7 +173,7 @@ $string['tour2_title_addingblocks'] = 'Blokken toevoegen';
 $string['tour2_title_customisation'] = 'Aanpassingen';
 $string['tour2_title_end'] = 'Einde van de rondleiding';
 $string['tour2_title_navigation'] = 'Navigatie';
-$string['tour2_title_opendrawer'] = 'Open de navigatiebalk';
+$string['tour2_title_opendrawer'] = 'Open het navigatiepaneel';
 $string['tour2_title_participants'] = 'Cursusdeelnemers';
 $string['tour2_title_welcome'] = 'Welkom';
 $string['tour3_content_dashboard'] = 'Je nieuwe startpagina heeft veel functies om je gemakkelijk toegang te geven tot de informatie die voor jou het belangrijkst is.';
@@ -207,7 +207,7 @@ $string['tour4_content_icon'] = 'Je kunt vanaf elke pagina toegang krijgen tot j
 
 Als je ongelezen berichten hebt, wordt hier ook het aantal ongelezen berichten weergegeven.
 
-Klik op het pictogram om de berichtenlade te openen en door te gaan met de rondleiding.';
+Klik op het pictogram om het berichtenpaneel te openen en door te gaan met de rondleiding.';
 $string['tour4_content_messaging'] = 'Bij de nieuwe mogelijkheden voor berichten zit de  mogelijkheid voor groepsberichten binnen een cursus en een betere controle over wie jou berichten kan sturen.';
 $string['tour4_content_settings'] = 'Je hebt toegang tot je berichtinstellingen via het tandwielpictogram. Met een nieuwe privacy-instelling kun je beperken wie je berichten kan sturen.';
 $string['tour4_content_starred'] = 'Je kunt ervoor kiezen om bepaalde gesprekken te markeren om ze gemakkelijker te vinden.';

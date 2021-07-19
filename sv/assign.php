@@ -341,7 +341,7 @@ $string['maxattempts_help'] = 'Det maximala antalet inlämningsförsök som kan 
 $string['maxgrade'] = 'Maxbetyg';
 $string['maxperpage'] = 'Maximalt antal inlämningar per sida';
 $string['maxperpage_help'] = 'Det maximala antalet tilldelningar en bedömare kan visa på sidan för bedömning av uppgifter. Den här inställningen är användbar för att förhindra timeout  vid laddningen för kurser med ett stort antal deltagare.';
-$string['messageprovider:assign_notification'] = 'Notis för inlämningsuppgift';
+$string['messageprovider:assign_notification'] = 'Notiser om inlämningsuppgifter';
 $string['modulename'] = 'Inlämningsuppgift';
 $string['modulename_help'] = 'Aktiviteten <em>Inlämningsuppgift</em> gör det möjligt för en lärare att kommunicera uppgifter, samla in arbete och ge betyg och återkoppling.
 

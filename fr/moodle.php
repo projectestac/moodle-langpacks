@@ -641,7 +641,7 @@ $string['emailagain'] = 'Courriel (confirmation)';
 $string['emailalreadysent'] = 'Un message de réinitialisation du mot de passe a déjà été envoyé. Veuillez consulter votre boîte de courriel.';
 $string['emailcharset'] = 'Encodage des courriels';
 $string['emailconfirm'] = 'Confirmer votre enregistrement';
-$string['emailconfirmation'] = 'Bonjour {$a->firstname},
+$string['emailconfirmation'] = 'Bonjour,
 
 Un nouveau compte a été demandé sur « {$a->sitename} » avec votre adresse de courriel.
 
@@ -1288,7 +1288,7 @@ Si le cours contient de nombreuses activités ou ressources, la page de cours pe
 $string['month'] = 'mois';
 $string['months'] = 'mois';
 $string['moodledocs'] = 'Moodle Docs';
-$string['moodledocslink'] = 'Documentation Moodle pour cette page';
+$string['moodledocslink'] = 'Aide et documentation';
 $string['moodlelogo'] = 'Logo Moodle';
 $string['moodlerelease'] = 'Version de Moodle';
 $string['moodleversion'] = 'Version de Moodle';

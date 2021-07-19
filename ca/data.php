@@ -220,6 +220,7 @@ $string['importsuccess'] = 'La predefinició s\'ha aplicat amb èxit';
 $string['includeapproval'] = 'Inclou l\'estat d\'aprovació';
 $string['includetime'] = 'Inclou el temps afegit/modificat';
 $string['includeuserdetails'] = 'Inclou els detalls de l\'usuari';
+$string['indicator:cognitivedepthdef_help'] = 'El participant ha assolit aquest percentatge de la implicació cognitiva oferta per les activitats de Base de Dades en el decurs d\'aquest interval d\'anàlisi (Nivells = No visualització, Visualització, Enviament)';
 $string['insufficiententries'] = 'fan falta més entrades per veure aquesta base de dades';
 $string['intro'] = 'Descripció';
 $string['invalidaccess'] = 'No heu accedit a aquesta pàgina correctament';

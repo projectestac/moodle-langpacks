@@ -112,7 +112,7 @@ $string['check_riskbackup_name'] = 'Sicherung von Nutzerdaten';
 $string['check_riskbackup_ok'] = 'Keine Rolle erlaubt das Sichern von Nutzerdaten';
 $string['check_riskbackup_unassign'] = '<a href="{$a->url}">{$a->fullname} ({$a->contextname})</a>';
 $string['check_riskbackup_warning'] = '{$a->rolecount} Rolle(n), {$a->overridecount} Rollenänderung(en) und {$a->usercount} Nutzer mit der Möglichkeit zur Sicherung von Nutzerdaten gefunden.';
-$string['check_riskxss_details'] = '<p>RISK_XSS bezeichnet alle bedenklichen Berechtigungen, die ausschließlich absolut vertrauenswürdige Nutzer ausführen dürfen.</p>
+$string['check_riskxss_details'] = '<p>RISK_XSS bezeichnet alle bedenklichen Berechtigungen, die ausschließlich absolut vertrauenswürdige Nutzer/innen ausführen dürfen.</p>
 <p>Bitte prüfen Sie die folgende Nutzerliste und stellen Sie sicher, dass Sie ihnen völlig trauen können:</p><p>{$a}</p>';
 $string['check_riskxss_name'] = 'XSS-vertrauenswürdige Nutzer';
 $string['check_riskxss_warning'] = '{$a} Nutzer gefunden, denen bezüglich XSS vertraut werden muss!';
@@ -134,7 +134,7 @@ $string['description'] = 'Beschreibung';
 $string['details'] = 'Details';
 $string['eventreportviewed'] = 'Sicherheitsbericht angezeigt';
 $string['issue'] = 'Ausgabe';
-$string['pluginname'] = 'Sicherheitskontrolle';
+$string['pluginname'] = 'Sicherheitsprüfung';
 $string['privacy:metadata'] = 'Das Sicherheits-Übersichts-Plugin speichert keine personenbezogenen Daten.';
 $string['security:view'] = 'Sicherheitsbericht ansehen';
 $string['timewarning'] = 'Haben Sie bitte Geduld, denn die Bearbeitung kann etwas länger dauern ...';

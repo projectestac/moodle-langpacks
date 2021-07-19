@@ -31,6 +31,6 @@ $string['contentbank:accesscoursecontent'] = 'Accéder aux fichiers de la banque
 $string['contentbank:accessgeneralcontent'] = 'Accéder aux fichiers de la banque de contenus du système';
 $string['contentbank:view'] = 'Consulter le dépôt banque de contenus';
 $string['emptyfilelist'] = 'Il n\'y a pas de fichier à afficher';
-$string['pluginname'] = 'Banque de contenu';
+$string['pluginname'] = 'Banque de contenus';
 $string['pluginname_help'] = 'Fichiers dans la banque de contenus';
 $string['privacy:metadata'] = 'Le plugin de dépôt Banque de contenus n\'enregistre et ne transmet aucune donnée personnelle';

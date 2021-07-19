@@ -1192,6 +1192,7 @@ $string['taskstatscron'] = 'Processament en segon pla de les estadístiques';
 $string['tasktagcron'] = 'Processament en segon pla de les etiquetes';
 $string['tasktempfilecleanup'] = 'Suprimeix els fitxers temporals obsolets';
 $string['tempdatafoldercleanup'] = 'Neteja els fitxers temporals més antics de';
+$string['templates'] = 'Plantilles';
 $string['testsiteupgradewarning'] = 'Esteu utilitzant el lloc de prova {$a}. Per actualitzar de forma correcta utilitzeu l\'eina d\'interfície de línia d\'ordres.';
 $string['themedesignermode'] = 'Mode de dissenyador de temes';
 $string['themedesignermodewarning'] = 'El mode de dissenyador de temes està habilitat. Això no s\'hauria d\'activar als llocs en producció ja que pot reduir significativament el rendiment.';

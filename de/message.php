@@ -161,6 +161,7 @@ $string['outputdoesnotexist'] = 'Dieser Mitteilungskanal ist nicht verfügbar.';
 $string['outputenabled'] = 'Ausgabe aktiviert';
 $string['outputnotavailable'] = 'Nicht verfügbar';
 $string['outputnotconfigured'] = 'Nicht konfiguriert';
+$string['page-message-x'] = 'Jede Mitteilungsseite';
 $string['participants'] = 'Teilnehmer/innen';
 $string['pendingcontactrequests'] = 'Es gibt {$a} anstehende Kontaktanfragen.';
 $string['permitted'] = 'Aktiviert';

@@ -161,6 +161,7 @@ $string['outputdoesnotexist'] = 'L\'output du message n\'existe pas';
 $string['outputenabled'] = 'Output activé';
 $string['outputnotavailable'] = 'Non disponible';
 $string['outputnotconfigured'] = 'Non configuré';
+$string['page-message-x'] = 'Toute page de messagerie';
 $string['participants'] = 'Participants';
 $string['pendingcontactrequests'] = 'Il y a {$a} demandes de contact en attente';
 $string['permitted'] = 'Autorisé';

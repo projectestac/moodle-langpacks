@@ -161,6 +161,7 @@ $string['outputdoesnotexist'] = 'Método de envio de mensagens não existente';
 $string['outputenabled'] = 'Enviadas ativo';
 $string['outputnotavailable'] = 'Não está disponível';
 $string['outputnotconfigured'] = 'Não está configurado';
+$string['page-message-x'] = 'Qualquer página de mensagens';
 $string['participants'] = 'Participantes';
 $string['pendingcontactrequests'] = 'Tem {$a} solicitações de contacto pendentes';
 $string['permitted'] = 'Permitido';

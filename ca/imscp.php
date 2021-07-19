@@ -31,6 +31,7 @@ $string['contentheader'] = 'Contingut';
 $string['deploymenterror'] = 'Error en el contingut del paquet!';
 $string['imscp:addinstance'] = 'Afegeix un paquet de contingut IMS nou';
 $string['imscp:view'] = 'Mostra contingut IMS';
+$string['indicator:cognitivedepthdef_help'] = 'El participant ha assolit aquest percentatge de la implicació cognitiva oferta pels recursos en paquets IMS en el decurs d\'aquest interval d\'anàlisi (Nivells = No visualització, Visualització)';
 $string['keepold'] = 'Paquets arxivats';
 $string['keepoldexplain'] = 'Quants paquets haurien de ser arxivats?';
 $string['modulename'] = 'Paquet de contingut IMS';

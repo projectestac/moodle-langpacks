@@ -70,6 +70,7 @@ $string['expired'] = 'Aquesta activitat es va tancar el dia {$a}.';
 $string['full'] = '(Complet)';
 $string['havetologin'] = 'Abans de trametre una resposta heu d\'entrar amb el vostre nom d\'usuari i contrasenya.';
 $string['includeinactive'] = 'Inclou respostes dels usuaris inactius/suspesos';
+$string['indicator:cognitivedepthdef_help'] = 'El participant ha assolit aquest percentatge de la implicació cognitiva oferta per les activitats de Consulta en el decurs d\'aquest interval d\'anàlisi (Nivells = No visualització, Visualització, Enviament, Visualització de retroalimentacions)';
 $string['limit'] = 'Límit';
 $string['limita'] = 'Límit: {$a}';
 $string['limitanswers'] = 'Limita el nombre de respostes permeses';

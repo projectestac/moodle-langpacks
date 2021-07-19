@@ -158,7 +158,7 @@ $string['cannotstartmissingquestion'] = 'Für diesen Test kann kein Versuch begi
 $string['cannotstartnoquestions'] = 'Für diesen Test kann kein Versuch gestartet werden. Der Test ist noch nicht fertig angelegt, denn bisher fehlen die Fragen.';
 $string['cannotwrite'] = 'Exportdatei kann nicht erstellt werden ({$a})';
 $string['canredoquestions'] = 'Neubearbeitung in einem Versuch erlauben';
-$string['canredoquestions_desc'] = 'Die Option legt fest, dass nach dem Beenden einer bestimmten Frage eine Taste \'Versuchen Sie eine weitere Frage wie diese hier\' angezeigt wird. Dies ermöglicht es, eine andere Antwort für die gleiche Frage zu versuchen, ohne den ganzen Versuch abzusenden und einen neuen Versuch zu starten. Diese Option ist vor allem nützlich zum Üben.
+$string['canredoquestions_desc'] = 'Die Option legt fest, dass nach dem Beenden einer bestimmten Frage eine Taste \'Versuchen Sie eine weitere Frage wie diese hier\' angezeigt wird. Dies ermöglicht es, eine andere Antwort für die gleiche Frage zu versuchen, ohne den ganzen Testversuch abzusenden und einen neuen Versuch zu starten. Diese Option ist vor allem nützlich zum Üben.
 
 Die Option wirkt sich nur auf Fragen (keine Freitextfragen) und Verhaltensweisen (z.B. Direkte Auswertung oder Interaktiv mit mehreren Versuchen) aus, bei denen die Frage beendet werden kann, ohne den Versuch abzugeben.';
 $string['canredoquestions_help'] = 'Die Option legt fest, dass nach dem Beenden einer bestimmten Frage eine Taste \'Versuchen Sie eine weitere Frage wie diese hier\' angezeigt wird. So kann eine andere Antwort für die gleiche Frage versucht werden, ohne den ganzen Testversuch schließen und einen ganz neuen Testversuch zu starten. Diese Option ist vor allem nützlich zum Üben.
@@ -287,7 +287,7 @@ $string['dragtoafter'] = 'Nach {$a}';
 $string['dragtostart'] = 'Am Anfang';
 $string['duplicateresponse'] = 'Ihre Antwort wurde ignoriert, weil Sie bereits vorher eine gleichwertige Antwort gegeben haben.';
 $string['eachattemptbuildsonthelast'] = 'Jeder Versuch basiert auf dem vorigen';
-$string['eachattemptbuildsonthelast_help'] = 'Wenn mehrere Versuche erlaubt sind und diese Option aktiviert ist, enthält jeder neue Versuch das Ergebnis des vorherigen. Dies erlaubt die Fertigstellung eines Tests mit Hilfe mehrerer Versuche.';
+$string['eachattemptbuildsonthelast_help'] = 'Wenn mehrere Versuche erlaubt sind und diese Option aktiviert ist, enthält jeder neue Testversuch das Ergebnis des vorherigen. Dies erlaubt die Fertigstellung eines Tests mit Hilfe mehrerer Versuche.';
 $string['editcategories'] = 'Kategorien bearbeiten';
 $string['editcategory'] = 'Kategorie bearbeiten';
 $string['editcatquestions'] = 'Fragen bearbeiten';

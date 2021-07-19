@@ -162,6 +162,7 @@ $string['outputdoesnotexist'] = 'مخرجات الرسالة غير موجودة
 $string['outputenabled'] = 'تم تمكين المخرجات';
 $string['outputnotavailable'] = 'غير متاح';
 $string['outputnotconfigured'] = 'لم يتم اعداده';
+$string['page-message-x'] = 'صفحات أي رسالة';
 $string['participants'] = 'المشاركون';
 $string['pendingcontactrequests'] = 'هناك {$a} طلبات اتصال معلقة';
 $string['permitted'] = 'مسموح به';

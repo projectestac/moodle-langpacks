@@ -360,9 +360,9 @@ $string['privacy:metadata:database:question_attempts'] = 'De informatie over een
 $string['privacy:metadata:database:question_attempts:flagged'] = 'Een indicatie dat de gebruiker deze vraag heeft gemarkeerd tijdens de poging.';
 $string['privacy:metadata:database:question_attempts:responsesummary'] = 'Een samenvatting van het antwoord op de vraag.';
 $string['privacy:metadata:database:question_attempts:timemodified'] = 'De tijd dat de vraagpoging werd geüpdatet.';
-$string['privacy:metadata:link:qbehaviour'] = 'Het vraag subsysteem maakt gebruik van het vraaggedrag plugintype';
-$string['privacy:metadata:link:qformat'] = 'Het Vraag subsysteem maakt gebruik van het plugintype Vraagformat om vragen in verschillende formats te importeren en exporteren.';
-$string['privacy:metadata:link:qtype'] = 'Het Vraag subsysteem maakt gebruik van het plugintype Vraagtype dat de verschillende types vragen bevat.';
+$string['privacy:metadata:link:qbehaviour'] = 'Het vraag subsysteem maakt gebruik van het vraaggedrag plugintype.';
+$string['privacy:metadata:link:qformat'] = 'Het vraag subsysteem maakt gebruik van de vraag import/export opmaak plugin-type om vragen in verschillende opmaak te kunnen importeren en exporteren.';
+$string['privacy:metadata:link:qtype'] = 'Het vraag subsysteem maakt gebruik van het plugin type vraag type dat de verschillende types vragen bevat.';
 $string['published'] = 'gepubliceerd';
 $string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = '<a href="{$a->qurl}">Vraag "{$a->name}" ({$a->qtype})</a> is in deze vragencategorie, maar is ook gebruikt in <a href="{$a->qurl}">de test "{$a->quizname}"</a> in een andere cursus: "{$a->coursename}".';

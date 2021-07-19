@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completionstatus', language 'ca', version '3.11'.
+ * Strings for component 'qbehaviour_deferredfeedbackexplain', language 'fr', version '3.11'.
  *
- * @package     block_completionstatus
+ * @package     qbehaviour_deferredfeedbackexplain
  * @category    string
  * @copyright   1999 Martin Dougiamas and contributors
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,11 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['completionprogressdetails'] = 'Detalls del progrés de la compleció.';
-$string['completionstatus:addinstance'] = 'Afegeix un bloc nou d\'estat de compleció del curs';
-$string['criteriagroup'] = 'Criteri del grup';
-$string['firstofsecond'] = '{$a->first} de {$a->second}';
-$string['pluginname'] = 'Estat de compleció del curs';
-$string['privacy:metadata'] = 'El bloc d\'estat de compleció del curs mostra únicament la informació sobre la compleció del curs i no emmagatzema cap dada pròpia.';
-$string['requirement'] = 'Requisit';
-$string['returntocourse'] = 'Torna al curs';
+$string['pluginname'] = 'Feedback a posteriori avec explication';

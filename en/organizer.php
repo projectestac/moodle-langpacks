@@ -584,6 +584,7 @@ $string['messageprovider:register_notify_teacher_register'] = 'Organizer registr
 $string['messageprovider:register_notify_teacher_reregister'] = 'Organizer re-registration notification';
 $string['messageprovider:register_notify_teacher_unqueue'] = 'Organizer unqueueing notification';
 $string['messageprovider:register_notify_teacher_unregister'] = 'Organizer unsubscription notification';
+$string['messageprovider:register_promotion_student'] = 'Organizer promoted from queue notification';
 $string['messageprovider:register_reminder_student'] = 'Organizer registration reminder';
 $string['messageprovider:slotdeleted_notify_student'] = 'Organizer slots cancelled';
 $string['messageprovider:test'] = 'Organizer Test Message';
@@ -803,6 +804,9 @@ $string['register_notify_teacher:unregister:group:smallmessage'] = 'Student {$a-
 $string['register_notify_teacher:unregister:group:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Group unregistered';
 $string['register_notify_teacher:unregister:smallmessage'] = 'Student {$a->sendername} has unregistered from the time slot on {$a->date} at {$a->time} in {$a->location}.';
 $string['register_notify_teacher:unregister:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Student unregistered';
+$string['register_promotion_student:fullmessage'] = 'Your registration for a timeslot has been promoted from status "waiting list" to status "booked".';
+$string['register_promotion_student:smallmessage'] = 'Your registration for a timeslot has been promoted from status "waiting list" to status "booked".';
+$string['register_promotion_student:subject'] = 'Moodle Organizer: Promoted from queue';
 $string['register_reminder_student:fullmessage'] = 'Hello {$a->receivername}!
 
 As a part of the course {$a->courseid} {$a->coursefullname}, you either still haven\'t registered to any time slot, or you\'ve missed the one you did register to.

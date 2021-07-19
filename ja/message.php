@@ -161,6 +161,7 @@ $string['outputdoesnotexist'] = 'メッセージアウトプットはありま�
 $string['outputenabled'] = 'アウトプット有効';
 $string['outputnotavailable'] = '利用不可';
 $string['outputnotconfigured'] = '未設定';
+$string['page-message-x'] = 'すべてのメッセージページ';
 $string['participants'] = '参加者';
 $string['pendingcontactrequests'] = '{$a} 件の保留コンタクトリクエストがあります。';
 $string['permitted'] = '許可';
