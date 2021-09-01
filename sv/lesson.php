@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['accesscontrol'] = 'Styrning av tillgänglighet';
+$string['accesscontrol'] = 'Åtkomstkontroll';
 $string['actionaftercorrectanswer'] = 'Åtgärd efter rätt svar';
 $string['actionaftercorrectanswer_help'] = '<p>Det normala om svaret är rätt, är att följa hoppet så som det är angivet i svaret.
 I de flesta fall kommer detta antagligen att visa Nästa sida i lektionen, alltså i situationer
@@ -79,7 +79,7 @@ $string['allowofflineattempts_help'] = 'Om det här alternativet är aktiverat k
 $string['anchortitle'] = 'Början av huvudinnehållet';
 $string['and'] = 'OCH';
 $string['answer'] = 'Svar';
-$string['answeredcorrectly'] = 'besvarad korrekt';
+$string['answeredcorrectly'] = 'korrekt besvarad.';
 $string['answersfornumerical'] = 'Svar på numeriska frågor bör vara matchade par av minimi- och maximumvärden';
 $string['arrangebuttonshorizontally'] = 'Arrangera innehållsknapparna horisontellt?';
 $string['attempt'] = 'Försök: {$a}';
@@ -116,7 +116,7 @@ $string['casesensitive'] = 'Använd reguljära uttryck';
 $string['casesensitive_help'] = 'Markera kryssrutan för att använda <a href="https://sv.m.wikipedia.org/wiki/Regulj%C3%A4ra_uttryck" target="_blank">reguljära uttryck</a> för analys av svar.';
 $string['checkbranchtable'] = 'Kontrollera innehållsida';
 $string['checkedthisone'] = 'Kontrollerade den här.';
-$string['checknavigation'] = 'Kontrollera navigation';
+$string['checknavigation'] = 'Kontrollera navigering';
 $string['checkquestion'] = 'Kontrollera fråga';
 $string['classstats'] = 'Statistik för klass';
 $string['clicktodownload'] = 'Klicka på följande länk för att ladda ner filen.';
@@ -128,7 +128,7 @@ $string['collapsed'] = 'Komprimerad';
 $string['comments'] = 'Dina kommentarer';
 $string['completed'] = 'Slutförd';
 $string['completederror'] = 'Slutför lektionen';
-$string['completethefollowingconditions'] = 'Du måste uppfylla följande villkor i <b>{$a}</b> lektion innan Du kan fortsätta.';
+$string['completethefollowingconditions'] = 'Du måste uppfylla följande villkor i <strong>{$a}</strong>-lektionen innan du kan fortsätta.';
 $string['completiondetail:reachend'] = 'Gå igenom hela aktiviteten från början till slut';
 $string['completiondetail:timespent'] = 'Lägg minst {$a} på denna aktivitet';
 $string['completionendreached'] = 'Kräv att slutet nåtts';
@@ -198,7 +198,7 @@ $string['displayreview_help'] = 'Om aktiverad får en student som svarar fel på
 $string['displayscorewithessays'] = '<p>Du har uppnått {$a->score} av {$a->tempmaxgrade} för de frågor som betygssätts automatiskt.</p>
 <p>Dina {$a->essayquestions} essäfrågor kommer att betygsättas och adderas till ditt slutresultat vid ett senare tillfälle.</p>
 <p>Ditt aktuella betyg utan essäfrågorna är {$a->score} av {$a->grade}.</p>';
-$string['displayscorewithoutessays'] = 'Ditt resultat är {$a->score} (av {$a->grade}).';
+$string['displayscorewithoutessays'] = 'Din poäng är {$a->score} (av {$a->grade}).';
 $string['duplicatepagenamed'] = 'Duplicerad sida: {$a}';
 $string['edit'] = 'Redigera';
 $string['editbranchtable'] = 'Redigera sida';

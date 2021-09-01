@@ -30,6 +30,7 @@ $string['coursesort'] = 'Ordenar ista de cursos';
 $string['coursesort_help'] = 'Esto determina si la lista de cursos a los que acceder siguen un orden predeterminado (el orden configurado en Administración>Cursos>Administrar cursos y categorías) o alfabéticamente según los ajustes del curso.';
 $string['creategroup'] = 'Crear nuevo grupo';
 $string['defaultgroupnametext'] = '{$a->name} curso {$a->increment}';
+$string['enrolmetasynctask'] = 'Tarea de sincronización de metainscripción';
 $string['linkedcourse'] = 'Enlazar curso';
 $string['meta:config'] = 'Configurar instancias de meta-matriculación';
 $string['meta:selectaslinked'] = 'Seleccionar curso como meta-enlazado';

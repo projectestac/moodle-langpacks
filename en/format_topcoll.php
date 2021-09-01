@@ -25,9 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['activitymodulecountcache'] = 'Caches the number of students who can access a given module on a given course';
+$string['activitystudentrolescache'] = 'Caches the student roles';
+$string['activitystudentscache'] = 'Caches the ids of the students on a given course';
 $string['addsection'] = 'Add section';
 $string['arrow'] = 'Arrow';
 $string['bulb'] = 'Bulb';
+$string['cannotgetmodulecountcachelock'] = 'Cannot get module count cache lock for course id {$a}.';
 $string['center'] = 'Centre';
 $string['cloud'] = 'Cloud';
 $string['colourrule'] = 'Please enter a valid RGB colour, six hexadecimal digits or \'-\' for default.';

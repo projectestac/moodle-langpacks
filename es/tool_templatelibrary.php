@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['all'] = 'Todos los componentes';
 $string['component'] = 'Componente';
+$string['core'] = 'Core';
 $string['coresubsystem'] = 'Subsistema ({$a})';
 $string['documentation'] = 'Documentación';
 $string['example'] = 'Ejemplo';

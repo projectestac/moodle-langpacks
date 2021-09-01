@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['fieldtypelabel'] = 'Textområde';
+$string['fieldtypelabel'] = 'Textfält';
 $string['maxbytes'] = 'Maximal storlek för inbäddad fil (bytes)';
 $string['maxbytes_desc'] = 'Om satt till noll är storleken obegränsad som standard';
-$string['pluginname'] = 'Textområde';
+$string['pluginname'] = 'Textfält';
 $string['privacy:metadata'] = 'Fältkomponenten Textområde lagrar ingen personlig information. Den använder tabeller definierade i <code>mod_data</code>.';

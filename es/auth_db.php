@@ -25,8 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['auth_dbcannotconnect'] = 'No se puede conectar con una base de datos externa.';
+$string['auth_dbcannotreadtable'] = 'No se puede leer una tabla externa.';
 $string['auth_dbcantconnect'] = 'No se ha podido conectar con la base de datos de identificación especificada...';
 $string['auth_dbchangepasswordurl_key'] = 'URL de cambio de contraseña';
+$string['auth_dbcolumnlist'] = 'La tabla externa contiene las siguientes columna: <br />{$a}';
 $string['auth_dbdebugauthdb'] = 'Depurar ADPdb';
 $string['auth_dbdebugauthdbhelp'] = 'Depurar conexión ADOdb a una base de datos externa - Utilizarlo cuando se esté obteniendo una página en blanco durante el inicio de sesión. No es conveniente para sitios de producción.';
 $string['auth_dbdeleteuser'] = 'Eliminado el usuario {$a->name} id {$a->id}';
@@ -46,6 +49,8 @@ $string['auth_dbinsertuserduplicate'] = 'Error al insertar el usuario {$a->usern
 $string['auth_dbinsertusererror'] = 'Error al insertar al usuario {$a}';
 $string['auth_dbname'] = 'Nombre de la base de datos. Dejar vacío si está utilizando un DSN ODBC.';
 $string['auth_dbname_key'] = 'Nombre de la Base de Datos';
+$string['auth_dbnoexttable'] = 'Tabla externa no especificada.';
+$string['auth_dbnouserfield'] = 'Campo de usuario externo no especificado.';
 $string['auth_dbpass'] = 'Contraseña correspondiente al nombre de usuario anterior';
 $string['auth_dbpass_key'] = 'Contraseña';
 $string['auth_dbpasstype'] = '<p>Especifique el formato que usa el campo de contraseña. La encriptación MD5 es útil para conectar con otras aplicaciones web como PostNuke.</p> <p>Use "interno" si quiere que la base de datos externa gestione los nombres de usuario y las direcciones de correo electrónico, pero que Moodle administre las contraseñas. Si utiliza "interno", <i>debe</i> proporcionar un campo con una  dirección de correo electrónico utilizada en la base de datos externa, y debe ejecutar regularmente tanto admin/cron.php como auth/db/cli/sync_users.php. Moodle enviará un correo electrónico a los nuevos usuarios con una contraseña temporal.</p>';
@@ -59,13 +64,19 @@ $string['auth_dbsuspenduser'] = 'Suspendido el usuario {$a->name} id {$a->id}';
 $string['auth_dbsuspendusererror'] = 'Error al suspender al usuario {$a}';
 $string['auth_dbsybasequoting'] = 'Utilizar citaciones (quotes) de sybase';
 $string['auth_dbsybasequotinghelp'] = 'Escapado de comilla simple al estilo Sybase - necesario para Oracle, MS SQL y algunas otras bases de datos. ¡No lo utilice para MySQL!';
+$string['auth_dbsyncuserstask'] = 'Tarea de sincronización de usuarios';
 $string['auth_dbtable'] = 'Nombre de la tabla en la base de datos';
 $string['auth_dbtable_key'] = 'Tabla';
+$string['auth_dbtableempty'] = 'Tabla externa está vacía.';
 $string['auth_dbtype'] = 'El tipo de base de datos (Vea la <a href="http://phplens.com/adodb/supported.databases.html">documentación de ADOdb</a> para obtener más detalles)';
 $string['auth_dbtype_key'] = 'Base de datos';
+$string['auth_dbupdateerror'] = 'Error al actualizar la base de datos externa.';
+$string['auth_dbupdateusers'] = 'Actualizar usuarios';
+$string['auth_dbupdateusers_description'] = 'Además de insertar nuevos usuarios, actualizar los usuarios existentes.';
 $string['auth_dbupdatinguser'] = 'Actualizando al usuario {$a->name} id {$a->id}';
 $string['auth_dbuser'] = 'Nombre de usuario con acceso de lectura a la base de datos';
 $string['auth_dbuser_key'] = 'Usuario de la Base de Datos';
 $string['auth_dbuserstoadd'] = 'Entradas de usuario a añadir: {$a}';
 $string['auth_dbuserstoremove'] = 'Entradas de usuario a eliminar: {$a}';
 $string['pluginname'] = 'Usar una base de datos externa';
+$string['privacy:metadata'] = 'El complemento de autenticación con base de datos externa no almacena ningún dato personal.';

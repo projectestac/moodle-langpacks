@@ -29,7 +29,7 @@ $string['additionaldelimiters'] = 'Separadores de ecuación adicionales';
 $string['additionaldelimiters_help'] = 'El filtro MathJax analiza el texto para hallar ecuaciones entre los caracteres separadores.
 La lista de caracteres separadores puede ser añadida aquí (por ejemplo, AsciiMath usa `). Los separadores pueden contener múltiples caracteres, y múltiples separadores serán separados con comas.';
 $string['filtername'] = 'MathJax';
-$string['httpsurl'] = 'HTTPS MathJax URL';
+$string['httpsurl'] = 'URL de MathJax';
 $string['httpsurl_help'] = 'URL completa a la biblioteca MathJax. Se usa cuando se accede a la página a través de https (segura).';
 $string['localinstall'] = 'Instalación local de MathJax';
 $string['localinstall_help'] = 'La configuración por defecto de Mathax usa la versión CDN de Mathjax, pero MathJax se puede instalar localmente si es necesario.

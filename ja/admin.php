@@ -714,6 +714,7 @@ $string['htmlsettings'] = 'HTML設定';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTPセキュリティ';
 $string['iconvrequired'] = 'ICONV拡張モジュールのインストールが必須です。';
+$string['igbinary322buggyversion'] = 'このサイトにインストールされているphp-igbinary拡張モジュールをPHP 7.2で動作させた場合、問題が発生する可能性があります。php-igbinary 3.2.5またはそれ以降にアップグレードするか、PHP 7.3またはそれ以降へのアップグレードをお勧めします。';
 $string['ignore'] = '無視';
 $string['includemoduleuserdata'] = 'モジュールユーザデータを含む';
 $string['incompatibleblocks'] = '互換性がないブロック';

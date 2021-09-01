@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['authpluginnotfound'] = 'O módulo de autenticação {$a} não foi encontrado.';
 $string['blocknotexist'] = 'O bloco {$a} não existe';
 $string['cannotbenull'] = '{$a} não pode ser nulo(a)';
-$string['cannotdowngrade'] = 'Não pode descarregar a versão do módulo {$a->plugin} de {$a->oldversion} para {$a->newversion}.';
+$string['cannotdowngrade'] = 'Não é possível retroceder a versão do módulo \'{$a->plugin}\' de \'{$a->oldversion}\' para \'{$a->newversion}\'.';
 $string['cannotfindadmin'] = 'Não foi encontrado nenhum administrador!';
 $string['cannotinitpage'] = 'Não é possível iniciar totalmente a página: {$a->name} id inválido {$a->id}';
 $string['cannotsetuptable'] = '{$a} tabelas NÃO foram configuradas com sucesso!';

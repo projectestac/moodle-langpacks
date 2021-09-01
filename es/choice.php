@@ -55,6 +55,7 @@ $string['choicetext'] = 'Texto de la opción';
 $string['chooseaction'] = 'Elija una acción ...';
 $string['chooseoption'] = 'Cambiar a: {$a}';
 $string['closebeforeopen'] = 'Has especificado una fecha de cierre previa a la de la fecha de apertura.';
+$string['completiondetail:submit'] = 'Elija una opción';
 $string['completionsubmit'] = 'Mostrar como completada cuando el usuario selecciona una opción';
 $string['description'] = 'Descripción';
 $string['deselectalloption'] = 'Des-seleccionar todos "{$a}"';

@@ -25,6 +25,15 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventlegacylogged'] = 'Evento heredado registrado';
+$string['loglegacy'] = 'Registrar datos heredados';
 $string['pluginname'] = 'Log heredado';
 $string['pluginname_desc'] = 'Un plugin de log que guarde las entradas del log en la tabla de log heredada.';
+$string['privacy:metadata:log'] = 'Una colección de eventos pasados';
+$string['privacy:metadata:log:action'] = 'Una descripción de la acción';
+$string['privacy:metadata:log:info'] = 'Información adicional';
+$string['privacy:metadata:log:ip'] = 'La dirección IP utilizada en el momento del evento';
+$string['privacy:metadata:log:time'] = 'El momento en el que se produjo la acción';
+$string['privacy:metadata:log:url'] = 'La URL relacionada con el evento';
+$string['privacy:metadata:log:userid'] = 'El ID del usuario que realizó la acción';
 $string['taskcleanup'] = 'Limpieza de la tabla heredada de log';

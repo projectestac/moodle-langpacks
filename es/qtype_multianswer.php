@@ -43,6 +43,7 @@ $string['pluginname_help'] = 'Respuestas incrustadas (Cloze) consisten en  un  t
 $string['pluginnameadding'] = 'Agregando una pregunta con respuestas anidadas (Cloze)';
 $string['pluginnameediting'] = 'Editando una pregunta con respuestas anidadas (Cloze)';
 $string['pluginnamesummary'] = 'Las preguntas de este tipo son muy flexibles, pero sólo pueden crearse introduciendo texto que contiene códigos especiales que crean preguntas anidadas de opción múltiple, cortas y numéricas.';
+$string['privacy:metadata'] = 'El complemento de tipo de pregunta de Respuestas integradas (Cloze) no almacena ningún dato personal.';
 $string['qtypenotrecognized'] = 'tipo de pregunta {$a} no reconocido';
 $string['questiondefinition'] = 'Definición de la pregunta';
 $string['questiondeleted'] = 'Pregunta eliminada';
@@ -51,14 +52,10 @@ $string['questionnotfound'] = 'Imposible encontrar la pregunta de la parte de pr
 $string['questionsadded'] = '"Pregunta agregada"';
 $string['questionsaveasedited'] = 'La pregunta se guardará como editada.';
 $string['questionsless'] = 'hay {$a} pregunta(s) menos que en la pregunta multiple almacenada en la base de datos';
-$string['questionsmissing'] = 'No hay preguntas válidas, escriba al menos una pregunta';
+$string['questionsmissing'] = 'El texto de la pregunta debe contener, al menos, una respuesta integrada.';
 $string['questionsmore'] = 'hay {$a} pregunta(s) más que en la pregunta multiple almacenada en la base de datos';
 $string['questiontypechanged'] = 'Se ha modificado este tipo de pregunta';
-$string['questiontypechangedcomment'] = 'Al menos un tipo de pregunta ha sido modificada.
-
-¿Añadió, eliminó o movió alguna pregunta?
-
-Puede continuar.';
+$string['questiontypechangedcomment'] = 'Al menos un tipo de pregunta ha sido modificada.<br />¿Añadió, eliminó o movió alguna pregunta?<br />Puede continuar.';
 $string['questionusedinquiz'] = 'Esta pregunta es usada en {$a->nb_of_quiz} cuestionario(s), intento(s) total(es) : {$a->nb_of_attempts}';
 $string['storedqtype'] = 'Tipo de pregunta {$a} guardada';
 $string['subqresponse'] = 'parte {$a->i}: {$a->response}';

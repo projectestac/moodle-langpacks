@@ -58,7 +58,7 @@ $string['allmethodcourseset'] = 'Todas as disciplinas selecionadas estão conclu
 $string['allmethodmanual'] = 'Todos os papéis selecionados atribuírem a medalha';
 $string['allmethodprofile'] = 'Todos os campos de perfil selecionados foram completados';
 $string['allowcoursebadges'] = 'Ativar medalhas na disciplina';
-$string['allowcoursebadges_desc'] = 'Permitir que as medalhas sejam criadas e atribuídas no contexto da disciplina';
+$string['allowcoursebadges_desc'] = 'Permitir que as medalhas sejam criadas e atribuídas no contexto da disciplina.';
 $string['allowexternalbackpack'] = 'Ligação a backpacks externas';
 $string['allowexternalbackpack_desc'] = 'Se ativar esta opção, os utilizadores poderão ligarem-se a uma backpack externa e partilhar as suas medalhas a partir deste site. Os utilizadores também podem optar por mostrar, na  sua página de perfil neste site, quaisquer coleções de medalhas públicas da sua backpack externa. Recomenda-se que deixe esta opção desativada se o seu site não estiver acessível a partir da Internet.';
 $string['any'] = 'Qualquer uma';
@@ -506,7 +506,7 @@ $string['reviewconfirm'] = '<p>Se continuar, esta medalha ficará visível para 
 
 <p>Assim que uma medalha for emitida, esta será <strong>bloqueada</strong> - algumas configurações, incluindo os critérios e as configurações da data de validade, não poderão ser alteradas.</p>
 
-<p>Tem a certeza de que pretende ativar o acesso à medalha {$a}? </p>';
+<p>Tem a certeza de que pretende ativar o acesso à medalha \'{$a}\'? </p>';
 $string['revoke'] = 'Revogar medalha';
 $string['save'] = 'Guardar';
 $string['searchname'] = 'Pesquisar por nome';

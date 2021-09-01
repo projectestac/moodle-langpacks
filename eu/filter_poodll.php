@@ -135,7 +135,7 @@ $string['html5recorder_skin_audio'] = 'HTML5 Grabagailuaren Azala (Audioa)';
 $string['html5recorder_skin_video'] = 'HTML5 Grabagailuaren Azala (Bideoa)';
 $string['insert'] = 'Txertatu';
 $string['jumpcat_explanation'] = 'Poodll iragazkiaren ezarpen guztiak <a href="{$a}">hemen</a> aurkitu daitezke.';
-$string['jumpcat_heading'] = 'Poodll iragazkairen ezarpenak';
+$string['jumpcat_heading'] = 'Poodll iragazkiaren ezarpenak';
 $string['legacysettings'] = 'Heredatutako ezarpenak';
 $string['license_details'] = '<br> -------------- <br> Lizentzia-mota: {$a->license_type} <br> Iraungitze-data (JST): {$a->expire_date} <br> Erregistratutako URLa: {$a->registered_url}';
 $string['lowquality'] = 'baxua';

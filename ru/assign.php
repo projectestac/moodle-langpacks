@@ -86,7 +86,7 @@ $string['assignsubmissionpluginname'] = 'Модули представления
 $string['attemptheading'] = 'Попытка {$a->attemptnumber}: {$a->submissionsummary}';
 $string['attempthistory'] = 'Предыдущие попытки';
 $string['attemptnumber'] = 'Номер попытки';
-$string['attemptreopenmethod'] = 'Разрешать новые попытки';
+$string['attemptreopenmethod'] = 'Дополнительные попытки';
 $string['attemptreopenmethod_help'] = 'Этот параметр определяет, может ли студент предпринять дополнительные попытки выполнить задание. Для каждой попытки оценка и отзывы сохраняются и могут быть просмотрены учителем и учеником. Возможны следующие варианты:
 
 * Никогда - возможна только одна попытка.

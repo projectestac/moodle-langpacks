@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activitydate:submissionsdue'] = 'Presentaciones pendientes:';
-$string['activitydate:submissionsopen'] = 'Presentaciones abiertas:';
-$string['activitydate:submissionsopened'] = 'Envíos abiertos:';
+$string['activitydate:submissionsdue'] = 'Pendiente:';
+$string['activitydate:submissionsopen'] = 'Abre:';
+$string['activitydate:submissionsopened'] = 'Abiertos:';
 $string['activityoverview'] = 'Hay tareas que requieren atención';
 $string['addattempt'] = 'Permitir otro intento';
 $string['addnewattempt'] = 'Añadir una nueva entrega';
@@ -37,9 +37,9 @@ $string['addnewattemptfromprevious_help'] = 'Se copiará el contenido de la entr
 $string['addnewgroupoverride'] = 'Añadir excepción de grupo';
 $string['addnewuseroverride'] = 'Añadir excepción de usuario';
 $string['addsubmission'] = 'Agregar entrega';
-$string['addsubmission_help'] = 'Todavía no has realizado una entrega';
+$string['addsubmission_help'] = 'Todavía no has realizado una entrega.';
 $string['allocatedmarker'] = 'Evaluador asignado';
-$string['allocatedmarker_help'] = 'Evaluador asignado a esta entrega';
+$string['allocatedmarker_help'] = 'Evaluador asignado a esta entrega.';
 $string['allowsubmissions'] = 'Permitir al usurio continuar haciendo entregas a esta tarea';
 $string['allowsubmissionsanddescriptionfromdatesummary'] = 'Los detalles de la tarea y el formulario de entregas estarán disponibles en <strong>{$a}</strong>';
 $string['allowsubmissionsfromdate'] = 'Permitir entregas desde';
@@ -89,7 +89,7 @@ $string['assignsubmissionpluginname'] = 'Extensión de entregas';
 $string['attemptheading'] = 'Intento {$a->attemptnumber}: {$a->submissionsummary}';
 $string['attempthistory'] = 'Intentos previos';
 $string['attemptnumber'] = 'Número del intento';
-$string['attemptreopenmethod'] = 'Permitir reapertura';
+$string['attemptreopenmethod'] = 'Intentos adicionales';
 $string['attemptreopenmethod_help'] = 'Determina cómo se reabren los intentos de envío de los estudiantes. Las opciones disponibles son:
 
 * Nunca: el envío no se puede volver a abrir.
@@ -290,7 +290,7 @@ $string['grantextension'] = 'Ampliar plazo';
 $string['grantextensionforusers'] = 'Ampliar plazo para {$a} estudiantes';
 $string['groupoverrides'] = 'Excepciones de grupo';
 $string['groupoverridesdeleted'] = 'Excepción de grupo eliminada';
-$string['groupsnone'] = 'No hay grupos en este curso';
+$string['groupsnone'] = 'No hay grupos a los que pueda acceder.';
 $string['groupsubmissionsettings'] = 'Configuración de entrega por grupo';
 $string['hiddenuser'] = 'Participante';
 $string['hidegrader'] = 'Ocultar la identidad del evaluador a los estudiantes';

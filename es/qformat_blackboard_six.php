@@ -31,5 +31,5 @@ $string['filenothandled'] = 'Este archivo contiene referencia a un material de a
 $string['imagenotfound'] = 'La imagen con la ruta {$a} no se ha encontrado en la importación.';
 $string['importedcategory'] = 'Categoría importada {$a}';
 $string['importnotext'] = 'Pregunta no encontrada en el archivo XML';
-$string['pluginname'] = 'Blackboard V6+';
+$string['pluginname'] = 'Blackboard';
 $string['pluginname_help'] = 'El formato Blackboard V6+ permite importar via fichero zip las preguntas guardadas en el formato de exportación Blackboard. El soporte para Blackboard versiones 6 y 7 es limitado.';

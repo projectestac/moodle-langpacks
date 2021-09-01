@@ -65,6 +65,7 @@ $string['messagesent'] = 'تم إرسال الرسالة';
 $string['noeventsoractivitiesfound'] = 'لم يتم العثور على أحداث "نشطة" أو أحداث متصلة بالإنترنت.';
 $string['platform_desc'] = 'رابط منصة إدارة Arlo \'yourplatform.arlo.co\' (مع استبعاد https:// و /). ليس لديك منصة Arlo؟ <a title="{$a->title}" href="{$a->url}" target="_blank">إبدأ تجربتها مجانًا.</a>';
 $string['privacy:metadata:enrol_arlo_contact:firstname'] = 'الاسم الأول لجهة اتصال Arlo';
+$string['privacy:metadata:enrol_arlo_contact:lastname'] = 'الاسم الأخير لجهة اتصال Arlo';
 $string['pusheventresults_help'] = 'إدفع معلومات النتائج من عينات الانضمام المعينة إلى
 <strong>الأحداث</strong> رجوعاً إلى Arlo';
 $string['pushonlineactivityresults_help'] = 'إدفع معلومات النتائج من عينات الانضمام المعينة إلى

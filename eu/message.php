@@ -161,6 +161,7 @@ $string['outputdoesnotexist'] = 'Irteerako mezua ez da existitzen';
 $string['outputenabled'] = 'Irteera gaituta';
 $string['outputnotavailable'] = 'Ez dago eskuragarri';
 $string['outputnotconfigured'] = 'Ezarri gabea';
+$string['page-message-x'] = 'Edozein mezu-orri';
 $string['participants'] = 'Partaideak';
 $string['pendingcontactrequests'] = 'Itxaron-zerrendan {$a} kontaktu-eskaera daude';
 $string['permitted'] = 'Baimendua';

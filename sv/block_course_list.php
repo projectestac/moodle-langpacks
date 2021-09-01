@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['adminview'] = 'Vy för administratörer';
+$string['adminview'] = 'Administratörsvy';
 $string['allcourses'] = 'Administratören ser alla kurser';
 $string['configadminview'] = 'Om alla kurser i blocket Kurser ska visas, eller bara kurser som administratören är inskriven i.';
 $string['confighideallcourseslink'] = 'Dölj länken \'Alla kurser\' nedanför kurslistan. Detta påverkar inte det administratören ser.';

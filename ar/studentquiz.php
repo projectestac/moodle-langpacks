@@ -95,4 +95,5 @@ $string['settings_lastcorrectanswerquantifier_help'] = 'النقاط لكل إج
 $string['settings_lastcorrectanswerquantifier_label'] = 'النقاط للإجابات الصحيحة الأخيرة';
 $string['settings_section_description_default'] = 'هذه تمثل القيم الافتراضية عند إنشاء نشاط اختبار الطالب جديد.';
 $string['studentquiz:addinstance'] = 'إضافة عيِّنة جديدة من اختبار الطالب';
+$string['studentquizname_help'] = 'اسم نشاط اختبار الطالب هذا';
 $string['tags'] = 'الوسوم';

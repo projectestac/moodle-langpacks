@@ -248,6 +248,7 @@ $string['criteria_descr_single_short5'] = 'Завершено:';
 $string['criteria_descr_single_short6'] = 'Заполнено:';
 $string['criteria_descr_single_short7'] = 'Получено:';
 $string['criteria_descr_single_short8'] = 'Членство в:';
+$string['criteria_descr_single_short9'] = 'Выполнено:';
 $string['criteriacreated'] = 'Критерий значка создан';
 $string['criteriadeleted'] = 'Критерий значка удален';
 $string['criteriasummary'] = 'Описание критерия';

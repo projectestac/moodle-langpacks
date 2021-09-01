@@ -126,6 +126,6 @@ $string['userfieldexternalfield'] = 'اسم الحقل الخارجي';
 $string['userfieldexternalfield_error'] = 'لا يمكن أن يحتوي هذا الحقل على HTML.';
 $string['userfieldexternalfield_help'] = 'اسم الحقل المقدم من قبل نظام OAuth الخارجي.';
 $string['userfieldinternalfield'] = 'اسم الحقل الداخلي';
-$string['userfieldinternalfield_help'] = 'اسم حقل مستخدم Moodle الذي يجب تعيينه من الحقل الخارجي.';
+$string['userfieldinternalfield_help'] = 'اسم حقل مستخدم مودل الذي يجب تعيينه من الحقل الخارجي.';
 $string['userfieldmappingdeleted'] = 'تم حذف تعيين حقل المستخدم';
 $string['userfieldmappingsforissuer'] = 'تعيينات حقل المستخدم للمصدر: {$a}';

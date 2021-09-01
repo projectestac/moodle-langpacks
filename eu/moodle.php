@@ -1537,7 +1537,7 @@ $string['passwordconfirmchange'] = 'Baieztatu pasahitzaren aldaketa';
 $string['passwordextlink'] = 'Esteka honek galdutako pasahitza errekuperatzeko balio du eta Moodletik ateratzen behartzen zaitu.';
 $string['passwordforgotten'] = 'Ahaztutako pasahitza';
 $string['passwordforgotteninstructions'] = 'Zure datuak lehenik erabiltzaileen datu-basean bilatu behar dira. Zure erabiltzaile-izena <strong>edo</strong> helbide elektronikoa dagokion lekuan idatzi, mesedez. Biak idaztea ez da beharrezkoa.';
-$string['passwordforgotteninstructions2'] = 'Zure pasahitza berritzeko, bidali zure erabiltzaile-izena edo zure helbide elektronikoa. Datu-basean aurkitzen bazaitugu, zure helbide elektronikora e-maila bidaliko dizugu berriz sartzeko argibideekin.';
+$string['passwordforgotteninstructions2'] = 'Pasahitza berritzeko, zure erabiltzaile-izena edo helbide elektronikoa erabil ditzakezu. Datu-basean aurkitzen bazaitugu, plataformara berriro sartzeko argibideak helbide elektronikora bidaliko dizkizugu.';
 $string['passwordnohelp'] = 'Ezin izan da galdu duzun pasahitza aurkitu. Moodleren kudeatzailearekin harremanetan jarri, mesedez.';
 $string['passwordpolicynomatch'] = 'Zure une honetako pasahitzak ez du oraingo pasahitzen politika betetzen.
    {$a}';

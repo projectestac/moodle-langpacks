@@ -46,5 +46,5 @@ $string['preview'] = 'Förhandsgranska';
 $string['privacy:metadata'] = 'Pluginmodulen atto_image lagrar ingen personinformation.';
 $string['saveimage'] = 'Spara bild';
 $string['size'] = 'Storlek';
-$string['uploading'] = 'Uppladdning pågår, v.g. vänta.';
+$string['uploading'] = 'Laddar upp, vänta…';
 $string['width'] = 'Bredd';

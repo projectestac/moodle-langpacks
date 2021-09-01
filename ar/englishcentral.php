@@ -31,6 +31,7 @@ $string['compositescore'] = 'الدرجة النهائية';
 $string['copyright'] = 'المصدر';
 $string['description'] = 'الوصف';
 $string['englishcentralsettings'] = 'أدخل عنوان الفيديو المركزي بالإنجليزية ومُعرَّفه';
+$string['fullname'] = 'الاسم الكامل';
 $string['gradeaverage'] = 'متوسط الدرجة لكل المحاولات';
 $string['gradelatest'] = 'درجة المحاولة الأخيرة';
 $string['privacy:metadata:sessionscore'] = 'درجة الجلسة';

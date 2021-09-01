@@ -207,6 +207,9 @@ $string['tour4_title_icon'] = 'Mensajería';
 $string['tour4_title_messaging'] = 'Nueva interfaz de mensajería';
 $string['tour4_title_settings'] = 'Opciones de mensajería';
 $string['tour4_title_starred'] = 'Destacado';
+$string['tour_activityinfo_activity_teacher_content'] = 'Fechas de actividad y condiciones de finalización ahora son mostrados para estudiantes en cada página de actividad (y opcionalmente en la página del curso).
+
+Para actividades que requieren que los estudiantes las marquen manualmente como completadas, un botón \'Marcar como hecha\' es mostrado en la página de la actividad.';
 $string['tour_final_step_content'] = 'Este es el final del recorrido. No se mostrará de nuevo a menos que lo restablezca utilizando el enlace en el pie de página.';
 $string['tour_final_step_title'] = 'Fin del tour';
 $string['tour_resetforall'] = 'El estado del tour ha sido reiniciado. Se mostrará nuevamente a todos los usuarios.';

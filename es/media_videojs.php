@@ -25,5 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['audiocssclass'] = 'Clase CSS para audio';
+$string['audioextensions'] = 'Extensiones de archivos de audio';
+$string['rtmp'] = 'Secuencias de RTMP';
+$string['useflash'] = 'Usar respaldo de Flash';
+$string['videocssclass'] = 'Clase CSS para vídeo';
 $string['videoextensions'] = 'Formatos de archivos de vídeo';
 $string['youtube'] = 'YouTube videos';

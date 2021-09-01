@@ -86,13 +86,13 @@ $string['group_memberofattribute_key'] = 'Atributo \'Miembro de\'';
 $string['host_url'] = 'Especifique el host LDAP en formato URL, e.g.,  \'ldap://ldap.myorg.com/\'
 or \'ldaps://ldap.myorg.com/\'';
 $string['host_url_key'] = 'URL del servidor';
-$string['idnumber_attribute'] = 'Si la pertenencia a grupo contiene \'nombres distinguidos\', especifique el mismo atributo que ha usado para el mapeo del \'Número ID\' del usuario, en la configuración de identificación LDAP';
+$string['idnumber_attribute'] = 'Si la pertenencia a grupo contiene nombres distinguidos, especifique el mismo atributo que ha usado para el mapeo del \'Número ID\' del usuario en la configuración de identificación LDAP';
 $string['idnumber_attribute_key'] = 'Atributo de número ID';
 $string['ldap:manage'] = 'Gestionar ejemplos de matriculación LDAP';
 $string['ldap_encoding'] = 'Indique la codificación utilizada por el servidor LDAP. Lo más probable es que sea utf-8;  MS AD v2 utiliza  codificaciones predeterminadas de la plataforma como cp1252, cp1250, etc';
 $string['ldap_encoding_key'] = 'Codificación LDAP';
 $string['memberattribute'] = 'Atributo de miembro LDAP';
-$string['memberattribute_isdn'] = 'Si la pertenencia a grupo contiene \'nombres distinguidos\'  necesita especificarlo aquí. Si es así, también necesita configurar el resto de parámetros de esta sección.';
+$string['memberattribute_isdn'] = 'Si la pertenencia a grupo contiene nombres distinguidos necesita especificarlos aquí. Si es así, también necesita configurar el resto de parámetros de esta sección.';
 $string['memberattribute_isdn_key'] = 'El atributo de miembro usa \'dn\' (nombre distinguido)';
 $string['nested_groups'] = '¿Desea usar grupos anidados (i.e., grupos de grupos) para la matriculación?';
 $string['nested_groups_key'] = 'Grupos anidados';
@@ -104,7 +104,7 @@ $string['objectclass_key'] = 'Clase del objeto';
 $string['ok'] = 'Ok';
 $string['opt_deref'] = 'Si la membresía del grupo contiene nombres distinguidos, especifique cómo se manejarán los alias durante la búsqueda. Elija uno de los siguientes valores: \'No\' (LDAP_DEREF_NEVER) o \'Sí\' (LDAP_DEREF_ALWAYS).';
 $string['opt_deref_key'] = 'Eliminar referencias de alias';
-$string['phpldap_noextension'] = '<em>El módulo PHP LDAP no parecen estar presente. Por favor, asegúrese de que está instalado y habilitado si desea utilizar esta extensión de de matriculación.</em>';
+$string['phpldap_noextension'] = 'El módulo PHP LDAP no parece estar presente. Por favor, asegúrese de que está instalado y habilitado si desea utilizar esta extensión de matriculación.';
 $string['pluginname'] = 'Matriculaciones LDAP';
 $string['pluginname_desc'] = '<p>Usted puede utilizar un servidor LDAP para coltrolar sus matriculaciones. Se asume que su árbol LDAP contiene grupos que apuntan a los cursos y que cada uno de esos grupos o cursos contienen entradas de matriculación que hacen referencia a los estudiantes.</p>
 <p>Se asume que los cursos están definidos como grupos en LDAP, de modo que cada grupo tiene múltiples campos de pertenencia  (<em>member</em> o <em>memberUid</em>) que contienen una identificación única del usuario.</p>
@@ -112,10 +112,8 @@ $string['pluginname_desc'] = '<p>Usted puede utilizar un servidor LDAP para colt
 <p>Las matriculaciones se actualizarán cuando el usuario se identifique. Consulte en <em>enrol/ldap/enrol_ldap_sync.php</em>.</p>
 <p>Esta extensión  puede también ajustarse para crear nuevos cursos de forma automática cuando aparecen nuevos grupos en LDAP.</p>';
 $string['pluginnotenabled'] = 'El plugin no está habilitado';
-$string['privacy:metadata'] = 'El plugin de Inscripciones LDAP no almacena ningún dato personal.';
-$string['role_mapping'] = 'Para cada rol que desee asignar a partir de LDAP, debe especificar la lista de contextos donde se localizan los grupos del curso con este rol. Separe los diferentes contextos con punto y coma \';\'.
-
-También es necesario especificar el atributo que su servidor LDAP utiliza para mantener los miembros de un grupo. Por lo general, \'member\' o \'memberUid\'';
+$string['privacy:metadata'] = 'El complemento de Inscripciones LDAP no almacena ningún dato personal.';
+$string['role_mapping'] = '<p>Para cada rol que desee asignar a partir de LDAP debe especificar la lista de contextos donde se localizan los grupos del curso con este rol. Separe los diferentes contextos con punto y coma (;).</p><p>También es necesario especificar el atributo que su servidor LDAP utiliza para mantener los miembros de un grupo. Por lo general suele ser \'member\' o \'memberUid\'.</p>';
 $string['role_mapping_attribute'] = 'Atributo de miembro LDAP para {$a}';
 $string['role_mapping_context'] = 'Contextos LDAP para {$a}';
 $string['role_mapping_key'] = 'Mapear roles desde LDAP';
@@ -129,12 +127,11 @@ $string['unassignrole'] = 'Quitando la asignación al rol  \'{$a->role_shortname
 $string['unassignrolefailed'] = 'Fallo al quitar la asignación al rol \'{$a->role_shortname}\' al usuario \'{$a->user_username}\' en el curso \'{$a->course_shortname}\' (id {$a->course_id})';
 $string['unassignroleid'] = 'Quitando la asignación al rol con id  \'{$a->role_id}\' al usuario con id \'{$a->user_id}\'';
 $string['updatelocal'] = 'Actualizar datos locales';
-$string['user_attribute'] = 'Si la pertenencia a grupo contiene \'nombres distinguidos\', especifique el atributo utilizado para nombrar/buscar a los usuarios. Si está utilizando la identificación LDAP, este valor debe coincidir con el atributo especificado en el \'número ID\' en la extensión de identificación LDAP';
-$string['user_attribute_key'] = 'ID de atributo de número';
-$string['user_contexts'] = 'Si la pertenencia a grupo contiene \'nombres distinguido\' especifique la lista de los contextos en los que se encuentran los usuarios. Separe los diferentes contextos con coma \',\'.
-Por ejemplo: \'ou=users,o=org; ou=others,o=org\'';
+$string['user_attribute'] = 'Si la pertenencia a grupo contiene nombres distinguidos, especifique el atributo utilizado para nombrar/buscar a los usuarios. Si está utilizando la identificación LDAP, este valor debe coincidir con el atributo especificado en el mapeo del \'número ID\' en la extensión de identificación LDAP.';
+$string['user_attribute_key'] = 'Atributo número ID';
+$string['user_contexts'] = 'Si la pertenencia a grupo contiene nombres distinguidos, especifique la lista de los contextos en los que se encuentran los usuarios. Separe los diferentes contextos con punto y coma (;). Por ejemplo: \'ou=users,o=org; ou=others,o=org\'.';
 $string['user_contexts_key'] = 'Contextos';
-$string['user_search_sub'] = 'Si la pertenencia a grupo contiene \'nombres distinguidos\', especifique si la búsqueda de los usuarios se realiza también en subcontextos';
+$string['user_search_sub'] = 'Si la pertenencia a grupo contiene nombres distinguidos, especifique si la búsqueda de los usuarios se realiza también en subcontextos.';
 $string['user_search_sub_key'] = 'Buscar subcontextos';
 $string['user_settings'] = 'Configuración de búsqueda de usuario';
 $string['user_type'] = 'Si la pertenencia al grupo contiene los nombres particulares, especifique cómo se almacenan los usuarios en LDAP';

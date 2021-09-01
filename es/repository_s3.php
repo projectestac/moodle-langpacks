@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['access_key'] = 'Clave de acceso';
 $string['configplugin'] = 'Ajustes Amazon S3';
+$string['endpoint'] = 'Endpoint de Amazon S3';
 $string['needaccesskey'] = 'Debe proporcionarse una clave de acceso';
 $string['pluginname'] = 'Amazon S3';
 $string['s3:view'] = 'Ver repositorio Amazon S3';

@@ -26,8 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['apierror'] = '{$a}';
+$string['apikey'] = 'Clave API';
 $string['configplugin'] = 'Configuración del tipo de repositorio YouTube';
-$string['pluginname'] = 'Videos YouTube';
+$string['pluginname'] = 'Vídeos de YouTube';
 $string['search'] = 'Buscar videos';
 $string['sortby'] = 'Ordenar por';
 $string['sortpublished'] = 'Fecha de publicación';

@@ -226,7 +226,7 @@ Ikasleek osatu gisa eskuz markatu dezaketen jardueretan, jarduera-orrian \'Marka
 $string['tour_activityinfo_activity_teacher_title'] = 'Berria: Jardueraren informazioa';
 $string['tour_activityinfo_course_student_content'] = 'Orain ikasleei jarduera datak eta jardueraren osaketa-baldintzak ikastaro-orrian erakusten zaizkie.';
 $string['tour_activityinfo_course_student_title'] = 'Berria: Jardueraren informazioa';
-$string['tour_activityinfo_course_teacher_content'] = '\'Erakutsi jardueren osaketa-baldintzak\' eta \'Erakutsi jardueraren datak\' ikastaroko ezarpen berriek jardueren osaketa-baldintzak (zehaztuta badaude) edota datak ikasleek ikastaro-orrian erakusteko aukera ematen dute.';
+$string['tour_activityinfo_course_teacher_content'] = 'Ikastaroen \'Erakutsi jardueren osaketa-baldintzak\' eta \'Erakutsi jardueraren datak\' ezarpen berriek ikasleei jardueren osaketa-baldintzak - zehaztuta badaude - edota datak ikastaro-orrian erakusteko aukera ematen dute.';
 $string['tour_activityinfo_course_teacher_title'] = 'Berria: Jardueraren informazioa';
 $string['tour_final_step_content'] = 'Zure erabiltzaile-ibilbidearen amaiera duzu hau. Ez da berriro abiatuko behealdeko estekan klik egin ezean.';
 $string['tour_final_step_title'] = 'Ibilbidearen amaiera';

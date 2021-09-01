@@ -708,6 +708,7 @@ $string['htmlsettings'] = 'HTML ezarpenak';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP segurtasuna';
 $string['iconvrequired'] = 'ICONV hedapena instalatzea beharrezkoa da.';
+$string['igbinary322buggyversion'] = 'Gunean instalatutako php-igbinary luzapenak arazoak eman ditzake PHP 7.2 bertsioa erabiltzean. Gomendagarria da php-igbinary 3.2.5 edo berriagoa instalatzea edo bestela PHP 7.3 edo berriagora eguneratzea.';
 $string['ignore'] = 'Baztertu';
 $string['includemoduleuserdata'] = 'Sartu moduluaren erabiltzailearen datuak';
 $string['incompatibleblocks'] = 'Bloke bateraezinak';

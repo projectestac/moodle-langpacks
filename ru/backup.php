@@ -173,6 +173,7 @@ $string['copycourseheading'] = 'Скопировать курс';
 $string['copycoursetitle'] = 'Копировать курс: {$a}';
 $string['copydest'] = 'Место назначения';
 $string['copyfieldnotfound'] = 'Обязательное поле не найдено';
+$string['copyformfail'] = 'Отправка AJAX формы копии курса не удалась.';
 $string['copyingcourse'] = 'Выполняется копирование курса';
 $string['copyingcourseshortname'] = 'копирование';
 $string['copyop'] = 'Текущая операция';

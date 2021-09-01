@@ -27,8 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['cachedef_foldername'] = 'Nombre de la carpeta caché';
 $string['clientid'] = 'ID del cliente';
-$string['configplugin'] = 'Configurar Microsoft Skydrive';
+$string['configplugin'] = 'Configurar Microsoft OneDrive (legado)';
 $string['oauthinfo'] = '<p> Para utilizar esta extensión debe registrar su sitio <a href="https://manage.dev.live.com/Applications/Index">en Microsoft</a> . <p> Como parte del proceso de registro, tendrá que introducir la siguiente URL como "redireccionamiento de dominio": </p><p> {$a->callbackurl} </p> Una vez registrado, se le proporcionará un ID de cliente y la clave secreta con los que podrá acceder aquí. </p>';
 $string['pluginname'] = 'Microsoft Skydrive';
 $string['secret'] = 'Clave secreta';
-$string['skydrive:view'] = 'Ver Skydrive';
+$string['skydrive:view'] = 'Ver OneDrive (legado)';

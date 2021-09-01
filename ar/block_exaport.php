@@ -44,6 +44,7 @@ $string['exaport:importfrommoodle'] = 'الاستيراد من';
 $string['explainingfile'] = 'الملفات. تلك الملفات قد تكون مشتركة ما بين كل الأعضاء المخول لهم في المساق.';
 $string['explaininglink'] = 'الروابط. تلك الروابط قد تكون مشتركة ما بين كل الأعضاء المخول لهم في المساق.';
 $string['explainingnote'] = 'الملاحظات. تلك الملاحظات قد تكون مشتركة ما بين كل الأعضاء المخول لهم في المساق.';
+$string['filecopiedtocourse'] = 'تم نسخ الملف إلى المساق $a->coursename بتسمية $a->filename';
 $string['filetypenotdetected'] = 'تعذر الكشف عن نوع الملف $a->filename ($a->title). لم يتم استيراد الملف!';
 $string['firstname'] = 'الاسم الأول';
 $string['firstnameshared'] = 'الاسم الأول';

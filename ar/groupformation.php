@@ -71,6 +71,8 @@ $string['privacy:metadata:groupformation_answer'] = 'معلومات عن إجا�
 $string['privacy:metadata:groupformation_answer:answer'] = 'الإجابة المعطاة من قبل المستخدم';
 $string['privacy:metadata:groupformation_answer:timestamp'] = 'الطابع الزمني لوقت إرسال المستخدم للإجابة';
 $string['privacy:metadata:groupformation_groups:group_size'] = 'حجم المجموعة';
+$string['privacy:metadata:groupformation_groups:groupname'] = 'اسم المجموعة';
+$string['privacy:metadata:groupformation_user_values:label'] = 'اسم المعيار المستعمل في تشكيل المجموعة';
 $string['privacy:metadata:groupformation_users:answer_count'] = 'عدد الأسئلة المجاب عليها';
 $string['questionnaire_closed'] = 'تم أغلاق الاستبيان لذلك لا يمكن إدخال الإجابات أو تحريرها.';
 $string['questionnaire_committed'] = 'لقد سبق لك تسليم إجاباتك، لذلك لا يمكنك تحريرها بعد الآن.';
@@ -86,6 +88,7 @@ $string['questionnaire_submit'] = 'تسليم الإجابات';
 $string['questionnaire_submitted'] = 'لقد سبق لك تسليم إجاباتك. تراجع عن التسليم أو قم بإزالة الموافقة للبدء من جديد.';
 $string['ratio_answers'] = 'لذلك، <b>{$a}%</b> من الطلاب أجابوا بأنهم لم يعطوا إجابات صادقة وبتركيز كامل.';
 $string['re-open_questionnaire'] = 'إعادة فتح الاستبيان';
+$string['sampleGroupName'] = 'اسم مجموعتك هو';
 $string['scenario_homeworkgroups'] = 'مجاميع الواجب البيتي';
 $string['scenario_homeworkgroups_short'] = 'مجالات المعرفة والأهداف المستهدفة غير متجانسة؛ توجه الفريق متجانس.';
 $string['settings_header'] = 'عام';
@@ -110,3 +113,4 @@ $string['tabletitle_binquestion_multi'] = 'يرجى إجابة السؤال مت
 $string['tabletitle_general'] = 'عام';
 $string['topics_statistics'] = 'إحصائيات المواضيع المقدمة';
 $string['topics_statistics_score'] = 'الدرجة [0-1]';
+$string['your_group'] = 'اسم مجموعتك هو:';

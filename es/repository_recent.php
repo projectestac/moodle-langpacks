@@ -32,3 +32,5 @@ $string['pluginname'] = 'Archivos recientes';
 $string['pluginname_help'] = 'Archivos usados recientemente por el usuario actual';
 $string['recent:view'] = 'Ver plugin de repositorio de archivos recientes';
 $string['recentfilesnumber'] = 'Número de archivos recientes';
+$string['timelimit'] = 'Límite de tiempo';
+$string['timelimit_help'] = 'Solo recuperar archivos recientes dentro del límite de tiempo';

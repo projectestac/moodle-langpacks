@@ -53,6 +53,7 @@ $string['generalsection'] = 'الإعدادات العامة';
 $string['hourssetting'] = 'لقد أدخلت تاريخاً أو وقتاً غير صحيحين. تحقق من أن إجمالي طول الجلسة ينبغي أن لا يتجاوز 10 ساعات.';
 $string['invalidkey'] = '<div class="alert alert-warning alert-block fade in">مفتاح واجهة برمجة التطبيق / مفتاح السر، غير صالحين أو مفقودان</div>';
 $string['jointime'] = 'وقت الانضمام';
+$string['lastname_help'] = 'أدخل اسمك الأخير.';
 $string['missingdomain'] = 'اسم المجال مفقود';
 $string['name'] = 'الاسم';
 $string['noquestionsinquiz'] = 'لا توجد أسئلة في هذا الاختبار.';

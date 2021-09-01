@@ -719,6 +719,7 @@ $string['htmlsettings'] = 'إعدادات HTML';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'أمان HTTP';
 $string['iconvrequired'] = 'تنصيب الامتداد ICONV مطلوب.';
+$string['igbinary322buggyversion'] = 'إن الإضافة php-igbinary المنصبة في الموقع قد تؤدي إلى مشاكل عند تشغيلها مع PHP 7.2. نوصيك إما بالترقية إلى php-igbinary 3.2.5 أو ما بعدها، أو بدلاً من ذلك الترقية إلى PHP 7.3 أو ما بعده.';
 $string['ignore'] = 'تجاهل';
 $string['includemoduleuserdata'] = 'يتضمن الوحدة النمطية لبيانات المستخدم';
 $string['incompatibleblocks'] = 'كتل غير متوافقة';

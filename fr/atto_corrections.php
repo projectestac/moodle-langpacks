@@ -46,5 +46,6 @@ $string['dialogtitle'] = 'Ajouter/Modifier une correction';
 $string['displayfulltext'] = 'Afficher le texte avec les marques de correction';
 $string['fulltexttitle'] = 'Texte avec les marques de correction';
 $string['pluginname'] = 'Corrections';
+$string['privacy:metadata'] = 'Le plugin atto_corrections n\'enregistre aucune donnée personnelle.';
 $string['removemark'] = 'Supprimer cette marque de correction';
 $string['settings'] = 'Réglages des corrections de texte intégrées';

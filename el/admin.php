@@ -715,6 +715,7 @@ $string['htmlsettings'] = 'Ρυθμίσεις HTML';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'Ασφάλεια HTTP';
 $string['iconvrequired'] = 'Απαιτείται εγκατάσταση επέκτασης ICONV.';
+$string['igbinary322buggyversion'] = 'Η επέκταση php-igbinary που είναι εγκατεστημένη στον ιστότοπο μπορεί να οδηγήσει σε προβλήματα κατά την εκτέλεση με την PHP 7.2. Συνιστάται είτε να κάνετε αναβάθμιση σε php-igbinary 3.2.5 ή μεταγενέστερη, είτε εναλλακτικά να αναβαθμίσετε σε PHP 7.3 ή μεταγενέστερη.';
 $string['ignore'] = 'Αγνόηση';
 $string['includemoduleuserdata'] = 'Συμπερίληψη των δεδομένων των χρηστών των αρθρωμάτων';
 $string['incompatibleblocks'] = 'Μη-συμβατά μπλοκ';

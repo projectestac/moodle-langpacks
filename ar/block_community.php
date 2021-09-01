@@ -80,6 +80,7 @@ $string['orderbypublisher'] = 'ناشر';
 $string['outcomes'] = 'مخرجات: {$a}';
 $string['pluginname'] = 'مستكشف المجتمعات';
 $string['privacy:metadata:block_community:coursedescription'] = 'وصف المساق المجتمعي المرتبط.';
+$string['privacy:metadata:block_community:coursename'] = 'اسم المساق المجتمعي المرتبط';
 $string['removecommunitycourse'] = 'استبعد مقرر دراسي لمجتمع';
 $string['restorecourse'] = 'استرجع مقرر دراسي';
 $string['restorecourseinfo'] = 'استرج المقرر الدراسي';

@@ -61,6 +61,7 @@ $string['fullgroup'] = 'المجموعة كاملة';
 $string['group_creation_alt'] = 'أنشئ مجموعات';
 $string['groups_queues_limit_help'] = 'يحدد مواضع الطابور المتاحة لكل مجموعة إذا كانت مفعلة';
 $string['groupsize'] = 'حجم المجموعة';
+$string['grouptoolname_help'] = 'اسم عيِّنة أداة المجموعة';
 $string['intro'] = 'الوصف';
 $string['nosmallgroups'] = 'إمنع المجموعات الصغيرة';
 $string['not_allowed_to_show_members'] = 'ليست لديك صلاحية معاينة هذه المعلومة!';

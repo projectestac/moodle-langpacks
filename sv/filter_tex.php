@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configconvertformat'] = 'Om <i>latex, dvips</i> och <i>konvertera</i> är tillgängliga, visas bilderna skapas med det angivna formatet. Om det inte är aktiverat kommer mimetex att användas och det kommer att skapa GIF-bilder.';
+$string['configconvertformat'] = 'Om <i>latex</i> och <i>dvips</i> finns förutom <i>konvertera</i> eller <i>dvisvgm</i> väljer du önskad bildtyp (<i>konvertera</i> skapar GIF eller PNG; <i>dvisvgm</i> skapar SVG). Annars används <i>mimeTeX</i> för att skapa GIF-bilder.';
 $string['convertformat'] = 'Bildformat';
 $string['filtername'] = 'TeX-notation';
 $string['latexpreamble'] = 'LaTeX utkast';

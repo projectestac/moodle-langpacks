@@ -38,6 +38,7 @@ $string['formatnoinline'] = 'Sen texto en liña';
 $string['formatplain'] = 'Texto simple';
 $string['graderinfo'] = 'Información para cualificadores';
 $string['graderinfoheader'] = 'Información para cualificadores';
+$string['maxbytes'] = 'Tamaño máximo de ficheiro';
 $string['mustattach'] = 'Cando se selecciona «Sen texto en liña», ou as respostas son opcionais, Vostede debe permitir polo menos un anexo.';
 $string['mustrequire'] = 'Cando se selecciona «Sen texto en liña», ou as respostas son opcionais, Vostede debe requirir polo menos un anexo.';
 $string['mustrequirefewer'] = 'Non pode requirir máis anexos dos que permite.';

@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['criteria'] = 'معيار الإفادة';
 $string['criteriafieldsadd'] = 'إضافة المزيد من حقول المعيار';
+$string['criteriasetname_help'] = 'اسم مجموعة المعايير ينبغي أن يكون فريدًا عبر كل الموقع، لذلك يرجى اختياره بعناية.';
 $string['criteriasetpublish'] = 'المشاركة مع المستخدمين الآخرين';
 $string['default_help'] = 'إذا تم ضبطه، سيتم تمكين طريقة الإفادة هذه إفتراضياً لكل الواجبات الجديدة.';
 $string['enabled'] = 'الإفادة المنظمة';

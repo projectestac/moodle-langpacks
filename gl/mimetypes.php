@@ -64,6 +64,7 @@ $string['group:html_track'] = 'Ficheiros de pistas HTML';
 $string['group:html_video'] = 'Ficheiros de vídeo compatíbeis nativamente cos navegadores';
 $string['group:image'] = 'Ficheiros de imaxe';
 $string['group:media_source'] = 'Medio de transmisión';
+$string['group:optimised_image'] = 'Ficheiros de imaxes a optimizar, como as insignias';
 $string['group:presentation'] = 'Ficheiros de presentación';
 $string['group:sourcecode'] = 'Código fonte';
 $string['group:spreadsheet'] = 'Ficheiros de folla de cálculo';

@@ -83,7 +83,7 @@ $string['assignmentmailsmall'] = '{$a->grader} submeteu feedback
 ao seu trabalho que submeteu na atividade \'{$a->assignment}\'. Pode consultar o feedback na área do trabalho.';
 $string['assignmentname'] = 'Designação';
 $string['assignmentplugins'] = 'Trabalho';
-$string['assignmentsperpage'] = 'Nº de trabalhos por página';
+$string['assignmentsperpage'] = 'N.º de trabalhos por página';
 $string['assignsubmission'] = 'Módulo de submissão';
 $string['assignsubmissionpluginname'] = 'Módulo de submissão';
 $string['attemptheading'] = 'Tentativa {$a->attemptnumber}: {$a->submissionsummary}';
@@ -153,7 +153,7 @@ $string['couldnotfindassignmenttoupgrade'] = 'Não foi possível encontrar antig
 $string['crontask'] = 'Processamento em segundo plano do módulo trabalho';
 $string['currentassigngrade'] = 'Nota atual do trabalho';
 $string['currentattempt'] = 'Tentativa {$a}';
-$string['currentattemptof'] = 'Esta é a {$a->attemptnumber}ª tentativa (em {$a->maxattempts} tentativas permitidas).';
+$string['currentattemptof'] = 'Esta é a {$a->attemptnumber}.ª tentativa (em {$a->maxattempts} tentativas permitidas).';
 $string['currentgrade'] = 'Nota atual na pauta';
 $string['cutoffdate'] = 'Data de fecho';
 $string['cutoffdate_help'] = 'Se ativar esta opção, não serão aceites submissões do trabalho após esta data, exceto se houver prorrogação do prazo.';

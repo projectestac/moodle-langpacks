@@ -77,6 +77,7 @@ $string['comments'] = 'Комментарии';
 $string['commentsaved'] = 'Комментарий сохранен';
 $string['commentsn'] = 'комментариев - {$a}';
 $string['commentsoff'] = 'Комментарии отключены';
+$string['completiondetail:entries'] = 'Надо внести записей: {$a}';
 $string['completionentries'] = 'Требуемое количество записей';
 $string['completionentriescount'] = 'Количество записей';
 $string['completionentriesdesc'] = 'Минимальное количество требуемых записей: {$a}';

@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['activitymodulecountcache'] = 'Armazenar na cache o número de alunos que podem aceder a um determinado módulo numa determinada disciplina';
+$string['activitystudentrolescache'] = 'Armazenar na cache os papeis do aluno';
+$string['activitystudentscache'] = 'Armazenar na cache os ID dos alunos numa determinada disciplina';
 $string['addsection'] = 'Adicionar secção';
 $string['arrow'] = 'Seta';
 $string['bulb'] = 'Lâmpada';

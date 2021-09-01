@@ -79,7 +79,7 @@ $string['indicator:socialbreadth'] = 'Chatt social';
 $string['indicator:socialbreadth_help'] = 'Denna indikator baseras på den sociala bredd som uppnåtts av studenten i en Chattaktivitet.';
 $string['indicator:socialbreadthdef'] = 'Chatt social';
 $string['indicator:socialbreadthdef_help'] = 'Deltagaren har nått denna procentandel av det sociala engagemanget som erbjuds av Chattaktiviteterna under detta analysintervall (Nivåer = Inget deltagande, Deltagaren ensamt, Deltagaren tillsammans med andra)';
-$string['inputarea'] = 'Inmatningsområde';
+$string['inputarea'] = 'Inmatningsfält';
 $string['invalidid'] = 'Det gick inte att hitta det chat-rummet!';
 $string['list_all_sessions'] = 'Lista alla sessioner';
 $string['list_complete_sessions'] = 'Lista bara slutförda sessioner';

@@ -287,7 +287,7 @@ $string['h5p:deploy'] = 'Implantar conteúdo H5P';
 $string['h5p:setdisplayoptions'] = 'Definir opções de exibição do H5P';
 $string['h5p:updatelibraries'] = 'Gerir tipos de conteúdo H5P';
 $string['highlightedcellsshowdefault'] = 'As permissões destacadas na tabela abaixo mostram as permissões predefinidas para este tipo de papel, com base no papel modelo atualmente selecionado acima.';
-$string['highlightedcellsshowinherit'] = 'As células em destaque na tabela abaixo mostram as permissões (se houver) que serão herdadas. Além das permissões que pretende alterar, deve deixar o resto com a permissão herdar.';
+$string['highlightedcellsshowinherit'] = 'As células destacadas na tabela abaixo mostram as permissões (se existirem) que serão herdadas. À parte das permissões que pretende alterar, deve deixar as restantes com a permissão \'Herdar\'.';
 $string['inactiveformorethan'] = 'sem atividade há mais de {$a->timeperiod}';
 $string['ingroup'] = 'no grupo {$a->group}';
 $string['inherit'] = 'Herdar';
@@ -329,9 +329,9 @@ $string['novisibleroles'] = 'Sem papeis';
 $string['overrideanotherrole'] = 'Redefinir outro papel';
 $string['overridecontext'] = 'Contexto de redefinição';
 $string['overridepermissions'] = 'Redefinir permissões';
-$string['overridepermissions_help'] = 'Redefinir permissões faz com que as permissões selecionadas sejam permitidas ou não num contexto específico.';
+$string['overridepermissions_help'] = 'Redefinir permissões faz com que as permissões selecionadas sejam permitidas, ou não, num contexto específico.';
 $string['overridepermissions_link'] = 'admin/roles/override';
-$string['overridepermissionsforrole'] = 'Redefinir permissões no papel \'{$a->role}\' em {$a->context}';
+$string['overridepermissionsforrole'] = 'Redefinir permissões do papel \'{$a->role}\' em {$a->context}';
 $string['overridepermissionsin'] = 'Redefinir permissões em {$a}';
 $string['overrideroles'] = 'Redefinir Papéis';
 $string['overriderolesin'] = 'Redefinir papéis em {$a}';
@@ -340,12 +340,12 @@ $string['overridesbycontext'] = 'Redefinir (por contexto)';
 $string['payment:manageaccounts'] = 'Gerir contas';
 $string['payment:viewpayments'] = 'Visualizar pagamentos';
 $string['permission'] = 'Permissão';
-$string['permission_help'] = 'As permissões são as configurações das permissões. Existem 4 opções:
+$string['permission_help'] = 'As permissões podem ser definidas com base em 4 opções:
 
 * Não definido
-* Permitir - A permissão é concedida para a permissão
-* Impedir - A permissão é removida para a permissão, mesmo se for permitida num contexto superior
-* Proibir - A permissão é completamente proibida e não pode ser adaptada em nenhum contexto abaixo (mais específico)';
+* Permitir - A permissão é concedida
+* Impedir - A permissão é removida caso tenha sido permitida num contexto superior
+* Proibir - A permissão é completamente proibida e não pode ser adaptada em nenhum contexto mais baixo (mais específico)';
 $string['permissions'] = 'Permissões';
 $string['permissionsforuser'] = 'Permissões para o utilizador {$a}';
 $string['permissionsincontext'] = 'Permissões em {$a}';

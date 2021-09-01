@@ -25,8 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['additionalskiptables'] = 'Tablas de salto adicionales';
+$string['additionalskiptables_desc'] = 'Una lista de tablas (separadas por comas) que se deben omitir al ejecutar la búsqueda y reemplazo de la base de datos.';
+$string['cannotfit'] = 'El reemplazo es más largo que el original y no se permite el acortamiento; no puede continuar.';
 $string['disclaimer'] = 'Entiendo los riesgos de esta operación';
 $string['doit'] = '¡Sí, hazlo!';
+$string['excludedtables'] = 'Varias tablas no se actualizan como parte del reemplazo de texto. Incluye tablas de configuración, registro, eventos y sesiones.';
 $string['invalidcharacter'] = 'Se han encontrado carácteres inválidos en la búsqueda o en el reemplazo de texto.';
 $string['notifyfinished'] = '...finalizado';
 $string['notifyrebuilding'] = 'Reconstruyendo la caché del curso...';

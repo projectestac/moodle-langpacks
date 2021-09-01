@@ -30,6 +30,7 @@ $string['calendardescriptionintro'] = '\\nالوصف:\\n{\\$a}';
 $string['moduleintro'] = 'الوصف';
 $string['participants'] = 'المشاركون';
 $string['privacy:metadata:quickom_meeting_participants:attentiveness_score'] = 'درجة إنتباه المشارك';
+$string['privacy:metadata:quickom_meeting_participants:name'] = 'اسم المشارك';
 $string['quickomurl'] = 'عنوان رابط صفحة Quickom الرئيسية';
 $string['showdescription'] = 'عَرض الوصف في صفحة المساق';
 $string['title'] = 'العنوان';

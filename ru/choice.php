@@ -58,6 +58,7 @@ $string['closebeforeopen'] = 'Вы указали дату закрытия ра
 $string['completiondetail:submit'] = 'Сделать выбор';
 $string['completionsubmit'] = 'Показать как завершенный, когда пользователь сделает выбор';
 $string['description'] = 'Вступление';
+$string['deselectalloption'] = 'Снять выделение со всех "{$a}"';
 $string['displayhorizontal'] = 'Отображать горизонтально';
 $string['displaymode'] = 'Режим отображения';
 $string['displayvertical'] = 'Отображать вертикально';
